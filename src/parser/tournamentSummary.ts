@@ -1,5 +1,3 @@
-import type { Tournament } from '../types/hand';
-
 export interface ParsedTournamentSummary {
   tournamentId: string;
   finishPosition: number | null;

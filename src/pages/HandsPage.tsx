@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { clsx } from 'clsx';
-import { Search, Filter, ChevronDown, ChevronUp, Eye, Upload as UploadIcon, FileText, CheckCircle, AlertCircle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, Filter, ChevronDown, ChevronUp, Eye, Upload as UploadIcon, CheckCircle, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useAppStore } from '../data/appStore';
 import { getAllHeroDecisions, getHands, importHands, importTournamentSummaries, getTotalHandCount } from '../data/store';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
@@ -102,7 +102,11 @@ export function HandsPage() {
 
   // View state
   const [replayHandId, setReplayHandId] = useState<string | null>(null);
-  const { strategyProfile, heroName } = useAppStore();
+  const { strategyProfile } = useAppStore();
+
+  // Derived replay data
+  const replayHand = replayHandId ? handsMap.get(replayHandId) ?? null : null;
+  const replayDecision = replayHandId ? decisions.find((d) => d.handId === replayHandId) ?? null : null;
 
   const load = useCallback(async () => {
     const [raw, hands] = await Promise.all([getAllHeroDecisions(), getHands()]);

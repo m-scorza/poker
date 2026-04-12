@@ -8,9 +8,8 @@ import { useEffect, useState, useMemo, useCallback } from 'react';
 import { clsx } from 'clsx';
 import { Search, Users, Tag, MessageSquare, X, Plus } from 'lucide-react';
 import { db, saveVillainNote, getAllVillainNotes } from '../data/store';
-import { classifyVillain, computeVillainStats, getExploitAdvice, isRecreational } from '../analysis/villainClassifier';
-import type { VillainArchetype, VillainRawCounters, ArchetypeConfidence, VillainStats } from '../types/villain';
-import { emptyCounters } from '../analysis/villainClassifier';
+import { getExploitAdvice, isRecreational } from '../analysis/villainClassifier';
+import type { VillainArchetype, ArchetypeConfidence, VillainStats } from '../types/villain';
 
 interface VillainRow {
   name: string;
@@ -425,6 +424,7 @@ function VillainDetailPanel({
           className="w-full px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)] resize-y"
         />
       </div>
+    </div>
     </div>
   );
 }

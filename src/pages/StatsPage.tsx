@@ -2,7 +2,6 @@
  * Statistics page — detailed stat breakdown.
  */
 
-import { useEffect } from 'react';
 import { StatCard } from '../components/shared/StatCard';
 import { useAppStore } from '../data/appStore';
 import { computeAggregateStats } from '../analysis/leakDetector';

@@ -2,6 +2,8 @@ import type { Action } from '../types/hand';
 import type { Position, Scenario, HeroDecision } from '../types/analysis';
 import type { ParsedHand } from '../parser/pokerstars';
 import { toCanonicalHandKey } from '../parser/handKey';
+import { estimateICMStage } from './icmDetector';
+import { detectSqueezeOpportunity } from './squeezeDetector';
 
 const FORCED_ACTIONS = new Set(['post_ante', 'post_sb', 'post_bb']);
 
@@ -135,6 +137,14 @@ export function buildHeroDecision(
     hand.activePlayers,
   );
 
+  // ICM stage detection
+  const icmEstimate = estimateICMStage(hand, players);
+
+  // Squeeze opportunity detection
+  const squeezeResult = detectSqueezeOpportunity(
+    actions, heroName, hero.position, handKey, stackBb, hand.bigBlind,
+  );
+
   // Find hero's first voluntary preflop action
   const heroVoluntaryActions = actions.filter(
     (a) =>
@@ -153,9 +163,6 @@ export function buildHeroDecision(
           : 'fold';
 
   // Postflop analysis
-  const heroPostflopActions = actions.filter(
-    (a) => a.playerName === heroName && a.street !== 'preflop',
-  );
   const sawFlop = hand.boardFlop !== null && heroAction !== 'fold';
   const wasPreFlopRaiser =
     heroVoluntaryActions.some((a) => a.actionType === 'raise');
@@ -206,13 +213,11 @@ export function buildHeroDecision(
       a.actionType !== 'fold',
   ) && hand.boardRiver !== null;
 
-  // Won at showdown: check if hero's seat won in summary
-  // (simplified — look for hero not folding on river when river exists)
-  const wonAtShowdown = wentToShowdown && heroPostflopActions.length > 0;
-  // This is a simplification; full implementation needs summary parsing
-
   // Won amount: from parsed "collected X from pot" lines
   const wonAmount = collectedAmounts?.get(heroName) ?? 0;
+
+  // Won at showdown: hero went to showdown AND collected chips
+  const wonAtShowdown = wentToShowdown && wonAmount > 0;
 
   return {
     handId: hand.id,
@@ -233,5 +238,9 @@ export function buildHeroDecision(
     wentToShowdown,
     wonAtShowdown,
     wonAmount,
+    icmStage: icmEstimate.stage,
+    squeezeSpot: squeezeResult
+      ? { callerCount: squeezeResult.callerCount, heroAction: squeezeResult.heroAction, recommendedSizing: squeezeResult.recommendedSizing }
+      : null,
   };
 }

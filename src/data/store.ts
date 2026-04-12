@@ -10,7 +10,6 @@ import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import type { VillainProfile } from '../types/villain';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
-import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 
 export interface AppSettings {
   id: string; // 'global'
@@ -117,6 +116,24 @@ export async function importHands(
     },
   );
 
+  // Update tournament hand counts
+  const tournHandCounts = new Map<string, number>();
+  for (const h of newHands) {
+    if (h.hand.tournamentId) {
+      tournHandCounts.set(h.hand.tournamentId, (tournHandCounts.get(h.hand.tournamentId) ?? 0) + 1);
+    }
+  }
+  if (tournHandCounts.size > 0) {
+    await db.transaction('rw', db.tournaments, async () => {
+      for (const [tid, count] of tournHandCounts) {
+        const existing = await db.tournaments.get(tid);
+        if (existing) {
+          await db.tournaments.update(tid, { handsPlayed: (existing.handsPlayed || 0) + count });
+        }
+      }
+    });
+  }
+
   // Aggregate villain stats outside the main transaction to prevent locking
   await aggregateVillainStats(newHands);
 
@@ -201,21 +218,26 @@ export interface VillainNote {
   tags: string[];
 }
 
-/** Save villain notes and tags. */
+/** Save villain notes and tags (preserves existing stats). */
 export async function saveVillainNote(playerName: string, notes: string, tags: string[]): Promise<void> {
-  await db.villains.put({
-    playerName,
-    firstSeen: new Date(),
-    lastSeen: new Date(),
-    totalHands: 0,
-    stats: { vpip: 0, pfr: 0, threeBetPct: 0, foldToThreeBet: 0, cbetFlop: 0, cbetTurn: 0, foldToCbet: 0, wtsd: 0, wsd: 0, af: 0, limpPct: 0 },
-    statsByPosition: new Map(),
-    shownHands: [],
-    archetype: null,
-    archetypeConfidence: 'low',
-    notes,
-    tags,
-  } as VillainProfile);
+  const existing = await db.villains.get(playerName);
+  if (existing) {
+    await db.villains.update(playerName, { notes, tags });
+  } else {
+    await db.villains.put({
+      playerName,
+      firstSeen: new Date(),
+      lastSeen: new Date(),
+      totalHands: 0,
+      stats: { vpip: 0, pfr: 0, threeBetPct: 0, foldToThreeBet: 0, cbetFlop: 0, cbetTurn: 0, foldToCbet: 0, wtsd: 0, wsd: 0, af: 0, limpPct: 0 },
+      statsByPosition: new Map(),
+      shownHands: [],
+      archetype: null,
+      archetypeConfidence: 'low',
+      notes,
+      tags,
+    } as VillainProfile);
+  }
 }
 
 /** Aggregate basic stats for villains from newly imported hands (Bug #5) */
@@ -264,17 +286,41 @@ export async function aggregateVillainStats(
       if (hand.date > v.lastSeen) v.lastSeen = hand.date;
       if (hand.date < v.firstSeen) v.firstSeen = hand.date;
 
-      // Basic VPIP/PFR moving average update
+      // Stat tracking: VPIP, PFR, limps, 3-bets
       const pActions = actions.filter((a) => a.playerName === p.playerName);
-      const preflop = pActions.filter((a) => a.street === 'preflop');
-      const hasVpip = preflop.some((a) => a.actionType === 'call' || a.actionType === 'raise');
-      const hasPfr = preflop.some((a) => a.actionType === 'raise');
+      const preflopVoluntary = pActions.filter(
+        (a) => a.street === 'preflop' && !['post_ante', 'post_sb', 'post_bb'].includes(a.actionType),
+      );
+      const hasVpip = preflopVoluntary.some((a) => a.actionType === 'call' || a.actionType === 'raise');
+      const hasPfr = preflopVoluntary.some((a) => a.actionType === 'raise');
+
+      // Limp: preflop call with no raise before this player's action
+      const allPreflopVoluntary = actions.filter(
+        (a) => a.street === 'preflop' && !['post_ante', 'post_sb', 'post_bb'].includes(a.actionType),
+      );
+      const playerFirstIdx = allPreflopVoluntary.findIndex((a) => a.playerName === p.playerName);
+      const actionsBefore = playerFirstIdx > 0 ? allPreflopVoluntary.slice(0, playerFirstIdx) : [];
+      const hasRaiseBefore = actionsBefore.some((a) => a.actionType === 'raise');
+      const hasLimp = preflopVoluntary.length > 0 &&
+        preflopVoluntary[0]!.actionType === 'call' &&
+        !hasRaiseBefore;
+
+      // 3-bet: player faces a raise and re-raises
+      const has3BetOpp = hasRaiseBefore;
+      const has3Bet = has3BetOpp && preflopVoluntary.some((a) => a.actionType === 'raise');
 
       const n = v.totalHands;
       const updateMA = (old: number, val: number) => ((old * (n - 1)) + val) / n;
 
       v.stats.vpip = updateMA(v.stats.vpip, hasVpip ? 100 : 0);
       v.stats.pfr = updateMA(v.stats.pfr, hasPfr ? 100 : 0);
+      v.stats.limpPct = updateMA(v.stats.limpPct, hasLimp ? 100 : 0);
+      if (has3BetOpp) {
+        // Track 3-bet % only when they had the opportunity
+        const prev3Bet = v.stats.threeBetPct;
+        // Weight: count 3-bet opps separately
+        v.stats.threeBetPct = updateMA(prev3Bet, has3Bet ? 100 : 0);
+      }
     }
   }
 

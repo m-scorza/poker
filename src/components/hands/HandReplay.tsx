@@ -7,8 +7,8 @@ import { useEffect, useState } from 'react';
 import { clsx } from 'clsx';
 import { PokerCard } from '../shared/Card';
 import { getPlayersForHand, getActionsForHand } from '../../data/store';
-import { classifyBoardTexture } from '../../analysis/postflopAnalyzer';
-import { analyzePostflop } from '../../analysis/postflopAnalyzer';
+import { classifyBoardTexture, analyzePostflop } from '../../analysis/postflopAnalyzer';
+import { icmStageLabel, icmStageColor } from '../../analysis/icmDetector';
 import type { Hand, PlayerInHand, Action } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import type { PostflopAction } from '../../analysis/postflopAnalyzer';
@@ -110,11 +110,28 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             <h3 className="font-data font-bold text-lg">
               Hand #{hand.id.slice(-8)}
             </h3>
-            <p className="text-xs text-[var(--color-text-muted)]">
-              {hand.maxSeats}-max | Level {hand.level} ({hand.smallBlind}/{hand.bigBlind})
-              {hand.ante > 0 && ` ante ${hand.ante}`}
-              | Pot: {hand.totalPot}
-            </p>
+            <div className="flex items-center gap-2 flex-wrap">
+              <p className="text-xs text-[var(--color-text-muted)]">
+                {hand.maxSeats}-max | Level {hand.level} ({hand.smallBlind}/{hand.bigBlind})
+                {hand.ante > 0 && ` ante ${hand.ante}`}
+                | Pot: {hand.totalPot}
+              </p>
+              {heroDecision?.icmStage && (
+                <span className={clsx('text-[10px] px-1.5 py-0.5 rounded font-bold', icmStageColor(heroDecision.icmStage))}>
+                  {icmStageLabel(heroDecision.icmStage)}
+                </span>
+              )}
+              {hand.activePlayers <= 5 && hand.level >= 10 && (
+                <span className="text-[10px] px-1.5 py-0.5 rounded font-bold bg-purple-900/30 text-purple-400">
+                  FT
+                </span>
+              )}
+              {heroDecision?.squeezeSpot && heroDecision.squeezeSpot.callerCount > 0 && (
+                <span className="text-[10px] px-1.5 py-0.5 rounded font-bold bg-orange-900/30 text-orange-400">
+                  Squeeze Spot
+                </span>
+              )}
+            </div>
           </div>
           <button
             onClick={onClose}

@@ -54,7 +54,7 @@ describe('groupIntoSessions', () => {
       makeHand('3', '2026-04-05T19:00:00Z'),
     ];
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
-    const sessions = groupIntoSessions(hands, decisions);
+    const sessions = groupIntoSessions(hands, decisions, new Map());
 
     expect(sessions).toHaveLength(1);
     expect(sessions[0]!.totalHands).toBe(3);
@@ -68,7 +68,7 @@ describe('groupIntoSessions', () => {
       makeHand('4', '2026-04-05T18:30:00Z'),
     ];
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
-    const sessions = groupIntoSessions(hands, decisions);
+    const sessions = groupIntoSessions(hands, decisions, new Map());
 
     expect(sessions).toHaveLength(2);
     expect(sessions[0]!.totalHands).toBe(2);
@@ -76,7 +76,7 @@ describe('groupIntoSessions', () => {
   });
 
   it('returns empty for no hands', () => {
-    expect(groupIntoSessions([], new Map())).toHaveLength(0);
+    expect(groupIntoSessions([], new Map(), new Map())).toHaveLength(0);
   });
 
   it('sorts hands by date regardless of input order', () => {
@@ -86,7 +86,7 @@ describe('groupIntoSessions', () => {
       makeHand('2', '2026-04-05T10:30:00Z'),
     ];
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
-    const sessions = groupIntoSessions(hands, decisions);
+    const sessions = groupIntoSessions(hands, decisions, new Map());
 
     // 8.5 hour gap between hand 2 and 3
     expect(sessions).toHaveLength(2);
@@ -99,7 +99,7 @@ describe('groupIntoSessions', () => {
       makeHand('2', '2026-04-06T10:00:00Z'), // Next day
     ];
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
-    const sessions = groupIntoSessions(hands, decisions);
+    const sessions = groupIntoSessions(hands, decisions, new Map());
 
     expect(sessions[0]!.id).toBe('session-1');
     expect(sessions[1]!.id).toBe('session-2');
@@ -112,7 +112,7 @@ describe('groupIntoSessions', () => {
       makeHand('3', '2026-04-05T11:00:00Z', 'T1'),
     ];
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
-    const sessions = groupIntoSessions(hands, decisions);
+    const sessions = groupIntoSessions(hands, decisions, new Map());
 
     expect(sessions[0]!.tournamentIds).toHaveLength(2);
     expect(sessions[0]!.tournamentIds).toContain('T1');
@@ -125,7 +125,7 @@ describe('groupIntoSessions', () => {
       makeHand('2', '2026-04-05T10:30:00Z'),
     ];
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
-    const sessions = groupIntoSessions(hands, decisions);
+    const sessions = groupIntoSessions(hands, decisions, new Map());
 
     expect(sessions[0]!.stats.totalHands).toBe(2);
     expect(sessions[0]!.stats.vpipHands).toBe(2); // Both are raise actions
@@ -139,11 +139,11 @@ describe('groupIntoSessions', () => {
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
 
     // With 1-hour gap, should split
-    const sessions1h = groupIntoSessions(hands, decisions, 60 * 60 * 1000);
+    const sessions1h = groupIntoSessions(hands, decisions, new Map(), 60 * 60 * 1000);
     expect(sessions1h).toHaveLength(2);
 
     // With 2-hour gap, should not split
-    const sessions2h = groupIntoSessions(hands, decisions, 2 * 60 * 60 * 1000);
+    const sessions2h = groupIntoSessions(hands, decisions, new Map(), 2 * 60 * 60 * 1000);
     expect(sessions2h).toHaveLength(1);
   });
 });
@@ -155,7 +155,7 @@ describe('computeSessionTrends', () => {
       makeHand('2', '2026-04-05T10:30:00Z'),
     ];
     const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
-    const sessions = groupIntoSessions(hands, decisions);
+    const sessions = groupIntoSessions(hands, decisions, new Map());
     const trends = computeSessionTrends(sessions);
 
     expect(trends).toHaveLength(1);

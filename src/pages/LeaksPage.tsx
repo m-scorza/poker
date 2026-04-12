@@ -2,7 +2,6 @@
  * Leaks page — detailed leak display with severity and recommendations.
  */
 
-import { useEffect } from 'react';
 import { AlertTriangle, TrendingUp, TrendingDown, CheckCircle, BookOpen } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';

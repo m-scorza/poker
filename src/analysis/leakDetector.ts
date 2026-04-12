@@ -174,8 +174,8 @@ export function detectLeaks(
   const limpPct = pct(stats.limpHands, stats.totalHands);
   const compliance = pct(stats.complianceCompliant, stats.complianceEligible);
 
-  // VPIP
-  if (vpip < thresholds.vpip.min || vpip > thresholds.vpip.max) {
+  // VPIP (minimum 30 hands for meaningful detection)
+  if (stats.totalHands >= 30 && (vpip < thresholds.vpip.min || vpip > thresholds.vpip.max)) {
     const deviation = vpip < thresholds.vpip.min
       ? thresholds.vpip.min - vpip
       : vpip - thresholds.vpip.max;
@@ -193,8 +193,8 @@ export function detectLeaks(
     });
   }
 
-  // PFR
-  if (pfr < thresholds.pfr.min || pfr > thresholds.pfr.max) {
+  // PFR (minimum 30 hands for meaningful detection)
+  if (stats.totalHands >= 30 && (pfr < thresholds.pfr.min || pfr > thresholds.pfr.max)) {
     const deviation = pfr < thresholds.pfr.min
       ? thresholds.pfr.min - pfr
       : pfr - thresholds.pfr.max;
@@ -256,7 +256,7 @@ export function detectLeaks(
   }
 
   // C-bet HU (Critical leak in Game Plan)
-  if (stats.cbetHUOpps >= 3) {
+  if (stats.cbetHUOpps >= 10) {
     if (cbetHU < thresholds.cbetHU.min) {
       leaks.push({
         id: 'cbet_hu',
@@ -308,8 +308,8 @@ export function detectLeaks(
     }
   }
 
-  // Limps (zero tolerance)
-  if (limpPct > thresholds.limpPct.max) {
+  // Limps (zero tolerance, minimum 20 hands)
+  if (stats.totalHands >= 20 && limpPct > thresholds.limpPct.max) {
     leaks.push({
       id: 'limps',
       name: 'Limping',

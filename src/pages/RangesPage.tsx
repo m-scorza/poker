@@ -4,18 +4,19 @@
  */
 
 import { useEffect, useState, useMemo, useCallback } from 'react';
-import { Save, RotateCcw, Edit3, Eye } from 'lucide-react';
+import { Save, RotateCcw, Edit3, Eye, BarChart3 } from 'lucide-react';
 import { RangeGrid, type CellStatus } from '../components/shared/RangeGrid';
 import { useAppStore } from '../data/appStore';
 import { getAllHeroDecisions, saveCustomRange, loadCustomRange, deleteCustomRange } from '../data/store';
 import { batchCheckCompliance, getRFIRange } from '../analysis/rangeChecker';
 import { compliancePercentage } from '../analysis/rangeChecker';
 import { getPushRangeForPosition } from '../analysis/pushFoldChecker';
+import { rangeValidationSummary } from '../analysis/rangeValidator';
 import type { Position, HeroDecision } from '../types/analysis';
 
 const RFI_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB'];
 
-type ViewMode = 'compliance' | 'edit' | 'push_fold';
+type ViewMode = 'compliance' | 'edit' | 'push_fold' | 'validator';
 
 export function RangesPage() {
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
@@ -161,6 +162,16 @@ export function RangesPage() {
             }`}
           >
             Push/Fold
+          </button>
+          <button
+            onClick={() => setViewMode('validator')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg border transition-colors ${
+              viewMode === 'validator'
+                ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border-[var(--color-accent)]'
+                : 'text-[var(--color-text-dim)] border-[var(--color-border)] hover:border-[var(--color-accent)]'
+            }`}
+          >
+            <BarChart3 size={12} /> Validação
           </button>
         </div>
       </div>
@@ -339,6 +350,99 @@ export function RangesPage() {
           </p>
         </div>
       )}
+
+      {/* Range Validator */}
+      {viewMode === 'validator' && <RangeValidatorPanel />}
+    </div>
+  );
+}
+
+function RangeValidatorPanel() {
+  const validation = useMemo(() => rangeValidationSummary(), []);
+
+  const directionLabel = (d: string) =>
+    d === 'wider' ? 'Mais aberto' : d === 'tighter' ? 'Mais fechado' : 'OK';
+  const directionColor = (d: string) =>
+    d === 'match' ? 'text-emerald-400' : 'text-yellow-400';
+
+  return (
+    <div className="mt-4 space-y-4 max-w-2xl">
+      {/* Overall Score */}
+      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5">
+        <div className="flex items-center justify-between mb-3">
+          <h3 className="text-sm font-bold uppercase tracking-wide text-[var(--color-text-dim)]">
+            Precisão dos Ranges
+          </h3>
+          <span className={`text-2xl font-data font-bold ${validation.overallScore >= 80 ? 'text-emerald-400' : validation.overallScore >= 60 ? 'text-yellow-400' : 'text-red-400'}`}>
+            {validation.overallScore}%
+          </span>
+        </div>
+        <div className="flex gap-4 text-xs text-[var(--color-text-dim)]">
+          <span>RFI: <span className="font-data font-bold text-[var(--color-text)]">{validation.rfi.score}%</span></span>
+          <span>Push/Fold: <span className="font-data font-bold text-[var(--color-text)]">{validation.push.score}%</span></span>
+        </div>
+        <p className="text-xs text-[var(--color-text-muted)] mt-2">
+          Comparação dos nossos ranges com baselines de solvers GTO.
+        </p>
+      </div>
+
+      {/* RFI Validation Table */}
+      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4">
+        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">RFI por Posição</h4>
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="text-xs text-[var(--color-text-muted)] border-b border-[var(--color-border)]">
+              <th className="text-left py-1.5 pr-4">Posição</th>
+              <th className="text-right py-1.5 px-3">Nosso %</th>
+              <th className="text-right py-1.5 px-3">Solver %</th>
+              <th className="text-right py-1.5 px-3">Delta</th>
+              <th className="text-left py-1.5 pl-3">Direção</th>
+            </tr>
+          </thead>
+          <tbody>
+            {validation.rfi.results.map((r) => (
+              <tr key={r.position} className="border-b border-[var(--color-border)]/30">
+                <td className="py-1.5 pr-4 font-data font-bold">{r.position}</td>
+                <td className="py-1.5 px-3 text-right font-data">{r.ourPct.toFixed(1)}%</td>
+                <td className="py-1.5 px-3 text-right font-data text-[var(--color-text-dim)]">{r.solverPct.toFixed(1)}%</td>
+                <td className="py-1.5 px-3 text-right font-data">{r.delta.toFixed(1)}%</td>
+                <td className={`py-1.5 pl-3 text-xs font-bold ${directionColor(r.direction)}`}>{directionLabel(r.direction)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {/* Push Validation Table */}
+      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4">
+        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">Push/Fold (10bb) por Posição</h4>
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="text-xs text-[var(--color-text-muted)] border-b border-[var(--color-border)]">
+              <th className="text-left py-1.5 pr-4">Posição</th>
+              <th className="text-right py-1.5 px-3">Nosso %</th>
+              <th className="text-right py-1.5 px-3">Solver %</th>
+              <th className="text-right py-1.5 px-3">Delta</th>
+              <th className="text-left py-1.5 pl-3">Direção</th>
+            </tr>
+          </thead>
+          <tbody>
+            {validation.push.results.map((r) => (
+              <tr key={r.position} className="border-b border-[var(--color-border)]/30">
+                <td className="py-1.5 pr-4 font-data font-bold">{r.position}</td>
+                <td className="py-1.5 px-3 text-right font-data">{r.ourPct.toFixed(1)}%</td>
+                <td className="py-1.5 px-3 text-right font-data text-[var(--color-text-dim)]">{r.solverPct.toFixed(1)}%</td>
+                <td className="py-1.5 px-3 text-right font-data">{r.delta.toFixed(1)}%</td>
+                <td className={`py-1.5 pl-3 text-xs font-bold ${directionColor(r.direction)}`}>{directionLabel(r.direction)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p className="text-xs text-[var(--color-text-muted)]">
+        Fonte: Solver baselines a 50bb (RFI) e 10bb (Push/Fold). Scores ponderados: RFI 60% + Push 40%.
+      </p>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import type { ICMStage } from '../data/strategyProfiles';
+
 export type Position =
   | 'UTG'
   | 'UTG+1'
@@ -58,4 +60,6 @@ export interface HeroDecision {
   wentToShowdown: boolean;
   wonAtShowdown: boolean;
   wonAmount: number;
+  icmStage?: ICMStage;
+  squeezeSpot?: { callerCount: number; heroAction: string; recommendedSizing: number } | null;
 }
