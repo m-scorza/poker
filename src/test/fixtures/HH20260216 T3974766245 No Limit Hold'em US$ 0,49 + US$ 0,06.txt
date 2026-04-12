@@ -1,0 +1,5198 @@
+﻿PokerStars Hand #259756039629: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:45:00 UTC [2026/02/16 17:45:00 ET]
+Table '3974766245 5' 5-max Seat #1 is the button
+Seat 1: Betocruz30 (5000 in chips, $0.36 bounty) 
+Seat 2: scorza23 (5000 in chips, $0.36 bounty) 
+Seat 3: rodrigo_fldo (5000 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (5000 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (5000 in chips, $0.36 bounty) 
+Betocruz30: posts the ante 20
+scorza23: posts the ante 20
+rodrigo_fldo: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+scorza23: posts small blind 50
+rodrigo_fldo: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 9d]
+Rebecca228: calls 100
+#alyson sp: folds 
+Betocruz30: folds 
+scorza23: folds 
+rodrigo_fldo: raises 200 to 300
+Rebecca228: calls 200
+*** FLOP *** [Jh 5d Qh]
+rodrigo_fldo: bets 750
+Rebecca228: calls 750
+*** TURN *** [Jh 5d Qh] [Js]
+rodrigo_fldo: checks 
+Rebecca228: bets 1125
+rodrigo_fldo: calls 1125
+*** RIVER *** [Jh 5d Qh Js] [5c]
+rodrigo_fldo: checks 
+Rebecca228: bets 2250
+rodrigo_fldo: folds 
+Uncalled bet (2250) returned to Rebecca228
+Rebecca228 collected 4500 from pot
+*** SUMMARY ***
+Total pot 4500 | Rake 0 
+Board [Jh 5d Qh Js 5c]
+Seat 1: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: rodrigo_fldo (big blind) folded on the River
+Seat 4: Rebecca228 collected (4500)
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756050708: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:45:46 UTC [2026/02/16 17:45:46 ET]
+Table '3974766245 5' 5-max Seat #2 is the button
+Seat 1: Betocruz30 (4980 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4930 in chips, $0.36 bounty) 
+Seat 3: rodrigo_fldo (2805 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (7305 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4980 in chips, $0.36 bounty) 
+Betocruz30: posts the ante 20
+scorza23: posts the ante 20
+rodrigo_fldo: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+rodrigo_fldo: posts small blind 50
+Rebecca228: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 2s]
+#alyson sp: folds 
+Betocruz30: calls 100
+scorza23: folds 
+rodrigo_fldo: calls 50
+Rebecca228: checks 
+*** FLOP *** [6c 4s Qs]
+rodrigo_fldo: checks 
+Rebecca228: checks 
+Betocruz30: bets 100
+rodrigo_fldo: folds 
+Rebecca228: calls 100
+*** TURN *** [6c 4s Qs] [4d]
+Rebecca228: checks 
+Betocruz30: checks 
+*** RIVER *** [6c 4s Qs 4d] [2d]
+Rebecca228: checks 
+Betocruz30: bets 100
+Rebecca228: folds 
+Uncalled bet (100) returned to Betocruz30
+Betocruz30 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [6c 4s Qs 4d 2d]
+Seat 1: Betocruz30 collected (600)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: rodrigo_fldo (small blind) folded on the Flop
+Seat 4: Rebecca228 (big blind) folded on the River
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756060743: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:46:27 UTC [2026/02/16 17:46:27 ET]
+Table '3974766245 5' 5-max Seat #3 is the button
+Seat 1: Betocruz30 (5360 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4910 in chips, $0.36 bounty) 
+Seat 3: rodrigo_fldo (2685 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (7085 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4960 in chips, $0.36 bounty) 
+Betocruz30: posts the ante 20
+scorza23: posts the ante 20
+rodrigo_fldo: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+Rebecca228: posts small blind 50
+#alyson sp: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Qc]
+Betocruz30: folds 
+scorza23: folds 
+rodrigo_fldo: raises 100 to 200
+Rebecca228: folds 
+#alyson sp: folds 
+Uncalled bet (100) returned to rodrigo_fldo
+rodrigo_fldo collected 350 from pot
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: Betocruz30 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: rodrigo_fldo (button) collected (350)
+Seat 4: Rebecca228 (small blind) folded before Flop
+Seat 5: #alyson sp (big blind) folded before Flop
+
+
+
+PokerStars Hand #259756063966: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:46:40 UTC [2026/02/16 17:46:40 ET]
+Table '3974766245 5' 5-max Seat #4 is the button
+Seat 1: Betocruz30 (5340 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4890 in chips, $0.36 bounty) 
+Seat 3: rodrigo_fldo (2915 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (7015 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4840 in chips, $0.36 bounty) 
+Betocruz30: posts the ante 20
+scorza23: posts the ante 20
+rodrigo_fldo: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+#alyson sp: posts small blind 50
+Betocruz30: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Jh]
+scorza23: raises 110 to 210
+rodrigo_fldo: folds 
+Rebecca228: folds 
+#alyson sp: folds 
+Betocruz30: calls 110
+*** FLOP *** [Td 6s 2s]
+Betocruz30: checks 
+scorza23: bets 210
+Betocruz30: folds 
+Uncalled bet (210) returned to scorza23
+scorza23 collected 570 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 570 | Rake 0 
+Board [Td 6s 2s]
+Seat 1: Betocruz30 (big blind) folded on the Flop
+Seat 2: scorza23 collected (570)
+Seat 3: rodrigo_fldo folded before Flop (didn't bet)
+Seat 4: Rebecca228 (button) folded before Flop (didn't bet)
+Seat 5: #alyson sp (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756070833: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:47:09 UTC [2026/02/16 17:47:09 ET]
+Table '3974766245 5' 5-max Seat #5 is the button
+Seat 1: Betocruz30 (5110 in chips, $0.36 bounty) 
+Seat 2: scorza23 (5230 in chips, $0.36 bounty) 
+Seat 3: rodrigo_fldo (2895 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6995 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4770 in chips, $0.36 bounty) 
+Betocruz30: posts the ante 20
+scorza23: posts the ante 20
+rodrigo_fldo: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+Betocruz30: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 3d]
+rodrigo_fldo: folds 
+Rebecca228: calls 100
+#alyson sp: folds 
+Betocruz30: calls 50
+scorza23: checks 
+*** FLOP *** [Jh 3s 6s]
+Betocruz30: checks 
+scorza23: checks 
+Rebecca228: checks 
+*** TURN *** [Jh 3s 6s] [Ac]
+Betocruz30: checks 
+scorza23: checks 
+Rebecca228: checks 
+*** RIVER *** [Jh 3s 6s Ac] [6d]
+Betocruz30: checks 
+scorza23: bets 200
+Rebecca228: folds 
+Betocruz30: calls 200
+*** SHOW DOWN ***
+scorza23: shows [7h 3d] (two pair, Sixes and Threes)
+Betocruz30: shows [4h 3c] (two pair, Sixes and Threes)
+Betocruz30 collected 400 from pot
+scorza23 collected 400 from pot
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Board [Jh 3s 6s Ac 6d]
+Seat 1: Betocruz30 (small blind) showed [4h 3c] and won (400) with two pair, Sixes and Threes
+Seat 2: scorza23 (big blind) showed [7h 3d] and won (400) with two pair, Sixes and Threes
+Seat 3: rodrigo_fldo folded before Flop (didn't bet)
+Seat 4: Rebecca228 folded on the River
+Seat 5: #alyson sp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756080683: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:47:50 UTC [2026/02/16 17:47:50 ET]
+Table '3974766245 5' 5-max Seat #1 is the button
+Seat 1: Betocruz30 (5190 in chips, $0.36 bounty) 
+Seat 2: scorza23 (5310 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6875 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4750 in chips, $0.36 bounty) 
+Betocruz30: posts the ante 20
+scorza23: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+scorza23: posts small blind 50
+Rebecca228: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 2h]
+#alyson sp: folds 
+Betocruz30: folds 
+scorza23: folds 
+Uncalled bet (50) returned to Rebecca228
+Rebecca228 collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 4: Rebecca228 (big blind) collected (180)
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756083507: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:48:02 UTC [2026/02/16 17:48:02 ET]
+Table '3974766245 5' 5-max Seat #2 is the button
+Seat 1: Betocruz30 (5170 in chips, $0.36 bounty) 
+Seat 2: scorza23 (5240 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6985 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4730 in chips, $0.36 bounty) 
+Betocruz30: posts the ante 20
+scorza23: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+Rebecca228: posts small blind 50
+#alyson sp: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ac]
+Betocruz30: raises 100 to 200
+scorza23: calls 200
+Rebecca228: folds 
+#alyson sp: calls 100
+*** FLOP *** [Kh 8d Ks]
+#alyson sp: checks 
+Betocruz30: bets 200
+scorza23: folds 
+FilipeQuebeq is disconnected 
+#alyson sp: folds 
+Uncalled bet (200) returned to Betocruz30
+Betocruz30 collected 730 from pot
+Betocruz30: doesn't show hand 
+*** SUMMARY ***
+Total pot 730 | Rake 0 
+Board [Kh 8d Ks]
+Seat 1: Betocruz30 collected (730)
+Seat 2: scorza23 (button) folded on the Flop
+Seat 4: Rebecca228 (small blind) folded before Flop
+Seat 5: #alyson sp (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259756089341: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:48:26 UTC [2026/02/16 17:48:26 ET]
+Table '3974766245 5' 5-max Seat #4 is the button
+Seat 2: scorza23 (5020 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5000 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6915 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4510 in chips, $0.36 bounty) 
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+#alyson sp: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Td]
+FilipeQuebeq: raises 4880 to 4980 and is all-in
+Rebecca228: folds 
+#alyson sp: folds 
+scorza23: folds 
+Uncalled bet (4880) returned to FilipeQuebeq
+FilipeQuebeq collected 330 from pot
+FilipeQuebeq: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: FilipeQuebeq collected (330)
+Seat 4: Rebecca228 (button) folded before Flop (didn't bet)
+Seat 5: #alyson sp (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756092735: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:48:40 UTC [2026/02/16 17:48:40 ET]
+Table '3974766245 5' 5-max Seat #5 is the button
+Seat 2: scorza23 (4900 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5210 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6895 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4440 in chips, $0.36 bounty) 
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+scorza23: posts small blind 50
+FilipeQuebeq: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ad]
+Rebecca228: folds 
+#alyson sp: folds 
+scorza23: raises 110 to 210
+FilipeQuebeq: folds 
+Uncalled bet (110) returned to scorza23
+scorza23 collected 280 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 2: scorza23 (small blind) collected (280)
+Seat 3: FilipeQuebeq (big blind) folded before Flop
+Seat 4: Rebecca228 folded before Flop (didn't bet)
+Seat 5: #alyson sp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756095105: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:48:50 UTC [2026/02/16 17:48:50 ET]
+Table '3974766245 5' 5-max Seat #2 is the button
+Seat 2: scorza23 (5060 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5090 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6875 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4420 in chips, $0.36 bounty) 
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+FilipeQuebeq: posts small blind 50
+Rebecca228: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Ac]
+SSUNSETL is disconnected 
+#alyson sp: calls 100
+scorza23: folds 
+FilipeQuebeq: folds 
+Rebecca228: checks 
+*** FLOP *** [3s 2c Js]
+Rebecca228: checks 
+#alyson sp: checks 
+*** TURN *** [3s 2c Js] [4d]
+Rebecca228: checks 
+#alyson sp: bets 100
+Rebecca228: calls 100
+*** RIVER *** [3s 2c Js 4d] [8c]
+Rebecca228: checks 
+#alyson sp: bets 100
+Rebecca228: folds 
+Uncalled bet (100) returned to #alyson sp
+#alyson sp collected 530 from pot
+*** SUMMARY ***
+Total pot 530 | Rake 0 
+Board [3s 2c Js 4d 8c]
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (small blind) folded before Flop
+Seat 4: Rebecca228 (big blind) folded on the River
+Seat 5: #alyson sp collected (530)
+
+
+
+PokerStars Hand #259756102299: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:49:20 UTC [2026/02/16 17:49:20 ET]
+Table '3974766245 5' 5-max Seat #3 is the button
+Seat 1: SSUNSETL (5000 in chips, $0.36 bounty) 
+Seat 2: scorza23 (5040 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5020 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6655 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4730 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+Rebecca228: posts small blind 50
+#alyson sp: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 9c]
+SSUNSETL: folds 
+scorza23: folds 
+FilipeQuebeq: calls 100
+Rebecca228: calls 50
+#alyson sp: checks 
+*** FLOP *** [8h 5h Kc]
+Rebecca228: checks 
+#alyson sp: checks 
+FilipeQuebeq: checks 
+*** TURN *** [8h 5h Kc] [2s]
+Rebecca228: checks 
+#alyson sp: checks 
+FilipeQuebeq: checks 
+*** RIVER *** [8h 5h Kc 2s] [Qh]
+Rebecca228: checks 
+#alyson sp: checks 
+FilipeQuebeq: checks 
+*** SHOW DOWN ***
+Rebecca228: shows [3h Ad] (high card Ace)
+#alyson sp: mucks hand 
+FilipeQuebeq: mucks hand 
+Rebecca228 collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [8h 5h Kc 2s Qh]
+Seat 1: SSUNSETL folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (button) mucked [6d 9d]
+Seat 4: Rebecca228 (small blind) showed [3h Ad] and won (400) with high card Ace
+Seat 5: #alyson sp (big blind) mucked [7s Td]
+
+
+
+PokerStars Hand #259756111742: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:49:59 UTC [2026/02/16 17:49:59 ET]
+Table '3974766245 5' 5-max Seat #4 is the button
+Seat 1: SSUNSETL (4980 in chips, $0.36 bounty) 
+Seat 2: scorza23 (5020 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4900 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6935 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4610 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+#alyson sp: posts small blind 50
+SSUNSETL: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Ac]
+scorza23: raises 110 to 210
+FilipeQuebeq: folds 
+Rebecca228: calls 210
+#alyson sp: folds 
+SSUNSETL: calls 110
+*** FLOP *** [3c 8h Ts]
+SSUNSETL: checks 
+scorza23: bets 210
+Rebecca228: folds 
+SSUNSETL: calls 210
+*** TURN *** [3c 8h Ts] [Qd]
+SSUNSETL: checks 
+scorza23: bets 600
+SSUNSETL: calls 600
+*** RIVER *** [3c 8h Ts Qd] [8s]
+SSUNSETL: bets 1700
+scorza23: folds 
+Uncalled bet (1700) returned to SSUNSETL
+SSUNSETL collected 2400 from pot
+SSUNSETL: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Board [3c 8h Ts Qd 8s]
+Seat 1: SSUNSETL (big blind) collected (2400)
+Seat 2: scorza23 folded on the River
+Seat 3: FilipeQuebeq folded before Flop (didn't bet)
+Seat 4: Rebecca228 (button) folded on the Flop
+Seat 5: #alyson sp (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756135251: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:51:37 UTC [2026/02/16 17:51:37 ET]
+Table '3974766245 5' 5-max Seat #5 is the button
+Seat 1: SSUNSETL (6340 in chips, $0.36 bounty) 
+Seat 2: scorza23 (3980 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4880 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6705 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4540 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+SSUNSETL: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 7h]
+FilipeQuebeq: raises 4760 to 4860 and is all-in
+Rebecca228: folds 
+#alyson sp: folds 
+SSUNSETL: folds 
+scorza23: folds 
+Uncalled bet (4760) returned to FilipeQuebeq
+FilipeQuebeq collected 350 from pot
+FilipeQuebeq: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: SSUNSETL (small blind) folded before Flop
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: FilipeQuebeq collected (350)
+Seat 4: Rebecca228 folded before Flop (didn't bet)
+Seat 5: #alyson sp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756138971: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:51:53 UTC [2026/02/16 17:51:53 ET]
+Table '3974766245 5' 5-max Seat #1 is the button
+Seat 1: SSUNSETL (6270 in chips, $0.36 bounty) 
+Seat 2: scorza23 (3860 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5110 in chips, $0.36 bounty) 
+Seat 4: Rebecca228 (6685 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4520 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+Rebecca228: posts the ante 20
+#alyson sp: posts the ante 20
+scorza23: posts small blind 50
+FilipeQuebeq: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 4d]
+Rebecca228: calls 100
+#alyson sp: folds 
+SSUNSETL: folds 
+scorza23: calls 50
+FilipeQuebeq: raises 4990 to 5090 and is all-in
+Rebecca228: folds 
+scorza23: folds 
+Uncalled bet (4990) returned to FilipeQuebeq
+FilipeQuebeq collected 400 from pot
+FilipeQuebeq: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: SSUNSETL (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: FilipeQuebeq (big blind) collected (400)
+Seat 4: Rebecca228 folded before Flop
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756142981: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:52:10 UTC [2026/02/16 17:52:10 ET]
+Table '3974766245 5' 5-max Seat #2 is the button
+Seat 1: SSUNSETL (6250 in chips, $0.36 bounty) 
+Seat 2: scorza23 (3740 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5390 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4500 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+#alyson sp: posts the ante 20
+FilipeQuebeq: posts small blind 50
+#alyson sp: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ad]
+SSUNSETL: folds 
+scorza23: raises 200 to 300
+FilipeQuebeq: folds 
+#alyson sp: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 330 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Seat 1: SSUNSETL folded before Flop (didn't bet)
+Seat 2: scorza23 (button) collected (330)
+Seat 3: FilipeQuebeq (small blind) folded before Flop
+Seat 5: #alyson sp (big blind) folded before Flop
+
+
+
+PokerStars Hand #259756145882: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:52:23 UTC [2026/02/16 17:52:23 ET]
+Table '3974766245 5' 5-max Seat #3 is the button
+Seat 1: SSUNSETL (6230 in chips, $0.36 bounty) 
+Seat 2: scorza23 (3950 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5320 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4380 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+#alyson sp: posts the ante 20
+#alyson sp: posts small blind 50
+SSUNSETL: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 3h]
+scorza23: folds 
+FilipeQuebeq: folds 
+#alyson sp: folds 
+Uncalled bet (50) returned to SSUNSETL
+SSUNSETL collected 180 from pot
+SSUNSETL: doesn't show hand 
+NicceLem is disconnected 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: SSUNSETL (big blind) collected (180)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (button) folded before Flop (didn't bet)
+Seat 5: #alyson sp (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756149827: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:52:39 UTC [2026/02/16 17:52:39 ET]
+Table '3974766245 5' 5-max Seat #5 is the button
+Seat 1: SSUNSETL (6340 in chips, $0.36 bounty) 
+Seat 2: scorza23 (3930 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5300 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5000 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4310 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+SSUNSETL: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Tc]
+FilipeQuebeq: folds 
+NicceLem: folds 
+#alyson sp: folds 
+SSUNSETL: folds 
+Uncalled bet (50) returned to scorza23
+scorza23 collected 200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: SSUNSETL (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (200)
+Seat 3: FilipeQuebeq folded before Flop (didn't bet)
+Seat 4: NicceLem folded before Flop (didn't bet)
+Seat 5: #alyson sp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756152333: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:52:50 UTC [2026/02/16 17:52:50 ET]
+Table '3974766245 5' 5-max Seat #1 is the button
+Seat 1: SSUNSETL (6270 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4060 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5280 in chips, $0.36 bounty) 
+Seat 4: NicceLem (4980 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4290 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+scorza23: posts small blind 50
+FilipeQuebeq: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Ah]
+NicceLem: folds 
+#alyson sp: folds 
+SSUNSETL: folds 
+scorza23: raises 110 to 210
+FilipeQuebeq: folds 
+Uncalled bet (110) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: SSUNSETL (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (300)
+Seat 3: FilipeQuebeq (big blind) folded before Flop
+Seat 4: NicceLem folded before Flop (didn't bet)
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756155354: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:53:03 UTC [2026/02/16 17:53:03 ET]
+Table '3974766245 5' 5-max Seat #2 is the button
+Seat 1: SSUNSETL (6250 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4240 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5160 in chips, $0.36 bounty) 
+Seat 4: NicceLem (4960 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4270 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+FilipeQuebeq: posts small blind 50
+NicceLem: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7c]
+#alyson sp: folds 
+SSUNSETL: folds 
+scorza23: raises 110 to 210
+FilipeQuebeq: folds 
+NicceLem: folds 
+Uncalled bet (110) returned to scorza23
+scorza23 collected 350 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: SSUNSETL folded before Flop (didn't bet)
+Seat 2: scorza23 (button) collected (350)
+Seat 3: FilipeQuebeq (small blind) folded before Flop
+Seat 4: NicceLem (big blind) folded before Flop
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756160646: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:53:25 UTC [2026/02/16 17:53:25 ET]
+Table '3974766245 5' 5-max Seat #3 is the button
+Seat 1: SSUNSETL (6230 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4470 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5090 in chips, $0.36 bounty) 
+Seat 4: NicceLem (4840 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4250 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+NicceLem: posts small blind 50
+#alyson sp: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 2s]
+SSUNSETL: raises 100 to 200
+scorza23: folds 
+FilipeQuebeq: folds 
+NicceLem: raises 300 to 500
+#alyson sp: folds 
+SSUNSETL: calls 300
+*** FLOP *** [As Kd 7d]
+NicceLem: checks 
+SSUNSETL: checks 
+*** TURN *** [As Kd 7d] [Kh]
+NicceLem: checks 
+SSUNSETL: checks 
+*** RIVER *** [As Kd 7d Kh] [Jh]
+NicceLem: checks 
+SSUNSETL: checks 
+*** SHOW DOWN ***
+NicceLem: shows [Th Js] (two pair, Kings and Jacks)
+SSUNSETL: mucks hand 
+NicceLem collected 1200 from pot
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [As Kd 7d Kh Jh]
+Seat 1: SSUNSETL mucked [Qc 9c]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (button) folded before Flop (didn't bet)
+Seat 4: NicceLem (small blind) showed [Th Js] and won (1200) with two pair, Kings and Jacks
+Seat 5: #alyson sp (big blind) folded before Flop
+
+
+
+PokerStars Hand #259756172723: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:54:17 UTC [2026/02/16 17:54:17 ET]
+Table '3974766245 5' 5-max Seat #4 is the button
+Seat 1: SSUNSETL (5710 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4450 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5070 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5520 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4130 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+#alyson sp: posts small blind 50
+SSUNSETL: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 9d]
+scorza23: folds 
+FilipeQuebeq: folds 
+NicceLem: folds 
+#alyson sp: folds 
+Uncalled bet (50) returned to SSUNSETL
+SSUNSETL collected 200 from pot
+SSUNSETL: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: SSUNSETL (big blind) collected (200)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq folded before Flop (didn't bet)
+Seat 4: NicceLem (button) folded before Flop (didn't bet)
+Seat 5: #alyson sp (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756176631: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:54:33 UTC [2026/02/16 17:54:33 ET]
+Table '3974766245 5' 5-max Seat #5 is the button
+Seat 1: SSUNSETL (5840 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4430 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5050 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5500 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4060 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+SSUNSETL: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 6d]
+FilipeQuebeq: folds 
+NicceLem: folds 
+#alyson sp: folds 
+SSUNSETL: raises 5720 to 5820 and is all-in
+scorza23: folds 
+Uncalled bet (5720) returned to SSUNSETL
+SSUNSETL collected 300 from pot
+SSUNSETL: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: SSUNSETL (small blind) collected (300)
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: FilipeQuebeq folded before Flop (didn't bet)
+Seat 4: NicceLem folded before Flop (didn't bet)
+Seat 5: #alyson sp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756181512: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 22:54:54 UTC [2026/02/16 17:54:54 ET]
+Table '3974766245 5' 5-max Seat #1 is the button
+Seat 1: SSUNSETL (6020 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4310 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (5030 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5480 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4040 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+scorza23: posts small blind 50
+FilipeQuebeq: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 9h]
+NicceLem: folds 
+#alyson sp: folds 
+SSUNSETL: folds 
+scorza23: raises 110 to 210
+FilipeQuebeq: folds 
+Uncalled bet (110) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: SSUNSETL (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (300)
+Seat 3: FilipeQuebeq (big blind) folded before Flop
+Seat 4: NicceLem folded before Flop (didn't bet)
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756243114: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 23:01:03 UTC [2026/02/16 18:01:03 ET]
+Table '3974766245 5' 5-max Seat #2 is the button
+Seat 1: SSUNSETL (6000 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4490 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4910 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5460 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4020 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+FilipeQuebeq: posts small blind 50
+NicceLem: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6h As]
+#alyson sp: folds 
+SSUNSETL: raises 100 to 200
+scorza23: folds 
+NicceLem is disconnected 
+FilipeQuebeq: folds 
+NicceLem: folds 
+Uncalled bet (100) returned to SSUNSETL
+SSUNSETL collected 350 from pot
+SSUNSETL: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: SSUNSETL collected (350)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (small blind) folded before Flop
+Seat 4: NicceLem (big blind) folded before Flop
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756254926: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 23:01:56 UTC [2026/02/16 18:01:56 ET]
+Table '3974766245 5' 5-max Seat #3 is the button
+Seat 1: SSUNSETL (6230 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4470 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4840 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5340 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (4000 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+NicceLem: posts small blind 50
+#alyson sp: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 5c]
+SSUNSETL: raises 350 to 450
+scorza23: folds 
+FilipeQuebeq has timed out
+FilipeQuebeq: folds 
+FilipeQuebeq is sitting out
+NicceLem: folds 
+FilipeQuebeq has returned
+#alyson sp: folds 
+Uncalled bet (350) returned to SSUNSETL
+SSUNSETL collected 350 from pot
+SSUNSETL: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: SSUNSETL collected (350)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (button) folded before Flop (didn't bet)
+Seat 4: NicceLem (small blind) folded before Flop
+Seat 5: #alyson sp (big blind) folded before Flop
+
+
+
+PokerStars Hand #259756275673: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 23:03:28 UTC [2026/02/16 18:03:28 ET]
+Table '3974766245 5' 5-max Seat #4 is the button
+Seat 1: SSUNSETL (6460 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4450 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4820 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5270 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (3880 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+#alyson sp: posts small blind 50
+SSUNSETL: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [As 4h]
+scorza23: raises 110 to 210
+FilipeQuebeq: folds 
+NicceLem: raises 665 to 875
+#alyson sp: folds 
+SSUNSETL: folds 
+scorza23: folds 
+Uncalled bet (665) returned to NicceLem
+NicceLem collected 670 from pot
+NicceLem: doesn't show hand 
+*** SUMMARY ***
+Total pot 670 | Rake 0 
+Seat 1: SSUNSETL (big blind) folded before Flop
+Seat 2: scorza23 folded before Flop
+Seat 3: FilipeQuebeq folded before Flop (didn't bet)
+Seat 4: NicceLem (button) collected (670)
+Seat 5: #alyson sp (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756282990: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 23:04:00 UTC [2026/02/16 18:04:00 ET]
+Table '3974766245 5' 5-max Seat #5 is the button
+Seat 1: SSUNSETL (6340 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4220 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4800 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5710 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (3810 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+SSUNSETL: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 9h]
+FilipeQuebeq has timed out
+FilipeQuebeq: folds 
+FilipeQuebeq is sitting out
+NicceLem: raises 150 to 250
+#alyson sp: folds 
+SSUNSETL: calls 200
+scorza23: folds 
+*** FLOP *** [Kc 2h Qc]
+FilipeQuebeq has returned
+SSUNSETL: checks 
+NicceLem: bets 539
+SSUNSETL: folds 
+Uncalled bet (539) returned to NicceLem
+NicceLem collected 700 from pot
+NicceLem: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Board [Kc 2h Qc]
+Seat 1: SSUNSETL (small blind) folded on the Flop
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: FilipeQuebeq folded before Flop (didn't bet)
+Seat 4: NicceLem collected (700)
+Seat 5: #alyson sp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756297455: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 23:05:03 UTC [2026/02/16 18:05:03 ET]
+Table '3974766245 5' 5-max Seat #1 is the button
+Seat 1: SSUNSETL (6070 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4100 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4780 in chips, $0.36 bounty) 
+Seat 4: NicceLem (6140 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (3790 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+scorza23: posts small blind 50
+FilipeQuebeq: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3c]
+NicceLem: folds 
+#alyson sp: folds 
+SSUNSETL: raises 100 to 200
+scorza23: folds 
+FilipeQuebeq: folds 
+Uncalled bet (100) returned to SSUNSETL
+SSUNSETL collected 350 from pot
+SSUNSETL: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: SSUNSETL (button) collected (350)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: FilipeQuebeq (big blind) folded before Flop
+Seat 4: NicceLem folded before Flop (didn't bet)
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756303730: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 23:05:31 UTC [2026/02/16 18:05:31 ET]
+Table '3974766245 5' 5-max Seat #2 is the button
+Seat 1: SSUNSETL (6300 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4030 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4660 in chips, $0.36 bounty) 
+Seat 4: NicceLem (6120 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (3770 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 20
+scorza23: posts the ante 20
+FilipeQuebeq: posts the ante 20
+NicceLem: posts the ante 20
+#alyson sp: posts the ante 20
+FilipeQuebeq: posts small blind 50
+NicceLem: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jc]
+#alyson sp: folds 
+SSUNSETL: raises 100 to 200
+scorza23: folds 
+FilipeQuebeq: folds 
+NicceLem: calls 100
+*** FLOP *** [9c Qs 2s]
+NicceLem: checks 
+SSUNSETL: checks 
+*** TURN *** [9c Qs 2s] [Jd]
+NicceLem: checks 
+SSUNSETL: bets 275
+NicceLem: calls 275
+*** RIVER *** [9c Qs 2s Jd] [Qh]
+NicceLem: checks 
+SSUNSETL: bets 650
+NicceLem: folds 
+Uncalled bet (650) returned to SSUNSETL
+SSUNSETL collected 1100 from pot
+SSUNSETL: doesn't show hand 
+*** SUMMARY ***
+Total pot 1100 | Rake 0 
+Board [9c Qs 2s Jd Qh]
+Seat 1: SSUNSETL collected (1100)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (small blind) folded before Flop
+Seat 4: NicceLem (big blind) folded on the River
+Seat 5: #alyson sp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756313368: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:06:13 UTC [2026/02/16 18:06:13 ET]
+Table '3974766245 5' 5-max Seat #3 is the button
+Seat 1: SSUNSETL (6905 in chips, $0.36 bounty) 
+Seat 2: scorza23 (4010 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4590 in chips, $0.36 bounty) 
+Seat 4: NicceLem (5625 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (3750 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 30
+scorza23: posts the ante 30
+FilipeQuebeq: posts the ante 30
+NicceLem: posts the ante 30
+#alyson sp: posts the ante 30
+NicceLem: posts small blind 75
+#alyson sp: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 7c]
+SSUNSETL: folds 
+scorza23: folds 
+FilipeQuebeq: folds 
+NicceLem: raises 425 to 575
+#alyson sp: calls 425
+*** FLOP *** [8s 4h 7s]
+NicceLem: checks 
+#alyson sp: bets 650
+NicceLem: calls 650
+*** TURN *** [8s 4h 7s] [6s]
+NicceLem: checks 
+#alyson sp: bets 2495 and is all-in
+NicceLem: calls 2495
+*** RIVER *** [8s 4h 7s 6s] [Tc]
+*** SHOW DOWN ***
+NicceLem: shows [As 3c] (high card Ace)
+#alyson sp: shows [9s Ad] (a straight, Six to Ten)
+#alyson sp collected 7590 from pot
+*** SUMMARY ***
+Total pot 7590 | Rake 0 
+Board [8s 4h 7s 6s Tc]
+Seat 1: SSUNSETL folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: FilipeQuebeq (button) folded before Flop (didn't bet)
+Seat 4: NicceLem (small blind) showed [As 3c] and lost with high card Ace
+Seat 5: #alyson sp (big blind) showed [9s Ad] and won (7590) with a straight, Six to Ten
+
+
+
+PokerStars Hand #259756328254: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:07:18 UTC [2026/02/16 18:07:18 ET]
+Table '3974766245 5' 5-max Seat #4 is the button
+Seat 1: SSUNSETL (6875 in chips, $0.36 bounty) 
+Seat 2: scorza23 (3980 in chips, $0.36 bounty) 
+Seat 3: FilipeQuebeq (4560 in chips, $0.36 bounty) 
+Seat 4: NicceLem (1875 in chips, $0.36 bounty) 
+Seat 5: #alyson sp (7590 in chips, $0.36 bounty) 
+SSUNSETL: posts the ante 30
+scorza23: posts the ante 30
+FilipeQuebeq: posts the ante 30
+NicceLem: posts the ante 30
+#alyson sp: posts the ante 30
+#alyson sp: posts small blind 75
+SSUNSETL: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [As 8d]
+scorza23: raises 165 to 315
+FilipeQuebeq: folds 
+NicceLem: folds 
+#alyson sp: calls 240
+SSUNSETL: calls 165
+*** FLOP *** [Ac 8s 9d]
+#alyson sp: checks 
+SSUNSETL: checks 
+scorza23: bets 150
+#alyson sp: calls 150
+SSUNSETL: calls 150
+*** TURN *** [Ac 8s 9d] [2c]
+#alyson sp: checks 
+SSUNSETL: checks 
+scorza23: bets 300
+#alyson sp: calls 300
+SSUNSETL: folds 
+*** RIVER *** [Ac 8s 9d 2c] [Ks]
+#alyson sp: checks 
+scorza23: bets 1073
+#alyson sp: folds 
+Uncalled bet (1073) returned to scorza23
+scorza23 collected 2145 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2145 | Rake 0 
+Board [Ac 8s 9d 2c Ks]
+Seat 1: SSUNSETL (big blind) folded on the Turn
+Seat 2: scorza23 collected (2145)
+Seat 3: FilipeQuebeq folded before Flop (didn't bet)
+Seat 4: NicceLem (button) folded before Flop (didn't bet)
+Seat 5: #alyson sp (small blind) folded on the River
+
+
+
+PokerStars Hand #259756345192: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:08:34 UTC [2026/02/16 18:08:34 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: BCJ62 (4088 in chips, $0.54 bounty) 
+Seat 2: clever606 (10510 in chips, $0.81 bounty) 
+Seat 3: scorza23 (5330 in chips, $0.36 bounty) 
+Seat 4: marianoacha (6945 in chips, $0.54 bounty) 
+Seat 5: Tobztt (5000 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Tobztt: posts the ante 30
+clever606: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ad]
+marianoacha: folds 
+Tobztt: raises 150 to 300
+BCJ62: raises 150 to 450
+clever606: calls 375
+scorza23: folds 
+Tobztt: raises 750 to 1200
+BCJ62: raises 2858 to 4058 and is all-in
+clever606: folds 
+Tobztt: calls 2858
+*** FLOP *** [8d 3s Th]
+*** TURN *** [8d 3s Th] [Kd]
+*** RIVER *** [8d 3s Th Kd] [7c]
+*** SHOW DOWN ***
+Tobztt: shows [Qd Qs] (a pair of Queens)
+BCJ62: shows [Kh Ac] (a pair of Kings)
+BCJ62 collected 8866 from pot
+*** SUMMARY ***
+Total pot 8866 | Rake 0 
+Board [8d 3s Th Kd 7c]
+Seat 1: BCJ62 (button) showed [Kh Ac] and won (8866) with a pair of Kings
+Seat 2: clever606 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: marianoacha folded before Flop (didn't bet)
+Seat 5: Tobztt showed [Qd Qs] and lost with a pair of Queens
+
+
+
+PokerStars Hand #259756353390: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:09:10 UTC [2026/02/16 18:09:10 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: BCJ62 (8866 in chips, $0.54 bounty) 
+Seat 2: clever606 (10030 in chips, $0.81 bounty) 
+Seat 3: scorza23 (5150 in chips, $0.36 bounty) 
+Seat 4: marianoacha (6915 in chips, $0.54 bounty) 
+Seat 5: Tobztt (912 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Tobztt: posts the ante 30
+scorza23: posts small blind 75
+marianoacha: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Ts]
+Tobztt: calls 150
+BCJ62: folds 
+clever606: calls 150
+scorza23: raises 165 to 315
+marianoacha: folds 
+Tobztt: calls 165
+clever606: calls 165
+*** FLOP *** [Td Qh 2h]
+scorza23: bets 315
+Tobztt: folds 
+clever606: calls 315
+*** TURN *** [Td Qh 2h] [Kc]
+scorza23: bets 315
+clever606: calls 315
+*** RIVER *** [Td Qh 2h Kc] [6h]
+scorza23: bets 1253
+clever606: calls 1253
+*** SHOW DOWN ***
+scorza23: shows [Qd Ts] (two pair, Queens and Tens)
+clever606: shows [As Jd] (a straight, Ten to Ace)
+clever606 collected 5011 from pot
+*** SUMMARY ***
+Total pot 5011 | Rake 0 
+Board [Td Qh 2h Kc 6h]
+Seat 1: BCJ62 folded before Flop (didn't bet)
+Seat 2: clever606 (button) showed [As Jd] and won (5011) with a straight, Ten to Ace
+Seat 3: scorza23 (small blind) showed [Qd Ts] and lost with two pair, Queens and Tens
+Seat 4: marianoacha (big blind) folded before Flop
+Seat 5: Tobztt folded on the Flop
+
+
+
+PokerStars Hand #259756361626: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:09:47 UTC [2026/02/16 18:09:47 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: BCJ62 (8836 in chips, $0.54 bounty) 
+Seat 2: clever606 (12813 in chips, $0.81 bounty) 
+Seat 3: scorza23 (2922 in chips, $0.36 bounty) 
+Seat 4: marianoacha (6735 in chips, $0.54 bounty) 
+Seat 5: Tobztt (567 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Tobztt: posts the ante 30
+marianoacha: posts small blind 75
+Tobztt: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jd]
+BCJ62: folds 
+clever606: folds 
+scorza23: raises 2742 to 2892 and is all-in
+marianoacha: raises 3813 to 6705 and is all-in
+Tobztt: calls 387 and is all-in
+Uncalled bet (3813) returned to marianoacha
+*** FLOP *** [Kd Qd 8s]
+*** TURN *** [Kd Qd 8s] [6s]
+*** RIVER *** [Kd Qd 8s 6s] [Ad]
+*** SHOW DOWN ***
+marianoacha: shows [Tc Qc] (a pair of Queens)
+scorza23: shows [9d Jd] (a flush, Ace high)
+scorza23 collected 4710 from side pot
+Tobztt: shows [5h 3s] (high card Ace)
+scorza23 collected 1761 from main pot
+scorza23 wins $0.18 for eliminating Tobztt and their own bounty increases by $0.18 to $0.54
+Tobztt finished the tournament
+*** SUMMARY ***
+Total pot 6471 Main pot 1761. Side pot 4710. | Rake 0 
+Board [Kd Qd 8s 6s Ad]
+Seat 1: BCJ62 folded before Flop (didn't bet)
+Seat 2: clever606 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) showed [9d Jd] and won (6471) with a flush, Ace high
+Seat 4: marianoacha (small blind) showed [Tc Qc] and lost with a pair of Queens
+Seat 5: Tobztt (big blind) showed [5h 3s] and lost with high card Ace
+
+
+
+PokerStars Hand #259756368796: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:10:18 UTC [2026/02/16 18:10:18 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: BCJ62 (8806 in chips, $0.54 bounty) 
+Seat 2: clever606 (12783 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6471 in chips, $0.54 bounty) 
+Seat 4: marianoacha (3813 in chips, $0.54 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+BCJ62: posts small blind 75
+clever606: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Th]
+scorza23: folds 
+marianoacha: folds 
+BCJ62: calls 75
+clever606: checks 
+*** FLOP *** [6d 7d Tc]
+BCJ62: bets 300
+clever606: folds 
+Uncalled bet (300) returned to BCJ62
+BCJ62 collected 420 from pot
+BCJ62: doesn't show hand 
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Board [6d 7d Tc]
+Seat 1: BCJ62 (small blind) collected (420)
+Seat 2: clever606 (big blind) folded on the Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: marianoacha (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756376687: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:10:53 UTC [2026/02/16 18:10:53 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: BCJ62 (9046 in chips, $0.54 bounty) 
+Seat 2: clever606 (12603 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6441 in chips, $0.54 bounty) 
+Seat 4: marianoacha (3783 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (5000 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+clever606: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 2c]
+marianoacha: folds 
+Doiron80: raises 150 to 300
+BCJ62: folds 
+clever606: calls 225
+scorza23: folds 
+*** FLOP *** [Tc Ts 4h]
+clever606: checks 
+Doiron80: bets 150
+clever606: folds 
+Uncalled bet (150) returned to Doiron80
+Doiron80 collected 900 from pot
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [Tc Ts 4h]
+Seat 1: BCJ62 (button) folded before Flop (didn't bet)
+Seat 2: clever606 (small blind) folded on the Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: marianoacha folded before Flop (didn't bet)
+Seat 5: Doiron80 collected (900)
+
+
+
+PokerStars Hand #259756382409: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:11:18 UTC [2026/02/16 18:11:18 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: BCJ62 (9016 in chips, $0.54 bounty) 
+Seat 2: clever606 (12273 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6261 in chips, $0.54 bounty) 
+Seat 4: marianoacha (3753 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (5570 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+scorza23: posts small blind 75
+marianoacha: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5s]
+Doiron80: calls 150
+BCJ62: folds 
+clever606: folds 
+scorza23: folds 
+marianoacha: checks 
+*** FLOP *** [Th Qh 9s]
+marianoacha: checks 
+Doiron80: bets 150
+marianoacha: calls 150
+*** TURN *** [Th Qh 9s] [Ts]
+marianoacha: bets 330
+Doiron80: calls 330
+*** RIVER *** [Th Qh 9s Ts] [5d]
+marianoacha: bets 3093 and is all-in
+Doiron80: folds 
+Uncalled bet (3093) returned to marianoacha
+marianoacha collected 1485 from pot
+*** SUMMARY ***
+Total pot 1485 | Rake 0 
+Board [Th Qh 9s Ts 5d]
+Seat 1: BCJ62 folded before Flop (didn't bet)
+Seat 2: clever606 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: marianoacha (big blind) collected (1485)
+Seat 5: Doiron80 folded on the River
+
+
+
+PokerStars Hand #259756391136: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:11:57 UTC [2026/02/16 18:11:57 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: BCJ62 (8986 in chips, $0.54 bounty) 
+Seat 2: clever606 (12243 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6156 in chips, $0.54 bounty) 
+Seat 4: marianoacha (4578 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (4910 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+marianoacha: posts small blind 75
+Doiron80: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 8s]
+BCJ62: folds 
+clever606: calls 150
+scorza23: folds 
+marianoacha: calls 75
+Doiron80: raises 300 to 450
+clever606: calls 300
+marianoacha: folds 
+*** FLOP *** [9s Qs Ts]
+Doiron80: bets 600
+clever606: folds 
+Uncalled bet (600) returned to Doiron80
+Doiron80 collected 1200 from pot
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [9s Qs Ts]
+Seat 1: BCJ62 folded before Flop (didn't bet)
+Seat 2: clever606 folded on the Flop
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: marianoacha (small blind) folded before Flop
+Seat 5: Doiron80 (big blind) collected (1200)
+
+
+
+PokerStars Hand #259756398652: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:12:30 UTC [2026/02/16 18:12:30 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: BCJ62 (8956 in chips, $0.54 bounty) 
+Seat 2: clever606 (11763 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6126 in chips, $0.54 bounty) 
+Seat 4: marianoacha (4398 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (5630 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+Doiron80: posts small blind 75
+BCJ62: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Ts]
+clever606: raises 150 to 300
+scorza23: folds 
+marianoacha: folds 
+Doiron80: folds 
+BCJ62: calls 150
+*** FLOP *** [Jc 4h Qd]
+BCJ62: checks 
+clever606: checks 
+*** TURN *** [Jc 4h Qd] [3c]
+BCJ62: checks 
+clever606: checks 
+*** RIVER *** [Jc 4h Qd 3c] [Qh]
+BCJ62: bets 300
+clever606: calls 300
+*** SHOW DOWN ***
+BCJ62: shows [9d 8d] (a pair of Queens)
+clever606: shows [Ah 9h] (a pair of Queens - Ace kicker)
+clever606 collected 1425 from pot
+*** SUMMARY ***
+Total pot 1425 | Rake 0 
+Board [Jc 4h Qd 3c Qh]
+Seat 1: BCJ62 (big blind) showed [9d 8d] and lost with a pair of Queens
+Seat 2: clever606 showed [Ah 9h] and won (1425) with a pair of Queens
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: marianoacha (button) folded before Flop (didn't bet)
+Seat 5: Doiron80 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756405935: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:13:03 UTC [2026/02/16 18:13:03 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: BCJ62 (8326 in chips, $0.54 bounty) 
+Seat 2: clever606 (12558 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6096 in chips, $0.54 bounty) 
+Seat 4: marianoacha (4368 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (5525 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+BCJ62: posts small blind 75
+clever606: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Ah]
+scorza23: raises 165 to 315
+marianoacha: folds 
+Doiron80: folds 
+BCJ62: calls 240
+clever606: calls 165
+*** FLOP *** [3s 7d 7h]
+BCJ62: checks 
+clever606: checks 
+scorza23: bets 150
+BCJ62: folds 
+clever606: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 1095 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1095 | Rake 0 
+Board [3s 7d 7h]
+Seat 1: BCJ62 (small blind) folded on the Flop
+Seat 2: clever606 (big blind) folded on the Flop
+Seat 3: scorza23 collected (1095)
+Seat 4: marianoacha folded before Flop (didn't bet)
+Seat 5: Doiron80 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756414472: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:13:42 UTC [2026/02/16 18:13:42 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: BCJ62 (7981 in chips, $0.54 bounty) 
+Seat 2: clever606 (12213 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6846 in chips, $0.54 bounty) 
+Seat 4: marianoacha (4338 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (5495 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+clever606: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ks]
+marianoacha: folds 
+Doiron80: folds 
+BCJ62: folds 
+clever606: calls 75
+scorza23: checks 
+*** FLOP *** [As 6h 9s]
+clever606: checks 
+scorza23: bets 150
+clever606: calls 150
+*** TURN *** [As 6h 9s] [7c]
+clever606: checks 
+scorza23: bets 375
+clever606: raises 375 to 750
+scorza23: folds 
+Uncalled bet (375) returned to clever606
+clever606 collected 1500 from pot
+clever606: doesn't show hand 
+*** SUMMARY ***
+Total pot 1500 | Rake 0 
+Board [As 6h 9s 7c]
+Seat 1: BCJ62 (button) folded before Flop (didn't bet)
+Seat 2: clever606 (small blind) collected (1500)
+Seat 3: scorza23 (big blind) folded on the Turn
+Seat 4: marianoacha folded before Flop (didn't bet)
+Seat 5: Doiron80 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756423421: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:14:22 UTC [2026/02/16 18:14:22 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: BCJ62 (7951 in chips, $0.54 bounty) 
+Seat 2: clever606 (13008 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6141 in chips, $0.54 bounty) 
+Seat 4: marianoacha (4308 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (5465 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+scorza23: posts small blind 75
+marianoacha: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 6h]
+Doiron80: calls 150
+BCJ62: calls 150
+clever606: calls 150
+scorza23: folds 
+marianoacha: checks 
+*** FLOP *** [4c 9d 4d]
+marianoacha: checks 
+Doiron80: bets 413
+BCJ62: folds 
+clever606: folds 
+marianoacha: calls 413
+*** TURN *** [4c 9d 4d] [8c]
+marianoacha: checks 
+Doiron80: bets 826
+marianoacha: folds 
+Uncalled bet (826) returned to Doiron80
+Doiron80 collected 1651 from pot
+*** SUMMARY ***
+Total pot 1651 | Rake 0 
+Board [4c 9d 4d 8c]
+Seat 1: BCJ62 folded on the Flop
+Seat 2: clever606 (button) folded on the Flop
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: marianoacha (big blind) folded on the Turn
+Seat 5: Doiron80 collected (1651)
+
+
+
+PokerStars Hand #259756434812: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:15:14 UTC [2026/02/16 18:15:14 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: BCJ62 (7771 in chips, $0.54 bounty) 
+Seat 2: clever606 (12828 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6036 in chips, $0.54 bounty) 
+Seat 4: marianoacha (3715 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (6523 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+marianoacha: posts small blind 75
+Doiron80: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6d]
+BCJ62: calls 150
+clever606: folds 
+scorza23: folds 
+marianoacha: folds 
+Doiron80: raises 525 to 675
+BCJ62: calls 525
+*** FLOP *** [Ac 2h 5s]
+Doiron80: bets 788
+BCJ62: folds 
+Uncalled bet (788) returned to Doiron80
+Doiron80 collected 1575 from pot
+*** SUMMARY ***
+Total pot 1575 | Rake 0 
+Board [Ac 2h 5s]
+Seat 1: BCJ62 folded on the Flop
+Seat 2: clever606 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: marianoacha (small blind) folded before Flop
+Seat 5: Doiron80 (big blind) collected (1575)
+
+
+
+PokerStars Hand #259756440632: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:15:40 UTC [2026/02/16 18:15:40 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: BCJ62 (7066 in chips, $0.54 bounty) 
+Seat 2: clever606 (12798 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6006 in chips, $0.54 bounty) 
+Seat 4: marianoacha (3610 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (7393 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+Doiron80: posts small blind 75
+BCJ62: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 5s]
+clever606 has timed out
+clever606: folds 
+clever606 is sitting out
+scorza23: folds 
+marianoacha: raises 195 to 345
+Doiron80: folds 
+BCJ62: calls 195
+*** FLOP *** [6s Ah Kd]
+clever606 has returned
+BCJ62: checks 
+marianoacha: bets 229
+BCJ62: calls 229
+*** TURN *** [6s Ah Kd] [9c]
+BCJ62: checks 
+marianoacha: checks 
+*** RIVER *** [6s Ah Kd 9c] [Td]
+BCJ62: checks 
+marianoacha: checks 
+*** SHOW DOWN ***
+BCJ62: shows [3c 3h] (a pair of Threes)
+marianoacha: shows [Kh Qh] (a pair of Kings)
+marianoacha collected 1373 from pot
+*** SUMMARY ***
+Total pot 1373 | Rake 0 
+Board [6s Ah Kd 9c Td]
+Seat 1: BCJ62 (big blind) showed [3c 3h] and lost with a pair of Threes
+Seat 2: clever606 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: marianoacha (button) showed [Kh Qh] and won (1373) with a pair of Kings
+Seat 5: Doiron80 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756453658: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:16:39 UTC [2026/02/16 18:16:39 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: BCJ62 (6462 in chips, $0.54 bounty) 
+Seat 2: clever606 (12768 in chips, $0.81 bounty) 
+Seat 3: scorza23 (5976 in chips, $0.54 bounty) 
+Seat 4: marianoacha (4379 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (7288 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+BCJ62: posts small blind 75
+clever606: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 3h]
+scorza23: folds 
+marianoacha: folds 
+Doiron80: calls 150
+BCJ62: calls 75
+clever606: checks 
+*** FLOP *** [9h 5d 9d]
+BCJ62: checks 
+clever606: checks 
+Doiron80: bets 150
+BCJ62: folds 
+clever606: folds 
+Uncalled bet (150) returned to Doiron80
+Doiron80 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [9h 5d 9d]
+Seat 1: BCJ62 (small blind) folded on the Flop
+Seat 2: clever606 (big blind) folded on the Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: marianoacha folded before Flop (didn't bet)
+Seat 5: Doiron80 (button) collected (600)
+
+
+
+PokerStars Hand #259756464692: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:17:30 UTC [2026/02/16 18:17:30 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: BCJ62 (6282 in chips, $0.54 bounty) 
+Seat 2: clever606 (12588 in chips, $0.81 bounty) 
+Seat 3: scorza23 (5946 in chips, $0.54 bounty) 
+Seat 4: marianoacha (4349 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (7708 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+marianoacha: posts the ante 30
+Doiron80: posts the ante 30
+clever606: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5s]
+marianoacha: raises 195 to 345
+Doiron80: folds 
+BCJ62: folds 
+clever606: calls 270
+scorza23: raises 5571 to 5916 and is all-in
+marianoacha: folds 
+clever606: folds 
+Uncalled bet (5571) returned to scorza23
+scorza23 collected 1185 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1185 | Rake 0 
+Seat 1: BCJ62 (button) folded before Flop (didn't bet)
+Seat 2: clever606 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (1185)
+Seat 4: marianoacha folded before Flop
+Seat 5: Doiron80 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756470334: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:17:55 UTC [2026/02/16 18:17:55 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: BCJ62 (6252 in chips, $0.54 bounty) 
+Seat 2: clever606 (12213 in chips, $0.81 bounty) 
+Seat 3: scorza23 (6756 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (7678 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+Doiron80: posts the ante 30
+scorza23: posts small blind 75
+Doiron80: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Kd]
+BCJ62: folds 
+clever606: calls 150
+scorza23: calls 75
+Doiron80: checks 
+*** FLOP *** [2s 6d Js]
+scorza23: bets 285
+Doiron80: folds 
+clever606: folds 
+Uncalled bet (285) returned to scorza23
+scorza23 collected 570 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 570 | Rake 0 
+Board [2s 6d Js]
+Seat 1: BCJ62 folded before Flop (didn't bet)
+Seat 2: clever606 (button) folded on the Flop
+Seat 3: scorza23 (small blind) collected (570)
+Seat 5: Doiron80 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259756479327: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:18:36 UTC [2026/02/16 18:18:36 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: BCJ62 (6222 in chips, $0.54 bounty) 
+Seat 2: clever606 (12033 in chips, $0.81 bounty) 
+Seat 3: scorza23 (7146 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (7498 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+Doiron80: posts the ante 30
+Doiron80: posts small blind 75
+BCJ62: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Jh]
+clever606: calls 150
+scorza23: folds 
+Doiron80: calls 75
+BCJ62: checks 
+*** FLOP *** [Jc 9h 3c]
+Doiron80: bets 150
+BCJ62: folds 
+clever606: calls 150
+*** TURN *** [Jc 9h 3c] [Kc]
+Doiron80: bets 300
+clever606: folds 
+Uncalled bet (300) returned to Doiron80
+Doiron80 collected 870 from pot
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [Jc 9h 3c Kc]
+Seat 1: BCJ62 (big blind) folded on the Flop
+Seat 2: clever606 folded on the Turn
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Doiron80 (small blind) collected (870)
+
+
+
+PokerStars Hand #259756488197: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:19:16 UTC [2026/02/16 18:19:16 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: BCJ62 (6042 in chips, $0.54 bounty) 
+Seat 2: clever606 (11703 in chips, $0.81 bounty) 
+Seat 3: scorza23 (7116 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (8038 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+Doiron80: posts the ante 30
+BCJ62: posts small blind 75
+clever606: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7s]
+scorza23: folds 
+Doiron80: calls 150
+BCJ62: raises 300 to 450
+clever606: calls 300
+Doiron80: calls 300
+*** FLOP *** [Qc Tc Ks]
+BCJ62: bets 750
+clever606: folds 
+Doiron80: folds 
+Uncalled bet (750) returned to BCJ62
+BCJ62 collected 1470 from pot
+BCJ62: doesn't show hand 
+*** SUMMARY ***
+Total pot 1470 | Rake 0 
+Board [Qc Tc Ks]
+Seat 1: BCJ62 (small blind) collected (1470)
+Seat 2: clever606 (big blind) folded on the Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: Doiron80 (button) folded on the Flop
+
+
+
+PokerStars Hand #259756497331: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:19:57 UTC [2026/02/16 18:19:57 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: BCJ62 (7032 in chips, $0.54 bounty) 
+Seat 2: clever606 (11223 in chips, $0.81 bounty) 
+Seat 3: scorza23 (7086 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (7558 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+Doiron80: posts the ante 30
+clever606: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Qc]
+Doiron80: folds 
+BCJ62: calls 150
+clever606: calls 75
+scorza23: checks 
+*** FLOP *** [2c Qd Kh]
+clever606: checks 
+scorza23: checks 
+BCJ62: checks 
+*** TURN *** [2c Qd Kh] [2d]
+clever606: checks 
+scorza23: checks 
+BCJ62: checks 
+*** RIVER *** [2c Qd Kh 2d] [4c]
+clever606: checks 
+scorza23: bets 150
+BCJ62: folds 
+clever606: calls 150
+*** SHOW DOWN ***
+scorza23: shows [8h Qc] (two pair, Queens and Deuces)
+clever606: mucks hand 
+scorza23 collected 870 from pot
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [2c Qd Kh 2d 4c]
+Seat 1: BCJ62 (button) folded on the River
+Seat 2: clever606 (small blind) mucked [5c 5s]
+Seat 3: scorza23 (big blind) showed [8h Qc] and won (870) with two pair, Queens and Deuces
+Seat 5: Doiron80 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756508267: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 23:20:47 UTC [2026/02/16 18:20:47 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: BCJ62 (6852 in chips, $0.54 bounty) 
+Seat 2: clever606 (10893 in chips, $0.81 bounty) 
+Seat 3: scorza23 (7626 in chips, $0.54 bounty) 
+Seat 5: Doiron80 (7528 in chips, $0.36 bounty) 
+BCJ62: posts the ante 30
+clever606: posts the ante 30
+scorza23: posts the ante 30
+Doiron80: posts the ante 30
+scorza23: posts small blind 75
+Doiron80: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3s]
+BCJ62: folds 
+clever606: folds 
+scorza23: folds 
+Uncalled bet (75) returned to Doiron80
+Doiron80 collected 270 from pot
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Seat 1: BCJ62 folded before Flop (didn't bet)
+Seat 2: clever606 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: Doiron80 (big blind) collected (270)
+
+
+
+PokerStars Hand #259756513131: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:21:09 UTC [2026/02/16 18:21:09 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: BCJ62 (6822 in chips, $0.54 bounty) 
+Seat 2: clever606 (10863 in chips, $0.81 bounty) 
+Seat 3: scorza23 (7521 in chips, $0.54 bounty) 
+Seat 4: Savus73 (5000 in chips) out of hand (moved from another table into small blind)
+Seat 5: Doiron80 (7693 in chips, $0.36 bounty) 
+Savus73 will be allowed to play after the button
+BCJ62: posts the ante 40
+clever606: posts the ante 40
+scorza23: posts the ante 40
+Doiron80: posts the ante 40
+Doiron80: posts small blind 100
+BCJ62: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 9c]
+clever606: calls 200
+scorza23: raises 220 to 420
+Doiron80: raises 1200 to 1620
+BCJ62: folds 
+clever606: folds 
+scorza23: calls 1200
+*** FLOP *** [Js Ks 2c]
+Doiron80: bets 1900
+scorza23: raises 3961 to 5861 and is all-in
+Doiron80: folds 
+Uncalled bet (3961) returned to scorza23
+scorza23 collected 7600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 7600 | Rake 0 
+Board [Js Ks 2c]
+Seat 1: BCJ62 (big blind) folded before Flop
+Seat 2: clever606 folded before Flop
+Seat 3: scorza23 (button) collected (7600)
+Seat 5: Doiron80 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259756523256: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:21:55 UTC [2026/02/16 18:21:55 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: BCJ62 (6582 in chips, $0.54 bounty) 
+Seat 2: clever606 (10623 in chips, $0.81 bounty) 
+Seat 3: scorza23 (11561 in chips, $0.54 bounty) 
+Seat 4: Savus73 (5000 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (4133 in chips, $0.36 bounty) 
+BCJ62: posts the ante 40
+clever606: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+BCJ62: posts small blind 100
+clever606: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Kc]
+scorza23: folds 
+Savus73: raises 200 to 400
+Doiron80: raises 3693 to 4093 and is all-in
+BCJ62: folds 
+clever606: folds 
+Savus73: calls 3693
+*** FLOP *** [7c 4d 2d]
+*** TURN *** [7c 4d 2d] [Ah]
+*** RIVER *** [7c 4d 2d Ah] [Jd]
+*** SHOW DOWN ***
+Savus73: shows [Td 9s] (high card Ace)
+Doiron80: shows [Ad Tc] (a pair of Aces)
+Doiron80 collected 8686 from pot
+*** SUMMARY ***
+Total pot 8686 | Rake 0 
+Board [7c 4d 2d Ah Jd]
+Seat 1: BCJ62 (small blind) folded before Flop
+Seat 2: clever606 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Savus73 showed [Td 9s] and lost with high card Ace
+Seat 5: Doiron80 (button) showed [Ad Tc] and won (8686) with a pair of Aces
+
+
+
+PokerStars Hand #259756531720: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:22:34 UTC [2026/02/16 18:22:34 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: BCJ62 (6442 in chips, $0.54 bounty) 
+Seat 2: clever606 (10383 in chips, $0.81 bounty) 
+Seat 3: scorza23 (11521 in chips, $0.54 bounty) 
+Seat 4: Savus73 (867 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8686 in chips, $0.36 bounty) 
+BCJ62: posts the ante 40
+clever606: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+clever606: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 9c]
+Savus73: folds 
+Doiron80: folds 
+BCJ62: raises 800 to 1000
+clever606: folds 
+scorza23: calls 800
+*** FLOP *** [2h 9h 6h]
+scorza23: bets 1150
+BCJ62: calls 1150
+*** TURN *** [2h 9h 6h] [6d]
+scorza23: bets 4600
+BCJ62: calls 4252 and is all-in
+Uncalled bet (348) returned to scorza23
+*** RIVER *** [2h 9h 6h 6d] [5d]
+*** SHOW DOWN ***
+scorza23: shows [Ah 9c] (two pair, Nines and Sixes)
+BCJ62: shows [Qc Kh] (a pair of Sixes)
+scorza23 collected 13104 from pot
+scorza23 wins $0.27 for eliminating BCJ62 and their own bounty increases by $0.27 to $0.81
+BCJ62 finished the tournament
+*** SUMMARY ***
+Total pot 13104 | Rake 0 
+Board [2h 9h 6h 6d 5d]
+Seat 1: BCJ62 (button) showed [Qc Kh] and lost with a pair of Sixes
+Seat 2: clever606 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) showed [Ah 9c] and won (13104) with two pair, Nines and Sixes
+Seat 4: Savus73 folded before Flop (didn't bet)
+Seat 5: Doiron80 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756541466: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:23:18 UTC [2026/02/16 18:23:18 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 2: clever606 (10243 in chips, $0.81 bounty) 
+Seat 3: scorza23 (18183 in chips, $0.81 bounty) 
+Seat 4: Savus73 (827 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8646 in chips, $0.36 bounty) 
+clever606: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+scorza23: posts small blind 100
+Savus73: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Tc]
+Doiron80: folds 
+clever606: folds 
+scorza23: raises 220 to 420
+Savus73: raises 367 to 787 and is all-in
+scorza23: calls 367
+*** FLOP *** [Qc As Th]
+*** TURN *** [Qc As Th] [Kh]
+*** RIVER *** [Qc As Th Kh] [8d]
+*** SHOW DOWN ***
+scorza23: shows [7s Tc] (a pair of Tens)
+Savus73: shows [Jc 6d] (a straight, Ten to Ace)
+Savus73 collected 1734 from pot
+*** SUMMARY ***
+Total pot 1734 | Rake 0 
+Board [Qc As Th Kh 8d]
+Seat 2: clever606 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) showed [7s Tc] and lost with a pair of Tens
+Seat 4: Savus73 (big blind) showed [Jc 6d] and won (1734) with a straight, Ten to Ace
+Seat 5: Doiron80 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756549945: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:23:57 UTC [2026/02/16 18:23:57 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 2: clever606 (10203 in chips, $0.81 bounty) 
+Seat 3: scorza23 (17356 in chips, $0.81 bounty) 
+Seat 4: Savus73 (1734 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8606 in chips, $0.36 bounty) 
+clever606: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+Savus73: posts small blind 100
+Doiron80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 3c]
+clever606: raises 200 to 400
+scorza23: folds 
+Savus73: raises 1294 to 1694 and is all-in
+Doiron80: folds 
+clever606: calls 1294
+*** FLOP *** [4c 6s 7h]
+*** TURN *** [4c 6s 7h] [5h]
+*** RIVER *** [4c 6s 7h 5h] [5s]
+*** SHOW DOWN ***
+Savus73: shows [Ah 8s] (a straight, Four to Eight)
+clever606: shows [Kd Kc] (two pair, Kings and Fives)
+Savus73 collected 3748 from pot
+*** SUMMARY ***
+Total pot 3748 | Rake 0 
+Board [4c 6s 7h 5h 5s]
+Seat 2: clever606 showed [Kd Kc] and lost with two pair, Kings and Fives
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Savus73 (small blind) showed [Ah 8s] and won (3748) with a straight, Four to Eight
+Seat 5: Doiron80 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259756554988: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:24:20 UTC [2026/02/16 18:24:20 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 2: clever606 (8469 in chips, $0.81 bounty) 
+Seat 3: scorza23 (17316 in chips, $0.81 bounty) 
+Seat 4: Savus73 (3748 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8366 in chips, $0.36 bounty) 
+clever606: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+Doiron80: posts small blind 100
+clever606: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 9s]
+scorza23: folds 
+Savus73: folds 
+Doiron80: calls 100
+clever606: checks 
+*** FLOP *** [Th 4c 5d]
+Doiron80: bets 560
+clever606: folds 
+Uncalled bet (560) returned to Doiron80
+Doiron80 collected 560 from pot
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Board [Th 4c 5d]
+Seat 2: clever606 (big blind) folded on the Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Savus73 (button) folded before Flop (didn't bet)
+Seat 5: Doiron80 (small blind) collected (560)
+
+
+
+PokerStars Hand #259756559604: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:24:42 UTC [2026/02/16 18:24:42 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 2: clever606 (8229 in chips, $0.81 bounty) 
+Seat 3: scorza23 (17276 in chips, $0.81 bounty) 
+Seat 4: Savus73 (3708 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8686 in chips, $0.36 bounty) 
+clever606: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+clever606: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8c As]
+Savus73: folds 
+Doiron80: folds 
+clever606: calls 100
+scorza23: checks 
+*** FLOP *** [Ks 5d Ah]
+clever606: bets 200
+scorza23: raises 960 to 1160
+clever606: calls 960
+*** TURN *** [Ks 5d Ah] [7c]
+clever606: checks 
+scorza23: bets 2880
+clever606: calls 2880
+*** RIVER *** [Ks 5d Ah 7c] [Kh]
+clever606: checks 
+scorza23: bets 8640
+clever606: calls 3949 and is all-in
+Uncalled bet (4691) returned to scorza23
+*** SHOW DOWN ***
+scorza23: shows [8c As] (two pair, Aces and Kings)
+clever606: shows [7h Ac] (two pair, Aces and Kings - lower kicker)
+scorza23 collected 16538 from pot
+scorza23 wins $0.41 for eliminating clever606 and their own bounty increases by $0.40 to $1.21
+clever606 finished the tournament
+*** SUMMARY ***
+Total pot 16538 | Rake 0 
+Board [Ks 5d Ah 7c Kh]
+Seat 2: clever606 (small blind) showed [7h Ac] and lost with two pair, Aces and Kings
+Seat 3: scorza23 (big blind) showed [8c As] and won (16538) with two pair, Aces and Kings
+Seat 4: Savus73 folded before Flop (didn't bet)
+Seat 5: Doiron80 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756570716: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:25:32 UTC [2026/02/16 18:25:32 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (5000 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25585 in chips, $1.21 bounty) 
+Seat 4: Savus73 (3668 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8646 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+Savus73: posts small blind 100
+Doiron80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 9s]
+MaBccn: folds 
+scorza23: folds 
+Savus73: folds 
+Uncalled bet (100) returned to Doiron80
+Doiron80 collected 360 from pot
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Savus73 (small blind) folded before Flop
+Seat 5: Doiron80 (big blind) collected (360)
+
+
+
+PokerStars Hand #259756576017: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:25:56 UTC [2026/02/16 18:25:56 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: MaBccn (4960 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25545 in chips, $1.21 bounty) 
+Seat 4: Savus73 (3528 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8866 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+Doiron80: posts small blind 100
+MaBccn: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 3d]
+scorza23: folds 
+Savus73: raises 3288 to 3488 and is all-in
+Doiron80: folds 
+MaBccn: folds 
+Uncalled bet (3288) returned to Savus73
+Savus73 collected 660 from pot
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Seat 1: MaBccn (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Savus73 (button) collected (660)
+Seat 5: Doiron80 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756579006: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:26:09 UTC [2026/02/16 18:26:09 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (4720 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25505 in chips, $1.21 bounty) 
+Seat 4: Savus73 (3948 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8726 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+MaBccn: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 7c]
+Savus73: folds 
+Doiron80: folds 
+MaBccn: raises 4480 to 4680 and is all-in
+scorza23: folds 
+Uncalled bet (4480) returned to MaBccn
+MaBccn collected 560 from pot
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: MaBccn (small blind) collected (560)
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Savus73 folded before Flop (didn't bet)
+Seat 5: Doiron80 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757082227: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:26:23 UTC [2026/02/16 18:26:23 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (5040 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25265 in chips, $1.21 bounty) 
+Seat 4: Savus73 (3908 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8686 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+scorza23: posts small blind 100
+Savus73: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 5s]
+Doiron80: calls 200
+MaBccn: folds 
+scorza23: folds 
+Savus73: checks 
+*** FLOP *** [2s 7d 8c]
+Savus73: checks 
+Doiron80: checks 
+*** TURN *** [2s 7d 8c] [4s]
+Savus73: bets 1000
+Doiron80: folds 
+Uncalled bet (1000) returned to Savus73
+Savus73 collected 660 from pot
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Board [2s 7d 8c 4s]
+Seat 1: MaBccn (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Savus73 (big blind) collected (660)
+Seat 5: Doiron80 folded on the Turn
+
+
+
+PokerStars Hand #259757088518: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:26:52 UTC [2026/02/16 18:26:52 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (5000 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25125 in chips, $1.21 bounty) 
+Seat 4: Savus73 (4328 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8446 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+Savus73: posts small blind 100
+Doiron80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [As Jh]
+MaBccn: folds 
+scorza23: raises 220 to 420
+Savus73: folds 
+Doiron80: folds 
+Uncalled bet (220) returned to scorza23
+scorza23 collected 660 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 3: scorza23 (button) collected (660)
+Seat 4: Savus73 (small blind) folded before Flop
+Seat 5: Doiron80 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757093709: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:27:16 UTC [2026/02/16 18:27:16 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: MaBccn (4960 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25545 in chips, $1.21 bounty) 
+Seat 4: Savus73 (4188 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8206 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+Doiron80: posts small blind 100
+MaBccn: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Th]
+scorza23: folds 
+Savus73: raises 200 to 400
+Doiron80: folds 
+MaBccn: folds 
+Uncalled bet (200) returned to Savus73
+Savus73 collected 660 from pot
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Seat 1: MaBccn (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Savus73 (button) collected (660)
+Seat 5: Doiron80 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757100103: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:27:46 UTC [2026/02/16 18:27:46 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (4720 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25505 in chips, $1.21 bounty) 
+Seat 4: Savus73 (4608 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8066 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+MaBccn: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3c]
+Savus73: folds 
+Doiron80: folds 
+MaBccn: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 360 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 1: MaBccn (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (360)
+Seat 4: Savus73 folded before Flop (didn't bet)
+Seat 5: Doiron80 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757102063: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:27:54 UTC [2026/02/16 18:27:54 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (4580 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25725 in chips, $1.21 bounty) 
+Seat 4: Savus73 (4568 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8026 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+scorza23: posts small blind 100
+Savus73: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 3c]
+Doiron80: folds 
+MaBccn: raises 4340 to 4540 and is all-in
+scorza23: folds 
+Savus73: folds 
+Uncalled bet (4340) returned to MaBccn
+MaBccn collected 660 from pot
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Seat 1: MaBccn (button) collected (660)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Savus73 (big blind) folded before Flop
+Seat 5: Doiron80 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757105762: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:28:11 UTC [2026/02/16 18:28:11 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (5000 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (5000 in chips, $0.36 bounty) 
+Seat 3: scorza23 (25585 in chips, $1.21 bounty) 
+Seat 4: Savus73 (4328 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (7986 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Savus73: posts the ante 40
+Doiron80: posts the ante 40
+Savus73: posts small blind 100
+Doiron80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qh]
+MaBccn: folds 
+lkv__77: calls 200
+scorza23: folds 
+Savus73: calls 100
+Doiron80: raises 200 to 400
+lkv__77: calls 200
+Savus73: calls 200
+*** FLOP *** [4d 5s 2h]
+Savus73: bets 2000
+Doiron80: folds 
+lkv__77: raises 2560 to 4560 and is all-in
+Savus73: calls 1888 and is all-in
+Uncalled bet (672) returned to lkv__77
+*** TURN *** [4d 5s 2h] [Qc]
+*** RIVER *** [4d 5s 2h Qc] [Jd]
+*** SHOW DOWN ***
+Savus73: shows [Kd 3d] (high card King)
+lkv__77: shows [3s Ah] (a straight, Ace to Five)
+lkv__77 collected 9176 from pot
+lkv__77 wins $0.18 for eliminating Savus73 and their own bounty increases by $0.18 to $0.54
+Savus73 finished the tournament
+*** SUMMARY ***
+Total pot 9176 | Rake 0 
+Board [4d 5s 2h Qc Jd]
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 showed [3s Ah] and won (9176) with a straight, Ace to Five
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Savus73 (small blind) showed [Kd 3d] and lost with high card King
+Seat 5: Doiron80 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259757116742: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:29:02 UTC [2026/02/16 18:29:02 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (4960 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (9848 in chips, $0.54 bounty) 
+Seat 3: scorza23 (25545 in chips, $1.21 bounty) 
+Seat 5: Doiron80 (7546 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Doiron80: posts the ante 40
+MaBccn: posts small blind 100
+lkv__77: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Qd]
+scorza23: raises 400 to 600
+Doiron80: folds 
+MaBccn: folds 
+lkv__77: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 660 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Seat 1: MaBccn (small blind) folded before Flop
+Seat 2: lkv__77 (big blind) folded before Flop
+Seat 3: scorza23 collected (660)
+Seat 5: Doiron80 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757120922: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:29:22 UTC [2026/02/16 18:29:22 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (4820 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (9608 in chips, $0.54 bounty) 
+Seat 3: scorza23 (25965 in chips, $1.21 bounty) 
+Seat 5: Doiron80 (7506 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Doiron80: posts the ante 40
+lkv__77: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 4c]
+Doiron80: calls 200
+MaBccn: folds 
+lkv__77: calls 100
+scorza23: checks 
+*** FLOP *** [8h Qd Jd]
+lkv__77: bets 380
+scorza23: folds 
+Doiron80: calls 380
+*** TURN *** [8h Qd Jd] [8d]
+lkv__77: checks 
+Doiron80: bets 760
+lkv__77: folds 
+Uncalled bet (760) returned to Doiron80
+Doiron80 collected 1520 from pot
+*** SUMMARY ***
+Total pot 1520 | Rake 0 
+Board [8h Qd Jd 8d]
+Seat 1: MaBccn (button) folded before Flop (didn't bet)
+Seat 2: lkv__77 (small blind) folded on the Turn
+Seat 3: scorza23 (big blind) folded on the Flop
+Seat 5: Doiron80 collected (1520)
+
+
+
+PokerStars Hand #259757128820: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:29:59 UTC [2026/02/16 18:29:59 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: MaBccn (4780 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (8988 in chips, $0.54 bounty) 
+Seat 3: scorza23 (25725 in chips, $1.21 bounty) 
+Seat 4: Rafitavares (5000 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8406 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Rafitavares: posts the ante 40
+Doiron80: posts the ante 40
+scorza23: posts small blind 100
+Rafitavares: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 6c]
+Doiron80: folds 
+MaBccn: raises 200 to 400
+lkv__77: folds 
+scorza23: folds 
+Rafitavares: calls 200
+*** FLOP *** [Jd 7d 8h]
+Rafitavares: checks 
+MaBccn: bets 1100
+Rafitavares: raises 3460 to 4560 and is all-in
+MaBccn: calls 3240 and is all-in
+Uncalled bet (220) returned to Rafitavares
+*** TURN *** [Jd 7d 8h] [Kh]
+*** RIVER *** [Jd 7d 8h Kh] [Jh]
+*** SHOW DOWN ***
+Rafitavares: shows [Js 7c] (a full house, Jacks full of Sevens)
+MaBccn: shows [Ks Jc] (a full house, Jacks full of Kings)
+MaBccn collected 9780 from pot
+*** SUMMARY ***
+Total pot 9780 | Rake 0 
+Board [Jd 7d 8h Kh Jh]
+Seat 1: MaBccn showed [Ks Jc] and won (9780) with a full house, Jacks full of Kings
+Seat 2: lkv__77 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Rafitavares (big blind) showed [Js 7c] and lost with a full house, Jacks full of Sevens
+Seat 5: Doiron80 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757136707: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:30:35 UTC [2026/02/16 18:30:35 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (9780 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (8948 in chips, $0.54 bounty) 
+Seat 3: scorza23 (25585 in chips, $1.21 bounty) 
+Seat 4: Rafitavares (220 in chips, $0.36 bounty) 
+Seat 5: Doiron80 (8366 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Rafitavares: posts the ante 40
+Doiron80: posts the ante 40
+Rafitavares: posts small blind 100
+Doiron80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Qs]
+MaBccn: calls 200
+lkv__77: folds 
+scorza23: calls 200
+Rafitavares: calls 80 and is all-in
+Doiron80: checks 
+*** FLOP *** [4s 5h 4c]
+Doiron80: bets 200
+MaBccn: calls 200
+scorza23: calls 200
+*** TURN *** [4s 5h 4c] [Js]
+Doiron80: bets 1580
+MaBccn: calls 1580
+scorza23: raises 23565 to 25145 and is all-in
+Doiron80: folds 
+MaBccn: folds 
+Uncalled bet (23565) returned to scorza23
+*** RIVER *** [4s 5h 4c Js] [Ad]
+*** SHOW DOWN ***
+scorza23: shows [5d Qs] (two pair, Fives and Fours)
+scorza23 collected 5400 from side pot
+Rafitavares: shows [9c 6d] (a pair of Fours)
+scorza23 collected 920 from main pot
+scorza23 wins $0.18 for eliminating Rafitavares and their own bounty increases by $0.18 to $1.39
+Rafitavares finished the tournament
+*** SUMMARY ***
+Total pot 6320 Main pot 920. Side pot 5400. | Rake 0 
+Board [4s 5h 4c Js Ad]
+Seat 1: MaBccn folded on the Turn
+Seat 2: lkv__77 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) showed [5d Qs] and won (6320) with two pair, Fives and Fours
+Seat 4: Rafitavares (small blind) showed [9c 6d] and lost with a pair of Fours
+Seat 5: Doiron80 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259757146697: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:31:22 UTC [2026/02/16 18:31:22 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (7760 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (8908 in chips, $0.54 bounty) 
+Seat 3: scorza23 (29885 in chips, $1.39 bounty) 
+Seat 5: Doiron80 (6346 in chips, $0.36 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Doiron80: posts the ante 40
+MaBccn: posts small blind 100
+lkv__77: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 2d]
+Doiron80 is disconnected 
+Doiron80 is disconnected 
+scorza23: folds 
+Doiron80: calls 200
+MaBccn: calls 100
+lkv__77: raises 400 to 600
+Doiron80: calls 400
+MaBccn: calls 400
+*** FLOP *** [9h Kc 3c]
+MaBccn: checks 
+lkv__77: bets 980
+Doiron80: raises 980 to 1960
+MaBccn: folds 
+lkv__77: raises 6308 to 8268 and is all-in
+Doiron80: calls 3746 and is all-in
+Uncalled bet (2562) returned to lkv__77
+*** TURN *** [9h Kc 3c] [3s]
+*** RIVER *** [9h Kc 3c 3s] [Tc]
+*** SHOW DOWN ***
+lkv__77: shows [As Ad] (two pair, Aces and Threes)
+Doiron80: shows [7c Kh] (two pair, Kings and Threes)
+lkv__77 collected 13372 from pot
+lkv__77 wins $0.18 for eliminating Doiron80 and their own bounty increases by $0.18 to $0.72
+Doiron80 finished the tournament in 135th place
+*** SUMMARY ***
+Total pot 13372 | Rake 0 
+Board [9h Kc 3c 3s Tc]
+Seat 1: MaBccn (small blind) folded on the Flop
+Seat 2: lkv__77 (big blind) showed [As Ad] and won (13372) with two pair, Aces and Threes
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: Doiron80 (button) showed [7c Kh] and lost with two pair, Kings and Threes
+
+
+
+PokerStars Hand #259757157971: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:32:15 UTC [2026/02/16 18:32:15 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (7120 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (15934 in chips, $0.72 bounty) 
+Seat 3: scorza23 (29845 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13891 in chips, $0.54 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Betocruz30: posts the ante 40
+lkv__77: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 9h]
+Betocruz30: folds 
+MaBccn: folds 
+lkv__77: calls 100
+scorza23: checks 
+*** FLOP *** [5s 4c Ah]
+lkv__77: checks 
+scorza23: checks 
+*** TURN *** [5s 4c Ah] [9c]
+lkv__77: checks 
+scorza23: checks 
+*** RIVER *** [5s 4c Ah 9c] [9s]
+lkv__77: bets 280
+scorza23: raises 1120 to 1400
+lkv__77: folds 
+Uncalled bet (1120) returned to scorza23
+scorza23 collected 1120 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1120 | Rake 0 
+Board [5s 4c Ah 9c 9s]
+Seat 1: MaBccn (button) folded before Flop (didn't bet)
+Seat 2: lkv__77 (small blind) folded on the River
+Seat 3: scorza23 (big blind) collected (1120)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757167001: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:32:57 UTC [2026/02/16 18:32:57 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: MaBccn (7080 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (15414 in chips, $0.72 bounty) 
+Seat 3: scorza23 (30445 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13851 in chips, $0.54 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Betocruz30: posts the ante 40
+scorza23: posts small blind 100
+Betocruz30: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 2s]
+MaBccn: raises 200 to 400
+lkv__77: calls 400
+scorza23: folds 
+Betocruz30: calls 200
+*** FLOP *** [7s 7h 9c]
+Betocruz30: checks 
+MaBccn: bets 400
+lkv__77: folds 
+Betocruz30: calls 400
+*** TURN *** [7s 7h 9c] [5s]
+Betocruz30: checks 
+MaBccn: checks 
+*** RIVER *** [7s 7h 9c 5s] [Th]
+BarpWin is disconnected 
+Betocruz30: bets 400
+MaBccn: calls 400
+*** SHOW DOWN ***
+Betocruz30: shows [Ah 4h] (a pair of Sevens)
+MaBccn: shows [5d 6h] (two pair, Sevens and Fives)
+MaBccn collected 3060 from pot
+*** SUMMARY ***
+Total pot 3060 | Rake 0 
+Board [7s 7h 9c 5s Th]
+Seat 1: MaBccn showed [5d 6h] and won (3060) with two pair, Sevens and Fives
+Seat 2: lkv__77 (button) folded on the Flop
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) showed [Ah 4h] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #259757178063: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:33:48 UTC [2026/02/16 18:33:48 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (8900 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (14974 in chips, $0.72 bounty) 
+Seat 3: scorza23 (30305 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12611 in chips, $0.54 bounty) 
+Seat 5: BarpWin (5956 in chips, $0.72 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Betocruz30: posts the ante 40
+BarpWin: posts the ante 40
+Betocruz30: posts small blind 100
+BarpWin: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ks]
+MaBccn: folds 
+lkv__77: folds 
+scorza23: raises 220 to 420
+Betocruz30: folds 
+BarpWin: folds 
+Uncalled bet (220) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) collected (700)
+Seat 4: Betocruz30 (small blind) folded before Flop
+Seat 5: BarpWin (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757184985: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:34:21 UTC [2026/02/16 18:34:21 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: MaBccn (8860 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (14934 in chips, $0.72 bounty) 
+Seat 3: scorza23 (30765 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12471 in chips, $0.54 bounty) 
+Seat 5: BarpWin (5716 in chips, $0.72 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Betocruz30: posts the ante 40
+BarpWin: posts the ante 40
+BarpWin: posts small blind 100
+MaBccn: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 9c]
+lkv__77: folds 
+scorza23: folds 
+Betocruz30: calls 200
+BarpWin: raises 5476 to 5676 and is all-in
+MaBccn: folds 
+Betocruz30: folds 
+Uncalled bet (5476) returned to BarpWin
+BarpWin collected 800 from pot
+BarpWin: doesn't show hand 
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Seat 1: MaBccn (big blind) folded before Flop
+Seat 2: lkv__77 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) folded before Flop
+Seat 5: BarpWin (small blind) collected (800)
+
+
+
+PokerStars Hand #259757191403: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:34:51 UTC [2026/02/16 18:34:51 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (8620 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (14894 in chips, $0.72 bounty) 
+Seat 3: scorza23 (30725 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12231 in chips, $0.54 bounty) 
+Seat 5: BarpWin (6276 in chips, $0.72 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Betocruz30: posts the ante 40
+BarpWin: posts the ante 40
+MaBccn: posts small blind 100
+lkv__77: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 4s]
+scorza23: folds 
+Betocruz30: folds 
+BarpWin: raises 200 to 400
+MaBccn: calls 300
+lkv__77: calls 200
+*** FLOP *** [Js 4c 6d]
+MaBccn: checks 
+lkv__77: checks 
+BarpWin: checks 
+*** TURN *** [Js 4c 6d] [Jh]
+MaBccn: checks 
+lkv__77: checks 
+BarpWin: checks 
+*** RIVER *** [Js 4c 6d Jh] [6c]
+MaBccn: bets 700
+lkv__77: calls 700
+BarpWin: calls 700
+*** SHOW DOWN ***
+MaBccn: shows [6s Ts] (a full house, Sixes full of Jacks)
+lkv__77: mucks hand 
+BarpWin: mucks hand 
+MaBccn collected 3500 from pot
+*** SUMMARY ***
+Total pot 3500 | Rake 0 
+Board [Js 4c 6d Jh 6c]
+Seat 1: MaBccn (small blind) showed [6s Ts] and won (3500) with a full house, Sixes full of Jacks
+Seat 2: lkv__77 (big blind) mucked [Qh Kh]
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: BarpWin (button) mucked [8s Ad]
+
+
+
+PokerStars Hand #259757201818: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 23:35:41 UTC [2026/02/16 18:35:41 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (10980 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (13754 in chips, $0.72 bounty) 
+Seat 3: scorza23 (30685 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12191 in chips, $0.54 bounty) 
+Seat 5: BarpWin (5136 in chips, $0.72 bounty) 
+MaBccn: posts the ante 40
+lkv__77: posts the ante 40
+scorza23: posts the ante 40
+Betocruz30: posts the ante 40
+BarpWin: posts the ante 40
+lkv__77: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Td]
+Betocruz30: folds 
+BarpWin: folds 
+MaBccn: raises 200 to 400
+lkv__77: calls 300
+scorza23: calls 200
+*** FLOP *** [9h Jh Qs]
+lkv__77: bets 1400
+scorza23: raises 28845 to 30245 and is all-in
+MaBccn: folds 
+lkv__77: folds 
+Uncalled bet (28845) returned to scorza23
+scorza23 collected 4200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 4200 | Rake 0 
+Board [9h Jh Qs]
+Seat 1: MaBccn (button) folded on the Flop
+Seat 2: lkv__77 (small blind) folded on the Flop
+Seat 3: scorza23 (big blind) collected (4200)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: BarpWin folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757217865: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IV (125/250) - 2026/02/16 23:36:58 UTC [2026/02/16 18:36:58 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: MaBccn (10540 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (11914 in chips, $0.72 bounty) 
+Seat 3: scorza23 (33045 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12151 in chips, $0.54 bounty) 
+Seat 5: BarpWin (5096 in chips, $0.72 bounty) 
+MaBccn: posts the ante 50
+lkv__77: posts the ante 50
+scorza23: posts the ante 50
+Betocruz30: posts the ante 50
+BarpWin: posts the ante 50
+scorza23: posts small blind 125
+Betocruz30: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 2d]
+BarpWin: folds 
+MaBccn: folds 
+lkv__77: calls 250
+scorza23: folds 
+Betocruz30: checks 
+*** FLOP *** [Qc 2c 7h]
+Betocruz30: checks 
+lkv__77: checks 
+*** TURN *** [Qc 2c 7h] [Qs]
+Betocruz30: checks 
+lkv__77: checks 
+*** RIVER *** [Qc 2c 7h Qs] [7s]
+Betocruz30: bets 750
+lkv__77: folds 
+Uncalled bet (750) returned to Betocruz30
+Betocruz30 collected 875 from pot
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Board [Qc 2c 7h Qs 7s]
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 (button) folded on the River
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) collected (875)
+Seat 5: BarpWin folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757226253: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IV (125/250) - 2026/02/16 23:37:38 UTC [2026/02/16 18:37:38 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (10490 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (11614 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32870 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12726 in chips, $0.54 bounty) 
+Seat 5: BarpWin (5046 in chips, $0.72 bounty) 
+MaBccn: posts the ante 50
+lkv__77: posts the ante 50
+scorza23: posts the ante 50
+Betocruz30: posts the ante 50
+BarpWin: posts the ante 50
+Betocruz30: posts small blind 125
+BarpWin: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 5c]
+MaBccn: folds 
+lkv__77: folds 
+scorza23: folds 
+Betocruz30: calls 125
+BarpWin: checks 
+*** FLOP *** [2h Ah 8d]
+Betocruz30: checks 
+BarpWin: checks 
+*** TURN *** [2h Ah 8d] [Qc]
+Betocruz30: bets 250
+BarpWin: folds 
+Uncalled bet (250) returned to Betocruz30
+Betocruz30 collected 750 from pot
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Board [2h Ah 8d Qc]
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) collected (750)
+Seat 5: BarpWin (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259757232473: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IV (125/250) - 2026/02/16 23:38:08 UTC [2026/02/16 18:38:08 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: MaBccn (10440 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (11564 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32820 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13176 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4746 in chips, $0.72 bounty) 
+MaBccn: posts the ante 50
+lkv__77: posts the ante 50
+scorza23: posts the ante 50
+Betocruz30: posts the ante 50
+BarpWin: posts the ante 50
+BarpWin: posts small blind 125
+MaBccn: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Kh]
+lkv__77: folds 
+scorza23: folds 
+Betocruz30: raises 250 to 500
+BarpWin: folds 
+MaBccn: folds 
+Uncalled bet (250) returned to Betocruz30
+Betocruz30 collected 875 from pot
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 1: MaBccn (big blind) folded before Flop
+Seat 2: lkv__77 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) collected (875)
+Seat 5: BarpWin (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757240001: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IV (125/250) - 2026/02/16 23:38:43 UTC [2026/02/16 18:38:43 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (10140 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (11514 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32770 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13751 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4571 in chips, $0.72 bounty) 
+MaBccn: posts the ante 50
+lkv__77: posts the ante 50
+scorza23: posts the ante 50
+Betocruz30: posts the ante 50
+BarpWin: posts the ante 50
+MaBccn: posts small blind 125
+lkv__77: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Qh]
+scorza23: folds 
+Betocruz30: raises 250 to 500
+BarpWin: folds 
+MaBccn: folds 
+lkv__77: calls 250
+*** FLOP *** [Th Kc 9h]
+lkv__77: bets 1375
+Betocruz30: calls 1375
+*** TURN *** [Th Kc 9h] [7c]
+lkv__77: bets 9589 and is all-in
+Betocruz30: folds 
+Uncalled bet (9589) returned to lkv__77
+lkv__77 collected 4125 from pot
+*** SUMMARY ***
+Total pot 4125 | Rake 0 
+Board [Th Kc 9h 7c]
+Seat 1: MaBccn (small blind) folded before Flop
+Seat 2: lkv__77 (big blind) collected (4125)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded on the Turn
+Seat 5: BarpWin (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757255179: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IV (125/250) - 2026/02/16 23:39:56 UTC [2026/02/16 18:39:56 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (9965 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (13714 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32720 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (11826 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4521 in chips, $0.72 bounty) 
+MaBccn: posts the ante 50
+lkv__77: posts the ante 50
+scorza23: posts the ante 50
+Betocruz30: posts the ante 50
+BarpWin: posts the ante 50
+lkv__77: posts small blind 125
+scorza23: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3c]
+Betocruz30: folds 
+BarpWin: raises 250 to 500
+MaBccn: raises 9415 to 9915 and is all-in
+lkv__77: folds 
+scorza23: folds 
+BarpWin: folds 
+Uncalled bet (9415) returned to MaBccn
+MaBccn collected 1625 from pot
+*** SUMMARY ***
+Total pot 1625 | Rake 0 
+Seat 1: MaBccn (button) collected (1625)
+Seat 2: lkv__77 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: BarpWin folded before Flop
+
+
+
+PokerStars Hand #259757261120: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IV (125/250) - 2026/02/16 23:40:24 UTC [2026/02/16 18:40:24 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: MaBccn (11040 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (13539 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32420 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (11776 in chips, $0.54 bounty) 
+Seat 5: BarpWin (3971 in chips, $0.72 bounty) 
+MaBccn: posts the ante 50
+lkv__77: posts the ante 50
+scorza23: posts the ante 50
+Betocruz30: posts the ante 50
+BarpWin: posts the ante 50
+scorza23: posts small blind 125
+Betocruz30: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3h]
+BarpWin: folds 
+MaBccn: folds 
+lkv__77: raises 250 to 500
+scorza23: folds 
+Betocruz30: calls 250
+*** FLOP *** [7c 4h Th]
+Betocruz30: checks 
+lkv__77: checks 
+*** TURN *** [7c 4h Th] [Kc]
+Betocruz30: bets 750
+lkv__77: calls 750
+*** RIVER *** [7c 4h Th Kc] [Ks]
+Betocruz30: bets 10476 and is all-in
+lkv__77: folds 
+Uncalled bet (10476) returned to Betocruz30
+Betocruz30 collected 2875 from pot
+*** SUMMARY ***
+Total pot 2875 | Rake 0 
+Board [7c 4h Th Kc Ks]
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 (button) folded on the River
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) collected (2875)
+Seat 5: BarpWin folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757268718: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IV (125/250) - 2026/02/16 23:41:00 UTC [2026/02/16 18:41:00 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (10990 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (12239 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32245 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13351 in chips, $0.54 bounty) 
+Seat 5: BarpWin (3921 in chips, $0.72 bounty) 
+MaBccn: posts the ante 50
+lkv__77: posts the ante 50
+scorza23: posts the ante 50
+Betocruz30: posts the ante 50
+BarpWin: posts the ante 50
+Betocruz30: posts small blind 125
+BarpWin: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 4d]
+MaBccn: folds 
+lkv__77: folds 
+scorza23: folds 
+Betocruz30: calls 125
+BarpWin: raises 3621 to 3871 and is all-in
+Betocruz30: folds 
+Uncalled bet (3621) returned to BarpWin
+BarpWin collected 750 from pot
+BarpWin: doesn't show hand 
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) folded before Flop
+Seat 5: BarpWin (big blind) collected (750)
+
+
+
+PokerStars Hand #259757273807: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:41:25 UTC [2026/02/16 18:41:25 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: MaBccn (10940 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (12189 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32195 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13051 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4371 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+BarpWin: posts small blind 150
+MaBccn: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5s]
+lkv__77: folds 
+scorza23: folds 
+Betocruz30: folds 
+BarpWin: folds 
+Uncalled bet (150) returned to MaBccn
+MaBccn collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: MaBccn (big blind) collected (600)
+Seat 2: lkv__77 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 5: BarpWin (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757275897: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:41:35 UTC [2026/02/16 18:41:35 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (11330 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (12129 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32135 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12991 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4161 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+MaBccn: posts small blind 150
+lkv__77: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Th]
+scorza23: folds 
+Betocruz30: calls 300
+BarpWin: folds 
+MaBccn: calls 150
+lkv__77: checks 
+*** FLOP *** [5c 8s Jh]
+MaBccn: checks 
+lkv__77: checks 
+Betocruz30: checks 
+*** TURN *** [5c 8s Jh] [Js]
+MaBccn: checks 
+lkv__77: checks 
+Betocruz30: checks 
+*** RIVER *** [5c 8s Jh Js] [8h]
+MaBccn: checks 
+lkv__77: checks 
+Betocruz30: checks 
+*** SHOW DOWN ***
+MaBccn: shows [6s 6h] (two pair, Jacks and Eights)
+lkv__77: shows [Kh 3h] (two pair, Jacks and Eights - King kicker)
+Betocruz30: mucks hand 
+lkv__77 collected 1200 from pot
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [5c 8s Jh Js 8h]
+Seat 1: MaBccn (small blind) showed [6s 6h] and lost with two pair, Jacks and Eights
+Seat 2: lkv__77 (big blind) showed [Kh 3h] and won (1200) with two pair, Jacks and Eights
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 mucked [9c Ts]
+Seat 5: BarpWin (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757283915: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:42:14 UTC [2026/02/16 18:42:14 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (10970 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (12969 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32075 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12631 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4101 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+lkv__77: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 8h]
+Betocruz30: folds 
+BarpWin: folds 
+MaBccn: folds 
+lkv__77: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: MaBccn (button) folded before Flop (didn't bet)
+Seat 2: lkv__77 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (600)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: BarpWin folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757286894: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:42:27 UTC [2026/02/16 18:42:27 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: MaBccn (10910 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (12759 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32465 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12571 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4041 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+scorza23: posts small blind 150
+Betocruz30: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 2s]
+BarpWin: raises 300 to 600
+MaBccn: folds 
+lkv__77: folds 
+scorza23: folds 
+Betocruz30: folds 
+Uncalled bet (300) returned to BarpWin
+BarpWin collected 1050 from pot
+BarpWin: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) folded before Flop
+Seat 5: BarpWin collected (1050)
+
+
+
+PokerStars Hand #259757291623: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:42:50 UTC [2026/02/16 18:42:50 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (10850 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (12699 in chips, $0.72 bounty) 
+Seat 3: scorza23 (32255 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12211 in chips, $0.54 bounty) 
+Seat 5: BarpWin (4731 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+Betocruz30: posts small blind 150
+BarpWin: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Qs]
+MaBccn: folds 
+lkv__77: raises 300 to 600
+scorza23: calls 600
+Betocruz30: folds 
+BarpWin: calls 300
+*** FLOP *** [2h Ks 5h]
+BarpWin: checks 
+lkv__77: checks 
+scorza23: bets 600
+BarpWin: raises 3471 to 4071 and is all-in
+lkv__77: folds 
+scorza23: calls 3471
+*** TURN *** [2h Ks 5h] [3d]
+*** RIVER *** [2h Ks 5h 3d] [7h]
+*** SHOW DOWN ***
+BarpWin: shows [Kd Jc] (a pair of Kings)
+scorza23: shows [Qh Qs] (a pair of Queens)
+BarpWin collected 10392 from pot
+*** SUMMARY ***
+Total pot 10392 | Rake 0 
+Board [2h Ks 5h 3d 7h]
+Seat 1: MaBccn folded before Flop (didn't bet)
+Seat 2: lkv__77 folded on the Flop
+Seat 3: scorza23 (button) showed [Qh Qs] and lost with a pair of Queens
+Seat 4: Betocruz30 (small blind) folded before Flop
+Seat 5: BarpWin (big blind) showed [Kd Jc] and won (10392) with a pair of Kings
+
+
+
+PokerStars Hand #259757300619: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:43:33 UTC [2026/02/16 18:43:33 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: MaBccn (10790 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (12039 in chips, $0.72 bounty) 
+Seat 3: scorza23 (27524 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12001 in chips, $0.54 bounty) 
+Seat 5: BarpWin (10392 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+BarpWin: posts small blind 150
+MaBccn: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 6h]
+lkv__77: raises 300 to 600
+scorza23: folds 
+Betocruz30: calls 600
+BarpWin: folds 
+MaBccn: folds 
+*** FLOP *** [5h Kc Js]
+lkv__77: checks 
+Betocruz30: bets 900
+lkv__77: folds 
+Uncalled bet (900) returned to Betocruz30
+Betocruz30 collected 1950 from pot
+*** SUMMARY ***
+Total pot 1950 | Rake 0 
+Board [5h Kc Js]
+Seat 1: MaBccn (big blind) folded before Flop
+Seat 2: lkv__77 folded on the Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) collected (1950)
+Seat 5: BarpWin (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757306991: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:44:04 UTC [2026/02/16 18:44:04 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (10430 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (11379 in chips, $0.72 bounty) 
+Seat 3: scorza23 (27464 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13291 in chips, $0.54 bounty) 
+Seat 5: BarpWin (10182 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+MaBccn: posts small blind 150
+lkv__77: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Ks]
+scorza23: folds 
+Betocruz30: folds 
+BarpWin: folds 
+MaBccn: raises 300 to 600
+lkv__77: calls 300
+*** FLOP *** [Kc 2s 2d]
+MaBccn: bets 600
+lkv__77: raises 1350 to 1950
+MaBccn: calls 1350
+*** TURN *** [Kc 2s 2d] [8c]
+MaBccn: checks 
+lkv__77: checks 
+*** RIVER *** [Kc 2s 2d 8c] [Jc]
+MaBccn: checks 
+lkv__77: bets 2400
+MaBccn: raises 5420 to 7820 and is all-in
+lkv__77: folds 
+Uncalled bet (5420) returned to MaBccn
+MaBccn collected 10200 from pot
+*** SUMMARY ***
+Total pot 10200 | Rake 0 
+Board [Kc 2s 2d 8c Jc]
+Seat 1: MaBccn (small blind) collected (10200)
+Seat 2: lkv__77 (big blind) folded on the River
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: BarpWin (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757317280: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:44:54 UTC [2026/02/16 18:44:54 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (15620 in chips, $0.36 bounty) 
+Seat 2: lkv__77 (6369 in chips, $0.72 bounty) 
+Seat 3: scorza23 (27404 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13231 in chips, $0.54 bounty) 
+Seat 5: BarpWin (10122 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+lkv__77: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+lkv__77: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 7c]
+Betocruz30: calls 300
+BarpWin: folds 
+MaBccn: raises 300 to 600
+lkv__77: raises 5709 to 6309 and is all-in
+scorza23: folds 
+Betocruz30: folds 
+MaBccn: calls 5709
+*** FLOP *** [6s Tc Th]
+*** TURN *** [6s Tc Th] [2s]
+*** RIVER *** [6s Tc Th 2s] [3d]
+*** SHOW DOWN ***
+lkv__77: shows [As 7h] (a pair of Tens)
+MaBccn: shows [Ks Kc] (two pair, Kings and Tens)
+MaBccn collected 13518 from pot
+MaBccn wins $0.36 for eliminating lkv__77 and their own bounty increases by $0.36 to $0.72
+lkv__77 finished the tournament in 90th place
+*** SUMMARY ***
+Total pot 13518 | Rake 0 
+Board [6s Tc Th 2s 3d]
+Seat 1: MaBccn (button) showed [Ks Kc] and won (13518) with two pair, Kings and Tens
+Seat 2: lkv__77 (small blind) showed [As 7h] and lost with a pair of Tens
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Betocruz30 folded before Flop
+Seat 5: BarpWin folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757325288: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level V (150/300) - 2026/02/16 23:45:33 UTC [2026/02/16 18:45:33 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: MaBccn (22769 in chips, $0.72 bounty) 
+Seat 3: scorza23 (27044 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12871 in chips, $0.54 bounty) 
+Seat 5: BarpWin (10062 in chips, $0.72 bounty) 
+MaBccn: posts the ante 60
+scorza23: posts the ante 60
+Betocruz30: posts the ante 60
+BarpWin: posts the ante 60
+Betocruz30: posts small blind 150
+BarpWin: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Qh]
+MaBccn: calls 300
+scorza23: folds 
+Betocruz30: calls 150
+BarpWin: checks 
+*** FLOP *** [6c 2h Qd]
+Betocruz30: bets 300
+BarpWin: folds 
+MaBccn: folds 
+Uncalled bet (300) returned to Betocruz30
+Betocruz30 collected 1140 from pot
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Board [6c 2h Qd]
+Seat 1: MaBccn folded on the Flop
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) collected (1140)
+Seat 5: BarpWin (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259757333785: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:46:15 UTC [2026/02/16 18:46:15 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: MaBccn (22409 in chips, $0.72 bounty) 
+Seat 3: scorza23 (26984 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (13651 in chips, $0.54 bounty) 
+Seat 5: BarpWin (9702 in chips, $0.72 bounty) 
+MaBccn: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+BarpWin: posts the ante 80
+BarpWin: posts small blind 200
+MaBccn: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Kc]
+scorza23: raises 440 to 840
+Betocruz30: calls 840
+BarpWin: calls 640
+MaBccn: folds 
+*** FLOP *** [6h 6c 4d]
+BarpWin: checks 
+scorza23: bets 1620
+Betocruz30: folds 
+BarpWin: folds 
+Uncalled bet (1620) returned to scorza23
+scorza23 collected 3240 from pot
+serwinser777 is disconnected 
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 3240 | Rake 0 
+Board [6h 6c 4d]
+Seat 1: MaBccn (big blind) folded before Flop
+Seat 3: scorza23 collected (3240)
+Seat 4: Betocruz30 (button) folded on the Flop
+Seat 5: BarpWin (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259757341128: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:46:51 UTC [2026/02/16 18:46:51 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: MaBccn (21929 in chips, $0.72 bounty) 
+Seat 2: serwinser777 (8378 in chips, $1.26 bounty) 
+Seat 3: scorza23 (29304 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12731 in chips, $0.54 bounty) 
+Seat 5: BarpWin (8782 in chips, $0.72 bounty) 
+MaBccn: posts the ante 80
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+BarpWin: posts the ante 80
+MaBccn: posts small blind 200
+serwinser777: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 9s]
+scorza23: folds 
+Betocruz30: folds 
+BarpWin: raises 400 to 800
+MaBccn: raises 21049 to 21849 and is all-in
+serwinser777: folds 
+BarpWin: calls 7902 and is all-in
+Uncalled bet (13147) returned to MaBccn
+*** FLOP *** [9d 8s 4c]
+*** TURN *** [9d 8s 4c] [Ac]
+*** RIVER *** [9d 8s 4c Ac] [Kh]
+*** SHOW DOWN ***
+MaBccn: shows [Ad Jh] (a pair of Aces)
+BarpWin: shows [Kd Qc] (a pair of Kings)
+MaBccn collected 18204 from pot
+MaBccn wins $0.36 for eliminating BarpWin and their own bounty increases by $0.36 to $1.08
+BarpWin finished the tournament in 84th place
+*** SUMMARY ***
+Total pot 18204 | Rake 0 
+Board [9d 8s 4c Ac Kh]
+Seat 1: MaBccn (small blind) showed [Ad Jh] and won (18204) with a pair of Aces
+Seat 2: serwinser777 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: BarpWin (button) showed [Kd Qc] and lost with a pair of Kings
+
+
+
+PokerStars Hand #259757347326: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:47:22 UTC [2026/02/16 18:47:22 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: MaBccn (31351 in chips, $1.08 bounty) 
+Seat 2: serwinser777 (7898 in chips, $1.26 bounty) 
+Seat 3: scorza23 (29224 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (12651 in chips, $0.54 bounty) 
+MaBccn: posts the ante 80
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+serwinser777: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Tc]
+Betocruz30: raises 400 to 800
+MaBccn: calls 800
+serwinser777: calls 600
+scorza23: calls 400
+*** FLOP *** [5s 2s 9s]
+serwinser777: checks 
+scorza23: checks 
+Betocruz30: bets 11771 and is all-in
+MaBccn: calls 11771
+serwinser777: calls 7018 and is all-in
+scorza23: folds 
+*** TURN *** [5s 2s 9s] [7s]
+*** RIVER *** [5s 2s 9s 7s] [3d]
+*** SHOW DOWN ***
+Betocruz30: shows [Jc Js] (a flush, Jack high)
+MaBccn: shows [8s 3s] (a flush, Nine high)
+Betocruz30 collected 9506 from side pot
+serwinser777: shows [Ks 6s] (a flush, King high)
+serwinser777 collected 24574 from main pot
+*** SUMMARY ***
+Total pot 34080 Main pot 24574. Side pot 9506. | Rake 0 
+Board [5s 2s 9s 7s 3d]
+Seat 1: MaBccn (button) showed [8s 3s] and lost with a flush, Nine high
+Seat 2: serwinser777 (small blind) showed [Ks 6s] and won (24574) with a flush, King high
+Seat 3: scorza23 (big blind) folded on the Flop
+Seat 4: Betocruz30 showed [Jc Js] and won (9506) with a flush, Jack high
+
+
+
+PokerStars Hand #259757355833: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:48:05 UTC [2026/02/16 18:48:05 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: MaBccn (18700 in chips, $1.08 bounty) 
+Seat 2: serwinser777 (24574 in chips, $1.26 bounty) 
+Seat 3: scorza23 (28344 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (9506 in chips, $0.54 bounty) 
+MaBccn: posts the ante 80
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+scorza23: posts small blind 200
+Betocruz30: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 9s]
+MaBccn: calls 400
+serwinser777: raises 1200 to 1600
+scorza23: folds 
+Betocruz30: folds 
+MaBccn: calls 1200
+*** FLOP *** [Kd 6h Ts]
+MaBccn: checks 
+serwinser777: checks 
+*** TURN *** [Kd 6h Ts] [2s]
+MaBccn: bets 4120
+serwinser777: calls 4120
+*** RIVER *** [Kd 6h Ts 2s] [4s]
+MaBccn: bets 12900 and is all-in
+Gabesz9528 is disconnected 
+serwinser777: calls 12900
+*** SHOW DOWN ***
+MaBccn: shows [Kc 3c] (a pair of Kings)
+serwinser777: shows [As Js] (a flush, Ace high)
+serwinser777 collected 38160 from pot
+serwinser777 wins $0.54 for eliminating MaBccn and their own bounty increases by $0.54 to $1.80
+MaBccn finished the tournament in 80th place
+*** SUMMARY ***
+Total pot 38160 | Rake 0 
+Board [Kd 6h Ts 2s 4s]
+Seat 1: MaBccn showed [Kc 3c] and lost with a pair of Kings
+Seat 2: serwinser777 (button) showed [As Js] and won (38160) with a flush, Ace high
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757363200: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:48:41 UTC [2026/02/16 18:48:41 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 2: serwinser777 (44034 in chips, $1.80 bounty) 
+Seat 3: scorza23 (28064 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (9026 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45428 in chips, $1.66 bounty) 
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+Gabesz9528: posts the ante 80
+Betocruz30: posts small blind 200
+Gabesz9528: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 6h]
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: folds 
+Uncalled bet (200) returned to Gabesz9528
+Gabesz9528 collected 720 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) folded before Flop
+Seat 5: Gabesz9528 (big blind) collected (720)
+
+
+
+PokerStars Hand #259757366204: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:48:56 UTC [2026/02/16 18:48:56 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 2: serwinser777 (43954 in chips, $1.80 bounty) 
+Seat 3: scorza23 (27984 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (8746 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45868 in chips, $1.66 bounty) 
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+Gabesz9528: posts the ante 80
+Gabesz9528: posts small blind 200
+serwinser777: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 3s]
+scorza23: folds 
+Betocruz30: folds 
+Gabesz9528: raises 400 to 800
+serwinser777: calls 400
+*** FLOP *** [Jd 2d Ts]
+Gabesz9528: bets 800
+serwinser777: calls 800
+*** TURN *** [Jd 2d Ts] [8s]
+Gabesz9528: checks 
+serwinser777: checks 
+*** RIVER *** [Jd 2d Ts 8s] [Qs]
+Gabesz9528: checks 
+serwinser777: bets 1600
+Gabesz9528: calls 1600
+*** SHOW DOWN ***
+serwinser777: shows [Kd 9h] (a straight, Nine to King)
+Gabesz9528: mucks hand 
+serwinser777 collected 6720 from pot
+*** SUMMARY ***
+Total pot 6720 | Rake 0 
+Board [Jd 2d Ts 8s Qs]
+Seat 2: serwinser777 (big blind) showed [Kd 9h] and won (6720) with a straight, Nine to King
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (small blind) mucked [2c Ah]
+
+
+
+PokerStars Hand #259757375478: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:49:42 UTC [2026/02/16 18:49:42 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 2: serwinser777 (47394 in chips, $1.80 bounty) 
+Seat 3: scorza23 (27904 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (8666 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (42588 in chips, $1.66 bounty) 
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+Gabesz9528: posts the ante 80
+serwinser777: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 2s]
+Betocruz30: folds 
+Gabesz9528: raises 1200 to 1600
+serwinser777: folds 
+scorza23: folds 
+Uncalled bet (1200) returned to Gabesz9528
+Gabesz9528 collected 1320 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 1320 | Rake 0 
+Seat 2: serwinser777 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (button) collected (1320)
+
+
+
+PokerStars Hand #259757379646: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:50:03 UTC [2026/02/16 18:50:03 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 2: serwinser777 (47114 in chips, $1.80 bounty) 
+Seat 3: scorza23 (27424 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (8586 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (43428 in chips, $1.66 bounty) 
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+Gabesz9528: posts the ante 80
+scorza23: posts small blind 200
+Betocruz30: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 3h]
+Gabesz9528: folds 
+serwinser777: folds 
+scorza23: folds 
+Uncalled bet (200) returned to Betocruz30
+Betocruz30 collected 720 from pot
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Seat 2: serwinser777 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) collected (720)
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757382435: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:50:17 UTC [2026/02/16 18:50:17 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 2: serwinser777 (47034 in chips, $1.80 bounty) 
+Seat 3: scorza23 (27144 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (9026 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (43348 in chips, $1.66 bounty) 
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+Gabesz9528: posts the ante 80
+Betocruz30: posts small blind 200
+Gabesz9528: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Td]
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: calls 200
+Gabesz9528: checks 
+*** FLOP *** [Ad Qc Jh]
+Betocruz30: checks 
+Gabesz9528: bets 800
+Betocruz30: folds 
+Uncalled bet (800) returned to Gabesz9528
+Gabesz9528 collected 1120 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 1120 | Rake 0 
+Board [Ad Qc Jh]
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) folded on the Flop
+Seat 5: Gabesz9528 (big blind) collected (1120)
+
+
+
+PokerStars Hand #259757387787: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VI (200/400) - 2026/02/16 23:50:44 UTC [2026/02/16 18:50:44 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: River_Ace4 (31842 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (46954 in chips, $1.80 bounty) 
+Seat 3: scorza23 (27064 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (8546 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (43988 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 80
+serwinser777: posts the ante 80
+scorza23: posts the ante 80
+Betocruz30: posts the ante 80
+Gabesz9528: posts the ante 80
+Gabesz9528: posts small blind 200
+River_Ace4: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Tc]
+serwinser777: folds 
+scorza23: raises 440 to 840
+Betocruz30: folds 
+Gabesz9528: calls 640
+River_Ace4: calls 440
+*** FLOP *** [5d 7c Jc]
+Gabesz9528: checks 
+River_Ace4: checks 
+scorza23: bets 1460
+Gabesz9528: folds 
+River_Ace4: calls 1460
+*** TURN *** [5d 7c Jc] [Ad]
+River_Ace4: checks 
+scorza23: bets 5840
+River_Ace4: folds 
+Uncalled bet (5840) returned to scorza23
+scorza23 collected 5840 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 5840 | Rake 0 
+Board [5d 7c Jc Ad]
+Seat 1: River_Ace4 (big blind) folded on the Turn
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 collected (5840)
+Seat 4: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259757394804: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VII (250/500) - 2026/02/16 23:51:19 UTC [2026/02/16 18:51:19 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: River_Ace4 (29462 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (46874 in chips, $1.80 bounty) 
+Seat 3: scorza23 (30524 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (8466 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (43068 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 100
+serwinser777: posts the ante 100
+scorza23: posts the ante 100
+Betocruz30: posts the ante 100
+Gabesz9528: posts the ante 100
+River_Ace4: posts small blind 250
+serwinser777: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Js]
+scorza23: folds 
+Betocruz30: calls 500
+Gabesz9528: raises 2000 to 2500
+River_Ace4: folds 
+serwinser777: folds 
+Betocruz30: folds 
+Uncalled bet (2000) returned to Gabesz9528
+Gabesz9528 collected 2250 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 2250 | Rake 0 
+Seat 1: River_Ace4 (small blind) folded before Flop
+Seat 2: serwinser777 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded before Flop
+Seat 5: Gabesz9528 (button) collected (2250)
+
+
+
+PokerStars Hand #259757401505: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VII (250/500) - 2026/02/16 23:51:52 UTC [2026/02/16 18:51:52 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: River_Ace4 (29112 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (46274 in chips, $1.80 bounty) 
+Seat 3: scorza23 (30424 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (7866 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (44718 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 100
+serwinser777: posts the ante 100
+scorza23: posts the ante 100
+Betocruz30: posts the ante 100
+Gabesz9528: posts the ante 100
+serwinser777: posts small blind 250
+scorza23: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Tc]
+Betocruz30: raises 7266 to 7766 and is all-in
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: folds 
+scorza23: calls 7266
+*** FLOP *** [Kd 3c 2d]
+*** TURN *** [Kd 3c 2d] [Qh]
+*** RIVER *** [Kd 3c 2d Qh] [7s]
+*** SHOW DOWN ***
+scorza23: shows [Ac Tc] (high card Ace)
+Betocruz30: shows [7h Kh] (two pair, Kings and Sevens)
+Betocruz30 collected 16282 from pot
+*** SUMMARY ***
+Total pot 16282 | Rake 0 
+Board [Kd 3c 2d Qh 7s]
+Seat 1: River_Ace4 (button) folded before Flop (didn't bet)
+Seat 2: serwinser777 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) showed [Ac Tc] and lost with high card Ace
+Seat 4: Betocruz30 showed [7h Kh] and won (16282) with two pair, Kings and Sevens
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757406853: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VII (250/500) - 2026/02/16 23:52:19 UTC [2026/02/16 18:52:19 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: River_Ace4 (29012 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45924 in chips, $1.80 bounty) 
+Seat 3: scorza23 (22558 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (16282 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (44618 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 100
+serwinser777: posts the ante 100
+scorza23: posts the ante 100
+Betocruz30: posts the ante 100
+Gabesz9528: posts the ante 100
+scorza23: posts small blind 250
+Betocruz30: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 2h]
+Gabesz9528: folds 
+River_Ace4: calls 500
+serwinser777: raises 500 to 1000
+scorza23: folds 
+Betocruz30: folds 
+River_Ace4: calls 500
+*** FLOP *** [6d Jh 4d]
+River_Ace4: bets 2750
+serwinser777: calls 2750
+*** TURN *** [6d Jh 4d] [8c]
+River_Ace4: checks 
+serwinser777: checks 
+*** RIVER *** [6d Jh 4d 8c] [Jd]
+River_Ace4: checks 
+serwinser777: bets 8750
+River_Ace4: folds [Jc]
+Uncalled bet (8750) returned to serwinser777
+serwinser777 collected 8750 from pot
+serwinser777: doesn't show hand 
+*** SUMMARY ***
+Total pot 8750 | Rake 0 
+Board [6d Jh 4d 8c Jd]
+Seat 1: River_Ace4 folded on the River
+Seat 2: serwinser777 (button) collected (8750)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) folded before Flop
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757420950: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VII (250/500) - 2026/02/16 23:53:31 UTC [2026/02/16 18:53:31 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: River_Ace4 (25162 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (50824 in chips, $1.80 bounty) 
+Seat 3: scorza23 (22208 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (15682 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (44518 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 100
+serwinser777: posts the ante 100
+scorza23: posts the ante 100
+Betocruz30: posts the ante 100
+Gabesz9528: posts the ante 100
+Betocruz30: posts small blind 250
+Gabesz9528: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 8d]
+River_Ace4: folds 
+serwinser777: folds 
+scorza23: raises 550 to 1050
+Betocruz30: calls 800
+Gabesz9528: folds 
+*** FLOP *** [3c Ad 7h]
+Betocruz30: bets 500
+scorza23: calls 500
+*** TURN *** [3c Ad 7h] [Td]
+Betocruz30: bets 500
+scorza23: raises 20058 to 20558 and is all-in
+Betocruz30: calls 13532 and is all-in
+Uncalled bet (6526) returned to scorza23
+*** RIVER *** [3c Ad 7h Td] [7c]
+*** SHOW DOWN ***
+Betocruz30: shows [Jc Ah] (two pair, Aces and Sevens)
+scorza23: shows [8s 8d] (two pair, Eights and Sevens)
+Betocruz30 collected 32164 from pot
+*** SUMMARY ***
+Total pot 32164 | Rake 0 
+Board [3c Ad 7h Td 7c]
+Seat 1: River_Ace4 folded before Flop (didn't bet)
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) showed [8s 8d] and lost with two pair, Eights and Sevens
+Seat 4: Betocruz30 (small blind) showed [Jc Ah] and won (32164) with two pair, Aces and Sevens
+Seat 5: Gabesz9528 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757430340: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VII (250/500) - 2026/02/16 23:54:19 UTC [2026/02/16 18:54:19 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: River_Ace4 (25062 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (50724 in chips, $1.80 bounty) 
+Seat 3: scorza23 (6526 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (32164 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (43918 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 100
+serwinser777: posts the ante 100
+scorza23: posts the ante 100
+Betocruz30: posts the ante 100
+Gabesz9528: posts the ante 100
+Gabesz9528: posts small blind 250
+River_Ace4: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 4c]
+serwinser777: raises 500 to 1000
+scorza23: folds 
+Betocruz30: calls 1000
+Gabesz9528: calls 750
+River_Ace4: calls 500
+*** FLOP *** [Th Td Qs]
+Gabesz9528: checks 
+River_Ace4: checks 
+serwinser777: checks 
+Betocruz30: checks 
+*** TURN *** [Th Td Qs] [Ks]
+Gabesz9528: bets 500
+River_Ace4: calls 500
+serwinser777: raises 1500 to 2000
+Betocruz30: folds 
+Gabesz9528: calls 1500
+River_Ace4: folds 
+*** RIVER *** [Th Td Qs Ks] [9s]
+Gabesz9528: checks 
+serwinser777: checks 
+*** SHOW DOWN ***
+Gabesz9528: shows [Kd 9h] (two pair, Kings and Tens)
+serwinser777: shows [Ac Tc] (three of a kind, Tens)
+serwinser777 collected 9000 from pot
+*** SUMMARY ***
+Total pot 9000 | Rake 0 
+Board [Th Td Qs Ks 9s]
+Seat 1: River_Ace4 (big blind) folded on the Turn
+Seat 2: serwinser777 showed [Ac Tc] and won (9000) with three of a kind, Tens
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) folded on the Turn
+Seat 5: Gabesz9528 (small blind) showed [Kd 9h] and lost with two pair, Kings and Tens
+
+
+
+PokerStars Hand #259757494610: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VII (250/500) - 2026/02/17 0:01:16 UTC [2026/02/16 19:01:16 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: River_Ace4 (23462 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (56624 in chips, $1.80 bounty) 
+Seat 3: scorza23 (6426 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (31064 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (40818 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 100
+serwinser777: posts the ante 100
+scorza23: posts the ante 100
+Betocruz30: posts the ante 100
+Gabesz9528: posts the ante 100
+River_Ace4: posts small blind 250
+serwinser777: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Jd]
+scorza23: folds 
+Betocruz30: raises 500 to 1000
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: folds 
+Uncalled bet (500) returned to Betocruz30
+Betocruz30 collected 1750 from pot
+*** SUMMARY ***
+Total pot 1750 | Rake 0 
+Seat 1: River_Ace4 (small blind) folded before Flop
+Seat 2: serwinser777 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 collected (1750)
+Seat 5: Gabesz9528 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757501014: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VII (250/500) - 2026/02/17 0:01:50 UTC [2026/02/16 19:01:50 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: River_Ace4 (23112 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (56024 in chips, $1.80 bounty) 
+Seat 3: scorza23 (6326 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (32214 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (40718 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 100
+serwinser777: posts the ante 100
+scorza23: posts the ante 100
+Betocruz30: posts the ante 100
+Gabesz9528: posts the ante 100
+serwinser777: posts small blind 250
+scorza23: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 5c]
+Betocruz30: calls 500
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: calls 250
+scorza23: checks 
+*** FLOP *** [8c Th 4h]
+serwinser777: checks 
+scorza23: checks 
+Betocruz30: checks 
+*** TURN *** [8c Th 4h] [2h]
+serwinser777: checks 
+scorza23: checks 
+Betocruz30: checks 
+*** RIVER *** [8c Th 4h 2h] [9h]
+serwinser777: checks 
+scorza23: bets 5726 and is all-in
+Betocruz30: folds 
+serwinser777: folds 
+Uncalled bet (5726) returned to scorza23
+scorza23 collected 2000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Board [8c Th 4h 2h 9h]
+Seat 1: River_Ace4 (button) folded before Flop (didn't bet)
+Seat 2: serwinser777 (small blind) folded on the River
+Seat 3: scorza23 (big blind) collected (2000)
+Seat 4: Betocruz30 folded on the River
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757508873: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VIII (300/600) - 2026/02/17 0:02:33 UTC [2026/02/16 19:02:33 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: River_Ace4 (23012 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (55424 in chips, $1.80 bounty) 
+Seat 3: scorza23 (7726 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (31614 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (40618 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 120
+serwinser777: posts the ante 120
+scorza23: posts the ante 120
+Betocruz30: posts the ante 120
+Gabesz9528: posts the ante 120
+scorza23: posts small blind 300
+Betocruz30: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 4c]
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: folds 
+scorza23: folds 
+Uncalled bet (300) returned to Betocruz30
+Betocruz30 collected 1200 from pot
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 1: River_Ace4 folded before Flop (didn't bet)
+Seat 2: serwinser777 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) collected (1200)
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757512470: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VIII (300/600) - 2026/02/17 0:02:52 UTC [2026/02/16 19:02:52 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: River_Ace4 (22892 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (55304 in chips, $1.80 bounty) 
+Seat 3: scorza23 (7306 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (32394 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (40498 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 120
+serwinser777: posts the ante 120
+scorza23: posts the ante 120
+Betocruz30: posts the ante 120
+Gabesz9528: posts the ante 120
+Betocruz30: posts small blind 300
+Gabesz9528: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 9d]
+River_Ace4: folds 
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: calls 300
+Gabesz9528: checks 
+*** FLOP *** [2c 8h Js]
+Betocruz30: bets 600
+Gabesz9528: calls 600
+*** TURN *** [2c 8h Js] [Qh]
+Betocruz30: bets 600
+Gabesz9528: calls 600
+*** RIVER *** [2c 8h Js Qh] [Kc]
+Betocruz30: checks 
+Gabesz9528: checks 
+*** SHOW DOWN ***
+Betocruz30: shows [6d Ac] (high card Ace)
+Gabesz9528: shows [2d 5c] (a pair of Deuces)
+Gabesz9528 collected 4200 from pot
+*** SUMMARY ***
+Total pot 4200 | Rake 0 
+Board [2c 8h Js Qh Kc]
+Seat 1: River_Ace4 folded before Flop (didn't bet)
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) showed [6d Ac] and lost with high card Ace
+Seat 5: Gabesz9528 (big blind) showed [2d 5c] and won (4200) with a pair of Deuces
+
+
+
+PokerStars Hand #259757526257: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VIII (300/600) - 2026/02/17 0:04:05 UTC [2026/02/16 19:04:05 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: River_Ace4 (22772 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (55184 in chips, $1.80 bounty) 
+Seat 3: scorza23 (7186 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (30474 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (42778 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 120
+serwinser777: posts the ante 120
+scorza23: posts the ante 120
+Betocruz30: posts the ante 120
+Gabesz9528: posts the ante 120
+Gabesz9528: posts small blind 300
+River_Ace4: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 5s]
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: calls 600
+Gabesz9528: calls 300
+River_Ace4: checks 
+*** FLOP *** [Qc 7c 8h]
+Gabesz9528: checks 
+River_Ace4: bets 2400
+Betocruz30: calls 2400
+Gabesz9528: folds 
+*** TURN *** [Qc 7c 8h] [Td]
+River_Ace4: bets 3600
+Betocruz30: calls 3600
+*** RIVER *** [Qc 7c 8h Td] [7h]
+River_Ace4: checks 
+Betocruz30: checks 
+*** SHOW DOWN ***
+River_Ace4: shows [4h Qs] (two pair, Queens and Sevens)
+Betocruz30: mucks hand 
+River_Ace4 collected 14400 from pot
+*** SUMMARY ***
+Total pot 14400 | Rake 0 
+Board [Qc 7c 8h Td 7h]
+Seat 1: River_Ace4 (big blind) showed [4h Qs] and won (14400) with two pair, Queens and Sevens
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) mucked [9d 9s]
+Seat 5: Gabesz9528 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259757536363: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VIII (300/600) - 2026/02/17 0:04:58 UTC [2026/02/16 19:04:58 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: River_Ace4 (30452 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (55064 in chips, $1.80 bounty) 
+Seat 3: scorza23 (7066 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (23754 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (42058 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 120
+serwinser777: posts the ante 120
+scorza23: posts the ante 120
+Betocruz30: posts the ante 120
+Gabesz9528: posts the ante 120
+River_Ace4: posts small blind 300
+serwinser777: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 2c]
+scorza23: folds 
+Betocruz30: folds 
+Gabesz9528: raises 1200 to 1800
+River_Ace4: calls 1500
+serwinser777: calls 1200
+*** FLOP *** [2s 9s 8h]
+River_Ace4: checks 
+serwinser777: checks 
+Gabesz9528: bets 2889
+River_Ace4: folds 
+serwinser777: calls 2889
+*** TURN *** [2s 9s 8h] [5s]
+serwinser777: checks 
+Gabesz9528: bets 4999
+serwinser777: folds 
+Uncalled bet (4999) returned to Gabesz9528
+Gabesz9528 collected 11778 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 11778 | Rake 0 
+Board [2s 9s 8h 5s]
+Seat 1: River_Ace4 (small blind) folded on the Flop
+Seat 2: serwinser777 (big blind) folded on the Turn
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (button) collected (11778)
+
+
+
+PokerStars Hand #259757547155: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VIII (300/600) - 2026/02/17 0:05:55 UTC [2026/02/16 19:05:55 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: River_Ace4 (28532 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (50255 in chips, $1.80 bounty) 
+Seat 3: scorza23 (6946 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (23634 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (49027 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 120
+serwinser777: posts the ante 120
+scorza23: posts the ante 120
+Betocruz30: posts the ante 120
+Gabesz9528: posts the ante 120
+serwinser777: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 3s]
+Betocruz30: folds 
+Gabesz9528: calls 600
+River_Ace4: folds 
+serwinser777: calls 300
+scorza23: checks 
+*** FLOP *** [4d Jc 5h]
+serwinser777: checks 
+scorza23: bets 6226 and is all-in
+Gabesz9528: folds 
+serwinser777: calls 6226
+*** TURN *** [4d Jc 5h] [Qd]
+*** RIVER *** [4d Jc 5h Qd] [Kh]
+*** SHOW DOWN ***
+serwinser777: shows [7c 6c] (high card King)
+scorza23: shows [Jh 3s] (a pair of Jacks)
+scorza23 collected 14852 from pot
+*** SUMMARY ***
+Total pot 14852 | Rake 0 
+Board [4d Jc 5h Qd Kh]
+Seat 1: River_Ace4 (button) folded before Flop (didn't bet)
+Seat 2: serwinser777 (small blind) showed [7c 6c] and lost with high card King
+Seat 3: scorza23 (big blind) showed [Jh 3s] and won (14852) with a pair of Jacks
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: Gabesz9528 folded on the Flop
+
+
+
+PokerStars Hand #259757552647: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VIII (300/600) - 2026/02/17 0:06:24 UTC [2026/02/16 19:06:24 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: River_Ace4 (28412 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (43309 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14852 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (23514 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (48307 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 120
+serwinser777: posts the ante 120
+scorza23: posts the ante 120
+Betocruz30: posts the ante 120
+Gabesz9528: posts the ante 120
+scorza23: posts small blind 300
+Betocruz30: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 3s]
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: raises 600 to 1200
+scorza23: folds 
+Betocruz30: calls 600
+*** FLOP *** [7h Kh 4h]
+Betocruz30: checks 
+serwinser777: bets 1800
+Betocruz30: folds 
+Uncalled bet (1800) returned to serwinser777
+serwinser777 collected 3300 from pot
+serwinser777: doesn't show hand 
+*** SUMMARY ***
+Total pot 3300 | Rake 0 
+Board [7h Kh 4h]
+Seat 1: River_Ace4 folded before Flop (didn't bet)
+Seat 2: serwinser777 (button) collected (3300)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) folded on the Flop
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757558472: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level VIII (300/600) - 2026/02/17 0:06:55 UTC [2026/02/16 19:06:55 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: River_Ace4 (28292 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45289 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14432 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (22194 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (48187 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 120
+serwinser777: posts the ante 120
+scorza23: posts the ante 120
+Betocruz30: posts the ante 120
+Gabesz9528: posts the ante 120
+Betocruz30: posts small blind 300
+Gabesz9528: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5s]
+River_Ace4: calls 600
+serwinser777: calls 600
+scorza23: folds 
+Betocruz30: calls 300
+Gabesz9528: checks 
+*** FLOP *** [7d 6c 2c]
+Betocruz30: bets 600
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: calls 600
+*** TURN *** [7d 6c 2c] [2d]
+Betocruz30: bets 600
+serwinser777: raises 1800 to 2400
+Betocruz30: calls 1800
+*** RIVER *** [7d 6c 2c 2d] [9s]
+Betocruz30: bets 600
+serwinser777: calls 600
+*** SHOW DOWN ***
+Betocruz30: shows [3c Qc] (a pair of Deuces)
+serwinser777: shows [Kd Td] (a pair of Deuces - King kicker)
+serwinser777 collected 10200 from pot
+*** SUMMARY ***
+Total pot 10200 | Rake 0 
+Board [7d 6c 2c 2d 9s]
+Seat 1: River_Ace4 folded on the Flop
+Seat 2: serwinser777 showed [Kd Td] and won (10200) with a pair of Deuces
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) showed [3c Qc] and lost with a pair of Deuces
+Seat 5: Gabesz9528 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259757568692: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:07:48 UTC [2026/02/16 19:07:48 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: River_Ace4 (27572 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (51169 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14312 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (17874 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (47467 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+Gabesz9528: posts small blind 400
+River_Ace4: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Ad]
+serwinser777: folds 
+scorza23: raises 880 to 1680
+Betocruz30: folds 
+Gabesz9528: calls 1280
+River_Ace4: calls 880
+*** FLOP *** [8s 6d 6c]
+Gabesz9528: checks 
+River_Ace4: checks 
+scorza23: checks 
+*** TURN *** [8s 6d 6c] [Jd]
+Gabesz9528: checks 
+River_Ace4: checks 
+scorza23: checks 
+*** RIVER *** [8s 6d 6c Jd] [2h]
+Gabesz9528: checks 
+River_Ace4: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+Gabesz9528: shows [Ks Ts] (a pair of Sixes)
+River_Ace4: shows [3c 3s] (two pair, Sixes and Threes)
+scorza23: mucks hand 
+River_Ace4 collected 5840 from pot
+*** SUMMARY ***
+Total pot 5840 | Rake 0 
+Board [8s 6d 6c Jd 2h]
+Seat 1: River_Ace4 (big blind) showed [3c 3s] and won (5840) with two pair, Sixes and Threes
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 mucked [Th Ad]
+Seat 4: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (small blind) showed [Ks Ts] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #259757575270: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:08:23 UTC [2026/02/16 19:08:23 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: River_Ace4 (31572 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (51009 in chips, $1.80 bounty) 
+Seat 3: scorza23 (12472 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (17714 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45627 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+River_Ace4: posts small blind 400
+serwinser777: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ad]
+scorza23: raises 11512 to 12312 and is all-in
+Betocruz30: folds 
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: folds 
+Uncalled bet (11512) returned to scorza23
+scorza23 collected 2800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2800 | Rake 0 
+Seat 1: River_Ace4 (small blind) folded before Flop
+Seat 2: serwinser777 (big blind) folded before Flop
+Seat 3: scorza23 collected (2800)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757579038: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:08:44 UTC [2026/02/16 19:08:44 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: River_Ace4 (31012 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (50049 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14312 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (17554 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45467 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+serwinser777: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 2h]
+Betocruz30: folds 
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 1600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1600 | Rake 0 
+Seat 1: River_Ace4 (button) folded before Flop (didn't bet)
+Seat 2: serwinser777 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (1600)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757582424: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:09:02 UTC [2026/02/16 19:09:02 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: River_Ace4 (30852 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (49489 in chips, $1.80 bounty) 
+Seat 3: scorza23 (15352 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (17394 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45307 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+scorza23: posts small blind 400
+Betocruz30: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 5d]
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: raises 800 to 1600
+scorza23: folds 
+Betocruz30: calls 800
+*** FLOP *** [Ks 5s 3s]
+Betocruz30: bets 800
+serwinser777: calls 800
+*** TURN *** [Ks 5s 3s] [5c]
+Betocruz30: bets 800
+serwinser777: calls 800
+*** RIVER *** [Ks 5s 3s 5c] [8h]
+Betocruz30: bets 800
+serwinser777: calls 800
+*** SHOW DOWN ***
+Betocruz30: shows [9s 7s] (a flush, King high)
+serwinser777: mucks hand 
+Betocruz30 collected 9200 from pot
+*** SUMMARY ***
+Total pot 9200 | Rake 0 
+Board [Ks 5s 3s 5c 8h]
+Seat 1: River_Ace4 folded before Flop (didn't bet)
+Seat 2: serwinser777 (button) mucked [Ad 6d]
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) showed [9s 7s] and won (9200) with a flush, King high
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757590075: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:09:44 UTC [2026/02/16 19:09:44 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: River_Ace4 (30692 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45329 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14792 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (22434 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45147 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+Betocruz30: posts small blind 400
+Gabesz9528: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Js]
+River_Ace4: folds 
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: calls 400
+Gabesz9528: raises 800 to 1600
+Betocruz30: calls 800
+*** FLOP *** [Th 4d Ah]
+Betocruz30: checks 
+Gabesz9528: bets 1600
+Betocruz30: folds 
+Uncalled bet (1600) returned to Gabesz9528
+Gabesz9528 collected 4000 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 4000 | Rake 0 
+Board [Th 4d Ah]
+Seat 1: River_Ace4 folded before Flop (didn't bet)
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) folded on the Flop
+Seat 5: Gabesz9528 (big blind) collected (4000)
+
+
+
+PokerStars Hand #259757596137: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:10:17 UTC [2026/02/16 19:10:17 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: River_Ace4 (30532 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45169 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14632 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (20674 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (47387 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+Gabesz9528: posts small blind 400
+River_Ace4: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 4s]
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: folds 
+Gabesz9528: folds 
+Uncalled bet (400) returned to River_Ace4
+River_Ace4 collected 1600 from pot
+*** SUMMARY ***
+Total pot 1600 | Rake 0 
+Seat 1: River_Ace4 (big blind) collected (1600)
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757598233: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:10:29 UTC [2026/02/16 19:10:29 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: River_Ace4 (31572 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45009 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14472 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (20514 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (46827 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+River_Ace4: posts small blind 400
+serwinser777: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 5h]
+scorza23: folds 
+Betocruz30: folds 
+Gabesz9528: folds 
+River_Ace4: folds 
+Uncalled bet (400) returned to serwinser777
+serwinser777 collected 1600 from pot
+serwinser777: doesn't show hand 
+*** SUMMARY ***
+Total pot 1600 | Rake 0 
+Seat 1: River_Ace4 (small blind) folded before Flop
+Seat 2: serwinser777 (big blind) collected (1600)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757600173: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:10:40 UTC [2026/02/16 19:10:40 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: River_Ace4 (31012 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (46049 in chips, $1.80 bounty) 
+Seat 3: scorza23 (14312 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (20354 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (46667 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+serwinser777: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6s]
+Betocruz30: calls 800
+Gabesz9528: raises 800 to 1600
+River_Ace4: calls 1600
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: calls 800
+*** FLOP *** [Qc 5h 9c]
+Betocruz30: bets 800
+Gabesz9528: calls 800
+River_Ace4: calls 800
+*** TURN *** [Qc 5h 9c] [Qd]
+Betocruz30: bets 800
+Gabesz9528: folds 
+River_Ace4: calls 800
+*** RIVER *** [Qc 5h 9c Qd] [3c]
+Betocruz30: bets 2400
+River_Ace4: folds 
+Uncalled bet (2400) returned to Betocruz30
+Betocruz30 collected 10800 from pot
+*** SUMMARY ***
+Total pot 10800 | Rake 0 
+Board [Qc 5h 9c Qd 3c]
+Seat 1: River_Ace4 (button) folded on the River
+Seat 2: serwinser777 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Betocruz30 collected (10800)
+Seat 5: Gabesz9528 folded on the Turn
+
+
+
+PokerStars Hand #259757610424: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level IX (400/800) - 2026/02/17 0:11:36 UTC [2026/02/16 19:11:36 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: River_Ace4 (27652 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45489 in chips, $1.80 bounty) 
+Seat 3: scorza23 (13352 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (27794 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (44107 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 160
+serwinser777: posts the ante 160
+scorza23: posts the ante 160
+Betocruz30: posts the ante 160
+Gabesz9528: posts the ante 160
+scorza23: posts small blind 400
+Betocruz30: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 2c]
+Gabesz9528: folds 
+River_Ace4: calls 800
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: checks 
+*** FLOP *** [6s Ks 5h]
+Betocruz30: checks 
+River_Ace4: checks 
+*** TURN *** [6s Ks 5h] [Qc]
+Betocruz30: checks 
+River_Ace4: checks 
+*** RIVER *** [6s Ks 5h Qc] [8d]
+Betocruz30: checks 
+River_Ace4: bets 800
+Betocruz30: folds 
+Uncalled bet (800) returned to River_Ace4
+River_Ace4 collected 2800 from pot
+*** SUMMARY ***
+Total pot 2800 | Rake 0 
+Board [6s Ks 5h Qc 8d]
+Seat 1: River_Ace4 collected (2800)
+Seat 2: serwinser777 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Betocruz30 (big blind) folded on the River
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757620669: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level X (500/1000) - 2026/02/17 0:12:33 UTC [2026/02/16 19:12:33 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: River_Ace4 (29492 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45329 in chips, $1.80 bounty) 
+Seat 3: scorza23 (12792 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (26834 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (43947 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 200
+serwinser777: posts the ante 200
+scorza23: posts the ante 200
+Betocruz30: posts the ante 200
+Gabesz9528: posts the ante 200
+Betocruz30: posts small blind 500
+Gabesz9528: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 3d]
+River_Ace4: calls 1000
+serwinser777: folds 
+scorza23: folds 
+Betocruz30: calls 500
+Gabesz9528: checks 
+*** FLOP *** [7c 9d 2c]
+Betocruz30: bets 1000
+Gabesz9528: raises 3000 to 4000
+River_Ace4: folds 
+Betocruz30: folds 
+Uncalled bet (3000) returned to Gabesz9528
+Gabesz9528 collected 6000 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 6000 | Rake 0 
+Board [7c 9d 2c]
+Seat 1: River_Ace4 folded on the Flop
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Betocruz30 (small blind) folded on the Flop
+Seat 5: Gabesz9528 (big blind) collected (6000)
+
+
+
+PokerStars Hand #259757626644: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level X (500/1000) - 2026/02/17 0:13:05 UTC [2026/02/16 19:13:05 ET]
+Table '3974766245 27' 5-max Seat #4 is the button
+Seat 1: River_Ace4 (28292 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (45129 in chips, $1.80 bounty) 
+Seat 3: scorza23 (12592 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (24634 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (47747 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 200
+serwinser777: posts the ante 200
+scorza23: posts the ante 200
+Betocruz30: posts the ante 200
+Gabesz9528: posts the ante 200
+Gabesz9528: posts small blind 500
+River_Ace4: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 6d]
+serwinser777: calls 1000
+scorza23: folds 
+Betocruz30: folds 
+Gabesz9528: raises 1000 to 2000
+River_Ace4: calls 1000
+serwinser777: calls 1000
+*** FLOP *** [8d 5s 9h]
+Gabesz9528: checks 
+River_Ace4: checks 
+serwinser777: bets 3000
+Gabesz9528: calls 3000
+River_Ace4: calls 3000
+*** TURN *** [8d 5s 9h] [5d]
+Gabesz9528: checks 
+River_Ace4: checks 
+serwinser777: bets 16000
+Gabesz9528: folds 
+River_Ace4: folds 
+Uncalled bet (16000) returned to serwinser777
+serwinser777 collected 16000 from pot
+serwinser777: doesn't show hand 
+*** SUMMARY ***
+Total pot 16000 | Rake 0 
+Board [8d 5s 9h 5d]
+Seat 1: River_Ace4 (big blind) folded on the Turn
+Seat 2: serwinser777 collected (16000)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 (button) folded before Flop (didn't bet)
+Seat 5: Gabesz9528 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #259757634256: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level X (500/1000) - 2026/02/17 0:13:48 UTC [2026/02/16 19:13:48 ET]
+Table '3974766245 27' 5-max Seat #5 is the button
+Seat 1: River_Ace4 (23092 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (55929 in chips, $1.80 bounty) 
+Seat 3: scorza23 (12392 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (24434 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (42547 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 200
+serwinser777: posts the ante 200
+scorza23: posts the ante 200
+Betocruz30: posts the ante 200
+Gabesz9528: posts the ante 200
+River_Ace4: posts small blind 500
+serwinser777: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 9c]
+scorza23: folds 
+Betocruz30: calls 1000
+Gabesz9528: raises 3000 to 4000
+River_Ace4: folds 
+serwinser777: folds 
+Betocruz30: folds 
+Uncalled bet (3000) returned to Gabesz9528
+Gabesz9528 collected 4500 from pot
+Gabesz9528: doesn't show hand 
+*** SUMMARY ***
+Total pot 4500 | Rake 0 
+Seat 1: River_Ace4 (small blind) folded before Flop
+Seat 2: serwinser777 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Betocruz30 folded before Flop
+Seat 5: Gabesz9528 (button) collected (4500)
+
+
+
+PokerStars Hand #259757639663: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level X (500/1000) - 2026/02/17 0:14:17 UTC [2026/02/16 19:14:17 ET]
+Table '3974766245 27' 5-max Seat #1 is the button
+Seat 1: River_Ace4 (22392 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (54729 in chips, $1.80 bounty) 
+Seat 3: scorza23 (12192 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (23234 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45847 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 200
+serwinser777: posts the ante 200
+scorza23: posts the ante 200
+Betocruz30: posts the ante 200
+Gabesz9528: posts the ante 200
+serwinser777: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Qs]
+Betocruz30: folds 
+Gabesz9528: folds 
+River_Ace4: folds 
+serwinser777: folds 
+Uncalled bet (500) returned to scorza23
+scorza23 collected 2000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Seat 1: River_Ace4 (button) folded before Flop (didn't bet)
+Seat 2: serwinser777 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (2000)
+Seat 4: Betocruz30 folded before Flop (didn't bet)
+Seat 5: Gabesz9528 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757642704: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level X (500/1000) - 2026/02/17 0:14:34 UTC [2026/02/16 19:14:34 ET]
+Table '3974766245 27' 5-max Seat #2 is the button
+Seat 1: River_Ace4 (22192 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (54029 in chips, $1.80 bounty) 
+Seat 3: scorza23 (13492 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (23034 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (45647 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 200
+serwinser777: posts the ante 200
+scorza23: posts the ante 200
+Betocruz30: posts the ante 200
+Gabesz9528: posts the ante 200
+scorza23: posts small blind 500
+Betocruz30: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 7c]
+Gabesz9528: calls 1000
+River_Ace4: calls 1000
+serwinser777: folds 
+scorza23: raises 12292 to 13292 and is all-in
+Betocruz30: folds 
+Gabesz9528: calls 12292
+River_Ace4: folds 
+*** FLOP *** [7h 2c Td]
+*** TURN *** [7h 2c Td] [5c]
+*** RIVER *** [7h 2c Td 5c] [Ks]
+*** SHOW DOWN ***
+scorza23: shows [7s 7c] (three of a kind, Sevens)
+Gabesz9528: shows [Ac Ad] (a pair of Aces)
+scorza23 collected 29584 from pot
+*** SUMMARY ***
+Total pot 29584 | Rake 0 
+Board [7h 2c Td 5c Ks]
+Seat 1: River_Ace4 folded before Flop
+Seat 2: serwinser777 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) showed [7s 7c] and won (29584) with three of a kind, Sevens
+Seat 4: Betocruz30 (big blind) folded before Flop
+Seat 5: Gabesz9528 showed [Ac Ad] and lost with a pair of Aces
+
+
+
+PokerStars Hand #259757648817: Tournament #3974766245, $0.13+$0.36+$0.06 USD Hold'em No Limit - Level X (500/1000) - 2026/02/17 0:15:07 UTC [2026/02/16 19:15:07 ET]
+Table '3974766245 27' 5-max Seat #3 is the button
+Seat 1: River_Ace4 (20992 in chips, $1.17 bounty) 
+Seat 2: serwinser777 (53829 in chips, $1.80 bounty) 
+Seat 3: scorza23 (29584 in chips, $1.39 bounty) 
+Seat 4: Betocruz30 (21834 in chips, $0.54 bounty) 
+Seat 5: Gabesz9528 (32155 in chips, $1.66 bounty) 
+River_Ace4: posts the ante 200
+serwinser777: posts the ante 200
+scorza23: posts the ante 200
+Betocruz30: posts the ante 200
+Gabesz9528: posts the ante 200
+Betocruz30: posts small blind 500
+Gabesz9528: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Td]
+River_Ace4: folds 
+serwinser777: folds 
+scorza23: raises 1100 to 2100
+Betocruz30: folds 
+Gabesz9528: raises 7900 to 10000
+scorza23: raises 19384 to 29384 and is all-in
+Gabesz9528: calls 19384
+*** FLOP *** [3s 4s 2d]
+*** TURN *** [3s 4s 2d] [2s]
+*** RIVER *** [3s 4s 2d 2s] [9d]
+*** SHOW DOWN ***
+Gabesz9528: shows [Kc Ks] (two pair, Kings and Deuces)
+scorza23: shows [Ts Td] (two pair, Tens and Deuces)
+Gabesz9528 collected 60268 from pot
+Gabesz9528 wins $0.70 for eliminating scorza23 and their own bounty increases by $0.69 to $2.35
+scorza23 finished the tournament in 46th place
+*** SUMMARY ***
+Total pot 60268 | Rake 0 
+Board [3s 4s 2d 2s 9d]
+Seat 1: River_Ace4 folded before Flop (didn't bet)
+Seat 2: serwinser777 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) showed [Ts Td] and lost with two pair, Tens and Deuces
+Seat 4: Betocruz30 (small blind) folded before Flop
+Seat 5: Gabesz9528 (big blind) showed [Kc Ks] and won (60268) with two pair, Kings and Deuces
+
+
+

@@ -1,0 +1,833 @@
+﻿PokerStars Hand #260356631882: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:15:08 UTC [2026/04/05 14:15:08 ET]
+Table '3989540623 3' 8-max Seat #2 is the button
+Seat 1: correia67 (1497 in chips) 
+Seat 2: Scolk (1487 in chips) 
+Seat 3: Osíris X (1477 in chips) 
+Seat 4: g3ldh4i-vega (1497 in chips) 
+Seat 5: leander150273 (1542 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+correia67: posts the ante 3
+Scolk: posts the ante 3
+Osíris X: posts the ante 3
+g3ldh4i-vega: posts the ante 3
+leander150273: posts the ante 3
+scorza23: posts the ante 3
+Osíris X: posts small blind 10
+g3ldh4i-vega: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Ah]
+leander150273: folds 
+jahny_rap is disconnected 
+scorza23: raises 20 to 40
+correia67: folds 
+Scolk: folds 
+Osíris X: folds 
+g3ldh4i-vega: calls 20
+*** FLOP *** [6h 5s 4c]
+g3ldh4i-vega: checks 
+scorza23: bets 60
+g3ldh4i-vega: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 108 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 108 | Rake 0 
+Board [6h 5s 4c]
+Seat 1: correia67 folded before Flop (didn't bet)
+Seat 2: Scolk (button) folded before Flop (didn't bet)
+Seat 3: Osíris X (small blind) folded before Flop
+Seat 4: g3ldh4i-vega (big blind) folded on the Flop
+Seat 5: leander150273 folded before Flop (didn't bet)
+Seat 7: scorza23 collected (108)
+
+
+
+PokerStars Hand #260356638658: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:15:35 UTC [2026/04/05 14:15:35 ET]
+Table '3989540623 3' 8-max Seat #3 is the button
+Seat 1: correia67 (1494 in chips) 
+Seat 2: Scolk (1484 in chips) 
+Seat 3: Osíris X (1464 in chips) 
+Seat 4: g3ldh4i-vega (1454 in chips) 
+Seat 6: Nuttysmith (1500 in chips) 
+Seat 7: scorza23 (1565 in chips) 
+Seat 8: jahny_rap (1500 in chips) 
+correia67: posts the ante 3
+Scolk: posts the ante 3
+Osíris X: posts the ante 3
+g3ldh4i-vega: posts the ante 3
+Nuttysmith: posts the ante 3
+scorza23: posts the ante 3
+jahny_rap: posts the ante 3
+g3ldh4i-vega: posts small blind 10
+Nuttysmith: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4d]
+scorza23: folds 
+jahny_rap: folds 
+correia67: folds 
+Scolk: calls 20
+Osíris X: folds 
+g3ldh4i-vega: folds 
+Nuttysmith: checks 
+*** FLOP *** [7h 4c Jc]
+Nuttysmith: bets 40
+Scolk: folds 
+Uncalled bet (40) returned to Nuttysmith
+Nuttysmith collected 71 from pot
+Nuttysmith: doesn't show hand 
+*** SUMMARY ***
+Total pot 71 | Rake 0 
+Board [7h 4c Jc]
+Seat 1: correia67 folded before Flop (didn't bet)
+Seat 2: Scolk folded on the Flop
+Seat 3: Osíris X (button) folded before Flop (didn't bet)
+Seat 4: g3ldh4i-vega (small blind) folded before Flop
+Seat 6: Nuttysmith (big blind) collected (71)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: jahny_rap folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356645564: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:16:02 UTC [2026/04/05 14:16:02 ET]
+Table '3989540623 3' 8-max Seat #4 is the button
+Seat 1: correia67 (1491 in chips) 
+Seat 2: Scolk (1461 in chips) 
+Seat 3: Osíris X (1461 in chips) 
+Seat 4: g3ldh4i-vega (1441 in chips) 
+Seat 6: Nuttysmith (1548 in chips) 
+Seat 7: scorza23 (1562 in chips) 
+Seat 8: jahny_rap (1497 in chips) 
+correia67: posts the ante 3
+Scolk: posts the ante 3
+Osíris X: posts the ante 3
+g3ldh4i-vega: posts the ante 3
+Nuttysmith: posts the ante 3
+scorza23: posts the ante 3
+jahny_rap: posts the ante 3
+Nuttysmith: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 5s]
+jahny_rap: raises 24 to 44
+correia67: folds 
+Scolk: calls 44
+Osíris X: folds 
+Onailuj is disconnected 
+g3ldh4i-vega: raises 123 to 167
+Nuttysmith: folds 
+scorza23: folds 
+jahny_rap: calls 123
+Scolk: folds 
+*** FLOP *** [Kh Ts Td]
+jahny_rap: checks 
+g3ldh4i-vega: bets 300
+jahny_rap: calls 300
+*** TURN *** [Kh Ts Td] [3c]
+jahny_rap: checks 
+g3ldh4i-vega: checks 
+*** RIVER *** [Kh Ts Td 3c] [9c]
+jahny_rap: checks 
+g3ldh4i-vega: bets 971 and is all-in
+jahny_rap: calls 971
+*** SHOW DOWN ***
+g3ldh4i-vega: shows [Qh Ah] (a pair of Tens)
+jahny_rap: shows [Ad Kd] (two pair, Kings and Tens)
+jahny_rap collected 2971 from pot
+g3ldh4i-vega finished the tournament in 32nd place
+*** SUMMARY ***
+Total pot 2971 | Rake 0 
+Board [Kh Ts Td 3c 9c]
+Seat 1: correia67 folded before Flop (didn't bet)
+Seat 2: Scolk folded before Flop
+Seat 3: Osíris X folded before Flop (didn't bet)
+Seat 4: g3ldh4i-vega (button) showed [Qh Ah] and lost with a pair of Tens
+Seat 6: Nuttysmith (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: jahny_rap showed [Ad Kd] and won (2971) with two pair, Kings and Tens
+
+
+
+PokerStars Hand #260356662402: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:17:09 UTC [2026/04/05 14:17:09 ET]
+Table '3989540623 3' 8-max Seat #6 is the button
+Seat 1: correia67 (1488 in chips) 
+Seat 2: Scolk (1414 in chips) 
+Seat 3: Osíris X (1458 in chips) 
+Seat 5: Onailuj (1500 in chips) 
+Seat 6: Nuttysmith (1535 in chips) 
+Seat 7: scorza23 (1539 in chips) 
+Seat 8: jahny_rap (3027 in chips) 
+correia67: posts the ante 3
+Scolk: posts the ante 3
+Osíris X: posts the ante 3
+Onailuj: posts the ante 3
+Nuttysmith: posts the ante 3
+scorza23: posts the ante 3
+jahny_rap: posts the ante 3
+scorza23: posts small blind 10
+jahny_rap: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As 9c]
+correia67: raises 20 to 40
+Scolk: folds 
+Osíris X: raises 40 to 80
+Onailuj: folds 
+Nuttysmith: folds 
+scorza23: raises 40 to 120
+jahny_rap: folds 
+correia67: folds 
+Osíris X: calls 40
+*** FLOP *** [Td 7h 9s]
+scorza23: bets 120
+Osíris X: calls 120
+*** TURN *** [Td 7h 9s] [Ac]
+scorza23: bets 220
+Osíris X: raises 995 to 1215 and is all-in
+scorza23: calls 995
+*** RIVER *** [Td 7h 9s Ac] [Kh]
+*** SHOW DOWN ***
+scorza23: shows [As 9c] (two pair, Aces and Nines)
+Osíris X: shows [Ah Kc] (two pair, Aces and Kings)
+Osíris X collected 2991 from pot
+*** SUMMARY ***
+Total pot 2991 | Rake 0 
+Board [Td 7h 9s Ac Kh]
+Seat 1: correia67 folded before Flop
+Seat 2: Scolk folded before Flop (didn't bet)
+Seat 3: Osíris X showed [Ah Kc] and won (2991) with two pair, Aces and Kings
+Seat 5: Onailuj folded before Flop (didn't bet)
+Seat 6: Nuttysmith (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) showed [As 9c] and lost with two pair, Aces and Nines
+Seat 8: jahny_rap (big blind) folded before Flop
+
+
+
+PokerStars Hand #260356677936: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:18:11 UTC [2026/04/05 14:18:11 ET]
+Table '3989540623 3' 8-max Seat #7 is the button
+Seat 1: correia67 (1445 in chips) 
+Seat 2: Scolk (1411 in chips) 
+Seat 3: Osíris X (2991 in chips) 
+Seat 5: Onailuj (1497 in chips) 
+Seat 6: Nuttysmith (1532 in chips) 
+Seat 7: scorza23 (81 in chips) 
+Seat 8: jahny_rap (3004 in chips) 
+correia67: posts the ante 3
+Scolk: posts the ante 3
+Osíris X: posts the ante 3
+Onailuj: posts the ante 3
+Nuttysmith: posts the ante 3
+scorza23: posts the ante 3
+jahny_rap: posts the ante 3
+jahny_rap: posts small blind 10
+correia67: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As 5s]
+Scolk: calls 20
+Osíris X: folds 
+Onailuj: calls 20
+Nuttysmith: calls 20
+scorza23: raises 58 to 78 and is all-in
+jahny_rap: folds 
+correia67: calls 58
+Scolk: folds 
+Onailuj: calls 58
+Nuttysmith: calls 58
+*** FLOP *** [5c 8h 5d]
+correia67: checks 
+Onailuj: checks 
+Nuttysmith: checks 
+*** TURN *** [5c 8h 5d] [4d]
+correia67: checks 
+Onailuj: bets 91
+Nuttysmith: folds 
+correia67: folds 
+Uncalled bet (91) returned to Onailuj
+*** RIVER *** [5c 8h 5d 4d] [Td]
+*** SHOW DOWN ***
+Onailuj: shows [7d 7h] (two pair, Sevens and Fives)
+scorza23: shows [As 5s] (three of a kind, Fives)
+scorza23 collected 363 from pot
+*** SUMMARY ***
+Total pot 363 | Rake 0 
+Board [5c 8h 5d 4d Td]
+Seat 1: correia67 (big blind) folded on the Turn
+Seat 2: Scolk folded before Flop
+Seat 3: Osíris X folded before Flop (didn't bet)
+Seat 5: Onailuj showed [7d 7h] and lost with two pair, Sevens and Fives
+Seat 6: Nuttysmith folded on the Turn
+Seat 7: scorza23 (button) showed [As 5s] and won (363) with three of a kind, Fives
+Seat 8: jahny_rap (small blind) folded before Flop
+
+
+
+PokerStars Hand #260356691590: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:19:06 UTC [2026/04/05 14:19:06 ET]
+Table '3989540623 3' 8-max Seat #8 is the button
+Seat 1: correia67 (1364 in chips) 
+Seat 2: Scolk (1388 in chips) 
+Seat 3: Osíris X (2988 in chips) 
+Seat 5: Onailuj (1416 in chips) 
+Seat 6: Nuttysmith (1451 in chips) 
+Seat 7: scorza23 (363 in chips) 
+Seat 8: jahny_rap (2991 in chips) 
+correia67: posts the ante 3
+Scolk: posts the ante 3
+Osíris X: posts the ante 3
+Onailuj: posts the ante 3
+Nuttysmith: posts the ante 3
+scorza23: posts the ante 3
+jahny_rap: posts the ante 3
+correia67: posts small blind 10
+Scolk: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4h]
+Osíris X: raises 40 to 60
+Onailuj: folds 
+Nuttysmith: folds 
+scorza23: folds 
+jahny_rap: folds 
+correia67: calls 50
+Scolk: calls 40
+*** FLOP *** [9h 8d Qh]
+correia67: checks 
+Scolk: bets 60
+Osíris X: raises 121 to 181
+correia67: folds 
+Scolk: folds 
+Uncalled bet (121) returned to Osíris X
+Osíris X collected 321 from pot
+Osíris X: doesn't show hand 
+*** SUMMARY ***
+Total pot 321 | Rake 0 
+Board [9h 8d Qh]
+Seat 1: correia67 (small blind) folded on the Flop
+Seat 2: Scolk (big blind) folded on the Flop
+Seat 3: Osíris X collected (321)
+Seat 5: Onailuj folded before Flop (didn't bet)
+Seat 6: Nuttysmith folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: jahny_rap (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356706823: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:20:06 UTC [2026/04/05 14:20:06 ET]
+Table '3989540623 3' 8-max Seat #1 is the button
+Seat 1: correia67 (1301 in chips) 
+Seat 2: Scolk (1265 in chips) 
+Seat 3: Osíris X (3186 in chips) 
+Seat 5: Onailuj (1413 in chips) 
+Seat 6: Nuttysmith (1448 in chips) 
+Seat 7: scorza23 (360 in chips) 
+Seat 8: jahny_rap (2988 in chips) 
+correia67: posts the ante 4
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+Scolk: posts small blind 15
+Osíris X: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 8h]
+Onailuj: raises 45 to 75
+Nuttysmith: folds 
+scorza23: folds 
+jahny_rap: folds 
+correia67: folds 
+Scolk: calls 60
+Osíris X: calls 45
+*** FLOP *** [2d 7d 3d]
+Scolk: checks 
+Osíris X: checks 
+Onailuj: bets 132
+Scolk: folds 
+Osíris X: folds 
+Uncalled bet (132) returned to Onailuj
+Onailuj collected 253 from pot
+Onailuj: doesn't show hand 
+*** SUMMARY ***
+Total pot 253 | Rake 0 
+Board [2d 7d 3d]
+Seat 1: correia67 (button) folded before Flop (didn't bet)
+Seat 2: Scolk (small blind) folded on the Flop
+Seat 3: Osíris X (big blind) folded on the Flop
+Seat 5: Onailuj collected (253)
+Seat 6: Nuttysmith folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: jahny_rap folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356717292: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:20:48 UTC [2026/04/05 14:20:48 ET]
+Table '3989540623 3' 8-max Seat #2 is the button
+Seat 1: correia67 (1297 in chips) 
+Seat 2: Scolk (1186 in chips) 
+Seat 3: Osíris X (3107 in chips) 
+Seat 5: Onailuj (1587 in chips) 
+Seat 6: Nuttysmith (1444 in chips) 
+Seat 7: scorza23 (356 in chips) 
+Seat 8: jahny_rap (2984 in chips) 
+correia67: posts the ante 4
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+Osíris X: posts small blind 15
+Onailuj: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Qd]
+Nuttysmith: folds 
+scorza23: raises 60 to 90
+jahny_rap: folds 
+correia67: folds 
+Scolk: folds 
+Osíris X: folds 
+Onailuj: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 103 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: correia67 folded before Flop (didn't bet)
+Seat 2: Scolk (button) folded before Flop (didn't bet)
+Seat 3: Osíris X (small blind) folded before Flop
+Seat 5: Onailuj (big blind) folded before Flop
+Seat 6: Nuttysmith folded before Flop (didn't bet)
+Seat 7: scorza23 collected (103)
+Seat 8: jahny_rap folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356722487: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:21:08 UTC [2026/04/05 14:21:08 ET]
+Table '3989540623 3' 8-max Seat #3 is the button
+Seat 1: correia67 (1293 in chips) 
+Seat 2: Scolk (1182 in chips) 
+Seat 3: Osíris X (3088 in chips) 
+Seat 5: Onailuj (1553 in chips) 
+Seat 6: Nuttysmith (1440 in chips) 
+Seat 7: scorza23 (425 in chips) 
+Seat 8: jahny_rap (2980 in chips) 
+correia67: posts the ante 4
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+Onailuj: posts small blind 15
+Nuttysmith: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Ks]
+scorza23: folds 
+jahny_rap: folds 
+correia67: raises 33 to 63
+Scolk: calls 63
+Osíris X: folds 
+Onailuj: folds 
+Nuttysmith: calls 33
+*** FLOP *** [Ac 9c 2d]
+Nuttysmith: bets 116
+correia67: folds 
+Scolk: calls 116
+*** TURN *** [Ac 9c 2d] [Jh]
+Nuttysmith: bets 232
+Scolk: calls 232
+*** RIVER *** [Ac 9c 2d Jh] [6d]
+Nuttysmith: checks 
+Scolk: bets 360
+Nuttysmith: calls 360
+*** SHOW DOWN ***
+Scolk: shows [Kc Qc] (high card Ace)
+Nuttysmith: shows [4c Ad] (a pair of Aces)
+Nuttysmith collected 1648 from pot
+*** SUMMARY ***
+Total pot 1648 | Rake 0 
+Board [Ac 9c 2d Jh 6d]
+Seat 1: correia67 folded on the Flop
+Seat 2: Scolk showed [Kc Qc] and lost with high card Ace
+Seat 3: Osíris X (button) folded before Flop (didn't bet)
+Seat 5: Onailuj (small blind) folded before Flop
+Seat 6: Nuttysmith (big blind) showed [4c Ad] and won (1648) with a pair of Aces
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: jahny_rap folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356742648: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:22:28 UTC [2026/04/05 14:22:28 ET]
+Table '3989540623 3' 8-max Seat #5 is the button
+Seat 2: Scolk (407 in chips) 
+Seat 3: Osíris X (3084 in chips) 
+Seat 5: Onailuj (1534 in chips) 
+Seat 6: Nuttysmith (2313 in chips) 
+Seat 7: scorza23 (421 in chips) 
+Seat 8: jahny_rap (2976 in chips) 
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+Nuttysmith: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 6h]
+jahny_rap: raises 36 to 66
+Scolk: folds 
+Osíris X: folds 
+Onailuj: folds 
+Nuttysmith: folds 
+scorza23: calls 36
+*** FLOP *** [Kh 3h 2s]
+scorza23: checks 
+jahny_rap: bets 60
+scorza23: raises 291 to 351 and is all-in
+jahny_rap: folds 
+Uncalled bet (291) returned to scorza23
+scorza23 collected 291 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 291 | Rake 0 
+Board [Kh 3h 2s]
+Seat 2: Scolk folded before Flop (didn't bet)
+Seat 3: Osíris X folded before Flop (didn't bet)
+Seat 5: Onailuj (button) folded before Flop (didn't bet)
+Seat 6: Nuttysmith (small blind) folded before Flop
+Seat 7: scorza23 (big blind) collected (291)
+Seat 8: jahny_rap folded on the Flop
+
+
+
+PokerStars Hand #260356751637: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:23:03 UTC [2026/04/05 14:23:03 ET]
+Table '3989540623 3' 8-max Seat #6 is the button
+Seat 2: Scolk (403 in chips) 
+Seat 3: Osíris X (3080 in chips) 
+Seat 5: Onailuj (1530 in chips) 
+Seat 6: Nuttysmith (2294 in chips) 
+Seat 7: scorza23 (582 in chips) 
+Seat 8: jahny_rap (2846 in chips) 
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+scorza23: posts small blind 15
+jahny_rap: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 7s]
+Scolk: folds 
+Osíris X: raises 60 to 90
+Onailuj: folds 
+Nuttysmith: folds 
+scorza23: folds 
+jahny_rap: folds 
+Uncalled bet (60) returned to Osíris X
+Osíris X collected 99 from pot
+Osíris X: doesn't show hand 
+*** SUMMARY ***
+Total pot 99 | Rake 0 
+Seat 2: Scolk folded before Flop (didn't bet)
+Seat 3: Osíris X collected (99)
+Seat 5: Onailuj folded before Flop (didn't bet)
+Seat 6: Nuttysmith (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: jahny_rap (big blind) folded before Flop
+
+
+
+PokerStars Hand #260356758623: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:23:31 UTC [2026/04/05 14:23:31 ET]
+Table '3989540623 3' 8-max Seat #7 is the button
+Seat 2: Scolk (399 in chips) 
+Seat 3: Osíris X (3145 in chips) 
+Seat 5: Onailuj (1526 in chips) 
+Seat 6: Nuttysmith (2290 in chips) 
+Seat 7: scorza23 (563 in chips) 
+Seat 8: jahny_rap (2812 in chips) 
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+jahny_rap: posts small blind 15
+Scolk: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Jd]
+Osíris X: folds 
+Onailuj: raises 45 to 75
+Nuttysmith: folds 
+scorza23: folds 
+jahny_rap: raises 225 to 300
+Scolk: folds 
+Onailuj: folds 
+Uncalled bet (225) returned to jahny_rap
+jahny_rap collected 204 from pot
+jahny_rap: doesn't show hand 
+*** SUMMARY ***
+Total pot 204 | Rake 0 
+Seat 2: Scolk (big blind) folded before Flop
+Seat 3: Osíris X folded before Flop (didn't bet)
+Seat 5: Onailuj folded before Flop
+Seat 6: Nuttysmith folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jahny_rap (small blind) collected (204)
+
+
+
+PokerStars Hand #260356765752: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:23:59 UTC [2026/04/05 14:23:59 ET]
+Table '3989540623 3' 8-max Seat #8 is the button
+Seat 2: Scolk (365 in chips) 
+Seat 3: Osíris X (3141 in chips) 
+Seat 5: Onailuj (1447 in chips) 
+Seat 6: Nuttysmith (2286 in chips) 
+Seat 7: scorza23 (559 in chips) 
+Seat 8: jahny_rap (2937 in chips) 
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+Scolk: posts small blind 15
+Osíris X: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4c]
+Onailuj: folds 
+Nuttysmith: calls 30
+scorza23: folds 
+jahny_rap: folds 
+Scolk: folds 
+Osíris X: checks 
+*** FLOP *** [2h Td 6c]
+Osíris X: checks 
+Nuttysmith: bets 30
+Osíris X: folds 
+Uncalled bet (30) returned to Nuttysmith
+Nuttysmith collected 99 from pot
+Nuttysmith: doesn't show hand 
+*** SUMMARY ***
+Total pot 99 | Rake 0 
+Board [2h Td 6c]
+Seat 2: Scolk (small blind) folded before Flop
+Seat 3: Osíris X (big blind) folded on the Flop
+Seat 5: Onailuj folded before Flop (didn't bet)
+Seat 6: Nuttysmith collected (99)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: jahny_rap (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356771414: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:24:22 UTC [2026/04/05 14:24:22 ET]
+Table '3989540623 3' 8-max Seat #2 is the button
+Seat 2: Scolk (346 in chips) 
+Seat 3: Osíris X (3107 in chips) 
+Seat 5: Onailuj (1443 in chips) 
+Seat 6: Nuttysmith (2351 in chips) 
+Seat 7: scorza23 (555 in chips) 
+Seat 8: jahny_rap (2933 in chips) 
+Scolk: posts the ante 4
+Osíris X: posts the ante 4
+Onailuj: posts the ante 4
+Nuttysmith: posts the ante 4
+scorza23: posts the ante 4
+jahny_rap: posts the ante 4
+Osíris X: posts small blind 15
+Onailuj: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Qd]
+Nuttysmith: folds 
+scorza23: raises 30 to 60
+jahny_rap: folds 
+Scolk: folds 
+Osíris X: folds 
+Onailuj: calls 30
+*** FLOP *** [5h Ts 6s]
+Onailuj: checks 
+scorza23: bets 90
+Onailuj: folds 
+Uncalled bet (90) returned to scorza23
+scorza23 collected 159 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 159 | Rake 0 
+Board [5h Ts 6s]
+Seat 2: Scolk (button) folded before Flop (didn't bet)
+Seat 3: Osíris X (small blind) folded before Flop
+Seat 5: Onailuj (big blind) folded on the Flop
+Seat 6: Nuttysmith folded before Flop (didn't bet)
+Seat 7: scorza23 collected (159)
+Seat 8: jahny_rap folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356783354: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:25:09 UTC [2026/04/05 14:25:09 ET]
+Table '3989540623 3' 8-max Seat #3 is the button
+Seat 2: Scolk (342 in chips) 
+Seat 3: Osíris X (3088 in chips) 
+Seat 5: Onailuj (1379 in chips) 
+Seat 6: Nuttysmith (2347 in chips) 
+Seat 7: scorza23 (650 in chips) 
+Seat 8: jahny_rap (2929 in chips) 
+Scolk: posts the ante 6
+Osíris X: posts the ante 6
+Onailuj: posts the ante 6
+Nuttysmith: posts the ante 6
+scorza23: posts the ante 6
+jahny_rap: posts the ante 6
+Onailuj: posts small blind 25
+Nuttysmith: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 4h]
+scorza23: folds 
+jahny_rap: raises 60 to 110
+Scolk: folds 
+Osíris X: folds 
+Onailuj: folds 
+Nuttysmith: folds 
+Uncalled bet (60) returned to jahny_rap
+jahny_rap collected 161 from pot
+jahny_rap: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Seat 2: Scolk folded before Flop (didn't bet)
+Seat 3: Osíris X (button) folded before Flop (didn't bet)
+Seat 5: Onailuj (small blind) folded before Flop
+Seat 6: Nuttysmith (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: jahny_rap collected (161)
+
+
+
+PokerStars Hand #260356787833: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:25:27 UTC [2026/04/05 14:25:27 ET]
+Table '3989540623 3' 8-max Seat #5 is the button
+Seat 2: Scolk (336 in chips) 
+Seat 3: Osíris X (3082 in chips) 
+Seat 5: Onailuj (1348 in chips) 
+Seat 6: Nuttysmith (2291 in chips) 
+Seat 7: scorza23 (644 in chips) 
+Seat 8: jahny_rap (3034 in chips) 
+Scolk: posts the ante 6
+Osíris X: posts the ante 6
+Onailuj: posts the ante 6
+Nuttysmith: posts the ante 6
+scorza23: posts the ante 6
+jahny_rap: posts the ante 6
+Nuttysmith: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5s]
+jahny_rap: folds 
+Scolk: folds 
+Osíris X: folds 
+Onailuj: raises 50 to 100
+Nuttysmith: folds 
+scorza23: calls 50
+*** FLOP *** [2d Tc 9d]
+scorza23: checks 
+Onailuj: bets 65
+scorza23: folds 
+Uncalled bet (65) returned to Onailuj
+Onailuj collected 261 from pot
+Onailuj: doesn't show hand 
+*** SUMMARY ***
+Total pot 261 | Rake 0 
+Board [2d Tc 9d]
+Seat 2: Scolk folded before Flop (didn't bet)
+Seat 3: Osíris X folded before Flop (didn't bet)
+Seat 5: Onailuj (button) collected (261)
+Seat 6: Nuttysmith (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded on the Flop
+Seat 8: jahny_rap folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356795568: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:25:58 UTC [2026/04/05 14:25:58 ET]
+Table '3989540623 3' 8-max Seat #6 is the button
+Seat 2: Scolk (330 in chips) 
+Seat 3: Osíris X (3076 in chips) 
+Seat 5: Onailuj (1503 in chips) 
+Seat 6: Nuttysmith (2260 in chips) 
+Seat 7: scorza23 (538 in chips) 
+Seat 8: jahny_rap (3028 in chips) 
+Scolk: posts the ante 6
+Osíris X: posts the ante 6
+Onailuj: posts the ante 6
+Nuttysmith: posts the ante 6
+scorza23: posts the ante 6
+jahny_rap: posts the ante 6
+scorza23: posts small blind 25
+jahny_rap: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 9c]
+Scolk: folds 
+Osíris X: raises 100 to 150
+Onailuj: folds 
+Nuttysmith: calls 150
+scorza23: folds 
+jahny_rap: folds 
+*** FLOP *** [4c 4d Ts]
+Osíris X: bets 136
+Nuttysmith: folds 
+Uncalled bet (136) returned to Osíris X
+Osíris X collected 411 from pot
+Osíris X: doesn't show hand 
+*** SUMMARY ***
+Total pot 411 | Rake 0 
+Board [4c 4d Ts]
+Seat 2: Scolk folded before Flop (didn't bet)
+Seat 3: Osíris X collected (411)
+Seat 5: Onailuj folded before Flop (didn't bet)
+Seat 6: Nuttysmith (button) folded on the Flop
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: jahny_rap (big blind) folded before Flop
+
+
+
+PokerStars Hand #260356811428: Tournament #3989540623, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:27:02 UTC [2026/04/05 14:27:02 ET]
+Table '3989540623 3' 8-max Seat #7 is the button
+Seat 2: Scolk (324 in chips) 
+Seat 3: Osíris X (3331 in chips) 
+Seat 5: Onailuj (1497 in chips) 
+Seat 6: Nuttysmith (2104 in chips) 
+Seat 7: scorza23 (507 in chips) 
+Seat 8: jahny_rap (2972 in chips) 
+Scolk: posts the ante 6
+Osíris X: posts the ante 6
+Onailuj: posts the ante 6
+Nuttysmith: posts the ante 6
+scorza23: posts the ante 6
+jahny_rap: posts the ante 6
+jahny_rap: posts small blind 25
+Scolk: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Jd]
+Osíris X: folds 
+Onailuj: folds 
+Nuttysmith: folds 
+scorza23: raises 451 to 501 and is all-in
+jahny_rap: calls 476
+Scolk: calls 268 and is all-in
+*** FLOP *** [7s 9d 8d]
+*** TURN *** [7s 9d 8d] [Ad]
+*** RIVER *** [7s 9d 8d Ad] [9c]
+*** SHOW DOWN ***
+jahny_rap: shows [As 6d] (two pair, Aces and Nines)
+scorza23: shows [Qh Jd] (a pair of Nines)
+jahny_rap collected 366 from side pot
+Scolk: shows [Ks Td] (a pair of Nines)
+jahny_rap collected 990 from main pot
+scorza23 finished the tournament in 24th place
+Scolk finished the tournament in 25th place
+*** SUMMARY ***
+Total pot 1356 Main pot 990. Side pot 366. | Rake 0 
+Board [7s 9d 8d Ad 9c]
+Seat 2: Scolk (big blind) showed [Ks Td] and lost with a pair of Nines
+Seat 3: Osíris X folded before Flop (didn't bet)
+Seat 5: Onailuj folded before Flop (didn't bet)
+Seat 6: Nuttysmith folded before Flop (didn't bet)
+Seat 7: scorza23 (button) showed [Qh Jd] and lost with a pair of Nines
+Seat 8: jahny_rap (small blind) showed [As 6d] and won (1356) with two pair, Aces and Nines
+
+
+

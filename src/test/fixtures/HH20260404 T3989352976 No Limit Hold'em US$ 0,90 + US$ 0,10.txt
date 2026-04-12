@@ -1,0 +1,812 @@
+﻿PokerStars Hand #260348359956: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:42:25 UTC [2026/04/04 19:42:25 ET]
+Table '3989352976 1' 8-max Seat #1 is the button
+Seat 1: DPKRBRANDAO (1500 in chips) 
+Seat 3: johnlair (1500 in chips) 
+Seat 4: joseluan123 (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 8: FADI SP (1500 in chips) 
+DPKRBRANDAO: posts the ante 3
+johnlair: posts the ante 3
+joseluan123: posts the ante 3
+scorza23: posts the ante 3
+FADI SP: posts the ante 3
+johnlair: posts small blind 10
+joseluan123: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8c]
+niinaK is disconnected 
+scorza23: raises 20 to 40
+FADI SP: folds 
+DPKRBRANDAO: calls 40
+johnlair: raises 100 to 140
+joseluan123: folds 
+scorza23: calls 100
+DPKRBRANDAO: folds 
+*** FLOP *** [5d Kh 6s]
+johnlair: bets 71
+scorza23: raises 249 to 320
+johnlair: folds 
+Uncalled bet (249) returned to scorza23
+scorza23 collected 497 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 497 | Rake 0 
+Board [5d Kh 6s]
+Seat 1: DPKRBRANDAO (button) folded before Flop
+Seat 3: johnlair (small blind) folded on the Flop
+Seat 4: joseluan123 (big blind) folded before Flop
+Seat 5: scorza23 collected (497)
+Seat 8: FADI SP folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348369507: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:43:21 UTC [2026/04/04 19:43:21 ET]
+Table '3989352976 1' 8-max Seat #3 is the button
+Seat 1: DPKRBRANDAO (1457 in chips) 
+Seat 3: johnlair (1286 in chips) 
+Seat 4: joseluan123 (1477 in chips) 
+Seat 5: scorza23 (1783 in chips) 
+Seat 7: niinaK (1500 in chips) 
+Seat 8: FADI SP (1497 in chips) 
+DPKRBRANDAO: posts the ante 3
+johnlair: posts the ante 3
+joseluan123: posts the ante 3
+scorza23: posts the ante 3
+niinaK: posts the ante 3
+FADI SP: posts the ante 3
+joseluan123: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 8s]
+niinaK: folds 
+FADI SP: folds 
+DPKRBRANDAO: folds 
+johnlair: folds 
+joseluan123: raises 20 to 40
+scorza23: folds 
+Uncalled bet (20) returned to joseluan123
+joseluan123 collected 58 from pot
+igorsousa17 is disconnected 
+joseluan123: doesn't show hand 
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair (button) folded before Flop (didn't bet)
+Seat 4: joseluan123 (small blind) collected (58)
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 7: niinaK folded before Flop (didn't bet)
+Seat 8: FADI SP folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348373739: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:43:47 UTC [2026/04/04 19:43:47 ET]
+Table '3989352976 1' 8-max Seat #4 is the button
+Seat 1: DPKRBRANDAO (1454 in chips) 
+Seat 3: johnlair (1283 in chips) 
+Seat 4: joseluan123 (1512 in chips) 
+Seat 5: scorza23 (1760 in chips) 
+Seat 6: igorsousa17 (1500 in chips) 
+Seat 7: niinaK (1497 in chips) 
+Seat 8: FADI SP (1494 in chips) 
+DPKRBRANDAO: posts the ante 3
+johnlair: posts the ante 3
+joseluan123: posts the ante 3
+scorza23: posts the ante 3
+igorsousa17: posts the ante 3
+niinaK: posts the ante 3
+FADI SP: posts the ante 3
+scorza23: posts small blind 10
+igorsousa17: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 7s]
+niinaK: raises 20 to 40
+FADI SP: folds 
+DPKRBRANDAO: folds 
+johnlair: calls 40
+joseluan123: raises 171 to 211
+scorza23: folds 
+igorsousa17: folds 
+niinaK: calls 171
+johnlair: folds 
+*** FLOP *** [6c 3s 8h]
+niinaK: bets 513
+joseluan123: raises 785 to 1298 and is all-in
+niinaK: calls 770 and is all-in
+Uncalled bet (15) returned to joseluan123
+*** TURN *** [6c 3s 8h] [8s]
+*** RIVER *** [6c 3s 8h 8s] [5d]
+*** SHOW DOWN ***
+niinaK: shows [8c 9c] (three of a kind, Eights)
+joseluan123: shows [Qh Qd] (two pair, Queens and Eights)
+niinaK collected 3079 from pot
+*** SUMMARY ***
+Total pot 3079 | Rake 0 
+Board [6c 3s 8h 8s 5d]
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair folded before Flop
+Seat 4: joseluan123 (button) showed [Qh Qd] and lost with two pair, Queens and Eights
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: igorsousa17 (big blind) folded before Flop
+Seat 7: niinaK showed [8c 9c] and won (3079) with three of a kind, Eights
+Seat 8: FADI SP folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348383605: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:44:46 UTC [2026/04/04 19:44:46 ET]
+Table '3989352976 1' 8-max Seat #5 is the button
+Seat 1: DPKRBRANDAO (1451 in chips) 
+Seat 3: johnlair (1240 in chips) 
+Seat 4: joseluan123 (15 in chips) 
+Seat 5: scorza23 (1747 in chips) 
+Seat 6: igorsousa17 (1477 in chips) 
+Seat 7: niinaK (3079 in chips) 
+Seat 8: FADI SP (1491 in chips) 
+DPKRBRANDAO: posts the ante 3
+johnlair: posts the ante 3
+joseluan123: posts the ante 3
+scorza23: posts the ante 3
+igorsousa17: posts the ante 3
+niinaK: posts the ante 3
+FADI SP: posts the ante 3
+igorsousa17: posts small blind 10
+niinaK: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Ac]
+FADI SP: folds 
+DPKRBRANDAO: folds 
+johnlair: folds 
+joseluan123: calls 12 and is all-in
+scorza23: raises 20 to 40
+igorsousa17: folds 
+niinaK: calls 20
+*** FLOP *** [3c 5d 2d]
+niinaK: checks 
+scorza23: checks 
+*** TURN *** [3c 5d 2d] [Qc]
+niinaK: checks 
+scorza23: checks 
+*** RIVER *** [3c 5d 2d Qc] [8s]
+niinaK: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+niinaK: shows [7h 9s] (high card Queen)
+scorza23: shows [6h Ac] (high card Ace)
+scorza23 collected 56 from side pot
+joseluan123: mucks hand 
+scorza23 collected 67 from main pot
+joseluan123 finished the tournament
+*** SUMMARY ***
+Total pot 123 Main pot 67. Side pot 56. | Rake 0 
+Board [3c 5d 2d Qc 8s]
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair folded before Flop (didn't bet)
+Seat 4: joseluan123 mucked [4s Ks]
+Seat 5: scorza23 (button) showed [6h Ac] and won (123) with high card Ace
+Seat 6: igorsousa17 (small blind) folded before Flop
+Seat 7: niinaK (big blind) showed [7h 9s] and lost with high card Queen
+Seat 8: FADI SP folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348393658: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:45:46 UTC [2026/04/04 19:45:46 ET]
+Table '3989352976 1' 8-max Seat #6 is the button
+Seat 1: DPKRBRANDAO (1448 in chips) 
+Seat 2: NazzaPadazza (1500 in chips) 
+Seat 3: johnlair (1237 in chips) 
+Seat 5: scorza23 (1827 in chips) 
+Seat 6: igorsousa17 (1464 in chips) 
+Seat 7: niinaK (3036 in chips) 
+DPKRBRANDAO: posts the ante 3
+NazzaPadazza: posts the ante 3
+johnlair: posts the ante 3
+scorza23: posts the ante 3
+igorsousa17: posts the ante 3
+niinaK: posts the ante 3
+niinaK: posts small blind 10
+DPKRBRANDAO: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 9d]
+NazzaPadazza: raises 20 to 40
+johnlair: folds 
+scorza23: calls 40
+igorsousa17: calls 40
+niinaK: folds 
+DPKRBRANDAO: calls 20
+*** FLOP *** [4c Qh 6s]
+joseluan123 is disconnected 
+DPKRBRANDAO: checks 
+NazzaPadazza: bets 20
+scorza23: raises 40 to 60
+igorsousa17: folds 
+DPKRBRANDAO: calls 60
+NazzaPadazza: calls 40
+*** TURN *** [4c Qh 6s] [4h]
+DPKRBRANDAO: checks 
+NazzaPadazza: checks 
+scorza23: bets 100
+DPKRBRANDAO: raises 180 to 280
+NazzaPadazza: calls 280
+scorza23: folds 
+*** RIVER *** [4c Qh 6s 4h] [3h]
+DPKRBRANDAO: bets 1065 and is all-in
+NazzaPadazza: folds 
+Uncalled bet (1065) returned to DPKRBRANDAO
+DPKRBRANDAO collected 1028 from pot
+DPKRBRANDAO: doesn't show hand 
+*** SUMMARY ***
+Total pot 1028 | Rake 0 
+Board [4c Qh 6s 4h 3h]
+Seat 1: DPKRBRANDAO (big blind) collected (1028)
+Seat 2: NazzaPadazza folded on the River
+Seat 3: johnlair folded before Flop (didn't bet)
+Seat 5: scorza23 folded on the Turn
+Seat 6: igorsousa17 (button) folded on the Flop
+Seat 7: niinaK (small blind) folded before Flop
+
+
+
+PokerStars Hand #260348408032: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:47:13 UTC [2026/04/04 19:47:13 ET]
+Table '3989352976 1' 8-max Seat #7 is the button
+Seat 1: DPKRBRANDAO (2093 in chips) 
+Seat 2: NazzaPadazza (1117 in chips) 
+Seat 3: johnlair (1234 in chips) 
+Seat 4: 4Chica (1500 in chips) 
+Seat 5: scorza23 (1624 in chips) 
+Seat 6: igorsousa17 (1421 in chips) 
+Seat 7: niinaK (3023 in chips) 
+Seat 8: joseluan123 (1500 in chips) out of hand (moved from another table into small blind)
+joseluan123 will be allowed to play after the button
+DPKRBRANDAO: posts the ante 3
+NazzaPadazza: posts the ante 3
+johnlair: posts the ante 3
+4Chica: posts the ante 3
+scorza23: posts the ante 3
+igorsousa17: posts the ante 3
+niinaK: posts the ante 3
+DPKRBRANDAO: posts small blind 10
+NazzaPadazza: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 7d]
+johnlair: raises 20 to 40
+4Chica: calls 40
+scorza23: folds 
+igorsousa17: raises 75 to 115
+niinaK: calls 115
+DPKRBRANDAO: folds 
+NazzaPadazza: calls 95
+johnlair: folds 
+4Chica: calls 75
+*** FLOP *** [Kc Qs Jc]
+NazzaPadazza: bets 20
+4Chica: calls 20
+igorsousa17: calls 20
+niinaK: calls 20
+*** TURN *** [Kc Qs Jc] [Ac]
+NazzaPadazza: bets 20
+4Chica: calls 20
+igorsousa17: calls 20
+niinaK: raises 346 to 366
+NazzaPadazza: calls 346
+4Chica: calls 346
+igorsousa17: folds 
+*** RIVER *** [Kc Qs Jc Ac] [5s]
+NazzaPadazza: bets 160
+4Chica: raises 836 to 996 and is all-in
+niinaK: calls 996
+NazzaPadazza: calls 453 and is all-in
+*** SHOW DOWN ***
+4Chica: shows [4c Tc] (a flush, Ace high)
+niinaK: shows [9c 7c] (a flush, Ace high - lower cards)
+4Chica collected 766 from side pot
+NazzaPadazza: shows [Ad 2c] (a pair of Aces)
+4Chica collected 3568 from main pot
+NazzaPadazza finished the tournament in 31st place
+*** SUMMARY ***
+Total pot 4334 Main pot 3568. Side pot 766. | Rake 0 
+Board [Kc Qs Jc Ac 5s]
+Seat 1: DPKRBRANDAO (small blind) folded before Flop
+Seat 2: NazzaPadazza (big blind) showed [Ad 2c] and lost with a pair of Aces
+Seat 3: johnlair folded before Flop
+Seat 4: 4Chica showed [4c Tc] and won (4334) with a flush, Ace high
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: igorsousa17 folded on the Turn
+Seat 7: niinaK (button) showed [9c 7c] and lost with a flush, Ace high
+
+
+
+PokerStars Hand #260348419344: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:48:21 UTC [2026/04/04 19:48:21 ET]
+Table '3989352976 1' 8-max Seat #1 is the button
+Seat 1: DPKRBRANDAO (2080 in chips) 
+Seat 3: johnlair (1191 in chips) 
+Seat 4: 4Chica (4334 in chips) 
+Seat 5: scorza23 (1621 in chips) 
+Seat 6: igorsousa17 (1263 in chips) 
+Seat 7: niinaK (1523 in chips) 
+Seat 8: joseluan123 (1500 in chips) 
+DPKRBRANDAO: posts the ante 4
+johnlair: posts the ante 4
+4Chica: posts the ante 4
+scorza23: posts the ante 4
+igorsousa17: posts the ante 4
+niinaK: posts the ante 4
+joseluan123: posts the ante 4
+johnlair: posts small blind 15
+4Chica: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Jd]
+scorza23: folds 
+igorsousa17: folds 
+niinaK: folds 
+joseluan123: raises 30 to 60
+DPKRBRANDAO: calls 60
+johnlair: calls 45
+4Chica: calls 30
+*** FLOP *** [6s 8s 5h]
+johnlair: checks 
+4Chica: bets 30
+joseluan123: folds 
+DPKRBRANDAO: raises 104 to 134
+johnlair: folds 
+4Chica: calls 104
+*** TURN *** [6s 8s 5h] [7c]
+4Chica: checks 
+DPKRBRANDAO: checks 
+*** RIVER *** [6s 8s 5h 7c] [8d]
+4Chica: checks 
+DPKRBRANDAO: bets 476
+4Chica: folds 
+Uncalled bet (476) returned to DPKRBRANDAO
+DPKRBRANDAO collected 536 from pot
+DPKRBRANDAO: doesn't show hand 
+*** SUMMARY ***
+Total pot 536 | Rake 0 
+Board [6s 8s 5h 7c 8d]
+Seat 1: DPKRBRANDAO (button) collected (536)
+Seat 3: johnlair (small blind) folded on the Flop
+Seat 4: 4Chica (big blind) folded on the River
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: igorsousa17 folded before Flop (didn't bet)
+Seat 7: niinaK folded before Flop (didn't bet)
+Seat 8: joseluan123 folded on the Flop
+
+
+
+PokerStars Hand #260348430423: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:49:28 UTC [2026/04/04 19:49:28 ET]
+Table '3989352976 1' 8-max Seat #3 is the button
+Seat 1: DPKRBRANDAO (2418 in chips) 
+Seat 3: johnlair (1127 in chips) 
+Seat 4: 4Chica (4136 in chips) 
+Seat 5: scorza23 (1617 in chips) 
+Seat 6: igorsousa17 (1259 in chips) 
+Seat 7: niinaK (1519 in chips) 
+Seat 8: joseluan123 (1436 in chips) 
+DPKRBRANDAO: posts the ante 4
+johnlair: posts the ante 4
+4Chica: posts the ante 4
+scorza23: posts the ante 4
+igorsousa17: posts the ante 4
+niinaK: posts the ante 4
+joseluan123: posts the ante 4
+4Chica: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Kc]
+igorsousa17: folds 
+niinaK: raises 30 to 60
+joseluan123: raises 30 to 90
+DPKRBRANDAO: folds 
+johnlair: folds 
+4Chica: folds 
+scorza23: folds 
+niinaK: calls 30
+*** FLOP *** [Qd Tc 3s]
+niinaK: checks 
+joseluan123: bets 127
+niinaK: folds 
+Uncalled bet (127) returned to joseluan123
+joseluan123 collected 253 from pot
+joseluan123: doesn't show hand 
+*** SUMMARY ***
+Total pot 253 | Rake 0 
+Board [Qd Tc 3s]
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair (button) folded before Flop (didn't bet)
+Seat 4: 4Chica (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: igorsousa17 folded before Flop (didn't bet)
+Seat 7: niinaK folded on the Flop
+Seat 8: joseluan123 collected (253)
+
+
+
+PokerStars Hand #260348436483: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:50:06 UTC [2026/04/04 19:50:06 ET]
+Table '3989352976 1' 8-max Seat #4 is the button
+Seat 1: DPKRBRANDAO (2414 in chips) 
+Seat 3: johnlair (1123 in chips) 
+Seat 4: 4Chica (4117 in chips) 
+Seat 5: scorza23 (1583 in chips) 
+Seat 6: igorsousa17 (1255 in chips) 
+Seat 7: niinaK (1425 in chips) 
+Seat 8: joseluan123 (1595 in chips) 
+DPKRBRANDAO: posts the ante 4
+johnlair: posts the ante 4
+4Chica: posts the ante 4
+scorza23: posts the ante 4
+igorsousa17: posts the ante 4
+niinaK: posts the ante 4
+joseluan123: posts the ante 4
+scorza23: posts small blind 15
+igorsousa17: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5h]
+niinaK: folds 
+joseluan123: folds 
+DPKRBRANDAO: folds 
+johnlair: folds 
+4Chica: raises 30 to 60
+scorza23: folds 
+igorsousa17: folds 
+Uncalled bet (30) returned to 4Chica
+4Chica collected 103 from pot
+4Chica: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair folded before Flop (didn't bet)
+Seat 4: 4Chica (button) collected (103)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: igorsousa17 (big blind) folded before Flop
+Seat 7: niinaK folded before Flop (didn't bet)
+Seat 8: joseluan123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348442054: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:50:39 UTC [2026/04/04 19:50:39 ET]
+Table '3989352976 1' 8-max Seat #5 is the button
+Seat 1: DPKRBRANDAO (2410 in chips) 
+Seat 3: johnlair (1119 in chips) 
+Seat 4: 4Chica (4186 in chips) 
+Seat 5: scorza23 (1564 in chips) 
+Seat 6: igorsousa17 (1221 in chips) 
+Seat 7: niinaK (1421 in chips) 
+Seat 8: joseluan123 (1591 in chips) 
+DPKRBRANDAO: posts the ante 4
+johnlair: posts the ante 4
+4Chica: posts the ante 4
+scorza23: posts the ante 4
+igorsousa17: posts the ante 4
+niinaK: posts the ante 4
+joseluan123: posts the ante 4
+igorsousa17: posts small blind 15
+niinaK: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 6h]
+joseluan123: folds 
+DPKRBRANDAO: folds 
+johnlair: folds 
+4Chica: folds 
+scorza23: folds 
+igorsousa17: folds 
+Uncalled bet (15) returned to niinaK
+niinaK collected 58 from pot
+niinaK: doesn't show hand 
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair folded before Flop (didn't bet)
+Seat 4: 4Chica folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: igorsousa17 (small blind) folded before Flop
+Seat 7: niinaK (big blind) collected (58)
+Seat 8: joseluan123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348444220: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:50:52 UTC [2026/04/04 19:50:52 ET]
+Table '3989352976 1' 8-max Seat #6 is the button
+Seat 1: DPKRBRANDAO (2406 in chips) 
+Seat 3: johnlair (1115 in chips) 
+Seat 4: 4Chica (4182 in chips) 
+Seat 5: scorza23 (1560 in chips) 
+Seat 6: igorsousa17 (1202 in chips) 
+Seat 7: niinaK (1460 in chips) 
+Seat 8: joseluan123 (1587 in chips) 
+DPKRBRANDAO: posts the ante 4
+johnlair: posts the ante 4
+4Chica: posts the ante 4
+scorza23: posts the ante 4
+igorsousa17: posts the ante 4
+niinaK: posts the ante 4
+joseluan123: posts the ante 4
+niinaK: posts small blind 15
+joseluan123: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Tc]
+DPKRBRANDAO: folds 
+johnlair: folds 
+4Chica: raises 30 to 60
+scorza23: folds 
+igorsousa17: calls 60
+niinaK: folds 
+joseluan123: calls 30
+*** FLOP *** [4h Jh 5d]
+joseluan123: checks 
+4Chica: checks 
+igorsousa17: bets 74
+joseluan123: calls 74
+4Chica: calls 74
+*** TURN *** [4h Jh 5d] [Qc]
+joseluan123: checks 
+4Chica: checks 
+igorsousa17: bets 165
+joseluan123: folds 
+4Chica: folds 
+Uncalled bet (165) returned to igorsousa17
+igorsousa17 collected 445 from pot
+igorsousa17: doesn't show hand 
+*** SUMMARY ***
+Total pot 445 | Rake 0 
+Board [4h Jh 5d Qc]
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair folded before Flop (didn't bet)
+Seat 4: 4Chica folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: igorsousa17 (button) collected (445)
+Seat 7: niinaK (small blind) folded before Flop
+Seat 8: joseluan123 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #260348453387: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:51:49 UTC [2026/04/04 19:51:49 ET]
+Table '3989352976 1' 8-max Seat #7 is the button
+Seat 1: DPKRBRANDAO (2402 in chips) 
+Seat 3: johnlair (1111 in chips) 
+Seat 4: 4Chica (4044 in chips) 
+Seat 5: scorza23 (1556 in chips) 
+Seat 6: igorsousa17 (1509 in chips) 
+Seat 7: niinaK (1441 in chips) 
+Seat 8: joseluan123 (1449 in chips) 
+DPKRBRANDAO: posts the ante 4
+johnlair: posts the ante 4
+4Chica: posts the ante 4
+scorza23: posts the ante 4
+igorsousa17: posts the ante 4
+niinaK: posts the ante 4
+joseluan123: posts the ante 4
+joseluan123: posts small blind 15
+DPKRBRANDAO: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 5s]
+johnlair: folds 
+4Chica: raises 30 to 60
+scorza23: folds 
+igorsousa17: folds 
+niinaK: folds 
+joseluan123: folds 
+DPKRBRANDAO: calls 30
+*** FLOP *** [6c Ah Qc]
+DPKRBRANDAO has timed out
+DPKRBRANDAO: checks 
+4Chica: checks 
+*** TURN *** [6c Ah Qc] [Th]
+DPKRBRANDAO: checks 
+4Chica: bets 82
+DPKRBRANDAO: folds 
+Uncalled bet (82) returned to 4Chica
+4Chica collected 163 from pot
+4Chica: doesn't show hand 
+*** SUMMARY ***
+Total pot 163 | Rake 0 
+Board [6c Ah Qc Th]
+Seat 1: DPKRBRANDAO (big blind) folded on the Turn
+Seat 3: johnlair folded before Flop (didn't bet)
+Seat 4: 4Chica collected (163)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: igorsousa17 folded before Flop (didn't bet)
+Seat 7: niinaK (button) folded before Flop (didn't bet)
+Seat 8: joseluan123 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260348465310: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 23:53:02 UTC [2026/04/04 19:53:02 ET]
+Table '3989352976 1' 8-max Seat #8 is the button
+Seat 1: DPKRBRANDAO (2338 in chips) 
+Seat 3: johnlair (1107 in chips) 
+Seat 4: 4Chica (4143 in chips) 
+Seat 5: scorza23 (1552 in chips) 
+Seat 6: igorsousa17 (1505 in chips) 
+Seat 7: niinaK (1437 in chips) 
+Seat 8: joseluan123 (1430 in chips) 
+DPKRBRANDAO: posts the ante 6
+johnlair: posts the ante 6
+4Chica: posts the ante 6
+scorza23: posts the ante 6
+igorsousa17: posts the ante 6
+niinaK: posts the ante 6
+joseluan123: posts the ante 6
+DPKRBRANDAO: posts small blind 25
+johnlair: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 4c]
+4Chica: raises 50 to 100
+scorza23: folds 
+igorsousa17: folds 
+niinaK: calls 100
+joseluan123: folds 
+DPKRBRANDAO: calls 75
+johnlair: calls 50
+*** FLOP *** [9c 6h 3h]
+DPKRBRANDAO: checks 
+johnlair: checks 
+4Chica: checks 
+niinaK: checks 
+*** TURN *** [9c 6h 3h] [5h]
+DPKRBRANDAO: checks 
+johnlair: checks 
+4Chica: checks 
+niinaK: checks 
+*** RIVER *** [9c 6h 3h 5h] [4h]
+DPKRBRANDAO: checks 
+johnlair: checks 
+4Chica: checks 
+niinaK: checks 
+*** SHOW DOWN ***
+DPKRBRANDAO: shows [6s 6d] (three of a kind, Sixes)
+johnlair: mucks hand 
+4Chica: mucks hand 
+niinaK: mucks hand 
+DPKRBRANDAO collected 442 from pot
+*** SUMMARY ***
+Total pot 442 | Rake 0 
+Board [9c 6h 3h 5h 4h]
+Seat 1: DPKRBRANDAO (small blind) showed [6s 6d] and won (442) with three of a kind, Sixes
+Seat 3: johnlair (big blind) mucked [5s Jd]
+Seat 4: 4Chica mucked [Td Qd]
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: igorsousa17 folded before Flop (didn't bet)
+Seat 7: niinaK mucked [Kd 8s]
+Seat 8: joseluan123 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348477913: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 23:54:22 UTC [2026/04/04 19:54:22 ET]
+Table '3989352976 1' 8-max Seat #1 is the button
+Seat 1: DPKRBRANDAO (2674 in chips) 
+Seat 3: johnlair (1001 in chips) 
+Seat 4: 4Chica (4037 in chips) 
+Seat 5: scorza23 (1546 in chips) 
+Seat 6: igorsousa17 (1499 in chips) 
+Seat 7: niinaK (1331 in chips) 
+Seat 8: joseluan123 (1424 in chips) 
+DPKRBRANDAO: posts the ante 6
+johnlair: posts the ante 6
+4Chica: posts the ante 6
+scorza23: posts the ante 6
+igorsousa17: posts the ante 6
+niinaK: posts the ante 6
+joseluan123: posts the ante 6
+johnlair: posts small blind 25
+4Chica: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 7h]
+scorza23: folds 
+igorsousa17: folds 
+niinaK: folds 
+joseluan123: folds 
+DPKRBRANDAO: raises 50 to 100
+johnlair: folds 
+4Chica: calls 50
+*** FLOP *** [6s 9d Th]
+4Chica: checks 
+DPKRBRANDAO: bets 134
+4Chica: folds 
+Uncalled bet (134) returned to DPKRBRANDAO
+DPKRBRANDAO collected 267 from pot
+*** SUMMARY ***
+Total pot 267 | Rake 0 
+Board [6s 9d Th]
+Seat 1: DPKRBRANDAO (button) collected (267)
+Seat 3: johnlair (small blind) folded before Flop
+Seat 4: 4Chica (big blind) folded on the Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: igorsousa17 folded before Flop (didn't bet)
+Seat 7: niinaK folded before Flop (didn't bet)
+Seat 8: joseluan123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348484714: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 23:55:05 UTC [2026/04/04 19:55:05 ET]
+Table '3989352976 1' 8-max Seat #3 is the button
+Seat 1: DPKRBRANDAO (2835 in chips) 
+Seat 3: johnlair (970 in chips) 
+Seat 4: 4Chica (3931 in chips) 
+Seat 5: scorza23 (1540 in chips) 
+Seat 6: igorsousa17 (1493 in chips) 
+Seat 7: niinaK (1325 in chips) 
+Seat 8: joseluan123 (1418 in chips) 
+DPKRBRANDAO: posts the ante 6
+johnlair: posts the ante 6
+4Chica: posts the ante 6
+scorza23: posts the ante 6
+igorsousa17: posts the ante 6
+niinaK: posts the ante 6
+joseluan123: posts the ante 6
+4Chica: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 6s]
+igorsousa17: folds 
+niinaK: folds 
+joseluan123: folds 
+DPKRBRANDAO: folds 
+johnlair: raises 50 to 100
+4Chica: folds 
+scorza23: folds 
+Uncalled bet (50) returned to johnlair
+johnlair collected 167 from pot
+johnlair: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair (button) collected (167)
+Seat 4: 4Chica (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: igorsousa17 folded before Flop (didn't bet)
+Seat 7: niinaK folded before Flop (didn't bet)
+Seat 8: joseluan123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348529104: Tournament #3989352976, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:00:50 UTC [2026/04/04 20:00:50 ET]
+Table '3989352976 1' 8-max Seat #4 is the button
+Seat 1: DPKRBRANDAO (2829 in chips) 
+Seat 3: johnlair (1081 in chips) 
+Seat 4: 4Chica (3900 in chips) 
+Seat 5: scorza23 (1484 in chips) 
+Seat 6: igorsousa17 (1487 in chips) 
+Seat 7: niinaK (1319 in chips) 
+Seat 8: joseluan123 (1412 in chips) 
+DPKRBRANDAO: posts the ante 6
+johnlair: posts the ante 6
+4Chica: posts the ante 6
+scorza23: posts the ante 6
+igorsousa17: posts the ante 6
+niinaK: posts the ante 6
+joseluan123: posts the ante 6
+scorza23: posts small blind 25
+igorsousa17: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5d]
+niinaK: folds 
+joseluan123: folds 
+DPKRBRANDAO: folds 
+johnlair: folds 
+4Chica: folds 
+scorza23: raises 100 to 150
+igorsousa17: raises 195 to 345
+scorza23: calls 195
+*** FLOP *** [4d Ks 8h]
+scorza23: bets 732
+igorsousa17: raises 404 to 1136 and is all-in
+scorza23: calls 401 and is all-in
+Uncalled bet (3) returned to igorsousa17
+*** TURN *** [4d Ks 8h] [9c]
+*** RIVER *** [4d Ks 8h 9c] [Qs]
+*** SHOW DOWN ***
+scorza23: shows [9d 5d] (a pair of Nines)
+igorsousa17: shows [Kd As] (a pair of Kings)
+igorsousa17 collected 2998 from pot
+scorza23 finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 2998 | Rake 0 
+Board [4d Ks 8h 9c Qs]
+Seat 1: DPKRBRANDAO folded before Flop (didn't bet)
+Seat 3: johnlair folded before Flop (didn't bet)
+Seat 4: 4Chica (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) showed [9d 5d] and lost with a pair of Nines
+Seat 6: igorsousa17 (big blind) showed [Kd As] and won (2998) with a pair of Kings
+Seat 7: niinaK folded before Flop (didn't bet)
+Seat 8: joseluan123 folded before Flop (didn't bet)
+
+
+

@@ -1,0 +1,817 @@
+﻿PokerStars Hand #260360178304: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:10:36 BRT [2026/04/05 18:10:36 ET]
+Table '3989608128 2' 8-max Seat #1 is the button
+Seat 1: andrealvarenga6 (1500 in chips) 
+Seat 3: DiogoA2610 (1500 in chips) 
+Seat 5: higgolotron (1500 in chips) 
+Seat 6: chicofiel489 (1500 in chips) 
+Seat 7: nilisss17 (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+andrealvarenga6: posts the ante 3
+DiogoA2610: posts the ante 3
+higgolotron: posts the ante 3
+chicofiel489: posts the ante 3
+nilisss17: posts the ante 3
+scorza23: posts the ante 3
+DiogoA2610: posts small blind 10
+higgolotron: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 8d]
+chicofiel489: calls 20
+nilisss17: folds 
+scorza23: folds 
+andrealvarenga6: calls 20
+DiogoA2610: calls 10
+higgolotron: checks 
+*** FLOP *** [9c Jh Kd]
+DiogoA2610: checks 
+higgolotron: checks 
+chicofiel489: checks 
+MA10K is disconnected 
+andrealvarenga6: checks 
+*** TURN *** [9c Jh Kd] [2c]
+DiogoA2610: bets 69
+higgolotron: folds 
+chicofiel489: folds 
+andrealvarenga6: calls 69
+*** RIVER *** [9c Jh Kd 2c] [As]
+DiogoA2610: checks 
+andrealvarenga6: checks 
+*** SHOW DOWN ***
+DiogoA2610: shows [9s 2s] (two pair, Nines and Deuces)
+andrealvarenga6: mucks hand 
+DiogoA2610 collected 236 from pot
+*** SUMMARY ***
+Total pot 236 | Rake 0 
+Board [9c Jh Kd 2c As]
+Seat 1: andrealvarenga6 (button) mucked [7d Qh]
+Seat 3: DiogoA2610 (small blind) showed [9s 2s] and won (236) with two pair, Nines and Deuces
+Seat 5: higgolotron (big blind) folded on the Turn
+Seat 6: chicofiel489 folded on the Turn
+Seat 7: nilisss17 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360196654: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:11:51 BRT [2026/04/05 18:11:51 ET]
+Table '3989608128 2' 8-max Seat #3 is the button
+Seat 1: andrealvarenga6 (1408 in chips) 
+Seat 2: MA10K (1500 in chips) 
+Seat 3: DiogoA2610 (1644 in chips) 
+Seat 4: damadamatai (1500 in chips) out of hand (moved from another table into small blind)
+Seat 5: higgolotron (1477 in chips) 
+Seat 7: nilisss17 (1497 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+damadamatai will be allowed to play after the button
+andrealvarenga6: posts the ante 3
+MA10K: posts the ante 3
+DiogoA2610: posts the ante 3
+higgolotron: posts the ante 3
+nilisss17: posts the ante 3
+scorza23: posts the ante 3
+higgolotron: posts small blind 10
+nilisss17: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 3h]
+scorza23: folds 
+andrealvarenga6: folds 
+MA10K: folds 
+DiogoA2610: raises 20 to 40
+higgolotron: folds 
+nilisss17: calls 20
+*** FLOP *** [Ah Kd 8h]
+nilisss17: checks 
+DiogoA2610: bets 41
+nilisss17: folds 
+Uncalled bet (41) returned to DiogoA2610
+DiogoA2610 collected 108 from pot
+DiogoA2610: doesn't show hand 
+*** SUMMARY ***
+Total pot 108 | Rake 0 
+Board [Ah Kd 8h]
+Seat 1: andrealvarenga6 folded before Flop (didn't bet)
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 (button) collected (108)
+Seat 5: higgolotron (small blind) folded before Flop
+Seat 7: nilisss17 (big blind) folded on the Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360204065: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:12:21 BRT [2026/04/05 18:12:21 ET]
+Table '3989608128 2' 8-max Seat #5 is the button
+Seat 1: andrealvarenga6 (1405 in chips) 
+Seat 2: MA10K (1497 in chips) 
+Seat 3: DiogoA2610 (1709 in chips) 
+Seat 4: damadamatai (1500 in chips) 
+Seat 5: higgolotron (1464 in chips) 
+Seat 7: nilisss17 (1454 in chips) 
+Seat 8: scorza23 (1494 in chips) 
+andrealvarenga6: posts the ante 3
+MA10K: posts the ante 3
+DiogoA2610: posts the ante 3
+damadamatai: posts the ante 3
+higgolotron: posts the ante 3
+nilisss17: posts the ante 3
+scorza23: posts the ante 3
+nilisss17: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Kc]
+pulipo1957 is disconnected 
+andrealvarenga6 has timed out
+andrealvarenga6: folds 
+andrealvarenga6 is sitting out
+MA10K: folds 
+DiogoA2610: raises 20 to 40
+andrealvarenga6 is disconnected 
+damadamatai: calls 40
+higgolotron: folds 
+nilisss17: folds 
+scorza23: raises 80 to 120
+DiogoA2610: folds 
+damadamatai: calls 80
+*** FLOP *** [5d 8s Ks]
+scorza23: bets 120
+damadamatai: calls 120
+*** TURN *** [5d 8s Ks] [Td]
+scorza23: bets 276
+damadamatai: calls 276
+*** RIVER *** [5d 8s Ks Td] [Jc]
+scorza23: bets 552
+damadamatai: folds 
+Uncalled bet (552) returned to scorza23
+scorza23 collected 1103 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1103 | Rake 0 
+Board [5d 8s Ks Td Jc]
+Seat 1: andrealvarenga6 folded before Flop (didn't bet)
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 folded before Flop
+Seat 4: damadamatai folded on the River
+Seat 5: higgolotron (button) folded before Flop (didn't bet)
+Seat 7: nilisss17 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (1103)
+
+
+
+PokerStars Hand #260360226274: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:13:51 BRT [2026/04/05 18:13:51 ET]
+Table '3989608128 2' 8-max Seat #7 is the button
+Seat 1: andrealvarenga6 (1402 in chips) is sitting out
+Seat 2: MA10K (1494 in chips) 
+Seat 3: DiogoA2610 (1666 in chips) 
+Seat 4: damadamatai (981 in chips) 
+Seat 5: higgolotron (1461 in chips) 
+Seat 6: pulipo1957 (1500 in chips) 
+Seat 7: nilisss17 (1441 in chips) 
+Seat 8: scorza23 (2078 in chips) 
+andrealvarenga6: posts the ante 3
+MA10K: posts the ante 3
+DiogoA2610: posts the ante 3
+damadamatai: posts the ante 3
+higgolotron: posts the ante 3
+pulipo1957: posts the ante 3
+nilisss17: posts the ante 3
+scorza23: posts the ante 3
+scorza23: posts small blind 10
+andrealvarenga6: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9h]
+MA10K: raises 24 to 44
+DiogoA2610: folds 
+damadamatai: raises 24 to 68
+higgolotron: folds 
+pulipo1957: folds 
+nilisss17: folds 
+scorza23: folds 
+andrealvarenga6: folds 
+MA10K: raises 132 to 200
+damadamatai: calls 132
+*** FLOP *** [Th Td Kd]
+MA10K: checks 
+damadamatai: bets 227
+MA10K: calls 227
+*** TURN *** [Th Td Kd] [Ts]
+MA10K: checks 
+damadamatai: checks 
+*** RIVER *** [Th Td Kd Ts] [9c]
+MA10K: checks 
+damadamatai: bets 551 and is all-in
+andrealvarenga6 is disconnected 
+andrealvarenga6 has returned
+MA10K: calls 551
+*** SHOW DOWN ***
+damadamatai: shows [Kh 5d] (a full house, Tens full of Kings)
+MA10K: shows [Qh Qd] (a full house, Tens full of Queens)
+damadamatai collected 2010 from pot
+*** SUMMARY ***
+Total pot 2010 | Rake 0 
+Board [Th Td Kd Ts 9c]
+Seat 1: andrealvarenga6 (big blind) folded before Flop
+Seat 2: MA10K showed [Qh Qd] and lost with a full house, Tens full of Queens
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai showed [Kh 5d] and won (2010) with a full house, Tens full of Kings
+Seat 5: higgolotron folded before Flop (didn't bet)
+Seat 6: pulipo1957 folded before Flop (didn't bet)
+Seat 7: nilisss17 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360242546: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:14:57 BRT [2026/04/05 18:14:57 ET]
+Table '3989608128 2' 8-max Seat #8 is the button
+Seat 1: andrealvarenga6 (1379 in chips) 
+Seat 2: MA10K (513 in chips) 
+Seat 3: DiogoA2610 (1663 in chips) 
+Seat 4: damadamatai (2010 in chips) 
+Seat 5: higgolotron (1458 in chips) 
+Seat 6: pulipo1957 (1497 in chips) 
+Seat 7: nilisss17 (1438 in chips) 
+Seat 8: scorza23 (2065 in chips) 
+andrealvarenga6: posts the ante 3
+MA10K: posts the ante 3
+DiogoA2610: posts the ante 3
+damadamatai: posts the ante 3
+higgolotron: posts the ante 3
+pulipo1957: posts the ante 3
+nilisss17: posts the ante 3
+scorza23: posts the ante 3
+andrealvarenga6: posts small blind 10
+MA10K: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Ac]
+DiogoA2610: folds 
+damadamatai: calls 20
+higgolotron: folds 
+pulipo1957: folds 
+nilisss17: folds 
+scorza23: raises 20 to 40
+andrealvarenga6: calls 30
+MA10K: folds 
+damadamatai: calls 20
+*** FLOP *** [9d 9s Jd]
+andrealvarenga6 has timed out
+andrealvarenga6: checks 
+damadamatai: checks 
+scorza23: bets 40
+andrealvarenga6: folds 
+damadamatai: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 164 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 164 | Rake 0 
+Board [9d 9s Jd]
+Seat 1: andrealvarenga6 (small blind) folded on the Flop
+Seat 2: MA10K (big blind) folded before Flop
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai folded on the Flop
+Seat 5: higgolotron folded before Flop (didn't bet)
+Seat 6: pulipo1957 folded before Flop (didn't bet)
+Seat 7: nilisss17 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (164)
+
+
+
+PokerStars Hand #260360258626: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:16:03 BRT [2026/04/05 18:16:03 ET]
+Table '3989608128 2' 8-max Seat #1 is the button
+Seat 1: andrealvarenga6 (1336 in chips) 
+Seat 2: MA10K (490 in chips) 
+Seat 3: DiogoA2610 (1660 in chips) 
+Seat 4: damadamatai (1967 in chips) 
+Seat 5: higgolotron (1455 in chips) 
+Seat 6: pulipo1957 (1494 in chips) 
+Seat 7: nilisss17 (1435 in chips) 
+Seat 8: scorza23 (2186 in chips) 
+andrealvarenga6: posts the ante 4
+MA10K: posts the ante 4
+DiogoA2610: posts the ante 4
+damadamatai: posts the ante 4
+higgolotron: posts the ante 4
+pulipo1957: posts the ante 4
+nilisss17: posts the ante 4
+scorza23: posts the ante 4
+MA10K: posts small blind 15
+DiogoA2610: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Kh]
+damadamatai: folds 
+higgolotron: folds 
+pulipo1957: folds 
+nilisss17: raises 30 to 60
+scorza23: folds 
+andrealvarenga6 has timed out
+andrealvarenga6: folds 
+andrealvarenga6 is sitting out
+MA10K: folds 
+andrealvarenga6 has returned
+damadamatai is disconnected 
+DiogoA2610: folds 
+Uncalled bet (30) returned to nilisss17
+nilisss17 collected 107 from pot
+nilisss17: doesn't show hand 
+*** SUMMARY ***
+Total pot 107 | Rake 0 
+Seat 1: andrealvarenga6 (button) folded before Flop (didn't bet)
+Seat 2: MA10K (small blind) folded before Flop
+Seat 3: DiogoA2610 (big blind) folded before Flop
+Seat 4: damadamatai folded before Flop (didn't bet)
+Seat 5: higgolotron folded before Flop (didn't bet)
+Seat 6: pulipo1957 folded before Flop (didn't bet)
+Seat 7: nilisss17 collected (107)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360272091: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:16:58 BRT [2026/04/05 18:16:58 ET]
+Table '3989608128 2' 8-max Seat #2 is the button
+Seat 1: andrealvarenga6 (1332 in chips) 
+Seat 2: MA10K (471 in chips) 
+Seat 3: DiogoA2610 (1626 in chips) 
+Seat 4: damadamatai (1963 in chips) 
+Seat 6: pulipo1957 (1490 in chips) 
+Seat 7: nilisss17 (1508 in chips) 
+Seat 8: scorza23 (2182 in chips) 
+andrealvarenga6: posts the ante 4
+MA10K: posts the ante 4
+DiogoA2610: posts the ante 4
+damadamatai: posts the ante 4
+pulipo1957: posts the ante 4
+nilisss17: posts the ante 4
+scorza23: posts the ante 4
+DiogoA2610: posts small blind 15
+damadamatai: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4c]
+pulipo1957: raises 103 to 133
+nilisss17: folds 
+scorza23: folds 
+damadamatai is disconnected 
+andrealvarenga6 has timed out
+andrealvarenga6: folds 
+andrealvarenga6 is sitting out
+MA10K: folds 
+DiogoA2610: folds 
+andrealvarenga6 has returned
+damadamatai: folds 
+Uncalled bet (103) returned to pulipo1957
+pulipo1957 collected 103 from pot
+pulipo1957: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: andrealvarenga6 folded before Flop (didn't bet)
+Seat 2: MA10K (button) folded before Flop (didn't bet)
+Seat 3: DiogoA2610 (small blind) folded before Flop
+Seat 4: damadamatai (big blind) folded before Flop
+Seat 6: pulipo1957 collected (103)
+Seat 7: nilisss17 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360281614: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:17:37 BRT [2026/04/05 18:17:37 ET]
+Table '3989608128 2' 8-max Seat #3 is the button
+Seat 1: andrealvarenga6 (1328 in chips) 
+Seat 2: MA10K (467 in chips) 
+Seat 3: DiogoA2610 (1607 in chips) 
+Seat 4: damadamatai (1929 in chips) 
+Seat 6: pulipo1957 (1559 in chips) 
+Seat 7: nilisss17 (1504 in chips) 
+Seat 8: scorza23 (2178 in chips) 
+andrealvarenga6: posts the ante 4
+MA10K: posts the ante 4
+DiogoA2610: posts the ante 4
+damadamatai: posts the ante 4
+pulipo1957: posts the ante 4
+nilisss17: posts the ante 4
+scorza23: posts the ante 4
+damadamatai: posts small blind 15
+pulipo1957: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 8s]
+nilisss17: folds 
+scorza23: folds 
+andrealvarenga6 has timed out
+andrealvarenga6: folds 
+andrealvarenga6 is sitting out
+MA10K: folds 
+DiogoA2610: raises 30 to 60
+damadamatai: calls 45
+pulipo1957: calls 30
+*** FLOP *** [4s Kd 9d]
+damadamatai: bets 74
+andrealvarenga6 is disconnected 
+pulipo1957: folds 
+DiogoA2610: raises 74 to 148
+damadamatai is disconnected 
+damadamatai is connected 
+damadamatai: calls 74
+*** TURN *** [4s Kd 9d] [5d]
+damadamatai: checks 
+DiogoA2610: checks 
+*** RIVER *** [4s Kd 9d 5d] [As]
+damadamatai: bets 162
+DiogoA2610: raises 162 to 324
+damadamatai: folds 
+Uncalled bet (162) returned to DiogoA2610
+DiogoA2610 collected 828 from pot
+DiogoA2610: doesn't show hand 
+andrealvarenga6 is disconnected 
+*** SUMMARY ***
+Total pot 828 | Rake 0 
+Board [4s Kd 9d 5d As]
+Seat 1: andrealvarenga6 folded before Flop (didn't bet)
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 (button) collected (828)
+Seat 4: damadamatai (small blind) folded on the River
+Seat 6: pulipo1957 (big blind) folded on the Flop
+Seat 7: nilisss17 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360312208: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:19:44 BRT [2026/04/05 18:19:44 ET]
+Table '3989608128 2' 8-max Seat #4 is the button
+Seat 1: andrealvarenga6 (1324 in chips) is sitting out
+Seat 2: MA10K (463 in chips) 
+Seat 3: DiogoA2610 (2061 in chips) 
+Seat 4: damadamatai (1555 in chips) 
+Seat 6: pulipo1957 (1495 in chips) 
+Seat 7: nilisss17 (1500 in chips) 
+Seat 8: scorza23 (2174 in chips) 
+andrealvarenga6: posts the ante 4
+MA10K: posts the ante 4
+DiogoA2610: posts the ante 4
+damadamatai: posts the ante 4
+pulipo1957: posts the ante 4
+nilisss17: posts the ante 4
+scorza23: posts the ante 4
+pulipo1957: posts small blind 15
+nilisss17: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 5d]
+andrealvarenga6 has returned
+scorza23: folds 
+andrealvarenga6: folds 
+MA10K: folds 
+DiogoA2610: folds 
+damadamatai: calls 30
+pulipo1957: calls 15
+nilisss17: checks 
+*** FLOP *** [8c As 2c]
+pulipo1957: checks 
+nilisss17: checks 
+damadamatai: bets 59
+pulipo1957: folds 
+nilisss17: folds 
+Uncalled bet (59) returned to damadamatai
+damadamatai collected 118 from pot
+*** SUMMARY ***
+Total pot 118 | Rake 0 
+Board [8c As 2c]
+Seat 1: andrealvarenga6 folded before Flop (didn't bet)
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai (button) collected (118)
+Seat 6: pulipo1957 (small blind) folded on the Flop
+Seat 7: nilisss17 (big blind) folded on the Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360323843: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:20:32 BRT [2026/04/05 18:20:32 ET]
+Table '3989608128 2' 8-max Seat #6 is the button
+Seat 1: andrealvarenga6 (1320 in chips) 
+Seat 2: MA10K (459 in chips) 
+Seat 3: DiogoA2610 (2057 in chips) 
+Seat 4: damadamatai (1639 in chips) 
+Seat 6: pulipo1957 (1461 in chips) 
+Seat 7: nilisss17 (1466 in chips) 
+Seat 8: scorza23 (2170 in chips) 
+andrealvarenga6: posts the ante 4
+MA10K: posts the ante 4
+DiogoA2610: posts the ante 4
+damadamatai: posts the ante 4
+pulipo1957: posts the ante 4
+nilisss17: posts the ante 4
+scorza23: posts the ante 4
+nilisss17: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 8d]
+andrealvarenga6 has timed out
+andrealvarenga6: folds 
+andrealvarenga6 is sitting out
+MA10K: folds 
+DiogoA2610: folds 
+damadamatai: raises 30 to 60
+pulipo1957: raises 193 to 253
+nilisss17: folds 
+scorza23: folds 
+damadamatai: calls 193
+*** FLOP *** [2d Qc 6c]
+andrealvarenga6 has returned
+damadamatai: checks 
+pulipo1957: bets 579
+damadamatai: folds 
+Uncalled bet (579) returned to pulipo1957
+pulipo1957 collected 579 from pot
+pulipo1957: doesn't show hand 
+*** SUMMARY ***
+Total pot 579 | Rake 0 
+Board [2d Qc 6c]
+Seat 1: andrealvarenga6 folded before Flop (didn't bet)
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai folded on the Flop
+Seat 6: pulipo1957 (button) collected (579)
+Seat 7: nilisss17 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260360341021: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:21:44 BRT [2026/04/05 18:21:44 ET]
+Table '3989608128 2' 8-max Seat #7 is the button
+Seat 1: andrealvarenga6 (1316 in chips) 
+Seat 2: MA10K (455 in chips) 
+Seat 3: DiogoA2610 (2053 in chips) 
+Seat 4: damadamatai (1382 in chips) 
+Seat 6: pulipo1957 (1783 in chips) 
+Seat 7: nilisss17 (1447 in chips) 
+Seat 8: scorza23 (2136 in chips) 
+andrealvarenga6: posts the ante 6
+MA10K: posts the ante 6
+DiogoA2610: posts the ante 6
+damadamatai: posts the ante 6
+pulipo1957: posts the ante 6
+nilisss17: posts the ante 6
+scorza23: posts the ante 6
+scorza23: posts small blind 25
+andrealvarenga6: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Ad]
+MA10K: folds 
+DiogoA2610: folds 
+damadamatai: folds 
+pulipo1957: folds 
+nilisss17: raises 50 to 100
+scorza23: raises 150 to 250
+andrealvarenga6: folds 
+nilisss17: calls 150
+*** FLOP *** [2s 3d 5c]
+scorza23: bets 200
+nilisss17: raises 496 to 696
+scorza23: folds 
+Uncalled bet (496) returned to nilisss17
+nilisss17 collected 992 from pot
+nilisss17: doesn't show hand 
+*** SUMMARY ***
+Total pot 992 | Rake 0 
+Board [2s 3d 5c]
+Seat 1: andrealvarenga6 (big blind) folded before Flop
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai folded before Flop (didn't bet)
+Seat 6: pulipo1957 folded before Flop (didn't bet)
+Seat 7: nilisss17 (button) collected (992)
+Seat 8: scorza23 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260360351490: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:22:28 BRT [2026/04/05 18:22:28 ET]
+Table '3989608128 2' 8-max Seat #8 is the button
+Seat 1: andrealvarenga6 (1260 in chips) 
+Seat 2: MA10K (449 in chips) 
+Seat 3: DiogoA2610 (2047 in chips) 
+Seat 4: damadamatai (1376 in chips) 
+Seat 6: pulipo1957 (1777 in chips) 
+Seat 7: nilisss17 (1983 in chips) 
+Seat 8: scorza23 (1680 in chips) 
+andrealvarenga6: posts the ante 6
+MA10K: posts the ante 6
+DiogoA2610: posts the ante 6
+damadamatai: posts the ante 6
+pulipo1957: posts the ante 6
+nilisss17: posts the ante 6
+scorza23: posts the ante 6
+andrealvarenga6: posts small blind 25
+MA10K: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Jd]
+DiogoA2610: folds 
+damadamatai: raises 50 to 100
+pulipo1957: folds 
+nilisss17: folds 
+scorza23: folds 
+andrealvarenga6: calls 75
+MA10K: calls 50
+*** FLOP *** [5h 2s Ac]
+andrealvarenga6: checks 
+MA10K: checks 
+damadamatai: bets 171
+andrealvarenga6: calls 171
+MA10K: folds 
+*** TURN *** [5h 2s Ac] [Qc]
+andrealvarenga6: checks 
+damadamatai: checks 
+*** RIVER *** [5h 2s Ac Qc] [Td]
+andrealvarenga6: bets 983 and is all-in
+damadamatai: calls 983
+*** SHOW DOWN ***
+andrealvarenga6: shows [5c 2c] (two pair, Fives and Deuces)
+damadamatai: shows [Kd Js] (a straight, Ten to Ace)
+damadamatai collected 2650 from pot
+andrealvarenga6 finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 2650 | Rake 0 
+Board [5h 2s Ac Qc Td]
+Seat 1: andrealvarenga6 (small blind) showed [5c 2c] and lost with two pair, Fives and Deuces
+Seat 2: MA10K (big blind) folded on the Flop
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai showed [Kd Js] and won (2650) with a straight, Ten to Ace
+Seat 6: pulipo1957 folded before Flop (didn't bet)
+Seat 7: nilisss17 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360363016: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:23:16 BRT [2026/04/05 18:23:16 ET]
+Table '3989608128 2' 8-max Seat #2 is the button
+Seat 2: MA10K (343 in chips) 
+Seat 3: DiogoA2610 (2041 in chips) 
+Seat 4: damadamatai (2766 in chips) 
+Seat 6: pulipo1957 (1771 in chips) 
+Seat 7: nilisss17 (1977 in chips) 
+Seat 8: scorza23 (1674 in chips) 
+MA10K: posts the ante 6
+DiogoA2610: posts the ante 6
+damadamatai: posts the ante 6
+pulipo1957: posts the ante 6
+nilisss17: posts the ante 6
+scorza23: posts the ante 6
+DiogoA2610: posts small blind 25
+damadamatai: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6d]
+pulipo1957: folds 
+nilisss17: folds 
+scorza23: folds 
+MA10K: raises 287 to 337 and is all-in
+DiogoA2610: folds 
+damadamatai: folds 
+Uncalled bet (287) returned to MA10K
+MA10K collected 161 from pot
+MA10K: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Seat 2: MA10K (button) collected (161)
+Seat 3: DiogoA2610 (small blind) folded before Flop
+Seat 4: damadamatai (big blind) folded before Flop
+Seat 6: pulipo1957 folded before Flop (didn't bet)
+Seat 7: nilisss17 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360369785: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:23:45 BRT [2026/04/05 18:23:45 ET]
+Table '3989608128 2' 8-max Seat #3 is the button
+Seat 2: MA10K (448 in chips) 
+Seat 3: DiogoA2610 (2010 in chips) 
+Seat 4: damadamatai (2710 in chips) 
+Seat 6: pulipo1957 (1765 in chips) 
+Seat 7: nilisss17 (1971 in chips) 
+Seat 8: scorza23 (1668 in chips) 
+MA10K: posts the ante 6
+DiogoA2610: posts the ante 6
+damadamatai: posts the ante 6
+pulipo1957: posts the ante 6
+nilisss17: posts the ante 6
+scorza23: posts the ante 6
+damadamatai: posts small blind 25
+pulipo1957: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Kh]
+nilisss17: raises 50 to 100
+scorza23: raises 200 to 300
+MA10K: folds 
+DiogoA2610: folds 
+damadamatai: folds 
+pulipo1957: folds 
+nilisss17: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 311 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 311 | Rake 0 
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 (button) folded before Flop (didn't bet)
+Seat 4: damadamatai (small blind) folded before Flop
+Seat 6: pulipo1957 (big blind) folded before Flop
+Seat 7: nilisss17 folded before Flop
+Seat 8: scorza23 collected (311)
+
+
+
+PokerStars Hand #260360374924: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:24:06 BRT [2026/04/05 18:24:06 ET]
+Table '3989608128 2' 8-max Seat #4 is the button
+Seat 2: MA10K (442 in chips) 
+Seat 3: DiogoA2610 (2004 in chips) 
+Seat 4: damadamatai (2679 in chips) 
+Seat 6: pulipo1957 (1709 in chips) 
+Seat 7: nilisss17 (1865 in chips) 
+Seat 8: scorza23 (1873 in chips) 
+MA10K: posts the ante 6
+DiogoA2610: posts the ante 6
+damadamatai: posts the ante 6
+pulipo1957: posts the ante 6
+nilisss17: posts the ante 6
+scorza23: posts the ante 6
+pulipo1957: posts small blind 25
+nilisss17: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 2d]
+scorza23: folds 
+MA10K: folds 
+DiogoA2610: folds 
+damadamatai: raises 100 to 150
+pulipo1957: folds 
+nilisss17: calls 100
+*** FLOP *** [5s 4s 3d]
+nilisss17: checks 
+damadamatai: bets 181
+nilisss17: calls 181
+*** TURN *** [5s 4s 3d] [6c]
+nilisss17: checks 
+damadamatai: checks 
+*** RIVER *** [5s 4s 3d 6c] [Jh]
+nilisss17: bets 362
+damadamatai: folds 
+Uncalled bet (362) returned to nilisss17
+nilisss17 collected 723 from pot
+nilisss17: doesn't show hand 
+*** SUMMARY ***
+Total pot 723 | Rake 0 
+Board [5s 4s 3d 6c Jh]
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai (button) folded on the River
+Seat 6: pulipo1957 (small blind) folded before Flop
+Seat 7: nilisss17 (big blind) collected (723)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360384286: Tournament #3989608128, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:24:46 BRT [2026/04/05 18:24:46 ET]
+Table '3989608128 2' 8-max Seat #6 is the button
+Seat 2: MA10K (436 in chips) 
+Seat 3: DiogoA2610 (1998 in chips) 
+Seat 4: damadamatai (2342 in chips) 
+Seat 6: pulipo1957 (1678 in chips) 
+Seat 7: nilisss17 (2251 in chips) 
+Seat 8: scorza23 (1867 in chips) 
+MA10K: posts the ante 6
+DiogoA2610: posts the ante 6
+damadamatai: posts the ante 6
+pulipo1957: posts the ante 6
+nilisss17: posts the ante 6
+scorza23: posts the ante 6
+nilisss17: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Jc]
+MA10K: folds 
+DiogoA2610: folds 
+damadamatai: raises 50 to 100
+pulipo1957: folds 
+nilisss17: calls 75
+scorza23: calls 50
+*** FLOP *** [6h Qd 2d]
+nilisss17: checks 
+scorza23: bets 150
+damadamatai: raises 250 to 400
+tiki1973 is disconnected 
+nilisss17: folds 
+Square29 is disconnected 
+scorza23: raises 1136 to 1536
+damadamatai: raises 700 to 2236 and is all-in
+scorza23: calls 225 and is all-in
+Uncalled bet (475) returned to damadamatai
+*** TURN *** [6h Qd 2d] [7c]
+*** RIVER *** [6h Qd 2d 7c] [As]
+*** SHOW DOWN ***
+scorza23: shows [Js Jc] (a pair of Jacks)
+damadamatai: shows [9c Qc] (a pair of Queens)
+damadamatai collected 3858 from pot
+scorza23 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 3858 | Rake 0 
+Board [6h Qd 2d 7c As]
+Seat 2: MA10K folded before Flop (didn't bet)
+Seat 3: DiogoA2610 folded before Flop (didn't bet)
+Seat 4: damadamatai showed [9c Qc] and won (3858) with a pair of Queens
+Seat 6: pulipo1957 (button) folded before Flop (didn't bet)
+Seat 7: nilisss17 (small blind) folded on the Flop
+Seat 8: scorza23 (big blind) showed [Js Jc] and lost with a pair of Jacks
+
+
+

@@ -1,0 +1,4505 @@
+﻿PokerStars Hand #260344924379: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:11:37 UTC [2026/04/04 15:11:37 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: ratrix2009 (1500 in chips) 
+Seat 3: DaVUT8 (1500 in chips) 
+Seat 4: madebywho (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: MinimalFunkd (1500 in chips) 
+Seat 7: Lucas.Miranda77 (1500 in chips) 
+Seat 8: thha001 (1500 in chips) 
+ratrix2009: posts the ante 3
+DaVUT8: posts the ante 3
+madebywho: posts the ante 3
+scorza23: posts the ante 3
+MinimalFunkd: posts the ante 3
+Lucas.Miranda77: posts the ante 3
+thha001: posts the ante 3
+DaVUT8: posts small blind 10
+madebywho: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 5s]
+scorza23: folds 
+MinimalFunkd: folds 
+Lucas.Miranda77: raises 20 to 40
+thha001: raises 20 to 60
+ratrix2009: folds 
+DaVUT8: calls 50
+madebywho: folds 
+Lucas.Miranda77: calls 20
+*** FLOP *** [9d Ks Jd]
+DaVUT8: checks 
+Lucas.Miranda77: bets 66
+thha001: raises 177 to 243
+DaVUT8: folds 
+KnoxvilleGirl is disconnected 
+Lucas.Miranda77: calls 177
+*** TURN *** [9d Ks Jd] [7c]
+Lucas.Miranda77: checks 
+thha001: bets 1194 and is all-in
+Lucas.Miranda77: calls 1194 and is all-in
+*** RIVER *** [9d Ks Jd 7c] [8h]
+*** SHOW DOWN ***
+Lucas.Miranda77: shows [9s Kc] (two pair, Kings and Nines)
+thha001: shows [Th Qd] (a straight, Nine to King)
+thha001 collected 3095 from pot
+Lucas.Miranda77 finished the tournament
+*** SUMMARY ***
+Total pot 3095 | Rake 0 
+Board [9d Ks Jd 7c 8h]
+Seat 2: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 3: DaVUT8 (small blind) folded on the Flop
+Seat 4: madebywho (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: MinimalFunkd folded before Flop (didn't bet)
+Seat 7: Lucas.Miranda77 showed [9s Kc] and lost with two pair, Kings and Nines
+Seat 8: thha001 showed [Th Qd] and won (3095) with a straight, Nine to King
+
+
+
+PokerStars Hand #260344940898: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:12:50 UTC [2026/04/04 15:12:50 ET]
+Table '3989277405 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (1497 in chips) 
+Seat 2: Djhony18 (1500 in chips) 
+Seat 3: atlantisps (1685 in chips) 
+Seat 4: nikos195586 (1500 in chips) 
+scorza23: posts the ante 3
+Djhony18: posts the ante 3
+atlantisps: posts the ante 3
+nikos195586: posts the ante 3
+Djhony18: posts small blind 10
+atlantisps: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Js]
+atlantisps is disconnected 
+nikos195586: calls 20
+scorza23: calls 20
+Djhony18: calls 10
+atlantisps: checks 
+*** FLOP *** [7h 5c Jc]
+Djhony18: checks 
+atlantisps: checks 
+nikos195586: checks 
+scorza23: bets 40
+Djhony18: folds 
+atlantisps: folds 
+nikos195586: calls 40
+*** TURN *** [7h 5c Jc] [4c]
+nikos195586: checks 
+scorza23: bets 40
+nikos195586: calls 40
+*** RIVER *** [7h 5c Jc 4c] [6s]
+nikos195586: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+nikos195586: shows [9d 9h] (a pair of Nines)
+scorza23: shows [Ac Js] (a pair of Jacks)
+scorza23 collected 252 from pot
+*** SUMMARY ***
+Total pot 252 | Rake 0 
+Board [7h 5c Jc 4c 6s]
+Seat 1: scorza23 (button) showed [Ac Js] and won (252) with a pair of Jacks
+Seat 2: Djhony18 (small blind) folded on the Flop
+Seat 3: atlantisps (big blind) folded on the Flop
+Seat 4: nikos195586 showed [9d 9h] and lost with a pair of Nines
+
+
+
+PokerStars Hand #260344956796: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:14:00 UTC [2026/04/04 15:14:00 ET]
+Table '3989277405 4' 8-max Seat #2 is the button
+Seat 1: scorza23 (1646 in chips) 
+Seat 2: Djhony18 (1477 in chips) 
+Seat 3: atlantisps (1662 in chips) 
+Seat 4: nikos195586 (1397 in chips) 
+Seat 5: Brunogarcao (1558 in chips) 
+Seat 6: batat6 (1500 in chips) 
+Seat 7: costantin544 (1500 in chips) 
+scorza23: posts the ante 3
+Djhony18: posts the ante 3
+atlantisps: posts the ante 3
+nikos195586: posts the ante 3
+Brunogarcao: posts the ante 3
+batat6: posts the ante 3
+costantin544: posts the ante 3
+atlantisps: posts small blind 10
+nikos195586: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Qc]
+costantin544 is disconnected 
+Brunogarcao: calls 20
+batat6 is connected 
+batat6 is disconnected 
+batat6 is connected 
+batat6 has timed out
+batat6: folds 
+batat6 is sitting out
+costantin544: folds 
+scorza23: raises 20 to 40
+batat6 has returned
+Djhony18: folds 
+atlantisps: folds 
+nikos195586: calls 20
+Brunogarcao: raises 40 to 80
+scorza23: calls 40
+nikos195586: calls 40
+*** FLOP *** [3c Kc 5d]
+nikos195586: checks 
+Brunogarcao: bets 60
+scorza23: raises 60 to 120
+nikos195586: folds 
+Brunogarcao: raises 120 to 240
+scorza23: raises 1323 to 1563 and is all-in
+Brunogarcao: calls 1235 and is all-in
+Uncalled bet (88) returned to scorza23
+*** TURN *** [3c Kc 5d] [Jh]
+*** RIVER *** [3c Kc 5d Jh] [7c]
+*** SHOW DOWN ***
+Brunogarcao: shows [Ad 6s] (high card Ace)
+scorza23: shows [Qd Qc] (a pair of Queens)
+scorza23 collected 3221 from pot
+Brunogarcao finished the tournament in 31st place
+*** SUMMARY ***
+Total pot 3221 | Rake 0 
+Board [3c Kc 5d Jh 7c]
+Seat 1: scorza23 showed [Qd Qc] and won (3221) with a pair of Queens
+Seat 2: Djhony18 (button) folded before Flop (didn't bet)
+Seat 3: atlantisps (small blind) folded before Flop
+Seat 4: nikos195586 (big blind) folded on the Flop
+Seat 5: Brunogarcao showed [Ad 6s] and lost with high card Ace
+Seat 6: batat6 folded before Flop (didn't bet)
+Seat 7: costantin544 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344981418: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:15:48 UTC [2026/04/04 15:15:48 ET]
+Table '3989277405 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (3309 in chips) 
+Seat 2: Djhony18 (1474 in chips) 
+Seat 3: atlantisps (1649 in chips) 
+Seat 4: nikos195586 (1314 in chips) 
+Seat 6: batat6 (1497 in chips) 
+Seat 7: costantin544 (1497 in chips) 
+Seat 8: felipelomb (1500 in chips) 
+scorza23: posts the ante 3
+Djhony18: posts the ante 3
+atlantisps: posts the ante 3
+nikos195586: posts the ante 3
+batat6: posts the ante 3
+costantin544: posts the ante 3
+felipelomb: posts the ante 3
+nikos195586: posts small blind 10
+batat6: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 4s]
+costantin544: calls 20
+felipelomb has timed out
+felipelomb: folds 
+felipelomb is sitting out
+scorza23: folds 
+Djhony18: calls 20
+atlantisps: folds 
+nikos195586: calls 10
+batat6: checks 
+*** FLOP *** [3d 9h 9c]
+nikos195586: checks 
+batat6: bets 20
+costantin544: calls 20
+Djhony18: raises 53 to 73
+nikos195586: folds 
+batat6: folds 
+costantin544: folds 
+Uncalled bet (53) returned to Djhony18
+Djhony18 collected 161 from pot
+Djhony18: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Board [3d 9h 9c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: Djhony18 collected (161)
+Seat 3: atlantisps (button) folded before Flop (didn't bet)
+Seat 4: nikos195586 (small blind) folded on the Flop
+Seat 6: batat6 (big blind) folded on the Flop
+Seat 7: costantin544 folded on the Flop
+Seat 8: felipelomb folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345001077: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:17:15 UTC [2026/04/04 15:17:15 ET]
+Table '3989277405 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (3306 in chips) 
+Seat 2: Djhony18 (1592 in chips) 
+Seat 3: atlantisps (1646 in chips) 
+Seat 4: nikos195586 (1291 in chips) 
+Seat 6: batat6 (1454 in chips) 
+Seat 7: costantin544 (1454 in chips) 
+Seat 8: felipelomb (1497 in chips) is sitting out
+scorza23: posts the ante 4
+Djhony18: posts the ante 4
+atlantisps: posts the ante 4
+nikos195586: posts the ante 4
+batat6: posts the ante 4
+costantin544: posts the ante 4
+felipelomb: posts the ante 4
+batat6: posts small blind 15
+costantin544: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 2s]
+felipelomb: folds 
+scorza23: folds 
+Djhony18: raises 30 to 60
+atlantisps: folds 
+nikos195586: calls 60
+batat6: folds 
+costantin544: calls 30
+*** FLOP *** [3d Td 8d]
+costantin544: bets 60
+Djhony18: calls 60
+nikos195586: calls 60
+*** TURN *** [3d Td 8d] [3s]
+costantin544: bets 60
+Djhony18: raises 345 to 405
+nikos195586: folds 
+felipelomb has returned
+costantin544: calls 345
+*** RIVER *** [3d Td 8d 3s] [7s]
+costantin544: checks 
+Djhony18: bets 970
+costantin544: calls 925 and is all-in
+Uncalled bet (45) returned to Djhony18
+*** SHOW DOWN ***
+Djhony18: shows [9d Ad] (a flush, Ace high)
+costantin544: shows [Tc 7d] (two pair, Tens and Sevens)
+Djhony18 collected 3063 from pot
+costantin544 finished the tournament in 29th place
+*** SUMMARY ***
+Total pot 3063 | Rake 0 
+Board [3d Td 8d 3s 7s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: Djhony18 showed [9d Ad] and won (3063) with a flush, Ace high
+Seat 3: atlantisps folded before Flop (didn't bet)
+Seat 4: nikos195586 (button) folded on the Turn
+Seat 6: batat6 (small blind) folded before Flop
+Seat 7: costantin544 (big blind) showed [Tc 7d] and lost with two pair, Tens and Sevens
+Seat 8: felipelomb folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345017715: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:18:29 UTC [2026/04/04 15:18:29 ET]
+Table '3989277405 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (3302 in chips) 
+Seat 2: Djhony18 (3201 in chips) 
+Seat 3: atlantisps (1642 in chips) 
+Seat 4: nikos195586 (1167 in chips) 
+Seat 6: batat6 (1435 in chips) 
+Seat 8: felipelomb (1493 in chips) 
+scorza23: posts the ante 4
+Djhony18: posts the ante 4
+atlantisps: posts the ante 4
+nikos195586: posts the ante 4
+batat6: posts the ante 4
+felipelomb: posts the ante 4
+felipelomb: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Th]
+Djhony18: folds 
+atlantisps: raises 36 to 66
+nikos195586: calls 66
+batat6: calls 66
+felipelomb has timed out
+felipelomb: folds 
+felipelomb is sitting out
+scorza23: calls 36
+*** FLOP *** [3s 2h Ks]
+scorza23: checks 
+atlantisps: bets 91
+nikos195586: folds 
+batat6: folds 
+scorza23: folds 
+Uncalled bet (91) returned to atlantisps
+atlantisps collected 303 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 303 | Rake 0 
+Board [3s 2h Ks]
+Seat 1: scorza23 (big blind) folded on the Flop
+Seat 2: Djhony18 folded before Flop (didn't bet)
+Seat 3: atlantisps collected (303)
+Seat 4: nikos195586 folded on the Flop
+Seat 6: batat6 (button) folded on the Flop
+Seat 8: felipelomb (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345032274: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:19:33 UTC [2026/04/04 15:19:33 ET]
+Table '3989277405 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (3232 in chips) 
+Seat 2: Djhony18 (3197 in chips) 
+Seat 3: atlantisps (1875 in chips) 
+Seat 4: nikos195586 (1097 in chips) 
+Seat 6: batat6 (1365 in chips) 
+Seat 8: felipelomb (1474 in chips) is sitting out
+scorza23: posts the ante 4
+Djhony18: posts the ante 4
+atlantisps: posts the ante 4
+nikos195586: posts the ante 4
+batat6: posts the ante 4
+felipelomb: posts the ante 4
+scorza23: posts small blind 15
+Djhony18: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 7d]
+atlantisps: folds 
+nikos195586: calls 30
+batat6: calls 30
+felipelomb: folds 
+scorza23: folds 
+felipelomb has returned
+Djhony18: checks 
+*** FLOP *** [Ts 8c 3h]
+Djhony18: checks 
+nikos195586: checks 
+batat6: bets 30
+Djhony18: calls 30
+nikos195586: calls 30
+*** TURN *** [Ts 8c 3h] [5s]
+Djhony18: checks 
+nikos195586: checks 
+batat6: bets 219
+Djhony18: folds 
+nikos195586: folds 
+Uncalled bet (219) returned to batat6
+batat6 collected 219 from pot
+batat6: doesn't show hand 
+*** SUMMARY ***
+Total pot 219 | Rake 0 
+Board [Ts 8c 3h 5s]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: Djhony18 (big blind) folded on the Turn
+Seat 3: atlantisps folded before Flop (didn't bet)
+Seat 4: nikos195586 folded on the Turn
+Seat 6: batat6 collected (219)
+Seat 8: felipelomb (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345042194: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:20:17 UTC [2026/04/04 15:20:17 ET]
+Table '3989277405 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (3213 in chips) 
+Seat 2: Djhony18 (3133 in chips) 
+Seat 3: atlantisps (1871 in chips) 
+Seat 4: nikos195586 (1033 in chips) 
+Seat 6: batat6 (1520 in chips) 
+Seat 8: felipelomb (1470 in chips) 
+scorza23: posts the ante 4
+Djhony18: posts the ante 4
+atlantisps: posts the ante 4
+nikos195586: posts the ante 4
+batat6: posts the ante 4
+felipelomb: posts the ante 4
+Djhony18: posts small blind 15
+atlantisps: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 2c]
+nikos195586: calls 30
+batat6: folds 
+felipelomb: raises 90 to 120
+scorza23: folds 
+Djhony18: folds 
+atlantisps: folds 
+nikos195586: calls 90
+*** FLOP *** [4h Kd Ac]
+nikos195586: checks 
+felipelomb: checks 
+*** TURN *** [4h Kd Ac] [8d]
+nikos195586: bets 30
+felipelomb: calls 30
+*** RIVER *** [4h Kd Ac 8d] [5d]
+nikos195586: bets 60
+felipelomb: raises 60 to 120
+nikos195586: calls 60
+*** SHOW DOWN ***
+felipelomb: shows [3d 9d] (a flush, King high)
+nikos195586: mucks hand 
+felipelomb collected 609 from pot
+*** SUMMARY ***
+Total pot 609 | Rake 0 
+Board [4h Kd Ac 8d 5d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: Djhony18 (small blind) folded before Flop
+Seat 3: atlantisps (big blind) folded before Flop
+Seat 4: nikos195586 mucked [Jh Kh]
+Seat 6: batat6 folded before Flop (didn't bet)
+Seat 8: felipelomb showed [3d 9d] and won (609) with a flush, King high
+
+
+
+PokerStars Hand #260345055860: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:21:19 UTC [2026/04/04 15:21:19 ET]
+Table '3989277405 4' 8-max Seat #2 is the button
+Seat 1: scorza23 (3209 in chips) 
+Seat 2: Djhony18 (3114 in chips) 
+Seat 3: atlantisps (1837 in chips) 
+Seat 4: nikos195586 (759 in chips) 
+Seat 6: batat6 (1516 in chips) 
+Seat 8: felipelomb (1805 in chips) 
+scorza23: posts the ante 4
+Djhony18: posts the ante 4
+atlantisps: posts the ante 4
+nikos195586: posts the ante 4
+batat6: posts the ante 4
+felipelomb: posts the ante 4
+atlantisps: posts small blind 15
+nikos195586: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 5d]
+batat6 has timed out
+batat6: folds 
+batat6 is sitting out
+felipelomb: calls 30
+scorza23: folds 
+Djhony18: raises 90 to 120
+atlantisps: folds 
+nikos195586: calls 90
+felipelomb: calls 90
+*** FLOP *** [8s 5h 7d]
+nikos195586: checks 
+felipelomb: bets 30
+Djhony18: calls 30
+nikos195586: calls 30
+*** TURN *** [8s 5h 7d] [4d]
+nikos195586: checks 
+felipelomb: bets 150
+Djhony18: folds 
+nikos195586: folds 
+Uncalled bet (150) returned to felipelomb
+felipelomb collected 489 from pot
+*** SUMMARY ***
+Total pot 489 | Rake 0 
+Board [8s 5h 7d 4d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: Djhony18 (button) folded on the Turn
+Seat 3: atlantisps (small blind) folded before Flop
+Seat 4: nikos195586 (big blind) folded on the Turn
+Seat 6: batat6 folded before Flop (didn't bet)
+Seat 8: felipelomb collected (489)
+
+
+
+PokerStars Hand #260345070849: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:22:26 UTC [2026/04/04 15:22:26 ET]
+Table '3989277405 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (3205 in chips) 
+Seat 2: Djhony18 (2960 in chips) 
+Seat 3: atlantisps (1818 in chips) 
+Seat 4: nikos195586 (605 in chips) 
+Seat 6: batat6 (1512 in chips) is sitting out
+Seat 8: felipelomb (2140 in chips) 
+scorza23: posts the ante 6
+Djhony18: posts the ante 6
+atlantisps: posts the ante 6
+nikos195586: posts the ante 6
+batat6: posts the ante 6
+felipelomb: posts the ante 6
+nikos195586: posts small blind 25
+batat6: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 2c]
+felipelomb: folds 
+scorza23: folds 
+Djhony18: folds 
+atlantisps: raises 1762 to 1812 and is all-in
+nikos195586: folds 
+batat6: folds 
+Uncalled bet (1762) returned to atlantisps
+atlantisps collected 161 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: Djhony18 folded before Flop (didn't bet)
+Seat 3: atlantisps (button) collected (161)
+Seat 4: nikos195586 (small blind) folded before Flop
+Seat 6: batat6 (big blind) folded before Flop
+Seat 8: felipelomb folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345074241: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:22:42 UTC [2026/04/04 15:22:42 ET]
+Table '3989277405 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (3199 in chips) 
+Seat 2: Djhony18 (2954 in chips) 
+Seat 3: atlantisps (1923 in chips) 
+Seat 4: nikos195586 (574 in chips) 
+Seat 6: batat6 (1456 in chips) is sitting out
+Seat 8: felipelomb (2134 in chips) 
+scorza23: posts the ante 6
+Djhony18: posts the ante 6
+atlantisps: posts the ante 6
+nikos195586: posts the ante 6
+batat6: posts the ante 6
+felipelomb: posts the ante 6
+batat6: posts small blind 25
+felipelomb: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 6c]
+scorza23: folds 
+Djhony18: raises 50 to 100
+atlantisps: folds 
+nikos195586: calls 100
+batat6: folds 
+felipelomb: raises 150 to 250
+Djhony18: folds 
+nikos195586: calls 150
+*** FLOP *** [4c 7s 3s]
+felipelomb: bets 131
+nikos195586: calls 131
+*** TURN *** [4c 7s 3s] [Tc]
+felipelomb: checks 
+nikos195586: checks 
+*** RIVER *** [4c 7s 3s Tc] [9c]
+felipelomb: bets 462
+batat6 has returned
+nikos195586: folds 
+Uncalled bet (462) returned to felipelomb
+felipelomb collected 923 from pot
+*** SUMMARY ***
+Total pot 923 | Rake 0 
+Board [4c 7s 3s Tc 9c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: Djhony18 folded before Flop
+Seat 3: atlantisps folded before Flop (didn't bet)
+Seat 4: nikos195586 (button) folded on the River
+Seat 6: batat6 (small blind) folded before Flop
+Seat 8: felipelomb (big blind) collected (923)
+
+
+
+PokerStars Hand #260345087785: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:23:43 UTC [2026/04/04 15:23:43 ET]
+Table '3989277405 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (3193 in chips) 
+Seat 2: Djhony18 (2848 in chips) 
+Seat 3: atlantisps (1917 in chips) 
+Seat 4: nikos195586 (187 in chips) 
+Seat 6: batat6 (1425 in chips) 
+Seat 8: felipelomb (2670 in chips) 
+scorza23: posts the ante 6
+Djhony18: posts the ante 6
+atlantisps: posts the ante 6
+nikos195586: posts the ante 6
+batat6: posts the ante 6
+felipelomb: posts the ante 6
+felipelomb: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3d]
+Djhony18: raises 50 to 100
+atlantisps: folds 
+nikos195586: calls 100
+batat6: calls 100
+felipelomb: raises 50 to 150
+scorza23: folds 
+Djhony18: calls 50
+nikos195586: raises 31 to 181 and is all-in
+batat6: calls 81
+felipelomb: calls 31
+Djhony18: calls 31
+*** FLOP *** [8c 4h Ah]
+felipelomb: checks 
+Djhony18: bets 267
+batat6: folds 
+felipelomb: folds 
+Uncalled bet (267) returned to Djhony18
+*** TURN *** [8c 4h Ah] [Qc]
+*** RIVER *** [8c 4h Ah Qc] [6h]
+*** SHOW DOWN ***
+Djhony18: shows [As Jh] (a pair of Aces)
+nikos195586: shows [4d Qd] (two pair, Queens and Fours)
+nikos195586 collected 810 from pot
+*** SUMMARY ***
+Total pot 810 | Rake 0 
+Board [8c 4h Ah Qc 6h]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: Djhony18 showed [As Jh] and lost with a pair of Aces
+Seat 3: atlantisps folded before Flop (didn't bet)
+Seat 4: nikos195586 showed [4d Qd] and won (810) with two pair, Queens and Fours
+Seat 6: batat6 (button) folded on the Flop
+Seat 8: felipelomb (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260345100041: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:24:38 UTC [2026/04/04 15:24:38 ET]
+Table '3989277405 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (3137 in chips) 
+Seat 2: Djhony18 (2661 in chips) 
+Seat 3: atlantisps (1911 in chips) 
+Seat 4: nikos195586 (810 in chips) 
+Seat 6: batat6 (1238 in chips) 
+Seat 8: felipelomb (2483 in chips) 
+scorza23: posts the ante 6
+Djhony18: posts the ante 6
+atlantisps: posts the ante 6
+nikos195586: posts the ante 6
+batat6: posts the ante 6
+felipelomb: posts the ante 6
+scorza23: posts small blind 25
+Djhony18: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3c]
+atlantisps: folds 
+nikos195586: calls 50
+batat6: folds 
+felipelomb: raises 50 to 100
+scorza23: folds 
+Djhony18: calls 50
+nikos195586: calls 50
+*** FLOP *** [2d Ad Th]
+Djhony18: checks 
+nikos195586: checks 
+felipelomb: bets 131
+Djhony18: calls 131
+nikos195586: folds 
+*** TURN *** [2d Ad Th] [7c]
+Djhony18: checks 
+felipelomb: bets 250
+Djhony18: calls 250
+*** RIVER *** [2d Ad Th 7c] [6h]
+Djhony18: checks 
+felipelomb: bets 462
+Djhony18: calls 462
+*** SHOW DOWN ***
+felipelomb: shows [4c Ac] (a pair of Aces)
+Djhony18: mucks hand 
+felipelomb collected 2047 from pot
+*** SUMMARY ***
+Total pot 2047 | Rake 0 
+Board [2d Ad Th 7c 6h]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: Djhony18 (big blind) mucked [Tc Qd]
+Seat 3: atlantisps folded before Flop (didn't bet)
+Seat 4: nikos195586 folded on the Flop
+Seat 6: batat6 folded before Flop (didn't bet)
+Seat 8: felipelomb (button) showed [4c Ac] and won (2047) with a pair of Aces
+
+
+
+PokerStars Hand #260345120189: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:26:09 UTC [2026/04/04 15:26:09 ET]
+Table '3989277405 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (3106 in chips) 
+Seat 2: Djhony18 (1712 in chips) 
+Seat 3: atlantisps (1905 in chips) 
+Seat 4: nikos195586 (704 in chips) 
+Seat 6: batat6 (1232 in chips) 
+Seat 8: felipelomb (3581 in chips) 
+scorza23: posts the ante 6
+Djhony18: posts the ante 6
+atlantisps: posts the ante 6
+nikos195586: posts the ante 6
+batat6: posts the ante 6
+felipelomb: posts the ante 6
+Djhony18: posts small blind 25
+atlantisps: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 5s]
+nikos195586: calls 50
+batat6: folds 
+felipelomb: raises 150 to 200
+scorza23: folds 
+Djhony18: folds 
+atlantisps: calls 150
+nikos195586: raises 498 to 698 and is all-in
+felipelomb: calls 498
+atlantisps: folds 
+*** FLOP *** [9c 6h 8s]
+*** TURN *** [9c 6h 8s] [Js]
+*** RIVER *** [9c 6h 8s Js] [Qh]
+*** SHOW DOWN ***
+nikos195586: shows [Ah 4h] (high card Ace)
+felipelomb: shows [5d 5h] (a pair of Fives)
+felipelomb collected 1657 from pot
+nikos195586 finished the tournament in 25th place
+*** SUMMARY ***
+Total pot 1657 | Rake 0 
+Board [9c 6h 8s Js Qh]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: Djhony18 (small blind) folded before Flop
+Seat 3: atlantisps (big blind) folded before Flop
+Seat 4: nikos195586 showed [Ah 4h] and lost with high card Ace
+Seat 6: batat6 folded before Flop (didn't bet)
+Seat 8: felipelomb showed [5d 5h] and won (1657) with a pair of Fives
+
+
+
+PokerStars Hand #260345132429: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:27:03 UTC [2026/04/04 15:27:03 ET]
+Table '3989277405 1' 8-max Seat #8 is the button
+Seat 1: 18121971 (3441 in chips) 
+Seat 2: DELLIS6873 (553 in chips) 
+Seat 3: madebywho (959 in chips) 
+Seat 4: scorza23 (3100 in chips) 
+Seat 5: BUTTCHIN0707 (815 in chips) 
+Seat 6: iguinnn (3688 in chips) 
+Seat 7: atlantisps (1699 in chips) 
+Seat 8: A.JSCRUZ (1402 in chips) 
+18121971: posts the ante 10
+DELLIS6873: posts the ante 10
+madebywho: posts the ante 10
+scorza23: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+iguinnn: posts the ante 10
+atlantisps: posts the ante 10
+A.JSCRUZ: posts the ante 10
+18121971: posts small blind 40
+DELLIS6873: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [As 2h]
+madebywho: folds 
+scorza23: folds 
+BUTTCHIN0707: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: raises 240 to 320
+DELLIS6873: folds 
+Uncalled bet (240) returned to 18121971
+18121971 collected 240 from pot
+18121971: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 1: 18121971 (small blind) collected (240)
+Seat 2: DELLIS6873 (big blind) folded before Flop
+Seat 3: madebywho folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345138787: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:27:31 UTC [2026/04/04 15:27:31 ET]
+Table '3989277405 1' 8-max Seat #1 is the button
+Seat 1: 18121971 (3591 in chips) 
+Seat 2: DELLIS6873 (463 in chips) 
+Seat 3: madebywho (949 in chips) 
+Seat 4: scorza23 (3090 in chips) 
+Seat 5: BUTTCHIN0707 (805 in chips) 
+Seat 6: iguinnn (3678 in chips) 
+Seat 7: atlantisps (1689 in chips) 
+Seat 8: A.JSCRUZ (1392 in chips) 
+18121971: posts the ante 10
+DELLIS6873: posts the ante 10
+madebywho: posts the ante 10
+scorza23: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+iguinnn: posts the ante 10
+atlantisps: posts the ante 10
+A.JSCRUZ: posts the ante 10
+DELLIS6873: posts small blind 40
+madebywho: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 8h]
+scorza23: raises 80 to 160
+BUTTCHIN0707: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: raises 264 to 424
+18121971: folds 
+DELLIS6873: folds 
+madebywho: folds 
+scorza23: folds 
+Uncalled bet (264) returned to A.JSCRUZ
+A.JSCRUZ collected 520 from pot
+A.JSCRUZ: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: 18121971 (button) folded before Flop (didn't bet)
+Seat 2: DELLIS6873 (small blind) folded before Flop
+Seat 3: madebywho (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop
+Seat 5: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ collected (520)
+
+
+
+PokerStars Hand #260345148440: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:28:14 UTC [2026/04/04 15:28:14 ET]
+Table '3989277405 1' 8-max Seat #2 is the button
+Seat 1: 18121971 (3581 in chips) 
+Seat 2: DELLIS6873 (413 in chips) 
+Seat 3: madebywho (859 in chips) 
+Seat 4: scorza23 (2920 in chips) 
+Seat 5: BUTTCHIN0707 (795 in chips) 
+Seat 6: iguinnn (3668 in chips) 
+Seat 7: atlantisps (1679 in chips) 
+Seat 8: A.JSCRUZ (1742 in chips) 
+18121971: posts the ante 10
+DELLIS6873: posts the ante 10
+madebywho: posts the ante 10
+scorza23: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+iguinnn: posts the ante 10
+atlantisps: posts the ante 10
+A.JSCRUZ: posts the ante 10
+madebywho: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 7d]
+BUTTCHIN0707: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: raises 80 to 160
+18121971: calls 160
+DELLIS6873: calls 160
+madebywho: calls 120
+scorza23: raises 880 to 1040
+A.JSCRUZ: folds 
+18121971: folds 
+DELLIS6873: calls 243 and is all-in
+madebywho: folds 
+Uncalled bet (637) returned to scorza23
+*** FLOP *** [4d 4h 5c]
+*** TURN *** [4d 4h 5c] [2h]
+*** RIVER *** [4d 4h 5c 2h] [3s]
+*** SHOW DOWN ***
+scorza23: shows [5d 7d] (two pair, Fives and Fours)
+DELLIS6873: shows [Ts Qd] (a pair of Fours)
+scorza23 collected 1366 from pot
+DELLIS6873 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 1366 | Rake 0 
+Board [4d 4h 5c 2h 3s]
+Seat 1: 18121971 folded before Flop
+Seat 2: DELLIS6873 (button) showed [Ts Qd] and lost with a pair of Fours
+Seat 3: madebywho (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [5d 7d] and won (1366) with two pair, Fives and Fours
+Seat 5: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop
+
+
+
+PokerStars Hand #260345162762: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:29:19 UTC [2026/04/04 15:29:19 ET]
+Table '3989277405 1' 8-max Seat #3 is the button
+Seat 1: 18121971 (3411 in chips) 
+Seat 3: madebywho (689 in chips) 
+Seat 4: scorza23 (3873 in chips) 
+Seat 5: BUTTCHIN0707 (785 in chips) 
+Seat 6: iguinnn (3658 in chips) 
+Seat 7: atlantisps (1669 in chips) 
+Seat 8: A.JSCRUZ (1572 in chips) 
+18121971: posts the ante 10
+madebywho: posts the ante 10
+scorza23: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+iguinnn: posts the ante 10
+atlantisps: posts the ante 10
+A.JSCRUZ: posts the ante 10
+scorza23: posts small blind 40
+BUTTCHIN0707: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Ac]
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+madebywho: folds 
+scorza23: raises 80 to 160
+BUTTCHIN0707: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 230 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 3: madebywho (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) collected (230)
+Seat 5: BUTTCHIN0707 (big blind) folded before Flop
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345171196: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:29:56 UTC [2026/04/04 15:29:56 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 1: 18121971 (3401 in chips) 
+Seat 3: madebywho (679 in chips) 
+Seat 4: scorza23 (4013 in chips) 
+Seat 5: BUTTCHIN0707 (695 in chips) 
+Seat 6: iguinnn (3648 in chips) 
+Seat 7: atlantisps (1659 in chips) 
+Seat 8: A.JSCRUZ (1562 in chips) 
+18121971: posts the ante 10
+madebywho: posts the ante 10
+scorza23: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+iguinnn: posts the ante 10
+atlantisps: posts the ante 10
+A.JSCRUZ: posts the ante 10
+BUTTCHIN0707: posts small blind 40
+iguinnn: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Jd]
+atlantisps: raises 80 to 160
+A.JSCRUZ: folds 
+18121971: folds 
+madebywho: folds 
+madebywho is disconnected 
+scorza23: folds 
+BUTTCHIN0707: folds 
+iguinnn: folds 
+Uncalled bet (80) returned to atlantisps
+atlantisps collected 270 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 3: madebywho folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: BUTTCHIN0707 (small blind) folded before Flop
+Seat 6: iguinnn (big blind) folded before Flop
+Seat 7: atlantisps collected (270)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345178591: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:30:28 UTC [2026/04/04 15:30:28 ET]
+Table '3989277405 1' 8-max Seat #5 is the button
+Seat 1: 18121971 (3391 in chips) 
+Seat 3: madebywho (669 in chips) 
+Seat 4: scorza23 (4003 in chips) 
+Seat 5: BUTTCHIN0707 (645 in chips) 
+Seat 6: iguinnn (3558 in chips) 
+Seat 7: atlantisps (1839 in chips) 
+Seat 8: A.JSCRUZ (1552 in chips) 
+18121971: posts the ante 10
+madebywho: posts the ante 10
+scorza23: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+iguinnn: posts the ante 10
+atlantisps: posts the ante 10
+A.JSCRUZ: posts the ante 10
+iguinnn: posts small blind 40
+atlantisps: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Ks]
+A.JSCRUZ: folds 
+18121971: folds 
+madebywho: folds 
+scorza23: raises 80 to 160
+BUTTCHIN0707: folds 
+iguinnn: folds 
+atlantisps: calls 80
+*** FLOP *** [3s Qc Qs]
+atlantisps: checks 
+scorza23: bets 240
+atlantisps: calls 240
+*** TURN *** [3s Qc Qs] [Jc]
+atlantisps: checks 
+scorza23: bets 320
+atlantisps: calls 320
+*** RIVER *** [3s Qc Qs Jc] [2d]
+atlantisps: checks 
+scorza23: bets 1550
+atlantisps: folds 
+Uncalled bet (1550) returned to scorza23
+scorza23 collected 1550 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1550 | Rake 0 
+Board [3s Qc Qs Jc 2d]
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 3: madebywho folded before Flop (didn't bet)
+Seat 4: scorza23 collected (1550)
+Seat 5: BUTTCHIN0707 (button) folded before Flop (didn't bet)
+Seat 6: iguinnn (small blind) folded before Flop
+Seat 7: atlantisps (big blind) folded on the River
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345193733: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:31:35 UTC [2026/04/04 15:31:35 ET]
+Table '3989277405 1' 8-max Seat #6 is the button
+Seat 1: 18121971 (3381 in chips) 
+Seat 3: madebywho (659 in chips) 
+Seat 4: scorza23 (4823 in chips) 
+Seat 5: BUTTCHIN0707 (635 in chips) 
+Seat 6: iguinnn (3508 in chips) 
+Seat 7: atlantisps (1109 in chips) 
+Seat 8: A.JSCRUZ (1542 in chips) 
+18121971: posts the ante 10
+madebywho: posts the ante 10
+scorza23: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+iguinnn: posts the ante 10
+atlantisps: posts the ante 10
+A.JSCRUZ: posts the ante 10
+atlantisps: posts small blind 40
+A.JSCRUZ: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 2c]
+18121971: calls 80
+madebywho: raises 569 to 649 and is all-in
+scorza23: folds 
+BUTTCHIN0707: folds 
+iguinnn: folds 
+atlantisps: raises 450 to 1099 and is all-in
+A.JSCRUZ: folds 
+18121971: folds 
+Uncalled bet (450) returned to atlantisps
+*** FLOP *** [Tc Ks Qh]
+*** TURN *** [Tc Ks Qh] [2d]
+*** RIVER *** [Tc Ks Qh 2d] [7d]
+*** SHOW DOWN ***
+atlantisps: shows [Ac Qc] (a pair of Queens)
+madebywho: shows [Js Jd] (a pair of Jacks)
+atlantisps collected 1528 from pot
+madebywho finished the tournament in 22nd place
+*** SUMMARY ***
+Total pot 1528 | Rake 0 
+Board [Tc Ks Qh 2d 7d]
+Seat 1: 18121971 folded before Flop
+Seat 3: madebywho showed [Js Jd] and lost with a pair of Jacks
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 6: iguinnn (button) folded before Flop (didn't bet)
+Seat 7: atlantisps (small blind) showed [Ac Qc] and won (1528) with a pair of Queens
+Seat 8: A.JSCRUZ (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345205903: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:32:29 UTC [2026/04/04 15:32:29 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 1: 18121971 (3291 in chips) 
+Seat 4: scorza23 (4813 in chips) 
+Seat 5: BUTTCHIN0707 (625 in chips) 
+Seat 6: iguinnn (3498 in chips) 
+Seat 7: atlantisps (1978 in chips) 
+Seat 8: A.JSCRUZ (1452 in chips) 
+18121971: posts the ante 15
+scorza23: posts the ante 15
+BUTTCHIN0707: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+A.JSCRUZ: posts small blind 60
+18121971: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 5h]
+scorza23: folds 
+BUTTCHIN0707: raises 490 to 610 and is all-in
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+Uncalled bet (490) returned to BUTTCHIN0707
+BUTTCHIN0707 collected 390 from pot
+BUTTCHIN0707: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: 18121971 (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: BUTTCHIN0707 collected (390)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps (button) folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345209676: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:32:46 UTC [2026/04/04 15:32:46 ET]
+Table '3989277405 1' 8-max Seat #8 is the button
+Seat 1: 18121971 (3156 in chips) 
+Seat 4: scorza23 (4798 in chips) 
+Seat 5: BUTTCHIN0707 (880 in chips) 
+Seat 6: iguinnn (3483 in chips) 
+Seat 7: atlantisps (1963 in chips) 
+Seat 8: A.JSCRUZ (1377 in chips) 
+18121971: posts the ante 15
+scorza23: posts the ante 15
+BUTTCHIN0707: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+18121971: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 4s]
+diogoyn is disconnected 
+BUTTCHIN0707: raises 745 to 865 and is all-in
+iguinnn: folds 
+atlantisps: raises 1083 to 1948 and is all-in
+A.JSCRUZ: folds 
+18121971: folds 
+scorza23: folds 
+Uncalled bet (1083) returned to atlantisps
+*** FLOP *** [Jh 3h 7h]
+*** TURN *** [Jh 3h 7h] [9h]
+*** RIVER *** [Jh 3h 7h 9h] [6c]
+*** SHOW DOWN ***
+BUTTCHIN0707: shows [As 7d] (a pair of Sevens)
+atlantisps: shows [Ah Jc] (a flush, Ace high)
+atlantisps collected 2000 from pot
+BUTTCHIN0707 is sitting out
+BUTTCHIN0707 finished the tournament in 21st place
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Board [Jh 3h 7h 9h 6c]
+Seat 1: 18121971 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: BUTTCHIN0707 showed [As 7d] and lost with a pair of Sevens
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps showed [Ah Jc] and won (2000) with a flush, Ace high
+Seat 8: A.JSCRUZ (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345216532: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:33:16 UTC [2026/04/04 15:33:16 ET]
+Table '3989277405 1' 8-max Seat #1 is the button
+Seat 1: 18121971 (3081 in chips) 
+Seat 2: diogoyn (1149 in chips) out of hand (moved from another table into small blind)
+Seat 4: scorza23 (4663 in chips) 
+Seat 6: iguinnn (3468 in chips) 
+Seat 7: atlantisps (3083 in chips) 
+Seat 8: A.JSCRUZ (1362 in chips) 
+diogoyn will be allowed to play after the button
+18121971: posts the ante 15
+scorza23: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+scorza23: posts small blind 60
+iguinnn: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Qs]
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+scorza23: raises 120 to 240
+iguinnn: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 315 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 315 | Rake 0 
+Seat 1: 18121971 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) collected (315)
+Seat 6: iguinnn (big blind) folded before Flop
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345223729: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:33:47 UTC [2026/04/04 15:33:47 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 1: 18121971 (3066 in chips) 
+Seat 2: diogoyn (1149 in chips) 
+Seat 4: scorza23 (4843 in chips) 
+Seat 6: iguinnn (3333 in chips) 
+Seat 7: atlantisps (3068 in chips) 
+Seat 8: A.JSCRUZ (1347 in chips) 
+18121971: posts the ante 15
+diogoyn: posts the ante 15
+scorza23: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+iguinnn: posts small blind 60
+atlantisps: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Qc]
+A.JSCRUZ: folds 
+18121971: folds 
+diogoyn: folds 
+scorza23: raises 120 to 240
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 390 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: diogoyn folded before Flop (didn't bet)
+Seat 4: scorza23 (button) collected (390)
+Seat 6: iguinnn (small blind) folded before Flop
+Seat 7: atlantisps (big blind) folded before Flop
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345230974: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:34:20 UTC [2026/04/04 15:34:20 ET]
+Table '3989277405 1' 8-max Seat #6 is the button
+Seat 1: 18121971 (3051 in chips) 
+Seat 2: diogoyn (1134 in chips) 
+Seat 4: scorza23 (5098 in chips) 
+Seat 6: iguinnn (3258 in chips) 
+Seat 7: atlantisps (2933 in chips) 
+Seat 8: A.JSCRUZ (1332 in chips) 
+18121971: posts the ante 15
+diogoyn: posts the ante 15
+scorza23: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+atlantisps: posts small blind 60
+A.JSCRUZ: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 6c]
+18121971: folds 
+diogoyn: folds 
+scorza23: folds 
+iguinnn: raises 120 to 240
+atlantisps: folds 
+A.JSCRUZ: calls 120
+*** FLOP *** [2c 7c 5h]
+A.JSCRUZ: checks 
+iguinnn: bets 195
+A.JSCRUZ: raises 882 to 1077 and is all-in
+iguinnn: folds 
+Uncalled bet (882) returned to A.JSCRUZ
+A.JSCRUZ collected 1020 from pot
+A.JSCRUZ: doesn't show hand 
+*** SUMMARY ***
+Total pot 1020 | Rake 0 
+Board [2c 7c 5h]
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: diogoyn folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: iguinnn (button) folded on the Flop
+Seat 7: atlantisps (small blind) folded before Flop
+Seat 8: A.JSCRUZ (big blind) collected (1020)
+
+
+
+PokerStars Hand #260345240312: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:35:01 UTC [2026/04/04 15:35:01 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 1: 18121971 (3036 in chips) 
+Seat 2: diogoyn (1119 in chips) 
+Seat 4: scorza23 (5083 in chips) 
+Seat 6: iguinnn (2808 in chips) 
+Seat 7: atlantisps (2858 in chips) 
+Seat 8: A.JSCRUZ (1902 in chips) 
+18121971: posts the ante 15
+diogoyn: posts the ante 15
+scorza23: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+A.JSCRUZ: posts small blind 60
+18121971: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9h]
+diogoyn: folds 
+scorza23: folds 
+iguinnn: raises 120 to 240
+atlantisps: folds 
+A.JSCRUZ: calls 180
+18121971: folds 
+*** FLOP *** [8c Jd 3d]
+A.JSCRUZ: checks 
+iguinnn: bets 214
+A.JSCRUZ: folds 
+Uncalled bet (214) returned to iguinnn
+iguinnn collected 690 from pot
+iguinnn: doesn't show hand 
+*** SUMMARY ***
+Total pot 690 | Rake 0 
+Board [8c Jd 3d]
+Seat 1: 18121971 (big blind) folded before Flop
+Seat 2: diogoyn folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: iguinnn collected (690)
+Seat 7: atlantisps (button) folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260345249462: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:35:41 UTC [2026/04/04 15:35:41 ET]
+Table '3989277405 1' 8-max Seat #8 is the button
+Seat 1: 18121971 (2901 in chips) 
+Seat 2: diogoyn (1104 in chips) 
+Seat 4: scorza23 (5068 in chips) 
+Seat 6: iguinnn (3243 in chips) 
+Seat 7: atlantisps (2843 in chips) 
+Seat 8: A.JSCRUZ (1647 in chips) 
+18121971: posts the ante 15
+diogoyn: posts the ante 15
+scorza23: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+18121971: posts small blind 60
+diogoyn: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 6c]
+scorza23: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: calls 60
+diogoyn: checks 
+*** FLOP *** [5c 6s Qd]
+18121971: bets 330
+diogoyn: raises 639 to 969 and is all-in
+18121971: calls 639
+*** TURN *** [5c 6s Qd] [8d]
+*** RIVER *** [5c 6s Qd 8d] [Js]
+*** SHOW DOWN ***
+18121971: shows [9d Qs] (a pair of Queens)
+diogoyn: shows [4h Qh] (a pair of Queens - lower kicker)
+18121971 collected 2268 from pot
+diogoyn finished the tournament in 18th place
+*** SUMMARY ***
+Total pot 2268 | Rake 0 
+Board [5c 6s Qd 8d Js]
+Seat 1: 18121971 (small blind) showed [9d Qs] and won (2268) with a pair of Queens
+Seat 2: diogoyn (big blind) showed [4h Qh] and lost with a pair of Queens
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345256666: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:36:12 UTC [2026/04/04 15:36:12 ET]
+Table '3989277405 1' 8-max Seat #1 is the button
+Seat 1: 18121971 (4065 in chips) 
+Seat 4: scorza23 (5053 in chips) 
+Seat 6: iguinnn (3228 in chips) 
+Seat 7: atlantisps (2828 in chips) 
+Seat 8: A.JSCRUZ (1632 in chips) 
+18121971: posts the ante 15
+scorza23: posts the ante 15
+iguinnn: posts the ante 15
+atlantisps: posts the ante 15
+A.JSCRUZ: posts the ante 15
+scorza23: posts small blind 60
+iguinnn: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 3s]
+atlantisps: raises 120 to 240
+A.JSCRUZ: folds 
+18121971: calls 240
+scorza23: folds 
+iguinnn: calls 120
+*** FLOP *** [Ac As Ad]
+iguinnn: checks 
+atlantisps: checks 
+18121971: checks 
+*** TURN *** [Ac As Ad] [4c]
+iguinnn: checks 
+atlantisps: bets 214
+18121971: raises 214 to 428
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (214) returned to 18121971
+18121971 collected 1283 from pot
+18121971: doesn't show hand 
+*** SUMMARY ***
+Total pot 1283 | Rake 0 
+Board [Ac As Ad 4c]
+Seat 1: 18121971 (button) collected (1283)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 6: iguinnn (big blind) folded on the Turn
+Seat 7: atlantisps folded on the Turn
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345267820: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:37:02 UTC [2026/04/04 15:37:02 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 1: 18121971 (4879 in chips) 
+Seat 4: scorza23 (4978 in chips) 
+Seat 6: iguinnn (2973 in chips) 
+Seat 7: atlantisps (2359 in chips) 
+Seat 8: A.JSCRUZ (1617 in chips) 
+18121971: posts the ante 20
+scorza23: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+iguinnn: posts small blind 80
+atlantisps: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 3c]
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking is disconnected 
+scorza23: raises 160 to 320
+Djhony18 is disconnected 
+ohanaaa is disconnected 
+iguinnn: folds 
+atlantisps: calls 160
+*** FLOP *** [7c Kc Qc]
+atlantisps: checks 
+scorza23: bets 480
+atlantisps: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 820 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 820 | Rake 0 
+Board [7c Kc Qc]
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 4: scorza23 (button) collected (820)
+Seat 6: iguinnn (small blind) folded before Flop
+Seat 7: atlantisps (big blind) folded on the Flop
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345274683: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:37:33 UTC [2026/04/04 15:37:33 ET]
+Table '3989277405 1' 8-max Seat #6 is the button
+Seat 1: 18121971 (4859 in chips) 
+Seat 2: Josy Walking (2415 in chips) 
+Seat 3: Djhony18 (2506 in chips) 
+Seat 4: scorza23 (5458 in chips) 
+Seat 5: ohanaaa (2423 in chips) 
+Seat 6: iguinnn (2873 in chips) 
+Seat 7: atlantisps (2019 in chips) 
+Seat 8: A.JSCRUZ (1597 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+atlantisps: posts small blind 80
+A.JSCRUZ: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ks]
+18121971: raises 320 to 480
+Josy Walking: folds 
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+Uncalled bet (320) returned to 18121971
+18121971 collected 560 from pot
+18121971: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: 18121971 collected (560)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn (button) folded before Flop (didn't bet)
+Seat 7: atlantisps (small blind) folded before Flop
+Seat 8: A.JSCRUZ (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345278884: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:37:51 UTC [2026/04/04 15:37:51 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 1: 18121971 (5239 in chips) 
+Seat 2: Josy Walking (2395 in chips) 
+Seat 3: Djhony18 (2486 in chips) 
+Seat 4: scorza23 (5438 in chips) 
+Seat 5: ohanaaa (2403 in chips) 
+Seat 6: iguinnn (2853 in chips) 
+Seat 7: atlantisps (1919 in chips) 
+Seat 8: A.JSCRUZ (1417 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+A.JSCRUZ: posts small blind 80
+18121971: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3s As]
+Josy Walking: folds 
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+Uncalled bet (80) returned to 18121971
+18121971 collected 320 from pot
+18121971: doesn't show hand 
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Seat 1: 18121971 (big blind) collected (320)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps (button) folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345282819: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:38:09 UTC [2026/04/04 15:38:09 ET]
+Table '3989277405 1' 8-max Seat #8 is the button
+Seat 1: 18121971 (5459 in chips) 
+Seat 2: Josy Walking (2375 in chips) 
+Seat 3: Djhony18 (2466 in chips) 
+Seat 4: scorza23 (5418 in chips) 
+Seat 5: ohanaaa (2383 in chips) 
+Seat 6: iguinnn (2833 in chips) 
+Seat 7: atlantisps (1899 in chips) 
+Seat 8: A.JSCRUZ (1317 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+18121971: posts small blind 80
+Josy Walking: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 8c]
+Djhony18: folds 
+scorza23: raises 160 to 320
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 560 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: 18121971 (small blind) folded before Flop
+Seat 2: Josy Walking (big blind) folded before Flop
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 collected (560)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345288420: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:38:33 UTC [2026/04/04 15:38:33 ET]
+Table '3989277405 1' 8-max Seat #1 is the button
+Seat 1: 18121971 (5359 in chips) 
+Seat 2: Josy Walking (2195 in chips) 
+Seat 3: Djhony18 (2446 in chips) 
+Seat 4: scorza23 (5798 in chips) 
+Seat 5: ohanaaa (2363 in chips) 
+Seat 6: iguinnn (2813 in chips) 
+Seat 7: atlantisps (1879 in chips) 
+Seat 8: A.JSCRUZ (1297 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+Josy Walking: posts small blind 80
+Djhony18: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Kh]
+scorza23: raises 160 to 320
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: calls 320
+18121971: folds 
+Josy Walking: folds 
+Djhony18: calls 160
+*** FLOP *** [5h Jh 5c]
+Djhony18: checks 
+scorza23: bets 480
+A.JSCRUZ: folds 
+Djhony18: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 1200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [5h Jh 5c]
+Seat 1: 18121971 (button) folded before Flop (didn't bet)
+Seat 2: Josy Walking (small blind) folded before Flop
+Seat 3: Djhony18 (big blind) folded on the Flop
+Seat 4: scorza23 collected (1200)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded on the Flop
+
+
+
+PokerStars Hand #260345296661: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:39:10 UTC [2026/04/04 15:39:10 ET]
+Table '3989277405 1' 8-max Seat #2 is the button
+Seat 1: 18121971 (5339 in chips) 
+Seat 2: Josy Walking (2095 in chips) 
+Seat 3: Djhony18 (2106 in chips) 
+Seat 4: scorza23 (6658 in chips) 
+Seat 5: ohanaaa (2343 in chips) 
+Seat 6: iguinnn (2793 in chips) 
+Seat 7: atlantisps (1859 in chips) 
+Seat 8: A.JSCRUZ (957 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+Djhony18: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 9d]
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking: raises 160 to 320
+Djhony18: folds 
+scorza23: folds 
+Uncalled bet (160) returned to Josy Walking
+Josy Walking collected 560 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking (button) collected (560)
+Seat 3: Djhony18 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345302830: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:39:37 UTC [2026/04/04 15:39:37 ET]
+Table '3989277405 1' 8-max Seat #3 is the button
+Seat 1: 18121971 (5319 in chips) 
+Seat 2: Josy Walking (2475 in chips) 
+Seat 3: Djhony18 (2006 in chips) 
+Seat 4: scorza23 (6478 in chips) 
+Seat 5: ohanaaa (2323 in chips) 
+Seat 6: iguinnn (2773 in chips) 
+Seat 7: atlantisps (1839 in chips) 
+Seat 8: A.JSCRUZ (937 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+scorza23: posts small blind 80
+ohanaaa: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 8c]
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: calls 160
+Josy Walking: folds 
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: raises 2143 to 2303 and is all-in
+18121971: folds 
+Uncalled bet (2143) returned to ohanaaa
+ohanaaa collected 560 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: 18121971 folded before Flop
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Djhony18 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: ohanaaa (big blind) collected (560)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345308411: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:40:02 UTC [2026/04/04 15:40:02 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 1: 18121971 (5139 in chips) 
+Seat 2: Josy Walking (2455 in chips) 
+Seat 3: Djhony18 (1986 in chips) 
+Seat 4: scorza23 (6378 in chips) 
+Seat 5: ohanaaa (2703 in chips) 
+Seat 6: iguinnn (2753 in chips) 
+Seat 7: atlantisps (1819 in chips) 
+Seat 8: A.JSCRUZ (917 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+ohanaaa: posts small blind 80
+iguinnn: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ts]
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking: folds 
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: folds 
+Uncalled bet (80) returned to iguinnn
+iguinnn collected 320 from pot
+iguinnn: doesn't show hand 
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: ohanaaa (small blind) folded before Flop
+Seat 6: iguinnn (big blind) collected (320)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345313352: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:40:24 UTC [2026/04/04 15:40:24 ET]
+Table '3989277405 1' 8-max Seat #5 is the button
+Seat 1: 18121971 (5119 in chips) 
+Seat 2: Josy Walking (2435 in chips) 
+Seat 3: Djhony18 (1966 in chips) 
+Seat 4: scorza23 (6358 in chips) 
+Seat 5: ohanaaa (2603 in chips) 
+Seat 6: iguinnn (2973 in chips) 
+Seat 7: atlantisps (1799 in chips) 
+Seat 8: A.JSCRUZ (897 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+iguinnn: posts small blind 80
+atlantisps: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 7d]
+A.JSCRUZ: raises 717 to 877 and is all-in
+18121971: folds 
+Josy Walking: folds 
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (717) returned to A.JSCRUZ
+A.JSCRUZ collected 560 from pot
+A.JSCRUZ: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa (button) folded before Flop (didn't bet)
+Seat 6: iguinnn (small blind) folded before Flop
+Seat 7: atlantisps (big blind) folded before Flop
+Seat 8: A.JSCRUZ collected (560)
+
+
+
+PokerStars Hand #260345316965: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:40:41 UTC [2026/04/04 15:40:41 ET]
+Table '3989277405 1' 8-max Seat #6 is the button
+Seat 1: 18121971 (5099 in chips) 
+Seat 2: Josy Walking (2415 in chips) 
+Seat 3: Djhony18 (1946 in chips) 
+Seat 4: scorza23 (6338 in chips) 
+Seat 5: ohanaaa (2583 in chips) 
+Seat 6: iguinnn (2873 in chips) 
+Seat 7: atlantisps (1619 in chips) 
+Seat 8: A.JSCRUZ (1277 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+atlantisps: posts small blind 80
+A.JSCRUZ: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Th]
+18121971: folds 
+Josy Walking: folds 
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (80) returned to A.JSCRUZ
+A.JSCRUZ collected 320 from pot
+A.JSCRUZ: doesn't show hand 
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn (button) folded before Flop (didn't bet)
+Seat 7: atlantisps (small blind) folded before Flop
+Seat 8: A.JSCRUZ (big blind) collected (320)
+
+
+
+PokerStars Hand #260345322294: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:41:05 UTC [2026/04/04 15:41:05 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 1: 18121971 (5079 in chips) 
+Seat 2: Josy Walking (2395 in chips) 
+Seat 3: Djhony18 (1926 in chips) 
+Seat 4: scorza23 (6318 in chips) 
+Seat 5: ohanaaa (2563 in chips) 
+Seat 6: iguinnn (2853 in chips) 
+Seat 7: atlantisps (1519 in chips) 
+Seat 8: A.JSCRUZ (1497 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+A.JSCRUZ: posts small blind 80
+18121971: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 2d]
+Josy Walking: folds 
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: raises 1339 to 1499 and is all-in
+A.JSCRUZ: folds 
+18121971: folds 
+Uncalled bet (1339) returned to atlantisps
+atlantisps collected 560 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: 18121971 (big blind) folded before Flop
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps (button) collected (560)
+Seat 8: A.JSCRUZ (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345327885: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:41:30 UTC [2026/04/04 15:41:30 ET]
+Table '3989277405 1' 8-max Seat #8 is the button
+Seat 1: 18121971 (4899 in chips) 
+Seat 2: Josy Walking (2375 in chips) 
+Seat 3: Djhony18 (1906 in chips) 
+Seat 4: scorza23 (6298 in chips) 
+Seat 5: ohanaaa (2543 in chips) 
+Seat 6: iguinnn (2833 in chips) 
+Seat 7: atlantisps (1899 in chips) 
+Seat 8: A.JSCRUZ (1397 in chips) 
+18121971: posts the ante 20
+Josy Walking: posts the ante 20
+Djhony18: posts the ante 20
+scorza23: posts the ante 20
+ohanaaa: posts the ante 20
+iguinnn: posts the ante 20
+atlantisps: posts the ante 20
+A.JSCRUZ: posts the ante 20
+18121971: posts small blind 80
+Josy Walking: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Ac]
+Djhony18: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: raises 160 to 320
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking: folds 
+Uncalled bet (160) returned to iguinnn
+iguinnn collected 560 from pot
+iguinnn: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: 18121971 (small blind) folded before Flop
+Seat 2: Josy Walking (big blind) folded before Flop
+Seat 3: Djhony18 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn collected (560)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345334758: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:42:00 UTC [2026/04/04 15:42:00 ET]
+Table '3989277405 1' 8-max Seat #1 is the button
+Seat 1: 18121971 (4799 in chips) 
+Seat 2: Josy Walking (2195 in chips) 
+Seat 3: Djhony18 (1886 in chips) 
+Seat 4: scorza23 (6278 in chips) 
+Seat 5: ohanaaa (2523 in chips) 
+Seat 6: iguinnn (3213 in chips) 
+Seat 7: atlantisps (1879 in chips) 
+Seat 8: A.JSCRUZ (1377 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+Djhony18: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+A.JSCRUZ: posts the ante 25
+Josy Walking: posts small blind 100
+Djhony18: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8s]
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking: raises 1970 to 2170 and is all-in
+Djhony18: folds 
+Uncalled bet (1970) returned to Josy Walking
+Josy Walking collected 600 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: 18121971 (button) folded before Flop (didn't bet)
+Seat 2: Josy Walking (small blind) collected (600)
+Seat 3: Djhony18 (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345338949: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:42:19 UTC [2026/04/04 15:42:19 ET]
+Table '3989277405 1' 8-max Seat #2 is the button
+Seat 1: 18121971 (4774 in chips) 
+Seat 2: Josy Walking (2570 in chips) 
+Seat 3: Djhony18 (1661 in chips) 
+Seat 4: scorza23 (6253 in chips) 
+Seat 5: ohanaaa (2498 in chips) 
+Seat 6: iguinnn (3188 in chips) 
+Seat 7: atlantisps (1854 in chips) 
+Seat 8: A.JSCRUZ (1352 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+Djhony18: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+A.JSCRUZ: posts the ante 25
+Djhony18: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9d]
+ohanaaa: folds 
+iguinnn: raises 200 to 400
+atlantisps: raises 1429 to 1829 and is all-in
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking has timed out
+Josy Walking: folds 
+Josy Walking is sitting out
+Djhony18: calls 1536 and is all-in
+scorza23: folds 
+Josy Walking has returned
+iguinnn: calls 1429
+*** FLOP *** [7s 8h 6d]
+*** TURN *** [7s 8h 6d] [6s]
+*** RIVER *** [7s 8h 6d 6s] [2d]
+*** SHOW DOWN ***
+iguinnn: shows [Jc As] (a pair of Sixes)
+atlantisps: shows [7d 7c] (a full house, Sevens full of Sixes)
+atlantisps collected 386 from side pot
+Djhony18: shows [Ts Td] (two pair, Tens and Sixes)
+atlantisps collected 5308 from main pot
+Djhony18 finished the tournament in 16th place
+*** SUMMARY ***
+Total pot 5694 Main pot 5308. Side pot 386. | Rake 0 
+Board [7s 8h 6d 6s 2d]
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking (button) folded before Flop (didn't bet)
+Seat 3: Djhony18 (small blind) showed [Ts Td] and lost with two pair, Tens and Sixes
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn showed [Jc As] and lost with a pair of Sixes
+Seat 7: atlantisps showed [7d 7c] and won (5694) with a full house, Sevens full of Sixes
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345353221: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:43:23 UTC [2026/04/04 15:43:23 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 1: 18121971 (4749 in chips) 
+Seat 2: Josy Walking (2545 in chips) 
+Seat 4: scorza23 (6028 in chips) 
+Seat 5: ohanaaa (2473 in chips) 
+Seat 6: iguinnn (1334 in chips) 
+Seat 7: atlantisps (5694 in chips) 
+Seat 8: A.JSCRUZ (1327 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+A.JSCRUZ: posts the ante 25
+ohanaaa: posts small blind 100
+iguinnn: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 7s]
+atlantisps: folds 
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking: raises 200 to 400
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+Uncalled bet (200) returned to Josy Walking
+Josy Walking collected 675 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking collected (675)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: ohanaaa (small blind) folded before Flop
+Seat 6: iguinnn (big blind) folded before Flop
+Seat 7: atlantisps folded before Flop (didn't bet)
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345360259: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:43:54 UTC [2026/04/04 15:43:54 ET]
+Table '3989277405 1' 8-max Seat #5 is the button
+Seat 1: 18121971 (4724 in chips) 
+Seat 2: Josy Walking (2995 in chips) 
+Seat 4: scorza23 (6003 in chips) 
+Seat 5: ohanaaa (2348 in chips) 
+Seat 6: iguinnn (1109 in chips) 
+Seat 7: atlantisps (5669 in chips) 
+Seat 8: A.JSCRUZ (1302 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+A.JSCRUZ: posts the ante 25
+iguinnn: posts small blind 100
+atlantisps: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Ts]
+A.JSCRUZ: folds 
+18121971: folds 
+Josy Walking: raises 200 to 400
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (200) returned to Josy Walking
+Josy Walking collected 675 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking collected (675)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa (button) folded before Flop (didn't bet)
+Seat 6: iguinnn (small blind) folded before Flop
+Seat 7: atlantisps (big blind) folded before Flop
+Seat 8: A.JSCRUZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345367121: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:44:25 UTC [2026/04/04 15:44:25 ET]
+Table '3989277405 1' 8-max Seat #6 is the button
+Seat 1: 18121971 (4699 in chips) 
+Seat 2: Josy Walking (3445 in chips) 
+Seat 4: scorza23 (5978 in chips) 
+Seat 5: ohanaaa (2323 in chips) 
+Seat 6: iguinnn (984 in chips) 
+Seat 7: atlantisps (5444 in chips) 
+Seat 8: A.JSCRUZ (1277 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+A.JSCRUZ: posts the ante 25
+atlantisps: posts small blind 100
+A.JSCRUZ: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Ad]
+18121971: folds 
+Josy Walking: folds 
+scorza23: raises 200 to 400
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+A.JSCRUZ: calls 200
+*** FLOP *** [7h 5d Kc]
+A.JSCRUZ: checks 
+scorza23: bets 600
+A.JSCRUZ: raises 252 to 852 and is all-in
+scorza23: calls 252
+*** TURN *** [7h 5d Kc] [8h]
+*** RIVER *** [7h 5d Kc 8h] [Jd]
+*** SHOW DOWN ***
+A.JSCRUZ: shows [Qs 7s] (a pair of Sevens)
+scorza23: shows [7c Ad] (a pair of Sevens - Ace kicker)
+scorza23 collected 2779 from pot
+A.JSCRUZ finished the tournament in 13th place
+*** SUMMARY ***
+Total pot 2779 | Rake 0 
+Board [7h 5d Kc 8h Jd]
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 4: scorza23 showed [7c Ad] and won (2779) with a pair of Sevens
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn (button) folded before Flop (didn't bet)
+Seat 7: atlantisps (small blind) folded before Flop
+Seat 8: A.JSCRUZ (big blind) showed [Qs 7s] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #260345378898: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:45:17 UTC [2026/04/04 15:45:17 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 1: 18121971 (4674 in chips) 
+Seat 2: Josy Walking (3420 in chips) 
+Seat 4: scorza23 (7480 in chips) 
+Seat 5: ohanaaa (2298 in chips) 
+Seat 6: iguinnn (959 in chips) 
+Seat 7: atlantisps (5319 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+18121971: posts small blind 100
+Josy Walking: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 2d]
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+18121971: calls 100
+Josy Walking: checks 
+*** FLOP *** [Ts 6s Kc]
+18121971: bets 400
+Josy Walking: calls 400
+*** TURN *** [Ts 6s Kc] [Td]
+18121971: bets 400
+Josy Walking: calls 400
+*** RIVER *** [Ts 6s Kc Td] [5d]
+18121971: bets 600
+Josy Walking: folds 
+Uncalled bet (600) returned to 18121971
+18121971 collected 2150 from pot
+18121971: doesn't show hand 
+*** SUMMARY ***
+Total pot 2150 | Rake 0 
+Board [Ts 6s Kc Td 5d]
+Seat 1: 18121971 (small blind) collected (2150)
+Seat 2: Josy Walking (big blind) folded on the River
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345392478: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:46:16 UTC [2026/04/04 15:46:16 ET]
+Table '3989277405 1' 8-max Seat #1 is the button
+Seat 1: 18121971 (5799 in chips) 
+Seat 2: Josy Walking (2395 in chips) 
+Seat 4: scorza23 (7455 in chips) 
+Seat 5: ohanaaa (2273 in chips) 
+Seat 6: iguinnn (934 in chips) 
+Seat 7: atlantisps (5294 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+Josy Walking: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 5s]
+ohanaaa: folds 
+iguinnn: raises 709 to 909 and is all-in
+atlantisps: folds 
+18121971: folds 
+Josy Walking: folds 
+scorza23: folds 
+Uncalled bet (709) returned to iguinnn
+iguinnn collected 650 from pot
+iguinnn: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: 18121971 (button) folded before Flop (didn't bet)
+Seat 2: Josy Walking (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn collected (650)
+Seat 7: atlantisps folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345396477: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:46:34 UTC [2026/04/04 15:46:34 ET]
+Table '3989277405 1' 8-max Seat #2 is the button
+Seat 1: 18121971 (5774 in chips) 
+Seat 2: Josy Walking (2270 in chips) 
+Seat 4: scorza23 (7230 in chips) 
+Seat 5: ohanaaa (2248 in chips) 
+Seat 6: iguinnn (1359 in chips) 
+Seat 7: atlantisps (5269 in chips) 
+18121971: posts the ante 25
+Josy Walking: posts the ante 25
+scorza23: posts the ante 25
+ohanaaa: posts the ante 25
+iguinnn: posts the ante 25
+atlantisps: posts the ante 25
+scorza23: posts small blind 100
+ohanaaa: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 7c]
+iguinnn: folds 
+atlantisps: folds 
+18121971: raises 300 to 500
+Josy Walking: folds 
+scorza23: folds 
+ohanaaa: raises 1723 to 2223 and is all-in
+18121971: folds [Ad]
+Uncalled bet (1723) returned to ohanaaa
+ohanaaa collected 1250 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Seat 1: 18121971 folded before Flop
+Seat 2: Josy Walking (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: ohanaaa (big blind) collected (1250)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345407567: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:47:23 UTC [2026/04/04 15:47:23 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 1: 18121971 (5249 in chips) 
+Seat 2: Josy Walking (2245 in chips) 
+Seat 4: scorza23 (7105 in chips) 
+Seat 5: ohanaaa (2973 in chips) 
+Seat 6: iguinnn (1334 in chips) 
+Seat 7: atlantisps (5244 in chips) 
+18121971: posts the ante 35
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+ohanaaa: posts small blind 150
+iguinnn: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4h]
+atlantisps: folds 
+18121971: folds 
+Josy Walking: raises 1910 to 2210 and is all-in
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+Uncalled bet (1910) returned to Josy Walking
+Josy Walking collected 960 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking collected (960)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: ohanaaa (small blind) folded before Flop
+Seat 6: iguinnn (big blind) folded before Flop
+Seat 7: atlantisps folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345411802: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:47:41 UTC [2026/04/04 15:47:41 ET]
+Table '3989277405 1' 8-max Seat #5 is the button
+Seat 1: 18121971 (5214 in chips) 
+Seat 2: Josy Walking (2870 in chips) 
+Seat 4: scorza23 (7070 in chips) 
+Seat 5: ohanaaa (2788 in chips) 
+Seat 6: iguinnn (999 in chips) 
+Seat 7: atlantisps (5209 in chips) 
+18121971: posts the ante 35
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+iguinnn: posts small blind 150
+atlantisps: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [As 8d]
+18121971: raises 960 to 1260
+Josy Walking: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (960) returned to 18121971
+18121971 collected 960 from pot
+18121971: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: 18121971 collected (960)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa (button) folded before Flop (didn't bet)
+Seat 6: iguinnn (small blind) folded before Flop
+Seat 7: atlantisps (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345417616: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:48:07 UTC [2026/04/04 15:48:07 ET]
+Table '3989277405 1' 8-max Seat #6 is the button
+Seat 1: 18121971 (5839 in chips) 
+Seat 2: Josy Walking (2835 in chips) 
+Seat 4: scorza23 (7035 in chips) 
+Seat 5: ohanaaa (2753 in chips) 
+Seat 6: iguinnn (814 in chips) 
+Seat 7: atlantisps (4874 in chips) 
+18121971: posts the ante 35
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+atlantisps: posts small blind 150
+18121971: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 4s]
+Josy Walking: folds 
+scorza23: folds 
+ohanaaa: raises 2418 to 2718 and is all-in
+iguinnn: folds 
+atlantisps: folds 
+18121971: folds 
+Uncalled bet (2418) returned to ohanaaa
+ohanaaa collected 960 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: 18121971 (big blind) folded before Flop
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa collected (960)
+Seat 6: iguinnn (button) folded before Flop (didn't bet)
+Seat 7: atlantisps (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345422889: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:48:30 UTC [2026/04/04 15:48:30 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 1: 18121971 (5504 in chips) 
+Seat 2: Josy Walking (2800 in chips) 
+Seat 4: scorza23 (7000 in chips) 
+Seat 5: ohanaaa (3378 in chips) 
+Seat 6: iguinnn (779 in chips) 
+Seat 7: atlantisps (4689 in chips) 
+18121971: posts the ante 35
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+18121971: posts small blind 150
+Josy Walking: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 8d]
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: raises 444 to 744 and is all-in
+atlantisps: folds 
+18121971: folds 
+Josy Walking: folds 
+Uncalled bet (444) returned to iguinnn
+iguinnn collected 960 from pot
+iguinnn: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: 18121971 (small blind) folded before Flop
+Seat 2: Josy Walking (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn collected (960)
+Seat 7: atlantisps (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345427597: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:48:51 UTC [2026/04/04 15:48:51 ET]
+Table '3989277405 1' 8-max Seat #1 is the button
+Seat 1: 18121971 (5319 in chips) 
+Seat 2: Josy Walking (2465 in chips) 
+Seat 4: scorza23 (6965 in chips) 
+Seat 5: ohanaaa (3343 in chips) 
+Seat 6: iguinnn (1404 in chips) 
+Seat 7: atlantisps (4654 in chips) 
+18121971: posts the ante 35
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+Josy Walking: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Ad]
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: raises 300 to 600
+18121971: folds 
+Josy Walking: raises 1830 to 2430 and is all-in
+scorza23: folds 
+atlantisps: folds 
+Uncalled bet (1830) returned to Josy Walking
+Josy Walking collected 1710 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 1710 | Rake 0 
+Seat 1: 18121971 (button) folded before Flop (didn't bet)
+Seat 2: Josy Walking (small blind) collected (1710)
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop
+
+
+
+PokerStars Hand #260345436274: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:49:30 UTC [2026/04/04 15:49:30 ET]
+Table '3989277405 1' 8-max Seat #2 is the button
+Seat 1: 18121971 (5284 in chips) 
+Seat 2: Josy Walking (3540 in chips) 
+Seat 4: scorza23 (6630 in chips) 
+Seat 5: ohanaaa (3308 in chips) 
+Seat 6: iguinnn (1369 in chips) 
+Seat 7: atlantisps (4019 in chips) 
+18121971: posts the ante 35
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+scorza23: posts small blind 150
+ohanaaa: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 6c]
+iguinnn: folds 
+atlantisps: folds 
+18121971: folds 
+Josy Walking: raises 3205 to 3505 and is all-in
+scorza23: folds 
+ohanaaa: folds 
+Uncalled bet (3205) returned to Josy Walking
+Josy Walking collected 960 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: 18121971 folded before Flop (didn't bet)
+Seat 2: Josy Walking (button) collected (960)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: ohanaaa (big blind) folded before Flop
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345440526: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:49:48 UTC [2026/04/04 15:49:48 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 1: 18121971 (5249 in chips) 
+Seat 2: Josy Walking (4165 in chips) 
+Seat 4: scorza23 (6445 in chips) 
+Seat 5: ohanaaa (2973 in chips) 
+Seat 6: iguinnn (1334 in chips) 
+Seat 7: atlantisps (3984 in chips) 
+18121971: posts the ante 35
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+ohanaaa: posts small blind 150
+iguinnn: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Jd]
+atlantisps: folds 
+18121971: raises 450 to 750
+Josy Walking: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+Uncalled bet (450) returned to 18121971
+18121971 collected 960 from pot
+18121971: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: 18121971 collected (960)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: ohanaaa (small blind) folded before Flop
+Seat 6: iguinnn (big blind) folded before Flop
+Seat 7: atlantisps folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345444899: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:50:08 UTC [2026/04/04 15:50:08 ET]
+Table '3989277405 1' 8-max Seat #5 is the button
+Seat 2: Josy Walking (4130 in chips) 
+Seat 4: scorza23 (6410 in chips) 
+Seat 5: ohanaaa (2788 in chips) 
+Seat 6: iguinnn (999 in chips) 
+Seat 7: atlantisps (3949 in chips) 
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+iguinnn: posts small blind 150
+atlantisps: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 8c]
+Josy Walking: folds 
+scorza23: folds 
+ohanaaa: raises 2453 to 2753 and is all-in
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (2453) returned to ohanaaa
+ohanaaa collected 925 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa (button) collected (925)
+Seat 6: iguinnn (small blind) folded before Flop
+Seat 7: atlantisps (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345450638: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:50:33 UTC [2026/04/04 15:50:33 ET]
+Table '3989277405 1' 8-max Seat #6 is the button
+Seat 2: Josy Walking (4095 in chips) 
+Seat 4: scorza23 (6375 in chips) 
+Seat 5: ohanaaa (3378 in chips) 
+Seat 6: iguinnn (814 in chips) 
+Seat 7: atlantisps (3614 in chips) 
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+atlantisps: posts small blind 150
+Josy Walking: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6c]
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: folds 
+Uncalled bet (150) returned to Josy Walking
+Josy Walking collected 475 from pot
+Josy Walking: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 2: Josy Walking (big blind) collected (475)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn (button) folded before Flop (didn't bet)
+Seat 7: atlantisps (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345455022: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:50:53 UTC [2026/04/04 15:50:53 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 2: Josy Walking (4385 in chips) 
+Seat 4: scorza23 (6340 in chips) 
+Seat 5: ohanaaa (3343 in chips) 
+Seat 6: iguinnn (779 in chips) 
+Seat 7: atlantisps (3429 in chips) 
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+Josy Walking: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 7c]
+ohanaaa: folds 
+iguinnn: folds 
+atlantisps: raises 3094 to 3394 and is all-in
+Josy Walking: folds 
+scorza23: folds 
+Uncalled bet (3094) returned to atlantisps
+atlantisps collected 925 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Seat 2: Josy Walking (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: ohanaaa folded before Flop (didn't bet)
+Seat 6: iguinnn folded before Flop (didn't bet)
+Seat 7: atlantisps (button) collected (925)
+
+
+
+PokerStars Hand #260345458383: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:51:07 UTC [2026/04/04 15:51:07 ET]
+Table '3989277405 1' 8-max Seat #2 is the button
+Seat 2: Josy Walking (4200 in chips) 
+Seat 4: scorza23 (6005 in chips) 
+Seat 5: ohanaaa (3308 in chips) 
+Seat 6: iguinnn (744 in chips) 
+Seat 7: atlantisps (4019 in chips) 
+Josy Walking: posts the ante 35
+scorza23: posts the ante 35
+ohanaaa: posts the ante 35
+iguinnn: posts the ante 35
+atlantisps: posts the ante 35
+scorza23: posts small blind 150
+ohanaaa: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 2h]
+iguinnn: raises 409 to 709 and is all-in
+atlantisps: folds 
+Josy Walking: folds 
+scorza23: folds 
+ohanaaa: calls 409
+*** FLOP *** [2s Jc 4c]
+*** TURN *** [2s Jc 4c] [Qh]
+*** RIVER *** [2s Jc 4c Qh] [Qs]
+*** SHOW DOWN ***
+ohanaaa: shows [2c 5h] (two pair, Queens and Deuces)
+iguinnn: shows [2d Qd] (a full house, Queens full of Deuces)
+iguinnn collected 1743 from pot
+*** SUMMARY ***
+Total pot 1743 | Rake 0 
+Board [2s Jc 4c Qh Qs]
+Seat 2: Josy Walking (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: ohanaaa (big blind) showed [2c 5h] and lost with two pair, Queens and Deuces
+Seat 6: iguinnn showed [2d Qd] and won (1743) with a full house, Queens full of Deuces
+Seat 7: atlantisps folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345466256: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:51:43 UTC [2026/04/04 15:51:43 ET]
+Table '3989277405 1' 8-max Seat #4 is the button
+Seat 2: Josy Walking (4165 in chips) 
+Seat 4: scorza23 (5820 in chips) 
+Seat 5: ohanaaa (2564 in chips) 
+Seat 6: iguinnn (1743 in chips) 
+Seat 7: atlantisps (3984 in chips) 
+Josy Walking: posts the ante 50
+scorza23: posts the ante 50
+ohanaaa: posts the ante 50
+iguinnn: posts the ante 50
+atlantisps: posts the ante 50
+ohanaaa: posts small blind 200
+iguinnn: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 8s]
+atlantisps: raises 3534 to 3934 and is all-in
+Josy Walking: folds 
+scorza23: folds 
+ohanaaa: folds 
+iguinnn: calls 1293 and is all-in
+Uncalled bet (2241) returned to atlantisps
+*** FLOP *** [Qs Ks 2c]
+*** TURN *** [Qs Ks 2c] [4d]
+*** RIVER *** [Qs Ks 2c 4d] [Kc]
+*** SHOW DOWN ***
+iguinnn: shows [7c 7s] (two pair, Kings and Sevens)
+atlantisps: shows [Tc Td] (two pair, Kings and Tens)
+atlantisps collected 3836 from pot
+iguinnn finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 3836 | Rake 0 
+Board [Qs Ks 2c 4d Kc]
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: ohanaaa (small blind) folded before Flop
+Seat 6: iguinnn (big blind) showed [7c 7s] and lost with two pair, Kings and Sevens
+Seat 7: atlantisps showed [Tc Td] and won (3836) with two pair, Kings and Tens
+
+
+
+PokerStars Hand #260345471630: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:52:07 UTC [2026/04/04 15:52:07 ET]
+Table '3989277405 1' 8-max Seat #5 is the button
+Seat 2: Josy Walking (4115 in chips) 
+Seat 4: scorza23 (5770 in chips) 
+Seat 5: ohanaaa (2314 in chips) 
+Seat 7: atlantisps (6077 in chips) 
+Josy Walking: posts the ante 50
+scorza23: posts the ante 50
+ohanaaa: posts the ante 50
+atlantisps: posts the ante 50
+atlantisps: posts small blind 200
+Josy Walking: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 2c]
+scorza23: folds 
+ohanaaa: raises 1864 to 2264 and is all-in
+atlantisps: folds 
+Josy Walking: folds 
+Uncalled bet (1864) returned to ohanaaa
+ohanaaa collected 1200 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 2: Josy Walking (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: ohanaaa (button) collected (1200)
+Seat 7: atlantisps (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345475239: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:52:23 UTC [2026/04/04 15:52:23 ET]
+Table '3989277405 1' 8-max Seat #7 is the button
+Seat 2: Josy Walking (3665 in chips) 
+Seat 4: scorza23 (5720 in chips) 
+Seat 5: ohanaaa (3064 in chips) 
+Seat 7: atlantisps (5827 in chips) 
+Josy Walking: posts the ante 50
+scorza23: posts the ante 50
+ohanaaa: posts the ante 50
+atlantisps: posts the ante 50
+Josy Walking: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 6c]
+ohanaaa: raises 2614 to 3014 and is all-in
+atlantisps: folds 
+Josy Walking: folds 
+scorza23: folds 
+Uncalled bet (2614) returned to ohanaaa
+ohanaaa collected 1200 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 2: Josy Walking (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: ohanaaa collected (1200)
+Seat 7: atlantisps (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345477946: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:52:35 UTC [2026/04/04 15:52:35 ET]
+Table '3989277405 1' 8-max Seat #2 is the button
+Seat 2: Josy Walking (3415 in chips) 
+Seat 4: scorza23 (5270 in chips) 
+Seat 5: ohanaaa (3814 in chips) 
+Seat 7: atlantisps (5777 in chips) 
+Josy Walking: posts the ante 50
+scorza23: posts the ante 50
+ohanaaa: posts the ante 50
+atlantisps: posts the ante 50
+scorza23: posts small blind 200
+ohanaaa: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 9d]
+atlantisps: folds 
+Josy Walking: raises 2965 to 3365 and is all-in
+scorza23: calls 3165
+ohanaaa: folds 
+*** FLOP *** [Ad 6d 4c]
+*** TURN *** [Ad 6d 4c] [4h]
+*** RIVER *** [Ad 6d 4c 4h] [As]
+*** SHOW DOWN ***
+scorza23: shows [9s 9d] (two pair, Aces and Nines)
+Josy Walking: shows [Qh 8d] (two pair, Aces and Fours)
+scorza23 collected 7330 from pot
+Josy Walking finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 7330 | Rake 0 
+Board [Ad 6d 4c 4h As]
+Seat 2: Josy Walking (button) showed [Qh 8d] and lost with two pair, Aces and Fours
+Seat 4: scorza23 (small blind) showed [9s 9d] and won (7330) with two pair, Aces and Nines
+Seat 5: ohanaaa (big blind) folded before Flop
+Seat 7: atlantisps folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345490119: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:53:29 UTC [2026/04/04 15:53:29 ET]
+Table '3989277405 2' 8-max Seat #8 is the button
+Seat 2: OXYMOR3 (18051 in chips) 
+Seat 3: 18121971 (4854 in chips) 
+Seat 4: ohanaaa (3364 in chips) 
+Seat 5: scorza23 (9185 in chips) 
+Seat 6: atlantisps (5727 in chips) 
+Seat 7: regsanches (3495 in chips) 
+Seat 8: carlospx2 (3324 in chips) 
+OXYMOR3: posts the ante 50
+18121971: posts the ante 50
+ohanaaa: posts the ante 50
+scorza23: posts the ante 50
+atlantisps: posts the ante 50
+regsanches: posts the ante 50
+carlospx2: posts the ante 50
+OXYMOR3: posts small blind 200
+18121971: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Ac]
+ohanaaa: raises 2914 to 3314 and is all-in
+scorza23: folds 
+atlantisps: folds 
+regsanches: folds 
+carlospx2: folds 
+OXYMOR3: folds 
+18121971: folds 
+Uncalled bet (2914) returned to ohanaaa
+ohanaaa collected 1350 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1350 | Rake 0 
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 3: 18121971 (big blind) folded before Flop
+Seat 4: ohanaaa collected (1350)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches folded before Flop (didn't bet)
+Seat 8: carlospx2 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345496747: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:53:58 UTC [2026/04/04 15:53:58 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (17801 in chips) 
+Seat 3: 18121971 (4404 in chips) 
+Seat 4: ohanaaa (4264 in chips) 
+Seat 5: scorza23 (9135 in chips) 
+Seat 6: atlantisps (5677 in chips) 
+Seat 7: regsanches (3445 in chips) 
+Seat 8: carlospx2 (3274 in chips) 
+OXYMOR3: posts the ante 50
+18121971: posts the ante 50
+ohanaaa: posts the ante 50
+scorza23: posts the ante 50
+atlantisps: posts the ante 50
+regsanches: posts the ante 50
+carlospx2: posts the ante 50
+18121971: posts small blind 200
+ohanaaa: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Qh]
+scorza23: raises 400 to 800
+atlantisps: folds 
+regsanches: calls 800
+carlospx2: folds 
+OXYMOR3: folds 
+18121971: calls 600
+ohanaaa: folds 
+*** FLOP *** [3h As 8h]
+18121971: checks 
+scorza23: bets 1575
+regsanches: raises 1020 to 2595 and is all-in
+18121971: folds 
+scorza23: calls 1020
+*** TURN *** [3h As 8h] [3c]
+*** RIVER *** [3h As 8h 3c] [Ts]
+*** SHOW DOWN ***
+scorza23: shows [Ad Qh] (two pair, Aces and Threes)
+regsanches: shows [Ah Qd] (two pair, Aces and Threes)
+scorza23 collected 4170 from pot
+regsanches collected 4170 from pot
+*** SUMMARY ***
+Total pot 8340 | Rake 0 
+Board [3h As 8h 3c Ts]
+Seat 2: OXYMOR3 (button) folded before Flop (didn't bet)
+Seat 3: 18121971 (small blind) folded on the Flop
+Seat 4: ohanaaa (big blind) folded before Flop
+Seat 5: scorza23 showed [Ad Qh] and won (4170) with two pair, Aces and Threes
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches showed [Ah Qd] and won (4170) with two pair, Aces and Threes
+Seat 8: carlospx2 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345505109: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:54:36 UTC [2026/04/04 15:54:36 ET]
+Table '3989277405 2' 8-max Seat #3 is the button
+Seat 2: OXYMOR3 (17751 in chips) 
+Seat 3: 18121971 (3554 in chips) 
+Seat 4: ohanaaa (3814 in chips) 
+Seat 5: scorza23 (9860 in chips) 
+Seat 6: atlantisps (5627 in chips) 
+Seat 7: regsanches (4170 in chips) 
+Seat 8: carlospx2 (3224 in chips) 
+OXYMOR3: posts the ante 50
+18121971: posts the ante 50
+ohanaaa: posts the ante 50
+scorza23: posts the ante 50
+atlantisps: posts the ante 50
+regsanches: posts the ante 50
+carlospx2: posts the ante 50
+ohanaaa: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 8c]
+atlantisps: folds 
+regsanches: raises 400 to 800
+carlospx2: folds 
+OXYMOR3: folds 
+18121971: raises 2704 to 3504 and is all-in
+ohanaaa: folds 
+scorza23: folds 
+regsanches: calls 2704
+*** FLOP *** [Kd 4h 5d]
+*** TURN *** [Kd 4h 5d] [4c]
+*** RIVER *** [Kd 4h 5d 4c] [As]
+*** SHOW DOWN ***
+regsanches: shows [Jc Ac] (two pair, Aces and Fours)
+18121971: shows [Qh Qs] (two pair, Queens and Fours)
+regsanches collected 7958 from pot
+18121971 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 7958 | Rake 0 
+Board [Kd 4h 5d 4c As]
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 3: 18121971 (button) showed [Qh Qs] and lost with two pair, Queens and Fours
+Seat 4: ohanaaa (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches showed [Jc Ac] and won (7958) with two pair, Aces and Fours
+Seat 8: carlospx2 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345510474: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 19:55:00 UTC [2026/04/04 15:55:00 ET]
+Table '3989277405 2' 8-max Seat #4 is the button
+Seat 2: OXYMOR3 (17701 in chips) 
+Seat 4: ohanaaa (3564 in chips) 
+Seat 5: scorza23 (9410 in chips) 
+Seat 6: atlantisps (5577 in chips) 
+Seat 7: regsanches (8574 in chips) 
+Seat 8: carlospx2 (3174 in chips) 
+OXYMOR3: posts the ante 50
+ohanaaa: posts the ante 50
+scorza23: posts the ante 50
+atlantisps: posts the ante 50
+regsanches: posts the ante 50
+carlospx2: posts the ante 50
+scorza23: posts small blind 200
+atlantisps: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 5h]
+regsanches: raises 400 to 800
+carlospx2: folds 
+OXYMOR3: folds 
+ohanaaa: folds 
+scorza23: folds 
+atlantisps: folds 
+Uncalled bet (400) returned to regsanches
+regsanches collected 1300 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 4: ohanaaa (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) folded before Flop
+Seat 7: regsanches collected (1300)
+Seat 8: carlospx2 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345559310: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 20:00:18 UTC [2026/04/04 16:00:18 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (17651 in chips) 
+Seat 4: ohanaaa (3514 in chips) 
+Seat 5: scorza23 (9160 in chips) 
+Seat 6: atlantisps (5127 in chips) 
+Seat 7: regsanches (9424 in chips) 
+Seat 8: carlospx2 (3124 in chips) 
+OXYMOR3: posts the ante 50
+ohanaaa: posts the ante 50
+scorza23: posts the ante 50
+atlantisps: posts the ante 50
+regsanches: posts the ante 50
+carlospx2: posts the ante 50
+atlantisps: posts small blind 200
+regsanches: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Qs]
+carlospx2: folds 
+OXYMOR3: raises 416 to 816
+ohanaaa: folds 
+scorza23: folds 
+atlantisps: folds 
+regsanches has timed out
+regsanches: folds 
+regsanches is sitting out
+Uncalled bet (416) returned to OXYMOR3
+regsanches has returned
+OXYMOR3 collected 1300 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 2: OXYMOR3 collected (1300)
+Seat 4: ohanaaa folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: atlantisps (small blind) folded before Flop
+Seat 7: regsanches (big blind) folded before Flop
+Seat 8: carlospx2 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345568314: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 20:01:11 UTC [2026/04/04 16:01:11 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (18501 in chips) 
+Seat 4: ohanaaa (3464 in chips) 
+Seat 5: scorza23 (9110 in chips) 
+Seat 6: atlantisps (4877 in chips) 
+Seat 7: regsanches (8974 in chips) 
+Seat 8: carlospx2 (3074 in chips) 
+OXYMOR3: posts the ante 50
+ohanaaa: posts the ante 50
+scorza23: posts the ante 50
+atlantisps: posts the ante 50
+regsanches: posts the ante 50
+carlospx2: posts the ante 50
+regsanches: posts small blind 200
+carlospx2: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 8d]
+OXYMOR3: folds 
+ohanaaa: folds 
+scorza23: raises 400 to 800
+atlantisps: folds 
+regsanches: folds 
+carlospx2: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 1300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 4: ohanaaa folded before Flop (didn't bet)
+Seat 5: scorza23 collected (1300)
+Seat 6: atlantisps (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) folded before Flop
+Seat 8: carlospx2 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345572936: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 20:01:35 UTC [2026/04/04 16:01:35 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (18451 in chips) 
+Seat 4: ohanaaa (3414 in chips) 
+Seat 5: scorza23 (9960 in chips) 
+Seat 6: atlantisps (4827 in chips) 
+Seat 7: regsanches (8724 in chips) 
+Seat 8: carlospx2 (2624 in chips) 
+OXYMOR3: posts the ante 50
+ohanaaa: posts the ante 50
+scorza23: posts the ante 50
+atlantisps: posts the ante 50
+regsanches: posts the ante 50
+carlospx2: posts the ante 50
+carlospx2: posts small blind 200
+OXYMOR3: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 4c]
+ohanaaa: folds 
+scorza23: folds 
+atlantisps: folds 
+regsanches: raises 400 to 800
+carlospx2: folds 
+OXYMOR3: folds 
+Uncalled bet (400) returned to regsanches
+regsanches collected 1300 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 2: OXYMOR3 (big blind) folded before Flop
+Seat 4: ohanaaa folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) collected (1300)
+Seat 8: carlospx2 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345579021: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:02:05 UTC [2026/04/04 16:02:05 ET]
+Table '3989277405 2' 8-max Seat #8 is the button
+Seat 2: OXYMOR3 (18001 in chips) 
+Seat 4: ohanaaa (3364 in chips) 
+Seat 5: scorza23 (9910 in chips) 
+Seat 6: atlantisps (4777 in chips) 
+Seat 7: regsanches (9574 in chips) 
+Seat 8: carlospx2 (2374 in chips) 
+OXYMOR3: posts the ante 75
+ohanaaa: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+carlospx2: posts the ante 75
+OXYMOR3: posts small blind 300
+ohanaaa: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 9d]
+scorza23: folds 
+atlantisps: folds 
+regsanches: raises 600 to 1200
+carlospx2: folds 
+OXYMOR3: folds 
+ohanaaa: calls 600
+*** FLOP *** [Ac Qd Qh]
+ohanaaa: checks 
+regsanches: checks 
+*** TURN *** [Ac Qd Qh] [Qc]
+ohanaaa: checks 
+regsanches: checks 
+*** RIVER *** [Ac Qd Qh Qc] [4s]
+ohanaaa: checks 
+regsanches: bets 3150
+ohanaaa: folds 
+Uncalled bet (3150) returned to regsanches
+regsanches collected 3150 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 3150 | Rake 0 
+Board [Ac Qd Qh Qc 4s]
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 4: ohanaaa (big blind) folded on the River
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches collected (3150)
+Seat 8: carlospx2 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345589460: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:02:52 UTC [2026/04/04 16:02:52 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (17626 in chips) 
+Seat 4: ohanaaa (2089 in chips) 
+Seat 5: scorza23 (9835 in chips) 
+Seat 6: atlantisps (4702 in chips) 
+Seat 7: regsanches (11449 in chips) 
+Seat 8: carlospx2 (2299 in chips) 
+OXYMOR3: posts the ante 75
+ohanaaa: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+carlospx2: posts the ante 75
+ohanaaa: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 7c]
+atlantisps: folds 
+regsanches: folds 
+carlospx2: folds 
+OXYMOR3: raises 16951 to 17551 and is all-in
+ohanaaa: folds 
+scorza23: folds 
+Uncalled bet (16951) returned to OXYMOR3
+OXYMOR3 collected 1950 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 1950 | Rake 0 
+Seat 2: OXYMOR3 (button) collected (1950)
+Seat 4: ohanaaa (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches folded before Flop (didn't bet)
+Seat 8: carlospx2 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345595602: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:03:20 UTC [2026/04/04 16:03:20 ET]
+Table '3989277405 2' 8-max Seat #4 is the button
+Seat 2: OXYMOR3 (18901 in chips) 
+Seat 4: ohanaaa (1714 in chips) 
+Seat 5: scorza23 (9160 in chips) 
+Seat 6: atlantisps (4627 in chips) 
+Seat 7: regsanches (11374 in chips) 
+Seat 8: carlospx2 (2224 in chips) 
+OXYMOR3: posts the ante 75
+ohanaaa: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+carlospx2: posts the ante 75
+scorza23: posts small blind 300
+atlantisps: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 5c]
+regsanches: raises 600 to 1200
+carlospx2: folds 
+OXYMOR3: folds 
+ohanaaa: folds 
+scorza23: folds 
+atlantisps: calls 600
+*** FLOP *** [As 7h 6s]
+atlantisps: checks 
+regsanches: bets 1200
+atlantisps: folds 
+Uncalled bet (1200) returned to regsanches
+regsanches collected 3150 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 3150 | Rake 0 
+Board [As 7h 6s]
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 4: ohanaaa (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) folded on the Flop
+Seat 7: regsanches collected (3150)
+Seat 8: carlospx2 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345606166: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:04:05 UTC [2026/04/04 16:04:05 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (18826 in chips) 
+Seat 4: ohanaaa (1639 in chips) 
+Seat 5: scorza23 (8785 in chips) 
+Seat 6: atlantisps (3352 in chips) 
+Seat 7: regsanches (13249 in chips) 
+Seat 8: carlospx2 (2149 in chips) 
+OXYMOR3: posts the ante 75
+ohanaaa: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+carlospx2: posts the ante 75
+atlantisps: posts small blind 300
+regsanches: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 9s]
+carlospx2: raises 1474 to 2074 and is all-in
+OXYMOR3: folds 
+ohanaaa: folds 
+scorza23: folds 
+atlantisps: folds 
+regsanches: calls 1474
+*** FLOP *** [Js 7s 5d]
+*** TURN *** [Js 7s 5d] [6s]
+*** RIVER *** [Js 7s 5d 6s] [6c]
+*** SHOW DOWN ***
+regsanches: shows [3d 4d] (a straight, Three to Seven)
+carlospx2: shows [As Qh] (a pair of Sixes)
+regsanches collected 4898 from pot
+carlospx2 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 4898 | Rake 0 
+Board [Js 7s 5d 6s 6c]
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 4: ohanaaa folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: atlantisps (small blind) folded before Flop
+Seat 7: regsanches (big blind) showed [3d 4d] and won (4898) with a straight, Three to Seven
+Seat 8: carlospx2 showed [As Qh] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #260345612403: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:04:32 UTC [2026/04/04 16:04:32 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (18751 in chips) 
+Seat 4: ohanaaa (1564 in chips) 
+Seat 5: scorza23 (8710 in chips) 
+Seat 6: atlantisps (2977 in chips) 
+Seat 7: regsanches (15998 in chips) 
+OXYMOR3: posts the ante 75
+ohanaaa: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+regsanches: posts small blind 300
+OXYMOR3: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Ts]
+ohanaaa: raises 889 to 1489 and is all-in
+scorza23: folds 
+atlantisps: folds 
+regsanches: calls 1189
+OXYMOR3: raises 17187 to 18676 and is all-in
+regsanches: folds 
+Uncalled bet (17187) returned to OXYMOR3
+*** FLOP *** [As Jh 7h]
+*** TURN *** [As Jh 7h] [6d]
+*** RIVER *** [As Jh 7h 6d] [2s]
+*** SHOW DOWN ***
+OXYMOR3: shows [Qh Ac] (a pair of Aces)
+ohanaaa: shows [Ah 5d] (a pair of Aces - lower kicker)
+OXYMOR3 collected 4842 from pot
+ohanaaa finished the tournament in 5th place and received $2.07.
+*** SUMMARY ***
+Total pot 4842 | Rake 0 
+Board [As Jh 7h 6d 2s]
+Seat 2: OXYMOR3 (big blind) showed [Qh Ac] and won (4842) with a pair of Aces
+Seat 4: ohanaaa showed [Ah 5d] and lost with a pair of Aces
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345619468: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:05:02 UTC [2026/04/04 16:05:02 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (22029 in chips) 
+Seat 5: scorza23 (8635 in chips) 
+Seat 6: atlantisps (2902 in chips) 
+Seat 7: regsanches (14434 in chips) 
+OXYMOR3: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+OXYMOR3: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Jd]
+atlantisps: folds 
+regsanches: raises 600 to 1200
+OXYMOR3: folds 
+scorza23: calls 600
+*** FLOP *** [3d 6h Kd]
+scorza23: checks 
+regsanches: bets 1200
+scorza23: folds 
+Uncalled bet (1200) returned to regsanches
+regsanches collected 3000 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Board [3d 6h Kd]
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) collected (3000)
+
+
+
+PokerStars Hand #260345626524: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:05:32 UTC [2026/04/04 16:05:32 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (21654 in chips) 
+Seat 5: scorza23 (7360 in chips) 
+Seat 6: atlantisps (2827 in chips) 
+Seat 7: regsanches (16159 in chips) 
+OXYMOR3: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+scorza23: posts small blind 300
+atlantisps: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Ad]
+regsanches: folds 
+OXYMOR3: raises 20979 to 21579 and is all-in
+scorza23: folds 
+atlantisps: calls 2152 and is all-in
+Uncalled bet (18827) returned to OXYMOR3
+*** FLOP *** [Kd Tc 3c]
+*** TURN *** [Kd Tc 3c] [6h]
+*** RIVER *** [Kd Tc 3c 6h] [7h]
+*** SHOW DOWN ***
+atlantisps: shows [Ac 7c] (a pair of Sevens)
+OXYMOR3: shows [Qc Ah] (high card Ace)
+atlantisps collected 6104 from pot
+*** SUMMARY ***
+Total pot 6104 | Rake 0 
+Board [Kd Tc 3c 6h 7h]
+Seat 2: OXYMOR3 (button) showed [Qc Ah] and lost with high card Ace
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) showed [Ac 7c] and won (6104) with a pair of Sevens
+Seat 7: regsanches folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345632360: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:05:57 UTC [2026/04/04 16:05:57 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (18827 in chips) 
+Seat 5: scorza23 (6985 in chips) 
+Seat 6: atlantisps (6104 in chips) 
+Seat 7: regsanches (16084 in chips) 
+OXYMOR3: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+atlantisps: posts small blind 300
+regsanches: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 9c]
+OXYMOR3: folds 
+scorza23: folds 
+atlantisps: raises 5429 to 6029 and is all-in
+regsanches: folds 
+Uncalled bet (5429) returned to atlantisps
+atlantisps collected 1500 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 1500 | Rake 0 
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: atlantisps (small blind) collected (1500)
+Seat 7: regsanches (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345638069: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:06:21 UTC [2026/04/04 16:06:21 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (18752 in chips) 
+Seat 5: scorza23 (6910 in chips) 
+Seat 6: atlantisps (6929 in chips) 
+Seat 7: regsanches (15409 in chips) 
+OXYMOR3: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+regsanches: posts small blind 300
+OXYMOR3: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 7c]
+scorza23: raises 1800 to 2400
+atlantisps: folds 
+regsanches: folds 
+OXYMOR3: folds 
+Uncalled bet (1800) returned to scorza23
+scorza23 collected 1800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1800 | Rake 0 
+Seat 2: OXYMOR3 (big blind) folded before Flop
+Seat 5: scorza23 collected (1800)
+Seat 6: atlantisps (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345641081: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 20:06:34 UTC [2026/04/04 16:06:34 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (18077 in chips) 
+Seat 5: scorza23 (8035 in chips) 
+Seat 6: atlantisps (6854 in chips) 
+Seat 7: regsanches (15034 in chips) 
+OXYMOR3: posts the ante 75
+scorza23: posts the ante 75
+atlantisps: posts the ante 75
+regsanches: posts the ante 75
+OXYMOR3: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Qc]
+atlantisps: folds 
+regsanches: folds 
+OXYMOR3: folds 
+Uncalled bet (300) returned to scorza23
+scorza23 collected 900 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (900)
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345644550: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:06:49 UTC [2026/04/04 16:06:49 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (17702 in chips) 
+Seat 5: scorza23 (8560 in chips) 
+Seat 6: atlantisps (6779 in chips) 
+Seat 7: regsanches (14959 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+scorza23: posts small blind 400
+atlantisps: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Td]
+regsanches: folds 
+OXYMOR3: folds 
+scorza23: raises 1600 to 2400
+atlantisps: folds 
+Uncalled bet (1600) returned to scorza23
+scorza23 collected 2000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Seat 2: OXYMOR3 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (2000)
+Seat 6: atlantisps (big blind) folded before Flop
+Seat 7: regsanches folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345647515: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:07:02 UTC [2026/04/04 16:07:02 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (17602 in chips) 
+Seat 5: scorza23 (9660 in chips) 
+Seat 6: atlantisps (5879 in chips) 
+Seat 7: regsanches (14859 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+atlantisps: posts small blind 400
+regsanches: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 8h]
+OXYMOR3: raises 16702 to 17502 and is all-in
+scorza23: folds 
+atlantisps: folds 
+regsanches: folds 
+Uncalled bet (16702) returned to OXYMOR3
+OXYMOR3 collected 2400 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 2: OXYMOR3 collected (2400)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: atlantisps (small blind) folded before Flop
+Seat 7: regsanches (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345650626: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:07:15 UTC [2026/04/04 16:07:15 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (19102 in chips) 
+Seat 5: scorza23 (9560 in chips) 
+Seat 6: atlantisps (5379 in chips) 
+Seat 7: regsanches (13959 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+regsanches: posts small blind 400
+OXYMOR3: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3h]
+scorza23: folds 
+atlantisps: raises 4479 to 5279 and is all-in
+regsanches: folds 
+OXYMOR3: folds 
+Uncalled bet (4479) returned to atlantisps
+atlantisps collected 2400 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 2: OXYMOR3 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps (button) collected (2400)
+Seat 7: regsanches (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345655279: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:07:34 UTC [2026/04/04 16:07:34 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (18202 in chips) 
+Seat 5: scorza23 (9460 in chips) 
+Seat 6: atlantisps (6879 in chips) 
+Seat 7: regsanches (13459 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+OXYMOR3: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 5h]
+atlantisps: folds 
+regsanches: calls 800
+OXYMOR3: raises 17302 to 18102 and is all-in
+scorza23: folds 
+regsanches: folds 
+Uncalled bet (17302) returned to OXYMOR3
+OXYMOR3 collected 2800 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 2800 | Rake 0 
+Seat 2: OXYMOR3 (small blind) collected (2800)
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) folded before Flop
+
+
+
+PokerStars Hand #260345662677: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:08:06 UTC [2026/04/04 16:08:06 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (20102 in chips) 
+Seat 5: scorza23 (8560 in chips) 
+Seat 6: atlantisps (6779 in chips) 
+Seat 7: regsanches (12559 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+scorza23: posts small blind 400
+atlantisps: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 7d]
+regsanches: raises 800 to 1600
+OXYMOR3: folds 
+scorza23: folds 
+atlantisps: folds 
+Uncalled bet (800) returned to regsanches
+regsanches collected 2400 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 2: OXYMOR3 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) folded before Flop
+Seat 7: regsanches collected (2400)
+
+
+
+PokerStars Hand #260345666369: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:08:21 UTC [2026/04/04 16:08:21 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (20002 in chips) 
+Seat 5: scorza23 (8060 in chips) 
+Seat 6: atlantisps (5879 in chips) 
+Seat 7: regsanches (14059 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+atlantisps: posts small blind 400
+regsanches: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Qh]
+OXYMOR3: folds 
+scorza23: raises 1600 to 2400
+atlantisps: folds 
+regsanches: calls 1600
+*** FLOP *** [2d Kd 4s]
+regsanches: checks 
+scorza23: bets 2400
+regsanches: folds 
+Uncalled bet (2400) returned to scorza23
+scorza23 collected 5600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 5600 | Rake 0 
+Board [2d Kd 4s]
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (5600)
+Seat 6: atlantisps (small blind) folded before Flop
+Seat 7: regsanches (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260345671957: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:08:45 UTC [2026/04/04 16:08:45 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (19902 in chips) 
+Seat 5: scorza23 (11160 in chips) 
+Seat 6: atlantisps (5379 in chips) 
+Seat 7: regsanches (11559 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+regsanches: posts small blind 400
+OXYMOR3: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Kd]
+scorza23: folds 
+atlantisps: folds 
+regsanches: raises 800 to 1600
+OXYMOR3: folds 
+Uncalled bet (800) returned to regsanches
+regsanches collected 2000 from pot
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Seat 2: OXYMOR3 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) collected (2000)
+
+
+
+PokerStars Hand #260345674791: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:08:57 UTC [2026/04/04 16:08:57 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (19002 in chips) 
+Seat 5: scorza23 (11060 in chips) 
+Seat 6: atlantisps (5279 in chips) 
+Seat 7: regsanches (12659 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+OXYMOR3: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7c]
+atlantisps: folds 
+regsanches: raises 800 to 1600
+OXYMOR3: raises 17302 to 18902 and is all-in
+scorza23: folds 
+regsanches: folds 
+Uncalled bet (17302) returned to OXYMOR3
+OXYMOR3 collected 4400 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 4400 | Rake 0 
+Seat 2: OXYMOR3 (small blind) collected (4400)
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) folded before Flop
+
+
+
+PokerStars Hand #260345679357: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:09:16 UTC [2026/04/04 16:09:16 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (21702 in chips) 
+Seat 5: scorza23 (10160 in chips) 
+Seat 6: atlantisps (5179 in chips) 
+Seat 7: regsanches (10959 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+scorza23: posts small blind 400
+atlantisps: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Ad]
+regsanches: folds 
+OXYMOR3: raises 20802 to 21602 and is all-in
+scorza23: folds 
+atlantisps: folds 
+Uncalled bet (20802) returned to OXYMOR3
+OXYMOR3 collected 2400 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 2: OXYMOR3 (button) collected (2400)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) folded before Flop
+Seat 7: regsanches folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345682809: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:09:30 UTC [2026/04/04 16:09:30 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (23202 in chips) 
+Seat 5: scorza23 (9660 in chips) 
+Seat 6: atlantisps (4279 in chips) 
+Seat 7: regsanches (10859 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+atlantisps: posts small blind 400
+regsanches: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 6c]
+OXYMOR3: folds 
+scorza23: folds 
+atlantisps: raises 3379 to 4179 and is all-in
+regsanches: folds 
+Uncalled bet (3379) returned to atlantisps
+atlantisps collected 2000 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: atlantisps (small blind) collected (2000)
+Seat 7: regsanches (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345686860: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:09:48 UTC [2026/04/04 16:09:48 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (23102 in chips) 
+Seat 5: scorza23 (9560 in chips) 
+Seat 6: atlantisps (5379 in chips) 
+Seat 7: regsanches (9959 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+regsanches: posts small blind 400
+OXYMOR3: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 4d]
+scorza23: folds 
+atlantisps: folds 
+regsanches: calls 400
+OXYMOR3: raises 22202 to 23002 and is all-in
+regsanches: folds 
+Uncalled bet (22202) returned to OXYMOR3
+OXYMOR3 collected 2000 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Seat 2: OXYMOR3 (big blind) collected (2000)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345691033: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:10:05 UTC [2026/04/04 16:10:05 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (24202 in chips) 
+Seat 5: scorza23 (9460 in chips) 
+Seat 6: atlantisps (5279 in chips) 
+Seat 7: regsanches (9059 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+OXYMOR3: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 7h]
+atlantisps: folds 
+regsanches: raises 800 to 1600
+OXYMOR3: folds 
+scorza23: folds 
+Uncalled bet (800) returned to regsanches
+regsanches collected 2400 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) collected (2400)
+
+
+
+PokerStars Hand #260345693755: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:10:17 UTC [2026/04/04 16:10:17 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (23702 in chips) 
+Seat 5: scorza23 (8560 in chips) 
+Seat 6: atlantisps (5179 in chips) 
+Seat 7: regsanches (10559 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+scorza23: posts small blind 400
+atlantisps: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3h]
+regsanches: folds 
+OXYMOR3: folds 
+scorza23: folds 
+Uncalled bet (400) returned to atlantisps
+atlantisps collected 1200 from pot
+atlantisps: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 2: OXYMOR3 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) collected (1200)
+Seat 7: regsanches folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345696267: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:10:28 UTC [2026/04/04 16:10:28 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (23602 in chips) 
+Seat 5: scorza23 (8060 in chips) 
+Seat 6: atlantisps (5879 in chips) 
+Seat 7: regsanches (10459 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+atlantisps: posts small blind 400
+regsanches: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 3h]
+OXYMOR3: folds 
+scorza23: raises 1600 to 2400
+atlantisps: folds 
+regsanches: calls 1600
+*** FLOP *** [6c 5s 8h]
+regsanches: bets 1600
+scorza23: raises 3960 to 5560 and is all-in
+regsanches: folds 
+Uncalled bet (3960) returned to scorza23
+scorza23 collected 8800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 8800 | Rake 0 
+Board [6c 5s 8h]
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (8800)
+Seat 6: atlantisps (small blind) folded before Flop
+Seat 7: regsanches (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260345703234: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:10:57 UTC [2026/04/04 16:10:57 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (23502 in chips) 
+Seat 5: scorza23 (12760 in chips) 
+Seat 6: atlantisps (5379 in chips) 
+Seat 7: regsanches (6359 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+regsanches: posts small blind 400
+OXYMOR3: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Js]
+scorza23: raises 1600 to 2400
+atlantisps: folds 
+regsanches: folds 
+OXYMOR3: folds 
+Uncalled bet (1600) returned to scorza23
+scorza23 collected 2400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 2: OXYMOR3 (big blind) folded before Flop
+Seat 5: scorza23 collected (2400)
+Seat 6: atlantisps (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345707706: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:11:16 UTC [2026/04/04 16:11:16 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (22602 in chips) 
+Seat 5: scorza23 (14260 in chips) 
+Seat 6: atlantisps (5279 in chips) 
+Seat 7: regsanches (5859 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+OXYMOR3: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 9d]
+atlantisps: folds 
+regsanches: raises 4959 to 5759 and is all-in
+OXYMOR3: raises 16743 to 22502 and is all-in
+scorza23: folds 
+Uncalled bet (16743) returned to OXYMOR3
+*** FLOP *** [Td Ks Th]
+*** TURN *** [Td Ks Th] [6d]
+*** RIVER *** [Td Ks Th 6d] [Kh]
+*** SHOW DOWN ***
+OXYMOR3: shows [As 8h] (two pair, Kings and Tens)
+regsanches: shows [4d Ac] (two pair, Kings and Tens)
+OXYMOR3 collected 6359 from pot
+regsanches collected 6359 from pot
+*** SUMMARY ***
+Total pot 12718 | Rake 0 
+Board [Td Ks Th 6d Kh]
+Seat 2: OXYMOR3 (small blind) showed [As 8h] and won (6359) with two pair, Kings and Tens
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) showed [4d Ac] and won (6359) with two pair, Kings and Tens
+
+
+
+PokerStars Hand #260345713113: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/04 20:11:39 UTC [2026/04/04 16:11:39 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (23102 in chips) 
+Seat 5: scorza23 (13360 in chips) 
+Seat 6: atlantisps (5179 in chips) 
+Seat 7: regsanches (6359 in chips) 
+OXYMOR3: posts the ante 100
+scorza23: posts the ante 100
+atlantisps: posts the ante 100
+regsanches: posts the ante 100
+scorza23: posts small blind 400
+atlantisps: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 6h]
+regsanches: raises 5459 to 6259 and is all-in
+OXYMOR3: raises 16743 to 23002 and is all-in
+scorza23: folds 
+atlantisps: folds 
+Uncalled bet (16743) returned to OXYMOR3
+*** FLOP *** [5h 2h 6c]
+*** TURN *** [5h 2h 6c] [6s]
+*** RIVER *** [5h 2h 6c 6s] [9d]
+*** SHOW DOWN ***
+regsanches: shows [Ad 8s] (a pair of Sixes)
+OXYMOR3: shows [Kd Qc] (a pair of Sixes - lower kicker)
+regsanches collected 14118 from pot
+*** SUMMARY ***
+Total pot 14118 | Rake 0 
+Board [5h 2h 6c 6s 9d]
+Seat 2: OXYMOR3 (button) showed [Kd Qc] and lost with a pair of Sixes
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) folded before Flop
+Seat 7: regsanches showed [Ad 8s] and won (14118) with a pair of Sixes
+
+
+
+PokerStars Hand #260345719944: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:12:08 UTC [2026/04/04 16:12:08 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (16743 in chips) 
+Seat 5: scorza23 (12860 in chips) 
+Seat 6: atlantisps (4279 in chips) 
+Seat 7: regsanches (14118 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+atlantisps: posts the ante 125
+regsanches: posts the ante 125
+atlantisps: posts small blind 500
+regsanches: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9h]
+OXYMOR3: raises 15618 to 16618 and is all-in
+scorza23: folds 
+atlantisps: folds 
+regsanches: folds 
+Uncalled bet (15618) returned to OXYMOR3
+OXYMOR3 collected 3000 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Seat 2: OXYMOR3 collected (3000)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: atlantisps (small blind) folded before Flop
+Seat 7: regsanches (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345724150: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:12:26 UTC [2026/04/04 16:12:26 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (18618 in chips) 
+Seat 5: scorza23 (12735 in chips) 
+Seat 6: atlantisps (3654 in chips) 
+Seat 7: regsanches (12993 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+atlantisps: posts the ante 125
+regsanches: posts the ante 125
+regsanches: posts small blind 500
+OXYMOR3: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9s]
+scorza23: folds 
+atlantisps: folds 
+regsanches: calls 500
+OXYMOR3: checks 
+*** FLOP *** [2d 3c 7h]
+regsanches: checks 
+OXYMOR3: checks 
+*** TURN *** [2d 3c 7h] [Jc]
+regsanches: bets 2500
+OXYMOR3: folds 
+Uncalled bet (2500) returned to regsanches
+regsanches collected 2500 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Board [2d 3c 7h Jc]
+Seat 2: OXYMOR3 (big blind) folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) collected (2500)
+
+
+
+PokerStars Hand #260345735216: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:13:14 UTC [2026/04/04 16:13:14 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (17493 in chips) 
+Seat 5: scorza23 (12610 in chips) 
+Seat 6: atlantisps (3529 in chips) 
+Seat 7: regsanches (14368 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+atlantisps: posts the ante 125
+regsanches: posts the ante 125
+OXYMOR3: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 4s]
+atlantisps: folds 
+regsanches: calls 1000
+OXYMOR3: folds 
+scorza23: checks 
+*** FLOP *** [4c Kh 5s]
+scorza23: checks 
+regsanches: bets 2000
+scorza23: folds 
+Uncalled bet (2000) returned to regsanches
+regsanches collected 3000 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Board [4c Kh 5s]
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Flop
+Seat 6: atlantisps folded before Flop (didn't bet)
+Seat 7: regsanches (button) collected (3000)
+
+
+
+PokerStars Hand #260345740613: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:13:37 UTC [2026/04/04 16:13:37 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (16868 in chips) 
+Seat 5: scorza23 (11485 in chips) 
+Seat 6: atlantisps (3404 in chips) 
+Seat 7: regsanches (16243 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+atlantisps: posts the ante 125
+regsanches: posts the ante 125
+scorza23: posts small blind 500
+atlantisps: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Ks]
+regsanches: raises 1000 to 2000
+OXYMOR3: folds 
+scorza23: folds 
+atlantisps: folds 
+Uncalled bet (1000) returned to regsanches
+regsanches collected 3000 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Seat 2: OXYMOR3 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: atlantisps (big blind) folded before Flop
+Seat 7: regsanches collected (3000)
+
+
+
+PokerStars Hand #260345745757: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:13:59 UTC [2026/04/04 16:13:59 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (16743 in chips) 
+Seat 5: scorza23 (10860 in chips) 
+Seat 6: atlantisps (2279 in chips) 
+Seat 7: regsanches (18118 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+atlantisps: posts the ante 125
+regsanches: posts the ante 125
+atlantisps: posts small blind 500
+regsanches: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 8s]
+OXYMOR3: folds 
+scorza23: raises 2000 to 3000
+atlantisps: folds 
+regsanches: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 3000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Seat 2: OXYMOR3 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (3000)
+Seat 6: atlantisps (small blind) folded before Flop
+Seat 7: regsanches (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345751087: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:14:22 UTC [2026/04/04 16:14:22 ET]
+Table '3989277405 2' 8-max Seat #6 is the button
+Seat 2: OXYMOR3 (16618 in chips) 
+Seat 5: scorza23 (12735 in chips) 
+Seat 6: atlantisps (1654 in chips) 
+Seat 7: regsanches (16993 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+atlantisps: posts the ante 125
+regsanches: posts the ante 125
+regsanches: posts small blind 500
+OXYMOR3: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4h]
+scorza23: folds 
+atlantisps: raises 529 to 1529 and is all-in
+regsanches: folds 
+OXYMOR3: calls 529
+*** FLOP *** [Kh Th Jh]
+*** TURN *** [Kh Th Jh] [4s]
+*** RIVER *** [Kh Th Jh 4s] [7s]
+*** SHOW DOWN ***
+OXYMOR3: shows [6d Tc] (a pair of Tens)
+atlantisps: shows [3d As] (high card Ace)
+OXYMOR3 collected 4058 from pot
+atlantisps finished the tournament in 4th place and received $3.17.
+*** SUMMARY ***
+Total pot 4058 | Rake 0 
+Board [Kh Th Jh 4s 7s]
+Seat 2: OXYMOR3 (big blind) showed [6d Tc] and won (4058) with a pair of Tens
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: atlantisps (button) showed [3d As] and lost with high card Ace
+Seat 7: regsanches (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345756401: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:14:44 UTC [2026/04/04 16:14:44 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (19022 in chips) 
+Seat 5: scorza23 (12610 in chips) 
+Seat 7: regsanches (16368 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+OXYMOR3: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ah]
+regsanches: folds 
+OXYMOR3: folds 
+Uncalled bet (500) returned to scorza23
+scorza23 collected 1375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1375 | Rake 0 
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (1375)
+Seat 7: regsanches (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345759371: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:14:57 UTC [2026/04/04 16:14:57 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (18397 in chips) 
+Seat 5: scorza23 (13360 in chips) 
+Seat 7: regsanches (16243 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+scorza23: posts small blind 500
+regsanches: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Td]
+OXYMOR3: raises 17272 to 18272 and is all-in
+scorza23: folds 
+regsanches: folds 
+Uncalled bet (17272) returned to OXYMOR3
+OXYMOR3 collected 2875 from pot
+OXYMOR3: doesn't show hand 
+*** SUMMARY ***
+Total pot 2875 | Rake 0 
+Seat 2: OXYMOR3 (button) collected (2875)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 7: regsanches (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345761615: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:15:07 UTC [2026/04/04 16:15:07 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (20147 in chips) 
+Seat 5: scorza23 (12735 in chips) 
+Seat 7: regsanches (15118 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+regsanches: posts small blind 500
+OXYMOR3: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7c]
+scorza23: folds 
+regsanches: raises 1000 to 2000
+OXYMOR3: calls 1000
+*** FLOP *** [2h Jh 3c]
+regsanches: bets 2000
+OXYMOR3: folds 
+Uncalled bet (2000) returned to regsanches
+regsanches collected 4375 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 4375 | Rake 0 
+Board [2h Jh 3c]
+Seat 2: OXYMOR3 (big blind) folded on the Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: regsanches (small blind) collected (4375)
+
+
+
+PokerStars Hand #260345767065: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:15:30 UTC [2026/04/04 16:15:30 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (18022 in chips) 
+Seat 5: scorza23 (12610 in chips) 
+Seat 7: regsanches (17368 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+OXYMOR3: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2c]
+regsanches: folds 
+OXYMOR3: folds 
+Uncalled bet (500) returned to scorza23
+scorza23 collected 1375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1375 | Rake 0 
+Seat 2: OXYMOR3 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (1375)
+Seat 7: regsanches (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345769393: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:15:40 UTC [2026/04/04 16:15:40 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (17397 in chips) 
+Seat 5: scorza23 (13360 in chips) 
+Seat 7: regsanches (17243 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+scorza23: posts small blind 500
+regsanches: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Qc]
+OXYMOR3: folds 
+scorza23: raises 2000 to 3000
+regsanches: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 2375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2375 | Rake 0 
+Seat 2: OXYMOR3 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (2375)
+Seat 7: regsanches (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345771850: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:15:51 UTC [2026/04/04 16:15:51 ET]
+Table '3989277405 2' 8-max Seat #5 is the button
+Seat 2: OXYMOR3 (17272 in chips) 
+Seat 5: scorza23 (14610 in chips) 
+Seat 7: regsanches (16118 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+regsanches: posts small blind 500
+OXYMOR3: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Ad]
+scorza23: raises 2000 to 3000
+regsanches: folds 
+OXYMOR3: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 2875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2875 | Rake 0 
+Seat 2: OXYMOR3 (big blind) folded before Flop
+Seat 5: scorza23 (button) collected (2875)
+Seat 7: regsanches (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345775425: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:16:06 UTC [2026/04/04 16:16:06 ET]
+Table '3989277405 2' 8-max Seat #7 is the button
+Seat 2: OXYMOR3 (16147 in chips) 
+Seat 5: scorza23 (16360 in chips) 
+Seat 7: regsanches (15493 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+OXYMOR3: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 4s]
+regsanches: raises 1000 to 2000
+OXYMOR3: raises 14022 to 16022 and is all-in
+scorza23: folds 
+regsanches: calls 13368 and is all-in
+Uncalled bet (654) returned to OXYMOR3
+*** FLOP *** [Td 4c 8s]
+*** TURN *** [Td 4c 8s] [5s]
+*** RIVER *** [Td 4c 8s 5s] [9h]
+*** SHOW DOWN ***
+OXYMOR3: shows [Jc Jd] (a pair of Jacks)
+regsanches: shows [Js Jh] (a pair of Jacks)
+OXYMOR3 collected 16056 from pot
+regsanches collected 16055 from pot
+*** SUMMARY ***
+Total pot 32111 | Rake 0 
+Board [Td 4c 8s 5s 9h]
+Seat 2: OXYMOR3 (small blind) showed [Jc Jd] and won (16056) with a pair of Jacks
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 7: regsanches (button) showed [Js Jh] and won (16055) with a pair of Jacks
+
+
+
+PokerStars Hand #260345780309: Tournament #3989277405, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/04 20:16:27 UTC [2026/04/04 16:16:27 ET]
+Table '3989277405 2' 8-max Seat #2 is the button
+Seat 2: OXYMOR3 (16710 in chips) 
+Seat 5: scorza23 (15235 in chips) 
+Seat 7: regsanches (16055 in chips) 
+OXYMOR3: posts the ante 125
+scorza23: posts the ante 125
+regsanches: posts the ante 125
+scorza23: posts small blind 500
+regsanches: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Tc]
+OXYMOR3: raises 1000 to 2000
+scorza23: raises 5375 to 7375
+regsanches: raises 5375 to 12750
+OXYMOR3: folds 
+scorza23: calls 5375
+*** FLOP *** [6d 3h 3d]
+scorza23: checks 
+regsanches: bets 3180 and is all-in
+scorza23: calls 2360 and is all-in
+Uncalled bet (820) returned to regsanches
+*** TURN *** [6d 3h 3d] [9c]
+*** RIVER *** [6d 3h 3d 9c] [5h]
+*** SHOW DOWN ***
+scorza23: shows [Th Tc] (two pair, Tens and Threes)
+regsanches: shows [Ah Ac] (two pair, Aces and Threes)
+regsanches collected 32595 from pot
+scorza23 finished the tournament in 3rd place and received $4.84.
+*** SUMMARY ***
+Total pot 32595 | Rake 0 
+Board [6d 3h 3d 9c 5h]
+Seat 2: OXYMOR3 (button) folded before Flop
+Seat 5: scorza23 (small blind) showed [Th Tc] and lost with two pair, Tens and Threes
+Seat 7: regsanches (big blind) showed [Ah Ac] and won (32595) with two pair, Aces and Threes
+
+
+

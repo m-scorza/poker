@@ -1,0 +1,762 @@
+﻿PokerStars Hand #260360590020: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:39:30 BRT [2026/04/05 18:39:30 ET]
+Table '3989615918 4' 8-max Seat #2 is the button
+Seat 1: rodriguessf (1098 in chips) 
+Seat 2: MickeyTee969 (1447 in chips) 
+Seat 3: eceed (1606 in chips) 
+Seat 4: igorloriap (1500 in chips) 
+Seat 6: Hkan.br (1500 in chips) 
+Seat 7: gRaNdao0 (1497 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+rodriguessf: posts the ante 3
+MickeyTee969: posts the ante 3
+eceed: posts the ante 3
+igorloriap: posts the ante 3
+Hkan.br: posts the ante 3
+gRaNdao0: posts the ante 3
+scorza23: posts the ante 3
+eceed: posts small blind 10
+igorloriap: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 9c]
+igorloriap is disconnected 
+Hkan.br: folds 
+gRaNdao0: raises 24 to 44
+scorza23: folds 
+rodriguessf: folds 
+MickeyTee969: calls 44
+eceed: folds 
+igorloriap: calls 24
+*** FLOP *** [As 8d 5d]
+DiogoA2610 is disconnected 
+igorloriap: checks 
+gRaNdao0: bets 114
+MickeyTee969: calls 114
+igorloriap: folds 
+*** TURN *** [As 8d 5d] [Qh]
+gRaNdao0: bets 274
+MickeyTee969: calls 274
+*** RIVER *** [As 8d 5d Qh] [5c]
+gRaNdao0: bets 480
+MickeyTee969: folds 
+Uncalled bet (480) returned to gRaNdao0
+gRaNdao0 collected 939 from pot
+gRaNdao0: doesn't show hand 
+*** SUMMARY ***
+Total pot 939 | Rake 0 
+Board [As 8d 5d Qh 5c]
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 2: MickeyTee969 (button) folded on the River
+Seat 3: eceed (small blind) folded before Flop
+Seat 4: igorloriap (big blind) folded on the Flop
+Seat 6: Hkan.br folded before Flop (didn't bet)
+Seat 7: gRaNdao0 collected (939)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360604831: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:40:35 BRT [2026/04/05 18:40:35 ET]
+Table '3989615918 4' 8-max Seat #3 is the button
+Seat 1: rodriguessf (1095 in chips) 
+Seat 2: MickeyTee969 (1012 in chips) 
+Seat 3: eceed (1593 in chips) 
+Seat 4: igorloriap (1453 in chips) 
+Seat 5: DiogoA2610 (1500 in chips) 
+Seat 6: Hkan.br (1497 in chips) 
+Seat 7: gRaNdao0 (2001 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+rodriguessf: posts the ante 3
+MickeyTee969: posts the ante 3
+eceed: posts the ante 3
+igorloriap: posts the ante 3
+DiogoA2610: posts the ante 3
+Hkan.br: posts the ante 3
+gRaNdao0: posts the ante 3
+scorza23: posts the ante 3
+igorloriap: posts small blind 10
+DiogoA2610: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 7c]
+Hkan.br: folds 
+gRaNdao0: folds 
+scorza23: folds 
+rodriguessf: raises 30 to 50
+MickeyTee969: calls 50
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: raises 130 to 180
+rodriguessf: folds 
+MickeyTee969: calls 130
+*** FLOP *** [5c 2d 5h]
+DiogoA2610: bets 169
+MickeyTee969: raises 660 to 829 and is all-in
+DiogoA2610: calls 660
+*** TURN *** [5c 2d 5h] [Kh]
+*** RIVER *** [5c 2d 5h Kh] [Qc]
+*** SHOW DOWN ***
+DiogoA2610: shows [Ah Ac] (two pair, Aces and Fives)
+MickeyTee969: shows [Td 9h] (a pair of Fives)
+DiogoA2610 collected 2102 from pot
+MickeyTee969 finished the tournament in 31st place
+*** SUMMARY ***
+Total pot 2102 | Rake 0 
+Board [5c 2d 5h Kh Qc]
+Seat 1: rodriguessf folded before Flop
+Seat 2: MickeyTee969 showed [Td 9h] and lost with a pair of Fives
+Seat 3: eceed (button) folded before Flop (didn't bet)
+Seat 4: igorloriap (small blind) folded before Flop
+Seat 5: DiogoA2610 (big blind) showed [Ah Ac] and won (2102) with two pair, Aces and Fives
+Seat 6: Hkan.br folded before Flop (didn't bet)
+Seat 7: gRaNdao0 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360616857: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:41:29 BRT [2026/04/05 18:41:29 ET]
+Table '3989615918 4' 8-max Seat #4 is the button
+Seat 1: rodriguessf (1042 in chips) 
+Seat 3: eceed (1590 in chips) 
+Seat 4: igorloriap (1440 in chips) 
+Seat 5: DiogoA2610 (2590 in chips) 
+Seat 6: Hkan.br (1494 in chips) 
+Seat 7: gRaNdao0 (1998 in chips) 
+Seat 8: scorza23 (1494 in chips) 
+rodriguessf: posts the ante 3
+eceed: posts the ante 3
+igorloriap: posts the ante 3
+DiogoA2610: posts the ante 3
+Hkan.br: posts the ante 3
+gRaNdao0: posts the ante 3
+scorza23: posts the ante 3
+DiogoA2610: posts small blind 10
+Hkan.br: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Ts]
+gRaNdao0: folds 
+scorza23: folds 
+rodriguessf: folds 
+eceed: folds 
+igorloriap: raises 30 to 50
+DiogoA2610: folds 
+Hkan.br: folds 
+Uncalled bet (30) returned to igorloriap
+igorloriap collected 71 from pot
+igorloriap: doesn't show hand 
+*** SUMMARY ***
+Total pot 71 | Rake 0 
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap (button) collected (71)
+Seat 5: DiogoA2610 (small blind) folded before Flop
+Seat 6: Hkan.br (big blind) folded before Flop
+Seat 7: gRaNdao0 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360625534: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:42:08 BRT [2026/04/05 18:42:08 ET]
+Table '3989615918 4' 8-max Seat #5 is the button
+Seat 1: rodriguessf (1039 in chips) 
+Seat 3: eceed (1587 in chips) 
+Seat 4: igorloriap (1488 in chips) 
+Seat 5: DiogoA2610 (2577 in chips) 
+Seat 6: Hkan.br (1471 in chips) 
+Seat 7: gRaNdao0 (1995 in chips) 
+Seat 8: scorza23 (1491 in chips) 
+rodriguessf: posts the ante 4
+eceed: posts the ante 4
+igorloriap: posts the ante 4
+DiogoA2610: posts the ante 4
+Hkan.br: posts the ante 4
+gRaNdao0: posts the ante 4
+scorza23: posts the ante 4
+Hkan.br: posts small blind 15
+gRaNdao0: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 4d]
+scorza23: folds 
+rodriguessf: folds 
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: folds 
+Hkan.br: calls 15
+gRaNdao0 has timed out
+gRaNdao0: checks 
+*** FLOP *** [2s 5d 3s]
+Hkan.br: checks 
+gRaNdao0 has timed out
+gRaNdao0: checks 
+*** TURN *** [2s 5d 3s] [4h]
+Hkan.br: checks 
+gRaNdao0 has timed out
+gRaNdao0: checks 
+*** RIVER *** [2s 5d 3s 4h] [Ts]
+Hkan.br: checks 
+gRaNdao0 has timed out
+gRaNdao0: checks 
+*** SHOW DOWN ***
+Hkan.br: shows [8d Ks] (high card King)
+gRaNdao0: mucks hand 
+Hkan.br collected 88 from pot
+*** SUMMARY ***
+Total pot 88 | Rake 0 
+Board [2s 5d 3s 4h Ts]
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap folded before Flop (didn't bet)
+Seat 5: DiogoA2610 (button) folded before Flop (didn't bet)
+Seat 6: Hkan.br (small blind) showed [8d Ks] and won (88) with high card King
+Seat 7: gRaNdao0 (big blind) mucked [8s Qh]
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360665861: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:45:09 BRT [2026/04/05 18:45:09 ET]
+Table '3989615918 4' 8-max Seat #6 is the button
+Seat 1: rodriguessf (1035 in chips) 
+Seat 3: eceed (1583 in chips) 
+Seat 4: igorloriap (1484 in chips) 
+Seat 5: DiogoA2610 (2573 in chips) 
+Seat 6: Hkan.br (1525 in chips) 
+Seat 7: gRaNdao0 (1961 in chips) 
+Seat 8: scorza23 (1487 in chips) 
+rodriguessf: posts the ante 4
+eceed: posts the ante 4
+igorloriap: posts the ante 4
+DiogoA2610: posts the ante 4
+Hkan.br: posts the ante 4
+gRaNdao0: posts the ante 4
+scorza23: posts the ante 4
+gRaNdao0: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Ks]
+rodriguessf: folds 
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: raises 30 to 60
+Hkan.br: folds 
+gRaNdao0: folds 
+scorza23: calls 30
+*** FLOP *** [Ah 7c Jd]
+scorza23: checks 
+DiogoA2610: checks 
+*** TURN *** [Ah 7c Jd] [As]
+scorza23: checks 
+DiogoA2610: checks 
+*** RIVER *** [Ah 7c Jd As] [5s]
+scorza23: bets 60
+DiogoA2610: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 163 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 163 | Rake 0 
+Board [Ah 7c Jd As 5s]
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap folded before Flop (didn't bet)
+Seat 5: DiogoA2610 folded on the River
+Seat 6: Hkan.br (button) folded before Flop (didn't bet)
+Seat 7: gRaNdao0 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (163)
+
+
+
+PokerStars Hand #260360685922: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:46:40 BRT [2026/04/05 18:46:40 ET]
+Table '3989615918 4' 8-max Seat #7 is the button
+Seat 1: rodriguessf (1031 in chips) 
+Seat 3: eceed (1579 in chips) 
+Seat 4: igorloriap (1480 in chips) 
+Seat 5: DiogoA2610 (2509 in chips) 
+Seat 6: Hkan.br (1521 in chips) 
+Seat 7: gRaNdao0 (1942 in chips) 
+Seat 8: scorza23 (1586 in chips) 
+rodriguessf: posts the ante 4
+eceed: posts the ante 4
+igorloriap: posts the ante 4
+DiogoA2610: posts the ante 4
+Hkan.br: posts the ante 4
+gRaNdao0: posts the ante 4
+scorza23: posts the ante 4
+scorza23: posts small blind 15
+rodriguessf: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 3h]
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: folds 
+Hkan.br: raises 30 to 60
+gRaNdao0: raises 90 to 150
+scorza23: folds 
+rodriguessf: folds 
+Hkan.br: folds 
+Uncalled bet (90) returned to gRaNdao0
+gRaNdao0 collected 193 from pot
+gRaNdao0: doesn't show hand 
+*** SUMMARY ***
+Total pot 193 | Rake 0 
+Seat 1: rodriguessf (big blind) folded before Flop
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap folded before Flop (didn't bet)
+Seat 5: DiogoA2610 folded before Flop (didn't bet)
+Seat 6: Hkan.br folded before Flop
+Seat 7: gRaNdao0 (button) collected (193)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360696122: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:47:26 BRT [2026/04/05 18:47:26 ET]
+Table '3989615918 4' 8-max Seat #8 is the button
+Seat 1: rodriguessf (997 in chips) 
+Seat 3: eceed (1575 in chips) 
+Seat 4: igorloriap (1476 in chips) 
+Seat 5: DiogoA2610 (2505 in chips) 
+Seat 6: Hkan.br (1457 in chips) 
+Seat 7: gRaNdao0 (2071 in chips) 
+Seat 8: scorza23 (1567 in chips) 
+rodriguessf: posts the ante 6
+eceed: posts the ante 6
+igorloriap: posts the ante 6
+DiogoA2610: posts the ante 6
+Hkan.br: posts the ante 6
+gRaNdao0: posts the ante 6
+scorza23: posts the ante 6
+rodriguessf: posts small blind 25
+eceed: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [As 6s]
+igorloriap: folds 
+DiogoA2610: folds 
+Hkan.br: folds 
+gRaNdao0: folds 
+scorza23: raises 100 to 150
+rodriguessf: folds 
+eceed: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 167 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: rodriguessf (small blind) folded before Flop
+Seat 3: eceed (big blind) folded before Flop
+Seat 4: igorloriap folded before Flop (didn't bet)
+Seat 5: DiogoA2610 folded before Flop (didn't bet)
+Seat 6: Hkan.br folded before Flop (didn't bet)
+Seat 7: gRaNdao0 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (167)
+
+
+
+PokerStars Hand #260360703686: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:48:00 BRT [2026/04/05 18:48:00 ET]
+Table '3989615918 4' 8-max Seat #1 is the button
+Seat 1: rodriguessf (966 in chips) 
+Seat 3: eceed (1519 in chips) 
+Seat 4: igorloriap (1470 in chips) 
+Seat 5: DiogoA2610 (2499 in chips) 
+Seat 6: Hkan.br (1451 in chips) 
+Seat 7: gRaNdao0 (2065 in chips) 
+Seat 8: scorza23 (1678 in chips) 
+rodriguessf: posts the ante 6
+eceed: posts the ante 6
+igorloriap: posts the ante 6
+DiogoA2610: posts the ante 6
+Hkan.br: posts the ante 6
+gRaNdao0: posts the ante 6
+scorza23: posts the ante 6
+eceed: posts small blind 25
+igorloriap: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 2h]
+DiogoA2610: folds 
+Hkan.br: folds 
+gRaNdao0: folds 
+scorza23: folds 
+rodriguessf: raises 50 to 100
+eceed: folds 
+igorloriap: folds 
+Uncalled bet (50) returned to rodriguessf
+rodriguessf collected 167 from pot
+rodriguessf: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: rodriguessf (button) collected (167)
+Seat 3: eceed (small blind) folded before Flop
+Seat 4: igorloriap (big blind) folded before Flop
+Seat 5: DiogoA2610 folded before Flop (didn't bet)
+Seat 6: Hkan.br folded before Flop (didn't bet)
+Seat 7: gRaNdao0 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360711997: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:48:39 BRT [2026/04/05 18:48:39 ET]
+Table '3989615918 4' 8-max Seat #3 is the button
+Seat 1: rodriguessf (1077 in chips) 
+Seat 3: eceed (1488 in chips) 
+Seat 4: igorloriap (1414 in chips) 
+Seat 5: DiogoA2610 (2493 in chips) 
+Seat 6: Hkan.br (1445 in chips) 
+Seat 7: gRaNdao0 (2059 in chips) 
+Seat 8: scorza23 (1672 in chips) 
+rodriguessf: posts the ante 6
+eceed: posts the ante 6
+igorloriap: posts the ante 6
+DiogoA2610: posts the ante 6
+Hkan.br: posts the ante 6
+gRaNdao0: posts the ante 6
+scorza23: posts the ante 6
+igorloriap: posts small blind 25
+DiogoA2610: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7s]
+Hkan.br: folds 
+gRaNdao0: folds 
+scorza23: folds 
+rodriguessf: folds 
+eceed: folds 
+igorloriap: folds 
+Uncalled bet (25) returned to DiogoA2610
+DiogoA2610 collected 92 from pot
+DiogoA2610: doesn't show hand 
+*** SUMMARY ***
+Total pot 92 | Rake 0 
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 3: eceed (button) folded before Flop (didn't bet)
+Seat 4: igorloriap (small blind) folded before Flop
+Seat 5: DiogoA2610 (big blind) collected (92)
+Seat 6: Hkan.br folded before Flop (didn't bet)
+Seat 7: gRaNdao0 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360777034: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:53:45 BRT [2026/04/05 18:53:45 ET]
+Table '3989615918 4' 8-max Seat #4 is the button
+Seat 1: rodriguessf (875 in chips) 
+Seat 3: eceed (2004 in chips) 
+Seat 4: igorloriap (2378 in chips) 
+Seat 5: DiogoA2610 (1980 in chips) 
+Seat 6: Hkan.br (1314 in chips) 
+Seat 7: gRaNdao0 (1556 in chips) 
+Seat 8: scorza23 (1541 in chips) is sitting out
+rodriguessf: posts the ante 10
+eceed: posts the ante 10
+igorloriap: posts the ante 10
+DiogoA2610: posts the ante 10
+Hkan.br: posts the ante 10
+gRaNdao0: posts the ante 10
+scorza23: posts the ante 10
+DiogoA2610: posts small blind 40
+Hkan.br: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 8h]
+scorza23 is disconnected 
+scorza23 has returned
+gRaNdao0: raises 80 to 160
+scorza23: calls 160
+rodriguessf: folds 
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: folds 
+Hkan.br: folds 
+*** FLOP *** [7c 4h 6c]
+gRaNdao0: bets 255
+scorza23: raises 1116 to 1371 and is all-in
+gRaNdao0: folds 
+Uncalled bet (1116) returned to scorza23
+scorza23 collected 1020 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1020 | Rake 0 
+Board [7c 4h 6c]
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap (button) folded before Flop (didn't bet)
+Seat 5: DiogoA2610 (small blind) folded before Flop
+Seat 6: Hkan.br (big blind) folded before Flop
+Seat 7: gRaNdao0 folded on the Flop
+Seat 8: scorza23 collected (1020)
+
+
+
+PokerStars Hand #260360789801: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:54:46 BRT [2026/04/05 18:54:46 ET]
+Table '3989615918 4' 8-max Seat #5 is the button
+Seat 1: rodriguessf (865 in chips) 
+Seat 3: eceed (1994 in chips) 
+Seat 4: igorloriap (2368 in chips) 
+Seat 5: DiogoA2610 (1930 in chips) 
+Seat 6: Hkan.br (1224 in chips) 
+Seat 7: gRaNdao0 (1131 in chips) 
+Seat 8: scorza23 (2136 in chips) 
+rodriguessf: posts the ante 10
+eceed: posts the ante 10
+igorloriap: posts the ante 10
+DiogoA2610: posts the ante 10
+Hkan.br: posts the ante 10
+gRaNdao0: posts the ante 10
+scorza23: posts the ante 10
+Hkan.br: posts small blind 40
+gRaNdao0: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Ts]
+scorza23: folds 
+rodriguessf: folds 
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: folds 
+Hkan.br: raises 1134 to 1214 and is all-in
+gRaNdao0: calls 1041 and is all-in
+Uncalled bet (93) returned to Hkan.br
+*** FLOP *** [Td Tc 4d]
+*** TURN *** [Td Tc 4d] [2s]
+*** RIVER *** [Td Tc 4d 2s] [Jh]
+*** SHOW DOWN ***
+Hkan.br: shows [6s Qs] (a pair of Tens)
+gRaNdao0: shows [9d 9h] (two pair, Tens and Nines)
+gRaNdao0 collected 2312 from pot
+*** SUMMARY ***
+Total pot 2312 | Rake 0 
+Board [Td Tc 4d 2s Jh]
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap folded before Flop (didn't bet)
+Seat 5: DiogoA2610 (button) folded before Flop (didn't bet)
+Seat 6: Hkan.br (small blind) showed [6s Qs] and lost with a pair of Tens
+Seat 7: gRaNdao0 (big blind) showed [9d 9h] and won (2312) with two pair, Tens and Nines
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360848953: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:01:20 BRT [2026/04/05 19:01:20 ET]
+Table '3989615918 4' 8-max Seat #6 is the button
+Seat 1: rodriguessf (855 in chips) 
+Seat 3: eceed (1984 in chips) 
+Seat 4: igorloriap (2358 in chips) 
+Seat 5: DiogoA2610 (1920 in chips) 
+Seat 6: Hkan.br (93 in chips) 
+Seat 7: gRaNdao0 (2312 in chips) 
+Seat 8: scorza23 (2126 in chips) 
+rodriguessf: posts the ante 10
+eceed: posts the ante 10
+igorloriap: posts the ante 10
+DiogoA2610: posts the ante 10
+Hkan.br: posts the ante 10
+gRaNdao0: posts the ante 10
+scorza23: posts the ante 10
+gRaNdao0: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7h]
+rodriguessf: folds 
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: raises 80 to 160
+Hkan.br: calls 83 and is all-in
+gRaNdao0: folds 
+scorza23: folds 
+Uncalled bet (77) returned to DiogoA2610
+*** FLOP *** [Ac Kh 5s]
+*** TURN *** [Ac Kh 5s] [8s]
+*** RIVER *** [Ac Kh 5s 8s] [4s]
+*** SHOW DOWN ***
+DiogoA2610: shows [9c Kd] (a pair of Kings)
+Hkan.br: shows [Jh 7d] (high card Ace)
+DiogoA2610 collected 356 from pot
+Hkan.br finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 356 | Rake 0 
+Board [Ac Kh 5s 8s 4s]
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap folded before Flop (didn't bet)
+Seat 5: DiogoA2610 showed [9c Kd] and won (356) with a pair of Kings
+Seat 6: Hkan.br (button) showed [Jh 7d] and lost with high card Ace
+Seat 7: gRaNdao0 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260360858336: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:02:10 BRT [2026/04/05 19:02:10 ET]
+Table '3989615918 4' 8-max Seat #7 is the button
+Seat 1: rodriguessf (845 in chips) 
+Seat 3: eceed (1974 in chips) 
+Seat 4: igorloriap (2348 in chips) 
+Seat 5: DiogoA2610 (2183 in chips) 
+Seat 7: gRaNdao0 (2262 in chips) 
+Seat 8: scorza23 (2036 in chips) 
+rodriguessf: posts the ante 10
+eceed: posts the ante 10
+igorloriap: posts the ante 10
+DiogoA2610: posts the ante 10
+gRaNdao0: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 40
+rodriguessf: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 5d]
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: folds 
+gRaNdao0: raises 80 to 160
+scorza23: folds 
+rodriguessf: raises 675 to 835 and is all-in
+gRaNdao0: calls 675
+*** FLOP *** [Kh Kc 3s]
+*** TURN *** [Kh Kc 3s] [Jh]
+*** RIVER *** [Kh Kc 3s Jh] [5c]
+*** SHOW DOWN ***
+rodriguessf: shows [Th Td] (two pair, Kings and Tens)
+gRaNdao0: shows [6s As] (a pair of Kings)
+rodriguessf collected 1770 from pot
+*** SUMMARY ***
+Total pot 1770 | Rake 0 
+Board [Kh Kc 3s Jh 5c]
+Seat 1: rodriguessf (big blind) showed [Th Td] and won (1770) with two pair, Kings and Tens
+Seat 3: eceed folded before Flop (didn't bet)
+Seat 4: igorloriap folded before Flop (didn't bet)
+Seat 5: DiogoA2610 folded before Flop (didn't bet)
+Seat 7: gRaNdao0 (button) showed [6s As] and lost with a pair of Kings
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360865113: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:02:43 BRT [2026/04/05 19:02:43 ET]
+Table '3989615918 4' 8-max Seat #8 is the button
+Seat 1: rodriguessf (1770 in chips) 
+Seat 3: eceed (1964 in chips) 
+Seat 4: igorloriap (2338 in chips) 
+Seat 5: DiogoA2610 (2173 in chips) 
+Seat 7: gRaNdao0 (1417 in chips) 
+Seat 8: scorza23 (1986 in chips) 
+rodriguessf: posts the ante 10
+eceed: posts the ante 10
+igorloriap: posts the ante 10
+DiogoA2610: posts the ante 10
+gRaNdao0: posts the ante 10
+scorza23: posts the ante 10
+rodriguessf: posts small blind 40
+eceed: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Ts]
+igorloriap: raises 120 to 200
+DiogoA2610: folds 
+gRaNdao0: folds 
+scorza23: folds 
+rodriguessf: folds 
+eceed: folds 
+Uncalled bet (120) returned to igorloriap
+igorloriap collected 260 from pot
+igorloriap: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: rodriguessf (small blind) folded before Flop
+Seat 3: eceed (big blind) folded before Flop
+Seat 4: igorloriap collected (260)
+Seat 5: DiogoA2610 folded before Flop (didn't bet)
+Seat 7: gRaNdao0 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360872302: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 20:03:19 BRT [2026/04/05 19:03:19 ET]
+Table '3989615918 4' 8-max Seat #1 is the button
+Seat 1: rodriguessf (1720 in chips) 
+Seat 3: eceed (1874 in chips) 
+Seat 4: igorloriap (2508 in chips) 
+Seat 5: DiogoA2610 (2163 in chips) 
+Seat 7: gRaNdao0 (1407 in chips) 
+Seat 8: scorza23 (1976 in chips) 
+rodriguessf: posts the ante 15
+eceed: posts the ante 15
+igorloriap: posts the ante 15
+DiogoA2610: posts the ante 15
+gRaNdao0: posts the ante 15
+scorza23: posts the ante 15
+eceed: posts small blind 60
+igorloriap: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Qd]
+DiogoA2610: folds 
+gRaNdao0: folds 
+scorza23: raises 120 to 240
+rodriguessf: folds 
+eceed: calls 180
+igorloriap: folds 
+*** FLOP *** [7d Kd Qh]
+eceed: checks 
+gstvcasca is disconnected 
+scorza23: bets 360
+eceed: raises 1259 to 1619 and is all-in
+scorza23: calls 1259
+*** TURN *** [7d Kd Qh] [Ah]
+*** RIVER *** [7d Kd Qh Ah] [Jh]
+*** SHOW DOWN ***
+eceed: shows [Ad Ts] (a straight, Ten to Ace)
+scorza23: shows [Jd Qd] (two pair, Queens and Jacks)
+eceed collected 3928 from pot
+*** SUMMARY ***
+Total pot 3928 | Rake 0 
+Board [7d Kd Qh Ah Jh]
+Seat 1: rodriguessf (button) folded before Flop (didn't bet)
+Seat 3: eceed (small blind) showed [Ad Ts] and won (3928) with a straight, Ten to Ace
+Seat 4: igorloriap (big blind) folded before Flop
+Seat 5: DiogoA2610 folded before Flop (didn't bet)
+Seat 7: gRaNdao0 folded before Flop (didn't bet)
+Seat 8: scorza23 showed [Jd Qd] and lost with two pair, Queens and Jacks
+
+
+
+PokerStars Hand #260360885168: Tournament #3989615918, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 20:04:22 BRT [2026/04/05 19:04:22 ET]
+Table '3989615918 4' 8-max Seat #3 is the button
+Seat 1: rodriguessf (1705 in chips) 
+Seat 2: hawaiisc (4269 in chips) 
+Seat 3: eceed (3928 in chips) 
+Seat 4: igorloriap (2373 in chips) 
+Seat 5: DiogoA2610 (2148 in chips) 
+Seat 6: gstvcasca (2312 in chips) 
+Seat 7: gRaNdao0 (1392 in chips) 
+Seat 8: scorza23 (102 in chips) 
+rodriguessf: posts the ante 15
+hawaiisc: posts the ante 15
+eceed: posts the ante 15
+igorloriap: posts the ante 15
+DiogoA2610: posts the ante 15
+gstvcasca: posts the ante 15
+gRaNdao0: posts the ante 15
+scorza23: posts the ante 15
+igorloriap: posts small blind 60
+DiogoA2610: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Tc]
+gstvcasca: folds 
+gRaNdao0: raises 1257 to 1377 and is all-in
+scorza23: calls 87 and is all-in
+rodriguessf: folds 
+hawaiisc: folds 
+eceed: folds 
+igorloriap: folds 
+DiogoA2610: folds 
+Uncalled bet (1257) returned to gRaNdao0
+*** FLOP *** [4c Kh 3c]
+*** TURN *** [4c Kh 3c] [8c]
+*** RIVER *** [4c Kh 3c 8c] [6h]
+*** SHOW DOWN ***
+gRaNdao0: shows [Ah Td] (high card Ace)
+gRaNdao0 collected 66 from side pot
+scorza23: shows [Jd Tc] (high card King)
+gRaNdao0 collected 441 from main pot
+scorza23 finished the tournament in 22nd place
+*** SUMMARY ***
+Total pot 507 Main pot 441. Side pot 66. | Rake 0 
+Board [4c Kh 3c 8c 6h]
+Seat 1: rodriguessf folded before Flop (didn't bet)
+Seat 2: hawaiisc folded before Flop (didn't bet)
+Seat 3: eceed (button) folded before Flop (didn't bet)
+Seat 4: igorloriap (small blind) folded before Flop
+Seat 5: DiogoA2610 (big blind) folded before Flop
+Seat 6: gstvcasca folded before Flop (didn't bet)
+Seat 7: gRaNdao0 showed [Ah Td] and won (507) with high card Ace
+Seat 8: scorza23 showed [Jd Tc] and lost with high card King
+
+
+

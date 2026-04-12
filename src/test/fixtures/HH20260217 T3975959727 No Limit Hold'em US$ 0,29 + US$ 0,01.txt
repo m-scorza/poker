@@ -1,0 +1,448 @@
+﻿PokerStars Hand #259763577265: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:11:48 UTC [2026/02/17 11:11:48 ET]
+Table '3975959727 4' 4-max Seat #1 is the button
+Seat 1: scorza23 (500 in chips) 
+Seat 2: Sidewikii (500 in chips) 
+Seat 3: afonsobezerr (500 in chips) 
+Seat 4: Dom409 (500 in chips) is sitting out
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+afonsobezerr: posts the ante 10
+Dom409: posts the ante 10
+Sidewikii: posts small blind 25
+afonsobezerr: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qc]
+Dom409: folds 
+scorza23: raises 100 to 150
+Sidewikii: folds 
+afonsobezerr: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 165 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Seat 1: scorza23 (button) collected (165)
+Seat 2: Sidewikii (small blind) folded before Flop
+Seat 3: afonsobezerr (big blind) folded before Flop
+Seat 4: Dom409 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763579069: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:11:58 UTC [2026/02/17 11:11:58 ET]
+Table '3975959727 4' 4-max Seat #2 is the button
+Seat 1: scorza23 (605 in chips) 
+Seat 2: Sidewikii (465 in chips) 
+Seat 3: afonsobezerr (440 in chips) 
+Seat 4: Dom409 (490 in chips) is sitting out
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+afonsobezerr: posts the ante 10
+Dom409: posts the ante 10
+afonsobezerr: posts small blind 25
+Dom409: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 6h]
+Dom409 is disconnected 
+Dom409 has returned
+scorza23: folds 
+Sidewikii: folds 
+afonsobezerr: folds 
+Uncalled bet (25) returned to Dom409
+Dom409 collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: Sidewikii (button) folded before Flop (didn't bet)
+Seat 3: afonsobezerr (small blind) folded before Flop
+Seat 4: Dom409 (big blind) collected (90)
+
+
+
+PokerStars Hand #259763581474: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:12:12 UTC [2026/02/17 11:12:12 ET]
+Table '3975959727 4' 4-max Seat #3 is the button
+Seat 1: scorza23 (595 in chips) 
+Seat 2: Sidewikii (455 in chips) 
+Seat 3: afonsobezerr (405 in chips) 
+Seat 4: Dom409 (545 in chips) 
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+afonsobezerr: posts the ante 10
+Dom409: posts the ante 10
+Dom409: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 3c]
+Sidewikii: folds 
+afonsobezerr: folds 
+Dom409: raises 485 to 535 and is all-in
+scorza23: folds 
+Uncalled bet (485) returned to Dom409
+Dom409 collected 140 from pot
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: Sidewikii folded before Flop (didn't bet)
+Seat 3: afonsobezerr (button) folded before Flop (didn't bet)
+Seat 4: Dom409 (small blind) collected (140)
+
+
+
+PokerStars Hand #259763583649: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:12:24 UTC [2026/02/17 11:12:24 ET]
+Table '3975959727 4' 4-max Seat #4 is the button
+Seat 1: scorza23 (535 in chips) 
+Seat 2: Sidewikii (445 in chips) 
+Seat 3: afonsobezerr (395 in chips) 
+Seat 4: Dom409 (625 in chips) 
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+afonsobezerr: posts the ante 10
+Dom409: posts the ante 10
+scorza23: posts small blind 25
+Sidewikii: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 7s]
+afonsobezerr: raises 335 to 385 and is all-in
+Dom409: folds 
+scorza23: folds 
+Sidewikii: folds 
+Uncalled bet (335) returned to afonsobezerr
+afonsobezerr collected 165 from pot
+afonsobezerr: doesn't show hand 
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: Sidewikii (big blind) folded before Flop
+Seat 3: afonsobezerr collected (165)
+Seat 4: Dom409 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763586106: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:12:38 UTC [2026/02/17 11:12:38 ET]
+Table '3975959727 4' 4-max Seat #1 is the button
+Seat 1: scorza23 (500 in chips) 
+Seat 2: Sidewikii (385 in chips) 
+Seat 3: afonsobezerr (500 in chips) 
+Seat 4: Dom409 (615 in chips) 
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+afonsobezerr: posts the ante 10
+Dom409: posts the ante 10
+Sidewikii: posts small blind 25
+afonsobezerr: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 8c]
+Dom409: raises 555 to 605 and is all-in
+scorza23: folds 
+Sidewikii: folds 
+afonsobezerr: folds 
+Uncalled bet (555) returned to Dom409
+Dom409 collected 165 from pot
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: Sidewikii (small blind) folded before Flop
+Seat 3: afonsobezerr (big blind) folded before Flop
+Seat 4: Dom409 collected (165)
+
+
+
+PokerStars Hand #259763587782: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:12:47 UTC [2026/02/17 11:12:47 ET]
+Table '3975959727 4' 4-max Seat #2 is the button
+Seat 1: scorza23 (490 in chips) 
+Seat 2: Sidewikii (350 in chips) 
+Seat 3: afonsobezerr (440 in chips) 
+Seat 4: Dom409 (720 in chips) 
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+afonsobezerr: posts the ante 10
+Dom409: posts the ante 10
+afonsobezerr: posts small blind 25
+Dom409: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Js]
+scorza23: raises 430 to 480 and is all-in
+Sidewikii: folds 
+afonsobezerr: calls 405 and is all-in
+Dom409: folds 
+Uncalled bet (50) returned to scorza23
+*** FLOP *** [2h 5c Ts]
+*** TURN *** [2h 5c Ts] [8c]
+*** RIVER *** [2h 5c Ts 8c] [Ks]
+*** SHOW DOWN ***
+afonsobezerr: shows [Jh Qd] (high card King)
+scorza23: shows [Jd Js] (a pair of Jacks)
+scorza23 collected 950 from pot
+afonsobezerr finished the tournament in 14th place
+*** SUMMARY ***
+Total pot 950 | Rake 0 
+Board [2h 5c Ts 8c Ks]
+Seat 1: scorza23 showed [Jd Js] and won (950) with a pair of Jacks
+Seat 2: Sidewikii (button) folded before Flop (didn't bet)
+Seat 3: afonsobezerr (small blind) showed [Jh Qd] and lost with high card King
+Seat 4: Dom409 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763591235: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:13:07 UTC [2026/02/17 11:13:07 ET]
+Table '3975959727 4' 4-max Seat #4 is the button
+Seat 1: scorza23 (1000 in chips) 
+Seat 2: Sidewikii (340 in chips) 
+Seat 4: Dom409 (660 in chips) 
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+Dom409: posts the ante 10
+scorza23: posts small blind 25
+Sidewikii: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 8c]
+Dom409: folds 
+scorza23: raises 100 to 150
+Sidewikii: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 130 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Seat 1: scorza23 (small blind) collected (130)
+Seat 2: Sidewikii (big blind) folded before Flop
+Seat 4: Dom409 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763595546: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:13:31 UTC [2026/02/17 11:13:31 ET]
+Table '3975959727 4' 4-max Seat #1 is the button
+Seat 1: scorza23 (1070 in chips) 
+Seat 2: Sidewikii (280 in chips) 
+Seat 4: Dom409 (650 in chips) 
+scorza23: posts the ante 10
+Sidewikii: posts the ante 10
+Dom409: posts the ante 10
+Sidewikii: posts small blind 25
+Dom409: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 4s]
+scorza23: folds 
+Sidewikii: raises 220 to 270 and is all-in
+Dom409: calls 220
+*** FLOP *** [2s Qh Kc]
+*** TURN *** [2s Qh Kc] [Ts]
+*** RIVER *** [2s Qh Kc Ts] [2c]
+*** SHOW DOWN ***
+Sidewikii: shows [5c 3c] (a pair of Deuces)
+Dom409: shows [8s As] (a pair of Deuces - Ace kicker)
+Dom409 collected 570 from pot
+Sidewikii finished the tournament in 13th place
+*** SUMMARY ***
+Total pot 570 | Rake 0 
+Board [2s Qh Kc Ts 2c]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: Sidewikii (small blind) showed [5c 3c] and lost with a pair of Deuces
+Seat 4: Dom409 (big blind) showed [8s As] and won (570) with a pair of Deuces
+
+
+
+PokerStars Hand #259763602463: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:14:10 UTC [2026/02/17 11:14:10 ET]
+Table '3975959727 4' 4-max Seat #4 is the button
+Seat 1: scorza23 (1060 in chips) 
+Seat 4: Dom409 (940 in chips) 
+scorza23: posts the ante 10
+Dom409: posts the ante 10
+Dom409: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 2c]
+Dom409: raises 120 to 170
+scorza23: folds 
+Uncalled bet (120) returned to Dom409
+Dom409 collected 120 from pot
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 4: Dom409 (button) (small blind) collected (120)
+
+
+
+PokerStars Hand #259763605386: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:14:27 UTC [2026/02/17 11:14:27 ET]
+Table '3975959727 4' 4-max Seat #1 is the button
+Seat 1: scorza23 (1000 in chips) 
+Seat 4: Dom409 (1000 in chips) 
+scorza23: posts the ante 10
+Dom409: posts the ante 10
+scorza23: posts small blind 25
+Dom409: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [As 6h]
+scorza23: raises 100 to 150
+Dom409: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 120 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (120)
+Seat 4: Dom409 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763606610: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:14:34 UTC [2026/02/17 11:14:34 ET]
+Table '3975959727 4' 4-max Seat #4 is the button
+Seat 1: scorza23 (1060 in chips) 
+Seat 4: Dom409 (940 in chips) 
+scorza23: posts the ante 10
+Dom409: posts the ante 10
+Dom409: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jc]
+Dom409: raises 120 to 170
+scorza23: folds 
+Uncalled bet (120) returned to Dom409
+Dom409 collected 120 from pot
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 4: Dom409 (button) (small blind) collected (120)
+
+
+
+PokerStars Hand #259763607888: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:14:41 UTC [2026/02/17 11:14:41 ET]
+Table '3975959727 4' 4-max Seat #1 is the button
+Seat 1: scorza23 (1000 in chips) 
+Seat 4: Dom409 (1000 in chips) 
+scorza23: posts the ante 10
+Dom409: posts the ante 10
+scorza23: posts small blind 25
+Dom409: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 4s]
+scorza23: folds 
+Uncalled bet (25) returned to Dom409
+Dom409 collected 70 from pot
+*** SUMMARY ***
+Total pot 70 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 4: Dom409 (big blind) collected (70)
+
+
+
+PokerStars Hand #259763608875: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 16:14:47 UTC [2026/02/17 11:14:47 ET]
+Table '3975959727 4' 4-max Seat #4 is the button
+Seat 1: scorza23 (965 in chips) 
+Seat 4: Dom409 (1035 in chips) 
+scorza23: posts the ante 10
+Dom409: posts the ante 10
+Dom409: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 6h]
+Dom409: calls 25
+scorza23: checks 
+*** FLOP *** [Jd 3d 4h]
+scorza23: bets 120
+Dom409: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 120 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [Jd 3d 4h]
+Seat 1: scorza23 (big blind) collected (120)
+Seat 4: Dom409 (button) (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259763611420: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/02/17 16:15:01 UTC [2026/02/17 11:15:01 ET]
+Table '3975959727 4' 4-max Seat #1 is the button
+Seat 1: scorza23 (1025 in chips) 
+Seat 4: Dom409 (975 in chips) 
+scorza23: posts the ante 20
+Dom409: posts the ante 20
+scorza23: posts small blind 50
+Dom409: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 5c]
+scorza23: raises 240 to 340
+Dom409: calls 240
+*** FLOP *** [3c 7s 9s]
+Dom409: bets 615 and is all-in
+scorza23: folds 
+Uncalled bet (615) returned to Dom409
+Dom409 collected 720 from pot
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Board [3c 7s 9s]
+Seat 1: scorza23 (button) (small blind) folded on the Flop
+Seat 4: Dom409 (big blind) collected (720)
+
+
+
+PokerStars Hand #259763613450: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/02/17 16:15:12 UTC [2026/02/17 11:15:12 ET]
+Table '3975959727 4' 4-max Seat #4 is the button
+Seat 1: scorza23 (665 in chips) 
+Seat 4: Dom409 (1335 in chips) 
+scorza23: posts the ante 20
+Dom409: posts the ante 20
+Dom409: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 3c]
+Dom409: raises 1215 to 1315 and is all-in
+scorza23: folds 
+Uncalled bet (1215) returned to Dom409
+Dom409 collected 240 from pot
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 4: Dom409 (button) (small blind) collected (240)
+
+
+
+PokerStars Hand #259763614718: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/02/17 16:15:19 UTC [2026/02/17 11:15:19 ET]
+Table '3975959727 4' 4-max Seat #1 is the button
+Seat 1: scorza23 (545 in chips) 
+Seat 4: Dom409 (1455 in chips) 
+scorza23: posts the ante 20
+Dom409: posts the ante 20
+scorza23: posts small blind 50
+Dom409: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 3d]
+scorza23: folds 
+Uncalled bet (50) returned to Dom409
+Dom409 collected 140 from pot
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 4: Dom409 (big blind) collected (140)
+
+
+
+PokerStars Hand #259763615606: Tournament #3975959727, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/02/17 16:15:24 UTC [2026/02/17 11:15:24 ET]
+Table '3975959727 4' 4-max Seat #4 is the button
+Seat 1: scorza23 (475 in chips) 
+Seat 4: Dom409 (1525 in chips) 
+scorza23: posts the ante 20
+Dom409: posts the ante 20
+Dom409: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Jc]
+Dom409: raises 100 to 200
+scorza23: raises 255 to 455 and is all-in
+Dom409: calls 255
+*** FLOP *** [As 3s Qd]
+*** TURN *** [As 3s Qd] [Tc]
+*** RIVER *** [As 3s Qd Tc] [Qc]
+*** SHOW DOWN ***
+scorza23: shows [8s Jc] (a pair of Queens)
+Dom409: shows [6h Ks] (a pair of Queens - Ace+King kicker)
+Dom409 collected 950 from pot
+scorza23 finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 950 | Rake 0 
+Board [As 3s Qd Tc Qc]
+Seat 1: scorza23 (big blind) showed [8s Jc] and lost with a pair of Queens
+Seat 4: Dom409 (button) (small blind) showed [6h Ks] and won (950) with a pair of Queens
+
+
+

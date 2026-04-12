@@ -1,0 +1,3782 @@
+﻿PokerStars Hand #260346780034: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:29:35 UTC [2026/04/04 17:29:35 ET]
+Table '3989316412 1' 9-max Seat #1 is the button
+Seat 1: aellisae (1500 in chips) 
+Seat 2: walte28 (1500 in chips) 
+Seat 3: Superimmi (1500 in chips) 
+Seat 4: Viinex13 (1500 in chips) is sitting out
+Seat 5: Roneisu (1500 in chips) 
+Seat 6: Selesike (1500 in chips) 
+Seat 7: Makaveli1009 (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+Seat 9: Acarrega (1500 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+walte28: posts small blind 10
+Superimmi: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 8d]
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: folds 
+Viinex13 has returned
+scorza23: folds 
+Acarrega: folds 
+aellisae: folds 
+walte28: folds 
+Uncalled bet (10) returned to Superimmi
+Superimmi collected 47 from pot
+Superimmi: doesn't show hand 
+*** SUMMARY ***
+Total pot 47 | Rake 0 
+Seat 1: aellisae (button) folded before Flop (didn't bet)
+Seat 2: walte28 (small blind) folded before Flop
+Seat 3: Superimmi (big blind) collected (47)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346784728: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:29:56 UTC [2026/04/04 17:29:56 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 1: aellisae (1497 in chips) 
+Seat 2: walte28 (1487 in chips) 
+Seat 3: Superimmi (1534 in chips) 
+Seat 4: Viinex13 (1497 in chips) 
+Seat 5: Roneisu (1497 in chips) 
+Seat 6: Selesike (1497 in chips) 
+Seat 7: Makaveli1009 (1497 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+Seat 9: Acarrega (1497 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+Superimmi: posts small blind 10
+Viinex13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 6d]
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+Acarrega: folds 
+aellisae: folds 
+walte28: raises 40 to 60
+Superimmi: raises 167 to 227
+Viinex13: folds 
+walte28: folds 
+Uncalled bet (167) returned to Superimmi
+Superimmi collected 167 from pot
+Superimmi: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 (button) folded before Flop
+Seat 3: Superimmi (small blind) collected (167)
+Seat 4: Viinex13 (big blind) folded before Flop
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346792104: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:30:27 UTC [2026/04/04 17:30:27 ET]
+Table '3989316412 1' 9-max Seat #3 is the button
+Seat 1: aellisae (1494 in chips) 
+Seat 2: walte28 (1424 in chips) 
+Seat 3: Superimmi (1638 in chips) 
+Seat 4: Viinex13 (1474 in chips) 
+Seat 5: Roneisu (1494 in chips) 
+Seat 6: Selesike (1494 in chips) 
+Seat 7: Makaveli1009 (1494 in chips) 
+Seat 8: scorza23 (1494 in chips) 
+Seat 9: Acarrega (1494 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+Viinex13: posts small blind 10
+Roneisu: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 2s]
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+Acarrega: folds 
+aellisae: calls 20
+walte28: raises 40 to 60
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+aellisae: calls 40
+*** FLOP *** [3h Kc 7d]
+aellisae: checks 
+walte28: bets 89
+aellisae: folds 
+Uncalled bet (89) returned to walte28
+walte28 collected 177 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 177 | Rake 0 
+Board [3h Kc 7d]
+Seat 1: aellisae folded on the Flop
+Seat 2: walte28 collected (177)
+Seat 3: Superimmi (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) folded before Flop
+Seat 5: Roneisu (big blind) folded before Flop
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346800279: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:31:02 UTC [2026/04/04 17:31:02 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 1: aellisae (1431 in chips) 
+Seat 2: walte28 (1538 in chips) 
+Seat 3: Superimmi (1635 in chips) 
+Seat 4: Viinex13 (1461 in chips) 
+Seat 5: Roneisu (1471 in chips) 
+Seat 6: Selesike (1491 in chips) 
+Seat 7: Makaveli1009 (1491 in chips) 
+Seat 8: scorza23 (1491 in chips) 
+Seat 9: Acarrega (1491 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+Roneisu: posts small blind 10
+Selesike: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qd]
+Makaveli1009: folds 
+scorza23: folds 
+Acarrega: calls 20
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: checks 
+*** FLOP *** [Qh 4c Ah]
+Selesike: checks 
+Acarrega: checks 
+*** TURN *** [Qh 4c Ah] [Jh]
+Selesike: checks 
+Acarrega: bets 40
+Selesike: folds 
+Uncalled bet (40) returned to Acarrega
+Acarrega collected 77 from pot
+Acarrega: doesn't show hand 
+*** SUMMARY ***
+Total pot 77 | Rake 0 
+Board [Qh 4c Ah Jh]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 5: Roneisu (small blind) folded before Flop
+Seat 6: Selesike (big blind) folded on the Turn
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega collected (77)
+
+
+
+PokerStars Hand #260346809878: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:31:43 UTC [2026/04/04 17:31:43 ET]
+Table '3989316412 1' 9-max Seat #5 is the button
+Seat 1: aellisae (1428 in chips) 
+Seat 2: walte28 (1535 in chips) 
+Seat 3: Superimmi (1632 in chips) 
+Seat 4: Viinex13 (1458 in chips) 
+Seat 5: Roneisu (1458 in chips) 
+Seat 6: Selesike (1468 in chips) 
+Seat 7: Makaveli1009 (1488 in chips) 
+Seat 8: scorza23 (1488 in chips) 
+Seat 9: Acarrega (1545 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+Selesike: posts small blind 10
+Makaveli1009: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 4c]
+scorza23: folds 
+Acarrega: raises 40 to 60
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: calls 40
+*** FLOP *** [Ad 6s 3s]
+Makaveli1009: checks 
+Acarrega: bets 52
+Makaveli1009: folds 
+Uncalled bet (52) returned to Acarrega
+Acarrega collected 157 from pot
+Acarrega: doesn't show hand 
+*** SUMMARY ***
+Total pot 157 | Rake 0 
+Board [Ad 6s 3s]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 7: Makaveli1009 (big blind) folded on the Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega collected (157)
+
+
+
+PokerStars Hand #260346821943: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:32:34 UTC [2026/04/04 17:32:34 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 1: aellisae (1425 in chips) 
+Seat 2: walte28 (1532 in chips) 
+Seat 3: Superimmi (1629 in chips) 
+Seat 4: Viinex13 (1455 in chips) 
+Seat 5: Roneisu (1455 in chips) 
+Seat 6: Selesike (1455 in chips) 
+Seat 7: Makaveli1009 (1425 in chips) 
+Seat 8: scorza23 (1485 in chips) 
+Seat 9: Acarrega (1639 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+Makaveli1009: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Kc]
+Acarrega: raises 40 to 60
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: calls 60
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: raises 60 to 120
+Acarrega: raises 1516 to 1636 and is all-in
+Viinex13: folds 
+scorza23: calls 1362 and is all-in
+Uncalled bet (154) returned to Acarrega
+*** FLOP *** [2s 3s Ad]
+*** TURN *** [2s 3s Ad] [Tc]
+*** RIVER *** [2s 3s Ad Tc] [5d]
+*** SHOW DOWN ***
+scorza23: shows [Ks Kc] (a pair of Kings)
+Acarrega: shows [Jd Js] (a pair of Jacks)
+scorza23 collected 3061 from pot
+*** SUMMARY ***
+Total pot 3061 | Rake 0 
+Board [2s 3s Ad Tc 5d]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 7: Makaveli1009 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) showed [Ks Kc] and won (3061) with a pair of Kings
+Seat 9: Acarrega showed [Jd Js] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #260346831619: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:33:16 UTC [2026/04/04 17:33:16 ET]
+Table '3989316412 1' 9-max Seat #7 is the button
+Seat 1: aellisae (1422 in chips) 
+Seat 2: walte28 (1529 in chips) 
+Seat 3: Superimmi (1626 in chips) 
+Seat 4: Viinex13 (1392 in chips) 
+Seat 5: Roneisu (1452 in chips) 
+Seat 6: Selesike (1452 in chips) 
+Seat 7: Makaveli1009 (1412 in chips) 
+Seat 8: scorza23 (3061 in chips) 
+Seat 9: Acarrega (154 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+scorza23: posts small blind 10
+Acarrega: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Qs]
+aellisae: folds 
+walte28: raises 20 to 40
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+Acarrega: calls 20
+*** FLOP *** [Qc Js Tc]
+Acarrega: checks 
+walte28: checks 
+*** TURN *** [Qc Js Tc] [3d]
+Acarrega: checks 
+walte28: checks 
+*** RIVER *** [Qc Js Tc 3d] [Jd]
+Acarrega: checks 
+walte28: bets 40
+Acarrega: folds 
+Uncalled bet (40) returned to walte28
+walte28 collected 117 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 117 | Rake 0 
+Board [Qc Js Tc 3d Jd]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 collected (117)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: Acarrega (big blind) folded on the River
+
+
+
+PokerStars Hand #260346845601: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:34:16 UTC [2026/04/04 17:34:16 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 1: aellisae (1419 in chips) 
+Seat 2: walte28 (1603 in chips) 
+Seat 3: Superimmi (1623 in chips) 
+Seat 4: Viinex13 (1389 in chips) 
+Seat 5: Roneisu (1449 in chips) 
+Seat 6: Selesike (1449 in chips) 
+Seat 7: Makaveli1009 (1409 in chips) 
+Seat 8: scorza23 (3048 in chips) 
+Seat 9: Acarrega (111 in chips) 
+aellisae: posts the ante 3
+walte28: posts the ante 3
+Superimmi: posts the ante 3
+Viinex13: posts the ante 3
+Roneisu: posts the ante 3
+Selesike: posts the ante 3
+Makaveli1009: posts the ante 3
+scorza23: posts the ante 3
+Acarrega: posts the ante 3
+Acarrega: posts small blind 10
+aellisae: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Kd]
+walte28: raises 20 to 40
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: calls 40
+scorza23: folds 
+Acarrega: folds 
+aellisae: folds 
+*** FLOP *** [9d Kh Qs]
+walte28: checks 
+Makaveli1009: checks 
+*** TURN *** [9d Kh Qs] [2d]
+walte28: checks 
+Makaveli1009: checks 
+*** RIVER *** [9d Kh Qs 2d] [Jh]
+walte28: checks 
+Makaveli1009: checks 
+*** SHOW DOWN ***
+walte28: shows [5h 5s] (a pair of Fives)
+Makaveli1009: mucks hand 
+walte28 collected 137 from pot
+*** SUMMARY ***
+Total pot 137 | Rake 0 
+Board [9d Kh Qs 2d Jh]
+Seat 1: aellisae (big blind) folded before Flop
+Seat 2: walte28 showed [5h 5s] and won (137) with a pair of Fives
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 mucked [3c 3d]
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: Acarrega (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346867342: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:35:49 UTC [2026/04/04 17:35:49 ET]
+Table '3989316412 1' 9-max Seat #9 is the button
+Seat 1: aellisae (1396 in chips) 
+Seat 2: walte28 (1697 in chips) 
+Seat 3: Superimmi (1620 in chips) 
+Seat 4: Viinex13 (1386 in chips) 
+Seat 5: Roneisu (1446 in chips) 
+Seat 6: Selesike (1446 in chips) 
+Seat 7: Makaveli1009 (1366 in chips) 
+Seat 8: scorza23 (3045 in chips) 
+Seat 9: Acarrega (98 in chips) 
+aellisae: posts the ante 4
+walte28: posts the ante 4
+Superimmi: posts the ante 4
+Viinex13: posts the ante 4
+Roneisu: posts the ante 4
+Selesike: posts the ante 4
+Makaveli1009: posts the ante 4
+scorza23: posts the ante 4
+Acarrega: posts the ante 4
+aellisae: posts small blind 15
+walte28: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Ts]
+Superimmi: calls 30
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: raises 141 to 171
+scorza23: folds 
+Acarrega: folds 
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Uncalled bet (141) returned to Makaveli1009
+Makaveli1009 collected 141 from pot
+Makaveli1009: doesn't show hand 
+*** SUMMARY ***
+Total pot 141 | Rake 0 
+Seat 1: aellisae (small blind) folded before Flop
+Seat 2: walte28 (big blind) folded before Flop
+Seat 3: Superimmi folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 collected (141)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346877053: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:36:30 UTC [2026/04/04 17:36:30 ET]
+Table '3989316412 1' 9-max Seat #1 is the button
+Seat 1: aellisae (1377 in chips) 
+Seat 2: walte28 (1663 in chips) 
+Seat 3: Superimmi (1586 in chips) 
+Seat 4: Viinex13 (1382 in chips) 
+Seat 5: Roneisu (1442 in chips) 
+Seat 6: Selesike (1442 in chips) 
+Seat 7: Makaveli1009 (1473 in chips) 
+Seat 8: scorza23 (3041 in chips) 
+Seat 9: Acarrega (94 in chips) 
+aellisae: posts the ante 4
+walte28: posts the ante 4
+Superimmi: posts the ante 4
+Viinex13: posts the ante 4
+Roneisu: posts the ante 4
+Selesike: posts the ante 4
+Makaveli1009: posts the ante 4
+scorza23: posts the ante 4
+Acarrega: posts the ante 4
+walte28: posts small blind 15
+Superimmi: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Kd]
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: raises 60 to 90
+scorza23: folds 
+Acarrega: calls 90 and is all-in
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+*** FLOP *** [9s 6d 7h]
+*** TURN *** [9s 6d 7h] [8c]
+*** RIVER *** [9s 6d 7h 8c] [4h]
+*** SHOW DOWN ***
+Makaveli1009: shows [Qs As] (high card Ace)
+Acarrega: shows [4d 4s] (three of a kind, Fours)
+Acarrega collected 261 from pot
+*** SUMMARY ***
+Total pot 261 | Rake 0 
+Board [9s 6d 7h 8c 4h]
+Seat 1: aellisae (button) folded before Flop (didn't bet)
+Seat 2: walte28 (small blind) folded before Flop
+Seat 3: Superimmi (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 showed [Qs As] and lost with high card Ace
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega showed [4d 4s] and won (261) with three of a kind, Fours
+
+
+
+PokerStars Hand #260346883896: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:37:00 UTC [2026/04/04 17:37:00 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 1: aellisae (1373 in chips) 
+Seat 2: walte28 (1644 in chips) 
+Seat 3: Superimmi (1552 in chips) 
+Seat 4: Viinex13 (1378 in chips) 
+Seat 5: Roneisu (1438 in chips) 
+Seat 6: Selesike (1438 in chips) 
+Seat 7: Makaveli1009 (1379 in chips) 
+Seat 8: scorza23 (3037 in chips) 
+Seat 9: Acarrega (261 in chips) 
+aellisae: posts the ante 4
+walte28: posts the ante 4
+Superimmi: posts the ante 4
+Viinex13: posts the ante 4
+Roneisu: posts the ante 4
+Selesike: posts the ante 4
+Makaveli1009: posts the ante 4
+scorza23: posts the ante 4
+Acarrega: posts the ante 4
+Superimmi: posts small blind 15
+Viinex13: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 7s]
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+Acarrega: folds 
+aellisae: calls 30
+walte28: raises 60 to 90
+Superimmi: folds 
+Viinex13: calls 60
+aellisae: calls 60
+*** FLOP *** [8h 6s 6h]
+Viinex13: checks 
+aellisae: checks 
+walte28: bets 90
+Viinex13: folds 
+aellisae: folds 
+Uncalled bet (90) returned to walte28
+walte28 collected 321 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 321 | Rake 0 
+Board [8h 6s 6h]
+Seat 1: aellisae folded on the Flop
+Seat 2: walte28 (button) collected (321)
+Seat 3: Superimmi (small blind) folded before Flop
+Seat 4: Viinex13 (big blind) folded on the Flop
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346896098: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:37:52 UTC [2026/04/04 17:37:52 ET]
+Table '3989316412 1' 9-max Seat #3 is the button
+Seat 1: aellisae (1279 in chips) 
+Seat 2: walte28 (1871 in chips) 
+Seat 3: Superimmi (1533 in chips) 
+Seat 4: Viinex13 (1284 in chips) 
+Seat 5: Roneisu (1434 in chips) 
+Seat 6: Selesike (1434 in chips) 
+Seat 7: Makaveli1009 (1375 in chips) 
+Seat 8: scorza23 (3033 in chips) 
+Seat 9: Acarrega (257 in chips) 
+aellisae: posts the ante 4
+walte28: posts the ante 4
+Superimmi: posts the ante 4
+Viinex13: posts the ante 4
+Roneisu: posts the ante 4
+Selesike: posts the ante 4
+Makaveli1009: posts the ante 4
+scorza23: posts the ante 4
+Acarrega: posts the ante 4
+Viinex13: posts small blind 15
+Roneisu: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Ad]
+Selesike: raises 60 to 90
+Makaveli1009: folds 
+scorza23: raises 120 to 210
+Acarrega: folds 
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: raises 1220 to 1430 and is all-in
+scorza23: folds 
+Uncalled bet (1220) returned to Selesike
+Selesike collected 501 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 501 | Rake 0 
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) folded before Flop
+Seat 5: Roneisu (big blind) folded before Flop
+Seat 6: Selesike collected (501)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346902214: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:38:18 UTC [2026/04/04 17:38:18 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 1: aellisae (1275 in chips) 
+Seat 2: walte28 (1867 in chips) 
+Seat 3: Superimmi (1529 in chips) 
+Seat 4: Viinex13 (1265 in chips) 
+Seat 5: Roneisu (1400 in chips) 
+Seat 6: Selesike (1721 in chips) 
+Seat 7: Makaveli1009 (1371 in chips) 
+Seat 8: scorza23 (2819 in chips) 
+Seat 9: Acarrega (253 in chips) 
+aellisae: posts the ante 4
+walte28: posts the ante 4
+Superimmi: posts the ante 4
+Viinex13: posts the ante 4
+Roneisu: posts the ante 4
+Selesike: posts the ante 4
+Makaveli1009: posts the ante 4
+scorza23: posts the ante 4
+Acarrega: posts the ante 4
+Roneisu: posts small blind 15
+Selesike: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Ad]
+Makaveli1009: raises 30 to 60
+scorza23: calls 60
+Acarrega: folds 
+aellisae: folds 
+walte28: folds 
+Superimmi: calls 60
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+*** FLOP *** [8c 3d 7d]
+Makaveli1009: checks 
+scorza23: checks 
+Superimmi: bets 261
+Makaveli1009: folds 
+scorza23: folds 
+Uncalled bet (261) returned to Superimmi
+Superimmi collected 261 from pot
+Superimmi: doesn't show hand 
+*** SUMMARY ***
+Total pot 261 | Rake 0 
+Board [8c 3d 7d]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi collected (261)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 5: Roneisu (small blind) folded before Flop
+Seat 6: Selesike (big blind) folded before Flop
+Seat 7: Makaveli1009 folded on the Flop
+Seat 8: scorza23 folded on the Flop
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346910596: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:38:54 UTC [2026/04/04 17:38:54 ET]
+Table '3989316412 1' 9-max Seat #5 is the button
+Seat 1: aellisae (1271 in chips) 
+Seat 2: walte28 (1863 in chips) 
+Seat 3: Superimmi (1726 in chips) 
+Seat 4: Viinex13 (1261 in chips) 
+Seat 5: Roneisu (1381 in chips) 
+Seat 6: Selesike (1687 in chips) 
+Seat 7: Makaveli1009 (1307 in chips) 
+Seat 8: scorza23 (2755 in chips) 
+Seat 9: Acarrega (249 in chips) 
+aellisae: posts the ante 4
+walte28: posts the ante 4
+Superimmi: posts the ante 4
+Viinex13: posts the ante 4
+Roneisu: posts the ante 4
+Selesike: posts the ante 4
+Makaveli1009: posts the ante 4
+scorza23: posts the ante 4
+Acarrega: posts the ante 4
+Selesike: posts small blind 15
+Makaveli1009: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Ac]
+scorza23: raises 60 to 90
+Acarrega: folds 
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: calls 60
+*** FLOP *** [Jh 6h Ts]
+Makaveli1009: checks 
+scorza23: bets 90
+Makaveli1009: calls 90
+*** TURN *** [Jh 6h Ts] [2h]
+Makaveli1009: checks 
+scorza23: checks 
+*** RIVER *** [Jh 6h Ts 2h] [7d]
+Makaveli1009: checks 
+scorza23: bets 150
+Makaveli1009: calls 150
+*** SHOW DOWN ***
+scorza23: shows [Jd Ac] (a pair of Jacks)
+Makaveli1009: mucks hand 
+scorza23 collected 711 from pot
+*** SUMMARY ***
+Total pot 711 | Rake 0 
+Board [Jh 6h Ts 2h 7d]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 7: Makaveli1009 (big blind) mucked [Qc Jc]
+Seat 8: scorza23 showed [Jd Ac] and won (711) with a pair of Jacks
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346924775: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:39:54 UTC [2026/04/04 17:39:54 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 1: aellisae (1267 in chips) 
+Seat 2: walte28 (1859 in chips) 
+Seat 3: Superimmi (1722 in chips) 
+Seat 4: Viinex13 (1257 in chips) 
+Seat 5: Roneisu (1377 in chips) 
+Seat 6: Selesike (1668 in chips) 
+Seat 7: Makaveli1009 (973 in chips) 
+Seat 8: scorza23 (3132 in chips) 
+Seat 9: Acarrega (245 in chips) 
+aellisae: posts the ante 6
+walte28: posts the ante 6
+Superimmi: posts the ante 6
+Viinex13: posts the ante 6
+Roneisu: posts the ante 6
+Selesike: posts the ante 6
+Makaveli1009: posts the ante 6
+scorza23: posts the ante 6
+Acarrega: posts the ante 6
+Makaveli1009: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 4s]
+Acarrega: folds 
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: raises 50 to 100
+Roneisu: folds 
+Selesike: raises 164 to 264
+Makaveli1009: folds 
+scorza23: folds 
+Viinex13: calls 164
+*** FLOP *** [Td Jc 6s]
+Viinex13: checks 
+Selesike: bets 300
+Viinex13: raises 687 to 987 and is all-in
+Selesike: folds 
+Uncalled bet (687) returned to Viinex13
+Viinex13 collected 1257 from pot
+*** SUMMARY ***
+Total pot 1257 | Rake 0 
+Board [Td Jc 6s]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 collected (1257)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded on the Flop
+Seat 7: Makaveli1009 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: Acarrega folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346939347: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:40:57 UTC [2026/04/04 17:40:57 ET]
+Table '3989316412 1' 9-max Seat #7 is the button
+Seat 1: aellisae (1261 in chips) 
+Seat 2: walte28 (1853 in chips) 
+Seat 3: Superimmi (1716 in chips) 
+Seat 4: Viinex13 (1944 in chips) 
+Seat 5: Roneisu (1371 in chips) 
+Seat 6: Selesike (1098 in chips) 
+Seat 7: Makaveli1009 (942 in chips) 
+Seat 8: scorza23 (3076 in chips) 
+Seat 9: Acarrega (239 in chips) 
+aellisae: posts the ante 6
+walte28: posts the ante 6
+Superimmi: posts the ante 6
+Viinex13: posts the ante 6
+Roneisu: posts the ante 6
+Selesike: posts the ante 6
+Makaveli1009: posts the ante 6
+scorza23: posts the ante 6
+Acarrega: posts the ante 6
+scorza23: posts small blind 25
+Acarrega: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 2d]
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: raises 65 to 115
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+Acarrega: raises 118 to 233 and is all-in
+Roneisu: calls 118
+*** FLOP *** [8h 4h Td]
+*** TURN *** [8h 4h Td] [Ks]
+*** RIVER *** [8h 4h Td Ks] [Th]
+*** SHOW DOWN ***
+Acarrega: shows [Ah 8s] (two pair, Tens and Eights)
+Roneisu: shows [Qs Kd] (two pair, Kings and Tens)
+Roneisu collected 545 from pot
+Acarrega finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 545 | Rake 0 
+Board [8h 4h Td Ks Th]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu showed [Qs Kd] and won (545) with two pair, Kings and Tens
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: Acarrega (big blind) showed [Ah 8s] and lost with two pair, Tens and Eights
+
+
+
+PokerStars Hand #260346948580: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:41:37 UTC [2026/04/04 17:41:37 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 1: aellisae (1255 in chips) 
+Seat 2: walte28 (1847 in chips) 
+Seat 3: Superimmi (1710 in chips) 
+Seat 4: Viinex13 (1938 in chips) 
+Seat 5: Roneisu (1677 in chips) 
+Seat 6: Selesike (1092 in chips) 
+Seat 7: Makaveli1009 (936 in chips) 
+Seat 8: scorza23 (3045 in chips) 
+aellisae: posts the ante 6
+walte28: posts the ante 6
+Superimmi: posts the ante 6
+Viinex13: posts the ante 6
+Roneisu: posts the ante 6
+Selesike: posts the ante 6
+Makaveli1009: posts the ante 6
+scorza23: posts the ante 6
+aellisae: posts small blind 25
+walte28: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Qs]
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: raises 65 to 115
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+aellisae: folds 
+walte28: calls 65
+*** FLOP *** [3s 3c 9s]
+walte28: checks 
+Roneisu: bets 121
+walte28: folds 
+Uncalled bet (121) returned to Roneisu
+Roneisu collected 303 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 303 | Rake 0 
+Board [3s 3c 9s]
+Seat 1: aellisae (small blind) folded before Flop
+Seat 2: walte28 (big blind) folded on the Flop
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu collected (303)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346959074: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:42:22 UTC [2026/04/04 17:42:22 ET]
+Table '3989316412 1' 9-max Seat #1 is the button
+Seat 1: aellisae (1224 in chips) 
+Seat 2: walte28 (1726 in chips) 
+Seat 3: Superimmi (1704 in chips) 
+Seat 4: Viinex13 (1932 in chips) 
+Seat 5: Roneisu (1859 in chips) 
+Seat 6: Selesike (1086 in chips) 
+Seat 7: Makaveli1009 (930 in chips) 
+Seat 8: scorza23 (3039 in chips) 
+aellisae: posts the ante 6
+walte28: posts the ante 6
+Superimmi: posts the ante 6
+Viinex13: posts the ante 6
+Roneisu: posts the ante 6
+Selesike: posts the ante 6
+Makaveli1009: posts the ante 6
+scorza23: posts the ante 6
+walte28: posts small blind 25
+Superimmi: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 7d]
+Viinex13: folds 
+Roneisu: raises 65 to 115
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Uncalled bet (65) returned to Roneisu
+Roneisu collected 173 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Seat 1: aellisae (button) folded before Flop (didn't bet)
+Seat 2: walte28 (small blind) folded before Flop
+Seat 3: Superimmi (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu collected (173)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346964238: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:42:44 UTC [2026/04/04 17:42:44 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 1: aellisae (1218 in chips) 
+Seat 2: walte28 (1695 in chips) 
+Seat 3: Superimmi (1648 in chips) 
+Seat 4: Viinex13 (1926 in chips) 
+Seat 5: Roneisu (1976 in chips) 
+Seat 6: Selesike (1080 in chips) 
+Seat 7: Makaveli1009 (924 in chips) 
+Seat 8: scorza23 (3033 in chips) 
+aellisae: posts the ante 6
+walte28: posts the ante 6
+Superimmi: posts the ante 6
+Viinex13: posts the ante 6
+Roneisu: posts the ante 6
+Selesike: posts the ante 6
+Makaveli1009: posts the ante 6
+scorza23: posts the ante 6
+Superimmi: posts small blind 25
+Viinex13: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Th]
+Roneisu: folds 
+Selesike: raises 59 to 109
+Makaveli1009: folds 
+scorza23: folds 
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: raises 209 to 318
+Selesike: folds 
+Uncalled bet (209) returned to Viinex13
+Viinex13 collected 291 from pot
+*** SUMMARY ***
+Total pot 291 | Rake 0 
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 3: Superimmi (small blind) folded before Flop
+Seat 4: Viinex13 (big blind) collected (291)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346973656: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:43:25 UTC [2026/04/04 17:43:25 ET]
+Table '3989316412 1' 9-max Seat #3 is the button
+Seat 1: aellisae (1212 in chips) 
+Seat 2: walte28 (1689 in chips) 
+Seat 3: Superimmi (1617 in chips) 
+Seat 4: Viinex13 (2102 in chips) 
+Seat 5: Roneisu (1970 in chips) 
+Seat 6: Selesike (965 in chips) 
+Seat 7: Makaveli1009 (918 in chips) 
+Seat 8: scorza23 (3027 in chips) 
+aellisae: posts the ante 6
+walte28: posts the ante 6
+Superimmi: posts the ante 6
+Viinex13: posts the ante 6
+Roneisu: posts the ante 6
+Selesike: posts the ante 6
+Makaveli1009: posts the ante 6
+scorza23: posts the ante 6
+Viinex13: posts small blind 25
+Roneisu: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8c]
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+aellisae: folds 
+walte28: raises 50 to 100
+Superimmi: folds 
+Viinex13: raises 200 to 300
+Roneisu: folds 
+walte28: calls 200
+*** FLOP *** [5c 7d Js]
+Viinex13: bets 150
+walte28: calls 150
+*** TURN *** [5c 7d Js] [9s]
+Viinex13: bets 200
+walte28: calls 200
+*** RIVER *** [5c 7d Js 9s] [2c]
+Viinex13: checks 
+walte28: bets 250
+Viinex13: calls 250
+*** SHOW DOWN ***
+walte28: shows [Qd Qh] (a pair of Queens)
+Viinex13: mucks hand 
+walte28 collected 1898 from pot
+*** SUMMARY ***
+Total pot 1898 | Rake 0 
+Board [5c 7d Js 9s 2c]
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 showed [Qd Qh] and won (1898) with a pair of Queens
+Seat 3: Superimmi (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) mucked [Ac Ks]
+Seat 5: Roneisu (big blind) folded before Flop
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346984587: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:44:13 UTC [2026/04/04 17:44:13 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 1: aellisae (1206 in chips) 
+Seat 2: walte28 (2681 in chips) 
+Seat 3: Superimmi (1611 in chips) 
+Seat 4: Viinex13 (1196 in chips) 
+Seat 5: Roneisu (1914 in chips) 
+Seat 6: Selesike (959 in chips) 
+Seat 7: Makaveli1009 (912 in chips) 
+Seat 8: scorza23 (3021 in chips) 
+aellisae: posts the ante 6
+walte28: posts the ante 6
+Superimmi: posts the ante 6
+Viinex13: posts the ante 6
+Roneisu: posts the ante 6
+Selesike: posts the ante 6
+Makaveli1009: posts the ante 6
+scorza23: posts the ante 6
+Roneisu: posts small blind 25
+Selesike: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 3s]
+Makaveli1009: folds 
+scorza23: folds 
+aellisae: raises 100 to 150
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: raises 803 to 953 and is all-in
+aellisae: calls 803
+*** FLOP *** [Tc 5d 7d]
+*** TURN *** [Tc 5d 7d] [4c]
+*** RIVER *** [Tc 5d 7d 4c] [Js]
+*** SHOW DOWN ***
+Selesike: shows [9h 9d] (a pair of Nines)
+aellisae: shows [As 9s] (high card Ace)
+Selesike collected 1979 from pot
+*** SUMMARY ***
+Total pot 1979 | Rake 0 
+Board [Tc 5d 7d 4c Js]
+Seat 1: aellisae showed [As 9s] and lost with high card Ace
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 5: Roneisu (small blind) folded before Flop
+Seat 6: Selesike (big blind) showed [9h 9d] and won (1979) with a pair of Nines
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346992458: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:44:47 UTC [2026/04/04 17:44:47 ET]
+Table '3989316412 1' 9-max Seat #5 is the button
+Seat 1: aellisae (247 in chips) 
+Seat 2: walte28 (2675 in chips) 
+Seat 3: Superimmi (1605 in chips) 
+Seat 4: Viinex13 (1190 in chips) 
+Seat 5: Roneisu (1883 in chips) 
+Seat 6: Selesike (1979 in chips) 
+Seat 7: Makaveli1009 (906 in chips) 
+Seat 8: scorza23 (3015 in chips) 
+aellisae: posts the ante 10
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Roneisu: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+Selesike: posts small blind 40
+Makaveli1009: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Kh]
+scorza23: raises 160 to 240
+aellisae: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 280 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: aellisae folded before Flop (didn't bet)
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 7: Makaveli1009 (big blind) folded before Flop
+Seat 8: scorza23 collected (280)
+
+
+
+PokerStars Hand #260346998796: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:45:16 UTC [2026/04/04 17:45:16 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 1: aellisae (237 in chips) 
+Seat 2: walte28 (2665 in chips) 
+Seat 3: Superimmi (1595 in chips) 
+Seat 4: Viinex13 (1180 in chips) 
+Seat 5: Roneisu (1873 in chips) 
+Seat 6: Selesike (1929 in chips) 
+Seat 7: Makaveli1009 (816 in chips) 
+Seat 8: scorza23 (3205 in chips) 
+aellisae: posts the ante 10
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Roneisu: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+Makaveli1009: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 3c]
+aellisae: raises 147 to 227 and is all-in
+walte28: calls 227
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: folds 
+Selesike: raises 1692 to 1919 and is all-in
+Makaveli1009: folds 
+scorza23: folds 
+walte28: folds 
+Uncalled bet (1692) returned to Selesike
+*** FLOP *** [2c 9d 2h]
+*** TURN *** [2c 9d 2h] [6h]
+*** RIVER *** [2c 9d 2h 6h] [9h]
+*** SHOW DOWN ***
+aellisae: shows [8s Tc] (two pair, Nines and Deuces)
+Selesike: shows [Js Jd] (two pair, Jacks and Nines)
+Selesike collected 881 from pot
+aellisae finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 881 | Rake 0 
+Board [2c 9d 2h 6h 9h]
+Seat 1: aellisae showed [8s Tc] and lost with two pair, Nines and Deuces
+Seat 2: walte28 folded before Flop
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike (button) showed [Js Jd] and won (881) with two pair, Jacks and Nines
+Seat 7: Makaveli1009 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347009009: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:46:01 UTC [2026/04/04 17:46:01 ET]
+Table '3989316412 1' 9-max Seat #7 is the button
+Seat 2: walte28 (2428 in chips) 
+Seat 3: Superimmi (1585 in chips) 
+Seat 4: Viinex13 (1170 in chips) 
+Seat 5: Roneisu (1863 in chips) 
+Seat 6: Selesike (2573 in chips) 
+Seat 7: Makaveli1009 (766 in chips) 
+Seat 8: scorza23 (3115 in chips) 
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Roneisu: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 40
+walte28: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3h]
+Superimmi: folds 
+Viinex13: raises 80 to 160
+Roneisu: folds 
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: folds 
+walte28: calls 80
+*** FLOP *** [Kd Kh 9c]
+walte28: checks 
+Viinex13: bets 1000 and is all-in
+walte28: folds 
+Uncalled bet (1000) returned to Viinex13
+Viinex13 collected 430 from pot
+*** SUMMARY ***
+Total pot 430 | Rake 0 
+Board [Kd Kh 9c]
+Seat 2: walte28 (big blind) folded on the Flop
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 collected (430)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347018922: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:46:45 UTC [2026/04/04 17:46:45 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2258 in chips) 
+Seat 3: Superimmi (1575 in chips) 
+Seat 4: Viinex13 (1430 in chips) 
+Seat 5: Roneisu (1853 in chips) 
+Seat 6: Selesike (2563 in chips) 
+Seat 7: Makaveli1009 (756 in chips) 
+Seat 8: scorza23 (3065 in chips) 
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Roneisu: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+walte28: posts small blind 40
+Superimmi: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Ah]
+Viinex13 has timed out
+Viinex13: folds 
+Viinex13 is sitting out
+Viinex13 has returned
+Roneisu: folds 
+Selesike: raises 94 to 174
+Makaveli1009: folds 
+scorza23: folds 
+walte28: folds 
+Superimmi: folds 
+Uncalled bet (94) returned to Selesike
+Selesike collected 270 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 3: Superimmi (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 5: Roneisu folded before Flop (didn't bet)
+Seat 6: Selesike collected (270)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347027298: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:47:22 UTC [2026/04/04 17:47:22 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2208 in chips) 
+Seat 3: Superimmi (1485 in chips) 
+Seat 4: Viinex13 (1420 in chips) 
+Seat 5: Roneisu (1843 in chips) 
+Seat 6: Selesike (2743 in chips) 
+Seat 7: Makaveli1009 (746 in chips) 
+Seat 8: scorza23 (3055 in chips) 
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Roneisu: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+Superimmi: posts small blind 40
+Viinex13: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Kh]
+Roneisu: raises 104 to 184
+Selesike: folds 
+Makaveli1009: folds 
+scorza23: raises 136 to 320
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Roneisu: raises 640 to 960
+scorza23: calls 640
+*** FLOP *** [7s Ac 9d]
+Roneisu: bets 873 and is all-in
+scorza23: calls 873
+*** TURN *** [7s Ac 9d] [9s]
+*** RIVER *** [7s Ac 9d 9s] [8h]
+*** SHOW DOWN ***
+Roneisu: shows [Jc Jh] (two pair, Jacks and Nines)
+scorza23: shows [Kd Kh] (two pair, Kings and Nines)
+scorza23 collected 3856 from pot
+Roneisu finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 3856 | Rake 0 
+Board [7s Ac 9d 9s 8h]
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 3: Superimmi (small blind) folded before Flop
+Seat 4: Viinex13 (big blind) folded before Flop
+Seat 5: Roneisu showed [Jc Jh] and lost with two pair, Jacks and Nines
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 showed [Kd Kh] and won (3856) with two pair, Kings and Nines
+
+
+
+PokerStars Hand #260347035635: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:47:58 UTC [2026/04/04 17:47:58 ET]
+Table '3989316412 1' 9-max Seat #3 is the button
+Seat 2: walte28 (2198 in chips) 
+Seat 3: Superimmi (1435 in chips) 
+Seat 4: Viinex13 (1330 in chips) 
+Seat 6: Selesike (2733 in chips) 
+Seat 7: Makaveli1009 (736 in chips) 
+Seat 8: scorza23 (5068 in chips) 
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+Viinex13: posts small blind 40
+Selesike: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8h]
+Makaveli1009: folds 
+scorza23: folds 
+walte28: raises 80 to 160
+Superimmi: folds 
+Viinex13: folds 
+Selesike: calls 80
+*** FLOP *** [4s Ks 7c]
+Selesike: checks 
+walte28: bets 210
+Selesike: folds 
+Uncalled bet (210) returned to walte28
+walte28 collected 420 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Board [4s Ks 7c]
+Seat 2: walte28 collected (420)
+Seat 3: Superimmi (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) folded before Flop
+Seat 6: Selesike (big blind) folded on the Flop
+Seat 7: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347044823: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:48:39 UTC [2026/04/04 17:48:39 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 2: walte28 (2448 in chips) 
+Seat 3: Superimmi (1425 in chips) 
+Seat 4: Viinex13 (1280 in chips) 
+Seat 6: Selesike (2563 in chips) 
+Seat 7: Makaveli1009 (726 in chips) 
+Seat 8: scorza23 (5058 in chips) 
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+Selesike: posts small blind 40
+Makaveli1009: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Ts]
+scorza23: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Selesike: folds 
+Uncalled bet (40) returned to Makaveli1009
+Makaveli1009 collected 140 from pot
+Makaveli1009: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 7: Makaveli1009 (big blind) collected (140)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347049713: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:49:01 UTC [2026/04/04 17:49:01 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (2438 in chips) 
+Seat 3: Superimmi (1415 in chips) 
+Seat 4: Viinex13 (1270 in chips) 
+Seat 6: Selesike (2513 in chips) 
+Seat 7: Makaveli1009 (816 in chips) 
+Seat 8: scorza23 (5048 in chips) 
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+Makaveli1009: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 3s]
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Selesike: folds 
+Makaveli1009: raises 80 to 160
+scorza23: folds 
+Uncalled bet (80) returned to Makaveli1009
+Makaveli1009 collected 220 from pot
+Makaveli1009: doesn't show hand 
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 7: Makaveli1009 (small blind) collected (220)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347054623: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:49:23 UTC [2026/04/04 17:49:23 ET]
+Table '3989316412 1' 9-max Seat #7 is the button
+Seat 2: walte28 (2428 in chips) 
+Seat 3: Superimmi (1405 in chips) 
+Seat 4: Viinex13 (1260 in chips) 
+Seat 6: Selesike (2503 in chips) 
+Seat 7: Makaveli1009 (946 in chips) 
+Seat 8: scorza23 (4958 in chips) 
+walte28: posts the ante 10
+Superimmi: posts the ante 10
+Viinex13: posts the ante 10
+Selesike: posts the ante 10
+Makaveli1009: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 40
+walte28: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 3d]
+Superimmi: folds 
+Viinex13: raises 80 to 160
+Selesike: folds 
+Makaveli1009: calls 160
+scorza23: folds 
+walte28: folds 
+*** FLOP *** [7d 7h 8h]
+Viinex13: bets 160
+Makaveli1009: calls 160
+*** TURN *** [7d 7h 8h] [Ad]
+Viinex13: bets 930 and is all-in
+Makaveli1009: calls 616 and is all-in
+Uncalled bet (314) returned to Viinex13
+*** RIVER *** [7d 7h 8h Ad] [3s]
+*** SHOW DOWN ***
+Viinex13: shows [6s 6d] (two pair, Sevens and Sixes)
+Makaveli1009: shows [5h 5d] (two pair, Sevens and Fives)
+Viinex13 collected 2052 from pot
+Makaveli1009 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 2052 | Rake 0 
+Board [7d 7h 8h Ad 3s]
+Seat 2: walte28 (big blind) folded before Flop
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 showed [6s 6d] and won (2052) with two pair, Sevens and Sixes
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 7: Makaveli1009 (button) showed [5h 5d] and lost with two pair, Sevens and Fives
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347063158: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:50:01 UTC [2026/04/04 17:50:01 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2338 in chips) 
+Seat 3: Superimmi (1395 in chips) 
+Seat 4: Viinex13 (2366 in chips) 
+Seat 6: Selesike (2493 in chips) 
+Seat 8: scorza23 (4908 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+walte28: posts small blind 60
+Superimmi: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Js]
+Viinex13: raises 120 to 240
+Selesike: folds 
+scorza23: folds 
+walte28 has timed out
+walte28: folds 
+walte28 is sitting out
+walte28 has returned
+Superimmi: folds 
+Uncalled bet (120) returned to Viinex13
+Viinex13 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 3: Superimmi (big blind) folded before Flop
+Seat 4: Viinex13 collected (375)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347072617: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:50:43 UTC [2026/04/04 17:50:43 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2263 in chips) 
+Seat 3: Superimmi (1260 in chips) 
+Seat 4: Viinex13 (2606 in chips) 
+Seat 6: Selesike (2478 in chips) 
+Seat 8: scorza23 (4893 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+Superimmi: posts small blind 60
+Viinex13: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Qd]
+Selesike: raises 141 to 261
+scorza23: calls 261
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+*** FLOP *** [Js 8h Qs]
+Selesike: checks 
+scorza23: bets 480
+Selesike: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 777 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 777 | Rake 0 
+Board [Js 8h Qs]
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 3: Superimmi (small blind) folded before Flop
+Seat 4: Viinex13 (big blind) folded before Flop
+Seat 6: Selesike folded on the Flop
+Seat 8: scorza23 collected (777)
+
+
+
+PokerStars Hand #260347080669: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:51:19 UTC [2026/04/04 17:51:19 ET]
+Table '3989316412 1' 9-max Seat #3 is the button
+Seat 2: walte28 (2248 in chips) 
+Seat 3: Superimmi (1185 in chips) 
+Seat 4: Viinex13 (2471 in chips) 
+Seat 6: Selesike (2202 in chips) 
+Seat 8: scorza23 (5394 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+Viinex13: posts small blind 60
+Selesike: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 7d]
+scorza23: folds 
+walte28: folds 
+Superimmi: folds 
+Viinex13: raises 120 to 240
+Selesike: calls 120
+*** FLOP *** [7h Qc 7s]
+Viinex13: bets 240
+Selesike: calls 240
+*** TURN *** [7h Qc 7s] [Qs]
+Viinex13: checks 
+Selesike: bets 285
+Viinex13: folds 
+Uncalled bet (285) returned to Selesike
+Selesike collected 1035 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 1035 | Rake 0 
+Board [7h Qc 7s Qs]
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) folded on the Turn
+Seat 6: Selesike (big blind) collected (1035)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347094537: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:52:21 UTC [2026/04/04 17:52:21 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 2: walte28 (2233 in chips) 
+Seat 3: Superimmi (1170 in chips) 
+Seat 4: Viinex13 (1976 in chips) 
+Seat 6: Selesike (2742 in chips) 
+Seat 8: scorza23 (5379 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+Selesike: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 8c]
+walte28 has timed out
+walte28: folds 
+walte28 is sitting out
+Superimmi: folds 
+walte28 has returned
+Viinex13: folds 
+Selesike: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 195 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 195 | Rake 0 
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (195)
+
+
+
+PokerStars Hand #260347102899: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:53:00 UTC [2026/04/04 17:53:00 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (2218 in chips) 
+Seat 3: Superimmi (1155 in chips) 
+Seat 4: Viinex13 (1961 in chips) 
+Seat 6: Selesike (2667 in chips) 
+Seat 8: scorza23 (5499 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+scorza23: posts small blind 60
+walte28: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3s]
+Superimmi: folds 
+Viinex13: folds 
+Selesike: folds 
+scorza23: folds 
+Uncalled bet (60) returned to walte28
+walte28 collected 195 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 195 | Rake 0 
+Seat 2: walte28 (big blind) collected (195)
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347108429: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:53:25 UTC [2026/04/04 17:53:25 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2338 in chips) 
+Seat 3: Superimmi (1140 in chips) 
+Seat 4: Viinex13 (1946 in chips) 
+Seat 6: Selesike (2652 in chips) 
+Seat 8: scorza23 (5424 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+walte28: posts small blind 60
+Superimmi: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7c]
+Viinex13: folds 
+Selesike: folds 
+scorza23: folds 
+walte28: raises 120 to 240
+Superimmi: folds 
+Uncalled bet (120) returned to walte28
+walte28 collected 315 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 315 | Rake 0 
+Seat 2: walte28 (small blind) collected (315)
+Seat 3: Superimmi (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347112612: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:53:43 UTC [2026/04/04 17:53:43 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2518 in chips) 
+Seat 3: Superimmi (1005 in chips) 
+Seat 4: Viinex13 (1931 in chips) 
+Seat 6: Selesike (2637 in chips) 
+Seat 8: scorza23 (5409 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+Superimmi: posts small blind 60
+Viinex13: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [As Th]
+Selesike: folds 
+scorza23: raises 120 to 240
+walte28: folds 
+Superimmi: folds 
+Viinex13: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 3: Superimmi (small blind) folded before Flop
+Seat 4: Viinex13 (big blind) folded before Flop
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 8: scorza23 collected (375)
+
+
+
+PokerStars Hand #260347117538: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:54:06 UTC [2026/04/04 17:54:06 ET]
+Table '3989316412 1' 9-max Seat #3 is the button
+Seat 2: walte28 (2503 in chips) 
+Seat 3: Superimmi (930 in chips) 
+Seat 4: Viinex13 (1796 in chips) 
+Seat 6: Selesike (2622 in chips) 
+Seat 8: scorza23 (5649 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+Viinex13: posts small blind 60
+Selesike: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 9h]
+scorza23: folds 
+walte28: raises 120 to 240
+Superimmi: folds 
+Viinex13: raises 1541 to 1781 and is all-in
+Selesike: folds 
+walte28: folds 
+Uncalled bet (1541) returned to Viinex13
+Viinex13 collected 675 from pot
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 2: walte28 folded before Flop
+Seat 3: Superimmi (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) collected (675)
+Seat 6: Selesike (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347123256: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:54:32 UTC [2026/04/04 17:54:32 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 2: walte28 (2248 in chips) 
+Seat 3: Superimmi (915 in chips) 
+Seat 4: Viinex13 (2216 in chips) 
+Seat 6: Selesike (2487 in chips) 
+Seat 8: scorza23 (5634 in chips) 
+walte28: posts the ante 15
+Superimmi: posts the ante 15
+Viinex13: posts the ante 15
+Selesike: posts the ante 15
+scorza23: posts the ante 15
+Selesike: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 6d]
+walte28: folds 
+Superimmi: raises 780 to 900 and is all-in
+Viinex13: folds 
+Selesike: folds 
+scorza23: calls 780
+*** FLOP *** [4c 5c 9s]
+*** TURN *** [4c 5c 9s] [8h]
+*** RIVER *** [4c 5c 9s 8h] [9h]
+*** SHOW DOWN ***
+scorza23: shows [5d 6d] (two pair, Nines and Fives)
+Superimmi: shows [Tc Td] (two pair, Tens and Nines)
+Superimmi collected 1935 from pot
+*** SUMMARY ***
+Total pot 1935 | Rake 0 
+Board [4c 5c 9s 8h 9h]
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi showed [Tc Td] and won (1935) with two pair, Tens and Nines
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) showed [5d 6d] and lost with two pair, Nines and Fives
+
+
+
+PokerStars Hand #260347130388: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:55:04 UTC [2026/04/04 17:55:04 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (2233 in chips) 
+Seat 3: Superimmi (1935 in chips) 
+Seat 4: Viinex13 (2201 in chips) 
+Seat 6: Selesike (2412 in chips) 
+Seat 8: scorza23 (4719 in chips) 
+walte28: posts the ante 20
+Superimmi: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+walte28: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Ac]
+Superimmi: folds 
+Viinex13: folds 
+Selesike: folds 
+scorza23: raises 320 to 480
+walte28: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 420 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 3: Superimmi folded before Flop (didn't bet)
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (420)
+
+
+
+PokerStars Hand #260347133616: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:55:21 UTC [2026/04/04 17:55:21 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2053 in chips) 
+Seat 3: Superimmi (1915 in chips) 
+Seat 4: Viinex13 (2181 in chips) 
+Seat 6: Selesike (2392 in chips) 
+Seat 8: scorza23 (4959 in chips) 
+walte28: posts the ante 20
+Superimmi: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+walte28: posts small blind 80
+Superimmi: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 5d]
+Viinex13: folds 
+Selesike: raises 188 to 348
+scorza23: folds 
+walte28: calls 268
+Superimmi: folds 
+*** FLOP *** [9d 3s 8d]
+walte28: checks 
+Selesike: bets 346
+walte28: calls 346
+*** TURN *** [9d 3s 8d] [5c]
+walte28: checks 
+Selesike: checks 
+*** RIVER *** [9d 3s 8d 5c] [Jc]
+walte28: checks 
+Selesike: checks 
+*** SHOW DOWN ***
+walte28: shows [Th Jd] (a pair of Jacks)
+Selesike: mucks hand 
+walte28 collected 1648 from pot
+*** SUMMARY ***
+Total pot 1648 | Rake 0 
+Board [9d 3s 8d 5c Jc]
+Seat 2: walte28 (small blind) showed [Th Jd] and won (1648) with a pair of Jacks
+Seat 3: Superimmi (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike mucked [Qd Ah]
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347140587: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:56:07 UTC [2026/04/04 17:56:07 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2987 in chips) 
+Seat 3: Superimmi (1735 in chips) 
+Seat 4: Viinex13 (2161 in chips) 
+Seat 6: Selesike (1678 in chips) 
+Seat 8: scorza23 (4939 in chips) 
+walte28: posts the ante 20
+Superimmi: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+Superimmi: posts small blind 80
+Viinex13: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Ah]
+Selesike: folds 
+scorza23: raises 320 to 480
+walte28: folds 
+Superimmi: folds 
+Viinex13: raises 1661 to 2141 and is all-in
+scorza23: folds 
+Uncalled bet (1661) returned to Viinex13
+Viinex13 collected 1140 from pot
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 3: Superimmi (small blind) folded before Flop
+Seat 4: Viinex13 (big blind) collected (1140)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop
+
+
+
+PokerStars Hand #260347143955: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:56:30 UTC [2026/04/04 17:56:30 ET]
+Table '3989316412 1' 9-max Seat #3 is the button
+Seat 2: walte28 (2967 in chips) 
+Seat 3: Superimmi (1635 in chips) 
+Seat 4: Viinex13 (2801 in chips) 
+Seat 6: Selesike (1658 in chips) 
+Seat 8: scorza23 (4439 in chips) 
+walte28: posts the ante 20
+Superimmi: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+Viinex13: posts small blind 80
+Selesike: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 7c]
+scorza23: folds 
+walte28: folds 
+Superimmi: raises 320 to 480
+Viinex13: folds 
+Selesike: raises 1158 to 1638 and is all-in
+Superimmi: calls 1135 and is all-in
+Uncalled bet (23) returned to Selesike
+*** FLOP *** [3s 5s Ks]
+*** TURN *** [3s 5s Ks] [5h]
+*** RIVER *** [3s 5s Ks 5h] [As]
+*** SHOW DOWN ***
+Selesike: shows [Kc Kd] (a full house, Kings full of Fives)
+Superimmi: shows [8h Ah] (two pair, Aces and Fives)
+Selesike collected 3410 from pot
+Superimmi finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 3410 | Rake 0 
+Board [3s 5s Ks 5h As]
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 3: Superimmi (button) showed [8h Ah] and lost with two pair, Aces and Fives
+Seat 4: Viinex13 (small blind) folded before Flop
+Seat 6: Selesike (big blind) showed [Kc Kd] and won (3410) with a full house, Kings full of Fives
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347147620: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:56:54 UTC [2026/04/04 17:56:54 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 2: walte28 (2947 in chips) 
+Seat 4: Viinex13 (2701 in chips) 
+Seat 6: Selesike (3433 in chips) 
+Seat 8: scorza23 (4419 in chips) 
+walte28: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+Selesike: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 2s]
+walte28: raises 160 to 320
+Viinex13: folds 
+Selesike: folds 
+scorza23: folds 
+Uncalled bet (160) returned to walte28
+walte28 collected 480 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 2: walte28 collected (480)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347149710: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:57:07 UTC [2026/04/04 17:57:07 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (3247 in chips) 
+Seat 4: Viinex13 (2681 in chips) 
+Seat 6: Selesike (3333 in chips) 
+Seat 8: scorza23 (4239 in chips) 
+walte28: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+walte28: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3s]
+Viinex13: folds 
+Selesike: folds 
+scorza23: raises 320 to 480
+walte28: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (400)
+
+
+
+PokerStars Hand #260347152115: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:57:23 UTC [2026/04/04 17:57:23 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (3067 in chips) 
+Seat 4: Viinex13 (2661 in chips) 
+Seat 6: Selesike (3313 in chips) 
+Seat 8: scorza23 (4459 in chips) 
+walte28: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+walte28: posts small blind 80
+Viinex13: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 3s]
+Selesike: folds 
+scorza23: folds 
+walte28: raises 160 to 320
+Viinex13: calls 160
+*** FLOP *** [6h Qh Ks]
+walte28: checks 
+Viinex13: bets 2321 and is all-in
+walte28: folds 
+Uncalled bet (2321) returned to Viinex13
+Viinex13 collected 720 from pot
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Board [6h Qh Ks]
+Seat 2: walte28 (small blind) folded on the Flop
+Seat 4: Viinex13 (big blind) collected (720)
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347157662: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:57:59 UTC [2026/04/04 17:57:59 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2727 in chips) 
+Seat 4: Viinex13 (3041 in chips) 
+Seat 6: Selesike (3293 in chips) 
+Seat 8: scorza23 (4439 in chips) 
+walte28: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+Viinex13: posts small blind 80
+Selesike: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Ts]
+scorza23: folds 
+walte28: folds 
+Viinex13: folds 
+Uncalled bet (80) returned to Selesike
+Selesike collected 240 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) folded before Flop
+Seat 6: Selesike (big blind) collected (240)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347159413: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:58:10 UTC [2026/04/04 17:58:10 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 2: walte28 (2707 in chips) 
+Seat 4: Viinex13 (2941 in chips) 
+Seat 6: Selesike (3433 in chips) 
+Seat 8: scorza23 (4419 in chips) 
+walte28: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+Selesike: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Jh]
+walte28: folds 
+Viinex13: folds 
+Selesike is disconnected 
+Selesike is connected 
+Selesike is connected 
+Selesike: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 240 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (240)
+
+
+
+PokerStars Hand #260347166368: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:58:56 UTC [2026/04/04 17:58:56 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (2687 in chips) 
+Seat 4: Viinex13 (2921 in chips) 
+Seat 6: Selesike (3333 in chips) 
+Seat 8: scorza23 (4559 in chips) 
+walte28: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+walte28: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3c]
+Viinex13: folds 
+Selesike: folds 
+scorza23: raises 320 to 480
+walte28: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (400)
+
+
+
+PokerStars Hand #260347170231: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:59:21 UTC [2026/04/04 17:59:21 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2507 in chips) 
+Seat 4: Viinex13 (2901 in chips) 
+Seat 6: Selesike (3313 in chips) 
+Seat 8: scorza23 (4779 in chips) 
+walte28: posts the ante 20
+Viinex13: posts the ante 20
+Selesike: posts the ante 20
+scorza23: posts the ante 20
+walte28: posts small blind 80
+Viinex13: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 7d]
+Selesike is connected 
+Selesike is connected 
+Selesike: folds 
+scorza23: folds 
+walte28: raises 320 to 480
+Viinex13: folds 
+Uncalled bet (320) returned to walte28
+walte28 collected 400 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: walte28 (small blind) collected (400)
+Seat 4: Viinex13 (big blind) folded before Flop
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347175685: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:59:57 UTC [2026/04/04 17:59:57 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2727 in chips) 
+Seat 4: Viinex13 (2721 in chips) 
+Seat 6: Selesike (3293 in chips) 
+Seat 8: scorza23 (4759 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Viinex13: posts small blind 100
+Selesike: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 4d]
+scorza23: folds 
+walte28: raises 200 to 400
+Viinex13: folds 
+Selesike: folds 
+Uncalled bet (200) returned to walte28
+walte28 collected 600 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 2: walte28 (button) collected (600)
+Seat 4: Viinex13 (small blind) folded before Flop
+Seat 6: Selesike (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347180484: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:00:26 UTC [2026/04/04 18:00:26 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 2: walte28 (3102 in chips) 
+Seat 4: Viinex13 (2596 in chips) 
+Seat 6: Selesike (3068 in chips) 
+Seat 8: scorza23 (4734 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9d]
+walte28: folds 
+Viinex13: folds 
+Selesike: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (300)
+
+
+
+PokerStars Hand #260347182694: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:00:40 UTC [2026/04/04 18:00:40 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (3077 in chips) 
+Seat 4: Viinex13 (2571 in chips) 
+Seat 6: Selesike (2943 in chips) 
+Seat 8: scorza23 (4909 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+walte28: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Jc]
+Viinex13: folds 
+Selesike: raises 236 to 436
+scorza23: folds 
+walte28: folds 
+Uncalled bet (236) returned to Selesike
+Selesike collected 600 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike (button) collected (600)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347186617: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:01:01 UTC [2026/04/04 18:01:01 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2852 in chips) 
+Seat 4: Viinex13 (2546 in chips) 
+Seat 6: Selesike (3318 in chips) 
+Seat 8: scorza23 (4784 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 100
+Viinex13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 6s]
+Selesike: raises 236 to 436
+scorza23: folds 
+walte28: folds 
+Viinex13: folds 
+Uncalled bet (236) returned to Selesike
+Selesike collected 600 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 4: Viinex13 (big blind) folded before Flop
+Seat 6: Selesike collected (600)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347189812: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:01:18 UTC [2026/04/04 18:01:18 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2727 in chips) 
+Seat 4: Viinex13 (2321 in chips) 
+Seat 6: Selesike (3693 in chips) 
+Seat 8: scorza23 (4759 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Viinex13: posts small blind 100
+Selesike: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Kd]
+scorza23: folds 
+walte28: folds 
+Viinex13: folds 
+Uncalled bet (100) returned to Selesike
+Selesike collected 300 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 4: Viinex13 (small blind) folded before Flop
+Seat 6: Selesike (big blind) collected (300)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347193233: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:01:35 UTC [2026/04/04 18:01:35 ET]
+Table '3989316412 1' 9-max Seat #4 is the button
+Seat 2: walte28 (2702 in chips) 
+Seat 4: Viinex13 (2196 in chips) 
+Seat 6: Selesike (3868 in chips) 
+Seat 8: scorza23 (4734 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kd]
+walte28: folds 
+Viinex13: folds 
+Selesike: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: walte28 folded before Flop (didn't bet)
+Seat 4: Viinex13 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (300)
+
+
+
+PokerStars Hand #260347198151: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:01:59 UTC [2026/04/04 18:01:59 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (2677 in chips) 
+Seat 4: Viinex13 (2171 in chips) 
+Seat 6: Selesike (3743 in chips) 
+Seat 8: scorza23 (4909 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+walte28: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 9s]
+Viinex13: folds 
+Selesike: folds 
+scorza23: raises 400 to 600
+walte28: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 4: Viinex13 folded before Flop (didn't bet)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (500)
+
+
+
+PokerStars Hand #260347200964: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:02:13 UTC [2026/04/04 18:02:13 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2452 in chips) 
+Seat 4: Viinex13 (2146 in chips) 
+Seat 6: Selesike (3718 in chips) 
+Seat 8: scorza23 (5184 in chips) 
+walte28: posts the ante 25
+Viinex13: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 100
+Viinex13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4h As]
+Selesike: folds 
+scorza23: folds 
+walte28: raises 2227 to 2427 and is all-in
+Viinex13: calls 1921 and is all-in
+Uncalled bet (306) returned to walte28
+*** FLOP *** [9d 8s Qs]
+*** TURN *** [9d 8s Qs] [Qc]
+*** RIVER *** [9d 8s Qs Qc] [Kd]
+*** SHOW DOWN ***
+walte28: shows [Kh Ah] (two pair, Kings and Queens)
+Viinex13: shows [Kc Td] (two pair, Kings and Queens - lower kicker)
+walte28 collected 4342 from pot
+Viinex13 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 4342 | Rake 0 
+Board [9d 8s Qs Qc Kd]
+Seat 2: walte28 (small blind) showed [Kh Ah] and won (4342) with two pair, Kings and Queens
+Seat 4: Viinex13 (big blind) showed [Kc Td] and lost with two pair, Kings and Queens
+Seat 6: Selesike folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347205271: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:02:32 UTC [2026/04/04 18:02:32 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (4648 in chips) 
+Seat 6: Selesike (3693 in chips) 
+Seat 8: scorza23 (5159 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 2s]
+walte28: folds 
+Selesike: calls 100
+scorza23: checks 
+*** FLOP *** [8c 6s 4d]
+Selesike: bets 200
+scorza23: folds 
+Uncalled bet (200) returned to Selesike
+Selesike collected 475 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Board [8c 6s 4d]
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) collected (475)
+Seat 8: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347210834: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:02:58 UTC [2026/04/04 18:02:58 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (4623 in chips) 
+Seat 6: Selesike (3943 in chips) 
+Seat 8: scorza23 (4934 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+walte28: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qd]
+Selesike: folds 
+scorza23: raises 400 to 600
+walte28: calls 400
+*** FLOP *** [3d 2c 8s]
+scorza23: bets 600
+walte28: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 1275 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1275 | Rake 0 
+Board [3d 2c 8s]
+Seat 2: walte28 (big blind) folded on the Flop
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (1275)
+
+
+
+PokerStars Hand #260347214932: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:03:17 UTC [2026/04/04 18:03:17 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (3998 in chips) 
+Seat 6: Selesike (3918 in chips) 
+Seat 8: scorza23 (5584 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 100
+Selesike: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 8h]
+scorza23: folds 
+walte28: folds 
+Uncalled bet (100) returned to Selesike
+Selesike collected 275 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 6: Selesike (big blind) collected (275)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347216672: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:03:25 UTC [2026/04/04 18:03:25 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (3873 in chips) 
+Seat 6: Selesike (4068 in chips) 
+Seat 8: scorza23 (5559 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Td]
+walte28: folds 
+Selesike: raises 236 to 436
+scorza23: folds 
+Uncalled bet (236) returned to Selesike
+Selesike collected 475 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) collected (475)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347219689: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:03:40 UTC [2026/04/04 18:03:40 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (3848 in chips) 
+Seat 6: Selesike (4318 in chips) 
+Seat 8: scorza23 (5334 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+walte28: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 9d]
+Selesike: folds 
+scorza23: raises 400 to 600
+walte28: calls 400
+*** FLOP *** [2s 8s Ah]
+scorza23: bets 600
+walte28: calls 600
+*** TURN *** [2s 8s Ah] [Qh]
+scorza23: checks 
+walte28: bets 1238
+scorza23: folds 
+Uncalled bet (1238) returned to walte28
+walte28 collected 2475 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 2475 | Rake 0 
+Board [2s 8s Ah Qh]
+Seat 2: walte28 (big blind) collected (2475)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260347225348: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:04:05 UTC [2026/04/04 18:04:05 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (5098 in chips) 
+Seat 6: Selesike (4293 in chips) 
+Seat 8: scorza23 (4109 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 100
+Selesike: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3h]
+scorza23: folds 
+walte28: folds 
+Uncalled bet (100) returned to Selesike
+Selesike collected 275 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 6: Selesike (big blind) collected (275)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347227302: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:04:14 UTC [2026/04/04 18:04:14 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (4973 in chips) 
+Seat 6: Selesike (4443 in chips) 
+Seat 8: scorza23 (4084 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Jd]
+walte28: folds 
+Selesike: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 275 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (275)
+
+
+
+PokerStars Hand #260347228975: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:04:21 UTC [2026/04/04 18:04:21 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (4948 in chips) 
+Seat 6: Selesike (4318 in chips) 
+Seat 8: scorza23 (4234 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+walte28: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 4s]
+Selesike: folds 
+scorza23: raises 400 to 600
+walte28: calls 400
+*** FLOP *** [3d 9s Kd]
+scorza23: bets 1275
+walte28: folds 
+Uncalled bet (1275) returned to scorza23
+scorza23 collected 1275 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1275 | Rake 0 
+Board [3d 9s Kd]
+Seat 2: walte28 (big blind) folded on the Flop
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (1275)
+
+
+
+PokerStars Hand #260347233533: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:04:42 UTC [2026/04/04 18:04:42 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (4323 in chips) 
+Seat 6: Selesike (4293 in chips) 
+Seat 8: scorza23 (4884 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6s As]
+scorza23: raises 600 to 900
+walte28: folds 
+Selesike: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 825 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 6: Selesike (big blind) folded before Flop
+Seat 8: scorza23 (button) collected (825)
+
+
+
+PokerStars Hand #260347236284: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:04:54 UTC [2026/04/04 18:04:54 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (4148 in chips) 
+Seat 6: Selesike (3968 in chips) 
+Seat 8: scorza23 (5384 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 6h]
+walte28: calls 300
+Selesike: folds 
+scorza23: checks 
+*** FLOP *** [Jc 5d 3s]
+scorza23: checks 
+walte28: checks 
+*** TURN *** [Jc 5d 3s] [Qd]
+scorza23: checks 
+walte28: checks 
+*** RIVER *** [Jc 5d 3s Qd] [7d]
+scorza23: checks 
+walte28: checks 
+*** SHOW DOWN ***
+scorza23: shows [5h 6h] (a pair of Fives)
+walte28: shows [4c 7c] (a pair of Sevens)
+walte28 collected 825 from pot
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Board [Jc 5d 3s Qd 7d]
+Seat 2: walte28 (button) showed [4c 7c] and won (825) with a pair of Sevens
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) showed [5h 6h] and lost with a pair of Fives
+
+
+
+PokerStars Hand #260347241761: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:05:18 UTC [2026/04/04 18:05:18 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (4648 in chips) 
+Seat 6: Selesike (3793 in chips) 
+Seat 8: scorza23 (5059 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+walte28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 9h]
+Selesike: raises 300 to 600
+scorza23: folds 
+walte28: folds 
+Uncalled bet (300) returned to Selesike
+Selesike collected 825 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 6: Selesike (button) collected (825)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347244697: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:05:31 UTC [2026/04/04 18:05:31 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (4323 in chips) 
+Seat 6: Selesike (4293 in chips) 
+Seat 8: scorza23 (4884 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 3h]
+scorza23: folds 
+walte28: raises 300 to 600
+Selesike: calls 300
+*** FLOP *** [6s Kh 3s]
+walte28: bets 638
+Selesike: raises 3030 to 3668 and is all-in
+walte28: folds 
+Uncalled bet (3030) returned to Selesike
+Selesike collected 2551 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 2551 | Rake 0 
+Board [6s Kh 3s]
+Seat 2: walte28 (small blind) folded on the Flop
+Seat 6: Selesike (big blind) collected (2551)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347250465: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:05:57 UTC [2026/04/04 18:05:57 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (3060 in chips) 
+Seat 6: Selesike (5581 in chips) 
+Seat 8: scorza23 (4859 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 3s]
+walte28: folds 
+Selesike: raises 5256 to 5556 and is all-in
+scorza23: folds 
+Uncalled bet (5256) returned to Selesike
+Selesike collected 675 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) collected (675)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347253045: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:06:08 UTC [2026/04/04 18:06:08 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (3035 in chips) 
+Seat 6: Selesike (5931 in chips) 
+Seat 8: scorza23 (4534 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+walte28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 5h]
+Selesike: folds 
+scorza23: raises 600 to 900
+walte28: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 675 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (675)
+
+
+
+PokerStars Hand #260347255160: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:06:17 UTC [2026/04/04 18:06:17 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2710 in chips) 
+Seat 6: Selesike (5906 in chips) 
+Seat 8: scorza23 (4884 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 8d]
+scorza23: folds 
+walte28: folds 
+Uncalled bet (150) returned to Selesike
+Selesike collected 375 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 6: Selesike (big blind) collected (375)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347257432: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:06:27 UTC [2026/04/04 18:06:27 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2535 in chips) 
+Seat 6: Selesike (6106 in chips) 
+Seat 8: scorza23 (4859 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 4s]
+walte28: folds 
+Selesike: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (375)
+
+
+
+PokerStars Hand #260347259578: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:06:37 UTC [2026/04/04 18:06:37 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (2510 in chips) 
+Seat 6: Selesike (5931 in chips) 
+Seat 8: scorza23 (5059 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+walte28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 9d]
+Selesike: folds 
+scorza23: folds 
+Uncalled bet (150) returned to walte28
+walte28 collected 375 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (big blind) collected (375)
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347261286: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:06:45 UTC [2026/04/04 18:06:45 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2710 in chips) 
+Seat 6: Selesike (5906 in chips) 
+Seat 8: scorza23 (4884 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Qs]
+scorza23: raises 600 to 900
+walte28: folds 
+Selesike: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 825 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 6: Selesike (big blind) folded before Flop
+Seat 8: scorza23 (button) collected (825)
+
+
+
+PokerStars Hand #260347265914: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:07:05 UTC [2026/04/04 18:07:05 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2535 in chips) 
+Seat 6: Selesike (5581 in chips) 
+Seat 8: scorza23 (5384 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Ad]
+walte28: folds 
+Selesike: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (375)
+
+
+
+PokerStars Hand #260347267830: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:07:14 UTC [2026/04/04 18:07:14 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (2510 in chips) 
+Seat 6: Selesike (5406 in chips) 
+Seat 8: scorza23 (5584 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+walte28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 9h]
+Selesike: folds 
+scorza23: raises 600 to 900
+walte28: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 675 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (675)
+
+
+
+PokerStars Hand #260347270243: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:07:25 UTC [2026/04/04 18:07:25 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (2185 in chips) 
+Seat 6: Selesike (5381 in chips) 
+Seat 8: scorza23 (5934 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Jh]
+scorza23: folds 
+walte28: folds 
+Uncalled bet (150) returned to Selesike
+Selesike collected 375 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 6: Selesike (big blind) collected (375)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347272289: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:07:34 UTC [2026/04/04 18:07:34 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2010 in chips) 
+Seat 6: Selesike (5581 in chips) 
+Seat 8: scorza23 (5909 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Qd]
+walte28: folds 
+Selesike: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (button) folded before Flop (didn't bet)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (375)
+
+
+
+PokerStars Hand #260347274189: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:07:43 UTC [2026/04/04 18:07:43 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (1985 in chips) 
+Seat 6: Selesike (5406 in chips) 
+Seat 8: scorza23 (6109 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+walte28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Qh]
+Selesike: folds 
+scorza23: raises 600 to 900
+walte28: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 675 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (675)
+
+
+
+PokerStars Hand #260347276470: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:07:53 UTC [2026/04/04 18:07:53 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (1660 in chips) 
+Seat 6: Selesike (5381 in chips) 
+Seat 8: scorza23 (6459 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 3s]
+scorza23: folds 
+walte28: calls 150
+Selesike: checks 
+*** FLOP *** [Th 3h 5h]
+walte28: bets 300
+Selesike: folds 
+Uncalled bet (300) returned to walte28
+walte28 collected 675 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Board [Th 3h 5h]
+Seat 2: walte28 (small blind) collected (675)
+Seat 6: Selesike (big blind) folded on the Flop
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347281939: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:08:18 UTC [2026/04/04 18:08:18 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (2010 in chips) 
+Seat 6: Selesike (5056 in chips) 
+Seat 8: scorza23 (6434 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 4d]
+walte28: raises 300 to 600
+Selesike: folds 
+scorza23: calls 300
+*** FLOP *** [Jh 2h 5h]
+scorza23: bets 1500
+walte28: folds 
+Uncalled bet (1500) returned to scorza23
+scorza23 collected 1425 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1425 | Rake 0 
+Board [Jh 2h 5h]
+Seat 2: walte28 (button) folded on the Flop
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (1425)
+
+
+
+PokerStars Hand #260347285707: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:08:35 UTC [2026/04/04 18:08:35 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (1385 in chips) 
+Seat 6: Selesike (4881 in chips) 
+Seat 8: scorza23 (7234 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+walte28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 3d]
+Selesike: folds 
+scorza23: raises 600 to 900
+walte28: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 675 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 2: walte28 (big blind) folded before Flop
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (675)
+
+
+
+PokerStars Hand #260347288001: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:08:45 UTC [2026/04/04 18:08:45 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 2: walte28 (1060 in chips) 
+Seat 6: Selesike (4856 in chips) 
+Seat 8: scorza23 (7584 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+walte28: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Js]
+scorza23: folds 
+walte28: folds 
+Uncalled bet (150) returned to Selesike
+Selesike collected 375 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: walte28 (small blind) folded before Flop
+Seat 6: Selesike (big blind) collected (375)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347289929: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:08:53 UTC [2026/04/04 18:08:53 ET]
+Table '3989316412 1' 9-max Seat #2 is the button
+Seat 2: walte28 (885 in chips) 
+Seat 6: Selesike (5056 in chips) 
+Seat 8: scorza23 (7559 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Th]
+walte28: raises 560 to 860 and is all-in
+Selesike: folds 
+scorza23: folds 
+Uncalled bet (560) returned to walte28
+walte28 collected 825 from pot
+walte28: doesn't show hand 
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Seat 2: walte28 (button) collected (825)
+Seat 6: Selesike (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347292784: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:09:06 UTC [2026/04/04 18:09:06 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 2: walte28 (1385 in chips) 
+Seat 6: Selesike (4881 in chips) 
+Seat 8: scorza23 (7234 in chips) 
+walte28: posts the ante 25
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+walte28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Tc]
+Selesike: folds 
+scorza23: raises 600 to 900
+walte28: raises 460 to 1360 and is all-in
+scorza23: calls 460
+*** FLOP *** [2s 2c 9c]
+*** TURN *** [2s 2c 9c] [Qd]
+*** RIVER *** [2s 2c 9c Qd] [Th]
+*** SHOW DOWN ***
+scorza23: shows [Ks Tc] (two pair, Tens and Deuces)
+walte28: shows [8s Kc] (a pair of Deuces)
+scorza23 collected 2795 from pot
+walte28 finished the tournament in 3rd place and received $1.53.
+*** SUMMARY ***
+Total pot 2795 | Rake 0 
+Board [2s 2c 9c Qd Th]
+Seat 2: walte28 (big blind) showed [8s Kc] and lost with a pair of Deuces
+Seat 6: Selesike (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) showed [Ks Tc] and won (2795) with two pair, Tens and Deuces
+
+
+
+PokerStars Hand #260347297260: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:09:26 UTC [2026/04/04 18:09:26 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (4856 in chips) 
+Seat 8: scorza23 (8644 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Selesike: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Kd]
+scorza23: raises 600 to 900
+Selesike: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 6: Selesike (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #260347298977: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:09:34 UTC [2026/04/04 18:09:34 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (4531 in chips) 
+Seat 8: scorza23 (8969 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 9s]
+Selesike: raises 300 to 600
+scorza23: calls 300
+*** FLOP *** [Ad 9h Qd]
+scorza23: bets 900
+Selesike: calls 900
+*** TURN *** [Ad 9h Qd] [Qs]
+scorza23: checks 
+Selesike: bets 1250
+scorza23: calls 1250
+*** RIVER *** [Ad 9h Qd Qs] [Td]
+scorza23: bets 1800
+Selesike: folds 
+Uncalled bet (1800) returned to scorza23
+scorza23 collected 5550 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 5550 | Rake 0 
+Board [Ad 9h Qd Qs Td]
+Seat 6: Selesike (button) (small blind) folded on the River
+Seat 8: scorza23 (big blind) collected (5550)
+
+
+
+PokerStars Hand #260347309790: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:10:22 UTC [2026/04/04 18:10:22 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (1756 in chips) 
+Seat 8: scorza23 (11744 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7c]
+scorza23: raises 1200 to 1600
+Selesike: raises 131 to 1731 and is all-in
+scorza23: calls 131
+*** FLOP *** [Jh 8d 7s]
+*** TURN *** [Jh 8d 7s] [Ks]
+*** RIVER *** [Jh 8d 7s Ks] [Ac]
+*** SHOW DOWN ***
+Selesike: shows [Qd Ts] (a straight, Ten to Ace)
+scorza23: shows [Jd 7c] (two pair, Jacks and Sevens)
+Selesike collected 3512 from pot
+*** SUMMARY ***
+Total pot 3512 | Rake 0 
+Board [Jh 8d 7s Ks Ac]
+Seat 6: Selesike (big blind) showed [Qd Ts] and won (3512) with a straight, Ten to Ace
+Seat 8: scorza23 (button) (small blind) showed [Jd 7c] and lost with two pair, Jacks and Sevens
+
+
+
+PokerStars Hand #260347313467: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:10:38 UTC [2026/04/04 18:10:38 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (3512 in chips) 
+Seat 8: scorza23 (9988 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 5c]
+Selesike: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (450)
+
+
+
+PokerStars Hand #260347314961: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:10:45 UTC [2026/04/04 18:10:45 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (3287 in chips) 
+Seat 8: scorza23 (10213 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 6h]
+scorza23: folds 
+Uncalled bet (200) returned to Selesike
+Selesike collected 450 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (big blind) collected (450)
+Seat 8: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347316387: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:10:52 UTC [2026/04/04 18:10:52 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (3512 in chips) 
+Seat 8: scorza23 (9988 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Tc]
+Selesike: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (450)
+
+
+
+PokerStars Hand #260347317732: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:10:58 UTC [2026/04/04 18:10:58 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (3287 in chips) 
+Seat 8: scorza23 (10213 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 9h]
+scorza23: raises 800 to 1200
+Selesike: folds 
+Uncalled bet (800) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 6: Selesike (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (850)
+
+
+
+PokerStars Hand #260347319626: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:11:06 UTC [2026/04/04 18:11:06 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (2862 in chips) 
+Seat 8: scorza23 (10638 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 3s]
+Selesike: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (450)
+
+
+
+PokerStars Hand #260347320864: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:11:12 UTC [2026/04/04 18:11:12 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (2637 in chips) 
+Seat 8: scorza23 (10863 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qc]
+scorza23: raises 800 to 1200
+Selesike: raises 1412 to 2612 and is all-in
+scorza23: calls 1412
+*** FLOP *** [Kh 4s 6s]
+*** TURN *** [Kh 4s 6s] [2h]
+*** RIVER *** [Kh 4s 6s 2h] [9h]
+*** SHOW DOWN ***
+Selesike: shows [Ah Qh] (a flush, Ace high)
+scorza23: shows [5c Qc] (high card King)
+Selesike collected 5274 from pot
+*** SUMMARY ***
+Total pot 5274 | Rake 0 
+Board [Kh 4s 6s 2h 9h]
+Seat 6: Selesike (big blind) showed [Ah Qh] and won (5274) with a flush, Ace high
+Seat 8: scorza23 (button) (small blind) showed [5c Qc] and lost with high card King
+
+
+
+PokerStars Hand #260347324508: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:11:28 UTC [2026/04/04 18:11:28 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (5274 in chips) 
+Seat 8: scorza23 (8226 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 5s]
+Selesike: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (450)
+
+
+
+PokerStars Hand #260347326016: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:11:35 UTC [2026/04/04 18:11:35 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (5049 in chips) 
+Seat 8: scorza23 (8451 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9d]
+scorza23: folds 
+Uncalled bet (200) returned to Selesike
+Selesike collected 450 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (big blind) collected (450)
+Seat 8: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347327551: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:11:42 UTC [2026/04/04 18:11:42 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (5274 in chips) 
+Seat 8: scorza23 (8226 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Kd]
+Selesike: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (450)
+
+
+
+PokerStars Hand #260347328836: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:11:47 UTC [2026/04/04 18:11:47 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (5049 in chips) 
+Seat 8: scorza23 (8451 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 2c]
+scorza23: folds 
+Uncalled bet (200) returned to Selesike
+Selesike collected 450 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 6: Selesike (big blind) collected (450)
+Seat 8: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347330199: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:11:53 UTC [2026/04/04 18:11:53 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (5274 in chips) 
+Seat 8: scorza23 (8226 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Qs]
+Selesike: raises 400 to 800
+scorza23: calls 400
+*** FLOP *** [6s As 4h]
+scorza23: checks 
+Selesike: bets 409
+scorza23: folds 
+Uncalled bet (409) returned to Selesike
+Selesike collected 1650 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 1650 | Rake 0 
+Board [6s As 4h]
+Seat 6: Selesike (button) (small blind) collected (1650)
+Seat 8: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347335131: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:12:16 UTC [2026/04/04 18:12:16 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (6099 in chips) 
+Seat 8: scorza23 (7401 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 7s]
+scorza23: raises 800 to 1200
+Selesike: folds 
+Uncalled bet (800) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 6: Selesike (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (850)
+
+
+
+PokerStars Hand #260347337200: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:12:25 UTC [2026/04/04 18:12:25 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (5674 in chips) 
+Seat 8: scorza23 (7826 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Qc]
+Selesike: raises 400 to 800
+scorza23: folds 
+Uncalled bet (400) returned to Selesike
+Selesike collected 850 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 6: Selesike (button) (small blind) collected (850)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347339206: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:12:35 UTC [2026/04/04 18:12:35 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (6099 in chips) 
+Seat 8: scorza23 (7401 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 2c]
+scorza23: raises 800 to 1200
+Selesike: raises 4874 to 6074 and is all-in
+scorza23: calls 4874
+*** FLOP *** [4s 9h 5s]
+*** TURN *** [4s 9h 5s] [Jd]
+*** RIVER *** [4s 9h 5s Jd] [Qs]
+*** SHOW DOWN ***
+Selesike: shows [Qd Jh] (two pair, Queens and Jacks)
+scorza23: shows [2h 2c] (a pair of Deuces)
+Selesike collected 12198 from pot
+*** SUMMARY ***
+Total pot 12198 | Rake 0 
+Board [4s 9h 5s Jd Qs]
+Seat 6: Selesike (big blind) showed [Qd Jh] and won (12198) with two pair, Queens and Jacks
+Seat 8: scorza23 (button) (small blind) showed [2h 2c] and lost with a pair of Deuces
+
+
+
+PokerStars Hand #260347343463: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:12:53 UTC [2026/04/04 18:12:53 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (12198 in chips) 
+Seat 8: scorza23 (1302 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 6h]
+Selesike: raises 11773 to 12173 and is all-in
+scorza23: folds 
+Uncalled bet (11773) returned to Selesike
+Selesike collected 850 from pot
+Selesike: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 6: Selesike (button) (small blind) collected (850)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347345338: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:13:02 UTC [2026/04/04 18:13:02 ET]
+Table '3989316412 1' 9-max Seat #8 is the button
+Seat 6: Selesike (12623 in chips) 
+Seat 8: scorza23 (877 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Selesike: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 8h]
+scorza23: raises 452 to 852 and is all-in
+Selesike: calls 452
+*** FLOP *** [2s 8s 8c]
+*** TURN *** [2s 8s 8c] [6d]
+*** RIVER *** [2s 8s 8c 6d] [3c]
+*** SHOW DOWN ***
+Selesike: shows [Th Kd] (a pair of Eights)
+scorza23: shows [5c 8h] (three of a kind, Eights)
+scorza23 collected 1754 from pot
+*** SUMMARY ***
+Total pot 1754 | Rake 0 
+Board [2s 8s 8c 6d 3c]
+Seat 6: Selesike (big blind) showed [Th Kd] and lost with a pair of Eights
+Seat 8: scorza23 (button) (small blind) showed [5c 8h] and won (1754) with three of a kind, Eights
+
+
+
+PokerStars Hand #260347348455: Tournament #3989316412, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:13:16 UTC [2026/04/04 18:13:16 ET]
+Table '3989316412 1' 9-max Seat #6 is the button
+Seat 6: Selesike (11746 in chips) 
+Seat 8: scorza23 (1754 in chips) 
+Selesike: posts the ante 25
+scorza23: posts the ante 25
+Selesike: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Qh]
+Selesike: raises 11321 to 11721 and is all-in
+scorza23: calls 1329 and is all-in
+Uncalled bet (9992) returned to Selesike
+*** FLOP *** [7h Ks 5h]
+*** TURN *** [7h Ks 5h] [4c]
+*** RIVER *** [7h Ks 5h 4c] [4d]
+*** SHOW DOWN ***
+scorza23: shows [9s Qh] (a pair of Fours)
+Selesike: shows [7c Qd] (two pair, Sevens and Fours)
+Selesike collected 3508 from pot
+scorza23 finished the tournament in 2nd place and received $2.29.
+Selesike wins the tournament and receives $3.83 - congratulations!
+*** SUMMARY ***
+Total pot 3508 | Rake 0 
+Board [7h Ks 5h 4c 4d]
+Seat 6: Selesike (button) (small blind) showed [7c Qd] and won (3508) with two pair, Sevens and Fours
+Seat 8: scorza23 (big blind) showed [9s Qh] and lost with a pair of Fours
+
+
+

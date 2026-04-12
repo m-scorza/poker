@@ -1,0 +1,206 @@
+﻿PokerStars Hand #259762448755: Tournament #3975958080, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:11:10 UTC [2026/02/17 9:11:10 ET]
+Table '3975958080 1' 9-max Seat #1 is the button
+Seat 1: DamoDamage93 (1500 in chips) 
+Seat 2: Josi_santi (1500 in chips) 
+Seat 3: avonni d3 (1500 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 5: GenioLoor (1500 in chips) 
+Seat 6: luiswinner86 (1500 in chips) 
+Seat 7: MCLMUSIC (1500 in chips) 
+Seat 8: zagtrovao (1500 in chips) is sitting out
+Seat 9: MTBz12 (1500 in chips) 
+Josi_santi: posts small blind 10
+avonni d3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 7s]
+scorza23: folds 
+GenioLoor: raises 20 to 40
+luiswinner86: folds 
+MCLMUSIC: raises 80 to 120
+zagtrovao: folds 
+MTBz12: folds 
+DamoDamage93: folds 
+Josi_santi: folds 
+avonni d3: folds 
+GenioLoor: calls 80
+*** FLOP *** [5h Js Td]
+GenioLoor: checks 
+MCLMUSIC: bets 89
+GenioLoor: calls 89
+*** TURN *** [5h Js Td] [8c]
+GenioLoor: checks 
+MCLMUSIC: checks 
+*** RIVER *** [5h Js Td 8c] [5s]
+GenioLoor: checks 
+MCLMUSIC: bets 448
+zagtrovao is disconnected 
+GenioLoor: folds 
+Uncalled bet (448) returned to MCLMUSIC
+MCLMUSIC collected 448 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 448 | Rake 0 
+Board [5h Js Td 8c 5s]
+Seat 1: DamoDamage93 (button) folded before Flop (didn't bet)
+Seat 2: Josi_santi (small blind) folded before Flop
+Seat 3: avonni d3 (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: GenioLoor folded on the River
+Seat 6: luiswinner86 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC collected (448)
+Seat 8: zagtrovao folded before Flop (didn't bet)
+Seat 9: MTBz12 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762460324: Tournament #3975958080, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:12:32 UTC [2026/02/17 9:12:32 ET]
+Table '3975958080 1' 9-max Seat #2 is the button
+Seat 1: DamoDamage93 (1500 in chips) 
+Seat 2: Josi_santi (1490 in chips) 
+Seat 3: avonni d3 (1480 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 5: GenioLoor (1291 in chips) 
+Seat 6: luiswinner86 (1500 in chips) 
+Seat 7: MCLMUSIC (1739 in chips) 
+Seat 8: zagtrovao (1500 in chips) is sitting out
+Seat 9: MTBz12 (1500 in chips) 
+avonni d3: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 3h]
+GenioLoor: calls 20
+luiswinner86: folds 
+MCLMUSIC: folds 
+zagtrovao: folds 
+MTBz12: folds 
+DamoDamage93: folds 
+Josi_santi: raises 100 to 120
+avonni d3: folds 
+scorza23: folds 
+GenioLoor: calls 100
+*** FLOP *** [9s 5d Qc]
+GenioLoor: bets 20
+Josi_santi: raises 102 to 122
+GenioLoor: calls 102
+*** TURN *** [9s 5d Qc] [2d]
+GenioLoor: checks 
+Josi_santi: bets 339
+GenioLoor: calls 339
+*** RIVER *** [9s 5d Qc 2d] [3s]
+GenioLoor: checks 
+Josi_santi: bets 909 and is all-in
+GenioLoor: folds 
+Uncalled bet (909) returned to Josi_santi
+Josi_santi collected 1192 from pot
+Josi_santi: doesn't show hand 
+*** SUMMARY ***
+Total pot 1192 | Rake 0 
+Board [9s 5d Qc 2d 3s]
+Seat 1: DamoDamage93 folded before Flop (didn't bet)
+Seat 2: Josi_santi (button) collected (1192)
+Seat 3: avonni d3 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: GenioLoor folded on the River
+Seat 6: luiswinner86 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: zagtrovao folded before Flop (didn't bet)
+Seat 9: MTBz12 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762468931: Tournament #3975958080, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:13:34 UTC [2026/02/17 9:13:34 ET]
+Table '3975958080 1' 9-max Seat #3 is the button
+Seat 1: DamoDamage93 (1500 in chips) 
+Seat 2: Josi_santi (2101 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: scorza23 (1480 in chips) 
+Seat 5: GenioLoor (710 in chips) 
+Seat 6: luiswinner86 (1500 in chips) 
+Seat 7: MCLMUSIC (1739 in chips) 
+Seat 8: zagtrovao (1500 in chips) is sitting out
+Seat 9: MTBz12 (1500 in chips) 
+scorza23: posts small blind 10
+GenioLoor: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 5c]
+luiswinner86: folds 
+MCLMUSIC: folds 
+zagtrovao: folds 
+MTBz12: raises 40 to 60
+DamoDamage93: folds 
+Josi_santi: folds 
+avonni d3: folds 
+scorza23: folds 
+GenioLoor: folds 
+Uncalled bet (40) returned to MTBz12
+MTBz12 collected 50 from pot
+MTBz12: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: DamoDamage93 folded before Flop (didn't bet)
+Seat 2: Josi_santi folded before Flop (didn't bet)
+Seat 3: avonni d3 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: GenioLoor (big blind) folded before Flop
+Seat 6: luiswinner86 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: zagtrovao folded before Flop (didn't bet)
+Seat 9: MTBz12 collected (50)
+
+
+
+PokerStars Hand #259762473610: Tournament #3975958080, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:14:07 UTC [2026/02/17 9:14:07 ET]
+Table '3975958080 1' 9-max Seat #4 is the button
+Seat 1: DamoDamage93 (1500 in chips) 
+Seat 2: Josi_santi (2101 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: scorza23 (1470 in chips) 
+Seat 5: GenioLoor (690 in chips) 
+Seat 6: luiswinner86 (1500 in chips) 
+Seat 7: MCLMUSIC (1739 in chips) 
+Seat 8: zagtrovao (1500 in chips) is sitting out
+Seat 9: MTBz12 (1530 in chips) 
+GenioLoor: posts small blind 10
+luiswinner86: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ts]
+MCLMUSIC: folds 
+zagtrovao: folds 
+MTBz12: folds 
+DamoDamage93: folds 
+Josi_santi: raises 20 to 40
+avonni d3: calls 40
+scorza23: calls 40
+GenioLoor: folds 
+luiswinner86: folds 
+*** FLOP *** [Qd Jd 4c]
+Josi_santi: checks 
+avonni d3: bets 113
+scorza23: raises 376 to 489
+Josi_santi: folds 
+avonni d3: calls 376
+*** TURN *** [Qd Jd 4c] [6s]
+avonni d3: checks 
+scorza23: bets 941 and is all-in
+avonni d3: calls 941 and is all-in
+*** RIVER *** [Qd Jd 4c 6s] [9h]
+*** SHOW DOWN ***
+avonni d3: shows [As Ad] (a pair of Aces)
+scorza23: shows [Qh Ts] (a pair of Queens)
+avonni d3 collected 3010 from pot
+scorza23 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3010 | Rake 0 
+Board [Qd Jd 4c 6s 9h]
+Seat 1: DamoDamage93 folded before Flop (didn't bet)
+Seat 2: Josi_santi folded on the Flop
+Seat 3: avonni d3 showed [As Ad] and won (3010) with a pair of Aces
+Seat 4: scorza23 (button) showed [Qh Ts] and lost with a pair of Queens
+Seat 5: GenioLoor (small blind) folded before Flop
+Seat 6: luiswinner86 (big blind) folded before Flop
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: zagtrovao folded before Flop (didn't bet)
+Seat 9: MTBz12 folded before Flop (didn't bet)
+
+
+

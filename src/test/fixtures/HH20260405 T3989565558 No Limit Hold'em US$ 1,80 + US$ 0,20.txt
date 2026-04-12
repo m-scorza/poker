@@ -1,0 +1,885 @@
+﻿PokerStars Hand #260357999285: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:46:39 BRT [2026/04/05 15:46:39 ET]
+Table '3989565558 1' 8-max Seat #1 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: nevalucki (1500 in chips) 
+Seat 3: ratrix2009 (1500 in chips) 
+Seat 5: LEDUC48 (1500 in chips) is sitting out
+Seat 6: Sabatonyook (1500 in chips) 
+Seat 7: alpoemo (1500 in chips) 
+Seat 8: Jeanzinnn_Br (1500 in chips) 
+scorza23: posts the ante 3
+nevalucki: posts the ante 3
+ratrix2009: posts the ante 3
+LEDUC48: posts the ante 3
+Sabatonyook: posts the ante 3
+alpoemo: posts the ante 3
+Jeanzinnn_Br: posts the ante 3
+nevalucki: posts small blind 10
+ratrix2009: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Ad]
+LEDUC48: folds 
+Sabatonyook: raises 20 to 40
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: raises 40 to 80
+nevalucki: folds 
+ratrix2009: folds 
+V0id57 is disconnected 
+Sabatonyook: calls 40
+*** FLOP *** [As Kd Jh]
+Sabatonyook: checks 
+scorza23: bets 60
+Sabatonyook: calls 60
+*** TURN *** [As Kd Jh] [5c]
+Sabatonyook: checks 
+scorza23: bets 166
+Sabatonyook: folds 
+Uncalled bet (166) returned to scorza23
+scorza23 collected 331 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 331 | Rake 0 
+Board [As Kd Jh 5c]
+Seat 1: scorza23 (button) collected (331)
+Seat 2: nevalucki (small blind) folded before Flop
+Seat 3: ratrix2009 (big blind) folded before Flop
+Seat 5: LEDUC48 folded before Flop (didn't bet)
+Seat 6: Sabatonyook folded on the Turn
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358010695: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:47:22 BRT [2026/04/05 15:47:22 ET]
+Table '3989565558 1' 8-max Seat #2 is the button
+Seat 1: scorza23 (1688 in chips) 
+Seat 2: nevalucki (1487 in chips) 
+Seat 3: ratrix2009 (1477 in chips) 
+Seat 4: V0id57 (1500 in chips) 
+Seat 6: Sabatonyook (1357 in chips) 
+Seat 7: alpoemo (1497 in chips) 
+Seat 8: Jeanzinnn_Br (1497 in chips) 
+scorza23: posts the ante 3
+nevalucki: posts the ante 3
+ratrix2009: posts the ante 3
+V0id57: posts the ante 3
+Sabatonyook: posts the ante 3
+alpoemo: posts the ante 3
+Jeanzinnn_Br: posts the ante 3
+ratrix2009: posts small blind 10
+V0id57: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5c]
+Sabatonyook: folds 
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: raises 40 to 60
+ratrix2009: folds 
+V0id57: calls 40
+*** FLOP *** [Th 6h 7s]
+V0id57: bets 76
+DealaJoker is disconnected 
+nevalucki: calls 76
+*** TURN *** [Th 6h 7s] [9s]
+V0id57: bets 303
+nevalucki: calls 303
+*** RIVER *** [Th 6h 7s 9s] [6c]
+V0id57: bets 455
+nevalucki: folds 
+Uncalled bet (455) returned to V0id57
+V0id57 collected 909 from pot
+V0id57: doesn't show hand 
+*** SUMMARY ***
+Total pot 909 | Rake 0 
+Board [Th 6h 7s 9s 6c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki (button) folded on the River
+Seat 3: ratrix2009 (small blind) folded before Flop
+Seat 4: V0id57 (big blind) collected (909)
+Seat 6: Sabatonyook folded before Flop (didn't bet)
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358031188: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:48:39 BRT [2026/04/05 15:48:39 ET]
+Table '3989565558 1' 8-max Seat #3 is the button
+Seat 1: scorza23 (1685 in chips) 
+Seat 2: nevalucki (1045 in chips) 
+Seat 3: ratrix2009 (1464 in chips) 
+Seat 4: V0id57 (1967 in chips) 
+Seat 5: DealaJoker (1500 in chips) 
+Seat 7: alpoemo (1494 in chips) 
+Seat 8: Jeanzinnn_Br (1494 in chips) 
+scorza23: posts the ante 3
+nevalucki: posts the ante 3
+ratrix2009: posts the ante 3
+V0id57: posts the ante 3
+DealaJoker: posts the ante 3
+alpoemo: posts the ante 3
+Jeanzinnn_Br: posts the ante 3
+V0id57: posts small blind 10
+DealaJoker: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Ks]
+alpoemo: calls 20
+Jeanzinnn_Br: folds 
+scorza23: raises 40 to 60
+nevalucki: folds 
+ratrix2009: folds 
+V0id57: folds 
+DealaJoker: folds 
+alpoemo: calls 40
+*** FLOP *** [5s 5d 9c]
+alpoemo: checks 
+scorza23: bets 60
+alpoemo: calls 60
+*** TURN *** [5s 5d 9c] [As]
+alpoemo: bets 120
+scorza23: calls 120
+*** RIVER *** [5s 5d 9c As] [4c]
+alpoemo: bets 160
+scorza23: raises 851 to 1011
+alpoemo: folds 
+Uncalled bet (851) returned to scorza23
+scorza23 collected 851 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 851 | Rake 0 
+Board [5s 5d 9c As 4c]
+Seat 1: scorza23 collected (851)
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 4: V0id57 (small blind) folded before Flop
+Seat 5: DealaJoker (big blind) folded before Flop
+Seat 7: alpoemo folded on the River
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358049501: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:49:48 BRT [2026/04/05 15:49:48 ET]
+Table '3989565558 1' 8-max Seat #4 is the button
+Seat 1: scorza23 (2133 in chips) 
+Seat 2: nevalucki (1042 in chips) 
+Seat 3: ratrix2009 (1461 in chips) 
+Seat 4: V0id57 (1954 in chips) 
+Seat 5: DealaJoker (1477 in chips) 
+Seat 7: alpoemo (1091 in chips) 
+Seat 8: Jeanzinnn_Br (1491 in chips) 
+scorza23: posts the ante 3
+nevalucki: posts the ante 3
+ratrix2009: posts the ante 3
+V0id57: posts the ante 3
+DealaJoker: posts the ante 3
+alpoemo: posts the ante 3
+Jeanzinnn_Br: posts the ante 3
+DealaJoker: posts small blind 10
+alpoemo: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 2s]
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: raises 60 to 80
+V0id57: folds 
+DealaJoker: folds 
+alpoemo: calls 60
+*** FLOP *** [Jd 4c 6h]
+alpoemo: bets 191
+ratrix2009: calls 191
+*** TURN *** [Jd 4c 6h] [5c]
+alpoemo: bets 817 and is all-in
+ratrix2009: calls 817
+*** RIVER *** [Jd 4c 6h 5c] [7d]
+*** SHOW DOWN ***
+alpoemo: shows [Qs 8h] (a straight, Four to Eight)
+ratrix2009: shows [Jh Ts] (a pair of Jacks)
+alpoemo collected 2207 from pot
+*** SUMMARY ***
+Total pot 2207 | Rake 0 
+Board [Jd 4c 6h 5c 7d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 showed [Jh Ts] and lost with a pair of Jacks
+Seat 4: V0id57 (button) folded before Flop (didn't bet)
+Seat 5: DealaJoker (small blind) folded before Flop
+Seat 7: alpoemo (big blind) showed [Qs 8h] and won (2207) with a straight, Four to Eight
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358059974: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:50:28 BRT [2026/04/05 15:50:28 ET]
+Table '3989565558 1' 8-max Seat #5 is the button
+Seat 1: scorza23 (2130 in chips) 
+Seat 2: nevalucki (1039 in chips) 
+Seat 3: ratrix2009 (370 in chips) 
+Seat 4: V0id57 (1951 in chips) 
+Seat 5: DealaJoker (1464 in chips) 
+Seat 7: alpoemo (2207 in chips) 
+Seat 8: Jeanzinnn_Br (1488 in chips) 
+scorza23: posts the ante 3
+nevalucki: posts the ante 3
+ratrix2009: posts the ante 3
+V0id57: posts the ante 3
+DealaJoker: posts the ante 3
+alpoemo: posts the ante 3
+Jeanzinnn_Br: posts the ante 3
+alpoemo: posts small blind 10
+Jeanzinnn_Br: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Tc]
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: folds 
+V0id57: folds 
+DealaJoker: raises 22 to 42
+alpoemo: calls 32
+Jeanzinnn_Br: folds 
+*** FLOP *** [Kc Jd 4c]
+alpoemo: bets 60
+DealaJoker: calls 60
+*** TURN *** [Kc Jd 4c] [9s]
+alpoemo: checks 
+DealaJoker: bets 120
+alpoemo: raises 120 to 240
+DealaJoker: calls 120
+*** RIVER *** [Kc Jd 4c 9s] [2c]
+alpoemo: bets 363
+DealaJoker: folds 
+Uncalled bet (363) returned to alpoemo
+alpoemo collected 725 from pot
+alpoemo: doesn't show hand 
+*** SUMMARY ***
+Total pot 725 | Rake 0 
+Board [Kc Jd 4c 9s 2c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 folded before Flop (didn't bet)
+Seat 4: V0id57 folded before Flop (didn't bet)
+Seat 5: DealaJoker (button) folded on the River
+Seat 7: alpoemo (small blind) collected (725)
+Seat 8: Jeanzinnn_Br (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358082453: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:51:53 BRT [2026/04/05 15:51:53 ET]
+Table '3989565558 1' 8-max Seat #7 is the button
+Seat 1: scorza23 (2127 in chips) 
+Seat 2: nevalucki (1036 in chips) 
+Seat 3: ratrix2009 (367 in chips) 
+Seat 4: V0id57 (1948 in chips) 
+Seat 5: DealaJoker (1119 in chips) 
+Seat 7: alpoemo (2587 in chips) 
+Seat 8: Jeanzinnn_Br (1465 in chips) 
+scorza23: posts the ante 4
+nevalucki: posts the ante 4
+ratrix2009: posts the ante 4
+V0id57: posts the ante 4
+DealaJoker: posts the ante 4
+alpoemo: posts the ante 4
+Jeanzinnn_Br: posts the ante 4
+Jeanzinnn_Br: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9h]
+nevalucki: folds 
+ratrix2009: raises 333 to 363 and is all-in
+V0id57: folds 
+DealaJoker: folds 
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+Uncalled bet (333) returned to ratrix2009
+ratrix2009 collected 103 from pot
+ratrix2009: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 collected (103)
+Seat 4: V0id57 folded before Flop (didn't bet)
+Seat 5: DealaJoker folded before Flop (didn't bet)
+Seat 7: alpoemo (button) folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358086915: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:52:10 BRT [2026/04/05 15:52:10 ET]
+Table '3989565558 1' 8-max Seat #8 is the button
+Seat 1: scorza23 (2093 in chips) 
+Seat 2: nevalucki (1032 in chips) 
+Seat 3: ratrix2009 (436 in chips) 
+Seat 4: V0id57 (1944 in chips) 
+Seat 5: DealaJoker (1115 in chips) 
+Seat 7: alpoemo (2583 in chips) 
+Seat 8: Jeanzinnn_Br (1446 in chips) 
+scorza23: posts the ante 4
+nevalucki: posts the ante 4
+ratrix2009: posts the ante 4
+V0id57: posts the ante 4
+DealaJoker: posts the ante 4
+alpoemo: posts the ante 4
+Jeanzinnn_Br: posts the ante 4
+scorza23: posts small blind 15
+nevalucki: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9s]
+ratrix2009: folds 
+V0id57: calls 30
+DealaJoker: folds 
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: checks 
+*** FLOP *** [Qh 3d 7s]
+nevalucki: checks 
+V0id57: bets 52
+nevalucki: folds 
+Uncalled bet (52) returned to V0id57
+V0id57 collected 103 from pot
+V0id57: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Board [Qh 3d 7s]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: nevalucki (big blind) folded on the Flop
+Seat 3: ratrix2009 folded before Flop (didn't bet)
+Seat 4: V0id57 collected (103)
+Seat 5: DealaJoker folded before Flop (didn't bet)
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358097581: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:52:51 BRT [2026/04/05 15:52:51 ET]
+Table '3989565558 1' 8-max Seat #1 is the button
+Seat 1: scorza23 (2074 in chips) 
+Seat 2: nevalucki (998 in chips) 
+Seat 3: ratrix2009 (432 in chips) 
+Seat 4: V0id57 (2013 in chips) 
+Seat 5: DealaJoker (1111 in chips) 
+Seat 7: alpoemo (2579 in chips) 
+Seat 8: Jeanzinnn_Br (1442 in chips) 
+scorza23: posts the ante 4
+nevalucki: posts the ante 4
+ratrix2009: posts the ante 4
+V0id57: posts the ante 4
+DealaJoker: posts the ante 4
+alpoemo: posts the ante 4
+Jeanzinnn_Br: posts the ante 4
+nevalucki: posts small blind 15
+ratrix2009: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jd]
+V0id57: folds 
+DealaJoker: raises 33 to 63
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: calls 33
+*** FLOP *** [Ts Tc Jc]
+ratrix2009: checks 
+DealaJoker: checks 
+*** TURN *** [Ts Tc Jc] [3h]
+ratrix2009: checks 
+DealaJoker: checks 
+*** RIVER *** [Ts Tc Jc 3h] [Qd]
+ratrix2009: checks 
+DealaJoker: checks 
+*** SHOW DOWN ***
+ratrix2009: shows [9s As] (a pair of Tens)
+DealaJoker: shows [Ac 3c] (two pair, Tens and Threes)
+DealaJoker collected 169 from pot
+*** SUMMARY ***
+Total pot 169 | Rake 0 
+Board [Ts Tc Jc 3h Qd]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: nevalucki (small blind) folded before Flop
+Seat 3: ratrix2009 (big blind) showed [9s As] and lost with a pair of Tens
+Seat 4: V0id57 folded before Flop (didn't bet)
+Seat 5: DealaJoker showed [Ac 3c] and won (169) with two pair, Tens and Threes
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358110134: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:53:38 BRT [2026/04/05 15:53:38 ET]
+Table '3989565558 1' 8-max Seat #2 is the button
+Seat 1: scorza23 (2070 in chips) 
+Seat 2: nevalucki (979 in chips) 
+Seat 3: ratrix2009 (365 in chips) 
+Seat 4: V0id57 (2009 in chips) 
+Seat 5: DealaJoker (1213 in chips) 
+Seat 7: alpoemo (2575 in chips) 
+Seat 8: Jeanzinnn_Br (1438 in chips) 
+scorza23: posts the ante 4
+nevalucki: posts the ante 4
+ratrix2009: posts the ante 4
+V0id57: posts the ante 4
+DealaJoker: posts the ante 4
+alpoemo: posts the ante 4
+Jeanzinnn_Br: posts the ante 4
+ratrix2009: posts small blind 15
+V0id57: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 4h]
+DealaJoker: folds 
+alpoemo: calls 30
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: folds 
+V0id57: checks 
+*** FLOP *** [4c Th Jd]
+V0id57: checks 
+alpoemo: checks 
+*** TURN *** [4c Th Jd] [2h]
+V0id57: bets 60
+alpoemo: calls 60
+*** RIVER *** [4c Th Jd 2h] [Qc]
+V0id57: bets 112
+alpoemo: folds 
+Uncalled bet (112) returned to V0id57
+V0id57 collected 223 from pot
+V0id57: doesn't show hand 
+*** SUMMARY ***
+Total pot 223 | Rake 0 
+Board [4c Th Jd 2h Qc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki (button) folded before Flop (didn't bet)
+Seat 3: ratrix2009 (small blind) folded before Flop
+Seat 4: V0id57 (big blind) collected (223)
+Seat 5: DealaJoker folded before Flop (didn't bet)
+Seat 7: alpoemo folded on the River
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358124446: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:54:32 BRT [2026/04/05 15:54:32 ET]
+Table '3989565558 1' 8-max Seat #3 is the button
+Seat 1: scorza23 (2066 in chips) 
+Seat 2: nevalucki (975 in chips) 
+Seat 3: ratrix2009 (346 in chips) 
+Seat 4: V0id57 (2138 in chips) 
+Seat 5: DealaJoker (1209 in chips) 
+Seat 7: alpoemo (2481 in chips) 
+Seat 8: Jeanzinnn_Br (1434 in chips) 
+scorza23: posts the ante 4
+nevalucki: posts the ante 4
+ratrix2009: posts the ante 4
+V0id57: posts the ante 4
+DealaJoker: posts the ante 4
+alpoemo: posts the ante 4
+Jeanzinnn_Br: posts the ante 4
+V0id57: posts small blind 15
+DealaJoker: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 2c]
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: folds 
+V0id57: raises 90 to 120
+DealaJoker: calls 90
+*** FLOP *** [Ah Ks 5c]
+V0id57: bets 134
+DealaJoker: calls 134
+*** TURN *** [Ah Ks 5c] [Jd]
+V0id57: bets 536
+DealaJoker: raises 415 to 951 and is all-in
+V0id57: calls 415
+*** RIVER *** [Ah Ks 5c Jd] [4d]
+*** SHOW DOWN ***
+V0id57: shows [Qd Ad] (a pair of Aces)
+DealaJoker: shows [As Jc] (two pair, Aces and Jacks)
+DealaJoker collected 2438 from pot
+*** SUMMARY ***
+Total pot 2438 | Rake 0 
+Board [Ah Ks 5c Jd 4d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 4: V0id57 (small blind) showed [Qd Ad] and lost with a pair of Aces
+Seat 5: DealaJoker (big blind) showed [As Jc] and won (2438) with two pair, Aces and Jacks
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358189336: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:01:03 BRT [2026/04/05 16:01:03 ET]
+Table '3989565558 1' 8-max Seat #4 is the button
+Seat 1: scorza23 (2062 in chips) 
+Seat 2: nevalucki (971 in chips) 
+Seat 3: ratrix2009 (342 in chips) 
+Seat 4: V0id57 (929 in chips) 
+Seat 5: DealaJoker (2438 in chips) 
+Seat 7: alpoemo (2477 in chips) 
+Seat 8: Jeanzinnn_Br (1430 in chips) 
+scorza23: posts the ante 4
+nevalucki: posts the ante 4
+ratrix2009: posts the ante 4
+V0id57: posts the ante 4
+DealaJoker: posts the ante 4
+alpoemo: posts the ante 4
+Jeanzinnn_Br: posts the ante 4
+DealaJoker: posts small blind 15
+alpoemo: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ad]
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: raises 45 to 75
+ratrix2009: folds 
+V0id57: calls 75
+DealaJoker: raises 285 to 360
+alpoemo: folds 
+nevalucki: folds 
+V0id57: calls 285
+*** FLOP *** [Qc 8c Kh]
+DealaJoker: checks 
+V0id57: checks 
+*** TURN *** [Qc 8c Kh] [3h]
+DealaJoker: checks 
+V0id57: bets 565 and is all-in
+DealaJoker: folds 
+Uncalled bet (565) returned to V0id57
+V0id57 collected 853 from pot
+V0id57: doesn't show hand 
+*** SUMMARY ***
+Total pot 853 | Rake 0 
+Board [Qc 8c Kh 3h]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki folded before Flop
+Seat 3: ratrix2009 folded before Flop (didn't bet)
+Seat 4: V0id57 (button) collected (853)
+Seat 5: DealaJoker (small blind) folded on the Turn
+Seat 7: alpoemo (big blind) folded before Flop
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358206393: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:02:24 BRT [2026/04/05 16:02:24 ET]
+Table '3989565558 1' 8-max Seat #5 is the button
+Seat 1: scorza23 (2058 in chips) 
+Seat 2: nevalucki (892 in chips) 
+Seat 3: ratrix2009 (338 in chips) 
+Seat 4: V0id57 (1418 in chips) 
+Seat 5: DealaJoker (2074 in chips) 
+Seat 7: alpoemo (2443 in chips) 
+Seat 8: Jeanzinnn_Br (1426 in chips) 
+scorza23: posts the ante 4
+nevalucki: posts the ante 4
+ratrix2009: posts the ante 4
+V0id57: posts the ante 4
+DealaJoker: posts the ante 4
+alpoemo: posts the ante 4
+Jeanzinnn_Br: posts the ante 4
+alpoemo: posts small blind 15
+Jeanzinnn_Br: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 4h]
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: folds 
+V0id57: folds 
+DealaJoker: folds 
+alpoemo: raises 30 to 60
+Jeanzinnn_Br: folds 
+Uncalled bet (30) returned to alpoemo
+alpoemo collected 88 from pot
+alpoemo: doesn't show hand 
+*** SUMMARY ***
+Total pot 88 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 folded before Flop (didn't bet)
+Seat 4: V0id57 folded before Flop (didn't bet)
+Seat 5: DealaJoker (button) folded before Flop (didn't bet)
+Seat 7: alpoemo (small blind) collected (88)
+Seat 8: Jeanzinnn_Br (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358219098: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:03:10 BRT [2026/04/05 16:03:10 ET]
+Table '3989565558 1' 8-max Seat #7 is the button
+Seat 1: scorza23 (2054 in chips) 
+Seat 2: nevalucki (888 in chips) 
+Seat 3: ratrix2009 (334 in chips) 
+Seat 4: V0id57 (1414 in chips) 
+Seat 5: DealaJoker (2070 in chips) 
+Seat 7: alpoemo (2497 in chips) 
+Seat 8: Jeanzinnn_Br (1392 in chips) 
+scorza23: posts the ante 6
+nevalucki: posts the ante 6
+ratrix2009: posts the ante 6
+V0id57: posts the ante 6
+DealaJoker: posts the ante 6
+alpoemo: posts the ante 6
+Jeanzinnn_Br: posts the ante 6
+Jeanzinnn_Br: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 2s]
+nevalucki: folds 
+ratrix2009: raises 278 to 328 and is all-in
+V0id57: folds 
+DealaJoker: folds 
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+Uncalled bet (278) returned to ratrix2009
+ratrix2009 collected 167 from pot
+ratrix2009: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 collected (167)
+Seat 4: V0id57 folded before Flop (didn't bet)
+Seat 5: DealaJoker folded before Flop (didn't bet)
+Seat 7: alpoemo (button) folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358226020: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:03:37 BRT [2026/04/05 16:03:37 ET]
+Table '3989565558 1' 8-max Seat #8 is the button
+Seat 1: scorza23 (1998 in chips) 
+Seat 2: nevalucki (882 in chips) 
+Seat 3: ratrix2009 (445 in chips) 
+Seat 4: V0id57 (1408 in chips) 
+Seat 5: DealaJoker (2064 in chips) 
+Seat 7: alpoemo (2491 in chips) 
+Seat 8: Jeanzinnn_Br (1361 in chips) 
+scorza23: posts the ante 6
+nevalucki: posts the ante 6
+ratrix2009: posts the ante 6
+V0id57: posts the ante 6
+DealaJoker: posts the ante 6
+alpoemo: posts the ante 6
+Jeanzinnn_Br: posts the ante 6
+scorza23: posts small blind 25
+nevalucki: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 2s]
+ratrix2009: folds 
+V0id57: raises 100 to 150
+DealaJoker: folds 
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: folds 
+Uncalled bet (100) returned to V0id57
+V0id57 collected 167 from pot
+V0id57: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: nevalucki (big blind) folded before Flop
+Seat 3: ratrix2009 folded before Flop (didn't bet)
+Seat 4: V0id57 collected (167)
+Seat 5: DealaJoker folded before Flop (didn't bet)
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358231205: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:03:56 BRT [2026/04/05 16:03:56 ET]
+Table '3989565558 1' 8-max Seat #1 is the button
+Seat 1: scorza23 (1967 in chips) 
+Seat 2: nevalucki (826 in chips) 
+Seat 3: ratrix2009 (439 in chips) 
+Seat 4: V0id57 (1519 in chips) 
+Seat 5: DealaJoker (2058 in chips) 
+Seat 7: alpoemo (2485 in chips) 
+Seat 8: Jeanzinnn_Br (1355 in chips) 
+scorza23: posts the ante 6
+nevalucki: posts the ante 6
+ratrix2009: posts the ante 6
+V0id57: posts the ante 6
+DealaJoker: posts the ante 6
+alpoemo: posts the ante 6
+Jeanzinnn_Br: posts the ante 6
+nevalucki: posts small blind 25
+ratrix2009: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2h]
+V0id57: folds 
+DealaJoker: raises 55 to 105
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: folds 
+Uncalled bet (55) returned to DealaJoker
+DealaJoker collected 167 from pot
+DealaJoker: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: nevalucki (small blind) folded before Flop
+Seat 3: ratrix2009 (big blind) folded before Flop
+Seat 4: V0id57 folded before Flop (didn't bet)
+Seat 5: DealaJoker collected (167)
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358236756: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:04:17 BRT [2026/04/05 16:04:17 ET]
+Table '3989565558 1' 8-max Seat #2 is the button
+Seat 1: scorza23 (1961 in chips) 
+Seat 2: nevalucki (795 in chips) 
+Seat 3: ratrix2009 (383 in chips) 
+Seat 4: V0id57 (1513 in chips) 
+Seat 5: DealaJoker (2169 in chips) 
+Seat 7: alpoemo (2479 in chips) 
+Seat 8: Jeanzinnn_Br (1349 in chips) 
+scorza23: posts the ante 6
+nevalucki: posts the ante 6
+ratrix2009: posts the ante 6
+V0id57: posts the ante 6
+DealaJoker: posts the ante 6
+alpoemo: posts the ante 6
+Jeanzinnn_Br: posts the ante 6
+ratrix2009: posts small blind 25
+V0id57: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 9c]
+DealaJoker: folds 
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: raises 50 to 100
+nevalucki: folds 
+ratrix2009: folds 
+V0id57: calls 50
+*** FLOP *** [2h 6c Qh]
+V0id57: checks 
+scorza23: bets 100
+V0id57: calls 100
+*** TURN *** [2h 6c Qh] [Kc]
+V0id57: checks 
+scorza23: bets 200
+V0id57: calls 200
+*** RIVER *** [2h 6c Qh Kc] [2s]
+V0id57: checks 
+scorza23: bets 867
+V0id57: calls 867
+*** SHOW DOWN ***
+scorza23: shows [Ac 9c] (a pair of Deuces)
+V0id57: shows [Qc 8d] (two pair, Queens and Deuces)
+V0id57 collected 2601 from pot
+*** SUMMARY ***
+Total pot 2601 | Rake 0 
+Board [2h 6c Qh Kc 2s]
+Seat 1: scorza23 showed [Ac 9c] and lost with a pair of Deuces
+Seat 2: nevalucki (button) folded before Flop (didn't bet)
+Seat 3: ratrix2009 (small blind) folded before Flop
+Seat 4: V0id57 (big blind) showed [Qc 8d] and won (2601) with two pair, Queens and Deuces
+Seat 5: DealaJoker folded before Flop (didn't bet)
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358250125: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:05:07 BRT [2026/04/05 16:05:07 ET]
+Table '3989565558 1' 8-max Seat #3 is the button
+Seat 1: scorza23 (688 in chips) 
+Seat 2: nevalucki (789 in chips) 
+Seat 3: ratrix2009 (352 in chips) 
+Seat 4: V0id57 (2841 in chips) 
+Seat 5: DealaJoker (2163 in chips) 
+Seat 7: alpoemo (2473 in chips) 
+Seat 8: Jeanzinnn_Br (1343 in chips) 
+scorza23: posts the ante 6
+nevalucki: posts the ante 6
+ratrix2009: posts the ante 6
+V0id57: posts the ante 6
+DealaJoker: posts the ante 6
+alpoemo: posts the ante 6
+Jeanzinnn_Br: posts the ante 6
+V0id57: posts small blind 25
+DealaJoker: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 6d]
+alpoemo: folds 
+Jeanzinnn_Br: folds 
+scorza23: folds 
+nevalucki: folds 
+ratrix2009: raises 296 to 346 and is all-in
+V0id57: calls 321
+DealaJoker: folds 
+*** FLOP *** [3h 4c 3s]
+*** TURN *** [3h 4c 3s] [8d]
+*** RIVER *** [3h 4c 3s 8d] [2d]
+*** SHOW DOWN ***
+V0id57: shows [9c 9h] (two pair, Nines and Threes)
+ratrix2009: shows [Ad 8c] (two pair, Eights and Threes)
+V0id57 collected 784 from pot
+ratrix2009 finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 784 | Rake 0 
+Board [3h 4c 3s 8d 2d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: nevalucki folded before Flop (didn't bet)
+Seat 3: ratrix2009 (button) showed [Ad 8c] and lost with two pair, Eights and Threes
+Seat 4: V0id57 (small blind) showed [9c 9h] and won (784) with two pair, Nines and Threes
+Seat 5: DealaJoker (big blind) folded before Flop
+Seat 7: alpoemo folded before Flop (didn't bet)
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358263257: Tournament #3989565558, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:05:56 BRT [2026/04/05 16:05:56 ET]
+Table '3989565558 1' 8-max Seat #4 is the button
+Seat 1: scorza23 (682 in chips) 
+Seat 2: nevalucki (783 in chips) 
+Seat 4: V0id57 (3273 in chips) 
+Seat 5: DealaJoker (2107 in chips) 
+Seat 7: alpoemo (2467 in chips) 
+Seat 8: Jeanzinnn_Br (1337 in chips) 
+scorza23: posts the ante 6
+nevalucki: posts the ante 6
+V0id57: posts the ante 6
+DealaJoker: posts the ante 6
+alpoemo: posts the ante 6
+Jeanzinnn_Br: posts the ante 6
+DealaJoker: posts small blind 25
+alpoemo: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Qd]
+Jeanzinnn_Br: folds 
+scorza23: raises 50 to 100
+nevalucki: raises 677 to 777 and is all-in
+V0id57: folds 
+DealaJoker: folds 
+alpoemo: raises 1684 to 2461 and is all-in
+scorza23: calls 576 and is all-in
+Uncalled bet (1684) returned to alpoemo
+*** FLOP *** [Kh Qh Ad]
+*** TURN *** [Kh Qh Ad] [7h]
+*** RIVER *** [Kh Qh Ad 7h] [5d]
+*** SHOW DOWN ***
+alpoemo: shows [Ah 6h] (a flush, Ace high)
+nevalucki: shows [Js Jh] (a pair of Jacks)
+alpoemo collected 202 from side pot
+scorza23: shows [8d Qd] (a pair of Queens)
+alpoemo collected 2089 from main pot
+nevalucki finished the tournament in 24th place
+scorza23 finished the tournament in 25th place
+*** SUMMARY ***
+Total pot 2291 Main pot 2089. Side pot 202. | Rake 0 
+Board [Kh Qh Ad 7h 5d]
+Seat 1: scorza23 showed [8d Qd] and lost with a pair of Queens
+Seat 2: nevalucki showed [Js Jh] and lost with a pair of Jacks
+Seat 4: V0id57 (button) folded before Flop (didn't bet)
+Seat 5: DealaJoker (small blind) folded before Flop
+Seat 7: alpoemo (big blind) showed [Ah 6h] and won (2291) with a flush, Ace high
+Seat 8: Jeanzinnn_Br folded before Flop (didn't bet)
+
+
+

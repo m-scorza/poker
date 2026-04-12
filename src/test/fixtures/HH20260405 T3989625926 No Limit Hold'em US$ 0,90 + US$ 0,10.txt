@@ -1,0 +1,942 @@
+﻿PokerStars Hand #260361012372: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 20:14:51 BRT [2026/04/05 19:14:51 ET]
+Table '3989625926 3' 8-max Seat #1 is the button
+Seat 1: MaxRodriguess (1500 in chips) 
+Seat 2: gRaNdao0 (1500 in chips) 
+Seat 3: Beronha2301 (1500 in chips) 
+Seat 4: printreg (1500 in chips) 
+Seat 5: FRJ-Barbosa (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+MaxRodriguess: posts the ante 3
+gRaNdao0: posts the ante 3
+Beronha2301: posts the ante 3
+printreg: posts the ante 3
+FRJ-Barbosa: posts the ante 3
+scorza23: posts the ante 3
+gRaNdao0: posts small blind 10
+Beronha2301: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 9h]
+Beronha2301 is disconnected 
+gRaNdao0 is disconnected 
+printreg is disconnected 
+printreg is connected 
+FRJ-Barbosa is disconnected 
+printreg: folds 
+FRJ-Barbosa: raises 20 to 40
+Zephyr1908 is disconnected 
+scorza23: calls 40
+MaxRodriguess: folds 
+gRaNdao0: folds 
+Beronha2301: calls 20
+*** FLOP *** [6c As Jc]
+Beronha2301: checks 
+FRJ-Barbosa: checks 
+scorza23: checks 
+*** TURN *** [6c As Jc] [Qs]
+Beronha2301: checks 
+FRJ-Barbosa: checks 
+scorza23: bets 60
+Beronha2301: folds 
+FRJ-Barbosa: calls 60
+*** RIVER *** [6c As Jc Qs] [7d]
+FRJ-Barbosa: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+FRJ-Barbosa: shows [Kd 3s] (high card Ace)
+scorza23: shows [9d 9h] (a pair of Nines)
+scorza23 collected 268 from pot
+*** SUMMARY ***
+Total pot 268 | Rake 0 
+Board [6c As Jc Qs 7d]
+Seat 1: MaxRodriguess (button) folded before Flop (didn't bet)
+Seat 2: gRaNdao0 (small blind) folded before Flop
+Seat 3: Beronha2301 (big blind) folded on the Turn
+Seat 4: printreg folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa showed [Kd 3s] and lost with high card Ace
+Seat 7: scorza23 showed [9d 9h] and won (268) with a pair of Nines
+
+
+
+PokerStars Hand #260361027636: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 20:16:08 BRT [2026/04/05 19:16:08 ET]
+Table '3989625926 3' 8-max Seat #2 is the button
+Seat 1: MaxRodriguess (1497 in chips) 
+Seat 2: gRaNdao0 (1487 in chips) 
+Seat 3: Beronha2301 (1457 in chips) 
+Seat 4: printreg (1497 in chips) 
+Seat 5: FRJ-Barbosa (1397 in chips) 
+Seat 7: scorza23 (1665 in chips) 
+Seat 8: Zephyr1908 (1500 in chips) 
+MaxRodriguess: posts the ante 3
+gRaNdao0: posts the ante 3
+Beronha2301: posts the ante 3
+printreg: posts the ante 3
+FRJ-Barbosa: posts the ante 3
+scorza23: posts the ante 3
+Zephyr1908: posts the ante 3
+Beronha2301: posts small blind 10
+printreg: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 6c]
+FRJ-Barbosa: folds 
+scorza23: folds 
+Zephyr1908: folds 
+MaxRodriguess: raises 20 to 40
+gRaNdao0: folds 
+Beronha2301: raises 40 to 80
+printreg: folds 
+MaxRodriguess: calls 40
+*** FLOP *** [Ts As 9h]
+Beronha2301: bets 101
+aaceK’s is disconnected 
+MaxRodriguess: calls 101
+*** TURN *** [Ts As 9h] [Td]
+Beronha2301: bets 160
+MaxRodriguess: raises 160 to 320
+Beronha2301: calls 160
+*** RIVER *** [Ts As 9h Td] [3s]
+Beronha2301: bets 953 and is all-in
+MaxRodriguess: folds 
+Uncalled bet (953) returned to Beronha2301
+Beronha2301 collected 1043 from pot
+Beronha2301: doesn't show hand 
+*** SUMMARY ***
+Total pot 1043 | Rake 0 
+Board [Ts As 9h Td 3s]
+Seat 1: MaxRodriguess folded on the River
+Seat 2: gRaNdao0 (button) folded before Flop (didn't bet)
+Seat 3: Beronha2301 (small blind) collected (1043)
+Seat 4: printreg (big blind) folded before Flop
+Seat 5: FRJ-Barbosa folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361049871: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 20:18:01 BRT [2026/04/05 19:18:01 ET]
+Table '3989625926 3' 8-max Seat #3 is the button
+Seat 1: MaxRodriguess (993 in chips) 
+Seat 2: gRaNdao0 (1484 in chips) 
+Seat 3: Beronha2301 (1996 in chips) 
+Seat 4: printreg (1474 in chips) 
+Seat 5: FRJ-Barbosa (1394 in chips) 
+Seat 6: aaceK’s (1500 in chips) 
+Seat 7: scorza23 (1662 in chips) 
+Seat 8: Zephyr1908 (1497 in chips) 
+MaxRodriguess: posts the ante 3
+gRaNdao0: posts the ante 3
+Beronha2301: posts the ante 3
+printreg: posts the ante 3
+FRJ-Barbosa: posts the ante 3
+aaceK’s: posts the ante 3
+scorza23: posts the ante 3
+Zephyr1908: posts the ante 3
+printreg: posts small blind 10
+FRJ-Barbosa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 6d]
+aaceK’s: folds 
+scorza23: folds 
+Zephyr1908: raises 40 to 60
+MaxRodriguess: folds 
+gRaNdao0: folds 
+Beronha2301: folds 
+printreg: folds 
+FRJ-Barbosa: calls 40
+*** FLOP *** [As 5s 3h]
+FRJ-Barbosa: checks 
+Zephyr1908: bets 80
+FRJ-Barbosa: folds 
+Uncalled bet (80) returned to Zephyr1908
+Zephyr1908 collected 154 from pot
+Zephyr1908: doesn't show hand 
+*** SUMMARY ***
+Total pot 154 | Rake 0 
+Board [As 5s 3h]
+Seat 1: MaxRodriguess folded before Flop (didn't bet)
+Seat 2: gRaNdao0 folded before Flop (didn't bet)
+Seat 3: Beronha2301 (button) folded before Flop (didn't bet)
+Seat 4: printreg (small blind) folded before Flop
+Seat 5: FRJ-Barbosa (big blind) folded on the Flop
+Seat 6: aaceK’s folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 collected (154)
+
+
+
+PokerStars Hand #260361059261: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 20:18:49 BRT [2026/04/05 19:18:49 ET]
+Table '3989625926 3' 8-max Seat #4 is the button
+Seat 1: MaxRodriguess (990 in chips) 
+Seat 2: gRaNdao0 (1481 in chips) 
+Seat 3: Beronha2301 (1993 in chips) 
+Seat 4: printreg (1461 in chips) 
+Seat 5: FRJ-Barbosa (1331 in chips) 
+Seat 6: aaceK’s (1497 in chips) 
+Seat 7: scorza23 (1659 in chips) 
+Seat 8: Zephyr1908 (1588 in chips) 
+MaxRodriguess: posts the ante 3
+gRaNdao0: posts the ante 3
+Beronha2301: posts the ante 3
+printreg: posts the ante 3
+FRJ-Barbosa: posts the ante 3
+aaceK’s: posts the ante 3
+scorza23: posts the ante 3
+Zephyr1908: posts the ante 3
+FRJ-Barbosa: posts small blind 10
+aaceK’s: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Js]
+scorza23: folds 
+Zephyr1908: folds 
+MaxRodriguess: raises 20 to 40
+gRaNdao0: folds 
+Beronha2301: folds 
+printreg: folds 
+FRJ-Barbosa: calls 30
+aaceK’s: folds 
+*** FLOP *** [4h 7d Ac]
+FRJ-Barbosa: bets 62
+MaxRodriguess: calls 62
+*** TURN *** [4h 7d Ac] [4c]
+FRJ-Barbosa: checks 
+MaxRodriguess: checks 
+*** RIVER *** [4h 7d Ac 4c] [4s]
+FRJ-Barbosa: checks 
+MaxRodriguess: bets 164
+FRJ-Barbosa: folds 
+Uncalled bet (164) returned to MaxRodriguess
+MaxRodriguess collected 248 from pot
+MaxRodriguess: doesn't show hand 
+*** SUMMARY ***
+Total pot 248 | Rake 0 
+Board [4h 7d Ac 4c 4s]
+Seat 1: MaxRodriguess collected (248)
+Seat 2: gRaNdao0 folded before Flop (didn't bet)
+Seat 3: Beronha2301 folded before Flop (didn't bet)
+Seat 4: printreg (button) folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa (small blind) folded on the River
+Seat 6: aaceK’s (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361075999: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:20:14 BRT [2026/04/05 19:20:14 ET]
+Table '3989625926 3' 8-max Seat #5 is the button
+Seat 1: MaxRodriguess (1133 in chips) 
+Seat 2: gRaNdao0 (1478 in chips) 
+Seat 3: Beronha2301 (1990 in chips) 
+Seat 4: printreg (1458 in chips) 
+Seat 5: FRJ-Barbosa (1226 in chips) 
+Seat 6: aaceK’s (1474 in chips) 
+Seat 7: scorza23 (1656 in chips) 
+Seat 8: Zephyr1908 (1585 in chips) 
+MaxRodriguess: posts the ante 4
+gRaNdao0: posts the ante 4
+Beronha2301: posts the ante 4
+printreg: posts the ante 4
+FRJ-Barbosa: posts the ante 4
+aaceK’s: posts the ante 4
+scorza23: posts the ante 4
+Zephyr1908: posts the ante 4
+aaceK’s: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 8c]
+Zephyr1908: folds 
+MaxRodriguess: folds 
+gRaNdao0: folds 
+Beronha2301: folds 
+printreg: folds 
+FRJ-Barbosa: calls 30
+aaceK’s: folds 
+scorza23: checks 
+*** FLOP *** [Td Ah Ts]
+scorza23: checks 
+FRJ-Barbosa: checks 
+*** TURN *** [Td Ah Ts] [Kh]
+scorza23: checks 
+FRJ-Barbosa: bets 54
+scorza23: calls 54
+*** RIVER *** [Td Ah Ts Kh] [6d]
+scorza23: checks 
+FRJ-Barbosa: bets 215
+scorza23: calls 215
+*** SHOW DOWN ***
+FRJ-Barbosa: shows [As Qs] (two pair, Aces and Tens)
+scorza23: mucks hand 
+FRJ-Barbosa collected 645 from pot
+*** SUMMARY ***
+Total pot 645 | Rake 0 
+Board [Td Ah Ts Kh 6d]
+Seat 1: MaxRodriguess folded before Flop (didn't bet)
+Seat 2: gRaNdao0 folded before Flop (didn't bet)
+Seat 3: Beronha2301 folded before Flop (didn't bet)
+Seat 4: printreg folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa (button) showed [As Qs] and won (645) with two pair, Aces and Tens
+Seat 6: aaceK’s (small blind) folded before Flop
+Seat 7: scorza23 (big blind) mucked [Ks 8c]
+Seat 8: Zephyr1908 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361083910: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:20:54 BRT [2026/04/05 19:20:54 ET]
+Table '3989625926 3' 8-max Seat #6 is the button
+Seat 1: MaxRodriguess (1129 in chips) 
+Seat 2: gRaNdao0 (1474 in chips) 
+Seat 3: Beronha2301 (1986 in chips) 
+Seat 4: printreg (1454 in chips) 
+Seat 5: FRJ-Barbosa (1568 in chips) 
+Seat 6: aaceK’s (1455 in chips) 
+Seat 7: scorza23 (1353 in chips) 
+Seat 8: Zephyr1908 (1581 in chips) 
+MaxRodriguess: posts the ante 4
+gRaNdao0: posts the ante 4
+Beronha2301: posts the ante 4
+printreg: posts the ante 4
+FRJ-Barbosa: posts the ante 4
+aaceK’s: posts the ante 4
+scorza23: posts the ante 4
+Zephyr1908: posts the ante 4
+scorza23: posts small blind 15
+Zephyr1908: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Ks]
+MaxRodriguess: folds 
+gRaNdao0: folds 
+Beronha2301: raises 36 to 66
+printreg: folds 
+FRJ-Barbosa: calls 66
+aaceK’s: folds 
+scorza23: folds 
+Zephyr1908: calls 36
+*** FLOP *** [As Ah 7h]
+Zephyr1908: checks 
+Beronha2301: checks 
+FRJ-Barbosa: checks 
+*** TURN *** [As Ah 7h] [2c]
+Zephyr1908: checks 
+Beronha2301: checks 
+FRJ-Barbosa: checks 
+*** RIVER *** [As Ah 7h 2c] [Ts]
+Zephyr1908: checks 
+Beronha2301: bets 90
+FRJ-Barbosa: calls 90
+Zephyr1908: folds 
+*** SHOW DOWN ***
+Beronha2301: shows [Tc Ad] (a full house, Aces full of Tens)
+FRJ-Barbosa: mucks hand 
+Beronha2301 collected 425 from pot
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Board [As Ah 7h 2c Ts]
+Seat 1: MaxRodriguess folded before Flop (didn't bet)
+Seat 2: gRaNdao0 folded before Flop (didn't bet)
+Seat 3: Beronha2301 showed [Tc Ad] and won (425) with a full house, Aces full of Tens
+Seat 4: printreg folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa mucked [9s 9d]
+Seat 6: aaceK’s (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Zephyr1908 (big blind) folded on the River
+
+
+
+PokerStars Hand #260361093755: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:21:44 BRT [2026/04/05 19:21:44 ET]
+Table '3989625926 3' 8-max Seat #7 is the button
+Seat 2: gRaNdao0 (1470 in chips) 
+Seat 3: Beronha2301 (2251 in chips) 
+Seat 4: printreg (1450 in chips) 
+Seat 5: FRJ-Barbosa (1408 in chips) 
+Seat 6: aaceK’s (1451 in chips) 
+Seat 7: scorza23 (1334 in chips) 
+Seat 8: Zephyr1908 (1511 in chips) 
+gRaNdao0: posts the ante 4
+Beronha2301: posts the ante 4
+printreg: posts the ante 4
+FRJ-Barbosa: posts the ante 4
+aaceK’s: posts the ante 4
+scorza23: posts the ante 4
+Zephyr1908: posts the ante 4
+Zephyr1908: posts small blind 15
+gRaNdao0: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4s]
+Beronha2301: folds 
+printreg: folds 
+FRJ-Barbosa: raises 30 to 60
+aaceK’s: folds 
+scorza23: folds 
+Zephyr1908: calls 45
+gRaNdao0: calls 30
+*** FLOP *** [Jd 6c As]
+Zephyr1908: checks 
+gRaNdao0: checks 
+FRJ-Barbosa: checks 
+*** TURN *** [Jd 6c As] [Qs]
+Zephyr1908: checks 
+gRaNdao0: bets 146
+FRJ-Barbosa: calls 146
+Zephyr1908: folds 
+*** RIVER *** [Jd 6c As Qs] [3s]
+gRaNdao0: bets 165
+FRJ-Barbosa: calls 165
+*** SHOW DOWN ***
+gRaNdao0: shows [Kd Td] (a straight, Ten to Ace)
+FRJ-Barbosa: mucks hand 
+gRaNdao0 collected 830 from pot
+*** SUMMARY ***
+Total pot 830 | Rake 0 
+Board [Jd 6c As Qs 3s]
+Seat 2: gRaNdao0 (big blind) showed [Kd Td] and won (830) with a straight, Ten to Ace
+Seat 3: Beronha2301 folded before Flop (didn't bet)
+Seat 4: printreg folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa mucked [3h Ah]
+Seat 6: aaceK’s folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Zephyr1908 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260361109345: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:23:04 BRT [2026/04/05 19:23:04 ET]
+Table '3989625926 3' 8-max Seat #8 is the button
+Seat 2: gRaNdao0 (1925 in chips) 
+Seat 3: Beronha2301 (2247 in chips) 
+Seat 4: printreg (1446 in chips) 
+Seat 5: FRJ-Barbosa (1033 in chips) 
+Seat 6: aaceK’s (1447 in chips) 
+Seat 7: scorza23 (1330 in chips) 
+Seat 8: Zephyr1908 (1447 in chips) 
+gRaNdao0: posts the ante 4
+Beronha2301: posts the ante 4
+printreg: posts the ante 4
+FRJ-Barbosa: posts the ante 4
+aaceK’s: posts the ante 4
+scorza23: posts the ante 4
+Zephyr1908: posts the ante 4
+gRaNdao0: posts small blind 15
+Beronha2301: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Ah]
+printreg: folds 
+FRJ-Barbosa: folds 
+aaceK’s: raises 30 to 60
+scorza23: folds 
+Zephyr1908: calls 60
+gRaNdao0: folds 
+Beronha2301: calls 30
+*** FLOP *** [2c 6c 9d]
+Beronha2301: bets 112
+aaceK’s: folds 
+Zephyr1908: folds 
+Uncalled bet (112) returned to Beronha2301
+Beronha2301 collected 223 from pot
+Beronha2301: doesn't show hand 
+*** SUMMARY ***
+Total pot 223 | Rake 0 
+Board [2c 6c 9d]
+Seat 2: gRaNdao0 (small blind) folded before Flop
+Seat 3: Beronha2301 (big blind) collected (223)
+Seat 4: printreg folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa folded before Flop (didn't bet)
+Seat 6: aaceK’s folded on the Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 (button) folded on the Flop
+
+
+
+PokerStars Hand #260361118479: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:23:51 BRT [2026/04/05 19:23:51 ET]
+Table '3989625926 3' 8-max Seat #2 is the button
+Seat 2: gRaNdao0 (1906 in chips) 
+Seat 3: Beronha2301 (2406 in chips) 
+Seat 4: printreg (1442 in chips) 
+Seat 5: FRJ-Barbosa (1029 in chips) 
+Seat 6: aaceK’s (1383 in chips) 
+Seat 7: scorza23 (1326 in chips) 
+Seat 8: Zephyr1908 (1383 in chips) 
+gRaNdao0: posts the ante 4
+Beronha2301: posts the ante 4
+printreg: posts the ante 4
+FRJ-Barbosa: posts the ante 4
+aaceK’s: posts the ante 4
+scorza23: posts the ante 4
+Zephyr1908: posts the ante 4
+Beronha2301: posts small blind 15
+printreg: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Kc]
+FRJ-Barbosa: calls 30
+aaceK’s: folds 
+scorza23: raises 30 to 60
+Zephyr1908: calls 60
+gRaNdao0: folds 
+Beronha2301: folds 
+printreg: folds 
+FRJ-Barbosa: calls 30
+*** FLOP *** [Ts Ah 7d]
+FRJ-Barbosa: checks 
+scorza23: bets 90
+Zephyr1908: calls 90
+FRJ-Barbosa: calls 90
+*** TURN *** [Ts Ah 7d] [Jh]
+FRJ-Barbosa: checks 
+scorza23: checks 
+Zephyr1908: checks 
+*** RIVER *** [Ts Ah 7d Jh] [3h]
+FRJ-Barbosa: bets 262
+scorza23: folds 
+Zephyr1908: folds 
+Uncalled bet (262) returned to FRJ-Barbosa
+FRJ-Barbosa collected 523 from pot
+FRJ-Barbosa: doesn't show hand 
+*** SUMMARY ***
+Total pot 523 | Rake 0 
+Board [Ts Ah 7d Jh 3h]
+Seat 2: gRaNdao0 (button) folded before Flop (didn't bet)
+Seat 3: Beronha2301 (small blind) folded before Flop
+Seat 4: printreg (big blind) folded before Flop
+Seat 5: FRJ-Barbosa collected (523)
+Seat 6: aaceK’s folded before Flop (didn't bet)
+Seat 7: scorza23 folded on the River
+Seat 8: Zephyr1908 folded on the River
+
+
+
+PokerStars Hand #260361132686: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:25:05 BRT [2026/04/05 19:25:05 ET]
+Table '3989625926 3' 8-max Seat #3 is the button
+Seat 2: gRaNdao0 (1902 in chips) 
+Seat 3: Beronha2301 (2387 in chips) 
+Seat 4: printreg (1408 in chips) 
+Seat 5: FRJ-Barbosa (1398 in chips) 
+Seat 6: aaceK’s (1379 in chips) 
+Seat 7: scorza23 (1172 in chips) 
+Seat 8: Zephyr1908 (1229 in chips) 
+gRaNdao0: posts the ante 6
+Beronha2301: posts the ante 6
+printreg: posts the ante 6
+FRJ-Barbosa: posts the ante 6
+aaceK’s: posts the ante 6
+scorza23: posts the ante 6
+Zephyr1908: posts the ante 6
+printreg: posts small blind 25
+FRJ-Barbosa: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 3c]
+aaceK’s: raises 50 to 100
+scorza23: folds 
+Zephyr1908: calls 100
+gRaNdao0: folds 
+Beronha2301: calls 100
+printreg: folds 
+FRJ-Barbosa: calls 50
+*** FLOP *** [Jd 9s 4c]
+FRJ-Barbosa: checks 
+aaceK’s: checks 
+Zephyr1908: checks 
+Beronha2301: checks 
+*** TURN *** [Jd 9s 4c] [4d]
+FRJ-Barbosa: bets 50
+aaceK’s: calls 50
+Zephyr1908: raises 150 to 200
+Beronha2301: folds 
+FRJ-Barbosa: calls 150
+aaceK’s: folds 
+*** RIVER *** [Jd 9s 4c 4d] [Qs]
+FRJ-Barbosa: bets 1092 and is all-in
+Zephyr1908: calls 923 and is all-in
+Uncalled bet (169) returned to FRJ-Barbosa
+*** SHOW DOWN ***
+FRJ-Barbosa: shows [4s Ts] (three of a kind, Fours)
+Zephyr1908: shows [Ah 4h] (three of a kind, Fours - Ace kicker)
+Zephyr1908 collected 2763 from pot
+*** SUMMARY ***
+Total pot 2763 | Rake 0 
+Board [Jd 9s 4c 4d Qs]
+Seat 2: gRaNdao0 folded before Flop (didn't bet)
+Seat 3: Beronha2301 (button) folded on the Turn
+Seat 4: printreg (small blind) folded before Flop
+Seat 5: FRJ-Barbosa (big blind) showed [4s Ts] and lost with three of a kind, Fours
+Seat 6: aaceK’s folded on the Turn
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 showed [Ah 4h] and won (2763) with three of a kind, Fours
+
+
+
+PokerStars Hand #260361148031: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:26:25 BRT [2026/04/05 19:26:25 ET]
+Table '3989625926 3' 8-max Seat #4 is the button
+Seat 2: gRaNdao0 (1896 in chips) 
+Seat 3: Beronha2301 (2281 in chips) 
+Seat 4: printreg (1377 in chips) 
+Seat 5: FRJ-Barbosa (169 in chips) 
+Seat 6: aaceK’s (1223 in chips) 
+Seat 7: scorza23 (1166 in chips) 
+Seat 8: Zephyr1908 (2763 in chips) 
+gRaNdao0: posts the ante 6
+Beronha2301: posts the ante 6
+printreg: posts the ante 6
+FRJ-Barbosa: posts the ante 6
+aaceK’s: posts the ante 6
+scorza23: posts the ante 6
+Zephyr1908: posts the ante 6
+FRJ-Barbosa: posts small blind 25
+aaceK’s: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 9d]
+scorza23: raises 50 to 100
+Zephyr1908: folds 
+gRaNdao0: raises 1790 to 1890 and is all-in
+Beronha2301: raises 385 to 2275 and is all-in
+printreg: calls 1371 and is all-in
+FRJ-Barbosa: folds 
+aaceK’s: folds 
+scorza23: folds 
+Uncalled bet (385) returned to Beronha2301
+*** FLOP *** [7s Qh 6d]
+*** TURN *** [7s Qh 6d] [Th]
+*** RIVER *** [7s Qh 6d Th] [5s]
+*** SHOW DOWN ***
+gRaNdao0: shows [Ah Kc] (high card Ace)
+Beronha2301: shows [Jd Jh] (a pair of Jacks)
+Beronha2301 collected 1038 from side pot
+printreg: shows [9h 9s] (a pair of Nines)
+Beronha2301 collected 4330 from main pot
+gRaNdao0 finished the tournament in 26th place
+printreg finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 5368 Main pot 4330. Side pot 1038. | Rake 0 
+Board [7s Qh 6d Th 5s]
+Seat 2: gRaNdao0 showed [Ah Kc] and lost with high card Ace
+Seat 3: Beronha2301 showed [Jd Jh] and won (5368) with a pair of Jacks
+Seat 4: printreg (button) showed [9h 9s] and lost with a pair of Nines
+Seat 5: FRJ-Barbosa (small blind) folded before Flop
+Seat 6: aaceK’s (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop
+Seat 8: Zephyr1908 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361155805: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:27:05 BRT [2026/04/05 19:27:05 ET]
+Table '3989625926 3' 8-max Seat #5 is the button
+Seat 3: Beronha2301 (5753 in chips) 
+Seat 5: FRJ-Barbosa (138 in chips) 
+Seat 6: aaceK’s (1167 in chips) 
+Seat 7: scorza23 (1060 in chips) 
+Seat 8: Zephyr1908 (2757 in chips) 
+Beronha2301: posts the ante 6
+FRJ-Barbosa: posts the ante 6
+aaceK’s: posts the ante 6
+scorza23: posts the ante 6
+Zephyr1908: posts the ante 6
+aaceK’s: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 8c]
+Zephyr1908: calls 50
+Beronha2301: folds 
+gennadijxxx is disconnected 
+FRJ-Barbosa: raises 82 to 132 and is all-in
+aaceK’s: folds 
+scorza23: folds 
+Zephyr1908: calls 82
+*** FLOP *** [8h 9h 7c]
+*** TURN *** [8h 9h 7c] [9s]
+*** RIVER *** [8h 9h 7c 9s] [9c]
+*** SHOW DOWN ***
+Zephyr1908: shows [4d Td] (three of a kind, Nines)
+FRJ-Barbosa: shows [7d 7s] (a full house, Nines full of Sevens)
+FRJ-Barbosa collected 369 from pot
+*** SUMMARY ***
+Total pot 369 | Rake 0 
+Board [8h 9h 7c 9s 9c]
+Seat 3: Beronha2301 folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa (button) showed [7d 7s] and won (369) with a full house, Nines full of Sevens
+Seat 6: aaceK’s (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: Zephyr1908 showed [4d Td] and lost with three of a kind, Nines
+
+
+
+PokerStars Hand #260361161631: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:27:36 BRT [2026/04/05 19:27:36 ET]
+Table '3989625926 3' 8-max Seat #6 is the button
+Seat 1: gennadijxxx (735 in chips) 
+Seat 3: Beronha2301 (5747 in chips) 
+Seat 5: FRJ-Barbosa (369 in chips) 
+Seat 6: aaceK’s (1136 in chips) 
+Seat 7: scorza23 (1004 in chips) 
+Seat 8: Zephyr1908 (2619 in chips) 
+gennadijxxx: posts the ante 6
+Beronha2301: posts the ante 6
+FRJ-Barbosa: posts the ante 6
+aaceK’s: posts the ante 6
+scorza23: posts the ante 6
+Zephyr1908: posts the ante 6
+scorza23: posts small blind 25
+Zephyr1908: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Jh]
+gennadijxxx: calls 50
+Beronha2301: folds 
+FRJ-Barbosa: folds 
+aaceK’s: folds 
+scorza23: folds 
+Zephyr1908: checks 
+*** FLOP *** [Qd 8h Ac]
+Zephyr1908: checks 
+gennadijxxx: bets 161
+Zephyr1908: calls 161
+*** TURN *** [Qd 8h Ac] [Jc]
+Zephyr1908: checks 
+gennadijxxx: checks 
+*** RIVER *** [Qd 8h Ac Jc] [2c]
+Zephyr1908: bets 250
+gennadijxxx: folds 
+Uncalled bet (250) returned to Zephyr1908
+Zephyr1908 collected 483 from pot
+Zephyr1908: doesn't show hand 
+*** SUMMARY ***
+Total pot 483 | Rake 0 
+Board [Qd 8h Ac Jc 2c]
+Seat 1: gennadijxxx folded on the River
+Seat 3: Beronha2301 folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa folded before Flop (didn't bet)
+Seat 6: aaceK’s (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Zephyr1908 (big blind) collected (483)
+
+
+
+PokerStars Hand #260361171161: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:28:25 BRT [2026/04/05 19:28:25 ET]
+Table '3989625926 3' 8-max Seat #7 is the button
+Seat 1: gennadijxxx (518 in chips) 
+Seat 3: Beronha2301 (5741 in chips) 
+Seat 5: FRJ-Barbosa (363 in chips) 
+Seat 6: aaceK’s (1130 in chips) 
+Seat 7: scorza23 (973 in chips) 
+Seat 8: Zephyr1908 (2885 in chips) 
+gennadijxxx: posts the ante 6
+Beronha2301: posts the ante 6
+FRJ-Barbosa: posts the ante 6
+aaceK’s: posts the ante 6
+scorza23: posts the ante 6
+Zephyr1908: posts the ante 6
+Zephyr1908: posts small blind 25
+gennadijxxx: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Jh]
+Beronha2301: folds 
+FRJ-Barbosa: folds 
+aaceK’s: raises 50 to 100
+scorza23: raises 867 to 967 and is all-in
+Zephyr1908: folds 
+gennadijxxx: folds 
+aaceK’s: folds 
+Uncalled bet (867) returned to scorza23
+scorza23 collected 311 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 311 | Rake 0 
+Seat 1: gennadijxxx (big blind) folded before Flop
+Seat 3: Beronha2301 folded before Flop (didn't bet)
+Seat 5: FRJ-Barbosa folded before Flop (didn't bet)
+Seat 6: aaceK’s folded before Flop
+Seat 7: scorza23 (button) collected (311)
+Seat 8: Zephyr1908 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260361178300: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:29:03 BRT [2026/04/05 19:29:03 ET]
+Table '3989625926 3' 8-max Seat #8 is the button
+Seat 1: gennadijxxx (462 in chips) 
+Seat 3: Beronha2301 (5735 in chips) 
+Seat 5: FRJ-Barbosa (357 in chips) 
+Seat 6: aaceK’s (1024 in chips) 
+Seat 7: scorza23 (1178 in chips) 
+Seat 8: Zephyr1908 (2854 in chips) 
+gennadijxxx: posts the ante 6
+Beronha2301: posts the ante 6
+FRJ-Barbosa: posts the ante 6
+aaceK’s: posts the ante 6
+scorza23: posts the ante 6
+Zephyr1908: posts the ante 6
+gennadijxxx: posts small blind 25
+Beronha2301: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Qs]
+FRJ-Barbosa: folds 
+aaceK’s: raises 50 to 100
+scorza23: folds 
+Zephyr1908: calls 100
+gennadijxxx: folds 
+Beronha2301: calls 50
+*** FLOP *** [5d 7h Ts]
+Beronha2301: checks 
+aaceK’s: checks 
+Zephyr1908: bets 150
+Beronha2301: folds 
+aaceK’s: calls 150
+*** TURN *** [5d 7h Ts] [5h]
+aaceK’s: checks 
+Zephyr1908: checks 
+*** RIVER *** [5d 7h Ts 5h] [8h]
+aaceK’s: checks 
+Zephyr1908: checks 
+*** SHOW DOWN ***
+aaceK’s: shows [Ac Jd] (a pair of Fives)
+Zephyr1908: shows [7s Ad] (two pair, Sevens and Fives)
+Zephyr1908 collected 661 from pot
+*** SUMMARY ***
+Total pot 661 | Rake 0 
+Board [5d 7h Ts 5h 8h]
+Seat 1: gennadijxxx (small blind) folded before Flop
+Seat 3: Beronha2301 (big blind) folded on the Flop
+Seat 5: FRJ-Barbosa folded before Flop (didn't bet)
+Seat 6: aaceK’s showed [Ac Jd] and lost with a pair of Fives
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 (button) showed [7s Ad] and won (661) with two pair, Sevens and Fives
+
+
+
+PokerStars Hand #260361190435: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:30:07 BRT [2026/04/05 19:30:07 ET]
+Table '3989625926 3' 8-max Seat #1 is the button
+Seat 1: gennadijxxx (431 in chips) 
+Seat 2: ChiefID78 (1533 in chips) out of hand (moved from another table into small blind)
+Seat 3: Beronha2301 (5629 in chips) 
+Seat 4: MarquesDcfc (5065 in chips) 
+Seat 5: FRJ-Barbosa (351 in chips) 
+Seat 6: aaceK’s (768 in chips) 
+Seat 7: scorza23 (1172 in chips) 
+Seat 8: Zephyr1908 (3259 in chips) 
+ChiefID78 will be allowed to play after the button
+gennadijxxx: posts the ante 10
+Beronha2301: posts the ante 10
+MarquesDcfc: posts the ante 10
+FRJ-Barbosa: posts the ante 10
+aaceK’s: posts the ante 10
+scorza23: posts the ante 10
+Zephyr1908: posts the ante 10
+Beronha2301: posts small blind 40
+MarquesDcfc: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 7s]
+FRJ-Barbosa: raises 261 to 341 and is all-in
+aaceK’s: folds 
+scorza23: folds 
+Zephyr1908: calls 341
+gennadijxxx: folds 
+Beronha2301: folds 
+MarquesDcfc: folds 
+*** FLOP *** [Jh 6c 6d]
+*** TURN *** [Jh 6c 6d] [3h]
+*** RIVER *** [Jh 6c 6d 3h] [6h]
+*** SHOW DOWN ***
+FRJ-Barbosa: shows [Qs Td] (three of a kind, Sixes)
+Zephyr1908: shows [Kc Ad] (three of a kind, Sixes - Ace kicker)
+Zephyr1908 collected 872 from pot
+FRJ-Barbosa finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 872 | Rake 0 
+Board [Jh 6c 6d 3h 6h]
+Seat 1: gennadijxxx (button) folded before Flop (didn't bet)
+Seat 3: Beronha2301 (small blind) folded before Flop
+Seat 4: MarquesDcfc (big blind) folded before Flop
+Seat 5: FRJ-Barbosa showed [Qs Td] and lost with three of a kind, Sixes
+Seat 6: aaceK’s folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 showed [Kc Ad] and won (872) with three of a kind, Sixes
+
+
+
+PokerStars Hand #260361195207: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:30:33 BRT [2026/04/05 19:30:33 ET]
+Table '3989625926 3' 8-max Seat #3 is the button
+Seat 1: gennadijxxx (421 in chips) 
+Seat 2: ChiefID78 (1533 in chips) 
+Seat 3: Beronha2301 (5579 in chips) 
+Seat 4: MarquesDcfc (4975 in chips) 
+Seat 6: aaceK’s (758 in chips) 
+Seat 7: scorza23 (1162 in chips) 
+Seat 8: Zephyr1908 (3780 in chips) 
+gennadijxxx: posts the ante 10
+ChiefID78: posts the ante 10
+Beronha2301: posts the ante 10
+MarquesDcfc: posts the ante 10
+aaceK’s: posts the ante 10
+scorza23: posts the ante 10
+Zephyr1908: posts the ante 10
+MarquesDcfc: posts small blind 40
+aaceK’s: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Js]
+scorza23: folds 
+Zephyr1908: folds 
+gennadijxxx: calls 80
+ChiefID78: folds 
+Beronha2301: folds 
+MarquesDcfc: folds 
+aaceK’s: raises 668 to 748 and is all-in
+gennadijxxx: calls 331 and is all-in
+Uncalled bet (337) returned to aaceK’s
+*** FLOP *** [9s 8d Td]
+*** TURN *** [9s 8d Td] [3s]
+*** RIVER *** [9s 8d Td 3s] [Ks]
+*** SHOW DOWN ***
+aaceK’s: shows [4h 4c] (a pair of Fours)
+gennadijxxx: shows [Ac Jd] (high card Ace)
+aaceK’s collected 932 from pot
+gennadijxxx finished the tournament in 23rd place
+*** SUMMARY ***
+Total pot 932 | Rake 0 
+Board [9s 8d Td 3s Ks]
+Seat 1: gennadijxxx showed [Ac Jd] and lost with high card Ace
+Seat 2: ChiefID78 folded before Flop (didn't bet)
+Seat 3: Beronha2301 (button) folded before Flop (didn't bet)
+Seat 4: MarquesDcfc (small blind) folded before Flop
+Seat 6: aaceK’s (big blind) showed [4h 4c] and won (932) with a pair of Fours
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Zephyr1908 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361202927: Tournament #3989625926, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:31:14 BRT [2026/04/05 19:31:14 ET]
+Table '3989625926 3' 8-max Seat #4 is the button
+Seat 2: ChiefID78 (1523 in chips) 
+Seat 3: Beronha2301 (5569 in chips) 
+Seat 4: MarquesDcfc (4925 in chips) 
+Seat 6: aaceK’s (1269 in chips) 
+Seat 7: scorza23 (1152 in chips) 
+Seat 8: Zephyr1908 (3770 in chips) 
+ChiefID78: posts the ante 10
+Beronha2301: posts the ante 10
+MarquesDcfc: posts the ante 10
+aaceK’s: posts the ante 10
+scorza23: posts the ante 10
+Zephyr1908: posts the ante 10
+aaceK’s: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Ad]
+Zephyr1908: folds 
+ChiefID78: calls 80
+Beronha2301: folds 
+MarquesDcfc: calls 80
+aaceK’s: folds 
+scorza23: raises 1062 to 1142 and is all-in
+ChiefID78: calls 1062
+MarquesDcfc: folds 
+*** FLOP *** [Th Td 2h]
+*** TURN *** [Th Td 2h] [Qh]
+*** RIVER *** [Th Td 2h Qh] [9c]
+*** SHOW DOWN ***
+scorza23: shows [8h Ad] (a pair of Tens)
+ChiefID78: shows [Ks Jd] (a straight, Nine to King)
+ChiefID78 collected 2464 from pot
+scorza23 finished the tournament in 22nd place
+*** SUMMARY ***
+Total pot 2464 | Rake 0 
+Board [Th Td 2h Qh 9c]
+Seat 2: ChiefID78 showed [Ks Jd] and won (2464) with a straight, Nine to King
+Seat 3: Beronha2301 folded before Flop (didn't bet)
+Seat 4: MarquesDcfc (button) folded before Flop
+Seat 6: aaceK’s (small blind) folded before Flop
+Seat 7: scorza23 (big blind) showed [8h Ad] and lost with a pair of Tens
+Seat 8: Zephyr1908 folded before Flop (didn't bet)
+
+
+

@@ -1,0 +1,1323 @@
+﻿PokerStars Hand #259762848157: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:56:11 UTC [2026/02/17 9:56:11 ET]
+Table '3975967913 3' 8-max Seat #1 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: RSAsh9 (1477 in chips) 
+Seat 3: RaFaeLStars7 (1500 in chips) 
+scorza23: posts the ante 3
+RSAsh9: posts the ante 3
+RaFaeLStars7: posts the ante 3
+RSAsh9: posts small blind 10
+RaFaeLStars7: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 4c]
+RSAsh9 is disconnected 
+scorza23: raises 40 to 60
+RSAsh9: calls 50
+CyroSan is disconnected 
+RaFaeLStars7: calls 40
+*** FLOP *** [4d Td 5s]
+BH.yam.MG is disconnected 
+RSAsh9: checks 
+RaFaeLStars7: checks 
+Juniorplim is disconnected 
+scorza23: bets 95
+RSAsh9: folds 
+RaFaeLStars7: calls 95
+*** TURN *** [4d Td 5s] [8h]
+RaFaeLStars7: checks 
+scorza23: bets 1342 and is all-in
+RaFaeLStars7: folds 
+Uncalled bet (1342) returned to scorza23
+scorza23 collected 379 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 379 | Rake 0 
+Board [4d Td 5s 8h]
+Seat 1: scorza23 (button) collected (379)
+Seat 2: RSAsh9 (small blind) folded on the Flop
+Seat 3: RaFaeLStars7 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259762853202: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:56:54 UTC [2026/02/17 9:56:54 ET]
+Table '3975967913 3' 8-max Seat #2 is the button
+Seat 1: scorza23 (1721 in chips) 
+Seat 2: RSAsh9 (1414 in chips) 
+Seat 3: RaFaeLStars7 (1342 in chips) 
+Seat 4: CyroSan (1500 in chips) 
+Seat 5: Undoneone (1500 in chips) 
+Seat 6: BH.yam.MG (1500 in chips) 
+Seat 7: Juniorplim (1500 in chips) 
+Seat 8: evermage (1500 in chips) 
+scorza23: posts the ante 3
+RSAsh9: posts the ante 3
+RaFaeLStars7: posts the ante 3
+CyroSan: posts the ante 3
+Undoneone: posts the ante 3
+BH.yam.MG: posts the ante 3
+Juniorplim: posts the ante 3
+evermage: posts the ante 3
+RaFaeLStars7: posts small blind 10
+CyroSan: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Jh]
+Undoneone: folds 
+BH.yam.MG has timed out
+BH.yam.MG: folds 
+BH.yam.MG is sitting out
+Juniorplim: folds 
+evermage: raises 20 to 40
+scorza23: folds 
+RSAsh9: calls 40
+RaFaeLStars7: folds 
+CyroSan: folds 
+*** FLOP *** [4d 3d Qs]
+evermage: checks 
+RSAsh9: bets 80
+evermage: folds 
+Uncalled bet (80) returned to RSAsh9
+RSAsh9 collected 134 from pot
+RSAsh9: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Board [4d 3d Qs]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: RSAsh9 (button) collected (134)
+Seat 3: RaFaeLStars7 (small blind) folded before Flop
+Seat 4: CyroSan (big blind) folded before Flop
+Seat 5: Undoneone folded before Flop (didn't bet)
+Seat 6: BH.yam.MG folded before Flop (didn't bet)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: evermage folded on the Flop
+
+
+
+PokerStars Hand #259762860253: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:57:53 UTC [2026/02/17 9:57:53 ET]
+Table '3975967913 3' 8-max Seat #3 is the button
+Seat 1: scorza23 (1718 in chips) 
+Seat 2: RSAsh9 (1505 in chips) 
+Seat 3: RaFaeLStars7 (1329 in chips) 
+Seat 4: CyroSan (1477 in chips) 
+Seat 5: Undoneone (1497 in chips) 
+Seat 6: BH.yam.MG (1497 in chips) is sitting out
+Seat 7: Juniorplim (1497 in chips) 
+Seat 8: evermage (1457 in chips) 
+scorza23: posts the ante 3
+RSAsh9: posts the ante 3
+RaFaeLStars7: posts the ante 3
+CyroSan: posts the ante 3
+Undoneone: posts the ante 3
+BH.yam.MG: posts the ante 3
+Juniorplim: posts the ante 3
+evermage: posts the ante 3
+CyroSan: posts small blind 10
+Undoneone: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ad]
+BH.yam.MG: folds 
+Juniorplim: raises 20 to 40
+evermage: folds 
+scorza23: folds 
+RSAsh9: calls 40
+RaFaeLStars7: folds 
+CyroSan: raises 80 to 120
+Undoneone: folds 
+Juniorplim: calls 80
+RSAsh9: calls 80
+*** FLOP *** [3s 4c 8s]
+BH.yam.MG has returned
+CyroSan: checks 
+Juniorplim: bets 230
+RSAsh9: folds 
+CyroSan: calls 230
+*** TURN *** [3s 4c 8s] [2d]
+CyroSan: checks 
+Juniorplim: bets 492
+CyroSan: calls 492
+*** RIVER *** [3s 4c 8s 2d] [7d]
+CyroSan: bets 632 and is all-in
+Juniorplim: folds 
+Uncalled bet (632) returned to CyroSan
+CyroSan collected 1848 from pot
+*** SUMMARY ***
+Total pot 1848 | Rake 0 
+Board [3s 4c 8s 2d 7d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: RSAsh9 folded on the Flop
+Seat 3: RaFaeLStars7 (button) folded before Flop (didn't bet)
+Seat 4: CyroSan (small blind) collected (1848)
+Seat 5: Undoneone (big blind) folded before Flop
+Seat 6: BH.yam.MG folded before Flop (didn't bet)
+Seat 7: Juniorplim folded on the River
+Seat 8: evermage folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762876200: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:00:06 UTC [2026/02/17 10:00:06 ET]
+Table '3975967913 4' 8-max Seat #5 is the button
+Seat 1: baddmax (1485 in chips) 
+Seat 3: 11mn1886 (1484 in chips) 
+Seat 4: scorza23 (1715 in chips) 
+Seat 5: pcheque (1138 in chips) 
+Seat 6: Vilmar Vera (1890 in chips) 
+Seat 7: gabrielmhxv (1497 in chips) 
+Seat 8: Mishu45 (1494 in chips) 
+baddmax: posts the ante 3
+11mn1886: posts the ante 3
+scorza23: posts the ante 3
+pcheque: posts the ante 3
+Vilmar Vera: posts the ante 3
+gabrielmhxv: posts the ante 3
+Mishu45: posts the ante 3
+Vilmar Vera: posts small blind 10
+gabrielmhxv: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 9d]
+Mishu45: folds 
+baddmax: folds 
+11mn1886: folds 
+scorza23: folds 
+pcheque: folds 
+Vilmar Vera: raises 20 to 40
+gabrielmhxv: calls 20
+*** FLOP *** [3s 3c 2s]
+Vilmar Vera: bets 20
+gabrielmhxv: calls 20
+*** TURN *** [3s 3c 2s] [Ad]
+Vilmar Vera: bets 20
+gabrielmhxv: raises 181 to 201
+Vilmar Vera: calls 181
+*** RIVER *** [3s 3c 2s Ad] [Js]
+Vilmar Vera: checks 
+gabrielmhxv: checks 
+*** SHOW DOWN ***
+Vilmar Vera: shows [Qh Ah] (two pair, Aces and Threes)
+gabrielmhxv: mucks hand 
+Vilmar Vera collected 543 from pot
+*** SUMMARY ***
+Total pot 543 | Rake 0 
+Board [3s 3c 2s Ad Js]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pcheque (button) folded before Flop (didn't bet)
+Seat 6: Vilmar Vera (small blind) showed [Qh Ah] and won (543) with two pair, Aces and Threes
+Seat 7: gabrielmhxv (big blind) mucked [9h As]
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762883411: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:01:00 UTC [2026/02/17 10:01:00 ET]
+Table '3975967913 4' 8-max Seat #6 is the button
+Seat 1: baddmax (1482 in chips) 
+Seat 3: 11mn1886 (1481 in chips) 
+Seat 4: scorza23 (1712 in chips) 
+Seat 5: pcheque (1135 in chips) 
+Seat 6: Vilmar Vera (2169 in chips) 
+Seat 7: gabrielmhxv (1233 in chips) 
+Seat 8: Mishu45 (1491 in chips) 
+baddmax: posts the ante 4
+11mn1886: posts the ante 4
+scorza23: posts the ante 4
+pcheque: posts the ante 4
+Vilmar Vera: posts the ante 4
+gabrielmhxv: posts the ante 4
+Mishu45: posts the ante 4
+gabrielmhxv: posts small blind 15
+Mishu45: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Ts]
+baddmax: folds 
+11mn1886: raises 45 to 75
+scorza23: folds 
+pcheque: raises 165 to 240
+Vilmar Vera: calls 240
+gabrielmhxv: folds 
+Mishu45: folds 
+11mn1886: folds 
+*** FLOP *** [7c 8c 5c]
+pcheque: bets 170
+Vilmar Vera: calls 170
+*** TURN *** [7c 8c 5c] [3h]
+pcheque: bets 721 and is all-in
+Vilmar Vera: calls 721
+*** RIVER *** [7c 8c 5c 3h] [2s]
+*** SHOW DOWN ***
+pcheque: shows [Ks Ah] (high card Ace)
+Vilmar Vera: shows [Th Tc] (a pair of Tens)
+Vilmar Vera collected 2410 from pot
+pcheque is sitting out
+pcheque finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 2410 | Rake 0 
+Board [7c 8c 5c 3h 2s]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 3: 11mn1886 folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pcheque showed [Ks Ah] and lost with high card Ace
+Seat 6: Vilmar Vera (button) showed [Th Tc] and won (2410) with a pair of Tens
+Seat 7: gabrielmhxv (small blind) folded before Flop
+Seat 8: Mishu45 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762891565: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:01:55 UTC [2026/02/17 10:01:55 ET]
+Table '3975967913 4' 8-max Seat #7 is the button
+Seat 1: baddmax (1478 in chips) 
+Seat 3: 11mn1886 (1402 in chips) 
+Seat 4: scorza23 (1708 in chips) 
+Seat 6: Vilmar Vera (3444 in chips) 
+Seat 7: gabrielmhxv (1214 in chips) 
+Seat 8: Mishu45 (1457 in chips) 
+baddmax: posts the ante 4
+11mn1886: posts the ante 4
+scorza23: posts the ante 4
+Vilmar Vera: posts the ante 4
+gabrielmhxv: posts the ante 4
+Mishu45: posts the ante 4
+Mishu45: posts small blind 15
+baddmax: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5s]
+11mn1886: folds 
+scorza23: folds 
+Vilmar Vera: calls 30
+gabrielmhxv: calls 30
+Mishu45: folds 
+baddmax: checks 
+*** FLOP *** [9h 2s 8d]
+baddmax: checks 
+Vilmar Vera: bets 60
+gabrielmhxv: calls 60
+baddmax: folds 
+*** TURN *** [9h 2s 8d] [8s]
+Vilmar Vera: bets 30
+gabrielmhxv: calls 30
+*** RIVER *** [9h 2s 8d 8s] [3h]
+Vilmar Vera: checks 
+gabrielmhxv: checks 
+*** SHOW DOWN ***
+Vilmar Vera: shows [Kh Js] (a pair of Eights)
+gabrielmhxv: shows [6h Ah] (a pair of Eights - Ace kicker)
+gabrielmhxv collected 309 from pot
+*** SUMMARY ***
+Total pot 309 | Rake 0 
+Board [9h 2s 8d 8s 3h]
+Seat 1: baddmax (big blind) folded on the Flop
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: Vilmar Vera showed [Kh Js] and lost with a pair of Eights
+Seat 7: gabrielmhxv (button) showed [6h Ah] and won (309) with a pair of Eights
+Seat 8: Mishu45 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762898027: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:02:37 UTC [2026/02/17 10:02:37 ET]
+Table '3975967913 4' 8-max Seat #8 is the button
+Seat 1: baddmax (1444 in chips) 
+Seat 3: 11mn1886 (1398 in chips) 
+Seat 4: scorza23 (1704 in chips) 
+Seat 6: Vilmar Vera (3320 in chips) 
+Seat 7: gabrielmhxv (1399 in chips) 
+Seat 8: Mishu45 (1438 in chips) 
+baddmax: posts the ante 4
+11mn1886: posts the ante 4
+scorza23: posts the ante 4
+Vilmar Vera: posts the ante 4
+gabrielmhxv: posts the ante 4
+Mishu45: posts the ante 4
+baddmax: posts small blind 15
+11mn1886: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Qs]
+scorza23: folds 
+Vilmar Vera: calls 30
+gabrielmhxv: folds 
+Mishu45: folds 
+baddmax: calls 15
+11mn1886: checks 
+*** FLOP *** [4c 6h Ts]
+baddmax: checks 
+11mn1886: checks 
+Vilmar Vera: bets 114
+baddmax: folds 
+11mn1886: folds 
+Uncalled bet (114) returned to Vilmar Vera
+Vilmar Vera collected 114 from pot
+Vilmar Vera: doesn't show hand 
+*** SUMMARY ***
+Total pot 114 | Rake 0 
+Board [4c 6h Ts]
+Seat 1: baddmax (small blind) folded on the Flop
+Seat 3: 11mn1886 (big blind) folded on the Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: Vilmar Vera collected (114)
+Seat 7: gabrielmhxv folded before Flop (didn't bet)
+Seat 8: Mishu45 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762903879: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:03:15 UTC [2026/02/17 10:03:15 ET]
+Table '3975967913 4' 8-max Seat #1 is the button
+Seat 1: baddmax (1410 in chips) 
+Seat 3: 11mn1886 (1364 in chips) 
+Seat 4: scorza23 (1700 in chips) 
+Seat 6: Vilmar Vera (3400 in chips) 
+Seat 7: gabrielmhxv (1395 in chips) 
+Seat 8: Mishu45 (1434 in chips) 
+baddmax: posts the ante 4
+11mn1886: posts the ante 4
+scorza23: posts the ante 4
+Vilmar Vera: posts the ante 4
+gabrielmhxv: posts the ante 4
+Mishu45: posts the ante 4
+11mn1886: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 5c]
+Vilmar Vera: calls 30
+gabrielmhxv: calls 30
+Mishu45: calls 30
+baddmax: folds 
+11mn1886: folds 
+scorza23: checks 
+*** FLOP *** [Jc 7d 8c]
+scorza23: checks 
+Vilmar Vera: bets 159
+gabrielmhxv: calls 159
+Mishu45: folds 
+scorza23: folds 
+*** TURN *** [Jc 7d 8c] [2s]
+Vilmar Vera: checks 
+gabrielmhxv: bets 477
+Vilmar Vera: calls 477
+*** RIVER *** [Jc 7d 8c 2s] [Ks]
+Vilmar Vera: checks 
+gabrielmhxv: checks 
+*** SHOW DOWN ***
+Vilmar Vera: shows [7s Jd] (two pair, Jacks and Sevens)
+gabrielmhxv: mucks hand 
+Vilmar Vera collected 1431 from pot
+*** SUMMARY ***
+Total pot 1431 | Rake 0 
+Board [Jc 7d 8c 2s Ks]
+Seat 1: baddmax (button) folded before Flop (didn't bet)
+Seat 3: 11mn1886 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded on the Flop
+Seat 6: Vilmar Vera showed [7s Jd] and won (1431) with two pair, Jacks and Sevens
+Seat 7: gabrielmhxv mucked [Qd 7c]
+Seat 8: Mishu45 folded on the Flop
+
+
+
+PokerStars Hand #259762911339: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:04:03 UTC [2026/02/17 10:04:03 ET]
+Table '3975967913 4' 8-max Seat #3 is the button
+Seat 1: baddmax (1406 in chips) 
+Seat 3: 11mn1886 (1345 in chips) 
+Seat 4: scorza23 (1666 in chips) 
+Seat 6: Vilmar Vera (4161 in chips) 
+Seat 7: gabrielmhxv (725 in chips) 
+Seat 8: Mishu45 (1400 in chips) 
+baddmax: posts the ante 4
+11mn1886: posts the ante 4
+scorza23: posts the ante 4
+Vilmar Vera: posts the ante 4
+gabrielmhxv: posts the ante 4
+Mishu45: posts the ante 4
+scorza23: posts small blind 15
+Vilmar Vera: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5s]
+gabrielmhxv: folds 
+Mishu45: folds 
+baddmax has timed out
+baddmax: folds 
+baddmax is sitting out
+11mn1886: folds 
+scorza23: raises 60 to 90
+Vilmar Vera: calls 60
+*** FLOP *** [5c 4s 3h]
+scorza23: checks 
+baddmax has returned
+Vilmar Vera: bets 102
+scorza23: raises 1470 to 1572 and is all-in
+Vilmar Vera: folds 
+Uncalled bet (1470) returned to scorza23
+scorza23 collected 408 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 408 | Rake 0 
+Board [5c 4s 3h]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 3: 11mn1886 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) collected (408)
+Seat 6: Vilmar Vera (big blind) folded on the Flop
+Seat 7: gabrielmhxv folded before Flop (didn't bet)
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762918017: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:04:46 UTC [2026/02/17 10:04:46 ET]
+Table '3975967913 4' 8-max Seat #4 is the button
+Seat 1: baddmax (1402 in chips) 
+Seat 3: 11mn1886 (1341 in chips) 
+Seat 4: scorza23 (1878 in chips) 
+Seat 6: Vilmar Vera (3965 in chips) 
+Seat 7: gabrielmhxv (721 in chips) 
+Seat 8: Mishu45 (1396 in chips) 
+baddmax: posts the ante 4
+11mn1886: posts the ante 4
+scorza23: posts the ante 4
+Vilmar Vera: posts the ante 4
+gabrielmhxv: posts the ante 4
+Mishu45: posts the ante 4
+Vilmar Vera: posts small blind 15
+gabrielmhxv: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Qd]
+Mishu45: folds 
+baddmax: folds 
+11mn1886: raises 45 to 75
+scorza23: folds 
+Vilmar Vera: calls 60
+gabrielmhxv: calls 45
+*** FLOP *** [Ks 3s Kc]
+Vilmar Vera: bets 125
+gabrielmhxv: folds 
+11mn1886: calls 125
+*** TURN *** [Ks 3s Kc] [Qh]
+Vilmar Vera: checks 
+11mn1886: bets 175
+Vilmar Vera: calls 175
+*** RIVER *** [Ks 3s Kc Qh] [7c]
+Vilmar Vera: checks 
+11mn1886: bets 962 and is all-in
+Vilmar Vera: folds 
+Uncalled bet (962) returned to 11mn1886
+11mn1886 collected 849 from pot
+11mn1886: doesn't show hand 
+*** SUMMARY ***
+Total pot 849 | Rake 0 
+Board [Ks 3s Kc Qh 7c]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 3: 11mn1886 collected (849)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Vilmar Vera (small blind) folded on the River
+Seat 7: gabrielmhxv (big blind) folded on the Flop
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762931718: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:06:15 UTC [2026/02/17 10:06:15 ET]
+Table '3975967913 4' 8-max Seat #6 is the button
+Seat 1: baddmax (1398 in chips) 
+Seat 3: 11mn1886 (1811 in chips) 
+Seat 4: scorza23 (1874 in chips) 
+Seat 6: Vilmar Vera (3586 in chips) 
+Seat 7: gabrielmhxv (642 in chips) 
+Seat 8: Mishu45 (1392 in chips) 
+baddmax: posts the ante 6
+11mn1886: posts the ante 6
+scorza23: posts the ante 6
+Vilmar Vera: posts the ante 6
+gabrielmhxv: posts the ante 6
+Mishu45: posts the ante 6
+gabrielmhxv: posts small blind 25
+Mishu45: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Ad]
+baddmax: raises 50 to 100
+11mn1886: folds 
+scorza23: calls 100
+Vilmar Vera: folds 
+gabrielmhxv: folds 
+Mishu45: folds 
+*** FLOP *** [As 9c 3s]
+baddmax: bets 137
+scorza23: raises 585 to 722
+baddmax: folds 
+Uncalled bet (585) returned to scorza23
+scorza23 collected 585 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 585 | Rake 0 
+Board [As 9c 3s]
+Seat 1: baddmax folded on the Flop
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 collected (585)
+Seat 6: Vilmar Vera (button) folded before Flop (didn't bet)
+Seat 7: gabrielmhxv (small blind) folded before Flop
+Seat 8: Mishu45 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762936989: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:06:50 UTC [2026/02/17 10:06:50 ET]
+Table '3975967913 4' 8-max Seat #7 is the button
+Seat 1: baddmax (1155 in chips) 
+Seat 3: 11mn1886 (1805 in chips) 
+Seat 4: scorza23 (2216 in chips) 
+Seat 6: Vilmar Vera (3580 in chips) 
+Seat 7: gabrielmhxv (611 in chips) 
+Seat 8: Mishu45 (1336 in chips) 
+baddmax: posts the ante 6
+11mn1886: posts the ante 6
+scorza23: posts the ante 6
+Vilmar Vera: posts the ante 6
+gabrielmhxv: posts the ante 6
+Mishu45: posts the ante 6
+Mishu45: posts small blind 25
+baddmax: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Qs]
+11mn1886: folds 
+scorza23: raises 55 to 105
+Vilmar Vera: calls 105
+gabrielmhxv: folds 
+Mishu45: folds 
+baddmax: folds 
+*** FLOP *** [Kh Tc 7c]
+scorza23: checks 
+Vilmar Vera: bets 150
+scorza23: folds 
+Uncalled bet (150) returned to Vilmar Vera
+Vilmar Vera collected 321 from pot
+Vilmar Vera: doesn't show hand 
+*** SUMMARY ***
+Total pot 321 | Rake 0 
+Board [Kh Tc 7c]
+Seat 1: baddmax (big blind) folded before Flop
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 folded on the Flop
+Seat 6: Vilmar Vera collected (321)
+Seat 7: gabrielmhxv (button) folded before Flop (didn't bet)
+Seat 8: Mishu45 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762942130: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:07:23 UTC [2026/02/17 10:07:23 ET]
+Table '3975967913 4' 8-max Seat #8 is the button
+Seat 1: baddmax (1099 in chips) 
+Seat 3: 11mn1886 (1799 in chips) 
+Seat 4: scorza23 (2105 in chips) 
+Seat 6: Vilmar Vera (3790 in chips) 
+Seat 7: gabrielmhxv (605 in chips) 
+Seat 8: Mishu45 (1305 in chips) 
+baddmax: posts the ante 6
+11mn1886: posts the ante 6
+scorza23: posts the ante 6
+Vilmar Vera: posts the ante 6
+gabrielmhxv: posts the ante 6
+Mishu45: posts the ante 6
+baddmax: posts small blind 25
+11mn1886: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Ad]
+scorza23: raises 100 to 150
+Vilmar Vera: calls 150
+gabrielmhxv: raises 449 to 599 and is all-in
+Mishu45: folds 
+baddmax: folds 
+11mn1886: folds 
+scorza23: calls 449
+Vilmar Vera: folds 
+*** FLOP *** [2s Qc 5h]
+*** TURN *** [2s Qc 5h] [4h]
+*** RIVER *** [2s Qc 5h 4h] [8s]
+*** SHOW DOWN ***
+scorza23: shows [Jd Ad] (high card Ace)
+gabrielmhxv: shows [7s 7h] (a pair of Sevens)
+gabrielmhxv collected 1459 from pot
+*** SUMMARY ***
+Total pot 1459 | Rake 0 
+Board [2s Qc 5h 4h 8s]
+Seat 1: baddmax (small blind) folded before Flop
+Seat 3: 11mn1886 (big blind) folded before Flop
+Seat 4: scorza23 showed [Jd Ad] and lost with high card Ace
+Seat 6: Vilmar Vera folded before Flop
+Seat 7: gabrielmhxv showed [7s 7h] and won (1459) with a pair of Sevens
+Seat 8: Mishu45 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762947879: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:08:00 UTC [2026/02/17 10:08:00 ET]
+Table '3975967913 4' 8-max Seat #1 is the button
+Seat 1: baddmax (1068 in chips) 
+Seat 3: 11mn1886 (1743 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 6: Vilmar Vera (3634 in chips) 
+Seat 7: gabrielmhxv (1459 in chips) 
+Seat 8: Mishu45 (1299 in chips) 
+baddmax: posts the ante 6
+11mn1886: posts the ante 6
+scorza23: posts the ante 6
+Vilmar Vera: posts the ante 6
+gabrielmhxv: posts the ante 6
+Mishu45: posts the ante 6
+11mn1886: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9c]
+Vilmar Vera: folds 
+gabrielmhxv: folds 
+Mishu45: folds 
+AndiStier is disconnected 
+baddmax: raises 50 to 100
+11mn1886: folds 
+scorza23: folds 
+Uncalled bet (50) returned to baddmax
+baddmax collected 161 from pot
+baddmax: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Seat 1: baddmax (button) collected (161)
+Seat 3: 11mn1886 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 6: Vilmar Vera folded before Flop (didn't bet)
+Seat 7: gabrielmhxv folded before Flop (didn't bet)
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762953032: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:08:33 UTC [2026/02/17 10:08:33 ET]
+Table '3975967913 4' 8-max Seat #3 is the button
+Seat 1: baddmax (1173 in chips) 
+Seat 2: nOHEgEJlbHUK (1581 in chips) 
+Seat 3: 11mn1886 (1712 in chips) 
+Seat 4: scorza23 (1444 in chips) 
+Seat 5: AndiStier (1517 in chips) 
+Seat 6: Vilmar Vera (3628 in chips) 
+Seat 7: gabrielmhxv (1453 in chips) 
+Seat 8: Mishu45 (1293 in chips) 
+baddmax: posts the ante 6
+nOHEgEJlbHUK: posts the ante 6
+11mn1886: posts the ante 6
+scorza23: posts the ante 6
+AndiStier: posts the ante 6
+Vilmar Vera: posts the ante 6
+gabrielmhxv: posts the ante 6
+Mishu45: posts the ante 6
+scorza23: posts small blind 25
+AndiStier: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 8c]
+Vilmar Vera: folds 
+gabrielmhxv: folds 
+Mishu45: folds 
+baddmax: folds 
+nOHEgEJlbHUK: raises 60 to 110
+11mn1886: folds 
+scorza23: folds 
+AndiStier: calls 60
+*** FLOP *** [Ts 3c Ad]
+AndiStier: checks 
+nOHEgEJlbHUK: bets 94
+AndiStier: calls 94
+*** TURN *** [Ts 3c Ad] [5s]
+AndiStier: checks 
+nOHEgEJlbHUK: checks 
+*** RIVER *** [Ts 3c Ad 5s] [5c]
+AndiStier: checks 
+nOHEgEJlbHUK: checks 
+*** SHOW DOWN ***
+AndiStier: shows [Qs As] (two pair, Aces and Fives)
+nOHEgEJlbHUK: mucks hand 
+AndiStier collected 481 from pot
+*** SUMMARY ***
+Total pot 481 | Rake 0 
+Board [Ts 3c Ad 5s 5c]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 2: nOHEgEJlbHUK mucked [Kd Qh]
+Seat 3: 11mn1886 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: AndiStier (big blind) showed [Qs As] and won (481) with two pair, Aces and Fives
+Seat 6: Vilmar Vera folded before Flop (didn't bet)
+Seat 7: gabrielmhxv folded before Flop (didn't bet)
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762964462: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:09:46 UTC [2026/02/17 10:09:46 ET]
+Table '3975967913 4' 8-max Seat #4 is the button
+Seat 1: baddmax (1167 in chips) 
+Seat 2: nOHEgEJlbHUK (1371 in chips) 
+Seat 3: 11mn1886 (1706 in chips) 
+Seat 4: scorza23 (1413 in chips) 
+Seat 5: AndiStier (1788 in chips) 
+Seat 6: Vilmar Vera (3622 in chips) 
+Seat 7: gabrielmhxv (1447 in chips) 
+Seat 8: Mishu45 (1287 in chips) 
+baddmax: posts the ante 6
+nOHEgEJlbHUK: posts the ante 6
+11mn1886: posts the ante 6
+scorza23: posts the ante 6
+AndiStier: posts the ante 6
+Vilmar Vera: posts the ante 6
+gabrielmhxv: posts the ante 6
+Mishu45: posts the ante 6
+AndiStier: posts small blind 25
+Vilmar Vera: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 5s]
+gabrielmhxv: calls 50
+Mishu45: folds 
+baddmax: folds 
+nOHEgEJlbHUK: folds 
+11mn1886: folds 
+scorza23: folds 
+AndiStier: calls 25
+Vilmar Vera: checks 
+*** FLOP *** [Td 2s 4s]
+AndiStier: checks 
+Vilmar Vera: checks 
+gabrielmhxv: bets 99
+AndiStier: calls 99
+Vilmar Vera: folds 
+*** TURN *** [Td 2s 4s] [7h]
+AndiStier: checks 
+gabrielmhxv: checks 
+*** RIVER *** [Td 2s 4s 7h] [2h]
+AndiStier: checks 
+gabrielmhxv: bets 198
+AndiStier: calls 198
+*** SHOW DOWN ***
+gabrielmhxv: shows [Ac 4d] (two pair, Fours and Deuces)
+AndiStier: shows [Th Qh] (two pair, Tens and Deuces)
+AndiStier collected 792 from pot
+*** SUMMARY ***
+Total pot 792 | Rake 0 
+Board [Td 2s 4s 7h 2h]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 2: nOHEgEJlbHUK folded before Flop (didn't bet)
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: AndiStier (small blind) showed [Th Qh] and won (792) with two pair, Tens and Deuces
+Seat 6: Vilmar Vera (big blind) folded on the Flop
+Seat 7: gabrielmhxv showed [Ac 4d] and lost with two pair, Fours and Deuces
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762973422: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:10:44 UTC [2026/02/17 10:10:44 ET]
+Table '3975967913 4' 8-max Seat #5 is the button
+Seat 1: baddmax (1161 in chips) 
+Seat 2: nOHEgEJlbHUK (1365 in chips) 
+Seat 3: 11mn1886 (1700 in chips) 
+Seat 4: scorza23 (1407 in chips) 
+Seat 5: AndiStier (2227 in chips) 
+Seat 6: Vilmar Vera (3566 in chips) 
+Seat 7: gabrielmhxv (1094 in chips) 
+Seat 8: Mishu45 (1281 in chips) 
+baddmax: posts the ante 10
+nOHEgEJlbHUK: posts the ante 10
+11mn1886: posts the ante 10
+scorza23: posts the ante 10
+AndiStier: posts the ante 10
+Vilmar Vera: posts the ante 10
+gabrielmhxv: posts the ante 10
+Mishu45: posts the ante 10
+Vilmar Vera: posts small blind 40
+gabrielmhxv: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8d]
+Mishu45: calls 80
+baddmax: folds 
+nOHEgEJlbHUK: raises 1275 to 1355 and is all-in
+11mn1886: folds 
+scorza23: folds 
+AndiStier: folds 
+Vilmar Vera: folds 
+gabrielmhxv: folds 
+Mishu45: calls 1191 and is all-in
+Uncalled bet (84) returned to nOHEgEJlbHUK
+*** FLOP *** [3d Td 4h]
+*** TURN *** [3d Td 4h] [2s]
+*** RIVER *** [3d Td 4h 2s] [7c]
+*** SHOW DOWN ***
+Mishu45: shows [9h 9d] (a pair of Nines)
+nOHEgEJlbHUK: shows [Ah Jd] (high card Ace)
+Mishu45 collected 2742 from pot
+*** SUMMARY ***
+Total pot 2742 | Rake 0 
+Board [3d Td 4h 2s 7c]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 2: nOHEgEJlbHUK showed [Ah Jd] and lost with high card Ace
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: AndiStier (button) folded before Flop (didn't bet)
+Seat 6: Vilmar Vera (small blind) folded before Flop
+Seat 7: gabrielmhxv (big blind) folded before Flop
+Seat 8: Mishu45 showed [9h 9d] and won (2742) with a pair of Nines
+
+
+
+PokerStars Hand #259762980890: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:11:32 UTC [2026/02/17 10:11:32 ET]
+Table '3975967913 4' 8-max Seat #6 is the button
+Seat 1: baddmax (1151 in chips) 
+Seat 2: nOHEgEJlbHUK (84 in chips) 
+Seat 3: 11mn1886 (1690 in chips) 
+Seat 4: scorza23 (1397 in chips) 
+Seat 5: AndiStier (2217 in chips) 
+Seat 6: Vilmar Vera (3516 in chips) 
+Seat 7: gabrielmhxv (1004 in chips) 
+Seat 8: Mishu45 (2742 in chips) 
+baddmax: posts the ante 10
+nOHEgEJlbHUK: posts the ante 10
+11mn1886: posts the ante 10
+scorza23: posts the ante 10
+AndiStier: posts the ante 10
+Vilmar Vera: posts the ante 10
+gabrielmhxv: posts the ante 10
+Mishu45: posts the ante 10
+gabrielmhxv: posts small blind 40
+Mishu45: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 2c]
+baddmax: folds 
+nOHEgEJlbHUK: calls 74 and is all-in
+11mn1886: folds 
+scorza23: folds 
+AndiStier: folds 
+Vilmar Vera: calls 80
+gabrielmhxv: calls 40
+Mishu45: checks 
+*** FLOP *** [Qh 6c Ks]
+gabrielmhxv: checks 
+Mishu45: checks 
+Vilmar Vera: bets 160
+gabrielmhxv: raises 754 to 914 and is all-in
+Mishu45: folds 
+Vilmar Vera: calls 754
+*** TURN *** [Qh 6c Ks] [Ah]
+*** RIVER *** [Qh 6c Ks Ah] [3d]
+*** SHOW DOWN ***
+gabrielmhxv: shows [Qd Kd] (two pair, Kings and Queens)
+Vilmar Vera: shows [Kc Th] (a pair of Kings)
+gabrielmhxv collected 1846 from side pot
+nOHEgEJlbHUK: shows [6d Jd] (a pair of Sixes)
+gabrielmhxv collected 376 from main pot
+nOHEgEJlbHUK finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 2222 Main pot 376. Side pot 1846. | Rake 0 
+Board [Qh 6c Ks Ah 3d]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 2: nOHEgEJlbHUK showed [6d Jd] and lost with a pair of Sixes
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: AndiStier folded before Flop (didn't bet)
+Seat 6: Vilmar Vera (button) showed [Kc Th] and lost with a pair of Kings
+Seat 7: gabrielmhxv (small blind) showed [Qd Kd] and won (2222) with two pair, Kings and Queens
+Seat 8: Mishu45 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259762987460: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:12:13 UTC [2026/02/17 10:12:13 ET]
+Table '3975967913 4' 8-max Seat #7 is the button
+Seat 1: baddmax (1141 in chips) 
+Seat 3: 11mn1886 (1680 in chips) 
+Seat 4: scorza23 (1387 in chips) 
+Seat 5: AndiStier (2207 in chips) 
+Seat 6: Vilmar Vera (2512 in chips) 
+Seat 7: gabrielmhxv (2222 in chips) 
+Seat 8: Mishu45 (2652 in chips) 
+baddmax: posts the ante 10
+11mn1886: posts the ante 10
+scorza23: posts the ante 10
+AndiStier: posts the ante 10
+Vilmar Vera: posts the ante 10
+gabrielmhxv: posts the ante 10
+Mishu45: posts the ante 10
+Mishu45: posts small blind 40
+baddmax: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Jh]
+11mn1886: folds 
+scorza23: folds 
+AndiStier: raises 80 to 160
+Vilmar Vera: calls 160
+gabrielmhxv: folds 
+Mishu45: folds 
+baddmax: folds 
+*** FLOP *** [2d 9s Ad]
+AndiStier: checks 
+Vilmar Vera: checks 
+*** TURN *** [2d 9s Ad] [5c]
+AndiStier: checks 
+Vilmar Vera: checks 
+*** RIVER *** [2d 9s Ad 5c] [4s]
+AndiStier: bets 383
+Vilmar Vera: calls 383
+*** SHOW DOWN ***
+AndiStier: shows [Qd Td] (high card Ace)
+Vilmar Vera: shows [7c Ah] (a pair of Aces)
+Vilmar Vera collected 1276 from pot
+*** SUMMARY ***
+Total pot 1276 | Rake 0 
+Board [2d 9s Ad 5c 4s]
+Seat 1: baddmax (big blind) folded before Flop
+Seat 3: 11mn1886 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: AndiStier showed [Qd Td] and lost with high card Ace
+Seat 6: Vilmar Vera showed [7c Ah] and won (1276) with a pair of Aces
+Seat 7: gabrielmhxv (button) folded before Flop (didn't bet)
+Seat 8: Mishu45 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762995384: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:13:03 UTC [2026/02/17 10:13:03 ET]
+Table '3975967913 4' 8-max Seat #8 is the button
+Seat 1: baddmax (1051 in chips) 
+Seat 3: 11mn1886 (1670 in chips) 
+Seat 4: scorza23 (1377 in chips) 
+Seat 5: AndiStier (1654 in chips) 
+Seat 6: Vilmar Vera (3235 in chips) 
+Seat 7: gabrielmhxv (2212 in chips) 
+Seat 8: Mishu45 (2602 in chips) 
+baddmax: posts the ante 10
+11mn1886: posts the ante 10
+scorza23: posts the ante 10
+AndiStier: posts the ante 10
+Vilmar Vera: posts the ante 10
+gabrielmhxv: posts the ante 10
+Mishu45: posts the ante 10
+baddmax: posts small blind 40
+11mn1886: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 4c]
+scorza23: folds 
+AndiStier: raises 80 to 160
+Vilmar Vera: calls 160
+gabrielmhxv: calls 160
+Mishu45: folds 
+baddmax: folds 
+11mn1886: folds 
+*** FLOP *** [3c Ac Td]
+AndiStier: checks 
+Vilmar Vera: bets 670
+gabrielmhxv: raises 1372 to 2042 and is all-in
+AndiStier: folds 
+Vilmar Vera: calls 1372
+*** TURN *** [3c Ac Td] [7s]
+*** RIVER *** [3c Ac Td 7s] [6d]
+*** SHOW DOWN ***
+Vilmar Vera: shows [Ad Ts] (two pair, Aces and Tens)
+gabrielmhxv: shows [Ah 4h] (a pair of Aces)
+Vilmar Vera collected 4754 from pot
+gabrielmhxv finished the tournament in 22nd place
+*** SUMMARY ***
+Total pot 4754 | Rake 0 
+Board [3c Ac Td 7s 6d]
+Seat 1: baddmax (small blind) folded before Flop
+Seat 3: 11mn1886 (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: AndiStier folded on the Flop
+Seat 6: Vilmar Vera showed [Ad Ts] and won (4754) with two pair, Aces and Tens
+Seat 7: gabrielmhxv showed [Ah 4h] and lost with a pair of Aces
+Seat 8: Mishu45 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763003608: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:13:54 UTC [2026/02/17 10:13:54 ET]
+Table '3975967913 4' 8-max Seat #1 is the button
+Seat 1: baddmax (1001 in chips) 
+Seat 3: 11mn1886 (1580 in chips) 
+Seat 4: scorza23 (1367 in chips) 
+Seat 5: AndiStier (1484 in chips) 
+Seat 6: Vilmar Vera (5777 in chips) 
+Seat 8: Mishu45 (2592 in chips) 
+baddmax: posts the ante 10
+11mn1886: posts the ante 10
+scorza23: posts the ante 10
+AndiStier: posts the ante 10
+Vilmar Vera: posts the ante 10
+Mishu45: posts the ante 10
+11mn1886: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 6s]
+AndiStier: folds 
+Vilmar Vera: calls 80
+Mishu45: folds 
+pirmanovdier is disconnected 
+baddmax: folds 
+11mn1886: calls 40
+scorza23: raises 1277 to 1357 and is all-in
+Vilmar Vera: folds 
+11mn1886: folds 
+Uncalled bet (1277) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: baddmax (button) folded before Flop (didn't bet)
+Seat 3: 11mn1886 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (300)
+Seat 5: AndiStier folded before Flop (didn't bet)
+Seat 6: Vilmar Vera folded before Flop
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763009943: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:14:34 UTC [2026/02/17 10:14:34 ET]
+Table '3975967913 4' 8-max Seat #3 is the button
+Seat 1: baddmax (991 in chips) 
+Seat 3: 11mn1886 (1490 in chips) 
+Seat 4: scorza23 (1577 in chips) 
+Seat 5: AndiStier (1474 in chips) 
+Seat 6: Vilmar Vera (5687 in chips) 
+Seat 7: pirmanovdier (1174 in chips) 
+Seat 8: Mishu45 (2582 in chips) 
+baddmax: posts the ante 10
+11mn1886: posts the ante 10
+scorza23: posts the ante 10
+AndiStier: posts the ante 10
+Vilmar Vera: posts the ante 10
+pirmanovdier: posts the ante 10
+Mishu45: posts the ante 10
+scorza23: posts small blind 40
+AndiStier: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 9c]
+Vilmar Vera: calls 80
+pirmanovdier: folds 
+Mishu45: folds 
+baddmax: folds 
+11mn1886: folds 
+scorza23: calls 40
+AndiStier: checks 
+*** FLOP *** [Qs 2h Qd]
+scorza23: checks 
+AndiStier: checks 
+Vilmar Vera: bets 310
+scorza23: folds 
+AndiStier: folds 
+Uncalled bet (310) returned to Vilmar Vera
+Vilmar Vera collected 310 from pot
+Vilmar Vera: doesn't show hand 
+*** SUMMARY ***
+Total pot 310 | Rake 0 
+Board [Qs 2h Qd]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 3: 11mn1886 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded on the Flop
+Seat 5: AndiStier (big blind) folded on the Flop
+Seat 6: Vilmar Vera collected (310)
+Seat 7: pirmanovdier folded before Flop (didn't bet)
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763015866: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:15:11 UTC [2026/02/17 10:15:11 ET]
+Table '3975967913 4' 8-max Seat #4 is the button
+Seat 1: baddmax (981 in chips) 
+Seat 4: scorza23 (1487 in chips) 
+Seat 5: AndiStier (1384 in chips) 
+Seat 6: Vilmar Vera (5907 in chips) 
+Seat 7: pirmanovdier (1164 in chips) 
+Seat 8: Mishu45 (2572 in chips) 
+baddmax: posts the ante 10
+scorza23: posts the ante 10
+AndiStier: posts the ante 10
+Vilmar Vera: posts the ante 10
+pirmanovdier: posts the ante 10
+Mishu45: posts the ante 10
+AndiStier: posts small blind 40
+Vilmar Vera: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ts]
+pirmanovdier: raises 80 to 160
+Mishu45: folds 
+baddmax: folds 
+scorza23: folds 
+AndiStier: calls 120
+Vilmar Vera: calls 80
+*** FLOP *** [6s 8s 5d]
+AndiStier: checks 
+Vilmar Vera: bets 80
+pirmanovdier: raises 240 to 320
+AndiStier: calls 320
+Vilmar Vera: folds 
+*** TURN *** [6s 8s 5d] [Jh]
+AndiStier: checks 
+pirmanovdier: bets 674 and is all-in
+AndiStier: calls 674
+*** RIVER *** [6s 8s 5d Jh] [Qs]
+*** SHOW DOWN ***
+AndiStier: shows [As 3s] (a flush, Ace high)
+pirmanovdier: shows [9d Qd] (a pair of Queens)
+AndiStier collected 2608 from pot
+pirmanovdier finished the tournament in 19th place
+RaFaeLStars7 is disconnected 
+*** SUMMARY ***
+Total pot 2608 | Rake 0 
+Board [6s 8s 5d Jh Qs]
+Seat 1: baddmax folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: AndiStier (small blind) showed [As 3s] and won (2608) with a flush, Ace high
+Seat 6: Vilmar Vera (big blind) folded on the Flop
+Seat 7: pirmanovdier showed [9d Qd] and lost with a pair of Queens
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763027820: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:16:24 UTC [2026/02/17 10:16:24 ET]
+Table '3975967913 4' 8-max Seat #5 is the button
+Seat 1: baddmax (971 in chips) 
+Seat 2: RaFaeLStars7 (926 in chips) 
+Seat 4: scorza23 (1477 in chips) 
+Seat 5: AndiStier (2828 in chips) 
+Seat 6: Vilmar Vera (5657 in chips) 
+Seat 8: Mishu45 (2562 in chips) 
+baddmax: posts the ante 15
+RaFaeLStars7: posts the ante 15
+scorza23: posts the ante 15
+AndiStier: posts the ante 15
+Vilmar Vera: posts the ante 15
+Mishu45: posts the ante 15
+Vilmar Vera: posts small blind 60
+Mishu45: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 8c]
+baddmax: raises 836 to 956 and is all-in
+RaFaeLStars7: folds 
+scorza23: folds 
+AndiStier: folds 
+Vilmar Vera: folds 
+Mishu45: folds 
+Uncalled bet (836) returned to baddmax
+baddmax collected 390 from pot
+baddmax: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: baddmax collected (390)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: AndiStier (button) folded before Flop (didn't bet)
+Seat 6: Vilmar Vera (small blind) folded before Flop
+Seat 8: Mishu45 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763030894: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:16:43 UTC [2026/02/17 10:16:43 ET]
+Table '3975967913 4' 8-max Seat #6 is the button
+Seat 1: baddmax (1226 in chips) 
+Seat 2: RaFaeLStars7 (911 in chips) 
+Seat 4: scorza23 (1462 in chips) 
+Seat 5: AndiStier (2813 in chips) 
+Seat 6: Vilmar Vera (5582 in chips) 
+Seat 8: Mishu45 (2427 in chips) 
+baddmax: posts the ante 15
+RaFaeLStars7: posts the ante 15
+scorza23: posts the ante 15
+AndiStier: posts the ante 15
+Vilmar Vera: posts the ante 15
+Mishu45: posts the ante 15
+Mishu45: posts small blind 60
+baddmax: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Qs]
+RaFaeLStars7: folds 
+scorza23: raises 1327 to 1447 and is all-in
+AndiStier: folds 
+Vilmar Vera: folds 
+Mishu45: folds 
+baddmax: folds 
+Uncalled bet (1327) returned to scorza23
+scorza23 collected 390 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: baddmax (big blind) folded before Flop
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 4: scorza23 collected (390)
+Seat 5: AndiStier folded before Flop (didn't bet)
+Seat 6: Vilmar Vera (button) folded before Flop (didn't bet)
+Seat 8: Mishu45 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763033446: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:16:59 UTC [2026/02/17 10:16:59 ET]
+Table '3975967913 4' 8-max Seat #8 is the button
+Seat 1: baddmax (1091 in chips) 
+Seat 2: RaFaeLStars7 (896 in chips) 
+Seat 4: scorza23 (1717 in chips) 
+Seat 5: AndiStier (2798 in chips) 
+Seat 6: Vilmar Vera (5567 in chips) 
+Seat 8: Mishu45 (2352 in chips) 
+baddmax: posts the ante 15
+RaFaeLStars7: posts the ante 15
+scorza23: posts the ante 15
+AndiStier: posts the ante 15
+Vilmar Vera: posts the ante 15
+Mishu45: posts the ante 15
+baddmax: posts small blind 60
+RaFaeLStars7: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 6d]
+scorza23: folds 
+AndiStier: raises 120 to 240
+Vilmar Vera: folds 
+Mishu45: folds 
+baddmax: folds 
+RaFaeLStars7: folds 
+Uncalled bet (120) returned to AndiStier
+AndiStier collected 390 from pot
+AndiStier: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: baddmax (small blind) folded before Flop
+Seat 2: RaFaeLStars7 (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: AndiStier collected (390)
+Seat 6: Vilmar Vera folded before Flop (didn't bet)
+Seat 8: Mishu45 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763036406: Tournament #3975967913, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:17:16 UTC [2026/02/17 10:17:16 ET]
+Table '3975967913 4' 8-max Seat #1 is the button
+Seat 1: baddmax (1016 in chips) 
+Seat 2: RaFaeLStars7 (761 in chips) 
+Seat 4: scorza23 (1702 in chips) 
+Seat 5: AndiStier (3053 in chips) 
+Seat 6: Vilmar Vera (5552 in chips) 
+Seat 8: Mishu45 (2337 in chips) 
+baddmax: posts the ante 15
+RaFaeLStars7: posts the ante 15
+scorza23: posts the ante 15
+AndiStier: posts the ante 15
+Vilmar Vera: posts the ante 15
+Mishu45: posts the ante 15
+RaFaeLStars7: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 4s]
+AndiStier: folds 
+Vilmar Vera: calls 120
+Mishu45: folds 
+baddmax: folds 
+RaFaeLStars7: folds 
+scorza23: checks 
+*** FLOP *** [4c 6h 5c]
+scorza23: checks 
+Vilmar Vera: bets 120
+scorza23: raises 1447 to 1567 and is all-in
+Vilmar Vera: calls 1447
+*** TURN *** [4c 6h 5c] [7d]
+*** RIVER *** [4c 6h 5c 7d] [Qh]
+*** SHOW DOWN ***
+scorza23: shows [6c 4s] (two pair, Sixes and Fours)
+Vilmar Vera: shows [5d 6s] (two pair, Sixes and Fives)
+Vilmar Vera collected 3524 from pot
+scorza23 finished the tournament in 18th place
+*** SUMMARY ***
+Total pot 3524 | Rake 0 
+Board [4c 6h 5c 7d Qh]
+Seat 1: baddmax (button) folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [6c 4s] and lost with two pair, Sixes and Fours
+Seat 5: AndiStier folded before Flop (didn't bet)
+Seat 6: Vilmar Vera showed [5d 6s] and won (3524) with two pair, Sixes and Fives
+Seat 8: Mishu45 folded before Flop (didn't bet)
+
+
+

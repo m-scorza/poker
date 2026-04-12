@@ -1,0 +1,152 @@
+﻿PokerStars Hand #259763435336: Tournament #3975983059, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:57:14 UTC [2026/02/17 10:57:14 ET]
+Table '3975983059 1' 3-max Seat #1 is the button
+Seat 1: MarioBV10 (500 in chips) 
+Seat 2: scorza23 (500 in chips) 
+Seat 3: AlfaOmega971 (500 in chips) 
+scorza23: posts small blind 10
+AlfaOmega971: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 4h]
+MarioBV10: calls 20
+scorza23: folds 
+AlfaOmega971: checks 
+*** FLOP *** [3s 5d Qd]
+AlfaOmega971: checks 
+MarioBV10: bets 20
+AlfaOmega971: calls 20
+*** TURN *** [3s 5d Qd] [5h]
+AlfaOmega971: checks 
+MarioBV10: checks 
+*** RIVER *** [3s 5d Qd 5h] [Jc]
+AlfaOmega971: checks 
+MarioBV10: bets 60
+AlfaOmega971: folds 
+Uncalled bet (60) returned to MarioBV10
+MarioBV10 collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Board [3s 5d Qd 5h Jc]
+Seat 1: MarioBV10 (button) collected (90)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: AlfaOmega971 (big blind) folded on the River
+
+
+
+PokerStars Hand #259763440162: Tournament #3975983059, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:57:51 UTC [2026/02/17 10:57:51 ET]
+Table '3975983059 1' 3-max Seat #2 is the button
+Seat 1: MarioBV10 (550 in chips) 
+Seat 2: scorza23 (490 in chips) 
+Seat 3: AlfaOmega971 (460 in chips) 
+AlfaOmega971: posts small blind 10
+MarioBV10: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Kd]
+scorza23: folds 
+AlfaOmega971: raises 40 to 60
+MarioBV10: calls 40
+*** FLOP *** [Jh Ts 4c]
+AlfaOmega971: bets 120
+MarioBV10: calls 120
+*** TURN *** [Jh Ts 4c] [9s]
+AlfaOmega971: bets 280 and is all-in
+MarioBV10: calls 280
+*** RIVER *** [Jh Ts 4c 9s] [7h]
+*** SHOW DOWN ***
+AlfaOmega971: shows [Ac 9c] (a pair of Nines)
+MarioBV10: shows [Qs Ah] (high card Ace)
+AlfaOmega971 collected 920 from pot
+*** SUMMARY ***
+Total pot 920 | Rake 0 
+Board [Jh Ts 4c 9s 7h]
+Seat 1: MarioBV10 (big blind) showed [Qs Ah] and lost with high card Ace
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: AlfaOmega971 (small blind) showed [Ac 9c] and won (920) with a pair of Nines
+
+
+
+PokerStars Hand #259763444571: Tournament #3975983059, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:58:24 UTC [2026/02/17 10:58:24 ET]
+Table '3975983059 1' 3-max Seat #3 is the button
+Seat 1: MarioBV10 (90 in chips) 
+Seat 2: scorza23 (490 in chips) 
+Seat 3: AlfaOmega971 (920 in chips) 
+MarioBV10: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As Th]
+AlfaOmega971: folds 
+MarioBV10: calls 10
+scorza23: raises 80 to 100
+MarioBV10: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 40 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: MarioBV10 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (40)
+Seat 3: AlfaOmega971 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763446812: Tournament #3975983059, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:58:41 UTC [2026/02/17 10:58:41 ET]
+Table '3975983059 1' 3-max Seat #1 is the button
+Seat 1: MarioBV10 (70 in chips) 
+Seat 2: scorza23 (510 in chips) 
+Seat 3: AlfaOmega971 (920 in chips) 
+scorza23: posts small blind 10
+AlfaOmega971: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Js]
+MarioBV10: calls 20
+scorza23: folds 
+AlfaOmega971: checks 
+*** FLOP *** [6h 2c 3h]
+AlfaOmega971: bets 50
+MarioBV10: calls 50 and is all-in
+*** TURN *** [6h 2c 3h] [Jc]
+*** RIVER *** [6h 2c 3h Jc] [9d]
+*** SHOW DOWN ***
+AlfaOmega971: shows [6s 2h] (two pair, Sixes and Deuces)
+MarioBV10: shows [Kh As] (high card Ace)
+AlfaOmega971 collected 150 from pot
+MarioBV10 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Board [6h 2c 3h Jc 9d]
+Seat 1: MarioBV10 (button) showed [Kh As] and lost with high card Ace
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: AlfaOmega971 (big blind) showed [6s 2h] and won (150) with two pair, Sixes and Deuces
+
+
+
+PokerStars Hand #259763450106: Tournament #3975983059, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:59:06 UTC [2026/02/17 10:59:06 ET]
+Table '3975983059 1' 3-max Seat #3 is the button
+Seat 2: scorza23 (500 in chips) 
+Seat 3: AlfaOmega971 (1000 in chips) 
+AlfaOmega971: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 7h]
+AlfaOmega971: raises 40 to 60
+scorza23: raises 40 to 100
+AlfaOmega971: calls 40
+*** FLOP *** [8d 3h Jc]
+scorza23: bets 400 and is all-in
+AlfaOmega971: calls 400
+*** TURN *** [8d 3h Jc] [7d]
+*** RIVER *** [8d 3h Jc 7d] [Js]
+*** SHOW DOWN ***
+scorza23: shows [6h 7h] (two pair, Jacks and Sevens)
+AlfaOmega971: shows [Ah 8h] (two pair, Jacks and Eights)
+AlfaOmega971 collected 1000 from pot
+scorza23 finished the tournament in 2nd place
+AlfaOmega971 wins the tournament - congratulations!
+AlfaOmega971 wins a '$1.50 Power Path Step 2 Ticket' ticket
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [8d 3h Jc 7d Js]
+Seat 2: scorza23 (big blind) showed [6h 7h] and lost with two pair, Jacks and Sevens
+Seat 3: AlfaOmega971 (button) (small blind) showed [Ah 8h] and won (1000) with two pair, Jacks and Eights
+
+
+

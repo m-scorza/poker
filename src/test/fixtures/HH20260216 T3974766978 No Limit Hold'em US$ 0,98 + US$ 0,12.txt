@@ -1,0 +1,4797 @@
+﻿PokerStars Hand #259749572140: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (25/50) - 2026/02/16 15:29:59 UTC [2026/02/16 10:29:59 ET]
+Table '3974766978 8' 8-max Seat #1 is the button
+Seat 1: Eduardopeix1 (5000 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (5000 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (5000 in chips, $0.50 bounty) 
+Seat 4: bik811 (5000 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5000 in chips, $0.50 bounty) 
+Seat 6: sex1984 (5000 in chips, $0.50 bounty) 
+Seat 7: scorza23 (5000 in chips, $0.50 bounty) 
+Seat 8: hcss93 (5000 in chips, $0.50 bounty) 
+Eduardopeix1: posts the ante 8
+maraton60: posts the ante 8
+Graf Zahl 79: posts the ante 8
+bik811: posts the ante 8
+ALEXANDAR58: posts the ante 8
+sex1984: posts the ante 8
+scorza23: posts the ante 8
+hcss93: posts the ante 8
+maraton60: posts small blind 25
+Graf Zahl 79: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 9h]
+bik811: folds 
+ALEXANDAR58: calls 50
+sex1984: folds 
+scorza23: folds 
+hcss93: folds 
+Eduardopeix1: folds 
+maraton60: calls 25
+Graf Zahl 79: checks 
+*** FLOP *** [3d 7d 9c]
+maraton60: checks 
+Graf Zahl 79: checks 
+ALEXANDAR58: checks 
+*** TURN *** [3d 7d 9c] [Kd]
+maraton60: checks 
+Graf Zahl 79: bets 107
+ALEXANDAR58: calls 107
+maraton60: folds 
+*** RIVER *** [3d 7d 9c Kd] [4h]
+Graf Zahl 79: checks 
+ALEXANDAR58: checks 
+*** SHOW DOWN ***
+Graf Zahl 79: shows [Js 8s] (high card King)
+ALEXANDAR58: shows [5c Ac] (high card Ace)
+ALEXANDAR58 collected 428 from pot
+*** SUMMARY ***
+Total pot 428 | Rake 0 
+Board [3d 7d 9c Kd 4h]
+Seat 1: Eduardopeix1 (button) folded before Flop (didn't bet)
+Seat 2: maraton60 (small blind) folded on the Turn
+Seat 3: Graf Zahl 79 (big blind) showed [Js 8s] and lost with high card King
+Seat 4: bik811 folded before Flop (didn't bet)
+Seat 5: ALEXANDAR58 showed [5c Ac] and won (428) with high card Ace
+Seat 6: sex1984 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: hcss93 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749594699: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (25/50) - 2026/02/16 15:32:10 UTC [2026/02/16 10:32:10 ET]
+Table '3974766978 8' 8-max Seat #2 is the button
+Seat 1: Eduardopeix1 (4992 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (4942 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4835 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5263 in chips, $0.50 bounty) 
+Seat 6: sex1984 (4992 in chips, $0.50 bounty) 
+Seat 7: scorza23 (4992 in chips, $0.50 bounty) 
+Seat 8: hcss93 (4992 in chips, $0.50 bounty) 
+Eduardopeix1: posts the ante 8
+maraton60: posts the ante 8
+Graf Zahl 79: posts the ante 8
+ALEXANDAR58: posts the ante 8
+sex1984: posts the ante 8
+scorza23: posts the ante 8
+hcss93: posts the ante 8
+Graf Zahl 79: posts small blind 25
+ALEXANDAR58: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 4s]
+sex1984: folds 
+scorza23: folds 
+hcss93 has timed out
+hcss93: folds 
+hcss93 is sitting out
+Eduardopeix1: folds 
+Andr3s463 is disconnected 
+maraton60: raises 50 to 100
+Graf Zahl 79: folds 
+ALEXANDAR58: folds 
+Uncalled bet (50) returned to maraton60
+maraton60 collected 181 from pot
+maraton60: doesn't show hand 
+*** SUMMARY ***
+Total pot 181 | Rake 0 
+Seat 1: Eduardopeix1 folded before Flop (didn't bet)
+Seat 2: maraton60 (button) collected (181)
+Seat 3: Graf Zahl 79 (small blind) folded before Flop
+Seat 5: ALEXANDAR58 (big blind) folded before Flop
+Seat 6: sex1984 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: hcss93 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749602188: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (25/50) - 2026/02/16 15:32:53 UTC [2026/02/16 10:32:53 ET]
+Table '3974766978 8' 8-max Seat #3 is the button
+Seat 1: Eduardopeix1 (4984 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (5065 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4802 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (5000 in chips) out of hand (moved from another table into small blind)
+Seat 5: ALEXANDAR58 (5205 in chips, $0.50 bounty) 
+Seat 6: sex1984 (4984 in chips, $0.50 bounty) 
+Seat 7: scorza23 (4984 in chips, $0.50 bounty) 
+Andr3s463 will be allowed to play after the button
+Eduardopeix1: posts the ante 8
+maraton60: posts the ante 8
+Graf Zahl 79: posts the ante 8
+ALEXANDAR58: posts the ante 8
+sex1984: posts the ante 8
+scorza23: posts the ante 8
+ALEXANDAR58: posts small blind 25
+sex1984: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 4c]
+scorza23: folds 
+Eduardopeix1: folds 
+maraton60: folds 
+Graf Zahl 79: folds 
+ALEXANDAR58: calls 25
+sex1984: checks 
+*** FLOP *** [5c 3c 4d]
+ALEXANDAR58: checks 
+sex1984: checks 
+*** TURN *** [5c 3c 4d] [5h]
+ALEXANDAR58: checks 
+sex1984: checks 
+*** RIVER *** [5c 3c 4d 5h] [7c]
+ALEXANDAR58: bets 74
+sex1984: calls 74
+*** SHOW DOWN ***
+ALEXANDAR58: shows [5s 8s] (three of a kind, Fives)
+sex1984: shows [Kc 6h] (a straight, Three to Seven)
+sex1984 collected 296 from pot
+*** SUMMARY ***
+Total pot 296 | Rake 0 
+Board [5c 3c 4d 5h 7c]
+Seat 1: Eduardopeix1 folded before Flop (didn't bet)
+Seat 2: maraton60 folded before Flop (didn't bet)
+Seat 3: Graf Zahl 79 (button) folded before Flop (didn't bet)
+Seat 5: ALEXANDAR58 (small blind) showed [5s 8s] and lost with three of a kind, Fives
+Seat 6: sex1984 (big blind) showed [Kc 6h] and won (296) with a straight, Three to Seven
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749612016: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (25/50) - 2026/02/16 15:33:50 UTC [2026/02/16 10:33:50 ET]
+Table '3974766978 8' 8-max Seat #5 is the button
+Seat 1: Eduardopeix1 (4976 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (5057 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4794 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (5000 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5073 in chips, $0.50 bounty) 
+Seat 6: sex1984 (5148 in chips, $0.50 bounty) 
+Seat 7: scorza23 (4976 in chips, $0.50 bounty) 
+Seat 8: Edninho (5000 in chips, $0.50 bounty) 
+Eduardopeix1: posts the ante 8
+maraton60: posts the ante 8
+Graf Zahl 79: posts the ante 8
+Andr3s463: posts the ante 8
+ALEXANDAR58: posts the ante 8
+sex1984: posts the ante 8
+scorza23: posts the ante 8
+Edninho: posts the ante 8
+sex1984: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qc]
+Edninho is disconnected 
+Edninho has timed out while disconnected
+Edninho: folds 
+Edninho is sitting out
+Eduardopeix1: folds 
+maraton60: folds 
+Graf Zahl 79: folds 
+Andr3s463: raises 50 to 100
+ALEXANDAR58: folds 
+sex1984: folds 
+scorza23: calls 50
+*** FLOP *** [2h Ts 4h]
+scorza23: bets 145
+Andr3s463: folds 
+Uncalled bet (145) returned to scorza23
+scorza23 collected 289 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 289 | Rake 0 
+Board [2h Ts 4h]
+Seat 1: Eduardopeix1 folded before Flop (didn't bet)
+Seat 2: maraton60 folded before Flop (didn't bet)
+Seat 3: Graf Zahl 79 folded before Flop (didn't bet)
+Seat 4: Andr3s463 folded on the Flop
+Seat 5: ALEXANDAR58 (button) folded before Flop (didn't bet)
+Seat 6: sex1984 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) collected (289)
+Seat 8: Edninho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749627729: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (25/50) - 2026/02/16 15:35:21 UTC [2026/02/16 10:35:21 ET]
+Table '3974766978 8' 8-max Seat #6 is the button
+Seat 1: Eduardopeix1 (4968 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (5049 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4786 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (4892 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5065 in chips, $0.50 bounty) 
+Seat 6: sex1984 (5115 in chips, $0.50 bounty) 
+Seat 7: scorza23 (5157 in chips, $0.50 bounty) 
+Seat 8: Edninho (4992 in chips, $0.50 bounty) is sitting out
+Eduardopeix1: posts the ante 8
+maraton60: posts the ante 8
+Graf Zahl 79: posts the ante 8
+Andr3s463: posts the ante 8
+ALEXANDAR58: posts the ante 8
+sex1984: posts the ante 8
+scorza23: posts the ante 8
+Edninho: posts the ante 8
+scorza23: posts small blind 25
+Edninho: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [As 9s]
+Eduardopeix1: folds 
+maraton60: folds 
+Graf Zahl 79: folds 
+Andr3s463: folds 
+ALEXANDAR58: folds 
+sex1984: raises 50 to 100
+scorza23: calls 75
+Edninho: folds 
+*** FLOP *** [4h Ad Th]
+scorza23: bets 314
+sex1984: folds 
+Uncalled bet (314) returned to scorza23
+scorza23 collected 314 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 314 | Rake 0 
+Board [4h Ad Th]
+Seat 1: Eduardopeix1 folded before Flop (didn't bet)
+Seat 2: maraton60 folded before Flop (didn't bet)
+Seat 3: Graf Zahl 79 folded before Flop (didn't bet)
+Seat 4: Andr3s463 folded before Flop (didn't bet)
+Seat 5: ALEXANDAR58 folded before Flop (didn't bet)
+Seat 6: sex1984 (button) folded on the Flop
+Seat 7: scorza23 (small blind) collected (314)
+Seat 8: Edninho (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749633860: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (25/50) - 2026/02/16 15:35:57 UTC [2026/02/16 10:35:57 ET]
+Table '3974766978 8' 8-max Seat #7 is the button
+Seat 1: Eduardopeix1 (4960 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (5041 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4778 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (4884 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5057 in chips, $0.50 bounty) 
+Seat 6: sex1984 (5007 in chips, $0.50 bounty) 
+Seat 7: scorza23 (5363 in chips, $0.50 bounty) 
+Seat 8: Edninho (4934 in chips, $0.50 bounty) is sitting out
+Eduardopeix1: posts the ante 8
+maraton60: posts the ante 8
+Graf Zahl 79: posts the ante 8
+Andr3s463: posts the ante 8
+ALEXANDAR58: posts the ante 8
+sex1984: posts the ante 8
+scorza23: posts the ante 8
+Edninho: posts the ante 8
+Edninho: posts small blind 25
+Eduardopeix1: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Ac]
+maraton60: folds 
+Graf Zahl 79: folds 
+Edninho is disconnected 
+Andr3s463: folds 
+ALEXANDAR58: folds 
+sex1984: raises 50 to 100
+scorza23: raises 100 to 200
+Edninho: folds 
+Eduardopeix1: folds 
+sex1984: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 339 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 339 | Rake 0 
+Seat 1: Eduardopeix1 (big blind) folded before Flop
+Seat 2: maraton60 folded before Flop (didn't bet)
+Seat 3: Graf Zahl 79 folded before Flop (didn't bet)
+Seat 4: Andr3s463 folded before Flop (didn't bet)
+Seat 5: ALEXANDAR58 folded before Flop (didn't bet)
+Seat 6: sex1984 folded before Flop
+Seat 7: scorza23 (button) collected (339)
+Seat 8: Edninho (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749638897: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (25/50) - 2026/02/16 15:36:26 UTC [2026/02/16 10:36:26 ET]
+Table '3974766978 8' 8-max Seat #8 is the button
+Seat 1: Eduardopeix1 (4902 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (5033 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4770 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (4876 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5049 in chips, $0.50 bounty) 
+Seat 6: sex1984 (4899 in chips, $0.50 bounty) 
+Seat 7: scorza23 (5594 in chips, $0.50 bounty) 
+Seat 8: Edninho (4901 in chips, $0.50 bounty) is sitting out
+Eduardopeix1: posts the ante 8
+maraton60: posts the ante 8
+Graf Zahl 79: posts the ante 8
+Andr3s463: posts the ante 8
+ALEXANDAR58: posts the ante 8
+sex1984: posts the ante 8
+scorza23: posts the ante 8
+Edninho: posts the ante 8
+Eduardopeix1: posts small blind 25
+maraton60: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 5h]
+Graf Zahl 79: raises 50 to 100
+Andr3s463: folds 
+ALEXANDAR58: calls 100
+sex1984: folds 
+scorza23: folds 
+Edninho: folds 
+Eduardopeix1: folds 
+maraton60: calls 50
+*** FLOP *** [Qs 6d 8d]
+maraton60: checks 
+Graf Zahl 79: checks 
+ALEXANDAR58: bets 195
+maraton60: folds 
+Graf Zahl 79: folds 
+Uncalled bet (195) returned to ALEXANDAR58
+ALEXANDAR58 collected 389 from pot
+ALEXANDAR58: doesn't show hand 
+*** SUMMARY ***
+Total pot 389 | Rake 0 
+Board [Qs 6d 8d]
+Seat 1: Eduardopeix1 (small blind) folded before Flop
+Seat 2: maraton60 (big blind) folded on the Flop
+Seat 3: Graf Zahl 79 folded on the Flop
+Seat 4: Andr3s463 folded before Flop (didn't bet)
+Seat 5: ALEXANDAR58 collected (389)
+Seat 6: sex1984 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Edninho (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749646717: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:37:12 UTC [2026/02/16 10:37:12 ET]
+Table '3974766978 8' 8-max Seat #1 is the button
+Seat 1: Eduardopeix1 (4869 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (4925 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4662 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (4868 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5330 in chips, $0.50 bounty) 
+Seat 6: sex1984 (4891 in chips, $0.50 bounty) 
+Seat 7: scorza23 (5586 in chips, $0.50 bounty) 
+Seat 8: Edninho (4893 in chips, $0.50 bounty) is sitting out
+Eduardopeix1: posts the ante 9
+maraton60: posts the ante 9
+Graf Zahl 79: posts the ante 9
+Andr3s463: posts the ante 9
+ALEXANDAR58: posts the ante 9
+sex1984: posts the ante 9
+scorza23: posts the ante 9
+Edninho: posts the ante 9
+maraton60: posts small blind 30
+Graf Zahl 79: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qd]
+Andr3s463: folds 
+ALEXANDAR58: raises 60 to 120
+sex1984: calls 120
+scorza23: calls 120
+Edninho: folds 
+Eduardopeix1: folds 
+maraton60: calls 90
+Graf Zahl 79: calls 60
+*** FLOP *** [Qh 5h 9d]
+maraton60: checks 
+Graf Zahl 79: checks 
+ALEXANDAR58: checks 
+sex1984: bets 180
+scorza23: raises 1032 to 1212
+maraton60: folds 
+Graf Zahl 79: folds 
+ALEXANDAR58: folds 
+sex1984: folds 
+Uncalled bet (1032) returned to scorza23
+scorza23 collected 1032 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1032 | Rake 0 
+Board [Qh 5h 9d]
+Seat 1: Eduardopeix1 (button) folded before Flop (didn't bet)
+Seat 2: maraton60 (small blind) folded on the Flop
+Seat 3: Graf Zahl 79 (big blind) folded on the Flop
+Seat 4: Andr3s463 folded before Flop (didn't bet)
+Seat 5: ALEXANDAR58 folded on the Flop
+Seat 6: sex1984 folded on the Flop
+Seat 7: scorza23 collected (1032)
+Seat 8: Edninho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749655287: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:38:02 UTC [2026/02/16 10:38:02 ET]
+Table '3974766978 8' 8-max Seat #2 is the button
+Seat 1: Eduardopeix1 (4860 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (4796 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4533 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (4859 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5201 in chips, $0.50 bounty) 
+Seat 6: sex1984 (4582 in chips, $0.50 bounty) 
+Seat 7: scorza23 (6309 in chips, $0.50 bounty) 
+Seat 8: Edninho (4884 in chips, $0.50 bounty) is sitting out
+Eduardopeix1: posts the ante 9
+maraton60: posts the ante 9
+Graf Zahl 79: posts the ante 9
+Andr3s463: posts the ante 9
+ALEXANDAR58: posts the ante 9
+sex1984: posts the ante 9
+scorza23: posts the ante 9
+Edninho: posts the ante 9
+Graf Zahl 79: posts small blind 30
+Andr3s463: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Ac]
+ALEXANDAR58: folds 
+sex1984: folds 
+scorza23: folds 
+Edninho: folds 
+Eduardopeix1: folds 
+maraton60: folds 
+Graf Zahl 79: raises 240 to 300
+Andr3s463: folds 
+Uncalled bet (240) returned to Graf Zahl 79
+Graf Zahl 79 collected 192 from pot
+*** SUMMARY ***
+Total pot 192 | Rake 0 
+Seat 1: Eduardopeix1 folded before Flop (didn't bet)
+Seat 2: maraton60 (button) folded before Flop (didn't bet)
+Seat 3: Graf Zahl 79 (small blind) collected (192)
+Seat 4: Andr3s463 (big blind) folded before Flop
+Seat 5: ALEXANDAR58 folded before Flop (didn't bet)
+Seat 6: sex1984 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Edninho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749660769: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:38:34 UTC [2026/02/16 10:38:34 ET]
+Table '3974766978 8' 8-max Seat #3 is the button
+Seat 1: Eduardopeix1 (4851 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (4787 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4656 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (4790 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5192 in chips, $0.50 bounty) 
+Seat 6: sex1984 (4573 in chips, $0.50 bounty) 
+Seat 7: scorza23 (6300 in chips, $0.50 bounty) 
+Seat 8: Edninho (4875 in chips, $0.50 bounty) is sitting out
+Eduardopeix1: posts the ante 9
+maraton60: posts the ante 9
+Graf Zahl 79: posts the ante 9
+Andr3s463: posts the ante 9
+ALEXANDAR58: posts the ante 9
+sex1984: posts the ante 9
+scorza23: posts the ante 9
+Edninho: posts the ante 9
+Andr3s463: posts small blind 30
+ALEXANDAR58: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 3h]
+sex1984: folds 
+Edninho is disconnected 
+scorza23: folds 
+Edninho: folds 
+Eduardopeix1: folds 
+maraton60: raises 120 to 180
+Graf Zahl 79: folds 
+Andr3s463: calls 150
+ALEXANDAR58: calls 120
+*** FLOP *** [7s Qs 4s]
+Andr3s463: checks 
+ALEXANDAR58: checks 
+maraton60: checks 
+*** TURN *** [7s Qs 4s] [5s]
+Andr3s463: checks 
+ALEXANDAR58: checks 
+maraton60: checks 
+*** RIVER *** [7s Qs 4s 5s] [Js]
+Andr3s463: checks 
+ALEXANDAR58: checks 
+maraton60: checks 
+*** SHOW DOWN ***
+Andr3s463: shows [9h Th] (a flush, Queen high)
+ALEXANDAR58: shows [4c Tc] (a flush, Queen high)
+maraton60: shows [Kh Kd] (a flush, Queen high)
+Andr3s463 collected 204 from pot
+ALEXANDAR58 collected 204 from pot
+maraton60 collected 204 from pot
+*** SUMMARY ***
+Total pot 612 | Rake 0 
+Board [7s Qs 4s 5s Js]
+Seat 1: Eduardopeix1 folded before Flop (didn't bet)
+Seat 2: maraton60 showed [Kh Kd] and won (204) with a flush, Queen high
+Seat 3: Graf Zahl 79 (button) folded before Flop (didn't bet)
+Seat 4: Andr3s463 (small blind) showed [9h Th] and won (204) with a flush, Queen high
+Seat 5: ALEXANDAR58 (big blind) showed [4c Tc] and won (204) with a flush, Queen high
+Seat 6: sex1984 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Edninho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749690815: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:41:30 UTC [2026/02/16 10:41:30 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: emdx99 (4813 in chips, $0.50 bounty) 
+Seat 2: leorion1981 (3966 in chips, $0.50 bounty) 
+Seat 3: motinmaks (4988 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4816 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6282 in chips, $0.50 bounty) 
+emdx99: posts the ante 9
+leorion1981: posts the ante 9
+motinmaks: posts the ante 9
+del_nuts: posts the ante 9
+scorza23: posts the ante 9
+leorion1981: posts small blind 30
+motinmaks: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 2d]
+del_nuts is disconnected 
+del_nuts is connected 
+gauderiocwb is disconnected 
+brianaviador is disconnected 
+del_nuts: folds 
+scorza23: folds 
+emdx99: folds 
+leorion1981: folds 
+Uncalled bet (30) returned to motinmaks
+motinmaks collected 105 from pot
+motinmaks: doesn't show hand 
+*** SUMMARY ***
+Total pot 105 | Rake 0 
+Seat 1: emdx99 (button) folded before Flop (didn't bet)
+Seat 2: leorion1981 (small blind) folded before Flop
+Seat 3: motinmaks (big blind) collected (105)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749678975: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:40:21 UTC [2026/02/16 10:40:21 ET]
+Table '3974766978 8' 8-max Seat #4 is the button
+Seat 1: Eduardopeix1 (4842 in chips, $0.50 bounty) is sitting out
+Seat 2: maraton60 (4802 in chips, $0.50 bounty) 
+Seat 3: Graf Zahl 79 (4647 in chips, $0.50 bounty) 
+Seat 4: Andr3s463 (4805 in chips, $0.50 bounty) 
+Seat 5: ALEXANDAR58 (5207 in chips, $0.50 bounty) 
+Seat 6: sex1984 (4564 in chips, $0.50 bounty) 
+Seat 7: scorza23 (6291 in chips, $0.50 bounty) 
+Seat 8: Edninho (4866 in chips, $0.50 bounty) is sitting out
+Eduardopeix1: posts the ante 9
+maraton60: posts the ante 9
+Graf Zahl 79: posts the ante 9
+Andr3s463: posts the ante 9
+ALEXANDAR58: posts the ante 9
+sex1984: posts the ante 9
+scorza23: posts the ante 9
+Edninho: posts the ante 9
+ALEXANDAR58: posts small blind 30
+sex1984: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 9d]
+scorza23: folds 
+Edninho: folds 
+Eduardopeix1: folds 
+maraton60: folds 
+Graf Zahl 79: folds 
+Eduardopeix1 has returned
+Andr3s463: folds 
+ALEXANDAR58: calls 30
+sex1984: checks 
+*** FLOP *** [Ah 2h Ts]
+ALEXANDAR58: checks 
+sex1984: bets 120
+ALEXANDAR58: calls 120
+*** TURN *** [Ah 2h Ts] [Td]
+ALEXANDAR58: checks 
+sex1984: checks 
+*** RIVER *** [Ah 2h Ts Td] [Ks]
+ALEXANDAR58: checks 
+sex1984: checks 
+*** SHOW DOWN ***
+ALEXANDAR58: shows [Js Kd] (two pair, Kings and Tens)
+sex1984: mucks hand 
+ALEXANDAR58 collected 432 from pot
+*** SUMMARY ***
+Total pot 432 | Rake 0 
+Board [Ah 2h Ts Td Ks]
+Seat 1: Eduardopeix1 folded before Flop (didn't bet)
+Seat 2: maraton60 folded before Flop (didn't bet)
+Seat 3: Graf Zahl 79 folded before Flop (didn't bet)
+Seat 4: Andr3s463 (button) folded before Flop (didn't bet)
+Seat 5: ALEXANDAR58 (small blind) showed [Js Kd] and won (432) with two pair, Kings and Tens
+Seat 6: sex1984 (big blind) mucked [4h 5c]
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Edninho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749692245: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:41:38 UTC [2026/02/16 10:41:38 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: emdx99 (4804 in chips, $0.50 bounty) 
+Seat 2: leorion1981 (3927 in chips, $0.50 bounty) 
+Seat 3: motinmaks (5054 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4807 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6273 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4556 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4469 in chips, $0.50 bounty) 
+emdx99: posts the ante 9
+leorion1981: posts the ante 9
+motinmaks: posts the ante 9
+del_nuts: posts the ante 9
+scorza23: posts the ante 9
+gauderiocwb: posts the ante 9
+brianaviador: posts the ante 9
+motinmaks: posts small blind 30
+del_nuts: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 6c]
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: raises 60 to 120
+emdx99: folds 
+leorion1981: folds 
+motinmaks: raises 390 to 510
+del_nuts: folds 
+brianaviador: calls 390
+*** FLOP *** [8d Ts Th]
+motinmaks: bets 377
+brianaviador: raises 3573 to 3950 and is all-in
+motinmaks: folds 
+Uncalled bet (3573) returned to brianaviador
+brianaviador collected 1897 from pot
+brianaviador: doesn't show hand 
+*** SUMMARY ***
+Total pot 1897 | Rake 0 
+Board [8d Ts Th]
+Seat 1: emdx99 folded before Flop (didn't bet)
+Seat 2: leorion1981 (button) folded before Flop (didn't bet)
+Seat 3: motinmaks (small blind) folded on the Flop
+Seat 4: del_nuts (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador collected (1897)
+
+
+
+PokerStars Hand #259749702114: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:42:37 UTC [2026/02/16 10:42:37 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 2: leorion1981 (3918 in chips, $0.50 bounty) 
+Seat 3: motinmaks (4158 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4738 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6264 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4547 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5470 in chips, $0.50 bounty) 
+Seat 8: clarkey0806 (5000 in chips, $0.50 bounty) 
+leorion1981: posts the ante 9
+motinmaks: posts the ante 9
+del_nuts: posts the ante 9
+scorza23: posts the ante 9
+gauderiocwb: posts the ante 9
+brianaviador: posts the ante 9
+clarkey0806: posts the ante 9
+del_nuts: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Kh]
+gauderiocwb: folds 
+brianaviador: folds 
+clarkey0806: calls 60
+leorion1981: folds 
+motinmaks: raises 150 to 210
+del_nuts: folds 
+scorza23: folds 
+clarkey0806: calls 150
+*** FLOP *** [Ac 4c 5c]
+clarkey0806: checks 
+motinmaks: bets 287
+clarkey0806: calls 287
+*** TURN *** [Ac 4c 5c] [Th]
+clarkey0806: checks 
+motinmaks: bets 918
+clarkey0806: calls 918
+*** RIVER *** [Ac 4c 5c Th] [Js]
+clarkey0806: bets 3576 and is all-in
+motinmaks: calls 2734 and is all-in
+Uncalled bet (842) returned to clarkey0806
+*** SHOW DOWN ***
+clarkey0806: shows [Ad 9d] (a pair of Aces)
+motinmaks: shows [As 2h] (a pair of Aces - lower kicker)
+clarkey0806 collected 8451 from pot
+clarkey0806 wins $0.25 for eliminating motinmaks and their own bounty increases by $0.25 to $0.75
+motinmaks finished the tournament
+*** SUMMARY ***
+Total pot 8451 | Rake 0 
+Board [Ac 4c 5c Th Js]
+Seat 2: leorion1981 folded before Flop (didn't bet)
+Seat 3: motinmaks (button) showed [As 2h] and lost with a pair of Aces
+Seat 4: del_nuts (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: clarkey0806 showed [Ad 9d] and won (8451) with a pair of Aces
+
+
+
+PokerStars Hand #259749710610: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:43:27 UTC [2026/02/16 10:43:27 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: SS63S (3828 in chips, $0.50 bounty) 
+Seat 2: leorion1981 (3909 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4699 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6195 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4538 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5461 in chips, $0.50 bounty) 
+Seat 8: clarkey0806 (9293 in chips, $0.75 bounty) 
+SS63S: posts the ante 9
+leorion1981: posts the ante 9
+del_nuts: posts the ante 9
+scorza23: posts the ante 9
+gauderiocwb: posts the ante 9
+brianaviador: posts the ante 9
+clarkey0806: posts the ante 9
+scorza23: posts small blind 30
+gauderiocwb: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 8h]
+brianaviador: folds 
+clarkey0806: raises 180 to 240
+SS63S: folds 
+leorion1981: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+Uncalled bet (180) returned to clarkey0806
+clarkey0806 collected 213 from pot
+*** SUMMARY ***
+Total pot 213 | Rake 0 
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: leorion1981 folded before Flop (didn't bet)
+Seat 4: del_nuts (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: gauderiocwb (big blind) folded before Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: clarkey0806 collected (213)
+
+
+
+PokerStars Hand #259749715929: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (30/60) - 2026/02/16 15:43:58 UTC [2026/02/16 10:43:58 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: SS63S (3819 in chips, $0.50 bounty) 
+Seat 2: leorion1981 (3900 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4690 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6156 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4469 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5452 in chips, $0.50 bounty) 
+Seat 8: clarkey0806 (9437 in chips, $0.75 bounty) 
+SS63S: posts the ante 9
+leorion1981: posts the ante 9
+del_nuts: posts the ante 9
+scorza23: posts the ante 9
+gauderiocwb: posts the ante 9
+brianaviador: posts the ante 9
+clarkey0806: posts the ante 9
+gauderiocwb: posts small blind 30
+brianaviador: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9c]
+clarkey0806: calls 60
+SS63S: folds 
+leorion1981: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: checks 
+*** FLOP *** [Tc Ac Jh]
+brianaviador: checks 
+clarkey0806: checks 
+*** TURN *** [Tc Ac Jh] [9h]
+brianaviador: checks 
+clarkey0806: checks 
+*** RIVER *** [Tc Ac Jh 9h] [Ts]
+brianaviador: checks 
+clarkey0806: checks 
+*** SHOW DOWN ***
+brianaviador: shows [3s Kh] (a pair of Tens)
+clarkey0806: shows [8c 8d] (two pair, Tens and Eights)
+clarkey0806 collected 213 from pot
+*** SUMMARY ***
+Total pot 213 | Rake 0 
+Board [Tc Ac Jh 9h Ts]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: leorion1981 folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: gauderiocwb (small blind) folded before Flop
+Seat 7: brianaviador (big blind) showed [3s Kh] and lost with a pair of Tens
+Seat 8: clarkey0806 showed [8c 8d] and won (213) with two pair, Tens and Eights
+
+
+
+PokerStars Hand #259749724330: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (35/70) - 2026/02/16 15:44:47 UTC [2026/02/16 10:44:47 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: SS63S (3810 in chips, $0.50 bounty) 
+Seat 2: leorion1981 (3891 in chips, $0.50 bounty) 
+Seat 3: pakarath (5000 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4681 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6147 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4430 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5383 in chips, $0.50 bounty) 
+SS63S: posts the ante 11
+leorion1981: posts the ante 11
+pakarath: posts the ante 11
+del_nuts: posts the ante 11
+scorza23: posts the ante 11
+gauderiocwb: posts the ante 11
+brianaviador: posts the ante 11
+brianaviador: posts small blind 35
+SS63S: posts big blind 70
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ad]
+leorion1981: calls 70
+pakarath: calls 70
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+SS63S: checks 
+*** FLOP *** [5c 8s Qd]
+SS63S: checks 
+leorion1981: checks 
+pakarath: checks 
+*** TURN *** [5c 8s Qd] [2c]
+SS63S: checks 
+leorion1981: checks 
+pakarath: bets 70
+SS63S: calls 70
+leorion1981: calls 70
+*** RIVER *** [5c 8s Qd 2c] [4c]
+SS63S: checks 
+leorion1981: checks 
+pakarath: checks 
+*** SHOW DOWN ***
+SS63S: shows [2s Kh] (a pair of Deuces)
+leorion1981: shows [Kd 2d] (a pair of Deuces)
+pakarath: mucks hand 
+SS63S collected 266 from pot
+leorion1981 collected 266 from pot
+*** SUMMARY ***
+Total pot 532 | Rake 0 
+Board [5c 8s Qd 2c 4c]
+Seat 1: SS63S (big blind) showed [2s Kh] and won (266) with a pair of Deuces
+Seat 2: leorion1981 showed [Kd 2d] and won (266) with a pair of Deuces
+Seat 3: pakarath mucked [Ac 9s]
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749738158: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (35/70) - 2026/02/16 15:46:08 UTC [2026/02/16 10:46:08 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: SS63S (3925 in chips, $0.50 bounty) 
+Seat 3: pakarath (4849 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4670 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6136 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4419 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5337 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5000 in chips) out of hand (moved from another table into small blind)
+sr2-69 will be allowed to play after the button
+SS63S: posts the ante 11
+pakarath: posts the ante 11
+del_nuts: posts the ante 11
+scorza23: posts the ante 11
+gauderiocwb: posts the ante 11
+brianaviador: posts the ante 11
+SS63S: posts small blind 35
+pakarath: posts big blind 70
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 2h]
+del_nuts: raises 70 to 140
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+SS63S: folds 
+pakarath: folds 
+Uncalled bet (70) returned to del_nuts
+del_nuts collected 241 from pot
+del_nuts: doesn't show hand 
+*** SUMMARY ***
+Total pot 241 | Rake 0 
+Seat 1: SS63S (small blind) folded before Flop
+Seat 3: pakarath (big blind) folded before Flop
+Seat 4: del_nuts collected (241)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749741880: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (35/70) - 2026/02/16 15:46:30 UTC [2026/02/16 10:46:30 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: SS63S (3879 in chips, $0.50 bounty) 
+Seat 3: pakarath (4768 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4830 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6125 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4408 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5326 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5000 in chips, $0.50 bounty) 
+SS63S: posts the ante 11
+pakarath: posts the ante 11
+del_nuts: posts the ante 11
+scorza23: posts the ante 11
+gauderiocwb: posts the ante 11
+brianaviador: posts the ante 11
+sr2-69: posts the ante 11
+pakarath: posts small blind 35
+del_nuts: posts big blind 70
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4c]
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+SS63S: calls 70
+pakarath: folds 
+del_nuts: checks 
+*** FLOP *** [4s 6d Qd]
+del_nuts: checks 
+SS63S: checks 
+*** TURN *** [4s 6d Qd] [As]
+del_nuts: bets 182
+SS63S: folds 
+Uncalled bet (182) returned to del_nuts
+del_nuts collected 252 from pot
+del_nuts: doesn't show hand 
+*** SUMMARY ***
+Total pot 252 | Rake 0 
+Board [4s 6d Qd As]
+Seat 1: SS63S (button) folded on the Turn
+Seat 3: pakarath (small blind) folded before Flop
+Seat 4: del_nuts (big blind) collected (252)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749746729: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (35/70) - 2026/02/16 15:46:58 UTC [2026/02/16 10:46:58 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 1: SS63S (3798 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5000 in chips, $0.50 bounty) 
+Seat 3: pakarath (4722 in chips, $0.50 bounty) 
+Seat 4: del_nuts (5001 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6114 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4397 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5315 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (4989 in chips, $0.50 bounty) 
+SS63S: posts the ante 11
+ARUgabija: posts the ante 11
+pakarath: posts the ante 11
+del_nuts: posts the ante 11
+scorza23: posts the ante 11
+gauderiocwb: posts the ante 11
+brianaviador: posts the ante 11
+sr2-69: posts the ante 11
+del_nuts: posts small blind 35
+scorza23: posts big blind 70
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 2h]
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: raises 263 to 333
+SS63S: folds 
+ARUgabija: folds 
+pakarath: folds 
+del_nuts: calls 298
+scorza23: folds 
+*** FLOP *** [8h Jh 4s]
+del_nuts: checks 
+sr2-69: bets 824
+del_nuts: folds 
+Uncalled bet (824) returned to sr2-69
+sr2-69 collected 824 from pot
+*** SUMMARY ***
+Total pot 824 | Rake 0 
+Board [8h Jh 4s]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: pakarath (button) folded before Flop (didn't bet)
+Seat 4: del_nuts (small blind) folded on the Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 collected (824)
+
+
+
+PokerStars Hand #259749752827: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (35/70) - 2026/02/16 15:47:33 UTC [2026/02/16 10:47:33 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: SS63S (3787 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (4989 in chips, $0.50 bounty) 
+Seat 3: pakarath (4711 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4657 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6033 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4386 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5304 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5469 in chips, $0.50 bounty) 
+SS63S: posts the ante 11
+ARUgabija: posts the ante 11
+pakarath: posts the ante 11
+del_nuts: posts the ante 11
+scorza23: posts the ante 11
+gauderiocwb: posts the ante 11
+brianaviador: posts the ante 11
+sr2-69: posts the ante 11
+scorza23: posts small blind 35
+gauderiocwb: posts big blind 70
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Kd]
+brianaviador: raises 70 to 140
+sr2-69: folds 
+SS63S: folds 
+ARUgabija: calls 140
+pakarath: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+*** FLOP *** [Qd 7s Ad]
+brianaviador: checks 
+ARUgabija: bets 237
+brianaviador: folds 
+Uncalled bet (237) returned to ARUgabija
+ARUgabija collected 473 from pot
+*** SUMMARY ***
+Total pot 473 | Rake 0 
+Board [Qd 7s Ad]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija collected (473)
+Seat 3: pakarath folded before Flop (didn't bet)
+Seat 4: del_nuts (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: gauderiocwb (big blind) folded before Flop
+Seat 7: brianaviador folded on the Flop
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749761269: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (35/70) - 2026/02/16 15:48:21 UTC [2026/02/16 10:48:21 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: SS63S (3776 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5311 in chips, $0.50 bounty) 
+Seat 3: pakarath (4700 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4646 in chips, $0.50 bounty) 
+Seat 5: scorza23 (5987 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4305 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5153 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5458 in chips, $0.50 bounty) 
+SS63S: posts the ante 11
+ARUgabija: posts the ante 11
+pakarath: posts the ante 11
+del_nuts: posts the ante 11
+scorza23: posts the ante 11
+gauderiocwb: posts the ante 11
+brianaviador: posts the ante 11
+sr2-69: posts the ante 11
+gauderiocwb: posts small blind 35
+brianaviador: posts big blind 70
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7s]
+sr2-69: folds 
+SS63S: folds 
+ARUgabija: folds 
+pakarath: folds 
+del_nuts: folds 
+scorza23: raises 140 to 210
+gauderiocwb: folds 
+brianaviador: calls 140
+*** FLOP *** [4s Jc Th]
+brianaviador: checks 
+scorza23: bets 543
+brianaviador: folds 
+Uncalled bet (543) returned to scorza23
+scorza23 collected 543 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 543 | Rake 0 
+Board [4s Jc Th]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: pakarath folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (543)
+Seat 6: gauderiocwb (small blind) folded before Flop
+Seat 7: brianaviador (big blind) folded on the Flop
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749769378: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (35/70) - 2026/02/16 15:49:08 UTC [2026/02/16 10:49:08 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: SS63S (3765 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5300 in chips, $0.50 bounty) 
+Seat 3: pakarath (4689 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4635 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6309 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4259 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4932 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5447 in chips, $0.50 bounty) 
+SS63S: posts the ante 11
+ARUgabija: posts the ante 11
+pakarath: posts the ante 11
+del_nuts: posts the ante 11
+scorza23: posts the ante 11
+gauderiocwb: posts the ante 11
+brianaviador: posts the ante 11
+sr2-69: posts the ante 11
+brianaviador: posts small blind 35
+sr2-69: posts big blind 70
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 8d]
+SS63S: calls 70
+ARUgabija has timed out
+ARUgabija: folds 
+ARUgabija is sitting out
+pakarath: calls 70
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: calls 35
+sr2-69: checks 
+*** FLOP *** [Jd 7d 8s]
+brianaviador: checks 
+sr2-69: checks 
+SS63S: bets 70
+pakarath: calls 70
+brianaviador: calls 70
+sr2-69: calls 70
+*** TURN *** [Jd 7d 8s] [Kc]
+brianaviador: checks 
+sr2-69: checks 
+ARUgabija has returned
+SS63S: checks 
+pakarath: bets 210
+brianaviador: calls 210
+sr2-69: folds 
+SS63S: folds 
+*** RIVER *** [Jd 7d 8s Kc] [2d]
+brianaviador: checks 
+pakarath: checks 
+*** SHOW DOWN ***
+brianaviador: shows [Ks Th] (a pair of Kings)
+pakarath: mucks hand 
+brianaviador collected 1068 from pot
+*** SUMMARY ***
+Total pot 1068 | Rake 0 
+Board [Jd 7d 8s Kc 2d]
+Seat 1: SS63S folded on the Turn
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: pakarath mucked [2c Ah]
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) showed [Ks Th] and won (1068) with a pair of Kings
+Seat 8: sr2-69 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259749791348: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:51:14 UTC [2026/02/16 10:51:14 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: SS63S (3614 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5289 in chips, $0.50 bounty) 
+Seat 3: pakarath (4328 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4624 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6298 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4248 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5639 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5296 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+pakarath: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+sr2-69: posts small blind 40
+SS63S: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Kc]
+ARUgabija has timed out
+ARUgabija: folds 
+ARUgabija is sitting out
+pakarath: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+ARUgabija has returned
+sr2-69: raises 5204 to 5284 and is all-in
+SS63S: folds 
+Uncalled bet (5204) returned to sr2-69
+sr2-69 collected 256 from pot
+*** SUMMARY ***
+Total pot 256 | Rake 0 
+Seat 1: SS63S (big blind) folded before Flop
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: pakarath folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: sr2-69 (small blind) collected (256)
+
+
+
+PokerStars Hand #259749796732: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:51:45 UTC [2026/02/16 10:51:45 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: SS63S (3522 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5277 in chips, $0.50 bounty) 
+Seat 3: pakarath (4316 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4612 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6286 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4236 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5627 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5460 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+pakarath: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+SS63S: posts small blind 40
+ARUgabija: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 4d]
+pakarath: calls 80
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+SS63S: calls 40
+ARUgabija: checks 
+*** FLOP *** [Ac Kh Ah]
+SS63S: checks 
+ARUgabija: bets 336
+pakarath: folds 
+SS63S: calls 336
+*** TURN *** [Ac Kh Ah] [8d]
+SS63S: checks 
+ARUgabija: checks 
+*** RIVER *** [Ac Kh Ah 8d] [7d]
+SS63S: bets 240
+ARUgabija: folds 
+Uncalled bet (240) returned to SS63S
+SS63S collected 1008 from pot
+*** SUMMARY ***
+Total pot 1008 | Rake 0 
+Board [Ac Kh Ah 8d 7d]
+Seat 1: SS63S (small blind) collected (1008)
+Seat 2: ARUgabija (big blind) folded on the River
+Seat 3: pakarath folded on the Flop
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749803967: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:52:27 UTC [2026/02/16 10:52:27 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: SS63S (4102 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (4849 in chips, $0.50 bounty) 
+Seat 3: pakarath (4224 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4600 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6274 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4224 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5615 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5448 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+pakarath: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+ARUgabija: posts small blind 40
+pakarath: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 2s]
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 80
+SS63S: folds 
+ARUgabija: calls 40
+pakarath: checks 
+*** FLOP *** [2d 6h 7c]
+ARUgabija: checks 
+pakarath: bets 80
+sr2-69: calls 80
+ARUgabija: raises 288 to 368
+pakarath: calls 288
+sr2-69: folds 
+*** TURN *** [2d 6h 7c] [Ad]
+ARUgabija: bets 576
+pakarath: folds 
+Uncalled bet (576) returned to ARUgabija
+ARUgabija collected 1152 from pot
+*** SUMMARY ***
+Total pot 1152 | Rake 0 
+Board [2d 6h 7c Ad]
+Seat 1: SS63S (button) folded before Flop (didn't bet)
+Seat 2: ARUgabija (small blind) collected (1152)
+Seat 3: pakarath (big blind) folded on the Turn
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded on the Flop
+
+
+
+PokerStars Hand #259749811786: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:53:11 UTC [2026/02/16 10:53:11 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: SS63S (4090 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5541 in chips, $0.50 bounty) 
+Seat 3: pakarath (3764 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4588 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6262 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4212 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5603 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5276 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+pakarath: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+pakarath: posts small blind 40
+del_nuts: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3s]
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+SS63S: calls 80
+ARUgabija: calls 80
+pakarath: folds 
+del_nuts: checks 
+*** FLOP *** [2s 5s 8s]
+del_nuts: checks 
+SS63S: checks 
+ARUgabija: checks 
+*** TURN *** [2s 5s 8s] [6c]
+del_nuts: checks 
+SS63S: checks 
+ARUgabija: bets 376
+del_nuts: folds 
+SS63S: folds 
+Uncalled bet (376) returned to ARUgabija
+ARUgabija collected 376 from pot
+*** SUMMARY ***
+Total pot 376 | Rake 0 
+Board [2s 5s 8s 6c]
+Seat 1: SS63S folded on the Turn
+Seat 2: ARUgabija (button) collected (376)
+Seat 3: pakarath (small blind) folded before Flop
+Seat 4: del_nuts (big blind) folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749817842: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:53:46 UTC [2026/02/16 10:53:46 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 1: SS63S (3998 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5825 in chips, $0.50 bounty) 
+Seat 3: pakarath (3712 in chips, $0.50 bounty) 
+Seat 4: del_nuts (4496 in chips, $0.50 bounty) 
+Seat 5: scorza23 (6250 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4200 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5591 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5264 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+pakarath: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+del_nuts: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 8s]
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+SS63S: folds 
+ARUgabija: calls 80
+pakarath: raises 80 to 160
+del_nuts: raises 4324 to 4484 and is all-in
+scorza23: folds 
+ARUgabija: folds 
+pakarath: calls 3540 and is all-in
+Uncalled bet (784) returned to del_nuts
+*** FLOP *** [6s Jc Ad]
+*** TURN *** [6s Jc Ad] [6h]
+*** RIVER *** [6s Jc Ad 6h] [9h]
+*** SHOW DOWN ***
+del_nuts: shows [Kd Ac] (two pair, Aces and Sixes)
+pakarath: shows [Js Ts] (two pair, Jacks and Sixes)
+del_nuts collected 7656 from pot
+del_nuts wins $0.25 for eliminating pakarath and their own bounty increases by $0.25 to $0.75
+pakarath finished the tournament
+*** SUMMARY ***
+Total pot 7656 | Rake 0 
+Board [6s Jc Ad 6h 9h]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija folded before Flop
+Seat 3: pakarath (button) showed [Js Ts] and lost with two pair, Jacks and Sixes
+Seat 4: del_nuts (small blind) showed [Kd Ac] and won (7656) with two pair, Aces and Sixes
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749824095: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:54:21 UTC [2026/02/16 10:54:21 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: SS63S (3986 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5733 in chips, $0.50 bounty) 
+Seat 4: del_nuts (8440 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6158 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4188 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5579 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5252 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+scorza23: posts small blind 40
+gauderiocwb: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Qc]
+brianaviador: raises 80 to 160
+sr2-69: folds 
+SS63S: folds 
+ARUgabija: folds 
+del_nuts: folds 
+scorza23: raises 484 to 644
+gauderiocwb: folds 
+brianaviador: calls 484
+*** FLOP *** [Kd 9c 7h]
+scorza23: bets 726
+brianaviador: folds 
+Uncalled bet (726) returned to scorza23
+scorza23 collected 1452 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1452 | Rake 0 
+Board [Kd 9c 7h]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 4: del_nuts (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (1452)
+Seat 6: gauderiocwb (big blind) folded before Flop
+Seat 7: brianaviador folded on the Flop
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749885254: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 16:01:31 UTC [2026/02/16 11:01:31 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: SS63S (3974 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5721 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (5000 in chips, $0.50 bounty) is sitting out
+Seat 4: del_nuts (8428 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6954 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4096 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4923 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5240 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+elsharawy121: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+gauderiocwb: posts small blind 40
+brianaviador: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Qh]
+sr2-69: raises 160 to 240
+SS63S: calls 240
+ARUgabija: folds 
+elsharawy121: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+*** FLOP *** [5d 7d 6s]
+elsharawy121 has returned
+sr2-69: checks 
+SS63S: checks 
+*** TURN *** [5d 7d 6s] [6c]
+sr2-69: checks 
+SS63S: bets 348
+sr2-69: calls 348
+*** RIVER *** [5d 7d 6s 6c] [As]
+sr2-69: bets 4640 and is all-in
+SS63S: folds 
+Uncalled bet (4640) returned to sr2-69
+sr2-69 collected 1392 from pot
+*** SUMMARY ***
+Total pot 1392 | Rake 0 
+Board [5d 7d 6s 6c As]
+Seat 1: SS63S folded on the River
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: gauderiocwb (small blind) folded before Flop
+Seat 7: brianaviador (big blind) folded before Flop
+Seat 8: sr2-69 collected (1392)
+
+
+
+PokerStars Hand #259749896537: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 16:02:36 UTC [2026/02/16 11:02:36 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: SS63S (3374 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5709 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4988 in chips, $0.50 bounty) 
+Seat 4: del_nuts (8416 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6942 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4044 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4831 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (6032 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+elsharawy121: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+brianaviador: posts small blind 40
+sr2-69: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6c As]
+SS63S: calls 80
+ARUgabija: folds 
+elsharawy121: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: raises 80 to 160
+sr2-69: calls 80
+SS63S: calls 80
+*** FLOP *** [4h 8s Qh]
+brianaviador: bets 576
+sr2-69: folds 
+SS63S: folds 
+Uncalled bet (576) returned to brianaviador
+brianaviador collected 576 from pot
+brianaviador: doesn't show hand 
+*** SUMMARY ***
+Total pot 576 | Rake 0 
+Board [4h 8s Qh]
+Seat 1: SS63S folded on the Flop
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) collected (576)
+Seat 8: sr2-69 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749905137: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 16:03:25 UTC [2026/02/16 11:03:25 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: SS63S (3202 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5697 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4976 in chips, $0.50 bounty) 
+Seat 4: del_nuts (8404 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6930 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4032 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5235 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5860 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+elsharawy121: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+sr2-69: posts small blind 40
+SS63S: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 6d]
+ARUgabija has timed out
+ARUgabija: folds 
+ARUgabija is sitting out
+elsharawy121: raises 80 to 160
+del_nuts: folds 
+scorza23: folds 
+ARUgabija has returned
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 120
+SS63S: calls 80
+*** FLOP *** [2d 6h Kh]
+sr2-69: checks 
+SS63S: checks 
+elsharawy121: checks 
+*** TURN *** [2d 6h Kh] [Td]
+sr2-69: bets 80
+SS63S: raises 160 to 240
+elsharawy121: calls 240
+sr2-69: calls 160
+*** RIVER *** [2d 6h Kh Td] [8c]
+sr2-69: checks 
+SS63S: bets 648
+elsharawy121: folds 
+sr2-69: folds 
+Uncalled bet (648) returned to SS63S
+SS63S collected 1296 from pot
+*** SUMMARY ***
+Total pot 1296 | Rake 0 
+Board [2d 6h Kh Td 8c]
+Seat 1: SS63S (big blind) collected (1296)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 folded on the River
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: sr2-69 (small blind) folded on the River
+
+
+
+PokerStars Hand #259749915472: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 16:04:23 UTC [2026/02/16 11:04:23 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: SS63S (4086 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5685 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4564 in chips, $0.50 bounty) 
+Seat 4: del_nuts (8392 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6918 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4020 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5223 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5448 in chips, $0.50 bounty) 
+SS63S: posts the ante 12
+ARUgabija: posts the ante 12
+elsharawy121: posts the ante 12
+del_nuts: posts the ante 12
+scorza23: posts the ante 12
+gauderiocwb: posts the ante 12
+brianaviador: posts the ante 12
+sr2-69: posts the ante 12
+SS63S: posts small blind 40
+ARUgabija: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6d]
+elsharawy121: folds 
+del_nuts: raises 80 to 160
+scorza23: folds 
+gauderiocwb: calls 160
+brianaviador: folds 
+sr2-69: raises 5276 to 5436 and is all-in
+SS63S: folds 
+ARUgabija: folds 
+del_nuts: folds 
+gauderiocwb: folds 
+Uncalled bet (5276) returned to sr2-69
+sr2-69 collected 696 from pot
+*** SUMMARY ***
+Total pot 696 | Rake 0 
+Seat 1: SS63S (small blind) folded before Flop
+Seat 2: ARUgabija (big blind) folded before Flop
+Seat 3: elsharawy121 folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) collected (696)
+
+
+
+PokerStars Hand #259749922553: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:05:03 UTC [2026/02/16 11:05:03 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: SS63S (4034 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5593 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4552 in chips, $0.50 bounty) 
+Seat 4: del_nuts (8220 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6906 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3848 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5211 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (5972 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+ARUgabija: posts small blind 45
+elsharawy121: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7s]
+del_nuts: raises 90 to 180
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 180
+SS63S: calls 180
+ARUgabija: folds 
+elsharawy121: folds 
+*** FLOP *** [6d 3s 3c]
+del_nuts: checks 
+sr2-69: checks 
+SS63S: checks 
+*** TURN *** [6d 3s 3c] [8s]
+del_nuts: checks 
+sr2-69: checks 
+SS63S: checks 
+*** RIVER *** [6d 3s 3c 8s] [5d]
+del_nuts: checks 
+sr2-69: bets 90
+SS63S: folds 
+del_nuts: calls 90
+*** SHOW DOWN ***
+sr2-69: shows [8d Td] (two pair, Eights and Threes)
+del_nuts: mucks hand 
+sr2-69 collected 967 from pot
+*** SUMMARY ***
+Total pot 967 | Rake 0 
+Board [6d 3s 3c 8s 5d]
+Seat 1: SS63S (button) folded on the River
+Seat 2: ARUgabija (small blind) folded before Flop
+Seat 3: elsharawy121 (big blind) folded before Flop
+Seat 4: del_nuts mucked [Kd As]
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 showed [8d Td] and won (967) with two pair, Eights and Threes
+
+
+
+PokerStars Hand #259749931720: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:05:54 UTC [2026/02/16 11:05:54 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: SS63S (3840 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5534 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4448 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7936 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6892 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3834 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5197 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (6655 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+elsharawy121: posts small blind 45
+del_nuts: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 6c]
+elsharawy121 is disconnected 
+elsharawy121 is disconnected 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 90
+SS63S: raises 180 to 270
+ARUgabija: folds 
+elsharawy121: folds 
+del_nuts: folds 
+sr2-69: calls 180
+*** FLOP *** [8c Ts 8h]
+sr2-69: checks 
+SS63S: checks 
+*** TURN *** [8c Ts 8h] [7c]
+sr2-69: checks 
+SS63S: checks 
+*** RIVER *** [8c Ts 8h 7c] [3c]
+sr2-69: checks 
+SS63S: bets 394
+sr2-69: calls 394
+*** SHOW DOWN ***
+SS63S: shows [As Ks] (a pair of Eights)
+sr2-69: shows [Td 9s] (two pair, Tens and Eights)
+sr2-69 collected 1575 from pot
+*** SUMMARY ***
+Total pot 1575 | Rake 0 
+Board [8c Ts 8h 7c 3c]
+Seat 1: SS63S showed [As Ks] and lost with a pair of Eights
+Seat 2: ARUgabija (button) folded before Flop (didn't bet)
+Seat 3: elsharawy121 (small blind) folded before Flop
+Seat 4: del_nuts (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 showed [Td 9s] and won (1575) with two pair, Tens and Eights
+
+
+
+PokerStars Hand #259749938462: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:06:31 UTC [2026/02/16 11:06:31 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 1: SS63S (3162 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5520 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4389 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7832 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6878 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3820 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5183 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (7552 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+del_nuts: posts small blind 45
+scorza23: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 6h]
+gauderiocwb: raises 90 to 180
+brianaviador: calls 180
+sr2-69: folds 
+SS63S: folds 
+ARUgabija: folds 
+elsharawy121: calls 180
+del_nuts: folds 
+scorza23: folds 
+*** FLOP *** [Ts 6s Kc]
+gauderiocwb: bets 243
+brianaviador: folds 
+elsharawy121: folds 
+Uncalled bet (243) returned to gauderiocwb
+gauderiocwb collected 787 from pot
+gauderiocwb: doesn't show hand 
+*** SUMMARY ***
+Total pot 787 | Rake 0 
+Board [Ts 6s Kc]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 (button) folded on the Flop
+Seat 4: del_nuts (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: gauderiocwb collected (787)
+Seat 7: brianaviador folded on the Flop
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749947603: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:07:23 UTC [2026/02/16 11:07:23 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: SS63S (3148 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5506 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4195 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7773 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6774 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4413 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4989 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (7538 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+scorza23: posts small blind 45
+gauderiocwb: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5s]
+brianaviador: folds 
+sr2-69: folds 
+SS63S: calls 90
+ARUgabija: folds 
+elsharawy121: raises 180 to 270
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+SS63S: calls 180
+*** FLOP *** [Qh Ts 6s]
+SS63S: checks 
+elsharawy121: bets 3911 and is all-in
+SS63S: folds 
+Uncalled bet (3911) returned to elsharawy121
+elsharawy121 collected 787 from pot
+*** SUMMARY ***
+Total pot 787 | Rake 0 
+Board [Qh Ts 6s]
+Seat 1: SS63S folded on the Flop
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 collected (787)
+Seat 4: del_nuts (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: gauderiocwb (big blind) folded before Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749952978: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:07:53 UTC [2026/02/16 11:07:53 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: SS63S (2864 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5492 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4698 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7759 in chips, $0.75 bounty) 
+Seat 5: scorza23 (6715 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4309 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4975 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (7524 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+gauderiocwb: posts small blind 45
+brianaviador: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Ts]
+sr2-69: folds 
+SS63S: folds 
+ARUgabija has timed out
+ARUgabija: folds 
+ARUgabija is sitting out
+elsharawy121: folds 
+del_nuts: folds 
+ARUgabija has returned
+scorza23: raises 180 to 270
+gauderiocwb: folds 
+brianaviador: calls 180
+*** FLOP *** [8h Tc 6s]
+brianaviador: checks 
+scorza23: bets 697
+brianaviador: folds 
+Uncalled bet (697) returned to scorza23
+scorza23 collected 697 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 697 | Rake 0 
+Board [8h Tc 6s]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (697)
+Seat 6: gauderiocwb (small blind) folded before Flop
+Seat 7: brianaviador (big blind) folded on the Flop
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749963802: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:08:54 UTC [2026/02/16 11:08:54 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: SS63S (2850 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5478 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4684 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7745 in chips, $0.75 bounty) 
+Seat 5: scorza23 (7128 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4250 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4691 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (7510 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+brianaviador: posts small blind 45
+sr2-69: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 3s]
+SS63S: folds 
+ARUgabija: calls 90
+elsharawy121: raises 90 to 180
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 90
+ARUgabija: calls 90
+*** FLOP *** [3h Tc 6d]
+sr2-69: checks 
+ARUgabija: bets 349
+elsharawy121: calls 349
+sr2-69: folds 
+*** TURN *** [3h Tc 6d] [2s]
+ARUgabija: bets 698
+elsharawy121: folds 
+Uncalled bet (698) returned to ARUgabija
+ARUgabija collected 1395 from pot
+*** SUMMARY ***
+Total pot 1395 | Rake 0 
+Board [3h Tc 6d 2s]
+Seat 1: SS63S folded before Flop (didn't bet)
+Seat 2: ARUgabija collected (1395)
+Seat 3: elsharawy121 folded on the Turn
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) folded before Flop
+Seat 8: sr2-69 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749974004: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:09:52 UTC [2026/02/16 11:09:52 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: SS63S (2836 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6330 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4141 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7731 in chips, $0.75 bounty) 
+Seat 5: scorza23 (7114 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4236 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4632 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (7316 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+sr2-69: posts small blind 45
+SS63S: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 9h]
+ARUgabija: folds 
+elsharawy121: folds 
+del_nuts: raises 90 to 180
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 135
+SS63S: calls 90
+*** FLOP *** [3d Ad 9d]
+sr2-69: checks 
+SS63S: checks 
+del_nuts: checks 
+*** TURN *** [3d Ad 9d] [Jc]
+sr2-69: bets 652
+SS63S: calls 652
+del_nuts: folds 
+*** RIVER *** [3d Ad 9d Jc] [6d]
+sr2-69: checks 
+SS63S: bets 978
+sr2-69: calls 978
+*** SHOW DOWN ***
+SS63S: shows [3h Ac] (two pair, Aces and Threes)
+sr2-69: shows [Js Td] (a flush, Ace high)
+sr2-69 collected 3912 from pot
+*** SUMMARY ***
+Total pot 3912 | Rake 0 
+Board [3d Ad 9d Jc 6d]
+Seat 1: SS63S (big blind) showed [3h Ac] and lost with two pair, Aces and Threes
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 folded before Flop (didn't bet)
+Seat 4: del_nuts folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: sr2-69 (small blind) showed [Js Td] and won (3912) with a flush, Ace high
+
+
+
+PokerStars Hand #259749981939: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:10:36 UTC [2026/02/16 11:10:36 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: SS63S (1012 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6316 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4127 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7537 in chips, $0.75 bounty) 
+Seat 5: scorza23 (7100 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4222 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4618 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (9404 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+SS63S: posts small blind 45
+ARUgabija: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Tc]
+elsharawy121: raises 90 to 180
+del_nuts: folds 
+scorza23: raises 90 to 270
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+SS63S: folds 
+ARUgabija: calls 180
+elsharawy121: calls 90
+*** FLOP *** [5d 3d Kd]
+ARUgabija: checks 
+elsharawy121: bets 90
+scorza23: raises 1147 to 1237
+ARUgabija: folds 
+elsharawy121: folds 
+Uncalled bet (1147) returned to scorza23
+scorza23 collected 1147 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1147 | Rake 0 
+Board [5d 3d Kd]
+Seat 1: SS63S (small blind) folded before Flop
+Seat 2: ARUgabija (big blind) folded on the Flop
+Seat 3: elsharawy121 folded on the Flop
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 collected (1147)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749989467: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (45/90) - 2026/02/16 16:11:17 UTC [2026/02/16 11:11:17 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: SS63S (953 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6032 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (3753 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7523 in chips, $0.75 bounty) 
+Seat 5: scorza23 (7873 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4208 in chips, $0.50 bounty) 
+Seat 7: brianaviador (4604 in chips, $0.50 bounty) 
+Seat 8: sr2-69 (9390 in chips, $0.50 bounty) 
+SS63S: posts the ante 14
+ARUgabija: posts the ante 14
+elsharawy121: posts the ante 14
+del_nuts: posts the ante 14
+scorza23: posts the ante 14
+gauderiocwb: posts the ante 14
+brianaviador: posts the ante 14
+sr2-69: posts the ante 14
+ARUgabija: posts small blind 45
+elsharawy121: posts big blind 90
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Kd]
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: raises 90 to 180
+sr2-69: folds 
+SS63S: calls 180
+ARUgabija: folds 
+elsharawy121: calls 90
+*** FLOP *** [8h As 5s]
+elsharawy121: checks 
+brianaviador: bets 450
+SS63S: raises 309 to 759 and is all-in
+elsharawy121: folds 
+brianaviador: calls 309
+*** TURN *** [8h As 5s] [Ah]
+*** RIVER *** [8h As 5s Ah] [Td]
+*** SHOW DOWN ***
+brianaviador: shows [Ad 6d] (three of a kind, Aces)
+SS63S: shows [7s Ks] (a pair of Aces)
+brianaviador collected 2215 from pot
+brianaviador wins $0.25 for eliminating SS63S and their own bounty increases by $0.25 to $0.75
+SS63S finished the tournament
+*** SUMMARY ***
+Total pot 2215 | Rake 0 
+Board [8h As 5s Ah Td]
+Seat 1: SS63S (button) showed [7s Ks] and lost with a pair of Aces
+Seat 2: ARUgabija (small blind) folded before Flop
+Seat 3: elsharawy121 (big blind) folded on the Flop
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador showed [Ad 6d] and won (2215) with three of a kind, Aces
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749997500: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:12:00 UTC [2026/02/16 11:12:00 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 2: ARUgabija (5973 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (3559 in chips, $0.50 bounty) 
+Seat 4: del_nuts (7509 in chips, $0.75 bounty) 
+Seat 5: scorza23 (7859 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (4194 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5866 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9376 in chips, $0.50 bounty) 
+ARUgabija: posts the ante 15
+elsharawy121: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+elsharawy121: posts small blind 50
+del_nuts: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ac]
+scorza23: folds 
+gauderiocwb: raises 100 to 200
+brianaviador: folds 
+sr2-69: folds 
+ARUgabija: folds 
+elsharawy121: calls 150
+del_nuts: calls 100
+*** FLOP *** [Kd 2s 4h]
+elsharawy121: checks 
+del_nuts: checks 
+gauderiocwb: bets 380
+elsharawy121: raises 2964 to 3344 and is all-in
+del_nuts: calls 3344
+gauderiocwb: folds 
+*** TURN *** [Kd 2s 4h] [Qh]
+*** RIVER *** [Kd 2s 4h Qh] [Jd]
+*** SHOW DOWN ***
+elsharawy121: shows [2d Td] (a pair of Deuces)
+del_nuts: shows [4c Kc] (two pair, Kings and Fours)
+del_nuts collected 7773 from pot
+del_nuts wins $0.25 for eliminating elsharawy121 and their own bounty increases by $0.25 to $1
+elsharawy121 finished the tournament
+*** SUMMARY ***
+Total pot 7773 | Rake 0 
+Board [Kd 2s 4h Qh Jd]
+Seat 2: ARUgabija (button) folded before Flop (didn't bet)
+Seat 3: elsharawy121 (small blind) showed [2d Td] and lost with a pair of Deuces
+Seat 4: del_nuts (big blind) showed [4c Kc] and won (7773) with two pair, Kings and Fours
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded on the Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750008570: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:13:00 UTC [2026/02/16 11:13:00 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: Edninho (4770 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5958 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11723 in chips, $1 bounty) 
+Seat 5: scorza23 (7844 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3599 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5851 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9361 in chips, $0.50 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+scorza23: posts small blind 50
+gauderiocwb: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Kc]
+brianaviador: folds 
+sr2-69: folds 
+Edninho: calls 100
+ARUgabija: calls 100
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: checks 
+*** FLOP *** [Kd Qc Jc]
+gauderiocwb: checks 
+Edninho: checks 
+ARUgabija: bets 100
+gauderiocwb: folds 
+Edninho: calls 100
+*** TURN *** [Kd Qc Jc] [Td]
+Edninho: checks 
+ARUgabija: bets 100
+Edninho: calls 100
+*** RIVER *** [Kd Qc Jc Td] [5h]
+Edninho: checks 
+ARUgabija: bets 200
+Edninho: folds 
+Uncalled bet (200) returned to ARUgabija
+ARUgabija collected 855 from pot
+*** SUMMARY ***
+Total pot 855 | Rake 0 
+Board [Kd Qc Jc Td 5h]
+Seat 1: Edninho folded on the River
+Seat 2: ARUgabija collected (855)
+Seat 4: del_nuts (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: gauderiocwb (big blind) folded on the Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750017756: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:13:50 UTC [2026/02/16 11:13:50 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: Edninho (4455 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6498 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (5000 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11708 in chips, $1 bounty) 
+Seat 5: scorza23 (7779 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3484 in chips, $0.50 bounty) 
+Seat 7: brianaviador (5836 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9346 in chips, $0.50 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+elsharawy121: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+gauderiocwb: posts small blind 50
+brianaviador: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Tc]
+sr2-69: folds 
+Edninho: calls 100
+ARUgabija: calls 100
+elsharawy121: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: raises 500 to 600
+Edninho: calls 500
+ARUgabija: folds 
+*** FLOP *** [5h Qs 2d]
+brianaviador: bets 835
+Edninho: folds 
+Uncalled bet (835) returned to brianaviador
+brianaviador collected 1470 from pot
+brianaviador: doesn't show hand 
+*** SUMMARY ***
+Total pot 1470 | Rake 0 
+Board [5h Qs 2d]
+Seat 1: Edninho folded on the Flop
+Seat 2: ARUgabija folded before Flop
+Seat 3: elsharawy121 folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: gauderiocwb (small blind) folded before Flop
+Seat 7: brianaviador (big blind) collected (1470)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750029873: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:14:55 UTC [2026/02/16 11:14:55 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: Edninho (3840 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6383 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (4985 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11693 in chips, $1 bounty) 
+Seat 5: scorza23 (7764 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3419 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6691 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9331 in chips, $0.50 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+elsharawy121: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+brianaviador: posts small blind 50
+sr2-69: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 7h]
+Edninho: folds 
+ARUgabija: folds 
+elsharawy121: raises 100 to 200
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 100
+*** FLOP *** [Tc 4h Qc]
+sr2-69: checks 
+elsharawy121: bets 200
+sr2-69: folds 
+Uncalled bet (200) returned to elsharawy121
+elsharawy121 collected 570 from pot
+*** SUMMARY ***
+Total pot 570 | Rake 0 
+Board [Tc 4h Qc]
+Seat 1: Edninho folded before Flop (didn't bet)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 collected (570)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) folded before Flop
+Seat 8: sr2-69 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259750036320: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:15:29 UTC [2026/02/16 11:15:29 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: Edninho (3825 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6368 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (5340 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11678 in chips, $1 bounty) 
+Seat 5: scorza23 (7749 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3404 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6626 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9116 in chips, $0.50 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+elsharawy121: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+sr2-69: posts small blind 50
+Edninho: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 8c]
+ARUgabija: folds 
+elsharawy121: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+Uncalled bet (50) returned to Edninho
+Edninho collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 1: Edninho (big blind) collected (220)
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: elsharawy121 folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: sr2-69 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750040710: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:15:52 UTC [2026/02/16 11:15:52 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: Edninho (3980 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6353 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (5325 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11663 in chips, $1 bounty) 
+Seat 5: scorza23 (7734 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3389 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6611 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9051 in chips, $0.50 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+elsharawy121: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+Edninho: posts small blind 50
+ARUgabija: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 7h]
+elsharawy121: raises 200 to 300
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+Edninho: folds 
+ARUgabija: folds 
+Uncalled bet (200) returned to elsharawy121
+elsharawy121 collected 370 from pot
+*** SUMMARY ***
+Total pot 370 | Rake 0 
+Seat 1: Edninho (small blind) folded before Flop
+Seat 2: ARUgabija (big blind) folded before Flop
+Seat 3: elsharawy121 collected (370)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750044964: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:16:15 UTC [2026/02/16 11:16:15 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: Edninho (3915 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6238 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (5580 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11648 in chips, $1 bounty) 
+Seat 5: scorza23 (7719 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3374 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6596 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9036 in chips, $0.50 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+elsharawy121: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+ARUgabija: posts small blind 50
+elsharawy121: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9s]
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: raises 100 to 200
+brianaviador: folds 
+sr2-69: folds 
+Edninho: raises 3700 to 3900 and is all-in
+ARUgabija: folds 
+elsharawy121: calls 3800
+gauderiocwb: folds 
+*** FLOP *** [5c 7h 8h]
+*** TURN *** [5c 7h 8h] [4h]
+*** RIVER *** [5c 7h 8h 4h] [Jc]
+*** SHOW DOWN ***
+elsharawy121: shows [Td Kc] (high card King)
+Edninho: shows [Kh Jh] (a flush, King high)
+Edninho collected 8170 from pot
+*** SUMMARY ***
+Total pot 8170 | Rake 0 
+Board [5c 7h 8h 4h Jc]
+Seat 1: Edninho (button) showed [Kh Jh] and won (8170) with a flush, King high
+Seat 2: ARUgabija (small blind) folded before Flop
+Seat 3: elsharawy121 (big blind) showed [Td Kc] and lost with high card King
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750054170: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:17:04 UTC [2026/02/16 11:17:04 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: Edninho (8170 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6173 in chips, $0.50 bounty) 
+Seat 3: elsharawy121 (1665 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11633 in chips, $1 bounty) 
+Seat 5: scorza23 (7704 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3159 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6581 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (9021 in chips, $0.50 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+elsharawy121: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+elsharawy121: posts small blind 50
+del_nuts: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 6d]
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: calls 100
+Edninho: calls 100
+ARUgabija: folds 
+elsharawy121: calls 50
+del_nuts: checks 
+*** FLOP *** [Td 8d Jd]
+elsharawy121: bets 520
+del_nuts: folds 
+sr2-69: calls 520
+Edninho: calls 520
+*** TURN *** [Td 8d Jd] [Kc]
+elsharawy121: bets 1030 and is all-in
+sr2-69: calls 1030
+Edninho: folds 
+*** RIVER *** [Td 8d Jd Kc] [Th]
+*** SHOW DOWN ***
+elsharawy121: shows [8c 4d] (two pair, Tens and Eights)
+sr2-69: shows [Kd 9s] (two pair, Kings and Tens)
+sr2-69 collected 4140 from pot
+sr2-69 wins $0.25 for eliminating elsharawy121 and their own bounty increases by $0.25 to $0.75
+elsharawy121 finished the tournament
+*** SUMMARY ***
+Total pot 4140 | Rake 0 
+Board [Td 8d Jd Kc Th]
+Seat 1: Edninho folded on the Turn
+Seat 2: ARUgabija (button) folded before Flop (didn't bet)
+Seat 3: elsharawy121 (small blind) showed [8c 4d] and lost with two pair, Tens and Eights
+Seat 4: del_nuts (big blind) folded on the Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 showed [Kd 9s] and won (4140) with two pair, Kings and Tens
+
+
+
+PokerStars Hand #259750068447: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 16:18:20 UTC [2026/02/16 11:18:20 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: Edninho (7535 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6158 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11518 in chips, $1 bounty) 
+Seat 5: scorza23 (7689 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3144 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6566 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11496 in chips, $0.75 bounty) 
+Edninho: posts the ante 15
+ARUgabija: posts the ante 15
+del_nuts: posts the ante 15
+scorza23: posts the ante 15
+gauderiocwb: posts the ante 15
+brianaviador: posts the ante 15
+sr2-69: posts the ante 15
+scorza23: posts small blind 50
+gauderiocwb: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Kd]
+brianaviador: folds 
+sr2-69: folds 
+Edninho: calls 100
+ARUgabija: calls 100
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: checks 
+*** FLOP *** [5h 8c 3s]
+gauderiocwb: checks 
+Edninho: checks 
+ARUgabija: checks 
+*** TURN *** [5h 8c 3s] [Qc]
+gauderiocwb: checks 
+Edninho: checks 
+ARUgabija: checks 
+*** RIVER *** [5h 8c 3s Qc] [Js]
+gauderiocwb: checks 
+Edninho: checks 
+ARUgabija: checks 
+*** SHOW DOWN ***
+gauderiocwb: shows [2h 6c] (high card Queen)
+Edninho: shows [Kh 9s] (high card King)
+ARUgabija: shows [4d 5s] (a pair of Fives)
+ARUgabija collected 455 from pot
+*** SUMMARY ***
+Total pot 455 | Rake 0 
+Board [5h 8c 3s Qc Js]
+Seat 1: Edninho showed [Kh 9s] and lost with high card King
+Seat 2: ARUgabija showed [4d 5s] and won (455) with a pair of Fives
+Seat 4: del_nuts (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: gauderiocwb (big blind) showed [2h 6c] and lost with high card Queen
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750078360: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 16:19:13 UTC [2026/02/16 11:19:13 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: Edninho (7420 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6498 in chips, $0.50 bounty) 
+Seat 3: lontrix (5000 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11503 in chips, $1 bounty) 
+Seat 5: scorza23 (7624 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (3029 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6551 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11481 in chips, $0.75 bounty) 
+Edninho: posts the ante 18
+ARUgabija: posts the ante 18
+lontrix: posts the ante 18
+del_nuts: posts the ante 18
+scorza23: posts the ante 18
+gauderiocwb: posts the ante 18
+brianaviador: posts the ante 18
+sr2-69: posts the ante 18
+gauderiocwb: posts small blind 60
+brianaviador: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ad]
+sr2-69: folds 
+Edninho: calls 120
+ARUgabija: folds 
+lontrix: folds 
+del_nuts: folds 
+scorza23: raises 564 to 684
+gauderiocwb: folds 
+brianaviador: folds 
+Edninho: calls 564
+*** FLOP *** [Jh Js 3s]
+Edninho: checks 
+scorza23: bets 846
+Edninho: folds 
+Uncalled bet (846) returned to scorza23
+scorza23 collected 1692 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1692 | Rake 0 
+Board [Jh Js 3s]
+Seat 1: Edninho folded on the Flop
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (1692)
+Seat 6: gauderiocwb (small blind) folded before Flop
+Seat 7: brianaviador (big blind) folded before Flop
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750084971: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 16:19:48 UTC [2026/02/16 11:19:48 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: Edninho (6718 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (6480 in chips, $0.50 bounty) 
+Seat 3: lontrix (4982 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11485 in chips, $1 bounty) 
+Seat 5: scorza23 (8614 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (2951 in chips, $0.50 bounty) 
+Seat 7: brianaviador (6413 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11463 in chips, $0.75 bounty) 
+Edninho: posts the ante 18
+ARUgabija: posts the ante 18
+lontrix: posts the ante 18
+del_nuts: posts the ante 18
+scorza23: posts the ante 18
+gauderiocwb: posts the ante 18
+brianaviador: posts the ante 18
+sr2-69: posts the ante 18
+brianaviador: posts small blind 60
+sr2-69: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 9c]
+Edninho: calls 120
+ARUgabija: calls 120
+lontrix: folds 
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: raises 1080 to 1200
+sr2-69: folds 
+Edninho: folds 
+ARUgabija: calls 1080
+*** FLOP *** [2d Tc 7s]
+brianaviador: bets 5195 and is all-in
+ARUgabija: folds 
+Uncalled bet (5195) returned to brianaviador
+brianaviador collected 2784 from pot
+brianaviador: doesn't show hand 
+*** SUMMARY ***
+Total pot 2784 | Rake 0 
+Board [2d Tc 7s]
+Seat 1: Edninho folded before Flop
+Seat 2: ARUgabija folded on the Flop
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) collected (2784)
+Seat 8: sr2-69 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750097978: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 16:20:56 UTC [2026/02/16 11:20:56 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: Edninho (6580 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5262 in chips, $0.50 bounty) 
+Seat 3: lontrix (4964 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11467 in chips, $1 bounty) 
+Seat 5: scorza23 (8596 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (2933 in chips, $0.50 bounty) 
+Seat 7: brianaviador (7979 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11325 in chips, $0.75 bounty) 
+Edninho: posts the ante 18
+ARUgabija: posts the ante 18
+lontrix: posts the ante 18
+del_nuts: posts the ante 18
+scorza23: posts the ante 18
+gauderiocwb: posts the ante 18
+brianaviador: posts the ante 18
+sr2-69: posts the ante 18
+sr2-69: posts small blind 60
+Edninho: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ts]
+ARUgabija has timed out
+ARUgabija: folds 
+ARUgabija is sitting out
+ARUgabija has returned
+lontrix: raises 180 to 300
+del_nuts: calls 300
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+Edninho: folds 
+*** FLOP *** [4d 9c 6h]
+lontrix: bets 758
+del_nuts: folds 
+Uncalled bet (758) returned to lontrix
+lontrix collected 924 from pot
+lontrix: doesn't show hand 
+*** SUMMARY ***
+Total pot 924 | Rake 0 
+Board [4d 9c 6h]
+Seat 1: Edninho (big blind) folded before Flop
+Seat 2: ARUgabija folded before Flop (didn't bet)
+Seat 3: lontrix collected (924)
+Seat 4: del_nuts folded on the Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: sr2-69 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750117863: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 16:22:42 UTC [2026/02/16 11:22:42 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: Edninho (6442 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5244 in chips, $0.50 bounty) 
+Seat 3: lontrix (5570 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11149 in chips, $1 bounty) 
+Seat 5: scorza23 (8578 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (2915 in chips, $0.50 bounty) 
+Seat 7: brianaviador (7961 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11247 in chips, $0.75 bounty) 
+Edninho: posts the ante 18
+ARUgabija: posts the ante 18
+lontrix: posts the ante 18
+del_nuts: posts the ante 18
+scorza23: posts the ante 18
+gauderiocwb: posts the ante 18
+brianaviador: posts the ante 18
+sr2-69: posts the ante 18
+Edninho: posts small blind 60
+ARUgabija: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 4c]
+lontrix: folds 
+del_nuts: raises 120 to 240
+scorza23: folds 
+gauderiocwb: folds 
+brianaviador: folds 
+sr2-69: folds 
+Edninho: calls 180
+ARUgabija has timed out
+ARUgabija: folds 
+ARUgabija is sitting out
+*** FLOP *** [2h 2c Ah]
+ARUgabija has returned
+Edninho: checks 
+del_nuts: checks 
+*** TURN *** [2h 2c Ah] [7c]
+Edninho: checks 
+del_nuts: bets 372
+Edninho: folds 
+Uncalled bet (372) returned to del_nuts
+del_nuts collected 744 from pot
+del_nuts: doesn't show hand 
+*** SUMMARY ***
+Total pot 744 | Rake 0 
+Board [2h 2c Ah 7c]
+Seat 1: Edninho (small blind) folded on the Turn
+Seat 2: ARUgabija (big blind) folded before Flop
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: del_nuts collected (744)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750127163: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 16:23:31 UTC [2026/02/16 11:23:31 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: Edninho (6184 in chips, $0.50 bounty) 
+Seat 2: ARUgabija (5106 in chips, $0.50 bounty) 
+Seat 3: lontrix (5552 in chips, $0.50 bounty) 
+Seat 4: del_nuts (11635 in chips, $1 bounty) 
+Seat 5: scorza23 (8560 in chips, $0.50 bounty) 
+Seat 6: gauderiocwb (2897 in chips, $0.50 bounty) 
+Seat 7: brianaviador (7943 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11229 in chips, $0.75 bounty) 
+Edninho: posts the ante 18
+ARUgabija: posts the ante 18
+lontrix: posts the ante 18
+del_nuts: posts the ante 18
+scorza23: posts the ante 18
+gauderiocwb: posts the ante 18
+brianaviador: posts the ante 18
+sr2-69: posts the ante 18
+ARUgabija: posts small blind 60
+lontrix: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Kc]
+del_nuts: folds 
+scorza23: folds 
+gauderiocwb: raises 120 to 240
+brianaviador: folds 
+sr2-69: folds 
+Edninho: raises 5926 to 6166 and is all-in
+ARUgabija: folds 
+lontrix: folds 
+gauderiocwb: calls 2639 and is all-in
+Uncalled bet (3287) returned to Edninho
+*** FLOP *** [Qs Qd 6h]
+*** TURN *** [Qs Qd 6h] [3d]
+*** RIVER *** [Qs Qd 6h 3d] [3h]
+*** SHOW DOWN ***
+gauderiocwb: shows [Kh Th] (two pair, Queens and Threes)
+Edninho: shows [Ah 5c] (two pair, Queens and Threes - Ace kicker)
+Edninho collected 6082 from pot
+Edninho wins $0.25 for eliminating gauderiocwb and their own bounty increases by $0.25 to $0.75
+gauderiocwb finished the tournament
+Rebbo20 is disconnected 
+*** SUMMARY ***
+Total pot 6082 | Rake 0 
+Board [Qs Qd 6h 3d 3h]
+Seat 1: Edninho (button) showed [Ah 5c] and won (6082) with two pair, Queens and Threes
+Seat 2: ARUgabija (small blind) folded before Flop
+Seat 3: lontrix (big blind) folded before Flop
+Seat 4: del_nuts folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: gauderiocwb showed [Kh Th] and lost with two pair, Queens and Threes
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750137425: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 16:24:25 UTC [2026/02/16 11:24:25 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: Edninho (9369 in chips, $0.75 bounty) 
+Seat 2: ARUgabija (5028 in chips, $0.50 bounty) 
+Seat 3: lontrix (5414 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (4928 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8542 in chips, $0.50 bounty) 
+Seat 7: brianaviador (7925 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11211 in chips, $0.75 bounty) 
+Edninho: posts the ante 18
+ARUgabija: posts the ante 18
+lontrix: posts the ante 18
+Rebbo20: posts the ante 18
+scorza23: posts the ante 18
+brianaviador: posts the ante 18
+sr2-69: posts the ante 18
+lontrix: posts small blind 60
+Rebbo20: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 2d]
+Fisjo is disconnected 
+scorza23: folds 
+brianaviador: folds 
+sr2-69: calls 120
+Edninho: folds 
+ARUgabija: folds 
+lontrix: calls 60
+Rebbo20: checks 
+*** FLOP *** [6c 6h 3s]
+lontrix: checks 
+Rebbo20: checks 
+sr2-69: checks 
+*** TURN *** [6c 6h 3s] [9c]
+lontrix: bets 120
+Rebbo20: calls 120
+sr2-69: folds 
+*** RIVER *** [6c 6h 3s 9c] [As]
+lontrix: checks 
+Rebbo20: checks 
+*** SHOW DOWN ***
+lontrix: shows [Td Jc] (a pair of Sixes)
+Rebbo20: shows [2s 9s] (two pair, Nines and Sixes)
+Rebbo20 collected 726 from pot
+*** SUMMARY ***
+Total pot 726 | Rake 0 
+Board [6c 6h 3s 9c As]
+Seat 1: Edninho folded before Flop (didn't bet)
+Seat 2: ARUgabija (button) folded before Flop (didn't bet)
+Seat 3: lontrix (small blind) showed [Td Jc] and lost with a pair of Sixes
+Seat 4: Rebbo20 (big blind) showed [2s 9s] and won (726) with two pair, Nines and Sixes
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded on the Turn
+
+
+
+PokerStars Hand #259750145241: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 16:25:06 UTC [2026/02/16 11:25:06 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 1: Edninho (9351 in chips, $0.75 bounty) 
+Seat 2: ARUgabija (5010 in chips, $0.50 bounty) 
+Seat 3: lontrix (5156 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5396 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8524 in chips, $0.50 bounty) 
+Seat 6: Fisjo (5000 in chips, $0.50 bounty) 
+Seat 7: brianaviador (7907 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (11073 in chips, $0.75 bounty) 
+Edninho: posts the ante 18
+ARUgabija: posts the ante 18
+lontrix: posts the ante 18
+Rebbo20: posts the ante 18
+scorza23: posts the ante 18
+Fisjo: posts the ante 18
+brianaviador: posts the ante 18
+sr2-69: posts the ante 18
+Rebbo20: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Kh]
+Fisjo: folds 
+brianaviador: folds 
+sr2-69: raises 10935 to 11055 and is all-in
+Edninho: folds 
+ARUgabija: calls 4992 and is all-in
+lontrix: folds 
+Rebbo20: folds 
+scorza23: folds 
+Uncalled bet (6063) returned to sr2-69
+*** FLOP *** [3c Qs Td]
+*** TURN *** [3c Qs Td] [Qd]
+*** RIVER *** [3c Qs Td Qd] [6s]
+*** SHOW DOWN ***
+sr2-69: shows [Jc Jd] (two pair, Queens and Jacks)
+ARUgabija: shows [7s 7c] (two pair, Queens and Sevens)
+sr2-69 collected 10308 from pot
+sr2-69 wins $0.25 for eliminating ARUgabija and their own bounty increases by $0.25 to $1
+ARUgabija finished the tournament
+*** SUMMARY ***
+Total pot 10308 | Rake 0 
+Board [3c Qs Td Qd 6s]
+Seat 1: Edninho folded before Flop (didn't bet)
+Seat 2: ARUgabija showed [7s 7c] and lost with two pair, Queens and Sevens
+Seat 3: lontrix (button) folded before Flop (didn't bet)
+Seat 4: Rebbo20 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: Fisjo folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 showed [Jc Jd] and won (10308) with two pair, Queens and Jacks
+
+
+
+PokerStars Hand #259750152730: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VIII (70/140) - 2026/02/16 16:25:47 UTC [2026/02/16 11:25:47 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: Edninho (9333 in chips, $0.75 bounty) 
+Seat 3: lontrix (5138 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5318 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8386 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4982 in chips, $0.50 bounty) 
+Seat 7: brianaviador (7889 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (16371 in chips, $1 bounty) 
+Edninho: posts the ante 21
+lontrix: posts the ante 21
+Rebbo20: posts the ante 21
+scorza23: posts the ante 21
+Fisjo: posts the ante 21
+brianaviador: posts the ante 21
+sr2-69: posts the ante 21
+scorza23: posts small blind 70
+Fisjo: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 7c]
+brianaviador: folds 
+sr2-69: folds 
+Edninho: calls 140
+lontrix: folds 
+Rebbo20: folds 
+scorza23: folds 
+Fisjo: checks 
+*** FLOP *** [2c Qd Kh]
+Fisjo: checks 
+Edninho: checks 
+*** TURN *** [2c Qd Kh] [Ac]
+Fisjo: checks 
+Edninho: bets 249
+Fisjo: calls 249
+*** RIVER *** [2c Qd Kh Ac] [Jh]
+Fisjo: checks 
+Edninho: checks 
+*** SHOW DOWN ***
+Fisjo: shows [Qc 3h] (a pair of Queens)
+Edninho: shows [3c As] (a pair of Aces)
+Edninho collected 995 from pot
+*** SUMMARY ***
+Total pot 995 | Rake 0 
+Board [2c Qd Kh Ac Jh]
+Seat 1: Edninho showed [3c As] and won (995) with a pair of Aces
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: Fisjo (big blind) showed [Qc 3h] and lost with a pair of Queens
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750166588: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VIII (70/140) - 2026/02/16 16:27:01 UTC [2026/02/16 11:27:01 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: Edninho (9918 in chips, $0.75 bounty) 
+Seat 2: fama1977tjs (5000 in chips, $0.50 bounty) 
+Seat 3: lontrix (5117 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5297 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8295 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4572 in chips, $0.50 bounty) 
+Seat 7: brianaviador (7868 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (16350 in chips, $1 bounty) 
+Edninho: posts the ante 21
+fama1977tjs: posts the ante 21
+lontrix: posts the ante 21
+Rebbo20: posts the ante 21
+scorza23: posts the ante 21
+Fisjo: posts the ante 21
+brianaviador: posts the ante 21
+sr2-69: posts the ante 21
+Fisjo: posts small blind 70
+brianaviador: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 7c]
+sr2-69: calls 140
+Edninho: calls 140
+fama1977tjs: folds 
+lontrix: folds 
+Rebbo20: folds 
+scorza23: folds 
+Fisjo: folds 
+brianaviador: checks 
+*** FLOP *** [2d 5h 5s]
+brianaviador: checks 
+sr2-69: checks 
+Edninho: bets 658
+brianaviador: raises 658 to 1316
+sr2-69: folds 
+Edninho: calls 658
+*** TURN *** [2d 5h 5s] [9s]
+brianaviador: bets 1645
+Edninho: raises 6796 to 8441 and is all-in
+brianaviador: calls 4746 and is all-in
+Uncalled bet (2050) returned to Edninho
+*** RIVER *** [2d 5h 5s 9s] [6d]
+*** SHOW DOWN ***
+brianaviador: shows [5d Tc] (three of a kind, Fives)
+Edninho: shows [Ts Th] (two pair, Tens and Fives)
+brianaviador collected 16072 from pot
+*** SUMMARY ***
+Total pot 16072 | Rake 0 
+Board [2d 5h 5s 9s 6d]
+Seat 1: Edninho showed [Ts Th] and lost with two pair, Tens and Fives
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Fisjo (small blind) folded before Flop
+Seat 7: brianaviador (big blind) showed [5d Tc] and won (16072) with three of a kind, Fives
+Seat 8: sr2-69 folded on the Flop
+
+
+
+PokerStars Hand #259750179018: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VIII (70/140) - 2026/02/16 16:28:08 UTC [2026/02/16 11:28:08 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: Edninho (2050 in chips, $0.75 bounty) 
+Seat 2: fama1977tjs (4979 in chips, $0.50 bounty) 
+Seat 3: lontrix (5096 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5276 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8274 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4481 in chips, $0.50 bounty) 
+Seat 7: brianaviador (16072 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (16189 in chips, $1 bounty) 
+Edninho: posts the ante 21
+fama1977tjs: posts the ante 21
+lontrix: posts the ante 21
+Rebbo20: posts the ante 21
+scorza23: posts the ante 21
+Fisjo: posts the ante 21
+brianaviador: posts the ante 21
+sr2-69: posts the ante 21
+brianaviador: posts small blind 70
+sr2-69: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5h]
+Edninho: calls 140
+fama1977tjs: folds 
+lontrix: raises 210 to 350
+Rebbo20: folds 
+scorza23: folds 
+Fisjo: folds 
+brianaviador: calls 280
+sr2-69: calls 210
+Edninho: calls 210
+*** FLOP *** [6s 3s Kh]
+brianaviador: checks 
+sr2-69: checks 
+Edninho: bets 1679 and is all-in
+lontrix: folds 
+brianaviador: folds 
+sr2-69: calls 1679
+*** TURN *** [6s 3s Kh] [Kd]
+*** RIVER *** [6s 3s Kh Kd] [Ks]
+*** SHOW DOWN ***
+sr2-69: shows [4s Js] (a flush, King high)
+Edninho: shows [7c 5d] (three of a kind, Kings)
+sr2-69 collected 4926 from pot
+sr2-69 wins $0.38 for eliminating Edninho and their own bounty increases by $0.37 to $1.37
+Edninho finished the tournament
+*** SUMMARY ***
+Total pot 4926 | Rake 0 
+Board [6s 3s Kh Kd Ks]
+Seat 1: Edninho showed [7c 5d] and lost with three of a kind, Kings
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix folded on the Flop
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Fisjo (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) folded on the Flop
+Seat 8: sr2-69 (big blind) showed [4s Js] and won (4926) with a flush, King high
+
+
+
+PokerStars Hand #259750188607: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VIII (70/140) - 2026/02/16 16:28:59 UTC [2026/02/16 11:28:59 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 2: fama1977tjs (4958 in chips, $0.50 bounty) 
+Seat 3: lontrix (4725 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5255 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8253 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4460 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15701 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (19065 in chips, $1.37 bounty) 
+fama1977tjs: posts the ante 21
+lontrix: posts the ante 21
+Rebbo20: posts the ante 21
+scorza23: posts the ante 21
+Fisjo: posts the ante 21
+brianaviador: posts the ante 21
+sr2-69: posts the ante 21
+sr2-69: posts small blind 70
+fama1977tjs: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 4d]
+lontrix: calls 140
+Rebbo20: folds 
+scorza23: folds 
+Fisjo: folds 
+brianaviador: calls 140
+sr2-69: calls 70
+fama1977tjs: checks 
+*** FLOP *** [Js Tc Qh]
+sr2-69: checks 
+fama1977tjs: checks 
+lontrix: checks 
+brianaviador: checks 
+*** TURN *** [Js Tc Qh] [Kc]
+sr2-69: bets 18904 and is all-in
+fama1977tjs: folds 
+lontrix: folds 
+brianaviador: calls 15540 and is all-in
+Uncalled bet (3364) returned to sr2-69
+*** RIVER *** [Js Tc Qh Kc] [Qs]
+*** SHOW DOWN ***
+sr2-69: shows [Ac 9d] (a straight, Ten to Ace)
+brianaviador: shows [Ts As] (a straight, Ten to Ace)
+sr2-69 collected 15894 from pot
+brianaviador collected 15893 from pot
+*** SUMMARY ***
+Total pot 31787 | Rake 0 
+Board [Js Tc Qh Kc Qs]
+Seat 2: fama1977tjs (big blind) folded on the Turn
+Seat 3: lontrix folded on the Turn
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Fisjo folded before Flop (didn't bet)
+Seat 7: brianaviador (button) showed [Ts As] and won (15893) with a straight, Ten to Ace
+Seat 8: sr2-69 (small blind) showed [Ac 9d] and won (15894) with a straight, Ten to Ace
+
+
+
+PokerStars Hand #259750203689: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VIII (70/140) - 2026/02/16 16:30:19 UTC [2026/02/16 11:30:19 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 2: fama1977tjs (4797 in chips, $0.50 bounty) 
+Seat 3: lontrix (4564 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5234 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8232 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4439 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15893 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (19258 in chips, $1.37 bounty) 
+fama1977tjs: posts the ante 21
+lontrix: posts the ante 21
+Rebbo20: posts the ante 21
+scorza23: posts the ante 21
+Fisjo: posts the ante 21
+brianaviador: posts the ante 21
+sr2-69: posts the ante 21
+fama1977tjs: posts small blind 70
+lontrix: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ac]
+Rebbo20: folds 
+scorza23: folds 
+Fisjo: folds 
+brianaviador: folds 
+sr2-69: folds 
+fama1977tjs: calls 70
+lontrix: checks 
+*** FLOP *** [8d Kd 9s]
+fama1977tjs: bets 140
+lontrix: calls 140
+*** TURN *** [8d Kd 9s] [6s]
+fama1977tjs: bets 140
+lontrix: raises 420 to 560
+fama1977tjs: folds 
+Uncalled bet (420) returned to lontrix
+lontrix collected 987 from pot
+lontrix: doesn't show hand 
+*** SUMMARY ***
+Total pot 987 | Rake 0 
+Board [8d Kd 9s 6s]
+Seat 2: fama1977tjs (small blind) folded on the Turn
+Seat 3: lontrix (big blind) collected (987)
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Fisjo folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750214581: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VIII (70/140) - 2026/02/16 16:31:18 UTC [2026/02/16 11:31:18 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 2: fama1977tjs (4356 in chips, $0.50 bounty) 
+Seat 3: lontrix (5110 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5213 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8211 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4418 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15872 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (19237 in chips, $1.37 bounty) 
+fama1977tjs: posts the ante 21
+lontrix: posts the ante 21
+Rebbo20: posts the ante 21
+scorza23: posts the ante 21
+Fisjo: posts the ante 21
+brianaviador: posts the ante 21
+sr2-69: posts the ante 21
+lontrix: posts small blind 70
+Rebbo20: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jh]
+scorza23: folds 
+Fisjo: folds 
+brianaviador: folds 
+sr2-69: calls 140
+fama1977tjs: folds 
+lontrix: calls 70
+Rebbo20: checks 
+*** FLOP *** [Jd 3c 8s]
+lontrix: checks 
+Rebbo20: checks 
+sr2-69: checks 
+*** TURN *** [Jd 3c 8s] [6h]
+lontrix: checks 
+Rebbo20: checks 
+sr2-69: checks 
+*** RIVER *** [Jd 3c 8s 6h] [As]
+lontrix: checks 
+Rebbo20: checks 
+sr2-69: bets 140
+lontrix: folds 
+Rebbo20: folds 
+Uncalled bet (140) returned to sr2-69
+sr2-69 collected 567 from pot
+*** SUMMARY ***
+Total pot 567 | Rake 0 
+Board [Jd 3c 8s 6h As]
+Seat 2: fama1977tjs (button) folded before Flop (didn't bet)
+Seat 3: lontrix (small blind) folded on the River
+Seat 4: Rebbo20 (big blind) folded on the River
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Fisjo folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 collected (567)
+
+
+
+PokerStars Hand #259750223351: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VIII (70/140) - 2026/02/16 16:32:04 UTC [2026/02/16 11:32:04 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 1: OMG_SCAM!! (5000 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (4335 in chips, $0.50 bounty) 
+Seat 3: lontrix (4949 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5052 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8190 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4397 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15851 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (19643 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 21
+fama1977tjs: posts the ante 21
+lontrix: posts the ante 21
+Rebbo20: posts the ante 21
+scorza23: posts the ante 21
+Fisjo: posts the ante 21
+brianaviador: posts the ante 21
+sr2-69: posts the ante 21
+Rebbo20: posts small blind 70
+scorza23: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Ts]
+Fisjo: folds 
+brianaviador: folds 
+sr2-69: calls 140
+OMG_SCAM!!: folds 
+fama1977tjs: folds 
+lontrix: folds 
+Rebbo20: folds 
+scorza23: checks 
+*** FLOP *** [Jh Jc 9s]
+scorza23: bets 259
+sr2-69: folds 
+Uncalled bet (259) returned to scorza23
+scorza23 collected 518 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 518 | Rake 0 
+Board [Jh Jc 9s]
+Seat 1: OMG_SCAM!! folded before Flop (didn't bet)
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix (button) folded before Flop (didn't bet)
+Seat 4: Rebbo20 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (518)
+Seat 6: Fisjo folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded on the Flop
+
+
+
+PokerStars Hand #259750231832: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:32:49 UTC [2026/02/16 11:32:49 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: OMG_SCAM!! (4979 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (4314 in chips, $0.50 bounty) 
+Seat 3: lontrix (4928 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (4961 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8547 in chips, $0.50 bounty) 
+Seat 6: Fisjo (4376 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15830 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (19482 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Fisjo: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+scorza23: posts small blind 80
+Fisjo: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 3d]
+brianaviador: raises 160 to 320
+sr2-69: calls 320
+OMG_SCAM!!: folds 
+fama1977tjs: folds 
+lontrix: folds 
+Rebbo20: folds 
+scorza23: folds 
+Fisjo: calls 160
+*** FLOP *** [8s 2d 7s]
+Fisjo: checks 
+brianaviador: checks 
+sr2-69: bets 616
+Fisjo: calls 616
+brianaviador: folds 
+*** TURN *** [8s 2d 7s] [Jc]
+Fisjo: checks 
+sr2-69: bets 18522 and is all-in
+Fisjo: folds 
+Uncalled bet (18522) returned to sr2-69
+sr2-69 collected 2464 from pot
+*** SUMMARY ***
+Total pot 2464 | Rake 0 
+Board [8s 2d 7s Jc]
+Seat 1: OMG_SCAM!! folded before Flop (didn't bet)
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: Fisjo (big blind) folded on the Turn
+Seat 7: brianaviador folded on the Flop
+Seat 8: sr2-69 collected (2464)
+
+
+
+PokerStars Hand #259750242395: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:33:46 UTC [2026/02/16 11:33:46 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: OMG_SCAM!! (4955 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (4290 in chips, $0.50 bounty) 
+Seat 3: lontrix (4904 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (4937 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8443 in chips, $0.50 bounty) 
+Seat 6: Fisjo (3416 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15486 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (20986 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Fisjo: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+Fisjo: posts small blind 80
+brianaviador: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ks]
+sr2-69: raises 592 to 752
+OMG_SCAM!!: folds 
+fama1977tjs: folds 
+lontrix: folds 
+Rebbo20: folds 
+scorza23: folds 
+Fisjo: folds 
+brianaviador: folds 
+Uncalled bet (592) returned to sr2-69
+sr2-69 collected 592 from pot
+*** SUMMARY ***
+Total pot 592 | Rake 0 
+Seat 1: OMG_SCAM!! folded before Flop (didn't bet)
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Fisjo (small blind) folded before Flop
+Seat 7: brianaviador (big blind) folded before Flop
+Seat 8: sr2-69 collected (592)
+
+
+
+PokerStars Hand #259750249092: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:34:21 UTC [2026/02/16 11:34:21 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: OMG_SCAM!! (4931 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (4266 in chips, $0.50 bounty) 
+Seat 3: lontrix (4880 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (4913 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8419 in chips, $0.50 bounty) 
+Seat 6: Fisjo (3312 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15302 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (21394 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Fisjo: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+brianaviador: posts small blind 80
+sr2-69: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 4d]
+OMG_SCAM!!: folds 
+fama1977tjs: calls 160
+lontrix: folds 
+Rebbo20: calls 160
+scorza23: folds 
+Fisjo: folds 
+brianaviador: folds 
+sr2-69: checks 
+*** FLOP *** [9s Tc Jh]
+sr2-69: checks 
+fama1977tjs: checks 
+Rebbo20: bets 320
+sr2-69: calls 320
+fama1977tjs: folds 
+*** TURN *** [9s Tc Jh] [Ac]
+sr2-69: checks 
+Rebbo20: checks 
+*** RIVER *** [9s Tc Jh Ac] [7s]
+sr2-69: checks 
+Rebbo20: checks 
+*** SHOW DOWN ***
+sr2-69: shows [2d Qh] (high card Ace)
+Rebbo20: shows [Ts Ks] (a pair of Tens)
+Rebbo20 collected 1392 from pot
+*** SUMMARY ***
+Total pot 1392 | Rake 0 
+Board [9s Tc Jh Ac 7s]
+Seat 1: OMG_SCAM!! folded before Flop (didn't bet)
+Seat 2: fama1977tjs folded on the Flop
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 showed [Ts Ks] and won (1392) with a pair of Tens
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Fisjo (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) folded before Flop
+Seat 8: sr2-69 (big blind) showed [2d Qh] and lost with high card Ace
+
+
+
+PokerStars Hand #259750264086: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:35:39 UTC [2026/02/16 11:35:39 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: OMG_SCAM!! (4907 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (4082 in chips, $0.50 bounty) 
+Seat 3: lontrix (4856 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (5801 in chips, $0.50 bounty) 
+Seat 5: scorza23 (8395 in chips, $0.50 bounty) 
+Seat 6: Fisjo (3288 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15198 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (20890 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Fisjo: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+sr2-69: posts small blind 80
+OMG_SCAM!!: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 4c]
+fama1977tjs: folds 
+lontrix: calls 160
+Rebbo20: calls 160
+scorza23: folds 
+Fisjo: raises 720 to 880
+brianaviador: folds 
+sr2-69: calls 800
+OMG_SCAM!!: folds 
+lontrix: folds 
+Rebbo20: calls 720
+*** FLOP *** [6c 8c 7d]
+sr2-69: checks 
+Rebbo20: bets 4897 and is all-in
+Fisjo: calls 2384 and is all-in
+sr2-69: folds 
+Uncalled bet (2513) returned to Rebbo20
+*** TURN *** [6c 8c 7d] [Th]
+*** RIVER *** [6c 8c 7d Th] [3s]
+*** SHOW DOWN ***
+Rebbo20: shows [9h Ac] (a straight, Six to Ten)
+Fisjo: shows [Qh Qc] (a pair of Queens)
+Rebbo20 collected 7920 from pot
+Rebbo20 wins $0.25 for eliminating Fisjo and their own bounty increases by $0.25 to $0.75
+Fisjo finished the tournament
+*** SUMMARY ***
+Total pot 7920 | Rake 0 
+Board [6c 8c 7d Th 3s]
+Seat 1: OMG_SCAM!! (big blind) folded before Flop
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix folded before Flop
+Seat 4: Rebbo20 showed [9h Ac] and won (7920) with a straight, Six to Ten
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Fisjo showed [Qh Qc] and lost with a pair of Queens
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: sr2-69 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259750273386: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:36:28 UTC [2026/02/16 11:36:28 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: OMG_SCAM!! (4723 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (4058 in chips, $0.50 bounty) 
+Seat 3: lontrix (4672 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (10433 in chips, $0.75 bounty) 
+Seat 5: scorza23 (8371 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15174 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (19986 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+OMG_SCAM!!: posts small blind 80
+fama1977tjs: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Qh]
+Nogat19 is disconnected 
+lontrix: folds 
+Rebbo20: raises 320 to 480
+scorza23: folds 
+brianaviador: folds 
+sr2-69: calls 480
+OMG_SCAM!!: folds 
+fama1977tjs: folds 
+*** FLOP *** [Th 2c 8h]
+Rebbo20: checks 
+sr2-69: checks 
+*** TURN *** [Th 2c 8h] [6d]
+Rebbo20: bets 320
+sr2-69: calls 320
+*** RIVER *** [Th 2c 8h 6d] [9d]
+Rebbo20: bets 320
+sr2-69: calls 320
+*** SHOW DOWN ***
+Rebbo20: shows [Jd As] (high card Ace)
+sr2-69: shows [8s Js] (a pair of Eights)
+sr2-69 collected 2648 from pot
+*** SUMMARY ***
+Total pot 2648 | Rake 0 
+Board [Th 2c 8h 6d 9d]
+Seat 1: OMG_SCAM!! (small blind) folded before Flop
+Seat 2: fama1977tjs (big blind) folded before Flop
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 showed [Jd As] and lost with high card Ace
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) showed [8s Js] and won (2648) with a pair of Eights
+
+
+
+PokerStars Hand #259750282584: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:37:17 UTC [2026/02/16 11:37:17 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: OMG_SCAM!! (4619 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (3874 in chips, $0.50 bounty) 
+Seat 3: lontrix (4648 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (9289 in chips, $0.75 bounty) 
+Seat 5: scorza23 (8347 in chips, $0.50 bounty) 
+Seat 6: Nogat19 (5000 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15150 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (21490 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Nogat19: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+fama1977tjs: posts small blind 80
+lontrix: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 4h]
+Rebbo20: folds 
+scorza23: folds 
+Nogat19: folds 
+brianaviador: folds 
+sr2-69: folds 
+OMG_SCAM!!: raises 160 to 320
+fama1977tjs: raises 3530 to 3850 and is all-in
+lontrix: folds 
+OMG_SCAM!!: calls 3530
+*** FLOP *** [8d 8h 5c]
+*** TURN *** [8d 8h 5c] [4c]
+*** RIVER *** [8d 8h 5c 4c] [2d]
+*** SHOW DOWN ***
+fama1977tjs: shows [Tc Th] (two pair, Tens and Eights)
+OMG_SCAM!!: shows [Jc Ks] (a pair of Eights)
+fama1977tjs collected 8052 from pot
+*** SUMMARY ***
+Total pot 8052 | Rake 0 
+Board [8d 8h 5c 4c 2d]
+Seat 1: OMG_SCAM!! (button) showed [Jc Ks] and lost with a pair of Eights
+Seat 2: fama1977tjs (small blind) showed [Tc Th] and won (8052) with two pair, Tens and Eights
+Seat 3: lontrix (big blind) folded before Flop
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Nogat19 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750288795: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:37:49 UTC [2026/02/16 11:37:49 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: OMG_SCAM!! (745 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (8052 in chips, $0.50 bounty) 
+Seat 3: lontrix (4464 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (9265 in chips, $0.75 bounty) 
+Seat 5: scorza23 (8323 in chips, $0.50 bounty) 
+Seat 6: Nogat19 (4976 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15126 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (21466 in chips, $1.37 bounty) 
+OMG_SCAM!!: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Nogat19: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+lontrix: posts small blind 80
+Rebbo20: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3d]
+scorza23: folds 
+Nogat19: folds 
+brianaviador: folds 
+sr2-69: folds 
+OMG_SCAM!!: raises 561 to 721 and is all-in
+fama1977tjs: calls 721
+lontrix: folds 
+Rebbo20: calls 561
+*** FLOP *** [5c 8d 6s]
+Rebbo20: checks 
+fama1977tjs: checks 
+*** TURN *** [5c 8d 6s] [Td]
+Rebbo20: checks 
+fama1977tjs: bets 1218
+Rebbo20: folds 
+Uncalled bet (1218) returned to fama1977tjs
+*** RIVER *** [5c 8d 6s Td] [8c]
+*** SHOW DOWN ***
+OMG_SCAM!!: shows [As 6c] (two pair, Eights and Sixes)
+fama1977tjs: shows [Ts 7s] (two pair, Tens and Eights)
+fama1977tjs collected 2435 from pot
+fama1977tjs wins $0.25 for eliminating OMG_SCAM!! and their own bounty increases by $0.25 to $0.75
+OMG_SCAM!! finished the tournament
+*** SUMMARY ***
+Total pot 2435 | Rake 0 
+Board [5c 8d 6s Td 8c]
+Seat 1: OMG_SCAM!! showed [As 6c] and lost with two pair, Eights and Sixes
+Seat 2: fama1977tjs (button) showed [Ts 7s] and won (2435) with two pair, Tens and Eights
+Seat 3: lontrix (small blind) folded before Flop
+Seat 4: Rebbo20 (big blind) folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Nogat19 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750297809: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:38:37 UTC [2026/02/16 11:38:37 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 2: fama1977tjs (9742 in chips, $0.75 bounty) 
+Seat 3: lontrix (4360 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (8520 in chips, $0.75 bounty) 
+Seat 5: scorza23 (8299 in chips, $0.50 bounty) 
+Seat 6: Nogat19 (4952 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15102 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (21442 in chips, $1.37 bounty) 
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Nogat19: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+Rebbo20: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Qs]
+Nogat19: folds 
+brianaviador: folds 
+sr2-69: folds 
+fama1977tjs: folds 
+lontrix: folds 
+Rebbo20: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 328 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 328 | Rake 0 
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix (button) folded before Flop (didn't bet)
+Seat 4: Rebbo20 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (328)
+Seat 6: Nogat19 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750303988: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IX (80/160) - 2026/02/16 16:39:09 UTC [2026/02/16 11:39:09 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: STELIAN611 (5000 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (9718 in chips, $0.75 bounty) 
+Seat 3: lontrix (4336 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (8416 in chips, $0.75 bounty) 
+Seat 5: scorza23 (8523 in chips, $0.50 bounty) 
+Seat 6: Nogat19 (4928 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15078 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (21418 in chips, $1.37 bounty) 
+STELIAN611: posts the ante 24
+fama1977tjs: posts the ante 24
+lontrix: posts the ante 24
+Rebbo20: posts the ante 24
+scorza23: posts the ante 24
+Nogat19: posts the ante 24
+brianaviador: posts the ante 24
+sr2-69: posts the ante 24
+scorza23: posts small blind 80
+Nogat19: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qc]
+brianaviador: folds 
+sr2-69: raises 320 to 480
+STELIAN611: calls 480
+fama1977tjs: raises 9214 to 9694 and is all-in
+lontrix: folds 
+Rebbo20: calls 8392 and is all-in
+scorza23: folds 
+Nogat19: folds 
+sr2-69: folds 
+STELIAN611: calls 4496 and is all-in
+Uncalled bet (1302) returned to fama1977tjs
+*** FLOP *** [5d Jh Tc]
+*** TURN *** [5d Jh Tc] [6c]
+*** RIVER *** [5d Jh Tc 6c] [6d]
+*** SHOW DOWN ***
+fama1977tjs: shows [Ah Kc] (a pair of Sixes)
+Rebbo20: shows [Ad Ts] (two pair, Tens and Sixes)
+Rebbo20 collected 6832 from side pot
+STELIAN611: shows [Jd 8c] (two pair, Jacks and Sixes)
+STELIAN611 collected 15840 from main pot
+*** SUMMARY ***
+Total pot 22672 Main pot 15840. Side pot 6832. | Rake 0 
+Board [5d Jh Tc 6c 6d]
+Seat 1: STELIAN611 showed [Jd 8c] and won (15840) with two pair, Jacks and Sixes
+Seat 2: fama1977tjs showed [Ah Kc] and lost with a pair of Sixes
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 (button) showed [Ad Ts] and won (6832) with two pair, Tens and Sixes
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: Nogat19 (big blind) folded before Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 folded before Flop
+
+
+
+PokerStars Hand #259750313278: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:39:58 UTC [2026/02/16 11:39:58 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: STELIAN611 (15840 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (1302 in chips, $0.75 bounty) 
+Seat 3: lontrix (4312 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (6832 in chips, $0.75 bounty) 
+Seat 5: scorza23 (8419 in chips, $0.50 bounty) 
+Seat 6: Nogat19 (4744 in chips, $0.50 bounty) 
+Seat 7: brianaviador (15054 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (20914 in chips, $1.37 bounty) 
+STELIAN611: posts the ante 27
+fama1977tjs: posts the ante 27
+lontrix: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+Nogat19: posts the ante 27
+brianaviador: posts the ante 27
+sr2-69: posts the ante 27
+Nogat19: posts small blind 90
+brianaviador: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9h]
+sr2-69: folds 
+STELIAN611: calls 180
+fama1977tjs: folds 
+lontrix: folds 
+Rebbo20: calls 180
+scorza23: folds 
+Nogat19: calls 90
+brianaviador: checks 
+*** FLOP *** [Jd Jc 4s]
+Nogat19: checks 
+brianaviador: checks 
+STELIAN611: checks 
+Rebbo20: checks 
+*** TURN *** [Jd Jc 4s] [Ks]
+Nogat19: checks 
+brianaviador: checks 
+STELIAN611: checks 
+Rebbo20: checks 
+*** RIVER *** [Jd Jc 4s Ks] [9s]
+Nogat19: checks 
+brianaviador: checks 
+STELIAN611: checks 
+Rebbo20: checks 
+*** SHOW DOWN ***
+Nogat19: shows [Qs 4h] (two pair, Jacks and Fours)
+brianaviador: mucks hand 
+STELIAN611: mucks hand 
+Rebbo20: mucks hand 
+Nogat19 collected 936 from pot
+*** SUMMARY ***
+Total pot 936 | Rake 0 
+Board [Jd Jc 4s Ks 9s]
+Seat 1: STELIAN611 mucked [8s Qh]
+Seat 2: fama1977tjs folded before Flop (didn't bet)
+Seat 3: lontrix folded before Flop (didn't bet)
+Seat 4: Rebbo20 mucked [Ad 2d]
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Nogat19 (small blind) showed [Qs 4h] and won (936) with two pair, Jacks and Fours
+Seat 7: brianaviador (big blind) mucked [Th 3h]
+Seat 8: sr2-69 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750330769: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:41:29 UTC [2026/02/16 11:41:29 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: STELIAN611 (15633 in chips, $0.50 bounty) 
+Seat 2: fama1977tjs (1275 in chips, $0.75 bounty) 
+Seat 3: lontrix (4285 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (6625 in chips, $0.75 bounty) 
+Seat 5: scorza23 (8392 in chips, $0.50 bounty) 
+Seat 6: Nogat19 (5473 in chips, $0.50 bounty) 
+Seat 7: brianaviador (14847 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (20887 in chips, $1.37 bounty) 
+STELIAN611: posts the ante 27
+fama1977tjs: posts the ante 27
+lontrix: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+Nogat19: posts the ante 27
+brianaviador: posts the ante 27
+sr2-69: posts the ante 27
+brianaviador: posts small blind 90
+sr2-69: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Th]
+STELIAN611: folds 
+fama1977tjs is disconnected 
+fama1977tjs is connected 
+fama1977tjs: calls 180
+lontrix: calls 180
+Rebbo20: raises 1206 to 1386
+scorza23: raises 6979 to 8365 and is all-in
+Nogat19: calls 5446 and is all-in
+brianaviador: folds 
+sr2-69: folds 
+fama1977tjs: calls 1068 and is all-in
+lontrix: folds 
+Rebbo20: calls 5212 and is all-in
+Uncalled bet (1767) returned to scorza23
+*** FLOP *** [4s 7h Jc]
+*** TURN *** [4s 7h Jc] [5s]
+*** RIVER *** [4s 7h Jc 5s] [Kc]
+*** SHOW DOWN ***
+Rebbo20: shows [Kd Qc] (a pair of Kings)
+scorza23: shows [Ah Th] (high card Ace)
+Rebbo20 collected 2304 from side pot-2 
+Nogat19: shows [Ad Qs] (high card Ace)
+Rebbo20 collected 12594 from side pot-1 
+fama1977tjs: shows [Ks 6s] (a pair of Kings - lower kicker)
+Rebbo20 collected 5658 from main pot
+Rebbo20 wins $0.38 for eliminating fama1977tjs and their own bounty increases by $0.37 to $1.12
+Rebbo20 wins $0.25 for eliminating Nogat19 and their own bounty increases by $0.25 to $1.37
+Nogat19 finished the tournament
+fama1977tjs finished the tournament
+*** SUMMARY ***
+Total pot 20556 Main pot 5658. Side pot-1 12594. Side pot-2 2304. | Rake 0 
+Board [4s 7h Jc 5s Kc]
+Seat 1: STELIAN611 folded before Flop (didn't bet)
+Seat 2: fama1977tjs showed [Ks 6s] and lost with a pair of Kings
+Seat 3: lontrix folded before Flop
+Seat 4: Rebbo20 showed [Kd Qc] and won (20556) with a pair of Kings
+Seat 5: scorza23 showed [Ah Th] and lost with high card Ace
+Seat 6: Nogat19 (button) showed [Ad Qs] and lost with high card Ace
+Seat 7: brianaviador (small blind) folded before Flop
+Seat 8: sr2-69 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750342820: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:42:32 UTC [2026/02/16 11:42:32 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: STELIAN611 (15606 in chips, $0.50 bounty) 
+Seat 3: lontrix (4078 in chips, $0.50 bounty) 
+Seat 4: Rebbo20 (20556 in chips, $1.37 bounty) 
+Seat 5: scorza23 (1767 in chips, $0.50 bounty) 
+Seat 7: brianaviador (14730 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (20680 in chips, $1.37 bounty) 
+STELIAN611: posts the ante 27
+lontrix: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+brianaviador: posts the ante 27
+sr2-69: posts the ante 27
+sr2-69: posts small blind 90
+STELIAN611: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 4d]
+MSIM99 is disconnected 
+lontrix: raises 612 to 792
+Rebbo20: raises 612 to 1404
+scorza23: folds 
+brianaviador: folds 
+sr2-69: calls 1314
+STELIAN611: raises 14175 to 15579 and is all-in
+lontrix: calls 3259 and is all-in
+Rebbo20: calls 14175
+sr2-69: calls 14175
+*** FLOP *** [7c Ts 9d]
+sr2-69: bets 5074 and is all-in
+Rebbo20: calls 4950 and is all-in
+Uncalled bet (124) returned to sr2-69
+*** TURN *** [7c Ts 9d] [8c]
+*** RIVER *** [7c Ts 9d 8c] [Tc]
+*** SHOW DOWN ***
+sr2-69: shows [Qh Kc] (a pair of Tens)
+Rebbo20: shows [Td Ad] (three of a kind, Tens)
+Rebbo20 collected 9900 from side pot-2 
+STELIAN611: shows [7d 7h] (a full house, Sevens full of Tens)
+STELIAN611 collected 34584 from side pot-1 
+lontrix: shows [Ah Kh] (a pair of Tens)
+STELIAN611 collected 16366 from main pot
+STELIAN611 wins $0.25 for eliminating lontrix and their own bounty increases by $0.25 to $0.75
+lontrix finished the tournament
+Kluklu1 is disconnected 
+*** SUMMARY ***
+Total pot 60850 Main pot 16366. Side pot-1 34584. Side pot-2 9900. | Rake 0 
+Board [7c Ts 9d 8c Tc]
+Seat 1: STELIAN611 (big blind) showed [7d 7h] and won (50950) with a full house, Sevens full of Tens
+Seat 3: lontrix showed [Ah Kh] and lost with a pair of Tens
+Seat 4: Rebbo20 showed [Td Ad] and won (9900) with three of a kind, Tens
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: sr2-69 (small blind) showed [Qh Kc] and lost with a pair of Tens
+
+
+
+PokerStars Hand #259750351713: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:43:17 UTC [2026/02/16 11:43:17 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: STELIAN611 (50950 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (19167 in chips, $1 bounty) 
+Seat 3: Kluklu1 (11596 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (9900 in chips, $1.37 bounty) 
+Seat 5: scorza23 (1740 in chips, $0.50 bounty) 
+Seat 7: brianaviador (14703 in chips, $0.75 bounty) 
+Seat 8: sr2-69 (124 in chips, $1.37 bounty) 
+STELIAN611: posts the ante 27
+MSIM99: posts the ante 27
+Kluklu1: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+brianaviador: posts the ante 27
+sr2-69: posts the ante 27
+STELIAN611: posts small blind 90
+MSIM99: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Kh]
+Kluklu1: folds 
+Rebbo20: raises 9693 to 9873 and is all-in
+scorza23: calls 1713 and is all-in
+brianaviador: folds 
+sr2-69: calls 97 and is all-in
+STELIAN611: folds 
+MSIM99: folds 
+Uncalled bet (8160) returned to Rebbo20
+*** FLOP *** [Ks 9c 5s]
+*** TURN *** [Ks 9c 5s] [8h]
+*** RIVER *** [Ks 9c 5s 8h] [3h]
+*** SHOW DOWN ***
+Rebbo20: shows [Qc Jh] (high card King)
+scorza23: shows [Qs Kh] (a pair of Kings)
+scorza23 collected 3315 from side pot
+sr2-69: shows [8c Tc] (a pair of Eights)
+scorza23 collected 667 from main pot
+scorza23 wins $0.69 for eliminating sr2-69 and their own bounty increases by $0.68 to $1.18
+sr2-69 finished the tournament
+*** SUMMARY ***
+Total pot 3982 Main pot 667. Side pot 3315. | Rake 0 
+Board [Ks 9c 5s 8h 3h]
+Seat 1: STELIAN611 (small blind) folded before Flop
+Seat 2: MSIM99 (big blind) folded before Flop
+Seat 3: Kluklu1 folded before Flop (didn't bet)
+Seat 4: Rebbo20 showed [Qc Jh] and lost with high card King
+Seat 5: scorza23 showed [Qs Kh] and won (3982) with a pair of Kings
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: sr2-69 (button) showed [8c Tc] and lost with a pair of Eights
+
+
+
+PokerStars Hand #259750358626: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:43:53 UTC [2026/02/16 11:43:53 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: STELIAN611 (50833 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (18960 in chips, $1 bounty) 
+Seat 3: Kluklu1 (11569 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (8160 in chips, $1.37 bounty) 
+Seat 5: scorza23 (3982 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6784 in chips, $0.75 bounty) 
+Seat 7: brianaviador (14676 in chips, $0.75 bounty) 
+STELIAN611: posts the ante 27
+MSIM99: posts the ante 27
+Kluklu1: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+Savell1150: posts the ante 27
+brianaviador: posts the ante 27
+MSIM99: posts small blind 90
+Kluklu1: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Js]
+Rebbo20: folds 
+scorza23: folds 
+Savell1150: folds 
+brianaviador: folds 
+STELIAN611: folds 
+MSIM99: calls 90
+Kluklu1: checks 
+*** FLOP *** [Ks 2d 9d]
+MSIM99: bets 180
+Kluklu1: calls 180
+*** TURN *** [Ks 2d 9d] [Kh]
+MSIM99: bets 180
+Kluklu1: calls 180
+*** RIVER *** [Ks 2d 9d Kh] [6s]
+MSIM99: bets 180
+Kluklu1: calls 180
+*** SHOW DOWN ***
+MSIM99: shows [Qh 9s] (two pair, Kings and Nines)
+Kluklu1: shows [As Ah] (two pair, Aces and Kings)
+Kluklu1 collected 1629 from pot
+*** SUMMARY ***
+Total pot 1629 | Rake 0 
+Board [Ks 2d 9d Kh 6s]
+Seat 1: STELIAN611 (button) folded before Flop (didn't bet)
+Seat 2: MSIM99 (small blind) showed [Qh 9s] and lost with two pair, Kings and Nines
+Seat 3: Kluklu1 (big blind) showed [As Ah] and won (1629) with two pair, Aces and Kings
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Savell1150 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750367360: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:44:38 UTC [2026/02/16 11:44:38 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: STELIAN611 (50806 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (18213 in chips, $1 bounty) 
+Seat 3: Kluklu1 (12451 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (8133 in chips, $1.37 bounty) 
+Seat 5: scorza23 (3955 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6757 in chips, $0.75 bounty) 
+Seat 7: brianaviador (14649 in chips, $0.75 bounty) 
+STELIAN611: posts the ante 27
+MSIM99: posts the ante 27
+Kluklu1: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+Savell1150: posts the ante 27
+brianaviador: posts the ante 27
+Kluklu1: posts small blind 90
+Rebbo20: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Qh]
+scorza23: folds 
+Savell1150: folds 
+brianaviador: folds 
+STELIAN611: calls 180
+MSIM99: raises 1080 to 1260
+eder_silvabr is disconnected 
+Kluklu1: folds 
+Rebbo20: folds 
+STELIAN611: calls 1080
+*** FLOP *** [8d Ad 7d]
+STELIAN611: bets 180
+MSIM99: raises 3339 to 3519
+STELIAN611: folds 
+Uncalled bet (3339) returned to MSIM99
+MSIM99 collected 3339 from pot
+MSIM99: doesn't show hand 
+*** SUMMARY ***
+Total pot 3339 | Rake 0 
+Board [8d Ad 7d]
+Seat 1: STELIAN611 folded on the Flop
+Seat 2: MSIM99 (button) collected (3339)
+Seat 3: Kluklu1 (small blind) folded before Flop
+Seat 4: Rebbo20 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Savell1150 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750376648: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:45:26 UTC [2026/02/16 11:45:26 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 1: STELIAN611 (49339 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (20085 in chips, $1 bounty) 
+Seat 3: Kluklu1 (12334 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7926 in chips, $1.37 bounty) 
+Seat 5: scorza23 (3928 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6730 in chips, $0.75 bounty) 
+Seat 7: brianaviador (14622 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (5000 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 27
+MSIM99: posts the ante 27
+Kluklu1: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+Savell1150: posts the ante 27
+brianaviador: posts the ante 27
+eder_silvabr: posts the ante 27
+Rebbo20: posts small blind 90
+scorza23: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Ah]
+Savell1150: calls 180
+brianaviador: folds 
+eder_silvabr: folds 
+STELIAN611: raises 49132 to 49312 and is all-in
+MSIM99: folds 
+Kluklu1: folds 
+Rebbo20: folds 
+scorza23: calls 3721 and is all-in
+Savell1150: folds 
+Uncalled bet (45411) returned to STELIAN611
+*** FLOP *** [5h 8s Qh]
+*** TURN *** [5h 8s Qh] [Kh]
+*** RIVER *** [5h 8s Qh Kh] [Jd]
+*** SHOW DOWN ***
+scorza23: shows [Th Ah] (a flush, Ace high)
+STELIAN611: shows [8h 8d] (three of a kind, Eights)
+scorza23 collected 8288 from pot
+*** SUMMARY ***
+Total pot 8288 | Rake 0 
+Board [5h 8s Qh Kh Jd]
+Seat 1: STELIAN611 showed [8h 8d] and lost with three of a kind, Eights
+Seat 2: MSIM99 folded before Flop (didn't bet)
+Seat 3: Kluklu1 (button) folded before Flop (didn't bet)
+Seat 4: Rebbo20 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [Th Ah] and won (8288) with a flush, Ace high
+Seat 6: Savell1150 folded before Flop
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: eder_silvabr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750386376: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level X (90/180) - 2026/02/16 16:46:16 UTC [2026/02/16 11:46:16 ET]
+Table '3974766978 40' 8-max Seat #4 is the button
+Seat 1: STELIAN611 (45411 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (20058 in chips, $1 bounty) 
+Seat 3: Kluklu1 (12307 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7809 in chips, $1.37 bounty) 
+Seat 5: scorza23 (8288 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6523 in chips, $0.75 bounty) 
+Seat 7: brianaviador (14595 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (4973 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 27
+MSIM99: posts the ante 27
+Kluklu1: posts the ante 27
+Rebbo20: posts the ante 27
+scorza23: posts the ante 27
+Savell1150: posts the ante 27
+brianaviador: posts the ante 27
+eder_silvabr: posts the ante 27
+scorza23: posts small blind 90
+Savell1150: posts big blind 180
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 9s]
+brianaviador: folds 
+eder_silvabr: folds 
+STELIAN611: calls 180
+MSIM99: calls 180
+Kluklu1: folds 
+Rebbo20: folds 
+scorza23: folds 
+Savell1150: checks 
+*** FLOP *** [6c 7d 8h]
+Savell1150: checks 
+STELIAN611: checks 
+MSIM99: checks 
+*** TURN *** [6c 7d 8h] [2c]
+Savell1150: bets 180
+STELIAN611: calls 180
+MSIM99: calls 180
+*** RIVER *** [6c 7d 8h 2c] [9c]
+Savell1150: checks 
+STELIAN611: bets 180
+MSIM99: calls 180
+Savell1150: folds 
+*** SHOW DOWN ***
+STELIAN611: shows [9h Jh] (a pair of Nines)
+MSIM99: shows [Kh Td] (a straight, Six to Ten)
+MSIM99 collected 1746 from pot
+*** SUMMARY ***
+Total pot 1746 | Rake 0 
+Board [6c 7d 8h 2c 9c]
+Seat 1: STELIAN611 showed [9h Jh] and lost with a pair of Nines
+Seat 2: MSIM99 showed [Kh Td] and won (1746) with a straight, Six to Ten
+Seat 3: Kluklu1 folded before Flop (didn't bet)
+Seat 4: Rebbo20 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: Savell1150 (big blind) folded on the River
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: eder_silvabr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750407588: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level XI (100/200) - 2026/02/16 16:48:07 UTC [2026/02/16 11:48:07 ET]
+Table '3974766978 40' 8-max Seat #5 is the button
+Seat 1: STELIAN611 (44844 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (21237 in chips, $1 bounty) 
+Seat 3: Kluklu1 (12280 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7782 in chips, $1.37 bounty) 
+Seat 5: scorza23 (8171 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6136 in chips, $0.75 bounty) 
+Seat 7: brianaviador (14568 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (4946 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 30
+MSIM99: posts the ante 30
+Kluklu1: posts the ante 30
+Rebbo20: posts the ante 30
+scorza23: posts the ante 30
+Savell1150: posts the ante 30
+brianaviador: posts the ante 30
+eder_silvabr: posts the ante 30
+Savell1150: posts small blind 100
+brianaviador: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 7s]
+eder_silvabr: folds 
+STELIAN611: folds 
+MSIM99: folds 
+Kluklu1: calls 200
+Rebbo20: folds 
+scorza23: folds 
+Savell1150: calls 100
+brianaviador: checks 
+*** FLOP *** [4d 5d Qh]
+Savell1150: checks 
+brianaviador: checks 
+Kluklu1: checks 
+*** TURN *** [4d 5d Qh] [Qd]
+Savell1150: bets 400
+brianaviador: calls 400
+Kluklu1: folds 
+*** RIVER *** [4d 5d Qh Qd] [3h]
+Savell1150: checks 
+brianaviador: checks 
+*** SHOW DOWN ***
+Savell1150: shows [Tc Ts] (two pair, Queens and Tens)
+brianaviador: mucks hand 
+Savell1150 collected 1640 from pot
+*** SUMMARY ***
+Total pot 1640 | Rake 0 
+Board [4d 5d Qh Qd 3h]
+Seat 1: STELIAN611 folded before Flop (didn't bet)
+Seat 2: MSIM99 folded before Flop (didn't bet)
+Seat 3: Kluklu1 folded on the Turn
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Savell1150 (small blind) showed [Tc Ts] and won (1640) with two pair, Queens and Tens
+Seat 7: brianaviador (big blind) mucked [4s 5s]
+Seat 8: eder_silvabr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750419743: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level XI (100/200) - 2026/02/16 16:49:10 UTC [2026/02/16 11:49:10 ET]
+Table '3974766978 40' 8-max Seat #6 is the button
+Seat 1: STELIAN611 (44814 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (21207 in chips, $1 bounty) 
+Seat 3: Kluklu1 (12050 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7752 in chips, $1.37 bounty) 
+Seat 5: scorza23 (8141 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (7146 in chips, $0.75 bounty) 
+Seat 7: brianaviador (13938 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (4916 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 30
+MSIM99: posts the ante 30
+Kluklu1: posts the ante 30
+Rebbo20: posts the ante 30
+scorza23: posts the ante 30
+Savell1150: posts the ante 30
+brianaviador: posts the ante 30
+eder_silvabr: posts the ante 30
+brianaviador: posts small blind 100
+eder_silvabr: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 6h]
+STELIAN611: raises 740 to 940
+MSIM99: folds 
+Kluklu1: folds 
+Rebbo20: folds 
+scorza23: folds 
+Savell1150: folds 
+brianaviador: folds 
+eder_silvabr: folds 
+Uncalled bet (740) returned to STELIAN611
+STELIAN611 collected 740 from pot
+*** SUMMARY ***
+Total pot 740 | Rake 0 
+Seat 1: STELIAN611 collected (740)
+Seat 2: MSIM99 folded before Flop (didn't bet)
+Seat 3: Kluklu1 folded before Flop (didn't bet)
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Savell1150 (button) folded before Flop (didn't bet)
+Seat 7: brianaviador (small blind) folded before Flop
+Seat 8: eder_silvabr (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750424315: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level XI (100/200) - 2026/02/16 16:49:33 UTC [2026/02/16 11:49:33 ET]
+Table '3974766978 40' 8-max Seat #7 is the button
+Seat 1: STELIAN611 (45324 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (21177 in chips, $1 bounty) 
+Seat 3: Kluklu1 (12020 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7722 in chips, $1.37 bounty) 
+Seat 5: scorza23 (8111 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (7116 in chips, $0.75 bounty) 
+Seat 7: brianaviador (13808 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (4686 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 30
+MSIM99: posts the ante 30
+Kluklu1: posts the ante 30
+Rebbo20: posts the ante 30
+scorza23: posts the ante 30
+Savell1150: posts the ante 30
+brianaviador: posts the ante 30
+eder_silvabr: posts the ante 30
+eder_silvabr: posts small blind 100
+STELIAN611: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 3c]
+MSIM99: folds 
+Kluklu1: calls 200
+Rebbo20: folds 
+scorza23: folds 
+Savell1150: calls 200
+brianaviador: folds 
+eder_silvabr: raises 4456 to 4656 and is all-in
+STELIAN611: folds 
+Kluklu1: raises 7334 to 11990 and is all-in
+Savell1150: folds 
+Uncalled bet (7334) returned to Kluklu1
+*** FLOP *** [7d 7h 3d]
+*** TURN *** [7d 7h 3d] [8s]
+*** RIVER *** [7d 7h 3d 8s] [9d]
+*** SHOW DOWN ***
+eder_silvabr: shows [Kd As] (a pair of Sevens)
+Kluklu1: shows [Qc Ad] (a pair of Sevens - lower kicker)
+eder_silvabr collected 9952 from pot
+*** SUMMARY ***
+Total pot 9952 | Rake 0 
+Board [7d 7h 3d 8s 9d]
+Seat 1: STELIAN611 (big blind) folded before Flop
+Seat 2: MSIM99 folded before Flop (didn't bet)
+Seat 3: Kluklu1 showed [Qc Ad] and lost with a pair of Sevens
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Savell1150 folded before Flop
+Seat 7: brianaviador (button) folded before Flop (didn't bet)
+Seat 8: eder_silvabr (small blind) showed [Kd As] and won (9952) with a pair of Sevens
+
+
+
+PokerStars Hand #259750432791: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level XI (100/200) - 2026/02/16 16:50:17 UTC [2026/02/16 11:50:17 ET]
+Table '3974766978 40' 8-max Seat #8 is the button
+Seat 1: STELIAN611 (45094 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (21147 in chips, $1 bounty) 
+Seat 3: Kluklu1 (7334 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7692 in chips, $1.37 bounty) 
+Seat 5: scorza23 (8081 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6886 in chips, $0.75 bounty) 
+Seat 7: brianaviador (13778 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (9952 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 30
+MSIM99: posts the ante 30
+Kluklu1: posts the ante 30
+Rebbo20: posts the ante 30
+scorza23: posts the ante 30
+Savell1150: posts the ante 30
+brianaviador: posts the ante 30
+eder_silvabr: posts the ante 30
+STELIAN611: posts small blind 100
+MSIM99: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 7c]
+Kluklu1: raises 600 to 800
+Rebbo20: folds 
+scorza23: folds 
+Savell1150: folds 
+brianaviador: folds 
+eder_silvabr: folds 
+STELIAN611: calls 700
+MSIM99: folds 
+*** FLOP *** [3c 2d As]
+STELIAN611: checks 
+Kluklu1: bets 1000
+STELIAN611: calls 1000
+*** TURN *** [3c 2d As] [9h]
+STELIAN611: checks 
+Kluklu1: bets 5504 and is all-in
+STELIAN611: folds 
+Uncalled bet (5504) returned to Kluklu1
+Kluklu1 collected 4040 from pot
+Kluklu1: doesn't show hand 
+*** SUMMARY ***
+Total pot 4040 | Rake 0 
+Board [3c 2d As 9h]
+Seat 1: STELIAN611 (small blind) folded on the Turn
+Seat 2: MSIM99 (big blind) folded before Flop
+Seat 3: Kluklu1 collected (4040)
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Savell1150 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: eder_silvabr (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750441640: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level XI (100/200) - 2026/02/16 16:51:03 UTC [2026/02/16 11:51:03 ET]
+Table '3974766978 40' 8-max Seat #1 is the button
+Seat 1: STELIAN611 (43264 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (20917 in chips, $1 bounty) 
+Seat 3: Kluklu1 (9544 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7662 in chips, $1.37 bounty) 
+Seat 5: scorza23 (8051 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6856 in chips, $0.75 bounty) 
+Seat 7: brianaviador (13748 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (9922 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 30
+MSIM99: posts the ante 30
+Kluklu1: posts the ante 30
+Rebbo20: posts the ante 30
+scorza23: posts the ante 30
+Savell1150: posts the ante 30
+brianaviador: posts the ante 30
+eder_silvabr: posts the ante 30
+MSIM99: posts small blind 100
+Kluklu1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6s]
+Rebbo20: folds 
+scorza23: folds 
+Savell1150: folds 
+brianaviador: folds 
+eder_silvabr: folds 
+STELIAN611: calls 200
+MSIM99: calls 100
+Kluklu1: checks 
+*** FLOP *** [9d 4c 7c]
+MSIM99: checks 
+Kluklu1: checks 
+STELIAN611: checks 
+*** TURN *** [9d 4c 7c] [2h]
+MSIM99: bets 200
+Kluklu1: calls 200
+STELIAN611: calls 200
+*** RIVER *** [9d 4c 7c 2h] [As]
+MSIM99: checks 
+Kluklu1: bets 200
+STELIAN611: calls 200
+MSIM99: calls 200
+*** SHOW DOWN ***
+Kluklu1: shows [3d 7h] (a pair of Sevens)
+STELIAN611: mucks hand 
+MSIM99: shows [9h 6h] (a pair of Nines)
+MSIM99 collected 2040 from pot
+*** SUMMARY ***
+Total pot 2040 | Rake 0 
+Board [9d 4c 7c 2h As]
+Seat 1: STELIAN611 (button) mucked [2d Kd]
+Seat 2: MSIM99 (small blind) showed [9h 6h] and won (2040) with a pair of Nines
+Seat 3: Kluklu1 (big blind) showed [3d 7h] and lost with a pair of Sevens
+Seat 4: Rebbo20 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Savell1150 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: eder_silvabr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750454691: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level XI (100/200) - 2026/02/16 16:52:11 UTC [2026/02/16 11:52:11 ET]
+Table '3974766978 40' 8-max Seat #2 is the button
+Seat 1: STELIAN611 (42634 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (22327 in chips, $1 bounty) 
+Seat 3: Kluklu1 (8914 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (7632 in chips, $1.37 bounty) 
+Seat 5: scorza23 (8021 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6826 in chips, $0.75 bounty) 
+Seat 7: brianaviador (13718 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (9892 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 30
+MSIM99: posts the ante 30
+Kluklu1: posts the ante 30
+Rebbo20: posts the ante 30
+scorza23: posts the ante 30
+Savell1150: posts the ante 30
+brianaviador: posts the ante 30
+eder_silvabr: posts the ante 30
+Kluklu1: posts small blind 100
+Rebbo20: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Jh]
+scorza23: raises 7791 to 7991 and is all-in
+Savell1150: folds 
+brianaviador: folds 
+eder_silvabr: folds 
+STELIAN611: folds 
+MSIM99: folds 
+Kluklu1: folds 
+Rebbo20: calls 7402 and is all-in
+Uncalled bet (389) returned to scorza23
+*** FLOP *** [Ah 3h Js]
+*** TURN *** [Ah 3h Js] [9h]
+*** RIVER *** [Ah 3h Js 9h] [Kc]
+*** SHOW DOWN ***
+Rebbo20: shows [Qh Kd] (a pair of Kings)
+scorza23: shows [Qd Jh] (a pair of Jacks)
+Rebbo20 collected 15544 from pot
+*** SUMMARY ***
+Total pot 15544 | Rake 0 
+Board [Ah 3h Js 9h Kc]
+Seat 1: STELIAN611 folded before Flop (didn't bet)
+Seat 2: MSIM99 (button) folded before Flop (didn't bet)
+Seat 3: Kluklu1 (small blind) folded before Flop
+Seat 4: Rebbo20 (big blind) showed [Qh Kd] and won (15544) with a pair of Kings
+Seat 5: scorza23 showed [Qd Jh] and lost with a pair of Jacks
+Seat 6: Savell1150 folded before Flop (didn't bet)
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: eder_silvabr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750462174: Tournament #3974766978, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level XI (100/200) - 2026/02/16 16:52:50 UTC [2026/02/16 11:52:50 ET]
+Table '3974766978 40' 8-max Seat #3 is the button
+Seat 1: STELIAN611 (42604 in chips, $0.75 bounty) 
+Seat 2: MSIM99 (22297 in chips, $1 bounty) 
+Seat 3: Kluklu1 (8784 in chips, $0.75 bounty) 
+Seat 4: Rebbo20 (15544 in chips, $1.37 bounty) 
+Seat 5: scorza23 (389 in chips, $1.18 bounty) 
+Seat 6: Savell1150 (6796 in chips, $0.75 bounty) 
+Seat 7: brianaviador (13688 in chips, $0.75 bounty) 
+Seat 8: eder_silvabr (9862 in chips, $0.50 bounty) 
+STELIAN611: posts the ante 30
+MSIM99: posts the ante 30
+Kluklu1: posts the ante 30
+Rebbo20: posts the ante 30
+scorza23: posts the ante 30
+Savell1150: posts the ante 30
+brianaviador: posts the ante 30
+eder_silvabr: posts the ante 30
+Rebbo20: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Th]
+Savell1150: calls 200
+brianaviador: folds 
+eder_silvabr: folds 
+STELIAN611: raises 42374 to 42574 and is all-in
+MSIM99: folds 
+Kluklu1: folds 
+Rebbo20: folds 
+scorza23: calls 159 and is all-in
+Savell1150: calls 6566 and is all-in
+Uncalled bet (35808) returned to STELIAN611
+*** FLOP *** [4h Jc 7h]
+*** TURN *** [4h Jc 7h] [5c]
+*** RIVER *** [4h Jc 7h 5c] [Ac]
+*** SHOW DOWN ***
+Savell1150: shows [As Jd] (two pair, Aces and Jacks)
+STELIAN611: shows [Qc Js] (a pair of Jacks)
+Savell1150 collected 12814 from side pot
+scorza23: shows [9c Th] (high card Ace)
+Savell1150 collected 1417 from main pot
+Savell1150 wins $0.59 for eliminating scorza23 and their own bounty increases by $0.59 to $1.34
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 14231 Main pot 1417. Side pot 12814. | Rake 0 
+Board [4h Jc 7h 5c Ac]
+Seat 1: STELIAN611 showed [Qc Js] and lost with a pair of Jacks
+Seat 2: MSIM99 folded before Flop (didn't bet)
+Seat 3: Kluklu1 (button) folded before Flop (didn't bet)
+Seat 4: Rebbo20 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [9c Th] and lost with high card Ace
+Seat 6: Savell1150 showed [As Jd] and won (14231) with two pair, Aces and Jacks
+Seat 7: brianaviador folded before Flop (didn't bet)
+Seat 8: eder_silvabr folded before Flop (didn't bet)
+
+
+

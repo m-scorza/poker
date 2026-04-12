@@ -1,0 +1,1544 @@
+﻿PokerStars Hand #260346813278: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:31:57 UTC [2026/04/04 17:31:57 ET]
+Table '3989317146 1' 9-max Seat #1 is the button
+Seat 1: Superimmi (1500 in chips) 
+Seat 2: SenegoiD31 (1500 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: crazzyp0ker (1500 in chips) 
+Seat 5: DerBozz249 (1500 in chips) 
+Seat 6: Makaveli1009 (1500 in chips) 
+Seat 7: TMixT (1500 in chips) 
+Seat 8: vl3_2k7 (1500 in chips) 
+Seat 9: Roneisu (1500 in chips) 
+Superimmi: posts the ante 3
+SenegoiD31: posts the ante 3
+scorza23: posts the ante 3
+crazzyp0ker: posts the ante 3
+DerBozz249: posts the ante 3
+Makaveli1009: posts the ante 3
+TMixT: posts the ante 3
+vl3_2k7: posts the ante 3
+Roneisu: posts the ante 3
+SenegoiD31: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 9d]
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 40 to 60
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+Uncalled bet (40) returned to Makaveli1009
+Makaveli1009 collected 77 from pot
+Makaveli1009: doesn't show hand 
+*** SUMMARY ***
+Total pot 77 | Rake 0 
+Seat 1: Superimmi (button) folded before Flop (didn't bet)
+Seat 2: SenegoiD31 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 collected (77)
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346819922: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:32:26 UTC [2026/04/04 17:32:26 ET]
+Table '3989317146 1' 9-max Seat #2 is the button
+Seat 1: Superimmi (1497 in chips) 
+Seat 2: SenegoiD31 (1487 in chips) 
+Seat 3: scorza23 (1477 in chips) 
+Seat 4: crazzyp0ker (1497 in chips) 
+Seat 5: DerBozz249 (1497 in chips) 
+Seat 6: Makaveli1009 (1554 in chips) 
+Seat 7: TMixT (1497 in chips) 
+Seat 8: vl3_2k7 (1497 in chips) 
+Seat 9: Roneisu (1497 in chips) 
+Superimmi: posts the ante 3
+SenegoiD31: posts the ante 3
+scorza23: posts the ante 3
+crazzyp0ker: posts the ante 3
+DerBozz249: posts the ante 3
+Makaveli1009: posts the ante 3
+TMixT: posts the ante 3
+vl3_2k7: posts the ante 3
+Roneisu: posts the ante 3
+scorza23: posts small blind 10
+crazzyp0ker: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 3d]
+DerBozz249: calls 20
+Makaveli1009: calls 20
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: raises 40 to 60
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: calls 40
+Makaveli1009: calls 40
+*** FLOP *** [2h 8s Qs]
+DerBozz249: checks 
+Makaveli1009: bets 119
+SenegoiD31: raises 181 to 300
+DerBozz249: folds 
+Makaveli1009: calls 181
+*** TURN *** [2h 8s Qs] [As]
+Makaveli1009: checks 
+SenegoiD31: checks 
+*** RIVER *** [2h 8s Qs As] [Kc]
+Makaveli1009: checks 
+SenegoiD31: bets 419
+Makaveli1009: folds 
+Uncalled bet (419) returned to SenegoiD31
+SenegoiD31 collected 837 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 837 | Rake 0 
+Board [2h 8s Qs As Kc]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 (button) collected (837)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: crazzyp0ker (big blind) folded before Flop
+Seat 5: DerBozz249 folded on the Flop
+Seat 6: Makaveli1009 folded on the River
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346839995: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:33:52 UTC [2026/04/04 17:33:52 ET]
+Table '3989317146 1' 9-max Seat #3 is the button
+Seat 1: Superimmi (1494 in chips) 
+Seat 2: SenegoiD31 (1961 in chips) 
+Seat 3: scorza23 (1464 in chips) 
+Seat 4: crazzyp0ker (1474 in chips) 
+Seat 5: DerBozz249 (1434 in chips) 
+Seat 6: Makaveli1009 (1191 in chips) 
+Seat 7: TMixT (1494 in chips) 
+Seat 8: vl3_2k7 (1494 in chips) 
+Seat 9: Roneisu (1494 in chips) 
+Superimmi: posts the ante 3
+SenegoiD31: posts the ante 3
+scorza23: posts the ante 3
+crazzyp0ker: posts the ante 3
+DerBozz249: posts the ante 3
+Makaveli1009: posts the ante 3
+TMixT: posts the ante 3
+vl3_2k7: posts the ante 3
+Roneisu: posts the ante 3
+crazzyp0ker: posts small blind 10
+DerBozz249: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 7s]
+Makaveli1009: folds 
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: raises 20 to 40
+crazzyp0ker: folds 
+DerBozz249: folds 
+Uncalled bet (20) returned to scorza23
+scorza23 collected 77 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 77 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) collected (77)
+Seat 4: crazzyp0ker (small blind) folded before Flop
+Seat 5: DerBozz249 (big blind) folded before Flop
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346850976: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:34:39 UTC [2026/04/04 17:34:39 ET]
+Table '3989317146 1' 9-max Seat #4 is the button
+Seat 1: Superimmi (1491 in chips) 
+Seat 2: SenegoiD31 (1958 in chips) 
+Seat 3: scorza23 (1518 in chips) 
+Seat 4: crazzyp0ker (1461 in chips) 
+Seat 5: DerBozz249 (1411 in chips) 
+Seat 6: Makaveli1009 (1188 in chips) 
+Seat 7: TMixT (1491 in chips) 
+Seat 8: vl3_2k7 (1491 in chips) 
+Seat 9: Roneisu (1491 in chips) 
+Superimmi: posts the ante 3
+SenegoiD31: posts the ante 3
+scorza23: posts the ante 3
+crazzyp0ker: posts the ante 3
+DerBozz249: posts the ante 3
+Makaveli1009: posts the ante 3
+TMixT: posts the ante 3
+vl3_2k7: posts the ante 3
+Roneisu: posts the ante 3
+DerBozz249: posts small blind 10
+Makaveli1009: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 6c]
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: raises 20 to 40
+DerBozz249: folds 
+Makaveli1009: folds 
+Uncalled bet (20) returned to crazzyp0ker
+crazzyp0ker collected 77 from pot
+crazzyp0ker: doesn't show hand 
+*** SUMMARY ***
+Total pot 77 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker (button) collected (77)
+Seat 5: DerBozz249 (small blind) folded before Flop
+Seat 6: Makaveli1009 (big blind) folded before Flop
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346861294: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:35:23 UTC [2026/04/04 17:35:23 ET]
+Table '3989317146 1' 9-max Seat #5 is the button
+Seat 1: Superimmi (1488 in chips) 
+Seat 2: SenegoiD31 (1955 in chips) 
+Seat 3: scorza23 (1515 in chips) 
+Seat 4: crazzyp0ker (1515 in chips) 
+Seat 5: DerBozz249 (1398 in chips) 
+Seat 6: Makaveli1009 (1165 in chips) 
+Seat 7: TMixT (1488 in chips) 
+Seat 8: vl3_2k7 (1488 in chips) 
+Seat 9: Roneisu (1488 in chips) 
+Superimmi: posts the ante 3
+SenegoiD31: posts the ante 3
+scorza23: posts the ante 3
+crazzyp0ker: posts the ante 3
+DerBozz249: posts the ante 3
+Makaveli1009: posts the ante 3
+TMixT: posts the ante 3
+vl3_2k7: posts the ante 3
+Roneisu: posts the ante 3
+Makaveli1009: posts small blind 10
+TMixT: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 8h]
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: raises 20 to 40
+DerBozz249: folds 
+Makaveli1009: folds 
+TMixT: calls 20
+*** FLOP *** [2s Ad Ah]
+TMixT: checks 
+crazzyp0ker: bets 29
+TMixT: calls 29
+*** TURN *** [2s Ad Ah] [3s]
+TMixT: checks 
+crazzyp0ker: bets 50
+TMixT: calls 50
+*** RIVER *** [2s Ad Ah 3s] [Td]
+TMixT: checks 
+crazzyp0ker: bets 190
+TMixT: folds 
+Uncalled bet (190) returned to crazzyp0ker
+crazzyp0ker collected 275 from pot
+crazzyp0ker: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Board [2s Ad Ah 3s Td]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker collected (275)
+Seat 5: DerBozz249 (button) folded before Flop (didn't bet)
+Seat 6: Makaveli1009 (small blind) folded before Flop
+Seat 7: TMixT (big blind) folded on the River
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346876409: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:36:28 UTC [2026/04/04 17:36:28 ET]
+Table '3989317146 1' 9-max Seat #6 is the button
+Seat 1: Superimmi (1485 in chips) 
+Seat 2: SenegoiD31 (1952 in chips) 
+Seat 3: scorza23 (1512 in chips) 
+Seat 4: crazzyp0ker (1668 in chips) 
+Seat 5: DerBozz249 (1395 in chips) 
+Seat 6: Makaveli1009 (1152 in chips) 
+Seat 7: TMixT (1366 in chips) 
+Seat 8: vl3_2k7 (1485 in chips) 
+Seat 9: Roneisu (1485 in chips) 
+Superimmi: posts the ante 3
+SenegoiD31: posts the ante 3
+scorza23: posts the ante 3
+crazzyp0ker: posts the ante 3
+DerBozz249: posts the ante 3
+Makaveli1009: posts the ante 3
+TMixT: posts the ante 3
+vl3_2k7: posts the ante 3
+Roneisu: posts the ante 3
+TMixT: posts small blind 10
+vl3_2k7: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 4s]
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: folds 
+TMixT: calls 10
+vl3_2k7: raises 60 to 80
+TMixT: folds 
+Uncalled bet (60) returned to vl3_2k7
+vl3_2k7 collected 67 from pot
+*** SUMMARY ***
+Total pot 67 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 (button) folded before Flop (didn't bet)
+Seat 7: TMixT (small blind) folded before Flop
+Seat 8: vl3_2k7 (big blind) collected (67)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346886290: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:37:10 UTC [2026/04/04 17:37:10 ET]
+Table '3989317146 1' 9-max Seat #7 is the button
+Seat 1: Superimmi (1482 in chips) 
+Seat 2: SenegoiD31 (1949 in chips) 
+Seat 3: scorza23 (1509 in chips) 
+Seat 4: crazzyp0ker (1665 in chips) 
+Seat 5: DerBozz249 (1392 in chips) 
+Seat 6: Makaveli1009 (1149 in chips) 
+Seat 7: TMixT (1343 in chips) 
+Seat 8: vl3_2k7 (1529 in chips) 
+Seat 9: Roneisu (1482 in chips) 
+Superimmi: posts the ante 4
+SenegoiD31: posts the ante 4
+scorza23: posts the ante 4
+crazzyp0ker: posts the ante 4
+DerBozz249: posts the ante 4
+Makaveli1009: posts the ante 4
+TMixT: posts the ante 4
+vl3_2k7: posts the ante 4
+Roneisu: posts the ante 4
+vl3_2k7: posts small blind 15
+Roneisu: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 8c]
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: raises 30 to 60
+DerBozz249: folds 
+Makaveli1009: folds 
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: raises 300 to 360
+crazzyp0ker: folds 
+Uncalled bet (300) returned to Roneisu
+Roneisu collected 171 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 171 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 7: TMixT (button) folded before Flop (didn't bet)
+Seat 8: vl3_2k7 (small blind) folded before Flop
+Seat 9: Roneisu (big blind) collected (171)
+
+
+
+PokerStars Hand #260346894110: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:37:43 UTC [2026/04/04 17:37:43 ET]
+Table '3989317146 1' 9-max Seat #8 is the button
+Seat 1: Superimmi (1478 in chips) 
+Seat 2: SenegoiD31 (1945 in chips) 
+Seat 3: scorza23 (1505 in chips) 
+Seat 4: crazzyp0ker (1601 in chips) 
+Seat 5: DerBozz249 (1388 in chips) 
+Seat 6: Makaveli1009 (1145 in chips) 
+Seat 7: TMixT (1339 in chips) 
+Seat 8: vl3_2k7 (1510 in chips) 
+Seat 9: Roneisu (1589 in chips) 
+Superimmi: posts the ante 4
+SenegoiD31: posts the ante 4
+scorza23: posts the ante 4
+crazzyp0ker: posts the ante 4
+DerBozz249: posts the ante 4
+Makaveli1009: posts the ante 4
+TMixT: posts the ante 4
+vl3_2k7: posts the ante 4
+Roneisu: posts the ante 4
+Roneisu: posts small blind 15
+Superimmi: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Td]
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 30 to 60
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+Uncalled bet (30) returned to Makaveli1009
+Makaveli1009 collected 111 from pot
+Makaveli1009: doesn't show hand 
+*** SUMMARY ***
+Total pot 111 | Rake 0 
+Seat 1: Superimmi (big blind) folded before Flop
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 collected (111)
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 9: Roneisu (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346900525: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:38:11 UTC [2026/04/04 17:38:11 ET]
+Table '3989317146 1' 9-max Seat #9 is the button
+Seat 1: Superimmi (1444 in chips) 
+Seat 2: SenegoiD31 (1941 in chips) 
+Seat 3: scorza23 (1501 in chips) 
+Seat 4: crazzyp0ker (1597 in chips) 
+Seat 5: DerBozz249 (1384 in chips) 
+Seat 6: Makaveli1009 (1222 in chips) 
+Seat 7: TMixT (1335 in chips) 
+Seat 8: vl3_2k7 (1506 in chips) 
+Seat 9: Roneisu (1570 in chips) 
+Superimmi: posts the ante 4
+SenegoiD31: posts the ante 4
+scorza23: posts the ante 4
+crazzyp0ker: posts the ante 4
+DerBozz249: posts the ante 4
+Makaveli1009: posts the ante 4
+TMixT: posts the ante 4
+vl3_2k7: posts the ante 4
+Roneisu: posts the ante 4
+Superimmi: posts small blind 15
+SenegoiD31: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 6c]
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: calls 30
+Makaveli1009: folds 
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: calls 15
+SenegoiD31: checks 
+*** FLOP *** [Ac 2c 9s]
+Superimmi: checks 
+SenegoiD31: checks 
+DerBozz249: checks 
+*** TURN *** [Ac 2c 9s] [7h]
+Superimmi: checks 
+SenegoiD31: checks 
+DerBozz249: checks 
+*** RIVER *** [Ac 2c 9s 7h] [8s]
+Superimmi: checks 
+SenegoiD31: checks 
+DerBozz249: bets 30
+Superimmi: folds 
+SenegoiD31: raises 60 to 90
+DerBozz249: folds 
+Uncalled bet (60) returned to SenegoiD31
+SenegoiD31 collected 186 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 186 | Rake 0 
+Board [Ac 2c 9s 7h 8s]
+Seat 1: Superimmi (small blind) folded on the River
+Seat 2: SenegoiD31 (big blind) collected (186)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded on the River
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346917621: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:39:24 UTC [2026/04/04 17:39:24 ET]
+Table '3989317146 1' 9-max Seat #1 is the button
+Seat 1: Superimmi (1410 in chips) 
+Seat 2: SenegoiD31 (2063 in chips) 
+Seat 3: scorza23 (1497 in chips) 
+Seat 4: crazzyp0ker (1593 in chips) 
+Seat 5: DerBozz249 (1320 in chips) 
+Seat 6: Makaveli1009 (1218 in chips) 
+Seat 7: TMixT (1331 in chips) 
+Seat 8: vl3_2k7 (1502 in chips) 
+Seat 9: Roneisu (1566 in chips) 
+Superimmi: posts the ante 4
+SenegoiD31: posts the ante 4
+scorza23: posts the ante 4
+crazzyp0ker: posts the ante 4
+DerBozz249: posts the ante 4
+Makaveli1009: posts the ante 4
+TMixT: posts the ante 4
+vl3_2k7: posts the ante 4
+Roneisu: posts the ante 4
+SenegoiD31: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 3d]
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 30 to 60
+TMixT: raises 60 to 120
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+Makaveli1009: calls 60
+*** FLOP *** [5d 4s Jd]
+Makaveli1009: checks 
+TMixT: bets 161
+Makaveli1009: calls 161
+*** TURN *** [5d 4s Jd] [9s]
+Makaveli1009: checks 
+TMixT: bets 322
+Makaveli1009: calls 322
+*** RIVER *** [5d 4s Jd 9s] [7s]
+Makaveli1009: bets 611 and is all-in
+TMixT: calls 611
+*** SHOW DOWN ***
+Makaveli1009: shows [5c 5s] (three of a kind, Fives)
+TMixT: shows [Ks Ah] (high card Ace)
+Makaveli1009 collected 2509 from pot
+*** SUMMARY ***
+Total pot 2509 | Rake 0 
+Board [5d 4s Jd 9s 7s]
+Seat 1: Superimmi (button) folded before Flop (didn't bet)
+Seat 2: SenegoiD31 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 showed [5c 5s] and won (2509) with three of a kind, Fives
+Seat 7: TMixT showed [Ks Ah] and lost with high card Ace
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346931569: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:40:23 UTC [2026/04/04 17:40:23 ET]
+Table '3989317146 1' 9-max Seat #2 is the button
+Seat 1: Superimmi (1406 in chips) 
+Seat 2: SenegoiD31 (2044 in chips) 
+Seat 3: scorza23 (1463 in chips) 
+Seat 4: crazzyp0ker (1589 in chips) 
+Seat 5: DerBozz249 (1316 in chips) 
+Seat 6: Makaveli1009 (2509 in chips) 
+Seat 7: TMixT (113 in chips) 
+Seat 8: vl3_2k7 (1498 in chips) 
+Seat 9: Roneisu (1562 in chips) 
+Superimmi: posts the ante 4
+SenegoiD31: posts the ante 4
+scorza23: posts the ante 4
+crazzyp0ker: posts the ante 4
+DerBozz249: posts the ante 4
+Makaveli1009: posts the ante 4
+TMixT: posts the ante 4
+vl3_2k7: posts the ante 4
+Roneisu: posts the ante 4
+scorza23: posts small blind 15
+crazzyp0ker: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 7c]
+DerBozz249: calls 30
+Makaveli1009: folds 
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: raises 141 to 171
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: calls 141
+*** FLOP *** [9s 6c 7s]
+DerBozz249: checks 
+Superimmi: bets 212
+DerBozz249: folds 
+Uncalled bet (212) returned to Superimmi
+Superimmi collected 423 from pot
+Superimmi: doesn't show hand 
+*** SUMMARY ***
+Total pot 423 | Rake 0 
+Board [9s 6c 7s]
+Seat 1: Superimmi collected (423)
+Seat 2: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: crazzyp0ker (big blind) folded before Flop
+Seat 5: DerBozz249 folded on the Flop
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346941417: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:41:06 UTC [2026/04/04 17:41:06 ET]
+Table '3989317146 1' 9-max Seat #3 is the button
+Seat 1: Superimmi (1654 in chips) 
+Seat 2: SenegoiD31 (2040 in chips) 
+Seat 3: scorza23 (1444 in chips) 
+Seat 4: crazzyp0ker (1555 in chips) 
+Seat 5: DerBozz249 (1141 in chips) 
+Seat 6: Makaveli1009 (2505 in chips) 
+Seat 7: TMixT (109 in chips) 
+Seat 8: vl3_2k7 (1494 in chips) 
+Seat 9: Roneisu (1558 in chips) 
+Superimmi: posts the ante 4
+SenegoiD31: posts the ante 4
+scorza23: posts the ante 4
+crazzyp0ker: posts the ante 4
+DerBozz249: posts the ante 4
+Makaveli1009: posts the ante 4
+TMixT: posts the ante 4
+vl3_2k7: posts the ante 4
+Roneisu: posts the ante 4
+crazzyp0ker: posts small blind 15
+DerBozz249: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 5s]
+Makaveli1009: folds 
+TMixT: folds 
+vl3_2k7: folds 
+Roneisu: raises 39 to 69
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: raises 201 to 270
+DerBozz249: folds 
+Roneisu: calls 201
+*** FLOP *** [Ac 6s 8h]
+crazzyp0ker: bets 120
+Roneisu: folds 
+Uncalled bet (120) returned to crazzyp0ker
+crazzyp0ker collected 606 from pot
+crazzyp0ker: doesn't show hand 
+*** SUMMARY ***
+Total pot 606 | Rake 0 
+Board [Ac 6s 8h]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: crazzyp0ker (small blind) collected (606)
+Seat 5: DerBozz249 (big blind) folded before Flop
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 7: TMixT folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded on the Flop
+
+
+
+PokerStars Hand #260346956166: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:42:09 UTC [2026/04/04 17:42:09 ET]
+Table '3989317146 1' 9-max Seat #4 is the button
+Seat 1: Superimmi (1650 in chips) 
+Seat 2: SenegoiD31 (2036 in chips) 
+Seat 3: scorza23 (1440 in chips) 
+Seat 4: crazzyp0ker (1887 in chips) 
+Seat 5: DerBozz249 (1107 in chips) 
+Seat 6: Makaveli1009 (2501 in chips) 
+Seat 7: TMixT (105 in chips) 
+Seat 8: vl3_2k7 (1490 in chips) 
+Seat 9: Roneisu (1284 in chips) 
+Superimmi: posts the ante 6
+SenegoiD31: posts the ante 6
+scorza23: posts the ante 6
+crazzyp0ker: posts the ante 6
+DerBozz249: posts the ante 6
+Makaveli1009: posts the ante 6
+TMixT: posts the ante 6
+vl3_2k7: posts the ante 6
+Roneisu: posts the ante 6
+DerBozz249: posts small blind 25
+Makaveli1009: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 2h]
+TMixT: raises 49 to 99 and is all-in
+vl3_2k7: raises 201 to 300
+Roneisu: raises 375 to 675
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: folds 
+vl3_2k7: calls 375
+*** FLOP *** [8d 9s Ad]
+vl3_2k7: checks 
+Roneisu: bets 603 and is all-in
+vl3_2k7: folds 
+Uncalled bet (603) returned to Roneisu
+*** TURN *** [8d 9s Ad] [3c]
+*** RIVER *** [8d 9s Ad 3c] [Th]
+*** SHOW DOWN ***
+Roneisu: shows [Ah Kc] (a pair of Aces)
+Roneisu collected 1152 from side pot
+TMixT: shows [2s 7s] (high card Ace)
+Roneisu collected 426 from main pot
+TMixT finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 1578 Main pot 426. Side pot 1152. | Rake 0 
+Board [8d 9s Ad 3c Th]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker (button) folded before Flop (didn't bet)
+Seat 5: DerBozz249 (small blind) folded before Flop
+Seat 6: Makaveli1009 (big blind) folded before Flop
+Seat 7: TMixT showed [2s 7s] and lost with high card Ace
+Seat 8: vl3_2k7 folded on the Flop
+Seat 9: Roneisu showed [Ah Kc] and won (1578) with a pair of Aces
+
+
+
+PokerStars Hand #260346966635: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:42:55 UTC [2026/04/04 17:42:55 ET]
+Table '3989317146 1' 9-max Seat #5 is the button
+Seat 1: Superimmi (1644 in chips) 
+Seat 2: SenegoiD31 (2030 in chips) 
+Seat 3: scorza23 (1434 in chips) 
+Seat 4: crazzyp0ker (1881 in chips) 
+Seat 5: DerBozz249 (1076 in chips) 
+Seat 6: Makaveli1009 (2445 in chips) 
+Seat 8: vl3_2k7 (809 in chips) 
+Seat 9: Roneisu (2181 in chips) 
+Superimmi: posts the ante 6
+SenegoiD31: posts the ante 6
+scorza23: posts the ante 6
+crazzyp0ker: posts the ante 6
+DerBozz249: posts the ante 6
+Makaveli1009: posts the ante 6
+vl3_2k7: posts the ante 6
+Roneisu: posts the ante 6
+Makaveli1009: posts small blind 25
+vl3_2k7: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6h]
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 50 to 100
+vl3_2k7: raises 703 to 803 and is all-in
+Makaveli1009: folds 
+Uncalled bet (703) returned to vl3_2k7
+vl3_2k7 collected 248 from pot
+*** SUMMARY ***
+Total pot 248 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 (button) folded before Flop (didn't bet)
+Seat 6: Makaveli1009 (small blind) folded before Flop
+Seat 8: vl3_2k7 (big blind) collected (248)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346977030: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:43:40 UTC [2026/04/04 17:43:40 ET]
+Table '3989317146 1' 9-max Seat #6 is the button
+Seat 1: Superimmi (1638 in chips) 
+Seat 2: SenegoiD31 (2024 in chips) 
+Seat 3: scorza23 (1428 in chips) 
+Seat 4: crazzyp0ker (1875 in chips) 
+Seat 5: DerBozz249 (1070 in chips) 
+Seat 6: Makaveli1009 (2339 in chips) 
+Seat 8: vl3_2k7 (951 in chips) 
+Seat 9: Roneisu (2175 in chips) 
+Superimmi: posts the ante 6
+SenegoiD31: posts the ante 6
+scorza23: posts the ante 6
+crazzyp0ker: posts the ante 6
+DerBozz249: posts the ante 6
+Makaveli1009: posts the ante 6
+vl3_2k7: posts the ante 6
+Roneisu: posts the ante 6
+vl3_2k7: posts small blind 25
+Roneisu: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 3h]
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 50 to 100
+vl3_2k7: raises 845 to 945 and is all-in
+Roneisu: folds 
+Makaveli1009: folds 
+Uncalled bet (845) returned to vl3_2k7
+vl3_2k7 collected 298 from pot
+*** SUMMARY ***
+Total pot 298 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 (button) folded before Flop
+Seat 8: vl3_2k7 (small blind) collected (298)
+Seat 9: Roneisu (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346986502: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:44:21 UTC [2026/04/04 17:44:21 ET]
+Table '3989317146 1' 9-max Seat #8 is the button
+Seat 1: Superimmi (1632 in chips) 
+Seat 2: SenegoiD31 (2018 in chips) 
+Seat 3: scorza23 (1422 in chips) 
+Seat 4: crazzyp0ker (1869 in chips) 
+Seat 5: DerBozz249 (1064 in chips) 
+Seat 6: Makaveli1009 (2233 in chips) 
+Seat 8: vl3_2k7 (1143 in chips) 
+Seat 9: Roneisu (2119 in chips) 
+Superimmi: posts the ante 6
+SenegoiD31: posts the ante 6
+scorza23: posts the ante 6
+crazzyp0ker: posts the ante 6
+DerBozz249: posts the ante 6
+Makaveli1009: posts the ante 6
+vl3_2k7: posts the ante 6
+Roneisu: posts the ante 6
+Roneisu: posts small blind 25
+Superimmi: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Js]
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: calls 50
+Makaveli1009: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: checks 
+*** FLOP *** [Th Kc 3c]
+Superimmi: checks 
+DerBozz249: checks 
+*** TURN *** [Th Kc 3c] [9s]
+Superimmi: checks 
+DerBozz249: checks 
+*** RIVER *** [Th Kc 3c 9s] [3d]
+Superimmi: checks 
+DerBozz249: bets 50
+Superimmi: folds 
+Uncalled bet (50) returned to DerBozz249
+DerBozz249 collected 173 from pot
+DerBozz249: doesn't show hand 
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Board [Th Kc 3c 9s 3d]
+Seat 1: Superimmi (big blind) folded on the River
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 collected (173)
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 9: Roneisu (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346996571: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:45:06 UTC [2026/04/04 17:45:06 ET]
+Table '3989317146 1' 9-max Seat #9 is the button
+Seat 1: Superimmi (1576 in chips) 
+Seat 2: SenegoiD31 (2012 in chips) 
+Seat 3: scorza23 (1416 in chips) 
+Seat 4: crazzyp0ker (1863 in chips) 
+Seat 5: DerBozz249 (1181 in chips) 
+Seat 6: Makaveli1009 (2227 in chips) 
+Seat 8: vl3_2k7 (1137 in chips) 
+Seat 9: Roneisu (2088 in chips) 
+Superimmi: posts the ante 6
+SenegoiD31: posts the ante 6
+scorza23: posts the ante 6
+crazzyp0ker: posts the ante 6
+DerBozz249: posts the ante 6
+Makaveli1009: posts the ante 6
+vl3_2k7: posts the ante 6
+Roneisu: posts the ante 6
+Superimmi: posts small blind 25
+SenegoiD31: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 8c]
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 50 to 100
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: calls 50
+*** FLOP *** [3d Qh Qd]
+SenegoiD31: checks 
+Makaveli1009: bets 137
+SenegoiD31: calls 137
+*** TURN *** [3d Qh Qd] [5c]
+SenegoiD31: checks 
+Makaveli1009: checks 
+*** RIVER *** [3d Qh Qd 5c] [3h]
+SenegoiD31: bets 181
+Makaveli1009: calls 181
+*** SHOW DOWN ***
+SenegoiD31: shows [Ks Qs] (a full house, Queens full of Threes)
+Makaveli1009: mucks hand 
+SenegoiD31 collected 909 from pot
+*** SUMMARY ***
+Total pot 909 | Rake 0 
+Board [3d Qh Qd 5c 3h]
+Seat 1: Superimmi (small blind) folded before Flop
+Seat 2: SenegoiD31 (big blind) showed [Ks Qs] and won (909) with a full house, Queens full of Threes
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 mucked [Ad 7c]
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347010910: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:46:10 UTC [2026/04/04 17:46:10 ET]
+Table '3989317146 1' 9-max Seat #1 is the button
+Seat 1: Superimmi (1545 in chips) 
+Seat 2: SenegoiD31 (2497 in chips) 
+Seat 3: scorza23 (1410 in chips) 
+Seat 4: crazzyp0ker (1857 in chips) 
+Seat 5: DerBozz249 (1175 in chips) 
+Seat 6: Makaveli1009 (1803 in chips) 
+Seat 8: vl3_2k7 (1131 in chips) 
+Seat 9: Roneisu (2082 in chips) 
+Superimmi: posts the ante 6
+SenegoiD31: posts the ante 6
+scorza23: posts the ante 6
+crazzyp0ker: posts the ante 6
+DerBozz249: posts the ante 6
+Makaveli1009: posts the ante 6
+vl3_2k7: posts the ante 6
+Roneisu: posts the ante 6
+SenegoiD31: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Kh]
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: raises 50 to 100
+scorza23: calls 50
+*** FLOP *** [6h 7d 9d]
+SenegoiD31: checks 
+scorza23: checks 
+*** TURN *** [6h 7d 9d] [Td]
+SenegoiD31: checks 
+scorza23: bets 100
+SenegoiD31: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 248 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 248 | Rake 0 
+Board [6h 7d 9d Td]
+Seat 1: Superimmi (button) folded before Flop (didn't bet)
+Seat 2: SenegoiD31 (small blind) folded on the Turn
+Seat 3: scorza23 (big blind) collected (248)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347019937: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:46:49 UTC [2026/04/04 17:46:49 ET]
+Table '3989317146 1' 9-max Seat #2 is the button
+Seat 1: Superimmi (1539 in chips) 
+Seat 2: SenegoiD31 (2391 in chips) 
+Seat 3: scorza23 (1552 in chips) 
+Seat 4: crazzyp0ker (1851 in chips) 
+Seat 5: DerBozz249 (1169 in chips) 
+Seat 6: Makaveli1009 (1797 in chips) 
+Seat 8: vl3_2k7 (1125 in chips) 
+Seat 9: Roneisu (2076 in chips) 
+Superimmi: posts the ante 6
+SenegoiD31: posts the ante 6
+scorza23: posts the ante 6
+crazzyp0ker: posts the ante 6
+DerBozz249: posts the ante 6
+Makaveli1009: posts the ante 6
+vl3_2k7: posts the ante 6
+Roneisu: posts the ante 6
+scorza23: posts small blind 25
+crazzyp0ker: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 3d]
+DerBozz249: folds 
+Makaveli1009: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: raises 50 to 100
+scorza23: folds 
+crazzyp0ker: folds 
+Uncalled bet (50) returned to SenegoiD31
+SenegoiD31 collected 173 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 (button) collected (173)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: crazzyp0ker (big blind) folded before Flop
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347026937: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:47:20 UTC [2026/04/04 17:47:20 ET]
+Table '3989317146 1' 9-max Seat #3 is the button
+Seat 1: Superimmi (1533 in chips) 
+Seat 2: SenegoiD31 (2508 in chips) 
+Seat 3: scorza23 (1521 in chips) 
+Seat 4: crazzyp0ker (1795 in chips) 
+Seat 5: DerBozz249 (1163 in chips) 
+Seat 6: Makaveli1009 (1791 in chips) 
+Seat 8: vl3_2k7 (1119 in chips) 
+Seat 9: Roneisu (2070 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+crazzyp0ker: posts small blind 40
+DerBozz249: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 8d]
+Makaveli1009: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: raises 160 to 240
+DerBozz249: folds 
+Uncalled bet (160) returned to crazzyp0ker
+crazzyp0ker collected 240 from pot
+crazzyp0ker: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: crazzyp0ker (small blind) collected (240)
+Seat 5: DerBozz249 (big blind) folded before Flop
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347033626: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:47:49 UTC [2026/04/04 17:47:49 ET]
+Table '3989317146 1' 9-max Seat #4 is the button
+Seat 1: Superimmi (1523 in chips) 
+Seat 2: SenegoiD31 (2498 in chips) 
+Seat 3: scorza23 (1511 in chips) 
+Seat 4: crazzyp0ker (1945 in chips) 
+Seat 5: DerBozz249 (1073 in chips) 
+Seat 6: Makaveli1009 (1781 in chips) 
+Seat 8: vl3_2k7 (1109 in chips) 
+Seat 9: Roneisu (2060 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+DerBozz249: posts small blind 40
+Makaveli1009: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Jc]
+vl3_2k7: folds 
+Roneisu: raises 104 to 184
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: calls 184
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: folds 
+*** FLOP *** [7c 6c Qh]
+Roneisu: bets 352
+scorza23: folds 
+Uncalled bet (352) returned to Roneisu
+Roneisu collected 568 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 568 | Rake 0 
+Board [7c 6c Qh]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded on the Flop
+Seat 4: crazzyp0ker (button) folded before Flop (didn't bet)
+Seat 5: DerBozz249 (small blind) folded before Flop
+Seat 6: Makaveli1009 (big blind) folded before Flop
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu collected (568)
+
+
+
+PokerStars Hand #260347044167: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:48:36 UTC [2026/04/04 17:48:36 ET]
+Table '3989317146 1' 9-max Seat #5 is the button
+Seat 1: Superimmi (1513 in chips) 
+Seat 2: SenegoiD31 (2488 in chips) 
+Seat 3: scorza23 (1317 in chips) 
+Seat 4: crazzyp0ker (1935 in chips) 
+Seat 5: DerBozz249 (1023 in chips) 
+Seat 6: Makaveli1009 (1691 in chips) 
+Seat 8: vl3_2k7 (1099 in chips) 
+Seat 9: Roneisu (2434 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+Makaveli1009: posts small blind 40
+vl3_2k7: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Th]
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: raises 80 to 160
+scorza23: folds 
+crazzyp0ker: calls 160
+DerBozz249: folds 
+Makaveli1009: folds 
+vl3_2k7: folds 
+*** FLOP *** [8c Ac Tc]
+SenegoiD31: checks 
+crazzyp0ker: checks 
+*** TURN *** [8c Ac Tc] [Ts]
+SenegoiD31: bets 172
+crazzyp0ker: folds 
+Uncalled bet (172) returned to SenegoiD31
+SenegoiD31 collected 520 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Board [8c Ac Tc Ts]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 collected (520)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded on the Turn
+Seat 5: DerBozz249 (button) folded before Flop (didn't bet)
+Seat 6: Makaveli1009 (small blind) folded before Flop
+Seat 8: vl3_2k7 (big blind) folded before Flop
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347055357: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:49:26 UTC [2026/04/04 17:49:26 ET]
+Table '3989317146 1' 9-max Seat #6 is the button
+Seat 1: Superimmi (1503 in chips) 
+Seat 2: SenegoiD31 (2838 in chips) 
+Seat 3: scorza23 (1307 in chips) 
+Seat 4: crazzyp0ker (1765 in chips) 
+Seat 5: DerBozz249 (1013 in chips) 
+Seat 6: Makaveli1009 (1641 in chips) 
+Seat 8: vl3_2k7 (1009 in chips) 
+Seat 9: Roneisu (2424 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+vl3_2k7: posts small blind 40
+Roneisu: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Jh]
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 80 to 160
+vl3_2k7: folds 
+Roneisu: calls 80
+*** FLOP *** [8h Ad 3c]
+Roneisu: checks 
+Makaveli1009: bets 220
+Roneisu: calls 220
+*** TURN *** [8h Ad 3c] [6d]
+Roneisu: checks 
+Makaveli1009: checks 
+*** RIVER *** [8h Ad 3c 6d] [9h]
+Roneisu: bets 546
+Makaveli1009: folds 
+Uncalled bet (546) returned to Roneisu
+Roneisu collected 880 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 880 | Rake 0 
+Board [8h Ad 3c 6d 9h]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 (button) folded on the River
+Seat 8: vl3_2k7 (small blind) folded before Flop
+Seat 9: Roneisu (big blind) collected (880)
+
+
+
+PokerStars Hand #260347066775: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:50:17 UTC [2026/04/04 17:50:17 ET]
+Table '3989317146 1' 9-max Seat #8 is the button
+Seat 1: Superimmi (1493 in chips) 
+Seat 2: SenegoiD31 (2828 in chips) 
+Seat 3: scorza23 (1297 in chips) 
+Seat 4: crazzyp0ker (1755 in chips) 
+Seat 5: DerBozz249 (1003 in chips) 
+Seat 6: Makaveli1009 (1251 in chips) 
+Seat 8: vl3_2k7 (959 in chips) 
+Seat 9: Roneisu (2914 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+Roneisu: posts small blind 40
+Superimmi: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 3s]
+SenegoiD31: folds 
+scorza23: folds 
+crazzyp0ker: raises 80 to 160
+DerBozz249: folds 
+Makaveli1009: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+Uncalled bet (80) returned to crazzyp0ker
+crazzyp0ker collected 280 from pot
+crazzyp0ker: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: Superimmi (big blind) folded before Flop
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker collected (280)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 9: Roneisu (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347074906: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:50:53 UTC [2026/04/04 17:50:53 ET]
+Table '3989317146 1' 9-max Seat #9 is the button
+Seat 1: Superimmi (1403 in chips) 
+Seat 2: SenegoiD31 (2818 in chips) 
+Seat 3: scorza23 (1287 in chips) 
+Seat 4: crazzyp0ker (1945 in chips) 
+Seat 5: DerBozz249 (993 in chips) 
+Seat 6: Makaveli1009 (1241 in chips) 
+Seat 8: vl3_2k7 (949 in chips) 
+Seat 9: Roneisu (2864 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+Superimmi: posts small blind 40
+SenegoiD31: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 2h]
+scorza23: folds 
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: raises 80 to 160
+vl3_2k7: raises 779 to 939 and is all-in
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+Makaveli1009: folds 
+Uncalled bet (779) returned to vl3_2k7
+vl3_2k7 collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: Superimmi (small blind) folded before Flop
+Seat 2: SenegoiD31 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 folded before Flop
+Seat 8: vl3_2k7 collected (520)
+Seat 9: Roneisu (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347082330: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:51:26 UTC [2026/04/04 17:51:26 ET]
+Table '3989317146 1' 9-max Seat #1 is the button
+Seat 1: Superimmi (1353 in chips) 
+Seat 2: SenegoiD31 (2728 in chips) 
+Seat 3: scorza23 (1277 in chips) 
+Seat 4: crazzyp0ker (1935 in chips) 
+Seat 5: DerBozz249 (983 in chips) 
+Seat 6: Makaveli1009 (1071 in chips) 
+Seat 8: vl3_2k7 (1299 in chips) 
+Seat 9: Roneisu (2854 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 4c]
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: folds 
+vl3_2k7: raises 1209 to 1289 and is all-in
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: folds 
+Uncalled bet (1209) returned to vl3_2k7
+vl3_2k7 collected 280 from pot
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: Superimmi (button) folded before Flop (didn't bet)
+Seat 2: SenegoiD31 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: crazzyp0ker folded before Flop (didn't bet)
+Seat 5: DerBozz249 folded before Flop (didn't bet)
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: vl3_2k7 collected (280)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347089225: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:51:58 UTC [2026/04/04 17:51:58 ET]
+Table '3989317146 1' 9-max Seat #2 is the button
+Seat 1: Superimmi (1343 in chips) 
+Seat 2: SenegoiD31 (2678 in chips) 
+Seat 3: scorza23 (1187 in chips) 
+Seat 4: crazzyp0ker (1925 in chips) 
+Seat 5: DerBozz249 (973 in chips) 
+Seat 6: Makaveli1009 (1061 in chips) 
+Seat 8: vl3_2k7 (1489 in chips) 
+Seat 9: Roneisu (2844 in chips) 
+Superimmi: posts the ante 10
+SenegoiD31: posts the ante 10
+scorza23: posts the ante 10
+crazzyp0ker: posts the ante 10
+DerBozz249: posts the ante 10
+Makaveli1009: posts the ante 10
+vl3_2k7: posts the ante 10
+Roneisu: posts the ante 10
+scorza23: posts small blind 40
+crazzyp0ker: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Qc]
+DerBozz249: calls 80
+Makaveli1009: raises 80 to 160
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: calls 120
+crazzyp0ker: folds 
+DerBozz249: calls 80
+*** FLOP *** [2d Tc 3s]
+scorza23: bets 640
+DerBozz249: folds 
+Makaveli1009: folds 
+Uncalled bet (640) returned to scorza23
+scorza23 collected 640 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 640 | Rake 0 
+Board [2d Tc 3s]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) collected (640)
+Seat 4: crazzyp0ker (big blind) folded before Flop
+Seat 5: DerBozz249 folded on the Flop
+Seat 6: Makaveli1009 folded on the Flop
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347099015: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:52:42 UTC [2026/04/04 17:52:42 ET]
+Table '3989317146 1' 9-max Seat #3 is the button
+Seat 1: Superimmi (1333 in chips) 
+Seat 2: SenegoiD31 (2668 in chips) 
+Seat 3: scorza23 (1657 in chips) 
+Seat 4: crazzyp0ker (1835 in chips) 
+Seat 5: DerBozz249 (803 in chips) 
+Seat 6: Makaveli1009 (891 in chips) 
+Seat 8: vl3_2k7 (1479 in chips) 
+Seat 9: Roneisu (2834 in chips) 
+Superimmi: posts the ante 15
+SenegoiD31: posts the ante 15
+scorza23: posts the ante 15
+crazzyp0ker: posts the ante 15
+DerBozz249: posts the ante 15
+Makaveli1009: posts the ante 15
+vl3_2k7: posts the ante 15
+Roneisu: posts the ante 15
+crazzyp0ker: posts small blind 60
+DerBozz249: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Qc]
+Makaveli1009: folds 
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: folds 
+scorza23: raises 120 to 240
+crazzyp0ker: folds 
+DerBozz249: calls 120
+*** FLOP *** [9h 3d Ad]
+DerBozz249: checks 
+scorza23: checks 
+*** TURN *** [9h 3d Ad] [6s]
+DerBozz249: bets 120
+scorza23: calls 120
+*** RIVER *** [9h 3d Ad 6s] [Kd]
+DerBozz249: bets 120
+scorza23: folds 
+Uncalled bet (120) returned to DerBozz249
+DerBozz249 collected 900 from pot
+DerBozz249: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [9h 3d Ad 6s Kd]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded on the River
+Seat 4: crazzyp0ker (small blind) folded before Flop
+Seat 5: DerBozz249 (big blind) collected (900)
+Seat 6: Makaveli1009 folded before Flop (didn't bet)
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347107473: Tournament #3989317146, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:53:20 UTC [2026/04/04 17:53:20 ET]
+Table '3989317146 1' 9-max Seat #4 is the button
+Seat 1: Superimmi (1318 in chips) 
+Seat 2: SenegoiD31 (2653 in chips) 
+Seat 3: scorza23 (1282 in chips) 
+Seat 4: crazzyp0ker (1760 in chips) 
+Seat 5: DerBozz249 (1328 in chips) 
+Seat 6: Makaveli1009 (876 in chips) 
+Seat 8: vl3_2k7 (1464 in chips) 
+Seat 9: Roneisu (2819 in chips) 
+Superimmi: posts the ante 15
+SenegoiD31: posts the ante 15
+scorza23: posts the ante 15
+crazzyp0ker: posts the ante 15
+DerBozz249: posts the ante 15
+Makaveli1009: posts the ante 15
+vl3_2k7: posts the ante 15
+Roneisu: posts the ante 15
+DerBozz249: posts small blind 60
+Makaveli1009: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Tc]
+vl3_2k7: folds 
+Roneisu: folds 
+Superimmi: folds 
+SenegoiD31: raises 120 to 240
+scorza23: raises 1027 to 1267 and is all-in
+crazzyp0ker: folds 
+DerBozz249: folds 
+Makaveli1009: folds 
+SenegoiD31: calls 1027
+*** FLOP *** [4c 6d Jh]
+*** TURN *** [4c 6d Jh] [8d]
+*** RIVER *** [4c 6d Jh 8d] [8c]
+*** SHOW DOWN ***
+SenegoiD31: shows [Kc Qs] (a pair of Eights)
+scorza23: shows [Qc Tc] (a pair of Eights - lower kicker)
+SenegoiD31 collected 2834 from pot
+scorza23 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 2834 | Rake 0 
+Board [4c 6d Jh 8d 8c]
+Seat 1: Superimmi folded before Flop (didn't bet)
+Seat 2: SenegoiD31 showed [Kc Qs] and won (2834) with a pair of Eights
+Seat 3: scorza23 showed [Qc Tc] and lost with a pair of Eights
+Seat 4: crazzyp0ker (button) folded before Flop (didn't bet)
+Seat 5: DerBozz249 (small blind) folded before Flop
+Seat 6: Makaveli1009 (big blind) folded before Flop
+Seat 8: vl3_2k7 folded before Flop (didn't bet)
+Seat 9: Roneisu folded before Flop (didn't bet)
+
+
+

@@ -1,0 +1,430 @@
+﻿PokerStars Hand #259748903766: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:17:57 UTC [2026/02/16 9:17:57 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (500 in chips) 
+Seat 2: scorza23 (500 in chips) 
+Seat 3: Jpaversani (500 in chips) 
+scorza23: posts small blind 10
+Jpaversani: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 7c]
+faifer1: folds 
+scorza23: raises 40 to 60
+Jpaversani: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 40 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: faifer1 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (40)
+Seat 3: Jpaversani (big blind) folded before Flop
+
+
+
+PokerStars Hand #259748904857: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:18:05 UTC [2026/02/16 9:18:05 ET]
+Table '3975660743 1' 3-max Seat #2 is the button
+Seat 1: faifer1 (500 in chips) 
+Seat 2: scorza23 (520 in chips) 
+Seat 3: Jpaversani (480 in chips) 
+Jpaversani: posts small blind 10
+faifer1: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 5c]
+scorza23: folds 
+Jpaversani: calls 10
+faifer1: checks 
+*** FLOP *** [2s 5h 2c]
+Jpaversani: checks 
+faifer1: checks 
+*** TURN *** [2s 5h 2c] [2d]
+Jpaversani: checks 
+faifer1: checks 
+*** RIVER *** [2s 5h 2c 2d] [Tc]
+Jpaversani: checks 
+faifer1: bets 100
+Jpaversani: folds 
+Uncalled bet (100) returned to faifer1
+faifer1 collected 40 from pot
+faifer1: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [2s 5h 2c 2d Tc]
+Seat 1: faifer1 (big blind) collected (40)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Jpaversani (small blind) folded on the River
+
+
+
+PokerStars Hand #259748909236: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:18:36 UTC [2026/02/16 9:18:36 ET]
+Table '3975660743 1' 3-max Seat #3 is the button
+Seat 1: faifer1 (520 in chips) 
+Seat 2: scorza23 (520 in chips) 
+Seat 3: Jpaversani (460 in chips) 
+faifer1: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Jd]
+Jpaversani: folds 
+faifer1: raises 40 to 60
+scorza23: calls 40
+*** FLOP *** [2h 3d 2c]
+faifer1: bets 120
+scorza23: folds 
+Uncalled bet (120) returned to faifer1
+faifer1 collected 120 from pot
+faifer1: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [2h 3d 2c]
+Seat 1: faifer1 (small blind) collected (120)
+Seat 2: scorza23 (big blind) folded on the Flop
+Seat 3: Jpaversani (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748914042: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:19:08 UTC [2026/02/16 9:19:08 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (580 in chips) 
+Seat 2: scorza23 (460 in chips) 
+Seat 3: Jpaversani (460 in chips) 
+scorza23: posts small blind 10
+Jpaversani: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ac]
+faifer1: folds 
+scorza23: raises 40 to 60
+Jpaversani: calls 40
+*** FLOP *** [5c 2s 5h]
+scorza23: bets 120
+Jpaversani: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 120 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [5c 2s 5h]
+Seat 1: faifer1 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (120)
+Seat 3: Jpaversani (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259748916555: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:19:25 UTC [2026/02/16 9:19:25 ET]
+Table '3975660743 1' 3-max Seat #2 is the button
+Seat 1: faifer1 (580 in chips) 
+Seat 2: scorza23 (520 in chips) 
+Seat 3: Jpaversani (400 in chips) 
+Jpaversani: posts small blind 10
+faifer1: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 8s]
+scorza23: folds 
+Jpaversani: calls 10
+faifer1: checks 
+*** FLOP *** [6s 4s 6c]
+Jpaversani: checks 
+faifer1: bets 60
+Jpaversani: calls 60
+*** TURN *** [6s 4s 6c] [4c]
+Jpaversani: checks 
+faifer1: bets 160
+Jpaversani: calls 160
+*** RIVER *** [6s 4s 6c 4c] [9s]
+Jpaversani: checks 
+faifer1: checks 
+*** SHOW DOWN ***
+Jpaversani: shows [3h 2c] (two pair, Sixes and Fours)
+faifer1: shows [5s 7c] (two pair, Sixes and Fours)
+Jpaversani collected 240 from pot
+faifer1 collected 240 from pot
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Board [6s 4s 6c 4c 9s]
+Seat 1: faifer1 (big blind) showed [5s 7c] and won (240) with two pair, Sixes and Fours
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Jpaversani (small blind) showed [3h 2c] and won (240) with two pair, Sixes and Fours
+
+
+
+PokerStars Hand #259748922183: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:20:04 UTC [2026/02/16 9:20:04 ET]
+Table '3975660743 1' 3-max Seat #3 is the button
+Seat 1: faifer1 (580 in chips) 
+Seat 2: scorza23 (520 in chips) 
+Seat 3: Jpaversani (400 in chips) 
+faifer1: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ad]
+Jpaversani: folds 
+faifer1: calls 15
+scorza23: checks 
+*** FLOP *** [9s 4d Jd]
+faifer1: checks 
+scorza23: checks 
+*** TURN *** [9s 4d Jd] [Kc]
+faifer1: checks 
+scorza23: bets 30
+faifer1: folds 
+Uncalled bet (30) returned to scorza23
+scorza23 collected 60 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [9s 4d Jd Kc]
+Seat 1: faifer1 (small blind) folded on the Turn
+Seat 2: scorza23 (big blind) collected (60)
+Seat 3: Jpaversani (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748925567: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:20:27 UTC [2026/02/16 9:20:27 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (550 in chips) 
+Seat 2: scorza23 (550 in chips) 
+Seat 3: Jpaversani (400 in chips) 
+scorza23: posts small blind 15
+Jpaversani: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Jd]
+faifer1: folds 
+scorza23: folds 
+Uncalled bet (15) returned to Jpaversani
+Jpaversani collected 30 from pot
+Jpaversani: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: faifer1 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Jpaversani (big blind) collected (30)
+
+
+
+PokerStars Hand #259748926407: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:20:32 UTC [2026/02/16 9:20:32 ET]
+Table '3975660743 1' 3-max Seat #2 is the button
+Seat 1: faifer1 (550 in chips) 
+Seat 2: scorza23 (535 in chips) 
+Seat 3: Jpaversani (415 in chips) 
+Jpaversani: posts small blind 15
+faifer1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Ks]
+scorza23: raises 60 to 90
+Jpaversani: calls 75
+faifer1: folds 
+*** FLOP *** [4s 9s Jc]
+Jpaversani: bets 210
+scorza23: raises 235 to 445 and is all-in
+Jpaversani: calls 115 and is all-in
+Uncalled bet (120) returned to scorza23
+*** TURN *** [4s 9s Jc] [3s]
+*** RIVER *** [4s 9s Jc 3s] [8h]
+*** SHOW DOWN ***
+Jpaversani: shows [Jd Qc] (a pair of Jacks)
+scorza23: shows [Kh Ks] (a pair of Kings)
+scorza23 collected 860 from pot
+Jpaversani finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 860 | Rake 0 
+Board [4s 9s Jc 3s 8h]
+Seat 1: faifer1 (big blind) folded before Flop
+Seat 2: scorza23 (button) showed [Kh Ks] and won (860) with a pair of Kings
+Seat 3: Jpaversani (small blind) showed [Jd Qc] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #259748931400: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:21:06 UTC [2026/02/16 9:21:06 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (520 in chips) 
+Seat 2: scorza23 (980 in chips) 
+faifer1: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Js]
+faifer1: folds 
+Uncalled bet (15) returned to scorza23
+scorza23 collected 30 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: faifer1 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (30)
+
+
+
+PokerStars Hand #259748932211: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:21:11 UTC [2026/02/16 9:21:11 ET]
+Table '3975660743 1' 3-max Seat #2 is the button
+Seat 1: faifer1 (505 in chips) 
+Seat 2: scorza23 (995 in chips) 
+scorza23: posts small blind 15
+faifer1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 5s]
+scorza23: raises 60 to 90
+faifer1: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 60 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: faifer1 (big blind) folded before Flop
+Seat 2: scorza23 (button) (small blind) collected (60)
+
+
+
+PokerStars Hand #259748933833: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:21:22 UTC [2026/02/16 9:21:22 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (475 in chips) 
+Seat 2: scorza23 (1025 in chips) 
+faifer1: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 8c]
+faifer1: raises 60 to 90
+scorza23: calls 60
+*** FLOP *** [8h Kc 8d]
+scorza23: bets 180
+faifer1: folds 
+Uncalled bet (180) returned to scorza23
+scorza23 collected 180 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [8h Kc 8d]
+Seat 1: faifer1 (button) (small blind) folded on the Flop
+Seat 2: scorza23 (big blind) collected (180)
+
+
+
+PokerStars Hand #259748936629: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:21:41 UTC [2026/02/16 9:21:41 ET]
+Table '3975660743 1' 3-max Seat #2 is the button
+Seat 1: faifer1 (385 in chips) 
+Seat 2: scorza23 (1115 in chips) 
+scorza23: posts small blind 15
+faifer1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Ks]
+scorza23: raises 60 to 90
+faifer1: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 60 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: faifer1 (big blind) folded before Flop
+Seat 2: scorza23 (button) (small blind) collected (60)
+
+
+
+PokerStars Hand #259748937691: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:21:49 UTC [2026/02/16 9:21:49 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (355 in chips) 
+Seat 2: scorza23 (1145 in chips) 
+faifer1: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8s]
+faifer1: folds 
+Uncalled bet (15) returned to scorza23
+scorza23 collected 30 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: faifer1 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (30)
+
+
+
+PokerStars Hand #259748938466: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:21:54 UTC [2026/02/16 9:21:54 ET]
+Table '3975660743 1' 3-max Seat #2 is the button
+Seat 1: faifer1 (340 in chips) 
+Seat 2: scorza23 (1160 in chips) 
+scorza23: posts small blind 15
+faifer1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Tc]
+scorza23: folds 
+Uncalled bet (15) returned to faifer1
+faifer1 collected 30 from pot
+faifer1: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: faifer1 (big blind) collected (30)
+Seat 2: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #259748939738: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level III (20/40) - 2026/02/16 14:22:02 UTC [2026/02/16 9:22:02 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (355 in chips) 
+Seat 2: scorza23 (1145 in chips) 
+faifer1: posts small blind 20
+scorza23: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Ad]
+faifer1: folds 
+Uncalled bet (20) returned to scorza23
+scorza23 collected 40 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: faifer1 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (40)
+
+
+
+PokerStars Hand #259748940463: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level III (20/40) - 2026/02/16 14:22:07 UTC [2026/02/16 9:22:07 ET]
+Table '3975660743 1' 3-max Seat #2 is the button
+Seat 1: faifer1 (335 in chips) 
+Seat 2: scorza23 (1165 in chips) 
+scorza23: posts small blind 20
+faifer1: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Qh]
+scorza23: raises 80 to 120
+faifer1: raises 215 to 335 and is all-in
+scorza23: calls 215
+*** FLOP *** [5c 5d 8d]
+*** TURN *** [5c 5d 8d] [3s]
+*** RIVER *** [5c 5d 8d 3s] [6c]
+*** SHOW DOWN ***
+faifer1: shows [9c 8s] (two pair, Eights and Fives)
+scorza23: shows [Jh Qh] (a pair of Fives)
+faifer1 collected 670 from pot
+*** SUMMARY ***
+Total pot 670 | Rake 0 
+Board [5c 5d 8d 3s 6c]
+Seat 1: faifer1 (big blind) showed [9c 8s] and won (670) with two pair, Eights and Fives
+Seat 2: scorza23 (button) (small blind) showed [Jh Qh] and lost with a pair of Fives
+
+
+
+PokerStars Hand #259748942943: Tournament #3975660743, $0.46+$0.04 USD Hold'em No Limit - Level III (20/40) - 2026/02/16 14:22:24 UTC [2026/02/16 9:22:24 ET]
+Table '3975660743 1' 3-max Seat #1 is the button
+Seat 1: faifer1 (670 in chips) 
+Seat 2: scorza23 (830 in chips) 
+faifer1: posts small blind 20
+scorza23: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 2h]
+faifer1: calls 20
+scorza23: raises 790 to 830 and is all-in
+faifer1: calls 630 and is all-in
+Uncalled bet (160) returned to scorza23
+*** FLOP *** [7s 4c 7d]
+*** TURN *** [7s 4c 7d] [Qd]
+*** RIVER *** [7s 4c 7d Qd] [Qh]
+*** SHOW DOWN ***
+scorza23: shows [Kh 2h] (two pair, Queens and Sevens)
+faifer1: shows [5d 5h] (two pair, Queens and Sevens - lower kicker)
+scorza23 collected 1340 from pot
+faifer1 finished the tournament in 2nd place
+scorza23 wins the tournament - congratulations!
+scorza23 wins a '$1.50 Power Path Step 2 Ticket' ticket
+*** SUMMARY ***
+Total pot 1340 | Rake 0 
+Board [7s 4c 7d Qd Qh]
+Seat 1: faifer1 (button) (small blind) showed [5d 5h] and lost with two pair, Queens and Sevens
+Seat 2: scorza23 (big blind) showed [Kh 2h] and won (1340) with two pair, Queens and Sevens
+
+
+

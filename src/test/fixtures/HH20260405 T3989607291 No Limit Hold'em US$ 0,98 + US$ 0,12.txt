@@ -1,0 +1,312 @@
+﻿PokerStars Hand #260360191680: Tournament #3989607291, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/04/05 19:11:31 BRT [2026/04/05 18:11:31 ET]
+Table '3989607291 8' 8-max Seat #1 is the button
+Seat 1: scorza23 (5000 in chips) 
+Seat 2: necunecu (5000 in chips) 
+Seat 3: sivarkaos (5000 in chips) 
+Seat 4: IIIIKIKOIIII (5000 in chips) is sitting out
+Seat 5: gangrey (5000 in chips) 
+Seat 6: FondueAuFromage (5000 in chips) 
+Seat 8: xI-Er1c-Ix (5000 in chips) 
+scorza23: posts the ante 15
+necunecu: posts the ante 15
+sivarkaos: posts the ante 15
+IIIIKIKOIIII: posts the ante 15
+gangrey: posts the ante 15
+FondueAuFromage: posts the ante 15
+xI-Er1c-Ix: posts the ante 15
+necunecu: posts small blind 50
+sivarkaos: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2h]
+IIIIKIKOIIII: folds 
+gangrey: folds 
+IIIIKIKOIIII is disconnected 
+IIIIKIKOIIII has returned
+FondueAuFromage: folds 
+xI-Er1c-Ix: folds 
+scorza23: raises 200 to 300
+necunecu: calls 250
+sivarkaos: folds 
+*** FLOP *** [7h 8c Ah]
+Placido sena is disconnected 
+necunecu: bets 805
+scorza23: folds 
+Uncalled bet (805) returned to necunecu
+necunecu collected 805 from pot
+necunecu: doesn't show hand 
+*** SUMMARY ***
+Total pot 805 | Rake 0 
+Board [7h 8c Ah]
+Seat 1: scorza23 (button) folded on the Flop
+Seat 2: necunecu (small blind) collected (805)
+Seat 3: sivarkaos (big blind) folded before Flop
+Seat 4: IIIIKIKOIIII folded before Flop (didn't bet)
+Seat 5: gangrey folded before Flop (didn't bet)
+Seat 6: FondueAuFromage folded before Flop (didn't bet)
+Seat 8: xI-Er1c-Ix folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360198004: Tournament #3989607291, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/04/05 19:11:56 BRT [2026/04/05 18:11:56 ET]
+Table '3989607291 8' 8-max Seat #2 is the button
+Seat 1: scorza23 (4685 in chips) 
+Seat 2: necunecu (5490 in chips) 
+Seat 3: sivarkaos (4885 in chips) 
+Seat 4: IIIIKIKOIIII (4985 in chips) 
+Seat 5: gangrey (4985 in chips) 
+Seat 6: FondueAuFromage (4985 in chips) 
+Seat 7: Placido sena (5000 in chips) 
+Seat 8: xI-Er1c-Ix (4985 in chips) 
+scorza23: posts the ante 15
+necunecu: posts the ante 15
+sivarkaos: posts the ante 15
+IIIIKIKOIIII: posts the ante 15
+gangrey: posts the ante 15
+FondueAuFromage: posts the ante 15
+Placido sena: posts the ante 15
+xI-Er1c-Ix: posts the ante 15
+sivarkaos: posts small blind 50
+IIIIKIKOIIII: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 2s]
+gangrey: folds 
+FondueAuFromage: folds 
+Placido sena: folds 
+xI-Er1c-Ix: raises 100 to 200
+scorza23: folds 
+necunecu: calls 200
+sivarkaos: folds 
+IIIIKIKOIIII: folds 
+*** FLOP *** [5d Qd 5s]
+xI-Er1c-Ix: bets 200
+necunecu: calls 200
+*** TURN *** [5d Qd 5s] [5c]
+xI-Er1c-Ix: bets 535
+necunecu: calls 535
+*** RIVER *** [5d Qd 5s 5c] [2d]
+xI-Er1c-Ix: bets 1070
+necunecu: folds 
+Uncalled bet (1070) returned to xI-Er1c-Ix
+xI-Er1c-Ix collected 2140 from pot
+xI-Er1c-Ix: doesn't show hand 
+*** SUMMARY ***
+Total pot 2140 | Rake 0 
+Board [5d Qd 5s 5c 2d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: necunecu (button) folded on the River
+Seat 3: sivarkaos (small blind) folded before Flop
+Seat 4: IIIIKIKOIIII (big blind) folded before Flop
+Seat 5: gangrey folded before Flop (didn't bet)
+Seat 6: FondueAuFromage folded before Flop (didn't bet)
+Seat 7: Placido sena folded before Flop (didn't bet)
+Seat 8: xI-Er1c-Ix collected (2140)
+
+
+
+PokerStars Hand #260360218531: Tournament #3989607291, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/04/05 19:13:20 BRT [2026/04/05 18:13:20 ET]
+Table '3989607291 1' 8-max Seat #6 is the button
+Seat 1: aldemirjb (4970 in chips) 
+Seat 2: Samucagem (10060 in chips) 
+Seat 3: zMeow (5000 in chips) 
+Seat 4: scorza23 (4670 in chips) 
+Seat 5: sirtakis250 (5000 in chips) 
+Seat 6: uchira123 (4351 in chips) 
+Seat 7: remnant533 (5664 in chips) 
+aldemirjb: posts the ante 15
+Samucagem: posts the ante 15
+zMeow: posts the ante 15
+scorza23: posts the ante 15
+sirtakis250: posts the ante 15
+uchira123: posts the ante 15
+remnant533: posts the ante 15
+remnant533: posts small blind 50
+aldemirjb: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Js]
+Samucagem: raises 113 to 213
+zMeow: folds 
+scorza23: folds 
+sirtakis250: raises 487 to 700
+uchira123: folds 
+remnant533: folds 
+aldemirjb: folds 
+Samucagem: calls 487
+*** FLOP *** [4c Qh Kh]
+Samucagem: checks 
+sirtakis250: bets 1000
+Samucagem: raises 3259 to 4259
+sirtakis250: raises 26 to 4285 and is all-in
+Samucagem: calls 26
+*** TURN *** [4c Qh Kh] [7h]
+Lepdias is disconnected 
+*** RIVER *** [4c Qh Kh 7h] [Ac]
+*** SHOW DOWN ***
+Samucagem: shows [Qs Kd] (two pair, Kings and Queens)
+sirtakis250: shows [6d 6c] (a pair of Sixes)
+Samucagem collected 10225 from pot
+sirtakis250 finished the tournament
+*** SUMMARY ***
+Total pot 10225 | Rake 0 
+Board [4c Qh Kh 7h Ac]
+Seat 1: aldemirjb (big blind) folded before Flop
+Seat 2: Samucagem showed [Qs Kd] and won (10225) with two pair, Kings and Queens
+Seat 3: zMeow folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: sirtakis250 showed [6d 6c] and lost with a pair of Sixes
+Seat 6: uchira123 (button) folded before Flop (didn't bet)
+Seat 7: remnant533 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360231611: Tournament #3989607291, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/04/05 19:14:13 BRT [2026/04/05 18:14:13 ET]
+Table '3989607291 1' 8-max Seat #7 is the button
+Seat 1: aldemirjb (4855 in chips) 
+Seat 3: zMeow (4985 in chips) 
+Seat 4: scorza23 (4655 in chips) 
+Seat 6: uchira123 (4336 in chips) 
+Seat 7: remnant533 (5599 in chips) 
+Seat 8: Lepdias (5000 in chips) out of hand (moved from another table into small blind)
+Lepdias will be allowed to play after the button
+aldemirjb: posts the ante 15
+zMeow: posts the ante 15
+scorza23: posts the ante 15
+uchira123: posts the ante 15
+remnant533: posts the ante 15
+aldemirjb: posts small blind 50
+zMeow: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 3s]
+scorza23: folds 
+uchira123: folds 
+remnant533: folds 
+aldemirjb: calls 50
+zMeow: raises 250 to 350
+Pirenta is disconnected 
+aldemirjb: calls 250
+*** FLOP *** [5h 8h 5c]
+aldemirjb: checks 
+zMeow: bets 465
+aldemirjb: folds 
+Uncalled bet (465) returned to zMeow
+zMeow collected 775 from pot
+zMeow: doesn't show hand 
+*** SUMMARY ***
+Total pot 775 | Rake 0 
+Board [5h 8h 5c]
+Seat 1: aldemirjb (small blind) folded on the Flop
+Seat 3: zMeow (big blind) collected (775)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: uchira123 folded before Flop (didn't bet)
+Seat 7: remnant533 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360243245: Tournament #3989607291, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/04/05 19:15:00 BRT [2026/04/05 18:15:00 ET]
+Table '3989607291 1' 8-max Seat #1 is the button
+Seat 1: aldemirjb (4490 in chips) 
+Seat 3: zMeow (5395 in chips) 
+Seat 4: scorza23 (4640 in chips) 
+Seat 5: Pirenta (3735 in chips) 
+Seat 6: uchira123 (4321 in chips) 
+Seat 7: remnant533 (5584 in chips) 
+Seat 8: Lepdias (5000 in chips) 
+aldemirjb: posts the ante 15
+zMeow: posts the ante 15
+scorza23: posts the ante 15
+Pirenta: posts the ante 15
+uchira123: posts the ante 15
+remnant533: posts the ante 15
+Lepdias: posts the ante 15
+zMeow: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 5s]
+Pirenta: folds 
+uchira123: raises 100 to 200
+remnant533: folds 
+Lepdias: folds 
+aldemirjb: folds 
+zMeow: folds 
+scorza23: calls 100
+*** FLOP *** [2h Jd Th]
+scorza23: bets 300
+RaphaBrav0 is disconnected 
+uchira123: raises 500 to 800
+scorza23: calls 500
+*** TURN *** [2h Jd Th] [3c]
+scorza23: bets 2155
+uchira123: raises 1151 to 3306 and is all-in
+scorza23: calls 1151
+*** RIVER *** [2h Jd Th 3c] [9c]
+*** SHOW DOWN ***
+scorza23: shows [Js 5s] (a pair of Jacks)
+uchira123: shows [Qd Qh] (a pair of Queens)
+uchira123 collected 8767 from pot
+*** SUMMARY ***
+Total pot 8767 | Rake 0 
+Board [2h Jd Th 3c 9c]
+Seat 1: aldemirjb (button) folded before Flop (didn't bet)
+Seat 3: zMeow (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [Js 5s] and lost with a pair of Jacks
+Seat 5: Pirenta folded before Flop (didn't bet)
+Seat 6: uchira123 showed [Qd Qh] and won (8767) with a pair of Queens
+Seat 7: remnant533 folded before Flop (didn't bet)
+Seat 8: Lepdias folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360256588: Tournament #3989607291, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/04/05 19:15:54 BRT [2026/04/05 18:15:54 ET]
+Table '3989607291 1' 8-max Seat #3 is the button
+Seat 1: aldemirjb (4475 in chips) 
+Seat 2: RaphaBrav0 (5000 in chips) 
+Seat 3: zMeow (5330 in chips) 
+Seat 4: scorza23 (319 in chips) 
+Seat 5: Pirenta (3720 in chips) 
+Seat 6: uchira123 (8767 in chips) 
+Seat 7: remnant533 (5569 in chips) 
+Seat 8: Lepdias (4985 in chips) 
+aldemirjb: posts the ante 15
+RaphaBrav0: posts the ante 15
+zMeow: posts the ante 15
+scorza23: posts the ante 15
+Pirenta: posts the ante 15
+uchira123: posts the ante 15
+remnant533: posts the ante 15
+Lepdias: posts the ante 15
+scorza23: posts small blind 50
+Pirenta: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Kh]
+uchira123: folds 
+remnant533: folds 
+Lepdias: folds 
+aldemirjb: folds 
+RaphaBrav0: raises 100 to 200
+zMeow: calls 200
+scorza23: raises 104 to 304 and is all-in
+Pirenta: raises 3401 to 3705 and is all-in
+RaphaBrav0: folds 
+zMeow: folds 
+Uncalled bet (3401) returned to Pirenta
+*** FLOP *** [3h 7c 2s]
+*** TURN *** [3h 7c 2s] [Qc]
+*** RIVER *** [3h 7c 2s Qc] [5c]
+*** SHOW DOWN ***
+scorza23: shows [8d Kh] (high card King)
+Pirenta: shows [Jd Ad] (high card Ace)
+Pirenta collected 1128 from pot
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 1128 | Rake 0 
+Board [3h 7c 2s Qc 5c]
+Seat 1: aldemirjb folded before Flop (didn't bet)
+Seat 2: RaphaBrav0 folded before Flop
+Seat 3: zMeow (button) folded before Flop
+Seat 4: scorza23 (small blind) showed [8d Kh] and lost with high card King
+Seat 5: Pirenta (big blind) showed [Jd Ad] and won (1128) with high card Ace
+Seat 6: uchira123 folded before Flop (didn't bet)
+Seat 7: remnant533 folded before Flop (didn't bet)
+Seat 8: Lepdias folded before Flop (didn't bet)
+
+
+

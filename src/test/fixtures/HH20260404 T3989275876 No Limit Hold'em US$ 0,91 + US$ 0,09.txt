@@ -1,0 +1,327 @@
+﻿PokerStars Hand #260344856023: Tournament #3989275876, $0.91+$0.09 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:06:34 UTC [2026/04/04 15:06:34 ET]
+Table '3989275876 1' 6-max Seat #1 is the button
+Seat 1: benita2003 (500 in chips) 
+Seat 2: Bondy66666 (500 in chips) 
+Seat 3: primodepie (500 in chips) 
+Seat 4: scorza23 (500 in chips) 
+Seat 5: Mattmann_080 (500 in chips) 
+Seat 6: fulhouser1111 (500 in chips) 
+benita2003: posts the ante 2
+Bondy66666: posts the ante 2
+primodepie: posts the ante 2
+scorza23: posts the ante 2
+Mattmann_080: posts the ante 2
+fulhouser1111: posts the ante 2
+Bondy66666: posts small blind 10
+primodepie: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2h]
+scorza23: folds 
+Mattmann_080: raises 20 to 40
+fulhouser1111: folds 
+benita2003: calls 40
+Bondy66666: folds 
+primodepie: calls 20
+*** FLOP *** [Td 4c Ac]
+primodepie: checks 
+Mattmann_080: bets 40
+benita2003: folds 
+primodepie: folds 
+Uncalled bet (40) returned to Mattmann_080
+Mattmann_080 collected 142 from pot
+Mattmann_080: doesn't show hand 
+*** SUMMARY ***
+Total pot 142 | Rake 0 
+Board [Td 4c Ac]
+Seat 1: benita2003 (button) folded on the Flop
+Seat 2: Bondy66666 (small blind) folded before Flop
+Seat 3: primodepie (big blind) folded on the Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Mattmann_080 collected (142)
+Seat 6: fulhouser1111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344861376: Tournament #3989275876, $0.91+$0.09 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:06:58 UTC [2026/04/04 15:06:58 ET]
+Table '3989275876 1' 6-max Seat #2 is the button
+Seat 1: benita2003 (458 in chips) 
+Seat 2: Bondy66666 (488 in chips) 
+Seat 3: primodepie (458 in chips) 
+Seat 4: scorza23 (498 in chips) 
+Seat 5: Mattmann_080 (600 in chips) 
+Seat 6: fulhouser1111 (498 in chips) 
+benita2003: posts the ante 2
+Bondy66666: posts the ante 2
+primodepie: posts the ante 2
+scorza23: posts the ante 2
+Mattmann_080: posts the ante 2
+fulhouser1111: posts the ante 2
+primodepie: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 6d]
+Mattmann_080: folds 
+fulhouser1111: raises 62 to 82
+benita2003: folds 
+Bondy66666: folds 
+primodepie: folds 
+scorza23: folds 
+Uncalled bet (62) returned to fulhouser1111
+fulhouser1111 collected 62 from pot
+fulhouser1111: doesn't show hand 
+*** SUMMARY ***
+Total pot 62 | Rake 0 
+Seat 1: benita2003 folded before Flop (didn't bet)
+Seat 2: Bondy66666 (button) folded before Flop (didn't bet)
+Seat 3: primodepie (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: Mattmann_080 folded before Flop (didn't bet)
+Seat 6: fulhouser1111 collected (62)
+
+
+
+PokerStars Hand #260344867019: Tournament #3989275876, $0.91+$0.09 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:07:24 UTC [2026/04/04 15:07:24 ET]
+Table '3989275876 1' 6-max Seat #3 is the button
+Seat 1: benita2003 (456 in chips) 
+Seat 2: Bondy66666 (486 in chips) 
+Seat 3: primodepie (446 in chips) 
+Seat 4: scorza23 (476 in chips) 
+Seat 5: Mattmann_080 (598 in chips) 
+Seat 6: fulhouser1111 (538 in chips) 
+benita2003: posts the ante 2
+Bondy66666: posts the ante 2
+primodepie: posts the ante 2
+scorza23: posts the ante 2
+Mattmann_080: posts the ante 2
+fulhouser1111: posts the ante 2
+scorza23: posts small blind 10
+Mattmann_080: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3d]
+fulhouser1111: folds 
+benita2003: calls 20
+Bondy66666: calls 20
+primodepie: folds 
+scorza23: calls 10
+Mattmann_080: checks 
+*** FLOP *** [2d Kc 5s]
+scorza23: checks 
+Mattmann_080: checks 
+benita2003: checks 
+Bondy66666: bets 20
+scorza23: folds 
+Mattmann_080: folds 
+benita2003: calls 20
+*** TURN *** [2d Kc 5s] [Ac]
+benita2003: checks 
+Bondy66666: bets 66
+benita2003: calls 66
+*** RIVER *** [2d Kc 5s Ac] [Ad]
+benita2003: checks 
+Bondy66666: bets 20
+benita2003: calls 20
+*** SHOW DOWN ***
+Bondy66666: shows [5c 8c] (two pair, Aces and Fives)
+benita2003: mucks hand 
+Bondy66666 collected 304 from pot
+*** SUMMARY ***
+Total pot 304 | Rake 0 
+Board [2d Kc 5s Ac Ad]
+Seat 1: benita2003 mucked [Qd 4h]
+Seat 2: Bondy66666 showed [5c 8c] and won (304) with two pair, Aces and Fives
+Seat 3: primodepie (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded on the Flop
+Seat 5: Mattmann_080 (big blind) folded on the Flop
+Seat 6: fulhouser1111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344880894: Tournament #3989275876, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:08:25 UTC [2026/04/04 15:08:25 ET]
+Table '3989275876 1' 6-max Seat #4 is the button
+Seat 1: benita2003 (328 in chips) 
+Seat 2: Bondy66666 (662 in chips) 
+Seat 3: primodepie (444 in chips) 
+Seat 4: scorza23 (454 in chips) 
+Seat 5: Mattmann_080 (576 in chips) 
+Seat 6: fulhouser1111 (536 in chips) 
+benita2003: posts the ante 3
+Bondy66666: posts the ante 3
+primodepie: posts the ante 3
+scorza23: posts the ante 3
+Mattmann_080: posts the ante 3
+fulhouser1111: posts the ante 3
+Mattmann_080: posts small blind 15
+fulhouser1111: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 9d]
+benita2003: folds 
+Bondy66666: folds 
+primodepie: folds 
+scorza23: folds 
+Mattmann_080: folds 
+Uncalled bet (15) returned to fulhouser1111
+fulhouser1111 collected 48 from pot
+fulhouser1111: doesn't show hand 
+*** SUMMARY ***
+Total pot 48 | Rake 0 
+Seat 1: benita2003 folded before Flop (didn't bet)
+Seat 2: Bondy66666 folded before Flop (didn't bet)
+Seat 3: primodepie folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Mattmann_080 (small blind) folded before Flop
+Seat 6: fulhouser1111 (big blind) collected (48)
+
+
+
+PokerStars Hand #260344882480: Tournament #3989275876, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:08:32 UTC [2026/04/04 15:08:32 ET]
+Table '3989275876 1' 6-max Seat #5 is the button
+Seat 1: benita2003 (325 in chips) 
+Seat 2: Bondy66666 (659 in chips) 
+Seat 3: primodepie (441 in chips) 
+Seat 4: scorza23 (451 in chips) 
+Seat 5: Mattmann_080 (558 in chips) 
+Seat 6: fulhouser1111 (566 in chips) 
+benita2003: posts the ante 3
+Bondy66666: posts the ante 3
+primodepie: posts the ante 3
+scorza23: posts the ante 3
+Mattmann_080: posts the ante 3
+fulhouser1111: posts the ante 3
+fulhouser1111: posts small blind 15
+benita2003: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh As]
+Bondy66666: folds 
+primodepie: folds 
+scorza23: raises 30 to 60
+Mattmann_080: folds 
+fulhouser1111: calls 45
+benita2003: folds 
+*** FLOP *** [3s Kd 6d]
+fulhouser1111: checks 
+scorza23: bets 60
+fulhouser1111: raises 90 to 150
+scorza23: calls 90
+*** TURN *** [3s Kd 6d] [Ts]
+fulhouser1111: checks 
+scorza23: bets 90
+fulhouser1111: folds 
+Uncalled bet (90) returned to scorza23
+scorza23 collected 468 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 468 | Rake 0 
+Board [3s Kd 6d Ts]
+Seat 1: benita2003 (big blind) folded before Flop
+Seat 2: Bondy66666 folded before Flop (didn't bet)
+Seat 3: primodepie folded before Flop (didn't bet)
+Seat 4: scorza23 collected (468)
+Seat 5: Mattmann_080 (button) folded before Flop (didn't bet)
+Seat 6: fulhouser1111 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260344893785: Tournament #3989275876, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:09:22 UTC [2026/04/04 15:09:22 ET]
+Table '3989275876 1' 6-max Seat #6 is the button
+Seat 1: benita2003 (292 in chips) 
+Seat 2: Bondy66666 (656 in chips) 
+Seat 3: primodepie (438 in chips) 
+Seat 4: scorza23 (706 in chips) 
+Seat 5: Mattmann_080 (555 in chips) 
+Seat 6: fulhouser1111 (353 in chips) 
+benita2003: posts the ante 3
+Bondy66666: posts the ante 3
+primodepie: posts the ante 3
+scorza23: posts the ante 3
+Mattmann_080: posts the ante 3
+fulhouser1111: posts the ante 3
+benita2003: posts small blind 15
+Bondy66666: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 9s]
+primodepie: folds 
+scorza23: folds 
+Mattmann_080: calls 30
+fulhouser1111: folds 
+benita2003: calls 15
+Bondy66666: checks 
+*** FLOP *** [Kh 5c Kc]
+benita2003: checks 
+Bondy66666: checks 
+Mattmann_080: checks 
+*** TURN *** [Kh 5c Kc] [5h]
+benita2003: checks 
+Bondy66666: bets 30
+Mattmann_080: folds 
+benita2003: calls 30
+*** RIVER *** [Kh 5c Kc 5h] [Jh]
+benita2003: checks 
+Bondy66666: bets 84
+benita2003: folds 
+Uncalled bet (84) returned to Bondy66666
+Bondy66666 collected 168 from pot
+Bondy66666: doesn't show hand 
+*** SUMMARY ***
+Total pot 168 | Rake 0 
+Board [Kh 5c Kc 5h Jh]
+Seat 1: benita2003 (small blind) folded on the River
+Seat 2: Bondy66666 (big blind) collected (168)
+Seat 3: primodepie folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Mattmann_080 folded on the Turn
+Seat 6: fulhouser1111 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344902792: Tournament #3989275876, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:10:01 UTC [2026/04/04 15:10:01 ET]
+Table '3989275876 1' 6-max Seat #1 is the button
+Seat 1: benita2003 (229 in chips) 
+Seat 2: Bondy66666 (761 in chips) 
+Seat 3: primodepie (435 in chips) 
+Seat 4: scorza23 (703 in chips) 
+Seat 5: Mattmann_080 (522 in chips) 
+Seat 6: fulhouser1111 (350 in chips) 
+benita2003: posts the ante 3
+Bondy66666: posts the ante 3
+primodepie: posts the ante 3
+scorza23: posts the ante 3
+Mattmann_080: posts the ante 3
+fulhouser1111: posts the ante 3
+Bondy66666: posts small blind 15
+primodepie: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Js]
+scorza23: raises 30 to 60
+Mattmann_080: folds 
+fulhouser1111: folds 
+benita2003: calls 60
+Bondy66666: calls 45
+primodepie: folds 
+*** FLOP *** [Jd Ah Qs]
+Bondy66666: bets 114
+scorza23: calls 114
+benita2003: folds 
+*** TURN *** [Jd Ah Qs] [8h]
+Bondy66666: bets 228
+scorza23: calls 228
+*** RIVER *** [Jd Ah Qs 8h] [4c]
+Bondy66666: bets 30
+scorza23: raises 268 to 298 and is all-in
+Bondy66666: calls 268
+*** SHOW DOWN ***
+scorza23: shows [Kc Js] (a pair of Jacks)
+Bondy66666: shows [Jh Qc] (two pair, Queens and Jacks)
+Bondy66666 collected 1508 from pot
+scorza23 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1508 | Rake 0 
+Board [Jd Ah Qs 8h 4c]
+Seat 1: benita2003 (button) folded on the Flop
+Seat 2: Bondy66666 (small blind) showed [Jh Qc] and won (1508) with two pair, Queens and Jacks
+Seat 3: primodepie (big blind) folded before Flop
+Seat 4: scorza23 showed [Kc Js] and lost with a pair of Jacks
+Seat 5: Mattmann_080 folded before Flop (didn't bet)
+Seat 6: fulhouser1111 folded before Flop (didn't bet)
+
+
+

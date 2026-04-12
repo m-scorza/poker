@@ -1,0 +1,622 @@
+﻿PokerStars Hand #260360531521: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:35:12 BRT [2026/04/05 18:35:12 ET]
+Table '3989614144 1' 8-max Seat #4 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 3: tiaguinhotri (1430 in chips) 
+Seat 4: 2010010486 (3185 in chips) 
+Seat 5: YUUTAxBR (1474 in chips) 
+Seat 6: FecouFredes (1494 in chips) 
+Seat 7: Lapanca (1494 in chips) 
+Seat 8: fedexmont-10 (1500 in chips) 
+scorza23: posts the ante 3
+tiaguinhotri: posts the ante 3
+2010010486: posts the ante 3
+YUUTAxBR: posts the ante 3
+FecouFredes: posts the ante 3
+Lapanca: posts the ante 3
+fedexmont-10: posts the ante 3
+YUUTAxBR: posts small blind 10
+FecouFredes: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 7s]
+Lapanca: raises 20 to 40
+fedexmont-10: folds 
+scorza23: folds 
+tiaguinhotri: folds 
+2010010486: folds 
+YUUTAxBR: folds 
+FecouFredes: folds 
+Uncalled bet (20) returned to Lapanca
+Lapanca collected 71 from pot
+Lapanca: doesn't show hand 
+*** SUMMARY ***
+Total pot 71 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: tiaguinhotri folded before Flop (didn't bet)
+Seat 4: 2010010486 (button) folded before Flop (didn't bet)
+Seat 5: YUUTAxBR (small blind) folded before Flop
+Seat 6: FecouFredes (big blind) folded before Flop
+Seat 7: Lapanca collected (71)
+Seat 8: fedexmont-10 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360540762: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:35:53 BRT [2026/04/05 18:35:53 ET]
+Table '3989614144 1' 8-max Seat #5 is the button
+Seat 1: scorza23 (1497 in chips) 
+Seat 3: tiaguinhotri (1427 in chips) 
+Seat 4: 2010010486 (3182 in chips) 
+Seat 5: YUUTAxBR (1461 in chips) 
+Seat 6: FecouFredes (1471 in chips) 
+Seat 7: Lapanca (1542 in chips) 
+Seat 8: fedexmont-10 (1497 in chips) 
+scorza23: posts the ante 3
+tiaguinhotri: posts the ante 3
+2010010486: posts the ante 3
+YUUTAxBR: posts the ante 3
+FecouFredes: posts the ante 3
+Lapanca: posts the ante 3
+fedexmont-10: posts the ante 3
+FecouFredes: posts small blind 10
+Lapanca: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 9c]
+fedexmont-10: raises 40 to 60
+scorza23: folds 
+tiaguinhotri: folds 
+2010010486: folds 
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: folds 
+Uncalled bet (40) returned to fedexmont-10
+fedexmont-10 collected 71 from pot
+fedexmont-10: doesn't show hand 
+*** SUMMARY ***
+Total pot 71 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: tiaguinhotri folded before Flop (didn't bet)
+Seat 4: 2010010486 folded before Flop (didn't bet)
+Seat 5: YUUTAxBR (button) folded before Flop (didn't bet)
+Seat 6: FecouFredes (small blind) folded before Flop
+Seat 7: Lapanca (big blind) folded before Flop
+Seat 8: fedexmont-10 collected (71)
+
+
+
+PokerStars Hand #260360548888: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:36:28 BRT [2026/04/05 18:36:28 ET]
+Table '3989614144 1' 8-max Seat #6 is the button
+Seat 1: scorza23 (1494 in chips) 
+Seat 2: aaceK’s (1500 in chips) 
+Seat 3: tiaguinhotri (1424 in chips) 
+Seat 4: 2010010486 (3179 in chips) 
+Seat 5: YUUTAxBR (1458 in chips) 
+Seat 6: FecouFredes (1458 in chips) 
+Seat 7: Lapanca (1519 in chips) 
+scorza23: posts the ante 3
+aaceK’s: posts the ante 3
+tiaguinhotri: posts the ante 3
+2010010486: posts the ante 3
+YUUTAxBR: posts the ante 3
+FecouFredes: posts the ante 3
+Lapanca: posts the ante 3
+Lapanca: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 8d]
+aaceK’s: folds 
+tiaguinhotri: folds 
+2010010486: calls 20
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: raises 100 to 120
+scorza23: folds 
+2010010486: folds 
+Uncalled bet (100) returned to Lapanca
+Lapanca collected 81 from pot
+Lapanca: doesn't show hand 
+*** SUMMARY ***
+Total pot 81 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: aaceK’s folded before Flop (didn't bet)
+Seat 3: tiaguinhotri folded before Flop (didn't bet)
+Seat 4: 2010010486 folded before Flop
+Seat 5: YUUTAxBR folded before Flop (didn't bet)
+Seat 6: FecouFredes (button) folded before Flop (didn't bet)
+Seat 7: Lapanca (small blind) collected (81)
+
+
+
+PokerStars Hand #260360558827: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:37:12 BRT [2026/04/05 18:37:12 ET]
+Table '3989614144 1' 8-max Seat #7 is the button
+Seat 1: scorza23 (1471 in chips) 
+Seat 2: aaceK’s (1497 in chips) 
+Seat 4: 2010010486 (3156 in chips) 
+Seat 5: YUUTAxBR (1455 in chips) 
+Seat 6: FecouFredes (1455 in chips) 
+Seat 7: Lapanca (1577 in chips) 
+scorza23: posts the ante 3
+aaceK’s: posts the ante 3
+2010010486: posts the ante 3
+YUUTAxBR: posts the ante 3
+FecouFredes: posts the ante 3
+Lapanca: posts the ante 3
+scorza23: posts small blind 10
+aaceK’s: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7d]
+2010010486: raises 40 to 60
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: raises 180 to 240
+scorza23: folds 
+aaceK’s: folds 
+2010010486: calls 180
+*** FLOP *** [Ac 9d 2d]
+2010010486: checks 
+Lapanca: bets 174
+2010010486: calls 174
+*** TURN *** [Ac 9d 2d] [4d]
+2010010486: checks 
+Lapanca: bets 432
+2010010486: folds 
+Uncalled bet (432) returned to Lapanca
+Lapanca collected 876 from pot
+Lapanca: doesn't show hand 
+*** SUMMARY ***
+Total pot 876 | Rake 0 
+Board [Ac 9d 2d 4d]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: aaceK’s (big blind) folded before Flop
+Seat 4: 2010010486 folded on the Turn
+Seat 5: YUUTAxBR folded before Flop (didn't bet)
+Seat 6: FecouFredes folded before Flop (didn't bet)
+Seat 7: Lapanca (button) collected (876)
+
+
+
+PokerStars Hand #260360571888: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:38:10 BRT [2026/04/05 18:38:10 ET]
+Table '3989614144 1' 8-max Seat #1 is the button
+Seat 1: scorza23 (1458 in chips) 
+Seat 2: aaceK’s (1474 in chips) 
+Seat 3: netovskybr (1500 in chips) 
+Seat 4: 2010010486 (2739 in chips) 
+Seat 5: YUUTAxBR (1452 in chips) 
+Seat 6: FecouFredes (1452 in chips) 
+Seat 7: Lapanca (2036 in chips) 
+Seat 8: wupti62 (1500 in chips) 
+scorza23: posts the ante 4
+aaceK’s: posts the ante 4
+netovskybr: posts the ante 4
+2010010486: posts the ante 4
+YUUTAxBR: posts the ante 4
+FecouFredes: posts the ante 4
+Lapanca: posts the ante 4
+wupti62: posts the ante 4
+aaceK’s: posts small blind 15
+netovskybr: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 2h]
+2010010486: calls 30
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: folds 
+wupti62: folds 
+scorza23: folds 
+aaceK’s: folds 
+netovskybr: checks 
+*** FLOP *** [Kh 5d Tc]
+netovskybr: checks 
+2010010486: checks 
+*** TURN *** [Kh 5d Tc] [Th]
+netovskybr: checks 
+2010010486: checks 
+*** RIVER *** [Kh 5d Tc Th] [Ac]
+netovskybr: bets 120
+2010010486: calls 120
+*** SHOW DOWN ***
+netovskybr: shows [4h As] (two pair, Aces and Tens)
+2010010486: shows [Ad 3s] (two pair, Aces and Tens)
+netovskybr collected 174 from pot
+2010010486 collected 173 from pot
+*** SUMMARY ***
+Total pot 347 | Rake 0 
+Board [Kh 5d Tc Th Ac]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: aaceK’s (small blind) folded before Flop
+Seat 3: netovskybr (big blind) showed [4h As] and won (174) with two pair, Aces and Tens
+Seat 4: 2010010486 showed [Ad 3s] and won (173) with two pair, Aces and Tens
+Seat 5: YUUTAxBR folded before Flop (didn't bet)
+Seat 6: FecouFredes folded before Flop (didn't bet)
+Seat 7: Lapanca folded before Flop (didn't bet)
+Seat 8: wupti62 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360589948: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:39:30 BRT [2026/04/05 18:39:30 ET]
+Table '3989614144 1' 8-max Seat #2 is the button
+Seat 1: scorza23 (1454 in chips) 
+Seat 2: aaceK’s (1455 in chips) 
+Seat 3: netovskybr (1520 in chips) 
+Seat 4: 2010010486 (2758 in chips) 
+Seat 5: YUUTAxBR (1448 in chips) 
+Seat 6: FecouFredes (1448 in chips) 
+Seat 7: Lapanca (2032 in chips) 
+Seat 8: wupti62 (1496 in chips) 
+scorza23: posts the ante 4
+aaceK’s: posts the ante 4
+netovskybr: posts the ante 4
+2010010486: posts the ante 4
+YUUTAxBR: posts the ante 4
+FecouFredes: posts the ante 4
+Lapanca: posts the ante 4
+wupti62: posts the ante 4
+netovskybr: posts small blind 15
+2010010486: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 8d]
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: raises 33 to 63
+wupti62: folds 
+scorza23: folds 
+aaceK’s: calls 63
+netovskybr: calls 48
+2010010486: calls 33
+*** FLOP *** [7d 7h Qc]
+netovskybr: bets 90
+2010010486: calls 90
+Lapanca: folds 
+aaceK’s: raises 90 to 180
+netovskybr: calls 90
+2010010486: folds 
+*** TURN *** [7d 7h Qc] [Tc]
+netovskybr: checks 
+aaceK’s: bets 187
+netovskybr: folds 
+Uncalled bet (187) returned to aaceK’s
+aaceK’s collected 734 from pot
+aaceK’s: doesn't show hand 
+*** SUMMARY ***
+Total pot 734 | Rake 0 
+Board [7d 7h Qc Tc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: aaceK’s (button) collected (734)
+Seat 3: netovskybr (small blind) folded on the Turn
+Seat 4: 2010010486 (big blind) folded on the Flop
+Seat 5: YUUTAxBR folded before Flop (didn't bet)
+Seat 6: FecouFredes folded before Flop (didn't bet)
+Seat 7: Lapanca folded on the Flop
+Seat 8: wupti62 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360607067: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:40:46 BRT [2026/04/05 18:40:46 ET]
+Table '3989614144 1' 8-max Seat #3 is the button
+Seat 1: scorza23 (1450 in chips) 
+Seat 2: aaceK’s (1942 in chips) 
+Seat 3: netovskybr (1273 in chips) 
+Seat 4: 2010010486 (2601 in chips) 
+Seat 5: YUUTAxBR (1444 in chips) 
+Seat 6: FecouFredes (1444 in chips) 
+Seat 7: Lapanca (1965 in chips) 
+Seat 8: wupti62 (1492 in chips) 
+scorza23: posts the ante 4
+aaceK’s: posts the ante 4
+netovskybr: posts the ante 4
+2010010486: posts the ante 4
+YUUTAxBR: posts the ante 4
+FecouFredes: posts the ante 4
+Lapanca: posts the ante 4
+wupti62: posts the ante 4
+2010010486: posts small blind 15
+YUUTAxBR: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5h]
+FecouFredes: folds 
+Lapanca: folds 
+wupti62: folds 
+scorza23: folds 
+aaceK’s: raises 36 to 66
+netovskybr: folds 
+2010010486: calls 51
+YUUTAxBR: calls 36
+*** FLOP *** [4d 2h 5s]
+2010010486: checks 
+YUUTAxBR: checks 
+aaceK’s: checks 
+*** TURN *** [4d 2h 5s] [6h]
+2010010486: bets 60
+YUUTAxBR: calls 60
+aaceK’s: calls 60
+*** RIVER *** [4d 2h 5s 6h] [Jd]
+2010010486: checks 
+YUUTAxBR: checks 
+aaceK’s: checks 
+*** SHOW DOWN ***
+2010010486: shows [Kd 6s] (a pair of Sixes)
+YUUTAxBR: mucks hand 
+aaceK’s: mucks hand 
+2010010486 collected 410 from pot
+*** SUMMARY ***
+Total pot 410 | Rake 0 
+Board [4d 2h 5s 6h Jd]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: aaceK’s mucked [Td 7d]
+Seat 3: netovskybr (button) folded before Flop (didn't bet)
+Seat 4: 2010010486 (small blind) showed [Kd 6s] and won (410) with a pair of Sixes
+Seat 5: YUUTAxBR (big blind) mucked [9d Ad]
+Seat 6: FecouFredes folded before Flop (didn't bet)
+Seat 7: Lapanca folded before Flop (didn't bet)
+Seat 8: wupti62 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360622546: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:41:54 BRT [2026/04/05 18:41:54 ET]
+Table '3989614144 1' 8-max Seat #4 is the button
+Seat 1: scorza23 (1446 in chips) 
+Seat 2: aaceK’s (1812 in chips) 
+Seat 3: netovskybr (1269 in chips) 
+Seat 4: 2010010486 (2881 in chips) 
+Seat 5: YUUTAxBR (1314 in chips) 
+Seat 6: FecouFredes (1440 in chips) 
+Seat 7: Lapanca (1961 in chips) 
+Seat 8: wupti62 (1488 in chips) 
+scorza23: posts the ante 4
+aaceK’s: posts the ante 4
+netovskybr: posts the ante 4
+2010010486: posts the ante 4
+YUUTAxBR: posts the ante 4
+FecouFredes: posts the ante 4
+Lapanca: posts the ante 4
+wupti62: posts the ante 4
+YUUTAxBR: posts small blind 15
+FecouFredes: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Th]
+Lapanca: folds 
+wupti62: folds 
+scorza23: folds 
+aaceK’s: raises 30 to 60
+netovskybr: calls 60
+2010010486: folds 
+YUUTAxBR: folds 
+FecouFredes: folds 
+*** FLOP *** [3c 9h Ts]
+aaceK’s: checks 
+netovskybr: bets 197
+aaceK’s: raises 197 to 394
+netovskybr: raises 811 to 1205 and is all-in
+aaceK’s: calls 811
+*** TURN *** [3c 9h Ts] [Kc]
+*** RIVER *** [3c 9h Ts Kc] [6d]
+*** SHOW DOWN ***
+aaceK’s: shows [3s 3d] (three of a kind, Threes)
+netovskybr: shows [Td 7d] (a pair of Tens)
+aaceK’s collected 2607 from pot
+netovskybr finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 2607 | Rake 0 
+Board [3c 9h Ts Kc 6d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: aaceK’s showed [3s 3d] and won (2607) with three of a kind, Threes
+Seat 3: netovskybr showed [Td 7d] and lost with a pair of Tens
+Seat 4: 2010010486 (button) folded before Flop (didn't bet)
+Seat 5: YUUTAxBR (small blind) folded before Flop
+Seat 6: FecouFredes (big blind) folded before Flop
+Seat 7: Lapanca folded before Flop (didn't bet)
+Seat 8: wupti62 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360637470: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:43:01 BRT [2026/04/05 18:43:01 ET]
+Table '3989614144 1' 8-max Seat #5 is the button
+Seat 1: scorza23 (1442 in chips) 
+Seat 2: aaceK’s (3150 in chips) 
+Seat 4: 2010010486 (2877 in chips) 
+Seat 5: YUUTAxBR (1295 in chips) 
+Seat 6: FecouFredes (1406 in chips) 
+Seat 7: Lapanca (1957 in chips) 
+Seat 8: wupti62 (1484 in chips) 
+scorza23: posts the ante 6
+aaceK’s: posts the ante 6
+2010010486: posts the ante 6
+YUUTAxBR: posts the ante 6
+FecouFredes: posts the ante 6
+Lapanca: posts the ante 6
+wupti62: posts the ante 6
+FecouFredes: posts small blind 25
+Lapanca: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6h]
+wupti62: folds 
+scorza23: folds 
+aaceK’s: raises 50 to 100
+2010010486: folds 
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: calls 50
+*** FLOP *** [4h Qd 6d]
+Lapanca: checks 
+aaceK’s: bets 84
+Lapanca: calls 84
+*** TURN *** [4h Qd 6d] [Kc]
+Lapanca: checks 
+aaceK’s: bets 168
+Lapanca: folds 
+Uncalled bet (168) returned to aaceK’s
+aaceK’s collected 435 from pot
+aaceK’s: doesn't show hand 
+*** SUMMARY ***
+Total pot 435 | Rake 0 
+Board [4h Qd 6d Kc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: aaceK’s collected (435)
+Seat 4: 2010010486 folded before Flop (didn't bet)
+Seat 5: YUUTAxBR (button) folded before Flop (didn't bet)
+Seat 6: FecouFredes (small blind) folded before Flop
+Seat 7: Lapanca (big blind) folded on the Turn
+Seat 8: wupti62 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360651288: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:44:03 BRT [2026/04/05 18:44:03 ET]
+Table '3989614144 1' 8-max Seat #6 is the button
+Seat 1: scorza23 (1436 in chips) 
+Seat 2: aaceK’s (3395 in chips) 
+Seat 4: 2010010486 (2871 in chips) 
+Seat 5: YUUTAxBR (1289 in chips) 
+Seat 6: FecouFredes (1375 in chips) 
+Seat 7: Lapanca (1767 in chips) 
+Seat 8: wupti62 (1478 in chips) 
+scorza23: posts the ante 6
+aaceK’s: posts the ante 6
+2010010486: posts the ante 6
+YUUTAxBR: posts the ante 6
+FecouFredes: posts the ante 6
+Lapanca: posts the ante 6
+wupti62: posts the ante 6
+Lapanca: posts small blind 25
+wupti62: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [As Js]
+scorza23: raises 50 to 100
+aaceK’s: folds 
+2010010486: calls 100
+YUUTAxBR: raises 150 to 250
+FecouFredes: raises 1119 to 1369 and is all-in
+Lapanca: folds 
+wupti62: folds 
+scorza23: calls 1269
+2010010486: folds 
+YUUTAxBR: folds 
+*** FLOP *** [2c Tc 9s]
+*** TURN *** [2c Tc 9s] [Td]
+*** RIVER *** [2c Tc 9s Td] [2d]
+*** SHOW DOWN ***
+scorza23: shows [As Js] (two pair, Tens and Deuces)
+FecouFredes: shows [Qc Qs] (two pair, Queens and Tens)
+FecouFredes collected 3205 from pot
+*** SUMMARY ***
+Total pot 3205 | Rake 0 
+Board [2c Tc 9s Td 2d]
+Seat 1: scorza23 showed [As Js] and lost with two pair, Tens and Deuces
+Seat 2: aaceK’s folded before Flop (didn't bet)
+Seat 4: 2010010486 folded before Flop
+Seat 5: YUUTAxBR folded before Flop
+Seat 6: FecouFredes (button) showed [Qc Qs] and won (3205) with two pair, Queens and Tens
+Seat 7: Lapanca (small blind) folded before Flop
+Seat 8: wupti62 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260360660515: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:44:45 BRT [2026/04/05 18:44:45 ET]
+Table '3989614144 1' 8-max Seat #7 is the button
+Seat 1: scorza23 (61 in chips) 
+Seat 2: aaceK’s (3389 in chips) 
+Seat 4: 2010010486 (2765 in chips) 
+Seat 5: YUUTAxBR (1033 in chips) 
+Seat 6: FecouFredes (3205 in chips) 
+Seat 7: Lapanca (1736 in chips) 
+Seat 8: wupti62 (1422 in chips) 
+scorza23: posts the ante 6
+aaceK’s: posts the ante 6
+2010010486: posts the ante 6
+YUUTAxBR: posts the ante 6
+FecouFredes: posts the ante 6
+Lapanca: posts the ante 6
+wupti62: posts the ante 6
+wupti62: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 6d]
+aaceK’s: folds 
+2010010486: folds 
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: folds 
+wupti62: calls 25
+scorza23: checks 
+*** FLOP *** [5c 2c 3h]
+wupti62: checks 
+scorza23: checks 
+*** TURN *** [5c 2c 3h] [3d]
+wupti62: checks 
+scorza23: checks 
+*** RIVER *** [5c 2c 3h 3d] [5h]
+wupti62: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+wupti62: shows [Js 2d] (two pair, Fives and Threes)
+scorza23: shows [Qs 6d] (two pair, Fives and Threes - Queen kicker)
+scorza23 collected 142 from pot
+*** SUMMARY ***
+Total pot 142 | Rake 0 
+Board [5c 2c 3h 3d 5h]
+Seat 1: scorza23 (big blind) showed [Qs 6d] and won (142) with two pair, Fives and Threes
+Seat 2: aaceK’s folded before Flop (didn't bet)
+Seat 4: 2010010486 folded before Flop (didn't bet)
+Seat 5: YUUTAxBR folded before Flop (didn't bet)
+Seat 6: FecouFredes folded before Flop (didn't bet)
+Seat 7: Lapanca (button) folded before Flop (didn't bet)
+Seat 8: wupti62 (small blind) showed [Js 2d] and lost with two pair, Fives and Threes
+
+
+
+PokerStars Hand #260360670122: Tournament #3989614144, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:45:28 BRT [2026/04/05 18:45:28 ET]
+Table '3989614144 1' 8-max Seat #8 is the button
+Seat 1: scorza23 (147 in chips) 
+Seat 2: aaceK’s (3383 in chips) 
+Seat 4: 2010010486 (2759 in chips) 
+Seat 5: YUUTAxBR (1027 in chips) 
+Seat 6: FecouFredes (3199 in chips) 
+Seat 7: Lapanca (1730 in chips) 
+Seat 8: wupti62 (1366 in chips) 
+scorza23: posts the ante 6
+aaceK’s: posts the ante 6
+2010010486: posts the ante 6
+YUUTAxBR: posts the ante 6
+FecouFredes: posts the ante 6
+Lapanca: posts the ante 6
+wupti62: posts the ante 6
+scorza23: posts small blind 25
+aaceK’s: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 8d]
+2010010486: folds 
+YUUTAxBR: folds 
+FecouFredes: folds 
+Lapanca: folds 
+wupti62: calls 50
+scorza23: calls 25
+aaceK’s: raises 150 to 200
+wupti62: calls 150
+scorza23: calls 91 and is all-in
+*** FLOP *** [Ts 9c 9s]
+aaceK’s: checks 
+wupti62: bets 292
+aaceK’s: calls 292
+*** TURN *** [Ts 9c 9s] [7h]
+aaceK’s: checks 
+wupti62: bets 868 and is all-in
+aaceK’s: calls 868
+*** RIVER *** [Ts 9c 9s 7h] [Kc]
+*** SHOW DOWN ***
+aaceK’s: shows [7s 7c] (a full house, Sevens full of Nines)
+wupti62: shows [Ad 7d] (two pair, Nines and Sevens)
+aaceK’s collected 2438 from side pot
+scorza23: shows [Kh 8d] (two pair, Kings and Nines)
+aaceK’s collected 465 from main pot
+wupti62 finished the tournament in 28th place
+scorza23 finished the tournament in 29th place
+*** SUMMARY ***
+Total pot 2903 Main pot 465. Side pot 2438. | Rake 0 
+Board [Ts 9c 9s 7h Kc]
+Seat 1: scorza23 (small blind) showed [Kh 8d] and lost with two pair, Kings and Nines
+Seat 2: aaceK’s (big blind) showed [7s 7c] and won (2903) with a full house, Sevens full of Nines
+Seat 4: 2010010486 folded before Flop (didn't bet)
+Seat 5: YUUTAxBR folded before Flop (didn't bet)
+Seat 6: FecouFredes folded before Flop (didn't bet)
+Seat 7: Lapanca folded before Flop (didn't bet)
+Seat 8: wupti62 (button) showed [Ad 7d] and lost with two pair, Nines and Sevens
+
+
+

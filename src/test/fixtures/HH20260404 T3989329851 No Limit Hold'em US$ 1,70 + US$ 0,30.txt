@@ -1,0 +1,3187 @@
+﻿PokerStars Hand #260347370582: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:14:55 UTC [2026/04/04 18:14:55 ET]
+Table '3989329851 1' 9-max Seat #1 is the button
+Seat 1: CorfuCat (1500 in chips) 
+Seat 2: Roneisu (1500 in chips) 
+Seat 3: SenegoiD31 (1500 in chips) 
+Seat 4: Toby Elcock (1500 in chips) 
+Seat 5: scrappers28 (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: Vampiella (1500 in chips) 
+Seat 8: jkardsv (1500 in chips) 
+Seat 9: McCalci (1500 in chips) 
+CorfuCat: posts the ante 3
+Roneisu: posts the ante 3
+SenegoiD31: posts the ante 3
+Toby Elcock: posts the ante 3
+scrappers28: posts the ante 3
+scorza23: posts the ante 3
+Vampiella: posts the ante 3
+jkardsv: posts the ante 3
+McCalci: posts the ante 3
+Roneisu: posts small blind 10
+SenegoiD31: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ac]
+Toby Elcock: folds 
+scrappers28: calls 20
+scorza23: folds 
+Vampiella: folds 
+jkardsv: calls 20
+McCalci has timed out
+McCalci: folds 
+McCalci is sitting out
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: checks 
+*** FLOP *** [Th Qs 3d]
+SenegoiD31: checks 
+scrappers28: checks 
+jkardsv: checks 
+*** TURN *** [Th Qs 3d] [8s]
+SenegoiD31: bets 32
+scrappers28: folds 
+jkardsv: folds 
+Uncalled bet (32) returned to SenegoiD31
+SenegoiD31 collected 97 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 97 | Rake 0 
+Board [Th Qs 3d 8s]
+Seat 1: CorfuCat (button) folded before Flop (didn't bet)
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) collected (97)
+Seat 4: Toby Elcock folded before Flop (didn't bet)
+Seat 5: scrappers28 folded on the Turn
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella folded before Flop (didn't bet)
+Seat 8: jkardsv folded on the Turn
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347391939: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:16:32 UTC [2026/04/04 18:16:32 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 1: CorfuCat (1497 in chips) 
+Seat 2: Roneisu (1487 in chips) 
+Seat 3: SenegoiD31 (1574 in chips) 
+Seat 4: Toby Elcock (1497 in chips) 
+Seat 5: scrappers28 (1477 in chips) 
+Seat 6: scorza23 (1497 in chips) 
+Seat 7: Vampiella (1497 in chips) 
+Seat 8: jkardsv (1477 in chips) 
+Seat 9: McCalci (1497 in chips) is sitting out
+CorfuCat: posts the ante 3
+Roneisu: posts the ante 3
+SenegoiD31: posts the ante 3
+Toby Elcock: posts the ante 3
+scrappers28: posts the ante 3
+scorza23: posts the ante 3
+Vampiella: posts the ante 3
+jkardsv: posts the ante 3
+McCalci: posts the ante 3
+SenegoiD31: posts small blind 10
+Toby Elcock: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Ts]
+scrappers28: raises 20 to 40
+scorza23: folds 
+Vampiella: folds 
+jkardsv: calls 40
+McCalci: folds 
+CorfuCat: folds 
+McCalci has returned
+Roneisu: folds 
+SenegoiD31: calls 30
+Toby Elcock: calls 20
+*** FLOP *** [Qd 6d 3s]
+SenegoiD31: checks 
+Toby Elcock: checks 
+scrappers28: bets 60
+jkardsv: folds 
+SenegoiD31: folds 
+Toby Elcock: folds 
+Uncalled bet (60) returned to scrappers28
+scrappers28 collected 187 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 187 | Rake 0 
+Board [Qd 6d 3s]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded on the Flop
+Seat 4: Toby Elcock (big blind) folded on the Flop
+Seat 5: scrappers28 collected (187)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella folded before Flop (didn't bet)
+Seat 8: jkardsv folded on the Flop
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347404851: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:17:30 UTC [2026/04/04 18:17:30 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 1: CorfuCat (1494 in chips) 
+Seat 2: Roneisu (1484 in chips) 
+Seat 3: SenegoiD31 (1531 in chips) 
+Seat 4: Toby Elcock (1454 in chips) 
+Seat 5: scrappers28 (1621 in chips) 
+Seat 6: scorza23 (1494 in chips) 
+Seat 7: Vampiella (1494 in chips) 
+Seat 8: jkardsv (1434 in chips) 
+Seat 9: McCalci (1494 in chips) 
+CorfuCat: posts the ante 3
+Roneisu: posts the ante 3
+SenegoiD31: posts the ante 3
+Toby Elcock: posts the ante 3
+scrappers28: posts the ante 3
+scorza23: posts the ante 3
+Vampiella: posts the ante 3
+jkardsv: posts the ante 3
+McCalci: posts the ante 3
+Toby Elcock: posts small blind 10
+scrappers28: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Jh]
+scorza23: folds 
+Vampiella: calls 20
+jkardsv: folds 
+McCalci: raises 40 to 60
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Toby Elcock: calls 50
+scrappers28: calls 40
+Vampiella: calls 40
+*** FLOP *** [8h 4h Ac]
+Toby Elcock: checks 
+scrappers28: checks 
+Vampiella: checks 
+McCalci: bets 134
+Toby Elcock: calls 134
+scrappers28: folds 
+Vampiella: folds 
+*** TURN *** [8h 4h Ac] [7s]
+Toby Elcock: bets 80
+McCalci: calls 80
+*** RIVER *** [8h 4h Ac 7s] [Qd]
+Toby Elcock: checks 
+McCalci: bets 268
+Toby Elcock: folds 
+Uncalled bet (268) returned to McCalci
+McCalci collected 695 from pot
+McCalci: doesn't show hand 
+*** SUMMARY ***
+Total pot 695 | Rake 0 
+Board [8h 4h Ac 7s Qd]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 4: Toby Elcock (small blind) folded on the River
+Seat 5: scrappers28 (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella folded on the Flop
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci collected (695)
+
+
+
+PokerStars Hand #260347426793: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:19:12 UTC [2026/04/04 18:19:12 ET]
+Table '3989329851 1' 9-max Seat #4 is the button
+Seat 1: CorfuCat (1491 in chips) 
+Seat 2: Roneisu (1481 in chips) 
+Seat 3: SenegoiD31 (1528 in chips) 
+Seat 4: Toby Elcock (1177 in chips) 
+Seat 5: scrappers28 (1558 in chips) 
+Seat 6: scorza23 (1491 in chips) 
+Seat 7: Vampiella (1431 in chips) 
+Seat 8: jkardsv (1431 in chips) 
+Seat 9: McCalci (1912 in chips) 
+CorfuCat: posts the ante 3
+Roneisu: posts the ante 3
+SenegoiD31: posts the ante 3
+Toby Elcock: posts the ante 3
+scrappers28: posts the ante 3
+scorza23: posts the ante 3
+Vampiella: posts the ante 3
+jkardsv: posts the ante 3
+McCalci: posts the ante 3
+scrappers28: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 2s]
+Vampiella: calls 20
+jkardsv: folds 
+McCalci: raises 40 to 60
+CorfuCat: calls 60
+Roneisu: folds 
+SenegoiD31: folds 
+Toby Elcock: folds 
+scrappers28: calls 50
+scorza23: folds 
+Vampiella: calls 40
+*** FLOP *** [9d Jc Qd]
+scrappers28: checks 
+Vampiella: checks 
+McCalci: bets 144
+CorfuCat: folds 
+scrappers28: calls 144
+Vampiella: folds 
+*** TURN *** [9d Jc Qd] [7h]
+scrappers28: checks 
+McCalci: checks 
+*** RIVER *** [9d Jc Qd 7h] [Kc]
+scrappers28: bets 120
+McCalci: calls 120
+*** SHOW DOWN ***
+scrappers28: shows [Tc 9c] (a straight, Nine to King)
+McCalci: mucks hand 
+scrappers28 collected 815 from pot
+*** SUMMARY ***
+Total pot 815 | Rake 0 
+Board [9d Jc Qd 7h Kc]
+Seat 1: CorfuCat folded on the Flop
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Toby Elcock (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) showed [Tc 9c] and won (815) with a straight, Nine to King
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: Vampiella folded on the Flop
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci mucked [Kd Kh]
+
+
+
+PokerStars Hand #260347444309: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:20:33 UTC [2026/04/04 18:20:33 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 1: CorfuCat (1428 in chips) 
+Seat 2: Roneisu (1478 in chips) 
+Seat 3: SenegoiD31 (1525 in chips) 
+Seat 4: Toby Elcock (1174 in chips) 
+Seat 5: scrappers28 (2046 in chips) 
+Seat 6: scorza23 (1468 in chips) 
+Seat 7: Vampiella (1368 in chips) 
+Seat 8: jkardsv (1428 in chips) 
+Seat 9: McCalci (1585 in chips) 
+CorfuCat: posts the ante 4
+Roneisu: posts the ante 4
+SenegoiD31: posts the ante 4
+Toby Elcock: posts the ante 4
+scrappers28: posts the ante 4
+scorza23: posts the ante 4
+Vampiella: posts the ante 4
+jkardsv: posts the ante 4
+McCalci: posts the ante 4
+scorza23: posts small blind 15
+Vampiella: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Kc]
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Toby Elcock: calls 30
+scrappers28: calls 30
+scorza23: raises 90 to 120
+Vampiella: calls 90
+Toby Elcock: calls 90
+scrappers28: folds 
+*** FLOP *** [9c 4s 6c]
+scorza23: bets 150
+Vampiella: folds 
+Toby Elcock: calls 150
+*** TURN *** [9c 4s 6c] [9d]
+scorza23: bets 240
+Toby Elcock: calls 240
+*** RIVER *** [9c 4s 6c 9d] [3d]
+scorza23: checks 
+Toby Elcock: bets 660 and is all-in
+scorza23: calls 660
+*** SHOW DOWN ***
+Toby Elcock: shows [Ac 5c] (a pair of Nines)
+scorza23: shows [Kh Kc] (two pair, Kings and Nines)
+scorza23 collected 2526 from pot
+Toby Elcock finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 2526 | Rake 0 
+Board [9c 4s 6c 9d 3d]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Toby Elcock showed [Ac 5c] and lost with a pair of Nines
+Seat 5: scrappers28 (button) folded before Flop
+Seat 6: scorza23 (small blind) showed [Kh Kc] and won (2526) with two pair, Kings and Nines
+Seat 7: Vampiella (big blind) folded on the Flop
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347463663: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:22:04 UTC [2026/04/04 18:22:04 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 1: CorfuCat (1424 in chips) 
+Seat 2: Roneisu (1474 in chips) 
+Seat 3: SenegoiD31 (1521 in chips) 
+Seat 5: scrappers28 (2012 in chips) 
+Seat 6: scorza23 (2820 in chips) 
+Seat 7: Vampiella (1244 in chips) 
+Seat 8: jkardsv (1424 in chips) 
+Seat 9: McCalci (1581 in chips) 
+CorfuCat: posts the ante 4
+Roneisu: posts the ante 4
+SenegoiD31: posts the ante 4
+scrappers28: posts the ante 4
+scorza23: posts the ante 4
+Vampiella: posts the ante 4
+jkardsv: posts the ante 4
+McCalci: posts the ante 4
+Vampiella: posts small blind 15
+jkardsv: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qs]
+McCalci: folds 
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: raises 60 to 90
+Vampiella: calls 75
+jkardsv: calls 60
+*** FLOP *** [8h 2d 7h]
+Vampiella: checks 
+jkardsv: checks 
+scorza23: bets 60
+Vampiella: calls 60
+jkardsv: raises 120 to 180
+scorza23: calls 120
+Vampiella: folds 
+*** TURN *** [8h 2d 7h] [5h]
+jkardsv: bets 477
+scorza23: folds 
+Uncalled bet (477) returned to jkardsv
+jkardsv collected 722 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 722 | Rake 0 
+Board [8h 2d 7h 5h]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded on the Turn
+Seat 7: Vampiella (small blind) folded on the Flop
+Seat 8: jkardsv (big blind) collected (722)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347481273: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:23:27 UTC [2026/04/04 18:23:27 ET]
+Table '3989329851 1' 9-max Seat #7 is the button
+Seat 1: CorfuCat (1420 in chips) 
+Seat 2: Roneisu (1470 in chips) 
+Seat 3: SenegoiD31 (1517 in chips) 
+Seat 5: scrappers28 (2008 in chips) 
+Seat 6: scorza23 (2546 in chips) 
+Seat 7: Vampiella (1090 in chips) 
+Seat 8: jkardsv (1872 in chips) 
+Seat 9: McCalci (1577 in chips) 
+CorfuCat: posts the ante 4
+Roneisu: posts the ante 4
+SenegoiD31: posts the ante 4
+scrappers28: posts the ante 4
+scorza23: posts the ante 4
+Vampiella: posts the ante 4
+jkardsv: posts the ante 4
+McCalci: posts the ante 4
+jkardsv: posts small blind 15
+McCalci: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Ts]
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+Vampiella: calls 30
+jkardsv: folds 
+McCalci: checks 
+*** FLOP *** [Qc 4c 2c]
+McCalci: checks 
+Vampiella: checks 
+*** TURN *** [Qc 4c 2c] [7c]
+McCalci: bets 30
+Vampiella: folds 
+Uncalled bet (30) returned to McCalci
+McCalci collected 107 from pot
+McCalci: doesn't show hand 
+*** SUMMARY ***
+Total pot 107 | Rake 0 
+Board [Qc 4c 2c 7c]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella (button) folded on the Turn
+Seat 8: jkardsv (small blind) folded before Flop
+Seat 9: McCalci (big blind) collected (107)
+
+
+
+PokerStars Hand #260347489000: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:24:03 UTC [2026/04/04 18:24:03 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 1: CorfuCat (1416 in chips) 
+Seat 2: Roneisu (1466 in chips) 
+Seat 3: SenegoiD31 (1513 in chips) 
+Seat 5: scrappers28 (2004 in chips) 
+Seat 6: scorza23 (2542 in chips) 
+Seat 7: Vampiella (1056 in chips) 
+Seat 8: jkardsv (1853 in chips) 
+Seat 9: McCalci (1650 in chips) 
+CorfuCat: posts the ante 4
+Roneisu: posts the ante 4
+SenegoiD31: posts the ante 4
+scrappers28: posts the ante 4
+scorza23: posts the ante 4
+Vampiella: posts the ante 4
+jkardsv: posts the ante 4
+McCalci: posts the ante 4
+McCalci: posts small blind 15
+CorfuCat: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 6s]
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+Vampiella: folds 
+jkardsv: raises 45 to 75
+McCalci: folds 
+CorfuCat: folds 
+Uncalled bet (45) returned to jkardsv
+jkardsv collected 107 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 107 | Rake 0 
+Seat 1: CorfuCat (big blind) folded before Flop
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella folded before Flop (didn't bet)
+Seat 8: jkardsv (button) collected (107)
+Seat 9: McCalci (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347496012: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:24:36 UTC [2026/04/04 18:24:36 ET]
+Table '3989329851 1' 9-max Seat #9 is the button
+Seat 1: CorfuCat (1382 in chips) 
+Seat 2: Roneisu (1462 in chips) 
+Seat 3: SenegoiD31 (1509 in chips) 
+Seat 5: scrappers28 (2000 in chips) 
+Seat 6: scorza23 (2538 in chips) 
+Seat 7: Vampiella (1052 in chips) 
+Seat 8: jkardsv (1926 in chips) 
+Seat 9: McCalci (1631 in chips) 
+CorfuCat: posts the ante 4
+Roneisu: posts the ante 4
+SenegoiD31: posts the ante 4
+scrappers28: posts the ante 4
+scorza23: posts the ante 4
+Vampiella: posts the ante 4
+jkardsv: posts the ante 4
+McCalci: posts the ante 4
+CorfuCat: posts small blind 15
+Roneisu: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Ad]
+SenegoiD31: folds 
+scrappers28: calls 30
+scorza23: folds 
+Vampiella: calls 30
+jkardsv: folds 
+McCalci: calls 30
+CorfuCat: folds 
+Roneisu: checks 
+*** FLOP *** [2d Kh 4d]
+Roneisu: checks 
+scrappers28: checks 
+Vampiella: checks 
+McCalci: bets 84
+Roneisu: folds 
+scrappers28: calls 84
+Vampiella: calls 84
+*** TURN *** [2d Kh 4d] [4s]
+scrappers28: checks 
+Vampiella: checks 
+McCalci: bets 180
+scrappers28: calls 180
+Vampiella: calls 180
+*** RIVER *** [2d Kh 4d 4s] [Qc]
+scrappers28: checks 
+Vampiella: checks 
+McCalci: checks 
+*** SHOW DOWN ***
+scrappers28: shows [8d Td] (a pair of Fours)
+Vampiella: shows [Jd 3d] (a pair of Fours - King+Queen+Jack kicker)
+McCalci: shows [3c Kc] (two pair, Kings and Fours)
+McCalci collected 959 from pot
+*** SUMMARY ***
+Total pot 959 | Rake 0 
+Board [2d Kh 4d 4s Qc]
+Seat 1: CorfuCat (small blind) folded before Flop
+Seat 2: Roneisu (big blind) folded on the Flop
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 showed [8d Td] and lost with a pair of Fours
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella showed [Jd 3d] and lost with a pair of Fours
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci (button) showed [3c Kc] and won (959) with two pair, Kings and Fours
+
+
+
+PokerStars Hand #260347509204: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:25:38 UTC [2026/04/04 18:25:38 ET]
+Table '3989329851 1' 9-max Seat #1 is the button
+Seat 1: CorfuCat (1363 in chips) 
+Seat 2: Roneisu (1428 in chips) 
+Seat 3: SenegoiD31 (1505 in chips) 
+Seat 5: scrappers28 (1702 in chips) 
+Seat 6: scorza23 (2534 in chips) 
+Seat 7: Vampiella (754 in chips) 
+Seat 8: jkardsv (1922 in chips) 
+Seat 9: McCalci (2292 in chips) 
+CorfuCat: posts the ante 6
+Roneisu: posts the ante 6
+SenegoiD31: posts the ante 6
+scrappers28: posts the ante 6
+scorza23: posts the ante 6
+Vampiella: posts the ante 6
+jkardsv: posts the ante 6
+McCalci: posts the ante 6
+Roneisu: posts small blind 25
+SenegoiD31: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Qh]
+scrappers28: folds 
+scorza23: folds 
+Vampiella: folds 
+jkardsv: folds 
+McCalci: calls 50
+CorfuCat: calls 50
+Roneisu: folds 
+SenegoiD31: checks 
+*** FLOP *** [4h 3h Ts]
+SenegoiD31: checks 
+McCalci: bets 50
+CorfuCat: calls 50
+SenegoiD31: calls 50
+*** TURN *** [4h 3h Ts] [Kc]
+SenegoiD31: checks 
+McCalci: checks 
+CorfuCat: checks 
+*** RIVER *** [4h 3h Ts Kc] [Qd]
+SenegoiD31: bets 123
+McCalci: folds 
+CorfuCat: folds 
+Uncalled bet (123) returned to SenegoiD31
+SenegoiD31 collected 373 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 373 | Rake 0 
+Board [4h 3h Ts Kc Qd]
+Seat 1: CorfuCat (button) folded on the River
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) collected (373)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded on the River
+
+
+
+PokerStars Hand #260347518119: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:26:21 UTC [2026/04/04 18:26:21 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 1: CorfuCat (1257 in chips) 
+Seat 2: Roneisu (1397 in chips) 
+Seat 3: SenegoiD31 (1772 in chips) 
+Seat 5: scrappers28 (1696 in chips) 
+Seat 6: scorza23 (2528 in chips) 
+Seat 7: Vampiella (748 in chips) 
+Seat 8: jkardsv (1916 in chips) 
+Seat 9: McCalci (2186 in chips) 
+CorfuCat: posts the ante 6
+Roneisu: posts the ante 6
+SenegoiD31: posts the ante 6
+scrappers28: posts the ante 6
+scorza23: posts the ante 6
+Vampiella: posts the ante 6
+jkardsv: posts the ante 6
+McCalci: posts the ante 6
+SenegoiD31: posts small blind 25
+scrappers28: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 9d]
+scorza23: folds 
+Vampiella: folds 
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: calls 50
+Roneisu: folds 
+SenegoiD31: raises 150 to 200
+scrappers28: folds 
+CorfuCat: calls 150
+*** FLOP *** [5h 8h 8c]
+SenegoiD31: checks 
+CorfuCat: checks 
+*** TURN *** [5h 8h 8c] [8s]
+SenegoiD31: checks 
+CorfuCat: checks 
+*** RIVER *** [5h 8h 8c 8s] [7d]
+SenegoiD31: bets 249
+CorfuCat: folds 
+Uncalled bet (249) returned to SenegoiD31
+SenegoiD31 collected 498 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 498 | Rake 0 
+Board [5h 8h 8c 8s 7d]
+Seat 1: CorfuCat folded on the River
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) collected (498)
+Seat 5: scrappers28 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347528637: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:27:10 UTC [2026/04/04 18:27:10 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 1: CorfuCat (1051 in chips) 
+Seat 2: Roneisu (1391 in chips) 
+Seat 3: SenegoiD31 (2064 in chips) 
+Seat 5: scrappers28 (1640 in chips) 
+Seat 6: scorza23 (2522 in chips) 
+Seat 7: Vampiella (742 in chips) 
+Seat 8: jkardsv (1910 in chips) 
+Seat 9: McCalci (2180 in chips) 
+CorfuCat: posts the ante 6
+Roneisu: posts the ante 6
+SenegoiD31: posts the ante 6
+scrappers28: posts the ante 6
+scorza23: posts the ante 6
+Vampiella: posts the ante 6
+jkardsv: posts the ante 6
+McCalci: posts the ante 6
+scrappers28: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 6d]
+Vampiella: folds 
+jkardsv: folds 
+McCalci: calls 50
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: raises 50 to 100
+scorza23: folds 
+McCalci: calls 50
+*** FLOP *** [Js 4h Jh]
+scrappers28: bets 200
+McCalci: folds 
+Uncalled bet (200) returned to scrappers28
+scrappers28 collected 298 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 298 | Rake 0 
+Board [Js 4h Jh]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) collected (298)
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: Vampiella folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded on the Flop
+
+
+
+PokerStars Hand #260347539342: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:28:01 UTC [2026/04/04 18:28:01 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 1: CorfuCat (1045 in chips) 
+Seat 2: Roneisu (1385 in chips) 
+Seat 3: SenegoiD31 (2058 in chips) 
+Seat 5: scrappers28 (1832 in chips) 
+Seat 6: scorza23 (2466 in chips) 
+Seat 7: Vampiella (736 in chips) 
+Seat 8: jkardsv (1904 in chips) 
+Seat 9: McCalci (2074 in chips) 
+CorfuCat: posts the ante 6
+Roneisu: posts the ante 6
+SenegoiD31: posts the ante 6
+scrappers28: posts the ante 6
+scorza23: posts the ante 6
+Vampiella: posts the ante 6
+jkardsv: posts the ante 6
+McCalci: posts the ante 6
+scorza23: posts small blind 25
+Vampiella: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6d]
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: raises 100 to 150
+Vampiella: calls 100
+*** FLOP *** [Jc As Kh]
+scorza23: checks 
+Vampiella: checks 
+*** TURN *** [Jc As Kh] [8s]
+scorza23: bets 150
+Vampiella: calls 150
+*** RIVER *** [Jc As Kh 8s] [3h]
+scorza23: checks 
+Vampiella: checks 
+*** SHOW DOWN ***
+scorza23: shows [7h 6d] (high card Ace)
+Vampiella: mucks hand 
+scorza23 collected 648 from pot
+*** SUMMARY ***
+Total pot 648 | Rake 0 
+Board [Jc As Kh 8s 3h]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) showed [7h 6d] and won (648) with high card Ace
+Seat 7: Vampiella (big blind) mucked [5s 2s]
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347550185: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:28:52 UTC [2026/04/04 18:28:52 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 1: CorfuCat (1039 in chips) 
+Seat 2: Roneisu (1379 in chips) 
+Seat 3: SenegoiD31 (2052 in chips) 
+Seat 5: scrappers28 (1826 in chips) 
+Seat 6: scorza23 (2808 in chips) 
+Seat 7: Vampiella (430 in chips) 
+Seat 8: jkardsv (1898 in chips) 
+Seat 9: McCalci (2068 in chips) 
+CorfuCat: posts the ante 6
+Roneisu: posts the ante 6
+SenegoiD31: posts the ante 6
+scrappers28: posts the ante 6
+scorza23: posts the ante 6
+Vampiella: posts the ante 6
+jkardsv: posts the ante 6
+McCalci: posts the ante 6
+Vampiella: posts small blind 25
+jkardsv: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Tc]
+McCalci: folds 
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+Vampiella: folds 
+Uncalled bet (25) returned to jkardsv
+jkardsv collected 98 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 98 | Rake 0 
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Vampiella (small blind) folded before Flop
+Seat 8: jkardsv (big blind) collected (98)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347555300: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:29:16 UTC [2026/04/04 18:29:16 ET]
+Table '3989329851 1' 9-max Seat #7 is the button
+Seat 1: CorfuCat (1033 in chips) 
+Seat 2: Roneisu (1373 in chips) 
+Seat 3: SenegoiD31 (2046 in chips) 
+Seat 5: scrappers28 (1820 in chips) 
+Seat 6: scorza23 (2802 in chips) 
+Seat 7: Vampiella (399 in chips) 
+Seat 8: jkardsv (1965 in chips) 
+Seat 9: McCalci (2062 in chips) 
+CorfuCat: posts the ante 6
+Roneisu: posts the ante 6
+SenegoiD31: posts the ante 6
+scrappers28: posts the ante 6
+scorza23: posts the ante 6
+Vampiella: posts the ante 6
+jkardsv: posts the ante 6
+McCalci: posts the ante 6
+jkardsv: posts small blind 25
+McCalci: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Ts]
+CorfuCat: folds 
+Roneisu: folds 
+SenegoiD31: raises 50 to 100
+scrappers28: folds 
+scorza23: calls 100
+Vampiella: raises 293 to 393 and is all-in
+jkardsv: folds 
+McCalci: folds 
+SenegoiD31: raises 1647 to 2040 and is all-in
+scorza23: folds 
+Uncalled bet (1647) returned to SenegoiD31
+*** FLOP *** [6h 4d Kh]
+*** TURN *** [6h 4d Kh] [4s]
+*** RIVER *** [6h 4d Kh 4s] [9h]
+*** SHOW DOWN ***
+SenegoiD31: shows [Ad Qc] (a pair of Fours)
+Vampiella: shows [9s 9d] (a full house, Nines full of Fours)
+Vampiella collected 1009 from pot
+*** SUMMARY ***
+Total pot 1009 | Rake 0 
+Board [6h 4d Kh 4s 9h]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 showed [Ad Qc] and lost with a pair of Fours
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop
+Seat 7: Vampiella (button) showed [9s 9d] and won (1009) with a full house, Nines full of Fours
+Seat 8: jkardsv (small blind) folded before Flop
+Seat 9: McCalci (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347565860: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:30:06 UTC [2026/04/04 18:30:06 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 1: CorfuCat (1027 in chips) 
+Seat 2: Roneisu (1367 in chips) 
+Seat 3: SenegoiD31 (1647 in chips) 
+Seat 5: scrappers28 (1814 in chips) 
+Seat 6: scorza23 (2696 in chips) 
+Seat 7: Vampiella (1009 in chips) 
+Seat 8: jkardsv (1934 in chips) 
+Seat 9: McCalci (2006 in chips) 
+CorfuCat: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts the ante 10
+scrappers28: posts the ante 10
+scorza23: posts the ante 10
+Vampiella: posts the ante 10
+jkardsv: posts the ante 10
+McCalci: posts the ante 10
+McCalci: posts small blind 40
+CorfuCat: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 5c]
+Roneisu: raises 104 to 184
+SenegoiD31: folds 
+scrappers28: calls 184
+scorza23: folds 
+Vampiella: calls 184
+jkardsv: folds 
+McCalci: calls 144
+CorfuCat: folds 
+*** FLOP *** [2c 2s 4s]
+McCalci: checks 
+Roneisu: bets 762
+scrappers28: folds 
+Vampiella: folds 
+McCalci: folds 
+Uncalled bet (762) returned to Roneisu
+Roneisu collected 896 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 896 | Rake 0 
+Board [2c 2s 4s]
+Seat 1: CorfuCat (big blind) folded before Flop
+Seat 2: Roneisu collected (896)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella folded on the Flop
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+Seat 9: McCalci (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260347575640: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:30:53 UTC [2026/04/04 18:30:53 ET]
+Table '3989329851 1' 9-max Seat #9 is the button
+Seat 1: CorfuCat (937 in chips) 
+Seat 2: Roneisu (2069 in chips) 
+Seat 3: SenegoiD31 (1637 in chips) 
+Seat 5: scrappers28 (1620 in chips) 
+Seat 6: scorza23 (2686 in chips) 
+Seat 7: Vampiella (815 in chips) 
+Seat 8: jkardsv (1924 in chips) 
+Seat 9: McCalci (1812 in chips) 
+CorfuCat: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts the ante 10
+scrappers28: posts the ante 10
+scorza23: posts the ante 10
+Vampiella: posts the ante 10
+jkardsv: posts the ante 10
+McCalci: posts the ante 10
+CorfuCat: posts small blind 40
+Roneisu: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Kd]
+SenegoiD31: folds 
+scrappers28: calls 80
+scorza23: raises 240 to 320
+Vampiella: folds 
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: folds 
+Roneisu: folds 
+scrappers28: folds 
+Uncalled bet (240) returned to scorza23
+scorza23 collected 360 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 1: CorfuCat (small blind) folded before Flop
+Seat 2: Roneisu (big blind) folded before Flop
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop
+Seat 6: scorza23 collected (360)
+Seat 7: Vampiella folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347581299: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:31:20 UTC [2026/04/04 18:31:20 ET]
+Table '3989329851 1' 9-max Seat #1 is the button
+Seat 1: CorfuCat (887 in chips) 
+Seat 2: Roneisu (1979 in chips) 
+Seat 3: SenegoiD31 (1627 in chips) 
+Seat 5: scrappers28 (1530 in chips) 
+Seat 6: scorza23 (2956 in chips) 
+Seat 7: Vampiella (805 in chips) 
+Seat 8: jkardsv (1914 in chips) 
+Seat 9: McCalci (1802 in chips) 
+CorfuCat: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts the ante 10
+scrappers28: posts the ante 10
+scorza23: posts the ante 10
+Vampiella: posts the ante 10
+jkardsv: posts the ante 10
+McCalci: posts the ante 10
+Roneisu: posts small blind 40
+SenegoiD31: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8c]
+scrappers28: folds 
+scrappers28 is sitting out
+scorza23: folds 
+Vampiella: raises 160 to 240
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: calls 240
+Roneisu: folds 
+SenegoiD31: folds 
+*** FLOP *** [Qh 3c 4h]
+Vampiella: bets 555 and is all-in
+CorfuCat: calls 555
+*** TURN *** [Qh 3c 4h] [8h]
+*** RIVER *** [Qh 3c 4h 8h] [5d]
+*** SHOW DOWN ***
+Vampiella: shows [Ad Kh] (high card Ace)
+CorfuCat: shows [As Qd] (a pair of Queens)
+CorfuCat collected 1790 from pot
+Vampiella finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 1790 | Rake 0 
+Board [Qh 3c 4h 8h 5d]
+Seat 1: CorfuCat (button) showed [As Qd] and won (1790) with a pair of Queens
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) folded before Flop
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Vampiella showed [Ad Kh] and lost with high card Ace
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347590529: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:32:05 UTC [2026/04/04 18:32:05 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 1: CorfuCat (1872 in chips) 
+Seat 2: Roneisu (1929 in chips) 
+Seat 3: SenegoiD31 (1537 in chips) 
+Seat 5: scrappers28 (1520 in chips) is sitting out
+Seat 6: scorza23 (2946 in chips) 
+Seat 8: jkardsv (1904 in chips) 
+Seat 9: McCalci (1792 in chips) 
+CorfuCat: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts the ante 10
+scrappers28: posts the ante 10
+scorza23: posts the ante 10
+jkardsv: posts the ante 10
+McCalci: posts the ante 10
+SenegoiD31: posts small blind 40
+scrappers28: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ks]
+scorza23: folds 
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: raises 80 to 160
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+Uncalled bet (80) returned to CorfuCat
+CorfuCat collected 270 from pot
+CorfuCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Seat 1: CorfuCat collected (270)
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347597698: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:32:40 UTC [2026/04/04 18:32:40 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 1: CorfuCat (2052 in chips) 
+Seat 2: Roneisu (1919 in chips) 
+Seat 3: SenegoiD31 (1487 in chips) 
+Seat 5: scrappers28 (1430 in chips) is sitting out
+Seat 6: scorza23 (2936 in chips) 
+Seat 8: jkardsv (1894 in chips) 
+Seat 9: McCalci (1782 in chips) 
+CorfuCat: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts the ante 10
+scrappers28: posts the ante 10
+scorza23: posts the ante 10
+jkardsv: posts the ante 10
+McCalci: posts the ante 10
+scrappers28: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 7c]
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: folds 
+Roneisu: raises 80 to 160
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: calls 80
+*** FLOP *** [Ad 9s 6c]
+scorza23: checks 
+Roneisu: bets 200
+scorza23: calls 200
+*** TURN *** [Ad 9s 6c] [2h]
+scorza23: checks 
+scrappers28 has returned
+Roneisu: bets 480
+scorza23: calls 480
+*** RIVER *** [Ad 9s 6c 2h] [Qs]
+scorza23: checks 
+Roneisu: bets 1069 and is all-in
+scorza23: folds 
+Uncalled bet (1069) returned to Roneisu
+Roneisu collected 1790 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 1790 | Rake 0 
+Board [Ad 9s 6c 2h Qs]
+Seat 1: CorfuCat folded before Flop (didn't bet)
+Seat 2: Roneisu collected (1790)
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded on the River
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347608538: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:33:32 UTC [2026/04/04 18:33:32 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 1: CorfuCat (2042 in chips) 
+Seat 2: Roneisu (2859 in chips) 
+Seat 3: SenegoiD31 (1477 in chips) 
+Seat 5: scrappers28 (1380 in chips) 
+Seat 6: scorza23 (2086 in chips) 
+Seat 8: jkardsv (1884 in chips) 
+Seat 9: McCalci (1772 in chips) 
+CorfuCat: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts the ante 10
+scrappers28: posts the ante 10
+scorza23: posts the ante 10
+jkardsv: posts the ante 10
+McCalci: posts the ante 10
+scorza23: posts small blind 40
+jkardsv: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5s]
+McCalci: folds 
+CorfuCat: raises 80 to 160
+Roneisu: raises 280 to 440
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+CorfuCat: calls 280
+*** FLOP *** [6h Jd 7s]
+CorfuCat: checks 
+Roneisu: bets 360
+CorfuCat: folds 
+Uncalled bet (360) returned to Roneisu
+Roneisu collected 1070 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 1070 | Rake 0 
+Board [6h Jd 7s]
+Seat 1: CorfuCat folded on the Flop
+Seat 2: Roneisu collected (1070)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) folded before Flop
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347615987: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:34:08 UTC [2026/04/04 18:34:08 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 1: CorfuCat (1592 in chips) 
+Seat 2: Roneisu (3479 in chips) 
+Seat 3: SenegoiD31 (1467 in chips) 
+Seat 5: scrappers28 (1370 in chips) 
+Seat 6: scorza23 (2036 in chips) 
+Seat 8: jkardsv (1794 in chips) 
+Seat 9: McCalci (1762 in chips) 
+CorfuCat: posts the ante 10
+Roneisu: posts the ante 10
+SenegoiD31: posts the ante 10
+scrappers28: posts the ante 10
+scorza23: posts the ante 10
+jkardsv: posts the ante 10
+McCalci: posts the ante 10
+jkardsv: posts small blind 40
+McCalci: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7s]
+CorfuCat: calls 80
+Roneisu: raises 80 to 160
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: calls 80
+*** FLOP *** [Qc Jc 4c]
+CorfuCat: checks 
+Roneisu: checks 
+*** TURN *** [Qc Jc 4c] [5d]
+CorfuCat: checks 
+Roneisu: bets 316
+CorfuCat: folds 
+Uncalled bet (316) returned to Roneisu
+Roneisu collected 510 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Board [Qc Jc 4c 5d]
+Seat 1: CorfuCat folded on the Turn
+Seat 2: Roneisu collected (510)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) folded before Flop
+Seat 9: McCalci (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347631134: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:35:20 UTC [2026/04/04 18:35:20 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 1: CorfuCat (1422 in chips) 
+Seat 2: Roneisu (3819 in chips) 
+Seat 3: SenegoiD31 (1457 in chips) 
+Seat 5: scrappers28 (1360 in chips) 
+Seat 6: scorza23 (2026 in chips) 
+Seat 8: jkardsv (1744 in chips) 
+Seat 9: McCalci (1672 in chips) 
+CorfuCat: posts the ante 15
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+McCalci: posts small blind 60
+CorfuCat: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Ad]
+Roneisu: folds 
+SenegoiD31: raises 120 to 240
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+McCalci: folds 
+CorfuCat: calls 120
+*** FLOP *** [8c Kd 4d]
+CorfuCat: checks 
+SenegoiD31: bets 213
+CorfuCat: calls 213
+*** TURN *** [8c Kd 4d] [8h]
+CorfuCat: checks 
+SenegoiD31: bets 536
+CorfuCat: calls 536
+*** RIVER *** [8c Kd 4d 8h] [Js]
+CorfuCat: checks 
+SenegoiD31: bets 453 and is all-in
+CorfuCat: calls 418 and is all-in
+Uncalled bet (35) returned to SenegoiD31
+*** SHOW DOWN ***
+SenegoiD31: shows [Ac Kc] (two pair, Kings and Eights)
+CorfuCat: shows [Kh 5h] (two pair, Kings and Eights - lower kicker)
+SenegoiD31 collected 2979 from pot
+CorfuCat finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 2979 | Rake 0 
+Board [8c Kd 4d 8h Js]
+Seat 1: CorfuCat (big blind) showed [Kh 5h] and lost with two pair, Kings and Eights
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 showed [Ac Kc] and won (2979) with two pair, Kings and Eights
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+Seat 9: McCalci (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347642351: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:36:14 UTC [2026/04/04 18:36:14 ET]
+Table '3989329851 1' 9-max Seat #9 is the button
+Seat 2: Roneisu (3804 in chips) 
+Seat 3: SenegoiD31 (3014 in chips) 
+Seat 5: scrappers28 (1345 in chips) 
+Seat 6: scorza23 (2011 in chips) 
+Seat 8: jkardsv (1729 in chips) 
+Seat 9: McCalci (1597 in chips) 
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+Roneisu: posts small blind 60
+SenegoiD31: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Jh]
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+McCalci: raises 1462 to 1582 and is all-in
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (1462) returned to McCalci
+McCalci collected 390 from pot
+McCalci: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) folded before Flop
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci (button) collected (390)
+
+
+
+PokerStars Hand #260347647789: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:36:41 UTC [2026/04/04 18:36:41 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (3729 in chips) 
+Seat 3: SenegoiD31 (2879 in chips) 
+Seat 5: scrappers28 (1330 in chips) 
+Seat 6: scorza23 (1996 in chips) 
+Seat 8: jkardsv (1714 in chips) 
+Seat 9: McCalci (1852 in chips) 
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+SenegoiD31: posts small blind 60
+scrappers28: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ah]
+scorza23: folds 
+jkardsv: folds 
+McCalci: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (60) returned to scrappers28
+scrappers28 collected 210 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) collected (210)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347654779: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:37:15 UTC [2026/04/04 18:37:15 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (3714 in chips) 
+Seat 3: SenegoiD31 (2804 in chips) 
+Seat 5: scrappers28 (1465 in chips) 
+Seat 6: scorza23 (1981 in chips) 
+Seat 8: jkardsv (1699 in chips) 
+Seat 9: McCalci (1837 in chips) 
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+scrappers28: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Ah]
+jkardsv: folds 
+McCalci: calls 120
+Roneisu: folds 
+SenegoiD31: raises 240 to 360
+scrappers28: raises 240 to 600
+scorza23: raises 1366 to 1966 and is all-in
+McCalci: folds 
+SenegoiD31: folds 
+scrappers28: calls 850 and is all-in
+Uncalled bet (516) returned to scorza23
+*** FLOP *** [Qs 6c Qc]
+*** TURN *** [Qs 6c Qc] [4s]
+*** RIVER *** [Qs 6c Qc 4s] [5s]
+*** SHOW DOWN ***
+scrappers28: shows [As Kc] (a pair of Queens)
+scorza23: shows [Kd Ah] (a pair of Queens)
+scrappers28 collected 1735 from pot
+scorza23 collected 1735 from pot
+*** SUMMARY ***
+Total pot 3470 | Rake 0 
+Board [Qs 6c Qc 4s 5s]
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) folded before Flop
+Seat 5: scrappers28 (small blind) showed [As Kc] and won (1735) with a pair of Queens
+Seat 6: scorza23 (big blind) showed [Kd Ah] and won (1735) with a pair of Queens
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop
+
+
+
+PokerStars Hand #260347664220: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:38:01 UTC [2026/04/04 18:38:01 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (3699 in chips) 
+Seat 3: SenegoiD31 (2429 in chips) 
+Seat 5: scrappers28 (1735 in chips) 
+Seat 6: scorza23 (2251 in chips) 
+Seat 8: jkardsv (1684 in chips) 
+Seat 9: McCalci (1702 in chips) 
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+scorza23: posts small blind 60
+jkardsv: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 9d]
+McCalci: calls 120
+Roneisu: raises 210 to 330
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+McCalci: calls 210
+*** FLOP *** [3d 4c 7c]
+McCalci: checks 
+Roneisu: bets 540
+McCalci: folds 
+Uncalled bet (540) returned to Roneisu
+Roneisu collected 930 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 930 | Rake 0 
+Board [3d 4c 7c]
+Seat 2: Roneisu collected (930)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) folded before Flop
+Seat 9: McCalci folded on the Flop
+
+
+
+PokerStars Hand #260347674458: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:38:50 UTC [2026/04/04 18:38:50 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (4284 in chips) 
+Seat 3: SenegoiD31 (2414 in chips) 
+Seat 5: scrappers28 (1720 in chips) 
+Seat 6: scorza23 (2176 in chips) 
+Seat 8: jkardsv (1549 in chips) 
+Seat 9: McCalci (1357 in chips) 
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+jkardsv: posts small blind 60
+McCalci: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 9h]
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: calls 120
+scorza23: folds 
+jkardsv: folds 
+McCalci: checks 
+*** FLOP *** [Th Jc 3s]
+McCalci: checks 
+scrappers28: checks 
+*** TURN *** [Th Jc 3s] [4h]
+McCalci: bets 120
+scrappers28: calls 120
+*** RIVER *** [Th Jc 3s 4h] [9d]
+McCalci: bets 120
+scrappers28: raises 240 to 360
+McCalci: calls 240
+*** SHOW DOWN ***
+scrappers28: shows [Qs Kc] (a straight, Nine to King)
+McCalci: mucks hand 
+scrappers28 collected 1350 from pot
+*** SUMMARY ***
+Total pot 1350 | Rake 0 
+Board [Th Jc 3s 4h 9d]
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 showed [Qs Kc] and won (1350) with a straight, Nine to King
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) folded before Flop
+Seat 9: McCalci (big blind) mucked [Td Qc]
+
+
+
+PokerStars Hand #260347682903: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:39:32 UTC [2026/04/04 18:39:32 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (4269 in chips) 
+Seat 3: SenegoiD31 (2399 in chips) 
+Seat 5: scrappers28 (2455 in chips) 
+Seat 6: scorza23 (2161 in chips) 
+Seat 8: jkardsv (1474 in chips) 
+Seat 9: McCalci (742 in chips) 
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+McCalci: posts small blind 60
+Roneisu: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 6d]
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+McCalci: folds 
+Uncalled bet (60) returned to Roneisu
+Roneisu collected 210 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 2: Roneisu (big blind) collected (210)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+Seat 9: McCalci (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347685926: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:39:47 UTC [2026/04/04 18:39:47 ET]
+Table '3989329851 1' 9-max Seat #9 is the button
+Seat 2: Roneisu (4404 in chips) 
+Seat 3: SenegoiD31 (2384 in chips) 
+Seat 5: scrappers28 (2440 in chips) 
+Seat 6: scorza23 (2146 in chips) 
+Seat 8: jkardsv (1459 in chips) 
+Seat 9: McCalci (667 in chips) 
+Roneisu: posts the ante 15
+SenegoiD31: posts the ante 15
+scrappers28: posts the ante 15
+scorza23: posts the ante 15
+jkardsv: posts the ante 15
+McCalci: posts the ante 15
+Roneisu: posts small blind 60
+SenegoiD31: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 6d]
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+McCalci: folds 
+Roneisu: folds 
+Uncalled bet (60) returned to SenegoiD31
+SenegoiD31 collected 210 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) collected (210)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347693108: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:40:23 UTC [2026/04/04 18:40:23 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (4329 in chips) 
+Seat 3: SenegoiD31 (2519 in chips) 
+Seat 5: scrappers28 (2425 in chips) 
+Seat 6: scorza23 (2131 in chips) 
+Seat 8: jkardsv (1444 in chips) 
+Seat 9: McCalci (652 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+McCalci: posts the ante 20
+SenegoiD31: posts small blind 80
+scrappers28: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Kh]
+scorza23: raises 320 to 480
+jkardsv: folds 
+McCalci: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 520 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) folded before Flop
+Seat 6: scorza23 collected (520)
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347698781: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:40:51 UTC [2026/04/04 18:40:51 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (4309 in chips) 
+Seat 3: SenegoiD31 (2419 in chips) 
+Seat 5: scrappers28 (2245 in chips) 
+Seat 6: scorza23 (2471 in chips) 
+Seat 8: jkardsv (1424 in chips) 
+Seat 9: McCalci (632 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+McCalci: posts the ante 20
+scrappers28: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 9s]
+jkardsv: folds 
+McCalci: folds 
+Roneisu: raises 160 to 320
+SenegoiD31: folds 
+scrappers28: raises 320 to 640
+scorza23: folds 
+Roneisu: folds 
+Uncalled bet (320) returned to scrappers28
+scrappers28 collected 920 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 920 | Rake 0 
+Seat 2: Roneisu folded before Flop
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) collected (920)
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: jkardsv folded before Flop (didn't bet)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347705296: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:41:24 UTC [2026/04/04 18:41:24 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (3969 in chips) 
+Seat 3: SenegoiD31 (2399 in chips) 
+Seat 5: scrappers28 (2825 in chips) 
+Seat 6: scorza23 (2291 in chips) 
+Seat 8: jkardsv (1404 in chips) 
+Seat 9: McCalci (612 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+McCalci: posts the ante 20
+scorza23: posts small blind 80
+jkardsv: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4h]
+McCalci: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: raises 320 to 480
+jkardsv: raises 904 to 1384 and is all-in
+scorza23: folds 
+Uncalled bet (904) returned to jkardsv
+jkardsv collected 1080 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 1080 | Rake 0 
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) collected (1080)
+Seat 9: McCalci folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347711506: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:41:54 UTC [2026/04/04 18:41:54 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (3949 in chips) 
+Seat 3: SenegoiD31 (2379 in chips) 
+Seat 5: scrappers28 (2805 in chips) 
+Seat 6: scorza23 (1791 in chips) 
+Seat 8: jkardsv (1984 in chips) 
+Seat 9: McCalci (592 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+McCalci: posts the ante 20
+jkardsv: posts small blind 80
+McCalci: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Jd]
+Roneisu: folds 
+SenegoiD31: raises 160 to 320
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+McCalci: folds 
+Uncalled bet (160) returned to SenegoiD31
+SenegoiD31 collected 520 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 collected (520)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) folded before Flop
+Seat 9: McCalci (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347715089: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:42:12 UTC [2026/04/04 18:42:12 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (3929 in chips) 
+Seat 3: SenegoiD31 (2719 in chips) 
+Seat 5: scrappers28 (2785 in chips) 
+Seat 6: scorza23 (1771 in chips) 
+Seat 8: jkardsv (1884 in chips) 
+Seat 9: McCalci (412 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+McCalci: posts the ante 20
+McCalci: posts small blind 80
+Roneisu: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ks]
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: raises 160 to 320
+McCalci: raises 72 to 392 and is all-in
+Roneisu: raises 3517 to 3909 and is all-in
+jkardsv: calls 1544 and is all-in
+Uncalled bet (2045) returned to Roneisu
+*** FLOP *** [2d Ah Ts]
+*** TURN *** [2d Ah Ts] [4c]
+*** RIVER *** [2d Ah Ts 4c] [4h]
+*** SHOW DOWN ***
+Roneisu: shows [9s Ac] (two pair, Aces and Fours)
+jkardsv: shows [Th Tc] (a full house, Tens full of Fours)
+jkardsv collected 2944 from side pot
+McCalci: shows [Td Kd] (two pair, Tens and Fours)
+jkardsv collected 1296 from main pot
+McCalci finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 4240 Main pot 1296. Side pot 2944. | Rake 0 
+Board [2d Ah Ts 4c 4h]
+Seat 2: Roneisu (big blind) showed [9s Ac] and lost with two pair, Aces and Fours
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) showed [Th Tc] and won (4240) with a full house, Tens full of Fours
+Seat 9: McCalci (small blind) showed [Td Kd] and lost with two pair, Tens and Fours
+
+
+
+PokerStars Hand #260347721963: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:42:46 UTC [2026/04/04 18:42:46 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (2045 in chips) 
+Seat 3: SenegoiD31 (2699 in chips) 
+Seat 5: scrappers28 (2765 in chips) 
+Seat 6: scorza23 (1751 in chips) 
+Seat 8: jkardsv (4240 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+SenegoiD31: posts small blind 80
+scrappers28: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4d]
+scorza23: folds 
+jkardsv: raises 4060 to 4220 and is all-in
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+Uncalled bet (4060) returned to jkardsv
+jkardsv collected 500 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv collected (500)
+
+
+
+PokerStars Hand #260347726483: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:43:09 UTC [2026/04/04 18:43:09 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (2025 in chips) 
+Seat 3: SenegoiD31 (2599 in chips) 
+Seat 5: scrappers28 (2585 in chips) 
+Seat 6: scorza23 (1731 in chips) 
+Seat 8: jkardsv (4560 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+scrappers28: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Qs]
+jkardsv: raises 160 to 320
+Roneisu: raises 1685 to 2005 and is all-in
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+Uncalled bet (1685) returned to Roneisu
+Roneisu collected 980 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 980 | Rake 0 
+Seat 2: Roneisu collected (980)
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: jkardsv folded before Flop
+
+
+
+PokerStars Hand #260347733509: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:43:44 UTC [2026/04/04 18:43:44 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (2665 in chips) 
+Seat 3: SenegoiD31 (2579 in chips) 
+Seat 5: scrappers28 (2485 in chips) 
+Seat 6: scorza23 (1551 in chips) 
+Seat 8: jkardsv (4220 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+scorza23: posts small blind 80
+jkardsv: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Jd]
+Roneisu: raises 160 to 320
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+Uncalled bet (160) returned to Roneisu
+Roneisu collected 500 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 2: Roneisu collected (500)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347736762: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:44:01 UTC [2026/04/04 18:44:01 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (2985 in chips) 
+Seat 3: SenegoiD31 (2559 in chips) 
+Seat 5: scrappers28 (2465 in chips) 
+Seat 6: scorza23 (1451 in chips) 
+Seat 8: jkardsv (4040 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+jkardsv: posts small blind 80
+Roneisu: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Ac]
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: raises 320 to 480
+jkardsv: folds 
+Roneisu: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 2: Roneisu (big blind) folded before Flop
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) collected (500)
+Seat 8: jkardsv (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347739487: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:44:14 UTC [2026/04/04 18:44:14 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (2805 in chips) 
+Seat 3: SenegoiD31 (2539 in chips) 
+Seat 5: scrappers28 (2445 in chips) 
+Seat 6: scorza23 (1771 in chips) 
+Seat 8: jkardsv (3940 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+Roneisu: posts small blind 80
+SenegoiD31: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 5s]
+scrappers28: calls 160
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: checks 
+*** FLOP *** [6h 8c 2c]
+SenegoiD31: checks 
+scrappers28: checks 
+*** TURN *** [6h 8c 2c] [8h]
+SenegoiD31: checks 
+scrappers28: checks 
+*** RIVER *** [6h 8c 2c 8h] [3s]
+SenegoiD31: checks 
+scrappers28: checks 
+*** SHOW DOWN ***
+SenegoiD31: shows [6s Ah] (two pair, Eights and Sixes)
+scrappers28: mucks hand 
+SenegoiD31 collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [6h 8c 2c 8h 3s]
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) showed [6s Ah] and won (500) with two pair, Eights and Sixes
+Seat 5: scrappers28 mucked [Jd Qc]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347744376: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:44:39 UTC [2026/04/04 18:44:39 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (2705 in chips) 
+Seat 3: SenegoiD31 (2859 in chips) 
+Seat 5: scrappers28 (2265 in chips) 
+Seat 6: scorza23 (1751 in chips) 
+Seat 8: jkardsv (3920 in chips) 
+Roneisu: posts the ante 20
+SenegoiD31: posts the ante 20
+scrappers28: posts the ante 20
+scorza23: posts the ante 20
+jkardsv: posts the ante 20
+SenegoiD31: posts small blind 80
+scrappers28: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 6c]
+scorza23: folds 
+jkardsv: raises 3740 to 3900 and is all-in
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+Uncalled bet (3740) returned to jkardsv
+jkardsv collected 500 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv collected (500)
+
+
+
+PokerStars Hand #260347748817: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:45:01 UTC [2026/04/04 18:45:01 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (2685 in chips) 
+Seat 3: SenegoiD31 (2759 in chips) 
+Seat 5: scrappers28 (2085 in chips) 
+Seat 6: scorza23 (1731 in chips) 
+Seat 8: jkardsv (4240 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scrappers28: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 4c]
+jkardsv: folds 
+Roneisu: raises 200 to 400
+SenegoiD31: calls 400
+scrappers28: folds 
+scorza23: calls 200
+*** FLOP *** [2d 3h 7h]
+scorza23: checks 
+Roneisu: bets 570
+SenegoiD31: folds 
+scorza23: folds 
+Uncalled bet (570) returned to Roneisu
+Roneisu collected 1425 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 1425 | Rake 0 
+Board [2d 3h 7h]
+Seat 2: Roneisu collected (1425)
+Seat 3: SenegoiD31 (button) folded on the Flop
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347755812: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:45:37 UTC [2026/04/04 18:45:37 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (3685 in chips) 
+Seat 3: SenegoiD31 (2334 in chips) 
+Seat 5: scrappers28 (1960 in chips) 
+Seat 6: scorza23 (1306 in chips) 
+Seat 8: jkardsv (4215 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scorza23: posts small blind 100
+jkardsv: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 7d]
+Roneisu: folds 
+SenegoiD31: raises 200 to 400
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+Uncalled bet (200) returned to SenegoiD31
+SenegoiD31 collected 625 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 collected (625)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347757668: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:45:46 UTC [2026/04/04 18:45:46 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (3660 in chips) 
+Seat 3: SenegoiD31 (2734 in chips) 
+Seat 5: scrappers28 (1935 in chips) 
+Seat 6: scorza23 (1181 in chips) 
+Seat 8: jkardsv (3990 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+jkardsv: posts small blind 100
+Roneisu: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 6d]
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: raises 340 to 540
+Roneisu: raises 3095 to 3635 and is all-in
+jkardsv: folds 
+Uncalled bet (3095) returned to Roneisu
+Roneisu collected 1205 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 1205 | Rake 0 
+Seat 2: Roneisu (big blind) collected (1205)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347764263: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:46:19 UTC [2026/04/04 18:46:19 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (4300 in chips) 
+Seat 3: SenegoiD31 (2709 in chips) 
+Seat 5: scrappers28 (1910 in chips) 
+Seat 6: scorza23 (1156 in chips) 
+Seat 8: jkardsv (3425 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+Roneisu: posts small blind 100
+SenegoiD31: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Ts]
+scrappers28: folds 
+scorza23: folds 
+jkardsv: raises 200 to 400
+Roneisu: folds 
+SenegoiD31: calls 200
+*** FLOP *** [5d 9c Qd]
+SenegoiD31: checks 
+jkardsv: bets 256
+SenegoiD31: calls 256
+*** TURN *** [5d 9c Qd] [Ac]
+SenegoiD31: bets 507
+jkardsv: calls 507
+*** RIVER *** [5d 9c Qd Ac] [Js]
+SenegoiD31: checks 
+jkardsv: checks 
+*** SHOW DOWN ***
+SenegoiD31: shows [4d Jd] (a pair of Jacks)
+jkardsv: shows [As 2h] (a pair of Aces)
+jkardsv collected 2551 from pot
+*** SUMMARY ***
+Total pot 2551 | Rake 0 
+Board [5d 9c Qd Ac Js]
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) showed [4d Jd] and lost with a pair of Jacks
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) showed [As 2h] and won (2551) with a pair of Aces
+
+
+
+PokerStars Hand #260347773916: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:47:09 UTC [2026/04/04 18:47:09 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (4175 in chips) 
+Seat 3: SenegoiD31 (1521 in chips) 
+Seat 5: scrappers28 (1885 in chips) 
+Seat 6: scorza23 (1131 in chips) 
+Seat 8: jkardsv (4788 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+SenegoiD31: posts small blind 100
+scrappers28: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 3d]
+scorza23: folds 
+jkardsv: folds 
+Roneisu: raises 3950 to 4150 and is all-in
+SenegoiD31: folds 
+scrappers28: folds 
+Uncalled bet (3950) returned to Roneisu
+Roneisu collected 625 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 2: Roneisu (button) collected (625)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347776426: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:47:22 UTC [2026/04/04 18:47:22 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (4575 in chips) 
+Seat 3: SenegoiD31 (1396 in chips) 
+Seat 5: scrappers28 (1660 in chips) 
+Seat 6: scorza23 (1106 in chips) 
+Seat 8: jkardsv (4763 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scrappers28: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Tc]
+jkardsv: raises 200 to 400
+Roneisu: folds 
+SenegoiD31: raises 971 to 1371 and is all-in
+scrappers28: folds 
+scorza23: folds 
+jkardsv: calls 971
+*** FLOP *** [8h Js 5h]
+*** TURN *** [8h Js 5h] [2c]
+*** RIVER *** [8h Js 5h 2c] [3c]
+*** SHOW DOWN ***
+jkardsv: shows [Ah 9d] (high card Ace)
+SenegoiD31: shows [Jc Jh] (three of a kind, Jacks)
+SenegoiD31 collected 3167 from pot
+*** SUMMARY ***
+Total pot 3167 | Rake 0 
+Board [8h Js 5h 2c 3c]
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) showed [Jc Jh] and won (3167) with three of a kind, Jacks
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: jkardsv showed [Ah 9d] and lost with high card Ace
+
+
+
+PokerStars Hand #260347782324: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:47:52 UTC [2026/04/04 18:47:52 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (4550 in chips) 
+Seat 3: SenegoiD31 (3167 in chips) 
+Seat 5: scrappers28 (1535 in chips) 
+Seat 6: scorza23 (881 in chips) 
+Seat 8: jkardsv (3367 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scorza23: posts small blind 100
+jkardsv: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 4c]
+Roneisu: raises 200 to 400
+SenegoiD31: folds 
+scrappers28: calls 400
+scorza23: raises 456 to 856 and is all-in
+jkardsv: folds 
+Roneisu: raises 3669 to 4525 and is all-in
+scrappers28: folds 
+Uncalled bet (3669) returned to Roneisu
+*** FLOP *** [9d Td Kd]
+*** TURN *** [9d Td Kd] [Tc]
+*** RIVER *** [9d Td Kd Tc] [Jc]
+*** SHOW DOWN ***
+scorza23: shows [4h 4c] (two pair, Tens and Fours)
+Roneisu: shows [6c Ah] (a pair of Tens)
+scorza23 collected 2437 from pot
+*** SUMMARY ***
+Total pot 2437 | Rake 0 
+Board [9d Td Kd Tc Jc]
+Seat 2: Roneisu showed [6c Ah] and lost with a pair of Tens
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop
+Seat 6: scorza23 (small blind) showed [4h 4c] and won (2437) with two pair, Tens and Fours
+Seat 8: jkardsv (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347788341: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:48:22 UTC [2026/04/04 18:48:22 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (3669 in chips) 
+Seat 3: SenegoiD31 (3142 in chips) 
+Seat 5: scrappers28 (1110 in chips) 
+Seat 6: scorza23 (2437 in chips) 
+Seat 8: jkardsv (3142 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+jkardsv: posts small blind 100
+Roneisu: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 4h]
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: raises 2917 to 3117 and is all-in
+Roneisu: folds 
+Uncalled bet (2917) returned to jkardsv
+jkardsv collected 525 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 2: Roneisu (big blind) folded before Flop
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) collected (525)
+
+
+
+PokerStars Hand #260347791491: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:48:38 UTC [2026/04/04 18:48:38 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (3444 in chips) 
+Seat 3: SenegoiD31 (3117 in chips) 
+Seat 5: scrappers28 (1085 in chips) 
+Seat 6: scorza23 (2412 in chips) 
+Seat 8: jkardsv (3442 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+Roneisu: posts small blind 100
+SenegoiD31: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Kc]
+scrappers28: raises 400 to 600
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (400) returned to scrappers28
+scrappers28 collected 625 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) folded before Flop
+Seat 5: scrappers28 collected (625)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347794163: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:48:51 UTC [2026/04/04 18:48:51 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (3319 in chips) 
+Seat 3: SenegoiD31 (2892 in chips) 
+Seat 5: scrappers28 (1485 in chips) 
+Seat 6: scorza23 (2387 in chips) 
+Seat 8: jkardsv (3417 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+SenegoiD31: posts small blind 100
+scrappers28: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 7s]
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (100) returned to scrappers28
+scrappers28 collected 325 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) collected (325)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347799789: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:49:20 UTC [2026/04/04 18:49:20 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (3294 in chips) 
+Seat 3: SenegoiD31 (2767 in chips) 
+Seat 5: scrappers28 (1685 in chips) 
+Seat 6: scorza23 (2362 in chips) 
+Seat 8: jkardsv (3392 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scrappers28: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 7s]
+jkardsv: raises 200 to 400
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: calls 200
+*** FLOP *** [6d 5d 2c]
+scorza23: checks 
+jkardsv: bets 256
+scorza23: calls 256
+*** TURN *** [6d 5d 2c] [Ks]
+scorza23: bets 600
+jkardsv: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 1537 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1537 | Rake 0 
+Board [6d 5d 2c Ks]
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (1537)
+Seat 8: jkardsv folded on the Turn
+
+
+
+PokerStars Hand #260347806481: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:49:54 UTC [2026/04/04 18:49:54 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (3269 in chips) 
+Seat 3: SenegoiD31 (2742 in chips) 
+Seat 5: scrappers28 (1560 in chips) 
+Seat 6: scorza23 (3218 in chips) 
+Seat 8: jkardsv (2711 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scorza23: posts small blind 100
+jkardsv: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 3c]
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+Uncalled bet (100) returned to jkardsv
+jkardsv collected 325 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) collected (325)
+
+
+
+PokerStars Hand #260347809562: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:50:10 UTC [2026/04/04 18:50:10 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (3244 in chips) 
+Seat 3: SenegoiD31 (2717 in chips) 
+Seat 5: scrappers28 (1535 in chips) 
+Seat 6: scorza23 (3093 in chips) 
+Seat 8: jkardsv (2911 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+jkardsv: posts small blind 150
+Roneisu: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Qs]
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+Uncalled bet (150) returned to Roneisu
+Roneisu collected 425 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Seat 2: Roneisu (big blind) collected (425)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347812194: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:50:24 UTC [2026/04/04 18:50:24 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (3494 in chips) 
+Seat 3: SenegoiD31 (2692 in chips) 
+Seat 5: scrappers28 (1510 in chips) 
+Seat 6: scorza23 (3068 in chips) 
+Seat 8: jkardsv (2736 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+Roneisu: posts small blind 150
+SenegoiD31: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 9c]
+scrappers28: raises 1185 to 1485 and is all-in
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (1185) returned to scrappers28
+scrappers28 collected 875 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) folded before Flop
+Seat 5: scrappers28 collected (875)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347814863: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:50:37 UTC [2026/04/04 18:50:37 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (3319 in chips) 
+Seat 3: SenegoiD31 (2367 in chips) 
+Seat 5: scrappers28 (2060 in chips) 
+Seat 6: scorza23 (3043 in chips) 
+Seat 8: jkardsv (2711 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+SenegoiD31: posts small blind 150
+scrappers28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 5s]
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (150) returned to scrappers28
+scrappers28 collected 425 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) collected (425)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347817743: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:50:52 UTC [2026/04/04 18:50:52 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (3294 in chips) 
+Seat 3: SenegoiD31 (2192 in chips) 
+Seat 5: scrappers28 (2310 in chips) 
+Seat 6: scorza23 (3018 in chips) 
+Seat 8: jkardsv (2686 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scrappers28: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 4d]
+jkardsv: folds 
+Roneisu: raises 2969 to 3269 and is all-in
+SenegoiD31: folds 
+scrappers28: calls 2135 and is all-in
+scorza23: folds 
+Uncalled bet (984) returned to Roneisu
+*** FLOP *** [6s Qh 9s]
+*** TURN *** [6s Qh 9s] [Qs]
+*** RIVER *** [6s Qh 9s Qs] [4h]
+*** SHOW DOWN ***
+scrappers28: shows [Ac Ks] (a pair of Queens)
+Roneisu: shows [Kd Ad] (a pair of Queens)
+scrappers28 collected 2498 from pot
+Roneisu collected 2497 from pot
+*** SUMMARY ***
+Total pot 4995 | Rake 0 
+Board [6s Qh 9s Qs 4h]
+Seat 2: Roneisu showed [Kd Ad] and won (2497) with a pair of Queens
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) showed [Ac Ks] and won (2498) with a pair of Queens
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347821215: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:51:10 UTC [2026/04/04 18:51:10 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (3481 in chips) 
+Seat 3: SenegoiD31 (2167 in chips) 
+Seat 5: scrappers28 (2498 in chips) 
+Seat 6: scorza23 (2693 in chips) 
+Seat 8: jkardsv (2661 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scorza23: posts small blind 150
+jkardsv: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 3c]
+Roneisu: raises 3156 to 3456 and is all-in
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+Uncalled bet (3156) returned to Roneisu
+Roneisu collected 875 from pot
+Roneisu: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 2: Roneisu collected (875)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347822957: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:51:19 UTC [2026/04/04 18:51:19 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (4031 in chips) 
+Seat 3: SenegoiD31 (2142 in chips) 
+Seat 5: scrappers28 (2473 in chips) 
+Seat 6: scorza23 (2518 in chips) 
+Seat 8: jkardsv (2336 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+jkardsv: posts small blind 150
+Roneisu: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 5s]
+SenegoiD31: folds 
+scrappers28: calls 300
+scorza23: raises 2193 to 2493 and is all-in
+jkardsv: folds 
+Roneisu: folds 
+scrappers28: folds 
+Uncalled bet (2193) returned to scorza23
+scorza23 collected 1175 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1175 | Rake 0 
+Seat 2: Roneisu (big blind) folded before Flop
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop
+Seat 6: scorza23 (button) collected (1175)
+Seat 8: jkardsv (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347825816: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:51:34 UTC [2026/04/04 18:51:34 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (3706 in chips) 
+Seat 3: SenegoiD31 (2117 in chips) 
+Seat 5: scrappers28 (2148 in chips) 
+Seat 6: scorza23 (3368 in chips) 
+Seat 8: jkardsv (2161 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+Roneisu: posts small blind 150
+SenegoiD31: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4d]
+scrappers28: raises 300 to 600
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (300) returned to scrappers28
+scrappers28 collected 875 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) folded before Flop
+Seat 5: scrappers28 collected (875)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347827587: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:51:43 UTC [2026/04/04 18:51:43 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (3531 in chips) 
+Seat 3: SenegoiD31 (1792 in chips) 
+Seat 5: scrappers28 (2698 in chips) 
+Seat 6: scorza23 (3343 in chips) 
+Seat 8: jkardsv (2136 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+SenegoiD31: posts small blind 150
+scrappers28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5h]
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: folds 
+Uncalled bet (150) returned to scrappers28
+scrappers28 collected 425 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Seat 2: Roneisu (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) collected (425)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347830825: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:52:00 UTC [2026/04/04 18:52:00 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (3506 in chips) 
+Seat 3: SenegoiD31 (1617 in chips) 
+Seat 5: scrappers28 (2948 in chips) 
+Seat 6: scorza23 (3318 in chips) 
+Seat 8: jkardsv (2111 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scrappers28: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 9d]
+jkardsv: raises 1786 to 2086 and is all-in
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+Uncalled bet (1786) returned to jkardsv
+jkardsv collected 875 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: jkardsv collected (875)
+
+
+
+PokerStars Hand #260347833010: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:52:11 UTC [2026/04/04 18:52:11 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (3481 in chips) 
+Seat 3: SenegoiD31 (1592 in chips) 
+Seat 5: scrappers28 (2773 in chips) 
+Seat 6: scorza23 (2993 in chips) 
+Seat 8: jkardsv (2661 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scorza23: posts small blind 150
+jkardsv: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Tc]
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: calls 300
+scorza23: folds 
+jkardsv: checks 
+*** FLOP *** [3h 9s 2s]
+jkardsv: checks 
+scrappers28: bets 600
+jkardsv: folds 
+Uncalled bet (600) returned to scrappers28
+scrappers28 collected 875 from pot
+scrappers28: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Board [3h 9s 2s]
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) collected (875)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347842216: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:52:59 UTC [2026/04/04 18:52:59 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (3456 in chips) 
+Seat 3: SenegoiD31 (1567 in chips) 
+Seat 5: scrappers28 (3323 in chips) 
+Seat 6: scorza23 (2818 in chips) 
+Seat 8: jkardsv (2336 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+jkardsv: posts small blind 150
+Roneisu: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2d]
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+jkardsv: raises 2011 to 2311 and is all-in
+Roneisu: folds 
+Uncalled bet (2011) returned to jkardsv
+jkardsv collected 725 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 725 | Rake 0 
+Seat 2: Roneisu (big blind) folded before Flop
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) collected (725)
+
+
+
+PokerStars Hand #260347846377: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:20 UTC [2026/04/04 18:53:20 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (3131 in chips) 
+Seat 3: SenegoiD31 (1542 in chips) 
+Seat 5: scrappers28 (3298 in chips) 
+Seat 6: scorza23 (2793 in chips) 
+Seat 8: jkardsv (2736 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+Roneisu: posts small blind 150
+SenegoiD31: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 4d]
+scrappers28: calls 300
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: raises 1217 to 1517 and is all-in
+scrappers28: calls 1217
+*** FLOP *** [Qh Js 5d]
+*** TURN *** [Qh Js 5d] [Jd]
+*** RIVER *** [Qh Js 5d Jd] [3d]
+*** SHOW DOWN ***
+SenegoiD31: shows [8d 8c] (two pair, Jacks and Eights)
+scrappers28: shows [9h Ad] (a pair of Jacks)
+SenegoiD31 collected 3309 from pot
+*** SUMMARY ***
+Total pot 3309 | Rake 0 
+Board [Qh Js 5d Jd 3d]
+Seat 2: Roneisu (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) showed [8d 8c] and won (3309) with two pair, Jacks and Eights
+Seat 5: scrappers28 showed [9h Ad] and lost with a pair of Jacks
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347851081: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:45 UTC [2026/04/04 18:53:45 ET]
+Table '3989329851 1' 9-max Seat #2 is the button
+Seat 2: Roneisu (2956 in chips) 
+Seat 3: SenegoiD31 (3309 in chips) 
+Seat 5: scrappers28 (1756 in chips) 
+Seat 6: scorza23 (2768 in chips) 
+Seat 8: jkardsv (2711 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+SenegoiD31: posts small blind 150
+scrappers28: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Ks]
+scorza23: folds 
+jkardsv: folds 
+Roneisu: raises 300 to 600
+SenegoiD31: folds 
+scrappers28: raises 300 to 900
+Roneisu: calls 300
+*** FLOP *** [Ts 3d 5s]
+scrappers28: bets 831 and is all-in
+Roneisu: calls 831
+*** TURN *** [Ts 3d 5s] [4s]
+*** RIVER *** [Ts 3d 5s 4s] [3c]
+*** SHOW DOWN ***
+scrappers28: shows [Js Jd] (two pair, Jacks and Threes)
+Roneisu: shows [Td 7d] (two pair, Tens and Threes)
+scrappers28 collected 3737 from pot
+*** SUMMARY ***
+Total pot 3737 | Rake 0 
+Board [Ts 3d 5s 4s 3c]
+Seat 2: Roneisu (button) showed [Td 7d] and lost with two pair, Tens and Threes
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 5: scrappers28 (big blind) showed [Js Jd] and won (3737) with two pair, Jacks and Threes
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347856208: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:54:12 UTC [2026/04/04 18:54:12 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 2: Roneisu (1200 in chips) 
+Seat 3: SenegoiD31 (3134 in chips) 
+Seat 5: scrappers28 (3737 in chips) 
+Seat 6: scorza23 (2743 in chips) 
+Seat 8: jkardsv (2686 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scrappers28: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Td]
+jkardsv: folds 
+Roneisu: folds 
+SenegoiD31: raises 2809 to 3109 and is all-in
+scrappers28: folds 
+scorza23: folds 
+Uncalled bet (2809) returned to SenegoiD31
+SenegoiD31 collected 875 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) collected (875)
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347858897: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:54:26 UTC [2026/04/04 18:54:26 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 2: Roneisu (1175 in chips) 
+Seat 3: SenegoiD31 (3684 in chips) 
+Seat 5: scrappers28 (3562 in chips) 
+Seat 6: scorza23 (2418 in chips) 
+Seat 8: jkardsv (2661 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scorza23: posts small blind 150
+jkardsv: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 5h]
+Roneisu: folds 
+SenegoiD31: folds 
+scrappers28: folds 
+scorza23: folds 
+Uncalled bet (150) returned to jkardsv
+jkardsv collected 425 from pot
+jkardsv: doesn't show hand 
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Seat 2: Roneisu folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) collected (425)
+
+
+
+PokerStars Hand #260347861553: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:54:40 UTC [2026/04/04 18:54:40 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 2: Roneisu (1150 in chips) 
+Seat 3: SenegoiD31 (3659 in chips) 
+Seat 5: scrappers28 (3537 in chips) 
+Seat 6: scorza23 (2243 in chips) 
+Seat 8: jkardsv (2911 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+jkardsv: posts small blind 150
+Roneisu: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 6s]
+SenegoiD31: raises 3334 to 3634 and is all-in
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+Roneisu: folds 
+Uncalled bet (3334) returned to SenegoiD31
+SenegoiD31 collected 875 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 2: Roneisu (big blind) folded before Flop
+Seat 3: SenegoiD31 collected (875)
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347866423: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:55:06 UTC [2026/04/04 18:55:06 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 2: Roneisu (825 in chips) 
+Seat 3: SenegoiD31 (4209 in chips) 
+Seat 5: scrappers28 (3512 in chips) 
+Seat 6: scorza23 (2218 in chips) 
+Seat 8: jkardsv (2736 in chips) 
+Roneisu: posts the ante 25
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+Roneisu: posts small blind 200
+SenegoiD31: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 4d]
+scrappers28: folds 
+scorza23: folds 
+jkardsv: folds 
+Roneisu: raises 400 to 800 and is all-in
+SenegoiD31: calls 400
+*** FLOP *** [4s 7c Tc]
+*** TURN *** [4s 7c Tc] [Kd]
+*** RIVER *** [4s 7c Tc Kd] [6h]
+*** SHOW DOWN ***
+Roneisu: shows [Qs 9s] (high card King)
+SenegoiD31: shows [2d 6s] (a pair of Sixes)
+SenegoiD31 collected 1725 from pot
+Roneisu finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1725 | Rake 0 
+Board [4s 7c Tc Kd 6h]
+Seat 2: Roneisu (small blind) showed [Qs 9s] and lost with high card King
+Seat 3: SenegoiD31 (big blind) showed [2d 6s] and won (1725) with a pair of Sixes
+Seat 5: scrappers28 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347869599: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:55:25 UTC [2026/04/04 18:55:25 ET]
+Table '3989329851 1' 9-max Seat #3 is the button
+Seat 3: SenegoiD31 (5109 in chips) 
+Seat 5: scrappers28 (3487 in chips) 
+Seat 6: scorza23 (2193 in chips) 
+Seat 8: jkardsv (2711 in chips) 
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scrappers28: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Kd]
+jkardsv: folds 
+SenegoiD31: folds 
+scrappers28: calls 200
+scorza23: raises 1768 to 2168 and is all-in
+scrappers28: folds 
+Uncalled bet (1768) returned to scorza23
+scorza23 collected 900 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 5: scrappers28 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (900)
+Seat 8: jkardsv folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347872026: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:55:43 UTC [2026/04/04 18:55:43 ET]
+Table '3989329851 1' 9-max Seat #5 is the button
+Seat 3: SenegoiD31 (5084 in chips) 
+Seat 5: scrappers28 (3062 in chips) 
+Seat 6: scorza23 (2668 in chips) 
+Seat 8: jkardsv (2686 in chips) 
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+scorza23: posts small blind 200
+jkardsv: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Jc]
+SenegoiD31: raises 400 to 800
+scrappers28: folds 
+scorza23: folds 
+jkardsv: calls 400
+*** FLOP *** [7d 6s 3d]
+jkardsv: checks 
+SenegoiD31: bets 2000
+jkardsv: folds 
+Uncalled bet (2000) returned to SenegoiD31
+SenegoiD31 collected 1900 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 1900 | Rake 0 
+Board [7d 6s 3d]
+Seat 3: SenegoiD31 collected (1900)
+Seat 5: scrappers28 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: jkardsv (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347876706: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:56:15 UTC [2026/04/04 18:56:15 ET]
+Table '3989329851 1' 9-max Seat #6 is the button
+Seat 3: SenegoiD31 (6159 in chips) 
+Seat 5: scrappers28 (3037 in chips) 
+Seat 6: scorza23 (2443 in chips) 
+Seat 8: jkardsv (1861 in chips) 
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+jkardsv: posts small blind 200
+SenegoiD31: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 6d]
+scrappers28: calls 400
+scorza23: folds 
+jkardsv: folds 
+SenegoiD31: checks 
+*** FLOP *** [5h 3c 9d]
+SenegoiD31: checks 
+scrappers28: checks 
+*** TURN *** [5h 3c 9d] [Td]
+SenegoiD31: checks 
+scrappers28: checks 
+*** RIVER *** [5h 3c 9d Td] [6s]
+SenegoiD31: bets 1100
+scrappers28: folds 
+Uncalled bet (1100) returned to SenegoiD31
+SenegoiD31 collected 1100 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 1100 | Rake 0 
+Board [5h 3c 9d Td 6s]
+Seat 3: SenegoiD31 (big blind) collected (1100)
+Seat 5: scrappers28 folded on the River
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: jkardsv (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347880326: Tournament #3989329851, $1.70+$0.30 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:56:40 UTC [2026/04/04 18:56:40 ET]
+Table '3989329851 1' 9-max Seat #8 is the button
+Seat 3: SenegoiD31 (6834 in chips) 
+Seat 5: scrappers28 (2612 in chips) 
+Seat 6: scorza23 (2418 in chips) 
+Seat 8: jkardsv (1636 in chips) 
+SenegoiD31: posts the ante 25
+scrappers28: posts the ante 25
+scorza23: posts the ante 25
+jkardsv: posts the ante 25
+SenegoiD31: posts small blind 200
+scrappers28: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Kd]
+scorza23: raises 1993 to 2393 and is all-in
+jkardsv: folds 
+SenegoiD31: calls 2193
+scrappers28: calls 1993
+*** FLOP *** [9d Td 3c]
+SenegoiD31: bets 400
+scrappers28: calls 194 and is all-in
+Uncalled bet (206) returned to SenegoiD31
+*** TURN *** [9d Td 3c] [Jc]
+*** RIVER *** [9d Td 3c Jc] [2c]
+*** SHOW DOWN ***
+SenegoiD31: shows [7c Ah] (high card Ace)
+scrappers28: shows [Qh Th] (a pair of Tens)
+scrappers28 collected 388 from side pot
+scorza23: shows [Ac Kd] (high card Ace)
+scrappers28 collected 7279 from main pot
+scorza23 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 7667 Main pot 7279. Side pot 388. | Rake 0 
+Board [9d Td 3c Jc 2c]
+Seat 3: SenegoiD31 (small blind) showed [7c Ah] and lost with high card Ace
+Seat 5: scrappers28 (big blind) showed [Qh Th] and won (7667) with a pair of Tens
+Seat 6: scorza23 showed [Ac Kd] and lost with high card Ace
+Seat 8: jkardsv (button) folded before Flop (didn't bet)
+
+
+

@@ -1,0 +1,1458 @@
+﻿PokerStars Hand #259749510016: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 15:23:54 UTC [2026/02/16 10:23:54 ET]
+Table '3975676813 1' 9-max Seat #1 is the button
+Seat 1: Thrac (1500 in chips) 
+Seat 2: Matos949802 (1500 in chips) 
+Seat 3: komund (1500 in chips) 
+Seat 4: Augusto18192 (1500 in chips) is sitting out
+Seat 5: welq2019 (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: hotdogelaine (1500 in chips) 
+Seat 8: ÉrissonS.17 (1500 in chips) 
+Seat 9: philokairos (1500 in chips) 
+Matos949802: posts small blind 10
+komund: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Td]
+Augusto18192: folds 
+Augusto18192 has returned
+welq2019: folds 
+scorza23: raises 40 to 60
+hotdogelaine: folds 
+ÉrissonS.17: folds 
+philokairos: calls 60
+Thrac: calls 60
+Matos949802: folds 
+komund: folds 
+*** FLOP *** [3d Ac 2s]
+scorza23: bets 105
+philokairos: folds 
+Thrac: folds 
+Uncalled bet (105) returned to scorza23
+scorza23 collected 210 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Board [3d Ac 2s]
+Seat 1: Thrac (button) folded on the Flop
+Seat 2: Matos949802 (small blind) folded before Flop
+Seat 3: komund (big blind) folded before Flop
+Seat 4: Augusto18192 folded before Flop (didn't bet)
+Seat 5: welq2019 folded before Flop (didn't bet)
+Seat 6: scorza23 collected (210)
+Seat 7: hotdogelaine folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos folded on the Flop
+
+
+
+PokerStars Hand #259749516064: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 15:24:29 UTC [2026/02/16 10:24:29 ET]
+Table '3975676813 1' 9-max Seat #2 is the button
+Seat 1: Thrac (1440 in chips) 
+Seat 2: Matos949802 (1490 in chips) 
+Seat 3: komund (1480 in chips) 
+Seat 4: Augusto18192 (1500 in chips) 
+Seat 5: welq2019 (1500 in chips) 
+Seat 6: scorza23 (1650 in chips) 
+Seat 7: hotdogelaine (1500 in chips) 
+Seat 8: ÉrissonS.17 (1500 in chips) 
+Seat 9: philokairos (1440 in chips) 
+komund: posts small blind 10
+Augusto18192: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 5s]
+welq2019: folds 
+scorza23: folds 
+hotdogelaine: raises 40 to 60
+ÉrissonS.17: folds 
+philokairos: folds 
+Thrac: calls 60
+Matos949802: folds 
+komund: folds 
+Augusto18192: calls 40
+*** FLOP *** [2s 5h Jc]
+Augusto18192: checks 
+hotdogelaine: bets 120
+Thrac: calls 120
+Augusto18192: calls 120
+*** TURN *** [2s 5h Jc] [3h]
+Augusto18192: checks 
+hotdogelaine: checks 
+Thrac: bets 60
+Augusto18192: calls 60
+hotdogelaine: folds 
+*** RIVER *** [2s 5h Jc 3h] [7d]
+Augusto18192: checks 
+Thrac: bets 140
+Augusto18192: calls 140
+*** SHOW DOWN ***
+Thrac: shows [Ah 4h] (a straight, Ace to Five)
+Augusto18192: mucks hand 
+Thrac collected 950 from pot
+*** SUMMARY ***
+Total pot 950 | Rake 0 
+Board [2s 5h Jc 3h 7d]
+Seat 1: Thrac showed [Ah 4h] and won (950) with a straight, Ace to Five
+Seat 2: Matos949802 (button) folded before Flop (didn't bet)
+Seat 3: komund (small blind) folded before Flop
+Seat 4: Augusto18192 (big blind) mucked [8h 8d]
+Seat 5: welq2019 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine folded on the Turn
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749532346: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 15:26:05 UTC [2026/02/16 10:26:05 ET]
+Table '3975676813 1' 9-max Seat #3 is the button
+Seat 1: Thrac (2010 in chips) 
+Seat 2: Matos949802 (1490 in chips) 
+Seat 3: komund (1470 in chips) 
+Seat 4: Augusto18192 (1120 in chips) 
+Seat 5: welq2019 (1500 in chips) 
+Seat 6: scorza23 (1650 in chips) 
+Seat 7: hotdogelaine (1320 in chips) 
+Seat 8: ÉrissonS.17 (1500 in chips) 
+Seat 9: philokairos (1440 in chips) 
+Augusto18192: posts small blind 10
+welq2019: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Ac]
+scorza23: raises 40 to 60
+hotdogelaine: folds 
+ÉrissonS.17: folds 
+philokairos: calls 60
+Thrac: calls 60
+Matos949802: calls 60
+komund: folds 
+Augusto18192: folds 
+welq2019: folds 
+*** FLOP *** [6d 7h 9d]
+scorza23: bets 135
+philokairos: folds 
+Thrac: calls 135
+Matos949802: calls 135
+*** TURN *** [6d 7h 9d] [2s]
+scorza23: bets 675
+Thrac: calls 675
+Matos949802: folds 
+*** RIVER *** [6d 7h 9d 2s] [4h]
+scorza23: bets 780 and is all-in
+Thrac: folds 
+Uncalled bet (780) returned to scorza23
+scorza23 collected 2025 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2025 | Rake 0 
+Board [6d 7h 9d 2s 4h]
+Seat 1: Thrac folded on the River
+Seat 2: Matos949802 folded on the Turn
+Seat 3: komund (button) folded before Flop (didn't bet)
+Seat 4: Augusto18192 (small blind) folded before Flop
+Seat 5: welq2019 (big blind) folded before Flop
+Seat 6: scorza23 collected (2025)
+Seat 7: hotdogelaine folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos folded on the Flop
+
+
+
+PokerStars Hand #259749544196: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 15:27:15 UTC [2026/02/16 10:27:15 ET]
+Table '3975676813 1' 9-max Seat #4 is the button
+Seat 1: Thrac (1140 in chips) 
+Seat 2: Matos949802 (1295 in chips) 
+Seat 3: komund (1470 in chips) 
+Seat 4: Augusto18192 (1110 in chips) 
+Seat 5: welq2019 (1480 in chips) 
+Seat 6: scorza23 (2805 in chips) 
+Seat 7: hotdogelaine (1320 in chips) 
+Seat 8: ÉrissonS.17 (1500 in chips) 
+Seat 9: philokairos (1380 in chips) 
+welq2019: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Ad]
+hotdogelaine: folds 
+ÉrissonS.17: raises 20 to 40
+philokairos: folds 
+Thrac: calls 40
+Matos949802: folds 
+komund: folds 
+Augusto18192: calls 40
+welq2019: folds 
+scorza23: calls 20
+*** FLOP *** [Qd 7d 4d]
+scorza23: checks 
+ÉrissonS.17: bets 80
+Thrac: folds 
+Augusto18192: calls 80
+scorza23: calls 80
+*** TURN *** [Qd 7d 4d] [4s]
+scorza23: checks 
+ÉrissonS.17: bets 205
+Augusto18192: calls 205
+scorza23: calls 205
+*** RIVER *** [Qd 7d 4d 4s] [Ts]
+scorza23: bets 513
+ÉrissonS.17: calls 513
+Augusto18192: folds 
+*** SHOW DOWN ***
+scorza23: shows [8d Ad] (a flush, Ace high)
+ÉrissonS.17: mucks hand 
+scorza23 collected 2051 from pot
+*** SUMMARY ***
+Total pot 2051 | Rake 0 
+Board [Qd 7d 4d 4s Ts]
+Seat 1: Thrac folded on the Flop
+Seat 2: Matos949802 folded before Flop (didn't bet)
+Seat 3: komund folded before Flop (didn't bet)
+Seat 4: Augusto18192 (button) folded on the River
+Seat 5: welq2019 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) showed [8d Ad] and won (2051) with a flush, Ace high
+Seat 7: hotdogelaine folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 mucked [Qc Jh]
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749556724: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 15:28:29 UTC [2026/02/16 10:28:29 ET]
+Table '3975676813 1' 9-max Seat #5 is the button
+Seat 1: Thrac (1100 in chips) 
+Seat 2: Matos949802 (1295 in chips) 
+Seat 3: komund (1470 in chips) 
+Seat 4: Augusto18192 (785 in chips) 
+Seat 5: welq2019 (1470 in chips) 
+Seat 6: scorza23 (4018 in chips) 
+Seat 7: hotdogelaine (1320 in chips) 
+Seat 8: ÉrissonS.17 (662 in chips) 
+Seat 9: philokairos (1380 in chips) 
+scorza23: posts small blind 10
+hotdogelaine: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 7h]
+ÉrissonS.17: raises 60 to 80
+philokairos: folds 
+Thrac: calls 80
+Matos949802: folds 
+komund: folds 
+Augusto18192: folds 
+welq2019: folds 
+scorza23: folds 
+hotdogelaine: folds 
+*** FLOP *** [9c 6s 4h]
+ÉrissonS.17: bets 582 and is all-in
+Thrac: calls 582
+*** TURN *** [9c 6s 4h] [5c]
+*** RIVER *** [9c 6s 4h 5c] [2d]
+*** SHOW DOWN ***
+ÉrissonS.17: shows [Ah Kc] (high card Ace)
+Thrac: shows [Ac Qh] (high card Ace - lower kicker)
+ÉrissonS.17 collected 1354 from pot
+*** SUMMARY ***
+Total pot 1354 | Rake 0 
+Board [9c 6s 4h 5c 2d]
+Seat 1: Thrac showed [Ac Qh] and lost with high card Ace
+Seat 2: Matos949802 folded before Flop (didn't bet)
+Seat 3: komund folded before Flop (didn't bet)
+Seat 4: Augusto18192 folded before Flop (didn't bet)
+Seat 5: welq2019 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: hotdogelaine (big blind) folded before Flop
+Seat 8: ÉrissonS.17 showed [Ah Kc] and won (1354) with high card Ace
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749564213: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:29:14 UTC [2026/02/16 10:29:14 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 1: Thrac (438 in chips) 
+Seat 2: Matos949802 (1295 in chips) 
+Seat 3: komund (1470 in chips) 
+Seat 4: Augusto18192 (785 in chips) 
+Seat 5: welq2019 (1470 in chips) 
+Seat 6: scorza23 (4008 in chips) 
+Seat 7: hotdogelaine (1300 in chips) 
+Seat 8: ÉrissonS.17 (1354 in chips) 
+Seat 9: philokairos (1380 in chips) 
+hotdogelaine: posts small blind 15
+ÉrissonS.17: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9d]
+philokairos: calls 30
+Thrac: folds 
+Matos949802: folds 
+komund: folds 
+Augusto18192: calls 30
+welq2019: folds 
+scorza23: folds 
+hotdogelaine: calls 15
+ÉrissonS.17: checks 
+*** FLOP *** [Qs Jh Kd]
+hotdogelaine: checks 
+ÉrissonS.17: checks 
+philokairos: bets 60
+Augusto18192: calls 60
+hotdogelaine: folds 
+ÉrissonS.17: folds 
+*** TURN *** [Qs Jh Kd] [5d]
+philokairos: bets 60
+Augusto18192: calls 60
+*** RIVER *** [Qs Jh Kd 5d] [4c]
+philokairos: checks 
+Augusto18192: bets 210
+philokairos: calls 210
+*** SHOW DOWN ***
+Augusto18192: shows [Js Ac] (a pair of Jacks)
+philokairos: shows [5h Kh] (two pair, Kings and Fives)
+philokairos collected 780 from pot
+*** SUMMARY ***
+Total pot 780 | Rake 0 
+Board [Qs Jh Kd 5d 4c]
+Seat 1: Thrac folded before Flop (didn't bet)
+Seat 2: Matos949802 folded before Flop (didn't bet)
+Seat 3: komund folded before Flop (didn't bet)
+Seat 4: Augusto18192 showed [Js Ac] and lost with a pair of Jacks
+Seat 5: welq2019 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: hotdogelaine (small blind) folded on the Flop
+Seat 8: ÉrissonS.17 (big blind) folded on the Flop
+Seat 9: philokairos showed [5h Kh] and won (780) with two pair, Kings and Fives
+
+
+
+PokerStars Hand #259749573018: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:30:04 UTC [2026/02/16 10:30:04 ET]
+Table '3975676813 1' 9-max Seat #7 is the button
+Seat 1: Thrac (438 in chips) 
+Seat 2: Matos949802 (1295 in chips) 
+Seat 3: komund (1470 in chips) 
+Seat 4: Augusto18192 (425 in chips) 
+Seat 5: welq2019 (1470 in chips) 
+Seat 6: scorza23 (4008 in chips) 
+Seat 7: hotdogelaine (1270 in chips) 
+Seat 8: ÉrissonS.17 (1324 in chips) 
+Seat 9: philokairos (1800 in chips) 
+ÉrissonS.17: posts small blind 15
+philokairos: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Jd]
+Thrac: folds 
+Matos949802: calls 30
+komund: calls 30
+Augusto18192: raises 395 to 425 and is all-in
+welq2019: folds 
+scorza23: folds 
+hotdogelaine: folds 
+ÉrissonS.17: folds 
+philokairos: folds 
+Matos949802: folds 
+komund: folds 
+Uncalled bet (395) returned to Augusto18192
+Augusto18192 collected 135 from pot
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Seat 1: Thrac folded before Flop (didn't bet)
+Seat 2: Matos949802 folded before Flop
+Seat 3: komund folded before Flop
+Seat 4: Augusto18192 collected (135)
+Seat 5: welq2019 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine (button) folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (small blind) folded before Flop
+Seat 9: philokairos (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749578295: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:30:34 UTC [2026/02/16 10:30:34 ET]
+Table '3975676813 1' 9-max Seat #8 is the button
+Seat 1: Thrac (438 in chips) 
+Seat 2: Matos949802 (1265 in chips) 
+Seat 3: komund (1440 in chips) 
+Seat 4: Augusto18192 (530 in chips) 
+Seat 5: welq2019 (1470 in chips) 
+Seat 6: scorza23 (4008 in chips) 
+Seat 7: hotdogelaine (1270 in chips) 
+Seat 8: ÉrissonS.17 (1309 in chips) 
+Seat 9: philokairos (1770 in chips) 
+philokairos: posts small blind 15
+Thrac: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 5s]
+Matos949802: folds 
+komund: folds 
+Augusto18192: calls 30
+welq2019: folds 
+scorza23: folds 
+hotdogelaine: folds 
+ÉrissonS.17: calls 30
+philokairos: calls 15
+Thrac: checks 
+*** FLOP *** [Tc 5d Jd]
+philokairos: checks 
+Thrac: checks 
+Augusto18192: checks 
+ÉrissonS.17: bets 120
+philokairos: folds 
+Thrac: raises 288 to 408 and is all-in
+Augusto18192: raises 92 to 500 and is all-in
+ÉrissonS.17: calls 380
+*** TURN *** [Tc 5d Jd] [Jc]
+*** RIVER *** [Tc 5d Jd Jc] [Kh]
+*** SHOW DOWN ***
+Augusto18192: shows [Ks 9h] (two pair, Kings and Jacks)
+ÉrissonS.17: shows [Qc Jh] (three of a kind, Jacks)
+ÉrissonS.17 collected 184 from side pot
+Thrac: shows [Td 2h] (two pair, Jacks and Tens)
+ÉrissonS.17 collected 1344 from main pot
+Augusto18192 finished the tournament in 8th place
+Thrac finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 1528 Main pot 1344. Side pot 184. | Rake 0 
+Board [Tc 5d Jd Jc Kh]
+Seat 1: Thrac (big blind) showed [Td 2h] and lost with two pair, Jacks and Tens
+Seat 2: Matos949802 folded before Flop (didn't bet)
+Seat 3: komund folded before Flop (didn't bet)
+Seat 4: Augusto18192 showed [Ks 9h] and lost with two pair, Kings and Jacks
+Seat 5: welq2019 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (button) showed [Qc Jh] and won (1528) with three of a kind, Jacks
+Seat 9: philokairos (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259749587227: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:31:26 UTC [2026/02/16 10:31:26 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 2: Matos949802 (1265 in chips) 
+Seat 3: komund (1440 in chips) 
+Seat 5: welq2019 (1470 in chips) 
+Seat 6: scorza23 (4008 in chips) 
+Seat 7: hotdogelaine (1270 in chips) 
+Seat 8: ÉrissonS.17 (2307 in chips) 
+Seat 9: philokairos (1740 in chips) 
+Matos949802: posts small blind 15
+komund: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 4c]
+welq2019: folds 
+scorza23: folds 
+hotdogelaine: raises 30 to 60
+ÉrissonS.17: folds 
+philokairos: raises 60 to 120
+Matos949802: folds 
+komund: folds 
+hotdogelaine: calls 60
+*** FLOP *** [Qd As Ah]
+hotdogelaine: checks 
+philokairos: checks 
+*** TURN *** [Qd As Ah] [9h]
+hotdogelaine: bets 60
+philokairos: calls 60
+*** RIVER *** [Qd As Ah 9h] [6d]
+hotdogelaine: bets 120
+philokairos: raises 120 to 240
+hotdogelaine: folds 
+Uncalled bet (120) returned to philokairos
+philokairos collected 645 from pot
+philokairos: doesn't show hand 
+*** SUMMARY ***
+Total pot 645 | Rake 0 
+Board [Qd As Ah 9h 6d]
+Seat 2: Matos949802 (small blind) folded before Flop
+Seat 3: komund (big blind) folded before Flop
+Seat 5: welq2019 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine folded on the River
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos (button) collected (645)
+
+
+
+PokerStars Hand #259749597384: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:32:26 UTC [2026/02/16 10:32:26 ET]
+Table '3975676813 1' 9-max Seat #2 is the button
+Seat 2: Matos949802 (1250 in chips) 
+Seat 3: komund (1410 in chips) 
+Seat 5: welq2019 (1470 in chips) 
+Seat 6: scorza23 (4008 in chips) 
+Seat 7: hotdogelaine (970 in chips) 
+Seat 8: ÉrissonS.17 (2307 in chips) 
+Seat 9: philokairos (2085 in chips) 
+komund: posts small blind 15
+welq2019: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 8s]
+scorza23: folds 
+hotdogelaine: calls 30
+ÉrissonS.17: folds 
+philokairos: folds 
+Matos949802: folds 
+komund: folds 
+welq2019: raises 30 to 60
+hotdogelaine: calls 30
+*** FLOP *** [2s Kc Ts]
+welq2019: checks 
+hotdogelaine: bets 120
+welq2019: folds 
+Uncalled bet (120) returned to hotdogelaine
+hotdogelaine collected 135 from pot
+hotdogelaine: doesn't show hand 
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Board [2s Kc Ts]
+Seat 2: Matos949802 (button) folded before Flop (didn't bet)
+Seat 3: komund (small blind) folded before Flop
+Seat 5: welq2019 (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine collected (135)
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749603239: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:32:59 UTC [2026/02/16 10:32:59 ET]
+Table '3975676813 1' 9-max Seat #3 is the button
+Seat 2: Matos949802 (1250 in chips) 
+Seat 3: komund (1395 in chips) 
+Seat 5: welq2019 (1410 in chips) 
+Seat 6: scorza23 (4008 in chips) 
+Seat 7: hotdogelaine (1045 in chips) 
+Seat 8: ÉrissonS.17 (2307 in chips) 
+Seat 9: philokairos (2085 in chips) 
+welq2019: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Ah]
+hotdogelaine: folds 
+ÉrissonS.17: folds 
+philokairos: calls 30
+Matos949802: calls 30
+komund: calls 30
+welq2019: raises 30 to 60
+scorza23: raises 210 to 270
+philokairos: folds 
+Matos949802: folds 
+komund: folds 
+welq2019: calls 210
+*** FLOP *** [5h Qc 6c]
+welq2019: bets 315
+scorza23: folds 
+Uncalled bet (315) returned to welq2019
+welq2019 collected 630 from pot
+welq2019: doesn't show hand 
+*** SUMMARY ***
+Total pot 630 | Rake 0 
+Board [5h Qc 6c]
+Seat 2: Matos949802 folded before Flop
+Seat 3: komund (button) folded before Flop
+Seat 5: welq2019 (small blind) collected (630)
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 7: hotdogelaine folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos folded before Flop
+
+
+
+PokerStars Hand #259749612041: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:33:50 UTC [2026/02/16 10:33:50 ET]
+Table '3975676813 1' 9-max Seat #5 is the button
+Seat 2: Matos949802 (1220 in chips) 
+Seat 3: komund (1365 in chips) 
+Seat 5: welq2019 (1770 in chips) 
+Seat 6: scorza23 (3738 in chips) 
+Seat 7: hotdogelaine (1045 in chips) 
+Seat 8: ÉrissonS.17 (2307 in chips) 
+Seat 9: philokairos (2055 in chips) 
+scorza23: posts small blind 15
+hotdogelaine: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 2h]
+ÉrissonS.17: folds 
+philokairos: folds 
+Matos949802: calls 30
+komund: calls 30
+welq2019: raises 30 to 60
+scorza23: folds 
+hotdogelaine: raises 985 to 1045 and is all-in
+Matos949802: folds 
+komund: folds 
+welq2019: calls 985
+*** FLOP *** [Ad 4h 8c]
+*** TURN *** [Ad 4h 8c] [3s]
+*** RIVER *** [Ad 4h 8c 3s] [Kc]
+*** SHOW DOWN ***
+hotdogelaine: shows [Ac Qd] (a pair of Aces)
+welq2019: shows [Jh 8h] (a pair of Eights)
+hotdogelaine collected 2165 from pot
+*** SUMMARY ***
+Total pot 2165 | Rake 0 
+Board [Ad 4h 8c 3s Kc]
+Seat 2: Matos949802 folded before Flop
+Seat 3: komund folded before Flop
+Seat 5: welq2019 (button) showed [Jh 8h] and lost with a pair of Eights
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: hotdogelaine (big blind) showed [Ac Qd] and won (2165) with a pair of Aces
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749619201: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:34:31 UTC [2026/02/16 10:34:31 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 2: Matos949802 (1190 in chips) 
+Seat 3: komund (1335 in chips) 
+Seat 5: welq2019 (725 in chips) 
+Seat 6: scorza23 (3723 in chips) 
+Seat 7: hotdogelaine (2165 in chips) 
+Seat 8: ÉrissonS.17 (2307 in chips) 
+Seat 9: philokairos (2055 in chips) 
+hotdogelaine: posts small blind 25
+ÉrissonS.17: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7s]
+philokairos: folds 
+Matos949802: folds 
+komund: folds 
+welq2019: raises 50 to 100
+scorza23: folds 
+hotdogelaine: calls 75
+ÉrissonS.17: calls 50
+*** FLOP *** [4h 2s 3c]
+hotdogelaine: bets 50
+ÉrissonS.17: calls 50
+welq2019: raises 50 to 100
+hotdogelaine: raises 100 to 200
+ÉrissonS.17: folds 
+welq2019: raises 100 to 300
+hotdogelaine: raises 1765 to 2065 and is all-in
+welq2019: calls 325 and is all-in
+Uncalled bet (1440) returned to hotdogelaine
+*** TURN *** [4h 2s 3c] [8s]
+*** RIVER *** [4h 2s 3c 8s] [Jd]
+*** SHOW DOWN ***
+hotdogelaine: shows [5d Ac] (a straight, Ace to Five)
+welq2019: shows [Kc As] (high card Ace)
+hotdogelaine collected 1600 from pot
+welq2019 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1600 | Rake 0 
+Board [4h 2s 3c 8s Jd]
+Seat 2: Matos949802 folded before Flop (didn't bet)
+Seat 3: komund folded before Flop (didn't bet)
+Seat 5: welq2019 showed [Kc As] and lost with high card Ace
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: hotdogelaine (small blind) showed [5d Ac] and won (1600) with a straight, Ace to Five
+Seat 8: ÉrissonS.17 (big blind) folded on the Flop
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749629039: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:35:29 UTC [2026/02/16 10:35:29 ET]
+Table '3975676813 1' 9-max Seat #7 is the button
+Seat 2: Matos949802 (1190 in chips) 
+Seat 3: komund (1335 in chips) 
+Seat 6: scorza23 (3723 in chips) 
+Seat 7: hotdogelaine (3040 in chips) 
+Seat 8: ÉrissonS.17 (2157 in chips) 
+Seat 9: philokairos (2055 in chips) 
+ÉrissonS.17: posts small blind 25
+philokairos: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 6h]
+Matos949802: folds 
+komund: folds 
+scorza23: folds 
+hotdogelaine: raises 100 to 150
+ÉrissonS.17: calls 125
+philokairos: folds 
+*** FLOP *** [9c Qc 7d]
+ÉrissonS.17: checks 
+hotdogelaine: bets 250
+ÉrissonS.17: folds 
+Uncalled bet (250) returned to hotdogelaine
+hotdogelaine collected 350 from pot
+hotdogelaine: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Board [9c Qc 7d]
+Seat 2: Matos949802 folded before Flop (didn't bet)
+Seat 3: komund folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine (button) collected (350)
+Seat 8: ÉrissonS.17 (small blind) folded on the Flop
+Seat 9: philokairos (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749635021: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:36:04 UTC [2026/02/16 10:36:04 ET]
+Table '3975676813 1' 9-max Seat #8 is the button
+Seat 2: Matos949802 (1190 in chips) 
+Seat 3: komund (1335 in chips) 
+Seat 6: scorza23 (3723 in chips) 
+Seat 7: hotdogelaine (3240 in chips) 
+Seat 8: ÉrissonS.17 (2007 in chips) 
+Seat 9: philokairos (2005 in chips) 
+philokairos: posts small blind 25
+Matos949802: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 8d]
+komund: calls 50
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+hotdogelaine: calls 50
+ÉrissonS.17: folds 
+scorza23 has returned
+philokairos: calls 25
+Matos949802: checks 
+*** FLOP *** [7s 6d Qd]
+philokairos: checks 
+Matos949802: checks 
+komund: checks 
+hotdogelaine: checks 
+*** TURN *** [7s 6d Qd] [6s]
+philokairos: checks 
+Matos949802: checks 
+komund: checks 
+hotdogelaine: bets 100
+philokairos: folds 
+Matos949802: calls 100
+komund: folds 
+*** RIVER *** [7s 6d Qd 6s] [5h]
+Matos949802: checks 
+hotdogelaine: bets 350
+Matos949802: folds 
+Uncalled bet (350) returned to hotdogelaine
+hotdogelaine collected 400 from pot
+hotdogelaine: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [7s 6d Qd 6s 5h]
+Seat 2: Matos949802 (big blind) folded on the River
+Seat 3: komund folded on the Turn
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine collected (400)
+Seat 8: ÉrissonS.17 (button) folded before Flop (didn't bet)
+Seat 9: philokairos (small blind) folded on the Turn
+
+
+
+PokerStars Hand #259749647410: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:37:16 UTC [2026/02/16 10:37:16 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 2: Matos949802 (1040 in chips) 
+Seat 3: komund (1285 in chips) 
+Seat 6: scorza23 (3723 in chips) 
+Seat 7: hotdogelaine (3490 in chips) 
+Seat 8: ÉrissonS.17 (2007 in chips) 
+Seat 9: philokairos (1955 in chips) 
+Matos949802: posts small blind 25
+komund: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 8d]
+scorza23: folds 
+hotdogelaine: raises 100 to 150
+ÉrissonS.17: folds 
+philokairos: folds 
+Matos949802: folds 
+komund: folds 
+Uncalled bet (100) returned to hotdogelaine
+hotdogelaine collected 125 from pot
+hotdogelaine: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 2: Matos949802 (small blind) folded before Flop
+Seat 3: komund (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: hotdogelaine collected (125)
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749650460: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:37:33 UTC [2026/02/16 10:37:33 ET]
+Table '3975676813 1' 9-max Seat #2 is the button
+Seat 2: Matos949802 (1015 in chips) 
+Seat 3: komund (1235 in chips) 
+Seat 6: scorza23 (3723 in chips) 
+Seat 7: hotdogelaine (3565 in chips) 
+Seat 8: ÉrissonS.17 (2007 in chips) 
+Seat 9: philokairos (1955 in chips) 
+komund: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9c]
+hotdogelaine: calls 50
+ÉrissonS.17: calls 50
+philokairos: folds 
+Matos949802: calls 50
+komund: calls 25
+scorza23: checks 
+*** FLOP *** [9s 7d 9h]
+komund: checks 
+scorza23: bets 50
+hotdogelaine: raises 100 to 150
+ÉrissonS.17: folds 
+Matos949802: calls 150
+komund: folds 
+scorza23: calls 100
+*** TURN *** [9s 7d 9h] [3s]
+scorza23: checks 
+hotdogelaine: bets 300
+Matos949802: calls 300
+scorza23: calls 300
+*** RIVER *** [9s 7d 9h 3s] [2s]
+scorza23: checks 
+hotdogelaine: bets 550
+Matos949802: calls 515 and is all-in
+scorza23: raises 2673 to 3223 and is all-in
+hotdogelaine: calls 2515 and is all-in
+Uncalled bet (158) returned to scorza23
+*** SHOW DOWN ***
+scorza23: shows [2h 9c] (a full house, Nines full of Deuces)
+hotdogelaine: shows [3d 3c] (a full house, Threes full of Nines)
+scorza23 collected 5100 from side pot
+Matos949802: shows [9d Kc] (three of a kind, Nines)
+scorza23 collected 3145 from main pot
+hotdogelaine finished the tournament in 5th place
+Matos949802 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 8245 Main pot 3145. Side pot 5100. | Rake 0 
+Board [9s 7d 9h 3s 2s]
+Seat 2: Matos949802 (button) showed [9d Kc] and lost with three of a kind, Nines
+Seat 3: komund (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) showed [2h 9c] and won (8245) with a full house, Nines full of Deuces
+Seat 7: hotdogelaine showed [3d 3c] and lost with a full house, Threes full of Nines
+Seat 8: ÉrissonS.17 folded on the Flop
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749666616: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:39:08 UTC [2026/02/16 10:39:08 ET]
+Table '3975676813 1' 9-max Seat #3 is the button
+Seat 3: komund (1185 in chips) 
+Seat 6: scorza23 (8403 in chips) 
+Seat 8: ÉrissonS.17 (1957 in chips) 
+Seat 9: philokairos (1955 in chips) 
+scorza23: posts small blind 50
+ÉrissonS.17: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 5d]
+philokairos: folds 
+komund: raises 200 to 300
+scorza23: folds 
+ÉrissonS.17: folds 
+Uncalled bet (200) returned to komund
+komund collected 250 from pot
+komund: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 3: komund (button) collected (250)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: ÉrissonS.17 (big blind) folded before Flop
+Seat 9: philokairos folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749669674: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:39:26 UTC [2026/02/16 10:39:26 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 3: komund (1335 in chips) 
+Seat 6: scorza23 (8353 in chips) 
+Seat 8: ÉrissonS.17 (1857 in chips) 
+Seat 9: philokairos (1955 in chips) 
+ÉrissonS.17: posts small blind 50
+philokairos: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Tc]
+komund: folds 
+scorza23: folds 
+ÉrissonS.17: folds 
+Uncalled bet (50) returned to philokairos
+philokairos collected 100 from pot
+philokairos: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 3: komund folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (small blind) folded before Flop
+Seat 9: philokairos (big blind) collected (100)
+
+
+
+PokerStars Hand #259749672716: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:39:44 UTC [2026/02/16 10:39:44 ET]
+Table '3975676813 1' 9-max Seat #8 is the button
+Seat 3: komund (1335 in chips) 
+Seat 6: scorza23 (8353 in chips) 
+Seat 8: ÉrissonS.17 (1807 in chips) 
+Seat 9: philokairos (2005 in chips) 
+philokairos: posts small blind 50
+komund: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 2s]
+scorza23: folds 
+ÉrissonS.17: folds 
+philokairos: raises 100 to 200
+komund: calls 100
+*** FLOP *** [Qs 5d 8s]
+philokairos: checks 
+komund: checks 
+*** TURN *** [Qs 5d 8s] [9h]
+philokairos: checks 
+komund: checks 
+*** RIVER *** [Qs 5d 8s 9h] [Td]
+philokairos: checks 
+komund: checks 
+*** SHOW DOWN ***
+philokairos: shows [9s Ts] (two pair, Tens and Nines)
+komund: mucks hand 
+philokairos collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [Qs 5d 8s 9h Td]
+Seat 3: komund (big blind) mucked [Ks Ac]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (button) folded before Flop (didn't bet)
+Seat 9: philokairos (small blind) showed [9s Ts] and won (400) with two pair, Tens and Nines
+
+
+
+PokerStars Hand #259749676674: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:40:07 UTC [2026/02/16 10:40:07 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 3: komund (1135 in chips) 
+Seat 6: scorza23 (8353 in chips) 
+Seat 8: ÉrissonS.17 (1807 in chips) 
+Seat 9: philokairos (2205 in chips) 
+komund: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [As Jh]
+ÉrissonS.17: calls 100
+philokairos: folds 
+komund: folds 
+scorza23: checks 
+*** FLOP *** [Qc Qh 9d]
+scorza23: checks 
+ÉrissonS.17: checks 
+*** TURN *** [Qc Qh 9d] [4h]
+scorza23: checks 
+ÉrissonS.17: checks 
+*** RIVER *** [Qc Qh 9d 4h] [8h]
+scorza23: checks 
+ÉrissonS.17: checks 
+*** SHOW DOWN ***
+scorza23: shows [As Jh] (a pair of Queens)
+ÉrissonS.17: mucks hand 
+scorza23 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [Qc Qh 9d 4h 8h]
+Seat 3: komund (small blind) folded before Flop
+Seat 6: scorza23 (big blind) showed [As Jh] and won (250) with a pair of Queens
+Seat 8: ÉrissonS.17 mucked [3d Kd]
+Seat 9: philokairos (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749680058: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:40:27 UTC [2026/02/16 10:40:27 ET]
+Table '3975676813 1' 9-max Seat #3 is the button
+Seat 3: komund (1085 in chips) 
+Seat 6: scorza23 (8503 in chips) 
+Seat 8: ÉrissonS.17 (1707 in chips) 
+Seat 9: philokairos (2205 in chips) 
+scorza23: posts small blind 50
+ÉrissonS.17: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Kd]
+philokairos: calls 100
+komund: folds 
+scorza23: raises 300 to 400
+ÉrissonS.17: folds 
+philokairos: calls 300
+*** FLOP *** [Ks Ad 4d]
+scorza23: bets 450
+philokairos: folds 
+Uncalled bet (450) returned to scorza23
+scorza23 collected 900 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [Ks Ad 4d]
+Seat 3: komund (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (900)
+Seat 8: ÉrissonS.17 (big blind) folded before Flop
+Seat 9: philokairos folded on the Flop
+
+
+
+PokerStars Hand #259749685876: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:41:01 UTC [2026/02/16 10:41:01 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 3: komund (1085 in chips) 
+Seat 6: scorza23 (9003 in chips) 
+Seat 8: ÉrissonS.17 (1607 in chips) 
+Seat 9: philokairos (1805 in chips) 
+ÉrissonS.17: posts small blind 50
+philokairos: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 9d]
+komund: folds 
+scorza23: folds 
+ÉrissonS.17: calls 50
+philokairos: checks 
+*** FLOP *** [Ad 2s Ah]
+ÉrissonS.17: bets 100
+philokairos: folds 
+Uncalled bet (100) returned to ÉrissonS.17
+ÉrissonS.17 collected 200 from pot
+ÉrissonS.17: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [Ad 2s Ah]
+Seat 3: komund folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (small blind) collected (200)
+Seat 9: philokairos (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749690445: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:41:28 UTC [2026/02/16 10:41:28 ET]
+Table '3975676813 1' 9-max Seat #8 is the button
+Seat 3: komund (1085 in chips) 
+Seat 6: scorza23 (9003 in chips) 
+Seat 8: ÉrissonS.17 (1707 in chips) 
+Seat 9: philokairos (1705 in chips) 
+philokairos: posts small blind 50
+komund: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 3s]
+scorza23: folds 
+ÉrissonS.17: folds 
+philokairos: folds 
+Uncalled bet (50) returned to komund
+komund collected 100 from pot
+komund: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 3: komund (big blind) collected (100)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (button) folded before Flop (didn't bet)
+Seat 9: philokairos (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749693169: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:41:44 UTC [2026/02/16 10:41:44 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 3: komund (1135 in chips) 
+Seat 6: scorza23 (9003 in chips) 
+Seat 8: ÉrissonS.17 (1707 in chips) 
+Seat 9: philokairos (1655 in chips) 
+komund: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 3s]
+ÉrissonS.17: raises 100 to 200
+philokairos: folds 
+komund: folds 
+scorza23: folds 
+Uncalled bet (100) returned to ÉrissonS.17
+ÉrissonS.17 collected 250 from pot
+ÉrissonS.17: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 3: komund (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: ÉrissonS.17 collected (250)
+Seat 9: philokairos (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749696370: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:42:02 UTC [2026/02/16 10:42:02 ET]
+Table '3975676813 1' 9-max Seat #3 is the button
+Seat 3: komund (1085 in chips) 
+Seat 6: scorza23 (8903 in chips) 
+Seat 8: ÉrissonS.17 (1857 in chips) 
+Seat 9: philokairos (1655 in chips) 
+scorza23: posts small blind 50
+ÉrissonS.17: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6s]
+philokairos: calls 100
+komund: folds 
+scorza23: folds 
+ÉrissonS.17: checks 
+*** FLOP *** [5s 3s 9d]
+ÉrissonS.17: checks 
+philokairos: checks 
+*** TURN *** [5s 3s 9d] [5c]
+ÉrissonS.17: checks 
+philokairos: checks 
+*** RIVER *** [5s 3s 9d 5c] [Th]
+ÉrissonS.17: checks 
+philokairos: checks 
+*** SHOW DOWN ***
+ÉrissonS.17: shows [6d Jc] (a pair of Fives)
+philokairos: shows [Td Js] (two pair, Tens and Fives)
+philokairos collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [5s 3s 9d 5c Th]
+Seat 3: komund (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: ÉrissonS.17 (big blind) showed [6d Jc] and lost with a pair of Fives
+Seat 9: philokairos showed [Td Js] and won (250) with two pair, Tens and Fives
+
+
+
+PokerStars Hand #259749703293: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:42:43 UTC [2026/02/16 10:42:43 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 3: komund (1085 in chips) 
+Seat 6: scorza23 (8853 in chips) 
+Seat 8: ÉrissonS.17 (1757 in chips) 
+Seat 9: philokairos (1805 in chips) 
+ÉrissonS.17: posts small blind 50
+philokairos: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Qc]
+komund: folds 
+scorza23: folds 
+ÉrissonS.17: folds 
+Uncalled bet (50) returned to philokairos
+philokairos collected 100 from pot
+philokairos: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 3: komund folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (small blind) folded before Flop
+Seat 9: philokairos (big blind) collected (100)
+
+
+
+PokerStars Hand #259749705220: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 15:42:55 UTC [2026/02/16 10:42:55 ET]
+Table '3975676813 1' 9-max Seat #8 is the button
+Seat 3: komund (1085 in chips) 
+Seat 6: scorza23 (8853 in chips) 
+Seat 8: ÉrissonS.17 (1707 in chips) 
+Seat 9: philokairos (1855 in chips) 
+philokairos: posts small blind 50
+komund: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Jc]
+scorza23: folds 
+ÉrissonS.17: calls 100
+philokairos: folds 
+komund: checks 
+*** FLOP *** [Jh Qd 3s]
+komund: checks 
+ÉrissonS.17: checks 
+*** TURN *** [Jh Qd 3s] [As]
+komund: checks 
+ÉrissonS.17: checks 
+*** RIVER *** [Jh Qd 3s As] [Tc]
+komund: checks 
+ÉrissonS.17: bets 100
+komund: folds 
+Uncalled bet (100) returned to ÉrissonS.17
+ÉrissonS.17 collected 250 from pot
+ÉrissonS.17: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [Jh Qd 3s As Tc]
+Seat 3: komund (big blind) folded on the River
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (button) collected (250)
+Seat 9: philokairos (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749716481: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:44:01 UTC [2026/02/16 10:44:01 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 3: komund (985 in chips) 
+Seat 6: scorza23 (8853 in chips) 
+Seat 8: ÉrissonS.17 (1857 in chips) 
+Seat 9: philokairos (1805 in chips) 
+komund: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 4c]
+ÉrissonS.17: folds 
+philokairos: folds 
+komund: raises 835 to 985 and is all-in
+scorza23: calls 835
+*** FLOP *** [7s 9s 3s]
+*** TURN *** [7s 9s 3s] [Jd]
+*** RIVER *** [7s 9s 3s Jd] [Td]
+*** SHOW DOWN ***
+komund: shows [2h 2c] (a pair of Deuces)
+scorza23: shows [Tc 4c] (a pair of Tens)
+scorza23 collected 1970 from pot
+komund finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1970 | Rake 0 
+Board [7s 9s 3s Jd Td]
+Seat 3: komund (small blind) showed [2h 2c] and lost with a pair of Deuces
+Seat 6: scorza23 (big blind) showed [Tc 4c] and won (1970) with a pair of Tens
+Seat 8: ÉrissonS.17 folded before Flop (didn't bet)
+Seat 9: philokairos (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749720623: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:44:25 UTC [2026/02/16 10:44:25 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (9838 in chips) 
+Seat 8: ÉrissonS.17 (1857 in chips) 
+Seat 9: philokairos (1805 in chips) 
+ÉrissonS.17: posts small blind 75
+philokairos: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 9s]
+scorza23: folds 
+ÉrissonS.17: calls 75
+philokairos: checks 
+*** FLOP *** [Jd Th 2s]
+ÉrissonS.17: checks 
+philokairos: bets 300
+ÉrissonS.17: folds 
+Uncalled bet (300) returned to philokairos
+philokairos collected 300 from pot
+philokairos: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Jd Th 2s]
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (small blind) folded on the Flop
+Seat 9: philokairos (big blind) collected (300)
+
+
+
+PokerStars Hand #259749725094: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:44:52 UTC [2026/02/16 10:44:52 ET]
+Table '3975676813 1' 9-max Seat #8 is the button
+Seat 6: scorza23 (9838 in chips) 
+Seat 8: ÉrissonS.17 (1707 in chips) 
+Seat 9: philokairos (1955 in chips) 
+philokairos: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 2s]
+ÉrissonS.17: folds 
+philokairos: calls 75
+scorza23: checks 
+*** FLOP *** [Td 8c 6c]
+philokairos: checks 
+scorza23: checks 
+*** TURN *** [Td 8c 6c] [Ah]
+philokairos: bets 150
+scorza23: raises 9538 to 9688 and is all-in
+philokairos: calls 1655 and is all-in
+Uncalled bet (7883) returned to scorza23
+*** RIVER *** [Td 8c 6c Ah] [9s]
+*** SHOW DOWN ***
+philokairos: shows [9c As] (two pair, Aces and Nines)
+scorza23: shows [Ac 2s] (a pair of Aces)
+philokairos collected 3910 from pot
+*** SUMMARY ***
+Total pot 3910 | Rake 0 
+Board [Td 8c 6c Ah 9s]
+Seat 6: scorza23 (big blind) showed [Ac 2s] and lost with a pair of Aces
+Seat 8: ÉrissonS.17 (button) folded before Flop (didn't bet)
+Seat 9: philokairos (small blind) showed [9c As] and won (3910) with two pair, Aces and Nines
+
+
+
+PokerStars Hand #259749729802: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:45:19 UTC [2026/02/16 10:45:19 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (7883 in chips) 
+Seat 8: ÉrissonS.17 (1707 in chips) 
+Seat 9: philokairos (3910 in chips) 
+scorza23: posts small blind 75
+ÉrissonS.17: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 5s]
+philokairos: folds 
+scorza23: folds 
+Uncalled bet (75) returned to ÉrissonS.17
+ÉrissonS.17 collected 150 from pot
+ÉrissonS.17: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: ÉrissonS.17 (big blind) collected (150)
+Seat 9: philokairos (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749731219: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:45:27 UTC [2026/02/16 10:45:27 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (7808 in chips) 
+Seat 8: ÉrissonS.17 (1782 in chips) 
+Seat 9: philokairos (3910 in chips) 
+ÉrissonS.17: posts small blind 75
+philokairos: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8h]
+scorza23: folds 
+ÉrissonS.17: calls 75
+philokairos: checks 
+*** FLOP *** [Qd 5h 7s]
+ÉrissonS.17: checks 
+philokairos: checks 
+*** TURN *** [Qd 5h 7s] [3c]
+ÉrissonS.17: bets 150
+philokairos: folds 
+Uncalled bet (150) returned to ÉrissonS.17
+ÉrissonS.17 collected 300 from pot
+ÉrissonS.17: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Qd 5h 7s 3c]
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (small blind) collected (300)
+Seat 9: philokairos (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259749734351: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:45:46 UTC [2026/02/16 10:45:46 ET]
+Table '3975676813 1' 9-max Seat #8 is the button
+Seat 6: scorza23 (7808 in chips) 
+Seat 8: ÉrissonS.17 (1932 in chips) 
+Seat 9: philokairos (3760 in chips) 
+philokairos: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Qs]
+ÉrissonS.17: folds 
+philokairos: calls 75
+scorza23: raises 7658 to 7808 and is all-in
+philokairos: calls 3610 and is all-in
+Uncalled bet (4048) returned to scorza23
+*** FLOP *** [Td 9c 3h]
+*** TURN *** [Td 9c 3h] [8s]
+*** RIVER *** [Td 9c 3h 8s] [4h]
+*** SHOW DOWN ***
+philokairos: shows [Ac Kc] (high card Ace)
+scorza23: shows [6s Qs] (high card Queen)
+philokairos collected 7520 from pot
+*** SUMMARY ***
+Total pot 7520 | Rake 0 
+Board [Td 9c 3h 8s 4h]
+Seat 6: scorza23 (big blind) showed [6s Qs] and lost with high card Queen
+Seat 8: ÉrissonS.17 (button) folded before Flop (didn't bet)
+Seat 9: philokairos (small blind) showed [Ac Kc] and won (7520) with high card Ace
+
+
+
+PokerStars Hand #259749737363: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:46:03 UTC [2026/02/16 10:46:03 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (4048 in chips) 
+Seat 8: ÉrissonS.17 (1932 in chips) 
+Seat 9: philokairos (7520 in chips) 
+scorza23: posts small blind 75
+ÉrissonS.17: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 4c]
+philokairos: folds 
+scorza23: folds 
+Uncalled bet (75) returned to ÉrissonS.17
+ÉrissonS.17 collected 150 from pot
+ÉrissonS.17: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: ÉrissonS.17 (big blind) collected (150)
+Seat 9: philokairos (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749738945: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:46:12 UTC [2026/02/16 10:46:12 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (3973 in chips) 
+Seat 8: ÉrissonS.17 (2007 in chips) 
+Seat 9: philokairos (7520 in chips) 
+ÉrissonS.17: posts small blind 75
+philokairos: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 7h]
+scorza23: folds 
+ÉrissonS.17: calls 75
+philokairos: raises 150 to 300
+ÉrissonS.17: raises 1707 to 2007 and is all-in
+philokairos: calls 1707
+*** FLOP *** [7s 2d 4c]
+*** TURN *** [7s 2d 4c] [6c]
+*** RIVER *** [7s 2d 4c 6c] [6h]
+*** SHOW DOWN ***
+ÉrissonS.17: shows [3c Ks] (a pair of Sixes)
+philokairos: shows [9s 9h] (two pair, Nines and Sixes)
+philokairos collected 4014 from pot
+ÉrissonS.17 finished the tournament in 3rd place and received $0.75.
+*** SUMMARY ***
+Total pot 4014 | Rake 0 
+Board [7s 2d 4c 6c 6h]
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: ÉrissonS.17 (small blind) showed [3c Ks] and lost with a pair of Sixes
+Seat 9: philokairos (big blind) showed [9s 9h] and won (4014) with two pair, Nines and Sixes
+
+
+
+PokerStars Hand #259749744716: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:46:46 UTC [2026/02/16 10:46:46 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (3973 in chips) 
+Seat 9: philokairos (9527 in chips) 
+philokairos: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9h]
+philokairos: folds 
+Uncalled bet (75) returned to scorza23
+scorza23 collected 150 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 6: scorza23 (big blind) collected (150)
+Seat 9: philokairos (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749745567: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:46:51 UTC [2026/02/16 10:46:51 ET]
+Table '3975676813 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (4048 in chips) 
+Seat 9: philokairos (9452 in chips) 
+scorza23: posts small blind 75
+philokairos: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 4h]
+scorza23: folds 
+Uncalled bet (75) returned to philokairos
+philokairos collected 150 from pot
+philokairos: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 6: scorza23 (button) (small blind) folded before Flop
+Seat 9: philokairos (big blind) collected (150)
+
+
+
+PokerStars Hand #259749746975: Tournament #3975676813, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 15:46:59 UTC [2026/02/16 10:46:59 ET]
+Table '3975676813 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (3973 in chips) 
+Seat 9: philokairos (9527 in chips) 
+philokairos: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 6h]
+philokairos: calls 75
+scorza23: checks 
+*** FLOP *** [8d 6s 7h]
+scorza23: bets 3823 and is all-in
+philokairos: calls 3823
+*** TURN *** [8d 6s 7h] [Kc]
+*** RIVER *** [8d 6s 7h Kc] [Kh]
+*** SHOW DOWN ***
+scorza23: shows [3d 6h] (two pair, Kings and Sixes)
+philokairos: shows [Th 9c] (a straight, Six to Ten)
+philokairos collected 7946 from pot
+scorza23 finished the tournament in 2nd place and received $1.13.
+philokairos wins the tournament and receives $1.90 - congratulations!
+*** SUMMARY ***
+Total pot 7946 | Rake 0 
+Board [8d 6s 7h Kc Kh]
+Seat 6: scorza23 (big blind) showed [3d 6h] and lost with two pair, Kings and Sixes
+Seat 9: philokairos (button) (small blind) showed [Th 9c] and won (7946) with a straight, Six to Ten
+
+
+

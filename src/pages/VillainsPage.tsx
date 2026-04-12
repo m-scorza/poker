@@ -1,0 +1,430 @@
+/**
+ * Villain Tracker page — opponent stats, archetype classification, notes.
+ *
+ * Collects stats from all parsed hands for every non-hero player.
+ */
+
+import { useEffect, useState, useMemo, useCallback } from 'react';
+import { clsx } from 'clsx';
+import { Search, Users, Tag, MessageSquare, X, Plus } from 'lucide-react';
+import { db, saveVillainNote, getAllVillainNotes } from '../data/store';
+import { classifyVillain, computeVillainStats, getExploitAdvice, isRecreational } from '../analysis/villainClassifier';
+import type { VillainArchetype, VillainRawCounters, ArchetypeConfidence, VillainStats } from '../types/villain';
+import { emptyCounters } from '../analysis/villainClassifier';
+
+interface VillainRow {
+  name: string;
+  totalHands: number;
+  stats: VillainStats;
+  archetype: VillainArchetype | null;
+  confidence: ArchetypeConfidence;
+  isRec: boolean;
+  notes: string;
+  tags: string[];
+}
+
+const PREDEFINED_TAGS = [
+  'overfolds turn',
+  'never 3-bets light',
+  'always c-bets',
+  'wide opener',
+  'tight opener',
+  'stations river',
+  'bluffs too much',
+  'passive postflop',
+  'aggressive postflop',
+  'limp-calls',
+];
+
+const ARCHETYPE_COLORS: Record<VillainArchetype, string> = {
+  fish: 'bg-blue-900/30 text-blue-400',
+  nit: 'bg-gray-800 text-gray-400',
+  tag: 'bg-emerald-900/30 text-emerald-400',
+  lag: 'bg-orange-900/30 text-orange-400',
+  calling_station: 'bg-purple-900/30 text-purple-400',
+  maniac: 'bg-red-900/30 text-red-400',
+};
+
+const ARCHETYPE_LABELS: Record<VillainArchetype, string> = {
+  fish: 'Fish',
+  nit: 'Nit',
+  tag: 'TAG',
+  lag: 'LAG',
+  calling_station: 'Calling Station',
+  maniac: 'Maniac',
+};
+
+const CONFIDENCE_ICONS: Record<ArchetypeConfidence, string> = {
+  low: '○',
+  medium: '◐',
+  high: '●',
+};
+
+export function VillainsPage() {
+  const [villains, setVillains] = useState<VillainRow[]>([]);
+  const [search, setSearch] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [archetypeFilter, setArchetypeFilter] = useState<VillainArchetype | ''>('');
+  const [selectedVillain, setSelectedVillain] = useState<VillainRow | null>(null);
+
+  useEffect(() => {
+    async function load() {
+      setLoading(true);
+
+      // Load pre-aggregated villain profiles and saved notes directly from DB
+      const profiles = await db.villains.toArray();
+      const savedNotes = await getAllVillainNotes();
+
+      // Build rows directly matching VillainRow interface
+      const rows: VillainRow[] = profiles
+        .filter((v) => v.totalHands >= 5) // Skip players with very few hands
+        .map((v) => {
+          const note = savedNotes.get(v.playerName);
+          return {
+            name: v.playerName,
+            totalHands: v.totalHands,
+            stats: v.stats,
+            archetype: v.archetype,
+            confidence: v.archetypeConfidence,
+            isRec: isRecreational(v.stats),
+            notes: note?.notes ?? '',
+            tags: note?.tags ?? [],
+          };
+        });
+
+      // Sort by total hands descending
+      rows.sort((a, b) => b.totalHands - a.totalHands);
+      setVillains(rows);
+      setLoading(false);
+    }
+    load();
+  }, []);
+
+  const filtered = useMemo(() => {
+    let result = villains;
+    if (search) {
+      const q = search.toLowerCase();
+      result = result.filter((v) => v.name.toLowerCase().includes(q));
+    }
+    if (archetypeFilter) {
+      result = result.filter((v) => v.archetype === archetypeFilter);
+    }
+    return result;
+  }, [villains, search, archetypeFilter]);
+
+  const pct = (n: number) => `${n.toFixed(1)}%`;
+
+  return (
+    <div>
+      <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
+        <Users size={20} />
+        Villain Tracker
+      </h2>
+
+      {/* Filters */}
+      <div className="flex flex-wrap gap-3 mb-4">
+        <div className="relative">
+          <Search size={14} className="absolute left-2.5 top-2.5 text-[var(--color-text-muted)]" />
+          <input
+            type="text"
+            placeholder="Buscar jogador..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="pl-8 pr-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
+          />
+        </div>
+        <select
+          value={archetypeFilter}
+          onChange={(e) => setArchetypeFilter(e.target.value as VillainArchetype | '')}
+          className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] focus:outline-none focus:border-[var(--color-accent)]"
+        >
+          <option value="">Todos os tipos</option>
+          <option value="fish">Fish</option>
+          <option value="nit">Nit</option>
+          <option value="tag">TAG</option>
+          <option value="lag">LAG</option>
+          <option value="calling_station">Calling Station</option>
+          <option value="maniac">Maniac</option>
+        </select>
+        <span className="text-xs text-[var(--color-text-muted)] self-center">
+          {filtered.length} jogadores
+        </span>
+      </div>
+
+      {loading ? (
+        <div className="text-[var(--color-text-dim)] flex items-center gap-2">
+          <div className="w-4 h-4 border-2 border-[var(--color-accent)] border-t-transparent rounded-full animate-spin" />
+          Carregando...
+        </div>
+      ) : villains.length === 0 ? (
+        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
+          <p className="text-[var(--color-text-dim)]">Importe mãos para rastrear vilões.</p>
+        </div>
+      ) : (
+        <>
+          {/* Table */}
+          <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-[var(--color-border)] text-left">
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Jogador</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Mãos</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Tipo</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">VPIP</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">PFR</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">AF</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Limp%</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Gap</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filtered.slice(0, 100).map((v) => (
+                    <tr
+                      key={v.name}
+                      onClick={() => setSelectedVillain(v)}
+                      className="border-b border-[var(--color-border)]/50 hover:bg-[var(--color-bg-hover)] transition-colors cursor-pointer"
+                    >
+                      <td className="px-3 py-2">
+                        <div className="flex items-center gap-1.5">
+                          <span className="font-data text-xs">{v.name}</span>
+                          {v.isRec && (
+                            <span className="text-[10px] px-1 py-0.5 rounded bg-blue-900/20 text-blue-400">REC</span>
+                          )}
+                          {v.notes && (
+                            <MessageSquare size={10} className="text-[var(--color-text-muted)]" />
+                          )}
+                          {v.tags.length > 0 && (
+                            <Tag size={10} className="text-[var(--color-text-muted)]" />
+                          )}
+                        </div>
+                      </td>
+                      <td className="px-3 py-2 font-data text-xs">{v.totalHands}</td>
+                      <td className="px-3 py-2">
+                        {v.archetype ? (
+                          <span className={clsx('text-[10px] px-1.5 py-0.5 rounded font-bold', ARCHETYPE_COLORS[v.archetype])}>
+                            {CONFIDENCE_ICONS[v.confidence]} {ARCHETYPE_LABELS[v.archetype]}
+                          </span>
+                        ) : (
+                          <span className="text-xs text-[var(--color-text-muted)]">—</span>
+                        )}
+                      </td>
+                      <td className="px-3 py-2 font-data text-xs">{pct(v.stats.vpip)}</td>
+                      <td className="px-3 py-2 font-data text-xs">{pct(v.stats.pfr)}</td>
+                      <td className="px-3 py-2 font-data text-xs">{v.stats.af.toFixed(1)}</td>
+                      <td className="px-3 py-2 font-data text-xs">{pct(v.stats.limpPct)}</td>
+                      <td className="px-3 py-2 font-data text-xs">
+                        <span className={(v.stats.vpip - v.stats.pfr) > 15 ? 'text-[var(--color-danger)]' : ''}>
+                          {(v.stats.vpip - v.stats.pfr).toFixed(1)}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* The detail panel renders as a fixed overlay via its own inner wrapper now */}
+          {selectedVillain && (
+            <VillainDetailPanel
+              villain={selectedVillain}
+              onClose={() => setSelectedVillain(null)}
+              onUpdate={(updated) => {
+                setSelectedVillain(updated);
+                setVillains((prev) =>
+                  prev.map((v) => (v.name === updated.name ? updated : v)),
+                );
+              }}
+            />
+          )}
+        </>
+      )}
+    </div>
+  );
+}
+
+// --- Villain Detail Panel with Notes & Tags ---
+
+function VillainDetailPanel({
+  villain,
+  onClose,
+  onUpdate,
+}: {
+  villain: VillainRow;
+  onClose: () => void;
+  onUpdate: (updated: VillainRow) => void;
+}) {
+  const [notes, setNotes] = useState(villain.notes);
+  const [tags, setTags] = useState<string[]>(villain.tags);
+  const [showTagPicker, setShowTagPicker] = useState(false);
+  const [customTag, setCustomTag] = useState('');
+
+  const pct = (n: number) => `${n.toFixed(1)}%`;
+
+  const saveNotesAndTags = useCallback(
+    async (newNotes: string, newTags: string[]) => {
+      await saveVillainNote(villain.name, newNotes, newTags);
+      onUpdate({ ...villain, notes: newNotes, tags: newTags });
+    },
+    [villain, onUpdate],
+  );
+
+  const handleNotesBlur = () => {
+    if (notes !== villain.notes) {
+      saveNotesAndTags(notes, tags);
+    }
+  };
+
+  const addTag = (tag: string) => {
+    if (!tags.includes(tag)) {
+      const newTags = [...tags, tag];
+      setTags(newTags);
+      saveNotesAndTags(notes, newTags);
+    }
+  };
+
+  const removeTag = (tag: string) => {
+    const newTags = tags.filter((t) => t !== tag);
+    setTags(newTags);
+    saveNotesAndTags(notes, newTags);
+  };
+
+  const addCustomTag = () => {
+    const trimmed = customTag.trim().toLowerCase();
+    if (trimmed && !tags.includes(trimmed)) {
+      addTag(trimmed);
+    }
+    setCustomTag('');
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 backdrop-blur-sm animate-in fade-in duration-200">
+      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-6 w-full max-w-xl shadow-2xl relative animate-in zoom-in-95 duration-200 mt-0">
+        <div className="flex items-center justify-between mb-4 pb-3 border-b border-[var(--color-border)]">
+        <div className="flex items-center gap-3">
+          <h3 className="font-data font-bold text-lg">{villain.name}</h3>
+          {villain.archetype && (
+            <span className={clsx('text-xs px-2 py-1 rounded font-bold', ARCHETYPE_COLORS[villain.archetype])}>
+              {ARCHETYPE_LABELS[villain.archetype]}
+            </span>
+          )}
+          <span className="text-xs text-[var(--color-text-muted)]">
+            {villain.totalHands} mãos | Confiança: {villain.confidence}
+          </span>
+        </div>
+        <button
+          onClick={onClose}
+          className="text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
+        >
+          &times;
+        </button>
+      </div>
+
+      {/* Stats grid */}
+      <div className="grid grid-cols-4 gap-3 mb-3">
+        <div className="text-center p-2 bg-[var(--color-bg)] rounded">
+          <p className="text-xs text-[var(--color-text-dim)]">VPIP</p>
+          <p className="font-data font-bold">{pct(villain.stats.vpip)}</p>
+        </div>
+        <div className="text-center p-2 bg-[var(--color-bg)] rounded">
+          <p className="text-xs text-[var(--color-text-dim)]">PFR</p>
+          <p className="font-data font-bold">{pct(villain.stats.pfr)}</p>
+        </div>
+        <div className="text-center p-2 bg-[var(--color-bg)] rounded">
+          <p className="text-xs text-[var(--color-text-dim)]">AF</p>
+          <p className="font-data font-bold">{villain.stats.af.toFixed(1)}</p>
+        </div>
+        <div className="text-center p-2 bg-[var(--color-bg)] rounded">
+          <p className="text-xs text-[var(--color-text-dim)]">Gap</p>
+          <p className={clsx('font-data font-bold', (villain.stats.vpip - villain.stats.pfr) > 15 && 'text-[var(--color-danger)]')}>
+            {(villain.stats.vpip - villain.stats.pfr).toFixed(1)}
+          </p>
+        </div>
+      </div>
+
+      {/* Exploit advice */}
+      {villain.archetype && (
+        <div className="bg-[var(--color-bg)] rounded p-3 text-sm mb-3">
+          <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-1">Estratégia de Exploração</p>
+          <p className="text-[var(--color-text)]">{getExploitAdvice(villain.archetype)}</p>
+        </div>
+      )}
+
+      {/* Tags */}
+      <div className="mb-3">
+        <div className="flex items-center gap-2 mb-2">
+          <Tag size={14} className="text-[var(--color-text-dim)]" />
+          <span className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Tags</span>
+        </div>
+        <div className="flex flex-wrap gap-1.5 mb-2">
+          {tags.map((tag) => (
+            <span
+              key={tag}
+              className="text-[10px] px-2 py-1 rounded-full bg-[var(--color-accent)]/10 text-[var(--color-accent)] flex items-center gap-1"
+            >
+              {tag}
+              <button onClick={() => removeTag(tag)} className="hover:text-[var(--color-danger)]">
+                <X size={10} />
+              </button>
+            </span>
+          ))}
+          <button
+            onClick={() => setShowTagPicker(!showTagPicker)}
+            className="text-[10px] px-2 py-1 rounded-full border border-dashed border-[var(--color-border)] text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:border-[var(--color-accent)] flex items-center gap-1"
+          >
+            <Plus size={10} /> Adicionar
+          </button>
+        </div>
+
+        {showTagPicker && (
+          <div className="bg-[var(--color-bg)] border border-[var(--color-border)] rounded-lg p-2">
+            <div className="flex flex-wrap gap-1 mb-2">
+              {PREDEFINED_TAGS.filter((t) => !tags.includes(t)).map((tag) => (
+                <button
+                  key={tag}
+                  onClick={() => addTag(tag)}
+                  className="text-[10px] px-2 py-1 rounded bg-[var(--color-bg-card)] border border-[var(--color-border)] text-[var(--color-text-dim)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)]"
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
+            <div className="flex gap-1">
+              <input
+                type="text"
+                value={customTag}
+                onChange={(e) => setCustomTag(e.target.value)}
+                onKeyDown={(e) => e.key === 'Enter' && addCustomTag()}
+                placeholder="Tag personalizada..."
+                className="flex-1 px-2 py-1 text-[10px] bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
+              />
+              <button
+                onClick={addCustomTag}
+                className="px-2 py-1 text-[10px] rounded bg-[var(--color-accent)]/15 text-[var(--color-accent)] hover:bg-[var(--color-accent)]/25"
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Notes */}
+      <div>
+        <div className="flex items-center gap-2 mb-2">
+          <MessageSquare size={14} className="text-[var(--color-text-dim)]" />
+          <span className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Notas</span>
+        </div>
+        <textarea
+          value={notes}
+          onChange={(e) => setNotes(e.target.value)}
+          onBlur={handleNotesBlur}
+          placeholder="Observações sobre o jogador..."
+          rows={3}
+          className="w-full px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)] resize-y"
+        />
+      </div>
+    </div>
+  );
+}

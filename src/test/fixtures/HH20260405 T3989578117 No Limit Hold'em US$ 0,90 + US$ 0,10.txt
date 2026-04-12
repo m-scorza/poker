@@ -1,0 +1,1749 @@
+﻿PokerStars Hand #260358720879: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 17:34:02 BRT [2026/04/05 16:34:02 ET]
+Table '3989578117 4' 8-max Seat #1 is the button
+Seat 1: TonyCruzBR (1718 in chips) 
+Seat 2: Josy Walking (984 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 7: marbar1 (1500 in chips) 
+TonyCruzBR: posts the ante 3
+Josy Walking: posts the ante 3
+scorza23: posts the ante 3
+marbar1: posts the ante 3
+Josy Walking: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3c]
+marbar1 is disconnected 
+marbar1 is connected 
+Fedor199191 is disconnected 
+marbar1: folds 
+TonyCruzBR: calls 20
+Josy Walking: folds 
+scorza23: raises 40 to 60
+TonyCruzBR: calls 40
+*** FLOP *** [3d 2c 7d]
+scorza23: bets 71
+TonyCruzBR: calls 71
+*** TURN *** [3d 2c 7d] [2d]
+scorza23: bets 284
+TonyCruzBR: calls 284
+*** RIVER *** [3d 2c 7d 2d] [Tc]
+scorza23: checks 
+TonyCruzBR: bets 280
+scorza23: calls 280
+*** SHOW DOWN ***
+TonyCruzBR: shows [Jc Kd] (a pair of Deuces)
+scorza23: shows [7s 3c] (two pair, Sevens and Threes)
+scorza23 collected 1412 from pot
+*** SUMMARY ***
+Total pot 1412 | Rake 0 
+Board [3d 2c 7d 2d Tc]
+Seat 1: TonyCruzBR (button) showed [Jc Kd] and lost with a pair of Deuces
+Seat 2: Josy Walking (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [7s 3c] and won (1412) with two pair, Sevens and Threes
+Seat 7: marbar1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358734112: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 17:34:51 BRT [2026/04/05 16:34:51 ET]
+Table '3989578117 4' 8-max Seat #2 is the button
+Seat 1: TonyCruzBR (1020 in chips) 
+Seat 2: Josy Walking (971 in chips) 
+Seat 3: Triple 3A (1500 in chips) out of hand (moved from another table into small blind)
+Seat 4: MarcoMashine82 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 5: scorza23 (2214 in chips) 
+Seat 7: marbar1 (1497 in chips) 
+Seat 8: Fedor199191 (1459 in chips) 
+Triple 3A will be allowed to play after the button
+MarcoMashine82 will be allowed to play after the button
+TonyCruzBR: posts the ante 3
+Josy Walking: posts the ante 3
+scorza23: posts the ante 3
+marbar1: posts the ante 3
+Fedor199191: posts the ante 3
+scorza23: posts small blind 10
+marbar1: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 2d]
+Fedor199191: raises 20 to 40
+TonyCruzBR: raises 40 to 80
+Josy Walking: folds 
+scorza23: folds 
+marbar1: folds 
+Fedor199191: calls 40
+*** FLOP *** [Th Jd 8s]
+Fedor199191: checks 
+TonyCruzBR: checks 
+*** TURN *** [Th Jd 8s] [Qc]
+Fedor199191: checks 
+TonyCruzBR: checks 
+*** RIVER *** [Th Jd 8s Qc] [2s]
+Fedor199191: bets 310
+TonyCruzBR: folds 
+Uncalled bet (310) returned to Fedor199191
+Fedor199191 collected 205 from pot
+Fedor199191: doesn't show hand 
+*** SUMMARY ***
+Total pot 205 | Rake 0 
+Board [Th Jd 8s Qc 2s]
+Seat 1: TonyCruzBR folded on the River
+Seat 2: Josy Walking (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 7: marbar1 (big blind) folded before Flop
+Seat 8: Fedor199191 collected (205)
+
+
+
+PokerStars Hand #260358760418: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:36:28 BRT [2026/04/05 16:36:28 ET]
+Table '3989578117 4' 8-max Seat #5 is the button
+Seat 1: TonyCruzBR (937 in chips) 
+Seat 2: Josy Walking (968 in chips) 
+Seat 3: Triple 3A (1500 in chips) 
+Seat 4: MarcoMashine82 (1500 in chips) 
+Seat 5: scorza23 (2201 in chips) 
+Seat 6: LKoerich (1500 in chips) out of hand (moved from another table into small blind)
+Seat 7: marbar1 (1474 in chips) 
+Seat 8: Fedor199191 (1581 in chips) 
+LKoerich will be allowed to play after the button
+TonyCruzBR: posts the ante 4
+Josy Walking: posts the ante 4
+Triple 3A: posts the ante 4
+MarcoMashine82: posts the ante 4
+scorza23: posts the ante 4
+marbar1: posts the ante 4
+Fedor199191: posts the ante 4
+marbar1: posts small blind 15
+Fedor199191: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 2s]
+TonyCruzBR: calls 30
+Josy Walking: folds 
+Triple 3A: folds 
+MarcoMashine82: calls 30
+scorza23: folds 
+marbar1: calls 15
+Fedor199191: checks 
+*** FLOP *** [5d 9s 9h]
+marbar1: checks 
+Fedor199191: checks 
+TonyCruzBR: checks 
+MarcoMashine82: checks 
+*** TURN *** [5d 9s 9h] [5h]
+marbar1: checks 
+Fedor199191: checks 
+TonyCruzBR: checks 
+MarcoMashine82: checks 
+*** RIVER *** [5d 9s 9h 5h] [Js]
+marbar1: checks 
+Fedor199191: checks 
+TonyCruzBR: bets 90
+MarcoMashine82: folds 
+marbar1: folds 
+Fedor199191: folds 
+Uncalled bet (90) returned to TonyCruzBR
+TonyCruzBR collected 148 from pot
+TonyCruzBR: doesn't show hand 
+*** SUMMARY ***
+Total pot 148 | Rake 0 
+Board [5d 9s 9h 5h Js]
+Seat 1: TonyCruzBR collected (148)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Triple 3A folded before Flop (didn't bet)
+Seat 4: MarcoMashine82 folded on the River
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: marbar1 (small blind) folded on the River
+Seat 8: Fedor199191 (big blind) folded on the River
+
+
+
+PokerStars Hand #260358787366: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:38:07 BRT [2026/04/05 16:38:07 ET]
+Table '3989578117 4' 8-max Seat #7 is the button
+Seat 1: TonyCruzBR (1051 in chips) 
+Seat 2: Josy Walking (964 in chips) 
+Seat 3: Triple 3A (1496 in chips) 
+Seat 4: MarcoMashine82 (1466 in chips) 
+Seat 5: scorza23 (2197 in chips) 
+Seat 6: LKoerich (1500 in chips) 
+Seat 7: marbar1 (1440 in chips) 
+Seat 8: Fedor199191 (1547 in chips) 
+TonyCruzBR: posts the ante 4
+Josy Walking: posts the ante 4
+Triple 3A: posts the ante 4
+MarcoMashine82: posts the ante 4
+scorza23: posts the ante 4
+LKoerich: posts the ante 4
+marbar1: posts the ante 4
+Fedor199191: posts the ante 4
+Fedor199191: posts small blind 15
+TonyCruzBR: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Kd]
+Josy Walking: raises 30 to 60
+Triple 3A: folds 
+MarcoMashine82: raises 30 to 90
+scorza23: raises 317 to 407
+LKoerich: folds 
+marbar1: folds 
+Fedor199191: folds 
+TonyCruzBR: folds 
+Josy Walking: folds 
+MarcoMashine82: folds 
+Uncalled bet (317) returned to scorza23
+scorza23 collected 317 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 317 | Rake 0 
+Seat 1: TonyCruzBR (big blind) folded before Flop
+Seat 2: Josy Walking folded before Flop
+Seat 3: Triple 3A folded before Flop (didn't bet)
+Seat 4: MarcoMashine82 folded before Flop
+Seat 5: scorza23 collected (317)
+Seat 6: LKoerich folded before Flop (didn't bet)
+Seat 7: marbar1 (button) folded before Flop (didn't bet)
+Seat 8: Fedor199191 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358801140: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:38:58 BRT [2026/04/05 16:38:58 ET]
+Table '3989578117 4' 8-max Seat #8 is the button
+Seat 1: TonyCruzBR (1017 in chips) 
+Seat 2: Josy Walking (900 in chips) 
+Seat 3: Triple 3A (1492 in chips) 
+Seat 4: MarcoMashine82 (1372 in chips) 
+Seat 5: scorza23 (2420 in chips) 
+Seat 6: LKoerich (1496 in chips) 
+Seat 7: marbar1 (1436 in chips) 
+Seat 8: Fedor199191 (1528 in chips) 
+TonyCruzBR: posts the ante 4
+Josy Walking: posts the ante 4
+Triple 3A: posts the ante 4
+MarcoMashine82: posts the ante 4
+scorza23: posts the ante 4
+LKoerich: posts the ante 4
+marbar1: posts the ante 4
+Fedor199191: posts the ante 4
+TonyCruzBR: posts small blind 15
+Josy Walking: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2h]
+Triple 3A: raises 30 to 60
+MarcoMashine82: folds 
+scorza23: folds 
+LKoerich: folds 
+marbar1: folds 
+Fedor199191: folds 
+TonyCruzBR: calls 45
+Josy Walking: folds 
+*** FLOP *** [9d Kc 8h]
+TonyCruzBR: bets 30
+Triple 3A: raises 121 to 151
+TonyCruzBR: calls 121
+*** TURN *** [9d Kc 8h] [Qc]
+TonyCruzBR: checks 
+Triple 3A: bets 242
+TonyCruzBR: folds 
+Uncalled bet (242) returned to Triple 3A
+Triple 3A collected 484 from pot
+*** SUMMARY ***
+Total pot 484 | Rake 0 
+Board [9d Kc 8h Qc]
+Seat 1: TonyCruzBR (small blind) folded on the Turn
+Seat 2: Josy Walking (big blind) folded before Flop
+Seat 3: Triple 3A collected (484)
+Seat 4: MarcoMashine82 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: LKoerich folded before Flop (didn't bet)
+Seat 7: marbar1 folded before Flop (didn't bet)
+Seat 8: Fedor199191 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358816695: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:39:55 BRT [2026/04/05 16:39:55 ET]
+Table '3989578117 4' 8-max Seat #1 is the button
+Seat 1: TonyCruzBR (802 in chips) 
+Seat 2: Josy Walking (866 in chips) 
+Seat 3: Triple 3A (1761 in chips) 
+Seat 4: MarcoMashine82 (1368 in chips) 
+Seat 5: scorza23 (2416 in chips) 
+Seat 6: LKoerich (1492 in chips) 
+Seat 7: marbar1 (1432 in chips) 
+Seat 8: Fedor199191 (1524 in chips) 
+TonyCruzBR: posts the ante 4
+Josy Walking: posts the ante 4
+Triple 3A: posts the ante 4
+MarcoMashine82: posts the ante 4
+scorza23: posts the ante 4
+LKoerich: posts the ante 4
+marbar1: posts the ante 4
+Fedor199191: posts the ante 4
+Josy Walking: posts small blind 15
+Triple 3A: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 4s]
+MarcoMashine82: folds 
+scorza23: folds 
+LKoerich: folds 
+marbar1: raises 90 to 120
+Fedor199191: folds 
+TonyCruzBR: folds 
+Josy Walking: folds 
+Triple 3A: raises 120 to 240
+marbar1: calls 120
+*** FLOP *** [7h Qh 9c]
+Triple 3A: bets 264
+marbar1: calls 264
+*** TURN *** [7h Qh 9c] [Ks]
+Triple 3A: bets 618
+marbar1: folds 
+Uncalled bet (618) returned to Triple 3A
+Triple 3A collected 1055 from pot
+*** SUMMARY ***
+Total pot 1055 | Rake 0 
+Board [7h Qh 9c Ks]
+Seat 1: TonyCruzBR (button) folded before Flop (didn't bet)
+Seat 2: Josy Walking (small blind) folded before Flop
+Seat 3: Triple 3A (big blind) collected (1055)
+Seat 4: MarcoMashine82 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: LKoerich folded before Flop (didn't bet)
+Seat 7: marbar1 folded on the Turn
+Seat 8: Fedor199191 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358842266: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:41:30 BRT [2026/04/05 16:41:30 ET]
+Table '3989578117 4' 8-max Seat #2 is the button
+Seat 1: TonyCruzBR (798 in chips) 
+Seat 2: Josy Walking (847 in chips) 
+Seat 3: Triple 3A (2308 in chips) 
+Seat 4: MarcoMashine82 (1364 in chips) 
+Seat 5: scorza23 (2412 in chips) 
+Seat 6: LKoerich (1488 in chips) 
+Seat 7: marbar1 (924 in chips) 
+Seat 8: Fedor199191 (1520 in chips) 
+TonyCruzBR: posts the ante 6
+Josy Walking: posts the ante 6
+Triple 3A: posts the ante 6
+MarcoMashine82: posts the ante 6
+scorza23: posts the ante 6
+LKoerich: posts the ante 6
+marbar1: posts the ante 6
+Fedor199191: posts the ante 6
+Triple 3A: posts small blind 25
+MarcoMashine82: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 5h]
+scorza23: folds 
+LKoerich: folds 
+marbar1: raises 100 to 150
+Fedor199191: folds 
+TonyCruzBR: folds 
+Josy Walking: folds 
+Triple 3A: calls 125
+MarcoMashine82: folds 
+*** FLOP *** [8h 6s 8d]
+Triple 3A: checks 
+marbar1: bets 350
+Triple 3A: calls 350
+*** TURN *** [8h 6s 8d] [Ad]
+Triple 3A: checks 
+marbar1: checks 
+*** RIVER *** [8h 6s 8d Ad] [7s]
+Triple 3A: checks 
+marbar1: checks 
+*** SHOW DOWN ***
+Triple 3A: shows [Qh 7h] (two pair, Eights and Sevens)
+marbar1: shows [Td Tc] (two pair, Tens and Eights)
+marbar1 collected 1098 from pot
+*** SUMMARY ***
+Total pot 1098 | Rake 0 
+Board [8h 6s 8d Ad 7s]
+Seat 1: TonyCruzBR folded before Flop (didn't bet)
+Seat 2: Josy Walking (button) folded before Flop (didn't bet)
+Seat 3: Triple 3A (small blind) showed [Qh 7h] and lost with two pair, Eights and Sevens
+Seat 4: MarcoMashine82 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: LKoerich folded before Flop (didn't bet)
+Seat 7: marbar1 showed [Td Tc] and won (1098) with two pair, Tens and Eights
+Seat 8: Fedor199191 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358857874: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:42:28 BRT [2026/04/05 16:42:28 ET]
+Table '3989578117 4' 8-max Seat #3 is the button
+Seat 1: TonyCruzBR (792 in chips) 
+Seat 2: Josy Walking (841 in chips) 
+Seat 3: Triple 3A (1802 in chips) 
+Seat 4: MarcoMashine82 (1308 in chips) 
+Seat 5: scorza23 (2406 in chips) 
+Seat 6: LKoerich (1482 in chips) 
+Seat 7: marbar1 (1516 in chips) 
+Seat 8: Fedor199191 (1514 in chips) 
+TonyCruzBR: posts the ante 6
+Josy Walking: posts the ante 6
+Triple 3A: posts the ante 6
+MarcoMashine82: posts the ante 6
+scorza23: posts the ante 6
+LKoerich: posts the ante 6
+marbar1: posts the ante 6
+Fedor199191: posts the ante 6
+MarcoMashine82: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ad]
+LKoerich: folds 
+marbar1: calls 50
+Fedor199191: raises 85 to 135
+TonyCruzBR: folds 
+Josy Walking: folds 
+Triple 3A: calls 135
+MarcoMashine82: folds 
+scorza23: calls 85
+marbar1: calls 85
+*** FLOP *** [Kc Jh Qc]
+scorza23: checks 
+marbar1: bets 350
+Fedor199191: raises 1023 to 1373 and is all-in
+Triple 3A: calls 1373
+scorza23: folds 
+marbar1: folds 
+*** TURN *** [Kc Jh Qc] [6c]
+*** RIVER *** [Kc Jh Qc 6c] [Jd]
+*** SHOW DOWN ***
+Fedor199191: shows [Ah Tc] (a straight, Ten to Ace)
+Triple 3A: shows [Td Kh] (two pair, Kings and Jacks)
+Fedor199191 collected 3709 from pot
+*** SUMMARY ***
+Total pot 3709 | Rake 0 
+Board [Kc Jh Qc 6c Jd]
+Seat 1: TonyCruzBR folded before Flop (didn't bet)
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Triple 3A (button) showed [Td Kh] and lost with two pair, Kings and Jacks
+Seat 4: MarcoMashine82 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Flop
+Seat 6: LKoerich folded before Flop (didn't bet)
+Seat 7: marbar1 folded on the Flop
+Seat 8: Fedor199191 showed [Ah Tc] and won (3709) with a straight, Ten to Ace
+
+
+
+PokerStars Hand #260358880738: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:43:53 BRT [2026/04/05 16:43:53 ET]
+Table '3989578117 4' 8-max Seat #4 is the button
+Seat 1: TonyCruzBR (786 in chips) 
+Seat 2: Josy Walking (835 in chips) 
+Seat 3: Triple 3A (288 in chips) 
+Seat 4: MarcoMashine82 (1277 in chips) 
+Seat 5: scorza23 (2265 in chips) 
+Seat 6: LKoerich (1476 in chips) 
+Seat 7: marbar1 (1025 in chips) 
+Seat 8: Fedor199191 (3709 in chips) 
+TonyCruzBR: posts the ante 6
+Josy Walking: posts the ante 6
+Triple 3A: posts the ante 6
+MarcoMashine82: posts the ante 6
+scorza23: posts the ante 6
+LKoerich: posts the ante 6
+marbar1: posts the ante 6
+Fedor199191: posts the ante 6
+scorza23: posts small blind 25
+LKoerich: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Kc]
+marbar1: folds 
+Fedor199191: folds 
+TonyCruzBR: calls 50
+Josy Walking: folds 
+Triple 3A: raises 232 to 282 and is all-in
+MarcoMashine82: folds 
+scorza23: folds 
+LKoerich: folds 
+TonyCruzBR: calls 232
+*** FLOP *** [5s Ks Jh]
+*** TURN *** [5s Ks Jh] [4c]
+*** RIVER *** [5s Ks Jh 4c] [2d]
+*** SHOW DOWN ***
+TonyCruzBR: shows [5c 4s] (two pair, Fives and Fours)
+Triple 3A: shows [3s Ac] (a straight, Ace to Five)
+Triple 3A collected 687 from pot
+*** SUMMARY ***
+Total pot 687 | Rake 0 
+Board [5s Ks Jh 4c 2d]
+Seat 1: TonyCruzBR showed [5c 4s] and lost with two pair, Fives and Fours
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Triple 3A showed [3s Ac] and won (687) with a straight, Ace to Five
+Seat 4: MarcoMashine82 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: LKoerich (big blind) folded before Flop
+Seat 7: marbar1 folded before Flop (didn't bet)
+Seat 8: Fedor199191 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358900800: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:45:07 BRT [2026/04/05 16:45:07 ET]
+Table '3989578117 4' 8-max Seat #5 is the button
+Seat 1: TonyCruzBR (498 in chips) 
+Seat 2: Josy Walking (829 in chips) 
+Seat 3: Triple 3A (687 in chips) 
+Seat 4: MarcoMashine82 (1271 in chips) 
+Seat 5: scorza23 (2234 in chips) 
+Seat 6: LKoerich (1420 in chips) 
+Seat 8: Fedor199191 (3703 in chips) 
+TonyCruzBR: posts the ante 10
+Josy Walking: posts the ante 10
+Triple 3A: posts the ante 10
+MarcoMashine82: posts the ante 10
+scorza23: posts the ante 10
+LKoerich: posts the ante 10
+Fedor199191: posts the ante 10
+LKoerich: posts small blind 40
+Fedor199191: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [As Kd]
+TonyCruzBR: raises 408 to 488 and is all-in
+Josy Walking: folds 
+Triple 3A: folds 
+MarcoMashine82: folds 
+scorza23: calls 488
+LKoerich: folds 
+Fedor199191: folds 
+*** FLOP *** [2h Kc 4c]
+*** TURN *** [2h Kc 4c] [Kh]
+*** RIVER *** [2h Kc 4c Kh] [Js]
+*** SHOW DOWN ***
+TonyCruzBR: shows [Jd 7h] (two pair, Kings and Jacks)
+scorza23: shows [As Kd] (three of a kind, Kings)
+scorza23 collected 1166 from pot
+TonyCruzBR finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 1166 | Rake 0 
+Board [2h Kc 4c Kh Js]
+Seat 1: TonyCruzBR showed [Jd 7h] and lost with two pair, Kings and Jacks
+Seat 2: Josy Walking folded before Flop (didn't bet)
+Seat 3: Triple 3A folded before Flop (didn't bet)
+Seat 4: MarcoMashine82 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) showed [As Kd] and won (1166) with three of a kind, Kings
+Seat 6: LKoerich (small blind) folded before Flop
+Seat 8: Fedor199191 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358915268: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:46:00 BRT [2026/04/05 16:46:00 ET]
+Table '3989578117 4' 8-max Seat #6 is the button
+Seat 2: Josy Walking (819 in chips) 
+Seat 3: Triple 3A (677 in chips) 
+Seat 4: MarcoMashine82 (1261 in chips) 
+Seat 5: scorza23 (2902 in chips) 
+Seat 6: LKoerich (1370 in chips) 
+Seat 8: Fedor199191 (3613 in chips) 
+Josy Walking: posts the ante 10
+Triple 3A: posts the ante 10
+MarcoMashine82: posts the ante 10
+scorza23: posts the ante 10
+LKoerich: posts the ante 10
+Fedor199191: posts the ante 10
+Fedor199191: posts small blind 40
+Josy Walking: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Ah]
+Triple 3A: folds 
+MarcoMashine82: folds 
+scorza23: folds 
+LKoerich: folds 
+Fedor199191: raises 3523 to 3603 and is all-in
+Josy Walking: folds 
+Uncalled bet (3523) returned to Fedor199191
+Fedor199191 collected 220 from pot
+Fedor199191: doesn't show hand 
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 2: Josy Walking (big blind) folded before Flop
+Seat 3: Triple 3A folded before Flop (didn't bet)
+Seat 4: MarcoMashine82 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: LKoerich (button) folded before Flop (didn't bet)
+Seat 8: Fedor199191 (small blind) collected (220)
+
+
+
+PokerStars Hand #260358925343: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:46:37 BRT [2026/04/05 16:46:37 ET]
+Table '3989578117 4' 8-max Seat #8 is the button
+Seat 2: Josy Walking (729 in chips) 
+Seat 3: Triple 3A (667 in chips) 
+Seat 4: MarcoMashine82 (1251 in chips) 
+Seat 5: scorza23 (2892 in chips) 
+Seat 6: LKoerich (1360 in chips) 
+Seat 8: Fedor199191 (3743 in chips) 
+Josy Walking: posts the ante 10
+Triple 3A: posts the ante 10
+MarcoMashine82: posts the ante 10
+scorza23: posts the ante 10
+LKoerich: posts the ante 10
+Fedor199191: posts the ante 10
+Josy Walking: posts small blind 40
+Triple 3A: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Jh]
+MarcoMashine82: folds 
+scorza23: folds 
+LKoerich: folds 
+Fedor199191: raises 80 to 160
+Josy Walking: raises 559 to 719 and is all-in
+Triple 3A: calls 577 and is all-in
+Fedor199191: calls 559
+*** FLOP *** [9c Jc Td]
+*** TURN *** [9c Jc Td] [6d]
+*** RIVER *** [9c Jc Td 6d] [9d]
+*** SHOW DOWN ***
+Josy Walking: shows [Ah Ks] (a pair of Nines)
+Fedor199191: shows [Ad Kd] (a flush, Ace high)
+Fedor199191 collected 124 from side pot
+Triple 3A: shows [2s 4s] (a pair of Nines)
+Fedor199191 collected 2031 from main pot
+Josy Walking finished the tournament in 24th place
+Triple 3A finished the tournament in 25th place
+*** SUMMARY ***
+Total pot 2155 Main pot 2031. Side pot 124. | Rake 0 
+Board [9c Jc Td 6d 9d]
+Seat 2: Josy Walking (small blind) showed [Ah Ks] and lost with a pair of Nines
+Seat 3: Triple 3A (big blind) showed [2s 4s] and lost with a pair of Nines
+Seat 4: MarcoMashine82 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: LKoerich folded before Flop (didn't bet)
+Seat 8: Fedor199191 (button) showed [Ad Kd] and won (2155) with a flush, Ace high
+
+
+
+PokerStars Hand #260358946403: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:47:54 BRT [2026/04/05 16:47:54 ET]
+Table '3989578117 3' 8-max Seat #8 is the button
+Seat 1: Caconde418 (865 in chips) 
+Seat 2: scorza23 (2882 in chips) 
+Seat 3: Darknoss155 (3517 in chips) 
+Seat 4: ratrix2009 (1154 in chips) 
+Seat 5: Maurício125 (1663 in chips) 
+Seat 6: MarcoMashine82 (1241 in chips) 
+Seat 8: ohanaaa (3982 in chips) 
+Caconde418: posts the ante 10
+scorza23: posts the ante 10
+Darknoss155: posts the ante 10
+ratrix2009: posts the ante 10
+Maurício125: posts the ante 10
+MarcoMashine82: posts the ante 10
+ohanaaa: posts the ante 10
+Caconde418: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Jc]
+Darknoss155: folds 
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+ohanaaa: raises 80 to 160
+Caconde418: raises 695 to 855 and is all-in
+scorza23: folds 
+ohanaaa: folds 
+Uncalled bet (695) returned to Caconde418
+Caconde418 collected 470 from pot
+Caconde418: doesn't show hand 
+*** SUMMARY ***
+Total pot 470 | Rake 0 
+Seat 1: Caconde418 (small blind) collected (470)
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+Seat 8: ohanaaa (button) folded before Flop
+
+
+
+PokerStars Hand #260358954042: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:48:22 BRT [2026/04/05 16:48:22 ET]
+Table '3989578117 3' 8-max Seat #1 is the button
+Seat 1: Caconde418 (1165 in chips) 
+Seat 2: scorza23 (2792 in chips) 
+Seat 3: Darknoss155 (3507 in chips) 
+Seat 4: ratrix2009 (1144 in chips) 
+Seat 5: Maurício125 (1653 in chips) 
+Seat 6: MarcoMashine82 (1231 in chips) 
+Seat 8: ohanaaa (3812 in chips) 
+Caconde418: posts the ante 10
+scorza23: posts the ante 10
+Darknoss155: posts the ante 10
+ratrix2009: posts the ante 10
+Maurício125: posts the ante 10
+MarcoMashine82: posts the ante 10
+ohanaaa: posts the ante 10
+scorza23: posts small blind 40
+Darknoss155: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 8h]
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+ohanaaa: folds 
+Caconde418: raises 80 to 160
+scorza23: folds 
+Darknoss155: calls 80
+*** FLOP *** [4s 8s Td]
+Darknoss155: checks 
+Caconde418: checks 
+*** TURN *** [4s 8s Td] [Ad]
+Darknoss155: bets 138
+Caconde418: calls 138
+*** RIVER *** [4s 8s Td Ad] [9d]
+Darknoss155: checks 
+Caconde418: bets 857 and is all-in
+Darknoss155: calls 857
+*** SHOW DOWN ***
+Caconde418: shows [2d Kd] (a flush, Ace high)
+Darknoss155: shows [7s Ah] (a pair of Aces)
+Caconde418 collected 2420 from pot
+*** SUMMARY ***
+Total pot 2420 | Rake 0 
+Board [4s 8s Td Ad 9d]
+Seat 1: Caconde418 (button) showed [2d Kd] and won (2420) with a flush, Ace high
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Darknoss155 (big blind) showed [7s Ah] and lost with a pair of Aces
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+Seat 8: ohanaaa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358967126: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:49:11 BRT [2026/04/05 16:49:11 ET]
+Table '3989578117 3' 8-max Seat #2 is the button
+Seat 1: Caconde418 (2420 in chips) 
+Seat 2: scorza23 (2742 in chips) 
+Seat 3: Darknoss155 (2342 in chips) 
+Seat 4: ratrix2009 (1134 in chips) 
+Seat 5: Maurício125 (1643 in chips) 
+Seat 6: MarcoMashine82 (1221 in chips) 
+Seat 8: ohanaaa (3802 in chips) 
+Caconde418: posts the ante 10
+scorza23: posts the ante 10
+Darknoss155: posts the ante 10
+ratrix2009: posts the ante 10
+Maurício125: posts the ante 10
+MarcoMashine82: posts the ante 10
+ohanaaa: posts the ante 10
+Darknoss155: posts small blind 40
+ratrix2009: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Tc]
+Maurício125: folds 
+MarcoMashine82: raises 80 to 160
+ohanaaa: folds 
+Caconde418: calls 160
+scorza23: folds 
+Darknoss155: raises 2172 to 2332 and is all-in
+ratrix2009: folds 
+MarcoMashine82: folds 
+Caconde418: folds 
+Uncalled bet (2172) returned to Darknoss155
+Darknoss155 collected 630 from pot
+Darknoss155: doesn't show hand 
+*** SUMMARY ***
+Total pot 630 | Rake 0 
+Seat 1: Caconde418 folded before Flop
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Darknoss155 (small blind) collected (630)
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop
+Seat 8: ohanaaa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358980972: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:50:02 BRT [2026/04/05 16:50:02 ET]
+Table '3989578117 3' 8-max Seat #3 is the button
+Seat 1: Caconde418 (2250 in chips) 
+Seat 2: scorza23 (2732 in chips) 
+Seat 3: Darknoss155 (2802 in chips) 
+Seat 4: ratrix2009 (1044 in chips) 
+Seat 5: Maurício125 (1633 in chips) 
+Seat 6: MarcoMashine82 (1051 in chips) 
+Seat 8: ohanaaa (3792 in chips) 
+Caconde418: posts the ante 10
+scorza23: posts the ante 10
+Darknoss155: posts the ante 10
+ratrix2009: posts the ante 10
+Maurício125: posts the ante 10
+MarcoMashine82: posts the ante 10
+ohanaaa: posts the ante 10
+ratrix2009: posts small blind 40
+Maurício125: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8d]
+MarcoMashine82: folds 
+ohanaaa: folds 
+Caconde418: folds 
+scorza23: folds 
+Darknoss155: raises 80 to 160
+ratrix2009: folds 
+Maurício125: raises 1463 to 1623 and is all-in
+Darknoss155: folds 
+Uncalled bet (1463) returned to Maurício125
+Maurício125 collected 430 from pot
+Maurício125: doesn't show hand 
+*** SUMMARY ***
+Total pot 430 | Rake 0 
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 (button) folded before Flop
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: Maurício125 (big blind) collected (430)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+Seat 8: ohanaaa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358997784: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:51:04 BRT [2026/04/05 16:51:04 ET]
+Table '3989578117 3' 8-max Seat #4 is the button
+Seat 1: Caconde418 (2240 in chips) 
+Seat 2: scorza23 (2722 in chips) 
+Seat 3: Darknoss155 (2632 in chips) 
+Seat 4: ratrix2009 (994 in chips) 
+Seat 5: Maurício125 (1893 in chips) 
+Seat 6: MarcoMashine82 (1041 in chips) 
+Seat 8: ohanaaa (3782 in chips) 
+Caconde418: posts the ante 15
+scorza23: posts the ante 15
+Darknoss155: posts the ante 15
+ratrix2009: posts the ante 15
+Maurício125: posts the ante 15
+MarcoMashine82: posts the ante 15
+ohanaaa: posts the ante 15
+Maurício125: posts small blind 60
+MarcoMashine82: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 8h]
+ohanaaa: folds 
+Caconde418: folds 
+scorza23: folds 
+Darknoss155: raises 120 to 240
+ratrix2009: raises 739 to 979 and is all-in
+Maurício125: folds 
+MarcoMashine82: folds 
+Darknoss155: calls 739
+*** FLOP *** [Th Qs 6s]
+*** TURN *** [Th Qs 6s] [8s]
+*** RIVER *** [Th Qs 6s 8s] [Kc]
+*** SHOW DOWN ***
+Darknoss155: shows [Kd Qd] (two pair, Kings and Queens)
+ratrix2009: shows [Qc Ks] (two pair, Kings and Queens)
+Darknoss155 collected 1122 from pot
+ratrix2009 collected 1121 from pot
+*** SUMMARY ***
+Total pot 2243 | Rake 0 
+Board [Th Qs 6s 8s Kc]
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 showed [Kd Qd] and won (1122) with two pair, Kings and Queens
+Seat 4: ratrix2009 (button) showed [Qc Ks] and won (1121) with two pair, Kings and Queens
+Seat 5: Maurício125 (small blind) folded before Flop
+Seat 6: MarcoMashine82 (big blind) folded before Flop
+Seat 8: ohanaaa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359009528: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:51:47 BRT [2026/04/05 16:51:47 ET]
+Table '3989578117 3' 8-max Seat #5 is the button
+Seat 1: Caconde418 (2225 in chips) 
+Seat 2: scorza23 (2707 in chips) 
+Seat 3: Darknoss155 (2760 in chips) 
+Seat 4: ratrix2009 (1121 in chips) 
+Seat 5: Maurício125 (1818 in chips) 
+Seat 6: MarcoMashine82 (906 in chips) 
+Caconde418: posts the ante 15
+scorza23: posts the ante 15
+Darknoss155: posts the ante 15
+ratrix2009: posts the ante 15
+Maurício125: posts the ante 15
+MarcoMashine82: posts the ante 15
+MarcoMashine82: posts small blind 60
+Caconde418: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 2h]
+scorza23: folds 
+Darknoss155: folds 
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+Uncalled bet (60) returned to Caconde418
+Caconde418 collected 210 from pot
+Caconde418: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 1: Caconde418 (big blind) collected (210)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 (button) folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359016776: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:52:14 BRT [2026/04/05 16:52:14 ET]
+Table '3989578117 3' 8-max Seat #6 is the button
+Seat 1: Caconde418 (2360 in chips) 
+Seat 2: scorza23 (2692 in chips) 
+Seat 3: Darknoss155 (2745 in chips) 
+Seat 4: ratrix2009 (1106 in chips) 
+Seat 5: Maurício125 (1803 in chips) 
+Seat 6: MarcoMashine82 (831 in chips) 
+Caconde418: posts the ante 15
+scorza23: posts the ante 15
+Darknoss155: posts the ante 15
+ratrix2009: posts the ante 15
+Maurício125: posts the ante 15
+MarcoMashine82: posts the ante 15
+Caconde418: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 5h]
+Darknoss155: folds 
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+Caconde418: raises 120 to 240
+scorza23: calls 120
+*** FLOP *** [5s Ac 6h]
+Caconde418: bets 240
+scorza23: raises 600 to 840
+Caconde418: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 1050 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Board [5s Ac 6h]
+Seat 1: Caconde418 (small blind) folded on the Flop
+Seat 2: scorza23 (big blind) collected (1050)
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359027774: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:52:54 BRT [2026/04/05 16:52:54 ET]
+Table '3989578117 3' 8-max Seat #1 is the button
+Seat 1: Caconde418 (1865 in chips) 
+Seat 2: scorza23 (3247 in chips) 
+Seat 3: Darknoss155 (2730 in chips) 
+Seat 4: ratrix2009 (1091 in chips) 
+Seat 5: Maurício125 (1788 in chips) 
+Seat 6: MarcoMashine82 (816 in chips) 
+Caconde418: posts the ante 15
+scorza23: posts the ante 15
+Darknoss155: posts the ante 15
+ratrix2009: posts the ante 15
+Maurício125: posts the ante 15
+MarcoMashine82: posts the ante 15
+scorza23: posts small blind 60
+Darknoss155: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Th]
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+Caconde418: folds 
+scorza23: raises 120 to 240
+Darknoss155: calls 120
+*** FLOP *** [6h 9s Js]
+scorza23 has timed out
+scorza23: checks 
+Darknoss155: bets 182
+scorza23: calls 182
+*** TURN *** [6h 9s Js] [As]
+scorza23: bets 360
+Darknoss155: folds 
+Uncalled bet (360) returned to scorza23
+scorza23 collected 934 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 934 | Rake 0 
+Board [6h 9s Js As]
+Seat 1: Caconde418 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (934)
+Seat 3: Darknoss155 (big blind) folded on the Turn
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359053662: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:54:30 BRT [2026/04/05 16:54:30 ET]
+Table '3989578117 3' 8-max Seat #2 is the button
+Seat 1: Caconde418 (1850 in chips) 
+Seat 2: scorza23 (3744 in chips) 
+Seat 3: Darknoss155 (2293 in chips) 
+Seat 4: ratrix2009 (1076 in chips) 
+Seat 5: Maurício125 (1773 in chips) 
+Seat 6: MarcoMashine82 (801 in chips) 
+Caconde418: posts the ante 15
+scorza23: posts the ante 15
+Darknoss155: posts the ante 15
+ratrix2009: posts the ante 15
+Maurício125: posts the ante 15
+MarcoMashine82: posts the ante 15
+Darknoss155: posts small blind 60
+ratrix2009: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qc]
+Maurício125: folds 
+MarcoMashine82: folds 
+Caconde418: folds 
+scorza23: folds 
+Darknoss155: raises 120 to 240
+ratrix2009: calls 120
+*** FLOP *** [Kd Qs 2s]
+Darknoss155: bets 182
+ratrix2009: folds 
+Uncalled bet (182) returned to Darknoss155
+Darknoss155 collected 570 from pot
+Darknoss155: doesn't show hand 
+*** SUMMARY ***
+Total pot 570 | Rake 0 
+Board [Kd Qs 2s]
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Darknoss155 (small blind) collected (570)
+Seat 4: ratrix2009 (big blind) folded on the Flop
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359064130: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:55:08 BRT [2026/04/05 16:55:08 ET]
+Table '3989578117 3' 8-max Seat #3 is the button
+Seat 1: Caconde418 (1835 in chips) 
+Seat 2: scorza23 (3729 in chips) 
+Seat 3: Darknoss155 (2608 in chips) 
+Seat 4: ratrix2009 (821 in chips) 
+Seat 5: Maurício125 (1758 in chips) 
+Seat 6: MarcoMashine82 (786 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+ratrix2009: posts small blind 80
+Maurício125: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Jc]
+MarcoMashine82: folds 
+Caconde418: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+Darknoss155: raises 160 to 320
+ratrix2009: folds 
+Maurício125: folds 
+Uncalled bet (160) returned to Darknoss155
+Darknoss155 collected 520 from pot
+Darknoss155: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 (button) collected (520)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: Maurício125 (big blind) folded before Flop
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359119141: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:00:47 BRT [2026/04/05 17:00:47 ET]
+Table '3989578117 3' 8-max Seat #4 is the button
+Seat 1: Caconde418 (1815 in chips) 
+Seat 2: scorza23 (3709 in chips) 
+Seat 3: Darknoss155 (2948 in chips) 
+Seat 4: ratrix2009 (721 in chips) 
+Seat 5: Maurício125 (1578 in chips) 
+Seat 6: MarcoMashine82 (766 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+Maurício125: posts small blind 80
+MarcoMashine82: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 5h]
+Caconde418: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+Darknoss155: folds 
+ratrix2009: folds 
+Maurício125: raises 160 to 320
+MarcoMashine82: calls 160
+*** FLOP *** [Tc 2c Qc]
+Maurício125: checks 
+MarcoMashine82: checks 
+*** TURN *** [Tc 2c Qc] [As]
+Maurício125: checks 
+MarcoMashine82: bets 160
+Maurício125: calls 160
+*** RIVER *** [Tc 2c Qc As] [6d]
+Maurício125: bets 320
+MarcoMashine82: folds 
+Uncalled bet (320) returned to Maurício125
+Maurício125 collected 1080 from pot
+Maurício125: doesn't show hand 
+*** SUMMARY ***
+Total pot 1080 | Rake 0 
+Board [Tc 2c Qc As 6d]
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: Maurício125 (small blind) collected (1080)
+Seat 6: MarcoMashine82 (big blind) folded on the River
+
+
+
+PokerStars Hand #260359132896: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:01:53 BRT [2026/04/05 17:01:53 ET]
+Table '3989578117 3' 8-max Seat #5 is the button
+Seat 1: Caconde418 (1795 in chips) 
+Seat 2: scorza23 (3689 in chips) is sitting out
+Seat 3: Darknoss155 (2928 in chips) 
+Seat 4: ratrix2009 (701 in chips) 
+Seat 5: Maurício125 (2158 in chips) 
+Seat 6: MarcoMashine82 (266 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+MarcoMashine82: posts small blind 80
+Caconde418: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 9s]
+scorza23: folds 
+Darknoss155: folds 
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: calls 80
+Caconde418: raises 1615 to 1775 and is all-in
+MarcoMashine82: calls 86 and is all-in
+Uncalled bet (1529) returned to Caconde418
+*** FLOP *** [9c 3h 6h]
+*** TURN *** [9c 3h 6h] [6c]
+*** RIVER *** [9c 3h 6h 6c] [8d]
+*** SHOW DOWN ***
+MarcoMashine82: shows [Ks 8s] (two pair, Eights and Sixes)
+Caconde418: shows [Ad 3d] (two pair, Sixes and Threes)
+MarcoMashine82 collected 612 from pot
+*** SUMMARY ***
+Total pot 612 | Rake 0 
+Board [9c 3h 6h 6c 8d]
+Seat 1: Caconde418 (big blind) showed [Ad 3d] and lost with two pair, Sixes and Threes
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 (button) folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 (small blind) showed [Ks 8s] and won (612) with two pair, Eights and Sixes
+
+
+
+PokerStars Hand #260359140981: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:02:23 BRT [2026/04/05 17:02:23 ET]
+Table '3989578117 3' 8-max Seat #6 is the button
+Seat 1: Caconde418 (1529 in chips) 
+Seat 2: scorza23 (3669 in chips) is sitting out
+Seat 3: Darknoss155 (2908 in chips) 
+Seat 4: ratrix2009 (681 in chips) 
+Seat 5: Maurício125 (2138 in chips) 
+Seat 6: MarcoMashine82 (612 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+Caconde418: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 3d]
+Darknoss155: folds 
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+Caconde418: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 280 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: Caconde418 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (280)
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359143775: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:02:35 BRT [2026/04/05 17:02:35 ET]
+Table '3989578117 3' 8-max Seat #1 is the button
+Seat 1: Caconde418 (1429 in chips) 
+Seat 2: scorza23 (3849 in chips) is sitting out
+Seat 3: Darknoss155 (2888 in chips) 
+Seat 4: ratrix2009 (661 in chips) 
+Seat 5: Maurício125 (2118 in chips) 
+Seat 6: MarcoMashine82 (592 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+scorza23: posts small blind 80
+Darknoss155: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Ad]
+ratrix2009: raises 481 to 641 and is all-in
+Maurício125: folds 
+MarcoMashine82: folds 
+Caconde418: folds 
+scorza23: folds 
+Darknoss155: folds 
+Uncalled bet (481) returned to ratrix2009
+ratrix2009 collected 520 from pot
+ratrix2009: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: Caconde418 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Darknoss155 (big blind) folded before Flop
+Seat 4: ratrix2009 collected (520)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359149174: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:02:56 BRT [2026/04/05 17:02:56 ET]
+Table '3989578117 3' 8-max Seat #2 is the button
+Seat 1: Caconde418 (1409 in chips) 
+Seat 2: scorza23 (3749 in chips) is sitting out
+Seat 3: Darknoss155 (2708 in chips) 
+Seat 4: ratrix2009 (1001 in chips) 
+Seat 5: Maurício125 (2098 in chips) 
+Seat 6: MarcoMashine82 (572 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+Darknoss155: posts small blind 80
+ratrix2009: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3d]
+Maurício125: folds 
+MarcoMashine82: folds 
+Caconde418: raises 160 to 320
+scorza23: folds 
+Darknoss155: folds 
+ratrix2009: folds 
+Uncalled bet (160) returned to Caconde418
+Caconde418 collected 520 from pot
+Caconde418: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: Caconde418 collected (520)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Darknoss155 (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359160963: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:03:38 BRT [2026/04/05 17:03:38 ET]
+Table '3989578117 3' 8-max Seat #3 is the button
+Seat 1: Caconde418 (1749 in chips) 
+Seat 2: scorza23 (3729 in chips) is sitting out
+Seat 3: Darknoss155 (2608 in chips) 
+Seat 4: ratrix2009 (821 in chips) 
+Seat 5: Maurício125 (2078 in chips) 
+Seat 6: MarcoMashine82 (552 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+ratrix2009: posts small blind 80
+Maurício125: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 8s]
+MarcoMashine82: folds 
+Caconde418: folds 
+scorza23: folds 
+Darknoss155: raises 160 to 320
+ratrix2009: folds 
+Maurício125: calls 160
+*** FLOP *** [Ah Jc 4h]
+Maurício125: checks 
+Darknoss155: bets 269
+Maurício125: folds 
+Uncalled bet (269) returned to Darknoss155
+Darknoss155 collected 840 from pot
+Darknoss155: doesn't show hand 
+*** SUMMARY ***
+Total pot 840 | Rake 0 
+Board [Ah Jc 4h]
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 (button) collected (840)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: Maurício125 (big blind) folded on the Flop
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359172657: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:04:22 BRT [2026/04/05 17:04:22 ET]
+Table '3989578117 3' 8-max Seat #4 is the button
+Seat 1: Caconde418 (1729 in chips) 
+Seat 2: scorza23 (3709 in chips) is sitting out
+Seat 3: Darknoss155 (3108 in chips) 
+Seat 4: ratrix2009 (721 in chips) 
+Seat 5: Maurício125 (1738 in chips) 
+Seat 6: MarcoMashine82 (532 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+Maurício125: posts small blind 80
+MarcoMashine82: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 6c]
+Caconde418: folds 
+scorza23: folds 
+Darknoss155: folds 
+ratrix2009: raises 541 to 701 and is all-in
+Maurício125: folds 
+MarcoMashine82: folds 
+Uncalled bet (541) returned to ratrix2009
+ratrix2009 collected 520 from pot
+ratrix2009: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) collected (520)
+Seat 5: Maurício125 (small blind) folded before Flop
+Seat 6: MarcoMashine82 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260359177125: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:04:38 BRT [2026/04/05 17:04:38 ET]
+Table '3989578117 3' 8-max Seat #5 is the button
+Seat 1: Caconde418 (1709 in chips) 
+Seat 2: scorza23 (3689 in chips) is sitting out
+Seat 3: Darknoss155 (3088 in chips) 
+Seat 4: ratrix2009 (1061 in chips) 
+Seat 5: Maurício125 (1638 in chips) 
+Seat 6: MarcoMashine82 (352 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+MarcoMashine82: posts small blind 80
+Caconde418: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Th]
+scorza23: folds 
+Darknoss155: raises 160 to 320
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+Caconde418: folds 
+Uncalled bet (160) returned to Darknoss155
+Darknoss155 collected 520 from pot
+Darknoss155: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: Caconde418 (big blind) folded before Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 collected (520)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 (button) folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359182194: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:04:56 BRT [2026/04/05 17:04:56 ET]
+Table '3989578117 3' 8-max Seat #6 is the button
+Seat 1: Caconde418 (1529 in chips) 
+Seat 2: scorza23 (3669 in chips) is sitting out
+Seat 3: Darknoss155 (3428 in chips) 
+Seat 4: ratrix2009 (1041 in chips) 
+Seat 5: Maurício125 (1618 in chips) 
+Seat 6: MarcoMashine82 (252 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+Caconde418: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 5s]
+Darknoss155: raises 160 to 320
+ratrix2009: folds 
+Maurício125: folds 
+Soulman1927 is disconnected 
+MarcoMashine82 has timed out
+MarcoMashine82: folds 
+MarcoMashine82 is sitting out
+Caconde418: folds 
+scorza23: folds 
+Uncalled bet (160) returned to Darknoss155
+MarcoMashine82 has returned
+Darknoss155 collected 520 from pot
+Darknoss155: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: Caconde418 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Darknoss155 collected (520)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359191646: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:05:31 BRT [2026/04/05 17:05:31 ET]
+Table '3989578117 3' 8-max Seat #1 is the button
+Seat 1: Caconde418 (1429 in chips) 
+Seat 2: scorza23 (3489 in chips) is sitting out
+Seat 3: Darknoss155 (3768 in chips) 
+Seat 4: ratrix2009 (1021 in chips) 
+Seat 5: Maurício125 (1598 in chips) 
+Seat 6: MarcoMashine82 (232 in chips) 
+Seat 7: heyjoeee (3647 in chips) 
+Seat 8: Soulman1927 (2220 in chips) 
+Caconde418: posts the ante 20
+scorza23: posts the ante 20
+Darknoss155: posts the ante 20
+ratrix2009: posts the ante 20
+Maurício125: posts the ante 20
+MarcoMashine82: posts the ante 20
+heyjoeee: posts the ante 20
+Soulman1927: posts the ante 20
+scorza23: posts small blind 80
+Darknoss155: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 9s]
+ratrix2009: folds 
+Maurício125: folds 
+MarcoMashine82: folds 
+heyjoeee: calls 160
+Soulman1927: folds 
+Caconde418: raises 1249 to 1409 and is all-in
+scorza23: folds 
+Darknoss155: folds 
+heyjoeee: folds 
+Uncalled bet (1249) returned to Caconde418
+Caconde418 collected 720 from pot
+Caconde418: doesn't show hand 
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Seat 1: Caconde418 (button) collected (720)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Darknoss155 (big blind) folded before Flop
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+Seat 7: heyjoeee folded before Flop
+Seat 8: Soulman1927 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359200698: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:06:04 BRT [2026/04/05 17:06:04 ET]
+Table '3989578117 3' 8-max Seat #2 is the button
+Seat 1: Caconde418 (1969 in chips) 
+Seat 2: scorza23 (3389 in chips) is sitting out
+Seat 3: Darknoss155 (3588 in chips) 
+Seat 4: ratrix2009 (1001 in chips) 
+Seat 5: Maurício125 (1578 in chips) 
+Seat 6: MarcoMashine82 (212 in chips) 
+Seat 7: heyjoeee (3467 in chips) 
+Seat 8: Soulman1927 (2200 in chips) 
+Caconde418: posts the ante 25
+scorza23: posts the ante 25
+Darknoss155: posts the ante 25
+ratrix2009: posts the ante 25
+Maurício125: posts the ante 25
+MarcoMashine82: posts the ante 25
+heyjoeee: posts the ante 25
+Soulman1927: posts the ante 25
+Darknoss155: posts small blind 100
+ratrix2009: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 2s]
+Maurício125: folds 
+scorza23 has returned
+MarcoMashine82: folds 
+heyjoeee: folds 
+Soulman1927: folds 
+Caconde418: folds 
+heyjoeee is disconnected 
+heyjoeee is disconnected 
+scorza23: folds 
+Darknoss155: raises 3363 to 3563 and is all-in
+ratrix2009: folds 
+Uncalled bet (3363) returned to Darknoss155
+Darknoss155 collected 600 from pot
+Darknoss155: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Darknoss155 (small blind) collected (600)
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 6: MarcoMashine82 folded before Flop (didn't bet)
+Seat 7: heyjoeee folded before Flop (didn't bet)
+Seat 8: Soulman1927 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359210474: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:06:40 BRT [2026/04/05 17:06:40 ET]
+Table '3989578117 3' 8-max Seat #3 is the button
+Seat 1: Caconde418 (1944 in chips) 
+Seat 2: scorza23 (3364 in chips) 
+Seat 3: Darknoss155 (3963 in chips) 
+Seat 4: ratrix2009 (776 in chips) 
+Seat 5: Maurício125 (1553 in chips) 
+Seat 6: MarcoMashine82 (187 in chips) 
+Seat 7: heyjoeee (3442 in chips) 
+Seat 8: Soulman1927 (2175 in chips) 
+Caconde418: posts the ante 25
+scorza23: posts the ante 25
+Darknoss155: posts the ante 25
+ratrix2009: posts the ante 25
+Maurício125: posts the ante 25
+MarcoMashine82: posts the ante 25
+heyjoeee: posts the ante 25
+Soulman1927: posts the ante 25
+ratrix2009: posts small blind 100
+Maurício125: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 6c]
+MarcoMashine82: calls 162 and is all-in
+heyjoeee: folds 
+Soulman1927: folds 
+Caconde418: folds 
+scorza23: folds 
+Darknoss155: folds 
+ratrix2009: folds 
+Uncalled bet (38) returned to Maurício125
+*** FLOP *** [8h Th Jc]
+*** TURN *** [8h Th Jc] [Jh]
+*** RIVER *** [8h Th Jc Jh] [7c]
+*** SHOW DOWN ***
+Maurício125: shows [Tc 9d] (a straight, Seven to Jack)
+MarcoMashine82: shows [8c Ah] (two pair, Jacks and Eights)
+Maurício125 collected 624 from pot
+MarcoMashine82 finished the tournament in 15th place
+*** SUMMARY ***
+Total pot 624 | Rake 0 
+Board [8h Th Jc Jh 7c]
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: Maurício125 (big blind) showed [Tc 9d] and won (624) with a straight, Seven to Jack
+Seat 6: MarcoMashine82 showed [8c Ah] and lost with two pair, Jacks and Eights
+Seat 7: heyjoeee folded before Flop (didn't bet)
+Seat 8: Soulman1927 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359221179: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:07:20 BRT [2026/04/05 17:07:20 ET]
+Table '3989578117 3' 8-max Seat #4 is the button
+Seat 1: Caconde418 (1919 in chips) 
+Seat 2: scorza23 (3339 in chips) 
+Seat 3: Darknoss155 (3938 in chips) 
+Seat 4: ratrix2009 (651 in chips) 
+Seat 5: Maurício125 (1990 in chips) 
+Seat 7: heyjoeee (3417 in chips) 
+Seat 8: Soulman1927 (2150 in chips) 
+Caconde418: posts the ante 25
+scorza23: posts the ante 25
+Darknoss155: posts the ante 25
+ratrix2009: posts the ante 25
+Maurício125: posts the ante 25
+heyjoeee: posts the ante 25
+Soulman1927: posts the ante 25
+Maurício125: posts small blind 100
+heyjoeee: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [As Jc]
+Soulman1927: folds 
+Caconde418: folds 
+scorza23: raises 200 to 400
+Darknoss155: calls 400
+ratrix2009: folds 
+Maurício125: folds 
+heyjoeee: calls 200
+*** FLOP *** [5c 8d 9c]
+heyjoeee: bets 2992 and is all-in
+scorza23: folds 
+Darknoss155: calls 2992
+*** TURN *** [5c 8d 9c] [Td]
+*** RIVER *** [5c 8d 9c Td] [8s]
+*** SHOW DOWN ***
+heyjoeee: shows [Ah 9d] (two pair, Nines and Eights)
+Darknoss155: shows [9h 9s] (a full house, Nines full of Eights)
+Darknoss155 collected 7459 from pot
+heyjoeee finished the tournament in 14th place
+*** SUMMARY ***
+Total pot 7459 | Rake 0 
+Board [5c 8d 9c Td 8s]
+Seat 1: Caconde418 folded before Flop (didn't bet)
+Seat 2: scorza23 folded on the Flop
+Seat 3: Darknoss155 showed [9h 9s] and won (7459) with a full house, Nines full of Eights
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: Maurício125 (small blind) folded before Flop
+Seat 7: heyjoeee (big blind) showed [Ah 9d] and lost with two pair, Nines and Eights
+Seat 8: Soulman1927 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359238660: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:08:24 BRT [2026/04/05 17:08:24 ET]
+Table '3989578117 3' 8-max Seat #5 is the button
+Seat 1: Caconde418 (1894 in chips) 
+Seat 2: scorza23 (2914 in chips) 
+Seat 3: Darknoss155 (7980 in chips) 
+Seat 4: ratrix2009 (626 in chips) 
+Seat 5: Maurício125 (1865 in chips) 
+Seat 8: Soulman1927 (2125 in chips) 
+Caconde418: posts the ante 25
+scorza23: posts the ante 25
+Darknoss155: posts the ante 25
+ratrix2009: posts the ante 25
+Maurício125: posts the ante 25
+Soulman1927: posts the ante 25
+Soulman1927: posts small blind 100
+Caconde418: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Ts]
+scorza23: folds 
+Darknoss155: raises 200 to 400
+ratrix2009: folds 
+Maurício125: folds 
+Soulman1927: folds 
+Caconde418: raises 1469 to 1869 and is all-in
+Darknoss155: folds 
+Uncalled bet (1469) returned to Caconde418
+Caconde418 collected 1050 from pot
+Caconde418: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Seat 1: Caconde418 (big blind) collected (1050)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Darknoss155 folded before Flop
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 (button) folded before Flop (didn't bet)
+Seat 8: Soulman1927 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359247145: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:08:56 BRT [2026/04/05 17:08:56 ET]
+Table '3989578117 3' 8-max Seat #8 is the button
+Seat 1: Caconde418 (2519 in chips) 
+Seat 2: scorza23 (2889 in chips) 
+Seat 3: Darknoss155 (7555 in chips) 
+Seat 4: ratrix2009 (601 in chips) 
+Seat 5: Maurício125 (1840 in chips) 
+Seat 8: Soulman1927 (2000 in chips) 
+Caconde418: posts the ante 25
+scorza23: posts the ante 25
+Darknoss155: posts the ante 25
+ratrix2009: posts the ante 25
+Maurício125: posts the ante 25
+Soulman1927: posts the ante 25
+Caconde418: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Kd]
+Darknoss155: folds 
+ratrix2009: folds 
+Maurício125: folds 
+Soulman1927: folds 
+Caconde418: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 350 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: Caconde418 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (350)
+Seat 3: Darknoss155 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 8: Soulman1927 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359253342: Tournament #3989578117, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:09:19 BRT [2026/04/05 17:09:19 ET]
+Table '3989578117 3' 8-max Seat #1 is the button
+Seat 1: Caconde418 (2394 in chips) 
+Seat 2: scorza23 (3114 in chips) 
+Seat 3: Darknoss155 (7530 in chips) 
+Seat 4: ratrix2009 (576 in chips) 
+Seat 5: Maurício125 (1815 in chips) 
+Seat 8: Soulman1927 (1975 in chips) 
+Caconde418: posts the ante 25
+scorza23: posts the ante 25
+Darknoss155: posts the ante 25
+ratrix2009: posts the ante 25
+Maurício125: posts the ante 25
+Soulman1927: posts the ante 25
+scorza23: posts small blind 100
+Darknoss155: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 8h]
+ratrix2009: folds 
+Maurício125: folds 
+Soulman1927: folds 
+Caconde418: folds 
+scorza23: raises 400 to 600
+Darknoss155: calls 400
+*** FLOP *** [Kc 3d 2c]
+scorza23: bets 600
+Darknoss155: calls 600
+*** TURN *** [Kc 3d 2c] [Jc]
+scorza23: bets 1889 and is all-in
+Darknoss155: calls 1889
+*** RIVER *** [Kc 3d 2c Jc] [Js]
+*** SHOW DOWN ***
+scorza23: shows [3s 8h] (two pair, Jacks and Threes)
+Darknoss155: shows [6c 7c] (a flush, King high)
+Darknoss155 collected 6328 from pot
+scorza23 finished the tournament in 11th place
+*** SUMMARY ***
+Total pot 6328 | Rake 0 
+Board [Kc 3d 2c Jc Js]
+Seat 1: Caconde418 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) showed [3s 8h] and lost with two pair, Jacks and Threes
+Seat 3: Darknoss155 (big blind) showed [6c 7c] and won (6328) with a flush, King high
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Maurício125 folded before Flop (didn't bet)
+Seat 8: Soulman1927 folded before Flop (didn't bet)
+
+
+

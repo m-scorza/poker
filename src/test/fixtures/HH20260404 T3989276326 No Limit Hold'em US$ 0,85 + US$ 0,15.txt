@@ -1,0 +1,2664 @@
+﻿PokerStars Hand #260344865692: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:07:18 UTC [2026/04/04 15:07:18 ET]
+Table '3989276326 1' 9-max Seat #1 is the button
+Seat 1: ItfahKenichz (1500 in chips) 
+Seat 2: devilfiesch (1500 in chips) 
+Seat 3: Fab1ano (1500 in chips) 
+Seat 4: rikchap (1500 in chips) 
+Seat 5: FURIOSAMG (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: SiddartaGautama (1500 in chips) 
+Seat 8: chumbrilho (1500 in chips) 
+Seat 9: Rigno1 (1500 in chips) 
+ItfahKenichz: posts the ante 3
+devilfiesch: posts the ante 3
+Fab1ano: posts the ante 3
+rikchap: posts the ante 3
+FURIOSAMG: posts the ante 3
+scorza23: posts the ante 3
+SiddartaGautama: posts the ante 3
+chumbrilho: posts the ante 3
+Rigno1: posts the ante 3
+devilfiesch: posts small blind 10
+Fab1ano: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 4s]
+rikchap: folds 
+FURIOSAMG: calls 20
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: checks 
+*** FLOP *** [5c 2d 5s]
+Fab1ano: checks 
+FURIOSAMG: checks 
+*** TURN *** [5c 2d 5s] [2s]
+Fab1ano: checks 
+FURIOSAMG: checks 
+*** RIVER *** [5c 2d 5s 2s] [5d]
+Fab1ano: checks 
+FURIOSAMG: checks 
+*** SHOW DOWN ***
+Fab1ano: shows [6c 9h] (a full house, Fives full of Deuces)
+FURIOSAMG: shows [Jh Ac] (a full house, Fives full of Deuces)
+Fab1ano collected 39 from pot
+FURIOSAMG collected 38 from pot
+*** SUMMARY ***
+Total pot 77 | Rake 0 
+Board [5c 2d 5s 2s 5d]
+Seat 1: ItfahKenichz (button) folded before Flop (didn't bet)
+Seat 2: devilfiesch (small blind) folded before Flop
+Seat 3: Fab1ano (big blind) showed [6c 9h] and won (39) with a full house, Fives full of Deuces
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG showed [Jh Ac] and won (38) with a full house, Fives full of Deuces
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344874336: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:07:56 UTC [2026/04/04 15:07:56 ET]
+Table '3989276326 1' 9-max Seat #2 is the button
+Seat 1: ItfahKenichz (1497 in chips) 
+Seat 2: devilfiesch (1487 in chips) 
+Seat 3: Fab1ano (1516 in chips) 
+Seat 4: rikchap (1497 in chips) 
+Seat 5: FURIOSAMG (1515 in chips) 
+Seat 6: scorza23 (1497 in chips) 
+Seat 7: SiddartaGautama (1497 in chips) 
+Seat 8: chumbrilho (1497 in chips) 
+Seat 9: Rigno1 (1497 in chips) 
+ItfahKenichz: posts the ante 3
+devilfiesch: posts the ante 3
+Fab1ano: posts the ante 3
+rikchap: posts the ante 3
+FURIOSAMG: posts the ante 3
+scorza23: posts the ante 3
+SiddartaGautama: posts the ante 3
+chumbrilho: posts the ante 3
+Rigno1: posts the ante 3
+Fab1ano: posts small blind 10
+rikchap: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 8s]
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: calls 20
+ItfahKenichz: folds 
+devilfiesch: raises 40 to 60
+Fab1ano: folds 
+rikchap: folds 
+Rigno1: calls 40
+*** FLOP *** [Ks Jh Ah]
+Rigno1: bets 89
+devilfiesch: raises 89 to 178
+Rigno1: calls 89
+*** TURN *** [Ks Jh Ah] [5d]
+Rigno1: checks 
+devilfiesch: bets 267
+Rigno1: calls 267
+*** RIVER *** [Ks Jh Ah 5d] [4s]
+Rigno1: bets 989 and is all-in
+devilfiesch: calls 979 and is all-in
+Uncalled bet (10) returned to Rigno1
+*** SHOW DOWN ***
+Rigno1: shows [6d Ac] (a pair of Aces)
+devilfiesch: shows [As Ad] (three of a kind, Aces)
+devilfiesch collected 3025 from pot
+*** SUMMARY ***
+Total pot 3025 | Rake 0 
+Board [Ks Jh Ah 5d 4s]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch (button) showed [As Ad] and won (3025) with three of a kind, Aces
+Seat 3: Fab1ano (small blind) folded before Flop
+Seat 4: rikchap (big blind) folded before Flop
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 showed [6d Ac] and lost with a pair of Aces
+
+
+
+PokerStars Hand #260344900504: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:09:51 UTC [2026/04/04 15:09:51 ET]
+Table '3989276326 1' 9-max Seat #3 is the button
+Seat 1: ItfahKenichz (1494 in chips) 
+Seat 2: devilfiesch (3025 in chips) 
+Seat 3: Fab1ano (1503 in chips) 
+Seat 4: rikchap (1474 in chips) 
+Seat 5: FURIOSAMG (1512 in chips) 
+Seat 6: scorza23 (1494 in chips) 
+Seat 7: SiddartaGautama (1494 in chips) 
+Seat 8: chumbrilho (1494 in chips) 
+Seat 9: Rigno1 (10 in chips) 
+ItfahKenichz: posts the ante 3
+devilfiesch: posts the ante 3
+Fab1ano: posts the ante 3
+rikchap: posts the ante 3
+FURIOSAMG: posts the ante 3
+scorza23: posts the ante 3
+SiddartaGautama: posts the ante 3
+chumbrilho: posts the ante 3
+Rigno1: posts the ante 3
+rikchap: posts small blind 10
+FURIOSAMG: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Qh]
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: calls 7 and is all-in
+ItfahKenichz: raises 20 to 40
+devilfiesch: calls 40
+Fab1ano: folds 
+rikchap: calls 30
+FURIOSAMG: calls 20
+*** FLOP *** [9s 6c Th]
+rikchap: checks 
+FURIOSAMG: checks 
+ItfahKenichz: checks 
+devilfiesch: bets 60
+rikchap: calls 60
+FURIOSAMG: calls 60
+ItfahKenichz: calls 60
+*** TURN *** [9s 6c Th] [Ac]
+rikchap: checks 
+FURIOSAMG: checks 
+ItfahKenichz: checks 
+devilfiesch: checks 
+*** RIVER *** [9s 6c Th Ac] [4c]
+rikchap: checks 
+FURIOSAMG: checks 
+ItfahKenichz: bets 217
+devilfiesch: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+Uncalled bet (217) returned to ItfahKenichz
+*** SHOW DOWN ***
+ItfahKenichz: shows [Js 7s] (high card Ace)
+ItfahKenichz collected 372 from side pot
+Rigno1: shows [9h 4h] (two pair, Nines and Fours)
+Rigno1 collected 62 from main pot
+*** SUMMARY ***
+Total pot 434 Main pot 62. Side pot 372. | Rake 0 
+Board [9s 6c Th Ac 4c]
+Seat 1: ItfahKenichz showed [Js 7s] and won (372) with high card Ace
+Seat 2: devilfiesch folded on the River
+Seat 3: Fab1ano (button) folded before Flop (didn't bet)
+Seat 4: rikchap (small blind) folded on the River
+Seat 5: FURIOSAMG (big blind) folded on the River
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 showed [9h 4h] and won (62) with two pair, Nines and Fours
+
+
+
+PokerStars Hand #260344929963: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:12:01 UTC [2026/04/04 15:12:01 ET]
+Table '3989276326 1' 9-max Seat #4 is the button
+Seat 1: ItfahKenichz (1763 in chips) 
+Seat 2: devilfiesch (2922 in chips) 
+Seat 3: Fab1ano (1500 in chips) 
+Seat 4: rikchap (1371 in chips) 
+Seat 5: FURIOSAMG (1409 in chips) 
+Seat 6: scorza23 (1491 in chips) 
+Seat 7: SiddartaGautama (1491 in chips) 
+Seat 8: chumbrilho (1491 in chips) 
+Seat 9: Rigno1 (62 in chips) 
+ItfahKenichz: posts the ante 3
+devilfiesch: posts the ante 3
+Fab1ano: posts the ante 3
+rikchap: posts the ante 3
+FURIOSAMG: posts the ante 3
+scorza23: posts the ante 3
+SiddartaGautama: posts the ante 3
+chumbrilho: posts the ante 3
+Rigno1: posts the ante 3
+FURIOSAMG: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 5c]
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: calls 20
+ItfahKenichz: raises 97 to 117
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: calls 107
+scorza23: calls 97
+Rigno1: calls 39 and is all-in
+*** FLOP *** [Th 7h 6h]
+FURIOSAMG: checks 
+scorza23: checks 
+ItfahKenichz: bets 437
+FURIOSAMG: folds 
+scorza23: folds 
+Uncalled bet (437) returned to ItfahKenichz
+*** TURN *** [Th 7h 6h] [2h]
+*** RIVER *** [Th 7h 6h 2h] [4d]
+*** SHOW DOWN ***
+ItfahKenichz: shows [Qc Qs] (a pair of Queens)
+ItfahKenichz collected 174 from side pot
+Rigno1: shows [3h 8h] (a flush, Ten high)
+Rigno1 collected 263 from main pot
+*** SUMMARY ***
+Total pot 437 Main pot 263. Side pot 174. | Rake 0 
+Board [Th 7h 6h 2h 4d]
+Seat 1: ItfahKenichz showed [Qc Qs] and won (174) with a pair of Queens
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap (button) folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 showed [3h 8h] and won (263) with a flush, Ten high
+
+
+
+PokerStars Hand #260344949863: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:13:30 UTC [2026/04/04 15:13:30 ET]
+Table '3989276326 1' 9-max Seat #5 is the button
+Seat 1: ItfahKenichz (1817 in chips) 
+Seat 2: devilfiesch (2919 in chips) 
+Seat 3: Fab1ano (1497 in chips) 
+Seat 4: rikchap (1368 in chips) 
+Seat 5: FURIOSAMG (1289 in chips) 
+Seat 6: scorza23 (1371 in chips) 
+Seat 7: SiddartaGautama (1488 in chips) 
+Seat 8: chumbrilho (1488 in chips) 
+Seat 9: Rigno1 (263 in chips) 
+ItfahKenichz: posts the ante 4
+devilfiesch: posts the ante 4
+Fab1ano: posts the ante 4
+rikchap: posts the ante 4
+FURIOSAMG: posts the ante 4
+scorza23: posts the ante 4
+SiddartaGautama: posts the ante 4
+chumbrilho: posts the ante 4
+Rigno1: posts the ante 4
+scorza23: posts small blind 15
+SiddartaGautama: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9h]
+chumbrilho: raises 30 to 60
+Rigno1: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: calls 60
+scorza23: calls 45
+SiddartaGautama: folds 
+*** FLOP *** [9d Kh 5h]
+scorza23: checks 
+chumbrilho: checks 
+FURIOSAMG: checks 
+*** TURN *** [9d Kh 5h] [Js]
+scorza23: bets 60
+chumbrilho: calls 60
+FURIOSAMG: folds 
+*** RIVER *** [9d Kh 5h Js] [Qd]
+scorza23: checks 
+chumbrilho: bets 121
+scorza23: folds 
+Uncalled bet (121) returned to chumbrilho
+chumbrilho collected 366 from pot
+chumbrilho: doesn't show hand 
+*** SUMMARY ***
+Total pot 366 | Rake 0 
+Board [9d Kh 5h Js Qd]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (button) folded on the Turn
+Seat 6: scorza23 (small blind) folded on the River
+Seat 7: SiddartaGautama (big blind) folded before Flop
+Seat 8: chumbrilho collected (366)
+Seat 9: Rigno1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344968462: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:14:51 UTC [2026/04/04 15:14:51 ET]
+Table '3989276326 1' 9-max Seat #6 is the button
+Seat 1: ItfahKenichz (1813 in chips) 
+Seat 2: devilfiesch (2915 in chips) 
+Seat 3: Fab1ano (1493 in chips) 
+Seat 4: rikchap (1364 in chips) 
+Seat 5: FURIOSAMG (1225 in chips) 
+Seat 6: scorza23 (1247 in chips) 
+Seat 7: SiddartaGautama (1454 in chips) 
+Seat 8: chumbrilho (1730 in chips) 
+Seat 9: Rigno1 (259 in chips) 
+ItfahKenichz: posts the ante 4
+devilfiesch: posts the ante 4
+Fab1ano: posts the ante 4
+rikchap: posts the ante 4
+FURIOSAMG: posts the ante 4
+scorza23: posts the ante 4
+SiddartaGautama: posts the ante 4
+chumbrilho: posts the ante 4
+Rigno1: posts the ante 4
+SiddartaGautama: posts small blind 15
+chumbrilho: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Kc]
+Rigno1: calls 30
+ItfahKenichz: folds 
+devilfiesch: calls 30
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: raises 120 to 150
+Rigno1: folds 
+devilfiesch: folds 
+Uncalled bet (120) returned to chumbrilho
+chumbrilho collected 141 from pot
+chumbrilho: doesn't show hand 
+*** SUMMARY ***
+Total pot 141 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (small blind) folded before Flop
+Seat 8: chumbrilho (big blind) collected (141)
+Seat 9: Rigno1 folded before Flop
+
+
+
+PokerStars Hand #260344981718: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:15:49 UTC [2026/04/04 15:15:49 ET]
+Table '3989276326 1' 9-max Seat #7 is the button
+Seat 1: ItfahKenichz (1809 in chips) 
+Seat 2: devilfiesch (2881 in chips) 
+Seat 3: Fab1ano (1489 in chips) 
+Seat 4: rikchap (1360 in chips) 
+Seat 5: FURIOSAMG (1221 in chips) 
+Seat 6: scorza23 (1243 in chips) 
+Seat 7: SiddartaGautama (1435 in chips) 
+Seat 8: chumbrilho (1837 in chips) 
+Seat 9: Rigno1 (225 in chips) 
+ItfahKenichz: posts the ante 4
+devilfiesch: posts the ante 4
+Fab1ano: posts the ante 4
+rikchap: posts the ante 4
+FURIOSAMG: posts the ante 4
+scorza23: posts the ante 4
+SiddartaGautama: posts the ante 4
+chumbrilho: posts the ante 4
+Rigno1: posts the ante 4
+chumbrilho: posts small blind 15
+Rigno1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ad]
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: raises 30 to 60
+rikchap: calls 60
+FURIOSAMG: folds 
+scorza23: calls 60
+SiddartaGautama has timed out
+SiddartaGautama: folds 
+SiddartaGautama is sitting out
+chumbrilho: folds 
+SiddartaGautama has returned
+Rigno1: calls 30
+*** FLOP *** [5d Ks As]
+Rigno1: checks 
+Fab1ano: checks 
+rikchap: checks 
+scorza23: bets 90
+Rigno1: folds 
+Fab1ano: folds 
+rikchap: calls 90
+*** TURN *** [5d Ks As] [3c]
+rikchap: checks 
+scorza23: bets 90
+rikchap: calls 90
+*** RIVER *** [5d Ks As 3c] [7c]
+rikchap: checks 
+scorza23: bets 651
+rikchap: folds 
+Uncalled bet (651) returned to scorza23
+scorza23 collected 651 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 651 | Rake 0 
+Board [5d Ks As 3c 7c]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded on the Flop
+Seat 4: rikchap folded on the River
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 collected (651)
+Seat 7: SiddartaGautama (button) folded before Flop (didn't bet)
+Seat 8: chumbrilho (small blind) folded before Flop
+Seat 9: Rigno1 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260345010569: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:17:57 UTC [2026/04/04 15:17:57 ET]
+Table '3989276326 1' 9-max Seat #8 is the button
+Seat 1: ItfahKenichz (1805 in chips) 
+Seat 2: devilfiesch (2877 in chips) 
+Seat 3: Fab1ano (1425 in chips) 
+Seat 4: rikchap (1116 in chips) 
+Seat 5: FURIOSAMG (1217 in chips) 
+Seat 6: scorza23 (1650 in chips) 
+Seat 7: SiddartaGautama (1431 in chips) 
+Seat 8: chumbrilho (1818 in chips) 
+Seat 9: Rigno1 (161 in chips) 
+ItfahKenichz: posts the ante 6
+devilfiesch: posts the ante 6
+Fab1ano: posts the ante 6
+rikchap: posts the ante 6
+FURIOSAMG: posts the ante 6
+scorza23: posts the ante 6
+SiddartaGautama: posts the ante 6
+chumbrilho: posts the ante 6
+Rigno1: posts the ante 6
+Rigno1: posts small blind 25
+ItfahKenichz: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 8c]
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: raises 150 to 200
+Rigno1: folds 
+ItfahKenichz: folds 
+Uncalled bet (150) returned to chumbrilho
+chumbrilho collected 179 from pot
+chumbrilho: doesn't show hand 
+*** SUMMARY ***
+Total pot 179 | Rake 0 
+Seat 1: ItfahKenichz (big blind) folded before Flop
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho (button) collected (179)
+Seat 9: Rigno1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345020239: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:18:40 UTC [2026/04/04 15:18:40 ET]
+Table '3989276326 1' 9-max Seat #9 is the button
+Seat 1: ItfahKenichz (1749 in chips) 
+Seat 2: devilfiesch (2871 in chips) 
+Seat 3: Fab1ano (1419 in chips) 
+Seat 4: rikchap (1110 in chips) 
+Seat 5: FURIOSAMG (1211 in chips) 
+Seat 6: scorza23 (1644 in chips) 
+Seat 7: SiddartaGautama (1425 in chips) 
+Seat 8: chumbrilho (1941 in chips) 
+Seat 9: Rigno1 (130 in chips) 
+ItfahKenichz: posts the ante 6
+devilfiesch: posts the ante 6
+Fab1ano: posts the ante 6
+rikchap: posts the ante 6
+FURIOSAMG: posts the ante 6
+scorza23: posts the ante 6
+SiddartaGautama: posts the ante 6
+chumbrilho: posts the ante 6
+Rigno1: posts the ante 6
+ItfahKenichz: posts small blind 25
+devilfiesch: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 2c]
+Fab1ano: folds 
+rikchap: raises 100 to 150
+FURIOSAMG: calls 150
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+*** FLOP *** [Ah Qh Jd]
+rikchap: bets 215
+FURIOSAMG: calls 215
+*** TURN *** [Ah Qh Jd] [6s]
+rikchap: bets 739 and is all-in
+FURIOSAMG: calls 739
+*** RIVER *** [Ah Qh Jd 6s] [8c]
+*** SHOW DOWN ***
+rikchap: shows [9c As] (a pair of Aces)
+FURIOSAMG: shows [Kh Qs] (a pair of Queens)
+rikchap collected 2337 from pot
+*** SUMMARY ***
+Total pot 2337 | Rake 0 
+Board [Ah Qh Jd 6s 8c]
+Seat 1: ItfahKenichz (small blind) folded before Flop
+Seat 2: devilfiesch (big blind) folded before Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap showed [9c As] and won (2337) with a pair of Aces
+Seat 5: FURIOSAMG showed [Kh Qs] and lost with a pair of Queens
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345032980: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:19:36 UTC [2026/04/04 15:19:36 ET]
+Table '3989276326 1' 9-max Seat #1 is the button
+Seat 1: ItfahKenichz (1718 in chips) 
+Seat 2: devilfiesch (2815 in chips) 
+Seat 3: Fab1ano (1413 in chips) 
+Seat 4: rikchap (2337 in chips) 
+Seat 5: FURIOSAMG (101 in chips) 
+Seat 6: scorza23 (1638 in chips) 
+Seat 7: SiddartaGautama (1419 in chips) 
+Seat 8: chumbrilho (1935 in chips) 
+Seat 9: Rigno1 (124 in chips) 
+ItfahKenichz: posts the ante 6
+devilfiesch: posts the ante 6
+Fab1ano: posts the ante 6
+rikchap: posts the ante 6
+FURIOSAMG: posts the ante 6
+scorza23: posts the ante 6
+SiddartaGautama: posts the ante 6
+chumbrilho: posts the ante 6
+Rigno1: posts the ante 6
+devilfiesch: posts small blind 25
+Fab1ano: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 9c]
+rikchap: folds 
+FURIOSAMG: raises 45 to 95 and is all-in
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: calls 95
+ItfahKenichz: calls 95
+devilfiesch: folds 
+Fab1ano: calls 45
+*** FLOP *** [7s 5c Js]
+Fab1ano: checks 
+Rigno1: checks 
+ItfahKenichz: checks 
+*** TURN *** [7s 5c Js] [Tc]
+Fab1ano: checks 
+Rigno1: checks 
+ItfahKenichz: checks 
+*** RIVER *** [7s 5c Js Tc] [Td]
+Fab1ano: checks 
+Rigno1: checks 
+ItfahKenichz: checks 
+*** SHOW DOWN ***
+Fab1ano: shows [2h 2s] (two pair, Tens and Deuces)
+FURIOSAMG: shows [Ah Jc] (two pair, Jacks and Tens)
+Rigno1: mucks hand 
+ItfahKenichz: mucks hand 
+FURIOSAMG collected 459 from pot
+*** SUMMARY ***
+Total pot 459 | Rake 0 
+Board [7s 5c Js Tc Td]
+Seat 1: ItfahKenichz (button) mucked [6d Qd]
+Seat 2: devilfiesch (small blind) folded before Flop
+Seat 3: Fab1ano (big blind) showed [2h 2s] and lost with two pair, Tens and Deuces
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG showed [Ah Jc] and won (459) with two pair, Jacks and Tens
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 mucked [3d As]
+
+
+
+PokerStars Hand #260345060782: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:21:41 UTC [2026/04/04 15:21:41 ET]
+Table '3989276326 1' 9-max Seat #2 is the button
+Seat 1: ItfahKenichz (1617 in chips) 
+Seat 2: devilfiesch (2784 in chips) 
+Seat 3: Fab1ano (1312 in chips) 
+Seat 4: rikchap (2331 in chips) 
+Seat 5: FURIOSAMG (459 in chips) 
+Seat 6: scorza23 (1632 in chips) 
+Seat 7: SiddartaGautama (1413 in chips) 
+Seat 8: chumbrilho (1929 in chips) 
+Seat 9: Rigno1 (23 in chips) 
+ItfahKenichz: posts the ante 6
+devilfiesch: posts the ante 6
+Fab1ano: posts the ante 6
+rikchap: posts the ante 6
+FURIOSAMG: posts the ante 6
+scorza23: posts the ante 6
+SiddartaGautama: posts the ante 6
+chumbrilho: posts the ante 6
+Rigno1: posts the ante 6
+Fab1ano: posts small blind 25
+rikchap: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 3c]
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+Uncalled bet (25) returned to rikchap
+rikchap collected 104 from pot
+rikchap: doesn't show hand 
+*** SUMMARY ***
+Total pot 104 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch (button) folded before Flop (didn't bet)
+Seat 3: Fab1ano (small blind) folded before Flop
+Seat 4: rikchap (big blind) collected (104)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345066828: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 19:22:08 UTC [2026/04/04 15:22:08 ET]
+Table '3989276326 1' 9-max Seat #3 is the button
+Seat 1: ItfahKenichz (1611 in chips) 
+Seat 2: devilfiesch (2778 in chips) 
+Seat 3: Fab1ano (1281 in chips) 
+Seat 4: rikchap (2404 in chips) 
+Seat 5: FURIOSAMG (453 in chips) 
+Seat 6: scorza23 (1626 in chips) 
+Seat 7: SiddartaGautama (1407 in chips) 
+Seat 8: chumbrilho (1923 in chips) 
+Seat 9: Rigno1 (17 in chips) 
+ItfahKenichz: posts the ante 6
+devilfiesch: posts the ante 6
+Fab1ano: posts the ante 6
+rikchap: posts the ante 6
+FURIOSAMG: posts the ante 6
+scorza23: posts the ante 6
+SiddartaGautama: posts the ante 6
+chumbrilho: posts the ante 6
+Rigno1: posts the ante 6
+rikchap: posts small blind 25
+FURIOSAMG: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 5h]
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: raises 50 to 100
+Rigno1: calls 11 and is all-in
+ItfahKenichz has timed out
+ItfahKenichz: folds 
+ItfahKenichz is sitting out
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+Uncalled bet (50) returned to chumbrilho
+*** FLOP *** [4c Kc 9d]
+*** TURN *** [4c Kc 9d] [5c]
+*** RIVER *** [4c Kc 9d 5c] [Qd]
+*** SHOW DOWN ***
+chumbrilho: shows [Ah Tc] (high card Ace)
+chumbrilho collected 92 from side pot
+Rigno1: shows [Kd 5d] (two pair, Kings and Fives)
+Rigno1 collected 98 from main pot
+*** SUMMARY ***
+Total pot 190 Main pot 98. Side pot 92. | Rake 0 
+Board [4c Kc 9d 5c Qd]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano (button) folded before Flop (didn't bet)
+Seat 4: rikchap (small blind) folded before Flop
+Seat 5: FURIOSAMG (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho showed [Ah Tc] and won (92) with high card Ace
+Seat 9: Rigno1 showed [Kd 5d] and won (98) with two pair, Kings and Fives
+
+
+
+PokerStars Hand #260345081363: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:23:14 UTC [2026/04/04 15:23:14 ET]
+Table '3989276326 1' 9-max Seat #4 is the button
+Seat 1: ItfahKenichz (1605 in chips) is sitting out
+Seat 2: devilfiesch (2772 in chips) 
+Seat 3: Fab1ano (1275 in chips) 
+Seat 4: rikchap (2373 in chips) 
+Seat 5: FURIOSAMG (397 in chips) 
+Seat 6: scorza23 (1620 in chips) 
+Seat 7: SiddartaGautama (1401 in chips) 
+Seat 8: chumbrilho (1959 in chips) 
+Seat 9: Rigno1 (98 in chips) 
+ItfahKenichz: posts the ante 10
+devilfiesch: posts the ante 10
+Fab1ano: posts the ante 10
+rikchap: posts the ante 10
+FURIOSAMG: posts the ante 10
+scorza23: posts the ante 10
+SiddartaGautama: posts the ante 10
+chumbrilho: posts the ante 10
+Rigno1: posts the ante 10
+FURIOSAMG: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 6s]
+ItfahKenichz has returned
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: folds 
+ItfahKenichz: folds 
+devilfiesch: calls 80
+Fab1ano: folds 
+rikchap: raises 160 to 240
+FURIOSAMG: folds 
+scorza23: calls 160
+devilfiesch: folds 
+*** FLOP *** [Jh Js Qh]
+scorza23: checks 
+rikchap: bets 560
+scorza23: folds 
+Uncalled bet (560) returned to rikchap
+rikchap collected 690 from pot
+rikchap: doesn't show hand 
+*** SUMMARY ***
+Total pot 690 | Rake 0 
+Board [Jh Js Qh]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap (button) collected (690)
+Seat 5: FURIOSAMG (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345095440: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:24:17 UTC [2026/04/04 15:24:17 ET]
+Table '3989276326 1' 9-max Seat #5 is the button
+Seat 1: ItfahKenichz (1595 in chips) 
+Seat 2: devilfiesch (2682 in chips) 
+Seat 3: Fab1ano (1265 in chips) 
+Seat 4: rikchap (2813 in chips) 
+Seat 5: FURIOSAMG (347 in chips) 
+Seat 6: scorza23 (1370 in chips) 
+Seat 7: SiddartaGautama (1391 in chips) 
+Seat 8: chumbrilho (1949 in chips) 
+Seat 9: Rigno1 (88 in chips) 
+ItfahKenichz: posts the ante 10
+devilfiesch: posts the ante 10
+Fab1ano: posts the ante 10
+rikchap: posts the ante 10
+FURIOSAMG: posts the ante 10
+scorza23: posts the ante 10
+SiddartaGautama: posts the ante 10
+chumbrilho: posts the ante 10
+Rigno1: posts the ante 10
+scorza23: posts small blind 40
+SiddartaGautama: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Qd]
+chumbrilho: folds 
+Rigno1: folds 
+ItfahKenichz has timed out
+ItfahKenichz: folds 
+ItfahKenichz is sitting out
+ItfahKenichz has returned
+devilfiesch: folds 
+Fab1ano: raises 160 to 240
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+Uncalled bet (160) returned to Fab1ano
+Fab1ano collected 290 from pot
+Fab1ano: doesn't show hand 
+*** SUMMARY ***
+Total pot 290 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano collected (290)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: SiddartaGautama (big blind) folded before Flop
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345107018: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:25:09 UTC [2026/04/04 15:25:09 ET]
+Table '3989276326 1' 9-max Seat #6 is the button
+Seat 1: ItfahKenichz (1585 in chips) 
+Seat 2: devilfiesch (2672 in chips) 
+Seat 3: Fab1ano (1465 in chips) 
+Seat 4: rikchap (2803 in chips) 
+Seat 5: FURIOSAMG (337 in chips) 
+Seat 6: scorza23 (1320 in chips) 
+Seat 7: SiddartaGautama (1301 in chips) 
+Seat 8: chumbrilho (1939 in chips) 
+Seat 9: Rigno1 (78 in chips) 
+ItfahKenichz: posts the ante 10
+devilfiesch: posts the ante 10
+Fab1ano: posts the ante 10
+rikchap: posts the ante 10
+FURIOSAMG: posts the ante 10
+scorza23: posts the ante 10
+SiddartaGautama: posts the ante 10
+chumbrilho: posts the ante 10
+Rigno1: posts the ante 10
+SiddartaGautama: posts small blind 40
+chumbrilho: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 4h]
+Rigno1: calls 68 and is all-in
+ItfahKenichz has timed out
+ItfahKenichz: folds 
+ItfahKenichz is sitting out
+devilfiesch: calls 80
+ItfahKenichz has returned
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: calls 40
+chumbrilho: checks 
+*** FLOP *** [Ks Qh Ad]
+SiddartaGautama: checks 
+chumbrilho: checks 
+devilfiesch: bets 199
+SiddartaGautama: folds 
+chumbrilho: folds 
+Uncalled bet (199) returned to devilfiesch
+*** TURN *** [Ks Qh Ad] [2h]
+*** RIVER *** [Ks Qh Ad 2h] [2d]
+*** SHOW DOWN ***
+devilfiesch: shows [9d Ac] (two pair, Aces and Deuces)
+devilfiesch collected 36 from side pot
+Rigno1: shows [7c As] (two pair, Aces and Deuces)
+Rigno1 collected 181 from main pot
+devilfiesch collected 181 from main pot
+*** SUMMARY ***
+Total pot 398 Main pot 362. Side pot 36. | Rake 0 
+Board [Ks Qh Ad 2h 2d]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch showed [9d Ac] and won (217) with two pair, Aces and Deuces
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (small blind) folded on the Flop
+Seat 8: chumbrilho (big blind) folded on the Flop
+Seat 9: Rigno1 showed [7c As] and won (181) with two pair, Aces and Deuces
+
+
+
+PokerStars Hand #260345127533: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 19:26:41 UTC [2026/04/04 15:26:41 ET]
+Table '3989276326 1' 9-max Seat #7 is the button
+Seat 1: ItfahKenichz (1575 in chips) 
+Seat 2: devilfiesch (2799 in chips) 
+Seat 3: Fab1ano (1455 in chips) 
+Seat 4: rikchap (2793 in chips) 
+Seat 5: FURIOSAMG (327 in chips) 
+Seat 6: scorza23 (1310 in chips) 
+Seat 7: SiddartaGautama (1211 in chips) 
+Seat 8: chumbrilho (1849 in chips) 
+Seat 9: Rigno1 (181 in chips) 
+ItfahKenichz: posts the ante 10
+devilfiesch: posts the ante 10
+Fab1ano: posts the ante 10
+rikchap: posts the ante 10
+FURIOSAMG: posts the ante 10
+scorza23: posts the ante 10
+SiddartaGautama: posts the ante 10
+chumbrilho: posts the ante 10
+Rigno1: posts the ante 10
+chumbrilho: posts small blind 40
+Rigno1: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Kd]
+ItfahKenichz has timed out
+ItfahKenichz: folds 
+ItfahKenichz is sitting out
+devilfiesch: raises 80 to 160
+Fab1ano: folds 
+rikchap: folds 
+ItfahKenichz has returned
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama has timed out
+SiddartaGautama: folds 
+SiddartaGautama is sitting out
+SiddartaGautama has returned
+chumbrilho: calls 120
+Rigno1: calls 80
+*** FLOP *** [Qh 2h 7s]
+chumbrilho: checks 
+Rigno1: bets 11 and is all-in
+devilfiesch: raises 709 to 720
+chumbrilho: folds 
+Uncalled bet (709) returned to devilfiesch
+*** TURN *** [Qh 2h 7s] [6s]
+*** RIVER *** [Qh 2h 7s 6s] [4c]
+*** SHOW DOWN ***
+Rigno1: shows [2d 6c] (two pair, Sixes and Deuces)
+devilfiesch: shows [Ac Qd] (a pair of Queens)
+Rigno1 collected 592 from pot
+*** SUMMARY ***
+Total pot 592 | Rake 0 
+Board [Qh 2h 7s 6s 4c]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch showed [Ac Qd] and lost with a pair of Queens
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (button) folded before Flop (didn't bet)
+Seat 8: chumbrilho (small blind) folded on the Flop
+Seat 9: Rigno1 (big blind) showed [2d 6c] and won (592) with two pair, Sixes and Deuces
+
+
+
+PokerStars Hand #260345148025: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:28:12 UTC [2026/04/04 15:28:12 ET]
+Table '3989276326 1' 9-max Seat #8 is the button
+Seat 1: ItfahKenichz (1565 in chips) 
+Seat 2: devilfiesch (2618 in chips) 
+Seat 3: Fab1ano (1445 in chips) 
+Seat 4: rikchap (2783 in chips) 
+Seat 5: FURIOSAMG (317 in chips) 
+Seat 6: scorza23 (1300 in chips) 
+Seat 7: SiddartaGautama (1201 in chips) 
+Seat 8: chumbrilho (1679 in chips) 
+Seat 9: Rigno1 (592 in chips) 
+ItfahKenichz: posts the ante 15
+devilfiesch: posts the ante 15
+Fab1ano: posts the ante 15
+rikchap: posts the ante 15
+FURIOSAMG: posts the ante 15
+scorza23: posts the ante 15
+SiddartaGautama: posts the ante 15
+chumbrilho: posts the ante 15
+Rigno1: posts the ante 15
+Rigno1: posts small blind 60
+ItfahKenichz: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2h]
+devilfiesch: calls 120
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: calls 60
+ItfahKenichz: raises 1430 to 1550 and is all-in
+devilfiesch: folds 
+Rigno1: folds 
+Uncalled bet (1430) returned to ItfahKenichz
+ItfahKenichz collected 495 from pot
+*** SUMMARY ***
+Total pot 495 | Rake 0 
+Seat 1: ItfahKenichz (big blind) collected (495)
+Seat 2: devilfiesch folded before Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho (button) folded before Flop (didn't bet)
+Seat 9: Rigno1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345154629: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:28:42 UTC [2026/04/04 15:28:42 ET]
+Table '3989276326 1' 9-max Seat #9 is the button
+Seat 1: ItfahKenichz (1925 in chips) 
+Seat 2: devilfiesch (2483 in chips) 
+Seat 3: Fab1ano (1430 in chips) 
+Seat 4: rikchap (2768 in chips) 
+Seat 5: FURIOSAMG (302 in chips) 
+Seat 6: scorza23 (1285 in chips) 
+Seat 7: SiddartaGautama (1186 in chips) 
+Seat 8: chumbrilho (1664 in chips) 
+Seat 9: Rigno1 (457 in chips) 
+ItfahKenichz: posts the ante 15
+devilfiesch: posts the ante 15
+Fab1ano: posts the ante 15
+rikchap: posts the ante 15
+FURIOSAMG: posts the ante 15
+scorza23: posts the ante 15
+SiddartaGautama: posts the ante 15
+chumbrilho: posts the ante 15
+Rigno1: posts the ante 15
+ItfahKenichz: posts small blind 60
+devilfiesch: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Ks]
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: raises 120 to 240
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 435 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 435 | Rake 0 
+Seat 1: ItfahKenichz (small blind) folded before Flop
+Seat 2: devilfiesch (big blind) folded before Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 collected (435)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345162152: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:29:16 UTC [2026/04/04 15:29:16 ET]
+Table '3989276326 1' 9-max Seat #1 is the button
+Seat 1: ItfahKenichz (1850 in chips) 
+Seat 2: devilfiesch (2348 in chips) 
+Seat 3: Fab1ano (1415 in chips) 
+Seat 4: rikchap (2753 in chips) 
+Seat 5: FURIOSAMG (287 in chips) 
+Seat 6: scorza23 (1585 in chips) 
+Seat 7: SiddartaGautama (1171 in chips) 
+Seat 8: chumbrilho (1649 in chips) 
+Seat 9: Rigno1 (442 in chips) 
+ItfahKenichz: posts the ante 15
+devilfiesch: posts the ante 15
+Fab1ano: posts the ante 15
+rikchap: posts the ante 15
+FURIOSAMG: posts the ante 15
+scorza23: posts the ante 15
+SiddartaGautama: posts the ante 15
+chumbrilho: posts the ante 15
+Rigno1: posts the ante 15
+devilfiesch: posts small blind 60
+Fab1ano: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 3d]
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: folds 
+ItfahKenichz: folds 
+devilfiesch: calls 60
+Fab1ano: raises 240 to 360
+devilfiesch: folds 
+Uncalled bet (240) returned to Fab1ano
+Fab1ano collected 375 from pot
+Fab1ano: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: ItfahKenichz (button) folded before Flop (didn't bet)
+Seat 2: devilfiesch (small blind) folded before Flop
+Seat 3: Fab1ano (big blind) collected (375)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345170512: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:29:53 UTC [2026/04/04 15:29:53 ET]
+Table '3989276326 1' 9-max Seat #2 is the button
+Seat 1: ItfahKenichz (1835 in chips) 
+Seat 2: devilfiesch (2213 in chips) 
+Seat 3: Fab1ano (1655 in chips) 
+Seat 4: rikchap (2738 in chips) 
+Seat 5: FURIOSAMG (272 in chips) 
+Seat 6: scorza23 (1570 in chips) 
+Seat 7: SiddartaGautama (1156 in chips) 
+Seat 8: chumbrilho (1634 in chips) 
+Seat 9: Rigno1 (427 in chips) 
+ItfahKenichz: posts the ante 15
+devilfiesch: posts the ante 15
+Fab1ano: posts the ante 15
+rikchap: posts the ante 15
+FURIOSAMG: posts the ante 15
+scorza23: posts the ante 15
+SiddartaGautama: posts the ante 15
+chumbrilho: posts the ante 15
+Rigno1: posts the ante 15
+Fab1ano: posts small blind 60
+rikchap: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 7c]
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: calls 120
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: calls 60
+rikchap: checks 
+*** FLOP *** [3c 8h 6h]
+Fab1ano: checks 
+rikchap: bets 248
+Rigno1: folds 
+Fab1ano: folds 
+Uncalled bet (248) returned to rikchap
+rikchap collected 495 from pot
+rikchap: doesn't show hand 
+*** SUMMARY ***
+Total pot 495 | Rake 0 
+Board [3c 8h 6h]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch (button) folded before Flop (didn't bet)
+Seat 3: Fab1ano (small blind) folded on the Flop
+Seat 4: rikchap (big blind) collected (495)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 folded on the Flop
+
+
+
+PokerStars Hand #260345186695: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:31:04 UTC [2026/04/04 15:31:04 ET]
+Table '3989276326 1' 9-max Seat #3 is the button
+Seat 1: ItfahKenichz (1820 in chips) 
+Seat 2: devilfiesch (2198 in chips) 
+Seat 3: Fab1ano (1520 in chips) 
+Seat 4: rikchap (3098 in chips) 
+Seat 5: FURIOSAMG (257 in chips) 
+Seat 6: scorza23 (1555 in chips) 
+Seat 7: SiddartaGautama (1141 in chips) 
+Seat 8: chumbrilho (1619 in chips) 
+Seat 9: Rigno1 (292 in chips) 
+ItfahKenichz: posts the ante 15
+devilfiesch: posts the ante 15
+Fab1ano: posts the ante 15
+rikchap: posts the ante 15
+FURIOSAMG: posts the ante 15
+scorza23: posts the ante 15
+SiddartaGautama: posts the ante 15
+chumbrilho: posts the ante 15
+Rigno1: posts the ante 15
+rikchap: posts small blind 60
+FURIOSAMG: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 5s]
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+Rigno1: raises 157 to 277 and is all-in
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: calls 217
+FURIOSAMG: calls 122 and is all-in
+*** FLOP *** [5c 5h Ah]
+*** TURN *** [5c 5h Ah] [5d]
+*** RIVER *** [5c 5h Ah 5d] [6h]
+*** SHOW DOWN ***
+rikchap: shows [4d Qh] (three of a kind, Fives)
+Rigno1: shows [Th Jc] (three of a kind, Fives - lower kicker)
+rikchap collected 70 from side pot
+FURIOSAMG: shows [2d 2s] (a full house, Fives full of Deuces)
+FURIOSAMG collected 861 from main pot
+Rigno1 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 931 Main pot 861. Side pot 70. | Rake 0 
+Board [5c 5h Ah 5d 6h]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano (button) folded before Flop (didn't bet)
+Seat 4: rikchap (small blind) showed [4d Qh] and won (70) with three of a kind, Fives
+Seat 5: FURIOSAMG (big blind) showed [2d 2s] and won (861) with a full house, Fives full of Deuces
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+Seat 9: Rigno1 showed [Th Jc] and lost with three of a kind, Fives
+
+
+
+PokerStars Hand #260345198411: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 19:31:56 UTC [2026/04/04 15:31:56 ET]
+Table '3989276326 1' 9-max Seat #4 is the button
+Seat 1: ItfahKenichz (1805 in chips) 
+Seat 2: devilfiesch (2183 in chips) 
+Seat 3: Fab1ano (1505 in chips) 
+Seat 4: rikchap (2876 in chips) 
+Seat 5: FURIOSAMG (861 in chips) 
+Seat 6: scorza23 (1540 in chips) 
+Seat 7: SiddartaGautama (1126 in chips) 
+Seat 8: chumbrilho (1604 in chips) 
+ItfahKenichz: posts the ante 15
+devilfiesch: posts the ante 15
+Fab1ano: posts the ante 15
+rikchap: posts the ante 15
+FURIOSAMG: posts the ante 15
+scorza23: posts the ante 15
+SiddartaGautama: posts the ante 15
+chumbrilho: posts the ante 15
+FURIOSAMG: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Kh]
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: calls 120
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: calls 60
+scorza23: checks 
+*** FLOP *** [Js 2h 9s]
+FURIOSAMG: checks 
+scorza23: bets 360
+devilfiesch: folds 
+FURIOSAMG: folds 
+Uncalled bet (360) returned to scorza23
+scorza23 collected 480 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Board [Js 2h 9s]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded on the Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap (button) folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) collected (480)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345209523: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:32:45 UTC [2026/04/04 15:32:45 ET]
+Table '3989276326 1' 9-max Seat #5 is the button
+Seat 1: ItfahKenichz (1790 in chips) 
+Seat 2: devilfiesch (2048 in chips) 
+Seat 3: Fab1ano (1490 in chips) 
+Seat 4: rikchap (2861 in chips) 
+Seat 5: FURIOSAMG (726 in chips) 
+Seat 6: scorza23 (1885 in chips) 
+Seat 7: SiddartaGautama (1111 in chips) 
+Seat 8: chumbrilho (1589 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+scorza23: posts small blind 80
+SiddartaGautama: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qd]
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: raises 160 to 320
+SiddartaGautama: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 480 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (480)
+Seat 7: SiddartaGautama (big blind) folded before Flop
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345214458: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:33:07 UTC [2026/04/04 15:33:07 ET]
+Table '3989276326 1' 9-max Seat #6 is the button
+Seat 1: ItfahKenichz (1770 in chips) 
+Seat 2: devilfiesch (2028 in chips) 
+Seat 3: Fab1ano (1470 in chips) 
+Seat 4: rikchap (2841 in chips) 
+Seat 5: FURIOSAMG (706 in chips) 
+Seat 6: scorza23 (2185 in chips) 
+Seat 7: SiddartaGautama (931 in chips) 
+Seat 8: chumbrilho (1569 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+SiddartaGautama: posts small blind 80
+chumbrilho: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 6h]
+ItfahKenichz: raises 160 to 320
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: calls 320
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: calls 160
+*** FLOP *** [2s Js Qs]
+chumbrilho: checks 
+ItfahKenichz: bets 440
+rikchap: folds 
+chumbrilho: folds 
+Uncalled bet (440) returned to ItfahKenichz
+ItfahKenichz collected 1200 from pot
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [2s Js Qs]
+Seat 1: ItfahKenichz collected (1200)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded on the Flop
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (small blind) folded before Flop
+Seat 8: chumbrilho (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260345223403: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:33:46 UTC [2026/04/04 15:33:46 ET]
+Table '3989276326 1' 9-max Seat #7 is the button
+Seat 1: ItfahKenichz (2630 in chips) 
+Seat 2: devilfiesch (2008 in chips) 
+Seat 3: Fab1ano (1450 in chips) 
+Seat 4: rikchap (2501 in chips) 
+Seat 5: FURIOSAMG (686 in chips) 
+Seat 6: scorza23 (2165 in chips) 
+Seat 7: SiddartaGautama (831 in chips) 
+Seat 8: chumbrilho (1229 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+chumbrilho: posts small blind 80
+ItfahKenichz: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 7h]
+devilfiesch: raises 1828 to 1988 and is all-in
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: calls 811 and is all-in
+chumbrilho: folds 
+ItfahKenichz: folds 
+Uncalled bet (1177) returned to devilfiesch
+*** FLOP *** [2d Qh 4h]
+*** TURN *** [2d Qh 4h] [3c]
+*** RIVER *** [2d Qh 4h 3c] [2s]
+*** SHOW DOWN ***
+devilfiesch: shows [8s 8h] (two pair, Eights and Deuces)
+SiddartaGautama: shows [Ks Kd] (two pair, Kings and Deuces)
+SiddartaGautama collected 2022 from pot
+*** SUMMARY ***
+Total pot 2022 | Rake 0 
+Board [2d Qh 4h 3c 2s]
+Seat 1: ItfahKenichz (big blind) folded before Flop
+Seat 2: devilfiesch showed [8s 8h] and lost with two pair, Eights and Deuces
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (button) showed [Ks Kd] and won (2022) with two pair, Kings and Deuces
+Seat 8: chumbrilho (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345232970: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:34:28 UTC [2026/04/04 15:34:28 ET]
+Table '3989276326 1' 9-max Seat #8 is the button
+Seat 1: ItfahKenichz (2450 in chips) 
+Seat 2: devilfiesch (1177 in chips) 
+Seat 3: Fab1ano (1430 in chips) 
+Seat 4: rikchap (2481 in chips) 
+Seat 5: FURIOSAMG (666 in chips) 
+Seat 6: scorza23 (2145 in chips) 
+Seat 7: SiddartaGautama (2022 in chips) 
+Seat 8: chumbrilho (1129 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+ItfahKenichz: posts small blind 80
+devilfiesch: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 5c]
+Fab1ano: raises 320 to 480
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Uncalled bet (320) returned to Fab1ano
+Fab1ano collected 560 from pot
+Fab1ano: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: ItfahKenichz (small blind) folded before Flop
+Seat 2: devilfiesch (big blind) folded before Flop
+Seat 3: Fab1ano collected (560)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345240592: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:35:02 UTC [2026/04/04 15:35:02 ET]
+Table '3989276326 1' 9-max Seat #1 is the button
+Seat 1: ItfahKenichz (2350 in chips) 
+Seat 2: devilfiesch (997 in chips) 
+Seat 3: Fab1ano (1810 in chips) 
+Seat 4: rikchap (2461 in chips) 
+Seat 5: FURIOSAMG (646 in chips) 
+Seat 6: scorza23 (2125 in chips) 
+Seat 7: SiddartaGautama (2002 in chips) 
+Seat 8: chumbrilho (1109 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+devilfiesch: posts small blind 80
+Fab1ano: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Qh]
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: calls 160
+devilfiesch: folds 
+Fab1ano: checks 
+*** FLOP *** [5c 7d Jh]
+Fab1ano: checks 
+ItfahKenichz: checks 
+*** TURN *** [5c 7d Jh] [6c]
+Fab1ano: checks 
+ItfahKenichz: bets 280
+Fab1ano: folds 
+Uncalled bet (280) returned to ItfahKenichz
+ItfahKenichz collected 560 from pot
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Board [5c 7d Jh 6c]
+Seat 1: ItfahKenichz (button) collected (560)
+Seat 2: devilfiesch (small blind) folded before Flop
+Seat 3: Fab1ano (big blind) folded on the Turn
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345246907: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:35:29 UTC [2026/04/04 15:35:29 ET]
+Table '3989276326 1' 9-max Seat #2 is the button
+Seat 1: ItfahKenichz (2730 in chips) 
+Seat 2: devilfiesch (897 in chips) 
+Seat 3: Fab1ano (1630 in chips) 
+Seat 4: rikchap (2441 in chips) 
+Seat 5: FURIOSAMG (626 in chips) 
+Seat 6: scorza23 (2105 in chips) 
+Seat 7: SiddartaGautama (1982 in chips) 
+Seat 8: chumbrilho (1089 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+Fab1ano: posts small blind 80
+rikchap: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5c]
+FURIOSAMG: raises 446 to 606 and is all-in
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: calls 446
+*** FLOP *** [9s Js 8s]
+*** TURN *** [9s Js 8s] [Ks]
+*** RIVER *** [9s Js 8s Ks] [Qd]
+*** SHOW DOWN ***
+rikchap: shows [Ah 5s] (a flush, King high)
+FURIOSAMG: shows [Tc Ts] (a flush, King high - Ten higher)
+FURIOSAMG collected 1452 from pot
+*** SUMMARY ***
+Total pot 1452 | Rake 0 
+Board [9s Js 8s Ks Qd]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch (button) folded before Flop (didn't bet)
+Seat 3: Fab1ano (small blind) folded before Flop
+Seat 4: rikchap (big blind) showed [Ah 5s] and lost with a flush, King high
+Seat 5: FURIOSAMG showed [Tc Ts] and won (1452) with a flush, King high
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345255225: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:36:06 UTC [2026/04/04 15:36:06 ET]
+Table '3989276326 1' 9-max Seat #3 is the button
+Seat 1: ItfahKenichz (2710 in chips) 
+Seat 2: devilfiesch (877 in chips) 
+Seat 3: Fab1ano (1530 in chips) 
+Seat 4: rikchap (1815 in chips) 
+Seat 5: FURIOSAMG (1452 in chips) 
+Seat 6: scorza23 (2085 in chips) 
+Seat 7: SiddartaGautama (1962 in chips) 
+Seat 8: chumbrilho (1069 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+rikchap: posts small blind 80
+FURIOSAMG: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Tc]
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: raises 697 to 857 and is all-in
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: calls 697
+*** FLOP *** [7s 4c Ks]
+*** TURN *** [7s 4c Ks] [Ac]
+*** RIVER *** [7s 4c Ks Ac] [Qs]
+*** SHOW DOWN ***
+FURIOSAMG: shows [Kd Td] (a pair of Kings)
+devilfiesch: shows [5s Ah] (a pair of Aces)
+devilfiesch collected 1954 from pot
+*** SUMMARY ***
+Total pot 1954 | Rake 0 
+Board [7s 4c Ks Ac Qs]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch showed [5s Ah] and won (1954) with a pair of Aces
+Seat 3: Fab1ano (button) folded before Flop (didn't bet)
+Seat 4: rikchap (small blind) folded before Flop
+Seat 5: FURIOSAMG (big blind) showed [Kd Td] and lost with a pair of Kings
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345262553: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:36:38 UTC [2026/04/04 15:36:38 ET]
+Table '3989276326 1' 9-max Seat #4 is the button
+Seat 1: ItfahKenichz (2690 in chips) 
+Seat 2: devilfiesch (1954 in chips) 
+Seat 3: Fab1ano (1510 in chips) 
+Seat 4: rikchap (1715 in chips) 
+Seat 5: FURIOSAMG (575 in chips) 
+Seat 6: scorza23 (2065 in chips) 
+Seat 7: SiddartaGautama (1942 in chips) 
+Seat 8: chumbrilho (1049 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+FURIOSAMG: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5s]
+SiddartaGautama: folds 
+chumbrilho: raises 869 to 1029 and is all-in
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+Uncalled bet (869) returned to chumbrilho
+chumbrilho collected 560 from pot
+chumbrilho: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap (button) folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho collected (560)
+
+
+
+PokerStars Hand #260345270912: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 19:37:16 UTC [2026/04/04 15:37:16 ET]
+Table '3989276326 1' 9-max Seat #5 is the button
+Seat 1: ItfahKenichz (2670 in chips) 
+Seat 2: devilfiesch (1934 in chips) 
+Seat 3: Fab1ano (1490 in chips) 
+Seat 4: rikchap (1695 in chips) 
+Seat 5: FURIOSAMG (475 in chips) 
+Seat 6: scorza23 (1885 in chips) 
+Seat 7: SiddartaGautama (1922 in chips) 
+Seat 8: chumbrilho (1429 in chips) 
+ItfahKenichz: posts the ante 20
+devilfiesch: posts the ante 20
+Fab1ano: posts the ante 20
+rikchap: posts the ante 20
+FURIOSAMG: posts the ante 20
+scorza23: posts the ante 20
+SiddartaGautama: posts the ante 20
+chumbrilho: posts the ante 20
+scorza23: posts small blind 80
+SiddartaGautama: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Kc]
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: raises 160 to 320
+SiddartaGautama: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 480 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (480)
+Seat 7: SiddartaGautama (big blind) folded before Flop
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345276936: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:37:43 UTC [2026/04/04 15:37:43 ET]
+Table '3989276326 1' 9-max Seat #6 is the button
+Seat 1: ItfahKenichz (2650 in chips) 
+Seat 2: devilfiesch (1914 in chips) 
+Seat 3: Fab1ano (1470 in chips) 
+Seat 4: rikchap (1675 in chips) 
+Seat 5: FURIOSAMG (455 in chips) 
+Seat 6: scorza23 (2185 in chips) 
+Seat 7: SiddartaGautama (1742 in chips) 
+Seat 8: chumbrilho (1409 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+SiddartaGautama: posts small blind 100
+chumbrilho: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 5s]
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: raises 200 to 400
+SiddartaGautama: folds 
+chumbrilho: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 (button) collected (700)
+Seat 7: SiddartaGautama (small blind) folded before Flop
+Seat 8: chumbrilho (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345286581: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:38:25 UTC [2026/04/04 15:38:25 ET]
+Table '3989276326 1' 9-max Seat #7 is the button
+Seat 1: ItfahKenichz (2625 in chips) 
+Seat 2: devilfiesch (1889 in chips) 
+Seat 3: Fab1ano (1445 in chips) 
+Seat 4: rikchap (1650 in chips) 
+Seat 5: FURIOSAMG (430 in chips) 
+Seat 6: scorza23 (2660 in chips) 
+Seat 7: SiddartaGautama (1617 in chips) 
+Seat 8: chumbrilho (1184 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+chumbrilho: posts small blind 100
+ItfahKenichz: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 7s]
+devilfiesch: calls 200
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: raises 205 to 405 and is all-in
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: calls 205
+*** FLOP *** [2d 6h Ah]
+*** TURN *** [2d 6h Ah] [9c]
+*** RIVER *** [2d 6h Ah 9c] [7c]
+*** SHOW DOWN ***
+devilfiesch: shows [4h 4c] (a pair of Fours)
+FURIOSAMG: shows [Js Jc] (a pair of Jacks)
+FURIOSAMG collected 1310 from pot
+*** SUMMARY ***
+Total pot 1310 | Rake 0 
+Board [2d 6h Ah 9c 7c]
+Seat 1: ItfahKenichz (big blind) folded before Flop
+Seat 2: devilfiesch showed [4h 4c] and lost with a pair of Fours
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG showed [Js Jc] and won (1310) with a pair of Jacks
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (button) folded before Flop (didn't bet)
+Seat 8: chumbrilho (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345294389: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:39:00 UTC [2026/04/04 15:39:00 ET]
+Table '3989276326 1' 9-max Seat #8 is the button
+Seat 1: ItfahKenichz (2400 in chips) 
+Seat 2: devilfiesch (1459 in chips) 
+Seat 3: Fab1ano (1420 in chips) 
+Seat 4: rikchap (1625 in chips) 
+Seat 5: FURIOSAMG (1310 in chips) 
+Seat 6: scorza23 (2635 in chips) 
+Seat 7: SiddartaGautama (1592 in chips) 
+Seat 8: chumbrilho (1059 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+ItfahKenichz: posts small blind 100
+devilfiesch: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Qs]
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: raises 200 to 400
+devilfiesch: folds 
+Uncalled bet (200) returned to ItfahKenichz
+ItfahKenichz collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: ItfahKenichz (small blind) collected (600)
+Seat 2: devilfiesch (big blind) folded before Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345299958: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:39:24 UTC [2026/04/04 15:39:24 ET]
+Table '3989276326 1' 9-max Seat #1 is the button
+Seat 1: ItfahKenichz (2775 in chips) 
+Seat 2: devilfiesch (1234 in chips) 
+Seat 3: Fab1ano (1395 in chips) 
+Seat 4: rikchap (1600 in chips) 
+Seat 5: FURIOSAMG (1285 in chips) 
+Seat 6: scorza23 (2610 in chips) 
+Seat 7: SiddartaGautama (1567 in chips) 
+Seat 8: chumbrilho (1034 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+devilfiesch: posts small blind 100
+Fab1ano: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Th]
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: raises 809 to 1009 and is all-in
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+Uncalled bet (809) returned to chumbrilho
+chumbrilho collected 700 from pot
+chumbrilho: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: ItfahKenichz (button) folded before Flop (didn't bet)
+Seat 2: devilfiesch (small blind) folded before Flop
+Seat 3: Fab1ano (big blind) folded before Flop
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho collected (700)
+
+
+
+PokerStars Hand #260345306223: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:39:52 UTC [2026/04/04 15:39:52 ET]
+Table '3989276326 1' 9-max Seat #2 is the button
+Seat 1: ItfahKenichz (2750 in chips) 
+Seat 2: devilfiesch (1109 in chips) 
+Seat 3: Fab1ano (1170 in chips) 
+Seat 4: rikchap (1575 in chips) 
+Seat 5: FURIOSAMG (1260 in chips) 
+Seat 6: scorza23 (2585 in chips) 
+Seat 7: SiddartaGautama (1542 in chips) 
+Seat 8: chumbrilho (1509 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+Fab1ano: posts small blind 100
+rikchap: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 9d]
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: raises 400 to 600
+rikchap: folds 
+Uncalled bet (400) returned to Fab1ano
+Fab1ano collected 600 from pot
+Fab1ano: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch (button) folded before Flop (didn't bet)
+Seat 3: Fab1ano (small blind) collected (600)
+Seat 4: rikchap (big blind) folded before Flop
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345311314: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:40:15 UTC [2026/04/04 15:40:15 ET]
+Table '3989276326 1' 9-max Seat #3 is the button
+Seat 1: ItfahKenichz (2725 in chips) 
+Seat 2: devilfiesch (1084 in chips) 
+Seat 3: Fab1ano (1545 in chips) 
+Seat 4: rikchap (1350 in chips) 
+Seat 5: FURIOSAMG (1235 in chips) 
+Seat 6: scorza23 (2560 in chips) 
+Seat 7: SiddartaGautama (1517 in chips) 
+Seat 8: chumbrilho (1484 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+rikchap: posts small blind 100
+FURIOSAMG: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 4h]
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: calls 100
+FURIOSAMG: checks 
+*** FLOP *** [Kd 7c 6d]
+rikchap: checks 
+FURIOSAMG: checks 
+*** TURN *** [Kd 7c 6d] [Td]
+rikchap: checks 
+FURIOSAMG: checks 
+*** RIVER *** [Kd 7c 6d Td] [2h]
+rikchap: checks 
+FURIOSAMG: checks 
+*** SHOW DOWN ***
+rikchap: shows [Js 8c] (high card King)
+FURIOSAMG: shows [Qh Ts] (a pair of Tens)
+FURIOSAMG collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [Kd 7c 6d Td 2h]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano (button) folded before Flop (didn't bet)
+Seat 4: rikchap (small blind) showed [Js 8c] and lost with high card King
+Seat 5: FURIOSAMG (big blind) showed [Qh Ts] and won (600) with a pair of Tens
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345320544: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:40:57 UTC [2026/04/04 15:40:57 ET]
+Table '3989276326 1' 9-max Seat #4 is the button
+Seat 1: ItfahKenichz (2700 in chips) 
+Seat 2: devilfiesch (1059 in chips) 
+Seat 3: Fab1ano (1520 in chips) 
+Seat 4: rikchap (1125 in chips) 
+Seat 5: FURIOSAMG (1610 in chips) 
+Seat 6: scorza23 (2535 in chips) 
+Seat 7: SiddartaGautama (1492 in chips) 
+Seat 8: chumbrilho (1459 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+FURIOSAMG: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2h]
+SiddartaGautama: folds 
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: raises 834 to 1034 and is all-in
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+Uncalled bet (834) returned to devilfiesch
+devilfiesch collected 700 from pot
+devilfiesch: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch collected (700)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap (button) folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345326515: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:41:23 UTC [2026/04/04 15:41:23 ET]
+Table '3989276326 1' 9-max Seat #5 is the button
+Seat 1: ItfahKenichz (2675 in chips) 
+Seat 2: devilfiesch (1534 in chips) 
+Seat 3: Fab1ano (1495 in chips) 
+Seat 4: rikchap (1100 in chips) 
+Seat 5: FURIOSAMG (1485 in chips) 
+Seat 6: scorza23 (2310 in chips) 
+Seat 7: SiddartaGautama (1467 in chips) 
+Seat 8: chumbrilho (1434 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+scorza23: posts small blind 100
+SiddartaGautama: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Js]
+chumbrilho: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: raises 200 to 400
+SiddartaGautama: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (600)
+Seat 7: SiddartaGautama (big blind) folded before Flop
+Seat 8: chumbrilho folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345331655: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 19:41:46 UTC [2026/04/04 15:41:46 ET]
+Table '3989276326 1' 9-max Seat #6 is the button
+Seat 1: ItfahKenichz (2650 in chips) 
+Seat 2: devilfiesch (1509 in chips) 
+Seat 3: Fab1ano (1470 in chips) 
+Seat 4: rikchap (1075 in chips) 
+Seat 5: FURIOSAMG (1460 in chips) 
+Seat 6: scorza23 (2685 in chips) 
+Seat 7: SiddartaGautama (1242 in chips) 
+Seat 8: chumbrilho (1409 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+chumbrilho: posts the ante 25
+SiddartaGautama: posts small blind 100
+chumbrilho: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 7s]
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: raises 1235 to 1435 and is all-in
+scorza23: folds 
+SiddartaGautama: folds 
+chumbrilho: calls 1184 and is all-in
+Uncalled bet (51) returned to FURIOSAMG
+*** FLOP *** [Js Kd Qd]
+*** TURN *** [Js Kd Qd] [3d]
+*** RIVER *** [Js Kd Qd 3d] [Jc]
+*** SHOW DOWN ***
+chumbrilho: shows [9h As] (a pair of Jacks)
+FURIOSAMG: shows [Ah Qc] (two pair, Queens and Jacks)
+FURIOSAMG collected 3068 from pot
+chumbrilho finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3068 | Rake 0 
+Board [Js Kd Qd 3d Jc]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG showed [Ah Qc] and won (3068) with two pair, Queens and Jacks
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (small blind) folded before Flop
+Seat 8: chumbrilho (big blind) showed [9h As] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #260345339792: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:42:23 UTC [2026/04/04 15:42:23 ET]
+Table '3989276326 1' 9-max Seat #7 is the button
+Seat 1: ItfahKenichz (2625 in chips) 
+Seat 2: devilfiesch (1484 in chips) 
+Seat 3: Fab1ano (1445 in chips) 
+Seat 4: rikchap (1050 in chips) 
+Seat 5: FURIOSAMG (3119 in chips) 
+Seat 6: scorza23 (2660 in chips) 
+Seat 7: SiddartaGautama (1117 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+ItfahKenichz: posts small blind 150
+devilfiesch: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5c As]
+Fab1ano: folds 
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: raises 792 to 1092 and is all-in
+ItfahKenichz: calls 942
+devilfiesch: folds 
+*** FLOP *** [7h 4h Ts]
+*** TURN *** [7h 4h Ts] [2d]
+*** RIVER *** [7h 4h Ts 2d] [3s]
+*** SHOW DOWN ***
+ItfahKenichz: shows [Ad Jc] (high card Ace)
+SiddartaGautama: shows [Ah 5d] (a straight, Ace to Five)
+SiddartaGautama collected 2659 from pot
+*** SUMMARY ***
+Total pot 2659 | Rake 0 
+Board [7h 4h Ts 2d 3s]
+Seat 1: ItfahKenichz (small blind) showed [Ad Jc] and lost with high card Ace
+Seat 2: devilfiesch (big blind) folded before Flop
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (button) showed [Ah 5d] and won (2659) with a straight, Ace to Five
+
+
+
+PokerStars Hand #260345347229: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:42:56 UTC [2026/04/04 15:42:56 ET]
+Table '3989276326 1' 9-max Seat #1 is the button
+Seat 1: ItfahKenichz (1508 in chips) 
+Seat 2: devilfiesch (1159 in chips) 
+Seat 3: Fab1ano (1420 in chips) 
+Seat 4: rikchap (1025 in chips) 
+Seat 5: FURIOSAMG (3094 in chips) 
+Seat 6: scorza23 (2635 in chips) 
+Seat 7: SiddartaGautama (2659 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+devilfiesch: posts small blind 150
+Fab1ano: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Kh]
+rikchap: folds 
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+ItfahKenichz: folds 
+ItfahKenichz is sitting out
+devilfiesch: raises 834 to 1134 and is all-in
+Fab1ano: folds 
+Uncalled bet (834) returned to devilfiesch
+devilfiesch collected 775 from pot
+devilfiesch: doesn't show hand 
+*** SUMMARY ***
+Total pot 775 | Rake 0 
+Seat 1: ItfahKenichz (button) folded before Flop (didn't bet)
+Seat 2: devilfiesch (small blind) collected (775)
+Seat 3: Fab1ano (big blind) folded before Flop
+Seat 4: rikchap folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345354370: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:43:28 UTC [2026/04/04 15:43:28 ET]
+Table '3989276326 1' 9-max Seat #2 is the button
+Seat 1: ItfahKenichz (1483 in chips) is sitting out
+Seat 2: devilfiesch (1609 in chips) 
+Seat 3: Fab1ano (1095 in chips) 
+Seat 4: rikchap (1000 in chips) 
+Seat 5: FURIOSAMG (3069 in chips) 
+Seat 6: scorza23 (2610 in chips) 
+Seat 7: SiddartaGautama (2634 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+rikchap: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+Fab1ano: posts small blind 150
+rikchap: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Tc]
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: raises 2309 to 2609 and is all-in
+ItfahKenichz: folds 
+ItfahKenichz is disconnected 
+devilfiesch: folds 
+Fab1ano: folds 
+rikchap: calls 675 and is all-in
+Uncalled bet (1634) returned to SiddartaGautama
+*** FLOP *** [2d Ad 7s]
+*** TURN *** [2d Ad 7s] [4c]
+*** RIVER *** [2d Ad 7s 4c] [Th]
+*** SHOW DOWN ***
+rikchap: shows [Kd Qh] (high card Ace)
+SiddartaGautama: shows [Qd Ac] (a pair of Aces)
+SiddartaGautama collected 2275 from pot
+rikchap finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 2275 | Rake 0 
+Board [2d Ad 7s 4c Th]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch (button) folded before Flop (didn't bet)
+Seat 3: Fab1ano (small blind) folded before Flop
+Seat 4: rikchap (big blind) showed [Kd Qh] and lost with high card Ace
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama showed [Qd Ac] and won (2275) with a pair of Aces
+
+
+
+PokerStars Hand #260345360168: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:43:54 UTC [2026/04/04 15:43:54 ET]
+Table '3989276326 1' 9-max Seat #3 is the button
+Seat 1: ItfahKenichz (1458 in chips) is sitting out
+Seat 2: devilfiesch (1584 in chips) 
+Seat 3: Fab1ano (920 in chips) 
+Seat 5: FURIOSAMG (3044 in chips) 
+Seat 6: scorza23 (2585 in chips) 
+Seat 7: SiddartaGautama (3909 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+FURIOSAMG: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Jh]
+SiddartaGautama: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+FURIOSAMG: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano (button) folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (450)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345362994: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:44:06 UTC [2026/04/04 15:44:06 ET]
+Table '3989276326 1' 9-max Seat #5 is the button
+Seat 1: ItfahKenichz (1433 in chips) is sitting out
+Seat 2: devilfiesch (1559 in chips) 
+Seat 3: Fab1ano (895 in chips) 
+Seat 5: FURIOSAMG (2869 in chips) 
+Seat 6: scorza23 (2860 in chips) 
+Seat 7: SiddartaGautama (3884 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+scorza23: posts small blind 150
+SiddartaGautama: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 2d]
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+FURIOSAMG: raises 600 to 900
+scorza23: folds 
+SiddartaGautama: folds 
+Uncalled bet (600) returned to FURIOSAMG
+FURIOSAMG collected 900 from pot
+FURIOSAMG: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (button) collected (900)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: SiddartaGautama (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345366516: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:44:22 UTC [2026/04/04 15:44:22 ET]
+Table '3989276326 1' 9-max Seat #6 is the button
+Seat 1: ItfahKenichz (1408 in chips) is sitting out
+Seat 2: devilfiesch (1534 in chips) 
+Seat 3: Fab1ano (870 in chips) 
+Seat 5: FURIOSAMG (3444 in chips) 
+Seat 6: scorza23 (2685 in chips) 
+Seat 7: SiddartaGautama (3559 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+SiddartaGautama: posts small blind 150
+ItfahKenichz: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 4d]
+devilfiesch: folds 
+ItfahKenichz is disconnected 
+Fab1ano: raises 545 to 845 and is all-in
+FURIOSAMG: folds 
+scorza23: folds 
+ItfahKenichz is disconnected 
+SiddartaGautama: folds 
+ItfahKenichz: folds 
+Uncalled bet (545) returned to Fab1ano
+Fab1ano collected 900 from pot
+Fab1ano: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Seat 1: ItfahKenichz (big blind) folded before Flop
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano collected (900)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345370864: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:44:41 UTC [2026/04/04 15:44:41 ET]
+Table '3989276326 1' 9-max Seat #7 is the button
+Seat 1: ItfahKenichz (1083 in chips) is sitting out
+Seat 2: devilfiesch (1509 in chips) 
+Seat 3: Fab1ano (1445 in chips) 
+Seat 5: FURIOSAMG (3419 in chips) 
+Seat 6: scorza23 (2660 in chips) 
+Seat 7: SiddartaGautama (3384 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+ItfahKenichz: posts small blind 150
+devilfiesch: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 6d]
+Fab1ano: raises 1120 to 1420 and is all-in
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Uncalled bet (1120) returned to Fab1ano
+Fab1ano collected 900 from pot
+Fab1ano: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Seat 1: ItfahKenichz (small blind) folded before Flop
+Seat 2: devilfiesch (big blind) folded before Flop
+Seat 3: Fab1ano collected (900)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345375865: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:45:03 UTC [2026/04/04 15:45:03 ET]
+Table '3989276326 1' 9-max Seat #1 is the button
+Seat 1: ItfahKenichz (908 in chips) is sitting out
+Seat 2: devilfiesch (1184 in chips) 
+Seat 3: Fab1ano (2020 in chips) 
+Seat 5: FURIOSAMG (3394 in chips) 
+Seat 6: scorza23 (2635 in chips) 
+Seat 7: SiddartaGautama (3359 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+devilfiesch: posts small blind 150
+Fab1ano: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 8h]
+FURIOSAMG: folds 
+scorza23: folds 
+SiddartaGautama: folds 
+ItfahKenichz: folds 
+devilfiesch: raises 859 to 1159 and is all-in
+Fab1ano: folds 
+Uncalled bet (859) returned to devilfiesch
+devilfiesch collected 750 from pot
+devilfiesch: doesn't show hand 
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Seat 1: ItfahKenichz (button) folded before Flop (didn't bet)
+Seat 2: devilfiesch (small blind) collected (750)
+Seat 3: Fab1ano (big blind) folded before Flop
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345379814: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:45:21 UTC [2026/04/04 15:45:21 ET]
+Table '3989276326 1' 9-max Seat #2 is the button
+Seat 1: ItfahKenichz (883 in chips) is sitting out
+Seat 2: devilfiesch (1609 in chips) 
+Seat 3: Fab1ano (1695 in chips) 
+Seat 5: FURIOSAMG (3369 in chips) 
+Seat 6: scorza23 (2610 in chips) 
+Seat 7: SiddartaGautama (3334 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+Fab1ano: posts small blind 150
+FURIOSAMG: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 7d]
+scorza23: folds 
+SiddartaGautama: folds 
+ItfahKenichz: folds 
+devilfiesch: raises 1284 to 1584 and is all-in
+Fab1ano: folds 
+FURIOSAMG: folds 
+Uncalled bet (1284) returned to devilfiesch
+devilfiesch collected 900 from pot
+devilfiesch: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch (button) collected (900)
+Seat 3: Fab1ano (small blind) folded before Flop
+Seat 5: FURIOSAMG (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345383065: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:45:35 UTC [2026/04/04 15:45:35 ET]
+Table '3989276326 1' 9-max Seat #3 is the button
+Seat 1: ItfahKenichz (858 in chips) is sitting out
+Seat 2: devilfiesch (2184 in chips) 
+Seat 3: Fab1ano (1520 in chips) 
+Seat 5: FURIOSAMG (3044 in chips) 
+Seat 6: scorza23 (2585 in chips) 
+Seat 7: SiddartaGautama (3309 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+FURIOSAMG: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 2s]
+SiddartaGautama: folds 
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+FURIOSAMG: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano (button) folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (450)
+Seat 7: SiddartaGautama folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345386776: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:45:51 UTC [2026/04/04 15:45:51 ET]
+Table '3989276326 1' 9-max Seat #5 is the button
+Seat 1: ItfahKenichz (833 in chips) is sitting out
+Seat 2: devilfiesch (2159 in chips) 
+Seat 3: Fab1ano (1495 in chips) 
+Seat 5: FURIOSAMG (2869 in chips) 
+Seat 6: scorza23 (2860 in chips) 
+Seat 7: SiddartaGautama (3284 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+scorza23: posts small blind 150
+SiddartaGautama: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Kd]
+ItfahKenichz: folds 
+devilfiesch: folds 
+Fab1ano: folds 
+FURIOSAMG: folds 
+scorza23: raises 300 to 600
+SiddartaGautama: calls 300
+*** FLOP *** [8d Td 7c]
+scorza23: checks 
+SiddartaGautama: bets 2659 and is all-in
+scorza23: folds 
+Uncalled bet (2659) returned to SiddartaGautama
+SiddartaGautama collected 1350 from pot
+SiddartaGautama: doesn't show hand 
+*** SUMMARY ***
+Total pot 1350 | Rake 0 
+Board [8d Td 7c]
+Seat 1: ItfahKenichz folded before Flop (didn't bet)
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 5: FURIOSAMG (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded on the Flop
+Seat 7: SiddartaGautama (big blind) collected (1350)
+
+
+
+PokerStars Hand #260345393741: Tournament #3989276326, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 19:46:22 UTC [2026/04/04 15:46:22 ET]
+Table '3989276326 1' 9-max Seat #6 is the button
+Seat 1: ItfahKenichz (808 in chips) is sitting out
+Seat 2: devilfiesch (2134 in chips) 
+Seat 3: Fab1ano (1470 in chips) 
+Seat 5: FURIOSAMG (2844 in chips) 
+Seat 6: scorza23 (2235 in chips) 
+Seat 7: SiddartaGautama (4009 in chips) 
+ItfahKenichz: posts the ante 25
+devilfiesch: posts the ante 25
+Fab1ano: posts the ante 25
+FURIOSAMG: posts the ante 25
+scorza23: posts the ante 25
+SiddartaGautama: posts the ante 25
+SiddartaGautama: posts small blind 150
+ItfahKenichz: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Qs]
+devilfiesch: folds 
+Fab1ano: folds 
+FURIOSAMG: folds 
+scorza23: raises 1910 to 2210 and is all-in
+SiddartaGautama: calls 2060
+ItfahKenichz: folds 
+*** FLOP *** [5c Ac 6s]
+*** TURN *** [5c Ac 6s] [7d]
+*** RIVER *** [5c Ac 6s 7d] [2c]
+*** SHOW DOWN ***
+SiddartaGautama: shows [As 4s] (a pair of Aces)
+scorza23: shows [9d Qs] (high card Ace)
+SiddartaGautama collected 4870 from pot
+scorza23 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 4870 | Rake 0 
+Board [5c Ac 6s 7d 2c]
+Seat 1: ItfahKenichz (big blind) folded before Flop
+Seat 2: devilfiesch folded before Flop (didn't bet)
+Seat 3: Fab1ano folded before Flop (didn't bet)
+Seat 5: FURIOSAMG folded before Flop (didn't bet)
+Seat 6: scorza23 (button) showed [9d Qs] and lost with high card Ace
+Seat 7: SiddartaGautama (small blind) showed [As 4s] and won (4870) with a pair of Aces
+
+
+

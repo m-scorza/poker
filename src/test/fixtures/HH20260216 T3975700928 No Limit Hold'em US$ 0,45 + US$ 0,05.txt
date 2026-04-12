@@ -1,0 +1,3243 @@
+﻿PokerStars Hand #259750473692: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:53:51 UTC [2026/02/16 11:53:51 ET]
+Table '3975700928 2' 8-max Seat #1 is the button
+Seat 1: oxitsa (1500 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: thebigbud81 (1500 in chips) 
+Seat 5: Milanezzz (1500 in chips) is sitting out
+Seat 8: RickPero77 (1500 in chips) 
+oxitsa: posts the ante 3
+scorza23: posts the ante 3
+thebigbud81: posts the ante 3
+Milanezzz: posts the ante 3
+RickPero77: posts the ante 3
+scorza23: posts small blind 10
+thebigbud81: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Th]
+Milanezzz: folds 
+Milanezzz has returned
+androsdojczo is disconnected 
+RickPero77: folds 
+oxitsa: raises 20 to 40
+scorza23: raises 20 to 60
+thebigbud81: folds 
+oxitsa: calls 20
+*** FLOP *** [7d 2c Ac]
+scorza23: bets 78
+oxitsa: folds 
+Uncalled bet (78) returned to scorza23
+scorza23 collected 155 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 155 | Rake 0 
+Board [7d 2c Ac]
+Seat 1: oxitsa (button) folded on the Flop
+Seat 3: scorza23 (small blind) collected (155)
+Seat 4: thebigbud81 (big blind) folded before Flop
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 8: RickPero77 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750483103: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:54:39 UTC [2026/02/16 11:54:39 ET]
+Table '3975700928 2' 8-max Seat #3 is the button
+Seat 1: oxitsa (1437 in chips) 
+Seat 3: scorza23 (1592 in chips) 
+Seat 4: thebigbud81 (1477 in chips) 
+Seat 5: Milanezzz (1497 in chips) 
+Seat 7: androsdojczo (1500 in chips) 
+Seat 8: RickPero77 (1497 in chips) 
+oxitsa: posts the ante 3
+scorza23: posts the ante 3
+thebigbud81: posts the ante 3
+Milanezzz: posts the ante 3
+androsdojczo: posts the ante 3
+RickPero77: posts the ante 3
+thebigbud81: posts small blind 10
+Milanezzz: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 3h]
+androsdojczo: folds 
+RickPero77: folds 
+oxitsa: raises 20 to 40
+scorza23: folds 
+Onionglue is disconnected 
+thebigbud81: folds 
+Teu_Primo69 is disconnected 
+Milanezzz: folds 
+Uncalled bet (20) returned to oxitsa
+oxitsa collected 68 from pot
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Seat 1: oxitsa collected (68)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) folded before Flop
+Seat 5: Milanezzz (big blind) folded before Flop
+Seat 7: androsdojczo folded before Flop (didn't bet)
+Seat 8: RickPero77 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750486341: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:54:56 UTC [2026/02/16 11:54:56 ET]
+Table '3975700928 2' 8-max Seat #4 is the button
+Seat 1: oxitsa (1482 in chips) 
+Seat 2: Onionglue (1500 in chips) 
+Seat 3: scorza23 (1589 in chips) 
+Seat 4: thebigbud81 (1464 in chips) 
+Seat 5: Milanezzz (1474 in chips) 
+Seat 6: Teu_Primo69 (1500 in chips) 
+Seat 8: RickPero77 (1494 in chips) 
+oxitsa: posts the ante 3
+Onionglue: posts the ante 3
+scorza23: posts the ante 3
+thebigbud81: posts the ante 3
+Milanezzz: posts the ante 3
+Teu_Primo69: posts the ante 3
+RickPero77: posts the ante 3
+Milanezzz: posts small blind 10
+Teu_Primo69: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Td]
+RickPero77: folds 
+oxitsa: folds 
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: calls 10
+Teu_Primo69: raises 1477 to 1497 and is all-in
+Milanezzz: folds 
+Uncalled bet (1477) returned to Teu_Primo69
+Teu_Primo69 collected 61 from pot
+Teu_Primo69: doesn't show hand 
+*** SUMMARY ***
+Total pot 61 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 (button) folded before Flop (didn't bet)
+Seat 5: Milanezzz (small blind) folded before Flop
+Seat 6: Teu_Primo69 (big blind) collected (61)
+Seat 8: RickPero77 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750536560: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:00:29 UTC [2026/02/16 12:00:29 ET]
+Table '3975700928 2' 8-max Seat #5 is the button
+Seat 1: oxitsa (1479 in chips) 
+Seat 2: Onionglue (1497 in chips) 
+Seat 3: scorza23 (1586 in chips) 
+Seat 4: thebigbud81 (1461 in chips) 
+Seat 5: Milanezzz (1451 in chips) 
+Seat 6: Teu_Primo69 (1538 in chips) 
+Seat 7: pereira874 (1500 in chips) 
+Seat 8: Rual21039 (1500 in chips) 
+oxitsa: posts the ante 3
+Onionglue: posts the ante 3
+scorza23: posts the ante 3
+thebigbud81: posts the ante 3
+Milanezzz: posts the ante 3
+Teu_Primo69: posts the ante 3
+pereira874: posts the ante 3
+Rual21039: posts the ante 3
+Teu_Primo69: posts small blind 10
+pereira874: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 2d]
+Rual21039: calls 20
+oxitsa has timed out
+oxitsa: folds 
+oxitsa is sitting out
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+Teu_Primo69: calls 10
+pereira874: checks 
+*** FLOP *** [3c As 9c]
+Teu_Primo69: checks 
+oxitsa has returned
+pereira874: checks 
+Rual21039: checks 
+*** TURN *** [3c As 9c] [5d]
+Teu_Primo69: checks 
+pereira874: checks 
+Rual21039: checks 
+*** RIVER *** [3c As 9c 5d] [5c]
+Teu_Primo69: checks 
+pereira874: checks 
+Rual21039: checks 
+*** SHOW DOWN ***
+Teu_Primo69: shows [Kh 4s] (a pair of Fives)
+pereira874: shows [3s Td] (two pair, Fives and Threes)
+Rual21039: mucks hand 
+pereira874 collected 84 from pot
+*** SUMMARY ***
+Total pot 84 | Rake 0 
+Board [3c As 9c 5d 5c]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz (button) folded before Flop (didn't bet)
+Seat 6: Teu_Primo69 (small blind) showed [Kh 4s] and lost with a pair of Fives
+Seat 7: pereira874 (big blind) showed [3s Td] and won (84) with two pair, Fives and Threes
+Seat 8: Rual21039 mucked [8s Tc]
+
+
+
+PokerStars Hand #259750552273: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:01:54 UTC [2026/02/16 12:01:54 ET]
+Table '3975700928 2' 8-max Seat #6 is the button
+Seat 1: oxitsa (1476 in chips) 
+Seat 2: Onionglue (1494 in chips) 
+Seat 3: scorza23 (1583 in chips) 
+Seat 4: thebigbud81 (1458 in chips) 
+Seat 5: Milanezzz (1448 in chips) 
+Seat 6: Teu_Primo69 (1515 in chips) 
+Seat 7: pereira874 (1561 in chips) 
+Seat 8: Rual21039 (1477 in chips) 
+oxitsa: posts the ante 3
+Onionglue: posts the ante 3
+scorza23: posts the ante 3
+thebigbud81: posts the ante 3
+Milanezzz: posts the ante 3
+Teu_Primo69: posts the ante 3
+pereira874: posts the ante 3
+Rual21039: posts the ante 3
+pereira874: posts small blind 10
+Rual21039: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9h]
+oxitsa has timed out
+oxitsa: folds 
+oxitsa is sitting out
+Onionglue: folds 
+scorza23: raises 40 to 60
+oxitsa has returned
+thebigbud81: folds 
+Milanezzz: folds 
+Teu_Primo69: folds 
+pereira874: folds 
+Rual21039: raises 1414 to 1474 and is all-in
+scorza23: folds 
+Uncalled bet (1414) returned to Rual21039
+Rual21039 collected 154 from pot
+Rual21039: doesn't show hand 
+*** SUMMARY ***
+Total pot 154 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 6: Teu_Primo69 (button) folded before Flop (didn't bet)
+Seat 7: pereira874 (small blind) folded before Flop
+Seat 8: Rual21039 (big blind) collected (154)
+
+
+
+PokerStars Hand #259750563016: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:02:49 UTC [2026/02/16 12:02:49 ET]
+Table '3975700928 2' 8-max Seat #7 is the button
+Seat 1: oxitsa (1473 in chips) 
+Seat 2: Onionglue (1491 in chips) 
+Seat 3: scorza23 (1520 in chips) 
+Seat 4: thebigbud81 (1455 in chips) 
+Seat 5: Milanezzz (1445 in chips) 
+Seat 6: Teu_Primo69 (1512 in chips) 
+Seat 7: pereira874 (1548 in chips) 
+Seat 8: Rual21039 (1568 in chips) 
+oxitsa: posts the ante 3
+Onionglue: posts the ante 3
+scorza23: posts the ante 3
+thebigbud81: posts the ante 3
+Milanezzz: posts the ante 3
+Teu_Primo69: posts the ante 3
+pereira874: posts the ante 3
+Rual21039: posts the ante 3
+Rual21039: posts small blind 10
+oxitsa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ac]
+Onionglue: folds 
+scorza23: raises 40 to 60
+thebigbud81: calls 60
+Milanezzz: folds 
+Teu_Primo69: calls 60
+pereira874: folds 
+Rual21039: calls 50
+oxitsa: calls 40
+*** FLOP *** [Th 2c Ah]
+Rual21039: checks 
+oxitsa: checks 
+scorza23: bets 40
+thebigbud81: folds 
+Teu_Primo69: raises 140 to 180
+Rual21039: folds 
+oxitsa: folds 
+scorza23: raises 1277 to 1457 and is all-in
+Teu_Primo69: calls 1269 and is all-in
+Uncalled bet (8) returned to scorza23
+*** TURN *** [Th 2c Ah] [7d]
+*** RIVER *** [Th 2c Ah 7d] [3s]
+*** SHOW DOWN ***
+scorza23: shows [Tc Ac] (two pair, Aces and Tens)
+Teu_Primo69: shows [As Jc] (a pair of Aces)
+scorza23 collected 3222 from pot
+Teu_Primo69 finished the tournament in 32nd place
+*** SUMMARY ***
+Total pot 3222 | Rake 0 
+Board [Th 2c Ah 7d 3s]
+Seat 1: oxitsa (big blind) folded on the Flop
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 showed [Tc Ac] and won (3222) with two pair, Aces and Tens
+Seat 4: thebigbud81 folded on the Flop
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 6: Teu_Primo69 showed [As Jc] and lost with a pair of Aces
+Seat 7: pereira874 (button) folded before Flop (didn't bet)
+Seat 8: Rual21039 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259750576550: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:03:58 UTC [2026/02/16 12:03:58 ET]
+Table '3975700928 2' 8-max Seat #8 is the button
+Seat 1: oxitsa (1410 in chips) 
+Seat 2: Onionglue (1488 in chips) 
+Seat 3: scorza23 (3230 in chips) 
+Seat 4: thebigbud81 (1392 in chips) 
+Seat 5: Milanezzz (1442 in chips) 
+Seat 7: pereira874 (1545 in chips) 
+Seat 8: Rual21039 (1505 in chips) 
+oxitsa: posts the ante 3
+Onionglue: posts the ante 3
+scorza23: posts the ante 3
+thebigbud81: posts the ante 3
+Milanezzz: posts the ante 3
+pereira874: posts the ante 3
+Rual21039: posts the ante 3
+oxitsa: posts small blind 10
+Onionglue: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 2c]
+scorza23: folds 
+thebigbud81: calls 20
+Milanezzz: folds 
+pereira874: folds 
+Rual21039: calls 20
+oxitsa: folds 
+Onionglue: checks 
+*** FLOP *** [4c 6s Kd]
+Onionglue: checks 
+thebigbud81: checks 
+Rual21039: bets 20
+Onionglue: folds 
+thebigbud81: calls 20
+*** TURN *** [4c 6s Kd] [7h]
+thebigbud81: bets 20
+Rual21039: calls 20
+*** RIVER *** [4c 6s Kd 7h] [3h]
+thebigbud81: bets 20
+Rual21039: folds 
+Uncalled bet (20) returned to thebigbud81
+thebigbud81 collected 171 from pot
+thebigbud81: doesn't show hand 
+*** SUMMARY ***
+Total pot 171 | Rake 0 
+Board [4c 6s Kd 7h 3h]
+Seat 1: oxitsa (small blind) folded before Flop
+Seat 2: Onionglue (big blind) folded on the Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 collected (171)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: Rual21039 (button) folded on the River
+
+
+
+PokerStars Hand #259750586966: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:04:50 UTC [2026/02/16 12:04:50 ET]
+Table '3975700928 2' 8-max Seat #1 is the button
+Seat 1: oxitsa (1397 in chips) 
+Seat 2: Onionglue (1465 in chips) 
+Seat 3: scorza23 (3227 in chips) 
+Seat 4: thebigbud81 (1500 in chips) 
+Seat 5: Milanezzz (1439 in chips) 
+Seat 7: pereira874 (1542 in chips) 
+Seat 8: Rual21039 (1442 in chips) 
+oxitsa: posts the ante 4
+Onionglue: posts the ante 4
+scorza23: posts the ante 4
+thebigbud81: posts the ante 4
+Milanezzz: posts the ante 4
+pereira874: posts the ante 4
+Rual21039: posts the ante 4
+Onionglue: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 3s]
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: folds 
+Rual21039: calls 30
+oxitsa: folds 
+Onionglue: folds 
+scorza23: checks 
+*** FLOP *** [As Ad 2d]
+scorza23: checks 
+Rual21039: checks 
+*** TURN *** [As Ad 2d] [4s]
+scorza23: checks 
+Rual21039: checks 
+*** RIVER *** [As Ad 2d 4s] [8s]
+scorza23: checks 
+Rual21039: bets 30
+scorza23: folds 
+Uncalled bet (30) returned to Rual21039
+Rual21039 collected 103 from pot
+Rual21039: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Board [As Ad 2d 4s 8s]
+Seat 1: oxitsa (button) folded before Flop (didn't bet)
+Seat 2: Onionglue (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded on the River
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: Rual21039 collected (103)
+
+
+
+PokerStars Hand #259750599088: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:05:50 UTC [2026/02/16 12:05:50 ET]
+Table '3975700928 2' 8-max Seat #2 is the button
+Seat 1: oxitsa (1393 in chips) 
+Seat 2: Onionglue (1446 in chips) 
+Seat 3: scorza23 (3193 in chips) 
+Seat 4: thebigbud81 (1496 in chips) 
+Seat 5: Milanezzz (1435 in chips) 
+Seat 7: pereira874 (1538 in chips) 
+Seat 8: Rual21039 (1511 in chips) 
+oxitsa: posts the ante 4
+Onionglue: posts the ante 4
+scorza23: posts the ante 4
+thebigbud81: posts the ante 4
+Milanezzz: posts the ante 4
+pereira874: posts the ante 4
+Rual21039: posts the ante 4
+scorza23: posts small blind 15
+thebigbud81: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 3d]
+Milanezzz: folds 
+pereira874: folds 
+Rual21039: calls 30
+oxitsa: calls 30
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: checks 
+*** FLOP *** [Ks 8d 3c]
+thebigbud81: checks 
+Rual21039: bets 30
+oxitsa: folds 
+thebigbud81: calls 30
+*** TURN *** [Ks 8d 3c] [7s]
+thebigbud81: checks 
+Rual21039: bets 30
+thebigbud81: calls 30
+*** RIVER *** [Ks 8d 3c 7s] [Ts]
+thebigbud81: checks 
+Rual21039: checks 
+*** SHOW DOWN ***
+thebigbud81: shows [6d 8s] (a pair of Eights)
+Rual21039: mucks hand 
+thebigbud81 collected 253 from pot
+*** SUMMARY ***
+Total pot 253 | Rake 0 
+Board [Ks 8d 3c 7s Ts]
+Seat 1: oxitsa folded on the Flop
+Seat 2: Onionglue (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: thebigbud81 (big blind) showed [6d 8s] and won (253) with a pair of Eights
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: Rual21039 mucked [5h 5s]
+
+
+
+PokerStars Hand #259750608570: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:06:38 UTC [2026/02/16 12:06:38 ET]
+Table '3975700928 2' 8-max Seat #3 is the button
+Seat 1: oxitsa (1359 in chips) 
+Seat 2: Onionglue (1442 in chips) 
+Seat 3: scorza23 (3174 in chips) 
+Seat 4: thebigbud81 (1655 in chips) 
+Seat 5: Milanezzz (1431 in chips) 
+Seat 7: pereira874 (1534 in chips) 
+Seat 8: Rual21039 (1417 in chips) 
+oxitsa: posts the ante 4
+Onionglue: posts the ante 4
+scorza23: posts the ante 4
+thebigbud81: posts the ante 4
+Milanezzz: posts the ante 4
+pereira874: posts the ante 4
+Rual21039: posts the ante 4
+thebigbud81: posts small blind 15
+Milanezzz: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Kh]
+pereira874: folds 
+Rual21039: raises 30 to 60
+oxitsa: raises 103 to 163
+Onionglue: folds 
+scorza23: raises 103 to 266
+thebigbud81: folds 
+Milanezzz: folds 
+Rual21039: folds 
+oxitsa: raises 1089 to 1355 and is all-in
+scorza23: calls 1089
+*** FLOP *** [Ad 3h Qd]
+*** TURN *** [Ad 3h Qd] [6d]
+*** RIVER *** [Ad 3h Qd 6d] [5d]
+*** SHOW DOWN ***
+oxitsa: shows [As Ac] (three of a kind, Aces)
+scorza23: shows [Ks Kh] (a pair of Kings)
+oxitsa collected 2843 from pot
+*** SUMMARY ***
+Total pot 2843 | Rake 0 
+Board [Ad 3h Qd 6d 5d]
+Seat 1: oxitsa showed [As Ac] and won (2843) with three of a kind, Aces
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 (button) showed [Ks Kh] and lost with a pair of Kings
+Seat 4: thebigbud81 (small blind) folded before Flop
+Seat 5: Milanezzz (big blind) folded before Flop
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: Rual21039 folded before Flop
+
+
+
+PokerStars Hand #259750619737: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:07:34 UTC [2026/02/16 12:07:34 ET]
+Table '3975700928 2' 8-max Seat #4 is the button
+Seat 1: oxitsa (2843 in chips) 
+Seat 2: Onionglue (1438 in chips) 
+Seat 3: scorza23 (1815 in chips) 
+Seat 4: thebigbud81 (1636 in chips) 
+Seat 5: Milanezzz (1397 in chips) 
+Seat 7: pereira874 (1530 in chips) 
+Seat 8: Rual21039 (1353 in chips) 
+oxitsa: posts the ante 4
+Onionglue: posts the ante 4
+scorza23: posts the ante 4
+thebigbud81: posts the ante 4
+Milanezzz: posts the ante 4
+pereira874: posts the ante 4
+Rual21039: posts the ante 4
+Milanezzz: posts small blind 15
+pereira874: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Th]
+Rual21039: calls 30
+oxitsa: folds 
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: checks 
+*** FLOP *** [3d 6h As]
+pereira874: checks 
+Rual21039: bets 30
+pereira874: folds 
+Uncalled bet (30) returned to Rual21039
+Rual21039 collected 103 from pot
+Rual21039: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Board [3d 6h As]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 (button) folded before Flop (didn't bet)
+Seat 5: Milanezzz (small blind) folded before Flop
+Seat 7: pereira874 (big blind) folded on the Flop
+Seat 8: Rual21039 collected (103)
+
+
+
+PokerStars Hand #259750626944: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:08:11 UTC [2026/02/16 12:08:11 ET]
+Table '3975700928 2' 8-max Seat #5 is the button
+Seat 1: oxitsa (2839 in chips) 
+Seat 2: Onionglue (1434 in chips) 
+Seat 3: scorza23 (1811 in chips) 
+Seat 4: thebigbud81 (1632 in chips) 
+Seat 5: Milanezzz (1378 in chips) 
+Seat 7: pereira874 (1496 in chips) 
+Seat 8: Rual21039 (1422 in chips) 
+oxitsa: posts the ante 4
+Onionglue: posts the ante 4
+scorza23: posts the ante 4
+thebigbud81: posts the ante 4
+Milanezzz: posts the ante 4
+pereira874: posts the ante 4
+Rual21039: posts the ante 4
+pereira874: posts small blind 15
+Rual21039: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Qd]
+oxitsa: folds 
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: calls 30
+Milanezzz: folds 
+pereira874: folds 
+Rual21039: checks 
+*** FLOP *** [4h Ac 9d]
+Rual21039: bets 103
+thebigbud81: folds 
+Uncalled bet (103) returned to Rual21039
+Rual21039 collected 103 from pot
+Rual21039: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Board [4h Ac 9d]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded on the Flop
+Seat 5: Milanezzz (button) folded before Flop (didn't bet)
+Seat 7: pereira874 (small blind) folded before Flop
+Seat 8: Rual21039 (big blind) collected (103)
+
+
+
+PokerStars Hand #259750633981: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:08:46 UTC [2026/02/16 12:08:46 ET]
+Table '3975700928 2' 8-max Seat #7 is the button
+Seat 1: oxitsa (2835 in chips) 
+Seat 2: Onionglue (1430 in chips) 
+Seat 3: scorza23 (1807 in chips) 
+Seat 4: thebigbud81 (1598 in chips) 
+Seat 5: Milanezzz (1374 in chips) 
+Seat 7: pereira874 (1477 in chips) 
+Seat 8: Rual21039 (1491 in chips) 
+oxitsa: posts the ante 4
+Onionglue: posts the ante 4
+scorza23: posts the ante 4
+thebigbud81: posts the ante 4
+Milanezzz: posts the ante 4
+pereira874: posts the ante 4
+Rual21039: posts the ante 4
+Rual21039: posts small blind 15
+oxitsa: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Jd]
+Onionglue: folds 
+scorza23: raises 103 to 133
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: folds 
+Rual21039: calls 118
+oxitsa: folds 
+*** FLOP *** [Qs Qd Th]
+Rual21039: bets 30
+scorza23: raises 1640 to 1670 and is all-in
+Rual21039: folds 
+Uncalled bet (1640) returned to scorza23
+scorza23 collected 384 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 384 | Rake 0 
+Board [Qs Qd Th]
+Seat 1: oxitsa (big blind) folded before Flop
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 collected (384)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 (button) folded before Flop (didn't bet)
+Seat 8: Rual21039 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259750639442: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:09:14 UTC [2026/02/16 12:09:14 ET]
+Table '3975700928 2' 8-max Seat #8 is the button
+Seat 1: oxitsa (2801 in chips) 
+Seat 2: Onionglue (1426 in chips) 
+Seat 3: scorza23 (2024 in chips) 
+Seat 4: thebigbud81 (1594 in chips) 
+Seat 5: Milanezzz (1370 in chips) 
+Seat 7: pereira874 (1473 in chips) 
+Seat 8: Rual21039 (1324 in chips) 
+oxitsa: posts the ante 4
+Onionglue: posts the ante 4
+scorza23: posts the ante 4
+thebigbud81: posts the ante 4
+Milanezzz: posts the ante 4
+pereira874: posts the ante 4
+Rual21039: posts the ante 4
+oxitsa: posts small blind 15
+Onionglue: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3d]
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: raises 30 to 60
+Rual21039: calls 60
+oxitsa: calls 45
+Onionglue: folds 
+*** FLOP *** [9h Jh 6s]
+oxitsa: checks 
+pereira874: checks 
+Rual21039: bets 238
+oxitsa: raises 714 to 952
+pereira874: folds 
+Rual21039: raises 308 to 1260 and is all-in
+oxitsa: calls 308
+*** TURN *** [9h Jh 6s] [Ts]
+*** RIVER *** [9h Jh 6s Ts] [5c]
+*** SHOW DOWN ***
+oxitsa: shows [Ac Jc] (a pair of Jacks)
+Rual21039: shows [8h 6d] (a pair of Sixes)
+oxitsa collected 2758 from pot
+Rual21039 finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 2758 | Rake 0 
+Board [9h Jh 6s Ts 5c]
+Seat 1: oxitsa (small blind) showed [Ac Jc] and won (2758) with a pair of Jacks
+Seat 2: Onionglue (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded on the Flop
+Seat 8: Rual21039 (button) showed [8h 6d] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #259750651927: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:10:17 UTC [2026/02/16 12:10:17 ET]
+Table '3975700928 2' 8-max Seat #1 is the button
+Seat 1: oxitsa (4235 in chips) 
+Seat 2: Onionglue (1392 in chips) 
+Seat 3: scorza23 (2020 in chips) 
+Seat 4: thebigbud81 (1590 in chips) 
+Seat 5: Milanezzz (1366 in chips) 
+Seat 7: pereira874 (1409 in chips) 
+oxitsa: posts the ante 6
+Onionglue: posts the ante 6
+scorza23: posts the ante 6
+thebigbud81: posts the ante 6
+Milanezzz: posts the ante 6
+pereira874: posts the ante 6
+Onionglue: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 6h]
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: folds 
+oxitsa: folds 
+Onionglue: raises 200 to 250
+scorza23: folds 
+Uncalled bet (200) returned to Onionglue
+Onionglue collected 136 from pot
+Onionglue: doesn't show hand 
+*** SUMMARY ***
+Total pot 136 | Rake 0 
+Seat 1: oxitsa (button) folded before Flop (didn't bet)
+Seat 2: Onionglue (small blind) collected (136)
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750657064: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:10:43 UTC [2026/02/16 12:10:43 ET]
+Table '3975700928 2' 8-max Seat #2 is the button
+Seat 1: oxitsa (4229 in chips) 
+Seat 2: Onionglue (1472 in chips) 
+Seat 3: scorza23 (1964 in chips) 
+Seat 4: thebigbud81 (1584 in chips) 
+Seat 5: Milanezzz (1360 in chips) 
+Seat 7: pereira874 (1403 in chips) 
+oxitsa: posts the ante 6
+Onionglue: posts the ante 6
+scorza23: posts the ante 6
+thebigbud81: posts the ante 6
+Milanezzz: posts the ante 6
+pereira874: posts the ante 6
+scorza23: posts small blind 25
+thebigbud81: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 7d]
+Milanezzz: folds 
+pereira874: folds 
+oxitsa: folds 
+Onionglue: raises 50 to 100
+scorza23: folds 
+thebigbud81: calls 50
+*** FLOP *** [9h 5h 6s]
+thebigbud81: bets 50
+Onionglue: raises 181 to 231
+inselmüller is disconnected 
+thebigbud81: calls 181
+*** TURN *** [9h 5h 6s] [3d]
+cimentocabuloso is disconnected 
+thebigbud81: checks 
+Onionglue: checks 
+*** RIVER *** [9h 5h 6s 3d] [2d]
+thebigbud81: checks 
+Onionglue: bets 362
+thebigbud81: folds 
+Uncalled bet (362) returned to Onionglue
+Onionglue collected 723 from pot
+Onionglue: doesn't show hand 
+*** SUMMARY ***
+Total pot 723 | Rake 0 
+Board [9h 5h 6s 3d 2d]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue (button) collected (723)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: thebigbud81 (big blind) folded on the River
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750668659: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:11:40 UTC [2026/02/16 12:11:40 ET]
+Table '3975700928 2' 8-max Seat #3 is the button
+Seat 1: oxitsa (4223 in chips) 
+Seat 2: Onionglue (1858 in chips) 
+Seat 3: scorza23 (1933 in chips) 
+Seat 4: thebigbud81 (1247 in chips) 
+Seat 5: Milanezzz (1354 in chips) 
+Seat 6: cimentocabuloso (1438 in chips) 
+Seat 7: pereira874 (1397 in chips) 
+Seat 8: inselmüller (1332 in chips) 
+oxitsa: posts the ante 6
+Onionglue: posts the ante 6
+scorza23: posts the ante 6
+thebigbud81: posts the ante 6
+Milanezzz: posts the ante 6
+cimentocabuloso: posts the ante 6
+pereira874: posts the ante 6
+inselmüller: posts the ante 6
+thebigbud81: posts small blind 25
+Milanezzz: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 7s]
+cimentocabuloso: calls 50
+pereira874: folds 
+inselmüller: calls 50
+oxitsa: folds 
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: calls 25
+Milanezzz: checks 
+*** FLOP *** [9d 7d 8c]
+thebigbud81: checks 
+Milanezzz: checks 
+cimentocabuloso: checks 
+inselmüller: checks 
+*** TURN *** [9d 7d 8c] [6c]
+thebigbud81: checks 
+Milanezzz: bets 82
+cimentocabuloso: raises 1300 to 1382 and is all-in
+inselmüller: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+Uncalled bet (1300) returned to cimentocabuloso
+cimentocabuloso collected 412 from pot
+cimentocabuloso: doesn't show hand 
+*** SUMMARY ***
+Total pot 412 | Rake 0 
+Board [9d 7d 8c 6c]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) folded on the Turn
+Seat 5: Milanezzz (big blind) folded on the Turn
+Seat 6: cimentocabuloso collected (412)
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: inselmüller folded on the Turn
+
+
+
+PokerStars Hand #259750687093: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:13:11 UTC [2026/02/16 12:13:11 ET]
+Table '3975700928 2' 8-max Seat #4 is the button
+Seat 1: oxitsa (4217 in chips) 
+Seat 2: Onionglue (1852 in chips) 
+Seat 3: scorza23 (1927 in chips) 
+Seat 4: thebigbud81 (1191 in chips) 
+Seat 5: Milanezzz (1216 in chips) 
+Seat 6: cimentocabuloso (1712 in chips) 
+Seat 7: pereira874 (1391 in chips) 
+Seat 8: inselmüller (1276 in chips) 
+oxitsa: posts the ante 6
+Onionglue: posts the ante 6
+scorza23: posts the ante 6
+thebigbud81: posts the ante 6
+Milanezzz: posts the ante 6
+cimentocabuloso: posts the ante 6
+pereira874: posts the ante 6
+inselmüller: posts the ante 6
+Milanezzz: posts small blind 25
+cimentocabuloso: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 9s]
+pereira874: folds 
+inselmüller: calls 50
+oxitsa: calls 50
+Onionglue: raises 250 to 300
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+cimentocabuloso: folds 
+inselmüller: folds 
+oxitsa: folds 
+Uncalled bet (250) returned to Onionglue
+Onionglue collected 273 from pot
+Onionglue: doesn't show hand 
+*** SUMMARY ***
+Total pot 273 | Rake 0 
+Seat 1: oxitsa folded before Flop
+Seat 2: Onionglue collected (273)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 (button) folded before Flop (didn't bet)
+Seat 5: Milanezzz (small blind) folded before Flop
+Seat 6: cimentocabuloso (big blind) folded before Flop
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: inselmüller folded before Flop
+
+
+
+PokerStars Hand #259750695276: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:13:52 UTC [2026/02/16 12:13:52 ET]
+Table '3975700928 2' 8-max Seat #5 is the button
+Seat 1: oxitsa (4161 in chips) 
+Seat 2: Onionglue (2069 in chips) 
+Seat 3: scorza23 (1921 in chips) 
+Seat 4: thebigbud81 (1185 in chips) 
+Seat 5: Milanezzz (1185 in chips) 
+Seat 6: cimentocabuloso (1656 in chips) 
+Seat 7: pereira874 (1385 in chips) 
+Seat 8: inselmüller (1220 in chips) 
+oxitsa: posts the ante 6
+Onionglue: posts the ante 6
+scorza23: posts the ante 6
+thebigbud81: posts the ante 6
+Milanezzz: posts the ante 6
+cimentocabuloso: posts the ante 6
+pereira874: posts the ante 6
+inselmüller: posts the ante 6
+cimentocabuloso: posts small blind 25
+pereira874: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 4s]
+inselmüller: calls 50
+oxitsa: folds 
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+cimentocabuloso: calls 25
+pereira874: checks 
+*** FLOP *** [2s Qc 5d]
+cimentocabuloso: checks 
+pereira874: checks 
+inselmüller: checks 
+*** TURN *** [2s Qc 5d] [9c]
+cimentocabuloso: checks 
+pereira874: checks 
+inselmüller: checks 
+*** RIVER *** [2s Qc 5d 9c] [7h]
+cimentocabuloso: checks 
+pereira874: checks 
+inselmüller: checks 
+*** SHOW DOWN ***
+cimentocabuloso: shows [4h Kc] (high card King)
+pereira874: mucks hand 
+inselmüller: mucks hand 
+cimentocabuloso collected 198 from pot
+*** SUMMARY ***
+Total pot 198 | Rake 0 
+Board [2s Qc 5d 9c 7h]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz (button) folded before Flop (didn't bet)
+Seat 6: cimentocabuloso (small blind) showed [4h Kc] and won (198) with high card King
+Seat 7: pereira874 (big blind) mucked [3s 8c]
+Seat 8: inselmüller mucked [3d 4d]
+
+
+
+PokerStars Hand #259750710209: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:15:06 UTC [2026/02/16 12:15:06 ET]
+Table '3975700928 2' 8-max Seat #6 is the button
+Seat 1: oxitsa (4155 in chips) 
+Seat 2: Onionglue (2063 in chips) 
+Seat 3: scorza23 (1915 in chips) 
+Seat 4: thebigbud81 (1179 in chips) 
+Seat 5: Milanezzz (1179 in chips) 
+Seat 6: cimentocabuloso (1798 in chips) 
+Seat 7: pereira874 (1329 in chips) 
+Seat 8: inselmüller (1164 in chips) 
+oxitsa: posts the ante 10
+Onionglue: posts the ante 10
+scorza23: posts the ante 10
+thebigbud81: posts the ante 10
+Milanezzz: posts the ante 10
+cimentocabuloso: posts the ante 10
+pereira874: posts the ante 10
+inselmüller: posts the ante 10
+pereira874: posts small blind 40
+inselmüller: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 6s]
+oxitsa: folds 
+Onionglue: folds 
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+cimentocabuloso: calls 80
+pereira874: calls 40
+inselmüller: checks 
+*** FLOP *** [4d Ad Js]
+pereira874: checks 
+inselmüller: checks 
+cimentocabuloso: bets 160
+pereira874: folds 
+inselmüller: folds 
+Uncalled bet (160) returned to cimentocabuloso
+cimentocabuloso collected 320 from pot
+cimentocabuloso: doesn't show hand 
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Board [4d Ad Js]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 6: cimentocabuloso (button) collected (320)
+Seat 7: pereira874 (small blind) folded on the Flop
+Seat 8: inselmüller (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259750723787: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:16:12 UTC [2026/02/16 12:16:12 ET]
+Table '3975700928 2' 8-max Seat #7 is the button
+Seat 1: oxitsa (4145 in chips) 
+Seat 2: Onionglue (2053 in chips) 
+Seat 3: scorza23 (1905 in chips) 
+Seat 4: thebigbud81 (1169 in chips) 
+Seat 5: Milanezzz (1169 in chips) 
+Seat 6: cimentocabuloso (2028 in chips) 
+Seat 7: pereira874 (1239 in chips) 
+Seat 8: inselmüller (1074 in chips) 
+oxitsa: posts the ante 10
+Onionglue: posts the ante 10
+scorza23: posts the ante 10
+thebigbud81: posts the ante 10
+Milanezzz: posts the ante 10
+cimentocabuloso: posts the ante 10
+pereira874: posts the ante 10
+inselmüller: posts the ante 10
+inselmüller: posts small blind 40
+oxitsa: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 8h]
+Onionglue: folds 
+scorza23: raises 160 to 240
+thebigbud81: folds 
+Milanezzz: folds 
+cimentocabuloso: folds 
+pereira874: folds 
+inselmüller: calls 200
+oxitsa: folds 
+*** FLOP *** [7s Qh Jd]
+inselmüller: checks 
+scorza23: checks 
+*** TURN *** [7s Qh Jd] [Th]
+inselmüller: checks 
+scorza23: bets 320
+inselmüller: calls 320
+*** RIVER *** [7s Qh Jd Th] [Td]
+inselmüller: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+inselmüller: shows [7c Kc] (two pair, Tens and Sevens)
+scorza23: shows [8d 8h] (two pair, Tens and Eights)
+scorza23 collected 1280 from pot
+*** SUMMARY ***
+Total pot 1280 | Rake 0 
+Board [7s Qh Jd Th Td]
+Seat 1: oxitsa (big blind) folded before Flop
+Seat 2: Onionglue folded before Flop (didn't bet)
+Seat 3: scorza23 showed [8d 8h] and won (1280) with two pair, Tens and Eights
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 6: cimentocabuloso folded before Flop (didn't bet)
+Seat 7: pereira874 (button) folded before Flop (didn't bet)
+Seat 8: inselmüller (small blind) showed [7c Kc] and lost with two pair, Tens and Sevens
+
+
+
+PokerStars Hand #259750730645: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:16:46 UTC [2026/02/16 12:16:46 ET]
+Table '3975700928 2' 8-max Seat #8 is the button
+Seat 1: oxitsa (4055 in chips) 
+Seat 2: Onionglue (2043 in chips) 
+Seat 3: scorza23 (2615 in chips) 
+Seat 4: thebigbud81 (1159 in chips) 
+Seat 5: Milanezzz (1159 in chips) 
+Seat 6: cimentocabuloso (2018 in chips) 
+Seat 7: pereira874 (1229 in chips) 
+Seat 8: inselmüller (504 in chips) 
+oxitsa: posts the ante 10
+Onionglue: posts the ante 10
+scorza23: posts the ante 10
+thebigbud81: posts the ante 10
+Milanezzz: posts the ante 10
+cimentocabuloso: posts the ante 10
+pereira874: posts the ante 10
+inselmüller: posts the ante 10
+oxitsa: posts small blind 40
+Onionglue: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 8s]
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: raises 80 to 160
+cimentocabuloso: folds 
+pereira874: calls 160
+inselmüller: calls 160
+oxitsa: folds 
+Onionglue: calls 80
+*** FLOP *** [9s 7h Qc]
+Onionglue: checks 
+Milanezzz: checks 
+pereira874: checks 
+inselmüller: checks 
+*** TURN *** [9s 7h Qc] [Kd]
+Onionglue: bets 380
+Milanezzz: folds 
+pereira874: folds 
+inselmüller: calls 334 and is all-in
+Uncalled bet (46) returned to Onionglue
+*** RIVER *** [9s 7h Qc Kd] [7c]
+*** SHOW DOWN ***
+Onionglue: shows [Qd 2d] (two pair, Queens and Sevens)
+inselmüller: shows [Ac 7d] (three of a kind, Sevens)
+inselmüller collected 1428 from pot
+*** SUMMARY ***
+Total pot 1428 | Rake 0 
+Board [9s 7h Qc Kd 7c]
+Seat 1: oxitsa (small blind) folded before Flop
+Seat 2: Onionglue (big blind) showed [Qd 2d] and lost with two pair, Queens and Sevens
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded on the Turn
+Seat 6: cimentocabuloso folded before Flop (didn't bet)
+Seat 7: pereira874 folded on the Turn
+Seat 8: inselmüller (button) showed [Ac 7d] and won (1428) with three of a kind, Sevens
+
+
+
+PokerStars Hand #259750745896: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:17:59 UTC [2026/02/16 12:17:59 ET]
+Table '3975700928 2' 8-max Seat #1 is the button
+Seat 1: oxitsa (4005 in chips) 
+Seat 2: Onionglue (1539 in chips) 
+Seat 3: scorza23 (2605 in chips) 
+Seat 4: thebigbud81 (1149 in chips) 
+Seat 5: Milanezzz (989 in chips) 
+Seat 7: pereira874 (1059 in chips) 
+Seat 8: inselmüller (1428 in chips) 
+oxitsa: posts the ante 10
+Onionglue: posts the ante 10
+scorza23: posts the ante 10
+thebigbud81: posts the ante 10
+Milanezzz: posts the ante 10
+pereira874: posts the ante 10
+inselmüller: posts the ante 10
+Onionglue: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Jh]
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: folds 
+inselmüller: folds 
+oxitsa: folds 
+Onionglue: raises 1449 to 1529 and is all-in
+scorza23: calls 1449
+*** FLOP *** [Ah 2h Kc]
+*** TURN *** [Ah 2h Kc] [5h]
+*** RIVER *** [Ah 2h Kc 5h] [Qc]
+*** SHOW DOWN ***
+Onionglue: shows [Kd 7h] (a pair of Kings)
+scorza23: shows [Ad Jh] (a pair of Aces)
+scorza23 collected 3128 from pot
+Onionglue finished the tournament in 21st place
+*** SUMMARY ***
+Total pot 3128 | Rake 0 
+Board [Ah 2h Kc 5h Qc]
+Seat 1: oxitsa (button) folded before Flop (didn't bet)
+Seat 2: Onionglue (small blind) showed [Kd 7h] and lost with a pair of Kings
+Seat 3: scorza23 (big blind) showed [Ad Jh] and won (3128) with a pair of Aces
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: inselmüller folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750752493: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:18:31 UTC [2026/02/16 12:18:31 ET]
+Table '3975700928 2' 8-max Seat #3 is the button
+Seat 1: oxitsa (3995 in chips) 
+Seat 3: scorza23 (4194 in chips) 
+Seat 4: thebigbud81 (1139 in chips) 
+Seat 5: Milanezzz (979 in chips) 
+Seat 7: pereira874 (1049 in chips) 
+Seat 8: inselmüller (1418 in chips) 
+oxitsa: posts the ante 10
+scorza23: posts the ante 10
+thebigbud81: posts the ante 10
+Milanezzz: posts the ante 10
+pereira874: posts the ante 10
+inselmüller: posts the ante 10
+thebigbud81: posts small blind 40
+Milanezzz: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Td]
+pereira874: folds 
+inselmüller: folds 
+oxitsa: folds 
+scorza23: folds 
+thebigbud81: raises 80 to 160
+Milanezzz: folds 
+Uncalled bet (80) returned to thebigbud81
+thebigbud81 collected 220 from pot
+thebigbud81: doesn't show hand 
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) collected (220)
+Seat 5: Milanezzz (big blind) folded before Flop
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: inselmüller folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750756874: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:18:52 UTC [2026/02/16 12:18:52 ET]
+Table '3975700928 2' 8-max Seat #4 is the button
+Seat 1: oxitsa (3985 in chips) 
+Seat 3: scorza23 (4184 in chips) 
+Seat 4: thebigbud81 (1269 in chips) 
+Seat 5: Milanezzz (889 in chips) 
+Seat 7: pereira874 (1039 in chips) 
+Seat 8: inselmüller (1408 in chips) 
+oxitsa: posts the ante 10
+scorza23: posts the ante 10
+thebigbud81: posts the ante 10
+Milanezzz: posts the ante 10
+pereira874: posts the ante 10
+inselmüller: posts the ante 10
+Milanezzz: posts small blind 40
+pereira874: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 6d]
+inselmüller: folds 
+oxitsa: folds 
+scorza23: folds 
+thebigbud81: raises 1179 to 1259 and is all-in
+Milanezzz: folds 
+pereira874: folds 
+Uncalled bet (1179) returned to thebigbud81
+thebigbud81 collected 260 from pot
+thebigbud81: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 (button) collected (260)
+Seat 5: Milanezzz (small blind) folded before Flop
+Seat 7: pereira874 (big blind) folded before Flop
+Seat 8: inselmüller folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750760185: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:19:08 UTC [2026/02/16 12:19:08 ET]
+Table '3975700928 2' 8-max Seat #5 is the button
+Seat 1: oxitsa (3975 in chips) 
+Seat 3: scorza23 (4174 in chips) 
+Seat 4: thebigbud81 (1439 in chips) 
+Seat 5: Milanezzz (839 in chips) 
+Seat 7: pereira874 (949 in chips) 
+Seat 8: inselmüller (1398 in chips) 
+oxitsa: posts the ante 10
+scorza23: posts the ante 10
+thebigbud81: posts the ante 10
+Milanezzz: posts the ante 10
+pereira874: posts the ante 10
+inselmüller: posts the ante 10
+pereira874: posts small blind 40
+inselmüller: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 7c]
+oxitsa: folds 
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: folds 
+Uncalled bet (40) returned to inselmüller
+inselmüller collected 140 from pot
+inselmüller: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz (button) folded before Flop (didn't bet)
+Seat 7: pereira874 (small blind) folded before Flop
+Seat 8: inselmüller (big blind) collected (140)
+
+
+
+PokerStars Hand #259750765158: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:19:32 UTC [2026/02/16 12:19:32 ET]
+Table '3975700928 2' 8-max Seat #7 is the button
+Seat 1: oxitsa (3965 in chips) 
+Seat 3: scorza23 (4164 in chips) 
+Seat 4: thebigbud81 (1429 in chips) 
+Seat 5: Milanezzz (829 in chips) 
+Seat 7: pereira874 (899 in chips) 
+Seat 8: inselmüller (1488 in chips) 
+oxitsa: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+pereira874: posts the ante 15
+inselmüller: posts the ante 15
+inselmüller: posts small blind 60
+oxitsa: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 4h]
+scorza23: folds 
+thebigbud81: raises 1294 to 1414 and is all-in
+Milanezzz: calls 814 and is all-in
+pereira874: folds 
+inselmüller: folds 
+oxitsa: folds 
+Uncalled bet (600) returned to thebigbud81
+*** FLOP *** [Qh Ac 5h]
+*** TURN *** [Qh Ac 5h] [2d]
+*** RIVER *** [Qh Ac 5h 2d] [2c]
+*** SHOW DOWN ***
+thebigbud81: shows [Ah Th] (two pair, Aces and Deuces)
+Milanezzz: shows [Jh Ad] (two pair, Aces and Deuces)
+thebigbud81 collected 949 from pot
+Milanezzz collected 949 from pot
+*** SUMMARY ***
+Total pot 1898 | Rake 0 
+Board [Qh Ac 5h 2d 2c]
+Seat 1: oxitsa (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 showed [Ah Th] and won (949) with two pair, Aces and Deuces
+Seat 5: Milanezzz showed [Jh Ad] and won (949) with two pair, Aces and Deuces
+Seat 7: pereira874 (button) folded before Flop (didn't bet)
+Seat 8: inselmüller (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750771430: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:20:02 UTC [2026/02/16 12:20:02 ET]
+Table '3975700928 2' 8-max Seat #8 is the button
+Seat 1: oxitsa (3830 in chips) 
+Seat 3: scorza23 (4149 in chips) 
+Seat 4: thebigbud81 (1549 in chips) 
+Seat 5: Milanezzz (949 in chips) 
+Seat 7: pereira874 (884 in chips) 
+Seat 8: inselmüller (1413 in chips) 
+oxitsa: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+pereira874: posts the ante 15
+inselmüller: posts the ante 15
+oxitsa: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Kd]
+thebigbud81: folds 
+Milanezzz: folds 
+pereira874: folds 
+inselmüller: folds 
+oxitsa: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 210 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 1: oxitsa (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (210)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: inselmüller (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750776889: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:20:29 UTC [2026/02/16 12:20:29 ET]
+Table '3975700928 2' 8-max Seat #1 is the button
+Seat 1: oxitsa (3755 in chips) 
+Seat 3: scorza23 (4284 in chips) 
+Seat 4: thebigbud81 (1534 in chips) 
+Seat 5: Milanezzz (934 in chips) 
+Seat 7: pereira874 (869 in chips) 
+Seat 8: inselmüller (1398 in chips) 
+oxitsa: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+pereira874: posts the ante 15
+inselmüller: posts the ante 15
+scorza23: posts small blind 60
+thebigbud81: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2c]
+Milanezzz: folds 
+pereira874: folds 
+inselmüller: folds 
+oxitsa: raises 120 to 240
+scorza23: folds 
+thebigbud81: folds 
+Uncalled bet (120) returned to oxitsa
+oxitsa collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: oxitsa (button) collected (390)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: thebigbud81 (big blind) folded before Flop
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 7: pereira874 folded before Flop (didn't bet)
+Seat 8: inselmüller folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750779732: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:20:42 UTC [2026/02/16 12:20:42 ET]
+Table '3975700928 2' 8-max Seat #3 is the button
+Seat 1: oxitsa (4010 in chips) 
+Seat 3: scorza23 (4209 in chips) 
+Seat 4: thebigbud81 (1399 in chips) 
+Seat 5: Milanezzz (919 in chips) 
+Seat 7: pereira874 (854 in chips) 
+Seat 8: inselmüller (1383 in chips) 
+oxitsa: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+pereira874: posts the ante 15
+inselmüller: posts the ante 15
+thebigbud81: posts small blind 60
+Milanezzz: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Ts]
+pereira874: raises 719 to 839 and is all-in
+inselmüller: folds 
+oxitsa: folds 
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: calls 719
+*** FLOP *** [2h 9c Jh]
+*** TURN *** [2h 9c Jh] [Kc]
+*** RIVER *** [2h 9c Jh Kc] [Ah]
+*** SHOW DOWN ***
+Milanezzz: shows [Ad Td] (a pair of Aces)
+pereira874: shows [6s 6d] (a pair of Sixes)
+Milanezzz collected 1828 from pot
+pereira874 finished the tournament in 19th place
+*** SUMMARY ***
+Total pot 1828 | Rake 0 
+Board [2h 9c Jh Kc Ah]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) folded before Flop
+Seat 5: Milanezzz (big blind) showed [Ad Td] and won (1828) with a pair of Aces
+Seat 7: pereira874 showed [6s 6d] and lost with a pair of Sixes
+Seat 8: inselmüller folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750786554: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:21:15 UTC [2026/02/16 12:21:15 ET]
+Table '3975700928 2' 8-max Seat #4 is the button
+Seat 1: oxitsa (3995 in chips) 
+Seat 3: scorza23 (4194 in chips) 
+Seat 4: thebigbud81 (1324 in chips) 
+Seat 5: Milanezzz (1893 in chips) 
+Seat 8: inselmüller (1368 in chips) 
+oxitsa: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+inselmüller: posts the ante 15
+Milanezzz: posts small blind 60
+inselmüller: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6d]
+nikos195586 is disconnected 
+oxitsa: folds 
+scorza23: folds 
+thebigbud81: raises 1189 to 1309 and is all-in
+Milanezzz: folds 
+inselmüller: folds 
+Uncalled bet (1189) returned to thebigbud81
+thebigbud81 collected 375 from pot
+thebigbud81: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 (button) collected (375)
+Seat 5: Milanezzz (small blind) folded before Flop
+Seat 8: inselmüller (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750790105: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:21:32 UTC [2026/02/16 12:21:32 ET]
+Table '3975700928 2' 8-max Seat #5 is the button
+Seat 1: oxitsa (3980 in chips) 
+Seat 2: nikos195586 (3966 in chips) 
+Seat 3: scorza23 (4179 in chips) 
+Seat 4: thebigbud81 (1564 in chips) 
+Seat 5: Milanezzz (1818 in chips) 
+Seat 8: inselmüller (1233 in chips) 
+oxitsa: posts the ante 15
+nikos195586: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+inselmüller: posts the ante 15
+inselmüller: posts small blind 60
+oxitsa: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [As 7h]
+nikos195586: calls 120
+scorza23: raises 240 to 360
+thebigbud81: folds 
+Milanezzz: folds 
+inselmüller: folds 
+oxitsa: folds 
+nikos195586: calls 240
+*** FLOP *** [9d 2d 6s]
+nikos195586: checks 
+scorza23: checks 
+*** TURN *** [9d 2d 6s] [9c]
+nikos195586: checks 
+scorza23: checks 
+*** RIVER *** [9d 2d 6s 9c] [3s]
+nikos195586: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+nikos195586: shows [8d Qc] (a pair of Nines)
+scorza23: shows [As 7h] (a pair of Nines - Ace kicker)
+scorza23 collected 990 from pot
+*** SUMMARY ***
+Total pot 990 | Rake 0 
+Board [9d 2d 6s 9c 3s]
+Seat 1: oxitsa (big blind) folded before Flop
+Seat 2: nikos195586 showed [8d Qc] and lost with a pair of Nines
+Seat 3: scorza23 showed [As 7h] and won (990) with a pair of Nines
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz (button) folded before Flop (didn't bet)
+Seat 8: inselmüller (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750800816: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:22:23 UTC [2026/02/16 12:22:23 ET]
+Table '3975700928 2' 8-max Seat #8 is the button
+Seat 1: oxitsa (3845 in chips) 
+Seat 2: nikos195586 (3591 in chips) 
+Seat 3: scorza23 (4794 in chips) 
+Seat 4: thebigbud81 (1549 in chips) 
+Seat 5: Milanezzz (1803 in chips) 
+Seat 8: inselmüller (1158 in chips) 
+oxitsa: posts the ante 15
+nikos195586: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+inselmüller: posts the ante 15
+oxitsa: posts small blind 60
+nikos195586: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 9h]
+scorza23: folds 
+thebigbud81: raises 1414 to 1534 and is all-in
+Milanezzz: folds 
+inselmüller: folds 
+oxitsa: folds 
+nikos195586: folds 
+Uncalled bet (1414) returned to thebigbud81
+thebigbud81 collected 390 from pot
+thebigbud81: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: oxitsa (small blind) folded before Flop
+Seat 2: nikos195586 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 collected (390)
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 8: inselmüller (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750804073: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:22:39 UTC [2026/02/16 12:22:39 ET]
+Table '3975700928 2' 8-max Seat #1 is the button
+Seat 1: oxitsa (3770 in chips) 
+Seat 2: nikos195586 (3456 in chips) 
+Seat 3: scorza23 (4779 in chips) 
+Seat 4: thebigbud81 (1804 in chips) 
+Seat 5: Milanezzz (1788 in chips) 
+Seat 8: inselmüller (1143 in chips) 
+oxitsa: posts the ante 15
+nikos195586: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+inselmüller: posts the ante 15
+nikos195586: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 7d]
+thebigbud81: folds 
+Milanezzz: raises 120 to 240
+inselmüller: raises 888 to 1128 and is all-in
+oxitsa: folds 
+nikos195586: folds 
+scorza23: folds 
+Milanezzz: calls 888
+*** FLOP *** [5s Js 4h]
+*** TURN *** [5s Js 4h] [Jh]
+*** RIVER *** [5s Js 4h Jh] [8h]
+*** SHOW DOWN ***
+Milanezzz: shows [Kd Qd] (a pair of Jacks)
+inselmüller: shows [Kh As] (a pair of Jacks - Ace kicker)
+inselmüller collected 2526 from pot
+*** SUMMARY ***
+Total pot 2526 | Rake 0 
+Board [5s Js 4h Jh 8h]
+Seat 1: oxitsa (button) folded before Flop (didn't bet)
+Seat 2: nikos195586 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz showed [Kd Qd] and lost with a pair of Jacks
+Seat 8: inselmüller showed [Kh As] and won (2526) with a pair of Jacks
+
+
+
+PokerStars Hand #259750811339: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:23:14 UTC [2026/02/16 12:23:14 ET]
+Table '3975700928 2' 8-max Seat #2 is the button
+Seat 1: oxitsa (3755 in chips) 
+Seat 2: nikos195586 (3381 in chips) 
+Seat 3: scorza23 (4644 in chips) 
+Seat 4: thebigbud81 (1789 in chips) 
+Seat 5: Milanezzz (645 in chips) 
+Seat 8: inselmüller (2526 in chips) 
+oxitsa: posts the ante 15
+nikos195586: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+inselmüller: posts the ante 15
+scorza23: posts small blind 60
+thebigbud81: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 6c]
+Milanezzz: folds 
+inselmüller: folds 
+oxitsa: folds 
+nikos195586: folds 
+scorza23: raises 240 to 360
+thebigbud81: folds 
+Uncalled bet (240) returned to scorza23
+scorza23 collected 330 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: nikos195586 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) collected (330)
+Seat 4: thebigbud81 (big blind) folded before Flop
+Seat 5: Milanezzz folded before Flop (didn't bet)
+Seat 8: inselmüller folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750816840: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:23:40 UTC [2026/02/16 12:23:40 ET]
+Table '3975700928 2' 8-max Seat #3 is the button
+Seat 1: oxitsa (3740 in chips) 
+Seat 2: nikos195586 (3366 in chips) 
+Seat 3: scorza23 (4839 in chips) 
+Seat 4: thebigbud81 (1654 in chips) 
+Seat 5: Milanezzz (630 in chips) 
+Seat 8: inselmüller (2511 in chips) 
+oxitsa: posts the ante 15
+nikos195586: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+inselmüller: posts the ante 15
+thebigbud81: posts small blind 60
+Milanezzz: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 3s]
+inselmüller: folds 
+oxitsa: folds 
+nikos195586: folds 
+scorza23: folds 
+thebigbud81: raises 120 to 240
+Milanezzz: folds 
+Uncalled bet (120) returned to thebigbud81
+thebigbud81 collected 330 from pot
+thebigbud81: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: nikos195586 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) collected (330)
+Seat 5: Milanezzz (big blind) folded before Flop
+Seat 8: inselmüller folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750820250: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 17:23:56 UTC [2026/02/16 12:23:56 ET]
+Table '3975700928 2' 8-max Seat #4 is the button
+Seat 1: oxitsa (3725 in chips) 
+Seat 2: nikos195586 (3351 in chips) 
+Seat 3: scorza23 (4824 in chips) 
+Seat 4: thebigbud81 (1849 in chips) 
+Seat 5: Milanezzz (495 in chips) 
+Seat 8: inselmüller (2496 in chips) 
+oxitsa: posts the ante 15
+nikos195586: posts the ante 15
+scorza23: posts the ante 15
+thebigbud81: posts the ante 15
+Milanezzz: posts the ante 15
+inselmüller: posts the ante 15
+Milanezzz: posts small blind 60
+inselmüller: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 2h]
+oxitsa: folds 
+nikos195586: calls 120
+scorza23: folds 
+thebigbud81: folds 
+Milanezzz: folds 
+inselmüller: checks 
+*** FLOP *** [5c Ah Kd]
+inselmüller: checks 
+nikos195586: checks 
+*** TURN *** [5c Ah Kd] [Tc]
+inselmüller: checks 
+nikos195586: bets 120
+inselmüller: calls 120
+*** RIVER *** [5c Ah Kd Tc] [Qd]
+inselmüller: checks 
+nikos195586: checks 
+*** SHOW DOWN ***
+inselmüller: shows [4h 3d] (high card Ace)
+nikos195586: shows [7d 5d] (a pair of Fives)
+nikos195586 collected 630 from pot
+*** SUMMARY ***
+Total pot 630 | Rake 0 
+Board [5c Ah Kd Tc Qd]
+Seat 1: oxitsa folded before Flop (didn't bet)
+Seat 2: nikos195586 showed [7d 5d] and won (630) with a pair of Fives
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 (button) folded before Flop (didn't bet)
+Seat 5: Milanezzz (small blind) folded before Flop
+Seat 8: inselmüller (big blind) showed [4h 3d] and lost with high card Ace
+
+
+
+PokerStars Hand #259750827325: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:24:30 UTC [2026/02/16 12:24:30 ET]
+Table '3975700928 2' 8-max Seat #5 is the button
+Seat 1: oxitsa (3710 in chips) 
+Seat 2: nikos195586 (3726 in chips) 
+Seat 3: scorza23 (4809 in chips) 
+Seat 4: thebigbud81 (1834 in chips) 
+Seat 5: Milanezzz (420 in chips) 
+Seat 8: inselmüller (2241 in chips) 
+oxitsa: posts the ante 20
+nikos195586: posts the ante 20
+scorza23: posts the ante 20
+thebigbud81: posts the ante 20
+Milanezzz: posts the ante 20
+inselmüller: posts the ante 20
+inselmüller: posts small blind 80
+oxitsa: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Jd]
+nikos195586: folds 
+scorza23: raises 320 to 480
+thebigbud81: folds 
+Milanezzz: folds 
+inselmüller: folds 
+oxitsa: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 520 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: oxitsa (big blind) folded before Flop
+Seat 2: nikos195586 folded before Flop (didn't bet)
+Seat 3: scorza23 collected (520)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz (button) folded before Flop (didn't bet)
+Seat 8: inselmüller (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750831313: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:24:49 UTC [2026/02/16 12:24:49 ET]
+Table '3975700928 2' 8-max Seat #8 is the button
+Seat 1: oxitsa (3530 in chips) 
+Seat 2: nikos195586 (3706 in chips) 
+Seat 3: scorza23 (5149 in chips) 
+Seat 4: thebigbud81 (1814 in chips) 
+Seat 5: Milanezzz (400 in chips) 
+Seat 8: inselmüller (2141 in chips) 
+oxitsa: posts the ante 20
+nikos195586: posts the ante 20
+scorza23: posts the ante 20
+thebigbud81: posts the ante 20
+Milanezzz: posts the ante 20
+inselmüller: posts the ante 20
+oxitsa: posts small blind 80
+nikos195586: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Kc]
+scorza23: raises 320 to 480
+thebigbud81: folds 
+Milanezzz: calls 380 and is all-in
+inselmüller: folds 
+oxitsa: folds 
+nikos195586: calls 320
+*** FLOP *** [9c Kd 2s]
+nikos195586: bets 160
+scorza23: raises 4489 to 4649 and is all-in
+nikos195586: calls 3046 and is all-in
+Uncalled bet (1443) returned to scorza23
+*** TURN *** [9c Kd 2s] [3d]
+*** RIVER *** [9c Kd 2s 3d] [3h]
+*** SHOW DOWN ***
+nikos195586: shows [Th Kh] (two pair, Kings and Threes)
+scorza23: shows [Jh Kc] (two pair, Kings and Threes - Jack kicker)
+scorza23 collected 6612 from side pot
+Milanezzz: shows [7h 7c] (two pair, Sevens and Threes)
+scorza23 collected 1340 from main pot
+nikos195586 finished the tournament in 16th place
+Milanezzz finished the tournament in 17th place
+*** SUMMARY ***
+Total pot 7952 Main pot 1340. Side pot 6612. | Rake 0 
+Board [9c Kd 2s 3d 3h]
+Seat 1: oxitsa (small blind) folded before Flop
+Seat 2: nikos195586 (big blind) showed [Th Kh] and lost with two pair, Kings and Threes
+Seat 3: scorza23 showed [Jh Kc] and won (7952) with two pair, Kings and Threes
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 5: Milanezzz showed [7h 7c] and lost with two pair, Sevens and Threes
+Seat 8: inselmüller (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750850950: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:26:23 UTC [2026/02/16 12:26:23 ET]
+Table '3975700928 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (9395 in chips) 
+Seat 2: Pentecoste54 (875 in chips) 
+Seat 3: feio558 (4022 in chips) 
+Seat 4: oxitsa (3430 in chips) 
+Seat 5: inselmüller (2121 in chips) 
+Seat 6: BelaVista-123 (729 in chips) 
+Seat 7: benoli63 (4461 in chips) 
+Seat 8: padfoot369 (2226 in chips) 
+scorza23: posts the ante 20
+Pentecoste54: posts the ante 20
+feio558: posts the ante 20
+oxitsa: posts the ante 20
+inselmüller: posts the ante 20
+BelaVista-123: posts the ante 20
+benoli63: posts the ante 20
+padfoot369: posts the ante 20
+padfoot369: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Jc]
+Pentecoste54: raises 695 to 855 and is all-in
+feio558: folds 
+oxitsa: folds 
+inselmüller: folds 
+BelaVista-123: folds 
+benoli63: folds 
+padfoot369: folds 
+scorza23: calls 695
+*** FLOP *** [5c Kh 7h]
+*** TURN *** [5c Kh 7h] [Kc]
+*** RIVER *** [5c Kh 7h Kc] [8h]
+*** SHOW DOWN ***
+scorza23: shows [Kd Jc] (three of a kind, Kings)
+Pentecoste54: shows [9c Ad] (a pair of Kings)
+scorza23 collected 1950 from pot
+Pentecoste54 finished the tournament in 15th place
+*** SUMMARY ***
+Total pot 1950 | Rake 0 
+Board [5c Kh 7h Kc 8h]
+Seat 1: scorza23 (big blind) showed [Kd Jc] and won (1950) with three of a kind, Kings
+Seat 2: Pentecoste54 showed [9c Ad] and lost with a pair of Kings
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 4: oxitsa folded before Flop (didn't bet)
+Seat 5: inselmüller folded before Flop (didn't bet)
+Seat 6: BelaVista-123 folded before Flop (didn't bet)
+Seat 7: benoli63 (button) folded before Flop (didn't bet)
+Seat 8: padfoot369 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750858002: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:26:57 UTC [2026/02/16 12:26:57 ET]
+Table '3975700928 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (10470 in chips) 
+Seat 3: feio558 (4002 in chips) 
+Seat 4: oxitsa (3410 in chips) 
+Seat 5: inselmüller (2101 in chips) 
+Seat 6: BelaVista-123 (709 in chips) 
+Seat 7: benoli63 (4441 in chips) 
+Seat 8: padfoot369 (2126 in chips) 
+scorza23: posts the ante 20
+feio558: posts the ante 20
+oxitsa: posts the ante 20
+inselmüller: posts the ante 20
+BelaVista-123: posts the ante 20
+benoli63: posts the ante 20
+padfoot369: posts the ante 20
+scorza23: posts small blind 80
+feio558: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5c]
+oxitsa: raises 160 to 320
+inselmüller: folds 
+BelaVista-123: folds 
+benoli63: folds 
+padfoot369: folds 
+scorza23: folds 
+feio558: folds 
+Uncalled bet (160) returned to oxitsa
+oxitsa collected 540 from pot
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 3: feio558 (big blind) folded before Flop
+Seat 4: oxitsa collected (540)
+Seat 5: inselmüller folded before Flop (didn't bet)
+Seat 6: BelaVista-123 folded before Flop (didn't bet)
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: padfoot369 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750864483: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:27:28 UTC [2026/02/16 12:27:28 ET]
+Table '3975700928 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (10370 in chips) 
+Seat 3: feio558 (3822 in chips) 
+Seat 4: oxitsa (3770 in chips) 
+Seat 5: inselmüller (2081 in chips) 
+Seat 6: BelaVista-123 (689 in chips) 
+Seat 7: benoli63 (4421 in chips) 
+Seat 8: padfoot369 (2106 in chips) 
+scorza23: posts the ante 20
+feio558: posts the ante 20
+oxitsa: posts the ante 20
+inselmüller: posts the ante 20
+BelaVista-123: posts the ante 20
+benoli63: posts the ante 20
+padfoot369: posts the ante 20
+feio558: posts small blind 80
+oxitsa: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Kd]
+inselmüller: calls 160
+BelaVista-123: folds 
+benoli63: folds 
+padfoot369: raises 384 to 544
+scorza23: folds 
+feio558: folds 
+oxitsa: folds 
+inselmüller: calls 384
+*** FLOP *** [5h 3s 3c]
+inselmüller: bets 1517 and is all-in
+padfoot369: folds 
+Uncalled bet (1517) returned to inselmüller
+inselmüller collected 1468 from pot
+inselmüller: doesn't show hand 
+*** SUMMARY ***
+Total pot 1468 | Rake 0 
+Board [5h 3s 3c]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: feio558 (small blind) folded before Flop
+Seat 4: oxitsa (big blind) folded before Flop
+Seat 5: inselmüller collected (1468)
+Seat 6: BelaVista-123 folded before Flop (didn't bet)
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: padfoot369 folded on the Flop
+
+
+
+PokerStars Hand #259750875395: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:28:20 UTC [2026/02/16 12:28:20 ET]
+Table '3975700928 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (10350 in chips) 
+Seat 3: feio558 (3722 in chips) 
+Seat 4: oxitsa (3590 in chips) 
+Seat 5: inselmüller (2985 in chips) 
+Seat 6: BelaVista-123 (669 in chips) 
+Seat 7: benoli63 (4401 in chips) 
+Seat 8: padfoot369 (1542 in chips) 
+scorza23: posts the ante 20
+feio558: posts the ante 20
+oxitsa: posts the ante 20
+inselmüller: posts the ante 20
+BelaVista-123: posts the ante 20
+benoli63: posts the ante 20
+padfoot369: posts the ante 20
+oxitsa: posts small blind 80
+inselmüller: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 9c]
+BelaVista-123: folds 
+benoli63: raises 160 to 320
+padfoot369: folds 
+scorza23: folds 
+feio558: folds 
+oxitsa: folds 
+inselmüller: calls 160
+*** FLOP *** [8c Ah Tc]
+inselmüller: checks 
+benoli63: bets 480
+inselmüller: folds 
+Uncalled bet (480) returned to benoli63
+benoli63 collected 860 from pot
+*** SUMMARY ***
+Total pot 860 | Rake 0 
+Board [8c Ah Tc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 (button) folded before Flop (didn't bet)
+Seat 4: oxitsa (small blind) folded before Flop
+Seat 5: inselmüller (big blind) folded on the Flop
+Seat 6: BelaVista-123 folded before Flop (didn't bet)
+Seat 7: benoli63 collected (860)
+Seat 8: padfoot369 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750880925: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:28:46 UTC [2026/02/16 12:28:46 ET]
+Table '3975700928 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (10330 in chips) 
+Seat 3: feio558 (3702 in chips) 
+Seat 4: oxitsa (3490 in chips) 
+Seat 5: inselmüller (2645 in chips) 
+Seat 6: BelaVista-123 (649 in chips) 
+Seat 7: benoli63 (4921 in chips) 
+Seat 8: padfoot369 (1522 in chips) 
+scorza23: posts the ante 20
+feio558: posts the ante 20
+oxitsa: posts the ante 20
+inselmüller: posts the ante 20
+BelaVista-123: posts the ante 20
+benoli63: posts the ante 20
+padfoot369: posts the ante 20
+inselmüller: posts small blind 80
+BelaVista-123: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Jh]
+benoli63: folds 
+padfoot369: folds 
+scorza23: raises 320 to 480
+feio558: folds 
+oxitsa: folds 
+inselmüller: folds 
+BelaVista-123: raises 149 to 629 and is all-in
+scorza23: calls 149
+*** FLOP *** [Ks Kd Qh]
+*** TURN *** [Ks Kd Qh] [4s]
+*** RIVER *** [Ks Kd Qh 4s] [Qc]
+*** SHOW DOWN ***
+BelaVista-123: shows [5c 7c] (two pair, Kings and Queens)
+scorza23: shows [Tc Jh] (two pair, Kings and Queens - Jack kicker)
+scorza23 collected 1478 from pot
+BelaVista-123 finished the tournament in 14th place
+*** SUMMARY ***
+Total pot 1478 | Rake 0 
+Board [Ks Kd Qh 4s Qc]
+Seat 1: scorza23 showed [Tc Jh] and won (1478) with two pair, Kings and Queens
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 4: oxitsa (button) folded before Flop (didn't bet)
+Seat 5: inselmüller (small blind) folded before Flop
+Seat 6: BelaVista-123 (big blind) showed [5c 7c] and lost with two pair, Kings and Queens
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: padfoot369 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750887080: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 17:29:16 UTC [2026/02/16 12:29:16 ET]
+Table '3975700928 4' 8-max Seat #5 is the button
+Seat 1: scorza23 (11159 in chips) 
+Seat 3: feio558 (3682 in chips) 
+Seat 4: oxitsa (3470 in chips) 
+Seat 5: inselmüller (2545 in chips) 
+Seat 7: benoli63 (4901 in chips) 
+Seat 8: padfoot369 (1502 in chips) 
+scorza23: posts the ante 20
+feio558: posts the ante 20
+oxitsa: posts the ante 20
+inselmüller: posts the ante 20
+benoli63: posts the ante 20
+padfoot369: posts the ante 20
+benoli63: posts small blind 80
+padfoot369: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 6s]
+scorza23: folds 
+feio558: folds 
+oxitsa: folds 
+inselmüller: folds 
+benoli63: raises 480 to 640
+padfoot369: folds 
+Uncalled bet (480) returned to benoli63
+benoli63 collected 440 from pot
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 4: oxitsa folded before Flop (didn't bet)
+Seat 5: inselmüller (button) folded before Flop (didn't bet)
+Seat 7: benoli63 (small blind) collected (440)
+Seat 8: padfoot369 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750893173: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:29:46 UTC [2026/02/16 12:29:46 ET]
+Table '3975700928 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (11139 in chips) 
+Seat 3: feio558 (3662 in chips) 
+Seat 4: oxitsa (3450 in chips) 
+Seat 5: inselmüller (2525 in chips) 
+Seat 7: benoli63 (5161 in chips) 
+Seat 8: padfoot369 (1322 in chips) 
+scorza23: posts the ante 25
+feio558: posts the ante 25
+oxitsa: posts the ante 25
+inselmüller: posts the ante 25
+benoli63: posts the ante 25
+padfoot369: posts the ante 25
+padfoot369: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Jh]
+feio558: raises 200 to 400
+oxitsa: folds 
+inselmüller: folds 
+benoli63: calls 400
+padfoot369: folds 
+scorza23: folds 
+*** FLOP *** [9s Ad Ks]
+feio558: checks 
+benoli63: bets 4736 and is all-in
+feio558: folds 
+Uncalled bet (4736) returned to benoli63
+benoli63 collected 1250 from pot
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Board [9s Ad Ks]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 3: feio558 folded on the Flop
+Seat 4: oxitsa folded before Flop (didn't bet)
+Seat 5: inselmüller folded before Flop (didn't bet)
+Seat 7: benoli63 (button) collected (1250)
+Seat 8: padfoot369 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750905238: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:30:41 UTC [2026/02/16 12:30:41 ET]
+Table '3975700928 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (10914 in chips) 
+Seat 3: feio558 (3237 in chips) 
+Seat 4: oxitsa (3425 in chips) 
+Seat 5: inselmüller (2500 in chips) 
+Seat 7: benoli63 (5986 in chips) 
+Seat 8: padfoot369 (1197 in chips) 
+scorza23: posts the ante 25
+feio558: posts the ante 25
+oxitsa: posts the ante 25
+inselmüller: posts the ante 25
+benoli63: posts the ante 25
+padfoot369: posts the ante 25
+scorza23: posts small blind 100
+feio558: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5d]
+oxitsa: folds 
+inselmüller: folds 
+benoli63: folds 
+padfoot369: raises 972 to 1172 and is all-in
+scorza23: folds 
+feio558: folds 
+Uncalled bet (972) returned to padfoot369
+padfoot369 collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 3: feio558 (big blind) folded before Flop
+Seat 4: oxitsa folded before Flop (didn't bet)
+Seat 5: inselmüller folded before Flop (didn't bet)
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: padfoot369 (button) collected (650)
+
+
+
+PokerStars Hand #259750909837: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:31:03 UTC [2026/02/16 12:31:03 ET]
+Table '3975700928 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (10789 in chips) 
+Seat 3: feio558 (3012 in chips) 
+Seat 4: oxitsa (3400 in chips) 
+Seat 5: inselmüller (2475 in chips) 
+Seat 7: benoli63 (5961 in chips) 
+Seat 8: padfoot369 (1622 in chips) 
+scorza23: posts the ante 25
+feio558: posts the ante 25
+oxitsa: posts the ante 25
+inselmüller: posts the ante 25
+benoli63: posts the ante 25
+padfoot369: posts the ante 25
+feio558: posts small blind 100
+oxitsa: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6c]
+inselmüller: folds 
+benoli63: folds 
+padfoot369: folds 
+scorza23: folds 
+feio558: folds 
+Uncalled bet (100) returned to oxitsa
+oxitsa collected 350 from pot
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: feio558 (small blind) folded before Flop
+Seat 4: oxitsa (big blind) collected (350)
+Seat 5: inselmüller folded before Flop (didn't bet)
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: padfoot369 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750913825: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:31:21 UTC [2026/02/16 12:31:21 ET]
+Table '3975700928 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (10764 in chips) 
+Seat 3: feio558 (2887 in chips) 
+Seat 4: oxitsa (3625 in chips) 
+Seat 5: inselmüller (2450 in chips) 
+Seat 7: benoli63 (5936 in chips) 
+Seat 8: padfoot369 (1597 in chips) 
+scorza23: posts the ante 25
+feio558: posts the ante 25
+oxitsa: posts the ante 25
+inselmüller: posts the ante 25
+benoli63: posts the ante 25
+padfoot369: posts the ante 25
+oxitsa: posts small blind 100
+inselmüller: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 4s]
+benoli63: folds 
+padfoot369: calls 200
+scorza23: folds 
+feio558: raises 200 to 400
+oxitsa: calls 300
+inselmüller: folds 
+padfoot369: calls 200
+*** FLOP *** [4h 8c 9d]
+oxitsa: checks 
+padfoot369: checks 
+feio558: bets 400
+oxitsa: folds 
+padfoot369: folds 
+Uncalled bet (400) returned to feio558
+feio558 collected 1550 from pot
+feio558: doesn't show hand 
+*** SUMMARY ***
+Total pot 1550 | Rake 0 
+Board [4h 8c 9d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 (button) collected (1550)
+Seat 4: oxitsa (small blind) folded on the Flop
+Seat 5: inselmüller (big blind) folded before Flop
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: padfoot369 folded on the Flop
+
+
+
+PokerStars Hand #259750926189: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:32:18 UTC [2026/02/16 12:32:18 ET]
+Table '3975700928 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (10739 in chips) 
+Seat 3: feio558 (4012 in chips) 
+Seat 4: oxitsa (3200 in chips) 
+Seat 5: inselmüller (2225 in chips) 
+Seat 7: benoli63 (5911 in chips) 
+Seat 8: padfoot369 (1172 in chips) 
+scorza23: posts the ante 25
+feio558: posts the ante 25
+oxitsa: posts the ante 25
+inselmüller: posts the ante 25
+benoli63: posts the ante 25
+padfoot369: posts the ante 25
+inselmüller: posts small blind 100
+benoli63: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 7d]
+padfoot369: folds 
+scorza23: folds 
+feio558: raises 200 to 400
+oxitsa: calls 400
+inselmüller: folds 
+benoli63: calls 200
+*** FLOP *** [7h Qh 9h]
+benoli63: checks 
+feio558: checks 
+oxitsa: bets 725
+benoli63: calls 725
+feio558: folds 
+*** TURN *** [7h Qh 9h] [Tc]
+benoli63: checks 
+oxitsa: checks 
+*** RIVER *** [7h Qh 9h Tc] [3h]
+benoli63: bets 600
+oxitsa: calls 600
+*** SHOW DOWN ***
+benoli63: shows [Jh Td] (a flush, Queen high)
+oxitsa: mucks hand 
+benoli63 collected 4100 from pot
+*** SUMMARY ***
+Total pot 4100 | Rake 0 
+Board [7h Qh 9h Tc 3h]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 folded on the Flop
+Seat 4: oxitsa (button) mucked [Th Js]
+Seat 5: inselmüller (small blind) folded before Flop
+Seat 7: benoli63 (big blind) showed [Jh Td] and won (4100) with a flush, Queen high
+Seat 8: padfoot369 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750940450: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:33:24 UTC [2026/02/16 12:33:24 ET]
+Table '3975700928 4' 8-max Seat #5 is the button
+Seat 1: scorza23 (10714 in chips) 
+Seat 3: feio558 (3587 in chips) 
+Seat 4: oxitsa (1450 in chips) 
+Seat 5: inselmüller (2100 in chips) 
+Seat 7: benoli63 (8261 in chips) 
+Seat 8: padfoot369 (1147 in chips) 
+scorza23: posts the ante 25
+feio558: posts the ante 25
+oxitsa: posts the ante 25
+inselmüller: posts the ante 25
+benoli63: posts the ante 25
+padfoot369: posts the ante 25
+benoli63: posts small blind 100
+padfoot369: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 9s]
+scorza23: raises 400 to 600
+feio558: folds 
+oxitsa: folds 
+inselmüller: folds 
+benoli63: calls 500
+padfoot369: folds 
+*** FLOP *** [8c Ac 7c]
+benoli63: checks 
+scorza23: bets 775
+benoli63: folds 
+Uncalled bet (775) returned to scorza23
+scorza23 collected 1550 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1550 | Rake 0 
+Board [8c Ac 7c]
+Seat 1: scorza23 collected (1550)
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 4: oxitsa folded before Flop (didn't bet)
+Seat 5: inselmüller (button) folded before Flop (didn't bet)
+Seat 7: benoli63 (small blind) folded on the Flop
+Seat 8: padfoot369 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750949637: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:34:06 UTC [2026/02/16 12:34:06 ET]
+Table '3975700928 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (11639 in chips) 
+Seat 3: feio558 (3562 in chips) 
+Seat 4: oxitsa (1425 in chips) 
+Seat 5: inselmüller (2075 in chips) 
+Seat 7: benoli63 (7636 in chips) 
+Seat 8: padfoot369 (922 in chips) 
+scorza23: posts the ante 25
+feio558: posts the ante 25
+oxitsa: posts the ante 25
+inselmüller: posts the ante 25
+benoli63: posts the ante 25
+padfoot369: posts the ante 25
+padfoot369: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 8c]
+feio558: calls 200
+oxitsa: folds 
+inselmüller: calls 200
+benoli63: folds 
+padfoot369: calls 100
+scorza23: checks 
+*** FLOP *** [Ts Th 7s]
+padfoot369: checks 
+scorza23: checks 
+feio558: checks 
+inselmüller: checks 
+*** TURN *** [Ts Th 7s] [9d]
+padfoot369: bets 697 and is all-in
+scorza23: folds 
+feio558: calls 697
+inselmüller: folds 
+*** RIVER *** [Ts Th 7s 9d] [4s]
+*** SHOW DOWN ***
+padfoot369: shows [2c Qc] (a pair of Tens)
+feio558: shows [Js 9h] (two pair, Tens and Nines)
+feio558 collected 2344 from pot
+padfoot369 finished the tournament in 11th place
+*** SUMMARY ***
+Total pot 2344 | Rake 0 
+Board [Ts Th 7s 9d 4s]
+Seat 1: scorza23 (big blind) folded on the Turn
+Seat 3: feio558 showed [Js 9h] and won (2344) with two pair, Tens and Nines
+Seat 4: oxitsa folded before Flop (didn't bet)
+Seat 5: inselmüller folded on the Turn
+Seat 7: benoli63 (button) folded before Flop (didn't bet)
+Seat 8: padfoot369 (small blind) showed [2c Qc] and lost with a pair of Tens
+
+
+
+PokerStars Hand #259750966322: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:35:23 UTC [2026/02/16 12:35:23 ET]
+Table '3975700928 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (11414 in chips) 
+Seat 3: feio558 (4984 in chips) 
+Seat 4: oxitsa (1400 in chips) 
+Seat 5: inselmüller (1850 in chips) 
+Seat 7: benoli63 (7611 in chips) 
+scorza23: posts the ante 35
+feio558: posts the ante 35
+oxitsa: posts the ante 35
+inselmüller: posts the ante 35
+benoli63: posts the ante 35
+feio558: posts small blind 150
+oxitsa: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Th]
+inselmüller: calls 300
+benoli63: calls 300
+scorza23: folds 
+feio558: calls 150
+oxitsa: checks 
+*** FLOP *** [Kh 8c Kd]
+feio558: checks 
+oxitsa: checks 
+inselmüller: checks 
+benoli63: checks 
+*** TURN *** [Kh 8c Kd] [2h]
+feio558: checks 
+oxitsa: checks 
+inselmüller: checks 
+benoli63: checks 
+*** RIVER *** [Kh 8c Kd 2h] [5d]
+feio558: bets 1200
+oxitsa: folds 
+inselmüller: folds 
+benoli63: folds 
+Uncalled bet (1200) returned to feio558
+feio558 collected 1375 from pot
+*** SUMMARY ***
+Total pot 1375 | Rake 0 
+Board [Kh 8c Kd 2h 5d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: feio558 (small blind) collected (1375)
+Seat 4: oxitsa (big blind) folded on the River
+Seat 5: inselmüller folded on the River
+Seat 7: benoli63 folded on the River
+
+
+
+PokerStars Hand #259750978554: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:20 UTC [2026/02/16 12:36:20 ET]
+Table '3975700928 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (11379 in chips) 
+Seat 3: feio558 (6024 in chips) 
+Seat 4: oxitsa (1065 in chips) 
+Seat 5: inselmüller (1515 in chips) 
+Seat 7: benoli63 (7276 in chips) 
+scorza23: posts the ante 35
+feio558: posts the ante 35
+oxitsa: posts the ante 35
+inselmüller: posts the ante 35
+benoli63: posts the ante 35
+oxitsa: posts small blind 150
+inselmüller: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qd]
+benoli63: calls 300
+scorza23: folds 
+feio558: folds 
+oxitsa: raises 730 to 1030 and is all-in
+inselmüller: folds 
+benoli63: calls 730
+*** FLOP *** [Th 9h 9s]
+*** TURN *** [Th 9h 9s] [Kc]
+*** RIVER *** [Th 9h 9s Kc] [5d]
+*** SHOW DOWN ***
+oxitsa: shows [3h 3c] (two pair, Nines and Threes)
+benoli63: shows [Tc Ts] (a full house, Tens full of Nines)
+benoli63 collected 2535 from pot
+oxitsa finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 2535 | Rake 0 
+Board [Th 9h 9s Kc 5d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 (button) folded before Flop (didn't bet)
+Seat 4: oxitsa (small blind) showed [3h 3c] and lost with two pair, Nines and Threes
+Seat 5: inselmüller (big blind) folded before Flop
+Seat 7: benoli63 showed [Tc Ts] and won (2535) with a full house, Tens full of Nines
+
+
+
+PokerStars Hand #259750984194: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:46 UTC [2026/02/16 12:36:46 ET]
+Table '3975700928 4' 8-max Seat #5 is the button
+Seat 1: scorza23 (11344 in chips) 
+Seat 3: feio558 (5989 in chips) 
+Seat 5: inselmüller (1180 in chips) 
+Seat 7: benoli63 (8746 in chips) 
+scorza23: posts the ante 35
+feio558: posts the ante 35
+inselmüller: posts the ante 35
+benoli63: posts the ante 35
+benoli63: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qc]
+feio558 is connected 
+feio558 is connected 
+feio558: folds 
+inselmüller: folds 
+benoli63: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 440 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 1: scorza23 (big blind) collected (440)
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 5: inselmüller (button) folded before Flop (didn't bet)
+Seat 7: benoli63 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259751015666: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:39:11 UTC [2026/02/16 12:39:11 ET]
+Table '3975700928 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (11599 in chips) 
+Seat 3: feio558 (5954 in chips) 
+Seat 5: inselmüller (1145 in chips) 
+Seat 7: benoli63 (8561 in chips) 
+scorza23: posts the ante 35
+feio558: posts the ante 35
+inselmüller: posts the ante 35
+benoli63: posts the ante 35
+scorza23: posts small blind 150
+feio558: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3c As]
+inselmüller: folds 
+benoli63: calls 300
+scorza23: folds 
+feio558: checks 
+*** FLOP *** [Js Qs Kd]
+feio558: checks 
+benoli63: bets 1200
+feio558: calls 1200
+*** TURN *** [Js Qs Kd] [5h]
+django harb is disconnected 
+Yarisse1 is disconnected 
+androsdojczo is disconnected 
+feio558: checks 
+benoli63: bets 1200
+feio558: folds 
+Uncalled bet (1200) returned to benoli63
+benoli63 collected 3290 from pot
+*** SUMMARY ***
+Total pot 3290 | Rake 0 
+Board [Js Qs Kd 5h]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 3: feio558 (big blind) folded on the Turn
+Seat 5: inselmüller folded before Flop (didn't bet)
+Seat 7: benoli63 (button) collected (3290)
+
+
+
+PokerStars Hand #259751030165: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:40:18 UTC [2026/02/16 12:40:18 ET]
+Table '3975700928 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (11414 in chips) 
+Seat 2: django harb (2238 in chips) out of hand (moved from another table into small blind)
+Seat 3: feio558 (4419 in chips) 
+Seat 4: thebigbud81 (3217 in chips) 
+Seat 5: inselmüller (1110 in chips) 
+Seat 6: Yarisse1 (11214 in chips) 
+Seat 7: benoli63 (10316 in chips) 
+Seat 8: androsdojczo (4072 in chips) 
+django harb will be allowed to play after the button
+scorza23: posts the ante 35
+feio558: posts the ante 35
+thebigbud81: posts the ante 35
+inselmüller: posts the ante 35
+Yarisse1: posts the ante 35
+benoli63: posts the ante 35
+androsdojczo: posts the ante 35
+feio558: posts small blind 150
+thebigbud81: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Qc]
+inselmüller: calls 300
+Yarisse1: folds 
+benoli63: calls 300
+androsdojczo: folds 
+scorza23: raises 1595 to 1895
+feio558: folds 
+thebigbud81: folds 
+inselmüller: calls 775 and is all-in
+benoli63: folds 
+Uncalled bet (820) returned to scorza23
+*** FLOP *** [Jd Jc 2c]
+*** TURN *** [Jd Jc 2c] [Qd]
+*** RIVER *** [Jd Jc 2c Qd] [4s]
+*** SHOW DOWN ***
+inselmüller: shows [Kh Qs] (two pair, Queens and Jacks)
+scorza23: shows [Ad Qc] (two pair, Queens and Jacks - Ace kicker)
+scorza23 collected 3145 from pot
+inselmüller finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3145 | Rake 0 
+Board [Jd Jc 2c Qd 4s]
+Seat 1: scorza23 (button) showed [Ad Qc] and won (3145) with two pair, Queens and Jacks
+Seat 3: feio558 (small blind) folded before Flop
+Seat 4: thebigbud81 (big blind) folded before Flop
+Seat 5: inselmüller showed [Kh Qs] and lost with two pair, Queens and Jacks
+Seat 6: Yarisse1 folded before Flop (didn't bet)
+Seat 7: benoli63 folded before Flop
+Seat 8: androsdojczo folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751040275: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:41:04 UTC [2026/02/16 12:41:04 ET]
+Table '3975700928 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (13449 in chips) 
+Seat 2: django harb (2238 in chips) 
+Seat 3: feio558 (4234 in chips) 
+Seat 4: thebigbud81 (2882 in chips) 
+Seat 6: Yarisse1 (11179 in chips) 
+Seat 7: benoli63 (9981 in chips) 
+Seat 8: androsdojczo (4037 in chips) 
+scorza23: posts the ante 35
+django harb: posts the ante 35
+feio558: posts the ante 35
+thebigbud81: posts the ante 35
+Yarisse1: posts the ante 35
+benoli63: posts the ante 35
+androsdojczo: posts the ante 35
+thebigbud81: posts small blind 150
+Yarisse1: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2s]
+benoli63: calls 300
+androsdojczo: folds 
+scorza23: folds 
+django harb: raises 1903 to 2203 and is all-in
+feio558: folds 
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: calls 1903
+*** FLOP *** [5h Ac 6d]
+*** TURN *** [5h Ac 6d] [Kh]
+*** RIVER *** [5h Ac 6d Kh] [9h]
+*** SHOW DOWN ***
+benoli63: shows [7s 7h] (a pair of Sevens)
+django harb: shows [3d 3s] (a pair of Threes)
+benoli63 collected 5101 from pot
+django harb finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 5101 | Rake 0 
+Board [5h Ac 6d Kh 9h]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: django harb showed [3d 3s] and lost with a pair of Threes
+Seat 3: feio558 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) folded before Flop
+Seat 6: Yarisse1 (big blind) folded before Flop
+Seat 7: benoli63 showed [7s 7h] and won (5101) with a pair of Sevens
+Seat 8: androsdojczo folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751047468: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:41:38 UTC [2026/02/16 12:41:38 ET]
+Table '3975700928 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (13414 in chips) 
+Seat 3: feio558 (4199 in chips) 
+Seat 4: thebigbud81 (2697 in chips) 
+Seat 6: Yarisse1 (10844 in chips) 
+Seat 7: benoli63 (12844 in chips) 
+Seat 8: androsdojczo (4002 in chips) 
+scorza23: posts the ante 50
+feio558: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+Yarisse1: posts small blind 200
+benoli63: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5s]
+androsdojczo: folds 
+scorza23: folds 
+feio558: folds 
+thebigbud81: folds 
+Yarisse1: calls 200
+benoli63: checks 
+*** FLOP *** [Jh Tc 9d]
+Yarisse1: bets 400
+benoli63: calls 400
+*** TURN *** [Jh Tc 9d] [3c]
+Yarisse1: bets 400
+benoli63: calls 400
+*** RIVER *** [Jh Tc 9d 3c] [Qd]
+Yarisse1: checks 
+benoli63: checks 
+*** SHOW DOWN ***
+Yarisse1: shows [Qh 5d] (a pair of Queens)
+benoli63: mucks hand 
+Yarisse1 collected 2700 from pot
+*** SUMMARY ***
+Total pot 2700 | Rake 0 
+Board [Jh Tc 9d 3c Qd]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 4: thebigbud81 (button) folded before Flop (didn't bet)
+Seat 6: Yarisse1 (small blind) showed [Qh 5d] and won (2700) with a pair of Queens
+Seat 7: benoli63 (big blind) mucked [5c Jc]
+Seat 8: androsdojczo folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751057703: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:42:25 UTC [2026/02/16 12:42:25 ET]
+Table '3975700928 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (13364 in chips) 
+Seat 3: feio558 (4149 in chips) 
+Seat 4: thebigbud81 (2647 in chips) 
+Seat 6: Yarisse1 (12294 in chips) 
+Seat 7: benoli63 (11594 in chips) 
+Seat 8: androsdojczo (3952 in chips) 
+scorza23: posts the ante 50
+feio558: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+benoli63: posts small blind 200
+androsdojczo: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 5h]
+scorza23: folds 
+feio558: folds 
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: folds 
+Uncalled bet (200) returned to androsdojczo
+androsdojczo collected 700 from pot
+androsdojczo: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 6: Yarisse1 (button) folded before Flop (didn't bet)
+Seat 7: benoli63 (small blind) folded before Flop
+Seat 8: androsdojczo (big blind) collected (700)
+
+
+
+PokerStars Hand #259751061541: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:42:43 UTC [2026/02/16 12:42:43 ET]
+Table '3975700928 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (13314 in chips) 
+Seat 3: feio558 (4099 in chips) 
+Seat 4: thebigbud81 (2597 in chips) 
+Seat 6: Yarisse1 (12244 in chips) 
+Seat 7: benoli63 (11344 in chips) 
+Seat 8: androsdojczo (4402 in chips) 
+scorza23: posts the ante 50
+feio558: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+androsdojczo: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Th]
+feio558: folds 
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: folds 
+androsdojczo: raises 3952 to 4352 and is all-in
+scorza23: folds 
+Uncalled bet (3952) returned to androsdojczo
+androsdojczo collected 1100 from pot
+androsdojczo: doesn't show hand 
+*** SUMMARY ***
+Total pot 1100 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 3: feio558 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 6: Yarisse1 folded before Flop (didn't bet)
+Seat 7: benoli63 (button) folded before Flop (didn't bet)
+Seat 8: androsdojczo (small blind) collected (1100)
+
+
+
+PokerStars Hand #259751066667: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:43:07 UTC [2026/02/16 12:43:07 ET]
+Table '3975700928 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (12864 in chips) 
+Seat 3: feio558 (4049 in chips) 
+Seat 4: thebigbud81 (2547 in chips) 
+Seat 6: Yarisse1 (12194 in chips) 
+Seat 7: benoli63 (11294 in chips) 
+Seat 8: androsdojczo (5052 in chips) 
+scorza23: posts the ante 50
+feio558: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+scorza23: posts small blind 200
+feio558: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 5s]
+thebigbud81: raises 2097 to 2497 and is all-in
+Yarisse1: folds 
+benoli63: folds 
+androsdojczo: folds 
+scorza23: calls 2297
+feio558: folds 
+*** FLOP *** [6h 8h 6s]
+*** TURN *** [6h 8h 6s] [7d]
+*** RIVER *** [6h 8h 6s 7d] [Kd]
+*** SHOW DOWN ***
+scorza23: shows [5h 5s] (two pair, Sixes and Fives)
+thebigbud81: shows [Qs Kh] (two pair, Kings and Sixes)
+thebigbud81 collected 5694 from pot
+*** SUMMARY ***
+Total pot 5694 | Rake 0 
+Board [6h 8h 6s 7d Kd]
+Seat 1: scorza23 (small blind) showed [5h 5s] and lost with two pair, Sixes and Fives
+Seat 3: feio558 (big blind) folded before Flop
+Seat 4: thebigbud81 showed [Qs Kh] and won (5694) with two pair, Kings and Sixes
+Seat 6: Yarisse1 folded before Flop (didn't bet)
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: androsdojczo (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751071416: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:43:29 UTC [2026/02/16 12:43:29 ET]
+Table '3975700928 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (10317 in chips) 
+Seat 3: feio558 (3599 in chips) 
+Seat 4: thebigbud81 (5694 in chips) 
+Seat 6: Yarisse1 (12144 in chips) 
+Seat 7: benoli63 (11244 in chips) 
+Seat 8: androsdojczo (5002 in chips) 
+scorza23: posts the ante 50
+feio558: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+feio558: posts small blind 200
+thebigbud81: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 2h]
+Yarisse1: folds 
+benoli63: folds 
+androsdojczo: calls 400
+scorza23: folds 
+feio558: folds 
+thebigbud81: checks 
+*** FLOP *** [9s 2s Ah]
+thebigbud81: checks 
+androsdojczo: checks 
+*** TURN *** [9s 2s Ah] [7h]
+thebigbud81: checks 
+androsdojczo: checks 
+*** RIVER *** [9s 2s Ah 7h] [5h]
+thebigbud81: checks 
+androsdojczo: bets 1300
+thebigbud81: folds 
+Uncalled bet (1300) returned to androsdojczo
+androsdojczo collected 1300 from pot
+androsdojczo: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [9s 2s Ah 7h 5h]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: feio558 (small blind) folded before Flop
+Seat 4: thebigbud81 (big blind) folded on the River
+Seat 6: Yarisse1 folded before Flop (didn't bet)
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: androsdojczo collected (1300)
+
+
+
+PokerStars Hand #259751082169: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:44:19 UTC [2026/02/16 12:44:19 ET]
+Table '3975700928 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (10267 in chips) 
+Seat 3: feio558 (3349 in chips) 
+Seat 4: thebigbud81 (5244 in chips) 
+Seat 6: Yarisse1 (12094 in chips) 
+Seat 7: benoli63 (11194 in chips) 
+Seat 8: androsdojczo (5852 in chips) 
+scorza23: posts the ante 50
+feio558: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+thebigbud81: posts small blind 200
+Yarisse1: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2c]
+benoli63: folds 
+androsdojczo: raises 400 to 800
+scorza23: folds 
+feio558: folds 
+thebigbud81: folds 
+Yarisse1: folds 
+Uncalled bet (400) returned to androsdojczo
+androsdojczo collected 1300 from pot
+androsdojczo: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) folded before Flop
+Seat 6: Yarisse1 (big blind) folded before Flop
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: androsdojczo collected (1300)
+
+
+
+PokerStars Hand #259751085577: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:44:34 UTC [2026/02/16 12:44:34 ET]
+Table '3975700928 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (10217 in chips) 
+Seat 3: feio558 (3299 in chips) 
+Seat 4: thebigbud81 (4994 in chips) 
+Seat 6: Yarisse1 (11644 in chips) 
+Seat 7: benoli63 (11144 in chips) 
+Seat 8: androsdojczo (6702 in chips) 
+scorza23: posts the ante 50
+feio558: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+Yarisse1: posts small blind 200
+benoli63: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Jc]
+androsdojczo: folds 
+scorza23: folds 
+feio558: raises 800 to 1200
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: calls 800
+*** FLOP *** [Kh Ks Kc]
+benoli63: checks 
+feio558: bets 2049 and is all-in
+benoli63: calls 2049
+*** TURN *** [Kh Ks Kc] [9c]
+*** RIVER *** [Kh Ks Kc 9c] [8d]
+*** SHOW DOWN ***
+benoli63: shows [5h 5s] (a full house, Kings full of Fives)
+feio558: shows [Qd Js] (three of a kind, Kings)
+benoli63 collected 6998 from pot
+feio558 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 6998 | Rake 0 
+Board [Kh Ks Kc 9c 8d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: feio558 showed [Qd Js] and lost with three of a kind, Kings
+Seat 4: thebigbud81 (button) folded before Flop (didn't bet)
+Seat 6: Yarisse1 (small blind) folded before Flop
+Seat 7: benoli63 (big blind) showed [5h 5s] and won (6998) with a full house, Kings full of Fives
+Seat 8: androsdojczo folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751100686: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:45:44 UTC [2026/02/16 12:45:44 ET]
+Table '3975700928 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (10167 in chips) 
+Seat 4: thebigbud81 (4944 in chips) 
+Seat 6: Yarisse1 (11394 in chips) 
+Seat 7: benoli63 (14843 in chips) 
+Seat 8: androsdojczo (6652 in chips) 
+scorza23: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+benoli63: posts small blind 200
+androsdojczo: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 9s]
+scorza23: folds 
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: folds 
+Uncalled bet (200) returned to androsdojczo
+androsdojczo collected 650 from pot
+androsdojczo: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 6: Yarisse1 (button) folded before Flop (didn't bet)
+Seat 7: benoli63 (small blind) folded before Flop
+Seat 8: androsdojczo (big blind) collected (650)
+
+
+
+PokerStars Hand #259751106711: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:46:11 UTC [2026/02/16 12:46:11 ET]
+Table '3975700928 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (10117 in chips) 
+Seat 4: thebigbud81 (4894 in chips) 
+Seat 6: Yarisse1 (11344 in chips) 
+Seat 7: benoli63 (14593 in chips) 
+Seat 8: androsdojczo (7052 in chips) 
+scorza23: posts the ante 50
+thebigbud81: posts the ante 50
+Yarisse1: posts the ante 50
+benoli63: posts the ante 50
+androsdojczo: posts the ante 50
+androsdojczo: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Kd]
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: folds 
+androsdojczo: raises 400 to 800
+scorza23: calls 400
+*** FLOP *** [6s 2d Jd]
+androsdojczo: bets 400
+scorza23: folds 
+Uncalled bet (400) returned to androsdojczo
+androsdojczo collected 1850 from pot
+androsdojczo: doesn't show hand 
+*** SUMMARY ***
+Total pot 1850 | Rake 0 
+Board [6s 2d Jd]
+Seat 1: scorza23 (big blind) folded on the Flop
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 6: Yarisse1 folded before Flop (didn't bet)
+Seat 7: benoli63 (button) folded before Flop (didn't bet)
+Seat 8: androsdojczo (small blind) collected (1850)
+
+
+
+PokerStars Hand #259751111861: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 17:46:35 UTC [2026/02/16 12:46:35 ET]
+Table '3975700928 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (9267 in chips) 
+Seat 4: thebigbud81 (4844 in chips) 
+Seat 6: Yarisse1 (11294 in chips) 
+Seat 7: benoli63 (14543 in chips) 
+Seat 8: androsdojczo (8052 in chips) 
+scorza23: posts the ante 75
+thebigbud81: posts the ante 75
+Yarisse1: posts the ante 75
+benoli63: posts the ante 75
+androsdojczo: posts the ante 75
+scorza23: posts small blind 300
+thebigbud81: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 6s]
+Yarisse1: calls 600
+benoli63: folds 
+androsdojczo: folds 
+scorza23: folds 
+thebigbud81: checks 
+*** FLOP *** [Qs 6h 8h]
+thebigbud81: checks 
+Yarisse1: bets 1200
+thebigbud81: folds 
+Uncalled bet (1200) returned to Yarisse1
+Yarisse1 collected 1875 from pot
+Yarisse1: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Board [Qs 6h 8h]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 4: thebigbud81 (big blind) folded on the Flop
+Seat 6: Yarisse1 collected (1875)
+Seat 7: benoli63 folded before Flop (didn't bet)
+Seat 8: androsdojczo (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751117245: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 17:47:00 UTC [2026/02/16 12:47:00 ET]
+Table '3975700928 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (8892 in chips) 
+Seat 4: thebigbud81 (4169 in chips) 
+Seat 6: Yarisse1 (12494 in chips) 
+Seat 7: benoli63 (14468 in chips) 
+Seat 8: androsdojczo (7977 in chips) 
+scorza23: posts the ante 75
+thebigbud81: posts the ante 75
+Yarisse1: posts the ante 75
+benoli63: posts the ante 75
+androsdojczo: posts the ante 75
+thebigbud81: posts small blind 300
+Yarisse1: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 2s]
+benoli63: calls 600
+androsdojczo: raises 7302 to 7902 and is all-in
+scorza23: folds 
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: folds 
+Uncalled bet (7302) returned to androsdojczo
+androsdojczo collected 2475 from pot
+androsdojczo: doesn't show hand 
+*** SUMMARY ***
+Total pot 2475 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thebigbud81 (small blind) folded before Flop
+Seat 6: Yarisse1 (big blind) folded before Flop
+Seat 7: benoli63 folded before Flop
+Seat 8: androsdojczo collected (2475)
+
+
+
+PokerStars Hand #259751123218: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 17:47:26 UTC [2026/02/16 12:47:26 ET]
+Table '3975700928 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (8817 in chips) 
+Seat 4: thebigbud81 (3794 in chips) 
+Seat 6: Yarisse1 (11819 in chips) 
+Seat 7: benoli63 (13793 in chips) 
+Seat 8: androsdojczo (9777 in chips) 
+scorza23: posts the ante 75
+thebigbud81: posts the ante 75
+Yarisse1: posts the ante 75
+benoli63: posts the ante 75
+androsdojczo: posts the ante 75
+Yarisse1: posts small blind 300
+benoli63: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Ah]
+androsdojczo: folds 
+scorza23: raises 1200 to 1800
+thebigbud81: folds 
+Yarisse1: folds 
+benoli63: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 1875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: scorza23 collected (1875)
+Seat 4: thebigbud81 (button) folded before Flop (didn't bet)
+Seat 6: Yarisse1 (small blind) folded before Flop
+Seat 7: benoli63 (big blind) folded before Flop
+Seat 8: androsdojczo folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751126844: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 17:47:43 UTC [2026/02/16 12:47:43 ET]
+Table '3975700928 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (10017 in chips) 
+Seat 4: thebigbud81 (3719 in chips) 
+Seat 6: Yarisse1 (11444 in chips) 
+Seat 7: benoli63 (13118 in chips) 
+Seat 8: androsdojczo (9702 in chips) 
+scorza23: posts the ante 75
+thebigbud81: posts the ante 75
+Yarisse1: posts the ante 75
+benoli63: posts the ante 75
+androsdojczo: posts the ante 75
+benoli63: posts small blind 300
+androsdojczo: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5s]
+scorza23: folds 
+thebigbud81: folds 
+Yarisse1: calls 600
+benoli63: raises 12443 to 13043 and is all-in
+androsdojczo: folds 
+Yarisse1: folds 
+Uncalled bet (12443) returned to benoli63
+benoli63 collected 2175 from pot
+*** SUMMARY ***
+Total pot 2175 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 6: Yarisse1 (button) folded before Flop
+Seat 7: benoli63 (small blind) collected (2175)
+Seat 8: androsdojczo (big blind) folded before Flop
+
+
+
+PokerStars Hand #259751133283: Tournament #3975700928, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 17:48:12 UTC [2026/02/16 12:48:12 ET]
+Table '3975700928 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (9942 in chips) 
+Seat 4: thebigbud81 (3644 in chips) 
+Seat 6: Yarisse1 (10769 in chips) 
+Seat 7: benoli63 (14618 in chips) 
+Seat 8: androsdojczo (9027 in chips) 
+scorza23: posts the ante 75
+thebigbud81: posts the ante 75
+Yarisse1: posts the ante 75
+benoli63: posts the ante 75
+androsdojczo: posts the ante 75
+androsdojczo: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Kc]
+thebigbud81: folds 
+Yarisse1: calls 600
+benoli63: raises 13943 to 14543 and is all-in
+androsdojczo: folds 
+scorza23: calls 9267 and is all-in
+Yarisse1: folds 
+Uncalled bet (4676) returned to benoli63
+*** FLOP *** [8h 4s Tc]
+*** TURN *** [8h 4s Tc] [4d]
+*** RIVER *** [8h 4s Tc 4d] [Js]
+*** SHOW DOWN ***
+scorza23: shows [Jc Kc] (two pair, Jacks and Fours)
+benoli63: shows [Ad Ah] (two pair, Aces and Fours)
+benoli63 collected 21009 from pot
+scorza23 finished the tournament in 5th place and received $1.03.
+*** SUMMARY ***
+Total pot 21009 | Rake 0 
+Board [8h 4s Tc 4d Js]
+Seat 1: scorza23 (big blind) showed [Jc Kc] and lost with two pair, Jacks and Fours
+Seat 4: thebigbud81 folded before Flop (didn't bet)
+Seat 6: Yarisse1 folded before Flop
+Seat 7: benoli63 (button) showed [Ad Ah] and won (21009) with two pair, Aces and Fours
+Seat 8: androsdojczo (small blind) folded before Flop
+
+
+

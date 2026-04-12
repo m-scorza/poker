@@ -1,0 +1,2327 @@
+﻿PokerStars Hand #260358019826: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:47:57 BRT [2026/04/05 15:47:57 ET]
+Table '3989565607 1' 8-max Seat #1 is the button
+Seat 1: lerio35 (1500 in chips) 
+Seat 3: Fjzxuxaaaa (1500 in chips) 
+Seat 4: ratrix2009 (1500 in chips) 
+Seat 5: Soulman1927 (1500 in chips) 
+Seat 6: fernandotouu (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+lerio35: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+ratrix2009: posts the ante 3
+Soulman1927: posts the ante 3
+fernandotouu: posts the ante 3
+scorza23: posts the ante 3
+Fjzxuxaaaa: posts small blind 10
+ratrix2009: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jd]
+Soulman1927: raises 20 to 40
+fernandotouu: calls 40
+scorza23: folds 
+lerio35: folds 
+spnmarco is disconnected 
+Fjzxuxaaaa: folds 
+monkeyman1974 is disconnected 
+ratrix2009: folds 
+*** FLOP *** [4h 3d 9d]
+Soulman1927: checks 
+fernandotouu has timed out
+fernandotouu: checks 
+*** TURN *** [4h 3d 9d] [Kh]
+Soulman1927: bets 60
+fernandotouu: calls 60
+*** RIVER *** [4h 3d 9d Kh] [Ah]
+Soulman1927: checks 
+fernandotouu: checks 
+*** SHOW DOWN ***
+Soulman1927: shows [5s 8s] (high card Ace)
+fernandotouu: shows [Kd Qc] (a pair of Kings)
+fernandotouu collected 248 from pot
+*** SUMMARY ***
+Total pot 248 | Rake 0 
+Board [4h 3d 9d Kh Ah]
+Seat 1: lerio35 (button) folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: Soulman1927 showed [5s 8s] and lost with high card Ace
+Seat 6: fernandotouu showed [Kd Qc] and won (248) with a pair of Kings
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358050509: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:49:52 BRT [2026/04/05 15:49:52 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 1: lerio35 (1497 in chips) 
+Seat 2: monkeyman1974 (1500 in chips) 
+Seat 3: Fjzxuxaaaa (1487 in chips) 
+Seat 4: ratrix2009 (1477 in chips) 
+Seat 6: fernandotouu (1645 in chips) 
+Seat 7: spnmarco (1500 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+lerio35: posts the ante 3
+monkeyman1974: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+ratrix2009: posts the ante 3
+fernandotouu: posts the ante 3
+spnmarco: posts the ante 3
+scorza23: posts the ante 3
+ratrix2009: posts small blind 10
+fernandotouu: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Qd]
+spnmarco: folds 
+scorza23: folds 
+lerio35: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: calls 10
+fernandotouu: raises 61 to 81
+ratrix2009: calls 61
+*** FLOP *** [2d 6h 8h]
+ratrix2009: bets 20
+fernandotouu: raises 20 to 40
+ratrix2009: raises 180 to 220
+fernandotouu: calls 180
+*** TURN *** [2d 6h 8h] [8d]
+ratrix2009: bets 360
+fernandotouu: raises 981 to 1341 and is all-in
+ratrix2009: calls 813 and is all-in
+Uncalled bet (168) returned to fernandotouu
+*** RIVER *** [2d 6h 8h 8d] [Js]
+*** SHOW DOWN ***
+ratrix2009: shows [2c 2s] (a full house, Deuces full of Eights)
+fernandotouu: shows [8s 9s] (three of a kind, Eights)
+ratrix2009 collected 2969 from pot
+*** SUMMARY ***
+Total pot 2969 | Rake 0 
+Board [2d 6h 8h 8d Js]
+Seat 1: lerio35 folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) showed [2c 2s] and won (2969) with a full house, Deuces full of Eights
+Seat 6: fernandotouu (big blind) showed [8s 9s] and lost with three of a kind, Eights
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358074624: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:51:23 BRT [2026/04/05 15:51:23 ET]
+Table '3989565607 1' 8-max Seat #4 is the button
+Seat 1: lerio35 (1494 in chips) 
+Seat 2: monkeyman1974 (1497 in chips) 
+Seat 3: Fjzxuxaaaa (1484 in chips) 
+Seat 4: ratrix2009 (2969 in chips) 
+Seat 6: fernandotouu (168 in chips) 
+Seat 7: spnmarco (1497 in chips) 
+Seat 8: scorza23 (1494 in chips) 
+lerio35: posts the ante 3
+monkeyman1974: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+ratrix2009: posts the ante 3
+fernandotouu: posts the ante 3
+spnmarco: posts the ante 3
+scorza23: posts the ante 3
+fernandotouu: posts small blind 10
+spnmarco: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Kd]
+scorza23: raises 20 to 40
+lerio35: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: raises 20 to 60
+ratrix2009: folds 
+fernandotouu: raises 105 to 165 and is all-in
+spnmarco: folds 
+scorza23: calls 125
+Fjzxuxaaaa: calls 105
+*** FLOP *** [7d Jd 6h]
+scorza23: checks 
+Fjzxuxaaaa: checks 
+*** TURN *** [7d Jd 6h] [Ts]
+scorza23: checks 
+Fjzxuxaaaa: checks 
+*** RIVER *** [7d Jd 6h Ts] [7h]
+scorza23: checks 
+Fjzxuxaaaa: checks 
+*** SHOW DOWN ***
+fernandotouu: shows [Jc Ad] (two pair, Jacks and Sevens)
+scorza23: mucks hand 
+Fjzxuxaaaa: mucks hand 
+fernandotouu collected 536 from pot
+*** SUMMARY ***
+Total pot 536 | Rake 0 
+Board [7d Jd 6h Ts 7h]
+Seat 1: lerio35 folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa mucked [Kh Qc]
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 6: fernandotouu (small blind) showed [Jc Ad] and won (536) with two pair, Jacks and Sevens
+Seat 7: spnmarco (big blind) folded before Flop
+Seat 8: scorza23 mucked [Td Kd]
+
+
+
+PokerStars Hand #260358092426: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:52:31 BRT [2026/04/05 15:52:31 ET]
+Table '3989565607 1' 8-max Seat #6 is the button
+Seat 1: lerio35 (1491 in chips) 
+Seat 2: monkeyman1974 (1494 in chips) 
+Seat 3: Fjzxuxaaaa (1316 in chips) 
+Seat 4: ratrix2009 (2966 in chips) 
+Seat 6: fernandotouu (536 in chips) 
+Seat 7: spnmarco (1474 in chips) 
+Seat 8: scorza23 (1326 in chips) 
+lerio35: posts the ante 3
+monkeyman1974: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+ratrix2009: posts the ante 3
+fernandotouu: posts the ante 3
+spnmarco: posts the ante 3
+scorza23: posts the ante 3
+spnmarco: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 8d]
+lerio35: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+fernandotouu: folds 
+spnmarco: raises 22 to 42
+scorza23: folds 
+Uncalled bet (22) returned to spnmarco
+spnmarco collected 61 from pot
+*** SUMMARY ***
+Total pot 61 | Rake 0 
+Seat 1: lerio35 folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 6: fernandotouu (button) folded before Flop (didn't bet)
+Seat 7: spnmarco (small blind) collected (61)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358104936: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:53:19 BRT [2026/04/05 15:53:19 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 1: lerio35 (1488 in chips) 
+Seat 2: monkeyman1974 (1491 in chips) 
+Seat 3: Fjzxuxaaaa (1313 in chips) 
+Seat 4: ratrix2009 (2963 in chips) 
+Seat 6: fernandotouu (533 in chips) 
+Seat 7: spnmarco (1512 in chips) 
+Seat 8: scorza23 (1303 in chips) 
+lerio35: posts the ante 4
+monkeyman1974: posts the ante 4
+Fjzxuxaaaa: posts the ante 4
+ratrix2009: posts the ante 4
+fernandotouu: posts the ante 4
+spnmarco: posts the ante 4
+scorza23: posts the ante 4
+scorza23: posts small blind 15
+lerio35: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Tc]
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+fernandotouu: folds 
+spnmarco: folds 
+scorza23: raises 30 to 60
+lerio35: folds 
+Uncalled bet (30) returned to scorza23
+scorza23 collected 88 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 88 | Rake 0 
+Seat 1: lerio35 (big blind) folded before Flop
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 6: fernandotouu folded before Flop (didn't bet)
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (88)
+
+
+
+PokerStars Hand #260358114183: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:53:54 BRT [2026/04/05 15:53:54 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 1: lerio35 (1454 in chips) 
+Seat 2: monkeyman1974 (1487 in chips) 
+Seat 3: Fjzxuxaaaa (1309 in chips) 
+Seat 4: ratrix2009 (2959 in chips) 
+Seat 6: fernandotouu (529 in chips) 
+Seat 7: spnmarco (1508 in chips) 
+Seat 8: scorza23 (1357 in chips) 
+lerio35: posts the ante 4
+monkeyman1974: posts the ante 4
+Fjzxuxaaaa: posts the ante 4
+ratrix2009: posts the ante 4
+fernandotouu: posts the ante 4
+spnmarco: posts the ante 4
+scorza23: posts the ante 4
+lerio35: posts small blind 15
+monkeyman1974: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 6h]
+Fjzxuxaaaa: raises 30 to 60
+ratrix2009: folds 
+fernandotouu: folds 
+spnmarco: folds 
+scorza23: folds 
+lerio35: calls 45
+monkeyman1974: calls 30
+*** FLOP *** [Ts 2s Ah]
+lerio35: checks 
+monkeyman1974: checks 
+Fjzxuxaaaa: bets 52
+lerio35: folds 
+monkeyman1974: calls 52
+*** TURN *** [Ts 2s Ah] [3h]
+monkeyman1974: checks 
+Fjzxuxaaaa: checks 
+*** RIVER *** [Ts 2s Ah 3h] [7h]
+monkeyman1974: checks 
+Fjzxuxaaaa: checks 
+*** SHOW DOWN ***
+monkeyman1974: shows [7s Ks] (a pair of Sevens)
+Fjzxuxaaaa: shows [9s 9h] (a pair of Nines)
+Fjzxuxaaaa collected 312 from pot
+*** SUMMARY ***
+Total pot 312 | Rake 0 
+Board [Ts 2s Ah 3h 7h]
+Seat 1: lerio35 (small blind) folded on the Flop
+Seat 2: monkeyman1974 (big blind) showed [7s Ks] and lost with a pair of Sevens
+Seat 3: Fjzxuxaaaa showed [9s 9h] and won (312) with a pair of Nines
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 6: fernandotouu folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358131676: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:55:00 BRT [2026/04/05 15:55:00 ET]
+Table '3989565607 1' 8-max Seat #1 is the button
+Seat 1: lerio35 (1390 in chips) 
+Seat 2: monkeyman1974 (1371 in chips) 
+Seat 3: Fjzxuxaaaa (1505 in chips) 
+Seat 4: ratrix2009 (2955 in chips) 
+Seat 6: fernandotouu (525 in chips) 
+Seat 7: spnmarco (1504 in chips) 
+Seat 8: scorza23 (1353 in chips) 
+lerio35: posts the ante 4
+monkeyman1974: posts the ante 4
+Fjzxuxaaaa: posts the ante 4
+ratrix2009: posts the ante 4
+fernandotouu: posts the ante 4
+spnmarco: posts the ante 4
+scorza23: posts the ante 4
+monkeyman1974: posts small blind 15
+Fjzxuxaaaa: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 7h]
+ratrix2009: folds 
+fernandotouu: folds 
+spnmarco: folds 
+scorza23: folds 
+lerio35: folds 
+monkeyman1974: folds 
+Uncalled bet (15) returned to Fjzxuxaaaa
+Fjzxuxaaaa collected 58 from pot
+Fjzxuxaaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: lerio35 (button) folded before Flop (didn't bet)
+Seat 2: monkeyman1974 (small blind) folded before Flop
+Seat 3: Fjzxuxaaaa (big blind) collected (58)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 6: fernandotouu folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358196532: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:01:40 BRT [2026/04/05 16:01:40 ET]
+Table '3989565607 1' 8-max Seat #2 is the button
+Seat 1: lerio35 (1386 in chips) 
+Seat 2: monkeyman1974 (1352 in chips) 
+Seat 3: Fjzxuxaaaa (1544 in chips) 
+Seat 4: ratrix2009 (2951 in chips) 
+Seat 6: fernandotouu (521 in chips) 
+Seat 7: spnmarco (1500 in chips) 
+Seat 8: scorza23 (1349 in chips) 
+lerio35: posts the ante 4
+monkeyman1974: posts the ante 4
+Fjzxuxaaaa: posts the ante 4
+ratrix2009: posts the ante 4
+fernandotouu: posts the ante 4
+spnmarco: posts the ante 4
+scorza23: posts the ante 4
+Fjzxuxaaaa: posts small blind 15
+ratrix2009: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7s]
+fernandotouu: folds 
+spnmarco: folds 
+scorza23: folds 
+lerio35: raises 90 to 120
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Uncalled bet (90) returned to lerio35
+lerio35 collected 103 from pot
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: lerio35 collected (103)
+Seat 2: monkeyman1974 (button) folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 6: fernandotouu folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358210318: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:02:36 BRT [2026/04/05 16:02:36 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 1: lerio35 (1455 in chips) 
+Seat 2: monkeyman1974 (1348 in chips) 
+Seat 3: Fjzxuxaaaa (1525 in chips) 
+Seat 4: ratrix2009 (2917 in chips) 
+Seat 7: spnmarco (1496 in chips) 
+Seat 8: scorza23 (1345 in chips) 
+lerio35: posts the ante 4
+monkeyman1974: posts the ante 4
+Fjzxuxaaaa: posts the ante 4
+ratrix2009: posts the ante 4
+spnmarco: posts the ante 4
+scorza23: posts the ante 4
+ratrix2009: posts small blind 15
+spnmarco: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6s As]
+scorza23: folds 
+lerio35: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: raises 60 to 90
+spnmarco: folds 
+Uncalled bet (60) returned to ratrix2009
+ratrix2009 collected 84 from pot
+ratrix2009: doesn't show hand 
+beanyboy966 has returned
+Carlos ASTA is disconnected 
+*** SUMMARY ***
+Total pot 84 | Rake 0 
+Seat 1: lerio35 folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) collected (84)
+Seat 7: spnmarco (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358219737: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:03:12 BRT [2026/04/05 16:03:12 ET]
+Table '3989565607 1' 8-max Seat #4 is the button
+Seat 1: lerio35 (1451 in chips) 
+Seat 2: monkeyman1974 (1344 in chips) 
+Seat 3: Fjzxuxaaaa (1521 in chips) 
+Seat 4: ratrix2009 (2967 in chips) 
+Seat 5: Carlos ASTA (4793 in chips) out of hand (moved from another table into small blind)
+Seat 6: beanyboy966 (2008 in chips) out of hand (moved from another table into small blind)
+Seat 7: spnmarco (1462 in chips) 
+Seat 8: scorza23 (1341 in chips) 
+Carlos ASTA will be allowed to play after the button
+beanyboy966 will be allowed to play after the button
+lerio35: posts the ante 4
+monkeyman1974: posts the ante 4
+Fjzxuxaaaa: posts the ante 4
+ratrix2009: posts the ante 4
+spnmarco: posts the ante 4
+scorza23: posts the ante 4
+spnmarco: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Th]
+lerio35: folds 
+monkeyman1974: raises 30 to 60
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+spnmarco: folds 
+scorza23: calls 30
+*** FLOP *** [4s Qd 9d]
+scorza23: checks 
+monkeyman1974: bets 90
+scorza23: calls 90
+*** TURN *** [4s Qd 9d] [3d]
+scorza23: bets 339
+monkeyman1974: folds 
+Uncalled bet (339) returned to scorza23
+scorza23 collected 339 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 339 | Rake 0 
+Board [4s Qd 9d 3d]
+Seat 1: lerio35 folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded on the Turn
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 7: spnmarco (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (339)
+
+
+
+PokerStars Hand #260358236543: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:04:16 BRT [2026/04/05 16:04:16 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 1: lerio35 (1447 in chips) 
+Seat 2: monkeyman1974 (1190 in chips) 
+Seat 3: Fjzxuxaaaa (1517 in chips) 
+Seat 4: ratrix2009 (2963 in chips) 
+Seat 5: Carlos ASTA (4793 in chips) 
+Seat 6: beanyboy966 (2008 in chips) 
+Seat 7: spnmarco (1443 in chips) 
+Seat 8: scorza23 (1526 in chips) 
+lerio35: posts the ante 4
+monkeyman1974: posts the ante 4
+Fjzxuxaaaa: posts the ante 4
+ratrix2009: posts the ante 4
+Carlos ASTA: posts the ante 4
+beanyboy966: posts the ante 4
+spnmarco: posts the ante 4
+scorza23: posts the ante 4
+scorza23: posts small blind 15
+lerio35: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5d]
+monkeyman1974: folds 
+Fjzxuxaaaa: raises 30 to 60
+ratrix2009: folds 
+Carlos ASTA: calls 60
+beanyboy966: calls 60
+spnmarco: folds 
+scorza23: folds 
+lerio35: calls 30
+*** FLOP *** [2s 7h 8h]
+lerio35: checks 
+Fjzxuxaaaa: checks 
+Carlos ASTA: bets 120
+beanyboy966: calls 120
+lerio35: folds 
+Fjzxuxaaaa: folds 
+*** TURN *** [2s 7h 8h] [Kh]
+Carlos ASTA: bets 60
+beanyboy966: calls 60
+*** RIVER *** [2s 7h 8h Kh] [6c]
+Carlos ASTA: bets 60
+beanyboy966: calls 60
+*** SHOW DOWN ***
+Carlos ASTA: shows [8d Qs] (a pair of Eights)
+beanyboy966: shows [9d 9s] (a pair of Nines)
+beanyboy966 collected 767 from pot
+*** SUMMARY ***
+Total pot 767 | Rake 0 
+Board [2s 7h 8h Kh 6c]
+Seat 1: lerio35 (big blind) folded on the Flop
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa folded on the Flop
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA showed [8d Qs] and lost with a pair of Eights
+Seat 6: beanyboy966 showed [9d 9s] and won (767) with a pair of Nines
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358262129: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:05:51 BRT [2026/04/05 16:05:51 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 1: lerio35 (1383 in chips) 
+Seat 2: monkeyman1974 (1186 in chips) 
+Seat 3: Fjzxuxaaaa (1453 in chips) 
+Seat 4: ratrix2009 (2959 in chips) 
+Seat 5: Carlos ASTA (4489 in chips) 
+Seat 6: beanyboy966 (2471 in chips) 
+Seat 7: spnmarco (1439 in chips) 
+Seat 8: scorza23 (1507 in chips) 
+lerio35: posts the ante 6
+monkeyman1974: posts the ante 6
+Fjzxuxaaaa: posts the ante 6
+ratrix2009: posts the ante 6
+Carlos ASTA: posts the ante 6
+beanyboy966: posts the ante 6
+spnmarco: posts the ante 6
+scorza23: posts the ante 6
+lerio35: posts small blind 25
+monkeyman1974: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 6h]
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: calls 50
+beanyboy966: folds 
+spnmarco: folds 
+scorza23: folds 
+lerio35: raises 200 to 250
+monkeyman1974: folds 
+Carlos ASTA: folds 
+Uncalled bet (200) returned to lerio35
+lerio35 collected 198 from pot
+lerio35: doesn't show hand 
+*** SUMMARY ***
+Total pot 198 | Rake 0 
+Seat 1: lerio35 (small blind) collected (198)
+Seat 2: monkeyman1974 (big blind) folded before Flop
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded before Flop
+Seat 6: beanyboy966 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358278100: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:06:50 BRT [2026/04/05 16:06:50 ET]
+Table '3989565607 1' 8-max Seat #1 is the button
+Seat 1: lerio35 (1525 in chips) 
+Seat 2: monkeyman1974 (1130 in chips) 
+Seat 3: Fjzxuxaaaa (1447 in chips) 
+Seat 4: ratrix2009 (2953 in chips) 
+Seat 5: Carlos ASTA (4433 in chips) 
+Seat 6: beanyboy966 (2465 in chips) 
+Seat 7: spnmarco (1433 in chips) 
+Seat 8: scorza23 (1501 in chips) 
+lerio35: posts the ante 6
+monkeyman1974: posts the ante 6
+Fjzxuxaaaa: posts the ante 6
+ratrix2009: posts the ante 6
+Carlos ASTA: posts the ante 6
+beanyboy966: posts the ante 6
+spnmarco: posts the ante 6
+scorza23: posts the ante 6
+monkeyman1974: posts small blind 25
+Fjzxuxaaaa: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 3d]
+ratrix2009: folds 
+Carlos ASTA: raises 50 to 100
+beanyboy966: folds 
+spnmarco: folds 
+scorza23: folds 
+lerio35: raises 1419 to 1519 and is all-in
+monkeyman1974: folds 
+Fjzxuxaaaa: calls 1391 and is all-in
+Carlos ASTA: folds 
+Uncalled bet (78) returned to lerio35
+*** FLOP *** [Qd 6d Jc]
+*** TURN *** [Qd 6d Jc] [Ts]
+*** RIVER *** [Qd 6d Jc Ts] [Js]
+*** SHOW DOWN ***
+Fjzxuxaaaa: shows [7c 7d] (two pair, Jacks and Sevens)
+lerio35: shows [3h 3c] (two pair, Jacks and Threes)
+Fjzxuxaaaa collected 3055 from pot
+*** SUMMARY ***
+Total pot 3055 | Rake 0 
+Board [Qd 6d Jc Ts Js]
+Seat 1: lerio35 (button) showed [3h 3c] and lost with two pair, Jacks and Threes
+Seat 2: monkeyman1974 (small blind) folded before Flop
+Seat 3: Fjzxuxaaaa (big blind) showed [7c 7d] and won (3055) with two pair, Jacks and Sevens
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded before Flop
+Seat 6: beanyboy966 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358290393: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:07:36 BRT [2026/04/05 16:07:36 ET]
+Table '3989565607 1' 8-max Seat #2 is the button
+Seat 1: lerio35 (78 in chips) 
+Seat 2: monkeyman1974 (1099 in chips) 
+Seat 3: Fjzxuxaaaa (3055 in chips) 
+Seat 4: ratrix2009 (2947 in chips) 
+Seat 5: Carlos ASTA (4327 in chips) 
+Seat 6: beanyboy966 (2459 in chips) 
+Seat 7: spnmarco (1427 in chips) 
+Seat 8: scorza23 (1495 in chips) 
+lerio35: posts the ante 6
+monkeyman1974: posts the ante 6
+Fjzxuxaaaa: posts the ante 6
+ratrix2009: posts the ante 6
+Carlos ASTA: posts the ante 6
+beanyboy966: posts the ante 6
+spnmarco: posts the ante 6
+scorza23: posts the ante 6
+Fjzxuxaaaa: posts small blind 25
+ratrix2009: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 2c]
+Carlos ASTA: folds 
+beanyboy966: folds 
+spnmarco: folds 
+scorza23: folds 
+lerio35: raises 22 to 72 and is all-in
+monkeyman1974: folds 
+Fjzxuxaaaa has timed out
+Fjzxuxaaaa: folds 
+Fjzxuxaaaa is sitting out
+ratrix2009: calls 22
+*** FLOP *** [3d 6s 9h]
+Fjzxuxaaaa has returned
+*** TURN *** [3d 6s 9h] [4c]
+*** RIVER *** [3d 6s 9h 4c] [8d]
+*** SHOW DOWN ***
+ratrix2009: shows [4h Ks] (a pair of Fours)
+lerio35: shows [Ad 7h] (high card Ace)
+ratrix2009 collected 217 from pot
+lerio35 finished the tournament in 22nd place
+*** SUMMARY ***
+Total pot 217 | Rake 0 
+Board [3d 6s 9h 4c 8d]
+Seat 1: lerio35 showed [Ad 7h] and lost with high card Ace
+Seat 2: monkeyman1974 (button) folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) showed [4h Ks] and won (217) with a pair of Fours
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: beanyboy966 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358304783: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:08:29 BRT [2026/04/05 16:08:29 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 2: monkeyman1974 (1093 in chips) 
+Seat 3: Fjzxuxaaaa (3024 in chips) 
+Seat 4: ratrix2009 (3086 in chips) 
+Seat 5: Carlos ASTA (4321 in chips) 
+Seat 6: beanyboy966 (2453 in chips) 
+Seat 7: spnmarco (1421 in chips) 
+Seat 8: scorza23 (1489 in chips) 
+monkeyman1974: posts the ante 6
+Fjzxuxaaaa: posts the ante 6
+ratrix2009: posts the ante 6
+Carlos ASTA: posts the ante 6
+beanyboy966: posts the ante 6
+spnmarco: posts the ante 6
+scorza23: posts the ante 6
+ratrix2009: posts small blind 25
+Carlos ASTA: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2s]
+beanyboy966: folds 
+spnmarco: folds 
+scorza23: folds 
+monkeyman1974: raises 50 to 100
+Fjzxuxaaaa has timed out
+Fjzxuxaaaa: folds 
+Fjzxuxaaaa is sitting out
+Fjzxuxaaaa has returned
+ratrix2009: calls 75
+Carlos ASTA: calls 50
+*** FLOP *** [Kc Qh 2d]
+ratrix2009: checks 
+Carlos ASTA: checks 
+monkeyman1974: checks 
+*** TURN *** [Kc Qh 2d] [4h]
+ratrix2009: checks 
+Carlos ASTA: checks 
+monkeyman1974: bets 150
+ratrix2009: folds 
+Carlos ASTA: folds 
+Uncalled bet (150) returned to monkeyman1974
+monkeyman1974 collected 342 from pot
+monkeyman1974: doesn't show hand 
+*** SUMMARY ***
+Total pot 342 | Rake 0 
+Board [Kc Qh 2d 4h]
+Seat 2: monkeyman1974 collected (342)
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded on the Turn
+Seat 5: Carlos ASTA (big blind) folded on the Turn
+Seat 6: beanyboy966 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358326155: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:09:48 BRT [2026/04/05 16:09:48 ET]
+Table '3989565607 1' 8-max Seat #4 is the button
+Seat 2: monkeyman1974 (1329 in chips) 
+Seat 4: ratrix2009 (2980 in chips) 
+Seat 5: Carlos ASTA (4215 in chips) 
+Seat 6: beanyboy966 (2447 in chips) 
+Seat 7: spnmarco (1415 in chips) 
+Seat 8: scorza23 (1483 in chips) 
+monkeyman1974: posts the ante 10
+ratrix2009: posts the ante 10
+Carlos ASTA: posts the ante 10
+beanyboy966: posts the ante 10
+spnmarco: posts the ante 10
+scorza23: posts the ante 10
+Carlos ASTA: posts small blind 40
+beanyboy966: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 8h]
+spnmarco: folds 
+scorza23: raises 80 to 160
+monkeyman1974: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+beanyboy966: calls 80
+*** FLOP *** [Qc 4s Kh]
+beanyboy966: checks 
+scorza23: bets 420
+beanyboy966: calls 420
+*** TURN *** [Qc 4s Kh] [7c]
+beanyboy966: checks 
+scorza23: bets 893 and is all-in
+beanyboy966: calls 893
+*** RIVER *** [Qc 4s Kh 7c] [7h]
+*** SHOW DOWN ***
+beanyboy966: shows [Tc Jd] (a pair of Sevens)
+scorza23: shows [Qh 8h] (two pair, Queens and Sevens)
+scorza23 collected 3046 from pot
+*** SUMMARY ***
+Total pot 3046 | Rake 0 
+Board [Qc 4s Kh 7c 7h]
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: Carlos ASTA (small blind) folded before Flop
+Seat 6: beanyboy966 (big blind) showed [Tc Jd] and lost with a pair of Sevens
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 showed [Qh 8h] and won (3046) with two pair, Queens and Sevens
+
+
+
+PokerStars Hand #260358338610: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:10:35 BRT [2026/04/05 16:10:35 ET]
+Table '3989565607 1' 8-max Seat #5 is the button
+Seat 2: monkeyman1974 (1319 in chips) 
+Seat 4: ratrix2009 (2970 in chips) 
+Seat 5: Carlos ASTA (4165 in chips) 
+Seat 6: beanyboy966 (964 in chips) 
+Seat 7: spnmarco (1405 in chips) 
+Seat 8: scorza23 (3046 in chips) 
+monkeyman1974: posts the ante 10
+ratrix2009: posts the ante 10
+Carlos ASTA: posts the ante 10
+beanyboy966: posts the ante 10
+spnmarco: posts the ante 10
+scorza23: posts the ante 10
+beanyboy966: posts small blind 40
+spnmarco: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Kd]
+scorza23: folds 
+monkeyman1974: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+beanyboy966: calls 40
+spnmarco: raises 1315 to 1395 and is all-in
+beanyboy966: calls 874 and is all-in
+Uncalled bet (441) returned to spnmarco
+*** FLOP *** [As 3d 6h]
+*** TURN *** [As 3d 6h] [4h]
+*** RIVER *** [As 3d 6h 4h] [Th]
+*** SHOW DOWN ***
+beanyboy966: shows [Ks 3s] (a pair of Threes)
+spnmarco: shows [4c Qc] (a pair of Fours)
+spnmarco collected 1968 from pot
+beanyboy966 finished the tournament in 19th place
+*** SUMMARY ***
+Total pot 1968 | Rake 0 
+Board [As 3d 6h 4h Th]
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA (button) folded before Flop (didn't bet)
+Seat 6: beanyboy966 (small blind) showed [Ks 3s] and lost with a pair of Threes
+Seat 7: spnmarco (big blind) showed [4c Qc] and won (1968) with a pair of Fours
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358346780: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:11:05 BRT [2026/04/05 16:11:05 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 2: monkeyman1974 (1309 in chips) 
+Seat 4: ratrix2009 (2960 in chips) 
+Seat 5: Carlos ASTA (4155 in chips) 
+Seat 7: spnmarco (2409 in chips) 
+Seat 8: scorza23 (3036 in chips) 
+monkeyman1974: posts the ante 10
+ratrix2009: posts the ante 10
+Carlos ASTA: posts the ante 10
+spnmarco: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 40
+monkeyman1974: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 4d]
+ratrix2009: folds 
+Carlos ASTA: calls 80
+spnmarco: folds 
+scorza23: raises 160 to 240
+monkeyman1974: calls 160
+Carlos ASTA: calls 160
+*** FLOP *** [Kh 8h Th]
+scorza23: bets 770
+monkeyman1974: folds 
+Carlos ASTA: folds 
+Uncalled bet (770) returned to scorza23
+scorza23 collected 770 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 770 | Rake 0 
+Board [Kh 8h Th]
+Seat 2: monkeyman1974 (big blind) folded on the Flop
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded on the Flop
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (770)
+
+
+
+PokerStars Hand #260358355361: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:11:38 BRT [2026/04/05 16:11:38 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 1: R.Sarquis (2000 in chips) out of hand (moved from another table into small blind)
+Seat 2: monkeyman1974 (1059 in chips) 
+Seat 3: Fjzxuxaaaa (3008 in chips) 
+Seat 4: ratrix2009 (2950 in chips) 
+Seat 5: Carlos ASTA (3905 in chips) 
+Seat 6: wistiti069 (4126 in chips) 
+Seat 7: spnmarco (2399 in chips) 
+Seat 8: scorza23 (3556 in chips) 
+R.Sarquis will be allowed to play after the button
+monkeyman1974: posts the ante 10
+Fjzxuxaaaa: posts the ante 10
+ratrix2009: posts the ante 10
+Carlos ASTA: posts the ante 10
+wistiti069: posts the ante 10
+spnmarco: posts the ante 10
+scorza23: posts the ante 10
+monkeyman1974: posts small blind 40
+Fjzxuxaaaa: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 8d]
+ratrix2009: folds 
+Carlos ASTA: calls 80
+wistiti069: folds 
+spnmarco: folds 
+scorza23: folds 
+monkeyman1974: calls 40
+Fjzxuxaaaa: checks 
+*** FLOP *** [3h 8h 7h]
+monkeyman1974: checks 
+Fjzxuxaaaa: checks 
+Carlos ASTA: checks 
+*** TURN *** [3h 8h 7h] [3c]
+monkeyman1974: checks 
+Fjzxuxaaaa: checks 
+Carlos ASTA: checks 
+*** RIVER *** [3h 8h 7h 3c] [6d]
+monkeyman1974: bets 240
+Fjzxuxaaaa: folds 
+Carlos ASTA: calls 240
+*** SHOW DOWN ***
+monkeyman1974: shows [Qh 4c] (a pair of Threes)
+Carlos ASTA: shows [Ac 6s] (two pair, Sixes and Threes)
+Carlos ASTA collected 790 from pot
+*** SUMMARY ***
+Total pot 790 | Rake 0 
+Board [3h 8h 7h 3c 6d]
+Seat 2: monkeyman1974 (small blind) showed [Qh 4c] and lost with a pair of Threes
+Seat 3: Fjzxuxaaaa (big blind) folded on the River
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA showed [Ac 6s] and won (790) with two pair, Sixes and Threes
+Seat 6: wistiti069 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358374009: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:12:48 BRT [2026/04/05 16:12:48 ET]
+Table '3989565607 1' 8-max Seat #2 is the button
+Seat 1: R.Sarquis (2000 in chips) 
+Seat 2: monkeyman1974 (729 in chips) 
+Seat 3: Fjzxuxaaaa (2918 in chips) 
+Seat 4: ratrix2009 (2940 in chips) 
+Seat 5: Carlos ASTA (4365 in chips) 
+Seat 6: wistiti069 (4116 in chips) 
+Seat 7: spnmarco (2389 in chips) 
+Seat 8: scorza23 (3546 in chips) 
+R.Sarquis: posts the ante 10
+monkeyman1974: posts the ante 10
+Fjzxuxaaaa: posts the ante 10
+ratrix2009: posts the ante 10
+Carlos ASTA: posts the ante 10
+wistiti069: posts the ante 10
+spnmarco: posts the ante 10
+scorza23: posts the ante 10
+Fjzxuxaaaa: posts small blind 40
+ratrix2009: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 7c]
+Carlos ASTA: folds 
+wistiti069: folds 
+spnmarco: raises 90 to 170
+scorza23: folds 
+R.Sarquis: raises 328 to 498
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+spnmarco: folds 
+Uncalled bet (328) returned to R.Sarquis
+R.Sarquis collected 540 from pot
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 1: R.Sarquis collected (540)
+Seat 2: monkeyman1974 (button) folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: wistiti069 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358386324: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:13:33 BRT [2026/04/05 16:13:33 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 1: R.Sarquis (2360 in chips) 
+Seat 2: monkeyman1974 (719 in chips) 
+Seat 3: Fjzxuxaaaa (2868 in chips) 
+Seat 4: ratrix2009 (2850 in chips) 
+Seat 5: Carlos ASTA (4355 in chips) 
+Seat 6: wistiti069 (4106 in chips) 
+Seat 7: spnmarco (2209 in chips) 
+Seat 8: scorza23 (3536 in chips) 
+R.Sarquis: posts the ante 10
+monkeyman1974: posts the ante 10
+Fjzxuxaaaa: posts the ante 10
+ratrix2009: posts the ante 10
+Carlos ASTA: posts the ante 10
+wistiti069: posts the ante 10
+spnmarco: posts the ante 10
+scorza23: posts the ante 10
+ratrix2009: posts small blind 40
+Carlos ASTA: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4c]
+wistiti069: folds 
+spnmarco: folds 
+scorza23: folds 
+R.Sarquis: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: calls 40
+Carlos ASTA: checks 
+*** FLOP *** [3s Th 8h]
+ratrix2009: bets 80
+Carlos ASTA: calls 80
+*** TURN *** [3s Th 8h] [Js]
+ratrix2009: bets 160
+Carlos ASTA: calls 160
+*** RIVER *** [3s Th 8h Js] [8d]
+ratrix2009: bets 720
+Carlos ASTA: folds 
+Uncalled bet (720) returned to ratrix2009
+ratrix2009 collected 720 from pot
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Board [3s Th 8h Js 8d]
+Seat 1: R.Sarquis folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) collected (720)
+Seat 5: Carlos ASTA (big blind) folded on the River
+Seat 6: wistiti069 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358399659: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:14:23 BRT [2026/04/05 16:14:23 ET]
+Table '3989565607 1' 8-max Seat #4 is the button
+Seat 1: R.Sarquis (2350 in chips) 
+Seat 2: monkeyman1974 (709 in chips) 
+Seat 3: Fjzxuxaaaa (2858 in chips) 
+Seat 4: ratrix2009 (3240 in chips) 
+Seat 5: Carlos ASTA (4025 in chips) 
+Seat 6: wistiti069 (4096 in chips) 
+Seat 7: spnmarco (2199 in chips) 
+Seat 8: scorza23 (3526 in chips) 
+R.Sarquis: posts the ante 10
+monkeyman1974: posts the ante 10
+Fjzxuxaaaa: posts the ante 10
+ratrix2009: posts the ante 10
+Carlos ASTA: posts the ante 10
+wistiti069: posts the ante 10
+spnmarco: posts the ante 10
+scorza23: posts the ante 10
+Carlos ASTA: posts small blind 40
+wistiti069: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qd]
+spnmarco: folds 
+scorza23: folds 
+R.Sarquis: calls 80
+monkeyman1974: raises 160 to 240
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: folds 
+R.Sarquis: calls 160
+*** FLOP *** [5s 8h 7d]
+R.Sarquis: checks 
+monkeyman1974: checks 
+*** TURN *** [5s 8h 7d] [Ah]
+R.Sarquis: checks 
+monkeyman1974: bets 160
+R.Sarquis: folds 
+Uncalled bet (160) returned to monkeyman1974
+monkeyman1974 collected 680 from pot
+monkeyman1974: doesn't show hand 
+*** SUMMARY ***
+Total pot 680 | Rake 0 
+Board [5s 8h 7d Ah]
+Seat 1: R.Sarquis folded on the Turn
+Seat 2: monkeyman1974 collected (680)
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: Carlos ASTA (small blind) folded before Flop
+Seat 6: wistiti069 (big blind) folded before Flop
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358420623: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:15:40 BRT [2026/04/05 16:15:40 ET]
+Table '3989565607 1' 8-max Seat #5 is the button
+Seat 1: R.Sarquis (2100 in chips) 
+Seat 2: monkeyman1974 (1139 in chips) 
+Seat 3: Fjzxuxaaaa (2848 in chips) 
+Seat 4: ratrix2009 (3230 in chips) 
+Seat 5: Carlos ASTA (3975 in chips) 
+Seat 6: wistiti069 (4006 in chips) 
+Seat 7: spnmarco (2189 in chips) 
+Seat 8: scorza23 (3516 in chips) 
+R.Sarquis: posts the ante 15
+monkeyman1974: posts the ante 15
+Fjzxuxaaaa: posts the ante 15
+ratrix2009: posts the ante 15
+Carlos ASTA: posts the ante 15
+wistiti069: posts the ante 15
+spnmarco: posts the ante 15
+scorza23: posts the ante 15
+wistiti069: posts small blind 60
+spnmarco: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2h As]
+scorza23: folds 
+R.Sarquis: folds 
+monkeyman1974: raises 120 to 240
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: folds 
+spnmarco: calls 120
+*** FLOP *** [5h 4d Tc]
+spnmarco: checks 
+monkeyman1974: checks 
+*** TURN *** [5h 4d Tc] [Ts]
+spnmarco: bets 240
+monkeyman1974: folds 
+Uncalled bet (240) returned to spnmarco
+spnmarco collected 660 from pot
+spnmarco: doesn't show hand 
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Board [5h 4d Tc Ts]
+Seat 1: R.Sarquis folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded on the Turn
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA (button) folded before Flop (didn't bet)
+Seat 6: wistiti069 (small blind) folded before Flop
+Seat 7: spnmarco (big blind) collected (660)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358433192: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:16:27 BRT [2026/04/05 16:16:27 ET]
+Table '3989565607 1' 8-max Seat #6 is the button
+Seat 1: R.Sarquis (2085 in chips) 
+Seat 2: monkeyman1974 (884 in chips) 
+Seat 3: Fjzxuxaaaa (2833 in chips) 
+Seat 4: ratrix2009 (3215 in chips) 
+Seat 5: Carlos ASTA (3960 in chips) 
+Seat 6: wistiti069 (3931 in chips) 
+Seat 7: spnmarco (2594 in chips) 
+Seat 8: scorza23 (3501 in chips) 
+R.Sarquis: posts the ante 15
+monkeyman1974: posts the ante 15
+Fjzxuxaaaa: posts the ante 15
+ratrix2009: posts the ante 15
+Carlos ASTA: posts the ante 15
+wistiti069: posts the ante 15
+spnmarco: posts the ante 15
+scorza23: posts the ante 15
+spnmarco: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9h]
+R.Sarquis: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: raises 120 to 240
+spnmarco: folds 
+scorza23: calls 120
+*** FLOP *** [2h 3s 5h]
+scorza23: checks 
+wistiti069: checks 
+*** TURN *** [2h 3s 5h] [4d]
+scorza23: bets 240
+wistiti069: calls 240
+*** RIVER *** [2h 3s 5h 4d] [3d]
+scorza23: checks 
+wistiti069: checks 
+*** SHOW DOWN ***
+scorza23: shows [Qc 9h] (a pair of Threes)
+wistiti069: shows [Qd Td] (a pair of Threes - Queen+Ten kicker)
+wistiti069 collected 1140 from pot
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Board [2h 3s 5h 4d 3d]
+Seat 1: R.Sarquis folded before Flop (didn't bet)
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: wistiti069 (button) showed [Qd Td] and won (1140) with a pair of Threes
+Seat 7: spnmarco (small blind) folded before Flop
+Seat 8: scorza23 (big blind) showed [Qc 9h] and lost with a pair of Threes
+
+
+
+PokerStars Hand #260358445139: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:17:12 BRT [2026/04/05 16:17:12 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 1: R.Sarquis (2070 in chips) 
+Seat 2: monkeyman1974 (869 in chips) 
+Seat 3: Fjzxuxaaaa (2818 in chips) 
+Seat 4: ratrix2009 (3200 in chips) 
+Seat 5: Carlos ASTA (3945 in chips) 
+Seat 6: wistiti069 (4576 in chips) 
+Seat 7: spnmarco (2519 in chips) 
+Seat 8: scorza23 (3006 in chips) 
+R.Sarquis: posts the ante 15
+monkeyman1974: posts the ante 15
+Fjzxuxaaaa: posts the ante 15
+ratrix2009: posts the ante 15
+Carlos ASTA: posts the ante 15
+wistiti069: posts the ante 15
+spnmarco: posts the ante 15
+scorza23: posts the ante 15
+scorza23: posts small blind 60
+R.Sarquis: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Qd]
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: folds 
+spnmarco: folds 
+scorza23: raises 120 to 240
+R.Sarquis: calls 120
+*** FLOP *** [3d Tc 2h]
+scorza23: bets 240
+R.Sarquis: calls 240
+*** TURN *** [3d Tc 2h] [Jc]
+scorza23: bets 1080
+R.Sarquis: raises 495 to 1575 and is all-in
+scorza23: folds 
+Uncalled bet (495) returned to R.Sarquis
+R.Sarquis collected 3240 from pot
+*** SUMMARY ***
+Total pot 3240 | Rake 0 
+Board [3d Tc 2h Jc]
+Seat 1: R.Sarquis (big blind) collected (3240)
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: wistiti069 folded before Flop (didn't bet)
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260358459054: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:18:03 BRT [2026/04/05 16:18:03 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 1: R.Sarquis (3735 in chips) 
+Seat 2: monkeyman1974 (854 in chips) 
+Seat 3: Fjzxuxaaaa (2803 in chips) 
+Seat 4: ratrix2009 (3185 in chips) 
+Seat 5: Carlos ASTA (3930 in chips) 
+Seat 6: wistiti069 (4561 in chips) 
+Seat 7: spnmarco (2504 in chips) 
+Seat 8: scorza23 (1431 in chips) 
+R.Sarquis: posts the ante 15
+monkeyman1974: posts the ante 15
+Fjzxuxaaaa: posts the ante 15
+ratrix2009: posts the ante 15
+Carlos ASTA: posts the ante 15
+wistiti069: posts the ante 15
+spnmarco: posts the ante 15
+scorza23: posts the ante 15
+R.Sarquis: posts small blind 60
+monkeyman1974: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 4c]
+Fjzxuxaaaa has timed out
+Fjzxuxaaaa: folds 
+Fjzxuxaaaa is sitting out
+Fjzxuxaaaa has returned
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: raises 120 to 240
+spnmarco: folds 
+scorza23: folds 
+R.Sarquis: folds 
+monkeyman1974: calls 120
+*** FLOP *** [4s 5h Kh]
+monkeyman1974: checks 
+wistiti069: bets 330
+monkeyman1974: folds 
+Uncalled bet (330) returned to wistiti069
+wistiti069 collected 660 from pot
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Board [4s 5h Kh]
+Seat 1: R.Sarquis (small blind) folded before Flop
+Seat 2: monkeyman1974 (big blind) folded on the Flop
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: wistiti069 collected (660)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358472447: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 17:18:53 BRT [2026/04/05 16:18:53 ET]
+Table '3989565607 1' 8-max Seat #1 is the button
+Seat 1: R.Sarquis (3660 in chips) 
+Seat 2: monkeyman1974 (599 in chips) 
+Seat 3: Fjzxuxaaaa (2788 in chips) 
+Seat 4: ratrix2009 (3170 in chips) 
+Seat 5: Carlos ASTA (3915 in chips) 
+Seat 6: wistiti069 (4966 in chips) 
+Seat 7: spnmarco (2489 in chips) 
+Seat 8: scorza23 (1416 in chips) 
+R.Sarquis: posts the ante 15
+monkeyman1974: posts the ante 15
+Fjzxuxaaaa: posts the ante 15
+ratrix2009: posts the ante 15
+Carlos ASTA: posts the ante 15
+wistiti069: posts the ante 15
+spnmarco: posts the ante 15
+scorza23: posts the ante 15
+monkeyman1974: posts small blind 60
+Fjzxuxaaaa: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Js]
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: raises 120 to 240
+spnmarco: folds 
+scorza23: folds 
+R.Sarquis: raises 480 to 720
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+wistiti069: calls 480
+*** FLOP *** [Jh Th 6d]
+wistiti069: checks 
+R.Sarquis: bets 574
+wistiti069: calls 574
+*** TURN *** [Jh Th 6d] [2s]
+wistiti069: checks 
+R.Sarquis: bets 2351 and is all-in
+wistiti069: calls 2351
+*** RIVER *** [Jh Th 6d 2s] [Qc]
+*** SHOW DOWN ***
+wistiti069: shows [Jd Qd] (two pair, Queens and Jacks)
+R.Sarquis: shows [Kd 8d] (high card King)
+wistiti069 collected 7590 from pot
+R.Sarquis finished the tournament in 15th place
+*** SUMMARY ***
+Total pot 7590 | Rake 0 
+Board [Jh Th 6d 2s Qc]
+Seat 1: R.Sarquis (button) showed [Kd 8d] and lost with high card King
+Seat 2: monkeyman1974 (small blind) folded before Flop
+Seat 3: Fjzxuxaaaa (big blind) folded before Flop
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: wistiti069 showed [Jd Qd] and won (7590) with two pair, Queens and Jacks
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358494336: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:20:15 BRT [2026/04/05 16:20:15 ET]
+Table '3989565607 1' 8-max Seat #2 is the button
+Seat 2: monkeyman1974 (524 in chips) 
+Seat 3: Fjzxuxaaaa (2653 in chips) 
+Seat 4: ratrix2009 (3155 in chips) 
+Seat 5: Carlos ASTA (3900 in chips) 
+Seat 6: wistiti069 (8896 in chips) 
+Seat 7: spnmarco (2474 in chips) 
+Seat 8: scorza23 (1401 in chips) 
+monkeyman1974: posts the ante 20
+Fjzxuxaaaa: posts the ante 20
+ratrix2009: posts the ante 20
+Carlos ASTA: posts the ante 20
+wistiti069: posts the ante 20
+spnmarco: posts the ante 20
+scorza23: posts the ante 20
+Fjzxuxaaaa: posts small blind 80
+ratrix2009: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ts]
+Carlos ASTA: folds 
+wistiti069: raises 160 to 320
+spnmarco: folds 
+scorza23: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Uncalled bet (160) returned to wistiti069
+wistiti069 collected 540 from pot
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 2: monkeyman1974 (button) folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: wistiti069 collected (540)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358502515: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:20:44 BRT [2026/04/05 16:20:44 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 2: monkeyman1974 (504 in chips) 
+Seat 3: Fjzxuxaaaa (2553 in chips) 
+Seat 4: ratrix2009 (2975 in chips) 
+Seat 5: Carlos ASTA (3880 in chips) 
+Seat 6: wistiti069 (9256 in chips) 
+Seat 7: spnmarco (2454 in chips) 
+Seat 8: scorza23 (1381 in chips) 
+monkeyman1974: posts the ante 20
+Fjzxuxaaaa: posts the ante 20
+ratrix2009: posts the ante 20
+Carlos ASTA: posts the ante 20
+wistiti069: posts the ante 20
+spnmarco: posts the ante 20
+scorza23: posts the ante 20
+ratrix2009: posts small blind 80
+Carlos ASTA: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Jc]
+wistiti069: raises 160 to 320
+spnmarco: raises 2114 to 2434 and is all-in
+scorza23: calls 1361 and is all-in
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: folds 
+Uncalled bet (1073) returned to spnmarco
+*** FLOP *** [5s 3d 2d]
+*** TURN *** [5s 3d 2d] [2h]
+*** RIVER *** [5s 3d 2d 2h] [2s]
+*** SHOW DOWN ***
+spnmarco: shows [Kd Jd] (three of a kind, Deuces)
+scorza23: shows [Kc Jc] (three of a kind, Deuces)
+spnmarco collected 1711 from pot
+scorza23 collected 1711 from pot
+*** SUMMARY ***
+Total pot 3422 | Rake 0 
+Board [5s 3d 2d 2h 2s]
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: Carlos ASTA (big blind) folded before Flop
+Seat 6: wistiti069 folded before Flop
+Seat 7: spnmarco showed [Kd Jd] and won (1711) with three of a kind, Deuces
+Seat 8: scorza23 showed [Kc Jc] and won (1711) with three of a kind, Deuces
+
+
+
+PokerStars Hand #260358511761: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:21:18 BRT [2026/04/05 16:21:18 ET]
+Table '3989565607 1' 8-max Seat #4 is the button
+Seat 2: monkeyman1974 (484 in chips) 
+Seat 3: Fjzxuxaaaa (2533 in chips) 
+Seat 4: ratrix2009 (2875 in chips) 
+Seat 5: Carlos ASTA (3700 in chips) 
+Seat 6: wistiti069 (8916 in chips) 
+Seat 7: spnmarco (2784 in chips) 
+Seat 8: scorza23 (1711 in chips) 
+monkeyman1974: posts the ante 20
+Fjzxuxaaaa: posts the ante 20
+ratrix2009: posts the ante 20
+Carlos ASTA: posts the ante 20
+wistiti069: posts the ante 20
+spnmarco: posts the ante 20
+scorza23: posts the ante 20
+Carlos ASTA: posts small blind 80
+wistiti069: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 6d]
+spnmarco: folds 
+scorza23: folds 
+monkeyman1974: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: calls 80
+wistiti069: checks 
+*** FLOP *** [4h Kh Kc]
+Carlos ASTA: bets 160
+wistiti069: calls 160
+*** TURN *** [4h Kh Kc] [8c]
+Carlos ASTA: bets 160
+wistiti069: calls 160
+*** RIVER *** [4h Kh Kc 8c] [5s]
+Carlos ASTA: bets 320
+wistiti069: calls 320
+*** SHOW DOWN ***
+Carlos ASTA: shows [7d 4d] (two pair, Kings and Fours)
+wistiti069: shows [5h Ah] (two pair, Kings and Fives)
+wistiti069 collected 1740 from pot
+*** SUMMARY ***
+Total pot 1740 | Rake 0 
+Board [4h Kh Kc 8c 5s]
+Seat 2: monkeyman1974 folded before Flop (didn't bet)
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: Carlos ASTA (small blind) showed [7d 4d] and lost with two pair, Kings and Fours
+Seat 6: wistiti069 (big blind) showed [5h Ah] and won (1740) with two pair, Kings and Fives
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358528077: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:22:18 BRT [2026/04/05 16:22:18 ET]
+Table '3989565607 1' 8-max Seat #5 is the button
+Seat 2: monkeyman1974 (464 in chips) 
+Seat 3: Fjzxuxaaaa (2513 in chips) 
+Seat 4: ratrix2009 (2855 in chips) 
+Seat 5: Carlos ASTA (2880 in chips) 
+Seat 6: wistiti069 (9836 in chips) 
+Seat 7: spnmarco (2764 in chips) 
+Seat 8: scorza23 (1691 in chips) 
+monkeyman1974: posts the ante 20
+Fjzxuxaaaa: posts the ante 20
+ratrix2009: posts the ante 20
+Carlos ASTA: posts the ante 20
+wistiti069: posts the ante 20
+spnmarco: posts the ante 20
+scorza23: posts the ante 20
+wistiti069: posts small blind 80
+spnmarco: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Ad]
+scorza23: raises 320 to 480
+monkeyman1974: calls 444 and is all-in
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: folds 
+spnmarco: calls 320
+*** FLOP *** [6c Jc 4d]
+spnmarco: checks 
+scorza23: bets 1191 and is all-in
+spnmarco: folds 
+Uncalled bet (1191) returned to scorza23
+*** TURN *** [6c Jc 4d] [8d]
+*** RIVER *** [6c Jc 4d 8d] [9s]
+*** SHOW DOWN ***
+scorza23: shows [Ks Ad] (high card Ace)
+scorza23 collected 72 from side pot
+monkeyman1974: shows [Th As] (high card Ace - lower kicker)
+scorza23 collected 1552 from main pot
+monkeyman1974 finished the tournament in 13th place
+*** SUMMARY ***
+Total pot 1624 Main pot 1552. Side pot 72. | Rake 0 
+Board [6c Jc 4d 8d 9s]
+Seat 2: monkeyman1974 showed [Th As] and lost with high card Ace
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA (button) folded before Flop (didn't bet)
+Seat 6: wistiti069 (small blind) folded before Flop
+Seat 7: spnmarco (big blind) folded on the Flop
+Seat 8: scorza23 showed [Ks Ad] and won (1624) with high card Ace
+
+
+
+PokerStars Hand #260358542239: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:23:10 BRT [2026/04/05 16:23:10 ET]
+Table '3989565607 1' 8-max Seat #6 is the button
+Seat 3: Fjzxuxaaaa (2493 in chips) 
+Seat 4: ratrix2009 (2835 in chips) 
+Seat 5: Carlos ASTA (2860 in chips) 
+Seat 6: wistiti069 (9736 in chips) 
+Seat 7: spnmarco (2264 in chips) 
+Seat 8: scorza23 (2815 in chips) 
+Fjzxuxaaaa: posts the ante 20
+ratrix2009: posts the ante 20
+Carlos ASTA: posts the ante 20
+wistiti069: posts the ante 20
+spnmarco: posts the ante 20
+scorza23: posts the ante 20
+spnmarco: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 4s]
+Fjzxuxaaaa: folds 
+ratrix2009: folds 
+Carlos ASTA: folds 
+wistiti069: folds 
+spnmarco: raises 2084 to 2244 and is all-in
+scorza23: folds 
+Uncalled bet (2084) returned to spnmarco
+spnmarco collected 440 from pot
+spnmarco: doesn't show hand 
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA folded before Flop (didn't bet)
+Seat 6: wistiti069 (button) folded before Flop (didn't bet)
+Seat 7: spnmarco (small blind) collected (440)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358550055: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:23:38 BRT [2026/04/05 16:23:38 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 3: Fjzxuxaaaa (2473 in chips) 
+Seat 4: ratrix2009 (2815 in chips) 
+Seat 5: Carlos ASTA (2840 in chips) 
+Seat 6: wistiti069 (9716 in chips) 
+Seat 7: spnmarco (2524 in chips) 
+Seat 8: scorza23 (2635 in chips) 
+Fjzxuxaaaa: posts the ante 20
+ratrix2009: posts the ante 20
+Carlos ASTA: posts the ante 20
+wistiti069: posts the ante 20
+spnmarco: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+Fjzxuxaaaa: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 5s]
+ratrix2009: folds 
+Carlos ASTA: raises 160 to 320
+wistiti069: calls 320
+spnmarco: folds 
+scorza23: folds 
+Fjzxuxaaaa: raises 2133 to 2453 and is all-in
+Carlos ASTA: raises 367 to 2820 and is all-in
+wistiti069: folds 
+Uncalled bet (367) returned to Carlos ASTA
+*** FLOP *** [Ah Ac 3d]
+*** TURN *** [Ah Ac 3d] [8s]
+*** RIVER *** [Ah Ac 3d 8s] [Kc]
+*** SHOW DOWN ***
+Fjzxuxaaaa: shows [As Tc] (three of a kind, Aces)
+Carlos ASTA: shows [Qs Ts] (a pair of Aces)
+Fjzxuxaaaa collected 5426 from pot
+*** SUMMARY ***
+Total pot 5426 | Rake 0 
+Board [Ah Ac 3d 8s Kc]
+Seat 3: Fjzxuxaaaa (big blind) showed [As Tc] and won (5426) with three of a kind, Aces
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: Carlos ASTA showed [Qs Ts] and lost with a pair of Aces
+Seat 6: wistiti069 folded before Flop
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358560714: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 17:24:17 BRT [2026/04/05 16:24:17 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 3: Fjzxuxaaaa (5426 in chips) 
+Seat 4: ratrix2009 (2795 in chips) 
+Seat 5: Carlos ASTA (367 in chips) 
+Seat 6: wistiti069 (9376 in chips) 
+Seat 7: spnmarco (2504 in chips) 
+Seat 8: scorza23 (2535 in chips) 
+Fjzxuxaaaa: posts the ante 20
+ratrix2009: posts the ante 20
+Carlos ASTA: posts the ante 20
+wistiti069: posts the ante 20
+spnmarco: posts the ante 20
+scorza23: posts the ante 20
+Fjzxuxaaaa: posts small blind 80
+ratrix2009: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 6s]
+Carlos ASTA: raises 160 to 320
+wistiti069: folds 
+spnmarco: folds 
+scorza23: folds 
+Fjzxuxaaaa: folds 
+ratrix2009: calls 160
+*** FLOP *** [Jc Jh Ts]
+ratrix2009: checks 
+Carlos ASTA: bets 27 and is all-in
+ratrix2009: calls 27
+*** TURN *** [Jc Jh Ts] [9h]
+*** RIVER *** [Jc Jh Ts 9h] [4d]
+*** SHOW DOWN ***
+ratrix2009: shows [Td Jd] (a full house, Jacks full of Tens)
+Carlos ASTA: shows [6h Ac] (a pair of Jacks)
+ratrix2009 collected 894 from pot
+Carlos ASTA finished the tournament in 12th place
+*** SUMMARY ***
+Total pot 894 | Rake 0 
+Board [Jc Jh Ts 9h 4d]
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) showed [Td Jd] and won (894) with a full house, Jacks full of Tens
+Seat 5: Carlos ASTA showed [6h Ac] and lost with a pair of Jacks
+Seat 6: wistiti069 folded before Flop (didn't bet)
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358570531: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:24:52 BRT [2026/04/05 16:24:52 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 3: Fjzxuxaaaa (5326 in chips) 
+Seat 4: ratrix2009 (3322 in chips) 
+Seat 6: wistiti069 (9356 in chips) 
+Seat 7: spnmarco (2484 in chips) 
+Seat 8: scorza23 (2515 in chips) 
+Fjzxuxaaaa: posts the ante 25
+ratrix2009: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+ratrix2009: posts small blind 100
+wistiti069: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Js]
+spnmarco: folds 
+scorza23: raises 200 to 400
+Fjzxuxaaaa: folds 
+ratrix2009: raises 2897 to 3297 and is all-in
+wistiti069: folds 
+scorza23: calls 2090 and is all-in
+Uncalled bet (807) returned to ratrix2009
+*** FLOP *** [Tc 5c Qs]
+*** TURN *** [Tc 5c Qs] [Jh]
+*** RIVER *** [Tc 5c Qs Jh] [Qd]
+*** SHOW DOWN ***
+ratrix2009: shows [Td As] (two pair, Queens and Tens)
+scorza23: shows [Ks Js] (two pair, Queens and Jacks)
+scorza23 collected 5305 from pot
+*** SUMMARY ***
+Total pot 5305 | Rake 0 
+Board [Tc 5c Qs Jh Qd]
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) showed [Td As] and lost with two pair, Queens and Tens
+Seat 6: wistiti069 (big blind) folded before Flop
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 showed [Ks Js] and won (5305) with two pair, Queens and Jacks
+
+
+
+PokerStars Hand #260358580224: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:25:28 BRT [2026/04/05 16:25:28 ET]
+Table '3989565607 1' 8-max Seat #4 is the button
+Seat 3: Fjzxuxaaaa (5301 in chips) 
+Seat 4: ratrix2009 (807 in chips) 
+Seat 6: wistiti069 (9131 in chips) 
+Seat 7: spnmarco (2459 in chips) 
+Seat 8: scorza23 (5305 in chips) 
+Fjzxuxaaaa: posts the ante 25
+ratrix2009: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+wistiti069: posts small blind 100
+spnmarco: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Th]
+scorza23: folds 
+Fjzxuxaaaa: raises 200 to 400
+ratrix2009: folds 
+wistiti069: calls 300
+spnmarco: calls 200
+*** FLOP *** [4h 5s 6d]
+wistiti069: checks 
+spnmarco: checks 
+Fjzxuxaaaa: bets 331
+wistiti069: calls 331
+spnmarco: folds 
+*** TURN *** [4h 5s 6d] [7c]
+wistiti069: checks 
+Fjzxuxaaaa: bets 596
+wistiti069: calls 596
+*** RIVER *** [4h 5s 6d 7c] [9h]
+wistiti069: checks 
+Fjzxuxaaaa: bets 1954
+wistiti069: raises 5825 to 7779 and is all-in
+Fjzxuxaaaa: calls 1995 and is all-in
+Uncalled bet (3830) returned to wistiti069
+*** SHOW DOWN ***
+wistiti069: shows [7s 8d] (a straight, Five to Nine)
+Fjzxuxaaaa: shows [Ah 8h] (a straight, Five to Nine)
+wistiti069 collected 5539 from pot
+Fjzxuxaaaa collected 5538 from pot
+*** SUMMARY ***
+Total pot 11077 | Rake 0 
+Board [4h 5s 6d 7c 9h]
+Seat 3: Fjzxuxaaaa showed [Ah 8h] and won (5538) with a straight, Five to Nine
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 6: wistiti069 (small blind) showed [7s 8d] and won (5539) with a straight, Five to Nine
+Seat 7: spnmarco (big blind) folded on the Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358598782: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:26:35 BRT [2026/04/05 16:26:35 ET]
+Table '3989565607 1' 8-max Seat #6 is the button
+Seat 3: Fjzxuxaaaa (5538 in chips) 
+Seat 4: ratrix2009 (782 in chips) 
+Seat 6: wistiti069 (9369 in chips) 
+Seat 7: spnmarco (2034 in chips) 
+Seat 8: scorza23 (5280 in chips) 
+Fjzxuxaaaa: posts the ante 25
+ratrix2009: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+spnmarco: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Ts]
+Fjzxuxaaaa: folds 
+ratrix2009: raises 557 to 757 and is all-in
+wistiti069: folds 
+spnmarco: folds 
+scorza23: folds 
+Uncalled bet (557) returned to ratrix2009
+ratrix2009 collected 625 from pot
+ratrix2009: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: ratrix2009 collected (625)
+Seat 6: wistiti069 (button) folded before Flop (didn't bet)
+Seat 7: spnmarco (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358602387: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:26:49 BRT [2026/04/05 16:26:49 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 3: Fjzxuxaaaa (5513 in chips) 
+Seat 4: ratrix2009 (1182 in chips) 
+Seat 6: wistiti069 (9344 in chips) 
+Seat 7: spnmarco (1909 in chips) 
+Seat 8: scorza23 (5055 in chips) 
+Fjzxuxaaaa: posts the ante 25
+ratrix2009: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+Fjzxuxaaaa: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 3d]
+ratrix2009: raises 957 to 1157 and is all-in
+wistiti069: folds 
+spnmarco: folds 
+scorza23: calls 1057
+Fjzxuxaaaa: folds 
+*** FLOP *** [9d 9c Jd]
+*** TURN *** [9d 9c Jd] [Kc]
+*** RIVER *** [9d 9c Jd Kc] [3c]
+*** SHOW DOWN ***
+scorza23: shows [3s 3d] (a full house, Threes full of Nines)
+ratrix2009: shows [Ac 5d] (a pair of Nines)
+scorza23 collected 2639 from pot
+ratrix2009 finished the tournament in 11th place
+*** SUMMARY ***
+Total pot 2639 | Rake 0 
+Board [9d 9c Jd Kc 3c]
+Seat 3: Fjzxuxaaaa (big blind) folded before Flop
+Seat 4: ratrix2009 showed [Ac 5d] and lost with a pair of Nines
+Seat 6: wistiti069 folded before Flop (didn't bet)
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) showed [3s 3d] and won (2639) with a full house, Threes full of Nines
+
+
+
+PokerStars Hand #260358608502: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:27:11 BRT [2026/04/05 16:27:11 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 3: Fjzxuxaaaa (5288 in chips) 
+Seat 6: wistiti069 (9319 in chips) 
+Seat 7: spnmarco (1884 in chips) 
+Seat 8: scorza23 (6512 in chips) 
+Fjzxuxaaaa: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+Fjzxuxaaaa: posts small blind 100
+wistiti069: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5s]
+spnmarco: raises 1659 to 1859 and is all-in
+scorza23: folds 
+Fjzxuxaaaa: folds 
+wistiti069: folds 
+Uncalled bet (1659) returned to spnmarco
+spnmarco collected 600 from pot
+spnmarco: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 6: wistiti069 (big blind) folded before Flop
+Seat 7: spnmarco collected (600)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358613811: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:27:30 BRT [2026/04/05 16:27:30 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 3: Fjzxuxaaaa (5163 in chips) 
+Seat 6: wistiti069 (9094 in chips) 
+Seat 7: spnmarco (2259 in chips) 
+Seat 8: scorza23 (6487 in chips) 
+Fjzxuxaaaa: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+wistiti069: posts small blind 100
+spnmarco: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3h]
+scorza23: folds 
+Fjzxuxaaaa: raises 200 to 400
+wistiti069: folds 
+spnmarco: raises 1834 to 2234 and is all-in
+Fjzxuxaaaa: folds 
+Uncalled bet (1834) returned to spnmarco
+spnmarco collected 1000 from pot
+spnmarco: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Seat 3: Fjzxuxaaaa (button) folded before Flop
+Seat 6: wistiti069 (small blind) folded before Flop
+Seat 7: spnmarco (big blind) collected (1000)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358618720: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:27:48 BRT [2026/04/05 16:27:48 ET]
+Table '3989565607 1' 8-max Seat #6 is the button
+Seat 3: Fjzxuxaaaa (4738 in chips) 
+Seat 4: 1Royal-lady (4316 in chips) 
+Seat 6: wistiti069 (8969 in chips) 
+Seat 7: spnmarco (2834 in chips) 
+Seat 8: scorza23 (6462 in chips) 
+Fjzxuxaaaa: posts the ante 25
+1Royal-lady: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+spnmarco: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 8c]
+Fjzxuxaaaa: folds 
+1Royal-lady: calls 200
+wistiti069: raises 400 to 600
+spnmarco: folds 
+scorza23: calls 400
+1Royal-lady: calls 400
+*** FLOP *** [5s Ad Qc]
+scorza23: checks 
+1Royal-lady: checks 
+wistiti069: bets 1013
+scorza23: folds 
+1Royal-lady: raises 2678 to 3691 and is all-in
+wistiti069: calls 2678
+*** TURN *** [5s Ad Qc] [7h]
+*** RIVER *** [5s Ad Qc 7h] [4d]
+*** SHOW DOWN ***
+1Royal-lady: shows [Js Kh] (high card Ace)
+wistiti069: shows [As Qd] (two pair, Aces and Queens)
+wistiti069 collected 9407 from pot
+1Royal-lady finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 9407 | Rake 0 
+Board [5s Ad Qc 7h 4d]
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 4: 1Royal-lady showed [Js Kh] and lost with high card Ace
+Seat 6: wistiti069 (button) showed [As Qd] and won (9407) with two pair, Aces and Queens
+Seat 7: spnmarco (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260358631692: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:28:35 BRT [2026/04/05 16:28:35 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 3: Fjzxuxaaaa (4713 in chips) 
+Seat 6: wistiti069 (14060 in chips) 
+Seat 7: spnmarco (2709 in chips) 
+Seat 8: scorza23 (5837 in chips) 
+Fjzxuxaaaa: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+Fjzxuxaaaa: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3d]
+wistiti069: raises 200 to 400
+spnmarco: folds 
+scorza23: folds 
+Fjzxuxaaaa: raises 4288 to 4688 and is all-in
+wistiti069: folds 
+Uncalled bet (4288) returned to Fjzxuxaaaa
+Fjzxuxaaaa collected 1000 from pot
+Fjzxuxaaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Seat 3: Fjzxuxaaaa (big blind) collected (1000)
+Seat 6: wistiti069 folded before Flop
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358638340: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:28:59 BRT [2026/04/05 16:28:59 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 3: Fjzxuxaaaa (5288 in chips) 
+Seat 6: wistiti069 (13635 in chips) 
+Seat 7: spnmarco (2684 in chips) 
+Seat 8: scorza23 (5712 in chips) 
+Fjzxuxaaaa: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+Fjzxuxaaaa: posts small blind 100
+wistiti069: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Jd]
+spnmarco: folds 
+scorza23: raises 200 to 400
+Fjzxuxaaaa: folds 
+wistiti069: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 6: wistiti069 (big blind) folded before Flop
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (600)
+
+
+
+PokerStars Hand #260358643754: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 17:29:19 BRT [2026/04/05 16:29:19 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 3: Fjzxuxaaaa (5163 in chips) 
+Seat 6: wistiti069 (13410 in chips) 
+Seat 7: spnmarco (2659 in chips) 
+Seat 8: scorza23 (6087 in chips) 
+Fjzxuxaaaa: posts the ante 25
+wistiti069: posts the ante 25
+spnmarco: posts the ante 25
+scorza23: posts the ante 25
+wistiti069: posts small blind 100
+spnmarco: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Kc]
+scorza23: folds 
+Fjzxuxaaaa: folds 
+wistiti069: raises 400 to 600
+spnmarco: calls 400
+*** FLOP *** [Kd Jc Qh]
+wistiti069: bets 650
+spnmarco: folds 
+Uncalled bet (650) returned to wistiti069
+wistiti069 collected 1300 from pot
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [Kd Jc Qh]
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 6: wistiti069 (small blind) collected (1300)
+Seat 7: spnmarco (big blind) folded on the Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358654831: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:30:00 BRT [2026/04/05 16:30:00 ET]
+Table '3989565607 1' 8-max Seat #6 is the button
+Seat 3: Fjzxuxaaaa (5138 in chips) 
+Seat 6: wistiti069 (14085 in chips) 
+Seat 7: spnmarco (2034 in chips) 
+Seat 8: scorza23 (6062 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+spnmarco: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 6d]
+Fjzxuxaaaa: raises 300 to 600
+wistiti069: folds 
+spnmarco: folds 
+scorza23: calls 300
+*** FLOP *** [Kh 5s Qd]
+scorza23: checks 
+Fjzxuxaaaa: bets 447
+scorza23: folds 
+Uncalled bet (447) returned to Fjzxuxaaaa
+Fjzxuxaaaa collected 1490 from pot
+Fjzxuxaaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1490 | Rake 0 
+Board [Kh 5s Qd]
+Seat 3: Fjzxuxaaaa collected (1490)
+Seat 6: wistiti069 (button) folded before Flop (didn't bet)
+Seat 7: spnmarco (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260358661388: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:30:24 BRT [2026/04/05 16:30:24 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 3: Fjzxuxaaaa (5993 in chips) 
+Seat 6: wistiti069 (14050 in chips) 
+Seat 7: spnmarco (1849 in chips) 
+Seat 8: scorza23 (5427 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+scorza23: posts small blind 150
+Fjzxuxaaaa: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 5h]
+wistiti069: raises 600 to 900
+spnmarco: folds 
+scorza23: folds 
+Fjzxuxaaaa: folds 
+Uncalled bet (600) returned to wistiti069
+wistiti069 collected 890 from pot
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 3: Fjzxuxaaaa (big blind) folded before Flop
+Seat 6: wistiti069 collected (890)
+Seat 7: spnmarco (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358664835: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:30:37 BRT [2026/04/05 16:30:37 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 3: Fjzxuxaaaa (5658 in chips) 
+Seat 6: wistiti069 (14605 in chips) 
+Seat 7: spnmarco (1814 in chips) 
+Seat 8: scorza23 (5242 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+Fjzxuxaaaa: posts small blind 150
+wistiti069: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Td]
+spnmarco: raises 1479 to 1779 and is all-in
+scorza23: folds 
+Fjzxuxaaaa: folds 
+wistiti069: folds 
+Uncalled bet (1479) returned to spnmarco
+spnmarco collected 890 from pot
+spnmarco: doesn't show hand 
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 6: wistiti069 (big blind) folded before Flop
+Seat 7: spnmarco collected (890)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358668605: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:30:51 BRT [2026/04/05 16:30:51 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 3: Fjzxuxaaaa (5473 in chips) 
+Seat 6: wistiti069 (14270 in chips) 
+Seat 7: spnmarco (2369 in chips) 
+Seat 8: scorza23 (5207 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+wistiti069: posts small blind 150
+spnmarco: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [As 7s]
+scorza23: raises 600 to 900
+Fjzxuxaaaa: folds 
+wistiti069: folds 
+spnmarco: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 890 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 6: wistiti069 (small blind) folded before Flop
+Seat 7: spnmarco (big blind) folded before Flop
+Seat 8: scorza23 collected (890)
+
+
+
+PokerStars Hand #260358673771: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:31:10 BRT [2026/04/05 16:31:10 ET]
+Table '3989565607 1' 8-max Seat #6 is the button
+Seat 3: Fjzxuxaaaa (5438 in chips) 
+Seat 6: wistiti069 (14085 in chips) 
+Seat 7: spnmarco (2034 in chips) 
+Seat 8: scorza23 (5762 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+spnmarco: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Ac]
+Fjzxuxaaaa: folds 
+wistiti069: raises 475 to 775
+spnmarco: folds 
+scorza23: calls 475
+*** FLOP *** [7d Ks Js]
+scorza23: checks 
+wistiti069: bets 920
+scorza23: raises 1840 to 2760
+wistiti069: raises 10515 to 13275 and is all-in
+scorza23: folds 
+Uncalled bet (10515) returned to wistiti069
+wistiti069 collected 7360 from pot
+*** SUMMARY ***
+Total pot 7360 | Rake 0 
+Board [7d Ks Js]
+Seat 3: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 6: wistiti069 (button) collected (7360)
+Seat 7: spnmarco (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260358682260: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:31:41 BRT [2026/04/05 16:31:41 ET]
+Table '3989565607 1' 8-max Seat #7 is the button
+Seat 3: Fjzxuxaaaa (5403 in chips) 
+Seat 6: wistiti069 (17875 in chips) 
+Seat 7: spnmarco (1849 in chips) 
+Seat 8: scorza23 (2192 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+scorza23: posts small blind 150
+Fjzxuxaaaa: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 5h]
+wistiti069: folds 
+spnmarco: raises 1514 to 1814 and is all-in
+scorza23: folds 
+Fjzxuxaaaa: folds 
+Uncalled bet (1514) returned to spnmarco
+spnmarco collected 890 from pot
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 3: Fjzxuxaaaa (big blind) folded before Flop
+Seat 6: wistiti069 folded before Flop (didn't bet)
+Seat 7: spnmarco (button) collected (890)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358687492: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:32:00 BRT [2026/04/05 16:32:00 ET]
+Table '3989565607 1' 8-max Seat #8 is the button
+Seat 3: Fjzxuxaaaa (5068 in chips) 
+Seat 6: wistiti069 (17840 in chips) 
+Seat 7: spnmarco (2404 in chips) 
+Seat 8: scorza23 (2007 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+Fjzxuxaaaa: posts small blind 150
+wistiti069: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Qd]
+spnmarco: folds 
+scorza23: raises 300 to 600
+Fjzxuxaaaa: folds 
+wistiti069: folds 
+Uncalled bet (300) returned to scorza23
+scorza23 collected 890 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 3: Fjzxuxaaaa (small blind) folded before Flop
+Seat 6: wistiti069 (big blind) folded before Flop
+Seat 7: spnmarco folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (890)
+
+
+
+PokerStars Hand #260358691163: Tournament #3989565607, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 17:32:13 BRT [2026/04/05 16:32:13 ET]
+Table '3989565607 1' 8-max Seat #3 is the button
+Seat 3: Fjzxuxaaaa (4883 in chips) 
+Seat 6: wistiti069 (17505 in chips) 
+Seat 7: spnmarco (2369 in chips) 
+Seat 8: scorza23 (2562 in chips) 
+Fjzxuxaaaa: posts the ante 35
+wistiti069: posts the ante 35
+spnmarco: posts the ante 35
+scorza23: posts the ante 35
+wistiti069: posts small blind 150
+spnmarco: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7c As]
+scorza23: raises 600 to 900
+Fjzxuxaaaa: folds 
+wistiti069: calls 750
+spnmarco: folds 
+*** FLOP *** [Kh Kd 4h]
+wistiti069: checks 
+scorza23: bets 1627 and is all-in
+wistiti069: calls 1627
+*** TURN *** [Kh Kd 4h] [5h]
+*** RIVER *** [Kh Kd 4h 5h] [Qh]
+*** SHOW DOWN ***
+wistiti069: shows [Th 9h] (a flush, King high)
+scorza23: shows [7c As] (a pair of Kings)
+wistiti069 collected 5494 from pot
+scorza23 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 5494 | Rake 0 
+Board [Kh Kd 4h 5h Qh]
+Seat 3: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 6: wistiti069 (small blind) showed [Th 9h] and won (5494) with a flush, King high
+Seat 7: spnmarco (big blind) folded before Flop
+Seat 8: scorza23 showed [7c As] and lost with a pair of Kings
+
+
+

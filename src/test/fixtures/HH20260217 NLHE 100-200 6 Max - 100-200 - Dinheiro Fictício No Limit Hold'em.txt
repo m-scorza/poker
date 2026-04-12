@@ -1,0 +1,953 @@
+﻿PokerStars Zoom Hand #259763525316:  Hold'em No Limit (100/200) - 2026/02/17 16:06:47 UTC [2026/02/17 11:06:47 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Ltl O 215 (18900 in chips) 
+Seat 2: scorza23 (12855 in chips) 
+Seat 3: Vednep (16077 in chips) 
+Seat 4: elguerrilla10 (38028 in chips) 
+Seat 5: JoãoV.Borges (5192 in chips) 
+Seat 6: orla th (20045 in chips) 
+scorza23: posts small blind 100
+Vednep: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9h]
+elguerrilla10: calls 200
+JoãoV.Borges: calls 200
+orla th: calls 200
+Ltl O 215: folds 
+scorza23: raises 1000 to 1200
+Vednep: calls 1000
+elguerrilla10: folds 
+JoãoV.Borges: folds 
+orla th: folds 
+*** FLOP *** [5c Tc Kc]
+scorza23: bets 11655 and is all-in
+Vednep: folds 
+Uncalled bet (11655) returned to scorza23
+scorza23 collected 2835 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 165 
+Board [5c Tc Kc]
+Seat 1: Ltl O 215 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (2835)
+Seat 3: Vednep (big blind) folded on the Flop
+Seat 4: elguerrilla10 folded before Flop
+Seat 5: JoãoV.Borges folded before Flop
+Seat 6: orla th folded before Flop
+
+
+
+PokerStars Zoom Hand #259763530506:  Hold'em No Limit (100/200) - 2026/02/17 16:07:17 UTC [2026/02/17 11:07:17 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: scorza23 (14490 in chips) 
+Seat 2: saljojo (15831 in chips) 
+Seat 3: loritacasama (18934 in chips) 
+Seat 4: TornaDomani (5901 in chips) 
+Seat 5: muga743995 (23368 in chips) 
+Seat 6: Tiziano1959 (20728 in chips) 
+saljojo: posts small blind 100
+loritacasama: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Jd]
+TornaDomani: folds 
+muga743995: folds 
+Tiziano1959: folds 
+scorza23: folds 
+saljojo: folds 
+Uncalled bet (100) returned to loritacasama
+loritacasama collected 200 from pot
+loritacasama: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: saljojo (small blind) folded before Flop
+Seat 3: loritacasama (big blind) collected (200)
+Seat 4: TornaDomani folded before Flop (didn't bet)
+Seat 5: muga743995 folded before Flop (didn't bet)
+Seat 6: Tiziano1959 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763522666:  Hold'em No Limit (100/200) - 2026/02/17 16:06:31 UTC [2026/02/17 11:06:31 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: deepingdog (11709 in chips) 
+Seat 2: benjamia191131 (21293 in chips) 
+Seat 3: scorza23 (13055 in chips) 
+Seat 4: Jbv66 (61214 in chips) 
+Seat 5: bichela9 (7456 in chips) 
+Seat 6: cucu58 (43114 in chips) 
+benjamia191131: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 8s]
+Jbv66: folds 
+bichela9: calls 200
+cucu58: calls 200
+deepingdog: raises 200 to 400
+benjamia191131: calls 300
+scorza23: folds 
+bichela9: calls 200
+cucu58: calls 200
+*** FLOP *** [Qs 7c Ts]
+benjamia191131: checks 
+bichela9: checks 
+cucu58: checks 
+deepingdog: bets 1701
+benjamia191131: calls 1701
+bichela9: calls 1701
+cucu58: folds 
+*** TURN *** [Qs 7c Ts] [7d]
+benjamia191131: checks 
+bichela9: checks 
+deepingdog: bets 6523
+benjamia191131: calls 6523
+bichela9: folds 
+*** RIVER *** [Qs 7c Ts 7d] [5h]
+benjamia191131: checks 
+deepingdog: checks 
+*** SHOW DOWN ***
+benjamia191131: shows [6d Tc] (two pair, Tens and Sevens)
+deepingdog: shows [Ks Kd] (two pair, Kings and Sevens)
+deepingdog collected 18852 from pot
+*** SUMMARY ***
+Total pot 19949 | Rake 1097 
+Board [Qs 7c Ts 7d 5h]
+Seat 1: deepingdog (button) showed [Ks Kd] and won (18852) with two pair, Kings and Sevens
+Seat 2: benjamia191131 (small blind) showed [6d Tc] and lost with two pair, Tens and Sevens
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Jbv66 folded before Flop (didn't bet)
+Seat 5: bichela9 folded on the Turn
+Seat 6: cucu58 folded on the Flop
+
+
+
+PokerStars Zoom Hand #259763532219:  Hold'em No Limit (100/200) - 2026/02/17 16:07:27 UTC [2026/02/17 11:07:27 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: pinesap'er (10742 in chips) 
+Seat 2: CraigCox (20123 in chips) 
+Seat 3: Bonnie75020 (38251 in chips) 
+Seat 4: redsam60 (21916 in chips) 
+Seat 5: Islandboi81 (10041 in chips) 
+Seat 6: scorza23 (14490 in chips) 
+CraigCox: posts small blind 100
+Bonnie75020: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Jd]
+redsam60: calls 200
+Islandboi81: folds 
+scorza23: calls 200
+pinesap'er: calls 200
+CraigCox: calls 100
+Bonnie75020: checks 
+*** FLOP *** [3h 9c 8s]
+CraigCox: checks 
+Bonnie75020: checks 
+redsam60: checks 
+scorza23: checks 
+pinesap'er: bets 200
+CraigCox: folds 
+Bonnie75020: folds 
+redsam60: calls 200
+scorza23: folds 
+*** TURN *** [3h 9c 8s] [9h]
+redsam60: bets 200
+pinesap'er: calls 200
+*** RIVER *** [3h 9c 8s 9h] [Kd]
+redsam60: bets 200
+pinesap'er: calls 200
+*** SHOW DOWN ***
+redsam60: shows [Ac 3d] (two pair, Nines and Threes)
+pinesap'er: shows [Js Jc] (two pair, Jacks and Nines)
+pinesap'er collected 2079 from pot
+*** SUMMARY ***
+Total pot 2200 | Rake 121 
+Board [3h 9c 8s 9h Kd]
+Seat 1: pinesap'er (button) showed [Js Jc] and won (2079) with two pair, Jacks and Nines
+Seat 2: CraigCox (small blind) folded on the Flop
+Seat 3: Bonnie75020 (big blind) folded on the Flop
+Seat 4: redsam60 showed [Ac 3d] and lost with two pair, Nines and Threes
+Seat 5: Islandboi81 folded before Flop (didn't bet)
+Seat 6: scorza23 folded on the Flop
+
+
+
+PokerStars Zoom Hand #259763531221:  Hold'em No Limit (100/200) - 2026/02/17 16:07:21 UTC [2026/02/17 11:07:21 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Tiziano1959 (20728 in chips) 
+Seat 2: glenn63887 (27259 in chips) 
+Seat 3: TornaDomani (5901 in chips) 
+Seat 4: scorza23 (14490 in chips) 
+Seat 5: Quads-DocBob (35888 in chips) 
+Seat 6: DerMicha2200 (50333 in chips) 
+glenn63887: posts small blind 100
+TornaDomani: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2h]
+scorza23: folds 
+Quads-DocBob: folds 
+DerMicha2200: calls 200
+Tiziano1959: raises 400 to 600
+glenn63887: calls 500
+TornaDomani: raises 5301 to 5901 and is all-in
+DerMicha2200: calls 5701
+Tiziano1959: folds 
+glenn63887: calls 5301
+*** FLOP *** [2c 9s 3d]
+glenn63887: bets 200
+DerMicha2200: calls 200
+*** TURN *** [2c 9s 3d] [5h]
+glenn63887: bets 200
+DerMicha2200: calls 200
+*** RIVER *** [2c 9s 3d 5h] [Jh]
+glenn63887: bets 6600
+DerMicha2200: folds 
+Uncalled bet (6600) returned to glenn63887
+*** SHOW DOWN ***
+glenn63887: shows [Js 2s] (two pair, Jacks and Deuces)
+glenn63887 collected 756 from side pot
+TornaDomani: shows [Kc Qh] (high card King)
+glenn63887 collected 17296 from main pot
+*** SUMMARY ***
+Total pot 19103 Main pot 17296. Side pot 756. | Rake 1051 
+Board [2c 9s 3d 5h Jh]
+Seat 1: Tiziano1959 (button) folded before Flop
+Seat 2: glenn63887 (small blind) showed [Js 2s] and won (18052) with two pair, Jacks and Deuces
+Seat 3: TornaDomani (big blind) showed [Kc Qh] and lost with high card King
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Quads-DocBob folded before Flop (didn't bet)
+Seat 6: DerMicha2200 folded on the River
+
+
+
+PokerStars Zoom Hand #259763536913:  Hold'em No Limit (100/200) - 2026/02/17 16:07:54 UTC [2026/02/17 11:07:54 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Vednep (28496 in chips) 
+Seat 2: tyncho82 (19346 in chips) 
+Seat 3: scorza23 (14290 in chips) 
+Seat 4: T@v@2504 (17668 in chips) 
+Seat 5: 0nclePixou (20708 in chips) 
+Seat 6: Steel645 (20818 in chips) 
+tyncho82: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Th]
+T@v@2504: calls 200
+0nclePixou: calls 200
+Steel645: folds 
+Vednep: calls 200
+tyncho82: calls 100
+scorza23: checks 
+*** FLOP *** [7s 6s 2s]
+tyncho82: checks 
+scorza23: checks 
+T@v@2504: checks 
+0nclePixou: checks 
+Vednep: bets 945
+tyncho82: folds 
+scorza23: folds 
+T@v@2504: calls 945
+0nclePixou: folds 
+*** TURN *** [7s 6s 2s] [Js]
+T@v@2504: checks 
+Vednep: checks 
+*** RIVER *** [7s 6s 2s Js] [4s]
+T@v@2504: checks 
+Vednep: checks 
+*** SHOW DOWN ***
+T@v@2504: shows [5s Qs] (a flush, Queen high)
+Vednep: mucks hand 
+T@v@2504 collected 2731 from pot
+*** SUMMARY ***
+Total pot 2890 | Rake 159 
+Board [7s 6s 2s Js 4s]
+Seat 1: Vednep (button) mucked [7d Ad]
+Seat 2: tyncho82 (small blind) folded on the Flop
+Seat 3: scorza23 (big blind) folded on the Flop
+Seat 4: T@v@2504 showed [5s Qs] and won (2731) with a flush, Queen high
+Seat 5: 0nclePixou folded on the Flop
+Seat 6: Steel645 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763542211:  Hold'em No Limit (100/200) - 2026/02/17 16:08:24 UTC [2026/02/17 11:08:24 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: vol1949 (38917 in chips) 
+Seat 2: scorza23 (14090 in chips) 
+Seat 3: Fredoom_BH (93484 in chips) 
+Seat 4: nhazini (19302 in chips) 
+Seat 5: Angel7004 (21920 in chips) 
+Seat 6: dddjack (10416 in chips) 
+scorza23: posts small blind 100
+Fredoom_BH: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 5d]
+nhazini: calls 200
+Angel7004: folds 
+dddjack: folds 
+vol1949: folds 
+scorza23: folds 
+Fredoom_BH: checks 
+*** FLOP *** [Td 6d 6c]
+Fredoom_BH: checks 
+nhazini: checks 
+*** TURN *** [Td 6d 6c] [4d]
+Fredoom_BH: checks 
+nhazini: checks 
+*** RIVER *** [Td 6d 6c 4d] [3h]
+Fredoom_BH: bets 236
+nhazini: folds 
+Uncalled bet (236) returned to Fredoom_BH
+Fredoom_BH collected 472 from pot
+Fredoom_BH: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 28 
+Board [Td 6d 6c 4d 3h]
+Seat 1: vol1949 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fredoom_BH (big blind) collected (472)
+Seat 4: nhazini folded on the River
+Seat 5: Angel7004 folded before Flop (didn't bet)
+Seat 6: dddjack folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763542873:  Hold'em No Limit (100/200) - 2026/02/17 16:08:28 UTC [2026/02/17 11:08:28 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: scorza23 (13990 in chips) 
+Seat 2: PLAYER1054 (16687 in chips) 
+Seat 3: dollar994 (5728 in chips) 
+Seat 4: bucurica1111 (14489 in chips) 
+Seat 5: iamdonkey_27o (15930 in chips) 
+Seat 6: dpg10304 (9994 in chips) 
+PLAYER1054: posts small blind 100
+dollar994: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 9c]
+bucurica1111: calls 200
+iamdonkey_27o: folds 
+dpg10304: raises 200 to 400
+scorza23: folds 
+PLAYER1054: folds 
+dollar994: folds 
+bucurica1111: calls 200
+*** FLOP *** [9d 7h Ts]
+bucurica1111: checks 
+dpg10304: checks 
+*** TURN *** [9d 7h Ts] [2h]
+bucurica1111: bets 519
+dpg10304: folds 
+Uncalled bet (519) returned to bucurica1111
+bucurica1111 collected 1039 from pot
+bucurica1111: doesn't show hand 
+*** SUMMARY ***
+Total pot 1100 | Rake 61 
+Board [9d 7h Ts 2h]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: PLAYER1054 (small blind) folded before Flop
+Seat 3: dollar994 (big blind) folded before Flop
+Seat 4: bucurica1111 collected (1039)
+Seat 5: iamdonkey_27o folded before Flop (didn't bet)
+Seat 6: dpg10304 folded on the Turn
+
+
+
+PokerStars Zoom Hand #259763541447:  Hold'em No Limit (100/200) - 2026/02/17 16:08:20 UTC [2026/02/17 11:08:20 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Fredoom_BH (93484 in chips) 
+Seat 2: Jbv66 (60314 in chips) 
+Seat 3: Allain84361 (20000 in chips) 
+Seat 4: deepingdog (22204 in chips) 
+Seat 5: scorza23 (14090 in chips) 
+Seat 6: tyncho82 (19146 in chips) 
+Jbv66: posts small blind 100
+Allain84361: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 2h]
+deepingdog: calls 200
+scorza23: folds 
+tyncho82: calls 200
+Fredoom_BH: folds 
+Jbv66: folds 
+Allain84361: checks 
+*** FLOP *** [Qs 9c 9s]
+Allain84361: bets 200
+deepingdog: calls 200
+tyncho82: calls 200
+*** TURN *** [Qs 9c 9s] [4d]
+Allain84361: bets 400
+deepingdog: folds 
+tyncho82: calls 400
+*** RIVER *** [Qs 9c 9s 4d] [5s]
+Allain84361: bets 800
+tyncho82: folds 
+Uncalled bet (800) returned to Allain84361
+Allain84361 collected 1984 from pot
+Allain84361: doesn't show hand 
+*** SUMMARY ***
+Total pot 2100 | Rake 116 
+Board [Qs 9c 9s 4d 5s]
+Seat 1: Fredoom_BH (button) folded before Flop (didn't bet)
+Seat 2: Jbv66 (small blind) folded before Flop
+Seat 3: Allain84361 (big blind) collected (1984)
+Seat 4: deepingdog folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: tyncho82 folded on the River
+
+
+
+PokerStars Zoom Hand #259763544206:  Hold'em No Limit (100/200) - 2026/02/17 16:08:36 UTC [2026/02/17 11:08:36 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: zonaman5600 (28369 in chips) 
+Seat 2: polusque138 (7600 in chips) 
+Seat 3: iamdonkey_27o (15930 in chips) 
+Seat 4: Don Crescendo (19367 in chips) 
+Seat 5: LaMagia2323 (15077 in chips) 
+Seat 6: scorza23 (13990 in chips) 
+polusque138: posts small blind 100
+iamdonkey_27o: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 9c]
+Don Crescendo: calls 200
+LaMagia2323: calls 200
+scorza23: raises 900 to 1100
+zonaman5600: folds 
+polusque138: folds 
+iamdonkey_27o: folds 
+Don Crescendo: folds 
+LaMagia2323: calls 900
+*** FLOP *** [Ts 3h Th]
+LaMagia2323: checks 
+scorza23 has timed out
+scorza23: checks 
+*** TURN *** [Ts 3h Th] [Td]
+LaMagia2323: checks 
+scorza23: bets 12890 and is all-in
+LaMagia2323: folds 
+Uncalled bet (12890) returned to scorza23
+scorza23 collected 2551 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2700 | Rake 149 
+Board [Ts 3h Th Td]
+Seat 1: zonaman5600 (button) folded before Flop (didn't bet)
+Seat 2: polusque138 (small blind) folded before Flop
+Seat 3: iamdonkey_27o (big blind) folded before Flop
+Seat 4: Don Crescendo folded before Flop
+Seat 5: LaMagia2323 folded on the Turn
+Seat 6: scorza23 collected (2551)
+
+
+
+PokerStars Zoom Hand #259763557188:  Hold'em No Limit (100/200) - 2026/02/17 16:09:53 UTC [2026/02/17 11:09:53 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Ponzi13 (17557 in chips) 
+Seat 2: Ltl O 215 (19800 in chips) 
+Seat 3: juanito3666 (31463 in chips) 
+Seat 4: scorza23 (15441 in chips) 
+Seat 5: motzaralli (19526 in chips) 
+Seat 6: Hiddenaway (11490 in chips) 
+Ltl O 215: posts small blind 100
+juanito3666: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Js]
+scorza23: folds 
+motzaralli: folds 
+Hiddenaway: folds 
+Ponzi13: folds 
+Ltl O 215: folds 
+Uncalled bet (100) returned to juanito3666
+juanito3666 collected 200 from pot
+juanito3666: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: Ponzi13 (button) folded before Flop (didn't bet)
+Seat 2: Ltl O 215 (small blind) folded before Flop
+Seat 3: juanito3666 (big blind) collected (200)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: motzaralli folded before Flop (didn't bet)
+Seat 6: Hiddenaway folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763556409:  Hold'em No Limit (100/200) - 2026/02/17 16:09:48 UTC [2026/02/17 11:09:48 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: MARCOVINCE (12197 in chips) 
+Seat 2: Hiddenaway (11590 in chips) 
+Seat 3: >millos<330 (1527 in chips) 
+Seat 4: juanito3666 (31463 in chips) 
+Seat 5: scorza23 (15441 in chips) 
+Seat 6: thechamp1611 (17935 in chips) 
+Hiddenaway: posts small blind 100
+>millos<330: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7s]
+juanito3666: folds 
+scorza23: folds 
+thechamp1611: calls 200
+MARCOVINCE: folds 
+Hiddenaway: folds 
+>millos<330: checks 
+*** FLOP *** [3c 2d As]
+>millos<330: checks 
+thechamp1611: checks 
+*** TURN *** [3c 2d As] [Ah]
+>millos<330: checks 
+thechamp1611: checks 
+*** RIVER *** [3c 2d As Ah] [7h]
+>millos<330: checks 
+thechamp1611: checks 
+*** SHOW DOWN ***
+>millos<330: shows [Qc 9c] (a pair of Aces)
+thechamp1611: shows [Ks 5c] (a pair of Aces - King kicker)
+thechamp1611 collected 472 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 28 
+Board [3c 2d As Ah 7h]
+Seat 1: MARCOVINCE (button) folded before Flop (didn't bet)
+Seat 2: Hiddenaway (small blind) folded before Flop
+Seat 3: >millos<330 (big blind) showed [Qc 9c] and lost with a pair of Aces
+Seat 4: juanito3666 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: thechamp1611 showed [Ks 5c] and won (472) with a pair of Aces
+
+
+
+PokerStars Zoom Hand #259763558911:  Hold'em No Limit (100/200) - 2026/02/17 16:10:03 UTC [2026/02/17 11:10:03 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Walter0518 (17722 in chips) 
+Seat 2: rosario.gil.60 (18800 in chips) 
+Seat 3: scorza23 (15441 in chips) 
+Seat 4: raduconst115 (23971 in chips) 
+Seat 5: JAJR55 (17795 in chips) 
+Seat 6: Sanyi67112 (3170 in chips) 
+rosario.gil.60: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 7h]
+raduconst115: folds 
+JAJR55: folds 
+Sanyi67112: calls 200
+Walter0518: folds 
+rosario.gil.60: calls 100
+scorza23: checks 
+*** FLOP *** [3c 8d Jh]
+rosario.gil.60: bets 200
+scorza23: folds 
+Sanyi67112: folds 
+Uncalled bet (200) returned to rosario.gil.60
+rosario.gil.60 collected 567 from pot
+rosario.gil.60: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 33 
+Board [3c 8d Jh]
+Seat 1: Walter0518 (button) folded before Flop (didn't bet)
+Seat 2: rosario.gil.60 (small blind) collected (567)
+Seat 3: scorza23 (big blind) folded on the Flop
+Seat 4: raduconst115 folded before Flop (didn't bet)
+Seat 5: JAJR55 folded before Flop (didn't bet)
+Seat 6: Sanyi67112 folded on the Flop
+
+
+
+PokerStars Zoom Hand #259763558028:  Hold'em No Limit (100/200) - 2026/02/17 16:09:58 UTC [2026/02/17 11:09:58 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Ltl O 215 (19700 in chips) 
+Seat 2: Panbendito (20300 in chips) 
+Seat 3: makflanagann (20000 in chips) 
+Seat 4: scorza23 (15441 in chips) 
+Seat 5: RUOK2CNUTZ (12750 in chips) 
+Seat 6: bubu_sandi (40917 in chips) 
+Panbendito: posts small blind 100
+makflanagann: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 7d]
+scorza23: folds 
+RUOK2CNUTZ: folds 
+bubu_sandi: calls 200
+Ltl O 215: calls 200
+Panbendito: calls 100
+makflanagann: checks 
+*** FLOP *** [Tc Kh 6s]
+Panbendito: checks 
+makflanagann: checks 
+bubu_sandi: bets 200
+Ltl O 215: raises 1156 to 1356
+Panbendito: folds 
+makflanagann: folds 
+bubu_sandi: calls 1156
+*** TURN *** [Tc Kh 6s] [5h]
+bubu_sandi: checks 
+Ltl O 215: bets 18144 and is all-in
+bubu_sandi: calls 18144
+*** RIVER *** [Tc Kh 6s 5h] [5c]
+*** SHOW DOWN ***
+bubu_sandi: shows [Kc Qh] (two pair, Kings and Fives)
+Ltl O 215: shows [Ts Th] (a full house, Tens full of Fives)
+Ltl O 215 collected 37611 from pot
+*** SUMMARY ***
+Total pot 39800 | Rake 2189 
+Board [Tc Kh 6s 5h 5c]
+Seat 1: Ltl O 215 (button) showed [Ts Th] and won (37611) with a full house, Tens full of Fives
+Seat 2: Panbendito (small blind) folded on the Flop
+Seat 3: makflanagann (big blind) folded on the Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: RUOK2CNUTZ folded before Flop (didn't bet)
+Seat 6: bubu_sandi showed [Kc Qh] and lost with two pair, Kings and Fives
+
+
+
+PokerStars Zoom Hand #259763561022:  Hold'em No Limit (100/200) - 2026/02/17 16:10:15 UTC [2026/02/17 11:10:15 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Sanyi67112 (2970 in chips) 
+Seat 2: scorza23 (15241 in chips) 
+Seat 3: Walter0518 (17722 in chips) 
+Seat 4: Vednep (8097 in chips) 
+Seat 5: ALima1205 (60053 in chips) 
+Seat 6: AFUMERO314 (19378 in chips) 
+scorza23: posts small blind 100
+Walter0518: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4d]
+Vednep: folds 
+ALima1205: calls 200
+AFUMERO314: calls 200
+Sanyi67112: calls 200
+scorza23: folds 
+Walter0518: checks 
+*** FLOP *** [4h Kc 2d]
+Walter0518: checks 
+ALima1205: checks 
+AFUMERO314: bets 200
+Sanyi67112: folds 
+Walter0518: folds 
+ALima1205: folds 
+Uncalled bet (200) returned to AFUMERO314
+AFUMERO314 collected 850 from pot
+AFUMERO314: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 50 
+Board [4h Kc 2d]
+Seat 1: Sanyi67112 (button) folded on the Flop
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Walter0518 (big blind) folded on the Flop
+Seat 4: Vednep folded before Flop (didn't bet)
+Seat 5: ALima1205 folded on the Flop
+Seat 6: AFUMERO314 collected (850)
+
+
+
+PokerStars Zoom Hand #259763561752:  Hold'em No Limit (100/200) - 2026/02/17 16:10:19 UTC [2026/02/17 11:10:19 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: scorza23 (15141 in chips) 
+Seat 2: Wilson14337 (3482 in chips) 
+Seat 3: luis_jordao5 (56376 in chips) 
+Seat 4: Bonnie75020 (39052 in chips) 
+Seat 5: Leandrosm79 (15666 in chips) 
+Seat 6: TornaDomani (10512 in chips) 
+Wilson14337: posts small blind 100
+luis_jordao5: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 4c]
+Bonnie75020: calls 200
+Leandrosm79: folds 
+TornaDomani: raises 200 to 400
+scorza23: raises 14741 to 15141 and is all-in
+Wilson14337: calls 3382 and is all-in
+luis_jordao5: folds 
+Bonnie75020: folds 
+TornaDomani: folds 
+Uncalled bet (11659) returned to scorza23
+*** FLOP *** [Qh 8s Jc]
+*** TURN *** [Qh 8s Jc] [As]
+*** RIVER *** [Qh 8s Jc As] [Ts]
+*** SHOW DOWN ***
+Wilson14337: shows [Jd 5d] (a pair of Jacks)
+scorza23: shows [4d 4c] (a pair of Fours)
+Wilson14337 collected 7337 from pot
+*** SUMMARY ***
+Total pot 7764 | Rake 427 
+Board [Qh 8s Jc As Ts]
+Seat 1: scorza23 (button) showed [4d 4c] and lost with a pair of Fours
+Seat 2: Wilson14337 (small blind) showed [Jd 5d] and won (7337) with a pair of Jacks
+Seat 3: luis_jordao5 (big blind) folded before Flop
+Seat 4: Bonnie75020 folded before Flop
+Seat 5: Leandrosm79 folded before Flop (didn't bet)
+Seat 6: TornaDomani folded before Flop
+
+
+
+PokerStars Zoom Hand #259763566764:  Hold'em No Limit (100/200) - 2026/02/17 16:10:48 UTC [2026/02/17 11:10:48 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: composerx1 (9200 in chips) 
+Seat 2: pinesap'er (11511 in chips) 
+Seat 3: Quaoar1 (8361 in chips) 
+Seat 4: kallleballe66 (24279 in chips) 
+Seat 5: laci490 (33164 in chips) 
+Seat 6: scorza23 (11659 in chips) 
+pinesap'er: posts small blind 100
+Quaoar1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5c]
+kallleballe66: calls 200
+laci490: folds 
+scorza23: folds 
+composerx1: folds 
+pinesap'er: calls 100
+Quaoar1: checks 
+*** FLOP *** [3s 4d 9d]
+pinesap'er: checks 
+Quaoar1: checks 
+kallleballe66: bets 400
+pinesap'er: folds 
+Quaoar1: folds 
+Uncalled bet (400) returned to kallleballe66
+kallleballe66 collected 567 from pot
+kallleballe66: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 33 
+Board [3s 4d 9d]
+Seat 1: composerx1 (button) folded before Flop (didn't bet)
+Seat 2: pinesap'er (small blind) folded on the Flop
+Seat 3: Quaoar1 (big blind) folded on the Flop
+Seat 4: kallleballe66 collected (567)
+Seat 5: laci490 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763568881:  Hold'em No Limit (100/200) - 2026/02/17 16:11:00 UTC [2026/02/17 11:11:00 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: luis_jordao5 (56543 in chips) 
+Seat 2: scorza23 (11659 in chips) 
+Seat 3: rosario.gil.60 (18567 in chips) 
+Seat 4: Jonick81 (12683 in chips) 
+Seat 5: Pityu951 (19300 in chips) 
+Seat 6: dddjack (9739 in chips) 
+scorza23: posts small blind 100
+rosario.gil.60: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [As Th]
+Jonick81: calls 200
+Pityu951: calls 200
+dddjack: calls 200
+luis_jordao5: folds 
+scorza23: raises 11459 to 11659 and is all-in
+rosario.gil.60: folds 
+Jonick81: folds 
+Pityu951: folds 
+dddjack: folds 
+Uncalled bet (11459) returned to scorza23
+scorza23 collected 1000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Seat 1: luis_jordao5 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (1000)
+Seat 3: rosario.gil.60 (big blind) folded before Flop
+Seat 4: Jonick81 folded before Flop
+Seat 5: Pityu951 folded before Flop
+Seat 6: dddjack folded before Flop
+
+
+
+PokerStars Zoom Hand #259763568131:  Hold'em No Limit (100/200) - 2026/02/17 16:10:56 UTC [2026/02/17 11:10:56 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: thodorakis7 (30669 in chips) 
+Seat 2: jimeno235 (20947 in chips) 
+Seat 3: Tiziano1959 (24705 in chips) 
+Seat 4: scorza23 (11659 in chips) 
+Seat 5: RUOK2CNUTZ (12969 in chips) 
+Seat 6: composerx1 (9200 in chips) 
+jimeno235: posts small blind 100
+Tiziano1959: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 7c]
+scorza23: folds 
+RUOK2CNUTZ: folds 
+composerx1: folds 
+thodorakis7: calls 200
+jimeno235: raises 200 to 400
+Tiziano1959: calls 200
+thodorakis7: calls 200
+*** FLOP *** [8c Qc Kd]
+jimeno235: bets 1200
+Tiziano1959: folds 
+thodorakis7: calls 1200
+*** TURN *** [8c Qc Kd] [7d]
+jimeno235: checks 
+thodorakis7: checks 
+*** RIVER *** [8c Qc Kd 7d] [7s]
+jimeno235: checks 
+thodorakis7: checks 
+*** SHOW DOWN ***
+jimeno235: shows [Ac Qd] (two pair, Queens and Sevens)
+thodorakis7: mucks hand 
+jimeno235 collected 3402 from pot
+*** SUMMARY ***
+Total pot 3600 | Rake 198 
+Board [8c Qc Kd 7d 7s]
+Seat 1: thodorakis7 (button) mucked [4s Qs]
+Seat 2: jimeno235 (small blind) showed [Ac Qd] and won (3402) with two pair, Queens and Sevens
+Seat 3: Tiziano1959 (big blind) folded on the Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: RUOK2CNUTZ folded before Flop (didn't bet)
+Seat 6: composerx1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763567453:  Hold'em No Limit (100/200) - 2026/02/17 16:10:52 UTC [2026/02/17 11:10:52 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: Islandboi81 (8441 in chips) 
+Seat 2: kro190 (47298 in chips) 
+Seat 3: keka1947 (22035 in chips) 
+Seat 4: Fredoom_BH (105305 in chips) 
+Seat 5: scorza23 (11659 in chips) 
+Seat 6: luis_jordao5 (56543 in chips) 
+kro190: posts small blind 100
+keka1947: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 4h]
+Fredoom_BH: raises 200 to 400
+scorza23: folds 
+luis_jordao5: folds 
+Islandboi81: calls 400
+kro190: calls 300
+keka1947: raises 200 to 600
+Fredoom_BH: calls 200
+Islandboi81: calls 200
+kro190: calls 200
+*** FLOP *** [4s Jh 8c]
+kro190: checks 
+keka1947: bets 200
+Fredoom_BH: calls 200
+Islandboi81: calls 200
+kro190: calls 200
+*** TURN *** [4s Jh 8c] [5c]
+kro190: checks 
+keka1947: bets 200
+Fredoom_BH: calls 200
+Islandboi81: folds 
+kro190: calls 200
+*** RIVER *** [4s Jh 8c 5c] [8d]
+kro190: checks 
+keka1947: bets 200
+Fredoom_BH: calls 200
+kro190: folds 
+*** SHOW DOWN ***
+keka1947: shows [9c 9h] (two pair, Nines and Eights)
+Fredoom_BH: mucks hand 
+keka1947 collected 3969 from pot
+*** SUMMARY ***
+Total pot 4200 | Rake 231 
+Board [4s Jh 8c 5c 8d]
+Seat 1: Islandboi81 (button) folded on the Turn
+Seat 2: kro190 (small blind) folded on the River
+Seat 3: keka1947 (big blind) showed [9c 9h] and won (3969) with two pair, Nines and Eights
+Seat 4: Fredoom_BH mucked [6h 5h]
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: luis_jordao5 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763574324:  Hold'em No Limit (100/200) - 2026/02/17 16:11:31 UTC [2026/02/17 11:11:31 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: scorza23 (12259 in chips) 
+Seat 2: dicopersu (18342 in chips) 
+Seat 3: Jontxupianos69 (6204 in chips) 
+Seat 4: Nachorod.91 (29635 in chips) 
+Seat 5: ferreira1099 (20726 in chips) 
+Seat 6: polusque138 (7800 in chips) 
+dicopersu: posts small blind 100
+Jontxupianos69: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 7c]
+Nachorod.91: folds 
+ferreira1099: folds 
+polusque138: folds 
+scorza23: folds 
+dicopersu: folds 
+Uncalled bet (100) returned to Jontxupianos69
+Jontxupianos69 collected 200 from pot
+Jontxupianos69: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: dicopersu (small blind) folded before Flop
+Seat 3: Jontxupianos69 (big blind) collected (200)
+Seat 4: Nachorod.91 folded before Flop (didn't bet)
+Seat 5: ferreira1099 folded before Flop (didn't bet)
+Seat 6: polusque138 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #259763572176:  Hold'em No Limit (100/200) - 2026/02/17 16:11:19 UTC [2026/02/17 11:11:19 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: RaidonShoi (21368 in chips) 
+Seat 2: jakeu808 (18132 in chips) 
+Seat 3: scorza23 (12459 in chips) 
+Seat 4: Islandboi81 (7641 in chips) 
+Seat 5: polleke57 (7348 in chips) 
+Seat 6: lu.fla.go (12743 in chips) 
+jakeu808: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 8s]
+Islandboi81: folds 
+polleke57: calls 200
+lu.fla.go: calls 200
+RaidonShoi: raises 1000 to 1200
+jakeu808: folds 
+scorza23: folds 
+polleke57: folds 
+lu.fla.go: calls 1000
+*** FLOP *** [5h Td 3s]
+lu.fla.go: checks 
+RaidonShoi: bets 600
+lu.fla.go: folds 
+Uncalled bet (600) returned to RaidonShoi
+RaidonShoi collected 2740 from pot
+RaidonShoi: doesn't show hand 
+*** SUMMARY ***
+Total pot 2900 | Rake 160 
+Board [5h Td 3s]
+Seat 1: RaidonShoi (button) collected (2740)
+Seat 2: jakeu808 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Islandboi81 folded before Flop (didn't bet)
+Seat 5: polleke57 folded before Flop
+Seat 6: lu.fla.go folded on the Flop
+
+
+
+PokerStars Zoom Hand #259763575127:  Hold'em No Limit (100/200) - 2026/02/17 16:11:36 UTC [2026/02/17 11:11:36 ET]
+Table 'NLHE 100/200 6 Max' 6-max Seat #1 is the button
+Seat 1: G@ndreea (15645 in chips) 
+Seat 2: Allain84361 (19584 in chips) 
+Seat 3: glenn63887 (30427 in chips) 
+Seat 4: Hiddenaway (11190 in chips) 
+Seat 5: scorza23 (12259 in chips) 
+Seat 6: Jonick81 (12283 in chips) 
+Allain84361: posts small blind 100
+glenn63887: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 8s]
+Hiddenaway: folds 
+scorza23: raises 12059 to 12259 and is all-in
+Jonick81: folds 
+G@ndreea: folds 
+Allain84361: folds 
+glenn63887: folds 
+Uncalled bet (12059) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: G@ndreea (button) folded before Flop (didn't bet)
+Seat 2: Allain84361 (small blind) folded before Flop
+Seat 3: glenn63887 (big blind) folded before Flop
+Seat 4: Hiddenaway folded before Flop (didn't bet)
+Seat 5: scorza23 collected (500)
+Seat 6: Jonick81 folded before Flop (didn't bet)
+
+
+

@@ -1,0 +1,439 @@
+﻿PokerStars Hand #260358420753: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/04/05 17:15:41 BRT [2026/04/05 16:15:41 ET]
+Table '3989574182 4' 4-max Seat #1 is the button
+Seat 1: Starksams (500 in chips) 
+Seat 2: scorza23 (500 in chips) 
+Seat 3: vsvv14 (500 in chips) 
+Seat 4: thekingtree (500 in chips) 
+Starksams: posts the ante 10
+scorza23: posts the ante 10
+vsvv14: posts the ante 10
+thekingtree: posts the ante 10
+scorza23: posts small blind 25
+vsvv14: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3s]
+thekingtree has timed out
+thekingtree: folds 
+thekingtree is sitting out
+Starksams: calls 50
+scorza23: folds 
+vsvv14: checks 
+*** FLOP *** [8d 6h 7d]
+thekingtree has returned
+vsvv14: bets 50
+Starksams: calls 50
+*** TURN *** [8d 6h 7d] [Qh]
+vsvv14: bets 50
+Starksams: raises 50 to 100
+vsvv14: calls 50
+*** RIVER *** [8d 6h 7d Qh] [6d]
+vsvv14: bets 50
+Starksams: raises 240 to 290 and is all-in
+vsvv14: calls 240 and is all-in
+*** SHOW DOWN ***
+Starksams: shows [Qd Qs] (a full house, Queens full of Sixes)
+vsvv14: shows [9c Ts] (a straight, Six to Ten)
+Starksams collected 1045 from pot
+vsvv14 finished the tournament in 12th place
+*** SUMMARY ***
+Total pot 1045 | Rake 0 
+Board [8d 6h 7d Qh 6d]
+Seat 1: Starksams (button) showed [Qd Qs] and won (1045) with a full house, Queens full of Sixes
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: vsvv14 (big blind) showed [9c Ts] and lost with a straight, Six to Ten
+Seat 4: thekingtree folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358448040: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/04/05 17:17:22 BRT [2026/04/05 16:17:22 ET]
+Table '3989574182 4' 4-max Seat #2 is the button
+Seat 1: Starksams (1045 in chips) 
+Seat 2: scorza23 (465 in chips) 
+Seat 4: thekingtree (490 in chips) 
+Starksams: posts the ante 10
+scorza23: posts the ante 10
+thekingtree: posts the ante 10
+thekingtree: posts small blind 25
+Starksams: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 9d]
+scorza23: raises 155 to 205
+thekingtree: folds 
+Starksams: calls 155
+*** FLOP *** [Qs 8d As]
+Starksams: checks 
+scorza23: bets 250 and is all-in
+Starksams: folds 
+Uncalled bet (250) returned to scorza23
+scorza23 collected 465 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 465 | Rake 0 
+Board [Qs 8d As]
+Seat 1: Starksams (big blind) folded on the Flop
+Seat 2: scorza23 (button) collected (465)
+Seat 4: thekingtree (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358453780: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/04/05 17:17:44 BRT [2026/04/05 16:17:44 ET]
+Table '3989574182 4' 4-max Seat #4 is the button
+Seat 1: Starksams (830 in chips) 
+Seat 2: scorza23 (715 in chips) 
+Seat 4: thekingtree (455 in chips) 
+Starksams: posts the ante 10
+scorza23: posts the ante 10
+thekingtree: posts the ante 10
+Starksams: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 6h]
+thekingtree: folds 
+Starksams: calls 25
+scorza23: checks 
+*** FLOP *** [Th 4h 9c]
+Starksams: checks 
+scorza23: bets 130
+Starksams: folds 
+Uncalled bet (130) returned to scorza23
+scorza23 collected 130 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Board [Th 4h 9c]
+Seat 1: Starksams (small blind) folded on the Flop
+Seat 2: scorza23 (big blind) collected (130)
+Seat 4: thekingtree (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358462511: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/04/05 17:18:16 BRT [2026/04/05 16:18:16 ET]
+Table '3989574182 4' 4-max Seat #1 is the button
+Seat 1: Starksams (770 in chips) 
+Seat 2: scorza23 (785 in chips) 
+Seat 4: thekingtree (445 in chips) 
+Starksams: posts the ante 10
+scorza23: posts the ante 10
+thekingtree: posts the ante 10
+scorza23: posts small blind 25
+thekingtree: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Td]
+Starksams: folds 
+scorza23: raises 50 to 100
+thekingtree: calls 50
+*** FLOP *** [Ah Tc Th]
+scorza23: checks 
+thekingtree: checks 
+*** TURN *** [Ah Tc Th] [Js]
+scorza23: bets 100
+thekingtree: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 230 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Board [Ah Tc Th Js]
+Seat 1: Starksams (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (230)
+Seat 4: thekingtree (big blind) folded on the Turn
+
+
+
+PokerStars Hand #260358467885: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/04/05 17:18:36 BRT [2026/04/05 16:18:36 ET]
+Table '3989574182 4' 4-max Seat #2 is the button
+Seat 1: Starksams (760 in chips) 
+Seat 2: scorza23 (905 in chips) 
+Seat 4: thekingtree (335 in chips) 
+Starksams: posts the ante 10
+scorza23: posts the ante 10
+thekingtree: posts the ante 10
+thekingtree: posts small blind 25
+Starksams: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 5c]
+scorza23: folds 
+thekingtree: raises 50 to 100
+Starksams: calls 50
+*** FLOP *** [2s Tc 8c]
+thekingtree: bets 225 and is all-in
+Starksams: folds 
+Uncalled bet (225) returned to thekingtree
+thekingtree collected 230 from pot
+thekingtree: doesn't show hand 
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Board [2s Tc 8c]
+Seat 1: Starksams (big blind) folded on the Flop
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thekingtree (small blind) collected (230)
+
+
+
+PokerStars Hand #260358474350: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:19:00 BRT [2026/04/05 16:19:00 ET]
+Table '3989574182 4' 4-max Seat #4 is the button
+Seat 1: Starksams (650 in chips) 
+Seat 2: scorza23 (895 in chips) 
+Seat 4: thekingtree (455 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+Starksams: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 5h]
+thekingtree: raises 310 to 410
+Starksams: folds 
+scorza23: folds 
+Uncalled bet (310) returned to thekingtree
+thekingtree collected 310 from pot
+thekingtree: doesn't show hand 
+*** SUMMARY ***
+Total pot 310 | Rake 0 
+Seat 1: Starksams (small blind) folded before Flop
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 4: thekingtree (button) collected (310)
+
+
+
+PokerStars Hand #260358478371: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:19:15 BRT [2026/04/05 16:19:15 ET]
+Table '3989574182 4' 4-max Seat #1 is the button
+Seat 1: Starksams (580 in chips) 
+Seat 2: scorza23 (775 in chips) 
+Seat 4: thekingtree (645 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+scorza23: posts small blind 50
+thekingtree: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 3c]
+Starksams: folds 
+scorza23: folds 
+Uncalled bet (50) returned to thekingtree
+thekingtree collected 160 from pot
+thekingtree: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Seat 1: Starksams (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 4: thekingtree (big blind) collected (160)
+
+
+
+PokerStars Hand #260358480892: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:19:24 BRT [2026/04/05 16:19:24 ET]
+Table '3989574182 4' 4-max Seat #2 is the button
+Seat 1: Starksams (560 in chips) 
+Seat 2: scorza23 (705 in chips) 
+Seat 4: thekingtree (735 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+thekingtree: posts small blind 50
+Starksams: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 7c]
+scorza23: folds 
+thekingtree: calls 50
+Starksams: raises 100 to 200
+thekingtree: calls 100
+*** FLOP *** [Ad 6s 3h]
+thekingtree: bets 515 and is all-in
+Starksams: calls 340 and is all-in
+Uncalled bet (175) returned to thekingtree
+*** TURN *** [Ad 6s 3h] [6c]
+*** RIVER *** [Ad 6s 3h 6c] [Js]
+*** SHOW DOWN ***
+thekingtree: shows [4s 5c] (a pair of Sixes)
+Starksams: shows [Kh 3s] (two pair, Sixes and Threes)
+Starksams collected 1140 from pot
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Board [Ad 6s 3h 6c Js]
+Seat 1: Starksams (big blind) showed [Kh 3s] and won (1140) with two pair, Sixes and Threes
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: thekingtree (small blind) showed [4s 5c] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #260358485994: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:19:43 BRT [2026/04/05 16:19:43 ET]
+Table '3989574182 4' 4-max Seat #4 is the button
+Seat 1: Starksams (1140 in chips) 
+Seat 2: scorza23 (685 in chips) 
+Seat 4: thekingtree (175 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+Starksams: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 3h]
+thekingtree: folds 
+Starksams: raises 100 to 200
+scorza23: folds 
+Uncalled bet (100) returned to Starksams
+Starksams collected 260 from pot
+Starksams: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: Starksams (small blind) collected (260)
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 4: thekingtree (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358489392: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:19:56 BRT [2026/04/05 16:19:56 ET]
+Table '3989574182 4' 4-max Seat #1 is the button
+Seat 1: Starksams (1280 in chips) 
+Seat 2: scorza23 (565 in chips) 
+Seat 4: thekingtree (155 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+scorza23: posts small blind 50
+thekingtree: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3s]
+Starksams: calls 100
+scorza23: folds 
+thekingtree: raises 35 to 135 and is all-in
+Starksams: calls 35
+*** FLOP *** [6c 4s Ac]
+*** TURN *** [6c 4s Ac] [9s]
+*** RIVER *** [6c 4s Ac 9s] [Qd]
+*** SHOW DOWN ***
+thekingtree: shows [Qc 4c] (two pair, Queens and Fours)
+Starksams: shows [Ts 4d] (a pair of Fours)
+thekingtree collected 380 from pot
+*** SUMMARY ***
+Total pot 380 | Rake 0 
+Board [6c 4s Ac 9s Qd]
+Seat 1: Starksams (button) showed [Ts 4d] and lost with a pair of Fours
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 4: thekingtree (big blind) showed [Qc 4c] and won (380) with two pair, Queens and Fours
+
+
+
+PokerStars Hand #260358494483: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:20:15 BRT [2026/04/05 16:20:15 ET]
+Table '3989574182 4' 4-max Seat #2 is the button
+Seat 1: Starksams (1125 in chips) 
+Seat 2: scorza23 (495 in chips) 
+Seat 4: thekingtree (380 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+thekingtree: posts small blind 50
+Starksams: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Jc]
+scorza23: raises 375 to 475 and is all-in
+thekingtree: folds 
+Starksams: folds 
+Uncalled bet (375) returned to scorza23
+scorza23 collected 310 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 310 | Rake 0 
+Seat 1: Starksams (big blind) folded before Flop
+Seat 2: scorza23 (button) collected (310)
+Seat 4: thekingtree (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358498001: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:20:28 BRT [2026/04/05 16:20:28 ET]
+Table '3989574182 4' 4-max Seat #4 is the button
+Seat 1: Starksams (1005 in chips) 
+Seat 2: scorza23 (685 in chips) 
+Seat 4: thekingtree (310 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+Starksams: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 6d]
+thekingtree: raises 190 to 290 and is all-in
+Starksams: calls 240
+scorza23: folds 
+*** FLOP *** [4s 2h 4d]
+*** TURN *** [4s 2h 4d] [8c]
+*** RIVER *** [4s 2h 4d 8c] [Ac]
+*** SHOW DOWN ***
+Starksams: shows [Th Kc] (a pair of Fours)
+thekingtree: shows [Qh Qs] (two pair, Queens and Fours)
+thekingtree collected 740 from pot
+*** SUMMARY ***
+Total pot 740 | Rake 0 
+Board [4s 2h 4d 8c Ac]
+Seat 1: Starksams (small blind) showed [Th Kc] and lost with a pair of Fours
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 4: thekingtree (button) showed [Qh Qs] and won (740) with two pair, Queens and Fours
+
+
+
+PokerStars Hand #260358502246: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:20:43 BRT [2026/04/05 16:20:43 ET]
+Table '3989574182 4' 4-max Seat #1 is the button
+Seat 1: Starksams (695 in chips) 
+Seat 2: scorza23 (565 in chips) 
+Seat 4: thekingtree (740 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+scorza23: posts small blind 50
+thekingtree: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 8c]
+Starksams: calls 100
+scorza23: folds 
+thekingtree: checks 
+*** FLOP *** [3c 5h 2c]
+thekingtree: checks 
+Starksams: checks 
+*** TURN *** [3c 5h 2c] [9c]
+thekingtree: checks 
+Starksams: bets 100
+thekingtree: folds 
+Uncalled bet (100) returned to Starksams
+Starksams collected 310 from pot
+Starksams: doesn't show hand 
+*** SUMMARY ***
+Total pot 310 | Rake 0 
+Board [3c 5h 2c 9c]
+Seat 1: Starksams (button) collected (310)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 4: thekingtree (big blind) folded on the Turn
+
+
+
+PokerStars Hand #260358508613: Tournament #3989574182, $0.96+$0.04 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/04/05 17:21:07 BRT [2026/04/05 16:21:07 ET]
+Table '3989574182 4' 4-max Seat #2 is the button
+Seat 1: Starksams (885 in chips) 
+Seat 2: scorza23 (495 in chips) 
+Seat 4: thekingtree (620 in chips) 
+Starksams: posts the ante 20
+scorza23: posts the ante 20
+thekingtree: posts the ante 20
+thekingtree: posts small blind 50
+Starksams: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Ts]
+scorza23: raises 375 to 475 and is all-in
+thekingtree: folds 
+Starksams: calls 375
+*** FLOP *** [6s 6h 3d]
+*** TURN *** [6s 6h 3d] [3c]
+*** RIVER *** [6s 6h 3d 3c] [Jh]
+*** SHOW DOWN ***
+Starksams: shows [Ad 7d] (two pair, Sixes and Threes)
+scorza23: shows [9s Ts] (two pair, Sixes and Threes - lower kicker)
+Starksams collected 1060 from pot
+scorza23 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1060 | Rake 0 
+Board [6s 6h 3d 3c Jh]
+Seat 1: Starksams (big blind) showed [Ad 7d] and won (1060) with two pair, Sixes and Threes
+Seat 2: scorza23 (button) showed [9s Ts] and lost with two pair, Sixes and Threes
+Seat 4: thekingtree (small blind) folded before Flop
+
+
+

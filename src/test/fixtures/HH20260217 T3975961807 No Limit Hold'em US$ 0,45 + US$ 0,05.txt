@@ -1,0 +1,114 @@
+﻿PokerStars Hand #259762625139: Tournament #3975961807, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:31:47 UTC [2026/02/17 9:31:47 ET]
+Table '3975961807 2' 8-max Seat #1 is the button
+Seat 1: Ale495x (1471 in chips) 
+Seat 2: baddmax (1452 in chips) 
+Seat 3: soimu83 (2928 in chips) 
+Seat 4: teeamate (1730 in chips) 
+Seat 5: CyroSan (3026 in chips) 
+Seat 7: fisker943 (1422 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+Ale495x: posts the ante 3
+baddmax: posts the ante 3
+soimu83: posts the ante 3
+teeamate: posts the ante 3
+CyroSan: posts the ante 3
+fisker943: posts the ante 3
+scorza23: posts the ante 3
+baddmax: posts small blind 10
+soimu83: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 4s]
+teeamate: folds 
+CyroSan: folds 
+fisker943: folds 
+scorza23: folds 
+Ale495x: raises 30 to 50
+baddmax: folds 
+soimu83: calls 30
+*** FLOP *** [8c 2s Ah]
+soimu83: checks 
+Ale495x: bets 41
+soimu83: calls 41
+*** TURN *** [8c 2s Ah] [7c]
+soimu83: checks 
+Ale495x: checks 
+*** RIVER *** [8c 2s Ah 7c] [Ad]
+soimu83: checks 
+Ale495x: bets 100
+soimu83: folds 
+Uncalled bet (100) returned to Ale495x
+Ale495x collected 213 from pot
+Ale495x: doesn't show hand 
+*** SUMMARY ***
+Total pot 213 | Rake 0 
+Board [8c 2s Ah 7c Ad]
+Seat 1: Ale495x (button) collected (213)
+Seat 2: baddmax (small blind) folded before Flop
+Seat 3: soimu83 (big blind) folded on the River
+Seat 4: teeamate folded before Flop (didn't bet)
+Seat 5: CyroSan folded before Flop (didn't bet)
+Seat 7: fisker943 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762636034: Tournament #3975961807, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:32:59 UTC [2026/02/17 9:32:59 ET]
+Table '3975961807 2' 8-max Seat #2 is the button
+Seat 1: Ale495x (1590 in chips) 
+Seat 2: baddmax (1439 in chips) 
+Seat 3: soimu83 (2834 in chips) 
+Seat 4: teeamate (1727 in chips) 
+Seat 5: CyroSan (3023 in chips) 
+Seat 7: fisker943 (1419 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+Ale495x: posts the ante 4
+baddmax: posts the ante 4
+soimu83: posts the ante 4
+teeamate: posts the ante 4
+CyroSan: posts the ante 4
+fisker943: posts the ante 4
+scorza23: posts the ante 4
+soimu83: posts small blind 15
+teeamate: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Ah]
+CyroSan: folds 
+fisker943: folds 
+scorza23: raises 30 to 60
+Ale495x: calls 60
+baddmax: folds 
+soimu83: folds 
+teeamate: calls 30
+*** FLOP *** [5d 2h 3d]
+teeamate: checks 
+scorza23: checks 
+Ale495x: checks 
+*** TURN *** [5d 2h 3d] [Ac]
+teeamate: bets 90
+scorza23: raises 403 to 493
+Ale495x: calls 493
+teeamate: calls 403
+*** RIVER *** [5d 2h 3d Ac] [Js]
+teeamate: checks 
+scorza23: bets 940 and is all-in
+Ale495x: raises 93 to 1033 and is all-in
+teeamate: folds 
+Uncalled bet (93) returned to Ale495x
+*** SHOW DOWN ***
+Ale495x: shows [3h 3s] (three of a kind, Threes)
+scorza23: shows [7s Ah] (a pair of Aces)
+Ale495x collected 3582 from pot
+scorza23 finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 3582 | Rake 0 
+Board [5d 2h 3d Ac Js]
+Seat 1: Ale495x showed [3h 3s] and won (3582) with three of a kind, Threes
+Seat 2: baddmax (button) folded before Flop (didn't bet)
+Seat 3: soimu83 (small blind) folded before Flop
+Seat 4: teeamate (big blind) folded on the River
+Seat 5: CyroSan folded before Flop (didn't bet)
+Seat 7: fisker943 folded before Flop (didn't bet)
+Seat 8: scorza23 showed [7s Ah] and lost with a pair of Aces
+
+
+

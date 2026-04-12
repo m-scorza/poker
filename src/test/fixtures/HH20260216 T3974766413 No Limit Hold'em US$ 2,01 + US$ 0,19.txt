@@ -1,0 +1,1095 @@
+﻿PokerStars Hand #259750589135: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 17:05:00 UTC [2026/02/16 12:05:00 ET]
+Table '3974766413 9' 6-max Seat #1 is the button
+Seat 1: voors (3000 in chips, $1 bounty) 
+Seat 2: JimmyPett (3000 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (3000 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (3000 in chips, $1 bounty) 
+Seat 5: scorza23 (3000 in chips, $1 bounty) 
+Seat 6: susan00s (3000 in chips, $1 bounty) 
+voors: posts the ante 7
+JimmyPett: posts the ante 7
+Goodzilla_real: posts the ante 7
+Mr.SmAyKs: posts the ante 7
+scorza23: posts the ante 7
+susan00s: posts the ante 7
+JimmyPett: posts small blind 15
+Goodzilla_real: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Qh]
+Mr.SmAyKs: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+susan00s: folds 
+voors: calls 30
+JimmyPett: folds 
+Goodzilla_real: checks 
+*** FLOP *** [9c Jh 6d]
+Goodzilla_real: checks 
+voors: checks 
+*** TURN *** [9c Jh 6d] [Th]
+Goodzilla_real: bets 117
+voors: folds 
+Uncalled bet (117) returned to Goodzilla_real
+Goodzilla_real collected 117 from pot
+Goodzilla_real: doesn't show hand 
+*** SUMMARY ***
+Total pot 117 | Rake 0 
+Board [9c Jh 6d Th]
+Seat 1: voors (button) folded on the Turn
+Seat 2: JimmyPett (small blind) folded before Flop
+Seat 3: Goodzilla_real (big blind) collected (117)
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: susan00s folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750601818: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 17:06:04 UTC [2026/02/16 12:06:04 ET]
+Table '3974766413 9' 6-max Seat #2 is the button
+Seat 1: voors (2963 in chips, $1 bounty) 
+Seat 2: JimmyPett (2978 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (3080 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (2993 in chips, $1 bounty) 
+Seat 5: scorza23 (2993 in chips, $1 bounty) is sitting out
+Seat 6: susan00s (2993 in chips, $1 bounty) 
+voors: posts the ante 7
+JimmyPett: posts the ante 7
+Goodzilla_real: posts the ante 7
+Mr.SmAyKs: posts the ante 7
+scorza23: posts the ante 7
+susan00s: posts the ante 7
+Goodzilla_real: posts small blind 15
+Mr.SmAyKs: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Th]
+scorza23: folds 
+susan00s: raises 30 to 60
+voors: folds 
+JimmyPett: calls 60
+Goodzilla_real: folds 
+Mr.SmAyKs: calls 30
+*** FLOP *** [3h 5h 7d]
+Mr.SmAyKs: checks 
+susan00s: checks 
+JimmyPett: checks 
+*** TURN *** [3h 5h 7d] [9c]
+Mr.SmAyKs: checks 
+susan00s: bets 130
+JimmyPett: calls 130
+Mr.SmAyKs: folds 
+*** RIVER *** [3h 5h 7d 9c] [4c]
+susan00s: checks 
+JimmyPett: bets 360
+susan00s: calls 360
+*** SHOW DOWN ***
+JimmyPett: shows [6h Jh] (a straight, Three to Seven)
+susan00s: mucks hand 
+JimmyPett collected 1217 from pot
+*** SUMMARY ***
+Total pot 1217 | Rake 0 
+Board [3h 5h 7d 9c 4c]
+Seat 1: voors folded before Flop (didn't bet)
+Seat 2: JimmyPett (button) showed [6h Jh] and won (1217) with a straight, Three to Seven
+Seat 3: Goodzilla_real (small blind) folded before Flop
+Seat 4: Mr.SmAyKs (big blind) folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: susan00s mucked [Ks 3s]
+
+
+
+PokerStars Hand #259750615236: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 17:07:12 UTC [2026/02/16 12:07:12 ET]
+Table '3974766413 9' 6-max Seat #3 is the button
+Seat 1: voors (2956 in chips, $1 bounty) 
+Seat 2: JimmyPett (3638 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (3058 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (2926 in chips, $1 bounty) 
+Seat 5: scorza23 (2986 in chips, $1 bounty) is sitting out
+Seat 6: susan00s (2436 in chips, $1 bounty) 
+voors: posts the ante 7
+JimmyPett: posts the ante 7
+Goodzilla_real: posts the ante 7
+Mr.SmAyKs: posts the ante 7
+scorza23: posts the ante 7
+susan00s: posts the ante 7
+Mr.SmAyKs: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8d]
+susan00s: raises 30 to 60
+voors has timed out
+voors: folds 
+voors is sitting out
+JimmyPett: folds 
+Goodzilla_real: calls 60
+Mr.SmAyKs: folds 
+scorza23: folds 
+*** FLOP *** [4d 7h 8c]
+susan00s: bets 68
+Goodzilla_real: calls 68
+*** TURN *** [4d 7h 8c] [2c]
+susan00s: bets 189
+Goodzilla_real: raises 231 to 420
+susan00s: calls 231
+*** RIVER *** [4d 7h 8c 2c] [8h]
+susan00s: checks 
+Goodzilla_real: bets 1183
+susan00s: calls 1183
+*** SHOW DOWN ***
+Goodzilla_real: shows [7d 7s] (a full house, Sevens full of Eights)
+susan00s: mucks hand 
+Goodzilla_real collected 3549 from pot
+*** SUMMARY ***
+Total pot 3549 | Rake 0 
+Board [4d 7h 8c 2c 8h]
+Seat 1: voors folded before Flop (didn't bet)
+Seat 2: JimmyPett folded before Flop (didn't bet)
+Seat 3: Goodzilla_real (button) showed [7d 7s] and won (3549) with a full house, Sevens full of Eights
+Seat 4: Mr.SmAyKs (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: susan00s mucked [6c 6d]
+
+
+
+PokerStars Hand #259750633949: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 17:08:46 UTC [2026/02/16 12:08:46 ET]
+Table '3974766413 9' 6-max Seat #4 is the button
+Seat 1: voors (2949 in chips, $1 bounty) is sitting out
+Seat 3: Goodzilla_real (4869 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (2904 in chips, $1 bounty) 
+Seat 5: scorza23 (2949 in chips, $1 bounty) is sitting out
+Seat 6: susan00s (698 in chips, $1 bounty) 
+voors: posts the ante 10
+Goodzilla_real: posts the ante 10
+Mr.SmAyKs: posts the ante 10
+scorza23: posts the ante 10
+susan00s: posts the ante 10
+scorza23: posts small blind 20
+susan00s: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qs]
+voors: folds 
+Goodzilla_real: folds 
+Mr.SmAyKs: raises 44 to 84
+scorza23: folds 
+susan00s: raises 604 to 688 and is all-in
+Mr.SmAyKs: calls 604
+*** FLOP *** [3d Th 2d]
+*** TURN *** [3d Th 2d] [Tc]
+*** RIVER *** [3d Th 2d Tc] [Qd]
+*** SHOW DOWN ***
+susan00s: shows [Qc Ac] (two pair, Queens and Tens)
+Mr.SmAyKs: shows [Td 9d] (a flush, Queen high)
+Mr.SmAyKs collected 1446 from pot
+Mr.SmAyKs wins $0.50 for eliminating susan00s and their own bounty increases by $0.50 to $1.50
+susan00s finished the tournament
+voors has returned
+Hadajktosom is disconnected 
+*** SUMMARY ***
+Total pot 1446 | Rake 0 
+Board [3d Th 2d Tc Qd]
+Seat 1: voors folded before Flop (didn't bet)
+Seat 3: Goodzilla_real folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs (button) showed [Td 9d] and won (1446) with a flush, Queen high
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: susan00s (big blind) showed [Qc Ac] and lost with two pair, Queens and Tens
+
+
+
+PokerStars Hand #259750640285: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 17:09:18 UTC [2026/02/16 12:09:18 ET]
+Table '3974766413 9' 6-max Seat #5 is the button
+Seat 1: voors (2939 in chips, $1 bounty) 
+Seat 2: Hadajktosom (3000 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (4859 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (3652 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2919 in chips, $1 bounty) is sitting out
+Seat 6: katinelis69 (3000 in chips) out of hand (moved from another table into small blind)
+katinelis69 will be allowed to play after the button
+voors: posts the ante 10
+Hadajktosom: posts the ante 10
+Goodzilla_real: posts the ante 10
+Mr.SmAyKs: posts the ante 10
+scorza23: posts the ante 10
+voors: posts small blind 20
+Hadajktosom: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5h]
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+voors: folds 
+Uncalled bet (20) returned to Hadajktosom
+Hadajktosom collected 90 from pot
+Hadajktosom: doesn't show hand 
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Seat 1: voors (small blind) folded before Flop
+Seat 2: Hadajktosom (big blind) collected (90)
+Seat 3: Goodzilla_real folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750641934: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 17:09:26 UTC [2026/02/16 12:09:26 ET]
+Table '3974766413 9' 6-max Seat #1 is the button
+Seat 1: voors (2909 in chips, $1 bounty) 
+Seat 2: Hadajktosom (3060 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (4849 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (3642 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2909 in chips, $1 bounty) is sitting out
+Seat 6: katinelis69 (3000 in chips, $1 bounty) 
+voors: posts the ante 10
+Hadajktosom: posts the ante 10
+Goodzilla_real: posts the ante 10
+Mr.SmAyKs: posts the ante 10
+scorza23: posts the ante 10
+katinelis69: posts the ante 10
+Hadajktosom: posts small blind 20
+Goodzilla_real: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kd]
+Mr.SmAyKs: folds 
+scorza23: folds 
+katinelis69: raises 80 to 120
+voors: folds 
+Hadajktosom: raises 400 to 520
+Goodzilla_real: folds 
+katinelis69: calls 400
+*** FLOP *** [6c 2h 9s]
+Hadajktosom: bets 376
+katinelis69: calls 376
+*** TURN *** [6c 2h 9s] [Ts]
+Hadajktosom: checks 
+katinelis69: bets 2094 and is all-in
+Hadajktosom: calls 2094
+*** RIVER *** [6c 2h 9s Ts] [Jd]
+*** SHOW DOWN ***
+Hadajktosom: shows [Tc Th] (three of a kind, Tens)
+katinelis69: shows [Qh Jh] (a pair of Jacks)
+Hadajktosom collected 6080 from pot
+Hadajktosom wins $0.50 for eliminating katinelis69 and their own bounty increases by $0.50 to $1.50
+katinelis69 finished the tournament
+*** SUMMARY ***
+Total pot 6080 | Rake 0 
+Board [6c 2h 9s Ts Jd]
+Seat 1: voors (button) folded before Flop (didn't bet)
+Seat 2: Hadajktosom (small blind) showed [Tc Th] and won (6080) with three of a kind, Tens
+Seat 3: Goodzilla_real (big blind) folded before Flop
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: katinelis69 showed [Qh Jh] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #259750651274: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 17:10:14 UTC [2026/02/16 12:10:14 ET]
+Table '3974766413 9' 6-max Seat #2 is the button
+Seat 1: voors (2899 in chips, $1 bounty) 
+Seat 2: Hadajktosom (6140 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (4799 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (3632 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2899 in chips, $1 bounty) is sitting out
+voors: posts the ante 10
+Hadajktosom: posts the ante 10
+Goodzilla_real: posts the ante 10
+Mr.SmAyKs: posts the ante 10
+scorza23: posts the ante 10
+Goodzilla_real: posts small blind 20
+Mr.SmAyKs: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 9s]
+scorza23: folds 
+voors: calls 40
+Hadajktosom: raises 100 to 140
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+voors: calls 100
+*** FLOP *** [Qd Td Js]
+voors: checks 
+Hadajktosom: bets 128
+voors: calls 128
+*** TURN *** [Qd Td Js] [Ad]
+voors: checks 
+Hadajktosom: bets 486
+voors: raises 1618 to 2104
+Hadajktosom: raises 2314 to 4418
+voors: calls 517 and is all-in
+Uncalled bet (1797) returned to Hadajktosom
+*** RIVER *** [Qd Td Js Ad] [4d]
+*** SHOW DOWN ***
+voors: shows [5d 6d] (a flush, Ace high)
+Hadajktosom: shows [Kh Kc] (a straight, Ten to Ace)
+voors collected 5888 from pot
+*** SUMMARY ***
+Total pot 5888 | Rake 0 
+Board [Qd Td Js Ad 4d]
+Seat 1: voors showed [5d 6d] and won (5888) with a flush, Ace high
+Seat 2: Hadajktosom (button) showed [Kh Kc] and lost with a straight, Ten to Ace
+Seat 3: Goodzilla_real (small blind) folded before Flop
+Seat 4: Mr.SmAyKs (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750661696: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (30/60) - 2026/02/16 17:11:05 UTC [2026/02/16 12:11:05 ET]
+Table '3974766413 9' 6-max Seat #3 is the button
+Seat 1: voors (5888 in chips, $1 bounty) 
+Seat 2: Hadajktosom (3241 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (4769 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (3582 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2889 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (3000 in chips, $1 bounty) 
+voors: posts the ante 15
+Hadajktosom: posts the ante 15
+Goodzilla_real: posts the ante 15
+Mr.SmAyKs: posts the ante 15
+scorza23: posts the ante 15
+99ProbButUAint1: posts the ante 15
+Mr.SmAyKs: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2c]
+99ProbButUAint1: folds 
+voors: folds 
+Hadajktosom: raises 90 to 150
+Goodzilla_real: raises 480 to 630
+Mr.SmAyKs: folds 
+scorza23: folds 
+Hadajktosom: folds 
+Uncalled bet (480) returned to Goodzilla_real
+Goodzilla_real collected 480 from pot
+Goodzilla_real: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 1: voors folded before Flop (didn't bet)
+Seat 2: Hadajktosom folded before Flop
+Seat 3: Goodzilla_real (button) collected (480)
+Seat 4: Mr.SmAyKs (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: 99ProbButUAint1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750667776: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (30/60) - 2026/02/16 17:11:35 UTC [2026/02/16 12:11:35 ET]
+Table '3974766413 9' 6-max Seat #4 is the button
+Seat 2: Hadajktosom (3076 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (5084 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (3537 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2814 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (2985 in chips, $1 bounty) 
+Hadajktosom: posts the ante 15
+Goodzilla_real: posts the ante 15
+Mr.SmAyKs: posts the ante 15
+scorza23: posts the ante 15
+99ProbButUAint1: posts the ante 15
+scorza23: posts small blind 30
+99ProbButUAint1: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 9d]
+Hadajktosom: folds 
+Goodzilla_real: raises 60 to 120
+Mr.SmAyKs: raises 270 to 390
+scorza23: folds 
+99ProbButUAint1: calls 330
+Chester15253 is disconnected 
+Goodzilla_real: calls 270
+*** FLOP *** [4h 3c 5h]
+99ProbButUAint1: checks 
+Goodzilla_real: checks 
+Mr.SmAyKs: bets 612
+99ProbButUAint1: folds 
+Goodzilla_real: calls 612
+*** TURN *** [4h 3c 5h] [3h]
+Goodzilla_real: checks 
+Mr.SmAyKs: checks 
+*** RIVER *** [4h 3c 5h 3h] [3s]
+Goodzilla_real: bets 2520
+Mr.SmAyKs: calls 2520 and is all-in
+*** SHOW DOWN ***
+Goodzilla_real: shows [4c Ah] (a full house, Threes full of Fours)
+Mr.SmAyKs: shows [Kh Kc] (a full house, Threes full of Kings)
+Mr.SmAyKs collected 7539 from pot
+*** SUMMARY ***
+Total pot 7539 | Rake 0 
+Board [4h 3c 5h 3h 3s]
+Seat 2: Hadajktosom folded before Flop (didn't bet)
+Seat 3: Goodzilla_real showed [4c Ah] and lost with a full house, Threes full of Fours
+Seat 4: Mr.SmAyKs (button) showed [Kh Kc] and won (7539) with a full house, Threes full of Kings
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: 99ProbButUAint1 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259750682703: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (30/60) - 2026/02/16 17:12:50 UTC [2026/02/16 12:12:50 ET]
+Table '3974766413 9' 6-max Seat #5 is the button
+Seat 1: Chester15253 (3000 in chips, $1 bounty) 
+Seat 2: Hadajktosom (3061 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (1547 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7539 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2769 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (2580 in chips, $1 bounty) 
+Chester15253: posts the ante 15
+Hadajktosom: posts the ante 15
+Goodzilla_real: posts the ante 15
+Mr.SmAyKs: posts the ante 15
+scorza23: posts the ante 15
+99ProbButUAint1: posts the ante 15
+99ProbButUAint1: posts small blind 30
+Chester15253: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Ad]
+Hadajktosom: folds 
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: raises 120 to 180
+Chester15253: folds 
+Uncalled bet (120) returned to 99ProbButUAint1
+99ProbButUAint1 collected 210 from pot
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 1: Chester15253 (big blind) folded before Flop
+Seat 2: Hadajktosom folded before Flop (didn't bet)
+Seat 3: Goodzilla_real folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 (small blind) collected (210)
+
+
+
+PokerStars Hand #259750686516: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (30/60) - 2026/02/16 17:13:09 UTC [2026/02/16 12:13:09 ET]
+Table '3974766413 9' 6-max Seat #6 is the button
+Seat 1: Chester15253 (2925 in chips, $1 bounty) 
+Seat 2: Hadajktosom (3046 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (1532 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7524 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2754 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (2715 in chips, $1 bounty) 
+Chester15253: posts the ante 15
+Hadajktosom: posts the ante 15
+Goodzilla_real: posts the ante 15
+Mr.SmAyKs: posts the ante 15
+scorza23: posts the ante 15
+99ProbButUAint1: posts the ante 15
+Chester15253: posts small blind 30
+Hadajktosom: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Jd]
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: raises 120 to 180
+Chester15253: folds 
+Hadajktosom: calls 120
+*** FLOP *** [Tc 5c Kd]
+Hadajktosom: checks 
+99ProbButUAint1: bets 275
+Hadajktosom: raises 565 to 840
+99ProbButUAint1: raises 1680 to 2520 and is all-in
+Hadajktosom: calls 1680
+*** TURN *** [Tc 5c Kd] [Ts]
+*** RIVER *** [Tc 5c Kd Ts] [Qh]
+*** SHOW DOWN ***
+Hadajktosom: shows [Jc 7c] (a pair of Tens)
+99ProbButUAint1: shows [Kh 9d] (two pair, Kings and Tens)
+99ProbButUAint1 collected 5520 from pot
+*** SUMMARY ***
+Total pot 5520 | Rake 0 
+Board [Tc 5c Kd Ts Qh]
+Seat 1: Chester15253 (small blind) folded before Flop
+Seat 2: Hadajktosom (big blind) showed [Jc 7c] and lost with a pair of Tens
+Seat 3: Goodzilla_real folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 (button) showed [Kh 9d] and won (5520) with two pair, Kings and Tens
+
+
+
+PokerStars Hand #259750695592: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (30/60) - 2026/02/16 17:13:54 UTC [2026/02/16 12:13:54 ET]
+Table '3974766413 9' 6-max Seat #1 is the button
+Seat 1: Chester15253 (2880 in chips, $1 bounty) 
+Seat 2: Hadajktosom (331 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (1517 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7509 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2739 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (5520 in chips, $1 bounty) 
+Chester15253: posts the ante 15
+Hadajktosom: posts the ante 15
+Goodzilla_real: posts the ante 15
+Mr.SmAyKs: posts the ante 15
+scorza23: posts the ante 15
+99ProbButUAint1: posts the ante 15
+Hadajktosom: posts small blind 30
+Goodzilla_real: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 4c]
+Mr.SmAyKs: raises 60 to 120
+scorza23: folds 
+99ProbButUAint1: calls 120
+Chester15253: folds 
+Hadajktosom: folds 
+Goodzilla_real: raises 480 to 600
+Mr.SmAyKs: folds 
+99ProbButUAint1: calls 480
+*** FLOP *** [Jc 5h 5d]
+Goodzilla_real: bets 480
+99ProbButUAint1: folds 
+Uncalled bet (480) returned to Goodzilla_real
+Goodzilla_real collected 1440 from pot
+Goodzilla_real: doesn't show hand 
+*** SUMMARY ***
+Total pot 1440 | Rake 0 
+Board [Jc 5h 5d]
+Seat 1: Chester15253 (button) folded before Flop (didn't bet)
+Seat 2: Hadajktosom (small blind) folded before Flop
+Seat 3: Goodzilla_real (big blind) collected (1440)
+Seat 4: Mr.SmAyKs folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 folded on the Flop
+
+
+
+PokerStars Hand #259750704065: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:14:36 UTC [2026/02/16 12:14:36 ET]
+Table '3974766413 9' 6-max Seat #2 is the button
+Seat 1: Chester15253 (2865 in chips, $1 bounty) 
+Seat 2: Hadajktosom (286 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (2342 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7374 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2724 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (4905 in chips, $1 bounty) 
+Chester15253: posts the ante 20
+Hadajktosom: posts the ante 20
+Goodzilla_real: posts the ante 20
+Mr.SmAyKs: posts the ante 20
+scorza23: posts the ante 20
+99ProbButUAint1: posts the ante 20
+Goodzilla_real: posts small blind 40
+Mr.SmAyKs: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 9c]
+scorza23: folds 
+99ProbButUAint1: raises 240 to 320
+Chester15253: raises 480 to 800
+Hadajktosom: folds 
+Goodzilla_real: raises 1522 to 2322 and is all-in
+Mr.SmAyKs: folds 
+99ProbButUAint1: calls 2002
+Chester15253: raises 523 to 2845 and is all-in
+99ProbButUAint1: calls 523
+*** FLOP *** [5c Kc As]
+*** TURN *** [5c Kc As] [3d]
+*** RIVER *** [5c Kc As 3d] [3h]
+*** SHOW DOWN ***
+99ProbButUAint1: shows [Th Qd] (a pair of Threes)
+Chester15253: shows [Td Tc] (two pair, Tens and Threes)
+Chester15253 collected 1046 from side pot
+Goodzilla_real: shows [Kh Ac] (two pair, Aces and Kings)
+Goodzilla_real collected 7166 from main pot
+*** SUMMARY ***
+Total pot 8212 Main pot 7166. Side pot 1046. | Rake 0 
+Board [5c Kc As 3d 3h]
+Seat 1: Chester15253 showed [Td Tc] and won (1046) with two pair, Tens and Threes
+Seat 2: Hadajktosom (button) folded before Flop (didn't bet)
+Seat 3: Goodzilla_real (small blind) showed [Kh Ac] and won (7166) with two pair, Aces and Kings
+Seat 4: Mr.SmAyKs (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 showed [Th Qd] and lost with a pair of Threes
+
+
+
+PokerStars Hand #259750718196: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:15:45 UTC [2026/02/16 12:15:45 ET]
+Table '3974766413 9' 6-max Seat #3 is the button
+Seat 1: Chester15253 (1046 in chips, $1 bounty) 
+Seat 2: Hadajktosom (266 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (7166 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7274 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2704 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (2040 in chips, $1 bounty) 
+Chester15253: posts the ante 20
+Hadajktosom: posts the ante 20
+Goodzilla_real: posts the ante 20
+Mr.SmAyKs: posts the ante 20
+scorza23: posts the ante 20
+99ProbButUAint1: posts the ante 20
+Mr.SmAyKs: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Ks]
+99ProbButUAint1: folds 
+Chester15253: raises 946 to 1026 and is all-in
+Hadajktosom: folds 
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+Uncalled bet (946) returned to Chester15253
+Chester15253 collected 320 from pot
+Chester15253: doesn't show hand 
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Seat 1: Chester15253 collected (320)
+Seat 2: Hadajktosom folded before Flop (didn't bet)
+Seat 3: Goodzilla_real (button) folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: 99ProbButUAint1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750723828: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:16:12 UTC [2026/02/16 12:16:12 ET]
+Table '3974766413 9' 6-max Seat #4 is the button
+Seat 1: Chester15253 (1266 in chips, $1 bounty) 
+Seat 2: Hadajktosom (246 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (7146 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7214 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2604 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (2020 in chips, $1 bounty) 
+Chester15253: posts the ante 20
+Hadajktosom: posts the ante 20
+Goodzilla_real: posts the ante 20
+Mr.SmAyKs: posts the ante 20
+scorza23: posts the ante 20
+99ProbButUAint1: posts the ante 20
+scorza23: posts small blind 40
+99ProbButUAint1: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4c]
+Chester15253: folds 
+Hadajktosom: folds 
+Goodzilla_real: raises 80 to 160
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: raises 1840 to 2000 and is all-in
+Goodzilla_real: calls 1840
+*** FLOP *** [Qd As 9d]
+*** TURN *** [Qd As 9d] [9c]
+*** RIVER *** [Qd As 9d 9c] [6d]
+*** SHOW DOWN ***
+99ProbButUAint1: shows [Td Ad] (a flush, Ace high)
+Goodzilla_real: shows [Qh Tc] (two pair, Queens and Nines)
+99ProbButUAint1 collected 4160 from pot
+*** SUMMARY ***
+Total pot 4160 | Rake 0 
+Board [Qd As 9d 9c 6d]
+Seat 1: Chester15253 folded before Flop (didn't bet)
+Seat 2: Hadajktosom folded before Flop (didn't bet)
+Seat 3: Goodzilla_real showed [Qh Tc] and lost with two pair, Queens and Nines
+Seat 4: Mr.SmAyKs (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: 99ProbButUAint1 (big blind) showed [Td Ad] and won (4160) with a flush, Ace high
+
+
+
+PokerStars Hand #259750728908: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:16:37 UTC [2026/02/16 12:16:37 ET]
+Table '3974766413 9' 6-max Seat #5 is the button
+Seat 2: Hadajktosom (226 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (5126 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7194 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2544 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (4160 in chips, $1 bounty) 
+Hadajktosom: posts the ante 20
+Goodzilla_real: posts the ante 20
+Mr.SmAyKs: posts the ante 20
+scorza23: posts the ante 20
+99ProbButUAint1: posts the ante 20
+99ProbButUAint1: posts small blind 40
+Hadajktosom: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 8s]
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: raises 240 to 320
+Hadajktosom: folds 
+Uncalled bet (240) returned to 99ProbButUAint1
+99ProbButUAint1 collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 2: Hadajktosom (big blind) folded before Flop
+Seat 3: Goodzilla_real folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 (small blind) collected (260)
+
+
+
+PokerStars Hand #259750732399: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 17:16:54 UTC [2026/02/16 12:16:54 ET]
+Table '3974766413 9' 6-max Seat #6 is the button
+Seat 2: Hadajktosom (126 in chips, $1.50 bounty) 
+Seat 3: Goodzilla_real (5106 in chips, $1 bounty) 
+Seat 4: Mr.SmAyKs (7174 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2524 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (4320 in chips, $1 bounty) 
+Hadajktosom: posts the ante 20
+Goodzilla_real: posts the ante 20
+Mr.SmAyKs: posts the ante 20
+scorza23: posts the ante 20
+99ProbButUAint1: posts the ante 20
+Hadajktosom: posts small blind 40
+Goodzilla_real: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Jd]
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: raises 80 to 160
+Hadajktosom: calls 66 and is all-in
+Goodzilla_real: calls 80
+*** FLOP *** [As 4s 2d]
+Goodzilla_real: checks 
+99ProbButUAint1: bets 240
+Goodzilla_real: raises 400 to 640
+99ProbButUAint1: folds 
+Uncalled bet (400) returned to Goodzilla_real
+*** TURN *** [As 4s 2d] [2h]
+*** RIVER *** [As 4s 2d 2h] [7s]
+*** SHOW DOWN ***
+Goodzilla_real: shows [2c Ad] (a full house, Deuces full of Aces)
+Goodzilla_real collected 588 from side pot
+Hadajktosom: shows [Qc Ts] (a pair of Deuces)
+Goodzilla_real collected 418 from main pot
+Hadajktosom is sitting out
+Goodzilla_real wins $0.75 for eliminating Hadajktosom and their own bounty increases by $0.75 to $1.75
+Hadajktosom finished the tournament
+*** SUMMARY ***
+Total pot 1006 Main pot 418. Side pot 588. | Rake 0 
+Board [As 4s 2d 2h 7s]
+Seat 2: Hadajktosom (small blind) showed [Qc Ts] and lost with a pair of Deuces
+Seat 3: Goodzilla_real (big blind) showed [2c Ad] and won (1006) with a full house, Deuces full of Aces
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 (button) folded on the Flop
+
+
+
+PokerStars Hand #259750740130: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (50/100) - 2026/02/16 17:17:32 UTC [2026/02/16 12:17:32 ET]
+Table '3974766413 9' 6-max Seat #3 is the button
+Seat 1: zoltanfeher89 (2840 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (5692 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (7154 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2504 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (3900 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 25
+Goodzilla_real: posts the ante 25
+Mr.SmAyKs: posts the ante 25
+scorza23: posts the ante 25
+99ProbButUAint1: posts the ante 25
+Mr.SmAyKs: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Qd]
+99ProbButUAint1: folds 
+zoltanfeher89: calls 100
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+zoltanfeher89 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: zoltanfeher89 collected (375)
+Seat 3: Goodzilla_real (button) folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: 99ProbButUAint1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750746010: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (50/100) - 2026/02/16 17:18:00 UTC [2026/02/16 12:18:00 ET]
+Table '3974766413 9' 6-max Seat #4 is the button
+Seat 1: zoltanfeher89 (3090 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (5667 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (7079 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2379 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (3875 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 25
+Goodzilla_real: posts the ante 25
+Mr.SmAyKs: posts the ante 25
+scorza23: posts the ante 25
+99ProbButUAint1: posts the ante 25
+scorza23: posts small blind 50
+99ProbButUAint1: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Qd]
+zoltanfeher89: raises 2965 to 3065 and is all-in
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: folds 
+Uncalled bet (2965) returned to zoltanfeher89
+zoltanfeher89 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: zoltanfeher89 collected (375)
+Seat 3: Goodzilla_real folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: 99ProbButUAint1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750750216: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (50/100) - 2026/02/16 17:18:20 UTC [2026/02/16 12:18:20 ET]
+Table '3974766413 9' 6-max Seat #5 is the button
+Seat 1: zoltanfeher89 (3340 in chips, $1 bounty) 
+Seat 2: Floricienta26 (3000 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (5642 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (7054 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2304 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (3750 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 25
+Floricienta26: posts the ante 25
+Goodzilla_real: posts the ante 25
+Mr.SmAyKs: posts the ante 25
+scorza23: posts the ante 25
+99ProbButUAint1: posts the ante 25
+99ProbButUAint1: posts small blind 50
+zoltanfeher89: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 4s]
+Floricienta26 has timed out
+Floricienta26: folds 
+Floricienta26 is sitting out
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: folds 
+Uncalled bet (50) returned to zoltanfeher89
+zoltanfeher89 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: zoltanfeher89 (big blind) collected (250)
+Seat 2: Floricienta26 folded before Flop (didn't bet)
+Seat 3: Goodzilla_real folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750757695: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (50/100) - 2026/02/16 17:18:56 UTC [2026/02/16 12:18:56 ET]
+Table '3974766413 9' 6-max Seat #6 is the button
+Seat 1: zoltanfeher89 (3515 in chips, $1 bounty) 
+Seat 2: Floricienta26 (2975 in chips, $1 bounty) is sitting out
+Seat 3: Goodzilla_real (5617 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (7029 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2279 in chips, $1 bounty) is sitting out
+Seat 6: 99ProbButUAint1 (3675 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 25
+Floricienta26: posts the ante 25
+Goodzilla_real: posts the ante 25
+Mr.SmAyKs: posts the ante 25
+scorza23: posts the ante 25
+99ProbButUAint1: posts the ante 25
+zoltanfeher89: posts small blind 50
+Floricienta26: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3h]
+Goodzilla_real: raises 100 to 200
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: calls 200
+zoltanfeher89 has timed out
+zoltanfeher89: folds 
+zoltanfeher89 is sitting out
+Floricienta26: folds 
+*** FLOP *** [9d 4c Jh]
+Goodzilla_real: checks 
+99ProbButUAint1: bets 350
+Goodzilla_real: calls 350
+*** TURN *** [9d 4c Jh] [6c]
+Goodzilla_real: checks 
+99ProbButUAint1: bets 600
+scorza23 has returned
+Goodzilla_real: calls 600
+*** RIVER *** [9d 4c Jh 6c] [2d]
+Floricienta26 has returned
+Goodzilla_real: checks 
+99ProbButUAint1: checks 
+*** SHOW DOWN ***
+Goodzilla_real: shows [Qd Kd] (high card King)
+99ProbButUAint1: shows [9s Th] (a pair of Nines)
+99ProbButUAint1 collected 2600 from pot
+*** SUMMARY ***
+Total pot 2600 | Rake 0 
+Board [9d 4c Jh 6c 2d]
+Seat 1: zoltanfeher89 (small blind) folded before Flop
+Seat 2: Floricienta26 (big blind) folded before Flop
+Seat 3: Goodzilla_real showed [Qd Kd] and lost with high card King
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 (button) showed [9s Th] and won (2600) with a pair of Nines
+
+
+
+PokerStars Hand #259750767291: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (50/100) - 2026/02/16 17:19:43 UTC [2026/02/16 12:19:43 ET]
+Table '3974766413 9' 6-max Seat #1 is the button
+Seat 1: zoltanfeher89 (3440 in chips, $1 bounty) is sitting out
+Seat 2: Floricienta26 (2850 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (4442 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (7004 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2254 in chips, $1 bounty) 
+Seat 6: 99ProbButUAint1 (5100 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 25
+Floricienta26: posts the ante 25
+Goodzilla_real: posts the ante 25
+Mr.SmAyKs: posts the ante 25
+scorza23: posts the ante 25
+99ProbButUAint1: posts the ante 25
+Floricienta26: posts small blind 50
+Goodzilla_real: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 7h]
+Mr.SmAyKs: folds 
+scorza23: folds 
+99ProbButUAint1: folds 
+zoltanfeher89: folds 
+zoltanfeher89 has returned
+Floricienta26: folds 
+Uncalled bet (50) returned to Goodzilla_real
+Goodzilla_real collected 250 from pot
+Goodzilla_real: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: zoltanfeher89 (button) folded before Flop (didn't bet)
+Seat 2: Floricienta26 (small blind) folded before Flop
+Seat 3: Goodzilla_real (big blind) collected (250)
+Seat 4: Mr.SmAyKs folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750770323: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (50/100) - 2026/02/16 17:19:57 UTC [2026/02/16 12:19:57 ET]
+Table '3974766413 9' 6-max Seat #2 is the button
+Seat 1: zoltanfeher89 (3415 in chips, $1 bounty) 
+Seat 2: Floricienta26 (2775 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (4617 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (6979 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2229 in chips, $1 bounty) 
+Seat 6: 99ProbButUAint1 (5075 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 25
+Floricienta26: posts the ante 25
+Goodzilla_real: posts the ante 25
+Mr.SmAyKs: posts the ante 25
+scorza23: posts the ante 25
+99ProbButUAint1: posts the ante 25
+Goodzilla_real: posts small blind 50
+Mr.SmAyKs: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Qh]
+scorza23: folds 
+99ProbButUAint1: folds 
+zoltanfeher89: folds 
+Floricienta26: folds 
+Goodzilla_real: raises 350 to 450
+Mr.SmAyKs: calls 350
+*** FLOP *** [2c 9s Kd]
+Goodzilla_real: checks 
+Mr.SmAyKs: bets 504
+Goodzilla_real: calls 504
+*** TURN *** [2c 9s Kd] [Qc]
+Goodzilla_real: checks 
+Mr.SmAyKs: bets 660
+Goodzilla_real: folds 
+Uncalled bet (660) returned to Mr.SmAyKs
+Mr.SmAyKs collected 2058 from pot
+Mr.SmAyKs: doesn't show hand 
+*** SUMMARY ***
+Total pot 2058 | Rake 0 
+Board [2c 9s Kd Qc]
+Seat 1: zoltanfeher89 folded before Flop (didn't bet)
+Seat 2: Floricienta26 (button) folded before Flop (didn't bet)
+Seat 3: Goodzilla_real (small blind) folded on the Turn
+Seat 4: Mr.SmAyKs (big blind) collected (2058)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: 99ProbButUAint1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750783949: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VI (60/120) - 2026/02/16 17:21:02 UTC [2026/02/16 12:21:02 ET]
+Table '3974766413 9' 6-max Seat #3 is the button
+Seat 1: zoltanfeher89 (3390 in chips, $1 bounty) 
+Seat 2: Floricienta26 (2750 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (3638 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (8058 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2204 in chips, $1 bounty) 
+Seat 6: 99ProbButUAint1 (5050 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 30
+Floricienta26: posts the ante 30
+Goodzilla_real: posts the ante 30
+Mr.SmAyKs: posts the ante 30
+scorza23: posts the ante 30
+99ProbButUAint1: posts the ante 30
+Mr.SmAyKs: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5s]
+99ProbButUAint1: folds 
+zoltanfeher89 has timed out
+zoltanfeher89: folds 
+zoltanfeher89 is sitting out
+zoltanfeher89 has returned
+Floricienta26: raises 480 to 600
+Goodzilla_real: folds 
+Mr.SmAyKs: folds 
+scorza23: folds 
+Uncalled bet (480) returned to Floricienta26
+Floricienta26 collected 480 from pot
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 1: zoltanfeher89 folded before Flop (didn't bet)
+Seat 2: Floricienta26 collected (480)
+Seat 3: Goodzilla_real (button) folded before Flop (didn't bet)
+Seat 4: Mr.SmAyKs (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: 99ProbButUAint1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750788901: Tournament #3974766413, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VI (60/120) - 2026/02/16 17:21:27 UTC [2026/02/16 12:21:27 ET]
+Table '3974766413 9' 6-max Seat #4 is the button
+Seat 1: zoltanfeher89 (3360 in chips, $1 bounty) 
+Seat 2: Floricienta26 (3080 in chips, $1 bounty) 
+Seat 3: Goodzilla_real (3608 in chips, $1.75 bounty) 
+Seat 4: Mr.SmAyKs (7968 in chips, $1.50 bounty) 
+Seat 5: scorza23 (2054 in chips, $1 bounty) 
+Seat 6: 99ProbButUAint1 (5020 in chips, $1 bounty) 
+zoltanfeher89: posts the ante 30
+Floricienta26: posts the ante 30
+Goodzilla_real: posts the ante 30
+Mr.SmAyKs: posts the ante 30
+scorza23: posts the ante 30
+99ProbButUAint1: posts the ante 30
+scorza23: posts small blind 60
+99ProbButUAint1: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 6c]
+zoltanfeher89: calls 120
+Floricienta26: folds 
+Goodzilla_real: raises 600 to 720
+Mr.SmAyKs: folds 
+scorza23: raises 1304 to 2024 and is all-in
+99ProbButUAint1: folds 
+zoltanfeher89: raises 1306 to 3330 and is all-in
+Goodzilla_real: calls 2610
+*** FLOP *** [Ah Ts 2h]
+*** TURN *** [Ah Ts 2h] [8s]
+*** RIVER *** [Ah Ts 2h 8s] [4s]
+*** SHOW DOWN ***
+zoltanfeher89: shows [5s 5d] (a pair of Fives)
+Goodzilla_real: shows [7d 7c] (a pair of Sevens)
+Goodzilla_real collected 2612 from side pot
+scorza23: shows [6d 6c] (a pair of Sixes)
+Goodzilla_real collected 6372 from main pot
+Goodzilla_real wins $0.50 for eliminating zoltanfeher89 and their own bounty increases by $0.50 to $2.25
+Goodzilla_real wins $0.50 for eliminating scorza23 and their own bounty increases by $0.50 to $2.75
+zoltanfeher89 finished the tournament
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 8984 Main pot 6372. Side pot 2612. | Rake 0 
+Board [Ah Ts 2h 8s 4s]
+Seat 1: zoltanfeher89 showed [5s 5d] and lost with a pair of Fives
+Seat 2: Floricienta26 folded before Flop (didn't bet)
+Seat 3: Goodzilla_real showed [7d 7c] and won (8984) with a pair of Sevens
+Seat 4: Mr.SmAyKs (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) showed [6d 6c] and lost with a pair of Sixes
+Seat 6: 99ProbButUAint1 (big blind) folded before Flop
+
+
+

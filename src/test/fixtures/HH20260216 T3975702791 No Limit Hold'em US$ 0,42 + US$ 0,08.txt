@@ -1,0 +1,3932 @@
+﻿PokerStars Hand #259750530057: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:59:48 UTC [2026/02/16 11:59:48 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (1500 in chips) 
+Seat 2: didi1063 (1500 in chips) 
+Seat 3: Lucas.Miranda77 (1500 in chips) 
+Seat 4: Chev.de Mere (1500 in chips) 
+Seat 5: Mr.Louam (1500 in chips) 
+Seat 6: Collazo75 (1500 in chips) 
+Seat 7: 11decopas (1500 in chips) is sitting out
+Seat 8: scorza23 (1500 in chips) 
+Seat 9: rupy1 (1500 in chips) 
+didi1063: posts small blind 10
+Lucas.Miranda77: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 7c]
+Chev.de Mere: folds 
+Mr.Louam: calls 20
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: raises 24 to 44
+didi1063: calls 34
+Lucas.Miranda77: calls 24
+Mr.Louam: calls 24
+*** FLOP *** [Tc 6h Jc]
+didi1063: checks 
+11decopas is disconnected 
+Lucas.Miranda77: checks 
+11decopas has returned
+Mr.Louam: checks 
+moliko80: bets 58
+didi1063: folds 
+Lucas.Miranda77: folds 
+Mr.Louam: folds 
+Uncalled bet (58) returned to moliko80
+moliko80 collected 176 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 176 | Rake 0 
+Board [Tc 6h Jc]
+Seat 1: moliko80 (button) collected (176)
+Seat 2: didi1063 (small blind) folded on the Flop
+Seat 3: Lucas.Miranda77 (big blind) folded on the Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam folded on the Flop
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750536925: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:00:31 UTC [2026/02/16 12:00:31 ET]
+Table '3975702791 1' 9-max Seat #2 is the button
+Seat 1: moliko80 (1632 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 3: Lucas.Miranda77 (1456 in chips) 
+Seat 4: Chev.de Mere (1500 in chips) 
+Seat 5: Mr.Louam (1456 in chips) 
+Seat 6: Collazo75 (1500 in chips) 
+Seat 7: 11decopas (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+Seat 9: rupy1 (1500 in chips) 
+Lucas.Miranda77: posts small blind 10
+Chev.de Mere: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h As]
+Mr.Louam: calls 20
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Lucas.Miranda77: raises 30 to 50
+Chev.de Mere: calls 30
+Mr.Louam: calls 30
+*** FLOP *** [2c Kc Kh]
+Lucas.Miranda77: checks 
+Chev.de Mere: checks 
+Mr.Louam: bets 75
+Lucas.Miranda77: calls 75
+Chev.de Mere: calls 75
+*** TURN *** [2c Kc Kh] [5h]
+Lucas.Miranda77: checks 
+Chev.de Mere: checks 
+Mr.Louam: bets 60
+Lucas.Miranda77: raises 60 to 120
+Chev.de Mere: calls 120
+Mr.Louam: calls 60
+*** RIVER *** [2c Kc Kh 5h] [9d]
+Lucas.Miranda77: bets 735
+Chev.de Mere: raises 520 to 1255 and is all-in
+Mr.Louam: folds 
+Lucas.Miranda77: calls 476 and is all-in
+Uncalled bet (44) returned to Chev.de Mere
+*** SHOW DOWN ***
+Chev.de Mere: shows [9c 9s] (a full house, Nines full of Kings)
+Lucas.Miranda77: shows [Kd Jd] (three of a kind, Kings)
+Chev.de Mere collected 3157 from pot
+Lucas.Miranda77 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3157 | Rake 0 
+Board [2c Kc Kh 5h 9d]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 (button) folded before Flop (didn't bet)
+Seat 3: Lucas.Miranda77 (small blind) showed [Kd Jd] and lost with three of a kind, Kings
+Seat 4: Chev.de Mere (big blind) showed [9c 9s] and won (3157) with a full house, Nines full of Kings
+Seat 5: Mr.Louam folded on the River
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750549898: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:01:43 UTC [2026/02/16 12:01:43 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (1632 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3201 in chips) 
+Seat 5: Mr.Louam (1211 in chips) 
+Seat 6: Collazo75 (1500 in chips) 
+Seat 7: 11decopas (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+Seat 9: rupy1 (1500 in chips) 
+Mr.Louam: posts small blind 10
+Collazo75: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Qc]
+11decopas: folds 
+scorza23: raises 40 to 60
+rupy1: calls 60
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: calls 50
+Collazo75: raises 240 to 300
+scorza23: folds 
+rupy1: calls 240
+Mr.Louam: folds 
+*** FLOP *** [2s Qs 5h]
+Collazo75: bets 600
+rupy1: folds 
+Uncalled bet (600) returned to Collazo75
+Collazo75 collected 720 from pot
+Collazo75: doesn't show hand 
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Board [2s Qs 5h]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 5: Mr.Louam (small blind) folded before Flop
+Seat 6: Collazo75 (big blind) collected (720)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop
+Seat 9: rupy1 folded on the Flop
+
+
+
+PokerStars Hand #259750560724: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:02:38 UTC [2026/02/16 12:02:38 ET]
+Table '3975702791 1' 9-max Seat #5 is the button
+Seat 1: moliko80 (1632 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3201 in chips) 
+Seat 5: Mr.Louam (1151 in chips) 
+Seat 6: Collazo75 (1920 in chips) 
+Seat 7: 11decopas (1500 in chips) 
+Seat 8: scorza23 (1440 in chips) 
+Seat 9: rupy1 (1200 in chips) 
+Collazo75: posts small blind 10
+11decopas: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ac]
+scorza23: raises 40 to 60
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: calls 60
+Collazo75: folds 
+11decopas: folds 
+*** FLOP *** [9d 8s 3s]
+scorza23: checks 
+Mr.Louam: bets 150
+scorza23: raises 1230 to 1380 and is all-in
+Mr.Louam: folds 
+Uncalled bet (1230) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [9d 8s 3s]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam (button) folded on the Flop
+Seat 6: Collazo75 (small blind) folded before Flop
+Seat 7: 11decopas (big blind) folded before Flop
+Seat 8: scorza23 collected (450)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750569330: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:03:21 UTC [2026/02/16 12:03:21 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (1632 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3201 in chips) 
+Seat 5: Mr.Louam (941 in chips) 
+Seat 6: Collazo75 (1910 in chips) 
+Seat 7: 11decopas (1480 in chips) 
+Seat 8: scorza23 (1680 in chips) 
+Seat 9: rupy1 (1200 in chips) 
+11decopas: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 3s]
+rupy1: folds 
+moliko80: raises 24 to 44
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: calls 44
+Collazo75: calls 44
+11decopas: calls 34
+scorza23: folds 
+*** FLOP *** [6h Jh 5d]
+11decopas: checks 
+moliko80: bets 65
+Mr.Louam: folds 
+Collazo75: calls 65
+11decopas: folds 
+*** TURN *** [6h Jh 5d] [7s]
+moliko80: bets 108
+Collazo75: calls 108
+*** RIVER *** [6h Jh 5d 7s] [Jd]
+moliko80: bets 363
+Collazo75: raises 1330 to 1693 and is all-in
+moliko80: folds 
+Uncalled bet (1330) returned to Collazo75
+Collazo75 collected 1268 from pot
+Collazo75: doesn't show hand 
+*** SUMMARY ***
+Total pot 1268 | Rake 0 
+Board [6h Jh 5d 7s Jd]
+Seat 1: moliko80 folded on the River
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam folded on the Flop
+Seat 6: Collazo75 (button) collected (1268)
+Seat 7: 11decopas (small blind) folded on the Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750582009: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:04:25 UTC [2026/02/16 12:04:25 ET]
+Table '3975702791 1' 9-max Seat #7 is the button
+Seat 1: moliko80 (1052 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3201 in chips) 
+Seat 5: Mr.Louam (897 in chips) 
+Seat 6: Collazo75 (2598 in chips) 
+Seat 7: 11decopas (1436 in chips) 
+Seat 8: scorza23 (1660 in chips) 
+Seat 9: rupy1 (1200 in chips) 
+scorza23: posts small blind 10
+rupy1: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 8h]
+moliko80: calls 20
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: raises 868 to 888
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Uncalled bet (868) returned to Mr.Louam
+Mr.Louam collected 70 from pot
+*** SUMMARY ***
+Total pot 70 | Rake 0 
+Seat 1: moliko80 folded before Flop
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam collected (70)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750588961: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:04:59 UTC [2026/02/16 12:04:59 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (1032 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3201 in chips) 
+Seat 5: Mr.Louam (947 in chips) 
+Seat 6: Collazo75 (2598 in chips) 
+Seat 7: 11decopas (1436 in chips) 
+Seat 8: scorza23 (1650 in chips) 
+Seat 9: rupy1 (1180 in chips) 
+rupy1: posts small blind 15
+moliko80: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 6c]
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: calls 30
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: calls 15
+moliko80: checks 
+*** FLOP *** [3d Kc 4h]
+rupy1: checks 
+moliko80: checks 
+Mr.Louam: bets 90
+rupy1: calls 90
+moliko80: folds 
+*** TURN *** [3d Kc 4h] [5c]
+rupy1: checks 
+Mr.Louam: bets 90
+rupy1: calls 90
+*** RIVER *** [3d Kc 4h 5c] [Jc]
+rupy1: checks 
+Mr.Louam: checks 
+*** SHOW DOWN ***
+rupy1: shows [7h 4d] (a pair of Fours)
+Mr.Louam: mucks hand 
+rupy1 collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [3d Kc 4h 5c Jc]
+Seat 1: moliko80 (big blind) folded on the Flop
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam mucked [As 3h]
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) showed [7h 4d] and won (450) with a pair of Fours
+
+
+
+PokerStars Hand #259750597469: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:05:42 UTC [2026/02/16 12:05:42 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (1002 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3201 in chips) 
+Seat 5: Mr.Louam (737 in chips) 
+Seat 6: Collazo75 (2598 in chips) 
+Seat 7: 11decopas (1436 in chips) 
+Seat 8: scorza23 (1650 in chips) 
+Seat 9: rupy1 (1420 in chips) 
+moliko80: posts small blind 15
+didi1063: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 6d]
+Chev.de Mere: folds 
+Mr.Louam: raises 707 to 737 and is all-in
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Uncalled bet (707) returned to Mr.Louam
+Mr.Louam collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 2: didi1063 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam collected (75)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750601036: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:06:00 UTC [2026/02/16 12:06:00 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (987 in chips) 
+Seat 2: didi1063 (1426 in chips) 
+Seat 4: Chev.de Mere (3201 in chips) 
+Seat 5: Mr.Louam (782 in chips) 
+Seat 6: Collazo75 (2598 in chips) 
+Seat 7: 11decopas (1436 in chips) 
+Seat 8: scorza23 (1650 in chips) 
+Seat 9: rupy1 (1420 in chips) 
+didi1063: posts small blind 15
+Chev.de Mere: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Jh]
+Mr.Louam: raises 752 to 782 and is all-in
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Uncalled bet (752) returned to Mr.Louam
+Mr.Louam collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 2: didi1063 (small blind) folded before Flop
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 5: Mr.Louam collected (75)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750603981: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:06:15 UTC [2026/02/16 12:06:15 ET]
+Table '3975702791 1' 9-max Seat #2 is the button
+Seat 1: moliko80 (987 in chips) 
+Seat 2: didi1063 (1411 in chips) 
+Seat 4: Chev.de Mere (3171 in chips) 
+Seat 5: Mr.Louam (827 in chips) 
+Seat 6: Collazo75 (2598 in chips) 
+Seat 7: 11decopas (1436 in chips) 
+Seat 8: scorza23 (1650 in chips) 
+Seat 9: rupy1 (1420 in chips) 
+Chev.de Mere: posts small blind 15
+Mr.Louam: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Ks]
+Collazo75: folds 
+11decopas: folds 
+scorza23: raises 60 to 90
+rupy1: folds 
+moliko80: calls 90
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: calls 60
+*** FLOP *** [Ad 3s 9s]
+Mr.Louam: checks 
+scorza23: checks 
+moliko80: bets 94
+Mr.Louam: folds 
+scorza23: raises 1466 to 1560 and is all-in
+moliko80: folds 
+Uncalled bet (1466) returned to scorza23
+scorza23 collected 473 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 473 | Rake 0 
+Board [Ad 3s 9s]
+Seat 1: moliko80 folded on the Flop
+Seat 2: didi1063 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 5: Mr.Louam (big blind) folded on the Flop
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 collected (473)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750609221: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:06:42 UTC [2026/02/16 12:06:42 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (1411 in chips) 
+Seat 4: Chev.de Mere (3156 in chips) 
+Seat 5: Mr.Louam (737 in chips) 
+Seat 6: Collazo75 (2598 in chips) 
+Seat 7: 11decopas (1436 in chips) 
+Seat 8: scorza23 (1939 in chips) 
+Seat 9: rupy1 (1420 in chips) 
+Mr.Louam: posts small blind 15
+Collazo75: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Ks]
+11decopas: folds 
+scorza23: raises 60 to 90
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: raises 647 to 737 and is all-in
+Collazo75: folds 
+scorza23: calls 647
+*** FLOP *** [Qd Qs 4d]
+*** TURN *** [Qd Qs 4d] [7d]
+*** RIVER *** [Qd Qs 4d 7d] [4s]
+*** SHOW DOWN ***
+Mr.Louam: shows [9d 9s] (two pair, Queens and Nines)
+scorza23: shows [Ad Ks] (two pair, Queens and Fours)
+Mr.Louam collected 1504 from pot
+*** SUMMARY ***
+Total pot 1504 | Rake 0 
+Board [Qd Qs 4d 7d 4s]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 5: Mr.Louam (small blind) showed [9d 9s] and won (1504) with two pair, Queens and Nines
+Seat 6: Collazo75 (big blind) folded before Flop
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 showed [Ad Ks] and lost with two pair, Queens and Fours
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750614782: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:07:10 UTC [2026/02/16 12:07:10 ET]
+Table '3975702791 1' 9-max Seat #5 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (1411 in chips) 
+Seat 4: Chev.de Mere (3156 in chips) 
+Seat 5: Mr.Louam (1504 in chips) 
+Seat 6: Collazo75 (2568 in chips) 
+Seat 7: 11decopas (1436 in chips) 
+Seat 8: scorza23 (1202 in chips) 
+Seat 9: rupy1 (1420 in chips) 
+Collazo75: posts small blind 15
+11decopas: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 3d]
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: raises 1474 to 1504 and is all-in
+Collazo75: folds 
+11decopas: folds 
+Uncalled bet (1474) returned to Mr.Louam
+Mr.Louam collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam (button) collected (75)
+Seat 6: Collazo75 (small blind) folded before Flop
+Seat 7: 11decopas (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750618634: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:07:29 UTC [2026/02/16 12:07:29 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (1411 in chips) 
+Seat 4: Chev.de Mere (3156 in chips) 
+Seat 5: Mr.Louam (1549 in chips) 
+Seat 6: Collazo75 (2553 in chips) 
+Seat 7: 11decopas (1406 in chips) 
+Seat 8: scorza23 (1202 in chips) 
+Seat 9: rupy1 (1420 in chips) 
+11decopas: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 4h]
+rupy1: folds 
+moliko80: folds 
+didi1063: raises 30 to 60
+Chev.de Mere: folds 
+Mr.Louam has timed out
+Mr.Louam: folds 
+Mr.Louam is sitting out
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+Uncalled bet (30) returned to didi1063
+didi1063 collected 75 from pot
+didi1063: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 collected (75)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam folded before Flop (didn't bet)
+Seat 6: Collazo75 (button) folded before Flop (didn't bet)
+Seat 7: 11decopas (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750624330: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:07:57 UTC [2026/02/16 12:07:57 ET]
+Table '3975702791 1' 9-max Seat #7 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3156 in chips) 
+Seat 5: Mr.Louam (1549 in chips) is sitting out
+Seat 6: Collazo75 (2553 in chips) 
+Seat 7: 11decopas (1391 in chips) 
+Seat 8: scorza23 (1172 in chips) 
+Seat 9: rupy1 (1420 in chips) 
+scorza23: posts small blind 15
+rupy1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2s As]
+Mr.Louam has returned
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: calls 30
+Collazo75: raises 180 to 210
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+Mr.Louam: calls 180
+*** FLOP *** [Jc Ks 4c]
+Mr.Louam: checks 
+Collazo75: bets 600
+Mr.Louam: folds 
+Uncalled bet (600) returned to Collazo75
+Collazo75 collected 465 from pot
+Collazo75: doesn't show hand 
+*** SUMMARY ***
+Total pot 465 | Rake 0 
+Board [Jc Ks 4c]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam folded on the Flop
+Seat 6: Collazo75 collected (465)
+Seat 7: 11decopas (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750630855: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:08:30 UTC [2026/02/16 12:08:30 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (1456 in chips) 
+Seat 4: Chev.de Mere (3156 in chips) 
+Seat 5: Mr.Louam (1339 in chips) 
+Seat 6: Collazo75 (2808 in chips) 
+Seat 7: 11decopas (1391 in chips) 
+Seat 8: scorza23 (1157 in chips) 
+Seat 9: rupy1 (1390 in chips) 
+rupy1: posts small blind 15
+moliko80: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Jc]
+didi1063: raises 30 to 60
+Chev.de Mere: folds 
+Mr.Louam: folds 
+Collazo75: folds 
+11decopas: calls 60
+scorza23: raises 1097 to 1157 and is all-in
+rupy1: folds 
+moliko80: folds 
+didi1063: calls 1097
+11decopas: folds 
+*** FLOP *** [5s Jd Tc]
+*** TURN *** [5s Jd Tc] [Kd]
+*** RIVER *** [5s Jd Tc Kd] [4d]
+*** SHOW DOWN ***
+didi1063: shows [8d 8h] (a pair of Eights)
+scorza23: shows [Kh Jc] (two pair, Kings and Jacks)
+scorza23 collected 2419 from pot
+*** SUMMARY ***
+Total pot 2419 | Rake 0 
+Board [5s Jd Tc Kd 4d]
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 2: didi1063 showed [8d 8h] and lost with a pair of Eights
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop
+Seat 8: scorza23 (button) showed [Kh Jc] and won (2419) with two pair, Kings and Jacks
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750636810: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:09:00 UTC [2026/02/16 12:09:00 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (773 in chips) 
+Seat 2: didi1063 (299 in chips) 
+Seat 4: Chev.de Mere (3156 in chips) 
+Seat 5: Mr.Louam (1339 in chips) 
+Seat 6: Collazo75 (2808 in chips) 
+Seat 7: 11decopas (1331 in chips) 
+Seat 8: scorza23 (2419 in chips) 
+Seat 9: rupy1 (1375 in chips) 
+moliko80: posts small blind 15
+didi1063: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 9c]
+Chev.de Mere: folds 
+Mr.Louam: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: raises 60 to 90
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 75 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 2: didi1063 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 collected (75)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750642084: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:09:27 UTC [2026/02/16 12:09:27 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (758 in chips) 
+Seat 2: didi1063 (269 in chips) 
+Seat 4: Chev.de Mere (3156 in chips) 
+Seat 5: Mr.Louam (1339 in chips) 
+Seat 6: Collazo75 (2808 in chips) 
+Seat 7: 11decopas (1331 in chips) 
+Seat 8: scorza23 (2464 in chips) 
+Seat 9: rupy1 (1375 in chips) 
+didi1063: posts small blind 15
+Chev.de Mere: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6s]
+Mr.Louam: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: raises 36 to 66
+didi1063: folds 
+Chev.de Mere: folds 
+Uncalled bet (36) returned to moliko80
+moliko80 collected 75 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: moliko80 (button) collected (75)
+Seat 2: didi1063 (small blind) folded before Flop
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 5: Mr.Louam folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750644675: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:09:40 UTC [2026/02/16 12:09:40 ET]
+Table '3975702791 1' 9-max Seat #2 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (254 in chips) 
+Seat 4: Chev.de Mere (3126 in chips) 
+Seat 5: Mr.Louam (1339 in chips) 
+Seat 6: Collazo75 (2808 in chips) 
+Seat 7: 11decopas (1331 in chips) 
+Seat 8: scorza23 (2464 in chips) 
+Seat 9: rupy1 (1375 in chips) 
+Chev.de Mere: posts small blind 15
+Mr.Louam: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 5d]
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: raises 45 to 75
+Mr.Louam: calls 45
+*** FLOP *** [Ts Jh 3s]
+Chev.de Mere: bets 83
+Mr.Louam: calls 83
+*** TURN *** [Ts Jh 3s] [4h]
+Chev.de Mere: checks 
+Mr.Louam: bets 316
+Chev.de Mere: calls 316
+*** RIVER *** [Ts Jh 3s 4h] [3h]
+Chev.de Mere: checks 
+Mr.Louam: bets 865 and is all-in
+Chev.de Mere: folds 
+Uncalled bet (865) returned to Mr.Louam
+Mr.Louam collected 948 from pot
+*** SUMMARY ***
+Total pot 948 | Rake 0 
+Board [Ts Jh 3s 4h 3h]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded on the River
+Seat 5: Mr.Louam (big blind) collected (948)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750653527: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:10:25 UTC [2026/02/16 12:10:25 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (254 in chips) 
+Seat 4: Chev.de Mere (2652 in chips) 
+Seat 5: Mr.Louam (1813 in chips) 
+Seat 6: Collazo75 (2808 in chips) 
+Seat 7: 11decopas (1331 in chips) 
+Seat 8: scorza23 (2464 in chips) 
+Seat 9: rupy1 (1375 in chips) 
+Mr.Louam: posts small blind 25
+Collazo75: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 5h]
+11decopas: folds 
+scorza23: folds 
+rupy1: raises 100 to 150
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Mr.Louam: raises 1663 to 1813 and is all-in
+Collazo75: folds 
+rupy1: calls 1225 and is all-in
+Uncalled bet (438) returned to Mr.Louam
+*** FLOP *** [8h 3c 6c]
+*** TURN *** [8h 3c 6c] [Ks]
+*** RIVER *** [8h 3c 6c Ks] [5c]
+*** SHOW DOWN ***
+Mr.Louam: shows [Ts As] (high card Ace)
+rupy1: shows [Ad Kh] (a pair of Kings)
+rupy1 collected 2800 from pot
+*** SUMMARY ***
+Total pot 2800 | Rake 0 
+Board [8h 3c 6c Ks 5c]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 5: Mr.Louam (small blind) showed [Ts As] and lost with high card Ace
+Seat 6: Collazo75 (big blind) folded before Flop
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 showed [Ad Kh] and won (2800) with a pair of Kings
+
+
+
+PokerStars Hand #259750660601: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:11:00 UTC [2026/02/16 12:11:00 ET]
+Table '3975702791 1' 9-max Seat #5 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (254 in chips) 
+Seat 4: Chev.de Mere (2652 in chips) 
+Seat 5: Mr.Louam (438 in chips) 
+Seat 6: Collazo75 (2758 in chips) 
+Seat 7: 11decopas (1331 in chips) 
+Seat 8: scorza23 (2464 in chips) 
+Seat 9: rupy1 (2800 in chips) 
+Collazo75: posts small blind 25
+11decopas: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 6h]
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: raises 204 to 254 and is all-in
+Chev.de Mere: folds 
+Mr.Louam: raises 184 to 438 and is all-in
+Collazo75: folds 
+11decopas: folds 
+Uncalled bet (184) returned to Mr.Louam
+*** FLOP *** [4d 3h 2d]
+*** TURN *** [4d 3h 2d] [5d]
+*** RIVER *** [4d 3h 2d 5d] [Th]
+*** SHOW DOWN ***
+didi1063: shows [9s Ad] (a straight, Ace to Five)
+Mr.Louam: shows [8c Js] (high card Jack)
+didi1063 collected 583 from pot
+*** SUMMARY ***
+Total pot 583 | Rake 0 
+Board [4d 3h 2d 5d Th]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 showed [9s Ad] and won (583) with a straight, Ace to Five
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 5: Mr.Louam (button) showed [8c Js] and lost with high card Jack
+Seat 6: Collazo75 (small blind) folded before Flop
+Seat 7: 11decopas (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750666174: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:11:27 UTC [2026/02/16 12:11:27 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (583 in chips) 
+Seat 4: Chev.de Mere (2652 in chips) 
+Seat 5: Mr.Louam (184 in chips) 
+Seat 6: Collazo75 (2733 in chips) 
+Seat 7: 11decopas (1281 in chips) 
+Seat 8: scorza23 (2464 in chips) 
+Seat 9: rupy1 (2800 in chips) 
+11decopas: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 9c]
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: calls 50
+Mr.Louam: raises 131 to 181
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+Chev.de Mere: calls 131
+*** FLOP *** [3h Jd Ac]
+Chev.de Mere: bets 50
+Mr.Louam: calls 3 and is all-in
+Uncalled bet (47) returned to Chev.de Mere
+*** TURN *** [3h Jd Ac] [6h]
+*** RIVER *** [3h Jd Ac 6h] [8s]
+*** SHOW DOWN ***
+Chev.de Mere: shows [8d Ad] (two pair, Aces and Eights)
+Mr.Louam: shows [Kd 5s] (high card Ace)
+Chev.de Mere collected 443 from pot
+Mr.Louam finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 443 | Rake 0 
+Board [3h Jd Ac 6h 8s]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere showed [8d Ad] and won (443) with two pair, Aces and Eights
+Seat 5: Mr.Louam showed [Kd 5s] and lost with high card Ace
+Seat 6: Collazo75 (button) folded before Flop (didn't bet)
+Seat 7: 11decopas (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750672102: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:11:57 UTC [2026/02/16 12:11:57 ET]
+Table '3975702791 1' 9-max Seat #7 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (583 in chips) 
+Seat 4: Chev.de Mere (2911 in chips) 
+Seat 6: Collazo75 (2733 in chips) 
+Seat 7: 11decopas (1256 in chips) 
+Seat 8: scorza23 (2414 in chips) 
+Seat 9: rupy1 (2800 in chips) 
+scorza23: posts small blind 25
+rupy1: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 3h]
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: raises 75 to 125
+Collazo75: folds 
+11decopas: calls 125
+scorza23: folds 
+rupy1: folds 
+*** FLOP *** [8s Ks Td]
+Chev.de Mere: bets 179
+11decopas: calls 179
+*** TURN *** [8s Ks Td] [3s]
+Chev.de Mere: checks 
+11decopas: checks 
+*** RIVER *** [8s Ks Td 3s] [5c]
+Chev.de Mere: checks 
+11decopas: checks 
+*** SHOW DOWN ***
+Chev.de Mere: shows [Kh Qd] (a pair of Kings)
+11decopas: mucks hand 
+Chev.de Mere collected 683 from pot
+*** SUMMARY ***
+Total pot 683 | Rake 0 
+Board [8s Ks Td 3s 5c]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere showed [Kh Qd] and won (683) with a pair of Kings
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas (button) mucked [Ac Jc]
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750680317: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:12:37 UTC [2026/02/16 12:12:37 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (803 in chips) 
+Seat 2: didi1063 (583 in chips) 
+Seat 4: Chev.de Mere (3290 in chips) 
+Seat 6: Collazo75 (2733 in chips) 
+Seat 7: 11decopas (952 in chips) 
+Seat 8: scorza23 (2389 in chips) 
+Seat 9: rupy1 (2750 in chips) 
+rupy1: posts small blind 25
+moliko80: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Kd]
+didi1063: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: calls 25
+moliko80: checks 
+*** FLOP *** [4c 4d As]
+rupy1: checks 
+moliko80: checks 
+*** TURN *** [4c 4d As] [Qc]
+rupy1: checks 
+moliko80: checks 
+*** RIVER *** [4c 4d As Qc] [Ks]
+rupy1: bets 200
+moliko80: folds 
+Uncalled bet (200) returned to rupy1
+rupy1 collected 100 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Board [4c 4d As Qc Ks]
+Seat 1: moliko80 (big blind) folded on the River
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) collected (100)
+
+
+
+PokerStars Hand #259750686139: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:13:07 UTC [2026/02/16 12:13:07 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (753 in chips) 
+Seat 2: didi1063 (583 in chips) 
+Seat 4: Chev.de Mere (3290 in chips) 
+Seat 6: Collazo75 (2733 in chips) 
+Seat 7: 11decopas (952 in chips) 
+Seat 8: scorza23 (2389 in chips) 
+Seat 9: rupy1 (2800 in chips) 
+moliko80: posts small blind 25
+didi1063: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 7d]
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: raises 100 to 150
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 2: didi1063 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 collected (125)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750689118: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:13:22 UTC [2026/02/16 12:13:22 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (728 in chips) 
+Seat 2: didi1063 (533 in chips) 
+Seat 4: Chev.de Mere (3290 in chips) 
+Seat 6: Collazo75 (2733 in chips) 
+Seat 7: 11decopas (952 in chips) 
+Seat 8: scorza23 (2464 in chips) 
+Seat 9: rupy1 (2800 in chips) 
+didi1063: posts small blind 25
+Chev.de Mere: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 8c]
+Collazo75: folds 
+11decopas: calls 50
+scorza23: raises 100 to 150
+rupy1: calls 150
+moliko80: folds 
+didi1063: calls 125
+Chev.de Mere: folds 
+11decopas: calls 100
+*** FLOP *** [Qh 4h 9d]
+didi1063: checks 
+11decopas: checks 
+scorza23: bets 650
+rupy1: calls 650
+didi1063: folds 
+11decopas: folds 
+*** TURN *** [Qh 4h 9d] [Ts]
+scorza23: bets 1664 and is all-in
+rupy1: folds 
+Uncalled bet (1664) returned to scorza23
+scorza23 collected 1950 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1950 | Rake 0 
+Board [Qh 4h 9d Ts]
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 2: didi1063 (small blind) folded on the Flop
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded on the Flop
+Seat 8: scorza23 collected (1950)
+Seat 9: rupy1 folded on the Turn
+
+
+
+PokerStars Hand #259750697411: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:14:03 UTC [2026/02/16 12:14:03 ET]
+Table '3975702791 1' 9-max Seat #2 is the button
+Seat 1: moliko80 (728 in chips) 
+Seat 2: didi1063 (383 in chips) 
+Seat 4: Chev.de Mere (3240 in chips) 
+Seat 6: Collazo75 (2733 in chips) 
+Seat 7: 11decopas (802 in chips) 
+Seat 8: scorza23 (3614 in chips) 
+Seat 9: rupy1 (2000 in chips) 
+Chev.de Mere: posts small blind 25
+Collazo75: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jd]
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: raises 75 to 125
+Collazo75: raises 475 to 600
+Chev.de Mere: calls 475
+*** FLOP *** [7c 5h 6d]
+Chev.de Mere: checks 
+Collazo75: bets 2133 and is all-in
+Chev.de Mere: folds [Jh Ac]
+Uncalled bet (2133) returned to Collazo75
+Collazo75 collected 1200 from pot
+Collazo75: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [7c 5h 6d]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded on the Flop
+Seat 6: Collazo75 (big blind) collected (1200)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750708267: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:14:57 UTC [2026/02/16 12:14:57 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (728 in chips) 
+Seat 2: didi1063 (383 in chips) 
+Seat 4: Chev.de Mere (2640 in chips) 
+Seat 6: Collazo75 (3333 in chips) 
+Seat 7: 11decopas (802 in chips) 
+Seat 8: scorza23 (3614 in chips) 
+Seat 9: rupy1 (2000 in chips) 
+Collazo75: posts small blind 50
+11decopas: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Jh]
+scorza23: raises 200 to 300
+rupy1: folds 
+moliko80: raises 428 to 728 and is all-in
+didi1063: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: calls 428
+*** FLOP *** [9h Qs 9c]
+*** TURN *** [9h Qs 9c] [9s]
+*** RIVER *** [9h Qs 9c 9s] [8d]
+*** SHOW DOWN ***
+scorza23: shows [Th Jh] (a straight, Eight to Queen)
+moliko80: shows [Ah As] (a full house, Nines full of Aces)
+moliko80 collected 1606 from pot
+*** SUMMARY ***
+Total pot 1606 | Rake 0 
+Board [9h Qs 9c 9s 8d]
+Seat 1: moliko80 showed [Ah As] and won (1606) with a full house, Nines full of Aces
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 6: Collazo75 (small blind) folded before Flop
+Seat 7: 11decopas (big blind) folded before Flop
+Seat 8: scorza23 showed [Th Jh] and lost with a straight, Eight to Queen
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750712709: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:15:19 UTC [2026/02/16 12:15:19 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (1606 in chips) 
+Seat 2: didi1063 (383 in chips) 
+Seat 4: Chev.de Mere (2640 in chips) 
+Seat 6: Collazo75 (3283 in chips) 
+Seat 7: 11decopas (702 in chips) 
+Seat 8: scorza23 (2886 in chips) 
+Seat 9: rupy1 (2000 in chips) 
+11decopas: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 7h]
+rupy1: raises 200 to 300
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+Uncalled bet (200) returned to rupy1
+rupy1 collected 250 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 (button) folded before Flop (didn't bet)
+Seat 7: 11decopas (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: rupy1 collected (250)
+
+
+
+PokerStars Hand #259750716081: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:15:35 UTC [2026/02/16 12:15:35 ET]
+Table '3975702791 1' 9-max Seat #7 is the button
+Seat 1: moliko80 (1606 in chips) 
+Seat 2: didi1063 (383 in chips) 
+Seat 4: Chev.de Mere (2640 in chips) 
+Seat 6: Collazo75 (3283 in chips) 
+Seat 7: 11decopas (652 in chips) 
+Seat 8: scorza23 (2786 in chips) 
+Seat 9: rupy1 (2150 in chips) 
+scorza23: posts small blind 50
+rupy1: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 3d]
+moliko80: folds 
+didi1063: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+Uncalled bet (50) returned to rupy1
+rupy1 collected 100 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) collected (100)
+
+
+
+PokerStars Hand #259750719177: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:15:50 UTC [2026/02/16 12:15:50 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (1606 in chips) 
+Seat 2: didi1063 (383 in chips) 
+Seat 4: Chev.de Mere (2640 in chips) 
+Seat 6: Collazo75 (3283 in chips) 
+Seat 7: 11decopas (652 in chips) 
+Seat 8: scorza23 (2736 in chips) 
+Seat 9: rupy1 (2200 in chips) 
+rupy1: posts small blind 50
+moliko80: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 2c]
+didi1063: folds 
+Chev.de Mere: calls 100
+Collazo75: folds 
+11decopas: calls 100
+scorza23: folds 
+rupy1: folds 
+moliko80: checks 
+*** FLOP *** [8d Tc 9h]
+moliko80: checks 
+Chev.de Mere: checks 
+11decopas: checks 
+*** TURN *** [8d Tc 9h] [Kh]
+moliko80: checks 
+Chev.de Mere: checks 
+11decopas: checks 
+*** RIVER *** [8d Tc 9h Kh] [5h]
+moliko80: bets 100
+Chev.de Mere: calls 100
+11decopas: folds 
+*** SHOW DOWN ***
+moliko80: shows [Qs 2h] (high card King)
+Chev.de Mere: shows [Qh Th] (a flush, King high)
+Chev.de Mere collected 550 from pot
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Board [8d Tc 9h Kh 5h]
+Seat 1: moliko80 (big blind) showed [Qs 2h] and lost with high card King
+Seat 2: didi1063 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere showed [Qh Th] and won (550) with a flush, King high
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded on the River
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750727831: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:16:32 UTC [2026/02/16 12:16:32 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (1406 in chips) 
+Seat 2: didi1063 (383 in chips) 
+Seat 4: Chev.de Mere (2990 in chips) 
+Seat 6: Collazo75 (3283 in chips) 
+Seat 7: 11decopas (552 in chips) 
+Seat 8: scorza23 (2736 in chips) 
+Seat 9: rupy1 (2150 in chips) 
+moliko80: posts small blind 50
+didi1063: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 3h]
+Chev.de Mere: folds 
+Collazo75: raises 200 to 300
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+didi1063: raises 83 to 383 and is all-in
+Collazo75: calls 83
+*** FLOP *** [9d Td 7c]
+*** TURN *** [9d Td 7c] [7h]
+*** RIVER *** [9d Td 7c 7h] [Qd]
+*** SHOW DOWN ***
+didi1063: shows [Ks 8s] (a pair of Sevens)
+Collazo75: shows [As 6s] (a pair of Sevens - Ace kicker)
+Collazo75 collected 816 from pot
+didi1063 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 816 | Rake 0 
+Board [9d Td 7c 7h Qd]
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 2: didi1063 (big blind) showed [Ks 8s] and lost with a pair of Sevens
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 showed [As 6s] and won (816) with a pair of Sevens
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750734089: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:17:02 UTC [2026/02/16 12:17:02 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (1356 in chips) 
+Seat 4: Chev.de Mere (2990 in chips) 
+Seat 6: Collazo75 (3716 in chips) 
+Seat 7: 11decopas (552 in chips) 
+Seat 8: scorza23 (2736 in chips) 
+Seat 9: rupy1 (2150 in chips) 
+Chev.de Mere: posts small blind 50
+Collazo75: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 2c]
+11decopas: folds 
+scorza23: folds 
+rupy1: raises 100 to 200
+moliko80: raises 1156 to 1356 and is all-in
+Chev.de Mere: folds 
+Collazo75: folds 
+rupy1: folds 
+Uncalled bet (1156) returned to moliko80
+moliko80 collected 550 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: moliko80 (button) collected (550)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 6: Collazo75 (big blind) folded before Flop
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop
+
+
+
+PokerStars Hand #259750738334: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:17:23 UTC [2026/02/16 12:17:23 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (1706 in chips) 
+Seat 4: Chev.de Mere (2940 in chips) 
+Seat 6: Collazo75 (3616 in chips) 
+Seat 7: 11decopas (552 in chips) 
+Seat 8: scorza23 (2736 in chips) 
+Seat 9: rupy1 (1950 in chips) 
+Collazo75: posts small blind 50
+11decopas: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Kh]
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: raises 150 to 250
+Collazo75: folds 
+11decopas: folds 
+Uncalled bet (150) returned to Chev.de Mere
+Chev.de Mere collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) collected (250)
+Seat 6: Collazo75 (small blind) folded before Flop
+Seat 7: 11decopas (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750741954: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:17:40 UTC [2026/02/16 12:17:40 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (1706 in chips) 
+Seat 4: Chev.de Mere (3090 in chips) 
+Seat 6: Collazo75 (3566 in chips) 
+Seat 7: 11decopas (452 in chips) 
+Seat 8: scorza23 (2736 in chips) 
+Seat 9: rupy1 (1950 in chips) 
+11decopas: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8s]
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: raises 150 to 250
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+Uncalled bet (150) returned to Chev.de Mere
+Chev.de Mere collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere collected (250)
+Seat 6: Collazo75 (button) folded before Flop (didn't bet)
+Seat 7: 11decopas (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750745320: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:17:56 UTC [2026/02/16 12:17:56 ET]
+Table '3975702791 1' 9-max Seat #7 is the button
+Seat 1: moliko80 (1706 in chips) 
+Seat 4: Chev.de Mere (3240 in chips) 
+Seat 6: Collazo75 (3566 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2636 in chips) 
+Seat 9: rupy1 (1950 in chips) 
+scorza23: posts small blind 50
+rupy1: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 6s]
+moliko80: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+Uncalled bet (50) returned to rupy1
+rupy1 collected 100 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) collected (100)
+
+
+
+PokerStars Hand #259750748596: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:18:12 UTC [2026/02/16 12:18:12 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (1706 in chips) 
+Seat 4: Chev.de Mere (3240 in chips) 
+Seat 6: Collazo75 (3566 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2586 in chips) 
+Seat 9: rupy1 (2000 in chips) 
+rupy1: posts small blind 50
+moliko80: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ac]
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+Uncalled bet (50) returned to moliko80
+moliko80 collected 100 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: moliko80 (big blind) collected (100)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750753378: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:18:36 UTC [2026/02/16 12:18:36 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (1756 in chips) 
+Seat 4: Chev.de Mere (3240 in chips) 
+Seat 6: Collazo75 (3566 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2586 in chips) 
+Seat 9: rupy1 (1950 in chips) 
+moliko80: posts small blind 50
+Chev.de Mere: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 8h]
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: calls 50
+Chev.de Mere: checks 
+*** FLOP *** [8c 4d 8d]
+moliko80: checks 
+Chev.de Mere: checks 
+*** TURN *** [8c 4d 8d] [9c]
+moliko80: checks 
+Chev.de Mere: bets 150
+moliko80: folds 
+Uncalled bet (150) returned to Chev.de Mere
+Chev.de Mere collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [8c 4d 8d 9c]
+Seat 1: moliko80 (small blind) folded on the Turn
+Seat 4: Chev.de Mere (big blind) collected (200)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750759135: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:19:03 UTC [2026/02/16 12:19:03 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (1656 in chips) 
+Seat 4: Chev.de Mere (3340 in chips) 
+Seat 6: Collazo75 (3566 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2586 in chips) 
+Seat 9: rupy1 (1950 in chips) 
+Chev.de Mere: posts small blind 50
+Collazo75: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 8h]
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: raises 120 to 220
+Chev.de Mere: calls 170
+Collazo75: folds 
+*** FLOP *** [8c Qc Qh]
+Chev.de Mere: checks 
+moliko80: bets 178
+Chev.de Mere: folds 
+Uncalled bet (178) returned to moliko80
+moliko80 collected 540 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Board [8c Qc Qh]
+Seat 1: moliko80 (button) collected (540)
+Seat 4: Chev.de Mere (small blind) folded on the Flop
+Seat 6: Collazo75 (big blind) folded before Flop
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750763395: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:19:23 UTC [2026/02/16 12:19:23 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (1976 in chips) 
+Seat 4: Chev.de Mere (3120 in chips) 
+Seat 6: Collazo75 (3466 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2586 in chips) 
+Seat 9: rupy1 (1950 in chips) 
+Collazo75: posts small blind 50
+11decopas: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Td]
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+Uncalled bet (50) returned to 11decopas
+11decopas collected 100 from pot
+11decopas: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 6: Collazo75 (small blind) folded before Flop
+Seat 7: 11decopas (big blind) collected (100)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750767795: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:19:45 UTC [2026/02/16 12:19:45 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (1976 in chips) 
+Seat 4: Chev.de Mere (3120 in chips) 
+Seat 6: Collazo75 (3416 in chips) 
+Seat 7: 11decopas (452 in chips) 
+Seat 8: scorza23 (2586 in chips) is sitting out
+Seat 9: rupy1 (1950 in chips) 
+11decopas: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 7h]
+scorza23 has returned
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+Uncalled bet (50) returned to scorza23
+scorza23 collected 100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 (button) folded before Flop (didn't bet)
+Seat 7: 11decopas (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (100)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750771049: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:01 UTC [2026/02/16 12:20:01 ET]
+Table '3975702791 1' 9-max Seat #7 is the button
+Seat 1: moliko80 (1976 in chips) 
+Seat 4: Chev.de Mere (3120 in chips) 
+Seat 6: Collazo75 (3416 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2636 in chips) 
+Seat 9: rupy1 (1950 in chips) 
+scorza23: posts small blind 75
+rupy1: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ts]
+moliko80: raises 180 to 330
+Chev.de Mere: folds 
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+Uncalled bet (180) returned to moliko80
+moliko80 collected 375 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: moliko80 collected (375)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750773621: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:13 UTC [2026/02/16 12:20:13 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (2201 in chips) 
+Seat 4: Chev.de Mere (3120 in chips) 
+Seat 6: Collazo75 (3416 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2561 in chips) 
+Seat 9: rupy1 (1800 in chips) 
+rupy1: posts small blind 75
+moliko80: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5h]
+Chev.de Mere: calls 150
+Collazo75: raises 600 to 750
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: calls 600
+*** FLOP *** [3h 3d 7c]
+Chev.de Mere: checks 
+Collazo75: checks 
+*** TURN *** [3h 3d 7c] [4d]
+Chev.de Mere: checks 
+Collazo75: checks 
+*** RIVER *** [3h 3d 7c 4d] [7h]
+Chev.de Mere: checks 
+Collazo75: checks 
+*** SHOW DOWN ***
+Chev.de Mere: shows [Qd Td] (two pair, Sevens and Threes)
+Collazo75: mucks hand 
+Chev.de Mere collected 1725 from pot
+*** SUMMARY ***
+Total pot 1725 | Rake 0 
+Board [3h 3d 7c 4d 7h]
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere showed [Qd Td] and won (1725) with two pair, Sevens and Threes
+Seat 6: Collazo75 mucked [Tc 6c]
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750782090: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:53 UTC [2026/02/16 12:20:53 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (2051 in chips) 
+Seat 4: Chev.de Mere (4095 in chips) 
+Seat 6: Collazo75 (2666 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2561 in chips) 
+Seat 9: rupy1 (1725 in chips) 
+moliko80: posts small blind 75
+Chev.de Mere: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 3s]
+Collazo75: folds 
+11decopas: folds 
+scorza23: folds 
+rupy1: calls 150
+moliko80: raises 180 to 330
+Chev.de Mere: folds 
+rupy1: calls 180
+*** FLOP *** [Ad Ks 3d]
+moliko80: checks 
+rupy1: checks 
+*** TURN *** [Ad Ks 3d] [9h]
+moliko80: bets 150
+rupy1: calls 150
+*** RIVER *** [Ad Ks 3d 9h] [7s]
+moliko80: bets 1110
+rupy1: folds 
+Uncalled bet (1110) returned to moliko80
+moliko80 collected 1110 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 1110 | Rake 0 
+Board [Ad Ks 3d 9h 7s]
+Seat 1: moliko80 (small blind) collected (1110)
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded on the River
+
+
+
+PokerStars Hand #259750790930: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:21:36 UTC [2026/02/16 12:21:36 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (2681 in chips) 
+Seat 4: Chev.de Mere (3945 in chips) 
+Seat 6: Collazo75 (2666 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2561 in chips) 
+Seat 9: rupy1 (1245 in chips) 
+Chev.de Mere: posts small blind 75
+Collazo75: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 7d]
+11decopas: folds 
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: raises 3795 to 3945 and is all-in
+Collazo75: folds 
+Uncalled bet (3795) returned to Chev.de Mere
+Chev.de Mere collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) collected (300)
+Seat 6: Collazo75 (big blind) folded before Flop
+Seat 7: 11decopas folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750794986: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:21:56 UTC [2026/02/16 12:21:56 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (2681 in chips) 
+Seat 4: Chev.de Mere (4095 in chips) 
+Seat 6: Collazo75 (2516 in chips) 
+Seat 7: 11decopas (402 in chips) 
+Seat 8: scorza23 (2561 in chips) 
+Seat 9: rupy1 (1245 in chips) 
+Collazo75: posts small blind 75
+11decopas: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 7s]
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: folds 
+Collazo75: raises 450 to 600
+11decopas: calls 252 and is all-in
+Uncalled bet (198) returned to Collazo75
+*** FLOP *** [5h 7d 3h]
+*** TURN *** [5h 7d 3h] [6c]
+*** RIVER *** [5h 7d 3h 6c] [Kh]
+*** SHOW DOWN ***
+Collazo75: shows [Ks 4c] (a straight, Three to Seven)
+11decopas: shows [8s 8h] (a pair of Eights)
+Collazo75 collected 804 from pot
+11decopas finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 804 | Rake 0 
+Board [5h 7d 3h 6c Kh]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 6: Collazo75 (small blind) showed [Ks 4c] and won (804) with a straight, Three to Seven
+Seat 7: 11decopas (big blind) showed [8s 8h] and lost with a pair of Eights
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750800729: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:22:23 UTC [2026/02/16 12:22:23 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (2681 in chips) 
+Seat 4: Chev.de Mere (4095 in chips) 
+Seat 6: Collazo75 (2918 in chips) 
+Seat 8: scorza23 (2561 in chips) 
+Seat 9: rupy1 (1245 in chips) 
+scorza23: posts small blind 75
+rupy1: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Td]
+moliko80: raises 180 to 330
+Chev.de Mere: folds 
+Collazo75: folds 
+scorza23: folds 
+rupy1: calls 180
+*** FLOP *** [Th 5s 2s]
+rupy1: checks 
+moliko80: bets 2351 and is all-in
+rupy1: folds 
+Uncalled bet (2351) returned to moliko80
+moliko80 collected 735 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 735 | Rake 0 
+Board [Th 5s 2s]
+Seat 1: moliko80 collected (735)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259750805898: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:22:48 UTC [2026/02/16 12:22:48 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (3086 in chips) 
+Seat 4: Chev.de Mere (4095 in chips) 
+Seat 6: Collazo75 (2918 in chips) 
+Seat 8: scorza23 (2486 in chips) 
+Seat 9: rupy1 (915 in chips) 
+rupy1: posts small blind 75
+moliko80: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qd]
+Chev.de Mere: calls 150
+Collazo75: folds 
+scorza23: raises 300 to 450
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: calls 300
+*** FLOP *** [8h 3h 3d]
+Chev.de Mere: checks 
+scorza23: bets 563
+Chev.de Mere: folds 
+Uncalled bet (563) returned to scorza23
+scorza23 collected 1125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Board [8h 3h 3d]
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded on the Flop
+Seat 6: Collazo75 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (1125)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750810766: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:23:11 UTC [2026/02/16 12:23:11 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (2936 in chips) 
+Seat 4: Chev.de Mere (3645 in chips) 
+Seat 6: Collazo75 (2918 in chips) 
+Seat 8: scorza23 (3161 in chips) 
+Seat 9: rupy1 (840 in chips) 
+moliko80: posts small blind 75
+Chev.de Mere: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 2h]
+Collazo75: raises 150 to 300
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: folds 
+Uncalled bet (150) returned to Collazo75
+Collazo75 collected 375 from pot
+Collazo75: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 6: Collazo75 collected (375)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750812718: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:23:21 UTC [2026/02/16 12:23:21 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (2861 in chips) 
+Seat 4: Chev.de Mere (3495 in chips) 
+Seat 6: Collazo75 (3143 in chips) 
+Seat 8: scorza23 (3161 in chips) 
+Seat 9: rupy1 (840 in chips) 
+Chev.de Mere: posts small blind 75
+Collazo75: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 8h]
+scorza23: raises 300 to 450
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: calls 375
+Collazo75: folds 
+*** FLOP *** [Td Ac Kd]
+Chev.de Mere: checks 
+scorza23: bets 525
+Chev.de Mere: folds 
+Uncalled bet (525) returned to scorza23
+scorza23 collected 1050 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Board [Td Ac Kd]
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded on the Flop
+Seat 6: Collazo75 (big blind) folded before Flop
+Seat 8: scorza23 collected (1050)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750817198: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:23:42 UTC [2026/02/16 12:23:42 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (2861 in chips) 
+Seat 4: Chev.de Mere (3045 in chips) 
+Seat 6: Collazo75 (2993 in chips) 
+Seat 8: scorza23 (3761 in chips) 
+Seat 9: rupy1 (840 in chips) 
+Collazo75: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Jd]
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: folds 
+Collazo75: calls 75
+scorza23: checks 
+*** FLOP *** [Tc 7c 4h]
+Collazo75: checks 
+scorza23: checks 
+*** TURN *** [Tc 7c 4h] [9h]
+Collazo75: bets 750
+scorza23: folds 
+Uncalled bet (750) returned to Collazo75
+Collazo75 collected 300 from pot
+Collazo75: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Tc 7c 4h 9h]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 6: Collazo75 (small blind) collected (300)
+Seat 8: scorza23 (big blind) folded on the Turn
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750824262: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:24:16 UTC [2026/02/16 12:24:16 ET]
+Table '3975702791 1' 9-max Seat #6 is the button
+Seat 1: moliko80 (2861 in chips) 
+Seat 4: Chev.de Mere (3045 in chips) 
+Seat 6: Collazo75 (3143 in chips) 
+Seat 8: scorza23 (3611 in chips) 
+Seat 9: rupy1 (840 in chips) 
+scorza23: posts small blind 75
+rupy1: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 2c]
+moliko80: folds 
+Chev.de Mere: folds 
+Collazo75: folds 
+scorza23: raises 300 to 450
+rupy1: raises 390 to 840 and is all-in
+scorza23: calls 390
+*** FLOP *** [8s Ad Jd]
+*** TURN *** [8s Ad Jd] [Kd]
+*** RIVER *** [8s Ad Jd Kd] [Jh]
+*** SHOW DOWN ***
+scorza23: shows [2h 2c] (two pair, Jacks and Deuces)
+rupy1: shows [3d Qd] (a flush, Ace high)
+rupy1 collected 1680 from pot
+*** SUMMARY ***
+Total pot 1680 | Rake 0 
+Board [8s Ad Jd Kd Jh]
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 6: Collazo75 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) showed [2h 2c] and lost with two pair, Jacks and Deuces
+Seat 9: rupy1 (big blind) showed [3d Qd] and won (1680) with a flush, Ace high
+
+
+
+PokerStars Hand #259750830226: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:24:45 UTC [2026/02/16 12:24:45 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (2861 in chips) 
+Seat 4: Chev.de Mere (3045 in chips) 
+Seat 6: Collazo75 (3143 in chips) 
+Seat 8: scorza23 (2771 in chips) 
+Seat 9: rupy1 (1680 in chips) 
+rupy1: posts small blind 75
+moliko80: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Kd]
+Chev.de Mere: raises 225 to 375
+Collazo75: raises 2768 to 3143 and is all-in
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: calls 2670 and is all-in
+Uncalled bet (98) returned to Collazo75
+*** FLOP *** [7c Ad Qs]
+*** TURN *** [7c Ad Qs] [2s]
+*** RIVER *** [7c Ad Qs 2s] [6s]
+*** SHOW DOWN ***
+Chev.de Mere: shows [Qh Ac] (two pair, Aces and Queens)
+Collazo75: shows [4d 4c] (a pair of Fours)
+Chev.de Mere collected 6315 from pot
+*** SUMMARY ***
+Total pot 6315 | Rake 0 
+Board [7c Ad Qs 2s 6s]
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere showed [Qh Ac] and won (6315) with two pair, Aces and Queens
+Seat 6: Collazo75 showed [4d 4c] and lost with a pair of Fours
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750836059: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:25:12 UTC [2026/02/16 12:25:12 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (2711 in chips) 
+Seat 4: Chev.de Mere (6315 in chips) 
+Seat 6: Collazo75 (98 in chips) 
+Seat 8: scorza23 (2771 in chips) 
+Seat 9: rupy1 (1605 in chips) 
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 4s]
+Collazo75: calls 98 and is all-in
+scorza23: folds 
+rupy1: folds 
+moliko80: calls 100
+Chev.de Mere: checks 
+*** FLOP *** [Ts Kd 4d]
+moliko80: checks 
+Chev.de Mere: bets 200
+moliko80: calls 200
+*** TURN *** [Ts Kd 4d] [5h]
+moliko80: checks 
+Chev.de Mere: checks 
+*** RIVER *** [Ts Kd 4d 5h] [Kc]
+moliko80: checks 
+Chev.de Mere: checks 
+*** SHOW DOWN ***
+moliko80: shows [4c 7h] (two pair, Kings and Fours)
+Chev.de Mere: shows [2d Kh] (three of a kind, Kings)
+Chev.de Mere collected 604 from side pot
+Collazo75: shows [2s Ks] (three of a kind, Kings)
+Chev.de Mere collected 147 from main pot
+Collazo75 collected 147 from main pot
+*** SUMMARY ***
+Total pot 898 Main pot 294. Side pot 604. | Rake 0 
+Board [Ts Kd 4d 5h Kc]
+Seat 1: moliko80 (small blind) showed [4c 7h] and lost with two pair, Kings and Fours
+Seat 4: Chev.de Mere (big blind) showed [2d Kh] and won (751) with three of a kind, Kings
+Seat 6: Collazo75 showed [2s Ks] and won (147) with three of a kind, Kings
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750843008: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:25:45 UTC [2026/02/16 12:25:45 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (2311 in chips) 
+Seat 4: Chev.de Mere (6666 in chips) 
+Seat 6: Collazo75 (147 in chips) 
+Seat 8: scorza23 (2771 in chips) 
+Seat 9: rupy1 (1605 in chips) 
+Chev.de Mere: posts small blind 100
+Collazo75: posts big blind 147 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 3c]
+scorza23: folds 
+rupy1: calls 200
+moliko80: raises 2111 to 2311 and is all-in
+Chev.de Mere: folds 
+rupy1: folds 
+Uncalled bet (2111) returned to moliko80
+*** FLOP *** [Ts 5s 7h]
+*** TURN *** [Ts 5s 7h] [As]
+*** RIVER *** [Ts 5s 7h As] [3h]
+*** SHOW DOWN ***
+moliko80: shows [6d 6s] (a pair of Sixes)
+moliko80 collected 106 from side pot
+Collazo75: shows [Qc 9h] (high card Ace)
+moliko80 collected 541 from main pot
+Collazo75 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 647 Main pot 541. Side pot 106. | Rake 0 
+Board [Ts 5s 7h As 3h]
+Seat 1: moliko80 (button) showed [6d 6s] and won (647) with a pair of Sixes
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 6: Collazo75 (big blind) showed [Qc 9h] and lost with high card Ace
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 folded before Flop
+
+
+
+PokerStars Hand #259750847779: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:26:08 UTC [2026/02/16 12:26:08 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (2758 in chips) 
+Seat 4: Chev.de Mere (6566 in chips) 
+Seat 8: scorza23 (2771 in chips) 
+Seat 9: rupy1 (1405 in chips) 
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc As]
+moliko80: folds 
+Chev.de Mere: folds 
+scorza23: raises 400 to 600
+rupy1: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (400)
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750850633: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:26:22 UTC [2026/02/16 12:26:22 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (2758 in chips) 
+Seat 4: Chev.de Mere (6566 in chips) 
+Seat 8: scorza23 (2971 in chips) 
+Seat 9: rupy1 (1205 in chips) 
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 7h]
+Chev.de Mere: folds 
+scorza23: raises 400 to 600
+rupy1: folds 
+moliko80: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (500)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750853344: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:26:35 UTC [2026/02/16 12:26:35 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (2558 in chips) 
+Seat 4: Chev.de Mere (6566 in chips) 
+Seat 8: scorza23 (3271 in chips) 
+Seat 9: rupy1 (1105 in chips) 
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8s]
+scorza23: folds 
+rupy1: folds 
+moliko80: raises 240 to 440
+Chev.de Mere: raises 6126 to 6566 and is all-in
+moliko80: calls 2118 and is all-in
+Uncalled bet (4008) returned to Chev.de Mere
+*** FLOP *** [As 7c 7d]
+*** TURN *** [As 7c 7d] [3d]
+*** RIVER *** [As 7c 7d 3d] [Ks]
+*** SHOW DOWN ***
+moliko80: shows [9d Ah] (two pair, Aces and Sevens)
+Chev.de Mere: shows [Qh Jh] (a pair of Sevens)
+moliko80 collected 5116 from pot
+*** SUMMARY ***
+Total pot 5116 | Rake 0 
+Board [As 7c 7d 3d Ks]
+Seat 1: moliko80 (small blind) showed [9d Ah] and won (5116) with two pair, Aces and Sevens
+Seat 4: Chev.de Mere (big blind) showed [Qh Jh] and lost with a pair of Sevens
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750858820: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:01 UTC [2026/02/16 12:27:01 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (5116 in chips) 
+Seat 4: Chev.de Mere (4008 in chips) 
+Seat 8: scorza23 (3271 in chips) 
+Seat 9: rupy1 (1105 in chips) 
+Chev.de Mere: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 4c]
+rupy1: raises 905 to 1105 and is all-in
+moliko80: folds 
+Chev.de Mere: folds 
+scorza23: folds 
+Uncalled bet (905) returned to rupy1
+rupy1 collected 500 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: rupy1 collected (500)
+
+
+
+PokerStars Hand #259750861487: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:13 UTC [2026/02/16 12:27:13 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (5116 in chips) 
+Seat 4: Chev.de Mere (3908 in chips) 
+Seat 8: scorza23 (3071 in chips) 
+Seat 9: rupy1 (1405 in chips) 
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 2c]
+moliko80: folds 
+Chev.de Mere: folds 
+scorza23: folds 
+Uncalled bet (100) returned to rupy1
+rupy1 collected 200 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) collected (200)
+
+
+
+PokerStars Hand #259750862784: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:19 UTC [2026/02/16 12:27:19 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (5116 in chips) 
+Seat 4: Chev.de Mere (3908 in chips) 
+Seat 8: scorza23 (2971 in chips) 
+Seat 9: rupy1 (1505 in chips) 
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 3h]
+Chev.de Mere: raises 300 to 500
+scorza23: folds 
+rupy1: folds 
+moliko80: calls 300
+*** FLOP *** [Td As Qs]
+moliko80: checks 
+Chev.de Mere: bets 825
+moliko80: folds 
+Uncalled bet (825) returned to Chev.de Mere
+Chev.de Mere collected 1100 from pot
+*** SUMMARY ***
+Total pot 1100 | Rake 0 
+Board [Td As Qs]
+Seat 1: moliko80 (big blind) folded on the Flop
+Seat 4: Chev.de Mere collected (1100)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750867363: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:42 UTC [2026/02/16 12:27:42 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (4616 in chips) 
+Seat 4: Chev.de Mere (4508 in chips) 
+Seat 8: scorza23 (2971 in chips) 
+Seat 9: rupy1 (1405 in chips) 
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3h]
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Uncalled bet (100) returned to Chev.de Mere
+Chev.de Mere collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 4: Chev.de Mere (big blind) collected (200)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750869619: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:53 UTC [2026/02/16 12:27:53 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (4516 in chips) 
+Seat 4: Chev.de Mere (4608 in chips) 
+Seat 8: scorza23 (2971 in chips) 
+Seat 9: rupy1 (1405 in chips) 
+Chev.de Mere: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Kd]
+rupy1: folds 
+moliko80: folds 
+Chev.de Mere: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (200)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750871486: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:01 UTC [2026/02/16 12:28:01 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (4516 in chips) 
+Seat 4: Chev.de Mere (4508 in chips) 
+Seat 8: scorza23 (3071 in chips) 
+Seat 9: rupy1 (1405 in chips) 
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 9s]
+moliko80: raises 240 to 440
+Chev.de Mere: folds 
+scorza23: folds 
+rupy1: folds 
+Uncalled bet (240) returned to moliko80
+moliko80 collected 500 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 collected (500)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750873815: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:12 UTC [2026/02/16 12:28:12 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (4816 in chips) 
+Seat 4: Chev.de Mere (4508 in chips) 
+Seat 8: scorza23 (2971 in chips) 
+Seat 9: rupy1 (1205 in chips) 
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 8h]
+Chev.de Mere: folds 
+scorza23: raises 400 to 600
+rupy1: folds 
+moliko80: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (500)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750876318: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:24 UTC [2026/02/16 12:28:24 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (4616 in chips) 
+Seat 4: Chev.de Mere (4508 in chips) 
+Seat 8: scorza23 (3271 in chips) 
+Seat 9: rupy1 (1105 in chips) 
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Jh]
+scorza23: folds 
+rupy1: raises 200 to 400
+moliko80: folds 
+Chev.de Mere: folds 
+Uncalled bet (200) returned to rupy1
+rupy1 collected 500 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) collected (500)
+
+
+
+PokerStars Hand #259750878845: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:37 UTC [2026/02/16 12:28:37 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (4516 in chips) 
+Seat 4: Chev.de Mere (4308 in chips) 
+Seat 8: scorza23 (3271 in chips) 
+Seat 9: rupy1 (1405 in chips) 
+Chev.de Mere: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 8s]
+rupy1: folds 
+moliko80: raises 240 to 440
+Chev.de Mere: folds 
+scorza23: folds 
+Uncalled bet (240) returned to moliko80
+moliko80 collected 500 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 (button) collected (500)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750880747: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:46 UTC [2026/02/16 12:28:46 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (4816 in chips) 
+Seat 4: Chev.de Mere (4208 in chips) 
+Seat 8: scorza23 (3071 in chips) 
+Seat 9: rupy1 (1405 in chips) 
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Kh]
+moliko80: folds 
+Chev.de Mere: folds 
+scorza23: raises 400 to 600
+rupy1: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (400)
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750882821: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:55 UTC [2026/02/16 12:28:55 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (4816 in chips) 
+Seat 4: Chev.de Mere (4208 in chips) 
+Seat 8: scorza23 (3271 in chips) 
+Seat 9: rupy1 (1205 in chips) 
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 9c]
+Chev.de Mere: folds 
+scorza23: raises 400 to 600
+rupy1: folds 
+moliko80: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (500)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750885183: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:29:07 UTC [2026/02/16 12:29:07 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (4616 in chips) 
+Seat 4: Chev.de Mere (4208 in chips) 
+Seat 8: scorza23 (3571 in chips) 
+Seat 9: rupy1 (1105 in chips) 
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5s]
+scorza23: folds 
+rupy1: folds 
+moliko80: raises 240 to 440
+Chev.de Mere: folds 
+Uncalled bet (240) returned to moliko80
+moliko80 collected 400 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: moliko80 (small blind) collected (400)
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750888990: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:29:25 UTC [2026/02/16 12:29:25 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (4816 in chips) 
+Seat 4: Chev.de Mere (4008 in chips) 
+Seat 8: scorza23 (3571 in chips) 
+Seat 9: rupy1 (1105 in chips) 
+Chev.de Mere: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3d]
+rupy1: folds 
+moliko80: raises 240 to 440
+Chev.de Mere: folds 
+scorza23: calls 240
+*** FLOP *** [Ad 5c 5s]
+scorza23: checks 
+moliko80: bets 323
+scorza23: folds 
+Uncalled bet (323) returned to moliko80
+moliko80 collected 980 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 980 | Rake 0 
+Board [Ad 5c 5s]
+Seat 1: moliko80 (button) collected (980)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded on the Flop
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750896893: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:30:02 UTC [2026/02/16 12:30:02 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (5356 in chips) 
+Seat 4: Chev.de Mere (3908 in chips) 
+Seat 8: scorza23 (3131 in chips) 
+Seat 9: rupy1 (1105 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [As 9d]
+moliko80: raises 240 to 440
+Chev.de Mere: folds 
+scorza23: calls 340
+rupy1: folds 
+*** FLOP *** [7h 3d Td]
+scorza23: checks 
+moliko80: bets 389
+scorza23: folds 
+Uncalled bet (389) returned to moliko80
+moliko80 collected 1180 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 1180 | Rake 0 
+Board [7h 3d Td]
+Seat 1: moliko80 collected (1180)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded on the Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750904517: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:30:38 UTC [2026/02/16 12:30:38 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (6071 in chips) 
+Seat 4: Chev.de Mere (3883 in chips) 
+Seat 8: scorza23 (2666 in chips) 
+Seat 9: rupy1 (880 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Jh]
+Chev.de Mere: folds 
+scorza23: raises 400 to 600
+rupy1: folds 
+moliko80: calls 400
+*** FLOP *** [Th 8d Kh]
+moliko80: checks 
+scorza23: bets 1400
+moliko80: folds 
+Uncalled bet (1400) returned to scorza23
+scorza23 collected 1400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Board [Th 8d Kh]
+Seat 1: moliko80 (big blind) folded on the Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (1400)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750907905: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:30:54 UTC [2026/02/16 12:30:54 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (5446 in chips) 
+Seat 4: Chev.de Mere (3858 in chips) 
+Seat 8: scorza23 (3441 in chips) 
+Seat 9: rupy1 (755 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 4d]
+scorza23: folds 
+rupy1: folds 
+moliko80: raises 240 to 440
+Chev.de Mere: folds 
+Uncalled bet (240) returned to moliko80
+moliko80 collected 500 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: moliko80 (small blind) collected (500)
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750910732: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:31:07 UTC [2026/02/16 12:31:07 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (5721 in chips) 
+Seat 4: Chev.de Mere (3633 in chips) 
+Seat 8: scorza23 (3416 in chips) 
+Seat 9: rupy1 (730 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+Chev.de Mere: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ac]
+rupy1: folds 
+moliko80: raises 240 to 440
+Chev.de Mere: calls 340
+scorza23: calls 240
+*** FLOP *** [2h 6d Qc]
+Chev.de Mere: checks 
+scorza23: checks 
+moliko80: checks 
+*** TURN *** [2h 6d Qc] [Kc]
+Chev.de Mere: checks 
+scorza23: bets 710
+moliko80: folds 
+Chev.de Mere: calls 710
+*** RIVER *** [2h 6d Qc Kc] [8c]
+Chev.de Mere: checks 
+scorza23: bets 2241 and is all-in
+Chev.de Mere: folds [Ks]
+Uncalled bet (2241) returned to scorza23
+scorza23 collected 2840 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2840 | Rake 0 
+Board [2h 6d Qc Kc 8c]
+Seat 1: moliko80 (button) folded on the Turn
+Seat 4: Chev.de Mere (small blind) folded on the River
+Seat 8: scorza23 (big blind) collected (2840)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750919264: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:31:47 UTC [2026/02/16 12:31:47 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (5256 in chips) 
+Seat 4: Chev.de Mere (2458 in chips) 
+Seat 8: scorza23 (5081 in chips) 
+Seat 9: rupy1 (705 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 5d]
+moliko80: folds 
+Chev.de Mere: folds 
+scorza23: folds 
+Uncalled bet (100) returned to rupy1
+rupy1 collected 300 from pot
+rupy1: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) collected (300)
+
+
+
+PokerStars Hand #259750920990: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:31:55 UTC [2026/02/16 12:31:55 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (5231 in chips) 
+Seat 4: Chev.de Mere (2433 in chips) 
+Seat 8: scorza23 (4956 in chips) 
+Seat 9: rupy1 (880 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Js]
+Chev.de Mere: folds 
+scorza23: raises 400 to 600
+rupy1: folds 
+moliko80: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (600)
+Seat 9: rupy1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750924772: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:32:12 UTC [2026/02/16 12:32:12 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (5006 in chips) 
+Seat 4: Chev.de Mere (2408 in chips) 
+Seat 8: scorza23 (5331 in chips) 
+Seat 9: rupy1 (755 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 8d]
+scorza23: folds 
+rupy1: folds 
+moliko80: folds 
+Uncalled bet (100) returned to Chev.de Mere
+Chev.de Mere collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 4: Chev.de Mere (big blind) collected (300)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750927429: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:32:24 UTC [2026/02/16 12:32:24 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (4881 in chips) 
+Seat 4: Chev.de Mere (2583 in chips) 
+Seat 8: scorza23 (5306 in chips) 
+Seat 9: rupy1 (730 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+Chev.de Mere: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Kh]
+rupy1: folds 
+moliko80: raises 200 to 400
+Chev.de Mere: folds 
+scorza23: calls 200
+*** FLOP *** [8h 2c Tc]
+scorza23: bets 500
+moliko80: folds 
+Uncalled bet (500) returned to scorza23
+scorza23 collected 1000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [8h 2c Tc]
+Seat 1: moliko80 (button) folded on the Flop
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (1000)
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750931462: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:32:43 UTC [2026/02/16 12:32:43 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (4456 in chips) 
+Seat 4: Chev.de Mere (2458 in chips) 
+Seat 8: scorza23 (5881 in chips) 
+Seat 9: rupy1 (705 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jh]
+moliko80: folds 
+Chev.de Mere: raises 300 to 500
+scorza23: folds 
+rupy1: folds 
+Uncalled bet (300) returned to Chev.de Mere
+Chev.de Mere collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: moliko80 folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (button) collected (600)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750934329: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:32:56 UTC [2026/02/16 12:32:56 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (4431 in chips) 
+Seat 4: Chev.de Mere (2833 in chips) 
+Seat 8: scorza23 (5756 in chips) 
+Seat 9: rupy1 (480 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6s]
+Chev.de Mere: folds 
+scorza23: folds 
+rupy1: raises 255 to 455 and is all-in
+moliko80: calls 255
+*** FLOP *** [9h Th 4s]
+*** TURN *** [9h Th 4s] [Qs]
+*** RIVER *** [9h Th 4s Qs] [5d]
+*** SHOW DOWN ***
+rupy1: shows [6c Ah] (high card Ace)
+moliko80: shows [8h 7s] (high card Queen)
+rupy1 collected 1010 from pot
+*** SUMMARY ***
+Total pot 1010 | Rake 0 
+Board [9h Th 4s Qs 5d]
+Seat 1: moliko80 (big blind) showed [8h 7s] and lost with high card Queen
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) showed [6c Ah] and won (1010) with high card Ace
+
+
+
+PokerStars Hand #259750938234: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:33:14 UTC [2026/02/16 12:33:14 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (3951 in chips) 
+Seat 4: Chev.de Mere (2808 in chips) 
+Seat 8: scorza23 (5731 in chips) 
+Seat 9: rupy1 (1010 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 3c]
+scorza23: folds 
+rupy1: folds 
+moliko80: calls 100
+Chev.de Mere: checks 
+*** FLOP *** [5c 8d Jc]
+moliko80: bets 200
+Chev.de Mere: calls 200
+*** TURN *** [5c 8d Jc] [Ac]
+moliko80: bets 200
+Chev.de Mere: folds 
+Uncalled bet (200) returned to moliko80
+moliko80 collected 900 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [5c 8d Jc Ac]
+Seat 1: moliko80 (small blind) collected (900)
+Seat 4: Chev.de Mere (big blind) folded on the Turn
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750942563: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:33:33 UTC [2026/02/16 12:33:33 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (4426 in chips) 
+Seat 4: Chev.de Mere (2383 in chips) 
+Seat 8: scorza23 (5706 in chips) 
+Seat 9: rupy1 (985 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+Chev.de Mere: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Ks]
+rupy1: folds 
+moliko80: raises 200 to 400
+Chev.de Mere: calls 300
+scorza23: calls 200
+*** FLOP *** [8c 6d Jc]
+Chev.de Mere: bets 975
+scorza23: folds 
+moliko80: folds 
+Uncalled bet (975) returned to Chev.de Mere
+Chev.de Mere collected 1300 from pot
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [8c 6d Jc]
+Seat 1: moliko80 (button) folded on the Flop
+Seat 4: Chev.de Mere (small blind) collected (1300)
+Seat 8: scorza23 (big blind) folded on the Flop
+Seat 9: rupy1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750949768: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:34:07 UTC [2026/02/16 12:34:07 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (4001 in chips) 
+Seat 4: Chev.de Mere (3258 in chips) 
+Seat 8: scorza23 (5281 in chips) 
+Seat 9: rupy1 (960 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+scorza23: posts small blind 100
+rupy1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9c]
+moliko80: raises 200 to 400
+Chev.de Mere: folds 
+scorza23: folds 
+rupy1: folds 
+Uncalled bet (200) returned to moliko80
+moliko80 collected 600 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 1: moliko80 collected (600)
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+Seat 9: rupy1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750951758: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:34:16 UTC [2026/02/16 12:34:16 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (4376 in chips) 
+Seat 4: Chev.de Mere (3233 in chips) 
+Seat 8: scorza23 (5156 in chips) 
+Seat 9: rupy1 (735 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+rupy1: posts small blind 100
+moliko80: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Th]
+Chev.de Mere: folds 
+scorza23: folds 
+rupy1: raises 510 to 710 and is all-in
+moliko80: calls 510
+*** FLOP *** [4h As 7d]
+*** TURN *** [4h As 7d] [8h]
+*** RIVER *** [4h As 7d 8h] [Jc]
+*** SHOW DOWN ***
+rupy1: shows [Jh Ac] (two pair, Aces and Jacks)
+moliko80: shows [8s Ad] (two pair, Aces and Eights)
+rupy1 collected 1520 from pot
+*** SUMMARY ***
+Total pot 1520 | Rake 0 
+Board [4h As 7d 8h Jc]
+Seat 1: moliko80 (big blind) showed [8s Ad] and lost with two pair, Aces and Eights
+Seat 4: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: rupy1 (small blind) showed [Jh Ac] and won (1520) with two pair, Aces and Jacks
+
+
+
+PokerStars Hand #259750956456: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:34:38 UTC [2026/02/16 12:34:38 ET]
+Table '3975702791 1' 9-max Seat #9 is the button
+Seat 1: moliko80 (3641 in chips) 
+Seat 4: Chev.de Mere (3208 in chips) 
+Seat 8: scorza23 (5131 in chips) 
+Seat 9: rupy1 (1520 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+rupy1: posts the ante 25
+moliko80: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2d]
+scorza23: folds 
+rupy1: raises 1295 to 1495 and is all-in
+moliko80: folds 
+Chev.de Mere: calls 1295
+*** FLOP *** [As 2c 6s]
+*** TURN *** [As 2c 6s] [3h]
+*** RIVER *** [As 2c 6s 3h] [7h]
+*** SHOW DOWN ***
+Chev.de Mere: shows [7c 7d] (three of a kind, Sevens)
+rupy1: shows [Qh Kc] (high card Ace)
+Chev.de Mere collected 3190 from pot
+rupy1 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 3190 | Rake 0 
+Board [As 2c 6s 3h 7h]
+Seat 1: moliko80 (small blind) folded before Flop
+Seat 4: Chev.de Mere (big blind) showed [7c 7d] and won (3190) with three of a kind, Sevens
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: rupy1 (button) showed [Qh Kc] and lost with high card Ace
+
+
+
+PokerStars Hand #259750961472: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:35:01 UTC [2026/02/16 12:35:01 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (3516 in chips) 
+Seat 4: Chev.de Mere (4878 in chips) 
+Seat 8: scorza23 (5106 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 3d]
+moliko80: folds 
+Chev.de Mere: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (375)
+
+
+
+PokerStars Hand #259750962747: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:35:07 UTC [2026/02/16 12:35:07 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (3491 in chips) 
+Seat 4: Chev.de Mere (4703 in chips) 
+Seat 8: scorza23 (5306 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+moliko80: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9h]
+Chev.de Mere: folds 
+scorza23: raises 600 to 900
+moliko80: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 675 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (675)
+
+
+
+PokerStars Hand #259750965000: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:35:17 UTC [2026/02/16 12:35:17 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (3166 in chips) 
+Seat 4: Chev.de Mere (4678 in chips) 
+Seat 8: scorza23 (5656 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+moliko80: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 7d]
+scorza23: folds 
+moliko80: raises 300 to 600
+Chev.de Mere: folds 
+Uncalled bet (300) returned to moliko80
+moliko80 collected 675 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 1: moliko80 (small blind) collected (675)
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750966653: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:35:25 UTC [2026/02/16 12:35:25 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (3516 in chips) 
+Seat 4: Chev.de Mere (4353 in chips) 
+Seat 8: scorza23 (5631 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 3c]
+moliko80: folds 
+Chev.de Mere: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (375)
+
+
+
+PokerStars Hand #259750968093: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:35:31 UTC [2026/02/16 12:35:31 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (3491 in chips) 
+Seat 4: Chev.de Mere (4178 in chips) 
+Seat 8: scorza23 (5831 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+moliko80: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 4c]
+Chev.de Mere: folds 
+scorza23: raises 600 to 900
+moliko80: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 675 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 1: moliko80 (big blind) folded before Flop
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (675)
+
+
+
+PokerStars Hand #259750971560: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:35:47 UTC [2026/02/16 12:35:47 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 1: moliko80 (3166 in chips) 
+Seat 4: Chev.de Mere (4153 in chips) 
+Seat 8: scorza23 (6181 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+moliko80: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Th]
+scorza23: raises 600 to 900
+moliko80: raises 2241 to 3141 and is all-in
+Chev.de Mere: folds 
+scorza23: folds 
+Uncalled bet (2241) returned to moliko80
+moliko80 collected 2175 from pot
+moliko80: doesn't show hand 
+*** SUMMARY ***
+Total pot 2175 | Rake 0 
+Seat 1: moliko80 (small blind) collected (2175)
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) folded before Flop
+
+
+
+PokerStars Hand #259750974902: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:03 UTC [2026/02/16 12:36:03 ET]
+Table '3975702791 1' 9-max Seat #1 is the button
+Seat 1: moliko80 (4416 in chips) 
+Seat 4: Chev.de Mere (3828 in chips) 
+Seat 8: scorza23 (5256 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 9s]
+moliko80: folds 
+Chev.de Mere: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: moliko80 (button) folded before Flop (didn't bet)
+Seat 4: Chev.de Mere (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (375)
+
+
+
+PokerStars Hand #259750976448: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:10 UTC [2026/02/16 12:36:10 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 1: moliko80 (4391 in chips) 
+Seat 4: Chev.de Mere (3653 in chips) 
+Seat 8: scorza23 (5456 in chips) 
+moliko80: posts the ante 25
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+moliko80: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Kc]
+Chev.de Mere: folds 
+scorza23: raises 600 to 900
+moliko80: raises 3466 to 4366 and is all-in
+scorza23: calls 3466
+*** FLOP *** [Qs 2h Jd]
+*** TURN *** [Qs 2h Jd] [7s]
+*** RIVER *** [Qs 2h Jd 7s] [Kd]
+*** SHOW DOWN ***
+scorza23: shows [7c Kc] (two pair, Kings and Sevens)
+moliko80: shows [Ad Qc] (a pair of Queens)
+scorza23 collected 8807 from pot
+moliko80 finished the tournament in 3rd place and received $0.75.
+*** SUMMARY ***
+Total pot 8807 | Rake 0 
+Board [Qs 2h Jd 7s Kd]
+Seat 1: moliko80 (big blind) showed [Ad Qc] and lost with a pair of Queens
+Seat 4: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) showed [7c Kc] and won (8807) with two pair, Kings and Sevens
+
+
+
+PokerStars Hand #259750980940: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:31 UTC [2026/02/16 12:36:31 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (3628 in chips) 
+Seat 8: scorza23 (9872 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Qs]
+scorza23: raises 600 to 900
+Chev.de Mere: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #259750982305: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:37 UTC [2026/02/16 12:36:37 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (3303 in chips) 
+Seat 8: scorza23 (10197 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 4h]
+Chev.de Mere: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 350 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 4: Chev.de Mere (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (350)
+
+
+
+PokerStars Hand #259750983529: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:43 UTC [2026/02/16 12:36:43 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (3128 in chips) 
+Seat 8: scorza23 (10372 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 9c]
+scorza23: folds 
+Uncalled bet (150) returned to Chev.de Mere
+Chev.de Mere collected 350 from pot
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 4: Chev.de Mere (big blind) collected (350)
+Seat 8: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750985760: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:36:53 UTC [2026/02/16 12:36:53 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (3303 in chips) 
+Seat 8: scorza23 (10197 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Qd]
+Chev.de Mere: calls 150
+scorza23: checks 
+*** FLOP *** [Tc Qh Th]
+scorza23: bets 325
+Chev.de Mere: calls 325
+*** TURN *** [Tc Qh Th] [7h]
+scorza23: bets 650
+Chev.de Mere: folds 
+Uncalled bet (650) returned to scorza23
+scorza23 collected 1300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [Tc Qh Th 7h]
+Seat 4: Chev.de Mere (button) (small blind) folded on the Turn
+Seat 8: scorza23 (big blind) collected (1300)
+
+
+
+PokerStars Hand #259750989448: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:37:10 UTC [2026/02/16 12:37:10 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (2653 in chips) 
+Seat 8: scorza23 (10847 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5s]
+scorza23: folds 
+Uncalled bet (150) returned to Chev.de Mere
+Chev.de Mere collected 350 from pot
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 4: Chev.de Mere (big blind) collected (350)
+Seat 8: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750990883: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:37:17 UTC [2026/02/16 12:37:17 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (2828 in chips) 
+Seat 8: scorza23 (10672 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Kc]
+Chev.de Mere: calls 150
+scorza23: raises 650 to 950
+Chev.de Mere: calls 650
+*** FLOP *** [5h Qc Ah]
+scorza23: bets 975
+Chev.de Mere: raises 878 to 1853 and is all-in
+scorza23: calls 878
+*** TURN *** [5h Qc Ah] [Jd]
+*** RIVER *** [5h Qc Ah Jd] [9h]
+*** SHOW DOWN ***
+scorza23: shows [Qh Kc] (a pair of Queens)
+Chev.de Mere: shows [Ac 6s] (a pair of Aces)
+Chev.de Mere collected 5656 from pot
+*** SUMMARY ***
+Total pot 5656 | Rake 0 
+Board [5h Qc Ah Jd 9h]
+Seat 4: Chev.de Mere (button) (small blind) showed [Ac 6s] and won (5656) with a pair of Aces
+Seat 8: scorza23 (big blind) showed [Qh Kc] and lost with a pair of Queens
+
+
+
+PokerStars Hand #259750995326: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:37:37 UTC [2026/02/16 12:37:37 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (5656 in chips) 
+Seat 8: scorza23 (7844 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Ad]
+scorza23: raises 7519 to 7819 and is all-in
+Chev.de Mere: folds 
+Uncalled bet (7519) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #259750997257: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:37:46 UTC [2026/02/16 12:37:46 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (5331 in chips) 
+Seat 8: scorza23 (8169 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 5d]
+Chev.de Mere: calls 150
+scorza23: checks 
+*** FLOP *** [Tc 3h 6h]
+scorza23: checks 
+Chev.de Mere: checks 
+*** TURN *** [Tc 3h 6h] [4d]
+scorza23: checks 
+Chev.de Mere: checks 
+*** RIVER *** [Tc 3h 6h 4d] [7d]
+scorza23: bets 650
+Chev.de Mere: folds 
+Uncalled bet (650) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [Tc 3h 6h 4d 7d]
+Seat 4: Chev.de Mere (button) (small blind) folded on the River
+Seat 8: scorza23 (big blind) collected (650)
+
+
+
+PokerStars Hand #259751002520: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:38:11 UTC [2026/02/16 12:38:11 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (5006 in chips) 
+Seat 8: scorza23 (8494 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 8s]
+scorza23: raises 600 to 900
+Chev.de Mere: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #259751004221: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:38:18 UTC [2026/02/16 12:38:18 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (4681 in chips) 
+Seat 8: scorza23 (8819 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Jc]
+Chev.de Mere: raises 300 to 600
+scorza23: calls 300
+*** FLOP *** [3s 5d 7h]
+scorza23: checks 
+Chev.de Mere: checks 
+*** TURN *** [3s 5d 7h] [4c]
+scorza23: checks 
+Chev.de Mere: checks 
+*** RIVER *** [3s 5d 7h 4c] [2c]
+scorza23: checks 
+Chev.de Mere: checks 
+*** SHOW DOWN ***
+scorza23: shows [Qh Jc] (high card Queen)
+Chev.de Mere: shows [8d Ah] (a straight, Ace to Five)
+Chev.de Mere collected 1250 from pot
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Board [3s 5d 7h 4c 2c]
+Seat 4: Chev.de Mere (button) (small blind) showed [8d Ah] and won (1250) with a straight, Ace to Five
+Seat 8: scorza23 (big blind) showed [Qh Jc] and lost with high card Queen
+
+
+
+PokerStars Hand #259751009271: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:38:42 UTC [2026/02/16 12:38:42 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (5306 in chips) 
+Seat 8: scorza23 (8194 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 6c]
+scorza23: raises 600 to 900
+Chev.de Mere: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #259751011551: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:38:52 UTC [2026/02/16 12:38:52 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (4981 in chips) 
+Seat 8: scorza23 (8519 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 3c]
+Chev.de Mere: calls 150
+scorza23: checks 
+*** FLOP *** [Ah Qh 2h]
+scorza23: checks 
+Chev.de Mere: checks 
+*** TURN *** [Ah Qh 2h] [Tc]
+scorza23: checks 
+Chev.de Mere: checks 
+*** RIVER *** [Ah Qh 2h Tc] [4s]
+scorza23: bets 650
+Chev.de Mere: calls 650
+*** SHOW DOWN ***
+scorza23: shows [5c 3c] (a straight, Ace to Five)
+Chev.de Mere: mucks hand 
+scorza23 collected 1950 from pot
+*** SUMMARY ***
+Total pot 1950 | Rake 0 
+Board [Ah Qh 2h Tc 4s]
+Seat 4: Chev.de Mere (button) (small blind) mucked [Qs 9s]
+Seat 8: scorza23 (big blind) showed [5c 3c] and won (1950) with a straight, Ace to Five
+
+
+
+PokerStars Hand #259751017100: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:39:18 UTC [2026/02/16 12:39:18 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (4006 in chips) 
+Seat 8: scorza23 (9494 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Jd]
+scorza23: calls 150
+Chev.de Mere: checks 
+*** FLOP *** [Jh 4c As]
+Chev.de Mere: checks 
+scorza23: bets 650
+Chev.de Mere: folds 
+Uncalled bet (650) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [Jh 4c As]
+Seat 4: Chev.de Mere (big blind) folded on the Flop
+Seat 8: scorza23 (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #259751022288: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:39:42 UTC [2026/02/16 12:39:42 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (3681 in chips) 
+Seat 8: scorza23 (9819 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Jd]
+Chev.de Mere: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 350 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 4: Chev.de Mere (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (350)
+
+
+
+PokerStars Hand #259751023638: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 17:39:48 UTC [2026/02/16 12:39:48 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (3506 in chips) 
+Seat 8: scorza23 (9994 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 150
+Chev.de Mere: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 6d]
+scorza23: raises 600 to 900
+Chev.de Mere: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #259751025739: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:39:58 UTC [2026/02/16 12:39:58 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (3181 in chips) 
+Seat 8: scorza23 (10319 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 2c]
+Chev.de Mere: raises 400 to 800
+scorza23: folds 
+Uncalled bet (400) returned to Chev.de Mere
+Chev.de Mere collected 850 from pot
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 4: Chev.de Mere (button) (small blind) collected (850)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259751027609: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:40:06 UTC [2026/02/16 12:40:06 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (3606 in chips) 
+Seat 8: scorza23 (9894 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Chev.de Mere: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9d]
+scorza23: raises 800 to 1200
+Chev.de Mere: folds 
+Uncalled bet (800) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 4: Chev.de Mere (big blind) folded before Flop
+Seat 8: scorza23 (button) (small blind) collected (850)
+
+
+
+PokerStars Hand #259751029307: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:40:14 UTC [2026/02/16 12:40:14 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (3181 in chips) 
+Seat 8: scorza23 (10319 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 6d]
+Chev.de Mere: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 4: Chev.de Mere (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (450)
+
+
+
+PokerStars Hand #259751030582: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:40:20 UTC [2026/02/16 12:40:20 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (2956 in chips) 
+Seat 8: scorza23 (10544 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Chev.de Mere: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 7d]
+scorza23: raises 800 to 1200
+Chev.de Mere: calls 800
+*** FLOP *** [5d 2h 2s]
+Chev.de Mere: checks 
+scorza23: checks 
+*** TURN *** [5d 2h 2s] [7h]
+Chev.de Mere: checks 
+scorza23: bets 1225
+Chev.de Mere: folds 
+Uncalled bet (1225) returned to scorza23
+scorza23 collected 2450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2450 | Rake 0 
+Board [5d 2h 2s 7h]
+Seat 4: Chev.de Mere (big blind) folded on the Turn
+Seat 8: scorza23 (button) (small blind) collected (2450)
+
+
+
+PokerStars Hand #259751035133: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:40:41 UTC [2026/02/16 12:40:41 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (1731 in chips) 
+Seat 8: scorza23 (11769 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Qd]
+Chev.de Mere: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 4: Chev.de Mere (button) (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (450)
+
+
+
+PokerStars Hand #259751036548: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:40:47 UTC [2026/02/16 12:40:47 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (1506 in chips) 
+Seat 8: scorza23 (11994 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Chev.de Mere: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 2d]
+scorza23: folds 
+Uncalled bet (200) returned to Chev.de Mere
+Chev.de Mere collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 4: Chev.de Mere (big blind) collected (450)
+Seat 8: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #259751037876: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:40:53 UTC [2026/02/16 12:40:53 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (1731 in chips) 
+Seat 8: scorza23 (11769 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 9h]
+Chev.de Mere: calls 200
+scorza23: checks 
+*** FLOP *** [8d 3d 4d]
+scorza23: checks 
+Chev.de Mere: checks 
+*** TURN *** [8d 3d 4d] [Qh]
+scorza23: checks 
+Chev.de Mere: checks 
+*** RIVER *** [8d 3d 4d Qh] [9c]
+scorza23: bets 400
+Chev.de Mere: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Board [8d 3d 4d Qh 9c]
+Seat 4: Chev.de Mere (button) (small blind) folded on the River
+Seat 8: scorza23 (big blind) collected (850)
+
+
+
+PokerStars Hand #259751044524: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:41:24 UTC [2026/02/16 12:41:24 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (1306 in chips) 
+Seat 8: scorza23 (12194 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Chev.de Mere: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Th]
+scorza23: folds 
+Uncalled bet (200) returned to Chev.de Mere
+Chev.de Mere collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 4: Chev.de Mere (big blind) collected (450)
+Seat 8: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #259751045847: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:41:30 UTC [2026/02/16 12:41:30 ET]
+Table '3975702791 1' 9-max Seat #4 is the button
+Seat 4: Chev.de Mere (1531 in chips) 
+Seat 8: scorza23 (11969 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+Chev.de Mere: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [As Td]
+Chev.de Mere: calls 200
+scorza23: raises 850 to 1250
+Chev.de Mere: calls 850
+*** FLOP *** [Qh Kh 3h]
+scorza23: checks 
+Chev.de Mere: bets 256 and is all-in
+scorza23: calls 256
+*** TURN *** [Qh Kh 3h] [5d]
+*** RIVER *** [Qh Kh 3h 5d] [9d]
+*** SHOW DOWN ***
+scorza23: shows [As Td] (high card Ace)
+Chev.de Mere: shows [Th Ks] (a pair of Kings)
+Chev.de Mere collected 3062 from pot
+*** SUMMARY ***
+Total pot 3062 | Rake 0 
+Board [Qh Kh 3h 5d 9d]
+Seat 4: Chev.de Mere (button) (small blind) showed [Th Ks] and won (3062) with a pair of Kings
+Seat 8: scorza23 (big blind) showed [As Td] and lost with high card Ace
+
+
+
+PokerStars Hand #259751050621: Tournament #3975702791, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 17:41:52 UTC [2026/02/16 12:41:52 ET]
+Table '3975702791 1' 9-max Seat #8 is the button
+Seat 4: Chev.de Mere (3062 in chips) 
+Seat 8: scorza23 (10438 in chips) 
+Chev.de Mere: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 200
+Chev.de Mere: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Ah]
+scorza23: raises 800 to 1200
+Chev.de Mere: calls 800
+*** FLOP *** [As 9d Kh]
+Chev.de Mere: bets 1837 and is all-in
+scorza23: calls 1837
+*** TURN *** [As 9d Kh] [Th]
+*** RIVER *** [As 9d Kh Th] [5c]
+*** SHOW DOWN ***
+Chev.de Mere: shows [6c Ac] (a pair of Aces)
+scorza23: shows [Ts Ah] (two pair, Aces and Tens)
+scorza23 collected 6124 from pot
+Chev.de Mere finished the tournament in 2nd place and received $1.13.
+scorza23 wins the tournament and receives $1.90 - congratulations!
+*** SUMMARY ***
+Total pot 6124 | Rake 0 
+Board [As 9d Kh Th 5c]
+Seat 4: Chev.de Mere (big blind) showed [6c Ac] and lost with a pair of Aces
+Seat 8: scorza23 (button) (small blind) showed [Ts Ah] and won (6124) with two pair, Aces and Tens
+
+
+

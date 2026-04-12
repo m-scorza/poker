@@ -1,0 +1,150 @@
+﻿PokerStars Hand #259751334388: Tournament #3974766430, $1.00+$0.10 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 18:05:00 UTC [2026/02/16 13:05:00 ET]
+Table '3974766430 4' 6-max Seat #2 is the button
+Seat 2: alde229 (3000 in chips) 
+Seat 3: Magnuws365 (3000 in chips) is sitting out
+Seat 4: marmotadomar (3000 in chips) 
+Seat 5: cooper1610 (3000 in chips) 
+Seat 6: scorza23 (3000 in chips) 
+alde229: posts the ante 7
+Magnuws365: posts the ante 7
+marmotadomar: posts the ante 7
+cooper1610: posts the ante 7
+scorza23: posts the ante 7
+Magnuws365: posts small blind 15
+marmotadomar: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 9d]
+cooper1610: folds 
+scorza23: folds 
+alde229: folds 
+Magnuws365: folds 
+Uncalled bet (15) returned to marmotadomar
+marmotadomar collected 65 from pot
+marmotadomar: doesn't show hand 
+*** SUMMARY ***
+Total pot 65 | Rake 0 
+Seat 2: alde229 (button) folded before Flop (didn't bet)
+Seat 3: Magnuws365 (small blind) folded before Flop
+Seat 4: marmotadomar (big blind) collected (65)
+Seat 5: cooper1610 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751338027: Tournament #3974766430, $1.00+$0.10 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 18:05:16 UTC [2026/02/16 13:05:16 ET]
+Table '3974766430 4' 6-max Seat #3 is the button
+Seat 2: alde229 (2993 in chips) 
+Seat 3: Magnuws365 (2978 in chips) is sitting out
+Seat 4: marmotadomar (3043 in chips) 
+Seat 5: cooper1610 (2993 in chips) 
+Seat 6: scorza23 (2993 in chips) 
+alde229: posts the ante 7
+Magnuws365: posts the ante 7
+marmotadomar: posts the ante 7
+cooper1610: posts the ante 7
+scorza23: posts the ante 7
+marmotadomar: posts small blind 15
+cooper1610: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 2h]
+scorza23: folds 
+alde229: folds 
+Magnuws365: folds 
+marmotadomar: folds 
+Uncalled bet (15) returned to cooper1610
+cooper1610 collected 65 from pot
+cooper1610: doesn't show hand 
+*** SUMMARY ***
+Total pot 65 | Rake 0 
+Seat 2: alde229 folded before Flop (didn't bet)
+Seat 3: Magnuws365 (button) folded before Flop (didn't bet)
+Seat 4: marmotadomar (small blind) folded before Flop
+Seat 5: cooper1610 (big blind) collected (65)
+Seat 6: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751339707: Tournament #3974766430, $1.00+$0.10 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 18:05:23 UTC [2026/02/16 13:05:23 ET]
+Table '3974766430 4' 6-max Seat #4 is the button
+Seat 2: alde229 (2986 in chips) 
+Seat 3: Magnuws365 (2971 in chips) is sitting out
+Seat 4: marmotadomar (3021 in chips) 
+Seat 5: cooper1610 (3036 in chips) 
+Seat 6: scorza23 (2986 in chips) 
+alde229: posts the ante 7
+Magnuws365: posts the ante 7
+marmotadomar: posts the ante 7
+cooper1610: posts the ante 7
+scorza23: posts the ante 7
+cooper1610: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 6c]
+Magnuws365 has returned
+alde229: folds 
+Magnuws365: folds 
+marmotadomar: folds 
+cooper1610: raises 60 to 90
+scorza23: folds 
+Uncalled bet (60) returned to cooper1610
+cooper1610 collected 95 from pot
+cooper1610: doesn't show hand 
+*** SUMMARY ***
+Total pot 95 | Rake 0 
+Seat 2: alde229 folded before Flop (didn't bet)
+Seat 3: Magnuws365 folded before Flop (didn't bet)
+Seat 4: marmotadomar (button) folded before Flop (didn't bet)
+Seat 5: cooper1610 (small blind) collected (95)
+Seat 6: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259751342503: Tournament #3974766430, $1.00+$0.10 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 18:05:36 UTC [2026/02/16 13:05:36 ET]
+Table '3974766430 4' 6-max Seat #5 is the button
+Seat 1: AlexNegao96 (3000 in chips) 
+Seat 2: alde229 (2979 in chips) 
+Seat 3: Magnuws365 (2964 in chips) 
+Seat 4: marmotadomar (3014 in chips) 
+Seat 5: cooper1610 (3094 in chips) 
+Seat 6: scorza23 (2949 in chips) 
+AlexNegao96: posts the ante 7
+alde229: posts the ante 7
+Magnuws365: posts the ante 7
+marmotadomar: posts the ante 7
+cooper1610: posts the ante 7
+scorza23: posts the ante 7
+scorza23: posts small blind 15
+AlexNegao96: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s As]
+alde229: folds 
+Magnuws365: folds 
+marmotadomar: folds 
+cooper1610: raises 30 to 60
+scorza23: calls 45
+AlexNegao96: calls 30
+*** FLOP *** [Kc Qs 8s]
+scorza23: bets 111
+AlexNegao96: raises 147 to 258
+cooper1610: folds 
+scorza23: raises 2624 to 2882 and is all-in
+AlexNegao96: calls 2624
+*** TURN *** [Kc Qs 8s] [Qd]
+*** RIVER *** [Kc Qs 8s Qd] [6h]
+*** SHOW DOWN ***
+scorza23: shows [4s As] (a pair of Queens)
+AlexNegao96: shows [Qh 8c] (a full house, Queens full of Eights)
+AlexNegao96 collected 5986 from pot
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 5986 | Rake 0 
+Board [Kc Qs 8s Qd 6h]
+Seat 1: AlexNegao96 (big blind) showed [Qh 8c] and won (5986) with a full house, Queens full of Eights
+Seat 2: alde229 folded before Flop (didn't bet)
+Seat 3: Magnuws365 folded before Flop (didn't bet)
+Seat 4: marmotadomar folded before Flop (didn't bet)
+Seat 5: cooper1610 (button) folded on the Flop
+Seat 6: scorza23 (small blind) showed [4s As] and lost with a pair of Queens
+
+
+

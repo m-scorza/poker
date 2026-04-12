@@ -1,0 +1,1715 @@
+﻿PokerStars Hand #259762849981: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:56:27 UTC [2026/02/17 9:56:27 ET]
+Table '3975968186 1' 9-max Seat #1 is the button
+Seat 1: indymumma (1500 in chips) 
+Seat 2: MCLMUSIC (1500 in chips) 
+Seat 3: quaresmakone (1500 in chips) 
+Seat 4: Dofeitosa (1500 in chips) 
+Seat 5: TaylorGang53 (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: shaolin280 (1500 in chips) 
+Seat 8: BR gniK (1500 in chips) 
+Seat 9: Gerberman15 (1500 in chips) 
+MCLMUSIC: posts small blind 10
+quaresmakone: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 6d]
+Dofeitosa: folds 
+TaylorGang53: folds 
+scorza23: raises 20 to 40
+shaolin280: calls 40
+BR gniK: folds 
+Gerberman15: folds 
+indymumma: folds 
+MCLMUSIC: folds 
+quaresmakone: calls 20
+*** FLOP *** [8d 6h 2s]
+quaresmakone: checks 
+scorza23: checks 
+shaolin280: bets 65
+quaresmakone: calls 65
+scorza23: calls 65
+*** TURN *** [8d 6h 2s] [Kd]
+quaresmakone: checks 
+scorza23: checks 
+shaolin280: checks 
+*** RIVER *** [8d 6h 2s Kd] [5d]
+quaresmakone: bets 325
+scorza23: raises 1070 to 1395 and is all-in
+shaolin280: folds 
+quaresmakone: folds 
+Uncalled bet (1070) returned to scorza23
+scorza23 collected 975 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 975 | Rake 0 
+Board [8d 6h 2s Kd 5d]
+Seat 1: indymumma (button) folded before Flop (didn't bet)
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 3: quaresmakone (big blind) folded on the River
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 5: TaylorGang53 folded before Flop (didn't bet)
+Seat 6: scorza23 collected (975)
+Seat 7: shaolin280 folded on the River
+Seat 8: BR gniK folded before Flop (didn't bet)
+Seat 9: Gerberman15 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762858103: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:57:35 UTC [2026/02/17 9:57:35 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 1: indymumma (1500 in chips) 
+Seat 2: MCLMUSIC (1490 in chips) 
+Seat 3: quaresmakone (1070 in chips) 
+Seat 4: Dofeitosa (1500 in chips) 
+Seat 5: TaylorGang53 (1500 in chips) 
+Seat 6: scorza23 (2045 in chips) 
+Seat 7: shaolin280 (1395 in chips) 
+Seat 8: BR gniK (1500 in chips) 
+Seat 9: Gerberman15 (1500 in chips) 
+quaresmakone: posts small blind 10
+Dofeitosa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Qs]
+TaylorGang53: folds 
+scorza23: folds 
+shaolin280: folds 
+BR gniK: raises 20 to 40
+Gerberman15: folds 
+indymumma: raises 60 to 100
+MCLMUSIC: folds 
+quaresmakone: folds 
+Dofeitosa: folds 
+BR gniK: calls 60
+*** FLOP *** [6c 5d 5s]
+BR gniK: checks 
+indymumma: checks 
+*** TURN *** [6c 5d 5s] [8s]
+BR gniK: bets 60
+indymumma: calls 60
+*** RIVER *** [6c 5d 5s 8s] [2d]
+BR gniK: bets 60
+indymumma: calls 60
+*** SHOW DOWN ***
+BR gniK: shows [Ac Jd] (a pair of Fives)
+indymumma: mucks hand 
+BR gniK collected 470 from pot
+*** SUMMARY ***
+Total pot 470 | Rake 0 
+Board [6c 5d 5s 8s 2d]
+Seat 1: indymumma mucked [Kh Qh]
+Seat 2: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 3: quaresmakone (small blind) folded before Flop
+Seat 4: Dofeitosa (big blind) folded before Flop
+Seat 5: TaylorGang53 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 folded before Flop (didn't bet)
+Seat 8: BR gniK showed [Ac Jd] and won (470) with a pair of Fives
+Seat 9: Gerberman15 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762866128: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:58:42 UTC [2026/02/17 9:58:42 ET]
+Table '3975968186 1' 9-max Seat #3 is the button
+Seat 1: indymumma (1280 in chips) 
+Seat 2: MCLMUSIC (1490 in chips) 
+Seat 3: quaresmakone (1060 in chips) 
+Seat 4: Dofeitosa (1480 in chips) 
+Seat 5: TaylorGang53 (1500 in chips) 
+Seat 6: scorza23 (2045 in chips) 
+Seat 7: shaolin280 (1395 in chips) 
+Seat 8: BR gniK (1750 in chips) 
+Seat 9: Gerberman15 (1500 in chips) 
+Dofeitosa: posts small blind 10
+TaylorGang53: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 9c]
+scorza23: folds 
+shaolin280: calls 20
+BR gniK: raises 20 to 40
+Gerberman15: folds 
+indymumma: folds 
+MCLMUSIC: folds 
+quaresmakone: calls 40
+Dofeitosa: raises 180 to 220
+TaylorGang53: folds 
+shaolin280: raises 180 to 400
+BR gniK: folds 
+quaresmakone: folds 
+Dofeitosa: raises 1080 to 1480 and is all-in
+shaolin280: calls 995 and is all-in
+Uncalled bet (85) returned to Dofeitosa
+*** FLOP *** [Qs Kc 2d]
+*** TURN *** [Qs Kc 2d] [7c]
+*** RIVER *** [Qs Kc 2d 7c] [2s]
+*** SHOW DOWN ***
+Dofeitosa: shows [Ad As] (two pair, Aces and Deuces)
+shaolin280: shows [Qd Qh] (a full house, Queens full of Deuces)
+shaolin280 collected 2890 from pot
+*** SUMMARY ***
+Total pot 2890 | Rake 0 
+Board [Qs Kc 2d 7c 2s]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 3: quaresmakone (button) folded before Flop
+Seat 4: Dofeitosa (small blind) showed [Ad As] and lost with two pair, Aces and Deuces
+Seat 5: TaylorGang53 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 showed [Qd Qh] and won (2890) with a full house, Queens full of Deuces
+Seat 8: BR gniK folded before Flop
+Seat 9: Gerberman15 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762876900: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:00:12 UTC [2026/02/17 10:00:12 ET]
+Table '3975968186 1' 9-max Seat #4 is the button
+Seat 1: indymumma (1280 in chips) 
+Seat 2: MCLMUSIC (1490 in chips) 
+Seat 3: quaresmakone (1020 in chips) 
+Seat 4: Dofeitosa (85 in chips) 
+Seat 5: TaylorGang53 (1480 in chips) 
+Seat 6: scorza23 (2045 in chips) 
+Seat 7: shaolin280 (2890 in chips) 
+Seat 8: BR gniK (1710 in chips) 
+Seat 9: Gerberman15 (1500 in chips) 
+TaylorGang53: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3d]
+shaolin280: calls 20
+BR gniK: folds 
+Gerberman15: calls 20
+indymumma: folds 
+MCLMUSIC: raises 120 to 140
+quaresmakone: folds 
+Dofeitosa: folds 
+TaylorGang53: calls 130
+scorza23: folds 
+shaolin280: calls 120
+Gerberman15: calls 120
+*** FLOP *** [2d 4s 2c]
+TaylorGang53: checks 
+shaolin280: checks 
+Gerberman15: checks 
+MCLMUSIC: checks 
+*** TURN *** [2d 4s 2c] [5h]
+TaylorGang53: checks 
+shaolin280: bets 20
+Gerberman15: calls 20
+MCLMUSIC: folds 
+TaylorGang53: calls 20
+*** RIVER *** [2d 4s 2c 5h] [Ts]
+TaylorGang53: checks 
+shaolin280: bets 20
+Gerberman15: raises 680 to 700
+TaylorGang53: folds 
+shaolin280: calls 680
+*** SHOW DOWN ***
+Gerberman15: shows [Tc Jc] (two pair, Tens and Deuces)
+shaolin280: mucks hand 
+Gerberman15 collected 2040 from pot
+*** SUMMARY ***
+Total pot 2040 | Rake 0 
+Board [2d 4s 2c 5h Ts]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC folded on the Turn
+Seat 3: quaresmakone folded before Flop (didn't bet)
+Seat 4: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 5: TaylorGang53 (small blind) folded on the River
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: shaolin280 mucked [8s Td]
+Seat 8: BR gniK folded before Flop (didn't bet)
+Seat 9: Gerberman15 showed [Tc Jc] and won (2040) with two pair, Tens and Deuces
+
+
+
+PokerStars Hand #259762890461: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:01:47 UTC [2026/02/17 10:01:47 ET]
+Table '3975968186 1' 9-max Seat #5 is the button
+Seat 1: indymumma (1280 in chips) 
+Seat 2: MCLMUSIC (1350 in chips) 
+Seat 3: quaresmakone (1020 in chips) 
+Seat 4: Dofeitosa (85 in chips) 
+Seat 5: TaylorGang53 (1320 in chips) 
+Seat 6: scorza23 (2025 in chips) 
+Seat 7: shaolin280 (2030 in chips) 
+Seat 8: BR gniK (1710 in chips) 
+Seat 9: Gerberman15 (2680 in chips) 
+scorza23: posts small blind 15
+shaolin280: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 8h]
+BR gniK: folds 
+Gerberman15: folds 
+indymumma: calls 30
+MCLMUSIC: folds 
+quaresmakone: folds 
+Dofeitosa: folds 
+TaylorGang53: calls 30
+scorza23: calls 15
+shaolin280: checks 
+*** FLOP *** [8d 9s Jc]
+scorza23: checks 
+shaolin280: bets 120
+indymumma: calls 120
+TaylorGang53: calls 120
+scorza23: calls 120
+*** TURN *** [8d 9s Jc] [Qd]
+scorza23: checks 
+shaolin280: checks 
+indymumma: checks 
+TaylorGang53: bets 600
+scorza23: raises 1275 to 1875 and is all-in
+shaolin280: folds 
+indymumma: folds 
+TaylorGang53: calls 570 and is all-in
+Uncalled bet (705) returned to scorza23
+*** RIVER *** [8d 9s Jc Qd] [Jh]
+*** SHOW DOWN ***
+scorza23: shows [8c 8h] (a full house, Eights full of Jacks)
+TaylorGang53: shows [Kh Th] (a straight, Nine to King)
+scorza23 collected 2940 from pot
+TaylorGang53 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 2940 | Rake 0 
+Board [8d 9s Jc Qd Jh]
+Seat 1: indymumma folded on the Turn
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 3: quaresmakone folded before Flop (didn't bet)
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 5: TaylorGang53 (button) showed [Kh Th] and lost with a straight, Nine to King
+Seat 6: scorza23 (small blind) showed [8c 8h] and won (2940) with a full house, Eights full of Jacks
+Seat 7: shaolin280 (big blind) folded on the Turn
+Seat 8: BR gniK folded before Flop (didn't bet)
+Seat 9: Gerberman15 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762902672: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:03:07 UTC [2026/02/17 10:03:07 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 1: indymumma (1130 in chips) 
+Seat 2: MCLMUSIC (1350 in chips) 
+Seat 3: quaresmakone (1020 in chips) 
+Seat 4: Dofeitosa (85 in chips) 
+Seat 6: scorza23 (3645 in chips) 
+Seat 7: shaolin280 (1880 in chips) 
+Seat 8: BR gniK (1710 in chips) 
+Seat 9: Gerberman15 (2680 in chips) 
+shaolin280: posts small blind 15
+BR gniK: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 5s]
+Gerberman15: folds 
+indymumma: folds 
+MCLMUSIC: raises 30 to 60
+quaresmakone: folds 
+Dofeitosa: folds 
+scorza23: folds 
+shaolin280: raises 30 to 90
+BR gniK: calls 60
+MCLMUSIC: calls 30
+*** FLOP *** [3s Ad Ks]
+shaolin280: checks 
+BR gniK: checks 
+MCLMUSIC: bets 89
+shaolin280: calls 89
+BR gniK: folds 
+*** TURN *** [3s Ad Ks] [Js]
+shaolin280: bets 448
+MCLMUSIC: folds 
+Uncalled bet (448) returned to shaolin280
+shaolin280 collected 448 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 448 | Rake 0 
+Board [3s Ad Ks Js]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC folded on the Turn
+Seat 3: quaresmakone folded before Flop (didn't bet)
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) collected (448)
+Seat 8: BR gniK (big blind) folded on the Flop
+Seat 9: Gerberman15 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762913114: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:04:15 UTC [2026/02/17 10:04:15 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 1: indymumma (1130 in chips) 
+Seat 2: MCLMUSIC (1171 in chips) 
+Seat 3: quaresmakone (1020 in chips) 
+Seat 4: Dofeitosa (85 in chips) 
+Seat 6: scorza23 (3645 in chips) 
+Seat 7: shaolin280 (2149 in chips) 
+Seat 8: BR gniK (1620 in chips) 
+Seat 9: Gerberman15 (2680 in chips) 
+BR gniK: posts small blind 15
+Gerberman15: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 5c]
+indymumma: folds 
+MCLMUSIC: folds 
+quaresmakone: raises 60 to 90
+Dofeitosa: folds 
+scorza23: folds 
+shaolin280: calls 90
+BR gniK: folds 
+Gerberman15: folds 
+*** FLOP *** [Jd 7s 5d]
+quaresmakone: checks 
+shaolin280: bets 30
+quaresmakone: calls 30
+*** TURN *** [Jd 7s 5d] [Kh]
+quaresmakone: checks 
+shaolin280: bets 30
+quaresmakone: calls 30
+*** RIVER *** [Jd 7s 5d Kh] [7d]
+quaresmakone: checks 
+shaolin280: bets 173
+quaresmakone: folds 
+Uncalled bet (173) returned to shaolin280
+shaolin280 collected 345 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 345 | Rake 0 
+Board [Jd 7s 5d Kh 7d]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 3: quaresmakone folded on the River
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 (button) collected (345)
+Seat 8: BR gniK (small blind) folded before Flop
+Seat 9: Gerberman15 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762927342: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:05:47 UTC [2026/02/17 10:05:47 ET]
+Table '3975968186 1' 9-max Seat #8 is the button
+Seat 1: indymumma (1130 in chips) 
+Seat 2: MCLMUSIC (1171 in chips) 
+Seat 3: quaresmakone (870 in chips) 
+Seat 4: Dofeitosa (85 in chips) 
+Seat 6: scorza23 (3645 in chips) 
+Seat 7: shaolin280 (2344 in chips) 
+Seat 8: BR gniK (1605 in chips) 
+Seat 9: Gerberman15 (2650 in chips) 
+Gerberman15: posts small blind 15
+indymumma: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Qc]
+MCLMUSIC: folds 
+quaresmakone: folds 
+Dofeitosa: folds 
+scorza23: folds 
+shaolin280: raises 30 to 60
+BR gniK: calls 60
+Gerberman15: folds 
+indymumma: folds 
+*** FLOP *** [Ks 2d 6s]
+shaolin280: bets 83
+BR gniK: calls 83
+*** TURN *** [Ks 2d 6s] [Td]
+shaolin280: checks 
+BR gniK: checks 
+*** RIVER *** [Ks 2d 6s Td] [7d]
+shaolin280: bets 331
+BR gniK: folds 
+Uncalled bet (331) returned to shaolin280
+shaolin280 collected 331 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 331 | Rake 0 
+Board [Ks 2d 6s Td 7d]
+Seat 1: indymumma (big blind) folded before Flop
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 3: quaresmakone folded before Flop (didn't bet)
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 collected (331)
+Seat 8: BR gniK (button) folded on the River
+Seat 9: Gerberman15 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762934840: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:06:36 UTC [2026/02/17 10:06:36 ET]
+Table '3975968186 1' 9-max Seat #9 is the button
+Seat 1: indymumma (1100 in chips) 
+Seat 2: MCLMUSIC (1171 in chips) 
+Seat 3: quaresmakone (870 in chips) 
+Seat 4: Dofeitosa (85 in chips) 
+Seat 6: scorza23 (3645 in chips) 
+Seat 7: shaolin280 (2532 in chips) 
+Seat 8: BR gniK (1462 in chips) 
+Seat 9: Gerberman15 (2635 in chips) 
+indymumma: posts small blind 25
+MCLMUSIC: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 3d]
+quaresmakone: raises 150 to 200
+Dofeitosa: folds 
+scorza23: folds 
+shaolin280: folds 
+BR gniK: raises 700 to 900
+Gerberman15: folds 
+indymumma: folds 
+MCLMUSIC: folds 
+quaresmakone: calls 670 and is all-in
+Uncalled bet (30) returned to BR gniK
+*** FLOP *** [2c 7d Kh]
+*** TURN *** [2c 7d Kh] [5s]
+*** RIVER *** [2c 7d Kh 5s] [3c]
+*** SHOW DOWN ***
+quaresmakone: shows [Ac Jc] (high card Ace)
+BR gniK: shows [Kd As] (a pair of Kings)
+BR gniK collected 1815 from pot
+quaresmakone finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 1815 | Rake 0 
+Board [2c 7d Kh 5s 3c]
+Seat 1: indymumma (small blind) folded before Flop
+Seat 2: MCLMUSIC (big blind) folded before Flop
+Seat 3: quaresmakone showed [Ac Jc] and lost with high card Ace
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 folded before Flop (didn't bet)
+Seat 8: BR gniK showed [Kd As] and won (1815) with a pair of Kings
+Seat 9: Gerberman15 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762941990: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:07:22 UTC [2026/02/17 10:07:22 ET]
+Table '3975968186 1' 9-max Seat #1 is the button
+Seat 1: indymumma (1075 in chips) 
+Seat 2: MCLMUSIC (1121 in chips) 
+Seat 4: Dofeitosa (85 in chips) 
+Seat 6: scorza23 (3645 in chips) 
+Seat 7: shaolin280 (2532 in chips) 
+Seat 8: BR gniK (2407 in chips) 
+Seat 9: Gerberman15 (2635 in chips) 
+MCLMUSIC: posts small blind 25
+Dofeitosa: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Tc]
+scorza23: raises 100 to 150
+shaolin280: calls 150
+BR gniK: calls 150
+Gerberman15: calls 150
+indymumma: folds 
+MCLMUSIC: folds 
+Dofeitosa: folds 
+*** FLOP *** [7h 5c Jh]
+scorza23: checks 
+shaolin280: bets 50
+BR gniK: raises 150 to 200
+Gerberman15: calls 200
+scorza23: folds 
+shaolin280: calls 150
+*** TURN *** [7h 5c Jh] [6h]
+shaolin280: bets 2182 and is all-in
+BR gniK: folds 
+Gerberman15: folds 
+Uncalled bet (2182) returned to shaolin280
+shaolin280 collected 1275 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 1275 | Rake 0 
+Board [7h 5c Jh 6h]
+Seat 1: indymumma (button) folded before Flop (didn't bet)
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 4: Dofeitosa (big blind) folded before Flop
+Seat 6: scorza23 folded on the Flop
+Seat 7: shaolin280 collected (1275)
+Seat 8: BR gniK folded on the Turn
+Seat 9: Gerberman15 folded on the Turn
+
+
+
+PokerStars Hand #259762952207: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:08:28 UTC [2026/02/17 10:08:28 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 1: indymumma (1075 in chips) 
+Seat 2: MCLMUSIC (1096 in chips) 
+Seat 4: Dofeitosa (35 in chips) 
+Seat 6: scorza23 (3495 in chips) 
+Seat 7: shaolin280 (3457 in chips) 
+Seat 8: BR gniK (2057 in chips) 
+Seat 9: Gerberman15 (2285 in chips) 
+Dofeitosa: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 5d]
+shaolin280: calls 50
+BR gniK: raises 2007 to 2057 and is all-in
+Gerberman15: folds 
+indymumma: folds 
+MCLMUSIC: folds 
+Dofeitosa: folds 
+scorza23: folds 
+shaolin280: folds 
+Uncalled bet (2007) returned to BR gniK
+BR gniK collected 175 from pot
+BR gniK: doesn't show hand 
+*** SUMMARY ***
+Total pot 175 | Rake 0 
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 4: Dofeitosa (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: shaolin280 folded before Flop
+Seat 8: BR gniK collected (175)
+Seat 9: Gerberman15 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762956973: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:08:58 UTC [2026/02/17 10:08:58 ET]
+Table '3975968186 1' 9-max Seat #4 is the button
+Seat 1: indymumma (1075 in chips) 
+Seat 2: MCLMUSIC (1096 in chips) 
+Seat 4: Dofeitosa (10 in chips) 
+Seat 6: scorza23 (3445 in chips) 
+Seat 7: shaolin280 (3407 in chips) 
+Seat 8: BR gniK (2182 in chips) 
+Seat 9: Gerberman15 (2285 in chips) 
+scorza23: posts small blind 25
+shaolin280: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 7c]
+BR gniK: folds 
+Gerberman15: folds 
+indymumma: folds 
+MCLMUSIC: folds 
+Dofeitosa: calls 10 and is all-in
+scorza23: raises 100 to 150
+shaolin280: folds 
+Uncalled bet (100) returned to scorza23
+*** FLOP *** [Jc 8d Jd]
+*** TURN *** [Jc 8d Jd] [9s]
+*** RIVER *** [Jc 8d Jd 9s] [5h]
+*** SHOW DOWN ***
+scorza23: shows [7d 7c] (two pair, Jacks and Sevens)
+scorza23 collected 80 from side pot
+Dofeitosa: shows [9c 9h] (a full house, Nines full of Jacks)
+Dofeitosa collected 30 from main pot
+*** SUMMARY ***
+Total pot 110 Main pot 30. Side pot 80. | Rake 0 
+Board [Jc 8d Jd 9s 5h]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 4: Dofeitosa (button) showed [9c 9h] and won (30) with a full house, Nines full of Jacks
+Seat 6: scorza23 (small blind) showed [7d 7c] and won (80) with two pair, Jacks and Sevens
+Seat 7: shaolin280 (big blind) folded before Flop
+Seat 8: BR gniK folded before Flop (didn't bet)
+Seat 9: Gerberman15 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762962315: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:09:32 UTC [2026/02/17 10:09:32 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 1: indymumma (1075 in chips) 
+Seat 2: MCLMUSIC (1096 in chips) 
+Seat 4: Dofeitosa (30 in chips) 
+Seat 6: scorza23 (3475 in chips) 
+Seat 7: shaolin280 (3357 in chips) 
+Seat 8: BR gniK (2182 in chips) 
+Seat 9: Gerberman15 (2285 in chips) 
+shaolin280: posts small blind 25
+BR gniK: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6c]
+Gerberman15: raises 50 to 100
+indymumma: folds 
+MCLMUSIC: folds 
+Dofeitosa: folds 
+scorza23: folds 
+shaolin280: folds 
+BR gniK: calls 50
+*** FLOP *** [9d Jd 6d]
+BR gniK: checks 
+Gerberman15: bets 225
+BR gniK: calls 225
+*** TURN *** [9d Jd 6d] [Js]
+BR gniK: bets 150
+Gerberman15: folds 
+Uncalled bet (150) returned to BR gniK
+BR gniK collected 675 from pot
+BR gniK: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Board [9d Jd 6d Js]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) folded before Flop
+Seat 8: BR gniK (big blind) collected (675)
+Seat 9: Gerberman15 folded on the Turn
+
+
+
+PokerStars Hand #259762968418: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:10:11 UTC [2026/02/17 10:10:11 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 1: indymumma (1075 in chips) 
+Seat 2: MCLMUSIC (1096 in chips) 
+Seat 4: Dofeitosa (30 in chips) 
+Seat 6: scorza23 (3475 in chips) 
+Seat 7: shaolin280 (3332 in chips) 
+Seat 8: BR gniK (2532 in chips) 
+Seat 9: Gerberman15 (1960 in chips) 
+BR gniK: posts small blind 25
+Gerberman15: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 7c]
+indymumma: folds 
+MCLMUSIC has timed out
+MCLMUSIC: folds 
+MCLMUSIC is sitting out
+Dofeitosa: folds 
+scorza23: folds 
+shaolin280: calls 50
+BR gniK: raises 50 to 100
+MCLMUSIC has returned
+Gerberman15: calls 50
+shaolin280: calls 50
+*** FLOP *** [6h 7h Kh]
+BR gniK: checks 
+Gerberman15: bets 300
+shaolin280: folds 
+BR gniK: calls 300
+*** TURN *** [6h 7h Kh] [Ts]
+BR gniK: checks 
+Gerberman15: bets 900
+BR gniK: raises 1232 to 2132 and is all-in
+Gerberman15: calls 660 and is all-in
+Uncalled bet (572) returned to BR gniK
+*** RIVER *** [6h 7h Kh Ts] [3d]
+*** SHOW DOWN ***
+BR gniK: shows [Ah Qh] (a flush, Ace high)
+Gerberman15: shows [6s 6c] (three of a kind, Sixes)
+BR gniK collected 4020 from pot
+Gerberman15 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 4020 | Rake 0 
+Board [6h 7h Kh Ts 3d]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 4: Dofeitosa folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 (button) folded on the Flop
+Seat 8: BR gniK (small blind) showed [Ah Qh] and won (4020) with a flush, Ace high
+Seat 9: Gerberman15 (big blind) showed [6s 6c] and lost with three of a kind, Sixes
+
+
+
+PokerStars Hand #259762979461: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:11:23 UTC [2026/02/17 10:11:23 ET]
+Table '3975968186 1' 9-max Seat #8 is the button
+Seat 1: indymumma (1075 in chips) 
+Seat 2: MCLMUSIC (1096 in chips) 
+Seat 4: Dofeitosa (30 in chips) 
+Seat 6: scorza23 (3475 in chips) 
+Seat 7: shaolin280 (3232 in chips) 
+Seat 8: BR gniK (4592 in chips) 
+indymumma: posts small blind 25
+MCLMUSIC: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Qd]
+Dofeitosa: calls 30 and is all-in
+scorza23: folds 
+shaolin280: raises 50 to 100
+BR gniK: folds 
+indymumma: folds 
+MCLMUSIC: folds 
+Uncalled bet (50) returned to shaolin280
+*** FLOP *** [5h 9c Kh]
+*** TURN *** [5h 9c Kh] [8s]
+*** RIVER *** [5h 9c Kh 8s] [7d]
+*** SHOW DOWN ***
+shaolin280: shows [5d Ah] (a pair of Fives)
+shaolin280 collected 40 from side pot
+Dofeitosa: shows [Jc 3c] (high card King)
+shaolin280 collected 115 from main pot
+Dofeitosa finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 155 Main pot 115. Side pot 40. | Rake 0 
+Board [5h 9c Kh 8s 7d]
+Seat 1: indymumma (small blind) folded before Flop
+Seat 2: MCLMUSIC (big blind) folded before Flop
+Seat 4: Dofeitosa showed [Jc 3c] and lost with high card King
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 showed [5d Ah] and won (155) with a pair of Fives
+Seat 8: BR gniK (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762983429: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:11:48 UTC [2026/02/17 10:11:48 ET]
+Table '3975968186 1' 9-max Seat #1 is the button
+Seat 1: indymumma (1050 in chips) 
+Seat 2: MCLMUSIC (1046 in chips) 
+Seat 6: scorza23 (3475 in chips) 
+Seat 7: shaolin280 (3337 in chips) 
+Seat 8: BR gniK (4592 in chips) 
+MCLMUSIC: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 2c]
+shaolin280: raises 200 to 300
+BR gniK: folds 
+indymumma: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+Uncalled bet (200) returned to shaolin280
+shaolin280 collected 250 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: indymumma (button) folded before Flop (didn't bet)
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: shaolin280 collected (250)
+Seat 8: BR gniK folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762986599: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:12:08 UTC [2026/02/17 10:12:08 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 1: indymumma (1050 in chips) 
+Seat 2: MCLMUSIC (996 in chips) 
+Seat 6: scorza23 (3375 in chips) 
+Seat 7: shaolin280 (3487 in chips) 
+Seat 8: BR gniK (4592 in chips) 
+scorza23: posts small blind 50
+shaolin280: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 2d]
+BR gniK: raises 200 to 300
+indymumma: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+shaolin280: calls 200
+*** FLOP *** [2c Qc 7d]
+shaolin280: bets 3187 and is all-in
+BR gniK: calls 3187
+*** TURN *** [2c Qc 7d] [7c]
+*** RIVER *** [2c Qc 7d 7c] [7h]
+*** SHOW DOWN ***
+shaolin280: shows [Tc Qh] (a full house, Sevens full of Queens)
+BR gniK: shows [4c 4h] (a full house, Sevens full of Fours)
+shaolin280 collected 7024 from pot
+*** SUMMARY ***
+Total pot 7024 | Rake 0 
+Board [2c Qc 7d 7c 7h]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: shaolin280 (big blind) showed [Tc Qh] and won (7024) with a full house, Sevens full of Queens
+Seat 8: BR gniK showed [4c 4h] and lost with a full house, Sevens full of Fours
+
+
+
+PokerStars Hand #259762993248: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:12:50 UTC [2026/02/17 10:12:50 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 1: indymumma (1050 in chips) 
+Seat 2: MCLMUSIC (996 in chips) 
+Seat 6: scorza23 (3325 in chips) 
+Seat 7: shaolin280 (7024 in chips) 
+Seat 8: BR gniK (1105 in chips) 
+shaolin280: posts small blind 50
+BR gniK: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 6h]
+indymumma: folds 
+MCLMUSIC: raises 896 to 996 and is all-in
+scorza23: folds 
+shaolin280: calls 946
+BR gniK: raises 109 to 1105 and is all-in
+shaolin280: calls 109
+*** FLOP *** [7c Jh 3d]
+*** TURN *** [7c Jh 3d] [7h]
+*** RIVER *** [7c Jh 3d 7h] [As]
+*** SHOW DOWN ***
+shaolin280: shows [6d 9s] (a pair of Sevens)
+BR gniK: shows [Qc 9c] (a pair of Sevens - Ace+Queen kicker)
+BR gniK collected 218 from side pot
+MCLMUSIC: shows [Jd Td] (two pair, Jacks and Sevens)
+MCLMUSIC collected 2988 from main pot
+*** SUMMARY ***
+Total pot 3206 Main pot 2988. Side pot 218. | Rake 0 
+Board [7c Jh 3d 7h As]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC showed [Jd Td] and won (2988) with two pair, Jacks and Sevens
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) showed [6d 9s] and lost with a pair of Sevens
+Seat 8: BR gniK (big blind) showed [Qc 9c] and won (218) with a pair of Sevens
+
+
+
+PokerStars Hand #259762998464: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:13:22 UTC [2026/02/17 10:13:22 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 1: indymumma (1050 in chips) 
+Seat 2: MCLMUSIC (2988 in chips) 
+Seat 6: scorza23 (3325 in chips) 
+Seat 7: shaolin280 (5919 in chips) 
+Seat 8: BR gniK (218 in chips) 
+BR gniK: posts small blind 50
+indymumma: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 7s]
+MCLMUSIC: folds 
+scorza23: folds 
+shaolin280: calls 100
+BR gniK: folds 
+indymumma: checks 
+*** FLOP *** [8s 4d 3c]
+indymumma: checks 
+shaolin280: checks 
+*** TURN *** [8s 4d 3c] [Ad]
+indymumma: checks 
+shaolin280: bets 250
+indymumma: calls 250
+*** RIVER *** [8s 4d 3c Ad] [9h]
+indymumma: checks 
+shaolin280: checks 
+*** SHOW DOWN ***
+indymumma: shows [8d 5c] (a pair of Eights)
+shaolin280: shows [9d Jc] (a pair of Nines)
+shaolin280 collected 750 from pot
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Board [8s 4d 3c Ad 9h]
+Seat 1: indymumma (big blind) showed [8d 5c] and lost with a pair of Eights
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 (button) showed [9d Jc] and won (750) with a pair of Nines
+Seat 8: BR gniK (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763004336: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:13:58 UTC [2026/02/17 10:13:58 ET]
+Table '3975968186 1' 9-max Seat #8 is the button
+Seat 1: indymumma (700 in chips) 
+Seat 2: MCLMUSIC (2988 in chips) 
+Seat 6: scorza23 (3325 in chips) 
+Seat 7: shaolin280 (6319 in chips) 
+Seat 8: BR gniK (168 in chips) 
+indymumma: posts small blind 50
+MCLMUSIC: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 2s]
+scorza23: folds 
+shaolin280: calls 100
+BR gniK: folds 
+indymumma: folds 
+MCLMUSIC: checks 
+*** FLOP *** [6h Js 7s]
+MCLMUSIC: checks 
+shaolin280: bets 125
+MCLMUSIC: folds 
+Uncalled bet (125) returned to shaolin280
+shaolin280 collected 250 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [6h Js 7s]
+Seat 1: indymumma (small blind) folded before Flop
+Seat 2: MCLMUSIC (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 collected (250)
+Seat 8: BR gniK (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763011547: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:14:44 UTC [2026/02/17 10:14:44 ET]
+Table '3975968186 1' 9-max Seat #1 is the button
+Seat 1: indymumma (650 in chips) 
+Seat 2: MCLMUSIC (2888 in chips) 
+Seat 6: scorza23 (3325 in chips) 
+Seat 7: shaolin280 (6469 in chips) 
+Seat 8: BR gniK (168 in chips) 
+MCLMUSIC: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 8c]
+shaolin280: raises 100 to 200
+BR gniK: folds 
+indymumma: raises 450 to 650 and is all-in
+MCLMUSIC: folds 
+scorza23: folds 
+shaolin280: calls 450
+*** FLOP *** [7d 7s 3h]
+*** TURN *** [7d 7s 3h] [9c]
+*** RIVER *** [7d 7s 3h 9c] [5h]
+*** SHOW DOWN ***
+shaolin280: shows [Th Qc] (a pair of Sevens)
+indymumma: shows [Ac 4c] (a pair of Sevens - Ace kicker)
+indymumma collected 1450 from pot
+*** SUMMARY ***
+Total pot 1450 | Rake 0 
+Board [7d 7s 3h 9c 5h]
+Seat 1: indymumma (button) showed [Ac 4c] and won (1450) with a pair of Sevens
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: shaolin280 showed [Th Qc] and lost with a pair of Sevens
+Seat 8: BR gniK folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763016870: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:15:17 UTC [2026/02/17 10:15:17 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 1: indymumma (1450 in chips) 
+Seat 2: MCLMUSIC (2838 in chips) 
+Seat 6: scorza23 (3225 in chips) 
+Seat 7: shaolin280 (5819 in chips) 
+Seat 8: BR gniK (168 in chips) 
+scorza23: posts small blind 50
+shaolin280: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Qh]
+BR gniK: raises 68 to 168 and is all-in
+indymumma: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+shaolin280: calls 68
+*** FLOP *** [Js 3h Kc]
+*** TURN *** [Js 3h Kc] [5s]
+*** RIVER *** [Js 3h Kc 5s] [9h]
+*** SHOW DOWN ***
+shaolin280: shows [6s 5h] (a pair of Fives)
+BR gniK: shows [Th Ks] (a pair of Kings)
+BR gniK collected 386 from pot
+*** SUMMARY ***
+Total pot 386 | Rake 0 
+Board [Js 3h Kc 5s 9h]
+Seat 1: indymumma folded before Flop (didn't bet)
+Seat 2: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: shaolin280 (big blind) showed [6s 5h] and lost with a pair of Fives
+Seat 8: BR gniK showed [Th Ks] and won (386) with a pair of Kings
+
+
+
+PokerStars Hand #259763020347: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:15:38 UTC [2026/02/17 10:15:38 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 1: indymumma (1450 in chips) 
+Seat 2: MCLMUSIC (2838 in chips) 
+Seat 6: scorza23 (3175 in chips) 
+Seat 7: shaolin280 (5651 in chips) 
+Seat 8: BR gniK (386 in chips) 
+shaolin280: posts small blind 50
+BR gniK: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Jh]
+indymumma: raises 300 to 400
+MCLMUSIC: folds 
+scorza23: folds 
+shaolin280: raises 300 to 700
+BR gniK: folds 
+indymumma: raises 300 to 1000
+shaolin280: calls 300
+*** FLOP *** [Kc Ks Th]
+shaolin280: checks 
+indymumma: bets 300
+shaolin280: calls 300
+*** TURN *** [Kc Ks Th] [Jd]
+shaolin280: checks 
+indymumma: bets 100
+shaolin280: calls 100
+*** RIVER *** [Kc Ks Th Jd] [3s]
+shaolin280: checks 
+indymumma: checks 
+*** SHOW DOWN ***
+shaolin280: shows [5h 5d] (two pair, Kings and Fives)
+indymumma: shows [Qd Qh] (two pair, Kings and Queens)
+indymumma collected 2900 from pot
+*** SUMMARY ***
+Total pot 2900 | Rake 0 
+Board [Kc Ks Th Jd 3s]
+Seat 1: indymumma showed [Qd Qh] and won (2900) with two pair, Kings and Queens
+Seat 2: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) showed [5h 5d] and lost with two pair, Kings and Fives
+Seat 8: BR gniK (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763028327: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:16:27 UTC [2026/02/17 10:16:27 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 1: indymumma (2950 in chips) 
+Seat 2: MCLMUSIC (2838 in chips) 
+Seat 6: scorza23 (3175 in chips) 
+Seat 7: shaolin280 (4251 in chips) 
+Seat 8: BR gniK (286 in chips) 
+BR gniK: posts small blind 50
+indymumma: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Tc]
+MCLMUSIC: raises 100 to 200
+scorza23: folds 
+shaolin280: calls 200
+BR gniK: folds 
+indymumma: folds 
+*** FLOP *** [Jd 5h 4h]
+MCLMUSIC: bets 182
+shaolin280: calls 182
+*** TURN *** [Jd 5h 4h] [Qh]
+MCLMUSIC: checks 
+shaolin280: checks 
+*** RIVER *** [Jd 5h 4h Qh] [Kd]
+MCLMUSIC: bets 731
+shaolin280: folds 
+Uncalled bet (731) returned to MCLMUSIC
+MCLMUSIC collected 914 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 914 | Rake 0 
+Board [Jd 5h 4h Qh Kd]
+Seat 1: indymumma (big blind) folded before Flop
+Seat 2: MCLMUSIC collected (914)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: shaolin280 (button) folded on the River
+Seat 8: BR gniK (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763035006: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:17:08 UTC [2026/02/17 10:17:08 ET]
+Table '3975968186 1' 9-max Seat #8 is the button
+Seat 1: indymumma (2850 in chips) 
+Seat 2: MCLMUSIC (3370 in chips) 
+Seat 6: scorza23 (3175 in chips) 
+Seat 7: shaolin280 (3869 in chips) 
+Seat 8: BR gniK (236 in chips) 
+indymumma: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Kh]
+scorza23: raises 150 to 300
+shaolin280: folds 
+BR gniK: calls 236 and is all-in
+indymumma: calls 225
+MCLMUSIC: folds 
+*** FLOP *** [6c Th 2h]
+indymumma: bets 986
+scorza23: raises 1889 to 2875 and is all-in
+indymumma: calls 1564 and is all-in
+Uncalled bet (325) returned to scorza23
+*** TURN *** [6c Th 2h] [Js]
+*** RIVER *** [6c Th 2h Js] [Kc]
+*** SHOW DOWN ***
+indymumma: shows [Tc Ad] (a pair of Tens)
+scorza23: shows [Kd Kh] (three of a kind, Kings)
+scorza23 collected 5228 from side pot
+BR gniK: shows [Qd 8d] (high card King)
+scorza23 collected 858 from main pot
+indymumma finished the tournament in 4th place
+BR gniK finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 6086 Main pot 858. Side pot 5228. | Rake 0 
+Board [6c Th 2h Js Kc]
+Seat 1: indymumma (small blind) showed [Tc Ad] and lost with a pair of Tens
+Seat 2: MCLMUSIC (big blind) folded before Flop
+Seat 6: scorza23 showed [Kd Kh] and won (6086) with three of a kind, Kings
+Seat 7: shaolin280 folded before Flop (didn't bet)
+Seat 8: BR gniK (button) showed [Qd 8d] and lost with high card King
+
+
+
+PokerStars Hand #259763040985: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:17:45 UTC [2026/02/17 10:17:45 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 2: MCLMUSIC (3220 in chips) 
+Seat 6: scorza23 (6411 in chips) 
+Seat 7: shaolin280 (3869 in chips) 
+scorza23: posts small blind 75
+shaolin280: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Td]
+MCLMUSIC: raises 150 to 300
+scorza23: folds 
+shaolin280: raises 150 to 450
+MCLMUSIC: calls 150
+*** FLOP *** [Tc 7s 9d]
+shaolin280: bets 3419 and is all-in
+MCLMUSIC: folds 
+Uncalled bet (3419) returned to shaolin280
+shaolin280 collected 975 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 975 | Rake 0 
+Board [Tc 7s 9d]
+Seat 2: MCLMUSIC (button) folded on the Flop
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: shaolin280 (big blind) collected (975)
+
+
+
+PokerStars Hand #259763046112: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:18:16 UTC [2026/02/17 10:18:16 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 2: MCLMUSIC (2770 in chips) 
+Seat 6: scorza23 (6336 in chips) 
+Seat 7: shaolin280 (4394 in chips) 
+shaolin280: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 5d]
+scorza23: folds 
+shaolin280: calls 75
+MCLMUSIC: raises 225 to 375
+shaolin280: calls 225
+*** FLOP *** [8h Th 6c]
+shaolin280: checks 
+MCLMUSIC: bets 248
+shaolin280: calls 248
+*** TURN *** [8h Th 6c] [Jc]
+shaolin280: checks 
+MCLMUSIC: bets 2147 and is all-in
+shaolin280: calls 2147
+*** RIVER *** [8h Th 6c Jc] [4s]
+*** SHOW DOWN ***
+shaolin280: shows [9c 8s] (a pair of Eights)
+MCLMUSIC: shows [Ah Ad] (a pair of Aces)
+MCLMUSIC collected 5540 from pot
+*** SUMMARY ***
+Total pot 5540 | Rake 0 
+Board [8h Th 6c Jc 4s]
+Seat 2: MCLMUSIC (big blind) showed [Ah Ad] and won (5540) with a pair of Aces
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) showed [9c 8s] and lost with a pair of Eights
+
+
+
+PokerStars Hand #259763052055: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:18:53 UTC [2026/02/17 10:18:53 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 2: MCLMUSIC (5540 in chips) 
+Seat 6: scorza23 (6336 in chips) 
+Seat 7: shaolin280 (1624 in chips) 
+MCLMUSIC: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6s]
+shaolin280: raises 150 to 300
+MCLMUSIC: folds 
+scorza23: folds 
+Uncalled bet (150) returned to shaolin280
+shaolin280 collected 375 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: shaolin280 (button) collected (375)
+
+
+
+PokerStars Hand #259763053838: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:19:04 UTC [2026/02/17 10:19:04 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 2: MCLMUSIC (5465 in chips) 
+Seat 6: scorza23 (6186 in chips) 
+Seat 7: shaolin280 (1849 in chips) 
+scorza23: posts small blind 75
+shaolin280: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Jh]
+MCLMUSIC: folds 
+scorza23: calls 75
+shaolin280: raises 1699 to 1849 and is all-in
+scorza23: folds 
+Uncalled bet (1699) returned to shaolin280
+shaolin280 collected 300 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: shaolin280 (big blind) collected (300)
+
+
+
+PokerStars Hand #259763056395: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:19:19 UTC [2026/02/17 10:19:19 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 2: MCLMUSIC (5465 in chips) 
+Seat 6: scorza23 (6036 in chips) 
+Seat 7: shaolin280 (1999 in chips) 
+shaolin280: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 3h]
+scorza23: folds 
+shaolin280: raises 1849 to 1999 and is all-in
+MCLMUSIC: folds 
+Uncalled bet (1849) returned to shaolin280
+shaolin280 collected 300 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: MCLMUSIC (big blind) folded before Flop
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) collected (300)
+
+
+
+PokerStars Hand #259763058098: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:19:30 UTC [2026/02/17 10:19:30 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 2: MCLMUSIC (5315 in chips) 
+Seat 6: scorza23 (6036 in chips) 
+Seat 7: shaolin280 (2149 in chips) 
+MCLMUSIC: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Qh]
+shaolin280: folds 
+MCLMUSIC: raises 375 to 525
+scorza23: calls 375
+*** FLOP *** [9d 5c Jc]
+MCLMUSIC: bets 347
+scorza23: folds 
+Uncalled bet (347) returned to MCLMUSIC
+MCLMUSIC collected 1050 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Board [9d 5c Jc]
+Seat 2: MCLMUSIC (small blind) collected (1050)
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 7: shaolin280 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763061555: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:19:50 UTC [2026/02/17 10:19:50 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 2: MCLMUSIC (5840 in chips) 
+Seat 6: scorza23 (5511 in chips) 
+Seat 7: shaolin280 (2149 in chips) 
+scorza23: posts small blind 75
+shaolin280: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 8h]
+MCLMUSIC: raises 150 to 300
+scorza23: raises 5211 to 5511 and is all-in
+shaolin280: folds 
+MCLMUSIC: folds 
+Uncalled bet (5211) returned to scorza23
+scorza23 collected 750 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Seat 2: MCLMUSIC (button) folded before Flop
+Seat 6: scorza23 (small blind) collected (750)
+Seat 7: shaolin280 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763064306: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:20:07 UTC [2026/02/17 10:20:07 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 2: MCLMUSIC (5540 in chips) 
+Seat 6: scorza23 (5961 in chips) 
+Seat 7: shaolin280 (1999 in chips) 
+shaolin280: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qd]
+scorza23: folds 
+shaolin280: folds 
+Uncalled bet (75) returned to MCLMUSIC
+MCLMUSIC collected 150 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 2: MCLMUSIC (big blind) collected (150)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763065449: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:20:14 UTC [2026/02/17 10:20:14 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 2: MCLMUSIC (5615 in chips) 
+Seat 6: scorza23 (5961 in chips) 
+Seat 7: shaolin280 (1924 in chips) 
+MCLMUSIC: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Qd]
+shaolin280: raises 150 to 300
+MCLMUSIC: folds 
+scorza23: raises 5661 to 5961 and is all-in
+shaolin280: calls 1624 and is all-in
+Uncalled bet (4037) returned to scorza23
+*** FLOP *** [Ah 9h 6c]
+*** TURN *** [Ah 9h 6c] [7d]
+*** RIVER *** [Ah 9h 6c 7d] [5d]
+*** SHOW DOWN ***
+scorza23: shows [Qh Qd] (a pair of Queens)
+shaolin280: shows [Ad Th] (a pair of Aces)
+shaolin280 collected 3923 from pot
+*** SUMMARY ***
+Total pot 3923 | Rake 0 
+Board [Ah 9h 6c 7d 5d]
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) showed [Qh Qd] and lost with a pair of Queens
+Seat 7: shaolin280 (button) showed [Ad Th] and won (3923) with a pair of Aces
+
+
+
+PokerStars Hand #259763068459: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:20:33 UTC [2026/02/17 10:20:33 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 2: MCLMUSIC (5540 in chips) 
+Seat 6: scorza23 (4037 in chips) 
+Seat 7: shaolin280 (3923 in chips) 
+scorza23: posts small blind 75
+shaolin280: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5s]
+MCLMUSIC: raises 150 to 300
+scorza23: folds 
+shaolin280: calls 150
+*** FLOP *** [8c 7d 5d]
+shaolin280: bets 3623 and is all-in
+MCLMUSIC: calls 3623
+*** TURN *** [8c 7d 5d] [Jd]
+*** RIVER *** [8c 7d 5d Jd] [Ac]
+*** SHOW DOWN ***
+shaolin280: shows [Ah 7h] (two pair, Aces and Sevens)
+MCLMUSIC: shows [6h 8h] (a pair of Eights)
+shaolin280 collected 7921 from pot
+*** SUMMARY ***
+Total pot 7921 | Rake 0 
+Board [8c 7d 5d Jd Ac]
+Seat 2: MCLMUSIC (button) showed [6h 8h] and lost with a pair of Eights
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: shaolin280 (big blind) showed [Ah 7h] and won (7921) with two pair, Aces and Sevens
+
+
+
+PokerStars Hand #259763072427: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:20:56 UTC [2026/02/17 10:20:56 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 2: MCLMUSIC (1617 in chips) 
+Seat 6: scorza23 (3962 in chips) 
+Seat 7: shaolin280 (7921 in chips) 
+shaolin280: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 6c]
+scorza23: folds 
+shaolin280: calls 75
+MCLMUSIC: raises 1467 to 1617 and is all-in
+shaolin280: folds 
+Uncalled bet (1467) returned to MCLMUSIC
+MCLMUSIC collected 300 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: MCLMUSIC (big blind) collected (300)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763074590: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:21:09 UTC [2026/02/17 10:21:09 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 2: MCLMUSIC (1767 in chips) 
+Seat 6: scorza23 (3962 in chips) 
+Seat 7: shaolin280 (7771 in chips) 
+MCLMUSIC: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5d]
+shaolin280: folds 
+MCLMUSIC: folds 
+Uncalled bet (75) returned to scorza23
+scorza23 collected 150 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (150)
+Seat 7: shaolin280 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763075528: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:21:15 UTC [2026/02/17 10:21:15 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 2: MCLMUSIC (1692 in chips) 
+Seat 6: scorza23 (4037 in chips) 
+Seat 7: shaolin280 (7771 in chips) 
+scorza23: posts small blind 75
+shaolin280: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Tc]
+MCLMUSIC: folds 
+scorza23: folds 
+Uncalled bet (75) returned to shaolin280
+shaolin280 collected 150 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 2: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: shaolin280 (big blind) collected (150)
+
+
+
+PokerStars Hand #259763076801: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:21:23 UTC [2026/02/17 10:21:23 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 2: MCLMUSIC (1692 in chips) 
+Seat 6: scorza23 (3962 in chips) 
+Seat 7: shaolin280 (7846 in chips) 
+shaolin280: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Ac]
+scorza23: folds 
+shaolin280: folds 
+Uncalled bet (75) returned to MCLMUSIC
+MCLMUSIC collected 150 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 2: MCLMUSIC (big blind) collected (150)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763078517: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:21:33 UTC [2026/02/17 10:21:33 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 2: MCLMUSIC (1767 in chips) 
+Seat 6: scorza23 (3962 in chips) 
+Seat 7: shaolin280 (7771 in chips) 
+MCLMUSIC: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4d]
+shaolin280: calls 200
+MCLMUSIC: folds 
+scorza23: checks 
+*** FLOP *** [Jd 3c 6d]
+scorza23: checks 
+shaolin280: bets 250
+scorza23: calls 250
+*** TURN *** [Jd 3c 6d] [Jh]
+scorza23: checks 
+shaolin280: bets 1000
+scorza23: folds 
+Uncalled bet (1000) returned to shaolin280
+shaolin280 collected 1000 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [Jd 3c 6d Jh]
+Seat 2: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded on the Turn
+Seat 7: shaolin280 (button) collected (1000)
+
+
+
+PokerStars Hand #259763082272: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:21:56 UTC [2026/02/17 10:21:56 ET]
+Table '3975968186 1' 9-max Seat #2 is the button
+Seat 2: MCLMUSIC (1667 in chips) 
+Seat 6: scorza23 (3512 in chips) 
+Seat 7: shaolin280 (8321 in chips) 
+scorza23: posts small blind 100
+shaolin280: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Qc]
+MCLMUSIC: folds 
+scorza23: raises 3312 to 3512 and is all-in
+shaolin280: folds 
+Uncalled bet (3312) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (400)
+Seat 7: shaolin280 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763084636: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:22:10 UTC [2026/02/17 10:22:10 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 2: MCLMUSIC (1667 in chips) 
+Seat 6: scorza23 (3712 in chips) 
+Seat 7: shaolin280 (8121 in chips) 
+shaolin280: posts small blind 100
+MCLMUSIC: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Tc]
+scorza23: folds 
+shaolin280: calls 100
+MCLMUSIC: raises 1467 to 1667 and is all-in
+shaolin280: calls 1467
+*** FLOP *** [7d Ts 3s]
+*** TURN *** [7d Ts 3s] [Qs]
+*** RIVER *** [7d Ts 3s Qs] [2d]
+*** SHOW DOWN ***
+shaolin280: shows [3c 6c] (a pair of Threes)
+MCLMUSIC: shows [Ks Td] (a pair of Tens)
+MCLMUSIC collected 3334 from pot
+*** SUMMARY ***
+Total pot 3334 | Rake 0 
+Board [7d Ts 3s Qs 2d]
+Seat 2: MCLMUSIC (big blind) showed [Ks Td] and won (3334) with a pair of Tens
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: shaolin280 (small blind) showed [3c 6c] and lost with a pair of Threes
+
+
+
+PokerStars Hand #259763088418: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:22:32 UTC [2026/02/17 10:22:32 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 2: MCLMUSIC (3334 in chips) 
+Seat 6: scorza23 (3712 in chips) 
+Seat 7: shaolin280 (6454 in chips) 
+MCLMUSIC: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh As]
+shaolin280: folds 
+MCLMUSIC: raises 3134 to 3334 and is all-in
+scorza23: calls 3134
+*** FLOP *** [Jd Kc 2s]
+*** TURN *** [Jd Kc 2s] [4d]
+*** RIVER *** [Jd Kc 2s 4d] [Ah]
+*** SHOW DOWN ***
+MCLMUSIC: shows [6h 6d] (a pair of Sixes)
+scorza23: shows [Kh As] (two pair, Aces and Kings)
+scorza23 collected 6668 from pot
+MCLMUSIC finished the tournament in 3rd place and received $0.75.
+*** SUMMARY ***
+Total pot 6668 | Rake 0 
+Board [Jd Kc 2s 4d Ah]
+Seat 2: MCLMUSIC (small blind) showed [6h 6d] and lost with a pair of Sixes
+Seat 6: scorza23 (big blind) showed [Kh As] and won (6668) with two pair, Aces and Kings
+Seat 7: shaolin280 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763091891: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:22:53 UTC [2026/02/17 10:22:53 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (7046 in chips) 
+Seat 7: shaolin280 (6454 in chips) 
+scorza23: posts small blind 100
+shaolin280: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ah]
+scorza23: raises 6846 to 7046 and is all-in
+shaolin280: folds 
+Uncalled bet (6846) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 6: scorza23 (button) (small blind) collected (400)
+Seat 7: shaolin280 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763093601: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:23:03 UTC [2026/02/17 10:23:03 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 6: scorza23 (7246 in chips) 
+Seat 7: shaolin280 (6254 in chips) 
+shaolin280: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Kh]
+shaolin280: raises 200 to 400
+scorza23: folds 
+Uncalled bet (200) returned to shaolin280
+shaolin280 collected 400 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: shaolin280 (button) (small blind) collected (400)
+
+
+
+PokerStars Hand #259763094896: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:23:11 UTC [2026/02/17 10:23:11 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (7046 in chips) 
+Seat 7: shaolin280 (6454 in chips) 
+scorza23: posts small blind 100
+shaolin280: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Qc]
+scorza23: raises 400 to 600
+shaolin280: raises 5854 to 6454 and is all-in
+scorza23: folds 
+Uncalled bet (5854) returned to shaolin280
+shaolin280 collected 1200 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 6: scorza23 (button) (small blind) folded before Flop
+Seat 7: shaolin280 (big blind) collected (1200)
+
+
+
+PokerStars Hand #259763096552: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:23:21 UTC [2026/02/17 10:23:21 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 6: scorza23 (6446 in chips) 
+Seat 7: shaolin280 (7054 in chips) 
+shaolin280: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Qs]
+shaolin280: calls 100
+scorza23: checks 
+*** FLOP *** [2h 6d 9d]
+scorza23: checks 
+shaolin280: bets 200
+scorza23: folds 
+Uncalled bet (200) returned to shaolin280
+shaolin280 collected 400 from pot
+shaolin280: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [2h 6d 9d]
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 7: shaolin280 (button) (small blind) collected (400)
+
+
+
+PokerStars Hand #259763098558: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:23:33 UTC [2026/02/17 10:23:33 ET]
+Table '3975968186 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (6246 in chips) 
+Seat 7: shaolin280 (7254 in chips) 
+scorza23: posts small blind 100
+shaolin280: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ad]
+scorza23: raises 6046 to 6246 and is all-in
+shaolin280: folds 
+Uncalled bet (6046) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 6: scorza23 (button) (small blind) collected (400)
+Seat 7: shaolin280 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763100007: Tournament #3975968186, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:23:42 UTC [2026/02/17 10:23:42 ET]
+Table '3975968186 1' 9-max Seat #7 is the button
+Seat 6: scorza23 (6446 in chips) 
+Seat 7: shaolin280 (7054 in chips) 
+shaolin280: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9h]
+shaolin280: calls 100
+scorza23: raises 6246 to 6446 and is all-in
+shaolin280: calls 6246
+*** FLOP *** [8d Th Ts]
+*** TURN *** [8d Th Ts] [Ad]
+*** RIVER *** [8d Th Ts Ad] [7h]
+*** SHOW DOWN ***
+scorza23: shows [Qd 9h] (a pair of Tens)
+shaolin280: shows [Jd Qh] (a pair of Tens - Ace+Queen+Jack kicker)
+shaolin280 collected 12892 from pot
+scorza23 finished the tournament in 2nd place and received $1.13.
+shaolin280 wins the tournament and receives $1.90 - congratulations!
+*** SUMMARY ***
+Total pot 12892 | Rake 0 
+Board [8d Th Ts Ad 7h]
+Seat 6: scorza23 (big blind) showed [Qd 9h] and lost with a pair of Tens
+Seat 7: shaolin280 (button) (small blind) showed [Jd Qh] and won (12892) with a pair of Tens
+
+
+

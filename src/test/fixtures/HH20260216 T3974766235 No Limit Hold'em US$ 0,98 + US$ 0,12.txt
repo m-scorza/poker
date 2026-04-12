@@ -1,0 +1,3455 @@
+﻿PokerStars Hand #259755659642: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:19:59 UTC [2026/02/16 17:19:59 ET]
+Table '3974766235 6' 9-max Seat #1 is the button
+Seat 1: scorza23 (3000 in chips, $0.50 bounty) 
+Seat 2: NADA0605 (3000 in chips, $0.50 bounty) 
+Seat 3: EFilho87 (3000 in chips, $0.50 bounty) 
+Seat 4: Randy2023 (3000 in chips, $0.50 bounty) 
+Seat 5: DiegoDVSG (3000 in chips, $0.50 bounty) 
+Seat 7: trutek29 (3000 in chips, $0.50 bounty) 
+Seat 8: AFJunior0 (3000 in chips, $0.50 bounty) 
+Seat 9: RickGuild (3000 in chips, $0.50 bounty) 
+scorza23: posts the ante 4
+NADA0605: posts the ante 4
+EFilho87: posts the ante 4
+Randy2023: posts the ante 4
+DiegoDVSG: posts the ante 4
+trutek29: posts the ante 4
+AFJunior0: posts the ante 4
+RickGuild: posts the ante 4
+NADA0605: posts small blind 15
+EFilho87: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 9s]
+Randy2023: folds 
+DiegoDVSG: folds 
+trutek29: raises 30 to 60
+AFJunior0: folds 
+RickGuild: folds 
+scorza23: folds 
+NADA0605: raises 2936 to 2996 and is all-in
+EFilho87: folds 
+trutek29: folds 
+Uncalled bet (2936) returned to NADA0605
+NADA0605 collected 182 from pot
+*** SUMMARY ***
+Total pot 182 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: NADA0605 (small blind) collected (182)
+Seat 3: EFilho87 (big blind) folded before Flop
+Seat 4: Randy2023 folded before Flop (didn't bet)
+Seat 5: DiegoDVSG folded before Flop (didn't bet)
+Seat 7: trutek29 folded before Flop
+Seat 8: AFJunior0 folded before Flop (didn't bet)
+Seat 9: RickGuild folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755681461: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:21:24 UTC [2026/02/16 17:21:24 ET]
+Table '3974766235 6' 9-max Seat #2 is the button
+Seat 1: scorza23 (2996 in chips, $0.50 bounty) 
+Seat 2: NADA0605 (3118 in chips, $0.50 bounty) 
+Seat 3: EFilho87 (2966 in chips, $0.50 bounty) 
+Seat 4: Randy2023 (2996 in chips, $0.50 bounty) 
+Seat 5: DiegoDVSG (2996 in chips, $0.50 bounty) 
+Seat 6: Ricin465 (3000 in chips, $0.50 bounty) 
+Seat 7: trutek29 (2936 in chips, $0.50 bounty) 
+Seat 8: AFJunior0 (2996 in chips, $0.50 bounty) 
+Seat 9: RickGuild (2996 in chips, $0.50 bounty) 
+scorza23: posts the ante 4
+NADA0605: posts the ante 4
+EFilho87: posts the ante 4
+Randy2023: posts the ante 4
+DiegoDVSG: posts the ante 4
+Ricin465: posts the ante 4
+trutek29: posts the ante 4
+AFJunior0: posts the ante 4
+RickGuild: posts the ante 4
+EFilho87: posts small blind 15
+Randy2023: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 8h]
+DiegoDVSG: folds 
+Ricin465: folds 
+trutek29: raises 30 to 60
+AFJunior0: folds 
+RickGuild: folds 
+scorza23: folds 
+NADA0605: calls 60
+EFilho87: folds 
+Randy2023: calls 30
+*** FLOP *** [7d Jc 7c]
+Randy2023: checks 
+trutek29: checks 
+NADA0605: bets 231
+Randy2023: folds 
+trutek29: calls 231
+*** TURN *** [7d Jc 7c] [5d]
+trutek29: checks 
+NADA0605: bets 603
+trutek29: raises 603 to 1206
+NADA0605: raises 1617 to 2823 and is all-in
+trutek29: calls 1435 and is all-in
+Uncalled bet (182) returned to NADA0605
+*** RIVER *** [7d Jc 7c 5d] [Ah]
+*** SHOW DOWN ***
+trutek29: shows [Js 7s] (a full house, Sevens full of Jacks)
+NADA0605: shows [5c 7h] (a full house, Sevens full of Fives)
+trutek29 collected 5975 from pot
+*** SUMMARY ***
+Total pot 5975 | Rake 0 
+Board [7d Jc 7c 5d Ah]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: NADA0605 (button) showed [5c 7h] and lost with a full house, Sevens full of Fives
+Seat 3: EFilho87 (small blind) folded before Flop
+Seat 4: Randy2023 (big blind) folded on the Flop
+Seat 5: DiegoDVSG folded before Flop (didn't bet)
+Seat 6: Ricin465 folded before Flop (didn't bet)
+Seat 7: trutek29 showed [Js 7s] and won (5975) with a full house, Sevens full of Jacks
+Seat 8: AFJunior0 folded before Flop (didn't bet)
+Seat 9: RickGuild folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755714245: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:23:31 UTC [2026/02/16 17:23:31 ET]
+Table '3974766235 6' 9-max Seat #3 is the button
+Seat 1: scorza23 (2992 in chips, $0.50 bounty) 
+Seat 2: NADA0605 (182 in chips, $0.50 bounty) 
+Seat 3: EFilho87 (2947 in chips, $0.50 bounty) 
+Seat 4: Randy2023 (2932 in chips, $0.50 bounty) 
+Seat 6: Ricin465 (2996 in chips, $0.50 bounty) 
+Seat 7: trutek29 (5975 in chips, $0.50 bounty) 
+Seat 8: AFJunior0 (2992 in chips, $0.50 bounty) 
+Seat 9: RickGuild (2992 in chips, $0.50 bounty) 
+scorza23: posts the ante 4
+NADA0605: posts the ante 4
+EFilho87: posts the ante 4
+Randy2023: posts the ante 4
+Ricin465: posts the ante 4
+trutek29: posts the ante 4
+AFJunior0: posts the ante 4
+RickGuild: posts the ante 4
+Randy2023: posts small blind 15
+Ricin465: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 7h]
+trutek29: calls 30
+AFJunior0: folds 
+RickGuild: folds 
+scorza23: folds 
+NADA0605: raises 148 to 178 and is all-in
+EFilho87: folds 
+Randy2023: folds 
+Ricin465: calls 148
+trutek29: folds 
+*** FLOP *** [Ah 2s Kc]
+*** TURN *** [Ah 2s Kc] [Td]
+*** RIVER *** [Ah 2s Kc Td] [As]
+*** SHOW DOWN ***
+Ricin465: shows [Kd Th] (two pair, Aces and Kings)
+NADA0605: shows [7d 4d] (a pair of Aces)
+Ricin465 collected 433 from pot
+Ricin465 wins $0.25 for eliminating NADA0605 and their own bounty increases by $0.25 to $0.75
+NADA0605 finished the tournament
+*** SUMMARY ***
+Total pot 433 | Rake 0 
+Board [Ah 2s Kc Td As]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: NADA0605 showed [7d 4d] and lost with a pair of Aces
+Seat 3: EFilho87 (button) folded before Flop (didn't bet)
+Seat 4: Randy2023 (small blind) folded before Flop
+Seat 6: Ricin465 (big blind) showed [Kd Th] and won (433) with two pair, Aces and Kings
+Seat 7: trutek29 folded before Flop
+Seat 8: AFJunior0 folded before Flop (didn't bet)
+Seat 9: RickGuild folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755726084: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:24:18 UTC [2026/02/16 17:24:18 ET]
+Table '3974766235 6' 9-max Seat #4 is the button
+Seat 1: scorza23 (2988 in chips, $0.50 bounty) 
+Seat 3: EFilho87 (2943 in chips, $0.50 bounty) 
+Seat 4: Randy2023 (2913 in chips, $0.50 bounty) 
+Seat 5: maurmushi (3000 in chips) out of hand (moved from another table into small blind)
+Seat 6: Ricin465 (3247 in chips, $0.75 bounty) 
+Seat 7: trutek29 (5941 in chips, $0.50 bounty) 
+Seat 8: AFJunior0 (2988 in chips, $0.50 bounty) 
+Seat 9: RickGuild (2988 in chips, $0.50 bounty) 
+maurmushi will be allowed to play after the button
+scorza23: posts the ante 4
+EFilho87: posts the ante 4
+Randy2023: posts the ante 4
+Ricin465: posts the ante 4
+trutek29: posts the ante 4
+AFJunior0: posts the ante 4
+RickGuild: posts the ante 4
+Ricin465: posts small blind 15
+trutek29: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Td]
+AFJunior0: folds 
+RickGuild: folds 
+scorza23: folds 
+EFilho87: folds 
+Randy2023: raises 30 to 60
+Ricin465: calls 45
+trutek29: calls 30
+*** FLOP *** [Ks Kd Jd]
+zorohunter77 is disconnected 
+Ricin465: checks 
+trutek29: checks 
+Randy2023: bets 62
+Ricin465: folds 
+trutek29: folds 
+Uncalled bet (62) returned to Randy2023
+Randy2023 collected 208 from pot
+Randy2023: doesn't show hand 
+*** SUMMARY ***
+Total pot 208 | Rake 0 
+Board [Ks Kd Jd]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: EFilho87 folded before Flop (didn't bet)
+Seat 4: Randy2023 (button) collected (208)
+Seat 6: Ricin465 (small blind) folded on the Flop
+Seat 7: trutek29 (big blind) folded on the Flop
+Seat 8: AFJunior0 folded before Flop (didn't bet)
+Seat 9: RickGuild folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755744938: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:25:31 UTC [2026/02/16 17:25:31 ET]
+Table '3974766235 6' 9-max Seat #6 is the button
+Seat 1: scorza23 (2984 in chips, $0.50 bounty) 
+Seat 2: zorohunter77 (3000 in chips, $0.50 bounty) 
+Seat 3: EFilho87 (2939 in chips, $0.50 bounty) 
+Seat 4: Randy2023 (3057 in chips, $0.50 bounty) 
+Seat 5: maurmushi (3000 in chips, $0.50 bounty) 
+Seat 6: Ricin465 (3183 in chips, $0.75 bounty) 
+Seat 7: trutek29 (5877 in chips, $0.50 bounty) 
+Seat 8: AFJunior0 (2984 in chips, $0.50 bounty) 
+Seat 9: RickGuild (2984 in chips, $0.50 bounty) 
+scorza23: posts the ante 4
+zorohunter77: posts the ante 4
+EFilho87: posts the ante 4
+Randy2023: posts the ante 4
+maurmushi: posts the ante 4
+Ricin465: posts the ante 4
+trutek29: posts the ante 4
+AFJunior0: posts the ante 4
+RickGuild: posts the ante 4
+trutek29: posts small blind 15
+AFJunior0: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 5h]
+RickGuild: folds 
+scorza23: folds 
+zorohunter77: folds 
+EFilho87: raises 30 to 60
+Randy2023: folds 
+maurmushi: folds 
+Ricin465: raises 201 to 261
+trutek29: folds 
+AFJunior0: calls 231
+EFilho87: calls 201
+*** FLOP *** [8c Ts 2s]
+AFJunior0: checks 
+EFilho87: checks 
+Ricin465: bets 417
+AFJunior0: folds 
+EFilho87: calls 417
+*** TURN *** [8c Ts 2s] [2h]
+EFilho87: checks 
+Ricin465: bets 834
+EFilho87: calls 834
+*** RIVER *** [8c Ts 2s 2h] [6s]
+EFilho87: bets 1423 and is all-in
+Ricin465: calls 1423
+*** SHOW DOWN ***
+EFilho87: shows [8s 9s] (a flush, Ten high)
+Ricin465: shows [Kh Kc] (two pair, Kings and Deuces)
+EFilho87 collected 6182 from pot
+*** SUMMARY ***
+Total pot 6182 | Rake 0 
+Board [8c Ts 2s 2h 6s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: zorohunter77 folded before Flop (didn't bet)
+Seat 3: EFilho87 showed [8s 9s] and won (6182) with a flush, Ten high
+Seat 4: Randy2023 folded before Flop (didn't bet)
+Seat 5: maurmushi folded before Flop (didn't bet)
+Seat 6: Ricin465 (button) showed [Kh Kc] and lost with two pair, Kings and Deuces
+Seat 7: trutek29 (small blind) folded before Flop
+Seat 8: AFJunior0 (big blind) folded on the Flop
+Seat 9: RickGuild folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755768353: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:27:02 UTC [2026/02/16 17:27:02 ET]
+Table '3974766235 6' 9-max Seat #7 is the button
+Seat 1: scorza23 (2980 in chips, $0.50 bounty) 
+Seat 2: zorohunter77 (2996 in chips, $0.50 bounty) 
+Seat 3: EFilho87 (6182 in chips, $0.50 bounty) 
+Seat 4: Randy2023 (3053 in chips, $0.50 bounty) 
+Seat 5: maurmushi (2996 in chips, $0.50 bounty) 
+Seat 6: Ricin465 (244 in chips, $0.75 bounty) 
+Seat 7: trutek29 (5858 in chips, $0.50 bounty) 
+Seat 8: AFJunior0 (2719 in chips, $0.50 bounty) 
+Seat 9: RickGuild (2980 in chips, $0.50 bounty) 
+scorza23: posts the ante 4
+zorohunter77: posts the ante 4
+EFilho87: posts the ante 4
+Randy2023: posts the ante 4
+maurmushi: posts the ante 4
+Ricin465: posts the ante 4
+trutek29: posts the ante 4
+AFJunior0: posts the ante 4
+RickGuild: posts the ante 4
+AFJunior0: posts small blind 15
+RickGuild: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Tc]
+scorza23: folds 
+zorohunter77: raises 30 to 60
+EFilho87: folds 
+Randy2023: folds 
+maurmushi: calls 60
+Ricin465: raises 180 to 240 and is all-in
+trutek29: calls 240
+AFJunior0: folds 
+RickGuild: folds 
+zorohunter77: folds 
+maurmushi: calls 180
+*** FLOP *** [7d Jh Qc]
+maurmushi: bets 861
+trutek29: calls 861
+*** TURN *** [7d Jh Qc] [Qh]
+maurmushi: bets 1891 and is all-in
+trutek29: calls 1891
+*** RIVER *** [7d Jh Qc Qh] [3h]
+*** SHOW DOWN ***
+maurmushi: shows [Qs 8c] (three of a kind, Queens)
+trutek29: shows [Jc Td] (two pair, Queens and Jacks)
+maurmushi collected 5504 from side pot
+Ricin465: shows [9c 7c] (two pair, Queens and Sevens)
+maurmushi collected 861 from main pot
+maurmushi wins $0.38 for eliminating Ricin465 and their own bounty increases by $0.37 to $0.87
+Ricin465 finished the tournament
+*** SUMMARY ***
+Total pot 6365 Main pot 861. Side pot 5504. | Rake 0 
+Board [7d Jh Qc Qh 3h]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: zorohunter77 folded before Flop
+Seat 3: EFilho87 folded before Flop (didn't bet)
+Seat 4: Randy2023 folded before Flop (didn't bet)
+Seat 5: maurmushi showed [Qs 8c] and won (6365) with three of a kind, Queens
+Seat 6: Ricin465 showed [9c 7c] and lost with two pair, Queens and Sevens
+Seat 7: trutek29 (button) showed [Jc Td] and lost with two pair, Queens and Jacks
+Seat 8: AFJunior0 (small blind) folded before Flop
+Seat 9: RickGuild (big blind) folded before Flop
+
+
+
+PokerStars Hand #259755792054: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:28:35 UTC [2026/02/16 17:28:35 ET]
+Table '3974766235 15' 9-max Seat #1 is the button
+Seat 1: SQUEEZE67 (2972 in chips, $0.50 bounty) 
+Seat 2: Guya420 (2965 in chips, $0.50 bounty) 
+Seat 3: scorza23 (2976 in chips, $0.50 bounty) 
+Seat 4: millitapoker (3000 in chips, $0.50 bounty) 
+Seat 5: C iço636 (3000 in chips, $0.50 bounty) 
+Seat 6: Fatum1097 (4822 in chips, $0.50 bounty) 
+SQUEEZE67: posts the ante 4
+Guya420: posts the ante 4
+scorza23: posts the ante 4
+millitapoker: posts the ante 4
+C iço636: posts the ante 4
+Fatum1097: posts the ante 4
+Guya420: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 7c]
+millitapoker is connected 
+millitapoker is disconnected 
+millitapoker is connected 
+Fatum1097 is disconnected 
+ironkyl is disconnected 
+millitapoker: calls 30
+C iço636: calls 30
+Atiliio is disconnected 
+helppppm3 is disconnected 
+Fatum1097: folds 
+SQUEEZE67: raises 159 to 189
+Guya420: folds 
+scorza23: folds 
+millitapoker: folds 
+C iço636: calls 159
+*** FLOP *** [3h 6h 4s]
+C iço636: checks 
+SQUEEZE67: bets 477
+C iço636: calls 477
+*** TURN *** [3h 6h 4s] [Ac]
+C iço636: checks 
+SQUEEZE67: checks 
+*** RIVER *** [3h 6h 4s Ac] [4c]
+C iço636: checks 
+SQUEEZE67: bets 1431
+C iço636: folds 
+Uncalled bet (1431) returned to SQUEEZE67
+SQUEEZE67 collected 1431 from pot
+SQUEEZE67: doesn't show hand 
+*** SUMMARY ***
+Total pot 1431 | Rake 0 
+Board [3h 6h 4s Ac 4c]
+Seat 1: SQUEEZE67 (button) collected (1431)
+Seat 2: Guya420 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: millitapoker folded before Flop
+Seat 5: C iço636 folded on the River
+Seat 6: Fatum1097 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755809638: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level I (15/30) - 2026/02/16 22:29:44 UTC [2026/02/16 17:29:44 ET]
+Table '3974766235 15' 9-max Seat #2 is the button
+Seat 1: SQUEEZE67 (3733 in chips, $0.50 bounty) 
+Seat 2: Guya420 (2946 in chips, $0.50 bounty) 
+Seat 3: scorza23 (2942 in chips, $0.50 bounty) 
+Seat 4: millitapoker (2966 in chips, $0.50 bounty) 
+Seat 5: C iço636 (2330 in chips, $0.50 bounty) 
+Seat 6: Fatum1097 (4818 in chips, $0.50 bounty) 
+Seat 7: ironkyl (2724 in chips, $0.50 bounty) 
+Seat 8: Atiliio (3000 in chips, $0.50 bounty) 
+Seat 9: helppppm3 (3000 in chips, $0.50 bounty) 
+SQUEEZE67: posts the ante 4
+Guya420: posts the ante 4
+scorza23: posts the ante 4
+millitapoker: posts the ante 4
+C iço636: posts the ante 4
+Fatum1097: posts the ante 4
+ironkyl: posts the ante 4
+Atiliio: posts the ante 4
+helppppm3: posts the ante 4
+scorza23: posts small blind 15
+millitapoker: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 4c]
+C iço636: folds 
+Fatum1097: raises 33 to 63
+ironkyl: folds 
+Atiliio: folds 
+helppppm3: calls 63
+SQUEEZE67: folds 
+Guya420: calls 63
+scorza23: folds 
+millitapoker: calls 33
+*** FLOP *** [Th Ah 6c]
+millitapoker: checks 
+Fatum1097: checks 
+helppppm3: checks 
+Guya420: bets 112
+millitapoker: folds 
+Fatum1097: folds 
+helppppm3: calls 112
+*** TURN *** [Th Ah 6c] [6s]
+helppppm3: checks 
+Guya420: checks 
+*** RIVER *** [Th Ah 6c 6s] [Kh]
+helppppm3: checks 
+Guya420: checks 
+*** SHOW DOWN ***
+helppppm3: shows [8c Tc] (two pair, Tens and Sixes)
+Guya420: shows [5d Td] (two pair, Tens and Sixes)
+helppppm3 collected 264 from pot
+Guya420 collected 263 from pot
+*** SUMMARY ***
+Total pot 527 | Rake 0 
+Board [Th Ah 6c 6s Kh]
+Seat 1: SQUEEZE67 folded before Flop (didn't bet)
+Seat 2: Guya420 (button) showed [5d Td] and won (263) with two pair, Tens and Sixes
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: millitapoker (big blind) folded on the Flop
+Seat 5: C iço636 folded before Flop (didn't bet)
+Seat 6: Fatum1097 folded on the Flop
+Seat 7: ironkyl folded before Flop (didn't bet)
+Seat 8: Atiliio folded before Flop (didn't bet)
+Seat 9: helppppm3 showed [8c Tc] and won (264) with two pair, Tens and Sixes
+
+
+
+PokerStars Hand #259755836140: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:31:27 UTC [2026/02/16 17:31:27 ET]
+Table '3974766235 15' 9-max Seat #3 is the button
+Seat 1: SQUEEZE67 (3729 in chips, $0.50 bounty) 
+Seat 2: Guya420 (3030 in chips, $0.50 bounty) 
+Seat 3: scorza23 (2923 in chips, $0.50 bounty) 
+Seat 4: millitapoker (2899 in chips, $0.50 bounty) 
+Seat 5: C iço636 (2326 in chips, $0.50 bounty) 
+Seat 6: Fatum1097 (4751 in chips, $0.50 bounty) 
+Seat 7: ironkyl (2720 in chips, $0.50 bounty) 
+Seat 8: Atiliio (2996 in chips, $0.50 bounty) 
+Seat 9: helppppm3 (3085 in chips, $0.50 bounty) 
+SQUEEZE67: posts the ante 5
+Guya420: posts the ante 5
+scorza23: posts the ante 5
+millitapoker: posts the ante 5
+C iço636: posts the ante 5
+Fatum1097: posts the ante 5
+ironkyl: posts the ante 5
+Atiliio: posts the ante 5
+helppppm3: posts the ante 5
+millitapoker: posts small blind 20
+C iço636: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Jd]
+Fatum1097: folds 
+ironkyl: folds 
+Atiliio: folds 
+helppppm3: folds 
+SQUEEZE67: calls 40
+Guya420: folds 
+scorza23: folds 
+millitapoker: calls 20
+C iço636: checks 
+*** FLOP *** [6s Th 5s]
+millitapoker: checks 
+C iço636: checks 
+SQUEEZE67: bets 83
+millitapoker: calls 83
+C iço636: raises 1037 to 1120
+SQUEEZE67: calls 1037
+millitapoker: folds 
+*** TURN *** [6s Th 5s] [Jc]
+C iço636: checks 
+SQUEEZE67: bets 2564 and is all-in
+C iço636: calls 1161 and is all-in
+Uncalled bet (1403) returned to SQUEEZE67
+*** RIVER *** [6s Th 5s Jc] [9h]
+*** SHOW DOWN ***
+C iço636: shows [Td 4s] (a pair of Tens)
+SQUEEZE67: shows [Tc 8s] (a pair of Tens - Jack+Nine+Eight kicker)
+SQUEEZE67 collected 4810 from pot
+SQUEEZE67 wins $0.25 for eliminating C iço636 and their own bounty increases by $0.25 to $0.75
+C iço636 finished the tournament
+*** SUMMARY ***
+Total pot 4810 | Rake 0 
+Board [6s Th 5s Jc 9h]
+Seat 1: SQUEEZE67 showed [Tc 8s] and won (4810) with a pair of Tens
+Seat 2: Guya420 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: millitapoker (small blind) folded on the Flop
+Seat 5: C iço636 (big blind) showed [Td 4s] and lost with a pair of Tens
+Seat 6: Fatum1097 folded before Flop (didn't bet)
+Seat 7: ironkyl folded before Flop (didn't bet)
+Seat 8: Atiliio folded before Flop (didn't bet)
+Seat 9: helppppm3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755855234: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:32:42 UTC [2026/02/16 17:32:42 ET]
+Table '3974766235 15' 9-max Seat #4 is the button
+Seat 1: SQUEEZE67 (6213 in chips, $0.75 bounty) 
+Seat 2: Guya420 (3025 in chips, $0.50 bounty) 
+Seat 3: scorza23 (2918 in chips, $0.50 bounty) 
+Seat 4: millitapoker (2771 in chips, $0.50 bounty) 
+Seat 6: Fatum1097 (4746 in chips, $0.50 bounty) 
+Seat 7: ironkyl (2715 in chips, $0.50 bounty) 
+Seat 8: Atiliio (2991 in chips, $0.50 bounty) 
+Seat 9: helppppm3 (3080 in chips, $0.50 bounty) 
+SQUEEZE67: posts the ante 5
+Guya420: posts the ante 5
+scorza23: posts the ante 5
+millitapoker: posts the ante 5
+Fatum1097: posts the ante 5
+ironkyl: posts the ante 5
+Atiliio: posts the ante 5
+helppppm3: posts the ante 5
+Fatum1097: posts small blind 20
+ironkyl: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 2s]
+Atiliio: folds 
+helppppm3: folds 
+SQUEEZE67: calls 40
+Guya420: folds 
+scorza23: folds 
+millitapoker: calls 40
+Fatum1097: folds 
+ironkyl: checks 
+*** FLOP *** [Ac Kc Qc]
+ironkyl: checks 
+SQUEEZE67: bets 40
+millitapoker: calls 40
+ironkyl: calls 40
+*** TURN *** [Ac Kc Qc] [4h]
+ironkyl: checks 
+SQUEEZE67: bets 40
+millitapoker: calls 40
+ironkyl: calls 40
+*** RIVER *** [Ac Kc Qc 4h] [9s]
+ironkyl: checks 
+SQUEEZE67: bets 40
+millitapoker: folds 
+ironkyl: folds 
+Uncalled bet (40) returned to SQUEEZE67
+SQUEEZE67 collected 420 from pot
+SQUEEZE67: doesn't show hand 
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Board [Ac Kc Qc 4h 9s]
+Seat 1: SQUEEZE67 collected (420)
+Seat 2: Guya420 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: millitapoker (button) folded on the River
+Seat 6: Fatum1097 (small blind) folded before Flop
+Seat 7: ironkyl (big blind) folded on the River
+Seat 8: Atiliio folded before Flop (didn't bet)
+Seat 9: helppppm3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755880034: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:34:19 UTC [2026/02/16 17:34:19 ET]
+Table '3974766235 15' 9-max Seat #6 is the button
+Seat 1: SQUEEZE67 (6508 in chips, $0.75 bounty) 
+Seat 3: scorza23 (2913 in chips, $0.50 bounty) 
+Seat 4: millitapoker (2646 in chips, $0.50 bounty) 
+Seat 5: C iço636 (3000 in chips, $0.50 bounty) 
+Seat 6: Fatum1097 (4721 in chips, $0.50 bounty) 
+Seat 7: ironkyl (2590 in chips, $0.50 bounty) 
+Seat 8: Atiliio (2986 in chips, $0.50 bounty) 
+Seat 9: helppppm3 (3075 in chips, $0.50 bounty) 
+SQUEEZE67: posts the ante 5
+scorza23: posts the ante 5
+millitapoker: posts the ante 5
+C iço636: posts the ante 5
+Fatum1097: posts the ante 5
+ironkyl: posts the ante 5
+Atiliio: posts the ante 5
+helppppm3: posts the ante 5
+ironkyl: posts small blind 20
+Atiliio: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Ks]
+helppppm3: folds 
+SQUEEZE67: folds 
+scorza23: folds 
+millitapoker: calls 40
+C iço636: folds 
+Fatum1097: calls 40
+ironkyl: calls 20
+Atiliio: checks 
+*** FLOP *** [Tc Jd 5s]
+ironkyl: checks 
+Atiliio: checks 
+millitapoker: checks 
+Fatum1097: checks 
+*** TURN *** [Tc Jd 5s] [Js]
+ironkyl: checks 
+Atiliio: checks 
+millitapoker: checks 
+Fatum1097: checks 
+*** RIVER *** [Tc Jd 5s Js] [2h]
+ironkyl: checks 
+Atiliio: checks 
+millitapoker: checks 
+Fatum1097: checks 
+*** SHOW DOWN ***
+ironkyl: shows [Ah 6s] (a pair of Jacks)
+Atiliio: mucks hand 
+millitapoker: mucks hand 
+Fatum1097: mucks hand 
+ironkyl collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [Tc Jd 5s Js 2h]
+Seat 1: SQUEEZE67 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: millitapoker mucked [Qs 9h]
+Seat 5: C iço636 folded before Flop (didn't bet)
+Seat 6: Fatum1097 (button) mucked [7h Kh]
+Seat 7: ironkyl (small blind) showed [Ah 6s] and won (200) with a pair of Jacks
+Seat 8: Atiliio (big blind) mucked [3h 8d]
+Seat 9: helppppm3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755896175: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:35:23 UTC [2026/02/16 17:35:23 ET]
+Table '3974766235 15' 9-max Seat #7 is the button
+Seat 1: SQUEEZE67 (6503 in chips, $0.75 bounty) 
+Seat 3: scorza23 (2908 in chips, $0.50 bounty) 
+Seat 4: millitapoker (2601 in chips, $0.50 bounty) 
+Seat 5: C iço636 (2995 in chips, $0.50 bounty) 
+Seat 6: Fatum1097 (4676 in chips, $0.50 bounty) 
+Seat 7: ironkyl (2745 in chips, $0.50 bounty) 
+Seat 8: Atiliio (2941 in chips, $0.50 bounty) 
+Seat 9: helppppm3 (3070 in chips, $0.50 bounty) 
+SQUEEZE67: posts the ante 5
+scorza23: posts the ante 5
+millitapoker: posts the ante 5
+C iço636: posts the ante 5
+Fatum1097: posts the ante 5
+ironkyl: posts the ante 5
+Atiliio: posts the ante 5
+helppppm3: posts the ante 5
+Atiliio: posts small blind 20
+helppppm3: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Qc]
+SQUEEZE67: folds 
+scorza23: raises 44 to 84
+millitapoker: folds 
+C iço636: calls 84
+Fatum1097: raises 284 to 368
+ironkyl: folds 
+Atiliio: folds 
+helppppm3: folds 
+scorza23: calls 284
+C iço636: calls 284
+*** FLOP *** [Ts 7d 4d]
+scorza23: bets 84
+C iço636: calls 84
+Fatum1097: folds 
+*** TURN *** [Ts 7d 4d] [9s]
+scorza23: bets 84
+C iço636: calls 84
+*** RIVER *** [Ts 7d 4d 9s] [7h]
+scorza23: bets 1540
+C iço636: folds 
+Uncalled bet (1540) returned to scorza23
+scorza23 collected 1540 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1540 | Rake 0 
+Board [Ts 7d 4d 9s 7h]
+Seat 1: SQUEEZE67 folded before Flop (didn't bet)
+Seat 3: scorza23 collected (1540)
+Seat 4: millitapoker folded before Flop (didn't bet)
+Seat 5: C iço636 folded on the River
+Seat 6: Fatum1097 folded on the Flop
+Seat 7: ironkyl (button) folded before Flop (didn't bet)
+Seat 8: Atiliio (small blind) folded before Flop
+Seat 9: helppppm3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259755911998: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:36:26 UTC [2026/02/16 17:36:26 ET]
+Table '3974766235 15' 9-max Seat #8 is the button
+Seat 1: SQUEEZE67 (6498 in chips, $0.75 bounty) 
+Seat 3: scorza23 (3907 in chips, $0.50 bounty) 
+Seat 4: millitapoker (2596 in chips, $0.50 bounty) 
+Seat 5: C iço636 (2454 in chips, $0.50 bounty) 
+Seat 6: Fatum1097 (4303 in chips, $0.50 bounty) 
+Seat 7: ironkyl (2740 in chips, $0.50 bounty) 
+Seat 8: Atiliio (2916 in chips, $0.50 bounty) 
+Seat 9: helppppm3 (3025 in chips, $0.50 bounty) 
+SQUEEZE67: posts the ante 5
+scorza23: posts the ante 5
+millitapoker: posts the ante 5
+C iço636: posts the ante 5
+Fatum1097: posts the ante 5
+ironkyl: posts the ante 5
+Atiliio: posts the ante 5
+helppppm3: posts the ante 5
+helppppm3: posts small blind 20
+SQUEEZE67: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ac]
+scorza23: folds 
+millitapoker: calls 40
+C iço636: calls 40
+Fatum1097: folds 
+ironkyl: folds 
+Atiliio: raises 160 to 200
+ad.macedo is disconnected 
+helppppm3: folds 
+SQUEEZE67: calls 160
+millitapoker: calls 160
+C iço636: calls 160
+*** FLOP *** [9h 8s 5c]
+SQUEEZE67: checks 
+millitapoker: checks 
+C iço636: checks 
+Atiliio: checks 
+*** TURN *** [9h 8s 5c] [Qh]
+SQUEEZE67: bets 860
+millitapoker: calls 860
+C iço636: calls 860
+Atiliio: folds 
+*** RIVER *** [9h 8s 5c Qh] [7c]
+SQUEEZE67: bets 3440
+millitapoker: calls 1531 and is all-in
+C iço636: calls 1389 and is all-in
+Uncalled bet (1909) returned to SQUEEZE67
+*** SHOW DOWN ***
+SQUEEZE67: shows [Jd Td] (a straight, Eight to Queen)
+millitapoker: shows [Ks Qs] (a pair of Queens)
+SQUEEZE67 collected 284 from side pot
+C iço636: shows [Th 6h] (a straight, Six to Ten)
+SQUEEZE67 collected 7607 from main pot
+SQUEEZE67 wins $0.25 for eliminating millitapoker and their own bounty increases by $0.25 to $1
+SQUEEZE67 wins $0.25 for eliminating C iço636 and their own bounty increases by $0.25 to $1.25
+millitapoker finished the tournament
+C iço636 finished the tournament
+*** SUMMARY ***
+Total pot 7891 Main pot 7607. Side pot 284. | Rake 0 
+Board [9h 8s 5c Qh 7c]
+Seat 1: SQUEEZE67 (big blind) showed [Jd Td] and won (7891) with a straight, Eight to Queen
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: millitapoker showed [Ks Qs] and lost with a pair of Queens
+Seat 5: C iço636 showed [Th 6h] and lost with a straight, Six to Ten
+Seat 6: Fatum1097 folded before Flop (didn't bet)
+Seat 7: ironkyl folded before Flop (didn't bet)
+Seat 8: Atiliio (button) folded on the Turn
+Seat 9: helppppm3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259755928579: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:37:32 UTC [2026/02/16 17:37:32 ET]
+Table '3974766235 19' 9-max Seat #1 is the button
+Seat 1: paymeBill (3759 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2574 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2980 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3085 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3902 in chips, $0.50 bounty) 
+Seat 8: Rafaelsans (3000 in chips, $0.50 bounty) 
+paymeBill: posts the ante 5
+luucalis_: posts the ante 5
+The_Aquino: posts the ante 5
+DoadorDonkey: posts the ante 5
+scorza23: posts the ante 5
+Rafaelsans: posts the ante 5
+luucalis_: posts small blind 20
+The_Aquino: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Qc]
+scorza23 is disconnected 
+Rafaelsans is disconnected 
+p1stolboy is disconnected 
+DoadorDonkey: folds 
+scorza23: folds 
+Rafaelsans: folds 
+paymeBill: raises 40 to 80
+luucalis_: calls 60
+The_Aquino: folds 
+*** FLOP *** [Js Jc 2s]
+luucalis_: checks 
+paymeBill: bets 76
+luucalis_: calls 76
+*** TURN *** [Js Jc 2s] [8s]
+luucalis_: checks 
+paymeBill: bets 252
+luucalis_: folds 
+Uncalled bet (252) returned to paymeBill
+paymeBill collected 382 from pot
+paymeBill: doesn't show hand 
+*** SUMMARY ***
+Total pot 382 | Rake 0 
+Board [Js Jc 2s 8s]
+Seat 1: paymeBill (button) collected (382)
+Seat 2: luucalis_ (small blind) folded on the Turn
+Seat 3: The_Aquino (big blind) folded before Flop
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rafaelsans folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755942560: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:38:27 UTC [2026/02/16 17:38:27 ET]
+Table '3974766235 19' 9-max Seat #2 is the button
+Seat 1: paymeBill (3980 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2413 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2935 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3080 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3897 in chips, $0.50 bounty) 
+Seat 6: Schmatzo08 (2733 in chips, $0.50 bounty) 
+Seat 8: Rafaelsans (2995 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (3000 in chips, $0.50 bounty) 
+paymeBill: posts the ante 5
+luucalis_: posts the ante 5
+The_Aquino: posts the ante 5
+DoadorDonkey: posts the ante 5
+scorza23: posts the ante 5
+Schmatzo08: posts the ante 5
+Rafaelsans: posts the ante 5
+p1stolboy: posts the ante 5
+The_Aquino: posts small blind 20
+DoadorDonkey: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 8d]
+scorza23: folds 
+Schmatzo08: calls 40
+Rafaelsans: folds 
+p1stolboy: raises 40 to 80
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: calls 60
+DoadorDonkey: raises 320 to 400
+Schmatzo08: folds 
+p1stolboy: folds 
+The_Aquino: folds 
+Uncalled bet (320) returned to DoadorDonkey
+DoadorDonkey collected 320 from pot
+DoadorDonkey: doesn't show hand 
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ (button) folded before Flop (didn't bet)
+Seat 3: The_Aquino (small blind) folded before Flop
+Seat 4: DoadorDonkey (big blind) collected (320)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Schmatzo08 folded before Flop
+Seat 8: Rafaelsans folded before Flop (didn't bet)
+Seat 9: p1stolboy folded before Flop
+
+
+
+PokerStars Hand #259755954814: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:39:16 UTC [2026/02/16 17:39:16 ET]
+Table '3974766235 19' 9-max Seat #3 is the button
+Seat 1: paymeBill (3975 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2408 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2850 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3315 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3892 in chips, $0.50 bounty) 
+Seat 6: Schmatzo08 (2688 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (3000 in chips, $0.50 bounty) 
+Seat 8: Rafaelsans (2990 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (2915 in chips, $0.50 bounty) 
+paymeBill: posts the ante 5
+luucalis_: posts the ante 5
+The_Aquino: posts the ante 5
+DoadorDonkey: posts the ante 5
+scorza23: posts the ante 5
+Schmatzo08: posts the ante 5
+AquilesRV: posts the ante 5
+Rafaelsans: posts the ante 5
+p1stolboy: posts the ante 5
+DoadorDonkey: posts small blind 20
+scorza23: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 7d]
+Schmatzo08: raises 40 to 80
+AquilesRV: folds 
+Rafaelsans: folds 
+p1stolboy: raises 2830 to 2910 and is all-in
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+Schmatzo08: calls 2603 and is all-in
+Uncalled bet (227) returned to p1stolboy
+*** FLOP *** [4d 8c 9h]
+*** TURN *** [4d 8c 9h] [3d]
+*** RIVER *** [4d 8c 9h 3d] [5c]
+*** SHOW DOWN ***
+Schmatzo08: shows [Kh Jh] (high card King)
+p1stolboy: shows [Ad Kd] (high card Ace)
+p1stolboy collected 5471 from pot
+p1stolboy wins $0.25 for eliminating Schmatzo08 and their own bounty increases by $0.25 to $0.75
+Schmatzo08 finished the tournament
+*** SUMMARY ***
+Total pot 5471 | Rake 0 
+Board [4d 8c 9h 3d 5c]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino (button) folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: Schmatzo08 showed [Kh Jh] and lost with high card King
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: Rafaelsans folded before Flop (didn't bet)
+Seat 9: p1stolboy showed [Ad Kd] and won (5471) with high card Ace
+
+
+
+PokerStars Hand #259755963333: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level II (20/40) - 2026/02/16 22:39:50 UTC [2026/02/16 17:39:50 ET]
+Table '3974766235 19' 9-max Seat #4 is the button
+Seat 1: paymeBill (3970 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2403 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2845 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3290 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3847 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2995 in chips, $0.50 bounty) 
+Seat 8: Rafaelsans (2985 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5698 in chips, $0.75 bounty) 
+paymeBill: posts the ante 5
+luucalis_: posts the ante 5
+The_Aquino: posts the ante 5
+DoadorDonkey: posts the ante 5
+scorza23: posts the ante 5
+AquilesRV: posts the ante 5
+Rafaelsans: posts the ante 5
+p1stolboy: posts the ante 5
+scorza23: posts small blind 20
+AquilesRV: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 9d]
+Rafaelsans: folds 
+p1stolboy: folds 
+paymeBill: raises 40 to 80
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+AquilesRV: calls 40
+*** FLOP *** [Js Jc 5h]
+AquilesRV: checks 
+paymeBill: bets 73
+AquilesRV: calls 73
+*** TURN *** [Js Jc 5h] [2d]
+AquilesRV: checks 
+paymeBill: bets 202
+AquilesRV: folds 
+Uncalled bet (202) returned to paymeBill
+paymeBill collected 366 from pot
+paymeBill: doesn't show hand 
+*** SUMMARY ***
+Total pot 366 | Rake 0 
+Board [Js Jc 5h 2d]
+Seat 1: paymeBill collected (366)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 7: AquilesRV (big blind) folded on the Turn
+Seat 8: Rafaelsans folded before Flop (didn't bet)
+Seat 9: p1stolboy folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755978746: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:40:51 UTC [2026/02/16 17:40:51 ET]
+Table '3974766235 19' 9-max Seat #5 is the button
+Seat 1: paymeBill (4178 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2398 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2840 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3285 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3822 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2837 in chips, $0.50 bounty) 
+Seat 8: Rafaelsans (2980 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5693 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+AquilesRV: posts the ante 6
+Rafaelsans: posts the ante 6
+p1stolboy: posts the ante 6
+AquilesRV: posts small blind 25
+Rafaelsans: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 9d]
+p1stolboy: folds 
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+AquilesRV: raises 50 to 100
+Rafaelsans: raises 348 to 448
+AquilesRV: folds 
+Uncalled bet (348) returned to Rafaelsans
+Rafaelsans collected 248 from pot
+Rafaelsans: doesn't show hand 
+*** SUMMARY ***
+Total pot 248 | Rake 0 
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: AquilesRV (small blind) folded before Flop
+Seat 8: Rafaelsans (big blind) collected (248)
+Seat 9: p1stolboy folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755984155: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:41:14 UTC [2026/02/16 17:41:14 ET]
+Table '3974766235 19' 9-max Seat #7 is the button
+Seat 1: paymeBill (4172 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2392 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2834 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3279 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3816 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2731 in chips, $0.50 bounty) 
+Seat 8: Rafaelsans (3122 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5687 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+AquilesRV: posts the ante 6
+Rafaelsans: posts the ante 6
+p1stolboy: posts the ante 6
+Rafaelsans: posts small blind 25
+p1stolboy: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 8d]
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: raises 50 to 100
+DoadorDonkey: folds 
+scorza23: calls 100
+AquilesRV: calls 100
+Rafaelsans: folds 
+p1stolboy: calls 50
+*** FLOP *** [9s Qd Jh]
+p1stolboy: checks 
+The_Aquino: checks 
+scorza23: checks 
+AquilesRV: bets 287
+p1stolboy: folds 
+The_Aquino: folds 
+scorza23: folds 
+Uncalled bet (287) returned to AquilesRV
+AquilesRV collected 473 from pot
+*** SUMMARY ***
+Total pot 473 | Rake 0 
+Board [9s Qd Jh]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded on the Flop
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded on the Flop
+Seat 7: AquilesRV (button) collected (473)
+Seat 8: Rafaelsans (small blind) folded before Flop
+Seat 9: p1stolboy (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259755996974: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:42:06 UTC [2026/02/16 17:42:06 ET]
+Table '3974766235 19' 9-max Seat #8 is the button
+Seat 1: paymeBill (4166 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2386 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2728 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3273 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3710 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (3098 in chips, $0.50 bounty) 
+Seat 8: Rafaelsans (3091 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5581 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+AquilesRV: posts the ante 6
+Rafaelsans: posts the ante 6
+p1stolboy: posts the ante 6
+p1stolboy: posts small blind 25
+paymeBill: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Jd]
+luucalis_: raises 50 to 100
+The_Aquino: folds 
+DoadorDonkey: calls 100
+scorza23: folds 
+AquilesRV: folds 
+Rafaelsans: calls 100
+p1stolboy: folds 
+paymeBill: calls 50
+*** FLOP *** [7d 9d 7h]
+paymeBill: checks 
+luucalis_: checks 
+DoadorDonkey: checks 
+Rafaelsans: checks 
+*** TURN *** [7d 9d 7h] [Th]
+paymeBill: bets 312
+luucalis_: calls 312
+DoadorDonkey: calls 312
+Rafaelsans: calls 312
+*** RIVER *** [7d 9d 7h Th] [8d]
+chupeta62 is disconnected 
+paymeBill: bets 3748 and is all-in
+luucalis_: folds 
+DoadorDonkey: folds 
+Rafaelsans: calls 2673 and is all-in
+Uncalled bet (1075) returned to paymeBill
+*** SHOW DOWN ***
+paymeBill: shows [8s 7s] (a full house, Sevens full of Eights)
+Rafaelsans: shows [5d Ad] (a flush, Ace high)
+paymeBill collected 7067 from pot
+paymeBill wins $0.25 for eliminating Rafaelsans and their own bounty increases by $0.25 to $0.75
+Rafaelsans finished the tournament
+*** SUMMARY ***
+Total pot 7067 | Rake 0 
+Board [7d 9d 7h Th 8d]
+Seat 1: paymeBill (big blind) showed [8s 7s] and won (7067) with a full house, Sevens full of Eights
+Seat 2: luucalis_ folded on the River
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded on the River
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: Rafaelsans (button) showed [5d Ad] and lost with a flush, Ace high
+Seat 9: p1stolboy (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756016978: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:43:28 UTC [2026/02/16 17:43:28 ET]
+Table '3974766235 19' 9-max Seat #9 is the button
+Seat 1: paymeBill (8142 in chips, $0.75 bounty) 
+Seat 2: luucalis_ (1968 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2722 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (2855 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3704 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3000 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (3092 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5550 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+chupeta62: posts the ante 6
+AquilesRV: posts the ante 6
+p1stolboy: posts the ante 6
+paymeBill: posts small blind 25
+luucalis_: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Td]
+The_Aquino: raises 50 to 100
+DoadorDonkey: calls 100
+scorza23: folds 
+chupeta62: calls 100
+AquilesRV: raises 373 to 473
+p1stolboy: folds 
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 373
+chupeta62: folds 
+*** FLOP *** [7c Kh 4h]
+DoadorDonkey: bets 1269
+AquilesRV: folds 
+Uncalled bet (1269) returned to DoadorDonkey
+DoadorDonkey collected 1269 from pot
+DoadorDonkey: doesn't show hand 
+*** SUMMARY ***
+Total pot 1269 | Rake 0 
+Board [7c Kh 4h]
+Seat 1: paymeBill (small blind) folded before Flop
+Seat 2: luucalis_ (big blind) folded before Flop
+Seat 3: The_Aquino folded before Flop
+Seat 4: DoadorDonkey collected (1269)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 folded before Flop
+Seat 7: AquilesRV folded on the Flop
+Seat 9: p1stolboy (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756037549: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:44:51 UTC [2026/02/16 17:44:51 ET]
+Table '3974766235 19' 9-max Seat #1 is the button
+Seat 1: paymeBill (8111 in chips, $0.75 bounty) 
+Seat 2: luucalis_ (1912 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2616 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3645 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3698 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (2894 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2613 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3000 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5544 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+chupeta62: posts the ante 6
+AquilesRV: posts the ante 6
+xxVale46xx: posts the ante 6
+p1stolboy: posts the ante 6
+luucalis_: posts small blind 25
+The_Aquino: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ac]
+DoadorDonkey: folds 
+scorza23: folds 
+chupeta62: raises 200 to 250
+AquilesRV: calls 250
+xxVale46xx: folds 
+p1stolboy: folds 
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+*** FLOP *** [Jh 8s 8c]
+chupeta62: checks 
+AquilesRV: checks 
+*** TURN *** [Jh 8s 8c] [Td]
+chupeta62: bets 200
+AquilesRV: calls 200
+*** RIVER *** [Jh 8s 8c Td] [Qc]
+chupeta62: bets 850
+AquilesRV: folds 
+Uncalled bet (850) returned to chupeta62
+chupeta62 collected 1029 from pot
+chupeta62: doesn't show hand 
+*** SUMMARY ***
+Total pot 1029 | Rake 0 
+Board [Jh 8s 8c Td Qc]
+Seat 1: paymeBill (button) folded before Flop (didn't bet)
+Seat 2: luucalis_ (small blind) folded before Flop
+Seat 3: The_Aquino (big blind) folded before Flop
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 collected (1029)
+Seat 7: AquilesRV folded on the River
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: p1stolboy folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756057696: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:46:15 UTC [2026/02/16 17:46:15 ET]
+Table '3974766235 19' 9-max Seat #2 is the button
+Seat 1: paymeBill (8105 in chips, $0.75 bounty) 
+Seat 2: luucalis_ (1881 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2560 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3639 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3692 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3467 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2157 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2994 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5538 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+chupeta62: posts the ante 6
+AquilesRV: posts the ante 6
+xxVale46xx: posts the ante 6
+p1stolboy: posts the ante 6
+The_Aquino: posts small blind 25
+DoadorDonkey: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 2d]
+scorza23: folds 
+chupeta62: folds 
+AquilesRV: folds 
+xxVale46xx: raises 65 to 115
+p1stolboy: calls 115
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+*** FLOP *** [5c Ks 5s]
+xxVale46xx: checks 
+p1stolboy: bets 180
+xxVale46xx: calls 180
+*** TURN *** [5c Ks 5s] [Kh]
+xxVale46xx: bets 237
+p1stolboy: calls 237
+*** RIVER *** [5c Ks 5s Kh] [Qh]
+xxVale46xx: checks 
+p1stolboy: checks 
+*** SHOW DOWN ***
+xxVale46xx: shows [Ts Ac] (two pair, Kings and Fives)
+p1stolboy: mucks hand 
+xxVale46xx collected 1193 from pot
+*** SUMMARY ***
+Total pot 1193 | Rake 0 
+Board [5c Ks 5s Kh Qh]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ (button) folded before Flop (didn't bet)
+Seat 3: The_Aquino (small blind) folded before Flop
+Seat 4: DoadorDonkey (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 folded before Flop (didn't bet)
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx showed [Ts Ac] and won (1193) with two pair, Kings and Fives
+Seat 9: p1stolboy mucked [Jc 7c]
+
+
+
+PokerStars Hand #259756083291: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:48:01 UTC [2026/02/16 17:48:01 ET]
+Table '3974766235 19' 9-max Seat #3 is the button
+Seat 1: paymeBill (8099 in chips, $0.75 bounty) 
+Seat 2: luucalis_ (1875 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2529 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3583 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3686 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3461 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2151 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3649 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5000 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+chupeta62: posts the ante 6
+AquilesRV: posts the ante 6
+xxVale46xx: posts the ante 6
+p1stolboy: posts the ante 6
+DoadorDonkey: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Qc]
+chupeta62: calls 50
+AquilesRV: folds 
+xxVale46xx: calls 50
+p1stolboy: raises 50 to 100
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+chupeta62: calls 50
+xxVale46xx: calls 50
+*** FLOP *** [9h 3c Js]
+chupeta62: checks 
+xxVale46xx: checks 
+p1stolboy: bets 215
+chupeta62: folds 
+xxVale46xx: folds 
+Uncalled bet (215) returned to p1stolboy
+p1stolboy collected 429 from pot
+p1stolboy: doesn't show hand 
+*** SUMMARY ***
+Total pot 429 | Rake 0 
+Board [9h 3c Js]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino (button) folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: chupeta62 folded on the Flop
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded on the Flop
+Seat 9: p1stolboy collected (429)
+
+
+
+PokerStars Hand #259756099085: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:49:06 UTC [2026/02/16 17:49:06 ET]
+Table '3974766235 19' 9-max Seat #4 is the button
+Seat 1: paymeBill (8093 in chips, $0.75 bounty) 
+Seat 2: luucalis_ (1869 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2523 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3552 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3630 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3355 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2145 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3543 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5323 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+chupeta62: posts the ante 6
+AquilesRV: posts the ante 6
+xxVale46xx: posts the ante 6
+p1stolboy: posts the ante 6
+scorza23: posts small blind 25
+chupeta62: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2d]
+AquilesRV: folds 
+xxVale46xx: folds 
+p1stolboy: folds 
+paymeBill: folds 
+luucalis_: raises 50 to 100
+The_Aquino: folds 
+DoadorDonkey: calls 100
+scorza23: folds 
+chupeta62: folds 
+*** FLOP *** [Tc 6d 4s]
+luucalis_: checks 
+DoadorDonkey: checks 
+*** TURN *** [Tc 6d 4s] [5c]
+luucalis_: checks 
+DoadorDonkey: checks 
+*** RIVER *** [Tc 6d 4s 5c] [4c]
+luucalis_: bets 150
+DoadorDonkey: folds 
+Uncalled bet (150) returned to luucalis_
+luucalis_ collected 329 from pot
+luucalis_: doesn't show hand 
+*** SUMMARY ***
+Total pot 329 | Rake 0 
+Board [Tc 6d 4s 5c 4c]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ collected (329)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (button) folded on the River
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: chupeta62 (big blind) folded before Flop
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: p1stolboy folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756110676: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:49:54 UTC [2026/02/16 17:49:54 ET]
+Table '3974766235 19' 9-max Seat #5 is the button
+Seat 1: paymeBill (8087 in chips, $0.75 bounty) 
+Seat 2: luucalis_ (2092 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2517 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3446 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3599 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3299 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (2139 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3537 in chips, $0.50 bounty) 
+Seat 9: p1stolboy (5317 in chips, $0.75 bounty) 
+paymeBill: posts the ante 6
+luucalis_: posts the ante 6
+The_Aquino: posts the ante 6
+DoadorDonkey: posts the ante 6
+scorza23: posts the ante 6
+chupeta62: posts the ante 6
+AquilesRV: posts the ante 6
+xxVale46xx: posts the ante 6
+p1stolboy: posts the ante 6
+chupeta62: posts small blind 25
+AquilesRV: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 2d]
+xxVale46xx: folds 
+p1stolboy: raises 50 to 100
+paymeBill: raises 200 to 300
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+chupeta62: folds 
+AquilesRV: calls 250
+p1stolboy: calls 200
+*** FLOP *** [8h 8s Ks]
+AquilesRV: checks 
+p1stolboy: checks 
+paymeBill: bets 323
+AquilesRV: folds 
+p1stolboy: calls 323
+*** TURN *** [8h 8s Ks] [Tc]
+p1stolboy: checks 
+paymeBill: bets 1073
+p1stolboy: calls 1073
+*** RIVER *** [8h 8s Ks Tc] [Ts]
+p1stolboy: checks 
+paymeBill: bets 3771
+p1stolboy: calls 3615 and is all-in
+Uncalled bet (156) returned to paymeBill
+*** SHOW DOWN ***
+paymeBill: shows [As 3s] (a flush, Ace high)
+p1stolboy: shows [Jh Kc] (two pair, Kings and Tens)
+paymeBill collected 11001 from pot
+paymeBill wins $0.38 for eliminating p1stolboy and their own bounty increases by $0.37 to $1.12
+p1stolboy finished the tournament
+*** SUMMARY ***
+Total pot 11001 | Rake 0 
+Board [8h 8s Ks Tc Ts]
+Seat 1: paymeBill showed [As 3s] and won (11001) with a flush, Ace high
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: chupeta62 (small blind) folded before Flop
+Seat 7: AquilesRV (big blind) folded on the Flop
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: p1stolboy showed [Jh Kc] and lost with two pair, Kings and Tens
+
+
+
+PokerStars Hand #259756130499: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 22:51:17 UTC [2026/02/16 17:51:17 ET]
+Table '3974766235 19' 9-max Seat #6 is the button
+Seat 1: paymeBill (13771 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2086 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2511 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3440 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3593 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3268 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1833 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3531 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+AquilesRV: posts small blind 30
+xxVale46xx: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5d]
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+chupeta62: folds 
+AquilesRV: raises 60 to 120
+xxVale46xx: calls 60
+*** FLOP *** [Qd 8h Jh]
+AquilesRV: checks 
+xxVale46xx: checks 
+*** TURN *** [Qd 8h Jh] [Ts]
+AquilesRV: checks 
+xxVale46xx: bets 148
+AquilesRV: folds 
+Uncalled bet (148) returned to xxVale46xx
+xxVale46xx collected 296 from pot
+*** SUMMARY ***
+Total pot 296 | Rake 0 
+Board [Qd 8h Jh Ts]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 (button) folded before Flop (didn't bet)
+Seat 7: AquilesRV (small blind) folded on the Turn
+Seat 8: xxVale46xx (big blind) collected (296)
+
+
+
+PokerStars Hand #259756139450: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 22:51:55 UTC [2026/02/16 17:51:55 ET]
+Table '3974766235 19' 9-max Seat #7 is the button
+Seat 1: paymeBill (13764 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2079 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2504 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3433 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3586 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3261 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1706 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3700 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+xxVale46xx: posts small blind 30
+paymeBill: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Ac]
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: raises 66 to 126
+chupeta62: folds 
+AquilesRV: calls 126
+xxVale46xx: calls 96
+paymeBill: folds 
+*** FLOP *** [3d 5d 5c]
+xxVale46xx: checks 
+scorza23: bets 247
+AquilesRV: folds 
+xxVale46xx: folds 
+Uncalled bet (247) returned to scorza23
+scorza23 collected 494 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 494 | Rake 0 
+Board [3d 5d 5c]
+Seat 1: paymeBill (big blind) folded before Flop
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 collected (494)
+Seat 6: chupeta62 folded before Flop (didn't bet)
+Seat 7: AquilesRV (button) folded on the Flop
+Seat 8: xxVale46xx (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259756149252: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 22:52:37 UTC [2026/02/16 17:52:37 ET]
+Table '3974766235 19' 9-max Seat #8 is the button
+Seat 1: paymeBill (13697 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2072 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2497 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3426 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3947 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3254 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1573 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3567 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+paymeBill: posts small blind 30
+luucalis_: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 4d]
+The_Aquino: raises 60 to 120
+DoadorDonkey: folds 
+scorza23: folds 
+chupeta62: folds 
+AquilesRV: folds 
+xxVale46xx: folds 
+paymeBill: folds 
+luucalis_: calls 60
+*** FLOP *** [Td 4h Ts]
+luucalis_: checks 
+The_Aquino: bets 82
+luucalis_: calls 82
+*** TURN *** [Td 4h Ts] [Qd]
+luucalis_: checks 
+The_Aquino: checks 
+*** RIVER *** [Td 4h Ts Qd] [5s]
+luucalis_: checks 
+The_Aquino: checks 
+*** SHOW DOWN ***
+luucalis_: shows [Qs 8s] (two pair, Queens and Tens)
+The_Aquino: mucks hand 
+luucalis_ collected 490 from pot
+*** SUMMARY ***
+Total pot 490 | Rake 0 
+Board [Td 4h Ts Qd 5s]
+Seat 1: paymeBill (small blind) folded before Flop
+Seat 2: luucalis_ (big blind) showed [Qs 8s] and won (490) with two pair, Queens and Tens
+Seat 3: The_Aquino mucked [6d 6s]
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 folded before Flop (didn't bet)
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756161335: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 22:53:28 UTC [2026/02/16 17:53:28 ET]
+Table '3974766235 19' 9-max Seat #1 is the button
+Seat 1: paymeBill (13660 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2353 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2288 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3419 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3940 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3247 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1566 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3560 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+luucalis_: posts small blind 30
+The_Aquino: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 2c]
+DoadorDonkey: calls 60
+scorza23: folds 
+chupeta62: calls 60
+AquilesRV: folds 
+xxVale46xx: folds 
+paymeBill: folds 
+luucalis_: calls 30
+The_Aquino: checks 
+*** FLOP *** [5c 6c Jh]
+luucalis_: checks 
+The_Aquino: checks 
+DoadorDonkey: checks 
+chupeta62: checks 
+*** TURN *** [5c 6c Jh] [Qs]
+luucalis_: checks 
+The_Aquino: checks 
+DoadorDonkey: checks 
+chupeta62: checks 
+*** RIVER *** [5c 6c Jh Qs] [9d]
+luucalis_: bets 120
+The_Aquino: folds 
+DoadorDonkey: calls 120
+chupeta62: folds 
+*** SHOW DOWN ***
+luucalis_: shows [2d Qc] (a pair of Queens)
+DoadorDonkey: mucks hand 
+luucalis_ collected 536 from pot
+*** SUMMARY ***
+Total pot 536 | Rake 0 
+Board [5c 6c Jh Qs 9d]
+Seat 1: paymeBill (button) folded before Flop (didn't bet)
+Seat 2: luucalis_ (small blind) showed [2d Qc] and won (536) with a pair of Queens
+Seat 3: The_Aquino (big blind) folded on the River
+Seat 4: DoadorDonkey mucked [9c Ts]
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 folded on the River
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756176153: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 22:54:31 UTC [2026/02/16 17:54:31 ET]
+Table '3974766235 19' 9-max Seat #2 is the button
+Seat 1: paymeBill (13653 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2702 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2221 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3232 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3933 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3180 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1559 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (3553 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+The_Aquino: posts small blind 30
+DoadorDonkey: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 6d]
+scorza23: folds 
+chupeta62: folds 
+AquilesRV: folds 
+xxVale46xx: raises 78 to 138
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 78
+*** FLOP *** [7s 8h Jh]
+DoadorDonkey: bets 60
+xxVale46xx: raises 482 to 542
+DoadorDonkey: calls 482
+*** TURN *** [7s 8h Jh] [6c]
+DoadorDonkey: checks 
+xxVale46xx: bets 477
+DoadorDonkey: calls 477
+*** RIVER *** [7s 8h Jh 6c] [Th]
+DoadorDonkey: bets 2068 and is all-in
+xxVale46xx: folds [As Ad]
+Uncalled bet (2068) returned to DoadorDonkey
+DoadorDonkey collected 2400 from pot
+DoadorDonkey: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Board [7s 8h Jh 6c Th]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ (button) folded before Flop (didn't bet)
+Seat 3: The_Aquino (small blind) folded before Flop
+Seat 4: DoadorDonkey (big blind) collected (2400)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 folded before Flop (didn't bet)
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded on the River
+
+
+
+PokerStars Hand #259756253795: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 23:01:51 UTC [2026/02/16 18:01:51 ET]
+Table '3974766235 19' 9-max Seat #3 is the button
+Seat 1: paymeBill (13646 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2695 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2184 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4468 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3926 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3173 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1552 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2389 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+DoadorDonkey: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jh]
+chupeta62: folds 
+AquilesRV has timed out
+AquilesRV: folds 
+AquilesRV is sitting out
+xxVale46xx: folds 
+paymeBill: folds 
+AquilesRV has returned
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: raises 60 to 120
+scorza23: calls 60
+*** FLOP *** [5h 8d 8h]
+DoadorDonkey: checks 
+scorza23: bets 148
+DoadorDonkey: folds 
+Uncalled bet (148) returned to scorza23
+scorza23 collected 296 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 296 | Rake 0 
+Board [5h 8d 8h]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino (button) folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (small blind) folded on the Flop
+Seat 5: scorza23 (big blind) collected (296)
+Seat 6: chupeta62 folded before Flop (didn't bet)
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756275499: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 23:03:27 UTC [2026/02/16 18:03:27 ET]
+Table '3974766235 19' 9-max Seat #4 is the button
+Seat 1: paymeBill (13639 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2688 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2177 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4341 in chips, $0.50 bounty) 
+Seat 5: scorza23 (4095 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3166 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1545 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2382 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (3000 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+C.Ronaldo Playa: posts the ante 7
+scorza23: posts small blind 30
+chupeta62: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ts]
+AquilesRV: folds 
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+luucalis_: raises 60 to 120
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+chupeta62: folds 
+Uncalled bet (60) returned to luucalis_
+luucalis_ collected 213 from pot
+luucalis_: doesn't show hand 
+*** SUMMARY ***
+Total pot 213 | Rake 0 
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ collected (213)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: chupeta62 (big blind) folded before Flop
+Seat 7: AquilesRV folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756284949: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 23:04:09 UTC [2026/02/16 18:04:09 ET]
+Table '3974766235 19' 9-max Seat #5 is the button
+Seat 1: paymeBill (13632 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2834 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2170 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4334 in chips, $0.50 bounty) 
+Seat 5: scorza23 (4058 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3099 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1538 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2375 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (2993 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+C.Ronaldo Playa: posts the ante 7
+chupeta62: posts small blind 30
+AquilesRV: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Kd]
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: raises 66 to 126
+chupeta62: raises 594 to 720
+AquilesRV: folds 
+scorza23: folds 
+Uncalled bet (594) returned to chupeta62
+chupeta62 collected 375 from pot
+chupeta62: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop
+Seat 6: chupeta62 (small blind) collected (375)
+Seat 7: AquilesRV (big blind) folded before Flop
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756298424: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 23:05:08 UTC [2026/02/16 18:05:08 ET]
+Table '3974766235 19' 9-max Seat #6 is the button
+Seat 1: paymeBill (13625 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2827 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2163 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4327 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3925 in chips, $0.50 bounty) 
+Seat 6: chupeta62 (3341 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1471 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2368 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (2986 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+chupeta62: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+C.Ronaldo Playa: posts the ante 7
+AquilesRV: posts small blind 30
+xxVale46xx: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 7d]
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 60
+scorza23: folds 
+chupeta62: calls 60
+AquilesRV: calls 30
+xxVale46xx: checks 
+*** FLOP *** [Qs 2c 4c]
+AquilesRV: checks 
+xxVale46xx: checks 
+DoadorDonkey: bets 303
+chupeta62: folds 
+AquilesRV: folds 
+xxVale46xx: folds 
+Uncalled bet (303) returned to DoadorDonkey
+DoadorDonkey collected 303 from pot
+DoadorDonkey: doesn't show hand 
+*** SUMMARY ***
+Total pot 303 | Rake 0 
+Board [Qs 2c 4c]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey collected (303)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: chupeta62 (button) folded on the Flop
+Seat 7: AquilesRV (small blind) folded on the Flop
+Seat 8: xxVale46xx (big blind) folded on the Flop
+Seat 9: C.Ronaldo Playa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756312389: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level IV (30/60) - 2026/02/16 23:06:09 UTC [2026/02/16 18:06:09 ET]
+Table '3974766235 19' 9-max Seat #7 is the button
+Seat 1: paymeBill (13618 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2820 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2156 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4563 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3918 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1404 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2301 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (2979 in chips, $0.50 bounty) 
+paymeBill: posts the ante 7
+luucalis_: posts the ante 7
+The_Aquino: posts the ante 7
+DoadorDonkey: posts the ante 7
+scorza23: posts the ante 7
+AquilesRV: posts the ante 7
+xxVale46xx: posts the ante 7
+C.Ronaldo Playa: posts the ante 7
+xxVale46xx: posts small blind 30
+C.Ronaldo Playa: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Th]
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+AquilesRV: raises 60 to 120
+xxVale46xx: raises 2174 to 2294 and is all-in
+C.Ronaldo Playa: calls 2234
+AquilesRV: folds 
+*** FLOP *** [4s As 3c]
+*** TURN *** [4s As 3c] [6d]
+*** RIVER *** [4s As 3c 6d] [8d]
+*** SHOW DOWN ***
+xxVale46xx: shows [Kd Ah] (a pair of Aces)
+C.Ronaldo Playa: shows [Ac Kh] (a pair of Aces)
+xxVale46xx collected 2382 from pot
+C.Ronaldo Playa collected 2382 from pot
+*** SUMMARY ***
+Total pot 4764 | Rake 0 
+Board [4s As 3c 6d 8d]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: AquilesRV (button) folded before Flop
+Seat 8: xxVale46xx (small blind) showed [Kd Ah] and won (2382) with a pair of Aces
+Seat 9: C.Ronaldo Playa (big blind) showed [Ac Kh] and won (2382) with a pair of Aces
+
+
+
+PokerStars Hand #259756323722: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:06:58 UTC [2026/02/16 18:06:58 ET]
+Table '3974766235 19' 9-max Seat #8 is the button
+Seat 1: paymeBill (13611 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2813 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2149 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4556 in chips, $0.50 bounty) 
+Seat 5: scorza23 (3911 in chips, $0.50 bounty) 
+Seat 7: AquilesRV (1277 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2382 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (3060 in chips, $0.50 bounty) 
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+AquilesRV: posts the ante 10
+xxVale46xx: posts the ante 10
+C.Ronaldo Playa: posts the ante 10
+C.Ronaldo Playa: posts small blind 40
+paymeBill: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 3s]
+SuttFar is disconnected 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 80
+scorza23: folds 
+AquilesRV: raises 360 to 440
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+DoadorDonkey: calls 360
+*** FLOP *** [9c 7s Ah]
+DoadorDonkey: checks 
+AquilesRV: bets 827 and is all-in
+DoadorDonkey: calls 827
+*** TURN *** [9c 7s Ah] [2c]
+*** RIVER *** [9c 7s Ah 2c] [Kc]
+*** SHOW DOWN ***
+DoadorDonkey: shows [8h 9h] (a pair of Nines)
+AquilesRV: shows [Jh Qh] (high card Ace)
+DoadorDonkey collected 2734 from pot
+DoadorDonkey wins $0.25 for eliminating AquilesRV and their own bounty increases by $0.25 to $0.75
+AquilesRV finished the tournament
+*** SUMMARY ***
+Total pot 2734 | Rake 0 
+Board [9c 7s Ah 2c Kc]
+Seat 1: paymeBill (big blind) folded before Flop
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey showed [8h 9h] and won (2734) with a pair of Nines
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: AquilesRV showed [Jh Qh] and lost with high card Ace
+Seat 8: xxVale46xx (button) folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756333821: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:07:43 UTC [2026/02/16 18:07:43 ET]
+Table '3974766235 19' 9-max Seat #9 is the button
+Seat 1: paymeBill (13521 in chips, $1.12 bounty) 
+Seat 2: luucalis_ (2803 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2139 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (6013 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3901 in chips, $0.50 bounty) 
+Seat 6: SuttFar (3000 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2372 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (3010 in chips, $0.50 bounty) 
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+SuttFar: posts the ante 10
+xxVale46xx: posts the ante 10
+C.Ronaldo Playa: posts the ante 10
+paymeBill: posts small blind 40
+luucalis_: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 7c]
+velho_sabara is disconnected 
+The_Aquino: folds 
+DoadorDonkey: calls 80
+scorza23: folds 
+SuttFar: calls 80
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: raises 480 to 560
+luucalis_: folds 
+DoadorDonkey: calls 480
+SuttFar: calls 480
+*** FLOP *** [4d 6c 5s]
+paymeBill: bets 1214
+DoadorDonkey: calls 1214
+SuttFar: calls 1214
+*** TURN *** [4d 6c 5s] [Qc]
+paymeBill: bets 3618
+DoadorDonkey: folds 
+SuttFar: calls 1216 and is all-in
+Uncalled bet (2402) returned to paymeBill
+*** RIVER *** [4d 6c 5s Qc] [Ac]
+*** SHOW DOWN ***
+paymeBill: shows [Ah 9s] (a pair of Aces)
+SuttFar: shows [Ts 8s] (high card Ace)
+paymeBill collected 7914 from pot
+paymeBill wins $0.25 for eliminating SuttFar and their own bounty increases by $0.25 to $1.37
+SuttFar finished the tournament
+*** SUMMARY ***
+Total pot 7914 | Rake 0 
+Board [4d 6c 5s Qc Ac]
+Seat 1: paymeBill (small blind) showed [Ah 9s] and won (7914) with a pair of Aces
+Seat 2: luucalis_ (big blind) folded before Flop
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: SuttFar showed [Ts 8s] and lost with high card Ace
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756349065: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:08:51 UTC [2026/02/16 18:08:51 ET]
+Table '3974766235 19' 9-max Seat #1 is the button
+Seat 1: paymeBill (18435 in chips, $1.37 bounty) 
+Seat 2: luucalis_ (2713 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2129 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4229 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3891 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (3000 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2362 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (3000 in chips, $0.50 bounty) 
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+C.Ronaldo Playa: posts the ante 10
+luucalis_: posts small blind 40
+The_Aquino: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6c]
+DoadorDonkey: folds 
+scorza23: folds 
+velho_sabara: folds 
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+luucalis_: raises 80 to 160
+The_Aquino: folds 
+Uncalled bet (80) returned to luucalis_
+luucalis_ collected 240 from pot
+luucalis_: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 1: paymeBill (button) folded before Flop (didn't bet)
+Seat 2: luucalis_ (small blind) collected (240)
+Seat 3: The_Aquino (big blind) folded before Flop
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756358508: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:09:33 UTC [2026/02/16 18:09:33 ET]
+Table '3974766235 19' 9-max Seat #2 is the button
+Seat 1: paymeBill (18425 in chips, $1.37 bounty) 
+Seat 2: luucalis_ (2863 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2039 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4219 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3881 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (2990 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2352 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (2990 in chips, $0.50 bounty) 
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+C.Ronaldo Playa: posts the ante 10
+The_Aquino: posts small blind 40
+DoadorDonkey: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 7h]
+scorza23: folds 
+velho_sabara: folds 
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+Uncalled bet (40) returned to DoadorDonkey
+DoadorDonkey collected 160 from pot
+DoadorDonkey: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ (button) folded before Flop (didn't bet)
+Seat 3: The_Aquino (small blind) folded before Flop
+Seat 4: DoadorDonkey (big blind) collected (160)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756362224: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:09:50 UTC [2026/02/16 18:09:50 ET]
+Table '3974766235 19' 9-max Seat #3 is the button
+Seat 1: paymeBill (18415 in chips, $1.37 bounty) 
+Seat 2: luucalis_ (2853 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (1989 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4329 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3871 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (2980 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2342 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (2980 in chips, $0.50 bounty) 
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+C.Ronaldo Playa: posts the ante 10
+DoadorDonkey: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Qh]
+velho_sabara: folds 
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+luucalis_: raises 80 to 160
+The_Aquino: calls 160
+DoadorDonkey: folds 
+scorza23: calls 80
+*** FLOP *** [8s 5s 8c]
+scorza23: checks 
+luucalis_: checks 
+The_Aquino: checks 
+*** TURN *** [8s 5s 8c] [5c]
+scorza23: checks 
+luucalis_: bets 160
+The_Aquino: calls 160
+scorza23: folds 
+*** RIVER *** [8s 5s 8c 5c] [5h]
+luucalis_: checks 
+The_Aquino: checks 
+*** SHOW DOWN ***
+luucalis_: shows [2c 2d] (a full house, Fives full of Eights)
+The_Aquino: shows [Kh Jc] (a full house, Fives full of Eights)
+luucalis_ collected 460 from pot
+The_Aquino collected 460 from pot
+*** SUMMARY ***
+Total pot 920 | Rake 0 
+Board [8s 5s 8c 5c 5h]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ showed [2c 2d] and won (460) with a full house, Fives full of Eights
+Seat 3: The_Aquino (button) showed [Kh Jc] and won (460) with a full house, Fives full of Eights
+Seat 4: DoadorDonkey (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Turn
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756375849: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:10:49 UTC [2026/02/16 18:10:49 ET]
+Table '3974766235 19' 9-max Seat #4 is the button
+Seat 1: paymeBill (18405 in chips, $1.37 bounty) 
+Seat 2: luucalis_ (2983 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2119 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4279 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3701 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (2970 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2332 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (2970 in chips, $0.50 bounty) 
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+C.Ronaldo Playa: posts the ante 10
+scorza23: posts small blind 40
+velho_sabara: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4c]
+xxVale46xx: folds 
+C.Ronaldo Playa: folds 
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+Uncalled bet (40) returned to velho_sabara
+velho_sabara collected 160 from pot
+velho_sabara: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 7: velho_sabara (big blind) collected (160)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: C.Ronaldo Playa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756380876: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:11:11 UTC [2026/02/16 18:11:11 ET]
+Table '3974766235 19' 9-max Seat #5 is the button
+Seat 1: paymeBill (18395 in chips, $1.37 bounty) 
+Seat 2: luucalis_ (2973 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2109 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4269 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3651 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (3000 in chips) out of hand (moved from another table into small blind)
+Seat 7: velho_sabara (3080 in chips, $0.50 bounty) 
+Seat 8: xxVale46xx (2322 in chips, $0.50 bounty) 
+Seat 9: C.Ronaldo Playa (2960 in chips, $0.50 bounty) 
+toyrunnerns will be allowed to play after the button
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+C.Ronaldo Playa: posts the ante 10
+velho_sabara: posts small blind 40
+xxVale46xx: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 2h]
+C.Ronaldo Playa: raises 88 to 168
+paymeBill: folds 
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 168
+scorza23: folds 
+velho_sabara: raises 664 to 832
+xxVale46xx: folds 
+C.Ronaldo Playa: raises 2118 to 2950 and is all-in
+DoadorDonkey: folds 
+velho_sabara: calls 2118
+*** FLOP *** [2d 9s 5s]
+*** TURN *** [2d 9s 5s] [Tc]
+*** RIVER *** [2d 9s 5s Tc] [2s]
+*** SHOW DOWN ***
+velho_sabara: shows [9h 9c] (a full house, Nines full of Deuces)
+C.Ronaldo Playa: shows [Ah Ks] (a pair of Deuces)
+velho_sabara collected 6228 from pot
+velho_sabara wins $0.25 for eliminating C.Ronaldo Playa and their own bounty increases by $0.25 to $0.75
+C.Ronaldo Playa finished the tournament
+*** SUMMARY ***
+Total pot 6228 | Rake 0 
+Board [2d 9s 5s Tc 2s]
+Seat 1: paymeBill folded before Flop (didn't bet)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: velho_sabara (small blind) showed [9h 9c] and won (6228) with a full house, Nines full of Deuces
+Seat 8: xxVale46xx (big blind) folded before Flop
+Seat 9: C.Ronaldo Playa showed [Ah Ks] and lost with a pair of Deuces
+
+
+
+PokerStars Hand #259756391023: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:11:57 UTC [2026/02/16 18:11:57 ET]
+Table '3974766235 19' 9-max Seat #7 is the button
+Seat 1: paymeBill (18385 in chips, $1.37 bounty) 
+Seat 2: luucalis_ (2963 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2099 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4091 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3641 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (3000 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (6348 in chips, $0.75 bounty) 
+Seat 8: xxVale46xx (2232 in chips, $0.50 bounty) 
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+toyrunnerns: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+xxVale46xx: posts small blind 40
+paymeBill: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 2h]
+luucalis_: calls 80
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+toyrunnerns: calls 80
+velho_sabara: raises 440 to 520
+xxVale46xx: folds 
+paymeBill: calls 440
+luucalis_: folds 
+toyrunnerns: folds 
+*** FLOP *** [8d Jh As]
+paymeBill: checks 
+velho_sabara: bets 5818 and is all-in
+paymeBill: calls 5818
+stan74rwd is disconnected 
+*** TURN *** [8d Jh As] [Kh]
+*** RIVER *** [8d Jh As Kh] [4h]
+*** SHOW DOWN ***
+paymeBill: shows [Ad Qs] (a pair of Aces)
+velho_sabara: shows [8c Ac] (two pair, Aces and Eights)
+velho_sabara collected 12956 from pot
+*** SUMMARY ***
+Total pot 12956 | Rake 0 
+Board [8d Jh As Kh 4h]
+Seat 1: paymeBill (big blind) showed [Ad Qs] and lost with a pair of Aces
+Seat 2: luucalis_ folded before Flop
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: toyrunnerns folded before Flop
+Seat 7: velho_sabara (button) showed [8c Ac] and won (12956) with two pair, Aces and Eights
+Seat 8: xxVale46xx (small blind) folded before Flop
+
+
+
+PokerStars Hand #259756407298: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:13:09 UTC [2026/02/16 18:13:09 ET]
+Table '3974766235 19' 9-max Seat #8 is the button
+Seat 1: paymeBill (12037 in chips, $1.37 bounty) 
+Seat 2: luucalis_ (2873 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2089 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4081 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3631 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (2910 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (12956 in chips, $0.75 bounty) 
+Seat 8: xxVale46xx (2182 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (3000 in chips) out of hand (moved from another table into small blind)
+stan74rwd will be allowed to play after the button
+paymeBill: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+toyrunnerns: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+paymeBill: posts small blind 40
+luucalis_: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Qc]
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: raises 88 to 168
+toyrunnerns: folds 
+velho_sabara: folds 
+xxVale46xx: folds 
+paymeBill: calls 128
+luucalis_: calls 88
+*** FLOP *** [5s 5d 7d]
+paymeBill: checks 
+luucalis_: checks 
+scorza23: checks 
+*** TURN *** [5s 5d 7d] [Ac]
+paymeBill: checks 
+luucalis_: checks 
+scorza23: checks 
+*** RIVER *** [5s 5d 7d Ac] [Js]
+paymeBill: checks 
+luucalis_: bets 160
+scorza23: folds 
+paymeBill: folds 
+Uncalled bet (160) returned to luucalis_
+luucalis_ collected 584 from pot
+luucalis_: doesn't show hand 
+*** SUMMARY ***
+Total pot 584 | Rake 0 
+Board [5s 5d 7d Ac Js]
+Seat 1: paymeBill (small blind) folded on the River
+Seat 2: luucalis_ (big blind) collected (584)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded on the River
+Seat 6: toyrunnerns folded before Flop (didn't bet)
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: xxVale46xx (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756418374: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:13:59 UTC [2026/02/16 18:13:59 ET]
+Table '3974766235 19' 9-max Seat #2 is the button
+Seat 2: luucalis_ (3279 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (2079 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (4071 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3453 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (2900 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (12946 in chips, $0.75 bounty) 
+Seat 8: xxVale46xx (2172 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (3000 in chips, $0.50 bounty) 
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+toyrunnerns: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+stan74rwd: posts the ante 10
+The_Aquino: posts small blind 40
+DoadorDonkey: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Qc]
+scorza23: folds 
+toyrunnerns: calls 80
+velho_sabara: folds 
+xxVale46xx: folds 
+stan74rwd: folds 
+luucalis_: raises 240 to 320
+The_Aquino: calls 280
+DoadorDonkey: folds 
+toyrunnerns: folds 
+*** FLOP *** [2h 3h 3s]
+The_Aquino: checks 
+luucalis_: bets 160
+The_Aquino: calls 160
+*** TURN *** [2h 3h 3s] [9c]
+The_Aquino: checks 
+luucalis_: checks 
+*** RIVER *** [2h 3h 3s 9c] [8s]
+The_Aquino: bets 300
+luucalis_: calls 300
+*** SHOW DOWN ***
+The_Aquino: shows [Ad Js] (a pair of Threes)
+luucalis_: mucks hand 
+The_Aquino collected 1800 from pot
+*** SUMMARY ***
+Total pot 1800 | Rake 0 
+Board [2h 3h 3s 9c 8s]
+Seat 2: luucalis_ (button) mucked [5d As]
+Seat 3: The_Aquino (small blind) showed [Ad Js] and won (1800) with a pair of Threes
+Seat 4: DoadorDonkey (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: toyrunnerns folded before Flop
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: stan74rwd folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756430820: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:14:56 UTC [2026/02/16 18:14:56 ET]
+Table '3974766235 19' 9-max Seat #3 is the button
+Seat 1: mafiadave30 (3000 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2489 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (3089 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3981 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3443 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (2810 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (12936 in chips, $0.75 bounty) 
+Seat 8: xxVale46xx (2162 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2990 in chips, $0.50 bounty) 
+mafiadave30: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+toyrunnerns: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+stan74rwd: posts the ante 10
+DoadorDonkey: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 3h]
+toyrunnerns: calls 80
+velho_sabara: folds 
+xxVale46xx: folds 
+stan74rwd: calls 80
+mafiadave30: raises 80 to 160
+luucalis_: calls 160
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: calls 80
+toyrunnerns: calls 80
+stan74rwd: calls 80
+*** FLOP *** [Tc 6c 8s]
+scorza23: bets 465
+toyrunnerns: calls 465
+stan74rwd: folds 
+mafiadave30: raises 945 to 1410
+luucalis_: folds 
+scorza23: folds 
+toyrunnerns: calls 945
+*** TURN *** [Tc 6c 8s] [Kh]
+toyrunnerns: checks 
+mafiadave30: bets 640
+toyrunnerns: raises 590 to 1230 and is all-in
+mafiadave30: calls 590
+*** RIVER *** [Tc 6c 8s Kh] [Jh]
+*** SHOW DOWN ***
+toyrunnerns: shows [Th Js] (two pair, Jacks and Tens)
+mafiadave30: shows [5s 6s] (a pair of Sixes)
+toyrunnerns collected 6675 from pot
+*** SUMMARY ***
+Total pot 6675 | Rake 0 
+Board [Tc 6c 8s Kh Jh]
+Seat 1: mafiadave30 showed [5s 6s] and lost with a pair of Sixes
+Seat 2: luucalis_ folded on the Flop
+Seat 3: The_Aquino (button) folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Flop
+Seat 6: toyrunnerns showed [Th Js] and won (6675) with two pair, Jacks and Tens
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: stan74rwd folded on the Flop
+
+
+
+PokerStars Hand #259756450568: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level V (40/80) - 2026/02/16 23:16:25 UTC [2026/02/16 18:16:25 ET]
+Table '3974766235 19' 9-max Seat #4 is the button
+Seat 1: mafiadave30 (190 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (2319 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (3079 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3931 in chips, $0.75 bounty) 
+Seat 5: scorza23 (2808 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6675 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (12926 in chips, $0.75 bounty) 
+Seat 8: xxVale46xx (2152 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2820 in chips, $0.50 bounty) 
+mafiadave30: posts the ante 10
+luucalis_: posts the ante 10
+The_Aquino: posts the ante 10
+DoadorDonkey: posts the ante 10
+scorza23: posts the ante 10
+toyrunnerns: posts the ante 10
+velho_sabara: posts the ante 10
+xxVale46xx: posts the ante 10
+stan74rwd: posts the ante 10
+scorza23: posts small blind 40
+toyrunnerns: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8c]
+velho_sabara: raises 160 to 240
+xxVale46xx: folds 
+stan74rwd: calls 240
+mafiadave30: calls 180 and is all-in
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 240
+scorza23: folds 
+toyrunnerns: folds 
+*** FLOP *** [Qc 2h 6s]
+velho_sabara: bets 1110
+stan74rwd: folds 
+DoadorDonkey: folds 
+Uncalled bet (1110) returned to velho_sabara
+*** TURN *** [Qc 2h 6s] [9d]
+*** RIVER *** [Qc 2h 6s 9d] [Kd]
+*** SHOW DOWN ***
+velho_sabara: shows [Ac Qd] (a pair of Queens)
+velho_sabara collected 180 from side pot
+mafiadave30: shows [4c 9c] (a pair of Nines)
+velho_sabara collected 930 from main pot
+velho_sabara wins $0.25 for eliminating mafiadave30 and their own bounty increases by $0.25 to $1
+mafiadave30 finished the tournament
+*** SUMMARY ***
+Total pot 1110 Main pot 930. Side pot 180. | Rake 0 
+Board [Qc 2h 6s 9d Kd]
+Seat 1: mafiadave30 showed [4c 9c] and lost with a pair of Nines
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (button) folded on the Flop
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: toyrunnerns (big blind) folded before Flop
+Seat 7: velho_sabara showed [Ac Qd] and won (1110) with a pair of Queens
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: stan74rwd folded on the Flop
+
+
+
+PokerStars Hand #259756464988: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:17:31 UTC [2026/02/16 18:17:31 ET]
+Table '3974766235 19' 9-max Seat #5 is the button
+Seat 2: luucalis_ (2309 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (3069 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3681 in chips, $0.75 bounty) 
+Seat 5: scorza23 (2758 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6585 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13786 in chips, $1 bounty) 
+Seat 8: xxVale46xx (2142 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2570 in chips, $0.50 bounty) 
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+xxVale46xx: posts the ante 12
+stan74rwd: posts the ante 12
+toyrunnerns: posts small blind 50
+velho_sabara: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 5d]
+xxVale46xx: folds 
+stan74rwd: calls 100
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 100
+scorza23: folds 
+toyrunnerns: calls 50
+velho_sabara: checks 
+*** FLOP *** [7s 6c 7d]
+toyrunnerns: checks 
+velho_sabara: checks 
+stan74rwd: bets 496
+DoadorDonkey: folds 
+toyrunnerns: folds 
+velho_sabara: folds 
+Uncalled bet (496) returned to stan74rwd
+stan74rwd collected 496 from pot
+stan74rwd: doesn't show hand 
+*** SUMMARY ***
+Total pot 496 | Rake 0 
+Board [7s 6c 7d]
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded on the Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: toyrunnerns (small blind) folded on the Flop
+Seat 7: velho_sabara (big blind) folded on the Flop
+Seat 8: xxVale46xx folded before Flop (didn't bet)
+Seat 9: stan74rwd collected (496)
+
+
+
+PokerStars Hand #259756479983: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:18:39 UTC [2026/02/16 18:18:39 ET]
+Table '3974766235 19' 9-max Seat #6 is the button
+Seat 2: luucalis_ (2297 in chips, $0.50 bounty) 
+Seat 3: The_Aquino (3057 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3569 in chips, $0.75 bounty) 
+Seat 5: scorza23 (2746 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6473 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13674 in chips, $1 bounty) 
+Seat 8: xxVale46xx (2130 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2954 in chips, $0.50 bounty) 
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+xxVale46xx: posts the ante 12
+stan74rwd: posts the ante 12
+velho_sabara: posts small blind 50
+xxVale46xx: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qc]
+stan74rwd: calls 100
+luucalis_: raises 100 to 200
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+toyrunnerns: folds 
+velho_sabara: folds 
+xxVale46xx: calls 100
+stan74rwd: calls 100
+*** FLOP *** [Th Jh 4s]
+xxVale46xx: checks 
+stan74rwd: bets 746
+luucalis_: raises 1339 to 2085 and is all-in
+xxVale46xx: calls 1918 and is all-in
+stan74rwd: folds 
+Uncalled bet (167) returned to luucalis_
+*** TURN *** [Th Jh 4s] [7c]
+*** RIVER *** [Th Jh 4s 7c] [3c]
+*** SHOW DOWN ***
+xxVale46xx: shows [Kh 8h] (high card King)
+luucalis_: shows [Jd Qs] (a pair of Jacks)
+luucalis_ collected 5328 from pot
+luucalis_ wins $0.25 for eliminating xxVale46xx and their own bounty increases by $0.25 to $0.75
+xxVale46xx finished the tournament
+*** SUMMARY ***
+Total pot 5328 | Rake 0 
+Board [Th Jh 4s 7c 3c]
+Seat 2: luucalis_ showed [Jd Qs] and won (5328) with a pair of Jacks
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: toyrunnerns (button) folded before Flop (didn't bet)
+Seat 7: velho_sabara (small blind) folded before Flop
+Seat 8: xxVale46xx (big blind) showed [Kh 8h] and lost with high card King
+Seat 9: stan74rwd folded on the Flop
+
+
+
+PokerStars Hand #259756499132: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:20:06 UTC [2026/02/16 18:20:06 ET]
+Table '3974766235 19' 9-max Seat #7 is the button
+Seat 2: luucalis_ (5495 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (3045 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3557 in chips, $0.75 bounty) 
+Seat 5: scorza23 (2734 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6461 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13612 in chips, $1 bounty) 
+Seat 9: stan74rwd (1996 in chips, $0.50 bounty) 
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+stan74rwd: posts the ante 12
+stan74rwd: posts small blind 50
+luucalis_: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 6d]
+PpHsa is disconnected 
+The_Aquino: folds 
+DoadorDonkey: calls 100
+scorza23: folds 
+toyrunnerns: calls 100
+velho_sabara: folds 
+stan74rwd: raises 1884 to 1984 and is all-in
+luucalis_: folds 
+DoadorDonkey: folds 
+toyrunnerns: folds 
+Uncalled bet (1884) returned to stan74rwd
+stan74rwd collected 484 from pot
+stan74rwd: doesn't show hand 
+*** SUMMARY ***
+Total pot 484 | Rake 0 
+Seat 2: luucalis_ (big blind) folded before Flop
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: toyrunnerns folded before Flop
+Seat 7: velho_sabara (button) folded before Flop (didn't bet)
+Seat 9: stan74rwd (small blind) collected (484)
+
+
+
+PokerStars Hand #259756508896: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:20:50 UTC [2026/02/16 18:20:50 ET]
+Table '3974766235 19' 9-max Seat #9 is the button
+Seat 2: luucalis_ (5383 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (3033 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3445 in chips, $0.75 bounty) 
+Seat 5: scorza23 (2722 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6349 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13600 in chips, $1 bounty) 
+Seat 8: PpHsa (3000 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2368 in chips, $0.50 bounty) 
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+PpHsa: posts the ante 12
+stan74rwd: posts the ante 12
+luucalis_: posts small blind 50
+The_Aquino: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Js]
+DoadorDonkey: folds 
+scorza23: folds 
+toyrunnerns: calls 100
+velho_sabara: folds 
+PpHsa: calls 100
+stan74rwd: folds 
+luucalis_: folds 
+The_Aquino: checks 
+*** FLOP *** [Ad 7s 9c]
+The_Aquino: checks 
+toyrunnerns: bets 200
+PpHsa: folds 
+The_Aquino: folds 
+Uncalled bet (200) returned to toyrunnerns
+toyrunnerns collected 446 from pot
+*** SUMMARY ***
+Total pot 446 | Rake 0 
+Board [Ad 7s 9c]
+Seat 2: luucalis_ (small blind) folded before Flop
+Seat 3: The_Aquino (big blind) folded on the Flop
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: toyrunnerns collected (446)
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: PpHsa folded on the Flop
+Seat 9: stan74rwd (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756517349: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:21:28 UTC [2026/02/16 18:21:28 ET]
+Table '3974766235 19' 9-max Seat #2 is the button
+Seat 2: luucalis_ (5321 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (2921 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3433 in chips, $0.75 bounty) 
+Seat 5: scorza23 (2710 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6683 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13588 in chips, $1 bounty) 
+Seat 8: PpHsa (2888 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2356 in chips, $0.50 bounty) 
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+PpHsa: posts the ante 12
+stan74rwd: posts the ante 12
+The_Aquino: posts small blind 50
+DoadorDonkey: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Ad]
+scorza23: raises 110 to 210
+toyrunnerns: folds 
+velho_sabara: folds 
+PpHsa: folds 
+Gasse_95 is disconnected 
+stan74rwd: calls 210
+luucalis_: folds 
+The_Aquino: calls 160
+DoadorDonkey: folds 
+*** FLOP *** [Kc 5s 8h]
+The_Aquino: checks 
+scorza23: bets 413
+stan74rwd: folds 
+The_Aquino: calls 413
+*** TURN *** [Kc 5s 8h] [5h]
+The_Aquino: checks 
+scorza23: checks 
+*** RIVER *** [Kc 5s 8h 5h] [3s]
+The_Aquino: bets 413
+scorza23: folds 
+Uncalled bet (413) returned to The_Aquino
+The_Aquino collected 1652 from pot
+The_Aquino: doesn't show hand 
+*** SUMMARY ***
+Total pot 1652 | Rake 0 
+Board [Kc 5s 8h 5h 3s]
+Seat 2: luucalis_ (button) folded before Flop (didn't bet)
+Seat 3: The_Aquino (small blind) collected (1652)
+Seat 4: DoadorDonkey (big blind) folded before Flop
+Seat 5: scorza23 folded on the River
+Seat 6: toyrunnerns folded before Flop (didn't bet)
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: PpHsa folded before Flop (didn't bet)
+Seat 9: stan74rwd folded on the Flop
+
+
+
+PokerStars Hand #259756529580: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:22:24 UTC [2026/02/16 18:22:24 ET]
+Table '3974766235 19' 9-max Seat #3 is the button
+Seat 1: Gasse_95 (3000 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (5309 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (3938 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3321 in chips, $0.75 bounty) 
+Seat 5: scorza23 (2075 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6671 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13576 in chips, $1 bounty) 
+Seat 8: PpHsa (2876 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2134 in chips, $0.50 bounty) 
+Gasse_95: posts the ante 12
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+PpHsa: posts the ante 12
+stan74rwd: posts the ante 12
+DoadorDonkey: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 5c]
+toyrunnerns: folds 
+velho_sabara: folds 
+PpHsa: folds 
+stan74rwd: calls 100
+Gasse_95: raises 100 to 200
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: calls 150
+scorza23: folds 
+stan74rwd: calls 100
+*** FLOP *** [8h 2s 9h]
+DoadorDonkey: checks 
+stan74rwd: bets 808
+Gasse_95: folds 
+DoadorDonkey: folds 
+Uncalled bet (808) returned to stan74rwd
+stan74rwd collected 808 from pot
+stan74rwd: doesn't show hand 
+*** SUMMARY ***
+Total pot 808 | Rake 0 
+Board [8h 2s 9h]
+Seat 1: Gasse_95 folded on the Flop
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino (button) folded before Flop (didn't bet)
+Seat 4: DoadorDonkey (small blind) folded on the Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: toyrunnerns folded before Flop (didn't bet)
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: PpHsa folded before Flop (didn't bet)
+Seat 9: stan74rwd collected (808)
+
+
+
+PokerStars Hand #259756540604: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:23:14 UTC [2026/02/16 18:23:14 ET]
+Table '3974766235 19' 9-max Seat #4 is the button
+Seat 1: Gasse_95 (2788 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (5297 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (3926 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (3109 in chips, $0.75 bounty) 
+Seat 5: scorza23 (1963 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6659 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13564 in chips, $1 bounty) 
+Seat 8: PpHsa (2864 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2730 in chips, $0.50 bounty) 
+Gasse_95: posts the ante 12
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+PpHsa: posts the ante 12
+stan74rwd: posts the ante 12
+scorza23: posts small blind 50
+toyrunnerns: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 2s]
+velho_sabara: folds 
+PpHsa: folds 
+stan74rwd: folds 
+Gasse_95: calls 100
+luucalis_: folds 
+The_Aquino: calls 100
+DoadorDonkey: calls 100
+scorza23: raises 1851 to 1951 and is all-in
+toyrunnerns: folds 
+Gasse_95: raises 825 to 2776 and is all-in
+The_Aquino: folds 
+DoadorDonkey: folds 
+Uncalled bet (825) returned to Gasse_95
+*** FLOP *** [5c 2d 7h]
+*** TURN *** [5c 2d 7h] [Kc]
+*** RIVER *** [5c 2d 7h Kc] [Qs]
+*** SHOW DOWN ***
+scorza23: shows [Jh 2s] (a pair of Deuces)
+Gasse_95: shows [9d Jc] (high card King)
+scorza23 collected 4310 from pot
+*** SUMMARY ***
+Total pot 4310 | Rake 0 
+Board [5c 2d 7h Kc Qs]
+Seat 1: Gasse_95 showed [9d Jc] and lost with high card King
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop
+Seat 4: DoadorDonkey (button) folded before Flop
+Seat 5: scorza23 (small blind) showed [Jh 2s] and won (4310) with a pair of Deuces
+Seat 6: toyrunnerns (big blind) folded before Flop
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: PpHsa folded before Flop (didn't bet)
+Seat 9: stan74rwd folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756558550: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:24:37 UTC [2026/02/16 18:24:37 ET]
+Table '3974766235 19' 9-max Seat #5 is the button
+Seat 1: Gasse_95 (825 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (5285 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (3814 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (2997 in chips, $0.75 bounty) 
+Seat 5: scorza23 (4310 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6547 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (13552 in chips, $1 bounty) 
+Seat 8: PpHsa (2852 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2718 in chips, $0.50 bounty) 
+Gasse_95: posts the ante 12
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+PpHsa: posts the ante 12
+stan74rwd: posts the ante 12
+toyrunnerns: posts small blind 50
+velho_sabara: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 9c]
+PpHsa: raises 100 to 200
+stan74rwd: folds 
+Gasse_95: raises 613 to 813 and is all-in
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+toyrunnerns: folds 
+velho_sabara: raises 1984 to 2797
+PpHsa: raises 43 to 2840 and is all-in
+velho_sabara: calls 43
+*** FLOP *** [9s 3d 6d]
+*** TURN *** [9s 3d 6d] [8s]
+*** RIVER *** [9s 3d 6d 8s] [Ad]
+*** SHOW DOWN ***
+velho_sabara: shows [Kd Ac] (a pair of Aces)
+PpHsa: shows [Jc Jh] (a pair of Jacks)
+velho_sabara collected 4054 from side pot
+Gasse_95: shows [Js Kh] (high card Ace)
+velho_sabara collected 2597 from main pot
+velho_sabara wins $0.25 for eliminating Gasse_95 and their own bounty increases by $0.25 to $1.25
+velho_sabara wins $0.25 for eliminating PpHsa and their own bounty increases by $0.25 to $1.50
+PpHsa finished the tournament
+Gasse_95 finished the tournament
+*** SUMMARY ***
+Total pot 6651 Main pot 2597. Side pot 4054. | Rake 0 
+Board [9s 3d 6d 8s Ad]
+Seat 1: Gasse_95 showed [Js Kh] and lost with high card Ace
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: toyrunnerns (small blind) folded before Flop
+Seat 7: velho_sabara (big blind) showed [Kd Ac] and won (6651) with a pair of Aces
+Seat 8: PpHsa showed [Jc Jh] and lost with a pair of Jacks
+Seat 9: stan74rwd folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259756567025: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:25:15 UTC [2026/02/16 18:25:15 ET]
+Table '3974766235 19' 9-max Seat #6 is the button
+Seat 2: luucalis_ (5273 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (3802 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (2985 in chips, $0.75 bounty) 
+Seat 5: scorza23 (4298 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6485 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (17351 in chips, $1.50 bounty) 
+Seat 9: stan74rwd (2706 in chips, $0.50 bounty) 
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+stan74rwd: posts the ante 12
+velho_sabara: posts small blind 50
+stan74rwd: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6s]
+polite123 is disconnected 
+luucalis_: folds 
+The_Aquino: raises 100 to 200
+DoadorDonkey: folds 
+scorza23: folds 
+toyrunnerns: calls 200
+velho_sabara: folds 
+stan74rwd: folds 
+*** FLOP *** [Jh 2c Jd]
+The_Aquino: bets 317
+Z_Agustin is disconnected 
+toyrunnerns: folds 
+Uncalled bet (317) returned to The_Aquino
+The_Aquino collected 634 from pot
+The_Aquino: doesn't show hand 
+*** SUMMARY ***
+Total pot 634 | Rake 0 
+Board [Jh 2c Jd]
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino collected (634)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: toyrunnerns (button) folded on the Flop
+Seat 7: velho_sabara (small blind) folded before Flop
+Seat 9: stan74rwd (big blind) folded before Flop
+
+
+
+PokerStars Hand #259756577611: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VI (50/100) - 2026/02/16 23:26:03 UTC [2026/02/16 18:26:03 ET]
+Table '3974766235 19' 9-max Seat #7 is the button
+Seat 1: polite123 (4172 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (5261 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (4224 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (2973 in chips, $0.75 bounty) 
+Seat 5: scorza23 (4286 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6273 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (17289 in chips, $1.50 bounty) 
+Seat 8: Z_Agustin (3000 in chips) out of hand (moved from another table into small blind)
+Seat 9: stan74rwd (2594 in chips, $0.50 bounty) 
+Z_Agustin will be allowed to play after the button
+polite123: posts the ante 12
+luucalis_: posts the ante 12
+The_Aquino: posts the ante 12
+DoadorDonkey: posts the ante 12
+scorza23: posts the ante 12
+toyrunnerns: posts the ante 12
+velho_sabara: posts the ante 12
+stan74rwd: posts the ante 12
+stan74rwd: posts small blind 50
+polite123: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 4c]
+luucalis_: folds 
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: folds 
+toyrunnerns: calls 100
+velho_sabara: folds 
+stan74rwd: calls 50
+polite123: checks 
+*** FLOP *** [4h Ah Kh]
+stan74rwd: bets 396
+polite123: calls 396
+toyrunnerns: folds 
+*** TURN *** [4h Ah Kh] [2s]
+stan74rwd: checks 
+polite123: bets 2300
+stan74rwd: folds 
+Uncalled bet (2300) returned to polite123
+polite123 collected 1188 from pot
+polite123: doesn't show hand 
+*** SUMMARY ***
+Total pot 1188 | Rake 0 
+Board [4h Ah Kh 2s]
+Seat 1: polite123 (big blind) collected (1188)
+Seat 2: luucalis_ folded before Flop (didn't bet)
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: toyrunnerns folded on the Flop
+Seat 7: velho_sabara (button) folded before Flop (didn't bet)
+Seat 9: stan74rwd (small blind) folded on the Turn
+
+
+
+PokerStars Hand #259757093473: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 23:27:15 UTC [2026/02/16 18:27:15 ET]
+Table '3974766235 19' 9-max Seat #9 is the button
+Seat 1: polite123 (4852 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (5249 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (4212 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (2961 in chips, $0.75 bounty) 
+Seat 5: scorza23 (4274 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6161 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (17277 in chips, $1.50 bounty) 
+Seat 8: Z_Agustin (3000 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (2086 in chips, $0.50 bounty) 
+polite123: posts the ante 15
+luucalis_: posts the ante 15
+The_Aquino: posts the ante 15
+DoadorDonkey: posts the ante 15
+scorza23: posts the ante 15
+toyrunnerns: posts the ante 15
+velho_sabara: posts the ante 15
+Z_Agustin: posts the ante 15
+stan74rwd: posts the ante 15
+polite123: posts small blind 60
+luucalis_: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Td]
+The_Aquino: folds 
+DoadorDonkey: folds 
+scorza23: raises 132 to 252
+toyrunnerns: folds 
+velho_sabara: folds 
+Z_Agustin: calls 252
+stan74rwd: raises 588 to 840
+polite123: folds 
+luucalis_: calls 720
+scorza23: calls 588
+Z_Agustin: calls 588
+*** FLOP *** [Jd 8c 5d]
+luucalis_: checks 
+scorza23: checks 
+Z_Agustin: bets 2145 and is all-in
+stan74rwd: calls 1231 and is all-in
+luucalis_: folds 
+scorza23: folds 
+Uncalled bet (914) returned to Z_Agustin
+*** TURN *** [Jd 8c 5d] [9c]
+*** RIVER *** [Jd 8c 5d 9c] [Ac]
+*** SHOW DOWN ***
+Z_Agustin: shows [Kh Jc] (a pair of Jacks)
+stan74rwd: shows [Ah Js] (two pair, Aces and Jacks)
+stan74rwd collected 6017 from pot
+*** SUMMARY ***
+Total pot 6017 | Rake 0 
+Board [Jd 8c 5d 9c Ac]
+Seat 1: polite123 (small blind) folded before Flop
+Seat 2: luucalis_ (big blind) folded on the Flop
+Seat 3: The_Aquino folded before Flop (didn't bet)
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 folded on the Flop
+Seat 6: toyrunnerns folded before Flop (didn't bet)
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: Z_Agustin showed [Kh Jc] and lost with a pair of Jacks
+Seat 9: stan74rwd (button) showed [Ah Js] and won (6017) with two pair, Aces and Jacks
+
+
+
+PokerStars Hand #259757109133: Tournament #3974766235, $0.48+$0.50+$0.12 USD Hold'em No Limit - Level VII (60/120) - 2026/02/16 23:28:27 UTC [2026/02/16 18:28:27 ET]
+Table '3974766235 19' 9-max Seat #1 is the button
+Seat 1: polite123 (4777 in chips, $0.50 bounty) 
+Seat 2: luucalis_ (4394 in chips, $0.75 bounty) 
+Seat 3: The_Aquino (4197 in chips, $0.50 bounty) 
+Seat 4: DoadorDonkey (2946 in chips, $0.75 bounty) 
+Seat 5: scorza23 (3419 in chips, $0.50 bounty) 
+Seat 6: toyrunnerns (6146 in chips, $0.50 bounty) 
+Seat 7: velho_sabara (17262 in chips, $1.50 bounty) 
+Seat 8: Z_Agustin (914 in chips, $0.50 bounty) 
+Seat 9: stan74rwd (6017 in chips, $0.50 bounty) 
+polite123: posts the ante 15
+luucalis_: posts the ante 15
+The_Aquino: posts the ante 15
+DoadorDonkey: posts the ante 15
+scorza23: posts the ante 15
+toyrunnerns: posts the ante 15
+velho_sabara: posts the ante 15
+Z_Agustin: posts the ante 15
+stan74rwd: posts the ante 15
+luucalis_: posts small blind 60
+The_Aquino: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Kc]
+DoadorDonkey: folds 
+scorza23: raises 3284 to 3404 and is all-in
+toyrunnerns: raises 2727 to 6131 and is all-in
+velho_sabara: folds 
+Z_Agustin: folds 
+stan74rwd: folds 
+polite123: folds 
+luucalis_: folds 
+The_Aquino: folds 
+Uncalled bet (2727) returned to toyrunnerns
+*** FLOP *** [5h 2s 5d]
+*** TURN *** [5h 2s 5d] [9h]
+*** RIVER *** [5h 2s 5d 9h] [7d]
+*** SHOW DOWN ***
+scorza23: shows [8s Kc] (a pair of Fives)
+toyrunnerns: shows [Ah Kd] (a pair of Fives - Ace kicker)
+toyrunnerns collected 7123 from pot
+toyrunnerns wins $0.25 for eliminating scorza23 and their own bounty increases by $0.25 to $0.75
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 7123 | Rake 0 
+Board [5h 2s 5d 9h 7d]
+Seat 1: polite123 (button) folded before Flop (didn't bet)
+Seat 2: luucalis_ (small blind) folded before Flop
+Seat 3: The_Aquino (big blind) folded before Flop
+Seat 4: DoadorDonkey folded before Flop (didn't bet)
+Seat 5: scorza23 showed [8s Kc] and lost with a pair of Fives
+Seat 6: toyrunnerns showed [Ah Kd] and won (7123) with a pair of Fives
+Seat 7: velho_sabara folded before Flop (didn't bet)
+Seat 8: Z_Agustin folded before Flop (didn't bet)
+Seat 9: stan74rwd folded before Flop (didn't bet)
+
+
+

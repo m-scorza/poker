@@ -1,0 +1,2184 @@
+﻿PokerStars Hand #259763109621: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:24:39 UTC [2026/02/17 10:24:39 ET]
+Table '3975974411 1' 9-max Seat #1 is the button
+Seat 1: alleinzuhaus (1500 in chips) 
+Seat 2: Guel2706 (1500 in chips) 
+Seat 3: RafielCampao (1500 in chips) 
+Seat 4: marcos.as923 (1500 in chips) 
+Seat 5: MCLMUSIC (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: chrysz13 (1500 in chips) 
+Seat 8: Rafaalves06 (1500 in chips) 
+Seat 9: Tspkk1 (1500 in chips) 
+Guel2706: posts small blind 10
+RafielCampao: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 4s]
+marcos.as923: folds 
+MCLMUSIC: raises 20 to 40
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: calls 40
+Guel2706: calls 30
+RafielCampao: folds 
+*** FLOP *** [9h Kd 7d]
+Guel2706: checks 
+MCLMUSIC: bets 46
+alleinzuhaus: calls 46
+Guel2706: folds 
+*** TURN *** [9h Kd 7d] [3s]
+MCLMUSIC: checks 
+alleinzuhaus: checks 
+*** RIVER *** [9h Kd 7d 3s] [Kh]
+MCLMUSIC: checks 
+alleinzuhaus: checks 
+*** SHOW DOWN ***
+MCLMUSIC: shows [2s As] (a pair of Kings)
+alleinzuhaus: shows [Qs 9s] (two pair, Kings and Nines)
+alleinzuhaus collected 232 from pot
+*** SUMMARY ***
+Total pot 232 | Rake 0 
+Board [9h Kd 7d 3s Kh]
+Seat 1: alleinzuhaus (button) showed [Qs 9s] and won (232) with two pair, Kings and Nines
+Seat 2: Guel2706 (small blind) folded on the Flop
+Seat 3: RafielCampao (big blind) folded before Flop
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC showed [2s As] and lost with a pair of Kings
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763121833: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:25:52 UTC [2026/02/17 10:25:52 ET]
+Table '3975974411 1' 9-max Seat #2 is the button
+Seat 1: alleinzuhaus (1646 in chips) 
+Seat 2: Guel2706 (1460 in chips) 
+Seat 3: RafielCampao (1480 in chips) 
+Seat 4: marcos.as923 (1500 in chips) 
+Seat 5: MCLMUSIC (1414 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: chrysz13 (1500 in chips) 
+Seat 8: Rafaalves06 (1500 in chips) 
+Seat 9: Tspkk1 (1500 in chips) 
+RafielCampao: posts small blind 10
+marcos.as923: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9h]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06 has timed out
+Rafaalves06: folds 
+Rafaalves06 is sitting out
+Tspkk1: raises 40 to 60
+Rafaalves06 has returned
+alleinzuhaus: folds 
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+Uncalled bet (40) returned to Tspkk1
+Tspkk1 collected 50 from pot
+Tspkk1: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: alleinzuhaus folded before Flop (didn't bet)
+Seat 2: Guel2706 (button) folded before Flop (didn't bet)
+Seat 3: RafielCampao (small blind) folded before Flop
+Seat 4: marcos.as923 (big blind) folded before Flop
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 collected (50)
+
+
+
+PokerStars Hand #259763132161: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:26:54 UTC [2026/02/17 10:26:54 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 1: alleinzuhaus (1646 in chips) 
+Seat 2: Guel2706 (1460 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1480 in chips) 
+Seat 5: MCLMUSIC (1414 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: chrysz13 (1500 in chips) 
+Seat 8: Rafaalves06 (1500 in chips) 
+Seat 9: Tspkk1 (1530 in chips) 
+marcos.as923: posts small blind 10
+MCLMUSIC: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Kd]
+scorza23: raises 20 to 40
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: calls 40
+alleinzuhaus: calls 40
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+*** FLOP *** [Jc Th 9h]
+scorza23: checks 
+Tspkk1: bets 100
+alleinzuhaus: calls 100
+scorza23: calls 100
+*** TURN *** [Jc Th 9h] [8c]
+scorza23: checks 
+Tspkk1: checks 
+alleinzuhaus: checks 
+*** RIVER *** [Jc Th 9h 8c] [9d]
+scorza23: checks 
+Tspkk1: checks 
+alleinzuhaus: checks 
+*** SHOW DOWN ***
+scorza23: shows [Kc Kd] (two pair, Kings and Nines)
+Tspkk1: mucks hand 
+alleinzuhaus: mucks hand 
+scorza23 collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [Jc Th 9h 8c 9d]
+Seat 1: alleinzuhaus mucked [Td 8h]
+Seat 2: Guel2706 folded before Flop (didn't bet)
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 4: marcos.as923 (small blind) folded before Flop
+Seat 5: MCLMUSIC (big blind) folded before Flop
+Seat 6: scorza23 showed [Kc Kd] and won (450) with two pair, Kings and Nines
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 mucked [As Jd]
+
+
+
+PokerStars Hand #259763141145: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:27:48 UTC [2026/02/17 10:27:48 ET]
+Table '3975974411 1' 9-max Seat #4 is the button
+Seat 1: alleinzuhaus (1506 in chips) 
+Seat 2: Guel2706 (1460 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1470 in chips) 
+Seat 5: MCLMUSIC (1394 in chips) 
+Seat 6: scorza23 (1810 in chips) 
+Seat 7: chrysz13 (1500 in chips) 
+Seat 8: Rafaalves06 (1500 in chips) 
+Seat 9: Tspkk1 (1390 in chips) 
+MCLMUSIC: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 3c]
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: folds 
+Guel2706: raises 20 to 40
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: calls 30
+scorza23: folds 
+*** FLOP *** [2d 3d Tc]
+MCLMUSIC: checks 
+Guel2706: bets 20
+MCLMUSIC: calls 20
+*** TURN *** [2d 3d Tc] [4c]
+MCLMUSIC: checks 
+Guel2706: checks 
+*** RIVER *** [2d 3d Tc 4c] [6c]
+MCLMUSIC: bets 20
+Guel2706: folds 
+Uncalled bet (20) returned to MCLMUSIC
+MCLMUSIC collected 140 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Board [2d 3d Tc 4c 6c]
+Seat 1: alleinzuhaus folded before Flop (didn't bet)
+Seat 2: Guel2706 folded on the River
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 (button) folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (small blind) collected (140)
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763151683: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 15:28:51 UTC [2026/02/17 10:28:51 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 1: alleinzuhaus (1506 in chips) 
+Seat 2: Guel2706 (1400 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1470 in chips) 
+Seat 5: MCLMUSIC (1474 in chips) 
+Seat 6: scorza23 (1790 in chips) 
+Seat 7: chrysz13 (1500 in chips) 
+Seat 8: Rafaalves06 (1500 in chips) 
+Seat 9: Tspkk1 (1390 in chips) 
+scorza23: posts small blind 10
+chrysz13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 3c]
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: calls 20
+Guel2706: calls 20
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: calls 20
+scorza23: folds 
+chrysz13: checks 
+*** FLOP *** [Jc 9h 5h]
+chrysz13: checks 
+alleinzuhaus: checks 
+Guel2706: bets 60
+MCLMUSIC: folds 
+chrysz13: calls 60
+alleinzuhaus: calls 60
+*** TURN *** [Jc 9h 5h] [Kd]
+chrysz13: checks 
+alleinzuhaus: checks 
+Guel2706: bets 80
+chrysz13: folds 
+alleinzuhaus: calls 80
+*** RIVER *** [Jc 9h 5h Kd] [Ks]
+alleinzuhaus: checks 
+Guel2706: bets 1240 and is all-in
+alleinzuhaus: folds 
+Uncalled bet (1240) returned to Guel2706
+Guel2706 collected 430 from pot
+Guel2706: doesn't show hand 
+*** SUMMARY ***
+Total pot 430 | Rake 0 
+Board [Jc 9h 5h Kd Ks]
+Seat 1: alleinzuhaus folded on the River
+Seat 2: Guel2706 collected (430)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) folded on the Flop
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) folded on the Turn
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763162715: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:29:59 UTC [2026/02/17 10:29:59 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 1: alleinzuhaus (1346 in chips) 
+Seat 2: Guel2706 (1670 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1470 in chips) 
+Seat 5: MCLMUSIC (1454 in chips) 
+Seat 6: scorza23 (1780 in chips) 
+Seat 7: chrysz13 (1420 in chips) 
+Seat 8: Rafaalves06 (1500 in chips) 
+Seat 9: Tspkk1 (1390 in chips) 
+chrysz13: posts small blind 15
+Rafaalves06: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Ah]
+Tspkk1: folds 
+alleinzuhaus: calls 30
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: raises 150 to 180
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+alleinzuhaus: folds 
+Uncalled bet (150) returned to MCLMUSIC
+MCLMUSIC collected 105 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 105 | Rake 0 
+Seat 1: alleinzuhaus folded before Flop
+Seat 2: Guel2706 folded before Flop (didn't bet)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC collected (105)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded before Flop
+Seat 8: Rafaalves06 (big blind) folded before Flop
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763168141: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:30:31 UTC [2026/02/17 10:30:31 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 1: alleinzuhaus (1316 in chips) 
+Seat 2: Guel2706 (1670 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1470 in chips) 
+Seat 5: MCLMUSIC (1529 in chips) 
+Seat 6: scorza23 (1780 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1470 in chips) 
+Seat 9: Tspkk1 (1390 in chips) 
+Rafaalves06: posts small blind 15
+Tspkk1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2c]
+alleinzuhaus: raises 1286 to 1316 and is all-in
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+Uncalled bet (1286) returned to alleinzuhaus
+alleinzuhaus collected 75 from pot
+alleinzuhaus: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: alleinzuhaus collected (75)
+Seat 2: Guel2706 folded before Flop (didn't bet)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+Seat 8: Rafaalves06 (small blind) folded before Flop
+Seat 9: Tspkk1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763171714: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:30:52 UTC [2026/02/17 10:30:52 ET]
+Table '3975974411 1' 9-max Seat #8 is the button
+Seat 1: alleinzuhaus (1361 in chips) 
+Seat 2: Guel2706 (1670 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1470 in chips) 
+Seat 5: MCLMUSIC (1529 in chips) 
+Seat 6: scorza23 (1780 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1455 in chips) 
+Seat 9: Tspkk1 (1360 in chips) 
+Tspkk1: posts small blind 15
+alleinzuhaus: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 5c]
+Guel2706: calls 30
+RafielCampao: folds 
+marcos.as923: raises 96 to 126
+MCLMUSIC: raises 234 to 360
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: folds 
+Guel2706: folds 
+marcos.as923: folds 
+Uncalled bet (234) returned to MCLMUSIC
+MCLMUSIC collected 327 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 327 | Rake 0 
+Seat 1: alleinzuhaus (big blind) folded before Flop
+Seat 2: Guel2706 folded before Flop
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop
+Seat 5: MCLMUSIC collected (327)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 (button) folded before Flop (didn't bet)
+Seat 9: Tspkk1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763177423: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:31:26 UTC [2026/02/17 10:31:26 ET]
+Table '3975974411 1' 9-max Seat #9 is the button
+Seat 1: alleinzuhaus (1331 in chips) 
+Seat 2: Guel2706 (1640 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1344 in chips) 
+Seat 5: MCLMUSIC (1730 in chips) 
+Seat 6: scorza23 (1780 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1455 in chips) 
+Seat 9: Tspkk1 (1345 in chips) 
+alleinzuhaus: posts small blind 15
+Guel2706: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Th]
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: raises 60 to 90
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: calls 75
+Guel2706: folds 
+*** FLOP *** [9h 7s Qh]
+alleinzuhaus: checks 
+scorza23: checks 
+*** TURN *** [9h 7s Qh] [3s]
+alleinzuhaus: checks 
+scorza23: checks 
+*** RIVER *** [9h 7s Qh 3s] [5d]
+alleinzuhaus: bets 210
+scorza23: folds 
+Uncalled bet (210) returned to alleinzuhaus
+alleinzuhaus collected 210 from pot
+alleinzuhaus: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Board [9h 7s Qh 3s 5d]
+Seat 1: alleinzuhaus (small blind) collected (210)
+Seat 2: Guel2706 (big blind) folded before Flop
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded on the River
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763185839: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:32:16 UTC [2026/02/17 10:32:16 ET]
+Table '3975974411 1' 9-max Seat #1 is the button
+Seat 1: alleinzuhaus (1451 in chips) 
+Seat 2: Guel2706 (1610 in chips) 
+Seat 3: RafielCampao (1470 in chips) 
+Seat 4: marcos.as923 (1344 in chips) 
+Seat 5: MCLMUSIC (1730 in chips) 
+Seat 6: scorza23 (1690 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1455 in chips) 
+Seat 9: Tspkk1 (1345 in chips) 
+Guel2706: posts small blind 15
+RafielCampao: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3d]
+marcos.as923: folds 
+MCLMUSIC: raises 30 to 60
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: raises 60 to 120
+alleinzuhaus: folds 
+Guel2706: folds 
+RafielCampao: folds 
+MCLMUSIC: calls 60
+*** FLOP *** [8d Kd As]
+MCLMUSIC: checks 
+Tspkk1: bets 90
+MCLMUSIC: folds 
+Uncalled bet (90) returned to Tspkk1
+Tspkk1 collected 285 from pot
+Tspkk1: doesn't show hand 
+*** SUMMARY ***
+Total pot 285 | Rake 0 
+Board [8d Kd As]
+Seat 1: alleinzuhaus (button) folded before Flop (didn't bet)
+Seat 2: Guel2706 (small blind) folded before Flop
+Seat 3: RafielCampao (big blind) folded before Flop
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 collected (285)
+
+
+
+PokerStars Hand #259763193386: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:33:02 UTC [2026/02/17 10:33:02 ET]
+Table '3975974411 1' 9-max Seat #2 is the button
+Seat 1: alleinzuhaus (1451 in chips) 
+Seat 2: Guel2706 (1595 in chips) 
+Seat 3: RafielCampao (1440 in chips) 
+Seat 4: marcos.as923 (1344 in chips) 
+Seat 5: MCLMUSIC (1610 in chips) 
+Seat 6: scorza23 (1690 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1455 in chips) 
+Seat 9: Tspkk1 (1510 in chips) 
+RafielCampao: posts small blind 15
+marcos.as923: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Kc]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: calls 30
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: raises 60 to 90
+alleinzuhaus: raises 1361 to 1451 and is all-in
+marcos.as923: calls 1254 and is all-in
+Uncalled bet (107) returned to alleinzuhaus
+*** FLOP *** [8h Tc 3s]
+*** TURN *** [8h Tc 3s] [Jh]
+*** RIVER *** [8h Tc 3s Jh] [5d]
+*** SHOW DOWN ***
+marcos.as923: shows [Js As] (a pair of Jacks)
+alleinzuhaus: shows [Ks 8d] (a pair of Eights)
+marcos.as923 collected 2703 from pot
+*** SUMMARY ***
+Total pot 2703 | Rake 0 
+Board [8h Tc 3s Jh 5d]
+Seat 1: alleinzuhaus showed [Ks 8d] and lost with a pair of Eights
+Seat 2: Guel2706 (button) folded before Flop (didn't bet)
+Seat 3: RafielCampao (small blind) folded before Flop
+Seat 4: marcos.as923 (big blind) showed [Js As] and won (2703) with a pair of Jacks
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763204602: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:34:09 UTC [2026/02/17 10:34:09 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 1: alleinzuhaus (107 in chips) 
+Seat 2: Guel2706 (1595 in chips) 
+Seat 3: RafielCampao (1425 in chips) 
+Seat 4: marcos.as923 (2703 in chips) 
+Seat 5: MCLMUSIC (1610 in chips) 
+Seat 6: scorza23 (1690 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1455 in chips) 
+Seat 9: Tspkk1 (1510 in chips) 
+marcos.as923: posts small blind 15
+MCLMUSIC: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Qh]
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: raises 30 to 60
+Tspkk1: calls 60
+alleinzuhaus: folds 
+Guel2706: calls 60
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: calls 30
+*** FLOP *** [As 9h Js]
+MCLMUSIC: checks 
+Rafaalves06: checks 
+Tspkk1: checks 
+Guel2706: bets 30
+MCLMUSIC: folds 
+Rafaalves06: calls 30
+Tspkk1: calls 30
+*** TURN *** [As 9h Js] [4d]
+Rafaalves06: checks 
+Tspkk1: checks 
+Guel2706: checks 
+*** RIVER *** [As 9h Js 4d] [Tc]
+Rafaalves06: bets 345
+Tspkk1: folds 
+Guel2706: folds 
+Uncalled bet (345) returned to Rafaalves06
+Rafaalves06 collected 345 from pot
+Rafaalves06: doesn't show hand 
+*** SUMMARY ***
+Total pot 345 | Rake 0 
+Board [As 9h Js 4d Tc]
+Seat 1: alleinzuhaus folded before Flop (didn't bet)
+Seat 2: Guel2706 folded on the River
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 4: marcos.as923 (small blind) folded before Flop
+Seat 5: MCLMUSIC (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 collected (345)
+Seat 9: Tspkk1 folded on the River
+
+
+
+PokerStars Hand #259763216770: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:35:21 UTC [2026/02/17 10:35:21 ET]
+Table '3975974411 1' 9-max Seat #4 is the button
+Seat 1: alleinzuhaus (107 in chips) 
+Seat 2: Guel2706 (1505 in chips) 
+Seat 3: RafielCampao (1425 in chips) 
+Seat 4: marcos.as923 (2688 in chips) 
+Seat 5: MCLMUSIC (1550 in chips) 
+Seat 6: scorza23 (1690 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1710 in chips) 
+Seat 9: Tspkk1 (1420 in chips) 
+MCLMUSIC: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 6d]
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: calls 50
+Guel2706: raises 50 to 100
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+alleinzuhaus: calls 50
+*** FLOP *** [Ac Qd Qc]
+alleinzuhaus: bets 7 and is all-in
+Guel2706: calls 7
+*** TURN *** [Ac Qd Qc] [5s]
+*** RIVER *** [Ac Qd Qc 5s] [As]
+*** SHOW DOWN ***
+alleinzuhaus: shows [5d Ad] (a full house, Aces full of Queens)
+Guel2706: shows [Ah 6c] (a full house, Aces full of Queens)
+alleinzuhaus collected 145 from pot
+Guel2706 collected 144 from pot
+*** SUMMARY ***
+Total pot 289 | Rake 0 
+Board [Ac Qd Qc 5s As]
+Seat 1: alleinzuhaus showed [5d Ad] and won (145) with a full house, Aces full of Queens
+Seat 2: Guel2706 showed [Ah 6c] and won (144) with a full house, Aces full of Queens
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 (button) folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763222357: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:35:55 UTC [2026/02/17 10:35:55 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 1: alleinzuhaus (145 in chips) 
+Seat 2: Guel2706 (1542 in chips) 
+Seat 3: RafielCampao (1425 in chips) 
+Seat 4: marcos.as923 (2688 in chips) 
+Seat 5: MCLMUSIC (1525 in chips) 
+Seat 6: scorza23 (1640 in chips) 
+Seat 7: chrysz13 (1405 in chips) 
+Seat 8: Rafaalves06 (1710 in chips) 
+Seat 9: Tspkk1 (1420 in chips) 
+scorza23: posts small blind 25
+chrysz13: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 3h]
+Rafaalves06: folds 
+Tspkk1: folds 
+alleinzuhaus: calls 50
+Guel2706: calls 50
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: checks 
+*** FLOP *** [Kc 3s 6d]
+chrysz13: checks 
+alleinzuhaus: bets 50
+Guel2706: raises 50 to 100
+chrysz13: folds 
+alleinzuhaus: calls 45 and is all-in
+Uncalled bet (5) returned to Guel2706
+*** TURN *** [Kc 3s 6d] [7h]
+*** RIVER *** [Kc 3s 6d 7h] [6h]
+*** SHOW DOWN ***
+alleinzuhaus: shows [2h 2s] (two pair, Sixes and Deuces)
+Guel2706: shows [Kh 8s] (two pair, Kings and Sixes)
+Guel2706 collected 365 from pot
+alleinzuhaus finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 365 | Rake 0 
+Board [Kc 3s 6d 7h 6h]
+Seat 1: alleinzuhaus showed [2h 2s] and lost with two pair, Sixes and Deuces
+Seat 2: Guel2706 showed [Kh 8s] and won (365) with two pair, Kings and Sixes
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) folded on the Flop
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763229590: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:36:38 UTC [2026/02/17 10:36:38 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 2: Guel2706 (1762 in chips) 
+Seat 3: RafielCampao (1425 in chips) 
+Seat 4: marcos.as923 (2688 in chips) 
+Seat 5: MCLMUSIC (1525 in chips) 
+Seat 6: scorza23 (1615 in chips) 
+Seat 7: chrysz13 (1355 in chips) 
+Seat 8: Rafaalves06 (1710 in chips) 
+Seat 9: Tspkk1 (1420 in chips) 
+chrysz13: posts small blind 25
+Rafaalves06: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4d]
+Tspkk1: folds 
+Guel2706: raises 100 to 150
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: calls 125
+Rafaalves06: folds 
+*** FLOP *** [2s Jc Qc]
+chrysz13: checks 
+Guel2706: bets 175
+chrysz13: folds 
+Uncalled bet (175) returned to Guel2706
+Guel2706 collected 350 from pot
+Guel2706: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Board [2s Jc Qc]
+Seat 2: Guel2706 collected (350)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded on the Flop
+Seat 8: Rafaalves06 (big blind) folded before Flop
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763237020: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:37:22 UTC [2026/02/17 10:37:22 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 2: Guel2706 (1962 in chips) 
+Seat 3: RafielCampao (1425 in chips) 
+Seat 4: marcos.as923 (2688 in chips) 
+Seat 5: MCLMUSIC (1525 in chips) 
+Seat 6: scorza23 (1615 in chips) 
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (1660 in chips) 
+Seat 9: Tspkk1 (1420 in chips) 
+Rafaalves06: posts small blind 25
+Tspkk1: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4h]
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: raises 75 to 125
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: calls 100
+Tspkk1: calls 75
+*** FLOP *** [2c 5c 5s]
+Rafaalves06: checks 
+Tspkk1: checks 
+marcos.as923: checks 
+*** TURN *** [2c 5c 5s] [9c]
+Rafaalves06: bets 375
+Tspkk1: folds 
+marcos.as923: folds 
+Uncalled bet (375) returned to Rafaalves06
+Rafaalves06 collected 375 from pot
+Rafaalves06: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [2c 5c 5s 9c]
+Seat 2: Guel2706 folded before Flop (didn't bet)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded on the Turn
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+Seat 8: Rafaalves06 (small blind) collected (375)
+Seat 9: Tspkk1 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259763245634: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:38:14 UTC [2026/02/17 10:38:14 ET]
+Table '3975974411 1' 9-max Seat #8 is the button
+Seat 2: Guel2706 (1962 in chips) 
+Seat 3: RafielCampao (1425 in chips) 
+Seat 4: marcos.as923 (2563 in chips) 
+Seat 5: MCLMUSIC (1525 in chips) 
+Seat 6: scorza23 (1615 in chips) 
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (1910 in chips) 
+Seat 9: Tspkk1 (1295 in chips) 
+Tspkk1: posts small blind 25
+Guel2706: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Ts]
+RafielCampao: folds 
+marcos.as923: raises 75 to 125
+MCLMUSIC: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+Guel2706: folds 
+Uncalled bet (75) returned to marcos.as923
+marcos.as923 collected 125 from pot
+marcos.as923: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 2: Guel2706 (big blind) folded before Flop
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 collected (125)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 (button) folded before Flop (didn't bet)
+Seat 9: Tspkk1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763251915: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:38:52 UTC [2026/02/17 10:38:52 ET]
+Table '3975974411 1' 9-max Seat #9 is the button
+Seat 2: Guel2706 (1912 in chips) 
+Seat 3: RafielCampao (1425 in chips) 
+Seat 4: marcos.as923 (2638 in chips) 
+Seat 5: MCLMUSIC (1525 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (1910 in chips) 
+Seat 9: Tspkk1 (1270 in chips) 
+Guel2706: posts small blind 25
+RafielCampao: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 5s]
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: raises 50 to 100
+Tspkk1: folds 
+Guel2706: calls 75
+RafielCampao: calls 50
+*** FLOP *** [Ad Ts As]
+Guel2706: checks 
+RafielCampao: bets 198
+Rafaalves06: calls 198
+Guel2706: folds 
+*** TURN *** [Ad Ts As] [Ac]
+RafielCampao: checks 
+Rafaalves06: checks 
+*** RIVER *** [Ad Ts As Ac] [Qs]
+RafielCampao: bets 696
+Rafaalves06: calls 696
+*** SHOW DOWN ***
+RafielCampao: shows [Ah 9s] (four of a kind, Aces)
+Rafaalves06: mucks hand 
+RafielCampao collected 2088 from pot
+*** SUMMARY ***
+Total pot 2088 | Rake 0 
+Board [Ad Ts As Ac Qs]
+Seat 2: Guel2706 (small blind) folded on the Flop
+Seat 3: RafielCampao (big blind) showed [Ah 9s] and won (2088) with four of a kind, Aces
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 mucked [8d Td]
+Seat 9: Tspkk1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763264534: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:40:07 UTC [2026/02/17 10:40:07 ET]
+Table '3975974411 1' 9-max Seat #2 is the button
+Seat 2: Guel2706 (1812 in chips) 
+Seat 3: RafielCampao (2519 in chips) 
+Seat 4: marcos.as923 (2638 in chips) 
+Seat 5: MCLMUSIC (1525 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (916 in chips) 
+Seat 9: Tspkk1 (1270 in chips) 
+RafielCampao: posts small blind 50
+marcos.as923: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ah]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: raises 100 to 200
+Rafaalves06: folds 
+Tspkk1: folds 
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+Uncalled bet (100) returned to chrysz13
+chrysz13 collected 250 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 2: Guel2706 (button) folded before Flop (didn't bet)
+Seat 3: RafielCampao (small blind) folded before Flop
+Seat 4: marcos.as923 (big blind) folded before Flop
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 collected (250)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763267244: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:40:23 UTC [2026/02/17 10:40:23 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 2: Guel2706 (1812 in chips) 
+Seat 3: RafielCampao (2469 in chips) 
+Seat 4: marcos.as923 (2538 in chips) 
+Seat 5: MCLMUSIC (1525 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1355 in chips) 
+Seat 8: Rafaalves06 (916 in chips) 
+Seat 9: Tspkk1 (1270 in chips) 
+marcos.as923: posts small blind 50
+MCLMUSIC: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 7h]
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: raises 100 to 200
+Tspkk1: folds 
+Guel2706: calls 200
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: raises 1325 to 1525 and is all-in
+Rafaalves06: folds 
+Guel2706: folds 
+Uncalled bet (1325) returned to MCLMUSIC
+MCLMUSIC collected 650 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 2: Guel2706 folded before Flop
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 4: marcos.as923 (small blind) folded before Flop
+Seat 5: MCLMUSIC (big blind) collected (650)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763273674: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:41:01 UTC [2026/02/17 10:41:01 ET]
+Table '3975974411 1' 9-max Seat #4 is the button
+Seat 2: Guel2706 (1612 in chips) 
+Seat 3: RafielCampao (2469 in chips) 
+Seat 4: marcos.as923 (2488 in chips) 
+Seat 5: MCLMUSIC (1975 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1355 in chips) 
+Seat 8: Rafaalves06 (716 in chips) 
+Seat 9: Tspkk1 (1270 in chips) 
+MCLMUSIC: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Tc]
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+Uncalled bet (50) returned to scorza23
+scorza23 collected 100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 2: Guel2706 folded before Flop (didn't bet)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 (button) folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (100)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763277214: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:41:21 UTC [2026/02/17 10:41:21 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 2: Guel2706 (1612 in chips) 
+Seat 3: RafielCampao (2469 in chips) 
+Seat 4: marcos.as923 (2488 in chips) 
+Seat 5: MCLMUSIC (1925 in chips) 
+Seat 6: scorza23 (1665 in chips) is sitting out
+Seat 7: chrysz13 (1355 in chips) 
+Seat 8: Rafaalves06 (716 in chips) 
+Seat 9: Tspkk1 (1270 in chips) 
+scorza23: posts small blind 50
+chrysz13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 7s]
+Rafaalves06: raises 616 to 716 and is all-in
+Tspkk1: raises 554 to 1270 and is all-in
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Uncalled bet (554) returned to Tspkk1
+*** FLOP *** [Js Tc 4d]
+*** TURN *** [Js Tc 4d] [Qc]
+*** RIVER *** [Js Tc 4d Qc] [5s]
+*** SHOW DOWN ***
+Rafaalves06: shows [Jc As] (a pair of Jacks)
+Tspkk1: shows [9s 9h] (a pair of Nines)
+Rafaalves06 collected 1582 from pot
+*** SUMMARY ***
+Total pot 1582 | Rake 0 
+Board [Js Tc 4d Qc 5s]
+Seat 2: Guel2706 folded before Flop (didn't bet)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) folded before Flop
+Seat 8: Rafaalves06 showed [Jc As] and won (1582) with a pair of Jacks
+Seat 9: Tspkk1 showed [9s 9h] and lost with a pair of Nines
+
+
+
+PokerStars Hand #259763282645: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:41:53 UTC [2026/02/17 10:41:53 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 2: Guel2706 (1612 in chips) 
+Seat 3: RafielCampao (2469 in chips) 
+Seat 4: marcos.as923 (2488 in chips) 
+Seat 5: MCLMUSIC (1925 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1255 in chips) 
+Seat 8: Rafaalves06 (1582 in chips) 
+Seat 9: Tspkk1 (554 in chips) 
+chrysz13: posts small blind 50
+Rafaalves06: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 5s]
+Tspkk1: folds 
+Guel2706: calls 100
+RafielCampao: raises 2369 to 2469 and is all-in
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Guel2706: folds 
+Uncalled bet (2369) returned to RafielCampao
+RafielCampao collected 350 from pot
+RafielCampao: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 2: Guel2706 folded before Flop
+Seat 3: RafielCampao collected (350)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded before Flop
+Seat 8: Rafaalves06 (big blind) folded before Flop
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763289560: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:42:33 UTC [2026/02/17 10:42:33 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 2: Guel2706 (1512 in chips) 
+Seat 3: RafielCampao (2719 in chips) 
+Seat 4: marcos.as923 (2488 in chips) 
+Seat 5: MCLMUSIC (1925 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (1482 in chips) 
+Seat 9: Tspkk1 (554 in chips) 
+Rafaalves06: posts small blind 50
+Tspkk1: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jd]
+Guel2706: raises 100 to 200
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: raises 354 to 554 and is all-in
+Guel2706: calls 354
+*** FLOP *** [Qc Kh 4h]
+*** TURN *** [Qc Kh 4h] [3c]
+*** RIVER *** [Qc Kh 4h 3c] [Kd]
+*** SHOW DOWN ***
+Tspkk1: shows [5h Ks] (three of a kind, Kings)
+Guel2706: shows [8h Ah] (a pair of Kings)
+Tspkk1 collected 1158 from pot
+*** SUMMARY ***
+Total pot 1158 | Rake 0 
+Board [Qc Kh 4h 3c Kd]
+Seat 2: Guel2706 showed [8h Ah] and lost with a pair of Kings
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+Seat 8: Rafaalves06 (small blind) folded before Flop
+Seat 9: Tspkk1 (big blind) showed [5h Ks] and won (1158) with three of a kind, Kings
+
+
+
+PokerStars Hand #259763294070: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:43:00 UTC [2026/02/17 10:43:00 ET]
+Table '3975974411 1' 9-max Seat #8 is the button
+Seat 2: Guel2706 (958 in chips) 
+Seat 3: RafielCampao (2719 in chips) 
+Seat 4: marcos.as923 (2488 in chips) 
+Seat 5: MCLMUSIC (1925 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (1432 in chips) 
+Seat 9: Tspkk1 (1158 in chips) 
+Tspkk1: posts small blind 50
+Guel2706: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 9h]
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: folds 
+Uncalled bet (50) returned to Guel2706
+Guel2706 collected 100 from pot
+Guel2706: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 2: Guel2706 (big blind) collected (100)
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 (button) folded before Flop (didn't bet)
+Seat 9: Tspkk1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763298116: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:43:23 UTC [2026/02/17 10:43:23 ET]
+Table '3975974411 1' 9-max Seat #9 is the button
+Seat 2: Guel2706 (1008 in chips) 
+Seat 3: RafielCampao (2719 in chips) 
+Seat 4: marcos.as923 (2488 in chips) 
+Seat 5: MCLMUSIC (1925 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (1432 in chips) 
+Seat 9: Tspkk1 (1108 in chips) 
+Guel2706: posts small blind 50
+RafielCampao: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Qh]
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Rafaalves06: folds 
+Tspkk1: raises 1008 to 1108 and is all-in
+Guel2706: folds 
+RafielCampao: folds 
+Uncalled bet (1008) returned to Tspkk1
+Tspkk1 collected 250 from pot
+Tspkk1: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 2: Guel2706 (small blind) folded before Flop
+Seat 3: RafielCampao (big blind) folded before Flop
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 (button) collected (250)
+
+
+
+PokerStars Hand #259763301565: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 15:43:44 UTC [2026/02/17 10:43:44 ET]
+Table '3975974411 1' 9-max Seat #2 is the button
+Seat 2: Guel2706 (958 in chips) 
+Seat 3: RafielCampao (2619 in chips) 
+Seat 4: marcos.as923 (2488 in chips) 
+Seat 5: MCLMUSIC (1925 in chips) 
+Seat 6: scorza23 (1615 in chips) is sitting out
+Seat 7: chrysz13 (1205 in chips) 
+Seat 8: Rafaalves06 (1432 in chips) 
+Seat 9: Tspkk1 (1258 in chips) 
+RafielCampao: posts small blind 50
+marcos.as923: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 8h]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: raises 100 to 200
+Rafaalves06: folds 
+Tspkk1: calls 200
+Guel2706: folds 
+RafielCampao: folds 
+marcos.as923: calls 100
+*** FLOP *** [Ts 2s 9c]
+marcos.as923: checks 
+chrysz13: checks 
+Tspkk1: bets 300
+marcos.as923: folds 
+scorza23 has returned
+chrysz13: calls 300
+*** TURN *** [Ts 2s 9c] [5c]
+chrysz13: checks 
+Tspkk1: checks 
+*** RIVER *** [Ts 2s 9c 5c] [Kh]
+chrysz13: checks 
+Tspkk1: checks 
+*** SHOW DOWN ***
+chrysz13: shows [Qd Ah] (high card Ace)
+Tspkk1: shows [8s 8c] (a pair of Eights)
+Tspkk1 collected 1250 from pot
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Board [Ts 2s 9c 5c Kh]
+Seat 2: Guel2706 (button) folded before Flop (didn't bet)
+Seat 3: RafielCampao (small blind) folded before Flop
+Seat 4: marcos.as923 (big blind) folded on the Flop
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 showed [Qd Ah] and lost with high card Ace
+Seat 8: Rafaalves06 folded before Flop (didn't bet)
+Seat 9: Tspkk1 showed [8s 8c] and won (1250) with a pair of Eights
+
+
+
+PokerStars Hand #259763313056: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:44:52 UTC [2026/02/17 10:44:52 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 2: Guel2706 (958 in chips) 
+Seat 3: RafielCampao (2569 in chips) 
+Seat 4: marcos.as923 (2288 in chips) 
+Seat 5: MCLMUSIC (1925 in chips) 
+Seat 6: scorza23 (1615 in chips) 
+Seat 7: chrysz13 (705 in chips) 
+Seat 8: Rafaalves06 (1432 in chips) 
+Seat 9: Tspkk1 (2008 in chips) 
+marcos.as923: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Ad]
+scorza23: raises 150 to 300
+chrysz13: folds 
+Rafaalves06: raises 1132 to 1432 and is all-in
+Tspkk1: folds 
+Guel2706: calls 958 and is all-in
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: calls 1132
+*** FLOP *** [9d 3c As]
+*** TURN *** [9d 3c As] [8s]
+*** RIVER *** [9d 3c As 8s] [7c]
+*** SHOW DOWN ***
+scorza23: shows [6d Ad] (a pair of Aces)
+Rafaalves06: shows [Kd Qh] (high card Ace)
+scorza23 collected 948 from side pot
+Guel2706: shows [2s 4s] (high card Ace)
+scorza23 collected 3099 from main pot
+Rafaalves06 finished the tournament in 7th place
+Guel2706 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 4047 Main pot 3099. Side pot 948. | Rake 0 
+Board [9d 3c As 8s 7c]
+Seat 2: Guel2706 showed [2s 4s] and lost with high card Ace
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 4: marcos.as923 (small blind) folded before Flop
+Seat 5: MCLMUSIC (big blind) folded before Flop
+Seat 6: scorza23 showed [6d Ad] and won (4047) with a pair of Aces
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 8: Rafaalves06 showed [Kd Qh] and lost with high card Ace
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763321757: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:45:43 UTC [2026/02/17 10:45:43 ET]
+Table '3975974411 1' 9-max Seat #4 is the button
+Seat 3: RafielCampao (2569 in chips) 
+Seat 4: marcos.as923 (2213 in chips) 
+Seat 5: MCLMUSIC (1775 in chips) 
+Seat 6: scorza23 (4230 in chips) 
+Seat 7: chrysz13 (705 in chips) 
+Seat 9: Tspkk1 (2008 in chips) 
+MCLMUSIC: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Qs]
+chrysz13: folds 
+Tspkk1: folds 
+RafielCampao: folds 
+marcos.as923: raises 2063 to 2213 and is all-in
+MCLMUSIC: folds 
+scorza23: folds 
+Uncalled bet (2063) returned to marcos.as923
+marcos.as923 collected 375 from pot
+marcos.as923: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 (button) collected (375)
+Seat 5: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763325190: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:46:03 UTC [2026/02/17 10:46:03 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 3: RafielCampao (2569 in chips) 
+Seat 4: marcos.as923 (2438 in chips) 
+Seat 5: MCLMUSIC (1700 in chips) 
+Seat 6: scorza23 (4080 in chips) 
+Seat 7: chrysz13 (705 in chips) 
+Seat 9: Tspkk1 (2008 in chips) 
+scorza23: posts small blind 75
+chrysz13: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Ah]
+Tspkk1: calls 150
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: raises 1550 to 1700 and is all-in
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: folds 
+Uncalled bet (1550) returned to MCLMUSIC
+MCLMUSIC collected 525 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) collected (525)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) folded before Flop
+Seat 9: Tspkk1 folded before Flop
+
+
+
+PokerStars Hand #259763328828: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:46:24 UTC [2026/02/17 10:46:24 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 3: RafielCampao (2569 in chips) 
+Seat 4: marcos.as923 (2438 in chips) 
+Seat 5: MCLMUSIC (2075 in chips) 
+Seat 6: scorza23 (4005 in chips) 
+Seat 7: chrysz13 (555 in chips) 
+Seat 9: Tspkk1 (1858 in chips) 
+chrysz13: posts small blind 75
+Tspkk1: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Kh]
+RafielCampao: raises 150 to 300
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: raises 255 to 555 and is all-in
+Tspkk1: raises 1303 to 1858 and is all-in
+RafielCampao: folds 
+Uncalled bet (1303) returned to Tspkk1
+*** FLOP *** [8c 4s Ts]
+*** TURN *** [8c 4s Ts] [7h]
+*** RIVER *** [8c 4s Ts 7h] [6c]
+*** SHOW DOWN ***
+chrysz13: shows [Ad 7c] (a pair of Sevens)
+Tspkk1: shows [As Qc] (high card Ace)
+chrysz13 collected 1410 from pot
+*** SUMMARY ***
+Total pot 1410 | Rake 0 
+Board [8c 4s Ts 7h 6c]
+Seat 3: RafielCampao folded before Flop
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) showed [Ad 7c] and won (1410) with a pair of Sevens
+Seat 9: Tspkk1 (big blind) showed [As Qc] and lost with high card Ace
+
+
+
+PokerStars Hand #259763334138: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:46:55 UTC [2026/02/17 10:46:55 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 3: RafielCampao (2269 in chips) 
+Seat 4: marcos.as923 (2438 in chips) 
+Seat 5: MCLMUSIC (2075 in chips) 
+Seat 6: scorza23 (4005 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1303 in chips) 
+Tspkk1: posts small blind 75
+RafielCampao: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 4c]
+marcos.as923: folds 
+MCLMUSIC: raises 1925 to 2075 and is all-in
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: folds 
+RafielCampao: folds 
+Uncalled bet (1925) returned to MCLMUSIC
+MCLMUSIC collected 375 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 3: RafielCampao (big blind) folded before Flop
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC collected (375)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+Seat 9: Tspkk1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763337637: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:47:15 UTC [2026/02/17 10:47:15 ET]
+Table '3975974411 1' 9-max Seat #9 is the button
+Seat 3: RafielCampao (2119 in chips) 
+Seat 4: marcos.as923 (2438 in chips) 
+Seat 5: MCLMUSIC (2300 in chips) 
+Seat 6: scorza23 (4005 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1228 in chips) 
+RafielCampao: posts small blind 75
+marcos.as923: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Ah]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: folds 
+RafielCampao: raises 1969 to 2119 and is all-in
+marcos.as923: calls 1969
+*** FLOP *** [8h 5c 8d]
+*** TURN *** [8h 5c 8d] [Ac]
+*** RIVER *** [8h 5c 8d Ac] [Ad]
+*** SHOW DOWN ***
+RafielCampao: shows [Tc Ks] (two pair, Aces and Eights)
+marcos.as923: shows [2c 2h] (two pair, Aces and Eights - lower kicker)
+RafielCampao collected 4238 from pot
+*** SUMMARY ***
+Total pot 4238 | Rake 0 
+Board [8h 5c 8d Ac Ad]
+Seat 3: RafielCampao (small blind) showed [Tc Ks] and won (4238) with two pair, Aces and Eights
+Seat 4: marcos.as923 (big blind) showed [2c 2h] and lost with two pair, Aces and Eights
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 9: Tspkk1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763343022: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:47:47 UTC [2026/02/17 10:47:47 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 3: RafielCampao (4238 in chips) 
+Seat 4: marcos.as923 (319 in chips) 
+Seat 5: MCLMUSIC (2300 in chips) 
+Seat 6: scorza23 (4005 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1228 in chips) 
+marcos.as923: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc As]
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: folds 
+RafielCampao: folds 
+marcos.as923: raises 169 to 319 and is all-in
+MCLMUSIC: calls 169
+*** FLOP *** [Td 5c Kc]
+*** TURN *** [Td 5c Kc] [2h]
+*** RIVER *** [Td 5c Kc 2h] [5h]
+*** SHOW DOWN ***
+marcos.as923: shows [Ks Jc] (two pair, Kings and Fives)
+MCLMUSIC: shows [Th Js] (two pair, Tens and Fives)
+marcos.as923 collected 638 from pot
+*** SUMMARY ***
+Total pot 638 | Rake 0 
+Board [Td 5c Kc 2h 5h]
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 4: marcos.as923 (small blind) showed [Ks Jc] and won (638) with two pair, Kings and Fives
+Seat 5: MCLMUSIC (big blind) showed [Th Js] and lost with two pair, Tens and Fives
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763347568: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:48:13 UTC [2026/02/17 10:48:13 ET]
+Table '3975974411 1' 9-max Seat #4 is the button
+Seat 3: RafielCampao (4238 in chips) 
+Seat 4: marcos.as923 (638 in chips) 
+Seat 5: MCLMUSIC (1981 in chips) 
+Seat 6: scorza23 (4005 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1228 in chips) 
+MCLMUSIC: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 4s]
+chrysz13: folds 
+Tspkk1: folds 
+RafielCampao: folds 
+marcos.as923: raises 488 to 638 and is all-in
+MCLMUSIC: folds 
+scorza23: folds 
+Uncalled bet (488) returned to marcos.as923
+marcos.as923 collected 375 from pot
+marcos.as923: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 (button) collected (375)
+Seat 5: MCLMUSIC (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763350659: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:48:31 UTC [2026/02/17 10:48:31 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 3: RafielCampao (4238 in chips) 
+Seat 4: marcos.as923 (863 in chips) 
+Seat 5: MCLMUSIC (1906 in chips) 
+Seat 6: scorza23 (3855 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1228 in chips) 
+scorza23: posts small blind 75
+chrysz13: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 8s]
+Tspkk1: folds 
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: folds 
+scorza23: folds [5h 8s]
+Uncalled bet (75) returned to chrysz13
+chrysz13 collected 150 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) collected (150)
+Seat 9: Tspkk1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763353865: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:48:50 UTC [2026/02/17 10:48:50 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 3: RafielCampao (4238 in chips) 
+Seat 4: marcos.as923 (863 in chips) 
+Seat 5: MCLMUSIC (1906 in chips) 
+Seat 6: scorza23 (3780 in chips) 
+Seat 7: chrysz13 (1485 in chips) 
+Seat 9: Tspkk1 (1228 in chips) 
+chrysz13: posts small blind 75
+Tspkk1: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Ks]
+RafielCampao: folds 
+marcos.as923: folds 
+MCLMUSIC: raises 1756 to 1906 and is all-in
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: folds 
+Uncalled bet (1756) returned to MCLMUSIC
+MCLMUSIC collected 375 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 4: marcos.as923 folded before Flop (didn't bet)
+Seat 5: MCLMUSIC collected (375)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded before Flop
+Seat 9: Tspkk1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763356934: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:49:07 UTC [2026/02/17 10:49:07 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 3: RafielCampao (4238 in chips) 
+Seat 4: marcos.as923 (863 in chips) 
+Seat 5: MCLMUSIC (2131 in chips) 
+Seat 6: scorza23 (3780 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1078 in chips) 
+Tspkk1: posts small blind 75
+RafielCampao: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Jc]
+marcos.as923: raises 713 to 863 and is all-in
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: folds 
+RafielCampao: folds 
+Uncalled bet (713) returned to marcos.as923
+marcos.as923 collected 375 from pot
+marcos.as923: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 3: RafielCampao (big blind) folded before Flop
+Seat 4: marcos.as923 collected (375)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+Seat 9: Tspkk1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763360169: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 15:49:26 UTC [2026/02/17 10:49:26 ET]
+Table '3975974411 1' 9-max Seat #9 is the button
+Seat 3: RafielCampao (4088 in chips) 
+Seat 4: marcos.as923 (1088 in chips) 
+Seat 5: MCLMUSIC (2131 in chips) 
+Seat 6: scorza23 (3780 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1003 in chips) 
+RafielCampao: posts small blind 75
+marcos.as923: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6h]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: raises 853 to 1003 and is all-in
+RafielCampao: folds 
+marcos.as923: folds 
+Uncalled bet (853) returned to Tspkk1
+Tspkk1 collected 375 from pot
+Tspkk1: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 3: RafielCampao (small blind) folded before Flop
+Seat 4: marcos.as923 (big blind) folded before Flop
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 9: Tspkk1 (button) collected (375)
+
+
+
+PokerStars Hand #259763364170: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:49:50 UTC [2026/02/17 10:49:50 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 3: RafielCampao (4013 in chips) 
+Seat 4: marcos.as923 (938 in chips) 
+Seat 5: MCLMUSIC (2131 in chips) 
+Seat 6: scorza23 (3780 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+Seat 9: Tspkk1 (1228 in chips) 
+marcos.as923: posts small blind 100
+MCLMUSIC: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s As]
+scorza23: folds 
+chrysz13: folds 
+Tspkk1: raises 200 to 400
+RafielCampao: calls 400
+marcos.as923: raises 538 to 938 and is all-in
+MCLMUSIC: folds 
+Tspkk1: raises 290 to 1228 and is all-in
+RafielCampao: calls 828
+*** FLOP *** [Qc 8s Jd]
+*** TURN *** [Qc 8s Jd] [7s]
+*** RIVER *** [Qc 8s Jd 7s] [3d]
+*** SHOW DOWN ***
+Tspkk1: shows [Tc Kd] (high card King)
+RafielCampao: shows [4d 4c] (a pair of Fours)
+RafielCampao collected 580 from side pot
+marcos.as923: shows [Ac 5c] (high card Ace)
+RafielCampao collected 3014 from main pot
+Tspkk1 finished the tournament in 5th place
+marcos.as923 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 3594 Main pot 3014. Side pot 580. | Rake 0 
+Board [Qc 8s Jd 7s 3d]
+Seat 3: RafielCampao (button) showed [4d 4c] and won (3594) with a pair of Fours
+Seat 4: marcos.as923 (small blind) showed [Ac 5c] and lost with high card Ace
+Seat 5: MCLMUSIC (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 folded before Flop (didn't bet)
+Seat 9: Tspkk1 showed [Tc Kd] and lost with high card King
+
+
+
+PokerStars Hand #259763369524: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:50:21 UTC [2026/02/17 10:50:21 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 3: RafielCampao (6379 in chips) 
+Seat 5: MCLMUSIC (1931 in chips) 
+Seat 6: scorza23 (3780 in chips) 
+Seat 7: chrysz13 (1410 in chips) 
+scorza23: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3d]
+RafielCampao: folds 
+MCLMUSIC: raises 1731 to 1931 and is all-in
+scorza23: folds 
+chrysz13: folds 
+Uncalled bet (1731) returned to MCLMUSIC
+MCLMUSIC collected 500 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) collected (500)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763373091: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:50:42 UTC [2026/02/17 10:50:42 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 3: RafielCampao (6379 in chips) 
+Seat 5: MCLMUSIC (2231 in chips) 
+Seat 6: scorza23 (3680 in chips) 
+Seat 7: chrysz13 (1210 in chips) 
+chrysz13: posts small blind 100
+RafielCampao: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Qd]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Uncalled bet (100) returned to RafielCampao
+RafielCampao collected 200 from pot
+RafielCampao: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 3: RafielCampao (big blind) collected (200)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763374607: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:50:51 UTC [2026/02/17 10:50:51 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 3: RafielCampao (6479 in chips) 
+Seat 5: MCLMUSIC (2231 in chips) 
+Seat 6: scorza23 (3680 in chips) 
+Seat 7: chrysz13 (1110 in chips) 
+RafielCampao: posts small blind 100
+MCLMUSIC: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 9h]
+scorza23: folds 
+chrysz13: folds 
+RafielCampao: folds 
+Uncalled bet (100) returned to MCLMUSIC
+MCLMUSIC collected 200 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 3: RafielCampao (small blind) folded before Flop
+Seat 5: MCLMUSIC (big blind) collected (200)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763376878: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:51:04 UTC [2026/02/17 10:51:04 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 3: RafielCampao (6379 in chips) 
+Seat 5: MCLMUSIC (2331 in chips) 
+Seat 6: scorza23 (3680 in chips) 
+Seat 7: chrysz13 (1110 in chips) 
+MCLMUSIC: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 5c]
+chrysz13: raises 910 to 1110 and is all-in
+RafielCampao: folds 
+MCLMUSIC: calls 1010
+scorza23: folds 
+*** FLOP *** [As 3h 6h]
+*** TURN *** [As 3h 6h] [7d]
+*** RIVER *** [As 3h 6h 7d] [2d]
+*** SHOW DOWN ***
+MCLMUSIC: shows [Qd Jh] (high card Ace)
+chrysz13: shows [Ah Kc] (a pair of Aces)
+chrysz13 collected 2420 from pot
+*** SUMMARY ***
+Total pot 2420 | Rake 0 
+Board [As 3h 6h 7d 2d]
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (small blind) showed [Qd Jh] and lost with high card Ace
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: chrysz13 showed [Ah Kc] and won (2420) with a pair of Aces
+
+
+
+PokerStars Hand #259763380188: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:51:23 UTC [2026/02/17 10:51:23 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 3: RafielCampao (6379 in chips) 
+Seat 5: MCLMUSIC (1221 in chips) 
+Seat 6: scorza23 (3480 in chips) 
+Seat 7: chrysz13 (2420 in chips) 
+scorza23: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Jc]
+RafielCampao: folds 
+MCLMUSIC: folds 
+scorza23: folds 
+Uncalled bet (100) returned to chrysz13
+chrysz13 collected 200 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) collected (200)
+
+
+
+PokerStars Hand #259763382150: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:51:34 UTC [2026/02/17 10:51:34 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 3: RafielCampao (6379 in chips) 
+Seat 5: MCLMUSIC (1221 in chips) 
+Seat 6: scorza23 (3380 in chips) 
+Seat 7: chrysz13 (2520 in chips) 
+chrysz13: posts small blind 100
+RafielCampao: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 8s]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Uncalled bet (100) returned to RafielCampao
+RafielCampao collected 200 from pot
+RafielCampao: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 3: RafielCampao (big blind) collected (200)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763383600: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:51:42 UTC [2026/02/17 10:51:42 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 3: RafielCampao (6479 in chips) 
+Seat 5: MCLMUSIC (1221 in chips) 
+Seat 6: scorza23 (3380 in chips) 
+Seat 7: chrysz13 (2420 in chips) 
+RafielCampao: posts small blind 100
+MCLMUSIC: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 6h]
+scorza23: folds 
+chrysz13: folds 
+RafielCampao: raises 6279 to 6479 and is all-in
+MCLMUSIC: calls 1021 and is all-in
+Uncalled bet (5258) returned to RafielCampao
+*** FLOP *** [5d 2c As]
+*** TURN *** [5d 2c As] [Ks]
+*** RIVER *** [5d 2c As Ks] [8s]
+*** SHOW DOWN ***
+RafielCampao: shows [3h Kh] (a pair of Kings)
+MCLMUSIC: shows [Ah 4c] (a pair of Aces)
+MCLMUSIC collected 2442 from pot
+*** SUMMARY ***
+Total pot 2442 | Rake 0 
+Board [5d 2c As Ks 8s]
+Seat 3: RafielCampao (small blind) showed [3h Kh] and lost with a pair of Kings
+Seat 5: MCLMUSIC (big blind) showed [Ah 4c] and won (2442) with a pair of Aces
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763388302: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:52:10 UTC [2026/02/17 10:52:10 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 3: RafielCampao (5258 in chips) 
+Seat 5: MCLMUSIC (2442 in chips) 
+Seat 6: scorza23 (3380 in chips) 
+Seat 7: chrysz13 (2420 in chips) 
+MCLMUSIC: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Ad]
+chrysz13: folds 
+RafielCampao: folds 
+MCLMUSIC: raises 2242 to 2442 and is all-in
+scorza23: calls 2242
+*** FLOP *** [5s 9d Js]
+*** TURN *** [5s 9d Js] [Qh]
+*** RIVER *** [5s 9d Js Qh] [8h]
+*** SHOW DOWN ***
+MCLMUSIC: shows [Jd Qc] (two pair, Queens and Jacks)
+scorza23: shows [7d Ad] (high card Ace)
+MCLMUSIC collected 4884 from pot
+*** SUMMARY ***
+Total pot 4884 | Rake 0 
+Board [5s 9d Js Qh 8h]
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (small blind) showed [Jd Qc] and won (4884) with two pair, Queens and Jacks
+Seat 6: scorza23 (big blind) showed [7d Ad] and lost with high card Ace
+Seat 7: chrysz13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763392054: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:52:32 UTC [2026/02/17 10:52:32 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 3: RafielCampao (5258 in chips) 
+Seat 5: MCLMUSIC (4884 in chips) 
+Seat 6: scorza23 (938 in chips) 
+Seat 7: chrysz13 (2420 in chips) 
+scorza23: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 7c]
+RafielCampao: folds 
+MCLMUSIC: raises 200 to 400
+scorza23: folds 
+chrysz13: folds 
+Uncalled bet (200) returned to MCLMUSIC
+MCLMUSIC collected 500 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) collected (500)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: chrysz13 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763395517: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:52:52 UTC [2026/02/17 10:52:52 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 3: RafielCampao (5258 in chips) 
+Seat 5: MCLMUSIC (5184 in chips) 
+Seat 6: scorza23 (838 in chips) 
+Seat 7: chrysz13 (2220 in chips) 
+chrysz13: posts small blind 100
+RafielCampao: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 6h]
+MCLMUSIC: folds 
+scorza23: folds 
+chrysz13: folds 
+Uncalled bet (100) returned to RafielCampao
+RafielCampao collected 200 from pot
+RafielCampao: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 3: RafielCampao (big blind) collected (200)
+Seat 5: MCLMUSIC folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763397007: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:53:01 UTC [2026/02/17 10:53:01 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 3: RafielCampao (5358 in chips) 
+Seat 5: MCLMUSIC (5184 in chips) 
+Seat 6: scorza23 (838 in chips) 
+Seat 7: chrysz13 (2120 in chips) 
+RafielCampao: posts small blind 100
+MCLMUSIC: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 7h]
+scorza23: folds 
+chrysz13: folds 
+RafielCampao: raises 300 to 500
+MCLMUSIC: calls 300
+*** FLOP *** [6c 7s 9c]
+RafielCampao: bets 660
+MCLMUSIC: raises 1160 to 1820
+RafielCampao: calls 1160
+*** TURN *** [6c 7s 9c] [Jh]
+RafielCampao: checks 
+MCLMUSIC: checks 
+*** RIVER *** [6c 7s 9c Jh] [Qc]
+RafielCampao: checks 
+MCLMUSIC: bets 2864 and is all-in
+RafielCampao: calls 2864
+*** SHOW DOWN ***
+MCLMUSIC: shows [Ac 8c] (a flush, Ace high)
+RafielCampao: shows [Td Th] (a pair of Tens)
+MCLMUSIC collected 10368 from pot
+*** SUMMARY ***
+Total pot 10368 | Rake 0 
+Board [6c 7s 9c Jh Qc]
+Seat 3: RafielCampao (small blind) showed [Td Th] and lost with a pair of Tens
+Seat 5: MCLMUSIC (big blind) showed [Ac 8c] and won (10368) with a flush, Ace high
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763405924: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:53:53 UTC [2026/02/17 10:53:53 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 3: RafielCampao (174 in chips) 
+Seat 5: MCLMUSIC (10368 in chips) 
+Seat 6: scorza23 (838 in chips) 
+Seat 7: chrysz13 (2120 in chips) 
+MCLMUSIC: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Th]
+chrysz13: folds 
+RafielCampao: calls 174 and is all-in
+MCLMUSIC: calls 100
+scorza23: checks 
+*** FLOP *** [2h As 4c]
+MCLMUSIC: checks 
+scorza23: checks 
+*** TURN *** [2h As 4c] [Kd]
+MCLMUSIC: checks 
+scorza23: checks 
+*** RIVER *** [2h As 4c Kd] [Ks]
+MCLMUSIC: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+MCLMUSIC: shows [7s 5h] (a pair of Kings)
+scorza23: shows [6h Th] (a pair of Kings - Ace+Ten kicker)
+scorza23 collected 52 from side pot
+RafielCampao: shows [Jh 9d] (a pair of Kings - Ace+Jack kicker)
+RafielCampao collected 522 from main pot
+*** SUMMARY ***
+Total pot 574 Main pot 522. Side pot 52. | Rake 0 
+Board [2h As 4c Kd Ks]
+Seat 3: RafielCampao (button) showed [Jh 9d] and won (522) with a pair of Kings
+Seat 5: MCLMUSIC (small blind) showed [7s 5h] and lost with a pair of Kings
+Seat 6: scorza23 (big blind) showed [6h Th] and won (52) with a pair of Kings
+Seat 7: chrysz13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763410164: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:54:18 UTC [2026/02/17 10:54:18 ET]
+Table '3975974411 1' 9-max Seat #5 is the button
+Seat 3: RafielCampao (522 in chips) 
+Seat 5: MCLMUSIC (10168 in chips) 
+Seat 6: scorza23 (690 in chips) 
+Seat 7: chrysz13 (2120 in chips) 
+scorza23: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 3h]
+RafielCampao: folds 
+MCLMUSIC: folds 
+scorza23: raises 490 to 690 and is all-in
+chrysz13: folds 
+Uncalled bet (490) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 3: RafielCampao folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (400)
+Seat 7: chrysz13 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763413440: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 15:54:37 UTC [2026/02/17 10:54:37 ET]
+Table '3975974411 1' 9-max Seat #6 is the button
+Seat 3: RafielCampao (522 in chips) 
+Seat 5: MCLMUSIC (10168 in chips) 
+Seat 6: scorza23 (890 in chips) 
+Seat 7: chrysz13 (1920 in chips) 
+chrysz13: posts small blind 100
+RafielCampao: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 3h]
+MCLMUSIC: raises 9000 to 9200
+scorza23: folds 
+chrysz13: folds 
+RafielCampao: calls 322 and is all-in
+Uncalled bet (8678) returned to MCLMUSIC
+*** FLOP *** [Ac 3s 8c]
+*** TURN *** [Ac 3s 8c] [6c]
+*** RIVER *** [Ac 3s 8c 6c] [7h]
+*** SHOW DOWN ***
+RafielCampao: shows [9d Ah] (a pair of Aces)
+MCLMUSIC: shows [Jh Tc] (high card Ace)
+RafielCampao collected 1144 from pot
+*** SUMMARY ***
+Total pot 1144 | Rake 0 
+Board [Ac 3s 8c 6c 7h]
+Seat 3: RafielCampao (big blind) showed [9d Ah] and won (1144) with a pair of Aces
+Seat 5: MCLMUSIC showed [Jh Tc] and lost with high card Ace
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: chrysz13 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763416569: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:54:56 UTC [2026/02/17 10:54:56 ET]
+Table '3975974411 1' 9-max Seat #7 is the button
+Seat 3: RafielCampao (1144 in chips) 
+Seat 5: MCLMUSIC (9646 in chips) 
+Seat 6: scorza23 (890 in chips) 
+Seat 7: chrysz13 (1820 in chips) 
+RafielCampao: posts the ante 25
+MCLMUSIC: posts the ante 25
+scorza23: posts the ante 25
+chrysz13: posts the ante 25
+RafielCampao: posts small blind 100
+MCLMUSIC: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9d]
+scorza23: folds 
+chrysz13: folds 
+RafielCampao: folds 
+Uncalled bet (100) returned to MCLMUSIC
+MCLMUSIC collected 300 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 3: RafielCampao (small blind) folded before Flop
+Seat 5: MCLMUSIC (big blind) collected (300)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: chrysz13 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763418649: Tournament #3975974411, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:55:09 UTC [2026/02/17 10:55:09 ET]
+Table '3975974411 1' 9-max Seat #3 is the button
+Seat 3: RafielCampao (1019 in chips) 
+Seat 5: MCLMUSIC (9821 in chips) 
+Seat 6: scorza23 (865 in chips) 
+Seat 7: chrysz13 (1795 in chips) 
+RafielCampao: posts the ante 25
+MCLMUSIC: posts the ante 25
+scorza23: posts the ante 25
+chrysz13: posts the ante 25
+MCLMUSIC: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Jd]
+chrysz13: folds 
+RafielCampao: folds 
+MCLMUSIC: raises 9596 to 9796 and is all-in
+scorza23: calls 640 and is all-in
+Uncalled bet (8956) returned to MCLMUSIC
+*** FLOP *** [2d 9c 7h]
+*** TURN *** [2d 9c 7h] [Th]
+*** RIVER *** [2d 9c 7h Th] [5d]
+*** SHOW DOWN ***
+MCLMUSIC: shows [4d 5h] (a pair of Fives)
+scorza23: shows [Kd Jd] (high card King)
+MCLMUSIC collected 1780 from pot
+scorza23 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1780 | Rake 0 
+Board [2d 9c 7h Th 5d]
+Seat 3: RafielCampao (button) folded before Flop (didn't bet)
+Seat 5: MCLMUSIC (small blind) showed [4d 5h] and won (1780) with a pair of Fives
+Seat 6: scorza23 (big blind) showed [Kd Jd] and lost with high card King
+Seat 7: chrysz13 folded before Flop (didn't bet)
+
+
+

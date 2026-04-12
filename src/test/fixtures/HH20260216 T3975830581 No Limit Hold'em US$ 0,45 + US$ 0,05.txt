@@ -1,0 +1,626 @@
+﻿PokerStars Hand #259757458334: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 23:57:18 UTC [2026/02/16 18:57:18 ET]
+Table '3975830581 1' 8-max Seat #1 is the button
+Seat 1: GorilaAlbino97 (1500 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 5: H3llbell (1500 in chips) 
+Seat 6: cummings666 (1500 in chips) 
+Seat 7: Henrique-CEA (1500 in chips) 
+Seat 8: CarlosHenf (1500 in chips) 
+GorilaAlbino97: posts the ante 3
+scorza23: posts the ante 3
+H3llbell: posts the ante 3
+cummings666: posts the ante 3
+Henrique-CEA: posts the ante 3
+CarlosHenf: posts the ante 3
+scorza23: posts small blind 10
+H3llbell: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Kc]
+cummings666: folds 
+Henrique-CEA: folds 
+CarlosHenf: raises 40 to 60
+IocusMoechaeIT is disconnected 
+GorilaAlbino97: calls 60
+scorza23: folds 
+H3llbell: folds 
+*** FLOP *** [Jh 8h 3d]
+CarlosHenf: checks 
+GorilaAlbino97: bets 64
+CarlosHenf: calls 64
+*** TURN *** [Jh 8h 3d] [6d]
+CarlosHenf: checks 
+GorilaAlbino97: bets 195
+CarlosHenf: calls 195
+*** RIVER *** [Jh 8h 3d 6d] [8d]
+CarlosHenf: checks 
+GorilaAlbino97: bets 172
+CarlosHenf: calls 172
+*** SHOW DOWN ***
+GorilaAlbino97: shows [Jd Ts] (two pair, Jacks and Eights)
+CarlosHenf: shows [Jc Qc] (two pair, Jacks and Eights - Queen kicker)
+CarlosHenf collected 1030 from pot
+*** SUMMARY ***
+Total pot 1030 | Rake 0 
+Board [Jh 8h 3d 6d 8d]
+Seat 1: GorilaAlbino97 (button) showed [Jd Ts] and lost with two pair, Jacks and Eights
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: H3llbell (big blind) folded before Flop
+Seat 6: cummings666 folded before Flop (didn't bet)
+Seat 7: Henrique-CEA folded before Flop (didn't bet)
+Seat 8: CarlosHenf showed [Jc Qc] and won (1030) with two pair, Jacks and Eights
+
+
+
+PokerStars Hand #259757467581: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 23:58:21 UTC [2026/02/16 18:58:21 ET]
+Table '3975830581 1' 8-max Seat #3 is the button
+Seat 1: GorilaAlbino97 (1006 in chips) 
+Seat 2: IocusMoechaeIT (1500 in chips) 
+Seat 3: scorza23 (1487 in chips) 
+Seat 4: Big GAMBALLA (1500 in chips) out of hand (moved from another table into small blind)
+Seat 5: H3llbell (1477 in chips) 
+Seat 7: Henrique-CEA (1497 in chips) 
+Seat 8: CarlosHenf (2036 in chips) 
+Big GAMBALLA will be allowed to play after the button
+GorilaAlbino97: posts the ante 3
+IocusMoechaeIT: posts the ante 3
+scorza23: posts the ante 3
+H3llbell: posts the ante 3
+Henrique-CEA: posts the ante 3
+CarlosHenf: posts the ante 3
+H3llbell: posts small blind 10
+Henrique-CEA: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 3d]
+CarlosHenf: folds 
+GorilaAlbino97: folds 
+IocusMoechaeIT: raises 20 to 40
+scorza23: raises 1444 to 1484 and is all-in
+H3llbell: folds 
+Henrique-CEA: folds 
+IocusMoechaeIT: folds 
+Uncalled bet (1444) returned to scorza23
+scorza23 collected 128 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 128 | Rake 0 
+Seat 1: GorilaAlbino97 folded before Flop (didn't bet)
+Seat 2: IocusMoechaeIT folded before Flop
+Seat 3: scorza23 (button) collected (128)
+Seat 5: H3llbell (small blind) folded before Flop
+Seat 7: Henrique-CEA (big blind) folded before Flop
+Seat 8: CarlosHenf folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757470932: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 23:58:45 UTC [2026/02/16 18:58:45 ET]
+Table '3975830581 1' 8-max Seat #5 is the button
+Seat 1: GorilaAlbino97 (1003 in chips) 
+Seat 2: IocusMoechaeIT (1457 in chips) 
+Seat 3: scorza23 (1572 in chips) 
+Seat 4: Big GAMBALLA (1500 in chips) 
+Seat 5: H3llbell (1464 in chips) 
+Seat 7: Henrique-CEA (1474 in chips) 
+Seat 8: CarlosHenf (2033 in chips) 
+GorilaAlbino97: posts the ante 3
+IocusMoechaeIT: posts the ante 3
+scorza23: posts the ante 3
+Big GAMBALLA: posts the ante 3
+H3llbell: posts the ante 3
+Henrique-CEA: posts the ante 3
+CarlosHenf: posts the ante 3
+Henrique-CEA: posts small blind 10
+CarlosHenf: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 5d]
+CyroSan is disconnected 
+GorilaAlbino97 has timed out
+GorilaAlbino97: folds 
+GorilaAlbino97 is sitting out
+IocusMoechaeIT: folds 
+scorza23: folds 
+Big GAMBALLA: raises 40 to 60
+GorilaAlbino97 has returned
+H3llbell: calls 60
+Henrique-CEA: folds 
+CarlosHenf: raises 40 to 100
+Big GAMBALLA: calls 40
+H3llbell: calls 40
+*** FLOP *** [3c Ac 9s]
+CarlosHenf: checks 
+Big GAMBALLA: checks 
+H3llbell: checks 
+*** TURN *** [3c Ac 9s] [5h]
+CarlosHenf: bets 60
+Big GAMBALLA: calls 60
+H3llbell: calls 60
+*** RIVER *** [3c Ac 9s 5h] [Ah]
+CarlosHenf: bets 160
+Big GAMBALLA: folds 
+H3llbell: calls 160
+*** SHOW DOWN ***
+CarlosHenf: shows [Jh Qd] (a pair of Aces)
+H3llbell: shows [Ad Qs] (three of a kind, Aces)
+H3llbell collected 831 from pot
+*** SUMMARY ***
+Total pot 831 | Rake 0 
+Board [3c Ac 9s 5h Ah]
+Seat 1: GorilaAlbino97 folded before Flop (didn't bet)
+Seat 2: IocusMoechaeIT folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Big GAMBALLA folded on the River
+Seat 5: H3llbell (button) showed [Ad Qs] and won (831) with three of a kind, Aces
+Seat 7: Henrique-CEA (small blind) folded before Flop
+Seat 8: CarlosHenf (big blind) showed [Jh Qd] and lost with a pair of Aces
+
+
+
+PokerStars Hand #259757502663: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 0:02:00 UTC [2026/02/16 19:02:00 ET]
+Table '3975830581 4' 8-max Seat #8 is the button
+Seat 1: cummings666 (1465 in chips) 
+Seat 2: LuizAntonio8 (1034 in chips) 
+Seat 3: lightning497 (5610 in chips) 
+Seat 4: scorza23 (1569 in chips) 
+Seat 5: Majorala (2451 in chips) 
+Seat 6: INTIMIDATOR69 (1468 in chips) 
+Seat 8: yvarella (1434 in chips) 
+cummings666: posts the ante 3
+LuizAntonio8: posts the ante 3
+lightning497: posts the ante 3
+scorza23: posts the ante 3
+Majorala: posts the ante 3
+INTIMIDATOR69: posts the ante 3
+yvarella: posts the ante 3
+cummings666: posts small blind 10
+LuizAntonio8: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ac]
+lightning497: calls 20
+scorza23: raises 22 to 42
+Majorala: folds 
+INTIMIDATOR69: calls 42
+yvarella: folds 
+cummings666: folds 
+LuizAntonio8: calls 22
+lightning497: calls 22
+*** FLOP *** [Ks 4s 2h]
+LuizAntonio8: checks 
+lightning497: checks 
+scorza23: checks 
+INTIMIDATOR69: checks 
+*** TURN *** [Ks 4s 2h] [8d]
+LuizAntonio8: checks 
+lightning497: checks 
+scorza23: checks 
+INTIMIDATOR69: checks 
+*** RIVER *** [Ks 4s 2h 8d] [8s]
+LuizAntonio8: checks 
+lightning497: checks 
+scorza23: checks 
+INTIMIDATOR69: checks 
+*** SHOW DOWN ***
+LuizAntonio8: shows [Ad Qh] (a pair of Eights)
+lightning497: shows [9c 2c] (two pair, Eights and Deuces)
+scorza23: mucks hand 
+INTIMIDATOR69: shows [7h 7d] (two pair, Eights and Sevens)
+INTIMIDATOR69 collected 199 from pot
+*** SUMMARY ***
+Total pot 199 | Rake 0 
+Board [Ks 4s 2h 8d 8s]
+Seat 1: cummings666 (small blind) folded before Flop
+Seat 2: LuizAntonio8 (big blind) showed [Ad Qh] and lost with a pair of Eights
+Seat 3: lightning497 showed [9c 2c] and lost with two pair, Eights and Deuces
+Seat 4: scorza23 mucked [Js Ac]
+Seat 5: Majorala folded before Flop (didn't bet)
+Seat 6: INTIMIDATOR69 showed [7h 7d] and won (199) with two pair, Eights and Sevens
+Seat 8: yvarella (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757519327: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 0:03:28 UTC [2026/02/16 19:03:28 ET]
+Table '3975830581 4' 8-max Seat #1 is the button
+Seat 1: cummings666 (1452 in chips) 
+Seat 2: LuizAntonio8 (989 in chips) 
+Seat 3: lightning497 (5565 in chips) 
+Seat 4: scorza23 (1524 in chips) 
+Seat 5: Majorala (2448 in chips) 
+Seat 6: INTIMIDATOR69 (1622 in chips) 
+Seat 8: yvarella (1431 in chips) 
+cummings666: posts the ante 4
+LuizAntonio8: posts the ante 4
+lightning497: posts the ante 4
+scorza23: posts the ante 4
+Majorala: posts the ante 4
+INTIMIDATOR69: posts the ante 4
+yvarella: posts the ante 4
+LuizAntonio8: posts small blind 15
+lightning497: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 7c]
+scorza23: folds 
+Majorala: folds 
+INTIMIDATOR69: calls 30
+yvarella: folds 
+cummings666: calls 30
+LuizAntonio8: calls 15
+lightning497: checks 
+*** FLOP *** [3h 2d 8s]
+LuizAntonio8: checks 
+lightning497: checks 
+INTIMIDATOR69: checks 
+cummings666: checks 
+*** TURN *** [3h 2d 8s] [4s]
+LuizAntonio8: checks 
+lightning497: checks 
+INTIMIDATOR69: checks 
+cummings666: checks 
+*** RIVER *** [3h 2d 8s 4s] [Qd]
+LuizAntonio8: checks 
+lightning497: bets 30
+INTIMIDATOR69: folds 
+cummings666: raises 208 to 238
+LuizAntonio8: folds 
+lightning497: calls 208
+*** SHOW DOWN ***
+cummings666: shows [Qs Th] (a pair of Queens)
+lightning497: mucks hand 
+cummings666 collected 624 from pot
+*** SUMMARY ***
+Total pot 624 | Rake 0 
+Board [3h 2d 8s 4s Qd]
+Seat 1: cummings666 (button) showed [Qs Th] and won (624) with a pair of Queens
+Seat 2: LuizAntonio8 (small blind) folded on the River
+Seat 3: lightning497 (big blind) mucked [Qh 5s]
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Majorala folded before Flop (didn't bet)
+Seat 6: INTIMIDATOR69 folded on the River
+Seat 8: yvarella folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757532182: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 0:04:35 UTC [2026/02/16 19:04:35 ET]
+Table '3975830581 4' 8-max Seat #2 is the button
+Seat 1: cummings666 (1804 in chips) 
+Seat 2: LuizAntonio8 (955 in chips) 
+Seat 3: lightning497 (5293 in chips) 
+Seat 4: scorza23 (1520 in chips) 
+Seat 5: Majorala (2444 in chips) 
+Seat 6: INTIMIDATOR69 (1588 in chips) 
+Seat 8: yvarella (1427 in chips) 
+cummings666: posts the ante 4
+LuizAntonio8: posts the ante 4
+lightning497: posts the ante 4
+scorza23: posts the ante 4
+Majorala: posts the ante 4
+INTIMIDATOR69: posts the ante 4
+yvarella: posts the ante 4
+lightning497: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 3h]
+Majorala: calls 30
+INTIMIDATOR69: folds 
+yvarella: folds 
+cummings666: calls 30
+LuizAntonio8: folds 
+lightning497: folds 
+scorza23: raises 133 to 163
+Majorala: folds 
+cummings666: folds 
+Uncalled bet (133) returned to scorza23
+scorza23 collected 133 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 133 | Rake 0 
+Seat 1: cummings666 folded before Flop
+Seat 2: LuizAntonio8 (button) folded before Flop (didn't bet)
+Seat 3: lightning497 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (133)
+Seat 5: Majorala folded before Flop
+Seat 6: INTIMIDATOR69 folded before Flop (didn't bet)
+Seat 8: yvarella folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757540475: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 0:05:20 UTC [2026/02/16 19:05:20 ET]
+Table '3975830581 4' 8-max Seat #3 is the button
+Seat 1: cummings666 (1770 in chips) 
+Seat 2: LuizAntonio8 (951 in chips) 
+Seat 3: lightning497 (5274 in chips) 
+Seat 4: scorza23 (1619 in chips) 
+Seat 5: Majorala (2410 in chips) 
+Seat 6: INTIMIDATOR69 (1584 in chips) 
+Seat 8: yvarella (1423 in chips) 
+cummings666: posts the ante 4
+LuizAntonio8: posts the ante 4
+lightning497: posts the ante 4
+scorza23: posts the ante 4
+Majorala: posts the ante 4
+INTIMIDATOR69: posts the ante 4
+yvarella: posts the ante 4
+scorza23: posts small blind 15
+Majorala: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 8h]
+INTIMIDATOR69: folds 
+yvarella: folds 
+cummings666: folds 
+LuizAntonio8: calls 30
+lightning497: calls 30
+scorza23: folds 
+Majorala: checks 
+*** FLOP *** [8c Ks Td]
+Majorala: checks 
+LuizAntonio8: checks 
+lightning497: checks 
+*** TURN *** [8c Ks Td] [Jd]
+Majorala: checks 
+LuizAntonio8: bets 917 and is all-in
+lightning497: folds 
+Majorala: folds 
+Uncalled bet (917) returned to LuizAntonio8
+LuizAntonio8 collected 133 from pot
+LuizAntonio8: doesn't show hand 
+*** SUMMARY ***
+Total pot 133 | Rake 0 
+Board [8c Ks Td Jd]
+Seat 1: cummings666 folded before Flop (didn't bet)
+Seat 2: LuizAntonio8 collected (133)
+Seat 3: lightning497 (button) folded on the Turn
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Majorala (big blind) folded on the Turn
+Seat 6: INTIMIDATOR69 folded before Flop (didn't bet)
+Seat 8: yvarella folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757557012: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 0:06:47 UTC [2026/02/16 19:06:47 ET]
+Table '3975830581 4' 8-max Seat #4 is the button
+Seat 1: cummings666 (1766 in chips) 
+Seat 2: LuizAntonio8 (1050 in chips) 
+Seat 3: lightning497 (5240 in chips) 
+Seat 4: scorza23 (1600 in chips) 
+Seat 5: Majorala (2376 in chips) 
+Seat 6: INTIMIDATOR69 (1580 in chips) 
+Seat 8: yvarella (1419 in chips) 
+cummings666: posts the ante 4
+LuizAntonio8: posts the ante 4
+lightning497: posts the ante 4
+scorza23: posts the ante 4
+Majorala: posts the ante 4
+INTIMIDATOR69: posts the ante 4
+yvarella: posts the ante 4
+Majorala: posts small blind 15
+INTIMIDATOR69: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5c As]
+yvarella: folds 
+cummings666: folds 
+LuizAntonio8: calls 30
+lightning497: calls 30
+scorza23: folds 
+Majorala: calls 15
+INTIMIDATOR69: checks 
+*** FLOP *** [8c Jh Td]
+Majorala: checks 
+INTIMIDATOR69: checks 
+LuizAntonio8: checks 
+lightning497: checks 
+*** TURN *** [8c Jh Td] [5h]
+Majorala: checks 
+INTIMIDATOR69: checks 
+LuizAntonio8: checks 
+lightning497: checks 
+*** RIVER *** [8c Jh Td 5h] [3c]
+Majorala: checks 
+INTIMIDATOR69: checks 
+LuizAntonio8: checks 
+lightning497: checks 
+*** SHOW DOWN ***
+Majorala: shows [5d 2d] (a pair of Fives)
+INTIMIDATOR69: mucks hand 
+LuizAntonio8: mucks hand 
+lightning497: mucks hand 
+Majorala collected 148 from pot
+*** SUMMARY ***
+Total pot 148 | Rake 0 
+Board [8c Jh Td 5h 3c]
+Seat 1: cummings666 folded before Flop (didn't bet)
+Seat 2: LuizAntonio8 mucked [9s 6s]
+Seat 3: lightning497 mucked [4h 3d]
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Majorala (small blind) showed [5d 2d] and won (148) with a pair of Fives
+Seat 6: INTIMIDATOR69 (big blind) mucked [7h Kh]
+Seat 8: yvarella folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757580956: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 0:08:54 UTC [2026/02/16 19:08:54 ET]
+Table '3975830581 4' 8-max Seat #5 is the button
+Seat 1: cummings666 (1762 in chips) 
+Seat 3: lightning497 (5206 in chips) 
+Seat 4: scorza23 (1596 in chips) 
+Seat 5: Majorala (2490 in chips) 
+Seat 6: INTIMIDATOR69 (1546 in chips) 
+Seat 8: yvarella (1415 in chips) 
+cummings666: posts the ante 6
+lightning497: posts the ante 6
+scorza23: posts the ante 6
+Majorala: posts the ante 6
+INTIMIDATOR69: posts the ante 6
+yvarella: posts the ante 6
+INTIMIDATOR69: posts small blind 25
+yvarella: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 5h]
+cummings666: folds 
+lightning497: calls 50
+scorza23: folds 
+Majorala: calls 50
+INTIMIDATOR69: folds 
+yvarella: checks 
+*** FLOP *** [Ad 5c 8c]
+yvarella: checks 
+lightning497: bets 50
+Majorala: folds 
+yvarella: calls 50
+*** TURN *** [Ad 5c 8c] [Kc]
+yvarella: bets 103
+lightning497: raises 103 to 206
+yvarella: folds 
+Uncalled bet (103) returned to lightning497
+lightning497 collected 517 from pot
+*** SUMMARY ***
+Total pot 517 | Rake 0 
+Board [Ad 5c 8c Kc]
+Seat 1: cummings666 folded before Flop (didn't bet)
+Seat 3: lightning497 collected (517)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Majorala (button) folded on the Flop
+Seat 6: INTIMIDATOR69 (small blind) folded before Flop
+Seat 8: yvarella (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259757591065: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 0:09:49 UTC [2026/02/16 19:09:49 ET]
+Table '3975830581 4' 8-max Seat #6 is the button
+Seat 1: cummings666 (1756 in chips) 
+Seat 3: lightning497 (5514 in chips) 
+Seat 4: scorza23 (1590 in chips) 
+Seat 5: Majorala (2434 in chips) 
+Seat 6: INTIMIDATOR69 (1515 in chips) 
+Seat 8: yvarella (1206 in chips) 
+cummings666: posts the ante 6
+lightning497: posts the ante 6
+scorza23: posts the ante 6
+Majorala: posts the ante 6
+INTIMIDATOR69: posts the ante 6
+yvarella: posts the ante 6
+yvarella: posts small blind 25
+cummings666: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Ts]
+lightning497: raises 50 to 100
+scorza23: raises 1484 to 1584 and is all-in
+Majorala: folds 
+INTIMIDATOR69: calls 1509 and is all-in
+yvarella: folds 
+cummings666: folds 
+lightning497: folds 
+Uncalled bet (75) returned to scorza23
+*** FLOP *** [4h Qs 2s]
+*** TURN *** [4h Qs 2s] [5h]
+*** RIVER *** [4h Qs 2s 5h] [Kd]
+*** SHOW DOWN ***
+scorza23: shows [Ad Ts] (high card Ace)
+INTIMIDATOR69: shows [Qc As] (a pair of Queens)
+INTIMIDATOR69 collected 3229 from pot
+*** SUMMARY ***
+Total pot 3229 | Rake 0 
+Board [4h Qs 2s 5h Kd]
+Seat 1: cummings666 (big blind) folded before Flop
+Seat 3: lightning497 folded before Flop
+Seat 4: scorza23 showed [Ad Ts] and lost with high card Ace
+Seat 5: Majorala folded before Flop (didn't bet)
+Seat 6: INTIMIDATOR69 (button) showed [Qc As] and won (3229) with a pair of Queens
+Seat 8: yvarella (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757596877: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 0:10:22 UTC [2026/02/16 19:10:22 ET]
+Table '3975830581 4' 8-max Seat #8 is the button
+Seat 1: cummings666 (1700 in chips) 
+Seat 3: lightning497 (5408 in chips) 
+Seat 4: scorza23 (75 in chips) 
+Seat 5: Majorala (2428 in chips) 
+Seat 6: INTIMIDATOR69 (3229 in chips) 
+Seat 8: yvarella (1175 in chips) 
+cummings666: posts the ante 6
+lightning497: posts the ante 6
+scorza23: posts the ante 6
+Majorala: posts the ante 6
+INTIMIDATOR69: posts the ante 6
+yvarella: posts the ante 6
+cummings666: posts small blind 25
+lightning497: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 5c]
+scorza23: raises 19 to 69 and is all-in
+Majorala: folds 
+INTIMIDATOR69: folds 
+yvarella: folds 
+cummings666: calls 44
+lightning497: calls 19
+*** FLOP *** [5h 3s 5s]
+cummings666: checks 
+lightning497: checks 
+*** TURN *** [5h 3s 5s] [4d]
+cummings666: checks 
+lightning497: checks 
+*** RIVER *** [5h 3s 5s 4d] [4s]
+cummings666: checks 
+lightning497: checks 
+*** SHOW DOWN ***
+cummings666: shows [7h 8d] (two pair, Fives and Fours)
+lightning497: shows [Js 8h] (two pair, Fives and Fours - Jack kicker)
+scorza23: shows [9c 5c] (a full house, Fives full of Fours)
+scorza23 collected 243 from pot
+*** SUMMARY ***
+Total pot 243 | Rake 0 
+Board [5h 3s 5s 4d 4s]
+Seat 1: cummings666 (small blind) showed [7h 8d] and lost with two pair, Fives and Fours
+Seat 3: lightning497 (big blind) showed [Js 8h] and lost with two pair, Fives and Fours
+Seat 4: scorza23 showed [9c 5c] and won (243) with a full house, Fives full of Fours
+Seat 5: Majorala folded before Flop (didn't bet)
+Seat 6: INTIMIDATOR69 folded before Flop (didn't bet)
+Seat 8: yvarella (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757603533: Tournament #3975830581, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 0:10:58 UTC [2026/02/16 19:10:58 ET]
+Table '3975830581 4' 8-max Seat #1 is the button
+Seat 1: cummings666 (1625 in chips) 
+Seat 3: lightning497 (5333 in chips) 
+Seat 4: scorza23 (243 in chips) 
+Seat 5: Majorala (2422 in chips) 
+Seat 6: INTIMIDATOR69 (3223 in chips) 
+Seat 8: yvarella (1169 in chips) 
+cummings666: posts the ante 6
+lightning497: posts the ante 6
+scorza23: posts the ante 6
+Majorala: posts the ante 6
+INTIMIDATOR69: posts the ante 6
+yvarella: posts the ante 6
+lightning497: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Ah]
+Majorala: raises 100 to 150
+INTIMIDATOR69: raises 3067 to 3217 and is all-in
+yvarella: folds 
+cummings666: folds 
+lightning497: folds 
+scorza23: calls 187 and is all-in
+Majorala: calls 2266 and is all-in
+Uncalled bet (801) returned to INTIMIDATOR69
+*** FLOP *** [6d 3s 9s]
+*** TURN *** [6d 3s 9s] [6c]
+*** RIVER *** [6d 3s 9s 6c] [9d]
+*** SHOW DOWN ***
+Majorala: shows [Ac As] (two pair, Aces and Nines)
+INTIMIDATOR69: shows [Kc Kh] (two pair, Kings and Nines)
+Majorala collected 4358 from side pot
+scorza23: shows [8s Ah] (two pair, Nines and Sixes)
+Majorala collected 772 from main pot
+scorza23 finished the tournament in 25th place
+*** SUMMARY ***
+Total pot 5130 Main pot 772. Side pot 4358. | Rake 0 
+Board [6d 3s 9s 6c 9d]
+Seat 1: cummings666 (button) folded before Flop (didn't bet)
+Seat 3: lightning497 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [8s Ah] and lost with two pair, Nines and Sixes
+Seat 5: Majorala showed [Ac As] and won (5130) with two pair, Aces and Nines
+Seat 6: INTIMIDATOR69 showed [Kc Kh] and lost with two pair, Kings and Nines
+Seat 8: yvarella folded before Flop (didn't bet)
+
+
+

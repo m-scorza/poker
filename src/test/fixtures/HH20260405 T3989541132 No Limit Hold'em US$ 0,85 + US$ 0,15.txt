@@ -1,0 +1,432 @@
+﻿PokerStars Hand #260356646368: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:16:05 UTC [2026/04/05 14:16:05 ET]
+Table '3989541132 1' 9-max Seat #1 is the button
+Seat 1: terry-val429 (1500 in chips) 
+Seat 2: fuenrir (1500 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: StanekMi (1500 in chips) 
+Seat 5: riddup (1500 in chips) 
+Seat 6: oftakofta (1500 in chips) 
+Seat 7: Aaran22 (1500 in chips) 
+Seat 8: 18socrates (1500 in chips) 
+Seat 9: GKJ13 (1500 in chips) 
+terry-val429: posts the ante 3
+fuenrir: posts the ante 3
+scorza23: posts the ante 3
+StanekMi: posts the ante 3
+riddup: posts the ante 3
+oftakofta: posts the ante 3
+Aaran22: posts the ante 3
+18socrates: posts the ante 3
+GKJ13: posts the ante 3
+fuenrir: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5h]
+StanekMi: raises 20 to 40
+riddup: folds 
+oftakofta has timed out
+oftakofta: folds 
+oftakofta is sitting out
+Aaran22: folds 
+18socrates: calls 40
+GKJ13: folds 
+terry-val429: raises 177 to 217
+fuenrir: folds 
+scorza23: folds 
+StanekMi: calls 177
+18socrates: calls 177
+*** FLOP *** [6d 2s Qh]
+StanekMi: bets 354
+18socrates: folds 
+terry-val429: calls 354
+*** TURN *** [6d 2s Qh] [Th]
+oftakofta has returned
+StanekMi: checks 
+terry-val429: bets 926 and is all-in
+StanekMi: calls 926 and is all-in
+*** RIVER *** [6d 2s Qh Th] [Jc]
+*** SHOW DOWN ***
+StanekMi: shows [Ts Td] (three of a kind, Tens)
+terry-val429: shows [Kd As] (a straight, Ten to Ace)
+terry-val429 collected 3268 from pot
+StanekMi finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3268 | Rake 0 
+Board [6d 2s Qh Th Jc]
+Seat 1: terry-val429 (button) showed [Kd As] and won (3268) with a straight, Ten to Ace
+Seat 2: fuenrir (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: StanekMi showed [Ts Td] and lost with three of a kind, Tens
+Seat 5: riddup folded before Flop (didn't bet)
+Seat 6: oftakofta folded before Flop (didn't bet)
+Seat 7: Aaran22 folded before Flop (didn't bet)
+Seat 8: 18socrates folded on the Flop
+Seat 9: GKJ13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356666390: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:17:24 UTC [2026/04/05 14:17:24 ET]
+Table '3989541132 1' 9-max Seat #2 is the button
+Seat 1: terry-val429 (3268 in chips) 
+Seat 2: fuenrir (1487 in chips) 
+Seat 3: scorza23 (1477 in chips) 
+Seat 5: riddup (1497 in chips) 
+Seat 6: oftakofta (1497 in chips) 
+Seat 7: Aaran22 (1497 in chips) 
+Seat 8: 18socrates (1280 in chips) 
+Seat 9: GKJ13 (1497 in chips) 
+terry-val429: posts the ante 3
+fuenrir: posts the ante 3
+scorza23: posts the ante 3
+riddup: posts the ante 3
+oftakofta: posts the ante 3
+Aaran22: posts the ante 3
+18socrates: posts the ante 3
+GKJ13: posts the ante 3
+scorza23: posts small blind 10
+riddup: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 3h]
+oftakofta: folds 
+Aaran22: folds 
+18socrates: folds 
+GKJ13: folds 
+terry-val429: folds 
+fuenrir: raises 40 to 60
+scorza23: folds 
+riddup: folds 
+Uncalled bet (40) returned to fuenrir
+fuenrir collected 74 from pot
+fuenrir: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: terry-val429 folded before Flop (didn't bet)
+Seat 2: fuenrir (button) collected (74)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: riddup (big blind) folded before Flop
+Seat 6: oftakofta folded before Flop (didn't bet)
+Seat 7: Aaran22 folded before Flop (didn't bet)
+Seat 8: 18socrates folded before Flop (didn't bet)
+Seat 9: GKJ13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356672886: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:17:50 UTC [2026/04/05 14:17:50 ET]
+Table '3989541132 1' 9-max Seat #3 is the button
+Seat 1: terry-val429 (3265 in chips) 
+Seat 2: fuenrir (1538 in chips) 
+Seat 3: scorza23 (1464 in chips) 
+Seat 5: riddup (1474 in chips) 
+Seat 6: oftakofta (1494 in chips) 
+Seat 7: Aaran22 (1494 in chips) 
+Seat 8: 18socrates (1277 in chips) 
+Seat 9: GKJ13 (1494 in chips) 
+terry-val429: posts the ante 3
+fuenrir: posts the ante 3
+scorza23: posts the ante 3
+riddup: posts the ante 3
+oftakofta: posts the ante 3
+Aaran22: posts the ante 3
+18socrates: posts the ante 3
+GKJ13: posts the ante 3
+riddup: posts small blind 10
+oftakofta: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3d]
+Aaran22: folds 
+18socrates: raises 20 to 40
+GKJ13: folds 
+terry-val429: raises 134 to 174
+fuenrir: folds 
+scorza23: folds 
+riddup: folds 
+oftakofta: folds 
+18socrates: raises 1100 to 1274 and is all-in
+terry-val429: calls 1100
+*** FLOP *** [4h 3c 9c]
+*** TURN *** [4h 3c 9c] [Jd]
+*** RIVER *** [4h 3c 9c Jd] [Qd]
+*** SHOW DOWN ***
+18socrates: shows [Ac Kh] (high card Ace)
+terry-val429: shows [9s 9h] (three of a kind, Nines)
+terry-val429 collected 2602 from pot
+18socrates finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 2602 | Rake 0 
+Board [4h 3c 9c Jd Qd]
+Seat 1: terry-val429 showed [9s 9h] and won (2602) with three of a kind, Nines
+Seat 2: fuenrir folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: riddup (small blind) folded before Flop
+Seat 6: oftakofta (big blind) folded before Flop
+Seat 7: Aaran22 folded before Flop (didn't bet)
+Seat 8: 18socrates showed [Ac Kh] and lost with high card Ace
+Seat 9: GKJ13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356682336: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:18:29 UTC [2026/04/05 14:18:29 ET]
+Table '3989541132 1' 9-max Seat #5 is the button
+Seat 1: terry-val429 (4590 in chips) 
+Seat 2: fuenrir (1535 in chips) 
+Seat 3: scorza23 (1461 in chips) 
+Seat 5: riddup (1461 in chips) 
+Seat 6: oftakofta (1471 in chips) 
+Seat 7: Aaran22 (1491 in chips) 
+Seat 9: GKJ13 (1491 in chips) 
+terry-val429: posts the ante 3
+fuenrir: posts the ante 3
+scorza23: posts the ante 3
+riddup: posts the ante 3
+oftakofta: posts the ante 3
+Aaran22: posts the ante 3
+GKJ13: posts the ante 3
+oftakofta: posts small blind 10
+Aaran22: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 4s]
+GKJ13: folds 
+terry-val429: calls 20
+fuenrir: raises 40 to 60
+scorza23: raises 60 to 120
+riddup: folds 
+oftakofta: folds 
+Aaran22: calls 100
+terry-val429: calls 100
+fuenrir: raises 1412 to 1532 and is all-in
+scorza23: folds 
+Aaran22: calls 1368 and is all-in
+terry-val429: folds 
+Uncalled bet (44) returned to fuenrir
+*** FLOP *** [3c Td 7d]
+*** TURN *** [3c Td 7d] [Ks]
+*** RIVER *** [3c Td 7d Ks] [2s]
+*** SHOW DOWN ***
+Aaran22: shows [Ts Tc] (three of a kind, Tens)
+fuenrir: shows [Jd Jc] (a pair of Jacks)
+Aaran22 collected 3247 from pot
+*** SUMMARY ***
+Total pot 3247 | Rake 0 
+Board [3c Td 7d Ks 2s]
+Seat 1: terry-val429 folded before Flop
+Seat 2: fuenrir showed [Jd Jc] and lost with a pair of Jacks
+Seat 3: scorza23 folded before Flop
+Seat 5: riddup (button) folded before Flop (didn't bet)
+Seat 6: oftakofta (small blind) folded before Flop
+Seat 7: Aaran22 (big blind) showed [Ts Tc] and won (3247) with three of a kind, Tens
+Seat 9: GKJ13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356692626: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:19:10 UTC [2026/04/05 14:19:10 ET]
+Table '3989541132 1' 9-max Seat #6 is the button
+Seat 1: terry-val429 (4467 in chips) 
+Seat 2: fuenrir (44 in chips) 
+Seat 3: scorza23 (1338 in chips) 
+Seat 5: riddup (1458 in chips) 
+Seat 6: oftakofta (1458 in chips) 
+Seat 7: Aaran22 (3247 in chips) 
+Seat 9: GKJ13 (1488 in chips) 
+terry-val429: posts the ante 3
+fuenrir: posts the ante 3
+scorza23: posts the ante 3
+riddup: posts the ante 3
+oftakofta: posts the ante 3
+Aaran22: posts the ante 3
+GKJ13: posts the ante 3
+Aaran22: posts small blind 10
+GKJ13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Ks]
+terry-val429: folds 
+fuenrir: raises 21 to 41 and is all-in
+scorza23: raises 59 to 100
+riddup: folds 
+oftakofta: raises 59 to 159
+Aaran22: folds 
+GKJ13: folds 
+scorza23: calls 59
+*** FLOP *** [8s Qc 8c]
+scorza23: bets 100
+oftakofta: calls 100
+*** TURN *** [8s Qc 8c] [7s]
+scorza23: checks 
+oftakofta: checks 
+*** RIVER *** [8s Qc 8c 7s] [7h]
+scorza23: bets 220
+oftakofta: folds 
+Uncalled bet (220) returned to scorza23
+*** SHOW DOWN ***
+scorza23: shows [Jh Ks] (two pair, Eights and Sevens)
+scorza23 collected 436 from side pot
+fuenrir: shows [As 5s] (two pair, Eights and Sevens - Ace kicker)
+fuenrir collected 174 from main pot
+*** SUMMARY ***
+Total pot 610 Main pot 174. Side pot 436. | Rake 0 
+Board [8s Qc 8c 7s 7h]
+Seat 1: terry-val429 folded before Flop (didn't bet)
+Seat 2: fuenrir showed [As 5s] and won (174) with two pair, Eights and Sevens
+Seat 3: scorza23 showed [Jh Ks] and won (436) with two pair, Eights and Sevens
+Seat 5: riddup folded before Flop (didn't bet)
+Seat 6: oftakofta (button) folded on the River
+Seat 7: Aaran22 (small blind) folded before Flop
+Seat 9: GKJ13 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260356710025: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:20:19 UTC [2026/04/05 14:20:19 ET]
+Table '3989541132 1' 9-max Seat #7 is the button
+Seat 1: terry-val429 (4464 in chips) 
+Seat 2: fuenrir (174 in chips) 
+Seat 3: scorza23 (1512 in chips) 
+Seat 5: riddup (1455 in chips) 
+Seat 6: oftakofta (1196 in chips) 
+Seat 7: Aaran22 (3234 in chips) 
+Seat 9: GKJ13 (1465 in chips) 
+terry-val429: posts the ante 3
+fuenrir: posts the ante 3
+scorza23: posts the ante 3
+riddup: posts the ante 3
+oftakofta: posts the ante 3
+Aaran22: posts the ante 3
+GKJ13: posts the ante 3
+GKJ13: posts small blind 10
+terry-val429: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Tc]
+fuenrir: folds 
+scorza23: folds 
+riddup: raises 30 to 50
+oftakofta: folds 
+Aaran22: calls 50
+GKJ13: folds 
+terry-val429: calls 30
+*** FLOP *** [2d 4h 2s]
+terry-val429: checks 
+riddup: bets 91
+Aaran22: calls 91
+terry-val429: folds 
+*** TURN *** [2d 4h 2s] [Qc]
+riddup: bets 240
+Aaran22: folds 
+Uncalled bet (240) returned to riddup
+riddup collected 363 from pot
+riddup: doesn't show hand 
+*** SUMMARY ***
+Total pot 363 | Rake 0 
+Board [2d 4h 2s Qc]
+Seat 1: terry-val429 (big blind) folded on the Flop
+Seat 2: fuenrir folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: riddup collected (363)
+Seat 6: oftakofta folded before Flop (didn't bet)
+Seat 7: Aaran22 (button) folded on the Turn
+Seat 9: GKJ13 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260356720818: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:21:01 UTC [2026/04/05 14:21:01 ET]
+Table '3989541132 1' 9-max Seat #9 is the button
+Seat 1: terry-val429 (4411 in chips) 
+Seat 2: fuenrir (171 in chips) 
+Seat 3: scorza23 (1509 in chips) 
+Seat 5: riddup (1674 in chips) 
+Seat 6: oftakofta (1193 in chips) 
+Seat 7: Aaran22 (3090 in chips) 
+Seat 9: GKJ13 (1452 in chips) 
+terry-val429: posts the ante 3
+fuenrir: posts the ante 3
+scorza23: posts the ante 3
+riddup: posts the ante 3
+oftakofta: posts the ante 3
+Aaran22: posts the ante 3
+GKJ13: posts the ante 3
+terry-val429: posts small blind 10
+fuenrir: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Ac]
+scorza23: raises 20 to 40
+riddup: folds 
+oftakofta: raises 100 to 140
+Aaran22: folds 
+GKJ13: folds 
+terry-val429: folds 
+fuenrir: folds 
+scorza23: calls 100
+*** FLOP *** [Jd As 8s]
+scorza23: bets 120
+oftakofta: calls 120
+*** TURN *** [Jd As 8s] [6s]
+scorza23: bets 571
+oftakofta: folds 
+Uncalled bet (571) returned to scorza23
+scorza23 collected 571 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 571 | Rake 0 
+Board [Jd As 8s 6s]
+Seat 1: terry-val429 (small blind) folded before Flop
+Seat 2: fuenrir (big blind) folded before Flop
+Seat 3: scorza23 collected (571)
+Seat 5: riddup folded before Flop (didn't bet)
+Seat 6: oftakofta folded on the Turn
+Seat 7: Aaran22 folded before Flop (didn't bet)
+Seat 9: GKJ13 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356731584: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:21:44 UTC [2026/04/05 14:21:44 ET]
+Table '3989541132 1' 9-max Seat #1 is the button
+Seat 1: terry-val429 (4398 in chips) 
+Seat 2: fuenrir (148 in chips) 
+Seat 3: scorza23 (1817 in chips) 
+Seat 5: riddup (1671 in chips) 
+Seat 6: oftakofta (930 in chips) 
+Seat 7: Aaran22 (3087 in chips) 
+Seat 9: GKJ13 (1449 in chips) 
+terry-val429: posts the ante 4
+fuenrir: posts the ante 4
+scorza23: posts the ante 4
+riddup: posts the ante 4
+oftakofta: posts the ante 4
+Aaran22: posts the ante 4
+GKJ13: posts the ante 4
+fuenrir: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [As Th]
+riddup: folds 
+oftakofta: folds 
+Aaran22: calls 30
+GKJ13: raises 90 to 120
+terry-val429: folds 
+fuenrir: raises 24 to 144 and is all-in
+scorza23: calls 114
+Aaran22: raises 2939 to 3083 and is all-in
+GKJ13: folds 
+scorza23: calls 1669 and is all-in
+Uncalled bet (1270) returned to Aaran22
+*** FLOP *** [5d 5s Ts]
+*** TURN *** [5d 5s Ts] [2s]
+*** RIVER *** [5d 5s Ts 2s] [Kc]
+*** SHOW DOWN ***
+scorza23: shows [As Th] (two pair, Tens and Fives)
+Aaran22: shows [Qh Qs] (two pair, Queens and Fives)
+Aaran22 collected 3338 from side pot
+fuenrir: shows [3h Ah] (a pair of Fives)
+Aaran22 collected 580 from main pot
+scorza23 finished the tournament in 6th place
+fuenrir finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 3918 Main pot 580. Side pot 3338. | Rake 0 
+Board [5d 5s Ts 2s Kc]
+Seat 1: terry-val429 (button) folded before Flop (didn't bet)
+Seat 2: fuenrir (small blind) showed [3h Ah] and lost with a pair of Fives
+Seat 3: scorza23 (big blind) showed [As Th] and lost with two pair, Tens and Fives
+Seat 5: riddup folded before Flop (didn't bet)
+Seat 6: oftakofta folded before Flop (didn't bet)
+Seat 7: Aaran22 showed [Qh Qs] and won (3918) with two pair, Queens and Fives
+Seat 9: GKJ13 folded before Flop
+
+
+

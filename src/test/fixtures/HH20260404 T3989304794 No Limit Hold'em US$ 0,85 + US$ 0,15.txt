@@ -1,0 +1,2404 @@
+﻿PokerStars Hand #260346293004: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:52:42 UTC [2026/04/04 16:52:42 ET]
+Table '3989304794 1' 9-max Seat #1 is the button
+Seat 1: HeavyBach (1500 in chips) 
+Seat 2: vl3_2k7 (1500 in chips) 
+Seat 3: Papini2907 (1500 in chips) 
+Seat 4: vander_borge (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: Reef Surf208 (1500 in chips) 
+Seat 7: portugal 306 (1500 in chips) 
+Seat 8: dcmfc86 (1500 in chips) 
+Seat 9: FullTiltedAK (1500 in chips) 
+HeavyBach: posts the ante 3
+vl3_2k7: posts the ante 3
+Papini2907: posts the ante 3
+vander_borge: posts the ante 3
+scorza23: posts the ante 3
+Reef Surf208: posts the ante 3
+portugal 306: posts the ante 3
+dcmfc86: posts the ante 3
+FullTiltedAK: posts the ante 3
+vl3_2k7: posts small blind 10
+Papini2907: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 3s]
+vander_borge: folds 
+scorza23: folds 
+Reef Surf208: folds 
+portugal 306: raises 160 to 180
+dcmfc86: calls 180
+FullTiltedAK: folds 
+HeavyBach: folds 
+vl3_2k7: raises 1317 to 1497 and is all-in
+Papini2907: folds 
+portugal 306: calls 1317 and is all-in
+dcmfc86: folds 
+*** FLOP *** [9h 4h Ad]
+*** TURN *** [9h 4h Ad] [6d]
+*** RIVER *** [9h 4h Ad 6d] [Ts]
+*** SHOW DOWN ***
+vl3_2k7: shows [Ah Kc] (a pair of Aces)
+portugal 306: shows [Kd Ks] (a pair of Kings)
+vl3_2k7 collected 3221 from pot
+portugal 306 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3221 | Rake 0 
+Board [9h 4h Ad 6d Ts]
+Seat 1: HeavyBach (button) folded before Flop (didn't bet)
+Seat 2: vl3_2k7 (small blind) showed [Ah Kc] and won (3221) with a pair of Aces
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Reef Surf208 folded before Flop (didn't bet)
+Seat 7: portugal 306 showed [Kd Ks] and lost with a pair of Kings
+Seat 8: dcmfc86 folded before Flop
+Seat 9: FullTiltedAK folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346305383: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:53:37 UTC [2026/04/04 16:53:37 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 1: HeavyBach (1497 in chips) 
+Seat 2: vl3_2k7 (3221 in chips) 
+Seat 3: Papini2907 (1477 in chips) 
+Seat 4: vander_borge (1497 in chips) 
+Seat 5: scorza23 (1497 in chips) 
+Seat 6: Reef Surf208 (1497 in chips) 
+Seat 8: dcmfc86 (1317 in chips) 
+Seat 9: FullTiltedAK (1497 in chips) 
+HeavyBach: posts the ante 3
+vl3_2k7: posts the ante 3
+Papini2907: posts the ante 3
+vander_borge: posts the ante 3
+scorza23: posts the ante 3
+Reef Surf208: posts the ante 3
+dcmfc86: posts the ante 3
+FullTiltedAK: posts the ante 3
+Papini2907: posts small blind 10
+vander_borge: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Td]
+scorza23: folds 
+Reef Surf208: folds 
+dcmfc86: folds 
+FullTiltedAK: folds 
+HeavyBach: raises 40 to 60
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: calls 40
+*** FLOP *** [6s 6h 9d]
+vander_borge: checks 
+HeavyBach: bets 45
+vander_borge: calls 45
+*** TURN *** [6s 6h 9d] [Jd]
+vander_borge: checks 
+HeavyBach: checks 
+*** RIVER *** [6s 6h 9d Jd] [2s]
+vander_borge: bets 244
+HeavyBach: calls 244
+*** SHOW DOWN ***
+vander_borge: shows [Jh Ac] (two pair, Jacks and Sixes)
+HeavyBach: mucks hand 
+vander_borge collected 732 from pot
+*** SUMMARY ***
+Total pot 732 | Rake 0 
+Board [6s 6h 9d Jd 2s]
+Seat 1: HeavyBach mucked [Ah 9c]
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 4: vander_borge (big blind) showed [Jh Ac] and won (732) with two pair, Jacks and Sixes
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Reef Surf208 folded before Flop (didn't bet)
+Seat 8: dcmfc86 folded before Flop (didn't bet)
+Seat 9: FullTiltedAK folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346319866: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:54:40 UTC [2026/04/04 16:54:40 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 1: HeavyBach (1145 in chips) 
+Seat 2: vl3_2k7 (3218 in chips) 
+Seat 3: Papini2907 (1464 in chips) 
+Seat 4: vander_borge (1877 in chips) 
+Seat 5: scorza23 (1494 in chips) 
+Seat 6: Reef Surf208 (1494 in chips) 
+Seat 8: dcmfc86 (1314 in chips) 
+Seat 9: FullTiltedAK (1494 in chips) 
+HeavyBach: posts the ante 3
+vl3_2k7: posts the ante 3
+Papini2907: posts the ante 3
+vander_borge: posts the ante 3
+scorza23: posts the ante 3
+Reef Surf208: posts the ante 3
+dcmfc86: posts the ante 3
+FullTiltedAK: posts the ante 3
+vander_borge: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6h]
+Reef Surf208: folds 
+dcmfc86: calls 20
+FullTiltedAK: folds 
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: calls 10
+scorza23: checks 
+*** FLOP *** [Kd 2s Ad]
+vander_borge: checks 
+scorza23: bets 40
+dcmfc86: folds 
+vander_borge: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 84 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 84 | Rake 0 
+Board [Kd 2s Ad]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) folded on the Flop
+Seat 5: scorza23 (big blind) collected (84)
+Seat 6: Reef Surf208 folded before Flop (didn't bet)
+Seat 8: dcmfc86 folded on the Flop
+Seat 9: FullTiltedAK folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346331894: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:55:43 UTC [2026/04/04 16:55:43 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 1: HeavyBach (1142 in chips) 
+Seat 2: vl3_2k7 (3215 in chips) 
+Seat 3: Papini2907 (1461 in chips) 
+Seat 4: vander_borge (1854 in chips) 
+Seat 5: scorza23 (1555 in chips) 
+Seat 6: Reef Surf208 (1491 in chips) 
+Seat 8: dcmfc86 (1291 in chips) 
+Seat 9: FullTiltedAK (1491 in chips) 
+HeavyBach: posts the ante 3
+vl3_2k7: posts the ante 3
+Papini2907: posts the ante 3
+vander_borge: posts the ante 3
+scorza23: posts the ante 3
+Reef Surf208: posts the ante 3
+dcmfc86: posts the ante 3
+FullTiltedAK: posts the ante 3
+scorza23: posts small blind 10
+Reef Surf208: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Js]
+dcmfc86: calls 20
+FullTiltedAK: calls 20
+HeavyBach: folds 
+vl3_2k7: calls 20
+Papini2907: calls 20
+vander_borge: calls 20
+scorza23: raises 40 to 60
+Reef Surf208: calls 40
+dcmfc86: calls 40
+FullTiltedAK: calls 40
+vl3_2k7: calls 40
+Papini2907: calls 40
+vander_borge: calls 40
+*** FLOP *** [4s 3c 5h]
+scorza23: checks 
+Reef Surf208: checks 
+dcmfc86: checks 
+FullTiltedAK: bets 222
+vl3_2k7: calls 222
+Papini2907: folds 
+vander_borge: folds 
+scorza23: folds 
+Reef Surf208: folds 
+dcmfc86: folds 
+*** TURN *** [4s 3c 5h] [2c]
+FullTiltedAK: bets 444
+vl3_2k7: calls 444
+*** RIVER *** [4s 3c 5h 2c] [3d]
+FullTiltedAK: checks 
+vl3_2k7: bets 1012
+FullTiltedAK: calls 762 and is all-in
+Uncalled bet (250) returned to vl3_2k7
+*** SHOW DOWN ***
+vl3_2k7: shows [5d 5s] (a full house, Fives full of Threes)
+FullTiltedAK: shows [7d 7s] (two pair, Sevens and Threes)
+vl3_2k7 collected 3300 from pot
+FullTiltedAK finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3300 | Rake 0 
+Board [4s 3c 5h 2c 3d]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 showed [5d 5s] and won (3300) with a full house, Fives full of Threes
+Seat 3: Papini2907 folded on the Flop
+Seat 4: vander_borge (button) folded on the Flop
+Seat 5: scorza23 (small blind) folded on the Flop
+Seat 6: Reef Surf208 (big blind) folded on the Flop
+Seat 8: dcmfc86 folded on the Flop
+Seat 9: FullTiltedAK showed [7d 7s] and lost with two pair, Sevens and Threes
+
+
+
+PokerStars Hand #260346355268: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 20:58:21 UTC [2026/04/04 16:58:21 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 1: HeavyBach (1139 in chips) 
+Seat 2: vl3_2k7 (5024 in chips) 
+Seat 3: Papini2907 (1398 in chips) 
+Seat 4: vander_borge (1791 in chips) 
+Seat 5: scorza23 (1492 in chips) 
+Seat 6: Reef Surf208 (1428 in chips) 
+Seat 8: dcmfc86 (1228 in chips) 
+HeavyBach: posts the ante 4
+vl3_2k7: posts the ante 4
+Papini2907: posts the ante 4
+vander_borge: posts the ante 4
+scorza23: posts the ante 4
+Reef Surf208: posts the ante 4
+dcmfc86: posts the ante 4
+Reef Surf208: posts small blind 15
+dcmfc86: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 6s]
+HeavyBach: raises 30 to 60
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: folds 
+scorza23: folds 
+Reef Surf208: folds 
+dcmfc86: raises 30 to 90
+HeavyBach: calls 30
+*** FLOP *** [5h 3h 7c]
+dcmfc86: checks 
+HeavyBach: checks 
+*** TURN *** [5h 3h 7c] [2c]
+dcmfc86: bets 112
+HeavyBach: folds 
+Uncalled bet (112) returned to dcmfc86
+dcmfc86 collected 223 from pot
+*** SUMMARY ***
+Total pot 223 | Rake 0 
+Board [5h 3h 7c 2c]
+Seat 1: HeavyBach folded on the Turn
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Reef Surf208 (small blind) folded before Flop
+Seat 8: dcmfc86 (big blind) collected (223)
+
+
+
+PokerStars Hand #260346369522: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 20:59:57 UTC [2026/04/04 16:59:57 ET]
+Table '3989304794 1' 9-max Seat #6 is the button
+Seat 1: HeavyBach (1045 in chips) 
+Seat 2: vl3_2k7 (5020 in chips) 
+Seat 3: Papini2907 (1394 in chips) 
+Seat 4: vander_borge (1787 in chips) 
+Seat 5: scorza23 (1488 in chips) 
+Seat 6: Reef Surf208 (1409 in chips) 
+Seat 8: dcmfc86 (1357 in chips) 
+HeavyBach: posts the ante 4
+vl3_2k7: posts the ante 4
+Papini2907: posts the ante 4
+vander_borge: posts the ante 4
+scorza23: posts the ante 4
+Reef Surf208: posts the ante 4
+dcmfc86: posts the ante 4
+dcmfc86: posts small blind 15
+HeavyBach: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 7s]
+vl3_2k7: folds 
+Papini2907: raises 30 to 60
+vander_borge: folds 
+scorza23: folds 
+Reef Surf208: calls 60
+dcmfc86: calls 45
+HeavyBach: folds 
+*** FLOP *** [6c 5h Qh]
+dcmfc86: checks 
+Papini2907: bets 238
+Reef Surf208: folds 
+dcmfc86: folds 
+Uncalled bet (238) returned to Papini2907
+Papini2907 collected 238 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 238 | Rake 0 
+Board [6c 5h Qh]
+Seat 1: HeavyBach (big blind) folded before Flop
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 collected (238)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Reef Surf208 (button) folded on the Flop
+Seat 8: dcmfc86 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260346381355: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:01:07 UTC [2026/04/04 17:01:07 ET]
+Table '3989304794 1' 9-max Seat #8 is the button
+Seat 1: HeavyBach (1011 in chips) 
+Seat 2: vl3_2k7 (5016 in chips) 
+Seat 3: Papini2907 (1568 in chips) 
+Seat 4: vander_borge (1783 in chips) 
+Seat 5: scorza23 (1484 in chips) 
+Seat 6: Reef Surf208 (1345 in chips) 
+Seat 8: dcmfc86 (1293 in chips) 
+HeavyBach: posts the ante 4
+vl3_2k7: posts the ante 4
+Papini2907: posts the ante 4
+vander_borge: posts the ante 4
+scorza23: posts the ante 4
+Reef Surf208: posts the ante 4
+dcmfc86: posts the ante 4
+HeavyBach: posts small blind 15
+vl3_2k7: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 5c]
+Papini2907: folds 
+vander_borge: folds 
+scorza23: folds 
+Reef Surf208: raises 60 to 90
+dcmfc86: calls 90
+HeavyBach: folds 
+vl3_2k7: folds 
+*** FLOP *** [5d Ts 6c]
+Reef Surf208: checks 
+dcmfc86: bets 127
+Reef Surf208: calls 127
+*** TURN *** [5d Ts 6c] [Qs]
+Reef Surf208: checks 
+dcmfc86: bets 254
+Reef Surf208: calls 254
+*** RIVER *** [5d Ts 6c Qs] [7h]
+Reef Surf208: checks 
+dcmfc86: checks 
+*** SHOW DOWN ***
+Reef Surf208: shows [Kd 9d] (high card King)
+dcmfc86: shows [Tc Qc] (two pair, Queens and Tens)
+dcmfc86 collected 1015 from pot
+*** SUMMARY ***
+Total pot 1015 | Rake 0 
+Board [5d Ts 6c Qs 7h]
+Seat 1: HeavyBach (small blind) folded before Flop
+Seat 2: vl3_2k7 (big blind) folded before Flop
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Reef Surf208 showed [Kd 9d] and lost with high card King
+Seat 8: dcmfc86 (button) showed [Tc Qc] and won (1015) with two pair, Queens and Tens
+
+
+
+PokerStars Hand #260346396317: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:02:16 UTC [2026/04/04 17:02:16 ET]
+Table '3989304794 1' 9-max Seat #1 is the button
+Seat 1: HeavyBach (992 in chips) 
+Seat 2: vl3_2k7 (4982 in chips) 
+Seat 3: Papini2907 (1564 in chips) 
+Seat 4: vander_borge (1779 in chips) 
+Seat 5: scorza23 (1480 in chips) 
+Seat 6: Reef Surf208 (870 in chips) 
+Seat 8: dcmfc86 (1833 in chips) 
+HeavyBach: posts the ante 4
+vl3_2k7: posts the ante 4
+Papini2907: posts the ante 4
+vander_borge: posts the ante 4
+scorza23: posts the ante 4
+Reef Surf208: posts the ante 4
+dcmfc86: posts the ante 4
+vl3_2k7: posts small blind 15
+Papini2907: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Qh]
+vander_borge: folds 
+scorza23: raises 30 to 60
+Reef Surf208: folds 
+dcmfc86: folds 
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: calls 30
+*** FLOP *** [Ks 4d 7c]
+Papini2907: checks 
+scorza23: checks 
+*** TURN *** [Ks 4d 7c] [Td]
+Papini2907: bets 82
+scorza23: folds 
+Uncalled bet (82) returned to Papini2907
+Papini2907 collected 163 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 163 | Rake 0 
+Board [Ks 4d 7c Td]
+Seat 1: HeavyBach (button) folded before Flop (didn't bet)
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) collected (163)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 folded on the Turn
+Seat 6: Reef Surf208 folded before Flop (didn't bet)
+Seat 8: dcmfc86 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346409073: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:03:13 UTC [2026/04/04 17:03:13 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 1: HeavyBach (988 in chips) 
+Seat 2: vl3_2k7 (4963 in chips) 
+Seat 3: Papini2907 (1663 in chips) 
+Seat 4: vander_borge (1775 in chips) 
+Seat 5: scorza23 (1416 in chips) 
+Seat 6: Reef Surf208 (866 in chips) 
+Seat 8: dcmfc86 (1829 in chips) 
+HeavyBach: posts the ante 6
+vl3_2k7: posts the ante 6
+Papini2907: posts the ante 6
+vander_borge: posts the ante 6
+scorza23: posts the ante 6
+Reef Surf208: posts the ante 6
+dcmfc86: posts the ante 6
+Papini2907: posts small blind 25
+vander_borge: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 2h]
+scorza23: folds 
+Reef Surf208: raises 50 to 100
+dcmfc86: calls 100
+HeavyBach: folds 
+vl3_2k7: calls 100
+Papini2907: raises 200 to 300
+vander_borge: folds 
+Reef Surf208: folds 
+dcmfc86: calls 200
+vl3_2k7: folds 
+*** FLOP *** [Jc Ks 5h]
+Papini2907: bets 350
+dcmfc86: folds 
+Uncalled bet (350) returned to Papini2907
+Papini2907 collected 892 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 892 | Rake 0 
+Board [Jc Ks 5h]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 (button) folded before Flop
+Seat 3: Papini2907 (small blind) collected (892)
+Seat 4: vander_borge (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Reef Surf208 folded before Flop
+Seat 8: dcmfc86 folded on the Flop
+
+
+
+PokerStars Hand #260346425859: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:04:26 UTC [2026/04/04 17:04:26 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 1: HeavyBach (982 in chips) 
+Seat 2: vl3_2k7 (4857 in chips) 
+Seat 3: Papini2907 (2249 in chips) 
+Seat 4: vander_borge (1719 in chips) 
+Seat 5: scorza23 (1410 in chips) 
+Seat 6: Reef Surf208 (760 in chips) 
+Seat 8: dcmfc86 (1523 in chips) 
+HeavyBach: posts the ante 6
+vl3_2k7: posts the ante 6
+Papini2907: posts the ante 6
+vander_borge: posts the ante 6
+scorza23: posts the ante 6
+Reef Surf208: posts the ante 6
+dcmfc86: posts the ante 6
+vander_borge: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 9s]
+Reef Surf208: raises 50 to 100
+dcmfc86: raises 317 to 417
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: folds 
+scorza23: folds 
+Reef Surf208: raises 337 to 754 and is all-in
+dcmfc86: calls 337
+*** FLOP *** [3h Th 6h]
+*** TURN *** [3h Th 6h] [8d]
+*** RIVER *** [3h Th 6h 8d] [Ah]
+*** SHOW DOWN ***
+Reef Surf208: shows [Kc Qs] (high card Ace)
+dcmfc86: shows [2s 2d] (a pair of Deuces)
+dcmfc86 collected 1625 from pot
+Reef Surf208 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1625 | Rake 0 
+Board [3h Th 6h 8d Ah]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: Reef Surf208 showed [Kc Qs] and lost with high card Ace
+Seat 8: dcmfc86 showed [2s 2d] and won (1625) with a pair of Deuces
+
+
+
+PokerStars Hand #260346437748: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:05:17 UTC [2026/04/04 17:05:17 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 1: HeavyBach (976 in chips) 
+Seat 2: vl3_2k7 (4851 in chips) 
+Seat 3: Papini2907 (2243 in chips) 
+Seat 4: vander_borge (1688 in chips) 
+Seat 5: scorza23 (1354 in chips) 
+Seat 8: dcmfc86 (2388 in chips) 
+HeavyBach: posts the ante 6
+vl3_2k7: posts the ante 6
+Papini2907: posts the ante 6
+vander_borge: posts the ante 6
+scorza23: posts the ante 6
+dcmfc86: posts the ante 6
+scorza23: posts small blind 25
+dcmfc86: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 4d]
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: folds 
+scorza23: raises 100 to 150
+dcmfc86: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 136 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 136 | Rake 0 
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (136)
+Seat 8: dcmfc86 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346444347: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:05:45 UTC [2026/04/04 17:05:45 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 1: HeavyBach (970 in chips) 
+Seat 2: vl3_2k7 (4845 in chips) 
+Seat 3: Papini2907 (2237 in chips) 
+Seat 4: vander_borge (1682 in chips) 
+Seat 5: scorza23 (1434 in chips) 
+Seat 8: dcmfc86 (2332 in chips) 
+HeavyBach: posts the ante 6
+vl3_2k7: posts the ante 6
+Papini2907: posts the ante 6
+vander_borge: posts the ante 6
+scorza23: posts the ante 6
+dcmfc86: posts the ante 6
+dcmfc86: posts small blind 25
+HeavyBach: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Tc]
+vl3_2k7: folds 
+Papini2907: raises 50 to 100
+vander_borge: folds 
+scorza23: folds 
+dcmfc86: calls 75
+HeavyBach: folds 
+*** FLOP *** [3c As Ad]
+dcmfc86: checks 
+Papini2907: checks 
+*** TURN *** [3c As Ad] [3h]
+dcmfc86: checks 
+Papini2907: checks 
+*** RIVER *** [3c As Ad 3h] [Jh]
+dcmfc86: bets 50
+Papini2907: calls 50
+*** SHOW DOWN ***
+dcmfc86: shows [6c 7d] (two pair, Aces and Threes)
+Papini2907: shows [Ks Td] (two pair, Aces and Threes - King kicker)
+Papini2907 collected 386 from pot
+*** SUMMARY ***
+Total pot 386 | Rake 0 
+Board [3c As Ad 3h Jh]
+Seat 1: HeavyBach (big blind) folded before Flop
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 showed [Ks Td] and won (386) with two pair, Aces and Threes
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: dcmfc86 (small blind) showed [6c 7d] and lost with two pair, Aces and Threes
+
+
+
+PokerStars Hand #260346456198: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:06:36 UTC [2026/04/04 17:06:36 ET]
+Table '3989304794 1' 9-max Seat #8 is the button
+Seat 1: HeavyBach (914 in chips) 
+Seat 2: vl3_2k7 (4839 in chips) 
+Seat 3: Papini2907 (2467 in chips) 
+Seat 4: vander_borge (1676 in chips) 
+Seat 5: scorza23 (1428 in chips) 
+Seat 8: dcmfc86 (2176 in chips) 
+HeavyBach: posts the ante 6
+vl3_2k7: posts the ante 6
+Papini2907: posts the ante 6
+vander_borge: posts the ante 6
+scorza23: posts the ante 6
+dcmfc86: posts the ante 6
+HeavyBach: posts small blind 25
+vl3_2k7: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Ks]
+Papini2907: folds 
+vander_borge: raises 100 to 150
+scorza23: raises 150 to 300
+dcmfc86: calls 300
+HeavyBach: folds 
+vl3_2k7: folds 
+vander_borge: calls 150
+*** FLOP *** [4c 7s Td]
+vander_borge: checks 
+scorza23: bets 450
+dcmfc86: raises 450 to 900
+vander_borge: folds 
+scorza23: raises 222 to 1122 and is all-in
+dcmfc86: calls 222
+*** TURN *** [4c 7s Td] [3s]
+*** RIVER *** [4c 7s Td 3s] [5d]
+*** SHOW DOWN ***
+scorza23: shows [Kc Ks] (a pair of Kings)
+dcmfc86: shows [Tc Kh] (a pair of Tens)
+scorza23 collected 3255 from pot
+*** SUMMARY ***
+Total pot 3255 | Rake 0 
+Board [4c 7s Td 3s 5d]
+Seat 1: HeavyBach (small blind) folded before Flop
+Seat 2: vl3_2k7 (big blind) folded before Flop
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge folded on the Flop
+Seat 5: scorza23 showed [Kc Ks] and won (3255) with a pair of Kings
+Seat 8: dcmfc86 (button) showed [Tc Kh] and lost with a pair of Tens
+
+
+
+PokerStars Hand #260346468112: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:07:26 UTC [2026/04/04 17:07:26 ET]
+Table '3989304794 1' 9-max Seat #1 is the button
+Seat 1: HeavyBach (883 in chips) 
+Seat 2: vl3_2k7 (4783 in chips) 
+Seat 3: Papini2907 (2461 in chips) 
+Seat 4: vander_borge (1370 in chips) 
+Seat 5: scorza23 (3255 in chips) 
+Seat 8: dcmfc86 (748 in chips) 
+HeavyBach: posts the ante 6
+vl3_2k7: posts the ante 6
+Papini2907: posts the ante 6
+vander_borge: posts the ante 6
+scorza23: posts the ante 6
+dcmfc86: posts the ante 6
+vl3_2k7: posts small blind 25
+Papini2907: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Js]
+vander_borge: folds 
+scorza23: raises 50 to 100
+dcmfc86: calls 100
+HeavyBach: calls 100
+vl3_2k7: folds 
+Papini2907: folds 
+*** FLOP *** [As Kd 2s]
+scorza23: checks 
+dcmfc86: checks 
+HeavyBach: bets 206
+scorza23: folds 
+dcmfc86: folds 
+Uncalled bet (206) returned to HeavyBach
+HeavyBach collected 411 from pot
+HeavyBach: doesn't show hand 
+*** SUMMARY ***
+Total pot 411 | Rake 0 
+Board [As Kd 2s]
+Seat 1: HeavyBach (button) collected (411)
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 folded on the Flop
+Seat 8: dcmfc86 folded on the Flop
+
+
+
+PokerStars Hand #260346484946: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:08:38 UTC [2026/04/04 17:08:38 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 1: HeavyBach (1188 in chips) 
+Seat 2: vl3_2k7 (4752 in chips) 
+Seat 3: Papini2907 (2405 in chips) 
+Seat 4: vander_borge (1364 in chips) 
+Seat 5: scorza23 (3149 in chips) 
+Seat 8: dcmfc86 (642 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+dcmfc86: posts the ante 10
+Papini2907: posts small blind 40
+vander_borge: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9h]
+scorza23: folds 
+dcmfc86: folds 
+HeavyBach: folds 
+vl3_2k7: raises 80 to 160
+Papini2907: folds 
+vander_borge: raises 320 to 480
+vl3_2k7: calls 320
+*** FLOP *** [Ah Ks 9d]
+vander_borge: bets 320
+vl3_2k7: folds 
+Uncalled bet (320) returned to vander_borge
+vander_borge collected 1060 from pot
+*** SUMMARY ***
+Total pot 1060 | Rake 0 
+Board [Ah Ks 9d]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 (button) folded on the Flop
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 4: vander_borge (big blind) collected (1060)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: dcmfc86 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346492359: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:09:10 UTC [2026/04/04 17:09:10 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 1: HeavyBach (1178 in chips) 
+Seat 2: vl3_2k7 (4262 in chips) 
+Seat 3: Papini2907 (2355 in chips) 
+Seat 4: vander_borge (1934 in chips) 
+Seat 5: scorza23 (3139 in chips) 
+Seat 8: dcmfc86 (632 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+dcmfc86: posts the ante 10
+vander_borge: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Jd]
+dcmfc86: folds 
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: calls 40
+scorza23: raises 160 to 240
+vander_borge: calls 160
+*** FLOP *** [3c Ac 4s]
+vander_borge: checks 
+scorza23: checks 
+*** TURN *** [3c Ac 4s] [4c]
+vander_borge: bets 80
+scorza23: calls 80
+*** RIVER *** [3c Ac 4s 4c] [7c]
+vander_borge: bets 240
+scorza23: folds 
+Uncalled bet (240) returned to vander_borge
+vander_borge collected 700 from pot
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Board [3c Ac 4s 4c 7c]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) collected (700)
+Seat 5: scorza23 (big blind) folded on the River
+Seat 8: dcmfc86 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346502952: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:09:55 UTC [2026/04/04 17:09:55 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 1: HeavyBach (1168 in chips) 
+Seat 2: vl3_2k7 (4252 in chips) 
+Seat 3: Papini2907 (2345 in chips) 
+Seat 4: vander_borge (2304 in chips) 
+Seat 5: scorza23 (2809 in chips) 
+Seat 8: dcmfc86 (622 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+dcmfc86: posts the ante 10
+scorza23: posts small blind 40
+dcmfc86: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Qd]
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: raises 80 to 160
+scorza23: raises 160 to 320
+dcmfc86: calls 240
+vander_borge: calls 160
+*** FLOP *** [8s 3d 8h]
+scorza23: bets 510
+dcmfc86: calls 292 and is all-in
+vander_borge: folds 
+Uncalled bet (218) returned to scorza23
+*** TURN *** [8s 3d 8h] [Qc]
+*** RIVER *** [8s 3d 8h Qc] [Ad]
+*** SHOW DOWN ***
+scorza23: shows [Qh Qd] (a full house, Queens full of Eights)
+dcmfc86: shows [8d Qs] (a full house, Eights full of Queens)
+scorza23 collected 1604 from pot
+dcmfc86 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1604 | Rake 0 
+Board [8s 3d 8h Qc Ad]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) folded on the Flop
+Seat 5: scorza23 (small blind) showed [Qh Qd] and won (1604) with a full house, Queens full of Eights
+Seat 8: dcmfc86 (big blind) showed [8d Qs] and lost with a full house, Eights full of Queens
+
+
+
+PokerStars Hand #260346512262: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:10:35 UTC [2026/04/04 17:10:35 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 1: HeavyBach (1158 in chips) 
+Seat 2: vl3_2k7 (4242 in chips) 
+Seat 3: Papini2907 (2335 in chips) 
+Seat 4: vander_borge (1974 in chips) 
+Seat 5: scorza23 (3791 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+HeavyBach: posts small blind 40
+vl3_2k7: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 6s]
+Papini2907: folds 
+vander_borge: folds 
+scorza23: folds 
+HeavyBach: raises 120 to 200
+vl3_2k7: raises 4032 to 4232 and is all-in
+HeavyBach: folds 
+Uncalled bet (4032) returned to vl3_2k7
+vl3_2k7 collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 1: HeavyBach (small blind) folded before Flop
+Seat 2: vl3_2k7 (big blind) collected (450)
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346517091: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:10:55 UTC [2026/04/04 17:10:55 ET]
+Table '3989304794 1' 9-max Seat #1 is the button
+Seat 1: HeavyBach (948 in chips) 
+Seat 2: vl3_2k7 (4482 in chips) 
+Seat 3: Papini2907 (2325 in chips) 
+Seat 4: vander_borge (1964 in chips) 
+Seat 5: scorza23 (3781 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+vl3_2k7: posts small blind 40
+Papini2907: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Ts]
+vander_borge: folds 
+scorza23: folds 
+HeavyBach: folds 
+vl3_2k7: folds 
+Uncalled bet (40) returned to Papini2907
+Papini2907 collected 130 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Seat 1: HeavyBach (button) folded before Flop (didn't bet)
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) collected (130)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346519860: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:11:07 UTC [2026/04/04 17:11:07 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 1: HeavyBach (938 in chips) 
+Seat 2: vl3_2k7 (4432 in chips) 
+Seat 3: Papini2907 (2405 in chips) 
+Seat 4: vander_borge (1954 in chips) 
+Seat 5: scorza23 (3771 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+Papini2907: posts small blind 40
+vander_borge: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2h]
+scorza23: folds 
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: calls 40
+vander_borge: checks 
+*** FLOP *** [9s 5c 2s]
+Papini2907: checks 
+vander_borge: checks 
+*** TURN *** [9s 5c 2s] [Ac]
+Papini2907: checks 
+vander_borge: bets 80
+Papini2907: calls 80
+*** RIVER *** [9s 5c 2s Ac] [Kh]
+Papini2907: checks 
+vander_borge: bets 370
+Papini2907: folds 
+Uncalled bet (370) returned to vander_borge
+vander_borge collected 370 from pot
+*** SUMMARY ***
+Total pot 370 | Rake 0 
+Board [9s 5c 2s Ac Kh]
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded on the River
+Seat 4: vander_borge (big blind) collected (370)
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346527826: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:11:41 UTC [2026/04/04 17:11:41 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 1: HeavyBach (928 in chips) 
+Seat 2: vl3_2k7 (4422 in chips) 
+Seat 3: Papini2907 (2235 in chips) 
+Seat 4: vander_borge (2154 in chips) 
+Seat 5: scorza23 (3761 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+vander_borge: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 4h]
+HeavyBach: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 130 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Seat 1: HeavyBach folded before Flop (didn't bet)
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (130)
+
+
+
+PokerStars Hand #260346530646: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:11:53 UTC [2026/04/04 17:11:53 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 1: HeavyBach (918 in chips) 
+Seat 2: vl3_2k7 (4412 in chips) 
+Seat 3: Papini2907 (2225 in chips) 
+Seat 4: vander_borge (2104 in chips) 
+Seat 5: scorza23 (3841 in chips) 
+HeavyBach: posts the ante 10
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 40
+HeavyBach: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4s]
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: raises 80 to 160
+scorza23: folds 
+HeavyBach: calls 80
+*** FLOP *** [7h 7s Th]
+HeavyBach: checks 
+vander_borge: bets 410
+HeavyBach: raises 338 to 748 and is all-in
+vander_borge: calls 338
+*** TURN *** [7h 7s Th] [5c]
+*** RIVER *** [7h 7s Th 5c] [9s]
+*** SHOW DOWN ***
+HeavyBach: shows [Qh 6h] (a pair of Sevens)
+vander_borge: shows [Td Kc] (two pair, Tens and Sevens)
+vander_borge collected 1906 from pot
+HeavyBach finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1906 | Rake 0 
+Board [7h 7s Th 5c 9s]
+Seat 1: HeavyBach (big blind) showed [Qh 6h] and lost with a pair of Sevens
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) showed [Td Kc] and won (1906) with two pair, Tens and Sevens
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346538662: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:12:27 UTC [2026/04/04 17:12:27 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (4402 in chips) 
+Seat 3: Papini2907 (2215 in chips) 
+Seat 4: vander_borge (3092 in chips) 
+Seat 5: scorza23 (3791 in chips) 
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+vl3_2k7: posts small blind 40
+Papini2907: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 9s]
+vander_borge: folds 
+scorza23: folds 
+vl3_2k7: folds 
+Uncalled bet (40) returned to Papini2907
+Papini2907 collected 120 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) collected (120)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346540619: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:12:35 UTC [2026/04/04 17:12:35 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (4352 in chips) 
+Seat 3: Papini2907 (2285 in chips) 
+Seat 4: vander_borge (3082 in chips) 
+Seat 5: scorza23 (3781 in chips) 
+vl3_2k7: posts the ante 10
+Papini2907: posts the ante 10
+vander_borge: posts the ante 10
+scorza23: posts the ante 10
+Papini2907: posts small blind 40
+vander_borge: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Js]
+scorza23: raises 160 to 240
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 240 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 4: vander_borge (big blind) folded before Flop
+Seat 5: scorza23 collected (240)
+
+
+
+PokerStars Hand #260346543730: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:12:49 UTC [2026/04/04 17:12:49 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (4342 in chips) 
+Seat 3: Papini2907 (2235 in chips) 
+Seat 4: vander_borge (2992 in chips) 
+Seat 5: scorza23 (3931 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+vander_borge: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 8d]
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: calls 60
+scorza23: raises 240 to 360
+vander_borge: calls 240
+*** FLOP *** [4d Js Kc]
+vander_borge: checks 
+scorza23: checks 
+*** TURN *** [4d Js Kc] [Ac]
+vander_borge: bets 390
+scorza23: calls 390
+*** RIVER *** [4d Js Kc Ac] [3d]
+vander_borge: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+vander_borge: shows [Qc 7c] (high card Ace)
+scorza23: shows [Ad 8d] (a pair of Aces)
+scorza23 collected 1560 from pot
+*** SUMMARY ***
+Total pot 1560 | Rake 0 
+Board [4d Js Kc Ac 3d]
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) showed [Qc 7c] and lost with high card Ace
+Seat 5: scorza23 (big blind) showed [Ad 8d] and won (1560) with a pair of Aces
+
+
+
+PokerStars Hand #260346550643: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:13:18 UTC [2026/04/04 17:13:18 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 2: vl3_2k7 (4327 in chips) 
+Seat 3: Papini2907 (2220 in chips) 
+Seat 4: vander_borge (2227 in chips) 
+Seat 5: scorza23 (4726 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+scorza23: posts small blind 60
+vl3_2k7: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 8h]
+Papini2907: raises 2085 to 2205 and is all-in
+vander_borge: folds 
+scorza23: folds 
+vl3_2k7: folds 
+Uncalled bet (2085) returned to Papini2907
+Papini2907 collected 360 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 2: vl3_2k7 (big blind) folded before Flop
+Seat 3: Papini2907 collected (360)
+Seat 4: vander_borge (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346555301: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:13:37 UTC [2026/04/04 17:13:37 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (4192 in chips) 
+Seat 3: Papini2907 (2445 in chips) 
+Seat 4: vander_borge (2212 in chips) 
+Seat 5: scorza23 (4651 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+vl3_2k7: posts small blind 60
+Papini2907: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Js]
+vander_borge: folds 
+scorza23: raises 240 to 360
+vl3_2k7: folds 
+Papini2907: calls 240
+*** FLOP *** [4h 6c Qc]
+Papini2907: checks 
+scorza23: checks 
+*** TURN *** [4h 6c Qc] [6d]
+Papini2907: checks 
+scorza23: checks 
+*** RIVER *** [4h 6c Qc 6d] [Td]
+Papini2907: checks 
+scorza23: bets 240
+Papini2907: folds 
+Uncalled bet (240) returned to scorza23
+scorza23 collected 840 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 840 | Rake 0 
+Board [4h 6c Qc 6d Td]
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) folded on the River
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (840)
+
+
+
+PokerStars Hand #260346569856: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:14:39 UTC [2026/04/04 17:14:39 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (4117 in chips) 
+Seat 3: Papini2907 (2070 in chips) 
+Seat 4: vander_borge (2197 in chips) 
+Seat 5: scorza23 (5116 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+Papini2907: posts small blind 60
+vander_borge: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 4c]
+scorza23: folds 
+vl3_2k7: raises 3982 to 4102 and is all-in
+Papini2907: folds 
+vander_borge: folds 
+Uncalled bet (3982) returned to vl3_2k7
+vl3_2k7 collected 360 from pot
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 2: vl3_2k7 (button) collected (360)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 4: vander_borge (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346573267: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:14:54 UTC [2026/04/04 17:14:54 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (4342 in chips) 
+Seat 3: Papini2907 (1995 in chips) 
+Seat 4: vander_borge (2062 in chips) 
+Seat 5: scorza23 (5101 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+vander_borge: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 7h]
+vl3_2k7: raises 120 to 240
+Papini2907: folds 
+vander_borge: raises 1807 to 2047 and is all-in
+scorza23: folds 
+vl3_2k7: folds 
+Uncalled bet (1807) returned to vander_borge
+vander_borge collected 660 from pot
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Seat 2: vl3_2k7 folded before Flop
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) collected (660)
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346578212: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:15:14 UTC [2026/04/04 17:15:14 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 2: vl3_2k7 (4087 in chips) 
+Seat 3: Papini2907 (1980 in chips) 
+Seat 4: vander_borge (2467 in chips) 
+Seat 5: scorza23 (4966 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+scorza23: posts small blind 60
+vl3_2k7: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 6d]
+Papini2907: folds 
+vander_borge: folds 
+scorza23: calls 60
+vl3_2k7: checks 
+*** FLOP *** [9h Td As]
+scorza23: checks 
+vl3_2k7: checks 
+*** TURN *** [9h Td As] [Jc]
+scorza23: bets 360
+vl3_2k7: folds 
+Uncalled bet (360) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [9h Td As Jc]
+Seat 2: vl3_2k7 (big blind) folded on the Turn
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (300)
+
+
+
+PokerStars Hand #260346587529: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:15:54 UTC [2026/04/04 17:15:54 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (3952 in chips) 
+Seat 3: Papini2907 (1965 in chips) 
+Seat 4: vander_borge (2452 in chips) 
+Seat 5: scorza23 (5131 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+vl3_2k7: posts small blind 60
+Papini2907: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 5h]
+vander_borge: raises 120 to 240
+scorza23: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+Uncalled bet (120) returned to vander_borge
+vander_borge collected 360 from pot
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 4: vander_borge collected (360)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346591313: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:16:09 UTC [2026/04/04 17:16:09 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (3877 in chips) 
+Seat 3: Papini2907 (1830 in chips) 
+Seat 4: vander_borge (2677 in chips) 
+Seat 5: scorza23 (5116 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+Papini2907: posts small blind 60
+vander_borge: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 9c]
+scorza23: folds 
+vl3_2k7: folds 
+Papini2907: raises 240 to 360
+vander_borge: folds 
+Uncalled bet (240) returned to Papini2907
+Papini2907 collected 300 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) collected (300)
+Seat 4: vander_borge (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346597505: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:16:36 UTC [2026/04/04 17:16:36 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (3862 in chips) 
+Seat 3: Papini2907 (1995 in chips) 
+Seat 4: vander_borge (2542 in chips) 
+Seat 5: scorza23 (5101 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+vander_borge: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 4c]
+vl3_2k7: folds 
+Papini2907: raises 360 to 480
+vander_borge: folds 
+scorza23: folds 
+Uncalled bet (360) returned to Papini2907
+Papini2907 collected 360 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 (button) collected (360)
+Seat 4: vander_borge (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346600782: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:16:50 UTC [2026/04/04 17:16:50 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 2: vl3_2k7 (3847 in chips) 
+Seat 3: Papini2907 (2220 in chips) 
+Seat 4: vander_borge (2467 in chips) 
+Seat 5: scorza23 (4966 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+scorza23: posts small blind 60
+vl3_2k7: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 3h]
+Papini2907: folds 
+vander_borge: raises 120 to 240
+scorza23: folds 
+vl3_2k7: raises 3592 to 3832 and is all-in
+vander_borge: folds 
+Uncalled bet (3592) returned to vl3_2k7
+vl3_2k7 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 2: vl3_2k7 (big blind) collected (600)
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) folded before Flop
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346605543: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:17:10 UTC [2026/04/04 17:17:10 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (4192 in chips) 
+Seat 3: Papini2907 (2205 in chips) 
+Seat 4: vander_borge (2212 in chips) 
+Seat 5: scorza23 (4891 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+vl3_2k7: posts small blind 60
+Papini2907: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 8s]
+vander_borge: folds 
+scorza23: folds 
+vl3_2k7: folds 
+Uncalled bet (60) returned to Papini2907
+Papini2907 collected 180 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) collected (180)
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346608605: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:17:23 UTC [2026/04/04 17:17:23 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (4117 in chips) 
+Seat 3: Papini2907 (2310 in chips) 
+Seat 4: vander_borge (2197 in chips) 
+Seat 5: scorza23 (4876 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+Papini2907: posts small blind 60
+vander_borge: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5d]
+scorza23: folds 
+vl3_2k7: folds 
+Papini2907: folds 
+Uncalled bet (60) returned to vander_borge
+vander_borge collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 4: vander_borge (big blind) collected (180)
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346612013: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:17:37 UTC [2026/04/04 17:17:37 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (4102 in chips) 
+Seat 3: Papini2907 (2235 in chips) 
+Seat 4: vander_borge (2302 in chips) 
+Seat 5: scorza23 (4861 in chips) 
+vl3_2k7: posts the ante 15
+Papini2907: posts the ante 15
+vander_borge: posts the ante 15
+scorza23: posts the ante 15
+vander_borge: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4c]
+vl3_2k7: raises 120 to 240
+Papini2907: raises 120 to 360
+vander_borge: folds 
+scorza23: folds 
+vl3_2k7: calls 120
+*** FLOP *** [Js 8c 4h]
+vl3_2k7: checks 
+Papini2907: bets 960
+vl3_2k7: folds 
+Uncalled bet (960) returned to Papini2907
+Papini2907 collected 960 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Board [Js 8c 4h]
+Seat 2: vl3_2k7 folded on the Flop
+Seat 3: Papini2907 (button) collected (960)
+Seat 4: vander_borge (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346622650: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:18:23 UTC [2026/04/04 17:18:23 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 2: vl3_2k7 (3727 in chips) 
+Seat 3: Papini2907 (2820 in chips) 
+Seat 4: vander_borge (2227 in chips) 
+Seat 5: scorza23 (4726 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+vl3_2k7: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ad]
+Papini2907: folds 
+vander_borge: raises 2047 to 2207 and is all-in
+scorza23: folds 
+vl3_2k7: folds 
+Uncalled bet (2047) returned to vander_borge
+vander_borge collected 480 from pot
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 2: vl3_2k7 (big blind) folded before Flop
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) collected (480)
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346626798: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:18:40 UTC [2026/04/04 17:18:40 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (3547 in chips) 
+Seat 3: Papini2907 (2800 in chips) 
+Seat 4: vander_borge (2527 in chips) 
+Seat 5: scorza23 (4626 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+vl3_2k7: posts small blind 80
+Papini2907: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 8h]
+vander_borge: folds 
+scorza23: raises 160 to 320
+vl3_2k7: folds 
+Papini2907: calls 160
+*** FLOP *** [8d Ks 7d]
+Papini2907: checks 
+scorza23: bets 480
+Papini2907: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Board [8d Ks 7d]
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) folded on the Flop
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (800)
+
+
+
+PokerStars Hand #260346635725: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:19:19 UTC [2026/04/04 17:19:19 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (3447 in chips) 
+Seat 3: Papini2907 (2460 in chips) 
+Seat 4: vander_borge (2507 in chips) 
+Seat 5: scorza23 (5086 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+Papini2907: posts small blind 80
+vander_borge: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Qh]
+scorza23: folds 
+vl3_2k7: folds 
+Papini2907: calls 80
+vander_borge: raises 480 to 640
+Papini2907: folds 
+Uncalled bet (480) returned to vander_borge
+vander_borge collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 4: vander_borge (big blind) collected (400)
+Seat 5: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346643719: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:19:52 UTC [2026/04/04 17:19:52 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (3427 in chips) 
+Seat 3: Papini2907 (2280 in chips) 
+Seat 4: vander_borge (2727 in chips) 
+Seat 5: scorza23 (5066 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+vander_borge: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 9c]
+vl3_2k7: raises 3247 to 3407 and is all-in
+Papini2907: folds 
+vander_borge: folds 
+scorza23: folds 
+Uncalled bet (3247) returned to vl3_2k7
+vl3_2k7 collected 480 from pot
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 2: vl3_2k7 collected (480)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346647020: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:20:06 UTC [2026/04/04 17:20:06 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 2: vl3_2k7 (3727 in chips) 
+Seat 3: Papini2907 (2260 in chips) 
+Seat 4: vander_borge (2627 in chips) 
+Seat 5: scorza23 (4886 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+vl3_2k7: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 2h]
+Papini2907: folds 
+vander_borge: raises 160 to 320
+scorza23: folds 
+vl3_2k7: raises 3387 to 3707 and is all-in
+vander_borge: folds 
+Uncalled bet (3387) returned to vl3_2k7
+vl3_2k7 collected 800 from pot
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Seat 2: vl3_2k7 (big blind) collected (800)
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) folded before Flop
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346651388: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:20:25 UTC [2026/04/04 17:20:25 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (4187 in chips) 
+Seat 3: Papini2907 (2240 in chips) 
+Seat 4: vander_borge (2287 in chips) 
+Seat 5: scorza23 (4786 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+vl3_2k7: posts small blind 80
+Papini2907: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 8c]
+vander_borge: folds 
+scorza23: folds 
+vl3_2k7: raises 4007 to 4167 and is all-in
+Papini2907: folds 
+Uncalled bet (4007) returned to vl3_2k7
+vl3_2k7 collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: vl3_2k7 (small blind) collected (400)
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 4: vander_borge folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346655104: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:20:41 UTC [2026/04/04 17:20:41 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (4407 in chips) 
+Seat 3: Papini2907 (2060 in chips) 
+Seat 4: vander_borge (2267 in chips) 
+Seat 5: scorza23 (4766 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+Papini2907: posts small blind 80
+vander_borge: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Js]
+scorza23: raises 160 to 320
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 480 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 4: vander_borge (big blind) folded before Flop
+Seat 5: scorza23 collected (480)
+
+
+
+PokerStars Hand #260346658731: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:20:56 UTC [2026/04/04 17:20:56 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (4387 in chips) 
+Seat 3: Papini2907 (1960 in chips) 
+Seat 4: vander_borge (2087 in chips) 
+Seat 5: scorza23 (5066 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+vander_borge: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3c]
+vl3_2k7: folds 
+Papini2907: folds 
+vander_borge: raises 320 to 480
+scorza23: folds 
+Uncalled bet (320) returned to vander_borge
+vander_borge collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: vl3_2k7 folded before Flop (didn't bet)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 4: vander_borge (small blind) collected (400)
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346662266: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:21:12 UTC [2026/04/04 17:21:12 ET]
+Table '3989304794 1' 9-max Seat #4 is the button
+Seat 2: vl3_2k7 (4367 in chips) 
+Seat 3: Papini2907 (1940 in chips) 
+Seat 4: vander_borge (2307 in chips) 
+Seat 5: scorza23 (4886 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+vander_borge: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+vl3_2k7: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 3c]
+Papini2907: folds 
+vander_borge: raises 160 to 320
+scorza23: folds 
+vl3_2k7: calls 160
+*** FLOP *** [5d Td Tc]
+vl3_2k7: bets 4027 and is all-in
+vander_borge: calls 1967 and is all-in
+Uncalled bet (2060) returned to vl3_2k7
+*** TURN *** [5d Td Tc] [Qs]
+*** RIVER *** [5d Td Tc Qs] [5c]
+*** SHOW DOWN ***
+vl3_2k7: shows [9s 5s] (a full house, Fives full of Tens)
+vander_borge: shows [Ks As] (two pair, Tens and Fives)
+vl3_2k7 collected 4734 from pot
+vander_borge finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 4734 | Rake 0 
+Board [5d Td Tc Qs 5c]
+Seat 2: vl3_2k7 (big blind) showed [9s 5s] and won (4734) with a full house, Fives full of Tens
+Seat 3: Papini2907 folded before Flop (didn't bet)
+Seat 4: vander_borge (button) showed [Ks As] and lost with two pair, Tens and Fives
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346667792: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:21:35 UTC [2026/04/04 17:21:35 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (6794 in chips) 
+Seat 3: Papini2907 (1920 in chips) 
+Seat 5: scorza23 (4786 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+scorza23: posts the ante 20
+vl3_2k7: posts small blind 80
+Papini2907: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6h As]
+scorza23: folds 
+vl3_2k7: raises 160 to 320
+Papini2907: folds 
+Uncalled bet (160) returned to vl3_2k7
+vl3_2k7 collected 380 from pot
+*** SUMMARY ***
+Total pot 380 | Rake 0 
+Seat 2: vl3_2k7 (small blind) collected (380)
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346671025: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:21:49 UTC [2026/04/04 17:21:49 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (6994 in chips) 
+Seat 3: Papini2907 (1740 in chips) 
+Seat 5: scorza23 (4766 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+scorza23: posts the ante 20
+Papini2907: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Kd]
+vl3_2k7: raises 160 to 320
+Papini2907: folds 
+scorza23: calls 160
+*** FLOP *** [Td 2h Ts]
+scorza23: bets 480
+vl3_2k7: raises 2560 to 3040
+scorza23: folds 
+Uncalled bet (2560) returned to vl3_2k7
+vl3_2k7 collected 1740 from pot
+*** SUMMARY ***
+Total pot 1740 | Rake 0 
+Board [Td 2h Ts]
+Seat 2: vl3_2k7 (button) collected (1740)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260346676326: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:22:11 UTC [2026/04/04 17:22:11 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (7914 in chips) 
+Seat 3: Papini2907 (1640 in chips) 
+Seat 5: scorza23 (3946 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+vl3_2k7: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Jc]
+Papini2907: folds 
+scorza23: raises 480 to 640
+vl3_2k7: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 380 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 380 | Rake 0 
+Seat 2: vl3_2k7 (big blind) folded before Flop
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (380)
+
+
+
+PokerStars Hand #260346679541: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:22:25 UTC [2026/04/04 17:22:25 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (7734 in chips) 
+Seat 3: Papini2907 (1620 in chips) 
+Seat 5: scorza23 (4146 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+scorza23: posts the ante 20
+vl3_2k7: posts small blind 80
+Papini2907: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 6d]
+scorza23: folds 
+vl3_2k7: raises 4480 to 4640
+Papini2907: folds 
+Uncalled bet (4480) returned to vl3_2k7
+vl3_2k7 collected 380 from pot
+*** SUMMARY ***
+Total pot 380 | Rake 0 
+Seat 2: vl3_2k7 (small blind) collected (380)
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346682784: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:22:38 UTC [2026/04/04 17:22:38 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (7934 in chips) 
+Seat 3: Papini2907 (1440 in chips) 
+Seat 5: scorza23 (4126 in chips) 
+vl3_2k7: posts the ante 20
+Papini2907: posts the ante 20
+scorza23: posts the ante 20
+Papini2907: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 5d]
+vl3_2k7: raises 7754 to 7914 and is all-in
+Papini2907: calls 1340 and is all-in
+scorza23: folds 
+Uncalled bet (6494) returned to vl3_2k7
+*** FLOP *** [Kc Kd 7s]
+*** TURN *** [Kc Kd 7s] [Qc]
+*** RIVER *** [Kc Kd 7s Qc] [2h]
+*** SHOW DOWN ***
+Papini2907: shows [Ts Ad] (a pair of Kings)
+vl3_2k7: shows [Jd 4d] (a pair of Kings - lower kicker)
+Papini2907 collected 3060 from pot
+*** SUMMARY ***
+Total pot 3060 | Rake 0 
+Board [Kc Kd 7s Qc 2h]
+Seat 2: vl3_2k7 (button) showed [Jd 4d] and lost with a pair of Kings
+Seat 3: Papini2907 (small blind) showed [Ts Ad] and won (3060) with a pair of Kings
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346687421: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:22:58 UTC [2026/04/04 17:22:58 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (6494 in chips) 
+Seat 3: Papini2907 (3060 in chips) 
+Seat 5: scorza23 (3946 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5s]
+Papini2907: folds 
+scorza23: folds 
+Uncalled bet (100) returned to vl3_2k7
+vl3_2k7 collected 275 from pot
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (big blind) collected (275)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346689586: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:23:07 UTC [2026/04/04 17:23:07 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (6644 in chips) 
+Seat 3: Papini2907 (3035 in chips) 
+Seat 5: scorza23 (3821 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+vl3_2k7: posts small blind 100
+Papini2907: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Kd]
+scorza23: raises 400 to 600
+vl3_2k7: folds 
+Papini2907: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 575 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 575 | Rake 0 
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 5: scorza23 (button) collected (575)
+
+
+
+PokerStars Hand #260346692230: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:23:18 UTC [2026/04/04 17:23:18 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (6519 in chips) 
+Seat 3: Papini2907 (2810 in chips) 
+Seat 5: scorza23 (4171 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+Papini2907: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5c]
+vl3_2k7: folds 
+Papini2907: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 275 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (275)
+
+
+
+PokerStars Hand #260346695667: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:23:33 UTC [2026/04/04 17:23:33 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (6494 in chips) 
+Seat 3: Papini2907 (2685 in chips) 
+Seat 5: scorza23 (4321 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 8h]
+Papini2907: folds 
+scorza23: raises 600 to 800
+vl3_2k7: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 2: vl3_2k7 (big blind) folded before Flop
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (475)
+
+
+
+PokerStars Hand #260346698288: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:23:44 UTC [2026/04/04 17:23:44 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (6269 in chips) 
+Seat 3: Papini2907 (2660 in chips) 
+Seat 5: scorza23 (4571 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+vl3_2k7: posts small blind 100
+Papini2907: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Jh]
+scorza23: folds 
+vl3_2k7: folds 
+Uncalled bet (100) returned to Papini2907
+Papini2907 collected 275 from pot
+Papini2907: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) collected (275)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346700378: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:23:53 UTC [2026/04/04 17:23:53 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (6144 in chips) 
+Seat 3: Papini2907 (2810 in chips) 
+Seat 5: scorza23 (4546 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+Papini2907: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 4h]
+vl3_2k7: raises 200 to 400
+Papini2907: folds 
+scorza23: folds 
+Uncalled bet (200) returned to vl3_2k7
+vl3_2k7 collected 575 from pot
+*** SUMMARY ***
+Total pot 575 | Rake 0 
+Seat 2: vl3_2k7 (button) collected (575)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346703185: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:24:05 UTC [2026/04/04 17:24:05 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (6494 in chips) 
+Seat 3: Papini2907 (2685 in chips) 
+Seat 5: scorza23 (4321 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 3d]
+Papini2907: folds 
+scorza23: folds 
+Uncalled bet (100) returned to vl3_2k7
+vl3_2k7 collected 275 from pot
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (big blind) collected (275)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346704980: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:24:12 UTC [2026/04/04 17:24:12 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (6644 in chips) 
+Seat 3: Papini2907 (2660 in chips) 
+Seat 5: scorza23 (4196 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+vl3_2k7: posts small blind 100
+Papini2907: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Td]
+scorza23: raises 400 to 600
+vl3_2k7: folds 
+Papini2907: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 575 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 575 | Rake 0 
+Seat 2: vl3_2k7 (small blind) folded before Flop
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 5: scorza23 (button) collected (575)
+
+
+
+PokerStars Hand #260346707334: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:24:22 UTC [2026/04/04 17:24:22 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (6519 in chips) 
+Seat 3: Papini2907 (2435 in chips) 
+Seat 5: scorza23 (4546 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+Papini2907: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 6h]
+vl3_2k7: folds 
+Papini2907: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 275 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (275)
+
+
+
+PokerStars Hand #260346711081: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:24:39 UTC [2026/04/04 17:24:39 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (6494 in chips) 
+Seat 3: Papini2907 (2310 in chips) 
+Seat 5: scorza23 (4696 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8h]
+Papini2907: folds 
+scorza23: folds 
+Uncalled bet (100) returned to vl3_2k7
+vl3_2k7 collected 275 from pot
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (big blind) collected (275)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346713042: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:24:47 UTC [2026/04/04 17:24:47 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (6644 in chips) 
+Seat 3: Papini2907 (2285 in chips) 
+Seat 5: scorza23 (4571 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+vl3_2k7: posts small blind 100
+Papini2907: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Ac]
+scorza23: folds 
+vl3_2k7: raises 6419 to 6619 and is all-in
+Papini2907: folds 
+Uncalled bet (6419) returned to vl3_2k7
+vl3_2k7 collected 475 from pot
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 2: vl3_2k7 (small blind) collected (475)
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346716288: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:25:01 UTC [2026/04/04 17:25:01 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (6894 in chips) 
+Seat 3: Papini2907 (2060 in chips) 
+Seat 5: scorza23 (4546 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+Papini2907: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5s]
+vl3_2k7: folds 
+Papini2907: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 275 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (button) folded before Flop (didn't bet)
+Seat 3: Papini2907 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (275)
+
+
+
+PokerStars Hand #260346718142: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:25:09 UTC [2026/04/04 17:25:09 ET]
+Table '3989304794 1' 9-max Seat #3 is the button
+Seat 2: vl3_2k7 (6869 in chips) 
+Seat 3: Papini2907 (1935 in chips) 
+Seat 5: scorza23 (4696 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8s]
+Papini2907: folds 
+scorza23: folds 
+Uncalled bet (100) returned to vl3_2k7
+vl3_2k7 collected 275 from pot
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 2: vl3_2k7 (big blind) collected (275)
+Seat 3: Papini2907 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346719951: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:25:17 UTC [2026/04/04 17:25:17 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (7019 in chips) 
+Seat 3: Papini2907 (1910 in chips) 
+Seat 5: scorza23 (4571 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+vl3_2k7: posts small blind 100
+Papini2907: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 3d]
+scorza23: raises 400 to 600
+vl3_2k7: raises 6394 to 6994 and is all-in
+Papini2907: folds 
+scorza23: folds 
+Uncalled bet (6394) returned to vl3_2k7
+vl3_2k7 collected 1475 from pot
+*** SUMMARY ***
+Total pot 1475 | Rake 0 
+Seat 2: vl3_2k7 (small blind) collected (1475)
+Seat 3: Papini2907 (big blind) folded before Flop
+Seat 5: scorza23 (button) folded before Flop
+
+
+
+PokerStars Hand #260346723526: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:25:32 UTC [2026/04/04 17:25:32 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (7869 in chips) 
+Seat 3: Papini2907 (1685 in chips) 
+Seat 5: scorza23 (3946 in chips) 
+vl3_2k7: posts the ante 25
+Papini2907: posts the ante 25
+scorza23: posts the ante 25
+Papini2907: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 6c]
+vl3_2k7: raises 7644 to 7844 and is all-in
+Papini2907: calls 1560 and is all-in
+scorza23: folds 
+Uncalled bet (6184) returned to vl3_2k7
+*** FLOP *** [7c 2s 4h]
+*** TURN *** [7c 2s 4h] [8h]
+*** RIVER *** [7c 2s 4h 8h] [3s]
+*** SHOW DOWN ***
+Papini2907: shows [Kh Ac] (high card Ace)
+vl3_2k7: shows [Tc Th] (a pair of Tens)
+vl3_2k7 collected 3595 from pot
+Papini2907 finished the tournament in 3rd place and received $1.53.
+*** SUMMARY ***
+Total pot 3595 | Rake 0 
+Board [7c 2s 4h 8h 3s]
+Seat 2: vl3_2k7 (button) showed [Tc Th] and won (3595) with a pair of Tens
+Seat 3: Papini2907 (small blind) showed [Kh Ac] and lost with high card Ace
+Seat 5: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346728384: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:25:53 UTC [2026/04/04 17:25:53 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (9779 in chips) 
+Seat 5: scorza23 (3721 in chips) 
+vl3_2k7: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 6c]
+scorza23: folds 
+Uncalled bet (100) returned to vl3_2k7
+vl3_2k7 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 2: vl3_2k7 (big blind) collected (250)
+Seat 5: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346729865: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:25:59 UTC [2026/04/04 17:25:59 ET]
+Table '3989304794 1' 9-max Seat #2 is the button
+Seat 2: vl3_2k7 (9904 in chips) 
+Seat 5: scorza23 (3596 in chips) 
+vl3_2k7: posts the ante 25
+scorza23: posts the ante 25
+vl3_2k7: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [As Ad]
+vl3_2k7: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 2: vl3_2k7 (button) (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (250)
+
+
+
+PokerStars Hand #260346732086: Tournament #3989304794, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:26:09 UTC [2026/04/04 17:26:09 ET]
+Table '3989304794 1' 9-max Seat #5 is the button
+Seat 2: vl3_2k7 (9779 in chips) 
+Seat 5: scorza23 (3721 in chips) 
+vl3_2k7: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 6s]
+scorza23: raises 600 to 800
+vl3_2k7: raises 8954 to 9754 and is all-in
+scorza23: calls 2896 and is all-in
+Uncalled bet (6058) returned to vl3_2k7
+*** FLOP *** [9s Ac 7h]
+*** TURN *** [9s Ac 7h] [5s]
+*** RIVER *** [9s Ac 7h 5s] [5c]
+*** SHOW DOWN ***
+vl3_2k7: shows [4c Ad] (two pair, Aces and Fives)
+scorza23: shows [6d 6s] (two pair, Sixes and Fives)
+vl3_2k7 collected 7442 from pot
+scorza23 finished the tournament in 2nd place and received $2.29.
+vl3_2k7 wins the tournament and receives $3.83 - congratulations!
+*** SUMMARY ***
+Total pot 7442 | Rake 0 
+Board [9s Ac 7h 5s 5c]
+Seat 2: vl3_2k7 (big blind) showed [4c Ad] and won (7442) with two pair, Aces and Fives
+Seat 5: scorza23 (button) (small blind) showed [6d 6s] and lost with two pair, Sixes and Fives
+
+
+

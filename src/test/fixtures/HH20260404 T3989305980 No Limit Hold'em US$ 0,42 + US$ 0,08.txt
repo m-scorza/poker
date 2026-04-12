@@ -1,0 +1,512 @@
+﻿PokerStars Hand #260346307424: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:53:45 UTC [2026/04/04 16:53:45 ET]
+Table '3989305980 1' 9-max Seat #1 is the button
+Seat 1: robbie197999 (1500 in chips) 
+Seat 2: CharlieBoruc (1500 in chips) 
+Seat 3: arfurear (1500 in chips) 
+Seat 4: Odjelevi (1500 in chips) 
+Seat 5: Edu_Durr (1500 in chips) 
+Seat 6: Kyle_77011 (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: coingambl301 (1500 in chips) 
+Seat 9: H3llbell (1500 in chips) 
+CharlieBoruc: posts small blind 10
+arfurear: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6h]
+Odjelevi: folds 
+arfurear is disconnected 
+Edu_Durr: folds 
+Kyle_77011: folds 
+scorza23: folds 
+coingambl301: folds 
+H3llbell: folds 
+robbie197999: calls 20
+CharlieBoruc: calls 10
+arfurear: checks 
+*** FLOP *** [7c 2h Jh]
+CharlieBoruc: checks 
+arfurear: checks 
+robbie197999: checks 
+*** TURN *** [7c 2h Jh] [As]
+CharlieBoruc: bets 40
+arfurear: folds 
+robbie197999: folds 
+Uncalled bet (40) returned to CharlieBoruc
+CharlieBoruc collected 60 from pot
+CharlieBoruc: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [7c 2h Jh As]
+Seat 1: robbie197999 (button) folded on the Turn
+Seat 2: CharlieBoruc (small blind) collected (60)
+Seat 3: arfurear (big blind) folded on the Turn
+Seat 4: Odjelevi folded before Flop (didn't bet)
+Seat 5: Edu_Durr folded before Flop (didn't bet)
+Seat 6: Kyle_77011 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: coingambl301 folded before Flop (didn't bet)
+Seat 9: H3llbell folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346320034: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:54:41 UTC [2026/04/04 16:54:41 ET]
+Table '3989305980 1' 9-max Seat #2 is the button
+Seat 1: robbie197999 (1480 in chips) 
+Seat 2: CharlieBoruc (1540 in chips) 
+Seat 3: arfurear (1480 in chips) 
+Seat 4: Odjelevi (1500 in chips) 
+Seat 5: Edu_Durr (1500 in chips) 
+Seat 6: Kyle_77011 (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: coingambl301 (1500 in chips) 
+Seat 9: H3llbell (1500 in chips) 
+arfurear: posts small blind 10
+Odjelevi: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 3d]
+arfurear is disconnected 
+Edu_Durr: folds 
+Kyle_77011: folds 
+scorza23: folds 
+coingambl301: folds 
+H3llbell: calls 20
+robbie197999: folds 
+CharlieBoruc: folds 
+arfurear is connected 
+arfurear is disconnected 
+arfurear is connected 
+arfurear: calls 10
+Odjelevi: checks 
+*** FLOP *** [2c 2s 9c]
+arfurear: checks 
+Odjelevi: checks 
+H3llbell: checks 
+*** TURN *** [2c 2s 9c] [Qc]
+arfurear: bets 30
+Odjelevi: calls 30
+H3llbell: calls 30
+*** RIVER *** [2c 2s 9c Qc] [4s]
+arfurear: checks 
+Odjelevi: bets 113
+H3llbell: calls 113
+arfurear: folds 
+*** SHOW DOWN ***
+Odjelevi: shows [2d 6d] (three of a kind, Deuces)
+H3llbell: mucks hand 
+Odjelevi collected 376 from pot
+*** SUMMARY ***
+Total pot 376 | Rake 0 
+Board [2c 2s 9c Qc 4s]
+Seat 1: robbie197999 folded before Flop (didn't bet)
+Seat 2: CharlieBoruc (button) folded before Flop (didn't bet)
+Seat 3: arfurear (small blind) folded on the River
+Seat 4: Odjelevi (big blind) showed [2d 6d] and won (376) with three of a kind, Deuces
+Seat 5: Edu_Durr folded before Flop (didn't bet)
+Seat 6: Kyle_77011 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: coingambl301 folded before Flop (didn't bet)
+Seat 9: H3llbell mucked [Tc Qh]
+
+
+
+PokerStars Hand #260346330763: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:55:35 UTC [2026/04/04 16:55:35 ET]
+Table '3989305980 1' 9-max Seat #3 is the button
+Seat 1: robbie197999 (1480 in chips) 
+Seat 2: CharlieBoruc (1540 in chips) 
+Seat 3: arfurear (1430 in chips) 
+Seat 4: Odjelevi (1713 in chips) 
+Seat 5: Edu_Durr (1500 in chips) 
+Seat 6: Kyle_77011 (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: coingambl301 (1500 in chips) 
+Seat 9: H3llbell (1337 in chips) 
+Odjelevi: posts small blind 10
+Edu_Durr: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Td]
+Kyle_77011: folds 
+scorza23: folds 
+coingambl301: folds 
+H3llbell: folds 
+robbie197999: raises 50 to 70
+CharlieBoruc: folds 
+arfurear: calls 70
+Odjelevi: folds 
+Edu_Durr: folds 
+*** FLOP *** [8d Kh 5c]
+robbie197999: checks 
+arfurear: checks 
+*** TURN *** [8d Kh 5c] [7d]
+robbie197999: bets 220
+arfurear: folds 
+Uncalled bet (220) returned to robbie197999
+robbie197999 collected 170 from pot
+robbie197999: doesn't show hand 
+*** SUMMARY ***
+Total pot 170 | Rake 0 
+Board [8d Kh 5c 7d]
+Seat 1: robbie197999 collected (170)
+Seat 2: CharlieBoruc folded before Flop (didn't bet)
+Seat 3: arfurear (button) folded on the Turn
+Seat 4: Odjelevi (small blind) folded before Flop
+Seat 5: Edu_Durr (big blind) folded before Flop
+Seat 6: Kyle_77011 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: coingambl301 folded before Flop (didn't bet)
+Seat 9: H3llbell folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346338460: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:56:28 UTC [2026/04/04 16:56:28 ET]
+Table '3989305980 1' 9-max Seat #4 is the button
+Seat 1: robbie197999 (1580 in chips) 
+Seat 2: CharlieBoruc (1540 in chips) 
+Seat 3: arfurear (1360 in chips) 
+Seat 4: Odjelevi (1703 in chips) 
+Seat 5: Edu_Durr (1480 in chips) 
+Seat 6: Kyle_77011 (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: coingambl301 (1500 in chips) 
+Seat 9: H3llbell (1337 in chips) 
+Edu_Durr: posts small blind 10
+Kyle_77011: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Kd]
+scorza23: folds 
+coingambl301: folds 
+arfurear is disconnected 
+H3llbell: calls 20
+robbie197999: folds 
+CharlieBoruc: folds 
+arfurear has timed out while disconnected
+arfurear: folds 
+arfurear is sitting out
+Odjelevi: calls 20
+Edu_Durr: calls 10
+Kyle_77011: checks 
+*** FLOP *** [Tc 7s Qs]
+arfurear is disconnected 
+arfurear has returned
+Edu_Durr: checks 
+Kyle_77011: bets 40
+arfurear is disconnected 
+H3llbell: calls 40
+arfurear is disconnected 
+arfurear is disconnected 
+Odjelevi: folds 
+Edu_Durr: folds 
+*** TURN *** [Tc 7s Qs] [Kh]
+Kyle_77011: checks 
+H3llbell: checks 
+*** RIVER *** [Tc 7s Qs Kh] [5h]
+arfurear is disconnected 
+Kyle_77011: bets 80
+H3llbell: calls 80
+*** SHOW DOWN ***
+Kyle_77011: shows [Qc 4s] (a pair of Queens)
+H3llbell: mucks hand 
+arfurear is disconnected 
+Kyle_77011 collected 320 from pot
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Board [Tc 7s Qs Kh 5h]
+Seat 1: robbie197999 folded before Flop (didn't bet)
+Seat 2: CharlieBoruc folded before Flop (didn't bet)
+Seat 3: arfurear folded before Flop (didn't bet)
+Seat 4: Odjelevi (button) folded on the Flop
+Seat 5: Edu_Durr (small blind) folded on the Flop
+Seat 6: Kyle_77011 (big blind) showed [Qc 4s] and won (320) with a pair of Queens
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: coingambl301 folded before Flop (didn't bet)
+Seat 9: H3llbell mucked [Td Jc]
+
+
+
+PokerStars Hand #260346349927: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:57:45 UTC [2026/04/04 16:57:45 ET]
+Table '3989305980 1' 9-max Seat #5 is the button
+Seat 1: robbie197999 (1580 in chips) 
+Seat 2: CharlieBoruc (1540 in chips) 
+Seat 3: arfurear (1360 in chips) 
+Seat 4: Odjelevi (1683 in chips) 
+Seat 5: Edu_Durr (1460 in chips) 
+Seat 6: Kyle_77011 (1680 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: coingambl301 (1500 in chips) 
+Seat 9: H3llbell (1197 in chips) 
+Kyle_77011: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ac]
+coingambl301: folds 
+arfurear is disconnected 
+H3llbell: folds 
+arfurear is disconnected 
+robbie197999 has timed out
+robbie197999: folds 
+robbie197999 is sitting out
+CharlieBoruc: folds 
+arfurear is connected 
+arfurear is disconnected 
+arfurear is connected 
+arfurear: folds 
+robbie197999 has returned
+Odjelevi: folds 
+Edu_Durr: folds 
+Kyle_77011: calls 10
+scorza23: checks 
+*** FLOP *** [Kd Jh 3c]
+Kyle_77011: checks 
+scorza23: checks 
+*** TURN *** [Kd Jh 3c] [2d]
+Kyle_77011: checks 
+scorza23: checks 
+*** RIVER *** [Kd Jh 3c 2d] [8h]
+Kyle_77011: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+Kyle_77011: shows [4h 6h] (high card King)
+scorza23: shows [4d Ac] (high card Ace)
+scorza23 collected 40 from pot
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [Kd Jh 3c 2d 8h]
+Seat 1: robbie197999 folded before Flop (didn't bet)
+Seat 2: CharlieBoruc folded before Flop (didn't bet)
+Seat 3: arfurear folded before Flop (didn't bet)
+Seat 4: Odjelevi folded before Flop (didn't bet)
+Seat 5: Edu_Durr (button) folded before Flop (didn't bet)
+Seat 6: Kyle_77011 (small blind) showed [4h 6h] and lost with high card King
+Seat 7: scorza23 (big blind) showed [4d Ac] and won (40) with high card Ace
+Seat 8: coingambl301 folded before Flop (didn't bet)
+Seat 9: H3llbell folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346358605: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:58:43 UTC [2026/04/04 16:58:43 ET]
+Table '3989305980 1' 9-max Seat #6 is the button
+Seat 1: robbie197999 (1580 in chips) 
+Seat 2: CharlieBoruc (1540 in chips) 
+Seat 3: arfurear (1360 in chips) 
+Seat 4: Odjelevi (1683 in chips) 
+Seat 5: Edu_Durr (1460 in chips) 
+Seat 6: Kyle_77011 (1660 in chips) 
+Seat 7: scorza23 (1520 in chips) 
+Seat 8: coingambl301 (1500 in chips) 
+Seat 9: H3llbell (1197 in chips) 
+scorza23: posts small blind 10
+coingambl301: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 3h]
+H3llbell: folds 
+robbie197999 has timed out
+robbie197999: folds 
+robbie197999 is sitting out
+CharlieBoruc: raises 20 to 40
+arfurear: folds 
+Odjelevi: folds 
+Edu_Durr: raises 20 to 60
+Kyle_77011: folds 
+scorza23: folds 
+arfurear is disconnected 
+coingambl301: folds 
+CharlieBoruc: calls 20
+*** FLOP *** [2h 7s Ts]
+CharlieBoruc: checks 
+Edu_Durr: bets 95
+CharlieBoruc: calls 95
+*** TURN *** [2h 7s Ts] [Kc]
+CharlieBoruc: checks 
+Edu_Durr: checks 
+*** RIVER *** [2h 7s Ts Kc] [8s]
+arfurear is disconnected 
+arfurear is disconnected 
+CharlieBoruc: checks 
+Edu_Durr: bets 170
+CharlieBoruc: folds 
+Uncalled bet (170) returned to Edu_Durr
+Edu_Durr collected 340 from pot
+*** SUMMARY ***
+Total pot 340 | Rake 0 
+Board [2h 7s Ts Kc 8s]
+Seat 1: robbie197999 folded before Flop (didn't bet)
+Seat 2: CharlieBoruc folded on the River
+Seat 3: arfurear folded before Flop (didn't bet)
+Seat 4: Odjelevi folded before Flop (didn't bet)
+Seat 5: Edu_Durr collected (340)
+Seat 6: Kyle_77011 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: coingambl301 (big blind) folded before Flop
+Seat 9: H3llbell folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346371643: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:00:10 UTC [2026/04/04 17:00:10 ET]
+Table '3989305980 1' 9-max Seat #7 is the button
+Seat 1: robbie197999 (1580 in chips) is sitting out
+Seat 2: CharlieBoruc (1385 in chips) 
+Seat 3: arfurear (1360 in chips) 
+Seat 4: Odjelevi (1683 in chips) 
+Seat 5: Edu_Durr (1645 in chips) 
+Seat 6: Kyle_77011 (1660 in chips) 
+Seat 7: scorza23 (1510 in chips) 
+Seat 8: coingambl301 (1480 in chips) 
+Seat 9: H3llbell (1197 in chips) 
+coingambl301: posts small blind 15
+H3llbell: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Ad]
+robbie197999: folds 
+CharlieBoruc: calls 30
+arfurear has timed out while disconnected
+arfurear: folds 
+arfurear is sitting out
+Odjelevi: folds 
+Edu_Durr: raises 30 to 60
+Kyle_77011: folds 
+scorza23: calls 60
+coingambl301: folds 
+H3llbell: folds 
+CharlieBoruc: calls 30
+*** FLOP *** [Kc Qh 6c]
+CharlieBoruc: checks 
+Edu_Durr: checks 
+scorza23: bets 113
+CharlieBoruc: calls 113
+Edu_Durr: folds 
+*** TURN *** [Kc Qh 6c] [5h]
+CharlieBoruc: bets 60
+scorza23: raises 571 to 631
+CharlieBoruc: calls 571
+*** RIVER *** [Kc Qh 6c 5h] [9h]
+CharlieBoruc: checks 
+scorza23: bets 706 and is all-in
+CharlieBoruc: calls 581 and is all-in
+Uncalled bet (125) returned to scorza23
+*** SHOW DOWN ***
+scorza23: shows [Qd Ad] (a pair of Queens)
+CharlieBoruc: shows [Kd Jc] (a pair of Kings)
+CharlieBoruc collected 2875 from pot
+*** SUMMARY ***
+Total pot 2875 | Rake 0 
+Board [Kc Qh 6c 5h 9h]
+Seat 1: robbie197999 folded before Flop (didn't bet)
+Seat 2: CharlieBoruc showed [Kd Jc] and won (2875) with a pair of Kings
+Seat 3: arfurear folded before Flop (didn't bet)
+Seat 4: Odjelevi folded before Flop (didn't bet)
+Seat 5: Edu_Durr folded on the Flop
+Seat 6: Kyle_77011 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) showed [Qd Ad] and lost with a pair of Queens
+Seat 8: coingambl301 (small blind) folded before Flop
+Seat 9: H3llbell (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346386297: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:01:32 UTC [2026/04/04 17:01:32 ET]
+Table '3989305980 1' 9-max Seat #8 is the button
+Seat 1: robbie197999 (1580 in chips) is sitting out
+Seat 2: CharlieBoruc (2875 in chips) 
+Seat 3: arfurear (1360 in chips) is sitting out
+Seat 4: Odjelevi (1683 in chips) 
+Seat 5: Edu_Durr (1585 in chips) 
+Seat 6: Kyle_77011 (1660 in chips) 
+Seat 7: scorza23 (125 in chips) 
+Seat 8: coingambl301 (1465 in chips) 
+Seat 9: H3llbell (1167 in chips) 
+H3llbell: posts small blind 15
+robbie197999: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 7c]
+CharlieBoruc: folds 
+arfurear: folds 
+Odjelevi: raises 36 to 66
+Edu_Durr: calls 66
+Kyle_77011: folds 
+scorza23: folds 
+coingambl301 has timed out
+coingambl301: folds 
+coingambl301 is sitting out
+H3llbell: calls 51
+robbie197999: folds 
+*** FLOP *** [4s 9h 4h]
+coingambl301 has returned
+H3llbell: checks 
+Odjelevi: bets 30
+Edu_Durr: calls 30
+H3llbell: folds 
+*** TURN *** [4s 9h 4h] [Kh]
+Odjelevi: bets 30
+Edu_Durr: calls 30
+*** RIVER *** [4s 9h 4h Kh] [6d]
+Odjelevi: checks 
+Edu_Durr: bets 174
+Odjelevi: folds 
+Uncalled bet (174) returned to Edu_Durr
+Edu_Durr collected 348 from pot
+*** SUMMARY ***
+Total pot 348 | Rake 0 
+Board [4s 9h 4h Kh 6d]
+Seat 1: robbie197999 (big blind) folded before Flop
+Seat 2: CharlieBoruc folded before Flop (didn't bet)
+Seat 3: arfurear folded before Flop (didn't bet)
+Seat 4: Odjelevi folded on the River
+Seat 5: Edu_Durr collected (348)
+Seat 6: Kyle_77011 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: coingambl301 (button) folded before Flop (didn't bet)
+Seat 9: H3llbell (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260346404657: Tournament #3989305980, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:02:54 UTC [2026/04/04 17:02:54 ET]
+Table '3989305980 1' 9-max Seat #9 is the button
+Seat 1: robbie197999 (1550 in chips) is sitting out
+Seat 2: CharlieBoruc (2875 in chips) 
+Seat 3: arfurear (1360 in chips) is sitting out
+Seat 4: Odjelevi (1557 in chips) 
+Seat 5: Edu_Durr (1807 in chips) 
+Seat 6: Kyle_77011 (1660 in chips) 
+Seat 7: scorza23 (125 in chips) 
+Seat 8: coingambl301 (1465 in chips) 
+Seat 9: H3llbell (1101 in chips) 
+robbie197999: posts small blind 15
+CharlieBoruc: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 8c]
+arfurear: folds 
+Odjelevi: raises 30 to 60
+Edu_Durr: folds 
+Kyle_77011: folds 
+scorza23: raises 65 to 125 and is all-in
+coingambl301: folds 
+H3llbell: calls 125
+robbie197999: folds 
+CharlieBoruc: folds 
+Odjelevi: calls 65
+*** FLOP *** [2s 7h 6h]
+Odjelevi: bets 1432 and is all-in
+H3llbell: calls 976 and is all-in
+Uncalled bet (456) returned to Odjelevi
+*** TURN *** [2s 7h 6h] [7d]
+*** RIVER *** [2s 7h 6h 7d] [Ac]
+*** SHOW DOWN ***
+Odjelevi: shows [Kc 2c] (two pair, Sevens and Deuces)
+H3llbell: shows [7c 9c] (three of a kind, Sevens)
+H3llbell collected 1952 from side pot
+scorza23: shows [Ah 8c] (two pair, Aces and Sevens)
+H3llbell collected 420 from main pot
+scorza23 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 2372 Main pot 420. Side pot 1952. | Rake 0 
+Board [2s 7h 6h 7d Ac]
+Seat 1: robbie197999 (small blind) folded before Flop
+Seat 2: CharlieBoruc (big blind) folded before Flop
+Seat 3: arfurear folded before Flop (didn't bet)
+Seat 4: Odjelevi showed [Kc 2c] and lost with two pair, Sevens and Deuces
+Seat 5: Edu_Durr folded before Flop (didn't bet)
+Seat 6: Kyle_77011 folded before Flop (didn't bet)
+Seat 7: scorza23 showed [Ah 8c] and lost with two pair, Aces and Sevens
+Seat 8: coingambl301 folded before Flop (didn't bet)
+Seat 9: H3llbell (button) showed [7c 9c] and won (2372) with three of a kind, Sevens
+
+
+

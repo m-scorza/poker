@@ -1,0 +1,5727 @@
+﻿PokerStars Hand #259748894374: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:16:51 UTC [2026/02/16 9:16:51 ET]
+Table '3975659799 3' 8-max Seat #3 is the button
+Seat 1: BaetaDan (1488 in chips) 
+Seat 2: pirmanovdier (1586 in chips) 
+Seat 3: zleo01 (1506 in chips) 
+Seat 4: DuduForever2003 (1345 in chips) out of hand (moved from another table into small blind)
+Seat 5: wmoreira1989 (1414 in chips) 
+Seat 7: RaFaeLStars7 (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+DuduForever2003 will be allowed to play after the button
+BaetaDan: posts the ante 3
+pirmanovdier: posts the ante 3
+zleo01: posts the ante 3
+wmoreira1989: posts the ante 3
+RaFaeLStars7: posts the ante 3
+scorza23: posts the ante 3
+wmoreira1989: posts small blind 10
+RaFaeLStars7: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 3d]
+scorza23: folds 
+BaetaDan: folds 
+Nasko2310 is disconnected 
+pirmanovdier: raises 20 to 40
+zleo01: folds 
+DuduForever2003 is sitting out
+DuduForever2003 has returned
+wmoreira1989: folds 
+RaFaeLStars7: calls 20
+*** FLOP *** [6h Jd 2c]
+RaFaeLStars7: checks 
+pirmanovdier: checks 
+*** TURN *** [6h Jd 2c] [Jc]
+RaFaeLStars7: checks 
+pirmanovdier: checks 
+*** RIVER *** [6h Jd 2c Jc] [6s]
+RaFaeLStars7: checks 
+pirmanovdier: checks 
+*** SHOW DOWN ***
+RaFaeLStars7: shows [8s 5c] (two pair, Jacks and Sixes)
+pirmanovdier: shows [Qc 9c] (two pair, Jacks and Sixes - Queen kicker)
+pirmanovdier collected 108 from pot
+*** SUMMARY ***
+Total pot 108 | Rake 0 
+Board [6h Jd 2c Jc 6s]
+Seat 1: BaetaDan folded before Flop (didn't bet)
+Seat 2: pirmanovdier showed [Qc 9c] and won (108) with two pair, Jacks and Sixes
+Seat 3: zleo01 (button) folded before Flop (didn't bet)
+Seat 5: wmoreira1989 (small blind) folded before Flop
+Seat 7: RaFaeLStars7 (big blind) showed [8s 5c] and lost with two pair, Jacks and Sixes
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748900856: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:17:37 UTC [2026/02/16 9:17:37 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: marktaxi82 (1339 in chips) 
+Seat 2: scorza23 (1497 in chips) 
+Seat 3: Fisherman501 (1497 in chips) 
+Seat 7: kamaradas (1500 in chips) 
+marktaxi82: posts the ante 3
+scorza23: posts the ante 3
+Fisherman501: posts the ante 3
+kamaradas: posts the ante 3
+scorza23: posts small blind 10
+Fisherman501: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Th]
+kamaradas is disconnected 
+kamaradas is connected 
+kamaradas: raises 20 to 40
+marktaxi82: calls 40
+oven25 is disconnected 
+scorza23: folds 
+Fisherman501: folds 
+*** FLOP *** [Js Jd 4d]
+kamaradas: checks 
+marktaxi82: checks 
+*** TURN *** [Js Jd 4d] [2d]
+kamaradas: checks 
+mdsleal is disconnected 
+marktaxi82: checks 
+*** RIVER *** [Js Jd 4d 2d] [9h]
+kamaradas: checks 
+marktaxi82: checks 
+Steph050874 is disconnected 
+*** SHOW DOWN ***
+kamaradas: shows [As Ts] (a pair of Jacks)
+marktaxi82: mucks hand 
+kamaradas collected 122 from pot
+*** SUMMARY ***
+Total pot 122 | Rake 0 
+Board [Js Jd 4d 2d 9h]
+Seat 1: marktaxi82 (button) mucked [6s Ac]
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 7: kamaradas showed [As Ts] and won (122) with a pair of Jacks
+
+
+
+PokerStars Hand #259748905912: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:18:12 UTC [2026/02/16 9:18:12 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: marktaxi82 (1296 in chips) 
+Seat 2: scorza23 (1484 in chips) 
+Seat 3: Fisherman501 (1474 in chips) 
+Seat 4: mdsleal (1500 in chips) 
+Seat 5: Steph050874 (1279 in chips) 
+Seat 7: kamaradas (1579 in chips) 
+Seat 8: oven25 (1500 in chips) 
+marktaxi82: posts the ante 3
+scorza23: posts the ante 3
+Fisherman501: posts the ante 3
+mdsleal: posts the ante 3
+Steph050874: posts the ante 3
+kamaradas: posts the ante 3
+oven25: posts the ante 3
+Fisherman501: posts small blind 10
+mdsleal: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qd]
+Steph050874: calls 20
+kamaradas: raises 38 to 58
+oven25: folds 
+marktaxi82: folds 
+scorza23: calls 58
+Fisherman501: folds 
+mdsleal: calls 38
+Steph050874: calls 38
+*** FLOP *** [Ah 8h 6s]
+mdsleal: checks 
+Steph050874: checks 
+kamaradas: bets 216
+scorza23: raises 1207 to 1423 and is all-in
+mdsleal: folds 
+Steph050874: folds 
+kamaradas: calls 1207
+*** TURN *** [Ah 8h 6s] [4s]
+*** RIVER *** [Ah 8h 6s 4s] [Tc]
+*** SHOW DOWN ***
+kamaradas: shows [Ad Jd] (a pair of Aces)
+scorza23: shows [As Qd] (a pair of Aces - Queen kicker)
+scorza23 collected 3109 from pot
+*** SUMMARY ***
+Total pot 3109 | Rake 0 
+Board [Ah 8h 6s 4s Tc]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) showed [As Qd] and won (3109) with a pair of Aces
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 4: mdsleal (big blind) folded on the Flop
+Seat 5: Steph050874 folded on the Flop
+Seat 7: kamaradas showed [Ad Jd] and lost with a pair of Aces
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748913492: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:19:05 UTC [2026/02/16 9:19:05 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: marktaxi82 (1293 in chips) 
+Seat 2: scorza23 (3109 in chips) 
+Seat 3: Fisherman501 (1461 in chips) 
+Seat 4: mdsleal (1439 in chips) 
+Seat 5: Steph050874 (1218 in chips) 
+Seat 7: kamaradas (95 in chips) 
+Seat 8: oven25 (1497 in chips) 
+marktaxi82: posts the ante 3
+scorza23: posts the ante 3
+Fisherman501: posts the ante 3
+mdsleal: posts the ante 3
+Steph050874: posts the ante 3
+kamaradas: posts the ante 3
+oven25: posts the ante 3
+mdsleal: posts small blind 10
+Steph050874: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 3d]
+kamaradas: folds 
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Uncalled bet (10) returned to Steph050874
+Steph050874 collected 41 from pot
+Steph050874: doesn't show hand 
+*** SUMMARY ***
+Total pot 41 | Rake 0 
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 4: mdsleal (small blind) folded before Flop
+Seat 5: Steph050874 (big blind) collected (41)
+Seat 7: kamaradas folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748916305: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:19:24 UTC [2026/02/16 9:19:24 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 1: marktaxi82 (1290 in chips) 
+Seat 2: scorza23 (3106 in chips) 
+Seat 3: Fisherman501 (1458 in chips) 
+Seat 4: mdsleal (1426 in chips) 
+Seat 5: Steph050874 (1246 in chips) 
+Seat 7: kamaradas (92 in chips) 
+Seat 8: oven25 (1494 in chips) 
+marktaxi82: posts the ante 3
+scorza23: posts the ante 3
+Fisherman501: posts the ante 3
+mdsleal: posts the ante 3
+Steph050874: posts the ante 3
+kamaradas: posts the ante 3
+oven25: posts the ante 3
+Steph050874: posts small blind 10
+kamaradas: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Th]
+oven25: raises 20 to 40
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Steph050874: folds 
+kamaradas: raises 20 to 60
+oven25: calls 20
+*** FLOP *** [7s 5c Qc]
+kamaradas: bets 29 and is all-in
+oven25: calls 29
+*** TURN *** [7s 5c Qc] [Ad]
+*** RIVER *** [7s 5c Qc Ad] [4c]
+*** SHOW DOWN ***
+kamaradas: shows [Ac Ah] (three of a kind, Aces)
+oven25: shows [9s 9h] (a pair of Nines)
+kamaradas collected 209 from pot
+*** SUMMARY ***
+Total pot 209 | Rake 0 
+Board [7s 5c Qc Ad 4c]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal (button) folded before Flop (didn't bet)
+Seat 5: Steph050874 (small blind) folded before Flop
+Seat 7: kamaradas (big blind) showed [Ac Ah] and won (209) with three of a kind, Aces
+Seat 8: oven25 showed [9s 9h] and lost with a pair of Nines
+
+
+
+PokerStars Hand #259748920138: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:19:50 UTC [2026/02/16 9:19:50 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: marktaxi82 (1287 in chips) 
+Seat 2: scorza23 (3103 in chips) 
+Seat 3: Fisherman501 (1455 in chips) 
+Seat 4: mdsleal (1423 in chips) 
+Seat 5: Steph050874 (1233 in chips) 
+Seat 7: kamaradas (209 in chips) 
+Seat 8: oven25 (1402 in chips) 
+marktaxi82: posts the ante 3
+scorza23: posts the ante 3
+Fisherman501: posts the ante 3
+mdsleal: posts the ante 3
+Steph050874: posts the ante 3
+kamaradas: posts the ante 3
+oven25: posts the ante 3
+kamaradas: posts small blind 10
+oven25: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ad]
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Steph050874: folds 
+kamaradas: folds 
+Uncalled bet (10) returned to oven25
+oven25 collected 41 from pot
+oven25: doesn't show hand 
+*** SUMMARY ***
+Total pot 41 | Rake 0 
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Steph050874 (button) folded before Flop (didn't bet)
+Seat 7: kamaradas (small blind) folded before Flop
+Seat 8: oven25 (big blind) collected (41)
+
+
+
+PokerStars Hand #259748923427: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:20:12 UTC [2026/02/16 9:20:12 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 1: marktaxi82 (1284 in chips) 
+Seat 2: scorza23 (3100 in chips) 
+Seat 3: Fisherman501 (1452 in chips) 
+Seat 4: mdsleal (1420 in chips) 
+Seat 5: Steph050874 (1230 in chips) 
+Seat 7: kamaradas (196 in chips) 
+Seat 8: oven25 (1430 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+kamaradas: posts the ante 4
+oven25: posts the ante 4
+oven25: posts small blind 15
+marktaxi82: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 5s]
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Steph050874: calls 30
+kamaradas: folds 
+oven25: folds 
+marktaxi82: checks 
+*** FLOP *** [6s 4h Ad]
+marktaxi82: checks 
+Steph050874: bets 30
+marktaxi82: folds 
+Uncalled bet (30) returned to Steph050874
+Steph050874 collected 103 from pot
+Steph050874: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Board [6s 4h Ad]
+Seat 1: marktaxi82 (big blind) folded on the Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Steph050874 collected (103)
+Seat 7: kamaradas (button) folded before Flop (didn't bet)
+Seat 8: oven25 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259748929092: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:20:50 UTC [2026/02/16 9:20:50 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: marktaxi82 (1250 in chips) 
+Seat 2: scorza23 (3096 in chips) 
+Seat 3: Fisherman501 (1448 in chips) 
+Seat 4: mdsleal (1416 in chips) 
+Seat 5: Steph050874 (1299 in chips) 
+Seat 7: kamaradas (192 in chips) 
+Seat 8: oven25 (1411 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+kamaradas: posts the ante 4
+oven25: posts the ante 4
+marktaxi82: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 3c]
+Fisherman501: folds 
+mdsleal: folds 
+Steph050874: calls 30
+kamaradas: raises 158 to 188 and is all-in
+oven25: folds 
+marktaxi82: calls 173
+scorza23: folds 
+Steph050874: folds 
+*** FLOP *** [9s Ts 6h]
+*** TURN *** [9s Ts 6h] [Kc]
+*** RIVER *** [9s Ts 6h Kc] [6d]
+*** SHOW DOWN ***
+marktaxi82: shows [Jc Kh] (two pair, Kings and Sixes)
+kamaradas: shows [As 7d] (a pair of Sixes)
+marktaxi82 collected 464 from pot
+kamaradas finished the tournament in 31st place
+*** SUMMARY ***
+Total pot 464 | Rake 0 
+Board [9s Ts 6h Kc 6d]
+Seat 1: marktaxi82 (small blind) showed [Jc Kh] and won (464) with two pair, Kings and Sixes
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Steph050874 folded before Flop
+Seat 7: kamaradas showed [As 7d] and lost with a pair of Sixes
+Seat 8: oven25 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748934790: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:21:29 UTC [2026/02/16 9:21:29 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: marktaxi82 (1522 in chips) 
+Seat 2: scorza23 (3062 in chips) 
+Seat 3: Fisherman501 (1444 in chips) 
+Seat 4: mdsleal (1412 in chips) 
+Seat 5: Steph050874 (1265 in chips) 
+Seat 8: oven25 (1407 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+oven25: posts the ante 4
+scorza23: posts small blind 15
+Fisherman501: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5c]
+mdsleal: folds 
+Steph050874: folds 
+oven25: raises 30 to 60
+marktaxi82: calls 60
+scorza23: folds 
+Fisherman501: folds 
+*** FLOP *** [Qd Jc 3h]
+oven25: checks 
+marktaxi82: bets 30
+oven25: folds 
+Uncalled bet (30) returned to marktaxi82
+marktaxi82 collected 189 from pot
+*** SUMMARY ***
+Total pot 189 | Rake 0 
+Board [Qd Jc 3h]
+Seat 1: marktaxi82 (button) collected (189)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Steph050874 folded before Flop (didn't bet)
+Seat 8: oven25 folded on the Flop
+
+
+
+PokerStars Hand #259748939894: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:22:03 UTC [2026/02/16 9:22:03 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: marktaxi82 (1647 in chips) 
+Seat 2: scorza23 (3043 in chips) 
+Seat 3: Fisherman501 (1410 in chips) 
+Seat 4: mdsleal (1408 in chips) 
+Seat 5: Steph050874 (1261 in chips) 
+Seat 6: JAURINHO77 (1429 in chips) 
+Seat 8: oven25 (1343 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+JAURINHO77: posts the ante 4
+oven25: posts the ante 4
+Fisherman501: posts small blind 15
+mdsleal: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7s]
+Steph050874: calls 30
+JAURINHO77: folds 
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: checks 
+*** FLOP *** [5d 9h 2h]
+mdsleal: checks 
+Steph050874: checks 
+*** TURN *** [5d 9h 2h] [Ah]
+mdsleal: checks 
+Steph050874: checks 
+*** RIVER *** [5d 9h 2h Ah] [9s]
+mdsleal: checks 
+Steph050874: checks 
+*** SHOW DOWN ***
+mdsleal: shows [5h 3s] (two pair, Nines and Fives)
+Steph050874: mucks hand 
+mdsleal collected 103 from pot
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Board [5d 9h 2h Ah 9s]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 4: mdsleal (big blind) showed [5h 3s] and won (103) with two pair, Nines and Fives
+Seat 5: Steph050874 mucked [Kd 7c]
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748945190: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:22:40 UTC [2026/02/16 9:22:40 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: marktaxi82 (1643 in chips) 
+Seat 2: scorza23 (3039 in chips) 
+Seat 3: Fisherman501 (1391 in chips) 
+Seat 4: mdsleal (1477 in chips) 
+Seat 5: Steph050874 (1227 in chips) 
+Seat 6: JAURINHO77 (1425 in chips) 
+Seat 8: oven25 (1339 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+JAURINHO77: posts the ante 4
+oven25: posts the ante 4
+mdsleal: posts small blind 15
+Steph050874: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 3h]
+JAURINHO77: folds 
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Uncalled bet (15) returned to Steph050874
+Steph050874 collected 58 from pot
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 4: mdsleal (small blind) folded before Flop
+Seat 5: Steph050874 (big blind) collected (58)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748948687: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:23:03 UTC [2026/02/16 9:23:03 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 1: marktaxi82 (1639 in chips) 
+Seat 2: scorza23 (3035 in chips) 
+Seat 3: Fisherman501 (1387 in chips) 
+Seat 4: mdsleal (1458 in chips) 
+Seat 5: Steph050874 (1266 in chips) 
+Seat 6: JAURINHO77 (1421 in chips) 
+Seat 8: oven25 (1335 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+JAURINHO77: posts the ante 4
+oven25: posts the ante 4
+Steph050874: posts small blind 15
+JAURINHO77: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 6c]
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: calls 30
+mdsleal: folds 
+Steph050874: calls 15
+JAURINHO77: checks 
+*** FLOP *** [Jc 4s 2d]
+Steph050874: checks 
+JAURINHO77: checks 
+Fisherman501: checks 
+*** TURN *** [Jc 4s 2d] [9d]
+Steph050874: checks 
+JAURINHO77: checks 
+Fisherman501: checks 
+*** RIVER *** [Jc 4s 2d 9d] [Tc]
+Steph050874: bets 60
+JAURINHO77: calls 60
+Fisherman501: folds 
+*** SHOW DOWN ***
+Steph050874: shows [Ts 5h] (a pair of Tens)
+JAURINHO77: mucks hand 
+Steph050874 collected 238 from pot
+*** SUMMARY ***
+Total pot 238 | Rake 0 
+Board [Jc 4s 2d 9d Tc]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded on the River
+Seat 4: mdsleal (button) folded before Flop (didn't bet)
+Seat 5: Steph050874 (small blind) showed [Ts 5h] and won (238) with a pair of Tens
+Seat 6: JAURINHO77 (big blind) mucked [9s As]
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748956226: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:23:56 UTC [2026/02/16 9:23:56 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: marktaxi82 (1635 in chips) 
+Seat 2: scorza23 (3031 in chips) 
+Seat 3: Fisherman501 (1353 in chips) 
+Seat 4: mdsleal (1454 in chips) 
+Seat 5: Steph050874 (1410 in chips) 
+Seat 6: JAURINHO77 (1327 in chips) 
+Seat 8: oven25 (1331 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+JAURINHO77: posts the ante 4
+oven25: posts the ante 4
+JAURINHO77: posts small blind 15
+oven25: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 5d]
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Steph050874: raises 30 to 60
+JAURINHO77: calls 45
+oven25: folds 
+*** FLOP *** [9h 2d Qd]
+JAURINHO77: checks 
+Steph050874: bets 1346 and is all-in
+JAURINHO77: calls 1263 and is all-in
+Uncalled bet (83) returned to Steph050874
+*** TURN *** [9h 2d Qd] [7d]
+*** RIVER *** [9h 2d Qd 7d] [Jh]
+*** SHOW DOWN ***
+JAURINHO77: shows [7c Qs] (two pair, Queens and Sevens)
+Steph050874: shows [Ad As] (a pair of Aces)
+JAURINHO77 collected 2704 from pot
+*** SUMMARY ***
+Total pot 2704 | Rake 0 
+Board [9h 2d Qd 7d Jh]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Steph050874 (button) showed [Ad As] and lost with a pair of Aces
+Seat 6: JAURINHO77 (small blind) showed [7c Qs] and won (2704) with two pair, Queens and Sevens
+Seat 8: oven25 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259748961895: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:24:34 UTC [2026/02/16 9:24:34 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 1: marktaxi82 (1631 in chips) 
+Seat 2: scorza23 (3027 in chips) 
+Seat 3: Fisherman501 (1349 in chips) 
+Seat 4: mdsleal (1450 in chips) 
+Seat 5: Steph050874 (83 in chips) 
+Seat 6: JAURINHO77 (2704 in chips) 
+Seat 8: oven25 (1297 in chips) 
+marktaxi82: posts the ante 4
+scorza23: posts the ante 4
+Fisherman501: posts the ante 4
+mdsleal: posts the ante 4
+Steph050874: posts the ante 4
+JAURINHO77: posts the ante 4
+oven25: posts the ante 4
+oven25: posts small blind 15
+marktaxi82: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Kd]
+scorza23: folds 
+Fisherman501: calls 30
+mdsleal: raises 75 to 105
+Steph050874: folds 
+JAURINHO77: folds 
+oven25: folds 
+marktaxi82: calls 75
+Fisherman501: calls 75
+*** FLOP *** [Qh 9h 3d]
+marktaxi82: checks 
+Fisherman501: checks 
+mdsleal: checks 
+*** TURN *** [Qh 9h 3d] [Tc]
+marktaxi82: checks 
+Fisherman501: checks 
+mdsleal: checks 
+*** RIVER *** [Qh 9h 3d Tc] [2h]
+marktaxi82: checks 
+Fisherman501: checks 
+mdsleal: checks 
+*** SHOW DOWN ***
+marktaxi82: shows [7s Js] (high card Queen)
+Fisherman501: shows [Th Ah] (a flush, Ace high)
+mdsleal: mucks hand 
+Fisherman501 collected 358 from pot
+*** SUMMARY ***
+Total pot 358 | Rake 0 
+Board [Qh 9h 3d Tc 2h]
+Seat 1: marktaxi82 (big blind) showed [7s Js] and lost with high card Queen
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 showed [Th Ah] and won (358) with a flush, Ace high
+Seat 4: mdsleal mucked [6d 7d]
+Seat 5: Steph050874 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (button) folded before Flop (didn't bet)
+Seat 8: oven25 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259748972138: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:25:42 UTC [2026/02/16 9:25:42 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: marktaxi82 (1522 in chips) 
+Seat 2: scorza23 (3023 in chips) 
+Seat 3: Fisherman501 (1598 in chips) 
+Seat 4: mdsleal (1341 in chips) 
+Seat 5: Steph050874 (79 in chips) 
+Seat 6: JAURINHO77 (2700 in chips) 
+Seat 8: oven25 (1278 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+Steph050874: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+marktaxi82: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 6c]
+Fisherman501: folds 
+mdsleal: folds 
+Steph050874: folds 
+JAURINHO77: raises 50 to 100
+oven25: raises 200 to 300
+marktaxi82: folds 
+scorza23: folds 
+JAURINHO77: calls 200
+*** FLOP *** [6h 5s Qd]
+JAURINHO77: checks 
+oven25: checks 
+*** TURN *** [6h 5s Qd] [5d]
+JAURINHO77: bets 359
+oven25: folds 
+Uncalled bet (359) returned to JAURINHO77
+JAURINHO77 collected 717 from pot
+*** SUMMARY ***
+Total pot 717 | Rake 0 
+Board [6h 5s Qd 5d]
+Seat 1: marktaxi82 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Steph050874 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (717)
+Seat 8: oven25 (button) folded on the Turn
+
+
+
+PokerStars Hand #259748979791: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:26:34 UTC [2026/02/16 9:26:34 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: marktaxi82 (1491 in chips) 
+Seat 2: scorza23 (2967 in chips) 
+Seat 3: Fisherman501 (1592 in chips) 
+Seat 4: mdsleal (1335 in chips) 
+Seat 5: Steph050874 (73 in chips) 
+Seat 6: JAURINHO77 (3111 in chips) 
+Seat 8: oven25 (972 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+Steph050874: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+scorza23: posts small blind 25
+Fisherman501: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Js]
+mdsleal: folds 
+Steph050874: raises 17 to 67 and is all-in
+JAURINHO77: folds 
+oven25: folds 
+marktaxi82: calls 67
+scorza23: folds 
+Fisherman501: calls 17
+*** FLOP *** [2d 2c Ac]
+Fisherman501: checks 
+marktaxi82: checks 
+*** TURN *** [2d 2c Ac] [9d]
+Fisherman501: bets 50
+marktaxi82: calls 50
+*** RIVER *** [2d 2c Ac 9d] [5h]
+Fisherman501: bets 100
+marktaxi82: folds 
+Uncalled bet (100) returned to Fisherman501
+*** SHOW DOWN ***
+Fisherman501: shows [5c 9c] (two pair, Nines and Fives)
+Fisherman501 collected 100 from side pot
+Steph050874: shows [4h Ks] (a pair of Deuces)
+Fisherman501 collected 268 from main pot
+Steph050874 finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 368 Main pot 268. Side pot 100. | Rake 0 
+Board [2d 2c Ac 9d 5h]
+Seat 1: marktaxi82 (button) folded on the River
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) showed [5c 9c] and won (368) with two pair, Nines and Fives
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Steph050874 showed [4h Ks] and lost with a pair of Deuces
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748986980: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:27:22 UTC [2026/02/16 9:27:22 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: marktaxi82 (1368 in chips) 
+Seat 2: scorza23 (2936 in chips) 
+Seat 3: Fisherman501 (1837 in chips) 
+Seat 4: mdsleal (1329 in chips) 
+Seat 6: JAURINHO77 (3105 in chips) 
+Seat 8: oven25 (966 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+Fisherman501: posts small blind 25
+mdsleal: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Td]
+JAURINHO77: folds 
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: calls 25
+mdsleal: checks 
+*** FLOP *** [7c Kh 9d]
+Fisherman501: checks 
+mdsleal: bets 75
+Fisherman501: folds 
+Uncalled bet (75) returned to mdsleal
+mdsleal collected 136 from pot
+*** SUMMARY ***
+Total pot 136 | Rake 0 
+Board [7c Kh 9d]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) folded on the Flop
+Seat 4: mdsleal (big blind) collected (136)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748990480: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:27:46 UTC [2026/02/16 9:27:46 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: marktaxi82 (1362 in chips) 
+Seat 2: scorza23 (2930 in chips) 
+Seat 3: Fisherman501 (1781 in chips) 
+Seat 4: mdsleal (1409 in chips) 
+Seat 6: JAURINHO77 (3099 in chips) 
+Seat 8: oven25 (960 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+mdsleal: posts small blind 25
+JAURINHO77: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Ks]
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: calls 50
+mdsleal: folds 
+JAURINHO77: checks 
+*** FLOP *** [Ah Jh Kd]
+JAURINHO77: checks 
+Fisherman501: bets 50
+JAURINHO77: folds 
+Uncalled bet (50) returned to Fisherman501
+Fisherman501 collected 161 from pot
+Fisherman501: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Board [Ah Jh Kd]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) collected (161)
+Seat 4: mdsleal (small blind) folded before Flop
+Seat 6: JAURINHO77 (big blind) folded on the Flop
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748993693: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:28:07 UTC [2026/02/16 9:28:07 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 1: marktaxi82 (1356 in chips) 
+Seat 2: scorza23 (2924 in chips) 
+Seat 3: Fisherman501 (1886 in chips) 
+Seat 4: mdsleal (1378 in chips) 
+Seat 6: JAURINHO77 (3043 in chips) 
+Seat 8: oven25 (954 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+JAURINHO77: posts small blind 25
+oven25: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Ad]
+marktaxi82: calls 50
+scorza23: raises 150 to 200
+Fisherman501: folds 
+mdsleal: folds 
+JAURINHO77: folds 
+oven25: folds 
+marktaxi82: calls 150
+*** FLOP *** [5s Ks 9h]
+marktaxi82: bets 1150 and is all-in
+scorza23: folds 
+Uncalled bet (1150) returned to marktaxi82
+marktaxi82 collected 511 from pot
+*** SUMMARY ***
+Total pot 511 | Rake 0 
+Board [5s Ks 9h]
+Seat 1: marktaxi82 collected (511)
+Seat 2: scorza23 folded on the Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal (button) folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (small blind) folded before Flop
+Seat 8: oven25 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259748998410: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:28:39 UTC [2026/02/16 9:28:39 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 1: marktaxi82 (1661 in chips) 
+Seat 2: scorza23 (2718 in chips) 
+Seat 3: Fisherman501 (1880 in chips) 
+Seat 4: mdsleal (1372 in chips) 
+Seat 6: JAURINHO77 (3012 in chips) 
+Seat 8: oven25 (898 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+oven25: posts small blind 25
+marktaxi82: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 2h]
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: raises 50 to 100
+JAURINHO77: folds 
+oven25: folds 
+marktaxi82: calls 50
+*** FLOP *** [9c 6c Jh]
+marktaxi82: checks 
+mdsleal: bets 86
+marktaxi82: folds 
+Uncalled bet (86) returned to mdsleal
+mdsleal collected 261 from pot
+*** SUMMARY ***
+Total pot 261 | Rake 0 
+Board [9c 6c Jh]
+Seat 1: marktaxi82 (big blind) folded on the Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal collected (261)
+Seat 6: JAURINHO77 (button) folded before Flop (didn't bet)
+Seat 8: oven25 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749003413: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:29:13 UTC [2026/02/16 9:29:13 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: marktaxi82 (1555 in chips) 
+Seat 2: scorza23 (2712 in chips) 
+Seat 3: Fisherman501 (1874 in chips) 
+Seat 4: mdsleal (1527 in chips) 
+Seat 6: JAURINHO77 (3006 in chips) 
+Seat 8: oven25 (867 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+marktaxi82: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 4d]
+Fisherman501: folds 
+mdsleal: folds 
+JAURINHO77: raises 50 to 100
+oven25: folds 
+marktaxi82: calls 75
+scorza23: folds 
+*** FLOP *** [5c 5h 8d]
+marktaxi82: checks 
+JAURINHO77: bets 143
+marktaxi82: calls 143
+*** TURN *** [5c 5h 8d] [7h]
+marktaxi82: checks 
+JAURINHO77: bets 286
+marktaxi82: folds 
+Uncalled bet (286) returned to JAURINHO77
+JAURINHO77 collected 572 from pot
+*** SUMMARY ***
+Total pot 572 | Rake 0 
+Board [5c 5h 8d 7h]
+Seat 1: marktaxi82 (small blind) folded on the Turn
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (572)
+Seat 8: oven25 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749008690: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:29:50 UTC [2026/02/16 9:29:50 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: marktaxi82 (1306 in chips) 
+Seat 2: scorza23 (2656 in chips) 
+Seat 3: Fisherman501 (1868 in chips) 
+Seat 4: mdsleal (1521 in chips) 
+Seat 6: JAURINHO77 (3329 in chips) 
+Seat 8: oven25 (861 in chips) 
+marktaxi82: posts the ante 6
+scorza23: posts the ante 6
+Fisherman501: posts the ante 6
+mdsleal: posts the ante 6
+JAURINHO77: posts the ante 6
+oven25: posts the ante 6
+scorza23: posts small blind 25
+Fisherman501: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 6d]
+mdsleal: raises 60 to 110
+JAURINHO77: folds 
+oven25: raises 60 to 170
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: raises 1345 to 1515 and is all-in
+oven25 has timed out
+oven25: folds 
+oven25 is sitting out
+Uncalled bet (1345) returned to mdsleal
+mdsleal collected 451 from pot
+*** SUMMARY ***
+Total pot 451 | Rake 0 
+Seat 1: marktaxi82 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 4: mdsleal collected (451)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop
+
+
+
+PokerStars Hand #259749018351: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:30:52 UTC [2026/02/16 9:30:52 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: marktaxi82 (1300 in chips) 
+Seat 2: scorza23 (2625 in chips) 
+Seat 3: Fisherman501 (1812 in chips) 
+Seat 4: mdsleal (1796 in chips) 
+Seat 6: JAURINHO77 (3323 in chips) 
+Seat 8: oven25 (685 in chips) is sitting out
+marktaxi82: posts the ante 10
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+JAURINHO77: posts the ante 10
+oven25: posts the ante 10
+Fisherman501: posts small blind 40
+mdsleal: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 2d]
+JAURINHO77: raises 80 to 160
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: calls 120
+mdsleal: calls 80
+*** FLOP *** [Jh 6h 9s]
+Fisherman501: checks 
+mdsleal: checks 
+JAURINHO77: bets 270
+Fisherman501: folds 
+mdsleal: folds 
+Uncalled bet (270) returned to JAURINHO77
+JAURINHO77 collected 540 from pot
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Board [Jh 6h 9s]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) folded on the Flop
+Seat 4: mdsleal (big blind) folded on the Flop
+Seat 6: JAURINHO77 collected (540)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749023330: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:31:25 UTC [2026/02/16 9:31:25 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: marktaxi82 (1290 in chips) 
+Seat 2: scorza23 (2615 in chips) 
+Seat 3: Fisherman501 (1642 in chips) 
+Seat 4: mdsleal (1626 in chips) 
+Seat 6: JAURINHO77 (3693 in chips) 
+Seat 8: oven25 (675 in chips) is sitting out
+marktaxi82: posts the ante 10
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+JAURINHO77: posts the ante 10
+oven25: posts the ante 10
+mdsleal: posts small blind 40
+JAURINHO77: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 8h]
+oven25: folds 
+oven25 has returned
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: raises 80 to 160
+mdsleal: folds 
+Nasko2310 is disconnected 
+okawa44 is disconnected 
+JAURINHO77: folds 
+Uncalled bet (80) returned to Fisherman501
+Fisherman501 collected 260 from pot
+Fisherman501: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) collected (260)
+Seat 4: mdsleal (small blind) folded before Flop
+Seat 6: JAURINHO77 (big blind) folded before Flop
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749027101: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:31:50 UTC [2026/02/16 9:31:50 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 1: marktaxi82 (1280 in chips) 
+Seat 2: scorza23 (2605 in chips) 
+Seat 3: Fisherman501 (1812 in chips) 
+Seat 4: mdsleal (1576 in chips) 
+Seat 5: Nasko2310 (1645 in chips) out of hand (moved from another table into small blind)
+Seat 6: JAURINHO77 (3603 in chips) 
+Seat 7: okawa44 (4332 in chips) 
+Seat 8: oven25 (665 in chips) 
+Nasko2310 will be allowed to play after the button
+marktaxi82: posts the ante 10
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+JAURINHO77: posts the ante 10
+okawa44: posts the ante 10
+oven25: posts the ante 10
+JAURINHO77: posts small blind 40
+okawa44: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 3s]
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+JAURINHO77: folds 
+Uncalled bet (40) returned to okawa44
+okawa44 collected 150 from pot
+okawa44: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal (button) folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (small blind) folded before Flop
+Seat 7: okawa44 (big blind) collected (150)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749030295: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:32:11 UTC [2026/02/16 9:32:11 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 1: marktaxi82 (1270 in chips) 
+Seat 2: scorza23 (2595 in chips) 
+Seat 3: Fisherman501 (1802 in chips) 
+Seat 4: mdsleal (1566 in chips) 
+Seat 5: Nasko2310 (1645 in chips) 
+Seat 6: JAURINHO77 (3553 in chips) 
+Seat 7: okawa44 (4432 in chips) 
+Seat 8: oven25 (655 in chips) 
+marktaxi82: posts the ante 10
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+Nasko2310: posts the ante 10
+JAURINHO77: posts the ante 10
+okawa44: posts the ante 10
+oven25: posts the ante 10
+okawa44: posts small blind 40
+oven25: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Jd]
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: calls 80
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: raises 160 to 240
+okawa44: folds 
+oven25: folds 
+Fisherman501: calls 160
+*** FLOP *** [Th 4c Ts]
+Fisherman501: checks 
+JAURINHO77: checks 
+*** TURN *** [Th 4c Ts] [5c]
+Fisherman501: checks 
+JAURINHO77: bets 340
+Fisherman501: calls 340
+*** RIVER *** [Th 4c Ts 5c] [9h]
+Fisherman501: bets 240
+JAURINHO77: raises 920 to 1160
+Fisherman501: raises 52 to 1212 and is all-in
+JAURINHO77: calls 52
+*** SHOW DOWN ***
+Fisherman501: shows [Ah Td] (three of a kind, Tens)
+JAURINHO77: shows [Tc Kh] (three of a kind, Tens - lower kicker)
+Fisherman501 collected 3784 from pot
+*** SUMMARY ***
+Total pot 3784 | Rake 0 
+Board [Th 4c Ts 5c 9h]
+Seat 1: marktaxi82 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 showed [Ah Td] and won (3784) with three of a kind, Tens
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (button) showed [Tc Kh] and lost with three of a kind, Tens
+Seat 7: okawa44 (small blind) folded before Flop
+Seat 8: oven25 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749042552: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:33:32 UTC [2026/02/16 9:33:32 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 1: marktaxi82 (1260 in chips) 
+Seat 2: scorza23 (2585 in chips) 
+Seat 3: Fisherman501 (3784 in chips) 
+Seat 4: mdsleal (1556 in chips) 
+Seat 5: Nasko2310 (1635 in chips) 
+Seat 6: JAURINHO77 (1751 in chips) 
+Seat 7: okawa44 (4382 in chips) 
+Seat 8: oven25 (565 in chips) 
+marktaxi82: posts the ante 10
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+Nasko2310: posts the ante 10
+JAURINHO77: posts the ante 10
+okawa44: posts the ante 10
+oven25: posts the ante 10
+oven25: posts small blind 40
+marktaxi82: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 7h]
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: raises 280 to 360
+JAURINHO77: folds 
+okawa44: folds 
+oven25: folds 
+marktaxi82: folds 
+Uncalled bet (280) returned to Nasko2310
+Nasko2310 collected 280 from pot
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: marktaxi82 (big blind) folded before Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 collected (280)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+Seat 8: oven25 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749045951: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:33:54 UTC [2026/02/16 9:33:54 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: marktaxi82 (1170 in chips) 
+Seat 2: scorza23 (2575 in chips) 
+Seat 3: Fisherman501 (3774 in chips) 
+Seat 4: mdsleal (1546 in chips) 
+Seat 5: Nasko2310 (1825 in chips) 
+Seat 6: JAURINHO77 (1741 in chips) 
+Seat 7: okawa44 (4372 in chips) 
+Seat 8: oven25 (515 in chips) 
+marktaxi82: posts the ante 10
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+Nasko2310: posts the ante 10
+JAURINHO77: posts the ante 10
+okawa44: posts the ante 10
+oven25: posts the ante 10
+marktaxi82: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Kh]
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+oven25: folds 
+marktaxi82: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 160 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Seat 1: marktaxi82 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (160)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: oven25 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749048927: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:34:14 UTC [2026/02/16 9:34:14 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: marktaxi82 (1120 in chips) 
+Seat 2: scorza23 (2685 in chips) 
+Seat 3: Fisherman501 (3764 in chips) 
+Seat 4: mdsleal (1536 in chips) 
+Seat 5: Nasko2310 (1815 in chips) 
+Seat 6: JAURINHO77 (1731 in chips) 
+Seat 7: okawa44 (4362 in chips) 
+Seat 8: oven25 (505 in chips) 
+marktaxi82: posts the ante 10
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+Nasko2310: posts the ante 10
+JAURINHO77: posts the ante 10
+okawa44: posts the ante 10
+oven25: posts the ante 10
+scorza23: posts small blind 40
+Fisherman501: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Ks]
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: raises 80 to 160
+okawa44: folds 
+oven25: folds 
+marktaxi82: folds 
+scorza23: folds 
+Fisherman501: folds 
+Uncalled bet (80) returned to JAURINHO77
+JAURINHO77 collected 280 from pot
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: marktaxi82 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (280)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749052801: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 14:34:40 UTC [2026/02/16 9:34:40 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (2635 in chips) 
+Seat 3: Fisherman501 (3674 in chips) 
+Seat 4: mdsleal (1526 in chips) 
+Seat 5: Nasko2310 (1805 in chips) 
+Seat 6: JAURINHO77 (1921 in chips) 
+Seat 7: okawa44 (4352 in chips) 
+Seat 8: oven25 (495 in chips) 
+scorza23: posts the ante 10
+Fisherman501: posts the ante 10
+mdsleal: posts the ante 10
+Nasko2310: posts the ante 10
+JAURINHO77: posts the ante 10
+okawa44: posts the ante 10
+oven25: posts the ante 10
+Fisherman501: posts small blind 40
+mdsleal: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Qd]
+Nasko2310: calls 80
+JAURINHO77: folds 
+okawa44: calls 80
+oven25: folds 
+scorza23: folds 
+Fisherman501: raises 160 to 240
+mdsleal: folds 
+Nasko2310: calls 160
+okawa44: calls 160
+*** FLOP *** [7h 4h Jh]
+Fisherman501: bets 435
+Nasko2310: folds 
+okawa44: folds 
+Uncalled bet (435) returned to Fisherman501
+Fisherman501 collected 870 from pot
+Fisherman501: doesn't show hand 
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [7h 4h Jh]
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) collected (870)
+Seat 4: mdsleal (big blind) folded before Flop
+Seat 5: Nasko2310 folded on the Flop
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded on the Flop
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749060482: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:35:29 UTC [2026/02/16 9:35:29 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (2625 in chips) 
+Seat 3: Fisherman501 (4294 in chips) 
+Seat 4: mdsleal (1436 in chips) 
+Seat 5: Nasko2310 (1555 in chips) 
+Seat 6: JAURINHO77 (1911 in chips) 
+Seat 7: okawa44 (4102 in chips) 
+Seat 8: oven25 (485 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+oven25: posts the ante 15
+mdsleal: posts small blind 60
+Nasko2310: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Ks]
+JAURINHO77: folds 
+okawa44: folds 
+oven25: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: raises 1301 to 1421 and is all-in
+Nasko2310: folds 
+Uncalled bet (1301) returned to mdsleal
+mdsleal collected 345 from pot
+*** SUMMARY ***
+Total pot 345 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 4: mdsleal (small blind) collected (345)
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749063619: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:35:49 UTC [2026/02/16 9:35:49 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (2610 in chips) 
+Seat 3: Fisherman501 (4279 in chips) 
+Seat 4: mdsleal (1646 in chips) 
+Seat 5: Nasko2310 (1420 in chips) 
+Seat 6: JAURINHO77 (1896 in chips) 
+Seat 7: okawa44 (4087 in chips) 
+Seat 8: oven25 (470 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+oven25: posts the ante 15
+Nasko2310: posts small blind 60
+JAURINHO77: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 4d]
+okawa44: calls 120
+oven25: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: checks 
+*** FLOP *** [7s 2s Tc]
+JAURINHO77: checks 
+okawa44: bets 203
+JAURINHO77: raises 406 to 609
+okawa44: folds 
+Uncalled bet (406) returned to JAURINHO77
+JAURINHO77 collected 811 from pot
+*** SUMMARY ***
+Total pot 811 | Rake 0 
+Board [7s 2s Tc]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 6: JAURINHO77 (big blind) collected (811)
+Seat 7: okawa44 folded on the Flop
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749070500: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:36:34 UTC [2026/02/16 9:36:34 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (2595 in chips) 
+Seat 3: Fisherman501 (4264 in chips) 
+Seat 4: mdsleal (1631 in chips) 
+Seat 5: Nasko2310 (1345 in chips) 
+Seat 6: JAURINHO77 (2369 in chips) 
+Seat 7: okawa44 (3749 in chips) 
+Seat 8: oven25 (455 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+oven25: posts the ante 15
+JAURINHO77: posts small blind 60
+okawa44: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 9d]
+oven25: raises 320 to 440 and is all-in
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+Uncalled bet (320) returned to oven25
+oven25 collected 405 from pot
+oven25: doesn't show hand 
+*** SUMMARY ***
+Total pot 405 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (small blind) folded before Flop
+Seat 7: okawa44 (big blind) folded before Flop
+Seat 8: oven25 collected (405)
+
+
+
+PokerStars Hand #259749074072: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:36:57 UTC [2026/02/16 9:36:57 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 2: scorza23 (2580 in chips) 
+Seat 3: Fisherman501 (4249 in chips) 
+Seat 4: mdsleal (1616 in chips) 
+Seat 5: Nasko2310 (1330 in chips) 
+Seat 6: JAURINHO77 (2294 in chips) 
+Seat 7: okawa44 (3614 in chips) 
+Seat 8: oven25 (725 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+oven25: posts the ante 15
+okawa44: posts small blind 60
+oven25: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Tc]
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: raises 1195 to 1315 and is all-in
+JAURINHO77: folds 
+okawa44: folds 
+oven25: calls 590 and is all-in
+Uncalled bet (605) returned to Nasko2310
+*** FLOP *** [Kh 5c 4s]
+*** TURN *** [Kh 5c 4s] [9h]
+*** RIVER *** [Kh 5c 4s 9h] [3h]
+*** SHOW DOWN ***
+oven25: shows [8d As] (high card Ace)
+Nasko2310: shows [Ah Qs] (high card Ace - King+Queen kicker)
+Nasko2310 collected 1585 from pot
+oven25 finished the tournament in 21st place
+*** SUMMARY ***
+Total pot 1585 | Rake 0 
+Board [Kh 5c 4s 9h 3h]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 showed [Ah Qs] and won (1585) with high card Ace
+Seat 6: JAURINHO77 (button) folded before Flop (didn't bet)
+Seat 7: okawa44 (small blind) folded before Flop
+Seat 8: oven25 (big blind) showed [8d As] and lost with high card Ace
+
+
+
+PokerStars Hand #259749078460: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:37:26 UTC [2026/02/16 9:37:26 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (2565 in chips) 
+Seat 3: Fisherman501 (4234 in chips) 
+Seat 4: mdsleal (1601 in chips) 
+Seat 5: Nasko2310 (2190 in chips) 
+Seat 6: JAURINHO77 (2279 in chips) 
+Seat 7: okawa44 (3539 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+scorza23: posts small blind 60
+Fisherman501: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Jc]
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+scorza23: folds 
+Uncalled bet (60) returned to Fisherman501
+Fisherman501 collected 210 from pot
+Fisherman501: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) collected (210)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749080262: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:37:38 UTC [2026/02/16 9:37:38 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (2490 in chips) 
+Seat 3: Fisherman501 (4369 in chips) 
+Seat 4: mdsleal (1586 in chips) 
+Seat 5: Nasko2310 (2175 in chips) 
+Seat 6: JAURINHO77 (2264 in chips) 
+Seat 7: okawa44 (3524 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+Fisherman501: posts small blind 60
+mdsleal: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 7s]
+Nasko2310: folds 
+JAURINHO77: raises 120 to 240
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Uncalled bet (120) returned to JAURINHO77
+JAURINHO77 collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 4: mdsleal (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (390)
+Seat 7: okawa44 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749082849: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:37:54 UTC [2026/02/16 9:37:54 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (2475 in chips) 
+Seat 3: Fisherman501 (4294 in chips) 
+Seat 4: mdsleal (1451 in chips) 
+Seat 5: Nasko2310 (2160 in chips) 
+Seat 6: JAURINHO77 (2519 in chips) 
+Seat 7: okawa44 (3509 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+mdsleal: posts small blind 60
+Nasko2310: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6s]
+JAURINHO77: folds 
+okawa44: raises 120 to 240
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: folds 
+Uncalled bet (120) returned to okawa44
+okawa44 collected 390 from pot
+okawa44: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 4: mdsleal (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 collected (390)
+
+
+
+PokerStars Hand #259749087358: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:38:24 UTC [2026/02/16 9:38:24 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (2460 in chips) 
+Seat 3: Fisherman501 (4279 in chips) 
+Seat 4: mdsleal (1376 in chips) 
+Seat 5: Nasko2310 (2025 in chips) 
+Seat 6: JAURINHO77 (2504 in chips) 
+Seat 7: okawa44 (3764 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+Nasko2310: posts small blind 60
+JAURINHO77: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5c]
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: folds 
+Uncalled bet (60) returned to JAURINHO77
+JAURINHO77 collected 210 from pot
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 6: JAURINHO77 (big blind) collected (210)
+Seat 7: okawa44 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749089702: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:38:39 UTC [2026/02/16 9:38:39 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (2445 in chips) 
+Seat 3: Fisherman501 (4264 in chips) 
+Seat 4: mdsleal (1361 in chips) 
+Seat 5: Nasko2310 (1950 in chips) 
+Seat 6: JAURINHO77 (2639 in chips) 
+Seat 7: okawa44 (3749 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+JAURINHO77: posts small blind 60
+okawa44: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 5h]
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: raises 1815 to 1935 and is all-in
+JAURINHO77: folds 
+okawa44: folds 
+Uncalled bet (1815) returned to Nasko2310
+Nasko2310 collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) collected (390)
+Seat 6: JAURINHO77 (small blind) folded before Flop
+Seat 7: okawa44 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749094726: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:39:12 UTC [2026/02/16 9:39:12 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 2: scorza23 (2430 in chips) 
+Seat 3: Fisherman501 (4249 in chips) 
+Seat 4: mdsleal (1346 in chips) 
+Seat 5: Nasko2310 (2205 in chips) 
+Seat 6: JAURINHO77 (2564 in chips) 
+Seat 7: okawa44 (3614 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+okawa44: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4d]
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: raises 240 to 360
+scorza23: folds 
+Uncalled bet (240) returned to okawa44
+okawa44 collected 330 from pot
+okawa44: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (button) folded before Flop (didn't bet)
+Seat 7: okawa44 (small blind) collected (330)
+
+
+
+PokerStars Hand #259749100422: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 14:39:49 UTC [2026/02/16 9:39:49 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (2295 in chips) 
+Seat 3: Fisherman501 (4234 in chips) 
+Seat 4: mdsleal (1331 in chips) 
+Seat 5: Nasko2310 (2190 in chips) 
+Seat 6: JAURINHO77 (2549 in chips) 
+Seat 7: okawa44 (3809 in chips) 
+scorza23: posts the ante 15
+Fisherman501: posts the ante 15
+mdsleal: posts the ante 15
+Nasko2310: posts the ante 15
+JAURINHO77: posts the ante 15
+okawa44: posts the ante 15
+scorza23: posts small blind 60
+Fisherman501: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2d]
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: raises 120 to 240
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+Uncalled bet (120) returned to JAURINHO77
+JAURINHO77 collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (390)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749106145: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:40:26 UTC [2026/02/16 9:40:26 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (2220 in chips) 
+Seat 3: Fisherman501 (4099 in chips) 
+Seat 4: mdsleal (1316 in chips) 
+Seat 5: Nasko2310 (2175 in chips) 
+Seat 6: JAURINHO77 (2804 in chips) 
+Seat 7: okawa44 (3794 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+Fisherman501: posts small blind 80
+mdsleal: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 9d]
+Nasko2310: folds 
+JAURINHO77: raises 160 to 320
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Uncalled bet (160) returned to JAURINHO77
+JAURINHO77 collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 4: mdsleal (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (520)
+Seat 7: okawa44 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749111593: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:41:02 UTC [2026/02/16 9:41:02 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (2200 in chips) 
+Seat 3: Fisherman501 (3999 in chips) 
+Seat 4: mdsleal (1136 in chips) 
+Seat 5: Nasko2310 (2155 in chips) 
+Seat 6: JAURINHO77 (3144 in chips) 
+Seat 7: okawa44 (3774 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+mdsleal: posts small blind 80
+Nasko2310: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 6s]
+JAURINHO77: folds 
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds [2d 7s]
+Uncalled bet (80) returned to Nasko2310
+Nasko2310 collected 280 from pot
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 4: mdsleal (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) collected (280)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749113754: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:41:15 UTC [2026/02/16 9:41:15 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (2180 in chips) 
+Seat 3: Fisherman501 (3979 in chips) 
+Seat 4: mdsleal (1036 in chips) 
+Seat 5: Nasko2310 (2335 in chips) 
+Seat 6: JAURINHO77 (3124 in chips) 
+Seat 7: okawa44 (3754 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+Nasko2310: posts small blind 80
+JAURINHO77: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2d]
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: raises 2155 to 2315 and is all-in
+JAURINHO77: folds 
+Uncalled bet (2155) returned to Nasko2310
+Nasko2310 collected 440 from pot
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) collected (440)
+Seat 6: JAURINHO77 (big blind) folded before Flop
+Seat 7: okawa44 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749118151: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:41:44 UTC [2026/02/16 9:41:44 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (2160 in chips) 
+Seat 3: Fisherman501 (3959 in chips) 
+Seat 4: mdsleal (1016 in chips) 
+Seat 5: Nasko2310 (2595 in chips) 
+Seat 6: JAURINHO77 (2944 in chips) 
+Seat 7: okawa44 (3734 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+JAURINHO77: posts small blind 80
+okawa44: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4h]
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+Uncalled bet (80) returned to okawa44
+okawa44 collected 280 from pot
+okawa44: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (small blind) folded before Flop
+Seat 7: okawa44 (big blind) collected (280)
+
+
+
+PokerStars Hand #259749121106: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:42:03 UTC [2026/02/16 9:42:03 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 2: scorza23 (2140 in chips) 
+Seat 3: Fisherman501 (3939 in chips) 
+Seat 4: mdsleal (996 in chips) 
+Seat 5: Nasko2310 (2575 in chips) 
+Seat 6: JAURINHO77 (2844 in chips) 
+Seat 7: okawa44 (3914 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+okawa44: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6h]
+Fisherman501: folds 
+mdsleal: raises 816 to 976 and is all-in
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+scorza23: folds 
+Uncalled bet (816) returned to mdsleal
+mdsleal collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal collected (520)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (button) folded before Flop (didn't bet)
+Seat 7: okawa44 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749123310: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:42:17 UTC [2026/02/16 9:42:17 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (1960 in chips) 
+Seat 3: Fisherman501 (3919 in chips) 
+Seat 4: mdsleal (1336 in chips) 
+Seat 5: Nasko2310 (2555 in chips) 
+Seat 6: JAURINHO77 (2824 in chips) 
+Seat 7: okawa44 (3814 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+scorza23: posts small blind 80
+Fisherman501: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 8s]
+mdsleal: folds 
+Nasko2310: raises 2375 to 2535 and is all-in
+JAURINHO77: folds 
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+Uncalled bet (2375) returned to Nasko2310
+Nasko2310 collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 4: mdsleal folded before Flop (didn't bet)
+Seat 5: Nasko2310 collected (520)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749125306: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:42:30 UTC [2026/02/16 9:42:30 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (1860 in chips) 
+Seat 3: Fisherman501 (3739 in chips) 
+Seat 4: mdsleal (1316 in chips) 
+Seat 5: Nasko2310 (2895 in chips) 
+Seat 6: JAURINHO77 (2804 in chips) 
+Seat 7: okawa44 (3794 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+Fisherman501: posts small blind 80
+mdsleal: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 9d]
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+scorza23: raises 320 to 480
+Fisherman501: folds 
+mdsleal: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 520 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 2: scorza23 (button) collected (520)
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 4: mdsleal (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749128916: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:42:54 UTC [2026/02/16 9:42:54 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (2200 in chips) 
+Seat 3: Fisherman501 (3639 in chips) 
+Seat 4: mdsleal (1136 in chips) 
+Seat 5: Nasko2310 (2875 in chips) 
+Seat 6: JAURINHO77 (2784 in chips) 
+Seat 7: okawa44 (3774 in chips) 
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+mdsleal: posts small blind 80
+Nasko2310: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Td]
+JAURINHO77: folds 
+pirmanovdier is disconnected 
+okawa44: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: raises 956 to 1116 and is all-in
+Nasko2310: folds 
+Uncalled bet (956) returned to mdsleal
+mdsleal collected 440 from pot
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 4: mdsleal (small blind) collected (440)
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749131588: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:43:11 UTC [2026/02/16 9:43:11 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 1: foigas (187 in chips) is sitting out
+Seat 2: scorza23 (2180 in chips) 
+Seat 3: Fisherman501 (3619 in chips) 
+Seat 4: mdsleal (1396 in chips) 
+Seat 5: Nasko2310 (2695 in chips) 
+Seat 6: JAURINHO77 (2764 in chips) 
+Seat 7: okawa44 (3754 in chips) 
+Seat 8: pirmanovdier (3399 in chips) is sitting out
+foigas: posts the ante 20
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+mdsleal: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+pirmanovdier: posts the ante 20
+Nasko2310: posts small blind 80
+JAURINHO77: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5d]
+okawa44: calls 160
+pirmanovdier: folds 
+foigas: folds 
+scorza23: folds 
+Fisherman501: folds 
+mdsleal: raises 1216 to 1376 and is all-in
+Nasko2310: raises 1299 to 2675 and is all-in
+JAURINHO77: folds 
+okawa44: folds 
+Uncalled bet (1299) returned to Nasko2310
+*** FLOP *** [Th Td 3s]
+*** TURN *** [Th Td 3s] [Qd]
+*** RIVER *** [Th Td 3s Qd] [Ac]
+*** SHOW DOWN ***
+Nasko2310: shows [Ad Kc] (two pair, Aces and Tens)
+mdsleal: shows [7c Js] (a pair of Tens)
+Nasko2310 collected 3232 from pot
+mdsleal finished the tournament in 16th place
+*** SUMMARY ***
+Total pot 3232 | Rake 0 
+Board [Th Td 3s Qd Ac]
+Seat 1: foigas folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 4: mdsleal (button) showed [7c Js] and lost with a pair of Tens
+Seat 5: Nasko2310 (small blind) showed [Ad Kc] and won (3232) with two pair, Aces and Tens
+Seat 6: JAURINHO77 (big blind) folded before Flop
+Seat 7: okawa44 folded before Flop
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749136312: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:43:42 UTC [2026/02/16 9:43:42 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: foigas (167 in chips) is sitting out
+Seat 2: scorza23 (2160 in chips) 
+Seat 3: Fisherman501 (3599 in chips) 
+Seat 5: Nasko2310 (4531 in chips) 
+Seat 6: JAURINHO77 (2584 in chips) 
+Seat 7: okawa44 (3574 in chips) 
+Seat 8: pirmanovdier (3379 in chips) is sitting out
+foigas: posts the ante 20
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+pirmanovdier: posts the ante 20
+JAURINHO77: posts small blind 80
+okawa44: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 7d]
+pirmanovdier: folds 
+foigas: folds 
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+JAURINHO77: raises 2404 to 2564 and is all-in
+okawa44: folds 
+Uncalled bet (2404) returned to JAURINHO77
+JAURINHO77 collected 460 from pot
+*** SUMMARY ***
+Total pot 460 | Rake 0 
+Seat 1: foigas folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (small blind) collected (460)
+Seat 7: okawa44 (big blind) folded before Flop
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749140411: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:44:08 UTC [2026/02/16 9:44:08 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 1: foigas (147 in chips) is sitting out
+Seat 2: scorza23 (2140 in chips) 
+Seat 3: Fisherman501 (3579 in chips) 
+Seat 5: Nasko2310 (4511 in chips) 
+Seat 6: JAURINHO77 (2864 in chips) 
+Seat 7: okawa44 (3394 in chips) 
+Seat 8: pirmanovdier (3359 in chips) is sitting out
+foigas: posts the ante 20
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+pirmanovdier: posts the ante 20
+okawa44: posts small blind 80
+pirmanovdier: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 7d]
+foigas: folds 
+scorza23: folds 
+Fisherman501: raises 160 to 320
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+pirmanovdier: folds 
+Uncalled bet (160) returned to Fisherman501
+Fisherman501 collected 540 from pot
+Fisherman501: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 1: foigas folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 collected (540)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (button) folded before Flop (didn't bet)
+Seat 7: okawa44 (small blind) folded before Flop
+Seat 8: pirmanovdier (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749143033: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:44:24 UTC [2026/02/16 9:44:24 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 1: foigas (127 in chips) is sitting out
+Seat 2: scorza23 (2120 in chips) 
+Seat 3: Fisherman501 (3939 in chips) 
+Seat 5: Nasko2310 (4491 in chips) 
+Seat 6: JAURINHO77 (2844 in chips) 
+Seat 7: okawa44 (3294 in chips) 
+Seat 8: pirmanovdier (3179 in chips) is sitting out
+foigas: posts the ante 20
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+pirmanovdier: posts the ante 20
+pirmanovdier: posts small blind 80
+foigas: posts big blind 107 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 6c]
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+JAURINHO77: raises 213 to 320
+okawa44: folds 
+pirmanovdier: folds 
+foigas: folds 
+Uncalled bet (213) returned to JAURINHO77
+JAURINHO77 collected 434 from pot
+foigas finished the tournament in 15th place
+*** SUMMARY ***
+Total pot 434 | Rake 0 
+Seat 1: foigas (big blind) folded before Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (434)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+Seat 8: pirmanovdier (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749145415: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 14:44:40 UTC [2026/02/16 9:44:40 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 2: scorza23 (2100 in chips) 
+Seat 3: Fisherman501 (3919 in chips) 
+Seat 5: Nasko2310 (4471 in chips) 
+Seat 6: JAURINHO77 (3151 in chips) 
+Seat 7: okawa44 (3274 in chips) 
+Seat 8: pirmanovdier (3079 in chips) is sitting out
+scorza23: posts the ante 20
+Fisherman501: posts the ante 20
+Nasko2310: posts the ante 20
+JAURINHO77: posts the ante 20
+okawa44: posts the ante 20
+pirmanovdier: posts the ante 20
+scorza23: posts small blind 80
+Fisherman501: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Kh]
+Duigo1 is disconnected 
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+pirmanovdier: folds 
+scorza23: raises 320 to 480
+Fisherman501: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 440 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 2: scorza23 (small blind) collected (440)
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749153295: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:45:30 UTC [2026/02/16 9:45:30 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: Duigo1 (2020 in chips) 
+Seat 2: scorza23 (2360 in chips) 
+Seat 3: Fisherman501 (3739 in chips) 
+Seat 5: Nasko2310 (4451 in chips) 
+Seat 6: JAURINHO77 (3131 in chips) 
+Seat 7: okawa44 (3254 in chips) 
+Seat 8: pirmanovdier (3059 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+JAURINHO77: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+Fisherman501: posts small blind 100
+Nasko2310: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 3d]
+JAURINHO77: folds 
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+Fisherman501: folds 
+Uncalled bet (100) returned to Nasko2310
+Nasko2310 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) collected (375)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749155594: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:45:45 UTC [2026/02/16 9:45:45 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: Duigo1 (1995 in chips) 
+Seat 2: scorza23 (2335 in chips) 
+Seat 3: Fisherman501 (3614 in chips) 
+Seat 5: Nasko2310 (4701 in chips) 
+Seat 6: JAURINHO77 (3106 in chips) 
+Seat 7: okawa44 (3229 in chips) 
+Seat 8: pirmanovdier (3034 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+JAURINHO77: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+Nasko2310: posts small blind 100
+JAURINHO77: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Kh]
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: raises 1770 to 1970 and is all-in
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+Uncalled bet (1770) returned to Duigo1
+Duigo1 collected 675 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 1: Duigo1 collected (675)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 6: JAURINHO77 (big blind) folded before Flop
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749162818: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:46:32 UTC [2026/02/16 9:46:32 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: Duigo1 (2445 in chips) 
+Seat 2: scorza23 (2310 in chips) 
+Seat 3: Fisherman501 (3589 in chips) 
+Seat 5: Nasko2310 (4576 in chips) 
+Seat 6: JAURINHO77 (2881 in chips) 
+Seat 7: okawa44 (3204 in chips) 
+Seat 8: pirmanovdier (3009 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+JAURINHO77: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+JAURINHO77: posts small blind 100
+okawa44: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 8s]
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: raises 400 to 600
+Fisherman501: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: calls 400
+*** FLOP *** [7d 8h 6c]
+okawa44: checks 
+scorza23: bets 1475
+okawa44: folds 
+Uncalled bet (1475) returned to scorza23
+scorza23 collected 1475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1475 | Rake 0 
+Board [7d 8h 6c]
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 collected (1475)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (small blind) folded before Flop
+Seat 7: okawa44 (big blind) folded on the Flop
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749169071: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:47:12 UTC [2026/02/16 9:47:12 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 1: Duigo1 (2420 in chips) 
+Seat 2: scorza23 (3160 in chips) 
+Seat 3: Fisherman501 (3564 in chips) 
+Seat 5: Nasko2310 (4551 in chips) 
+Seat 6: JAURINHO77 (2756 in chips) 
+Seat 7: okawa44 (2579 in chips) 
+Seat 8: pirmanovdier (2984 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+JAURINHO77: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+okawa44: posts small blind 100
+pirmanovdier: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Qs]
+Duigo1: folds 
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+JAURINHO77: raises 200 to 400
+okawa44: folds 
+pirmanovdier: folds 
+Uncalled bet (200) returned to JAURINHO77
+JAURINHO77 collected 675 from pot
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 (button) collected (675)
+Seat 7: okawa44 (small blind) folded before Flop
+Seat 8: pirmanovdier (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749173528: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:47:40 UTC [2026/02/16 9:47:40 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 1: Duigo1 (2395 in chips) 
+Seat 2: scorza23 (3135 in chips) 
+Seat 3: Fisherman501 (3539 in chips) 
+Seat 5: Nasko2310 (4526 in chips) 
+Seat 6: JAURINHO77 (3206 in chips) 
+Seat 7: okawa44 (2454 in chips) 
+Seat 8: pirmanovdier (2759 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+JAURINHO77: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+pirmanovdier: posts small blind 100
+Duigo1: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Jc]
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+JAURINHO77: raises 200 to 400
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: calls 200
+*** FLOP *** [2h 3c 8c]
+Duigo1: checks 
+JAURINHO77: bets 538
+Duigo1: folds 
+Uncalled bet (538) returned to JAURINHO77
+JAURINHO77 collected 1075 from pot
+*** SUMMARY ***
+Total pot 1075 | Rake 0 
+Board [2h 3c 8c]
+Seat 1: Duigo1 (big blind) folded on the Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 collected (1075)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+Seat 8: pirmanovdier (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749180797: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:48:26 UTC [2026/02/16 9:48:26 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: Duigo1 (1970 in chips) 
+Seat 2: scorza23 (3110 in chips) 
+Seat 3: Fisherman501 (3514 in chips) 
+Seat 5: Nasko2310 (4501 in chips) 
+Seat 6: JAURINHO77 (3856 in chips) 
+Seat 7: okawa44 (2429 in chips) 
+Seat 8: pirmanovdier (2634 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+JAURINHO77: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+Duigo1: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 5c]
+Fisherman501: folds 
+Nasko2310: folds 
+JAURINHO77: folds 
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: raises 1745 to 1945 and is all-in
+scorza23: folds 
+Uncalled bet (1745) returned to Duigo1
+Duigo1 collected 575 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 575 | Rake 0 
+Seat 1: Duigo1 (small blind) collected (575)
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: JAURINHO77 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749185861: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:48:57 UTC [2026/02/16 9:48:57 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: Duigo1 (2320 in chips) 
+Seat 2: scorza23 (2885 in chips) 
+Seat 3: Fisherman501 (3489 in chips) 
+Seat 5: Nasko2310 (4476 in chips) 
+Seat 7: okawa44 (2404 in chips) 
+Seat 8: pirmanovdier (2609 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+scorza23: posts small blind 100
+Fisherman501: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5d]
+Nasko2310: folds 
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: raises 400 to 600
+Fisherman501: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 550 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: Duigo1 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) collected (550)
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749188998: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:49:17 UTC [2026/02/16 9:49:17 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: Duigo1 (2295 in chips) 
+Seat 2: scorza23 (3210 in chips) 
+Seat 3: Fisherman501 (3264 in chips) 
+Seat 5: Nasko2310 (4451 in chips) 
+Seat 7: okawa44 (2379 in chips) 
+Seat 8: pirmanovdier (2584 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+Fisherman501: posts small blind 100
+Nasko2310: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 6c]
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+Fisherman501: folds 
+Uncalled bet (100) returned to Nasko2310
+Nasko2310 collected 350 from pot
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) collected (350)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749191127: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:49:30 UTC [2026/02/16 9:49:30 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: Duigo1 (2270 in chips) 
+Seat 2: scorza23 (3185 in chips) 
+Seat 3: Fisherman501 (3139 in chips) 
+Seat 5: Nasko2310 (4676 in chips) 
+Seat 7: okawa44 (2354 in chips) 
+Seat 8: pirmanovdier (2559 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+Nasko2310: posts small blind 100
+okawa44: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 4h]
+pirmanovdier: folds 
+Duigo1: raises 2045 to 2245 and is all-in
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+okawa44: folds 
+Uncalled bet (2045) returned to Duigo1
+Duigo1 collected 650 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: Duigo1 collected (650)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 7: okawa44 (big blind) folded before Flop
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749193834: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:49:47 UTC [2026/02/16 9:49:47 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: Duigo1 (2695 in chips) 
+Seat 2: scorza23 (3160 in chips) 
+Seat 3: Fisherman501 (3114 in chips) 
+Seat 5: Nasko2310 (4551 in chips) 
+Seat 7: okawa44 (2129 in chips) 
+Seat 8: pirmanovdier (2534 in chips) is sitting out
+Duigo1: posts the ante 25
+scorza23: posts the ante 25
+Fisherman501: posts the ante 25
+Nasko2310: posts the ante 25
+okawa44: posts the ante 25
+pirmanovdier: posts the ante 25
+okawa44: posts small blind 100
+pirmanovdier: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ts]
+Duigo1: folds 
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+okawa44: calls 100
+pirmanovdier: folds 
+okawa44 collected 550 from pot
+okawa44: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 7: okawa44 (small blind) collected (550)
+Seat 8: pirmanovdier (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749197553: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:50:11 UTC [2026/02/16 9:50:11 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 1: Duigo1 (2670 in chips) 
+Seat 2: scorza23 (3135 in chips) 
+Seat 3: Fisherman501 (3089 in chips) 
+Seat 5: Nasko2310 (4526 in chips) 
+Seat 7: okawa44 (2454 in chips) 
+Seat 8: pirmanovdier (2309 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+pirmanovdier: posts small blind 150
+Duigo1: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 2s]
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+okawa44: folds 
+pirmanovdier: folds 
+Uncalled bet (150) returned to Duigo1
+Duigo1 collected 510 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Seat 1: Duigo1 (big blind) collected (510)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+Seat 8: pirmanovdier (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749199333: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:50:22 UTC [2026/02/16 9:50:22 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: Duigo1 (2995 in chips) 
+Seat 2: scorza23 (3100 in chips) 
+Seat 3: Fisherman501 (3054 in chips) 
+Seat 5: Nasko2310 (4491 in chips) 
+Seat 7: okawa44 (2419 in chips) 
+Seat 8: pirmanovdier (2124 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+Duigo1: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 2s]
+Fisherman501: folds 
+Nasko2310: folds 
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: raises 2660 to 2960 and is all-in
+scorza23: folds 
+Uncalled bet (2660) returned to Duigo1
+Duigo1 collected 810 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 810 | Rake 0 
+Seat 1: Duigo1 (small blind) collected (810)
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749202115: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:50:40 UTC [2026/02/16 9:50:40 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: Duigo1 (3470 in chips) 
+Seat 2: scorza23 (2765 in chips) 
+Seat 3: Fisherman501 (3019 in chips) 
+Seat 5: Nasko2310 (4456 in chips) 
+Seat 7: okawa44 (2384 in chips) 
+Seat 8: pirmanovdier (2089 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+scorza23: posts small blind 150
+Fisherman501: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5d As]
+Nasko2310 has timed out
+Nasko2310: folds 
+Nasko2310 is sitting out
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: raises 3135 to 3435 and is all-in
+scorza23: folds 
+Fisherman501: folds 
+Uncalled bet (3135) returned to Duigo1
+Duigo1 collected 960 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: Duigo1 (button) collected (960)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749206087: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:51:05 UTC [2026/02/16 9:51:05 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: Duigo1 (4095 in chips) 
+Seat 2: scorza23 (2580 in chips) 
+Seat 3: Fisherman501 (2684 in chips) 
+Seat 5: Nasko2310 (4421 in chips) is sitting out
+Seat 7: okawa44 (2349 in chips) 
+Seat 8: pirmanovdier (2054 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+Fisherman501: posts small blind 150
+Nasko2310: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Td]
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: raises 600 to 900
+Fisherman501: folds 
+Nasko2310: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 960 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) collected (960)
+Seat 3: Fisherman501 (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 7: okawa44 folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749208053: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:51:18 UTC [2026/02/16 9:51:18 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: Duigo1 (4060 in chips) 
+Seat 2: scorza23 (3205 in chips) 
+Seat 3: Fisherman501 (2499 in chips) 
+Seat 5: Nasko2310 (4086 in chips) is sitting out
+Seat 7: okawa44 (2314 in chips) 
+Seat 8: pirmanovdier (2019 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+Nasko2310: posts small blind 150
+okawa44: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6d]
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+Uncalled bet (150) returned to okawa44
+okawa44 collected 510 from pot
+okawa44: doesn't show hand 
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 7: okawa44 (big blind) collected (510)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749209436: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:51:26 UTC [2026/02/16 9:51:26 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: Duigo1 (4025 in chips) 
+Seat 2: scorza23 (3170 in chips) 
+Seat 3: Fisherman501 (2464 in chips) 
+Seat 5: Nasko2310 (3901 in chips) is sitting out
+Seat 7: okawa44 (2639 in chips) 
+Seat 8: pirmanovdier (1984 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+okawa44: posts small blind 150
+pirmanovdier: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 7s]
+Duigo1: folds 
+scorza23: folds 
+Fisherman501: folds 
+Nasko2310: folds 
+okawa44: calls 150
+pirmanovdier: folds 
+okawa44 collected 810 from pot
+okawa44: doesn't show hand 
+*** SUMMARY ***
+Total pot 810 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 7: okawa44 (small blind) collected (810)
+Seat 8: pirmanovdier (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749211505: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:51:40 UTC [2026/02/16 9:51:40 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 1: Duigo1 (3990 in chips) 
+Seat 2: scorza23 (3135 in chips) 
+Seat 3: Fisherman501 (2429 in chips) 
+Seat 5: Nasko2310 (3866 in chips) is sitting out
+Seat 7: okawa44 (3114 in chips) 
+Seat 8: pirmanovdier (1649 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+pirmanovdier: posts small blind 150
+Duigo1: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 4h]
+scorza23: folds 
+Fisherman501: calls 300
+Nasko2310: folds 
+okawa44: folds 
+pirmanovdier: folds 
+Duigo1: checks 
+*** FLOP *** [Js 8c 6s]
+Duigo1: bets 300
+Nasko2310 has returned
+Fisherman501: raises 780 to 1080
+Duigo1: folds 
+Uncalled bet (780) returned to Fisherman501
+Fisherman501 collected 1560 from pot
+Fisherman501: doesn't show hand 
+*** SUMMARY ***
+Total pot 1560 | Rake 0 
+Board [Js 8c 6s]
+Seat 1: Duigo1 (big blind) folded on the Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Fisherman501 collected (1560)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: okawa44 (button) folded before Flop (didn't bet)
+Seat 8: pirmanovdier (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749217713: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:52:19 UTC [2026/02/16 9:52:19 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: Duigo1 (3355 in chips) 
+Seat 2: scorza23 (3100 in chips) 
+Seat 3: Fisherman501 (3354 in chips) 
+Seat 5: Nasko2310 (3831 in chips) 
+Seat 7: okawa44 (3079 in chips) 
+Seat 8: pirmanovdier (1464 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+okawa44: posts the ante 35
+pirmanovdier: posts the ante 35
+Duigo1: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 2d]
+Fisherman501: folds 
+Nasko2310: folds 
+okawa44: raises 600 to 900
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: raises 2165 to 3065 and is all-in
+okawa44: calls 2144 and is all-in
+Uncalled bet (21) returned to scorza23
+*** FLOP *** [8h 4d 2c]
+*** TURN *** [8h 4d 2c] [Kd]
+*** RIVER *** [8h 4d 2c Kd] [Js]
+*** SHOW DOWN ***
+scorza23: shows [2s 2d] (three of a kind, Deuces)
+okawa44: shows [Ah Ks] (a pair of Kings)
+scorza23 collected 6448 from pot
+okawa44 finished the tournament in 11th place
+*** SUMMARY ***
+Total pot 6448 | Rake 0 
+Board [8h 4d 2c Kd Js]
+Seat 1: Duigo1 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) showed [2s 2d] and won (6448) with three of a kind, Deuces
+Seat 3: Fisherman501 folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: okawa44 showed [Ah Ks] and lost with a pair of Kings
+Seat 8: pirmanovdier (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749227050: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:53:18 UTC [2026/02/16 9:53:18 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: Duigo1 (3170 in chips) 
+Seat 2: scorza23 (6469 in chips) 
+Seat 3: Fisherman501 (3319 in chips) 
+Seat 5: Nasko2310 (3796 in chips) 
+Seat 8: pirmanovdier (1429 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+pirmanovdier: posts the ante 35
+scorza23: posts small blind 150
+Fisherman501: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Qh]
+Nasko2310 has timed out
+Nasko2310: folds 
+Nasko2310 is sitting out
+pirmanovdier: folds 
+Duigo1: raises 2835 to 3135 and is all-in
+scorza23: folds 
+Fisherman501: calls 2835
+*** FLOP *** [Kh Jd 3s]
+*** TURN *** [Kh Jd 3s] [9d]
+*** RIVER *** [Kh Jd 3s 9d] [Jc]
+*** SHOW DOWN ***
+Fisherman501: shows [Qd Ad] (a pair of Jacks)
+Duigo1: shows [7h 7d] (two pair, Jacks and Sevens)
+Duigo1 collected 6595 from pot
+*** SUMMARY ***
+Total pot 6595 | Rake 0 
+Board [Kh Jd 3s 9d Jc]
+Seat 1: Duigo1 (button) showed [7h 7d] and won (6595) with two pair, Jacks and Sevens
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Fisherman501 (big blind) showed [Qd Ad] and lost with a pair of Jacks
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749232209: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:53:51 UTC [2026/02/16 9:53:51 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: Duigo1 (6595 in chips) 
+Seat 2: scorza23 (6284 in chips) 
+Seat 3: Fisherman501 (149 in chips) 
+Seat 5: Nasko2310 (3761 in chips) is sitting out
+Seat 8: pirmanovdier (1394 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Fisherman501: posts the ante 35
+Nasko2310: posts the ante 35
+pirmanovdier: posts the ante 35
+Fisherman501: posts small blind 114 and is all-in
+Nasko2310: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 9d]
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+Uncalled bet (186) returned to Nasko2310
+*** FLOP *** [Tc As 5h]
+*** TURN *** [Tc As 5h] [5s]
+*** RIVER *** [Tc As 5h 5s] [8c]
+*** SHOW DOWN ***
+Fisherman501: shows [9h 7s] (a pair of Fives)
+Nasko2310: shows [4h Ts] (two pair, Tens and Fives)
+Nasko2310 collected 403 from pot
+Fisherman501 finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 403 | Rake 0 
+Board [Tc As 5h 5s 8c]
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Fisherman501 (small blind) showed [9h 7s] and lost with a pair of Fives
+Seat 5: Nasko2310 (big blind) showed [4h Ts] and won (403) with two pair, Tens and Fives
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749234676: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:54:07 UTC [2026/02/16 9:54:07 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: Duigo1 (6560 in chips) 
+Seat 2: scorza23 (6249 in chips) 
+Seat 5: Nasko2310 (4015 in chips) is sitting out
+Seat 8: pirmanovdier (1359 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Nasko2310: posts the ante 35
+pirmanovdier: posts the ante 35
+pirmanovdier: posts small blind 150
+Duigo1: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5c]
+scorza23: folds 
+Nasko2310: folds 
+pirmanovdier: folds 
+Uncalled bet (150) returned to Duigo1
+Duigo1 collected 440 from pot
+Duigo1: doesn't show hand 
+Nasko2310 has returned
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 1: Duigo1 (big blind) collected (440)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 8: pirmanovdier (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749235888: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:54:15 UTC [2026/02/16 9:54:15 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: Duigo1 (6815 in chips) 
+Seat 2: scorza23 (6214 in chips) 
+Seat 5: Nasko2310 (3980 in chips) 
+Seat 8: pirmanovdier (1174 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Nasko2310: posts the ante 35
+pirmanovdier: posts the ante 35
+Duigo1: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Kc]
+Nasko2310: folds 
+pirmanovdier: folds 
+Duigo1: raises 300 to 600
+scorza23: folds 
+Uncalled bet (300) returned to Duigo1
+Duigo1 collected 740 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 740 | Rake 0 
+Seat 1: Duigo1 (small blind) collected (740)
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 8: pirmanovdier (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749237190: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:54:23 UTC [2026/02/16 9:54:23 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: Duigo1 (7220 in chips) 
+Seat 2: scorza23 (5879 in chips) 
+Seat 5: Nasko2310 (3945 in chips) 
+Seat 8: pirmanovdier (1139 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Nasko2310: posts the ante 35
+pirmanovdier: posts the ante 35
+scorza23: posts small blind 150
+Nasko2310: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 9c]
+pirmanovdier: folds 
+Duigo1: raises 300 to 600
+scorza23: raises 5244 to 5844 and is all-in
+Nasko2310: folds 
+Duigo1: folds 
+Uncalled bet (5244) returned to scorza23
+scorza23 collected 1640 from pot
+scorza23: doesn't show hand 
+pirmanovdier is disconnected 
+*** SUMMARY ***
+Total pot 1640 | Rake 0 
+Seat 1: Duigo1 (button) folded before Flop
+Seat 2: scorza23 (small blind) collected (1640)
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749239875: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:54:41 UTC [2026/02/16 9:54:41 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: Duigo1 (6585 in chips) 
+Seat 2: scorza23 (6884 in chips) 
+Seat 5: Nasko2310 (3610 in chips) 
+Seat 8: pirmanovdier (1104 in chips) is sitting out
+Duigo1: posts the ante 35
+scorza23: posts the ante 35
+Nasko2310: posts the ante 35
+pirmanovdier: posts the ante 35
+Nasko2310: posts small blind 150
+pirmanovdier: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 3d]
+Duigo1: folds 
+scorza23: folds 
+Nasko2310 has timed out
+Nasko2310: folds 
+Nasko2310 is sitting out
+Uncalled bet (150) returned to pirmanovdier
+pirmanovdier collected 440 from pot
+pirmanovdier: doesn't show hand 
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 8: pirmanovdier (big blind) collected (440)
+
+
+
+PokerStars Hand #259749281165: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:00:08 UTC [2026/02/16 10:00:08 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: Duigo1 (6550 in chips) 
+Seat 2: scorza23 (6849 in chips) 
+Seat 3: wmoreira1989 (6369 in chips) 
+Seat 4: xPrikachu (4790 in chips) 
+Seat 5: Nasko2310 (3425 in chips) is sitting out
+Seat 6: ruanvini94 (14049 in chips) out of hand (moved from another table into small blind)
+Seat 7: dmitriypom (4609 in chips) out of hand (moved from another table into small blind)
+Seat 8: pirmanovdier (1359 in chips) is sitting out
+ruanvini94 will be allowed to play after the button
+dmitriypom will be allowed to play after the button
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+pirmanovdier: posts the ante 50
+pirmanovdier: posts small blind 200
+Duigo1: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 7h]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+pirmanovdier: folds 
+Uncalled bet (200) returned to Duigo1
+Duigo1 collected 700 from pot
+Duigo1: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: Duigo1 (big blind) collected (700)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 8: pirmanovdier (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749282294: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:00:17 UTC [2026/02/16 10:00:17 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: Duigo1 (7000 in chips) 
+Seat 2: scorza23 (6799 in chips) 
+Seat 3: wmoreira1989 (6319 in chips) 
+Seat 4: xPrikachu (4740 in chips) 
+Seat 5: Nasko2310 (3375 in chips) is sitting out
+Seat 6: ruanvini94 (14049 in chips) 
+Seat 7: dmitriypom (4609 in chips) 
+Seat 8: pirmanovdier (1109 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+Duigo1: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 4s]
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: folds 
+pirmanovdier: folds 
+Nasko2310 has returned
+Duigo1: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Seat 1: Duigo1 (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (800)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+Seat 8: pirmanovdier (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749284718: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:00:35 UTC [2026/02/16 10:00:35 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: Duigo1 (6750 in chips) 
+Seat 2: scorza23 (7349 in chips) 
+Seat 3: wmoreira1989 (6269 in chips) 
+Seat 4: xPrikachu (4690 in chips) 
+Seat 5: Nasko2310 (3325 in chips) 
+Seat 6: ruanvini94 (13999 in chips) 
+Seat 7: dmitriypom (4559 in chips) 
+Seat 8: pirmanovdier (1059 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+scorza23: posts small blind 200
+wmoreira1989: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 4h]
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: raises 400 to 800
+dmitriypom: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: raises 5419 to 6219 and is all-in
+ruanvini94: calls 5419
+*** FLOP *** [9c 7d 4c]
+*** TURN *** [9c 7d 4c] [Js]
+*** RIVER *** [9c 7d 4c Js] [Jh]
+*** SHOW DOWN ***
+wmoreira1989: shows [6s 6h] (two pair, Jacks and Sixes)
+ruanvini94: shows [Ad Kh] (a pair of Jacks)
+wmoreira1989 collected 13038 from pot
+*** SUMMARY ***
+Total pot 13038 | Rake 0 
+Board [9c 7d 4c Js Jh]
+Seat 1: Duigo1 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: wmoreira1989 (big blind) showed [6s 6h] and won (13038) with two pair, Jacks and Sixes
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 showed [Ad Kh] and lost with a pair of Jacks
+Seat 7: dmitriypom folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749291012: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:01:18 UTC [2026/02/16 10:01:18 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: Duigo1 (6700 in chips) 
+Seat 2: scorza23 (7099 in chips) 
+Seat 3: wmoreira1989 (13038 in chips) 
+Seat 4: xPrikachu (4640 in chips) 
+Seat 5: Nasko2310 (3275 in chips) 
+Seat 6: ruanvini94 (7730 in chips) 
+Seat 7: dmitriypom (4509 in chips) 
+Seat 8: pirmanovdier (1009 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+wmoreira1989: posts small blind 200
+xPrikachu: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ks]
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: raises 4059 to 4459 and is all-in
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Uncalled bet (4059) returned to dmitriypom
+dmitriypom collected 1400 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom collected (1400)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749293130: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:01:31 UTC [2026/02/16 10:01:31 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: Duigo1 (6650 in chips) 
+Seat 2: scorza23 (7049 in chips) 
+Seat 3: wmoreira1989 (12788 in chips) 
+Seat 4: xPrikachu (4190 in chips) 
+Seat 5: Nasko2310 (3225 in chips) 
+Seat 6: ruanvini94 (7680 in chips) 
+Seat 7: dmitriypom (5459 in chips) 
+Seat 8: pirmanovdier (959 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+xPrikachu: posts small blind 200
+Nasko2310: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Kc]
+ruanvini94: folds 
+dmitriypom: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: raises 400 to 800
+xPrikachu: raises 3340 to 4140 and is all-in
+Nasko2310: folds 
+wmoreira1989: folds 
+Uncalled bet (3340) returned to xPrikachu
+xPrikachu collected 2400 from pot
+xPrikachu: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) folded before Flop
+Seat 4: xPrikachu (small blind) collected (2400)
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749296291: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:01:52 UTC [2026/02/16 10:01:52 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 1: Duigo1 (6600 in chips) 
+Seat 2: scorza23 (6999 in chips) 
+Seat 3: wmoreira1989 (11938 in chips) 
+Seat 4: xPrikachu (5740 in chips) 
+Seat 5: Nasko2310 (2775 in chips) 
+Seat 6: ruanvini94 (7630 in chips) 
+Seat 7: dmitriypom (5409 in chips) 
+Seat 8: pirmanovdier (909 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+Nasko2310: posts small blind 200
+ruanvini94: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 3h]
+dmitriypom: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (200) returned to ruanvini94
+ruanvini94 collected 800 from pot
+ruanvini94: doesn't show hand 
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 6: ruanvini94 (big blind) collected (800)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749299599: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:02:13 UTC [2026/02/16 10:02:13 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: Duigo1 (6550 in chips) 
+Seat 2: scorza23 (6949 in chips) 
+Seat 3: wmoreira1989 (11888 in chips) 
+Seat 4: xPrikachu (5690 in chips) 
+Seat 5: Nasko2310 (2525 in chips) 
+Seat 6: ruanvini94 (8180 in chips) 
+Seat 7: dmitriypom (5359 in chips) 
+Seat 8: pirmanovdier (859 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+ruanvini94: posts small blind 200
+dmitriypom: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 3c]
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+Uncalled bet (200) returned to dmitriypom
+dmitriypom collected 800 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 6: ruanvini94 (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) collected (800)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749301818: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:02:28 UTC [2026/02/16 10:02:28 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 1: Duigo1 (6500 in chips) 
+Seat 2: scorza23 (6899 in chips) 
+Seat 3: wmoreira1989 (11838 in chips) 
+Seat 4: xPrikachu (5640 in chips) 
+Seat 5: Nasko2310 (2475 in chips) 
+Seat 6: ruanvini94 (7930 in chips) 
+Seat 7: dmitriypom (5909 in chips) 
+Seat 8: pirmanovdier (809 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+dmitriypom: posts small blind 200
+pirmanovdier: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Qs]
+Duigo1: folds 
+scorza23: raises 800 to 1200
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310 has timed out
+Nasko2310: folds 
+Nasko2310 is sitting out
+ruanvini94: calls 1200
+dmitriypom: folds 
+pirmanovdier: folds 
+*** FLOP *** [3h Jc 9c]
+Nasko2310 has returned
+scorza23: checks 
+ruanvini94: checks 
+*** TURN *** [3h Jc 9c] [Th]
+scorza23: bets 1700
+ruanvini94: calls 1700
+*** RIVER *** [3h Jc 9c Th] [6d]
+scorza23: bets 3949 and is all-in
+ruanvini94: folds 
+Uncalled bet (3949) returned to scorza23
+scorza23 collected 6800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 6800 | Rake 0 
+Board [3h Jc 9c Th 6d]
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 collected (6800)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 (button) folded on the River
+Seat 7: dmitriypom (small blind) folded before Flop
+Seat 8: pirmanovdier (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749310047: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:03:20 UTC [2026/02/16 10:03:20 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 1: Duigo1 (6450 in chips) 
+Seat 2: scorza23 (10749 in chips) 
+Seat 3: wmoreira1989 (11788 in chips) 
+Seat 4: xPrikachu (5590 in chips) 
+Seat 5: Nasko2310 (2425 in chips) 
+Seat 6: ruanvini94 (4980 in chips) 
+Seat 7: dmitriypom (5659 in chips) 
+Seat 8: pirmanovdier (359 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+pirmanovdier: posts small blind 200
+Duigo1: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 4c]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: raises 400 to 800
+pirmanovdier: folds 
+Duigo1: folds 
+Uncalled bet (400) returned to dmitriypom
+dmitriypom collected 1400 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Seat 1: Duigo1 (big blind) folded before Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) collected (1400)
+Seat 8: pirmanovdier (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749314161: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:03:46 UTC [2026/02/16 10:03:46 ET]
+Table '3975659799 4' 8-max Seat #8 is the button
+Seat 1: Duigo1 (6000 in chips) 
+Seat 2: scorza23 (10699 in chips) 
+Seat 3: wmoreira1989 (11738 in chips) 
+Seat 4: xPrikachu (5540 in chips) 
+Seat 5: Nasko2310 (2375 in chips) 
+Seat 6: ruanvini94 (4930 in chips) 
+Seat 7: dmitriypom (6609 in chips) 
+Seat 8: pirmanovdier (109 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+Duigo1: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Jc]
+wmoreira1989: folds 
+xPrikachu: raises 400 to 800
+Nasko2310: raises 1525 to 2325 and is all-in
+ruanvini94: folds 
+dmitriypom: folds 
+pirmanovdier: folds 
+Duigo1: raises 3625 to 5950 and is all-in
+scorza23: folds 
+xPrikachu: folds 
+Uncalled bet (3625) returned to Duigo1
+*** FLOP *** [3s Kc 3c]
+*** TURN *** [3s Kc 3c] [3d]
+*** RIVER *** [3s Kc 3c 3d] [8h]
+*** SHOW DOWN ***
+Duigo1: shows [Qs Qc] (a full house, Threes full of Queens)
+Nasko2310: shows [Kd Ks] (a full house, Kings full of Threes)
+Nasko2310 collected 6250 from pot
+*** SUMMARY ***
+Total pot 6250 | Rake 0 
+Board [3s Kc 3c 3d 8h]
+Seat 1: Duigo1 (small blind) showed [Qs Qc] and lost with a full house, Threes full of Queens
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop
+Seat 5: Nasko2310 showed [Kd Ks] and won (6250) with a full house, Kings full of Threes
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+Seat 8: pirmanovdier (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749320158: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:04:24 UTC [2026/02/16 10:04:24 ET]
+Table '3975659799 4' 8-max Seat #1 is the button
+Seat 1: Duigo1 (3625 in chips) 
+Seat 2: scorza23 (10249 in chips) 
+Seat 3: wmoreira1989 (11688 in chips) 
+Seat 4: xPrikachu (4690 in chips) 
+Seat 5: Nasko2310 (6250 in chips) 
+Seat 6: ruanvini94 (4880 in chips) 
+Seat 7: dmitriypom (6559 in chips) 
+Seat 8: pirmanovdier (59 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 50
+scorza23: posts small blind 200
+wmoreira1989: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4s]
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: raises 400 to 800
+dmitriypom: folds 
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+Uncalled bet (400) returned to ruanvini94
+ruanvini94 collected 1400 from pot
+ruanvini94: doesn't show hand 
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Seat 1: Duigo1 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 collected (1400)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749322461: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 15:04:39 UTC [2026/02/16 10:04:39 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 1: Duigo1 (3575 in chips) 
+Seat 2: scorza23 (9999 in chips) 
+Seat 3: wmoreira1989 (11238 in chips) 
+Seat 4: xPrikachu (4640 in chips) 
+Seat 5: Nasko2310 (6200 in chips) 
+Seat 6: ruanvini94 (5830 in chips) 
+Seat 7: dmitriypom (6509 in chips) 
+Seat 8: pirmanovdier (9 in chips) is sitting out
+Duigo1: posts the ante 50
+scorza23: posts the ante 50
+wmoreira1989: posts the ante 50
+xPrikachu: posts the ante 50
+Nasko2310: posts the ante 50
+ruanvini94: posts the ante 50
+dmitriypom: posts the ante 50
+pirmanovdier: posts the ante 9 and is all-in
+wmoreira1989: posts small blind 200
+xPrikachu: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 7c]
+Nasko2310 has timed out
+Nasko2310: folds 
+Nasko2310 is sitting out
+ruanvini94: folds 
+dmitriypom: raises 400 to 800
+pirmanovdier: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Uncalled bet (400) returned to dmitriypom
+Nasko2310 has returned
+dmitriypom collected 1359 from pot
+pirmanovdier finished the tournament in 8th place
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 1359 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom collected (1359)
+Seat 8: pirmanovdier folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749329389: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:05:22 UTC [2026/02/16 10:05:22 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 1: Duigo1 (3525 in chips) 
+Seat 2: scorza23 (9949 in chips) 
+Seat 3: wmoreira1989 (10988 in chips) 
+Seat 4: xPrikachu (4190 in chips) 
+Seat 5: Nasko2310 (6150 in chips) 
+Seat 6: ruanvini94 (5780 in chips) 
+Seat 7: dmitriypom (7418 in chips) 
+Duigo1: posts the ante 75
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+xPrikachu: posts small blind 300
+Nasko2310: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 7s]
+ruanvini94: folds 
+dmitriypom: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Uncalled bet (300) returned to Nasko2310
+Nasko2310 collected 1125 from pot
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) folded before Flop (didn't bet)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) collected (1125)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749331945: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:05:38 UTC [2026/02/16 10:05:38 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 1: Duigo1 (3450 in chips) 
+Seat 2: scorza23 (9874 in chips) 
+Seat 3: wmoreira1989 (10913 in chips) 
+Seat 4: xPrikachu (3815 in chips) 
+Seat 5: Nasko2310 (6900 in chips) 
+Seat 6: ruanvini94 (5705 in chips) 
+Seat 7: dmitriypom (7343 in chips) 
+Duigo1: posts the ante 75
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+Nasko2310: posts small blind 300
+ruanvini94: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Qh]
+dmitriypom: folds 
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (300) returned to ruanvini94
+ruanvini94 collected 1125 from pot
+ruanvini94: doesn't show hand 
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 6: ruanvini94 (big blind) collected (1125)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749338007: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:06:16 UTC [2026/02/16 10:06:16 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 1: Duigo1 (3375 in chips) 
+Seat 2: scorza23 (9799 in chips) 
+Seat 3: wmoreira1989 (10838 in chips) 
+Seat 4: xPrikachu (3740 in chips) 
+Seat 5: Nasko2310 (6525 in chips) 
+Seat 6: ruanvini94 (6455 in chips) 
+Seat 7: dmitriypom (7268 in chips) 
+Duigo1: posts the ante 75
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+ruanvini94: posts small blind 300
+dmitriypom: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 9s]
+Duigo1: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+Uncalled bet (300) returned to dmitriypom
+dmitriypom collected 1125 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Seat 1: Duigo1 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 6: ruanvini94 (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) collected (1125)
+
+
+
+PokerStars Hand #259749341536: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:06:38 UTC [2026/02/16 10:06:38 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 1: Duigo1 (3300 in chips) 
+Seat 2: scorza23 (9724 in chips) 
+Seat 3: wmoreira1989 (10763 in chips) 
+Seat 4: xPrikachu (3665 in chips) 
+Seat 5: Nasko2310 (6450 in chips) 
+Seat 6: ruanvini94 (6080 in chips) 
+Seat 7: dmitriypom (8018 in chips) 
+Duigo1: posts the ante 75
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+dmitriypom: posts small blind 300
+Duigo1: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 7s]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: raises 600 to 1200
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: folds 
+Duigo1: calls 600
+*** FLOP *** [3h 3s 8s]
+Duigo1: bets 2025 and is all-in
+xPrikachu: calls 2025
+*** TURN *** [3h 3s 8s] [As]
+*** RIVER *** [3h 3s 8s As] [2h]
+*** SHOW DOWN ***
+Duigo1: shows [Tc 8c] (two pair, Eights and Threes)
+xPrikachu: shows [Ah Ad] (a full house, Aces full of Threes)
+xPrikachu collected 7275 from pot
+Duigo1 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 7275 | Rake 0 
+Board [3h 3s 8s As 2h]
+Seat 1: Duigo1 (big blind) showed [Tc 8c] and lost with two pair, Eights and Threes
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu showed [Ah Ad] and won (7275) with a full house, Aces full of Threes
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749346987: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:07:12 UTC [2026/02/16 10:07:12 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (9649 in chips) 
+Seat 3: wmoreira1989 (10688 in chips) 
+Seat 4: xPrikachu (7640 in chips) 
+Seat 5: Nasko2310 (6375 in chips) 
+Seat 6: ruanvini94 (6005 in chips) 
+Seat 7: dmitriypom (7643 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+scorza23: posts small blind 300
+wmoreira1989: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Ks]
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: folds 
+scorza23: raises 1200 to 1800
+wmoreira1989: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 1650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1650 | Rake 0 
+Seat 2: scorza23 (small blind) collected (1650)
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749350179: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:07:32 UTC [2026/02/16 10:07:32 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (10624 in chips) 
+Seat 3: wmoreira1989 (10013 in chips) 
+Seat 4: xPrikachu (7565 in chips) 
+Seat 5: Nasko2310 (6300 in chips) 
+Seat 6: ruanvini94 (5930 in chips) 
+Seat 7: dmitriypom (7568 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+wmoreira1989: posts small blind 300
+xPrikachu: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 4h]
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 900 to 1500
+xPrikachu: calls 900
+*** FLOP *** [6h 6d 5d]
+wmoreira1989: bets 1140
+xPrikachu: folds 
+Uncalled bet (1140) returned to wmoreira1989
+wmoreira1989 collected 3450 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 3450 | Rake 0 
+Board [6h 6d 5d]
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) collected (3450)
+Seat 4: xPrikachu (big blind) folded on the Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749354437: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:07:59 UTC [2026/02/16 10:07:59 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (10549 in chips) 
+Seat 3: wmoreira1989 (11888 in chips) 
+Seat 4: xPrikachu (5990 in chips) 
+Seat 5: Nasko2310 (6225 in chips) 
+Seat 6: ruanvini94 (5855 in chips) 
+Seat 7: dmitriypom (7493 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+xPrikachu: posts small blind 300
+Nasko2310: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Jd]
+ruanvini94: folds 
+dmitriypom: folds 
+scorza23: raises 1200 to 1800
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 1950 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1950 | Rake 0 
+Seat 2: scorza23 collected (1950)
+Seat 3: wmoreira1989 (button) folded before Flop (didn't bet)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749357808: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:08:20 UTC [2026/02/16 10:08:20 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (11824 in chips) 
+Seat 3: wmoreira1989 (11813 in chips) 
+Seat 4: xPrikachu (5615 in chips) 
+Seat 5: Nasko2310 (5550 in chips) 
+Seat 6: ruanvini94 (5780 in chips) 
+Seat 7: dmitriypom (7418 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+Nasko2310: posts small blind 300
+ruanvini94: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3c]
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 11138 to 11738 and is all-in
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+Uncalled bet (11138) returned to wmoreira1989
+wmoreira1989 collected 1950 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 1950 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 collected (1950)
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 6: ruanvini94 (big blind) folded before Flop
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749362021: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:08:47 UTC [2026/02/16 10:08:47 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (11749 in chips) 
+Seat 3: wmoreira1989 (13088 in chips) 
+Seat 4: xPrikachu (5540 in chips) 
+Seat 5: Nasko2310 (5175 in chips) 
+Seat 6: ruanvini94 (5105 in chips) 
+Seat 7: dmitriypom (7343 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+ruanvini94: posts small blind 300
+dmitriypom: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 4c]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: raises 600 to 1200
+dmitriypom: folds 
+Uncalled bet (600) returned to ruanvini94
+ruanvini94 collected 1650 from pot
+ruanvini94: doesn't show hand 
+*** SUMMARY ***
+Total pot 1650 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 6: ruanvini94 (small blind) collected (1650)
+Seat 7: dmitriypom (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749365344: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:09:08 UTC [2026/02/16 10:09:08 ET]
+Table '3975659799 4' 8-max Seat #6 is the button
+Seat 2: scorza23 (11674 in chips) 
+Seat 3: wmoreira1989 (13013 in chips) 
+Seat 4: xPrikachu (5465 in chips) 
+Seat 5: Nasko2310 (5100 in chips) 
+Seat 6: ruanvini94 (6080 in chips) 
+Seat 7: dmitriypom (6668 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+dmitriypom: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7s]
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: folds 
+Uncalled bet (300) returned to scorza23
+scorza23 collected 1050 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Seat 2: scorza23 (big blind) collected (1050)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749367972: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:09:24 UTC [2026/02/16 10:09:24 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (12349 in chips) 
+Seat 3: wmoreira1989 (12938 in chips) 
+Seat 4: xPrikachu (5390 in chips) 
+Seat 5: Nasko2310 (5025 in chips) 
+Seat 6: ruanvini94 (6005 in chips) 
+Seat 7: dmitriypom (6293 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+scorza23: posts small blind 300
+wmoreira1989: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7h]
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: folds 
+scorza23: folds 
+Uncalled bet (300) returned to wmoreira1989
+wmoreira1989 collected 1050 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: wmoreira1989 (big blind) collected (1050)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749370812: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 15:09:42 UTC [2026/02/16 10:09:42 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (11974 in chips) 
+Seat 3: wmoreira1989 (13613 in chips) 
+Seat 4: xPrikachu (5315 in chips) 
+Seat 5: Nasko2310 (4950 in chips) 
+Seat 6: ruanvini94 (5930 in chips) 
+Seat 7: dmitriypom (6218 in chips) 
+scorza23: posts the ante 75
+wmoreira1989: posts the ante 75
+xPrikachu: posts the ante 75
+Nasko2310: posts the ante 75
+ruanvini94: posts the ante 75
+dmitriypom: posts the ante 75
+wmoreira1989: posts small blind 300
+xPrikachu: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3c]
+Nasko2310: folds 
+ruanvini94: folds 
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 12938 to 13538 and is all-in
+xPrikachu: folds 
+Uncalled bet (12938) returned to wmoreira1989
+wmoreira1989 collected 1650 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 1650 | Rake 0 
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) collected (1650)
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 6: ruanvini94 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749374102: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:10:02 UTC [2026/02/16 10:10:02 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (11899 in chips) 
+Seat 3: wmoreira1989 (14588 in chips) 
+Seat 4: xPrikachu (4640 in chips) 
+Seat 5: Nasko2310 (4875 in chips) 
+Seat 6: ruanvini94 (5855 in chips) 
+Seat 7: dmitriypom (6143 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+ruanvini94: posts the ante 100
+dmitriypom: posts the ante 100
+xPrikachu: posts small blind 400
+Nasko2310: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 7h]
+ruanvini94: calls 800
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: checks 
+*** FLOP *** [Jh 6d Jd]
+Nasko2310: checks 
+ruanvini94: bets 2400
+Nasko2310: calls 2400
+*** TURN *** [Jh 6d Jd] [4h]
+Nasko2310: checks 
+ruanvini94: bets 800
+Nasko2310: calls 800
+*** RIVER *** [Jh 6d Jd 4h] [5s]
+Nasko2310: checks 
+ruanvini94: checks 
+*** SHOW DOWN ***
+Nasko2310: shows [Js 3c] (three of a kind, Jacks)
+ruanvini94: mucks hand 
+Nasko2310 collected 9000 from pot
+*** SUMMARY ***
+Total pot 9000 | Rake 0 
+Board [Jh 6d Jd 4h 5s]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) folded before Flop (didn't bet)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) showed [Js 3c] and won (9000) with three of a kind, Jacks
+Seat 6: ruanvini94 mucked [Qd As]
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749378942: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:10:33 UTC [2026/02/16 10:10:33 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (11799 in chips) 
+Seat 3: wmoreira1989 (14488 in chips) 
+Seat 4: xPrikachu (4140 in chips) 
+Seat 5: Nasko2310 (9775 in chips) 
+Seat 6: ruanvini94 (1755 in chips) 
+Seat 7: dmitriypom (6043 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+ruanvini94: posts the ante 100
+dmitriypom: posts the ante 100
+Nasko2310: posts small blind 400
+ruanvini94: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Ac]
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 13588 to 14388 and is all-in
+xPrikachu: folds 
+Nasko2310: folds 
+ruanvini94: calls 855 and is all-in
+Uncalled bet (12733) returned to wmoreira1989
+*** FLOP *** [Tc 9h 6c]
+*** TURN *** [Tc 9h 6c] [6d]
+*** RIVER *** [Tc 9h 6c 6d] [Ad]
+*** SHOW DOWN ***
+ruanvini94: shows [Qd Js] (a pair of Sixes)
+wmoreira1989: shows [4c 4h] (two pair, Sixes and Fours)
+wmoreira1989 collected 4310 from pot
+ruanvini94 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 4310 | Rake 0 
+Board [Tc 9h 6c 6d Ad]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 showed [4c 4h] and won (4310) with two pair, Sixes and Fours
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 6: ruanvini94 (big blind) showed [Qd Js] and lost with a pair of Sixes
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749383291: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:11:01 UTC [2026/02/16 10:11:01 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (11699 in chips) 
+Seat 3: wmoreira1989 (17043 in chips) 
+Seat 4: xPrikachu (4040 in chips) 
+Seat 5: Nasko2310 (9275 in chips) 
+Seat 7: dmitriypom (5943 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+dmitriypom: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 7s]
+wmoreira1989: folds 
+xPrikachu: raises 3140 to 3940 and is all-in
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: folds 
+Uncalled bet (3140) returned to xPrikachu
+xPrikachu collected 2500 from pot
+xPrikachu: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu collected (2500)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749385775: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:11:16 UTC [2026/02/16 10:11:16 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (10799 in chips) 
+Seat 3: wmoreira1989 (16943 in chips) 
+Seat 4: xPrikachu (5640 in chips) 
+Seat 5: Nasko2310 (9175 in chips) 
+Seat 7: dmitriypom (5443 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+scorza23: posts small blind 400
+wmoreira1989: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 2h]
+xPrikachu: folds 
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: raises 1600 to 2400
+wmoreira1989: folds 
+Uncalled bet (1600) returned to scorza23
+scorza23 collected 2100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2100 | Rake 0 
+Seat 2: scorza23 (small blind) collected (2100)
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749387608: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:11:28 UTC [2026/02/16 10:11:28 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (11999 in chips) 
+Seat 3: wmoreira1989 (16043 in chips) 
+Seat 4: xPrikachu (5540 in chips) 
+Seat 5: Nasko2310 (9075 in chips) 
+Seat 7: dmitriypom (5343 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+wmoreira1989: posts small blind 400
+xPrikachu: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Th As]
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: raises 1600 to 2400
+wmoreira1989: folds 
+xPrikachu: calls 1600
+*** FLOP *** [2c Qh 8d]
+xPrikachu: checks 
+scorza23: bets 3200
+xPrikachu: calls 3040 and is all-in
+Uncalled bet (160) returned to scorza23
+*** TURN *** [2c Qh 8d] [Jc]
+*** RIVER *** [2c Qh 8d Jc] [2h]
+*** SHOW DOWN ***
+xPrikachu: shows [Kc Qc] (two pair, Queens and Deuces)
+scorza23: shows [Th As] (a pair of Deuces)
+xPrikachu collected 11780 from pot
+*** SUMMARY ***
+Total pot 11780 | Rake 0 
+Board [2c Qh 8d Jc 2h]
+Seat 2: scorza23 (button) showed [Th As] and lost with a pair of Deuces
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) showed [Kc Qc] and won (11780) with two pair, Queens and Deuces
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749393880: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:12:07 UTC [2026/02/16 10:12:07 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (6459 in chips) 
+Seat 3: wmoreira1989 (15543 in chips) 
+Seat 4: xPrikachu (11780 in chips) 
+Seat 5: Nasko2310 (8975 in chips) 
+Seat 7: dmitriypom (5243 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+xPrikachu: posts small blind 400
+Nasko2310: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Kd]
+dmitriypom: folds 
+scorza23: raises 5559 to 6359 and is all-in
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (5559) returned to scorza23
+scorza23 collected 2500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 collected (2500)
+Seat 3: wmoreira1989 (button) folded before Flop (didn't bet)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749396154: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:12:21 UTC [2026/02/16 10:12:21 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (8059 in chips) 
+Seat 3: wmoreira1989 (15443 in chips) 
+Seat 4: xPrikachu (11280 in chips) 
+Seat 5: Nasko2310 (8075 in chips) 
+Seat 7: dmitriypom (5143 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+Nasko2310: posts small blind 400
+dmitriypom: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 4c]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (400) returned to dmitriypom
+dmitriypom collected 1300 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) collected (1300)
+
+
+
+PokerStars Hand #259749399111: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:12:41 UTC [2026/02/16 10:12:41 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (7959 in chips) 
+Seat 3: wmoreira1989 (15343 in chips) 
+Seat 4: xPrikachu (11180 in chips) 
+Seat 5: Nasko2310 (7575 in chips) 
+Seat 7: dmitriypom (5943 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+dmitriypom: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 4h]
+wmoreira1989: raises 800 to 1600
+xPrikachu: folds 
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: folds 
+Uncalled bet (800) returned to wmoreira1989
+wmoreira1989 collected 2500 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: wmoreira1989 collected (2500)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749402383: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:13:00 UTC [2026/02/16 10:13:00 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (7059 in chips) 
+Seat 3: wmoreira1989 (16943 in chips) 
+Seat 4: xPrikachu (11080 in chips) 
+Seat 5: Nasko2310 (7475 in chips) 
+Seat 7: dmitriypom (5443 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+scorza23: posts small blind 400
+wmoreira1989: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 2h]
+xPrikachu: folds 
+Nasko2310: folds 
+dmitriypom: raises 4543 to 5343 and is all-in
+scorza23: folds 
+wmoreira1989: folds 
+Uncalled bet (4543) returned to dmitriypom
+dmitriypom collected 2500 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) collected (2500)
+
+
+
+PokerStars Hand #259749405611: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:13:20 UTC [2026/02/16 10:13:20 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (6559 in chips) 
+Seat 3: wmoreira1989 (16043 in chips) 
+Seat 4: xPrikachu (10980 in chips) 
+Seat 5: Nasko2310 (7375 in chips) 
+Seat 7: dmitriypom (7043 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+wmoreira1989: posts small blind 400
+xPrikachu: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 6s]
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: raises 5659 to 6459 and is all-in
+wmoreira1989: folds 
+xPrikachu: folds 
+Uncalled bet (5659) returned to scorza23
+scorza23 collected 2500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (button) collected (2500)
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749407341: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:13:31 UTC [2026/02/16 10:13:31 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (8159 in chips) 
+Seat 3: wmoreira1989 (15543 in chips) 
+Seat 4: xPrikachu (10080 in chips) 
+Seat 5: Nasko2310 (7275 in chips) 
+Seat 7: dmitriypom (6943 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+xPrikachu: posts small blind 400
+Nasko2310: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 7c]
+dmitriypom: raises 6043 to 6843 and is all-in
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (6043) returned to dmitriypom
+dmitriypom collected 2500 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) folded before Flop (didn't bet)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 7: dmitriypom collected (2500)
+
+
+
+PokerStars Hand #259749409117: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:13:43 UTC [2026/02/16 10:13:43 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (8059 in chips) 
+Seat 3: wmoreira1989 (15443 in chips) 
+Seat 4: xPrikachu (9580 in chips) 
+Seat 5: Nasko2310 (6375 in chips) 
+Seat 7: dmitriypom (8543 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+Nasko2310: posts small blind 400
+dmitriypom: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Td]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: raises 800 to 1600
+Nasko2310: folds 
+dmitriypom: calls 800
+*** FLOP *** [Kd 8d Jd]
+dmitriypom: checks 
+xPrikachu: bets 1600
+dmitriypom: calls 1600
+*** TURN *** [Kd 8d Jd] [Qd]
+dmitriypom: checks 
+xPrikachu: checks 
+*** RIVER *** [Kd 8d Jd Qd] [Ac]
+dmitriypom: checks 
+xPrikachu: checks 
+*** SHOW DOWN ***
+dmitriypom: shows [Kc Ts] (a straight, Ten to Ace)
+xPrikachu: mucks hand 
+dmitriypom collected 7300 from pot
+*** SUMMARY ***
+Total pot 7300 | Rake 0 
+Board [Kd 8d Jd Qd Ac]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) mucked [Qc Js]
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) showed [Kc Ts] and won (7300) with a straight, Ten to Ace
+
+
+
+PokerStars Hand #259749414852: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:14:19 UTC [2026/02/16 10:14:19 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (7959 in chips) 
+Seat 3: wmoreira1989 (15343 in chips) 
+Seat 4: xPrikachu (6280 in chips) 
+Seat 5: Nasko2310 (5875 in chips) 
+Seat 7: dmitriypom (12543 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+dmitriypom: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 4h]
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+dmitriypom: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 1300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 2: scorza23 (big blind) collected (1300)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749418107: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:14:40 UTC [2026/02/16 10:14:40 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (8759 in chips) 
+Seat 3: wmoreira1989 (15243 in chips) 
+Seat 4: xPrikachu (6180 in chips) 
+Seat 5: Nasko2310 (5775 in chips) 
+Seat 7: dmitriypom (12043 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+scorza23: posts small blind 400
+wmoreira1989: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 4s]
+xPrikachu: folds 
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: raises 7859 to 8659 and is all-in
+wmoreira1989: folds 
+Uncalled bet (7859) returned to scorza23
+scorza23 collected 2100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2100 | Rake 0 
+Seat 2: scorza23 (small blind) collected (2100)
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749419714: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 15:14:50 UTC [2026/02/16 10:14:50 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (9959 in chips) 
+Seat 3: wmoreira1989 (14343 in chips) 
+Seat 4: xPrikachu (6080 in chips) 
+Seat 5: Nasko2310 (5675 in chips) 
+Seat 7: dmitriypom (11943 in chips) 
+scorza23: posts the ante 100
+wmoreira1989: posts the ante 100
+xPrikachu: posts the ante 100
+Nasko2310: posts the ante 100
+dmitriypom: posts the ante 100
+wmoreira1989: posts small blind 400
+xPrikachu: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 3d]
+Nasko2310: folds 
+dmitriypom: raises 800 to 1600
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: calls 800
+*** FLOP *** [9d 3s Qc]
+xPrikachu: checks 
+dmitriypom: bets 1600
+xPrikachu: folds 
+Uncalled bet (1600) returned to dmitriypom
+dmitriypom collected 4100 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 4100 | Rake 0 
+Board [9d 3s Qc]
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) folded on the Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom collected (4100)
+
+
+
+PokerStars Hand #259749423169: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:15:11 UTC [2026/02/16 10:15:11 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (9859 in chips) 
+Seat 3: wmoreira1989 (13843 in chips) 
+Seat 4: xPrikachu (4380 in chips) 
+Seat 5: Nasko2310 (5575 in chips) 
+Seat 7: dmitriypom (14343 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+Nasko2310: posts the ante 125
+dmitriypom: posts the ante 125
+xPrikachu: posts small blind 500
+Nasko2310: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 8c]
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 12718 to 13718 and is all-in
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (12718) returned to wmoreira1989
+wmoreira1989 collected 3125 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 3125 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) collected (3125)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) folded before Flop
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749425031: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:15:22 UTC [2026/02/16 10:15:22 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (9734 in chips) 
+Seat 3: wmoreira1989 (15843 in chips) 
+Seat 4: xPrikachu (3755 in chips) 
+Seat 5: Nasko2310 (4450 in chips) 
+Seat 7: dmitriypom (14218 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+Nasko2310: posts the ante 125
+dmitriypom: posts the ante 125
+Nasko2310: posts small blind 500
+dmitriypom: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 2c]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Nasko2310: folds 
+Uncalled bet (500) returned to dmitriypom
+dmitriypom collected 1625 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 1625 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 5: Nasko2310 (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) collected (1625)
+
+
+
+PokerStars Hand #259749426489: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:15:30 UTC [2026/02/16 10:15:30 ET]
+Table '3975659799 4' 8-max Seat #5 is the button
+Seat 2: scorza23 (9609 in chips) 
+Seat 3: wmoreira1989 (15718 in chips) 
+Seat 4: xPrikachu (3630 in chips) 
+Seat 5: Nasko2310 (3825 in chips) 
+Seat 7: dmitriypom (15218 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+Nasko2310: posts the ante 125
+dmitriypom: posts the ante 125
+dmitriypom: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 8c]
+wmoreira1989: raises 1000 to 2000
+xPrikachu: folds 
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: calls 1000
+*** FLOP *** [4h Qs Th]
+scorza23: checks 
+wmoreira1989: bets 1500
+scorza23: folds 
+Uncalled bet (1500) returned to wmoreira1989
+wmoreira1989 collected 5125 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 5125 | Rake 0 
+Board [4h Qs Th]
+Seat 2: scorza23 (big blind) folded on the Flop
+Seat 3: wmoreira1989 collected (5125)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 5: Nasko2310 (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749430119: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:15:53 UTC [2026/02/16 10:15:53 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (7484 in chips) 
+Seat 3: wmoreira1989 (18718 in chips) 
+Seat 4: xPrikachu (3505 in chips) 
+Seat 5: Nasko2310 (3700 in chips) 
+Seat 7: dmitriypom (14593 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+Nasko2310: posts the ante 125
+dmitriypom: posts the ante 125
+scorza23: posts small blind 500
+wmoreira1989: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Kc]
+xPrikachu: raises 2380 to 3380 and is all-in
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: calls 2380
+*** FLOP *** [7s 8h 2c]
+*** TURN *** [7s 8h 2c] [Ts]
+*** RIVER *** [7s 8h 2c Ts] [8d]
+*** SHOW DOWN ***
+wmoreira1989: shows [Ah Qc] (a pair of Eights)
+xPrikachu: shows [8s 6s] (three of a kind, Eights)
+xPrikachu collected 7885 from pot
+*** SUMMARY ***
+Total pot 7885 | Rake 0 
+Board [7s 8h 2c Ts 8d]
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: wmoreira1989 (big blind) showed [Ah Qc] and lost with a pair of Eights
+Seat 4: xPrikachu showed [8s 6s] and won (7885) with three of a kind, Eights
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749433043: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:16:10 UTC [2026/02/16 10:16:10 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (6859 in chips) 
+Seat 3: wmoreira1989 (15213 in chips) 
+Seat 4: xPrikachu (7885 in chips) 
+Seat 5: Nasko2310 (3575 in chips) 
+Seat 7: dmitriypom (14468 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+Nasko2310: posts the ante 125
+dmitriypom: posts the ante 125
+wmoreira1989: posts small blind 500
+xPrikachu: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 3s]
+Nasko2310: folds 
+dmitriypom: folds 
+scorza23: raises 3125 to 4125
+wmoreira1989: folds 
+xPrikachu: folds 
+Uncalled bet (3125) returned to scorza23
+scorza23 collected 3125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 3125 | Rake 0 
+Seat 2: scorza23 (button) collected (3125)
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 5: Nasko2310 folded before Flop (didn't bet)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749435237: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:16:23 UTC [2026/02/16 10:16:23 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (8859 in chips) 
+Seat 3: wmoreira1989 (14588 in chips) 
+Seat 4: xPrikachu (6760 in chips) 
+Seat 5: Nasko2310 (3450 in chips) 
+Seat 7: dmitriypom (14343 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+Nasko2310: posts the ante 125
+dmitriypom: posts the ante 125
+xPrikachu: posts small blind 500
+Nasko2310: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 6h]
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 13463 to 14463 and is all-in
+xPrikachu: folds 
+Nasko2310: calls 2325 and is all-in
+Uncalled bet (11138) returned to wmoreira1989
+*** FLOP *** [3h Ac 5h]
+*** TURN *** [3h Ac 5h] [6s]
+*** RIVER *** [3h Ac 5h 6s] [3d]
+*** SHOW DOWN ***
+Nasko2310: shows [Jd Js] (two pair, Jacks and Threes)
+wmoreira1989: shows [As Ks] (two pair, Aces and Threes)
+wmoreira1989 collected 7775 from pot
+Nasko2310 finished the tournament in 5th place and received $1.03.
+*** SUMMARY ***
+Total pot 7775 | Rake 0 
+Board [3h Ac 5h 6s 3d]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) showed [As Ks] and won (7775) with two pair, Aces and Threes
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 5: Nasko2310 (big blind) showed [Jd Js] and lost with two pair, Jacks and Threes
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749438588: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:16:44 UTC [2026/02/16 10:16:44 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (8734 in chips) 
+Seat 3: wmoreira1989 (18913 in chips) 
+Seat 4: xPrikachu (6135 in chips) 
+Seat 7: dmitriypom (14218 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+dmitriypom: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qs]
+wmoreira1989: folds 
+xPrikachu: folds 
+dmitriypom: calls 500
+scorza23: raises 7609 to 8609 and is all-in
+dmitriypom: folds 
+Uncalled bet (7609) returned to scorza23
+scorza23 collected 2500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (big blind) collected (2500)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749441355: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:17:01 UTC [2026/02/16 10:17:01 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (10109 in chips) 
+Seat 3: wmoreira1989 (18788 in chips) 
+Seat 4: xPrikachu (6010 in chips) 
+Seat 7: dmitriypom (13093 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+scorza23: posts small blind 500
+wmoreira1989: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Jc]
+xPrikachu: raises 4885 to 5885 and is all-in
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: folds 
+Uncalled bet (4885) returned to xPrikachu
+xPrikachu collected 3000 from pot
+xPrikachu: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu collected (3000)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749443258: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:17:12 UTC [2026/02/16 10:17:12 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (9484 in chips) 
+Seat 3: wmoreira1989 (17663 in chips) 
+Seat 4: xPrikachu (7885 in chips) 
+Seat 7: dmitriypom (12968 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+wmoreira1989: posts small blind 500
+xPrikachu: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 8s]
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 16538 to 17538 and is all-in
+xPrikachu: folds 
+Uncalled bet (16538) returned to wmoreira1989
+wmoreira1989 collected 2500 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) collected (2500)
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749444965: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:17:23 UTC [2026/02/16 10:17:23 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (9359 in chips) 
+Seat 3: wmoreira1989 (19038 in chips) 
+Seat 4: xPrikachu (6760 in chips) 
+Seat 7: dmitriypom (12843 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+xPrikachu: posts small blind 500
+dmitriypom: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 5h]
+scorza23: folds 
+wmoreira1989: raises 1000 to 2000
+xPrikachu: folds 
+dmitriypom: folds 
+Uncalled bet (1000) returned to wmoreira1989
+wmoreira1989 collected 3000 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) collected (3000)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749446560: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:17:33 UTC [2026/02/16 10:17:33 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (9234 in chips) 
+Seat 3: wmoreira1989 (20913 in chips) 
+Seat 4: xPrikachu (6135 in chips) 
+Seat 7: dmitriypom (11718 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+dmitriypom: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Qs]
+wmoreira1989: folds 
+xPrikachu: raises 5010 to 6010 and is all-in
+dmitriypom: folds 
+scorza23: folds 
+Uncalled bet (5010) returned to xPrikachu
+xPrikachu collected 3000 from pot
+xPrikachu: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) collected (3000)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749449283: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:17:49 UTC [2026/02/16 10:17:49 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (8109 in chips) 
+Seat 3: wmoreira1989 (20788 in chips) 
+Seat 4: xPrikachu (8010 in chips) 
+Seat 7: dmitriypom (11093 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+scorza23: posts small blind 500
+wmoreira1989: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 9h]
+xPrikachu: folds 
+dmitriypom: folds 
+scorza23: raises 2000 to 3000
+wmoreira1989: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 2500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (small blind) collected (2500)
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749451025: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:18:00 UTC [2026/02/16 10:18:00 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (9484 in chips) 
+Seat 3: wmoreira1989 (19663 in chips) 
+Seat 4: xPrikachu (7885 in chips) 
+Seat 7: dmitriypom (10968 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+wmoreira1989: posts small blind 500
+xPrikachu: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Qc]
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: folds 
+Uncalled bet (500) returned to xPrikachu
+xPrikachu collected 1500 from pot
+xPrikachu: doesn't show hand 
+*** SUMMARY ***
+Total pot 1500 | Rake 0 
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) collected (1500)
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749453032: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:18:12 UTC [2026/02/16 10:18:12 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (9359 in chips) 
+Seat 3: wmoreira1989 (19038 in chips) 
+Seat 4: xPrikachu (8760 in chips) 
+Seat 7: dmitriypom (10843 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+xPrikachu: posts small blind 500
+dmitriypom: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 8s]
+scorza23: folds 
+wmoreira1989: raises 1000 to 2000
+xPrikachu: folds 
+dmitriypom: folds 
+Uncalled bet (1000) returned to wmoreira1989
+wmoreira1989 collected 3000 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 3000 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) collected (3000)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749455308: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:18:26 UTC [2026/02/16 10:18:26 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (9234 in chips) 
+Seat 3: wmoreira1989 (20913 in chips) 
+Seat 4: xPrikachu (8135 in chips) 
+Seat 7: dmitriypom (9718 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+dmitriypom: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5d]
+wmoreira1989: folds 
+xPrikachu: folds 
+dmitriypom: folds 
+Uncalled bet (500) returned to scorza23
+scorza23 collected 1500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1500 | Rake 0 
+Seat 2: scorza23 (big blind) collected (1500)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) folded before Flop (didn't bet)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749456792: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:18:34 UTC [2026/02/16 10:18:34 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (10109 in chips) 
+Seat 3: wmoreira1989 (20788 in chips) 
+Seat 4: xPrikachu (8010 in chips) 
+Seat 7: dmitriypom (9093 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+scorza23: posts small blind 500
+wmoreira1989: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5d]
+xPrikachu: folds 
+dmitriypom: folds 
+scorza23: raises 2000 to 3000
+wmoreira1989: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 2500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Seat 2: scorza23 (small blind) collected (2500)
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749458621: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:18:46 UTC [2026/02/16 10:18:46 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (11484 in chips) 
+Seat 3: wmoreira1989 (19663 in chips) 
+Seat 4: xPrikachu (7885 in chips) 
+Seat 7: dmitriypom (8968 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+wmoreira1989: posts small blind 500
+xPrikachu: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Ks]
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: raises 18538 to 19538 and is all-in
+xPrikachu: calls 6760 and is all-in
+Uncalled bet (11778) returned to wmoreira1989
+*** FLOP *** [Th Ts 8h]
+*** TURN *** [Th Ts 8h] [6c]
+*** RIVER *** [Th Ts 8h 6c] [8d]
+*** SHOW DOWN ***
+wmoreira1989: shows [5c Kc] (two pair, Tens and Eights)
+xPrikachu: shows [Td Ac] (a full house, Tens full of Eights)
+xPrikachu collected 16020 from pot
+*** SUMMARY ***
+Total pot 16020 | Rake 0 
+Board [Th Ts 8h 6c 8d]
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (small blind) showed [5c Kc] and lost with two pair, Tens and Eights
+Seat 4: xPrikachu (big blind) showed [Td Ac] and won (16020) with a full house, Tens full of Eights
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749461851: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:19:05 UTC [2026/02/16 10:19:05 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (11359 in chips) 
+Seat 3: wmoreira1989 (11778 in chips) 
+Seat 4: xPrikachu (16020 in chips) 
+Seat 7: dmitriypom (8843 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+xPrikachu: posts small blind 500
+dmitriypom: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 4d]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: raises 1000 to 2000
+dmitriypom: calls 1000
+*** FLOP *** [2s 3s 2h]
+xPrikachu: checks 
+dmitriypom: bets 6718 and is all-in
+xPrikachu: folds 
+Uncalled bet (6718) returned to dmitriypom
+dmitriypom collected 4500 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 4500 | Rake 0 
+Board [2s 3s 2h]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) folded before Flop (didn't bet)
+Seat 4: xPrikachu (small blind) folded on the Flop
+Seat 7: dmitriypom (big blind) collected (4500)
+
+
+
+PokerStars Hand #259749465216: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:19:25 UTC [2026/02/16 10:19:25 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (11234 in chips) 
+Seat 3: wmoreira1989 (11653 in chips) 
+Seat 4: xPrikachu (13895 in chips) 
+Seat 7: dmitriypom (11218 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+dmitriypom: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Ah]
+wmoreira1989: folds 
+xPrikachu: raises 1000 to 2000
+dmitriypom: folds 
+scorza23: raises 9109 to 11109 and is all-in
+xPrikachu: folds 
+Uncalled bet (9109) returned to scorza23
+scorza23 collected 5000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 5000 | Rake 0 
+Seat 2: scorza23 (big blind) collected (5000)
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) folded before Flop
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749467829: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XII (500/1000) - 2026/02/16 15:19:41 UTC [2026/02/16 10:19:41 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (14109 in chips) 
+Seat 3: wmoreira1989 (11528 in chips) 
+Seat 4: xPrikachu (11770 in chips) 
+Seat 7: dmitriypom (10593 in chips) 
+scorza23: posts the ante 125
+wmoreira1989: posts the ante 125
+xPrikachu: posts the ante 125
+dmitriypom: posts the ante 125
+scorza23: posts small blind 500
+wmoreira1989: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ah]
+xPrikachu: folds 
+dmitriypom: folds 
+scorza23: raises 2000 to 3000
+wmoreira1989: calls 2000
+*** FLOP *** [4h 7d Ks]
+scorza23: checks 
+wmoreira1989: bets 8403 and is all-in
+scorza23: folds 
+Uncalled bet (8403) returned to wmoreira1989
+wmoreira1989 collected 6500 from pot
+wmoreira1989: doesn't show hand 
+*** SUMMARY ***
+Total pot 6500 | Rake 0 
+Board [4h 7d Ks]
+Seat 2: scorza23 (small blind) folded on the Flop
+Seat 3: wmoreira1989 (big blind) collected (6500)
+Seat 4: xPrikachu folded before Flop (didn't bet)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749471288: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XIII (600/1200) - 2026/02/16 15:20:02 UTC [2026/02/16 10:20:02 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (10984 in chips) 
+Seat 3: wmoreira1989 (14903 in chips) 
+Seat 4: xPrikachu (11645 in chips) 
+Seat 7: dmitriypom (10468 in chips) 
+scorza23: posts the ante 150
+wmoreira1989: posts the ante 150
+xPrikachu: posts the ante 150
+dmitriypom: posts the ante 150
+wmoreira1989: posts small blind 600
+xPrikachu: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Ts]
+dmitriypom: folds 
+scorza23: raises 2400 to 3600
+wmoreira1989: folds 
+xPrikachu: folds 
+Uncalled bet (2400) returned to scorza23
+scorza23 collected 3600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 3600 | Rake 0 
+Seat 2: scorza23 (button) collected (3600)
+Seat 3: wmoreira1989 (small blind) folded before Flop
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749473326: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XIII (600/1200) - 2026/02/16 15:20:15 UTC [2026/02/16 10:20:15 ET]
+Table '3975659799 4' 8-max Seat #3 is the button
+Seat 2: scorza23 (13234 in chips) 
+Seat 3: wmoreira1989 (14153 in chips) 
+Seat 4: xPrikachu (10295 in chips) 
+Seat 7: dmitriypom (10318 in chips) 
+scorza23: posts the ante 150
+wmoreira1989: posts the ante 150
+xPrikachu: posts the ante 150
+dmitriypom: posts the ante 150
+xPrikachu: posts small blind 600
+dmitriypom: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Ts]
+scorza23: folds 
+wmoreira1989: folds 
+xPrikachu: folds 
+Uncalled bet (600) returned to dmitriypom
+dmitriypom collected 1800 from pot
+dmitriypom: doesn't show hand 
+*** SUMMARY ***
+Total pot 1800 | Rake 0 
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: wmoreira1989 (button) folded before Flop (didn't bet)
+Seat 4: xPrikachu (small blind) folded before Flop
+Seat 7: dmitriypom (big blind) collected (1800)
+
+
+
+PokerStars Hand #259749474651: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XIII (600/1200) - 2026/02/16 15:20:23 UTC [2026/02/16 10:20:23 ET]
+Table '3975659799 4' 8-max Seat #4 is the button
+Seat 2: scorza23 (13084 in chips) 
+Seat 3: wmoreira1989 (14003 in chips) 
+Seat 4: xPrikachu (9545 in chips) 
+Seat 7: dmitriypom (11368 in chips) 
+scorza23: posts the ante 150
+wmoreira1989: posts the ante 150
+xPrikachu: posts the ante 150
+dmitriypom: posts the ante 150
+dmitriypom: posts small blind 600
+scorza23: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 6s]
+wmoreira1989: folds 
+xPrikachu: raises 1200 to 2400
+dmitriypom: folds 
+scorza23: folds 
+Uncalled bet (1200) returned to xPrikachu
+xPrikachu collected 3600 from pot
+xPrikachu: doesn't show hand 
+*** SUMMARY ***
+Total pot 3600 | Rake 0 
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: wmoreira1989 folded before Flop (didn't bet)
+Seat 4: xPrikachu (button) collected (3600)
+Seat 7: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749477094: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XIII (600/1200) - 2026/02/16 15:20:38 UTC [2026/02/16 10:20:38 ET]
+Table '3975659799 4' 8-max Seat #7 is the button
+Seat 2: scorza23 (11734 in chips) 
+Seat 3: wmoreira1989 (13853 in chips) 
+Seat 4: xPrikachu (11795 in chips) 
+Seat 7: dmitriypom (10618 in chips) 
+scorza23: posts the ante 150
+wmoreira1989: posts the ante 150
+xPrikachu: posts the ante 150
+dmitriypom: posts the ante 150
+scorza23: posts small blind 600
+wmoreira1989: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3c]
+xPrikachu: raises 1200 to 2400
+dmitriypom: folds 
+scorza23: folds 
+wmoreira1989: folds 
+Uncalled bet (1200) returned to xPrikachu
+xPrikachu collected 3600 from pot
+xPrikachu: doesn't show hand 
+*** SUMMARY ***
+Total pot 3600 | Rake 0 
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: wmoreira1989 (big blind) folded before Flop
+Seat 4: xPrikachu collected (3600)
+Seat 7: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749479339: Tournament #3975659799, $0.45+$0.05 USD Hold'em No Limit - Level XIII (600/1200) - 2026/02/16 15:20:52 UTC [2026/02/16 10:20:52 ET]
+Table '3975659799 4' 8-max Seat #2 is the button
+Seat 2: scorza23 (10984 in chips) 
+Seat 3: wmoreira1989 (12503 in chips) 
+Seat 4: xPrikachu (14045 in chips) 
+Seat 7: dmitriypom (10468 in chips) 
+scorza23: posts the ante 150
+wmoreira1989: posts the ante 150
+xPrikachu: posts the ante 150
+dmitriypom: posts the ante 150
+wmoreira1989: posts small blind 600
+xPrikachu: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Kc]
+dmitriypom: folds 
+scorza23: raises 2400 to 3600
+wmoreira1989: raises 8753 to 12353 and is all-in
+xPrikachu: folds 
+scorza23: calls 7234 and is all-in
+Uncalled bet (1519) returned to wmoreira1989
+*** FLOP *** [6h 8s Ks]
+*** TURN *** [6h 8s Ks] [Jc]
+*** RIVER *** [6h 8s Ks Jc] [As]
+*** SHOW DOWN ***
+wmoreira1989: shows [Th Qh] (a straight, Ten to Ace)
+scorza23: shows [Tc Kc] (a pair of Kings)
+wmoreira1989 collected 23468 from pot
+scorza23 finished the tournament in 4th place and received $1.58.
+*** SUMMARY ***
+Total pot 23468 | Rake 0 
+Board [6h 8s Ks Jc As]
+Seat 2: scorza23 (button) showed [Tc Kc] and lost with a pair of Kings
+Seat 3: wmoreira1989 (small blind) showed [Th Qh] and won (23468) with a straight, Ten to Ace
+Seat 4: xPrikachu (big blind) folded before Flop
+Seat 7: dmitriypom folded before Flop (didn't bet)
+
+
+

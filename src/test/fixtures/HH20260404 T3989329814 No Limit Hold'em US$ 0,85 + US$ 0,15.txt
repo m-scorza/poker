@@ -1,0 +1,2793 @@
+﻿PokerStars Hand #260347373068: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:15:06 UTC [2026/04/04 18:15:06 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (1500 in chips) 
+Seat 2: thainanr98 (1500 in chips) 
+Seat 3: Poker4life2026 (1500 in chips) 
+Seat 4: schps2005 (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: mgimenez532 (1500 in chips) 
+Seat 7: baudole (1500 in chips) 
+Seat 8: ignatius riley (1500 in chips) 
+Seat 9: stek080290 (1500 in chips) 
+a1gadgetman: posts the ante 3
+thainanr98: posts the ante 3
+Poker4life2026: posts the ante 3
+schps2005: posts the ante 3
+scorza23: posts the ante 3
+mgimenez532: posts the ante 3
+baudole: posts the ante 3
+ignatius riley: posts the ante 3
+stek080290: posts the ante 3
+thainanr98: posts small blind 10
+Poker4life2026: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 8c]
+schps2005: folds 
+scorza23: raises 20 to 40
+mgimenez532: calls 40
+baudole: folds 
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: folds 
+thainanr98: folds 
+Poker4life2026: folds 
+*** FLOP *** [9h Kc Tc]
+scorza23: checks 
+mgimenez532: bets 137
+scorza23: raises 411 to 548
+mgimenez532: folds 
+Uncalled bet (411) returned to scorza23
+scorza23 collected 411 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 411 | Rake 0 
+Board [9h Kc Tc]
+Seat 1: a1gadgetman (button) folded before Flop (didn't bet)
+Seat 2: thainanr98 (small blind) folded before Flop
+Seat 3: Poker4life2026 (big blind) folded before Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 collected (411)
+Seat 6: mgimenez532 folded on the Flop
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347389548: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:16:21 UTC [2026/04/04 18:16:21 ET]
+Table '3989329814 1' 9-max Seat #2 is the button
+Seat 1: a1gadgetman (1497 in chips) 
+Seat 2: thainanr98 (1487 in chips) 
+Seat 3: Poker4life2026 (1477 in chips) 
+Seat 4: schps2005 (1497 in chips) 
+Seat 5: scorza23 (1731 in chips) 
+Seat 6: mgimenez532 (1320 in chips) 
+Seat 7: baudole (1497 in chips) 
+Seat 8: ignatius riley (1497 in chips) 
+Seat 9: stek080290 (1497 in chips) 
+a1gadgetman: posts the ante 3
+thainanr98: posts the ante 3
+Poker4life2026: posts the ante 3
+schps2005: posts the ante 3
+scorza23: posts the ante 3
+mgimenez532: posts the ante 3
+baudole: posts the ante 3
+ignatius riley: posts the ante 3
+stek080290: posts the ante 3
+Poker4life2026: posts small blind 10
+schps2005: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Kd]
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: raises 20 to 40
+stek080290: folds 
+a1gadgetman: raises 137 to 177
+thainanr98: calls 177
+Poker4life2026: calls 167
+schps2005: folds 
+ignatius riley: calls 137
+*** FLOP *** [8d Qh 3h]
+Poker4life2026: checks 
+ignatius riley: checks 
+a1gadgetman: bets 1317 and is all-in
+thainanr98: folds 
+Poker4life2026: folds 
+ignatius riley: folds 
+Uncalled bet (1317) returned to a1gadgetman
+a1gadgetman collected 755 from pot
+*** SUMMARY ***
+Total pot 755 | Rake 0 
+Board [8d Qh 3h]
+Seat 1: a1gadgetman collected (755)
+Seat 2: thainanr98 (button) folded on the Flop
+Seat 3: Poker4life2026 (small blind) folded on the Flop
+Seat 4: schps2005 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded on the Flop
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347405447: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:17:33 UTC [2026/04/04 18:17:33 ET]
+Table '3989329814 1' 9-max Seat #3 is the button
+Seat 1: a1gadgetman (2072 in chips) 
+Seat 2: thainanr98 (1307 in chips) 
+Seat 3: Poker4life2026 (1297 in chips) 
+Seat 4: schps2005 (1474 in chips) 
+Seat 5: scorza23 (1728 in chips) 
+Seat 6: mgimenez532 (1317 in chips) 
+Seat 7: baudole (1494 in chips) 
+Seat 8: ignatius riley (1317 in chips) 
+Seat 9: stek080290 (1494 in chips) 
+a1gadgetman: posts the ante 3
+thainanr98: posts the ante 3
+Poker4life2026: posts the ante 3
+schps2005: posts the ante 3
+scorza23: posts the ante 3
+mgimenez532: posts the ante 3
+baudole: posts the ante 3
+ignatius riley: posts the ante 3
+stek080290: posts the ante 3
+schps2005: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Kd]
+mgimenez532: folds 
+baudole: calls 20
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: folds 
+thainanr98: folds 
+Poker4life2026: folds 
+schps2005: calls 10
+scorza23: raises 40 to 60
+baudole: folds 
+schps2005: calls 40
+*** FLOP *** [5d 9h Th]
+schps2005: bets 60
+scorza23: calls 60
+*** TURN *** [5d 9h Th] [Kc]
+schps2005: checks 
+scorza23: bets 60
+schps2005: calls 60
+*** RIVER *** [5d 9h Th Kc] [3c]
+schps2005: checks 
+scorza23: bets 204
+schps2005: calls 204
+*** SHOW DOWN ***
+scorza23: shows [Qh Kd] (a pair of Kings)
+schps2005: mucks hand 
+scorza23 collected 815 from pot
+*** SUMMARY ***
+Total pot 815 | Rake 0 
+Board [5d 9h Th Kc 3c]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 (button) folded before Flop (didn't bet)
+Seat 4: schps2005 (small blind) mucked [Ts Js]
+Seat 5: scorza23 (big blind) showed [Qh Kd] and won (815) with a pair of Kings
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347419704: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:18:39 UTC [2026/04/04 18:18:39 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (2069 in chips) 
+Seat 2: thainanr98 (1304 in chips) 
+Seat 3: Poker4life2026 (1294 in chips) 
+Seat 4: schps2005 (1087 in chips) 
+Seat 5: scorza23 (2156 in chips) 
+Seat 6: mgimenez532 (1314 in chips) 
+Seat 7: baudole (1471 in chips) 
+Seat 8: ignatius riley (1314 in chips) 
+Seat 9: stek080290 (1491 in chips) 
+a1gadgetman: posts the ante 3
+thainanr98: posts the ante 3
+Poker4life2026: posts the ante 3
+schps2005: posts the ante 3
+scorza23: posts the ante 3
+mgimenez532: posts the ante 3
+baudole: posts the ante 3
+ignatius riley: posts the ante 3
+stek080290: posts the ante 3
+scorza23: posts small blind 10
+mgimenez532: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 6d]
+baudole: folds 
+ignatius riley: folds 
+stek080290: calls 20
+a1gadgetman: folds 
+thainanr98: folds 
+Poker4life2026: raises 97 to 117
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 97
+stek080290: calls 97
+*** FLOP *** [Qs 2d 9c]
+mgimenez532: checks 
+stek080290: checks 
+Poker4life2026: checks 
+*** TURN *** [Qs 2d 9c] [2s]
+mgimenez532: bets 1194 and is all-in
+stek080290: folds 
+Poker4life2026: folds 
+Uncalled bet (1194) returned to mgimenez532
+mgimenez532 collected 388 from pot
+mgimenez532: doesn't show hand 
+*** SUMMARY ***
+Total pot 388 | Rake 0 
+Board [Qs 2d 9c 2s]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 folded on the Turn
+Seat 4: schps2005 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: mgimenez532 (big blind) collected (388)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded on the Turn
+
+
+
+PokerStars Hand #260347432287: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:19:37 UTC [2026/04/04 18:19:37 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (2066 in chips) 
+Seat 2: thainanr98 (1301 in chips) 
+Seat 3: Poker4life2026 (1174 in chips) 
+Seat 4: schps2005 (1084 in chips) 
+Seat 5: scorza23 (2143 in chips) 
+Seat 6: mgimenez532 (1582 in chips) 
+Seat 7: baudole (1468 in chips) 
+Seat 8: ignatius riley (1311 in chips) 
+Seat 9: stek080290 (1371 in chips) 
+a1gadgetman: posts the ante 3
+thainanr98: posts the ante 3
+Poker4life2026: posts the ante 3
+schps2005: posts the ante 3
+scorza23: posts the ante 3
+mgimenez532: posts the ante 3
+baudole: posts the ante 3
+ignatius riley: posts the ante 3
+stek080290: posts the ante 3
+mgimenez532: posts small blind 10
+baudole: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 4d]
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: calls 20
+thainanr98: folds 
+Poker4life2026: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 10
+baudole: checks 
+*** FLOP *** [2c Kh Qd]
+mgimenez532: checks 
+baudole: checks 
+a1gadgetman: bets 44
+mgimenez532: calls 44
+baudole: folds 
+*** TURN *** [2c Kh Qd] [Ac]
+mgimenez532: bets 175
+a1gadgetman: calls 175
+*** RIVER *** [2c Kh Qd Ac] [2s]
+mgimenez532: bets 525
+a1gadgetman: folds 
+Uncalled bet (525) returned to mgimenez532
+mgimenez532 collected 525 from pot
+mgimenez532: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [2c Kh Qd Ac 2s]
+Seat 1: a1gadgetman folded on the River
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: mgimenez532 (small blind) collected (525)
+Seat 7: baudole (big blind) folded on the Flop
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347453347: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:21:15 UTC [2026/04/04 18:21:15 ET]
+Table '3989329814 1' 9-max Seat #6 is the button
+Seat 1: a1gadgetman (1824 in chips) 
+Seat 2: thainanr98 (1298 in chips) 
+Seat 3: Poker4life2026 (1171 in chips) 
+Seat 4: schps2005 (1081 in chips) 
+Seat 5: scorza23 (2140 in chips) 
+Seat 6: mgimenez532 (1865 in chips) 
+Seat 7: baudole (1445 in chips) 
+Seat 8: ignatius riley (1308 in chips) 
+Seat 9: stek080290 (1368 in chips) 
+a1gadgetman: posts the ante 4
+thainanr98: posts the ante 4
+Poker4life2026: posts the ante 4
+schps2005: posts the ante 4
+scorza23: posts the ante 4
+mgimenez532: posts the ante 4
+baudole: posts the ante 4
+ignatius riley: posts the ante 4
+stek080290: posts the ante 4
+baudole: posts small blind 15
+ignatius riley: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 7h]
+stek080290: folds 
+a1gadgetman: calls 30
+thainanr98: folds 
+Poker4life2026: calls 30
+schps2005: calls 30
+scorza23: folds 
+mgimenez532: calls 30
+baudole: raises 1411 to 1441 and is all-in
+ignatius riley: folds 
+a1gadgetman: folds 
+Poker4life2026: folds 
+schps2005: folds 
+mgimenez532: folds 
+Uncalled bet (1411) returned to baudole
+baudole collected 216 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 216 | Rake 0 
+Seat 1: a1gadgetman folded before Flop
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 folded before Flop
+Seat 4: schps2005 folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 (button) folded before Flop
+Seat 7: baudole (small blind) collected (216)
+Seat 8: ignatius riley (big blind) folded before Flop
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347465793: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:22:14 UTC [2026/04/04 18:22:14 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (1790 in chips) 
+Seat 2: thainanr98 (1294 in chips) 
+Seat 3: Poker4life2026 (1137 in chips) 
+Seat 4: schps2005 (1047 in chips) 
+Seat 5: scorza23 (2136 in chips) 
+Seat 6: mgimenez532 (1831 in chips) 
+Seat 7: baudole (1627 in chips) 
+Seat 8: ignatius riley (1274 in chips) 
+Seat 9: stek080290 (1364 in chips) 
+a1gadgetman: posts the ante 4
+thainanr98: posts the ante 4
+Poker4life2026: posts the ante 4
+schps2005: posts the ante 4
+scorza23: posts the ante 4
+mgimenez532: posts the ante 4
+baudole: posts the ante 4
+ignatius riley: posts the ante 4
+stek080290: posts the ante 4
+ignatius riley: posts small blind 15
+stek080290: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6s]
+a1gadgetman: calls 30
+thainanr98: raises 150 to 180
+Poker4life2026: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: calls 150
+*** FLOP *** [9c Ac Qh]
+a1gadgetman: checks 
+thainanr98: bets 311
+a1gadgetman: calls 311
+*** TURN *** [9c Ac Qh] [9h]
+a1gadgetman: checks 
+thainanr98: bets 532
+a1gadgetman: folds 
+Uncalled bet (532) returned to thainanr98
+thainanr98 collected 1063 from pot
+thainanr98: doesn't show hand 
+*** SUMMARY ***
+Total pot 1063 | Rake 0 
+Board [9c Ac Qh 9h]
+Seat 1: a1gadgetman folded on the Turn
+Seat 2: thainanr98 collected (1063)
+Seat 3: Poker4life2026 folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole (button) folded before Flop (didn't bet)
+Seat 8: ignatius riley (small blind) folded before Flop
+Seat 9: stek080290 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347484817: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:23:43 UTC [2026/04/04 18:23:43 ET]
+Table '3989329814 1' 9-max Seat #8 is the button
+Seat 1: a1gadgetman (1295 in chips) 
+Seat 2: thainanr98 (1862 in chips) 
+Seat 3: Poker4life2026 (1133 in chips) 
+Seat 4: schps2005 (1043 in chips) 
+Seat 5: scorza23 (2132 in chips) 
+Seat 6: mgimenez532 (1827 in chips) 
+Seat 7: baudole (1623 in chips) 
+Seat 8: ignatius riley (1255 in chips) 
+Seat 9: stek080290 (1330 in chips) 
+a1gadgetman: posts the ante 4
+thainanr98: posts the ante 4
+Poker4life2026: posts the ante 4
+schps2005: posts the ante 4
+scorza23: posts the ante 4
+mgimenez532: posts the ante 4
+baudole: posts the ante 4
+ignatius riley: posts the ante 4
+stek080290: posts the ante 4
+stek080290: posts small blind 15
+a1gadgetman: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 8c]
+thainanr98: folds 
+Poker4life2026: calls 30
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: folds 
+stek080290: calls 15
+a1gadgetman: checks 
+*** FLOP *** [9h 7h Th]
+stek080290: checks 
+a1gadgetman: checks 
+Poker4life2026: bets 126
+stek080290: calls 126
+a1gadgetman: calls 126
+*** TURN *** [9h 7h Th] [2c]
+stek080290: checks 
+a1gadgetman: checks 
+Poker4life2026: checks 
+*** RIVER *** [9h 7h Th 2c] [5h]
+stek080290: checks 
+a1gadgetman: checks 
+Poker4life2026: checks 
+*** SHOW DOWN ***
+stek080290: shows [Qs Ks] (high card King)
+a1gadgetman: shows [3d 6h] (a flush, Ten high)
+Poker4life2026: mucks hand 
+a1gadgetman collected 504 from pot
+*** SUMMARY ***
+Total pot 504 | Rake 0 
+Board [9h 7h Th 2c 5h]
+Seat 1: a1gadgetman (big blind) showed [3d 6h] and won (504) with a flush, Ten high
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 mucked [Kd 7s]
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley (button) folded before Flop (didn't bet)
+Seat 9: stek080290 (small blind) showed [Qs Ks] and lost with high card King
+
+
+
+PokerStars Hand #260347497999: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:24:46 UTC [2026/04/04 18:24:46 ET]
+Table '3989329814 1' 9-max Seat #9 is the button
+Seat 1: a1gadgetman (1639 in chips) 
+Seat 2: thainanr98 (1858 in chips) 
+Seat 3: Poker4life2026 (973 in chips) 
+Seat 4: schps2005 (1039 in chips) 
+Seat 5: scorza23 (2128 in chips) 
+Seat 6: mgimenez532 (1823 in chips) 
+Seat 7: baudole (1619 in chips) 
+Seat 8: ignatius riley (1251 in chips) 
+Seat 9: stek080290 (1170 in chips) 
+a1gadgetman: posts the ante 4
+thainanr98: posts the ante 4
+Poker4life2026: posts the ante 4
+schps2005: posts the ante 4
+scorza23: posts the ante 4
+mgimenez532: posts the ante 4
+baudole: posts the ante 4
+ignatius riley: posts the ante 4
+stek080290: posts the ante 4
+a1gadgetman: posts small blind 15
+thainanr98: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Td]
+Poker4life2026: calls 30
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 30
+baudole: folds 
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: calls 15
+thainanr98: checks 
+*** FLOP *** [9h 9c Jh]
+a1gadgetman: checks 
+thainanr98: checks 
+Poker4life2026: bets 156
+mgimenez532: folds 
+a1gadgetman: calls 156
+thainanr98: folds 
+*** TURN *** [9h 9c Jh] [Kc]
+a1gadgetman: checks 
+Poker4life2026: checks 
+*** RIVER *** [9h 9c Jh Kc] [5h]
+a1gadgetman: bets 528
+Poker4life2026: calls 528
+*** SHOW DOWN ***
+a1gadgetman: shows [9d Ts] (three of a kind, Nines)
+Poker4life2026: mucks hand 
+a1gadgetman collected 1524 from pot
+*** SUMMARY ***
+Total pot 1524 | Rake 0 
+Board [9h 9c Jh Kc 5h]
+Seat 1: a1gadgetman (small blind) showed [9d Ts] and won (1524) with three of a kind, Nines
+Seat 2: thainanr98 (big blind) folded on the Flop
+Seat 3: Poker4life2026 mucked [6s Js]
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded on the Flop
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347515517: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:26:08 UTC [2026/04/04 18:26:08 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (2445 in chips) 
+Seat 2: thainanr98 (1824 in chips) 
+Seat 3: Poker4life2026 (255 in chips) 
+Seat 4: schps2005 (1035 in chips) 
+Seat 5: scorza23 (2124 in chips) 
+Seat 6: mgimenez532 (1789 in chips) 
+Seat 7: baudole (1615 in chips) 
+Seat 8: ignatius riley (1247 in chips) 
+Seat 9: stek080290 (1166 in chips) 
+a1gadgetman: posts the ante 6
+thainanr98: posts the ante 6
+Poker4life2026: posts the ante 6
+schps2005: posts the ante 6
+scorza23: posts the ante 6
+mgimenez532: posts the ante 6
+baudole: posts the ante 6
+ignatius riley: posts the ante 6
+stek080290: posts the ante 6
+thainanr98: posts small blind 25
+Poker4life2026: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 8s]
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: folds 
+thainanr98: raises 150 to 200
+Poker4life2026: raises 49 to 249 and is all-in
+thainanr98: calls 49
+*** FLOP *** [Ac Ts 6s]
+*** TURN *** [Ac Ts 6s] [7s]
+*** RIVER *** [Ac Ts 6s 7s] [Ks]
+*** SHOW DOWN ***
+thainanr98: shows [Kh 9d] (a pair of Kings)
+Poker4life2026: shows [7c Th] (two pair, Tens and Sevens)
+Poker4life2026 collected 552 from pot
+*** SUMMARY ***
+Total pot 552 | Rake 0 
+Board [Ac Ts 6s 7s Ks]
+Seat 1: a1gadgetman (button) folded before Flop (didn't bet)
+Seat 2: thainanr98 (small blind) showed [Kh 9d] and lost with a pair of Kings
+Seat 3: Poker4life2026 (big blind) showed [7c Th] and won (552) with two pair, Tens and Sevens
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347528102: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:27:08 UTC [2026/04/04 18:27:08 ET]
+Table '3989329814 1' 9-max Seat #2 is the button
+Seat 1: a1gadgetman (2439 in chips) 
+Seat 2: thainanr98 (1569 in chips) 
+Seat 3: Poker4life2026 (552 in chips) 
+Seat 4: schps2005 (1029 in chips) 
+Seat 5: scorza23 (2118 in chips) 
+Seat 6: mgimenez532 (1783 in chips) 
+Seat 7: baudole (1609 in chips) 
+Seat 8: ignatius riley (1241 in chips) 
+Seat 9: stek080290 (1160 in chips) 
+a1gadgetman: posts the ante 6
+thainanr98: posts the ante 6
+Poker4life2026: posts the ante 6
+schps2005: posts the ante 6
+scorza23: posts the ante 6
+mgimenez532: posts the ante 6
+baudole: posts the ante 6
+ignatius riley: posts the ante 6
+stek080290: posts the ante 6
+Poker4life2026: posts small blind 25
+schps2005: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Tc]
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: folds 
+stek080290: calls 50
+a1gadgetman: folds 
+thainanr98: raises 75 to 125
+Poker4life2026: calls 100
+schps2005: folds 
+stek080290: calls 75
+*** FLOP *** [4h 5s Kc]
+Poker4life2026: checks 
+stek080290: checks 
+thainanr98: bets 150
+Poker4life2026: folds 
+stek080290: calls 150
+*** TURN *** [4h 5s Kc] [2s]
+stek080290: checks 
+thainanr98: bets 250
+stek080290: calls 250
+*** RIVER *** [4h 5s Kc 2s] [9c]
+stek080290: bets 629 and is all-in
+thainanr98: folds 
+Uncalled bet (629) returned to stek080290
+stek080290 collected 1279 from pot
+*** SUMMARY ***
+Total pot 1279 | Rake 0 
+Board [4h 5s Kc 2s 9c]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 2: thainanr98 (button) folded on the River
+Seat 3: Poker4life2026 (small blind) folded on the Flop
+Seat 4: schps2005 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 collected (1279)
+
+
+
+PokerStars Hand #260347546965: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:28:37 UTC [2026/04/04 18:28:37 ET]
+Table '3989329814 1' 9-max Seat #3 is the button
+Seat 1: a1gadgetman (2433 in chips) 
+Seat 2: thainanr98 (1038 in chips) 
+Seat 3: Poker4life2026 (421 in chips) 
+Seat 4: schps2005 (973 in chips) 
+Seat 5: scorza23 (2112 in chips) 
+Seat 6: mgimenez532 (1777 in chips) 
+Seat 7: baudole (1603 in chips) 
+Seat 8: ignatius riley (1235 in chips) 
+Seat 9: stek080290 (1908 in chips) 
+a1gadgetman: posts the ante 6
+thainanr98: posts the ante 6
+Poker4life2026: posts the ante 6
+schps2005: posts the ante 6
+scorza23: posts the ante 6
+mgimenez532: posts the ante 6
+baudole: posts the ante 6
+ignatius riley: posts the ante 6
+stek080290: posts the ante 6
+schps2005: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Kh]
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: folds 
+stek080290: raises 200 to 250
+a1gadgetman: folds 
+thainanr98: folds 
+Poker4life2026: raises 165 to 415 and is all-in
+schps2005: folds 
+scorza23: folds 
+stek080290: calls 165
+*** FLOP *** [Kd 3c 7c]
+*** TURN *** [Kd 3c 7c] [6d]
+*** RIVER *** [Kd 3c 7c 6d] [2c]
+*** SHOW DOWN ***
+stek080290: shows [Jh Th] (high card King)
+Poker4life2026: shows [4h Ah] (high card Ace)
+Poker4life2026 collected 959 from pot
+*** SUMMARY ***
+Total pot 959 | Rake 0 
+Board [Kd 3c 7c 6d 2c]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 (button) showed [4h Ah] and won (959) with high card Ace
+Seat 4: schps2005 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 showed [Jh Th] and lost with high card King
+
+
+
+PokerStars Hand #260347561315: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:29:45 UTC [2026/04/04 18:29:45 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (2427 in chips) 
+Seat 2: thainanr98 (1032 in chips) 
+Seat 3: Poker4life2026 (959 in chips) 
+Seat 4: schps2005 (942 in chips) 
+Seat 5: scorza23 (2056 in chips) 
+Seat 6: mgimenez532 (1771 in chips) 
+Seat 7: baudole (1597 in chips) 
+Seat 8: ignatius riley (1229 in chips) 
+Seat 9: stek080290 (1487 in chips) 
+a1gadgetman: posts the ante 6
+thainanr98: posts the ante 6
+Poker4life2026: posts the ante 6
+schps2005: posts the ante 6
+scorza23: posts the ante 6
+mgimenez532: posts the ante 6
+baudole: posts the ante 6
+ignatius riley: posts the ante 6
+stek080290: posts the ante 6
+scorza23: posts small blind 25
+mgimenez532: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 3s]
+baudole: folds 
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: folds 
+thainanr98: folds 
+Poker4life2026: raises 179 to 229
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+Uncalled bet (179) returned to Poker4life2026
+Poker4life2026 collected 179 from pot
+Poker4life2026: doesn't show hand 
+*** SUMMARY ***
+Total pot 179 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 collected (179)
+Seat 4: schps2005 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: mgimenez532 (big blind) folded before Flop
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347570096: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:30:26 UTC [2026/04/04 18:30:26 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (2421 in chips) 
+Seat 2: thainanr98 (1026 in chips) 
+Seat 3: Poker4life2026 (1082 in chips) 
+Seat 4: schps2005 (936 in chips) 
+Seat 5: scorza23 (2025 in chips) 
+Seat 6: mgimenez532 (1715 in chips) 
+Seat 7: baudole (1591 in chips) 
+Seat 8: ignatius riley (1223 in chips) 
+Seat 9: stek080290 (1481 in chips) 
+a1gadgetman: posts the ante 10
+thainanr98: posts the ante 10
+Poker4life2026: posts the ante 10
+schps2005: posts the ante 10
+scorza23: posts the ante 10
+mgimenez532: posts the ante 10
+baudole: posts the ante 10
+ignatius riley: posts the ante 10
+stek080290: posts the ante 10
+mgimenez532: posts small blind 40
+baudole: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4d]
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: raises 290 to 370
+thainanr98: raises 646 to 1016 and is all-in
+Poker4life2026: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+a1gadgetman has timed out
+a1gadgetman: folds 
+a1gadgetman is sitting out
+Uncalled bet (646) returned to thainanr98
+thainanr98 collected 950 from pot
+thainanr98: doesn't show hand 
+*** SUMMARY ***
+Total pot 950 | Rake 0 
+Seat 1: a1gadgetman folded before Flop
+Seat 2: thainanr98 collected (950)
+Seat 3: Poker4life2026 folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: mgimenez532 (small blind) folded before Flop
+Seat 7: baudole (big blind) folded before Flop
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347582214: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:31:25 UTC [2026/04/04 18:31:25 ET]
+Table '3989329814 1' 9-max Seat #6 is the button
+Seat 1: a1gadgetman (2041 in chips) is sitting out
+Seat 2: thainanr98 (1596 in chips) 
+Seat 3: Poker4life2026 (1072 in chips) 
+Seat 4: schps2005 (926 in chips) 
+Seat 5: scorza23 (2015 in chips) 
+Seat 6: mgimenez532 (1665 in chips) 
+Seat 7: baudole (1501 in chips) 
+Seat 8: ignatius riley (1213 in chips) 
+Seat 9: stek080290 (1471 in chips) 
+a1gadgetman: posts the ante 10
+thainanr98: posts the ante 10
+Poker4life2026: posts the ante 10
+schps2005: posts the ante 10
+scorza23: posts the ante 10
+mgimenez532: posts the ante 10
+baudole: posts the ante 10
+ignatius riley: posts the ante 10
+stek080290: posts the ante 10
+baudole: posts small blind 40
+ignatius riley: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 8c]
+stek080290: folds 
+a1gadgetman: folds 
+a1gadgetman has returned
+thainanr98: folds 
+Poker4life2026: calls 80
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 80
+baudole: raises 1411 to 1491 and is all-in
+ignatius riley: folds 
+Poker4life2026: folds 
+mgimenez532: folds 
+Uncalled bet (1411) returned to baudole
+baudole collected 410 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 410 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 folded before Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 (button) folded before Flop
+Seat 7: baudole (small blind) collected (410)
+Seat 8: ignatius riley (big blind) folded before Flop
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347590830: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:32:07 UTC [2026/04/04 18:32:07 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (2031 in chips) 
+Seat 2: thainanr98 (1586 in chips) 
+Seat 3: Poker4life2026 (982 in chips) 
+Seat 4: schps2005 (916 in chips) 
+Seat 5: scorza23 (2005 in chips) 
+Seat 6: mgimenez532 (1575 in chips) 
+Seat 7: baudole (1821 in chips) 
+Seat 8: ignatius riley (1123 in chips) 
+Seat 9: stek080290 (1461 in chips) 
+a1gadgetman: posts the ante 10
+thainanr98: posts the ante 10
+Poker4life2026: posts the ante 10
+schps2005: posts the ante 10
+scorza23: posts the ante 10
+mgimenez532: posts the ante 10
+baudole: posts the ante 10
+ignatius riley: posts the ante 10
+stek080290: posts the ante 10
+ignatius riley: posts small blind 40
+stek080290: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 4c]
+a1gadgetman: folds 
+thainanr98: folds 
+Poker4life2026: calls 80
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: calls 40
+stek080290: raises 560 to 640
+Poker4life2026: folds 
+ignatius riley: folds 
+Uncalled bet (560) returned to stek080290
+stek080290 collected 330 from pot
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 2: thainanr98 folded before Flop (didn't bet)
+Seat 3: Poker4life2026 folded before Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole (button) folded before Flop (didn't bet)
+Seat 8: ignatius riley (small blind) folded before Flop
+Seat 9: stek080290 (big blind) collected (330)
+
+
+
+PokerStars Hand #260347601092: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:32:56 UTC [2026/04/04 18:32:56 ET]
+Table '3989329814 1' 9-max Seat #8 is the button
+Seat 1: a1gadgetman (2021 in chips) 
+Seat 2: thainanr98 (1576 in chips) 
+Seat 3: Poker4life2026 (892 in chips) 
+Seat 4: schps2005 (906 in chips) 
+Seat 5: scorza23 (1995 in chips) 
+Seat 6: mgimenez532 (1565 in chips) 
+Seat 7: baudole (1811 in chips) 
+Seat 8: ignatius riley (1033 in chips) 
+Seat 9: stek080290 (1701 in chips) 
+a1gadgetman: posts the ante 10
+thainanr98: posts the ante 10
+Poker4life2026: posts the ante 10
+schps2005: posts the ante 10
+scorza23: posts the ante 10
+mgimenez532: posts the ante 10
+baudole: posts the ante 10
+ignatius riley: posts the ante 10
+stek080290: posts the ante 10
+stek080290: posts small blind 40
+a1gadgetman: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ad]
+thainanr98: raises 80 to 160
+Poker4life2026: calls 160
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: folds 
+stek080290: calls 120
+a1gadgetman: calls 80
+*** FLOP *** [Kc Qs 3s]
+stek080290: bets 1531 and is all-in
+a1gadgetman: folds 
+thainanr98: calls 1406 and is all-in
+Poker4life2026: folds 
+Uncalled bet (125) returned to stek080290
+*** TURN *** [Kc Qs 3s] [8d]
+*** RIVER *** [Kc Qs 3s 8d] [2h]
+*** SHOW DOWN ***
+stek080290: shows [3d 3c] (three of a kind, Threes)
+thainanr98: shows [Js Qh] (a pair of Queens)
+stek080290 collected 3542 from pot
+thainanr98 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3542 | Rake 0 
+Board [Kc Qs 3s 8d 2h]
+Seat 1: a1gadgetman (big blind) folded on the Flop
+Seat 2: thainanr98 showed [Js Qh] and lost with a pair of Queens
+Seat 3: Poker4life2026 folded on the Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley (button) folded before Flop (didn't bet)
+Seat 9: stek080290 (small blind) showed [3d 3c] and won (3542) with three of a kind, Threes
+
+
+
+PokerStars Hand #260347614263: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:33:59 UTC [2026/04/04 18:33:59 ET]
+Table '3989329814 1' 9-max Seat #9 is the button
+Seat 1: a1gadgetman (1851 in chips) 
+Seat 3: Poker4life2026 (722 in chips) 
+Seat 4: schps2005 (896 in chips) 
+Seat 5: scorza23 (1985 in chips) 
+Seat 6: mgimenez532 (1555 in chips) 
+Seat 7: baudole (1801 in chips) 
+Seat 8: ignatius riley (1023 in chips) 
+Seat 9: stek080290 (3667 in chips) 
+a1gadgetman: posts the ante 10
+Poker4life2026: posts the ante 10
+schps2005: posts the ante 10
+scorza23: posts the ante 10
+mgimenez532: posts the ante 10
+baudole: posts the ante 10
+ignatius riley: posts the ante 10
+stek080290: posts the ante 10
+a1gadgetman: posts small blind 40
+Poker4life2026: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 3s]
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: raises 80 to 160
+Poker4life2026: calls 80
+*** FLOP *** [Kc 8c 4h]
+a1gadgetman: bets 200
+Poker4life2026: raises 352 to 552 and is all-in
+a1gadgetman: calls 352
+*** TURN *** [Kc 8c 4h] [6d]
+*** RIVER *** [Kc 8c 4h 6d] [5d]
+*** SHOW DOWN ***
+a1gadgetman: shows [Kd Qc] (a pair of Kings)
+Poker4life2026: shows [8h Qh] (a pair of Eights)
+a1gadgetman collected 1504 from pot
+Poker4life2026 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 1504 | Rake 0 
+Board [Kc 8c 4h 6d 5d]
+Seat 1: a1gadgetman (small blind) showed [Kd Qc] and won (1504) with a pair of Kings
+Seat 3: Poker4life2026 (big blind) showed [8h Qh] and lost with a pair of Eights
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347625473: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:34:53 UTC [2026/04/04 18:34:53 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (2633 in chips) 
+Seat 4: schps2005 (886 in chips) 
+Seat 5: scorza23 (1975 in chips) 
+Seat 6: mgimenez532 (1545 in chips) 
+Seat 7: baudole (1791 in chips) 
+Seat 8: ignatius riley (1013 in chips) 
+Seat 9: stek080290 (3657 in chips) 
+a1gadgetman: posts the ante 10
+schps2005: posts the ante 10
+scorza23: posts the ante 10
+mgimenez532: posts the ante 10
+baudole: posts the ante 10
+ignatius riley: posts the ante 10
+stek080290: posts the ante 10
+schps2005: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8s]
+mgimenez532: folds 
+baudole: calls 80
+ignatius riley: folds 
+stek080290: folds 
+a1gadgetman: folds 
+schps2005: calls 40
+scorza23: checks 
+*** FLOP *** [3h Td Qh]
+schps2005: checks 
+scorza23: checks 
+baudole: checks 
+*** TURN *** [3h Td Qh] [5c]
+schps2005: checks 
+scorza23: checks 
+baudole: checks 
+*** RIVER *** [3h Td Qh 5c] [8c]
+schps2005: checks 
+scorza23: bets 240
+baudole: folds 
+schps2005: folds 
+Uncalled bet (240) returned to scorza23
+scorza23 collected 310 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 310 | Rake 0 
+Board [3h Td Qh 5c 8c]
+Seat 1: a1gadgetman (button) folded before Flop (didn't bet)
+Seat 4: schps2005 (small blind) folded on the River
+Seat 5: scorza23 (big blind) collected (310)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded on the River
+Seat 8: ignatius riley folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347636311: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:35:45 UTC [2026/04/04 18:35:45 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (2623 in chips) 
+Seat 4: schps2005 (796 in chips) 
+Seat 5: scorza23 (2195 in chips) 
+Seat 6: mgimenez532 (1535 in chips) 
+Seat 7: baudole (1701 in chips) 
+Seat 8: ignatius riley (1003 in chips) 
+Seat 9: stek080290 (3647 in chips) 
+a1gadgetman: posts the ante 15
+schps2005: posts the ante 15
+scorza23: posts the ante 15
+mgimenez532: posts the ante 15
+baudole: posts the ante 15
+ignatius riley: posts the ante 15
+stek080290: posts the ante 15
+scorza23: posts small blind 60
+mgimenez532: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Qs]
+baudole has timed out
+baudole: folds 
+baudole is sitting out
+baudole has returned
+ignatius riley: raises 868 to 988 and is all-in
+stek080290: folds 
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: calls 928
+mgimenez532: folds 
+*** FLOP *** [Kh 5d Ts]
+*** TURN *** [Kh 5d Ts] [Qh]
+*** RIVER *** [Kh 5d Ts Qh] [Tc]
+*** SHOW DOWN ***
+scorza23: shows [Ad Qs] (two pair, Queens and Tens)
+ignatius riley: shows [7d 7s] (two pair, Tens and Sevens)
+scorza23 collected 2201 from pot
+ignatius riley finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 2201 | Rake 0 
+Board [Kh 5d Ts Qh Tc]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) showed [Ad Qs] and won (2201) with two pair, Queens and Tens
+Seat 6: mgimenez532 (big blind) folded before Flop
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 8: ignatius riley showed [7d 7s] and lost with two pair, Tens and Sevens
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347644812: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:36:26 UTC [2026/04/04 18:36:26 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (2608 in chips) 
+Seat 4: schps2005 (781 in chips) 
+Seat 5: scorza23 (3393 in chips) 
+Seat 6: mgimenez532 (1400 in chips) 
+Seat 7: baudole (1686 in chips) 
+Seat 9: stek080290 (3632 in chips) 
+a1gadgetman: posts the ante 15
+schps2005: posts the ante 15
+scorza23: posts the ante 15
+mgimenez532: posts the ante 15
+baudole: posts the ante 15
+stek080290: posts the ante 15
+mgimenez532: posts small blind 60
+baudole: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2c]
+stek080290: folds 
+a1gadgetman: calls 120
+schps2005 has timed out
+schps2005: folds 
+schps2005 is sitting out
+scorza23: folds 
+mgimenez532: calls 60
+baudole: checks 
+*** FLOP *** [Qc 5c 5d]
+mgimenez532: checks 
+baudole: bets 120
+a1gadgetman: folds 
+mgimenez532: folds 
+Uncalled bet (120) returned to baudole
+baudole collected 450 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [Qc 5c 5d]
+Seat 1: a1gadgetman folded on the Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: mgimenez532 (small blind) folded on the Flop
+Seat 7: baudole (big blind) collected (450)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347656421: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:37:23 UTC [2026/04/04 18:37:23 ET]
+Table '3989329814 1' 9-max Seat #6 is the button
+Seat 1: a1gadgetman (2473 in chips) 
+Seat 4: schps2005 (766 in chips) is sitting out
+Seat 5: scorza23 (3378 in chips) 
+Seat 6: mgimenez532 (1265 in chips) 
+Seat 7: baudole (2001 in chips) 
+Seat 9: stek080290 (3617 in chips) 
+a1gadgetman: posts the ante 15
+schps2005: posts the ante 15
+scorza23: posts the ante 15
+mgimenez532: posts the ante 15
+baudole: posts the ante 15
+stek080290: posts the ante 15
+baudole: posts small blind 60
+stek080290: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Js]
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: calls 60
+stek080290: checks 
+*** FLOP *** [9s 5d 4h]
+baudole: bets 360
+stek080290: folds [3c]
+Uncalled bet (360) returned to baudole
+baudole collected 330 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Board [9s 5d 4h]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 (button) folded before Flop (didn't bet)
+Seat 7: baudole (small blind) collected (330)
+Seat 9: stek080290 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347662131: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:37:51 UTC [2026/04/04 18:37:51 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (2458 in chips) 
+Seat 4: schps2005 (751 in chips) is sitting out
+Seat 5: scorza23 (3363 in chips) 
+Seat 6: mgimenez532 (1250 in chips) 
+Seat 7: baudole (2196 in chips) 
+Seat 9: stek080290 (3482 in chips) 
+a1gadgetman: posts the ante 15
+schps2005: posts the ante 15
+scorza23: posts the ante 15
+mgimenez532: posts the ante 15
+baudole: posts the ante 15
+stek080290: posts the ante 15
+stek080290: posts small blind 60
+a1gadgetman: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 4s]
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+stek080290: folds [3c]
+Uncalled bet (60) returned to a1gadgetman
+a1gadgetman collected 210 from pot
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 1: a1gadgetman (big blind) collected (210)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole (button) folded before Flop (didn't bet)
+Seat 9: stek080290 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347669611: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:38:27 UTC [2026/04/04 18:38:27 ET]
+Table '3989329814 1' 9-max Seat #9 is the button
+Seat 1: a1gadgetman (2593 in chips) 
+Seat 4: schps2005 (736 in chips) is sitting out
+Seat 5: scorza23 (3348 in chips) 
+Seat 6: mgimenez532 (1235 in chips) 
+Seat 7: baudole (2181 in chips) 
+Seat 9: stek080290 (3407 in chips) 
+a1gadgetman: posts the ante 15
+schps2005: posts the ante 15
+scorza23: posts the ante 15
+mgimenez532: posts the ante 15
+baudole: posts the ante 15
+stek080290: posts the ante 15
+a1gadgetman: posts small blind 60
+schps2005: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 2c]
+scorza23: folds 
+mgimenez532: folds 
+baudole: calls 120
+stek080290: raises 600 to 720
+schps2005 is disconnected 
+a1gadgetman: folds 
+schps2005: folds 
+baudole: folds 
+Uncalled bet (600) returned to stek080290
+stek080290 collected 510 from pot
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Seat 1: a1gadgetman (small blind) folded before Flop
+Seat 4: schps2005 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop
+Seat 9: stek080290 (button) collected (510)
+
+
+
+PokerStars Hand #260347677544: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:39:06 UTC [2026/04/04 18:39:06 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (2518 in chips) 
+Seat 4: schps2005 (601 in chips) is sitting out
+Seat 5: scorza23 (3333 in chips) 
+Seat 6: mgimenez532 (1220 in chips) 
+Seat 7: baudole (2046 in chips) 
+Seat 9: stek080290 (3782 in chips) 
+a1gadgetman: posts the ante 15
+schps2005: posts the ante 15
+scorza23: posts the ante 15
+mgimenez532: posts the ante 15
+baudole: posts the ante 15
+stek080290: posts the ante 15
+schps2005: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 5d]
+mgimenez532: folds 
+baudole: calls 120
+stek080290: folds 
+a1gadgetman has timed out
+a1gadgetman: folds 
+a1gadgetman is sitting out
+schps2005: folds 
+scorza23: checks 
+*** FLOP *** [9h Jh Jc]
+scorza23: checks 
+baudole: checks 
+*** TURN *** [9h Jh Jc] [6s]
+scorza23: checks 
+baudole: checks 
+*** RIVER *** [9h Jh Jc 6s] [Jd]
+scorza23: bets 240
+baudole: calls 240
+*** SHOW DOWN ***
+scorza23: shows [Ah 5d] (three of a kind, Jacks)
+baudole: shows [Kh Ad] (three of a kind, Jacks - Ace+King kicker)
+baudole collected 870 from pot
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [9h Jh Jc 6s Jd]
+Seat 1: a1gadgetman (button) folded before Flop (didn't bet)
+Seat 4: schps2005 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [Ah 5d] and lost with three of a kind, Jacks
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole showed [Kh Ad] and won (870) with three of a kind, Jacks
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347686233: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:39:49 UTC [2026/04/04 18:39:49 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (2503 in chips) is sitting out
+Seat 4: schps2005 (526 in chips) is sitting out
+Seat 5: scorza23 (2958 in chips) 
+Seat 6: mgimenez532 (1205 in chips) 
+Seat 7: baudole (2541 in chips) 
+Seat 9: stek080290 (3767 in chips) 
+a1gadgetman: posts the ante 15
+schps2005: posts the ante 15
+scorza23: posts the ante 15
+mgimenez532: posts the ante 15
+baudole: posts the ante 15
+stek080290: posts the ante 15
+scorza23: posts small blind 60
+mgimenez532: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6d]
+schps2005 has returned
+baudole: folds 
+stek080290: calls 120
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: raises 240 to 360
+mgimenez532: raises 830 to 1190 and is all-in
+stek080290: folds 
+scorza23: folds 
+Uncalled bet (830) returned to mgimenez532
+mgimenez532 collected 930 from pot
+mgimenez532: doesn't show hand 
+*** SUMMARY ***
+Total pot 930 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: mgimenez532 (big blind) collected (930)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop
+
+
+
+PokerStars Hand #260347693819: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:40:27 UTC [2026/04/04 18:40:27 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (2488 in chips) is sitting out
+Seat 4: schps2005 (511 in chips) 
+Seat 5: scorza23 (2583 in chips) 
+Seat 6: mgimenez532 (1760 in chips) 
+Seat 7: baudole (2526 in chips) 
+Seat 9: stek080290 (3632 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+mgimenez532: posts small blind 80
+baudole: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 6d]
+a1gadgetman has returned
+stek080290: raises 800 to 960
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+Uncalled bet (800) returned to stek080290
+stek080290 collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: mgimenez532 (small blind) folded before Flop
+Seat 7: baudole (big blind) folded before Flop
+Seat 9: stek080290 collected (520)
+
+
+
+PokerStars Hand #260347699031: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:40:52 UTC [2026/04/04 18:40:52 ET]
+Table '3989329814 1' 9-max Seat #6 is the button
+Seat 1: a1gadgetman (2468 in chips) 
+Seat 4: schps2005 (491 in chips) 
+Seat 5: scorza23 (2563 in chips) 
+Seat 6: mgimenez532 (1660 in chips) 
+Seat 7: baudole (2346 in chips) 
+Seat 9: stek080290 (3972 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+baudole: posts small blind 80
+stek080290: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 7h]
+a1gadgetman: calls 160
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 160
+baudole: calls 80
+stek080290: checks 
+*** FLOP *** [7d Jh Td]
+baudole: checks 
+stek080290: checks 
+a1gadgetman: checks 
+mgimenez532: bets 760
+baudole: folds 
+stek080290: folds 
+a1gadgetman: folds 
+Uncalled bet (760) returned to mgimenez532
+mgimenez532 collected 760 from pot
+mgimenez532: doesn't show hand 
+*** SUMMARY ***
+Total pot 760 | Rake 0 
+Board [7d Jh Td]
+Seat 1: a1gadgetman folded on the Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 (button) collected (760)
+Seat 7: baudole (small blind) folded on the Flop
+Seat 9: stek080290 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347708481: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:41:39 UTC [2026/04/04 18:41:39 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (2288 in chips) 
+Seat 4: schps2005 (471 in chips) 
+Seat 5: scorza23 (2543 in chips) 
+Seat 6: mgimenez532 (2240 in chips) 
+Seat 7: baudole (2166 in chips) 
+Seat 9: stek080290 (3792 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+stek080290: posts small blind 80
+a1gadgetman: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 9h]
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 160
+baudole: calls 160
+stek080290: calls 80
+a1gadgetman: checks 
+*** FLOP *** [4h Jh 8c]
+stek080290: checks 
+a1gadgetman: checks 
+mgimenez532: checks 
+baudole: bets 1986 and is all-in
+stek080290: raises 1626 to 3612 and is all-in
+a1gadgetman: folds 
+mgimenez532: folds 
+Uncalled bet (1626) returned to stek080290
+*** TURN *** [4h Jh 8c] [6c]
+*** RIVER *** [4h Jh 8c 6c] [4s]
+*** SHOW DOWN ***
+stek080290: shows [6h Th] (two pair, Sixes and Fours)
+baudole: shows [As 8s] (two pair, Eights and Fours)
+baudole collected 4732 from pot
+*** SUMMARY ***
+Total pot 4732 | Rake 0 
+Board [4h Jh 8c 6c 4s]
+Seat 1: a1gadgetman (big blind) folded on the Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded on the Flop
+Seat 7: baudole (button) showed [As 8s] and won (4732) with two pair, Eights and Fours
+Seat 9: stek080290 (small blind) showed [6h Th] and lost with two pair, Sixes and Fours
+
+
+
+PokerStars Hand #260347719258: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:42:33 UTC [2026/04/04 18:42:33 ET]
+Table '3989329814 1' 9-max Seat #9 is the button
+Seat 1: a1gadgetman (2108 in chips) 
+Seat 4: schps2005 (451 in chips) 
+Seat 5: scorza23 (2523 in chips) 
+Seat 6: mgimenez532 (2060 in chips) 
+Seat 7: baudole (4732 in chips) 
+Seat 9: stek080290 (1626 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+a1gadgetman: posts small blind 80
+schps2005: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2d]
+scorza23: folds 
+mgimenez532: calls 160
+baudole: folds 
+stek080290: raises 1446 to 1606 and is all-in
+a1gadgetman: folds 
+schps2005: calls 271 and is all-in
+mgimenez532: folds 
+Uncalled bet (1175) returned to stek080290
+*** FLOP *** [Jc 9s 6c]
+*** TURN *** [Jc 9s 6c] [3c]
+*** RIVER *** [Jc 9s 6c 3c] [4s]
+*** SHOW DOWN ***
+schps2005: shows [Jh Ac] (a pair of Jacks)
+stek080290: shows [Ad 7c] (high card Ace)
+schps2005 collected 1222 from pot
+*** SUMMARY ***
+Total pot 1222 | Rake 0 
+Board [Jc 9s 6c 3c 4s]
+Seat 1: a1gadgetman (small blind) folded before Flop
+Seat 4: schps2005 (big blind) showed [Jh Ac] and won (1222) with a pair of Jacks
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 9: stek080290 (button) showed [Ad 7c] and lost with high card Ace
+
+
+
+PokerStars Hand #260347728426: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:43:19 UTC [2026/04/04 18:43:19 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (2008 in chips) 
+Seat 4: schps2005 (1222 in chips) 
+Seat 5: scorza23 (2503 in chips) 
+Seat 6: mgimenez532 (1880 in chips) 
+Seat 7: baudole (4712 in chips) 
+Seat 9: stek080290 (1175 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+schps2005: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Qd]
+mgimenez532: folds 
+baudole: folds 
+stek080290: folds 
+a1gadgetman: folds 
+schps2005: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 280 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: a1gadgetman (button) folded before Flop (didn't bet)
+Seat 4: schps2005 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (280)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347731758: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:43:36 UTC [2026/04/04 18:43:36 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (1988 in chips) 
+Seat 4: schps2005 (1122 in chips) 
+Seat 5: scorza23 (2683 in chips) 
+Seat 6: mgimenez532 (1860 in chips) 
+Seat 7: baudole (4692 in chips) 
+Seat 9: stek080290 (1155 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+scorza23: posts small blind 80
+mgimenez532: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 2d]
+baudole: calls 160
+stek080290: folds 
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: checks 
+*** FLOP *** [Kh 7d Js]
+mgimenez532: checks 
+baudole: bets 480
+mgimenez532: folds 
+Uncalled bet (480) returned to baudole
+baudole collected 520 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Board [Kh 7d Js]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: mgimenez532 (big blind) folded on the Flop
+Seat 7: baudole collected (520)
+Seat 9: stek080290 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347736988: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:44:02 UTC [2026/04/04 18:44:02 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (1968 in chips) 
+Seat 4: schps2005 (1102 in chips) 
+Seat 5: scorza23 (2583 in chips) 
+Seat 6: mgimenez532 (1680 in chips) 
+Seat 7: baudole (5032 in chips) 
+Seat 9: stek080290 (1135 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+mgimenez532: posts small blind 80
+baudole: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ad]
+stek080290: raises 955 to 1115 and is all-in
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+Uncalled bet (955) returned to stek080290
+stek080290 collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: mgimenez532 (small blind) folded before Flop
+Seat 7: baudole (big blind) folded before Flop
+Seat 9: stek080290 collected (520)
+
+
+
+PokerStars Hand #260347740209: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:44:18 UTC [2026/04/04 18:44:18 ET]
+Table '3989329814 1' 9-max Seat #6 is the button
+Seat 1: a1gadgetman (1948 in chips) 
+Seat 4: schps2005 (1082 in chips) 
+Seat 5: scorza23 (2563 in chips) 
+Seat 6: mgimenez532 (1580 in chips) 
+Seat 7: baudole (4852 in chips) 
+Seat 9: stek080290 (1475 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+baudole: posts small blind 80
+stek080290: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 2h]
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 160
+baudole: folds 
+stek080290: checks 
+*** FLOP *** [Td 9s 4d]
+stek080290: checks 
+mgimenez532: bets 520
+stek080290: folds 
+Uncalled bet (520) returned to mgimenez532
+mgimenez532 collected 520 from pot
+mgimenez532: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Board [Td 9s 4d]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 (button) collected (520)
+Seat 7: baudole (small blind) folded before Flop
+Seat 9: stek080290 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347745480: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:44:44 UTC [2026/04/04 18:44:44 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (1928 in chips) 
+Seat 4: schps2005 (1062 in chips) 
+Seat 5: scorza23 (2543 in chips) 
+Seat 6: mgimenez532 (1920 in chips) 
+Seat 7: baudole (4752 in chips) 
+Seat 9: stek080290 (1295 in chips) 
+a1gadgetman: posts the ante 20
+schps2005: posts the ante 20
+scorza23: posts the ante 20
+mgimenez532: posts the ante 20
+baudole: posts the ante 20
+stek080290: posts the ante 20
+stek080290: posts small blind 80
+a1gadgetman: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2h]
+schps2005: folds 
+scorza23: folds 
+mgimenez532: calls 160
+baudole: raises 160 to 320
+stek080290: raises 955 to 1275 and is all-in
+a1gadgetman: folds 
+mgimenez532: folds 
+baudole: calls 955
+*** FLOP *** [3d 7s Ad]
+*** TURN *** [3d 7s Ad] [5h]
+*** RIVER *** [3d 7s Ad 5h] [Th]
+*** SHOW DOWN ***
+stek080290: shows [Kh Qd] (high card Ace)
+baudole: shows [Kd Kc] (a pair of Kings)
+baudole collected 2990 from pot
+stek080290 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 2990 | Rake 0 
+Board [3d 7s Ad 5h Th]
+Seat 1: a1gadgetman (big blind) folded before Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop
+Seat 7: baudole (button) showed [Kd Kc] and won (2990) with a pair of Kings
+Seat 9: stek080290 (small blind) showed [Kh Qd] and lost with high card Ace
+
+
+
+PokerStars Hand #260347753055: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:45:23 UTC [2026/04/04 18:45:23 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (1748 in chips) 
+Seat 4: schps2005 (1042 in chips) 
+Seat 5: scorza23 (2523 in chips) 
+Seat 6: mgimenez532 (1740 in chips) 
+Seat 7: baudole (6447 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+schps2005: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Ah]
+mgimenez532: calls 200
+baudole: folds 
+a1gadgetman: calls 200
+schps2005: calls 100
+scorza23: checks 
+*** FLOP *** [8s 2h Td]
+schps2005: checks 
+scorza23: checks 
+mgimenez532: checks 
+a1gadgetman: checks 
+*** TURN *** [8s 2h Td] [Th]
+schps2005: checks 
+scorza23: checks 
+mgimenez532: checks 
+a1gadgetman: checks 
+*** RIVER *** [8s 2h Td Th] [3h]
+schps2005: checks 
+scorza23: checks 
+mgimenez532: checks 
+a1gadgetman: checks 
+*** SHOW DOWN ***
+schps2005: shows [Qs 7s] (a pair of Tens)
+scorza23: shows [3s Ah] (two pair, Tens and Threes)
+mgimenez532: mucks hand 
+a1gadgetman: mucks hand 
+scorza23 collected 925 from pot
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Board [8s 2h Td Th 3h]
+Seat 1: a1gadgetman (button) mucked [Kd 9d]
+Seat 4: schps2005 (small blind) showed [Qs 7s] and lost with a pair of Tens
+Seat 5: scorza23 (big blind) showed [3s Ah] and won (925) with two pair, Tens and Threes
+Seat 6: mgimenez532 mucked [6c As]
+Seat 7: baudole folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347761555: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:46:06 UTC [2026/04/04 18:46:06 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (1523 in chips) 
+Seat 4: schps2005 (817 in chips) 
+Seat 5: scorza23 (3223 in chips) 
+Seat 6: mgimenez532 (1515 in chips) 
+Seat 7: baudole (6422 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 100
+mgimenez532: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 3h]
+baudole: folds 
+a1gadgetman: calls 200
+schps2005: folds 
+scorza23: folds 
+mgimenez532: checks 
+*** FLOP *** [Ts 7c 2h]
+mgimenez532: checks 
+a1gadgetman: checks 
+*** TURN *** [Ts 7c 2h] [Th]
+mgimenez532: checks 
+a1gadgetman: checks 
+*** RIVER *** [Ts 7c 2h Th] [Jd]
+mgimenez532: checks 
+a1gadgetman: checks 
+*** SHOW DOWN ***
+mgimenez532: shows [4c Kh] (a pair of Tens)
+a1gadgetman: shows [Ks Qh] (a pair of Tens - King+Queen kicker)
+a1gadgetman collected 625 from pot
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Board [Ts 7c 2h Th Jd]
+Seat 1: a1gadgetman showed [Ks Qh] and won (625) with a pair of Tens
+Seat 4: schps2005 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: mgimenez532 (big blind) showed [4c Kh] and lost with a pair of Tens
+Seat 7: baudole folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347767467: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:46:36 UTC [2026/04/04 18:46:36 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (1923 in chips) 
+Seat 4: schps2005 (792 in chips) 
+Seat 5: scorza23 (3098 in chips) 
+Seat 6: mgimenez532 (1290 in chips) 
+Seat 7: baudole (6397 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+mgimenez532: posts small blind 100
+baudole: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jc]
+a1gadgetman: folds 
+schps2005: raises 567 to 767 and is all-in
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+Uncalled bet (567) returned to schps2005
+schps2005 collected 625 from pot
+schps2005: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 collected (625)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: mgimenez532 (small blind) folded before Flop
+Seat 7: baudole (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347772899: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:47:04 UTC [2026/04/04 18:47:04 ET]
+Table '3989329814 1' 9-max Seat #6 is the button
+Seat 1: a1gadgetman (1898 in chips) 
+Seat 4: schps2005 (1192 in chips) 
+Seat 5: scorza23 (3073 in chips) 
+Seat 6: mgimenez532 (1165 in chips) 
+Seat 7: baudole (6172 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 100
+a1gadgetman: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 6s]
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: calls 100
+a1gadgetman: checks 
+*** FLOP *** [Js 5d Tc]
+baudole: checks 
+a1gadgetman: checks 
+*** TURN *** [Js 5d Tc] [5s]
+baudole: checks 
+a1gadgetman: checks 
+*** RIVER *** [Js 5d Tc 5s] [8c]
+baudole: bets 600
+a1gadgetman: folds 
+Uncalled bet (600) returned to baudole
+baudole collected 525 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [Js 5d Tc 5s 8c]
+Seat 1: a1gadgetman (big blind) folded on the River
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 (button) folded before Flop (didn't bet)
+Seat 7: baudole (small blind) collected (525)
+
+
+
+PokerStars Hand #260347785106: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:48:06 UTC [2026/04/04 18:48:06 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (1673 in chips) 
+Seat 4: schps2005 (1167 in chips) 
+Seat 5: scorza23 (3048 in chips) 
+Seat 6: mgimenez532 (1140 in chips) 
+Seat 7: baudole (6472 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+a1gadgetman: posts small blind 100
+schps2005: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ah]
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+a1gadgetman: folds 
+Uncalled bet (100) returned to schps2005
+schps2005 collected 325 from pot
+schps2005: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 1: a1gadgetman (small blind) folded before Flop
+Seat 4: schps2005 (big blind) collected (325)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347789405: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:48:27 UTC [2026/04/04 18:48:27 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (1548 in chips) 
+Seat 4: schps2005 (1367 in chips) 
+Seat 5: scorza23 (3023 in chips) 
+Seat 6: mgimenez532 (1115 in chips) 
+Seat 7: baudole (6447 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+schps2005: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Js]
+mgimenez532: folds 
+baudole: folds 
+a1gadgetman: calls 200
+schps2005: folds 
+scorza23: checks 
+*** FLOP *** [2s Ts Jc]
+scorza23: bets 600
+a1gadgetman: calls 600
+*** TURN *** [2s Ts Jc] [6s]
+scorza23: checks 
+a1gadgetman: checks 
+*** RIVER *** [2s Ts Jc 6s] [4s]
+scorza23: bets 800
+a1gadgetman: folds 
+Uncalled bet (800) returned to scorza23
+scorza23 collected 1825 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1825 | Rake 0 
+Board [2s Ts Jc 6s 4s]
+Seat 1: a1gadgetman (button) folded on the River
+Seat 4: schps2005 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (1825)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347796906: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:49:05 UTC [2026/04/04 18:49:05 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (723 in chips) 
+Seat 4: schps2005 (1242 in chips) 
+Seat 5: scorza23 (4023 in chips) 
+Seat 6: mgimenez532 (1090 in chips) 
+Seat 7: baudole (6422 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 100
+mgimenez532: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 4s]
+baudole: folds 
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: folds 
+Uncalled bet (100) returned to mgimenez532
+mgimenez532 collected 325 from pot
+mgimenez532: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: mgimenez532 (big blind) collected (325)
+Seat 7: baudole folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347801842: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:49:30 UTC [2026/04/04 18:49:30 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (698 in chips) 
+Seat 4: schps2005 (1217 in chips) 
+Seat 5: scorza23 (3898 in chips) 
+Seat 6: mgimenez532 (1290 in chips) 
+Seat 7: baudole (6397 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+mgimenez532: posts small blind 100
+baudole: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ac]
+a1gadgetman has timed out
+a1gadgetman: folds 
+a1gadgetman is sitting out
+schps2005: folds 
+scorza23: raises 400 to 600
+mgimenez532: folds 
+baudole: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 625 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (625)
+Seat 6: mgimenez532 (small blind) folded before Flop
+Seat 7: baudole (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347811311: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:50:19 UTC [2026/04/04 18:50:19 ET]
+Table '3989329814 1' 9-max Seat #6 is the button
+Seat 1: a1gadgetman (673 in chips) is sitting out
+Seat 4: schps2005 (1192 in chips) 
+Seat 5: scorza23 (4298 in chips) 
+Seat 6: mgimenez532 (1165 in chips) 
+Seat 7: baudole (6172 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 150
+a1gadgetman: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Qd]
+schps2005: folds 
+scorza23: folds 
+mgimenez532: folds 
+baudole: raises 300 to 600
+a1gadgetman: folds 
+Uncalled bet (300) returned to baudole
+baudole collected 725 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 725 | Rake 0 
+Seat 1: a1gadgetman (big blind) folded before Flop
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 (button) folded before Flop (didn't bet)
+Seat 7: baudole (small blind) collected (725)
+
+
+
+PokerStars Hand #260347814802: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:50:37 UTC [2026/04/04 18:50:37 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (348 in chips) is sitting out
+Seat 4: schps2005 (1167 in chips) 
+Seat 5: scorza23 (4273 in chips) 
+Seat 6: mgimenez532 (1140 in chips) 
+Seat 7: baudole (6572 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+a1gadgetman: posts small blind 150
+schps2005: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 5d]
+scorza23: folds 
+mgimenez532: folds 
+baudole: folds 
+a1gadgetman: folds 
+Uncalled bet (150) returned to schps2005
+a1gadgetman has returned
+schps2005 collected 425 from pot
+schps2005: doesn't show hand 
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Seat 1: a1gadgetman (small blind) folded before Flop
+Seat 4: schps2005 (big blind) collected (425)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347816666: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:50:46 UTC [2026/04/04 18:50:46 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (173 in chips) 
+Seat 4: schps2005 (1417 in chips) 
+Seat 5: scorza23 (4248 in chips) 
+Seat 6: mgimenez532 (1115 in chips) 
+Seat 7: baudole (6547 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+schps2005: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 8h]
+mgimenez532: folds 
+baudole: raises 6222 to 6522 and is all-in
+a1gadgetman: calls 148 and is all-in
+schps2005: folds 
+scorza23: folds 
+Uncalled bet (6222) returned to baudole
+*** FLOP *** [Kh 9s Qh]
+*** TURN *** [Kh 9s Qh] [2h]
+*** RIVER *** [Kh 9s Qh 2h] [8d]
+*** SHOW DOWN ***
+baudole: shows [Jd Ad] (high card Ace)
+baudole collected 306 from side pot
+a1gadgetman: shows [6c Qc] (a pair of Queens)
+a1gadgetman collected 717 from main pot
+*** SUMMARY ***
+Total pot 1023 Main pot 717. Side pot 306. | Rake 0 
+Board [Kh 9s Qh 2h 8d]
+Seat 1: a1gadgetman (button) showed [6c Qc] and won (717) with a pair of Queens
+Seat 4: schps2005 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: mgimenez532 folded before Flop (didn't bet)
+Seat 7: baudole showed [Jd Ad] and won (306) with high card Ace
+
+
+
+PokerStars Hand #260347823163: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:51:20 UTC [2026/04/04 18:51:20 ET]
+Table '3989329814 1' 9-max Seat #4 is the button
+Seat 1: a1gadgetman (717 in chips) 
+Seat 4: schps2005 (1242 in chips) 
+Seat 5: scorza23 (3923 in chips) 
+Seat 6: mgimenez532 (1090 in chips) 
+Seat 7: baudole (6528 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 150
+mgimenez532: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Jh]
+baudole has timed out
+baudole: folds 
+baudole is sitting out
+a1gadgetman: folds 
+schps2005: raises 917 to 1217 and is all-in
+scorza23: folds 
+baudole has returned
+mgimenez532: folds 
+Uncalled bet (917) returned to schps2005
+schps2005 collected 875 from pot
+schps2005: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 (button) collected (875)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: mgimenez532 (big blind) folded before Flop
+Seat 7: baudole folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347829078: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:51:51 UTC [2026/04/04 18:51:51 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (692 in chips) 
+Seat 4: schps2005 (1792 in chips) 
+Seat 5: scorza23 (3748 in chips) 
+Seat 6: mgimenez532 (765 in chips) 
+Seat 7: baudole (6503 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+mgimenez532: posts the ante 25
+baudole: posts the ante 25
+mgimenez532: posts small blind 150
+baudole: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 9h]
+a1gadgetman: folds 
+schps2005: folds 
+scorza23: raises 600 to 900
+mgimenez532: calls 590 and is all-in
+baudole: folds 
+Uncalled bet (160) returned to scorza23
+*** FLOP *** [7s 8d Qh]
+*** TURN *** [7s 8d Qh] [6d]
+*** RIVER *** [7s 8d Qh 6d] [6s]
+*** SHOW DOWN ***
+mgimenez532: shows [5s Ks] (a pair of Sixes)
+scorza23: shows [Ts 9h] (a straight, Six to Ten)
+scorza23 collected 1905 from pot
+mgimenez532 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1905 | Rake 0 
+Board [7s 8d Qh 6d 6s]
+Seat 1: a1gadgetman folded before Flop (didn't bet)
+Seat 4: schps2005 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) showed [Ts 9h] and won (1905) with a straight, Six to Ten
+Seat 6: mgimenez532 (small blind) showed [5s Ks] and lost with a pair of Sixes
+Seat 7: baudole (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347834247: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:52:18 UTC [2026/04/04 18:52:18 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 1: a1gadgetman (667 in chips) 
+Seat 4: schps2005 (1767 in chips) 
+Seat 5: scorza23 (4888 in chips) 
+Seat 7: baudole (6178 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+baudole: posts the ante 25
+a1gadgetman: posts small blind 150
+schps2005: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 8c]
+scorza23: folds 
+baudole: folds 
+a1gadgetman: raises 342 to 642 and is all-in
+schps2005: folds 
+Uncalled bet (342) returned to a1gadgetman
+a1gadgetman collected 700 from pot
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: a1gadgetman (small blind) collected (700)
+Seat 4: schps2005 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: baudole (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347837592: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:52:35 UTC [2026/04/04 18:52:35 ET]
+Table '3989329814 1' 9-max Seat #1 is the button
+Seat 1: a1gadgetman (1042 in chips) 
+Seat 4: schps2005 (1442 in chips) 
+Seat 5: scorza23 (4863 in chips) 
+Seat 7: baudole (6153 in chips) 
+a1gadgetman: posts the ante 25
+schps2005: posts the ante 25
+scorza23: posts the ante 25
+baudole: posts the ante 25
+schps2005: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 8c]
+baudole: folds 
+a1gadgetman: folds 
+schps2005: raises 600 to 900
+scorza23: raises 600 to 1500
+schps2005: calls 517 and is all-in
+Uncalled bet (83) returned to scorza23
+*** FLOP *** [7s 5h 9s]
+*** TURN *** [7s 5h 9s] [2d]
+*** RIVER *** [7s 5h 9s 2d] [3c]
+*** SHOW DOWN ***
+schps2005: shows [Kd Ah] (high card Ace)
+scorza23: shows [7c 8c] (a pair of Sevens)
+scorza23 collected 2934 from pot
+schps2005 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 2934 | Rake 0 
+Board [7s 5h 9s 2d 3c]
+Seat 1: a1gadgetman (button) folded before Flop (didn't bet)
+Seat 4: schps2005 (small blind) showed [Kd Ah] and lost with high card Ace
+Seat 5: scorza23 (big blind) showed [7c 8c] and won (2934) with a pair of Sevens
+Seat 7: baudole folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347842612: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:01 UTC [2026/04/04 18:53:01 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 1: a1gadgetman (1017 in chips) 
+Seat 5: scorza23 (6355 in chips) 
+Seat 7: baudole (6128 in chips) 
+a1gadgetman: posts the ante 25
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 150
+a1gadgetman: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 3s]
+scorza23: folds 
+baudole: calls 150
+a1gadgetman: raises 692 to 992 and is all-in
+baudole: calls 692
+*** FLOP *** [Th Ah Jd]
+*** TURN *** [Th Ah Jd] [6d]
+*** RIVER *** [Th Ah Jd 6d] [8h]
+*** SHOW DOWN ***
+baudole: shows [Qd 9s] (a straight, Eight to Queen)
+a1gadgetman: shows [As 7d] (a pair of Aces)
+baudole collected 2059 from pot
+a1gadgetman finished the tournament in 3rd place and received $1.53.
+*** SUMMARY ***
+Total pot 2059 | Rake 0 
+Board [Th Ah Jd 6d 8h]
+Seat 1: a1gadgetman (big blind) showed [As 7d] and lost with a pair of Aces
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: baudole (small blind) showed [Qd 9s] and won (2059) with a straight, Eight to Queen
+
+
+
+PokerStars Hand #260347847846: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:28 UTC [2026/04/04 18:53:28 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (6330 in chips) 
+Seat 7: baudole (7170 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 3c]
+baudole: raises 300 to 600
+scorza23: calls 300
+*** FLOP *** [8s Ks Qs]
+scorza23: checks 
+baudole: checks 
+*** TURN *** [8s Ks Qs] [5s]
+scorza23: checks 
+baudole: bets 900
+scorza23: folds 
+Uncalled bet (900) returned to baudole
+baudole collected 1250 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Board [8s Ks Qs 5s]
+Seat 5: scorza23 (big blind) folded on the Turn
+Seat 7: baudole (button) (small blind) collected (1250)
+
+
+
+PokerStars Hand #260347852404: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:52 UTC [2026/04/04 18:53:52 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 5: scorza23 (5705 in chips) 
+Seat 7: baudole (7795 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 150
+baudole: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2h]
+scorza23: folds 
+Uncalled bet (150) returned to baudole
+baudole collected 350 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 5: scorza23 (button) (small blind) folded before Flop
+Seat 7: baudole (big blind) collected (350)
+
+
+
+PokerStars Hand #260347853629: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:58 UTC [2026/04/04 18:53:58 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (5530 in chips) 
+Seat 7: baudole (7970 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 5h]
+baudole: calls 150
+scorza23: checks 
+*** FLOP *** [3s 8d 9s]
+scorza23: bets 900
+baudole: calls 900
+*** TURN *** [3s 8d 9s] [7c]
+scorza23: bets 900
+baudole: calls 900
+*** RIVER *** [3s 8d 9s 7c] [As]
+scorza23: checks 
+baudole: checks 
+*** SHOW DOWN ***
+scorza23: shows [3h 5h] (a pair of Threes)
+baudole: shows [8h Tc] (a pair of Eights)
+baudole collected 4250 from pot
+*** SUMMARY ***
+Total pot 4250 | Rake 0 
+Board [3s 8d 9s 7c As]
+Seat 5: scorza23 (big blind) showed [3h 5h] and lost with a pair of Threes
+Seat 7: baudole (button) (small blind) showed [8h Tc] and won (4250) with a pair of Eights
+
+
+
+PokerStars Hand #260347859783: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:54:31 UTC [2026/04/04 18:54:31 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 5: scorza23 (3405 in chips) 
+Seat 7: baudole (10095 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 150
+baudole: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Ac]
+scorza23: raises 900 to 1200
+baudole: folds 
+Uncalled bet (900) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 5: scorza23 (button) (small blind) collected (650)
+Seat 7: baudole (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347862542: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:54:45 UTC [2026/04/04 18:54:45 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (3730 in chips) 
+Seat 7: baudole (9770 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3c]
+baudole: calls 150
+scorza23: checks 
+*** FLOP *** [Th 9s Ah]
+scorza23: checks 
+baudole: checks 
+*** TURN *** [Th 9s Ah] [Ts]
+scorza23: checks 
+baudole: bets 900
+scorza23: folds 
+Uncalled bet (900) returned to baudole
+baudole collected 650 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [Th 9s Ah Ts]
+Seat 5: scorza23 (big blind) folded on the Turn
+Seat 7: baudole (button) (small blind) collected (650)
+
+
+
+PokerStars Hand #260347868938: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:55:21 UTC [2026/04/04 18:55:21 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 5: scorza23 (3405 in chips) 
+Seat 7: baudole (10095 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 200
+baudole: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 3h]
+scorza23: folds 
+Uncalled bet (200) returned to baudole
+baudole collected 450 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 5: scorza23 (button) (small blind) folded before Flop
+Seat 7: baudole (big blind) collected (450)
+
+
+
+PokerStars Hand #260347869890: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:55:28 UTC [2026/04/04 18:55:28 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (3180 in chips) 
+Seat 7: baudole (10320 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Tc]
+baudole: calls 200
+scorza23: checks 
+*** FLOP *** [5s 5d Td]
+scorza23: bets 1200
+baudole: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Board [5s 5d Td]
+Seat 5: scorza23 (big blind) collected (850)
+Seat 7: baudole (button) (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260347874324: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:55:59 UTC [2026/04/04 18:55:59 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 5: scorza23 (3605 in chips) 
+Seat 7: baudole (9895 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 200
+baudole: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2s]
+scorza23: raises 3180 to 3580 and is all-in
+baudole: folds 
+Uncalled bet (3180) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 5: scorza23 (button) (small blind) collected (850)
+Seat 7: baudole (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347875655: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:56:08 UTC [2026/04/04 18:56:08 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (4030 in chips) 
+Seat 7: baudole (9470 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2h]
+baudole: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 450 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Seat 5: scorza23 (big blind) collected (450)
+Seat 7: baudole (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347877378: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:56:20 UTC [2026/04/04 18:56:20 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 5: scorza23 (4255 in chips) 
+Seat 7: baudole (9245 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 200
+baudole: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 8c]
+scorza23: raises 1200 to 1600
+baudole: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 5: scorza23 (button) (small blind) collected (850)
+Seat 7: baudole (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347878760: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:56:30 UTC [2026/04/04 18:56:30 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (4680 in chips) 
+Seat 7: baudole (8820 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qc]
+baudole: calls 200
+scorza23: checks 
+*** FLOP *** [7s 4d Th]
+scorza23: checks 
+baudole: bets 800
+scorza23: folds 
+Uncalled bet (800) returned to baudole
+baudole collected 850 from pot
+baudole: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Board [7s 4d Th]
+Seat 5: scorza23 (big blind) folded on the Flop
+Seat 7: baudole (button) (small blind) collected (850)
+
+
+
+PokerStars Hand #260347883797: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:57:05 UTC [2026/04/04 18:57:05 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 5: scorza23 (4255 in chips) 
+Seat 7: baudole (9245 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 200
+baudole: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Js]
+scorza23: raises 1600 to 2000
+baudole: raises 1600 to 3600
+scorza23: raises 630 to 4230 and is all-in
+baudole: calls 630
+*** FLOP *** [2s 3h 4c]
+*** TURN *** [2s 3h 4c] [4s]
+*** RIVER *** [2s 3h 4c 4s] [5h]
+*** SHOW DOWN ***
+baudole: shows [Ad Jc] (a straight, Ace to Five)
+scorza23: shows [6s Js] (a straight, Deuce to Six)
+scorza23 collected 8510 from pot
+*** SUMMARY ***
+Total pot 8510 | Rake 0 
+Board [2s 3h 4c 4s 5h]
+Seat 5: scorza23 (button) (small blind) showed [6s Js] and won (8510) with a straight, Deuce to Six
+Seat 7: baudole (big blind) showed [Ad Jc] and lost with a straight, Ace to Five
+
+
+
+PokerStars Hand #260347889030: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:57:41 UTC [2026/04/04 18:57:41 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (8510 in chips) 
+Seat 7: baudole (4990 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 2c]
+baudole: calls 200
+scorza23: checks 
+*** FLOP *** [4d Kh Th]
+scorza23: bets 2000
+baudole: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Board [4d Kh Th]
+Seat 5: scorza23 (big blind) collected (850)
+Seat 7: baudole (button) (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260347891345: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:57:58 UTC [2026/04/04 18:57:58 ET]
+Table '3989329814 1' 9-max Seat #5 is the button
+Seat 5: scorza23 (8935 in chips) 
+Seat 7: baudole (4565 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+scorza23: posts small blind 200
+baudole: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8s]
+scorza23: raises 1600 to 2000
+baudole: calls 1600
+*** FLOP *** [5s 8c Js]
+baudole: checks 
+scorza23: bets 2800
+baudole: folds 
+Uncalled bet (2800) returned to scorza23
+scorza23 collected 4050 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 4050 | Rake 0 
+Board [5s 8c Js]
+Seat 5: scorza23 (button) (small blind) collected (4050)
+Seat 7: baudole (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347894375: Tournament #3989329814, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:58:19 UTC [2026/04/04 18:58:19 ET]
+Table '3989329814 1' 9-max Seat #7 is the button
+Seat 5: scorza23 (10960 in chips) 
+Seat 7: baudole (2540 in chips) 
+scorza23: posts the ante 25
+baudole: posts the ante 25
+baudole: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 9h]
+baudole: calls 200
+scorza23: raises 2000 to 2400
+baudole: raises 115 to 2515 and is all-in
+scorza23: calls 115
+*** FLOP *** [Ts As 4s]
+*** TURN *** [Ts As 4s] [9d]
+*** RIVER *** [Ts As 4s 9d] [7c]
+*** SHOW DOWN ***
+scorza23: shows [Ah 9h] (two pair, Aces and Nines)
+baudole: shows [Js Jc] (a pair of Jacks)
+scorza23 collected 5080 from pot
+baudole finished the tournament in 2nd place and received $2.29.
+scorza23 wins the tournament and receives $3.83 - congratulations!
+*** SUMMARY ***
+Total pot 5080 | Rake 0 
+Board [Ts As 4s 9d 7c]
+Seat 5: scorza23 (big blind) showed [Ah 9h] and won (5080) with two pair, Aces and Nines
+Seat 7: baudole (button) (small blind) showed [Js Jc] and lost with a pair of Jacks
+
+
+

@@ -1,0 +1,3566 @@
+﻿PokerStars Hand #259749501803: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 15:23:06 UTC [2026/02/16 10:23:06 ET]
+Table '3975675382 4' 8-max Seat #5 is the button
+Seat 1: thelegend666 (1446 in chips) 
+Seat 2: imthcplant (1478 in chips) 
+Seat 3: biglaf10 (1451 in chips) 
+Seat 4: thiagothigas (1500 in chips) 
+Seat 5: marvinsytan (1506 in chips) 
+Seat 7: Brazil1972 (1516 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+thelegend666: posts the ante 3
+imthcplant: posts the ante 3
+biglaf10: posts the ante 3
+thiagothigas: posts the ante 3
+marvinsytan: posts the ante 3
+Brazil1972: posts the ante 3
+scorza23: posts the ante 3
+Brazil1972: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 3c]
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+thiagothigas: raises 20 to 40
+marvinsytan: folds 
+Brazil1972: raises 60 to 100
+scorza23: folds 
+thiagothigas: calls 60
+*** FLOP *** [4c 3s Kd]
+Brazil1972: bets 160
+thiagothigas: folds 
+Uncalled bet (160) returned to Brazil1972
+Brazil1972 collected 241 from pot
+Brazil1972: doesn't show hand 
+*** SUMMARY ***
+Total pot 241 | Rake 0 
+Board [4c 3s Kd]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: thiagothigas folded on the Flop
+Seat 5: marvinsytan (button) folded before Flop (didn't bet)
+Seat 7: Brazil1972 (small blind) collected (241)
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749511714: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 15:24:03 UTC [2026/02/16 10:24:03 ET]
+Table '3975675382 4' 8-max Seat #7 is the button
+Seat 1: thelegend666 (1443 in chips) 
+Seat 2: imthcplant (1475 in chips) 
+Seat 3: biglaf10 (1448 in chips) 
+Seat 4: thiagothigas (1397 in chips) 
+Seat 5: marvinsytan (1503 in chips) 
+Seat 6: John Doe 808 (1500 in chips) 
+Seat 7: Brazil1972 (1654 in chips) 
+Seat 8: scorza23 (1477 in chips) 
+thelegend666: posts the ante 3
+imthcplant: posts the ante 3
+biglaf10: posts the ante 3
+thiagothigas: posts the ante 3
+marvinsytan: posts the ante 3
+John Doe 808: posts the ante 3
+Brazil1972: posts the ante 3
+scorza23: posts the ante 3
+scorza23: posts small blind 10
+thelegend666: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 3d]
+imthcplant: folds 
+biglaf10: raises 20 to 40
+thiagothigas: raises 72 to 112
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: folds 
+scorza23: folds 
+thelegend666: folds 
+biglaf10: calls 72
+*** FLOP *** [7c 4c 6d]
+biglaf10: checks 
+thiagothigas: bets 132
+biglaf10: raises 179 to 311
+thiagothigas: raises 971 to 1282 and is all-in
+biglaf10: calls 971
+*** TURN *** [7c 4c 6d] [6h]
+*** RIVER *** [7c 4c 6d 6h] [Jh]
+*** SHOW DOWN ***
+biglaf10: shows [6s 5s] (three of a kind, Sixes)
+thiagothigas: shows [Ac Kh] (a pair of Sixes)
+biglaf10 collected 2842 from pot
+thiagothigas finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 2842 | Rake 0 
+Board [7c 4c 6d 6h Jh]
+Seat 1: thelegend666 (big blind) folded before Flop
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 showed [6s 5s] and won (2842) with three of a kind, Sixes
+Seat 4: thiagothigas showed [Ac Kh] and lost with a pair of Sixes
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749527822: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:25:37 UTC [2026/02/16 10:25:37 ET]
+Table '3975675382 4' 8-max Seat #8 is the button
+Seat 1: thelegend666 (1420 in chips) 
+Seat 2: imthcplant (1472 in chips) 
+Seat 3: biglaf10 (2893 in chips) 
+Seat 5: marvinsytan (1500 in chips) 
+Seat 6: John Doe 808 (1497 in chips) 
+Seat 7: Brazil1972 (1651 in chips) 
+Seat 8: scorza23 (1464 in chips) 
+thelegend666: posts the ante 4
+imthcplant: posts the ante 4
+biglaf10: posts the ante 4
+marvinsytan: posts the ante 4
+John Doe 808: posts the ante 4
+Brazil1972: posts the ante 4
+scorza23: posts the ante 4
+thelegend666: posts small blind 15
+imthcplant: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7d]
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: calls 30
+scorza23: folds 
+thelegend666: raises 118 to 148
+imthcplant: folds 
+Brazil1972: folds 
+Uncalled bet (118) returned to thelegend666
+thelegend666 collected 118 from pot
+thelegend666: doesn't show hand 
+*** SUMMARY ***
+Total pot 118 | Rake 0 
+Seat 1: thelegend666 (small blind) collected (118)
+Seat 2: imthcplant (big blind) folded before Flop
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 folded before Flop
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749533433: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:26:11 UTC [2026/02/16 10:26:11 ET]
+Table '3975675382 4' 8-max Seat #1 is the button
+Seat 1: thelegend666 (1504 in chips) 
+Seat 2: imthcplant (1438 in chips) 
+Seat 3: biglaf10 (2889 in chips) 
+Seat 5: marvinsytan (1496 in chips) 
+Seat 6: John Doe 808 (1493 in chips) 
+Seat 7: Brazil1972 (1617 in chips) 
+Seat 8: scorza23 (1460 in chips) 
+thelegend666: posts the ante 4
+imthcplant: posts the ante 4
+biglaf10: posts the ante 4
+marvinsytan: posts the ante 4
+John Doe 808: posts the ante 4
+Brazil1972: posts the ante 4
+scorza23: posts the ante 4
+imthcplant: posts small blind 15
+biglaf10: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 6c]
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+Uncalled bet (15) returned to biglaf10
+biglaf10 collected 58 from pot
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: thelegend666 (button) folded before Flop (didn't bet)
+Seat 2: imthcplant (small blind) folded before Flop
+Seat 3: biglaf10 (big blind) collected (58)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749538114: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:26:39 UTC [2026/02/16 10:26:39 ET]
+Table '3975675382 4' 8-max Seat #2 is the button
+Seat 1: thelegend666 (1500 in chips) 
+Seat 2: imthcplant (1419 in chips) 
+Seat 3: biglaf10 (2928 in chips) 
+Seat 5: marvinsytan (1492 in chips) 
+Seat 6: John Doe 808 (1489 in chips) 
+Seat 7: Brazil1972 (1613 in chips) 
+Seat 8: scorza23 (1456 in chips) 
+thelegend666: posts the ante 4
+imthcplant: posts the ante 4
+biglaf10: posts the ante 4
+marvinsytan: posts the ante 4
+John Doe 808: posts the ante 4
+Brazil1972: posts the ante 4
+scorza23: posts the ante 4
+biglaf10: posts small blind 15
+marvinsytan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Kd]
+John Doe 808: raises 103 to 133
+Brazil1972: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+marvinsytan: folds 
+Uncalled bet (103) returned to John Doe 808
+John Doe 808 collected 103 from pot
+John Doe 808: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant (button) folded before Flop (didn't bet)
+Seat 3: biglaf10 (small blind) folded before Flop
+Seat 5: marvinsytan (big blind) folded before Flop
+Seat 6: John Doe 808 collected (103)
+Seat 7: Brazil1972 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749542148: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:27:03 UTC [2026/02/16 10:27:03 ET]
+Table '3975675382 4' 8-max Seat #3 is the button
+Seat 1: thelegend666 (1496 in chips) 
+Seat 2: imthcplant (1415 in chips) 
+Seat 3: biglaf10 (2909 in chips) 
+Seat 5: marvinsytan (1458 in chips) 
+Seat 6: John Doe 808 (1558 in chips) 
+Seat 7: Brazil1972 (1609 in chips) 
+Seat 8: scorza23 (1452 in chips) 
+thelegend666: posts the ante 4
+imthcplant: posts the ante 4
+biglaf10: posts the ante 4
+marvinsytan: posts the ante 4
+John Doe 808: posts the ante 4
+Brazil1972: posts the ante 4
+scorza23: posts the ante 4
+marvinsytan: posts small blind 15
+John Doe 808: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8s]
+Brazil1972: raises 30 to 60
+scorza23: folds 
+thelegend666: calls 60
+imthcplant: raises 253 to 313
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: folds 
+thelegend666: calls 253
+*** FLOP *** [Tc 2s 7s]
+thelegend666: checks 
+imthcplant: bets 546
+thelegend666: folds 
+Uncalled bet (546) returned to imthcplant
+imthcplant collected 759 from pot
+imthcplant: doesn't show hand 
+*** SUMMARY ***
+Total pot 759 | Rake 0 
+Board [Tc 2s 7s]
+Seat 1: thelegend666 folded on the Flop
+Seat 2: imthcplant collected (759)
+Seat 3: biglaf10 (button) folded before Flop (didn't bet)
+Seat 5: marvinsytan (small blind) folded before Flop
+Seat 6: John Doe 808 (big blind) folded before Flop
+Seat 7: Brazil1972 folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749550526: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:27:52 UTC [2026/02/16 10:27:52 ET]
+Table '3975675382 4' 8-max Seat #5 is the button
+Seat 1: thelegend666 (1179 in chips) 
+Seat 2: imthcplant (1857 in chips) 
+Seat 3: biglaf10 (2905 in chips) 
+Seat 5: marvinsytan (1439 in chips) 
+Seat 6: John Doe 808 (1524 in chips) 
+Seat 7: Brazil1972 (1545 in chips) 
+Seat 8: scorza23 (1448 in chips) 
+thelegend666: posts the ante 4
+imthcplant: posts the ante 4
+biglaf10: posts the ante 4
+marvinsytan: posts the ante 4
+John Doe 808: posts the ante 4
+Brazil1972: posts the ante 4
+scorza23: posts the ante 4
+John Doe 808: posts small blind 15
+Brazil1972: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 5h]
+scorza23: folds 
+thelegend666: raises 36 to 66
+imthcplant: raises 205 to 271
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: folds 
+thelegend666: folds 
+Uncalled bet (205) returned to imthcplant
+imthcplant collected 205 from pot
+imthcplant: doesn't show hand 
+*** SUMMARY ***
+Total pot 205 | Rake 0 
+Seat 1: thelegend666 folded before Flop
+Seat 2: imthcplant collected (205)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan (button) folded before Flop (didn't bet)
+Seat 6: John Doe 808 (small blind) folded before Flop
+Seat 7: Brazil1972 (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749557134: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:28:31 UTC [2026/02/16 10:28:31 ET]
+Table '3975675382 4' 8-max Seat #6 is the button
+Seat 1: thelegend666 (1109 in chips) 
+Seat 2: imthcplant (1992 in chips) 
+Seat 3: biglaf10 (2901 in chips) 
+Seat 5: marvinsytan (1435 in chips) 
+Seat 6: John Doe 808 (1505 in chips) 
+Seat 7: Brazil1972 (1511 in chips) 
+Seat 8: scorza23 (1444 in chips) 
+thelegend666: posts the ante 4
+imthcplant: posts the ante 4
+biglaf10: posts the ante 4
+marvinsytan: posts the ante 4
+John Doe 808: posts the ante 4
+Brazil1972: posts the ante 4
+scorza23: posts the ante 4
+Brazil1972: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 4d]
+thelegend666: folds 
+imthcplant: raises 37 to 67
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: calls 67
+Brazil1972: calls 52
+scorza23: folds 
+*** FLOP *** [2c 3d As]
+Brazil1972: checks 
+imthcplant: checks 
+John Doe 808: bets 130
+Brazil1972: folds 
+imthcplant: folds 
+Uncalled bet (130) returned to John Doe 808
+John Doe 808 collected 259 from pot
+John Doe 808: doesn't show hand 
+*** SUMMARY ***
+Total pot 259 | Rake 0 
+Board [2c 3d As]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded on the Flop
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 (button) collected (259)
+Seat 7: Brazil1972 (small blind) folded on the Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749563423: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 15:29:09 UTC [2026/02/16 10:29:09 ET]
+Table '3975675382 4' 8-max Seat #7 is the button
+Seat 1: thelegend666 (1105 in chips) 
+Seat 2: imthcplant (1921 in chips) 
+Seat 3: biglaf10 (2897 in chips) 
+Seat 5: marvinsytan (1431 in chips) 
+Seat 6: John Doe 808 (1693 in chips) 
+Seat 7: Brazil1972 (1440 in chips) 
+Seat 8: scorza23 (1410 in chips) 
+thelegend666: posts the ante 4
+imthcplant: posts the ante 4
+biglaf10: posts the ante 4
+marvinsytan: posts the ante 4
+John Doe 808: posts the ante 4
+Brazil1972: posts the ante 4
+scorza23: posts the ante 4
+scorza23: posts small blind 15
+thelegend666: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 4c]
+imthcplant: raises 37 to 67
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: calls 67
+scorza23: folds 
+thelegend666: calls 37
+*** FLOP *** [6h Td 8d]
+thelegend666: checks 
+imthcplant: checks 
+Brazil1972: bets 244
+thelegend666: folds 
+imthcplant: folds 
+Uncalled bet (244) returned to Brazil1972
+Brazil1972 collected 244 from pot
+Brazil1972: doesn't show hand 
+*** SUMMARY ***
+Total pot 244 | Rake 0 
+Board [6h Td 8d]
+Seat 1: thelegend666 (big blind) folded on the Flop
+Seat 2: imthcplant folded on the Flop
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 (button) collected (244)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749571971: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:29:58 UTC [2026/02/16 10:29:58 ET]
+Table '3975675382 4' 8-max Seat #8 is the button
+Seat 1: thelegend666 (1034 in chips) 
+Seat 2: imthcplant (1850 in chips) 
+Seat 3: biglaf10 (2893 in chips) 
+Seat 5: marvinsytan (1427 in chips) 
+Seat 6: John Doe 808 (1689 in chips) 
+Seat 7: Brazil1972 (1613 in chips) 
+Seat 8: scorza23 (1391 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+thelegend666: posts small blind 25
+imthcplant: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6h]
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: folds 
+scorza23: raises 100 to 150
+thelegend666: folds 
+imthcplant: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 167 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: thelegend666 (small blind) folded before Flop
+Seat 2: imthcplant (big blind) folded before Flop
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) collected (167)
+
+
+
+PokerStars Hand #259749575539: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:30:18 UTC [2026/02/16 10:30:18 ET]
+Table '3975675382 4' 8-max Seat #1 is the button
+Seat 1: thelegend666 (1003 in chips) 
+Seat 2: imthcplant (1794 in chips) 
+Seat 3: biglaf10 (2887 in chips) 
+Seat 5: marvinsytan (1421 in chips) 
+Seat 6: John Doe 808 (1683 in chips) 
+Seat 7: Brazil1972 (1607 in chips) 
+Seat 8: scorza23 (1502 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+imthcplant: posts small blind 25
+biglaf10: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 6h]
+marvinsytan: raises 100 to 150
+John Doe 808: calls 150
+Brazil1972: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+*** FLOP *** [Ac 2h 8c]
+marvinsytan: bets 250
+John Doe 808: folds 
+Uncalled bet (250) returned to marvinsytan
+marvinsytan collected 417 from pot
+marvinsytan: doesn't show hand 
+*** SUMMARY ***
+Total pot 417 | Rake 0 
+Board [Ac 2h 8c]
+Seat 1: thelegend666 (button) folded before Flop (didn't bet)
+Seat 2: imthcplant (small blind) folded before Flop
+Seat 3: biglaf10 (big blind) folded before Flop
+Seat 5: marvinsytan collected (417)
+Seat 6: John Doe 808 folded on the Flop
+Seat 7: Brazil1972 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749581514: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:30:53 UTC [2026/02/16 10:30:53 ET]
+Table '3975675382 4' 8-max Seat #2 is the button
+Seat 1: thelegend666 (997 in chips) 
+Seat 2: imthcplant (1763 in chips) 
+Seat 3: biglaf10 (2831 in chips) 
+Seat 5: marvinsytan (1682 in chips) 
+Seat 6: John Doe 808 (1527 in chips) 
+Seat 7: Brazil1972 (1601 in chips) 
+Seat 8: scorza23 (1496 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+biglaf10: posts small blind 25
+marvinsytan: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 2c]
+John Doe 808: raises 50 to 100
+Brazil1972: calls 100
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+marvinsytan: raises 1576 to 1676 and is all-in
+John Doe 808: folds 
+Brazil1972: folds 
+Uncalled bet (1576) returned to marvinsytan
+marvinsytan collected 367 from pot
+marvinsytan: doesn't show hand 
+*** SUMMARY ***
+Total pot 367 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant (button) folded before Flop (didn't bet)
+Seat 3: biglaf10 (small blind) folded before Flop
+Seat 5: marvinsytan (big blind) collected (367)
+Seat 6: John Doe 808 folded before Flop
+Seat 7: Brazil1972 folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749586189: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:31:21 UTC [2026/02/16 10:31:21 ET]
+Table '3975675382 4' 8-max Seat #3 is the button
+Seat 1: thelegend666 (991 in chips) 
+Seat 2: imthcplant (1757 in chips) 
+Seat 3: biglaf10 (2800 in chips) 
+Seat 5: marvinsytan (1943 in chips) 
+Seat 6: John Doe 808 (1421 in chips) 
+Seat 7: Brazil1972 (1495 in chips) 
+Seat 8: scorza23 (1490 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+marvinsytan: posts small blind 25
+John Doe 808: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 5c]
+Brazil1972: raises 100 to 150
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Uncalled bet (100) returned to Brazil1972
+Brazil1972 collected 167 from pot
+Brazil1972: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 (button) folded before Flop (didn't bet)
+Seat 5: marvinsytan (small blind) folded before Flop
+Seat 6: John Doe 808 (big blind) folded before Flop
+Seat 7: Brazil1972 collected (167)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749590225: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:31:44 UTC [2026/02/16 10:31:44 ET]
+Table '3975675382 4' 8-max Seat #5 is the button
+Seat 1: thelegend666 (985 in chips) 
+Seat 2: imthcplant (1751 in chips) 
+Seat 3: biglaf10 (2794 in chips) 
+Seat 5: marvinsytan (1912 in chips) 
+Seat 6: John Doe 808 (1365 in chips) 
+Seat 7: Brazil1972 (1606 in chips) 
+Seat 8: scorza23 (1484 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+John Doe 808: posts small blind 25
+Brazil1972: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5c]
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: raises 50 to 100
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: calls 50
+*** FLOP *** [4d 2h 6h]
+Brazil1972: checks 
+biglaf10: bets 176
+Brazil1972: calls 176
+*** TURN *** [4d 2h 6h] [Ah]
+Brazil1972: checks 
+biglaf10: checks 
+*** RIVER *** [4d 2h 6h Ah] [9c]
+Brazil1972: checks 
+biglaf10: bets 310
+Brazil1972: folds 
+Uncalled bet (310) returned to biglaf10
+biglaf10 collected 619 from pot
+*** SUMMARY ***
+Total pot 619 | Rake 0 
+Board [4d 2h 6h Ah 9c]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 collected (619)
+Seat 5: marvinsytan (button) folded before Flop (didn't bet)
+Seat 6: John Doe 808 (small blind) folded before Flop
+Seat 7: Brazil1972 (big blind) folded on the River
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749597863: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:32:28 UTC [2026/02/16 10:32:28 ET]
+Table '3975675382 4' 8-max Seat #6 is the button
+Seat 1: thelegend666 (979 in chips) 
+Seat 2: imthcplant (1745 in chips) 
+Seat 3: biglaf10 (3131 in chips) 
+Seat 5: marvinsytan (1906 in chips) 
+Seat 6: John Doe 808 (1334 in chips) 
+Seat 7: Brazil1972 (1324 in chips) 
+Seat 8: scorza23 (1478 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+Brazil1972: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 3c]
+thelegend666: raises 50 to 100
+imthcplant: folds 
+biglaf10: folds 
+marvinsytan: calls 100
+John Doe 808: calls 100
+Brazil1972: folds 
+scorza23: folds 
+*** FLOP *** [2h 7d Qh]
+thelegend666: checks 
+marvinsytan: checks 
+John Doe 808: bets 209
+thelegend666: folds 
+marvinsytan: folds 
+Uncalled bet (209) returned to John Doe 808
+John Doe 808 collected 417 from pot
+John Doe 808: doesn't show hand 
+*** SUMMARY ***
+Total pot 417 | Rake 0 
+Board [2h 7d Qh]
+Seat 1: thelegend666 folded on the Flop
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded on the Flop
+Seat 6: John Doe 808 (button) collected (417)
+Seat 7: Brazil1972 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749604589: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:33:07 UTC [2026/02/16 10:33:07 ET]
+Table '3975675382 4' 8-max Seat #7 is the button
+Seat 1: thelegend666 (873 in chips) 
+Seat 2: imthcplant (1739 in chips) 
+Seat 3: biglaf10 (3125 in chips) 
+Seat 5: marvinsytan (1800 in chips) 
+Seat 6: John Doe 808 (1645 in chips) 
+Seat 7: Brazil1972 (1293 in chips) 
+Seat 8: scorza23 (1422 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+scorza23: posts small blind 25
+thelegend666: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 7c]
+imthcplant: folds 
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: raises 50 to 100
+scorza23: folds 
+thelegend666: calls 50
+*** FLOP *** [2s 6d 9d]
+thelegend666: checks 
+Brazil1972: checks 
+*** TURN *** [2s 6d 9d] [Kd]
+thelegend666: checks 
+Brazil1972: checks 
+*** RIVER *** [2s 6d 9d Kd] [Jh]
+thelegend666: bets 400
+Brazil1972: folds 
+Uncalled bet (400) returned to thelegend666
+thelegend666 collected 267 from pot
+thelegend666: doesn't show hand 
+*** SUMMARY ***
+Total pot 267 | Rake 0 
+Board [2s 6d 9d Kd Jh]
+Seat 1: thelegend666 (big blind) collected (267)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 (button) folded on the River
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749612785: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:33:54 UTC [2026/02/16 10:33:54 ET]
+Table '3975675382 4' 8-max Seat #8 is the button
+Seat 1: thelegend666 (1034 in chips) 
+Seat 2: imthcplant (1733 in chips) 
+Seat 3: biglaf10 (3119 in chips) 
+Seat 5: marvinsytan (1794 in chips) 
+Seat 6: John Doe 808 (1639 in chips) 
+Seat 7: Brazil1972 (1187 in chips) 
+Seat 8: scorza23 (1391 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+thelegend666: posts small blind 25
+imthcplant: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 6d]
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: calls 50
+Brazil1972: folds 
+scorza23: folds 
+thelegend666: calls 25
+imthcplant: checks 
+*** FLOP *** [8c Ks Kc]
+thelegend666: checks 
+imthcplant: bets 138
+John Doe 808: folds 
+thelegend666: folds 
+Uncalled bet (138) returned to imthcplant
+imthcplant collected 192 from pot
+imthcplant: doesn't show hand 
+*** SUMMARY ***
+Total pot 192 | Rake 0 
+Board [8c Ks Kc]
+Seat 1: thelegend666 (small blind) folded on the Flop
+Seat 2: imthcplant (big blind) collected (192)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded on the Flop
+Seat 7: Brazil1972 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749618034: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 15:34:25 UTC [2026/02/16 10:34:25 ET]
+Table '3975675382 4' 8-max Seat #1 is the button
+Seat 1: thelegend666 (978 in chips) 
+Seat 2: imthcplant (1869 in chips) 
+Seat 3: biglaf10 (3113 in chips) 
+Seat 5: marvinsytan (1788 in chips) 
+Seat 6: John Doe 808 (1583 in chips) 
+Seat 7: Brazil1972 (1181 in chips) 
+Seat 8: scorza23 (1385 in chips) 
+thelegend666: posts the ante 6
+imthcplant: posts the ante 6
+biglaf10: posts the ante 6
+marvinsytan: posts the ante 6
+John Doe 808: posts the ante 6
+Brazil1972: posts the ante 6
+scorza23: posts the ante 6
+imthcplant: posts small blind 25
+biglaf10: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Qd]
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: folds 
+scorza23: folds 
+thelegend666: raises 50 to 100
+imthcplant: folds 
+biglaf10: raises 900 to 1000
+thelegend666: folds 
+Uncalled bet (900) returned to biglaf10
+biglaf10 collected 267 from pot
+*** SUMMARY ***
+Total pot 267 | Rake 0 
+Seat 1: thelegend666 (button) folded before Flop
+Seat 2: imthcplant (small blind) folded before Flop
+Seat 3: biglaf10 (big blind) collected (267)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749626886: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:35:16 UTC [2026/02/16 10:35:16 ET]
+Table '3975675382 4' 8-max Seat #2 is the button
+Seat 1: thelegend666 (872 in chips) 
+Seat 2: imthcplant (1838 in chips) 
+Seat 3: biglaf10 (3274 in chips) 
+Seat 4: pokerlose123 (971 in chips) 
+Seat 5: marvinsytan (1782 in chips) 
+Seat 6: John Doe 808 (1577 in chips) 
+Seat 7: Brazil1972 (1175 in chips) 
+Seat 8: scorza23 (1379 in chips) 
+thelegend666: posts the ante 10
+imthcplant: posts the ante 10
+biglaf10: posts the ante 10
+pokerlose123: posts the ante 10
+marvinsytan: posts the ante 10
+John Doe 808: posts the ante 10
+Brazil1972: posts the ante 10
+scorza23: posts the ante 10
+biglaf10: posts small blind 40
+pokerlose123: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 2s]
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: raises 80 to 160
+scorza23: folds 
+thelegend666: raises 702 to 862 and is all-in
+imthcplant: folds 
+biglaf10: folds 
+pokerlose123: folds 
+Brazil1972: folds 
+Uncalled bet (702) returned to thelegend666
+thelegend666 collected 520 from pot
+thelegend666: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: thelegend666 collected (520)
+Seat 2: imthcplant (button) folded before Flop (didn't bet)
+Seat 3: biglaf10 (small blind) folded before Flop
+Seat 4: pokerlose123 (big blind) folded before Flop
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749633158: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:35:53 UTC [2026/02/16 10:35:53 ET]
+Table '3975675382 4' 8-max Seat #3 is the button
+Seat 1: thelegend666 (1222 in chips) 
+Seat 2: imthcplant (1828 in chips) 
+Seat 3: biglaf10 (3224 in chips) 
+Seat 4: pokerlose123 (881 in chips) 
+Seat 5: marvinsytan (1772 in chips) 
+Seat 6: John Doe 808 (1567 in chips) 
+Seat 7: Brazil1972 (1005 in chips) 
+Seat 8: scorza23 (1369 in chips) 
+thelegend666: posts the ante 10
+imthcplant: posts the ante 10
+biglaf10: posts the ante 10
+pokerlose123: posts the ante 10
+marvinsytan: posts the ante 10
+John Doe 808: posts the ante 10
+Brazil1972: posts the ante 10
+scorza23: posts the ante 10
+pokerlose123: posts small blind 40
+marvinsytan: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 7h]
+John Doe 808: folds 
+Brazil1972: raises 80 to 160
+scorza23: calls 160
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+pokerlose123: folds 
+marvinsytan has timed out
+marvinsytan: folds 
+marvinsytan is sitting out
+*** FLOP *** [As Jd Kc]
+marvinsytan has returned
+Brazil1972: bets 160
+scorza23: raises 1039 to 1199 and is all-in
+Brazil1972: folds 
+Uncalled bet (1039) returned to scorza23
+scorza23 collected 840 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 840 | Rake 0 
+Board [As Jd Kc]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 (button) folded before Flop (didn't bet)
+Seat 4: pokerlose123 (small blind) folded before Flop
+Seat 5: marvinsytan (big blind) folded before Flop
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 7: Brazil1972 folded on the Flop
+Seat 8: scorza23 collected (840)
+
+
+
+PokerStars Hand #259749643490: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:36:53 UTC [2026/02/16 10:36:53 ET]
+Table '3975675382 4' 8-max Seat #4 is the button
+Seat 1: thelegend666 (1212 in chips) 
+Seat 2: imthcplant (1818 in chips) 
+Seat 3: biglaf10 (3214 in chips) 
+Seat 4: pokerlose123 (831 in chips) 
+Seat 5: marvinsytan (1682 in chips) 
+Seat 6: John Doe 808 (1557 in chips) 
+Seat 7: Brazil1972 (675 in chips) 
+Seat 8: scorza23 (1879 in chips) 
+thelegend666: posts the ante 10
+imthcplant: posts the ante 10
+biglaf10: posts the ante 10
+pokerlose123: posts the ante 10
+marvinsytan: posts the ante 10
+John Doe 808: posts the ante 10
+Brazil1972: posts the ante 10
+scorza23: posts the ante 10
+marvinsytan: posts small blind 40
+John Doe 808: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Ah]
+Brazil1972: folds 
+scorza23: raises 160 to 240
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+pokerlose123: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 280 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: pokerlose123 (button) folded before Flop (didn't bet)
+Seat 5: marvinsytan (small blind) folded before Flop
+Seat 6: John Doe 808 (big blind) folded before Flop
+Seat 7: Brazil1972 folded before Flop (didn't bet)
+Seat 8: scorza23 collected (280)
+
+
+
+PokerStars Hand #259749648004: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:37:19 UTC [2026/02/16 10:37:19 ET]
+Table '3975675382 4' 8-max Seat #5 is the button
+Seat 1: thelegend666 (1202 in chips) 
+Seat 2: imthcplant (1808 in chips) 
+Seat 3: biglaf10 (3204 in chips) 
+Seat 4: pokerlose123 (821 in chips) 
+Seat 5: marvinsytan (1632 in chips) 
+Seat 6: John Doe 808 (1467 in chips) 
+Seat 7: Brazil1972 (665 in chips) 
+Seat 8: scorza23 (2069 in chips) 
+thelegend666: posts the ante 10
+imthcplant: posts the ante 10
+biglaf10: posts the ante 10
+pokerlose123: posts the ante 10
+marvinsytan: posts the ante 10
+John Doe 808: posts the ante 10
+Brazil1972: posts the ante 10
+scorza23: posts the ante 10
+John Doe 808: posts small blind 40
+Brazil1972: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2s]
+scorza23: folds 
+thelegend666: folds 
+imthcplant: raises 99 to 179
+biglaf10: folds 
+pokerlose123: folds 
+marvinsytan: folds 
+John Doe 808: folds 
+Brazil1972: calls 99
+*** FLOP *** [Th 7s 5s]
+Brazil1972: checks 
+imthcplant: checks 
+*** TURN *** [Th 7s 5s] [8s]
+Brazil1972: bets 476 and is all-in
+imthcplant: calls 476
+*** RIVER *** [Th 7s 5s 8s] [6d]
+*** SHOW DOWN ***
+Brazil1972: shows [8c 2c] (a pair of Eights)
+imthcplant: shows [9d Ac] (a straight, Six to Ten)
+imthcplant collected 1430 from pot
+Brazil1972 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 1430 | Rake 0 
+Board [Th 7s 5s 8s 6d]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant showed [9d Ac] and won (1430) with a straight, Six to Ten
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: pokerlose123 folded before Flop (didn't bet)
+Seat 5: marvinsytan (button) folded before Flop (didn't bet)
+Seat 6: John Doe 808 (small blind) folded before Flop
+Seat 7: Brazil1972 (big blind) showed [8c 2c] and lost with a pair of Eights
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749656897: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:38:11 UTC [2026/02/16 10:38:11 ET]
+Table '3975675382 4' 8-max Seat #6 is the button
+Seat 1: thelegend666 (1192 in chips) 
+Seat 2: imthcplant (2573 in chips) 
+Seat 3: biglaf10 (3194 in chips) 
+Seat 4: pokerlose123 (811 in chips) 
+Seat 5: marvinsytan (1622 in chips) 
+Seat 6: John Doe 808 (1417 in chips) 
+Seat 8: scorza23 (2059 in chips) 
+thelegend666: posts the ante 10
+imthcplant: posts the ante 10
+biglaf10: posts the ante 10
+pokerlose123: posts the ante 10
+marvinsytan: posts the ante 10
+John Doe 808: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 40
+thelegend666: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 2d]
+imthcplant: folds 
+biglaf10: folds 
+pokerlose123: calls 80
+marvinsytan: folds 
+John Doe 808: raises 1280 to 1360
+scorza23: folds 
+thelegend666: folds 
+pokerlose123: calls 721 and is all-in
+Uncalled bet (559) returned to John Doe 808
+*** FLOP *** [9d 7s 3d]
+*** TURN *** [9d 7s 3d] [5s]
+*** RIVER *** [9d 7s 3d 5s] [6c]
+*** SHOW DOWN ***
+pokerlose123: shows [2s Ah] (high card Ace)
+John Doe 808: shows [Qc Ad] (high card Ace - Queen kicker)
+John Doe 808 collected 1792 from pot
+pokerlose123 finished the tournament in 23rd place
+*** SUMMARY ***
+Total pot 1792 | Rake 0 
+Board [9d 7s 3d 5s 6c]
+Seat 1: thelegend666 (big blind) folded before Flop
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: pokerlose123 showed [2s Ah] and lost with high card Ace
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 (button) showed [Qc Ad] and won (1792) with high card Ace
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749665308: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/16 15:39:00 UTC [2026/02/16 10:39:00 ET]
+Table '3975675382 4' 8-max Seat #8 is the button
+Seat 1: thelegend666 (1102 in chips) 
+Seat 2: imthcplant (2563 in chips) 
+Seat 3: biglaf10 (3184 in chips) 
+Seat 5: marvinsytan (1612 in chips) 
+Seat 6: John Doe 808 (2398 in chips) 
+Seat 8: scorza23 (2009 in chips) 
+thelegend666: posts the ante 10
+imthcplant: posts the ante 10
+biglaf10: posts the ante 10
+marvinsytan: posts the ante 10
+John Doe 808: posts the ante 10
+scorza23: posts the ante 10
+thelegend666: posts small blind 40
+imthcplant: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 9c]
+biglaf10: folds 
+marvinsytan: folds 
+John Doe 808: calls 80
+scorza23: folds 
+thelegend666: folds 
+imthcplant: checks 
+*** FLOP *** [Tc 8s Jc]
+imthcplant: checks 
+John Doe 808: bets 130
+imthcplant: calls 130
+*** TURN *** [Tc 8s Jc] [8h]
+imthcplant: checks 
+John Doe 808: checks 
+*** RIVER *** [Tc 8s Jc 8h] [3s]
+imthcplant: checks 
+John Doe 808: bets 320
+imthcplant: folds 
+Uncalled bet (320) returned to John Doe 808
+John Doe 808 collected 520 from pot
+John Doe 808: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Board [Tc 8s Jc 8h 3s]
+Seat 1: thelegend666 (small blind) folded before Flop
+Seat 2: imthcplant (big blind) folded on the River
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 collected (520)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749675192: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 15:39:59 UTC [2026/02/16 10:39:59 ET]
+Table '3975675382 4' 8-max Seat #1 is the button
+Seat 1: thelegend666 (1052 in chips) 
+Seat 2: imthcplant (2343 in chips) 
+Seat 3: biglaf10 (3174 in chips) 
+Seat 4: angelmarin54 (2277 in chips) 
+Seat 5: marvinsytan (1602 in chips) 
+Seat 6: John Doe 808 (2698 in chips) 
+Seat 8: scorza23 (1999 in chips) 
+thelegend666: posts the ante 15
+imthcplant: posts the ante 15
+biglaf10: posts the ante 15
+angelmarin54: posts the ante 15
+marvinsytan: posts the ante 15
+John Doe 808: posts the ante 15
+scorza23: posts the ante 15
+imthcplant: posts small blind 60
+biglaf10: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 7h]
+angelmarin54: folds 
+marvinsytan: raises 1467 to 1587 and is all-in
+John Doe 808: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+Uncalled bet (1467) returned to marvinsytan
+marvinsytan collected 405 from pot
+marvinsytan: doesn't show hand 
+*** SUMMARY ***
+Total pot 405 | Rake 0 
+Seat 1: thelegend666 (button) folded before Flop (didn't bet)
+Seat 2: imthcplant (small blind) folded before Flop
+Seat 3: biglaf10 (big blind) folded before Flop
+Seat 4: angelmarin54 folded before Flop (didn't bet)
+Seat 5: marvinsytan collected (405)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749681252: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 15:40:34 UTC [2026/02/16 10:40:34 ET]
+Table '3975675382 4' 8-max Seat #2 is the button
+Seat 1: thelegend666 (1037 in chips) 
+Seat 2: imthcplant (2268 in chips) 
+Seat 3: biglaf10 (3039 in chips) 
+Seat 4: angelmarin54 (2262 in chips) 
+Seat 5: marvinsytan (1872 in chips) 
+Seat 6: John Doe 808 (2683 in chips) 
+Seat 8: scorza23 (1984 in chips) 
+thelegend666: posts the ante 15
+imthcplant: posts the ante 15
+biglaf10: posts the ante 15
+angelmarin54: posts the ante 15
+marvinsytan: posts the ante 15
+John Doe 808: posts the ante 15
+scorza23: posts the ante 15
+biglaf10: posts small blind 60
+angelmarin54: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Js]
+marvinsytan: folds 
+John Doe 808: folds 
+scorza23: raises 240 to 360
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+angelmarin54: calls 240
+*** FLOP *** [As 8c 2h]
+angelmarin54: checks 
+scorza23: checks 
+*** TURN *** [As 8c 2h] [Td]
+angelmarin54: checks 
+scorza23: bets 443
+angelmarin54: folds 
+Uncalled bet (443) returned to scorza23
+scorza23 collected 885 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 885 | Rake 0 
+Board [As 8c 2h Td]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant (button) folded before Flop (didn't bet)
+Seat 3: biglaf10 (small blind) folded before Flop
+Seat 4: angelmarin54 (big blind) folded on the Turn
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: John Doe 808 folded before Flop (didn't bet)
+Seat 8: scorza23 collected (885)
+
+
+
+PokerStars Hand #259749688360: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 15:41:15 UTC [2026/02/16 10:41:15 ET]
+Table '3975675382 4' 8-max Seat #3 is the button
+Seat 1: thelegend666 (1022 in chips) 
+Seat 2: imthcplant (2253 in chips) 
+Seat 3: biglaf10 (2964 in chips) 
+Seat 4: angelmarin54 (1887 in chips) 
+Seat 5: marvinsytan (1857 in chips) 
+Seat 8: scorza23 (2494 in chips) 
+thelegend666: posts the ante 15
+imthcplant: posts the ante 15
+biglaf10: posts the ante 15
+angelmarin54: posts the ante 15
+marvinsytan: posts the ante 15
+scorza23: posts the ante 15
+angelmarin54: posts small blind 60
+marvinsytan: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Kc]
+scorza23: folds 
+thelegend666: raises 887 to 1007 and is all-in
+imthcplant: folds 
+biglaf10: folds 
+angelmarin54: folds 
+babyhud is disconnected 
+oven25 is disconnected 
+marvinsytan: folds 
+Uncalled bet (887) returned to thelegend666
+thelegend666 collected 390 from pot
+thelegend666: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: thelegend666 collected (390)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 (button) folded before Flop (didn't bet)
+Seat 4: angelmarin54 (small blind) folded before Flop
+Seat 5: marvinsytan (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749692058: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 15:41:37 UTC [2026/02/16 10:41:37 ET]
+Table '3975675382 4' 8-max Seat #4 is the button
+Seat 1: thelegend666 (1277 in chips) 
+Seat 2: imthcplant (2238 in chips) 
+Seat 3: biglaf10 (2949 in chips) 
+Seat 4: angelmarin54 (1812 in chips) 
+Seat 5: marvinsytan (1722 in chips) 
+Seat 6: oven25 (3232 in chips) 
+Seat 7: babyhud (12081 in chips) 
+Seat 8: scorza23 (2479 in chips) 
+thelegend666: posts the ante 15
+imthcplant: posts the ante 15
+biglaf10: posts the ante 15
+angelmarin54: posts the ante 15
+marvinsytan: posts the ante 15
+oven25: posts the ante 15
+babyhud: posts the ante 15
+scorza23: posts the ante 15
+marvinsytan: posts small blind 60
+oven25: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [As Ad]
+babyhud: raises 120 to 240
+scorza23: calls 240
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+angelmarin54: folds 
+marvinsytan: folds 
+oven25: folds 
+*** FLOP *** [2s 9h Qc]
+babyhud: checks 
+scorza23: bets 360
+babyhud: calls 360
+*** TURN *** [2s 9h Qc] [3s]
+babyhud: checks 
+scorza23: bets 750
+babyhud: calls 750
+*** RIVER *** [2s 9h Qc 3s] [3d]
+babyhud: checks 
+scorza23: bets 1114 and is all-in
+babyhud: calls 1114
+*** SHOW DOWN ***
+scorza23: shows [As Ad] (two pair, Aces and Threes)
+babyhud: shows [Kh 9s] (two pair, Nines and Threes)
+scorza23 collected 5228 from pot
+*** SUMMARY ***
+Total pot 5228 | Rake 0 
+Board [2s 9h Qc 3s 3d]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: angelmarin54 (button) folded before Flop (didn't bet)
+Seat 5: marvinsytan (small blind) folded before Flop
+Seat 6: oven25 (big blind) folded before Flop
+Seat 7: babyhud showed [Kh 9s] and lost with two pair, Nines and Threes
+Seat 8: scorza23 showed [As Ad] and won (5228) with two pair, Aces and Threes
+
+
+
+PokerStars Hand #259749701179: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 15:42:31 UTC [2026/02/16 10:42:31 ET]
+Table '3975675382 4' 8-max Seat #5 is the button
+Seat 1: thelegend666 (1262 in chips) 
+Seat 2: imthcplant (2223 in chips) 
+Seat 3: biglaf10 (2934 in chips) 
+Seat 4: angelmarin54 (1797 in chips) 
+Seat 5: marvinsytan (1647 in chips) 
+Seat 6: oven25 (3097 in chips) 
+Seat 7: babyhud (9602 in chips) 
+Seat 8: scorza23 (5228 in chips) 
+thelegend666: posts the ante 15
+imthcplant: posts the ante 15
+biglaf10: posts the ante 15
+angelmarin54: posts the ante 15
+marvinsytan: posts the ante 15
+oven25: posts the ante 15
+babyhud: posts the ante 15
+scorza23: posts the ante 15
+oven25: posts small blind 60
+babyhud: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 3d]
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+angelmarin54: folds 
+marvinsytan: folds 
+oven25: calls 60
+babyhud: checks 
+*** FLOP *** [Kd 7c 5c]
+oven25: bets 120
+babyhud: calls 120
+*** TURN *** [Kd 7c 5c] [2c]
+oven25: checks 
+babyhud: bets 240
+oven25: folds 
+Uncalled bet (240) returned to babyhud
+babyhud collected 600 from pot
+babyhud: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [Kd 7c 5c 2c]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: angelmarin54 folded before Flop (didn't bet)
+Seat 5: marvinsytan (button) folded before Flop (didn't bet)
+Seat 6: oven25 (small blind) folded on the Turn
+Seat 7: babyhud (big blind) collected (600)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749709139: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 15:43:18 UTC [2026/02/16 10:43:18 ET]
+Table '3975675382 4' 8-max Seat #6 is the button
+Seat 1: thelegend666 (1247 in chips) 
+Seat 2: imthcplant (2208 in chips) 
+Seat 3: biglaf10 (2919 in chips) 
+Seat 4: angelmarin54 (1782 in chips) 
+Seat 5: marvinsytan (1632 in chips) 
+Seat 6: oven25 (2842 in chips) 
+Seat 7: babyhud (9947 in chips) 
+Seat 8: scorza23 (5213 in chips) 
+thelegend666: posts the ante 15
+imthcplant: posts the ante 15
+biglaf10: posts the ante 15
+angelmarin54: posts the ante 15
+marvinsytan: posts the ante 15
+oven25: posts the ante 15
+babyhud: posts the ante 15
+scorza23: posts the ante 15
+babyhud: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2h As]
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: folds 
+angelmarin54: calls 120
+marvinsytan: raises 1497 to 1617 and is all-in
+oven25: folds 
+babyhud: folds 
+scorza23: folds 
+angelmarin54: folds 
+Uncalled bet (1497) returned to marvinsytan
+marvinsytan collected 540 from pot
+marvinsytan: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: angelmarin54 folded before Flop
+Seat 5: marvinsytan collected (540)
+Seat 6: oven25 (button) folded before Flop (didn't bet)
+Seat 7: babyhud (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749716864: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/16 15:44:03 UTC [2026/02/16 10:44:03 ET]
+Table '3975675382 4' 8-max Seat #7 is the button
+Seat 1: thelegend666 (1232 in chips) 
+Seat 2: imthcplant (2193 in chips) 
+Seat 3: biglaf10 (2904 in chips) 
+Seat 4: angelmarin54 (1647 in chips) 
+Seat 5: marvinsytan (2037 in chips) 
+Seat 6: oven25 (2827 in chips) 
+Seat 7: babyhud (9872 in chips) 
+Seat 8: scorza23 (5078 in chips) 
+thelegend666: posts the ante 15
+imthcplant: posts the ante 15
+biglaf10: posts the ante 15
+angelmarin54: posts the ante 15
+marvinsytan: posts the ante 15
+oven25: posts the ante 15
+babyhud: posts the ante 15
+scorza23: posts the ante 15
+scorza23: posts small blind 60
+thelegend666: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 3c]
+imthcplant: folds 
+biglaf10: folds 
+angelmarin54: folds 
+marvinsytan: folds 
+oven25: folds 
+babyhud: raises 120 to 240
+scorza23: folds 
+thelegend666: calls 120
+*** FLOP *** [Kh Jd 6d]
+thelegend666: checks 
+babyhud: bets 240
+thelegend666: raises 737 to 977 and is all-in
+babyhud: folds 
+Uncalled bet (737) returned to thelegend666
+thelegend666 collected 1140 from pot
+thelegend666: doesn't show hand 
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Board [Kh Jd 6d]
+Seat 1: thelegend666 (big blind) collected (1140)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 3: biglaf10 folded before Flop (didn't bet)
+Seat 4: angelmarin54 folded before Flop (didn't bet)
+Seat 5: marvinsytan folded before Flop (didn't bet)
+Seat 6: oven25 folded before Flop (didn't bet)
+Seat 7: babyhud (button) folded on the Flop
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749722344: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:44:36 UTC [2026/02/16 10:44:36 ET]
+Table '3975675382 4' 8-max Seat #8 is the button
+Seat 1: thelegend666 (1877 in chips) 
+Seat 2: imthcplant (2178 in chips) 
+Seat 3: biglaf10 (2889 in chips) 
+Seat 4: angelmarin54 (1632 in chips) 
+Seat 5: marvinsytan (2022 in chips) 
+Seat 6: oven25 (2812 in chips) 
+Seat 7: babyhud (9377 in chips) 
+Seat 8: scorza23 (5003 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+biglaf10: posts the ante 20
+angelmarin54: posts the ante 20
+marvinsytan: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+thelegend666: posts small blind 80
+imthcplant: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 9h]
+biglaf10: raises 160 to 320
+angelmarin54: folds 
+marvinsytan: raises 1682 to 2002 and is all-in
+oven25: folds 
+babyhud: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: raises 156 to 2158 and is all-in
+biglaf10: folds 
+Uncalled bet (156) returned to imthcplant
+*** FLOP *** [4c 5s 9c]
+*** TURN *** [4c 5s 9c] [Th]
+*** RIVER *** [4c 5s 9c Th] [8s]
+*** SHOW DOWN ***
+imthcplant: shows [Ad Ah] (a pair of Aces)
+marvinsytan: shows [Ks Kd] (a pair of Kings)
+imthcplant collected 4564 from pot
+marvinsytan finished the tournament in 16th place
+*** SUMMARY ***
+Total pot 4564 | Rake 0 
+Board [4c 5s 9c Th 8s]
+Seat 1: thelegend666 (small blind) folded before Flop
+Seat 2: imthcplant (big blind) showed [Ad Ah] and won (4564) with a pair of Aces
+Seat 3: biglaf10 folded before Flop
+Seat 4: angelmarin54 folded before Flop (didn't bet)
+Seat 5: marvinsytan showed [Ks Kd] and lost with a pair of Kings
+Seat 6: oven25 folded before Flop (didn't bet)
+Seat 7: babyhud folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749727700: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:45:07 UTC [2026/02/16 10:45:07 ET]
+Table '3975675382 4' 8-max Seat #1 is the button
+Seat 1: thelegend666 (1777 in chips) 
+Seat 2: imthcplant (4720 in chips) 
+Seat 3: biglaf10 (2549 in chips) 
+Seat 4: angelmarin54 (1612 in chips) 
+Seat 6: oven25 (2792 in chips) 
+Seat 7: babyhud (9357 in chips) 
+Seat 8: scorza23 (4983 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+biglaf10: posts the ante 20
+angelmarin54: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+imthcplant: posts small blind 80
+biglaf10: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 3c]
+angelmarin54: folds 
+oven25: raises 160 to 320
+babyhud: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+biglaf10: calls 160
+*** FLOP *** [8d Td Ah]
+biglaf10: checks 
+oven25: bets 284
+biglaf10: calls 284
+*** TURN *** [8d Td Ah] [8c]
+biglaf10: checks 
+oven25: bets 471
+biglaf10: calls 471
+*** RIVER *** [8d Td Ah 8c] [Qd]
+biglaf10: bets 1454 and is all-in
+oven25: calls 1454
+*** SHOW DOWN ***
+biglaf10: shows [As 7c] (two pair, Aces and Eights)
+oven25: shows [8s 8h] (four of a kind, Eights)
+oven25 collected 5278 from pot
+biglaf10 finished the tournament in 15th place
+*** SUMMARY ***
+Total pot 5278 | Rake 0 
+Board [8d Td Ah 8c Qd]
+Seat 1: thelegend666 (button) folded before Flop (didn't bet)
+Seat 2: imthcplant (small blind) folded before Flop
+Seat 3: biglaf10 (big blind) showed [As 7c] and lost with two pair, Aces and Eights
+Seat 4: angelmarin54 folded before Flop (didn't bet)
+Seat 6: oven25 showed [8s 8h] and won (5278) with four of a kind, Eights
+Seat 7: babyhud folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749737785: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:46:06 UTC [2026/02/16 10:46:06 ET]
+Table '3975675382 4' 8-max Seat #2 is the button
+Seat 1: thelegend666 (1757 in chips) 
+Seat 2: imthcplant (4620 in chips) 
+Seat 4: angelmarin54 (1592 in chips) 
+Seat 6: oven25 (5521 in chips) 
+Seat 7: babyhud (9337 in chips) 
+Seat 8: scorza23 (4963 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+angelmarin54: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+angelmarin54: posts small blind 80
+oven25: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 9h]
+babyhud: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: raises 198 to 358
+angelmarin54: folds 
+oven25: folds 
+Uncalled bet (198) returned to imthcplant
+imthcplant collected 520 from pot
+imthcplant: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant (button) collected (520)
+Seat 4: angelmarin54 (small blind) folded before Flop
+Seat 6: oven25 (big blind) folded before Flop
+Seat 7: babyhud folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749740301: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:46:21 UTC [2026/02/16 10:46:21 ET]
+Table '3975675382 4' 8-max Seat #4 is the button
+Seat 1: thelegend666 (1737 in chips) 
+Seat 2: imthcplant (4960 in chips) 
+Seat 4: angelmarin54 (1492 in chips) 
+Seat 6: oven25 (5341 in chips) 
+Seat 7: babyhud (9317 in chips) 
+Seat 8: scorza23 (4943 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+angelmarin54: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+oven25: posts small blind 80
+babyhud: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Qd]
+Rafaelsans is disconnected 
+scorza23: raises 320 to 480
+thelegend666: folds 
+imthcplant: folds 
+angelmarin54: folds 
+oven25: folds 
+babyhud: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 520 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 4: angelmarin54 (button) folded before Flop (didn't bet)
+Seat 6: oven25 (small blind) folded before Flop
+Seat 7: babyhud (big blind) folded before Flop
+Seat 8: scorza23 collected (520)
+
+
+
+PokerStars Hand #259749742941: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:46:36 UTC [2026/02/16 10:46:36 ET]
+Table '3975675382 4' 8-max Seat #6 is the button
+Seat 1: thelegend666 (1717 in chips) 
+Seat 2: imthcplant (4940 in chips) 
+Seat 4: angelmarin54 (1472 in chips) 
+Seat 5: Rafaelsans (3550 in chips) 
+Seat 6: oven25 (5241 in chips) 
+Seat 7: babyhud (9137 in chips) 
+Seat 8: scorza23 (5283 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+angelmarin54: posts the ante 20
+Rafaelsans: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+babyhud: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Ac]
+thelegend666: folds 
+imthcplant: folds 
+angelmarin54: folds 
+Rafaelsans: folds 
+oven25: folds 
+babyhud: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 4: angelmarin54 folded before Flop (didn't bet)
+Seat 5: Rafaelsans folded before Flop (didn't bet)
+Seat 6: oven25 (button) folded before Flop (didn't bet)
+Seat 7: babyhud (small blind) folded before Flop
+Seat 8: scorza23 (big blind) collected (300)
+
+
+
+PokerStars Hand #259749748206: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:47:07 UTC [2026/02/16 10:47:07 ET]
+Table '3975675382 4' 8-max Seat #7 is the button
+Seat 1: thelegend666 (1697 in chips) 
+Seat 2: imthcplant (4920 in chips) 
+Seat 4: angelmarin54 (1452 in chips) 
+Seat 5: Rafaelsans (3530 in chips) 
+Seat 6: oven25 (5221 in chips) 
+Seat 7: babyhud (9037 in chips) 
+Seat 8: scorza23 (5483 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+angelmarin54: posts the ante 20
+Rafaelsans: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+thelegend666: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 6d]
+imthcplant: folds 
+angelmarin54: raises 160 to 320
+Rafaelsans: folds 
+oven25: folds 
+babyhud: calls 320
+scorza23: folds 
+thelegend666: folds 
+*** FLOP *** [4s 9c Ks]
+angelmarin54: bets 1112 and is all-in
+babyhud: folds 
+Uncalled bet (1112) returned to angelmarin54
+angelmarin54 collected 1020 from pot
+*** SUMMARY ***
+Total pot 1020 | Rake 0 
+Board [4s 9c Ks]
+Seat 1: thelegend666 (big blind) folded before Flop
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 4: angelmarin54 collected (1020)
+Seat 5: Rafaelsans folded before Flop (didn't bet)
+Seat 6: oven25 folded before Flop (didn't bet)
+Seat 7: babyhud (button) folded on the Flop
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749757057: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:47:57 UTC [2026/02/16 10:47:57 ET]
+Table '3975675382 4' 8-max Seat #8 is the button
+Seat 1: thelegend666 (1517 in chips) 
+Seat 2: imthcplant (4900 in chips) 
+Seat 4: angelmarin54 (2132 in chips) 
+Seat 5: Rafaelsans (3510 in chips) 
+Seat 6: oven25 (5201 in chips) 
+Seat 7: babyhud (8697 in chips) 
+Seat 8: scorza23 (5383 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+angelmarin54: posts the ante 20
+Rafaelsans: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+thelegend666: posts small blind 80
+imthcplant: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 8d]
+angelmarin54: folds 
+Rafaelsans: folds 
+oven25: raises 160 to 320
+babyhud: folds 
+scorza23: folds 
+thelegend666: raises 1177 to 1497 and is all-in
+imthcplant: raises 3383 to 4880 and is all-in
+oven25: folds 
+Uncalled bet (3383) returned to imthcplant
+*** FLOP *** [Kd 6d 5c]
+*** TURN *** [Kd 6d 5c] [6s]
+*** RIVER *** [Kd 6d 5c 6s] [5s]
+*** SHOW DOWN ***
+thelegend666: shows [Ts Ac] (two pair, Sixes and Fives)
+imthcplant: shows [Jd Ad] (two pair, Sixes and Fives)
+thelegend666 collected 1727 from pot
+imthcplant collected 1727 from pot
+*** SUMMARY ***
+Total pot 3454 | Rake 0 
+Board [Kd 6d 5c 6s 5s]
+Seat 1: thelegend666 (small blind) showed [Ts Ac] and won (1727) with two pair, Sixes and Fives
+Seat 2: imthcplant (big blind) showed [Jd Ad] and won (1727) with two pair, Sixes and Fives
+Seat 4: angelmarin54 folded before Flop (didn't bet)
+Seat 5: Rafaelsans folded before Flop (didn't bet)
+Seat 6: oven25 folded before Flop
+Seat 7: babyhud folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749765441: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:48:45 UTC [2026/02/16 10:48:45 ET]
+Table '3975675382 4' 8-max Seat #1 is the button
+Seat 1: thelegend666 (1727 in chips) 
+Seat 2: imthcplant (5110 in chips) 
+Seat 4: angelmarin54 (2112 in chips) 
+Seat 5: Rafaelsans (3490 in chips) 
+Seat 6: oven25 (4861 in chips) 
+Seat 7: babyhud (8677 in chips) 
+Seat 8: scorza23 (5363 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+angelmarin54: posts the ante 20
+Rafaelsans: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+imthcplant: posts small blind 80
+angelmarin54: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Ac]
+Rafaelsans: folds 
+oven25: folds 
+babyhud: folds 
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+Uncalled bet (80) returned to angelmarin54
+angelmarin54 collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: thelegend666 (button) folded before Flop (didn't bet)
+Seat 2: imthcplant (small blind) folded before Flop
+Seat 4: angelmarin54 (big blind) collected (300)
+Seat 5: Rafaelsans folded before Flop (didn't bet)
+Seat 6: oven25 folded before Flop (didn't bet)
+Seat 7: babyhud folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749770776: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/16 15:49:16 UTC [2026/02/16 10:49:16 ET]
+Table '3975675382 4' 8-max Seat #2 is the button
+Seat 1: thelegend666 (1707 in chips) 
+Seat 2: imthcplant (5010 in chips) 
+Seat 4: angelmarin54 (2312 in chips) 
+Seat 5: Rafaelsans (3470 in chips) 
+Seat 6: oven25 (4841 in chips) 
+Seat 7: babyhud (8657 in chips) 
+Seat 8: scorza23 (5343 in chips) 
+thelegend666: posts the ante 20
+imthcplant: posts the ante 20
+angelmarin54: posts the ante 20
+Rafaelsans: posts the ante 20
+oven25: posts the ante 20
+babyhud: posts the ante 20
+scorza23: posts the ante 20
+angelmarin54: posts small blind 80
+Rafaelsans: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 5d]
+oven25: folds 
+babyhud: raises 160 to 320
+scorza23: folds 
+thelegend666: folds 
+imthcplant: calls 320
+angelmarin54: folds 
+Rafaelsans: calls 160
+*** FLOP *** [3s Td Jh]
+Rafaelsans: checks 
+babyhud: checks 
+imthcplant: checks 
+*** TURN *** [3s Td Jh] [Ts]
+Rafaelsans: bets 354
+babyhud: calls 354
+imthcplant: folds 
+*** RIVER *** [3s Td Jh Ts] [5c]
+Rafaelsans: checks 
+babyhud: checks 
+*** SHOW DOWN ***
+Rafaelsans: shows [Qd Ah] (a pair of Tens)
+babyhud: mucks hand 
+Rafaelsans collected 1888 from pot
+*** SUMMARY ***
+Total pot 1888 | Rake 0 
+Board [3s Td Jh Ts 5c]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant (button) folded on the Turn
+Seat 4: angelmarin54 (small blind) folded before Flop
+Seat 5: Rafaelsans (big blind) showed [Qd Ah] and won (1888) with a pair of Tens
+Seat 6: oven25 folded before Flop (didn't bet)
+Seat 7: babyhud mucked [7s As]
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749783333: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:50:28 UTC [2026/02/16 10:50:28 ET]
+Table '3975675382 4' 8-max Seat #4 is the button
+Seat 1: thelegend666 (1687 in chips) 
+Seat 2: imthcplant (4670 in chips) 
+Seat 4: angelmarin54 (2212 in chips) 
+Seat 5: Rafaelsans (4664 in chips) 
+Seat 6: oven25 (4821 in chips) 
+Seat 7: babyhud (7963 in chips) 
+Seat 8: scorza23 (5323 in chips) 
+thelegend666: posts the ante 25
+imthcplant: posts the ante 25
+angelmarin54: posts the ante 25
+Rafaelsans: posts the ante 25
+oven25: posts the ante 25
+babyhud: posts the ante 25
+scorza23: posts the ante 25
+Rafaelsans: posts small blind 100
+oven25: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 3d]
+babyhud: calls 200
+scorza23: folds 
+thelegend666: folds 
+imthcplant: folds 
+angelmarin54: folds 
+Rafaelsans: folds 
+oven25: checks 
+*** FLOP *** [3h 7s 5d]
+oven25: checks 
+babyhud: bets 475
+oven25: calls 475
+*** TURN *** [3h 7s 5d] [2c]
+oven25: checks 
+babyhud: bets 600
+oven25: folds 
+Uncalled bet (600) returned to babyhud
+babyhud collected 1625 from pot
+*** SUMMARY ***
+Total pot 1625 | Rake 0 
+Board [3h 7s 5d 2c]
+Seat 1: thelegend666 folded before Flop (didn't bet)
+Seat 2: imthcplant folded before Flop (didn't bet)
+Seat 4: angelmarin54 (button) folded before Flop (didn't bet)
+Seat 5: Rafaelsans (small blind) folded before Flop
+Seat 6: oven25 (big blind) folded on the Turn
+Seat 7: babyhud collected (1625)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749796500: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:51:43 UTC [2026/02/16 10:51:43 ET]
+Table '3975675382 3' 8-max Seat #2 is the button
+Seat 1: RunItLikeSexton (5813 in chips) 
+Seat 2: popeye1951 (5160 in chips) 
+Seat 4: Tibiking007 (3059 in chips) 
+Seat 5: marboro men222 (640 in chips) 
+Seat 6: scorza23 (5298 in chips) 
+Seat 7: PANAGOS11 (1988 in chips) 
+RunItLikeSexton: posts the ante 25
+popeye1951: posts the ante 25
+Tibiking007: posts the ante 25
+marboro men222: posts the ante 25
+scorza23: posts the ante 25
+PANAGOS11: posts the ante 25
+Tibiking007: posts small blind 100
+marboro men222: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5s]
+scorza23: folds 
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: calls 100
+marboro men222: raises 415 to 615 and is all-in
+Tibiking007: folds 
+Uncalled bet (415) returned to marboro men222
+marboro men222 collected 550 from pot
+marboro men222: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) folded before Flop
+Seat 5: marboro men222 (big blind) collected (550)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749800176: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:52:04 UTC [2026/02/16 10:52:04 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (5788 in chips) 
+Seat 2: popeye1951 (5135 in chips) 
+Seat 4: Tibiking007 (2834 in chips) 
+Seat 5: marboro men222 (965 in chips) 
+Seat 6: scorza23 (5273 in chips) 
+Seat 7: PANAGOS11 (1963 in chips) 
+RunItLikeSexton: posts the ante 25
+popeye1951: posts the ante 25
+Tibiking007: posts the ante 25
+marboro men222: posts the ante 25
+scorza23: posts the ante 25
+PANAGOS11: posts the ante 25
+marboro men222: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 6s]
+PANAGOS11: calls 200
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+marboro men222: calls 100
+scorza23: checks 
+*** FLOP *** [Js 2h 8h]
+marboro men222: bets 375
+scorza23: folds 
+PANAGOS11: raises 375 to 750
+marboro men222: calls 365 and is all-in
+Uncalled bet (10) returned to PANAGOS11
+*** TURN *** [Js 2h 8h] [Qc]
+*** RIVER *** [Js 2h 8h Qc] [9h]
+*** SHOW DOWN ***
+marboro men222: shows [Ks 8s] (a pair of Eights)
+PANAGOS11: shows [As Jc] (a pair of Jacks)
+PANAGOS11 collected 2230 from pot
+marboro men222 finished the tournament in 12th place
+*** SUMMARY ***
+Total pot 2230 | Rake 0 
+Board [Js 2h 8h Qc 9h]
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 5: marboro men222 (small blind) showed [Ks 8s] and lost with a pair of Eights
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 7: PANAGOS11 showed [As Jc] and won (2230) with a pair of Jacks
+
+
+
+PokerStars Hand #259749804934: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:52:32 UTC [2026/02/16 10:52:32 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (5763 in chips) 
+Seat 2: popeye1951 (5110 in chips) 
+Seat 4: Tibiking007 (2809 in chips) 
+Seat 6: scorza23 (5048 in chips) 
+Seat 7: PANAGOS11 (3228 in chips) 
+RunItLikeSexton: posts the ante 25
+popeye1951: posts the ante 25
+Tibiking007: posts the ante 25
+scorza23: posts the ante 25
+PANAGOS11: posts the ante 25
+PANAGOS11: posts small blind 100
+RunItLikeSexton: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 5h]
+popeye1951: calls 200
+Tibiking007: raises 600 to 800
+scorza23: folds 
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+Uncalled bet (600) returned to Tibiking007
+Tibiking007 collected 825 from pot
+Tibiking007: doesn't show hand 
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Seat 1: RunItLikeSexton (big blind) folded before Flop
+Seat 2: popeye1951 folded before Flop
+Seat 4: Tibiking007 collected (825)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: PANAGOS11 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749810450: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:53:03 UTC [2026/02/16 10:53:03 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 1: RunItLikeSexton (5538 in chips) 
+Seat 2: popeye1951 (4885 in chips) 
+Seat 4: Tibiking007 (3409 in chips) 
+Seat 6: scorza23 (5023 in chips) 
+Seat 7: PANAGOS11 (3103 in chips) 
+RunItLikeSexton: posts the ante 25
+popeye1951: posts the ante 25
+Tibiking007: posts the ante 25
+scorza23: posts the ante 25
+PANAGOS11: posts the ante 25
+RunItLikeSexton: posts small blind 100
+popeye1951: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 6h]
+Tibiking007: folds 
+scorza23: folds 
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+Uncalled bet (100) returned to popeye1951
+popeye1951 collected 325 from pot
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 1: RunItLikeSexton (small blind) folded before Flop
+Seat 2: popeye1951 (big blind) collected (325)
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: PANAGOS11 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749812369: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:53:14 UTC [2026/02/16 10:53:14 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (5413 in chips) 
+Seat 2: popeye1951 (5085 in chips) 
+Seat 4: Tibiking007 (3384 in chips) 
+Seat 6: scorza23 (4998 in chips) 
+Seat 7: PANAGOS11 (3078 in chips) 
+RunItLikeSexton: posts the ante 25
+popeye1951: posts the ante 25
+Tibiking007: posts the ante 25
+scorza23: posts the ante 25
+PANAGOS11: posts the ante 25
+popeye1951: posts small blind 100
+Tibiking007: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 3h]
+scorza23: folds 
+PANAGOS11: raises 200 to 400
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+Uncalled bet (200) returned to PANAGOS11
+PANAGOS11 collected 625 from pot
+PANAGOS11: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: RunItLikeSexton (button) folded before Flop (didn't bet)
+Seat 2: popeye1951 (small blind) folded before Flop
+Seat 4: Tibiking007 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: PANAGOS11 collected (625)
+
+
+
+PokerStars Hand #259749815504: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:53:32 UTC [2026/02/16 10:53:32 ET]
+Table '3975675382 3' 8-max Seat #2 is the button
+Seat 1: RunItLikeSexton (5388 in chips) 
+Seat 2: popeye1951 (4960 in chips) 
+Seat 4: Tibiking007 (3159 in chips) 
+Seat 6: scorza23 (4973 in chips) 
+Seat 7: PANAGOS11 (3478 in chips) 
+RunItLikeSexton: posts the ante 25
+popeye1951: posts the ante 25
+Tibiking007: posts the ante 25
+scorza23: posts the ante 25
+PANAGOS11: posts the ante 25
+Tibiking007: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 6s]
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: calls 100
+scorza23: checks 
+*** FLOP *** [5h Jh Ad]
+Tibiking007: checks 
+scorza23: bets 263
+Tibiking007: folds 
+Uncalled bet (263) returned to scorza23
+scorza23 collected 525 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [5h Jh Ad]
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) collected (525)
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749818956: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 15:53:52 UTC [2026/02/16 10:53:52 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (5363 in chips) 
+Seat 2: popeye1951 (4935 in chips) 
+Seat 4: Tibiking007 (2934 in chips) 
+Seat 6: scorza23 (5273 in chips) 
+Seat 7: PANAGOS11 (3453 in chips) 
+RunItLikeSexton: posts the ante 25
+popeye1951: posts the ante 25
+Tibiking007: posts the ante 25
+scorza23: posts the ante 25
+PANAGOS11: posts the ante 25
+scorza23: posts small blind 100
+PANAGOS11: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 8c]
+RunItLikeSexton: raises 200 to 400
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: calls 300
+PANAGOS11: folds 
+*** FLOP *** [7s Qc Ts]
+scorza23: checks 
+RunItLikeSexton: bets 563
+scorza23: folds 
+Uncalled bet (563) returned to RunItLikeSexton
+RunItLikeSexton collected 1125 from pot
+RunItLikeSexton: doesn't show hand 
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Board [7s Qc Ts]
+Seat 1: RunItLikeSexton collected (1125)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded on the Flop
+Seat 7: PANAGOS11 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749825683: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 15:54:30 UTC [2026/02/16 10:54:30 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (6063 in chips) 
+Seat 2: popeye1951 (4910 in chips) 
+Seat 4: Tibiking007 (2909 in chips) 
+Seat 6: scorza23 (4848 in chips) 
+Seat 7: PANAGOS11 (3228 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+PANAGOS11: posts small blind 150
+RunItLikeSexton: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 2s]
+popeye1951: folds 
+Tibiking007: raises 300 to 600
+scorza23: folds 
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+Uncalled bet (300) returned to Tibiking007
+Tibiking007 collected 925 from pot
+Tibiking007: doesn't show hand 
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Seat 1: RunItLikeSexton (big blind) folded before Flop
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 collected (925)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: PANAGOS11 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749828544: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 15:54:47 UTC [2026/02/16 10:54:47 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 1: RunItLikeSexton (5728 in chips) 
+Seat 2: popeye1951 (4875 in chips) 
+Seat 4: Tibiking007 (3499 in chips) 
+Seat 6: scorza23 (4813 in chips) 
+Seat 7: PANAGOS11 (3043 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+RunItLikeSexton: posts small blind 150
+popeye1951: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 2d]
+Tibiking007: calls 300
+scorza23: folds 
+PANAGOS11: folds 
+RunItLikeSexton: raises 5393 to 5693 and is all-in
+popeye1951: folds 
+Tibiking007: calls 3164 and is all-in
+Uncalled bet (2229) returned to RunItLikeSexton
+*** FLOP *** [Ah As Kc]
+*** TURN *** [Ah As Kc] [Ks]
+*** RIVER *** [Ah As Kc Ks] [7d]
+*** SHOW DOWN ***
+RunItLikeSexton: shows [8d 8s] (two pair, Aces and Kings)
+Tibiking007: shows [Jc Jd] (two pair, Aces and Kings - Jack kicker)
+Tibiking007 collected 7403 from pot
+*** SUMMARY ***
+Total pot 7403 | Rake 0 
+Board [Ah As Kc Ks 7d]
+Seat 1: RunItLikeSexton (small blind) showed [8d 8s] and lost with two pair, Aces and Kings
+Seat 2: popeye1951 (big blind) folded before Flop
+Seat 4: Tibiking007 showed [Jc Jd] and won (7403) with two pair, Aces and Kings
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: PANAGOS11 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749872167: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:00:09 UTC [2026/02/16 11:00:09 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (2229 in chips) 
+Seat 2: popeye1951 (4540 in chips) 
+Seat 4: Tibiking007 (7403 in chips) 
+Seat 6: scorza23 (4778 in chips) 
+Seat 7: PANAGOS11 (3008 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+popeye1951: posts small blind 150
+Tibiking007: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 4s]
+scorza23: folds 
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: calls 150
+Tibiking007: checks 
+*** FLOP *** [8h Ad 7c]
+popeye1951: bets 600
+Tibiking007: calls 600
+*** TURN *** [8h Ad 7c] [Ks]
+popeye1951: bets 300
+Tibiking007: calls 300
+*** RIVER *** [8h Ad 7c Ks] [Qs]
+popeye1951: bets 300
+Tibiking007: calls 300
+*** SHOW DOWN ***
+popeye1951: shows [4c As] (a pair of Aces)
+Tibiking007: mucks hand 
+popeye1951 collected 3175 from pot
+*** SUMMARY ***
+Total pot 3175 | Rake 0 
+Board [8h Ad 7c Ks Qs]
+Seat 1: RunItLikeSexton (button) folded before Flop (didn't bet)
+Seat 2: popeye1951 (small blind) showed [4c As] and won (3175) with a pair of Aces
+Seat 4: Tibiking007 (big blind) mucked [4h 8d]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749880494: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:01:03 UTC [2026/02/16 11:01:03 ET]
+Table '3975675382 3' 8-max Seat #2 is the button
+Seat 1: RunItLikeSexton (2194 in chips) 
+Seat 2: popeye1951 (6180 in chips) 
+Seat 4: Tibiking007 (5868 in chips) 
+Seat 6: scorza23 (4743 in chips) 
+Seat 7: PANAGOS11 (2973 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+Tibiking007: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ah]
+PANAGOS11: folds 
+RunItLikeSexton: raises 1859 to 2159 and is all-in
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: folds 
+Uncalled bet (1859) returned to RunItLikeSexton
+RunItLikeSexton collected 925 from pot
+RunItLikeSexton: doesn't show hand 
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Seat 1: RunItLikeSexton collected (925)
+Seat 2: popeye1951 (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749884030: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:01:24 UTC [2026/02/16 11:01:24 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (2784 in chips) 
+Seat 2: popeye1951 (6145 in chips) 
+Seat 4: Tibiking007 (5683 in chips) 
+Seat 6: scorza23 (4408 in chips) 
+Seat 7: PANAGOS11 (2938 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+scorza23: posts small blind 150
+PANAGOS11: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 5h]
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: raises 600 to 900
+PANAGOS11: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 775 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 775 | Rake 0 
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (775)
+Seat 7: PANAGOS11 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749887739: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:01:46 UTC [2026/02/16 11:01:46 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (2749 in chips) 
+Seat 2: popeye1951 (6110 in chips) 
+Seat 4: Tibiking007 (5648 in chips) 
+Seat 6: scorza23 (4848 in chips) 
+Seat 7: PANAGOS11 (2603 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+PANAGOS11: posts small blind 150
+RunItLikeSexton: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4s]
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: folds 
+PANAGOS11: calls 150
+RunItLikeSexton: checks 
+*** FLOP *** [9h Qd 3s]
+PANAGOS11: checks 
+RunItLikeSexton: checks 
+*** TURN *** [9h Qd 3s] [Ts]
+PANAGOS11: bets 300
+RunItLikeSexton: folds 
+Uncalled bet (300) returned to PANAGOS11
+PANAGOS11 collected 775 from pot
+PANAGOS11: doesn't show hand 
+*** SUMMARY ***
+Total pot 775 | Rake 0 
+Board [9h Qd 3s Ts]
+Seat 1: RunItLikeSexton (big blind) folded on the Turn
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: PANAGOS11 (small blind) collected (775)
+
+
+
+PokerStars Hand #259749893165: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:02:17 UTC [2026/02/16 11:02:17 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 1: RunItLikeSexton (2414 in chips) 
+Seat 2: popeye1951 (6075 in chips) 
+Seat 4: Tibiking007 (5613 in chips) 
+Seat 6: scorza23 (4813 in chips) 
+Seat 7: PANAGOS11 (3043 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+RunItLikeSexton: posts small blind 150
+popeye1951: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 9h]
+Tibiking007: calls 300
+scorza23: folds 
+PANAGOS11: calls 300
+RunItLikeSexton: folds 
+popeye1951: checks 
+*** FLOP *** [6s 2s 9c]
+popeye1951: checks 
+Tibiking007: bets 300
+PANAGOS11: folds 
+popeye1951: folds 
+Uncalled bet (300) returned to Tibiking007
+Tibiking007 collected 1225 from pot
+Tibiking007: doesn't show hand 
+*** SUMMARY ***
+Total pot 1225 | Rake 0 
+Board [6s 2s 9c]
+Seat 1: RunItLikeSexton (small blind) folded before Flop
+Seat 2: popeye1951 (big blind) folded on the Flop
+Seat 4: Tibiking007 collected (1225)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: PANAGOS11 (button) folded on the Flop
+
+
+
+PokerStars Hand #259749899057: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:02:50 UTC [2026/02/16 11:02:50 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (2229 in chips) 
+Seat 2: popeye1951 (5740 in chips) 
+Seat 4: Tibiking007 (6503 in chips) 
+Seat 6: scorza23 (4778 in chips) 
+Seat 7: PANAGOS11 (2708 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+popeye1951: posts small blind 150
+Tibiking007: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Qd]
+scorza23: raises 600 to 900
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 925 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Seat 1: RunItLikeSexton (button) folded before Flop (didn't bet)
+Seat 2: popeye1951 (small blind) folded before Flop
+Seat 4: Tibiking007 (big blind) folded before Flop
+Seat 6: scorza23 collected (925)
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749901218: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:03:02 UTC [2026/02/16 11:03:02 ET]
+Table '3975675382 3' 8-max Seat #2 is the button
+Seat 1: RunItLikeSexton (2194 in chips) 
+Seat 2: popeye1951 (5555 in chips) 
+Seat 4: Tibiking007 (6168 in chips) 
+Seat 6: scorza23 (5368 in chips) 
+Seat 7: PANAGOS11 (2673 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+Tibiking007: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 9h]
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (475)
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749904772: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:03:22 UTC [2026/02/16 11:03:22 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (2159 in chips) 
+Seat 2: popeye1951 (5520 in chips) 
+Seat 4: Tibiking007 (5983 in chips) 
+Seat 6: scorza23 (5658 in chips) 
+Seat 7: PANAGOS11 (2638 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+scorza23: posts small blind 150
+PANAGOS11: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 4s]
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: raises 600 to 900
+PANAGOS11: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 775 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 775 | Rake 0 
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (775)
+Seat 7: PANAGOS11 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749908484: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:03:43 UTC [2026/02/16 11:03:43 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (2124 in chips) 
+Seat 2: popeye1951 (5485 in chips) 
+Seat 4: Tibiking007 (5948 in chips) 
+Seat 6: scorza23 (6098 in chips) 
+Seat 7: PANAGOS11 (2303 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+PANAGOS11: posts small blind 150
+RunItLikeSexton: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5h]
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: folds 
+PANAGOS11: calls 150
+RunItLikeSexton: raises 1789 to 2089 and is all-in
+PANAGOS11: folds 
+Uncalled bet (1789) returned to RunItLikeSexton
+RunItLikeSexton collected 775 from pot
+RunItLikeSexton: doesn't show hand 
+*** SUMMARY ***
+Total pot 775 | Rake 0 
+Seat 1: RunItLikeSexton (big blind) collected (775)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: PANAGOS11 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749913236: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 16:04:10 UTC [2026/02/16 11:04:10 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 1: RunItLikeSexton (2564 in chips) 
+Seat 2: popeye1951 (5450 in chips) 
+Seat 4: Tibiking007 (5913 in chips) 
+Seat 6: scorza23 (6063 in chips) 
+Seat 7: PANAGOS11 (1968 in chips) 
+RunItLikeSexton: posts the ante 35
+popeye1951: posts the ante 35
+Tibiking007: posts the ante 35
+scorza23: posts the ante 35
+PANAGOS11: posts the ante 35
+RunItLikeSexton: posts small blind 150
+popeye1951: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Ts]
+Tibiking007: folds 
+scorza23: raises 600 to 900
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 925 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Seat 1: RunItLikeSexton (small blind) folded before Flop
+Seat 2: popeye1951 (big blind) folded before Flop
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 collected (925)
+Seat 7: PANAGOS11 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749918957: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:04:43 UTC [2026/02/16 11:04:43 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (2379 in chips) 
+Seat 2: popeye1951 (5115 in chips) 
+Seat 4: Tibiking007 (5878 in chips) 
+Seat 6: scorza23 (6653 in chips) 
+Seat 7: PANAGOS11 (1933 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+PANAGOS11: posts the ante 50
+popeye1951: posts small blind 200
+Tibiking007: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6d]
+scorza23: folds 
+PANAGOS11: folds 
+RunItLikeSexton: raises 1929 to 2329 and is all-in
+popeye1951: folds 
+Tibiking007: folds 
+Uncalled bet (1929) returned to RunItLikeSexton
+RunItLikeSexton collected 1250 from pot
+RunItLikeSexton: doesn't show hand 
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Seat 1: RunItLikeSexton (button) collected (1250)
+Seat 2: popeye1951 (small blind) folded before Flop
+Seat 4: Tibiking007 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749922106: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:05:00 UTC [2026/02/16 11:05:00 ET]
+Table '3975675382 3' 8-max Seat #2 is the button
+Seat 1: RunItLikeSexton (3179 in chips) 
+Seat 2: popeye1951 (4865 in chips) 
+Seat 4: Tibiking007 (5428 in chips) 
+Seat 6: scorza23 (6603 in chips) 
+Seat 7: PANAGOS11 (1883 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+PANAGOS11: posts the ante 50
+Tibiking007: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5s]
+PANAGOS11: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: raises 400 to 800
+scorza23: folds 
+Uncalled bet (400) returned to Tibiking007
+Tibiking007 collected 1050 from pot
+Tibiking007: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) collected (1050)
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: PANAGOS11 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749927507: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:05:31 UTC [2026/02/16 11:05:31 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (3129 in chips) 
+Seat 2: popeye1951 (4815 in chips) 
+Seat 4: Tibiking007 (6028 in chips) 
+Seat 6: scorza23 (6153 in chips) 
+Seat 7: PANAGOS11 (1833 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+PANAGOS11: posts the ante 50
+scorza23: posts small blind 200
+PANAGOS11: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Ac]
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: raises 800 to 1200
+PANAGOS11: raises 583 to 1783 and is all-in
+scorza23: calls 583
+*** FLOP *** [6c 5c As]
+*** TURN *** [6c 5c As] [6s]
+*** RIVER *** [6c 5c As 6s] [9h]
+*** SHOW DOWN ***
+scorza23: shows [9s Ac] (two pair, Aces and Nines)
+PANAGOS11: shows [Ah Qc] (two pair, Aces and Sixes)
+scorza23 collected 3816 from pot
+PANAGOS11 finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 3816 | Rake 0 
+Board [6c 5c As 6s 9h]
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) showed [9s Ac] and won (3816) with two pair, Aces and Nines
+Seat 7: PANAGOS11 (big blind) showed [Ah Qc] and lost with two pair, Aces and Sixes
+
+
+
+PokerStars Hand #259749931919: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:05:55 UTC [2026/02/16 11:05:55 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (3079 in chips) 
+Seat 2: popeye1951 (4765 in chips) 
+Seat 4: Tibiking007 (5978 in chips) 
+Seat 6: scorza23 (8136 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+RunItLikeSexton: posts small blind 200
+popeye1951: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5c]
+Tibiking007: folds 
+scorza23: folds 
+RunItLikeSexton: raises 2629 to 3029 and is all-in
+popeye1951: folds 
+Uncalled bet (2629) returned to RunItLikeSexton
+RunItLikeSexton collected 1000 from pot
+RunItLikeSexton: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Seat 1: RunItLikeSexton (small blind) collected (1000)
+Seat 2: popeye1951 (big blind) folded before Flop
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749936902: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:06:23 UTC [2026/02/16 11:06:23 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (3629 in chips) 
+Seat 2: popeye1951 (4315 in chips) 
+Seat 4: Tibiking007 (5928 in chips) 
+Seat 6: scorza23 (8086 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+popeye1951: posts small blind 200
+Tibiking007: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2d]
+scorza23: folds 
+RunItLikeSexton: folds 
+popeye1951: raises 400 to 800
+Tibiking007: folds 
+Uncalled bet (400) returned to popeye1951
+popeye1951 collected 1000 from pot
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Seat 1: RunItLikeSexton (button) folded before Flop (didn't bet)
+Seat 2: popeye1951 (small blind) collected (1000)
+Seat 4: Tibiking007 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749939554: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:06:38 UTC [2026/02/16 11:06:38 ET]
+Table '3975675382 3' 8-max Seat #2 is the button
+Seat 1: RunItLikeSexton (3579 in chips) 
+Seat 2: popeye1951 (4865 in chips) 
+Seat 4: Tibiking007 (5478 in chips) 
+Seat 6: scorza23 (8036 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+Tibiking007: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Jc]
+imthcplant is disconnected 
+RunItLikeSexton: folds 
+oven25 is disconnected 
+Rafaelsans is disconnected 
+popeye1951: folds 
+Tibiking007: calls 200
+scorza23: checks 
+*** FLOP *** [5h Ks Kc]
+Tibiking007: bets 1000
+scorza23: folds 
+Uncalled bet (1000) returned to Tibiking007
+Tibiking007 collected 1000 from pot
+Tibiking007: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [5h Ks Kc]
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) collected (1000)
+Seat 6: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749943504: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:06:59 UTC [2026/02/16 11:06:59 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (3529 in chips) 
+Seat 2: popeye1951 (4815 in chips) 
+Seat 3: angelmarin54 (719 in chips) 
+Seat 4: Tibiking007 (6028 in chips) 
+Seat 5: Rafaelsans (6318 in chips) out of hand (moved from another table into small blind)
+Seat 6: scorza23 (7586 in chips) 
+Seat 7: imthcplant (10946 in chips) 
+Seat 8: oven25 (8059 in chips) 
+Rafaelsans will be allowed to play after the button
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+angelmarin54: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+imthcplant: posts the ante 50
+oven25: posts the ante 50
+scorza23: posts small blind 200
+imthcplant: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 7c]
+oven25: folds 
+RunItLikeSexton: folds 
+popeye1951: folds 
+angelmarin54: raises 269 to 669 and is all-in
+Tibiking007: calls 669
+scorza23: folds 
+imthcplant: calls 269
+*** FLOP *** [5d 6d 5h]
+imthcplant: checks 
+Tibiking007: checks 
+*** TURN *** [5d 6d 5h] [Qc]
+imthcplant: checks 
+Tibiking007: checks 
+*** RIVER *** [5d 6d 5h Qc] [Kc]
+imthcplant: checks 
+Tibiking007: bets 1200
+imthcplant: calls 1200
+*** SHOW DOWN ***
+Tibiking007: shows [Ac Kd] (two pair, Kings and Fives)
+imthcplant: mucks hand 
+Tibiking007 collected 2400 from side pot
+angelmarin54: mucks hand 
+Tibiking007 collected 2557 from main pot
+angelmarin54 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 4957 Main pot 2557. Side pot 2400. | Rake 0 
+Board [5d 6d 5h Qc Kc]
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 3: angelmarin54 mucked [Jh Ah]
+Seat 4: Tibiking007 (button) showed [Ac Kd] and won (4957) with two pair, Kings and Fives
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: imthcplant (big blind) mucked [8c Qs]
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749952613: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:07:51 UTC [2026/02/16 11:07:51 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (3479 in chips) 
+Seat 2: popeye1951 (4765 in chips) 
+Seat 4: Tibiking007 (9066 in chips) 
+Seat 5: Rafaelsans (6318 in chips) 
+Seat 6: scorza23 (7336 in chips) 
+Seat 7: imthcplant (9027 in chips) 
+Seat 8: oven25 (8009 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+Rafaelsans: posts the ante 50
+scorza23: posts the ante 50
+imthcplant: posts the ante 50
+oven25: posts the ante 50
+imthcplant: posts small blind 200
+oven25: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 9h]
+RunItLikeSexton: folds 
+popeye1951: folds 
+Tibiking007: folds 
+Rafaelsans: raises 480 to 880
+scorza23: folds 
+imthcplant: folds 
+oven25: raises 2720 to 3600
+Rafaelsans: raises 2668 to 6268 and is all-in
+oven25: calls 2668
+*** FLOP *** [4s Qd 6s]
+*** TURN *** [4s Qd 6s] [6c]
+*** RIVER *** [4s Qd 6s 6c] [4c]
+*** SHOW DOWN ***
+oven25: shows [Kd Kh] (two pair, Kings and Sixes)
+Rafaelsans: shows [Js Qs] (two pair, Queens and Sixes)
+oven25 collected 13086 from pot
+Rafaelsans finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 13086 | Rake 0 
+Board [4s Qd 6s 6c 4c]
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 5: Rafaelsans showed [Js Qs] and lost with two pair, Queens and Sixes
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: imthcplant (small blind) folded before Flop
+Seat 8: oven25 (big blind) showed [Kd Kh] and won (13086) with two pair, Kings and Sixes
+
+
+
+PokerStars Hand #259749958935: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:08:27 UTC [2026/02/16 11:08:27 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 1: RunItLikeSexton (3429 in chips) 
+Seat 2: popeye1951 (4715 in chips) 
+Seat 4: Tibiking007 (9016 in chips) 
+Seat 6: scorza23 (7286 in chips) 
+Seat 7: imthcplant (8777 in chips) 
+Seat 8: oven25 (14777 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+imthcplant: posts the ante 50
+oven25: posts the ante 50
+oven25: posts small blind 200
+RunItLikeSexton: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 9d]
+popeye1951: folds 
+Tibiking007: folds 
+scorza23: folds 
+imthcplant: raises 496 to 896
+oven25: folds 
+RunItLikeSexton: calls 496
+*** FLOP *** [4c 7d 9h]
+RunItLikeSexton: checks 
+imthcplant: checks 
+*** TURN *** [4c 7d 9h] [Jd]
+RunItLikeSexton: checks 
+imthcplant: bets 711
+RunItLikeSexton: folds 
+Uncalled bet (711) returned to imthcplant
+imthcplant collected 2292 from pot
+imthcplant: doesn't show hand 
+*** SUMMARY ***
+Total pot 2292 | Rake 0 
+Board [4c 7d 9h Jd]
+Seat 1: RunItLikeSexton (big blind) folded on the Turn
+Seat 2: popeye1951 folded before Flop (didn't bet)
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: imthcplant (button) collected (2292)
+Seat 8: oven25 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749968436: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 16:09:20 UTC [2026/02/16 11:09:20 ET]
+Table '3975675382 3' 8-max Seat #8 is the button
+Seat 1: RunItLikeSexton (2483 in chips) 
+Seat 2: popeye1951 (4665 in chips) 
+Seat 4: Tibiking007 (8966 in chips) 
+Seat 6: scorza23 (7236 in chips) 
+Seat 7: imthcplant (10123 in chips) 
+Seat 8: oven25 (14527 in chips) 
+RunItLikeSexton: posts the ante 50
+popeye1951: posts the ante 50
+Tibiking007: posts the ante 50
+scorza23: posts the ante 50
+imthcplant: posts the ante 50
+oven25: posts the ante 50
+RunItLikeSexton: posts small blind 200
+popeye1951: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 8d]
+Tibiking007: folds 
+scorza23: raises 800 to 1200
+imthcplant: folds 
+oven25: folds 
+RunItLikeSexton: folds 
+popeye1951: calls 800
+*** FLOP *** [2h 3s 7h]
+popeye1951: bets 1200
+scorza23: raises 4786 to 5986 and is all-in
+popeye1951: calls 2215 and is all-in
+Uncalled bet (2571) returned to scorza23
+*** TURN *** [2h 3s 7h] [3h]
+*** RIVER *** [2h 3s 7h 3h] [8h]
+*** SHOW DOWN ***
+popeye1951: shows [9c 9d] (two pair, Nines and Threes)
+scorza23: shows [8s 8d] (a full house, Eights full of Threes)
+scorza23 collected 9730 from pot
+popeye1951 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 9730 | Rake 0 
+Board [2h 3s 7h 3h 8h]
+Seat 1: RunItLikeSexton (small blind) folded before Flop
+Seat 2: popeye1951 (big blind) showed [9c 9d] and lost with two pair, Nines and Threes
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 showed [8s 8d] and won (9730) with a full house, Eights full of Threes
+Seat 7: imthcplant folded before Flop (didn't bet)
+Seat 8: oven25 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749978089: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:10:14 UTC [2026/02/16 11:10:14 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (2233 in chips) 
+Seat 4: Tibiking007 (8916 in chips) 
+Seat 6: scorza23 (12301 in chips) 
+Seat 7: imthcplant (10073 in chips) 
+Seat 8: oven25 (14477 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+Tibiking007: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Jc]
+imthcplant: folds 
+oven25: raises 600 to 1200
+RunItLikeSexton: folds 
+Tibiking007: folds 
+scorza23: folds 
+Uncalled bet (600) returned to oven25
+oven25 collected 1875 from pot
+oven25: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: RunItLikeSexton (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: imthcplant folded before Flop (didn't bet)
+Seat 8: oven25 collected (1875)
+
+
+
+PokerStars Hand #259749980366: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:10:26 UTC [2026/02/16 11:10:26 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (2158 in chips) 
+Seat 4: Tibiking007 (8541 in chips) 
+Seat 6: scorza23 (11626 in chips) 
+Seat 7: imthcplant (9998 in chips) 
+Seat 8: oven25 (15677 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+scorza23: posts small blind 300
+imthcplant: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 9d]
+oven25: folds 
+RunItLikeSexton: folds 
+Tibiking007: folds 
+scorza23: folds 
+Uncalled bet (300) returned to imthcplant
+imthcplant collected 975 from pot
+imthcplant: doesn't show hand 
+*** SUMMARY ***
+Total pot 975 | Rake 0 
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: imthcplant (big blind) collected (975)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749981907: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:10:35 UTC [2026/02/16 11:10:35 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (2083 in chips) 
+Seat 4: Tibiking007 (8466 in chips) 
+Seat 6: scorza23 (11251 in chips) 
+Seat 7: imthcplant (10598 in chips) 
+Seat 8: oven25 (15602 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+imthcplant: posts small blind 300
+oven25: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 6h]
+RunItLikeSexton: folds 
+Tibiking007: raises 600 to 1200
+scorza23: folds 
+imthcplant: folds 
+oven25: calls 600
+*** FLOP *** [2h 4c 7c]
+oven25: checks 
+Tibiking007: bets 7191 and is all-in
+oven25: folds 
+Uncalled bet (7191) returned to Tibiking007
+Tibiking007 collected 3075 from pot
+Tibiking007: doesn't show hand 
+*** SUMMARY ***
+Total pot 3075 | Rake 0 
+Board [2h 4c 7c]
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 4: Tibiking007 collected (3075)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: imthcplant (small blind) folded before Flop
+Seat 8: oven25 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749988115: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:11:09 UTC [2026/02/16 11:11:09 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 1: RunItLikeSexton (2008 in chips) 
+Seat 4: Tibiking007 (10266 in chips) 
+Seat 6: scorza23 (11176 in chips) 
+Seat 7: imthcplant (10223 in chips) 
+Seat 8: oven25 (14327 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+oven25: posts small blind 300
+RunItLikeSexton: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 2d]
+Tibiking007: folds 
+scorza23: folds 
+imthcplant: folds 
+oven25: raises 10800 to 11400
+RunItLikeSexton: folds 
+Uncalled bet (10800) returned to oven25
+oven25 collected 1575 from pot
+oven25: doesn't show hand 
+*** SUMMARY ***
+Total pot 1575 | Rake 0 
+Seat 1: RunItLikeSexton (big blind) folded before Flop
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: imthcplant (button) folded before Flop (didn't bet)
+Seat 8: oven25 (small blind) collected (1575)
+
+
+
+PokerStars Hand #259749992077: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:11:31 UTC [2026/02/16 11:11:31 ET]
+Table '3975675382 3' 8-max Seat #8 is the button
+Seat 1: RunItLikeSexton (1333 in chips) 
+Seat 4: Tibiking007 (10191 in chips) 
+Seat 6: scorza23 (11101 in chips) 
+Seat 7: imthcplant (10148 in chips) 
+Seat 8: oven25 (15227 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+RunItLikeSexton: posts small blind 300
+Tibiking007: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 2h]
+scorza23: folds 
+imthcplant: raises 744 to 1344
+oven25: folds 
+RunItLikeSexton: folds 
+Tibiking007: calls 744
+*** FLOP *** [6h Ts 6c]
+Tibiking007: checks 
+imthcplant: bets 1043
+Tibiking007: folds 
+Uncalled bet (1043) returned to imthcplant
+imthcplant collected 3363 from pot
+imthcplant: doesn't show hand 
+*** SUMMARY ***
+Total pot 3363 | Rake 0 
+Board [6h Ts 6c]
+Seat 1: RunItLikeSexton (small blind) folded before Flop
+Seat 4: Tibiking007 (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: imthcplant collected (3363)
+Seat 8: oven25 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749997163: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:11:59 UTC [2026/02/16 11:11:59 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (958 in chips) 
+Seat 4: Tibiking007 (8772 in chips) 
+Seat 6: scorza23 (11026 in chips) 
+Seat 7: imthcplant (12092 in chips) 
+Seat 8: oven25 (15152 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+Tibiking007: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 5d]
+imthcplant: folds 
+oven25: folds 
+RunItLikeSexton: folds 
+Tibiking007: folds 
+Uncalled bet (300) returned to scorza23
+scorza23 collected 975 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 975 | Rake 0 
+Seat 1: RunItLikeSexton (button) folded before Flop (didn't bet)
+Seat 4: Tibiking007 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (975)
+Seat 7: imthcplant folded before Flop (didn't bet)
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749999231: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:12:10 UTC [2026/02/16 11:12:10 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 1: RunItLikeSexton (883 in chips) 
+Seat 4: Tibiking007 (8397 in chips) 
+Seat 6: scorza23 (11626 in chips) 
+Seat 7: imthcplant (12017 in chips) 
+Seat 8: oven25 (15077 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+scorza23: posts small blind 300
+imthcplant: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ks]
+oven25: folds 
+RunItLikeSexton: raises 208 to 808 and is all-in
+Tibiking007: folds 
+scorza23: folds 
+imthcplant: calls 208
+*** FLOP *** [6d Js Qc]
+*** TURN *** [6d Js Qc] [Ah]
+*** RIVER *** [6d Js Qc Ah] [6h]
+*** SHOW DOWN ***
+imthcplant: shows [8h 2d] (a pair of Sixes)
+RunItLikeSexton: shows [9d Td] (a pair of Sixes)
+imthcplant collected 1146 from pot
+RunItLikeSexton collected 1145 from pot
+*** SUMMARY ***
+Total pot 2291 | Rake 0 
+Board [6d Js Qc Ah 6h]
+Seat 1: RunItLikeSexton showed [9d Td] and won (1145) with a pair of Sixes
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: imthcplant (big blind) showed [8h 2d] and won (1146) with a pair of Sixes
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750003476: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:12:33 UTC [2026/02/16 11:12:33 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 1: RunItLikeSexton (1145 in chips) 
+Seat 4: Tibiking007 (8322 in chips) 
+Seat 6: scorza23 (11251 in chips) 
+Seat 7: imthcplant (12280 in chips) 
+Seat 8: oven25 (15002 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+imthcplant: posts small blind 300
+oven25: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 8d]
+RunItLikeSexton: folds 
+Tibiking007: folds 
+scorza23: raises 1200 to 1800
+imthcplant: folds 
+oven25: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 1875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: RunItLikeSexton folded before Flop (didn't bet)
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) collected (1875)
+Seat 7: imthcplant (small blind) folded before Flop
+Seat 8: oven25 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750007542: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:12:55 UTC [2026/02/16 11:12:55 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 1: RunItLikeSexton (1070 in chips) 
+Seat 4: Tibiking007 (8247 in chips) 
+Seat 6: scorza23 (12451 in chips) 
+Seat 7: imthcplant (11905 in chips) 
+Seat 8: oven25 (14327 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+oven25: posts small blind 300
+RunItLikeSexton: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7s]
+Tibiking007: folds 
+scorza23: folds 
+imthcplant: folds 
+oven25: raises 600 to 1200
+RunItLikeSexton: folds 
+Uncalled bet (600) returned to oven25
+oven25 collected 1575 from pot
+oven25: doesn't show hand 
+*** SUMMARY ***
+Total pot 1575 | Rake 0 
+Seat 1: RunItLikeSexton (big blind) folded before Flop
+Seat 4: Tibiking007 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: imthcplant (button) folded before Flop (didn't bet)
+Seat 8: oven25 (small blind) collected (1575)
+
+
+
+PokerStars Hand #259750010506: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:13:11 UTC [2026/02/16 11:13:11 ET]
+Table '3975675382 3' 8-max Seat #8 is the button
+Seat 1: RunItLikeSexton (395 in chips) 
+Seat 4: Tibiking007 (8172 in chips) 
+Seat 6: scorza23 (12376 in chips) 
+Seat 7: imthcplant (11830 in chips) 
+Seat 8: oven25 (15227 in chips) 
+RunItLikeSexton: posts the ante 75
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+RunItLikeSexton: posts small blind 300
+Tibiking007: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qh]
+scorza23: folds 
+imthcplant: folds 
+oven25: raises 600 to 1200
+RunItLikeSexton: folds 
+Tibiking007: folds 
+Uncalled bet (600) returned to oven25
+oven25 collected 1875 from pot
+oven25: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: RunItLikeSexton (small blind) folded before Flop
+Seat 4: Tibiking007 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: imthcplant folded before Flop (didn't bet)
+Seat 8: oven25 (button) collected (1875)
+
+
+
+PokerStars Hand #259750013786: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:13:28 UTC [2026/02/16 11:13:28 ET]
+Table '3975675382 3' 8-max Seat #1 is the button
+Seat 1: RunItLikeSexton (20 in chips) 
+Seat 4: Tibiking007 (7497 in chips) 
+Seat 6: scorza23 (12301 in chips) 
+Seat 7: imthcplant (11755 in chips) 
+Seat 8: oven25 (16427 in chips) 
+RunItLikeSexton: posts the ante 20 and is all-in
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+Tibiking007: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 8s]
+imthcplant: folds 
+oven25: raises 600 to 1200
+Tibiking007: folds 
+scorza23: calls 600
+*** FLOP *** [6s 5d 4c]
+scorza23: checks 
+oven25: checks 
+*** TURN *** [6s 5d 4c] [8d]
+scorza23: bets 1510
+oven25: folds 
+Uncalled bet (1510) returned to scorza23
+*** RIVER *** [6s 5d 4c 8d] [3s]
+*** SHOW DOWN ***
+scorza23: shows [Js 8s] (a pair of Eights)
+scorza23 collected 2920 from side pot
+RunItLikeSexton: shows [6d Ad] (a pair of Sixes)
+scorza23 collected 100 from main pot
+RunItLikeSexton finished the tournament in 5th place and received $1.03.
+*** SUMMARY ***
+Total pot 3020 Main pot 100. Side pot 2920. | Rake 0 
+Board [6s 5d 4c 8d 3s]
+Seat 1: RunItLikeSexton (button) showed [6d Ad] and lost with a pair of Sixes
+Seat 4: Tibiking007 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) showed [Js 8s] and won (3020) with a pair of Eights
+Seat 7: imthcplant folded before Flop (didn't bet)
+Seat 8: oven25 folded on the Turn
+
+
+
+PokerStars Hand #259750018828: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:13:55 UTC [2026/02/16 11:13:55 ET]
+Table '3975675382 3' 8-max Seat #4 is the button
+Seat 4: Tibiking007 (7122 in chips) 
+Seat 6: scorza23 (14046 in chips) 
+Seat 7: imthcplant (11680 in chips) 
+Seat 8: oven25 (15152 in chips) 
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+scorza23: posts small blind 300
+imthcplant: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Js]
+oven25: folds 
+Tibiking007: folds 
+scorza23: raises 1200 to 1800
+imthcplant: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 1500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1500 | Rake 0 
+Seat 4: Tibiking007 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (1500)
+Seat 7: imthcplant (big blind) folded before Flop
+Seat 8: oven25 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750022681: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level X (300/600) - 2026/02/16 16:14:16 UTC [2026/02/16 11:14:16 ET]
+Table '3975675382 3' 8-max Seat #6 is the button
+Seat 4: Tibiking007 (7047 in chips) 
+Seat 6: scorza23 (14871 in chips) 
+Seat 7: imthcplant (11005 in chips) 
+Seat 8: oven25 (15077 in chips) 
+Tibiking007: posts the ante 75
+scorza23: posts the ante 75
+imthcplant: posts the ante 75
+oven25: posts the ante 75
+imthcplant: posts small blind 300
+oven25: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jc]
+Tibiking007: raises 6372 to 6972 and is all-in
+scorza23: folds 
+imthcplant: folds 
+oven25: calls 6372
+*** FLOP *** [8d 3d 8c]
+*** TURN *** [8d 3d 8c] [Ac]
+*** RIVER *** [8d 3d 8c Ac] [Td]
+*** SHOW DOWN ***
+oven25: shows [Ad Ah] (a full house, Aces full of Eights)
+Tibiking007: shows [Tc Kc] (two pair, Tens and Eights)
+oven25 collected 14544 from pot
+Tibiking007 finished the tournament in 4th place and received $1.58.
+*** SUMMARY ***
+Total pot 14544 | Rake 0 
+Board [8d 3d 8c Ac Td]
+Seat 4: Tibiking007 showed [Tc Kc] and lost with two pair, Tens and Eights
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: imthcplant (small blind) folded before Flop
+Seat 8: oven25 (big blind) showed [Ad Ah] and won (14544) with a full house, Aces full of Eights
+
+
+
+PokerStars Hand #259750027255: Tournament #3975675382, $0.45+$0.05 USD Hold'em No Limit - Level XI (400/800) - 2026/02/16 16:14:41 UTC [2026/02/16 11:14:41 ET]
+Table '3975675382 3' 8-max Seat #7 is the button
+Seat 6: scorza23 (14796 in chips) 
+Seat 7: imthcplant (10630 in chips) 
+Seat 8: oven25 (22574 in chips) 
+scorza23: posts the ante 100
+imthcplant: posts the ante 100
+oven25: posts the ante 100
+oven25: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Jd]
+imthcplant: folds 
+oven25: raises 1600 to 2400
+scorza23: raises 12296 to 14696 and is all-in
+oven25: calls 12296
+*** FLOP *** [4h 9h 6c]
+*** TURN *** [4h 9h 6c] [Js]
+*** RIVER *** [4h 9h 6c Js] [Kh]
+*** SHOW DOWN ***
+oven25: shows [Kd Ac] (a pair of Kings)
+scorza23: shows [Qh Jd] (a pair of Jacks)
+oven25 collected 29692 from pot
+scorza23 finished the tournament in 3rd place and received $2.42.
+*** SUMMARY ***
+Total pot 29692 | Rake 0 
+Board [4h 9h 6c Js Kh]
+Seat 6: scorza23 (big blind) showed [Qh Jd] and lost with a pair of Jacks
+Seat 7: imthcplant (button) folded before Flop (didn't bet)
+Seat 8: oven25 (small blind) showed [Kd Ac] and won (29692) with a pair of Kings
+
+
+

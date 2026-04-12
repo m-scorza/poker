@@ -1,0 +1,487 @@
+import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
+import { assignPositions } from './position';
+
+export interface ParsedHand {
+  hand: Hand;
+  players: PlayerInHand[];
+  actions: Action[];
+  tournament: Partial<Tournament>;
+  /** Map of playerName → total chips collected from pot(s). */
+  collectedAmounts: Map<string, number>;
+}
+
+type Street = 'preflop' | 'flop' | 'turn' | 'river';
+
+// --- Regex patterns from CLAUDE.md ---
+const RE_HAND_ID = /Hand #(\d+)/;
+const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
+const RE_BUYIN = /\$(\d+(?:\.\d+)?)\+\$(\d+(?:\.\d+)?)(?:\+\$(\d+(?:\.\d+)?))?/;
+const RE_LEVEL_BLINDS = /Level [IVXLCDM]+ \((\d+)\/(\d+)\)/;
+const RE_CASH_BLINDS = /\(\$(\d+(?:\.\d+)?)\/\$(\d+(?:\.\d+)?)/;
+const RE_DATE = /(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2})\s+\w+/;
+const RE_TABLE_FORMAT = /(\d+)-max/;
+const RE_BUTTON_SEAT = /Seat #(\d+) is the button/;
+const RE_SEAT = /Seat (\d+): (.+?) \(\$?([\d,]+(?:\.\d+)?) in chips/;
+const RE_SITTING_OUT = /is sitting out/;
+const RE_ANTE = /^(.+?): posts the ante \$?([\d.]+)/;
+const RE_SMALL_BLIND = /^(.+?): posts small blind \$?([\d.]+)/;
+const RE_BIG_BLIND = /^(.+?): posts big blind \$?([\d.]+)/;
+const RE_FLOP = /\*\*\* FLOP \*\*\* \[([^\]]+)\]/;
+const RE_TURN = /\*\*\* TURN \*\*\* \[[^\]]+\] \[([^\]]+)\]/;
+const RE_RIVER = /\*\*\* RIVER \*\*\* \[[^\]]+\] \[([^\]]+)\]/;
+const RE_TOTAL_POT = /Total pot \$?([\d.]+)/;
+const RE_RAKE = /Rake \$?([\d.]+)/;
+const RE_SHOWED = /Seat \d+: (.+?) (?:\(.+?\) )?showed \[([^\]]+)\]/;
+const RE_FINISH = /finished the tournament in (\d+)\w+ place/;
+const RE_PRIZE = /received \$([0-9.]+)/;
+const RE_COLLECTED = /^(.+?)(?:\:)? collected \$?([\d.,]+) from/;
+
+// Action patterns
+const RE_FOLDS = /^(.+?): folds/;
+const RE_CHECKS = /^(.+?): checks/;
+const RE_CALLS = /^(.+?): calls \$?([\d.]+)/;
+const RE_RAISES = /^(.+?): raises \$?([\d.]+) to \$?([\d.]+)/;
+const RE_BETS = /^(.+?): bets \$?([\d.]+)/;
+const RE_ALL_IN = /and is all-in/;
+
+/**
+ * Parse a PokerStars hand history file into structured data.
+ * Handles BOM encoding (Bug #6) and deduplicates by hand ID (Bug #5).
+ */
+export function parsePokerStarsFile(
+  fileContent: string,
+  heroName: string = 'scorza23',
+): ParsedHand[] {
+  // Bug #6: Strip UTF-8 BOM + normalize line endings (CRLF → LF)
+  const content = fileContent
+    .replace(/^\uFEFF/, '')
+    .replace(/\r\n/g, '\n')
+    .replace(/\r/g, '\n');
+
+  // Split into hand blocks (separated by 2+ blank lines)
+  const blocks = content.split(/\n{2,}/).filter((b) => b.trim().length > 0);
+
+  const results: ParsedHand[] = [];
+  const seenIds = new Set<string>();
+
+  for (const block of blocks) {
+    try {
+      const parsed = parseHandBlock(block, heroName);
+      if (!parsed) continue;
+
+      // Bug #5: Deduplicate by hand ID
+      if (seenIds.has(parsed.hand.id)) continue;
+      seenIds.add(parsed.hand.id);
+
+      results.push(parsed);
+    } catch {
+      // Graceful degradation: skip unparseable hands, don't crash the file
+      continue;
+    }
+  }
+
+  return results;
+}
+
+function parseHandBlock(block: string, heroName: string): ParsedHand | null {
+  const lines = block.split('\n').map((l) => l.trim());
+
+  // --- Header line ---
+  const headerLine = lines[0];
+  if (!headerLine) return null;
+
+  const handIdMatch = RE_HAND_ID.exec(headerLine);
+  if (!handIdMatch) return null;
+  const handId = handIdMatch[1]!;
+
+  const tournamentIdMatch = RE_TOURNAMENT_ID.exec(headerLine);
+  const tournamentId = tournamentIdMatch?.[1] ?? '';
+
+  const buyinMatch = RE_BUYIN.exec(headerLine);
+  const buyIn = buyinMatch ? parseFloat(buyinMatch[1]!) : 0;
+  const fee = buyinMatch ? parseFloat(buyinMatch[2]!) : 0;
+
+  const blindsMatch = RE_LEVEL_BLINDS.exec(headerLine);
+  const cashBlindsMatch = !blindsMatch ? RE_CASH_BLINDS.exec(headerLine) : null;
+  const smallBlind = blindsMatch ? parseInt(blindsMatch[1]!, 10)
+    : cashBlindsMatch ? parseFloat(cashBlindsMatch[1]!) : 0;
+  const bigBlind = blindsMatch ? parseInt(blindsMatch[2]!, 10)
+    : cashBlindsMatch ? parseFloat(cashBlindsMatch[2]!) : 0;
+
+  // Extract level number from roman numerals position (use index as approximation)
+  const levelMatch = /Level ([IVXLCDM]+)/.exec(headerLine);
+  const level = levelMatch ? romanToInt(levelMatch[1]!) : 0;
+
+  const dateMatch = RE_DATE.exec(headerLine);
+  if (!dateMatch) return null; // Bug #6: Require valid date
+  const date = new Date(dateMatch[1]! + ' UTC');
+
+  // --- Table line ---
+  const tableLine = lines[1];
+  if (!tableLine) return null;
+
+  const formatMatch = RE_TABLE_FORMAT.exec(tableLine);
+  const maxSeats = formatMatch ? parseInt(formatMatch[1]!, 10) : 9;
+
+  const buttonMatch = RE_BUTTON_SEAT.exec(tableLine);
+  if (!buttonMatch) return null;
+  const buttonSeat = parseInt(buttonMatch[1]!, 10);
+
+  // --- Seat lines ---
+  const seats: { seatNumber: number; playerName: string; chips: number }[] = [];
+  for (const line of lines) {
+    // Skip players marked as sitting out
+    if (RE_SITTING_OUT.test(line)) continue;
+    const seatMatch = RE_SEAT.exec(line);
+    if (seatMatch) {
+      seats.push({
+        seatNumber: parseInt(seatMatch[1]!, 10),
+        playerName: seatMatch[2]!,
+        chips: parseFloat(seatMatch[3]!.replace(/,/g, '')),
+      });
+    }
+  }
+
+  if (seats.length === 0) return null;
+  // Skip single-player hands (tournament end — no action possible)
+  if (seats.length === 1) return null;
+
+  // Assign positions (Bug #3 & #4 handled inside assignPositions)
+  const positionMap = assignPositions(
+    seats.map((s) => ({ seatNumber: s.seatNumber, playerName: s.playerName })),
+    buttonSeat,
+  );
+
+  // --- Parse actions ---
+  const actions: Action[] = [];
+  let currentStreet: Street = 'preflop';
+  let sequence = 0;
+  let ante = 0;
+  let boardFlop: string[] | null = null;
+  let boardTurn: string | null = null;
+  let boardRiver: string | null = null;
+  let heroCards: [string, string] | null = null;
+
+  // Track shown cards per player
+  const shownCards = new Map<string, [string, string]>();
+
+  // Hero cards pattern
+  const reHeroCards = new RegExp(
+    `Dealt to ${escapeRegex(heroName)} \\[([^\\]]+)\\]`,
+  );
+
+  for (const line of lines) {
+    // Street markers
+    if (line.startsWith('*** FLOP ***')) {
+      currentStreet = 'flop';
+      const flopMatch = RE_FLOP.exec(line);
+      if (flopMatch) {
+        boardFlop = flopMatch[1]!.split(' ').map((c) => c.trim());
+      }
+      continue;
+    }
+    if (line.startsWith('*** TURN ***')) {
+      currentStreet = 'turn';
+      const turnMatch = RE_TURN.exec(line);
+      if (turnMatch) {
+        boardTurn = turnMatch[1]!.trim();
+      }
+      continue;
+    }
+    if (line.startsWith('*** RIVER ***')) {
+      currentStreet = 'river';
+      const riverMatch = RE_RIVER.exec(line);
+      if (riverMatch) {
+        boardRiver = riverMatch[1]!.trim();
+      }
+      continue;
+    }
+    if (line.startsWith('*** SHOW DOWN ***') || line.startsWith('*** SUMMARY ***')) {
+      break; // Stop parsing actions
+    }
+
+    // Hero cards
+    const heroMatch = reHeroCards.exec(line);
+    if (heroMatch) {
+      const cards = heroMatch[1]!.split(' ').map((c) => c.trim());
+      if (cards.length >= 2) {
+        heroCards = [cards[0]!, cards[1]!];
+      }
+      continue;
+    }
+
+    // Forced bets
+    const anteMatch = RE_ANTE.exec(line);
+    if (anteMatch) {
+      ante = parseFloat(anteMatch[2]!);
+      actions.push({
+        handId,
+        street: 'preflop',
+        playerName: anteMatch[1]!,
+        actionType: 'post_ante',
+        amount: ante,
+        isAllIn: false,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    const sbMatch = RE_SMALL_BLIND.exec(line);
+    if (sbMatch) {
+      actions.push({
+        handId,
+        street: 'preflop',
+        playerName: sbMatch[1]!,
+        actionType: 'post_sb',
+        amount: parseFloat(sbMatch[2]!),
+        isAllIn: false,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    const bbMatch = RE_BIG_BLIND.exec(line);
+    if (bbMatch) {
+      actions.push({
+        handId,
+        street: 'preflop',
+        playerName: bbMatch[1]!,
+        actionType: 'post_bb',
+        amount: parseFloat(bbMatch[2]!),
+        isAllIn: false,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    // Voluntary actions
+    const isAllIn = RE_ALL_IN.test(line);
+
+    const foldMatch = RE_FOLDS.exec(line);
+    if (foldMatch) {
+      actions.push({
+        handId,
+        street: currentStreet,
+        playerName: foldMatch[1]!,
+        actionType: 'fold',
+        amount: null,
+        isAllIn: false,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    const checkMatch = RE_CHECKS.exec(line);
+    if (checkMatch) {
+      actions.push({
+        handId,
+        street: currentStreet,
+        playerName: checkMatch[1]!,
+        actionType: 'check',
+        amount: null,
+        isAllIn: false,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    const callMatch = RE_CALLS.exec(line);
+    if (callMatch) {
+      actions.push({
+        handId,
+        street: currentStreet,
+        playerName: callMatch[1]!,
+        actionType: 'call',
+        amount: parseFloat(callMatch[2]!),
+        isAllIn,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    const raiseMatch = RE_RAISES.exec(line);
+    if (raiseMatch) {
+      actions.push({
+        handId,
+        street: currentStreet,
+        playerName: raiseMatch[1]!,
+        actionType: 'raise',
+        amount: parseFloat(raiseMatch[3]!), // Store "to" amount
+        isAllIn,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    const betMatch = RE_BETS.exec(line);
+    if (betMatch) {
+      actions.push({
+        handId,
+        street: currentStreet,
+        playerName: betMatch[1]!,
+        actionType: 'bet',
+        amount: parseFloat(betMatch[2]!),
+        isAllIn,
+        sequence: sequence++,
+      });
+      continue;
+    }
+  }
+
+  // Parse showdown cards from SUMMARY section
+  for (const line of lines) {
+    const showMatch = RE_SHOWED.exec(line);
+    if (showMatch) {
+      const playerName = showMatch[1]!.trim();
+      const cards = showMatch[2]!.split(' ').map((c) => c.trim());
+      if (cards.length >= 2) {
+        shownCards.set(playerName, [cards[0]!, cards[1]!]);
+      }
+    }
+  }
+
+  // Parse collected amounts (for wonAmount tracking)
+  const collectedAmounts = new Map<string, number>();
+  const RE_WON_SUMMARY = /Seat \d+: (.+?) .*?won \(?\$?([\d.,]+)\)?/;
+  for (const line of lines) {
+    const collectedMatch = RE_COLLECTED.exec(line);
+    if (collectedMatch) {
+      const name = collectedMatch[1]!.trim();
+      const amountStr = collectedMatch[2]!.replace(/,/g, '');
+      const amount = parseFloat(amountStr);
+      if (!isNaN(amount)) {
+        collectedAmounts.set(name, (collectedAmounts.get(name) ?? 0) + amount);
+      }
+      continue;
+    }
+    const wonMatch = RE_WON_SUMMARY.exec(line);
+    if (wonMatch) {
+      const name = wonMatch[1]!.trim();
+      const amountStr = wonMatch[2]!.replace(/,/g, '');
+      const amount = parseFloat(amountStr);
+      if (!isNaN(amount)) {
+        collectedAmounts.set(name, (collectedAmounts.get(name) ?? 0) + amount);
+      }
+    }
+  }
+
+  // Parse total pot and rake from summary
+  let totalPot = 0;
+  let rake = 0;
+  for (const line of lines) {
+    const potMatch = RE_TOTAL_POT.exec(line);
+    if (potMatch) {
+      totalPot = parseFloat(potMatch[1]!);
+      const rakeMatch = RE_RAKE.exec(line);
+      if (rakeMatch) {
+        rake = parseFloat(rakeMatch[1]!);
+      }
+      break;
+    }
+  }
+
+  // Tournament finish position
+  let finishPosition: number | null = null;
+  let prize: number | null = null;
+  for (const line of lines) {
+    const finishMatch = RE_FINISH.exec(line);
+    if (finishMatch) {
+      finishPosition = parseInt(finishMatch[1]!, 10);
+    }
+    const prizeMatch = RE_PRIZE.exec(line);
+    if (prizeMatch) {
+      prize = parseFloat(prizeMatch[1]!);
+    }
+  }
+
+  // Build Hand object
+  const hand: Hand = {
+    id: handId,
+    tournamentId,
+    date,
+    level,
+    smallBlind,
+    bigBlind,
+    ante,
+    maxSeats,
+    activePlayers: seats.length,
+    buttonSeat,
+    boardFlop,
+    boardTurn,
+    boardRiver,
+    totalPot,
+    rake,
+  };
+
+  // Build PlayerInHand array
+  const players: PlayerInHand[] = seats.map((seat) => {
+    const position = positionMap.get(seat.seatNumber)!;
+    const isHero = seat.playerName === heroName;
+    let holeCards: [string, string] | null = null;
+
+    if (isHero && heroCards) {
+      holeCards = normalizeHoleCards(heroCards);
+    } else if (shownCards.has(seat.playerName)) {
+      holeCards = normalizeHoleCards(shownCards.get(seat.playerName)!);
+    }
+
+    return {
+      handId,
+      seatNumber: seat.seatNumber,
+      playerName: seat.playerName,
+      chipsBefore: seat.chips,
+      position,
+      isHero,
+      holeCards,
+    };
+  });
+
+  // Build tournament partial
+  const tournament: Partial<Tournament> = {
+    id: tournamentId,
+    buyIn,
+    fee,
+    format: `${maxSeats}-max`,
+    finishPosition,
+    prize,
+  };
+
+  return { hand, players, actions, tournament, collectedAmounts };
+}
+
+/** Convert Roman numeral string to integer. */
+function romanToInt(roman: string): number {
+  const map: Record<string, number> = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
+  let result = 0;
+  for (let i = 0; i < roman.length; i++) {
+    const current = map[roman[i]!] ?? 0;
+    const next = map[roman[i + 1]!] ?? 0;
+    if (current < next) {
+      result -= current;
+    } else {
+      result += current;
+    }
+  }
+  return result;
+}
+
+/** Escape special regex characters in a string. */
+function escapeRegex(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/** Normalize hole cards to have highest rank first (Bug #3) */
+function normalizeHoleCards(cards: [string, string]): [string, string] {
+  const rankOrder: Record<string, number> = { 'A': 14, 'K': 13, 'Q': 12, 'J': 11, 'T': 10, '9': 9, '8': 8, '7': 7, '6': 6, '5': 5, '4': 4, '3': 3, '2': 2 };
+  const r1 = rankOrder[cards[0]![0]!] ?? 0;
+  const r2 = rankOrder[cards[1]![0]!] ?? 0;
+  return r1 >= r2 ? [cards[0]!, cards[1]!] : [cards[1]!, cards[0]!];
+}

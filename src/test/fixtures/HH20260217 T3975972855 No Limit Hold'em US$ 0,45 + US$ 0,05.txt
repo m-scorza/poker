@@ -1,0 +1,806 @@
+﻿PokerStars Hand #259763109152: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:24:37 UTC [2026/02/17 10:24:37 ET]
+Table '3975972855 3' 8-max Seat #1 is the button
+Seat 1: marboro men222 (1215 in chips) 
+Seat 2: oven25 (1505 in chips) 
+Seat 4: Milbak703 (1588 in chips) 
+Seat 5: mareloquetesoca (1501 in chips) 
+Seat 6: baddmax (2851 in chips) 
+Seat 7: Juniorplim (2059 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+marboro men222: posts the ante 4
+oven25: posts the ante 4
+Milbak703: posts the ante 4
+mareloquetesoca: posts the ante 4
+baddmax: posts the ante 4
+Juniorplim: posts the ante 4
+scorza23: posts the ante 4
+oven25: posts small blind 15
+Milbak703: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Jc]
+mareloquetesoca: folds 
+baddmax: raises 103 to 133
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: folds 
+oven25: folds 
+Milbak703: folds 
+Uncalled bet (103) returned to baddmax
+baddmax collected 103 from pot
+baddmax: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: marboro men222 (button) folded before Flop (didn't bet)
+Seat 2: oven25 (small blind) folded before Flop
+Seat 4: Milbak703 (big blind) folded before Flop
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax collected (103)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763111949: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:24:53 UTC [2026/02/17 10:24:53 ET]
+Table '3975972855 3' 8-max Seat #2 is the button
+Seat 1: marboro men222 (1211 in chips) 
+Seat 2: oven25 (1486 in chips) 
+Seat 4: Milbak703 (1554 in chips) 
+Seat 5: mareloquetesoca (1497 in chips) 
+Seat 6: baddmax (2920 in chips) 
+Seat 7: Juniorplim (2055 in chips) 
+Seat 8: scorza23 (1496 in chips) 
+marboro men222: posts the ante 4
+oven25: posts the ante 4
+Milbak703: posts the ante 4
+mareloquetesoca: posts the ante 4
+baddmax: posts the ante 4
+Juniorplim: posts the ante 4
+scorza23: posts the ante 4
+Milbak703: posts small blind 15
+mareloquetesoca: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 2d]
+baddmax: raises 103 to 133
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: folds 
+oven25: folds 
+Milbak703: folds 
+mareloquetesoca: folds 
+Uncalled bet (103) returned to baddmax
+baddmax collected 103 from pot
+baddmax: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: marboro men222 folded before Flop (didn't bet)
+Seat 2: oven25 (button) folded before Flop (didn't bet)
+Seat 4: Milbak703 (small blind) folded before Flop
+Seat 5: mareloquetesoca (big blind) folded before Flop
+Seat 6: baddmax collected (103)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763114039: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:25:06 UTC [2026/02/17 10:25:06 ET]
+Table '3975972855 3' 8-max Seat #4 is the button
+Seat 1: marboro men222 (1207 in chips) 
+Seat 2: oven25 (1482 in chips) 
+Seat 4: Milbak703 (1535 in chips) 
+Seat 5: mareloquetesoca (1463 in chips) 
+Seat 6: baddmax (2989 in chips) 
+Seat 7: Juniorplim (2051 in chips) 
+Seat 8: scorza23 (1492 in chips) 
+marboro men222: posts the ante 4
+oven25: posts the ante 4
+Milbak703: posts the ante 4
+mareloquetesoca: posts the ante 4
+baddmax: posts the ante 4
+Juniorplim: posts the ante 4
+scorza23: posts the ante 4
+mareloquetesoca: posts small blind 15
+baddmax: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 2c]
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: calls 30
+oven25: raises 90 to 120
+Milbak703: folds 
+mareloquetesoca: folds 
+baddmax: folds 
+marboro men222: calls 90
+*** FLOP *** [7d 7c 5h]
+marboro men222: checks 
+oven25: bets 103
+marboro men222: folds 
+Uncalled bet (103) returned to oven25
+oven25 collected 313 from pot
+oven25: doesn't show hand 
+*** SUMMARY ***
+Total pot 313 | Rake 0 
+Board [7d 7c 5h]
+Seat 1: marboro men222 folded on the Flop
+Seat 2: oven25 collected (313)
+Seat 4: Milbak703 (button) folded before Flop (didn't bet)
+Seat 5: mareloquetesoca (small blind) folded before Flop
+Seat 6: baddmax (big blind) folded before Flop
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763121917: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:25:53 UTC [2026/02/17 10:25:53 ET]
+Table '3975972855 3' 8-max Seat #5 is the button
+Seat 1: marboro men222 (1083 in chips) 
+Seat 2: oven25 (1671 in chips) 
+Seat 4: Milbak703 (1531 in chips) 
+Seat 5: mareloquetesoca (1444 in chips) 
+Seat 6: baddmax (2955 in chips) 
+Seat 7: Juniorplim (2047 in chips) 
+Seat 8: scorza23 (1488 in chips) 
+marboro men222: posts the ante 4
+oven25: posts the ante 4
+Milbak703: posts the ante 4
+mareloquetesoca: posts the ante 4
+baddmax: posts the ante 4
+Juniorplim: posts the ante 4
+scorza23: posts the ante 4
+baddmax: posts small blind 15
+Juniorplim: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Ah]
+scorza23: raises 60 to 90
+marboro men222: calls 90
+oven25: folds 
+Milbak703: folds 
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: calls 60
+*** FLOP *** [7c 7d Ad]
+Juniorplim: checks 
+scorza23: bets 313
+marboro men222: folds 
+Juniorplim: calls 313
+*** TURN *** [7c 7d Ad] [Jh]
+Juniorplim: checks 
+scorza23: checks 
+*** RIVER *** [7c 7d Ad Jh] [7s]
+Juniorplim: checks 
+scorza23: bets 1081 and is all-in
+Juniorplim: calls 1081
+*** SHOW DOWN ***
+scorza23: shows [Kh Ah] (a full house, Sevens full of Aces)
+Juniorplim: shows [As Qh] (a full house, Sevens full of Aces)
+Juniorplim collected 1551 from pot
+scorza23 collected 1550 from pot
+*** SUMMARY ***
+Total pot 3101 | Rake 0 
+Board [7c 7d Ad Jh 7s]
+Seat 1: marboro men222 folded on the Flop
+Seat 2: oven25 folded before Flop (didn't bet)
+Seat 4: Milbak703 folded before Flop (didn't bet)
+Seat 5: mareloquetesoca (button) folded before Flop (didn't bet)
+Seat 6: baddmax (small blind) folded before Flop
+Seat 7: Juniorplim (big blind) showed [As Qh] and won (1551) with a full house, Sevens full of Aces
+Seat 8: scorza23 showed [Kh Ah] and won (1550) with a full house, Sevens full of Aces
+
+
+
+PokerStars Hand #259763132072: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:26:54 UTC [2026/02/17 10:26:54 ET]
+Table '3975972855 3' 8-max Seat #6 is the button
+Seat 1: marboro men222 (989 in chips) 
+Seat 2: oven25 (1667 in chips) 
+Seat 4: Milbak703 (1527 in chips) 
+Seat 5: mareloquetesoca (1440 in chips) 
+Seat 6: baddmax (2936 in chips) 
+Seat 7: Juniorplim (2110 in chips) 
+Seat 8: scorza23 (1550 in chips) 
+marboro men222: posts the ante 4
+oven25: posts the ante 4
+Milbak703: posts the ante 4
+mareloquetesoca: posts the ante 4
+baddmax: posts the ante 4
+Juniorplim: posts the ante 4
+scorza23: posts the ante 4
+Juniorplim: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h As]
+marboro men222: folds 
+oven25: folds 
+Milbak703: raises 45 to 75
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: folds 
+scorza23: folds 
+Uncalled bet (45) returned to Milbak703
+Milbak703 collected 103 from pot
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: marboro men222 folded before Flop (didn't bet)
+Seat 2: oven25 folded before Flop (didn't bet)
+Seat 4: Milbak703 collected (103)
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax (button) folded before Flop (didn't bet)
+Seat 7: Juniorplim (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763139206: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:27:36 UTC [2026/02/17 10:27:36 ET]
+Table '3975972855 3' 8-max Seat #7 is the button
+Seat 1: marboro men222 (985 in chips) 
+Seat 2: oven25 (1663 in chips) 
+Seat 4: Milbak703 (1596 in chips) 
+Seat 5: mareloquetesoca (1436 in chips) 
+Seat 6: baddmax (2932 in chips) 
+Seat 7: Juniorplim (2091 in chips) 
+Seat 8: scorza23 (1516 in chips) 
+marboro men222: posts the ante 4
+oven25: posts the ante 4
+Milbak703: posts the ante 4
+mareloquetesoca: posts the ante 4
+baddmax: posts the ante 4
+Juniorplim: posts the ante 4
+scorza23: posts the ante 4
+scorza23: posts small blind 15
+marboro men222: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 2c]
+oven25: folds 
+Milbak703: folds 
+mareloquetesoca: folds 
+baddmax: raises 103 to 133
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: folds 
+Uncalled bet (103) returned to baddmax
+baddmax collected 103 from pot
+baddmax: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: marboro men222 (big blind) folded before Flop
+Seat 2: oven25 folded before Flop (didn't bet)
+Seat 4: Milbak703 folded before Flop (didn't bet)
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax collected (103)
+Seat 7: Juniorplim (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763142394: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 15:27:55 UTC [2026/02/17 10:27:55 ET]
+Table '3975972855 3' 8-max Seat #8 is the button
+Seat 1: marboro men222 (951 in chips) 
+Seat 2: oven25 (1659 in chips) 
+Seat 4: Milbak703 (1592 in chips) 
+Seat 5: mareloquetesoca (1432 in chips) 
+Seat 6: baddmax (3001 in chips) 
+Seat 7: Juniorplim (2087 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+marboro men222: posts the ante 4
+oven25: posts the ante 4
+Milbak703: posts the ante 4
+mareloquetesoca: posts the ante 4
+baddmax: posts the ante 4
+Juniorplim: posts the ante 4
+scorza23: posts the ante 4
+marboro men222: posts small blind 15
+oven25: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jh]
+Milbak703: folds 
+mareloquetesoca: folds 
+baddmax: raises 103 to 133
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: raises 814 to 947 and is all-in
+oven25: folds 
+baddmax: folds 
+Uncalled bet (814) returned to marboro men222
+marboro men222 collected 324 from pot
+marboro men222: doesn't show hand 
+*** SUMMARY ***
+Total pot 324 | Rake 0 
+Seat 1: marboro men222 (small blind) collected (324)
+Seat 2: oven25 (big blind) folded before Flop
+Seat 4: Milbak703 folded before Flop (didn't bet)
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax folded before Flop
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763146695: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:28:21 UTC [2026/02/17 10:28:21 ET]
+Table '3975972855 3' 8-max Seat #1 is the button
+Seat 1: marboro men222 (1138 in chips) 
+Seat 2: oven25 (1625 in chips) 
+Seat 4: Milbak703 (1588 in chips) 
+Seat 5: mareloquetesoca (1428 in chips) 
+Seat 6: baddmax (2864 in chips) 
+Seat 7: Juniorplim (2083 in chips) 
+Seat 8: scorza23 (1493 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+oven25: posts small blind 25
+Milbak703: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 9h]
+mareloquetesoca: raises 50 to 100
+baddmax: folds 
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: folds 
+oven25: folds 
+Milbak703: calls 50
+*** FLOP *** [2c 5h Kh]
+Milbak703: checks 
+mareloquetesoca: bets 267
+Milbak703: folds 
+Uncalled bet (267) returned to mareloquetesoca
+mareloquetesoca collected 267 from pot
+mareloquetesoca: doesn't show hand 
+*** SUMMARY ***
+Total pot 267 | Rake 0 
+Board [2c 5h Kh]
+Seat 1: marboro men222 (button) folded before Flop (didn't bet)
+Seat 2: oven25 (small blind) folded before Flop
+Seat 4: Milbak703 (big blind) folded on the Flop
+Seat 5: mareloquetesoca collected (267)
+Seat 6: baddmax folded before Flop (didn't bet)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763150389: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:28:43 UTC [2026/02/17 10:28:43 ET]
+Table '3975972855 3' 8-max Seat #2 is the button
+Seat 1: marboro men222 (1132 in chips) 
+Seat 2: oven25 (1594 in chips) 
+Seat 4: Milbak703 (1482 in chips) 
+Seat 5: mareloquetesoca (1589 in chips) 
+Seat 6: baddmax (2858 in chips) 
+Seat 7: Juniorplim (2077 in chips) 
+Seat 8: scorza23 (1487 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+Milbak703: posts small blind 25
+mareloquetesoca: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qc]
+baddmax: raises 94 to 144
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: folds 
+oven25: folds 
+Milbak703: folds 
+mareloquetesoca: calls 94
+*** FLOP *** [3c 2d 7h]
+mareloquetesoca: checks 
+baddmax: bets 114
+mareloquetesoca: folds 
+Uncalled bet (114) returned to baddmax
+baddmax collected 355 from pot
+baddmax: doesn't show hand 
+*** SUMMARY ***
+Total pot 355 | Rake 0 
+Board [3c 2d 7h]
+Seat 1: marboro men222 folded before Flop (didn't bet)
+Seat 2: oven25 (button) folded before Flop (didn't bet)
+Seat 4: Milbak703 (small blind) folded before Flop
+Seat 5: mareloquetesoca (big blind) folded on the Flop
+Seat 6: baddmax collected (355)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763156625: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:29:22 UTC [2026/02/17 10:29:22 ET]
+Table '3975972855 3' 8-max Seat #4 is the button
+Seat 1: marboro men222 (1126 in chips) 
+Seat 2: oven25 (1588 in chips) 
+Seat 4: Milbak703 (1451 in chips) 
+Seat 5: mareloquetesoca (1439 in chips) 
+Seat 6: baddmax (3063 in chips) 
+Seat 7: Juniorplim (2071 in chips) 
+Seat 8: scorza23 (1481 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+mareloquetesoca: posts small blind 25
+baddmax: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Jc]
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: folds 
+oven25: folds 
+Milbak703: calls 50
+mareloquetesoca: calls 25
+baddmax: checks 
+*** FLOP *** [Js 8c 8h]
+mareloquetesoca: bets 96
+baddmax: folds 
+Milbak703: calls 96
+*** TURN *** [Js 8c 8h] [7c]
+mareloquetesoca: bets 384
+Milbak703: folds 
+Uncalled bet (384) returned to mareloquetesoca
+mareloquetesoca collected 384 from pot
+mareloquetesoca: doesn't show hand 
+*** SUMMARY ***
+Total pot 384 | Rake 0 
+Board [Js 8c 8h 7c]
+Seat 1: marboro men222 folded before Flop (didn't bet)
+Seat 2: oven25 folded before Flop (didn't bet)
+Seat 4: Milbak703 (button) folded on the Turn
+Seat 5: mareloquetesoca (small blind) collected (384)
+Seat 6: baddmax (big blind) folded on the Flop
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763166435: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:30:20 UTC [2026/02/17 10:30:20 ET]
+Table '3975972855 3' 8-max Seat #5 is the button
+Seat 1: marboro men222 (1120 in chips) 
+Seat 2: oven25 (1582 in chips) 
+Seat 4: Milbak703 (1299 in chips) 
+Seat 5: mareloquetesoca (1671 in chips) 
+Seat 6: baddmax (3007 in chips) 
+Seat 7: Juniorplim (2065 in chips) 
+Seat 8: scorza23 (1475 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+baddmax: posts small blind 25
+Juniorplim: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 8h]
+scorza23: folds 
+marboro men222: folds 
+oven25: raises 50 to 100
+Milbak703: calls 100
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: calls 50
+*** FLOP *** [8s 5d Td]
+Juniorplim: checks 
+oven25: bets 121
+Milbak703: calls 121
+Juniorplim: calls 121
+*** TURN *** [8s 5d Td] [Ts]
+Juniorplim: checks 
+oven25: checks 
+Milbak703: bets 365
+Juniorplim: folds 
+oven25: calls 365
+*** RIVER *** [8s 5d Td Ts] [As]
+oven25: checks 
+Milbak703: bets 707 and is all-in
+oven25: folds 
+Uncalled bet (707) returned to Milbak703
+Milbak703 collected 1460 from pot
+*** SUMMARY ***
+Total pot 1460 | Rake 0 
+Board [8s 5d Td Ts As]
+Seat 1: marboro men222 folded before Flop (didn't bet)
+Seat 2: oven25 folded on the River
+Seat 4: Milbak703 collected (1460)
+Seat 5: mareloquetesoca (button) folded before Flop (didn't bet)
+Seat 6: baddmax (small blind) folded before Flop
+Seat 7: Juniorplim (big blind) folded on the Turn
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763174636: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:31:09 UTC [2026/02/17 10:31:09 ET]
+Table '3975972855 3' 8-max Seat #6 is the button
+Seat 1: marboro men222 (1114 in chips) 
+Seat 2: oven25 (990 in chips) 
+Seat 4: Milbak703 (2167 in chips) 
+Seat 5: mareloquetesoca (1665 in chips) 
+Seat 6: baddmax (2976 in chips) 
+Seat 7: Juniorplim (1838 in chips) 
+Seat 8: scorza23 (1469 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+Juniorplim: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 9c]
+marboro men222: folds 
+oven25: raises 50 to 100
+Milbak703: calls 100
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: folds 
+scorza23: folds 
+*** FLOP *** [As Ks 2h]
+oven25: bets 105
+Milbak703: raises 205 to 310
+oven25: folds 
+Uncalled bet (205) returned to Milbak703
+Milbak703 collected 527 from pot
+*** SUMMARY ***
+Total pot 527 | Rake 0 
+Board [As Ks 2h]
+Seat 1: marboro men222 folded before Flop (didn't bet)
+Seat 2: oven25 folded on the Flop
+Seat 4: Milbak703 collected (527)
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax (button) folded before Flop (didn't bet)
+Seat 7: Juniorplim (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763178939: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:31:35 UTC [2026/02/17 10:31:35 ET]
+Table '3975972855 3' 8-max Seat #7 is the button
+Seat 1: marboro men222 (1108 in chips) 
+Seat 2: oven25 (779 in chips) 
+Seat 4: Milbak703 (2483 in chips) 
+Seat 5: mareloquetesoca (1659 in chips) 
+Seat 6: baddmax (2970 in chips) 
+Seat 7: Juniorplim (1807 in chips) 
+Seat 8: scorza23 (1413 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+scorza23: posts small blind 25
+marboro men222: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9c]
+oven25: folds 
+Milbak703: raises 75 to 125
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: calls 75
+*** FLOP *** [Ts Jd 6h]
+marboro men222: bets 977 and is all-in
+Milbak703: folds 
+Uncalled bet (977) returned to marboro men222
+marboro men222 collected 317 from pot
+marboro men222: doesn't show hand 
+*** SUMMARY ***
+Total pot 317 | Rake 0 
+Board [Ts Jd 6h]
+Seat 1: marboro men222 (big blind) collected (317)
+Seat 2: oven25 folded before Flop (didn't bet)
+Seat 4: Milbak703 folded on the Flop
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax folded before Flop (didn't bet)
+Seat 7: Juniorplim (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763184318: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:32:07 UTC [2026/02/17 10:32:07 ET]
+Table '3975972855 3' 8-max Seat #8 is the button
+Seat 1: marboro men222 (1294 in chips) 
+Seat 2: oven25 (773 in chips) 
+Seat 4: Milbak703 (2352 in chips) 
+Seat 5: mareloquetesoca (1653 in chips) 
+Seat 6: baddmax (2964 in chips) 
+Seat 7: Juniorplim (1801 in chips) 
+Seat 8: scorza23 (1382 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+marboro men222: posts small blind 25
+oven25: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ks]
+Milbak703: raises 75 to 125
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: folds 
+oven25: calls 75
+*** FLOP *** [8d Qd 9h]
+oven25: checks 
+Milbak703: checks 
+*** TURN *** [8d Qd 9h] [Ad]
+oven25: bets 105
+Milbak703: raises 205 to 310
+oven25: folds 
+Uncalled bet (205) returned to Milbak703
+Milbak703 collected 527 from pot
+*** SUMMARY ***
+Total pot 527 | Rake 0 
+Board [8d Qd 9h Ad]
+Seat 1: marboro men222 (small blind) folded before Flop
+Seat 2: oven25 (big blind) folded on the Turn
+Seat 4: Milbak703 collected (527)
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax folded before Flop (didn't bet)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763189114: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 15:32:36 UTC [2026/02/17 10:32:36 ET]
+Table '3975972855 3' 8-max Seat #1 is the button
+Seat 1: marboro men222 (1263 in chips) 
+Seat 2: oven25 (537 in chips) 
+Seat 4: Milbak703 (2643 in chips) 
+Seat 5: mareloquetesoca (1647 in chips) 
+Seat 6: baddmax (2958 in chips) 
+Seat 7: Juniorplim (1795 in chips) 
+Seat 8: scorza23 (1376 in chips) 
+marboro men222: posts the ante 6
+oven25: posts the ante 6
+Milbak703: posts the ante 6
+mareloquetesoca: posts the ante 6
+baddmax: posts the ante 6
+Juniorplim: posts the ante 6
+scorza23: posts the ante 6
+oven25: posts small blind 25
+Milbak703: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 2h]
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: folds 
+scorza23: folds 
+marboro men222: calls 50
+oven25: calls 25
+Milbak703: raises 200 to 250
+marboro men222: raises 1007 to 1257 and is all-in
+oven25: folds 
+Milbak703: calls 1007
+*** FLOP *** [Qh 4c Qs]
+*** TURN *** [Qh 4c Qs] [Ah]
+*** RIVER *** [Qh 4c Qs Ah] [5s]
+*** SHOW DOWN ***
+Milbak703: shows [Qd Ac] (a full house, Queens full of Aces)
+marboro men222: shows [Ad Tc] (two pair, Aces and Queens)
+Milbak703 collected 2606 from pot
+marboro men222 finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 2606 | Rake 0 
+Board [Qh 4c Qs Ah 5s]
+Seat 1: marboro men222 (button) showed [Ad Tc] and lost with two pair, Aces and Queens
+Seat 2: oven25 (small blind) folded before Flop
+Seat 4: Milbak703 (big blind) showed [Qd Ac] and won (2606) with a full house, Queens full of Aces
+Seat 5: mareloquetesoca folded before Flop (didn't bet)
+Seat 6: baddmax folded before Flop (didn't bet)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763195335: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:33:13 UTC [2026/02/17 10:33:13 ET]
+Table '3975972855 3' 8-max Seat #2 is the button
+Seat 2: oven25 (481 in chips) 
+Seat 4: Milbak703 (3986 in chips) 
+Seat 5: mareloquetesoca (1641 in chips) 
+Seat 6: baddmax (2952 in chips) 
+Seat 7: Juniorplim (1789 in chips) 
+Seat 8: scorza23 (1370 in chips) 
+oven25: posts the ante 10
+Milbak703: posts the ante 10
+mareloquetesoca: posts the ante 10
+baddmax: posts the ante 10
+Juniorplim: posts the ante 10
+scorza23: posts the ante 10
+Milbak703: posts small blind 40
+mareloquetesoca: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 6h]
+baddmax: folds 
+Pentecoste54 is disconnected 
+Juniorplim: folds 
+scorza23: folds 
+oven25: folds 
+Milbak703: calls 40
+mareloquetesoca: checks 
+*** FLOP *** [9c 6c 5h]
+Milbak703: bets 240
+mareloquetesoca: folds 
+Uncalled bet (240) returned to Milbak703
+Milbak703 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Board [9c 6c 5h]
+Seat 2: oven25 (button) folded before Flop (didn't bet)
+Seat 4: Milbak703 (small blind) collected (220)
+Seat 5: mareloquetesoca (big blind) folded on the Flop
+Seat 6: baddmax folded before Flop (didn't bet)
+Seat 7: Juniorplim folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763198637: Tournament #3975972855, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 15:33:33 UTC [2026/02/17 10:33:33 ET]
+Table '3975972855 3' 8-max Seat #4 is the button
+Seat 1: Jylló (1450 in chips) 
+Seat 2: oven25 (471 in chips) 
+Seat 3: Pentecoste54 (1264 in chips) 
+Seat 4: Milbak703 (4116 in chips) 
+Seat 5: mareloquetesoca (1551 in chips) 
+Seat 6: baddmax (2942 in chips) 
+Seat 7: Juniorplim (1779 in chips) 
+Seat 8: scorza23 (1360 in chips) 
+Jylló: posts the ante 10
+oven25: posts the ante 10
+Pentecoste54: posts the ante 10
+Milbak703: posts the ante 10
+mareloquetesoca: posts the ante 10
+baddmax: posts the ante 10
+Juniorplim: posts the ante 10
+scorza23: posts the ante 10
+mareloquetesoca: posts small blind 40
+baddmax: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Qc]
+Juniorplim: raises 80 to 160
+scorza23: raises 1190 to 1350 and is all-in
+Jylló: folds 
+oven25: folds 
+Pentecoste54: calls 1254 and is all-in
+Milbak703: folds 
+mareloquetesoca: folds 
+baddmax: folds 
+Juniorplim: calls 1190
+*** FLOP *** [Jh Th 3s]
+*** TURN *** [Jh Th 3s] [Ts]
+*** RIVER *** [Jh Th 3s Ts] [Kh]
+*** SHOW DOWN ***
+Juniorplim: shows [Qh 9h] (a straight flush, Nine to King)
+scorza23: shows [Ah Qc] (a straight, Ten to Ace)
+Juniorplim collected 192 from side pot
+Pentecoste54: shows [Kc As] (two pair, Kings and Tens)
+Juniorplim collected 3962 from main pot
+scorza23 finished the tournament in 23rd place
+Pentecoste54 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 4154 Main pot 3962. Side pot 192. | Rake 0 
+Board [Jh Th 3s Ts Kh]
+Seat 1: Jylló folded before Flop (didn't bet)
+Seat 2: oven25 folded before Flop (didn't bet)
+Seat 3: Pentecoste54 showed [Kc As] and lost with two pair, Kings and Tens
+Seat 4: Milbak703 (button) folded before Flop (didn't bet)
+Seat 5: mareloquetesoca (small blind) folded before Flop
+Seat 6: baddmax (big blind) folded before Flop
+Seat 7: Juniorplim showed [Qh 9h] and won (4154) with a straight flush, Nine to King
+Seat 8: scorza23 showed [Ah Qc] and lost with a straight, Ten to Ace
+
+
+

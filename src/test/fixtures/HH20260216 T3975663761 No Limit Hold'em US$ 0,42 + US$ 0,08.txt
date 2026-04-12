@@ -1,0 +1,221 @@
+﻿PokerStars Hand #259749026890: Tournament #3975663761, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:31:48 UTC [2026/02/16 9:31:48 ET]
+Table '3975663761 1' 9-max Seat #1 is the button
+Seat 1: Baglow (1500 in chips) 
+Seat 2: AMariaJuana (1500 in chips) is sitting out
+Seat 3: Krulli55 (1500 in chips) 
+Seat 4: ggvilela100 (1500 in chips) is sitting out
+Seat 5: Christian##8119 (1500 in chips) 
+Seat 6: Wektjano (1500 in chips) 
+Seat 7: Ventegodt (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+Seat 9: Felks34 (1500 in chips) is sitting out
+AMariaJuana: posts small blind 10
+Krulli55: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6s]
+ggvilela100: folds 
+Christian##8119: calls 20
+Wektjano: calls 20
+Ventegodt: folds 
+AMariaJuana has returned
+scorza23: folds 
+Felks34: folds 
+Baglow: folds 
+AMariaJuana: folds 
+Krulli55: checks 
+*** FLOP *** [2s Qs As]
+Krulli55: bets 20
+Christian##8119: folds 
+ggvilela100 has returned
+Wektjano: calls 20
+*** TURN *** [2s Qs As] [8s]
+Krulli55: bets 110
+Wektjano: calls 110
+*** RIVER *** [2s Qs As 8s] [Kd]
+Krulli55: bets 330
+Wektjano: folds 
+Uncalled bet (330) returned to Krulli55
+Krulli55 collected 330 from pot
+Krulli55: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Board [2s Qs As 8s Kd]
+Seat 1: Baglow (button) folded before Flop (didn't bet)
+Seat 2: AMariaJuana (small blind) folded before Flop
+Seat 3: Krulli55 (big blind) collected (330)
+Seat 4: ggvilela100 folded before Flop (didn't bet)
+Seat 5: Christian##8119 folded on the Flop
+Seat 6: Wektjano folded on the River
+Seat 7: Ventegodt folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Felks34 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749034542: Tournament #3975663761, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:32:39 UTC [2026/02/16 9:32:39 ET]
+Table '3975663761 1' 9-max Seat #2 is the button
+Seat 1: Baglow (1500 in chips) 
+Seat 2: AMariaJuana (1490 in chips) 
+Seat 3: Krulli55 (1680 in chips) 
+Seat 4: ggvilela100 (1500 in chips) 
+Seat 5: Christian##8119 (1480 in chips) 
+Seat 6: Wektjano (1350 in chips) 
+Seat 7: Ventegodt (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+Seat 9: Felks34 (1500 in chips) is sitting out
+Krulli55: posts small blind 10
+ggvilela100: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Kh]
+Christian##8119: calls 20
+Wektjano: folds 
+Ventegodt: folds 
+Felks34 has returned
+scorza23: raises 40 to 60
+Felks34: folds 
+Baglow: calls 60
+AMariaJuana: folds 
+Krulli55: calls 50
+ggvilela100: folds 
+Christian##8119: calls 40
+*** FLOP *** [5h 2h 5s]
+Krulli55: checks 
+Christian##8119: checks 
+scorza23: bets 130
+Baglow: folds 
+Krulli55: folds 
+Christian##8119: raises 190 to 320
+scorza23: raises 1120 to 1440 and is all-in
+Christian##8119: calls 1100 and is all-in
+Uncalled bet (20) returned to scorza23
+*** TURN *** [5h 2h 5s] [9c]
+*** RIVER *** [5h 2h 5s 9c] [2s]
+*** SHOW DOWN ***
+Christian##8119: shows [Jd 5d] (a full house, Fives full of Deuces)
+scorza23: shows [Kd Kh] (two pair, Kings and Fives)
+Christian##8119 collected 3100 from pot
+*** SUMMARY ***
+Total pot 3100 | Rake 0 
+Board [5h 2h 5s 9c 2s]
+Seat 1: Baglow folded on the Flop
+Seat 2: AMariaJuana (button) folded before Flop (didn't bet)
+Seat 3: Krulli55 (small blind) folded on the Flop
+Seat 4: ggvilela100 (big blind) folded before Flop
+Seat 5: Christian##8119 showed [Jd 5d] and won (3100) with a full house, Fives full of Deuces
+Seat 6: Wektjano folded before Flop (didn't bet)
+Seat 7: Ventegodt folded before Flop (didn't bet)
+Seat 8: scorza23 showed [Kd Kh] and lost with two pair, Kings and Fives
+Seat 9: Felks34 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749046100: Tournament #3975663761, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:33:55 UTC [2026/02/16 9:33:55 ET]
+Table '3975663761 1' 9-max Seat #3 is the button
+Seat 1: Baglow (1440 in chips) 
+Seat 2: AMariaJuana (1490 in chips) 
+Seat 3: Krulli55 (1620 in chips) 
+Seat 4: ggvilela100 (1480 in chips) 
+Seat 5: Christian##8119 (3100 in chips) 
+Seat 6: Wektjano (1350 in chips) 
+Seat 7: Ventegodt (1500 in chips) 
+Seat 8: scorza23 (20 in chips) 
+Seat 9: Felks34 (1500 in chips) 
+ggvilela100: posts small blind 10
+Christian##8119: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2c]
+Wektjano: folds 
+Ventegodt: folds 
+scorza23: folds 
+Felks34: folds 
+Baglow: folds 
+AMariaJuana: raises 40 to 60
+Krulli55: calls 60
+ggvilela100: calls 50
+Christian##8119: folds 
+*** FLOP *** [Qc Ks 4d]
+ggvilela100: checks 
+AMariaJuana: bets 66
+Krulli55: folds 
+ggvilela100: calls 66
+*** TURN *** [Qc Ks 4d] [2d]
+ggvilela100: checks 
+AMariaJuana: bets 232
+ggvilela100: calls 232
+*** RIVER *** [Qc Ks 4d 2d] [2s]
+ggvilela100: checks 
+AMariaJuana: checks 
+*** SHOW DOWN ***
+ggvilela100: shows [Td Ad] (a pair of Deuces)
+AMariaJuana: shows [Jd Kd] (two pair, Kings and Deuces)
+AMariaJuana collected 796 from pot
+*** SUMMARY ***
+Total pot 796 | Rake 0 
+Board [Qc Ks 4d 2d 2s]
+Seat 1: Baglow folded before Flop (didn't bet)
+Seat 2: AMariaJuana showed [Jd Kd] and won (796) with two pair, Kings and Deuces
+Seat 3: Krulli55 (button) folded on the Flop
+Seat 4: ggvilela100 (small blind) showed [Td Ad] and lost with a pair of Deuces
+Seat 5: Christian##8119 (big blind) folded before Flop
+Seat 6: Wektjano folded before Flop (didn't bet)
+Seat 7: Ventegodt folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+Seat 9: Felks34 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749060080: Tournament #3975663761, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:35:27 UTC [2026/02/16 9:35:27 ET]
+Table '3975663761 1' 9-max Seat #4 is the button
+Seat 1: Baglow (1440 in chips) 
+Seat 2: AMariaJuana (1928 in chips) 
+Seat 3: Krulli55 (1560 in chips) 
+Seat 4: ggvilela100 (1122 in chips) 
+Seat 5: Christian##8119 (3080 in chips) 
+Seat 6: Wektjano (1350 in chips) 
+Seat 7: Ventegodt (1500 in chips) 
+Seat 8: scorza23 (20 in chips) 
+Seat 9: Felks34 (1500 in chips) 
+Christian##8119: posts small blind 10
+Wektjano: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Qc]
+Ventegodt: folds 
+scorza23: calls 20 and is all-in
+ggvilela100 is disconnected 
+Felks34: raises 60 to 80
+Baglow: raises 1360 to 1440 and is all-in
+AMariaJuana: folds 
+Krulli55: folds 
+ggvilela100: calls 1122 and is all-in
+Christian##8119: folds 
+Wektjano: folds 
+Felks34: calls 1360
+*** FLOP *** [Jc 8c 5d]
+*** TURN *** [Jc 8c 5d] [2d]
+*** RIVER *** [Jc 8c 5d 2d] [8s]
+*** SHOW DOWN ***
+Felks34: shows [Ad Ah] (two pair, Aces and Eights)
+Baglow: shows [Kc Th] (a pair of Eights)
+Felks34 collected 636 from side pot-2 
+ggvilela100: shows [As Ks] (a pair of Eights)
+Felks34 collected 3306 from side pot-1 
+scorza23: shows [Ac Qc] (a pair of Eights)
+Felks34 collected 110 from main pot
+Baglow finished the tournament in 7th place
+ggvilela100 finished the tournament in 8th place
+scorza23 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 4052 Main pot 110. Side pot-1 3306. Side pot-2 636. | Rake 0 
+Board [Jc 8c 5d 2d 8s]
+Seat 1: Baglow showed [Kc Th] and lost with a pair of Eights
+Seat 2: AMariaJuana folded before Flop (didn't bet)
+Seat 3: Krulli55 folded before Flop (didn't bet)
+Seat 4: ggvilela100 (button) showed [As Ks] and lost with a pair of Eights
+Seat 5: Christian##8119 (small blind) folded before Flop
+Seat 6: Wektjano (big blind) folded before Flop
+Seat 7: Ventegodt folded before Flop (didn't bet)
+Seat 8: scorza23 showed [Ac Qc] and lost with a pair of Eights
+Seat 9: Felks34 showed [Ad Ah] and won (4052) with two pair, Aces and Eights
+
+
+

@@ -1,0 +1,2114 @@
+﻿PokerStars Hand #260346335749: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:56:09 UTC [2026/04/04 16:56:09 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: tyoilay (1500 in chips) 
+Seat 3: Bakakabala (1500 in chips) 
+Seat 4: Tedfried (1500 in chips) 
+Seat 5: HeavyBach (1500 in chips) 
+Seat 6: portugal 306 (1500 in chips) 
+Seat 7: Nikolov`777` (1500 in chips) 
+Seat 8: 1kamelek1973 (1500 in chips) 
+Seat 9: vl3_2k7 (1500 in chips) 
+scorza23: posts the ante 3
+tyoilay: posts the ante 3
+Bakakabala: posts the ante 3
+Tedfried: posts the ante 3
+HeavyBach: posts the ante 3
+portugal 306: posts the ante 3
+Nikolov`777`: posts the ante 3
+1kamelek1973: posts the ante 3
+vl3_2k7: posts the ante 3
+tyoilay: posts small blind 10
+Bakakabala: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 6d]
+Tedfried: calls 20
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: calls 20
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: calls 10
+Bakakabala: checks 
+*** FLOP *** [2s Kh 6h]
+tyoilay: checks 
+Bakakabala: bets 40
+Tedfried: folds 
+1kamelek1973: calls 40
+tyoilay: calls 40
+*** TURN *** [2s Kh 6h] [As]
+tyoilay: checks 
+Bakakabala: checks 
+1kamelek1973: checks 
+*** RIVER *** [2s Kh 6h As] [9c]
+Nikolov`777` is sitting out
+Nikolov`777` has returned
+tyoilay: checks 
+Bakakabala: checks 
+1kamelek1973: bets 40
+tyoilay: folds 
+Bakakabala: calls 40
+*** SHOW DOWN ***
+1kamelek1973: shows [Ad 2d] (two pair, Aces and Deuces)
+Bakakabala: mucks hand 
+1kamelek1973 collected 307 from pot
+*** SUMMARY ***
+Total pot 307 | Rake 0 
+Board [2s Kh 6h As 9c]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: tyoilay (small blind) folded on the River
+Seat 3: Bakakabala (big blind) mucked [Kd Qc]
+Seat 4: Tedfried folded on the Flop
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 showed [Ad 2d] and won (307) with two pair, Aces and Deuces
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346349030: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:57:39 UTC [2026/04/04 16:57:39 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (1497 in chips) 
+Seat 2: tyoilay (1437 in chips) 
+Seat 3: Bakakabala (1397 in chips) 
+Seat 4: Tedfried (1477 in chips) 
+Seat 5: HeavyBach (1497 in chips) 
+Seat 6: portugal 306 (1497 in chips) 
+Seat 7: Nikolov`777` (1497 in chips) 
+Seat 8: 1kamelek1973 (1704 in chips) 
+Seat 9: vl3_2k7 (1497 in chips) 
+scorza23: posts the ante 3
+tyoilay: posts the ante 3
+Bakakabala: posts the ante 3
+Tedfried: posts the ante 3
+HeavyBach: posts the ante 3
+portugal 306: posts the ante 3
+Nikolov`777`: posts the ante 3
+1kamelek1973: posts the ante 3
+vl3_2k7: posts the ante 3
+Bakakabala: posts small blind 10
+Tedfried: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As Js]
+HeavyBach: folds 
+portugal 306: calls 20
+Nikolov`777`: calls 20
+1kamelek1973: calls 20
+vl3_2k7: folds 
+scorza23: calls 20
+tyoilay: folds 
+Bakakabala: folds 
+Tedfried: checks 
+*** FLOP *** [5c 3d Tc]
+Tedfried: bets 20
+portugal 306: calls 20
+Nikolov`777`: folds 
+Nikolov`777` is sitting out
+1kamelek1973: calls 20
+scorza23: folds 
+*** TURN *** [5c 3d Tc] [8d]
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: checks 
+*** RIVER *** [5c 3d Tc 8d] [Jh]
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: checks 
+*** SHOW DOWN ***
+Tedfried: shows [5h Ad] (a pair of Fives)
+portugal 306: mucks hand 
+1kamelek1973: mucks hand 
+Tedfried collected 197 from pot
+*** SUMMARY ***
+Total pot 197 | Rake 0 
+Board [5c 3d Tc 8d Jh]
+Seat 1: scorza23 folded on the Flop
+Seat 2: tyoilay (button) folded before Flop (didn't bet)
+Seat 3: Bakakabala (small blind) folded before Flop
+Seat 4: Tedfried (big blind) showed [5h Ad] and won (197) with a pair of Fives
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 mucked [Qh Ks]
+Seat 7: Nikolov`777` folded on the Flop
+Seat 8: 1kamelek1973 mucked [7h 6h]
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346360904: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:58:59 UTC [2026/04/04 16:58:59 ET]
+Table '3989306107 1' 9-max Seat #3 is the button
+Seat 1: scorza23 (1474 in chips) 
+Seat 2: tyoilay (1434 in chips) 
+Seat 3: Bakakabala (1384 in chips) 
+Seat 4: Tedfried (1631 in chips) 
+Seat 5: HeavyBach (1494 in chips) 
+Seat 6: portugal 306 (1454 in chips) 
+Seat 7: Nikolov`777` (1474 in chips) is sitting out
+Seat 8: 1kamelek1973 (1661 in chips) 
+Seat 9: vl3_2k7 (1494 in chips) 
+scorza23: posts the ante 3
+tyoilay: posts the ante 3
+Bakakabala: posts the ante 3
+Tedfried: posts the ante 3
+HeavyBach: posts the ante 3
+portugal 306: posts the ante 3
+Nikolov`777`: posts the ante 3
+1kamelek1973: posts the ante 3
+vl3_2k7: posts the ante 3
+Tedfried: posts small blind 10
+HeavyBach: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 9h]
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: calls 20
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Bakakabala: folds 
+Tedfried: calls 10
+HeavyBach: checks 
+*** FLOP *** [3c 3h 3s]
+Tedfried: checks 
+HeavyBach: bets 29
+1kamelek1973: calls 29
+Nikolov`777` has returned
+Tedfried: folds 
+*** TURN *** [3c 3h 3s] [Tc]
+HeavyBach: checks 
+1kamelek1973: checks 
+*** RIVER *** [3c 3h 3s Tc] [8d]
+HeavyBach: checks 
+1kamelek1973: checks 
+*** SHOW DOWN ***
+HeavyBach: shows [As 2s] (three of a kind, Threes)
+1kamelek1973: mucks hand 
+HeavyBach collected 145 from pot
+*** SUMMARY ***
+Total pot 145 | Rake 0 
+Board [3c 3h 3s Tc 8d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 3: Bakakabala (button) folded before Flop (didn't bet)
+Seat 4: Tedfried (small blind) folded on the Flop
+Seat 5: HeavyBach (big blind) showed [As 2s] and won (145) with three of a kind, Threes
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 mucked [2h Kc]
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346370423: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:00:02 UTC [2026/04/04 17:00:02 ET]
+Table '3989306107 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (1471 in chips) 
+Seat 2: tyoilay (1431 in chips) 
+Seat 3: Bakakabala (1381 in chips) 
+Seat 4: Tedfried (1608 in chips) 
+Seat 5: HeavyBach (1587 in chips) 
+Seat 6: portugal 306 (1451 in chips) 
+Seat 7: Nikolov`777` (1471 in chips) 
+Seat 8: 1kamelek1973 (1609 in chips) 
+Seat 9: vl3_2k7 (1491 in chips) 
+scorza23: posts the ante 3
+tyoilay: posts the ante 3
+Bakakabala: posts the ante 3
+Tedfried: posts the ante 3
+HeavyBach: posts the ante 3
+portugal 306: posts the ante 3
+Nikolov`777`: posts the ante 3
+1kamelek1973: posts the ante 3
+vl3_2k7: posts the ante 3
+HeavyBach: posts small blind 10
+portugal 306: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Ks]
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Bakakabala: raises 20 to 40
+Tedfried: raises 20 to 60
+HeavyBach: folds 
+portugal 306: calls 40
+Bakakabala: calls 20
+*** FLOP *** [Kc Qc Kh]
+portugal 306: checks 
+Bakakabala: bets 1318 and is all-in
+Tedfried: calls 1318
+portugal 306: folds 
+*** TURN *** [Kc Qc Kh] [9d]
+*** RIVER *** [Kc Qc Kh 9d] [4s]
+*** SHOW DOWN ***
+Bakakabala: shows [Jh Qs] (two pair, Kings and Queens)
+Tedfried: shows [Ac Qd] (two pair, Kings and Queens - Ace kicker)
+Tedfried collected 2853 from pot
+Bakakabala finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 2853 | Rake 0 
+Board [Kc Qc Kh 9d 4s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 3: Bakakabala showed [Jh Qs] and lost with two pair, Kings and Queens
+Seat 4: Tedfried (button) showed [Ac Qd] and won (2853) with two pair, Kings and Queens
+Seat 5: HeavyBach (small blind) folded before Flop
+Seat 6: portugal 306 (big blind) folded on the Flop
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346380414: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:01:02 UTC [2026/04/04 17:01:02 ET]
+Table '3989306107 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (1468 in chips) 
+Seat 2: tyoilay (1428 in chips) 
+Seat 4: Tedfried (3080 in chips) 
+Seat 5: HeavyBach (1574 in chips) 
+Seat 6: portugal 306 (1388 in chips) 
+Seat 7: Nikolov`777` (1468 in chips) 
+Seat 8: 1kamelek1973 (1606 in chips) 
+Seat 9: vl3_2k7 (1488 in chips) 
+scorza23: posts the ante 3
+tyoilay: posts the ante 3
+Tedfried: posts the ante 3
+HeavyBach: posts the ante 3
+portugal 306: posts the ante 3
+Nikolov`777`: posts the ante 3
+1kamelek1973: posts the ante 3
+vl3_2k7: posts the ante 3
+portugal 306: posts small blind 10
+Nikolov`777`: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 4s]
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 20
+HeavyBach: folds 
+portugal 306: calls 10
+Nikolov`777`: checks 
+*** FLOP *** [Jc 7d Kd]
+portugal 306: checks 
+Nikolov`777`: checks 
+Tedfried: checks 
+*** TURN *** [Jc 7d Kd] [Jh]
+portugal 306: checks 
+Nikolov`777`: checks 
+Tedfried: checks 
+*** RIVER *** [Jc 7d Kd Jh] [Ac]
+portugal 306: checks 
+Nikolov`777`: checks 
+Tedfried: checks 
+*** SHOW DOWN ***
+portugal 306: shows [9d Qd] (a pair of Jacks)
+Nikolov`777`: mucks hand 
+Tedfried: shows [4c Qh] (a pair of Jacks)
+portugal 306 collected 42 from pot
+Tedfried collected 42 from pot
+*** SUMMARY ***
+Total pot 84 | Rake 0 
+Board [Jc 7d Kd Jh Ac]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried showed [4c Qh] and won (42) with a pair of Jacks
+Seat 5: HeavyBach (button) folded before Flop (didn't bet)
+Seat 6: portugal 306 (small blind) showed [9d Qd] and won (42) with a pair of Jacks
+Seat 7: Nikolov`777` (big blind) mucked [3h Ts]
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346396353: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:02:16 UTC [2026/04/04 17:02:16 ET]
+Table '3989306107 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (1465 in chips) 
+Seat 2: tyoilay (1425 in chips) 
+Seat 4: Tedfried (3099 in chips) 
+Seat 5: HeavyBach (1571 in chips) 
+Seat 6: portugal 306 (1407 in chips) 
+Seat 7: Nikolov`777` (1445 in chips) 
+Seat 8: 1kamelek1973 (1603 in chips) 
+Seat 9: vl3_2k7 (1485 in chips) 
+scorza23: posts the ante 4
+tyoilay: posts the ante 4
+Tedfried: posts the ante 4
+HeavyBach: posts the ante 4
+portugal 306: posts the ante 4
+Nikolov`777`: posts the ante 4
+1kamelek1973: posts the ante 4
+vl3_2k7: posts the ante 4
+Nikolov`777`: posts small blind 15
+1kamelek1973: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Jd]
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 30
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: checks 
+*** FLOP *** [7c Qc Ah]
+1kamelek1973: checks 
+Tedfried: checks 
+*** TURN *** [7c Qc Ah] [Kd]
+1kamelek1973: checks 
+Tedfried: bets 30
+1kamelek1973: folds 
+Uncalled bet (30) returned to Tedfried
+Tedfried collected 107 from pot
+*** SUMMARY ***
+Total pot 107 | Rake 0 
+Board [7c Qc Ah Kd]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried collected (107)
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 (button) folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (small blind) folded before Flop
+Seat 8: 1kamelek1973 (big blind) folded on the Turn
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346407445: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:03:06 UTC [2026/04/04 17:03:06 ET]
+Table '3989306107 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (1461 in chips) 
+Seat 2: tyoilay (1421 in chips) 
+Seat 4: Tedfried (3172 in chips) 
+Seat 5: HeavyBach (1567 in chips) 
+Seat 6: portugal 306 (1403 in chips) 
+Seat 7: Nikolov`777` (1426 in chips) 
+Seat 8: 1kamelek1973 (1569 in chips) 
+Seat 9: vl3_2k7 (1481 in chips) 
+scorza23: posts the ante 4
+tyoilay: posts the ante 4
+Tedfried: posts the ante 4
+HeavyBach: posts the ante 4
+portugal 306: posts the ante 4
+Nikolov`777`: posts the ante 4
+1kamelek1973: posts the ante 4
+vl3_2k7: posts the ante 4
+1kamelek1973: posts small blind 15
+vl3_2k7: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc As]
+scorza23: raises 60 to 90
+tyoilay: folds 
+Tedfried: folds 
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: calls 90
+1kamelek1973: calls 75
+vl3_2k7: folds 
+*** FLOP *** [Kc 9d Js]
+1kamelek1973: checks 
+scorza23: bets 166
+Nikolov`777`: calls 166
+1kamelek1973: folds 
+*** TURN *** [Kc 9d Js] [Ac]
+scorza23: bets 664
+Nikolov`777`: folds 
+Uncalled bet (664) returned to scorza23
+scorza23 collected 664 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 664 | Rake 0 
+Board [Kc 9d Js Ac]
+Seat 1: scorza23 collected (664)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (button) folded on the Turn
+Seat 8: 1kamelek1973 (small blind) folded on the Flop
+Seat 9: vl3_2k7 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346418811: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:03:55 UTC [2026/04/04 17:03:55 ET]
+Table '3989306107 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (1865 in chips) 
+Seat 2: tyoilay (1417 in chips) 
+Seat 4: Tedfried (3168 in chips) 
+Seat 5: HeavyBach (1563 in chips) 
+Seat 6: portugal 306 (1399 in chips) 
+Seat 7: Nikolov`777` (1166 in chips) 
+Seat 8: 1kamelek1973 (1475 in chips) 
+Seat 9: vl3_2k7 (1447 in chips) 
+scorza23: posts the ante 4
+tyoilay: posts the ante 4
+Tedfried: posts the ante 4
+HeavyBach: posts the ante 4
+portugal 306: posts the ante 4
+Nikolov`777`: posts the ante 4
+1kamelek1973: posts the ante 4
+vl3_2k7: posts the ante 4
+vl3_2k7: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2h]
+tyoilay: folds 
+Tedfried: calls 30
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: calls 30
+vl3_2k7: folds 
+scorza23: checks 
+*** FLOP *** [Td 4s Jc]
+scorza23: checks 
+Tedfried: bets 30
+1kamelek1973: calls 30
+scorza23: folds 
+*** TURN *** [Td 4s Jc] [Ts]
+Tedfried: checks 
+1kamelek1973: checks 
+*** RIVER *** [Td 4s Jc Ts] [As]
+Tedfried: bets 129
+1kamelek1973: raises 129 to 258
+Tedfried: calls 129
+*** SHOW DOWN ***
+1kamelek1973: shows [Kh Qh] (a straight, Ten to Ace)
+Tedfried: mucks hand 
+1kamelek1973 collected 713 from pot
+*** SUMMARY ***
+Total pot 713 | Rake 0 
+Board [Td 4s Jc Ts As]
+Seat 1: scorza23 (big blind) folded on the Flop
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried mucked [4c Ac]
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 (button) showed [Kh Qh] and won (713) with a straight, Ten to Ace
+Seat 9: vl3_2k7 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346434935: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:05:05 UTC [2026/04/04 17:05:05 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (1831 in chips) 
+Seat 2: tyoilay (1413 in chips) 
+Seat 4: Tedfried (2846 in chips) 
+Seat 5: HeavyBach (1559 in chips) 
+Seat 6: portugal 306 (1395 in chips) 
+Seat 7: Nikolov`777` (1162 in chips) 
+Seat 8: 1kamelek1973 (1866 in chips) 
+Seat 9: vl3_2k7 (1428 in chips) 
+scorza23: posts the ante 4
+tyoilay: posts the ante 4
+Tedfried: posts the ante 4
+HeavyBach: posts the ante 4
+portugal 306: posts the ante 4
+Nikolov`777`: posts the ante 4
+1kamelek1973: posts the ante 4
+vl3_2k7: posts the ante 4
+scorza23: posts small blind 15
+tyoilay: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 8d]
+Tedfried: raises 30 to 60
+HeavyBach: raises 180 to 240
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 180
+*** FLOP *** [Ah Tc 8s]
+Tedfried: checks 
+HeavyBach: bets 180
+Tedfried: folds 
+Uncalled bet (180) returned to HeavyBach
+HeavyBach collected 557 from pot
+HeavyBach: doesn't show hand 
+*** SUMMARY ***
+Total pot 557 | Rake 0 
+Board [Ah Tc 8s]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: tyoilay (big blind) folded before Flop
+Seat 4: Tedfried folded on the Flop
+Seat 5: HeavyBach collected (557)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346444769: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:05:46 UTC [2026/04/04 17:05:46 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (1812 in chips) 
+Seat 2: tyoilay (1379 in chips) 
+Seat 4: Tedfried (2602 in chips) 
+Seat 5: HeavyBach (1872 in chips) 
+Seat 6: portugal 306 (1391 in chips) 
+Seat 7: Nikolov`777` (1158 in chips) 
+Seat 8: 1kamelek1973 (1862 in chips) 
+Seat 9: vl3_2k7 (1424 in chips) 
+scorza23: posts the ante 4
+tyoilay: posts the ante 4
+Tedfried: posts the ante 4
+HeavyBach: posts the ante 4
+portugal 306: posts the ante 4
+Nikolov`777`: posts the ante 4
+1kamelek1973: posts the ante 4
+vl3_2k7: posts the ante 4
+tyoilay: posts small blind 15
+Tedfried: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 4c]
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: calls 30
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: calls 15
+Tedfried: checks 
+*** FLOP *** [9s 2d Td]
+tyoilay: checks 
+Tedfried: checks 
+1kamelek1973: checks 
+*** TURN *** [9s 2d Td] [Ad]
+tyoilay: checks 
+Tedfried: checks 
+1kamelek1973: checks 
+*** RIVER *** [9s 2d Td Ad] [5d]
+tyoilay: checks 
+Tedfried: checks 
+1kamelek1973: checks 
+*** SHOW DOWN ***
+tyoilay: shows [Qs 3s] (high card Ace)
+Tedfried: shows [Kh 4h] (high card Ace - King kicker)
+1kamelek1973: shows [Ks Jh] (high card Ace - King+Jack kicker)
+1kamelek1973 collected 122 from pot
+*** SUMMARY ***
+Total pot 122 | Rake 0 
+Board [9s 2d Td Ad 5d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: tyoilay (small blind) showed [Qs 3s] and lost with high card Ace
+Seat 4: Tedfried (big blind) showed [Kh 4h] and lost with high card Ace
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 showed [Ks Jh] and won (122) with high card Ace
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346459077: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:06:48 UTC [2026/04/04 17:06:48 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (1808 in chips) 
+Seat 2: tyoilay (1345 in chips) 
+Seat 4: Tedfried (2568 in chips) 
+Seat 5: HeavyBach (1868 in chips) 
+Seat 6: portugal 306 (1387 in chips) 
+Seat 7: Nikolov`777` (1154 in chips) 
+Seat 8: 1kamelek1973 (1950 in chips) 
+Seat 9: vl3_2k7 (1420 in chips) 
+scorza23: posts the ante 6
+tyoilay: posts the ante 6
+Tedfried: posts the ante 6
+HeavyBach: posts the ante 6
+portugal 306: posts the ante 6
+Nikolov`777`: posts the ante 6
+1kamelek1973: posts the ante 6
+vl3_2k7: posts the ante 6
+Tedfried: posts small blind 25
+HeavyBach: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 2s]
+portugal 306: raises 50 to 100
+Nikolov`777`: folds 
+1kamelek1973: calls 100
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 75
+HeavyBach: folds 
+*** FLOP *** [Qh Kc 8h]
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: checks 
+*** TURN *** [Qh Kc 8h] [8d]
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: bets 100
+Tedfried: folds 
+portugal 306: calls 100
+*** RIVER *** [Qh Kc 8h 8d] [Ah]
+portugal 306: checks 
+1kamelek1973: bets 100
+portugal 306: folds 
+Uncalled bet (100) returned to 1kamelek1973
+1kamelek1973 collected 598 from pot
+1kamelek1973: doesn't show hand 
+*** SUMMARY ***
+Total pot 598 | Rake 0 
+Board [Qh Kc 8h 8d Ah]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay (button) folded before Flop (didn't bet)
+Seat 4: Tedfried (small blind) folded on the Turn
+Seat 5: HeavyBach (big blind) folded before Flop
+Seat 6: portugal 306 folded on the River
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 collected (598)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346476481: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:08:02 UTC [2026/04/04 17:08:02 ET]
+Table '3989306107 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (1802 in chips) 
+Seat 2: tyoilay (1339 in chips) 
+Seat 4: Tedfried (2462 in chips) 
+Seat 5: HeavyBach (1812 in chips) 
+Seat 6: portugal 306 (1181 in chips) 
+Seat 7: Nikolov`777` (1148 in chips) 
+Seat 8: 1kamelek1973 (2342 in chips) 
+Seat 9: vl3_2k7 (1414 in chips) 
+scorza23: posts the ante 6
+tyoilay: posts the ante 6
+Tedfried: posts the ante 6
+HeavyBach: posts the ante 6
+portugal 306: posts the ante 6
+Nikolov`777`: posts the ante 6
+1kamelek1973: posts the ante 6
+vl3_2k7: posts the ante 6
+HeavyBach: posts small blind 25
+portugal 306: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9h]
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: raises 50 to 100
+Tedfried: folds 
+HeavyBach: folds 
+portugal 306: folds 
+Uncalled bet (50) returned to tyoilay
+tyoilay collected 173 from pot
+tyoilay: doesn't show hand 
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay collected (173)
+Seat 4: Tedfried (button) folded before Flop (didn't bet)
+Seat 5: HeavyBach (small blind) folded before Flop
+Seat 6: portugal 306 (big blind) folded before Flop
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346481787: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:08:24 UTC [2026/04/04 17:08:24 ET]
+Table '3989306107 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (1796 in chips) 
+Seat 2: tyoilay (1456 in chips) 
+Seat 4: Tedfried (2456 in chips) 
+Seat 5: HeavyBach (1781 in chips) 
+Seat 6: portugal 306 (1125 in chips) 
+Seat 7: Nikolov`777` (1142 in chips) 
+Seat 8: 1kamelek1973 (2336 in chips) 
+Seat 9: vl3_2k7 (1408 in chips) 
+scorza23: posts the ante 6
+tyoilay: posts the ante 6
+Tedfried: posts the ante 6
+HeavyBach: posts the ante 6
+portugal 306: posts the ante 6
+Nikolov`777`: posts the ante 6
+1kamelek1973: posts the ante 6
+vl3_2k7: posts the ante 6
+portugal 306: posts small blind 25
+Nikolov`777`: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jh]
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: raises 50 to 100
+Tedfried: calls 100
+HeavyBach: folds 
+portugal 306: calls 75
+Nikolov`777`: folds 
+*** FLOP *** [6h 7s Ad]
+portugal 306: checks 
+tyoilay: checks 
+Tedfried: checks 
+*** TURN *** [6h 7s Ad] [Qs]
+portugal 306: checks 
+tyoilay: checks 
+Tedfried: bets 199
+portugal 306: calls 199
+tyoilay: folds 
+*** RIVER *** [6h 7s Ad Qs] [Jd]
+portugal 306: checks 
+Tedfried: checks 
+*** SHOW DOWN ***
+portugal 306: shows [8h Qh] (a pair of Queens)
+Tedfried: shows [8c Qd] (a pair of Queens)
+portugal 306 collected 398 from pot
+Tedfried collected 398 from pot
+*** SUMMARY ***
+Total pot 796 | Rake 0 
+Board [6h 7s Ad Qs Jd]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded on the Turn
+Seat 4: Tedfried showed [8c Qd] and won (398) with a pair of Queens
+Seat 5: HeavyBach (button) folded before Flop (didn't bet)
+Seat 6: portugal 306 (small blind) showed [8h Qh] and won (398) with a pair of Queens
+Seat 7: Nikolov`777` (big blind) folded before Flop
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346498662: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:09:37 UTC [2026/04/04 17:09:37 ET]
+Table '3989306107 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (1790 in chips) 
+Seat 2: tyoilay (1350 in chips) 
+Seat 4: Tedfried (2549 in chips) 
+Seat 5: HeavyBach (1775 in chips) 
+Seat 6: portugal 306 (1218 in chips) 
+Seat 7: Nikolov`777` (1086 in chips) 
+Seat 8: 1kamelek1973 (2330 in chips) 
+Seat 9: vl3_2k7 (1402 in chips) 
+scorza23: posts the ante 6
+tyoilay: posts the ante 6
+Tedfried: posts the ante 6
+HeavyBach: posts the ante 6
+portugal 306: posts the ante 6
+Nikolov`777`: posts the ante 6
+1kamelek1973: posts the ante 6
+vl3_2k7: posts the ante 6
+Nikolov`777`: posts small blind 25
+1kamelek1973: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 4s]
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: folds 
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+Uncalled bet (25) returned to 1kamelek1973
+1kamelek1973 collected 98 from pot
+1kamelek1973: doesn't show hand 
+*** SUMMARY ***
+Total pot 98 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 (button) folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (small blind) folded before Flop
+Seat 8: 1kamelek1973 (big blind) collected (98)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346505307: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:10:05 UTC [2026/04/04 17:10:05 ET]
+Table '3989306107 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (1784 in chips) 
+Seat 2: tyoilay (1344 in chips) 
+Seat 4: Tedfried (2543 in chips) 
+Seat 5: HeavyBach (1769 in chips) 
+Seat 6: portugal 306 (1212 in chips) 
+Seat 7: Nikolov`777` (1055 in chips) 
+Seat 8: 1kamelek1973 (2397 in chips) 
+Seat 9: vl3_2k7 (1396 in chips) 
+scorza23: posts the ante 6
+tyoilay: posts the ante 6
+Tedfried: posts the ante 6
+HeavyBach: posts the ante 6
+portugal 306: posts the ante 6
+Nikolov`777`: posts the ante 6
+1kamelek1973: posts the ante 6
+vl3_2k7: posts the ante 6
+1kamelek1973: posts small blind 25
+vl3_2k7: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [As Td]
+scorza23: raises 50 to 100
+tyoilay: folds 
+Tedfried: folds 
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: calls 75
+vl3_2k7: folds 
+*** FLOP *** [Qs 5s 8d]
+1kamelek1973: checks 
+scorza23: checks 
+*** TURN *** [Qs 5s 8d] [3h]
+1kamelek1973: checks 
+scorza23: checks 
+*** RIVER *** [Qs 5s 8d 3h] [Kh]
+1kamelek1973: bets 150
+scorza23: folds 
+Uncalled bet (150) returned to 1kamelek1973
+1kamelek1973 collected 298 from pot
+1kamelek1973: doesn't show hand 
+*** SUMMARY ***
+Total pot 298 | Rake 0 
+Board [Qs 5s 8d 3h Kh]
+Seat 1: scorza23 folded on the River
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (button) folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 (small blind) collected (298)
+Seat 9: vl3_2k7 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346515928: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:10:50 UTC [2026/04/04 17:10:50 ET]
+Table '3989306107 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (1678 in chips) 
+Seat 2: tyoilay (1338 in chips) 
+Seat 4: Tedfried (2537 in chips) 
+Seat 5: HeavyBach (1763 in chips) 
+Seat 6: portugal 306 (1206 in chips) 
+Seat 7: Nikolov`777` (1049 in chips) 
+Seat 8: 1kamelek1973 (2589 in chips) 
+Seat 9: vl3_2k7 (1340 in chips) 
+scorza23: posts the ante 6
+tyoilay: posts the ante 6
+Tedfried: posts the ante 6
+HeavyBach: posts the ante 6
+portugal 306: posts the ante 6
+Nikolov`777`: posts the ante 6
+1kamelek1973: posts the ante 6
+vl3_2k7: posts the ante 6
+vl3_2k7: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 5s]
+tyoilay: folds 
+Tedfried: calls 50
+HeavyBach: folds 
+portugal 306: calls 50
+Nikolov`777`: folds 
+1kamelek1973: calls 50
+vl3_2k7: calls 25
+scorza23: checks 
+*** FLOP *** [Kh 2s 2c]
+vl3_2k7: checks 
+scorza23: checks 
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: checks 
+*** TURN *** [Kh 2s 2c] [7c]
+vl3_2k7: checks 
+scorza23: checks 
+Tedfried: bets 149
+portugal 306: calls 149
+1kamelek1973: calls 149
+vl3_2k7: folds 
+scorza23: folds 
+*** RIVER *** [Kh 2s 2c 7c] [Th]
+Tedfried: bets 745
+portugal 306: folds 
+1kamelek1973: folds 
+Uncalled bet (745) returned to Tedfried
+Tedfried collected 745 from pot
+*** SUMMARY ***
+Total pot 745 | Rake 0 
+Board [Kh 2s 2c 7c Th]
+Seat 1: scorza23 (big blind) folded on the Turn
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried collected (745)
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 folded on the River
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 (button) folded on the River
+Seat 9: vl3_2k7 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260346536325: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:12:17 UTC [2026/04/04 17:12:17 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (1622 in chips) 
+Seat 2: tyoilay (1332 in chips) 
+Seat 4: Tedfried (3077 in chips) 
+Seat 5: HeavyBach (1757 in chips) 
+Seat 6: portugal 306 (1001 in chips) 
+Seat 7: Nikolov`777` (1043 in chips) 
+Seat 8: 1kamelek1973 (2384 in chips) 
+Seat 9: vl3_2k7 (1284 in chips) 
+scorza23: posts the ante 10
+tyoilay: posts the ante 10
+Tedfried: posts the ante 10
+HeavyBach: posts the ante 10
+portugal 306: posts the ante 10
+Nikolov`777`: posts the ante 10
+1kamelek1973: posts the ante 10
+vl3_2k7: posts the ante 10
+scorza23: posts small blind 40
+tyoilay: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Jh]
+Tedfried: calls 80
+HeavyBach: folds 
+portugal 306: calls 80
+Nikolov`777`: calls 80
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: calls 40
+tyoilay: checks 
+*** FLOP *** [3d Ac Js]
+scorza23: checks 
+tyoilay: checks 
+Tedfried: bets 80
+portugal 306: calls 80
+Nikolov`777`: folds 
+scorza23: calls 80
+tyoilay: folds 
+*** TURN *** [3d Ac Js] [5d]
+scorza23: checks 
+Tedfried: bets 80
+portugal 306: calls 80
+scorza23: calls 80
+*** RIVER *** [3d Ac Js 5d] [2d]
+scorza23: checks 
+Tedfried: checks 
+portugal 306: checks 
+*** SHOW DOWN ***
+scorza23: shows [9h Jh] (a pair of Jacks)
+Tedfried: mucks hand 
+portugal 306: mucks hand 
+scorza23 collected 960 from pot
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Board [3d Ac Js 5d 2d]
+Seat 1: scorza23 (small blind) showed [9h Jh] and won (960) with a pair of Jacks
+Seat 2: tyoilay (big blind) folded on the Flop
+Seat 4: Tedfried mucked [Ks 3h]
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 mucked [Td Kc]
+Seat 7: Nikolov`777` folded on the Flop
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346563633: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:14:13 UTC [2026/04/04 17:14:13 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (2332 in chips) 
+Seat 2: tyoilay (1242 in chips) 
+Seat 4: Tedfried (2827 in chips) 
+Seat 5: HeavyBach (1747 in chips) 
+Seat 6: portugal 306 (751 in chips) 
+Seat 7: Nikolov`777` (953 in chips) 
+Seat 8: 1kamelek1973 (2374 in chips) 
+Seat 9: vl3_2k7 (1274 in chips) 
+scorza23: posts the ante 10
+tyoilay: posts the ante 10
+Tedfried: posts the ante 10
+HeavyBach: posts the ante 10
+portugal 306: posts the ante 10
+Nikolov`777`: posts the ante 10
+1kamelek1973: posts the ante 10
+vl3_2k7: posts the ante 10
+tyoilay: posts small blind 40
+Tedfried: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 2d]
+HeavyBach: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: calls 40
+Tedfried: raises 80 to 160
+tyoilay: folds 
+Uncalled bet (80) returned to Tedfried
+Tedfried collected 240 from pot
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: tyoilay (small blind) folded before Flop
+Seat 4: Tedfried (big blind) collected (240)
+Seat 5: HeavyBach folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346571687: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:14:47 UTC [2026/04/04 17:14:47 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (2322 in chips) 
+Seat 2: tyoilay (1152 in chips) 
+Seat 4: Tedfried (2977 in chips) 
+Seat 5: HeavyBach (1737 in chips) 
+Seat 6: portugal 306 (741 in chips) 
+Seat 7: Nikolov`777` (943 in chips) 
+Seat 8: 1kamelek1973 (2364 in chips) 
+Seat 9: vl3_2k7 (1264 in chips) 
+scorza23: posts the ante 10
+tyoilay: posts the ante 10
+Tedfried: posts the ante 10
+HeavyBach: posts the ante 10
+portugal 306: posts the ante 10
+Nikolov`777`: posts the ante 10
+1kamelek1973: posts the ante 10
+vl3_2k7: posts the ante 10
+Tedfried: posts small blind 40
+HeavyBach: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ts]
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: raises 80 to 160
+tyoilay: folds 
+Tedfried: folds 
+HeavyBach: calls 80
+*** FLOP *** [2s Tc 7s]
+HeavyBach: checks 
+scorza23: checks 
+*** TURN *** [2s Tc 7s] [6c]
+HeavyBach: bets 240
+scorza23: calls 240
+*** RIVER *** [2s Tc 7s 6c] [5d]
+HeavyBach: bets 1327 and is all-in
+scorza23: calls 1327
+*** SHOW DOWN ***
+HeavyBach: shows [4d 5c] (a pair of Fives)
+scorza23: shows [Js Ts] (a pair of Tens)
+scorza23 collected 3574 from pot
+HeavyBach finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3574 | Rake 0 
+Board [2s Tc 7s 6c 5d]
+Seat 1: scorza23 showed [Js Ts] and won (3574) with a pair of Tens
+Seat 2: tyoilay (button) folded before Flop (didn't bet)
+Seat 4: Tedfried (small blind) folded before Flop
+Seat 5: HeavyBach (big blind) showed [4d 5c] and lost with a pair of Fives
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346585712: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:15:46 UTC [2026/04/04 17:15:46 ET]
+Table '3989306107 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (4159 in chips) 
+Seat 2: tyoilay (1142 in chips) 
+Seat 4: Tedfried (2927 in chips) 
+Seat 6: portugal 306 (731 in chips) 
+Seat 7: Nikolov`777` (933 in chips) 
+Seat 8: 1kamelek1973 (2354 in chips) 
+Seat 9: vl3_2k7 (1254 in chips) 
+scorza23: posts the ante 10
+tyoilay: posts the ante 10
+Tedfried: posts the ante 10
+portugal 306: posts the ante 10
+Nikolov`777`: posts the ante 10
+1kamelek1973: posts the ante 10
+vl3_2k7: posts the ante 10
+portugal 306: posts small blind 40
+Nikolov`777`: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qd]
+1kamelek1973: calls 80
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 80
+portugal 306: calls 40
+Nikolov`777`: raises 843 to 923 and is all-in
+1kamelek1973: folds 
+Tedfried: folds 
+portugal 306: folds 
+Uncalled bet (843) returned to Nikolov`777`
+Nikolov`777` collected 390 from pot
+Nikolov`777`: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried (button) folded before Flop
+Seat 6: portugal 306 (small blind) folded before Flop
+Seat 7: Nikolov`777` (big blind) collected (390)
+Seat 8: 1kamelek1973 folded before Flop
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346598271: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:16:39 UTC [2026/04/04 17:16:39 ET]
+Table '3989306107 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (4149 in chips) 
+Seat 2: tyoilay (1132 in chips) 
+Seat 4: Tedfried (2837 in chips) 
+Seat 6: portugal 306 (641 in chips) 
+Seat 7: Nikolov`777` (1233 in chips) 
+Seat 8: 1kamelek1973 (2264 in chips) 
+Seat 9: vl3_2k7 (1244 in chips) 
+scorza23: posts the ante 15
+tyoilay: posts the ante 15
+Tedfried: posts the ante 15
+portugal 306: posts the ante 15
+Nikolov`777`: posts the ante 15
+1kamelek1973: posts the ante 15
+vl3_2k7: posts the ante 15
+Nikolov`777`: posts small blind 60
+1kamelek1973: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 9d]
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 120
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: checks 
+*** FLOP *** [Js 8c 8h]
+1kamelek1973: checks 
+Tedfried: checks 
+*** TURN *** [Js 8c 8h] [4s]
+1kamelek1973: bets 240
+Tedfried: folds 
+Uncalled bet (240) returned to 1kamelek1973
+1kamelek1973 collected 405 from pot
+1kamelek1973: doesn't show hand 
+*** SUMMARY ***
+Total pot 405 | Rake 0 
+Board [Js 8c 8h 4s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried folded on the Turn
+Seat 6: portugal 306 (button) folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (small blind) folded before Flop
+Seat 8: 1kamelek1973 (big blind) collected (405)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346607821: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:17:20 UTC [2026/04/04 17:17:20 ET]
+Table '3989306107 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (4134 in chips) 
+Seat 2: tyoilay (1117 in chips) 
+Seat 4: Tedfried (2702 in chips) 
+Seat 6: portugal 306 (626 in chips) 
+Seat 7: Nikolov`777` (1158 in chips) 
+Seat 8: 1kamelek1973 (2534 in chips) 
+Seat 9: vl3_2k7 (1229 in chips) 
+scorza23: posts the ante 15
+tyoilay: posts the ante 15
+Tedfried: posts the ante 15
+portugal 306: posts the ante 15
+Nikolov`777`: posts the ante 15
+1kamelek1973: posts the ante 15
+vl3_2k7: posts the ante 15
+1kamelek1973: posts small blind 60
+vl3_2k7: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 9h]
+scorza23: folds 
+tyoilay: raises 120 to 240
+Tedfried: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: folds 
+Uncalled bet (120) returned to tyoilay
+tyoilay collected 405 from pot
+tyoilay: doesn't show hand 
+*** SUMMARY ***
+Total pot 405 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay collected (405)
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (button) folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 (small blind) folded before Flop
+Seat 9: vl3_2k7 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346613419: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:17:43 UTC [2026/04/04 17:17:43 ET]
+Table '3989306107 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (4119 in chips) 
+Seat 2: tyoilay (1387 in chips) 
+Seat 4: Tedfried (2687 in chips) 
+Seat 6: portugal 306 (611 in chips) 
+Seat 7: Nikolov`777` (1143 in chips) 
+Seat 8: 1kamelek1973 (2459 in chips) 
+Seat 9: vl3_2k7 (1094 in chips) 
+scorza23: posts the ante 15
+tyoilay: posts the ante 15
+Tedfried: posts the ante 15
+portugal 306: posts the ante 15
+Nikolov`777`: posts the ante 15
+1kamelek1973: posts the ante 15
+vl3_2k7: posts the ante 15
+vl3_2k7: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 9s]
+tyoilay: raises 120 to 240
+Tedfried: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: calls 240
+vl3_2k7: calls 180
+scorza23: calls 120
+*** FLOP *** [Ts 4h 4c]
+vl3_2k7: checks 
+scorza23: bets 360
+tyoilay: calls 360
+1kamelek1973: folds 
+vl3_2k7: folds 
+*** TURN *** [Ts 4h 4c] [6d]
+scorza23: bets 360
+tyoilay: raises 412 to 772 and is all-in
+scorza23: folds 
+Uncalled bet (412) returned to tyoilay
+tyoilay collected 2505 from pot
+tyoilay: doesn't show hand 
+*** SUMMARY ***
+Total pot 2505 | Rake 0 
+Board [Ts 4h 4c 6d]
+Seat 1: scorza23 (big blind) folded on the Turn
+Seat 2: tyoilay collected (2505)
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 (button) folded on the Flop
+Seat 9: vl3_2k7 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260346629409: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:18:52 UTC [2026/04/04 17:18:52 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (3144 in chips) 
+Seat 2: tyoilay (2917 in chips) 
+Seat 4: Tedfried (2672 in chips) 
+Seat 6: portugal 306 (596 in chips) 
+Seat 7: Nikolov`777` (1128 in chips) 
+Seat 8: 1kamelek1973 (2204 in chips) 
+Seat 9: vl3_2k7 (839 in chips) 
+scorza23: posts the ante 15
+tyoilay: posts the ante 15
+Tedfried: posts the ante 15
+portugal 306: posts the ante 15
+Nikolov`777`: posts the ante 15
+1kamelek1973: posts the ante 15
+vl3_2k7: posts the ante 15
+scorza23: posts small blind 60
+tyoilay: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2c]
+Tedfried: calls 120
+portugal 306: folds 
+Nikolov`777`: calls 120
+1kamelek1973: calls 120
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: checks 
+*** FLOP *** [9h Ks Qh]
+tyoilay: checks 
+Tedfried: checks 
+Nikolov`777`: bets 331
+1kamelek1973: folds 
+tyoilay: folds 
+Tedfried: calls 331
+*** TURN *** [9h Ks Qh] [Kc]
+Tedfried: checks 
+Nikolov`777`: bets 662 and is all-in
+Tedfried: folds 
+Uncalled bet (662) returned to Nikolov`777`
+Nikolov`777` collected 1307 from pot
+Nikolov`777`: doesn't show hand 
+*** SUMMARY ***
+Total pot 1307 | Rake 0 
+Board [9h Ks Qh Kc]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: tyoilay (big blind) folded on the Flop
+Seat 4: Tedfried folded on the Turn
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` collected (1307)
+Seat 8: 1kamelek1973 folded on the Flop
+Seat 9: vl3_2k7 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346649498: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:20:17 UTC [2026/04/04 17:20:17 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (3069 in chips) 
+Seat 2: tyoilay (2782 in chips) 
+Seat 4: Tedfried (2206 in chips) 
+Seat 6: portugal 306 (581 in chips) 
+Seat 7: Nikolov`777` (1969 in chips) 
+Seat 8: 1kamelek1973 (2069 in chips) 
+Seat 9: vl3_2k7 (824 in chips) 
+scorza23: posts the ante 15
+tyoilay: posts the ante 15
+Tedfried: posts the ante 15
+portugal 306: posts the ante 15
+Nikolov`777`: posts the ante 15
+1kamelek1973: posts the ante 15
+vl3_2k7: posts the ante 15
+tyoilay: posts small blind 60
+Tedfried: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 7d]
+portugal 306: raises 446 to 566 and is all-in
+Nikolov`777`: folds 
+1kamelek1973: calls 566
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 446
+*** FLOP *** [Ts Th 5h]
+Tedfried: checks 
+1kamelek1973: checks 
+*** TURN *** [Ts Th 5h] [3s]
+Tedfried: checks 
+1kamelek1973: checks 
+*** RIVER *** [Ts Th 5h 3s] [Ac]
+Tedfried: checks 
+1kamelek1973: bets 360
+Tedfried: folds 
+Uncalled bet (360) returned to 1kamelek1973
+*** SHOW DOWN ***
+1kamelek1973: shows [Ad Kc] (two pair, Aces and Tens)
+portugal 306: shows [Td Jh] (three of a kind, Tens)
+portugal 306 collected 1863 from pot
+*** SUMMARY ***
+Total pot 1863 | Rake 0 
+Board [Ts Th 5h 3s Ac]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: tyoilay (small blind) folded before Flop
+Seat 4: Tedfried (big blind) folded on the River
+Seat 6: portugal 306 showed [Td Jh] and won (1863) with three of a kind, Tens
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 showed [Ad Kc] and lost with two pair, Aces and Tens
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346664679: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:21:22 UTC [2026/04/04 17:21:22 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (3054 in chips) 
+Seat 2: tyoilay (2707 in chips) 
+Seat 4: Tedfried (1625 in chips) 
+Seat 6: portugal 306 (1863 in chips) 
+Seat 7: Nikolov`777` (1954 in chips) 
+Seat 8: 1kamelek1973 (1488 in chips) 
+Seat 9: vl3_2k7 (809 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Tedfried: posts the ante 20
+portugal 306: posts the ante 20
+Nikolov`777`: posts the ante 20
+1kamelek1973: posts the ante 20
+vl3_2k7: posts the ante 20
+Tedfried: posts small blind 80
+portugal 306: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 6s]
+Nikolov`777`: folds 
+1kamelek1973: calls 160
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 80
+portugal 306: checks 
+*** FLOP *** [Qh 3d 3s]
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: checks 
+*** TURN *** [Qh 3d 3s] [2d]
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: checks 
+*** RIVER *** [Qh 3d 3s 2d] [Tc]
+Tedfried: checks 
+portugal 306: checks 
+1kamelek1973: checks 
+*** SHOW DOWN ***
+Tedfried: shows [9h Jh] (a pair of Threes)
+portugal 306: shows [5h Jd] (a pair of Threes)
+1kamelek1973: shows [4c Ad] (a pair of Threes - Ace kicker)
+1kamelek1973 collected 620 from pot
+*** SUMMARY ***
+Total pot 620 | Rake 0 
+Board [Qh 3d 3s 2d Tc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay (button) folded before Flop (didn't bet)
+Seat 4: Tedfried (small blind) showed [9h Jh] and lost with a pair of Threes
+Seat 6: portugal 306 (big blind) showed [5h Jd] and lost with a pair of Threes
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 showed [4c Ad] and won (620) with a pair of Threes
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346675864: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:22:09 UTC [2026/04/04 17:22:09 ET]
+Table '3989306107 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (3034 in chips) 
+Seat 2: tyoilay (2687 in chips) 
+Seat 4: Tedfried (1445 in chips) 
+Seat 6: portugal 306 (1683 in chips) 
+Seat 7: Nikolov`777` (1934 in chips) 
+Seat 8: 1kamelek1973 (1928 in chips) 
+Seat 9: vl3_2k7 (789 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Tedfried: posts the ante 20
+portugal 306: posts the ante 20
+Nikolov`777`: posts the ante 20
+1kamelek1973: posts the ante 20
+vl3_2k7: posts the ante 20
+portugal 306: posts small blind 80
+Nikolov`777`: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Th]
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 160
+portugal 306: calls 80
+Nikolov`777`: raises 1754 to 1914 and is all-in
+Tedfried: folds 
+portugal 306: folds 
+Uncalled bet (1754) returned to Nikolov`777`
+Nikolov`777` collected 620 from pot
+Nikolov`777`: doesn't show hand 
+*** SUMMARY ***
+Total pot 620 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried (button) folded before Flop
+Seat 6: portugal 306 (small blind) folded before Flop
+Seat 7: Nikolov`777` (big blind) collected (620)
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346687084: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:22:57 UTC [2026/04/04 17:22:57 ET]
+Table '3989306107 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (3014 in chips) 
+Seat 2: tyoilay (2667 in chips) 
+Seat 4: Tedfried (1265 in chips) 
+Seat 6: portugal 306 (1503 in chips) 
+Seat 7: Nikolov`777` (2374 in chips) 
+Seat 8: 1kamelek1973 (1908 in chips) 
+Seat 9: vl3_2k7 (769 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Tedfried: posts the ante 20
+portugal 306: posts the ante 20
+Nikolov`777`: posts the ante 20
+1kamelek1973: posts the ante 20
+vl3_2k7: posts the ante 20
+Nikolov`777`: posts small blind 80
+1kamelek1973: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Th]
+vl3_2k7: folds 
+scorza23: folds 
+tyoilay: folds 
+Tedfried: folds 
+portugal 306: folds 
+Nikolov`777`: folds 
+Uncalled bet (80) returned to 1kamelek1973
+1kamelek1973 collected 300 from pot
+1kamelek1973: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 6: portugal 306 (button) folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (small blind) folded before Flop
+Seat 8: 1kamelek1973 (big blind) collected (300)
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346693148: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:23:22 UTC [2026/04/04 17:23:22 ET]
+Table '3989306107 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (2994 in chips) 
+Seat 2: tyoilay (2647 in chips) 
+Seat 4: Tedfried (1245 in chips) 
+Seat 6: portugal 306 (1483 in chips) 
+Seat 7: Nikolov`777` (2274 in chips) 
+Seat 8: 1kamelek1973 (2108 in chips) 
+Seat 9: vl3_2k7 (749 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Tedfried: posts the ante 20
+portugal 306: posts the ante 20
+Nikolov`777`: posts the ante 20
+1kamelek1973: posts the ante 20
+vl3_2k7: posts the ante 20
+1kamelek1973: posts small blind 80
+vl3_2k7: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Js]
+scorza23: folds 
+tyoilay: folds 
+Tedfried: calls 160
+portugal 306: folds 
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: raises 569 to 729 and is all-in
+Tedfried: calls 569
+*** FLOP *** [Ad 5s As]
+*** TURN *** [Ad 5s As] [3d]
+*** RIVER *** [Ad 5s As 3d] [Qc]
+*** SHOW DOWN ***
+vl3_2k7: shows [8h Ac] (three of a kind, Aces)
+Tedfried: shows [2d Kd] (a pair of Aces)
+vl3_2k7 collected 1678 from pot
+*** SUMMARY ***
+Total pot 1678 | Rake 0 
+Board [Ad 5s As 3d Qc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried showed [2d Kd] and lost with a pair of Aces
+Seat 6: portugal 306 folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (button) folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 (small blind) folded before Flop
+Seat 9: vl3_2k7 (big blind) showed [8h Ac] and won (1678) with three of a kind, Aces
+
+
+
+PokerStars Hand #260346701771: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:23:59 UTC [2026/04/04 17:23:59 ET]
+Table '3989306107 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (2974 in chips) 
+Seat 2: tyoilay (2627 in chips) 
+Seat 4: Tedfried (496 in chips) 
+Seat 6: portugal 306 (1463 in chips) 
+Seat 7: Nikolov`777` (2254 in chips) 
+Seat 8: 1kamelek1973 (2008 in chips) 
+Seat 9: vl3_2k7 (1678 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Tedfried: posts the ante 20
+portugal 306: posts the ante 20
+Nikolov`777`: posts the ante 20
+1kamelek1973: posts the ante 20
+vl3_2k7: posts the ante 20
+vl3_2k7: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Jh]
+tyoilay: folds 
+Tedfried: folds 
+portugal 306: calls 160
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: raises 1498 to 1658 and is all-in
+scorza23: folds 
+portugal 306: calls 1283 and is all-in
+Uncalled bet (215) returned to vl3_2k7
+*** FLOP *** [7s 7h 8s]
+*** TURN *** [7s 7h 8s] [9s]
+*** RIVER *** [7s 7h 8s 9s] [6d]
+*** SHOW DOWN ***
+vl3_2k7: shows [Td Ac] (a straight, Six to Ten)
+portugal 306: shows [Ad 7d] (three of a kind, Sevens)
+vl3_2k7 collected 3186 from pot
+portugal 306 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 3186 | Rake 0 
+Board [7s 7h 8s 9s 6d]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: tyoilay folded before Flop (didn't bet)
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 6: portugal 306 showed [Ad 7d] and lost with three of a kind, Sevens
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 (button) folded before Flop (didn't bet)
+Seat 9: vl3_2k7 (small blind) showed [Td Ac] and won (3186) with a straight, Six to Ten
+
+
+
+PokerStars Hand #260346709706: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:24:33 UTC [2026/04/04 17:24:33 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (2794 in chips) 
+Seat 2: tyoilay (2607 in chips) 
+Seat 4: Tedfried (476 in chips) 
+Seat 7: Nikolov`777` (2234 in chips) 
+Seat 8: 1kamelek1973 (1988 in chips) 
+Seat 9: vl3_2k7 (3401 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Tedfried: posts the ante 20
+Nikolov`777`: posts the ante 20
+1kamelek1973: posts the ante 20
+vl3_2k7: posts the ante 20
+scorza23: posts small blind 80
+tyoilay: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 8d]
+Tedfried: folds 
+Nikolov`777`: folds 
+1kamelek1973: folds 
+vl3_2k7: folds 
+scorza23: raises 320 to 480
+tyoilay: folds 
+Uncalled bet (320) returned to scorza23
+scorza23 collected 440 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Seat 1: scorza23 (small blind) collected (440)
+Seat 2: tyoilay (big blind) folded before Flop
+Seat 4: Tedfried folded before Flop (didn't bet)
+Seat 7: Nikolov`777` folded before Flop (didn't bet)
+Seat 8: 1kamelek1973 folded before Flop (didn't bet)
+Seat 9: vl3_2k7 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346715840: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:25:00 UTC [2026/04/04 17:25:00 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (3054 in chips) 
+Seat 2: tyoilay (2427 in chips) 
+Seat 4: Tedfried (456 in chips) 
+Seat 7: Nikolov`777` (2214 in chips) 
+Seat 8: 1kamelek1973 (1968 in chips) 
+Seat 9: vl3_2k7 (3381 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Tedfried: posts the ante 20
+Nikolov`777`: posts the ante 20
+1kamelek1973: posts the ante 20
+vl3_2k7: posts the ante 20
+tyoilay: posts small blind 80
+Tedfried: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad As]
+Nikolov`777`: raises 160 to 320
+1kamelek1973: calls 320
+vl3_2k7: folds 
+scorza23: raises 480 to 800
+tyoilay: folds 
+Tedfried: calls 276 and is all-in
+Nikolov`777`: folds 
+1kamelek1973: calls 480
+*** FLOP *** [Jh Ks Td]
+1kamelek1973: checks 
+scorza23: bets 2234 and is all-in
+1kamelek1973: calls 1148 and is all-in
+Uncalled bet (1086) returned to scorza23
+*** TURN *** [Jh Ks Td] [9d]
+*** RIVER *** [Jh Ks Td 9d] [8c]
+*** SHOW DOWN ***
+1kamelek1973: shows [Tc Ah] (a pair of Tens)
+scorza23: shows [Ad As] (a pair of Aces)
+scorza23 collected 3024 from side pot
+Tedfried: shows [Th Ac] (a pair of Tens)
+scorza23 collected 1828 from main pot
+1kamelek1973 finished the tournament in 5th place
+Tedfried finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 4852 Main pot 1828. Side pot 3024. | Rake 0 
+Board [Jh Ks Td 9d 8c]
+Seat 1: scorza23 (button) showed [Ad As] and won (4852) with a pair of Aces
+Seat 2: tyoilay (small blind) folded before Flop
+Seat 4: Tedfried (big blind) showed [Th Ac] and lost with a pair of Tens
+Seat 7: Nikolov`777` folded before Flop
+Seat 8: 1kamelek1973 showed [Tc Ah] and lost with a pair of Tens
+Seat 9: vl3_2k7 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346726554: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 21:25:45 UTC [2026/04/04 17:25:45 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (5938 in chips) 
+Seat 2: tyoilay (2327 in chips) 
+Seat 7: Nikolov`777` (1874 in chips) 
+Seat 9: vl3_2k7 (3361 in chips) 
+scorza23: posts the ante 20
+tyoilay: posts the ante 20
+Nikolov`777`: posts the ante 20
+vl3_2k7: posts the ante 20
+Nikolov`777`: posts small blind 80
+vl3_2k7: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Tc]
+scorza23: folds 
+tyoilay: folds 
+Nikolov`777`: raises 160 to 320
+vl3_2k7: calls 160
+*** FLOP *** [2d Js 9s]
+Nikolov`777`: bets 320
+vl3_2k7: raises 1920 to 2240
+Nikolov`777`: calls 1214 and is all-in
+Uncalled bet (706) returned to vl3_2k7
+*** TURN *** [2d Js 9s] [2h]
+*** RIVER *** [2d Js 9s 2h] [3d]
+*** SHOW DOWN ***
+Nikolov`777`: shows [8c 8d] (two pair, Eights and Deuces)
+vl3_2k7: shows [5d 9d] (two pair, Nines and Deuces)
+vl3_2k7 collected 3788 from pot
+Nikolov`777` finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 3788 | Rake 0 
+Board [2d Js 9s 2h 3d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: tyoilay (button) folded before Flop (didn't bet)
+Seat 7: Nikolov`777` (small blind) showed [8c 8d] and lost with two pair, Eights and Deuces
+Seat 9: vl3_2k7 (big blind) showed [5d 9d] and won (3788) with two pair, Nines and Deuces
+
+
+
+PokerStars Hand #260346735580: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:26:24 UTC [2026/04/04 17:26:24 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (5918 in chips) 
+Seat 2: tyoilay (2307 in chips) 
+Seat 9: vl3_2k7 (5275 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+scorza23: posts small blind 100
+tyoilay: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 5h]
+vl3_2k7: folds 
+scorza23: raises 400 to 600
+tyoilay: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: scorza23 (small blind) collected (475)
+Seat 2: tyoilay (big blind) folded before Flop
+Seat 9: vl3_2k7 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346740059: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:26:43 UTC [2026/04/04 17:26:43 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (6168 in chips) 
+Seat 2: tyoilay (2082 in chips) 
+Seat 9: vl3_2k7 (5250 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+tyoilay: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 8c]
+scorza23: raises 400 to 600
+tyoilay: folds 
+vl3_2k7: raises 800 to 1400
+scorza23: calls 800
+*** FLOP *** [2d 7d 7s]
+vl3_2k7: bets 744
+scorza23: folds 
+Uncalled bet (744) returned to vl3_2k7
+vl3_2k7 collected 2975 from pot
+*** SUMMARY ***
+Total pot 2975 | Rake 0 
+Board [2d 7d 7s]
+Seat 1: scorza23 (button) folded on the Flop
+Seat 2: tyoilay (small blind) folded before Flop
+Seat 9: vl3_2k7 (big blind) collected (2975)
+
+
+
+PokerStars Hand #260346747380: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:27:14 UTC [2026/04/04 17:27:14 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (4743 in chips) 
+Seat 2: tyoilay (1957 in chips) 
+Seat 9: vl3_2k7 (6800 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+vl3_2k7: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Js]
+tyoilay: raises 1732 to 1932 and is all-in
+vl3_2k7: folds 
+scorza23: folds 
+Uncalled bet (1732) returned to tyoilay
+tyoilay collected 575 from pot
+tyoilay: doesn't show hand 
+*** SUMMARY ***
+Total pot 575 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: tyoilay (button) collected (575)
+Seat 9: vl3_2k7 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346753056: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:27:39 UTC [2026/04/04 17:27:39 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (4518 in chips) 
+Seat 2: tyoilay (2307 in chips) 
+Seat 9: vl3_2k7 (6675 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+scorza23: posts small blind 100
+tyoilay: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 2h]
+vl3_2k7: folds 
+scorza23: raises 400 to 600
+tyoilay: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: scorza23 (small blind) collected (475)
+Seat 2: tyoilay (big blind) folded before Flop
+Seat 9: vl3_2k7 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346760602: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:28:11 UTC [2026/04/04 17:28:11 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (4768 in chips) 
+Seat 2: tyoilay (2082 in chips) 
+Seat 9: vl3_2k7 (6650 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+tyoilay: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Kc]
+scorza23: folds 
+tyoilay: raises 1857 to 2057 and is all-in
+vl3_2k7: folds 
+Uncalled bet (1857) returned to tyoilay
+tyoilay collected 475 from pot
+tyoilay: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: tyoilay (small blind) collected (475)
+Seat 9: vl3_2k7 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346764005: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:28:26 UTC [2026/04/04 17:28:26 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (4743 in chips) 
+Seat 2: tyoilay (2332 in chips) 
+Seat 9: vl3_2k7 (6425 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+vl3_2k7: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 7s]
+tyoilay: raises 2107 to 2307 and is all-in
+vl3_2k7: folds 
+scorza23: calls 2107
+*** FLOP *** [Qd 5s Qh]
+*** TURN *** [Qd 5s Qh] [8d]
+*** RIVER *** [Qd 5s Qh 8d] [4h]
+*** SHOW DOWN ***
+scorza23: shows [7h 7s] (two pair, Queens and Sevens)
+tyoilay: shows [Qc Ac] (three of a kind, Queens)
+tyoilay collected 4789 from pot
+*** SUMMARY ***
+Total pot 4789 | Rake 0 
+Board [Qd 5s Qh 8d 4h]
+Seat 1: scorza23 (big blind) showed [7h 7s] and lost with two pair, Queens and Sevens
+Seat 2: tyoilay (button) showed [Qc Ac] and won (4789) with three of a kind, Queens
+Seat 9: vl3_2k7 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346768316: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:28:44 UTC [2026/04/04 17:28:44 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (2411 in chips) 
+Seat 2: tyoilay (4789 in chips) 
+Seat 9: vl3_2k7 (6300 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+scorza23: posts small blind 100
+tyoilay: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Qd]
+vl3_2k7: raises 200 to 400
+scorza23: folds 
+tyoilay: folds 
+Uncalled bet (200) returned to vl3_2k7
+vl3_2k7 collected 575 from pot
+*** SUMMARY ***
+Total pot 575 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: tyoilay (big blind) folded before Flop
+Seat 9: vl3_2k7 (button) collected (575)
+
+
+
+PokerStars Hand #260346771187: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:28:57 UTC [2026/04/04 17:28:57 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (2286 in chips) 
+Seat 2: tyoilay (4564 in chips) 
+Seat 9: vl3_2k7 (6650 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+tyoilay: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Td]
+scorza23: folds 
+tyoilay: raises 200 to 400
+vl3_2k7: folds 
+Uncalled bet (200) returned to tyoilay
+tyoilay collected 475 from pot
+tyoilay: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: tyoilay (small blind) collected (475)
+Seat 9: vl3_2k7 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346773799: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:29:08 UTC [2026/04/04 17:29:08 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (2261 in chips) 
+Seat 2: tyoilay (4814 in chips) 
+Seat 9: vl3_2k7 (6425 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+vl3_2k7: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3h]
+tyoilay: raises 200 to 400
+vl3_2k7: calls 300
+scorza23: folds 
+*** FLOP *** [Tc 5h 6s]
+vl3_2k7: checks 
+tyoilay: checks 
+*** TURN *** [Tc 5h 6s] [8d]
+vl3_2k7: bets 269
+tyoilay: calls 269
+*** RIVER *** [Tc 5h 6s 8d] [4s]
+vl3_2k7: bets 5731 and is all-in
+tyoilay: folds 
+Uncalled bet (5731) returned to vl3_2k7
+vl3_2k7 collected 1613 from pot
+*** SUMMARY ***
+Total pot 1613 | Rake 0 
+Board [Tc 5h 6s 8d 4s]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: tyoilay (button) folded on the River
+Seat 9: vl3_2k7 (small blind) collected (1613)
+
+
+
+PokerStars Hand #260346783137: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:29:49 UTC [2026/04/04 17:29:49 ET]
+Table '3989306107 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (2036 in chips) 
+Seat 2: tyoilay (4120 in chips) 
+Seat 9: vl3_2k7 (7344 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+scorza23: posts small blind 100
+tyoilay: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 8h]
+vl3_2k7: raises 200 to 400
+scorza23: folds 
+tyoilay: folds 
+Uncalled bet (200) returned to vl3_2k7
+vl3_2k7 collected 575 from pot
+*** SUMMARY ***
+Total pot 575 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: tyoilay (big blind) folded before Flop
+Seat 9: vl3_2k7 (button) collected (575)
+
+
+
+PokerStars Hand #260346786133: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:30:01 UTC [2026/04/04 17:30:01 ET]
+Table '3989306107 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (1911 in chips) 
+Seat 2: tyoilay (3895 in chips) 
+Seat 9: vl3_2k7 (7694 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+tyoilay: posts small blind 100
+vl3_2k7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Tc]
+scorza23: folds 
+tyoilay: raises 400 to 600
+vl3_2k7: folds 
+Uncalled bet (400) returned to tyoilay
+tyoilay collected 475 from pot
+tyoilay: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: tyoilay (small blind) collected (475)
+Seat 9: vl3_2k7 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346788965: Tournament #3989306107, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 21:30:14 UTC [2026/04/04 17:30:14 ET]
+Table '3989306107 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (1886 in chips) 
+Seat 2: tyoilay (4145 in chips) 
+Seat 9: vl3_2k7 (7469 in chips) 
+scorza23: posts the ante 25
+tyoilay: posts the ante 25
+vl3_2k7: posts the ante 25
+vl3_2k7: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Ks]
+tyoilay: folds 
+vl3_2k7: raises 7244 to 7444 and is all-in
+scorza23: calls 1661 and is all-in
+Uncalled bet (5583) returned to vl3_2k7
+*** FLOP *** [Jd 7h 8s]
+*** TURN *** [Jd 7h 8s] [2c]
+*** RIVER *** [Jd 7h 8s 2c] [4c]
+*** SHOW DOWN ***
+vl3_2k7: shows [7c Td] (a pair of Sevens)
+scorza23: shows [Ad Ks] (high card Ace)
+vl3_2k7 collected 3797 from pot
+scorza23 finished the tournament in 3rd place and received $1.53.
+*** SUMMARY ***
+Total pot 3797 | Rake 0 
+Board [Jd 7h 8s 2c 4c]
+Seat 1: scorza23 (big blind) showed [Ad Ks] and lost with high card Ace
+Seat 2: tyoilay (button) folded before Flop (didn't bet)
+Seat 9: vl3_2k7 (small blind) showed [7c Td] and won (3797) with a pair of Sevens
+
+
+

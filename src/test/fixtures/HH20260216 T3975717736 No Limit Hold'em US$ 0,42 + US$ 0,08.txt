@@ -1,0 +1,1855 @@
+﻿PokerStars Hand #259751196956: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:53:02 UTC [2026/02/16 12:53:02 ET]
+Table '3975717736 1' 9-max Seat #1 is the button
+Seat 1: totek444 (1500 in chips) 
+Seat 2: lencaatje (1500 in chips) 
+Seat 3: RonieB (1500 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 5: Spotface1966 (1500 in chips) 
+Seat 6: GuigaB586 (1500 in chips) 
+Seat 7: Chev.de Mere (1500 in chips) 
+Seat 8: MDRZ (1500 in chips) 
+Seat 9: REPTOR_13 (1500 in chips) 
+lencaatje: posts small blind 10
+RonieB: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Qd]
+scorza23: folds 
+Spotface1966: calls 20
+GuigaB586: folds 
+Chev.de Mere: folds 
+MDRZ: calls 20
+REPTOR_13: calls 20
+totek444: calls 20
+lencaatje: folds 
+RonieB: checks 
+*** FLOP *** [4c 5h Jh]
+RonieB: bets 110
+Spotface1966: folds 
+MDRZ: folds 
+REPTOR_13: calls 110
+totek444: calls 110
+*** TURN *** [4c 5h Jh] [4d]
+RonieB: bets 220
+REPTOR_13: calls 220
+totek444: folds 
+*** RIVER *** [4c 5h Jh 4d] [8c]
+RonieB: checks 
+REPTOR_13: checks 
+*** SHOW DOWN ***
+RonieB: shows [Jd 7s] (two pair, Jacks and Fours)
+REPTOR_13: mucks hand 
+RonieB collected 880 from pot
+*** SUMMARY ***
+Total pot 880 | Rake 0 
+Board [4c 5h Jh 4d 8c]
+Seat 1: totek444 (button) folded on the Turn
+Seat 2: lencaatje (small blind) folded before Flop
+Seat 3: RonieB (big blind) showed [Jd 7s] and won (880) with two pair, Jacks and Fours
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded on the Flop
+Seat 6: GuigaB586 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded on the Flop
+Seat 9: REPTOR_13 mucked [3h 6h]
+
+
+
+PokerStars Hand #259751211815: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:54:10 UTC [2026/02/16 12:54:10 ET]
+Table '3975717736 1' 9-max Seat #2 is the button
+Seat 1: totek444 (1370 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (2030 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 5: Spotface1966 (1480 in chips) 
+Seat 6: GuigaB586 (1500 in chips) 
+Seat 7: Chev.de Mere (1500 in chips) 
+Seat 8: MDRZ (1480 in chips) 
+Seat 9: REPTOR_13 (1150 in chips) 
+RonieB: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Td]
+Spotface1966: folds 
+GuigaB586: folds 
+Chev.de Mere: folds 
+MDRZ: calls 20
+REPTOR_13: calls 20
+totek444: calls 20
+lencaatje: folds 
+RonieB: calls 10
+scorza23: checks 
+*** FLOP *** [4s 6d Kc]
+RonieB: checks 
+scorza23: checks 
+MDRZ: checks 
+REPTOR_13: checks 
+totek444: checks 
+*** TURN *** [4s 6d Kc] [3s]
+RonieB: checks 
+scorza23: bets 50
+MDRZ: folds 
+REPTOR_13: calls 50
+totek444: calls 50
+RonieB: folds 
+*** RIVER *** [4s 6d Kc 3s] [Jd]
+scorza23: bets 250
+REPTOR_13: folds 
+totek444: folds 
+Uncalled bet (250) returned to scorza23
+scorza23 collected 250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [4s 6d Kc 3s Jd]
+Seat 1: totek444 folded on the River
+Seat 2: lencaatje (button) folded before Flop (didn't bet)
+Seat 3: RonieB (small blind) folded on the Turn
+Seat 4: scorza23 (big blind) collected (250)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 6: GuigaB586 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded on the Turn
+Seat 9: REPTOR_13 folded on the River
+
+
+
+PokerStars Hand #259751222663: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:55:00 UTC [2026/02/16 12:55:00 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 1: totek444 (1300 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (2010 in chips) 
+Seat 4: scorza23 (1680 in chips) 
+Seat 5: Spotface1966 (1480 in chips) 
+Seat 6: GuigaB586 (1500 in chips) 
+Seat 7: Chev.de Mere (1500 in chips) 
+Seat 8: MDRZ (1460 in chips) 
+Seat 9: REPTOR_13 (1080 in chips) 
+scorza23: posts small blind 10
+Spotface1966: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Jc]
+GuigaB586: folds 
+Chev.de Mere: folds 
+MDRZ: calls 20
+REPTOR_13: folds 
+totek444: folds 
+lencaatje: folds 
+RonieB: calls 20
+scorza23: folds 
+Spotface1966: raises 20 to 40
+MDRZ: calls 20
+RonieB: calls 20
+*** FLOP *** [9s 3h 3c]
+Spotface1966: bets 40
+MDRZ: folds 
+RonieB: folds 
+Uncalled bet (40) returned to Spotface1966
+Spotface1966 collected 130 from pot
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Board [9s 3h 3c]
+Seat 1: totek444 folded before Flop (didn't bet)
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB (button) folded on the Flop
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Spotface1966 (big blind) collected (130)
+Seat 6: GuigaB586 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded on the Flop
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751231272: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:55:54 UTC [2026/02/16 12:55:54 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 1: totek444 (1300 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (1970 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (1570 in chips) 
+Seat 6: GuigaB586 (1500 in chips) 
+Seat 7: Chev.de Mere (1500 in chips) 
+Seat 8: MDRZ (1420 in chips) 
+Seat 9: REPTOR_13 (1080 in chips) 
+Spotface1966: posts small blind 10
+GuigaB586: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 4h]
+Chev.de Mere: folds 
+MDRZ: calls 20
+REPTOR_13: calls 20
+totek444: folds 
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 10
+GuigaB586: checks 
+*** FLOP *** [Th 3s Ks]
+Spotface1966: checks 
+GuigaB586: checks 
+MDRZ: checks 
+REPTOR_13: checks 
+*** TURN *** [Th 3s Ks] [5s]
+Spotface1966: checks 
+GuigaB586: bets 40
+MDRZ: folds 
+REPTOR_13: calls 40
+Spotface1966: folds 
+*** RIVER *** [Th 3s Ks 5s] [Js]
+GuigaB586: checks 
+REPTOR_13: checks 
+*** SHOW DOWN ***
+GuigaB586: shows [5h 9h] (a pair of Fives)
+REPTOR_13: shows [9s Ah] (a flush, King high)
+REPTOR_13 collected 160 from pot
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Board [Th 3s Ks 5s Js]
+Seat 1: totek444 folded before Flop (didn't bet)
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Spotface1966 (small blind) folded on the Turn
+Seat 6: GuigaB586 (big blind) showed [5h 9h] and lost with a pair of Fives
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded on the Turn
+Seat 9: REPTOR_13 showed [9s Ah] and won (160) with a flush, King high
+
+
+
+PokerStars Hand #259751238567: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:56:40 UTC [2026/02/16 12:56:40 ET]
+Table '3975717736 1' 9-max Seat #5 is the button
+Seat 1: totek444 (1300 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (1970 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (1550 in chips) 
+Seat 6: GuigaB586 (1440 in chips) 
+Seat 7: Chev.de Mere (1500 in chips) 
+Seat 8: MDRZ (1400 in chips) 
+Seat 9: REPTOR_13 (1180 in chips) 
+GuigaB586: posts small blind 10
+Chev.de Mere: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 4s]
+MDRZ: folds 
+REPTOR_13: folds 
+totek444: folds 
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: folds 
+GuigaB586: raises 20 to 40
+Chev.de Mere: folds 
+Uncalled bet (20) returned to GuigaB586
+GuigaB586 collected 40 from pot
+GuigaB586: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: totek444 folded before Flop (didn't bet)
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 (button) folded before Flop (didn't bet)
+Seat 6: GuigaB586 (small blind) collected (40)
+Seat 7: Chev.de Mere (big blind) folded before Flop
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751240633: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:56:53 UTC [2026/02/16 12:56:53 ET]
+Table '3975717736 1' 9-max Seat #6 is the button
+Seat 1: totek444 (1300 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (1970 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (1550 in chips) 
+Seat 6: GuigaB586 (1460 in chips) 
+Seat 7: Chev.de Mere (1480 in chips) 
+Seat 8: MDRZ (1400 in chips) 
+Seat 9: REPTOR_13 (1180 in chips) 
+Chev.de Mere: posts small blind 10
+MDRZ: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 2d]
+REPTOR_13: calls 20
+totek444: calls 20
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: raises 20 to 40
+GuigaB586: folds 
+Chev.de Mere: folds 
+MDRZ: calls 20
+REPTOR_13: calls 20
+totek444: calls 20
+*** FLOP *** [2h Jh 6h]
+MDRZ: checks 
+REPTOR_13: bets 170
+totek444: calls 170
+Spotface1966: folds 
+MDRZ: folds 
+*** TURN *** [2h Jh 6h] [8s]
+REPTOR_13: bets 255
+totek444: calls 255
+*** RIVER *** [2h Jh 6h 8s] [6d]
+REPTOR_13: bets 510
+totek444: calls 510
+*** SHOW DOWN ***
+REPTOR_13: shows [Qh Jd] (two pair, Jacks and Sixes)
+totek444: mucks hand 
+REPTOR_13 collected 2040 from pot
+*** SUMMARY ***
+Total pot 2040 | Rake 0 
+Board [2h Jh 6h 8s 6d]
+Seat 1: totek444 mucked [9h Jc]
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded on the Flop
+Seat 6: GuigaB586 (button) folded before Flop (didn't bet)
+Seat 7: Chev.de Mere (small blind) folded before Flop
+Seat 8: MDRZ (big blind) folded on the Flop
+Seat 9: REPTOR_13 showed [Qh Jd] and won (2040) with two pair, Jacks and Sixes
+
+
+
+PokerStars Hand #259751250112: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:57:53 UTC [2026/02/16 12:57:53 ET]
+Table '3975717736 1' 9-max Seat #7 is the button
+Seat 1: totek444 (325 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (1970 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (1510 in chips) 
+Seat 6: GuigaB586 (1460 in chips) 
+Seat 7: Chev.de Mere (1470 in chips) 
+Seat 8: MDRZ (1360 in chips) 
+Seat 9: REPTOR_13 (2245 in chips) 
+MDRZ: posts small blind 10
+REPTOR_13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 4c]
+totek444: calls 20
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: raises 20 to 40
+GuigaB586: calls 40
+Chev.de Mere: calls 40
+MDRZ: calls 30
+REPTOR_13: folds 
+totek444: calls 20
+*** FLOP *** [Js 7h 5c]
+MDRZ: checks 
+totek444: checks 
+Spotface1966: bets 80
+GuigaB586: folds 
+Chev.de Mere: calls 80
+MDRZ: folds 
+totek444: calls 80
+*** TURN *** [Js 7h 5c] [4s]
+totek444: checks 
+Spotface1966: bets 60
+Chev.de Mere: folds 
+totek444: calls 60
+*** RIVER *** [Js 7h 5c 4s] [Ac]
+totek444: checks 
+Spotface1966: bets 100
+totek444: folds 
+Uncalled bet (100) returned to Spotface1966
+Spotface1966 collected 580 from pot
+*** SUMMARY ***
+Total pot 580 | Rake 0 
+Board [Js 7h 5c 4s Ac]
+Seat 1: totek444 folded on the River
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 collected (580)
+Seat 6: GuigaB586 folded on the Flop
+Seat 7: Chev.de Mere (button) folded on the Turn
+Seat 8: MDRZ (small blind) folded on the Flop
+Seat 9: REPTOR_13 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259751265453: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:59:28 UTC [2026/02/16 12:59:28 ET]
+Table '3975717736 1' 9-max Seat #8 is the button
+Seat 1: totek444 (145 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (1970 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (1910 in chips) 
+Seat 6: GuigaB586 (1420 in chips) 
+Seat 7: Chev.de Mere (1350 in chips) 
+Seat 8: MDRZ (1320 in chips) 
+Seat 9: REPTOR_13 (2225 in chips) 
+REPTOR_13: posts small blind 15
+totek444: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Tc]
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 30
+GuigaB586: folds 
+Chev.de Mere: folds 
+MDRZ has timed out
+MDRZ: folds 
+MDRZ is sitting out
+REPTOR_13: calls 15
+totek444: checks 
+*** FLOP *** [4d 7h 8c]
+MDRZ has returned
+REPTOR_13: checks 
+totek444: checks 
+Spotface1966: bets 60
+REPTOR_13: calls 60
+totek444: folds 
+*** TURN *** [4d 7h 8c] [Js]
+REPTOR_13: checks 
+Spotface1966: bets 30
+REPTOR_13: raises 60 to 90
+Spotface1966: calls 60
+*** RIVER *** [4d 7h 8c Js] [6s]
+REPTOR_13: checks 
+Spotface1966: bets 120
+REPTOR_13: calls 120
+*** SHOW DOWN ***
+Spotface1966: shows [8h 6h] (two pair, Eights and Sixes)
+REPTOR_13: mucks hand 
+Spotface1966 collected 630 from pot
+*** SUMMARY ***
+Total pot 630 | Rake 0 
+Board [4d 7h 8c Js 6s]
+Seat 1: totek444 (big blind) folded on the Flop
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 showed [8h 6h] and won (630) with two pair, Eights and Sixes
+Seat 6: GuigaB586 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ (button) folded before Flop (didn't bet)
+Seat 9: REPTOR_13 (small blind) mucked [9d Jd]
+
+
+
+PokerStars Hand #259751279737: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:00:50 UTC [2026/02/16 13:00:50 ET]
+Table '3975717736 1' 9-max Seat #9 is the button
+Seat 1: totek444 (115 in chips) 
+Seat 2: lencaatje (1490 in chips) 
+Seat 3: RonieB (1970 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (2240 in chips) 
+Seat 6: GuigaB586 (1420 in chips) 
+Seat 7: Chev.de Mere (1350 in chips) 
+Seat 8: MDRZ (1320 in chips) 
+Seat 9: REPTOR_13 (1925 in chips) 
+totek444: posts small blind 15
+lencaatje: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 6c]
+RonieB: folds 
+scorza23: folds 
+Spotface1966: folds 
+GuigaB586: folds 
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: raises 1895 to 1925 and is all-in
+totek444: calls 100 and is all-in
+lencaatje: folds 
+Uncalled bet (1810) returned to REPTOR_13
+*** FLOP *** [8s Ts Tc]
+*** TURN *** [8s Ts Tc] [3d]
+*** RIVER *** [8s Ts Tc 3d] [Qs]
+*** SHOW DOWN ***
+totek444: shows [Jd 9c] (a straight, Eight to Queen)
+REPTOR_13: shows [Js Jh] (two pair, Jacks and Tens)
+totek444 collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Board [8s Ts Tc 3d Qs]
+Seat 1: totek444 (small blind) showed [Jd 9c] and won (260) with a straight, Eight to Queen
+Seat 2: lencaatje (big blind) folded before Flop
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 6: GuigaB586 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 (button) showed [Js Jh] and lost with two pair, Jacks and Tens
+
+
+
+PokerStars Hand #259751287122: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:01:27 UTC [2026/02/16 13:01:27 ET]
+Table '3975717736 1' 9-max Seat #1 is the button
+Seat 1: totek444 (260 in chips) 
+Seat 2: lencaatje (1460 in chips) 
+Seat 3: RonieB (1970 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (2240 in chips) 
+Seat 6: GuigaB586 (1420 in chips) 
+Seat 7: Chev.de Mere (1350 in chips) 
+Seat 8: MDRZ (1320 in chips) 
+Seat 9: REPTOR_13 (1810 in chips) 
+lencaatje: posts small blind 15
+RonieB: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 4c]
+scorza23: folds 
+Spotface1966: folds 
+GuigaB586: raises 60 to 90
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: folds 
+totek444: raises 170 to 260 and is all-in
+lencaatje: calls 245
+RonieB: folds 
+GuigaB586: raises 1160 to 1420 and is all-in
+lencaatje: folds 
+Uncalled bet (1160) returned to GuigaB586
+*** FLOP *** [Jc 9h Jd]
+*** TURN *** [Jc 9h Jd] [8h]
+*** RIVER *** [Jc 9h Jd 8h] [Qc]
+*** SHOW DOWN ***
+GuigaB586: shows [Ts Tc] (a straight, Eight to Queen)
+totek444: shows [3h Ad] (a pair of Jacks)
+GuigaB586 collected 810 from pot
+totek444 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 810 | Rake 0 
+Board [Jc 9h Jd 8h Qc]
+Seat 1: totek444 (button) showed [3h Ad] and lost with a pair of Jacks
+Seat 2: lencaatje (small blind) folded before Flop
+Seat 3: RonieB (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 6: GuigaB586 showed [Ts Tc] and won (810) with a straight, Eight to Queen
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751297820: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:02:15 UTC [2026/02/16 13:02:15 ET]
+Table '3975717736 1' 9-max Seat #2 is the button
+Seat 2: lencaatje (1200 in chips) 
+Seat 3: RonieB (1940 in chips) 
+Seat 4: scorza23 (1670 in chips) 
+Seat 5: Spotface1966 (2240 in chips) 
+Seat 6: GuigaB586 (1970 in chips) 
+Seat 7: Chev.de Mere (1350 in chips) 
+Seat 8: MDRZ (1320 in chips) 
+Seat 9: REPTOR_13 (1810 in chips) 
+RonieB: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d As]
+Spotface1966: folds 
+GuigaB586: raises 75 to 105
+Chev.de Mere: folds 
+MDRZ: calls 105
+REPTOR_13: raises 1705 to 1810 and is all-in
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+GuigaB586: folds 
+MDRZ: folds 
+Uncalled bet (1705) returned to REPTOR_13
+REPTOR_13 collected 360 from pot
+REPTOR_13: doesn't show hand 
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Seat 2: lencaatje (button) folded before Flop (didn't bet)
+Seat 3: RonieB (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 6: GuigaB586 folded before Flop
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop
+Seat 9: REPTOR_13 collected (360)
+
+
+
+PokerStars Hand #259751304613: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:02:47 UTC [2026/02/16 13:02:47 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 2: lencaatje (1200 in chips) 
+Seat 3: RonieB (1925 in chips) 
+Seat 4: scorza23 (1640 in chips) 
+Seat 5: Spotface1966 (2240 in chips) 
+Seat 6: GuigaB586 (1865 in chips) 
+Seat 7: Chev.de Mere (1350 in chips) 
+Seat 8: MDRZ (1215 in chips) 
+Seat 9: REPTOR_13 (2065 in chips) 
+scorza23: posts small blind 15
+Spotface1966: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 6h]
+GuigaB586: raises 75 to 105
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: folds 
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 75
+*** FLOP *** [8c Ts 9h]
+Spotface1966: bets 120
+GuigaB586: raises 120 to 240
+Spotface1966: raises 1895 to 2135 and is all-in
+GuigaB586: calls 1520 and is all-in
+Uncalled bet (375) returned to Spotface1966
+*** TURN *** [8c Ts 9h] [Ad]
+*** RIVER *** [8c Ts 9h Ad] [9s]
+*** SHOW DOWN ***
+Spotface1966: shows [Kd Kc] (two pair, Kings and Nines)
+GuigaB586: shows [Jd Jc] (two pair, Jacks and Nines)
+Spotface1966 collected 3745 from pot
+GuigaB586 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3745 | Rake 0 
+Board [8c Ts 9h Ad 9s]
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Spotface1966 (big blind) showed [Kd Kc] and won (3745) with two pair, Kings and Nines
+Seat 6: GuigaB586 showed [Jd Jc] and lost with two pair, Jacks and Nines
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751312582: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:03:22 UTC [2026/02/16 13:03:22 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 2: lencaatje (1200 in chips) 
+Seat 3: RonieB (1925 in chips) 
+Seat 4: scorza23 (1625 in chips) 
+Seat 5: Spotface1966 (4120 in chips) 
+Seat 7: Chev.de Mere (1350 in chips) 
+Seat 8: MDRZ (1215 in chips) 
+Seat 9: REPTOR_13 (2065 in chips) 
+Spotface1966: posts small blind 25
+Chev.de Mere: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Ks]
+MDRZ: folds 
+REPTOR_13: folds 
+lencaatje: folds 
+RonieB: folds 
+scorza23: raises 100 to 150
+Spotface1966: folds 
+Chev.de Mere: calls 100
+*** FLOP *** [Ts Tc 4c]
+Chev.de Mere: checks 
+scorza23: bets 163
+Chev.de Mere: folds 
+Uncalled bet (163) returned to scorza23
+scorza23 collected 325 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Board [Ts Tc 4c]
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) collected (325)
+Seat 5: Spotface1966 (small blind) folded before Flop
+Seat 7: Chev.de Mere (big blind) folded on the Flop
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751318393: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:03:49 UTC [2026/02/16 13:03:49 ET]
+Table '3975717736 1' 9-max Seat #5 is the button
+Seat 2: lencaatje (1200 in chips) 
+Seat 3: RonieB (1925 in chips) 
+Seat 4: scorza23 (1800 in chips) 
+Seat 5: Spotface1966 (4095 in chips) 
+Seat 7: Chev.de Mere (1200 in chips) 
+Seat 8: MDRZ (1215 in chips) 
+Seat 9: REPTOR_13 (2065 in chips) 
+Chev.de Mere: posts small blind 25
+MDRZ: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 8s]
+REPTOR_13: folds 
+lencaatje: raises 50 to 100
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 100
+Chev.de Mere: folds 
+MDRZ: calls 50
+*** FLOP *** [5c Qh Qd]
+MDRZ: checks 
+lencaatje: bets 50
+Spotface1966: calls 50
+MDRZ: folds 
+*** TURN *** [5c Qh Qd] [6s]
+lencaatje: bets 100
+Spotface1966: folds 
+Uncalled bet (100) returned to lencaatje
+lencaatje collected 425 from pot
+lencaatje: doesn't show hand 
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Board [5c Qh Qd 6s]
+Seat 2: lencaatje collected (425)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 (button) folded on the Turn
+Seat 7: Chev.de Mere (small blind) folded before Flop
+Seat 8: MDRZ (big blind) folded on the Flop
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751330438: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:04:42 UTC [2026/02/16 13:04:42 ET]
+Table '3975717736 1' 9-max Seat #7 is the button
+Seat 2: lencaatje (1475 in chips) 
+Seat 3: RonieB (1925 in chips) 
+Seat 4: scorza23 (1800 in chips) 
+Seat 5: Spotface1966 (3945 in chips) 
+Seat 7: Chev.de Mere (1175 in chips) 
+Seat 8: MDRZ (1115 in chips) 
+Seat 9: REPTOR_13 (2065 in chips) 
+MDRZ: posts small blind 25
+REPTOR_13: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 9d]
+lencaatje: calls 50
+RonieB: folds 
+scorza23: folds 
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: calls 25
+REPTOR_13: checks 
+*** FLOP *** [8h 9s 4h]
+MDRZ: checks 
+REPTOR_13: checks 
+lencaatje: checks 
+*** TURN *** [8h 9s 4h] [2s]
+MDRZ: checks 
+REPTOR_13: checks 
+lencaatje: checks 
+*** RIVER *** [8h 9s 4h 2s] [Kd]
+MDRZ: checks 
+REPTOR_13: checks 
+lencaatje: checks 
+*** SHOW DOWN ***
+MDRZ: shows [Ac 2h] (a pair of Deuces)
+REPTOR_13: mucks hand 
+lencaatje: mucks hand 
+MDRZ collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Board [8h 9s 4h 2s Kd]
+Seat 2: lencaatje mucked [3c Ad]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: MDRZ (small blind) showed [Ac 2h] and won (150) with a pair of Deuces
+Seat 9: REPTOR_13 (big blind) mucked [Jh 5c]
+
+
+
+PokerStars Hand #259751340817: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:05:28 UTC [2026/02/16 13:05:28 ET]
+Table '3975717736 1' 9-max Seat #8 is the button
+Seat 2: lencaatje (1425 in chips) 
+Seat 3: RonieB (1925 in chips) 
+Seat 4: scorza23 (1800 in chips) 
+Seat 5: Spotface1966 (3945 in chips) 
+Seat 7: Chev.de Mere (1175 in chips) 
+Seat 8: MDRZ (1215 in chips) 
+Seat 9: REPTOR_13 (2015 in chips) 
+REPTOR_13: posts small blind 25
+lencaatje: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 7s]
+RonieB: folds 
+scorza23: raises 125 to 175
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: folds 
+lencaatje: folds 
+Uncalled bet (125) returned to scorza23
+scorza23 collected 125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 2: lencaatje (big blind) folded before Flop
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 collected (125)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ (button) folded before Flop (didn't bet)
+Seat 9: REPTOR_13 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259751344343: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:05:44 UTC [2026/02/16 13:05:44 ET]
+Table '3975717736 1' 9-max Seat #9 is the button
+Seat 2: lencaatje (1375 in chips) 
+Seat 3: RonieB (1925 in chips) 
+Seat 4: scorza23 (1875 in chips) 
+Seat 5: Spotface1966 (3945 in chips) 
+Seat 7: Chev.de Mere (1175 in chips) 
+Seat 8: MDRZ (1215 in chips) 
+Seat 9: REPTOR_13 (1990 in chips) 
+lencaatje: posts small blind 25
+RonieB: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jc]
+scorza23: folds 
+Spotface1966: folds 
+Chev.de Mere: raises 75 to 125
+MDRZ: folds 
+REPTOR_13: raises 1865 to 1990 and is all-in
+lencaatje: folds 
+RonieB: folds 
+Chev.de Mere: calls 1050 and is all-in
+Uncalled bet (815) returned to REPTOR_13
+*** FLOP *** [Ts 4h 4c]
+*** TURN *** [Ts 4h 4c] [6d]
+*** RIVER *** [Ts 4h 4c 6d] [Tc]
+*** SHOW DOWN ***
+Chev.de Mere: shows [Ad Qd] (two pair, Tens and Fours)
+REPTOR_13: shows [Ks Ac] (two pair, Tens and Fours)
+Chev.de Mere collected 1213 from pot
+REPTOR_13 collected 1212 from pot
+*** SUMMARY ***
+Total pot 2425 | Rake 0 
+Board [Ts 4h 4c 6d Tc]
+Seat 2: lencaatje (small blind) folded before Flop
+Seat 3: RonieB (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere showed [Ad Qd] and won (1213) with two pair, Tens and Fours
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 (button) showed [Ks Ac] and won (1212) with two pair, Tens and Fours
+
+
+
+PokerStars Hand #259751354328: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:06:28 UTC [2026/02/16 13:06:28 ET]
+Table '3975717736 1' 9-max Seat #2 is the button
+Seat 2: lencaatje (1350 in chips) 
+Seat 3: RonieB (1875 in chips) 
+Seat 4: scorza23 (1875 in chips) 
+Seat 5: Spotface1966 (3945 in chips) 
+Seat 7: Chev.de Mere (1213 in chips) 
+Seat 8: MDRZ (1215 in chips) 
+Seat 9: REPTOR_13 (2027 in chips) 
+RonieB: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 6s]
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: calls 50
+REPTOR_13: calls 50
+lencaatje: folds 
+RonieB: folds 
+scorza23: checks 
+*** FLOP *** [6c 9c 9h]
+scorza23: bets 175
+MDRZ: folds 
+REPTOR_13: folds 
+Uncalled bet (175) returned to scorza23
+scorza23 collected 175 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 175 | Rake 0 
+Board [6c 9c 9h]
+Seat 2: lencaatje (button) folded before Flop (didn't bet)
+Seat 3: RonieB (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (175)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded on the Flop
+Seat 9: REPTOR_13 folded on the Flop
+
+
+
+PokerStars Hand #259751361517: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:07:01 UTC [2026/02/16 13:07:01 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 2: lencaatje (1350 in chips) 
+Seat 3: RonieB (1850 in chips) 
+Seat 4: scorza23 (2000 in chips) 
+Seat 5: Spotface1966 (3945 in chips) 
+Seat 7: Chev.de Mere (1213 in chips) 
+Seat 8: MDRZ (1165 in chips) 
+Seat 9: REPTOR_13 (1977 in chips) 
+scorza23: posts small blind 25
+Spotface1966: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2c]
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: raises 1927 to 1977 and is all-in
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: folds 
+Uncalled bet (1927) returned to REPTOR_13
+REPTOR_13 collected 125 from pot
+REPTOR_13: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Spotface1966 (big blind) folded before Flop
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 collected (125)
+
+
+
+PokerStars Hand #259751365723: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 18:07:19 UTC [2026/02/16 13:07:19 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 2: lencaatje (1350 in chips) 
+Seat 3: RonieB (1850 in chips) 
+Seat 4: scorza23 (1975 in chips) 
+Seat 5: Spotface1966 (3895 in chips) 
+Seat 7: Chev.de Mere (1213 in chips) 
+Seat 8: MDRZ (1165 in chips) 
+Seat 9: REPTOR_13 (2052 in chips) 
+Spotface1966: posts small blind 25
+Chev.de Mere: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 7d]
+MDRZ: calls 50
+REPTOR_13: calls 50
+lencaatje: calls 50
+RonieB: folds 
+scorza23: folds 
+Spotface1966: raises 50 to 100
+Chev.de Mere: folds 
+MDRZ: calls 50
+REPTOR_13: calls 50
+lencaatje: calls 50
+*** FLOP *** [8d 3c 4h]
+Spotface1966: bets 50
+MDRZ: calls 50
+REPTOR_13: calls 50
+lencaatje: calls 50
+*** TURN *** [8d 3c 4h] [6s]
+Spotface1966: bets 50
+MDRZ: calls 50
+REPTOR_13: calls 50
+lencaatje: folds 
+*** RIVER *** [8d 3c 4h 6s] [5c]
+Spotface1966: bets 50
+MDRZ: calls 50
+REPTOR_13: folds 
+*** SHOW DOWN ***
+Spotface1966: shows [As Qc] (high card Ace)
+MDRZ: shows [5s 5h] (three of a kind, Fives)
+MDRZ collected 900 from pot
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [8d 3c 4h 6s 5c]
+Seat 2: lencaatje folded on the Turn
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Spotface1966 (small blind) showed [As Qc] and lost with high card Ace
+Seat 7: Chev.de Mere (big blind) folded before Flop
+Seat 8: MDRZ showed [5s 5h] and won (900) with three of a kind, Fives
+Seat 9: REPTOR_13 folded on the River
+
+
+
+PokerStars Hand #259751380116: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:08:23 UTC [2026/02/16 13:08:23 ET]
+Table '3975717736 1' 9-max Seat #5 is the button
+Seat 2: lencaatje (1200 in chips) 
+Seat 3: RonieB (1850 in chips) 
+Seat 4: scorza23 (1975 in chips) 
+Seat 5: Spotface1966 (3645 in chips) 
+Seat 7: Chev.de Mere (1163 in chips) 
+Seat 8: MDRZ (1815 in chips) 
+Seat 9: REPTOR_13 (1852 in chips) 
+Chev.de Mere: posts small blind 50
+MDRZ: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Qh]
+REPTOR_13: calls 100
+lencaatje: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 100
+Chev.de Mere: folds 
+MDRZ: checks 
+*** FLOP *** [8h 2d 7h]
+MDRZ: checks 
+REPTOR_13: checks 
+Spotface1966: checks 
+*** TURN *** [8h 2d 7h] [Ts]
+MDRZ: checks 
+REPTOR_13: bets 1752 and is all-in
+Spotface1966: folds 
+MDRZ: folds 
+Uncalled bet (1752) returned to REPTOR_13
+REPTOR_13 collected 350 from pot
+REPTOR_13: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Board [8h 2d 7h Ts]
+Seat 2: lencaatje folded before Flop (didn't bet)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 (button) folded on the Turn
+Seat 7: Chev.de Mere (small blind) folded before Flop
+Seat 8: MDRZ (big blind) folded on the Turn
+Seat 9: REPTOR_13 collected (350)
+
+
+
+PokerStars Hand #259751390109: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:09:08 UTC [2026/02/16 13:09:08 ET]
+Table '3975717736 1' 9-max Seat #7 is the button
+Seat 2: lencaatje (1200 in chips) 
+Seat 3: RonieB (1850 in chips) 
+Seat 4: scorza23 (1975 in chips) 
+Seat 5: Spotface1966 (3545 in chips) 
+Seat 7: Chev.de Mere (1113 in chips) 
+Seat 8: MDRZ (1715 in chips) 
+Seat 9: REPTOR_13 (2102 in chips) 
+MDRZ: posts small blind 50
+REPTOR_13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 4d]
+lencaatje: raises 100 to 200
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 200
+Chev.de Mere: calls 200
+MDRZ: folds 
+REPTOR_13: folds 
+*** FLOP *** [5h Jh 4s]
+lencaatje: bets 200
+Spotface1966: folds 
+Chev.de Mere: raises 633 to 833
+lencaatje: calls 633
+*** TURN *** [5h Jh 4s] [6d]
+lencaatje: checks 
+Chev.de Mere: checks 
+*** RIVER *** [5h Jh 4s 6d] [8c]
+lencaatje: checks 
+Chev.de Mere: checks 
+*** SHOW DOWN ***
+lencaatje: shows [9d 9c] (a pair of Nines)
+Chev.de Mere: shows [Qd Qh] (a pair of Queens)
+Chev.de Mere collected 2416 from pot
+*** SUMMARY ***
+Total pot 2416 | Rake 0 
+Board [5h Jh 4s 6d 8c]
+Seat 2: lencaatje showed [9d 9c] and lost with a pair of Nines
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded on the Flop
+Seat 7: Chev.de Mere (button) showed [Qd Qh] and won (2416) with a pair of Queens
+Seat 8: MDRZ (small blind) folded before Flop
+Seat 9: REPTOR_13 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259751403314: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:10:06 UTC [2026/02/16 13:10:06 ET]
+Table '3975717736 1' 9-max Seat #8 is the button
+Seat 2: lencaatje (167 in chips) 
+Seat 3: RonieB (1850 in chips) 
+Seat 4: scorza23 (1975 in chips) 
+Seat 5: Spotface1966 (3345 in chips) 
+Seat 7: Chev.de Mere (2496 in chips) 
+Seat 8: MDRZ (1665 in chips) 
+Seat 9: REPTOR_13 (2002 in chips) 
+REPTOR_13: posts small blind 50
+lencaatje: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Jd]
+RonieB: folds 
+scorza23: folds 
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: folds 
+Uncalled bet (50) returned to lencaatje
+lencaatje collected 100 from pot
+lencaatje: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 2: lencaatje (big blind) collected (100)
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ (button) folded before Flop (didn't bet)
+Seat 9: REPTOR_13 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259751410240: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:10:36 UTC [2026/02/16 13:10:36 ET]
+Table '3975717736 1' 9-max Seat #9 is the button
+Seat 2: lencaatje (217 in chips) 
+Seat 3: RonieB (1850 in chips) 
+Seat 4: scorza23 (1975 in chips) 
+Seat 5: Spotface1966 (3345 in chips) 
+Seat 7: Chev.de Mere (2496 in chips) 
+Seat 8: MDRZ (1665 in chips) 
+Seat 9: REPTOR_13 (1952 in chips) 
+lencaatje: posts small blind 50
+RonieB: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ad]
+scorza23: raises 200 to 300
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: folds 
+lencaatje: calls 167 and is all-in
+RonieB: folds 
+Uncalled bet (83) returned to scorza23
+*** FLOP *** [8d Qh Tc]
+*** TURN *** [8d Qh Tc] [Kd]
+*** RIVER *** [8d Qh Tc Kd] [Ac]
+*** SHOW DOWN ***
+lencaatje: shows [6h 7s] (high card Ace)
+scorza23: shows [Td Ad] (two pair, Aces and Tens)
+scorza23 collected 534 from pot
+lencaatje finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 534 | Rake 0 
+Board [8d Qh Tc Kd Ac]
+Seat 2: lencaatje (small blind) showed [6h 7s] and lost with high card Ace
+Seat 3: RonieB (big blind) folded before Flop
+Seat 4: scorza23 showed [Td Ad] and won (534) with two pair, Aces and Tens
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751417230: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:11:07 UTC [2026/02/16 13:11:07 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 3: RonieB (1750 in chips) 
+Seat 4: scorza23 (2292 in chips) 
+Seat 5: Spotface1966 (3345 in chips) 
+Seat 7: Chev.de Mere (2496 in chips) 
+Seat 8: MDRZ (1665 in chips) 
+Seat 9: REPTOR_13 (1952 in chips) 
+scorza23: posts small blind 50
+Spotface1966: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 5d]
+Chev.de Mere: folds 
+MDRZ: calls 100
+REPTOR_13: calls 100
+RonieB: folds 
+scorza23: folds 
+Spotface1966: checks 
+*** FLOP *** [7c 6h 5s]
+Spotface1966: bets 300
+MDRZ: folds 
+REPTOR_13: folds 
+Uncalled bet (300) returned to Spotface1966
+Spotface1966 collected 350 from pot
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Board [7c 6h 5s]
+Seat 3: RonieB (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Spotface1966 (big blind) collected (350)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded on the Flop
+Seat 9: REPTOR_13 folded on the Flop
+
+
+
+PokerStars Hand #259751423101: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:11:33 UTC [2026/02/16 13:11:33 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 3: RonieB (1750 in chips) 
+Seat 4: scorza23 (2242 in chips) 
+Seat 5: Spotface1966 (3595 in chips) 
+Seat 7: Chev.de Mere (2496 in chips) 
+Seat 8: MDRZ (1565 in chips) 
+Seat 9: REPTOR_13 (1852 in chips) 
+Spotface1966: posts small blind 50
+Chev.de Mere: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 9d]
+MDRZ: folds 
+REPTOR_13: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 50
+Chev.de Mere: checks 
+*** FLOP *** [7c Tc Kh]
+Spotface1966: bets 100
+Chev.de Mere: folds 
+Uncalled bet (100) returned to Spotface1966
+Spotface1966 collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [7c Tc Kh]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Spotface1966 (small blind) collected (200)
+Seat 7: Chev.de Mere (big blind) folded on the Flop
+Seat 8: MDRZ folded before Flop (didn't bet)
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751432361: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:12:13 UTC [2026/02/16 13:12:13 ET]
+Table '3975717736 1' 9-max Seat #5 is the button
+Seat 3: RonieB (1750 in chips) 
+Seat 4: scorza23 (2242 in chips) 
+Seat 5: Spotface1966 (3695 in chips) 
+Seat 7: Chev.de Mere (2396 in chips) 
+Seat 8: MDRZ (1565 in chips) 
+Seat 9: REPTOR_13 (1852 in chips) 
+Chev.de Mere: posts small blind 50
+MDRZ: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Kc]
+REPTOR_13: folds 
+RonieB: raises 200 to 300
+scorza23: folds 
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: folds 
+Uncalled bet (200) returned to RonieB
+RonieB collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 3: RonieB collected (250)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 (button) folded before Flop (didn't bet)
+Seat 7: Chev.de Mere (small blind) folded before Flop
+Seat 8: MDRZ (big blind) folded before Flop
+Seat 9: REPTOR_13 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751436365: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:12:30 UTC [2026/02/16 13:12:30 ET]
+Table '3975717736 1' 9-max Seat #7 is the button
+Seat 3: RonieB (1900 in chips) 
+Seat 4: scorza23 (2242 in chips) 
+Seat 5: Spotface1966 (3695 in chips) 
+Seat 7: Chev.de Mere (2346 in chips) 
+Seat 8: MDRZ (1465 in chips) 
+Seat 9: REPTOR_13 (1852 in chips) 
+MDRZ: posts small blind 50
+REPTOR_13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 4s]
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 100
+Chev.de Mere: folds 
+MDRZ: calls 50
+REPTOR_13: checks 
+*** FLOP *** [Jc Ts 9c]
+MDRZ: checks 
+REPTOR_13: checks 
+Spotface1966: bets 100
+MDRZ: folds 
+REPTOR_13: folds 
+Uncalled bet (100) returned to Spotface1966
+Spotface1966 collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Jc Ts 9c]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 collected (300)
+Seat 7: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: MDRZ (small blind) folded on the Flop
+Seat 9: REPTOR_13 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259751442446: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 18:12:57 UTC [2026/02/16 13:12:57 ET]
+Table '3975717736 1' 9-max Seat #8 is the button
+Seat 3: RonieB (1900 in chips) 
+Seat 4: scorza23 (2242 in chips) 
+Seat 5: Spotface1966 (3895 in chips) 
+Seat 7: Chev.de Mere (2346 in chips) 
+Seat 8: MDRZ (1365 in chips) 
+Seat 9: REPTOR_13 (1752 in chips) 
+REPTOR_13: posts small blind 50
+RonieB: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs As]
+scorza23: raises 200 to 300
+Spotface1966: calls 300
+Chev.de Mere: folds 
+MDRZ: folds 
+REPTOR_13: raises 1452 to 1752 and is all-in
+RonieB: folds 
+scorza23: calls 1452
+Spotface1966: folds 
+*** FLOP *** [2d Th Kd]
+*** TURN *** [2d Th Kd] [3h]
+*** RIVER *** [2d Th Kd 3h] [Jc]
+*** SHOW DOWN ***
+REPTOR_13: shows [4c 4h] (a pair of Fours)
+scorza23: shows [Qs As] (a straight, Ten to Ace)
+scorza23 collected 3904 from pot
+REPTOR_13 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 3904 | Rake 0 
+Board [2d Th Kd 3h Jc]
+Seat 3: RonieB (big blind) folded before Flop
+Seat 4: scorza23 showed [Qs As] and won (3904) with a straight, Ten to Ace
+Seat 5: Spotface1966 folded before Flop
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ (button) folded before Flop (didn't bet)
+Seat 9: REPTOR_13 (small blind) showed [4c 4h] and lost with a pair of Fours
+
+
+
+PokerStars Hand #259751449196: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:13:26 UTC [2026/02/16 13:13:26 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 3: RonieB (1800 in chips) 
+Seat 4: scorza23 (4394 in chips) 
+Seat 5: Spotface1966 (3595 in chips) 
+Seat 7: Chev.de Mere (2346 in chips) 
+Seat 8: MDRZ (1365 in chips) 
+scorza23: posts small blind 75
+Spotface1966: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3d]
+Chev.de Mere: folds 
+MDRZ: folds 
+RonieB: folds 
+scorza23: folds 
+Uncalled bet (75) returned to Spotface1966
+Spotface1966 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 3: RonieB (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Spotface1966 (big blind) collected (150)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751450890: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:13:33 UTC [2026/02/16 13:13:33 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 3: RonieB (1800 in chips) 
+Seat 4: scorza23 (4319 in chips) 
+Seat 5: Spotface1966 (3670 in chips) 
+Seat 7: Chev.de Mere (2346 in chips) 
+Seat 8: MDRZ (1365 in chips) 
+Spotface1966: posts small blind 75
+Chev.de Mere: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 5s]
+MDRZ: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 75
+Chev.de Mere: checks 
+*** FLOP *** [Ac Kc 9d]
+Spotface1966: checks 
+Chev.de Mere: bets 165
+Spotface1966: folds 
+Uncalled bet (165) returned to Chev.de Mere
+Chev.de Mere collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Ac Kc 9d]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Spotface1966 (small blind) folded on the Flop
+Seat 7: Chev.de Mere (big blind) collected (300)
+Seat 8: MDRZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751454385: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:13:49 UTC [2026/02/16 13:13:49 ET]
+Table '3975717736 1' 9-max Seat #5 is the button
+Seat 3: RonieB (1800 in chips) 
+Seat 4: scorza23 (4319 in chips) 
+Seat 5: Spotface1966 (3520 in chips) 
+Seat 7: Chev.de Mere (2496 in chips) 
+Seat 8: MDRZ (1365 in chips) 
+Chev.de Mere: posts small blind 75
+MDRZ: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 7c]
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 150
+Chev.de Mere: calls 75
+MDRZ: checks 
+*** FLOP *** [3s Ad 8h]
+Chev.de Mere: bets 248
+MDRZ: calls 248
+Spotface1966: folds 
+*** TURN *** [3s Ad 8h] [Ks]
+Chev.de Mere: bets 520
+MDRZ: folds 
+Uncalled bet (520) returned to Chev.de Mere
+Chev.de Mere collected 946 from pot
+*** SUMMARY ***
+Total pot 946 | Rake 0 
+Board [3s Ad 8h Ks]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 (button) folded on the Flop
+Seat 7: Chev.de Mere (small blind) collected (946)
+Seat 8: MDRZ (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259751459340: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:14:10 UTC [2026/02/16 13:14:10 ET]
+Table '3975717736 1' 9-max Seat #7 is the button
+Seat 3: RonieB (1800 in chips) 
+Seat 4: scorza23 (4319 in chips) 
+Seat 5: Spotface1966 (3370 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (967 in chips) 
+MDRZ: posts small blind 75
+RonieB: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ah]
+scorza23: folds 
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: calls 75
+RonieB: checks 
+*** FLOP *** [6d Js 6c]
+MDRZ: checks 
+RonieB: checks 
+*** TURN *** [6d Js 6c] [Qh]
+MDRZ: checks 
+RonieB: checks 
+*** RIVER *** [6d Js 6c Qh] [5h]
+MDRZ: bets 150
+RonieB: folds 
+Uncalled bet (150) returned to MDRZ
+MDRZ collected 300 from pot
+MDRZ: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [6d Js 6c Qh 5h]
+Seat 3: RonieB (big blind) folded on the River
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: MDRZ (small blind) collected (300)
+
+
+
+PokerStars Hand #259751464843: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:14:35 UTC [2026/02/16 13:14:35 ET]
+Table '3975717736 1' 9-max Seat #8 is the button
+Seat 3: RonieB (1650 in chips) 
+Seat 4: scorza23 (4319 in chips) 
+Seat 5: Spotface1966 (3370 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (1117 in chips) 
+RonieB: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 6d]
+Spotface1966: calls 150
+Chev.de Mere: folds 
+MDRZ: folds 
+RonieB: folds 
+scorza23: checks 
+*** FLOP *** [6s Qs 6c]
+scorza23: bets 150
+Spotface1966: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [6s Qs 6c]
+Seat 3: RonieB (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (375)
+Seat 5: Spotface1966 folded on the Flop
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751468424: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:14:50 UTC [2026/02/16 13:14:50 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 3: RonieB (1575 in chips) 
+Seat 4: scorza23 (4544 in chips) 
+Seat 5: Spotface1966 (3220 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (1117 in chips) 
+scorza23: posts small blind 75
+Spotface1966: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Jh]
+Chev.de Mere: folds 
+MDRZ: folds 
+RonieB: folds 
+scorza23: raises 300 to 450
+Spotface1966: folds 
+Uncalled bet (300) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 3: RonieB (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) collected (300)
+Seat 5: Spotface1966 (big blind) folded before Flop
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751471653: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:15:04 UTC [2026/02/16 13:15:04 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 3: RonieB (1575 in chips) 
+Seat 4: scorza23 (4694 in chips) 
+Seat 5: Spotface1966 (3070 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (1117 in chips) 
+Spotface1966: posts small blind 75
+Chev.de Mere: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5c]
+MDRZ: folds 
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 75
+Chev.de Mere: checks 
+*** FLOP *** [7s 3d 6c]
+Spotface1966: bets 150
+Chev.de Mere: folds 
+Uncalled bet (150) returned to Spotface1966
+Spotface1966 collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [7s 3d 6c]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Spotface1966 (small blind) collected (300)
+Seat 7: Chev.de Mere (big blind) folded on the Flop
+Seat 8: MDRZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751477021: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:15:27 UTC [2026/02/16 13:15:27 ET]
+Table '3975717736 1' 9-max Seat #5 is the button
+Seat 3: RonieB (1575 in chips) 
+Seat 4: scorza23 (4694 in chips) 
+Seat 5: Spotface1966 (3220 in chips) 
+Seat 7: Chev.de Mere (2894 in chips) 
+Seat 8: MDRZ (1117 in chips) 
+Chev.de Mere: posts small blind 75
+MDRZ: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 8h]
+RonieB: folds 
+scorza23: folds 
+Spotface1966: folds 
+Chev.de Mere: calls 75
+MDRZ: checks 
+*** FLOP *** [Qh 8s 9c]
+Chev.de Mere: checks 
+MDRZ: checks 
+*** TURN *** [Qh 8s 9c] [9d]
+Chev.de Mere: checks 
+MDRZ: checks 
+*** RIVER *** [Qh 8s 9c 9d] [3d]
+Chev.de Mere: checks 
+MDRZ: checks 
+*** SHOW DOWN ***
+Chev.de Mere: shows [2h Ah] (a pair of Nines)
+MDRZ: mucks hand 
+Chev.de Mere collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [Qh 8s 9c 9d 3d]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 (button) folded before Flop (didn't bet)
+Seat 7: Chev.de Mere (small blind) showed [2h Ah] and won (300) with a pair of Nines
+Seat 8: MDRZ (big blind) mucked [6s Kh]
+
+
+
+PokerStars Hand #259751482645: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:15:51 UTC [2026/02/16 13:15:51 ET]
+Table '3975717736 1' 9-max Seat #7 is the button
+Seat 3: RonieB (1575 in chips) 
+Seat 4: scorza23 (4694 in chips) 
+Seat 5: Spotface1966 (3220 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (967 in chips) 
+MDRZ: posts small blind 75
+RonieB: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 6d]
+scorza23: folds 
+Spotface1966: calls 150
+Chev.de Mere: folds 
+MDRZ: calls 75
+RonieB: checks 
+*** FLOP *** [9d 9s 3d]
+MDRZ: checks 
+RonieB: checks 
+Spotface1966: checks 
+*** TURN *** [9d 9s 3d] [4d]
+MDRZ: checks 
+RonieB: checks 
+Spotface1966: checks 
+*** RIVER *** [9d 9s 3d 4d] [9c]
+MDRZ: checks 
+RonieB: checks 
+Spotface1966: bets 150
+MDRZ: folds 
+RonieB: calls 150
+*** SHOW DOWN ***
+Spotface1966: shows [8s Ac] (three of a kind, Nines)
+RonieB: shows [3c 8d] (a full house, Nines full of Threes)
+RonieB collected 750 from pot
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Board [9d 9s 3d 4d 9c]
+Seat 3: RonieB (big blind) showed [3c 8d] and won (750) with a full house, Nines full of Threes
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 showed [8s Ac] and lost with three of a kind, Nines
+Seat 7: Chev.de Mere (button) folded before Flop (didn't bet)
+Seat 8: MDRZ (small blind) folded on the River
+
+
+
+PokerStars Hand #259751490907: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:16:26 UTC [2026/02/16 13:16:26 ET]
+Table '3975717736 1' 9-max Seat #8 is the button
+Seat 3: RonieB (2025 in chips) 
+Seat 4: scorza23 (4694 in chips) 
+Seat 5: Spotface1966 (2920 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (817 in chips) 
+RonieB: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 6d]
+Spotface1966: folds 
+Chev.de Mere: folds 
+MDRZ: calls 150
+RonieB: folds 
+scorza23: checks 
+*** FLOP *** [Qc 5d Ts]
+scorza23: checks 
+MDRZ: checks 
+*** TURN *** [Qc 5d Ts] [2c]
+scorza23: checks 
+MDRZ: checks 
+*** RIVER *** [Qc 5d Ts 2c] [3d]
+scorza23: bets 150
+MDRZ: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [Qc 5d Ts 2c 3d]
+Seat 3: RonieB (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (375)
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ (button) folded on the River
+
+
+
+PokerStars Hand #259751497089: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:16:53 UTC [2026/02/16 13:16:53 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 3: RonieB (1950 in chips) 
+Seat 4: scorza23 (4919 in chips) 
+Seat 5: Spotface1966 (2920 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (667 in chips) 
+scorza23: posts small blind 75
+Spotface1966: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd As]
+Chev.de Mere: folds 
+MDRZ: folds 
+RonieB: folds 
+scorza23: raises 300 to 450
+Spotface1966: calls 300
+*** FLOP *** [3c Qh 5s]
+scorza23: checks 
+Spotface1966: bets 450
+scorza23: folds 
+Uncalled bet (450) returned to Spotface1966
+Spotface1966 collected 900 from pot
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [3c Qh 5s]
+Seat 3: RonieB (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded on the Flop
+Seat 5: Spotface1966 (big blind) collected (900)
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+Seat 8: MDRZ folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751501523: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:17:12 UTC [2026/02/16 13:17:12 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 3: RonieB (1950 in chips) 
+Seat 4: scorza23 (4469 in chips) 
+Seat 5: Spotface1966 (3370 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+Seat 8: MDRZ (667 in chips) 
+Spotface1966: posts small blind 75
+Chev.de Mere: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Ts]
+MDRZ: calls 150
+RonieB: folds 
+scorza23: folds 
+Spotface1966: calls 75
+Chev.de Mere: checks 
+*** FLOP *** [Ah Js Qs]
+Spotface1966: bets 300
+Chev.de Mere: folds 
+MDRZ: calls 300
+*** TURN *** [Ah Js Qs] [5c]
+Spotface1966: bets 450
+MDRZ: calls 217 and is all-in
+Uncalled bet (233) returned to Spotface1966
+*** RIVER *** [Ah Js Qs 5c] [2h]
+*** SHOW DOWN ***
+Spotface1966: shows [Ad 5h] (two pair, Aces and Fives)
+MDRZ: shows [8d Ac] (a pair of Aces)
+Spotface1966 collected 1484 from pot
+MDRZ finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1484 | Rake 0 
+Board [Ah Js Qs 5c 2h]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: Spotface1966 (small blind) showed [Ad 5h] and won (1484) with two pair, Aces and Fives
+Seat 7: Chev.de Mere (big blind) folded on the Flop
+Seat 8: MDRZ showed [8d Ac] and lost with a pair of Aces
+
+
+
+PokerStars Hand #259751509589: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 18:17:46 UTC [2026/02/16 13:17:46 ET]
+Table '3975717736 1' 9-max Seat #5 is the button
+Seat 3: RonieB (1950 in chips) 
+Seat 4: scorza23 (4469 in chips) 
+Seat 5: Spotface1966 (4187 in chips) 
+Seat 7: Chev.de Mere (2894 in chips) 
+Chev.de Mere: posts small blind 75
+RonieB: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 6s]
+scorza23: folds 
+Spotface1966: folds 
+Chev.de Mere: raises 2744 to 2894 and is all-in
+RonieB: folds 
+Uncalled bet (2744) returned to Chev.de Mere
+Chev.de Mere collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 3: RonieB (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Spotface1966 (button) folded before Flop (didn't bet)
+Seat 7: Chev.de Mere (small blind) collected (300)
+
+
+
+PokerStars Hand #259751515659: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 18:18:12 UTC [2026/02/16 13:18:12 ET]
+Table '3975717736 1' 9-max Seat #7 is the button
+Seat 3: RonieB (1800 in chips) 
+Seat 4: scorza23 (4469 in chips) 
+Seat 5: Spotface1966 (4187 in chips) 
+Seat 7: Chev.de Mere (3044 in chips) 
+RonieB: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Js]
+Spotface1966: folds 
+Chev.de Mere: raises 300 to 500
+RonieB: folds 
+scorza23: raises 3969 to 4469 and is all-in
+Chev.de Mere: calls 2544 and is all-in
+Uncalled bet (1425) returned to scorza23
+*** FLOP *** [Ks 6h 7d]
+*** TURN *** [Ks 6h 7d] [3d]
+*** RIVER *** [Ks 6h 7d 3d] [6c]
+*** SHOW DOWN ***
+scorza23: shows [Ah Js] (a pair of Sixes)
+Chev.de Mere: shows [Kd As] (two pair, Kings and Sixes)
+Chev.de Mere collected 6188 from pot
+*** SUMMARY ***
+Total pot 6188 | Rake 0 
+Board [Ks 6h 7d 3d 6c]
+Seat 3: RonieB (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [Ah Js] and lost with a pair of Sixes
+Seat 5: Spotface1966 folded before Flop (didn't bet)
+Seat 7: Chev.de Mere (button) showed [Kd As] and won (6188) with two pair, Kings and Sixes
+
+
+
+PokerStars Hand #259751520398: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 18:18:32 UTC [2026/02/16 13:18:32 ET]
+Table '3975717736 1' 9-max Seat #3 is the button
+Seat 3: RonieB (1700 in chips) 
+Seat 4: scorza23 (1425 in chips) 
+Seat 5: Spotface1966 (4187 in chips) 
+Seat 7: Chev.de Mere (6188 in chips) 
+scorza23: posts small blind 100
+Spotface1966: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 6h]
+Chev.de Mere: folds 
+RonieB: raises 1500 to 1700 and is all-in
+scorza23: folds 
+Spotface1966: folds 
+Uncalled bet (1500) returned to RonieB
+RonieB collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 3: RonieB (button) collected (500)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Spotface1966 (big blind) folded before Flop
+Seat 7: Chev.de Mere folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751523608: Tournament #3975717736, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 18:18:45 UTC [2026/02/16 13:18:45 ET]
+Table '3975717736 1' 9-max Seat #4 is the button
+Seat 3: RonieB (2000 in chips) 
+Seat 4: scorza23 (1325 in chips) 
+Seat 5: Spotface1966 (3987 in chips) 
+Seat 7: Chev.de Mere (6188 in chips) 
+Spotface1966: posts small blind 100
+Chev.de Mere: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Kc]
+RonieB: folds 
+scorza23: raises 1125 to 1325 and is all-in
+Spotface1966: folds 
+Chev.de Mere: calls 1125
+*** FLOP *** [Qh 3d 7h]
+*** TURN *** [Qh 3d 7h] [8h]
+*** RIVER *** [Qh 3d 7h 8h] [2s]
+*** SHOW DOWN ***
+Chev.de Mere: shows [7s 5d] (a pair of Sevens)
+scorza23: shows [Js Kc] (high card King)
+Chev.de Mere collected 2750 from pot
+scorza23 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 2750 | Rake 0 
+Board [Qh 3d 7h 8h 2s]
+Seat 3: RonieB folded before Flop (didn't bet)
+Seat 4: scorza23 (button) showed [Js Kc] and lost with high card King
+Seat 5: Spotface1966 (small blind) folded before Flop
+Seat 7: Chev.de Mere (big blind) showed [7s 5d] and won (2750) with a pair of Sevens
+
+
+

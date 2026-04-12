@@ -1,0 +1,145 @@
+﻿PokerStars Hand #259763496768: Tournament #3974762738, 220000+30000 6+ Hold'em No Limit - Level I (Button Blind 15 - Ante 15 ) - 2026/02/17 16:04:00 UTC [2026/02/17 11:04:00 ET]
+Table '3974762738 1' 6-max Seat #2 is the button
+Seat 2: scorza23 (1500 in chips) 
+Seat 3: QueenFyn (1500 in chips) 
+Seat 6: Pulvis822 (1500 in chips) 
+scorza23: posts the ante 15
+QueenFyn: posts the ante 15
+Pulvis822: posts the ante 15
+scorza23: posts button blind 15
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Td]
+QueenFyn: calls 15
+Pulvis822: calls 15
+scorza23: raises 90 to 105
+QueenFyn: folds 
+Pulvis822: folds 
+Uncalled bet (90) returned to scorza23
+scorza23 collected 90 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Seat 2: scorza23 (button blind) collected (90)
+Seat 3: QueenFyn folded before Flop
+Seat 6: Pulvis822 folded before Flop
+
+
+
+PokerStars Hand #259763500372: Tournament #3974762738, 220000+30000 6+ Hold'em No Limit - Level I (Button Blind 15 - Ante 15 ) - 2026/02/17 16:04:21 UTC [2026/02/17 11:04:21 ET]
+Table '3974762738 1' 6-max Seat #3 is the button
+Seat 2: scorza23 (1560 in chips) 
+Seat 3: QueenFyn (1470 in chips) 
+Seat 6: Pulvis822 (1470 in chips) 
+scorza23: posts the ante 15
+QueenFyn: posts the ante 15
+Pulvis822: posts the ante 15
+QueenFyn: posts button blind 15
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 7h]
+Pulvis822: calls 15
+scorza23: folds 
+QueenFyn: checks 
+*** FLOP *** [Js 7c Ac]
+Pulvis822: checks 
+QueenFyn: checks 
+*** TURN *** [Js 7c Ac] [Qs]
+Pulvis822: checks 
+QueenFyn: bets 15
+Pulvis822: calls 15
+*** RIVER *** [Js 7c Ac Qs] [Ts]
+Pulvis822: checks 
+QueenFyn: checks 
+*** SHOW DOWN ***
+Pulvis822: shows [8h Td] (a pair of Tens)
+QueenFyn: shows [9s Qh] (a pair of Queens)
+QueenFyn collected 105 from pot
+WizzzDumb is disconnected 
+*** SUMMARY ***
+Total pot 105 | Rake 0 
+Board [Js 7c Ac Qs Ts]
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: QueenFyn (button blind) showed [9s Qh] and won (105) with a pair of Queens
+Seat 6: Pulvis822 showed [8h Td] and lost with a pair of Tens
+
+
+
+PokerStars Hand #259763503658: Tournament #3974762738, 220000+30000 6+ Hold'em No Limit - Level I (Button Blind 15 - Ante 15 ) - 2026/02/17 16:04:40 UTC [2026/02/17 11:04:40 ET]
+Table '3974762738 1' 6-max Seat #5 is the button
+Seat 2: scorza23 (1545 in chips) 
+Seat 3: QueenFyn (1530 in chips) 
+Seat 5: WizzzDumb (1500 in chips) 
+Seat 6: Pulvis822 (1425 in chips) 
+scorza23: posts the ante 15
+QueenFyn: posts the ante 15
+WizzzDumb: posts the ante 15
+Pulvis822: posts the ante 15
+WizzzDumb: posts button blind 15
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ac]
+Pulvis822: folds 
+scorza23: raises 30 to 45
+QueenFyn: calls 45
+WizzzDumb: raises 1440 to 1485 and is all-in
+scorza23: raises 45 to 1530 and is all-in
+QueenFyn: folds 
+Uncalled bet (45) returned to scorza23
+*** FLOP *** [Qh Qc 6s]
+*** TURN *** [Qh Qc 6s] [8h]
+*** RIVER *** [Qh Qc 6s 8h] [Qs]
+*** SHOW DOWN ***
+scorza23: shows [Td Ac] (three of a kind, Queens)
+WizzzDumb: shows [As Ks] (three of a kind, Queens - Ace+King kicker)
+WizzzDumb collected 3075 from pot
+*** SUMMARY ***
+Total pot 3075 | Rake 0 
+Board [Qh Qc 6s 8h Qs]
+Seat 2: scorza23 showed [Td Ac] and lost with three of a kind, Queens
+Seat 3: QueenFyn folded before Flop
+Seat 5: WizzzDumb (button blind) showed [As Ks] and won (3075) with three of a kind, Queens
+Seat 6: Pulvis822 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763507130: Tournament #3974762738, 220000+30000 6+ Hold'em No Limit - Level I (Button Blind 15 - Ante 15 ) - 2026/02/17 16:05:00 UTC [2026/02/17 11:05:00 ET]
+Table '3974762738 1' 6-max Seat #6 is the button
+Seat 2: scorza23 (45 in chips) 
+Seat 3: QueenFyn (1470 in chips) 
+Seat 5: WizzzDumb (3075 in chips) 
+Seat 6: Pulvis822 (1410 in chips) 
+scorza23: posts the ante 15
+QueenFyn: posts the ante 15
+WizzzDumb: posts the ante 15
+Pulvis822: posts the ante 15
+Pulvis822: posts button blind 15
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Jd]
+scorza23: raises 15 to 30 and is all-in
+QueenFyn: folds 
+WizzzDumb: raises 15 to 45
+Pulvis822: calls 30
+*** FLOP *** [6h Tc 9s]
+WizzzDumb: bets 15
+Pulvis822: calls 15
+*** TURN *** [6h Tc 9s] [Qc]
+WizzzDumb: checks 
+Pulvis822: checks 
+*** RIVER *** [6h Tc 9s Qc] [Qd]
+WizzzDumb: bets 15
+Pulvis822: calls 15
+*** SHOW DOWN ***
+WizzzDumb: shows [7s 7d] (two pair, Queens and Sevens)
+Pulvis822: shows [Ts Kd] (two pair, Queens and Tens)
+Pulvis822 collected 90 from side pot
+scorza23: mucks hand 
+Pulvis822 collected 150 from main pot
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 240 Main pot 150. Side pot 90. | Rake 0 
+Board [6h Tc 9s Qc Qd]
+Seat 2: scorza23 mucked [6d Jd]
+Seat 3: QueenFyn folded before Flop (didn't bet)
+Seat 5: WizzzDumb showed [7s 7d] and lost with two pair, Queens and Sevens
+Seat 6: Pulvis822 (button blind) showed [Ts Kd] and won (240) with two pair, Queens and Tens
+
+
+

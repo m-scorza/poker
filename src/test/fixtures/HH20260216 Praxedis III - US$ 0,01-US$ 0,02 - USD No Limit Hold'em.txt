@@ -1,0 +1,65 @@
+﻿PokerStars Hand #259758409616:  Hold'em No Limit ($0.01/$0.02 USD) - 2026/02/17 1:36:24 UTC [2026/02/16 20:36:24 ET]
+Table 'Praxedis III' 6-max Seat #1 is the button
+Seat 1: Nonito93 ($1.96 in chips) 
+Seat 2: leomour4 ($1.41 in chips) 
+Seat 3: scorza23 ($1.60 in chips) 
+Seat 4: yuva666 ($2.25 in chips) 
+Seat 5: r_lucena77 ($2.11 in chips) 
+Seat 6: SeñorZarok ($1.98 in chips) 
+leomour4: posts small blind $0.01
+scorza23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 7d]
+yuva666: folds 
+r_lucena77: raises $0.02 to $0.04
+SeñorZarok: folds 
+Nonito93: folds 
+leomour4: folds 
+scorza23: raises $0.17 to $0.21
+r_lucena77: folds 
+Uncalled bet ($0.17) returned to scorza23
+scorza23 collected $0.09 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 
+Seat 1: Nonito93 (button) folded before Flop (didn't bet)
+Seat 2: leomour4 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected ($0.09)
+Seat 4: yuva666 folded before Flop (didn't bet)
+Seat 5: r_lucena77 folded before Flop
+Seat 6: SeñorZarok folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758413925:  Hold'em No Limit ($0.01/$0.02 USD) - 2026/02/17 1:36:54 UTC [2026/02/16 20:36:54 ET]
+Table 'Praxedis III' 6-max Seat #2 is the button
+Seat 1: Nonito93 ($1.96 in chips) 
+Seat 2: leomour4 ($1.40 in chips) 
+Seat 3: scorza23 ($1.65 in chips) 
+Seat 4: yuva666 ($2.25 in chips) 
+Seat 5: r_lucena77 ($2.07 in chips) 
+Seat 6: SeñorZarok ($1.98 in chips) 
+scorza23: posts small blind $0.01
+yuva666: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to scorza23 [As 9d]
+r_lucena77: folds 
+SeñorZarok: folds 
+Nonito93: folds 
+leomour4: folds 
+scorza23: raises $0.08 to $0.10
+yuva666: folds 
+Uncalled bet ($0.08) returned to scorza23
+scorza23 collected $0.04 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: Nonito93 folded before Flop (didn't bet)
+Seat 2: leomour4 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) collected ($0.04)
+Seat 4: yuva666 (big blind) folded before Flop
+Seat 5: r_lucena77 folded before Flop (didn't bet)
+Seat 6: SeñorZarok folded before Flop (didn't bet)
+
+
+

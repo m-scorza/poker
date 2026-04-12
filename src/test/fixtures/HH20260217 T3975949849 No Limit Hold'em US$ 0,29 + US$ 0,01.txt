@@ -1,0 +1,306 @@
+﻿PokerStars Hand #259762475314: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 14:14:19 UTC [2026/02/17 9:14:19 ET]
+Table '3975949849 3' 4-max Seat #1 is the button
+Seat 1: Othon69 (500 in chips) 
+Seat 2: TheXimbica (500 in chips) 
+Seat 3: Leyzem (500 in chips) 
+Seat 4: scorza23 (500 in chips) 
+Othon69: posts the ante 10
+TheXimbica: posts the ante 10
+Leyzem: posts the ante 10
+scorza23: posts the ante 10
+TheXimbica: posts small blind 25
+Leyzem: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Kc]
+scorza23: raises 100 to 150
+Othon69: folds 
+TheXimbica: calls 125
+Leyzem: folds 
+*** FLOP *** [9d Jc 5s]
+TheXimbica: bets 340 and is all-in
+scorza23: folds 
+Uncalled bet (340) returned to TheXimbica
+TheXimbica collected 390 from pot
+TheXimbica: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Board [9d Jc 5s]
+Seat 1: Othon69 (button) folded before Flop (didn't bet)
+Seat 2: TheXimbica (small blind) collected (390)
+Seat 3: Leyzem (big blind) folded before Flop
+Seat 4: scorza23 folded on the Flop
+
+
+
+PokerStars Hand #259762482029: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 14:15:06 UTC [2026/02/17 9:15:06 ET]
+Table '3975949849 3' 4-max Seat #2 is the button
+Seat 1: Othon69 (490 in chips) 
+Seat 2: TheXimbica (730 in chips) 
+Seat 3: Leyzem (440 in chips) 
+Seat 4: scorza23 (340 in chips) 
+Othon69: posts the ante 10
+TheXimbica: posts the ante 10
+Leyzem: posts the ante 10
+scorza23: posts the ante 10
+Leyzem: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Jc]
+Othon69: folds 
+TheXimbica: raises 670 to 720 and is all-in
+Leyzem: folds 
+scorza23: folds 
+Uncalled bet (670) returned to TheXimbica
+TheXimbica collected 165 from pot
+TheXimbica: doesn't show hand 
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Seat 1: Othon69 folded before Flop (didn't bet)
+Seat 2: TheXimbica (button) collected (165)
+Seat 3: Leyzem (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762486034: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 14:15:34 UTC [2026/02/17 9:15:34 ET]
+Table '3975949849 3' 4-max Seat #3 is the button
+Seat 1: Othon69 (480 in chips) 
+Seat 2: TheXimbica (835 in chips) 
+Seat 3: Leyzem (405 in chips) 
+Seat 4: scorza23 (280 in chips) 
+Othon69: posts the ante 10
+TheXimbica: posts the ante 10
+Leyzem: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 25
+Othon69: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Jh]
+TheXimbica: folds 
+Leyzem: raises 100 to 150
+scorza23: raises 120 to 270 and is all-in
+Othon69: folds 
+Leyzem: calls 120
+*** FLOP *** [9c Qs 5s]
+*** TURN *** [9c Qs 5s] [Qd]
+*** RIVER *** [9c Qs 5s Qd] [Kh]
+*** SHOW DOWN ***
+scorza23: shows [Ts Jh] (a straight, Nine to King)
+Leyzem: shows [Td 7d] (a pair of Queens)
+scorza23 collected 630 from pot
+*** SUMMARY ***
+Total pot 630 | Rake 0 
+Board [9c Qs 5s Qd Kh]
+Seat 1: Othon69 (big blind) folded before Flop
+Seat 2: TheXimbica folded before Flop (didn't bet)
+Seat 3: Leyzem (button) showed [Td 7d] and lost with a pair of Queens
+Seat 4: scorza23 (small blind) showed [Ts Jh] and won (630) with a straight, Nine to King
+
+
+
+PokerStars Hand #259762489171: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 14:15:56 UTC [2026/02/17 9:15:56 ET]
+Table '3975949849 3' 4-max Seat #4 is the button
+Seat 1: Othon69 (420 in chips) 
+Seat 2: TheXimbica (825 in chips) 
+Seat 3: Leyzem (125 in chips) 
+Seat 4: scorza23 (630 in chips) 
+Othon69: posts the ante 10
+TheXimbica: posts the ante 10
+Leyzem: posts the ante 10
+scorza23: posts the ante 10
+Othon69: posts small blind 25
+TheXimbica: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Th]
+Leyzem: raises 65 to 115 and is all-in
+scorza23: folds 
+Othon69: folds 
+TheXimbica: calls 65
+*** FLOP *** [Jh Js Ah]
+*** TURN *** [Jh Js Ah] [5h]
+*** RIVER *** [Jh Js Ah 5h] [Tc]
+*** SHOW DOWN ***
+TheXimbica: shows [Ad 6h] (two pair, Aces and Jacks)
+Leyzem: shows [Jc Ks] (three of a kind, Jacks)
+Leyzem collected 295 from pot
+*** SUMMARY ***
+Total pot 295 | Rake 0 
+Board [Jh Js Ah 5h Tc]
+Seat 1: Othon69 (small blind) folded before Flop
+Seat 2: TheXimbica (big blind) showed [Ad 6h] and lost with two pair, Aces and Jacks
+Seat 3: Leyzem showed [Jc Ks] and won (295) with three of a kind, Jacks
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762491738: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 14:16:14 UTC [2026/02/17 9:16:14 ET]
+Table '3975949849 3' 4-max Seat #1 is the button
+Seat 1: Othon69 (385 in chips) 
+Seat 2: TheXimbica (700 in chips) 
+Seat 3: Leyzem (295 in chips) 
+Seat 4: scorza23 (620 in chips) 
+Othon69: posts the ante 10
+TheXimbica: posts the ante 10
+Leyzem: posts the ante 10
+scorza23: posts the ante 10
+TheXimbica: posts small blind 25
+Leyzem: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Kd]
+scorza23: folds 
+Othon69: raises 325 to 375 and is all-in
+TheXimbica: folds 
+Leyzem: folds 
+Uncalled bet (325) returned to Othon69
+Othon69 collected 165 from pot
+Othon69: doesn't show hand 
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Seat 1: Othon69 (button) collected (165)
+Seat 2: TheXimbica (small blind) folded before Flop
+Seat 3: Leyzem (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762495225: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 14:16:39 UTC [2026/02/17 9:16:39 ET]
+Table '3975949849 3' 4-max Seat #2 is the button
+Seat 1: Othon69 (490 in chips) 
+Seat 2: TheXimbica (665 in chips) 
+Seat 3: Leyzem (235 in chips) 
+Seat 4: scorza23 (610 in chips) 
+Othon69: posts the ante 10
+TheXimbica: posts the ante 10
+Leyzem: posts the ante 10
+scorza23: posts the ante 10
+Leyzem: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 6c]
+Othon69: calls 50
+TheXimbica: folds 
+Leyzem: folds 
+scorza23: checks 
+*** FLOP *** [Ks 9s Td]
+scorza23: bets 165
+Othon69: calls 165
+*** TURN *** [Ks 9s Td] [3s]
+scorza23: bets 385 and is all-in
+Othon69: calls 265 and is all-in
+Uncalled bet (120) returned to scorza23
+*** RIVER *** [Ks 9s Td 3s] [4h]
+*** SHOW DOWN ***
+scorza23: shows [Kd 6c] (a pair of Kings)
+Othon69: shows [Qc Js] (a straight, Nine to King)
+Othon69 collected 1025 from pot
+*** SUMMARY ***
+Total pot 1025 | Rake 0 
+Board [Ks 9s Td 3s 4h]
+Seat 1: Othon69 showed [Qc Js] and won (1025) with a straight, Nine to King
+Seat 2: TheXimbica (button) folded before Flop (didn't bet)
+Seat 3: Leyzem (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [Kd 6c] and lost with a pair of Kings
+
+
+
+PokerStars Hand #259762499592: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2026/02/17 14:17:10 UTC [2026/02/17 9:17:10 ET]
+Table '3975949849 3' 4-max Seat #3 is the button
+Seat 1: Othon69 (1025 in chips) 
+Seat 2: TheXimbica (655 in chips) 
+Seat 3: Leyzem (200 in chips) 
+Seat 4: scorza23 (120 in chips) 
+Othon69: posts the ante 10
+TheXimbica: posts the ante 10
+Leyzem: posts the ante 10
+scorza23: posts the ante 10
+scorza23: posts small blind 25
+Othon69: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6s]
+TheXimbica: folds 
+Leyzem: folds 
+scorza23: folds 
+Uncalled bet (25) returned to Othon69
+Othon69 collected 90 from pot
+Othon69: doesn't show hand 
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Seat 1: Othon69 (big blind) collected (90)
+Seat 2: TheXimbica folded before Flop (didn't bet)
+Seat 3: Leyzem (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762501909: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/02/17 14:17:27 UTC [2026/02/17 9:17:27 ET]
+Table '3975949849 3' 4-max Seat #4 is the button
+Seat 1: Othon69 (1080 in chips) 
+Seat 2: TheXimbica (645 in chips) 
+Seat 3: Leyzem (190 in chips) 
+Seat 4: scorza23 (85 in chips) 
+Othon69: posts the ante 20
+TheXimbica: posts the ante 20
+Leyzem: posts the ante 20
+scorza23: posts the ante 20
+Othon69: posts small blind 50
+TheXimbica: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 6c]
+Leyzem: raises 70 to 170 and is all-in
+scorza23: folds 
+Othon69: folds 
+TheXimbica: calls 70
+*** FLOP *** [4c Ah Kh]
+*** TURN *** [4c Ah Kh] [5s]
+*** RIVER *** [4c Ah Kh 5s] [Ts]
+*** SHOW DOWN ***
+TheXimbica: shows [Ad 6s] (a pair of Aces)
+Leyzem: shows [Kd 5h] (two pair, Kings and Fives)
+Leyzem collected 470 from pot
+*** SUMMARY ***
+Total pot 470 | Rake 0 
+Board [4c Ah Kh 5s Ts]
+Seat 1: Othon69 (small blind) folded before Flop
+Seat 2: TheXimbica (big blind) showed [Ad 6s] and lost with a pair of Aces
+Seat 3: Leyzem showed [Kd 5h] and won (470) with two pair, Kings and Fives
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762505034: Tournament #3975949849, $0.29+$0.01 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2026/02/17 14:17:50 UTC [2026/02/17 9:17:50 ET]
+Table '3975949849 3' 4-max Seat #1 is the button
+Seat 1: Othon69 (1010 in chips) 
+Seat 2: TheXimbica (455 in chips) 
+Seat 3: Leyzem (470 in chips) 
+Seat 4: scorza23 (65 in chips) 
+Othon69: posts the ante 20
+TheXimbica: posts the ante 20
+Leyzem: posts the ante 20
+scorza23: posts the ante 20
+TheXimbica: posts small blind 50
+Leyzem: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 4s]
+scorza23: calls 45 and is all-in
+Othon69: folds 
+TheXimbica: folds 
+Uncalled bet (50) returned to Leyzem
+*** FLOP *** [9d 6d 6h]
+*** TURN *** [9d 6d 6h] [Ac]
+*** RIVER *** [9d 6d 6h Ac] [Kd]
+*** SHOW DOWN ***
+Leyzem: shows [Td 9h] (two pair, Nines and Sixes)
+Leyzem collected 10 from side pot
+scorza23: shows [Qd 4s] (a pair of Sixes)
+Leyzem collected 215 from main pot
+scorza23 finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 225 Main pot 215. Side pot 10. | Rake 0 
+Board [9d 6d 6h Ac Kd]
+Seat 1: Othon69 (button) folded before Flop (didn't bet)
+Seat 2: TheXimbica (small blind) folded before Flop
+Seat 3: Leyzem (big blind) showed [Td 9h] and won (225) with two pair, Nines and Sixes
+Seat 4: scorza23 showed [Qd 4s] and lost with a pair of Sixes
+
+
+

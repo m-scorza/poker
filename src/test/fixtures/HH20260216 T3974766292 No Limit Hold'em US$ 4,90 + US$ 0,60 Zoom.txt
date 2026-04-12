@@ -1,0 +1,2320 @@
+﻿PokerStars Hand #259758310187: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:25:02 UTC [2026/02/16 20:25:02 ET]
+Table '3974766292 14' 2-max Seat #1 is the button
+Seat 1: scorza23 (3000 in chips, $4.90 bounty) 
+Seat 2: kjota 10 (3000 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+kjota 10: posts the ante 4
+scorza23: posts small blind 15
+kjota 10: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd As]
+scorza23 is disconnected 
+kjota 10 is disconnected 
+scorza23: raises 60 to 90
+kjota 10: calls 60
+*** FLOP *** [9c Td 8d]
+kjota 10: bets 60
+scorza23: folds 
+Uncalled bet (60) returned to kjota 10
+kjota 10 collected 188 from pot
+kjota 10: doesn't show hand 
+*** SUMMARY ***
+Total pot 188 | Rake 0 
+Board [9c Td 8d]
+Seat 1: scorza23 (button) (small blind) folded on the Flop
+Seat 2: kjota 10 (big blind) collected (188)
+
+
+
+PokerStars Hand #259758313912: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:25:27 UTC [2026/02/16 20:25:27 ET]
+Table '3974766292 12' 2-max Seat #1 is the button
+Seat 1: walkernegro (2917 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2906 in chips, $4.90 bounty) 
+walkernegro: posts the ante 4
+scorza23: posts the ante 4
+walkernegro: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 2s]
+walkernegro is connected 
+walkernegro: calls 15
+scorza23: raises 68 to 98
+walkernegro: calls 68
+*** FLOP *** [Tc 2d 8d]
+scorza23: bets 204
+walkernegro: folds 
+Uncalled bet (204) returned to scorza23
+scorza23 collected 204 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 204 | Rake 0 
+Board [Tc 2d 8d]
+Seat 1: walkernegro (button) (small blind) folded on the Flop
+Seat 2: scorza23 (big blind) collected (204)
+
+
+
+PokerStars Hand #259758316569: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:25:45 UTC [2026/02/16 20:25:45 ET]
+Table '3974766292 12' 2-max Seat #1 is the button
+Seat 1: mbrodi (2936 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3008 in chips, $4.90 bounty) 
+mbrodi: posts the ante 4
+scorza23: posts the ante 4
+mbrodi: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Kc]
+scorza23 is disconnected 
+mbrodi is connected 
+mbrodi: calls 15
+scorza23: raises 60 to 90
+mbrodi: calls 60
+*** FLOP *** [8c 2d As]
+scorza23: bets 188
+mbrodi: folds 
+Uncalled bet (188) returned to scorza23
+scorza23 collected 188 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 188 | Rake 0 
+Board [8c 2d As]
+Seat 1: mbrodi (button) (small blind) folded on the Flop
+Seat 2: scorza23 (big blind) collected (188)
+
+
+
+PokerStars Hand #259758323606: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:26:33 UTC [2026/02/16 20:26:33 ET]
+Table '3974766292 12' 2-max Seat #1 is the button
+Seat 1: scorza23 (3102 in chips, $4.90 bounty) 
+Seat 2: torreke46 (2985 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+torreke46: posts the ante 4
+scorza23: posts small blind 15
+torreke46: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Ah]
+scorza23 is disconnected 
+scorza23: raises 68 to 98
+torreke46: calls 68
+*** FLOP *** [6d Ts 4s]
+torreke46: checks 
+scorza23: bets 102
+torreke46: calls 102
+*** TURN *** [6d Ts 4s] [4d]
+torreke46: checks 
+scorza23: bets 408
+torreke46: calls 408
+*** RIVER *** [6d Ts 4s 4d] [5s]
+torreke46: checks 
+scorza23: bets 2490 and is all-in
+torreke46: folds 
+Uncalled bet (2490) returned to scorza23
+scorza23 collected 1224 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1224 | Rake 0 
+Board [6d Ts 4s 4d 5s]
+Seat 1: scorza23 (button) (small blind) collected (1224)
+Seat 2: torreke46 (big blind) folded on the River
+
+
+
+PokerStars Hand #259758326721: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:26:54 UTC [2026/02/16 20:26:54 ET]
+Table '3974766292 9' 2-max Seat #1 is the button
+Seat 1: scorza23 (3714 in chips, $4.90 bounty) 
+Seat 2: gokaje (2553 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+gokaje: posts the ante 4
+scorza23: posts small blind 15
+gokaje: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Jc]
+scorza23 is connected 
+scorza23: folds 
+Uncalled bet (15) returned to gokaje
+gokaje collected 38 from pot
+gokaje: doesn't show hand 
+*** SUMMARY ***
+Total pot 38 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: gokaje (big blind) collected (38)
+
+
+
+PokerStars Hand #259758327591: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:27:00 UTC [2026/02/16 20:27:00 ET]
+Table '3974766292 2' 2-max Seat #1 is the button
+Seat 1: bbworld143 (6059 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3695 in chips, $4.90 bounty) 
+bbworld143: posts the ante 4
+scorza23: posts the ante 4
+bbworld143: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 3s]
+bbworld143: raises 120 to 150
+scorza23: folds 
+Uncalled bet (120) returned to bbworld143
+bbworld143 collected 68 from pot
+bbworld143: doesn't show hand 
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Seat 1: bbworld143 (button) (small blind) collected (68)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758329410: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:27:13 UTC [2026/02/16 20:27:13 ET]
+Table '3974766292 21' 2-max Seat #1 is the button
+Seat 1: scorza23 (3661 in chips, $4.90 bounty) 
+Seat 2: velio81 (2989 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+velio81: posts the ante 4
+scorza23: posts small blind 15
+velio81: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Qd]
+scorza23 is disconnected 
+scorza23: raises 60 to 90
+velio81: calls 60
+*** FLOP *** [Ad 8d 6h]
+velio81: checks 
+scorza23: checks 
+*** TURN *** [Ad 8d 6h] [8h]
+velio81: checks 
+scorza23: bets 94
+velio81: calls 94
+*** RIVER *** [Ad 8d 6h 8h] [7h]
+velio81: checks 
+scorza23: bets 376
+velio81: folds 
+Uncalled bet (376) returned to scorza23
+scorza23 collected 376 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 376 | Rake 0 
+Board [Ad 8d 6h 8h 7h]
+Seat 1: scorza23 (button) (small blind) collected (376)
+Seat 2: velio81 (big blind) folded on the River
+
+
+
+PokerStars Hand #259758332931: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:27:38 UTC [2026/02/16 20:27:38 ET]
+Table '3974766292 21' 2-max Seat #1 is the button
+Seat 1: Nagup2490 (3000 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3849 in chips, $4.90 bounty) 
+Nagup2490: posts the ante 4
+scorza23: posts the ante 4
+Nagup2490: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Th]
+Nagup2490 is disconnected 
+Nagup2490 is connected 
+Nagup2490: calls 15
+scorza23: checks 
+*** FLOP *** [Ts Qd 8c]
+scorza23: checks 
+Nagup2490: checks 
+*** TURN *** [Ts Qd 8c] [Jd]
+scorza23: checks 
+Nagup2490: checks 
+*** RIVER *** [Ts Qd 8c Jd] [4d]
+scorza23: bets 34
+Nagup2490: folds 
+Uncalled bet (34) returned to scorza23
+scorza23 collected 68 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Board [Ts Qd 8c Jd 4d]
+Seat 1: Nagup2490 (button) (small blind) folded on the River
+Seat 2: scorza23 (big blind) collected (68)
+
+
+
+PokerStars Hand #259758336976: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:28:06 UTC [2026/02/16 20:28:06 ET]
+Table '3974766292 48' 2-max Seat #1 is the button
+Seat 1: scorza23 (3883 in chips, $4.90 bounty) 
+Seat 2: Junior La206 (3626 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+Junior La206: posts the ante 4
+scorza23: posts small blind 15
+Junior La206: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Ks]
+scorza23 is disconnected 
+scorza23: raises 60 to 90
+Junior La206: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 68 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (68)
+Seat 2: Junior La206 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758338160: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:28:13 UTC [2026/02/16 20:28:13 ET]
+Table '3974766292 25' 2-max Seat #1 is the button
+Seat 1: walkernegro (4234 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3917 in chips, $4.90 bounty) 
+walkernegro: posts the ante 4
+scorza23: posts the ante 4
+walkernegro: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3d]
+scorza23 is disconnected 
+walkernegro is connected 
+walkernegro: folds 
+Uncalled bet (15) returned to scorza23
+scorza23 collected 38 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 38 | Rake 0 
+Seat 1: walkernegro (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (38)
+
+
+
+PokerStars Hand #259758339023: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:28:19 UTC [2026/02/16 20:28:19 ET]
+Table '3974766292 28' 2-max Seat #1 is the button
+Seat 1: scorza23 (3936 in chips, $4.90 bounty) 
+Seat 2: filz90 (5629 in chips, $7.35 bounty) 
+scorza23: posts the ante 4
+filz90: posts the ante 4
+scorza23: posts small blind 15
+filz90: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3h]
+scorza23 is disconnected 
+scorza23: raises 60 to 90
+filz90: calls 60
+*** FLOP *** [2d 4s 3s]
+filz90: checks 
+scorza23: bets 188
+filz90: calls 188
+*** TURN *** [2d 4s 3s] [Jh]
+filz90: checks 
+scorza23: checks 
+*** RIVER *** [2d 4s 3s Jh] [6s]
+filz90: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+filz90: shows [3c Ks] (a pair of Threes)
+scorza23: mucks hand 
+filz90 collected 564 from pot
+*** SUMMARY ***
+Total pot 564 | Rake 0 
+Board [2d 4s 3s Jh 6s]
+Seat 1: scorza23 (button) (small blind) mucked [Qd 3h]
+Seat 2: filz90 (big blind) showed [3c Ks] and won (564) with a pair of Threes
+
+
+
+PokerStars Hand #259758342183: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:28:41 UTC [2026/02/16 20:28:41 ET]
+Table '3974766292 35' 2-max Seat #1 is the button
+Seat 1: RBsNoOneDad (2890 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3654 in chips, $4.90 bounty) 
+RBsNoOneDad: posts the ante 4
+scorza23: posts the ante 4
+RBsNoOneDad: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 9d]
+RBsNoOneDad: calls 15
+scorza23: checks 
+*** FLOP *** [2c 5s 7h]
+scorza23: checks 
+RBsNoOneDad: bets 60
+scorza23: folds 
+Uncalled bet (60) returned to RBsNoOneDad
+RBsNoOneDad collected 68 from pot
+RBsNoOneDad: doesn't show hand 
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Board [2c 5s 7h]
+Seat 1: RBsNoOneDad (button) (small blind) collected (68)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758344130: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:28:55 UTC [2026/02/16 20:28:55 ET]
+Table '3974766292 11' 2-max Seat #1 is the button
+Seat 1: scorza23 (3620 in chips, $4.90 bounty) 
+Seat 2: llracing777 (1804 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+llracing777: posts the ante 4
+scorza23: posts small blind 15
+llracing777: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jh]
+scorza23 is disconnected 
+llracing777 is disconnected 
+scorza23: raises 60 to 90
+llracing777: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 68 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (68)
+Seat 2: llracing777 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758345417: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:29:03 UTC [2026/02/16 20:29:03 ET]
+Table '3974766292 42' 2-max Seat #1 is the button
+Seat 1: FIFI470 (2781 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3654 in chips, $4.90 bounty) 
+FIFI470: posts the ante 4
+scorza23: posts the ante 4
+FIFI470: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Jc]
+scorza23 is disconnected 
+FIFI470 is connected 
+FIFI470: calls 15
+scorza23: checks 
+*** FLOP *** [2c 5s 7c]
+scorza23: checks 
+FIFI470: checks 
+*** TURN *** [2c 5s 7c] [Ac]
+scorza23: checks 
+FIFI470: checks 
+*** RIVER *** [2c 5s 7c Ac] [7h]
+scorza23: checks 
+FIFI470: checks 
+*** SHOW DOWN ***
+scorza23: shows [4h Jc] (a pair of Sevens)
+FIFI470: shows [Qs 6h] (a pair of Sevens - Ace+Queen kicker)
+FIFI470 collected 68 from pot
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Board [2c 5s 7c Ac 7h]
+Seat 1: FIFI470 (button) (small blind) showed [Qs 6h] and won (68) with a pair of Sevens
+Seat 2: scorza23 (big blind) showed [4h Jc] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #259758348148: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:29:22 UTC [2026/02/16 20:29:22 ET]
+Table '3974766292 21' 2-max Seat #1 is the button
+Seat 1: scorza23 (3620 in chips, $4.90 bounty) 
+Seat 2: SupraEngine (2742 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+SupraEngine: posts the ante 4
+scorza23: posts small blind 15
+SupraEngine: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 8d]
+scorza23: folds 
+Uncalled bet (15) returned to SupraEngine
+SupraEngine collected 38 from pot
+SupraEngine: doesn't show hand 
+*** SUMMARY ***
+Total pot 38 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: SupraEngine (big blind) collected (38)
+
+
+
+PokerStars Hand #259758348995: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:29:29 UTC [2026/02/16 20:29:29 ET]
+Table '3974766292 42' 2-max Seat #1 is the button
+Seat 1: Neonis7 (3493 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3601 in chips, $4.90 bounty) 
+Neonis7: posts the ante 4
+scorza23: posts the ante 4
+Neonis7: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qc]
+Neonis7 is connected 
+Neonis7: folds 
+Uncalled bet (15) returned to scorza23
+scorza23 collected 38 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 38 | Rake 0 
+Seat 1: Neonis7 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (38)
+
+
+
+PokerStars Hand #259758349992: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:29:35 UTC [2026/02/16 20:29:35 ET]
+Table '3974766292 4' 2-max Seat #1 is the button
+Seat 1: scorza23 (3620 in chips, $4.90 bounty) 
+Seat 2: Despoina200 (2346 in chips, $4.90 bounty) 
+scorza23: posts the ante 4
+Despoina200: posts the ante 4
+scorza23: posts small blind 15
+Despoina200: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 2c]
+scorza23 is disconnected 
+scorza23: folds 
+Uncalled bet (15) returned to Despoina200
+Despoina200 collected 38 from pot
+Despoina200: doesn't show hand 
+*** SUMMARY ***
+Total pot 38 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: Despoina200 (big blind) collected (38)
+
+
+
+PokerStars Hand #259758350702: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:29:40 UTC [2026/02/16 20:29:40 ET]
+Table '3974766292 6' 2-max Seat #1 is the button
+Seat 1: CeeJaa2 (3233 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3601 in chips, $4.90 bounty) 
+CeeJaa2: posts the ante 4
+scorza23: posts the ante 4
+CeeJaa2: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Js]
+scorza23 is disconnected 
+CeeJaa2: calls 15
+scorza23: checks 
+*** FLOP *** [9c Qd Jd]
+scorza23: bets 34
+CeeJaa2: calls 34
+*** TURN *** [9c Qd Jd] [6c]
+scorza23: checks 
+CeeJaa2: checks 
+*** RIVER *** [9c Qd Jd 6c] [5c]
+scorza23: checks 
+CeeJaa2: checks 
+*** SHOW DOWN ***
+scorza23: shows [Th Js] (a pair of Jacks)
+CeeJaa2: mucks hand 
+scorza23 collected 136 from pot
+*** SUMMARY ***
+Total pot 136 | Rake 0 
+Board [9c Qd Jd 6c 5c]
+Seat 1: CeeJaa2 (button) (small blind) mucked [As 8h]
+Seat 2: scorza23 (big blind) showed [Th Js] and won (136) with a pair of Jacks
+
+
+
+PokerStars Hand #259758353699: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level I (15/30) - 2026/02/17 1:30:00 UTC [2026/02/16 20:30:00 ET]
+Table '3974766292 27' 2-max Seat #1 is the button
+Seat 1: scorza23 (3669 in chips, $4.90 bounty) 
+Seat 2: bocalandra (2109 in chips, $7.35 bounty) 
+scorza23: posts the ante 4
+bocalandra: posts the ante 4
+scorza23: posts small blind 15
+bocalandra: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2c]
+scorza23 is disconnected 
+scorza23: raises 60 to 90
+bocalandra: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 68 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (68)
+Seat 2: bocalandra (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758355044: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level II (20/40) - 2026/02/17 1:30:09 UTC [2026/02/16 20:30:09 ET]
+Table '3974766292 5' 2-max Seat #1 is the button
+Seat 1: Deenilson (3436 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3703 in chips, $4.90 bounty) 
+Deenilson: posts the ante 5
+scorza23: posts the ante 5
+Deenilson: posts small blind 20
+scorza23: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Kd]
+scorza23 is disconnected 
+Deenilson: folds 
+Uncalled bet (20) returned to scorza23
+scorza23 collected 50 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: Deenilson (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (50)
+
+
+
+PokerStars Hand #259758356326: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level II (20/40) - 2026/02/17 1:30:18 UTC [2026/02/16 20:30:18 ET]
+Table '3974766292 39' 2-max Seat #1 is the button
+Seat 1: iRAMOSZ1 (4047 in chips, $7.35 bounty) 
+Seat 2: scorza23 (3728 in chips, $4.90 bounty) 
+iRAMOSZ1: posts the ante 5
+scorza23: posts the ante 5
+iRAMOSZ1: posts small blind 20
+scorza23: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Ad]
+scorza23 is disconnected 
+iRAMOSZ1: raises 40 to 80
+scorza23: calls 40
+*** FLOP *** [8s 3c Js]
+scorza23: checks 
+iRAMOSZ1: bets 170
+scorza23: folds 
+Uncalled bet (170) returned to iRAMOSZ1
+iRAMOSZ1 collected 170 from pot
+iRAMOSZ1: doesn't show hand 
+*** SUMMARY ***
+Total pot 170 | Rake 0 
+Board [8s 3c Js]
+Seat 1: iRAMOSZ1 (button) (small blind) collected (170)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758358306: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level II (20/40) - 2026/02/17 1:30:32 UTC [2026/02/16 20:30:32 ET]
+Table '3974766292 46' 2-max Seat #1 is the button
+Seat 1: scorza23 (3643 in chips, $4.90 bounty) 
+Seat 2: leeD5971 (2989 in chips, $4.90 bounty) 
+scorza23: posts the ante 5
+leeD5971: posts the ante 5
+scorza23: posts small blind 20
+leeD5971: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Qd]
+scorza23 is disconnected 
+scorza23: raises 80 to 120
+leeD5971: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 90 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (90)
+Seat 2: leeD5971 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758359509: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level II (20/40) - 2026/02/17 1:30:41 UTC [2026/02/16 20:30:41 ET]
+Table '3974766292 43' 2-max Seat #1 is the button
+Seat 1: veltnerjunge (3014 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3688 in chips, $4.90 bounty) 
+veltnerjunge: posts the ante 5
+scorza23: posts the ante 5
+veltnerjunge: posts small blind 20
+scorza23: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Td]
+scorza23 is disconnected 
+veltnerjunge: raises 40 to 80
+scorza23: calls 40
+*** FLOP *** [2h 5h 4h]
+scorza23: checks 
+veltnerjunge: bets 112
+scorza23: folds 
+Uncalled bet (112) returned to veltnerjunge
+veltnerjunge collected 170 from pot
+veltnerjunge: doesn't show hand 
+*** SUMMARY ***
+Total pot 170 | Rake 0 
+Board [2h 5h 4h]
+Seat 1: veltnerjunge (button) (small blind) collected (170)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758361532: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level II (20/40) - 2026/02/17 1:30:54 UTC [2026/02/16 20:30:54 ET]
+Table '3974766292 14' 2-max Seat #1 is the button
+Seat 1: Imortal Reis (3000 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3603 in chips, $4.90 bounty) 
+Imortal Reis: posts the ante 5
+scorza23: posts the ante 5
+Imortal Reis: posts small blind 20
+scorza23: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Ac]
+scorza23 is disconnected 
+Imortal Reis: raises 90 to 130
+scorza23: raises 270 to 400
+Imortal Reis: raises 2595 to 2995 and is all-in
+scorza23: calls 2595
+*** FLOP *** [4d 2c 4s]
+*** TURN *** [4d 2c 4s] [5h]
+*** RIVER *** [4d 2c 4s 5h] [Qc]
+*** SHOW DOWN ***
+scorza23: shows [Jc Ac] (a pair of Fours)
+Imortal Reis: shows [Qh Qs] (a full house, Queens full of Fours)
+Imortal Reis collected 6000 from pot
+*** SUMMARY ***
+Total pot 6000 | Rake 0 
+Board [4d 2c 4s 5h Qc]
+Seat 1: Imortal Reis (button) (small blind) showed [Qh Qs] and won (6000) with a full house, Queens full of Fours
+Seat 2: scorza23 (big blind) showed [Jc Ac] and lost with a pair of Fours
+
+
+
+PokerStars Hand #259758364574: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level II (20/40) - 2026/02/17 1:31:15 UTC [2026/02/16 20:31:15 ET]
+Table '3974766292 16' 2-max Seat #1 is the button
+Seat 1: scorza23 (603 in chips, $4.90 bounty) 
+Seat 2: jmorris2332 (1445 in chips, $4.90 bounty) 
+scorza23: posts the ante 5
+jmorris2332: posts the ante 5
+scorza23: posts small blind 20
+jmorris2332: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Ad]
+scorza23 is disconnected 
+scorza23: raises 558 to 598 and is all-in
+jmorris2332: calls 558
+*** FLOP *** [6s Qs 2s]
+*** TURN *** [6s Qs 2s] [Ks]
+*** RIVER *** [6s Qs 2s Ks] [2h]
+*** SHOW DOWN ***
+jmorris2332: shows [9d Js] (a flush, King high)
+scorza23: shows [Kc Ad] (two pair, Kings and Deuces)
+jmorris2332 collected 1206 from pot
+jmorris2332 wins $2.45 for eliminating scorza23 and their own bounty increases by $2.45 to $7.35
+*** SUMMARY ***
+Total pot 1206 | Rake 0 
+Board [6s Qs 2s Ks 2h]
+Seat 1: scorza23 (button) (small blind) showed [Kc Ad] and lost with two pair, Kings and Deuces
+Seat 2: jmorris2332 (big blind) showed [9d Js] and won (1206) with a flush, King high
+
+
+
+PokerStars Hand #259758418308: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:37:25 UTC [2026/02/16 20:37:25 ET]
+Table '3974766292 58' 2-max Seat #1 is the button
+Seat 1: scorza23 (3000 in chips, $4.90 bounty) 
+Seat 2: leeD5971 (6478 in chips, $8.57 bounty) 
+scorza23: posts the ante 6
+leeD5971: posts the ante 6
+scorza23: posts small blind 25
+leeD5971: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Jd]
+scorza23 is disconnected 
+scorza23: raises 50 to 100
+leeD5971: folds 
+Uncalled bet (50) returned to scorza23
+scorza23 collected 112 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (112)
+Seat 2: leeD5971 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758419824: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:37:34 UTC [2026/02/16 20:37:34 ET]
+Table '3974766292 29' 2-max Seat #1 is the button
+Seat 1: scorza23 (3056 in chips, $4.90 bounty) 
+Seat 2: youridol (2531 in chips, $4.90 bounty) 
+scorza23: posts the ante 6
+youridol: posts the ante 6
+scorza23: posts small blind 25
+youridol: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Th]
+scorza23 is disconnected 
+scorza23: raises 112 to 162
+youridol: calls 112
+*** FLOP *** [9c 7h 2h]
+youridol: checks 
+scorza23: checks 
+*** TURN *** [9c 7h 2h] [7d]
+youridol: checks 
+scorza23: checks 
+*** RIVER *** [9c 7h 2h 7d] [Qh]
+youridol: bets 150
+scorza23: folds 
+Uncalled bet (150) returned to youridol
+youridol collected 336 from pot
+youridol: doesn't show hand 
+*** SUMMARY ***
+Total pot 336 | Rake 0 
+Board [9c 7h 2h 7d Qh]
+Seat 1: scorza23 (button) (small blind) folded on the River
+Seat 2: youridol (big blind) collected (336)
+
+
+
+PokerStars Hand #259758421855: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:37:49 UTC [2026/02/16 20:37:49 ET]
+Table '3974766292 32' 2-max Seat #1 is the button
+Seat 1: NaxKiller (3501 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2888 in chips, $4.90 bounty) 
+NaxKiller: posts the ante 6
+scorza23: posts the ante 6
+NaxKiller: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Jd]
+scorza23 is disconnected 
+NaxKiller: calls 25
+scorza23: raises 2832 to 2882 and is all-in
+NaxKiller: folds 
+Uncalled bet (2832) returned to scorza23
+scorza23 collected 112 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Seat 1: NaxKiller (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (112)
+
+
+
+PokerStars Hand #259758424087: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:38:04 UTC [2026/02/16 20:38:04 ET]
+Table '3974766292 11' 2-max Seat #1 is the button
+Seat 1: CeeJaa2 (4205 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2944 in chips, $4.90 bounty) 
+CeeJaa2: posts the ante 6
+scorza23: posts the ante 6
+CeeJaa2: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 7c]
+CeeJaa2 is disconnected 
+CeeJaa2: calls 25
+scorza23: checks 
+*** FLOP *** [7s Kd 2d]
+scorza23: checks 
+CeeJaa2: bets 150
+scorza23: folds 
+Uncalled bet (150) returned to CeeJaa2
+CeeJaa2 collected 112 from pot
+CeeJaa2: doesn't show hand 
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Board [7s Kd 2d]
+Seat 1: CeeJaa2 (button) (small blind) collected (112)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758426493: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:38:21 UTC [2026/02/16 20:38:21 ET]
+Table '3974766292 32' 2-max Seat #1 is the button
+Seat 1: scorza23 (2888 in chips, $4.90 bounty) 
+Seat 2: Bambi_ok (2381 in chips, $4.90 bounty) 
+scorza23: posts the ante 6
+Bambi_ok: posts the ante 6
+scorza23: posts small blind 25
+Bambi_ok: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 8h]
+scorza23 is disconnected 
+scorza23: raises 100 to 150
+Bambi_ok: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 112 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (112)
+Seat 2: Bambi_ok (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758427630: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:38:30 UTC [2026/02/16 20:38:30 ET]
+Table '3974766292 21' 2-max Seat #1 is the button
+Seat 1: valber1977 (3000 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2944 in chips, $4.90 bounty) 
+valber1977: posts the ante 6
+scorza23: posts the ante 6
+valber1977: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 8s]
+scorza23 is disconnected 
+valber1977: folds 
+Uncalled bet (25) returned to scorza23
+scorza23 collected 62 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 62 | Rake 0 
+Seat 1: valber1977 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (62)
+
+
+
+PokerStars Hand #259758428452: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:38:35 UTC [2026/02/16 20:38:35 ET]
+Table '3974766292 4' 2-max Seat #1 is the button
+Seat 1: redondo294 (6910 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2975 in chips, $4.90 bounty) 
+redondo294: posts the ante 6
+scorza23: posts the ante 6
+redondo294: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 9c]
+scorza23 is disconnected 
+redondo294: raises 75 to 125
+scorza23: folds 
+Uncalled bet (75) returned to redondo294
+redondo294 collected 112 from pot
+redondo294: doesn't show hand 
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Seat 1: redondo294 (button) (small blind) collected (112)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758429449: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:38:42 UTC [2026/02/16 20:38:42 ET]
+Table '3974766292 54' 2-max Seat #1 is the button
+Seat 1: scorza23 (2919 in chips, $4.90 bounty) 
+Seat 2: veltnerjunge (3716 in chips, $4.90 bounty) 
+scorza23: posts the ante 6
+veltnerjunge: posts the ante 6
+scorza23: posts small blind 25
+veltnerjunge: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s As]
+scorza23 is disconnected 
+scorza23: raises 100 to 150
+veltnerjunge: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 112 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (112)
+Seat 2: veltnerjunge (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758432202: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:39:01 UTC [2026/02/16 20:39:01 ET]
+Table '3974766292 51' 2-max Seat #1 is the button
+Seat 1: scorza23 (2975 in chips, $4.90 bounty) 
+Seat 2: invazcrash (2844 in chips, $4.90 bounty) 
+scorza23: posts the ante 6
+invazcrash: posts the ante 6
+scorza23: posts small blind 25
+invazcrash: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6s]
+scorza23 is disconnected 
+scorza23: raises 100 to 150
+invazcrash: calls 100
+*** FLOP *** [Kc Ac 6d]
+invazcrash: checks 
+scorza23: bets 156
+invazcrash: raises 2532 to 2688 and is all-in
+scorza23: folds 
+Uncalled bet (2532) returned to invazcrash
+invazcrash collected 624 from pot
+invazcrash: doesn't show hand 
+*** SUMMARY ***
+Total pot 624 | Rake 0 
+Board [Kc Ac 6d]
+Seat 1: scorza23 (button) (small blind) folded on the Flop
+Seat 2: invazcrash (big blind) collected (624)
+
+
+
+PokerStars Hand #259758435072: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:39:22 UTC [2026/02/16 20:39:22 ET]
+Table '3974766292 55' 2-max Seat #1 is the button
+Seat 1: thomastsang1328 (5644 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2663 in chips, $4.90 bounty) 
+thomastsang1328: posts the ante 6
+scorza23: posts the ante 6
+thomastsang1328: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Jd]
+scorza23 is disconnected 
+thomastsang1328: folds 
+Uncalled bet (25) returned to scorza23
+scorza23 collected 62 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 62 | Rake 0 
+Seat 1: thomastsang1328 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (62)
+
+
+
+PokerStars Hand #259758436190: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:39:30 UTC [2026/02/16 20:39:30 ET]
+Table '3974766292 42' 2-max Seat #1 is the button
+Seat 1: scorza23 (2694 in chips, $4.90 bounty) 
+Seat 2: napa37 (11403 in chips, $9.80 bounty) 
+scorza23: posts the ante 6
+napa37: posts the ante 6
+scorza23: posts small blind 25
+napa37: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Qs]
+scorza23 is disconnected 
+scorza23: raises 112 to 162
+napa37: calls 112
+*** FLOP *** [3s Ah 9s]
+napa37: checks 
+scorza23: checks 
+*** TURN *** [3s Ah 9s] [6d]
+napa37: bets 168
+scorza23: folds 
+Uncalled bet (168) returned to napa37
+napa37 collected 336 from pot
+napa37: doesn't show hand 
+*** SUMMARY ***
+Total pot 336 | Rake 0 
+Board [3s Ah 9s 6d]
+Seat 1: scorza23 (button) (small blind) folded on the Turn
+Seat 2: napa37 (big blind) collected (336)
+
+
+
+PokerStars Hand #259758439045: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 1:39:49 UTC [2026/02/16 20:39:49 ET]
+Table '3974766292 10' 2-max Seat #1 is the button
+Seat 1: YOSH1985 (2622 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2526 in chips, $4.90 bounty) 
+YOSH1985: posts the ante 6
+scorza23: posts the ante 6
+YOSH1985: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7h]
+scorza23 is disconnected 
+YOSH1985: calls 25
+scorza23: checks 
+*** FLOP *** [8c 4h Kc]
+scorza23: checks 
+YOSH1985: checks 
+*** TURN *** [8c 4h Kc] [2c]
+scorza23: checks 
+YOSH1985: checks 
+*** RIVER *** [8c 4h Kc 2c] [4s]
+scorza23: checks 
+YOSH1985: checks 
+*** SHOW DOWN ***
+scorza23: shows [Qd 7h] (a pair of Fours)
+YOSH1985: mucks hand 
+scorza23 collected 112 from pot
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Board [8c 4h Kc 2c 4s]
+Seat 1: YOSH1985 (button) (small blind) mucked [6h 3s]
+Seat 2: scorza23 (big blind) showed [Qd 7h] and won (112) with a pair of Fours
+
+
+
+PokerStars Hand #259758441580: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:40:08 UTC [2026/02/16 20:40:08 ET]
+Table '3974766292 60' 2-max Seat #1 is the button
+Seat 1: scorza23 (2582 in chips, $4.90 bounty) 
+Seat 2: F$4v10 (3056 in chips, $4.90 bounty) 
+scorza23: posts the ante 7
+F$4v10: posts the ante 7
+scorza23: posts small blind 30
+F$4v10: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Jd]
+F$4v10 is disconnected 
+scorza23: raises 120 to 180
+F$4v10: calls 120
+*** FLOP *** [Qc 2c 2h]
+F$4v10: checks 
+scorza23: checks 
+*** TURN *** [Qc 2c 2h] [Ad]
+F$4v10: checks 
+scorza23: bets 187
+F$4v10: folds 
+Uncalled bet (187) returned to scorza23
+scorza23 collected 374 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 374 | Rake 0 
+Board [Qc 2c 2h Ad]
+Seat 1: scorza23 (button) (small blind) collected (374)
+Seat 2: F$4v10 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259758445181: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:40:32 UTC [2026/02/16 20:40:32 ET]
+Table '3974766292 49' 2-max Seat #1 is the button
+Seat 1: AlexanderX88 (6367 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2769 in chips, $4.90 bounty) 
+AlexanderX88: posts the ante 7
+scorza23: posts the ante 7
+AlexanderX88: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 5d]
+scorza23 is disconnected 
+AlexanderX88: raises 60 to 120
+scorza23: raises 2642 to 2762 and is all-in
+AlexanderX88: folds 
+Uncalled bet (2642) returned to scorza23
+scorza23 collected 254 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 254 | Rake 0 
+Seat 1: AlexanderX88 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (254)
+
+
+
+PokerStars Hand #259758447877: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:40:52 UTC [2026/02/16 20:40:52 ET]
+Table '3974766292 32' 2-max Seat #1 is the button
+Seat 1: scorza23 (2896 in chips, $4.90 bounty) 
+Seat 2: napa37 (9925 in chips, $9.80 bounty) 
+scorza23: posts the ante 7
+napa37: posts the ante 7
+scorza23: posts small blind 30
+napa37: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 6s]
+scorza23 is disconnected 
+scorza23: folds 
+Uncalled bet (30) returned to napa37
+napa37 collected 74 from pot
+napa37: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: napa37 (big blind) collected (74)
+
+
+
+PokerStars Hand #259758448711: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:40:57 UTC [2026/02/16 20:40:57 ET]
+Table '3974766292 41' 2-max Seat #1 is the button
+Seat 1: Lenka1704 (6613 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2859 in chips, $4.90 bounty) 
+Lenka1704: posts the ante 7
+scorza23: posts the ante 7
+Lenka1704: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Td]
+scorza23 is disconnected 
+Lenka1704: folds 
+Uncalled bet (30) returned to scorza23
+scorza23 collected 74 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: Lenka1704 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (74)
+
+
+
+PokerStars Hand #259758449458: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:41:03 UTC [2026/02/16 20:41:03 ET]
+Table '3974766292 22' 2-max Seat #1 is the button
+Seat 1: scorza23 (2896 in chips, $4.90 bounty) 
+Seat 2: misterblefff (3534 in chips, $4.90 bounty) 
+scorza23: posts the ante 7
+misterblefff: posts the ante 7
+scorza23: posts small blind 30
+misterblefff: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Kd]
+scorza23 is disconnected 
+scorza23: raises 120 to 180
+misterblefff: calls 120
+*** FLOP *** [3c Tc 9c]
+misterblefff: checks 
+scorza23: checks 
+*** TURN *** [3c Tc 9c] [8s]
+misterblefff: checks 
+scorza23: checks 
+*** RIVER *** [3c Tc 9c 8s] [Ah]
+misterblefff: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+misterblefff: shows [8d Js] (a pair of Eights)
+scorza23: mucks hand 
+misterblefff collected 374 from pot
+*** SUMMARY ***
+Total pot 374 | Rake 0 
+Board [3c Tc 9c 8s Ah]
+Seat 1: scorza23 (button) (small blind) mucked [3d Kd]
+Seat 2: misterblefff (big blind) showed [8d Js] and won (374) with a pair of Eights
+
+
+
+PokerStars Hand #259758452755: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:41:26 UTC [2026/02/16 20:41:26 ET]
+Table '3974766292 19' 2-max Seat #1 is the button
+Seat 1: FIFI470 (5468 in chips, $7.35 bounty) 
+Seat 2: scorza23 (2709 in chips, $4.90 bounty) 
+FIFI470: posts the ante 7
+scorza23: posts the ante 7
+FIFI470: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 7s]
+scorza23 is disconnected 
+FIFI470 is disconnected 
+FIFI470 is connected 
+FIFI470: calls 30
+scorza23: checks 
+*** FLOP *** [Js 9d 5s]
+scorza23: checks 
+FIFI470: checks 
+*** TURN *** [Js 9d 5s] [Ts]
+scorza23: checks 
+FIFI470: checks 
+*** RIVER *** [Js 9d 5s Ts] [5c]
+scorza23: checks 
+FIFI470: bets 60
+scorza23: folds 
+Uncalled bet (60) returned to FIFI470
+FIFI470 collected 134 from pot
+FIFI470: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Board [Js 9d 5s Ts 5c]
+Seat 1: FIFI470 (button) (small blind) collected (134)
+Seat 2: scorza23 (big blind) folded on the River
+
+
+
+PokerStars Hand #259758455553: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:41:46 UTC [2026/02/16 20:41:46 ET]
+Table '3974766292 43' 2-max Seat #1 is the button
+Seat 1: scorza23 (2642 in chips, $4.90 bounty) 
+Seat 2: riqueleomar (4266 in chips, $4.90 bounty) 
+scorza23: posts the ante 7
+riqueleomar: posts the ante 7
+scorza23: posts small blind 30
+riqueleomar: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 9d]
+scorza23 is disconnected 
+scorza23: folds 
+Uncalled bet (30) returned to riqueleomar
+riqueleomar collected 74 from pot
+riqueleomar: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: riqueleomar (big blind) collected (74)
+
+
+
+PokerStars Hand #259758456255: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:41:51 UTC [2026/02/16 20:41:51 ET]
+Table '3974766292 58' 2-max Seat #1 is the button
+Seat 1: filz90 (2815 in chips, $7.35 bounty) 
+Seat 2: scorza23 (2605 in chips, $4.90 bounty) 
+filz90: posts the ante 7
+scorza23: posts the ante 7
+filz90: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Jd]
+filz90: calls 30
+scorza23: checks 
+*** FLOP *** [9h 2s 4h]
+scorza23: checks 
+filz90: bets 67
+scorza23: folds 
+Uncalled bet (67) returned to filz90
+filz90 collected 134 from pot
+filz90: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Board [9h 2s 4h]
+Seat 1: filz90 (button) (small blind) collected (134)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758458161: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:42:05 UTC [2026/02/16 20:42:05 ET]
+Table '3974766292 37' 2-max Seat #1 is the button
+Seat 1: scorza23 (2538 in chips, $4.90 bounty) 
+Seat 2: gokaje (5976 in chips, $7.35 bounty) 
+scorza23: posts the ante 7
+gokaje: posts the ante 7
+scorza23: posts small blind 30
+gokaje: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Td]
+scorza23 is disconnected 
+scorza23: raises 134 to 194
+gokaje: folds 
+Uncalled bet (134) returned to scorza23
+scorza23 collected 134 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (134)
+Seat 2: gokaje (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758459433: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:42:13 UTC [2026/02/16 20:42:13 ET]
+Table '3974766292 50' 2-max Seat #1 is the button
+Seat 1: Lenka1704 (7151 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2605 in chips, $4.90 bounty) 
+Lenka1704: posts the ante 7
+scorza23: posts the ante 7
+Lenka1704: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Ah]
+scorza23 is disconnected 
+Lenka1704: raises 90 to 150
+scorza23: raises 2448 to 2598 and is all-in
+Lenka1704: folds 
+Uncalled bet (2448) returned to scorza23
+scorza23 collected 314 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 314 | Rake 0 
+Seat 1: Lenka1704 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (314)
+
+
+
+PokerStars Hand #259758460562: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:42:22 UTC [2026/02/16 20:42:22 ET]
+Table '3974766292 56' 2-max Seat #1 is the button
+Seat 1: scorza23 (2762 in chips, $4.90 bounty) 
+Seat 2: Renan297 (4417 in chips, $4.90 bounty) 
+scorza23: posts the ante 7
+Renan297: posts the ante 7
+scorza23: posts small blind 30
+Renan297: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Ac]
+scorza23 is disconnected 
+scorza23: raises 120 to 180
+Renan297: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 134 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (134)
+Seat 2: Renan297 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758461651: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:42:29 UTC [2026/02/16 20:42:29 ET]
+Table '3974766292 15' 2-max Seat #1 is the button
+Seat 1: misterblefff (3737 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2829 in chips, $4.90 bounty) 
+misterblefff: posts the ante 7
+scorza23: posts the ante 7
+misterblefff: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 6d]
+scorza23 is disconnected 
+misterblefff: folds 
+Uncalled bet (30) returned to scorza23
+scorza23 collected 74 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: misterblefff (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (74)
+
+
+
+PokerStars Hand #259758462771: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:42:38 UTC [2026/02/16 20:42:38 ET]
+Table '3974766292 28' 2-max Seat #1 is the button
+Seat 1: Imortal Reis (5862 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2866 in chips, $4.90 bounty) 
+Imortal Reis: posts the ante 7
+scorza23: posts the ante 7
+Imortal Reis: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5c]
+scorza23 is disconnected 
+Imortal Reis: raises 134 to 194
+scorza23: folds 
+Uncalled bet (134) returned to Imortal Reis
+Imortal Reis collected 134 from pot
+Imortal Reis: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Seat 1: Imortal Reis (button) (small blind) collected (134)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758464481: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:42:50 UTC [2026/02/16 20:42:50 ET]
+Table '3974766292 55' 2-max Seat #1 is the button
+Seat 1: scorza23 (2799 in chips, $4.90 bounty) 
+Seat 2: W Wallace O (4991 in chips, $4.90 bounty) 
+scorza23: posts the ante 7
+W Wallace O: posts the ante 7
+scorza23: posts small blind 30
+W Wallace O: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Th]
+scorza23 is disconnected 
+scorza23: raises 134 to 194
+W Wallace O: calls 134
+*** FLOP *** [Kd 8h Jh]
+W Wallace O: checks 
+scorza23: checks 
+*** TURN *** [Kd 8h Jh] [9h]
+W Wallace O: checks 
+scorza23: checks 
+*** RIVER *** [Kd 8h Jh 9h] [Td]
+W Wallace O: bets 133
+scorza23: raises 668 to 801
+W Wallace O: folds 
+Uncalled bet (668) returned to scorza23
+scorza23 collected 668 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 668 | Rake 0 
+Board [Kd 8h Jh 9h Td]
+Seat 1: scorza23 (button) (small blind) collected (668)
+Seat 2: W Wallace O (big blind) folded on the River
+
+
+
+PokerStars Hand #259758467719: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:43:13 UTC [2026/02/16 20:43:13 ET]
+Table '3974766292 44' 2-max Seat #1 is the button
+Seat 1: donald35660 (5779 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3133 in chips, $4.90 bounty) 
+donald35660: posts the ante 7
+scorza23: posts the ante 7
+donald35660: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 5s]
+donald35660: calls 30
+scorza23: checks 
+*** FLOP *** [9d Qc 8h]
+scorza23: checks 
+donald35660: checks 
+*** TURN *** [9d Qc 8h] [Kh]
+scorza23: checks 
+donald35660: checks 
+*** RIVER *** [9d Qc 8h Kh] [Qd]
+scorza23: bets 60
+donald35660: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 134 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Board [9d Qc 8h Kh Qd]
+Seat 1: donald35660 (button) (small blind) folded on the River
+Seat 2: scorza23 (big blind) collected (134)
+
+
+
+PokerStars Hand #259758470563: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:43:33 UTC [2026/02/16 20:43:33 ET]
+Table '3974766292 26' 2-max Seat #1 is the button
+Seat 1: scorza23 (3200 in chips, $4.90 bounty) 
+Seat 2: misterblefff (3596 in chips, $4.90 bounty) 
+scorza23: posts the ante 7
+misterblefff: posts the ante 7
+scorza23: posts small blind 30
+misterblefff: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Ad]
+scorza23 is disconnected 
+scorza23: raises 120 to 180
+misterblefff: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 134 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (134)
+Seat 2: misterblefff (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758471705: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:43:42 UTC [2026/02/16 20:43:42 ET]
+Table '3974766292 13' 2-max Seat #1 is the button
+Seat 1: Igorhpf (9326 in chips, $12.25 bounty) 
+Seat 2: scorza23 (3267 in chips, $4.90 bounty) 
+Igorhpf: posts the ante 7
+scorza23: posts the ante 7
+Igorhpf: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 8d]
+Igorhpf is connected 
+Igorhpf: calls 30
+scorza23: checks 
+*** FLOP *** [2d Ts Jh]
+scorza23: checks 
+Igorhpf: bets 60
+scorza23: folds 
+Uncalled bet (60) returned to Igorhpf
+Igorhpf collected 134 from pot
+Igorhpf: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Board [2d Ts Jh]
+Seat 1: Igorhpf (button) (small blind) collected (134)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758473426: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:43:54 UTC [2026/02/16 20:43:54 ET]
+Table '3974766292 21' 2-max Seat #1 is the button
+Seat 1: scorza23 (3200 in chips, $4.90 bounty) 
+Seat 2: trevis369 (20166 in chips, $17.15 bounty) 
+scorza23: posts the ante 7
+trevis369: posts the ante 7
+scorza23: posts small blind 30
+trevis369: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8d]
+trevis369 is disconnected 
+scorza23: folds 
+Uncalled bet (30) returned to trevis369
+trevis369 collected 74 from pot
+trevis369: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: trevis369 (big blind) collected (74)
+
+
+
+PokerStars Hand #259758474135: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:43:59 UTC [2026/02/16 20:43:59 ET]
+Table '3974766292 40' 2-max Seat #1 is the button
+Seat 1: Cathcme (2476 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3163 in chips, $4.90 bounty) 
+Cathcme: posts the ante 7
+scorza23: posts the ante 7
+Cathcme: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 3c]
+Cathcme is disconnected 
+Cathcme: raises 60 to 120
+scorza23: calls 60
+*** FLOP *** [8h 6d Jh]
+scorza23: checks 
+Cathcme: bets 66
+scorza23: folds 
+Uncalled bet (66) returned to Cathcme
+Cathcme collected 254 from pot
+Cathcme: doesn't show hand 
+*** SUMMARY ***
+Total pot 254 | Rake 0 
+Board [8h 6d Jh]
+Seat 1: Cathcme (button) (small blind) collected (254)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758476363: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:44:15 UTC [2026/02/16 20:44:15 ET]
+Table '3974766292 7' 2-max Seat #1 is the button
+Seat 1: scorza23 (3036 in chips, $4.90 bounty) 
+Seat 2: Lenka1704 (10479 in chips, $7.35 bounty) 
+scorza23: posts the ante 7
+Lenka1704: posts the ante 7
+scorza23: posts small blind 30
+Lenka1704: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 7d]
+scorza23 is disconnected 
+scorza23: raises 120 to 180
+Lenka1704: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 134 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (134)
+Seat 2: Lenka1704 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758477477: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:44:23 UTC [2026/02/16 20:44:23 ET]
+Table '3974766292 5' 2-max Seat #1 is the button
+Seat 1: robsimpsonye (3000 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3103 in chips, $4.90 bounty) 
+robsimpsonye: posts the ante 7
+scorza23: posts the ante 7
+robsimpsonye: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 2c]
+scorza23 is disconnected 
+robsimpsonye: raises 120 to 180
+scorza23: folds 
+Uncalled bet (120) returned to robsimpsonye
+robsimpsonye collected 134 from pot
+robsimpsonye: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Seat 1: robsimpsonye (button) (small blind) collected (134)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758478610: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:44:31 UTC [2026/02/16 20:44:31 ET]
+Table '3974766292 48' 2-max Seat #1 is the button
+Seat 1: scorza23 (3036 in chips, $4.90 bounty) 
+Seat 2: quick68686 (5570 in chips, $7.35 bounty) 
+scorza23: posts the ante 7
+quick68686: posts the ante 7
+scorza23: posts small blind 30
+quick68686: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Kc]
+scorza23 is disconnected 
+scorza23: raises 120 to 180
+quick68686: calls 120
+*** FLOP *** [As Jh Qd]
+quick68686: checks 
+scorza23: checks 
+*** TURN *** [As Jh Qd] [3s]
+quick68686: bets 187
+scorza23: folds 
+Uncalled bet (187) returned to quick68686
+quick68686 collected 374 from pot
+quick68686: doesn't show hand 
+*** SUMMARY ***
+Total pot 374 | Rake 0 
+Board [As Jh Qd 3s]
+Seat 1: scorza23 (button) (small blind) folded on the Turn
+Seat 2: quick68686 (big blind) collected (374)
+
+
+
+PokerStars Hand #259758480531: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:44:45 UTC [2026/02/16 20:44:45 ET]
+Table '3974766292 31' 2-max Seat #1 is the button
+Seat 1: Renan297 (3713 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2849 in chips, $4.90 bounty) 
+Renan297: posts the ante 7
+scorza23: posts the ante 7
+Renan297: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Tc]
+Renan297 is connected 
+scorza23 is disconnected 
+Renan297: folds 
+Uncalled bet (30) returned to scorza23
+scorza23 collected 74 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: Renan297 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (74)
+
+
+
+PokerStars Hand #259758481519: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:44:52 UTC [2026/02/16 20:44:52 ET]
+Table '3974766292 34' 2-max Seat #1 is the button
+Seat 1: guisars (3302 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2886 in chips, $4.90 bounty) 
+guisars: posts the ante 7
+scorza23: posts the ante 7
+guisars: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 8d]
+guisars: raises 60 to 120
+scorza23: folds 
+Uncalled bet (60) returned to guisars
+guisars collected 134 from pot
+guisars: doesn't show hand 
+*** SUMMARY ***
+Total pot 134 | Rake 0 
+Seat 1: guisars (button) (small blind) collected (134)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758482373: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level IV (30/60) - 2026/02/17 1:44:58 UTC [2026/02/16 20:44:58 ET]
+Table '3974766292 10' 2-max Seat #1 is the button
+Seat 1: scorza23 (2819 in chips, $4.90 bounty) 
+Seat 2: MrShazanko (1776 in chips, $7.35 bounty) 
+scorza23: posts the ante 7
+MrShazanko: posts the ante 7
+scorza23: posts small blind 30
+MrShazanko: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 2c]
+scorza23 is disconnected 
+scorza23: folds 
+Uncalled bet (30) returned to MrShazanko
+MrShazanko collected 74 from pot
+MrShazanko: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: MrShazanko (big blind) collected (74)
+
+
+
+PokerStars Hand #259758483072: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:45:02 UTC [2026/02/16 20:45:02 ET]
+Table '3974766292 47' 2-max Seat #1 is the button
+Seat 1: scorza23 (2782 in chips, $4.90 bounty) 
+Seat 2: theich1 (3994 in chips, $7.35 bounty) 
+scorza23: posts the ante 10
+theich1: posts the ante 10
+scorza23: posts small blind 40
+theich1: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Kh]
+scorza23 is disconnected 
+scorza23: raises 180 to 260
+theich1: calls 180
+*** FLOP *** [6s Th 3d]
+theich1: checks 
+scorza23: bets 540
+theich1: folds 
+Uncalled bet (540) returned to scorza23
+scorza23 collected 540 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Board [6s Th 3d]
+Seat 1: scorza23 (button) (small blind) collected (540)
+Seat 2: theich1 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758484755: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:45:15 UTC [2026/02/16 20:45:15 ET]
+Table '3974766292 54' 2-max Seat #1 is the button
+Seat 1: lucas-chasco (3067 in chips, $4.90 bounty) 
+Seat 2: scorza23 (3052 in chips, $4.90 bounty) 
+lucas-chasco: posts the ante 10
+scorza23: posts the ante 10
+lucas-chasco: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 3c]
+scorza23 is disconnected 
+lucas-chasco is connected 
+lucas-chasco: raises 80 to 160
+scorza23: folds 
+Uncalled bet (80) returned to lucas-chasco
+lucas-chasco collected 180 from pot
+lucas-chasco: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: lucas-chasco (button) (small blind) collected (180)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758485695: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:45:21 UTC [2026/02/16 20:45:21 ET]
+Table '3974766292 58' 2-max Seat #1 is the button
+Seat 1: scorza23 (2962 in chips, $4.90 bounty) 
+Seat 2: Beisser676 (12845 in chips, $9.80 bounty) 
+scorza23: posts the ante 10
+Beisser676: posts the ante 10
+scorza23: posts small blind 40
+Beisser676: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5s]
+scorza23 is disconnected 
+scorza23: raises 160 to 240
+Beisser676: calls 160
+*** FLOP *** [5c Js 6h]
+Beisser676: checks 
+scorza23: checks 
+*** TURN *** [5c Js 6h] [2s]
+Beisser676: bets 145
+scorza23: folds 
+Uncalled bet (145) returned to Beisser676
+Beisser676 collected 500 from pot
+Beisser676: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [5c Js 6h 2s]
+Seat 1: scorza23 (button) (small blind) folded on the Turn
+Seat 2: Beisser676 (big blind) collected (500)
+
+
+
+PokerStars Hand #259758487953: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:45:38 UTC [2026/02/16 20:45:38 ET]
+Table '3974766292 54' 2-max Seat #1 is the button
+Seat 1: Mrmoncler89 (4213 in chips, $7.35 bounty) 
+Seat 2: scorza23 (2712 in chips, $4.90 bounty) 
+Mrmoncler89: posts the ante 10
+scorza23: posts the ante 10
+Mrmoncler89: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 7h]
+scorza23 is disconnected 
+Mrmoncler89: calls 40
+scorza23: checks 
+*** FLOP *** [Ts Jd 5s]
+scorza23: checks 
+Mrmoncler89: checks 
+*** TURN *** [Ts Jd 5s] [4c]
+scorza23: checks 
+Mrmoncler89: checks 
+*** RIVER *** [Ts Jd 5s 4c] [Ah]
+scorza23: checks 
+Mrmoncler89: checks 
+*** SHOW DOWN ***
+scorza23: shows [5c 7h] (a pair of Fives)
+Mrmoncler89: mucks hand 
+scorza23 collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [Ts Jd 5s 4c Ah]
+Seat 1: Mrmoncler89 (button) (small blind) mucked [2h Qh]
+Seat 2: scorza23 (big blind) showed [5c 7h] and won (180) with a pair of Fives
+
+
+
+PokerStars Hand #259758490068: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:45:53 UTC [2026/02/16 20:45:53 ET]
+Table '3974766292 40' 2-max Seat #1 is the button
+Seat 1: scorza23 (2802 in chips, $4.90 bounty) 
+Seat 2: walkernegro (9748 in chips, $9.18 bounty) 
+scorza23: posts the ante 10
+walkernegro: posts the ante 10
+scorza23: posts small blind 40
+walkernegro: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 3s]
+scorza23 is disconnected 
+scorza23: raises 160 to 240
+walkernegro: raises 9498 to 9738 and is all-in
+scorza23: folds 
+Uncalled bet (9498) returned to walkernegro
+walkernegro collected 500 from pot
+walkernegro: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: walkernegro (big blind) collected (500)
+
+
+
+PokerStars Hand #259758491507: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:46:03 UTC [2026/02/16 20:46:03 ET]
+Table '3974766292 36' 2-max Seat #1 is the button
+Seat 1: bbworld143 (22233 in chips, $18.98 bounty) 
+Seat 2: scorza23 (2552 in chips, $4.90 bounty) 
+bbworld143: posts the ante 10
+scorza23: posts the ante 10
+bbworld143: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Qd]
+bbworld143: calls 40
+scorza23: raises 2462 to 2542 and is all-in
+bbworld143: folds 
+Uncalled bet (2462) returned to scorza23
+scorza23 collected 180 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: bbworld143 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (180)
+
+
+
+PokerStars Hand #259758493150: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:46:14 UTC [2026/02/16 20:46:14 ET]
+Table '3974766292 56' 2-max Seat #1 is the button
+Seat 1: matheuswow23 (4794 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2642 in chips, $4.90 bounty) 
+matheuswow23: posts the ante 10
+scorza23: posts the ante 10
+matheuswow23: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6s]
+matheuswow23 is connected 
+matheuswow23: calls 40
+scorza23: checks 
+*** FLOP *** [8s 5s Tc]
+scorza23: checks 
+matheuswow23: checks 
+*** TURN *** [8s 5s Tc] [Ad]
+scorza23: checks 
+matheuswow23: checks 
+*** RIVER *** [8s 5s Tc Ad] [4d]
+scorza23: checks 
+matheuswow23: checks 
+*** SHOW DOWN ***
+scorza23: shows [2d 6s] (high card Ace)
+matheuswow23: shows [Jd 7h] (high card Ace - Jack kicker)
+matheuswow23 collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [8s 5s Tc Ad 4d]
+Seat 1: matheuswow23 (button) (small blind) showed [Jd 7h] and won (180) with high card Ace
+Seat 2: scorza23 (big blind) showed [2d 6s] and lost with high card Ace
+
+
+
+PokerStars Hand #259758497979: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:46:49 UTC [2026/02/16 20:46:49 ET]
+Table '3974766292 7' 2-max Seat #1 is the button
+Seat 1: scorza23 (2552 in chips, $4.90 bounty) 
+Seat 2: quick68686 (5437 in chips, $7.35 bounty) 
+scorza23: posts the ante 10
+quick68686: posts the ante 10
+scorza23: posts small blind 40
+quick68686: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 2h]
+scorza23 is disconnected 
+scorza23: folds 
+Uncalled bet (40) returned to quick68686
+quick68686 collected 100 from pot
+quick68686: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: quick68686 (big blind) collected (100)
+
+
+
+PokerStars Hand #259758498733: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:46:54 UTC [2026/02/16 20:46:54 ET]
+Table '3974766292 23' 2-max Seat #1 is the button
+Seat 1: scorza23 (2502 in chips, $4.90 bounty) 
+Seat 2: Alkaponena (6567 in chips, $12.25 bounty) 
+scorza23: posts the ante 10
+Alkaponena: posts the ante 10
+scorza23: posts small blind 40
+Alkaponena: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Jd]
+scorza23 is disconnected 
+scorza23: raises 160 to 240
+Alkaponena: calls 160
+*** FLOP *** [9c 7s Qd]
+Alkaponena: checks 
+scorza23: bets 250
+Alkaponena: folds 
+Uncalled bet (250) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [9c 7s Qd]
+Seat 1: scorza23 (button) (small blind) collected (500)
+Seat 2: Alkaponena (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758500346: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:47:06 UTC [2026/02/16 20:47:06 ET]
+Table '3974766292 20' 2-max Seat #1 is the button
+Seat 1: Facusushi (3044 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2752 in chips, $4.90 bounty) 
+Facusushi: posts the ante 10
+scorza23: posts the ante 10
+Facusushi: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 3s]
+scorza23 is disconnected 
+Facusushi is connected 
+Facusushi: calls 40
+scorza23: checks 
+*** FLOP *** [Kc 9d Qd]
+scorza23: checks 
+Facusushi: bets 80
+scorza23: folds 
+Uncalled bet (80) returned to Facusushi
+Facusushi collected 180 from pot
+Facusushi: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [Kc 9d Qd]
+Seat 1: Facusushi (button) (small blind) collected (180)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758502011: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:47:18 UTC [2026/02/16 20:47:18 ET]
+Table '3974766292 7' 2-max Seat #1 is the button
+Seat 1: scorza23 (2662 in chips, $4.90 bounty) 
+Seat 2: Komodo095 (2110 in chips, $4.90 bounty) 
+scorza23: posts the ante 10
+Komodo095: posts the ante 10
+scorza23: posts small blind 40
+Komodo095: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2c]
+scorza23 is disconnected 
+Komodo095 is disconnected 
+scorza23: folds 
+Uncalled bet (40) returned to Komodo095
+Komodo095 collected 100 from pot
+Komodo095: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: Komodo095 (big blind) collected (100)
+
+
+
+PokerStars Hand #259758502849: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:47:24 UTC [2026/02/16 20:47:24 ET]
+Table '3974766292 18' 2-max Seat #1 is the button
+Seat 1: gokaje (5977 in chips, $7.35 bounty) 
+Seat 2: scorza23 (2612 in chips, $4.90 bounty) 
+gokaje: posts the ante 10
+scorza23: posts the ante 10
+gokaje: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 3d]
+scorza23 is disconnected 
+gokaje: raises 80 to 160
+scorza23: folds 
+Uncalled bet (80) returned to gokaje
+gokaje collected 180 from pot
+gokaje: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: gokaje (button) (small blind) collected (180)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758503990: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:47:32 UTC [2026/02/16 20:47:32 ET]
+Table '3974766292 35' 2-max Seat #1 is the button
+Seat 1: Alkaponena (5907 in chips, $12.25 bounty) 
+Seat 2: scorza23 (2522 in chips, $4.90 bounty) 
+Alkaponena: posts the ante 10
+scorza23: posts the ante 10
+Alkaponena: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 2s]
+scorza23 is disconnected 
+Alkaponena: raises 5817 to 5897 and is all-in
+scorza23: folds 
+Uncalled bet (5817) returned to Alkaponena
+Alkaponena collected 180 from pot
+Alkaponena: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: Alkaponena (button) (small blind) collected (180)
+Seat 2: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758504846: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:47:38 UTC [2026/02/16 20:47:38 ET]
+Table '3974766292 24' 2-max Seat #1 is the button
+Seat 1: scorza23 (2432 in chips, $4.90 bounty) 
+Seat 2: philpap (3724 in chips, $4.90 bounty) 
+scorza23: posts the ante 10
+philpap: posts the ante 10
+scorza23: posts small blind 40
+philpap: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 4h]
+scorza23 is disconnected 
+scorza23: folds 
+Uncalled bet (40) returned to philpap
+philpap collected 100 from pot
+philpap: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: philpap (big blind) collected (100)
+
+
+
+PokerStars Hand #259758505721: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:47:44 UTC [2026/02/16 20:47:44 ET]
+Table '3974766292 26' 2-max Seat #1 is the button
+Seat 1: Igorhpf (8750 in chips, $14.70 bounty) 
+Seat 2: scorza23 (2382 in chips, $4.90 bounty) 
+Igorhpf: posts the ante 10
+scorza23: posts the ante 10
+Igorhpf: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 2s]
+scorza23 is disconnected 
+Igorhpf is connected 
+Igorhpf: calls 40
+scorza23: checks 
+*** FLOP *** [7h 9s 5h]
+scorza23: checks 
+Igorhpf: bets 80
+scorza23: folds 
+Uncalled bet (80) returned to Igorhpf
+Igorhpf collected 180 from pot
+Igorhpf: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [7h 9s 5h]
+Seat 1: Igorhpf (button) (small blind) collected (180)
+Seat 2: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758507387: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:47:56 UTC [2026/02/16 20:47:56 ET]
+Table '3974766292 45' 2-max Seat #1 is the button
+Seat 1: scorza23 (2292 in chips, $4.90 bounty) 
+Seat 2: walkernegro (7039 in chips, $9.18 bounty) 
+scorza23: posts the ante 10
+walkernegro: posts the ante 10
+scorza23: posts small blind 40
+walkernegro: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 3d]
+scorza23 is disconnected 
+walkernegro is disconnected 
+scorza23: raises 160 to 240
+walkernegro: raises 6789 to 7029 and is all-in
+scorza23: folds 
+Uncalled bet (6789) returned to walkernegro
+walkernegro collected 500 from pot
+walkernegro: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: walkernegro (big blind) collected (500)
+
+
+
+PokerStars Hand #259758508813: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:48:06 UTC [2026/02/16 20:48:06 ET]
+Table '3974766292 10' 2-max Seat #1 is the button
+Seat 1: cjc1000 (2928 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2042 in chips, $4.90 bounty) 
+cjc1000: posts the ante 10
+scorza23: posts the ante 10
+cjc1000: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Ad]
+scorza23 is disconnected 
+cjc1000: raises 80 to 160
+scorza23: raises 340 to 500
+cjc1000: calls 340
+*** FLOP *** [6d 2h Qh]
+scorza23: bets 1020
+cjc1000: folds 
+Uncalled bet (1020) returned to scorza23
+scorza23 collected 1020 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1020 | Rake 0 
+Board [6d 2h Qh]
+Seat 1: cjc1000 (button) (small blind) folded on the Flop
+Seat 2: scorza23 (big blind) collected (1020)
+
+
+
+PokerStars Hand #259758512454: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:48:32 UTC [2026/02/16 20:48:32 ET]
+Table '3974766292 13' 2-max Seat #1 is the button
+Seat 1: scorza23 (2552 in chips, $4.90 bounty) 
+Seat 2: trevis369 (19097 in chips, $17.15 bounty) 
+scorza23: posts the ante 10
+trevis369: posts the ante 10
+scorza23: posts small blind 40
+trevis369: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Ts]
+trevis369 is disconnected 
+scorza23: folds 
+Uncalled bet (40) returned to trevis369
+trevis369 collected 100 from pot
+trevis369: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: scorza23 (button) (small blind) folded before Flop
+Seat 2: trevis369 (big blind) collected (100)
+
+
+
+PokerStars Hand #259758513193: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:48:37 UTC [2026/02/16 20:48:37 ET]
+Table '3974766292 18' 2-max Seat #1 is the button
+Seat 1: scorza23 (2502 in chips, $4.90 bounty) 
+Seat 2: youridol (2180 in chips, $4.90 bounty) 
+scorza23: posts the ante 10
+youridol: posts the ante 10
+scorza23: posts small blind 40
+youridol: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 9s]
+scorza23 is disconnected 
+scorza23: raises 160 to 240
+youridol: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 180 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (180)
+Seat 2: youridol (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758514173: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:48:44 UTC [2026/02/16 20:48:44 ET]
+Table '3974766292 2' 2-max Seat #1 is the button
+Seat 1: fasteddie917 (5027 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2592 in chips, $4.90 bounty) 
+fasteddie917: posts the ante 10
+scorza23: posts the ante 10
+fasteddie917: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3h]
+fasteddie917: calls 40
+scorza23: checks 
+*** FLOP *** [Jc 2d Qd]
+scorza23: checks 
+fasteddie917: checks 
+*** TURN *** [Jc 2d Qd] [9d]
+scorza23: checks 
+fasteddie917: checks 
+*** RIVER *** [Jc 2d Qd 9d] [9h]
+scorza23: bets 90
+fasteddie917: folds 
+Uncalled bet (90) returned to scorza23
+scorza23 collected 180 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [Jc 2d Qd 9d 9h]
+Seat 1: fasteddie917 (button) (small blind) folded on the River
+Seat 2: scorza23 (big blind) collected (180)
+
+
+
+PokerStars Hand #259758517152: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:49:05 UTC [2026/02/16 20:49:05 ET]
+Table '3974766292 54' 2-max Seat #1 is the button
+Seat 1: maaaKuui! (8574 in chips, $9.80 bounty) 
+Seat 2: scorza23 (2682 in chips, $4.90 bounty) 
+maaaKuui!: posts the ante 10
+scorza23: posts the ante 10
+maaaKuui!: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 2c]
+maaaKuui!: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: maaaKuui! (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (100)
+
+
+
+PokerStars Hand #259758518709: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:49:16 UTC [2026/02/16 20:49:16 ET]
+Table '3974766292 11' 2-max Seat #1 is the button
+Seat 1: Fireblaster777 (2371 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2732 in chips, $4.90 bounty) 
+Fireblaster777: posts the ante 10
+scorza23: posts the ante 10
+Fireblaster777: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 7h]
+scorza23 is disconnected 
+Fireblaster777: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: Fireblaster777 (button) (small blind) folded before Flop
+Seat 2: scorza23 (big blind) collected (100)
+
+
+
+PokerStars Hand #259758520356: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:49:28 UTC [2026/02/16 20:49:28 ET]
+Table '3974766292 39' 2-max Seat #1 is the button
+Seat 1: scorza23 (2782 in chips, $4.90 bounty) 
+Seat 2: trevis369 (18131 in chips, $17.15 bounty) 
+scorza23: posts the ante 10
+trevis369: posts the ante 10
+scorza23: posts small blind 40
+trevis369: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Js]
+scorza23: raises 160 to 240
+trevis369: calls 160
+*** FLOP *** [Kd 2h 6c]
+trevis369: checks 
+scorza23: checks 
+*** TURN *** [Kd 2h 6c] [Ac]
+trevis369: checks 
+scorza23: bets 250
+trevis369: folds 
+Uncalled bet (250) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [Kd 2h 6c Ac]
+Seat 1: scorza23 (button) (small blind) collected (500)
+Seat 2: trevis369 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259758522465: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:49:43 UTC [2026/02/16 20:49:43 ET]
+Table '3974766292 35' 2-max Seat #1 is the button
+Seat 1: scorza23 (3032 in chips, $4.90 bounty) 
+Seat 2: Fabio Senne (4624 in chips, $7.35 bounty) 
+scorza23: posts the ante 10
+Fabio Senne: posts the ante 10
+scorza23: posts small blind 40
+Fabio Senne: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Qc]
+scorza23 is disconnected 
+scorza23: raises 160 to 240
+Fabio Senne: calls 160
+*** FLOP *** [4d 5c Ah]
+Fabio Senne: checks 
+scorza23: bets 250
+Fabio Senne: raises 4124 to 4374 and is all-in
+scorza23: folds 
+Uncalled bet (4124) returned to Fabio Senne
+Fabio Senne collected 1000 from pot
+Fabio Senne: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [4d 5c Ah]
+Seat 1: scorza23 (button) (small blind) folded on the Flop
+Seat 2: Fabio Senne (big blind) collected (1000)
+
+
+
+PokerStars Hand #259758524543: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level V (40/80) - 2026/02/17 1:49:58 UTC [2026/02/16 20:49:58 ET]
+Table '3974766292 26' 2-max Seat #1 is the button
+Seat 1: scorza23 (2532 in chips, $4.90 bounty) 
+Seat 2: fasteddie917 (5597 in chips, $4.90 bounty) 
+scorza23: posts the ante 10
+fasteddie917: posts the ante 10
+scorza23: posts small blind 40
+fasteddie917: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Jc]
+scorza23: raises 160 to 240
+fasteddie917: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 180 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: scorza23 (button) (small blind) collected (180)
+Seat 2: fasteddie917 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758525601: Zoom Tournament #3974766292, $0.00+$4.90+$0.60 USD Hold'em No Limit - Level VI (50/100) - 2026/02/17 1:50:06 UTC [2026/02/16 20:50:06 ET]
+Table '3974766292 30' 2-max Seat #1 is the button
+Seat 1: MartiniArg (3000 in chips, $4.90 bounty) 
+Seat 2: scorza23 (2622 in chips, $4.90 bounty) 
+MartiniArg: posts the ante 12
+scorza23: posts the ante 12
+MartiniArg: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 3h]
+scorza23 is disconnected 
+MartiniArg: calls 50
+scorza23: raises 2510 to 2610 and is all-in
+MartiniArg: calls 2510
+*** FLOP *** [Td 9h Qd]
+*** TURN *** [Td 9h Qd] [7d]
+*** RIVER *** [Td 9h Qd 7d] [Qs]
+*** SHOW DOWN ***
+scorza23: shows [Kh 3h] (a pair of Queens)
+MartiniArg: shows [8h 7h] (two pair, Queens and Sevens)
+MartiniArg collected 5244 from pot
+MartiniArg wins $2.45 for eliminating scorza23 and their own bounty increases by $2.45 to $7.35
+*** SUMMARY ***
+Total pot 5244 | Rake 0 
+Board [Td 9h Qd 7d Qs]
+Seat 1: MartiniArg (button) (small blind) showed [8h 7h] and won (5244) with two pair, Queens and Sevens
+Seat 2: scorza23 (big blind) showed [Kh 3h] and lost with a pair of Queens
+
+
+

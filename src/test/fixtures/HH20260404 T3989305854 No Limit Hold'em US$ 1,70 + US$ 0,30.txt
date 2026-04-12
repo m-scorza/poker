@@ -1,0 +1,1652 @@
+﻿PokerStars Hand #260346304568: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:53:33 UTC [2026/04/04 16:53:33 ET]
+Table '3989305854 1' 9-max Seat #1 is the button
+Seat 1: projinegro (1500 in chips) 
+Seat 2: crocolas22 (1500 in chips) 
+Seat 3: kyvs (1500 in chips) 
+Seat 4: joaoguimariano (1500 in chips) 
+Seat 5: eaechamps (1500 in chips) 
+Seat 6: malky141998 (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: drivesharft (1500 in chips) 
+Seat 9: notlinress (1500 in chips) 
+projinegro: posts the ante 3
+crocolas22: posts the ante 3
+kyvs: posts the ante 3
+joaoguimariano: posts the ante 3
+eaechamps: posts the ante 3
+malky141998: posts the ante 3
+scorza23: posts the ante 3
+drivesharft: posts the ante 3
+notlinress: posts the ante 3
+crocolas22: posts small blind 10
+kyvs: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Jc]
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+scorza23: raises 20 to 40
+drivesharft: raises 40 to 80
+notlinress: folds 
+projinegro: folds 
+crocolas22: calls 70
+kyvs: folds 
+scorza23: calls 40
+*** FLOP *** [Qd Ah 3s]
+crocolas22: bets 144
+scorza23: folds 
+drivesharft: calls 144
+*** TURN *** [Qd Ah 3s] [2c]
+crocolas22: bets 575
+drivesharft: calls 575
+*** RIVER *** [Qd Ah 3s 2c] [5h]
+crocolas22: bets 698 and is all-in
+drivesharft: calls 698 and is all-in
+*** SHOW DOWN ***
+crocolas22: shows [Qh Qs] (three of a kind, Queens)
+drivesharft: shows [Ac Kd] (a pair of Aces)
+crocolas22 collected 3121 from pot
+drivesharft finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3121 | Rake 0 
+Board [Qd Ah 3s 2c 5h]
+Seat 1: projinegro (button) folded before Flop (didn't bet)
+Seat 2: crocolas22 (small blind) showed [Qh Qs] and won (3121) with three of a kind, Queens
+Seat 3: kyvs (big blind) folded before Flop
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded on the Flop
+Seat 8: drivesharft showed [Ac Kd] and lost with a pair of Aces
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346322615: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:54:52 UTC [2026/04/04 16:54:52 ET]
+Table '3989305854 1' 9-max Seat #2 is the button
+Seat 1: projinegro (1497 in chips) 
+Seat 2: crocolas22 (3121 in chips) 
+Seat 3: kyvs (1477 in chips) 
+Seat 4: joaoguimariano (1497 in chips) 
+Seat 5: eaechamps (1497 in chips) 
+Seat 6: malky141998 (1497 in chips) 
+Seat 7: scorza23 (1417 in chips) 
+Seat 9: notlinress (1497 in chips) 
+projinegro: posts the ante 3
+crocolas22: posts the ante 3
+kyvs: posts the ante 3
+joaoguimariano: posts the ante 3
+eaechamps: posts the ante 3
+malky141998: posts the ante 3
+scorza23: posts the ante 3
+notlinress: posts the ante 3
+kyvs: posts small blind 10
+joaoguimariano: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5c]
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: folds 
+crocolas22: folds 
+kyvs: calls 10
+joaoguimariano: checks 
+*** FLOP *** [4h 5s 2s]
+kyvs: checks 
+joaoguimariano: bets 64
+kyvs: folds 
+Uncalled bet (64) returned to joaoguimariano
+joaoguimariano collected 64 from pot
+joaoguimariano: doesn't show hand 
+*** SUMMARY ***
+Total pot 64 | Rake 0 
+Board [4h 5s 2s]
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 2: crocolas22 (button) folded before Flop (didn't bet)
+Seat 3: kyvs (small blind) folded on the Flop
+Seat 4: joaoguimariano (big blind) collected (64)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346328353: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:55:18 UTC [2026/04/04 16:55:18 ET]
+Table '3989305854 1' 9-max Seat #3 is the button
+Seat 1: projinegro (1494 in chips) 
+Seat 2: crocolas22 (3118 in chips) 
+Seat 3: kyvs (1454 in chips) 
+Seat 4: joaoguimariano (1538 in chips) 
+Seat 5: eaechamps (1494 in chips) 
+Seat 6: malky141998 (1494 in chips) 
+Seat 7: scorza23 (1414 in chips) 
+Seat 9: notlinress (1494 in chips) 
+projinegro: posts the ante 3
+crocolas22: posts the ante 3
+kyvs: posts the ante 3
+joaoguimariano: posts the ante 3
+eaechamps: posts the ante 3
+malky141998: posts the ante 3
+scorza23: posts the ante 3
+notlinress: posts the ante 3
+joaoguimariano: posts small blind 10
+eaechamps: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6c]
+malky141998: folds 
+scorza23: folds 
+notlinress: calls 20
+projinegro: folds 
+crocolas22: raises 20 to 40
+kyvs: folds 
+joaoguimariano: calls 30
+eaechamps: folds 
+notlinress: calls 20
+*** FLOP *** [Td 9d Qs]
+joaoguimariano: checks 
+notlinress: bets 20
+crocolas22: raises 20 to 40
+joaoguimariano: folds 
+notlinress: calls 20
+*** TURN *** [Td 9d Qs] [8h]
+notlinress: bets 20
+crocolas22: raises 142 to 162
+notlinress: folds 
+Uncalled bet (142) returned to crocolas22
+crocolas22 collected 284 from pot
+*** SUMMARY ***
+Total pot 284 | Rake 0 
+Board [Td 9d Qs 8h]
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 2: crocolas22 collected (284)
+Seat 3: kyvs (button) folded before Flop (didn't bet)
+Seat 4: joaoguimariano (small blind) folded on the Flop
+Seat 5: eaechamps (big blind) folded before Flop
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded on the Turn
+
+
+
+PokerStars Hand #260346336428: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:56:14 UTC [2026/04/04 16:56:14 ET]
+Table '3989305854 1' 9-max Seat #4 is the button
+Seat 1: projinegro (1491 in chips) 
+Seat 2: crocolas22 (3299 in chips) 
+Seat 3: kyvs (1451 in chips) 
+Seat 4: joaoguimariano (1495 in chips) 
+Seat 5: eaechamps (1471 in chips) 
+Seat 6: malky141998 (1491 in chips) 
+Seat 7: scorza23 (1411 in chips) 
+Seat 9: notlinress (1391 in chips) 
+projinegro: posts the ante 3
+crocolas22: posts the ante 3
+kyvs: posts the ante 3
+joaoguimariano: posts the ante 3
+eaechamps: posts the ante 3
+malky141998: posts the ante 3
+scorza23: posts the ante 3
+notlinress: posts the ante 3
+eaechamps: posts small blind 10
+malky141998: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Ad]
+scorza23: raises 40 to 60
+notlinress: folds 
+projinegro: folds 
+crocolas22: calls 60
+kyvs: folds 
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+*** FLOP *** [8d 4s Ts]
+scorza23: bets 60
+crocolas22: calls 60
+*** TURN *** [8d 4s Ts] [9d]
+scorza23: bets 100
+crocolas22: calls 100
+*** RIVER *** [8d 4s Ts 9d] [Tc]
+scorza23: bets 494
+crocolas22: calls 494
+*** SHOW DOWN ***
+scorza23: shows [Qs Ad] (a pair of Tens)
+crocolas22: shows [9c Kd] (two pair, Tens and Nines)
+crocolas22 collected 1482 from pot
+*** SUMMARY ***
+Total pot 1482 | Rake 0 
+Board [8d 4s Ts 9d Tc]
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 2: crocolas22 showed [9c Kd] and won (1482) with two pair, Tens and Nines
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano (button) folded before Flop (didn't bet)
+Seat 5: eaechamps (small blind) folded before Flop
+Seat 6: malky141998 (big blind) folded before Flop
+Seat 7: scorza23 showed [Qs Ad] and lost with a pair of Tens
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346347966: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 20:57:32 UTC [2026/04/04 16:57:32 ET]
+Table '3989305854 1' 9-max Seat #5 is the button
+Seat 1: projinegro (1488 in chips) 
+Seat 2: crocolas22 (4064 in chips) 
+Seat 3: kyvs (1448 in chips) 
+Seat 4: joaoguimariano (1492 in chips) 
+Seat 5: eaechamps (1458 in chips) 
+Seat 6: malky141998 (1468 in chips) 
+Seat 7: scorza23 (694 in chips) 
+Seat 9: notlinress (1388 in chips) 
+projinegro: posts the ante 3
+crocolas22: posts the ante 3
+kyvs: posts the ante 3
+joaoguimariano: posts the ante 3
+eaechamps: posts the ante 3
+malky141998: posts the ante 3
+scorza23: posts the ante 3
+notlinress: posts the ante 3
+malky141998: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Ts]
+notlinress: calls 20
+projinegro: folds 
+crocolas22: folds 
+kyvs: raises 60 to 80
+joaoguimariano: folds 
+eaechamps: calls 80
+malky141998: folds 
+scorza23: folds 
+notlinress: calls 60
+*** FLOP *** [4c Tc 8c]
+notlinress: bets 20
+kyvs: calls 20
+eaechamps: calls 20
+*** TURN *** [4c Tc 8c] [5d]
+notlinress: bets 20
+kyvs: calls 20
+eaechamps: calls 20
+*** RIVER *** [4c Tc 8c 5d] [3s]
+notlinress: bets 20
+kyvs: calls 20
+eaechamps: calls 20
+*** SHOW DOWN ***
+notlinress: shows [Ad 4s] (a pair of Fours)
+kyvs: mucks hand 
+eaechamps: mucks hand 
+notlinress collected 474 from pot
+*** SUMMARY ***
+Total pot 474 | Rake 0 
+Board [4c Tc 8c 5d 3s]
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 2: crocolas22 folded before Flop (didn't bet)
+Seat 3: kyvs mucked [Kh As]
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps (button) mucked [Qh Ah]
+Seat 6: malky141998 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 9: notlinress showed [Ad 4s] and won (474) with a pair of Fours
+
+
+
+PokerStars Hand #260346358092: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 20:58:40 UTC [2026/04/04 16:58:40 ET]
+Table '3989305854 1' 9-max Seat #6 is the button
+Seat 1: projinegro (1485 in chips) 
+Seat 2: crocolas22 (4061 in chips) 
+Seat 3: kyvs (1305 in chips) 
+Seat 4: joaoguimariano (1489 in chips) 
+Seat 5: eaechamps (1315 in chips) 
+Seat 6: malky141998 (1455 in chips) 
+Seat 7: scorza23 (671 in chips) 
+Seat 9: notlinress (1719 in chips) 
+projinegro: posts the ante 4
+crocolas22: posts the ante 4
+kyvs: posts the ante 4
+joaoguimariano: posts the ante 4
+eaechamps: posts the ante 4
+malky141998: posts the ante 4
+scorza23: posts the ante 4
+notlinress: posts the ante 4
+scorza23: posts small blind 15
+notlinress: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 3c]
+projinegro: calls 30
+crocolas22: raises 30 to 60
+kyvs: folds 
+joaoguimariano: calls 60
+eaechamps: folds 
+malky141998: calls 60
+scorza23: folds 
+notlinress: calls 30
+projinegro: calls 30
+*** FLOP *** [2d Ad 6s]
+notlinress: bets 30
+projinegro: folds 
+crocolas22: raises 30 to 60
+joaoguimariano: folds 
+malky141998: calls 60
+notlinress: calls 30
+*** TURN *** [2d Ad 6s] [6h]
+projinegro is disconnected 
+notlinress: checks 
+crocolas22: checks 
+malky141998: bets 60
+notlinress: calls 60
+crocolas22: calls 60
+*** RIVER *** [2d Ad 6s 6h] [Qs]
+notlinress: checks 
+crocolas22: bets 354
+projinegro is disconnected 
+malky141998: raises 354 to 708
+notlinress: folds 
+crocolas22: calls 354
+*** SHOW DOWN ***
+malky141998: shows [6c 7h] (three of a kind, Sixes)
+crocolas22: mucks hand 
+malky141998 collected 2123 from pot
+*** SUMMARY ***
+Total pot 2123 | Rake 0 
+Board [2d Ad 6s 6h Qs]
+Seat 1: projinegro folded on the Flop
+Seat 2: crocolas22 mucked [Ac 4s]
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded on the Flop
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 (button) showed [6c 7h] and won (2123) with three of a kind, Sixes
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 9: notlinress (big blind) folded on the River
+
+
+
+PokerStars Hand #260346370395: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:00:02 UTC [2026/04/04 17:00:02 ET]
+Table '3989305854 1' 9-max Seat #7 is the button
+Seat 1: projinegro (1421 in chips) 
+Seat 2: crocolas22 (3169 in chips) 
+Seat 3: kyvs (1301 in chips) 
+Seat 4: joaoguimariano (1425 in chips) 
+Seat 5: eaechamps (1311 in chips) 
+Seat 6: malky141998 (2686 in chips) 
+Seat 7: scorza23 (652 in chips) 
+Seat 9: notlinress (1535 in chips) 
+projinegro: posts the ante 4
+crocolas22: posts the ante 4
+kyvs: posts the ante 4
+joaoguimariano: posts the ante 4
+eaechamps: posts the ante 4
+malky141998: posts the ante 4
+scorza23: posts the ante 4
+notlinress: posts the ante 4
+notlinress: posts small blind 15
+projinegro: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Th]
+crocolas22: folds 
+kyvs: folds 
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+projinegro is disconnected 
+notlinress: calls 15
+projinegro has timed out while disconnected
+projinegro: checks 
+*** FLOP *** [Qd 6s 2s]
+notlinress: bets 30
+projinegro is connected 
+projinegro is disconnected 
+projinegro is connected 
+projinegro: calls 30
+*** TURN *** [Qd 6s 2s] [Ts]
+notlinress: bets 30
+projinegro: calls 30
+*** RIVER *** [Qd 6s 2s Ts] [6h]
+notlinress: bets 30
+projinegro: calls 30
+*** SHOW DOWN ***
+notlinress: shows [3d 7c] (a pair of Sixes)
+projinegro: shows [Td 7d] (two pair, Tens and Sixes)
+projinegro collected 272 from pot
+*** SUMMARY ***
+Total pot 272 | Rake 0 
+Board [Qd 6s 2s Ts 6h]
+Seat 1: projinegro (big blind) showed [Td 7d] and won (272) with two pair, Tens and Sixes
+Seat 2: crocolas22 folded before Flop (didn't bet)
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: notlinress (small blind) showed [3d 7c] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #260346380313: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:01:02 UTC [2026/04/04 17:01:02 ET]
+Table '3989305854 1' 9-max Seat #9 is the button
+Seat 1: projinegro (1569 in chips) 
+Seat 2: crocolas22 (3165 in chips) 
+Seat 3: kyvs (1297 in chips) 
+Seat 4: joaoguimariano (1421 in chips) 
+Seat 5: eaechamps (1307 in chips) 
+Seat 6: malky141998 (2682 in chips) 
+Seat 7: scorza23 (648 in chips) 
+Seat 9: notlinress (1411 in chips) 
+projinegro: posts the ante 4
+crocolas22: posts the ante 4
+kyvs: posts the ante 4
+joaoguimariano: posts the ante 4
+eaechamps: posts the ante 4
+malky141998: posts the ante 4
+scorza23: posts the ante 4
+notlinress: posts the ante 4
+projinegro: posts small blind 15
+crocolas22: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 5s]
+kyvs: folds 
+joaoguimariano: calls 30
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: calls 30
+projinegro: calls 15
+crocolas22: checks 
+*** FLOP *** [7h 8h 3h]
+projinegro: checks 
+crocolas22: bets 30
+joaoguimariano: raises 212 to 242
+notlinress: folds 
+projinegro: calls 242
+crocolas22: calls 212
+*** TURN *** [7h 8h 3h] [4c]
+projinegro: checks 
+crocolas22: bets 30
+joaoguimariano: raises 1115 to 1145 and is all-in
+projinegro: calls 1145
+crocolas22: calls 1115
+*** RIVER *** [7h 8h 3h 4c] [4h]
+projinegro: bets 148 and is all-in
+crocolas22: calls 148
+*** SHOW DOWN ***
+projinegro: shows [Kh Qh] (a flush, King high)
+crocolas22: shows [3s 8d] (two pair, Eights and Fours)
+projinegro collected 296 from side pot
+joaoguimariano: shows [Jc Ah] (a flush, Ace high)
+joaoguimariano collected 4313 from main pot
+*** SUMMARY ***
+Total pot 4609 Main pot 4313. Side pot 296. | Rake 0 
+Board [7h 8h 3h 4c 4h]
+Seat 1: projinegro (small blind) showed [Kh Qh] and won (296) with a flush, King high
+Seat 2: crocolas22 (big blind) showed [3s 8d] and lost with two pair, Eights and Fours
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano showed [Jc Ah] and won (4313) with a flush, Ace high
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress (button) folded on the Flop
+
+
+
+PokerStars Hand #260346398072: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:02:24 UTC [2026/04/04 17:02:24 ET]
+Table '3989305854 1' 9-max Seat #1 is the button
+Seat 1: projinegro (296 in chips) 
+Seat 2: crocolas22 (1596 in chips) 
+Seat 3: kyvs (1293 in chips) 
+Seat 4: joaoguimariano (4313 in chips) 
+Seat 5: eaechamps (1303 in chips) 
+Seat 6: malky141998 (2678 in chips) 
+Seat 7: scorza23 (644 in chips) 
+Seat 9: notlinress (1377 in chips) 
+projinegro: posts the ante 4
+crocolas22: posts the ante 4
+kyvs: posts the ante 4
+joaoguimariano: posts the ante 4
+eaechamps: posts the ante 4
+malky141998: posts the ante 4
+scorza23: posts the ante 4
+notlinress: posts the ante 4
+crocolas22: posts small blind 15
+kyvs: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Js]
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: calls 30
+scorza23: folds 
+notlinress: folds 
+projinegro: raises 262 to 292 and is all-in
+crocolas22: calls 277
+projinegro is disconnected 
+kyvs: folds 
+malky141998: folds 
+projinegro is disconnected 
+*** FLOP *** [5h 9c 8h]
+*** TURN *** [5h 9c 8h] [8s]
+*** RIVER *** [5h 9c 8h 8s] [2d]
+*** SHOW DOWN ***
+crocolas22: shows [Jh 7c] (a pair of Eights)
+projinegro: shows [Ad 2c] (two pair, Eights and Deuces)
+projinegro collected 676 from pot
+*** SUMMARY ***
+Total pot 676 | Rake 0 
+Board [5h 9c 8h 8s 2d]
+Seat 1: projinegro (button) showed [Ad 2c] and won (676) with two pair, Eights and Deuces
+Seat 2: crocolas22 (small blind) showed [Jh 7c] and lost with a pair of Eights
+Seat 3: kyvs (big blind) folded before Flop
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346405602: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:02:58 UTC [2026/04/04 17:02:58 ET]
+Table '3989305854 1' 9-max Seat #2 is the button
+Seat 1: projinegro (676 in chips) 
+Seat 2: crocolas22 (1300 in chips) 
+Seat 3: kyvs (1259 in chips) 
+Seat 4: joaoguimariano (4309 in chips) 
+Seat 5: eaechamps (1299 in chips) 
+Seat 6: malky141998 (2644 in chips) 
+Seat 7: scorza23 (640 in chips) 
+Seat 9: notlinress (1373 in chips) 
+projinegro: posts the ante 4
+crocolas22: posts the ante 4
+kyvs: posts the ante 4
+joaoguimariano: posts the ante 4
+eaechamps: posts the ante 4
+malky141998: posts the ante 4
+scorza23: posts the ante 4
+notlinress: posts the ante 4
+kyvs: posts small blind 15
+joaoguimariano: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5c]
+projinegro is disconnected 
+projinegro is disconnected 
+eaechamps: folds 
+malky141998: raises 60 to 90
+scorza23: folds 
+notlinress: folds 
+projinegro: folds 
+crocolas22: folds 
+kyvs: folds 
+joaoguimariano: folds 
+Uncalled bet (60) returned to malky141998
+malky141998 collected 107 from pot
+malky141998: doesn't show hand 
+*** SUMMARY ***
+Total pot 107 | Rake 0 
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 2: crocolas22 (button) folded before Flop (didn't bet)
+Seat 3: kyvs (small blind) folded before Flop
+Seat 4: joaoguimariano (big blind) folded before Flop
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 collected (107)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346412140: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:03:26 UTC [2026/04/04 17:03:26 ET]
+Table '3989305854 1' 9-max Seat #3 is the button
+Seat 1: projinegro (672 in chips) 
+Seat 2: crocolas22 (1296 in chips) 
+Seat 3: kyvs (1240 in chips) 
+Seat 4: joaoguimariano (4275 in chips) 
+Seat 5: eaechamps (1295 in chips) 
+Seat 6: malky141998 (2717 in chips) 
+Seat 7: scorza23 (636 in chips) 
+Seat 9: notlinress (1369 in chips) 
+projinegro: posts the ante 4
+crocolas22: posts the ante 4
+kyvs: posts the ante 4
+joaoguimariano: posts the ante 4
+eaechamps: posts the ante 4
+malky141998: posts the ante 4
+scorza23: posts the ante 4
+notlinress: posts the ante 4
+joaoguimariano: posts small blind 15
+eaechamps: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Jd]
+malky141998: folds 
+scorza23: folds 
+notlinress: calls 30
+projinegro: calls 30
+projinegro is disconnected 
+crocolas22: raises 30 to 60
+kyvs: calls 60
+joaoguimariano: folds 
+eaechamps: raises 1231 to 1291 and is all-in
+notlinress: folds 
+projinegro is connected 
+projinegro is disconnected 
+projinegro is connected 
+projinegro: folds 
+crocolas22: calls 1231
+kyvs: folds 
+*** FLOP *** [Ad As 4s]
+*** TURN *** [Ad As 4s] [Kc]
+*** RIVER *** [Ad As 4s Kc] [3c]
+*** SHOW DOWN ***
+eaechamps: shows [Kh Ac] (a full house, Aces full of Kings)
+crocolas22: shows [8c Tc] (a pair of Aces)
+eaechamps collected 2749 from pot
+*** SUMMARY ***
+Total pot 2749 | Rake 0 
+Board [Ad As 4s Kc 3c]
+Seat 1: projinegro folded before Flop
+Seat 2: crocolas22 showed [8c Tc] and lost with a pair of Aces
+Seat 3: kyvs (button) folded before Flop
+Seat 4: joaoguimariano (small blind) folded before Flop
+Seat 5: eaechamps (big blind) showed [Kh Ac] and won (2749) with a full house, Aces full of Kings
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop
+
+
+
+PokerStars Hand #260346428470: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:04:37 UTC [2026/04/04 17:04:37 ET]
+Table '3989305854 1' 9-max Seat #4 is the button
+Seat 1: projinegro (638 in chips) 
+Seat 2: crocolas22 (1 in chips) 
+Seat 3: kyvs (1176 in chips) 
+Seat 4: joaoguimariano (4256 in chips) 
+Seat 5: eaechamps (2749 in chips) 
+Seat 6: malky141998 (2713 in chips) 
+Seat 7: scorza23 (632 in chips) 
+Seat 9: notlinress (1335 in chips) 
+projinegro: posts the ante 6
+crocolas22: posts the ante 1 and is all-in
+kyvs: posts the ante 6
+joaoguimariano: posts the ante 6
+eaechamps: posts the ante 6
+malky141998: posts the ante 6
+scorza23: posts the ante 6
+notlinress: posts the ante 6
+eaechamps: posts small blind 25
+malky141998: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8d]
+scorza23: folds 
+notlinress: folds 
+projinegro: calls 50
+kyvs: folds 
+joaoguimariano: calls 50
+eaechamps: calls 25
+malky141998: checks 
+*** FLOP *** [6c 9h Ah]
+eaechamps: checks 
+malky141998: checks 
+projinegro: checks 
+joaoguimariano: checks 
+*** TURN *** [6c 9h Ah] [4h]
+eaechamps: bets 92
+malky141998: folds 
+projinegro: folds 
+joaoguimariano: folds 
+Uncalled bet (92) returned to eaechamps
+*** RIVER *** [6c 9h Ah 4h] [7h]
+*** SHOW DOWN ***
+eaechamps: shows [5d Ac] (a pair of Aces)
+eaechamps collected 235 from side pot
+crocolas22: shows [Th 6d] (a flush, Ace high)
+crocolas22 collected 8 from main pot
+*** SUMMARY ***
+Total pot 243 Main pot 8. Side pot 235. | Rake 0 
+Board [6c 9h Ah 4h 7h]
+Seat 1: projinegro folded on the Turn
+Seat 2: crocolas22 showed [Th 6d] and won (8) with a flush, Ace high
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano (button) folded on the Turn
+Seat 5: eaechamps (small blind) showed [5d Ac] and won (235) with a pair of Aces
+Seat 6: malky141998 (big blind) folded on the Turn
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346437995: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:05:18 UTC [2026/04/04 17:05:18 ET]
+Table '3989305854 1' 9-max Seat #5 is the button
+Seat 1: projinegro (582 in chips) 
+Seat 2: crocolas22 (8 in chips) 
+Seat 3: kyvs (1170 in chips) 
+Seat 4: joaoguimariano (4200 in chips) 
+Seat 5: eaechamps (2928 in chips) 
+Seat 6: malky141998 (2657 in chips) 
+Seat 7: scorza23 (626 in chips) 
+Seat 9: notlinress (1329 in chips) 
+projinegro: posts the ante 6
+crocolas22: posts the ante 6
+kyvs: posts the ante 6
+joaoguimariano: posts the ante 6
+eaechamps: posts the ante 6
+malky141998: posts the ante 6
+scorza23: posts the ante 6
+notlinress: posts the ante 6
+malky141998: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 2s]
+notlinress: folds 
+projinegro: raises 526 to 576 and is all-in
+crocolas22: folds 
+kyvs: folds 
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+Uncalled bet (526) returned to projinegro
+projinegro collected 173 from pot
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Seat 1: projinegro collected (173)
+Seat 2: crocolas22 folded before Flop (didn't bet)
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps (button) folded before Flop (didn't bet)
+Seat 6: malky141998 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346444116: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:05:44 UTC [2026/04/04 17:05:44 ET]
+Table '3989305854 1' 9-max Seat #6 is the button
+Seat 1: projinegro (699 in chips) 
+Seat 2: crocolas22 (2 in chips) 
+Seat 3: kyvs (1164 in chips) 
+Seat 4: joaoguimariano (4194 in chips) 
+Seat 5: eaechamps (2922 in chips) 
+Seat 6: malky141998 (2626 in chips) 
+Seat 7: scorza23 (570 in chips) 
+Seat 9: notlinress (1323 in chips) 
+projinegro: posts the ante 6
+crocolas22: posts the ante 2 and is all-in
+kyvs: posts the ante 6
+joaoguimariano: posts the ante 6
+eaechamps: posts the ante 6
+malky141998: posts the ante 6
+scorza23: posts the ante 6
+notlinress: posts the ante 6
+scorza23: posts small blind 25
+notlinress: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Jh]
+projinegro: folds 
+kyvs: raises 50 to 100
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+scorza23: raises 100 to 200
+notlinress: folds 
+kyvs: calls 100
+*** FLOP *** [Qd Qs Qh]
+scorza23: bets 364 and is all-in
+kyvs: calls 364
+*** TURN *** [Qd Qs Qh] [Td]
+*** RIVER *** [Qd Qs Qh Td] [7h]
+*** SHOW DOWN ***
+scorza23: shows [Ad Jh] (three of a kind, Queens)
+kyvs: shows [As 2s] (three of a kind, Queens - lower kicker)
+scorza23 collected 1206 from side pot
+crocolas22: shows [5c Tc] (a full house, Queens full of Tens)
+crocolas22 collected 16 from main pot
+*** SUMMARY ***
+Total pot 1222 Main pot 16. Side pot 1206. | Rake 0 
+Board [Qd Qs Qh Td 7h]
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 2: crocolas22 showed [5c Tc] and won (16) with a full house, Queens full of Tens
+Seat 3: kyvs showed [As 2s] and lost with three of a kind, Queens
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) showed [Ad Jh] and won (1206) with three of a kind, Queens
+Seat 9: notlinress (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346452444: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:06:19 UTC [2026/04/04 17:06:19 ET]
+Table '3989305854 1' 9-max Seat #7 is the button
+Seat 1: projinegro (693 in chips) 
+Seat 2: crocolas22 (16 in chips) 
+Seat 3: kyvs (594 in chips) 
+Seat 4: joaoguimariano (4188 in chips) 
+Seat 5: eaechamps (2916 in chips) 
+Seat 6: malky141998 (2620 in chips) 
+Seat 7: scorza23 (1206 in chips) 
+Seat 9: notlinress (1267 in chips) 
+projinegro: posts the ante 6
+crocolas22: posts the ante 6
+kyvs: posts the ante 6
+joaoguimariano: posts the ante 6
+eaechamps: posts the ante 6
+malky141998: posts the ante 6
+scorza23: posts the ante 6
+notlinress: posts the ante 6
+notlinress: posts small blind 25
+projinegro: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 9d]
+crocolas22: folds 
+kyvs: folds 
+joaoguimariano: folds 
+eaechamps: raises 75 to 125
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: folds 
+Uncalled bet (75) returned to eaechamps
+eaechamps collected 173 from pot
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Seat 1: projinegro (big blind) folded before Flop
+Seat 2: crocolas22 folded before Flop (didn't bet)
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps collected (173)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: notlinress (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346460401: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:06:53 UTC [2026/04/04 17:06:53 ET]
+Table '3989305854 1' 9-max Seat #9 is the button
+Seat 1: projinegro (637 in chips) 
+Seat 2: crocolas22 (10 in chips) 
+Seat 3: kyvs (588 in chips) 
+Seat 4: joaoguimariano (4182 in chips) 
+Seat 5: eaechamps (3033 in chips) 
+Seat 6: malky141998 (2614 in chips) 
+Seat 7: scorza23 (1200 in chips) 
+Seat 9: notlinress (1236 in chips) 
+projinegro: posts the ante 6
+crocolas22: posts the ante 6
+kyvs: posts the ante 6
+joaoguimariano: posts the ante 6
+eaechamps: posts the ante 6
+malky141998: posts the ante 6
+scorza23: posts the ante 6
+notlinress: posts the ante 6
+projinegro: posts small blind 25
+crocolas22: posts big blind 4 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 2d]
+kyvs: folds 
+joaoguimariano: folds 
+eaechamps: raises 75 to 100
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: folds 
+Uncalled bet (75) returned to eaechamps
+*** FLOP *** [6d 6h 5h]
+*** TURN *** [6d 6h 5h] [3s]
+*** RIVER *** [6d 6h 5h 3s] [4c]
+*** SHOW DOWN ***
+eaechamps: shows [2s 2c] (a straight, Deuce to Six)
+eaechamps collected 42 from side pot
+crocolas22: shows [6c 9h] (three of a kind, Sixes)
+eaechamps collected 60 from main pot
+crocolas22 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 102 Main pot 60. Side pot 42. | Rake 0 
+Board [6d 6h 5h 3s 4c]
+Seat 1: projinegro (small blind) folded before Flop
+Seat 2: crocolas22 (big blind) showed [6c 9h] and lost with three of a kind, Sixes
+Seat 3: kyvs folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps showed [2s 2c] and won (102) with a straight, Deuce to Six
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346467160: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:07:22 UTC [2026/04/04 17:07:22 ET]
+Table '3989305854 1' 9-max Seat #1 is the button
+Seat 1: projinegro (606 in chips) 
+Seat 3: kyvs (582 in chips) 
+Seat 4: joaoguimariano (4176 in chips) 
+Seat 5: eaechamps (3104 in chips) 
+Seat 6: malky141998 (2608 in chips) 
+Seat 7: scorza23 (1194 in chips) 
+Seat 9: notlinress (1230 in chips) 
+projinegro: posts the ante 6
+kyvs: posts the ante 6
+joaoguimariano: posts the ante 6
+eaechamps: posts the ante 6
+malky141998: posts the ante 6
+scorza23: posts the ante 6
+notlinress: posts the ante 6
+kyvs: posts small blind 25
+joaoguimariano: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 2d]
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: folds 
+kyvs: calls 25
+joaoguimariano: raises 100 to 150
+kyvs: calls 100
+*** FLOP *** [Ad Kc Jc]
+kyvs: checks 
+joaoguimariano: bets 342
+kyvs: raises 84 to 426 and is all-in
+joaoguimariano: calls 84
+*** TURN *** [Ad Kc Jc] [As]
+*** RIVER *** [Ad Kc Jc As] [7d]
+*** SHOW DOWN ***
+kyvs: shows [Jd Qh] (two pair, Aces and Jacks)
+joaoguimariano: shows [4c Ks] (two pair, Aces and Kings)
+joaoguimariano collected 1194 from pot
+kyvs finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1194 | Rake 0 
+Board [Ad Kc Jc As 7d]
+Seat 1: projinegro (button) folded before Flop (didn't bet)
+Seat 3: kyvs (small blind) showed [Jd Qh] and lost with two pair, Aces and Jacks
+Seat 4: joaoguimariano (big blind) showed [4c Ks] and won (1194) with two pair, Aces and Kings
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346477944: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:08:08 UTC [2026/04/04 17:08:08 ET]
+Table '3989305854 1' 9-max Seat #4 is the button
+Seat 1: projinegro (600 in chips) 
+Seat 4: joaoguimariano (4788 in chips) 
+Seat 5: eaechamps (3098 in chips) 
+Seat 6: malky141998 (2602 in chips) 
+Seat 7: scorza23 (1188 in chips) 
+Seat 9: notlinress (1224 in chips) 
+projinegro: posts the ante 6
+joaoguimariano: posts the ante 6
+eaechamps: posts the ante 6
+malky141998: posts the ante 6
+scorza23: posts the ante 6
+notlinress: posts the ante 6
+eaechamps: posts small blind 25
+malky141998: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 5s]
+scorza23: folds 
+notlinress: folds 
+projinegro: raises 544 to 594 and is all-in
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+Uncalled bet (544) returned to projinegro
+projinegro collected 161 from pot
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Seat 1: projinegro collected (161)
+Seat 4: joaoguimariano (button) folded before Flop (didn't bet)
+Seat 5: eaechamps (small blind) folded before Flop
+Seat 6: malky141998 (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346484987: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:08:38 UTC [2026/04/04 17:08:38 ET]
+Table '3989305854 1' 9-max Seat #5 is the button
+Seat 1: projinegro (705 in chips) 
+Seat 4: joaoguimariano (4782 in chips) 
+Seat 5: eaechamps (3067 in chips) 
+Seat 6: malky141998 (2546 in chips) 
+Seat 7: scorza23 (1182 in chips) 
+Seat 9: notlinress (1218 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+malky141998: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Tc]
+notlinress: folds 
+projinegro: folds 
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 140 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps (button) folded before Flop (didn't bet)
+Seat 6: malky141998 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) collected (140)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346488318: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:08:52 UTC [2026/04/04 17:08:52 ET]
+Table '3989305854 1' 9-max Seat #6 is the button
+Seat 1: projinegro (695 in chips) 
+Seat 4: joaoguimariano (4772 in chips) 
+Seat 5: eaechamps (3057 in chips) 
+Seat 6: malky141998 (2496 in chips) 
+Seat 7: scorza23 (1272 in chips) 
+Seat 9: notlinress (1208 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+scorza23: posts small blind 40
+notlinress: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 9d]
+projinegro: raises 605 to 685 and is all-in
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+Uncalled bet (605) returned to projinegro
+projinegro collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: projinegro collected (260)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 9: notlinress (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346492080: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:09:09 UTC [2026/04/04 17:09:09 ET]
+Table '3989305854 1' 9-max Seat #7 is the button
+Seat 1: projinegro (865 in chips) 
+Seat 4: joaoguimariano (4762 in chips) 
+Seat 5: eaechamps (3047 in chips) 
+Seat 6: malky141998 (2486 in chips) 
+Seat 7: scorza23 (1222 in chips) 
+Seat 9: notlinress (1118 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+notlinress: posts small blind 40
+projinegro: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 8d]
+joaoguimariano: calls 80
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: checks 
+*** FLOP *** [Qs Jc 9s]
+projinegro: checks 
+joaoguimariano: bets 260
+projinegro: folds 
+Uncalled bet (260) returned to joaoguimariano
+joaoguimariano collected 260 from pot
+joaoguimariano: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Board [Qs Jc 9s]
+Seat 1: projinegro (big blind) folded on the Flop
+Seat 4: joaoguimariano collected (260)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: notlinress (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346497134: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:09:30 UTC [2026/04/04 17:09:30 ET]
+Table '3989305854 1' 9-max Seat #9 is the button
+Seat 1: projinegro (775 in chips) 
+Seat 4: joaoguimariano (4932 in chips) 
+Seat 5: eaechamps (3037 in chips) 
+Seat 6: malky141998 (2476 in chips) 
+Seat 7: scorza23 (1212 in chips) 
+Seat 9: notlinress (1068 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+projinegro: posts small blind 40
+joaoguimariano: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qd]
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: calls 40
+joaoguimariano: checks 
+*** FLOP *** [Jh Kh Tc]
+projinegro: bets 80
+joaoguimariano: raises 380 to 460
+projinegro: folds 
+Uncalled bet (380) returned to joaoguimariano
+joaoguimariano collected 380 from pot
+joaoguimariano: doesn't show hand 
+*** SUMMARY ***
+Total pot 380 | Rake 0 
+Board [Jh Kh Tc]
+Seat 1: projinegro (small blind) folded on the Flop
+Seat 4: joaoguimariano (big blind) collected (380)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346502247: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:09:52 UTC [2026/04/04 17:09:52 ET]
+Table '3989305854 1' 9-max Seat #1 is the button
+Seat 1: projinegro (605 in chips) 
+Seat 4: joaoguimariano (5142 in chips) 
+Seat 5: eaechamps (3027 in chips) 
+Seat 6: malky141998 (2466 in chips) 
+Seat 7: scorza23 (1202 in chips) 
+Seat 9: notlinress (1058 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+joaoguimariano: posts small blind 40
+eaechamps: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8s]
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: raises 515 to 595 and is all-in
+joaoguimariano: folds 
+eaechamps: calls 515
+*** FLOP *** [4s 8c 4h]
+*** TURN *** [4s 8c 4h] [7d]
+*** RIVER *** [4s 8c 4h 7d] [8h]
+*** SHOW DOWN ***
+eaechamps: shows [Ah 6h] (two pair, Eights and Fours)
+projinegro: shows [8d Ac] (a full house, Eights full of Fours)
+projinegro collected 1290 from pot
+*** SUMMARY ***
+Total pot 1290 | Rake 0 
+Board [4s 8c 4h 7d 8h]
+Seat 1: projinegro (button) showed [8d Ac] and won (1290) with a full house, Eights full of Fours
+Seat 4: joaoguimariano (small blind) folded before Flop
+Seat 5: eaechamps (big blind) showed [Ah 6h] and lost with two pair, Eights and Fours
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346509522: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:10:23 UTC [2026/04/04 17:10:23 ET]
+Table '3989305854 1' 9-max Seat #4 is the button
+Seat 1: projinegro (1290 in chips) 
+Seat 4: joaoguimariano (5092 in chips) 
+Seat 5: eaechamps (2422 in chips) 
+Seat 6: malky141998 (2456 in chips) 
+Seat 7: scorza23 (1192 in chips) 
+Seat 9: notlinress (1048 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+eaechamps: posts small blind 40
+malky141998: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 6d]
+scorza23: folds 
+notlinress: folds 
+projinegro: folds 
+joaoguimariano: calls 80
+eaechamps: folds 
+malky141998: checks 
+*** FLOP *** [7c Qs Kd]
+malky141998: checks 
+joaoguimariano: bets 260
+malky141998: folds 
+Uncalled bet (260) returned to joaoguimariano
+joaoguimariano collected 260 from pot
+joaoguimariano: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Board [7c Qs Kd]
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 4: joaoguimariano (button) collected (260)
+Seat 5: eaechamps (small blind) folded before Flop
+Seat 6: malky141998 (big blind) folded on the Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346515750: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:10:50 UTC [2026/04/04 17:10:50 ET]
+Table '3989305854 1' 9-max Seat #5 is the button
+Seat 1: projinegro (1280 in chips) 
+Seat 4: joaoguimariano (5262 in chips) 
+Seat 5: eaechamps (2372 in chips) 
+Seat 6: malky141998 (2366 in chips) 
+Seat 7: scorza23 (1182 in chips) 
+Seat 9: notlinress (1038 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+malky141998: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 4h]
+notlinress: folds 
+projinegro: folds 
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 140 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps (button) folded before Flop (didn't bet)
+Seat 6: malky141998 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) collected (140)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346518936: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:11:03 UTC [2026/04/04 17:11:03 ET]
+Table '3989305854 1' 9-max Seat #6 is the button
+Seat 1: projinegro (1270 in chips) 
+Seat 4: joaoguimariano (5252 in chips) 
+Seat 5: eaechamps (2362 in chips) 
+Seat 6: malky141998 (2316 in chips) 
+Seat 7: scorza23 (1272 in chips) 
+Seat 9: notlinress (1028 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+scorza23: posts small blind 40
+notlinress: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Th]
+projinegro: folds 
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: raises 80 to 160
+scorza23: folds 
+notlinress: folds 
+Uncalled bet (80) returned to malky141998
+malky141998 collected 260 from pot
+malky141998: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 (button) collected (260)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 9: notlinress (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346523099: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:11:21 UTC [2026/04/04 17:11:21 ET]
+Table '3989305854 1' 9-max Seat #7 is the button
+Seat 1: projinegro (1260 in chips) 
+Seat 4: joaoguimariano (5242 in chips) 
+Seat 5: eaechamps (2352 in chips) 
+Seat 6: malky141998 (2486 in chips) 
+Seat 7: scorza23 (1222 in chips) 
+Seat 9: notlinress (938 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+notlinress: posts small blind 40
+projinegro: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Td]
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+scorza23: raises 160 to 240
+notlinress: folds 
+projinegro: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 260 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: projinegro (big blind) folded before Flop
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) collected (260)
+Seat 9: notlinress (small blind) folded before Flop
+
+
+
+PokerStars Hand #260346526933: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:11:37 UTC [2026/04/04 17:11:37 ET]
+Table '3989305854 1' 9-max Seat #9 is the button
+Seat 1: projinegro (1170 in chips) 
+Seat 4: joaoguimariano (5232 in chips) 
+Seat 5: eaechamps (2342 in chips) 
+Seat 6: malky141998 (2476 in chips) 
+Seat 7: scorza23 (1392 in chips) 
+Seat 9: notlinress (888 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+projinegro: posts small blind 40
+joaoguimariano: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8d]
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+projinegro: folds 
+Uncalled bet (40) returned to joaoguimariano
+joaoguimariano collected 140 from pot
+joaoguimariano: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 1: projinegro (small blind) folded before Flop
+Seat 4: joaoguimariano (big blind) collected (140)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346530741: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:11:53 UTC [2026/04/04 17:11:53 ET]
+Table '3989305854 1' 9-max Seat #1 is the button
+Seat 1: projinegro (1120 in chips) 
+Seat 4: joaoguimariano (5322 in chips) 
+Seat 5: eaechamps (2332 in chips) 
+Seat 6: malky141998 (2466 in chips) 
+Seat 7: scorza23 (1382 in chips) 
+Seat 9: notlinress (878 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+joaoguimariano: posts small blind 40
+eaechamps: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Ah]
+malky141998: folds 
+scorza23: folds 
+notlinress: calls 80
+projinegro: folds 
+joaoguimariano: folds 
+eaechamps: checks 
+*** FLOP *** [Qs 6s 9h]
+eaechamps: checks 
+notlinress: checks 
+*** TURN *** [Qs 6s 9h] [Qc]
+eaechamps: checks 
+notlinress: bets 80
+eaechamps: folds 
+Uncalled bet (80) returned to notlinress
+notlinress collected 260 from pot
+notlinress: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Board [Qs 6s 9h Qc]
+Seat 1: projinegro (button) folded before Flop (didn't bet)
+Seat 4: joaoguimariano (small blind) folded before Flop
+Seat 5: eaechamps (big blind) folded on the Turn
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress collected (260)
+
+
+
+PokerStars Hand #260346539778: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:12:32 UTC [2026/04/04 17:12:32 ET]
+Table '3989305854 1' 9-max Seat #4 is the button
+Seat 1: projinegro (1110 in chips) 
+Seat 4: joaoguimariano (5272 in chips) 
+Seat 5: eaechamps (2242 in chips) 
+Seat 6: malky141998 (2456 in chips) 
+Seat 7: scorza23 (1372 in chips) 
+Seat 9: notlinress (1048 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+eaechamps: posts small blind 40
+malky141998: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qh]
+scorza23: folds 
+notlinress: folds 
+projinegro: raises 1020 to 1100 and is all-in
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+Uncalled bet (1020) returned to projinegro
+projinegro collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: projinegro collected (260)
+Seat 4: joaoguimariano (button) folded before Flop (didn't bet)
+Seat 5: eaechamps (small blind) folded before Flop
+Seat 6: malky141998 (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346545089: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 21:12:54 UTC [2026/04/04 17:12:54 ET]
+Table '3989305854 1' 9-max Seat #5 is the button
+Seat 1: projinegro (1280 in chips) 
+Seat 4: joaoguimariano (5262 in chips) 
+Seat 5: eaechamps (2192 in chips) 
+Seat 6: malky141998 (2366 in chips) 
+Seat 7: scorza23 (1362 in chips) 
+Seat 9: notlinress (1038 in chips) 
+projinegro: posts the ante 10
+joaoguimariano: posts the ante 10
+eaechamps: posts the ante 10
+malky141998: posts the ante 10
+scorza23: posts the ante 10
+notlinress: posts the ante 10
+malky141998: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 8c]
+notlinress: folds 
+projinegro: folds 
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: raises 160 to 240
+scorza23: calls 160
+*** FLOP *** [Js 3c 4d]
+malky141998: checks 
+scorza23: bets 240
+malky141998: raises 320 to 560
+scorza23: folds 
+Uncalled bet (320) returned to malky141998
+malky141998 collected 1020 from pot
+malky141998: doesn't show hand 
+*** SUMMARY ***
+Total pot 1020 | Rake 0 
+Board [Js 3c 4d]
+Seat 1: projinegro folded before Flop (didn't bet)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps (button) folded before Flop (didn't bet)
+Seat 6: malky141998 (small blind) collected (1020)
+Seat 7: scorza23 (big blind) folded on the Flop
+Seat 9: notlinress folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346557199: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:13:46 UTC [2026/04/04 17:13:46 ET]
+Table '3989305854 1' 9-max Seat #6 is the button
+Seat 1: projinegro (1270 in chips) 
+Seat 4: joaoguimariano (5252 in chips) 
+Seat 5: eaechamps (2182 in chips) 
+Seat 6: malky141998 (2896 in chips) 
+Seat 7: scorza23 (872 in chips) 
+Seat 9: notlinress (1028 in chips) 
+projinegro: posts the ante 15
+joaoguimariano: posts the ante 15
+eaechamps: posts the ante 15
+malky141998: posts the ante 15
+scorza23: posts the ante 15
+notlinress: posts the ante 15
+scorza23: posts small blind 60
+notlinress: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4h As]
+projinegro: raises 1135 to 1255 and is all-in
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: folds 
+scorza23: folds 
+notlinress: folds 
+Uncalled bet (1135) returned to projinegro
+projinegro collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: projinegro collected (390)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 9: notlinress (big blind) folded before Flop
+
+
+
+PokerStars Hand #260346562186: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:14:07 UTC [2026/04/04 17:14:07 ET]
+Table '3989305854 1' 9-max Seat #7 is the button
+Seat 1: projinegro (1525 in chips) 
+Seat 4: joaoguimariano (5237 in chips) 
+Seat 5: eaechamps (2167 in chips) 
+Seat 6: malky141998 (2881 in chips) 
+Seat 7: scorza23 (797 in chips) 
+Seat 9: notlinress (893 in chips) 
+projinegro: posts the ante 15
+joaoguimariano: posts the ante 15
+eaechamps: posts the ante 15
+malky141998: posts the ante 15
+scorza23: posts the ante 15
+notlinress: posts the ante 15
+notlinress: posts small blind 60
+projinegro: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 8d]
+joaoguimariano: folds 
+eaechamps: folds 
+malky141998: calls 120
+scorza23: folds 
+notlinress: calls 60
+projinegro: checks 
+*** FLOP *** [3d Th 3s]
+notlinress: checks 
+projinegro: checks 
+malky141998: checks 
+*** TURN *** [3d Th 3s] [5s]
+notlinress: bets 120
+projinegro: calls 120
+malky141998: folds 
+*** RIVER *** [3d Th 3s 5s] [Js]
+notlinress: checks 
+projinegro: bets 240
+notlinress: folds 
+Uncalled bet (240) returned to projinegro
+projinegro collected 690 from pot
+*** SUMMARY ***
+Total pot 690 | Rake 0 
+Board [3d Th 3s 5s Js]
+Seat 1: projinegro (big blind) collected (690)
+Seat 4: joaoguimariano folded before Flop (didn't bet)
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded on the Turn
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: notlinress (small blind) folded on the River
+
+
+
+PokerStars Hand #260346573796: Tournament #3989305854, $1.70+$0.30 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 21:14:56 UTC [2026/04/04 17:14:56 ET]
+Table '3989305854 1' 9-max Seat #9 is the button
+Seat 1: projinegro (1960 in chips) 
+Seat 4: joaoguimariano (5222 in chips) 
+Seat 5: eaechamps (2152 in chips) 
+Seat 6: malky141998 (2746 in chips) 
+Seat 7: scorza23 (782 in chips) 
+Seat 9: notlinress (638 in chips) 
+projinegro: posts the ante 15
+joaoguimariano: posts the ante 15
+eaechamps: posts the ante 15
+malky141998: posts the ante 15
+scorza23: posts the ante 15
+notlinress: posts the ante 15
+projinegro: posts small blind 60
+joaoguimariano: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Kc]
+eaechamps: folds 
+malky141998: folds 
+scorza23: raises 647 to 767 and is all-in
+notlinress: folds 
+projinegro: calls 707
+joaoguimariano: folds 
+*** FLOP *** [Ah Qd Qh]
+*** TURN *** [Ah Qd Qh] [2d]
+*** RIVER *** [Ah Qd Qh 2d] [6h]
+*** SHOW DOWN ***
+projinegro: shows [Ac 8h] (two pair, Aces and Queens)
+scorza23: shows [4c Kc] (a pair of Queens)
+projinegro collected 1744 from pot
+scorza23 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1744 | Rake 0 
+Board [Ah Qd Qh 2d 6h]
+Seat 1: projinegro (small blind) showed [Ac 8h] and won (1744) with two pair, Aces and Queens
+Seat 4: joaoguimariano (big blind) folded before Flop
+Seat 5: eaechamps folded before Flop (didn't bet)
+Seat 6: malky141998 folded before Flop (didn't bet)
+Seat 7: scorza23 showed [4c Kc] and lost with a pair of Queens
+Seat 9: notlinress (button) folded before Flop (didn't bet)
+
+
+

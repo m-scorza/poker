@@ -1,0 +1,2529 @@
+﻿PokerStars Hand #259755201943: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:49:05 UTC [2026/02/16 16:49:05 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: JN_Canelao (1500 in chips) 
+Seat 3: kjk64 (1500 in chips) 
+Seat 4: myskot (1500 in chips) 
+Seat 5: solartpanel (1500 in chips) 
+Seat 6: natzplayzpoker (1500 in chips) 
+Seat 7: JBAGER (1500 in chips) 
+Seat 8: Hardjack17 (1500 in chips) 
+Seat 9: Flocke Mart (1500 in chips) 
+JN_Canelao: posts small blind 10
+kjk64: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Jh]
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: calls 20
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: calls 20
+scorza23: folds 
+JN_Canelao: calls 10
+kjk64: checks 
+*** FLOP *** [5s Ad 6c]
+JN_Canelao: checks 
+kjk64: checks 
+natzplayzpoker: bets 120
+Flocke Mart: folds 
+JN_Canelao: folds 
+kjk64: folds 
+Uncalled bet (120) returned to natzplayzpoker
+natzplayzpoker collected 80 from pot
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [5s Ad 6c]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: JN_Canelao (small blind) folded on the Flop
+Seat 3: kjk64 (big blind) folded on the Flop
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker collected (80)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded on the Flop
+
+
+
+PokerStars Hand #259755216394: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:49:59 UTC [2026/02/16 16:49:59 ET]
+Table '3975791928 1' 9-max Seat #2 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: JN_Canelao (1480 in chips) 
+Seat 3: kjk64 (1480 in chips) 
+Seat 4: myskot (1500 in chips) 
+Seat 5: solartpanel (1500 in chips) 
+Seat 6: natzplayzpoker (1560 in chips) 
+Seat 7: JBAGER (1500 in chips) 
+Seat 8: Hardjack17 (1500 in chips) 
+Seat 9: Flocke Mart (1480 in chips) 
+kjk64: posts small blind 10
+myskot: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 2c]
+solartpanel: folds 
+natzplayzpoker: raises 20 to 40
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: folds 
+JN_Canelao: folds 
+kjk64: calls 30
+myskot: calls 20
+*** FLOP *** [5c 5h Js]
+kjk64: bets 260
+myskot: folds 
+natzplayzpoker: raises 260 to 520
+kjk64: raises 920 to 1440 and is all-in
+natzplayzpoker: folds 
+Uncalled bet (920) returned to kjk64
+kjk64 collected 1160 from pot
+*** SUMMARY ***
+Total pot 1160 | Rake 0 
+Board [5c 5h Js]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: JN_Canelao (button) folded before Flop (didn't bet)
+Seat 3: kjk64 (small blind) collected (1160)
+Seat 4: myskot (big blind) folded on the Flop
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded on the Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755234293: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:51:06 UTC [2026/02/16 16:51:06 ET]
+Table '3975791928 1' 9-max Seat #3 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: JN_Canelao (1480 in chips) 
+Seat 3: kjk64 (2080 in chips) 
+Seat 4: myskot (1460 in chips) 
+Seat 5: solartpanel (1500 in chips) 
+Seat 6: natzplayzpoker (1000 in chips) 
+Seat 7: JBAGER (1500 in chips) 
+Seat 8: Hardjack17 (1500 in chips) 
+Seat 9: Flocke Mart (1480 in chips) 
+myskot: posts small blind 10
+solartpanel: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Ah]
+natzplayzpoker: folds 
+JBAGER: calls 20
+Hardjack17: folds 
+Flocke Mart: calls 20
+scorza23: raises 40 to 60
+JN_Canelao: folds 
+kjk64: folds 
+myskot: calls 50
+solartpanel: folds 
+JBAGER: calls 40
+Flocke Mart: calls 40
+*** FLOP *** [As 6d 7h]
+myskot: bets 130
+JBAGER: folds 
+Flocke Mart: folds 
+scorza23: raises 520 to 650
+myskot: folds 
+Uncalled bet (520) returned to scorza23
+scorza23 collected 520 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Board [As 6d 7h]
+Seat 1: scorza23 collected (520)
+Seat 2: JN_Canelao folded before Flop (didn't bet)
+Seat 3: kjk64 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) folded on the Flop
+Seat 5: solartpanel (big blind) folded before Flop
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded on the Flop
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded on the Flop
+
+
+
+PokerStars Hand #259755248756: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:52:01 UTC [2026/02/16 16:52:01 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (1830 in chips) 
+Seat 2: JN_Canelao (1480 in chips) 
+Seat 3: kjk64 (2080 in chips) 
+Seat 4: myskot (1270 in chips) 
+Seat 5: solartpanel (1480 in chips) 
+Seat 6: natzplayzpoker (1000 in chips) 
+Seat 7: JBAGER (1440 in chips) 
+Seat 8: Hardjack17 (1500 in chips) 
+Seat 9: Flocke Mart (1420 in chips) 
+solartpanel: posts small blind 10
+natzplayzpoker: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4c]
+JBAGER: folds 
+Hardjack17: raises 20 to 40
+Flocke Mart: calls 40
+scorza23: folds 
+JN_Canelao: calls 40
+kjk64: folds 
+myskot: folds 
+solartpanel: calls 30
+natzplayzpoker: folds 
+*** FLOP *** [4s Tc 6d]
+solartpanel: checks 
+Hardjack17: checks 
+Flocke Mart: checks 
+JN_Canelao: bets 60
+solartpanel: folds 
+Hardjack17: folds 
+Flocke Mart: folds 
+Uncalled bet (60) returned to JN_Canelao
+JN_Canelao collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [4s Tc 6d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: JN_Canelao collected (180)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot (button) folded before Flop (didn't bet)
+Seat 5: solartpanel (small blind) folded on the Flop
+Seat 6: natzplayzpoker (big blind) folded before Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded on the Flop
+Seat 9: Flocke Mart folded on the Flop
+
+
+
+PokerStars Hand #259755262964: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:52:54 UTC [2026/02/16 16:52:54 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (1830 in chips) 
+Seat 2: JN_Canelao (1620 in chips) 
+Seat 3: kjk64 (2080 in chips) 
+Seat 4: myskot (1270 in chips) 
+Seat 5: solartpanel (1440 in chips) 
+Seat 6: natzplayzpoker (980 in chips) 
+Seat 7: JBAGER (1440 in chips) 
+Seat 8: Hardjack17 (1460 in chips) 
+Seat 9: Flocke Mart (1380 in chips) 
+natzplayzpoker: posts small blind 10
+JBAGER: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 5h]
+Hardjack17: raises 30 to 50
+Flocke Mart: folds 
+scorza23: folds 
+JN_Canelao: calls 50
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: calls 40
+JBAGER: calls 30
+*** FLOP *** [9h 7d 4d]
+natzplayzpoker: checks 
+JBAGER: checks 
+Hardjack17: checks 
+JN_Canelao: bets 40
+natzplayzpoker: folds 
+JBAGER: calls 40
+Hardjack17: folds 
+*** TURN *** [9h 7d 4d] [9c]
+JBAGER: checks 
+JN_Canelao: bets 40
+JBAGER: calls 40
+*** RIVER *** [9h 7d 4d 9c] [6d]
+JBAGER: checks 
+JN_Canelao: checks 
+*** SHOW DOWN ***
+JBAGER: shows [7s Kh] (two pair, Nines and Sevens)
+JN_Canelao: mucks hand 
+JBAGER collected 360 from pot
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Board [9h 7d 4d 9c 6d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: JN_Canelao mucked [Ad Tc]
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 6: natzplayzpoker (small blind) folded on the Flop
+Seat 7: JBAGER (big blind) showed [7s Kh] and won (360) with two pair, Nines and Sevens
+Seat 8: Hardjack17 folded on the Flop
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755281779: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:54:05 UTC [2026/02/16 16:54:05 ET]
+Table '3975791928 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (1830 in chips) 
+Seat 2: JN_Canelao (1490 in chips) 
+Seat 3: kjk64 (2080 in chips) 
+Seat 4: myskot (1270 in chips) 
+Seat 5: solartpanel (1440 in chips) 
+Seat 6: natzplayzpoker (930 in chips) 
+Seat 7: JBAGER (1670 in chips) 
+Seat 8: Hardjack17 (1410 in chips) 
+Seat 9: Flocke Mart (1380 in chips) 
+JBAGER: posts small blind 10
+Hardjack17: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 7d]
+Flocke Mart: calls 20
+scorza23: folds 
+JN_Canelao: folds 
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: raises 300 to 320
+JBAGER: calls 310
+Hardjack17: folds 
+Flocke Mart: calls 300
+*** FLOP *** [8c 7s Ac]
+JBAGER: bets 1350 and is all-in
+Flocke Mart: folds 
+natzplayzpoker: folds 
+Uncalled bet (1350) returned to JBAGER
+JBAGER collected 980 from pot
+JBAGER: doesn't show hand 
+*** SUMMARY ***
+Total pot 980 | Rake 0 
+Board [8c 7s Ac]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: JN_Canelao folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker (button) folded on the Flop
+Seat 7: JBAGER (small blind) collected (980)
+Seat 8: Hardjack17 (big blind) folded before Flop
+Seat 9: Flocke Mart folded on the Flop
+
+
+
+PokerStars Hand #259755292984: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 21:54:47 UTC [2026/02/16 16:54:47 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (1830 in chips) 
+Seat 2: JN_Canelao (1490 in chips) 
+Seat 3: kjk64 (2080 in chips) 
+Seat 4: myskot (1270 in chips) 
+Seat 5: solartpanel (1440 in chips) 
+Seat 6: natzplayzpoker (610 in chips) 
+Seat 7: JBAGER (2330 in chips) 
+Seat 8: Hardjack17 (1390 in chips) 
+Seat 9: Flocke Mart (1060 in chips) 
+Hardjack17: posts small blind 15
+Flocke Mart: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Qd]
+scorza23: raises 60 to 90
+JN_Canelao: calls 90
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: calls 60
+*** FLOP *** [6c Jh 4h]
+Flocke Mart: checks 
+scorza23: bets 285
+JN_Canelao: calls 285
+Flocke Mart: folds 
+*** TURN *** [6c Jh 4h] [5d]
+scorza23: bets 428
+JN_Canelao: calls 428
+*** RIVER *** [6c Jh 4h 5d] [As]
+scorza23: bets 1027 and is all-in
+JN_Canelao: calls 687 and is all-in
+Uncalled bet (340) returned to scorza23
+*** SHOW DOWN ***
+scorza23: shows [Qc Qd] (a pair of Queens)
+JN_Canelao: shows [Ks Js] (a pair of Jacks)
+scorza23 collected 3085 from pot
+JN_Canelao finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3085 | Rake 0 
+Board [6c Jh 4h 5d As]
+Seat 1: scorza23 showed [Qc Qd] and won (3085) with a pair of Queens
+Seat 2: JN_Canelao showed [Ks Js] and lost with a pair of Jacks
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) folded before Flop
+Seat 9: Flocke Mart (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259755307264: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 21:56:03 UTC [2026/02/16 16:56:03 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (3425 in chips) 
+Seat 3: kjk64 (2080 in chips) 
+Seat 4: myskot (1270 in chips) 
+Seat 5: solartpanel (1440 in chips) 
+Seat 6: natzplayzpoker (610 in chips) 
+Seat 7: JBAGER (2330 in chips) 
+Seat 8: Hardjack17 (1375 in chips) 
+Seat 9: Flocke Mart (970 in chips) 
+Flocke Mart: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Kh]
+kjk64: calls 30
+myskot: raises 60 to 90
+solartpanel: calls 90
+natzplayzpoker: folds 
+JBAGER: calls 90
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: folds 
+kjk64: calls 60
+*** FLOP *** [6h 2c Kc]
+kjk64: checks 
+myskot: checks 
+solartpanel: checks 
+JBAGER: checks 
+*** TURN *** [6h 2c Kc] [Kd]
+kjk64: bets 1990 and is all-in
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Uncalled bet (1990) returned to kjk64
+kjk64 collected 405 from pot
+*** SUMMARY ***
+Total pot 405 | Rake 0 
+Board [6h 2c Kc Kd]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 3: kjk64 collected (405)
+Seat 4: myskot folded on the Turn
+Seat 5: solartpanel folded on the Turn
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded on the Turn
+Seat 8: Hardjack17 (button) folded before Flop (didn't bet)
+Seat 9: Flocke Mart (small blind) folded before Flop
+
+
+
+PokerStars Hand #259755316348: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 21:56:57 UTC [2026/02/16 16:56:57 ET]
+Table '3975791928 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (3395 in chips) 
+Seat 3: kjk64 (2395 in chips) 
+Seat 4: myskot (1180 in chips) 
+Seat 5: solartpanel (1350 in chips) 
+Seat 6: natzplayzpoker (610 in chips) 
+Seat 7: JBAGER (2240 in chips) 
+Seat 8: Hardjack17 (1375 in chips) 
+Seat 9: Flocke Mart (955 in chips) 
+scorza23: posts small blind 15
+kjk64: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ad]
+myskot: folds 
+solartpanel: calls 30
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: calls 30
+scorza23: raises 60 to 90
+kjk64: folds 
+solartpanel: calls 60
+Flocke Mart: calls 60
+*** FLOP *** [2d Jc 8d]
+scorza23: bets 150
+solartpanel: folds 
+Flocke Mart: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [2d Jc 8d]
+Seat 1: scorza23 (small blind) collected (300)
+Seat 3: kjk64 (big blind) folded before Flop
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded on the Flop
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart (button) folded on the Flop
+
+
+
+PokerStars Hand #259755322641: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 21:57:34 UTC [2026/02/16 16:57:34 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (3605 in chips) 
+Seat 3: kjk64 (2365 in chips) 
+Seat 4: myskot (1180 in chips) 
+Seat 5: solartpanel (1260 in chips) 
+Seat 6: natzplayzpoker (610 in chips) 
+Seat 7: JBAGER (2240 in chips) 
+Seat 8: Hardjack17 (1375 in chips) 
+Seat 9: Flocke Mart (865 in chips) 
+kjk64: posts small blind 15
+myskot: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 6c]
+solartpanel: calls 30
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: calls 30
+Flocke Mart: folds 
+scorza23: folds 
+kjk64: calls 15
+myskot: checks 
+*** FLOP *** [2s 2c As]
+kjk64: checks 
+myskot: checks 
+solartpanel: checks 
+Hardjack17: checks 
+*** TURN *** [2s 2c As] [2d]
+kjk64: checks 
+myskot: bets 120
+solartpanel: calls 120
+Hardjack17: folds 
+kjk64: folds 
+*** RIVER *** [2s 2c As 2d] [Qd]
+myskot: bets 450
+solartpanel: folds 
+Uncalled bet (450) returned to myskot
+myskot collected 360 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Board [2s 2c As 2d Qd]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: kjk64 (small blind) folded on the Turn
+Seat 4: myskot (big blind) collected (360)
+Seat 5: solartpanel folded on the River
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded on the Turn
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755340364: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 21:59:16 UTC [2026/02/16 16:59:16 ET]
+Table '3975791928 1' 9-max Seat #3 is the button
+Seat 1: scorza23 (3605 in chips) 
+Seat 3: kjk64 (2335 in chips) 
+Seat 4: myskot (1390 in chips) 
+Seat 5: solartpanel (1110 in chips) 
+Seat 6: natzplayzpoker (610 in chips) 
+Seat 7: JBAGER (2240 in chips) 
+Seat 8: Hardjack17 (1345 in chips) 
+Seat 9: Flocke Mart (865 in chips) 
+myskot: posts small blind 25
+solartpanel: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Kc]
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: calls 50
+scorza23: folds 
+kjk64: folds 
+myskot: calls 25
+solartpanel: checks 
+*** FLOP *** [5h Ts Qs]
+myskot: bets 75
+solartpanel: calls 75
+Flocke Mart: folds 
+*** TURN *** [5h Ts Qs] [3h]
+myskot: checks 
+solartpanel: checks 
+*** RIVER *** [5h Ts Qs 3h] [9d]
+myskot: bets 300
+solartpanel: folds 
+Uncalled bet (300) returned to myskot
+myskot collected 300 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Board [5h Ts Qs 3h 9d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) collected (300)
+Seat 5: solartpanel (big blind) folded on the River
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded on the Flop
+
+
+
+PokerStars Hand #259755346666: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 21:59:52 UTC [2026/02/16 16:59:52 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (3605 in chips) 
+Seat 3: kjk64 (2335 in chips) 
+Seat 4: myskot (1565 in chips) 
+Seat 5: solartpanel (985 in chips) 
+Seat 6: natzplayzpoker (610 in chips) 
+Seat 7: JBAGER (2240 in chips) 
+Seat 8: Hardjack17 (1345 in chips) 
+Seat 9: Flocke Mart (815 in chips) 
+solartpanel: posts small blind 25
+natzplayzpoker: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Tc]
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: calls 50
+scorza23: raises 100 to 150
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: folds 
+Flocke Mart: calls 100
+*** FLOP *** [As 4h 9s]
+Flocke Mart: checks 
+scorza23: checks 
+*** TURN *** [As 4h 9s] [Ah]
+Flocke Mart: checks 
+scorza23: checks 
+*** RIVER *** [As 4h 9s Ah] [Kc]
+Flocke Mart: checks 
+scorza23: bets 188
+Flocke Mart: folds 
+Uncalled bet (188) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [As 4h 9s Ah Kc]
+Seat 1: scorza23 collected (375)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot (button) folded before Flop (didn't bet)
+Seat 5: solartpanel (small blind) folded before Flop
+Seat 6: natzplayzpoker (big blind) folded before Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded on the River
+
+
+
+PokerStars Hand #259755354180: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:00:32 UTC [2026/02/16 17:00:32 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (3830 in chips) 
+Seat 3: kjk64 (2335 in chips) 
+Seat 4: myskot (1565 in chips) 
+Seat 5: solartpanel (960 in chips) 
+Seat 6: natzplayzpoker (560 in chips) 
+Seat 7: JBAGER (2240 in chips) 
+Seat 8: Hardjack17 (1345 in chips) 
+Seat 9: Flocke Mart (665 in chips) 
+natzplayzpoker: posts small blind 25
+JBAGER: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 3d]
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: raises 100 to 150
+kjk64: folds 
+myskot: raises 150 to 300
+solartpanel: raises 660 to 960 and is all-in
+natzplayzpoker: folds 
+JBAGER: folds 
+scorza23: folds 
+myskot: calls 660
+*** FLOP *** [9h 7s Ah]
+*** TURN *** [9h 7s Ah] [Kh]
+*** RIVER *** [9h 7s Ah Kh] [6d]
+*** SHOW DOWN ***
+myskot: shows [Ac Jc] (a pair of Aces)
+solartpanel: shows [9c 9d] (three of a kind, Nines)
+solartpanel collected 2145 from pot
+*** SUMMARY ***
+Total pot 2145 | Rake 0 
+Board [9h 7s Ah Kh 6d]
+Seat 1: scorza23 folded before Flop
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot showed [Ac Jc] and lost with a pair of Aces
+Seat 5: solartpanel (button) showed [9c 9d] and won (2145) with three of a kind, Nines
+Seat 6: natzplayzpoker (small blind) folded before Flop
+Seat 7: JBAGER (big blind) folded before Flop
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755360509: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:01:02 UTC [2026/02/16 17:01:02 ET]
+Table '3975791928 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (3680 in chips) 
+Seat 3: kjk64 (2335 in chips) 
+Seat 4: myskot (605 in chips) 
+Seat 5: solartpanel (2145 in chips) 
+Seat 6: natzplayzpoker (535 in chips) 
+Seat 7: JBAGER (2190 in chips) 
+Seat 8: Hardjack17 (1345 in chips) 
+Seat 9: Flocke Mart (665 in chips) 
+JBAGER: posts small blind 25
+Hardjack17: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 4h]
+Flocke Mart: folds 
+scorza23: folds 
+kjk64: calls 50
+myskot: calls 50
+solartpanel: calls 50
+natzplayzpoker: folds 
+JBAGER: calls 25
+Hardjack17: checks 
+*** FLOP *** [4d Ts 6h]
+JBAGER: checks 
+Hardjack17: checks 
+kjk64: checks 
+myskot: checks 
+solartpanel: bets 100
+JBAGER: calls 100
+Hardjack17: folds 
+kjk64: calls 100
+myskot: calls 100
+*** TURN *** [4d Ts 6h] [5d]
+JBAGER: checks 
+kjk64: checks 
+myskot: bets 200
+solartpanel: calls 200
+JBAGER: calls 200
+kjk64: folds 
+*** RIVER *** [4d Ts 6h 5d] [6d]
+JBAGER: checks 
+myskot: bets 255 and is all-in
+solartpanel: calls 255
+JBAGER: folds 
+*** SHOW DOWN ***
+myskot: shows [8c 7c] (a straight, Four to Eight)
+solartpanel: shows [Tc Qs] (two pair, Tens and Sixes)
+myskot collected 1760 from pot
+*** SUMMARY ***
+Total pot 1760 | Rake 0 
+Board [4d Ts 6h 5d 6d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded on the Turn
+Seat 4: myskot showed [8c 7c] and won (1760) with a straight, Four to Eight
+Seat 5: solartpanel showed [Tc Qs] and lost with two pair, Tens and Sixes
+Seat 6: natzplayzpoker (button) folded before Flop (didn't bet)
+Seat 7: JBAGER (small blind) folded on the River
+Seat 8: Hardjack17 (big blind) folded on the Flop
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755378485: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:02:16 UTC [2026/02/16 17:02:16 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (3680 in chips) 
+Seat 3: kjk64 (2185 in chips) 
+Seat 4: myskot (1760 in chips) 
+Seat 5: solartpanel (1540 in chips) 
+Seat 6: natzplayzpoker (535 in chips) 
+Seat 7: JBAGER (1840 in chips) 
+Seat 8: Hardjack17 (1295 in chips) 
+Seat 9: Flocke Mart (665 in chips) 
+Hardjack17: posts small blind 25
+Flocke Mart: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 3d]
+scorza23: folds 
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: raises 75 to 125
+Flocke Mart: raises 540 to 665 and is all-in
+Hardjack17: folds 
+Uncalled bet (540) returned to Flocke Mart
+Flocke Mart collected 250 from pot
+Flocke Mart: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) folded before Flop
+Seat 9: Flocke Mart (big blind) collected (250)
+
+
+
+PokerStars Hand #259755387093: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:02:49 UTC [2026/02/16 17:02:49 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (3680 in chips) 
+Seat 3: kjk64 (2185 in chips) 
+Seat 4: myskot (1760 in chips) 
+Seat 5: solartpanel (1540 in chips) 
+Seat 6: natzplayzpoker (535 in chips) 
+Seat 7: JBAGER (1840 in chips) 
+Seat 8: Hardjack17 (1170 in chips) 
+Seat 9: Flocke Mart (790 in chips) 
+Flocke Mart: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 6d]
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: raises 75 to 125
+Flocke Mart: folds 
+scorza23: folds 
+Uncalled bet (75) returned to Hardjack17
+Hardjack17 collected 125 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 (button) collected (125)
+Seat 9: Flocke Mart (small blind) folded before Flop
+
+
+
+PokerStars Hand #259755394708: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 22:03:18 UTC [2026/02/16 17:03:18 ET]
+Table '3975791928 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (3630 in chips) 
+Seat 3: kjk64 (2185 in chips) 
+Seat 4: myskot (1760 in chips) 
+Seat 5: solartpanel (1540 in chips) 
+Seat 6: natzplayzpoker (535 in chips) 
+Seat 7: JBAGER (1840 in chips) 
+Seat 8: Hardjack17 (1245 in chips) 
+Seat 9: Flocke Mart (765 in chips) 
+scorza23: posts small blind 25
+kjk64: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Qc]
+myskot: folds 
+solartpanel: calls 50
+natzplayzpoker: raises 50 to 100
+JBAGER: calls 100
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: calls 75
+kjk64: calls 50
+solartpanel: calls 50
+*** FLOP *** [3d 4c 6s]
+scorza23: checks 
+kjk64: checks 
+solartpanel: checks 
+natzplayzpoker: checks 
+JBAGER: checks 
+*** TURN *** [3d 4c 6s] [3h]
+scorza23: checks 
+kjk64: checks 
+solartpanel: bets 100
+natzplayzpoker: folds 
+JBAGER: calls 100
+scorza23: folds 
+kjk64: folds 
+*** RIVER *** [3d 4c 6s 3h] [9s]
+solartpanel: bets 100
+JBAGER: folds 
+Uncalled bet (100) returned to solartpanel
+solartpanel collected 700 from pot
+solartpanel: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Board [3d 4c 6s 3h 9s]
+Seat 1: scorza23 (small blind) folded on the Turn
+Seat 3: kjk64 (big blind) folded on the Turn
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel collected (700)
+Seat 6: natzplayzpoker folded on the Turn
+Seat 7: JBAGER folded on the River
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755421856: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 22:05:00 UTC [2026/02/16 17:05:00 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (3530 in chips) 
+Seat 3: kjk64 (2085 in chips) 
+Seat 4: myskot (1760 in chips) 
+Seat 5: solartpanel (2040 in chips) 
+Seat 6: natzplayzpoker (435 in chips) 
+Seat 7: JBAGER (1640 in chips) 
+Seat 8: Hardjack17 (1245 in chips) 
+Seat 9: Flocke Mart (765 in chips) 
+kjk64: posts small blind 50
+myskot: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 6h]
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: raises 100 to 200
+kjk64: folds 
+myskot: calls 100
+*** FLOP *** [Jc 9h As]
+myskot: bets 225
+scorza23: folds 
+Uncalled bet (225) returned to myskot
+myskot collected 450 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [Jc 9h As]
+Seat 1: scorza23 (button) folded on the Flop
+Seat 3: kjk64 (small blind) folded before Flop
+Seat 4: myskot (big blind) collected (450)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755429149: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 22:05:27 UTC [2026/02/16 17:05:27 ET]
+Table '3975791928 1' 9-max Seat #3 is the button
+Seat 1: scorza23 (3330 in chips) 
+Seat 3: kjk64 (2035 in chips) 
+Seat 4: myskot (2010 in chips) 
+Seat 5: solartpanel (2040 in chips) 
+Seat 6: natzplayzpoker (435 in chips) 
+Seat 7: JBAGER (1640 in chips) 
+Seat 8: Hardjack17 (1245 in chips) 
+Seat 9: Flocke Mart (765 in chips) 
+myskot: posts small blind 50
+solartpanel: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [As 2d]
+natzplayzpoker: folds 
+JBAGER: calls 100
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: raises 200 to 300
+kjk64: folds 
+myskot: raises 600 to 900
+solartpanel: folds 
+JBAGER: folds 
+scorza23: calls 600
+*** FLOP *** [3h 9c Jc]
+myskot: checks 
+scorza23: checks 
+*** TURN *** [3h 9c Jc] [Qs]
+myskot: bets 500
+scorza23: folds 
+Uncalled bet (500) returned to myskot
+myskot collected 2000 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Board [3h 9c Jc Qs]
+Seat 1: scorza23 folded on the Turn
+Seat 3: kjk64 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) collected (2000)
+Seat 5: solartpanel (big blind) folded before Flop
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755442118: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 22:06:15 UTC [2026/02/16 17:06:15 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (2430 in chips) 
+Seat 3: kjk64 (2035 in chips) 
+Seat 4: myskot (3110 in chips) 
+Seat 5: solartpanel (1940 in chips) 
+Seat 6: natzplayzpoker (435 in chips) 
+Seat 7: JBAGER (1540 in chips) 
+Seat 8: Hardjack17 (1245 in chips) 
+Seat 9: Flocke Mart (765 in chips) 
+solartpanel: posts small blind 50
+natzplayzpoker: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3c]
+JBAGER: calls 100
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: folds 
+solartpanel: calls 50
+natzplayzpoker: raises 335 to 435 and is all-in
+JBAGER: calls 335
+solartpanel: calls 335
+*** FLOP *** [9s Qs 5s]
+solartpanel: checks 
+JBAGER: checks 
+*** TURN *** [9s Qs 5s] [4h]
+solartpanel: checks 
+JBAGER: checks 
+*** RIVER *** [9s Qs 5s 4h] [7h]
+solartpanel: bets 100
+JBAGER: calls 100
+*** SHOW DOWN ***
+solartpanel: shows [5d Ad] (a pair of Fives)
+JBAGER: mucks hand 
+solartpanel collected 200 from side pot
+natzplayzpoker: shows [Ks Kd] (a pair of Kings)
+natzplayzpoker collected 1305 from main pot
+*** SUMMARY ***
+Total pot 1505 Main pot 1305. Side pot 200. | Rake 0 
+Board [9s Qs 5s 4h 7h]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot (button) folded before Flop (didn't bet)
+Seat 5: solartpanel (small blind) showed [5d Ad] and won (200) with a pair of Fives
+Seat 6: natzplayzpoker (big blind) showed [Ks Kd] and won (1305) with a pair of Kings
+Seat 7: JBAGER mucked [Js Ac]
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755453028: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 22:06:56 UTC [2026/02/16 17:06:56 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (2430 in chips) 
+Seat 3: kjk64 (2035 in chips) 
+Seat 4: myskot (3110 in chips) 
+Seat 5: solartpanel (1605 in chips) 
+Seat 6: natzplayzpoker (1305 in chips) 
+Seat 7: JBAGER (1005 in chips) 
+Seat 8: Hardjack17 (1245 in chips) 
+Seat 9: Flocke Mart (765 in chips) 
+natzplayzpoker: posts small blind 50
+JBAGER: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 7h]
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: raises 200 to 300
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Uncalled bet (200) returned to myskot
+myskot collected 250 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot collected (250)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 6: natzplayzpoker (small blind) folded before Flop
+Seat 7: JBAGER (big blind) folded before Flop
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755459108: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 22:07:18 UTC [2026/02/16 17:07:18 ET]
+Table '3975791928 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (2430 in chips) 
+Seat 3: kjk64 (2035 in chips) 
+Seat 4: myskot (3260 in chips) 
+Seat 5: solartpanel (1605 in chips) 
+Seat 6: natzplayzpoker (1255 in chips) 
+Seat 7: JBAGER (905 in chips) 
+Seat 8: Hardjack17 (1245 in chips) 
+Seat 9: Flocke Mart (765 in chips) 
+JBAGER: posts small blind 50
+Hardjack17: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Jc]
+Flocke Mart: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: raises 200 to 300
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: calls 200
+*** FLOP *** [Ts Ah 2d]
+Hardjack17: checks 
+myskot: checks 
+*** TURN *** [Ts Ah 2d] [Ks]
+Hardjack17: bets 325
+myskot: folds 
+Uncalled bet (325) returned to Hardjack17
+Hardjack17 collected 650 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [Ts Ah 2d Ks]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded on the Turn
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker (button) folded before Flop (didn't bet)
+Seat 7: JBAGER (small blind) folded before Flop
+Seat 8: Hardjack17 (big blind) collected (650)
+Seat 9: Flocke Mart folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755467298: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 22:07:49 UTC [2026/02/16 17:07:49 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (2430 in chips) 
+Seat 3: kjk64 (2035 in chips) 
+Seat 4: myskot (2960 in chips) 
+Seat 5: solartpanel (1605 in chips) 
+Seat 6: natzplayzpoker (1255 in chips) 
+Seat 7: JBAGER (855 in chips) 
+Seat 8: Hardjack17 (1595 in chips) 
+Seat 9: Flocke Mart (765 in chips) 
+Hardjack17: posts small blind 50
+Flocke Mart: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Qc]
+scorza23: raises 200 to 300
+kjk64: raises 1735 to 2035 and is all-in
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: folds 
+scorza23: calls 1735
+*** FLOP *** [3c 7s Ts]
+*** TURN *** [3c 7s Ts] [2c]
+*** RIVER *** [3c 7s Ts 2c] [9s]
+*** SHOW DOWN ***
+scorza23: shows [Qd Qc] (a pair of Queens)
+kjk64: shows [Qh Qs] (a pair of Queens)
+scorza23 collected 2110 from pot
+kjk64 collected 2110 from pot
+*** SUMMARY ***
+Total pot 4220 | Rake 0 
+Board [3c 7s Ts 2c 9s]
+Seat 1: scorza23 showed [Qd Qc] and won (2110) with a pair of Queens
+Seat 3: kjk64 showed [Qh Qs] and won (2110) with a pair of Queens
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) folded before Flop
+Seat 9: Flocke Mart (big blind) folded before Flop
+
+
+
+PokerStars Hand #259755476190: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 22:08:22 UTC [2026/02/16 17:08:22 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (2505 in chips) 
+Seat 3: kjk64 (2110 in chips) 
+Seat 4: myskot (2960 in chips) 
+Seat 5: solartpanel (1605 in chips) 
+Seat 6: natzplayzpoker (1255 in chips) 
+Seat 7: JBAGER (855 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+Seat 9: Flocke Mart (665 in chips) 
+Flocke Mart: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 7h]
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: calls 100
+JBAGER: folds 
+Hardjack17: folds 
+Flocke Mart: calls 50
+scorza23: checks 
+*** FLOP *** [Ad Ac Qd]
+Flocke Mart: checks 
+scorza23: checks 
+natzplayzpoker: checks 
+*** TURN *** [Ad Ac Qd] [Ks]
+Flocke Mart: checks 
+scorza23: checks 
+natzplayzpoker: bets 150
+Flocke Mart: raises 415 to 565 and is all-in
+scorza23: folds 
+natzplayzpoker: folds 
+Uncalled bet (415) returned to Flocke Mart
+Flocke Mart collected 600 from pot
+Flocke Mart: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [Ad Ac Qd Ks]
+Seat 1: scorza23 (big blind) folded on the Turn
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded on the Turn
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 (button) folded before Flop (didn't bet)
+Seat 9: Flocke Mart (small blind) collected (600)
+
+
+
+PokerStars Hand #259755500331: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:09:53 UTC [2026/02/16 17:09:53 ET]
+Table '3975791928 1' 9-max Seat #9 is the button
+Seat 1: scorza23 (2405 in chips) 
+Seat 3: kjk64 (2110 in chips) 
+Seat 4: myskot (2960 in chips) 
+Seat 5: solartpanel (1605 in chips) 
+Seat 6: natzplayzpoker (1005 in chips) 
+Seat 7: JBAGER (855 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+Seat 9: Flocke Mart (1015 in chips) 
+scorza23: posts small blind 75
+kjk64: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Kh]
+myskot: raises 150 to 300
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: raises 555 to 855 and is all-in
+Hardjack17: folds 
+Flocke Mart: raises 160 to 1015 and is all-in
+scorza23: raises 555 to 1570
+kjk64: folds 
+myskot: folds 
+Uncalled bet (555) returned to scorza23
+*** FLOP *** [Qh 6d 7s]
+*** TURN *** [Qh 6d 7s] [Td]
+*** RIVER *** [Qh 6d 7s Td] [Ac]
+*** SHOW DOWN ***
+scorza23: shows [Ad Kh] (a pair of Aces)
+Flocke Mart: shows [Jd Jh] (a pair of Jacks)
+scorza23 collected 320 from side pot
+JBAGER: shows [Tc Th] (three of a kind, Tens)
+JBAGER collected 3015 from main pot
+Flocke Mart finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3335 Main pot 3015. Side pot 320. | Rake 0 
+Board [Qh 6d 7s Td Ac]
+Seat 1: scorza23 (small blind) showed [Ad Kh] and won (320) with a pair of Aces
+Seat 3: kjk64 (big blind) folded before Flop
+Seat 4: myskot folded before Flop
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER showed [Tc Th] and won (3015) with three of a kind, Tens
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+Seat 9: Flocke Mart (button) showed [Jd Jh] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #259755509709: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:10:28 UTC [2026/02/16 17:10:28 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (1710 in chips) 
+Seat 3: kjk64 (1960 in chips) 
+Seat 4: myskot (2660 in chips) 
+Seat 5: solartpanel (1605 in chips) 
+Seat 6: natzplayzpoker (1005 in chips) 
+Seat 7: JBAGER (3015 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+kjk64: posts small blind 75
+myskot: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Kh]
+solartpanel has timed out
+solartpanel: folds 
+solartpanel is sitting out
+natzplayzpoker: folds 
+JBAGER: calls 150
+Hardjack17: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: raises 300 to 450
+solartpanel has returned
+JBAGER: calls 300
+*** FLOP *** [7c Qh 3d]
+myskot: bets 488
+JBAGER: raises 2077 to 2565 and is all-in
+myskot: folds 
+Uncalled bet (2077) returned to JBAGER
+JBAGER collected 1951 from pot
+JBAGER: doesn't show hand 
+*** SUMMARY ***
+Total pot 1951 | Rake 0 
+Board [7c Qh 3d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: kjk64 (small blind) folded before Flop
+Seat 4: myskot (big blind) folded on the Flop
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER collected (1951)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755517796: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:10:58 UTC [2026/02/16 17:10:58 ET]
+Table '3975791928 1' 9-max Seat #3 is the button
+Seat 1: scorza23 (1710 in chips) 
+Seat 3: kjk64 (1885 in chips) 
+Seat 4: myskot (1722 in chips) 
+Seat 5: solartpanel (1605 in chips) 
+Seat 6: natzplayzpoker (1005 in chips) 
+Seat 7: JBAGER (4028 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+myskot: posts small blind 75
+solartpanel: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 8h]
+natzplayzpoker: raises 855 to 1005 and is all-in
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+Uncalled bet (855) returned to natzplayzpoker
+natzplayzpoker collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) folded before Flop
+Seat 5: solartpanel (big blind) folded before Flop
+Seat 6: natzplayzpoker collected (375)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755525576: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:11:28 UTC [2026/02/16 17:11:28 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (1710 in chips) 
+Seat 3: kjk64 (1885 in chips) 
+Seat 4: myskot (1647 in chips) 
+Seat 5: solartpanel (1455 in chips) 
+Seat 6: natzplayzpoker (1230 in chips) 
+Seat 7: JBAGER (4028 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+solartpanel: posts small blind 75
+natzplayzpoker: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 9h]
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: raises 300 to 450
+kjk64: folds 
+myskot: calls 450
+solartpanel: folds 
+natzplayzpoker: folds 
+*** FLOP *** [6c 5c Ks]
+scorza23: bets 563
+myskot: folds 
+Uncalled bet (563) returned to scorza23
+scorza23 collected 1125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Board [6c 5c Ks]
+Seat 1: scorza23 collected (1125)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot (button) folded on the Flop
+Seat 5: solartpanel (small blind) folded before Flop
+Seat 6: natzplayzpoker (big blind) folded before Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755542106: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:12:30 UTC [2026/02/16 17:12:30 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (2385 in chips) 
+Seat 3: kjk64 (1885 in chips) 
+Seat 4: myskot (1197 in chips) 
+Seat 5: solartpanel (1380 in chips) 
+Seat 6: natzplayzpoker (1080 in chips) 
+Seat 7: JBAGER (4028 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+natzplayzpoker: posts small blind 75
+JBAGER: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Td]
+Hardjack17: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: raises 300 to 450
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Uncalled bet (300) returned to myskot
+myskot collected 375 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot collected (375)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 6: natzplayzpoker (small blind) folded before Flop
+Seat 7: JBAGER (big blind) folded before Flop
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755549086: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:12:56 UTC [2026/02/16 17:12:56 ET]
+Table '3975791928 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (2385 in chips) 
+Seat 3: kjk64 (1885 in chips) 
+Seat 4: myskot (1422 in chips) 
+Seat 5: solartpanel (1380 in chips) 
+Seat 6: natzplayzpoker (1005 in chips) 
+Seat 7: JBAGER (3878 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+JBAGER: posts small blind 75
+Hardjack17: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 2c]
+scorza23: folds 
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: raises 855 to 1005 and is all-in
+JBAGER: folds 
+Hardjack17: folds 
+Uncalled bet (855) returned to natzplayzpoker
+natzplayzpoker collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker (button) collected (375)
+Seat 7: JBAGER (small blind) folded before Flop
+Seat 8: Hardjack17 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259755554233: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:13:16 UTC [2026/02/16 17:13:16 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (2385 in chips) 
+Seat 3: kjk64 (1885 in chips) 
+Seat 4: myskot (1422 in chips) 
+Seat 5: solartpanel (1380 in chips) 
+Seat 6: natzplayzpoker (1230 in chips) 
+Seat 7: JBAGER (3803 in chips) 
+Seat 8: Hardjack17 (1395 in chips) 
+Hardjack17: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Kc]
+kjk64: folds 
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: raises 1245 to 1395 and is all-in
+scorza23: folds 
+Uncalled bet (1245) returned to Hardjack17
+Hardjack17 collected 300 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) collected (300)
+
+
+
+PokerStars Hand #259755560882: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 22:13:41 UTC [2026/02/16 17:13:41 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (2235 in chips) 
+Seat 3: kjk64 (1885 in chips) 
+Seat 4: myskot (1422 in chips) 
+Seat 5: solartpanel (1380 in chips) 
+Seat 6: natzplayzpoker (1230 in chips) 
+Seat 7: JBAGER (3803 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+scorza23: posts small blind 75
+kjk64: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 4c]
+myskot: raises 150 to 300
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+kjk64: calls 150
+*** FLOP *** [Kc Ah Kd]
+kjk64: checks 
+myskot: bets 338
+kjk64: calls 338
+*** TURN *** [Kc Ah Kd] [7c]
+kjk64: checks 
+myskot: bets 300
+kjk64: calls 300
+*** RIVER *** [Kc Ah Kd 7c] [Qc]
+kjk64: checks 
+myskot: checks 
+*** SHOW DOWN ***
+kjk64: shows [Th Tc] (two pair, Kings and Tens)
+myskot: shows [5s As] (two pair, Aces and Kings)
+myskot collected 1951 from pot
+*** SUMMARY ***
+Total pot 1951 | Rake 0 
+Board [Kc Ah Kd 7c Qc]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 3: kjk64 (big blind) showed [Th Tc] and lost with two pair, Kings and Tens
+Seat 4: myskot showed [5s As] and won (1951) with two pair, Aces and Kings
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755576109: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:14:39 UTC [2026/02/16 17:14:39 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (2160 in chips) 
+Seat 3: kjk64 (947 in chips) 
+Seat 4: myskot (2435 in chips) 
+Seat 5: solartpanel (1380 in chips) 
+Seat 6: natzplayzpoker (1230 in chips) 
+Seat 7: JBAGER (3803 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+kjk64: posts small blind 100
+myskot: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 9c]
+solartpanel: calls 200
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: checks 
+*** FLOP *** [Qd 5c Jh]
+myskot: checks 
+solartpanel: bets 250
+myskot: folds 
+Uncalled bet (250) returned to solartpanel
+solartpanel collected 500 from pot
+solartpanel: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [Qd 5c Jh]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: kjk64 (small blind) folded before Flop
+Seat 4: myskot (big blind) folded on the Flop
+Seat 5: solartpanel collected (500)
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755585524: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:15:15 UTC [2026/02/16 17:15:15 ET]
+Table '3975791928 1' 9-max Seat #3 is the button
+Seat 1: scorza23 (2160 in chips) 
+Seat 3: kjk64 (847 in chips) 
+Seat 4: myskot (2235 in chips) 
+Seat 5: solartpanel (1680 in chips) 
+Seat 6: natzplayzpoker (1230 in chips) 
+Seat 7: JBAGER (3803 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+myskot: posts small blind 100
+solartpanel: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qh]
+natzplayzpoker: folds 
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: raises 400 to 600
+solartpanel: folds 
+Uncalled bet (400) returned to myskot
+myskot collected 400 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) collected (400)
+Seat 5: solartpanel (big blind) folded before Flop
+Seat 6: natzplayzpoker folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755591335: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:15:37 UTC [2026/02/16 17:15:37 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (2160 in chips) 
+Seat 3: kjk64 (847 in chips) 
+Seat 4: myskot (2435 in chips) 
+Seat 5: solartpanel (1480 in chips) 
+Seat 6: natzplayzpoker (1230 in chips) 
+Seat 7: JBAGER (3803 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+solartpanel: posts small blind 100
+natzplayzpoker: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Th]
+JBAGER: calls 200
+Hardjack17: folds 
+scorza23: folds 
+kjk64: folds 
+myskot: raises 400 to 600
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: calls 400
+*** FLOP *** [7d 4h Js]
+JBAGER: checks 
+myskot: bets 750
+JBAGER: raises 2453 to 3203 and is all-in
+myskot: calls 1085 and is all-in
+Uncalled bet (1368) returned to JBAGER
+*** TURN *** [7d 4h Js] [Qd]
+*** RIVER *** [7d 4h Js Qd] [3c]
+*** SHOW DOWN ***
+JBAGER: shows [5s 5h] (a pair of Fives)
+myskot: shows [Ac As] (a pair of Aces)
+myskot collected 5170 from pot
+*** SUMMARY ***
+Total pot 5170 | Rake 0 
+Board [7d 4h Js Qd 3c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 folded before Flop (didn't bet)
+Seat 4: myskot (button) showed [Ac As] and won (5170) with a pair of Aces
+Seat 5: solartpanel (small blind) folded before Flop
+Seat 6: natzplayzpoker (big blind) folded before Flop
+Seat 7: JBAGER showed [5s 5h] and lost with a pair of Fives
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755600346: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:16:12 UTC [2026/02/16 17:16:12 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (2160 in chips) 
+Seat 3: kjk64 (847 in chips) 
+Seat 4: myskot (5170 in chips) 
+Seat 5: solartpanel (1380 in chips) 
+Seat 6: natzplayzpoker (1030 in chips) 
+Seat 7: JBAGER (1368 in chips) 
+Seat 8: Hardjack17 (1545 in chips) 
+natzplayzpoker: posts small blind 100
+JBAGER: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 4h]
+Hardjack17: raises 1345 to 1545 and is all-in
+scorza23: folds 
+kjk64: calls 847 and is all-in
+myskot: folds 
+solartpanel: folds 
+natzplayzpoker: folds 
+JBAGER: folds 
+Uncalled bet (698) returned to Hardjack17
+*** FLOP *** [4c Ac 8d]
+*** TURN *** [4c Ac 8d] [Th]
+*** RIVER *** [4c Ac 8d Th] [2d]
+*** SHOW DOWN ***
+Hardjack17: shows [8c As] (two pair, Aces and Eights)
+kjk64: shows [7h 7d] (a pair of Sevens)
+Hardjack17 collected 1994 from pot
+kjk64 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1994 | Rake 0 
+Board [4c Ac 8d Th 2d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: kjk64 showed [7h 7d] and lost with a pair of Sevens
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 6: natzplayzpoker (small blind) folded before Flop
+Seat 7: JBAGER (big blind) folded before Flop
+Seat 8: Hardjack17 showed [8c As] and won (1994) with two pair, Aces and Eights
+
+
+
+PokerStars Hand #259755613447: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:17:02 UTC [2026/02/16 17:17:02 ET]
+Table '3975791928 1' 9-max Seat #6 is the button
+Seat 1: scorza23 (2160 in chips) 
+Seat 4: myskot (5170 in chips) 
+Seat 5: solartpanel (1380 in chips) 
+Seat 6: natzplayzpoker (930 in chips) 
+Seat 7: JBAGER (1168 in chips) 
+Seat 8: Hardjack17 (2692 in chips) 
+JBAGER: posts small blind 100
+Hardjack17: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 6d]
+scorza23: folds 
+myskot: folds 
+solartpanel: raises 400 to 600
+natzplayzpoker: raises 330 to 930 and is all-in
+JBAGER: folds 
+Hardjack17: folds 
+solartpanel: calls 330
+*** FLOP *** [9h 2s 4d]
+*** TURN *** [9h 2s 4d] [Th]
+*** RIVER *** [9h 2s 4d Th] [Kh]
+*** SHOW DOWN ***
+solartpanel: shows [Qs Js] (a straight, Nine to King)
+natzplayzpoker: shows [3c 3s] (a pair of Threes)
+solartpanel collected 2160 from pot
+natzplayzpoker finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 2160 | Rake 0 
+Board [9h 2s 4d Th Kh]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel showed [Qs Js] and won (2160) with a straight, Nine to King
+Seat 6: natzplayzpoker (button) showed [3c 3s] and lost with a pair of Threes
+Seat 7: JBAGER (small blind) folded before Flop
+Seat 8: Hardjack17 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259755625345: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:17:48 UTC [2026/02/16 17:17:48 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (2160 in chips) 
+Seat 4: myskot (5170 in chips) 
+Seat 5: solartpanel (2610 in chips) 
+Seat 7: JBAGER (1068 in chips) 
+Seat 8: Hardjack17 (2492 in chips) 
+Hardjack17: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qh]
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Hardjack17: calls 100
+scorza23: checks 
+*** FLOP *** [7h Jc Js]
+Hardjack17: bets 200
+scorza23: folds 
+Uncalled bet (200) returned to Hardjack17
+Hardjack17 collected 400 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [7h Jc Js]
+Seat 1: scorza23 (big blind) folded on the Flop
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) collected (400)
+
+
+
+PokerStars Hand #259755637154: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:18:34 UTC [2026/02/16 17:18:34 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (1960 in chips) 
+Seat 4: myskot (5170 in chips) 
+Seat 5: solartpanel (2610 in chips) 
+Seat 7: JBAGER (1068 in chips) 
+Seat 8: Hardjack17 (2692 in chips) 
+scorza23: posts small blind 100
+myskot: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 8c]
+solartpanel: calls 200
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+myskot: checks 
+*** FLOP *** [2h Qc Js]
+myskot: checks 
+solartpanel: checks 
+*** TURN *** [2h Qc Js] [Ts]
+myskot: checks 
+solartpanel: checks 
+*** RIVER *** [2h Qc Js Ts] [5c]
+myskot: checks 
+solartpanel: checks 
+*** SHOW DOWN ***
+myskot: shows [8d 3h] (high card Queen)
+solartpanel: shows [Ah Td] (a pair of Tens)
+solartpanel collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [2h Qc Js Ts 5c]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 4: myskot (big blind) showed [8d 3h] and lost with high card Queen
+Seat 5: solartpanel showed [Ah Td] and won (500) with a pair of Tens
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755644926: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 22:19:04 UTC [2026/02/16 17:19:04 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (1860 in chips) 
+Seat 4: myskot (4970 in chips) 
+Seat 5: solartpanel (2910 in chips) 
+Seat 7: JBAGER (1068 in chips) 
+Seat 8: Hardjack17 (2692 in chips) 
+myskot: posts small blind 100
+solartpanel: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 7s]
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+myskot: calls 100
+solartpanel: checks 
+*** FLOP *** [Qs Ks 7c]
+myskot: checks 
+solartpanel: checks 
+*** TURN *** [Qs Ks 7c] [6d]
+myskot: bets 400
+solartpanel: folds 
+Uncalled bet (400) returned to myskot
+myskot collected 400 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [Qs Ks 7c 6d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) collected (400)
+Seat 5: solartpanel (big blind) folded on the Turn
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755656333: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:19:47 UTC [2026/02/16 17:19:47 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (1860 in chips) 
+Seat 4: myskot (5170 in chips) 
+Seat 5: solartpanel (2710 in chips) 
+Seat 7: JBAGER (1068 in chips) 
+Seat 8: Hardjack17 (2692 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+solartpanel: posts small blind 100
+JBAGER: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Ac]
+Hardjack17: folds 
+scorza23: raises 400 to 600
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 625 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: scorza23 collected (625)
+Seat 4: myskot (button) folded before Flop (didn't bet)
+Seat 5: solartpanel (small blind) folded before Flop
+Seat 7: JBAGER (big blind) folded before Flop
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755660863: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:20:04 UTC [2026/02/16 17:20:04 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (2260 in chips) 
+Seat 4: myskot (5145 in chips) 
+Seat 5: solartpanel (2585 in chips) 
+Seat 7: JBAGER (843 in chips) 
+Seat 8: Hardjack17 (2667 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+JBAGER: posts small blind 100
+Hardjack17: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8s]
+scorza23: folds 
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Uncalled bet (100) returned to Hardjack17
+Hardjack17 collected 325 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 7: JBAGER (small blind) folded before Flop
+Seat 8: Hardjack17 (big blind) collected (325)
+
+
+
+PokerStars Hand #259755665267: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:20:21 UTC [2026/02/16 17:20:21 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (2235 in chips) 
+Seat 4: myskot (5120 in chips) 
+Seat 5: solartpanel (2560 in chips) 
+Seat 7: JBAGER (718 in chips) 
+Seat 8: Hardjack17 (2867 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+Hardjack17: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 5h]
+myskot: folds 
+solartpanel: folds 
+JBAGER: raises 493 to 693 and is all-in
+Hardjack17: folds 
+scorza23: folds 
+Uncalled bet (493) returned to JBAGER
+JBAGER collected 625 from pot
+JBAGER: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 7: JBAGER (button) collected (625)
+Seat 8: Hardjack17 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259755670385: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:20:41 UTC [2026/02/16 17:20:41 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (2010 in chips) 
+Seat 4: myskot (5095 in chips) 
+Seat 5: solartpanel (2535 in chips) 
+Seat 7: JBAGER (1118 in chips) 
+Seat 8: Hardjack17 (2742 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+scorza23: posts small blind 100
+myskot: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 3d]
+solartpanel: folds 
+JBAGER: raises 893 to 1093 and is all-in
+Hardjack17: folds 
+scorza23: folds 
+myskot: folds 
+Uncalled bet (893) returned to JBAGER
+JBAGER collected 625 from pot
+JBAGER: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 4: myskot (big blind) folded before Flop
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 7: JBAGER collected (625)
+Seat 8: Hardjack17 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755673975: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:20:55 UTC [2026/02/16 17:20:55 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (1885 in chips) 
+Seat 4: myskot (4870 in chips) 
+Seat 5: solartpanel (2510 in chips) 
+Seat 7: JBAGER (1518 in chips) 
+Seat 8: Hardjack17 (2717 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+myskot: posts small blind 100
+solartpanel: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 3s]
+JBAGER: folds 
+Hardjack17: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+myskot: calls 100
+solartpanel: checks 
+*** FLOP *** [5h 9d Qs]
+myskot: bets 263
+solartpanel: folds 
+Uncalled bet (263) returned to myskot
+myskot collected 525 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [5h 9d Qs]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) collected (525)
+Seat 5: solartpanel (big blind) folded on the Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755684976: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:21:37 UTC [2026/02/16 17:21:37 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (1860 in chips) is sitting out
+Seat 4: myskot (5170 in chips) 
+Seat 5: solartpanel (2285 in chips) 
+Seat 7: JBAGER (1493 in chips) 
+Seat 8: Hardjack17 (2692 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+solartpanel: posts small blind 100
+JBAGER: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 8h]
+Hardjack17: folds 
+scorza23: folds 
+scorza23 has returned
+myskot: raises 200 to 400
+solartpanel: folds 
+JBAGER: raises 1068 to 1468 and is all-in
+myskot: folds 
+Uncalled bet (1068) returned to JBAGER
+JBAGER collected 1025 from pot
+JBAGER: doesn't show hand 
+*** SUMMARY ***
+Total pot 1025 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: myskot (button) folded before Flop
+Seat 5: solartpanel (small blind) folded before Flop
+Seat 7: JBAGER (big blind) collected (1025)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755689240: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:21:54 UTC [2026/02/16 17:21:54 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (1835 in chips) 
+Seat 4: myskot (4745 in chips) 
+Seat 5: solartpanel (2160 in chips) 
+Seat 7: JBAGER (2093 in chips) 
+Seat 8: Hardjack17 (2667 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+JBAGER: posts small blind 100
+Hardjack17: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Tc]
+scorza23: folds 
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Uncalled bet (100) returned to Hardjack17
+Hardjack17 collected 325 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 7: JBAGER (small blind) folded before Flop
+Seat 8: Hardjack17 (big blind) collected (325)
+
+
+
+PokerStars Hand #259755691849: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:22:04 UTC [2026/02/16 17:22:04 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (1810 in chips) 
+Seat 4: myskot (4720 in chips) 
+Seat 5: solartpanel (2135 in chips) 
+Seat 7: JBAGER (1968 in chips) 
+Seat 8: Hardjack17 (2867 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+Hardjack17: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Js]
+myskot: raises 200 to 400
+solartpanel: folds 
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+Uncalled bet (200) returned to myskot
+myskot collected 625 from pot
+myskot: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 4: myskot collected (625)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259755696028: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:22:20 UTC [2026/02/16 17:22:20 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (1585 in chips) 
+Seat 4: myskot (5120 in chips) 
+Seat 5: solartpanel (2110 in chips) 
+Seat 7: JBAGER (1943 in chips) 
+Seat 8: Hardjack17 (2742 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+scorza23: posts small blind 100
+myskot: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 3d]
+solartpanel: calls 200
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: raises 200 to 400
+myskot: folds 
+solartpanel: calls 200
+*** FLOP *** [2d Ah Qc]
+scorza23: bets 1160 and is all-in
+solartpanel: folds 
+Uncalled bet (1160) returned to scorza23
+scorza23 collected 1125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Board [2d Ah Qc]
+Seat 1: scorza23 (small blind) collected (1125)
+Seat 4: myskot (big blind) folded before Flop
+Seat 5: solartpanel folded on the Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755702258: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:22:44 UTC [2026/02/16 17:22:44 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (2285 in chips) 
+Seat 4: myskot (4895 in chips) 
+Seat 5: solartpanel (1685 in chips) 
+Seat 7: JBAGER (1918 in chips) 
+Seat 8: Hardjack17 (2717 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+myskot: posts small blind 100
+solartpanel: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 8s]
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: folds 
+myskot: calls 100
+solartpanel: checks 
+*** FLOP *** [Kh 2d Ah]
+myskot: checks 
+solartpanel: bets 200
+myskot: calls 200
+*** TURN *** [Kh 2d Ah] [6d]
+myskot: checks 
+solartpanel: bets 200
+myskot: folds 
+Uncalled bet (200) returned to solartpanel
+solartpanel collected 925 from pot
+solartpanel: doesn't show hand 
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Board [Kh 2d Ah 6d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: myskot (small blind) folded on the Turn
+Seat 5: solartpanel (big blind) collected (925)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755709531: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:23:12 UTC [2026/02/16 17:23:12 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (2260 in chips) 
+Seat 4: myskot (4470 in chips) 
+Seat 5: solartpanel (2185 in chips) 
+Seat 7: JBAGER (1893 in chips) 
+Seat 8: Hardjack17 (2692 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+solartpanel: posts small blind 100
+JBAGER: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Td]
+Hardjack17: folds 
+scorza23: folds 
+myskot: folds 
+solartpanel: folds 
+Uncalled bet (100) returned to JBAGER
+JBAGER collected 325 from pot
+JBAGER: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: myskot (button) folded before Flop (didn't bet)
+Seat 5: solartpanel (small blind) folded before Flop
+Seat 7: JBAGER (big blind) collected (325)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755711851: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 22:23:21 UTC [2026/02/16 17:23:21 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (2235 in chips) 
+Seat 4: myskot (4445 in chips) 
+Seat 5: solartpanel (2060 in chips) 
+Seat 7: JBAGER (2093 in chips) 
+Seat 8: Hardjack17 (2667 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+JBAGER: posts small blind 100
+Hardjack17: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Ah]
+scorza23: raises 200 to 400
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Hardjack17: calls 200
+*** FLOP *** [Qc Ks Th]
+Hardjack17: checks 
+scorza23: bets 513
+Hardjack17: calls 513
+*** TURN *** [Qc Ks Th] [2d]
+Hardjack17: checks 
+scorza23: bets 1297 and is all-in
+Hardjack17: folds 
+Uncalled bet (1297) returned to scorza23
+scorza23 collected 2051 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2051 | Rake 0 
+Board [Qc Ks Th 2d]
+Seat 1: scorza23 collected (2051)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 7: JBAGER (small blind) folded before Flop
+Seat 8: Hardjack17 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259755723935: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:24:09 UTC [2026/02/16 17:24:09 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (3348 in chips) 
+Seat 4: myskot (4420 in chips) 
+Seat 5: solartpanel (2035 in chips) 
+Seat 7: JBAGER (1968 in chips) 
+Seat 8: Hardjack17 (1729 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+Hardjack17: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 6h]
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Hardjack17: calls 150
+scorza23: checks 
+*** FLOP *** [As 7h Kd]
+Hardjack17: bets 300
+scorza23: folds 
+Uncalled bet (300) returned to Hardjack17
+Hardjack17 collected 725 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 725 | Rake 0 
+Board [As 7h Kd]
+Seat 1: scorza23 (big blind) folded on the Flop
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) collected (725)
+
+
+
+PokerStars Hand #259755728564: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:24:27 UTC [2026/02/16 17:24:27 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (3023 in chips) 
+Seat 4: myskot (4395 in chips) 
+Seat 5: solartpanel (2010 in chips) 
+Seat 7: JBAGER (1943 in chips) 
+Seat 8: Hardjack17 (2129 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+scorza23: posts small blind 150
+myskot: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 9s]
+solartpanel: raises 600 to 900
+JBAGER: folds 
+Hardjack17: raises 1204 to 2104 and is all-in
+scorza23: folds 
+myskot: folds 
+solartpanel: calls 1085 and is all-in
+Uncalled bet (119) returned to Hardjack17
+*** FLOP *** [9d 6h 9h]
+*** TURN *** [9d 6h 9h] [8s]
+*** RIVER *** [9d 6h 9h 8s] [2c]
+*** SHOW DOWN ***
+solartpanel: shows [Ad Qc] (a pair of Nines)
+Hardjack17: shows [As Th] (a pair of Nines - lower kicker)
+solartpanel collected 4545 from pot
+*** SUMMARY ***
+Total pot 4545 | Rake 0 
+Board [9d 6h 9h 8s 2c]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 4: myskot (big blind) folded before Flop
+Seat 5: solartpanel showed [Ad Qc] and won (4545) with a pair of Nines
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 (button) showed [As Th] and lost with a pair of Nines
+
+
+
+PokerStars Hand #259755735293: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:24:53 UTC [2026/02/16 17:24:53 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (2848 in chips) 
+Seat 4: myskot (4070 in chips) 
+Seat 5: solartpanel (4545 in chips) 
+Seat 7: JBAGER (1918 in chips) 
+Seat 8: Hardjack17 (119 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+myskot: posts small blind 150
+solartpanel: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3h As]
+JBAGER: folds 
+Hardjack17: calls 94 and is all-in
+scorza23: raises 330 to 630
+myskot: folds 
+solartpanel: folds 
+Uncalled bet (330) returned to scorza23
+*** FLOP *** [7d Qd Kh]
+*** TURN *** [7d Qd Kh] [Qs]
+*** RIVER *** [7d Qd Kh Qs] [3d]
+*** SHOW DOWN ***
+scorza23: shows [3h As] (two pair, Queens and Threes)
+scorza23 collected 468 from side pot
+Hardjack17: shows [Qc 4c] (three of a kind, Queens)
+Hardjack17 collected 501 from main pot
+*** SUMMARY ***
+Total pot 969 Main pot 501. Side pot 468. | Rake 0 
+Board [7d Qd Kh Qs 3d]
+Seat 1: scorza23 (button) showed [3h As] and won (468) with two pair, Queens and Threes
+Seat 4: myskot (small blind) folded before Flop
+Seat 5: solartpanel (big blind) folded before Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 showed [Qc 4c] and won (501) with three of a kind, Queens
+
+
+
+PokerStars Hand #259755742344: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:25:21 UTC [2026/02/16 17:25:21 ET]
+Table '3975791928 1' 9-max Seat #4 is the button
+Seat 1: scorza23 (2991 in chips) 
+Seat 4: myskot (3895 in chips) 
+Seat 5: solartpanel (4220 in chips) 
+Seat 7: JBAGER (1893 in chips) 
+Seat 8: Hardjack17 (501 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+solartpanel: posts small blind 150
+JBAGER: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Kd]
+Hardjack17: raises 176 to 476 and is all-in
+scorza23: calls 476
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+*** FLOP *** [7d 3h 5c]
+*** TURN *** [7d 3h 5c] [Ah]
+*** RIVER *** [7d 3h 5c Ah] [8d]
+*** SHOW DOWN ***
+Hardjack17: shows [6s 8h] (a pair of Eights)
+scorza23: shows [Qd Kd] (high card Ace)
+Hardjack17 collected 1527 from pot
+*** SUMMARY ***
+Total pot 1527 | Rake 0 
+Board [7d 3h 5c Ah 8d]
+Seat 1: scorza23 showed [Qd Kd] and lost with high card Ace
+Seat 4: myskot (button) folded before Flop (didn't bet)
+Seat 5: solartpanel (small blind) folded before Flop
+Seat 7: JBAGER (big blind) folded before Flop
+Seat 8: Hardjack17 showed [6s 8h] and won (1527) with a pair of Eights
+
+
+
+PokerStars Hand #259755750376: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:25:52 UTC [2026/02/16 17:25:52 ET]
+Table '3975791928 1' 9-max Seat #5 is the button
+Seat 1: scorza23 (2490 in chips) 
+Seat 4: myskot (3870 in chips) 
+Seat 5: solartpanel (4045 in chips) 
+Seat 7: JBAGER (1568 in chips) 
+Seat 8: Hardjack17 (1527 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+JBAGER: posts small blind 150
+Hardjack17: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6c]
+scorza23: folds 
+myskot: folds 
+solartpanel: folds 
+JBAGER: raises 1243 to 1543 and is all-in
+Hardjack17: folds 
+Uncalled bet (1243) returned to JBAGER
+JBAGER collected 725 from pot
+JBAGER: doesn't show hand 
+*** SUMMARY ***
+Total pot 725 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel (button) folded before Flop (didn't bet)
+Seat 7: JBAGER (small blind) collected (725)
+Seat 8: Hardjack17 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259755754049: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:26:07 UTC [2026/02/16 17:26:07 ET]
+Table '3975791928 1' 9-max Seat #7 is the button
+Seat 1: scorza23 (2465 in chips) 
+Seat 4: myskot (3845 in chips) 
+Seat 5: solartpanel (4020 in chips) 
+Seat 7: JBAGER (1968 in chips) 
+Seat 8: Hardjack17 (1202 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+Hardjack17: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Qd]
+myskot: folds 
+solartpanel: folds 
+JBAGER: folds 
+Hardjack17: raises 877 to 1177 and is all-in
+scorza23: folds 
+Uncalled bet (877) returned to Hardjack17
+Hardjack17 collected 725 from pot
+Hardjack17: doesn't show hand 
+*** SUMMARY ***
+Total pot 725 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 4: myskot folded before Flop (didn't bet)
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 7: JBAGER (button) folded before Flop (didn't bet)
+Seat 8: Hardjack17 (small blind) collected (725)
+
+
+
+PokerStars Hand #259755757506: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:26:20 UTC [2026/02/16 17:26:20 ET]
+Table '3975791928 1' 9-max Seat #8 is the button
+Seat 1: scorza23 (2140 in chips) 
+Seat 4: myskot (3820 in chips) 
+Seat 5: solartpanel (3995 in chips) 
+Seat 7: JBAGER (1943 in chips) 
+Seat 8: Hardjack17 (1602 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+scorza23: posts small blind 150
+myskot: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 6c]
+solartpanel: folds 
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: raises 330 to 630
+myskot: folds 
+Uncalled bet (330) returned to scorza23
+scorza23 collected 725 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 725 | Rake 0 
+Seat 1: scorza23 (small blind) collected (725)
+Seat 4: myskot (big blind) folded before Flop
+Seat 5: solartpanel folded before Flop (didn't bet)
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755761314: Tournament #3975791928, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 22:26:35 UTC [2026/02/16 17:26:35 ET]
+Table '3975791928 1' 9-max Seat #1 is the button
+Seat 1: scorza23 (2540 in chips) 
+Seat 4: myskot (3495 in chips) 
+Seat 5: solartpanel (3970 in chips) 
+Seat 7: JBAGER (1918 in chips) 
+Seat 8: Hardjack17 (1577 in chips) 
+scorza23: posts the ante 25
+myskot: posts the ante 25
+solartpanel: posts the ante 25
+JBAGER: posts the ante 25
+Hardjack17: posts the ante 25
+myskot: posts small blind 150
+solartpanel: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Ac]
+JBAGER: folds 
+Hardjack17: folds 
+scorza23: raises 330 to 630
+myskot: raises 870 to 1500
+solartpanel: folds 
+scorza23: raises 1015 to 2515 and is all-in
+myskot: calls 1015
+*** FLOP *** [5s As 6d]
+*** TURN *** [5s As 6d] [8c]
+*** RIVER *** [5s As 6d 8c] [7s]
+*** SHOW DOWN ***
+myskot: shows [6h 6c] (three of a kind, Sixes)
+scorza23: shows [Jd Ac] (a pair of Aces)
+myskot collected 5455 from pot
+scorza23 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 5455 | Rake 0 
+Board [5s As 6d 8c 7s]
+Seat 1: scorza23 (button) showed [Jd Ac] and lost with a pair of Aces
+Seat 4: myskot (small blind) showed [6h 6c] and won (5455) with three of a kind, Sixes
+Seat 5: solartpanel (big blind) folded before Flop
+Seat 7: JBAGER folded before Flop (didn't bet)
+Seat 8: Hardjack17 folded before Flop (didn't bet)
+
+
+

@@ -1,0 +1,1612 @@
+﻿PokerStars Hand #259762540757: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:22:01 UTC [2026/02/17 9:22:01 ET]
+Table '3975960660 1' 9-max Seat #1 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1500 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1500 in chips) 
+Seat 5: Ispalla (1500 in chips) 
+Seat 6: Ray2627 (1500 in chips) 
+Seat 7: MCLMUSIC (1500 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1500 in chips) 
+Dofeitosa: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4s]
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: raises 24 to 44
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: calls 34
+scorza23: folds 
+*** FLOP *** [Ac 6c 5d]
+Dofeitosa: checks 
+MCLMUSIC: bets 36
+Dofeitosa: folds 
+Uncalled bet (36) returned to MCLMUSIC
+MCLMUSIC collected 108 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 108 | Rake 0 
+Board [Ac 6c 5d]
+Seat 1: avonni d3 (button) folded before Flop (didn't bet)
+Seat 2: Dofeitosa (small blind) folded on the Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC collected (108)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762547875: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:22:51 UTC [2026/02/17 9:22:51 ET]
+Table '3975960660 1' 9-max Seat #2 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1480 in chips) 
+Seat 4: lsv78 (1500 in chips) 
+Seat 5: Ispalla (1500 in chips) 
+Seat 6: Ray2627 (1500 in chips) 
+Seat 7: MCLMUSIC (1564 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1500 in chips) 
+scorza23: posts small blind 10
+lsv78: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 9d]
+Ispalla: folds 
+Ray2627: calls 20
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: raises 1480 to 1500 and is all-in
+Ray2627: folds 
+Uncalled bet (1480) returned to lsv78
+lsv78 collected 50 from pot
+lsv78: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: lsv78 (big blind) collected (50)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762553251: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:23:28 UTC [2026/02/17 9:23:28 ET]
+Table '3975960660 1' 9-max Seat #3 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1470 in chips) 
+Seat 4: lsv78 (1530 in chips) 
+Seat 5: Ispalla (1500 in chips) 
+Seat 6: Ray2627 (1480 in chips) 
+Seat 7: MCLMUSIC (1564 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1500 in chips) 
+lsv78: posts small blind 10
+Ispalla: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Js]
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: raises 40 to 60
+lsv78: folds 
+Ispalla: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 50 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 (button) collected (50)
+Seat 4: lsv78 (small blind) folded before Flop
+Seat 5: Ispalla (big blind) folded before Flop
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762557434: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:23:58 UTC [2026/02/17 9:23:58 ET]
+Table '3975960660 1' 9-max Seat #4 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1520 in chips) 
+Seat 5: Ispalla (1480 in chips) 
+Seat 6: Ray2627 (1480 in chips) 
+Seat 7: MCLMUSIC (1564 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1500 in chips) 
+Ispalla: posts small blind 10
+Ray2627: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Jh]
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: calls 10
+Ray2627: checks 
+*** FLOP *** [5d 3s Qh]
+Ispalla: checks 
+Ray2627: bets 40
+Ispalla: folds 
+Uncalled bet (40) returned to Ray2627
+Ray2627 collected 40 from pot
+Ray2627: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [5d 3s Qh]
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 (button) folded before Flop (didn't bet)
+Seat 5: Ispalla (small blind) folded on the Flop
+Seat 6: Ray2627 (big blind) collected (40)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762564863: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:24:50 UTC [2026/02/17 9:24:50 ET]
+Table '3975960660 1' 9-max Seat #5 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1520 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (1500 in chips) 
+Seat 7: MCLMUSIC (1564 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1500 in chips) 
+Ray2627: posts small blind 10
+MCLMUSIC: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 3c]
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: calls 10
+MCLMUSIC: checks 
+*** FLOP *** [Ks 5h 7h]
+Ray2627: checks 
+MCLMUSIC: bets 20
+Ray2627: calls 20
+*** TURN *** [Ks 5h 7h] [Qh]
+Ray2627: checks 
+MCLMUSIC: checks 
+*** RIVER *** [Ks 5h 7h Qh] [6d]
+Ray2627: bets 20
+MCLMUSIC: folds 
+Uncalled bet (20) returned to Ray2627
+Ray2627 collected 80 from pot
+Ray2627: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [Ks 5h 7h Qh 6d]
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla (button) folded before Flop (didn't bet)
+Seat 6: Ray2627 (small blind) collected (80)
+Seat 7: MCLMUSIC (big blind) folded on the River
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762576930: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:26:13 UTC [2026/02/17 9:26:13 ET]
+Table '3975960660 1' 9-max Seat #6 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1520 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (1540 in chips) 
+Seat 7: MCLMUSIC (1524 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1500 in chips) 
+MCLMUSIC: posts small blind 10
+AshAshBayBay: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9c]
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+Uncalled bet (10) returned to AshAshBayBay
+AshAshBayBay collected 20 from pot
+*** SUMMARY ***
+Total pot 20 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 (button) folded before Flop (didn't bet)
+Seat 7: MCLMUSIC (small blind) folded before Flop
+Seat 8: AshAshBayBay (big blind) collected (20)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762580472: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:26:38 UTC [2026/02/17 9:26:38 ET]
+Table '3975960660 1' 9-max Seat #7 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1520 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (1540 in chips) 
+Seat 7: MCLMUSIC (1514 in chips) 
+Seat 8: AshAshBayBay (1510 in chips) 
+Seat 9: julius70 (1500 in chips) 
+AshAshBayBay: posts small blind 10
+julius70: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 3c]
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: raises 42 to 62
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+Uncalled bet (42) returned to lsv78
+lsv78 collected 50 from pot
+lsv78: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 collected (50)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 8: AshAshBayBay (small blind) folded before Flop
+Seat 9: julius70 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762585148: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:27:10 UTC [2026/02/17 9:27:10 ET]
+Table '3975960660 1' 9-max Seat #8 is the button
+Seat 1: avonni d3 (1500 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1550 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (1540 in chips) 
+Seat 7: MCLMUSIC (1514 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1480 in chips) 
+julius70: posts small blind 15
+avonni d3: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 5h]
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: calls 30
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: checks 
+*** FLOP *** [8c 3h 7c]
+avonni d3: checks 
+Ray2627: checks 
+*** TURN *** [8c 3h 7c] [8d]
+avonni d3: checks 
+Ray2627: checks 
+*** RIVER *** [8c 3h 7c 8d] [4s]
+avonni d3: checks 
+Ray2627: checks 
+*** SHOW DOWN ***
+avonni d3: shows [6d Ts] (a pair of Eights)
+Ray2627: shows [Jd Qs] (a pair of Eights - Queen kicker)
+Ray2627 collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Board [8c 3h 7c 8d 4s]
+Seat 1: avonni d3 (big blind) showed [6d Ts] and lost with a pair of Eights
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 showed [Jd Qs] and won (75) with a pair of Eights
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay (button) folded before Flop (didn't bet)
+Seat 9: julius70 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762591283: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:27:52 UTC [2026/02/17 9:27:52 ET]
+Table '3975960660 1' 9-max Seat #9 is the button
+Seat 1: avonni d3 (1470 in chips) 
+Seat 2: Dofeitosa (1456 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1550 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (1585 in chips) 
+Seat 7: MCLMUSIC (1514 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (1465 in chips) 
+avonni d3: posts small blind 15
+Dofeitosa: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Kh]
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: raises 30 to 60
+MCLMUSIC: calls 60
+AshAshBayBay: folds 
+julius70: raises 225 to 285
+avonni d3: folds 
+Dofeitosa: folds 
+Ray2627: calls 225
+MCLMUSIC: folds 
+*** FLOP *** [6s Ts 8c]
+Ray2627: checks 
+julius70: bets 338
+Ray2627: calls 338
+*** TURN *** [6s Ts 8c] [8d]
+Ray2627: checks 
+julius70: checks 
+*** RIVER *** [6s Ts 8c 8d] [4s]
+Ray2627: checks 
+julius70: checks 
+*** SHOW DOWN ***
+Ray2627: shows [9s 9h] (two pair, Nines and Eights)
+julius70: mucks hand 
+Ray2627 collected 1351 from pot
+*** SUMMARY ***
+Total pot 1351 | Rake 0 
+Board [6s Ts 8c 8d 4s]
+Seat 1: avonni d3 (small blind) folded before Flop
+Seat 2: Dofeitosa (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 showed [9s 9h] and won (1351) with two pair, Nines and Eights
+Seat 7: MCLMUSIC folded before Flop
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 (button) mucked [Ks Ac]
+
+
+
+PokerStars Hand #259762601335: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:29:03 UTC [2026/02/17 9:29:03 ET]
+Table '3975960660 1' 9-max Seat #1 is the button
+Seat 1: avonni d3 (1455 in chips) 
+Seat 2: Dofeitosa (1426 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: lsv78 (1550 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (2313 in chips) 
+Seat 7: MCLMUSIC (1454 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (842 in chips) 
+Dofeitosa: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 9d]
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: raises 30 to 60
+avonni d3: calls 60
+Dofeitosa: folds 
+scorza23: folds 
+*** FLOP *** [5s 3c Js]
+julius70: bets 83
+avonni d3: folds 
+Uncalled bet (83) returned to julius70
+julius70 collected 165 from pot
+julius70: doesn't show hand 
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Board [5s 3c Js]
+Seat 1: avonni d3 (button) folded on the Flop
+Seat 2: Dofeitosa (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 collected (165)
+
+
+
+PokerStars Hand #259762605246: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:29:31 UTC [2026/02/17 9:29:31 ET]
+Table '3975960660 1' 9-max Seat #2 is the button
+Seat 1: avonni d3 (1395 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1470 in chips) 
+Seat 4: lsv78 (1550 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (2313 in chips) 
+Seat 7: MCLMUSIC (1454 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (947 in chips) 
+scorza23: posts small blind 15
+lsv78: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 6h]
+Ispalla: folds 
+Ray2627: calls 30
+MCLMUSIC: calls 30
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: raises 150 to 180
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ray2627: folds 
+MCLMUSIC: calls 150
+*** FLOP *** [Ad Qs 9h]
+MCLMUSIC: checks 
+avonni d3: checks 
+*** TURN *** [Ad Qs 9h] [4d]
+MCLMUSIC: checks 
+avonni d3: checks 
+*** RIVER *** [Ad Qs 9h 4d] [7c]
+MCLMUSIC: checks 
+avonni d3: bets 218
+MCLMUSIC: folds 
+Uncalled bet (218) returned to avonni d3
+avonni d3 collected 435 from pot
+avonni d3: doesn't show hand 
+*** SUMMARY ***
+Total pot 435 | Rake 0 
+Board [Ad Qs 9h 4d 7c]
+Seat 1: avonni d3 collected (435)
+Seat 2: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: lsv78 (big blind) folded before Flop
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop
+Seat 7: MCLMUSIC folded on the River
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762613891: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:30:30 UTC [2026/02/17 9:30:30 ET]
+Table '3975960660 1' 9-max Seat #3 is the button
+Seat 1: avonni d3 (1650 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1455 in chips) 
+Seat 4: lsv78 (1520 in chips) 
+Seat 5: Ispalla (1460 in chips) 
+Seat 6: Ray2627 (2283 in chips) 
+Seat 7: MCLMUSIC (1274 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (947 in chips) 
+lsv78: posts small blind 15
+Ispalla: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 4s]
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: raises 30 to 60
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: calls 30
+*** FLOP *** [Qc Kd 9h]
+Ispalla: checks 
+avonni d3: checks 
+*** TURN *** [Qc Kd 9h] [6d]
+Ispalla: checks 
+avonni d3: checks 
+*** RIVER *** [Qc Kd 9h 6d] [9c]
+Ispalla: checks 
+avonni d3: checks 
+*** SHOW DOWN ***
+Ispalla: shows [4d Ac] (a pair of Nines)
+avonni d3: shows [Ad Jh] (a pair of Nines)
+Ispalla collected 68 from pot
+avonni d3 collected 67 from pot
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Board [Qc Kd 9h 6d 9c]
+Seat 1: avonni d3 showed [Ad Jh] and won (67) with a pair of Nines
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: lsv78 (small blind) folded before Flop
+Seat 5: Ispalla (big blind) showed [4d Ac] and won (68) with a pair of Nines
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762622153: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:31:26 UTC [2026/02/17 9:31:26 ET]
+Table '3975960660 1' 9-max Seat #4 is the button
+Seat 1: avonni d3 (1657 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1455 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1468 in chips) 
+Seat 6: Ray2627 (2283 in chips) 
+Seat 7: MCLMUSIC (1274 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (947 in chips) 
+Ispalla: posts small blind 15
+Ray2627: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Qd]
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: raises 60 to 90
+Ray2627: folds 
+Uncalled bet (60) returned to Ispalla
+Ispalla collected 60 from pot
+Ispalla: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 (button) folded before Flop (didn't bet)
+Seat 5: Ispalla (small blind) collected (60)
+Seat 6: Ray2627 (big blind) folded before Flop
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762626557: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:31:56 UTC [2026/02/17 9:31:56 ET]
+Table '3975960660 1' 9-max Seat #5 is the button
+Seat 1: avonni d3 (1657 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1455 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2253 in chips) 
+Seat 7: MCLMUSIC (1274 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (947 in chips) 
+Ray2627: posts small blind 15
+MCLMUSIC: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ac]
+AshAshBayBay: folds 
+julius70 has timed out
+julius70: folds 
+julius70 is sitting out
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: raises 30 to 60
+julius70 has returned
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: calls 30
+*** FLOP *** [2s 8d 5d]
+MCLMUSIC: checks 
+scorza23: checks 
+*** TURN *** [2s 8d 5d] [8h]
+MCLMUSIC: bets 68
+scorza23: calls 68
+*** RIVER *** [2s 8d 5d 8h] [2h]
+MCLMUSIC: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+MCLMUSIC: shows [4h 4s] (two pair, Eights and Fours)
+scorza23: mucks hand 
+MCLMUSIC collected 271 from pot
+*** SUMMARY ***
+Total pot 271 | Rake 0 
+Board [2s 8d 5d 8h 2h]
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 mucked [Qh Ac]
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla (button) folded before Flop (didn't bet)
+Seat 6: Ray2627 (small blind) folded before Flop
+Seat 7: MCLMUSIC (big blind) showed [4h 4s] and won (271) with two pair, Eights and Fours
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762637685: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:33:10 UTC [2026/02/17 9:33:10 ET]
+Table '3975960660 1' 9-max Seat #6 is the button
+Seat 1: avonni d3 (1657 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1327 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2238 in chips) 
+Seat 7: MCLMUSIC (1417 in chips) 
+Seat 8: AshAshBayBay (1500 in chips) 
+Seat 9: julius70 (947 in chips) 
+MCLMUSIC: posts small blind 25
+AshAshBayBay: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8h]
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: raises 1367 to 1417 and is all-in
+AshAshBayBay: folds 
+Uncalled bet (1367) returned to MCLMUSIC
+MCLMUSIC collected 100 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 (button) folded before Flop (didn't bet)
+Seat 7: MCLMUSIC (small blind) collected (100)
+Seat 8: AshAshBayBay (big blind) folded before Flop
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762642007: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:33:39 UTC [2026/02/17 9:33:39 ET]
+Table '3975960660 1' 9-max Seat #7 is the button
+Seat 1: avonni d3 (1657 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1327 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2238 in chips) 
+Seat 7: MCLMUSIC (1467 in chips) 
+Seat 8: AshAshBayBay (1450 in chips) 
+Seat 9: julius70 (947 in chips) 
+AshAshBayBay: posts small blind 25
+julius70: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 6d]
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+Uncalled bet (25) returned to julius70
+julius70 collected 50 from pot
+julius70: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 8: AshAshBayBay (small blind) folded before Flop
+Seat 9: julius70 (big blind) collected (50)
+
+
+
+PokerStars Hand #259762646286: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:34:07 UTC [2026/02/17 9:34:07 ET]
+Table '3975960660 1' 9-max Seat #8 is the button
+Seat 1: avonni d3 (1657 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1327 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2238 in chips) 
+Seat 7: MCLMUSIC (1467 in chips) 
+Seat 8: AshAshBayBay (1425 in chips) 
+Seat 9: julius70 (972 in chips) 
+julius70: posts small blind 25
+avonni d3: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Qc]
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: calls 50
+MCLMUSIC: calls 50
+AshAshBayBay: raises 200 to 250
+julius70: folds 
+avonni d3: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+Uncalled bet (200) returned to AshAshBayBay
+AshAshBayBay collected 225 from pot
+*** SUMMARY ***
+Total pot 225 | Rake 0 
+Seat 1: avonni d3 (big blind) folded before Flop
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop
+Seat 7: MCLMUSIC folded before Flop
+Seat 8: AshAshBayBay (button) collected (225)
+Seat 9: julius70 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762653616: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:34:56 UTC [2026/02/17 9:34:56 ET]
+Table '3975960660 1' 9-max Seat #9 is the button
+Seat 1: avonni d3 (1607 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1327 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2188 in chips) 
+Seat 7: MCLMUSIC (1417 in chips) 
+Seat 8: AshAshBayBay (1600 in chips) 
+Seat 9: julius70 (947 in chips) 
+avonni d3: posts small blind 25
+Dofeitosa: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Qd]
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: raises 60 to 110
+julius70 has timed out
+julius70: folds 
+julius70 is sitting out
+avonni d3: folds 
+julius70 has returned
+Dofeitosa: folds 
+Uncalled bet (60) returned to AshAshBayBay
+AshAshBayBay collected 125 from pot
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: avonni d3 (small blind) folded before Flop
+Seat 2: Dofeitosa (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay collected (125)
+Seat 9: julius70 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762660448: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:35:40 UTC [2026/02/17 9:35:40 ET]
+Table '3975960660 1' 9-max Seat #1 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1361 in chips) 
+Seat 3: scorza23 (1327 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2188 in chips) 
+Seat 7: MCLMUSIC (1417 in chips) 
+Seat 8: AshAshBayBay (1675 in chips) 
+Seat 9: julius70 (947 in chips) 
+Dofeitosa: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 4h]
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: raises 70 to 120
+scorza23: folds 
+Uncalled bet (70) returned to Dofeitosa
+Dofeitosa collected 100 from pot
+Dofeitosa: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: avonni d3 (button) folded before Flop (didn't bet)
+Seat 2: Dofeitosa (small blind) collected (100)
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762665407: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:36:14 UTC [2026/02/17 9:36:14 ET]
+Table '3975960660 1' 9-max Seat #2 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1277 in chips) 
+Seat 4: lsv78 (1505 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2188 in chips) 
+Seat 7: MCLMUSIC (1417 in chips) 
+Seat 8: AshAshBayBay (1675 in chips) 
+Seat 9: julius70 (947 in chips) 
+scorza23: posts small blind 25
+lsv78: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 2c]
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: raises 50 to 100
+AshAshBayBay: folds 
+julius70: raises 275 to 375
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+MCLMUSIC: folds 
+Uncalled bet (275) returned to julius70
+julius70 collected 275 from pot
+julius70: doesn't show hand 
+*** SUMMARY ***
+Total pot 275 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: lsv78 (big blind) folded before Flop
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 collected (275)
+
+
+
+PokerStars Hand #259762669979: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:36:45 UTC [2026/02/17 9:36:45 ET]
+Table '3975960660 1' 9-max Seat #3 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1252 in chips) 
+Seat 4: lsv78 (1455 in chips) 
+Seat 5: Ispalla (1498 in chips) 
+Seat 6: Ray2627 (2188 in chips) 
+Seat 7: MCLMUSIC (1317 in chips) 
+Seat 8: AshAshBayBay (1675 in chips) 
+Seat 9: julius70 (1122 in chips) 
+lsv78: posts small blind 25
+Ispalla: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 4h]
+Ray2627: calls 50
+MCLMUSIC: raises 200 to 250
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+Uncalled bet (200) returned to MCLMUSIC
+MCLMUSIC collected 175 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 175 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: lsv78 (small blind) folded before Flop
+Seat 5: Ispalla (big blind) folded before Flop
+Seat 6: Ray2627 folded before Flop
+Seat 7: MCLMUSIC collected (175)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762676200: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:37:26 UTC [2026/02/17 9:37:26 ET]
+Table '3975960660 1' 9-max Seat #4 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1252 in chips) 
+Seat 4: lsv78 (1430 in chips) 
+Seat 5: Ispalla (1448 in chips) 
+Seat 6: Ray2627 (2138 in chips) 
+Seat 7: MCLMUSIC (1442 in chips) 
+Seat 8: AshAshBayBay (1675 in chips) 
+Seat 9: julius70 (1122 in chips) 
+Ispalla: posts small blind 50
+Ray2627: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jc]
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: raises 1152 to 1252 and is all-in
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+Uncalled bet (1152) returned to scorza23
+scorza23 collected 250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 collected (250)
+Seat 4: lsv78 (button) folded before Flop (didn't bet)
+Seat 5: Ispalla (small blind) folded before Flop
+Seat 6: Ray2627 (big blind) folded before Flop
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762680916: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:37:57 UTC [2026/02/17 9:37:57 ET]
+Table '3975960660 1' 9-max Seat #5 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1402 in chips) 
+Seat 4: lsv78 (1430 in chips) 
+Seat 5: Ispalla (1398 in chips) 
+Seat 6: Ray2627 (2038 in chips) 
+Seat 7: MCLMUSIC (1442 in chips) 
+Seat 8: AshAshBayBay (1675 in chips) 
+Seat 9: julius70 (1122 in chips) 
+Ray2627: posts small blind 50
+MCLMUSIC: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2h]
+AshAshBayBay: folds 
+julius70: raises 200 to 300
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: calls 250
+MCLMUSIC: folds 
+*** FLOP *** [Ac 6c 5d]
+Ray2627: checks 
+julius70: checks 
+*** TURN *** [Ac 6c 5d] [7h]
+Ray2627: checks 
+julius70: checks 
+*** RIVER *** [Ac 6c 5d 7h] [2s]
+Ray2627: checks 
+julius70: bets 350
+Ray2627: calls 350
+*** SHOW DOWN ***
+julius70: shows [Kd Ad] (a pair of Aces)
+Ray2627: mucks hand 
+julius70 collected 1400 from pot
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Board [Ac 6c 5d 7h 2s]
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla (button) folded before Flop (didn't bet)
+Seat 6: Ray2627 (small blind) mucked [Kh Th]
+Seat 7: MCLMUSIC (big blind) folded before Flop
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 showed [Kd Ad] and won (1400) with a pair of Aces
+
+
+
+PokerStars Hand #259762687936: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:38:42 UTC [2026/02/17 9:38:42 ET]
+Table '3975960660 1' 9-max Seat #6 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1402 in chips) 
+Seat 4: lsv78 (1430 in chips) 
+Seat 5: Ispalla (1398 in chips) 
+Seat 6: Ray2627 (1388 in chips) 
+Seat 7: MCLMUSIC (1342 in chips) 
+Seat 8: AshAshBayBay (1675 in chips) 
+Seat 9: julius70 (1872 in chips) 
+MCLMUSIC: posts small blind 50
+AshAshBayBay: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 2h]
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: calls 100
+MCLMUSIC: raises 1242 to 1342 and is all-in
+AshAshBayBay: folds 
+Ray2627: folds 
+Uncalled bet (1242) returned to MCLMUSIC
+MCLMUSIC collected 300 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 (button) folded before Flop
+Seat 7: MCLMUSIC (small blind) collected (300)
+Seat 8: AshAshBayBay (big blind) folded before Flop
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762693149: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:39:17 UTC [2026/02/17 9:39:17 ET]
+Table '3975960660 1' 9-max Seat #7 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1402 in chips) 
+Seat 4: lsv78 (1430 in chips) 
+Seat 5: Ispalla (1398 in chips) 
+Seat 6: Ray2627 (1288 in chips) 
+Seat 7: MCLMUSIC (1542 in chips) 
+Seat 8: AshAshBayBay (1575 in chips) 
+Seat 9: julius70 (1872 in chips) 
+AshAshBayBay: posts small blind 50
+julius70: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 9d]
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+lsv78: raises 100 to 200
+Ispalla: folds 
+Ray2627: calls 200
+scorza23 has returned
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+*** FLOP *** [3h 7c 6s]
+lsv78: checks 
+Ray2627: checks 
+*** TURN *** [3h 7c 6s] [Qd]
+lsv78: checks 
+Ray2627: checks 
+*** RIVER *** [3h 7c 6s Qd] [6d]
+lsv78: checks 
+Ray2627: bets 100
+lsv78: folds 
+Uncalled bet (100) returned to Ray2627
+Ray2627 collected 550 from pot
+Ray2627: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Board [3h 7c 6s Qd 6d]
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded on the River
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 collected (550)
+Seat 7: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 8: AshAshBayBay (small blind) folded before Flop
+Seat 9: julius70 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762709926: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:41:07 UTC [2026/02/17 9:41:07 ET]
+Table '3975960660 1' 9-max Seat #8 is the button
+Seat 1: avonni d3 (1582 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1402 in chips) 
+Seat 4: lsv78 (1230 in chips) 
+Seat 5: Ispalla (1398 in chips) 
+Seat 6: Ray2627 (1638 in chips) 
+Seat 7: MCLMUSIC (1542 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (1772 in chips) 
+julius70: posts small blind 50
+avonni d3: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 7c]
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: raises 100 to 200
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Uncalled bet (100) returned to MCLMUSIC
+MCLMUSIC collected 250 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: avonni d3 (big blind) folded before Flop
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC collected (250)
+Seat 8: AshAshBayBay (button) folded before Flop (didn't bet)
+Seat 9: julius70 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762714508: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:41:37 UTC [2026/02/17 9:41:37 ET]
+Table '3975960660 1' 9-max Seat #9 is the button
+Seat 1: avonni d3 (1482 in chips) 
+Seat 2: Dofeitosa (1411 in chips) 
+Seat 3: scorza23 (1402 in chips) 
+Seat 4: lsv78 (1230 in chips) 
+Seat 5: Ispalla (1398 in chips) 
+Seat 6: Ray2627 (1638 in chips) 
+Seat 7: MCLMUSIC (1692 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (1722 in chips) 
+avonni d3: posts small blind 50
+Dofeitosa: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 3d]
+scorza23: folds 
+lsv78: folds 
+Ispalla: folds 
+Ray2627: folds 
+MCLMUSIC: raises 1592 to 1692 and is all-in
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+Uncalled bet (1592) returned to MCLMUSIC
+MCLMUSIC collected 250 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: avonni d3 (small blind) folded before Flop
+Seat 2: Dofeitosa (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC collected (250)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762723151: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:42:34 UTC [2026/02/17 9:42:34 ET]
+Table '3975960660 1' 9-max Seat #1 is the button
+Seat 1: avonni d3 (1432 in chips) 
+Seat 2: Dofeitosa (1311 in chips) 
+Seat 3: scorza23 (1402 in chips) 
+Seat 4: lsv78 (1230 in chips) 
+Seat 5: Ispalla (1398 in chips) 
+Seat 6: Ray2627 (1638 in chips) 
+Seat 7: MCLMUSIC (1842 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (1722 in chips) 
+Dofeitosa: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qs]
+lsv78: folds 
+Ispalla: raises 150 to 300
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: raises 150 to 450
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+Ispalla: raises 948 to 1398 and is all-in
+julius70: calls 948
+*** FLOP *** [7d 8h 9s]
+*** TURN *** [7d 8h 9s] [Qc]
+*** RIVER *** [7d 8h 9s Qc] [5c]
+*** SHOW DOWN ***
+Ispalla: shows [Ks Ad] (high card Ace)
+julius70: shows [Th Tc] (a pair of Tens)
+julius70 collected 3021 from pot
+Ispalla finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3021 | Rake 0 
+Board [7d 8h 9s Qc 5c]
+Seat 1: avonni d3 (button) folded before Flop (didn't bet)
+Seat 2: Dofeitosa (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 5: Ispalla showed [Ks Ad] and lost with high card Ace
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 showed [Th Tc] and won (3021) with a pair of Tens
+
+
+
+PokerStars Hand #259762729701: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:43:16 UTC [2026/02/17 9:43:16 ET]
+Table '3975960660 1' 9-max Seat #2 is the button
+Seat 1: avonni d3 (1432 in chips) 
+Seat 2: Dofeitosa (1236 in chips) 
+Seat 3: scorza23 (1252 in chips) 
+Seat 4: lsv78 (1230 in chips) 
+Seat 6: Ray2627 (1638 in chips) 
+Seat 7: MCLMUSIC (1842 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (3345 in chips) 
+scorza23: posts small blind 75
+lsv78: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 9h]
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: raises 1086 to 1236 and is all-in
+scorza23: folds 
+lsv78: folds 
+Uncalled bet (1086) returned to Dofeitosa
+Dofeitosa collected 375 from pot
+Dofeitosa: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa (button) collected (375)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: lsv78 (big blind) folded before Flop
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762733949: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:43:43 UTC [2026/02/17 9:43:43 ET]
+Table '3975960660 1' 9-max Seat #3 is the button
+Seat 1: avonni d3 (1432 in chips) 
+Seat 2: Dofeitosa (1461 in chips) 
+Seat 3: scorza23 (1177 in chips) 
+Seat 4: lsv78 (1080 in chips) 
+Seat 6: Ray2627 (1638 in chips) 
+Seat 7: MCLMUSIC (1842 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (3345 in chips) 
+lsv78: posts small blind 75
+Ray2627: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 6c]
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: raises 1027 to 1177 and is all-in
+lsv78: calls 1005 and is all-in
+Ray2627: folds 
+Uncalled bet (97) returned to scorza23
+*** FLOP *** [Jc Qs 3h]
+*** TURN *** [Jc Qs 3h] [Jd]
+*** RIVER *** [Jc Qs 3h Jd] [5c]
+*** SHOW DOWN ***
+lsv78: shows [Jh Kh] (three of a kind, Jacks)
+scorza23: shows [Ah 6c] (a pair of Jacks)
+lsv78 collected 2310 from pot
+*** SUMMARY ***
+Total pot 2310 | Rake 0 
+Board [Jc Qs 3h Jd 5c]
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 (button) showed [Ah 6c] and lost with a pair of Jacks
+Seat 4: lsv78 (small blind) showed [Jh Kh] and won (2310) with three of a kind, Jacks
+Seat 6: Ray2627 (big blind) folded before Flop
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762740042: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:44:23 UTC [2026/02/17 9:44:23 ET]
+Table '3975960660 1' 9-max Seat #4 is the button
+Seat 1: avonni d3 (1432 in chips) 
+Seat 2: Dofeitosa (1461 in chips) 
+Seat 3: scorza23 (97 in chips) 
+Seat 4: lsv78 (2310 in chips) 
+Seat 6: Ray2627 (1488 in chips) 
+Seat 7: MCLMUSIC (1842 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (3345 in chips) 
+Ray2627: posts small blind 75
+MCLMUSIC: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 7h]
+AshAshBayBay: folds 
+julius70: raises 375 to 525
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+Uncalled bet (375) returned to julius70
+julius70 collected 375 from pot
+julius70: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 (button) folded before Flop (didn't bet)
+Seat 6: Ray2627 (small blind) folded before Flop
+Seat 7: MCLMUSIC (big blind) folded before Flop
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 collected (375)
+
+
+
+PokerStars Hand #259762743944: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:44:47 UTC [2026/02/17 9:44:47 ET]
+Table '3975960660 1' 9-max Seat #6 is the button
+Seat 1: avonni d3 (1432 in chips) 
+Seat 2: Dofeitosa (1461 in chips) 
+Seat 3: scorza23 (97 in chips) 
+Seat 4: lsv78 (2310 in chips) 
+Seat 6: Ray2627 (1413 in chips) 
+Seat 7: MCLMUSIC (1692 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (3570 in chips) 
+MCLMUSIC: posts small blind 75
+AshAshBayBay: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 4s]
+julius70: raises 375 to 525
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+Uncalled bet (375) returned to julius70
+julius70 collected 375 from pot
+julius70: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 6: Ray2627 (button) folded before Flop (didn't bet)
+Seat 7: MCLMUSIC (small blind) folded before Flop
+Seat 8: AshAshBayBay (big blind) folded before Flop
+Seat 9: julius70 collected (375)
+
+
+
+PokerStars Hand #259762748538: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:45:16 UTC [2026/02/17 9:45:16 ET]
+Table '3975960660 1' 9-max Seat #7 is the button
+Seat 1: avonni d3 (1432 in chips) 
+Seat 2: Dofeitosa (1461 in chips) 
+Seat 3: scorza23 (97 in chips) 
+Seat 4: lsv78 (2310 in chips) 
+Seat 6: Ray2627 (1413 in chips) 
+Seat 7: MCLMUSIC (1617 in chips) 
+Seat 8: AshAshBayBay (1375 in chips) 
+Seat 9: julius70 (3795 in chips) 
+AshAshBayBay: posts small blind 75
+julius70: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 6c]
+avonni d3: folds 
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: raises 1225 to 1375 and is all-in
+julius70: folds 
+Uncalled bet (1225) returned to AshAshBayBay
+AshAshBayBay collected 300 from pot
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: avonni d3 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 8: AshAshBayBay (small blind) collected (300)
+Seat 9: julius70 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762753925: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:45:50 UTC [2026/02/17 9:45:50 ET]
+Table '3975960660 1' 9-max Seat #8 is the button
+Seat 1: avonni d3 (1432 in chips) 
+Seat 2: Dofeitosa (1461 in chips) 
+Seat 3: scorza23 (97 in chips) 
+Seat 4: lsv78 (2310 in chips) 
+Seat 6: Ray2627 (1413 in chips) 
+Seat 7: MCLMUSIC (1617 in chips) 
+Seat 8: AshAshBayBay (1525 in chips) 
+Seat 9: julius70 (3645 in chips) 
+julius70: posts small blind 75
+avonni d3: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 6d]
+Dofeitosa: folds 
+scorza23: folds 
+lsv78: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: raises 1375 to 1525 and is all-in
+julius70: folds 
+avonni d3: calls 1282 and is all-in
+Uncalled bet (93) returned to AshAshBayBay
+*** FLOP *** [7h 5h 7c]
+*** TURN *** [7h 5h 7c] [4d]
+*** RIVER *** [7h 5h 7c 4d] [Qd]
+*** SHOW DOWN ***
+avonni d3: shows [Td Ac] (a pair of Sevens)
+AshAshBayBay: shows [Ah 3c] (a pair of Sevens - lower kicker)
+avonni d3 collected 2939 from pot
+*** SUMMARY ***
+Total pot 2939 | Rake 0 
+Board [7h 5h 7c 4d Qd]
+Seat 1: avonni d3 (big blind) showed [Td Ac] and won (2939) with a pair of Sevens
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay (button) showed [Ah 3c] and lost with a pair of Sevens
+Seat 9: julius70 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762760563: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/17 14:46:33 UTC [2026/02/17 9:46:33 ET]
+Table '3975960660 1' 9-max Seat #9 is the button
+Seat 1: avonni d3 (2939 in chips) 
+Seat 2: Dofeitosa (1461 in chips) 
+Seat 3: scorza23 (97 in chips) 
+Seat 4: lsv78 (2310 in chips) 
+Seat 6: Ray2627 (1413 in chips) 
+Seat 7: MCLMUSIC (1617 in chips) 
+Seat 8: AshAshBayBay (93 in chips) 
+Seat 9: julius70 (3570 in chips) 
+avonni d3: posts small blind 75
+Dofeitosa: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 6s]
+scorza23: calls 97 and is all-in
+lsv78: folds 
+Ray2627: folds 
+MCLMUSIC: folds 
+AshAshBayBay: calls 93 and is all-in
+julius70: calls 150
+avonni d3: folds 
+Dofeitosa: checks 
+*** FLOP *** [4d 9s 5s]
+Dofeitosa: checks 
+julius70: checks 
+*** TURN *** [4d 9s 5s] [3s]
+Dofeitosa: checks 
+julius70: checks 
+*** RIVER *** [4d 9s 5s 3s] [Ac]
+Dofeitosa: checks 
+julius70: checks 
+*** SHOW DOWN ***
+Dofeitosa: shows [7h Qd] (high card Ace)
+julius70: shows [Kh 7d] (high card Ace - King kicker)
+julius70 collected 106 from side pot-2 
+scorza23: shows [Ah 6s] (a pair of Aces)
+scorza23 collected 12 from side pot-1 
+AshAshBayBay: shows [2s Kc] (a straight, Ace to Five)
+AshAshBayBay collected 447 from main pot
+*** SUMMARY ***
+Total pot 565 Main pot 447. Side pot-1 12. Side pot-2 106. | Rake 0 
+Board [4d 9s 5s 3s Ac]
+Seat 1: avonni d3 (small blind) folded before Flop
+Seat 2: Dofeitosa (big blind) showed [7h Qd] and lost with high card Ace
+Seat 3: scorza23 showed [Ah 6s] and won (12) with a pair of Aces
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 6: Ray2627 folded before Flop (didn't bet)
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay showed [2s Kc] and won (447) with a straight, Ace to Five
+Seat 9: julius70 (button) showed [Kh 7d] and won (106) with high card Ace
+
+
+
+PokerStars Hand #259762766981: Tournament #3975960660, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/17 14:47:14 UTC [2026/02/17 9:47:14 ET]
+Table '3975960660 1' 9-max Seat #1 is the button
+Seat 1: avonni d3 (2864 in chips) 
+Seat 2: Dofeitosa (1311 in chips) 
+Seat 3: scorza23 (12 in chips) 
+Seat 4: lsv78 (2310 in chips) 
+Seat 6: Ray2627 (1413 in chips) 
+Seat 7: MCLMUSIC (1617 in chips) 
+Seat 8: AshAshBayBay (447 in chips) 
+Seat 9: julius70 (3526 in chips) 
+Dofeitosa: posts small blind 100
+scorza23: posts big blind 12 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 3d]
+lsv78: folds 
+Ray2627: raises 300 to 400
+MCLMUSIC: folds 
+AshAshBayBay: folds 
+julius70: folds 
+avonni d3: folds 
+Dofeitosa: folds 
+Uncalled bet (300) returned to Ray2627
+*** FLOP *** [Ac 6d Qd]
+*** TURN *** [Ac 6d Qd] [Jc]
+*** RIVER *** [Ac 6d Qd Jc] [2h]
+*** SHOW DOWN ***
+Ray2627: shows [Ad Jh] (two pair, Aces and Jacks)
+Ray2627 collected 176 from side pot
+scorza23: shows [8d 3d] (high card Ace)
+Ray2627 collected 36 from main pot
+scorza23 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 212 Main pot 36. Side pot 176. | Rake 0 
+Board [Ac 6d Qd Jc 2h]
+Seat 1: avonni d3 (button) folded before Flop (didn't bet)
+Seat 2: Dofeitosa (small blind) folded before Flop
+Seat 3: scorza23 (big blind) showed [8d 3d] and lost with high card Ace
+Seat 4: lsv78 folded before Flop (didn't bet)
+Seat 6: Ray2627 showed [Ad Jh] and won (212) with two pair, Aces and Jacks
+Seat 7: MCLMUSIC folded before Flop (didn't bet)
+Seat 8: AshAshBayBay folded before Flop (didn't bet)
+Seat 9: julius70 folded before Flop (didn't bet)
+
+
+

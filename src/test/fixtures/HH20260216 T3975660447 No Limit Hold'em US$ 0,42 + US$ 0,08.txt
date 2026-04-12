@@ -1,0 +1,3202 @@
+﻿PokerStars Hand #259748898957: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:17:24 UTC [2026/02/16 9:17:24 ET]
+Table '3975660447 1' 9-max Seat #1 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1500 in chips) 
+Seat 3: rut13 (1500 in chips) 
+Seat 4: chrysz13 (1500 in chips) 
+Seat 5: RocketsA(2) (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: Papi_poker99 (1500 in chips) 
+Seat 8: avonni d3 (1500 in chips) 
+Seat 9: SRT8C (1500 in chips) 
+Frenhane82: posts small blind 10
+rut13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2h]
+chrysz13: raises 20 to 40
+RocketsA(2): calls 40
+scorza23: folds 
+Papi_poker99: calls 40
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 20
+*** FLOP *** [3c Qs 4d]
+rut13: checks 
+chrysz13: checks 
+RocketsA(2): checks 
+Papi_poker99: checks 
+*** TURN *** [3c Qs 4d] [4c]
+rut13: bets 40
+chrysz13: calls 40
+RocketsA(2): calls 40
+Papi_poker99: calls 40
+*** RIVER *** [3c Qs 4d 4c] [3h]
+rut13: checks 
+chrysz13: bets 160
+RocketsA(2): calls 160
+Papi_poker99: folds 
+rut13: folds 
+*** SHOW DOWN ***
+chrysz13: shows [Qh Qc] (a full house, Queens full of Fours)
+RocketsA(2): mucks hand 
+chrysz13 collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [3c Qs 4d 4c 3h]
+Seat 1: 5fingerjoe15 (button) folded before Flop (didn't bet)
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 3: rut13 (big blind) folded on the River
+Seat 4: chrysz13 showed [Qh Qc] and won (650) with a full house, Queens full of Fours
+Seat 5: RocketsA(2) mucked [3s 9s]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded on the River
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748907467: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:18:23 UTC [2026/02/16 9:18:23 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1420 in chips) 
+Seat 4: chrysz13 (1910 in chips) 
+Seat 5: RocketsA(2) (1260 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: Papi_poker99 (1420 in chips) 
+Seat 8: avonni d3 (1500 in chips) 
+Seat 9: SRT8C (1500 in chips) 
+rut13: posts small blind 10
+chrysz13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 6h]
+RocketsA(2): calls 20
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: raises 60 to 80
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 70
+chrysz13: folds 
+RocketsA(2): calls 60
+*** FLOP *** [5d 2c 4d]
+rut13: checks 
+RocketsA(2): checks 
+SRT8C: bets 260
+rut13: folds 
+RocketsA(2): folds 
+Uncalled bet (260) returned to SRT8C
+SRT8C collected 260 from pot
+SRT8C: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Board [5d 2c 4d]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 3: rut13 (small blind) folded on the Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 5: RocketsA(2) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C collected (260)
+
+
+
+PokerStars Hand #259748913377: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:19:04 UTC [2026/02/16 9:19:04 ET]
+Table '3975660447 1' 9-max Seat #3 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1340 in chips) 
+Seat 4: chrysz13 (1890 in chips) 
+Seat 5: RocketsA(2) (1180 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: Papi_poker99 (1420 in chips) 
+Seat 8: avonni d3 (1500 in chips) 
+Seat 9: SRT8C (1680 in chips) 
+chrysz13: posts small blind 10
+RocketsA(2): posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Tc]
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: calls 20
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 20
+chrysz13: calls 10
+RocketsA(2): checks 
+*** FLOP *** [Ac Js Qc]
+chrysz13: checks 
+RocketsA(2): checks 
+SRT8C: bets 40
+rut13: calls 40
+chrysz13: folds 
+RocketsA(2): calls 40
+*** TURN *** [Ac Js Qc] [Kc]
+RocketsA(2): checks 
+SRT8C: checks 
+rut13: checks 
+*** RIVER *** [Ac Js Qc Kc] [Kd]
+RocketsA(2): bets 80
+SRT8C: folds 
+rut13: raises 80 to 160
+RocketsA(2): calls 80
+*** SHOW DOWN ***
+rut13: shows [Th Ks] (a straight, Ten to Ace)
+RocketsA(2): mucks hand 
+rut13 collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Board [Ac Js Qc Kc Kd]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 (button) showed [Th Ks] and won (520) with a straight, Ten to Ace
+Seat 4: chrysz13 (small blind) folded on the Flop
+Seat 5: RocketsA(2) (big blind) mucked [4c Ah]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded on the River
+
+
+
+PokerStars Hand #259748924035: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:20:16 UTC [2026/02/16 9:20:16 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1640 in chips) 
+Seat 4: chrysz13 (1870 in chips) 
+Seat 5: RocketsA(2) (960 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: Papi_poker99 (1420 in chips) 
+Seat 8: avonni d3 (1500 in chips) 
+Seat 9: SRT8C (1620 in chips) 
+RocketsA(2): posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 9s]
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: folds 
+chrysz13: folds 
+RocketsA(2): calls 10
+scorza23: checks 
+*** FLOP *** [Ks 6d Qc]
+RocketsA(2): checks 
+scorza23: checks 
+*** TURN *** [Ks 6d Qc] [9c]
+RocketsA(2): bets 60
+scorza23: folds 
+Uncalled bet (60) returned to RocketsA(2)
+RocketsA(2) collected 40 from pot
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [Ks 6d Qc 9c]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 5: RocketsA(2) (small blind) collected (40)
+Seat 6: scorza23 (big blind) folded on the Turn
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748929024: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:20:50 UTC [2026/02/16 9:20:50 ET]
+Table '3975660447 1' 9-max Seat #5 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1640 in chips) 
+Seat 4: chrysz13 (1870 in chips) 
+Seat 5: RocketsA(2) (980 in chips) 
+Seat 6: scorza23 (1480 in chips) 
+Seat 7: Papi_poker99 (1420 in chips) 
+Seat 8: avonni d3 (1500 in chips) 
+Seat 9: SRT8C (1620 in chips) 
+scorza23: posts small blind 10
+Papi_poker99: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 3c]
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: folds 
+chrysz13: folds 
+RocketsA(2): calls 20
+scorza23: folds 
+Papi_poker99: checks 
+*** FLOP *** [4d 8s 6d]
+Papi_poker99: checks 
+RocketsA(2): checks 
+*** TURN *** [4d 8s 6d] [3d]
+Papi_poker99: bets 20
+RocketsA(2): calls 20
+*** RIVER *** [4d 8s 6d 3d] [2s]
+Papi_poker99: bets 20
+RocketsA(2): calls 20
+*** SHOW DOWN ***
+Papi_poker99: shows [Ac Tc] (high card Ace)
+RocketsA(2): mucks hand 
+Papi_poker99 collected 130 from pot
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Board [4d 8s 6d 3d 2s]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) (button) mucked [Qc Jd]
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: Papi_poker99 (big blind) showed [Ac Tc] and won (130) with high card Ace
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748935042: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 14:21:31 UTC [2026/02/16 9:21:31 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1640 in chips) 
+Seat 4: chrysz13 (1870 in chips) 
+Seat 5: RocketsA(2) (920 in chips) 
+Seat 6: scorza23 (1470 in chips) 
+Seat 7: Papi_poker99 (1490 in chips) 
+Seat 8: avonni d3 (1500 in chips) 
+Seat 9: SRT8C (1620 in chips) 
+Papi_poker99: posts small blind 10
+avonni d3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Ts]
+SRT8C has timed out
+SRT8C: folds 
+SRT8C is sitting out
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 20
+SRT8C has returned
+chrysz13: calls 20
+RocketsA(2): calls 20
+scorza23: folds 
+Papi_poker99: calls 10
+avonni d3: checks 
+*** FLOP *** [4h 2c 5h]
+Papi_poker99: checks 
+avonni d3: checks 
+rut13: checks 
+chrysz13: checks 
+RocketsA(2): checks 
+*** TURN *** [4h 2c 5h] [2h]
+Papi_poker99: bets 20
+avonni d3: calls 20
+rut13: calls 20
+chrysz13: raises 30 to 50
+RocketsA(2): raises 90 to 140
+Papi_poker99: folds 
+avonni d3: folds 
+rut13: folds 
+chrysz13: calls 90
+*** RIVER *** [4h 2c 5h 2h] [6s]
+chrysz13: bets 440
+RocketsA(2): calls 440
+*** SHOW DOWN ***
+chrysz13: shows [3h Ah] (a straight flush, Ace to Five)
+RocketsA(2): mucks hand 
+chrysz13 collected 1320 from pot
+*** SUMMARY ***
+Total pot 1320 | Rake 0 
+Board [4h 2c 5h 2h 6s]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 folded on the Turn
+Seat 4: chrysz13 showed [3h Ah] and won (1320) with a straight flush, Ace to Five
+Seat 5: RocketsA(2) mucked [Kc 2d]
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (small blind) folded on the Turn
+Seat 8: avonni d3 (big blind) folded on the Turn
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748949199: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:23:07 UTC [2026/02/16 9:23:07 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1600 in chips) 
+Seat 4: chrysz13 (2590 in chips) 
+Seat 5: RocketsA(2) (320 in chips) 
+Seat 6: scorza23 (1470 in chips) 
+Seat 7: Papi_poker99 (1450 in chips) 
+Seat 8: avonni d3 (1460 in chips) 
+Seat 9: SRT8C (1620 in chips) 
+avonni d3: posts small blind 15
+SRT8C: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jh]
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 30
+chrysz13: folds 
+RocketsA(2): raises 30 to 60
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: calls 30
+rut13: calls 30
+*** FLOP *** [Qs 6d 4h]
+SRT8C: checks 
+rut13: checks 
+RocketsA(2): checks 
+*** TURN *** [Qs 6d 4h] [Qh]
+SRT8C: checks 
+rut13: bets 60
+RocketsA(2): calls 60
+SRT8C: calls 60
+*** RIVER *** [Qs 6d 4h Qh] [Qc]
+SRT8C: bets 120
+rut13: calls 120
+RocketsA(2): folds 
+*** SHOW DOWN ***
+SRT8C: shows [Qd 4s] (four of a kind, Queens)
+rut13: mucks hand 
+SRT8C collected 615 from pot
+*** SUMMARY ***
+Total pot 615 | Rake 0 
+Board [Qs 6d 4h Qh Qc]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 mucked [2c 2d]
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded on the River
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+Seat 9: SRT8C (big blind) showed [Qd 4s] and won (615) with four of a kind, Queens
+
+
+
+PokerStars Hand #259748958531: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:24:11 UTC [2026/02/16 9:24:11 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 1: 5fingerjoe15 (1500 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1360 in chips) 
+Seat 4: chrysz13 (2590 in chips) 
+Seat 5: RocketsA(2) (200 in chips) 
+Seat 6: scorza23 (1470 in chips) 
+Seat 7: Papi_poker99 (1450 in chips) 
+Seat 8: avonni d3 (1445 in chips) 
+Seat 9: SRT8C (1995 in chips) 
+SRT8C: posts small blind 15
+5fingerjoe15: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s As]
+Frenhane82: folds 
+rut13: folds 
+chrysz13: raises 30 to 60
+RocketsA(2): folds 
+scorza23: raises 30 to 90
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+chrysz13: calls 30
+*** FLOP *** [6h Js Ad]
+chrysz13: checks 
+scorza23: bets 225
+chrysz13: folds 
+Uncalled bet (225) returned to scorza23
+scorza23 collected 225 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 225 | Rake 0 
+Board [6h Js Ad]
+Seat 1: 5fingerjoe15 (big blind) folded before Flop
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded on the Flop
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 collected (225)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+Seat 9: SRT8C (small blind) folded before Flop
+
+
+
+PokerStars Hand #259748966177: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:25:02 UTC [2026/02/16 9:25:02 ET]
+Table '3975660447 1' 9-max Seat #9 is the button
+Seat 1: 5fingerjoe15 (1470 in chips) 
+Seat 2: Frenhane82 (1490 in chips) 
+Seat 3: rut13 (1360 in chips) 
+Seat 4: chrysz13 (2500 in chips) 
+Seat 5: RocketsA(2) (200 in chips) 
+Seat 6: scorza23 (1605 in chips) 
+Seat 7: Papi_poker99 (1450 in chips) 
+Seat 8: avonni d3 (1445 in chips) 
+Seat 9: SRT8C (1980 in chips) 
+5fingerjoe15: posts small blind 15
+Frenhane82: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6d]
+rut13: calls 30
+chrysz13: folds 
+RocketsA(2): folds 
+scorza23: folds 
+Papi_poker99: calls 30
+avonni d3: folds 
+SRT8C: calls 30
+5fingerjoe15: folds 
+Frenhane82: checks 
+*** FLOP *** [Qd 8s Qh]
+Frenhane82: checks 
+rut13: checks 
+Papi_poker99: checks 
+SRT8C: checks 
+*** TURN *** [Qd 8s Qh] [9s]
+Frenhane82: checks 
+rut13: checks 
+Papi_poker99: checks 
+SRT8C: checks 
+*** RIVER *** [Qd 8s Qh 9s] [Qc]
+Frenhane82: checks 
+rut13: checks 
+Papi_poker99: checks 
+SRT8C: checks 
+*** SHOW DOWN ***
+Frenhane82: shows [5c As] (three of a kind, Queens)
+rut13: mucks hand 
+Papi_poker99: shows [Ac Js] (three of a kind, Queens - Ace+Jack kicker)
+SRT8C: mucks hand 
+Papi_poker99 collected 135 from pot
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Board [Qd 8s Qh 9s Qc]
+Seat 1: 5fingerjoe15 (small blind) folded before Flop
+Seat 2: Frenhane82 (big blind) showed [5c As] and lost with three of a kind, Queens
+Seat 3: rut13 mucked [6c Kc]
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 showed [Ac Js] and won (135) with three of a kind, Queens
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C (button) mucked [4s 3s]
+
+
+
+PokerStars Hand #259748979457: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 14:26:32 UTC [2026/02/16 9:26:32 ET]
+Table '3975660447 1' 9-max Seat #1 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1460 in chips) 
+Seat 3: rut13 (1330 in chips) 
+Seat 4: chrysz13 (2500 in chips) 
+Seat 5: RocketsA(2) (200 in chips) 
+Seat 6: scorza23 (1605 in chips) 
+Seat 7: Papi_poker99 (1555 in chips) 
+Seat 8: avonni d3 (1445 in chips) 
+Seat 9: SRT8C (1950 in chips) 
+Frenhane82: posts small blind 15
+rut13: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 2h]
+chrysz13: raises 30 to 60
+RocketsA(2): calls 60
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C has timed out
+SRT8C: folds 
+SRT8C is sitting out
+5fingerjoe15: folds 
+Frenhane82: folds 
+SRT8C has returned
+rut13: calls 30
+*** FLOP *** [3s Td Ts]
+rut13: checks 
+chrysz13: checks 
+RocketsA(2): checks 
+*** TURN *** [3s Td Ts] [6h]
+rut13: checks 
+chrysz13: checks 
+RocketsA(2): bets 140 and is all-in
+rut13: calls 140
+chrysz13: folds 
+*** RIVER *** [3s Td Ts 6h] [7c]
+*** SHOW DOWN ***
+rut13: shows [4d 6d] (two pair, Tens and Sixes)
+RocketsA(2): shows [7d Qs] (two pair, Tens and Sevens)
+RocketsA(2) collected 475 from pot
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Board [3s Td Ts 6h 7c]
+Seat 1: 5fingerjoe15 (button) folded before Flop (didn't bet)
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 3: rut13 (big blind) showed [4d 6d] and lost with two pair, Tens and Sixes
+Seat 4: chrysz13 folded on the Turn
+Seat 5: RocketsA(2) showed [7d Qs] and won (475) with two pair, Tens and Sevens
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748991854: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:27:55 UTC [2026/02/16 9:27:55 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1445 in chips) 
+Seat 3: rut13 (1130 in chips) 
+Seat 4: chrysz13 (2440 in chips) 
+Seat 5: RocketsA(2) (475 in chips) 
+Seat 6: scorza23 (1605 in chips) 
+Seat 7: Papi_poker99 (1555 in chips) 
+Seat 8: avonni d3 (1445 in chips) 
+Seat 9: SRT8C (1950 in chips) 
+rut13: posts small blind 25
+chrysz13: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qs]
+RocketsA(2): folds 
+scorza23: raises 100 to 150
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: folds 
+chrysz13: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 3: rut13 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 collected (125)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259748993984: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:28:09 UTC [2026/02/16 9:28:09 ET]
+Table '3975660447 1' 9-max Seat #3 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1445 in chips) 
+Seat 3: rut13 (1105 in chips) 
+Seat 4: chrysz13 (2390 in chips) 
+Seat 5: RocketsA(2) (475 in chips) 
+Seat 6: scorza23 (1680 in chips) 
+Seat 7: Papi_poker99 (1555 in chips) 
+Seat 8: avonni d3 (1445 in chips) 
+Seat 9: SRT8C (1950 in chips) 
+chrysz13: posts small blind 25
+RocketsA(2): posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 5s]
+scorza23: folds 
+Papi_poker99: calls 50
+avonni d3: calls 50
+SRT8C: calls 50
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: folds 
+chrysz13: folds 
+RocketsA(2): checks 
+*** FLOP *** [Ks 8s 2h]
+RocketsA(2): checks 
+Papi_poker99: checks 
+avonni d3: bets 113
+SRT8C: folds 
+RocketsA(2): folds 
+Papi_poker99: folds 
+Uncalled bet (113) returned to avonni d3
+avonni d3 collected 225 from pot
+avonni d3: doesn't show hand 
+*** SUMMARY ***
+Total pot 225 | Rake 0 
+Board [Ks 8s 2h]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 5: RocketsA(2) (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded on the Flop
+Seat 8: avonni d3 collected (225)
+Seat 9: SRT8C folded on the Flop
+
+
+
+PokerStars Hand #259748999870: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:28:49 UTC [2026/02/16 9:28:49 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1445 in chips) 
+Seat 3: rut13 (1105 in chips) 
+Seat 4: chrysz13 (2365 in chips) 
+Seat 5: RocketsA(2) (425 in chips) 
+Seat 6: scorza23 (1680 in chips) 
+Seat 7: Papi_poker99 (1505 in chips) 
+Seat 8: avonni d3 (1620 in chips) 
+Seat 9: SRT8C (1900 in chips) 
+RocketsA(2): posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5s]
+Papi_poker99 has timed out
+Papi_poker99: folds 
+Papi_poker99 is sitting out
+avonni d3: folds 
+SRT8C: calls 50
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 50
+Papi_poker99 has returned
+chrysz13: calls 50
+RocketsA(2): calls 25
+scorza23: checks 
+*** FLOP *** [Kh 9c 4h]
+RocketsA(2): checks 
+scorza23: checks 
+SRT8C: checks 
+rut13: checks 
+chrysz13: checks 
+*** TURN *** [Kh 9c 4h] [5c]
+RocketsA(2): checks 
+scorza23: checks 
+SRT8C: checks 
+rut13: checks 
+chrysz13: checks 
+*** RIVER *** [Kh 9c 4h 5c] [4s]
+RocketsA(2): bets 375 and is all-in
+scorza23: folds 
+SRT8C: folds 
+rut13: folds 
+chrysz13: folds 
+Uncalled bet (375) returned to RocketsA(2)
+RocketsA(2) collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [Kh 9c 4h 5c 4s]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 folded on the River
+Seat 4: chrysz13 (button) folded on the River
+Seat 5: RocketsA(2) (small blind) collected (250)
+Seat 6: scorza23 (big blind) folded on the River
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded on the River
+
+
+
+PokerStars Hand #259749011652: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:30:09 UTC [2026/02/16 9:30:09 ET]
+Table '3975660447 1' 9-max Seat #5 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1445 in chips) 
+Seat 3: rut13 (1055 in chips) 
+Seat 4: chrysz13 (2315 in chips) 
+Seat 5: RocketsA(2) (625 in chips) 
+Seat 6: scorza23 (1630 in chips) 
+Seat 7: Papi_poker99 (1505 in chips) 
+Seat 8: avonni d3 (1620 in chips) 
+Seat 9: SRT8C (1850 in chips) 
+scorza23: posts small blind 25
+Papi_poker99: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Tc]
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 50
+chrysz13: folds 
+RocketsA(2): folds 
+scorza23: raises 100 to 150
+Papi_poker99: folds 
+rut13: calls 100
+*** FLOP *** [Ts 3h 3c]
+scorza23: bets 175
+rut13: calls 175
+*** TURN *** [Ts 3h 3c] [2s]
+scorza23: bets 350
+rut13: calls 350
+*** RIVER *** [Ts 3h 3c 2s] [Ac]
+scorza23: bets 955 and is all-in
+rut13: folds 
+Uncalled bet (955) returned to scorza23
+scorza23 collected 1400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Board [Ts 3h 3c 2s Ac]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 folded on the River
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (1400)
+Seat 7: Papi_poker99 (big blind) folded before Flop
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749019707: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:31:01 UTC [2026/02/16 9:31:01 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1445 in chips) 
+Seat 3: rut13 (380 in chips) 
+Seat 4: chrysz13 (2315 in chips) 
+Seat 5: RocketsA(2) (625 in chips) 
+Seat 6: scorza23 (2355 in chips) 
+Seat 7: Papi_poker99 (1455 in chips) 
+Seat 8: avonni d3 (1620 in chips) 
+Seat 9: SRT8C (1850 in chips) 
+Papi_poker99: posts small blind 25
+avonni d3: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 7d]
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: calls 50
+chrysz13: folds 
+RocketsA(2): folds 
+scorza23: folds 
+Papi_poker99: calls 25
+avonni d3: checks 
+*** FLOP *** [Td 5d Tc]
+Papi_poker99: checks 
+avonni d3: checks 
+rut13: checks 
+*** TURN *** [Td 5d Tc] [As]
+Papi_poker99: bets 50
+avonni d3: folds 
+rut13: calls 50
+*** RIVER *** [Td 5d Tc As] [2c]
+Papi_poker99: bets 150
+rut13: folds 
+Uncalled bet (150) returned to Papi_poker99
+Papi_poker99 collected 250 from pot
+Papi_poker99: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [Td 5d Tc As 2c]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 folded on the River
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (small blind) collected (250)
+Seat 8: avonni d3 (big blind) folded on the Turn
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749027425: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 14:31:52 UTC [2026/02/16 9:31:52 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1445 in chips) 
+Seat 3: rut13 (280 in chips) 
+Seat 4: chrysz13 (2315 in chips) 
+Seat 5: RocketsA(2) (625 in chips) 
+Seat 6: scorza23 (2355 in chips) 
+Seat 7: Papi_poker99 (1605 in chips) 
+Seat 8: avonni d3 (1570 in chips) 
+Seat 9: SRT8C (1850 in chips) 
+avonni d3: posts small blind 25
+SRT8C: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2d]
+5fingerjoe15: folds 
+Frenhane82: folds 
+rut13: raises 50 to 100
+chrysz13: folds 
+RocketsA(2): folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: calls 50
+*** FLOP *** [7d 3c 7c]
+SRT8C: checks 
+rut13: checks 
+*** TURN *** [7d 3c 7c] [Td]
+SRT8C: checks 
+rut13: bets 180 and is all-in
+SRT8C: calls 180
+*** RIVER *** [7d 3c 7c Td] [6c]
+*** SHOW DOWN ***
+SRT8C: shows [Ad 9s] (a pair of Sevens)
+rut13: shows [Jc Kd] (a pair of Sevens - lower kicker)
+SRT8C collected 585 from pot
+rut13 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 585 | Rake 0 
+Board [7d 3c 7c Td 6c]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 3: rut13 showed [Jc Kd] and lost with a pair of Sevens
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+Seat 9: SRT8C (big blind) showed [Ad 9s] and won (585) with a pair of Sevens
+
+
+
+PokerStars Hand #259749034138: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:32:36 UTC [2026/02/16 9:32:36 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 1: 5fingerjoe15 (1455 in chips) 
+Seat 2: Frenhane82 (1445 in chips) 
+Seat 4: chrysz13 (2315 in chips) 
+Seat 5: RocketsA(2) (625 in chips) 
+Seat 6: scorza23 (2355 in chips) 
+Seat 7: Papi_poker99 (1605 in chips) 
+Seat 8: avonni d3 (1545 in chips) 
+Seat 9: SRT8C (2155 in chips) 
+SRT8C: posts small blind 50
+5fingerjoe15: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 9c]
+Frenhane82: raises 100 to 200
+chrysz13: raises 300 to 500
+RocketsA(2): folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+Uncalled bet (300) returned to chrysz13
+chrysz13 collected 550 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: 5fingerjoe15 (big blind) folded before Flop
+Seat 2: Frenhane82 folded before Flop
+Seat 4: chrysz13 collected (550)
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+Seat 9: SRT8C (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749038877: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:33:08 UTC [2026/02/16 9:33:08 ET]
+Table '3975660447 1' 9-max Seat #9 is the button
+Seat 1: 5fingerjoe15 (1355 in chips) 
+Seat 2: Frenhane82 (1245 in chips) 
+Seat 4: chrysz13 (2665 in chips) 
+Seat 5: RocketsA(2) (625 in chips) 
+Seat 6: scorza23 (2355 in chips) 
+Seat 7: Papi_poker99 (1605 in chips) 
+Seat 8: avonni d3 (1545 in chips) 
+Seat 9: SRT8C (2105 in chips) 
+5fingerjoe15: posts small blind 50
+Frenhane82: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Qs]
+chrysz13: folds 
+RocketsA(2): folds 
+scorza23: folds 
+Papi_poker99: calls 100
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: checks 
+*** FLOP *** [2s As 7c]
+Frenhane82: checks 
+Papi_poker99: bets 100
+Frenhane82: folds 
+Uncalled bet (100) returned to Papi_poker99
+Papi_poker99 collected 250 from pot
+Papi_poker99: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [2s As 7c]
+Seat 1: 5fingerjoe15 (small blind) folded before Flop
+Seat 2: Frenhane82 (big blind) folded on the Flop
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 collected (250)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749046355: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:33:57 UTC [2026/02/16 9:33:57 ET]
+Table '3975660447 1' 9-max Seat #1 is the button
+Seat 1: 5fingerjoe15 (1305 in chips) 
+Seat 2: Frenhane82 (1145 in chips) 
+Seat 4: chrysz13 (2665 in chips) 
+Seat 5: RocketsA(2) (625 in chips) 
+Seat 6: scorza23 (2355 in chips) 
+Seat 7: Papi_poker99 (1755 in chips) 
+Seat 8: avonni d3 (1545 in chips) 
+Seat 9: SRT8C (2105 in chips) 
+Frenhane82: posts small blind 50
+chrysz13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qs]
+RocketsA(2): folds 
+scorza23: raises 200 to 300
+Papi_poker99: folds 
+avonni d3: raises 1245 to 1545 and is all-in
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: calls 1245
+*** FLOP *** [Td 9d 6c]
+*** TURN *** [Td 9d 6c] [3c]
+*** RIVER *** [Td 9d 6c 3c] [6s]
+*** SHOW DOWN ***
+scorza23: shows [As Qs] (a pair of Sixes)
+avonni d3: shows [Ah Kc] (a pair of Sixes - Ace+King kicker)
+avonni d3 collected 3240 from pot
+*** SUMMARY ***
+Total pot 3240 | Rake 0 
+Board [Td 9d 6c 3c 6s]
+Seat 1: 5fingerjoe15 (button) folded before Flop (didn't bet)
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 showed [As Qs] and lost with a pair of Sixes
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 showed [Ah Kc] and won (3240) with a pair of Sixes
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749050165: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:34:22 UTC [2026/02/16 9:34:22 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 1: 5fingerjoe15 (1305 in chips) 
+Seat 2: Frenhane82 (1095 in chips) 
+Seat 4: chrysz13 (2565 in chips) 
+Seat 5: RocketsA(2) (625 in chips) 
+Seat 6: scorza23 (810 in chips) 
+Seat 7: Papi_poker99 (1755 in chips) 
+Seat 8: avonni d3 (3240 in chips) 
+Seat 9: SRT8C (2105 in chips) 
+chrysz13: posts small blind 50
+RocketsA(2): posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 4h]
+scorza23: raises 710 to 810 and is all-in
+Papi_poker99 has timed out
+Papi_poker99: folds 
+Papi_poker99 is sitting out
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+RocketsA(2): calls 525 and is all-in
+Uncalled bet (185) returned to scorza23
+*** FLOP *** [3c 3d 5d]
+*** TURN *** [3c 3d 5d] [3s]
+*** RIVER *** [3c 3d 5d 3s] [Qs]
+*** SHOW DOWN ***
+RocketsA(2): shows [Jh 5h] (a full house, Threes full of Fives)
+scorza23: shows [Kh 4h] (three of a kind, Threes)
+RocketsA(2) collected 1300 from pot
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [3c 3d 5d 3s Qs]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 5: RocketsA(2) (big blind) showed [Jh 5h] and won (1300) with a full house, Threes full of Fives
+Seat 6: scorza23 showed [Kh 4h] and lost with three of a kind, Threes
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749055755: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:34:59 UTC [2026/02/16 9:34:59 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 1: 5fingerjoe15 (1305 in chips) 
+Seat 2: Frenhane82 (1095 in chips) 
+Seat 4: chrysz13 (2515 in chips) 
+Seat 5: RocketsA(2) (1300 in chips) 
+Seat 6: scorza23 (185 in chips) 
+Seat 7: Papi_poker99 (1755 in chips) is sitting out
+Seat 8: avonni d3 (3240 in chips) 
+Seat 9: SRT8C (2105 in chips) 
+RocketsA(2): posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Qc]
+Papi_poker99: folds 
+avonni d3: folds 
+Papi_poker99 has returned
+SRT8C has timed out
+SRT8C: folds 
+SRT8C is sitting out
+5fingerjoe15: folds 
+Frenhane82: folds 
+SRT8C has returned
+chrysz13: folds 
+RocketsA(2): calls 50
+scorza23: raises 85 to 185 and is all-in
+RocketsA(2): calls 85
+*** FLOP *** [3s Jc 2h]
+*** TURN *** [3s Jc 2h] [Qs]
+*** RIVER *** [3s Jc 2h Qs] [4c]
+*** SHOW DOWN ***
+RocketsA(2): shows [Ts 7d] (high card Queen)
+scorza23: shows [Ks Qc] (a pair of Queens)
+scorza23 collected 370 from pot
+*** SUMMARY ***
+Total pot 370 | Rake 0 
+Board [3s Jc 2h Qs 4c]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 5: RocketsA(2) (small blind) showed [Ts 7d] and lost with high card Queen
+Seat 6: scorza23 (big blind) showed [Ks Qc] and won (370) with a pair of Queens
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749061930: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:35:39 UTC [2026/02/16 9:35:39 ET]
+Table '3975660447 1' 9-max Seat #5 is the button
+Seat 1: 5fingerjoe15 (1305 in chips) 
+Seat 2: Frenhane82 (1095 in chips) 
+Seat 4: chrysz13 (2515 in chips) 
+Seat 5: RocketsA(2) (1115 in chips) 
+Seat 6: scorza23 (370 in chips) 
+Seat 7: Papi_poker99 (1755 in chips) 
+Seat 8: avonni d3 (3240 in chips) 
+Seat 9: SRT8C (2105 in chips) 
+scorza23: posts small blind 50
+Papi_poker99: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3c]
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+RocketsA(2): calls 100
+scorza23: folds 
+Papi_poker99: checks 
+*** FLOP *** [9d 2d 9c]
+Papi_poker99: checks 
+RocketsA(2): bets 100
+Papi_poker99: folds 
+Uncalled bet (100) returned to RocketsA(2)
+RocketsA(2) collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [9d 2d 9c]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) (button) collected (250)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: Papi_poker99 (big blind) folded on the Flop
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749069230: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:36:26 UTC [2026/02/16 9:36:26 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 1: 5fingerjoe15 (1305 in chips) 
+Seat 2: Frenhane82 (1095 in chips) 
+Seat 4: chrysz13 (2515 in chips) 
+Seat 5: RocketsA(2) (1265 in chips) 
+Seat 6: scorza23 (320 in chips) 
+Seat 7: Papi_poker99 (1655 in chips) 
+Seat 8: avonni d3 (3240 in chips) 
+Seat 9: SRT8C (2105 in chips) 
+Papi_poker99: posts small blind 50
+avonni d3: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 2s]
+SRT8C: calls 100
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+RocketsA(2): folds 
+scorza23: raises 220 to 320 and is all-in
+Papi_poker99: folds 
+avonni d3: calls 220
+SRT8C: calls 220
+*** FLOP *** [4s 4h Js]
+avonni d3: checks 
+SRT8C: checks 
+*** TURN *** [4s 4h Js] [Ac]
+avonni d3: checks 
+SRT8C: checks 
+*** RIVER *** [4s 4h Js Ac] [Kc]
+avonni d3: checks 
+SRT8C: checks 
+*** SHOW DOWN ***
+avonni d3: shows [3h Ad] (two pair, Aces and Fours)
+SRT8C: mucks hand 
+scorza23: shows [Ah 2s] (two pair, Aces and Fours)
+avonni d3 collected 505 from pot
+scorza23 collected 505 from pot
+*** SUMMARY ***
+Total pot 1010 | Rake 0 
+Board [4s 4h Js Ac Kc]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 (button) showed [Ah 2s] and won (505) with two pair, Aces and Fours
+Seat 7: Papi_poker99 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) showed [3h Ad] and won (505) with two pair, Aces and Fours
+Seat 9: SRT8C mucked [9h 8h]
+
+
+
+PokerStars Hand #259749075732: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 14:37:08 UTC [2026/02/16 9:37:08 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 1: 5fingerjoe15 (1305 in chips) 
+Seat 2: Frenhane82 (1095 in chips) 
+Seat 4: chrysz13 (2515 in chips) 
+Seat 5: RocketsA(2) (1265 in chips) 
+Seat 6: scorza23 (505 in chips) 
+Seat 7: Papi_poker99 (1605 in chips) 
+Seat 8: avonni d3 (3425 in chips) 
+Seat 9: SRT8C (1785 in chips) 
+avonni d3: posts small blind 50
+SRT8C: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Ks]
+5fingerjoe15: raises 100 to 200
+Frenhane82: folds 
+chrysz13: folds 
+RocketsA(2): calls 200
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+*** FLOP *** [Kh Jd 2c]
+5fingerjoe15: checks 
+RocketsA(2): checks 
+*** TURN *** [Kh Jd 2c] [3s]
+5fingerjoe15: bets 350
+RocketsA(2): calls 350
+*** RIVER *** [Kh Jd 2c 3s] [7d]
+5fingerjoe15: bets 755 and is all-in
+RocketsA(2): folds 
+Uncalled bet (755) returned to 5fingerjoe15
+5fingerjoe15 collected 1250 from pot
+5fingerjoe15: doesn't show hand 
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Board [Kh Jd 2c 3s 7d]
+Seat 1: 5fingerjoe15 collected (1250)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded on the River
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+Seat 9: SRT8C (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749083433: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:37:58 UTC [2026/02/16 9:37:58 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 1: 5fingerjoe15 (2005 in chips) 
+Seat 2: Frenhane82 (1095 in chips) 
+Seat 4: chrysz13 (2515 in chips) 
+Seat 5: RocketsA(2) (715 in chips) 
+Seat 6: scorza23 (505 in chips) 
+Seat 7: Papi_poker99 (1605 in chips) 
+Seat 8: avonni d3 (3375 in chips) 
+Seat 9: SRT8C (1685 in chips) 
+SRT8C: posts small blind 75
+5fingerjoe15: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ad]
+Frenhane82: folds 
+chrysz13: raises 150 to 300
+RocketsA(2): folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: calls 225
+5fingerjoe15: folds 
+*** FLOP *** [3d 4c 4d]
+SRT8C: checks 
+chrysz13: bets 188
+SRT8C: raises 563 to 751
+chrysz13: folds 
+Uncalled bet (563) returned to SRT8C
+SRT8C collected 1126 from pot
+SRT8C: doesn't show hand 
+*** SUMMARY ***
+Total pot 1126 | Rake 0 
+Board [3d 4c 4d]
+Seat 1: 5fingerjoe15 (big blind) folded before Flop
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded on the Flop
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+Seat 9: SRT8C (small blind) collected (1126)
+
+
+
+PokerStars Hand #259749089003: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:38:35 UTC [2026/02/16 9:38:35 ET]
+Table '3975660447 1' 9-max Seat #9 is the button
+Seat 1: 5fingerjoe15 (1855 in chips) 
+Seat 2: Frenhane82 (1095 in chips) 
+Seat 4: chrysz13 (2027 in chips) 
+Seat 5: RocketsA(2) (715 in chips) 
+Seat 6: scorza23 (505 in chips) 
+Seat 7: Papi_poker99 (1605 in chips) 
+Seat 8: avonni d3 (3375 in chips) 
+Seat 9: SRT8C (2323 in chips) 
+5fingerjoe15: posts small blind 75
+Frenhane82: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6d]
+chrysz13: folds 
+RocketsA(2): folds 
+scorza23: folds 
+Papi_poker99: calls 150
+avonni d3: raises 525 to 675
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+Papi_poker99: folds 
+Uncalled bet (525) returned to avonni d3
+avonni d3 collected 525 from pot
+avonni d3: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 1: 5fingerjoe15 (small blind) folded before Flop
+Seat 2: Frenhane82 (big blind) folded before Flop
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: RocketsA(2) folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop
+Seat 8: avonni d3 collected (525)
+Seat 9: SRT8C (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749093510: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:39:04 UTC [2026/02/16 9:39:04 ET]
+Table '3975660447 1' 9-max Seat #1 is the button
+Seat 1: 5fingerjoe15 (1780 in chips) 
+Seat 2: Frenhane82 (945 in chips) 
+Seat 4: chrysz13 (2027 in chips) 
+Seat 5: RocketsA(2) (715 in chips) 
+Seat 6: scorza23 (505 in chips) 
+Seat 7: Papi_poker99 (1455 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2323 in chips) 
+Frenhane82: posts small blind 75
+chrysz13: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 9h]
+RocketsA(2): calls 150
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: raises 1630 to 1780 and is all-in
+Frenhane82: calls 870 and is all-in
+chrysz13: folds 
+RocketsA(2): calls 565 and is all-in
+Uncalled bet (835) returned to 5fingerjoe15
+*** FLOP *** [2d 9d 5h]
+*** TURN *** [2d 9d 5h] [3d]
+*** RIVER *** [2d 9d 5h 3d] [8s]
+*** SHOW DOWN ***
+Frenhane82: shows [Ad Ac] (a pair of Aces)
+5fingerjoe15: shows [Tc Td] (a pair of Tens)
+Frenhane82 collected 460 from side pot
+RocketsA(2): shows [Jh 3h] (a pair of Threes)
+Frenhane82 collected 2295 from main pot
+RocketsA(2) finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 2755 Main pot 2295. Side pot 460. | Rake 0 
+Board [2d 9d 5h 3d 8s]
+Seat 1: 5fingerjoe15 (button) showed [Tc Td] and lost with a pair of Tens
+Seat 2: Frenhane82 (small blind) showed [Ad Ac] and won (2755) with a pair of Aces
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 5: RocketsA(2) showed [Jh 3h] and lost with a pair of Threes
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749099401: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:39:42 UTC [2026/02/16 9:39:42 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 1: 5fingerjoe15 (835 in chips) 
+Seat 2: Frenhane82 (2755 in chips) 
+Seat 4: chrysz13 (1877 in chips) 
+Seat 6: scorza23 (505 in chips) 
+Seat 7: Papi_poker99 (1455 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2323 in chips) 
+chrysz13: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 4h]
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: raises 150 to 300
+chrysz13: folds 
+scorza23: raises 205 to 505 and is all-in
+Frenhane82: calls 205
+*** FLOP *** [Qs 5s 5h]
+*** TURN *** [Qs 5s 5h] [9c]
+*** RIVER *** [Qs 5s 5h 9c] [Ad]
+*** SHOW DOWN ***
+scorza23: shows [4d 4h] (two pair, Fives and Fours)
+Frenhane82: shows [Ts Js] (a pair of Fives)
+scorza23 collected 1085 from pot
+*** SUMMARY ***
+Total pot 1085 | Rake 0 
+Board [Qs 5s 5h 9c Ad]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 (button) showed [Ts Js] and lost with a pair of Fives
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) showed [4d 4h] and won (1085) with two pair, Fives and Fours
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749105444: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:40:21 UTC [2026/02/16 9:40:21 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 1: 5fingerjoe15 (835 in chips) 
+Seat 2: Frenhane82 (2250 in chips) 
+Seat 4: chrysz13 (1802 in chips) 
+Seat 6: scorza23 (1085 in chips) 
+Seat 7: Papi_poker99 (1455 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2323 in chips) 
+scorza23: posts small blind 75
+Papi_poker99: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6c]
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: folds 
+Uncalled bet (75) returned to Papi_poker99
+Papi_poker99 collected 150 from pot
+Papi_poker99: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: Papi_poker99 (big blind) collected (150)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749108032: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:40:39 UTC [2026/02/16 9:40:39 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 1: 5fingerjoe15 (835 in chips) 
+Seat 2: Frenhane82 (2250 in chips) 
+Seat 4: chrysz13 (1802 in chips) 
+Seat 6: scorza23 (1010 in chips) 
+Seat 7: Papi_poker99 (1530 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2323 in chips) 
+Papi_poker99: posts small blind 75
+avonni d3: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Td]
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+Uncalled bet (75) returned to avonni d3
+avonni d3 collected 150 from pot
+avonni d3: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) collected (150)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749110889: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:40:57 UTC [2026/02/16 9:40:57 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 1: 5fingerjoe15 (835 in chips) 
+Seat 2: Frenhane82 (2250 in chips) 
+Seat 4: chrysz13 (1802 in chips) 
+Seat 6: scorza23 (1010 in chips) 
+Seat 7: Papi_poker99 (1455 in chips) 
+Seat 8: avonni d3 (3825 in chips) 
+Seat 9: SRT8C (2323 in chips) 
+avonni d3: posts small blind 75
+SRT8C: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 6d]
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: calls 150
+avonni d3: folds 
+SRT8C: checks 
+*** FLOP *** [7d 8d 5h]
+SRT8C: checks 
+Papi_poker99: bets 1305 and is all-in
+SRT8C: folds 
+Uncalled bet (1305) returned to Papi_poker99
+Papi_poker99 collected 375 from pot
+Papi_poker99: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [7d 8d 5h]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (button) collected (375)
+Seat 8: avonni d3 (small blind) folded before Flop
+Seat 9: SRT8C (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749118176: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:41:44 UTC [2026/02/16 9:41:44 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 1: 5fingerjoe15 (835 in chips) 
+Seat 2: Frenhane82 (2250 in chips) 
+Seat 4: chrysz13 (1802 in chips) 
+Seat 6: scorza23 (1010 in chips) 
+Seat 7: Papi_poker99 (1680 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2173 in chips) 
+SRT8C: posts small blind 75
+5fingerjoe15: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3d]
+Frenhane82: raises 150 to 300
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Uncalled bet (150) returned to Frenhane82
+Frenhane82 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: 5fingerjoe15 (big blind) folded before Flop
+Seat 2: Frenhane82 collected (375)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+Seat 9: SRT8C (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749121289: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 14:42:04 UTC [2026/02/16 9:42:04 ET]
+Table '3975660447 1' 9-max Seat #9 is the button
+Seat 1: 5fingerjoe15 (685 in chips) 
+Seat 2: Frenhane82 (2475 in chips) 
+Seat 4: chrysz13 (1802 in chips) 
+Seat 6: scorza23 (1010 in chips) 
+Seat 7: Papi_poker99 (1680 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2098 in chips) 
+5fingerjoe15: posts small blind 75
+Frenhane82: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 6h]
+chrysz13: folds 
+scorza23: raises 860 to 1010 and is all-in
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: folds 
+Uncalled bet (860) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: 5fingerjoe15 (small blind) folded before Flop
+Seat 2: Frenhane82 (big blind) folded before Flop
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 collected (375)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749128329: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:42:50 UTC [2026/02/16 9:42:50 ET]
+Table '3975660447 1' 9-max Seat #1 is the button
+Seat 1: 5fingerjoe15 (610 in chips) 
+Seat 2: Frenhane82 (2325 in chips) 
+Seat 4: chrysz13 (1802 in chips) 
+Seat 6: scorza23 (1235 in chips) 
+Seat 7: Papi_poker99 (1680 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2098 in chips) 
+Frenhane82: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9d]
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: raises 410 to 610 and is all-in
+Frenhane82: folds 
+chrysz13: folds 
+Uncalled bet (410) returned to 5fingerjoe15
+5fingerjoe15 collected 500 from pot
+5fingerjoe15: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: 5fingerjoe15 (button) collected (500)
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749131331: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:43:09 UTC [2026/02/16 9:43:09 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 1: 5fingerjoe15 (910 in chips) 
+Seat 2: Frenhane82 (2225 in chips) 
+Seat 4: chrysz13 (1602 in chips) 
+Seat 6: scorza23 (1235 in chips) 
+Seat 7: Papi_poker99 (1680 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (2098 in chips) 
+chrysz13: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 6c]
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: calls 200
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: checks 
+*** FLOP *** [Qd 9s 2h]
+scorza23: bets 250
+SRT8C: folds 
+Uncalled bet (250) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [Qd 9s 2h]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (500)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded on the Flop
+
+
+
+PokerStars Hand #259749135977: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:43:39 UTC [2026/02/16 9:43:39 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 1: 5fingerjoe15 (910 in chips) 
+Seat 2: Frenhane82 (2225 in chips) 
+Seat 4: chrysz13 (1502 in chips) 
+Seat 6: scorza23 (1535 in chips) 
+Seat 7: Papi_poker99 (1680 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (1898 in chips) 
+scorza23: posts small blind 100
+Papi_poker99: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3h]
+avonni d3: folds 
+SRT8C: folds 
+5fingerjoe15: folds 
+Frenhane82: raises 2025 to 2225 and is all-in
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+Uncalled bet (2025) returned to Frenhane82
+Frenhane82 collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 collected (500)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: Papi_poker99 (big blind) folded before Flop
+Seat 8: avonni d3 folded before Flop (didn't bet)
+Seat 9: SRT8C folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749138826: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:43:57 UTC [2026/02/16 9:43:57 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 1: 5fingerjoe15 (910 in chips) 
+Seat 2: Frenhane82 (2525 in chips) 
+Seat 4: chrysz13 (1502 in chips) 
+Seat 6: scorza23 (1435 in chips) 
+Seat 7: Papi_poker99 (1480 in chips) 
+Seat 8: avonni d3 (3750 in chips) 
+Seat 9: SRT8C (1898 in chips) 
+Papi_poker99: posts small blind 100
+avonni d3: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 4c]
+SRT8C: raises 400 to 600
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: raises 902 to 1502 and is all-in
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: calls 902
+*** FLOP *** [3d 8s 3s]
+*** TURN *** [3d 8s 3s] [Qs]
+*** RIVER *** [3d 8s 3s Qs] [Ks]
+*** SHOW DOWN ***
+SRT8C: shows [As Qh] (a flush, Ace high)
+chrysz13: shows [8h 8c] (a full house, Eights full of Threes)
+chrysz13 collected 3304 from pot
+*** SUMMARY ***
+Total pot 3304 | Rake 0 
+Board [3d 8s 3s Qs Ks]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 showed [8h 8c] and won (3304) with a full house, Eights full of Threes
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) folded before Flop
+Seat 9: SRT8C showed [As Qh] and lost with a flush, Ace high
+
+
+
+PokerStars Hand #259749142444: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:44:21 UTC [2026/02/16 9:44:21 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 1: 5fingerjoe15 (910 in chips) 
+Seat 2: Frenhane82 (2525 in chips) 
+Seat 4: chrysz13 (3304 in chips) 
+Seat 6: scorza23 (1435 in chips) 
+Seat 7: Papi_poker99 (1380 in chips) 
+Seat 8: avonni d3 (3550 in chips) 
+Seat 9: SRT8C (396 in chips) 
+avonni d3: posts small blind 100
+SRT8C: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 2d]
+5fingerjoe15: folds 
+Frenhane82: folds 
+chrysz13: raises 3104 to 3304 and is all-in
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+SRT8C: calls 196 and is all-in
+Uncalled bet (2908) returned to chrysz13
+*** FLOP *** [2s 5d 6h]
+*** TURN *** [2s 5d 6h] [Jh]
+*** RIVER *** [2s 5d 6h Jh] [9c]
+*** SHOW DOWN ***
+SRT8C: shows [4d Th] (high card Jack)
+chrysz13: shows [9s 9d] (three of a kind, Nines)
+chrysz13 collected 892 from pot
+SRT8C finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 892 | Rake 0 
+Board [2s 5d 6h Jh 9c]
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 showed [9s 9d] and won (892) with three of a kind, Nines
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+Seat 9: SRT8C (big blind) showed [4d Th] and lost with high card Jack
+
+
+
+PokerStars Hand #259749147611: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:44:54 UTC [2026/02/16 9:44:54 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 1: 5fingerjoe15 (910 in chips) 
+Seat 2: Frenhane82 (2525 in chips) 
+Seat 4: chrysz13 (3800 in chips) 
+Seat 6: scorza23 (1435 in chips) 
+Seat 7: Papi_poker99 (1380 in chips) 
+Seat 8: avonni d3 (3450 in chips) 
+5fingerjoe15: posts small blind 100
+Frenhane82: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 6s]
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+5fingerjoe15: raises 710 to 910 and is all-in
+Frenhane82: folds 
+Uncalled bet (710) returned to 5fingerjoe15
+5fingerjoe15 collected 400 from pot
+5fingerjoe15: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: 5fingerjoe15 (small blind) collected (400)
+Seat 2: Frenhane82 (big blind) folded before Flop
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749152472: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:45:25 UTC [2026/02/16 9:45:25 ET]
+Table '3975660447 1' 9-max Seat #1 is the button
+Seat 1: 5fingerjoe15 (1110 in chips) 
+Seat 2: Frenhane82 (2325 in chips) 
+Seat 4: chrysz13 (3800 in chips) 
+Seat 6: scorza23 (1435 in chips) 
+Seat 7: Papi_poker99 (1380 in chips) 
+Seat 8: avonni d3 (3450 in chips) 
+Frenhane82: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 3s]
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+5fingerjoe15: raises 910 to 1110 and is all-in
+Frenhane82: folds 
+chrysz13: folds 
+Uncalled bet (910) returned to 5fingerjoe15
+5fingerjoe15 collected 500 from pot
+5fingerjoe15: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: 5fingerjoe15 (button) collected (500)
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749156169: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:45:49 UTC [2026/02/16 9:45:49 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 1: 5fingerjoe15 (1410 in chips) 
+Seat 2: Frenhane82 (2225 in chips) 
+Seat 4: chrysz13 (3600 in chips) 
+Seat 6: scorza23 (1435 in chips) 
+Seat 7: Papi_poker99 (1380 in chips) 
+Seat 8: avonni d3 (3450 in chips) 
+chrysz13: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Jd]
+Papi_poker99: folds 
+avonni d3: folds 
+5fingerjoe15: raises 1210 to 1410 and is all-in
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: folds 
+Uncalled bet (1210) returned to 5fingerjoe15
+5fingerjoe15 collected 500 from pot
+5fingerjoe15: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: 5fingerjoe15 collected (500)
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749158868: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:46:06 UTC [2026/02/16 9:46:06 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 1: 5fingerjoe15 (1710 in chips) 
+Seat 2: Frenhane82 (2225 in chips) 
+Seat 4: chrysz13 (3500 in chips) 
+Seat 6: scorza23 (1235 in chips) 
+Seat 7: Papi_poker99 (1380 in chips) 
+Seat 8: avonni d3 (3450 in chips) 
+scorza23: posts small blind 100
+Papi_poker99: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Ac]
+avonni d3: folds 
+5fingerjoe15: folds 
+Frenhane82: raises 2025 to 2225 and is all-in
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+Uncalled bet (2025) returned to Frenhane82
+Frenhane82 collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: 5fingerjoe15 folded before Flop (didn't bet)
+Seat 2: Frenhane82 collected (500)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: Papi_poker99 (big blind) folded before Flop
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749162693: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:46:31 UTC [2026/02/16 9:46:31 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 1: 5fingerjoe15 (1710 in chips) 
+Seat 2: Frenhane82 (2525 in chips) 
+Seat 4: chrysz13 (3500 in chips) 
+Seat 6: scorza23 (1135 in chips) 
+Seat 7: Papi_poker99 (1180 in chips) 
+Seat 8: avonni d3 (3450 in chips) 
+Papi_poker99: posts small blind 100
+avonni d3: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 8c]
+5fingerjoe15: raises 1510 to 1710 and is all-in
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+Uncalled bet (1510) returned to 5fingerjoe15
+5fingerjoe15 collected 500 from pot
+5fingerjoe15: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: 5fingerjoe15 collected (500)
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749164730: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:46:43 UTC [2026/02/16 9:46:43 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 1: 5fingerjoe15 (2010 in chips) 
+Seat 2: Frenhane82 (2525 in chips) 
+Seat 4: chrysz13 (3500 in chips) 
+Seat 6: scorza23 (1135 in chips) 
+Seat 7: Papi_poker99 (1080 in chips) 
+Seat 8: avonni d3 (3250 in chips) 
+avonni d3: posts small blind 100
+5fingerjoe15: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Qd]
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: raises 935 to 1135 and is all-in
+Papi_poker99: folds 
+avonni d3: folds 
+5fingerjoe15: calls 935
+*** FLOP *** [3s 3d 7s]
+*** TURN *** [3s 3d 7s] [Jc]
+*** RIVER *** [3s 3d 7s Jc] [4h]
+*** SHOW DOWN ***
+5fingerjoe15: shows [Ac 6s] (a pair of Threes)
+scorza23: shows [Qs Qd] (two pair, Queens and Threes)
+scorza23 collected 2370 from pot
+*** SUMMARY ***
+Total pot 2370 | Rake 0 
+Board [3s 3d 7s Jc 4h]
+Seat 1: 5fingerjoe15 (big blind) showed [Ac 6s] and lost with a pair of Threes
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 showed [Qs Qd] and won (2370) with two pair, Queens and Threes
+Seat 7: Papi_poker99 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749170532: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 14:47:21 UTC [2026/02/16 9:47:21 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 1: 5fingerjoe15 (875 in chips) 
+Seat 2: Frenhane82 (2525 in chips) 
+Seat 4: chrysz13 (3500 in chips) 
+Seat 6: scorza23 (2370 in chips) 
+Seat 7: Papi_poker99 (1080 in chips) 
+Seat 8: avonni d3 (3150 in chips) 
+5fingerjoe15: posts small blind 100
+Frenhane82: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9h]
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+5fingerjoe15: raises 675 to 875 and is all-in
+Frenhane82: calls 675
+*** FLOP *** [Ah Tc 6c]
+*** TURN *** [Ah Tc 6c] [5h]
+*** RIVER *** [Ah Tc 6c 5h] [Th]
+*** SHOW DOWN ***
+5fingerjoe15: shows [3d Js] (a pair of Tens)
+Frenhane82: shows [As Ks] (two pair, Aces and Tens)
+Frenhane82 collected 1750 from pot
+5fingerjoe15 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1750 | Rake 0 
+Board [Ah Tc 6c 5h Th]
+Seat 1: 5fingerjoe15 (small blind) showed [3d Js] and lost with a pair of Tens
+Seat 2: Frenhane82 (big blind) showed [As Ks] and won (1750) with two pair, Aces and Tens
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749175178: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:47:50 UTC [2026/02/16 9:47:50 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 2: Frenhane82 (3400 in chips) 
+Seat 4: chrysz13 (3500 in chips) 
+Seat 6: scorza23 (2370 in chips) 
+Seat 7: Papi_poker99 (1080 in chips) 
+Seat 8: avonni d3 (3150 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Td]
+Papi_poker99: folds 
+avonni d3: folds 
+Frenhane82: folds 
+chrysz13: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 325 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (325)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749178683: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:48:13 UTC [2026/02/16 9:48:13 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 2: Frenhane82 (3375 in chips) 
+Seat 4: chrysz13 (3375 in chips) 
+Seat 6: scorza23 (2570 in chips) 
+Seat 7: Papi_poker99 (1055 in chips) 
+Seat 8: avonni d3 (3125 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 100
+Papi_poker99: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 8d]
+avonni d3: folds 
+Frenhane82: raises 200 to 400
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+Uncalled bet (200) returned to Frenhane82
+Frenhane82 collected 625 from pot
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 2: Frenhane82 collected (625)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: Papi_poker99 (big blind) folded before Flop
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749181419: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:48:30 UTC [2026/02/16 9:48:30 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 2: Frenhane82 (3775 in chips) 
+Seat 4: chrysz13 (3350 in chips) 
+Seat 6: scorza23 (2445 in chips) 
+Seat 7: Papi_poker99 (830 in chips) 
+Seat 8: avonni d3 (3100 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+Papi_poker99: posts small blind 100
+avonni d3: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Td]
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: raises 605 to 805 and is all-in
+avonni d3: folds 
+Uncalled bet (605) returned to Papi_poker99
+Papi_poker99 collected 525 from pot
+Papi_poker99: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (small blind) collected (525)
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749184267: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:48:47 UTC [2026/02/16 9:48:47 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 2: Frenhane82 (3750 in chips) 
+Seat 4: chrysz13 (3325 in chips) 
+Seat 6: scorza23 (2420 in chips) 
+Seat 7: Papi_poker99 (1130 in chips) 
+Seat 8: avonni d3 (2875 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 100
+Frenhane82: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Jh]
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+Uncalled bet (100) returned to Frenhane82
+Frenhane82 collected 325 from pot
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 2: Frenhane82 (big blind) collected (325)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749185965: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:48:58 UTC [2026/02/16 9:48:58 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 2: Frenhane82 (3950 in chips) 
+Seat 4: chrysz13 (3300 in chips) 
+Seat 6: scorza23 (2395 in chips) 
+Seat 7: Papi_poker99 (1105 in chips) 
+Seat 8: avonni d3 (2750 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+Frenhane82: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 6h]
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: folds 
+Frenhane82: folds 
+Uncalled bet (100) returned to chrysz13
+chrysz13 collected 325 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) collected (325)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749188148: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:49:12 UTC [2026/02/16 9:49:12 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 2: Frenhane82 (3825 in chips) 
+Seat 4: chrysz13 (3500 in chips) 
+Seat 6: scorza23 (2370 in chips) 
+Seat 7: Papi_poker99 (1080 in chips) 
+Seat 8: avonni d3 (2725 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Js]
+Papi_poker99: folds 
+avonni d3: folds 
+Frenhane82: raises 200 to 400
+chrysz13: folds 
+scorza23: folds 
+Uncalled bet (200) returned to Frenhane82
+Frenhane82 collected 625 from pot
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 2: Frenhane82 (button) collected (625)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: Papi_poker99 folded before Flop (didn't bet)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749190971: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:49:29 UTC [2026/02/16 9:49:29 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 2: Frenhane82 (4225 in chips) 
+Seat 4: chrysz13 (3375 in chips) 
+Seat 6: scorza23 (2145 in chips) 
+Seat 7: Papi_poker99 (1055 in chips) 
+Seat 8: avonni d3 (2700 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 100
+Papi_poker99: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac As]
+avonni d3: folds 
+Frenhane82: raises 200 to 400
+chrysz13: folds 
+scorza23: raises 1125 to 1525
+Papi_poker99: folds 
+Frenhane82: folds 
+Uncalled bet (1125) returned to scorza23
+scorza23 collected 1125 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Seat 2: Frenhane82 folded before Flop
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (1125)
+Seat 7: Papi_poker99 (big blind) folded before Flop
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749196262: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:50:03 UTC [2026/02/16 9:50:03 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 2: Frenhane82 (3800 in chips) 
+Seat 4: chrysz13 (3350 in chips) 
+Seat 6: scorza23 (2845 in chips) 
+Seat 7: Papi_poker99 (830 in chips) 
+Seat 8: avonni d3 (2675 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+Papi_poker99: posts small blind 100
+avonni d3: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 3s]
+Frenhane82: folds 
+chrysz13: raises 200 to 400
+scorza23: folds 
+Papi_poker99: folds 
+avonni d3: calls 200
+*** FLOP *** [9s 6s 2d]
+avonni d3: checks 
+chrysz13: bets 256
+avonni d3: calls 256
+*** TURN *** [9s 6s 2d] [Kd]
+avonni d3: checks 
+chrysz13: bets 384
+avonni d3: calls 384
+*** RIVER *** [9s 6s 2d Kd] [4d]
+avonni d3: checks 
+chrysz13: checks 
+*** SHOW DOWN ***
+avonni d3: shows [Ts 9c] (a pair of Nines)
+chrysz13: mucks hand 
+avonni d3 collected 2305 from pot
+*** SUMMARY ***
+Total pot 2305 | Rake 0 
+Board [9s 6s 2d Kd 4d]
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 mucked [As 7c]
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) showed [Ts 9c] and won (2305) with a pair of Nines
+
+
+
+PokerStars Hand #259749205719: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:51:03 UTC [2026/02/16 9:51:03 ET]
+Table '3975660447 1' 9-max Seat #7 is the button
+Seat 2: Frenhane82 (3775 in chips) 
+Seat 4: chrysz13 (2285 in chips) 
+Seat 6: scorza23 (2820 in chips) 
+Seat 7: Papi_poker99 (705 in chips) 
+Seat 8: avonni d3 (3915 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+Papi_poker99: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 100
+Frenhane82: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Ac]
+chrysz13: folds 
+scorza23: folds 
+Papi_poker99: raises 480 to 680 and is all-in
+avonni d3: folds 
+Frenhane82: calls 480
+*** FLOP *** [Ts 4s 7s]
+*** TURN *** [Ts 4s 7s] [6d]
+*** RIVER *** [Ts 4s 7s 6d] [4h]
+*** SHOW DOWN ***
+Frenhane82: shows [Kc Ad] (a pair of Fours)
+Papi_poker99: shows [5h Ah] (a pair of Fours - lower kicker)
+Frenhane82 collected 1585 from pot
+Papi_poker99 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1585 | Rake 0 
+Board [Ts 4s 7s 6d 4h]
+Seat 2: Frenhane82 (big blind) showed [Kc Ad] and won (1585) with a pair of Fours
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Papi_poker99 (button) showed [5h Ah] and lost with a pair of Fours
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749212064: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:51:43 UTC [2026/02/16 9:51:43 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 2: Frenhane82 (4655 in chips) 
+Seat 4: chrysz13 (2260 in chips) 
+Seat 6: scorza23 (2795 in chips) 
+Seat 8: avonni d3 (3790 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+Frenhane82: posts small blind 100
+chrysz13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 5s]
+scorza23: folds 
+avonni d3: folds 
+Frenhane82: folds 
+Uncalled bet (100) returned to chrysz13
+chrysz13 collected 300 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) collected (300)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749214267: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:51:57 UTC [2026/02/16 9:51:57 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 2: Frenhane82 (4530 in chips) 
+Seat 4: chrysz13 (2435 in chips) 
+Seat 6: scorza23 (2770 in chips) 
+Seat 8: avonni d3 (3765 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 5c]
+avonni d3: folds 
+Frenhane82: raises 200 to 400
+chrysz13: folds 
+scorza23: raises 2345 to 2745 and is all-in
+Frenhane82: folds 
+Uncalled bet (2345) returned to scorza23
+scorza23 collected 1000 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Seat 2: Frenhane82 (button) folded before Flop
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (1000)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749218696: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 14:52:25 UTC [2026/02/16 9:52:25 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 2: Frenhane82 (4105 in chips) 
+Seat 4: chrysz13 (2310 in chips) 
+Seat 6: scorza23 (3345 in chips) 
+Seat 8: avonni d3 (3740 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 100
+avonni d3: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Ts]
+Frenhane82: raises 200 to 400
+chrysz13: folds 
+scorza23: folds 
+avonni d3: folds 
+Uncalled bet (200) returned to Frenhane82
+Frenhane82 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 2: Frenhane82 collected (600)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749221994: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:52:45 UTC [2026/02/16 9:52:45 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 2: Frenhane82 (4480 in chips) 
+Seat 4: chrysz13 (2285 in chips) 
+Seat 6: scorza23 (3220 in chips) 
+Seat 8: avonni d3 (3515 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 150
+Frenhane82: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jc]
+chrysz13: folds 
+scorza23: folds 
+avonni d3: raises 3190 to 3490 and is all-in
+Frenhane82: folds 
+Uncalled bet (3190) returned to avonni d3
+avonni d3 collected 700 from pot
+avonni d3: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 2: Frenhane82 (big blind) folded before Flop
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) collected (700)
+
+
+
+PokerStars Hand #259749224381: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:53:01 UTC [2026/02/16 9:53:01 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 2: Frenhane82 (4155 in chips) 
+Seat 4: chrysz13 (2260 in chips) 
+Seat 6: scorza23 (3195 in chips) 
+Seat 8: avonni d3 (3890 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+Frenhane82: posts small blind 150
+chrysz13: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 4c]
+scorza23: folds 
+avonni d3: folds 
+Frenhane82: raises 300 to 600
+chrysz13: folds 
+Uncalled bet (300) returned to Frenhane82
+Frenhane82 collected 700 from pot
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 2: Frenhane82 (small blind) collected (700)
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749227516: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:53:21 UTC [2026/02/16 9:53:21 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 2: Frenhane82 (4530 in chips) 
+Seat 4: chrysz13 (1935 in chips) 
+Seat 6: scorza23 (3170 in chips) 
+Seat 8: avonni d3 (3865 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qh]
+avonni d3: folds 
+Frenhane82: folds 
+chrysz13: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (400)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749229942: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:53:36 UTC [2026/02/16 9:53:36 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 2: Frenhane82 (4505 in chips) 
+Seat 4: chrysz13 (1760 in chips) 
+Seat 6: scorza23 (3395 in chips) 
+Seat 8: avonni d3 (3840 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 150
+avonni d3: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Jd]
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: raises 600 to 900
+avonni d3: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (700)
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749233375: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:53:59 UTC [2026/02/16 9:53:59 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 2: Frenhane82 (4480 in chips) 
+Seat 4: chrysz13 (1735 in chips) 
+Seat 6: scorza23 (3770 in chips) 
+Seat 8: avonni d3 (3515 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 150
+Frenhane82: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Kd]
+chrysz13: raises 1410 to 1710 and is all-in
+scorza23: folds 
+avonni d3: folds 
+Frenhane82: folds 
+Uncalled bet (1410) returned to chrysz13
+chrysz13 collected 850 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 (big blind) folded before Flop
+Seat 4: chrysz13 collected (850)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749236393: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:54:18 UTC [2026/02/16 9:54:18 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 2: Frenhane82 (4155 in chips) 
+Seat 4: chrysz13 (2260 in chips) 
+Seat 6: scorza23 (3745 in chips) 
+Seat 8: avonni d3 (3340 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+Frenhane82: posts small blind 150
+chrysz13: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Ac]
+scorza23: raises 600 to 900
+avonni d3: folds 
+Frenhane82: folds 
+chrysz13: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 6: scorza23 collected (850)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749238488: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:54:32 UTC [2026/02/16 9:54:32 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 2: Frenhane82 (3980 in chips) 
+Seat 4: chrysz13 (1935 in chips) 
+Seat 6: scorza23 (4270 in chips) 
+Seat 8: avonni d3 (3315 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 9s]
+avonni d3: folds 
+Frenhane82: raises 3655 to 3955 and is all-in
+chrysz13: folds 
+scorza23: folds 
+Uncalled bet (3655) returned to Frenhane82
+Frenhane82 collected 850 from pot
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 (button) collected (850)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749241659: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:54:52 UTC [2026/02/16 9:54:52 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 2: Frenhane82 (4505 in chips) 
+Seat 4: chrysz13 (1760 in chips) 
+Seat 6: scorza23 (3945 in chips) 
+Seat 8: avonni d3 (3290 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 150
+avonni d3: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Ks]
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: raises 600 to 900
+avonni d3: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 2: Frenhane82 folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (700)
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749243611: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:55:06 UTC [2026/02/16 9:55:06 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 2: Frenhane82 (4480 in chips) 
+Seat 4: chrysz13 (1735 in chips) 
+Seat 6: scorza23 (4320 in chips) 
+Seat 8: avonni d3 (2965 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 150
+Frenhane82: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Ad]
+chrysz13: raises 1410 to 1710 and is all-in
+scorza23: folds 
+avonni d3: folds 
+Frenhane82: folds 
+Uncalled bet (1410) returned to chrysz13
+chrysz13 collected 850 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 (big blind) folded before Flop
+Seat 4: chrysz13 collected (850)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749245276: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:55:19 UTC [2026/02/16 9:55:19 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 2: Frenhane82 (4155 in chips) 
+Seat 4: chrysz13 (2260 in chips) 
+Seat 6: scorza23 (4295 in chips) 
+Seat 8: avonni d3 (2790 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+Frenhane82: posts small blind 150
+chrysz13: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Ac]
+scorza23: folds 
+avonni d3: folds 
+Frenhane82: calls 150
+chrysz13: checks 
+*** FLOP *** [3c Ks 4s]
+Frenhane82: bets 350
+chrysz13: raises 1585 to 1935 and is all-in
+Frenhane82: folds 
+Uncalled bet (1585) returned to chrysz13
+chrysz13 collected 1400 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Board [3c Ks 4s]
+Seat 2: Frenhane82 (small blind) folded on the Flop
+Seat 4: chrysz13 (big blind) collected (1400)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749249463: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:55:54 UTC [2026/02/16 9:55:54 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 2: Frenhane82 (3480 in chips) 
+Seat 4: chrysz13 (2985 in chips) 
+Seat 6: scorza23 (4270 in chips) 
+Seat 8: avonni d3 (2765 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 2s]
+avonni d3: folds 
+Frenhane82: folds 
+chrysz13: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (400)
+Seat 8: avonni d3 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749251746: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:56:13 UTC [2026/02/16 9:56:13 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 2: Frenhane82 (3455 in chips) 
+Seat 4: chrysz13 (2810 in chips) 
+Seat 6: scorza23 (4495 in chips) 
+Seat 8: avonni d3 (2740 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 150
+avonni d3: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 5s]
+Frenhane82: raises 3130 to 3430 and is all-in
+chrysz13: folds 
+scorza23: folds 
+avonni d3: folds 
+Uncalled bet (3130) returned to Frenhane82
+Frenhane82 collected 850 from pot
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 collected (850)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749254005: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:56:31 UTC [2026/02/16 9:56:31 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 2: Frenhane82 (3980 in chips) 
+Seat 4: chrysz13 (2785 in chips) 
+Seat 6: scorza23 (4320 in chips) 
+Seat 8: avonni d3 (2415 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 150
+Frenhane82: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Qh]
+chrysz13: raises 300 to 600
+scorza23: folds 
+avonni d3: folds 
+Frenhane82: folds 
+Uncalled bet (300) returned to chrysz13
+chrysz13 collected 850 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 (big blind) folded before Flop
+Seat 4: chrysz13 collected (850)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749255886: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:56:46 UTC [2026/02/16 9:56:46 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 2: Frenhane82 (3655 in chips) 
+Seat 4: chrysz13 (3310 in chips) 
+Seat 6: scorza23 (4295 in chips) 
+Seat 8: avonni d3 (2240 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+Frenhane82: posts small blind 150
+chrysz13: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [As Js]
+scorza23: raises 600 to 900
+avonni d3: folds 
+Frenhane82: folds 
+chrysz13: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 850 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 6: scorza23 collected (850)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749257792: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:57:02 UTC [2026/02/16 9:57:02 ET]
+Table '3975660447 1' 9-max Seat #2 is the button
+Seat 2: Frenhane82 (3480 in chips) 
+Seat 4: chrysz13 (2985 in chips) 
+Seat 6: scorza23 (4820 in chips) 
+Seat 8: avonni d3 (2215 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qh]
+avonni d3: raises 1890 to 2190 and is all-in
+Frenhane82: folds 
+chrysz13: folds 
+scorza23: folds 
+Uncalled bet (1890) returned to avonni d3
+avonni d3 collected 850 from pot
+avonni d3: doesn't show hand 
+*** SUMMARY ***
+Total pot 850 | Rake 0 
+Seat 2: Frenhane82 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: avonni d3 collected (850)
+
+
+
+PokerStars Hand #259749259460: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/16 14:57:15 UTC [2026/02/16 9:57:15 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 2: Frenhane82 (3455 in chips) 
+Seat 4: chrysz13 (2810 in chips) 
+Seat 6: scorza23 (4495 in chips) 
+Seat 8: avonni d3 (2740 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 150
+avonni d3: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 8s]
+Frenhane82: raises 3130 to 3430 and is all-in
+chrysz13: folds 
+scorza23: folds 
+avonni d3: calls 2415 and is all-in
+Uncalled bet (715) returned to Frenhane82
+*** FLOP *** [Ts 3d Qs]
+*** TURN *** [Ts 3d Qs] [2h]
+*** RIVER *** [Ts 3d Qs 2h] [9d]
+*** SHOW DOWN ***
+avonni d3: shows [Kc Ks] (a pair of Kings)
+Frenhane82: shows [As 6s] (high card Ace)
+avonni d3 collected 5680 from pot
+*** SUMMARY ***
+Total pot 5680 | Rake 0 
+Board [Ts 3d Qs 2h 9d]
+Seat 2: Frenhane82 showed [As 6s] and lost with high card Ace
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) showed [Kc Ks] and won (5680) with a pair of Kings
+
+
+
+PokerStars Hand #259749262232: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:57:37 UTC [2026/02/16 9:57:37 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 2: Frenhane82 (715 in chips) 
+Seat 4: chrysz13 (2785 in chips) 
+Seat 6: scorza23 (4320 in chips) 
+Seat 8: avonni d3 (5680 in chips) 
+Frenhane82: posts the ante 25
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 200
+Frenhane82: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 2h]
+chrysz13: folds 
+scorza23: folds 
+avonni d3: raises 400 to 800
+Frenhane82: calls 290 and is all-in
+Uncalled bet (110) returned to avonni d3
+*** FLOP *** [5s Jd Qh]
+*** TURN *** [5s Jd Qh] [6c]
+*** RIVER *** [5s Jd Qh 6c] [Th]
+*** SHOW DOWN ***
+avonni d3: shows [Ts 5d] (two pair, Tens and Fives)
+Frenhane82: shows [5h 7d] (a pair of Fives)
+avonni d3 collected 1480 from pot
+Frenhane82 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1480 | Rake 0 
+Board [5s Jd Qh 6c Th]
+Seat 2: Frenhane82 (big blind) showed [5h 7d] and lost with a pair of Fives
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) showed [Ts 5d] and won (1480) with two pair, Tens and Fives
+
+
+
+PokerStars Hand #259749264661: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:57:56 UTC [2026/02/16 9:57:56 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 4: chrysz13 (2760 in chips) 
+Seat 6: scorza23 (4295 in chips) 
+Seat 8: avonni d3 (6445 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Tc]
+avonni d3: folds 
+chrysz13: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (475)
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749266018: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:58:07 UTC [2026/02/16 9:58:07 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 4: chrysz13 (2535 in chips) 
+Seat 6: scorza23 (4545 in chips) 
+Seat 8: avonni d3 (6420 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 200
+avonni d3: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Th]
+chrysz13: folds 
+scorza23: raises 800 to 1200
+avonni d3: folds 
+Uncalled bet (800) returned to scorza23
+scorza23 collected 875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (875)
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749268223: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:58:24 UTC [2026/02/16 9:58:24 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 4: chrysz13 (2510 in chips) 
+Seat 6: scorza23 (4995 in chips) 
+Seat 8: avonni d3 (5995 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 200
+chrysz13: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 3d]
+scorza23: folds 
+avonni d3: folds 
+Uncalled bet (200) returned to chrysz13
+chrysz13 collected 475 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 4: chrysz13 (big blind) collected (475)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749269316: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:58:33 UTC [2026/02/16 9:58:33 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 4: chrysz13 (2760 in chips) 
+Seat 6: scorza23 (4970 in chips) 
+Seat 8: avonni d3 (5770 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 7s]
+avonni d3: folds 
+chrysz13: raises 2335 to 2735 and is all-in
+scorza23: calls 2335
+*** FLOP *** [Jc 8c 4s]
+*** TURN *** [Jc 8c 4s] [7h]
+*** RIVER *** [Jc 8c 4s 7h] [Td]
+*** SHOW DOWN ***
+chrysz13: shows [Kc Jd] (a pair of Jacks)
+scorza23: shows [Qs 7s] (a pair of Sevens)
+chrysz13 collected 5545 from pot
+*** SUMMARY ***
+Total pot 5545 | Rake 0 
+Board [Jc 8c 4s 7h Td]
+Seat 4: chrysz13 (small blind) showed [Kc Jd] and won (5545) with a pair of Jacks
+Seat 6: scorza23 (big blind) showed [Qs 7s] and lost with a pair of Sevens
+Seat 8: avonni d3 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749271455: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:58:51 UTC [2026/02/16 9:58:51 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 4: chrysz13 (5545 in chips) 
+Seat 6: scorza23 (2210 in chips) 
+Seat 8: avonni d3 (5745 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 200
+avonni d3: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Ks]
+chrysz13: folds 
+scorza23: raises 1785 to 2185 and is all-in
+avonni d3: folds 
+Uncalled bet (1785) returned to scorza23
+scorza23 collected 875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (875)
+Seat 8: avonni d3 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749273414: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:59:07 UTC [2026/02/16 9:59:07 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 4: chrysz13 (5520 in chips) 
+Seat 6: scorza23 (2660 in chips) 
+Seat 8: avonni d3 (5320 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 200
+chrysz13: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9h]
+scorza23: folds 
+avonni d3: folds 
+Uncalled bet (200) returned to chrysz13
+chrysz13 collected 475 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 4: chrysz13 (big blind) collected (475)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749274910: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:59:19 UTC [2026/02/16 9:59:19 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 4: chrysz13 (5770 in chips) 
+Seat 6: scorza23 (2635 in chips) 
+Seat 8: avonni d3 (5095 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 7d]
+avonni d3: raises 400 to 800
+chrysz13: folds 
+scorza23: folds 
+Uncalled bet (400) returned to avonni d3
+avonni d3 collected 1075 from pot
+avonni d3: doesn't show hand 
+*** SUMMARY ***
+Total pot 1075 | Rake 0 
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: avonni d3 (button) collected (1075)
+
+
+
+PokerStars Hand #259749276323: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:59:30 UTC [2026/02/16 9:59:30 ET]
+Table '3975660447 1' 9-max Seat #4 is the button
+Seat 4: chrysz13 (5545 in chips) 
+Seat 6: scorza23 (2210 in chips) 
+Seat 8: avonni d3 (5745 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+scorza23: posts small blind 200
+avonni d3: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 7c]
+chrysz13: calls 400
+scorza23: folds 
+avonni d3: checks 
+*** FLOP *** [9c 7s 8d]
+avonni d3: checks 
+chrysz13: bets 400
+avonni d3: folds 
+Uncalled bet (400) returned to chrysz13
+chrysz13 collected 1075 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 1075 | Rake 0 
+Board [9c 7s 8d]
+Seat 4: chrysz13 (button) collected (1075)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: avonni d3 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749278841: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:59:50 UTC [2026/02/16 9:59:50 ET]
+Table '3975660447 1' 9-max Seat #6 is the button
+Seat 4: chrysz13 (6195 in chips) 
+Seat 6: scorza23 (1985 in chips) 
+Seat 8: avonni d3 (5320 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+avonni d3: posts small blind 200
+chrysz13: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 7d]
+scorza23: folds 
+avonni d3: folds 
+Uncalled bet (200) returned to chrysz13
+chrysz13 collected 475 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 4: chrysz13 (big blind) collected (475)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: avonni d3 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749279752: Tournament #3975660447, $0.42+$0.08 USD Hold'em No Limit - Level IX (200/400) - 2026/02/16 14:59:57 UTC [2026/02/16 9:59:57 ET]
+Table '3975660447 1' 9-max Seat #8 is the button
+Seat 4: chrysz13 (6445 in chips) 
+Seat 6: scorza23 (1960 in chips) 
+Seat 8: avonni d3 (5095 in chips) 
+chrysz13: posts the ante 25
+scorza23: posts the ante 25
+avonni d3: posts the ante 25
+chrysz13: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 8c]
+avonni d3: raises 400 to 800
+chrysz13: folds 
+scorza23: raises 1135 to 1935 and is all-in
+avonni d3: calls 1135
+*** FLOP *** [6h Td 3s]
+*** TURN *** [6h Td 3s] [Kc]
+*** RIVER *** [6h Td 3s Kc] [4s]
+*** SHOW DOWN ***
+scorza23: shows [Js 8c] (high card King)
+avonni d3: shows [9c Ah] (high card Ace)
+avonni d3 collected 4145 from pot
+scorza23 finished the tournament in 3rd place and received $0.75.
+*** SUMMARY ***
+Total pot 4145 | Rake 0 
+Board [6h Td 3s Kc 4s]
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) showed [Js 8c] and lost with high card King
+Seat 8: avonni d3 (button) showed [9c Ah] and won (4145) with high card Ace
+
+
+

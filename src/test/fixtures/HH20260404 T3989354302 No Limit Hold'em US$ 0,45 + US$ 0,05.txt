@@ -1,0 +1,1016 @@
+﻿PokerStars Hand #260348371972: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:43:36 UTC [2026/04/04 19:43:36 ET]
+Table '3989354302 2' 8-max Seat #2 is the button
+Seat 2: RinaldiV90 (1500 in chips) 
+Seat 4: FlynF (1500 in chips) 
+Seat 6: tq00000 (1500 in chips) 
+Seat 7: pff1977 (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+RinaldiV90: posts the ante 3
+FlynF: posts the ante 3
+tq00000: posts the ante 3
+pff1977: posts the ante 3
+scorza23: posts the ante 3
+FlynF: posts small blind 10
+tq00000: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 8h]
+eovits is disconnected 
+pff1977: calls 20
+scorza23: folds 
+RinaldiV90: raises 65 to 85
+FlynF: calls 75
+R.A.F.1955 is disconnected 
+tq00000: folds 
+pff1977: calls 65
+*** FLOP *** [3h 4d 2c]
+FlynF: bets 1412 and is all-in
+pff1977: folds 
+RinaldiV90: folds 
+Uncalled bet (1412) returned to FlynF
+FlynF collected 290 from pot
+*** SUMMARY ***
+Total pot 290 | Rake 0 
+Board [3h 4d 2c]
+Seat 2: RinaldiV90 (button) folded on the Flop
+Seat 4: FlynF (small blind) collected (290)
+Seat 6: tq00000 (big blind) folded before Flop
+Seat 7: pff1977 folded on the Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348382107: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:44:37 UTC [2026/04/04 19:44:37 ET]
+Table '3989354302 2' 8-max Seat #4 is the button
+Seat 1: ROALMONTE (1500 in chips) 
+Seat 2: RinaldiV90 (1412 in chips) 
+Seat 3: eovits (1500 in chips) 
+Seat 4: FlynF (1702 in chips) 
+Seat 5: R.A.F.1955 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 6: tq00000 (1477 in chips) 
+Seat 7: pff1977 (1412 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+R.A.F.1955 will be allowed to play after the button
+ROALMONTE: posts the ante 3
+RinaldiV90: posts the ante 3
+eovits: posts the ante 3
+FlynF: posts the ante 3
+tq00000: posts the ante 3
+pff1977: posts the ante 3
+scorza23: posts the ante 3
+tq00000: posts small blind 10
+pff1977: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 2d]
+scorza23: folds 
+ROALMONTE: folds 
+RinaldiV90: folds 
+eovits: folds 
+FlynF: folds 
+tq00000: folds 
+Uncalled bet (10) returned to pff1977
+pff1977 collected 41 from pot
+*** SUMMARY ***
+Total pot 41 | Rake 0 
+Seat 1: ROALMONTE folded before Flop (didn't bet)
+Seat 2: RinaldiV90 folded before Flop (didn't bet)
+Seat 3: eovits folded before Flop (didn't bet)
+Seat 4: FlynF (button) folded before Flop (didn't bet)
+Seat 6: tq00000 (small blind) folded before Flop
+Seat 7: pff1977 (big blind) collected (41)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348389540: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:45:21 UTC [2026/04/04 19:45:21 ET]
+Table '3989354302 4' 8-max Seat #1 is the button
+Seat 1: Devarik (1552 in chips) 
+Seat 2: scorza23 (1494 in chips) 
+Seat 5: BL@cK$piDeR (1500 in chips) 
+Seat 8: Tominho123 (1500 in chips) 
+Devarik: posts the ante 3
+scorza23: posts the ante 3
+BL@cK$piDeR: posts the ante 3
+Tominho123: posts the ante 3
+scorza23: posts small blind 10
+BL@cK$piDeR: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Kh]
+BL@cK$piDeR is disconnected 
+CRAEF is disconnected 
+Tominho123: folds 
+Devarik: calls 20
+CyroSan is disconnected 
+ij3945 is disconnected 
+scorza23: raises 20 to 40
+BL@cK$piDeR: folds 
+Devarik: calls 20
+*** FLOP *** [Ad 6d 5s]
+scorza23: checks 
+Devarik: bets 60
+scorza23: folds 
+Uncalled bet (60) returned to Devarik
+Devarik collected 112 from pot
+Devarik: doesn't show hand 
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Board [Ad 6d 5s]
+Seat 1: Devarik (button) collected (112)
+Seat 2: scorza23 (small blind) folded on the Flop
+Seat 5: BL@cK$piDeR (big blind) folded before Flop
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348397166: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:46:07 UTC [2026/04/04 19:46:07 ET]
+Table '3989354302 4' 8-max Seat #2 is the button
+Seat 1: Devarik (1621 in chips) 
+Seat 2: scorza23 (1451 in chips) 
+Seat 3: CRAEF (1500 in chips) out of hand (moved from another table into small blind)
+Seat 5: BL@cK$piDeR (1477 in chips) 
+Seat 6: CyroSan (1500 in chips) 
+Seat 7: ij3945 (1500 in chips) 
+Seat 8: Tominho123 (1497 in chips) 
+CRAEF will be allowed to play after the button
+Devarik: posts the ante 3
+scorza23: posts the ante 3
+BL@cK$piDeR: posts the ante 3
+CyroSan: posts the ante 3
+ij3945: posts the ante 3
+Tominho123: posts the ante 3
+BL@cK$piDeR: posts small blind 10
+CyroSan: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 2c]
+ij3945: folds 
+Tominho123: folds 
+Devarik: folds 
+scorza23: folds 
+BL@cK$piDeR: calls 10
+CyroSan: checks 
+*** FLOP *** [5h 9d Ad]
+AlphaGuy112 is disconnected 
+BL@cK$piDeR: bets 20
+CyroSan: raises 49 to 69
+BL@cK$piDeR: calls 49
+*** TURN *** [5h 9d Ad] [As]
+BL@cK$piDeR: checks 
+CyroSan: bets 98
+BL@cK$piDeR: calls 98
+*** RIVER *** [5h 9d Ad As] [Jd]
+BL@cK$piDeR: checks 
+CyroSan: checks 
+*** SHOW DOWN ***
+BL@cK$piDeR: shows [5s 8s] (two pair, Aces and Fives)
+CyroSan: shows [9h 3h] (two pair, Aces and Nines)
+CyroSan collected 392 from pot
+*** SUMMARY ***
+Total pot 392 | Rake 0 
+Board [5h 9d Ad As Jd]
+Seat 1: Devarik folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR (small blind) showed [5s 8s] and lost with two pair, Aces and Fives
+Seat 6: CyroSan (big blind) showed [9h 3h] and won (392) with two pair, Aces and Nines
+Seat 7: ij3945 folded before Flop (didn't bet)
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348406217: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:47:02 UTC [2026/04/04 19:47:02 ET]
+Table '3989354302 4' 8-max Seat #5 is the button
+Seat 1: Devarik (1618 in chips) 
+Seat 2: scorza23 (1448 in chips) 
+Seat 3: CRAEF (1500 in chips) 
+Seat 4: AlphaGuy112 (1500 in chips) 
+Seat 5: BL@cK$piDeR (1287 in chips) 
+Seat 6: CyroSan (1702 in chips) 
+Seat 7: ij3945 (1497 in chips) 
+Seat 8: Tominho123 (1494 in chips) 
+Devarik: posts the ante 3
+scorza23: posts the ante 3
+CRAEF: posts the ante 3
+AlphaGuy112: posts the ante 3
+BL@cK$piDeR: posts the ante 3
+CyroSan: posts the ante 3
+ij3945: posts the ante 3
+Tominho123: posts the ante 3
+CyroSan: posts small blind 10
+ij3945: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 9s]
+Tominho123: folds 
+Devarik: folds 
+scorza23: folds 
+CRAEF: calls 20
+AlphaGuy112: folds 
+BL@cK$piDeR: folds 
+CyroSan: calls 10
+ij3945: checks 
+*** FLOP *** [6h Th 5d]
+CyroSan: bets 20
+ij3945: calls 20
+CRAEF: raises 20 to 40
+CyroSan: calls 20
+ij3945: calls 20
+*** TURN *** [6h Th 5d] [2d]
+CyroSan: bets 20
+ij3945: calls 20
+CRAEF: calls 20
+*** RIVER *** [6h Th 5d 2d] [6c]
+CyroSan: bets 1619 and is all-in
+ij3945: folds 
+CRAEF: folds 
+Uncalled bet (1619) returned to CyroSan
+CyroSan collected 264 from pot
+CyroSan: doesn't show hand 
+*** SUMMARY ***
+Total pot 264 | Rake 0 
+Board [6h Th 5d 2d 6c]
+Seat 1: Devarik folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: CRAEF folded on the River
+Seat 4: AlphaGuy112 folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR (button) folded before Flop (didn't bet)
+Seat 6: CyroSan (small blind) collected (264)
+Seat 7: ij3945 (big blind) folded on the River
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348415881: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 23:48:01 UTC [2026/04/04 19:48:01 ET]
+Table '3989354302 4' 8-max Seat #6 is the button
+Seat 1: Devarik (1615 in chips) 
+Seat 2: scorza23 (1445 in chips) 
+Seat 3: CRAEF (1417 in chips) 
+Seat 4: AlphaGuy112 (1497 in chips) 
+Seat 5: BL@cK$piDeR (1284 in chips) 
+Seat 6: CyroSan (1883 in chips) 
+Seat 7: ij3945 (1414 in chips) 
+Seat 8: Tominho123 (1491 in chips) 
+Devarik: posts the ante 3
+scorza23: posts the ante 3
+CRAEF: posts the ante 3
+AlphaGuy112: posts the ante 3
+BL@cK$piDeR: posts the ante 3
+CyroSan: posts the ante 3
+ij3945: posts the ante 3
+Tominho123: posts the ante 3
+ij3945: posts small blind 10
+Tominho123: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 2d]
+Devarik: folds 
+scorza23: folds 
+CRAEF: folds 
+AlphaGuy112: folds 
+BL@cK$piDeR: folds 
+CyroSan: raises 20 to 40
+ij3945: folds 
+Tominho123: calls 20
+*** FLOP *** [Kc 7c Ac]
+Tominho123: checks 
+CyroSan: checks 
+*** TURN *** [Kc 7c Ac] [Qh]
+Tominho123: checks 
+CyroSan: bets 20
+Tominho123: folds 
+Uncalled bet (20) returned to CyroSan
+CyroSan collected 114 from pot
+CyroSan: doesn't show hand 
+*** SUMMARY ***
+Total pot 114 | Rake 0 
+Board [Kc 7c Ac Qh]
+Seat 1: Devarik folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 4: AlphaGuy112 folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR folded before Flop (didn't bet)
+Seat 6: CyroSan (button) collected (114)
+Seat 7: ij3945 (small blind) folded before Flop
+Seat 8: Tominho123 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #260348424039: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:48:50 UTC [2026/04/04 19:48:50 ET]
+Table '3989354302 4' 8-max Seat #7 is the button
+Seat 1: Devarik (1612 in chips) 
+Seat 2: scorza23 (1442 in chips) 
+Seat 3: CRAEF (1414 in chips) 
+Seat 4: AlphaGuy112 (1494 in chips) 
+Seat 5: BL@cK$piDeR (1281 in chips) 
+Seat 6: CyroSan (1954 in chips) 
+Seat 7: ij3945 (1401 in chips) 
+Seat 8: Tominho123 (1448 in chips) 
+Devarik: posts the ante 4
+scorza23: posts the ante 4
+CRAEF: posts the ante 4
+AlphaGuy112: posts the ante 4
+BL@cK$piDeR: posts the ante 4
+CyroSan: posts the ante 4
+ij3945: posts the ante 4
+Tominho123: posts the ante 4
+Tominho123: posts small blind 15
+Devarik: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 8d]
+scorza23: folds 
+CRAEF: folds 
+AlphaGuy112: folds 
+BL@cK$piDeR: folds 
+CyroSan: folds 
+ij3945: calls 30
+Tominho123: calls 15
+Devarik: checks 
+*** FLOP *** [4d Jh 3d]
+Tominho123: checks 
+Devarik: checks 
+ij3945: bets 90
+Tominho123: folds 
+Devarik: calls 90
+*** TURN *** [4d Jh 3d] [5h]
+Devarik: checks 
+ij3945: bets 90
+Devarik: calls 90
+*** RIVER *** [4d Jh 3d 5h] [Js]
+Devarik: checks 
+ij3945: checks 
+*** SHOW DOWN ***
+Devarik: shows [Qs Ac] (a pair of Jacks)
+ij3945: shows [8c 8h] (two pair, Jacks and Eights)
+ij3945 collected 482 from pot
+*** SUMMARY ***
+Total pot 482 | Rake 0 
+Board [4d Jh 3d 5h Js]
+Seat 1: Devarik (big blind) showed [Qs Ac] and lost with a pair of Jacks
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 4: AlphaGuy112 folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR folded before Flop (didn't bet)
+Seat 6: CyroSan folded before Flop (didn't bet)
+Seat 7: ij3945 (button) showed [8c 8h] and won (482) with two pair, Jacks and Eights
+Seat 8: Tominho123 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260348432491: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:49:41 UTC [2026/04/04 19:49:41 ET]
+Table '3989354302 4' 8-max Seat #8 is the button
+Seat 1: Devarik (1398 in chips) 
+Seat 2: scorza23 (1438 in chips) 
+Seat 3: CRAEF (1410 in chips) 
+Seat 4: AlphaGuy112 (1490 in chips) 
+Seat 5: BL@cK$piDeR (1277 in chips) 
+Seat 6: CyroSan (1950 in chips) 
+Seat 7: ij3945 (1669 in chips) 
+Seat 8: Tominho123 (1414 in chips) 
+Devarik: posts the ante 4
+scorza23: posts the ante 4
+CRAEF: posts the ante 4
+AlphaGuy112: posts the ante 4
+BL@cK$piDeR: posts the ante 4
+CyroSan: posts the ante 4
+ij3945: posts the ante 4
+Tominho123: posts the ante 4
+Devarik: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 4d]
+CRAEF: folds 
+AlphaGuy112: raises 30 to 60
+BL@cK$piDeR: calls 60
+CyroSan: calls 60
+ij3945: calls 60
+Tominho123: folds 
+Devarik: calls 45
+scorza23: calls 30
+*** FLOP *** [6d 7h 4s]
+Devarik: checks 
+scorza23: bets 90
+AlphaGuy112: folds 
+BL@cK$piDeR: folds 
+CyroSan: folds 
+ij3945: calls 90
+Devarik: calls 90
+*** TURN *** [6d 7h 4s] [Ah]
+Devarik: checks 
+scorza23: bets 240
+ij3945: folds 
+Devarik: calls 240
+*** RIVER *** [6d 7h 4s Ah] [5c]
+Devarik: checks 
+scorza23: bets 571
+Devarik: folds 
+Uncalled bet (571) returned to scorza23
+scorza23 collected 1142 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1142 | Rake 0 
+Board [6d 7h 4s Ah 5c]
+Seat 1: Devarik (small blind) folded on the River
+Seat 2: scorza23 (big blind) collected (1142)
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 4: AlphaGuy112 folded on the Flop
+Seat 5: BL@cK$piDeR folded on the Flop
+Seat 6: CyroSan folded on the Flop
+Seat 7: ij3945 folded on the Turn
+Seat 8: Tominho123 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348443590: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:50:49 UTC [2026/04/04 19:50:49 ET]
+Table '3989354302 4' 8-max Seat #1 is the button
+Seat 1: Devarik (1004 in chips) 
+Seat 2: scorza23 (2186 in chips) 
+Seat 3: CRAEF (1406 in chips) 
+Seat 4: AlphaGuy112 (1426 in chips) 
+Seat 5: BL@cK$piDeR (1213 in chips) 
+Seat 6: CyroSan (1886 in chips) 
+Seat 7: ij3945 (1515 in chips) 
+Seat 8: Tominho123 (1410 in chips) 
+Devarik: posts the ante 4
+scorza23: posts the ante 4
+CRAEF: posts the ante 4
+AlphaGuy112: posts the ante 4
+BL@cK$piDeR: posts the ante 4
+CyroSan: posts the ante 4
+ij3945: posts the ante 4
+Tominho123: posts the ante 4
+scorza23: posts small blind 15
+CRAEF: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3h]
+AlphaGuy112: folds 
+BL@cK$piDeR: folds 
+CyroSan: calls 30
+ij3945: folds 
+Tominho123: raises 69 to 99
+Devarik: folds 
+scorza23: folds 
+CRAEF: folds 
+CyroSan: calls 69
+*** FLOP *** [3s 2h Qh]
+CyroSan: bets 275
+Tominho123: calls 275
+*** TURN *** [3s 2h Qh] [Kh]
+BL@cK$piDeR is disconnected 
+CyroSan: bets 1508 and is all-in
+Tominho123: calls 1032 and is all-in
+Uncalled bet (476) returned to CyroSan
+*** RIVER *** [3s 2h Qh Kh] [7c]
+*** SHOW DOWN ***
+CyroSan: shows [Qs 9d] (a pair of Queens)
+Tominho123: shows [Qd As] (a pair of Queens - Ace kicker)
+Tominho123 collected 2889 from pot
+*** SUMMARY ***
+Total pot 2889 | Rake 0 
+Board [3s 2h Qh Kh 7c]
+Seat 1: Devarik (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: CRAEF (big blind) folded before Flop
+Seat 4: AlphaGuy112 folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR folded before Flop (didn't bet)
+Seat 6: CyroSan showed [Qs 9d] and lost with a pair of Queens
+Seat 7: ij3945 folded before Flop (didn't bet)
+Seat 8: Tominho123 showed [Qd As] and won (2889) with a pair of Queens
+
+
+
+PokerStars Hand #260348458404: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:52:20 UTC [2026/04/04 19:52:20 ET]
+Table '3989354302 4' 8-max Seat #2 is the button
+Seat 1: Devarik (1000 in chips) 
+Seat 2: scorza23 (2167 in chips) 
+Seat 3: CRAEF (1372 in chips) 
+Seat 5: BL@cK$piDeR (1209 in chips) 
+Seat 6: CyroSan (476 in chips) 
+Seat 7: ij3945 (1511 in chips) 
+Seat 8: Tominho123 (2889 in chips) 
+Devarik: posts the ante 4
+scorza23: posts the ante 4
+CRAEF: posts the ante 4
+BL@cK$piDeR: posts the ante 4
+CyroSan: posts the ante 4
+ij3945: posts the ante 4
+Tominho123: posts the ante 4
+CRAEF: posts small blind 15
+BL@cK$piDeR: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 9c]
+CyroSan: folds 
+ij3945: folds 
+Tominho123: folds 
+Devarik: calls 30
+scorza23: raises 60 to 90
+CRAEF: folds 
+BL@cK$piDeR: calls 60
+Devarik: calls 60
+*** FLOP *** [8d 3d Kh]
+BL@cK$piDeR: checks 
+Devarik: checks 
+scorza23: bets 150
+BL@cK$piDeR: folds 
+Devarik: calls 150
+*** TURN *** [8d 3d Kh] [3c]
+Devarik: checks 
+scorza23: bets 307
+Devarik: calls 307
+*** RIVER *** [8d 3d Kh 3c] [8c]
+Devarik: bets 449 and is all-in
+scorza23: folds 
+Uncalled bet (449) returned to Devarik
+Devarik collected 1227 from pot
+Devarik: doesn't show hand 
+*** SUMMARY ***
+Total pot 1227 | Rake 0 
+Board [8d 3d Kh 3c 8c]
+Seat 1: Devarik collected (1227)
+Seat 2: scorza23 (button) folded on the River
+Seat 3: CRAEF (small blind) folded before Flop
+Seat 5: BL@cK$piDeR (big blind) folded on the Flop
+Seat 6: CyroSan folded before Flop (didn't bet)
+Seat 7: ij3945 folded before Flop (didn't bet)
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348468617: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 23:53:23 UTC [2026/04/04 19:53:23 ET]
+Table '3989354302 4' 8-max Seat #3 is the button
+Seat 1: Devarik (1676 in chips) 
+Seat 2: scorza23 (1616 in chips) 
+Seat 3: CRAEF (1353 in chips) 
+Seat 5: BL@cK$piDeR (1115 in chips) 
+Seat 6: CyroSan (472 in chips) 
+Seat 7: ij3945 (1507 in chips) 
+Seat 8: Tominho123 (2885 in chips) 
+Devarik: posts the ante 4
+scorza23: posts the ante 4
+CRAEF: posts the ante 4
+BL@cK$piDeR: posts the ante 4
+CyroSan: posts the ante 4
+ij3945: posts the ante 4
+Tominho123: posts the ante 4
+BL@cK$piDeR: posts small blind 15
+CyroSan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 5s]
+ij3945: calls 30
+Tominho123: folds 
+Devarik: raises 60 to 90
+scorza23: folds 
+CRAEF: folds 
+BL@cK$piDeR: calls 75
+CyroSan: folds 
+ij3945: calls 60
+*** FLOP *** [4d Ad 4c]
+BL@cK$piDeR: checks 
+ij3945: checks 
+Devarik: checks 
+*** TURN *** [4d Ad 4c] [3d]
+BL@cK$piDeR: checks 
+ij3945: checks 
+Devarik: bets 164
+BL@cK$piDeR: calls 164
+ij3945: calls 164
+*** RIVER *** [4d Ad 4c 3d] [Qd]
+BL@cK$piDeR: bets 857 and is all-in
+ij3945: folds 
+Devarik: folds 
+Uncalled bet (857) returned to BL@cK$piDeR
+BL@cK$piDeR collected 820 from pot
+BL@cK$piDeR: doesn't show hand 
+*** SUMMARY ***
+Total pot 820 | Rake 0 
+Board [4d Ad 4c 3d Qd]
+Seat 1: Devarik folded on the River
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: CRAEF (button) folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR (small blind) collected (820)
+Seat 6: CyroSan (big blind) folded before Flop
+Seat 7: ij3945 folded on the River
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348481881: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 23:54:47 UTC [2026/04/04 19:54:47 ET]
+Table '3989354302 4' 8-max Seat #5 is the button
+Seat 1: Devarik (1418 in chips) 
+Seat 2: scorza23 (1612 in chips) 
+Seat 3: CRAEF (1349 in chips) 
+Seat 5: BL@cK$piDeR (1677 in chips) 
+Seat 6: CyroSan (438 in chips) 
+Seat 7: ij3945 (1249 in chips) 
+Seat 8: Tominho123 (2881 in chips) 
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+CyroSan: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+CyroSan: posts small blind 25
+ij3945: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 6h]
+Tominho123: folds 
+Devarik: folds 
+scorza23: raises 50 to 100
+CRAEF: folds 
+BL@cK$piDeR: folds 
+CyroSan: calls 75
+ij3945: calls 50
+*** FLOP *** [Ks Ad 7d]
+CyroSan: checks 
+ij3945: bets 150
+scorza23: calls 150
+CyroSan: folds 
+*** TURN *** [Ks Ad 7d] [6d]
+ij3945: bets 150
+scorza23: raises 942 to 1092
+ij3945: calls 843 and is all-in
+Uncalled bet (99) returned to scorza23
+*** RIVER *** [Ks Ad 7d 6d] [Td]
+*** SHOW DOWN ***
+ij3945: shows [Jc Kd] (a flush, Ace high)
+scorza23: shows [Kh 6h] (two pair, Kings and Sixes)
+ij3945 collected 2628 from pot
+*** SUMMARY ***
+Total pot 2628 | Rake 0 
+Board [Ks Ad 7d 6d Td]
+Seat 1: Devarik folded before Flop (didn't bet)
+Seat 2: scorza23 showed [Kh 6h] and lost with two pair, Kings and Sixes
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR (button) folded before Flop (didn't bet)
+Seat 6: CyroSan (small blind) folded on the Flop
+Seat 7: ij3945 (big blind) showed [Jc Kd] and won (2628) with a flush, Ace high
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348529314: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:00:51 UTC [2026/04/04 20:00:51 ET]
+Table '3989354302 4' 8-max Seat #6 is the button
+Seat 1: Devarik (1412 in chips) 
+Seat 2: scorza23 (363 in chips) 
+Seat 3: CRAEF (1343 in chips) 
+Seat 5: BL@cK$piDeR (1671 in chips) 
+Seat 6: CyroSan (332 in chips) 
+Seat 7: ij3945 (2628 in chips) 
+Seat 8: Tominho123 (2875 in chips) 
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+CyroSan: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+ij3945: posts small blind 25
+Tominho123: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2c]
+Devarik: calls 50
+scorza23: folds 
+CRAEF: folds 
+BL@cK$piDeR: calls 50
+CyroSan: raises 267 to 317
+ij3945: folds 
+Tominho123: folds 
+Devarik: folds 
+BL@cK$piDeR: calls 267
+*** FLOP *** [3s 4s 3h]
+BL@cK$piDeR: bets 50
+CyroSan: calls 9 and is all-in
+Uncalled bet (41) returned to BL@cK$piDeR
+*** TURN *** [3s 4s 3h] [6d]
+*** RIVER *** [3s 4s 3h 6d] [Jh]
+*** SHOW DOWN ***
+BL@cK$piDeR: shows [Jd 8h] (two pair, Jacks and Threes)
+CyroSan: shows [Th 9h] (a pair of Threes)
+BL@cK$piDeR collected 819 from pot
+CyroSan finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 819 | Rake 0 
+Board [3s 4s 3h 6d Jh]
+Seat 1: Devarik folded before Flop
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR showed [Jd 8h] and won (819) with two pair, Jacks and Threes
+Seat 6: CyroSan (button) showed [Th 9h] and lost with a pair of Threes
+Seat 7: ij3945 (small blind) folded before Flop
+Seat 8: Tominho123 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260348535871: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:01:34 UTC [2026/04/04 20:01:34 ET]
+Table '3989354302 4' 8-max Seat #7 is the button
+Seat 1: Devarik (1356 in chips) 
+Seat 2: scorza23 (357 in chips) 
+Seat 3: CRAEF (1337 in chips) 
+Seat 5: BL@cK$piDeR (2158 in chips) 
+Seat 7: ij3945 (2597 in chips) 
+Seat 8: Tominho123 (2819 in chips) 
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+Tominho123: posts small blind 25
+Devarik: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Kh]
+scorza23: raises 301 to 351 and is all-in
+CRAEF: folds 
+BL@cK$piDeR: folds 
+ij3945: folds 
+Tominho123: folds 
+Devarik: calls 301
+*** FLOP *** [Kd Td 9s]
+*** TURN *** [Kd Td 9s] [Qs]
+*** RIVER *** [Kd Td 9s Qs] [6s]
+*** SHOW DOWN ***
+Devarik: shows [8c Qc] (a pair of Queens)
+scorza23: shows [3h Kh] (a pair of Kings)
+scorza23 collected 763 from pot
+*** SUMMARY ***
+Total pot 763 | Rake 0 
+Board [Kd Td 9s Qs 6s]
+Seat 1: Devarik (big blind) showed [8c Qc] and lost with a pair of Queens
+Seat 2: scorza23 showed [3h Kh] and won (763) with a pair of Kings
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR folded before Flop (didn't bet)
+Seat 7: ij3945 (button) folded before Flop (didn't bet)
+Seat 8: Tominho123 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260348541592: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:02:10 UTC [2026/04/04 20:02:10 ET]
+Table '3989354302 4' 8-max Seat #8 is the button
+Seat 1: Devarik (999 in chips) 
+Seat 2: scorza23 (763 in chips) 
+Seat 3: CRAEF (1331 in chips) 
+Seat 5: BL@cK$piDeR (2152 in chips) 
+Seat 7: ij3945 (2591 in chips) 
+Seat 8: Tominho123 (2788 in chips) 
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+Devarik: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Th]
+CRAEF: folds 
+BL@cK$piDeR: raises 100 to 150
+ij3945: folds 
+Tominho123: folds 
+Devarik: folds 
+scorza23: folds 
+Uncalled bet (100) returned to BL@cK$piDeR
+BL@cK$piDeR collected 161 from pot
+BL@cK$piDeR: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Seat 1: Devarik (small blind) folded before Flop
+Seat 2: scorza23 (big blind) folded before Flop
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR collected (161)
+Seat 7: ij3945 folded before Flop (didn't bet)
+Seat 8: Tominho123 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348546959: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:02:45 UTC [2026/04/04 20:02:45 ET]
+Table '3989354302 4' 8-max Seat #1 is the button
+Seat 1: Devarik (968 in chips) 
+Seat 2: scorza23 (707 in chips) 
+Seat 3: CRAEF (1325 in chips) 
+Seat 5: BL@cK$piDeR (2257 in chips) 
+Seat 7: ij3945 (2585 in chips) 
+Seat 8: Tominho123 (2782 in chips) 
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+scorza23: posts small blind 25
+CRAEF: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 8s]
+BL@cK$piDeR: raises 100 to 150
+ij3945: folds 
+Tominho123: folds 
+Devarik: folds 
+scorza23: folds 
+CRAEF: folds 
+Uncalled bet (100) returned to BL@cK$piDeR
+BL@cK$piDeR collected 161 from pot
+BL@cK$piDeR: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Seat 1: Devarik (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: CRAEF (big blind) folded before Flop
+Seat 5: BL@cK$piDeR collected (161)
+Seat 7: ij3945 folded before Flop (didn't bet)
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348548913: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:02:58 UTC [2026/04/04 20:02:58 ET]
+Table '3989354302 4' 8-max Seat #2 is the button
+Seat 1: Devarik (962 in chips) 
+Seat 2: scorza23 (676 in chips) 
+Seat 3: CRAEF (1269 in chips) 
+Seat 5: BL@cK$piDeR (2362 in chips) 
+Seat 7: ij3945 (2579 in chips) 
+Seat 8: Tominho123 (2776 in chips) 
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+CRAEF: posts small blind 25
+BL@cK$piDeR: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 6d]
+ij3945: calls 50
+Tominho123: folds 
+Devarik: folds 
+scorza23: folds 
+CRAEF: calls 25
+BL@cK$piDeR: checks 
+*** FLOP *** [7s As Ts]
+CRAEF: checks 
+BL@cK$piDeR: bets 130
+ij3945: folds 
+CRAEF: raises 1083 to 1213 and is all-in
+BL@cK$piDeR: calls 1083
+*** TURN *** [7s As Ts] [3s]
+*** RIVER *** [7s As Ts 3s] [6c]
+*** SHOW DOWN ***
+CRAEF: shows [Ad Th] (two pair, Aces and Tens)
+BL@cK$piDeR: shows [Ah 2c] (a pair of Aces)
+CRAEF collected 2612 from pot
+*** SUMMARY ***
+Total pot 2612 | Rake 0 
+Board [7s As Ts 3s 6c]
+Seat 1: Devarik folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: CRAEF (small blind) showed [Ad Th] and won (2612) with two pair, Aces and Tens
+Seat 5: BL@cK$piDeR (big blind) showed [Ah 2c] and lost with a pair of Aces
+Seat 7: ij3945 folded on the Flop
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348554627: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:03:34 UTC [2026/04/04 20:03:34 ET]
+Table '3989354302 4' 8-max Seat #3 is the button
+Seat 1: Devarik (956 in chips) 
+Seat 2: scorza23 (670 in chips) 
+Seat 3: CRAEF (2612 in chips) 
+Seat 5: BL@cK$piDeR (1093 in chips) 
+Seat 7: ij3945 (2523 in chips) 
+Seat 8: Tominho123 (2770 in chips) 
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+BL@cK$piDeR: posts small blind 25
+ij3945: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ac]
+Tominho123: folds 
+Devarik: folds 
+scorza23: raises 50 to 100
+CRAEF: folds 
+BL@cK$piDeR: calls 75
+ij3945: calls 50
+*** FLOP *** [4d 4c Ks]
+BL@cK$piDeR: checks 
+ij3945: checks 
+scorza23: bets 150
+BL@cK$piDeR: folds 
+ij3945: folds 
+Uncalled bet (150) returned to scorza23
+baddmax is disconnected 
+scorza23 collected 336 from pot
+scorza23: doesn't show hand 
+WinterSeverance is disconnected 
+*** SUMMARY ***
+Total pot 336 | Rake 0 
+Board [4d 4c Ks]
+Seat 1: Devarik folded before Flop (didn't bet)
+Seat 2: scorza23 collected (336)
+Seat 3: CRAEF (button) folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR (small blind) folded on the Flop
+Seat 7: ij3945 (big blind) folded on the Flop
+Seat 8: Tominho123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260348559437: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 0:04:04 UTC [2026/04/04 20:04:04 ET]
+Table '3989354302 4' 8-max Seat #5 is the button
+Seat 1: Devarik (950 in chips) 
+Seat 2: scorza23 (900 in chips) 
+Seat 3: CRAEF (2606 in chips) 
+Seat 4: WinterSeverance (1223 in chips) 
+Seat 5: BL@cK$piDeR (987 in chips) 
+Seat 6: baddmax (1709 in chips) out of hand (moved from another table into small blind)
+Seat 7: ij3945 (2417 in chips) 
+Seat 8: Tominho123 (2764 in chips) 
+baddmax will be allowed to play after the button
+Devarik: posts the ante 6
+scorza23: posts the ante 6
+CRAEF: posts the ante 6
+WinterSeverance: posts the ante 6
+BL@cK$piDeR: posts the ante 6
+ij3945: posts the ante 6
+Tominho123: posts the ante 6
+ij3945: posts small blind 25
+Tominho123: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 6s]
+Devarik: folds 
+scorza23: folds 
+CRAEF: raises 50 to 100
+WinterSeverance: folds 
+BL@cK$piDeR: raises 881 to 981 and is all-in
+ij3945: folds 
+Tominho123: folds 
+CRAEF: calls 881
+*** FLOP *** [7c 9d 3h]
+*** TURN *** [7c 9d 3h] [8c]
+*** RIVER *** [7c 9d 3h 8c] [Js]
+*** SHOW DOWN ***
+CRAEF: shows [7s Kh] (a pair of Sevens)
+BL@cK$piDeR: shows [Ac Jd] (a pair of Jacks)
+BL@cK$piDeR collected 2079 from pot
+*** SUMMARY ***
+Total pot 2079 | Rake 0 
+Board [7c 9d 3h 8c Js]
+Seat 1: Devarik folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: CRAEF showed [7s Kh] and lost with a pair of Sevens
+Seat 4: WinterSeverance folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR (button) showed [Ac Jd] and won (2079) with a pair of Jacks
+Seat 7: ij3945 (small blind) folded before Flop
+Seat 8: Tominho123 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260348565780: Tournament #3989354302, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 0:04:45 UTC [2026/04/04 20:04:45 ET]
+Table '3989354302 4' 8-max Seat #7 is the button
+Seat 1: Devarik (944 in chips) 
+Seat 2: scorza23 (894 in chips) 
+Seat 3: CRAEF (1619 in chips) 
+Seat 4: WinterSeverance (1217 in chips) 
+Seat 5: BL@cK$piDeR (2079 in chips) 
+Seat 6: baddmax (1709 in chips) 
+Seat 7: ij3945 (2386 in chips) 
+Seat 8: Tominho123 (2708 in chips) 
+Devarik: posts the ante 10
+scorza23: posts the ante 10
+CRAEF: posts the ante 10
+WinterSeverance: posts the ante 10
+BL@cK$piDeR: posts the ante 10
+baddmax: posts the ante 10
+ij3945: posts the ante 10
+Tominho123: posts the ante 10
+Tominho123: posts small blind 40
+Devarik: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Js]
+scorza23: raises 80 to 160
+CRAEF: folds 
+WinterSeverance: folds 
+BL@cK$piDeR: folds 
+baddmax: folds 
+ij3945: folds 
+Tominho123: folds 
+Devarik: raises 160 to 320
+scorza23: raises 564 to 884 and is all-in
+Devarik: calls 564
+*** FLOP *** [3c 9h 8h]
+*** TURN *** [3c 9h 8h] [6d]
+*** RIVER *** [3c 9h 8h 6d] [Kd]
+*** SHOW DOWN ***
+Devarik: shows [Qh Qs] (a pair of Queens)
+scorza23: shows [Jc Js] (a pair of Jacks)
+Devarik collected 1888 from pot
+scorza23 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 1888 | Rake 0 
+Board [3c 9h 8h 6d Kd]
+Seat 1: Devarik (big blind) showed [Qh Qs] and won (1888) with a pair of Queens
+Seat 2: scorza23 showed [Jc Js] and lost with a pair of Jacks
+Seat 3: CRAEF folded before Flop (didn't bet)
+Seat 4: WinterSeverance folded before Flop (didn't bet)
+Seat 5: BL@cK$piDeR folded before Flop (didn't bet)
+Seat 6: baddmax folded before Flop (didn't bet)
+Seat 7: ij3945 (button) folded before Flop (didn't bet)
+Seat 8: Tominho123 (small blind) folded before Flop
+
+
+

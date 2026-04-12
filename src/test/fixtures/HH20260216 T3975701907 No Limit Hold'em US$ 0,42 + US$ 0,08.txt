@@ -1,0 +1,2108 @@
+﻿PokerStars Hand #259750499725: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:56:25 UTC [2026/02/16 11:56:25 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (1500 in chips) 
+Seat 2: nagypapa (1500 in chips) 
+Seat 3: julionakamuta (1500 in chips) 
+Seat 4: Crunkhead187 (1500 in chips) 
+Seat 5: SONIA SON (1500 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 7: DuctileIron (1500 in chips) 
+Seat 8: Pentecoste54 (1500 in chips) 
+Seat 9: scorza23 (1500 in chips) 
+nagypapa: posts small blind 10
+julionakamuta: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 2h]
+Crunkhead187: calls 20
+SONIA SON: calls 20
+elsajane: folds 
+DuctileIron: calls 20
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: folds 
+nagypapa: calls 10
+julionakamuta: checks 
+*** FLOP *** [6s 3c 6d]
+nagypapa: bets 100
+julionakamuta: folds 
+Crunkhead187: calls 100
+SONIA SON: calls 100
+DuctileIron: folds 
+*** TURN *** [6s 3c 6d] [Ah]
+nagypapa: checks 
+Crunkhead187: bets 20
+SONIA SON: calls 20
+nagypapa: folds 
+*** RIVER *** [6s 3c 6d Ah] [5c]
+Crunkhead187: bets 20
+SONIA SON: calls 20
+*** SHOW DOWN ***
+Crunkhead187: shows [Qc Kd] (a pair of Sixes)
+SONIA SON: shows [3d Th] (two pair, Sixes and Threes)
+SONIA SON collected 480 from pot
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Board [6s 3c 6d Ah 5c]
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 2: nagypapa (small blind) folded on the Turn
+Seat 3: julionakamuta (big blind) folded on the Flop
+Seat 4: Crunkhead187 showed [Qc Kd] and lost with a pair of Sixes
+Seat 5: SONIA SON showed [3d Th] and won (480) with two pair, Sixes and Threes
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 7: DuctileIron folded on the Flop
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750510787: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:57:40 UTC [2026/02/16 11:57:40 ET]
+Table '3975701907 1' 9-max Seat #2 is the button
+Seat 1: RafaelBaude (1500 in chips) 
+Seat 2: nagypapa (1380 in chips) 
+Seat 3: julionakamuta (1480 in chips) 
+Seat 4: Crunkhead187 (1340 in chips) 
+Seat 5: SONIA SON (1820 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 7: DuctileIron (1480 in chips) 
+Seat 8: Pentecoste54 (1500 in chips) 
+Seat 9: scorza23 (1500 in chips) 
+julionakamuta: posts small blind 10
+Crunkhead187: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7s]
+SONIA SON: folds 
+elsajane: folds 
+DuctileIron: folds 
+Pentecoste54: raises 20 to 40
+scorza23: folds 
+RafaelBaude: folds 
+nagypapa: folds 
+julionakamuta has timed out
+julionakamuta: folds 
+julionakamuta is sitting out
+Crunkhead187: folds 
+Uncalled bet (20) returned to Pentecoste54
+Pentecoste54 collected 50 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 2: nagypapa (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 5: SONIA SON folded before Flop (didn't bet)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 7: DuctileIron folded before Flop (didn't bet)
+Seat 8: Pentecoste54 collected (50)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750519537: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:58:38 UTC [2026/02/16 11:58:38 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (1500 in chips) 
+Seat 2: nagypapa (1380 in chips) 
+Seat 3: julionakamuta (1470 in chips) is sitting out
+Seat 4: Crunkhead187 (1320 in chips) 
+Seat 5: SONIA SON (1820 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 7: DuctileIron (1480 in chips) 
+Seat 8: Pentecoste54 (1530 in chips) 
+Seat 9: scorza23 (1500 in chips) 
+Crunkhead187: posts small blind 10
+SONIA SON: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2d]
+elsajane: folds 
+DuctileIron: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 40 to 60
+nagypapa: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+SONIA SON: calls 40
+*** FLOP *** [5d Ks 8d]
+SONIA SON: checks 
+RafaelBaude: bets 43
+SONIA SON: calls 43
+*** TURN *** [5d Ks 8d] [As]
+SONIA SON: checks 
+RafaelBaude: bets 108
+SONIA SON: calls 108
+*** RIVER *** [5d Ks 8d As] [4d]
+SONIA SON: checks 
+RafaelBaude: bets 285
+SONIA SON: folds 
+Uncalled bet (285) returned to RafaelBaude
+RafaelBaude collected 432 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 432 | Rake 0 
+Board [5d Ks 8d As 4d]
+Seat 1: RafaelBaude collected (432)
+Seat 2: nagypapa folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 5: SONIA SON (big blind) folded on the River
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 7: DuctileIron folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750526124: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:59:22 UTC [2026/02/16 11:59:22 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (1721 in chips) 
+Seat 2: nagypapa (1380 in chips) 
+Seat 3: julionakamuta (1470 in chips) is sitting out
+Seat 4: Crunkhead187 (1310 in chips) 
+Seat 5: SONIA SON (1609 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 7: DuctileIron (1480 in chips) 
+Seat 8: Pentecoste54 (1530 in chips) 
+Seat 9: scorza23 (1500 in chips) 
+SONIA SON: posts small blind 10
+elsajane: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 4c]
+DuctileIron: calls 20
+Pentecoste54: folds 
+scorza23: raises 40 to 60
+RafaelBaude: folds 
+nagypapa: raises 1320 to 1380 and is all-in
+julionakamuta: folds 
+Crunkhead187: folds 
+SONIA SON: calls 1370
+elsajane: folds 
+DuctileIron: folds 
+scorza23: raises 120 to 1500 and is all-in
+SONIA SON: calls 120
+*** FLOP *** [Ac Js Jh]
+*** TURN *** [Ac Js Jh] [9d]
+*** RIVER *** [Ac Js Jh 9d] [2h]
+*** SHOW DOWN ***
+SONIA SON: shows [3s 3c] (two pair, Jacks and Threes)
+scorza23: shows [4d 4c] (two pair, Jacks and Fours)
+scorza23 collected 240 from side pot
+nagypapa: shows [Kc Qd] (a pair of Jacks)
+scorza23 collected 4180 from main pot
+nagypapa finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 4420 Main pot 4180. Side pot 240. | Rake 0 
+Board [Ac Js Jh 9d 2h]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 2: nagypapa showed [Kc Qd] and lost with a pair of Jacks
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 5: SONIA SON (small blind) showed [3s 3c] and lost with two pair, Jacks and Threes
+Seat 6: elsajane (big blind) folded before Flop
+Seat 7: DuctileIron folded before Flop
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 showed [4d 4c] and won (4420) with two pair, Jacks and Fours
+
+
+
+PokerStars Hand #259750534349: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:00:15 UTC [2026/02/16 12:00:15 ET]
+Table '3975701907 1' 9-max Seat #5 is the button
+Seat 1: RafaelBaude (1721 in chips) 
+Seat 3: julionakamuta (1470 in chips) is sitting out
+Seat 4: Crunkhead187 (1310 in chips) 
+Seat 5: SONIA SON (109 in chips) 
+Seat 6: elsajane (1480 in chips) 
+Seat 7: DuctileIron (1460 in chips) 
+Seat 8: Pentecoste54 (1530 in chips) 
+Seat 9: scorza23 (4420 in chips) 
+elsajane: posts small blind 10
+DuctileIron: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 3s]
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 40 to 60
+julionakamuta: folds 
+Crunkhead187: folds 
+SONIA SON: calls 60
+elsajane: folds 
+DuctileIron: calls 40
+*** FLOP *** [Th Kd Qd]
+DuctileIron: bets 20
+RafaelBaude: raises 76 to 96
+SONIA SON: calls 49 and is all-in
+DuctileIron: calls 76
+*** TURN *** [Th Kd Qd] [Kh]
+DuctileIron: checks 
+RafaelBaude: bets 284
+DuctileIron: calls 284
+*** RIVER *** [Th Kd Qd Kh] [9c]
+DuctileIron: bets 1020 and is all-in
+RafaelBaude: calls 1020
+*** SHOW DOWN ***
+DuctileIron: shows [Jh Qh] (a straight, Nine to King)
+RafaelBaude: shows [Kc Qc] (a full house, Kings full of Queens)
+RafaelBaude collected 2702 from side pot
+SONIA SON: shows [Ah Td] (two pair, Kings and Tens)
+RafaelBaude collected 337 from main pot
+DuctileIron finished the tournament in 7th place
+SONIA SON finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3039 Main pot 337. Side pot 2702. | Rake 0 
+Board [Th Kd Qd Kh 9c]
+Seat 1: RafaelBaude showed [Kc Qc] and won (3039) with a full house, Kings full of Queens
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 5: SONIA SON (button) showed [Ah Td] and lost with two pair, Kings and Tens
+Seat 6: elsajane (small blind) folded before Flop
+Seat 7: DuctileIron (big blind) showed [Jh Qh] and lost with a straight, Nine to King
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750542279: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:01:02 UTC [2026/02/16 12:01:02 ET]
+Table '3975701907 1' 9-max Seat #6 is the button
+Seat 1: RafaelBaude (3300 in chips) 
+Seat 3: julionakamuta (1470 in chips) is sitting out
+Seat 4: Crunkhead187 (1310 in chips) 
+Seat 6: elsajane (1470 in chips) 
+Seat 8: Pentecoste54 (1530 in chips) 
+Seat 9: scorza23 (4420 in chips) 
+Pentecoste54: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 7s]
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+elsajane: raises 20 to 40
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (20) returned to elsajane
+elsajane collected 50 from pot
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 6: elsajane (button) collected (50)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750545539: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:01:19 UTC [2026/02/16 12:01:19 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (3300 in chips) 
+Seat 3: julionakamuta (1470 in chips) is sitting out
+Seat 4: Crunkhead187 (1310 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 8: Pentecoste54 (1520 in chips) 
+Seat 9: scorza23 (4400 in chips) 
+scorza23: posts small blind 10
+RafaelBaude: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 6d]
+julionakamuta: folds 
+Crunkhead187: folds 
+elsajane: folds 
+Pentecoste54: folds 
+scorza23: raises 40 to 60
+RafaelBaude: calls 40
+*** FLOP *** [Qc Th Qd]
+scorza23: bets 60
+RafaelBaude: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 120 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [Qc Th Qd]
+Seat 1: RafaelBaude (big blind) folded on the Flop
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 9: scorza23 (small blind) collected (120)
+
+
+
+PokerStars Hand #259750550332: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:01:45 UTC [2026/02/16 12:01:45 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (3240 in chips) 
+Seat 3: julionakamuta (1470 in chips) is sitting out
+Seat 4: Crunkhead187 (1310 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 8: Pentecoste54 (1520 in chips) 
+Seat 9: scorza23 (4460 in chips) 
+RafaelBaude: posts small blind 15
+julionakamuta: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ks]
+Crunkhead187: calls 30
+elsajane: folds 
+Pentecoste54: folds 
+scorza23: raises 60 to 90
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 60
+*** FLOP *** [6c Ad 3s]
+Crunkhead187: bets 30
+scorza23: folds 
+Uncalled bet (30) returned to Crunkhead187
+Crunkhead187 collected 225 from pot
+*** SUMMARY ***
+Total pot 225 | Rake 0 
+Board [6c Ad 3s]
+Seat 1: RafaelBaude (small blind) folded before Flop
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 collected (225)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 (button) folded on the Flop
+
+
+
+PokerStars Hand #259750557642: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:02:22 UTC [2026/02/16 12:02:22 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (3225 in chips) 
+Seat 3: julionakamuta (1440 in chips) is sitting out
+Seat 4: Crunkhead187 (1445 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 8: Pentecoste54 (1520 in chips) 
+Seat 9: scorza23 (4370 in chips) 
+julionakamuta: posts small blind 15
+Crunkhead187: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 2c]
+elsajane: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Uncalled bet (15) returned to Crunkhead187
+Crunkhead187 collected 30 from pot
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) collected (30)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750560720: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:02:38 UTC [2026/02/16 12:02:38 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (3225 in chips) 
+Seat 3: julionakamuta (1425 in chips) is sitting out
+Seat 4: Crunkhead187 (1460 in chips) 
+Seat 6: elsajane (1500 in chips) 
+Seat 8: Pentecoste54 (1520 in chips) 
+Seat 9: scorza23 (4370 in chips) 
+Crunkhead187: posts small blind 15
+elsajane: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ac]
+Pentecoste54: raises 30 to 60
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+elsajane: calls 30
+*** FLOP *** [Jc Ts 2c]
+elsajane: checks 
+Pentecoste54: checks 
+*** TURN *** [Jc Ts 2c] [7h]
+elsajane: checks 
+Pentecoste54: checks 
+*** RIVER *** [Jc Ts 2c 7h] [2s]
+elsajane: checks 
+Pentecoste54: checks 
+*** SHOW DOWN ***
+elsajane: shows [Kh 8s] (a pair of Deuces)
+Pentecoste54: shows [3s 3d] (two pair, Threes and Deuces)
+Pentecoste54 collected 135 from pot
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Board [Jc Ts 2c 7h 2s]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 6: elsajane (big blind) showed [Kh 8s] and lost with a pair of Deuces
+Seat 8: Pentecoste54 showed [3s 3d] and won (135) with two pair, Threes and Deuces
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750568299: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:03:16 UTC [2026/02/16 12:03:16 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (3225 in chips) 
+Seat 3: julionakamuta (1425 in chips) is sitting out
+Seat 4: Crunkhead187 (1445 in chips) 
+Seat 6: elsajane (1440 in chips) 
+Seat 8: Pentecoste54 (1595 in chips) 
+Seat 9: scorza23 (4370 in chips) 
+elsajane: posts small blind 15
+Pentecoste54: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Kc]
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+scorza23 has returned
+elsajane: calls 15
+Pentecoste54: checks 
+*** FLOP *** [8d 6s 9h]
+elsajane: checks 
+Pentecoste54: checks 
+*** TURN *** [8d 6s 9h] [2d]
+elsajane: checks 
+Pentecoste54: bets 30
+elsajane: folds 
+Uncalled bet (30) returned to Pentecoste54
+Pentecoste54 collected 60 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [8d 6s 9h 2d]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 6: elsajane (small blind) folded on the Turn
+Seat 8: Pentecoste54 (big blind) collected (60)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750577834: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:04:04 UTC [2026/02/16 12:04:04 ET]
+Table '3975701907 1' 9-max Seat #6 is the button
+Seat 1: RafaelBaude (3225 in chips) 
+Seat 3: julionakamuta (1425 in chips) is sitting out
+Seat 4: Crunkhead187 (1445 in chips) 
+Seat 6: elsajane (1410 in chips) 
+Seat 8: Pentecoste54 (1625 in chips) 
+Seat 9: scorza23 (4370 in chips) 
+Pentecoste54: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jh]
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 30
+elsajane: folds 
+Pentecoste54: folds 
+scorza23: checks 
+*** FLOP *** [6h 5c 7h]
+scorza23: checks 
+Crunkhead187: checks 
+*** TURN *** [6h 5c 7h] [Qc]
+scorza23: checks 
+Crunkhead187: checks 
+*** RIVER *** [6h 5c 7h Qc] [Qh]
+scorza23: bets 30
+Crunkhead187: folds 
+Uncalled bet (30) returned to scorza23
+scorza23 collected 75 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Board [6h 5c 7h Qc Qh]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded on the River
+Seat 6: elsajane (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) collected (75)
+
+
+
+PokerStars Hand #259750585472: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:04:42 UTC [2026/02/16 12:04:42 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (3225 in chips) 
+Seat 3: julionakamuta (1425 in chips) is sitting out
+Seat 4: Crunkhead187 (1415 in chips) 
+Seat 6: elsajane (1410 in chips) 
+Seat 8: Pentecoste54 (1610 in chips) 
+Seat 9: scorza23 (4415 in chips) 
+scorza23: posts small blind 15
+RafaelBaude: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 8s]
+julionakamuta: folds 
+Crunkhead187: calls 30
+elsajane: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: checks 
+*** FLOP *** [5c Ts 2c]
+RafaelBaude: checks 
+Crunkhead187: checks 
+*** TURN *** [5c Ts 2c] [7c]
+RafaelBaude: checks 
+Crunkhead187: checks 
+*** RIVER *** [5c Ts 2c 7c] [8c]
+RafaelBaude: checks 
+Crunkhead187: bets 1385 and is all-in
+RafaelBaude: folds 
+Uncalled bet (1385) returned to Crunkhead187
+Crunkhead187 collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Board [5c Ts 2c 7c 8c]
+Seat 1: RafaelBaude (big blind) folded on the River
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 collected (75)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 9: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750592713: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:05:18 UTC [2026/02/16 12:05:18 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (3195 in chips) 
+Seat 3: julionakamuta (1425 in chips) is sitting out
+Seat 4: Crunkhead187 (1460 in chips) 
+Seat 6: elsajane (1410 in chips) 
+Seat 8: Pentecoste54 (1610 in chips) 
+Seat 9: scorza23 (4400 in chips) 
+RafaelBaude: posts small blind 15
+julionakamuta: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Ad]
+Crunkhead187: folds 
+elsajane: folds 
+Pentecoste54: raises 30 to 60
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Uncalled bet (30) returned to Pentecoste54
+Pentecoste54 collected 75 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: RafaelBaude (small blind) folded before Flop
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 collected (75)
+Seat 9: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750596218: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:05:36 UTC [2026/02/16 12:05:36 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (3180 in chips) 
+Seat 3: julionakamuta (1395 in chips) is sitting out
+Seat 4: Crunkhead187 (1460 in chips) 
+Seat 6: elsajane (1410 in chips) 
+Seat 8: Pentecoste54 (1655 in chips) 
+Seat 9: scorza23 (4400 in chips) 
+julionakamuta: posts small blind 15
+Crunkhead187: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Jc]
+elsajane: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 45 to 75
+julionakamuta: folds 
+Crunkhead187: folds 
+Uncalled bet (45) returned to RafaelBaude
+RafaelBaude collected 75 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: RafaelBaude (button) collected (75)
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750600912: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:06:00 UTC [2026/02/16 12:06:00 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (3225 in chips) 
+Seat 3: julionakamuta (1380 in chips) is sitting out
+Seat 4: Crunkhead187 (1430 in chips) 
+Seat 6: elsajane (1410 in chips) 
+Seat 8: Pentecoste54 (1655 in chips) 
+Seat 9: scorza23 (4400 in chips) 
+Crunkhead187: posts small blind 15
+elsajane: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jd]
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 45 to 75
+julionakamuta: folds 
+Crunkhead187: folds 
+elsajane: folds 
+Uncalled bet (45) returned to RafaelBaude
+RafaelBaude collected 75 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: RafaelBaude collected (75)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 6: elsajane (big blind) folded before Flop
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750604565: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:06:18 UTC [2026/02/16 12:06:18 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (3270 in chips) 
+Seat 3: julionakamuta (1380 in chips) is sitting out
+Seat 4: Crunkhead187 (1415 in chips) 
+Seat 6: elsajane (1380 in chips) 
+Seat 8: Pentecoste54 (1655 in chips) 
+Seat 9: scorza23 (4400 in chips) 
+elsajane: posts small blind 15
+Pentecoste54: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ts]
+scorza23: raises 60 to 90
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 90
+elsajane: folds 
+Pentecoste54: calls 60
+*** FLOP *** [Qc As Kc]
+Pentecoste54: checks 
+scorza23: checks 
+Crunkhead187: checks 
+*** TURN *** [Qc As Kc] [8d]
+Pentecoste54: checks 
+scorza23: checks 
+Crunkhead187: checks 
+*** RIVER *** [Qc As Kc 8d] [2h]
+Pentecoste54: checks 
+scorza23: bets 30
+Crunkhead187: calls 30
+Pentecoste54: calls 30
+*** SHOW DOWN ***
+scorza23: shows [Tc Ts] (a pair of Tens)
+Crunkhead187: mucks hand 
+Pentecoste54: shows [Js Jh] (a pair of Jacks)
+Pentecoste54 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [Qc As Kc 8d 2h]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) mucked [9d 9s]
+Seat 6: elsajane (small blind) folded before Flop
+Seat 8: Pentecoste54 (big blind) showed [Js Jh] and won (375) with a pair of Jacks
+Seat 9: scorza23 showed [Tc Ts] and lost with a pair of Tens
+
+
+
+PokerStars Hand #259750618179: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:07:27 UTC [2026/02/16 12:07:27 ET]
+Table '3975701907 1' 9-max Seat #6 is the button
+Seat 1: RafaelBaude (3270 in chips) 
+Seat 3: julionakamuta (1380 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 6: elsajane (1365 in chips) 
+Seat 8: Pentecoste54 (1910 in chips) 
+Seat 9: scorza23 (4280 in chips) 
+Pentecoste54: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 5c]
+RafaelBaude: raises 75 to 125
+julionakamuta: folds 
+Crunkhead187: folds 
+elsajane: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (75) returned to RafaelBaude
+RafaelBaude collected 125 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: RafaelBaude collected (125)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 6: elsajane (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750621646: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:07:44 UTC [2026/02/16 12:07:44 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (3345 in chips) 
+Seat 3: julionakamuta (1380 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 6: elsajane (1365 in chips) 
+Seat 8: Pentecoste54 (1885 in chips) 
+Seat 9: scorza23 (4230 in chips) 
+scorza23: posts small blind 25
+RafaelBaude: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 7c]
+julionakamuta: folds 
+Crunkhead187: folds 
+elsajane: folds 
+Pentecoste54: raises 50 to 100
+scorza23: folds 
+RafaelBaude: calls 50
+*** FLOP *** [3s Ad Qd]
+RafaelBaude: checks 
+Pentecoste54: checks 
+*** TURN *** [3s Ad Qd] [9s]
+RafaelBaude: bets 149
+Pentecoste54: calls 149
+*** RIVER *** [3s Ad Qd 9s] [Qs]
+RafaelBaude: bets 345
+Pentecoste54: calls 345
+*** SHOW DOWN ***
+RafaelBaude: shows [Ac 9d] (two pair, Aces and Queens)
+Pentecoste54: shows [8s Ks] (a flush, King high)
+Pentecoste54 collected 1213 from pot
+*** SUMMARY ***
+Total pot 1213 | Rake 0 
+Board [3s Ad Qd 9s Qs]
+Seat 1: RafaelBaude (big blind) showed [Ac 9d] and lost with two pair, Aces and Queens
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) showed [8s Ks] and won (1213) with a flush, King high
+Seat 9: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750633843: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:08:45 UTC [2026/02/16 12:08:45 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (2751 in chips) 
+Seat 3: julionakamuta (1380 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 6: elsajane (1365 in chips) 
+Seat 8: Pentecoste54 (2504 in chips) 
+Seat 9: scorza23 (4205 in chips) 
+RafaelBaude: posts small blind 25
+julionakamuta: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3h]
+Crunkhead187: folds 
+elsajane: folds 
+Pentecoste54: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+RafaelBaude: raises 100 to 150
+julionakamuta: folds 
+Uncalled bet (100) returned to RafaelBaude
+RafaelBaude collected 100 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: RafaelBaude (small blind) collected (100)
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 6: elsajane folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750640150: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:09:17 UTC [2026/02/16 12:09:17 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (2801 in chips) 
+Seat 3: julionakamuta (1330 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 6: elsajane (1365 in chips) 
+Seat 8: Pentecoste54 (2504 in chips) 
+Seat 9: scorza23 (4205 in chips) is sitting out
+julionakamuta: posts small blind 25
+Crunkhead187: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 4s]
+scorza23 has returned
+elsajane: raises 100 to 150
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: calls 150
+julionakamuta: folds 
+Crunkhead187: folds 
+*** FLOP *** [3s 8s Jd]
+elsajane: bets 100
+RafaelBaude: raises 190 to 290
+elsajane: calls 190
+*** TURN *** [3s 8s Jd] [2c]
+elsajane: bets 100
+RafaelBaude: raises 381 to 481
+elsajane: calls 381
+*** RIVER *** [3s 8s Jd 2c] [Qc]
+elsajane: bets 100
+RafaelBaude: raises 699 to 799
+elsajane: calls 344 and is all-in
+Uncalled bet (355) returned to RafaelBaude
+*** SHOW DOWN ***
+RafaelBaude: shows [3d 3h] (three of a kind, Threes)
+elsajane: shows [9s 9h] (a pair of Nines)
+RafaelBaude collected 2805 from pot
+elsajane finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 2805 | Rake 0 
+Board [3s 8s Jd 2c Qc]
+Seat 1: RafaelBaude (button) showed [3d 3h] and won (2805) with three of a kind, Threes
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 6: elsajane showed [9s 9h] and lost with a pair of Nines
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750649718: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:10:05 UTC [2026/02/16 12:10:05 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (4241 in chips) 
+Seat 3: julionakamuta (1305 in chips) is sitting out
+Seat 4: Crunkhead187 (1245 in chips) 
+Seat 8: Pentecoste54 (2504 in chips) 
+Seat 9: scorza23 (4205 in chips) 
+Crunkhead187: posts small blind 25
+Pentecoste54: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 5s]
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 25
+Pentecoste54: checks 
+*** FLOP *** [Ks 9c Qc]
+Crunkhead187: bets 50
+Pentecoste54: folds 
+Uncalled bet (50) returned to Crunkhead187
+Crunkhead187 collected 100 from pot
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Board [Ks 9c Qc]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) collected (100)
+Seat 8: Pentecoste54 (big blind) folded on the Flop
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750656092: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:10:38 UTC [2026/02/16 12:10:38 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (4241 in chips) 
+Seat 3: julionakamuta (1305 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 8: Pentecoste54 (2454 in chips) 
+Seat 9: scorza23 (4205 in chips) 
+Pentecoste54: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 2s]
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+Uncalled bet (25) returned to scorza23
+scorza23 collected 50 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) collected (50)
+
+
+
+PokerStars Hand #259750659824: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:10:56 UTC [2026/02/16 12:10:56 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (4241 in chips) 
+Seat 3: julionakamuta (1305 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 8: Pentecoste54 (2429 in chips) 
+Seat 9: scorza23 (4230 in chips) 
+scorza23: posts small blind 25
+RafaelBaude: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 6d]
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: raises 100 to 150
+RafaelBaude: calls 100
+*** FLOP *** [6s 9d Qs]
+scorza23: bets 300
+RafaelBaude: calls 300
+*** TURN *** [6s 9d Qs] [8d]
+scorza23: checks 
+RafaelBaude: bets 594
+scorza23: folds 
+Uncalled bet (594) returned to RafaelBaude
+RafaelBaude collected 900 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [6s 9d Qs 8d]
+Seat 1: RafaelBaude (big blind) collected (900)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 9: scorza23 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #259750665874: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:11:26 UTC [2026/02/16 12:11:26 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (4691 in chips) 
+Seat 3: julionakamuta (1305 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 8: Pentecoste54 (2429 in chips) 
+Seat 9: scorza23 (3780 in chips) 
+RafaelBaude: posts small blind 25
+julionakamuta: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 3c]
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 50 to 100
+julionakamuta: folds 
+Uncalled bet (50) returned to RafaelBaude
+RafaelBaude collected 100 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: RafaelBaude (small blind) collected (100)
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750670503: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:11:49 UTC [2026/02/16 12:11:49 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (4741 in chips) 
+Seat 3: julionakamuta (1255 in chips) is sitting out
+Seat 4: Crunkhead187 (1295 in chips) 
+Seat 8: Pentecoste54 (2429 in chips) 
+Seat 9: scorza23 (3780 in chips) 
+julionakamuta: posts small blind 50
+Crunkhead187: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Jd]
+Pentecoste54: raises 100 to 200
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 100
+*** FLOP *** [5h 8c 4s]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** TURN *** [5h 8c 4s] [2s]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** RIVER *** [5h 8c 4s 2s] [2c]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** SHOW DOWN ***
+Crunkhead187: shows [Qc Kh] (a pair of Deuces)
+Pentecoste54: shows [Ac 7h] (a pair of Deuces - Ace kicker)
+Pentecoste54 collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [5h 8c 4s 2s 2c]
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) showed [Qc Kh] and lost with a pair of Deuces
+Seat 8: Pentecoste54 showed [Ac 7h] and won (450) with a pair of Deuces
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750680050: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:12:36 UTC [2026/02/16 12:12:36 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (4741 in chips) 
+Seat 3: julionakamuta (1205 in chips) is sitting out
+Seat 4: Crunkhead187 (1095 in chips) 
+Seat 8: Pentecoste54 (2679 in chips) 
+Seat 9: scorza23 (3780 in chips) 
+Crunkhead187: posts small blind 50
+Pentecoste54: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Td]
+scorza23: folds 
+RafaelBaude has timed out
+RafaelBaude: folds 
+RafaelBaude is sitting out
+julionakamuta: folds 
+RafaelBaude has returned
+Crunkhead187: calls 50
+Pentecoste54: checks 
+*** FLOP *** [Qc 8c 5h]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** TURN *** [Qc 8c 5h] [3s]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** RIVER *** [Qc 8c 5h 3s] [4d]
+Crunkhead187: checks 
+julionakamuta has returned
+Pentecoste54: checks 
+*** SHOW DOWN ***
+Crunkhead187: shows [Ac 5d] (a pair of Fives)
+Pentecoste54: mucks hand 
+Crunkhead187 collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Board [Qc 8c 5h 3s 4d]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) showed [Ac 5d] and won (200) with a pair of Fives
+Seat 8: Pentecoste54 (big blind) mucked [4h 9c]
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750690737: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:13:30 UTC [2026/02/16 12:13:30 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (4741 in chips) 
+Seat 3: julionakamuta (1205 in chips) 
+Seat 4: Crunkhead187 (1195 in chips) 
+Seat 8: Pentecoste54 (2579 in chips) 
+Seat 9: scorza23 (3780 in chips) 
+Pentecoste54: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Js]
+RafaelBaude: raises 150 to 250
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: calls 150
+*** FLOP *** [6c 9s Ah]
+scorza23: checks 
+RafaelBaude: bets 182
+scorza23: folds 
+Uncalled bet (182) returned to RafaelBaude
+RafaelBaude collected 550 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Board [6c 9s Ah]
+Seat 1: RafaelBaude collected (550)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259750698589: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:14:09 UTC [2026/02/16 12:14:09 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (5041 in chips) 
+Seat 3: julionakamuta (1205 in chips) 
+Seat 4: Crunkhead187 (1195 in chips) 
+Seat 8: Pentecoste54 (2529 in chips) 
+Seat 9: scorza23 (3530 in chips) 
+scorza23: posts small blind 50
+RafaelBaude: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 2c]
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: raises 100 to 200
+scorza23: folds 
+RafaelBaude: calls 100
+*** FLOP *** [7s Jd 9s]
+julionakamuta is disconnected 
+RafaelBaude: checks 
+Pentecoste54: checks 
+*** TURN *** [7s Jd 9s] [Qs]
+RafaelBaude: checks 
+julionakamuta is disconnected 
+Pentecoste54: checks 
+*** RIVER *** [7s Jd 9s Qs] [4d]
+RafaelBaude: checks 
+Pentecoste54: checks 
+*** SHOW DOWN ***
+RafaelBaude: shows [4c 2s] (a pair of Fours)
+Pentecoste54: mucks hand 
+RafaelBaude collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [7s Jd 9s Qs 4d]
+Seat 1: RafaelBaude (big blind) showed [4c 2s] and won (450) with a pair of Fours
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) mucked [Ad 3c]
+Seat 9: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750709161: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:15:01 UTC [2026/02/16 12:15:01 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (5291 in chips) 
+Seat 3: julionakamuta (1205 in chips) 
+Seat 4: Crunkhead187 (1195 in chips) 
+Seat 8: Pentecoste54 (2329 in chips) 
+Seat 9: scorza23 (3480 in chips) 
+RafaelBaude: posts small blind 50
+julionakamuta: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3s As]
+Crunkhead187: calls 100
+Pentecoste54: calls 100
+scorza23: raises 450 to 550
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 450
+Pentecoste54: folds 
+*** FLOP *** [6c 2h Kc]
+Crunkhead187: checks 
+scorza23: bets 2930 and is all-in
+Crunkhead187: calls 645 and is all-in
+Uncalled bet (2285) returned to scorza23
+*** TURN *** [6c 2h Kc] [5d]
+*** RIVER *** [6c 2h Kc 5d] [2d]
+*** SHOW DOWN ***
+Crunkhead187: shows [Ad Jc] (a pair of Deuces)
+scorza23: shows [3s As] (a pair of Deuces - lower kicker)
+Crunkhead187 collected 2640 from pot
+*** SUMMARY ***
+Total pot 2640 | Rake 0 
+Board [6c 2h Kc 5d 2d]
+Seat 1: RafaelBaude (small blind) folded before Flop
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 showed [Ad Jc] and won (2640) with a pair of Deuces
+Seat 8: Pentecoste54 folded before Flop
+Seat 9: scorza23 (button) showed [3s As] and lost with a pair of Deuces
+
+
+
+PokerStars Hand #259750720378: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:15:55 UTC [2026/02/16 12:15:55 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (5241 in chips) 
+Seat 3: julionakamuta (1105 in chips) 
+Seat 4: Crunkhead187 (2640 in chips) 
+Seat 8: Pentecoste54 (2229 in chips) 
+Seat 9: scorza23 (2285 in chips) 
+julionakamuta: posts small blind 50
+Crunkhead187: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ah]
+Pentecoste54: folds 
+scorza23: raises 2185 to 2285 and is all-in
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Uncalled bet (2185) returned to scorza23
+scorza23 collected 250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 collected (250)
+
+
+
+PokerStars Hand #259750724074: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:16:13 UTC [2026/02/16 12:16:13 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (5241 in chips) 
+Seat 3: julionakamuta (1055 in chips) 
+Seat 4: Crunkhead187 (2540 in chips) 
+Seat 8: Pentecoste54 (2229 in chips) 
+Seat 9: scorza23 (2435 in chips) 
+Crunkhead187: posts small blind 50
+Pentecoste54: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ks]
+scorza23: raises 2335 to 2435 and is all-in
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+Uncalled bet (2335) returned to scorza23
+scorza23 collected 250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 8: Pentecoste54 (big blind) folded before Flop
+Seat 9: scorza23 collected (250)
+
+
+
+PokerStars Hand #259750729235: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:16:39 UTC [2026/02/16 12:16:39 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (5241 in chips) 
+Seat 3: julionakamuta (1055 in chips) 
+Seat 4: Crunkhead187 (2490 in chips) 
+Seat 8: Pentecoste54 (2129 in chips) 
+Seat 9: scorza23 (2585 in chips) 
+Pentecoste54: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Qc]
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+Uncalled bet (75) returned to scorza23
+scorza23 collected 150 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) collected (150)
+
+
+
+PokerStars Hand #259750733033: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:16:57 UTC [2026/02/16 12:16:57 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (5241 in chips) 
+Seat 3: julionakamuta (1055 in chips) 
+Seat 4: Crunkhead187 (2490 in chips) 
+Seat 8: Pentecoste54 (2054 in chips) 
+Seat 9: scorza23 (2660 in chips) 
+scorza23: posts small blind 75
+RafaelBaude: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Kd]
+julionakamuta: calls 150
+Crunkhead187: calls 150
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: checks 
+*** FLOP *** [4h 5s 7s]
+RafaelBaude: checks 
+julionakamuta: checks 
+Crunkhead187: bets 150
+RafaelBaude: calls 150
+julionakamuta: folds 
+*** TURN *** [4h 5s 7s] [6h]
+RafaelBaude: checks 
+Crunkhead187: bets 450
+RafaelBaude: calls 450
+*** RIVER *** [4h 5s 7s 6h] [As]
+RafaelBaude: checks 
+Crunkhead187: bets 300
+RafaelBaude: calls 300
+*** SHOW DOWN ***
+Crunkhead187: shows [Jd Jh] (a pair of Jacks)
+RafaelBaude: mucks hand 
+Crunkhead187 collected 2325 from pot
+*** SUMMARY ***
+Total pot 2325 | Rake 0 
+Board [4h 5s 7s 6h As]
+Seat 1: RafaelBaude (big blind) mucked [7d Qd]
+Seat 3: julionakamuta folded on the Flop
+Seat 4: Crunkhead187 showed [Jd Jh] and won (2325) with a pair of Jacks
+Seat 8: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 9: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750747042: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:18:05 UTC [2026/02/16 12:18:05 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (4191 in chips) 
+Seat 3: julionakamuta (905 in chips) 
+Seat 4: Crunkhead187 (3765 in chips) 
+Seat 8: Pentecoste54 (2054 in chips) 
+Seat 9: scorza23 (2585 in chips) 
+RafaelBaude: posts small blind 75
+julionakamuta: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 6c]
+Crunkhead187: folds 
+Pentecoste54: raises 150 to 300
+scorza23: raises 150 to 450
+RafaelBaude: folds 
+julionakamuta: folds 
+Pentecoste54: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 825 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 825 | Rake 0 
+Seat 1: RafaelBaude (small blind) folded before Flop
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop
+Seat 9: scorza23 (button) collected (825)
+
+
+
+PokerStars Hand #259750755339: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:18:44 UTC [2026/02/16 12:18:44 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (4116 in chips) 
+Seat 3: julionakamuta (755 in chips) 
+Seat 4: Crunkhead187 (3765 in chips) 
+Seat 8: Pentecoste54 (1754 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+julionakamuta: posts small blind 75
+Crunkhead187: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 8h]
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 150 to 300
+julionakamuta: folds 
+Crunkhead187: calls 150
+*** FLOP *** [Jc Jh 8d]
+Crunkhead187: checks 
+RafaelBaude: bets 223
+Crunkhead187: calls 223
+*** TURN *** [Jc Jh 8d] [5d]
+Crunkhead187: checks 
+RafaelBaude: bets 370
+Crunkhead187: calls 370
+*** RIVER *** [Jc Jh 8d 5d] [Qh]
+Crunkhead187: bets 150
+RafaelBaude: calls 150
+*** SHOW DOWN ***
+Crunkhead187: shows [Ks 2d] (a pair of Jacks)
+RafaelBaude: shows [2s 2c] (two pair, Jacks and Deuces)
+RafaelBaude collected 2161 from pot
+*** SUMMARY ***
+Total pot 2161 | Rake 0 
+Board [Jc Jh 8d 5d Qh]
+Seat 1: RafaelBaude (button) showed [2s 2c] and won (2161) with two pair, Jacks and Deuces
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) showed [Ks 2d] and lost with a pair of Jacks
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750767206: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:19:42 UTC [2026/02/16 12:19:42 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (5234 in chips) 
+Seat 3: julionakamuta (680 in chips) 
+Seat 4: Crunkhead187 (2722 in chips) 
+Seat 8: Pentecoste54 (1754 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+Crunkhead187: posts small blind 75
+Pentecoste54: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 4c]
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Uncalled bet (75) returned to Pentecoste54
+Pentecoste54 collected 150 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 8: Pentecoste54 (big blind) collected (150)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750770033: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:19:56 UTC [2026/02/16 12:19:56 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (5234 in chips) 
+Seat 3: julionakamuta (680 in chips) 
+Seat 4: Crunkhead187 (2647 in chips) 
+Seat 8: Pentecoste54 (1829 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+Pentecoste54: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Qh]
+RafaelBaude: raises 150 to 300
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: calls 150
+*** FLOP *** [Kd 3h Jc]
+scorza23: bets 2810 and is all-in
+RafaelBaude: folds 
+Uncalled bet (2810) returned to scorza23
+scorza23 collected 675 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Board [Kd 3h Jc]
+Seat 1: RafaelBaude folded on the Flop
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) collected (675)
+
+
+
+PokerStars Hand #259750775915: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:24 UTC [2026/02/16 12:20:24 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (4934 in chips) 
+Seat 3: julionakamuta (680 in chips) 
+Seat 4: Crunkhead187 (2647 in chips) 
+Seat 8: Pentecoste54 (1754 in chips) 
+Seat 9: scorza23 (3485 in chips) 
+scorza23: posts small blind 75
+RafaelBaude: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 2d]
+julionakamuta: raises 530 to 680 and is all-in
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: folds 
+Uncalled bet (530) returned to julionakamuta
+julionakamuta collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: RafaelBaude (big blind) folded before Flop
+Seat 3: julionakamuta collected (375)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 9: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750779297: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:40 UTC [2026/02/16 12:20:40 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (4784 in chips) 
+Seat 3: julionakamuta (905 in chips) 
+Seat 4: Crunkhead187 (2647 in chips) 
+Seat 8: Pentecoste54 (1754 in chips) 
+Seat 9: scorza23 (3410 in chips) 
+RafaelBaude: posts small blind 75
+julionakamuta: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Kc]
+Crunkhead187: folds 
+Pentecoste54: raises 1604 to 1754 and is all-in
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Uncalled bet (1604) returned to Pentecoste54
+Pentecoste54 collected 375 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: RafaelBaude (small blind) folded before Flop
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 collected (375)
+Seat 9: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750783207: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:59 UTC [2026/02/16 12:20:59 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (4709 in chips) 
+Seat 3: julionakamuta (755 in chips) 
+Seat 4: Crunkhead187 (2647 in chips) 
+Seat 8: Pentecoste54 (1979 in chips) 
+Seat 9: scorza23 (3410 in chips) 
+julionakamuta: posts small blind 75
+Crunkhead187: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 5c]
+Pentecoste54: raises 1829 to 1979 and is all-in
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: calls 680 and is all-in
+Crunkhead187: folds 
+Uncalled bet (1224) returned to Pentecoste54
+*** FLOP *** [As Td 4c]
+*** TURN *** [As Td 4c] [Jh]
+*** RIVER *** [As Td 4c Jh] [2c]
+*** SHOW DOWN ***
+julionakamuta: shows [Js Qc] (a pair of Jacks)
+Pentecoste54: shows [5d 5h] (a pair of Fives)
+julionakamuta collected 1660 from pot
+*** SUMMARY ***
+Total pot 1660 | Rake 0 
+Board [As Td 4c Jh 2c]
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) showed [Js Qc] and won (1660) with a pair of Jacks
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 8: Pentecoste54 showed [5d 5h] and lost with a pair of Fives
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750788185: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:21:23 UTC [2026/02/16 12:21:23 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (4709 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2497 in chips) 
+Seat 8: Pentecoste54 (1224 in chips) 
+Seat 9: scorza23 (3410 in chips) 
+Crunkhead187: posts small blind 75
+Pentecoste54: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 2d]
+scorza23: folds 
+RafaelBaude: raises 150 to 300
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+Uncalled bet (150) returned to RafaelBaude
+RafaelBaude collected 375 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: RafaelBaude collected (375)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 8: Pentecoste54 (big blind) folded before Flop
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750793659: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:21:49 UTC [2026/02/16 12:21:49 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (4934 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2422 in chips) 
+Seat 8: Pentecoste54 (1074 in chips) 
+Seat 9: scorza23 (3410 in chips) 
+Pentecoste54: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 7c]
+RafaelBaude: raises 200 to 400
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (200) returned to RafaelBaude
+RafaelBaude collected 500 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: RafaelBaude collected (500)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750796522: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:22:03 UTC [2026/02/16 12:22:03 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (5234 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2422 in chips) 
+Seat 8: Pentecoste54 (974 in chips) 
+Seat 9: scorza23 (3210 in chips) 
+scorza23: posts small blind 100
+RafaelBaude: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 5c]
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: raises 774 to 974 and is all-in
+scorza23: folds 
+RafaelBaude: calls 774
+*** FLOP *** [Kh 4s 8d]
+*** TURN *** [Kh 4s 8d] [Td]
+*** RIVER *** [Kh 4s 8d Td] [Qh]
+*** SHOW DOWN ***
+RafaelBaude: shows [9s Ad] (high card Ace)
+Pentecoste54: shows [7c Kc] (a pair of Kings)
+Pentecoste54 collected 2048 from pot
+*** SUMMARY ***
+Total pot 2048 | Rake 0 
+Board [Kh 4s 8d Td Qh]
+Seat 1: RafaelBaude (big blind) showed [9s Ad] and lost with high card Ace
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) showed [7c Kc] and won (2048) with a pair of Kings
+Seat 9: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750804021: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:22:39 UTC [2026/02/16 12:22:39 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (4260 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2422 in chips) 
+Seat 8: Pentecoste54 (2048 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+RafaelBaude: posts small blind 100
+julionakamuta: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 4d]
+Crunkhead187: calls 200
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 200 to 400
+julionakamuta: folds 
+Crunkhead187: calls 200
+*** FLOP *** [3d 6h Qh]
+RafaelBaude: checks 
+Crunkhead187: bets 200
+RafaelBaude: calls 200
+*** TURN *** [3d 6h Qh] [3c]
+RafaelBaude: checks 
+Crunkhead187: bets 200
+RafaelBaude: folds 
+Uncalled bet (200) returned to Crunkhead187
+Crunkhead187 collected 1400 from pot
+*** SUMMARY ***
+Total pot 1400 | Rake 0 
+Board [3d 6h Qh 3c]
+Seat 1: RafaelBaude (small blind) folded on the Turn
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 collected (1400)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750812722: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:23:21 UTC [2026/02/16 12:23:21 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (3660 in chips) 
+Seat 3: julionakamuta (1460 in chips) 
+Seat 4: Crunkhead187 (3222 in chips) 
+Seat 8: Pentecoste54 (2048 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+julionakamuta: posts small blind 100
+Crunkhead187: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Ad]
+Pentecoste54: raises 1848 to 2048 and is all-in
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Uncalled bet (1848) returned to Pentecoste54
+Pentecoste54 collected 500 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) folded before Flop
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 8: Pentecoste54 collected (500)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750816178: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:23:37 UTC [2026/02/16 12:23:37 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (3660 in chips) 
+Seat 3: julionakamuta (1360 in chips) 
+Seat 4: Crunkhead187 (3022 in chips) 
+Seat 8: Pentecoste54 (2348 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+Crunkhead187: posts small blind 100
+Pentecoste54: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 9h]
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: raises 1160 to 1360 and is all-in
+Crunkhead187: folds 
+Pentecoste54: folds 
+Uncalled bet (1160) returned to julionakamuta
+julionakamuta collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) collected (500)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 8: Pentecoste54 (big blind) folded before Flop
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750820899: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:24:00 UTC [2026/02/16 12:24:00 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (3660 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2922 in chips) 
+Seat 8: Pentecoste54 (2148 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+Pentecoste54: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ah]
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: raises 1948 to 2148 and is all-in
+scorza23: folds 
+Uncalled bet (1948) returned to Pentecoste54
+Pentecoste54 collected 400 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (small blind) collected (400)
+Seat 9: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750831049: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:24:48 UTC [2026/02/16 12:24:48 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (3660 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2922 in chips) 
+Seat 8: Pentecoste54 (2348 in chips) 
+Seat 9: scorza23 (2910 in chips) 
+scorza23: posts small blind 100
+RafaelBaude: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 5s]
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (100) returned to RafaelBaude
+RafaelBaude collected 200 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: RafaelBaude (big blind) collected (200)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 9: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750835106: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:25:08 UTC [2026/02/16 12:25:08 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (3760 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2922 in chips) 
+Seat 8: Pentecoste54 (2348 in chips) 
+Seat 9: scorza23 (2810 in chips) 
+RafaelBaude: posts small blind 100
+julionakamuta: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5h As]
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 200 to 400
+julionakamuta: folds 
+Uncalled bet (200) returned to RafaelBaude
+RafaelBaude collected 400 from pot
+RafaelBaude: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: RafaelBaude (small blind) collected (400)
+Seat 3: julionakamuta (big blind) folded before Flop
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750841380: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:25:38 UTC [2026/02/16 12:25:38 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (3960 in chips) 
+Seat 3: julionakamuta (1460 in chips) 
+Seat 4: Crunkhead187 (2922 in chips) 
+Seat 8: Pentecoste54 (2348 in chips) 
+Seat 9: scorza23 (2810 in chips) 
+julionakamuta: posts small blind 100
+Crunkhead187: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 6d]
+Pentecoste54 has timed out
+Pentecoste54: folds 
+Pentecoste54 is sitting out
+scorza23: folds 
+RafaelBaude: folds 
+Pentecoste54 has returned
+julionakamuta: raises 1260 to 1460 and is all-in
+Crunkhead187: folds 
+Uncalled bet (1260) returned to julionakamuta
+julionakamuta collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) collected (400)
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750847063: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:26:05 UTC [2026/02/16 12:26:05 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (3960 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2722 in chips) 
+Seat 8: Pentecoste54 (2348 in chips) 
+Seat 9: scorza23 (2810 in chips) 
+Crunkhead187: posts small blind 100
+Pentecoste54: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Th]
+scorza23: raises 400 to 600
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) folded before Flop
+Seat 8: Pentecoste54 (big blind) folded before Flop
+Seat 9: scorza23 collected (500)
+
+
+
+PokerStars Hand #259750851186: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:26:24 UTC [2026/02/16 12:26:24 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (3960 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (2622 in chips) 
+Seat 8: Pentecoste54 (2148 in chips) 
+Seat 9: scorza23 (3110 in chips) 
+Pentecoste54: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Qc]
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 200
+Pentecoste54: folds 
+scorza23: checks 
+*** FLOP *** [7h 8s Qh]
+scorza23: bets 500
+Crunkhead187: calls 500
+*** TURN *** [7h 8s Qh] [6h]
+scorza23: bets 2410 and is all-in
+Crunkhead187: calls 1922 and is all-in
+Uncalled bet (488) returned to scorza23
+*** RIVER *** [7h 8s Qh 6h] [3s]
+*** SHOW DOWN ***
+scorza23: shows [7d Qc] (two pair, Queens and Sevens)
+Crunkhead187: shows [7s 7c] (three of a kind, Sevens)
+Crunkhead187 collected 5344 from pot
+*** SUMMARY ***
+Total pot 5344 | Rake 0 
+Board [7h 8s Qh 6h 3s]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) showed [7s 7c] and won (5344) with three of a kind, Sevens
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) showed [7d Qc] and lost with two pair, Queens and Sevens
+
+
+
+PokerStars Hand #259750857224: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:26:53 UTC [2026/02/16 12:26:53 ET]
+Table '3975701907 1' 9-max Seat #8 is the button
+Seat 1: RafaelBaude (3960 in chips) 
+Seat 3: julionakamuta (1660 in chips) 
+Seat 4: Crunkhead187 (5344 in chips) 
+Seat 8: Pentecoste54 (2048 in chips) 
+Seat 9: scorza23 (488 in chips) 
+RafaelBaude: posts the ante 25
+julionakamuta: posts the ante 25
+Crunkhead187: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+RafaelBaude: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 3h]
+julionakamuta: folds 
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: raises 263 to 463 and is all-in
+RafaelBaude: folds 
+Uncalled bet (263) returned to scorza23
+scorza23 collected 525 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 1: RafaelBaude (big blind) folded before Flop
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 9: scorza23 (small blind) collected (525)
+
+
+
+PokerStars Hand #259750863409: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:27:22 UTC [2026/02/16 12:27:22 ET]
+Table '3975701907 1' 9-max Seat #9 is the button
+Seat 1: RafaelBaude (3735 in chips) 
+Seat 3: julionakamuta (1635 in chips) 
+Seat 4: Crunkhead187 (5319 in chips) 
+Seat 8: Pentecoste54 (2023 in chips) 
+Seat 9: scorza23 (788 in chips) 
+RafaelBaude: posts the ante 25
+julionakamuta: posts the ante 25
+Crunkhead187: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+RafaelBaude: posts small blind 100
+julionakamuta: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 9c]
+Crunkhead187: folds 
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: raises 200 to 400
+julionakamuta: raises 1210 to 1610 and is all-in
+RafaelBaude: folds 
+Uncalled bet (1210) returned to julionakamuta
+julionakamuta collected 925 from pot
+*** SUMMARY ***
+Total pot 925 | Rake 0 
+Seat 1: RafaelBaude (small blind) folded before Flop
+Seat 3: julionakamuta (big blind) collected (925)
+Seat 4: Crunkhead187 folded before Flop (didn't bet)
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750868418: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:27:47 UTC [2026/02/16 12:27:47 ET]
+Table '3975701907 1' 9-max Seat #1 is the button
+Seat 1: RafaelBaude (3310 in chips) 
+Seat 3: julionakamuta (2135 in chips) 
+Seat 4: Crunkhead187 (5294 in chips) 
+Seat 8: Pentecoste54 (1998 in chips) 
+Seat 9: scorza23 (763 in chips) 
+RafaelBaude: posts the ante 25
+julionakamuta: posts the ante 25
+Crunkhead187: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+julionakamuta: posts small blind 100
+Crunkhead187: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 3c]
+Pentecoste54: folds 
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: raises 1910 to 2110 and is all-in
+Crunkhead187: folds 
+Uncalled bet (1910) returned to julionakamuta
+julionakamuta collected 525 from pot
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 1: RafaelBaude (button) folded before Flop (didn't bet)
+Seat 3: julionakamuta (small blind) collected (525)
+Seat 4: Crunkhead187 (big blind) folded before Flop
+Seat 8: Pentecoste54 folded before Flop (didn't bet)
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750874093: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:28:14 UTC [2026/02/16 12:28:14 ET]
+Table '3975701907 1' 9-max Seat #3 is the button
+Seat 1: RafaelBaude (3285 in chips) 
+Seat 3: julionakamuta (2435 in chips) 
+Seat 4: Crunkhead187 (5069 in chips) 
+Seat 8: Pentecoste54 (1973 in chips) 
+Seat 9: scorza23 (738 in chips) 
+RafaelBaude: posts the ante 25
+julionakamuta: posts the ante 25
+Crunkhead187: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+Crunkhead187: posts small blind 100
+Pentecoste54: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 2c]
+scorza23: folds 
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 100
+Pentecoste54: checks 
+*** FLOP *** [2d Qs 7s]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** TURN *** [2d Qs 7s] [Ts]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** RIVER *** [2d Qs 7s Ts] [8h]
+Crunkhead187: checks 
+Pentecoste54: checks 
+*** SHOW DOWN ***
+Crunkhead187: shows [Ah 5h] (high card Ace)
+Pentecoste54: mucks hand 
+Crunkhead187 collected 525 from pot
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [2d Qs 7s Ts 8h]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta (button) folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (small blind) showed [Ah 5h] and won (525) with high card Ace
+Seat 8: Pentecoste54 (big blind) mucked [Ks 9h]
+Seat 9: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750887213: Tournament #3975701907, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:29:17 UTC [2026/02/16 12:29:17 ET]
+Table '3975701907 1' 9-max Seat #4 is the button
+Seat 1: RafaelBaude (3260 in chips) 
+Seat 3: julionakamuta (2410 in chips) 
+Seat 4: Crunkhead187 (5369 in chips) 
+Seat 8: Pentecoste54 (1748 in chips) 
+Seat 9: scorza23 (713 in chips) 
+RafaelBaude: posts the ante 25
+julionakamuta: posts the ante 25
+Crunkhead187: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+Pentecoste54: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 7s]
+RafaelBaude: folds 
+julionakamuta: folds 
+Crunkhead187: calls 200
+Pentecoste54: folds 
+scorza23: raises 488 to 688 and is all-in
+Crunkhead187: calls 488
+*** FLOP *** [8d Kd Qh]
+*** TURN *** [8d Kd Qh] [Ac]
+*** RIVER *** [8d Kd Qh Ac] [3h]
+*** SHOW DOWN ***
+scorza23: shows [7d 7s] (a pair of Sevens)
+Crunkhead187: shows [Ah 4s] (a pair of Aces)
+Crunkhead187 collected 1601 from pot
+scorza23 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1601 | Rake 0 
+Board [8d Kd Qh Ac 3h]
+Seat 1: RafaelBaude folded before Flop (didn't bet)
+Seat 3: julionakamuta folded before Flop (didn't bet)
+Seat 4: Crunkhead187 (button) showed [Ah 4s] and won (1601) with a pair of Aces
+Seat 8: Pentecoste54 (small blind) folded before Flop
+Seat 9: scorza23 (big blind) showed [7d 7s] and lost with a pair of Sevens
+
+
+

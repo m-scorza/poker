@@ -1,0 +1,2647 @@
+﻿PokerStars Hand #260347415733: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:18:20 UTC [2026/04/04 18:18:20 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (1500 in chips) 
+Seat 2: LaioMan (1500 in chips) 
+Seat 3: Black Stork21 (1500 in chips) 
+Seat 4: thainanr98 (1500 in chips) 
+Seat 5: Rouby7907 (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: SenegoiD31 (1500 in chips) 
+Seat 8: Stun64 (1500 in chips) 
+Seat 9: TheDiesel099 (1500 in chips) 
+MMM1975MMM: posts the ante 3
+LaioMan: posts the ante 3
+Black Stork21: posts the ante 3
+thainanr98: posts the ante 3
+Rouby7907: posts the ante 3
+scorza23: posts the ante 3
+SenegoiD31: posts the ante 3
+Stun64: posts the ante 3
+TheDiesel099: posts the ante 3
+LaioMan: posts small blind 10
+Black Stork21: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 4h]
+thainanr98: raises 40 to 60
+Rouby7907: calls 60
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: folds 
+TheDiesel099: calls 60
+MMM1975MMM: calls 60
+LaioMan: folds 
+Black Stork21: folds 
+*** FLOP *** [6h Ad 8c]
+thainanr98: bets 149
+Rouby7907: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+Uncalled bet (149) returned to thainanr98
+thainanr98 collected 297 from pot
+thainanr98: doesn't show hand 
+*** SUMMARY ***
+Total pot 297 | Rake 0 
+Board [6h Ad 8c]
+Seat 1: MMM1975MMM (button) folded on the Flop
+Seat 2: LaioMan (small blind) folded before Flop
+Seat 3: Black Stork21 (big blind) folded before Flop
+Seat 4: thainanr98 collected (297)
+Seat 5: Rouby7907 folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded on the Flop
+
+
+
+PokerStars Hand #260347428816: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:19:21 UTC [2026/04/04 18:19:21 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (1437 in chips) 
+Seat 2: LaioMan (1487 in chips) 
+Seat 3: Black Stork21 (1477 in chips) 
+Seat 4: thainanr98 (1734 in chips) 
+Seat 5: Rouby7907 (1437 in chips) 
+Seat 6: scorza23 (1497 in chips) 
+Seat 7: SenegoiD31 (1497 in chips) 
+Seat 8: Stun64 (1497 in chips) 
+Seat 9: TheDiesel099 (1437 in chips) 
+MMM1975MMM: posts the ante 3
+LaioMan: posts the ante 3
+Black Stork21: posts the ante 3
+thainanr98: posts the ante 3
+Rouby7907: posts the ante 3
+scorza23: posts the ante 3
+SenegoiD31: posts the ante 3
+Stun64: posts the ante 3
+TheDiesel099: posts the ante 3
+Black Stork21: posts small blind 10
+thainanr98: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 4s]
+Rouby7907: calls 20
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: folds 
+Black Stork21: raises 60 to 80
+thainanr98: folds 
+Rouby7907: calls 60
+*** FLOP *** [2h 7h 5h]
+MMM1975MMM is disconnected 
+Black Stork21: bets 140
+Rouby7907: calls 140
+*** TURN *** [2h 7h 5h] [2d]
+MMM1975MMM is disconnected 
+Black Stork21: bets 320
+Rouby7907: raises 420 to 740
+Black Stork21: raises 420 to 1160
+Rouby7907: calls 420
+*** RIVER *** [2h 7h 5h 2d] [8c]
+Black Stork21: bets 94 and is all-in
+Rouby7907: calls 54 and is all-in
+Uncalled bet (40) returned to Black Stork21
+*** SHOW DOWN ***
+Black Stork21: shows [Kh Kc] (two pair, Kings and Deuces)
+Rouby7907: shows [Jh 2s] (three of a kind, Deuces)
+Rouby7907 collected 2915 from pot
+*** SUMMARY ***
+Total pot 2915 | Rake 0 
+Board [2h 7h 5h 2d 8c]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded before Flop (didn't bet)
+Seat 3: Black Stork21 (small blind) showed [Kh Kc] and lost with two pair, Kings and Deuces
+Seat 4: thainanr98 (big blind) folded before Flop
+Seat 5: Rouby7907 showed [Jh 2s] and won (2915) with three of a kind, Deuces
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347445931: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:20:41 UTC [2026/04/04 18:20:41 ET]
+Table '3989330647 1' 9-max Seat #3 is the button
+Seat 1: MMM1975MMM (1434 in chips) 
+Seat 2: LaioMan (1484 in chips) 
+Seat 3: Black Stork21 (40 in chips) 
+Seat 4: thainanr98 (1711 in chips) 
+Seat 5: Rouby7907 (2915 in chips) 
+Seat 6: scorza23 (1494 in chips) 
+Seat 7: SenegoiD31 (1494 in chips) 
+Seat 8: Stun64 (1494 in chips) 
+Seat 9: TheDiesel099 (1434 in chips) 
+MMM1975MMM: posts the ante 3
+LaioMan: posts the ante 3
+Black Stork21: posts the ante 3
+thainanr98: posts the ante 3
+Rouby7907: posts the ante 3
+scorza23: posts the ante 3
+SenegoiD31: posts the ante 3
+Stun64: posts the ante 3
+TheDiesel099: posts the ante 3
+thainanr98: posts small blind 10
+Rouby7907: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 6h]
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: raises 25 to 45
+Black Stork21: folds 
+thainanr98: folds 
+Rouby7907: calls 25
+*** FLOP *** [7c Qh Jh]
+Rouby7907: checks 
+LaioMan: bets 60
+Rouby7907: calls 60
+*** TURN *** [7c Qh Jh] [9h]
+Rouby7907: checks 
+LaioMan: checks 
+*** RIVER *** [7c Qh Jh 9h] [7s]
+Rouby7907: checks 
+LaioMan: checks 
+*** SHOW DOWN ***
+Rouby7907: shows [5s 8h] (a pair of Sevens)
+LaioMan: shows [Ks Ad] (a pair of Sevens - Ace kicker)
+LaioMan collected 247 from pot
+*** SUMMARY ***
+Total pot 247 | Rake 0 
+Board [7c Qh Jh 9h 7s]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan showed [Ks Ad] and won (247) with a pair of Sevens
+Seat 3: Black Stork21 (button) folded before Flop (didn't bet)
+Seat 4: thainanr98 (small blind) folded before Flop
+Seat 5: Rouby7907 (big blind) showed [5s 8h] and lost with a pair of Sevens
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347462067: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:21:56 UTC [2026/04/04 18:21:56 ET]
+Table '3989330647 1' 9-max Seat #4 is the button
+Seat 1: MMM1975MMM (1431 in chips) 
+Seat 2: LaioMan (1623 in chips) 
+Seat 3: Black Stork21 (37 in chips) 
+Seat 4: thainanr98 (1698 in chips) 
+Seat 5: Rouby7907 (2807 in chips) 
+Seat 6: scorza23 (1491 in chips) 
+Seat 7: SenegoiD31 (1491 in chips) 
+Seat 8: Stun64 (1491 in chips) 
+Seat 9: TheDiesel099 (1431 in chips) 
+MMM1975MMM: posts the ante 3
+LaioMan: posts the ante 3
+Black Stork21: posts the ante 3
+thainanr98: posts the ante 3
+Rouby7907: posts the ante 3
+scorza23: posts the ante 3
+SenegoiD31: posts the ante 3
+Stun64: posts the ante 3
+TheDiesel099: posts the ante 3
+Rouby7907: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 5h]
+SenegoiD31: raises 20 to 40
+Stun64: calls 40
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: calls 40
+Black Stork21: calls 34 and is all-in
+thainanr98: raises 80 to 120
+Rouby7907: calls 110
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: calls 80
+LaioMan: calls 80
+*** FLOP *** [2h 6c Jh]
+Rouby7907: checks 
+Stun64: checks 
+LaioMan: checks 
+thainanr98: bets 401
+Rouby7907: calls 401
+Stun64: folds 
+LaioMan: raises 1099 to 1500 and is all-in
+thainanr98: calls 1099
+Rouby7907: folds 
+*** TURN *** [2h 6c Jh] [Kc]
+*** RIVER *** [2h 6c Jh Kc] [3h]
+*** SHOW DOWN ***
+LaioMan: shows [Js Jc] (three of a kind, Jacks)
+thainanr98: shows [As Qh] (high card Ace)
+LaioMan collected 3751 from side pot
+Black Stork21: shows [Jd 9h] (a pair of Jacks)
+LaioMan collected 251 from main pot
+Black Stork21 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 4002 Main pot 251. Side pot 3751. | Rake 0 
+Board [2h 6c Jh Kc 3h]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan showed [Js Jc] and won (4002) with three of a kind, Jacks
+Seat 3: Black Stork21 showed [Jd 9h] and lost with a pair of Jacks
+Seat 4: thainanr98 (button) showed [As Qh] and lost with high card Ace
+Seat 5: Rouby7907 (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: SenegoiD31 folded before Flop
+Seat 8: Stun64 folded on the Flop
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347486188: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:23:50 UTC [2026/04/04 18:23:50 ET]
+Table '3989330647 1' 9-max Seat #5 is the button
+Seat 1: MMM1975MMM (1428 in chips) 
+Seat 2: LaioMan (4002 in chips) 
+Seat 4: thainanr98 (75 in chips) 
+Seat 5: Rouby7907 (2283 in chips) 
+Seat 6: scorza23 (1468 in chips) 
+Seat 7: SenegoiD31 (1448 in chips) 
+Seat 8: Stun64 (1368 in chips) 
+Seat 9: TheDiesel099 (1428 in chips) 
+MMM1975MMM: posts the ante 4
+LaioMan: posts the ante 4
+thainanr98: posts the ante 4
+Rouby7907: posts the ante 4
+scorza23: posts the ante 4
+SenegoiD31: posts the ante 4
+Stun64: posts the ante 4
+TheDiesel099: posts the ante 4
+scorza23: posts small blind 15
+SenegoiD31: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ts]
+Stun64: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: folds 
+thainanr98: raises 41 to 71 and is all-in
+Rouby7907: calls 71
+scorza23: folds 
+SenegoiD31: folds 
+*** FLOP *** [7s Td 2h]
+*** TURN *** [7s Td 2h] [2d]
+*** RIVER *** [7s Td 2h 2d] [Kd]
+*** SHOW DOWN ***
+thainanr98: shows [8h Kh] (two pair, Kings and Deuces)
+Rouby7907: shows [As Ac] (two pair, Aces and Deuces)
+Rouby7907 collected 219 from pot
+thainanr98 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 219 | Rake 0 
+Board [7s Td 2h 2d Kd]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 4: thainanr98 showed [8h Kh] and lost with two pair, Kings and Deuces
+Seat 5: Rouby7907 (button) showed [As Ac] and won (219) with two pair, Aces and Deuces
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: SenegoiD31 (big blind) folded before Flop
+Seat 8: Stun64 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347494399: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:24:29 UTC [2026/04/04 18:24:29 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (1424 in chips) 
+Seat 2: LaioMan (3998 in chips) 
+Seat 5: Rouby7907 (2427 in chips) 
+Seat 6: scorza23 (1449 in chips) 
+Seat 7: SenegoiD31 (1414 in chips) 
+Seat 8: Stun64 (1364 in chips) 
+Seat 9: TheDiesel099 (1424 in chips) 
+MMM1975MMM: posts the ante 4
+LaioMan: posts the ante 4
+Rouby7907: posts the ante 4
+scorza23: posts the ante 4
+SenegoiD31: posts the ante 4
+Stun64: posts the ante 4
+TheDiesel099: posts the ante 4
+SenegoiD31: posts small blind 15
+Stun64: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 6s]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: calls 30
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: checks 
+*** FLOP *** [2h Qd 4s]
+Stun64: bets 52
+Rouby7907: calls 52
+*** TURN *** [2h Qd 4s] [9s]
+Stun64: bets 207
+Rouby7907: calls 207
+*** RIVER *** [2h Qd 4s 9s] [5d]
+Stun64: bets 311
+Rouby7907: calls 311
+*** SHOW DOWN ***
+Stun64: shows [6h Qs] (a pair of Queens)
+Rouby7907: mucks hand 
+Stun64 collected 1243 from pot
+*** SUMMARY ***
+Total pot 1243 | Rake 0 
+Board [2h Qd 4s 9s 5d]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 mucked [9d Kc]
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (small blind) folded before Flop
+Seat 8: Stun64 (big blind) showed [6h Qs] and won (1243) with a pair of Queens
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347506542: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:25:26 UTC [2026/04/04 18:25:26 ET]
+Table '3989330647 1' 9-max Seat #7 is the button
+Seat 1: MMM1975MMM (1420 in chips) 
+Seat 2: LaioMan (3994 in chips) 
+Seat 5: Rouby7907 (1823 in chips) 
+Seat 6: scorza23 (1445 in chips) 
+Seat 7: SenegoiD31 (1395 in chips) 
+Seat 8: Stun64 (2003 in chips) 
+Seat 9: TheDiesel099 (1420 in chips) 
+MMM1975MMM: posts the ante 4
+LaioMan: posts the ante 4
+Rouby7907: posts the ante 4
+scorza23: posts the ante 4
+SenegoiD31: posts the ante 4
+Stun64: posts the ante 4
+TheDiesel099: posts the ante 4
+Stun64: posts small blind 15
+TheDiesel099: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ts]
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: calls 30
+scorza23: folds 
+SenegoiD31: raises 30 to 60
+Stun64: folds 
+TheDiesel099: calls 30
+Rouby7907: calls 30
+*** FLOP *** [7s Kc Jh]
+TheDiesel099: checks 
+Rouby7907: checks 
+SenegoiD31: checks 
+*** TURN *** [7s Kc Jh] [7h]
+TheDiesel099: bets 90
+Rouby7907: calls 90
+SenegoiD31: folds 
+*** RIVER *** [7s Kc Jh 7h] [Ac]
+TheDiesel099: checks 
+Rouby7907: bets 30
+TheDiesel099: folds 
+Uncalled bet (30) returned to Rouby7907
+Rouby7907 collected 403 from pot
+*** SUMMARY ***
+Total pot 403 | Rake 0 
+Board [7s Kc Jh 7h Ac]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 collected (403)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (button) folded on the Turn
+Seat 8: Stun64 (small blind) folded before Flop
+Seat 9: TheDiesel099 (big blind) folded on the River
+
+
+
+PokerStars Hand #260347522076: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:26:39 UTC [2026/04/04 18:26:39 ET]
+Table '3989330647 1' 9-max Seat #8 is the button
+Seat 1: MMM1975MMM (1416 in chips) 
+Seat 2: LaioMan (3990 in chips) 
+Seat 5: Rouby7907 (2072 in chips) 
+Seat 6: scorza23 (1441 in chips) 
+Seat 7: SenegoiD31 (1331 in chips) 
+Seat 8: Stun64 (1984 in chips) 
+Seat 9: TheDiesel099 (1266 in chips) 
+MMM1975MMM: posts the ante 4
+LaioMan: posts the ante 4
+Rouby7907: posts the ante 4
+scorza23: posts the ante 4
+SenegoiD31: posts the ante 4
+Stun64: posts the ante 4
+TheDiesel099: posts the ante 4
+TheDiesel099: posts small blind 15
+MMM1975MMM: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 9h]
+LaioMan: folds 
+Rouby7907: folds 
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: folds 
+TheDiesel099: folds 
+Uncalled bet (15) returned to MMM1975MMM
+MMM1975MMM collected 58 from pot
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: MMM1975MMM (big blind) collected (58)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347526713: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:27:01 UTC [2026/04/04 18:27:01 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (1455 in chips) 
+Seat 2: LaioMan (3986 in chips) 
+Seat 5: Rouby7907 (2068 in chips) 
+Seat 6: scorza23 (1437 in chips) 
+Seat 7: SenegoiD31 (1327 in chips) 
+Seat 8: Stun64 (1980 in chips) 
+Seat 9: TheDiesel099 (1247 in chips) 
+MMM1975MMM: posts the ante 4
+LaioMan: posts the ante 4
+Rouby7907: posts the ante 4
+scorza23: posts the ante 4
+SenegoiD31: posts the ante 4
+Stun64: posts the ante 4
+TheDiesel099: posts the ante 4
+MMM1975MMM: posts small blind 15
+LaioMan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 5d]
+Rouby7907: calls 30
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: checks 
+*** FLOP *** [Qs 8h Kc]
+LaioMan: checks 
+Rouby7907: bets 30
+LaioMan: calls 30
+*** TURN *** [Qs 8h Kc] [4d]
+LaioMan: checks 
+Rouby7907: bets 30
+LaioMan: calls 30
+*** RIVER *** [Qs 8h Kc 4d] [Kd]
+LaioMan: checks 
+Rouby7907: bets 600
+LaioMan: folds 
+Uncalled bet (600) returned to Rouby7907
+Rouby7907 collected 223 from pot
+*** SUMMARY ***
+Total pot 223 | Rake 0 
+Board [Qs 8h Kc 4d Kd]
+Seat 1: MMM1975MMM (small blind) folded before Flop
+Seat 2: LaioMan (big blind) folded on the River
+Seat 5: Rouby7907 collected (223)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347541584: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:28:12 UTC [2026/04/04 18:28:12 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (1436 in chips) 
+Seat 2: LaioMan (3892 in chips) 
+Seat 5: Rouby7907 (2197 in chips) 
+Seat 6: scorza23 (1433 in chips) 
+Seat 7: SenegoiD31 (1323 in chips) 
+Seat 8: Stun64 (1976 in chips) 
+Seat 9: TheDiesel099 (1243 in chips) 
+MMM1975MMM: posts the ante 4
+LaioMan: posts the ante 4
+Rouby7907: posts the ante 4
+scorza23: posts the ante 4
+SenegoiD31: posts the ante 4
+Stun64: posts the ante 4
+TheDiesel099: posts the ante 4
+LaioMan: posts small blind 15
+Rouby7907: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5h]
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: raises 30 to 60
+TheDiesel099: calls 60
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: raises 30 to 90
+Stun64: calls 30
+TheDiesel099: calls 30
+*** FLOP *** [Kh 6s 7h]
+Rouby7907: bets 210
+Stun64: folds 
+TheDiesel099: calls 210
+*** TURN *** [Kh 6s 7h] [Ts]
+Rouby7907: bets 30
+TheDiesel099: raises 180 to 210
+Rouby7907: calls 180
+*** RIVER *** [Kh 6s 7h Ts] [9c]
+Rouby7907: bets 30
+TheDiesel099: raises 364 to 394
+Rouby7907: calls 364
+*** SHOW DOWN ***
+TheDiesel099: shows [6c Kc] (two pair, Kings and Sixes)
+Rouby7907: mucks hand 
+TheDiesel099 collected 1941 from pot
+*** SUMMARY ***
+Total pot 1941 | Rake 0 
+Board [Kh 6s 7h Ts 9c]
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) folded before Flop
+Seat 5: Rouby7907 (big blind) mucked [Qc Ks]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 folded on the Flop
+Seat 9: TheDiesel099 showed [6c Kc] and won (1941) with two pair, Kings and Sixes
+
+
+
+PokerStars Hand #260347560437: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:29:40 UTC [2026/04/04 18:29:40 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (1432 in chips) 
+Seat 2: LaioMan (3873 in chips) 
+Seat 5: Rouby7907 (1289 in chips) 
+Seat 6: scorza23 (1429 in chips) 
+Seat 7: SenegoiD31 (1319 in chips) 
+Seat 8: Stun64 (1882 in chips) 
+Seat 9: TheDiesel099 (2276 in chips) 
+MMM1975MMM: posts the ante 6
+LaioMan: posts the ante 6
+Rouby7907: posts the ante 6
+scorza23: posts the ante 6
+SenegoiD31: posts the ante 6
+Stun64: posts the ante 6
+TheDiesel099: posts the ante 6
+Rouby7907: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Th]
+SenegoiD31: folds 
+Stun64: calls 50
+TheDiesel099: folds 
+MMM1975MMM: raises 50 to 100
+LaioMan: folds 
+Rouby7907: calls 75
+scorza23: folds 
+Stun64: calls 50
+*** FLOP *** [Ts 9s Ad]
+Rouby7907: checks 
+Stun64: checks 
+MMM1975MMM: checks 
+*** TURN *** [Ts 9s Ad] [5h]
+Rouby7907: checks 
+Stun64: checks 
+MMM1975MMM: checks 
+*** RIVER *** [Ts 9s Ad 5h] [6c]
+Rouby7907: checks 
+Stun64: checks 
+MMM1975MMM: checks 
+*** SHOW DOWN ***
+Rouby7907: shows [3c 5c] (a pair of Fives)
+Stun64: mucks hand 
+MMM1975MMM: mucks hand 
+Rouby7907 collected 392 from pot
+*** SUMMARY ***
+Total pot 392 | Rake 0 
+Board [Ts 9s Ad 5h 6c]
+Seat 1: MMM1975MMM mucked [3h Kh]
+Seat 2: LaioMan (button) folded before Flop (didn't bet)
+Seat 5: Rouby7907 (small blind) showed [3c 5c] and won (392) with a pair of Fives
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 mucked [4d Qd]
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347577255: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:31:01 UTC [2026/04/04 18:31:01 ET]
+Table '3989330647 1' 9-max Seat #5 is the button
+Seat 1: MMM1975MMM (1326 in chips) 
+Seat 2: LaioMan (3867 in chips) 
+Seat 5: Rouby7907 (1575 in chips) 
+Seat 6: scorza23 (1373 in chips) 
+Seat 7: SenegoiD31 (1313 in chips) 
+Seat 8: Stun64 (1776 in chips) 
+Seat 9: TheDiesel099 (2270 in chips) 
+MMM1975MMM: posts the ante 6
+LaioMan: posts the ante 6
+Rouby7907: posts the ante 6
+scorza23: posts the ante 6
+SenegoiD31: posts the ante 6
+Stun64: posts the ante 6
+TheDiesel099: posts the ante 6
+scorza23: posts small blind 25
+SenegoiD31: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Jd]
+Stun64: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: calls 50
+scorza23: folds 
+SenegoiD31: checks 
+*** FLOP *** [Ks 4s 3d]
+SenegoiD31: checks 
+Rouby7907: checks 
+*** TURN *** [Ks 4s 3d] [Ts]
+SenegoiD31: checks 
+Rouby7907: checks 
+*** RIVER *** [Ks 4s 3d Ts] [4c]
+SenegoiD31: checks 
+Rouby7907: checks 
+*** SHOW DOWN ***
+SenegoiD31: shows [9h As] (a pair of Fours)
+Rouby7907: shows [7h 7c] (two pair, Sevens and Fours)
+Rouby7907 collected 167 from pot
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Board [Ks 4s 3d Ts 4c]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 (button) showed [7h 7c] and won (167) with two pair, Sevens and Fours
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: SenegoiD31 (big blind) showed [9h As] and lost with a pair of Fours
+Seat 8: Stun64 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347589570: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:32:01 UTC [2026/04/04 18:32:01 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (1320 in chips) 
+Seat 2: LaioMan (3861 in chips) 
+Seat 5: Rouby7907 (1686 in chips) 
+Seat 6: scorza23 (1342 in chips) 
+Seat 7: SenegoiD31 (1257 in chips) 
+Seat 8: Stun64 (1770 in chips) 
+Seat 9: TheDiesel099 (2264 in chips) 
+MMM1975MMM: posts the ante 6
+LaioMan: posts the ante 6
+Rouby7907: posts the ante 6
+scorza23: posts the ante 6
+SenegoiD31: posts the ante 6
+Stun64: posts the ante 6
+TheDiesel099: posts the ante 6
+SenegoiD31: posts small blind 25
+Stun64: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Th As]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: raises 50 to 100
+Rouby7907: calls 100
+scorza23: raises 200 to 300
+SenegoiD31: folds 
+Stun64: folds 
+LaioMan: folds 
+Rouby7907: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 417 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 417 | Rake 0 
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan folded before Flop
+Seat 5: Rouby7907 folded before Flop
+Seat 6: scorza23 (button) collected (417)
+Seat 7: SenegoiD31 (small blind) folded before Flop
+Seat 8: Stun64 (big blind) folded before Flop
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347603973: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:33:10 UTC [2026/04/04 18:33:10 ET]
+Table '3989330647 1' 9-max Seat #7 is the button
+Seat 1: MMM1975MMM (1314 in chips) 
+Seat 2: LaioMan (3755 in chips) 
+Seat 5: Rouby7907 (1580 in chips) 
+Seat 6: scorza23 (1653 in chips) 
+Seat 7: SenegoiD31 (1226 in chips) 
+Seat 8: Stun64 (1714 in chips) 
+Seat 9: TheDiesel099 (2258 in chips) 
+MMM1975MMM: posts the ante 6
+LaioMan: posts the ante 6
+Rouby7907: posts the ante 6
+scorza23: posts the ante 6
+SenegoiD31: posts the ante 6
+Stun64: posts the ante 6
+TheDiesel099: posts the ante 6
+Stun64: posts small blind 25
+TheDiesel099: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ks]
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: calls 50
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: calls 25
+TheDiesel099: checks 
+*** FLOP *** [7h 8d 3c]
+Stun64: checks 
+TheDiesel099: checks 
+Rouby7907: bets 50
+Stun64: folds 
+TheDiesel099: calls 50
+*** TURN *** [7h 8d 3c] [Js]
+TheDiesel099: checks 
+Rouby7907: bets 150
+TheDiesel099: folds 
+Uncalled bet (150) returned to Rouby7907
+Rouby7907 collected 292 from pot
+*** SUMMARY ***
+Total pot 292 | Rake 0 
+Board [7h 8d 3c Js]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 collected (292)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 8: Stun64 (small blind) folded on the Flop
+Seat 9: TheDiesel099 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #260347622427: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:34:39 UTC [2026/04/04 18:34:39 ET]
+Table '3989330647 1' 9-max Seat #8 is the button
+Seat 1: MMM1975MMM (1308 in chips) 
+Seat 2: LaioMan (3749 in chips) 
+Seat 5: Rouby7907 (1766 in chips) 
+Seat 6: scorza23 (1647 in chips) 
+Seat 7: SenegoiD31 (1220 in chips) 
+Seat 8: Stun64 (1658 in chips) 
+Seat 9: TheDiesel099 (2152 in chips) 
+MMM1975MMM: posts the ante 10
+LaioMan: posts the ante 10
+Rouby7907: posts the ante 10
+scorza23: posts the ante 10
+SenegoiD31: posts the ante 10
+Stun64: posts the ante 10
+TheDiesel099: posts the ante 10
+TheDiesel099: posts small blind 40
+MMM1975MMM: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 3h]
+LaioMan: folds 
+Rouby7907: calls 80
+scorza23: folds 
+SenegoiD31: folds 
+Stun64: raises 80 to 160
+TheDiesel099: folds 
+MMM1975MMM: folds 
+Rouby7907: calls 80
+*** FLOP *** [Qd 9d 6s]
+Rouby7907: bets 80
+Stun64: raises 80 to 160
+Rouby7907: raises 80 to 240
+Stun64: raises 1248 to 1488 and is all-in
+Rouby7907: calls 1248
+*** TURN *** [Qd 9d 6s] [7d]
+*** RIVER *** [Qd 9d 6s 7d] [Jd]
+*** SHOW DOWN ***
+Rouby7907: shows [Td 3d] (a flush, Queen high)
+Stun64: shows [Ks Qh] (a pair of Queens)
+Rouby7907 collected 3486 from pot
+Stun64 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 3486 | Rake 0 
+Board [Qd 9d 6s 7d Jd]
+Seat 1: MMM1975MMM (big blind) folded before Flop
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 showed [Td 3d] and won (3486) with a flush, Queen high
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 8: Stun64 (button) showed [Ks Qh] and lost with a pair of Queens
+Seat 9: TheDiesel099 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347636499: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:35:46 UTC [2026/04/04 18:35:46 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (1218 in chips) 
+Seat 2: LaioMan (3739 in chips) 
+Seat 5: Rouby7907 (3594 in chips) 
+Seat 6: scorza23 (1637 in chips) 
+Seat 7: SenegoiD31 (1210 in chips) 
+Seat 9: TheDiesel099 (2102 in chips) 
+MMM1975MMM: posts the ante 10
+LaioMan: posts the ante 10
+Rouby7907: posts the ante 10
+scorza23: posts the ante 10
+SenegoiD31: posts the ante 10
+TheDiesel099: posts the ante 10
+MMM1975MMM: posts small blind 40
+LaioMan: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Kh]
+Rouby7907: calls 80
+scorza23: raises 240 to 320
+SenegoiD31: folds 
+TheDiesel099: calls 320
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: folds 
+*** FLOP *** [6d 5c 2h]
+scorza23: checks 
+TheDiesel099: checks 
+*** TURN *** [6d 5c 2h] [3h]
+scorza23: bets 240
+TheDiesel099: calls 240
+*** RIVER *** [6d 5c 2h 3h] [6h]
+scorza23: bets 1067 and is all-in
+TheDiesel099: folds 
+Uncalled bet (1067) returned to scorza23
+scorza23 collected 1380 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1380 | Rake 0 
+Board [6d 5c 2h 3h 6h]
+Seat 1: MMM1975MMM (small blind) folded before Flop
+Seat 2: LaioMan (big blind) folded before Flop
+Seat 5: Rouby7907 folded before Flop
+Seat 6: scorza23 collected (1380)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded on the River
+
+
+
+PokerStars Hand #260347649502: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:36:49 UTC [2026/04/04 18:36:49 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (1168 in chips) 
+Seat 2: LaioMan (3649 in chips) 
+Seat 5: Rouby7907 (3504 in chips) 
+Seat 6: scorza23 (2447 in chips) 
+Seat 7: SenegoiD31 (1200 in chips) 
+Seat 9: TheDiesel099 (1532 in chips) 
+MMM1975MMM: posts the ante 10
+LaioMan: posts the ante 10
+Rouby7907: posts the ante 10
+scorza23: posts the ante 10
+SenegoiD31: posts the ante 10
+TheDiesel099: posts the ante 10
+LaioMan: posts small blind 40
+Rouby7907: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5s]
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: folds 
+MMM1975MMM: raises 160 to 240
+LaioMan: folds 
+Rouby7907: folds 
+Uncalled bet (160) returned to MMM1975MMM
+MMM1975MMM collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: MMM1975MMM (button) collected (260)
+Seat 2: LaioMan (small blind) folded before Flop
+Seat 5: Rouby7907 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347655296: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:37:17 UTC [2026/04/04 18:37:17 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (1338 in chips) 
+Seat 2: LaioMan (3599 in chips) 
+Seat 5: Rouby7907 (3414 in chips) 
+Seat 6: scorza23 (2437 in chips) 
+Seat 7: SenegoiD31 (1190 in chips) 
+Seat 9: TheDiesel099 (1522 in chips) 
+MMM1975MMM: posts the ante 10
+LaioMan: posts the ante 10
+Rouby7907: posts the ante 10
+scorza23: posts the ante 10
+SenegoiD31: posts the ante 10
+TheDiesel099: posts the ante 10
+Rouby7907: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6h]
+SenegoiD31: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: raises 80 to 160
+Rouby7907: calls 120
+scorza23: folds 
+*** FLOP *** [4c 9c 5h]
+Rouby7907: bets 80
+LaioMan: calls 80
+*** TURN *** [4c 9c 5h] [5c]
+Rouby7907: bets 1520
+LaioMan: folds 
+Uncalled bet (1520) returned to Rouby7907
+Rouby7907 collected 620 from pot
+*** SUMMARY ***
+Total pot 620 | Rake 0 
+Board [4c 9c 5h 5c]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded on the Turn
+Seat 5: Rouby7907 (small blind) collected (620)
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347664049: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IV (40/80) - 2026/04/04 22:38:00 UTC [2026/04/04 18:38:00 ET]
+Table '3989330647 1' 9-max Seat #5 is the button
+Seat 1: MMM1975MMM (1328 in chips) 
+Seat 2: LaioMan (3349 in chips) 
+Seat 5: Rouby7907 (3784 in chips) 
+Seat 6: scorza23 (2347 in chips) 
+Seat 7: SenegoiD31 (1180 in chips) 
+Seat 9: TheDiesel099 (1512 in chips) 
+MMM1975MMM: posts the ante 10
+LaioMan: posts the ante 10
+Rouby7907: posts the ante 10
+scorza23: posts the ante 10
+SenegoiD31: posts the ante 10
+TheDiesel099: posts the ante 10
+scorza23: posts small blind 40
+SenegoiD31: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Kc]
+TheDiesel099 has timed out
+TheDiesel099: folds 
+TheDiesel099 is sitting out
+TheDiesel099 has returned
+MMM1975MMM: raises 1238 to 1318 and is all-in
+LaioMan: folds 
+Rouby7907: folds 
+scorza23: folds 
+SenegoiD31: folds 
+Uncalled bet (1238) returned to MMM1975MMM
+MMM1975MMM collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: MMM1975MMM collected (260)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: SenegoiD31 (big blind) folded before Flop
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347675428: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:38:55 UTC [2026/04/04 18:38:55 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (1498 in chips) 
+Seat 2: LaioMan (3339 in chips) 
+Seat 5: Rouby7907 (3774 in chips) 
+Seat 6: scorza23 (2297 in chips) 
+Seat 7: SenegoiD31 (1090 in chips) 
+Seat 9: TheDiesel099 (1502 in chips) 
+MMM1975MMM: posts the ante 15
+LaioMan: posts the ante 15
+Rouby7907: posts the ante 15
+scorza23: posts the ante 15
+SenegoiD31: posts the ante 15
+TheDiesel099: posts the ante 15
+SenegoiD31: posts small blind 60
+TheDiesel099: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 4h]
+MMM1975MMM: calls 120
+LaioMan: folds 
+Rouby7907: calls 120
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: checks 
+*** FLOP *** [4s 6c Kd]
+TheDiesel099: checks 
+MMM1975MMM: checks 
+Rouby7907: checks 
+*** TURN *** [4s 6c Kd] [Jh]
+TheDiesel099: checks 
+MMM1975MMM: checks 
+Rouby7907: checks 
+*** RIVER *** [4s 6c Kd Jh] [Td]
+TheDiesel099: bets 360
+MMM1975MMM: folds 
+Rouby7907: folds 
+Uncalled bet (360) returned to TheDiesel099
+TheDiesel099 collected 510 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Board [4s 6c Kd Jh Td]
+Seat 1: MMM1975MMM folded on the River
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 folded on the River
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (small blind) folded before Flop
+Seat 9: TheDiesel099 (big blind) collected (510)
+
+
+
+PokerStars Hand #260347689805: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:40:07 UTC [2026/04/04 18:40:07 ET]
+Table '3989330647 1' 9-max Seat #7 is the button
+Seat 1: MMM1975MMM (1363 in chips) 
+Seat 2: LaioMan (3324 in chips) 
+Seat 5: Rouby7907 (3639 in chips) 
+Seat 6: scorza23 (2282 in chips) 
+Seat 7: SenegoiD31 (1015 in chips) 
+Seat 9: TheDiesel099 (1877 in chips) 
+MMM1975MMM: posts the ante 15
+LaioMan: posts the ante 15
+Rouby7907: posts the ante 15
+scorza23: posts the ante 15
+SenegoiD31: posts the ante 15
+TheDiesel099: posts the ante 15
+TheDiesel099: posts small blind 60
+MMM1975MMM: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 5h]
+LaioMan: folds 
+Rouby7907: calls 120
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: calls 60
+MMM1975MMM: checks 
+*** FLOP *** [Js 5s Ah]
+TheDiesel099: checks 
+MMM1975MMM: checks 
+Rouby7907: checks 
+*** TURN *** [Js 5s Ah] [6h]
+TheDiesel099: checks 
+MMM1975MMM: checks 
+Rouby7907: checks 
+*** RIVER *** [Js 5s Ah 6h] [2d]
+TheDiesel099: checks 
+MMM1975MMM: checks 
+Rouby7907: checks 
+*** SHOW DOWN ***
+TheDiesel099: shows [9c 8s] (high card Ace)
+MMM1975MMM: shows [3d Kd] (high card Ace - King kicker)
+Rouby7907: mucks hand 
+MMM1975MMM collected 450 from pot
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [Js 5s Ah 6h 2d]
+Seat 1: MMM1975MMM (big blind) showed [3d Kd] and won (450) with high card Ace
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 mucked [Qs 9d]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) showed [9c 8s] and lost with high card Ace
+
+
+
+PokerStars Hand #260347713478: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:42:04 UTC [2026/04/04 18:42:04 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (1678 in chips) 
+Seat 2: LaioMan (3309 in chips) 
+Seat 5: Rouby7907 (3504 in chips) 
+Seat 6: scorza23 (2267 in chips) 
+Seat 7: SenegoiD31 (1000 in chips) 
+Seat 9: TheDiesel099 (1742 in chips) 
+MMM1975MMM: posts the ante 15
+LaioMan: posts the ante 15
+Rouby7907: posts the ante 15
+scorza23: posts the ante 15
+SenegoiD31: posts the ante 15
+TheDiesel099: posts the ante 15
+MMM1975MMM: posts small blind 60
+LaioMan: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 8c]
+Rouby7907: calls 120
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: checks 
+*** FLOP *** [Ad Kc 7s]
+LaioMan: checks 
+Rouby7907: checks 
+*** TURN *** [Ad Kc 7s] [9s]
+LaioMan: checks 
+Rouby7907: checks 
+*** RIVER *** [Ad Kc 7s 9s] [As]
+LaioMan: checks 
+Rouby7907: checks 
+*** SHOW DOWN ***
+LaioMan: shows [6h 7d] (two pair, Aces and Sevens)
+Rouby7907: mucks hand 
+LaioMan collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Board [Ad Kc 7s 9s As]
+Seat 1: MMM1975MMM (small blind) folded before Flop
+Seat 2: LaioMan (big blind) showed [6h 7d] and won (390) with two pair, Aces and Sevens
+Seat 5: Rouby7907 mucked [2h Qd]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347724668: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level V (60/120) - 2026/04/04 22:43:00 UTC [2026/04/04 18:43:00 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (1603 in chips) 
+Seat 2: LaioMan (3564 in chips) 
+Seat 5: Rouby7907 (3369 in chips) 
+Seat 6: scorza23 (2252 in chips) 
+Seat 7: SenegoiD31 (985 in chips) 
+Seat 9: TheDiesel099 (1727 in chips) 
+MMM1975MMM: posts the ante 15
+LaioMan: posts the ante 15
+Rouby7907: posts the ante 15
+scorza23: posts the ante 15
+SenegoiD31: posts the ante 15
+TheDiesel099: posts the ante 15
+LaioMan: posts small blind 60
+Rouby7907: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 7d]
+scorza23: raises 240 to 360
+SenegoiD31: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: calls 240
+*** FLOP *** [Kd 9d 2d]
+Rouby7907: checks 
+scorza23: bets 480
+Rouby7907: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 870 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [Kd 9d 2d]
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) folded before Flop
+Seat 5: Rouby7907 (big blind) folded on the Flop
+Seat 6: scorza23 collected (870)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347734779: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:43:51 UTC [2026/04/04 18:43:51 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (1588 in chips) 
+Seat 2: LaioMan (3489 in chips) 
+Seat 5: Rouby7907 (2994 in chips) 
+Seat 6: scorza23 (2747 in chips) 
+Seat 7: SenegoiD31 (970 in chips) 
+Seat 9: TheDiesel099 (1712 in chips) 
+MMM1975MMM: posts the ante 20
+LaioMan: posts the ante 20
+Rouby7907: posts the ante 20
+scorza23: posts the ante 20
+SenegoiD31: posts the ante 20
+TheDiesel099: posts the ante 20
+Rouby7907: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Kd]
+SenegoiD31: raises 790 to 950 and is all-in
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: folds 
+Rouby7907: folds 
+scorza23: folds 
+Uncalled bet (790) returned to SenegoiD31
+SenegoiD31 collected 520 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded before Flop (didn't bet)
+Seat 5: Rouby7907 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: SenegoiD31 collected (520)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347741498: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:44:24 UTC [2026/04/04 18:44:24 ET]
+Table '3989330647 1' 9-max Seat #5 is the button
+Seat 1: MMM1975MMM (1568 in chips) 
+Seat 2: LaioMan (3469 in chips) 
+Seat 5: Rouby7907 (2894 in chips) 
+Seat 6: scorza23 (2567 in chips) 
+Seat 7: SenegoiD31 (1310 in chips) 
+Seat 9: TheDiesel099 (1692 in chips) 
+MMM1975MMM: posts the ante 20
+LaioMan: posts the ante 20
+Rouby7907: posts the ante 20
+scorza23: posts the ante 20
+SenegoiD31: posts the ante 20
+TheDiesel099: posts the ante 20
+scorza23: posts small blind 80
+SenegoiD31: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 8d]
+TheDiesel099: folds 
+MMM1975MMM: raises 1388 to 1548 and is all-in
+LaioMan: folds 
+Rouby7907: folds 
+scorza23: folds 
+SenegoiD31: folds 
+Uncalled bet (1388) returned to MMM1975MMM
+MMM1975MMM collected 520 from pot
+*** SUMMARY ***
+Total pot 520 | Rake 0 
+Seat 1: MMM1975MMM collected (520)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: SenegoiD31 (big blind) folded before Flop
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347749157: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:45:03 UTC [2026/04/04 18:45:03 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (1908 in chips) 
+Seat 2: LaioMan (3449 in chips) 
+Seat 5: Rouby7907 (2874 in chips) 
+Seat 6: scorza23 (2467 in chips) 
+Seat 7: SenegoiD31 (1130 in chips) 
+Seat 9: TheDiesel099 (1672 in chips) 
+MMM1975MMM: posts the ante 20
+LaioMan: posts the ante 20
+Rouby7907: posts the ante 20
+scorza23: posts the ante 20
+SenegoiD31: posts the ante 20
+TheDiesel099: posts the ante 20
+SenegoiD31: posts small blind 80
+TheDiesel099: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8s]
+MMM1975MMM: raises 1728 to 1888 and is all-in
+LaioMan: folds 
+Rouby7907: calls 1888
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: folds 
+*** FLOP *** [3s Jd Qd]
+*** TURN *** [3s Jd Qd] [8h]
+*** RIVER *** [3s Jd Qd 8h] [Jc]
+*** SHOW DOWN ***
+MMM1975MMM: shows [Ac Qh] (two pair, Queens and Jacks)
+Rouby7907: shows [Tc Ts] (two pair, Jacks and Tens)
+MMM1975MMM collected 4136 from pot
+*** SUMMARY ***
+Total pot 4136 | Rake 0 
+Board [3s Jd Qd 8h Jc]
+Seat 1: MMM1975MMM showed [Ac Qh] and won (4136) with two pair, Queens and Jacks
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 showed [Tc Ts] and lost with two pair, Jacks and Tens
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (small blind) folded before Flop
+Seat 9: TheDiesel099 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347760089: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:45:58 UTC [2026/04/04 18:45:58 ET]
+Table '3989330647 1' 9-max Seat #7 is the button
+Seat 1: MMM1975MMM (4136 in chips) 
+Seat 2: LaioMan (3429 in chips) 
+Seat 5: Rouby7907 (966 in chips) 
+Seat 6: scorza23 (2447 in chips) 
+Seat 7: SenegoiD31 (1030 in chips) 
+Seat 9: TheDiesel099 (1492 in chips) 
+MMM1975MMM: posts the ante 20
+LaioMan: posts the ante 20
+Rouby7907: posts the ante 20
+scorza23: posts the ante 20
+SenegoiD31: posts the ante 20
+TheDiesel099: posts the ante 20
+TheDiesel099: posts small blind 80
+MMM1975MMM: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4c]
+LaioMan: folds 
+Rouby7907: calls 160
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: calls 80
+MMM1975MMM: checks 
+*** FLOP *** [8c 3s 2s]
+TheDiesel099: checks 
+MMM1975MMM: checks 
+Rouby7907: checks 
+*** TURN *** [8c 3s 2s] [4d]
+TheDiesel099: bets 160
+MMM1975MMM: calls 160
+Rouby7907: folds 
+*** RIVER *** [8c 3s 2s 4d] [Ad]
+TheDiesel099: checks 
+MMM1975MMM: checks 
+*** SHOW DOWN ***
+TheDiesel099: shows [Qc 3c] (a pair of Threes)
+MMM1975MMM: mucks hand 
+TheDiesel099 collected 920 from pot
+*** SUMMARY ***
+Total pot 920 | Rake 0 
+Board [8c 3s 2s 4d Ad]
+Seat 1: MMM1975MMM (big blind) mucked [Ks 2h]
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 5: Rouby7907 folded on the Turn
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) showed [Qc 3c] and won (920) with a pair of Threes
+
+
+
+PokerStars Hand #260347776167: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:47:20 UTC [2026/04/04 18:47:20 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (3796 in chips) 
+Seat 2: LaioMan (3409 in chips) 
+Seat 5: Rouby7907 (786 in chips) 
+Seat 6: scorza23 (2427 in chips) 
+Seat 7: SenegoiD31 (1010 in chips) 
+Seat 9: TheDiesel099 (2072 in chips) 
+MMM1975MMM: posts the ante 20
+LaioMan: posts the ante 20
+Rouby7907: posts the ante 20
+scorza23: posts the ante 20
+SenegoiD31: posts the ante 20
+TheDiesel099: posts the ante 20
+MMM1975MMM: posts small blind 80
+LaioMan: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 2h]
+Rouby7907: calls 160
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: checks 
+*** FLOP *** [4s 8h 4c]
+LaioMan: checks 
+Rouby7907: checks 
+*** TURN *** [4s 8h 4c] [5h]
+LaioMan: bets 160
+Rouby7907: calls 160
+*** RIVER *** [4s 8h 4c 5h] [2c]
+LaioMan: checks 
+Rouby7907: checks 
+*** SHOW DOWN ***
+LaioMan: shows [7s 9s] (a pair of Fours)
+Rouby7907: mucks hand 
+LaioMan collected 840 from pot
+*** SUMMARY ***
+Total pot 840 | Rake 0 
+Board [4s 8h 4c 5h 2c]
+Seat 1: MMM1975MMM (small blind) folded before Flop
+Seat 2: LaioMan (big blind) showed [7s 9s] and won (840) with a pair of Fours
+Seat 5: Rouby7907 mucked [9d 6d]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347786973: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VI (80/160) - 2026/04/04 22:48:15 UTC [2026/04/04 18:48:15 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (3696 in chips) 
+Seat 2: LaioMan (3909 in chips) 
+Seat 5: Rouby7907 (446 in chips) 
+Seat 6: scorza23 (2407 in chips) 
+Seat 7: SenegoiD31 (990 in chips) 
+Seat 9: TheDiesel099 (2052 in chips) 
+MMM1975MMM: posts the ante 20
+LaioMan: posts the ante 20
+Rouby7907: posts the ante 20
+scorza23: posts the ante 20
+SenegoiD31: posts the ante 20
+TheDiesel099: posts the ante 20
+LaioMan: posts small blind 80
+Rouby7907: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [As 9c]
+scorza23: folds 
+SenegoiD31: folds 
+TheDiesel099: folds 
+MMM1975MMM has timed out
+MMM1975MMM: folds 
+MMM1975MMM is sitting out
+LaioMan: raises 3729 to 3889 and is all-in
+Rouby7907: calls 266 and is all-in
+Uncalled bet (3463) returned to LaioMan
+*** FLOP *** [Ah Ac 5d]
+*** TURN *** [Ah Ac 5d] [Js]
+*** RIVER *** [Ah Ac 5d Js] [Tc]
+*** SHOW DOWN ***
+LaioMan: shows [8c Jc] (two pair, Aces and Jacks)
+Rouby7907: shows [8h 9h] (a pair of Aces)
+LaioMan collected 972 from pot
+Rouby7907 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 972 | Rake 0 
+Board [Ah Ac 5d Js Tc]
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) showed [8c Jc] and won (972) with two pair, Aces and Jacks
+Seat 5: Rouby7907 (big blind) showed [8h 9h] and lost with a pair of Aces
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347796168: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:49:01 UTC [2026/04/04 18:49:01 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (3676 in chips) is sitting out
+Seat 2: LaioMan (4435 in chips) 
+Seat 6: scorza23 (2387 in chips) 
+Seat 7: SenegoiD31 (970 in chips) 
+Seat 9: TheDiesel099 (2032 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+SenegoiD31: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 100
+SenegoiD31: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Kh]
+MMM1975MMM has returned
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: folds 
+scorza23: raises 600 to 800
+SenegoiD31: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 525 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (525)
+Seat 7: SenegoiD31 (big blind) folded before Flop
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347800473: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:49:23 UTC [2026/04/04 18:49:23 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (3651 in chips) 
+Seat 2: LaioMan (4410 in chips) 
+Seat 6: scorza23 (2687 in chips) 
+Seat 7: SenegoiD31 (745 in chips) 
+Seat 9: TheDiesel099 (2007 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+SenegoiD31: posts the ante 25
+TheDiesel099: posts the ante 25
+SenegoiD31: posts small blind 100
+TheDiesel099: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 2s]
+MMM1975MMM: folds 
+LaioMan: folds 
+scorza23: folds 
+SenegoiD31: raises 520 to 720 and is all-in
+TheDiesel099: folds 
+Uncalled bet (520) returned to SenegoiD31
+SenegoiD31 collected 525 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (small blind) collected (525)
+Seat 9: TheDiesel099 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347808235: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:50:03 UTC [2026/04/04 18:50:03 ET]
+Table '3989330647 1' 9-max Seat #7 is the button
+Seat 1: MMM1975MMM (3626 in chips) 
+Seat 2: LaioMan (4385 in chips) 
+Seat 6: scorza23 (2662 in chips) 
+Seat 7: SenegoiD31 (1045 in chips) 
+Seat 9: TheDiesel099 (1782 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+SenegoiD31: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 100
+MMM1975MMM: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Qs]
+LaioMan: raises 200 to 400
+scorza23: folds 
+SenegoiD31: raises 620 to 1020 and is all-in
+TheDiesel099: raises 737 to 1757 and is all-in
+MMM1975MMM has timed out
+MMM1975MMM: folds 
+MMM1975MMM is sitting out
+LaioMan: calls 1357
+*** FLOP *** [8s 8h Qc]
+MMM1975MMM has returned
+*** TURN *** [8s 8h Qc] [3c]
+*** RIVER *** [8s 8h Qc 3c] [7s]
+*** SHOW DOWN ***
+TheDiesel099: shows [Ah Ac] (two pair, Aces and Eights)
+LaioMan: shows [9h 9c] (two pair, Nines and Eights)
+TheDiesel099 collected 1474 from side pot
+SenegoiD31: shows [9d Ad] (a pair of Eights)
+TheDiesel099 collected 3385 from main pot
+SenegoiD31 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 4859 Main pot 3385. Side pot 1474. | Rake 0 
+Board [8s 8h Qc 3c 7s]
+Seat 1: MMM1975MMM (big blind) folded before Flop
+Seat 2: LaioMan showed [9h 9c] and lost with two pair, Nines and Eights
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: SenegoiD31 (button) showed [9d Ad] and lost with a pair of Eights
+Seat 9: TheDiesel099 (small blind) showed [Ah Ac] and won (4859) with two pair, Aces and Eights
+
+
+
+PokerStars Hand #260347816663: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:50:46 UTC [2026/04/04 18:50:46 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (3401 in chips) 
+Seat 2: LaioMan (2603 in chips) 
+Seat 6: scorza23 (2637 in chips) 
+Seat 9: TheDiesel099 (4859 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 100
+LaioMan: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Ts]
+scorza23: folds 
+TheDiesel099: folds 
+MMM1975MMM: calls 100
+LaioMan: checks 
+*** FLOP *** [6d 6c Tc]
+MMM1975MMM: checks 
+LaioMan: bets 200
+MMM1975MMM: folds 
+Uncalled bet (200) returned to LaioMan
+LaioMan collected 500 from pot
+LaioMan: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [6d 6c Tc]
+Seat 1: MMM1975MMM (small blind) folded on the Flop
+Seat 2: LaioMan (big blind) collected (500)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347826146: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:51:36 UTC [2026/04/04 18:51:36 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (3176 in chips) 
+Seat 2: LaioMan (2878 in chips) 
+Seat 6: scorza23 (2612 in chips) 
+Seat 9: TheDiesel099 (4834 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+LaioMan: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 8h]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: calls 100
+scorza23: checks 
+*** FLOP *** [4h 3h 8s]
+LaioMan: bets 200
+scorza23: raises 600 to 800
+LaioMan: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 900 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 900 | Rake 0 
+Board [4h 3h 8s]
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) collected (900)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347835999: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VII (100/200) - 2026/04/04 22:52:27 UTC [2026/04/04 18:52:27 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (3151 in chips) 
+Seat 2: LaioMan (2453 in chips) 
+Seat 6: scorza23 (3087 in chips) 
+Seat 9: TheDiesel099 (4809 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 100
+TheDiesel099: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 3s]
+MMM1975MMM: folds 
+LaioMan: raises 200 to 400
+scorza23: folds 
+TheDiesel099: calls 200
+*** FLOP *** [Qh 8d Jc]
+TheDiesel099: checks 
+LaioMan: bets 205
+TheDiesel099: calls 205
+*** TURN *** [Qh 8d Jc] [4d]
+TheDiesel099: checks 
+LaioMan: checks 
+*** RIVER *** [Qh 8d Jc 4d] [8s]
+TheDiesel099: bets 423
+LaioMan: folds 
+Uncalled bet (423) returned to TheDiesel099
+TheDiesel099 collected 1410 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 1410 | Rake 0 
+Board [Qh 8d Jc 4d 8s]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded on the River
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 9: TheDiesel099 (big blind) collected (1410)
+
+
+
+PokerStars Hand #260347848231: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:30 UTC [2026/04/04 18:53:30 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (3126 in chips) 
+Seat 2: LaioMan (1823 in chips) 
+Seat 6: scorza23 (2962 in chips) 
+Seat 9: TheDiesel099 (5589 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 150
+MMM1975MMM: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 8c]
+LaioMan: folds 
+scorza23: folds 
+TheDiesel099: folds 
+Uncalled bet (150) returned to MMM1975MMM
+MMM1975MMM collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: MMM1975MMM (big blind) collected (400)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347852615: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:53:53 UTC [2026/04/04 18:53:53 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (3351 in chips) 
+Seat 2: LaioMan (1798 in chips) 
+Seat 6: scorza23 (2937 in chips) 
+Seat 9: TheDiesel099 (5414 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 150
+LaioMan: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Tc]
+scorza23: folds 
+TheDiesel099: folds 
+MMM1975MMM: raises 3026 to 3326 and is all-in
+LaioMan: calls 1473 and is all-in
+Uncalled bet (1553) returned to MMM1975MMM
+*** FLOP *** [Ac 2d Td]
+*** TURN *** [Ac 2d Td] [7d]
+*** RIVER *** [Ac 2d Td 7d] [3d]
+*** SHOW DOWN ***
+MMM1975MMM: shows [9s Ks] (high card Ace)
+LaioMan: shows [6d 6c] (a flush, Ten high)
+LaioMan collected 3646 from pot
+*** SUMMARY ***
+Total pot 3646 | Rake 0 
+Board [Ac 2d Td 7d 3d]
+Seat 1: MMM1975MMM (small blind) showed [9s Ks] and lost with high card Ace
+Seat 2: LaioMan (big blind) showed [6d 6c] and won (3646) with a flush, Ten high
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347856362: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:54:13 UTC [2026/04/04 18:54:13 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (1553 in chips) 
+Seat 2: LaioMan (3646 in chips) 
+Seat 6: scorza23 (2912 in chips) 
+Seat 9: TheDiesel099 (5389 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+LaioMan: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Qs]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: raises 3321 to 3621 and is all-in
+scorza23: folds 
+Uncalled bet (3321) returned to LaioMan
+LaioMan collected 700 from pot
+LaioMan: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) collected (700)
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347864521: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:54:56 UTC [2026/04/04 18:54:56 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (1528 in chips) 
+Seat 2: LaioMan (4021 in chips) 
+Seat 6: scorza23 (2587 in chips) 
+Seat 9: TheDiesel099 (5364 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 150
+TheDiesel099: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 7s]
+MMM1975MMM: folds 
+LaioMan: folds 
+scorza23: raises 600 to 900
+TheDiesel099: calls 600
+*** FLOP *** [7h Kc 3s]
+scorza23: bets 1662 and is all-in
+TheDiesel099: folds 
+Uncalled bet (1662) returned to scorza23
+scorza23 collected 1900 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1900 | Rake 0 
+Board [7h Kc 3s]
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (1900)
+Seat 9: TheDiesel099 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347870108: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:55:29 UTC [2026/04/04 18:55:29 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (1503 in chips) 
+Seat 2: LaioMan (3996 in chips) 
+Seat 6: scorza23 (3562 in chips) 
+Seat 9: TheDiesel099 (4439 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 150
+MMM1975MMM: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3d]
+LaioMan: folds 
+scorza23: folds 
+TheDiesel099: raises 300 to 600
+MMM1975MMM: raises 878 to 1478 and is all-in
+TheDiesel099: calls 878
+*** FLOP *** [9h Td 5s]
+*** TURN *** [9h Td 5s] [8h]
+*** RIVER *** [9h Td 5s 8h] [8s]
+*** SHOW DOWN ***
+TheDiesel099: shows [Ad 2c] (a pair of Eights)
+MMM1975MMM: shows [4s 4d] (two pair, Eights and Fours)
+MMM1975MMM collected 3056 from pot
+*** SUMMARY ***
+Total pot 3056 | Rake 0 
+Board [9h Td 5s 8h 8s]
+Seat 1: MMM1975MMM (big blind) showed [4s 4d] and won (3056) with two pair, Eights and Fours
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) showed [Ad 2c] and lost with a pair of Eights
+
+
+
+PokerStars Hand #260347875099: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:56:04 UTC [2026/04/04 18:56:04 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (3056 in chips) 
+Seat 2: LaioMan (3971 in chips) 
+Seat 6: scorza23 (3537 in chips) 
+Seat 9: TheDiesel099 (2936 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 150
+LaioMan: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Qd]
+scorza23: folds 
+TheDiesel099: folds 
+MMM1975MMM: raises 2731 to 3031 and is all-in
+LaioMan: folds 
+Uncalled bet (2731) returned to MMM1975MMM
+MMM1975MMM collected 700 from pot
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: MMM1975MMM (small blind) collected (700)
+Seat 2: LaioMan (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347878431: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:56:28 UTC [2026/04/04 18:56:28 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (3431 in chips) 
+Seat 2: LaioMan (3646 in chips) 
+Seat 6: scorza23 (3512 in chips) 
+Seat 9: TheDiesel099 (2911 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+LaioMan: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Ts]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: raises 450 to 750
+scorza23: folds 
+Uncalled bet (450) returned to LaioMan
+LaioMan collected 700 from pot
+LaioMan: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) collected (700)
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347882493: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:56:55 UTC [2026/04/04 18:56:55 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (3406 in chips) 
+Seat 2: LaioMan (4021 in chips) 
+Seat 6: scorza23 (3187 in chips) 
+Seat 9: TheDiesel099 (2886 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 150
+TheDiesel099: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Jh]
+MMM1975MMM: folds 
+LaioMan: folds 
+scorza23: raises 900 to 1200
+TheDiesel099: folds 
+Uncalled bet (900) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (700)
+Seat 9: TheDiesel099 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347886937: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:57:27 UTC [2026/04/04 18:57:27 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (3381 in chips) 
+Seat 2: LaioMan (3996 in chips) 
+Seat 6: scorza23 (3562 in chips) 
+Seat 9: TheDiesel099 (2561 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 150
+MMM1975MMM: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5h]
+LaioMan: folds 
+scorza23: folds 
+TheDiesel099: folds 
+Uncalled bet (150) returned to MMM1975MMM
+MMM1975MMM collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 1: MMM1975MMM (big blind) collected (400)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347889164: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:57:42 UTC [2026/04/04 18:57:42 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (3606 in chips) 
+Seat 2: LaioMan (3971 in chips) 
+Seat 6: scorza23 (3537 in chips) 
+Seat 9: TheDiesel099 (2386 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 150
+LaioMan: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 7c]
+scorza23: folds 
+TheDiesel099: raises 2061 to 2361 and is all-in
+MMM1975MMM: folds 
+LaioMan: calls 2061
+*** FLOP *** [2h Qd Jd]
+*** TURN *** [2h Qd Jd] [Kc]
+*** RIVER *** [2h Qd Jd Kc] [Jc]
+*** SHOW DOWN ***
+LaioMan: shows [Tc Td] (two pair, Jacks and Tens)
+TheDiesel099: shows [As Ks] (two pair, Kings and Jacks)
+TheDiesel099 collected 4972 from pot
+*** SUMMARY ***
+Total pot 4972 | Rake 0 
+Board [2h Qd Jd Kc Jc]
+Seat 1: MMM1975MMM (small blind) folded before Flop
+Seat 2: LaioMan (big blind) showed [Tc Td] and lost with two pair, Jacks and Tens
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) showed [As Ks] and won (4972) with two pair, Kings and Jacks
+
+
+
+PokerStars Hand #260347894182: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/04 22:58:18 UTC [2026/04/04 18:58:18 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (3431 in chips) 
+Seat 2: LaioMan (1585 in chips) 
+Seat 6: scorza23 (3512 in chips) 
+Seat 9: TheDiesel099 (4972 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+LaioMan: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 3s]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: calls 150
+scorza23: raises 1500 to 1800
+LaioMan: folds 
+Uncalled bet (1500) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (700)
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347898995: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:58:51 UTC [2026/04/04 18:58:51 ET]
+Table '3989330647 1' 9-max Seat #2 is the button
+Seat 1: MMM1975MMM (3406 in chips) 
+Seat 2: LaioMan (1260 in chips) 
+Seat 6: scorza23 (3887 in chips) 
+Seat 9: TheDiesel099 (4947 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 200
+TheDiesel099: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Qd]
+MMM1975MMM: folds 
+LaioMan: folds 
+scorza23: folds 
+Uncalled bet (200) returned to TheDiesel099
+TheDiesel099 collected 500 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: MMM1975MMM folded before Flop (didn't bet)
+Seat 2: LaioMan (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 9: TheDiesel099 (big blind) collected (500)
+
+
+
+PokerStars Hand #260347901629: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:59:10 UTC [2026/04/04 18:59:10 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (3381 in chips) 
+Seat 2: LaioMan (1235 in chips) 
+Seat 6: scorza23 (3662 in chips) 
+Seat 9: TheDiesel099 (5222 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 200
+MMM1975MMM: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Qh]
+LaioMan: folds 
+scorza23: folds 
+TheDiesel099: folds 
+Uncalled bet (200) returned to MMM1975MMM
+MMM1975MMM collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: MMM1975MMM (big blind) collected (500)
+Seat 2: LaioMan folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347904456: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 22:59:30 UTC [2026/04/04 18:59:30 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (3656 in chips) 
+Seat 2: LaioMan (1210 in chips) 
+Seat 6: scorza23 (3637 in chips) 
+Seat 9: TheDiesel099 (4997 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 200
+LaioMan: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 5c]
+scorza23: folds 
+TheDiesel099 has timed out
+TheDiesel099: folds 
+TheDiesel099 is sitting out
+TheDiesel099 has returned
+MMM1975MMM: raises 3231 to 3631 and is all-in
+LaioMan: calls 785 and is all-in
+Uncalled bet (2446) returned to MMM1975MMM
+*** FLOP *** [Qs Kd Ad]
+*** TURN *** [Qs Kd Ad] [Jh]
+*** RIVER *** [Qs Kd Ad Jh] [2h]
+*** SHOW DOWN ***
+MMM1975MMM: shows [Ks 7s] (a pair of Kings)
+LaioMan: shows [Jc Qc] (two pair, Queens and Jacks)
+LaioMan collected 2470 from pot
+*** SUMMARY ***
+Total pot 2470 | Rake 0 
+Board [Qs Kd Ad Jh 2h]
+Seat 1: MMM1975MMM (small blind) showed [Ks 7s] and lost with a pair of Kings
+Seat 2: LaioMan (big blind) showed [Jc Qc] and won (2470) with two pair, Queens and Jacks
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347909567: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:00:06 UTC [2026/04/04 19:00:06 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (2446 in chips) 
+Seat 2: LaioMan (2470 in chips) 
+Seat 6: scorza23 (3612 in chips) 
+Seat 9: TheDiesel099 (4972 in chips) 
+MMM1975MMM: posts the ante 25
+LaioMan: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+LaioMan: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Tc]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+LaioMan: raises 2045 to 2445 and is all-in
+scorza23: calls 2045
+*** FLOP *** [6d 3c Ts]
+*** TURN *** [6d 3c Ts] [6s]
+*** RIVER *** [6d 3c Ts 6s] [5d]
+*** SHOW DOWN ***
+LaioMan: shows [Kc Js] (a pair of Sixes)
+scorza23: shows [Th Tc] (a full house, Tens full of Sixes)
+scorza23 collected 4990 from pot
+LaioMan finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 4990 | Rake 0 
+Board [6d 3c Ts 6s 5d]
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 2: LaioMan (small blind) showed [Kc Js] and lost with a pair of Sixes
+Seat 6: scorza23 (big blind) showed [Th Tc] and won (4990) with a full house, Tens full of Sixes
+Seat 9: TheDiesel099 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347914300: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:00:37 UTC [2026/04/04 19:00:37 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (2421 in chips) 
+Seat 6: scorza23 (6132 in chips) 
+Seat 9: TheDiesel099 (4947 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 200
+MMM1975MMM: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Kh]
+scorza23: folds 
+TheDiesel099: raises 400 to 800
+MMM1975MMM: folds 
+Uncalled bet (400) returned to TheDiesel099
+TheDiesel099 collected 875 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 1: MMM1975MMM (big blind) folded before Flop
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) collected (875)
+
+
+
+PokerStars Hand #260347916797: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:00:53 UTC [2026/04/04 19:00:53 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (1996 in chips) 
+Seat 6: scorza23 (6107 in chips) 
+Seat 9: TheDiesel099 (5397 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Th]
+TheDiesel099: raises 400 to 800
+MMM1975MMM: folds 
+scorza23: calls 400
+*** FLOP *** [Ks 8s 2s]
+scorza23: checks 
+TheDiesel099: bets 800
+scorza23: folds 
+Uncalled bet (800) returned to TheDiesel099
+TheDiesel099 collected 1875 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Board [Ks 8s 2s]
+Seat 1: MMM1975MMM (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 9: TheDiesel099 (button) collected (1875)
+
+
+
+PokerStars Hand #260347921341: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:01:19 UTC [2026/04/04 19:01:19 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (1771 in chips) 
+Seat 6: scorza23 (5282 in chips) 
+Seat 9: TheDiesel099 (6447 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 200
+TheDiesel099: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 9h]
+MMM1975MMM: folds 
+scorza23: raises 1600 to 2000
+TheDiesel099: folds 
+Uncalled bet (1600) returned to scorza23
+scorza23 collected 875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (875)
+Seat 9: TheDiesel099 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347924778: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:01:38 UTC [2026/04/04 19:01:38 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (1746 in chips) 
+Seat 6: scorza23 (5732 in chips) 
+Seat 9: TheDiesel099 (6022 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 200
+MMM1975MMM: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 5c]
+scorza23: folds 
+TheDiesel099: folds 
+Uncalled bet (200) returned to MMM1975MMM
+MMM1975MMM collected 475 from pot
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: MMM1975MMM (big blind) collected (475)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: TheDiesel099 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347928198: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:01:56 UTC [2026/04/04 19:01:56 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (1996 in chips) 
+Seat 6: scorza23 (5707 in chips) 
+Seat 9: TheDiesel099 (5797 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Jc]
+TheDiesel099: folds 
+MMM1975MMM: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: MMM1975MMM (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (475)
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347929947: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:02:05 UTC [2026/04/04 19:02:05 ET]
+Table '3989330647 1' 9-max Seat #1 is the button
+Seat 1: MMM1975MMM (1771 in chips) 
+Seat 6: scorza23 (5957 in chips) 
+Seat 9: TheDiesel099 (5772 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 200
+TheDiesel099: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qd]
+MMM1975MMM: folds 
+scorza23: raises 800 to 1200
+TheDiesel099: calls 800
+*** FLOP *** [7s 4s 8c]
+scorza23: bets 1200
+TheDiesel099: calls 1200
+*** TURN *** [7s 4s 8c] [Kc]
+scorza23: checks 
+TheDiesel099: bets 1463
+scorza23: calls 1463
+*** RIVER *** [7s 4s 8c Kc] [3c]
+scorza23: checks 
+TheDiesel099: checks 
+*** SHOW DOWN ***
+scorza23: shows [8s Qd] (a pair of Eights)
+TheDiesel099: shows [9c 9h] (a pair of Nines)
+TheDiesel099 collected 7801 from pot
+*** SUMMARY ***
+Total pot 7801 | Rake 0 
+Board [7s 4s 8c Kc 3c]
+Seat 1: MMM1975MMM (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) showed [8s Qd] and lost with a pair of Eights
+Seat 9: TheDiesel099 (big blind) showed [9c 9h] and won (7801) with a pair of Nines
+
+
+
+PokerStars Hand #260347936744: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:02:42 UTC [2026/04/04 19:02:42 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 1: MMM1975MMM (1746 in chips) 
+Seat 6: scorza23 (2069 in chips) 
+Seat 9: TheDiesel099 (9685 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+TheDiesel099: posts small blind 200
+MMM1975MMM: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ah]
+scorza23: raises 1644 to 2044 and is all-in
+TheDiesel099: folds 
+MMM1975MMM: folds 
+Uncalled bet (1644) returned to scorza23
+scorza23 collected 1075 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1075 | Rake 0 
+Seat 1: MMM1975MMM (big blind) folded before Flop
+Seat 6: scorza23 (button) collected (1075)
+Seat 9: TheDiesel099 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347939495: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:02:56 UTC [2026/04/04 19:02:56 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 1: MMM1975MMM (1321 in chips) 
+Seat 6: scorza23 (2719 in chips) 
+Seat 9: TheDiesel099 (9460 in chips) 
+MMM1975MMM: posts the ante 25
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+MMM1975MMM: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Ad]
+TheDiesel099: folds 
+MMM1975MMM: raises 896 to 1296 and is all-in
+scorza23: calls 896
+*** FLOP *** [Kc Jc Qd]
+*** TURN *** [Kc Jc Qd] [8d]
+*** RIVER *** [Kc Jc Qd 8d] [6s]
+*** SHOW DOWN ***
+MMM1975MMM: shows [7d Ac] (high card Ace)
+scorza23: shows [9c Ad] (high card Ace - King+Queen+Jack+Nine kicker)
+scorza23 collected 2667 from pot
+MMM1975MMM finished the tournament in 3rd place and received $1.53.
+*** SUMMARY ***
+Total pot 2667 | Rake 0 
+Board [Kc Jc Qd 8d 6s]
+Seat 1: MMM1975MMM (small blind) showed [7d Ac] and lost with high card Ace
+Seat 6: scorza23 (big blind) showed [9c Ad] and won (2667) with high card Ace
+Seat 9: TheDiesel099 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347943631: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level IX (200/400) - 2026/04/04 23:03:19 UTC [2026/04/04 19:03:19 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (4065 in chips) 
+Seat 9: TheDiesel099 (9435 in chips) 
+scorza23: posts the ante 25
+TheDiesel099: posts the ante 25
+scorza23: posts small blind 200
+TheDiesel099: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Kc]
+scorza23: raises 3640 to 4040 and is all-in
+TheDiesel099: calls 3640
+*** FLOP *** [9c 9h 7c]
+*** TURN *** [9c 9h 7c] [Td]
+*** RIVER *** [9c 9h 7c Td] [Js]
+*** SHOW DOWN ***
+TheDiesel099: shows [7s Ac] (two pair, Nines and Sevens)
+scorza23: shows [Th Kc] (two pair, Tens and Nines)
+scorza23 collected 8130 from pot
+*** SUMMARY ***
+Total pot 8130 | Rake 0 
+Board [9c 9h 7c Td Js]
+Seat 6: scorza23 (button) (small blind) showed [Th Kc] and won (8130) with two pair, Tens and Nines
+Seat 9: TheDiesel099 (big blind) showed [7s Ac] and lost with two pair, Nines and Sevens
+
+
+
+PokerStars Hand #260347947125: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:03:38 UTC [2026/04/04 19:03:38 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (8130 in chips) 
+Seat 9: TheDiesel099 (5370 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+TheDiesel099: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Kd]
+TheDiesel099: raises 600 to 1200
+scorza23: calls 600
+*** FLOP *** [7d Qc 8s]
+scorza23: checks 
+TheDiesel099: bets 4120 and is all-in
+scorza23: folds 
+Uncalled bet (4120) returned to TheDiesel099
+TheDiesel099 collected 2500 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 2500 | Rake 0 
+Board [7d Qc 8s]
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 9: TheDiesel099 (button) (small blind) collected (2500)
+
+
+
+PokerStars Hand #260347949789: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:03:52 UTC [2026/04/04 19:03:52 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (6880 in chips) 
+Seat 9: TheDiesel099 (6620 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+scorza23: posts small blind 300
+TheDiesel099: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ks]
+scorza23: raises 1200 to 1800
+TheDiesel099: calls 1200
+*** FLOP *** [7s Ac Qd]
+TheDiesel099: checks 
+scorza23: bets 1800
+TheDiesel099: folds 
+Uncalled bet (1800) returned to scorza23
+scorza23 collected 3700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 3700 | Rake 0 
+Board [7s Ac Qd]
+Seat 6: scorza23 (button) (small blind) collected (3700)
+Seat 9: TheDiesel099 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347952739: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:04:07 UTC [2026/04/04 19:04:07 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (8730 in chips) 
+Seat 9: TheDiesel099 (4770 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+TheDiesel099: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 4s]
+TheDiesel099: folds 
+Uncalled bet (300) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 6: scorza23 (big blind) collected (700)
+Seat 9: TheDiesel099 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347953921: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:04:14 UTC [2026/04/04 19:04:14 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (9080 in chips) 
+Seat 9: TheDiesel099 (4420 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+scorza23: posts small blind 300
+TheDiesel099: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Qh]
+scorza23: raises 1200 to 1800
+TheDiesel099: raises 2570 to 4370 and is all-in
+scorza23: calls 2570
+*** FLOP *** [Qc 3c 4d]
+*** TURN *** [Qc 3c 4d] [5c]
+*** RIVER *** [Qc 3c 4d 5c] [Jh]
+*** SHOW DOWN ***
+TheDiesel099: shows [Qs 9d] (a pair of Queens)
+scorza23: shows [9c Qh] (a pair of Queens)
+TheDiesel099 collected 4420 from pot
+scorza23 collected 4420 from pot
+*** SUMMARY ***
+Total pot 8840 | Rake 0 
+Board [Qc 3c 4d 5c Jh]
+Seat 6: scorza23 (button) (small blind) showed [9c Qh] and won (4420) with a pair of Queens
+Seat 9: TheDiesel099 (big blind) showed [Qs 9d] and won (4420) with a pair of Queens
+
+
+
+PokerStars Hand #260347959105: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:04:42 UTC [2026/04/04 19:04:42 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (9080 in chips) 
+Seat 9: TheDiesel099 (4420 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+TheDiesel099: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Tc]
+TheDiesel099: folds 
+Uncalled bet (300) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 6: scorza23 (big blind) collected (700)
+Seat 9: TheDiesel099 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260347960585: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:04:50 UTC [2026/04/04 19:04:50 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (9430 in chips) 
+Seat 9: TheDiesel099 (4070 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+scorza23: posts small blind 300
+TheDiesel099: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 8s]
+scorza23: folds [3h 8s]
+Uncalled bet (300) returned to TheDiesel099
+TheDiesel099 collected 700 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 6: scorza23 (button) (small blind) folded before Flop
+Seat 9: TheDiesel099 (big blind) collected (700)
+
+
+
+PokerStars Hand #260347962488: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:05:00 UTC [2026/04/04 19:05:00 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (9080 in chips) 
+Seat 9: TheDiesel099 (4420 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+TheDiesel099: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Th]
+TheDiesel099: calls 300
+scorza23: checks 
+*** FLOP *** [Ad Qc 7h]
+scorza23: checks 
+TheDiesel099: bets 600
+scorza23: folds 
+Uncalled bet (600) returned to TheDiesel099
+TheDiesel099 collected 1300 from pot
+TheDiesel099: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [Ad Qc 7h]
+Seat 6: scorza23 (big blind) folded on the Flop
+Seat 9: TheDiesel099 (button) (small blind) collected (1300)
+
+
+
+PokerStars Hand #260347967854: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:05:28 UTC [2026/04/04 19:05:28 ET]
+Table '3989330647 1' 9-max Seat #6 is the button
+Seat 6: scorza23 (8430 in chips) 
+Seat 9: TheDiesel099 (5070 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+scorza23: posts small blind 300
+TheDiesel099: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 9d]
+scorza23: raises 1200 to 1800
+TheDiesel099: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 1300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 6: scorza23 (button) (small blind) collected (1300)
+Seat 9: TheDiesel099 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347969654: Tournament #3989330647, $0.85+$0.15 USD Hold'em No Limit - Level X (300/600) - 2026/04/04 23:05:38 UTC [2026/04/04 19:05:38 ET]
+Table '3989330647 1' 9-max Seat #9 is the button
+Seat 6: scorza23 (9080 in chips) 
+Seat 9: TheDiesel099 (4420 in chips) 
+scorza23: posts the ante 50
+TheDiesel099: posts the ante 50
+TheDiesel099: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Kd]
+TheDiesel099: calls 300
+scorza23: raises 1200 to 1800
+TheDiesel099: calls 1200
+*** FLOP *** [Kc Ks 6h]
+scorza23: checks 
+TheDiesel099: bets 2570 and is all-in
+scorza23: calls 2570
+*** TURN *** [Kc Ks 6h] [4c]
+*** RIVER *** [Kc Ks 6h 4c] [3d]
+*** SHOW DOWN ***
+scorza23: shows [Kh Kd] (four of a kind, Kings)
+TheDiesel099: shows [6d Tc] (two pair, Kings and Sixes)
+scorza23 collected 8840 from pot
+TheDiesel099 finished the tournament in 2nd place and received $2.29.
+scorza23 wins the tournament and receives $3.83 - congratulations!
+*** SUMMARY ***
+Total pot 8840 | Rake 0 
+Board [Kc Ks 6h 4c 3d]
+Seat 6: scorza23 (big blind) showed [Kh Kd] and won (8840) with four of a kind, Kings
+Seat 9: TheDiesel099 (button) (small blind) showed [6d Tc] and lost with two pair, Kings and Sixes
+
+
+

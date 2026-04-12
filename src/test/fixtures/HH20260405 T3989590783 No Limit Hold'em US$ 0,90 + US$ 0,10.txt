@@ -1,0 +1,1332 @@
+﻿PokerStars Hand #260359304831: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:12:30 BRT [2026/04/05 17:12:30 ET]
+Table '3989590783 1' 8-max Seat #1 is the button
+Seat 1: EJMaleren (1500 in chips) 
+Seat 2: Fjzxuxaaaa (1500 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 6: ohanaaa (1500 in chips) 
+Seat 7: CristofeMN (1500 in chips) 
+Seat 8: SplashDiddy007 (1500 in chips) 
+EJMaleren: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+scorza23: posts the ante 3
+ohanaaa: posts the ante 3
+CristofeMN: posts the ante 3
+SplashDiddy007: posts the ante 3
+Fjzxuxaaaa: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 5s]
+ohanaaa: folds 
+CristofeMN: folds 
+SplashDiddy007: folds 
+EJMaleren: calls 20
+Fjzxuxaaaa: folds 
+scorza23: raises 40 to 60
+EJMaleren: calls 40
+*** FLOP *** [3c Js 5d]
+scorza23: bets 60
+EJMaleren: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 148 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 148 | Rake 0 
+Board [3c Js 5d]
+Seat 1: EJMaleren (button) folded on the Flop
+Seat 2: Fjzxuxaaaa (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (148)
+Seat 6: ohanaaa folded before Flop (didn't bet)
+Seat 7: CristofeMN folded before Flop (didn't bet)
+Seat 8: SplashDiddy007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359313203: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:13:01 BRT [2026/04/05 17:13:01 ET]
+Table '3989590783 1' 8-max Seat #2 is the button
+Seat 1: EJMaleren (1437 in chips) 
+Seat 2: Fjzxuxaaaa (1487 in chips) 
+Seat 3: scorza23 (1585 in chips) 
+Seat 5: 4973509 (1500 in chips) 
+Seat 6: ohanaaa (1497 in chips) 
+Seat 7: CristofeMN (1497 in chips) 
+Seat 8: SplashDiddy007 (1497 in chips) 
+EJMaleren: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+scorza23: posts the ante 3
+4973509: posts the ante 3
+ohanaaa: posts the ante 3
+CristofeMN: posts the ante 3
+SplashDiddy007: posts the ante 3
+scorza23: posts small blind 10
+4973509: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 3h]
+ohanaaa: folds 
+CristofeMN: folds 
+SplashDiddy007: folds 
+EJMaleren: folds 
+Fjzxuxaaaa: folds 
+scorza23: raises 40 to 60
+4973509: calls 40
+*** FLOP *** [8s 2s As]
+scorza23: bets 40
+4973509: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 141 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 141 | Rake 0 
+Board [8s 2s As]
+Seat 1: EJMaleren folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) collected (141)
+Seat 5: 4973509 (big blind) folded on the Flop
+Seat 6: ohanaaa folded before Flop (didn't bet)
+Seat 7: CristofeMN folded before Flop (didn't bet)
+Seat 8: SplashDiddy007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359320738: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:13:29 BRT [2026/04/05 17:13:29 ET]
+Table '3989590783 1' 8-max Seat #3 is the button
+Seat 1: EJMaleren (1434 in chips) 
+Seat 2: Fjzxuxaaaa (1484 in chips) 
+Seat 3: scorza23 (1663 in chips) 
+Seat 4: porfcandido (1500 in chips) out of hand (moved from another table into small blind)
+Seat 5: 4973509 (1437 in chips) 
+Seat 7: CristofeMN (1494 in chips) 
+Seat 8: SplashDiddy007 (1494 in chips) 
+porfcandido will be allowed to play after the button
+EJMaleren: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+scorza23: posts the ante 3
+4973509: posts the ante 3
+CristofeMN: posts the ante 3
+SplashDiddy007: posts the ante 3
+4973509: posts small blind 10
+CristofeMN: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3c]
+SplashDiddy007: calls 20
+EJMaleren: folds 
+Fjzxuxaaaa has timed out
+Fjzxuxaaaa: folds 
+Fjzxuxaaaa is sitting out
+Fjzxuxaaaa has returned
+scorza23: folds 
+4973509: calls 10
+CristofeMN: checks 
+*** FLOP *** [4c 8d Ad]
+4973509: checks 
+CristofeMN: checks 
+SplashDiddy007: checks 
+*** TURN *** [4c 8d Ad] [Qc]
+4973509: checks 
+CristofeMN: checks 
+SplashDiddy007: bets 40
+4973509: folds 
+CristofeMN: folds 
+Uncalled bet (40) returned to SplashDiddy007
+SplashDiddy007 collected 78 from pot
+*** SUMMARY ***
+Total pot 78 | Rake 0 
+Board [4c 8d Ad Qc]
+Seat 1: EJMaleren folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: 4973509 (small blind) folded on the Turn
+Seat 7: CristofeMN (big blind) folded on the Turn
+Seat 8: SplashDiddy007 collected (78)
+
+
+
+PokerStars Hand #260359342488: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:14:50 BRT [2026/04/05 17:14:50 ET]
+Table '3989590783 1' 8-max Seat #5 is the button
+Seat 1: EJMaleren (1431 in chips) 
+Seat 2: Fjzxuxaaaa (1481 in chips) 
+Seat 3: scorza23 (1660 in chips) 
+Seat 4: porfcandido (1500 in chips) 
+Seat 5: 4973509 (1414 in chips) 
+Seat 7: CristofeMN (1471 in chips) 
+Seat 8: SplashDiddy007 (1549 in chips) 
+EJMaleren: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+scorza23: posts the ante 3
+porfcandido: posts the ante 3
+4973509: posts the ante 3
+CristofeMN: posts the ante 3
+SplashDiddy007: posts the ante 3
+CristofeMN: posts small blind 10
+SplashDiddy007: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 8c]
+EJMaleren: folds 
+Fjzxuxaaaa: folds 
+scorza23: folds 
+porfcandido: folds 
+4973509: folds 
+CristofeMN: calls 10
+SplashDiddy007: checks 
+*** FLOP *** [3h Tc 5c]
+CristofeMN: checks 
+SplashDiddy007: bets 60
+CristofeMN: folds 
+Uncalled bet (60) returned to SplashDiddy007
+SplashDiddy007 collected 61 from pot
+*** SUMMARY ***
+Total pot 61 | Rake 0 
+Board [3h Tc 5c]
+Seat 1: EJMaleren folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: porfcandido folded before Flop (didn't bet)
+Seat 5: 4973509 (button) folded before Flop (didn't bet)
+Seat 7: CristofeMN (small blind) folded on the Flop
+Seat 8: SplashDiddy007 (big blind) collected (61)
+
+
+
+PokerStars Hand #260359351071: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:15:22 BRT [2026/04/05 17:15:22 ET]
+Table '3989590783 1' 8-max Seat #7 is the button
+Seat 1: EJMaleren (1428 in chips) 
+Seat 2: Fjzxuxaaaa (1478 in chips) 
+Seat 3: scorza23 (1657 in chips) 
+Seat 4: porfcandido (1497 in chips) 
+Seat 5: 4973509 (1411 in chips) 
+Seat 7: CristofeMN (1448 in chips) 
+Seat 8: SplashDiddy007 (1587 in chips) 
+EJMaleren: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+scorza23: posts the ante 3
+porfcandido: posts the ante 3
+4973509: posts the ante 3
+CristofeMN: posts the ante 3
+SplashDiddy007: posts the ante 3
+SplashDiddy007: posts small blind 10
+EJMaleren: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4s]
+Fjzxuxaaaa: folds 
+scorza23: folds 
+porfcandido: folds 
+4973509: calls 20
+CristofeMN: folds 
+SplashDiddy007: calls 10
+EJMaleren: checks 
+*** FLOP *** [Jd 3c Kd]
+SplashDiddy007: bets 20
+EJMaleren: folds 
+4973509: folds 
+Uncalled bet (20) returned to SplashDiddy007
+SplashDiddy007 collected 81 from pot
+*** SUMMARY ***
+Total pot 81 | Rake 0 
+Board [Jd 3c Kd]
+Seat 1: EJMaleren (big blind) folded on the Flop
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: porfcandido folded before Flop (didn't bet)
+Seat 5: 4973509 folded on the Flop
+Seat 7: CristofeMN (button) folded before Flop (didn't bet)
+Seat 8: SplashDiddy007 (small blind) collected (81)
+
+
+
+PokerStars Hand #260359358439: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:15:49 BRT [2026/04/05 17:15:49 ET]
+Table '3989590783 1' 8-max Seat #8 is the button
+Seat 1: EJMaleren (1405 in chips) 
+Seat 2: Fjzxuxaaaa (1475 in chips) 
+Seat 3: scorza23 (1654 in chips) 
+Seat 4: porfcandido (1494 in chips) 
+Seat 5: 4973509 (1388 in chips) 
+Seat 7: CristofeMN (1445 in chips) 
+Seat 8: SplashDiddy007 (1645 in chips) 
+EJMaleren: posts the ante 3
+Fjzxuxaaaa: posts the ante 3
+scorza23: posts the ante 3
+porfcandido: posts the ante 3
+4973509: posts the ante 3
+CristofeMN: posts the ante 3
+SplashDiddy007: posts the ante 3
+EJMaleren: posts small blind 10
+Fjzxuxaaaa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Jc]
+scorza23: raises 20 to 40
+porfcandido: folds 
+4973509: calls 40
+CristofeMN: folds 
+SplashDiddy007: calls 40
+EJMaleren: calls 30
+Fjzxuxaaaa: calls 20
+*** FLOP *** [9d 3c 2d]
+EJMaleren: checks 
+Fjzxuxaaaa: checks 
+scorza23: bets 60
+4973509: calls 60
+SplashDiddy007: calls 60
+EJMaleren: calls 60
+Fjzxuxaaaa: folds 
+*** TURN *** [9d 3c 2d] [2c]
+EJMaleren: checks 
+scorza23: checks 
+4973509: bets 180
+SplashDiddy007: calls 180
+EJMaleren: folds 
+scorza23: folds 
+*** RIVER *** [9d 3c 2d 2c] [Qh]
+4973509: checks 
+SplashDiddy007: checks 
+*** SHOW DOWN ***
+4973509: shows [Js As] (a pair of Deuces)
+SplashDiddy007: shows [9c 7c] (two pair, Nines and Deuces)
+SplashDiddy007 collected 821 from pot
+*** SUMMARY ***
+Total pot 821 | Rake 0 
+Board [9d 3c 2d 2c Qh]
+Seat 1: EJMaleren (small blind) folded on the Turn
+Seat 2: Fjzxuxaaaa (big blind) folded on the Flop
+Seat 3: scorza23 folded on the Turn
+Seat 4: porfcandido folded before Flop (didn't bet)
+Seat 5: 4973509 showed [Js As] and lost with a pair of Deuces
+Seat 7: CristofeMN folded before Flop (didn't bet)
+Seat 8: SplashDiddy007 (button) showed [9c 7c] and won (821) with two pair, Nines and Deuces
+
+
+
+PokerStars Hand #260359385714: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:17:31 BRT [2026/04/05 17:17:31 ET]
+Table '3989590783 4' 8-max Seat #2 is the button
+Seat 1: ZANONI56 (2717 in chips) 
+Seat 2: diamont290 (1487 in chips) 
+Seat 3: King Enzo24 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 4: PJZimmermann (1477 in chips) 
+Seat 5: scorza23 (1551 in chips) 
+Seat 6: pol cros (2177 in chips) 
+Seat 7: XEM420 (1497 in chips) 
+King Enzo24 will be allowed to play after the button
+ZANONI56: posts the ante 3
+diamont290: posts the ante 3
+PJZimmermann: posts the ante 3
+scorza23: posts the ante 3
+pol cros: posts the ante 3
+XEM420: posts the ante 3
+PJZimmermann: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 2d]
+pol cros: folds 
+XEM420: folds 
+ZANONI56: folds 
+diamont290: folds 
+PJZimmermann: raises 58 to 78
+scorza23: folds 
+Uncalled bet (58) returned to PJZimmermann
+PJZimmermann collected 58 from pot
+PJZimmermann: doesn't show hand 
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: ZANONI56 folded before Flop (didn't bet)
+Seat 2: diamont290 (button) folded before Flop (didn't bet)
+Seat 4: PJZimmermann (small blind) collected (58)
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: pol cros folded before Flop (didn't bet)
+Seat 7: XEM420 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359392004: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:17:55 BRT [2026/04/05 17:17:55 ET]
+Table '3989590783 4' 8-max Seat #4 is the button
+Seat 1: ZANONI56 (2714 in chips) 
+Seat 2: diamont290 (1484 in chips) 
+Seat 3: King Enzo24 (1500 in chips) 
+Seat 4: PJZimmermann (1512 in chips) 
+Seat 5: scorza23 (1528 in chips) 
+Seat 6: pol cros (2174 in chips) 
+Seat 7: XEM420 (1494 in chips) 
+ZANONI56: posts the ante 4
+diamont290: posts the ante 4
+King Enzo24: posts the ante 4
+PJZimmermann: posts the ante 4
+scorza23: posts the ante 4
+pol cros: posts the ante 4
+XEM420: posts the ante 4
+scorza23: posts small blind 15
+pol cros: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ah]
+XEM420: folds 
+ZANONI56: calls 30
+diamont290: folds 
+MA10K is disconnected 
+King Enzo24: folds 
+PJZimmermann: folds 
+scorza23: raises 60 to 90
+pol cros: folds 
+ZANONI56: calls 60
+*** FLOP *** [Qc Ac 6c]
+scorza23: bets 90
+ZANONI56: calls 90
+*** TURN *** [Qc Ac 6c] [Kc]
+scorza23: bets 418
+ZANONI56: folds 
+Uncalled bet (418) returned to scorza23
+scorza23 collected 418 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 418 | Rake 0 
+Board [Qc Ac 6c Kc]
+Seat 1: ZANONI56 folded on the Turn
+Seat 2: diamont290 folded before Flop (didn't bet)
+Seat 3: King Enzo24 folded before Flop (didn't bet)
+Seat 4: PJZimmermann (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (418)
+Seat 6: pol cros (big blind) folded before Flop
+Seat 7: XEM420 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359408796: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:18:58 BRT [2026/04/05 17:18:58 ET]
+Table '3989590783 4' 8-max Seat #5 is the button
+Seat 1: ZANONI56 (2530 in chips) 
+Seat 2: diamont290 (1480 in chips) 
+Seat 3: King Enzo24 (1496 in chips) 
+Seat 4: PJZimmermann (1508 in chips) 
+Seat 5: scorza23 (1762 in chips) 
+Seat 6: pol cros (2140 in chips) 
+Seat 7: XEM420 (1490 in chips) 
+Seat 8: MA10K (1500 in chips) 
+ZANONI56: posts the ante 4
+diamont290: posts the ante 4
+King Enzo24: posts the ante 4
+PJZimmermann: posts the ante 4
+scorza23: posts the ante 4
+pol cros: posts the ante 4
+XEM420: posts the ante 4
+MA10K: posts the ante 4
+pol cros: posts small blind 15
+XEM420: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Ad]
+MA10K: folds 
+ZANONI56: folds 
+diamont290: calls 30
+King Enzo24: folds 
+PJZimmermann: calls 30
+scorza23: folds 
+pol cros: folds 
+XEM420: checks 
+*** FLOP *** [Jd Th 2c]
+XEM420: checks 
+diamont290: checks 
+PJZimmermann: checks 
+*** TURN *** [Jd Th 2c] [3h]
+XEM420: checks 
+diamont290: bets 30
+PJZimmermann: calls 30
+XEM420: folds 
+*** RIVER *** [Jd Th 2c 3h] [3d]
+diamont290: bets 30
+PJZimmermann: calls 30
+*** SHOW DOWN ***
+diamont290: shows [Ts 5s] (two pair, Tens and Threes)
+PJZimmermann: mucks hand 
+diamont290 collected 257 from pot
+*** SUMMARY ***
+Total pot 257 | Rake 0 
+Board [Jd Th 2c 3h 3d]
+Seat 1: ZANONI56 folded before Flop (didn't bet)
+Seat 2: diamont290 showed [Ts 5s] and won (257) with two pair, Tens and Threes
+Seat 3: King Enzo24 folded before Flop (didn't bet)
+Seat 4: PJZimmermann mucked [2s Kd]
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: pol cros (small blind) folded before Flop
+Seat 7: XEM420 (big blind) folded on the Turn
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359421323: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:19:44 BRT [2026/04/05 17:19:44 ET]
+Table '3989590783 4' 8-max Seat #6 is the button
+Seat 1: ZANONI56 (2526 in chips) 
+Seat 2: diamont290 (1643 in chips) 
+Seat 3: King Enzo24 (1492 in chips) 
+Seat 4: PJZimmermann (1414 in chips) 
+Seat 5: scorza23 (1758 in chips) 
+Seat 6: pol cros (2121 in chips) 
+Seat 7: XEM420 (1456 in chips) 
+Seat 8: MA10K (1496 in chips) 
+ZANONI56: posts the ante 4
+diamont290: posts the ante 4
+King Enzo24: posts the ante 4
+PJZimmermann: posts the ante 4
+scorza23: posts the ante 4
+pol cros: posts the ante 4
+XEM420: posts the ante 4
+MA10K: posts the ante 4
+XEM420: posts small blind 15
+MA10K: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Ks]
+ZANONI56: folds 
+diamont290: calls 30
+King Enzo24: folds 
+PJZimmermann: calls 30
+scorza23: folds 
+pol cros: raises 90 to 120
+XEM420: folds 
+MA10K: folds 
+diamont290: folds 
+PJZimmermann: calls 90
+*** FLOP *** [Th Kd 5s]
+PJZimmermann: checks 
+pol cros: bets 144
+PJZimmermann: folds 
+Uncalled bet (144) returned to pol cros
+pol cros collected 347 from pot
+pol cros: doesn't show hand 
+*** SUMMARY ***
+Total pot 347 | Rake 0 
+Board [Th Kd 5s]
+Seat 1: ZANONI56 folded before Flop (didn't bet)
+Seat 2: diamont290 folded before Flop
+Seat 3: King Enzo24 folded before Flop (didn't bet)
+Seat 4: PJZimmermann folded on the Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros (button) collected (347)
+Seat 7: XEM420 (small blind) folded before Flop
+Seat 8: MA10K (big blind) folded before Flop
+
+
+
+PokerStars Hand #260359433582: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:20:30 BRT [2026/04/05 17:20:30 ET]
+Table '3989590783 4' 8-max Seat #7 is the button
+Seat 1: ZANONI56 (2522 in chips) 
+Seat 2: diamont290 (1609 in chips) 
+Seat 3: King Enzo24 (1488 in chips) 
+Seat 4: PJZimmermann (1290 in chips) 
+Seat 5: scorza23 (1754 in chips) 
+Seat 6: pol cros (2344 in chips) 
+Seat 7: XEM420 (1437 in chips) 
+Seat 8: MA10K (1462 in chips) 
+ZANONI56: posts the ante 4
+diamont290: posts the ante 4
+King Enzo24: posts the ante 4
+PJZimmermann: posts the ante 4
+scorza23: posts the ante 4
+pol cros: posts the ante 4
+XEM420: posts the ante 4
+MA10K: posts the ante 4
+MA10K: posts small blind 15
+ZANONI56: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 4c]
+diamont290: calls 30
+King Enzo24: folds 
+PJZimmermann: calls 30
+scorza23: folds 
+pol cros: folds 
+XEM420: folds 
+MA10K: folds 
+ZANONI56: raises 137 to 167
+diamont290: calls 137
+PJZimmermann: calls 137
+*** FLOP *** [5c 6c Qc]
+ZANONI56: bets 548
+diamont290: folds 
+PJZimmermann: calls 548
+*** TURN *** [5c 6c Qc] [4h]
+ZANONI56: bets 822
+PJZimmermann: calls 571 and is all-in
+Uncalled bet (251) returned to ZANONI56
+*** RIVER *** [5c 6c Qc 4h] [2c]
+*** SHOW DOWN ***
+ZANONI56: shows [Qd Qh] (three of a kind, Queens)
+PJZimmermann: shows [Ac 6s] (a flush, Ace high)
+PJZimmermann collected 2786 from pot
+*** SUMMARY ***
+Total pot 2786 | Rake 0 
+Board [5c 6c Qc 4h 2c]
+Seat 1: ZANONI56 (big blind) showed [Qd Qh] and lost with three of a kind, Queens
+Seat 2: diamont290 folded on the Flop
+Seat 3: King Enzo24 folded before Flop (didn't bet)
+Seat 4: PJZimmermann showed [Ac 6s] and won (2786) with a flush, Ace high
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros folded before Flop (didn't bet)
+Seat 7: XEM420 (button) folded before Flop (didn't bet)
+Seat 8: MA10K (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359450931: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:21:35 BRT [2026/04/05 17:21:35 ET]
+Table '3989590783 4' 8-max Seat #8 is the button
+Seat 1: ZANONI56 (1232 in chips) 
+Seat 2: diamont290 (1438 in chips) 
+Seat 3: King Enzo24 (1484 in chips) 
+Seat 4: PJZimmermann (2786 in chips) 
+Seat 5: scorza23 (1750 in chips) 
+Seat 6: pol cros (2340 in chips) 
+Seat 7: XEM420 (1433 in chips) 
+Seat 8: MA10K (1443 in chips) 
+ZANONI56: posts the ante 4
+diamont290: posts the ante 4
+King Enzo24: posts the ante 4
+PJZimmermann: posts the ante 4
+scorza23: posts the ante 4
+pol cros: posts the ante 4
+XEM420: posts the ante 4
+MA10K: posts the ante 4
+ZANONI56: posts small blind 15
+diamont290: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [As 6c]
+King Enzo24: calls 30
+PJZimmermann: calls 30
+scorza23: folds 
+pol cros: calls 30
+XEM420: folds 
+MA10K: folds 
+ZANONI56: calls 15
+diamont290: checks 
+*** FLOP *** [Kd 9c Jh]
+ZANONI56: checks 
+diamont290: checks 
+King Enzo24: checks 
+PJZimmermann: checks 
+pol cros: checks 
+*** TURN *** [Kd 9c Jh] [3d]
+ZANONI56: bets 30
+diamont290: calls 30
+King Enzo24: folds 
+PJZimmermann: calls 30
+pol cros: folds 
+*** RIVER *** [Kd 9c Jh 3d] [6h]
+ZANONI56: checks 
+diamont290: checks 
+PJZimmermann: checks 
+*** SHOW DOWN ***
+ZANONI56: shows [5s Qh] (high card King)
+diamont290: mucks hand 
+PJZimmermann: shows [Ad 5c] (high card Ace)
+PJZimmermann collected 272 from pot
+*** SUMMARY ***
+Total pot 272 | Rake 0 
+Board [Kd 9c Jh 3d 6h]
+Seat 1: ZANONI56 (small blind) showed [5s Qh] and lost with high card King
+Seat 2: diamont290 (big blind) mucked [4h Tc]
+Seat 3: King Enzo24 folded on the Turn
+Seat 4: PJZimmermann showed [Ad 5c] and won (272) with high card Ace
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros folded on the Turn
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359473841: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:23:00 BRT [2026/04/05 17:23:00 ET]
+Table '3989590783 4' 8-max Seat #1 is the button
+Seat 1: ZANONI56 (1168 in chips) 
+Seat 2: diamont290 (1374 in chips) 
+Seat 3: King Enzo24 (1450 in chips) 
+Seat 4: PJZimmermann (2994 in chips) 
+Seat 5: scorza23 (1746 in chips) 
+Seat 6: pol cros (2306 in chips) 
+Seat 7: XEM420 (1429 in chips) 
+Seat 8: MA10K (1439 in chips) 
+ZANONI56: posts the ante 6
+diamont290: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+diamont290: posts small blind 25
+King Enzo24: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2d]
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: folds 
+XEM420: folds 
+MA10K: folds 
+ZANONI56: folds 
+diamont290: calls 25
+King Enzo24: raises 148 to 198
+diamont290: folds 
+Uncalled bet (148) returned to King Enzo24
+King Enzo24 collected 148 from pot
+*** SUMMARY ***
+Total pot 148 | Rake 0 
+Seat 1: ZANONI56 (button) folded before Flop (didn't bet)
+Seat 2: diamont290 (small blind) folded before Flop
+Seat 3: King Enzo24 (big blind) collected (148)
+Seat 4: PJZimmermann folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros folded before Flop (didn't bet)
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359480543: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:23:25 BRT [2026/04/05 17:23:25 ET]
+Table '3989590783 4' 8-max Seat #2 is the button
+Seat 1: ZANONI56 (1162 in chips) 
+Seat 2: diamont290 (1318 in chips) 
+Seat 3: King Enzo24 (1542 in chips) 
+Seat 4: PJZimmermann (2988 in chips) 
+Seat 5: scorza23 (1740 in chips) 
+Seat 6: pol cros (2300 in chips) 
+Seat 7: XEM420 (1423 in chips) 
+Seat 8: MA10K (1433 in chips) 
+ZANONI56: posts the ante 6
+diamont290: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+King Enzo24: posts small blind 25
+PJZimmermann: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 2s]
+scorza23: folds 
+pol cros: folds 
+XEM420: folds 
+MA10K: folds 
+ZANONI56: folds 
+diamont290: raises 50 to 100
+King Enzo24: folds 
+PJZimmermann: folds 
+Uncalled bet (50) returned to diamont290
+diamont290 collected 173 from pot
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Seat 1: ZANONI56 folded before Flop (didn't bet)
+Seat 2: diamont290 (button) collected (173)
+Seat 3: King Enzo24 (small blind) folded before Flop
+Seat 4: PJZimmermann (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros folded before Flop (didn't bet)
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359488187: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:23:54 BRT [2026/04/05 17:23:54 ET]
+Table '3989590783 4' 8-max Seat #3 is the button
+Seat 1: ZANONI56 (1156 in chips) 
+Seat 2: diamont290 (1435 in chips) 
+Seat 3: King Enzo24 (1511 in chips) 
+Seat 4: PJZimmermann (2932 in chips) 
+Seat 5: scorza23 (1734 in chips) 
+Seat 6: pol cros (2294 in chips) 
+Seat 7: XEM420 (1417 in chips) 
+Seat 8: MA10K (1427 in chips) 
+ZANONI56: posts the ante 6
+diamont290: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+PJZimmermann: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2d]
+pol cros: raises 100 to 150
+XEM420: folds 
+MA10K: folds 
+ZANONI56: raises 1000 to 1150 and is all-in
+diamont290: folds 
+King Enzo24: folds 
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: calls 1000
+*** FLOP *** [6s 7d Ts]
+*** TURN *** [6s 7d Ts] [4s]
+*** RIVER *** [6s 7d Ts 4s] [5s]
+*** SHOW DOWN ***
+pol cros: shows [Qs Ac] (a flush, Queen high)
+ZANONI56: shows [Ks Ah] (a flush, King high)
+ZANONI56 collected 2423 from pot
+*** SUMMARY ***
+Total pot 2423 | Rake 0 
+Board [6s 7d Ts 4s 5s]
+Seat 1: ZANONI56 showed [Ks Ah] and won (2423) with a flush, King high
+Seat 2: diamont290 folded before Flop (didn't bet)
+Seat 3: King Enzo24 (button) folded before Flop (didn't bet)
+Seat 4: PJZimmermann (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: pol cros showed [Qs Ac] and lost with a flush, Queen high
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359497250: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:24:28 BRT [2026/04/05 17:24:28 ET]
+Table '3989590783 4' 8-max Seat #4 is the button
+Seat 1: ZANONI56 (2423 in chips) 
+Seat 2: diamont290 (1429 in chips) 
+Seat 3: King Enzo24 (1505 in chips) 
+Seat 4: PJZimmermann (2901 in chips) 
+Seat 5: scorza23 (1678 in chips) 
+Seat 6: pol cros (1138 in chips) 
+Seat 7: XEM420 (1411 in chips) 
+Seat 8: MA10K (1421 in chips) 
+ZANONI56: posts the ante 6
+diamont290: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+scorza23: posts small blind 25
+pol cros: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 4s]
+XEM420: folds 
+MA10K: folds 
+ZANONI56: folds 
+diamont290: folds 
+King Enzo24: raises 1449 to 1499 and is all-in
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: folds 
+Uncalled bet (1449) returned to King Enzo24
+King Enzo24 collected 173 from pot
+*** SUMMARY ***
+Total pot 173 | Rake 0 
+Seat 1: ZANONI56 folded before Flop (didn't bet)
+Seat 2: diamont290 folded before Flop (didn't bet)
+Seat 3: King Enzo24 collected (173)
+Seat 4: PJZimmermann (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: pol cros (big blind) folded before Flop
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359502435: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:24:48 BRT [2026/04/05 17:24:48 ET]
+Table '3989590783 4' 8-max Seat #5 is the button
+Seat 1: ZANONI56 (2417 in chips) 
+Seat 2: diamont290 (1423 in chips) 
+Seat 3: King Enzo24 (1622 in chips) 
+Seat 4: PJZimmermann (2895 in chips) 
+Seat 5: scorza23 (1647 in chips) 
+Seat 6: pol cros (1082 in chips) 
+Seat 7: XEM420 (1405 in chips) 
+Seat 8: MA10K (1415 in chips) 
+ZANONI56: posts the ante 6
+diamont290: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+pol cros: posts small blind 25
+XEM420: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 5c]
+MA10K: folds 
+ZANONI56: raises 100 to 150
+diamont290: calls 150
+King Enzo24: folds 
+PJZimmermann: calls 150
+scorza23: folds 
+pol cros: folds 
+XEM420: folds 
+*** FLOP *** [4d 8d As]
+ZANONI56: bets 287
+diamont290: calls 287
+PJZimmermann: folds 
+*** TURN *** [4d 8d As] [9c]
+ZANONI56: bets 574
+diamont290: calls 574
+*** RIVER *** [4d 8d As 9c] [2h]
+ZANONI56: bets 1148
+diamont290: calls 406 and is all-in
+Uncalled bet (742) returned to ZANONI56
+*** SHOW DOWN ***
+ZANONI56: shows [Ah Td] (a pair of Aces)
+diamont290: shows [Ad Tc] (a pair of Aces)
+ZANONI56 collected 1554 from pot
+diamont290 collected 1553 from pot
+*** SUMMARY ***
+Total pot 3107 | Rake 0 
+Board [4d 8d As 9c 2h]
+Seat 1: ZANONI56 showed [Ah Td] and won (1554) with a pair of Aces
+Seat 2: diamont290 showed [Ad Tc] and won (1553) with a pair of Aces
+Seat 3: King Enzo24 folded before Flop (didn't bet)
+Seat 4: PJZimmermann folded on the Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: pol cros (small blind) folded before Flop
+Seat 7: XEM420 (big blind) folded before Flop
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359517538: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:25:44 BRT [2026/04/05 17:25:44 ET]
+Table '3989590783 4' 8-max Seat #6 is the button
+Seat 1: ZANONI56 (2548 in chips) 
+Seat 2: diamont290 (1553 in chips) 
+Seat 3: King Enzo24 (1616 in chips) 
+Seat 4: PJZimmermann (2739 in chips) 
+Seat 5: scorza23 (1641 in chips) 
+Seat 6: pol cros (1051 in chips) 
+Seat 7: XEM420 (1349 in chips) 
+Seat 8: MA10K (1409 in chips) 
+ZANONI56: posts the ante 6
+diamont290: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+XEM420: posts small blind 25
+MA10K: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 3s]
+ZANONI56: folds 
+diamont290: folds 
+King Enzo24: calls 50
+PJZimmermann: raises 50 to 100
+scorza23: folds 
+pol cros: folds 
+XEM420: folds 
+MA10K: folds 
+King Enzo24: calls 50
+*** FLOP *** [Qs 6s 2c]
+King Enzo24: bets 100
+PJZimmermann: raises 100 to 200
+King Enzo24: calls 100
+*** TURN *** [Qs 6s 2c] [4c]
+King Enzo24: checks 
+PJZimmermann: bets 100
+King Enzo24: calls 100
+*** RIVER *** [Qs 6s 2c 4c] [Js]
+King Enzo24: checks 
+PJZimmermann: bets 150
+King Enzo24: calls 150
+*** SHOW DOWN ***
+PJZimmermann: shows [Qd Jd] (two pair, Queens and Jacks)
+King Enzo24: mucks hand 
+PJZimmermann collected 1223 from pot
+*** SUMMARY ***
+Total pot 1223 | Rake 0 
+Board [Qs 6s 2c 4c Js]
+Seat 1: ZANONI56 folded before Flop (didn't bet)
+Seat 2: diamont290 folded before Flop (didn't bet)
+Seat 3: King Enzo24 mucked [Ac 6h]
+Seat 4: PJZimmermann showed [Qd Jd] and won (1223) with two pair, Queens and Jacks
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros (button) folded before Flop (didn't bet)
+Seat 7: XEM420 (small blind) folded before Flop
+Seat 8: MA10K (big blind) folded before Flop
+
+
+
+PokerStars Hand #260359533346: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:26:43 BRT [2026/04/05 17:26:43 ET]
+Table '3989590783 4' 8-max Seat #7 is the button
+Seat 1: ZANONI56 (2542 in chips) 
+Seat 3: King Enzo24 (1060 in chips) 
+Seat 4: PJZimmermann (3406 in chips) 
+Seat 5: scorza23 (1635 in chips) 
+Seat 6: pol cros (1045 in chips) 
+Seat 7: XEM420 (1318 in chips) 
+Seat 8: MA10K (1353 in chips) 
+ZANONI56: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+MA10K: posts small blind 25
+ZANONI56: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 3h]
+King Enzo24: raises 1004 to 1054 and is all-in
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: calls 1039 and is all-in
+XEM420: folds 
+MA10K: folds 
+ZANONI56: folds 
+Uncalled bet (15) returned to King Enzo24
+*** FLOP *** [7s Ks 7h]
+*** TURN *** [7s Ks 7h] [As]
+*** RIVER *** [7s Ks 7h As] [7c]
+*** SHOW DOWN ***
+King Enzo24: shows [6s 6c] (a full house, Sevens full of Sixes)
+pol cros: shows [Kd Jh] (a full house, Sevens full of Kings)
+pol cros collected 2195 from pot
+*** SUMMARY ***
+Total pot 2195 | Rake 0 
+Board [7s Ks 7h As 7c]
+Seat 1: ZANONI56 (big blind) folded before Flop
+Seat 3: King Enzo24 showed [6s 6c] and lost with a full house, Sevens full of Sixes
+Seat 4: PJZimmermann folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros showed [Kd Jh] and won (2195) with a full house, Sevens full of Kings
+Seat 7: XEM420 (button) folded before Flop (didn't bet)
+Seat 8: MA10K (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359542316: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:27:16 BRT [2026/04/05 17:27:16 ET]
+Table '3989590783 4' 8-max Seat #8 is the button
+Seat 1: ZANONI56 (2486 in chips) 
+Seat 3: King Enzo24 (15 in chips) 
+Seat 4: PJZimmermann (3400 in chips) 
+Seat 5: scorza23 (1629 in chips) 
+Seat 6: pol cros (2195 in chips) 
+Seat 7: XEM420 (1312 in chips) 
+Seat 8: MA10K (1322 in chips) 
+ZANONI56: posts the ante 6
+King Enzo24: posts the ante 6
+PJZimmermann: posts the ante 6
+scorza23: posts the ante 6
+pol cros: posts the ante 6
+XEM420: posts the ante 6
+MA10K: posts the ante 6
+ZANONI56: posts small blind 25
+King Enzo24: posts big blind 9 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 5c]
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: raises 75 to 100
+XEM420: folds 
+MA10K: folds 
+ZANONI56: calls 75
+*** FLOP *** [2s Ac 8d]
+ZANONI56: checks 
+pol cros: checks 
+*** TURN *** [2s Ac 8d] [5s]
+ZANONI56: checks 
+pol cros: bets 50
+ZANONI56: calls 50
+*** RIVER *** [2s Ac 8d 5s] [3h]
+ZANONI56: checks 
+pol cros: bets 100
+ZANONI56: calls 100
+*** SHOW DOWN ***
+pol cros: shows [8s 8h] (three of a kind, Eights)
+ZANONI56: mucks hand 
+pol cros collected 482 from side pot
+King Enzo24: mucks hand 
+pol cros collected 69 from main pot
+King Enzo24 finished the tournament in 28th place
+*** SUMMARY ***
+Total pot 551 Main pot 69. Side pot 482. | Rake 0 
+Board [2s Ac 8d 5s 3h]
+Seat 1: ZANONI56 (small blind) mucked [5h 9c]
+Seat 3: King Enzo24 (big blind) mucked [2h 7c]
+Seat 4: PJZimmermann folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros showed [8s 8h] and won (551) with three of a kind, Eights
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359556229: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:28:08 BRT [2026/04/05 17:28:08 ET]
+Table '3989590783 4' 8-max Seat #1 is the button
+Seat 1: ZANONI56 (2230 in chips) 
+Seat 4: PJZimmermann (3394 in chips) 
+Seat 5: scorza23 (1623 in chips) 
+Seat 6: pol cros (2490 in chips) 
+Seat 7: XEM420 (1306 in chips) 
+Seat 8: MA10K (1316 in chips) 
+ZANONI56: posts the ante 10
+PJZimmermann: posts the ante 10
+scorza23: posts the ante 10
+pol cros: posts the ante 10
+XEM420: posts the ante 10
+MA10K: posts the ante 10
+PJZimmermann: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Td]
+pol cros: folds 
+XEM420: raises 120 to 200
+MA10K: folds 
+ZANONI56: folds 
+PJZimmermann: folds 
+scorza23: calls 120
+*** FLOP *** [Qd 7c Tc]
+scorza23: checks 
+XEM420: bets 125
+scorza23: calls 125
+*** TURN *** [Qd 7c Tc] [8h]
+scorza23: checks 
+XEM420: checks 
+*** RIVER *** [Qd 7c Tc 8h] [2h]
+scorza23: bets 375
+XEM420: folds 
+Uncalled bet (375) returned to scorza23
+scorza23 collected 750 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Board [Qd 7c Tc 8h 2h]
+Seat 1: ZANONI56 (button) folded before Flop (didn't bet)
+Seat 4: PJZimmermann (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (750)
+Seat 6: pol cros folded before Flop (didn't bet)
+Seat 7: XEM420 folded on the River
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359568432: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:28:53 BRT [2026/04/05 17:28:53 ET]
+Table '3989590783 4' 8-max Seat #4 is the button
+Seat 1: ZANONI56 (2220 in chips) 
+Seat 4: PJZimmermann (3344 in chips) 
+Seat 5: scorza23 (2038 in chips) 
+Seat 6: pol cros (2480 in chips) 
+Seat 7: XEM420 (971 in chips) 
+Seat 8: MA10K (1306 in chips) 
+ZANONI56: posts the ante 10
+PJZimmermann: posts the ante 10
+scorza23: posts the ante 10
+pol cros: posts the ante 10
+XEM420: posts the ante 10
+MA10K: posts the ante 10
+scorza23: posts small blind 40
+pol cros: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 3s]
+XEM420: folds 
+MA10K: folds 
+ZANONI56: raises 160 to 240
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: folds 
+Uncalled bet (160) returned to ZANONI56
+ZANONI56 collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: ZANONI56 collected (260)
+Seat 4: PJZimmermann (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: pol cros (big blind) folded before Flop
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359575267: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:29:18 BRT [2026/04/05 17:29:18 ET]
+Table '3989590783 4' 8-max Seat #5 is the button
+Seat 1: ZANONI56 (2390 in chips) 
+Seat 4: PJZimmermann (3334 in chips) 
+Seat 5: scorza23 (1988 in chips) 
+Seat 6: pol cros (2390 in chips) 
+Seat 7: XEM420 (961 in chips) 
+Seat 8: MA10K (1296 in chips) 
+ZANONI56: posts the ante 10
+PJZimmermann: posts the ante 10
+scorza23: posts the ante 10
+pol cros: posts the ante 10
+XEM420: posts the ante 10
+MA10K: posts the ante 10
+pol cros: posts small blind 40
+XEM420: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 3d]
+MA10K: folds 
+ZANONI56: folds 
+PJZimmermann: raises 160 to 240
+scorza23: folds 
+pol cros: folds 
+XEM420: folds 
+Uncalled bet (160) returned to PJZimmermann
+PJZimmermann collected 260 from pot
+PJZimmermann: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: ZANONI56 folded before Flop (didn't bet)
+Seat 4: PJZimmermann collected (260)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: pol cros (small blind) folded before Flop
+Seat 7: XEM420 (big blind) folded before Flop
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359579210: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:29:32 BRT [2026/04/05 17:29:32 ET]
+Table '3989590783 4' 8-max Seat #6 is the button
+Seat 1: ZANONI56 (2380 in chips) 
+Seat 4: PJZimmermann (3504 in chips) 
+Seat 5: scorza23 (1978 in chips) 
+Seat 6: pol cros (2340 in chips) 
+Seat 7: XEM420 (871 in chips) 
+Seat 8: MA10K (1286 in chips) 
+ZANONI56: posts the ante 10
+PJZimmermann: posts the ante 10
+scorza23: posts the ante 10
+pol cros: posts the ante 10
+XEM420: posts the ante 10
+MA10K: posts the ante 10
+XEM420: posts small blind 40
+MA10K: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Qc]
+ZANONI56: raises 260 to 340
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: folds 
+XEM420: folds 
+MA10K: folds 
+Uncalled bet (260) returned to ZANONI56
+ZANONI56 collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: ZANONI56 collected (260)
+Seat 4: PJZimmermann folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros (button) folded before Flop (didn't bet)
+Seat 7: XEM420 (small blind) folded before Flop
+Seat 8: MA10K (big blind) folded before Flop
+
+
+
+PokerStars Hand #260359585852: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:29:57 BRT [2026/04/05 17:29:57 ET]
+Table '3989590783 4' 8-max Seat #7 is the button
+Seat 1: ZANONI56 (2550 in chips) 
+Seat 4: PJZimmermann (3494 in chips) 
+Seat 5: scorza23 (1968 in chips) 
+Seat 6: pol cros (2330 in chips) 
+Seat 7: XEM420 (821 in chips) 
+Seat 8: MA10K (1196 in chips) 
+ZANONI56: posts the ante 10
+PJZimmermann: posts the ante 10
+scorza23: posts the ante 10
+pol cros: posts the ante 10
+XEM420: posts the ante 10
+MA10K: posts the ante 10
+MA10K: posts small blind 40
+ZANONI56: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Th]
+PJZimmermann: folds 
+scorza23: folds 
+pol cros: raises 80 to 160
+XEM420: folds 
+MA10K: folds 
+ZANONI56: calls 80
+*** FLOP *** [Jh 7c Kh]
+ZANONI56: checks 
+pol cros: bets 210
+ZANONI56: folds 
+Uncalled bet (210) returned to pol cros
+pol cros collected 420 from pot
+pol cros: doesn't show hand 
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Board [Jh 7c Kh]
+Seat 1: ZANONI56 (big blind) folded on the Flop
+Seat 4: PJZimmermann folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros collected (420)
+Seat 7: XEM420 (button) folded before Flop (didn't bet)
+Seat 8: MA10K (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359596342: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:30:35 BRT [2026/04/05 17:30:35 ET]
+Table '3989590783 4' 8-max Seat #8 is the button
+Seat 1: ZANONI56 (2380 in chips) 
+Seat 4: PJZimmermann (3484 in chips) 
+Seat 5: scorza23 (1958 in chips) 
+Seat 6: pol cros (2580 in chips) 
+Seat 7: XEM420 (811 in chips) 
+Seat 8: MA10K (1146 in chips) 
+ZANONI56: posts the ante 10
+PJZimmermann: posts the ante 10
+scorza23: posts the ante 10
+pol cros: posts the ante 10
+XEM420: posts the ante 10
+MA10K: posts the ante 10
+ZANONI56: posts small blind 40
+PJZimmermann: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Jd]
+scorza23: folds 
+pol cros: folds 
+XEM420: raises 721 to 801 and is all-in
+MA10K: folds 
+ZANONI56: folds 
+PJZimmermann: folds 
+Uncalled bet (721) returned to XEM420
+XEM420 collected 260 from pot
+XEM420: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: ZANONI56 (small blind) folded before Flop
+Seat 4: PJZimmermann (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: pol cros folded before Flop (didn't bet)
+Seat 7: XEM420 collected (260)
+Seat 8: MA10K (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359600907: Tournament #3989590783, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:30:52 BRT [2026/04/05 17:30:52 ET]
+Table '3989590783 4' 8-max Seat #1 is the button
+Seat 1: ZANONI56 (2330 in chips) 
+Seat 4: PJZimmermann (3394 in chips) 
+Seat 5: scorza23 (1948 in chips) 
+Seat 6: pol cros (2570 in chips) 
+Seat 7: XEM420 (981 in chips) 
+Seat 8: MA10K (1136 in chips) 
+ZANONI56: posts the ante 10
+PJZimmermann: posts the ante 10
+scorza23: posts the ante 10
+pol cros: posts the ante 10
+XEM420: posts the ante 10
+MA10K: posts the ante 10
+PJZimmermann: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Ks]
+pol cros: folds 
+XEM420: folds 
+MA10K: folds 
+ZANONI56: folds 
+PJZimmermann: raises 80 to 160
+scorza23: raises 240 to 400
+PJZimmermann: calls 240
+*** FLOP *** [3d Ah Kc]
+PJZimmermann: checks 
+scorza23: checks 
+*** TURN *** [3d Ah Kc] [Jc]
+PJZimmermann: bets 160
+scorza23: calls 160
+*** RIVER *** [3d Ah Kc Jc] [Qc]
+PJZimmermann: bets 240
+scorza23: raises 1138 to 1378 and is all-in
+PJZimmermann: calls 1138
+*** SHOW DOWN ***
+scorza23: shows [Kh Ks] (three of a kind, Kings)
+PJZimmermann: shows [6c Ac] (a flush, Ace high)
+PJZimmermann collected 3936 from pot
+scorza23 finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 3936 | Rake 0 
+Board [3d Ah Kc Jc Qc]
+Seat 1: ZANONI56 (button) folded before Flop (didn't bet)
+Seat 4: PJZimmermann (small blind) showed [6c Ac] and won (3936) with a flush, Ace high
+Seat 5: scorza23 (big blind) showed [Kh Ks] and lost with three of a kind, Kings
+Seat 6: pol cros folded before Flop (didn't bet)
+Seat 7: XEM420 folded before Flop (didn't bet)
+Seat 8: MA10K folded before Flop (didn't bet)
+
+
+

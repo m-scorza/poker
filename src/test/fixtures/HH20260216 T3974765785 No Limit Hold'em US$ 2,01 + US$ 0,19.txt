@@ -1,0 +1,1986 @@
+﻿PokerStars Hand #259757856913: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level I (25/50) - 2026/02/17 0:34:59 UTC [2026/02/16 19:34:59 ET]
+Table '3974765785 3' 7-max Seat #1 is the button
+Seat 1: hanckop1978 (5000 in chips, $1 bounty) 
+Seat 2: scorza23 (5000 in chips, $1 bounty) 
+Seat 3: Kaza1313 (5000 in chips, $1 bounty) 
+Seat 5: Lukust21 (5000 in chips, $1 bounty) 
+Seat 6: Rpfeitosa (5000 in chips, $1 bounty) 
+Seat 7: Ttata18 (5000 in chips, $1 bounty) 
+hanckop1978: posts the ante 12
+scorza23: posts the ante 12
+Kaza1313: posts the ante 12
+Lukust21: posts the ante 12
+Rpfeitosa: posts the ante 12
+Ttata18: posts the ante 12
+scorza23: posts small blind 25
+Kaza1313: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 6h]
+Lukust21: folds 
+Rpfeitosa: folds 
+Ttata18: folds 
+hanckop1978: folds 
+scorza23: folds 
+Uncalled bet (25) returned to Kaza1313
+Kaza1313 collected 122 from pot
+Kaza1313: doesn't show hand 
+*** SUMMARY ***
+Total pot 122 | Rake 0 
+Seat 1: hanckop1978 (button) folded before Flop (didn't bet)
+Seat 2: scorza23 (small blind) folded before Flop
+Seat 3: Kaza1313 (big blind) collected (122)
+Seat 5: Lukust21 folded before Flop (didn't bet)
+Seat 6: Rpfeitosa folded before Flop (didn't bet)
+Seat 7: Ttata18 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757859309: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level I (25/50) - 2026/02/17 0:35:14 UTC [2026/02/16 19:35:14 ET]
+Table '3974765785 3' 7-max Seat #2 is the button
+Seat 1: hanckop1978 (4988 in chips, $1 bounty) 
+Seat 2: scorza23 (4963 in chips, $1 bounty) 
+Seat 3: Kaza1313 (5085 in chips, $1 bounty) 
+Seat 5: Lukust21 (4988 in chips, $1 bounty) 
+Seat 6: Rpfeitosa (4988 in chips, $1 bounty) 
+Seat 7: Ttata18 (4988 in chips, $1 bounty) 
+hanckop1978: posts the ante 12
+scorza23: posts the ante 12
+Kaza1313: posts the ante 12
+Lukust21: posts the ante 12
+Rpfeitosa: posts the ante 12
+Ttata18: posts the ante 12
+Kaza1313: posts small blind 25
+Lukust21: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 4h]
+Rpfeitosa: folds 
+Ttata18: raises 50 to 100
+hanckop1978: folds 
+scorza23: folds 
+Kaza1313: calls 75
+Lukust21: calls 50
+*** FLOP *** [7c Jd 7s]
+Kaza1313: checks 
+Lukust21: checks 
+Ttata18: bets 186
+Kaza1313: raises 186 to 372
+Lukust21: folds 
+Ttata18: folds 
+Uncalled bet (186) returned to Kaza1313
+Kaza1313 collected 744 from pot
+Kaza1313: doesn't show hand 
+*** SUMMARY ***
+Total pot 744 | Rake 0 
+Board [7c Jd 7s]
+Seat 1: hanckop1978 folded before Flop (didn't bet)
+Seat 2: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Kaza1313 (small blind) collected (744)
+Seat 5: Lukust21 (big blind) folded on the Flop
+Seat 6: Rpfeitosa folded before Flop (didn't bet)
+Seat 7: Ttata18 folded on the Flop
+
+
+
+PokerStars Hand #259757869829: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level I (25/50) - 2026/02/17 0:36:16 UTC [2026/02/16 19:36:16 ET]
+Table '3974765785 3' 7-max Seat #3 is the button
+Seat 1: hanckop1978 (4976 in chips, $1 bounty) 
+Seat 2: scorza23 (4951 in chips, $1 bounty) 
+Seat 3: Kaza1313 (5531 in chips, $1 bounty) 
+Seat 4: Isacha606 (5000 in chips) out of hand (moved from another table into small blind)
+Seat 5: Lukust21 (4876 in chips, $1 bounty) 
+Seat 6: Rpfeitosa (4976 in chips, $1 bounty) 
+Isacha606 will be allowed to play after the button
+hanckop1978: posts the ante 12
+scorza23: posts the ante 12
+Kaza1313: posts the ante 12
+Lukust21: posts the ante 12
+Rpfeitosa: posts the ante 12
+Lukust21: posts small blind 25
+Rpfeitosa: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Jh]
+hanckop1978: folds 
+scorza23: folds 
+Junior La206 is disconnected 
+Kaza1313: raises 100 to 150
+Lukust21: raises 410 to 560
+Rpfeitosa: folds 
+Kaza1313: folds 
+Uncalled bet (410) returned to Lukust21
+Lukust21 collected 410 from pot
+Lukust21: doesn't show hand 
+*** SUMMARY ***
+Total pot 410 | Rake 0 
+Seat 1: hanckop1978 folded before Flop (didn't bet)
+Seat 2: scorza23 folded before Flop (didn't bet)
+Seat 3: Kaza1313 (button) folded before Flop
+Seat 5: Lukust21 (small blind) collected (410)
+Seat 6: Rpfeitosa (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757874192: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level I (25/50) - 2026/02/17 0:36:42 UTC [2026/02/16 19:36:42 ET]
+Table '3974765785 3' 7-max Seat #5 is the button
+Seat 1: hanckop1978 (4964 in chips, $1 bounty) 
+Seat 2: scorza23 (4939 in chips, $1 bounty) 
+Seat 3: Kaza1313 (5369 in chips, $1 bounty) 
+Seat 4: Isacha606 (5000 in chips, $1 bounty) 
+Seat 5: Lukust21 (5124 in chips, $1 bounty) 
+Seat 6: Rpfeitosa (4914 in chips, $1 bounty) 
+Seat 7: Junior La206 (5000 in chips, $1 bounty) 
+hanckop1978: posts the ante 12
+scorza23: posts the ante 12
+Kaza1313: posts the ante 12
+Isacha606: posts the ante 12
+Lukust21: posts the ante 12
+Rpfeitosa: posts the ante 12
+Junior La206: posts the ante 12
+Rpfeitosa: posts small blind 25
+Junior La206: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 7s]
+hanckop1978: calls 50
+scorza23: raises 55 to 105
+Kaza1313: raises 145 to 250
+Isacha606: folds 
+Lukust21: folds 
+Rpfeitosa: folds 
+Junior La206: raises 350 to 600
+hanckop1978: folds 
+scorza23: raises 4327 to 4927 and is all-in
+Kaza1313: folds 
+Junior La206: calls 4327
+*** FLOP *** [4d 3d Ad]
+*** TURN *** [4d 3d Ad] [2h]
+*** RIVER *** [4d 3d Ad 2h] [Qs]
+*** SHOW DOWN ***
+Junior La206: shows [9d 9c] (a pair of Nines)
+scorza23: shows [7c 7s] (a pair of Sevens)
+Junior La206 collected 10263 from pot
+Junior La206 wins $0.50 for eliminating scorza23 and their own bounty increases by $0.50 to $1.50
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 10263 | Rake 0 
+Board [4d 3d Ad 2h Qs]
+Seat 1: hanckop1978 folded before Flop
+Seat 2: scorza23 showed [7c 7s] and lost with a pair of Sevens
+Seat 3: Kaza1313 folded before Flop
+Seat 4: Isacha606 folded before Flop (didn't bet)
+Seat 5: Lukust21 (button) folded before Flop (didn't bet)
+Seat 6: Rpfeitosa (small blind) folded before Flop
+Seat 7: Junior La206 (big blind) showed [9d 9c] and won (10263) with a pair of Nines
+
+
+
+PokerStars Hand #259757904081: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level II (30/60) - 2026/02/17 0:39:42 UTC [2026/02/16 19:39:42 ET]
+Table '3974765785 15' 7-max Seat #2 is the button
+Seat 1: willalkateia (8245 in chips, $1.50 bounty) 
+Seat 2: JJokerBR (4756 in chips, $1 bounty) 
+Seat 3: sharkbait260 (4925 in chips, $1 bounty) 
+Seat 4: Gerg499 (5000 in chips, $1 bounty) 
+Seat 6: trexero (5375 in chips, $1 bounty) 
+Seat 7: scorza23 (5000 in chips, $1 bounty) 
+willalkateia: posts the ante 15
+JJokerBR: posts the ante 15
+sharkbait260: posts the ante 15
+Gerg499: posts the ante 15
+trexero: posts the ante 15
+scorza23: posts the ante 15
+sharkbait260: posts small blind 30
+Gerg499: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 2h]
+trexero: folds 
+tiosammmmmmmmmm is disconnected 
+scorza23: folds 
+willalkateia: folds 
+JJokerBR: folds 
+sharkbait260: raises 210 to 270
+Gerg499: folds 
+Uncalled bet (210) returned to sharkbait260
+sharkbait260 collected 210 from pot
+sharkbait260: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: JJokerBR (button) folded before Flop (didn't bet)
+Seat 3: sharkbait260 (small blind) collected (210)
+Seat 4: Gerg499 (big blind) folded before Flop
+Seat 6: trexero folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757908903: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level II (30/60) - 2026/02/17 0:40:11 UTC [2026/02/16 19:40:11 ET]
+Table '3974765785 15' 7-max Seat #3 is the button
+Seat 1: willalkateia (8230 in chips, $1.50 bounty) 
+Seat 2: JJokerBR (4741 in chips, $1 bounty) 
+Seat 3: sharkbait260 (5060 in chips, $1 bounty) 
+Seat 4: Gerg499 (4925 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (5000 in chips, $1 bounty) 
+Seat 6: trexero (5360 in chips, $1 bounty) 
+Seat 7: scorza23 (4985 in chips, $1 bounty) 
+willalkateia: posts the ante 15
+JJokerBR: posts the ante 15
+sharkbait260: posts the ante 15
+Gerg499: posts the ante 15
+tiosammmmmmmmmm: posts the ante 15
+trexero: posts the ante 15
+scorza23: posts the ante 15
+Gerg499: posts small blind 30
+tiosammmmmmmmmm: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 9h]
+trexero: folds 
+scorza23: folds 
+willalkateia: folds 
+JJokerBR: folds 
+sharkbait260: folds 
+Gerg499: folds 
+Uncalled bet (30) returned to tiosammmmmmmmmm
+tiosammmmmmmmmm collected 165 from pot
+tiosammmmmmmmmm: doesn't show hand 
+*** SUMMARY ***
+Total pot 165 | Rake 0 
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: JJokerBR folded before Flop (didn't bet)
+Seat 3: sharkbait260 (button) folded before Flop (didn't bet)
+Seat 4: Gerg499 (small blind) folded before Flop
+Seat 5: tiosammmmmmmmmm (big blind) collected (165)
+Seat 6: trexero folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757911146: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level II (30/60) - 2026/02/17 0:40:25 UTC [2026/02/16 19:40:25 ET]
+Table '3974765785 15' 7-max Seat #4 is the button
+Seat 1: willalkateia (8215 in chips, $1.50 bounty) 
+Seat 2: JJokerBR (4726 in chips, $1 bounty) 
+Seat 3: sharkbait260 (5045 in chips, $1 bounty) 
+Seat 4: Gerg499 (4880 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (5120 in chips, $1 bounty) 
+Seat 6: trexero (5345 in chips, $1 bounty) 
+Seat 7: scorza23 (4970 in chips, $1 bounty) 
+willalkateia: posts the ante 15
+JJokerBR: posts the ante 15
+sharkbait260: posts the ante 15
+Gerg499: posts the ante 15
+tiosammmmmmmmmm: posts the ante 15
+trexero: posts the ante 15
+scorza23: posts the ante 15
+tiosammmmmmmmmm: posts small blind 30
+trexero: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 2s]
+scorza23: folds 
+willalkateia: folds 
+JJokerBR: folds 
+sharkbait260: calls 60
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: checks 
+*** FLOP *** [Jc Kd 9h]
+trexero: checks 
+sharkbait260: checks 
+*** TURN *** [Jc Kd 9h] [Tc]
+trexero: checks 
+sharkbait260: checks 
+*** RIVER *** [Jc Kd 9h Tc] [8d]
+trexero: checks 
+sharkbait260: checks 
+*** SHOW DOWN ***
+trexero: shows [4h Td] (a pair of Tens)
+sharkbait260: mucks hand 
+trexero collected 255 from pot
+*** SUMMARY ***
+Total pot 255 | Rake 0 
+Board [Jc Kd 9h Tc 8d]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: JJokerBR folded before Flop (didn't bet)
+Seat 3: sharkbait260 mucked [4s 5c]
+Seat 4: Gerg499 (button) folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm (small blind) folded before Flop
+Seat 6: trexero (big blind) showed [4h Td] and won (255) with a pair of Tens
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757920267: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (40/80) - 2026/02/17 0:41:21 UTC [2026/02/16 19:41:21 ET]
+Table '3974765785 15' 7-max Seat #5 is the button
+Seat 1: willalkateia (8200 in chips, $1.50 bounty) 
+Seat 2: JJokerBR (4711 in chips, $1 bounty) 
+Seat 3: sharkbait260 (4970 in chips, $1 bounty) 
+Seat 4: Gerg499 (4865 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (5075 in chips, $1 bounty) 
+Seat 6: trexero (5525 in chips, $1 bounty) 
+Seat 7: scorza23 (4955 in chips, $1 bounty) 
+willalkateia: posts the ante 20
+JJokerBR: posts the ante 20
+sharkbait260: posts the ante 20
+Gerg499: posts the ante 20
+tiosammmmmmmmmm: posts the ante 20
+trexero: posts the ante 20
+scorza23: posts the ante 20
+trexero: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 3h]
+willalkateia: folds 
+JJokerBR: folds 
+sharkbait260: calls 80
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: calls 40
+scorza23: checks 
+*** FLOP *** [6c 2h 6s]
+trexero: checks 
+scorza23: checks 
+sharkbait260: checks 
+*** TURN *** [6c 2h 6s] [Ac]
+trexero: checks 
+scorza23: checks 
+sharkbait260: checks 
+*** RIVER *** [6c 2h 6s Ac] [Qs]
+trexero: bets 167
+scorza23: folds 
+sharkbait260: raises 167 to 334
+trexero: calls 167
+*** SHOW DOWN ***
+sharkbait260: shows [6h 7d] (three of a kind, Sixes)
+trexero: mucks hand 
+sharkbait260 collected 1048 from pot
+*** SUMMARY ***
+Total pot 1048 | Rake 0 
+Board [6c 2h 6s Ac Qs]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: JJokerBR folded before Flop (didn't bet)
+Seat 3: sharkbait260 showed [6h 7d] and won (1048) with three of a kind, Sixes
+Seat 4: Gerg499 folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm (button) folded before Flop (didn't bet)
+Seat 6: trexero (small blind) mucked [7c Ad]
+Seat 7: scorza23 (big blind) folded on the River
+
+
+
+PokerStars Hand #259757929749: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (40/80) - 2026/02/17 0:42:20 UTC [2026/02/16 19:42:20 ET]
+Table '3974765785 15' 7-max Seat #6 is the button
+Seat 1: willalkateia (8180 in chips, $1.50 bounty) 
+Seat 2: JJokerBR (4691 in chips, $1 bounty) 
+Seat 3: sharkbait260 (5584 in chips, $1 bounty) 
+Seat 4: Gerg499 (4845 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (5055 in chips, $1 bounty) 
+Seat 6: trexero (5091 in chips, $1 bounty) 
+Seat 7: scorza23 (4855 in chips, $1 bounty) 
+willalkateia: posts the ante 20
+JJokerBR: posts the ante 20
+sharkbait260: posts the ante 20
+Gerg499: posts the ante 20
+tiosammmmmmmmmm: posts the ante 20
+trexero: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 40
+willalkateia: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Jd]
+JJokerBR: raises 80 to 160
+sharkbait260: calls 160
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: folds 
+scorza23: raises 700 to 860
+willalkateia: folds 
+JJokerBR: raises 3811 to 4671 and is all-in
+sharkbait260: folds 
+scorza23: calls 3811
+*** FLOP *** [Ts 8s 3c]
+*** TURN *** [Ts 8s 3c] [Th]
+*** RIVER *** [Ts 8s 3c Th] [Kc]
+*** SHOW DOWN ***
+scorza23: shows [Jc Jd] (two pair, Jacks and Tens)
+JJokerBR: shows [Qs As] (a pair of Tens)
+scorza23 collected 9722 from pot
+scorza23 wins $0.50 for eliminating JJokerBR and their own bounty increases by $0.50 to $1.50
+JJokerBR finished the tournament
+*** SUMMARY ***
+Total pot 9722 | Rake 0 
+Board [Ts 8s 3c Th Kc]
+Seat 1: willalkateia (big blind) folded before Flop
+Seat 2: JJokerBR showed [Qs As] and lost with a pair of Tens
+Seat 3: sharkbait260 folded before Flop
+Seat 4: Gerg499 folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: trexero (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) showed [Jc Jd] and won (9722) with two pair, Jacks and Tens
+
+
+
+PokerStars Hand #259757936007: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level III (40/80) - 2026/02/17 0:42:58 UTC [2026/02/16 19:42:58 ET]
+Table '3974765785 15' 7-max Seat #7 is the button
+Seat 1: willalkateia (8080 in chips, $1.50 bounty) 
+Seat 3: sharkbait260 (5404 in chips, $1 bounty) 
+Seat 4: Gerg499 (4825 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (5035 in chips, $1 bounty) 
+Seat 6: trexero (5071 in chips, $1 bounty) 
+Seat 7: scorza23 (9886 in chips, $1.50 bounty) 
+willalkateia: posts the ante 20
+sharkbait260: posts the ante 20
+Gerg499: posts the ante 20
+tiosammmmmmmmmm: posts the ante 20
+trexero: posts the ante 20
+scorza23: posts the ante 20
+willalkateia: posts small blind 40
+sharkbait260: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Td]
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: folds 
+scorza23: raises 160 to 240
+willalkateia: calls 200
+sharkbait260: calls 160
+*** FLOP *** [3s Ac 3c]
+willalkateia: checks 
+sharkbait260: checks 
+scorza23: checks 
+*** TURN *** [3s Ac 3c] [Qh]
+willalkateia: checks 
+sharkbait260: checks 
+scorza23: bets 160
+willalkateia: folds 
+sharkbait260: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 840 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 840 | Rake 0 
+Board [3s Ac 3c Qh]
+Seat 1: willalkateia (small blind) folded on the Turn
+Seat 3: sharkbait260 (big blind) folded on the Turn
+Seat 4: Gerg499 folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: trexero folded before Flop (didn't bet)
+Seat 7: scorza23 (button) collected (840)
+
+
+
+PokerStars Hand #259757950904: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 0:44:30 UTC [2026/02/16 19:44:30 ET]
+Table '3974765785 15' 7-max Seat #1 is the button
+Seat 1: willalkateia (7820 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (5000 in chips) out of hand (moved from another table into small blind)
+Seat 3: sharkbait260 (5144 in chips, $1 bounty) 
+Seat 4: Gerg499 (4805 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (5015 in chips, $1 bounty) 
+Seat 6: trexero (5051 in chips, $1 bounty) 
+Seat 7: scorza23 (10466 in chips, $1.50 bounty) 
+guayacome745 will be allowed to play after the button
+willalkateia: posts the ante 25
+sharkbait260: posts the ante 25
+Gerg499: posts the ante 25
+tiosammmmmmmmmm: posts the ante 25
+trexero: posts the ante 25
+scorza23: posts the ante 25
+sharkbait260: posts small blind 50
+Gerg499: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Tc]
+tiosammmmmmmmmm: folds 
+trexero: folds 
+scorza23: folds 
+willalkateia: folds 
+sharkbait260: folds 
+Uncalled bet (50) returned to Gerg499
+Gerg499 collected 250 from pot
+Gerg499: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: willalkateia (button) folded before Flop (didn't bet)
+Seat 3: sharkbait260 (small blind) folded before Flop
+Seat 4: Gerg499 (big blind) collected (250)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: trexero folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757955810: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 0:45:00 UTC [2026/02/16 19:45:00 ET]
+Table '3974765785 15' 7-max Seat #3 is the button
+Seat 1: willalkateia (7795 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (5000 in chips, $1 bounty) 
+Seat 3: sharkbait260 (5069 in chips, $1 bounty) 
+Seat 4: Gerg499 (4980 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4990 in chips, $1 bounty) 
+Seat 6: trexero (5026 in chips, $1 bounty) 
+Seat 7: scorza23 (10441 in chips, $1.50 bounty) 
+willalkateia: posts the ante 25
+guayacome745: posts the ante 25
+sharkbait260: posts the ante 25
+Gerg499: posts the ante 25
+tiosammmmmmmmmm: posts the ante 25
+trexero: posts the ante 25
+scorza23: posts the ante 25
+Gerg499: posts small blind 50
+tiosammmmmmmmmm: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 5c]
+trexero: raises 112 to 212
+scorza23: folds 
+willalkateia: raises 412 to 624
+guayacome745: folds 
+sharkbait260: calls 624
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: calls 412
+*** FLOP *** [Kd 3d 4h]
+trexero: checks 
+willalkateia: checks 
+sharkbait260: checks 
+*** TURN *** [Kd 3d 4h] [7d]
+trexero: checks 
+willalkateia: bets 1099
+sharkbait260: calls 1099
+trexero: calls 1099
+*** RIVER *** [Kd 3d 4h 7d] [5s]
+trexero: checks 
+willalkateia: checks 
+sharkbait260: bets 3321 and is all-in
+trexero: folds 
+willalkateia: calls 3321
+*** SHOW DOWN ***
+sharkbait260: shows [7c 6c] (a straight, Three to Seven)
+willalkateia: shows [Ks Jd] (a pair of Kings)
+sharkbait260 collected 12136 from pot
+*** SUMMARY ***
+Total pot 12136 | Rake 0 
+Board [Kd 3d 4h 7d 5s]
+Seat 1: willalkateia showed [Ks Jd] and lost with a pair of Kings
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 (button) showed [7c 6c] and won (12136) with a straight, Three to Seven
+Seat 4: Gerg499 (small blind) folded before Flop
+Seat 5: tiosammmmmmmmmm (big blind) folded before Flop
+Seat 6: trexero folded on the River
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757969125: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 0:46:22 UTC [2026/02/16 19:46:22 ET]
+Table '3974765785 15' 7-max Seat #4 is the button
+Seat 1: willalkateia (2726 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (4975 in chips, $1 bounty) 
+Seat 3: sharkbait260 (12136 in chips, $1 bounty) 
+Seat 4: Gerg499 (4905 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4865 in chips, $1 bounty) 
+Seat 6: trexero (3278 in chips, $1 bounty) 
+Seat 7: scorza23 (10416 in chips, $1.50 bounty) 
+willalkateia: posts the ante 25
+guayacome745: posts the ante 25
+sharkbait260: posts the ante 25
+Gerg499: posts the ante 25
+tiosammmmmmmmmm: posts the ante 25
+trexero: posts the ante 25
+scorza23: posts the ante 25
+tiosammmmmmmmmm: posts small blind 50
+trexero: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [As 6c]
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 200 to 300
+sharkbait260: folds 
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: folds 
+Uncalled bet (200) returned to guayacome745
+guayacome745 collected 425 from pot
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 collected (425)
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: Gerg499 (button) folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm (small blind) folded before Flop
+Seat 6: trexero (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757972431: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 0:46:42 UTC [2026/02/16 19:46:42 ET]
+Table '3974765785 15' 7-max Seat #5 is the button
+Seat 1: willalkateia (2701 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (5275 in chips, $1 bounty) 
+Seat 3: sharkbait260 (12111 in chips, $1 bounty) 
+Seat 4: Gerg499 (4880 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4790 in chips, $1 bounty) 
+Seat 6: trexero (3153 in chips, $1 bounty) 
+Seat 7: scorza23 (10391 in chips, $1.50 bounty) 
+willalkateia: posts the ante 25
+guayacome745: posts the ante 25
+sharkbait260: posts the ante 25
+Gerg499: posts the ante 25
+tiosammmmmmmmmm: posts the ante 25
+trexero: posts the ante 25
+scorza23: posts the ante 25
+trexero: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 7s]
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: folds 
+Gerg499: raises 100 to 200
+tiosammmmmmmmmm: calls 200
+trexero: calls 150
+scorza23: folds 
+*** FLOP *** [3c Ac 8d]
+trexero: checks 
+Gerg499: bets 200
+tiosammmmmmmmmm: folds 
+trexero: folds 
+Uncalled bet (200) returned to Gerg499
+Gerg499 collected 875 from pot
+Gerg499: doesn't show hand 
+*** SUMMARY ***
+Total pot 875 | Rake 0 
+Board [3c Ac 8d]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: Gerg499 collected (875)
+Seat 5: tiosammmmmmmmmm (button) folded on the Flop
+Seat 6: trexero (small blind) folded on the Flop
+Seat 7: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757978993: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 0:47:23 UTC [2026/02/16 19:47:23 ET]
+Table '3974765785 15' 7-max Seat #6 is the button
+Seat 1: willalkateia (2676 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (5250 in chips, $1 bounty) 
+Seat 3: sharkbait260 (12086 in chips, $1 bounty) 
+Seat 4: Gerg499 (5530 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4565 in chips, $1 bounty) 
+Seat 6: trexero (2928 in chips, $1 bounty) 
+Seat 7: scorza23 (10266 in chips, $1.50 bounty) 
+willalkateia: posts the ante 30
+guayacome745: posts the ante 30
+sharkbait260: posts the ante 30
+Gerg499: posts the ante 30
+tiosammmmmmmmmm: posts the ante 30
+trexero: posts the ante 30
+scorza23: posts the ante 30
+scorza23: posts small blind 60
+willalkateia: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 8s]
+guayacome745: folds 
+sharkbait260: raises 120 to 240
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: calls 240
+scorza23: folds 
+willalkateia: folds 
+*** FLOP *** [3s 7c Js]
+sharkbait260: bets 360
+trexero: folds 
+Uncalled bet (360) returned to sharkbait260
+sharkbait260 collected 870 from pot
+sharkbait260: doesn't show hand 
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [3s 7c Js]
+Seat 1: willalkateia (big blind) folded before Flop
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 collected (870)
+Seat 4: Gerg499 folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: trexero (button) folded on the Flop
+Seat 7: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757985927: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 0:48:05 UTC [2026/02/16 19:48:05 ET]
+Table '3974765785 15' 7-max Seat #7 is the button
+Seat 1: willalkateia (2526 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (5220 in chips, $1 bounty) 
+Seat 3: sharkbait260 (12686 in chips, $1 bounty) 
+Seat 4: Gerg499 (5500 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4535 in chips, $1 bounty) 
+Seat 6: trexero (2658 in chips, $1 bounty) 
+Seat 7: scorza23 (10176 in chips, $1.50 bounty) 
+willalkateia: posts the ante 30
+guayacome745: posts the ante 30
+sharkbait260: posts the ante 30
+Gerg499: posts the ante 30
+tiosammmmmmmmmm: posts the ante 30
+trexero: posts the ante 30
+scorza23: posts the ante 30
+willalkateia: posts small blind 60
+guayacome745: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 4c]
+sharkbait260: raises 120 to 240
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: folds 
+Uncalled bet (120) returned to sharkbait260
+sharkbait260 collected 510 from pot
+sharkbait260: doesn't show hand 
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Seat 1: willalkateia (small blind) folded before Flop
+Seat 2: guayacome745 (big blind) folded before Flop
+Seat 3: sharkbait260 collected (510)
+Seat 4: Gerg499 folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: trexero folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757988964: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 0:48:24 UTC [2026/02/16 19:48:24 ET]
+Table '3974765785 15' 7-max Seat #1 is the button
+Seat 1: willalkateia (2436 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (5070 in chips, $1 bounty) 
+Seat 3: sharkbait260 (13046 in chips, $1 bounty) 
+Seat 4: Gerg499 (5470 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4505 in chips, $1 bounty) 
+Seat 6: trexero (2628 in chips, $1 bounty) 
+Seat 7: scorza23 (10146 in chips, $1.50 bounty) 
+willalkateia: posts the ante 30
+guayacome745: posts the ante 30
+sharkbait260: posts the ante 30
+Gerg499: posts the ante 30
+tiosammmmmmmmmm: posts the ante 30
+trexero: posts the ante 30
+scorza23: posts the ante 30
+guayacome745: posts small blind 60
+sharkbait260: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Kd]
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+trexero: calls 120
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 120 to 240
+sharkbait260: calls 120
+trexero: raises 2358 to 2598 and is all-in
+guayacome745: calls 2358
+sharkbait260: folds 
+*** FLOP *** [6s 9d Jc]
+*** TURN *** [6s 9d Jc] [8d]
+*** RIVER *** [6s 9d Jc 8d] [3c]
+*** SHOW DOWN ***
+guayacome745: shows [3d 3h] (three of a kind, Threes)
+trexero: shows [As Qd] (high card Ace)
+guayacome745 collected 5646 from pot
+guayacome745 wins $0.50 for eliminating trexero and their own bounty increases by $0.50 to $1.50
+trexero finished the tournament
+*** SUMMARY ***
+Total pot 5646 | Rake 0 
+Board [6s 9d Jc 8d 3c]
+Seat 1: willalkateia (button) folded before Flop (didn't bet)
+Seat 2: guayacome745 (small blind) showed [3d 3h] and won (5646) with three of a kind, Threes
+Seat 3: sharkbait260 (big blind) folded before Flop
+Seat 4: Gerg499 folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: trexero showed [As Qd] and lost with high card Ace
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757995430: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 0:49:05 UTC [2026/02/16 19:49:05 ET]
+Table '3974765785 15' 7-max Seat #2 is the button
+Seat 1: willalkateia (2406 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (8088 in chips, $1.50 bounty) 
+Seat 3: sharkbait260 (12776 in chips, $1 bounty) 
+Seat 4: Gerg499 (5440 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4475 in chips, $1 bounty) 
+Seat 7: scorza23 (10116 in chips, $1.50 bounty) 
+willalkateia: posts the ante 30
+guayacome745: posts the ante 30
+sharkbait260: posts the ante 30
+Gerg499: posts the ante 30
+tiosammmmmmmmmm: posts the ante 30
+scorza23: posts the ante 30
+sharkbait260: posts small blind 60
+Gerg499: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Ac]
+GenericMale69 is disconnected 
+tiosammmmmmmmmm: folds 
+scorza23: raises 132 to 252
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: folds 
+Gerg499: folds 
+Uncalled bet (132) returned to scorza23
+scorza23 collected 480 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 (button) folded before Flop (didn't bet)
+Seat 3: sharkbait260 (small blind) folded before Flop
+Seat 4: Gerg499 (big blind) folded before Flop
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 7: scorza23 collected (480)
+
+
+
+PokerStars Hand #259758001948: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 0:49:46 UTC [2026/02/16 19:49:46 ET]
+Table '3974765785 15' 7-max Seat #3 is the button
+Seat 1: willalkateia (2376 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (8058 in chips, $1.50 bounty) 
+Seat 3: sharkbait260 (12686 in chips, $1 bounty) 
+Seat 4: Gerg499 (5290 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4445 in chips, $1 bounty) 
+Seat 6: GenericMale69 (5000 in chips, $1 bounty) 
+Seat 7: scorza23 (10446 in chips, $1.50 bounty) 
+willalkateia: posts the ante 30
+guayacome745: posts the ante 30
+sharkbait260: posts the ante 30
+Gerg499: posts the ante 30
+tiosammmmmmmmmm: posts the ante 30
+GenericMale69: posts the ante 30
+scorza23: posts the ante 30
+Gerg499: posts small blind 60
+tiosammmmmmmmmm: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 8s]
+GenericMale69: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 240 to 360
+sharkbait260: calls 360
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+*** FLOP *** [Qd 4h 5c]
+guayacome745: bets 555
+sharkbait260: calls 555
+*** TURN *** [Qd 4h 5c] [8d]
+guayacome745: checks 
+sharkbait260: bets 1110
+guayacome745: calls 1110
+*** RIVER *** [Qd 4h 5c 8d] [7s]
+guayacome745: checks 
+sharkbait260: checks 
+*** SHOW DOWN ***
+guayacome745: shows [Tc Td] (a pair of Tens)
+sharkbait260: mucks hand 
+guayacome745 collected 4440 from pot
+*** SUMMARY ***
+Total pot 4440 | Rake 0 
+Board [Qd 4h 5c 8d 7s]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 showed [Tc Td] and won (4440) with a pair of Tens
+Seat 3: sharkbait260 (button) mucked [Kh 5h]
+Seat 4: Gerg499 (small blind) folded before Flop
+Seat 5: tiosammmmmmmmmm (big blind) folded before Flop
+Seat 6: GenericMale69 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758013723: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 0:51:00 UTC [2026/02/16 19:51:00 ET]
+Table '3974765785 15' 7-max Seat #4 is the button
+Seat 1: willalkateia (2346 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (10443 in chips, $1.50 bounty) 
+Seat 3: sharkbait260 (10631 in chips, $1 bounty) 
+Seat 4: Gerg499 (5200 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4295 in chips, $1 bounty) 
+Seat 6: GenericMale69 (4970 in chips, $1 bounty) 
+Seat 7: scorza23 (10416 in chips, $1.50 bounty) 
+willalkateia: posts the ante 40
+guayacome745: posts the ante 40
+sharkbait260: posts the ante 40
+Gerg499: posts the ante 40
+tiosammmmmmmmmm: posts the ante 40
+GenericMale69: posts the ante 40
+scorza23: posts the ante 40
+tiosammmmmmmmmm: posts small blind 80
+GenericMale69: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Th]
+scorza23: folds 
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: raises 320 to 480
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+GenericMale69: calls 320
+*** FLOP *** [4s As Td]
+GenericMale69: checks 
+sharkbait260: bets 480
+GenericMale69: folds 
+Uncalled bet (480) returned to sharkbait260
+sharkbait260 collected 1320 from pot
+sharkbait260: doesn't show hand 
+*** SUMMARY ***
+Total pot 1320 | Rake 0 
+Board [4s As Td]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 collected (1320)
+Seat 4: Gerg499 (button) folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm (small blind) folded before Flop
+Seat 6: GenericMale69 (big blind) folded on the Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758019583: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 0:51:37 UTC [2026/02/16 19:51:37 ET]
+Table '3974765785 15' 7-max Seat #5 is the button
+Seat 1: willalkateia (2306 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (10403 in chips, $1.50 bounty) 
+Seat 3: sharkbait260 (11431 in chips, $1 bounty) 
+Seat 4: Gerg499 (5160 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (4175 in chips, $1 bounty) 
+Seat 6: GenericMale69 (4450 in chips, $1 bounty) 
+Seat 7: scorza23 (10376 in chips, $1.50 bounty) 
+willalkateia: posts the ante 40
+guayacome745: posts the ante 40
+sharkbait260: posts the ante 40
+Gerg499: posts the ante 40
+tiosammmmmmmmmm: posts the ante 40
+GenericMale69: posts the ante 40
+scorza23: posts the ante 40
+GenericMale69: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 3s]
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: calls 160
+Gerg499: calls 160
+tiosammmmmmmmmm: calls 160
+GenericMale69: folds 
+scorza23: checks 
+*** FLOP *** [Ks As 9d]
+scorza23: checks 
+sharkbait260: bets 160
+Gerg499: folds 
+tiosammmmmmmmmm: folds 
+scorza23: folds 
+Uncalled bet (160) returned to sharkbait260
+sharkbait260 collected 1000 from pot
+sharkbait260: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [Ks As 9d]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 collected (1000)
+Seat 4: Gerg499 folded on the Flop
+Seat 5: tiosammmmmmmmmm (button) folded on the Flop
+Seat 6: GenericMale69 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259758025646: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 0:52:14 UTC [2026/02/16 19:52:14 ET]
+Table '3974765785 15' 7-max Seat #6 is the button
+Seat 1: willalkateia (2266 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (10363 in chips, $1.50 bounty) 
+Seat 3: sharkbait260 (12231 in chips, $1 bounty) 
+Seat 4: Gerg499 (4960 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (3975 in chips, $1 bounty) 
+Seat 6: GenericMale69 (4330 in chips, $1 bounty) 
+Seat 7: scorza23 (10176 in chips, $1.50 bounty) 
+willalkateia: posts the ante 40
+guayacome745: posts the ante 40
+sharkbait260: posts the ante 40
+Gerg499: posts the ante 40
+tiosammmmmmmmmm: posts the ante 40
+GenericMale69: posts the ante 40
+scorza23: posts the ante 40
+scorza23: posts small blind 80
+willalkateia: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 6c]
+guayacome745: folds 
+sharkbait260: folds 
+Gerg499: raises 160 to 320
+tiosammmmmmmmmm: folds 
+GenericMale69: folds 
+scorza23: folds 
+willalkateia: calls 160
+*** FLOP *** [4s Qs 8c]
+willalkateia: checks 
+Gerg499: bets 500
+willalkateia: folds 
+Uncalled bet (500) returned to Gerg499
+Gerg499 collected 1000 from pot
+Gerg499: doesn't show hand 
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [4s Qs 8c]
+Seat 1: willalkateia (big blind) folded on the Flop
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: Gerg499 collected (1000)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: GenericMale69 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259758031366: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 0:52:51 UTC [2026/02/16 19:52:51 ET]
+Table '3974765785 15' 7-max Seat #7 is the button
+Seat 1: willalkateia (1906 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (10323 in chips, $1.50 bounty) 
+Seat 3: sharkbait260 (12191 in chips, $1 bounty) 
+Seat 4: Gerg499 (5600 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (3935 in chips, $1 bounty) 
+Seat 6: GenericMale69 (4290 in chips, $1 bounty) 
+Seat 7: scorza23 (10056 in chips, $1.50 bounty) 
+willalkateia: posts the ante 40
+guayacome745: posts the ante 40
+sharkbait260: posts the ante 40
+Gerg499: posts the ante 40
+tiosammmmmmmmmm: posts the ante 40
+GenericMale69: posts the ante 40
+scorza23: posts the ante 40
+willalkateia: posts small blind 80
+guayacome745: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 9s]
+sharkbait260: folds 
+Gerg499: folds 
+tiosammmmmmmmmm: raises 160 to 320
+GenericMale69: raises 3930 to 4250 and is all-in
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 6033 to 10283 and is all-in
+tiosammmmmmmmmm: folds 
+Uncalled bet (6033) returned to guayacome745
+*** FLOP *** [Ac Qd 5h]
+*** TURN *** [Ac Qd 5h] [5c]
+*** RIVER *** [Ac Qd 5h 5c] [7s]
+*** SHOW DOWN ***
+guayacome745: shows [8d 8c] (two pair, Eights and Fives)
+GenericMale69: shows [3s 3d] (two pair, Fives and Threes)
+guayacome745 collected 9180 from pot
+guayacome745 wins $0.50 for eliminating GenericMale69 and their own bounty increases by $0.50 to $2
+GenericMale69 finished the tournament
+*** SUMMARY ***
+Total pot 9180 | Rake 0 
+Board [Ac Qd 5h 5c 7s]
+Seat 1: willalkateia (small blind) folded before Flop
+Seat 2: guayacome745 (big blind) showed [8d 8c] and won (9180) with two pair, Eights and Fives
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: Gerg499 folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm folded before Flop
+Seat 6: GenericMale69 showed [3s 3d] and lost with two pair, Fives and Threes
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758037436: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 0:53:30 UTC [2026/02/16 19:53:30 ET]
+Table '3974765785 15' 7-max Seat #1 is the button
+Seat 1: willalkateia (1786 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (15213 in chips, $2 bounty) 
+Seat 3: sharkbait260 (12151 in chips, $1 bounty) 
+Seat 4: Gerg499 (5560 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (3575 in chips, $1 bounty) 
+Seat 7: scorza23 (10016 in chips, $1.50 bounty) 
+willalkateia: posts the ante 50
+guayacome745: posts the ante 50
+sharkbait260: posts the ante 50
+Gerg499: posts the ante 50
+tiosammmmmmmmmm: posts the ante 50
+scorza23: posts the ante 50
+guayacome745: posts small blind 100
+sharkbait260: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Jd]
+Gerg499: raises 400 to 600
+tiosammmmmmmmmm: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 14563 to 15163 and is all-in
+sharkbait260: folds 
+Gerg499: calls 4910 and is all-in
+Uncalled bet (9653) returned to guayacome745
+*** FLOP *** [4h 3d 5s]
+*** TURN *** [4h 3d 5s] [6c]
+*** RIVER *** [4h 3d 5s 6c] [3s]
+*** SHOW DOWN ***
+guayacome745: shows [9s 9c] (two pair, Nines and Threes)
+Gerg499: shows [8c 8h] (two pair, Eights and Threes)
+guayacome745 collected 11520 from pot
+guayacome745 wins $0.50 for eliminating Gerg499 and their own bounty increases by $0.50 to $2.50
+Gerg499 finished the tournament
+Fillebille is disconnected 
+*** SUMMARY ***
+Total pot 11520 | Rake 0 
+Board [4h 3d 5s 6c 3s]
+Seat 1: willalkateia (button) folded before Flop (didn't bet)
+Seat 2: guayacome745 (small blind) showed [9s 9c] and won (11520) with two pair, Nines and Threes
+Seat 3: sharkbait260 (big blind) folded before Flop
+Seat 4: Gerg499 showed [8c 8h] and lost with two pair, Eights and Threes
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758045086: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 0:54:18 UTC [2026/02/16 19:54:18 ET]
+Table '3974765785 15' 7-max Seat #2 is the button
+Seat 1: willalkateia (1736 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (21173 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (11901 in chips, $1 bounty) 
+Seat 4: Fillebille (4870 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (3525 in chips, $1 bounty) 
+Seat 7: scorza23 (9966 in chips, $1.50 bounty) 
+willalkateia: posts the ante 50
+guayacome745: posts the ante 50
+sharkbait260: posts the ante 50
+Fillebille: posts the ante 50
+tiosammmmmmmmmm: posts the ante 50
+scorza23: posts the ante 50
+sharkbait260: posts small blind 100
+Fillebille: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Qc]
+tiosammmmmmmmmm: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 400 to 600
+sharkbait260: folds 
+Fillebille: calls 400
+*** FLOP *** [6h Kc Jc]
+Fillebille: checks 
+guayacome745: checks 
+*** TURN *** [6h Kc Jc] [9c]
+Fillebille: checks 
+guayacome745: bets 800
+oseiaschess is disconnected 
+Fillebille: calls 800
+*** RIVER *** [6h Kc Jc 9c] [6d]
+Fillebille: checks 
+guayacome745: checks 
+*** SHOW DOWN ***
+Fillebille: shows [8c Td] (a pair of Sixes)
+guayacome745: shows [Ad 9h] (two pair, Nines and Sixes)
+guayacome745 collected 3200 from pot
+*** SUMMARY ***
+Total pot 3200 | Rake 0 
+Board [6h Kc Jc 9c 6d]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 (button) showed [Ad 9h] and won (3200) with two pair, Nines and Sixes
+Seat 3: sharkbait260 (small blind) folded before Flop
+Seat 4: Fillebille (big blind) showed [8c Td] and lost with a pair of Sixes
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758095491: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 1:00:55 UTC [2026/02/16 20:00:55 ET]
+Table '3974765785 15' 7-max Seat #3 is the button
+Seat 1: willalkateia (1686 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (22923 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (11751 in chips, $1 bounty) 
+Seat 4: Fillebille (3420 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (3475 in chips, $1 bounty) 
+Seat 6: oseiaschess (5000 in chips, $1 bounty) 
+Seat 7: scorza23 (9916 in chips, $1.50 bounty) 
+willalkateia: posts the ante 50
+guayacome745: posts the ante 50
+sharkbait260: posts the ante 50
+Fillebille: posts the ante 50
+tiosammmmmmmmmm: posts the ante 50
+oseiaschess: posts the ante 50
+scorza23: posts the ante 50
+Fillebille: posts small blind 100
+tiosammmmmmmmmm: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 2h]
+oseiaschess: folds 
+scorza23: folds 
+willalkateia: raises 1436 to 1636 and is all-in
+guayacome745: calls 1636
+sharkbait260: calls 1636
+Fillebille: folds 
+tiosammmmmmmmmm: calls 1436
+*** FLOP *** [2s 3c 6d]
+tiosammmmmmmmmm: checks 
+guayacome745: checks 
+sharkbait260: checks 
+*** TURN *** [2s 3c 6d] [3d]
+tiosammmmmmmmmm: checks 
+guayacome745: checks 
+sharkbait260: checks 
+*** RIVER *** [2s 3c 6d 3d] [8h]
+tiosammmmmmmmmm: checks 
+guayacome745: checks 
+sharkbait260: checks 
+*** SHOW DOWN ***
+tiosammmmmmmmmm: shows [9c Qs] (a pair of Threes)
+willalkateia: shows [Ac 8s] (two pair, Eights and Threes)
+guayacome745: mucks hand 
+sharkbait260: mucks hand 
+willalkateia collected 6994 from pot
+*** SUMMARY ***
+Total pot 6994 | Rake 0 
+Board [2s 3c 6d 3d 8h]
+Seat 1: willalkateia showed [Ac 8s] and won (6994) with two pair, Eights and Threes
+Seat 2: guayacome745 mucked [Kd Jh]
+Seat 3: sharkbait260 (button) mucked [As 9s]
+Seat 4: Fillebille (small blind) folded before Flop
+Seat 5: tiosammmmmmmmmm (big blind) showed [9c Qs] and lost with a pair of Threes
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758108590: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VIII (125/250) - 2026/02/17 1:02:23 UTC [2026/02/16 20:02:23 ET]
+Table '3974765785 15' 7-max Seat #4 is the button
+Seat 1: willalkateia (6994 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (21237 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (10065 in chips, $1 bounty) 
+Seat 4: Fillebille (3270 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (1789 in chips, $1 bounty) 
+Seat 6: oseiaschess (4950 in chips, $1 bounty) 
+Seat 7: scorza23 (9866 in chips, $1.50 bounty) 
+willalkateia: posts the ante 60
+guayacome745: posts the ante 60
+sharkbait260: posts the ante 60
+Fillebille: posts the ante 60
+tiosammmmmmmmmm: posts the ante 60
+oseiaschess: posts the ante 60
+scorza23: posts the ante 60
+tiosammmmmmmmmm: posts small blind 125
+oseiaschess: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 5d]
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 250 to 500
+sharkbait260: calls 500
+Fillebille: folds 
+tiosammmmmmmmmm: folds 
+oseiaschess: calls 250
+*** FLOP *** [7s Ad 5s]
+oseiaschess: checks 
+guayacome745: checks 
+sharkbait260: bets 500
+oseiaschess: raises 1000 to 1500
+guayacome745: folds 
+sharkbait260: calls 1000
+*** TURN *** [7s Ad 5s] [3h]
+oseiaschess: bets 2890 and is all-in
+sharkbait260: folds 
+Uncalled bet (2890) returned to oseiaschess
+oseiaschess collected 5045 from pot
+oseiaschess: doesn't show hand 
+*** SUMMARY ***
+Total pot 5045 | Rake 0 
+Board [7s Ad 5s 3h]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 folded on the Flop
+Seat 3: sharkbait260 folded on the Turn
+Seat 4: Fillebille (button) folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm (small blind) folded before Flop
+Seat 6: oseiaschess (big blind) collected (5045)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758120051: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VIII (125/250) - 2026/02/17 1:03:38 UTC [2026/02/16 20:03:38 ET]
+Table '3974765785 15' 7-max Seat #5 is the button
+Seat 1: willalkateia (6934 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (20677 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (8005 in chips, $1 bounty) 
+Seat 4: Fillebille (3210 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (1604 in chips, $1 bounty) 
+Seat 6: oseiaschess (7935 in chips, $1 bounty) 
+Seat 7: scorza23 (9806 in chips, $1.50 bounty) 
+willalkateia: posts the ante 60
+guayacome745: posts the ante 60
+sharkbait260: posts the ante 60
+Fillebille: posts the ante 60
+tiosammmmmmmmmm: posts the ante 60
+oseiaschess: posts the ante 60
+scorza23: posts the ante 60
+oseiaschess: posts small blind 125
+scorza23: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6s]
+willalkateia: folds 
+guayacome745: raises 250 to 500
+sharkbait260: folds 
+Fillebille: folds 
+tiosammmmmmmmmm: folds 
+oseiaschess: folds 
+scorza23: folds 
+Uncalled bet (250) returned to guayacome745
+guayacome745 collected 1045 from pot
+*** SUMMARY ***
+Total pot 1045 | Rake 0 
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 collected (1045)
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: Fillebille folded before Flop (didn't bet)
+Seat 5: tiosammmmmmmmmm (button) folded before Flop (didn't bet)
+Seat 6: oseiaschess (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758129697: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level VIII (125/250) - 2026/02/17 1:04:42 UTC [2026/02/16 20:04:42 ET]
+Table '3974765785 15' 7-max Seat #6 is the button
+Seat 1: willalkateia (6874 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (21412 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (7945 in chips, $1 bounty) 
+Seat 4: Fillebille (3150 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (1544 in chips, $1 bounty) 
+Seat 6: oseiaschess (7750 in chips, $1 bounty) 
+Seat 7: scorza23 (9496 in chips, $1.50 bounty) 
+willalkateia: posts the ante 60
+guayacome745: posts the ante 60
+sharkbait260: posts the ante 60
+Fillebille: posts the ante 60
+tiosammmmmmmmmm: posts the ante 60
+oseiaschess: posts the ante 60
+scorza23: posts the ante 60
+scorza23: posts small blind 125
+willalkateia: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Td]
+guayacome745: folds 
+sharkbait260: folds 
+Fillebille: raises 2840 to 3090 and is all-in
+tiosammmmmmmmmm: folds 
+oseiaschess: folds 
+scorza23: calls 2965
+willalkateia: folds 
+*** FLOP *** [Qc 5s 7h]
+*** TURN *** [Qc 5s 7h] [2h]
+*** RIVER *** [Qc 5s 7h 2h] [6h]
+*** SHOW DOWN ***
+scorza23: shows [Th Td] (a pair of Tens)
+Fillebille: shows [Ks Ah] (high card Ace)
+scorza23 collected 6850 from pot
+scorza23 wins $0.50 for eliminating Fillebille and their own bounty increases by $0.50 to $2
+Fillebille finished the tournament
+*** SUMMARY ***
+Total pot 6850 | Rake 0 
+Board [Qc 5s 7h 2h 6h]
+Seat 1: willalkateia (big blind) folded before Flop
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: Fillebille showed [Ks Ah] and lost with high card Ace
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: oseiaschess (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) showed [Th Td] and won (6850) with a pair of Tens
+
+
+
+PokerStars Hand #259758136142: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IX (150/300) - 2026/02/17 1:05:25 UTC [2026/02/16 20:05:25 ET]
+Table '3974765785 15' 7-max Seat #7 is the button
+Seat 1: willalkateia (6564 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (21352 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (7885 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (1484 in chips, $1 bounty) 
+Seat 6: oseiaschess (7690 in chips, $1 bounty) 
+Seat 7: scorza23 (13196 in chips, $2 bounty) 
+willalkateia: posts the ante 75
+guayacome745: posts the ante 75
+sharkbait260: posts the ante 75
+tiosammmmmmmmmm: posts the ante 75
+oseiaschess: posts the ante 75
+scorza23: posts the ante 75
+willalkateia: posts small blind 150
+guayacome745: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Qd]
+sharkbait260: calls 300
+tiosammmmmmmmmm: folds 
+oseiaschess: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: checks 
+*** FLOP *** [Jc 6h Ts]
+guayacome745: checks 
+sharkbait260: bets 300
+guayacome745: folds 
+Uncalled bet (300) returned to sharkbait260
+sharkbait260 collected 1200 from pot
+sharkbait260: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Board [Jc 6h Ts]
+Seat 1: willalkateia (small blind) folded before Flop
+Seat 2: guayacome745 (big blind) folded on the Flop
+Seat 3: sharkbait260 collected (1200)
+Seat 5: tiosammmmmmmmmm folded before Flop (didn't bet)
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758141055: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IX (150/300) - 2026/02/17 1:05:57 UTC [2026/02/16 20:05:57 ET]
+Table '3974765785 15' 7-max Seat #1 is the button
+Seat 1: willalkateia (6339 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (20977 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (8710 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (1409 in chips, $1 bounty) 
+Seat 6: oseiaschess (7615 in chips, $1 bounty) 
+Seat 7: scorza23 (13121 in chips, $2 bounty) 
+willalkateia: posts the ante 75
+guayacome745: posts the ante 75
+sharkbait260: posts the ante 75
+tiosammmmmmmmmm: posts the ante 75
+oseiaschess: posts the ante 75
+scorza23: posts the ante 75
+guayacome745: posts small blind 150
+sharkbait260: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Jh]
+tiosammmmmmmmmm: raises 1034 to 1334 and is all-in
+oseiaschess: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: folds 
+Uncalled bet (1034) returned to tiosammmmmmmmmm
+tiosammmmmmmmmm collected 1200 from pot
+tiosammmmmmmmmm: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 1: willalkateia (button) folded before Flop (didn't bet)
+Seat 2: guayacome745 (small blind) folded before Flop
+Seat 3: sharkbait260 (big blind) folded before Flop
+Seat 5: tiosammmmmmmmmm collected (1200)
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758143574: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IX (150/300) - 2026/02/17 1:06:14 UTC [2026/02/16 20:06:14 ET]
+Table '3974765785 15' 7-max Seat #2 is the button
+Seat 1: willalkateia (6264 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (20752 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (8335 in chips, $1 bounty) 
+Seat 5: tiosammmmmmmmmm (2234 in chips, $1 bounty) 
+Seat 6: oseiaschess (7540 in chips, $1 bounty) 
+Seat 7: scorza23 (13046 in chips, $2 bounty) 
+willalkateia: posts the ante 75
+guayacome745: posts the ante 75
+sharkbait260: posts the ante 75
+tiosammmmmmmmmm: posts the ante 75
+oseiaschess: posts the ante 75
+scorza23: posts the ante 75
+sharkbait260: posts small blind 150
+tiosammmmmmmmmm: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Ts]
+oseiaschess: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: raises 1050 to 1350
+tiosammmmmmmmmm: raises 809 to 2159 and is all-in
+sharkbait260: calls 809
+*** FLOP *** [2d Qd 8c]
+*** TURN *** [2d Qd 8c] [Ks]
+*** RIVER *** [2d Qd 8c Ks] [6h]
+*** SHOW DOWN ***
+sharkbait260: shows [6c As] (a pair of Sixes)
+tiosammmmmmmmmm: shows [3s Js] (high card King)
+sharkbait260 collected 4768 from pot
+sharkbait260 wins $0.50 for eliminating tiosammmmmmmmmm and their own bounty increases by $0.50 to $1.50
+tiosammmmmmmmmm finished the tournament
+*** SUMMARY ***
+Total pot 4768 | Rake 0 
+Board [2d Qd 8c Ks 6h]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 (button) folded before Flop (didn't bet)
+Seat 3: sharkbait260 (small blind) showed [6c As] and won (4768) with a pair of Sixes
+Seat 5: tiosammmmmmmmmm (big blind) showed [3s Js] and lost with high card King
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758149726: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IX (150/300) - 2026/02/17 1:06:55 UTC [2026/02/16 20:06:55 ET]
+Table '3974765785 15' 7-max Seat #3 is the button
+Seat 1: willalkateia (6189 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (20677 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (10869 in chips, $1.50 bounty) 
+Seat 4: JLHatt (6305 in chips) out of hand (moved from another table into small blind)
+Seat 6: oseiaschess (7465 in chips, $1 bounty) 
+Seat 7: scorza23 (12971 in chips, $2 bounty) 
+JLHatt will be allowed to play after the button
+willalkateia: posts the ante 75
+guayacome745: posts the ante 75
+sharkbait260: posts the ante 75
+oseiaschess: posts the ante 75
+scorza23: posts the ante 75
+oseiaschess: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Kh]
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: folds 
+oseiaschess: raises 390 to 690
+scorza23: folds 
+Uncalled bet (390) returned to oseiaschess
+oseiaschess collected 975 from pot
+oseiaschess: doesn't show hand 
+*** SUMMARY ***
+Total pot 975 | Rake 0 
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 (button) folded before Flop (didn't bet)
+Seat 6: oseiaschess (small blind) collected (975)
+Seat 7: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259758152702: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level IX (150/300) - 2026/02/17 1:07:14 UTC [2026/02/16 20:07:14 ET]
+Table '3974765785 15' 7-max Seat #6 is the button
+Seat 1: willalkateia (6114 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (20602 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (10794 in chips, $1.50 bounty) 
+Seat 4: JLHatt (6305 in chips, $1 bounty) 
+Seat 5: danielthebell (4115 in chips, $1 bounty) 
+Seat 6: oseiaschess (8065 in chips, $1 bounty) 
+Seat 7: scorza23 (12596 in chips, $2 bounty) 
+willalkateia: posts the ante 75
+guayacome745: posts the ante 75
+sharkbait260: posts the ante 75
+JLHatt: posts the ante 75
+danielthebell: posts the ante 75
+oseiaschess: posts the ante 75
+scorza23: posts the ante 75
+scorza23: posts small blind 150
+willalkateia: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 7d]
+guayacome745: raises 300 to 600
+sharkbait260: folds 
+JLHatt: folds 
+danielthebell: folds 
+oseiaschess: calls 600
+scorza23: folds 
+willalkateia: folds 
+*** FLOP *** [7h 2s 6d]
+guayacome745: checks 
+oseiaschess: bets 900
+guayacome745: calls 900
+*** TURN *** [7h 2s 6d] [5d]
+guayacome745: checks 
+oseiaschess: bets 6490 and is all-in
+guayacome745: folds 
+Uncalled bet (6490) returned to oseiaschess
+oseiaschess collected 3975 from pot
+oseiaschess: doesn't show hand 
+*** SUMMARY ***
+Total pot 3975 | Rake 0 
+Board [7h 2s 6d 5d]
+Seat 1: willalkateia (big blind) folded before Flop
+Seat 2: guayacome745 folded on the Turn
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: JLHatt folded before Flop (didn't bet)
+Seat 5: danielthebell folded before Flop (didn't bet)
+Seat 6: oseiaschess (button) collected (3975)
+Seat 7: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259758161639: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level X (200/400) - 2026/02/17 1:08:13 UTC [2026/02/16 20:08:13 ET]
+Table '3974765785 15' 7-max Seat #7 is the button
+Seat 1: willalkateia (5739 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (19027 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (10719 in chips, $1.50 bounty) 
+Seat 4: JLHatt (6230 in chips, $1 bounty) 
+Seat 5: danielthebell (4040 in chips, $1 bounty) 
+Seat 6: oseiaschess (10465 in chips, $1 bounty) 
+Seat 7: scorza23 (12371 in chips, $2 bounty) 
+willalkateia: posts the ante 100
+guayacome745: posts the ante 100
+sharkbait260: posts the ante 100
+JLHatt: posts the ante 100
+danielthebell: posts the ante 100
+oseiaschess: posts the ante 100
+scorza23: posts the ante 100
+willalkateia: posts small blind 200
+guayacome745: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Js]
+sharkbait260: calls 400
+JLHatt: calls 400
+danielthebell: folds 
+oseiaschess: raises 2400 to 2800
+scorza23: folds 
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: folds 
+JLHatt: calls 2400
+*** FLOP *** [Ts 6d Jh]
+JLHatt: checks 
+oseiaschess: bets 2409
+JLHatt: raises 921 to 3330 and is all-in
+oseiaschess: calls 921
+*** TURN *** [Ts 6d Jh] [2d]
+*** RIVER *** [Ts 6d Jh 2d] [8d]
+*** SHOW DOWN ***
+JLHatt: shows [6s 6h] (three of a kind, Sixes)
+oseiaschess: shows [Qs Ah] (high card Ace)
+JLHatt collected 13960 from pot
+*** SUMMARY ***
+Total pot 13960 | Rake 0 
+Board [Ts 6d Jh 2d 8d]
+Seat 1: willalkateia (small blind) folded before Flop
+Seat 2: guayacome745 (big blind) folded before Flop
+Seat 3: sharkbait260 folded before Flop
+Seat 4: JLHatt showed [6s 6h] and won (13960) with three of a kind, Sixes
+Seat 5: danielthebell folded before Flop (didn't bet)
+Seat 6: oseiaschess showed [Qs Ah] and lost with high card Ace
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758170650: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level X (200/400) - 2026/02/17 1:09:13 UTC [2026/02/16 20:09:13 ET]
+Table '3974765785 15' 7-max Seat #1 is the button
+Seat 1: willalkateia (5439 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (18527 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (10219 in chips, $1.50 bounty) 
+Seat 4: JLHatt (13960 in chips, $1 bounty) 
+Seat 5: danielthebell (3940 in chips, $1 bounty) 
+Seat 6: oseiaschess (4235 in chips, $1 bounty) 
+Seat 7: scorza23 (12271 in chips, $2 bounty) 
+willalkateia: posts the ante 100
+guayacome745: posts the ante 100
+sharkbait260: posts the ante 100
+JLHatt: posts the ante 100
+danielthebell: posts the ante 100
+oseiaschess: posts the ante 100
+scorza23: posts the ante 100
+guayacome745: posts small blind 200
+sharkbait260: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 4d]
+JLHatt: folds 
+danielthebell: folds 
+oseiaschess: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: raises 800 to 1200
+sharkbait260: calls 800
+*** FLOP *** [Kd 9d 9c]
+guayacome745: checks 
+sharkbait260: bets 1550
+guayacome745: folds 
+Uncalled bet (1550) returned to sharkbait260
+sharkbait260 collected 3100 from pot
+sharkbait260: doesn't show hand 
+*** SUMMARY ***
+Total pot 3100 | Rake 0 
+Board [Kd 9d 9c]
+Seat 1: willalkateia (button) folded before Flop (didn't bet)
+Seat 2: guayacome745 (small blind) folded on the Flop
+Seat 3: sharkbait260 (big blind) collected (3100)
+Seat 4: JLHatt folded before Flop (didn't bet)
+Seat 5: danielthebell folded before Flop (didn't bet)
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758175386: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level X (200/400) - 2026/02/17 1:09:44 UTC [2026/02/16 20:09:44 ET]
+Table '3974765785 15' 7-max Seat #2 is the button
+Seat 1: willalkateia (5339 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (17227 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (12019 in chips, $1.50 bounty) 
+Seat 4: JLHatt (13860 in chips, $1 bounty) 
+Seat 5: danielthebell (3840 in chips, $1 bounty) 
+Seat 6: oseiaschess (4135 in chips, $1 bounty) 
+Seat 7: scorza23 (12171 in chips, $2 bounty) 
+willalkateia: posts the ante 100
+guayacome745: posts the ante 100
+sharkbait260: posts the ante 100
+JLHatt: posts the ante 100
+danielthebell: posts the ante 100
+oseiaschess: posts the ante 100
+scorza23: posts the ante 100
+sharkbait260: posts small blind 200
+JLHatt: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 6s]
+danielthebell: folds 
+oseiaschess: folds 
+scorza23: raises 440 to 840
+willalkateia: raises 4399 to 5239 and is all-in
+guayacome745: folds 
+sharkbait260: calls 5039
+JLHatt: folds 
+scorza23: folds 
+*** FLOP *** [Ad 7s 3d]
+*** TURN *** [Ad 7s 3d] [5d]
+*** RIVER *** [Ad 7s 3d 5d] [6c]
+*** SHOW DOWN ***
+sharkbait260: shows [9c 9s] (a pair of Nines)
+willalkateia: shows [Qh Qs] (a pair of Queens)
+willalkateia collected 12418 from pot
+*** SUMMARY ***
+Total pot 12418 | Rake 0 
+Board [Ad 7s 3d 5d 6c]
+Seat 1: willalkateia showed [Qh Qs] and won (12418) with a pair of Queens
+Seat 2: guayacome745 (button) folded before Flop (didn't bet)
+Seat 3: sharkbait260 (small blind) showed [9c 9s] and lost with a pair of Nines
+Seat 4: JLHatt (big blind) folded before Flop
+Seat 5: danielthebell folded before Flop (didn't bet)
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop
+
+
+
+PokerStars Hand #259758183425: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level X (200/400) - 2026/02/17 1:10:38 UTC [2026/02/16 20:10:38 ET]
+Table '3974765785 15' 7-max Seat #3 is the button
+Seat 1: willalkateia (12418 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (17127 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (6680 in chips, $1.50 bounty) 
+Seat 4: JLHatt (13360 in chips, $1 bounty) 
+Seat 5: danielthebell (3740 in chips, $1 bounty) 
+Seat 6: oseiaschess (4035 in chips, $1 bounty) 
+Seat 7: scorza23 (11231 in chips, $2 bounty) 
+willalkateia: posts the ante 100
+guayacome745: posts the ante 100
+sharkbait260: posts the ante 100
+JLHatt: posts the ante 100
+danielthebell: posts the ante 100
+oseiaschess: posts the ante 100
+scorza23: posts the ante 100
+JLHatt: posts small blind 200
+danielthebell: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 5s]
+oseiaschess: folds 
+scorza23: folds 
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: calls 400
+JLHatt: calls 200
+danielthebell: raises 3240 to 3640 and is all-in
+sharkbait260: folds 
+JLHatt: folds 
+Uncalled bet (3240) returned to danielthebell
+danielthebell collected 1900 from pot
+*** SUMMARY ***
+Total pot 1900 | Rake 0 
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 (button) folded before Flop
+Seat 4: JLHatt (small blind) folded before Flop
+Seat 5: danielthebell (big blind) collected (1900)
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758190816: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level XI (250/500) - 2026/02/17 1:11:26 UTC [2026/02/16 20:11:26 ET]
+Table '3974765785 15' 7-max Seat #4 is the button
+Seat 1: willalkateia (12318 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (17027 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (6180 in chips, $1.50 bounty) 
+Seat 4: JLHatt (12860 in chips, $1 bounty) 
+Seat 5: danielthebell (5140 in chips, $1 bounty) 
+Seat 6: oseiaschess (3935 in chips, $1 bounty) 
+Seat 7: scorza23 (11131 in chips, $2 bounty) 
+willalkateia: posts the ante 125
+guayacome745: posts the ante 125
+sharkbait260: posts the ante 125
+JLHatt: posts the ante 125
+danielthebell: posts the ante 125
+oseiaschess: posts the ante 125
+scorza23: posts the ante 125
+danielthebell: posts small blind 250
+oseiaschess: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 4d]
+scorza23: folds 
+willalkateia: raises 500 to 1000
+guayacome745: folds 
+sharkbait260: folds 
+JLHatt: folds 
+danielthebell: folds 
+oseiaschess: raises 2810 to 3810 and is all-in
+willalkateia: calls 2810
+*** FLOP *** [4c 4s 2s]
+*** TURN *** [4c 4s 2s] [Jh]
+*** RIVER *** [4c 4s 2s Jh] [5d]
+*** SHOW DOWN ***
+oseiaschess: shows [Ks Jc] (two pair, Jacks and Fours)
+willalkateia: shows [Ad 7c] (a pair of Fours)
+oseiaschess collected 8745 from pot
+*** SUMMARY ***
+Total pot 8745 | Rake 0 
+Board [4c 4s 2s Jh 5d]
+Seat 1: willalkateia showed [Ad 7c] and lost with a pair of Fours
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 folded before Flop (didn't bet)
+Seat 4: JLHatt (button) folded before Flop (didn't bet)
+Seat 5: danielthebell (small blind) folded before Flop
+Seat 6: oseiaschess (big blind) showed [Ks Jc] and won (8745) with two pair, Jacks and Fours
+Seat 7: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758195762: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level XI (250/500) - 2026/02/17 1:11:59 UTC [2026/02/16 20:11:59 ET]
+Table '3974765785 15' 7-max Seat #5 is the button
+Seat 1: willalkateia (8383 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (16902 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (6055 in chips, $1.50 bounty) 
+Seat 4: JLHatt (12735 in chips, $1 bounty) 
+Seat 5: danielthebell (4765 in chips, $1 bounty) 
+Seat 6: oseiaschess (8745 in chips, $1 bounty) 
+Seat 7: scorza23 (11006 in chips, $2 bounty) 
+willalkateia: posts the ante 125
+guayacome745: posts the ante 125
+sharkbait260: posts the ante 125
+JLHatt: posts the ante 125
+danielthebell: posts the ante 125
+oseiaschess: posts the ante 125
+scorza23: posts the ante 125
+oseiaschess: posts small blind 250
+scorza23: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Kh]
+willalkateia: folds 
+guayacome745: folds 
+sharkbait260: raises 5430 to 5930 and is all-in
+JLHatt: folds 
+danielthebell: folds 
+oseiaschess: folds 
+scorza23: calls 5430
+*** FLOP *** [3c 7c 7d]
+*** TURN *** [3c 7c 7d] [3s]
+*** RIVER *** [3c 7c 7d 3s] [5s]
+*** SHOW DOWN ***
+scorza23: shows [Ks Kh] (two pair, Kings and Sevens)
+sharkbait260: shows [8h 7s] (a full house, Sevens full of Threes)
+sharkbait260 collected 12985 from pot
+*** SUMMARY ***
+Total pot 12985 | Rake 0 
+Board [3c 7c 7d 3s 5s]
+Seat 1: willalkateia folded before Flop (didn't bet)
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 showed [8h 7s] and won (12985) with a full house, Sevens full of Threes
+Seat 4: JLHatt folded before Flop (didn't bet)
+Seat 5: danielthebell (button) folded before Flop (didn't bet)
+Seat 6: oseiaschess (small blind) folded before Flop
+Seat 7: scorza23 (big blind) showed [Ks Kh] and lost with two pair, Kings and Sevens
+
+
+
+PokerStars Hand #259758201580: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level XI (250/500) - 2026/02/17 1:12:38 UTC [2026/02/16 20:12:38 ET]
+Table '3974765785 15' 7-max Seat #6 is the button
+Seat 1: willalkateia (8258 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (16777 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (12985 in chips, $1.50 bounty) 
+Seat 4: JLHatt (12610 in chips, $1 bounty) 
+Seat 5: danielthebell (4640 in chips, $1 bounty) 
+Seat 6: oseiaschess (8370 in chips, $1 bounty) 
+Seat 7: scorza23 (4951 in chips, $2 bounty) 
+willalkateia: posts the ante 125
+guayacome745: posts the ante 125
+sharkbait260: posts the ante 125
+JLHatt: posts the ante 125
+danielthebell: posts the ante 125
+oseiaschess: posts the ante 125
+scorza23: posts the ante 125
+scorza23: posts small blind 250
+willalkateia: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8c]
+guayacome745: folds 
+sharkbait260: raises 500 to 1000
+JLHatt: folds 
+danielthebell: folds 
+oseiaschess: folds 
+scorza23: folds 
+willalkateia: calls 500
+*** FLOP *** [7c Ts 6s]
+willalkateia: checks 
+sharkbait260: bets 1000
+willalkateia: calls 1000
+*** TURN *** [7c Ts 6s] [5s]
+willalkateia: checks 
+sharkbait260: bets 2563
+willalkateia: raises 3570 to 6133 and is all-in
+sharkbait260: calls 3570
+*** RIVER *** [7c Ts 6s 5s] [Th]
+*** SHOW DOWN ***
+willalkateia: shows [5h Ks] (two pair, Tens and Fives)
+sharkbait260: shows [9s Ah] (a pair of Tens)
+willalkateia collected 17391 from pot
+*** SUMMARY ***
+Total pot 17391 | Rake 0 
+Board [7c Ts 6s 5s Th]
+Seat 1: willalkateia (big blind) showed [5h Ks] and won (17391) with two pair, Tens and Fives
+Seat 2: guayacome745 folded before Flop (didn't bet)
+Seat 3: sharkbait260 showed [9s Ah] and lost with a pair of Tens
+Seat 4: JLHatt folded before Flop (didn't bet)
+Seat 5: danielthebell folded before Flop (didn't bet)
+Seat 6: oseiaschess (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259758213705: Tournament #3974765785, $1.01+$1.00+$0.19 USD Hold'em No Limit - Level XII (300/600) - 2026/02/17 1:14:01 UTC [2026/02/16 20:14:01 ET]
+Table '3974765785 15' 7-max Seat #7 is the button
+Seat 1: willalkateia (17391 in chips, $1.50 bounty) 
+Seat 2: guayacome745 (16652 in chips, $2.50 bounty) 
+Seat 3: sharkbait260 (4727 in chips, $1.50 bounty) 
+Seat 4: JLHatt (12485 in chips, $1 bounty) 
+Seat 5: danielthebell (4515 in chips, $1 bounty) 
+Seat 6: oseiaschess (8245 in chips, $1 bounty) 
+Seat 7: scorza23 (4576 in chips, $2 bounty) 
+willalkateia: posts the ante 150
+guayacome745: posts the ante 150
+sharkbait260: posts the ante 150
+JLHatt: posts the ante 150
+danielthebell: posts the ante 150
+oseiaschess: posts the ante 150
+scorza23: posts the ante 150
+willalkateia: posts small blind 300
+guayacome745: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ac]
+sharkbait260: raises 3977 to 4577 and is all-in
+JLHatt: folds 
+danielthebell: folds 
+oseiaschess: folds 
+scorza23: calls 4426 and is all-in
+willalkateia: raises 12664 to 17241 and is all-in
+guayacome745: folds 
+Uncalled bet (12664) returned to willalkateia
+*** FLOP *** [7h 9c Jd]
+*** TURN *** [7h 9c Jd] [6h]
+*** RIVER *** [7h 9c Jd 6h] [7s]
+*** SHOW DOWN ***
+willalkateia: shows [Ah Jh] (two pair, Jacks and Sevens)
+sharkbait260: shows [Qs 7c] (three of a kind, Sevens)
+sharkbait260 collected 302 from side pot
+scorza23: shows [Js Ac] (two pair, Jacks and Sevens)
+sharkbait260 collected 14928 from main pot
+sharkbait260 wins $1 for eliminating scorza23 and their own bounty increases by $1 to $2.50
+scorza23 finished the tournament in 107th place
+*** SUMMARY ***
+Total pot 15230 Main pot 14928. Side pot 302. | Rake 0 
+Board [7h 9c Jd 6h 7s]
+Seat 1: willalkateia (small blind) showed [Ah Jh] and lost with two pair, Jacks and Sevens
+Seat 2: guayacome745 (big blind) folded before Flop
+Seat 3: sharkbait260 showed [Qs 7c] and won (15230) with three of a kind, Sevens
+Seat 4: JLHatt folded before Flop (didn't bet)
+Seat 5: danielthebell folded before Flop (didn't bet)
+Seat 6: oseiaschess folded before Flop (didn't bet)
+Seat 7: scorza23 (button) showed [Js Ac] and lost with two pair, Jacks and Sevens
+
+
+

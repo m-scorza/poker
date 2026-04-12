@@ -1,0 +1,1441 @@
+﻿PokerStars Hand #260360161548: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:09:29 BRT [2026/04/05 18:09:29 ET]
+Table '3989607944 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 3: Myrkdirn (1500 in chips) 
+Seat 4: alexfontes7 (1500 in chips) 
+Seat 5: issi45 (1500 in chips) 
+Seat 6: Louis Sun King (1500 in chips) 
+Seat 7: rodriguessf (1500 in chips) 
+Seat 8: andreas8866 (1500 in chips) 
+scorza23: posts the ante 3
+Myrkdirn: posts the ante 3
+alexfontes7: posts the ante 3
+issi45: posts the ante 3
+Louis Sun King: posts the ante 3
+rodriguessf: posts the ante 3
+andreas8866: posts the ante 3
+Myrkdirn: posts small blind 10
+alexfontes7: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Kc]
+ohanaaa is disconnected 
+issi45: calls 20
+Louis Sun King: raises 80 to 100
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+issi45: calls 80
+*** FLOP *** [4h 6s 5h]
+issi45: bets 120
+Louis Sun King: calls 120
+*** TURN *** [4h 6s 5h] [3d]
+issi45: bets 260
+Louis Sun King: folds 
+Uncalled bet (260) returned to issi45
+issi45 collected 491 from pot
+issi45: doesn't show hand 
+*** SUMMARY ***
+Total pot 491 | Rake 0 
+Board [4h 6s 5h 3d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: Myrkdirn (small blind) folded before Flop
+Seat 4: alexfontes7 (big blind) folded before Flop
+Seat 5: issi45 collected (491)
+Seat 6: Louis Sun King folded on the Turn
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360177470: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:10:33 BRT [2026/04/05 18:10:33 ET]
+Table '3989607944 2' 8-max Seat #3 is the button
+Seat 1: scorza23 (1497 in chips) 
+Seat 2: ohanaaa (1500 in chips) 
+Seat 3: Myrkdirn (1487 in chips) 
+Seat 4: alexfontes7 (1477 in chips) 
+Seat 5: issi45 (1768 in chips) 
+Seat 6: Louis Sun King (1277 in chips) 
+Seat 7: rodriguessf (1497 in chips) 
+Seat 8: andreas8866 (1497 in chips) 
+scorza23: posts the ante 3
+ohanaaa: posts the ante 3
+Myrkdirn: posts the ante 3
+alexfontes7: posts the ante 3
+issi45: posts the ante 3
+Louis Sun King: posts the ante 3
+rodriguessf: posts the ante 3
+andreas8866: posts the ante 3
+alexfontes7: posts small blind 10
+issi45: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 8d]
+Louis Sun King: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: raises 40 to 60
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+issi45: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 74 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: scorza23 collected (74)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn (button) folded before Flop (didn't bet)
+Seat 4: alexfontes7 (small blind) folded before Flop
+Seat 5: issi45 (big blind) folded before Flop
+Seat 6: Louis Sun King folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360184359: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:11:01 BRT [2026/04/05 18:11:01 ET]
+Table '3989607944 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (1548 in chips) 
+Seat 2: ohanaaa (1497 in chips) 
+Seat 3: Myrkdirn (1484 in chips) 
+Seat 4: alexfontes7 (1464 in chips) 
+Seat 5: issi45 (1745 in chips) 
+Seat 7: rodriguessf (1494 in chips) 
+Seat 8: andreas8866 (1494 in chips) 
+scorza23: posts the ante 3
+ohanaaa: posts the ante 3
+Myrkdirn: posts the ante 3
+alexfontes7: posts the ante 3
+issi45: posts the ante 3
+rodriguessf: posts the ante 3
+andreas8866: posts the ante 3
+issi45: posts small blind 10
+rodriguessf: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 9d]
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: raises 20 to 40
+alexfontes7: folds 
+issi45: calls 30
+rodriguessf: calls 20
+*** FLOP *** [Ad 3s Kh]
+issi45: checks 
+rodriguessf: checks 
+Myrkdirn: bets 41
+issi45: folds 
+elmexe75 is disconnected 
+rodriguessf: folds 
+Uncalled bet (41) returned to Myrkdirn
+Myrkdirn collected 141 from pot
+Myrkdirn: doesn't show hand 
+*** SUMMARY ***
+Total pot 141 | Rake 0 
+Board [Ad 3s Kh]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn collected (141)
+Seat 4: alexfontes7 (button) folded before Flop (didn't bet)
+Seat 5: issi45 (small blind) folded on the Flop
+Seat 7: rodriguessf (big blind) folded on the Flop
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360203023: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:12:17 BRT [2026/04/05 18:12:17 ET]
+Table '3989607944 2' 8-max Seat #5 is the button
+Seat 1: scorza23 (1545 in chips) 
+Seat 2: ohanaaa (1494 in chips) 
+Seat 3: Myrkdirn (1582 in chips) 
+Seat 4: alexfontes7 (1461 in chips) 
+Seat 5: issi45 (1702 in chips) 
+Seat 6: elmexe75 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 7: rodriguessf (1451 in chips) 
+Seat 8: andreas8866 (1491 in chips) 
+elmexe75 will be allowed to play after the button
+scorza23: posts the ante 3
+ohanaaa: posts the ante 3
+Myrkdirn: posts the ante 3
+alexfontes7: posts the ante 3
+issi45: posts the ante 3
+rodriguessf: posts the ante 3
+andreas8866: posts the ante 3
+rodriguessf: posts small blind 10
+andreas8866: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 7d]
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+issi45: folds 
+rodriguessf: calls 10
+andreas8866: raises 50 to 70
+rodriguessf: folds 
+Uncalled bet (50) returned to andreas8866
+andreas8866 collected 61 from pot
+andreas8866: doesn't show hand 
+*** SUMMARY ***
+Total pot 61 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 5: issi45 (button) folded before Flop (didn't bet)
+Seat 7: rodriguessf (small blind) folded before Flop
+Seat 8: andreas8866 (big blind) collected (61)
+
+
+
+PokerStars Hand #260360214268: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:13:03 BRT [2026/04/05 18:13:03 ET]
+Table '3989607944 2' 8-max Seat #7 is the button
+Seat 1: scorza23 (1542 in chips) 
+Seat 2: ohanaaa (1491 in chips) 
+Seat 3: Myrkdirn (1579 in chips) 
+Seat 4: alexfontes7 (1458 in chips) 
+Seat 5: issi45 (1699 in chips) 
+Seat 6: elmexe75 (1500 in chips) 
+Seat 7: rodriguessf (1428 in chips) 
+Seat 8: andreas8866 (1529 in chips) 
+scorza23: posts the ante 3
+ohanaaa: posts the ante 3
+Myrkdirn: posts the ante 3
+alexfontes7: posts the ante 3
+issi45: posts the ante 3
+elmexe75: posts the ante 3
+rodriguessf: posts the ante 3
+andreas8866: posts the ante 3
+andreas8866: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Ts]
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+issi45: folds 
+elmexe75: raises 20 to 40
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+Uncalled bet (20) returned to elmexe75
+elmexe75 collected 74 from pot
+elmexe75: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 5: issi45 folded before Flop (didn't bet)
+Seat 6: elmexe75 collected (74)
+Seat 7: rodriguessf (button) folded before Flop (didn't bet)
+Seat 8: andreas8866 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360224162: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:13:42 BRT [2026/04/05 18:13:42 ET]
+Table '3989607944 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (1519 in chips) 
+Seat 2: ohanaaa (1488 in chips) 
+Seat 3: Myrkdirn (1576 in chips) 
+Seat 4: alexfontes7 (1455 in chips) 
+Seat 5: issi45 (1696 in chips) 
+Seat 6: elmexe75 (1551 in chips) 
+Seat 7: rodriguessf (1425 in chips) 
+Seat 8: andreas8866 (1516 in chips) 
+scorza23: posts the ante 3
+ohanaaa: posts the ante 3
+Myrkdirn: posts the ante 3
+alexfontes7: posts the ante 3
+issi45: posts the ante 3
+elmexe75: posts the ante 3
+rodriguessf: posts the ante 3
+andreas8866: posts the ante 3
+scorza23: posts small blind 10
+ohanaaa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 4c]
+Myrkdirn: folds 
+alexfontes7: folds 
+issi45: raises 20 to 40
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Uncalled bet (20) returned to issi45
+issi45 collected 74 from pot
+issi45: doesn't show hand 
+*** SUMMARY ***
+Total pot 74 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: ohanaaa (big blind) folded before Flop
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 5: issi45 collected (74)
+Seat 6: elmexe75 folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360233051: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:14:19 BRT [2026/04/05 18:14:19 ET]
+Table '3989607944 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (1506 in chips) 
+Seat 2: ohanaaa (1465 in chips) 
+Seat 3: Myrkdirn (1573 in chips) 
+Seat 4: alexfontes7 (1452 in chips) 
+Seat 5: issi45 (1747 in chips) 
+Seat 6: elmexe75 (1548 in chips) 
+Seat 7: rodriguessf (1422 in chips) 
+Seat 8: andreas8866 (1513 in chips) 
+scorza23: posts the ante 3
+ohanaaa: posts the ante 3
+Myrkdirn: posts the ante 3
+alexfontes7: posts the ante 3
+issi45: posts the ante 3
+elmexe75: posts the ante 3
+rodriguessf: posts the ante 3
+andreas8866: posts the ante 3
+ohanaaa: posts small blind 10
+Myrkdirn: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8h]
+alexfontes7: raises 28 to 48
+issi45: calls 48
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: folds 
+*** FLOP *** [3h 7d 3c]
+alexfontes7: checks 
+issi45: checks 
+*** TURN *** [3h 7d 3c] [8c]
+alexfontes7: checks 
+issi45: checks 
+*** RIVER *** [3h 7d 3c 8c] [Jc]
+alexfontes7: checks 
+issi45: checks 
+*** SHOW DOWN ***
+alexfontes7: shows [Ah Qd] (a pair of Threes)
+issi45: mucks hand 
+alexfontes7 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Board [3h 7d 3c 8c Jc]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: ohanaaa (small blind) folded before Flop
+Seat 3: Myrkdirn (big blind) folded before Flop
+Seat 4: alexfontes7 showed [Ah Qd] and won (150) with a pair of Threes
+Seat 5: issi45 mucked [As 9h]
+Seat 6: elmexe75 folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360251474: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:15:34 BRT [2026/04/05 18:15:34 ET]
+Table '3989607944 2' 8-max Seat #2 is the button
+Seat 1: scorza23 (1503 in chips) 
+Seat 2: ohanaaa (1452 in chips) 
+Seat 3: Myrkdirn (1550 in chips) 
+Seat 4: alexfontes7 (1551 in chips) 
+Seat 6: elmexe75 (1545 in chips) 
+Seat 7: rodriguessf (1419 in chips) 
+Seat 8: andreas8866 (1510 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+Myrkdirn: posts the ante 4
+alexfontes7: posts the ante 4
+elmexe75: posts the ante 4
+rodriguessf: posts the ante 4
+andreas8866: posts the ante 4
+Myrkdirn: posts small blind 15
+alexfontes7: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 7s]
+elmexe75: raises 30 to 60
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+Uncalled bet (30) returned to elmexe75
+elmexe75 collected 103 from pot
+elmexe75: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa (button) folded before Flop (didn't bet)
+Seat 3: Myrkdirn (small blind) folded before Flop
+Seat 4: alexfontes7 (big blind) folded before Flop
+Seat 6: elmexe75 collected (103)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360258347: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:16:02 BRT [2026/04/05 18:16:02 ET]
+Table '3989607944 2' 8-max Seat #3 is the button
+Seat 1: scorza23 (1499 in chips) 
+Seat 2: ohanaaa (1448 in chips) 
+Seat 3: Myrkdirn (1531 in chips) 
+Seat 4: alexfontes7 (1517 in chips) 
+Seat 6: elmexe75 (1614 in chips) 
+Seat 7: rodriguessf (1415 in chips) 
+Seat 8: andreas8866 (1506 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+Myrkdirn: posts the ante 4
+alexfontes7: posts the ante 4
+elmexe75: posts the ante 4
+rodriguessf: posts the ante 4
+andreas8866: posts the ante 4
+alexfontes7: posts small blind 15
+elmexe75: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 7c]
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: raises 30 to 60
+ohanaaa: raises 120 to 180
+Myrkdirn: folds 
+alexfontes7: folds 
+elmexe75: folds 
+scorza23: calls 120
+*** FLOP *** [Tc Kh Th]
+scorza23: checks 
+ohanaaa: bets 143
+scorza23: folds 
+Uncalled bet (143) returned to ohanaaa
+ohanaaa collected 433 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 433 | Rake 0 
+Board [Tc Kh Th]
+Seat 1: scorza23 folded on the Flop
+Seat 2: ohanaaa collected (433)
+Seat 3: Myrkdirn (button) folded before Flop (didn't bet)
+Seat 4: alexfontes7 (small blind) folded before Flop
+Seat 6: elmexe75 (big blind) folded before Flop
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360272617: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:17:00 BRT [2026/04/05 18:17:00 ET]
+Table '3989607944 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (1315 in chips) 
+Seat 2: ohanaaa (1697 in chips) 
+Seat 3: Myrkdirn (1527 in chips) 
+Seat 4: alexfontes7 (1498 in chips) 
+Seat 6: elmexe75 (1580 in chips) 
+Seat 7: rodriguessf (1411 in chips) 
+Seat 8: andreas8866 (1502 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+Myrkdirn: posts the ante 4
+alexfontes7: posts the ante 4
+elmexe75: posts the ante 4
+rodriguessf: posts the ante 4
+andreas8866: posts the ante 4
+elmexe75: posts small blind 15
+rodriguessf: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Kc]
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+elmexe75: folds 
+Uncalled bet (15) returned to rodriguessf
+rodriguessf collected 58 from pot
+rodriguessf: doesn't show hand 
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 (button) folded before Flop (didn't bet)
+Seat 6: elmexe75 (small blind) folded before Flop
+Seat 7: rodriguessf (big blind) collected (58)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360280081: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:17:30 BRT [2026/04/05 18:17:30 ET]
+Table '3989607944 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (1311 in chips) 
+Seat 2: ohanaaa (1693 in chips) 
+Seat 3: Myrkdirn (1523 in chips) 
+Seat 4: alexfontes7 (1494 in chips) 
+Seat 6: elmexe75 (1561 in chips) 
+Seat 7: rodriguessf (1450 in chips) 
+Seat 8: andreas8866 (1498 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+Myrkdirn: posts the ante 4
+alexfontes7: posts the ante 4
+elmexe75: posts the ante 4
+rodriguessf: posts the ante 4
+andreas8866: posts the ante 4
+rodriguessf: posts small blind 15
+andreas8866: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 5s]
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+elmexe75: raises 60 to 90
+rodriguessf: folds 
+andreas8866: raises 210 to 300
+elmexe75: folds 
+Uncalled bet (210) returned to andreas8866
+andreas8866 collected 223 from pot
+andreas8866: doesn't show hand 
+*** SUMMARY ***
+Total pot 223 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 6: elmexe75 (button) folded before Flop
+Seat 7: rodriguessf (small blind) folded before Flop
+Seat 8: andreas8866 (big blind) collected (223)
+
+
+
+PokerStars Hand #260360290519: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:18:14 BRT [2026/04/05 18:18:14 ET]
+Table '3989607944 2' 8-max Seat #7 is the button
+Seat 1: scorza23 (1307 in chips) 
+Seat 2: ohanaaa (1689 in chips) 
+Seat 3: Myrkdirn (1519 in chips) 
+Seat 4: alexfontes7 (1490 in chips) 
+Seat 6: elmexe75 (1467 in chips) 
+Seat 7: rodriguessf (1431 in chips) 
+Seat 8: andreas8866 (1627 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+Myrkdirn: posts the ante 4
+alexfontes7: posts the ante 4
+elmexe75: posts the ante 4
+rodriguessf: posts the ante 4
+andreas8866: posts the ante 4
+andreas8866: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Ks]
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: raises 42 to 72
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: raises 48 to 120
+alexfontes7: folds 
+Uncalled bet (48) returned to scorza23
+scorza23 collected 187 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 187 | Rake 0 
+Seat 1: scorza23 (big blind) collected (187)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop
+Seat 6: elmexe75 folded before Flop (didn't bet)
+Seat 7: rodriguessf (button) folded before Flop (didn't bet)
+Seat 8: andreas8866 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360296121: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:18:37 BRT [2026/04/05 18:18:37 ET]
+Table '3989607944 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (1418 in chips) 
+Seat 2: ohanaaa (1685 in chips) 
+Seat 3: Myrkdirn (1515 in chips) 
+Seat 4: alexfontes7 (1414 in chips) 
+Seat 6: elmexe75 (1463 in chips) 
+Seat 7: rodriguessf (1427 in chips) 
+Seat 8: andreas8866 (1608 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+Myrkdirn: posts the ante 4
+alexfontes7: posts the ante 4
+elmexe75: posts the ante 4
+rodriguessf: posts the ante 4
+andreas8866: posts the ante 4
+scorza23: posts small blind 15
+ohanaaa: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 3s]
+Myrkdirn: raises 30 to 60
+alexfontes7: folds 
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Uncalled bet (30) returned to Myrkdirn
+Myrkdirn collected 103 from pot
+Myrkdirn: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: ohanaaa (big blind) folded before Flop
+Seat 3: Myrkdirn collected (103)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 6: elmexe75 folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360303284: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:19:07 BRT [2026/04/05 18:19:07 ET]
+Table '3989607944 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (1399 in chips) 
+Seat 2: ohanaaa (1651 in chips) 
+Seat 3: Myrkdirn (1584 in chips) 
+Seat 4: alexfontes7 (1410 in chips) 
+Seat 6: elmexe75 (1459 in chips) 
+Seat 7: rodriguessf (1423 in chips) 
+Seat 8: andreas8866 (1604 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+Myrkdirn: posts the ante 4
+alexfontes7: posts the ante 4
+elmexe75: posts the ante 4
+rodriguessf: posts the ante 4
+andreas8866: posts the ante 4
+ohanaaa: posts small blind 15
+Myrkdirn: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 4d]
+alexfontes7: folds 
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: raises 30 to 60
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: folds 
+Uncalled bet (30) returned to andreas8866
+andreas8866 collected 103 from pot
+andreas8866: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: ohanaaa (small blind) folded before Flop
+Seat 3: Myrkdirn (big blind) folded before Flop
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 6: elmexe75 folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 collected (103)
+
+
+
+PokerStars Hand #260360312172: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:19:44 BRT [2026/04/05 18:19:44 ET]
+Table '3989607944 2' 8-max Seat #2 is the button
+Seat 1: scorza23 (1395 in chips) 
+Seat 2: ohanaaa (1632 in chips) 
+Seat 3: Myrkdirn (1550 in chips) 
+Seat 4: alexfontes7 (1406 in chips) 
+Seat 6: elmexe75 (1455 in chips) 
+Seat 7: rodriguessf (1419 in chips) 
+Seat 8: andreas8866 (1673 in chips) 
+scorza23: posts the ante 6
+ohanaaa: posts the ante 6
+Myrkdirn: posts the ante 6
+alexfontes7: posts the ante 6
+elmexe75: posts the ante 6
+rodriguessf: posts the ante 6
+andreas8866: posts the ante 6
+Myrkdirn: posts small blind 25
+alexfontes7: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 2c]
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: raises 50 to 100
+Myrkdirn: raises 200 to 300
+alexfontes7: folds 
+ohanaaa: calls 200
+*** FLOP *** [5s Ac 6s]
+Myrkdirn: bets 192
+ohanaaa: calls 192
+*** TURN *** [5s Ac 6s] [4s]
+Myrkdirn: checks 
+ohanaaa: bets 355
+Myrkdirn: calls 355
+*** RIVER *** [5s Ac 6s 4s] [3d]
+Myrkdirn: checks 
+ohanaaa: bets 779 and is all-in
+Myrkdirn: folds 
+Uncalled bet (779) returned to ohanaaa
+ohanaaa collected 1786 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1786 | Rake 0 
+Board [5s Ac 6s 4s 3d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa (button) collected (1786)
+Seat 3: Myrkdirn (small blind) folded on the River
+Seat 4: alexfontes7 (big blind) folded before Flop
+Seat 6: elmexe75 folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360332782: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:21:09 BRT [2026/04/05 18:21:09 ET]
+Table '3989607944 2' 8-max Seat #3 is the button
+Seat 1: scorza23 (1389 in chips) 
+Seat 2: ohanaaa (2565 in chips) 
+Seat 3: Myrkdirn (697 in chips) 
+Seat 4: alexfontes7 (1350 in chips) 
+Seat 6: elmexe75 (1449 in chips) 
+Seat 7: rodriguessf (1413 in chips) 
+Seat 8: andreas8866 (1667 in chips) 
+scorza23: posts the ante 6
+ohanaaa: posts the ante 6
+Myrkdirn: posts the ante 6
+alexfontes7: posts the ante 6
+elmexe75: posts the ante 6
+rodriguessf: posts the ante 6
+andreas8866: posts the ante 6
+alexfontes7: posts small blind 25
+elmexe75: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 2c]
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: raises 50 to 100
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+elmexe75: raises 275 to 375
+scorza23: calls 275
+*** FLOP *** [Td Jh 3h]
+elmexe75: bets 1068 and is all-in
+scorza23: folds 
+Uncalled bet (1068) returned to elmexe75
+elmexe75 collected 817 from pot
+elmexe75: doesn't show hand 
+*** SUMMARY ***
+Total pot 817 | Rake 0 
+Board [Td Jh 3h]
+Seat 1: scorza23 folded on the Flop
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn (button) folded before Flop (didn't bet)
+Seat 4: alexfontes7 (small blind) folded before Flop
+Seat 6: elmexe75 (big blind) collected (817)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360342013: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:21:48 BRT [2026/04/05 18:21:48 ET]
+Table '3989607944 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (1008 in chips) 
+Seat 2: ohanaaa (2559 in chips) 
+Seat 3: Myrkdirn (691 in chips) 
+Seat 4: alexfontes7 (1319 in chips) 
+Seat 6: elmexe75 (1885 in chips) 
+Seat 7: rodriguessf (1407 in chips) 
+Seat 8: andreas8866 (1661 in chips) 
+scorza23: posts the ante 6
+ohanaaa: posts the ante 6
+Myrkdirn: posts the ante 6
+alexfontes7: posts the ante 6
+elmexe75: posts the ante 6
+rodriguessf: posts the ante 6
+andreas8866: posts the ante 6
+elmexe75: posts small blind 25
+rodriguessf: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 2s]
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: raises 50 to 100
+alexfontes7: folds 
+elmexe75: calls 75
+rodriguessf: folds 
+*** FLOP *** [Qs 3s Qc]
+elmexe75: checks 
+Myrkdirn: bets 92
+elmexe75: folds 
+Uncalled bet (92) returned to Myrkdirn
+Myrkdirn collected 292 from pot
+Myrkdirn: doesn't show hand 
+*** SUMMARY ***
+Total pot 292 | Rake 0 
+Board [Qs 3s Qc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn collected (292)
+Seat 4: alexfontes7 (button) folded before Flop (didn't bet)
+Seat 6: elmexe75 (small blind) folded on the Flop
+Seat 7: rodriguessf (big blind) folded before Flop
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360353552: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:22:37 BRT [2026/04/05 18:22:37 ET]
+Table '3989607944 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (1002 in chips) 
+Seat 2: ohanaaa (2553 in chips) 
+Seat 3: Myrkdirn (877 in chips) 
+Seat 4: alexfontes7 (1313 in chips) 
+Seat 6: elmexe75 (1779 in chips) 
+Seat 7: rodriguessf (1351 in chips) 
+Seat 8: andreas8866 (1655 in chips) 
+scorza23: posts the ante 6
+ohanaaa: posts the ante 6
+Myrkdirn: posts the ante 6
+alexfontes7: posts the ante 6
+elmexe75: posts the ante 6
+rodriguessf: posts the ante 6
+andreas8866: posts the ante 6
+rodriguessf: posts small blind 25
+andreas8866: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Ac]
+scorza23: raises 946 to 996 and is all-in
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: folds 
+Uncalled bet (946) returned to scorza23
+scorza23 collected 167 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: scorza23 collected (167)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 6: elmexe75 (button) folded before Flop (didn't bet)
+Seat 7: rodriguessf (small blind) folded before Flop
+Seat 8: andreas8866 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260360359689: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:23:03 BRT [2026/04/05 18:23:03 ET]
+Table '3989607944 2' 8-max Seat #7 is the button
+Seat 1: scorza23 (1113 in chips) 
+Seat 2: ohanaaa (2547 in chips) 
+Seat 3: Myrkdirn (871 in chips) 
+Seat 4: alexfontes7 (1307 in chips) 
+Seat 6: elmexe75 (1773 in chips) 
+Seat 7: rodriguessf (1320 in chips) 
+Seat 8: andreas8866 (1599 in chips) 
+scorza23: posts the ante 6
+ohanaaa: posts the ante 6
+Myrkdirn: posts the ante 6
+alexfontes7: posts the ante 6
+elmexe75: posts the ante 6
+rodriguessf: posts the ante 6
+andreas8866: posts the ante 6
+andreas8866: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9h]
+ohanaaa: folds 
+Myrkdirn: folds 
+alexfontes7: folds 
+elmexe75: raises 75 to 125
+rodriguessf: calls 125
+andreas8866: calls 100
+scorza23: folds 
+*** FLOP *** [4c Ad 9s]
+andreas8866: checks 
+elmexe75: checks 
+rodriguessf: bets 154
+andreas8866: folds 
+elmexe75: folds 
+Uncalled bet (154) returned to rodriguessf
+rodriguessf collected 467 from pot
+rodriguessf: doesn't show hand 
+*** SUMMARY ***
+Total pot 467 | Rake 0 
+Board [4c Ad 9s]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 6: elmexe75 folded on the Flop
+Seat 7: rodriguessf (button) collected (467)
+Seat 8: andreas8866 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260360377789: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:24:18 BRT [2026/04/05 18:24:18 ET]
+Table '3989607944 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (1057 in chips) 
+Seat 2: ohanaaa (2541 in chips) 
+Seat 3: Myrkdirn (865 in chips) 
+Seat 4: alexfontes7 (1301 in chips) 
+Seat 6: elmexe75 (1642 in chips) 
+Seat 7: rodriguessf (1656 in chips) 
+Seat 8: andreas8866 (1468 in chips) 
+scorza23: posts the ante 6
+ohanaaa: posts the ante 6
+Myrkdirn: posts the ante 6
+alexfontes7: posts the ante 6
+elmexe75: posts the ante 6
+rodriguessf: posts the ante 6
+andreas8866: posts the ante 6
+scorza23: posts small blind 25
+ohanaaa: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Js]
+Myrkdirn: folds 
+alexfontes7: folds 
+elmexe75: folds 
+rodriguessf: folds 
+andreas8866: raises 50 to 100
+scorza23: calls 75
+ohanaaa: calls 50
+*** FLOP *** [Kh 6d Td]
+scorza23: checks 
+ohanaaa: checks 
+andreas8866: bets 113
+scorza23: folds 
+ohanaaa: calls 113
+*** TURN *** [Kh 6d Td] [Qh]
+ohanaaa: checks 
+andreas8866: bets 300
+ohanaaa: folds 
+Uncalled bet (300) returned to andreas8866
+andreas8866 collected 568 from pot
+andreas8866: doesn't show hand 
+*** SUMMARY ***
+Total pot 568 | Rake 0 
+Board [Kh 6d Td Qh]
+Seat 1: scorza23 (small blind) folded on the Flop
+Seat 2: ohanaaa (big blind) folded on the Turn
+Seat 3: Myrkdirn folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 6: elmexe75 folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 (button) collected (568)
+
+
+
+PokerStars Hand #260360395617: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:25:33 BRT [2026/04/05 18:25:33 ET]
+Table '3989607944 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (951 in chips) 
+Seat 2: ohanaaa (2322 in chips) 
+Seat 3: Myrkdirn (859 in chips) 
+Seat 4: alexfontes7 (1295 in chips) 
+Seat 6: elmexe75 (1636 in chips) 
+Seat 7: rodriguessf (1650 in chips) 
+Seat 8: andreas8866 (1817 in chips) 
+scorza23: posts the ante 10
+ohanaaa: posts the ante 10
+Myrkdirn: posts the ante 10
+alexfontes7: posts the ante 10
+elmexe75: posts the ante 10
+rodriguessf: posts the ante 10
+andreas8866: posts the ante 10
+ohanaaa: posts small blind 40
+Myrkdirn: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 3h]
+alexfontes7: folds 
+elmexe75: raises 80 to 160
+rodriguessf: folds 
+andreas8866: calls 160
+scorza23: folds 
+ohanaaa: folds 
+Myrkdirn: raises 689 to 849 and is all-in
+elmexe75: calls 689
+andreas8866: folds 
+*** FLOP *** [8s 4s Jd]
+*** TURN *** [8s 4s Jd] [5d]
+*** RIVER *** [8s 4s Jd 5d] [9c]
+*** SHOW DOWN ***
+Myrkdirn: shows [Ad Kd] (high card Ace)
+elmexe75: shows [7h 9h] (a pair of Nines)
+elmexe75 collected 1968 from pot
+Myrkdirn finished the tournament in 29th place
+*** SUMMARY ***
+Total pot 1968 | Rake 0 
+Board [8s 4s Jd 5d 9c]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: ohanaaa (small blind) folded before Flop
+Seat 3: Myrkdirn (big blind) showed [Ad Kd] and lost with high card Ace
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 6: elmexe75 showed [7h 9h] and won (1968) with a pair of Nines
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop
+
+
+
+PokerStars Hand #260360408691: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:26:27 BRT [2026/04/05 18:26:27 ET]
+Table '3989607944 2' 8-max Seat #2 is the button
+Seat 1: scorza23 (941 in chips) 
+Seat 2: ohanaaa (2272 in chips) 
+Seat 4: alexfontes7 (1285 in chips) 
+Seat 6: elmexe75 (2745 in chips) 
+Seat 7: rodriguessf (1640 in chips) 
+Seat 8: andreas8866 (1647 in chips) 
+scorza23: posts the ante 10
+ohanaaa: posts the ante 10
+alexfontes7: posts the ante 10
+elmexe75: posts the ante 10
+rodriguessf: posts the ante 10
+andreas8866: posts the ante 10
+alexfontes7: posts small blind 40
+elmexe75: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [As Ac]
+Marcosven3 is disconnected 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: raises 80 to 160
+ohanaaa: folds 
+alexfontes7: folds 
+elmexe75: calls 80
+*** FLOP *** [Js Qs 5h]
+elmexe75: checks 
+scorza23: checks 
+*** TURN *** [Js Qs 5h] [9d]
+elmexe75: bets 120
+scorza23: calls 120
+*** RIVER *** [Js Qs 5h 9d] [2s]
+elmexe75: checks 
+scorza23: bets 651 and is all-in
+elmexe75: folds 
+Uncalled bet (651) returned to scorza23
+scorza23 collected 660 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Board [Js Qs 5h 9d 2s]
+Seat 1: scorza23 collected (660)
+Seat 2: ohanaaa (button) folded before Flop (didn't bet)
+Seat 4: alexfontes7 (small blind) folded before Flop
+Seat 6: elmexe75 (big blind) folded on the River
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360424756: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:27:35 BRT [2026/04/05 18:27:35 ET]
+Table '3989607944 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (1311 in chips) 
+Seat 2: ohanaaa (2262 in chips) 
+Seat 3: Marcosven3 (1303 in chips) 
+Seat 4: alexfontes7 (1235 in chips) 
+Seat 6: elmexe75 (2455 in chips) 
+Seat 7: rodriguessf (1630 in chips) 
+Seat 8: andreas8866 (1637 in chips) 
+scorza23: posts the ante 10
+ohanaaa: posts the ante 10
+Marcosven3: posts the ante 10
+alexfontes7: posts the ante 10
+elmexe75: posts the ante 10
+rodriguessf: posts the ante 10
+andreas8866: posts the ante 10
+elmexe75: posts small blind 40
+rodriguessf: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Kh]
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Marcosven3: raises 270 to 350
+alexfontes7: folds 
+elmexe75: folds 
+rodriguessf: folds 
+Uncalled bet (270) returned to Marcosven3
+Marcosven3 collected 270 from pot
+Marcosven3: doesn't show hand 
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: Marcosven3 collected (270)
+Seat 4: alexfontes7 (button) folded before Flop (didn't bet)
+Seat 6: elmexe75 (small blind) folded before Flop
+Seat 7: rodriguessf (big blind) folded before Flop
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360433642: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:28:13 BRT [2026/04/05 18:28:13 ET]
+Table '3989607944 2' 8-max Seat #7 is the button
+Seat 1: scorza23 (1301 in chips) 
+Seat 2: ohanaaa (2252 in chips) 
+Seat 3: Marcosven3 (1483 in chips) 
+Seat 4: alexfontes7 (1225 in chips) 
+Seat 7: rodriguessf (1540 in chips) 
+Seat 8: andreas8866 (1627 in chips) 
+scorza23: posts the ante 10
+ohanaaa: posts the ante 10
+Marcosven3: posts the ante 10
+alexfontes7: posts the ante 10
+rodriguessf: posts the ante 10
+andreas8866: posts the ante 10
+andreas8866: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 2c]
+ohanaaa: raises 80 to 160
+Marcosven3: folds 
+alexfontes7: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: calls 80
+*** FLOP *** [4c 6c 4s]
+scorza23: checks 
+ohanaaa: bets 139
+scorza23: folds 
+Uncalled bet (139) returned to ohanaaa
+ohanaaa collected 420 from pot
+ohanaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Board [4c 6c 4s]
+Seat 1: scorza23 (big blind) folded on the Flop
+Seat 2: ohanaaa collected (420)
+Seat 3: Marcosven3 folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 7: rodriguessf (button) folded before Flop (didn't bet)
+Seat 8: andreas8866 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360441114: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:28:45 BRT [2026/04/05 18:28:45 ET]
+Table '3989607944 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (1131 in chips) 
+Seat 2: ohanaaa (2502 in chips) 
+Seat 3: Marcosven3 (1473 in chips) 
+Seat 4: alexfontes7 (1215 in chips) 
+Seat 7: rodriguessf (1530 in chips) 
+Seat 8: andreas8866 (1577 in chips) 
+scorza23: posts the ante 10
+ohanaaa: posts the ante 10
+Marcosven3: posts the ante 10
+alexfontes7: posts the ante 10
+rodriguessf: posts the ante 10
+andreas8866: posts the ante 10
+scorza23: posts small blind 40
+ohanaaa: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d As]
+Marcosven3: raises 80 to 160
+alexfontes7: raises 1045 to 1205 and is all-in
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: folds 
+Marcosven3: calls 1045
+*** FLOP *** [8h Ah 6h]
+*** TURN *** [8h Ah 6h] [6c]
+*** RIVER *** [8h Ah 6h 6c] [8s]
+*** SHOW DOWN ***
+Marcosven3: shows [Qs Ac] (two pair, Aces and Eights)
+alexfontes7: shows [Ad Kh] (two pair, Aces and Eights - King kicker)
+alexfontes7 collected 2590 from pot
+*** SUMMARY ***
+Total pot 2590 | Rake 0 
+Board [8h Ah 6h 6c 8s]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: ohanaaa (big blind) folded before Flop
+Seat 3: Marcosven3 showed [Qs Ac] and lost with two pair, Aces and Eights
+Seat 4: alexfontes7 showed [Ad Kh] and won (2590) with two pair, Aces and Eights
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360448115: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 19:29:15 BRT [2026/04/05 18:29:15 ET]
+Table '3989607944 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (1081 in chips) 
+Seat 2: ohanaaa (2412 in chips) 
+Seat 3: Marcosven3 (258 in chips) 
+Seat 4: alexfontes7 (2590 in chips) 
+Seat 7: rodriguessf (1520 in chips) 
+Seat 8: andreas8866 (1567 in chips) 
+scorza23: posts the ante 10
+ohanaaa: posts the ante 10
+Marcosven3: posts the ante 10
+alexfontes7: posts the ante 10
+rodriguessf: posts the ante 10
+andreas8866: posts the ante 10
+ohanaaa: posts small blind 40
+Marcosven3: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Js]
+alexfontes7: folds 
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: folds 
+ohanaaa: raises 200 to 280
+Marcosven3: calls 168 and is all-in
+Uncalled bet (32) returned to ohanaaa
+Sabatonyook is disconnected 
+Magno Bass is disconnected 
+*** FLOP *** [9d Kc 8s]
+*** TURN *** [9d Kc 8s] [8c]
+*** RIVER *** [9d Kc 8s 8c] [5s]
+*** SHOW DOWN ***
+ohanaaa: shows [3h Kh] (two pair, Kings and Eights)
+Marcosven3: shows [9s Ah] (two pair, Nines and Eights)
+ohanaaa collected 556 from pot
+Marcosven3 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 556 | Rake 0 
+Board [9d Kc 8s 8c 5s]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: ohanaaa (small blind) showed [3h Kh] and won (556) with two pair, Kings and Eights
+Seat 3: Marcosven3 (big blind) showed [9s Ah] and lost with two pair, Nines and Eights
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360455649: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 19:29:47 BRT [2026/04/05 18:29:47 ET]
+Table '3989607944 2' 8-max Seat #2 is the button
+Seat 1: scorza23 (1071 in chips) 
+Seat 2: ohanaaa (2710 in chips) 
+Seat 4: alexfontes7 (2580 in chips) 
+Seat 5: Magno Bass (1907 in chips) 
+Seat 6: Sabatonyook (2667 in chips) 
+Seat 7: rodriguessf (1510 in chips) 
+Seat 8: andreas8866 (1557 in chips) 
+scorza23: posts the ante 15
+ohanaaa: posts the ante 15
+alexfontes7: posts the ante 15
+Magno Bass: posts the ante 15
+Sabatonyook: posts the ante 15
+rodriguessf: posts the ante 15
+andreas8866: posts the ante 15
+alexfontes7: posts small blind 60
+Magno Bass: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Ah]
+Sabatonyook: raises 120 to 240
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: raises 816 to 1056 and is all-in
+ohanaaa: folds 
+alexfontes7: folds 
+Magno Bass: folds 
+Sabatonyook: calls 816
+*** FLOP *** [Ts 9s Ad]
+*** TURN *** [Ts 9s Ad] [6h]
+*** RIVER *** [Ts 9s Ad 6h] [Th]
+*** SHOW DOWN ***
+Sabatonyook: shows [5c 5s] (two pair, Tens and Fives)
+scorza23: shows [Jc Ah] (two pair, Aces and Tens)
+scorza23 collected 2397 from pot
+*** SUMMARY ***
+Total pot 2397 | Rake 0 
+Board [Ts 9s Ad 6h Th]
+Seat 1: scorza23 showed [Jc Ah] and won (2397) with two pair, Aces and Tens
+Seat 2: ohanaaa (button) folded before Flop (didn't bet)
+Seat 4: alexfontes7 (small blind) folded before Flop
+Seat 5: Magno Bass (big blind) folded before Flop
+Seat 6: Sabatonyook showed [5c 5s] and lost with two pair, Tens and Fives
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360464675: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 19:30:25 BRT [2026/04/05 18:30:25 ET]
+Table '3989607944 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (2397 in chips) 
+Seat 2: ohanaaa (2695 in chips) 
+Seat 4: alexfontes7 (2505 in chips) 
+Seat 5: Magno Bass (1772 in chips) 
+Seat 6: Sabatonyook (1596 in chips) 
+Seat 7: rodriguessf (1495 in chips) 
+Seat 8: andreas8866 (1542 in chips) 
+scorza23: posts the ante 15
+ohanaaa: posts the ante 15
+alexfontes7: posts the ante 15
+Magno Bass: posts the ante 15
+Sabatonyook: posts the ante 15
+rodriguessf: posts the ante 15
+andreas8866: posts the ante 15
+Magno Bass: posts small blind 60
+Sabatonyook: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 9h]
+rodriguessf: folds 
+andreas8866: folds 
+scorza23: raises 120 to 240
+ohanaaa: folds 
+alexfontes7: folds 
+Magno Bass: folds 
+Sabatonyook: raises 1341 to 1581 and is all-in
+scorza23: calls 1341
+*** FLOP *** [4s 8c 2d]
+*** TURN *** [4s 8c 2d] [3h]
+*** RIVER *** [4s 8c 2d 3h] [Td]
+*** SHOW DOWN ***
+Sabatonyook: shows [Jc Js] (a pair of Jacks)
+scorza23: shows [Kh 9h] (high card King)
+Sabatonyook collected 3327 from pot
+*** SUMMARY ***
+Total pot 3327 | Rake 0 
+Board [4s 8c 2d 3h Td]
+Seat 1: scorza23 showed [Kh 9h] and lost with high card King
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 4: alexfontes7 (button) folded before Flop (didn't bet)
+Seat 5: Magno Bass (small blind) folded before Flop
+Seat 6: Sabatonyook (big blind) showed [Jc Js] and won (3327) with a pair of Jacks
+Seat 7: rodriguessf folded before Flop (didn't bet)
+Seat 8: andreas8866 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360477590: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 19:31:20 BRT [2026/04/05 18:31:20 ET]
+Table '3989607944 2' 8-max Seat #5 is the button
+Seat 1: scorza23 (801 in chips) 
+Seat 2: ohanaaa (2680 in chips) 
+Seat 4: alexfontes7 (2490 in chips) 
+Seat 5: Magno Bass (1697 in chips) 
+Seat 6: Sabatonyook (3327 in chips) 
+Seat 7: rodriguessf (1480 in chips) 
+Seat 8: andreas8866 (1527 in chips) 
+scorza23: posts the ante 15
+ohanaaa: posts the ante 15
+alexfontes7: posts the ante 15
+Magno Bass: posts the ante 15
+Sabatonyook: posts the ante 15
+rodriguessf: posts the ante 15
+andreas8866: posts the ante 15
+Sabatonyook: posts small blind 60
+rodriguessf: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 2d]
+andreas8866: raises 120 to 240
+scorza23: folds 
+ohanaaa: folds 
+alexfontes7: raises 2235 to 2475 and is all-in
+Magno Bass: folds 
+Sabatonyook: folds 
+rodriguessf: folds 
+andreas8866: calls 1272 and is all-in
+Uncalled bet (963) returned to alexfontes7
+*** FLOP *** [7s 9h Ts]
+*** TURN *** [7s 9h Ts] [9c]
+*** RIVER *** [7s 9h Ts 9c] [5c]
+*** SHOW DOWN ***
+andreas8866: shows [Jh Qh] (a pair of Nines)
+alexfontes7: shows [Kd Ah] (a pair of Nines - Ace kicker)
+alexfontes7 collected 3309 from pot
+andreas8866 finished the tournament in 22nd place
+*** SUMMARY ***
+Total pot 3309 | Rake 0 
+Board [7s 9h Ts 9c 5c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 4: alexfontes7 showed [Kd Ah] and won (3309) with a pair of Nines
+Seat 5: Magno Bass (button) folded before Flop (didn't bet)
+Seat 6: Sabatonyook (small blind) folded before Flop
+Seat 7: rodriguessf (big blind) folded before Flop
+Seat 8: andreas8866 showed [Jh Qh] and lost with a pair of Nines
+
+
+
+PokerStars Hand #260360487865: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 19:32:04 BRT [2026/04/05 18:32:04 ET]
+Table '3989607944 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (786 in chips) 
+Seat 2: ohanaaa (2665 in chips) 
+Seat 4: alexfontes7 (4272 in chips) 
+Seat 5: Magno Bass (1682 in chips) 
+Seat 6: Sabatonyook (3252 in chips) 
+Seat 7: rodriguessf (1345 in chips) 
+scorza23: posts the ante 15
+ohanaaa: posts the ante 15
+alexfontes7: posts the ante 15
+Magno Bass: posts the ante 15
+Sabatonyook: posts the ante 15
+rodriguessf: posts the ante 15
+rodriguessf: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 8s]
+ohanaaa: folds 
+alexfontes7: folds 
+Magno Bass: folds 
+Sabatonyook: folds 
+rodriguessf: raises 1210 to 1330 and is all-in
+scorza23: folds 
+Uncalled bet (1210) returned to rodriguessf
+rodriguessf collected 330 from pot
+rodriguessf: doesn't show hand 
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 5: Magno Bass folded before Flop (didn't bet)
+Seat 6: Sabatonyook (button) folded before Flop (didn't bet)
+Seat 7: rodriguessf (small blind) collected (330)
+
+
+
+PokerStars Hand #260360492827: Tournament #3989607944, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 19:32:25 BRT [2026/04/05 18:32:25 ET]
+Table '3989607944 2' 8-max Seat #7 is the button
+Seat 1: scorza23 (651 in chips) 
+Seat 2: ohanaaa (2650 in chips) 
+Seat 4: alexfontes7 (4257 in chips) 
+Seat 5: Magno Bass (1667 in chips) 
+Seat 6: Sabatonyook (3237 in chips) 
+Seat 7: rodriguessf (1540 in chips) 
+scorza23: posts the ante 15
+ohanaaa: posts the ante 15
+alexfontes7: posts the ante 15
+Magno Bass: posts the ante 15
+Sabatonyook: posts the ante 15
+rodriguessf: posts the ante 15
+scorza23: posts small blind 60
+ohanaaa: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Kc]
+alexfontes7: folds 
+Magno Bass: folds 
+Sabatonyook: raises 120 to 240
+rodriguessf: raises 1285 to 1525 and is all-in
+scorza23: calls 576 and is all-in
+ohanaaa: folds 
+Sabatonyook: folds 
+Uncalled bet (889) returned to rodriguessf
+*** FLOP *** [6d 4h Qh]
+*** TURN *** [6d 4h Qh] [Jd]
+*** RIVER *** [6d 4h Qh Jd] [Ah]
+*** SHOW DOWN ***
+scorza23: shows [9c Kc] (high card Ace)
+rodriguessf: shows [Kh Ad] (a pair of Aces)
+rodriguessf collected 1722 from pot
+scorza23 finished the tournament in 20th place
+*** SUMMARY ***
+Total pot 1722 | Rake 0 
+Board [6d 4h Qh Jd Ah]
+Seat 1: scorza23 (small blind) showed [9c Kc] and lost with high card Ace
+Seat 2: ohanaaa (big blind) folded before Flop
+Seat 4: alexfontes7 folded before Flop (didn't bet)
+Seat 5: Magno Bass folded before Flop (didn't bet)
+Seat 6: Sabatonyook folded before Flop
+Seat 7: rodriguessf (button) showed [Kh Ad] and won (1722) with a pair of Aces
+
+
+

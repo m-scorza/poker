@@ -1,0 +1,700 @@
+﻿PokerStars Hand #260347407134: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:17:41 UTC [2026/04/04 18:17:41 ET]
+Table '3989330107 1' 9-max Seat #1 is the button
+Seat 1: lucas92fm (1500 in chips) 
+Seat 2: gowbuckers (1500 in chips) 
+Seat 3: indymumma (1500 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 5: chrysz13 (1500 in chips) 
+Seat 6: Perplex819 (1500 in chips) 
+Seat 7: botinavelha (1500 in chips) 
+Seat 8: batista.ag (1500 in chips) 
+Seat 9: Leo Lealc (1500 in chips) is sitting out
+gowbuckers: posts small blind 10
+indymumma: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Kd]
+Leo Lealc has returned
+scorza23: folds 
+chrysz13: folds 
+Perplex819: folds 
+botinavelha: calls 20
+batista.ag: calls 20
+Leo Lealc: raises 60 to 80
+lucas92fm: calls 80
+gowbuckers: folds 
+indymumma: folds 
+botinavelha: calls 60
+batista.ag: folds 
+*** FLOP *** [4s 8h 3h]
+botinavelha: checks 
+Leo Lealc: bets 60
+lucas92fm: folds 
+botinavelha: calls 60
+*** TURN *** [4s 8h 3h] [8s]
+botinavelha: checks 
+Leo Lealc: bets 80
+botinavelha: calls 80
+*** RIVER *** [4s 8h 3h 8s] [5h]
+botinavelha: checks 
+Leo Lealc: bets 80
+botinavelha: raises 365 to 445
+Leo Lealc: folds 
+Uncalled bet (365) returned to botinavelha
+botinavelha collected 730 from pot
+*** SUMMARY ***
+Total pot 730 | Rake 0 
+Board [4s 8h 3h 8s 5h]
+Seat 1: lucas92fm (button) folded on the Flop
+Seat 2: gowbuckers (small blind) folded before Flop
+Seat 3: indymumma (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 folded before Flop (didn't bet)
+Seat 7: botinavelha collected (730)
+Seat 8: batista.ag folded before Flop
+Seat 9: Leo Lealc folded on the River
+
+
+
+PokerStars Hand #260347426097: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:19:09 UTC [2026/04/04 18:19:09 ET]
+Table '3989330107 1' 9-max Seat #2 is the button
+Seat 1: lucas92fm (1420 in chips) 
+Seat 2: gowbuckers (1490 in chips) 
+Seat 3: indymumma (1480 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 5: chrysz13 (1500 in chips) 
+Seat 6: Perplex819 (1500 in chips) 
+Seat 7: botinavelha (1930 in chips) 
+Seat 8: batista.ag (1480 in chips) 
+Seat 9: Leo Lealc (1200 in chips) 
+indymumma: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 6d]
+chrysz13: folds 
+Perplex819: folds 
+botinavelha: raises 20 to 40
+batista.ag: folds 
+Leo Lealc: calls 40
+lucas92fm: folds 
+gowbuckers: raises 60 to 100
+indymumma: folds 
+scorza23: folds 
+botinavelha: calls 60
+Leo Lealc: calls 60
+*** FLOP *** [9s 3h 2h]
+botinavelha: checks 
+Leo Lealc: checks 
+gowbuckers: bets 330
+botinavelha: folds 
+Leo Lealc: folds 
+Uncalled bet (330) returned to gowbuckers
+gowbuckers collected 330 from pot
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Board [9s 3h 2h]
+Seat 1: lucas92fm folded before Flop (didn't bet)
+Seat 2: gowbuckers (button) collected (330)
+Seat 3: indymumma (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 folded before Flop (didn't bet)
+Seat 7: botinavelha folded on the Flop
+Seat 8: batista.ag folded before Flop (didn't bet)
+Seat 9: Leo Lealc folded on the Flop
+
+
+
+PokerStars Hand #260347435045: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:19:50 UTC [2026/04/04 18:19:50 ET]
+Table '3989330107 1' 9-max Seat #3 is the button
+Seat 1: lucas92fm (1420 in chips) 
+Seat 2: gowbuckers (1720 in chips) 
+Seat 3: indymumma (1470 in chips) 
+Seat 4: scorza23 (1480 in chips) 
+Seat 5: chrysz13 (1500 in chips) 
+Seat 6: Perplex819 (1500 in chips) 
+Seat 7: botinavelha (1830 in chips) 
+Seat 8: batista.ag (1480 in chips) 
+Seat 9: Leo Lealc (1100 in chips) 
+scorza23: posts small blind 10
+chrysz13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 3s]
+Perplex819: folds 
+botinavelha: folds 
+batista.ag is disconnected 
+batista.ag has timed out while disconnected
+batista.ag: folds 
+batista.ag is sitting out
+Leo Lealc: folds 
+lucas92fm: raises 20 to 40
+gowbuckers: raises 110 to 150
+indymumma: folds 
+scorza23: folds 
+chrysz13: folds 
+lucas92fm: raises 330 to 480
+gowbuckers: calls 330
+*** FLOP *** [2c 9c Kc]
+lucas92fm: bets 327
+gowbuckers: calls 327
+*** TURN *** [2c 9c Kc] [Td]
+lucas92fm: bets 613 and is all-in
+gowbuckers: calls 613
+*** RIVER *** [2c 9c Kc Td] [2h]
+*** SHOW DOWN ***
+lucas92fm: shows [Ad Ks] (two pair, Kings and Deuces)
+gowbuckers: shows [Kd Kh] (a full house, Kings full of Deuces)
+gowbuckers collected 2870 from pot
+lucas92fm finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 2870 | Rake 0 
+Board [2c 9c Kc Td 2h]
+Seat 1: lucas92fm showed [Ad Ks] and lost with two pair, Kings and Deuces
+Seat 2: gowbuckers showed [Kd Kh] and won (2870) with a full house, Kings full of Deuces
+Seat 3: indymumma (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: chrysz13 (big blind) folded before Flop
+Seat 6: Perplex819 folded before Flop (didn't bet)
+Seat 7: botinavelha folded before Flop (didn't bet)
+Seat 8: batista.ag folded before Flop (didn't bet)
+Seat 9: Leo Lealc folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347455872: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:21:27 UTC [2026/04/04 18:21:27 ET]
+Table '3989330107 1' 9-max Seat #4 is the button
+Seat 2: gowbuckers (3170 in chips) 
+Seat 3: indymumma (1470 in chips) 
+Seat 4: scorza23 (1470 in chips) 
+Seat 5: chrysz13 (1480 in chips) 
+Seat 6: Perplex819 (1500 in chips) 
+Seat 7: botinavelha (1830 in chips) 
+Seat 8: batista.ag (1480 in chips) is sitting out
+Seat 9: Leo Lealc (1100 in chips) 
+chrysz13: posts small blind 10
+Perplex819: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 3d]
+botinavelha: folds 
+batista.ag: folds 
+Leo Lealc: raises 20 to 40
+gowbuckers: calls 40
+indymumma: folds 
+scorza23: folds 
+chrysz13: folds 
+Perplex819: folds 
+*** FLOP *** [Td Jh Kd]
+Leo Lealc: bets 40
+gowbuckers: folds 
+Uncalled bet (40) returned to Leo Lealc
+Leo Lealc collected 110 from pot
+*** SUMMARY ***
+Total pot 110 | Rake 0 
+Board [Td Jh Kd]
+Seat 2: gowbuckers folded on the Flop
+Seat 3: indymumma folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: chrysz13 (small blind) folded before Flop
+Seat 6: Perplex819 (big blind) folded before Flop
+Seat 7: botinavelha folded before Flop (didn't bet)
+Seat 8: batista.ag folded before Flop (didn't bet)
+Seat 9: Leo Lealc collected (110)
+
+
+
+PokerStars Hand #260347463346: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 22:22:02 UTC [2026/04/04 18:22:02 ET]
+Table '3989330107 1' 9-max Seat #5 is the button
+Seat 2: gowbuckers (3130 in chips) 
+Seat 3: indymumma (1470 in chips) 
+Seat 4: scorza23 (1470 in chips) 
+Seat 5: chrysz13 (1470 in chips) 
+Seat 6: Perplex819 (1480 in chips) 
+Seat 7: botinavelha (1830 in chips) 
+Seat 8: batista.ag (1480 in chips) is sitting out
+Seat 9: Leo Lealc (1170 in chips) 
+Perplex819: posts small blind 10
+botinavelha: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Jd]
+batista.ag: folds 
+Leo Lealc: folds 
+gowbuckers: calls 20
+indymumma: folds 
+scorza23: raises 40 to 60
+chrysz13: folds 
+batista.ag is disconnected 
+batista.ag has returned
+Perplex819: folds 
+botinavelha: folds 
+gowbuckers: calls 40
+*** FLOP *** [4s 5c 7s]
+gowbuckers: checks 
+scorza23: checks 
+*** TURN *** [4s 5c 7s] [Jh]
+gowbuckers: checks 
+scorza23: bets 40
+gowbuckers: calls 40
+*** RIVER *** [4s 5c 7s Jh] [6s]
+gowbuckers: bets 230
+scorza23: calls 230
+*** SHOW DOWN ***
+gowbuckers: shows [2s 8s] (a flush, Eight high)
+scorza23: mucks hand 
+gowbuckers collected 690 from pot
+*** SUMMARY ***
+Total pot 690 | Rake 0 
+Board [4s 5c 7s Jh 6s]
+Seat 2: gowbuckers showed [2s 8s] and won (690) with a flush, Eight high
+Seat 3: indymumma folded before Flop (didn't bet)
+Seat 4: scorza23 mucked [Kd Jd]
+Seat 5: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: Perplex819 (small blind) folded before Flop
+Seat 7: botinavelha (big blind) folded before Flop
+Seat 8: batista.ag folded before Flop (didn't bet)
+Seat 9: Leo Lealc folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347473526: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:22:50 UTC [2026/04/04 18:22:50 ET]
+Table '3989330107 1' 9-max Seat #6 is the button
+Seat 2: gowbuckers (3490 in chips) 
+Seat 3: indymumma (1470 in chips) 
+Seat 4: scorza23 (1140 in chips) 
+Seat 5: chrysz13 (1470 in chips) 
+Seat 6: Perplex819 (1470 in chips) 
+Seat 7: botinavelha (1810 in chips) 
+Seat 8: batista.ag (1480 in chips) 
+Seat 9: Leo Lealc (1170 in chips) 
+botinavelha: posts small blind 15
+batista.ag: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Jh]
+Leo Lealc: folds 
+gowbuckers: calls 30
+indymumma: folds 
+scorza23: folds 
+chrysz13: folds 
+Perplex819: raises 60 to 90
+botinavelha: folds 
+batista.ag: calls 60
+gowbuckers: folds 
+*** FLOP *** [7c 5c 2c]
+batista.ag: bets 90
+Perplex819: calls 90
+*** TURN *** [7c 5c 2c] [Jd]
+batista.ag: checks 
+Perplex819: bets 150
+batista.ag: calls 150
+*** RIVER *** [7c 5c 2c Jd] [3s]
+batista.ag: checks 
+Perplex819: bets 323
+batista.ag: folds 
+Uncalled bet (323) returned to Perplex819
+Perplex819 collected 705 from pot
+Perplex819: doesn't show hand 
+*** SUMMARY ***
+Total pot 705 | Rake 0 
+Board [7c 5c 2c Jd 3s]
+Seat 2: gowbuckers folded before Flop
+Seat 3: indymumma folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 (button) collected (705)
+Seat 7: botinavelha (small blind) folded before Flop
+Seat 8: batista.ag (big blind) folded on the River
+Seat 9: Leo Lealc folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347490237: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:24:09 UTC [2026/04/04 18:24:09 ET]
+Table '3989330107 1' 9-max Seat #7 is the button
+Seat 2: gowbuckers (3460 in chips) 
+Seat 3: indymumma (1470 in chips) 
+Seat 4: scorza23 (1140 in chips) 
+Seat 5: chrysz13 (1470 in chips) 
+Seat 6: Perplex819 (1845 in chips) 
+Seat 7: botinavelha (1795 in chips) 
+Seat 8: batista.ag (1150 in chips) 
+Seat 9: Leo Lealc (1170 in chips) 
+batista.ag: posts small blind 15
+Leo Lealc: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Js]
+gowbuckers: raises 30 to 60
+indymumma: folds 
+scorza23: folds 
+chrysz13: folds 
+Perplex819: calls 60
+botinavelha: folds 
+batista.ag: folds 
+Leo Lealc: calls 30
+*** FLOP *** [8d Tc 4d]
+Leo Lealc: checks 
+gowbuckers: checks 
+Perplex819: bets 80
+Leo Lealc: folds 
+gowbuckers: calls 80
+*** TURN *** [8d Tc 4d] [Qs]
+gowbuckers: checks 
+Perplex819: checks 
+*** RIVER *** [8d Tc 4d Qs] [3d]
+gowbuckers: checks 
+Perplex819: checks 
+*** SHOW DOWN ***
+gowbuckers: shows [7c 5c] (high card Queen)
+Perplex819: shows [8h Ac] (a pair of Eights)
+Perplex819 collected 355 from pot
+*** SUMMARY ***
+Total pot 355 | Rake 0 
+Board [8d Tc 4d Qs 3d]
+Seat 2: gowbuckers showed [7c 5c] and lost with high card Queen
+Seat 3: indymumma folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 showed [8h Ac] and won (355) with a pair of Eights
+Seat 7: botinavelha (button) folded before Flop (didn't bet)
+Seat 8: batista.ag (small blind) folded before Flop
+Seat 9: Leo Lealc (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260347502008: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:25:04 UTC [2026/04/04 18:25:04 ET]
+Table '3989330107 1' 9-max Seat #8 is the button
+Seat 2: gowbuckers (3320 in chips) 
+Seat 3: indymumma (1470 in chips) 
+Seat 4: scorza23 (1140 in chips) 
+Seat 5: chrysz13 (1470 in chips) 
+Seat 6: Perplex819 (2060 in chips) 
+Seat 7: botinavelha (1795 in chips) 
+Seat 8: batista.ag (1135 in chips) 
+Seat 9: Leo Lealc (1110 in chips) 
+Leo Lealc: posts small blind 15
+gowbuckers: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 4d]
+indymumma: folds 
+scorza23: folds 
+chrysz13: folds 
+Perplex819: raises 30 to 60
+botinavelha: calls 60
+batista.ag: folds 
+Leo Lealc: calls 45
+gowbuckers: calls 30
+*** FLOP *** [2h Kh 6c]
+Leo Lealc: checks 
+gowbuckers: bets 90
+Perplex819: folds 
+botinavelha: folds 
+Leo Lealc: folds 
+Uncalled bet (90) returned to gowbuckers
+gowbuckers collected 240 from pot
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Board [2h Kh 6c]
+Seat 2: gowbuckers (big blind) collected (240)
+Seat 3: indymumma folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 folded on the Flop
+Seat 7: botinavelha folded on the Flop
+Seat 8: batista.ag (button) folded before Flop (didn't bet)
+Seat 9: Leo Lealc (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260347512918: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:25:56 UTC [2026/04/04 18:25:56 ET]
+Table '3989330107 1' 9-max Seat #9 is the button
+Seat 2: gowbuckers (3500 in chips) 
+Seat 3: indymumma (1470 in chips) 
+Seat 4: scorza23 (1140 in chips) 
+Seat 5: chrysz13 (1470 in chips) 
+Seat 6: Perplex819 (2000 in chips) 
+Seat 7: botinavelha (1735 in chips) 
+Seat 8: batista.ag (1135 in chips) 
+Seat 9: Leo Lealc (1050 in chips) 
+gowbuckers: posts small blind 15
+indymumma: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 8d]
+scorza23: folds 
+chrysz13: folds 
+Perplex819: raises 45 to 75
+botinavelha: folds 
+batista.ag: raises 45 to 120
+Leo Lealc: calls 120
+gowbuckers: folds 
+indymumma: folds 
+Perplex819: calls 45
+*** FLOP *** [7c 3s 6h]
+Perplex819: checks 
+batista.ag: bets 1015 and is all-in
+Leo Lealc: folds 
+Perplex819: folds 
+Uncalled bet (1015) returned to batista.ag
+batista.ag collected 405 from pot
+*** SUMMARY ***
+Total pot 405 | Rake 0 
+Board [7c 3s 6h]
+Seat 2: gowbuckers (small blind) folded before Flop
+Seat 3: indymumma (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 folded on the Flop
+Seat 7: botinavelha folded before Flop (didn't bet)
+Seat 8: batista.ag collected (405)
+Seat 9: Leo Lealc (button) folded on the Flop
+
+
+
+PokerStars Hand #260347522367: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:26:41 UTC [2026/04/04 18:26:41 ET]
+Table '3989330107 1' 9-max Seat #2 is the button
+Seat 2: gowbuckers (3485 in chips) 
+Seat 3: indymumma (1440 in chips) 
+Seat 4: scorza23 (1140 in chips) 
+Seat 5: chrysz13 (1470 in chips) 
+Seat 6: Perplex819 (1880 in chips) 
+Seat 7: botinavelha (1735 in chips) 
+Seat 8: batista.ag (1420 in chips) 
+Seat 9: Leo Lealc (930 in chips) 
+indymumma: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2s]
+chrysz13: folds 
+Perplex819: folds 
+botinavelha: folds 
+batista.ag has timed out
+batista.ag: folds 
+batista.ag is sitting out
+Leo Lealc: raises 30 to 60
+gowbuckers: folds 
+indymumma: folds 
+scorza23: folds 
+Uncalled bet (30) returned to Leo Lealc
+Leo Lealc collected 75 from pot
+batista.ag has returned
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 2: gowbuckers (button) folded before Flop (didn't bet)
+Seat 3: indymumma (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 folded before Flop (didn't bet)
+Seat 7: botinavelha folded before Flop (didn't bet)
+Seat 8: batista.ag folded before Flop (didn't bet)
+Seat 9: Leo Lealc collected (75)
+
+
+
+PokerStars Hand #260347530123: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 22:27:17 UTC [2026/04/04 18:27:17 ET]
+Table '3989330107 1' 9-max Seat #3 is the button
+Seat 2: gowbuckers (3485 in chips) 
+Seat 3: indymumma (1425 in chips) 
+Seat 4: scorza23 (1110 in chips) 
+Seat 5: chrysz13 (1470 in chips) 
+Seat 6: Perplex819 (1880 in chips) 
+Seat 7: botinavelha (1735 in chips) 
+Seat 8: batista.ag (1420 in chips) 
+Seat 9: Leo Lealc (975 in chips) 
+scorza23: posts small blind 15
+chrysz13: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 5d]
+Perplex819: folds 
+botinavelha: folds 
+batista.ag: raises 90 to 120
+Leo Lealc: folds 
+gowbuckers: calls 120
+indymumma: raises 1305 to 1425 and is all-in
+scorza23: folds 
+chrysz13: folds 
+batista.ag: calls 1300 and is all-in
+gowbuckers: folds 
+Uncalled bet (5) returned to indymumma
+*** FLOP *** [Jh 3h 9c]
+*** TURN *** [Jh 3h 9c] [7d]
+*** RIVER *** [Jh 3h 9c 7d] [2d]
+*** SHOW DOWN ***
+batista.ag: shows [Kc Kh] (a pair of Kings)
+indymumma: shows [Ac Ah] (a pair of Aces)
+indymumma collected 3005 from pot
+batista.ag finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3005 | Rake 0 
+Board [Jh 3h 9c 7d 2d]
+Seat 2: gowbuckers folded before Flop
+Seat 3: indymumma (button) showed [Ac Ah] and won (3005) with a pair of Aces
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: chrysz13 (big blind) folded before Flop
+Seat 6: Perplex819 folded before Flop (didn't bet)
+Seat 7: botinavelha folded before Flop (didn't bet)
+Seat 8: batista.ag showed [Kc Kh] and lost with a pair of Kings
+Seat 9: Leo Lealc folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347536551: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:27:48 UTC [2026/04/04 18:27:48 ET]
+Table '3989330107 1' 9-max Seat #4 is the button
+Seat 2: gowbuckers (3365 in chips) 
+Seat 3: indymumma (3010 in chips) 
+Seat 4: scorza23 (1095 in chips) 
+Seat 5: chrysz13 (1440 in chips) 
+Seat 6: Perplex819 (1880 in chips) 
+Seat 7: botinavelha (1735 in chips) 
+Seat 9: Leo Lealc (975 in chips) 
+chrysz13: posts small blind 25
+Perplex819: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 5c]
+botinavelha: calls 50
+Leo Lealc: raises 100 to 150
+gowbuckers: folds 
+indymumma: folds 
+scorza23: raises 425 to 575
+chrysz13: folds 
+Perplex819: folds 
+botinavelha: folds 
+Leo Lealc: calls 425
+*** FLOP *** [Jh Ah 2h]
+Leo Lealc: bets 400 and is all-in
+scorza23: calls 400
+*** TURN *** [Jh Ah 2h] [7s]
+*** RIVER *** [Jh Ah 2h 7s] [6h]
+*** SHOW DOWN ***
+Leo Lealc: shows [6d 6s] (three of a kind, Sixes)
+scorza23: shows [Ac 5c] (a pair of Aces)
+Leo Lealc collected 2075 from pot
+*** SUMMARY ***
+Total pot 2075 | Rake 0 
+Board [Jh Ah 2h 7s 6h]
+Seat 2: gowbuckers folded before Flop (didn't bet)
+Seat 3: indymumma folded before Flop (didn't bet)
+Seat 4: scorza23 (button) showed [Ac 5c] and lost with a pair of Aces
+Seat 5: chrysz13 (small blind) folded before Flop
+Seat 6: Perplex819 (big blind) folded before Flop
+Seat 7: botinavelha folded before Flop
+Seat 9: Leo Lealc showed [6d 6s] and won (2075) with three of a kind, Sixes
+
+
+
+PokerStars Hand #260347545060: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:28:28 UTC [2026/04/04 18:28:28 ET]
+Table '3989330107 1' 9-max Seat #5 is the button
+Seat 2: gowbuckers (3365 in chips) 
+Seat 3: indymumma (3010 in chips) 
+Seat 4: scorza23 (120 in chips) 
+Seat 5: chrysz13 (1415 in chips) 
+Seat 6: Perplex819 (1830 in chips) 
+Seat 7: botinavelha (1685 in chips) 
+Seat 9: Leo Lealc (2075 in chips) 
+Perplex819: posts small blind 25
+botinavelha: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Kd]
+Leo Lealc: folds 
+gowbuckers: calls 50
+indymumma: calls 50
+scorza23: raises 70 to 120 and is all-in
+chrysz13: folds 
+Perplex819: folds 
+botinavelha: raises 365 to 485
+gowbuckers: folds 
+indymumma: folds 
+Uncalled bet (365) returned to botinavelha
+*** FLOP *** [6c 6h Jh]
+*** TURN *** [6c 6h Jh] [4c]
+*** RIVER *** [6c 6h Jh 4c] [9s]
+*** SHOW DOWN ***
+botinavelha: shows [Ts Ac] (a pair of Sixes)
+scorza23: shows [Kh Kd] (two pair, Kings and Sixes)
+scorza23 collected 365 from pot
+*** SUMMARY ***
+Total pot 365 | Rake 0 
+Board [6c 6h Jh 4c 9s]
+Seat 2: gowbuckers folded before Flop
+Seat 3: indymumma folded before Flop
+Seat 4: scorza23 showed [Kh Kd] and won (365) with two pair, Kings and Sixes
+Seat 5: chrysz13 (button) folded before Flop (didn't bet)
+Seat 6: Perplex819 (small blind) folded before Flop
+Seat 7: botinavelha (big blind) showed [Ts Ac] and lost with a pair of Sixes
+Seat 9: Leo Lealc folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347554668: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:29:13 UTC [2026/04/04 18:29:13 ET]
+Table '3989330107 1' 9-max Seat #6 is the button
+Seat 2: gowbuckers (3315 in chips) 
+Seat 3: indymumma (2960 in chips) 
+Seat 4: scorza23 (365 in chips) 
+Seat 5: chrysz13 (1415 in chips) 
+Seat 6: Perplex819 (1805 in chips) 
+Seat 7: botinavelha (1565 in chips) 
+Seat 9: Leo Lealc (2075 in chips) 
+botinavelha: posts small blind 25
+Leo Lealc: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qh]
+gowbuckers: calls 50
+indymumma: folds 
+scorza23: raises 315 to 365 and is all-in
+chrysz13: folds 
+Perplex819: folds 
+botinavelha: folds 
+Leo Lealc: folds 
+gowbuckers: folds 
+Uncalled bet (315) returned to scorza23
+scorza23 collected 175 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 175 | Rake 0 
+Seat 2: gowbuckers folded before Flop
+Seat 3: indymumma folded before Flop (didn't bet)
+Seat 4: scorza23 collected (175)
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 (button) folded before Flop (didn't bet)
+Seat 7: botinavelha (small blind) folded before Flop
+Seat 9: Leo Lealc (big blind) folded before Flop
+
+
+
+PokerStars Hand #260347560942: Tournament #3989330107, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 22:29:43 UTC [2026/04/04 18:29:43 ET]
+Table '3989330107 1' 9-max Seat #7 is the button
+Seat 2: gowbuckers (3265 in chips) 
+Seat 3: indymumma (2960 in chips) 
+Seat 4: scorza23 (490 in chips) 
+Seat 5: chrysz13 (1415 in chips) 
+Seat 6: Perplex819 (1805 in chips) 
+Seat 7: botinavelha (1540 in chips) 
+Seat 9: Leo Lealc (2025 in chips) 
+Leo Lealc: posts small blind 25
+gowbuckers: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kd]
+indymumma: calls 50
+scorza23: raises 440 to 490 and is all-in
+chrysz13: folds 
+Perplex819: folds 
+botinavelha: folds 
+Leo Lealc: folds 
+gowbuckers: folds 
+indymumma: calls 440
+*** FLOP *** [Qh Td 2h]
+*** TURN *** [Qh Td 2h] [7c]
+*** RIVER *** [Qh Td 2h 7c] [Kh]
+*** SHOW DOWN ***
+indymumma: shows [7d 7h] (three of a kind, Sevens)
+scorza23: shows [Ah Kd] (a pair of Kings)
+indymumma collected 1055 from pot
+scorza23 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1055 | Rake 0 
+Board [Qh Td 2h 7c Kh]
+Seat 2: gowbuckers (big blind) folded before Flop
+Seat 3: indymumma showed [7d 7h] and won (1055) with three of a kind, Sevens
+Seat 4: scorza23 showed [Ah Kd] and lost with a pair of Kings
+Seat 5: chrysz13 folded before Flop (didn't bet)
+Seat 6: Perplex819 folded before Flop (didn't bet)
+Seat 7: botinavelha (button) folded before Flop (didn't bet)
+Seat 9: Leo Lealc (small blind) folded before Flop
+
+
+

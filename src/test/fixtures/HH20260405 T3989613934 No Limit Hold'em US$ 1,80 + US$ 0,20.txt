@@ -1,0 +1,377 @@
+﻿PokerStars Hand #260360518604: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:34:16 BRT [2026/04/05 18:34:16 ET]
+Table '3989613934 4' 8-max Seat #1 is the button
+Seat 1: ohanaaa (1488 in chips) 
+Seat 4: tabu33 (1500 in chips) 
+Seat 5: rar02 (1500 in chips) 
+Seat 8: scorza23 (1500 in chips) 
+ohanaaa: posts the ante 3
+tabu33: posts the ante 3
+rar02: posts the ante 3
+scorza23: posts the ante 3
+tabu33: posts small blind 10
+rar02: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 8c]
+proalex16 is disconnected 
+scorza23 is connected 
+scorza23 is connected 
+scorza23: folds 
+léoRoberto is disconnected 
+ohanaaa: folds 
+tabu33: folds 
+Uncalled bet (10) returned to rar02
+rar02 collected 32 from pot
+rar02: doesn't show hand 
+*** SUMMARY ***
+Total pot 32 | Rake 0 
+Seat 1: ohanaaa (button) folded before Flop (didn't bet)
+Seat 4: tabu33 (small blind) folded before Flop
+Seat 5: rar02 (big blind) collected (32)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360523197: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:34:36 BRT [2026/04/05 18:34:36 ET]
+Table '3989613934 4' 8-max Seat #4 is the button
+Seat 1: ohanaaa (1485 in chips) 
+Seat 2: smtweefs (1471 in chips) 
+Seat 3: kano290 (1500 in chips) 
+Seat 4: tabu33 (1487 in chips) 
+Seat 5: rar02 (1519 in chips) 
+Seat 6: proalex16 (1500 in chips) 
+Seat 7: léoRoberto (1466 in chips) 
+Seat 8: scorza23 (1497 in chips) 
+ohanaaa: posts the ante 3
+smtweefs: posts the ante 3
+kano290: posts the ante 3
+tabu33: posts the ante 3
+rar02: posts the ante 3
+proalex16: posts the ante 3
+léoRoberto: posts the ante 3
+scorza23: posts the ante 3
+rar02: posts small blind 10
+proalex16: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 2c]
+léoRoberto: folds 
+scorza23: folds 
+ohanaaa: raises 20 to 40
+smtweefs: calls 40
+kano290: raises 160 to 200
+tabu33: calls 200
+rar02: folds 
+proalex16: folds 
+ohanaaa: folds 
+smtweefs: calls 160
+*** FLOP *** [8d Jd 6h]
+smtweefs: bets 347
+kano290: raises 347 to 694
+tabu33: folds 
+smtweefs: calls 347
+*** TURN *** [8d Jd 6h] [6d]
+smtweefs: checks 
+kano290: checks 
+*** RIVER *** [8d Jd 6h 6d] [Tc]
+smtweefs: bets 574 and is all-in
+kano290: calls 574
+*** SHOW DOWN ***
+smtweefs: shows [9s Jc] (two pair, Jacks and Sixes)
+kano290: shows [Qh Qc] (two pair, Queens and Sixes)
+kano290 collected 3230 from pot
+smtweefs finished the tournament in 32nd place
+*** SUMMARY ***
+Total pot 3230 | Rake 0 
+Board [8d Jd 6h 6d Tc]
+Seat 1: ohanaaa folded before Flop
+Seat 2: smtweefs showed [9s Jc] and lost with two pair, Jacks and Sixes
+Seat 3: kano290 showed [Qh Qc] and won (3230) with two pair, Queens and Sixes
+Seat 4: tabu33 (button) folded on the Flop
+Seat 5: rar02 (small blind) folded before Flop
+Seat 6: proalex16 (big blind) folded before Flop
+Seat 7: léoRoberto folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360541731: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:35:57 BRT [2026/04/05 18:35:57 ET]
+Table '3989613934 4' 8-max Seat #5 is the button
+Seat 1: ohanaaa (1442 in chips) 
+Seat 3: kano290 (3259 in chips) 
+Seat 4: tabu33 (1284 in chips) 
+Seat 5: rar02 (1506 in chips) 
+Seat 6: proalex16 (1477 in chips) 
+Seat 7: léoRoberto (1463 in chips) 
+Seat 8: scorza23 (1494 in chips) 
+ohanaaa: posts the ante 3
+kano290: posts the ante 3
+tabu33: posts the ante 3
+rar02: posts the ante 3
+proalex16: posts the ante 3
+léoRoberto: posts the ante 3
+scorza23: posts the ante 3
+proalex16: posts small blind 10
+léoRoberto: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 8h]
+scorza23: folds 
+ohanaaa: folds 
+kano290: folds 
+tabu33: folds 
+rar02: folds 
+proalex16: folds 
+Uncalled bet (10) returned to léoRoberto
+léoRoberto collected 41 from pot
+léoRoberto: doesn't show hand 
+*** SUMMARY ***
+Total pot 41 | Rake 0 
+Seat 1: ohanaaa folded before Flop (didn't bet)
+Seat 3: kano290 folded before Flop (didn't bet)
+Seat 4: tabu33 folded before Flop (didn't bet)
+Seat 5: rar02 (button) folded before Flop (didn't bet)
+Seat 6: proalex16 (small blind) folded before Flop
+Seat 7: léoRoberto (big blind) collected (41)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360545067: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:36:12 BRT [2026/04/05 18:36:12 ET]
+Table '3989613934 4' 8-max Seat #6 is the button
+Seat 1: ohanaaa (1439 in chips) 
+Seat 3: kano290 (3256 in chips) 
+Seat 4: tabu33 (1281 in chips) 
+Seat 5: rar02 (1503 in chips) 
+Seat 6: proalex16 (1464 in chips) 
+Seat 7: léoRoberto (1491 in chips) 
+Seat 8: scorza23 (1491 in chips) 
+ohanaaa: posts the ante 4
+kano290: posts the ante 4
+tabu33: posts the ante 4
+rar02: posts the ante 4
+proalex16: posts the ante 4
+léoRoberto: posts the ante 4
+scorza23: posts the ante 4
+léoRoberto: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 8d]
+ohanaaa: folds 
+kano290: folds 
+tabu33: folds 
+rar02: raises 45 to 75
+proalex16: folds 
+léoRoberto: calls 60
+scorza23: raises 165 to 240
+rar02: raises 1259 to 1499 and is all-in
+léoRoberto: folds 
+scorza23: folds 
+Uncalled bet (1259) returned to rar02
+rar02 collected 583 from pot
+rar02: doesn't show hand 
+*** SUMMARY ***
+Total pot 583 | Rake 0 
+Seat 1: ohanaaa folded before Flop (didn't bet)
+Seat 3: kano290 folded before Flop (didn't bet)
+Seat 4: tabu33 folded before Flop (didn't bet)
+Seat 5: rar02 collected (583)
+Seat 6: proalex16 (button) folded before Flop (didn't bet)
+Seat 7: léoRoberto (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260360552716: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:36:46 BRT [2026/04/05 18:36:46 ET]
+Table '3989613934 4' 8-max Seat #7 is the button
+Seat 1: ohanaaa (1435 in chips) 
+Seat 3: kano290 (3252 in chips) 
+Seat 4: tabu33 (1277 in chips) 
+Seat 5: rar02 (1842 in chips) 
+Seat 6: proalex16 (1460 in chips) 
+Seat 7: léoRoberto (1412 in chips) 
+Seat 8: scorza23 (1247 in chips) 
+ohanaaa: posts the ante 4
+kano290: posts the ante 4
+tabu33: posts the ante 4
+rar02: posts the ante 4
+proalex16: posts the ante 4
+léoRoberto: posts the ante 4
+scorza23: posts the ante 4
+scorza23: posts small blind 15
+ohanaaa: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 7h]
+kano290: folds 
+tabu33: folds 
+rar02: folds 
+proalex16: folds 
+léoRoberto: calls 30
+scorza23: folds 
+ohanaaa: checks 
+*** FLOP *** [Kh As 4h]
+ohanaaa: checks 
+léoRoberto: bets 30
+ohanaaa: folds 
+Uncalled bet (30) returned to léoRoberto
+léoRoberto collected 103 from pot
+léoRoberto: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Board [Kh As 4h]
+Seat 1: ohanaaa (big blind) folded on the Flop
+Seat 3: kano290 folded before Flop (didn't bet)
+Seat 4: tabu33 folded before Flop (didn't bet)
+Seat 5: rar02 folded before Flop (didn't bet)
+Seat 6: proalex16 folded before Flop (didn't bet)
+Seat 7: léoRoberto (button) collected (103)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360560686: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:37:21 BRT [2026/04/05 18:37:21 ET]
+Table '3989613934 4' 8-max Seat #8 is the button
+Seat 1: ohanaaa (1401 in chips) 
+Seat 3: kano290 (3248 in chips) 
+Seat 4: tabu33 (1273 in chips) 
+Seat 5: rar02 (1838 in chips) 
+Seat 6: proalex16 (1456 in chips) 
+Seat 7: léoRoberto (1481 in chips) 
+Seat 8: scorza23 (1228 in chips) 
+ohanaaa: posts the ante 4
+kano290: posts the ante 4
+tabu33: posts the ante 4
+rar02: posts the ante 4
+proalex16: posts the ante 4
+léoRoberto: posts the ante 4
+scorza23: posts the ante 4
+ohanaaa: posts small blind 15
+kano290: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Kd]
+tabu33: folds 
+rar02: folds 
+proalex16: raises 60 to 90
+léoRoberto: folds 
+scorza23: folds 
+ohanaaa: folds 
+kano290: folds 
+Uncalled bet (60) returned to proalex16
+proalex16 collected 103 from pot
+proalex16: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: ohanaaa (small blind) folded before Flop
+Seat 3: kano290 (big blind) folded before Flop
+Seat 4: tabu33 folded before Flop (didn't bet)
+Seat 5: rar02 folded before Flop (didn't bet)
+Seat 6: proalex16 collected (103)
+Seat 7: léoRoberto folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360568387: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:37:54 BRT [2026/04/05 18:37:54 ET]
+Table '3989613934 4' 8-max Seat #1 is the button
+Seat 1: ohanaaa (1382 in chips) 
+Seat 3: kano290 (3214 in chips) 
+Seat 4: tabu33 (1269 in chips) 
+Seat 5: rar02 (1834 in chips) 
+Seat 6: proalex16 (1525 in chips) 
+Seat 7: léoRoberto (1477 in chips) 
+Seat 8: scorza23 (1224 in chips) 
+ohanaaa: posts the ante 4
+kano290: posts the ante 4
+tabu33: posts the ante 4
+rar02: posts the ante 4
+proalex16: posts the ante 4
+léoRoberto: posts the ante 4
+scorza23: posts the ante 4
+kano290: posts small blind 15
+tabu33: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Kd]
+rar02: folds 
+proalex16: raises 60 to 90
+léoRoberto: folds 
+scorza23: folds 
+ohanaaa: calls 90
+kano290: folds 
+tabu33: folds 
+*** FLOP *** [Td 3s Ad]
+proalex16: bets 253
+ohanaaa: folds 
+Uncalled bet (253) returned to proalex16
+proalex16 collected 253 from pot
+proalex16: doesn't show hand 
+*** SUMMARY ***
+Total pot 253 | Rake 0 
+Board [Td 3s Ad]
+Seat 1: ohanaaa (button) folded on the Flop
+Seat 3: kano290 (small blind) folded before Flop
+Seat 4: tabu33 (big blind) folded before Flop
+Seat 5: rar02 folded before Flop (didn't bet)
+Seat 6: proalex16 collected (253)
+Seat 7: léoRoberto folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360574697: Tournament #3989613934, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:38:22 BRT [2026/04/05 18:38:22 ET]
+Table '3989613934 4' 8-max Seat #3 is the button
+Seat 1: ohanaaa (1288 in chips) 
+Seat 3: kano290 (3195 in chips) 
+Seat 4: tabu33 (1235 in chips) 
+Seat 5: rar02 (1830 in chips) 
+Seat 6: proalex16 (1684 in chips) 
+Seat 7: léoRoberto (1473 in chips) 
+Seat 8: scorza23 (1220 in chips) 
+ohanaaa: posts the ante 4
+kano290: posts the ante 4
+tabu33: posts the ante 4
+rar02: posts the ante 4
+proalex16: posts the ante 4
+léoRoberto: posts the ante 4
+scorza23: posts the ante 4
+tabu33: posts small blind 15
+rar02: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ac]
+proalex16: folds 
+léoRoberto: raises 30 to 60
+scorza23: raises 120 to 180
+ohanaaa: folds 
+kano290: folds 
+tabu33: folds 
+rar02: calls 150
+léoRoberto: calls 120
+*** FLOP *** [6c Ts Js]
+rar02: checks 
+léoRoberto: checks 
+scorza23: bets 150
+rar02: calls 150
+léoRoberto: calls 150
+*** TURN *** [6c Ts Js] [8d]
+rar02: checks 
+léoRoberto: checks 
+scorza23: bets 517
+rar02: raises 979 to 1496 and is all-in
+léoRoberto: folds 
+scorza23: calls 369 and is all-in
+Uncalled bet (610) returned to rar02
+*** RIVER *** [6c Ts Js 8d] [2h]
+*** SHOW DOWN ***
+rar02: shows [9c Jh] (a pair of Jacks)
+scorza23: shows [8c Ac] (a pair of Eights)
+rar02 collected 2805 from pot
+scorza23 finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 2805 | Rake 0 
+Board [6c Ts Js 8d 2h]
+Seat 1: ohanaaa folded before Flop (didn't bet)
+Seat 3: kano290 (button) folded before Flop (didn't bet)
+Seat 4: tabu33 (small blind) folded before Flop
+Seat 5: rar02 (big blind) showed [9c Jh] and won (2805) with a pair of Jacks
+Seat 6: proalex16 folded before Flop (didn't bet)
+Seat 7: léoRoberto folded on the Turn
+Seat 8: scorza23 showed [8c Ac] and lost with a pair of Eights
+
+
+

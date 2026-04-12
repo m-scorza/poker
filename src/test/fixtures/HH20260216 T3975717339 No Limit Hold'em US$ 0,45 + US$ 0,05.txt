@@ -1,0 +1,651 @@
+﻿PokerStars Hand #259751181473: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:51:50 UTC [2026/02/16 12:51:50 ET]
+Table '3975717339 2' 8-max Seat #1 is the button
+Seat 1: 14Asche (1500 in chips) 
+Seat 2: borgtime788 (1500 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: MárioRJ (1500 in chips) 
+Seat 7: CarvalhoM_BR (1500 in chips) 
+Seat 8: pqnopsk8 (1500 in chips) 
+14Asche: posts the ante 3
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+borgtime788: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3c]
+MárioRJ: folds 
+CarvalhoM_BR: folds 
+pqnopsk8: folds 
+14Asche: calls 20
+borgtime788: calls 10
+scorza23: raises 78 to 98
+14Asche: calls 78
+borgtime788: folds 
+*** FLOP *** [3h Jd 6s]
+scorza23: bets 117
+14Asche: folds 
+Uncalled bet (117) returned to scorza23
+scorza23 collected 234 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 234 | Rake 0 
+Board [3h Jd 6s]
+Seat 1: 14Asche (button) folded on the Flop
+Seat 2: borgtime788 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (234)
+Seat 4: MárioRJ folded before Flop (didn't bet)
+Seat 7: CarvalhoM_BR folded before Flop (didn't bet)
+Seat 8: pqnopsk8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751192276: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:52:40 UTC [2026/02/16 12:52:40 ET]
+Table '3975717339 2' 8-max Seat #2 is the button
+Seat 1: 14Asche (1399 in chips) 
+Seat 2: borgtime788 (1477 in chips) 
+Seat 3: scorza23 (1633 in chips) 
+Seat 4: MárioRJ (1497 in chips) 
+Seat 7: CarvalhoM_BR (1497 in chips) 
+Seat 8: pqnopsk8 (1497 in chips) 
+14Asche: posts the ante 3
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+scorza23: posts small blind 10
+MárioRJ: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 3c]
+CarvalhoM_BR: raises 30 to 50
+pqnopsk8: folds 
+14Asche: folds 
+borgtime788: folds 
+scorza23: folds 
+MárioRJ: folds 
+Uncalled bet (30) returned to CarvalhoM_BR
+CarvalhoM_BR collected 68 from pot
+CarvalhoM_BR: doesn't show hand 
+*** SUMMARY ***
+Total pot 68 | Rake 0 
+Seat 1: 14Asche folded before Flop (didn't bet)
+Seat 2: borgtime788 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: MárioRJ (big blind) folded before Flop
+Seat 7: CarvalhoM_BR collected (68)
+Seat 8: pqnopsk8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751198657: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:53:09 UTC [2026/02/16 12:53:09 ET]
+Table '3975717339 2' 8-max Seat #3 is the button
+Seat 1: 14Asche (1396 in chips) 
+Seat 2: borgtime788 (1474 in chips) 
+Seat 3: scorza23 (1620 in chips) 
+Seat 4: MárioRJ (1474 in chips) 
+Seat 7: CarvalhoM_BR (1542 in chips) 
+Seat 8: pqnopsk8 (1494 in chips) 
+14Asche: posts the ante 3
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+MárioRJ: posts small blind 10
+CarvalhoM_BR: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 3d]
+pqnopsk8: folds 
+14Asche: folds 
+borgtime788: folds 
+scorza23: folds 
+MárioRJ: calls 10
+CarvalhoM_BR: checks 
+*** FLOP *** [8h As 8s]
+MárioRJ: checks 
+CarvalhoM_BR: checks 
+*** TURN *** [8h As 8s] [3s]
+MárioRJ: checks 
+CarvalhoM_BR: checks 
+*** RIVER *** [8h As 8s 3s] [3h]
+MárioRJ: checks 
+CarvalhoM_BR: checks 
+*** SHOW DOWN ***
+MárioRJ: shows [4c Kc] (two pair, Eights and Threes)
+CarvalhoM_BR: shows [Jh Td] (two pair, Eights and Threes)
+MárioRJ collected 29 from pot
+CarvalhoM_BR collected 29 from pot
+*** SUMMARY ***
+Total pot 58 | Rake 0 
+Board [8h As 8s 3s 3h]
+Seat 1: 14Asche folded before Flop (didn't bet)
+Seat 2: borgtime788 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: MárioRJ (small blind) showed [4c Kc] and won (29) with two pair, Eights and Threes
+Seat 7: CarvalhoM_BR (big blind) showed [Jh Td] and won (29) with two pair, Eights and Threes
+Seat 8: pqnopsk8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751211206: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:54:07 UTC [2026/02/16 12:54:07 ET]
+Table '3975717339 2' 8-max Seat #4 is the button
+Seat 1: 14Asche (1393 in chips) 
+Seat 2: borgtime788 (1471 in chips) 
+Seat 3: scorza23 (1617 in chips) 
+Seat 4: MárioRJ (1480 in chips) 
+Seat 5: HOOP201087 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 6: AndréBex (1500 in chips) out of hand (moved from another table into small blind)
+Seat 7: CarvalhoM_BR (1548 in chips) 
+Seat 8: pqnopsk8 (1491 in chips) 
+HOOP201087 will be allowed to play after the button
+AndréBex will be allowed to play after the button
+14Asche: posts the ante 3
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+CarvalhoM_BR: posts small blind 10
+pqnopsk8: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Jh]
+14Asche: folds 
+borgtime788: folds 
+scorza23: folds 
+MárioRJ: folds 
+CarvalhoM_BR: folds 
+Uncalled bet (10) returned to pqnopsk8
+pqnopsk8 collected 38 from pot
+pqnopsk8: doesn't show hand 
+*** SUMMARY ***
+Total pot 38 | Rake 0 
+Seat 1: 14Asche folded before Flop (didn't bet)
+Seat 2: borgtime788 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: MárioRJ (button) folded before Flop (didn't bet)
+Seat 7: CarvalhoM_BR (small blind) folded before Flop
+Seat 8: pqnopsk8 (big blind) collected (38)
+
+
+
+PokerStars Hand #259751215583: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:54:27 UTC [2026/02/16 12:54:27 ET]
+Table '3975717339 2' 8-max Seat #7 is the button
+Seat 2: borgtime788 (1468 in chips) 
+Seat 3: scorza23 (1614 in chips) 
+Seat 4: MárioRJ (1477 in chips) 
+Seat 5: HOOP201087 (1500 in chips) 
+Seat 6: AndréBex (1500 in chips) 
+Seat 7: CarvalhoM_BR (1535 in chips) 
+Seat 8: pqnopsk8 (1516 in chips) 
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+HOOP201087: posts the ante 3
+AndréBex: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+pqnopsk8: posts small blind 10
+borgtime788: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8c]
+scorza23: folds 
+MárioRJ: folds 
+HOOP201087: calls 20
+AndréBex: calls 20
+CarvalhoM_BR: folds 
+pqnopsk8: folds 
+borgtime788: raises 60 to 80
+HOOP201087: calls 60
+AndréBex: calls 60
+*** FLOP *** [Js 7d Kh]
+borgtime788: checks 
+HOOP201087: checks 
+AndréBex: checks 
+*** TURN *** [Js 7d Kh] [3h]
+borgtime788: bets 89
+HOOP201087: raises 129 to 218
+AndréBex: folds 
+borgtime788: calls 129
+*** RIVER *** [Js 7d Kh 3h] [Qc]
+borgtime788: checks 
+HOOP201087: checks 
+*** SHOW DOWN ***
+borgtime788: shows [Kc Ad] (a pair of Kings)
+HOOP201087: mucks hand 
+borgtime788 collected 707 from pot
+*** SUMMARY ***
+Total pot 707 | Rake 0 
+Board [Js 7d Kh 3h Qc]
+Seat 2: borgtime788 (big blind) showed [Kc Ad] and won (707) with a pair of Kings
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: MárioRJ folded before Flop (didn't bet)
+Seat 5: HOOP201087 mucked [Qs 4c]
+Seat 6: AndréBex folded on the Turn
+Seat 7: CarvalhoM_BR (button) folded before Flop (didn't bet)
+Seat 8: pqnopsk8 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259751275837: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 18:00:30 UTC [2026/02/16 13:00:30 ET]
+Table '3975717339 2' 8-max Seat #8 is the button
+Seat 1: O praia (1500 in chips) out of hand (moved from another table into small blind)
+Seat 2: borgtime788 (1874 in chips) 
+Seat 3: scorza23 (1611 in chips) 
+Seat 4: MárioRJ (1474 in chips) 
+Seat 5: HOOP201087 (1199 in chips) 
+Seat 6: AndréBex (1417 in chips) 
+Seat 7: CarvalhoM_BR (1532 in chips) 
+Seat 8: pqnopsk8 (1503 in chips) 
+O praia will be allowed to play after the button
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+HOOP201087: posts the ante 3
+AndréBex: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+borgtime788: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 5c]
+MárioRJ: folds 
+HOOP201087: folds 
+AndréBex: folds 
+CarvalhoM_BR: folds 
+pqnopsk8: folds 
+borgtime788: folds 
+Uncalled bet (10) returned to scorza23
+scorza23 collected 41 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 41 | Rake 0 
+Seat 2: borgtime788 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) collected (41)
+Seat 4: MárioRJ folded before Flop (didn't bet)
+Seat 5: HOOP201087 folded before Flop (didn't bet)
+Seat 6: AndréBex folded before Flop (didn't bet)
+Seat 7: CarvalhoM_BR folded before Flop (didn't bet)
+Seat 8: pqnopsk8 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751282548: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 18:01:04 UTC [2026/02/16 13:01:04 ET]
+Table '3975717339 2' 8-max Seat #2 is the button
+Seat 1: O praia (1500 in chips) 
+Seat 2: borgtime788 (1861 in chips) 
+Seat 3: scorza23 (1639 in chips) 
+Seat 4: MárioRJ (1471 in chips) 
+Seat 5: HOOP201087 (1196 in chips) 
+Seat 6: AndréBex (1414 in chips) 
+Seat 7: CarvalhoM_BR (1529 in chips) 
+Seat 8: pqnopsk8 (1500 in chips) 
+O praia: posts the ante 3
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+HOOP201087: posts the ante 3
+AndréBex: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+scorza23: posts small blind 10
+MárioRJ: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Td]
+HOOP201087: raises 20 to 40
+AndréBex: folds 
+CarvalhoM_BR: folds 
+pqnopsk8: calls 40
+O praia: folds 
+borgtime788: folds 
+scorza23: raises 20 to 60
+MárioRJ: folds 
+HOOP201087: calls 20
+pqnopsk8: calls 20
+*** FLOP *** [5s 3c 9s]
+scorza23: bets 112
+HOOP201087: folds 
+pqnopsk8: calls 112
+*** TURN *** [5s 3c 9s] [3d]
+scorza23: bets 224
+pqnopsk8: calls 224
+*** RIVER *** [5s 3c 9s 3d] [2c]
+scorza23: bets 1240 and is all-in
+pqnopsk8: calls 1101 and is all-in
+Uncalled bet (139) returned to scorza23
+*** SHOW DOWN ***
+scorza23: shows [7s Td] (a pair of Threes)
+pqnopsk8: shows [Tc Th] (two pair, Tens and Threes)
+pqnopsk8 collected 3098 from pot
+*** SUMMARY ***
+Total pot 3098 | Rake 0 
+Board [5s 3c 9s 3d 2c]
+Seat 1: O praia folded before Flop (didn't bet)
+Seat 2: borgtime788 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) showed [7s Td] and lost with a pair of Threes
+Seat 4: MárioRJ (big blind) folded before Flop
+Seat 5: HOOP201087 folded on the Flop
+Seat 6: AndréBex folded before Flop (didn't bet)
+Seat 7: CarvalhoM_BR folded before Flop (didn't bet)
+Seat 8: pqnopsk8 showed [Tc Th] and won (3098) with two pair, Tens and Threes
+
+
+
+PokerStars Hand #259751297325: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 18:02:12 UTC [2026/02/16 13:02:12 ET]
+Table '3975717339 2' 8-max Seat #3 is the button
+Seat 1: O praia (1497 in chips) 
+Seat 2: borgtime788 (1858 in chips) 
+Seat 3: scorza23 (139 in chips) 
+Seat 4: MárioRJ (1448 in chips) 
+Seat 5: HOOP201087 (1133 in chips) 
+Seat 6: AndréBex (1411 in chips) 
+Seat 7: CarvalhoM_BR (1526 in chips) 
+Seat 8: pqnopsk8 (3098 in chips) 
+O praia: posts the ante 3
+borgtime788: posts the ante 3
+scorza23: posts the ante 3
+MárioRJ: posts the ante 3
+HOOP201087: posts the ante 3
+AndréBex: posts the ante 3
+CarvalhoM_BR: posts the ante 3
+pqnopsk8: posts the ante 3
+MárioRJ: posts small blind 10
+HOOP201087: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 4h]
+AndréBex: calls 20
+CarvalhoM_BR: folds 
+pqnopsk8: folds 
+O praia: folds 
+borgtime788: folds 
+scorza23: folds 
+MárioRJ: calls 10
+HOOP201087: checks 
+*** FLOP *** [4s Qs 5c]
+MárioRJ: checks 
+HOOP201087: checks 
+AndréBex: bets 40
+MárioRJ: folds 
+HOOP201087: folds 
+Uncalled bet (40) returned to AndréBex
+AndréBex collected 84 from pot
+*** SUMMARY ***
+Total pot 84 | Rake 0 
+Board [4s Qs 5c]
+Seat 1: O praia folded before Flop (didn't bet)
+Seat 2: borgtime788 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: MárioRJ (small blind) folded on the Flop
+Seat 5: HOOP201087 (big blind) folded on the Flop
+Seat 6: AndréBex collected (84)
+Seat 7: CarvalhoM_BR folded before Flop (didn't bet)
+Seat 8: pqnopsk8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751307107: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:02:59 UTC [2026/02/16 13:02:59 ET]
+Table '3975717339 2' 8-max Seat #4 is the button
+Seat 1: O praia (1494 in chips) 
+Seat 2: borgtime788 (1855 in chips) 
+Seat 3: scorza23 (136 in chips) 
+Seat 4: MárioRJ (1425 in chips) 
+Seat 5: HOOP201087 (1110 in chips) 
+Seat 6: AndréBex (1472 in chips) 
+Seat 7: CarvalhoM_BR (1523 in chips) 
+Seat 8: pqnopsk8 (3095 in chips) 
+O praia: posts the ante 4
+borgtime788: posts the ante 4
+scorza23: posts the ante 4
+MárioRJ: posts the ante 4
+HOOP201087: posts the ante 4
+AndréBex: posts the ante 4
+CarvalhoM_BR: posts the ante 4
+pqnopsk8: posts the ante 4
+HOOP201087: posts small blind 15
+AndréBex: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 5c]
+CarvalhoM_BR: folds 
+pqnopsk8: folds 
+O praia: raises 30 to 60
+borgtime788 has timed out
+borgtime788: folds 
+borgtime788 is sitting out
+scorza23: folds 
+MárioRJ: calls 60
+HOOP201087: folds 
+AndréBex: calls 30
+*** FLOP *** [9h 3d 4d]
+AndréBex: checks 
+O praia: bets 30
+MárioRJ: calls 30
+AndréBex: calls 30
+*** TURN *** [9h 3d 4d] [Kh]
+AndréBex: checks 
+O praia: checks 
+MárioRJ: checks 
+*** RIVER *** [9h 3d 4d Kh] [Th]
+AndréBex: bets 60
+O praia: folds 
+MárioRJ: folds 
+Uncalled bet (60) returned to AndréBex
+AndréBex collected 317 from pot
+*** SUMMARY ***
+Total pot 317 | Rake 0 
+Board [9h 3d 4d Kh Th]
+Seat 1: O praia folded on the River
+Seat 2: borgtime788 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: MárioRJ (button) folded on the River
+Seat 5: HOOP201087 (small blind) folded before Flop
+Seat 6: AndréBex (big blind) collected (317)
+Seat 7: CarvalhoM_BR folded before Flop (didn't bet)
+Seat 8: pqnopsk8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751328544: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:04:34 UTC [2026/02/16 13:04:34 ET]
+Table '3975717339 2' 8-max Seat #5 is the button
+Seat 1: O praia (1400 in chips) 
+Seat 2: borgtime788 (1851 in chips) is sitting out
+Seat 3: scorza23 (132 in chips) 
+Seat 4: MárioRJ (1331 in chips) 
+Seat 5: HOOP201087 (1091 in chips) 
+Seat 6: AndréBex (1695 in chips) 
+Seat 7: CarvalhoM_BR (1519 in chips) 
+Seat 8: pqnopsk8 (3091 in chips) 
+O praia: posts the ante 4
+borgtime788: posts the ante 4
+scorza23: posts the ante 4
+MárioRJ: posts the ante 4
+HOOP201087: posts the ante 4
+AndréBex: posts the ante 4
+CarvalhoM_BR: posts the ante 4
+pqnopsk8: posts the ante 4
+AndréBex: posts small blind 15
+CarvalhoM_BR: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 9s]
+borgtime788 has returned
+pqnopsk8: folds 
+O praia: folds 
+borgtime788: folds 
+scorza23: raises 98 to 128 and is all-in
+MárioRJ: folds 
+HOOP201087: folds 
+AndréBex: calls 113
+CarvalhoM_BR: folds 
+*** FLOP *** [2h Ah Jh]
+*** TURN *** [2h Ah Jh] [Jc]
+*** RIVER *** [2h Ah Jh Jc] [Jd]
+*** SHOW DOWN ***
+AndréBex: shows [Qh Ts] (three of a kind, Jacks)
+scorza23: shows [Ks 9s] (three of a kind, Jacks - Ace+King kicker)
+scorza23 collected 318 from pot
+*** SUMMARY ***
+Total pot 318 | Rake 0 
+Board [2h Ah Jh Jc Jd]
+Seat 1: O praia folded before Flop (didn't bet)
+Seat 2: borgtime788 folded before Flop (didn't bet)
+Seat 3: scorza23 showed [Ks 9s] and won (318) with three of a kind, Jacks
+Seat 4: MárioRJ folded before Flop (didn't bet)
+Seat 5: HOOP201087 (button) folded before Flop (didn't bet)
+Seat 6: AndréBex (small blind) showed [Qh Ts] and lost with three of a kind, Jacks
+Seat 7: CarvalhoM_BR (big blind) folded before Flop
+Seat 8: pqnopsk8 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259751336845: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:05:10 UTC [2026/02/16 13:05:10 ET]
+Table '3975717339 2' 8-max Seat #6 is the button
+Seat 1: O praia (1396 in chips) 
+Seat 2: borgtime788 (1847 in chips) 
+Seat 3: scorza23 (318 in chips) 
+Seat 4: MárioRJ (1327 in chips) 
+Seat 5: HOOP201087 (1087 in chips) 
+Seat 6: AndréBex (1563 in chips) 
+Seat 7: CarvalhoM_BR (1485 in chips) 
+Seat 8: pqnopsk8 (3087 in chips) 
+O praia: posts the ante 4
+borgtime788: posts the ante 4
+scorza23: posts the ante 4
+MárioRJ: posts the ante 4
+HOOP201087: posts the ante 4
+AndréBex: posts the ante 4
+CarvalhoM_BR: posts the ante 4
+pqnopsk8: posts the ante 4
+CarvalhoM_BR: posts small blind 15
+pqnopsk8: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 4h]
+O praia: folds 
+borgtime788: folds 
+scorza23: folds 
+MárioRJ: raises 30 to 60
+HOOP201087: folds 
+AndréBex: raises 90 to 150
+CarvalhoM_BR: folds 
+pqnopsk8: folds 
+MárioRJ: folds 
+Uncalled bet (90) returned to AndréBex
+AndréBex collected 197 from pot
+*** SUMMARY ***
+Total pot 197 | Rake 0 
+Seat 1: O praia folded before Flop (didn't bet)
+Seat 2: borgtime788 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: MárioRJ folded before Flop
+Seat 5: HOOP201087 folded before Flop (didn't bet)
+Seat 6: AndréBex (button) collected (197)
+Seat 7: CarvalhoM_BR (small blind) folded before Flop
+Seat 8: pqnopsk8 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259751347091: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:05:56 UTC [2026/02/16 13:05:56 ET]
+Table '3975717339 2' 8-max Seat #7 is the button
+Seat 1: O praia (1392 in chips) 
+Seat 2: borgtime788 (1843 in chips) 
+Seat 3: scorza23 (314 in chips) 
+Seat 4: MárioRJ (1263 in chips) 
+Seat 5: HOOP201087 (1083 in chips) 
+Seat 6: AndréBex (1696 in chips) 
+Seat 7: CarvalhoM_BR (1466 in chips) 
+Seat 8: pqnopsk8 (3053 in chips) 
+O praia: posts the ante 4
+borgtime788: posts the ante 4
+scorza23: posts the ante 4
+MárioRJ: posts the ante 4
+HOOP201087: posts the ante 4
+AndréBex: posts the ante 4
+CarvalhoM_BR: posts the ante 4
+pqnopsk8: posts the ante 4
+pqnopsk8: posts small blind 15
+O praia: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Ks]
+borgtime788: folds 
+scorza23: raises 280 to 310 and is all-in
+MárioRJ: folds 
+HOOP201087: folds 
+AndréBex: folds 
+CarvalhoM_BR: folds 
+pqnopsk8: raises 2739 to 3049 and is all-in
+O praia: folds 
+Uncalled bet (2739) returned to pqnopsk8
+*** FLOP *** [3h 4h Td]
+*** TURN *** [3h 4h Td] [4d]
+*** RIVER *** [3h 4h Td 4d] [Ac]
+*** SHOW DOWN ***
+pqnopsk8: shows [9c 9h] (two pair, Nines and Fours)
+scorza23: shows [Ad Ks] (two pair, Aces and Fours)
+scorza23 collected 682 from pot
+*** SUMMARY ***
+Total pot 682 | Rake 0 
+Board [3h 4h Td 4d Ac]
+Seat 1: O praia (big blind) folded before Flop
+Seat 2: borgtime788 folded before Flop (didn't bet)
+Seat 3: scorza23 showed [Ad Ks] and won (682) with two pair, Aces and Fours
+Seat 4: MárioRJ folded before Flop (didn't bet)
+Seat 5: HOOP201087 folded before Flop (didn't bet)
+Seat 6: AndréBex folded before Flop (didn't bet)
+Seat 7: CarvalhoM_BR (button) folded before Flop (didn't bet)
+Seat 8: pqnopsk8 (small blind) showed [9c 9h] and lost with two pair, Nines and Fours
+
+
+
+PokerStars Hand #259751354930: Tournament #3975717339, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 18:06:31 UTC [2026/02/16 13:06:31 ET]
+Table '3975717339 2' 8-max Seat #8 is the button
+Seat 1: O praia (1358 in chips) 
+Seat 2: borgtime788 (1839 in chips) 
+Seat 3: scorza23 (682 in chips) 
+Seat 4: MárioRJ (1259 in chips) 
+Seat 5: HOOP201087 (1079 in chips) 
+Seat 6: AndréBex (1692 in chips) 
+Seat 7: CarvalhoM_BR (1462 in chips) 
+Seat 8: pqnopsk8 (2739 in chips) 
+O praia: posts the ante 4
+borgtime788: posts the ante 4
+scorza23: posts the ante 4
+MárioRJ: posts the ante 4
+HOOP201087: posts the ante 4
+AndréBex: posts the ante 4
+CarvalhoM_BR: posts the ante 4
+pqnopsk8: posts the ante 4
+O praia: posts small blind 15
+borgtime788: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 3s]
+scorza23: raises 648 to 678 and is all-in
+MárioRJ: folds 
+HOOP201087: folds 
+AndréBex: folds 
+CarvalhoM_BR: folds 
+pqnopsk8: raises 2057 to 2735 and is all-in
+O praia: folds 
+borgtime788: folds 
+Uncalled bet (2057) returned to pqnopsk8
+*** FLOP *** [Kc 6d 2c]
+*** TURN *** [Kc 6d 2c] [Js]
+*** RIVER *** [Kc 6d 2c Js] [8c]
+*** SHOW DOWN ***
+scorza23: shows [Ah 3s] (high card Ace)
+pqnopsk8: shows [9d 9s] (a pair of Nines)
+pqnopsk8 collected 1433 from pot
+scorza23 finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 1433 | Rake 0 
+Board [Kc 6d 2c Js 8c]
+Seat 1: O praia (small blind) folded before Flop
+Seat 2: borgtime788 (big blind) folded before Flop
+Seat 3: scorza23 showed [Ah 3s] and lost with high card Ace
+Seat 4: MárioRJ folded before Flop (didn't bet)
+Seat 5: HOOP201087 folded before Flop (didn't bet)
+Seat 6: AndréBex folded before Flop (didn't bet)
+Seat 7: CarvalhoM_BR folded before Flop (didn't bet)
+Seat 8: pqnopsk8 (button) showed [9d 9s] and won (1433) with a pair of Nines
+
+
+

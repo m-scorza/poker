@@ -1,0 +1,703 @@
+﻿PokerStars Hand #259757752681: Tournament #3975838422,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:24:53 UTC [2026/02/16 19:24:53 ET]
+Table '3975838422 1' 4-max Seat #1 is the button
+Seat 1: ivbaldissera (1000 in chips, $0.88 bounty) 
+Seat 2: patraomkd (1000 in chips, $0.88 bounty) 
+Seat 3: kvarcas (1000 in chips, $0.88 bounty) 
+Seat 4: scorza23 (1000 in chips, $0.88 bounty) 
+patraomkd: posts small blind 25
+kvarcas: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Js]
+scorza23: folds 
+ivbaldissera: folds 
+patraomkd: calls 25
+kvarcas: raises 950 to 1000 and is all-in
+patraomkd: folds 
+Uncalled bet (950) returned to kvarcas
+kvarcas collected 100 from pot
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: ivbaldissera (button) folded before Flop (didn't bet)
+Seat 2: patraomkd (small blind) folded before Flop
+Seat 3: kvarcas (big blind) collected (100)
+Seat 4: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757754833: Tournament #3975838422,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:25:05 UTC [2026/02/16 19:25:05 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 1: ivbaldissera (1000 in chips, $0.88 bounty) 
+Seat 2: patraomkd (950 in chips, $0.88 bounty) 
+Seat 3: kvarcas (1050 in chips, $0.88 bounty) 
+Seat 4: scorza23 (1000 in chips, $0.88 bounty) 
+kvarcas: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Kd]
+ivbaldissera: folds 
+patraomkd: calls 50
+kvarcas: raises 1000 to 1050 and is all-in
+scorza23: calls 950 and is all-in
+patraomkd: folds 
+Uncalled bet (50) returned to kvarcas
+*** FLOP *** [4d 6s Jh]
+*** TURN *** [4d 6s Jh] [4c]
+*** RIVER *** [4d 6s Jh 4c] [3d]
+*** SHOW DOWN ***
+kvarcas: shows [9h Qh] (a pair of Fours)
+scorza23: shows [Qd Kd] (a pair of Fours - King kicker)
+scorza23 collected 2050 from pot
+*** SUMMARY ***
+Total pot 2050 | Rake 0 
+Board [4d 6s Jh 4c 3d]
+Seat 1: ivbaldissera folded before Flop (didn't bet)
+Seat 2: patraomkd (button) folded before Flop
+Seat 3: kvarcas (small blind) showed [9h Qh] and lost with a pair of Fours
+Seat 4: scorza23 (big blind) showed [Qd Kd] and won (2050) with a pair of Fours
+
+
+
+PokerStars Hand #259757758249: Tournament #3975838422,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:25:25 UTC [2026/02/16 19:25:25 ET]
+Table '3975838422 1' 4-max Seat #3 is the button
+Seat 1: ivbaldissera (1000 in chips, $0.88 bounty) 
+Seat 2: patraomkd (900 in chips, $0.88 bounty) 
+Seat 3: kvarcas (50 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2050 in chips, $0.88 bounty) 
+scorza23: posts small blind 25
+ivbaldissera: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 8d]
+patraomkd: raises 50 to 100
+kvarcas has timed out while disconnected
+kvarcas: folds 
+kvarcas is sitting out
+scorza23: calls 75
+ivbaldissera: calls 50
+*** FLOP *** [5d Ac Kc]
+scorza23: checks 
+ivbaldissera: checks 
+patraomkd: bets 150
+scorza23: folds 
+ivbaldissera: raises 300 to 450
+patraomkd: raises 350 to 800 and is all-in
+ivbaldissera: calls 350
+*** TURN *** [5d Ac Kc] [Jc]
+*** RIVER *** [5d Ac Kc Jc] [Qc]
+*** SHOW DOWN ***
+ivbaldissera: shows [Ah 6h] (a pair of Aces)
+patraomkd: shows [Ks Jd] (two pair, Kings and Jacks)
+patraomkd collected 1900 from pot
+*** SUMMARY ***
+Total pot 1900 | Rake 0 
+Board [5d Ac Kc Jc Qc]
+Seat 1: ivbaldissera (big blind) showed [Ah 6h] and lost with a pair of Aces
+Seat 2: patraomkd showed [Ks Jd] and won (1900) with two pair, Kings and Jacks
+Seat 3: kvarcas (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259757766802: Tournament #3975838422,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:26:14 UTC [2026/02/16 19:26:14 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 1: ivbaldissera (100 in chips, $0.88 bounty) 
+Seat 2: patraomkd (1900 in chips, $0.88 bounty) 
+Seat 3: kvarcas (50 in chips, $0.88 bounty) is sitting out
+Seat 4: scorza23 (1950 in chips, $0.88 bounty) 
+ivbaldissera: posts small blind 25
+patraomkd: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Jh]
+kvarcas: folds 
+scorza23: raises 100 to 150
+ivbaldissera: calls 75 and is all-in
+patraomkd: folds 
+Uncalled bet (50) returned to scorza23
+*** FLOP *** [Ac 9h 9d]
+*** TURN *** [Ac 9h 9d] [Qd]
+*** RIVER *** [Ac 9h 9d Qd] [Ks]
+*** SHOW DOWN ***
+ivbaldissera: shows [Ts Qc] (two pair, Queens and Nines)
+scorza23: shows [7c Jh] (a pair of Nines)
+ivbaldissera collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [Ac 9h 9d Qd Ks]
+Seat 1: ivbaldissera (small blind) showed [Ts Qc] and won (250) with two pair, Queens and Nines
+Seat 2: patraomkd (big blind) folded before Flop
+Seat 3: kvarcas folded before Flop (didn't bet)
+Seat 4: scorza23 (button) showed [7c Jh] and lost with a pair of Nines
+
+
+
+PokerStars Hand #259757770507: Tournament #3975838422,  Hold'em No Limit - Level II (30/60) - 2026/02/17 0:26:36 UTC [2026/02/16 19:26:36 ET]
+Table '3975838422 1' 4-max Seat #1 is the button
+Seat 1: ivbaldissera (250 in chips, $0.88 bounty) 
+Seat 2: patraomkd (1850 in chips, $0.88 bounty) 
+Seat 3: kvarcas (50 in chips, $0.88 bounty) is sitting out
+Seat 4: scorza23 (1850 in chips, $0.88 bounty) 
+patraomkd: posts small blind 30
+kvarcas: posts big blind 50 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ad]
+scorza23: raises 130 to 180
+ivbaldissera: folds 
+patraomkd: calls 150
+kvarcas: folds 
+*** FLOP *** [2d Td 6c]
+patraomkd: bets 205
+scorza23: raises 1465 to 1670 and is all-in
+patraomkd: folds 
+Uncalled bet (1465) returned to scorza23
+scorza23 collected 820 from pot
+scorza23 wins $0.22 for eliminating kvarcas and their own bounty increases by $0.44 to $1.32
+kvarcas finished the tournament in 4th place
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 820 | Rake 0 
+Board [2d Td 6c]
+Seat 1: ivbaldissera (button) folded before Flop (didn't bet)
+Seat 2: patraomkd (small blind) folded on the Flop
+Seat 3: kvarcas (big blind) folded before Flop
+Seat 4: scorza23 collected (820)
+
+
+
+PokerStars Hand #259757774324: Tournament #3975838422,  Hold'em No Limit - Level II (30/60) - 2026/02/17 0:26:58 UTC [2026/02/16 19:26:58 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 1: ivbaldissera (250 in chips, $0.88 bounty) 
+Seat 2: patraomkd (1465 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2285 in chips, $1.32 bounty) 
+scorza23: posts small blind 30
+ivbaldissera: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2d]
+patraomkd: raises 1405 to 1465 and is all-in
+scorza23: folds 
+ivbaldissera: folds 
+Uncalled bet (1405) returned to patraomkd
+patraomkd collected 150 from pot
+patraomkd: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 1: ivbaldissera (big blind) folded before Flop
+Seat 2: patraomkd (button) collected (150)
+Seat 4: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757777748: Tournament #3975838422,  Hold'em No Limit - Level II (30/60) - 2026/02/17 0:27:17 UTC [2026/02/16 19:27:17 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 1: ivbaldissera (190 in chips, $0.88 bounty) 
+Seat 2: patraomkd (1555 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2255 in chips, $1.32 bounty) 
+ivbaldissera: posts small blind 30
+patraomkd: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Ks]
+scorza23: raises 120 to 180
+ivbaldissera: raises 10 to 190 and is all-in
+patraomkd: folds 
+scorza23: calls 10
+*** FLOP *** [Qs 9h 7d]
+*** TURN *** [Qs 9h 7d] [3d]
+*** RIVER *** [Qs 9h 7d 3d] [5c]
+*** SHOW DOWN ***
+ivbaldissera: shows [4c Kh] (high card King)
+scorza23: shows [Qc Ks] (a pair of Queens)
+scorza23 collected 440 from pot
+scorza23 wins $0.22 for eliminating ivbaldissera and their own bounty increases by $0.44 to $1.76
+ivbaldissera finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 440 | Rake 0 
+Board [Qs 9h 7d 3d 5c]
+Seat 1: ivbaldissera (small blind) showed [4c Kh] and lost with high card King
+Seat 2: patraomkd (big blind) folded before Flop
+Seat 4: scorza23 (button) showed [Qc Ks] and won (440) with a pair of Queens
+
+
+
+PokerStars Hand #259757782329: Tournament #3975838422,  Hold'em No Limit - Level II (30/60) - 2026/02/17 0:27:44 UTC [2026/02/16 19:27:44 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (1495 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2505 in chips, $1.76 bounty) 
+patraomkd: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Qs]
+patraomkd: raises 120 to 180
+scorza23: folds 
+Uncalled bet (120) returned to patraomkd
+patraomkd collected 120 from pot
+patraomkd: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 2: patraomkd (button) (small blind) collected (120)
+Seat 4: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757784797: Tournament #3975838422,  Hold'em No Limit - Level III (50/100) - 2026/02/17 0:27:58 UTC [2026/02/16 19:27:58 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (1555 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2445 in chips, $1.76 bounty) 
+scorza23: posts small blind 50
+patraomkd: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 8s]
+scorza23: raises 200 to 300
+patraomkd: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 2: patraomkd (big blind) folded before Flop
+Seat 4: scorza23 (button) (small blind) collected (200)
+
+
+
+PokerStars Hand #259757786443: Tournament #3975838422,  Hold'em No Limit - Level III (50/100) - 2026/02/17 0:28:07 UTC [2026/02/16 19:28:07 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (1455 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2545 in chips, $1.76 bounty) 
+patraomkd: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ac]
+patraomkd: folds 
+Uncalled bet (50) returned to scorza23
+scorza23 collected 100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 2: patraomkd (button) (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (100)
+
+
+
+PokerStars Hand #259757787511: Tournament #3975838422,  Hold'em No Limit - Level III (50/100) - 2026/02/17 0:28:13 UTC [2026/02/16 19:28:13 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (1405 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2595 in chips, $1.76 bounty) 
+scorza23: posts small blind 50
+patraomkd: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9h As]
+scorza23: raises 200 to 300
+patraomkd: calls 200
+*** FLOP *** [Ac Ah 3s]
+patraomkd: bets 600
+scorza23: raises 1695 to 2295 and is all-in
+patraomkd: folds 
+Uncalled bet (1695) returned to scorza23
+scorza23 collected 1800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1800 | Rake 0 
+Board [Ac Ah 3s]
+Seat 2: patraomkd (big blind) folded on the Flop
+Seat 4: scorza23 (button) (small blind) collected (1800)
+
+
+
+PokerStars Hand #259757790390: Tournament #3975838422,  Hold'em No Limit - Level III (50/100) - 2026/02/17 0:28:30 UTC [2026/02/16 19:28:30 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (505 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3495 in chips, $1.76 bounty) 
+patraomkd: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 5c]
+patraomkd: folds 
+Uncalled bet (50) returned to scorza23
+scorza23 collected 100 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 2: patraomkd (button) (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (100)
+
+
+
+PokerStars Hand #259757791784: Tournament #3975838422,  Hold'em No Limit - Level IV (75/150) - 2026/02/17 0:28:38 UTC [2026/02/16 19:28:38 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (455 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3545 in chips, $1.76 bounty) 
+scorza23: posts small blind 75
+patraomkd: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 7c]
+scorza23: raises 300 to 450
+patraomkd: raises 5 to 455 and is all-in
+scorza23: calls 5
+*** FLOP *** [Kc 8d 6d]
+*** TURN *** [Kc 8d 6d] [3d]
+*** RIVER *** [Kc 8d 6d 3d] [Ks]
+*** SHOW DOWN ***
+patraomkd: shows [Ts Tc] (two pair, Kings and Tens)
+scorza23: shows [Qh 7c] (a pair of Kings)
+patraomkd collected 910 from pot
+*** SUMMARY ***
+Total pot 910 | Rake 0 
+Board [Kc 8d 6d 3d Ks]
+Seat 2: patraomkd (big blind) showed [Ts Tc] and won (910) with two pair, Kings and Tens
+Seat 4: scorza23 (button) (small blind) showed [Qh 7c] and lost with a pair of Kings
+
+
+
+PokerStars Hand #259757794287: Tournament #3975838422,  Hold'em No Limit - Level IV (75/150) - 2026/02/17 0:28:52 UTC [2026/02/16 19:28:52 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (910 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3090 in chips, $1.76 bounty) 
+patraomkd: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Kc]
+patraomkd: folds 
+Uncalled bet (75) returned to scorza23
+scorza23 collected 150 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 2: patraomkd (button) (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (150)
+
+
+
+PokerStars Hand #259757795469: Tournament #3975838422,  Hold'em No Limit - Level IV (75/150) - 2026/02/17 0:28:59 UTC [2026/02/16 19:28:59 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (835 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3165 in chips, $1.76 bounty) 
+scorza23: posts small blind 75
+patraomkd: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 8c]
+scorza23: folds 
+Uncalled bet (75) returned to patraomkd
+patraomkd collected 150 from pot
+patraomkd: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 2: patraomkd (big blind) collected (150)
+Seat 4: scorza23 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757796300: Tournament #3975838422,  Hold'em No Limit - Level IV (75/150) - 2026/02/17 0:29:04 UTC [2026/02/16 19:29:04 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (910 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3090 in chips, $1.76 bounty) 
+patraomkd: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Th]
+patraomkd: raises 300 to 450
+scorza23: folds 
+Uncalled bet (300) returned to patraomkd
+patraomkd collected 300 from pot
+patraomkd: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 2: patraomkd (button) (small blind) collected (300)
+Seat 4: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757798099: Tournament #3975838422,  Hold'em No Limit - Level V (100/200) - 2026/02/17 0:29:14 UTC [2026/02/16 19:29:14 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (1060 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2940 in chips, $1.76 bounty) 
+scorza23: posts small blind 100
+patraomkd: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qs]
+scorza23: raises 400 to 600
+patraomkd: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: patraomkd (big blind) folded before Flop
+Seat 4: scorza23 (button) (small blind) collected (400)
+
+
+
+PokerStars Hand #259757799058: Tournament #3975838422,  Hold'em No Limit - Level V (100/200) - 2026/02/17 0:29:20 UTC [2026/02/16 19:29:20 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (860 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3140 in chips, $1.76 bounty) 
+patraomkd: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 3h]
+patraomkd: raises 660 to 860 and is all-in
+scorza23: calls 660
+*** FLOP *** [9s Kd Jh]
+*** TURN *** [9s Kd Jh] [Kc]
+*** RIVER *** [9s Kd Jh Kc] [5d]
+*** SHOW DOWN ***
+scorza23: shows [3d 3h] (two pair, Kings and Threes)
+patraomkd: shows [Kh 6s] (three of a kind, Kings)
+patraomkd collected 1720 from pot
+*** SUMMARY ***
+Total pot 1720 | Rake 0 
+Board [9s Kd Jh Kc 5d]
+Seat 2: patraomkd (button) (small blind) showed [Kh 6s] and won (1720) with three of a kind, Kings
+Seat 4: scorza23 (big blind) showed [3d 3h] and lost with two pair, Kings and Threes
+
+
+
+PokerStars Hand #259757801322: Tournament #3975838422,  Hold'em No Limit - Level V (100/200) - 2026/02/17 0:29:33 UTC [2026/02/16 19:29:33 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (1720 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2280 in chips, $1.76 bounty) 
+scorza23: posts small blind 100
+patraomkd: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Jh]
+scorza23: raises 400 to 600
+patraomkd: raises 1120 to 1720 and is all-in
+scorza23: calls 1120
+*** FLOP *** [4d 7h 6d]
+*** TURN *** [4d 7h 6d] [2s]
+*** RIVER *** [4d 7h 6d 2s] [9s]
+*** SHOW DOWN ***
+patraomkd: shows [Ac 6c] (a pair of Sixes)
+scorza23: shows [8d Jh] (high card Jack)
+patraomkd collected 3440 from pot
+*** SUMMARY ***
+Total pot 3440 | Rake 0 
+Board [4d 7h 6d 2s 9s]
+Seat 2: patraomkd (big blind) showed [Ac 6c] and won (3440) with a pair of Sixes
+Seat 4: scorza23 (button) (small blind) showed [8d Jh] and lost with high card Jack
+
+
+
+PokerStars Hand #259757805938: Tournament #3975838422,  Hold'em No Limit - Level V (100/200) - 2026/02/17 0:30:00 UTC [2026/02/16 19:30:00 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (3440 in chips, $0.88 bounty) 
+Seat 4: scorza23 (560 in chips, $1.76 bounty) 
+patraomkd: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qd]
+patraomkd: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 2: patraomkd (button) (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (200)
+
+
+
+PokerStars Hand #259757807649: Tournament #3975838422,  Hold'em No Limit - Level VI (200/400) - 2026/02/17 0:30:09 UTC [2026/02/16 19:30:09 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (3340 in chips, $0.88 bounty) 
+Seat 4: scorza23 (660 in chips, $1.76 bounty) 
+scorza23: posts small blind 200
+patraomkd: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Tc]
+scorza23: raises 260 to 660 and is all-in
+patraomkd: folds 
+Uncalled bet (260) returned to scorza23
+scorza23 collected 800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Seat 2: patraomkd (big blind) folded before Flop
+Seat 4: scorza23 (button) (small blind) collected (800)
+
+
+
+PokerStars Hand #259757808505: Tournament #3975838422,  Hold'em No Limit - Level VI (200/400) - 2026/02/17 0:30:14 UTC [2026/02/16 19:30:14 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (2940 in chips, $0.88 bounty) 
+Seat 4: scorza23 (1060 in chips, $1.76 bounty) 
+patraomkd: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Jc]
+patraomkd: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: patraomkd (button) (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (400)
+
+
+
+PokerStars Hand #259757809259: Tournament #3975838422,  Hold'em No Limit - Level VI (200/400) - 2026/02/17 0:30:19 UTC [2026/02/16 19:30:19 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (2740 in chips, $0.88 bounty) 
+Seat 4: scorza23 (1260 in chips, $1.76 bounty) 
+scorza23: posts small blind 200
+patraomkd: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Kc]
+scorza23: raises 860 to 1260 and is all-in
+patraomkd: folds 
+Uncalled bet (860) returned to scorza23
+scorza23 collected 800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Seat 2: patraomkd (big blind) folded before Flop
+Seat 4: scorza23 (button) (small blind) collected (800)
+
+
+
+PokerStars Hand #259757810515: Tournament #3975838422,  Hold'em No Limit - Level VI (200/400) - 2026/02/17 0:30:26 UTC [2026/02/16 19:30:26 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (2340 in chips, $0.88 bounty) 
+Seat 4: scorza23 (1660 in chips, $1.76 bounty) 
+patraomkd: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 8d]
+patraomkd: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 2: patraomkd (button) (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (400)
+
+
+
+PokerStars Hand #259757811823: Tournament #3975838422,  Hold'em No Limit - Level VII (400/800) - 2026/02/17 0:30:34 UTC [2026/02/16 19:30:34 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (2140 in chips, $0.88 bounty) 
+Seat 4: scorza23 (1860 in chips, $1.76 bounty) 
+scorza23: posts small blind 400
+patraomkd: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 6s]
+scorza23: raises 1060 to 1860 and is all-in
+patraomkd: calls 1060
+*** FLOP *** [As Jd 2s]
+*** TURN *** [As Jd 2s] [Kc]
+*** RIVER *** [As Jd 2s Kc] [4s]
+*** SHOW DOWN ***
+patraomkd: shows [Th 6h] (high card Ace)
+scorza23: shows [Ac 6s] (a pair of Aces)
+scorza23 collected 3720 from pot
+*** SUMMARY ***
+Total pot 3720 | Rake 0 
+Board [As Jd 2s Kc 4s]
+Seat 2: patraomkd (big blind) showed [Th 6h] and lost with high card Ace
+Seat 4: scorza23 (button) (small blind) showed [Ac 6s] and won (3720) with a pair of Aces
+
+
+
+PokerStars Hand #259757814074: Tournament #3975838422,  Hold'em No Limit - Level VII (400/800) - 2026/02/17 0:30:47 UTC [2026/02/16 19:30:47 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (280 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3720 in chips, $1.76 bounty) 
+patraomkd: posts small blind 280 and is all-in
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Td]
+Uncalled bet (520) returned to scorza23
+*** FLOP *** [3h Kd Kc]
+*** TURN *** [3h Kd Kc] [Kh]
+*** RIVER *** [3h Kd Kc Kh] [Qs]
+*** SHOW DOWN ***
+scorza23: shows [8s Td] (three of a kind, Kings)
+patraomkd: shows [3s 5s] (a full house, Kings full of Threes)
+patraomkd collected 560 from pot
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Board [3h Kd Kc Kh Qs]
+Seat 2: patraomkd (button) (small blind) showed [3s 5s] and won (560) with a full house, Kings full of Threes
+Seat 4: scorza23 (big blind) showed [8s Td] and lost with three of a kind, Kings
+
+
+
+PokerStars Hand #259757815427: Tournament #3975838422,  Hold'em No Limit - Level VII (400/800) - 2026/02/17 0:30:55 UTC [2026/02/16 19:30:55 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (560 in chips, $0.88 bounty) 
+Seat 4: scorza23 (3440 in chips, $1.76 bounty) 
+scorza23: posts small blind 400
+patraomkd: posts big blind 560 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 7c]
+scorza23: calls 160
+*** FLOP *** [Qh 5d 3c]
+*** TURN *** [Qh 5d 3c] [8d]
+*** RIVER *** [Qh 5d 3c 8d] [2c]
+*** SHOW DOWN ***
+patraomkd: shows [Ts Qc] (a pair of Queens)
+scorza23: shows [Ac 7c] (high card Ace)
+patraomkd collected 1120 from pot
+*** SUMMARY ***
+Total pot 1120 | Rake 0 
+Board [Qh 5d 3c 8d 2c]
+Seat 2: patraomkd (big blind) showed [Ts Qc] and won (1120) with a pair of Queens
+Seat 4: scorza23 (button) (small blind) showed [Ac 7c] and lost with high card Ace
+
+
+
+PokerStars Hand #259757817660: Tournament #3975838422,  Hold'em No Limit - Level VII (400/800) - 2026/02/17 0:31:08 UTC [2026/02/16 19:31:08 ET]
+Table '3975838422 1' 4-max Seat #2 is the button
+Seat 2: patraomkd (1120 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2880 in chips, $1.76 bounty) 
+patraomkd: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 8c]
+patraomkd: calls 400
+scorza23: checks 
+*** FLOP *** [Kd Ah Ts]
+scorza23: checks 
+patraomkd: checks 
+*** TURN *** [Kd Ah Ts] [5c]
+scorza23: checks 
+patraomkd: bets 320 and is all-in
+scorza23: folds 
+Uncalled bet (320) returned to patraomkd
+patraomkd collected 1600 from pot
+patraomkd: doesn't show hand 
+*** SUMMARY ***
+Total pot 1600 | Rake 0 
+Board [Kd Ah Ts 5c]
+Seat 2: patraomkd (button) (small blind) collected (1600)
+Seat 4: scorza23 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #259757821377: Tournament #3975838422,  Hold'em No Limit - Level VIII (800/1600) - 2026/02/17 0:31:30 UTC [2026/02/16 19:31:30 ET]
+Table '3975838422 1' 4-max Seat #4 is the button
+Seat 2: patraomkd (1920 in chips, $0.88 bounty) 
+Seat 4: scorza23 (2080 in chips, $1.76 bounty) 
+scorza23: posts small blind 800
+patraomkd: posts big blind 1600
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Tc]
+scorza23: raises 480 to 2080 and is all-in
+patraomkd: calls 320 and is all-in
+Uncalled bet (160) returned to scorza23
+*** FLOP *** [8h 3d 5h]
+*** TURN *** [8h 3d 5h] [7s]
+*** RIVER *** [8h 3d 5h 7s] [9c]
+*** SHOW DOWN ***
+patraomkd: shows [Qc Td] (high card Queen)
+scorza23: shows [Kc Tc] (high card King)
+scorza23 collected 3840 from pot
+scorza23 wins $0.44 for eliminating patraomkd and their own bounty increases by $0.44 to $2.20
+patraomkd finished the tournament in 2nd place
+scorza23 wins the tournament - congratulations!
+*** SUMMARY ***
+Total pot 3840 | Rake 0 
+Board [8h 3d 5h 7s 9c]
+Seat 2: patraomkd (big blind) showed [Qc Td] and lost with high card Queen
+Seat 4: scorza23 (button) (small blind) showed [Kc Tc] and won (3840) with high card King
+
+
+

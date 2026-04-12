@@ -1,0 +1,247 @@
+﻿PokerStars Hand #259757829817: Tournament #3975840243,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:32:20 UTC [2026/02/16 19:32:20 ET]
+Table '3975840243 1' 4-max Seat #1 is the button
+Seat 1: debrastefania (941 in chips, $1.76 bounty) 
+Seat 2: Bknibbles (941 in chips, $1.76 bounty) 
+Seat 3: scorza23 (1177 in chips, $2.20 bounty) 
+Seat 4: Chipmunk6352 (941 in chips, $1.76 bounty) 
+Bknibbles: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 7c]
+Chipmunk6352: folds 
+debrastefania: folds 
+Bknibbles: calls 25
+scorza23: checks 
+*** FLOP *** [4c 5s 8h]
+Bknibbles: checks 
+scorza23: bets 50
+Bknibbles: calls 50
+*** TURN *** [4c 5s 8h] [3h]
+Bknibbles: checks 
+scorza23: bets 200
+Bknibbles: calls 200
+*** RIVER *** [4c 5s 8h 3h] [Ts]
+Bknibbles: checks 
+scorza23: bets 877 and is all-in
+Bknibbles: folds 
+Uncalled bet (877) returned to scorza23
+scorza23 collected 600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Board [4c 5s 8h 3h Ts]
+Seat 1: debrastefania (button) folded before Flop (didn't bet)
+Seat 2: Bknibbles (small blind) folded on the River
+Seat 3: scorza23 (big blind) collected (600)
+Seat 4: Chipmunk6352 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757838338: Tournament #3975840243,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:33:10 UTC [2026/02/16 19:33:10 ET]
+Table '3975840243 1' 4-max Seat #2 is the button
+Seat 1: debrastefania (941 in chips, $1.76 bounty) 
+Seat 2: Bknibbles (641 in chips, $1.76 bounty) 
+Seat 3: scorza23 (1477 in chips, $2.20 bounty) 
+Seat 4: Chipmunk6352 (941 in chips, $1.76 bounty) 
+scorza23: posts small blind 25
+Chipmunk6352: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 5c]
+debrastefania: raises 50 to 100
+Bknibbles: calls 100
+scorza23: folds 
+Chipmunk6352: calls 50
+*** FLOP *** [As 2h 9c]
+Chipmunk6352: checks 
+debrastefania: checks 
+Bknibbles: checks 
+*** TURN *** [As 2h 9c] [7c]
+Chipmunk6352: bets 50
+debrastefania: calls 50
+Bknibbles: folds 
+*** RIVER *** [As 2h 9c 7c] [Qh]
+Chipmunk6352: checks 
+debrastefania: checks 
+*** SHOW DOWN ***
+Chipmunk6352: shows [Kd 4c] (high card Ace)
+debrastefania: mucks hand 
+Chipmunk6352 collected 425 from pot
+*** SUMMARY ***
+Total pot 425 | Rake 0 
+Board [As 2h 9c 7c Qh]
+Seat 1: debrastefania mucked [3d 5d]
+Seat 2: Bknibbles (button) folded on the Turn
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Chipmunk6352 (big blind) showed [Kd 4c] and won (425) with high card Ace
+
+
+
+PokerStars Hand #259757847971: Tournament #3975840243,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:34:06 UTC [2026/02/16 19:34:06 ET]
+Table '3975840243 1' 4-max Seat #3 is the button
+Seat 1: debrastefania (791 in chips, $1.76 bounty) 
+Seat 2: Bknibbles (541 in chips, $1.76 bounty) 
+Seat 3: scorza23 (1452 in chips, $2.20 bounty) 
+Seat 4: Chipmunk6352 (1216 in chips, $1.76 bounty) 
+Chipmunk6352: posts small blind 25
+debrastefania: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 5h]
+Bknibbles: folds 
+scorza23: folds 
+Chipmunk6352: raises 50 to 100
+debrastefania: folds 
+Uncalled bet (50) returned to Chipmunk6352
+Chipmunk6352 collected 100 from pot
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: debrastefania (big blind) folded before Flop
+Seat 2: Bknibbles folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Chipmunk6352 (small blind) collected (100)
+
+
+
+PokerStars Hand #259757849825: Tournament #3975840243,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:34:18 UTC [2026/02/16 19:34:18 ET]
+Table '3975840243 1' 4-max Seat #4 is the button
+Seat 1: debrastefania (741 in chips, $1.76 bounty) 
+Seat 2: Bknibbles (541 in chips, $1.76 bounty) 
+Seat 3: scorza23 (1452 in chips, $2.20 bounty) 
+Seat 4: Chipmunk6352 (1266 in chips, $1.76 bounty) 
+debrastefania: posts small blind 25
+Bknibbles: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Tc]
+scorza23: raises 100 to 150
+Chipmunk6352: calls 150
+debrastefania: folds 
+Bknibbles: folds 
+*** FLOP *** [5d 2s 2d]
+scorza23: bets 375
+Chipmunk6352: folds 
+Uncalled bet (375) returned to scorza23
+scorza23 collected 375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [5d 2s 2d]
+Seat 1: debrastefania (small blind) folded before Flop
+Seat 2: Bknibbles (big blind) folded before Flop
+Seat 3: scorza23 collected (375)
+Seat 4: Chipmunk6352 (button) folded on the Flop
+
+
+
+PokerStars Hand #259757853724: Tournament #3975840243,  Hold'em No Limit - Level II (30/60) - 2026/02/17 0:34:41 UTC [2026/02/16 19:34:41 ET]
+Table '3975840243 1' 4-max Seat #1 is the button
+Seat 1: debrastefania (716 in chips, $1.76 bounty) 
+Seat 2: Bknibbles (491 in chips, $1.76 bounty) 
+Seat 3: scorza23 (1677 in chips, $2.20 bounty) 
+Seat 4: Chipmunk6352 (1116 in chips, $1.76 bounty) 
+Bknibbles: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8c]
+Chipmunk6352: raises 60 to 120
+debrastefania: raises 60 to 180
+Bknibbles: folds 
+scorza23: folds 
+Chipmunk6352: calls 60
+*** FLOP *** [3h 7c Tc]
+Chipmunk6352: bets 60
+debrastefania: raises 285 to 345
+Chipmunk6352: calls 285
+*** TURN *** [3h 7c Tc] [2h]
+Chipmunk6352: checks 
+debrastefania: checks 
+*** RIVER *** [3h 7c Tc 2h] [7s]
+Chipmunk6352: checks 
+debrastefania: bets 191 and is all-in
+Chipmunk6352: folds 
+Uncalled bet (191) returned to debrastefania
+debrastefania collected 1140 from pot
+debrastefania: doesn't show hand 
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Board [3h 7c Tc 2h 7s]
+Seat 1: debrastefania (button) collected (1140)
+Seat 2: Bknibbles (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Chipmunk6352 folded on the River
+
+
+
+PokerStars Hand #259757861117: Tournament #3975840243,  Hold'em No Limit - Level II (30/60) - 2026/02/17 0:35:25 UTC [2026/02/16 19:35:25 ET]
+Table '3975840243 1' 4-max Seat #2 is the button
+Seat 1: debrastefania (1331 in chips, $1.76 bounty) 
+Seat 2: Bknibbles (461 in chips, $1.76 bounty) 
+Seat 3: scorza23 (1617 in chips, $2.20 bounty) 
+Seat 4: Chipmunk6352 (591 in chips, $1.76 bounty) 
+scorza23: posts small blind 30
+Chipmunk6352: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Ac]
+debrastefania: raises 120 to 180
+Bknibbles: folds 
+scorza23: calls 150
+Chipmunk6352: calls 120
+*** FLOP *** [Ah 4s 7s]
+scorza23: bets 540
+Chipmunk6352: calls 411 and is all-in
+debrastefania: folds 
+Uncalled bet (129) returned to scorza23
+*** TURN *** [Ah 4s 7s] [Qd]
+*** RIVER *** [Ah 4s 7s Qd] [7h]
+*** SHOW DOWN ***
+scorza23: shows [Jd Ac] (two pair, Aces and Sevens)
+Chipmunk6352: shows [7d Qh] (a full house, Sevens full of Queens)
+Chipmunk6352 collected 1362 from pot
+*** SUMMARY ***
+Total pot 1362 | Rake 0 
+Board [Ah 4s 7s Qd 7h]
+Seat 1: debrastefania folded on the Flop
+Seat 2: Bknibbles (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) showed [Jd Ac] and lost with two pair, Aces and Sevens
+Seat 4: Chipmunk6352 (big blind) showed [7d Qh] and won (1362) with a full house, Sevens full of Queens
+
+
+
+PokerStars Hand #259757867429: Tournament #3975840243,  Hold'em No Limit - Level II (30/60) - 2026/02/17 0:36:01 UTC [2026/02/16 19:36:01 ET]
+Table '3975840243 1' 4-max Seat #3 is the button
+Seat 1: debrastefania (1151 in chips, $1.76 bounty) 
+Seat 2: Bknibbles (461 in chips, $1.76 bounty) 
+Seat 3: scorza23 (1026 in chips, $2.20 bounty) 
+Seat 4: Chipmunk6352 (1362 in chips, $1.76 bounty) 
+Chipmunk6352: posts small blind 30
+debrastefania: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Qs]
+Bknibbles: folds 
+scorza23: raises 966 to 1026 and is all-in
+Chipmunk6352: calls 996
+debrastefania: calls 966
+*** FLOP *** [7d 4c 9h]
+Chipmunk6352: bets 336 and is all-in
+debrastefania: calls 125 and is all-in
+Uncalled bet (211) returned to Chipmunk6352
+*** TURN *** [7d 4c 9h] [4s]
+*** RIVER *** [7d 4c 9h 4s] [9s]
+*** SHOW DOWN ***
+Chipmunk6352: shows [Ac 7c] (two pair, Nines and Sevens)
+debrastefania: shows [Jd Th] (two pair, Nines and Fours)
+Chipmunk6352 collected 250 from side pot
+scorza23: shows [Kd Qs] (two pair, Nines and Fours)
+Chipmunk6352 collected 3078 from main pot
+Chipmunk6352 wins $1.10 for eliminating debrastefania and their own bounty increases by $0.88 to $2.64
+Chipmunk6352 wins $0.82 for eliminating scorza23 and their own bounty increases by $1.10 to $3.74
+debrastefania finished the tournament in 3rd place
+scorza23 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 3328 Main pot 3078. Side pot 250. | Rake 0 
+Board [7d 4c 9h 4s 9s]
+Seat 1: debrastefania (big blind) showed [Jd Th] and lost with two pair, Nines and Fours
+Seat 2: Bknibbles folded before Flop (didn't bet)
+Seat 3: scorza23 (button) showed [Kd Qs] and lost with two pair, Nines and Fours
+Seat 4: Chipmunk6352 (small blind) showed [Ac 7c] and won (3328) with two pair, Nines and Sevens
+
+
+

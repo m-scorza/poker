@@ -1,0 +1,1536 @@
+﻿PokerStars Hand #259749325924: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 15:05:00 UTC [2026/02/16 10:05:00 ET]
+Table '3974723402 1' 8-max Seat #2 is the button
+Seat 2: denise741 (10000 in chips) 
+Seat 3: Dallvi (10000 in chips) 
+Seat 4: scorza23 (10000 in chips) 
+Seat 5: Latanaclub (10000 in chips) 
+Seat 6: doctoregg888 (10000 in chips) 
+Seat 7: mdi123 (10000 in chips) is sitting out
+Seat 8: cove-2019 (10000 in chips) 
+denise741: posts the ante 10
+Dallvi: posts the ante 10
+scorza23: posts the ante 10
+Latanaclub: posts the ante 10
+doctoregg888: posts the ante 10
+mdi123: posts the ante 10
+cove-2019: posts the ante 10
+Dallvi: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 3c]
+Latanaclub: raises 100 to 200
+doctoregg888: calls 200
+mdi123: folds 
+cove-2019: calls 200
+denise741: folds 
+Dallvi: folds 
+scorza23: folds 
+*** FLOP *** [4s Kc 5h]
+Latanaclub: checks 
+doctoregg888: checks 
+cove-2019: checks 
+*** TURN *** [4s Kc 5h] [7d]
+Latanaclub: checks 
+doctoregg888: checks 
+a5407277 is disconnected 
+cove-2019: bets 100
+Latanaclub: calls 100
+doctoregg888: calls 100
+*** RIVER *** [4s Kc 5h 7d] [6h]
+Latanaclub: checks 
+doctoregg888: bets 200
+cove-2019: folds 
+Latanaclub: calls 200
+*** SHOW DOWN ***
+doctoregg888: shows [8c Jh] (a straight, Four to Eight)
+Latanaclub: mucks hand 
+doctoregg888 collected 1520 from pot
+*** SUMMARY ***
+Total pot 1520 | Rake 0 
+Board [4s Kc 5h 7d 6h]
+Seat 2: denise741 (button) folded before Flop (didn't bet)
+Seat 3: Dallvi (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: Latanaclub mucked [9s 9c]
+Seat 6: doctoregg888 showed [8c Jh] and won (1520) with a straight, Four to Eight
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: cove-2019 folded on the River
+
+
+
+PokerStars Hand #259749333210: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 15:05:46 UTC [2026/02/16 10:05:46 ET]
+Table '3974723402 1' 8-max Seat #3 is the button
+Seat 1: a5407277 (10000 in chips) 
+Seat 2: denise741 (9990 in chips) 
+Seat 3: Dallvi (9940 in chips) 
+Seat 4: scorza23 (9890 in chips) 
+Seat 6: doctoregg888 (11010 in chips) 
+Seat 7: mdi123 (9990 in chips) is sitting out
+Seat 8: cove-2019 (9690 in chips) 
+a5407277: posts the ante 10
+denise741: posts the ante 10
+Dallvi: posts the ante 10
+scorza23: posts the ante 10
+doctoregg888: posts the ante 10
+mdi123: posts the ante 10
+cove-2019: posts the ante 10
+scorza23: posts small blind 50
+doctoregg888: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 2h]
+mdi123: folds 
+cove-2019: folds 
+a5407277: folds 
+denise741: calls 100
+buddahsmoka is disconnected 
+Dallvi: folds 
+scorza23: folds 
+doctoregg888: checks 
+*** FLOP *** [Qd 8c Ts]
+doctoregg888: bets 200
+denise741: calls 200
+*** TURN *** [Qd 8c Ts] [8d]
+doctoregg888: bets 200
+denise741: folds 
+Uncalled bet (200) returned to doctoregg888
+doctoregg888 collected 720 from pot
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Board [Qd 8c Ts 8d]
+Seat 1: a5407277 folded before Flop (didn't bet)
+Seat 2: denise741 folded on the Turn
+Seat 3: Dallvi (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 6: doctoregg888 (big blind) collected (720)
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: cove-2019 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749341451: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 15:06:38 UTC [2026/02/16 10:06:38 ET]
+Table '3974723402 1' 8-max Seat #4 is the button
+Seat 1: a5407277 (9990 in chips) 
+Seat 2: denise741 (9680 in chips) 
+Seat 3: Dallvi (9930 in chips) 
+Seat 4: scorza23 (9830 in chips) 
+Seat 5: buddahsmoka (10000 in chips) out of hand (moved from another table into small blind)
+Seat 6: doctoregg888 (11420 in chips) 
+Seat 7: mdi123 (9980 in chips) is sitting out
+Seat 8: cove-2019 (9680 in chips) 
+buddahsmoka will be allowed to play after the button
+a5407277: posts the ante 10
+denise741: posts the ante 10
+Dallvi: posts the ante 10
+scorza23: posts the ante 10
+doctoregg888: posts the ante 10
+mdi123: posts the ante 10
+cove-2019: posts the ante 10
+doctoregg888: posts small blind 50
+mdi123: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 7s]
+cove-2019: folds 
+a5407277: folds 
+denise741: folds 
+Dallvi: raises 100 to 200
+scorza23: folds 
+doctoregg888: calls 150
+mdi123: folds 
+*** FLOP *** [Kc 3c Jd]
+doctoregg888: checks 
+Dallvi: bets 200
+doctoregg888: folds 
+Uncalled bet (200) returned to Dallvi
+Dallvi collected 570 from pot
+Dallvi: doesn't show hand 
+*** SUMMARY ***
+Total pot 570 | Rake 0 
+Board [Kc 3c Jd]
+Seat 1: a5407277 folded before Flop (didn't bet)
+Seat 2: denise741 folded before Flop (didn't bet)
+Seat 3: Dallvi collected (570)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: doctoregg888 (small blind) folded on the Flop
+Seat 7: mdi123 (big blind) folded before Flop
+Seat 8: cove-2019 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749346526: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 15:07:10 UTC [2026/02/16 10:07:10 ET]
+Table '3974723402 1' 8-max Seat #6 is the button
+Seat 1: a5407277 (9980 in chips) 
+Seat 2: denise741 (9670 in chips) 
+Seat 3: Dallvi (10290 in chips) 
+Seat 4: scorza23 (9820 in chips) 
+Seat 5: buddahsmoka (10000 in chips) 
+Seat 6: doctoregg888 (11210 in chips) 
+Seat 7: mdi123 (9870 in chips) is sitting out
+Seat 8: cove-2019 (9670 in chips) 
+a5407277: posts the ante 10
+denise741: posts the ante 10
+Dallvi: posts the ante 10
+scorza23: posts the ante 10
+buddahsmoka: posts the ante 10
+doctoregg888: posts the ante 10
+mdi123: posts the ante 10
+cove-2019: posts the ante 10
+mdi123: posts small blind 50
+cove-2019: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Qh]
+a5407277: raises 100 to 200
+denise741: calls 200
+Dallvi: folds 
+scorza23: folds 
+buddahsmoka: folds 
+doctoregg888: calls 200
+mdi123: folds 
+cove-2019: calls 100
+*** FLOP *** [Kh 4d 2h]
+cove-2019: checks 
+a5407277: bets 930
+denise741: folds 
+doctoregg888: calls 930
+cove-2019: folds 
+*** TURN *** [Kh 4d 2h] [Qc]
+a5407277: bets 2790
+doctoregg888: calls 2790
+*** RIVER *** [Kh 4d 2h Qc] [4c]
+a5407277: bets 6050 and is all-in
+doctoregg888: folds 
+Uncalled bet (6050) returned to a5407277
+a5407277 collected 8370 from pot
+a5407277: doesn't show hand 
+*** SUMMARY ***
+Total pot 8370 | Rake 0 
+Board [Kh 4d 2h Qc 4c]
+Seat 1: a5407277 collected (8370)
+Seat 2: denise741 folded on the Flop
+Seat 3: Dallvi folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: buddahsmoka folded before Flop (didn't bet)
+Seat 6: doctoregg888 (button) folded on the River
+Seat 7: mdi123 (small blind) folded before Flop
+Seat 8: cove-2019 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749354078: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 15:07:57 UTC [2026/02/16 10:07:57 ET]
+Table '3974723402 1' 8-max Seat #7 is the button
+Seat 1: a5407277 (14420 in chips) 
+Seat 2: denise741 (9460 in chips) 
+Seat 3: Dallvi (10280 in chips) 
+Seat 4: scorza23 (9810 in chips) 
+Seat 5: buddahsmoka (9990 in chips) 
+Seat 6: doctoregg888 (7280 in chips) 
+Seat 7: mdi123 (9810 in chips) is sitting out
+Seat 8: cove-2019 (9460 in chips) 
+a5407277: posts the ante 10
+denise741: posts the ante 10
+Dallvi: posts the ante 10
+scorza23: posts the ante 10
+buddahsmoka: posts the ante 10
+doctoregg888: posts the ante 10
+mdi123: posts the ante 10
+cove-2019: posts the ante 10
+cove-2019: posts small blind 50
+a5407277: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 8s]
+denise741: folds 
+Dallvi: folds 
+scorza23: folds 
+buddahsmoka: folds 
+doctoregg888: folds 
+mdi123: folds 
+cove-2019: calls 50
+a5407277: checks 
+*** FLOP *** [6h 6s 9h]
+cove-2019: checks 
+a5407277: checks 
+*** TURN *** [6h 6s 9h] [Jh]
+cove-2019: checks 
+a5407277: bets 280
+cove-2019: calls 280
+*** RIVER *** [6h 6s 9h Jh] [Qd]
+cove-2019: bets 840
+a5407277: raises 13190 to 14030 and is all-in
+cove-2019: calls 8230 and is all-in
+Uncalled bet (4960) returned to a5407277
+*** SHOW DOWN ***
+a5407277: shows [Qc Js] (two pair, Queens and Jacks)
+cove-2019: shows [Tc Ks] (a straight, Nine to King)
+cove-2019 collected 18980 from pot
+*** SUMMARY ***
+Total pot 18980 | Rake 0 
+Board [6h 6s 9h Jh Qd]
+Seat 1: a5407277 (big blind) showed [Qc Js] and lost with two pair, Queens and Jacks
+Seat 2: denise741 folded before Flop (didn't bet)
+Seat 3: Dallvi folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: buddahsmoka folded before Flop (didn't bet)
+Seat 6: doctoregg888 folded before Flop (didn't bet)
+Seat 7: mdi123 (button) folded before Flop (didn't bet)
+Seat 8: cove-2019 (small blind) showed [Tc Ks] and won (18980) with a straight, Nine to King
+
+
+
+PokerStars Hand #259749361298: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 15:08:42 UTC [2026/02/16 10:08:42 ET]
+Table '3974723402 1' 8-max Seat #8 is the button
+Seat 1: a5407277 (4960 in chips) 
+Seat 2: denise741 (9450 in chips) 
+Seat 3: Dallvi (10270 in chips) 
+Seat 4: scorza23 (9800 in chips) 
+Seat 5: buddahsmoka (9980 in chips) 
+Seat 6: doctoregg888 (7270 in chips) 
+Seat 7: mdi123 (9800 in chips) is sitting out
+Seat 8: cove-2019 (18980 in chips) 
+a5407277: posts the ante 15
+denise741: posts the ante 15
+Dallvi: posts the ante 15
+scorza23: posts the ante 15
+buddahsmoka: posts the ante 15
+doctoregg888: posts the ante 15
+mdi123: posts the ante 15
+cove-2019: posts the ante 15
+a5407277: posts small blind 75
+denise741: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 8h]
+Dallvi: folds 
+scorza23: folds 
+buddahsmoka: calls 150
+doctoregg888: calls 150
+mdi123: folds 
+cove-2019: calls 150
+a5407277: calls 75
+denise741: checks 
+*** FLOP *** [7d Tc 8d]
+a5407277: bets 4795 and is all-in
+denise741: folds 
+buddahsmoka: folds 
+doctoregg888: folds 
+cove-2019: folds 
+Uncalled bet (4795) returned to a5407277
+a5407277 collected 870 from pot
+a5407277: doesn't show hand 
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [7d Tc 8d]
+Seat 1: a5407277 (small blind) collected (870)
+Seat 2: denise741 (big blind) folded on the Flop
+Seat 3: Dallvi folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: buddahsmoka folded on the Flop
+Seat 6: doctoregg888 folded on the Flop
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: cove-2019 (button) folded on the Flop
+
+
+
+PokerStars Hand #259749367025: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 15:09:18 UTC [2026/02/16 10:09:18 ET]
+Table '3974723402 1' 8-max Seat #1 is the button
+Seat 1: a5407277 (5665 in chips) 
+Seat 2: denise741 (9285 in chips) 
+Seat 4: scorza23 (9785 in chips) 
+Seat 5: buddahsmoka (9815 in chips) 
+Seat 6: doctoregg888 (7105 in chips) 
+Seat 7: mdi123 (9785 in chips) is sitting out
+Seat 8: cove-2019 (18815 in chips) 
+a5407277: posts the ante 15
+denise741: posts the ante 15
+scorza23: posts the ante 15
+buddahsmoka: posts the ante 15
+doctoregg888: posts the ante 15
+mdi123: posts the ante 15
+cove-2019: posts the ante 15
+denise741: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [As Ad]
+buddahsmoka: raises 300 to 450
+doctoregg888: folds 
+mdi123: folds 
+cove-2019: folds 
+a5407277: raises 5200 to 5650 and is all-in
+denise741: folds 
+scorza23: raises 4120 to 9770 and is all-in
+buddahsmoka: folds 
+Uncalled bet (4120) returned to scorza23
+*** FLOP *** [8d Qc Kd]
+*** TURN *** [8d Qc Kd] [8c]
+*** RIVER *** [8d Qc Kd 8c] [3h]
+*** SHOW DOWN ***
+scorza23: shows [As Ad] (two pair, Aces and Eights)
+a5407277: shows [9h 4h] (a pair of Eights)
+scorza23 collected 11930 from pot
+a5407277 finished the tournament
+wallydigger is disconnected 
+*** SUMMARY ***
+Total pot 11930 | Rake 0 
+Board [8d Qc Kd 8c 3h]
+Seat 1: a5407277 (button) showed [9h 4h] and lost with a pair of Eights
+Seat 2: denise741 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [As Ad] and won (11930) with two pair, Aces and Eights
+Seat 5: buddahsmoka folded before Flop
+Seat 6: doctoregg888 folded before Flop (didn't bet)
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: cove-2019 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749374890: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 15:10:07 UTC [2026/02/16 10:10:07 ET]
+Table '3974723402 1' 8-max Seat #2 is the button
+Seat 1: wallydigger (9795 in chips) 
+Seat 2: denise741 (9195 in chips) 
+Seat 4: scorza23 (16050 in chips) 
+Seat 5: buddahsmoka (9350 in chips) 
+Seat 6: doctoregg888 (7090 in chips) 
+Seat 7: mdi123 (9770 in chips) is sitting out
+Seat 8: cove-2019 (18800 in chips) 
+wallydigger: posts the ante 15
+denise741: posts the ante 15
+scorza23: posts the ante 15
+buddahsmoka: posts the ante 15
+doctoregg888: posts the ante 15
+mdi123: posts the ante 15
+cove-2019: posts the ante 15
+scorza23: posts small blind 75
+buddahsmoka: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3c]
+doctoregg888: raises 150 to 300
+mdi123: folds 
+cove-2019: calls 300
+wallydigger: folds 
+denise741: calls 300
+scorza23: folds 
+buddahsmoka: folds 
+*** FLOP *** [6h 9h 3s]
+doctoregg888: checks 
+cove-2019: checks 
+denise741: checks 
+*** TURN *** [6h 9h 3s] [9d]
+doctoregg888: checks 
+cove-2019: checks 
+denise741: checks 
+*** RIVER *** [6h 9h 3s 9d] [Js]
+doctoregg888: checks 
+cove-2019: checks 
+denise741: checks 
+*** SHOW DOWN ***
+doctoregg888: shows [Ac 2c] (a pair of Nines)
+cove-2019: shows [6d 4d] (two pair, Nines and Sixes)
+denise741: mucks hand 
+cove-2019 collected 1230 from pot
+*** SUMMARY ***
+Total pot 1230 | Rake 0 
+Board [6h 9h 3s 9d Js]
+Seat 1: wallydigger folded before Flop (didn't bet)
+Seat 2: denise741 (button) mucked [4s As]
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: buddahsmoka (big blind) folded before Flop
+Seat 6: doctoregg888 showed [Ac 2c] and lost with a pair of Nines
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: cove-2019 showed [6d 4d] and won (1230) with two pair, Nines and Sixes
+
+
+
+PokerStars Hand #259749380779: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level II (75/150) - 2026/02/16 15:10:45 UTC [2026/02/16 10:10:45 ET]
+Table '3974723402 1' 8-max Seat #4 is the button
+Seat 1: wallydigger (9780 in chips) 
+Seat 2: denise741 (8880 in chips) 
+Seat 4: scorza23 (15960 in chips) 
+Seat 5: buddahsmoka (9185 in chips) 
+Seat 6: doctoregg888 (6775 in chips) 
+Seat 7: mdi123 (9755 in chips) is sitting out
+Seat 8: cove-2019 (19715 in chips) 
+wallydigger: posts the ante 15
+denise741: posts the ante 15
+scorza23: posts the ante 15
+buddahsmoka: posts the ante 15
+doctoregg888: posts the ante 15
+mdi123: posts the ante 15
+cove-2019: posts the ante 15
+buddahsmoka: posts small blind 75
+doctoregg888: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Qs]
+mdi123: folds 
+cove-2019: calls 150
+wallydigger: calls 150
+denise741: folds 
+scorza23: folds 
+buddahsmoka: calls 75
+doctoregg888: checks 
+*** FLOP *** [Tc 2c Ts]
+buddahsmoka: bets 450
+doctoregg888: folds 
+cove-2019: folds 
+wallydigger: calls 450
+*** TURN *** [Tc 2c Ts] [3d]
+buddahsmoka: checks 
+wallydigger: bets 594
+buddahsmoka: calls 594
+*** RIVER *** [Tc 2c Ts 3d] [Kc]
+buddahsmoka: checks 
+wallydigger: checks 
+*** SHOW DOWN ***
+buddahsmoka: shows [Ad 9c] (a pair of Tens)
+wallydigger: shows [5d 5h] (two pair, Tens and Fives)
+wallydigger collected 2793 from pot
+*** SUMMARY ***
+Total pot 2793 | Rake 0 
+Board [Tc 2c Ts 3d Kc]
+Seat 1: wallydigger showed [5d 5h] and won (2793) with two pair, Tens and Fives
+Seat 2: denise741 folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: buddahsmoka (small blind) showed [Ad 9c] and lost with a pair of Tens
+Seat 6: doctoregg888 (big blind) folded on the Flop
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: cove-2019 folded on the Flop
+
+
+
+PokerStars Hand #259749391030: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 15:11:49 UTC [2026/02/16 10:11:49 ET]
+Table '3974723402 1' 8-max Seat #5 is the button
+Seat 1: wallydigger (11364 in chips) 
+Seat 2: denise741 (8865 in chips) 
+Seat 3: farmajor (10000 in chips) 
+Seat 4: scorza23 (15945 in chips) 
+Seat 5: buddahsmoka (7976 in chips) 
+Seat 6: doctoregg888 (6610 in chips) 
+Seat 7: mdi123 (9740 in chips) is sitting out
+Seat 8: cove-2019 (19550 in chips) 
+wallydigger: posts the ante 20
+denise741: posts the ante 20
+farmajor: posts the ante 20
+scorza23: posts the ante 20
+buddahsmoka: posts the ante 20
+doctoregg888: posts the ante 20
+mdi123: posts the ante 20
+cove-2019: posts the ante 20
+doctoregg888: posts small blind 100
+mdi123: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 2c]
+cove-2019: calls 200
+wallydigger: folds 
+denise741: folds 
+farmajor: folds 
+scorza23: folds 
+buddahsmoka: folds 
+doctoregg888: calls 100
+mdi123: folds 
+*** FLOP *** [3h 6s 8h]
+doctoregg888: checks 
+cove-2019: checks 
+*** TURN *** [3h 6s 8h] [Td]
+doctoregg888: checks 
+cove-2019: checks 
+*** RIVER *** [3h 6s 8h Td] [9h]
+doctoregg888: checks 
+cove-2019: checks 
+*** SHOW DOWN ***
+doctoregg888: shows [Ac Qs] (high card Ace)
+cove-2019: mucks hand 
+doctoregg888 collected 760 from pot
+*** SUMMARY ***
+Total pot 760 | Rake 0 
+Board [3h 6s 8h Td 9h]
+Seat 1: wallydigger folded before Flop (didn't bet)
+Seat 2: denise741 folded before Flop (didn't bet)
+Seat 3: farmajor folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: buddahsmoka (button) folded before Flop (didn't bet)
+Seat 6: doctoregg888 (small blind) showed [Ac Qs] and won (760) with high card Ace
+Seat 7: mdi123 (big blind) folded before Flop
+Seat 8: cove-2019 mucked [Ad 5s]
+
+
+
+PokerStars Hand #259749398296: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 15:12:35 UTC [2026/02/16 10:12:35 ET]
+Table '3974723402 1' 8-max Seat #6 is the button
+Seat 1: wallydigger (11344 in chips) 
+Seat 2: denise741 (8845 in chips) 
+Seat 3: farmajor (9980 in chips) 
+Seat 4: scorza23 (15925 in chips) 
+Seat 5: buddahsmoka (7956 in chips) 
+Seat 6: doctoregg888 (7150 in chips) 
+Seat 7: mdi123 (9520 in chips) is sitting out
+wallydigger: posts the ante 20
+denise741: posts the ante 20
+farmajor: posts the ante 20
+scorza23: posts the ante 20
+buddahsmoka: posts the ante 20
+doctoregg888: posts the ante 20
+mdi123: posts the ante 20
+mdi123: posts small blind 100
+wallydigger: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Th]
+denise741: raises 200 to 400
+farmajor: folds 
+scorza23: folds 
+buddahsmoka: calls 400
+doctoregg888: calls 400
+mdi123: folds 
+wallydigger: calls 200
+*** FLOP *** [Qc 3s 9d]
+wallydigger: checks 
+denise741: checks 
+buddahsmoka: checks 
+doctoregg888: checks 
+*** TURN *** [Qc 3s 9d] [9h]
+wallydigger: checks 
+denise741: checks 
+buddahsmoka: checks 
+doctoregg888: checks 
+*** RIVER *** [Qc 3s 9d 9h] [6d]
+wallydigger: bets 681
+denise741: folds 
+buddahsmoka: folds 
+doctoregg888: folds 
+Uncalled bet (681) returned to wallydigger
+wallydigger collected 1840 from pot
+*** SUMMARY ***
+Total pot 1840 | Rake 0 
+Board [Qc 3s 9d 9h 6d]
+Seat 1: wallydigger (big blind) collected (1840)
+Seat 2: denise741 folded on the River
+Seat 3: farmajor folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: buddahsmoka folded on the River
+Seat 6: doctoregg888 (button) folded on the River
+Seat 7: mdi123 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749410139: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level III (100/200) - 2026/02/16 15:13:49 UTC [2026/02/16 10:13:49 ET]
+Table '3974723402 1' 8-max Seat #7 is the button
+Seat 1: wallydigger (12764 in chips) 
+Seat 3: farmajor (9960 in chips) 
+Seat 4: scorza23 (15905 in chips) 
+Seat 5: buddahsmoka (7536 in chips) 
+Seat 6: doctoregg888 (6730 in chips) 
+Seat 7: mdi123 (9400 in chips) is sitting out
+Seat 8: Petrocaio (10000 in chips) out of hand (moved from another table into small blind)
+Petrocaio will be allowed to play after the button
+wallydigger: posts the ante 20
+farmajor: posts the ante 20
+scorza23: posts the ante 20
+buddahsmoka: posts the ante 20
+doctoregg888: posts the ante 20
+mdi123: posts the ante 20
+wallydigger: posts small blind 100
+farmajor: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Jd]
+scorza23: folds 
+buddahsmoka: folds 
+doctoregg888: raises 200 to 400
+mdi123: folds 
+wallydigger: folds 
+farmajor: calls 200
+*** FLOP *** [6c 5c 2s]
+farmajor: bets 510
+doctoregg888: calls 510
+*** TURN *** [6c 5c 2s] [9h]
+farmajor: bets 1020
+doctoregg888: folds 
+Uncalled bet (1020) returned to farmajor
+farmajor collected 2040 from pot
+*** SUMMARY ***
+Total pot 2040 | Rake 0 
+Board [6c 5c 2s 9h]
+Seat 1: wallydigger (small blind) folded before Flop
+Seat 3: farmajor (big blind) collected (2040)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: buddahsmoka folded before Flop (didn't bet)
+Seat 6: doctoregg888 folded on the Turn
+Seat 7: mdi123 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749417780: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level IV (150/300) - 2026/02/16 15:14:38 UTC [2026/02/16 10:14:38 ET]
+Table '3974723402 1' 8-max Seat #1 is the button
+Seat 1: wallydigger (12644 in chips) 
+Seat 3: farmajor (11070 in chips) 
+Seat 4: scorza23 (15885 in chips) 
+Seat 5: buddahsmoka (7516 in chips) 
+Seat 6: doctoregg888 (5800 in chips) 
+Seat 7: mdi123 (9380 in chips) is sitting out
+Seat 8: Petrocaio (10000 in chips) 
+wallydigger: posts the ante 30
+farmajor: posts the ante 30
+scorza23: posts the ante 30
+buddahsmoka: posts the ante 30
+doctoregg888: posts the ante 30
+mdi123: posts the ante 30
+Petrocaio: posts the ante 30
+farmajor: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 5s]
+KillmeisterTDK is disconnected 
+buddahsmoka: folds 
+doctoregg888: folds 
+mdi123: folds 
+Petrocaio: raises 300 to 600
+wallydigger: folds 
+farmajor: calls 450
+scorza23: folds 
+*** FLOP *** [6h 2s 8c]
+farmajor: checks 
+Petrocaio: checks 
+*** TURN *** [6h 2s 8c] [Ad]
+farmajor: checks 
+Petrocaio: bets 855
+farmajor: calls 855
+*** RIVER *** [6h 2s 8c Ad] [9d]
+farmajor: bets 3420
+Petrocaio: folds 
+Uncalled bet (3420) returned to farmajor
+farmajor collected 3420 from pot
+farmajor: doesn't show hand 
+*** SUMMARY ***
+Total pot 3420 | Rake 0 
+Board [6h 2s 8c Ad 9d]
+Seat 1: wallydigger (button) folded before Flop (didn't bet)
+Seat 3: farmajor (small blind) collected (3420)
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: buddahsmoka folded before Flop (didn't bet)
+Seat 6: doctoregg888 folded before Flop (didn't bet)
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: Petrocaio folded on the River
+
+
+
+PokerStars Hand #259749427042: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level IV (150/300) - 2026/02/16 15:15:34 UTC [2026/02/16 10:15:34 ET]
+Table '3974723402 1' 8-max Seat #3 is the button
+Seat 1: wallydigger (12614 in chips) 
+Seat 2: KillmeisterTDK (10000 in chips) 
+Seat 3: farmajor (13005 in chips) 
+Seat 4: scorza23 (15555 in chips) 
+Seat 5: buddahsmoka (7486 in chips) 
+Seat 6: doctoregg888 (5770 in chips) 
+Seat 7: mdi123 (9350 in chips) is sitting out
+Seat 8: Petrocaio (8515 in chips) 
+wallydigger: posts the ante 30
+KillmeisterTDK: posts the ante 30
+farmajor: posts the ante 30
+scorza23: posts the ante 30
+buddahsmoka: posts the ante 30
+doctoregg888: posts the ante 30
+mdi123: posts the ante 30
+Petrocaio: posts the ante 30
+scorza23: posts small blind 150
+buddahsmoka: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 9d]
+doctoregg888: folds 
+mdi123: folds 
+Petrocaio: raises 300 to 600
+wallydigger: folds 
+KillmeisterTDK: folds 
+farmajor: calls 600
+scorza23: folds 
+buddahsmoka: calls 300
+*** FLOP *** [Qh 8d 3d]
+buddahsmoka: checks 
+Petrocaio: bets 1095
+farmajor: folds 
+buddahsmoka: calls 1095
+*** TURN *** [Qh 8d 3d] [6d]
+buddahsmoka: checks 
+Petrocaio: checks 
+*** RIVER *** [Qh 8d 3d 6d] [Td]
+buddahsmoka: bets 5761 and is all-in
+Petrocaio: calls 5761
+*** SHOW DOWN ***
+buddahsmoka: shows [3s Ah] (a pair of Threes)
+Petrocaio: shows [Jc Jd] (a flush, Jack high)
+Petrocaio collected 15902 from pot
+buddahsmoka finished the tournament
+*** SUMMARY ***
+Total pot 15902 | Rake 0 
+Board [Qh 8d 3d 6d Td]
+Seat 1: wallydigger folded before Flop (didn't bet)
+Seat 2: KillmeisterTDK folded before Flop (didn't bet)
+Seat 3: farmajor (button) folded on the Flop
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: buddahsmoka (big blind) showed [3s Ah] and lost with a pair of Threes
+Seat 6: doctoregg888 folded before Flop (didn't bet)
+Seat 7: mdi123 folded before Flop (didn't bet)
+Seat 8: Petrocaio showed [Jc Jd] and won (15902) with a flush, Jack high
+
+
+
+PokerStars Hand #259749435018: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level IV (150/300) - 2026/02/16 15:16:22 UTC [2026/02/16 10:16:22 ET]
+Table '3974723402 1' 8-max Seat #4 is the button
+Seat 1: wallydigger (12584 in chips) 
+Seat 2: KillmeisterTDK (9970 in chips) 
+Seat 3: farmajor (12375 in chips) 
+Seat 4: scorza23 (15375 in chips) 
+Seat 6: doctoregg888 (5740 in chips) 
+Seat 7: mdi123 (9320 in chips) is sitting out
+Seat 8: Petrocaio (16931 in chips) 
+wallydigger: posts the ante 30
+KillmeisterTDK: posts the ante 30
+farmajor: posts the ante 30
+scorza23: posts the ante 30
+doctoregg888: posts the ante 30
+mdi123: posts the ante 30
+Petrocaio: posts the ante 30
+doctoregg888: posts small blind 150
+mdi123: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 8d]
+Petrocaio: raises 300 to 600
+wallydigger: folds 
+KillmeisterTDK: folds 
+farmajor: folds 
+scorza23: raises 1860 to 2460
+doctoregg888: folds 
+mdi123: folds 
+Petrocaio: folds 
+Uncalled bet (1860) returned to scorza23
+scorza23 collected 1860 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1860 | Rake 0 
+Seat 1: wallydigger folded before Flop (didn't bet)
+Seat 2: KillmeisterTDK folded before Flop (didn't bet)
+Seat 3: farmajor folded before Flop (didn't bet)
+Seat 4: scorza23 (button) collected (1860)
+Seat 6: doctoregg888 (small blind) folded before Flop
+Seat 7: mdi123 (big blind) folded before Flop
+Seat 8: Petrocaio folded before Flop
+
+
+
+PokerStars Hand #259749440165: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level IV (150/300) - 2026/02/16 15:16:54 UTC [2026/02/16 10:16:54 ET]
+Table '3974723402 1' 8-max Seat #6 is the button
+Seat 1: wallydigger (12554 in chips) 
+Seat 2: KillmeisterTDK (9940 in chips) 
+Seat 3: farmajor (12345 in chips) 
+Seat 4: scorza23 (16605 in chips) 
+Seat 5: Dubpirate (10000 in chips) 
+Seat 6: doctoregg888 (5560 in chips) 
+Seat 7: mdi123 (8990 in chips) is sitting out
+Seat 8: Petrocaio (16301 in chips) 
+wallydigger: posts the ante 30
+KillmeisterTDK: posts the ante 30
+farmajor: posts the ante 30
+scorza23: posts the ante 30
+Dubpirate: posts the ante 30
+doctoregg888: posts the ante 30
+mdi123: posts the ante 30
+Petrocaio: posts the ante 30
+mdi123: posts small blind 150
+Petrocaio: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Td]
+wallydigger: folds 
+KillmeisterTDK: raises 600 to 900
+farmajor: folds 
+scorza23: folds 
+Dubpirate has timed out
+Dubpirate: folds 
+Dubpirate is sitting out
+doctoregg888: calls 900
+mdi123: folds 
+Petrocaio: calls 600
+*** FLOP *** [4c 6c Qh]
+Petrocaio: checks 
+KillmeisterTDK: bets 1545
+doctoregg888: folds 
+Petrocaio: folds 
+Uncalled bet (1545) returned to KillmeisterTDK
+KillmeisterTDK collected 3090 from pot
+KillmeisterTDK: doesn't show hand 
+*** SUMMARY ***
+Total pot 3090 | Rake 0 
+Board [4c 6c Qh]
+Seat 1: wallydigger folded before Flop (didn't bet)
+Seat 2: KillmeisterTDK collected (3090)
+Seat 3: farmajor folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: Dubpirate folded before Flop (didn't bet)
+Seat 6: doctoregg888 (button) folded on the Flop
+Seat 7: mdi123 (small blind) folded before Flop
+Seat 8: Petrocaio (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259749449448: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level V (200/400) - 2026/02/16 15:17:50 UTC [2026/02/16 10:17:50 ET]
+Table '3974723402 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (16575 in chips) 
+Seat 3: rochford (25965 in chips) 
+Seat 4: Chillopollos (25700 in chips) 
+Seat 5: cceell (17270 in chips) 
+Seat 6: TepidR (49715 in chips) 
+Seat 7: brunofumaca (21850 in chips) 
+Seat 8: An.VoV (9940 in chips) 
+scorza23: posts the ante 40
+rochford: posts the ante 40
+Chillopollos: posts the ante 40
+cceell: posts the ante 40
+TepidR: posts the ante 40
+brunofumaca: posts the ante 40
+An.VoV: posts the ante 40
+cceell: posts small blind 200
+TepidR: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 6c]
+brunofumaca: raises 10000 to 10400
+An.VoV: folds 
+scorza23: folds 
+rochford: folds 
+Chillopollos: folds 
+cceell: folds 
+TepidR: folds 
+Uncalled bet (10000) returned to brunofumaca
+brunofumaca collected 1280 from pot
+*** SUMMARY ***
+Total pot 1280 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: rochford folded before Flop (didn't bet)
+Seat 4: Chillopollos (button) folded before Flop (didn't bet)
+Seat 5: cceell (small blind) folded before Flop
+Seat 6: TepidR (big blind) folded before Flop
+Seat 7: brunofumaca collected (1280)
+Seat 8: An.VoV folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749453442: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level V (200/400) - 2026/02/16 15:18:15 UTC [2026/02/16 10:18:15 ET]
+Table '3974723402 4' 8-max Seat #5 is the button
+Seat 1: scorza23 (16535 in chips) 
+Seat 3: rochford (25925 in chips) 
+Seat 4: Chillopollos (25660 in chips) 
+Seat 5: cceell (17030 in chips) 
+Seat 6: TepidR (49275 in chips) 
+Seat 7: brunofumaca (22690 in chips) 
+Seat 8: An.VoV (9900 in chips) 
+scorza23: posts the ante 40
+rochford: posts the ante 40
+Chillopollos: posts the ante 40
+cceell: posts the ante 40
+TepidR: posts the ante 40
+brunofumaca: posts the ante 40
+An.VoV: posts the ante 40
+TepidR: posts small blind 200
+brunofumaca: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Kc]
+An.VoV: folds 
+scorza23: folds 
+rochford: raises 400 to 800
+Chillopollos: folds 
+cceell: folds 
+TepidR: folds 
+brunofumaca: calls 400
+*** FLOP *** [5c 5d Jd]
+brunofumaca: checks 
+rochford: bets 800
+brunofumaca: folds 
+Uncalled bet (800) returned to rochford
+rochford collected 2080 from pot
+rochford: doesn't show hand 
+*** SUMMARY ***
+Total pot 2080 | Rake 0 
+Board [5c 5d Jd]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: rochford collected (2080)
+Seat 4: Chillopollos folded before Flop (didn't bet)
+Seat 5: cceell (button) folded before Flop (didn't bet)
+Seat 6: TepidR (small blind) folded before Flop
+Seat 7: brunofumaca (big blind) folded on the Flop
+Seat 8: An.VoV folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749458665: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level V (200/400) - 2026/02/16 15:18:46 UTC [2026/02/16 10:18:46 ET]
+Table '3974723402 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (16495 in chips) 
+Seat 2: sullee01 (10000 in chips) 
+Seat 3: rochford (27165 in chips) 
+Seat 4: Chillopollos (25620 in chips) 
+Seat 5: cceell (16990 in chips) 
+Seat 6: TepidR (49035 in chips) 
+Seat 7: brunofumaca (21850 in chips) 
+Seat 8: An.VoV (9860 in chips) 
+scorza23: posts the ante 40
+sullee01: posts the ante 40
+rochford: posts the ante 40
+Chillopollos: posts the ante 40
+cceell: posts the ante 40
+TepidR: posts the ante 40
+brunofumaca: posts the ante 40
+An.VoV: posts the ante 40
+brunofumaca: posts small blind 200
+An.VoV: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Js]
+scorza23: folds 
+sullee01: folds 
+rochford: raises 400 to 800
+Chillopollos: folds 
+cceell: folds 
+TepidR: folds 
+brunofumaca: raises 7200 to 8000
+An.VoV: folds 
+rochford: folds 
+Uncalled bet (7200) returned to brunofumaca
+brunofumaca collected 2320 from pot
+*** SUMMARY ***
+Total pot 2320 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: sullee01 folded before Flop (didn't bet)
+Seat 3: rochford folded before Flop
+Seat 4: Chillopollos folded before Flop (didn't bet)
+Seat 5: cceell folded before Flop (didn't bet)
+Seat 6: TepidR (button) folded before Flop (didn't bet)
+Seat 7: brunofumaca (small blind) collected (2320)
+Seat 8: An.VoV (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749464345: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level V (200/400) - 2026/02/16 15:19:20 UTC [2026/02/16 10:19:20 ET]
+Table '3974723402 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (16455 in chips) 
+Seat 2: sullee01 (9960 in chips) 
+Seat 3: rochford (26325 in chips) 
+Seat 4: Chillopollos (25580 in chips) 
+Seat 5: cceell (16950 in chips) 
+Seat 6: TepidR (48995 in chips) 
+Seat 7: brunofumaca (23330 in chips) 
+Seat 8: An.VoV (9420 in chips) 
+scorza23: posts the ante 40
+sullee01: posts the ante 40
+rochford: posts the ante 40
+Chillopollos: posts the ante 40
+cceell: posts the ante 40
+TepidR: posts the ante 40
+brunofumaca: posts the ante 40
+An.VoV: posts the ante 40
+An.VoV: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5c]
+sullee01 has timed out
+sullee01: folds 
+sullee01 is sitting out
+rochford: folds 
+Chillopollos: calls 400
+cceell: folds 
+TepidR: folds 
+sullee01 has returned
+brunofumaca: raises 7200 to 7600
+An.VoV: folds 
+scorza23: folds 
+Chillopollos: raises 17940 to 25540 and is all-in
+brunofumaca: calls 15690 and is all-in
+Uncalled bet (2250) returned to Chillopollos
+*** FLOP *** [6c 7c As]
+*** TURN *** [6c 7c As] [Ac]
+*** RIVER *** [6c 7c As Ac] [8s]
+*** SHOW DOWN ***
+Chillopollos: shows [2s 2d] (two pair, Aces and Deuces)
+brunofumaca: shows [4d 5d] (a straight, Four to Eight)
+brunofumaca collected 47500 from pot
+*** SUMMARY ***
+Total pot 47500 | Rake 0 
+Board [6c 7c As Ac 8s]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: sullee01 folded before Flop (didn't bet)
+Seat 3: rochford folded before Flop (didn't bet)
+Seat 4: Chillopollos showed [2s 2d] and lost with two pair, Aces and Deuces
+Seat 5: cceell folded before Flop (didn't bet)
+Seat 6: TepidR folded before Flop (didn't bet)
+Seat 7: brunofumaca (button) showed [4d 5d] and won (47500) with a straight, Four to Eight
+Seat 8: An.VoV (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749472267: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VI (250/500) - 2026/02/16 15:20:09 UTC [2026/02/16 10:20:09 ET]
+Table '3974723402 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (16015 in chips) 
+Seat 2: sullee01 (9920 in chips) 
+Seat 3: rochford (26285 in chips) 
+Seat 4: Chillopollos (2250 in chips) 
+Seat 5: cceell (16910 in chips) 
+Seat 6: TepidR (48955 in chips) 
+Seat 7: brunofumaca (47500 in chips) 
+Seat 8: An.VoV (9180 in chips) 
+scorza23: posts the ante 50
+sullee01: posts the ante 50
+rochford: posts the ante 50
+Chillopollos: posts the ante 50
+cceell: posts the ante 50
+TepidR: posts the ante 50
+brunofumaca: posts the ante 50
+An.VoV: posts the ante 50
+scorza23: posts small blind 250
+sullee01: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 5c]
+rochford: folds 
+Chillopollos: raises 1700 to 2200 and is all-in
+cceell: calls 2200
+TepidR: folds 
+brunofumaca: raises 16300 to 18500
+An.VoV: folds 
+scorza23: folds 
+sullee01: folds 
+cceell: calls 14660 and is all-in
+Uncalled bet (1640) returned to brunofumaca
+*** FLOP *** [Kd Ts 2s]
+*** TURN *** [Kd Ts 2s] [Ad]
+*** RIVER *** [Kd Ts 2s Ad] [Ac]
+*** SHOW DOWN ***
+cceell: shows [Qh Qd] (two pair, Aces and Queens)
+brunofumaca: shows [2d Ks] (two pair, Aces and Kings)
+brunofumaca collected 29320 from side pot
+Chillopollos: shows [6h 9s] (a pair of Aces)
+brunofumaca collected 7750 from main pot
+cceell finished the tournament
+Chillopollos finished the tournament
+*** SUMMARY ***
+Total pot 37070 Main pot 7750. Side pot 29320. | Rake 0 
+Board [Kd Ts 2s Ad Ac]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: sullee01 (big blind) folded before Flop
+Seat 3: rochford folded before Flop (didn't bet)
+Seat 4: Chillopollos showed [6h 9s] and lost with a pair of Aces
+Seat 5: cceell showed [Qh Qd] and lost with two pair, Aces and Queens
+Seat 6: TepidR folded before Flop (didn't bet)
+Seat 7: brunofumaca showed [2d Ks] and won (37070) with two pair, Aces and Kings
+Seat 8: An.VoV (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749477317: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VI (250/500) - 2026/02/16 15:20:40 UTC [2026/02/16 10:20:40 ET]
+Table '3974723402 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (15715 in chips) 
+Seat 2: sullee01 (9370 in chips) 
+Seat 6: TepidR (48905 in chips) 
+Seat 7: brunofumaca (67660 in chips) 
+Seat 8: An.VoV (9130 in chips) 
+scorza23: posts the ante 50
+sullee01: posts the ante 50
+TepidR: posts the ante 50
+brunofumaca: posts the ante 50
+An.VoV: posts the ante 50
+sullee01: posts small blind 250
+TepidR: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 6h]
+brunofumaca: raises 16000 to 16500
+devlud21 is disconnected 
+An.VoV: folds 
+scorza23: folds 
+gro0o0ve is disconnected 
+sullee01: folds 
+TepidR: folds 
+Uncalled bet (16000) returned to brunofumaca
+brunofumaca collected 1500 from pot
+*** SUMMARY ***
+Total pot 1500 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: sullee01 (small blind) folded before Flop
+Seat 6: TepidR (big blind) folded before Flop
+Seat 7: brunofumaca collected (1500)
+Seat 8: An.VoV folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749480082: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VI (250/500) - 2026/02/16 15:20:56 UTC [2026/02/16 10:20:56 ET]
+Table '3974723402 4' 8-max Seat #2 is the button
+Seat 1: scorza23 (15665 in chips) 
+Seat 2: sullee01 (9070 in chips) 
+Seat 3: devlud21 (9950 in chips) out of hand (moved from another table into small blind)
+Seat 4: gro0o0ve (10000 in chips) out of hand (moved from another table into small blind)
+Seat 6: TepidR (48355 in chips) 
+Seat 7: brunofumaca (68610 in chips) 
+Seat 8: An.VoV (9080 in chips) 
+devlud21 will be allowed to play after the button
+gro0o0ve will be allowed to play after the button
+scorza23: posts the ante 50
+sullee01: posts the ante 50
+TepidR: posts the ante 50
+brunofumaca: posts the ante 50
+An.VoV: posts the ante 50
+TepidR: posts small blind 250
+brunofumaca: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 6c]
+An.VoV: calls 500
+scorza23: folds 
+sullee01: folds 
+TepidR: raises 47805 to 48305 and is all-in
+brunofumaca: folds 
+An.VoV: folds 
+Uncalled bet (47805) returned to TepidR
+TepidR collected 1750 from pot
+*** SUMMARY ***
+Total pot 1750 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: sullee01 (button) folded before Flop (didn't bet)
+Seat 6: TepidR (small blind) collected (1750)
+Seat 7: brunofumaca (big blind) folded before Flop
+Seat 8: An.VoV folded before Flop
+
+
+
+PokerStars Hand #259749483871: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VI (250/500) - 2026/02/16 15:21:19 UTC [2026/02/16 10:21:19 ET]
+Table '3974723402 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (15615 in chips) 
+Seat 2: sullee01 (9020 in chips) 
+Seat 3: devlud21 (9950 in chips) 
+Seat 4: gro0o0ve (10000 in chips) 
+Seat 6: TepidR (49555 in chips) 
+Seat 7: brunofumaca (68060 in chips) 
+Seat 8: An.VoV (8530 in chips) 
+scorza23: posts the ante 50
+sullee01: posts the ante 50
+devlud21: posts the ante 50
+gro0o0ve: posts the ante 50
+TepidR: posts the ante 50
+brunofumaca: posts the ante 50
+An.VoV: posts the ante 50
+brunofumaca: posts small blind 250
+An.VoV: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 6h]
+scorza23: folds 
+sullee01: calls 500
+devlud21: folds 
+gro0o0ve: raises 9450 to 9950 and is all-in
+TepidR: folds 
+brunofumaca: raises 57560 to 67510
+An.VoV: folds 
+sullee01: calls 8470 and is all-in
+Uncalled bet (57560) returned to brunofumaca
+*** FLOP *** [8c 8h 9d]
+*** TURN *** [8c 8h 9d] [9c]
+*** RIVER *** [8c 8h 9d 9c] [3h]
+*** SHOW DOWN ***
+brunofumaca: shows [Jc 2c] (two pair, Nines and Eights)
+gro0o0ve: shows [3c 3s] (a full house, Threes full of Nines)
+gro0o0ve collected 1960 from side pot
+sullee01: shows [9h Kh] (a full house, Nines full of Eights)
+sullee01 collected 27760 from main pot
+*** SUMMARY ***
+Total pot 29720 Main pot 27760. Side pot 1960. | Rake 0 
+Board [8c 8h 9d 9c 3h]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: sullee01 showed [9h Kh] and won (27760) with a full house, Nines full of Eights
+Seat 3: devlud21 folded before Flop (didn't bet)
+Seat 4: gro0o0ve showed [3c 3s] and won (1960) with a full house, Threes full of Nines
+Seat 6: TepidR (button) folded before Flop (didn't bet)
+Seat 7: brunofumaca (small blind) showed [Jc 2c] and lost with two pair, Nines and Eights
+Seat 8: An.VoV (big blind) folded before Flop
+
+
+
+PokerStars Hand #259749489268: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VI (250/500) - 2026/02/16 15:21:52 UTC [2026/02/16 10:21:52 ET]
+Table '3974723402 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (15565 in chips) 
+Seat 2: sullee01 (27760 in chips) 
+Seat 3: devlud21 (9900 in chips) 
+Seat 4: gro0o0ve (1960 in chips) 
+Seat 6: TepidR (49505 in chips) 
+Seat 7: brunofumaca (58060 in chips) 
+Seat 8: An.VoV (7980 in chips) 
+scorza23: posts the ante 50
+sullee01: posts the ante 50
+devlud21: posts the ante 50
+gro0o0ve: posts the ante 50
+TepidR: posts the ante 50
+brunofumaca: posts the ante 50
+An.VoV: posts the ante 50
+An.VoV: posts small blind 250
+scorza23: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 2s]
+sullee01: folds 
+devlud21: raises 9350 to 9850 and is all-in
+gro0o0ve: calls 1910 and is all-in
+TepidR: folds 
+brunofumaca: raises 13150 to 23000
+An.VoV: folds 
+scorza23: folds 
+Uncalled bet (13150) returned to brunofumaca
+*** FLOP *** [Qh 6h Kh]
+*** TURN *** [Qh 6h Kh] [Js]
+*** RIVER *** [Qh 6h Kh Js] [5d]
+*** SHOW DOWN ***
+devlud21: shows [Qd Ks] (two pair, Kings and Queens)
+brunofumaca: shows [Ac Jd] (a pair of Jacks)
+devlud21 collected 15880 from side pot
+gro0o0ve: shows [9c Td] (a straight, Nine to King)
+gro0o0ve collected 6830 from main pot
+*** SUMMARY ***
+Total pot 22710 Main pot 6830. Side pot 15880. | Rake 0 
+Board [Qh 6h Kh Js 5d]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: sullee01 folded before Flop (didn't bet)
+Seat 3: devlud21 showed [Qd Ks] and won (15880) with two pair, Kings and Queens
+Seat 4: gro0o0ve showed [9c Td] and won (6830) with a straight, Nine to King
+Seat 6: TepidR folded before Flop (didn't bet)
+Seat 7: brunofumaca (button) showed [Ac Jd] and lost with a pair of Jacks
+Seat 8: An.VoV (small blind) folded before Flop
+
+
+
+PokerStars Hand #259749496864: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VI (250/500) - 2026/02/16 15:22:37 UTC [2026/02/16 10:22:37 ET]
+Table '3974723402 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (15015 in chips) 
+Seat 2: sullee01 (27710 in chips) 
+Seat 3: devlud21 (15880 in chips) 
+Seat 4: gro0o0ve (6830 in chips) 
+Seat 5: JMacc94 (10000 in chips) 
+Seat 6: TepidR (49455 in chips) 
+Seat 7: brunofumaca (48160 in chips) 
+Seat 8: An.VoV (7680 in chips) 
+scorza23: posts the ante 50
+sullee01: posts the ante 50
+devlud21: posts the ante 50
+gro0o0ve: posts the ante 50
+JMacc94: posts the ante 50
+TepidR: posts the ante 50
+brunofumaca: posts the ante 50
+An.VoV: posts the ante 50
+scorza23: posts small blind 250
+sullee01: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Qc]
+devlud21: raises 15330 to 15830 and is all-in
+gro0o0ve: calls 6780 and is all-in
+JMacc94: calls 9950 and is all-in
+TepidR: folds 
+brunofumaca: raises 15330 to 31160
+An.VoV: folds 
+scorza23: folds 
+sullee01: folds 
+Uncalled bet (15330) returned to brunofumaca
+*** FLOP *** [Js 7d Qd]
+*** TURN *** [Js 7d Qd] [6d]
+*** RIVER *** [Js 7d Qd 6d] [2d]
+*** SHOW DOWN ***
+devlud21: shows [6h 6s] (three of a kind, Sixes)
+brunofumaca: shows [2c Kh] (a pair of Deuces)
+devlud21 collected 11760 from side pot-2 
+JMacc94: shows [Ac Jh] (a pair of Jacks)
+devlud21 collected 9510 from side pot-1 
+gro0o0ve: shows [8d 9d] (a flush, Queen high)
+gro0o0ve collected 28270 from main pot
+JMacc94 finished the tournament
+*** SUMMARY ***
+Total pot 49540 Main pot 28270. Side pot-1 9510. Side pot-2 11760. | Rake 0 
+Board [Js 7d Qd 6d 2d]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: sullee01 (big blind) folded before Flop
+Seat 3: devlud21 showed [6h 6s] and won (21270) with three of a kind, Sixes
+Seat 4: gro0o0ve showed [8d 9d] and won (28270) with a flush, Queen high
+Seat 5: JMacc94 showed [Ac Jh] and lost with a pair of Jacks
+Seat 6: TepidR folded before Flop (didn't bet)
+Seat 7: brunofumaca showed [2c Kh] and lost with a pair of Deuces
+Seat 8: An.VoV (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749502923: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VII (300/600) - 2026/02/16 15:23:12 UTC [2026/02/16 10:23:12 ET]
+Table '3974723402 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (14715 in chips) 
+Seat 2: sullee01 (27160 in chips) 
+Seat 3: devlud21 (21270 in chips) 
+Seat 4: gro0o0ve (28270 in chips) 
+Seat 6: TepidR (49405 in chips) 
+Seat 7: brunofumaca (32280 in chips) 
+Seat 8: An.VoV (7630 in chips) 
+scorza23: posts the ante 60
+sullee01: posts the ante 60
+devlud21: posts the ante 60
+gro0o0ve: posts the ante 60
+TepidR: posts the ante 60
+brunofumaca: posts the ante 60
+An.VoV: posts the ante 60
+sullee01: posts small blind 300
+devlud21: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 9h]
+gro0o0ve: raises 27610 to 28210 and is all-in
+TepidR: folds 
+brunofumaca: raises 4010 to 32220 and is all-in
+An.VoV: folds 
+scorza23: folds 
+sullee01: folds 
+devlud21: folds 
+Uncalled bet (4010) returned to brunofumaca
+*** FLOP *** [3s As Qd]
+*** TURN *** [3s As Qd] [4d]
+*** RIVER *** [3s As Qd 4d] [7d]
+*** SHOW DOWN ***
+gro0o0ve: shows [Qh Th] (a pair of Queens)
+brunofumaca: shows [Qs Jh] (a pair of Queens - Ace+Jack kicker)
+brunofumaca collected 57740 from pot
+gro0o0ve finished the tournament
+*** SUMMARY ***
+Total pot 57740 | Rake 0 
+Board [3s As Qd 4d 7d]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: sullee01 (small blind) folded before Flop
+Seat 3: devlud21 (big blind) folded before Flop
+Seat 4: gro0o0ve showed [Qh Th] and lost with a pair of Queens
+Seat 6: TepidR folded before Flop (didn't bet)
+Seat 7: brunofumaca showed [Qs Jh] and won (57740) with a pair of Queens
+Seat 8: An.VoV folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749508116: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VII (300/600) - 2026/02/16 15:23:43 UTC [2026/02/16 10:23:43 ET]
+Table '3974723402 4' 8-max Seat #2 is the button
+Seat 1: scorza23 (14655 in chips) 
+Seat 2: sullee01 (26800 in chips) 
+Seat 3: devlud21 (20610 in chips) 
+Seat 5: JMacc94 (10000 in chips) 
+Seat 6: TepidR (49345 in chips) 
+Seat 7: brunofumaca (61750 in chips) 
+Seat 8: An.VoV (7570 in chips) 
+scorza23: posts the ante 60
+sullee01: posts the ante 60
+devlud21: posts the ante 60
+JMacc94: posts the ante 60
+TepidR: posts the ante 60
+brunofumaca: posts the ante 60
+An.VoV: posts the ante 60
+devlud21: posts small blind 300
+JMacc94: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 8h]
+hanseate97 is disconnected 
+TepidR: folds 
+brunofumaca: raises 7200 to 7800
+An.VoV: folds 
+scorza23: folds 
+sullee01: folds 
+devlud21: folds 
+JMacc94: raises 2140 to 9940 and is all-in
+brunofumaca: calls 2140
+*** FLOP *** [9h 9c 8c]
+*** TURN *** [9h 9c 8c] [Kd]
+*** RIVER *** [9h 9c 8c Kd] [6c]
+*** SHOW DOWN ***
+JMacc94: shows [Td Js] (a pair of Nines)
+brunofumaca: shows [3s 5s] (a pair of Nines - lower kicker)
+JMacc94 collected 20600 from pot
+*** SUMMARY ***
+Total pot 20600 | Rake 0 
+Board [9h 9c 8c Kd 6c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: sullee01 (button) folded before Flop (didn't bet)
+Seat 3: devlud21 (small blind) folded before Flop
+Seat 5: JMacc94 (big blind) showed [Td Js] and won (20600) with a pair of Nines
+Seat 6: TepidR folded before Flop (didn't bet)
+Seat 7: brunofumaca showed [3s 5s] and lost with a pair of Nines
+Seat 8: An.VoV folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749516601: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VII (300/600) - 2026/02/16 15:24:32 UTC [2026/02/16 10:24:32 ET]
+Table '3974723402 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (14595 in chips) 
+Seat 2: sullee01 (26740 in chips) 
+Seat 3: devlud21 (20250 in chips) 
+Seat 4: hanseate97 (10000 in chips) out of hand (moved from another table into small blind)
+Seat 5: JMacc94 (20600 in chips) 
+Seat 6: TepidR (49285 in chips) 
+Seat 7: brunofumaca (51750 in chips) 
+Seat 8: An.VoV (7510 in chips) 
+hanseate97 will be allowed to play after the button
+scorza23: posts the ante 60
+sullee01: posts the ante 60
+devlud21: posts the ante 60
+JMacc94: posts the ante 60
+TepidR: posts the ante 60
+brunofumaca: posts the ante 60
+An.VoV: posts the ante 60
+JMacc94: posts small blind 300
+TepidR: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Qh]
+brunofumaca: raises 12600 to 13200
+An.VoV: folds 
+scorza23: folds 
+sullee01: folds 
+devlud21: folds 
+JMacc94: folds 
+TepidR: folds 
+Uncalled bet (12600) returned to brunofumaca
+brunofumaca collected 1920 from pot
+*** SUMMARY ***
+Total pot 1920 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: sullee01 folded before Flop (didn't bet)
+Seat 3: devlud21 (button) folded before Flop (didn't bet)
+Seat 5: JMacc94 (small blind) folded before Flop
+Seat 6: TepidR (big blind) folded before Flop
+Seat 7: brunofumaca collected (1920)
+Seat 8: An.VoV folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259749522618: Tournament #3974723402, $1.40+$0.10 USD Hold'em No Limit - Level VII (300/600) - 2026/02/16 15:25:07 UTC [2026/02/16 10:25:07 ET]
+Table '3974723402 4' 8-max Seat #5 is the button
+Seat 1: scorza23 (14535 in chips) 
+Seat 2: sullee01 (26680 in chips) 
+Seat 3: devlud21 (20190 in chips) 
+Seat 5: JMacc94 (20240 in chips) 
+Seat 6: TepidR (48625 in chips) 
+Seat 7: brunofumaca (53010 in chips) 
+Seat 8: An.VoV (7450 in chips) 
+scorza23: posts the ante 60
+sullee01: posts the ante 60
+devlud21: posts the ante 60
+JMacc94: posts the ante 60
+TepidR: posts the ante 60
+brunofumaca: posts the ante 60
+An.VoV: posts the ante 60
+TepidR: posts small blind 300
+brunofumaca: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [As 4h]
+An.VoV: folds 
+scorza23: raises 1200 to 1800
+sullee01: folds 
+devlud21: folds 
+JMacc94: folds 
+TepidR: folds 
+brunofumaca: calls 1200
+*** FLOP *** [3h Kc 6s]
+brunofumaca: bets 51150 and is all-in
+scorza23: calls 12675 and is all-in
+Uncalled bet (38475) returned to brunofumaca
+*** TURN *** [3h Kc 6s] [7s]
+*** RIVER *** [3h Kc 6s 7s] [4c]
+*** SHOW DOWN ***
+brunofumaca: shows [5h 3c] (a straight, Three to Seven)
+scorza23: shows [As 4h] (a pair of Fours)
+brunofumaca collected 29670 from pot
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 29670 | Rake 0 
+Board [3h Kc 6s 7s 4c]
+Seat 1: scorza23 showed [As 4h] and lost with a pair of Fours
+Seat 2: sullee01 folded before Flop (didn't bet)
+Seat 3: devlud21 folded before Flop (didn't bet)
+Seat 5: JMacc94 (button) folded before Flop (didn't bet)
+Seat 6: TepidR (small blind) folded before Flop
+Seat 7: brunofumaca (big blind) showed [5h 3c] and won (29670) with a straight, Three to Seven
+Seat 8: An.VoV folded before Flop (didn't bet)
+
+
+

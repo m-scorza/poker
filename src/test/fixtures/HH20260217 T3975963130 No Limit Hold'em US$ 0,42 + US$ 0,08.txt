@@ -1,0 +1,987 @@
+﻿PokerStars Hand #259762637090: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:33:06 UTC [2026/02/17 9:33:06 ET]
+Table '3975963130 1' 9-max Seat #1 is the button
+Seat 1: Polimentar1 (1500 in chips) 
+Seat 2: Dofeitosa (1500 in chips) 
+Seat 3: avonni d3 (1500 in chips) 
+Seat 4: chrysz13 (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: Viinex13 (1500 in chips) 
+Seat 7: Pentecoste54 (1500 in chips) 
+Seat 8: MCLMUSIC (1500 in chips) 
+Seat 9: wallmxz (1500 in chips) 
+Dofeitosa: posts small blind 10
+avonni d3: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 7h]
+chrysz13: folds 
+scorza23: folds 
+Viinex13: raises 40 to 60
+Pentecoste54: calls 60
+MCLMUSIC: folds 
+wallmxz: raises 60 to 120
+Polimentar1: folds 
+Dofeitosa: folds 
+avonni d3: folds 
+Viinex13: calls 60
+Pentecoste54: calls 60
+*** FLOP *** [3h 7s 5d]
+Viinex13: bets 60
+Pentecoste54: calls 60
+wallmxz: raises 60 to 120
+Viinex13: calls 60
+Pentecoste54: calls 60
+*** TURN *** [3h 7s 5d] [Jc]
+Viinex13: checks 
+Pentecoste54: checks 
+wallmxz: bets 375
+Viinex13: folds 
+Pentecoste54: folds 
+Uncalled bet (375) returned to wallmxz
+wallmxz collected 750 from pot
+wallmxz: doesn't show hand 
+*** SUMMARY ***
+Total pot 750 | Rake 0 
+Board [3h 7s 5d Jc]
+Seat 1: Polimentar1 (button) folded before Flop (didn't bet)
+Seat 2: Dofeitosa (small blind) folded before Flop
+Seat 3: avonni d3 (big blind) folded before Flop
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded on the Turn
+Seat 7: Pentecoste54 folded on the Turn
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz collected (750)
+
+
+
+PokerStars Hand #259762651741: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:34:43 UTC [2026/02/17 9:34:43 ET]
+Table '3975963130 1' 9-max Seat #2 is the button
+Seat 1: Polimentar1 (1500 in chips) 
+Seat 2: Dofeitosa (1490 in chips) 
+Seat 3: avonni d3 (1480 in chips) 
+Seat 4: chrysz13 (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: Viinex13 (1260 in chips) 
+Seat 7: Pentecoste54 (1260 in chips) 
+Seat 8: MCLMUSIC (1500 in chips) 
+Seat 9: wallmxz (2010 in chips) 
+avonni d3: posts small blind 10
+chrysz13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Qs]
+scorza23: folds 
+Viinex13: folds 
+Pentecoste54: folds 
+MCLMUSIC: folds 
+wallmxz: folds 
+Polimentar1: raises 40 to 60
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+Uncalled bet (40) returned to Polimentar1
+Polimentar1 collected 50 from pot
+Polimentar1: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: Polimentar1 collected (50)
+Seat 2: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 3: avonni d3 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762655063: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:35:05 UTC [2026/02/17 9:35:05 ET]
+Table '3975963130 1' 9-max Seat #3 is the button
+Seat 1: Polimentar1 (1530 in chips) 
+Seat 2: Dofeitosa (1490 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (1480 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: Viinex13 (1260 in chips) 
+Seat 7: Pentecoste54 (1260 in chips) 
+Seat 8: MCLMUSIC (1500 in chips) 
+Seat 9: wallmxz (2010 in chips) 
+chrysz13: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Jd]
+Viinex13: folds 
+Pentecoste54: raises 20 to 40
+MCLMUSIC: folds 
+wallmxz: folds 
+Polimentar1: folds 
+Dofeitosa: calls 40
+avonni d3: folds 
+chrysz13: raises 120 to 160
+scorza23: folds 
+Pentecoste54: calls 120
+Dofeitosa: folds 
+*** FLOP *** [As 2d 5d]
+chrysz13: bets 125
+Pentecoste54: folds 
+Uncalled bet (125) returned to chrysz13
+chrysz13 collected 380 from pot
+chrysz13: doesn't show hand 
+*** SUMMARY ***
+Total pot 380 | Rake 0 
+Board [As 2d 5d]
+Seat 1: Polimentar1 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop
+Seat 3: avonni d3 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) collected (380)
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 folded on the Flop
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762661478: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:35:48 UTC [2026/02/17 9:35:48 ET]
+Table '3975963130 1' 9-max Seat #4 is the button
+Seat 1: Polimentar1 (1530 in chips) 
+Seat 2: Dofeitosa (1450 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (1700 in chips) 
+Seat 5: scorza23 (1480 in chips) 
+Seat 6: Viinex13 (1260 in chips) 
+Seat 7: Pentecoste54 (1100 in chips) 
+Seat 8: MCLMUSIC (1500 in chips) 
+Seat 9: wallmxz (2010 in chips) 
+scorza23: posts small blind 10
+Viinex13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 2c]
+Pentecoste54: folds 
+MCLMUSIC: folds 
+wallmxz: folds 
+Polimentar1: raises 40 to 60
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: raises 80 to 140
+Polimentar1: calls 80
+*** FLOP *** [Kd 4h 5s]
+Viinex13: bets 60
+Polimentar1: calls 60
+*** TURN *** [Kd 4h 5s] [5c]
+Viinex13: bets 225
+Polimentar1: folds 
+Uncalled bet (225) returned to Viinex13
+Viinex13 collected 410 from pot
+Viinex13: doesn't show hand 
+*** SUMMARY ***
+Total pot 410 | Rake 0 
+Board [Kd 4h 5s 5c]
+Seat 1: Polimentar1 folded on the Turn
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: Viinex13 (big blind) collected (410)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762670903: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:36:51 UTC [2026/02/17 9:36:51 ET]
+Table '3975963130 1' 9-max Seat #5 is the button
+Seat 1: Polimentar1 (1330 in chips) 
+Seat 2: Dofeitosa (1450 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (1700 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (1470 in chips) 
+Seat 7: Pentecoste54 (1100 in chips) 
+Seat 8: MCLMUSIC (1500 in chips) 
+Seat 9: wallmxz (2010 in chips) 
+Viinex13: posts small blind 10
+Pentecoste54: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As 3d]
+MCLMUSIC: folds 
+wallmxz: folds 
+Polimentar1: raises 40 to 60
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: calls 50
+Pentecoste54: folds 
+*** FLOP *** [Kc 5c 8s]
+Viinex13: checks 
+Polimentar1: bets 50
+Viinex13: calls 50
+*** TURN *** [Kc 5c 8s] [6s]
+Viinex13: checks 
+Polimentar1: bets 180
+Viinex13: folds 
+Uncalled bet (180) returned to Polimentar1
+Polimentar1 collected 240 from pot
+Polimentar1: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Board [Kc 5c 8s 6s]
+Seat 1: Polimentar1 collected (240)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Viinex13 (small blind) folded on the Turn
+Seat 7: Pentecoste54 (big blind) folded before Flop
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762681104: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:37:58 UTC [2026/02/17 9:37:58 ET]
+Table '3975963130 1' 9-max Seat #6 is the button
+Seat 1: Polimentar1 (1460 in chips) 
+Seat 2: Dofeitosa (1450 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (1700 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (1360 in chips) 
+Seat 7: Pentecoste54 (1080 in chips) 
+Seat 8: MCLMUSIC (1500 in chips) 
+Seat 9: wallmxz (2010 in chips) 
+Pentecoste54: posts small blind 10
+MCLMUSIC: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 8d]
+wallmxz: folds 
+Polimentar1: folds 
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: raises 60 to 80
+Pentecoste54: folds 
+MCLMUSIC: folds 
+Uncalled bet (60) returned to Viinex13
+Viinex13 collected 50 from pot
+Viinex13: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: Polimentar1 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 (button) collected (50)
+Seat 7: Pentecoste54 (small blind) folded before Flop
+Seat 8: MCLMUSIC (big blind) folded before Flop
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762686990: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:38:36 UTC [2026/02/17 9:38:36 ET]
+Table '3975963130 1' 9-max Seat #7 is the button
+Seat 1: Polimentar1 (1460 in chips) 
+Seat 2: Dofeitosa (1450 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (1700 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (1390 in chips) 
+Seat 7: Pentecoste54 (1070 in chips) 
+Seat 8: MCLMUSIC (1480 in chips) 
+Seat 9: wallmxz (2010 in chips) 
+MCLMUSIC: posts small blind 15
+wallmxz: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 9c]
+Polimentar1: folds 
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: raises 30 to 60
+scorza23: folds 
+Viinex13: folds 
+Pentecoste54: folds 
+MCLMUSIC: folds 
+wallmxz: raises 30 to 90
+chrysz13: calls 30
+*** FLOP *** [6h Tc Js]
+wallmxz: checks 
+chrysz13: bets 87
+wallmxz: calls 87
+*** TURN *** [6h Tc Js] [3c]
+wallmxz: bets 125
+chrysz13: calls 125
+*** RIVER *** [6h Tc Js 3c] [6c]
+wallmxz: checks 
+chrysz13: checks 
+*** SHOW DOWN ***
+wallmxz: shows [7h 8d] (a pair of Sixes)
+chrysz13: shows [Ad Jh] (two pair, Jacks and Sixes)
+chrysz13 collected 619 from pot
+*** SUMMARY ***
+Total pot 619 | Rake 0 
+Board [6h Tc Js 3c 6c]
+Seat 1: Polimentar1 folded before Flop (didn't bet)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 showed [Ad Jh] and won (619) with two pair, Jacks and Sixes
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 8: MCLMUSIC (small blind) folded before Flop
+Seat 9: wallmxz (big blind) showed [7h 8d] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #259762697174: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:39:43 UTC [2026/02/17 9:39:43 ET]
+Table '3975963130 1' 9-max Seat #8 is the button
+Seat 1: Polimentar1 (1460 in chips) 
+Seat 2: Dofeitosa (1450 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (2017 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (1390 in chips) 
+Seat 7: Pentecoste54 (1070 in chips) 
+Seat 8: MCLMUSIC (1465 in chips) 
+Seat 9: wallmxz (1708 in chips) 
+wallmxz: posts small blind 15
+Polimentar1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 2c]
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: folds 
+Pentecoste54: raises 30 to 60
+MCLMUSIC: folds 
+wallmxz: folds 
+Polimentar1: raises 195 to 255
+Pentecoste54: calls 195
+*** FLOP *** [2h 7h 5s]
+Polimentar1: bets 405
+Pentecoste54: folds 
+Uncalled bet (405) returned to Polimentar1
+Polimentar1 collected 525 from pot
+Polimentar1: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [2h 7h 5s]
+Seat 1: Polimentar1 (big blind) collected (525)
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 folded on the Flop
+Seat 8: MCLMUSIC (button) folded before Flop (didn't bet)
+Seat 9: wallmxz (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762704829: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:40:33 UTC [2026/02/17 9:40:33 ET]
+Table '3975963130 1' 9-max Seat #9 is the button
+Seat 1: Polimentar1 (1730 in chips) 
+Seat 2: Dofeitosa (1450 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (2017 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (1390 in chips) 
+Seat 7: Pentecoste54 (815 in chips) 
+Seat 8: MCLMUSIC (1465 in chips) 
+Seat 9: wallmxz (1693 in chips) 
+Polimentar1: posts small blind 15
+Dofeitosa: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8h]
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: raises 60 to 90
+Pentecoste54: folds 
+MCLMUSIC: folds 
+wallmxz: folds 
+Polimentar1: calls 75
+Dofeitosa: calls 60
+*** FLOP *** [Qs 6d As]
+Polimentar1: checks 
+Dofeitosa: checks 
+Viinex13: bets 60
+Polimentar1: calls 60
+Dofeitosa: folds 
+*** TURN *** [Qs 6d As] [6c]
+Polimentar1: checks 
+Viinex13: bets 90
+Polimentar1: raises 225 to 315
+Viinex13: raises 225 to 540
+Polimentar1: calls 225
+*** RIVER *** [Qs 6d As 6c] [9d]
+Polimentar1: checks 
+Viinex13: bets 700 and is all-in
+Polimentar1: calls 700
+*** SHOW DOWN ***
+Viinex13: shows [Ac Kh] (two pair, Aces and Sixes)
+Polimentar1: shows [7d Ad] (two pair, Aces and Sixes - lower kicker)
+Viinex13 collected 2870 from pot
+*** SUMMARY ***
+Total pot 2870 | Rake 0 
+Board [Qs 6d As 6c 9d]
+Seat 1: Polimentar1 (small blind) showed [7d Ad] and lost with two pair, Aces and Sixes
+Seat 2: Dofeitosa (big blind) folded on the Flop
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 showed [Ac Kh] and won (2870) with two pair, Aces and Sixes
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762720919: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:42:19 UTC [2026/02/17 9:42:19 ET]
+Table '3975963130 1' 9-max Seat #1 is the button
+Seat 1: Polimentar1 (340 in chips) 
+Seat 2: Dofeitosa (1360 in chips) 
+Seat 3: avonni d3 (1470 in chips) 
+Seat 4: chrysz13 (2017 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (2870 in chips) 
+Seat 7: Pentecoste54 (815 in chips) 
+Seat 8: MCLMUSIC (1465 in chips) 
+Seat 9: wallmxz (1693 in chips) 
+Dofeitosa: posts small blind 15
+avonni d3: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 8s]
+chrysz13: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+Viinex13: folds 
+scorza23 has returned
+Pentecoste54: folds 
+MCLMUSIC: raises 30 to 60
+wallmxz: raises 165 to 225
+Polimentar1: calls 225
+Dofeitosa: folds 
+avonni d3: folds 
+MCLMUSIC: folds 
+*** FLOP *** [2c 6c 2d]
+wallmxz: bets 555
+Polimentar1: calls 115 and is all-in
+Uncalled bet (440) returned to wallmxz
+*** TURN *** [2c 6c 2d] [6s]
+*** RIVER *** [2c 6c 2d 6s] [8c]
+*** SHOW DOWN ***
+wallmxz: shows [Ac Kc] (a flush, Ace high)
+Polimentar1: shows [Qs Qc] (two pair, Queens and Sixes)
+wallmxz collected 785 from pot
+Polimentar1 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 785 | Rake 0 
+Board [2c 6c 2d 6s 8c]
+Seat 1: Polimentar1 (button) showed [Qs Qc] and lost with two pair, Queens and Sixes
+Seat 2: Dofeitosa (small blind) folded before Flop
+Seat 3: avonni d3 (big blind) folded before Flop
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC folded before Flop
+Seat 9: wallmxz showed [Ac Kc] and won (785) with a flush, Ace high
+
+
+
+PokerStars Hand #259762732402: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:43:33 UTC [2026/02/17 9:43:33 ET]
+Table '3975963130 1' 9-max Seat #2 is the button
+Seat 2: Dofeitosa (1345 in chips) 
+Seat 3: avonni d3 (1440 in chips) 
+Seat 4: chrysz13 (2017 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (2870 in chips) 
+Seat 7: Pentecoste54 (815 in chips) 
+Seat 8: MCLMUSIC (1405 in chips) 
+Seat 9: wallmxz (2138 in chips) 
+avonni d3: posts small blind 25
+chrysz13: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Ts]
+scorza23: folds 
+Viinex13: folds 
+Pentecoste54 has timed out
+Pentecoste54: folds 
+Pentecoste54 is sitting out
+MCLMUSIC: raises 50 to 100
+wallmxz: folds 
+Dofeitosa: folds 
+Pentecoste54 has returned
+avonni d3: folds 
+chrysz13: calls 50
+*** FLOP *** [Tc Ad 6c]
+chrysz13: checks 
+MCLMUSIC: bets 74
+chrysz13: calls 74
+*** TURN *** [Tc Ad 6c] [Qd]
+chrysz13: checks 
+MCLMUSIC: bets 400
+chrysz13: folds 
+Uncalled bet (400) returned to MCLMUSIC
+MCLMUSIC collected 373 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 373 | Rake 0 
+Board [Tc Ad 6c Qd]
+Seat 2: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 3: avonni d3 (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC collected (373)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762744372: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:44:50 UTC [2026/02/17 9:44:50 ET]
+Table '3975963130 1' 9-max Seat #3 is the button
+Seat 2: Dofeitosa (1345 in chips) 
+Seat 3: avonni d3 (1415 in chips) 
+Seat 4: chrysz13 (1843 in chips) 
+Seat 5: scorza23 (1470 in chips) 
+Seat 6: Viinex13 (2870 in chips) 
+Seat 7: Pentecoste54 (815 in chips) 
+Seat 8: MCLMUSIC (1604 in chips) 
+Seat 9: wallmxz (2138 in chips) 
+chrysz13: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 7s]
+Viinex13: raises 100 to 150
+Pentecoste54: folds 
+MCLMUSIC: folds 
+wallmxz: folds 
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Uncalled bet (100) returned to Viinex13
+Viinex13 collected 125 from pot
+Viinex13: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: Viinex13 collected (125)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762748568: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:45:16 UTC [2026/02/17 9:45:16 ET]
+Table '3975963130 1' 9-max Seat #4 is the button
+Seat 2: Dofeitosa (1345 in chips) 
+Seat 3: avonni d3 (1415 in chips) 
+Seat 4: chrysz13 (1818 in chips) 
+Seat 5: scorza23 (1420 in chips) 
+Seat 6: Viinex13 (2945 in chips) 
+Seat 7: Pentecoste54 (815 in chips) 
+Seat 8: MCLMUSIC (1604 in chips) 
+Seat 9: wallmxz (2138 in chips) 
+scorza23: posts small blind 25
+Viinex13: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 5s]
+Pentecoste54: folds 
+MCLMUSIC: folds 
+wallmxz: raises 100 to 150
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: calls 100
+*** FLOP *** [4c 9s 9c]
+Viinex13: bets 100
+wallmxz: raises 525 to 625
+Viinex13: folds 
+Uncalled bet (525) returned to wallmxz
+wallmxz collected 525 from pot
+wallmxz: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [4c 9s 9c]
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: Viinex13 (big blind) folded on the Flop
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz collected (525)
+
+
+
+PokerStars Hand #259762755259: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:45:59 UTC [2026/02/17 9:45:59 ET]
+Table '3975963130 1' 9-max Seat #5 is the button
+Seat 2: Dofeitosa (1345 in chips) 
+Seat 3: avonni d3 (1415 in chips) 
+Seat 4: chrysz13 (1818 in chips) 
+Seat 5: scorza23 (1395 in chips) 
+Seat 6: Viinex13 (2695 in chips) 
+Seat 7: Pentecoste54 (815 in chips) 
+Seat 8: MCLMUSIC (1604 in chips) 
+Seat 9: wallmxz (2413 in chips) 
+Viinex13: posts small blind 25
+Pentecoste54: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Tc]
+MCLMUSIC: folds 
+wallmxz: raises 100 to 150
+Dofeitosa: raises 250 to 400
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: folds 
+Pentecoste54: folds 
+wallmxz: calls 250
+*** FLOP *** [Kd 4d 2s]
+wallmxz: bets 438
+Dofeitosa: raises 507 to 945 and is all-in
+wallmxz: folds 
+Uncalled bet (507) returned to Dofeitosa
+Dofeitosa collected 1751 from pot
+Dofeitosa: doesn't show hand 
+*** SUMMARY ***
+Total pot 1751 | Rake 0 
+Board [Kd 4d 2s]
+Seat 2: Dofeitosa collected (1751)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Viinex13 (small blind) folded before Flop
+Seat 7: Pentecoste54 (big blind) folded before Flop
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded on the Flop
+
+
+
+PokerStars Hand #259762763538: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:46:52 UTC [2026/02/17 9:46:52 ET]
+Table '3975963130 1' 9-max Seat #6 is the button
+Seat 2: Dofeitosa (2258 in chips) 
+Seat 3: avonni d3 (1415 in chips) 
+Seat 4: chrysz13 (1818 in chips) 
+Seat 5: scorza23 (1395 in chips) 
+Seat 6: Viinex13 (2670 in chips) 
+Seat 7: Pentecoste54 (765 in chips) 
+Seat 8: MCLMUSIC (1604 in chips) 
+Seat 9: wallmxz (1575 in chips) 
+Pentecoste54: posts small blind 25
+MCLMUSIC: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 4s]
+wallmxz: folds 
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: raises 100 to 150
+Pentecoste54: folds 
+MCLMUSIC: folds 
+Uncalled bet (100) returned to Viinex13
+Viinex13 collected 125 from pot
+Viinex13: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 (button) collected (125)
+Seat 7: Pentecoste54 (small blind) folded before Flop
+Seat 8: MCLMUSIC (big blind) folded before Flop
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762770991: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:47:39 UTC [2026/02/17 9:47:39 ET]
+Table '3975963130 1' 9-max Seat #7 is the button
+Seat 2: Dofeitosa (2258 in chips) 
+Seat 3: avonni d3 (1415 in chips) 
+Seat 4: chrysz13 (1818 in chips) 
+Seat 5: scorza23 (1395 in chips) 
+Seat 6: Viinex13 (2745 in chips) 
+Seat 7: Pentecoste54 (740 in chips) 
+Seat 8: MCLMUSIC (1554 in chips) 
+Seat 9: wallmxz (1575 in chips) 
+MCLMUSIC: posts small blind 25
+wallmxz: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Tc]
+Dofeitosa: folds 
+avonni d3: folds 
+chrysz13: folds 
+scorza23: folds 
+Viinex13: raises 150 to 200
+Pentecoste54 has timed out
+Pentecoste54: folds 
+Pentecoste54 is sitting out
+MCLMUSIC: folds 
+wallmxz: folds 
+Uncalled bet (150) returned to Viinex13
+Viinex13 collected 125 from pot
+Viinex13: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 3: avonni d3 folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 collected (125)
+Seat 7: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 8: MCLMUSIC (small blind) folded before Flop
+Seat 9: wallmxz (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762778187: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:48:24 UTC [2026/02/17 9:48:24 ET]
+Table '3975963130 1' 9-max Seat #8 is the button
+Seat 2: Dofeitosa (2258 in chips) 
+Seat 3: avonni d3 (1415 in chips) 
+Seat 4: chrysz13 (1818 in chips) 
+Seat 5: scorza23 (1395 in chips) 
+Seat 6: Viinex13 (2820 in chips) 
+Seat 7: Pentecoste54 (740 in chips) is sitting out
+Seat 8: MCLMUSIC (1529 in chips) 
+Seat 9: wallmxz (1525 in chips) 
+wallmxz: posts small blind 50
+Dofeitosa: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 7s]
+avonni d3: raises 1315 to 1415 and is all-in
+chrysz13: folds 
+scorza23: folds 
+Viinex13: folds 
+Pentecoste54: folds 
+MCLMUSIC: raises 114 to 1529 and is all-in
+wallmxz: folds 
+Dofeitosa: folds 
+Uncalled bet (114) returned to MCLMUSIC
+*** FLOP *** [Qd 7c 5c]
+*** TURN *** [Qd 7c 5c] [Th]
+*** RIVER *** [Qd 7c 5c Th] [Qh]
+*** SHOW DOWN ***
+avonni d3: shows [Kc Ac] (a pair of Queens)
+MCLMUSIC: shows [7h 7d] (a full house, Sevens full of Queens)
+MCLMUSIC collected 2980 from pot
+avonni d3 finished the tournament in 8th place
+Pentecoste54 has returned
+*** SUMMARY ***
+Total pot 2980 | Rake 0 
+Board [Qd 7c 5c Th Qh]
+Seat 2: Dofeitosa (big blind) folded before Flop
+Seat 3: avonni d3 showed [Kc Ac] and lost with a pair of Queens
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC (button) showed [7h 7d] and won (2980) with a full house, Sevens full of Queens
+Seat 9: wallmxz (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762784595: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:49:04 UTC [2026/02/17 9:49:04 ET]
+Table '3975963130 1' 9-max Seat #9 is the button
+Seat 2: Dofeitosa (2158 in chips) 
+Seat 4: chrysz13 (1818 in chips) 
+Seat 5: scorza23 (1395 in chips) 
+Seat 6: Viinex13 (2820 in chips) 
+Seat 7: Pentecoste54 (740 in chips) 
+Seat 8: MCLMUSIC (3094 in chips) 
+Seat 9: wallmxz (1475 in chips) 
+Dofeitosa: posts small blind 50
+chrysz13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 2c]
+scorza23: folds 
+Viinex13: folds 
+Pentecoste54: folds 
+MCLMUSIC: raises 100 to 200
+wallmxz: folds 
+Dofeitosa: folds 
+chrysz13: folds 
+Uncalled bet (100) returned to MCLMUSIC
+MCLMUSIC collected 250 from pot
+MCLMUSIC: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 2: Dofeitosa (small blind) folded before Flop
+Seat 4: chrysz13 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC collected (250)
+Seat 9: wallmxz (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762790296: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:49:41 UTC [2026/02/17 9:49:41 ET]
+Table '3975963130 1' 9-max Seat #2 is the button
+Seat 2: Dofeitosa (2108 in chips) 
+Seat 4: chrysz13 (1718 in chips) 
+Seat 5: scorza23 (1395 in chips) 
+Seat 6: Viinex13 (2820 in chips) 
+Seat 7: Pentecoste54 (740 in chips) 
+Seat 8: MCLMUSIC (3244 in chips) 
+Seat 9: wallmxz (1475 in chips) 
+chrysz13: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 4h]
+Viinex13: folds 
+Pentecoste54: raises 100 to 200
+MCLMUSIC: folds 
+wallmxz: folds 
+Dofeitosa: folds 
+chrysz13: folds 
+scorza23: calls 100
+*** FLOP *** [5c 2s Ah]
+scorza23: checks 
+Pentecoste54: bets 149
+scorza23: folds 
+Uncalled bet (149) returned to Pentecoste54
+Pentecoste54 collected 450 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [5c 2s Ah]
+Seat 2: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 4: chrysz13 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Flop
+Seat 6: Viinex13 folded before Flop (didn't bet)
+Seat 7: Pentecoste54 collected (450)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762797349: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:50:27 UTC [2026/02/17 9:50:27 ET]
+Table '3975963130 1' 9-max Seat #4 is the button
+Seat 2: Dofeitosa (2108 in chips) 
+Seat 4: chrysz13 (1668 in chips) 
+Seat 5: scorza23 (1195 in chips) 
+Seat 6: Viinex13 (2820 in chips) 
+Seat 7: Pentecoste54 (990 in chips) 
+Seat 8: MCLMUSIC (3244 in chips) 
+Seat 9: wallmxz (1475 in chips) 
+scorza23: posts small blind 50
+Viinex13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 4d]
+Pentecoste54: folds 
+MCLMUSIC: folds 
+wallmxz: folds 
+Dofeitosa: folds 
+chrysz13: raises 200 to 300
+scorza23: folds 
+Viinex13: calls 200
+*** FLOP *** [7d Qc Ah]
+Viinex13: bets 200
+chrysz13: folds 
+Uncalled bet (200) returned to Viinex13
+Viinex13 collected 650 from pot
+Viinex13: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Board [7d Qc Ah]
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 4: chrysz13 (button) folded on the Flop
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: Viinex13 (big blind) collected (650)
+Seat 7: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762803238: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:51:04 UTC [2026/02/17 9:51:04 ET]
+Table '3975963130 1' 9-max Seat #5 is the button
+Seat 2: Dofeitosa (2108 in chips) 
+Seat 4: chrysz13 (1368 in chips) 
+Seat 5: scorza23 (1145 in chips) 
+Seat 6: Viinex13 (3170 in chips) 
+Seat 7: Pentecoste54 (990 in chips) 
+Seat 8: MCLMUSIC (3244 in chips) 
+Seat 9: wallmxz (1475 in chips) 
+Viinex13: posts small blind 50
+Pentecoste54: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qc]
+MCLMUSIC: folds 
+wallmxz: folds 
+Dofeitosa: folds 
+chrysz13: folds 
+scorza23: raises 200 to 300
+Viinex13: folds 
+Pentecoste54: raises 690 to 990 and is all-in
+scorza23: folds 
+Uncalled bet (690) returned to Pentecoste54
+Pentecoste54 collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop
+Seat 6: Viinex13 (small blind) folded before Flop
+Seat 7: Pentecoste54 (big blind) collected (650)
+Seat 8: MCLMUSIC folded before Flop (didn't bet)
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762811127: Tournament #3975963130, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/17 14:51:55 UTC [2026/02/17 9:51:55 ET]
+Table '3975963130 1' 9-max Seat #6 is the button
+Seat 2: Dofeitosa (2108 in chips) 
+Seat 4: chrysz13 (1368 in chips) 
+Seat 5: scorza23 (845 in chips) 
+Seat 6: Viinex13 (3120 in chips) 
+Seat 7: Pentecoste54 (1340 in chips) 
+Seat 8: MCLMUSIC (3244 in chips) 
+Seat 9: wallmxz (1475 in chips) 
+Pentecoste54: posts small blind 50
+MCLMUSIC: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 4d]
+wallmxz: folds 
+Dofeitosa: folds 
+chrysz13: folds 
+scorza23: raises 745 to 845 and is all-in
+Viinex13: folds 
+Pentecoste54: raises 495 to 1340 and is all-in
+MCLMUSIC: folds 
+Uncalled bet (495) returned to Pentecoste54
+*** FLOP *** [8d 6c 9h]
+*** TURN *** [8d 6c 9h] [Js]
+*** RIVER *** [8d 6c 9h Js] [Th]
+*** SHOW DOWN ***
+Pentecoste54: shows [Ac Qc] (a straight, Eight to Queen)
+scorza23: shows [Ad 4d] (high card Ace)
+Pentecoste54 collected 1790 from pot
+scorza23 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1790 | Rake 0 
+Board [8d 6c 9h Js Th]
+Seat 2: Dofeitosa folded before Flop (didn't bet)
+Seat 4: chrysz13 folded before Flop (didn't bet)
+Seat 5: scorza23 showed [Ad 4d] and lost with high card Ace
+Seat 6: Viinex13 (button) folded before Flop (didn't bet)
+Seat 7: Pentecoste54 (small blind) showed [Ac Qc] and won (1790) with a straight, Eight to Queen
+Seat 8: MCLMUSIC (big blind) folded before Flop
+Seat 9: wallmxz folded before Flop (didn't bet)
+
+
+

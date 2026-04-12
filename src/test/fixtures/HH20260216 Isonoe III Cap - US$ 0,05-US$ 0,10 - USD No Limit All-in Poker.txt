@@ -1,0 +1,105 @@
+﻿PokerStars Hand #259758235593:  All-In Poker No Limit ($0.05/$0.10 - $2.50 Cap -  USD) - 2026/02/17 1:16:30 UTC [2026/02/16 20:16:30 ET]
+Table 'Isonoe III' 6-max Seat #3 is the button
+Seat 1: JEFGEGE ($0 in chips) is sitting out
+Seat 2: cinkelö ($3.60 in chips) 
+Seat 3: Szomy05 ($0.67 in chips) 
+Seat 4: Cherrypoping ($0.50 in chips) 
+Seat 5: scorza23 ($0.50 in chips) 
+Seat 6: 10snakie10 ($1.82 in chips) 
+Cherrypoping: posts small blind $0.05
+scorza23: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 5h]
+10snakie10: folds 
+cinkelö: folds 
+Szomy05: folds 
+Cherrypoping: raises $0.40 to $0.50 and is all-in
+scorza23: folds 
+Uncalled bet ($0.40) returned to Cherrypoping
+Cherrypoping collected $0.20 from pot
+Cherrypoping: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.20 | Rake $0 
+Seat 1: JEFGEGE
+Seat 2: cinkelö folded before Flop (didn't bet)
+Seat 3: Szomy05 (button) folded before Flop (didn't bet)
+Seat 4: Cherrypoping (small blind) collected ($0.20)
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: 10snakie10 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758238948:  All-In Poker No Limit ($0.05/$0.10 - $2.50 Cap -  USD) - 2026/02/17 1:16:53 UTC [2026/02/16 20:16:53 ET]
+Table 'Isonoe III' 6-max Seat #4 is the button
+Seat 1: JEFGEGE ($0 in chips) is sitting out
+Seat 2: cinkelö ($3.60 in chips) 
+Seat 3: Szomy05 ($0.67 in chips) 
+Seat 4: Cherrypoping ($0.60 in chips) 
+Seat 5: scorza23 ($0.40 in chips) 
+Seat 6: 10snakie10 ($1.82 in chips) 
+scorza23: posts small blind $0.05
+10snakie10: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 2s]
+cinkelö: folds 
+Szomy05: raises $0.57 to $0.67 and is all-in
+Cherrypoping: calls $0.60 and is all-in
+scorza23: folds 
+10snakie10: calls $0.57
+*** FLOP *** [Qd 7h 5s]
+*** TURN *** [Qd 7h 5s] [6s]
+*** RIVER *** [Qd 7h 5s 6s] [4c]
+*** SHOW DOWN ***
+10snakie10: shows [8d 8h] (a straight, Four to Eight)
+Szomy05: shows [Ac 6d] (a pair of Sixes)
+10snakie10 collected $0.13 from side pot
+Cherrypoping: shows [3c 3h] (a straight, Three to Seven)
+10snakie10 collected $1.77 from main pot
+*** SUMMARY ***
+Total pot $1.99 Main pot $1.77. Side pot $0.13. | Rake $0.09 
+Board [Qd 7h 5s 6s 4c]
+Seat 1: JEFGEGE
+Seat 2: cinkelö folded before Flop (didn't bet)
+Seat 3: Szomy05 showed [Ac 6d] and lost with a pair of Sixes
+Seat 4: Cherrypoping (button) showed [3c 3h] and lost with a straight, Three to Seven
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: 10snakie10 (big blind) showed [8d 8h] and won ($1.90) with a straight, Four to Eight
+
+
+
+PokerStars Hand #259758241942:  All-In Poker No Limit ($0.05/$0.10 - $2.50 Cap -  USD) - 2026/02/17 1:17:13 UTC [2026/02/16 20:17:13 ET]
+Table 'Isonoe III' 6-max Seat #5 is the button
+Seat 1: JEFGEGE ($0 in chips) is sitting out
+Seat 2: cinkelö ($3.60 in chips) 
+Seat 3: Szomy05 ($0.50 in chips) 
+Seat 4: Cherrypoping ($0.50 in chips) 
+Seat 5: scorza23 ($0.35 in chips) 
+Seat 6: 10snakie10 ($3.05 in chips) 
+10snakie10: posts small blind $0.05
+cinkelö: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Jc]
+Szomy05: folds 
+Cherrypoping: folds 
+scorza23: raises $0.25 to $0.35 and is all-in
+10snakie10: folds 
+cinkelö: calls $0.25
+*** FLOP *** [8s 4c 6h]
+*** TURN *** [8s 4c 6h] [5h]
+*** RIVER *** [8s 4c 6h 5h] [5c]
+*** SHOW DOWN ***
+cinkelö: shows [Ah 9s] (a pair of Fives)
+scorza23: shows [Ks Jc] (a pair of Fives - lower kicker)
+cinkelö collected $0.72 from pot
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.03 
+Board [8s 4c 6h 5h 5c]
+Seat 1: JEFGEGE
+Seat 2: cinkelö (big blind) showed [Ah 9s] and won ($0.72) with a pair of Fives
+Seat 3: Szomy05 folded before Flop (didn't bet)
+Seat 4: Cherrypoping folded before Flop (didn't bet)
+Seat 5: scorza23 (button) showed [Ks Jc] and lost with a pair of Fives
+Seat 6: 10snakie10 (small blind) folded before Flop
+
+
+

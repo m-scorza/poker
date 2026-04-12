@@ -1,0 +1,211 @@
+﻿PokerStars Hand #260345529577: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:57:02 UTC [2026/04/04 15:57:02 ET]
+Table '3989289921 1' 3-max Seat #1 is the button
+Seat 1: scorza23 (500 in chips) 
+Seat 2: Zenith1865 (500 in chips) 
+Seat 3: PassoniRafa (500 in chips) 
+Zenith1865: posts small blind 10
+PassoniRafa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ts]
+scorza23: folds 
+Zenith1865: raises 40 to 60
+PassoniRafa: raises 440 to 500 and is all-in
+Zenith1865: folds 
+Uncalled bet (440) returned to PassoniRafa
+PassoniRafa collected 120 from pot
+PassoniRafa: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: Zenith1865 (small blind) folded before Flop
+Seat 3: PassoniRafa (big blind) collected (120)
+
+
+
+PokerStars Hand #260345531268: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:57:13 UTC [2026/04/04 15:57:13 ET]
+Table '3989289921 1' 3-max Seat #2 is the button
+Seat 1: scorza23 (500 in chips) 
+Seat 2: Zenith1865 (440 in chips) 
+Seat 3: PassoniRafa (560 in chips) 
+PassoniRafa: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Jd]
+Zenith1865: raises 20 to 40
+PassoniRafa: folds 
+scorza23: raises 460 to 500 and is all-in
+Zenith1865: folds 
+Uncalled bet (460) returned to scorza23
+scorza23 collected 90 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Seat 1: scorza23 (big blind) collected (90)
+Seat 2: Zenith1865 (button) folded before Flop
+Seat 3: PassoniRafa (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345533676: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:57:29 UTC [2026/04/04 15:57:29 ET]
+Table '3989289921 1' 3-max Seat #3 is the button
+Seat 1: scorza23 (550 in chips) 
+Seat 2: Zenith1865 (400 in chips) 
+Seat 3: PassoniRafa (550 in chips) 
+scorza23: posts small blind 10
+Zenith1865: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Kh]
+PassoniRafa: raises 20 to 40
+scorza23: folds 
+Zenith1865: calls 20
+*** FLOP *** [Qs 7s Th]
+Zenith1865: checks 
+PassoniRafa: bets 40
+Zenith1865: raises 40 to 80
+PassoniRafa: raises 430 to 510 and is all-in
+Zenith1865: calls 280 and is all-in
+Uncalled bet (150) returned to PassoniRafa
+*** TURN *** [Qs 7s Th] [4d]
+*** RIVER *** [Qs 7s Th 4d] [Js]
+*** SHOW DOWN ***
+Zenith1865: shows [Qd Ts] (two pair, Queens and Tens)
+PassoniRafa: shows [Ad Jc] (a pair of Jacks)
+Zenith1865 collected 810 from pot
+*** SUMMARY ***
+Total pot 810 | Rake 0 
+Board [Qs 7s Th 4d Js]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: Zenith1865 (big blind) showed [Qd Ts] and won (810) with two pair, Queens and Tens
+Seat 3: PassoniRafa (button) showed [Ad Jc] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #260345537384: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:57:53 UTC [2026/04/04 15:57:53 ET]
+Table '3989289921 1' 3-max Seat #1 is the button
+Seat 1: scorza23 (540 in chips) 
+Seat 2: Zenith1865 (810 in chips) 
+Seat 3: PassoniRafa (150 in chips) 
+Zenith1865: posts small blind 10
+PassoniRafa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 5h]
+scorza23: raises 520 to 540 and is all-in
+Zenith1865: folds 
+PassoniRafa: calls 130 and is all-in
+Uncalled bet (390) returned to scorza23
+*** FLOP *** [5c 9s 4d]
+*** TURN *** [5c 9s 4d] [As]
+*** RIVER *** [5c 9s 4d As] [7d]
+*** SHOW DOWN ***
+PassoniRafa: shows [Ts Jh] (high card Ace)
+scorza23: shows [Ac 5h] (two pair, Aces and Fives)
+scorza23 collected 310 from pot
+PassoniRafa finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 310 | Rake 0 
+Board [5c 9s 4d As 7d]
+Seat 1: scorza23 (button) showed [Ac 5h] and won (310) with two pair, Aces and Fives
+Seat 2: Zenith1865 (small blind) folded before Flop
+Seat 3: PassoniRafa (big blind) showed [Ts Jh] and lost with high card Ace
+
+
+
+PokerStars Hand #260345540657: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:58:15 UTC [2026/04/04 15:58:15 ET]
+Table '3989289921 1' 3-max Seat #2 is the button
+Seat 1: scorza23 (700 in chips) 
+Seat 2: Zenith1865 (800 in chips) 
+Zenith1865: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Qs]
+Zenith1865: raises 30 to 60
+scorza23: raises 640 to 700 and is all-in
+Zenith1865: folds 
+Uncalled bet (640) returned to scorza23
+scorza23 collected 120 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: scorza23 (big blind) collected (120)
+Seat 2: Zenith1865 (button) (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345541815: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:58:23 UTC [2026/04/04 15:58:23 ET]
+Table '3989289921 1' 3-max Seat #1 is the button
+Seat 1: scorza23 (760 in chips) 
+Seat 2: Zenith1865 (740 in chips) 
+scorza23: posts small blind 15
+Zenith1865: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8c As]
+scorza23: raises 730 to 760 and is all-in
+Zenith1865: calls 710 and is all-in
+Uncalled bet (20) returned to scorza23
+*** FLOP *** [2d Ks Jc]
+*** TURN *** [2d Ks Jc] [9h]
+*** RIVER *** [2d Ks Jc 9h] [7c]
+*** SHOW DOWN ***
+Zenith1865: shows [3h 3s] (a pair of Threes)
+scorza23: shows [8c As] (high card Ace)
+Zenith1865 collected 1480 from pot
+*** SUMMARY ***
+Total pot 1480 | Rake 0 
+Board [2d Ks Jc 9h 7c]
+Seat 1: scorza23 (button) (small blind) showed [8c As] and lost with high card Ace
+Seat 2: Zenith1865 (big blind) showed [3h 3s] and won (1480) with a pair of Threes
+
+
+
+PokerStars Hand #260345543787: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:58:36 UTC [2026/04/04 15:58:36 ET]
+Table '3989289921 1' 3-max Seat #2 is the button
+Seat 1: scorza23 (20 in chips) 
+Seat 2: Zenith1865 (1480 in chips) 
+Zenith1865: posts small blind 15
+scorza23: posts big blind 20 and is all-in
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 8c]
+Zenith1865: calls 5
+*** FLOP *** [Td Th Qc]
+*** TURN *** [Td Th Qc] [2h]
+*** RIVER *** [Td Th Qc 2h] [6c]
+*** SHOW DOWN ***
+scorza23: shows [2c 8c] (two pair, Tens and Deuces)
+Zenith1865: shows [5s 4c] (a pair of Tens)
+scorza23 collected 40 from pot
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [Td Th Qc 2h 6c]
+Seat 1: scorza23 (big blind) showed [2c 8c] and won (40) with two pair, Tens and Deuces
+Seat 2: Zenith1865 (button) (small blind) showed [5s 4c] and lost with a pair of Tens
+
+
+
+PokerStars Hand #260345546223: Tournament #3989289921, $0.46+$0.04 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:58:52 UTC [2026/04/04 15:58:52 ET]
+Table '3989289921 1' 3-max Seat #1 is the button
+Seat 1: scorza23 (40 in chips) 
+Seat 2: Zenith1865 (1460 in chips) 
+scorza23: posts small blind 15
+Zenith1865: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 9h]
+scorza23: raises 10 to 40 and is all-in
+Zenith1865: calls 10
+*** FLOP *** [2s Ah 3d]
+*** TURN *** [2s Ah 3d] [Ad]
+*** RIVER *** [2s Ah 3d Ad] [8d]
+*** SHOW DOWN ***
+Zenith1865: shows [Ts Js] (a pair of Aces)
+scorza23: shows [4h 9h] (a pair of Aces - lower kicker)
+Zenith1865 collected 80 from pot
+scorza23 finished the tournament in 2nd place
+Zenith1865 wins the tournament - congratulations!
+Zenith1865 wins a '$1.00 Power Path Step 2 Ticket' ticket
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [2s Ah 3d Ad 8d]
+Seat 1: scorza23 (button) (small blind) showed [4h 9h] and lost with a pair of Aces
+Seat 2: Zenith1865 (big blind) showed [Ts Js] and won (80) with a pair of Aces
+
+
+

@@ -1,0 +1,1838 @@
+﻿PokerStars Hand #259750518625: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:58:32 UTC [2026/02/16 11:58:32 ET]
+Table '3975702151 1' 9-max Seat #1 is the button
+Seat 1: diksonpion (1500 in chips) 
+Seat 2: Pentecoste54 (1500 in chips) 
+Seat 3: AlvaroCesar91 (1500 in chips) 
+Seat 4: Brahngrier (1500 in chips) 
+Seat 5: NickB251 (1500 in chips) 
+Seat 6: MrRodgersOwn (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: Charlie.teh (1500 in chips) 
+Seat 9: ehrickmelzer (1500 in chips) 
+Pentecoste54: posts small blind 10
+AlvaroCesar91: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 5s]
+Brahngrier: folds 
+NickB251: calls 20
+MrRodgersOwn: raises 50 to 70
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: folds 
+Pentecoste54: folds 
+AlvaroCesar91: calls 50
+NickB251: calls 50
+*** FLOP *** [9s 6s 8s]
+AlvaroCesar91: checks 
+NickB251: bets 60
+MrRodgersOwn: raises 109 to 169
+AlvaroCesar91: calls 169
+NickB251: calls 109
+*** TURN *** [9s 6s 8s] [6c]
+AlvaroCesar91: checks 
+NickB251: bets 400
+MrRodgersOwn: folds 
+AlvaroCesar91: calls 400
+*** RIVER *** [9s 6s 8s 6c] [4d]
+AlvaroCesar91: checks 
+NickB251: bets 861 and is all-in
+AlvaroCesar91: folds 
+Uncalled bet (861) returned to NickB251
+NickB251 collected 1527 from pot
+NickB251: doesn't show hand 
+*** SUMMARY ***
+Total pot 1527 | Rake 0 
+Board [9s 6s 8s 6c 4d]
+Seat 1: diksonpion (button) folded before Flop (didn't bet)
+Seat 2: Pentecoste54 (small blind) folded before Flop
+Seat 3: AlvaroCesar91 (big blind) folded on the River
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 collected (1527)
+Seat 6: MrRodgersOwn folded on the Turn
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750530928: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:59:54 UTC [2026/02/16 11:59:54 ET]
+Table '3975702151 1' 9-max Seat #2 is the button
+Seat 1: diksonpion (1500 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (861 in chips) 
+Seat 4: Brahngrier (1500 in chips) 
+Seat 5: NickB251 (2388 in chips) 
+Seat 6: MrRodgersOwn (1261 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: Charlie.teh (1500 in chips) 
+Seat 9: ehrickmelzer (1500 in chips) 
+AlvaroCesar91: posts small blind 10
+Brahngrier: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 2h]
+NickB251: calls 20
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: calls 20
+Pentecoste54: folds 
+AlvaroCesar91: raises 60 to 80
+Brahngrier: folds 
+NickB251: calls 60
+diksonpion: calls 60
+*** FLOP *** [As Tc 9d]
+AlvaroCesar91: checks 
+NickB251: checks 
+diksonpion: checks 
+*** TURN *** [As Tc 9d] [Jc]
+AlvaroCesar91: checks 
+NickB251: checks 
+diksonpion: checks 
+*** RIVER *** [As Tc 9d Jc] [8c]
+AlvaroCesar91: bets 130
+NickB251: raises 170 to 300
+diksonpion: calls 300
+AlvaroCesar91: calls 170
+*** SHOW DOWN ***
+NickB251: shows [Qc 6d] (a straight, Eight to Queen)
+diksonpion: shows [Qd 4d] (a straight, Eight to Queen)
+AlvaroCesar91: mucks hand 
+NickB251 collected 580 from pot
+diksonpion collected 580 from pot
+*** SUMMARY ***
+Total pot 1160 | Rake 0 
+Board [As Tc 9d Jc 8c]
+Seat 1: diksonpion showed [Qd 4d] and won (580) with a straight, Eight to Queen
+Seat 2: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 3: AlvaroCesar91 (small blind) mucked [7h 5h]
+Seat 4: Brahngrier (big blind) folded before Flop
+Seat 5: NickB251 showed [Qc 6d] and won (580) with a straight, Eight to Queen
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750549123: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:01:39 UTC [2026/02/16 12:01:39 ET]
+Table '3975702151 1' 9-max Seat #3 is the button
+Seat 1: diksonpion (1700 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (481 in chips) 
+Seat 4: Brahngrier (1480 in chips) 
+Seat 5: NickB251 (2588 in chips) 
+Seat 6: MrRodgersOwn (1261 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: Charlie.teh (1500 in chips) 
+Seat 9: ehrickmelzer (1500 in chips) 
+Brahngrier: posts small blind 10
+NickB251: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4h]
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: folds 
+Pentecoste54 has timed out
+Pentecoste54: folds 
+Pentecoste54 is sitting out
+AlvaroCesar91: raises 20 to 40
+Pentecoste54 has returned
+Brahngrier: raises 100 to 140
+NickB251: calls 120
+AlvaroCesar91: calls 100
+*** FLOP *** [Qd 2h Ac]
+Brahngrier: bets 360
+NickB251: folds 
+AlvaroCesar91: folds 
+Uncalled bet (360) returned to Brahngrier
+Brahngrier collected 420 from pot
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Board [Qd 2h Ac]
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 3: AlvaroCesar91 (button) folded on the Flop
+Seat 4: Brahngrier (small blind) collected (420)
+Seat 5: NickB251 (big blind) folded on the Flop
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750564590: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 17:02:58 UTC [2026/02/16 12:02:58 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 1: diksonpion (1700 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (341 in chips) 
+Seat 4: Brahngrier (1760 in chips) 
+Seat 5: NickB251 (2448 in chips) 
+Seat 6: MrRodgersOwn (1261 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: Charlie.teh (1500 in chips) 
+Seat 9: ehrickmelzer (1500 in chips) 
+NickB251: posts small blind 10
+MrRodgersOwn: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 4c]
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: calls 20
+Pentecoste54: folds 
+AlvaroCesar91: folds 
+Brahngrier: calls 20
+NickB251: calls 10
+MrRodgersOwn: raises 50 to 70
+diksonpion: calls 50
+Brahngrier: folds 
+NickB251: calls 50
+*** FLOP *** [8s 7d Kc]
+NickB251: checks 
+MrRodgersOwn: checks 
+diksonpion: checks 
+*** TURN *** [8s 7d Kc] [3s]
+NickB251: checks 
+MrRodgersOwn: bets 146
+diksonpion: folds 
+NickB251: folds 
+Uncalled bet (146) returned to MrRodgersOwn
+MrRodgersOwn collected 230 from pot
+MrRodgersOwn: doesn't show hand 
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Board [8s 7d Kc 3s]
+Seat 1: diksonpion folded on the Turn
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 3: AlvaroCesar91 folded before Flop (didn't bet)
+Seat 4: Brahngrier (button) folded before Flop
+Seat 5: NickB251 (small blind) folded on the Turn
+Seat 6: MrRodgersOwn (big blind) collected (230)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750580867: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:04:19 UTC [2026/02/16 12:04:19 ET]
+Table '3975702151 1' 9-max Seat #5 is the button
+Seat 1: diksonpion (1630 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (341 in chips) 
+Seat 4: Brahngrier (1740 in chips) 
+Seat 5: NickB251 (2378 in chips) 
+Seat 6: MrRodgersOwn (1421 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: Charlie.teh (1500 in chips) 
+Seat 9: ehrickmelzer (1500 in chips) 
+MrRodgersOwn: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 9d]
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: folds 
+Pentecoste54: folds 
+AlvaroCesar91: folds 
+Brahngrier: raises 30 to 60
+NickB251: calls 60
+MrRodgersOwn: calls 45
+scorza23: calls 30
+*** FLOP *** [5s Ts As]
+MrRodgersOwn: checks 
+scorza23: bets 240
+Brahngrier: folds 
+NickB251: calls 240
+MrRodgersOwn: folds 
+*** TURN *** [5s Ts As] [Ac]
+scorza23: bets 720
+NickB251: folds 
+Uncalled bet (720) returned to scorza23
+scorza23 collected 720 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 720 | Rake 0 
+Board [5s Ts As Ac]
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 3: AlvaroCesar91 folded before Flop (didn't bet)
+Seat 4: Brahngrier folded on the Flop
+Seat 5: NickB251 (button) folded on the Turn
+Seat 6: MrRodgersOwn (small blind) folded on the Flop
+Seat 7: scorza23 (big blind) collected (720)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750598664: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:05:48 UTC [2026/02/16 12:05:48 ET]
+Table '3975702151 1' 9-max Seat #6 is the button
+Seat 1: diksonpion (1630 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (341 in chips) 
+Seat 4: Brahngrier (1680 in chips) 
+Seat 5: NickB251 (2078 in chips) 
+Seat 6: MrRodgersOwn (1361 in chips) 
+Seat 7: scorza23 (1920 in chips) 
+Seat 8: Charlie.teh (1500 in chips) 
+Seat 9: ehrickmelzer (1500 in chips) 
+scorza23: posts small blind 15
+Charlie.teh: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 7d]
+ehrickmelzer: calls 30
+diksonpion: folds 
+Pentecoste54: folds 
+AlvaroCesar91: raises 311 to 341 and is all-in
+Brahngrier: folds 
+NickB251: folds 
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: calls 311
+*** FLOP *** [7s 4d Ah]
+*** TURN *** [7s 4d Ah] [4c]
+*** RIVER *** [7s 4d Ah 4c] [Ac]
+*** SHOW DOWN ***
+ehrickmelzer: shows [Qd Ks] (two pair, Aces and Fours)
+AlvaroCesar91: shows [Kh 8s] (two pair, Aces and Fours)
+ehrickmelzer collected 364 from pot
+AlvaroCesar91 collected 363 from pot
+*** SUMMARY ***
+Total pot 727 | Rake 0 
+Board [7s 4d Ah 4c Ac]
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 3: AlvaroCesar91 showed [Kh 8s] and won (363) with two pair, Aces and Fours
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Charlie.teh (big blind) folded before Flop
+Seat 9: ehrickmelzer showed [Qd Ks] and won (364) with two pair, Aces and Fours
+
+
+
+PokerStars Hand #259750608132: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:06:36 UTC [2026/02/16 12:06:36 ET]
+Table '3975702151 1' 9-max Seat #7 is the button
+Seat 1: diksonpion (1630 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (363 in chips) 
+Seat 4: Brahngrier (1680 in chips) 
+Seat 5: NickB251 (2078 in chips) 
+Seat 6: MrRodgersOwn (1361 in chips) 
+Seat 7: scorza23 (1905 in chips) 
+Seat 8: Charlie.teh (1470 in chips) 
+Seat 9: ehrickmelzer (1523 in chips) 
+Charlie.teh: posts small blind 15
+ehrickmelzer: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Qd]
+diksonpion: folds 
+Pentecoste54: folds 
+AlvaroCesar91: folds 
+Brahngrier: folds 
+NickB251: calls 30
+MrRodgersOwn: calls 30
+scorza23: folds 
+Charlie.teh: calls 15
+ehrickmelzer: checks 
+*** FLOP *** [5s Kd 2d]
+Charlie.teh: bets 60
+ehrickmelzer: folds 
+NickB251: folds 
+MrRodgersOwn: calls 60
+*** TURN *** [5s Kd 2d] [Td]
+Charlie.teh: bets 120
+MrRodgersOwn: folds 
+Uncalled bet (120) returned to Charlie.teh
+Charlie.teh collected 240 from pot
+Charlie.teh: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Board [5s Kd 2d Td]
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 3: AlvaroCesar91 folded before Flop (didn't bet)
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded on the Flop
+Seat 6: MrRodgersOwn folded on the Turn
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Charlie.teh (small blind) collected (240)
+Seat 9: ehrickmelzer (big blind) folded on the Flop
+
+
+
+PokerStars Hand #259750629452: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 17:08:23 UTC [2026/02/16 12:08:23 ET]
+Table '3975702151 1' 9-max Seat #8 is the button
+Seat 1: diksonpion (1630 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (363 in chips) 
+Seat 4: Brahngrier (1680 in chips) 
+Seat 5: NickB251 (2048 in chips) 
+Seat 6: MrRodgersOwn (1271 in chips) 
+Seat 7: scorza23 (1905 in chips) 
+Seat 8: Charlie.teh (1620 in chips) 
+Seat 9: ehrickmelzer (1493 in chips) 
+ehrickmelzer: posts small blind 15
+diksonpion: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Ad]
+Pentecoste54: folds 
+AlvaroCesar91: folds 
+Brahngrier: folds 
+NickB251: folds 
+MrRodgersOwn: raises 36 to 66
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: folds 
+Uncalled bet (36) returned to MrRodgersOwn
+MrRodgersOwn collected 75 from pot
+MrRodgersOwn: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: diksonpion (big blind) folded before Flop
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 3: AlvaroCesar91 folded before Flop (didn't bet)
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn collected (75)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh (button) folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750636381: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:08:58 UTC [2026/02/16 12:08:58 ET]
+Table '3975702151 1' 9-max Seat #9 is the button
+Seat 1: diksonpion (1600 in chips) 
+Seat 2: Pentecoste54 (1490 in chips) 
+Seat 3: AlvaroCesar91 (363 in chips) 
+Seat 4: Brahngrier (1680 in chips) 
+Seat 5: NickB251 (2048 in chips) 
+Seat 6: MrRodgersOwn (1316 in chips) 
+Seat 7: scorza23 (1905 in chips) 
+Seat 8: Charlie.teh (1620 in chips) 
+Seat 9: ehrickmelzer (1478 in chips) 
+diksonpion: posts small blind 25
+Pentecoste54: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Ad]
+AlvaroCesar91: folds 
+Brahngrier: folds 
+NickB251: calls 50
+MrRodgersOwn: folds 
+scorza23: raises 100 to 150
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: calls 125
+Pentecoste54: folds 
+NickB251: calls 100
+*** FLOP *** [Qs Ks 4h]
+diksonpion: checks 
+NickB251: checks 
+scorza23: checks 
+*** TURN *** [Qs Ks 4h] [2h]
+diksonpion: checks 
+NickB251: checks 
+scorza23: checks 
+*** RIVER *** [Qs Ks 4h 2h] [8d]
+diksonpion: checks 
+NickB251: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+diksonpion: shows [Jh Ah] (high card Ace)
+NickB251: shows [Jd 8h] (a pair of Eights)
+scorza23: mucks hand 
+NickB251 collected 500 from pot
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Board [Qs Ks 4h 2h 8d]
+Seat 1: diksonpion (small blind) showed [Jh Ah] and lost with high card Ace
+Seat 2: Pentecoste54 (big blind) folded before Flop
+Seat 3: AlvaroCesar91 folded before Flop (didn't bet)
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 showed [Jd 8h] and won (500) with a pair of Eights
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 mucked [7s Ad]
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750649890: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:10:07 UTC [2026/02/16 12:10:07 ET]
+Table '3975702151 1' 9-max Seat #1 is the button
+Seat 1: diksonpion (1450 in chips) 
+Seat 2: Pentecoste54 (1440 in chips) 
+Seat 3: AlvaroCesar91 (363 in chips) 
+Seat 4: Brahngrier (1680 in chips) 
+Seat 5: NickB251 (2398 in chips) 
+Seat 6: MrRodgersOwn (1316 in chips) 
+Seat 7: scorza23 (1755 in chips) 
+Seat 8: Charlie.teh (1620 in chips) 
+Seat 9: ehrickmelzer (1478 in chips) 
+Pentecoste54: posts small blind 25
+AlvaroCesar91: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 9h]
+Brahngrier: folds 
+NickB251: calls 50
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: raises 50 to 100
+diksonpion: calls 100
+Pentecoste54: calls 75
+AlvaroCesar91: raises 263 to 363 and is all-in
+NickB251: folds 
+ehrickmelzer: calls 263
+diksonpion: calls 263
+Pentecoste54: calls 263
+*** FLOP *** [Qc Js Kh]
+Pentecoste54: checks 
+ehrickmelzer: bets 150
+diksonpion: calls 150
+Pentecoste54: calls 150
+*** TURN *** [Qc Js Kh] [As]
+Pentecoste54: checks 
+ehrickmelzer: bets 50
+diksonpion: calls 50
+Pentecoste54: calls 50
+*** RIVER *** [Qc Js Kh As] [5s]
+Pentecoste54: checks 
+ehrickmelzer: checks 
+diksonpion: checks 
+*** SHOW DOWN ***
+Pentecoste54: shows [Ac Qs] (two pair, Aces and Queens)
+ehrickmelzer: mucks hand 
+diksonpion: mucks hand 
+Pentecoste54 collected 600 from side pot
+AlvaroCesar91: mucks hand 
+Pentecoste54 collected 1502 from main pot
+AlvaroCesar91 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 2102 Main pot 1502. Side pot 600. | Rake 0 
+Board [Qc Js Kh As 5s]
+Seat 1: diksonpion (button) mucked [8h Qd]
+Seat 2: Pentecoste54 (small blind) showed [Ac Qs] and won (2102) with two pair, Aces and Queens
+Seat 3: AlvaroCesar91 (big blind) mucked [5c Kc]
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer mucked [Qh Kd]
+
+
+
+PokerStars Hand #259750666987: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:11:31 UTC [2026/02/16 12:11:31 ET]
+Table '3975702151 1' 9-max Seat #2 is the button
+Seat 1: diksonpion (887 in chips) 
+Seat 2: Pentecoste54 (2979 in chips) 
+Seat 4: Brahngrier (1680 in chips) 
+Seat 5: NickB251 (2348 in chips) 
+Seat 6: MrRodgersOwn (1316 in chips) 
+Seat 7: scorza23 (1755 in chips) 
+Seat 8: Charlie.teh (1620 in chips) 
+Seat 9: ehrickmelzer (915 in chips) 
+Brahngrier: posts small blind 25
+NickB251: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 8h]
+MrRodgersOwn: raises 60 to 110
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: calls 110
+Pentecoste54: raises 310 to 420
+Brahngrier: folds 
+NickB251: raises 310 to 730
+MrRodgersOwn: folds 
+diksonpion: folds 
+Pentecoste54: calls 310
+*** FLOP *** [Th Ah Jd]
+NickB251: checks 
+Pentecoste54: bets 853
+NickB251: raises 765 to 1618 and is all-in
+Pentecoste54: calls 765
+*** TURN *** [Th Ah Jd] [Kh]
+*** RIVER *** [Th Ah Jd Kh] [3s]
+*** SHOW DOWN ***
+NickB251: shows [Ac Ad] (three of a kind, Aces)
+Pentecoste54: shows [Ks As] (two pair, Aces and Kings)
+NickB251 collected 4941 from pot
+*** SUMMARY ***
+Total pot 4941 | Rake 0 
+Board [Th Ah Jd Kh 3s]
+Seat 1: diksonpion folded before Flop
+Seat 2: Pentecoste54 (button) showed [Ks As] and lost with two pair, Aces and Kings
+Seat 4: Brahngrier (small blind) folded before Flop
+Seat 5: NickB251 (big blind) showed [Ac Ad] and won (4941) with three of a kind, Aces
+Seat 6: MrRodgersOwn folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750678218: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:12:27 UTC [2026/02/16 12:12:27 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 1: diksonpion (777 in chips) 
+Seat 2: Pentecoste54 (631 in chips) 
+Seat 4: Brahngrier (1655 in chips) 
+Seat 5: NickB251 (4941 in chips) 
+Seat 6: MrRodgersOwn (1206 in chips) 
+Seat 7: scorza23 (1755 in chips) 
+Seat 8: Charlie.teh (1620 in chips) 
+Seat 9: ehrickmelzer (915 in chips) 
+NickB251: posts small blind 25
+MrRodgersOwn: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 7h]
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: calls 50
+Pentecoste54: folds 
+Brahngrier: folds 
+NickB251: calls 25
+MrRodgersOwn: checks 
+*** FLOP *** [Qs 8s Th]
+Brahngrier is disconnected 
+NickB251: checks 
+MrRodgersOwn: checks 
+diksonpion: checks 
+*** TURN *** [Qs 8s Th] [2s]
+NickB251: checks 
+MrRodgersOwn: checks 
+diksonpion: checks 
+*** RIVER *** [Qs 8s Th 2s] [Ac]
+NickB251: bets 100
+MrRodgersOwn: folds 
+diksonpion: folds 
+Uncalled bet (100) returned to NickB251
+NickB251 collected 150 from pot
+NickB251: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Board [Qs 8s Th 2s Ac]
+Seat 1: diksonpion folded on the River
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 4: Brahngrier (button) folded before Flop (didn't bet)
+Seat 5: NickB251 (small blind) collected (150)
+Seat 6: MrRodgersOwn (big blind) folded on the River
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750689942: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/02/16 17:13:26 UTC [2026/02/16 12:13:26 ET]
+Table '3975702151 1' 9-max Seat #5 is the button
+Seat 1: diksonpion (727 in chips) 
+Seat 2: Pentecoste54 (631 in chips) 
+Seat 4: Brahngrier (1655 in chips) 
+Seat 5: NickB251 (5041 in chips) 
+Seat 6: MrRodgersOwn (1156 in chips) 
+Seat 7: scorza23 (1755 in chips) 
+Seat 8: Charlie.teh (1620 in chips) 
+Seat 9: ehrickmelzer (915 in chips) 
+MrRodgersOwn: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4c]
+Charlie.teh: folds 
+ehrickmelzer: calls 50
+diksonpion: folds 
+Pentecoste54: folds 
+Brahngrier has timed out while disconnected
+Brahngrier: folds 
+Brahngrier is sitting out
+NickB251: folds 
+MrRodgersOwn: calls 25
+scorza23: checks 
+*** FLOP *** [Ac Ad 5s]
+MrRodgersOwn: checks 
+scorza23: checks 
+ehrickmelzer: bets 150
+MrRodgersOwn: folds 
+scorza23: folds 
+Uncalled bet (150) returned to ehrickmelzer
+ehrickmelzer collected 150 from pot
+ehrickmelzer: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Board [Ac Ad 5s]
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 (button) folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn (small blind) folded on the Flop
+Seat 7: scorza23 (big blind) folded on the Flop
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer collected (150)
+
+
+
+PokerStars Hand #259750703606: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:14:34 UTC [2026/02/16 12:14:34 ET]
+Table '3975702151 1' 9-max Seat #6 is the button
+Seat 1: diksonpion (727 in chips) 
+Seat 2: Pentecoste54 (631 in chips) 
+Seat 4: Brahngrier (1655 in chips) 
+Seat 5: NickB251 (5041 in chips) 
+Seat 6: MrRodgersOwn (1106 in chips) 
+Seat 7: scorza23 (1705 in chips) 
+Seat 8: Charlie.teh (1620 in chips) 
+Seat 9: ehrickmelzer (1015 in chips) 
+scorza23: posts small blind 50
+Charlie.teh: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Jh]
+ehrickmelzer: folds 
+diksonpion: folds 
+Pentecoste54: folds 
+Brahngrier: folds 
+NickB251: calls 100
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: checks 
+*** FLOP *** [3s 7h Qc]
+Charlie.teh: bets 100
+NickB251: folds 
+Uncalled bet (100) returned to Charlie.teh
+Charlie.teh collected 250 from pot
+Charlie.teh: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [3s 7h Qc]
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded on the Flop
+Seat 6: MrRodgersOwn (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Charlie.teh (big blind) collected (250)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750712819: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:15:19 UTC [2026/02/16 12:15:19 ET]
+Table '3975702151 1' 9-max Seat #7 is the button
+Seat 1: diksonpion (727 in chips) 
+Seat 2: Pentecoste54 (631 in chips) 
+Seat 4: Brahngrier (1655 in chips) 
+Seat 5: NickB251 (4941 in chips) 
+Seat 6: MrRodgersOwn (1106 in chips) 
+Seat 7: scorza23 (1655 in chips) 
+Seat 8: Charlie.teh (1770 in chips) 
+Seat 9: ehrickmelzer (1015 in chips) 
+Charlie.teh: posts small blind 50
+ehrickmelzer: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 4c]
+Brahngrier is disconnected 
+diksonpion: folds 
+Pentecoste54: raises 531 to 631 and is all-in
+Brahngrier has timed out while disconnected
+Brahngrier: folds 
+Brahngrier is sitting out
+NickB251: folds 
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Uncalled bet (531) returned to Pentecoste54
+Pentecoste54 collected 250 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 collected (250)
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Charlie.teh (small blind) folded before Flop
+Seat 9: ehrickmelzer (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750720155: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:15:54 UTC [2026/02/16 12:15:54 ET]
+Table '3975702151 1' 9-max Seat #8 is the button
+Seat 1: diksonpion (727 in chips) 
+Seat 2: Pentecoste54 (781 in chips) 
+Seat 4: Brahngrier (1655 in chips) is sitting out
+Seat 5: NickB251 (4941 in chips) 
+Seat 6: MrRodgersOwn (1106 in chips) 
+Seat 7: scorza23 (1655 in chips) 
+Seat 8: Charlie.teh (1720 in chips) 
+Seat 9: ehrickmelzer (915 in chips) 
+ehrickmelzer: posts small blind 50
+diksonpion: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 9s]
+Pentecoste54: raises 681 to 781 and is all-in
+Brahngrier: folds 
+NickB251: folds 
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: folds 
+Uncalled bet (681) returned to Pentecoste54
+Pentecoste54 collected 250 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: diksonpion (big blind) folded before Flop
+Seat 2: Pentecoste54 collected (250)
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh (button) folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750724741: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:16:17 UTC [2026/02/16 12:16:17 ET]
+Table '3975702151 1' 9-max Seat #9 is the button
+Seat 1: diksonpion (627 in chips) 
+Seat 2: Pentecoste54 (931 in chips) 
+Seat 4: Brahngrier (1655 in chips) is sitting out
+Seat 5: NickB251 (4941 in chips) 
+Seat 6: MrRodgersOwn (1106 in chips) 
+Seat 7: scorza23 (1655 in chips) 
+Seat 8: Charlie.teh (1720 in chips) 
+Seat 9: ehrickmelzer (865 in chips) 
+diksonpion: posts small blind 50
+Pentecoste54: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Js]
+Brahngrier: folds 
+NickB251 has timed out
+NickB251: folds 
+NickB251 is sitting out
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: raises 527 to 627 and is all-in
+Brahngrier is disconnected 
+NickB251 has returned
+Pentecoste54: calls 527
+Brahngrier has returned
+*** FLOP *** [6c Th 7h]
+*** TURN *** [6c Th 7h] [4c]
+*** RIVER *** [6c Th 7h 4c] [5c]
+*** SHOW DOWN ***
+diksonpion: shows [8c 8h] (a straight, Four to Eight)
+Pentecoste54: shows [Ah 5d] (a pair of Fives)
+diksonpion collected 1254 from pot
+*** SUMMARY ***
+Total pot 1254 | Rake 0 
+Board [6c Th 7h 4c 5c]
+Seat 1: diksonpion (small blind) showed [8c 8h] and won (1254) with a straight, Four to Eight
+Seat 2: Pentecoste54 (big blind) showed [Ah 5d] and lost with a pair of Fives
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750733085: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:16:57 UTC [2026/02/16 12:16:57 ET]
+Table '3975702151 1' 9-max Seat #1 is the button
+Seat 1: diksonpion (1254 in chips) 
+Seat 2: Pentecoste54 (304 in chips) 
+Seat 4: Brahngrier (1655 in chips) 
+Seat 5: NickB251 (4941 in chips) 
+Seat 6: MrRodgersOwn (1106 in chips) 
+Seat 7: scorza23 (1655 in chips) 
+Seat 8: Charlie.teh (1720 in chips) 
+Seat 9: ehrickmelzer (865 in chips) 
+Pentecoste54: posts small blind 50
+Brahngrier: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 3h]
+NickB251: calls 100
+MrRodgersOwn: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: folds 
+Pentecoste54: folds 
+Brahngrier: checks 
+*** FLOP *** [7d 7s 4h]
+Brahngrier: checks 
+NickB251: checks 
+*** TURN *** [7d 7s 4h] [Ks]
+Brahngrier: checks 
+NickB251: checks 
+*** RIVER *** [7d 7s 4h Ks] [9s]
+Brahngrier: checks 
+NickB251: checks 
+*** SHOW DOWN ***
+Brahngrier: shows [Jh Qc] (a pair of Sevens)
+NickB251: shows [9d Ad] (two pair, Nines and Sevens)
+NickB251 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Board [7d 7s 4h Ks 9s]
+Seat 1: diksonpion (button) folded before Flop (didn't bet)
+Seat 2: Pentecoste54 (small blind) folded before Flop
+Seat 4: Brahngrier (big blind) showed [Jh Qc] and lost with a pair of Sevens
+Seat 5: NickB251 showed [9d Ad] and won (250) with two pair, Nines and Sevens
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750747038: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:18:05 UTC [2026/02/16 12:18:05 ET]
+Table '3975702151 1' 9-max Seat #2 is the button
+Seat 1: diksonpion (1254 in chips) 
+Seat 2: Pentecoste54 (254 in chips) 
+Seat 4: Brahngrier (1555 in chips) 
+Seat 5: NickB251 (5091 in chips) 
+Seat 6: MrRodgersOwn (1106 in chips) 
+Seat 7: scorza23 (1655 in chips) 
+Seat 8: Charlie.teh (1720 in chips) 
+Seat 9: ehrickmelzer (865 in chips) 
+Brahngrier: posts small blind 50
+NickB251: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 8c]
+MrRodgersOwn: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+Charlie.teh: folds 
+ehrickmelzer: folds 
+diksonpion: folds 
+Pentecoste54: folds 
+Brahngrier: folds 
+Uncalled bet (50) returned to NickB251
+NickB251 collected 100 from pot
+NickB251: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: diksonpion folded before Flop (didn't bet)
+Seat 2: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 4: Brahngrier (small blind) folded before Flop
+Seat 5: NickB251 (big blind) collected (100)
+Seat 6: MrRodgersOwn folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750752641: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level IV (50/100) - 2026/02/16 17:18:32 UTC [2026/02/16 12:18:32 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 1: diksonpion (1254 in chips) 
+Seat 2: Pentecoste54 (254 in chips) 
+Seat 4: Brahngrier (1505 in chips) 
+Seat 5: NickB251 (5141 in chips) 
+Seat 6: MrRodgersOwn (1106 in chips) 
+Seat 7: scorza23 (1655 in chips) is sitting out
+Seat 8: Charlie.teh (1720 in chips) 
+Seat 9: ehrickmelzer (865 in chips) 
+NickB251: posts small blind 50
+MrRodgersOwn: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 2s]
+scorza23: folds 
+scorza23 has returned
+Charlie.teh: raises 100 to 200
+ehrickmelzer: folds 
+diksonpion: calls 200
+Pentecoste54: folds 
+Brahngrier: folds 
+NickB251: folds 
+MrRodgersOwn: folds 
+*** FLOP *** [2d 6h Kh]
+Charlie.teh: bets 375
+diksonpion: calls 375
+*** TURN *** [2d 6h Kh] [5d]
+Charlie.teh: bets 750
+diksonpion: calls 679 and is all-in
+Uncalled bet (71) returned to Charlie.teh
+*** RIVER *** [2d 6h Kh 5d] [8c]
+*** SHOW DOWN ***
+Charlie.teh: shows [As Ah] (a pair of Aces)
+diksonpion: shows [Jc 6c] (a pair of Sixes)
+Charlie.teh collected 2658 from pot
+diksonpion finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 2658 | Rake 0 
+Board [2d 6h Kh 5d 8c]
+Seat 1: diksonpion showed [Jc 6c] and lost with a pair of Sixes
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 4: Brahngrier (button) folded before Flop (didn't bet)
+Seat 5: NickB251 (small blind) folded before Flop
+Seat 6: MrRodgersOwn (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh showed [As Ah] and won (2658) with a pair of Aces
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750764342: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:19:28 UTC [2026/02/16 12:19:28 ET]
+Table '3975702151 1' 9-max Seat #5 is the button
+Seat 2: Pentecoste54 (254 in chips) 
+Seat 4: Brahngrier (1505 in chips) 
+Seat 5: NickB251 (5091 in chips) 
+Seat 6: MrRodgersOwn (1006 in chips) 
+Seat 7: scorza23 (1655 in chips) 
+Seat 8: Charlie.teh (3124 in chips) 
+Seat 9: ehrickmelzer (865 in chips) 
+MrRodgersOwn: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3d]
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Pentecoste54: folds 
+Brahngrier: raises 300 to 450
+NickB251: folds 
+MrRodgersOwn: folds 
+scorza23: folds 
+Uncalled bet (300) returned to Brahngrier
+Brahngrier collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 4: Brahngrier collected (375)
+Seat 5: NickB251 (button) folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750770883: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:00 UTC [2026/02/16 12:20:00 ET]
+Table '3975702151 1' 9-max Seat #6 is the button
+Seat 2: Pentecoste54 (254 in chips) 
+Seat 4: Brahngrier (1730 in chips) 
+Seat 5: NickB251 (5091 in chips) 
+Seat 6: MrRodgersOwn (931 in chips) 
+Seat 7: scorza23 (1505 in chips) 
+Seat 8: Charlie.teh (3124 in chips) 
+Seat 9: ehrickmelzer (865 in chips) 
+scorza23: posts small blind 75
+Charlie.teh: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 8h]
+ehrickmelzer: folds 
+Pentecoste54: folds 
+Brahngrier: raises 300 to 450
+NickB251: folds 
+MrRodgersOwn: raises 481 to 931 and is all-in
+scorza23: folds 
+Charlie.teh: folds 
+Brahngrier: calls 481
+*** FLOP *** [9s 4c Tc]
+*** TURN *** [9s 4c Tc] [Th]
+*** RIVER *** [9s 4c Tc Th] [Qd]
+*** SHOW DOWN ***
+Brahngrier: shows [Ah Qh] (two pair, Queens and Tens)
+MrRodgersOwn: shows [Ac Kc] (a pair of Tens)
+Brahngrier collected 2087 from pot
+MrRodgersOwn finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 2087 | Rake 0 
+Board [9s 4c Tc Th Qd]
+Seat 2: Pentecoste54 folded before Flop (didn't bet)
+Seat 4: Brahngrier showed [Ah Qh] and won (2087) with two pair, Queens and Tens
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 6: MrRodgersOwn (button) showed [Ac Kc] and lost with a pair of Tens
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Charlie.teh (big blind) folded before Flop
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750780295: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:20:45 UTC [2026/02/16 12:20:45 ET]
+Table '3975702151 1' 9-max Seat #7 is the button
+Seat 2: Pentecoste54 (254 in chips) 
+Seat 4: Brahngrier (2886 in chips) 
+Seat 5: NickB251 (5091 in chips) 
+Seat 7: scorza23 (1430 in chips) 
+Seat 8: Charlie.teh (2974 in chips) 
+Seat 9: ehrickmelzer (865 in chips) 
+Charlie.teh: posts small blind 75
+ehrickmelzer: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 7c]
+Pentecoste54: raises 104 to 254 and is all-in
+Brahngrier: calls 254
+NickB251 has timed out
+NickB251: folds 
+NickB251 is sitting out
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+*** FLOP *** [3h 5c 8s]
+*** TURN *** [3h 5c 8s] [4c]
+*** RIVER *** [3h 5c 8s 4c] [3d]
+*** SHOW DOWN ***
+Pentecoste54: shows [Jc Jh] (two pair, Jacks and Threes)
+Brahngrier: shows [2s As] (a straight, Ace to Five)
+Brahngrier collected 733 from pot
+Pentecoste54 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 733 | Rake 0 
+Board [3h 5c 8s 4c 3d]
+Seat 2: Pentecoste54 showed [Jc Jh] and lost with two pair, Jacks and Threes
+Seat 4: Brahngrier showed [2s As] and won (733) with a straight, Ace to Five
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Charlie.teh (small blind) folded before Flop
+Seat 9: ehrickmelzer (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750787827: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:21:21 UTC [2026/02/16 12:21:21 ET]
+Table '3975702151 1' 9-max Seat #8 is the button
+Seat 4: Brahngrier (3365 in chips) 
+Seat 5: NickB251 (5091 in chips) is sitting out
+Seat 7: scorza23 (1430 in chips) 
+Seat 8: Charlie.teh (2899 in chips) 
+Seat 9: ehrickmelzer (715 in chips) 
+ehrickmelzer: posts small blind 75
+Brahngrier: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 5c]
+NickB251: folds 
+NickB251 has returned
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Uncalled bet (75) returned to Brahngrier
+Brahngrier collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 4: Brahngrier (big blind) collected (150)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh (button) folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750789667: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:21:30 UTC [2026/02/16 12:21:30 ET]
+Table '3975702151 1' 9-max Seat #9 is the button
+Seat 4: Brahngrier (3440 in chips) 
+Seat 5: NickB251 (5091 in chips) 
+Seat 7: scorza23 (1430 in chips) 
+Seat 8: Charlie.teh (2899 in chips) 
+Seat 9: ehrickmelzer (640 in chips) 
+Brahngrier: posts small blind 75
+NickB251: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 2c]
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Brahngrier: folds 
+Uncalled bet (75) returned to NickB251
+NickB251 collected 150 from pot
+NickB251: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 4: Brahngrier (small blind) folded before Flop
+Seat 5: NickB251 (big blind) collected (150)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750792591: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:21:44 UTC [2026/02/16 12:21:44 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 4: Brahngrier (3365 in chips) 
+Seat 5: NickB251 (5166 in chips) 
+Seat 7: scorza23 (1430 in chips) 
+Seat 8: Charlie.teh (2899 in chips) 
+Seat 9: ehrickmelzer (640 in chips) 
+NickB251: posts small blind 75
+scorza23: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8s]
+Charlie.teh: raises 150 to 300
+ehrickmelzer: folds 
+Brahngrier: folds 
+NickB251: folds 
+scorza23: folds 
+Uncalled bet (150) returned to Charlie.teh
+Charlie.teh collected 375 from pot
+Charlie.teh: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 4: Brahngrier (button) folded before Flop (didn't bet)
+Seat 5: NickB251 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: Charlie.teh collected (375)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750799735: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:22:19 UTC [2026/02/16 12:22:19 ET]
+Table '3975702151 1' 9-max Seat #5 is the button
+Seat 4: Brahngrier (3365 in chips) 
+Seat 5: NickB251 (5091 in chips) 
+Seat 7: scorza23 (1280 in chips) 
+Seat 8: Charlie.teh (3124 in chips) 
+Seat 9: ehrickmelzer (640 in chips) 
+scorza23: posts small blind 75
+Charlie.teh: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 4c]
+ehrickmelzer: folds 
+Brahngrier: raises 300 to 450
+NickB251: calls 450
+scorza23: folds 
+Charlie.teh: folds 
+*** FLOP *** [6h Qs 9d]
+Brahngrier: bets 1125
+NickB251: folds 
+Uncalled bet (1125) returned to Brahngrier
+Brahngrier collected 1125 from pot
+*** SUMMARY ***
+Total pot 1125 | Rake 0 
+Board [6h Qs 9d]
+Seat 4: Brahngrier collected (1125)
+Seat 5: NickB251 (button) folded on the Flop
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Charlie.teh (big blind) folded before Flop
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750807482: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:22:56 UTC [2026/02/16 12:22:56 ET]
+Table '3975702151 1' 9-max Seat #7 is the button
+Seat 4: Brahngrier (4040 in chips) 
+Seat 5: NickB251 (4641 in chips) 
+Seat 7: scorza23 (1205 in chips) 
+Seat 8: Charlie.teh (2974 in chips) 
+Seat 9: ehrickmelzer (640 in chips) 
+Charlie.teh: posts small blind 75
+ehrickmelzer: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Ks]
+Brahngrier: folds 
+NickB251: folds 
+scorza23: folds 
+Charlie.teh: raises 2824 to 2974 and is all-in
+ehrickmelzer: folds 
+Uncalled bet (2824) returned to Charlie.teh
+Charlie.teh collected 300 from pot
+Charlie.teh: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Charlie.teh (small blind) collected (300)
+Seat 9: ehrickmelzer (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750814587: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level V (75/150) - 2026/02/16 17:23:29 UTC [2026/02/16 12:23:29 ET]
+Table '3975702151 1' 9-max Seat #8 is the button
+Seat 4: Brahngrier (4040 in chips) 
+Seat 5: NickB251 (4641 in chips) 
+Seat 7: scorza23 (1205 in chips) 
+Seat 8: Charlie.teh (3124 in chips) 
+Seat 9: ehrickmelzer (490 in chips) 
+ehrickmelzer: posts small blind 75
+Brahngrier: posts big blind 150
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 2h]
+NickB251 has timed out
+NickB251: folds 
+NickB251 is sitting out
+scorza23: raises 300 to 450
+Charlie.teh: folds 
+ehrickmelzer: raises 40 to 490 and is all-in
+Brahngrier: folds 
+scorza23: calls 40
+*** FLOP *** [3h 4c 6h]
+*** TURN *** [3h 4c 6h] [Ks]
+*** RIVER *** [3h 4c 6h Ks] [Qc]
+*** SHOW DOWN ***
+ehrickmelzer: shows [8s As] (high card Ace)
+scorza23: shows [Ah 2h] (high card Ace - lower kicker)
+ehrickmelzer collected 1130 from pot
+*** SUMMARY ***
+Total pot 1130 | Rake 0 
+Board [3h 4c 6h Ks Qc]
+Seat 4: Brahngrier (big blind) folded before Flop
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 showed [Ah 2h] and lost with high card Ace
+Seat 8: Charlie.teh (button) folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (small blind) showed [8s As] and won (1130) with high card Ace
+
+
+
+PokerStars Hand #259750821905: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:24:05 UTC [2026/02/16 12:24:05 ET]
+Table '3975702151 1' 9-max Seat #9 is the button
+Seat 4: Brahngrier (3890 in chips) 
+Seat 5: NickB251 (4641 in chips) is sitting out
+Seat 7: scorza23 (715 in chips) 
+Seat 8: Charlie.teh (3124 in chips) 
+Seat 9: ehrickmelzer (1130 in chips) 
+Brahngrier: posts small blind 100
+NickB251: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 7s]
+scorza23: raises 515 to 715 and is all-in
+NickB251 has returned
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Brahngrier: folds 
+NickB251: folds 
+Uncalled bet (515) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 4: Brahngrier (small blind) folded before Flop
+Seat 5: NickB251 (big blind) folded before Flop
+Seat 7: scorza23 collected (500)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750824572: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:24:17 UTC [2026/02/16 12:24:17 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 4: Brahngrier (3790 in chips) 
+Seat 5: NickB251 (4441 in chips) 
+Seat 7: scorza23 (1015 in chips) 
+Seat 8: Charlie.teh (3124 in chips) 
+Seat 9: ehrickmelzer (1130 in chips) 
+NickB251: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ts]
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Brahngrier: folds 
+NickB251: calls 100
+scorza23: raises 815 to 1015 and is all-in
+NickB251: folds 
+Uncalled bet (815) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 4: Brahngrier (button) folded before Flop (didn't bet)
+Seat 5: NickB251 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) collected (400)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750832424: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:24:55 UTC [2026/02/16 12:24:55 ET]
+Table '3975702151 1' 9-max Seat #5 is the button
+Seat 4: Brahngrier (3790 in chips) 
+Seat 5: NickB251 (4241 in chips) 
+Seat 7: scorza23 (1215 in chips) 
+Seat 8: Charlie.teh (3124 in chips) 
+Seat 9: ehrickmelzer (1130 in chips) 
+scorza23: posts small blind 100
+Charlie.teh: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8s]
+ehrickmelzer: folds 
+Brahngrier: folds 
+NickB251: calls 200
+scorza23: raises 400 to 600
+Charlie.teh: folds 
+NickB251: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 600 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 (button) folded before Flop
+Seat 7: scorza23 (small blind) collected (600)
+Seat 8: Charlie.teh (big blind) folded before Flop
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750843663: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:25:48 UTC [2026/02/16 12:25:48 ET]
+Table '3975702151 1' 9-max Seat #7 is the button
+Seat 4: Brahngrier (3790 in chips) 
+Seat 5: NickB251 (4041 in chips) 
+Seat 7: scorza23 (1615 in chips) 
+Seat 8: Charlie.teh (2924 in chips) 
+Seat 9: ehrickmelzer (1130 in chips) 
+Charlie.teh: posts small blind 100
+ehrickmelzer: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 6d]
+Brahngrier: raises 200 to 400
+NickB251: calls 400
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+*** FLOP *** [5d 5c Jh]
+Brahngrier: bets 400
+NickB251: folds 
+Uncalled bet (400) returned to Brahngrier
+Brahngrier collected 1100 from pot
+*** SUMMARY ***
+Total pot 1100 | Rake 0 
+Board [5d 5c Jh]
+Seat 4: Brahngrier collected (1100)
+Seat 5: NickB251 folded on the Flop
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Charlie.teh (small blind) folded before Flop
+Seat 9: ehrickmelzer (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750850967: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:26:23 UTC [2026/02/16 12:26:23 ET]
+Table '3975702151 1' 9-max Seat #8 is the button
+Seat 4: Brahngrier (4490 in chips) 
+Seat 5: NickB251 (3641 in chips) 
+Seat 7: scorza23 (1615 in chips) 
+Seat 8: Charlie.teh (2824 in chips) 
+Seat 9: ehrickmelzer (930 in chips) 
+ehrickmelzer: posts small blind 100
+Brahngrier: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 7s]
+NickB251 has timed out
+NickB251: folds 
+NickB251 is sitting out
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: calls 100
+Brahngrier: checks 
+*** FLOP *** [As 4s Jc]
+ehrickmelzer: checks 
+Brahngrier: bets 200
+ehrickmelzer: folds 
+Uncalled bet (200) returned to Brahngrier
+Brahngrier collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [As 4s Jc]
+Seat 4: Brahngrier (big blind) collected (400)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh (button) folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259750858040: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:26:57 UTC [2026/02/16 12:26:57 ET]
+Table '3975702151 1' 9-max Seat #9 is the button
+Seat 4: Brahngrier (4690 in chips) 
+Seat 5: NickB251 (3641 in chips) is sitting out
+Seat 7: scorza23 (1615 in chips) 
+Seat 8: Charlie.teh (2824 in chips) 
+Seat 9: ehrickmelzer (730 in chips) 
+Brahngrier: posts small blind 100
+NickB251: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 3d]
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Brahngrier: folds 
+Uncalled bet (100) returned to NickB251
+NickB251 collected 200 from pot
+NickB251: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 4: Brahngrier (small blind) folded before Flop
+Seat 5: NickB251 (big blind) collected (200)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750860169: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:07 UTC [2026/02/16 12:27:07 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 4: Brahngrier (4590 in chips) 
+Seat 5: NickB251 (3741 in chips) is sitting out
+Seat 7: scorza23 (1615 in chips) 
+Seat 8: Charlie.teh (2824 in chips) 
+Seat 9: ehrickmelzer (730 in chips) 
+NickB251: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Tc]
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Brahngrier: folds 
+NickB251: folds 
+Uncalled bet (100) returned to scorza23
+scorza23 collected 200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 4: Brahngrier (button) folded before Flop (didn't bet)
+Seat 5: NickB251 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) collected (200)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750862215: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:17 UTC [2026/02/16 12:27:17 ET]
+Table '3975702151 1' 9-max Seat #5 is the button
+Seat 4: Brahngrier (4590 in chips) 
+Seat 5: NickB251 (3641 in chips) is sitting out
+Seat 7: scorza23 (1715 in chips) 
+Seat 8: Charlie.teh (2824 in chips) 
+Seat 9: ehrickmelzer (730 in chips) 
+scorza23: posts small blind 100
+Charlie.teh: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Ah]
+ehrickmelzer: folds 
+Brahngrier: folds 
+NickB251: folds 
+scorza23: raises 400 to 600
+Charlie.teh: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 400 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) collected (400)
+Seat 8: Charlie.teh (big blind) folded before Flop
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750864918: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:30 UTC [2026/02/16 12:27:30 ET]
+Table '3975702151 1' 9-max Seat #7 is the button
+Seat 4: Brahngrier (4590 in chips) 
+Seat 5: NickB251 (3641 in chips) is sitting out
+Seat 7: scorza23 (1915 in chips) 
+Seat 8: Charlie.teh (2624 in chips) 
+Seat 9: ehrickmelzer (730 in chips) 
+Charlie.teh: posts small blind 100
+ehrickmelzer: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Ac]
+Brahngrier: folds 
+NickB251: folds 
+scorza23: raises 400 to 600
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 500 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) collected (500)
+Seat 8: Charlie.teh (small blind) folded before Flop
+Seat 9: ehrickmelzer (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750867476: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:27:42 UTC [2026/02/16 12:27:42 ET]
+Table '3975702151 1' 9-max Seat #8 is the button
+Seat 4: Brahngrier (4590 in chips) 
+Seat 5: NickB251 (3641 in chips) is sitting out
+Seat 7: scorza23 (2215 in chips) 
+Seat 8: Charlie.teh (2524 in chips) 
+Seat 9: ehrickmelzer (530 in chips) 
+ehrickmelzer: posts small blind 100
+Brahngrier: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Qc]
+NickB251: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: calls 100
+Brahngrier: checks 
+*** FLOP *** [9c Kd 9s]
+ehrickmelzer: checks 
+Brahngrier: checks 
+*** TURN *** [9c Kd 9s] [Ts]
+ehrickmelzer: checks 
+Brahngrier: bets 200
+ehrickmelzer: folds 
+Uncalled bet (200) returned to Brahngrier
+Brahngrier collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [9c Kd 9s Ts]
+Seat 4: Brahngrier (big blind) collected (400)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh (button) folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (small blind) folded on the Turn
+
+
+
+PokerStars Hand #259750874272: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:15 UTC [2026/02/16 12:28:15 ET]
+Table '3975702151 1' 9-max Seat #9 is the button
+Seat 4: Brahngrier (4790 in chips) 
+Seat 5: NickB251 (3641 in chips) is sitting out
+Seat 7: scorza23 (2215 in chips) 
+Seat 8: Charlie.teh (2524 in chips) 
+Seat 9: ehrickmelzer (330 in chips) 
+Brahngrier: posts small blind 100
+NickB251: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 8s]
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Brahngrier: raises 200 to 400
+NickB251: folds 
+Uncalled bet (200) returned to Brahngrier
+Brahngrier collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Seat 4: Brahngrier (small blind) collected (400)
+Seat 5: NickB251 (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259750877194: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VI (100/200) - 2026/02/16 17:28:28 UTC [2026/02/16 12:28:28 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 4: Brahngrier (4990 in chips) 
+Seat 5: NickB251 (3441 in chips) is sitting out
+Seat 7: scorza23 (2215 in chips) 
+Seat 8: Charlie.teh (2524 in chips) 
+Seat 9: ehrickmelzer (330 in chips) 
+NickB251: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 6d]
+Charlie.teh: folds 
+ehrickmelzer: raises 130 to 330 and is all-in
+Brahngrier: folds 
+NickB251: folds 
+scorza23: calls 130
+*** FLOP *** [3h 2s Tc]
+*** TURN *** [3h 2s Tc] [7s]
+*** RIVER *** [3h 2s Tc 7s] [3d]
+*** SHOW DOWN ***
+scorza23: shows [8s 6d] (a pair of Threes)
+ehrickmelzer: shows [Td Qh] (two pair, Tens and Threes)
+ehrickmelzer collected 760 from pot
+*** SUMMARY ***
+Total pot 760 | Rake 0 
+Board [3h 2s Tc 7s 3d]
+Seat 4: Brahngrier (button) folded before Flop (didn't bet)
+Seat 5: NickB251 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) showed [8s 6d] and lost with a pair of Threes
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer showed [Td Qh] and won (760) with two pair, Tens and Threes
+
+
+
+PokerStars Hand #259750882182: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:28:52 UTC [2026/02/16 12:28:52 ET]
+Table '3975702151 1' 9-max Seat #5 is the button
+Seat 4: Brahngrier (4990 in chips) 
+Seat 5: NickB251 (3341 in chips) is sitting out
+Seat 7: scorza23 (1885 in chips) 
+Seat 8: Charlie.teh (2524 in chips) 
+Seat 9: ehrickmelzer (760 in chips) 
+Brahngrier: posts the ante 25
+NickB251: posts the ante 25
+scorza23: posts the ante 25
+Charlie.teh: posts the ante 25
+ehrickmelzer: posts the ante 25
+scorza23: posts small blind 100
+Charlie.teh: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 3s]
+ehrickmelzer: raises 535 to 735 and is all-in
+Brahngrier: folds 
+NickB251: folds 
+scorza23: folds 
+Charlie.teh: folds 
+Uncalled bet (535) returned to ehrickmelzer
+ehrickmelzer collected 625 from pot
+ehrickmelzer: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Charlie.teh (big blind) folded before Flop
+Seat 9: ehrickmelzer collected (625)
+
+
+
+PokerStars Hand #259750885123: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:29:07 UTC [2026/02/16 12:29:07 ET]
+Table '3975702151 1' 9-max Seat #7 is the button
+Seat 4: Brahngrier (4965 in chips) 
+Seat 5: NickB251 (3316 in chips) is sitting out
+Seat 7: scorza23 (1760 in chips) 
+Seat 8: Charlie.teh (2299 in chips) 
+Seat 9: ehrickmelzer (1160 in chips) 
+Brahngrier: posts the ante 25
+NickB251: posts the ante 25
+scorza23: posts the ante 25
+Charlie.teh: posts the ante 25
+ehrickmelzer: posts the ante 25
+Charlie.teh: posts small blind 100
+ehrickmelzer: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 4h]
+Brahngrier: folds 
+NickB251: folds 
+scorza23: folds 
+Charlie.teh: raises 200 to 400
+ehrickmelzer: folds 
+Uncalled bet (200) returned to Charlie.teh
+Charlie.teh collected 525 from pot
+Charlie.teh: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 4: Brahngrier folded before Flop (didn't bet)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Charlie.teh (small blind) collected (525)
+Seat 9: ehrickmelzer (big blind) folded before Flop
+
+
+
+PokerStars Hand #259750888366: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:29:23 UTC [2026/02/16 12:29:23 ET]
+Table '3975702151 1' 9-max Seat #8 is the button
+Seat 4: Brahngrier (4940 in chips) 
+Seat 5: NickB251 (3291 in chips) is sitting out
+Seat 7: scorza23 (1735 in chips) 
+Seat 8: Charlie.teh (2599 in chips) 
+Seat 9: ehrickmelzer (935 in chips) 
+Brahngrier: posts the ante 25
+NickB251: posts the ante 25
+scorza23: posts the ante 25
+Charlie.teh: posts the ante 25
+ehrickmelzer: posts the ante 25
+ehrickmelzer: posts small blind 100
+Brahngrier: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 2d]
+NickB251: folds 
+scorza23: folds 
+Charlie.teh: folds 
+ehrickmelzer: folds 
+Uncalled bet (100) returned to Brahngrier
+Brahngrier collected 325 from pot
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 4: Brahngrier (big blind) collected (325)
+Seat 5: NickB251 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Charlie.teh (button) folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (small blind) folded before Flop
+
+
+
+PokerStars Hand #259750890253: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:29:32 UTC [2026/02/16 12:29:32 ET]
+Table '3975702151 1' 9-max Seat #9 is the button
+Seat 4: Brahngrier (5140 in chips) 
+Seat 5: NickB251 (3266 in chips) is sitting out
+Seat 7: scorza23 (1710 in chips) 
+Seat 8: Charlie.teh (2574 in chips) 
+Seat 9: ehrickmelzer (810 in chips) 
+Brahngrier: posts the ante 25
+NickB251: posts the ante 25
+scorza23: posts the ante 25
+Charlie.teh: posts the ante 25
+ehrickmelzer: posts the ante 25
+Brahngrier: posts small blind 100
+NickB251: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 9d]
+scorza23: raises 400 to 600
+Charlie.teh: folds 
+ehrickmelzer: raises 185 to 785 and is all-in
+Brahngrier: folds 
+NickB251: folds 
+scorza23: calls 185
+*** FLOP *** [7s 4c 2c]
+*** TURN *** [7s 4c 2c] [Tc]
+*** RIVER *** [7s 4c 2c Tc] [6c]
+*** SHOW DOWN ***
+scorza23: shows [9s 9d] (a pair of Nines)
+ehrickmelzer: shows [6h 6d] (three of a kind, Sixes)
+ehrickmelzer collected 1995 from pot
+*** SUMMARY ***
+Total pot 1995 | Rake 0 
+Board [7s 4c 2c Tc 6c]
+Seat 4: Brahngrier (small blind) folded before Flop
+Seat 5: NickB251 (big blind) folded before Flop
+Seat 7: scorza23 showed [9s 9d] and lost with a pair of Nines
+Seat 8: Charlie.teh folded before Flop (didn't bet)
+Seat 9: ehrickmelzer (button) showed [6h 6d] and won (1995) with three of a kind, Sixes
+
+
+
+PokerStars Hand #259750895190: Tournament #3975702151, $0.42+$0.08 USD Hold'em No Limit - Level VII (100/200) - 2026/02/16 17:29:55 UTC [2026/02/16 12:29:55 ET]
+Table '3975702151 1' 9-max Seat #4 is the button
+Seat 4: Brahngrier (5015 in chips) 
+Seat 5: NickB251 (3041 in chips) is sitting out
+Seat 7: scorza23 (900 in chips) 
+Seat 8: Charlie.teh (2549 in chips) 
+Seat 9: ehrickmelzer (1995 in chips) 
+Brahngrier: posts the ante 25
+NickB251: posts the ante 25
+scorza23: posts the ante 25
+Charlie.teh: posts the ante 25
+ehrickmelzer: posts the ante 25
+NickB251: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Qh]
+Charlie.teh: raises 400 to 600
+ehrickmelzer: folds 
+Brahngrier: folds 
+NickB251: folds 
+scorza23: raises 275 to 875 and is all-in
+Charlie.teh: calls 275
+*** FLOP *** [Js 7d 8s]
+*** TURN *** [Js 7d 8s] [Ac]
+*** RIVER *** [Js 7d 8s Ac] [2s]
+*** SHOW DOWN ***
+scorza23: shows [5s Qh] (high card Ace)
+Charlie.teh: shows [Ad As] (three of a kind, Aces)
+Charlie.teh collected 1975 from pot
+scorza23 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1975 | Rake 0 
+Board [Js 7d 8s Ac 2s]
+Seat 4: Brahngrier (button) folded before Flop (didn't bet)
+Seat 5: NickB251 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) showed [5s Qh] and lost with high card Ace
+Seat 8: Charlie.teh showed [Ad As] and won (1975) with three of a kind, Aces
+Seat 9: ehrickmelzer folded before Flop (didn't bet)
+
+
+

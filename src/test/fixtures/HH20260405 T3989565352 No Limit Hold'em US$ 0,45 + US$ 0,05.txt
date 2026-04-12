@@ -1,0 +1,831 @@
+﻿PokerStars Hand #260358009276: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:47:17 BRT [2026/04/05 15:47:17 ET]
+Table '3989565352 1' 8-max Seat #1 is the button
+Seat 1: overthehil59 (1500 in chips) 
+Seat 2: FMB999 (1500 in chips) 
+Seat 3: JC57B (1500 in chips) 
+Seat 4: total01730 (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: SEMIMUDO (1500 in chips) 
+overthehil59: posts the ante 3
+FMB999: posts the ante 3
+JC57B: posts the ante 3
+total01730: posts the ante 3
+scorza23: posts the ante 3
+SEMIMUDO: posts the ante 3
+FMB999: posts small blind 10
+JC57B: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 3h]
+total01730 is connected 
+total01730: calls 20
+scorza23: folds 
+SEMIMUDO: raises 57 to 77
+overthehil59: folds 
+FMB999: folds 
+JC57B: folds 
+total01730: calls 57
+*** FLOP *** [7s Qs 8d]
+total01730: checks 
+spnmarco is disconnected 
+SEMIMUDO: bets 100
+total01730: calls 100
+*** TURN *** [7s Qs 8d] [9h]
+total01730: checks 
+SEMIMUDO: bets 320
+total01730: folds 
+Uncalled bet (320) returned to SEMIMUDO
+SEMIMUDO collected 402 from pot
+SEMIMUDO: doesn't show hand 
+*** SUMMARY ***
+Total pot 402 | Rake 0 
+Board [7s Qs 8d 9h]
+Seat 1: overthehil59 (button) folded before Flop (didn't bet)
+Seat 2: FMB999 (small blind) folded before Flop
+Seat 3: JC57B (big blind) folded before Flop
+Seat 4: total01730 folded on the Turn
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO collected (402)
+
+
+
+PokerStars Hand #260358024457: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:48:14 BRT [2026/04/05 15:48:14 ET]
+Table '3989565352 1' 8-max Seat #2 is the button
+Seat 1: overthehil59 (1497 in chips) 
+Seat 2: FMB999 (1487 in chips) 
+Seat 3: JC57B (1477 in chips) 
+Seat 5: posidowas (1500 in chips) 
+Seat 6: spnmarco (1500 in chips) 
+Seat 7: scorza23 (1497 in chips) 
+Seat 8: SEMIMUDO (1722 in chips) 
+overthehil59: posts the ante 3
+FMB999: posts the ante 3
+JC57B: posts the ante 3
+posidowas: posts the ante 3
+spnmarco: posts the ante 3
+scorza23: posts the ante 3
+SEMIMUDO: posts the ante 3
+JC57B: posts small blind 10
+posidowas: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 8d]
+spnmarco: folds 
+scorza23: folds 
+SEMIMUDO: raises 20 to 40
+overthehil59: folds 
+FMB999: raises 40 to 80
+JC57B: folds 
+posidowas: calls 60
+SEMIMUDO: calls 40
+*** FLOP *** [Ts 8s 6s]
+buradjirodin is disconnected 
+posidowas: checks 
+SEMIMUDO: checks 
+FMB999: bets 140
+posidowas: folds 
+SEMIMUDO: folds 
+Uncalled bet (140) returned to FMB999
+FMB999 collected 271 from pot
+FMB999: doesn't show hand 
+*** SUMMARY ***
+Total pot 271 | Rake 0 
+Board [Ts 8s 6s]
+Seat 1: overthehil59 folded before Flop (didn't bet)
+Seat 2: FMB999 (button) collected (271)
+Seat 3: JC57B (small blind) folded before Flop
+Seat 5: posidowas (big blind) folded on the Flop
+Seat 6: spnmarco folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO folded on the Flop
+
+
+
+PokerStars Hand #260358044602: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:49:30 BRT [2026/04/05 15:49:30 ET]
+Table '3989565352 1' 8-max Seat #3 is the button
+Seat 1: overthehil59 (1494 in chips) 
+Seat 2: FMB999 (1675 in chips) 
+Seat 3: JC57B (1464 in chips) 
+Seat 4: buradjirodin (1500 in chips) out of hand (moved from another table into small blind)
+Seat 5: posidowas (1417 in chips) 
+Seat 6: spnmarco (1497 in chips) 
+Seat 7: scorza23 (1494 in chips) 
+Seat 8: SEMIMUDO (1639 in chips) 
+buradjirodin will be allowed to play after the button
+overthehil59: posts the ante 3
+FMB999: posts the ante 3
+JC57B: posts the ante 3
+posidowas: posts the ante 3
+spnmarco: posts the ante 3
+scorza23: posts the ante 3
+SEMIMUDO: posts the ante 3
+posidowas: posts small blind 10
+spnmarco: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 8c]
+scorza23: folds 
+SEMIMUDO: folds 
+overthehil59: calls 20
+FMB999: calls 20
+JC57B: calls 20
+posidowas: folds 
+spnmarco: checks 
+*** FLOP *** [5c 7h As]
+spnmarco: checks 
+overthehil59: checks 
+FMB999: bets 56
+JC57B: raises 223 to 279
+spnmarco: folds 
+overthehil59: folds 
+FMB999: calls 223
+*** TURN *** [5c 7h As] [4c]
+FMB999: checks 
+JC57B: bets 669
+FMB999: raises 704 to 1373 and is all-in
+JC57B: calls 493 and is all-in
+Uncalled bet (211) returned to FMB999
+*** RIVER *** [5c 7h As 4c] [3c]
+*** SHOW DOWN ***
+FMB999: shows [6h 8d] (a straight, Four to Eight)
+JC57B: shows [Ad 5d] (two pair, Aces and Fives)
+FMB999 collected 2993 from pot
+JC57B finished the tournament in 31st place
+*** SUMMARY ***
+Total pot 2993 | Rake 0 
+Board [5c 7h As 4c 3c]
+Seat 1: overthehil59 folded on the Flop
+Seat 2: FMB999 showed [6h 8d] and won (2993) with a straight, Four to Eight
+Seat 3: JC57B (button) showed [Ad 5d] and lost with two pair, Aces and Fives
+Seat 5: posidowas (small blind) folded before Flop
+Seat 6: spnmarco (big blind) folded on the Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358063139: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:50:40 BRT [2026/04/05 15:50:40 ET]
+Table '3989565352 1' 8-max Seat #5 is the button
+Seat 1: overthehil59 (1471 in chips) 
+Seat 2: FMB999 (3204 in chips) 
+Seat 4: buradjirodin (1500 in chips) 
+Seat 5: posidowas (1404 in chips) 
+Seat 6: spnmarco (1474 in chips) 
+Seat 7: scorza23 (1491 in chips) 
+Seat 8: SEMIMUDO (1636 in chips) 
+overthehil59: posts the ante 3
+FMB999: posts the ante 3
+buradjirodin: posts the ante 3
+posidowas: posts the ante 3
+spnmarco: posts the ante 3
+scorza23: posts the ante 3
+SEMIMUDO: posts the ante 3
+spnmarco: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 3d]
+SEMIMUDO: folds 
+overthehil59: calls 20
+FMB999: calls 20
+buradjirodin: folds 
+posidowas: folds 
+spnmarco: calls 10
+scorza23: checks 
+*** FLOP *** [8s Kc 9d]
+spnmarco: checks 
+scorza23: checks 
+overthehil59: bets 51
+FMB999: calls 51
+spnmarco: calls 51
+scorza23: folds 
+*** TURN *** [8s Kc 9d] [As]
+spnmarco: checks 
+overthehil59: bets 127
+FMB999: calls 127
+spnmarco: folds 
+*** RIVER *** [8s Kc 9d As] [9c]
+overthehil59: bets 254
+FMB999: calls 254
+*** SHOW DOWN ***
+overthehil59: shows [8h 8c] (a full house, Eights full of Nines)
+FMB999: mucks hand 
+overthehil59 collected 1016 from pot
+*** SUMMARY ***
+Total pot 1016 | Rake 0 
+Board [8s Kc 9d As 9c]
+Seat 1: overthehil59 showed [8h 8c] and won (1016) with a full house, Eights full of Nines
+Seat 2: FMB999 mucked [7s Ks]
+Seat 4: buradjirodin folded before Flop (didn't bet)
+Seat 5: posidowas (button) folded before Flop (didn't bet)
+Seat 6: spnmarco (small blind) folded on the Turn
+Seat 7: scorza23 (big blind) folded on the Flop
+Seat 8: SEMIMUDO folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358080942: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 16:51:47 BRT [2026/04/05 15:51:47 ET]
+Table '3989565352 1' 8-max Seat #6 is the button
+Seat 1: overthehil59 (2032 in chips) 
+Seat 2: FMB999 (2749 in chips) 
+Seat 4: buradjirodin (1497 in chips) 
+Seat 5: posidowas (1401 in chips) 
+Seat 6: spnmarco (1400 in chips) 
+Seat 7: scorza23 (1468 in chips) 
+Seat 8: SEMIMUDO (1633 in chips) 
+overthehil59: posts the ante 3
+FMB999: posts the ante 3
+buradjirodin: posts the ante 3
+posidowas: posts the ante 3
+spnmarco: posts the ante 3
+scorza23: posts the ante 3
+SEMIMUDO: posts the ante 3
+scorza23: posts small blind 10
+SEMIMUDO: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As 6c]
+overthehil59: calls 20
+FMB999: folds 
+buradjirodin: folds 
+posidowas: folds 
+spnmarco: raises 91 to 111
+scorza23: folds 
+SEMIMUDO: folds 
+overthehil59: calls 91
+*** FLOP *** [Kc 9c 7d]
+overthehil59: bets 137
+spnmarco: calls 137
+*** TURN *** [Kc 9c 7d] [7h]
+overthehil59: bets 274
+spnmarco: calls 274
+*** RIVER *** [Kc 9c 7d 7h] [4s]
+overthehil59: bets 548
+spnmarco: raises 327 to 875 and is all-in
+overthehil59: calls 327
+*** SHOW DOWN ***
+spnmarco: shows [Ks Kh] (a full house, Kings full of Sevens)
+overthehil59: shows [7s 7c] (four of a kind, Sevens)
+overthehil59 collected 2845 from pot
+spnmarco finished the tournament in 29th place
+*** SUMMARY ***
+Total pot 2845 | Rake 0 
+Board [Kc 9c 7d 7h 4s]
+Seat 1: overthehil59 showed [7s 7c] and won (2845) with four of a kind, Sevens
+Seat 2: FMB999 folded before Flop (didn't bet)
+Seat 4: buradjirodin folded before Flop (didn't bet)
+Seat 5: posidowas folded before Flop (didn't bet)
+Seat 6: spnmarco (button) showed [Ks Kh] and lost with a full house, Kings full of Sevens
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: SEMIMUDO (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358103192: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:53:12 BRT [2026/04/05 15:53:12 ET]
+Table '3989565352 1' 8-max Seat #7 is the button
+Seat 1: overthehil59 (3477 in chips) 
+Seat 2: FMB999 (2746 in chips) 
+Seat 4: buradjirodin (1494 in chips) 
+Seat 5: posidowas (1398 in chips) 
+Seat 7: scorza23 (1455 in chips) 
+Seat 8: SEMIMUDO (1610 in chips) 
+overthehil59: posts the ante 4
+FMB999: posts the ante 4
+buradjirodin: posts the ante 4
+posidowas: posts the ante 4
+scorza23: posts the ante 4
+SEMIMUDO: posts the ante 4
+SEMIMUDO: posts small blind 15
+overthehil59: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 5h]
+FMB999: raises 30 to 60
+buradjirodin: folds 
+posidowas: folds 
+scorza23: folds 
+magickev23 is disconnected 
+SEMIMUDO: calls 45
+overthehil59: calls 30
+*** FLOP *** [3c 3d As]
+SEMIMUDO: checks 
+overthehil59: checks 
+FMB999: bets 102
+SEMIMUDO: folds 
+overthehil59: folds 
+Uncalled bet (102) returned to FMB999
+FMB999 collected 204 from pot
+FMB999: doesn't show hand 
+*** SUMMARY ***
+Total pot 204 | Rake 0 
+Board [3c 3d As]
+Seat 1: overthehil59 (big blind) folded on the Flop
+Seat 2: FMB999 collected (204)
+Seat 4: buradjirodin folded before Flop (didn't bet)
+Seat 5: posidowas folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: SEMIMUDO (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260358113415: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:53:50 BRT [2026/04/05 15:53:50 ET]
+Table '3989565352 1' 8-max Seat #8 is the button
+Seat 1: overthehil59 (3413 in chips) 
+Seat 2: FMB999 (2886 in chips) 
+Seat 4: buradjirodin (1490 in chips) 
+Seat 5: posidowas (1394 in chips) 
+Seat 6: magickev23 (20 in chips) 
+Seat 7: scorza23 (1451 in chips) 
+Seat 8: SEMIMUDO (1546 in chips) 
+overthehil59: posts the ante 4
+FMB999: posts the ante 4
+buradjirodin: posts the ante 4
+posidowas: posts the ante 4
+magickev23: posts the ante 4
+scorza23: posts the ante 4
+SEMIMUDO: posts the ante 4
+overthehil59: posts small blind 15
+FMB999: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 7c]
+buradjirodin: folds 
+posidowas: folds 
+magickev23: calls 16 and is all-in
+scorza23: folds 
+SEMIMUDO: raises 62 to 92
+overthehil59: calls 77
+FMB999: folds 
+*** FLOP *** [Td 8s 6h]
+overthehil59: checks 
+SEMIMUDO: checks 
+*** TURN *** [Td 8s 6h] [5h]
+overthehil59: checks 
+SEMIMUDO: bets 200
+overthehil59: calls 200
+*** RIVER *** [Td 8s 6h 5h] [Ad]
+overthehil59: checks 
+SEMIMUDO: checks 
+*** SHOW DOWN ***
+overthehil59: shows [5c Jc] (a pair of Fives)
+SEMIMUDO: shows [Tc Kc] (a pair of Tens)
+SEMIMUDO collected 566 from side pot
+magickev23: shows [As Th] (two pair, Aces and Tens)
+magickev23 collected 92 from main pot
+*** SUMMARY ***
+Total pot 658 Main pot 92. Side pot 566. | Rake 0 
+Board [Td 8s 6h 5h Ad]
+Seat 1: overthehil59 (small blind) showed [5c Jc] and lost with a pair of Fives
+Seat 2: FMB999 (big blind) folded before Flop
+Seat 4: buradjirodin folded before Flop (didn't bet)
+Seat 5: posidowas folded before Flop (didn't bet)
+Seat 6: magickev23 showed [As Th] and won (92) with two pair, Aces and Tens
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO (button) showed [Tc Kc] and won (566) with a pair of Tens
+
+
+
+PokerStars Hand #260358125957: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:54:38 BRT [2026/04/05 15:54:38 ET]
+Table '3989565352 1' 8-max Seat #1 is the button
+Seat 1: overthehil59 (3117 in chips) 
+Seat 2: FMB999 (2852 in chips) 
+Seat 4: buradjirodin (1486 in chips) 
+Seat 5: posidowas (1390 in chips) 
+Seat 6: magickev23 (92 in chips) 
+Seat 7: scorza23 (1447 in chips) 
+Seat 8: SEMIMUDO (1816 in chips) 
+overthehil59: posts the ante 4
+FMB999: posts the ante 4
+buradjirodin: posts the ante 4
+posidowas: posts the ante 4
+magickev23: posts the ante 4
+scorza23: posts the ante 4
+SEMIMUDO: posts the ante 4
+FMB999: posts small blind 15
+buradjirodin: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2d]
+posidowas: folds 
+magickev23: raises 58 to 88 and is all-in
+scorza23: folds 
+SEMIMUDO: folds 
+overthehil59: folds 
+FMB999: calls 73
+buradjirodin: folds 
+*** FLOP *** [3h 4d Kd]
+*** TURN *** [3h 4d Kd] [Qh]
+*** RIVER *** [3h 4d Kd Qh] [6h]
+*** SHOW DOWN ***
+FMB999: shows [5d 3c] (a pair of Threes)
+magickev23: shows [Ah 4h] (a flush, Ace high)
+magickev23 collected 234 from pot
+*** SUMMARY ***
+Total pot 234 | Rake 0 
+Board [3h 4d Kd Qh 6h]
+Seat 1: overthehil59 (button) folded before Flop (didn't bet)
+Seat 2: FMB999 (small blind) showed [5d 3c] and lost with a pair of Threes
+Seat 4: buradjirodin (big blind) folded before Flop
+Seat 5: posidowas folded before Flop (didn't bet)
+Seat 6: magickev23 showed [Ah 4h] and won (234) with a flush, Ace high
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358135379: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 16:55:14 BRT [2026/04/05 15:55:14 ET]
+Table '3989565352 1' 8-max Seat #2 is the button
+Seat 1: overthehil59 (3113 in chips) 
+Seat 2: FMB999 (2760 in chips) 
+Seat 4: buradjirodin (1452 in chips) 
+Seat 5: posidowas (1386 in chips) 
+Seat 6: magickev23 (234 in chips) 
+Seat 7: scorza23 (1443 in chips) 
+Seat 8: SEMIMUDO (1812 in chips) 
+overthehil59: posts the ante 4
+FMB999: posts the ante 4
+buradjirodin: posts the ante 4
+posidowas: posts the ante 4
+magickev23: posts the ante 4
+scorza23: posts the ante 4
+SEMIMUDO: posts the ante 4
+buradjirodin: posts small blind 15
+posidowas: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5d]
+magickev23: folds 
+scorza23: folds 
+SEMIMUDO: raises 60 to 90
+overthehil59: folds 
+FMB999: calls 90
+buradjirodin: calls 75
+posidowas: calls 60
+*** FLOP *** [2d 3s 5c]
+buradjirodin: checks 
+posidowas: checks 
+SEMIMUDO: bets 68
+FMB999: calls 68
+buradjirodin: folds 
+posidowas: folds 
+*** TURN *** [2d 3s 5c] [9s]
+SEMIMUDO: checks 
+FMB999: bets 262
+SEMIMUDO: folds 
+Uncalled bet (262) returned to FMB999
+FMB999 collected 524 from pot
+FMB999: doesn't show hand 
+*** SUMMARY ***
+Total pot 524 | Rake 0 
+Board [2d 3s 5c 9s]
+Seat 1: overthehil59 folded before Flop (didn't bet)
+Seat 2: FMB999 (button) collected (524)
+Seat 4: buradjirodin (small blind) folded on the Flop
+Seat 5: posidowas (big blind) folded on the Flop
+Seat 6: magickev23 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO folded on the Turn
+
+
+
+PokerStars Hand #260358190935: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:01:12 BRT [2026/04/05 16:01:12 ET]
+Table '3989565352 1' 8-max Seat #4 is the button
+Seat 1: overthehil59 (3109 in chips) 
+Seat 2: FMB999 (3122 in chips) 
+Seat 4: buradjirodin (1358 in chips) 
+Seat 5: posidowas (1292 in chips) 
+Seat 6: magickev23 (230 in chips) 
+Seat 7: scorza23 (1439 in chips) 
+Seat 8: SEMIMUDO (1650 in chips) 
+overthehil59: posts the ante 4
+FMB999: posts the ante 4
+buradjirodin: posts the ante 4
+posidowas: posts the ante 4
+magickev23: posts the ante 4
+scorza23: posts the ante 4
+SEMIMUDO: posts the ante 4
+posidowas: posts small blind 15
+magickev23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 7s]
+scorza23: folds 
+SEMIMUDO: raises 96 to 126
+overthehil59: folds 
+FMB999: calls 126
+buradjirodin: folds 
+posidowas: folds 
+magickev23: folds 
+*** FLOP *** [4c Jc 7c]
+SEMIMUDO: bets 220
+FMB999: calls 220
+*** TURN *** [4c Jc 7c] [Tc]
+SEMIMUDO: checks 
+FMB999: bets 383
+SEMIMUDO: calls 383
+*** RIVER *** [4c Jc 7c Tc] [3c]
+SEMIMUDO: checks 
+FMB999: bets 766
+SEMIMUDO: raises 151 to 917 and is all-in
+FMB999: calls 151
+*** SHOW DOWN ***
+SEMIMUDO: shows [Ac Kh] (a flush, Ace high)
+FMB999: shows [Qc 8s] (a flush, Queen high)
+SEMIMUDO collected 3365 from pot
+*** SUMMARY ***
+Total pot 3365 | Rake 0 
+Board [4c Jc 7c Tc 3c]
+Seat 1: overthehil59 folded before Flop (didn't bet)
+Seat 2: FMB999 showed [Qc 8s] and lost with a flush, Queen high
+Seat 4: buradjirodin (button) folded before Flop (didn't bet)
+Seat 5: posidowas (small blind) folded before Flop
+Seat 6: magickev23 (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO showed [Ac Kh] and won (3365) with a flush, Ace high
+
+
+
+PokerStars Hand #260358214773: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 17:02:53 BRT [2026/04/05 16:02:53 ET]
+Table '3989565352 1' 8-max Seat #5 is the button
+Seat 1: overthehil59 (3105 in chips) 
+Seat 2: FMB999 (1472 in chips) 
+Seat 4: buradjirodin (1354 in chips) 
+Seat 5: posidowas (1273 in chips) 
+Seat 6: magickev23 (196 in chips) 
+Seat 7: scorza23 (1435 in chips) 
+Seat 8: SEMIMUDO (3365 in chips) 
+overthehil59: posts the ante 4
+FMB999: posts the ante 4
+buradjirodin: posts the ante 4
+posidowas: posts the ante 4
+magickev23: posts the ante 4
+scorza23: posts the ante 4
+SEMIMUDO: posts the ante 4
+magickev23: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 7h]
+SEMIMUDO: folds 
+overthehil59: folds 
+FMB999: folds 
+buradjirodin: folds 
+posidowas: folds 
+magickev23: raises 88 to 118
+scorza23: folds 
+Uncalled bet (88) returned to magickev23
+magickev23 collected 88 from pot
+*** SUMMARY ***
+Total pot 88 | Rake 0 
+Seat 1: overthehil59 folded before Flop (didn't bet)
+Seat 2: FMB999 folded before Flop (didn't bet)
+Seat 4: buradjirodin folded before Flop (didn't bet)
+Seat 5: posidowas (button) folded before Flop (didn't bet)
+Seat 6: magickev23 (small blind) collected (88)
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: SEMIMUDO folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358225935: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:03:36 BRT [2026/04/05 16:03:36 ET]
+Table '3989565352 1' 8-max Seat #6 is the button
+Seat 1: overthehil59 (3101 in chips) 
+Seat 2: FMB999 (1468 in chips) 
+Seat 4: buradjirodin (1350 in chips) 
+Seat 5: posidowas (1269 in chips) 
+Seat 6: magickev23 (250 in chips) 
+Seat 7: scorza23 (1401 in chips) 
+Seat 8: SEMIMUDO (3361 in chips) 
+overthehil59: posts the ante 6
+FMB999: posts the ante 6
+buradjirodin: posts the ante 6
+posidowas: posts the ante 6
+magickev23: posts the ante 6
+scorza23: posts the ante 6
+SEMIMUDO: posts the ante 6
+scorza23: posts small blind 25
+SEMIMUDO: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 8c]
+overthehil59: folds 
+FMB999: raises 50 to 100
+buradjirodin: calls 100
+posidowas is disconnected 
+posidowas is connected 
+posidowas is disconnected 
+posidowas is connected 
+posidowas: calls 100
+magickev23: folds 
+scorza23: folds 
+SEMIMUDO: raises 355 to 455
+FMB999: calls 355
+buradjirodin: folds 
+posidowas: calls 355
+*** FLOP *** [3s Ad 5s]
+SEMIMUDO: checks 
+FMB999: bets 1007 and is all-in
+posidowas: folds 
+SEMIMUDO: folds 
+Uncalled bet (1007) returned to FMB999
+FMB999 collected 1532 from pot
+FMB999: doesn't show hand 
+*** SUMMARY ***
+Total pot 1532 | Rake 0 
+Board [3s Ad 5s]
+Seat 1: overthehil59 folded before Flop (didn't bet)
+Seat 2: FMB999 collected (1532)
+Seat 4: buradjirodin folded before Flop
+Seat 5: posidowas folded on the Flop
+Seat 6: magickev23 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: SEMIMUDO (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260358252426: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:05:16 BRT [2026/04/05 16:05:16 ET]
+Table '3989565352 1' 8-max Seat #7 is the button
+Seat 1: overthehil59 (3095 in chips) 
+Seat 2: FMB999 (2539 in chips) 
+Seat 4: buradjirodin (1244 in chips) 
+Seat 5: posidowas (808 in chips) 
+Seat 6: magickev23 (244 in chips) 
+Seat 7: scorza23 (1370 in chips) 
+Seat 8: SEMIMUDO (2900 in chips) 
+overthehil59: posts the ante 6
+FMB999: posts the ante 6
+buradjirodin: posts the ante 6
+posidowas: posts the ante 6
+magickev23: posts the ante 6
+scorza23: posts the ante 6
+SEMIMUDO: posts the ante 6
+SEMIMUDO: posts small blind 25
+overthehil59: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4d]
+FMB999: raises 50 to 100
+buradjirodin: calls 100
+posidowas: calls 100
+magickev23: folds 
+scorza23: folds 
+SEMIMUDO: folds 
+overthehil59: folds 
+*** FLOP *** [Th Qs 9s]
+FMB999: bets 100
+buradjirodin: calls 100
+posidowas: calls 100
+*** TURN *** [Th Qs 9s] [Jc]
+FMB999: bets 2333 and is all-in
+buradjirodin: folds 
+posidowas: folds 
+Uncalled bet (2333) returned to FMB999
+FMB999 collected 717 from pot
+FMB999: doesn't show hand 
+*** SUMMARY ***
+Total pot 717 | Rake 0 
+Board [Th Qs 9s Jc]
+Seat 1: overthehil59 (big blind) folded before Flop
+Seat 2: FMB999 collected (717)
+Seat 4: buradjirodin folded on the Turn
+Seat 5: posidowas folded on the Turn
+Seat 6: magickev23 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: SEMIMUDO (small blind) folded before Flop
+
+
+
+PokerStars Hand #260358264090: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:05:59 BRT [2026/04/05 16:05:59 ET]
+Table '3989565352 1' 8-max Seat #8 is the button
+Seat 1: overthehil59 (3039 in chips) 
+Seat 2: FMB999 (3050 in chips) 
+Seat 4: buradjirodin (1038 in chips) 
+Seat 5: posidowas (602 in chips) 
+Seat 6: magickev23 (238 in chips) 
+Seat 7: scorza23 (1364 in chips) 
+Seat 8: SEMIMUDO (2869 in chips) 
+overthehil59: posts the ante 6
+FMB999: posts the ante 6
+buradjirodin: posts the ante 6
+posidowas: posts the ante 6
+magickev23: posts the ante 6
+scorza23: posts the ante 6
+SEMIMUDO: posts the ante 6
+overthehil59: posts small blind 25
+FMB999: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Jh]
+buradjirodin: folds 
+posidowas: calls 50
+magickev23: folds 
+scorza23: folds 
+SEMIMUDO: folds 
+overthehil59: folds 
+FMB999: checks 
+*** FLOP *** [Jc 7d Qc]
+FMB999: checks 
+posidowas: checks 
+*** TURN *** [Jc 7d Qc] [4c]
+FMB999: checks 
+posidowas: bets 84
+FMB999: folds 
+Uncalled bet (84) returned to posidowas
+posidowas collected 167 from pot
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Board [Jc 7d Qc 4c]
+Seat 1: overthehil59 (small blind) folded before Flop
+Seat 2: FMB999 (big blind) folded on the Turn
+Seat 4: buradjirodin folded before Flop (didn't bet)
+Seat 5: posidowas collected (167)
+Seat 6: magickev23 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358288069: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 17:07:27 BRT [2026/04/05 16:07:27 ET]
+Table '3989565352 1' 8-max Seat #1 is the button
+Seat 1: overthehil59 (3008 in chips) 
+Seat 2: FMB999 (2994 in chips) 
+Seat 5: posidowas (713 in chips) 
+Seat 6: magickev23 (232 in chips) 
+Seat 7: scorza23 (1358 in chips) 
+Seat 8: SEMIMUDO (2863 in chips) 
+overthehil59: posts the ante 6
+FMB999: posts the ante 6
+posidowas: posts the ante 6
+magickev23: posts the ante 6
+scorza23: posts the ante 6
+SEMIMUDO: posts the ante 6
+FMB999: posts small blind 25
+posidowas: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 6s]
+magickev23: raises 176 to 226 and is all-in
+scorza23: folds 
+SEMIMUDO: folds 
+overthehil59: calls 226
+FMB999: calls 201
+posidowas: folds 
+*** FLOP *** [6c 4c Qd]
+FMB999: checks 
+overthehil59: checks 
+*** TURN *** [6c 4c Qd] [8d]
+FMB999: bets 382
+overthehil59: calls 382
+*** RIVER *** [6c 4c Qd 8d] [3d]
+FMB999: checks 
+overthehil59: checks 
+*** SHOW DOWN ***
+FMB999: shows [Qs 7s] (a pair of Queens)
+overthehil59: mucks hand 
+FMB999 collected 764 from side pot
+magickev23: mucks hand 
+FMB999 collected 764 from main pot
+magickev23 finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 1528 Main pot 764. Side pot 764. | Rake 0 
+Board [6c 4c Qd 8d 3d]
+Seat 1: overthehil59 (button) mucked [Jd Ac]
+Seat 2: FMB999 (small blind) showed [Qs 7s] and won (1528) with a pair of Queens
+Seat 5: posidowas (big blind) folded before Flop
+Seat 6: magickev23 mucked [Jh Ah]
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: SEMIMUDO folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358303200: Tournament #3989565352, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 17:08:23 BRT [2026/04/05 16:08:23 ET]
+Table '3989565352 1' 8-max Seat #2 is the button
+Seat 1: overthehil59 (2394 in chips) 
+Seat 2: FMB999 (3908 in chips) 
+Seat 5: posidowas (657 in chips) 
+Seat 7: scorza23 (1352 in chips) 
+Seat 8: SEMIMUDO (2857 in chips) 
+overthehil59: posts the ante 10
+FMB999: posts the ante 10
+posidowas: posts the ante 10
+scorza23: posts the ante 10
+SEMIMUDO: posts the ante 10
+posidowas: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Jh]
+SEMIMUDO: folds 
+overthehil59: folds 
+FMB999: calls 80
+posidowas: folds 
+Gelásio79 is disconnected 
+scorza23: raises 160 to 240
+FMB999: calls 160
+*** FLOP *** [Ad 4s 7d]
+scorza23: bets 570
+FMB999: raises 570 to 1140
+scorza23: calls 532 and is all-in
+Uncalled bet (38) returned to FMB999
+*** TURN *** [Ad 4s 7d] [Kd]
+*** RIVER *** [Ad 4s 7d Kd] [5c]
+*** SHOW DOWN ***
+scorza23: shows [Jd Jh] (a pair of Jacks)
+FMB999: shows [Ac 6d] (a pair of Aces)
+FMB999 collected 2774 from pot
+scorza23 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 2774 | Rake 0 
+Board [Ad 4s 7d Kd 5c]
+Seat 1: overthehil59 folded before Flop (didn't bet)
+Seat 2: FMB999 (button) showed [Ac 6d] and won (2774) with a pair of Aces
+Seat 5: posidowas (small blind) folded before Flop
+Seat 7: scorza23 (big blind) showed [Jd Jh] and lost with a pair of Jacks
+Seat 8: SEMIMUDO folded before Flop (didn't bet)
+
+
+

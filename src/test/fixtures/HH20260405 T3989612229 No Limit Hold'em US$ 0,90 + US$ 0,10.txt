@@ -1,0 +1,468 @@
+﻿PokerStars Hand #260360408366: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:26:26 BRT [2026/04/05 18:26:26 ET]
+Table '3989612229 1' 8-max Seat #6 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: JChapoi (3 in chips) 
+Seat 3: Cantbro69 (1629 in chips) 
+Seat 4: gigante627 (1434 in chips) 
+Seat 5: Kafelp (1500 in chips) 
+Seat 6: binhoms (1424 in chips) 
+Seat 7: SplashDiddy007 (3016 in chips) 
+scorza23: posts the ante 3
+JChapoi: posts the ante 3 and is all-in
+Cantbro69: posts the ante 3
+gigante627: posts the ante 3
+Kafelp: posts the ante 3
+binhoms: posts the ante 3
+SplashDiddy007: posts the ante 3
+SplashDiddy007: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 4c]
+Cantbro69: folds 
+gigante627: folds 
+Kafelp: raises 20 to 40
+binhoms: calls 40
+SplashDiddy007: folds 
+scorza23: folds 
+*** FLOP *** [7c Ts Jh]
+Kafelp: checks 
+binhoms: checks 
+*** TURN *** [7c Ts Jh] [Qs]
+Kafelp: checks 
+binhoms: checks 
+*** RIVER *** [7c Ts Jh Qs] [3s]
+Kafelp: checks 
+binhoms: checks 
+*** SHOW DOWN ***
+Kafelp: shows [7h 6h] (a pair of Sevens)
+binhoms: mucks hand 
+Kafelp collected 110 from side pot
+JChapoi: mucks hand 
+Kafelp collected 21 from main pot
+JChapoi is sitting out
+JChapoi finished the tournament
+*** SUMMARY ***
+Total pot 131 Main pot 21. Side pot 110. | Rake 0 
+Board [7c Ts Jh Qs 3s]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: JChapoi mucked [9c 3c]
+Seat 3: Cantbro69 folded before Flop (didn't bet)
+Seat 4: gigante627 folded before Flop (didn't bet)
+Seat 5: Kafelp showed [7h 6h] and won (131) with a pair of Sevens
+Seat 6: binhoms (button) mucked [As 4d]
+Seat 7: SplashDiddy007 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360425022: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:27:36 BRT [2026/04/05 18:27:36 ET]
+Table '3989612229 1' 8-max Seat #7 is the button
+Seat 1: scorza23 (1477 in chips) 
+Seat 4: gigante627 (1431 in chips) 
+Seat 5: Kafelp (1588 in chips) 
+Seat 6: binhoms (1381 in chips) 
+Seat 7: SplashDiddy007 (3003 in chips) 
+scorza23: posts the ante 3
+gigante627: posts the ante 3
+Kafelp: posts the ante 3
+binhoms: posts the ante 3
+SplashDiddy007: posts the ante 3
+scorza23: posts small blind 10
+gigante627: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 3d]
+Kafelp: raises 20 to 40
+binhoms: calls 40
+SplashDiddy007: calls 40
+scorza23: folds 
+luisaorp is disconnected 
+uchira123 is disconnected 
+gigante627: folds 
+*** FLOP *** [5h 4s 8d]
+Kafelp: checks 
+binhoms: bets 60
+SplashDiddy007: calls 60
+Kafelp: calls 60
+*** TURN *** [5h 4s 8d] [Kd]
+Kafelp: checks 
+binhoms: bets 60
+SplashDiddy007: calls 60
+Kafelp: calls 60
+*** RIVER *** [5h 4s 8d Kd] [Ah]
+ohanaaa is disconnected 
+Kafelp: checks 
+binhoms: checks 
+SplashDiddy007: checks 
+*** SHOW DOWN ***
+Kafelp: shows [Kh Qh] (a pair of Kings)
+binhoms: mucks hand 
+SplashDiddy007: mucks hand 
+Kafelp collected 525 from pot
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Board [5h 4s 8d Kd Ah]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 4: gigante627 (big blind) folded before Flop
+Seat 5: Kafelp showed [Kh Qh] and won (525) with a pair of Kings
+Seat 6: binhoms mucked [7c 8c]
+Seat 7: SplashDiddy007 (button) mucked [6c 4h]
+
+
+
+PokerStars Hand #260360440708: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:28:43 BRT [2026/04/05 18:28:43 ET]
+Table '3989612229 1' 8-max Seat #1 is the button
+Seat 1: scorza23 (1464 in chips) 
+Seat 2: ohanaaa (1500 in chips) out of hand (moved from another table into small blind)
+Seat 3: luisaorp (1500 in chips) out of hand (moved from another table into small blind)
+Seat 4: gigante627 (1408 in chips) 
+Seat 5: Kafelp (1950 in chips) 
+Seat 6: binhoms (1218 in chips) 
+Seat 7: SplashDiddy007 (2840 in chips) 
+Seat 8: uchira123 (1500 in chips) 
+ohanaaa will be allowed to play after the button
+luisaorp will be allowed to play after the button
+scorza23: posts the ante 3
+gigante627: posts the ante 3
+Kafelp: posts the ante 3
+binhoms: posts the ante 3
+SplashDiddy007: posts the ante 3
+uchira123: posts the ante 3
+gigante627: posts small blind 10
+Kafelp: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Kh]
+binhoms: raises 20 to 40
+SplashDiddy007: folds 
+uchira123: calls 40
+scorza23: folds 
+gigante627: calls 30
+Kafelp: calls 20
+*** FLOP *** [9h 5d 2c]
+gigante627: checks 
+Kafelp: checks 
+binhoms: checks 
+uchira123: checks 
+*** TURN *** [9h 5d 2c] [9s]
+gigante627: checks 
+Kafelp: checks 
+binhoms: checks 
+uchira123: checks 
+*** RIVER *** [9h 5d 2c 9s] [7s]
+gigante627: checks 
+Kafelp: checks 
+binhoms: checks 
+uchira123: checks 
+*** SHOW DOWN ***
+gigante627: shows [Qd 3d] (a pair of Nines)
+Kafelp: shows [Tc 7c] (two pair, Nines and Sevens)
+binhoms: mucks hand 
+uchira123: mucks hand 
+Kafelp collected 178 from pot
+*** SUMMARY ***
+Total pot 178 | Rake 0 
+Board [9h 5d 2c 9s 7s]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: gigante627 (small blind) showed [Qd 3d] and lost with a pair of Nines
+Seat 5: Kafelp (big blind) showed [Tc 7c] and won (178) with two pair, Nines and Sevens
+Seat 6: binhoms mucked [Ts Qc]
+Seat 7: SplashDiddy007 folded before Flop (didn't bet)
+Seat 8: uchira123 mucked [8s As]
+
+
+
+PokerStars Hand #260360460766: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:30:08 BRT [2026/04/05 18:30:08 ET]
+Table '3989612229 1' 8-max Seat #4 is the button
+Seat 1: scorza23 (1461 in chips) 
+Seat 2: ohanaaa (1500 in chips) 
+Seat 3: luisaorp (1500 in chips) 
+Seat 4: gigante627 (1365 in chips) 
+Seat 5: Kafelp (2085 in chips) 
+Seat 6: binhoms (1175 in chips) 
+Seat 7: SplashDiddy007 (2837 in chips) 
+Seat 8: uchira123 (1457 in chips) 
+scorza23: posts the ante 4
+ohanaaa: posts the ante 4
+luisaorp: posts the ante 4
+gigante627: posts the ante 4
+Kafelp: posts the ante 4
+binhoms: posts the ante 4
+SplashDiddy007: posts the ante 4
+uchira123: posts the ante 4
+Kafelp: posts small blind 15
+binhoms: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Jd]
+SplashDiddy007: calls 30
+uchira123: folds 
+scorza23: raises 30 to 60
+ohanaaa: folds 
+luisaorp: folds 
+gigante627: raises 30 to 90
+Kafelp: folds 
+binhoms: folds 
+SplashDiddy007: calls 60
+scorza23: raises 270 to 360
+gigante627: folds 
+SplashDiddy007: folds 
+Uncalled bet (270) returned to scorza23
+scorza23 collected 347 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 347 | Rake 0 
+Seat 1: scorza23 collected (347)
+Seat 2: ohanaaa folded before Flop (didn't bet)
+Seat 3: luisaorp folded before Flop (didn't bet)
+Seat 4: gigante627 (button) folded before Flop
+Seat 5: Kafelp (small blind) folded before Flop
+Seat 6: binhoms (big blind) folded before Flop
+Seat 7: SplashDiddy007 folded before Flop
+Seat 8: uchira123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360474679: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:31:08 BRT [2026/04/05 18:31:08 ET]
+Table '3989612229 1' 8-max Seat #5 is the button
+Seat 1: scorza23 (1714 in chips) 
+Seat 3: luisaorp (1496 in chips) 
+Seat 4: gigante627 (1271 in chips) 
+Seat 5: Kafelp (2066 in chips) 
+Seat 6: binhoms (1141 in chips) 
+Seat 7: SplashDiddy007 (2743 in chips) 
+Seat 8: uchira123 (1453 in chips) 
+scorza23: posts the ante 4
+luisaorp: posts the ante 4
+gigante627: posts the ante 4
+Kafelp: posts the ante 4
+binhoms: posts the ante 4
+SplashDiddy007: posts the ante 4
+uchira123: posts the ante 4
+binhoms: posts small blind 15
+SplashDiddy007: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qs]
+uchira123: folds 
+scorza23: folds 
+luisaorp: folds 
+gigante627: calls 30
+Kafelp: raises 90 to 120
+binhoms: folds 
+SplashDiddy007: folds 
+gigante627: calls 90
+*** FLOP *** [5c Jd Ks]
+gigante627: bets 30
+Kafelp: folds 
+Uncalled bet (30) returned to gigante627
+gigante627 collected 313 from pot
+gigante627: doesn't show hand 
+*** SUMMARY ***
+Total pot 313 | Rake 0 
+Board [5c Jd Ks]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: luisaorp folded before Flop (didn't bet)
+Seat 4: gigante627 collected (313)
+Seat 5: Kafelp (button) folded on the Flop
+Seat 6: binhoms (small blind) folded before Flop
+Seat 7: SplashDiddy007 (big blind) folded before Flop
+Seat 8: uchira123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360487998: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:32:04 BRT [2026/04/05 18:32:04 ET]
+Table '3989612229 1' 8-max Seat #6 is the button
+Seat 1: scorza23 (1710 in chips) 
+Seat 3: luisaorp (1492 in chips) 
+Seat 4: gigante627 (1460 in chips) 
+Seat 5: Kafelp (1942 in chips) 
+Seat 6: binhoms (1122 in chips) 
+Seat 7: SplashDiddy007 (2709 in chips) 
+Seat 8: uchira123 (1449 in chips) 
+scorza23: posts the ante 4
+luisaorp: posts the ante 4
+gigante627: posts the ante 4
+Kafelp: posts the ante 4
+binhoms: posts the ante 4
+SplashDiddy007: posts the ante 4
+uchira123: posts the ante 4
+SplashDiddy007: posts small blind 15
+uchira123: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 2s]
+scorza23: folds 
+luisaorp: raises 36 to 66
+gigante627: folds 
+Kafelp: folds 
+binhoms: calls 66
+SplashDiddy007: calls 51
+uchira123: folds 
+*** FLOP *** [Qs Ah Qh]
+SplashDiddy007: checks 
+luisaorp: bets 77
+binhoms: calls 77
+SplashDiddy007: folds 
+*** TURN *** [Qs Ah Qh] [Tc]
+luisaorp: bets 123
+binhoms: calls 123
+*** RIVER *** [Qs Ah Qh Tc] [Js]
+luisaorp: bets 1222 and is all-in
+binhoms: folds 
+Uncalled bet (1222) returned to luisaorp
+luisaorp collected 656 from pot
+luisaorp: doesn't show hand 
+*** SUMMARY ***
+Total pot 656 | Rake 0 
+Board [Qs Ah Qh Tc Js]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: luisaorp collected (656)
+Seat 4: gigante627 folded before Flop (didn't bet)
+Seat 5: Kafelp folded before Flop (didn't bet)
+Seat 6: binhoms (button) folded on the River
+Seat 7: SplashDiddy007 (small blind) folded on the Flop
+Seat 8: uchira123 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260360508581: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:33:33 BRT [2026/04/05 18:33:33 ET]
+Table '3989612229 1' 8-max Seat #7 is the button
+Seat 1: scorza23 (1706 in chips) 
+Seat 3: luisaorp (1878 in chips) 
+Seat 4: gigante627 (1456 in chips) 
+Seat 5: Kafelp (1938 in chips) 
+Seat 6: binhoms (852 in chips) 
+Seat 7: SplashDiddy007 (2639 in chips) 
+Seat 8: uchira123 (1415 in chips) 
+scorza23: posts the ante 4
+luisaorp: posts the ante 4
+gigante627: posts the ante 4
+Kafelp: posts the ante 4
+binhoms: posts the ante 4
+SplashDiddy007: posts the ante 4
+uchira123: posts the ante 4
+uchira123: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 9d]
+luisaorp: folds 
+gigante627: folds 
+Kafelp: raises 30 to 60
+binhoms: calls 60
+SplashDiddy007: folds 
+uchira123: folds 
+scorza23: folds 
+*** FLOP *** [Kh Td 4s]
+Kafelp: bets 97
+binhoms: folds 
+Uncalled bet (97) returned to Kafelp
+Kafelp collected 193 from pot
+Kafelp: doesn't show hand 
+*** SUMMARY ***
+Total pot 193 | Rake 0 
+Board [Kh Td 4s]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 3: luisaorp folded before Flop (didn't bet)
+Seat 4: gigante627 folded before Flop (didn't bet)
+Seat 5: Kafelp collected (193)
+Seat 6: binhoms folded on the Flop
+Seat 7: SplashDiddy007 (button) folded before Flop (didn't bet)
+Seat 8: uchira123 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360516105: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:34:06 BRT [2026/04/05 18:34:06 ET]
+Table '3989612229 1' 8-max Seat #8 is the button
+Seat 1: scorza23 (1672 in chips) 
+Seat 3: luisaorp (1874 in chips) 
+Seat 4: gigante627 (1452 in chips) 
+Seat 5: Kafelp (2067 in chips) 
+Seat 6: binhoms (788 in chips) 
+Seat 7: SplashDiddy007 (2635 in chips) 
+Seat 8: uchira123 (1396 in chips) 
+scorza23: posts the ante 4
+luisaorp: posts the ante 4
+gigante627: posts the ante 4
+Kafelp: posts the ante 4
+binhoms: posts the ante 4
+SplashDiddy007: posts the ante 4
+uchira123: posts the ante 4
+scorza23: posts small blind 15
+luisaorp: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [9s Ks]
+gigante627: raises 1418 to 1448 and is all-in
+Kafelp: folds 
+binhoms: folds 
+SplashDiddy007: folds 
+uchira123: folds 
+scorza23: folds 
+luisaorp: folds 
+Uncalled bet (1418) returned to gigante627
+gigante627 collected 103 from pot
+gigante627: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 3: luisaorp (big blind) folded before Flop
+Seat 4: gigante627 collected (103)
+Seat 5: Kafelp folded before Flop (didn't bet)
+Seat 6: binhoms folded before Flop (didn't bet)
+Seat 7: SplashDiddy007 folded before Flop (didn't bet)
+Seat 8: uchira123 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360524635: Tournament #3989612229, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:34:42 BRT [2026/04/05 18:34:42 ET]
+Table '3989612229 1' 8-max Seat #1 is the button
+Seat 1: scorza23 (1653 in chips) 
+Seat 3: luisaorp (1840 in chips) 
+Seat 4: gigante627 (1521 in chips) 
+Seat 5: Kafelp (2063 in chips) 
+Seat 6: binhoms (784 in chips) 
+Seat 7: SplashDiddy007 (2631 in chips) 
+Seat 8: uchira123 (1392 in chips) 
+scorza23: posts the ante 6
+luisaorp: posts the ante 6
+gigante627: posts the ante 6
+Kafelp: posts the ante 6
+binhoms: posts the ante 6
+SplashDiddy007: posts the ante 6
+uchira123: posts the ante 6
+luisaorp: posts small blind 25
+gigante627: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 8h]
+Kafelp: folds 
+binhoms: folds 
+SplashDiddy007: calls 50
+uchira123: folds 
+scorza23: raises 150 to 200
+luisaorp: calls 175
+gigante627: folds 
+SplashDiddy007: calls 150
+*** FLOP *** [9s 4c 5s]
+luisaorp: checks 
+SplashDiddy007: bets 346
+scorza23: raises 1101 to 1447 and is all-in
+luisaorp: calls 1447
+SplashDiddy007: calls 1101
+*** TURN *** [9s 4c 5s] [As]
+luisaorp: bets 187 and is all-in
+SplashDiddy007: calls 187
+*** RIVER *** [9s 4c 5s As] [2c]
+*** SHOW DOWN ***
+luisaorp: shows [5h 5d] (three of a kind, Fives)
+SplashDiddy007: shows [9d Jd] (a pair of Nines)
+luisaorp collected 374 from side pot
+scorza23: shows [8d 8h] (a pair of Eights)
+luisaorp collected 5033 from main pot
+scorza23 finished the tournament in 26th place
+*** SUMMARY ***
+Total pot 5407 Main pot 5033. Side pot 374. | Rake 0 
+Board [9s 4c 5s As 2c]
+Seat 1: scorza23 (button) showed [8d 8h] and lost with a pair of Eights
+Seat 3: luisaorp (small blind) showed [5h 5d] and won (5407) with three of a kind, Fives
+Seat 4: gigante627 (big blind) folded before Flop
+Seat 5: Kafelp folded before Flop (didn't bet)
+Seat 6: binhoms folded before Flop (didn't bet)
+Seat 7: SplashDiddy007 showed [9d Jd] and lost with a pair of Nines
+Seat 8: uchira123 folded before Flop (didn't bet)
+
+
+

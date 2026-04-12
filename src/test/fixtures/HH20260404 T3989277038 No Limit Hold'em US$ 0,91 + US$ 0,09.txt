@@ -1,0 +1,1005 @@
+﻿PokerStars Hand #260344935384: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:12:25 UTC [2026/04/04 15:12:25 ET]
+Table '3989277038 1' 6-max Seat #1 is the button
+Seat 1: savvy1000 (500 in chips) 
+Seat 2: Youngman75 (500 in chips) 
+Seat 3: scorza23 (500 in chips) 
+Seat 4: Noeneon412 (500 in chips) 
+Seat 5: primodepie (500 in chips) 
+Seat 6: MaBccn (500 in chips) 
+savvy1000: posts the ante 2
+Youngman75: posts the ante 2
+scorza23: posts the ante 2
+Noeneon412: posts the ante 2
+primodepie: posts the ante 2
+MaBccn: posts the ante 2
+Youngman75: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Kc]
+Noeneon412: folds 
+primodepie: folds 
+MaBccn: folds 
+savvy1000: calls 20
+Youngman75: calls 10
+scorza23: checks 
+*** FLOP *** [Qh 9d 4s]
+Youngman75: checks 
+scorza23: bets 20
+savvy1000: folds 
+Youngman75: calls 20
+*** TURN *** [Qh 9d 4s] [8d]
+Youngman75: checks 
+scorza23: checks 
+*** RIVER *** [Qh 9d 4s 8d] [8h]
+Youngman75: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+Youngman75: shows [4d 3c] (two pair, Eights and Fours)
+scorza23: mucks hand 
+Youngman75 collected 112 from pot
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Board [Qh 9d 4s 8d 8h]
+Seat 1: savvy1000 (button) folded on the Flop
+Seat 2: Youngman75 (small blind) showed [4d 3c] and won (112) with two pair, Eights and Fours
+Seat 3: scorza23 (big blind) mucked [Ac Kc]
+Seat 4: Noeneon412 folded before Flop (didn't bet)
+Seat 5: primodepie folded before Flop (didn't bet)
+Seat 6: MaBccn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344945599: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:13:11 UTC [2026/04/04 15:13:11 ET]
+Table '3989277038 1' 6-max Seat #2 is the button
+Seat 1: savvy1000 (478 in chips) 
+Seat 2: Youngman75 (570 in chips) 
+Seat 3: scorza23 (458 in chips) 
+Seat 4: Noeneon412 (498 in chips) 
+Seat 5: primodepie (498 in chips) 
+Seat 6: MaBccn (498 in chips) 
+savvy1000: posts the ante 2
+Youngman75: posts the ante 2
+scorza23: posts the ante 2
+Noeneon412: posts the ante 2
+primodepie: posts the ante 2
+MaBccn: posts the ante 2
+scorza23: posts small blind 10
+Noeneon412: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 3c]
+primodepie: folds 
+MaBccn: raises 40 to 60
+savvy1000: folds 
+Youngman75: folds 
+scorza23: folds 
+Noeneon412: folds 
+Uncalled bet (40) returned to MaBccn
+MaBccn collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0 
+Seat 1: savvy1000 folded before Flop (didn't bet)
+Seat 2: Youngman75 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: Noeneon412 (big blind) folded before Flop
+Seat 5: primodepie folded before Flop (didn't bet)
+Seat 6: MaBccn collected (62)
+
+
+
+PokerStars Hand #260344949635: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 19:13:29 UTC [2026/04/04 15:13:29 ET]
+Table '3989277038 1' 6-max Seat #3 is the button
+Seat 1: savvy1000 (476 in chips) 
+Seat 2: Youngman75 (568 in chips) 
+Seat 3: scorza23 (446 in chips) 
+Seat 4: Noeneon412 (476 in chips) 
+Seat 5: primodepie (496 in chips) 
+Seat 6: MaBccn (538 in chips) 
+savvy1000: posts the ante 2
+Youngman75: posts the ante 2
+scorza23: posts the ante 2
+Noeneon412: posts the ante 2
+primodepie: posts the ante 2
+MaBccn: posts the ante 2
+Noeneon412: posts small blind 10
+primodepie: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 3s]
+MaBccn: folds 
+savvy1000: folds 
+Youngman75: calls 20
+scorza23: folds 
+Noeneon412: folds 
+primodepie: checks 
+*** FLOP *** [Kc 6d Js]
+primodepie: checks 
+Youngman75: checks 
+*** TURN *** [Kc 6d Js] [9h]
+primodepie: checks 
+Youngman75: checks 
+*** RIVER *** [Kc 6d Js 9h] [2h]
+primodepie: checks 
+Youngman75: checks 
+*** SHOW DOWN ***
+primodepie: shows [Ac 8c] (high card Ace)
+Youngman75: mucks hand 
+primodepie collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0 
+Board [Kc 6d Js 9h 2h]
+Seat 1: savvy1000 folded before Flop (didn't bet)
+Seat 2: Youngman75 mucked [Qh 4h]
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Noeneon412 (small blind) folded before Flop
+Seat 5: primodepie (big blind) showed [Ac 8c] and won (62) with high card Ace
+Seat 6: MaBccn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344957045: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:14:01 UTC [2026/04/04 15:14:01 ET]
+Table '3989277038 1' 6-max Seat #4 is the button
+Seat 1: savvy1000 (474 in chips) 
+Seat 2: Youngman75 (546 in chips) 
+Seat 3: scorza23 (444 in chips) 
+Seat 4: Noeneon412 (464 in chips) 
+Seat 5: primodepie (536 in chips) 
+Seat 6: MaBccn (536 in chips) 
+savvy1000: posts the ante 3
+Youngman75: posts the ante 3
+scorza23: posts the ante 3
+Noeneon412: posts the ante 3
+primodepie: posts the ante 3
+MaBccn: posts the ante 3
+primodepie: posts small blind 15
+MaBccn: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 5s]
+savvy1000: folds 
+Youngman75: raises 60 to 90
+scorza23: calls 90
+Noeneon412: calls 90
+primodepie: folds 
+MaBccn: folds 
+*** FLOP *** [9h 9d 5d]
+Youngman75: bets 167
+scorza23: calls 167
+Noeneon412: folds 
+*** TURN *** [9h 9d 5d] [Kh]
+Youngman75: bets 286 and is all-in
+scorza23: calls 184 and is all-in
+Uncalled bet (102) returned to Youngman75
+*** RIVER *** [9h 9d 5d Kh] [3h]
+*** SHOW DOWN ***
+Youngman75: shows [Qs Qc] (two pair, Queens and Nines)
+scorza23: shows [5h 5s] (a full house, Fives full of Nines)
+scorza23 collected 1035 from pot
+*** SUMMARY ***
+Total pot 1035 | Rake 0 
+Board [9h 9d 5d Kh 3h]
+Seat 1: savvy1000 folded before Flop (didn't bet)
+Seat 2: Youngman75 showed [Qs Qc] and lost with two pair, Queens and Nines
+Seat 3: scorza23 showed [5h 5s] and won (1035) with a full house, Fives full of Nines
+Seat 4: Noeneon412 (button) folded on the Flop
+Seat 5: primodepie (small blind) folded before Flop
+Seat 6: MaBccn (big blind) folded before Flop
+
+
+
+PokerStars Hand #260344965994: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:14:40 UTC [2026/04/04 15:14:40 ET]
+Table '3989277038 1' 6-max Seat #5 is the button
+Seat 1: savvy1000 (471 in chips) 
+Seat 2: Youngman75 (102 in chips) 
+Seat 3: scorza23 (1035 in chips) 
+Seat 4: Noeneon412 (371 in chips) 
+Seat 5: primodepie (518 in chips) 
+Seat 6: MaBccn (503 in chips) 
+savvy1000: posts the ante 3
+Youngman75: posts the ante 3
+scorza23: posts the ante 3
+Noeneon412: posts the ante 3
+primodepie: posts the ante 3
+MaBccn: posts the ante 3
+MaBccn: posts small blind 15
+savvy1000: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 3h]
+Youngman75: calls 30
+scorza23: folds 
+Noeneon412: folds 
+primodepie: folds 
+MaBccn: folds 
+savvy1000: raises 60 to 90
+Youngman75: raises 9 to 99 and is all-in
+savvy1000: calls 9
+*** FLOP *** [Jd 4s 9s]
+*** TURN *** [Jd 4s 9s] [5d]
+*** RIVER *** [Jd 4s 9s 5d] [8h]
+*** SHOW DOWN ***
+savvy1000: shows [Kd 7h] (high card King)
+Youngman75: shows [As 5c] (a pair of Fives)
+Youngman75 collected 231 from pot
+*** SUMMARY ***
+Total pot 231 | Rake 0 
+Board [Jd 4s 9s 5d 8h]
+Seat 1: savvy1000 (big blind) showed [Kd 7h] and lost with high card King
+Seat 2: Youngman75 showed [As 5c] and won (231) with a pair of Fives
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Noeneon412 folded before Flop (didn't bet)
+Seat 5: primodepie (button) folded before Flop (didn't bet)
+Seat 6: MaBccn (small blind) folded before Flop
+
+
+
+PokerStars Hand #260344972091: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:15:07 UTC [2026/04/04 15:15:07 ET]
+Table '3989277038 1' 6-max Seat #6 is the button
+Seat 1: savvy1000 (369 in chips) 
+Seat 2: Youngman75 (231 in chips) 
+Seat 3: scorza23 (1032 in chips) 
+Seat 4: Noeneon412 (368 in chips) 
+Seat 5: primodepie (515 in chips) 
+Seat 6: MaBccn (485 in chips) 
+savvy1000: posts the ante 3
+Youngman75: posts the ante 3
+scorza23: posts the ante 3
+Noeneon412: posts the ante 3
+primodepie: posts the ante 3
+MaBccn: posts the ante 3
+savvy1000: posts small blind 15
+Youngman75: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 9s]
+scorza23: raises 30 to 60
+Noeneon412: calls 60
+primodepie: folds 
+MaBccn: calls 60
+savvy1000: calls 45
+Youngman75: calls 30
+*** FLOP *** [2d 9h Kh]
+savvy1000: bets 159
+Youngman75: raises 9 to 168 and is all-in
+scorza23: folds 
+Noeneon412: folds 
+MaBccn: folds 
+savvy1000: calls 9
+*** TURN *** [2d 9h Kh] [7s]
+*** RIVER *** [2d 9h Kh 7s] [4h]
+*** SHOW DOWN ***
+savvy1000: shows [Kd Ac] (a pair of Kings)
+Youngman75: shows [2h Jh] (a flush, King high)
+Youngman75 collected 654 from pot
+*** SUMMARY ***
+Total pot 654 | Rake 0 
+Board [2d 9h Kh 7s 4h]
+Seat 1: savvy1000 (small blind) showed [Kd Ac] and lost with a pair of Kings
+Seat 2: Youngman75 (big blind) showed [2h Jh] and won (654) with a flush, King high
+Seat 3: scorza23 folded on the Flop
+Seat 4: Noeneon412 folded on the Flop
+Seat 5: primodepie folded before Flop (didn't bet)
+Seat 6: MaBccn (button) folded on the Flop
+
+
+
+PokerStars Hand #260344984265: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 19:16:01 UTC [2026/04/04 15:16:01 ET]
+Table '3989277038 1' 6-max Seat #1 is the button
+Seat 1: savvy1000 (138 in chips) 
+Seat 2: Youngman75 (654 in chips) 
+Seat 3: scorza23 (969 in chips) 
+Seat 4: Noeneon412 (305 in chips) 
+Seat 5: primodepie (512 in chips) 
+Seat 6: MaBccn (422 in chips) 
+savvy1000: posts the ante 3
+Youngman75: posts the ante 3
+scorza23: posts the ante 3
+Noeneon412: posts the ante 3
+primodepie: posts the ante 3
+MaBccn: posts the ante 3
+Youngman75: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 7c]
+Noeneon412: folds 
+primodepie: folds 
+MaBccn: raises 60 to 90
+savvy1000: folds 
+Youngman75: folds 
+scorza23: folds 
+Uncalled bet (60) returned to MaBccn
+MaBccn collected 93 from pot
+*** SUMMARY ***
+Total pot 93 | Rake 0 
+Seat 1: savvy1000 (button) folded before Flop (didn't bet)
+Seat 2: Youngman75 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: Noeneon412 folded before Flop (didn't bet)
+Seat 5: primodepie folded before Flop (didn't bet)
+Seat 6: MaBccn collected (93)
+
+
+
+PokerStars Hand #260344989280: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level III (20/40) - 2026/04/04 19:16:23 UTC [2026/04/04 15:16:23 ET]
+Table '3989277038 1' 6-max Seat #2 is the button
+Seat 1: savvy1000 (135 in chips) 
+Seat 2: Youngman75 (636 in chips) 
+Seat 3: scorza23 (936 in chips) 
+Seat 4: Noeneon412 (302 in chips) 
+Seat 5: primodepie (509 in chips) 
+Seat 6: MaBccn (482 in chips) 
+savvy1000: posts the ante 4
+Youngman75: posts the ante 4
+scorza23: posts the ante 4
+Noeneon412: posts the ante 4
+primodepie: posts the ante 4
+MaBccn: posts the ante 4
+scorza23: posts small blind 20
+Noeneon412: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Ac]
+primodepie: folds 
+MaBccn: folds 
+savvy1000: folds 
+Youngman75: folds 
+scorza23: raises 40 to 80
+Noeneon412: calls 40
+*** FLOP *** [7s Kc 2h]
+scorza23: checks 
+Noeneon412: checks 
+*** TURN *** [7s Kc 2h] [Js]
+scorza23: bets 80
+Noeneon412: folds 
+Uncalled bet (80) returned to scorza23
+scorza23 collected 184 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 184 | Rake 0 
+Board [7s Kc 2h Js]
+Seat 1: savvy1000 folded before Flop (didn't bet)
+Seat 2: Youngman75 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) collected (184)
+Seat 4: Noeneon412 (big blind) folded on the Turn
+Seat 5: primodepie folded before Flop (didn't bet)
+Seat 6: MaBccn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344994217: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level III (20/40) - 2026/04/04 19:16:45 UTC [2026/04/04 15:16:45 ET]
+Table '3989277038 1' 6-max Seat #3 is the button
+Seat 1: savvy1000 (131 in chips) 
+Seat 2: Youngman75 (632 in chips) 
+Seat 3: scorza23 (1036 in chips) 
+Seat 4: Noeneon412 (218 in chips) 
+Seat 5: primodepie (505 in chips) 
+Seat 6: MaBccn (478 in chips) 
+savvy1000: posts the ante 4
+Youngman75: posts the ante 4
+scorza23: posts the ante 4
+Noeneon412: posts the ante 4
+primodepie: posts the ante 4
+MaBccn: posts the ante 4
+Noeneon412: posts small blind 20
+primodepie: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 7d]
+MaBccn: folds 
+savvy1000: folds 
+Youngman75: folds 
+scorza23: folds 
+Noeneon412: raises 174 to 214 and is all-in
+primodepie: folds 
+Uncalled bet (174) returned to Noeneon412
+Noeneon412 collected 104 from pot
+Noeneon412: doesn't show hand 
+*** SUMMARY ***
+Total pot 104 | Rake 0 
+Seat 1: savvy1000 folded before Flop (didn't bet)
+Seat 2: Youngman75 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: Noeneon412 (small blind) collected (104)
+Seat 5: primodepie (big blind) folded before Flop
+Seat 6: MaBccn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260344997216: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level III (20/40) - 2026/04/04 19:16:57 UTC [2026/04/04 15:16:57 ET]
+Table '3989277038 1' 6-max Seat #4 is the button
+Seat 1: savvy1000 (127 in chips) 
+Seat 2: Youngman75 (628 in chips) 
+Seat 3: scorza23 (1032 in chips) 
+Seat 4: Noeneon412 (278 in chips) 
+Seat 5: primodepie (461 in chips) 
+Seat 6: MaBccn (474 in chips) 
+savvy1000: posts the ante 4
+Youngman75: posts the ante 4
+scorza23: posts the ante 4
+Noeneon412: posts the ante 4
+primodepie: posts the ante 4
+MaBccn: posts the ante 4
+primodepie: posts small blind 20
+MaBccn: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Kd]
+savvy1000: raises 83 to 123 and is all-in
+Youngman75: calls 123
+scorza23: folds 
+Noeneon412: folds 
+primodepie: folds 
+MaBccn: folds 
+*** FLOP *** [4d As Ah]
+*** TURN *** [4d As Ah] [Js]
+*** RIVER *** [4d As Ah Js] [9h]
+*** SHOW DOWN ***
+savvy1000: shows [Qd Qc] (two pair, Aces and Queens)
+Youngman75: shows [Ad 8s] (three of a kind, Aces)
+Youngman75 collected 330 from pot
+savvy1000 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Board [4d As Ah Js 9h]
+Seat 1: savvy1000 showed [Qd Qc] and lost with two pair, Aces and Queens
+Seat 2: Youngman75 showed [Ad 8s] and won (330) with three of a kind, Aces
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Noeneon412 (button) folded before Flop (didn't bet)
+Seat 5: primodepie (small blind) folded before Flop
+Seat 6: MaBccn (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345002554: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level III (20/40) - 2026/04/04 19:17:21 UTC [2026/04/04 15:17:21 ET]
+Table '3989277038 1' 6-max Seat #5 is the button
+Seat 2: Youngman75 (831 in chips) 
+Seat 3: scorza23 (1028 in chips) 
+Seat 4: Noeneon412 (274 in chips) 
+Seat 5: primodepie (437 in chips) 
+Seat 6: MaBccn (430 in chips) 
+Youngman75: posts the ante 4
+scorza23: posts the ante 4
+Noeneon412: posts the ante 4
+primodepie: posts the ante 4
+MaBccn: posts the ante 4
+MaBccn: posts small blind 20
+Youngman75: posts big blind 40
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5h]
+scorza23: folds 
+Noeneon412: raises 230 to 270 and is all-in
+primodepie: raises 163 to 433 and is all-in
+MaBccn: folds 
+Youngman75: folds 
+Uncalled bet (163) returned to primodepie
+*** FLOP *** [3s 9d 5d]
+*** TURN *** [3s 9d 5d] [Jc]
+*** RIVER *** [3s 9d 5d Jc] [Kc]
+*** SHOW DOWN ***
+Noeneon412: shows [As 7d] (high card Ace)
+primodepie: shows [4h 4s] (a pair of Fours)
+primodepie collected 620 from pot
+Noeneon412 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 620 | Rake 0 
+Board [3s 9d 5d Jc Kc]
+Seat 2: Youngman75 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Noeneon412 showed [As 7d] and lost with high card Ace
+Seat 5: primodepie (button) showed [4h 4s] and won (620) with a pair of Fours
+Seat 6: MaBccn (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345008620: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level IV (30/60) - 2026/04/04 19:17:48 UTC [2026/04/04 15:17:48 ET]
+Table '3989277038 1' 6-max Seat #6 is the button
+Seat 2: Youngman75 (787 in chips) 
+Seat 3: scorza23 (1024 in chips) 
+Seat 5: primodepie (783 in chips) 
+Seat 6: MaBccn (406 in chips) 
+Youngman75: posts the ante 6
+scorza23: posts the ante 6
+primodepie: posts the ante 6
+MaBccn: posts the ante 6
+Youngman75: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 3c]
+primodepie: folds 
+MaBccn: raises 340 to 400 and is all-in
+Youngman75: folds 
+scorza23: calls 340
+*** FLOP *** [4h 2h 2c]
+*** TURN *** [4h 2h 2c] [8c]
+*** RIVER *** [4h 2h 2c 8c] [7s]
+*** SHOW DOWN ***
+scorza23: shows [Ac 3c] (a pair of Deuces)
+MaBccn: shows [7c 7h] (a full house, Sevens full of Deuces)
+MaBccn collected 854 from pot
+*** SUMMARY ***
+Total pot 854 | Rake 0 
+Board [4h 2h 2c 8c 7s]
+Seat 2: Youngman75 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) showed [Ac 3c] and lost with a pair of Deuces
+Seat 5: primodepie folded before Flop (didn't bet)
+Seat 6: MaBccn (button) showed [7c 7h] and won (854) with a full house, Sevens full of Deuces
+
+
+
+PokerStars Hand #260345013305: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level IV (30/60) - 2026/04/04 19:18:09 UTC [2026/04/04 15:18:09 ET]
+Table '3989277038 1' 6-max Seat #2 is the button
+Seat 2: Youngman75 (751 in chips) 
+Seat 3: scorza23 (618 in chips) 
+Seat 5: primodepie (777 in chips) 
+Seat 6: MaBccn (854 in chips) 
+Youngman75: posts the ante 6
+scorza23: posts the ante 6
+primodepie: posts the ante 6
+MaBccn: posts the ante 6
+scorza23: posts small blind 30
+primodepie: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 5h]
+MaBccn: calls 60
+Youngman75: raises 240 to 300
+scorza23: folds 
+primodepie: folds 
+MaBccn: folds 
+Uncalled bet (240) returned to Youngman75
+Youngman75 collected 234 from pot
+Youngman75: doesn't show hand 
+*** SUMMARY ***
+Total pot 234 | Rake 0 
+Seat 2: Youngman75 (button) collected (234)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: primodepie (big blind) folded before Flop
+Seat 6: MaBccn folded before Flop
+
+
+
+PokerStars Hand #260345017028: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level IV (30/60) - 2026/04/04 19:18:26 UTC [2026/04/04 15:18:26 ET]
+Table '3989277038 1' 6-max Seat #3 is the button
+Seat 2: Youngman75 (919 in chips) 
+Seat 3: scorza23 (582 in chips) 
+Seat 5: primodepie (711 in chips) 
+Seat 6: MaBccn (788 in chips) 
+Youngman75: posts the ante 6
+scorza23: posts the ante 6
+primodepie: posts the ante 6
+MaBccn: posts the ante 6
+primodepie: posts small blind 30
+MaBccn: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 3s]
+Youngman75: folds 
+scorza23: raises 120 to 180
+primodepie: folds 
+MaBccn: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 174 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 174 | Rake 0 
+Seat 2: Youngman75 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) collected (174)
+Seat 5: primodepie (small blind) folded before Flop
+Seat 6: MaBccn (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345019381: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level IV (30/60) - 2026/04/04 19:18:36 UTC [2026/04/04 15:18:36 ET]
+Table '3989277038 1' 6-max Seat #5 is the button
+Seat 2: Youngman75 (913 in chips) 
+Seat 3: scorza23 (690 in chips) 
+Seat 5: primodepie (675 in chips) 
+Seat 6: MaBccn (722 in chips) 
+Youngman75: posts the ante 6
+scorza23: posts the ante 6
+primodepie: posts the ante 6
+MaBccn: posts the ante 6
+MaBccn: posts small blind 30
+Youngman75: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8d]
+scorza23: folds 
+primodepie: folds 
+MaBccn: raises 656 to 716 and is all-in
+Youngman75: folds 
+Uncalled bet (656) returned to MaBccn
+MaBccn collected 144 from pot
+*** SUMMARY ***
+Total pot 144 | Rake 0 
+Seat 2: Youngman75 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: primodepie (button) folded before Flop (didn't bet)
+Seat 6: MaBccn (small blind) collected (144)
+
+
+
+PokerStars Hand #260345021651: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level IV (30/60) - 2026/04/04 19:18:46 UTC [2026/04/04 15:18:46 ET]
+Table '3989277038 1' 6-max Seat #6 is the button
+Seat 2: Youngman75 (847 in chips) 
+Seat 3: scorza23 (684 in chips) 
+Seat 5: primodepie (669 in chips) 
+Seat 6: MaBccn (800 in chips) 
+Youngman75: posts the ante 6
+scorza23: posts the ante 6
+primodepie: posts the ante 6
+MaBccn: posts the ante 6
+Youngman75: posts small blind 30
+scorza23: posts big blind 60
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 4c]
+primodepie: folds 
+MaBccn: folds 
+Youngman75: calls 30
+scorza23: raises 144 to 204
+Youngman75: raises 637 to 841 and is all-in
+scorza23: calls 474 and is all-in
+Uncalled bet (163) returned to Youngman75
+*** FLOP *** [Tc 4s As]
+*** TURN *** [Tc 4s As] [6c]
+*** RIVER *** [Tc 4s As 6c] [5d]
+*** SHOW DOWN ***
+Youngman75: shows [2c 2d] (a pair of Deuces)
+scorza23: shows [Kd 4c] (a pair of Fours)
+scorza23 collected 1380 from pot
+*** SUMMARY ***
+Total pot 1380 | Rake 0 
+Board [Tc 4s As 6c 5d]
+Seat 2: Youngman75 (small blind) showed [2c 2d] and lost with a pair of Deuces
+Seat 3: scorza23 (big blind) showed [Kd 4c] and won (1380) with a pair of Fours
+Seat 5: primodepie folded before Flop (didn't bet)
+Seat 6: MaBccn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345028148: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level V (40/80) - 2026/04/04 19:19:15 UTC [2026/04/04 15:19:15 ET]
+Table '3989277038 1' 6-max Seat #2 is the button
+Seat 2: Youngman75 (163 in chips) 
+Seat 3: scorza23 (1380 in chips) 
+Seat 5: primodepie (663 in chips) 
+Seat 6: MaBccn (794 in chips) 
+Youngman75: posts the ante 8
+scorza23: posts the ante 8
+primodepie: posts the ante 8
+MaBccn: posts the ante 8
+scorza23: posts small blind 40
+primodepie: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 9s]
+MaBccn: folds 
+Youngman75: folds 
+scorza23: folds 
+Uncalled bet (40) returned to primodepie
+primodepie collected 112 from pot
+*** SUMMARY ***
+Total pot 112 | Rake 0 
+Seat 2: Youngman75 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: primodepie (big blind) collected (112)
+Seat 6: MaBccn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345030619: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level V (40/80) - 2026/04/04 19:19:26 UTC [2026/04/04 15:19:26 ET]
+Table '3989277038 1' 6-max Seat #3 is the button
+Seat 2: Youngman75 (155 in chips) 
+Seat 3: scorza23 (1332 in chips) 
+Seat 5: primodepie (727 in chips) 
+Seat 6: MaBccn (786 in chips) 
+Youngman75: posts the ante 8
+scorza23: posts the ante 8
+primodepie: posts the ante 8
+MaBccn: posts the ante 8
+primodepie: posts small blind 40
+MaBccn: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 2c]
+Youngman75: folds 
+scorza23: folds 
+primodepie: raises 639 to 719 and is all-in
+MaBccn: folds 
+Uncalled bet (639) returned to primodepie
+primodepie collected 192 from pot
+*** SUMMARY ***
+Total pot 192 | Rake 0 
+Seat 2: Youngman75 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: primodepie (small blind) collected (192)
+Seat 6: MaBccn (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345033473: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level V (40/80) - 2026/04/04 19:19:38 UTC [2026/04/04 15:19:38 ET]
+Table '3989277038 1' 6-max Seat #5 is the button
+Seat 2: Youngman75 (147 in chips) 
+Seat 3: scorza23 (1324 in chips) 
+Seat 5: primodepie (831 in chips) 
+Seat 6: MaBccn (698 in chips) 
+Youngman75: posts the ante 8
+scorza23: posts the ante 8
+primodepie: posts the ante 8
+MaBccn: posts the ante 8
+MaBccn: posts small blind 40
+Youngman75: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4s]
+scorza23: folds 
+primodepie: folds 
+MaBccn: raises 610 to 690 and is all-in
+Youngman75: calls 59 and is all-in
+Uncalled bet (551) returned to MaBccn
+*** FLOP *** [9h 5c 9c]
+*** TURN *** [9h 5c 9c] [5d]
+*** RIVER *** [9h 5c 9c 5d] [Qd]
+*** SHOW DOWN ***
+MaBccn: shows [Td 9d] (a full house, Nines full of Fives)
+Youngman75: shows [2s As] (two pair, Nines and Fives)
+MaBccn collected 310 from pot
+Youngman75 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 310 | Rake 0 
+Board [9h 5c 9c 5d Qd]
+Seat 2: Youngman75 (big blind) showed [2s As] and lost with two pair, Nines and Fives
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: primodepie (button) folded before Flop (didn't bet)
+Seat 6: MaBccn (small blind) showed [Td 9d] and won (310) with a full house, Nines full of Fives
+
+
+
+PokerStars Hand #260345036936: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level V (40/80) - 2026/04/04 19:19:54 UTC [2026/04/04 15:19:54 ET]
+Table '3989277038 1' 6-max Seat #6 is the button
+Seat 3: scorza23 (1316 in chips) 
+Seat 5: primodepie (823 in chips) 
+Seat 6: MaBccn (861 in chips) 
+scorza23: posts the ante 8
+primodepie: posts the ante 8
+MaBccn: posts the ante 8
+scorza23: posts small blind 40
+primodepie: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9s As]
+MaBccn: folds 
+scorza23: raises 160 to 240
+primodepie: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 184 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 184 | Rake 0 
+Seat 3: scorza23 (small blind) collected (184)
+Seat 5: primodepie (big blind) folded before Flop
+Seat 6: MaBccn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345039033: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level V (40/80) - 2026/04/04 19:20:03 UTC [2026/04/04 15:20:03 ET]
+Table '3989277038 1' 6-max Seat #3 is the button
+Seat 3: scorza23 (1412 in chips) 
+Seat 5: primodepie (735 in chips) 
+Seat 6: MaBccn (853 in chips) 
+scorza23: posts the ante 8
+primodepie: posts the ante 8
+MaBccn: posts the ante 8
+primodepie: posts small blind 40
+MaBccn: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Qc]
+scorza23: raises 160 to 240
+primodepie: raises 487 to 727 and is all-in
+MaBccn: folds 
+scorza23: calls 487
+*** FLOP *** [Ad 7d 9c]
+*** TURN *** [Ad 7d 9c] [3h]
+*** RIVER *** [Ad 7d 9c 3h] [Jc]
+*** SHOW DOWN ***
+primodepie: shows [Ks As] (a pair of Aces)
+scorza23: shows [8c Qc] (high card Ace)
+primodepie collected 1558 from pot
+*** SUMMARY ***
+Total pot 1558 | Rake 0 
+Board [Ad 7d 9c 3h Jc]
+Seat 3: scorza23 (button) showed [8c Qc] and lost with high card Ace
+Seat 5: primodepie (small blind) showed [Ks As] and won (1558) with a pair of Aces
+Seat 6: MaBccn (big blind) folded before Flop
+
+
+
+PokerStars Hand #260345043451: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VI (50/100) - 2026/04/04 19:20:23 UTC [2026/04/04 15:20:23 ET]
+Table '3989277038 1' 6-max Seat #5 is the button
+Seat 3: scorza23 (677 in chips) 
+Seat 5: primodepie (1558 in chips) 
+Seat 6: MaBccn (765 in chips) 
+scorza23: posts the ante 10
+primodepie: posts the ante 10
+MaBccn: posts the ante 10
+MaBccn: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Kd]
+primodepie: raises 1448 to 1548 and is all-in
+MaBccn: folds 
+scorza23: folds 
+Uncalled bet (1448) returned to primodepie
+primodepie collected 280 from pot
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 5: primodepie (button) collected (280)
+Seat 6: MaBccn (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345045185: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VI (50/100) - 2026/04/04 19:20:31 UTC [2026/04/04 15:20:31 ET]
+Table '3989277038 1' 6-max Seat #6 is the button
+Seat 3: scorza23 (567 in chips) 
+Seat 5: primodepie (1728 in chips) 
+Seat 6: MaBccn (705 in chips) 
+scorza23: posts the ante 10
+primodepie: posts the ante 10
+MaBccn: posts the ante 10
+scorza23: posts small blind 50
+primodepie: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Ad]
+MaBccn: folds 
+scorza23: raises 457 to 557 and is all-in
+primodepie: folds 
+Uncalled bet (457) returned to scorza23
+scorza23 collected 230 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Seat 3: scorza23 (small blind) collected (230)
+Seat 5: primodepie (big blind) folded before Flop
+Seat 6: MaBccn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345046902: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VI (50/100) - 2026/04/04 19:20:39 UTC [2026/04/04 15:20:39 ET]
+Table '3989277038 1' 6-max Seat #3 is the button
+Seat 3: scorza23 (687 in chips) 
+Seat 5: primodepie (1618 in chips) 
+Seat 6: MaBccn (695 in chips) 
+scorza23: posts the ante 10
+primodepie: posts the ante 10
+MaBccn: posts the ante 10
+primodepie: posts small blind 50
+MaBccn: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 3s]
+scorza23: folds 
+primodepie: folds 
+Uncalled bet (50) returned to MaBccn
+MaBccn collected 130 from pot
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: primodepie (small blind) folded before Flop
+Seat 6: MaBccn (big blind) collected (130)
+
+
+
+PokerStars Hand #260345048354: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VI (50/100) - 2026/04/04 19:20:45 UTC [2026/04/04 15:20:45 ET]
+Table '3989277038 1' 6-max Seat #5 is the button
+Seat 3: scorza23 (677 in chips) 
+Seat 5: primodepie (1558 in chips) 
+Seat 6: MaBccn (765 in chips) 
+scorza23: posts the ante 10
+primodepie: posts the ante 10
+MaBccn: posts the ante 10
+MaBccn: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Ks]
+primodepie: raises 1448 to 1548 and is all-in
+MaBccn: folds 
+scorza23: folds 
+Uncalled bet (1448) returned to primodepie
+primodepie collected 280 from pot
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 5: primodepie (button) collected (280)
+Seat 6: MaBccn (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345051503: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VI (50/100) - 2026/04/04 19:20:59 UTC [2026/04/04 15:20:59 ET]
+Table '3989277038 1' 6-max Seat #6 is the button
+Seat 3: scorza23 (567 in chips) 
+Seat 5: primodepie (1728 in chips) 
+Seat 6: MaBccn (705 in chips) 
+scorza23: posts the ante 10
+primodepie: posts the ante 10
+MaBccn: posts the ante 10
+scorza23: posts small blind 50
+primodepie: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 8d]
+MaBccn: folds 
+scorza23: folds 
+Uncalled bet (50) returned to primodepie
+primodepie collected 130 from pot
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: primodepie (big blind) collected (130)
+Seat 6: MaBccn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260345053140: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VI (50/100) - 2026/04/04 19:21:07 UTC [2026/04/04 15:21:07 ET]
+Table '3989277038 1' 6-max Seat #3 is the button
+Seat 3: scorza23 (507 in chips) 
+Seat 5: primodepie (1798 in chips) 
+Seat 6: MaBccn (695 in chips) 
+scorza23: posts the ante 10
+primodepie: posts the ante 10
+MaBccn: posts the ante 10
+primodepie: posts small blind 50
+MaBccn: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 8c]
+scorza23: folds 
+primodepie: folds 
+Uncalled bet (50) returned to MaBccn
+MaBccn collected 130 from pot
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: primodepie (small blind) folded before Flop
+Seat 6: MaBccn (big blind) collected (130)
+
+
+
+PokerStars Hand #260345055160: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VII (60/120) - 2026/04/04 19:21:16 UTC [2026/04/04 15:21:16 ET]
+Table '3989277038 1' 6-max Seat #5 is the button
+Seat 3: scorza23 (497 in chips) 
+Seat 5: primodepie (1738 in chips) 
+Seat 6: MaBccn (765 in chips) 
+scorza23: posts the ante 12
+primodepie: posts the ante 12
+MaBccn: posts the ante 12
+MaBccn: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 3d]
+primodepie: folds 
+MaBccn: folds 
+Uncalled bet (60) returned to scorza23
+scorza23 collected 156 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 156 | Rake 0 
+Seat 3: scorza23 (big blind) collected (156)
+Seat 5: primodepie (button) folded before Flop (didn't bet)
+Seat 6: MaBccn (small blind) folded before Flop
+
+
+
+PokerStars Hand #260345056534: Tournament #3989277038, $0.91+$0.09 USD Hold'em No Limit - Level VII (60/120) - 2026/04/04 19:21:22 UTC [2026/04/04 15:21:22 ET]
+Table '3989277038 1' 6-max Seat #6 is the button
+Seat 3: scorza23 (581 in chips) 
+Seat 5: primodepie (1726 in chips) 
+Seat 6: MaBccn (693 in chips) 
+scorza23: posts the ante 12
+primodepie: posts the ante 12
+MaBccn: posts the ante 12
+scorza23: posts small blind 60
+primodepie: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Qs]
+MaBccn: folds 
+scorza23: raises 449 to 569 and is all-in
+primodepie: calls 449
+*** FLOP *** [8c 4c 3h]
+*** TURN *** [8c 4c 3h] [5d]
+*** RIVER *** [8c 4c 3h 5d] [2d]
+*** SHOW DOWN ***
+scorza23: shows [9d Qs] (high card Queen)
+primodepie: shows [As Js] (a straight, Ace to Five)
+primodepie collected 1174 from pot
+scorza23 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1174 | Rake 0 
+Board [8c 4c 3h 5d 2d]
+Seat 3: scorza23 (small blind) showed [9d Qs] and lost with high card Queen
+Seat 5: primodepie (big blind) showed [As Js] and won (1174) with a straight, Ace to Five
+Seat 6: MaBccn (button) folded before Flop (didn't bet)
+
+
+

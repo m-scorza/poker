@@ -1,0 +1,2803 @@
+﻿PokerStars Hand #260359309281: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:12:47 BRT [2026/04/05 17:12:47 ET]
+Table '3989590908 2' 8-max Seat #2 is the button
+Seat 2: BB2264 (1500 in chips) 
+Seat 3: xxniccoxx (1500 in chips) 
+Seat 4: scorza23 (1500 in chips) 
+Seat 5: batata0833 (1500 in chips) 
+Seat 6: vachtazar (1500 in chips) 
+Seat 7: teuter160 (1500 in chips) 
+Seat 8: Timetogiveup (1500 in chips) 
+BB2264: posts the ante 3
+xxniccoxx: posts the ante 3
+scorza23: posts the ante 3
+batata0833: posts the ante 3
+vachtazar: posts the ante 3
+teuter160: posts the ante 3
+Timetogiveup: posts the ante 3
+xxniccoxx: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 2s]
+batata0833: calls 20
+AlfredoNeto99 is disconnected 
+vachtazar: folds 
+teuter160: calls 20
+Timetogiveup: folds 
+BB2264: folds 
+xxniccoxx: calls 10
+scorza23: checks 
+*** FLOP *** [5d Js 2d]
+xxniccoxx: checks 
+scorza23: checks 
+batata0833: checks 
+teuter160: checks 
+*** TURN *** [5d Js 2d] [9h]
+xxniccoxx: checks 
+scorza23: checks 
+batata0833: checks 
+teuter160: checks 
+*** RIVER *** [5d Js 2d 9h] [3d]
+xxniccoxx: checks 
+scorza23: checks 
+batata0833: checks 
+teuter160: checks 
+*** SHOW DOWN ***
+xxniccoxx: shows [Ad 3s] (a pair of Threes)
+scorza23: mucks hand 
+batata0833: mucks hand 
+teuter160: mucks hand 
+xxniccoxx collected 101 from pot
+*** SUMMARY ***
+Total pot 101 | Rake 0 
+Board [5d Js 2d 9h 3d]
+Seat 2: BB2264 (button) folded before Flop (didn't bet)
+Seat 3: xxniccoxx (small blind) showed [Ad 3s] and won (101) with a pair of Threes
+Seat 4: scorza23 (big blind) mucked [8h 2s]
+Seat 5: batata0833 mucked [6c Ah]
+Seat 6: vachtazar folded before Flop (didn't bet)
+Seat 7: teuter160 mucked [Kh Qh]
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359326600: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:13:51 BRT [2026/04/05 17:13:51 ET]
+Table '3989590908 2' 8-max Seat #3 is the button
+Seat 1: AlfredoNeto99 (1500 in chips) 
+Seat 2: BB2264 (1497 in chips) 
+Seat 3: xxniccoxx (1578 in chips) 
+Seat 4: scorza23 (1477 in chips) 
+Seat 5: batata0833 (1477 in chips) 
+Seat 7: teuter160 (1477 in chips) 
+Seat 8: Timetogiveup (1497 in chips) 
+AlfredoNeto99: posts the ante 3
+BB2264: posts the ante 3
+xxniccoxx: posts the ante 3
+scorza23: posts the ante 3
+batata0833: posts the ante 3
+teuter160: posts the ante 3
+Timetogiveup: posts the ante 3
+scorza23: posts small blind 10
+batata0833: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 3c]
+teuter160: calls 20
+Timetogiveup: folds 
+AlfredoNeto99: folds 
+BB2264: folds 
+xxniccoxx: folds 
+Malginious is disconnected 
+scorza23: folds 
+batata0833: checks 
+*** FLOP *** [Th Qh Kd]
+batata0833: checks 
+teuter160: checks 
+*** TURN *** [Th Qh Kd] [7s]
+batata0833: checks 
+teuter160: bets 36
+batata0833: calls 36
+*** RIVER *** [Th Qh Kd 7s] [7h]
+batata0833: checks 
+teuter160: bets 72
+batata0833: calls 72
+*** SHOW DOWN ***
+teuter160: shows [Ts Ks] (two pair, Kings and Tens)
+batata0833: mucks hand 
+teuter160 collected 287 from pot
+*** SUMMARY ***
+Total pot 287 | Rake 0 
+Board [Th Qh Kd 7s 7h]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: BB2264 folded before Flop (didn't bet)
+Seat 3: xxniccoxx (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: batata0833 (big blind) mucked [6c Td]
+Seat 7: teuter160 showed [Ts Ks] and won (287) with two pair, Kings and Tens
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359340824: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:14:44 BRT [2026/04/05 17:14:44 ET]
+Table '3989590908 2' 8-max Seat #4 is the button
+Seat 1: AlfredoNeto99 (1497 in chips) 
+Seat 3: xxniccoxx (1575 in chips) 
+Seat 4: scorza23 (1464 in chips) 
+Seat 5: batata0833 (1346 in chips) 
+Seat 6: Malginious (1500 in chips) 
+Seat 7: teuter160 (1633 in chips) 
+Seat 8: Timetogiveup (1494 in chips) 
+AlfredoNeto99: posts the ante 3
+xxniccoxx: posts the ante 3
+scorza23: posts the ante 3
+batata0833: posts the ante 3
+Malginious: posts the ante 3
+teuter160: posts the ante 3
+Timetogiveup: posts the ante 3
+batata0833: posts small blind 10
+Malginious: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6c]
+teuter160: folds 
+Timetogiveup: folds 
+AlfredoNeto99: folds 
+xxniccoxx: folds 
+scorza23: raises 40 to 60
+batata0833: folds 
+Malginious: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 71 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 71 | Rake 0 
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 (button) collected (71)
+Seat 5: batata0833 (small blind) folded before Flop
+Seat 6: Malginious (big blind) folded before Flop
+Seat 7: teuter160 folded before Flop (didn't bet)
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359346284: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:15:04 BRT [2026/04/05 17:15:04 ET]
+Table '3989590908 2' 8-max Seat #5 is the button
+Seat 1: AlfredoNeto99 (1494 in chips) 
+Seat 3: xxniccoxx (1572 in chips) 
+Seat 4: scorza23 (1512 in chips) 
+Seat 5: batata0833 (1333 in chips) 
+Seat 6: Malginious (1477 in chips) 
+Seat 7: teuter160 (1630 in chips) 
+Seat 8: Timetogiveup (1491 in chips) 
+AlfredoNeto99: posts the ante 3
+xxniccoxx: posts the ante 3
+scorza23: posts the ante 3
+batata0833: posts the ante 3
+Malginious: posts the ante 3
+teuter160: posts the ante 3
+Timetogiveup: posts the ante 3
+Malginious: posts small blind 10
+teuter160: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Kd]
+Timetogiveup: folds 
+AlfredoNeto99: folds 
+xxniccoxx: folds 
+scorza23: raises 40 to 60
+batata0833: calls 60
+Malginious: calls 50
+teuter160: raises 261 to 321
+scorza23: folds 
+batata0833: folds 
+Malginious: folds 
+Uncalled bet (261) returned to teuter160
+teuter160 collected 261 from pot
+*** SUMMARY ***
+Total pot 261 | Rake 0 
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop
+Seat 5: batata0833 (button) folded before Flop
+Seat 6: Malginious (small blind) folded before Flop
+Seat 7: teuter160 (big blind) collected (261)
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359357087: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:15:44 BRT [2026/04/05 17:15:44 ET]
+Table '3989590908 2' 8-max Seat #6 is the button
+Seat 1: AlfredoNeto99 (1491 in chips) 
+Seat 2: Dynasty63 (1500 in chips) 
+Seat 3: xxniccoxx (1569 in chips) 
+Seat 4: scorza23 (1449 in chips) 
+Seat 5: batata0833 (1270 in chips) 
+Seat 6: Malginious (1414 in chips) 
+Seat 7: teuter160 (1828 in chips) 
+Seat 8: Timetogiveup (1488 in chips) 
+AlfredoNeto99: posts the ante 3
+Dynasty63: posts the ante 3
+xxniccoxx: posts the ante 3
+scorza23: posts the ante 3
+batata0833: posts the ante 3
+Malginious: posts the ante 3
+teuter160: posts the ante 3
+Timetogiveup: posts the ante 3
+teuter160: posts small blind 10
+Timetogiveup: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Kc]
+AlfredoNeto99: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: raises 20 to 40
+batata0833: folds 
+Malginious: folds 
+teuter160: calls 30
+Timetogiveup: calls 20
+*** FLOP *** [Qc 4s 2h]
+teuter160: bets 72
+Timetogiveup: folds 
+scorza23: raises 88 to 160
+teuter160: calls 88
+*** TURN *** [Qc 4s 2h] [3s]
+teuter160: checks 
+scorza23: bets 140
+teuter160: calls 140
+*** RIVER *** [Qc 4s 2h 3s] [Kd]
+teuter160: checks 
+scorza23: bets 372
+teuter160: folds 
+Uncalled bet (372) returned to scorza23
+scorza23 collected 744 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 744 | Rake 0 
+Board [Qc 4s 2h 3s Kd]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 collected (744)
+Seat 5: batata0833 folded before Flop (didn't bet)
+Seat 6: Malginious (button) folded before Flop (didn't bet)
+Seat 7: teuter160 (small blind) folded on the River
+Seat 8: Timetogiveup (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260359375981: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:16:55 BRT [2026/04/05 17:16:55 ET]
+Table '3989590908 2' 8-max Seat #7 is the button
+Seat 1: AlfredoNeto99 (1488 in chips) 
+Seat 2: Dynasty63 (1497 in chips) 
+Seat 3: xxniccoxx (1566 in chips) 
+Seat 4: scorza23 (1850 in chips) 
+Seat 5: batata0833 (1267 in chips) 
+Seat 6: Malginious (1411 in chips) 
+Seat 7: teuter160 (1485 in chips) 
+Seat 8: Timetogiveup (1445 in chips) 
+AlfredoNeto99: posts the ante 3
+Dynasty63: posts the ante 3
+xxniccoxx: posts the ante 3
+scorza23: posts the ante 3
+batata0833: posts the ante 3
+Malginious: posts the ante 3
+teuter160: posts the ante 3
+Timetogiveup: posts the ante 3
+Timetogiveup: posts small blind 10
+AlfredoNeto99: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2d]
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+batata0833: calls 20
+Malginious: calls 20
+teuter160: folds 
+Timetogiveup: folds 
+AlfredoNeto99: checks 
+*** FLOP *** [8d 7s Ad]
+AlfredoNeto99: checks 
+batata0833: bets 40
+Malginious: folds 
+AlfredoNeto99: calls 40
+*** TURN *** [8d 7s Ad] [6s]
+AlfredoNeto99: checks 
+batata0833: bets 40
+AlfredoNeto99: calls 40
+*** RIVER *** [8d 7s Ad 6s] [Jc]
+AlfredoNeto99: checks 
+batata0833: bets 80
+AlfredoNeto99: folds 
+Uncalled bet (80) returned to batata0833
+batata0833 collected 254 from pot
+*** SUMMARY ***
+Total pot 254 | Rake 0 
+Board [8d 7s Ad 6s Jc]
+Seat 1: AlfredoNeto99 (big blind) folded on the River
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: batata0833 collected (254)
+Seat 6: Malginious folded on the Flop
+Seat 7: teuter160 (button) folded before Flop (didn't bet)
+Seat 8: Timetogiveup (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359388983: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:17:44 BRT [2026/04/05 17:17:44 ET]
+Table '3989590908 2' 8-max Seat #8 is the button
+Seat 1: AlfredoNeto99 (1385 in chips) 
+Seat 2: Dynasty63 (1494 in chips) 
+Seat 3: xxniccoxx (1563 in chips) 
+Seat 4: scorza23 (1847 in chips) 
+Seat 5: batata0833 (1418 in chips) 
+Seat 6: Malginious (1388 in chips) 
+Seat 7: teuter160 (1482 in chips) 
+Seat 8: Timetogiveup (1432 in chips) 
+AlfredoNeto99: posts the ante 3
+Dynasty63: posts the ante 3
+xxniccoxx: posts the ante 3
+scorza23: posts the ante 3
+batata0833: posts the ante 3
+Malginious: posts the ante 3
+teuter160: posts the ante 3
+Timetogiveup: posts the ante 3
+AlfredoNeto99: posts small blind 10
+Dynasty63: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Ah]
+xxniccoxx: folds 
+scorza23: raises 40 to 60
+batata0833: folds 
+Malginious: folds 
+teuter160: calls 60
+Timetogiveup: folds 
+AlfredoNeto99: folds 
+Dynasty63: folds 
+*** FLOP *** [6h Kh Kd]
+scorza23: bets 80
+teuter160: raises 334 to 414
+scorza23: folds 
+Uncalled bet (334) returned to teuter160
+teuter160 collected 334 from pot
+*** SUMMARY ***
+Total pot 334 | Rake 0 
+Board [6h Kh Kd]
+Seat 1: AlfredoNeto99 (small blind) folded before Flop
+Seat 2: Dynasty63 (big blind) folded before Flop
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded on the Flop
+Seat 5: batata0833 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 7: teuter160 collected (334)
+Seat 8: Timetogiveup (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359398121: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:18:18 BRT [2026/04/05 17:18:18 ET]
+Table '3989590908 2' 8-max Seat #1 is the button
+Seat 1: AlfredoNeto99 (1372 in chips) 
+Seat 2: Dynasty63 (1471 in chips) 
+Seat 3: xxniccoxx (1560 in chips) 
+Seat 4: scorza23 (1704 in chips) 
+Seat 5: batata0833 (1415 in chips) 
+Seat 6: Malginious (1385 in chips) 
+Seat 7: teuter160 (1673 in chips) 
+Seat 8: Timetogiveup (1429 in chips) 
+AlfredoNeto99: posts the ante 4
+Dynasty63: posts the ante 4
+xxniccoxx: posts the ante 4
+scorza23: posts the ante 4
+batata0833: posts the ante 4
+Malginious: posts the ante 4
+teuter160: posts the ante 4
+Timetogiveup: posts the ante 4
+Dynasty63: posts small blind 15
+xxniccoxx: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2s]
+scorza23: folds 
+batata0833: folds 
+Malginious: folds 
+teuter160: folds 
+Timetogiveup: raises 36 to 66
+AlfredoNeto99: folds 
+Dynasty63: folds 
+xxniccoxx: calls 36
+*** FLOP *** [Ah Qs 4s]
+xxniccoxx: checks 
+Timetogiveup: bets 89
+xxniccoxx: calls 89
+*** TURN *** [Ah Qs 4s] [9d]
+xxniccoxx: checks 
+Timetogiveup: bets 268
+xxniccoxx: folds 
+Uncalled bet (268) returned to Timetogiveup
+Timetogiveup collected 357 from pot
+*** SUMMARY ***
+Total pot 357 | Rake 0 
+Board [Ah Qs 4s 9d]
+Seat 1: AlfredoNeto99 (button) folded before Flop (didn't bet)
+Seat 2: Dynasty63 (small blind) folded before Flop
+Seat 3: xxniccoxx (big blind) folded on the Turn
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: batata0833 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 7: teuter160 folded before Flop (didn't bet)
+Seat 8: Timetogiveup collected (357)
+
+
+
+PokerStars Hand #260359410278: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:19:03 BRT [2026/04/05 17:19:03 ET]
+Table '3989590908 2' 8-max Seat #2 is the button
+Seat 1: AlfredoNeto99 (1368 in chips) 
+Seat 2: Dynasty63 (1452 in chips) 
+Seat 3: xxniccoxx (1401 in chips) 
+Seat 4: scorza23 (1700 in chips) 
+Seat 5: batata0833 (1411 in chips) 
+Seat 6: Malginious (1381 in chips) 
+Seat 7: teuter160 (1669 in chips) 
+Seat 8: Timetogiveup (1627 in chips) 
+AlfredoNeto99: posts the ante 4
+Dynasty63: posts the ante 4
+xxniccoxx: posts the ante 4
+scorza23: posts the ante 4
+batata0833: posts the ante 4
+Malginious: posts the ante 4
+teuter160: posts the ante 4
+Timetogiveup: posts the ante 4
+xxniccoxx: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 2h]
+batata0833: raises 30 to 60
+Malginious: folds 
+teuter160: folds 
+Timetogiveup: folds 
+AlfredoNeto99: folds 
+Dynasty63: folds 
+xxniccoxx: calls 45
+scorza23: calls 30
+*** FLOP *** [Th Kd 7d]
+xxniccoxx: checks 
+scorza23: bets 90
+batata0833: calls 90
+xxniccoxx: folds 
+*** TURN *** [Th Kd 7d] [Td]
+scorza23: checks 
+batata0833: bets 90
+scorza23: calls 90
+*** RIVER *** [Th Kd 7d Td] [Ac]
+scorza23: checks 
+batata0833: bets 120
+scorza23: calls 120
+*** SHOW DOWN ***
+batata0833: shows [8d 9d] (a flush, King high)
+scorza23: mucks hand 
+batata0833 collected 812 from pot
+*** SUMMARY ***
+Total pot 812 | Rake 0 
+Board [Th Kd 7d Td Ac]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 (button) folded before Flop (didn't bet)
+Seat 3: xxniccoxx (small blind) folded on the Flop
+Seat 4: scorza23 (big blind) mucked [Kh 2h]
+Seat 5: batata0833 showed [8d 9d] and won (812) with a flush, King high
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 7: teuter160 folded before Flop (didn't bet)
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359422079: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:19:47 BRT [2026/04/05 17:19:47 ET]
+Table '3989590908 2' 8-max Seat #3 is the button
+Seat 1: AlfredoNeto99 (1364 in chips) 
+Seat 2: Dynasty63 (1448 in chips) 
+Seat 3: xxniccoxx (1337 in chips) 
+Seat 4: scorza23 (1336 in chips) 
+Seat 5: batata0833 (1859 in chips) 
+Seat 6: Malginious (1377 in chips) 
+Seat 7: teuter160 (1665 in chips) 
+Seat 8: Timetogiveup (1623 in chips) 
+AlfredoNeto99: posts the ante 4
+Dynasty63: posts the ante 4
+xxniccoxx: posts the ante 4
+scorza23: posts the ante 4
+batata0833: posts the ante 4
+Malginious: posts the ante 4
+teuter160: posts the ante 4
+Timetogiveup: posts the ante 4
+scorza23: posts small blind 15
+batata0833: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Qh]
+Malginious: folds 
+teuter160: folds 
+Timetogiveup: folds 
+AlfredoNeto99: raises 45 to 75
+Dynasty63: calls 75
+xxniccoxx: folds 
+scorza23: folds 
+batata0833: calls 45
+*** FLOP *** [5d 5c 4h]
+batata0833: checks 
+AlfredoNeto99: bets 76
+Dynasty63: calls 76
+batata0833: calls 76
+*** TURN *** [5d 5c 4h] [Kd]
+batata0833: checks 
+AlfredoNeto99: bets 105
+Dynasty63: folds 
+batata0833: calls 105
+*** RIVER *** [5d 5c 4h Kd] [Js]
+batata0833: checks 
+AlfredoNeto99: checks 
+*** SHOW DOWN ***
+batata0833: shows [4c 2h] (two pair, Fives and Fours)
+AlfredoNeto99: shows [Kh As] (two pair, Kings and Fives)
+AlfredoNeto99 collected 710 from pot
+*** SUMMARY ***
+Total pot 710 | Rake 0 
+Board [5d 5c 4h Kd Js]
+Seat 1: AlfredoNeto99 showed [Kh As] and won (710) with two pair, Kings and Fives
+Seat 2: Dynasty63 folded on the Turn
+Seat 3: xxniccoxx (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: batata0833 (big blind) showed [4c 2h] and lost with two pair, Fives and Fours
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 7: teuter160 folded before Flop (didn't bet)
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359438593: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:20:49 BRT [2026/04/05 17:20:49 ET]
+Table '3989590908 2' 8-max Seat #4 is the button
+Seat 1: AlfredoNeto99 (1814 in chips) 
+Seat 2: Dynasty63 (1293 in chips) 
+Seat 3: xxniccoxx (1333 in chips) 
+Seat 4: scorza23 (1317 in chips) 
+Seat 5: batata0833 (1599 in chips) 
+Seat 6: Malginious (1373 in chips) 
+Seat 7: teuter160 (1661 in chips) 
+Seat 8: Timetogiveup (1619 in chips) 
+AlfredoNeto99: posts the ante 4
+Dynasty63: posts the ante 4
+xxniccoxx: posts the ante 4
+scorza23: posts the ante 4
+batata0833: posts the ante 4
+Malginious: posts the ante 4
+teuter160: posts the ante 4
+Timetogiveup: posts the ante 4
+batata0833: posts small blind 15
+Malginious: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 9d]
+teuter160: folds 
+Timetogiveup: folds 
+AlfredoNeto99: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: raises 60 to 90
+batata0833: calls 75
+Malginious: folds 
+*** FLOP *** [5h Kh Jc]
+batata0833: checks 
+scorza23: bets 120
+batata0833: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 242 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 242 | Rake 0 
+Board [5h Kh Jc]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 (button) collected (242)
+Seat 5: batata0833 (small blind) folded on the Flop
+Seat 6: Malginious (big blind) folded before Flop
+Seat 7: teuter160 folded before Flop (didn't bet)
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359446140: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:21:17 BRT [2026/04/05 17:21:17 ET]
+Table '3989590908 2' 8-max Seat #5 is the button
+Seat 1: AlfredoNeto99 (1810 in chips) 
+Seat 2: Dynasty63 (1289 in chips) 
+Seat 3: xxniccoxx (1329 in chips) 
+Seat 4: scorza23 (1465 in chips) 
+Seat 5: batata0833 (1505 in chips) 
+Seat 6: Malginious (1339 in chips) 
+Seat 7: teuter160 (1657 in chips) 
+Seat 8: Timetogiveup (1615 in chips) 
+AlfredoNeto99: posts the ante 4
+Dynasty63: posts the ante 4
+xxniccoxx: posts the ante 4
+scorza23: posts the ante 4
+batata0833: posts the ante 4
+Malginious: posts the ante 4
+teuter160: posts the ante 4
+Timetogiveup: posts the ante 4
+Malginious: posts small blind 15
+teuter160: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Ah]
+Timetogiveup: folds 
+AlfredoNeto99: folds 
+Dynasty63: folds 
+xxniccoxx: raises 30 to 60
+scorza23: raises 60 to 120
+batata0833: folds 
+Malginious: folds 
+teuter160: folds 
+xxniccoxx: calls 60
+*** FLOP *** [8s Th Jc]
+xxniccoxx: checks 
+scorza23: bets 120
+xxniccoxx: folds 
+Uncalled bet (120) returned to scorza23
+scorza23 collected 317 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 317 | Rake 0 
+Board [8s Th Jc]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded on the Flop
+Seat 4: scorza23 collected (317)
+Seat 5: batata0833 (button) folded before Flop (didn't bet)
+Seat 6: Malginious (small blind) folded before Flop
+Seat 7: teuter160 (big blind) folded before Flop
+Seat 8: Timetogiveup folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359454219: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:21:47 BRT [2026/04/05 17:21:47 ET]
+Table '3989590908 2' 8-max Seat #6 is the button
+Seat 1: AlfredoNeto99 (1806 in chips) 
+Seat 2: Dynasty63 (1285 in chips) 
+Seat 3: xxniccoxx (1205 in chips) 
+Seat 4: scorza23 (1658 in chips) 
+Seat 6: Malginious (1320 in chips) 
+Seat 7: teuter160 (1623 in chips) 
+Seat 8: Timetogiveup (1611 in chips) 
+AlfredoNeto99: posts the ante 4
+Dynasty63: posts the ante 4
+xxniccoxx: posts the ante 4
+scorza23: posts the ante 4
+Malginious: posts the ante 4
+teuter160: posts the ante 4
+Timetogiveup: posts the ante 4
+teuter160: posts small blind 15
+Timetogiveup: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 8c]
+AlfredoNeto99: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+Malginious: raises 60 to 90
+teuter160: folds 
+Timetogiveup: raises 150 to 240
+Malginious: calls 150
+*** FLOP *** [4s As Js]
+Timetogiveup: bets 233
+Malginious: raises 843 to 1076 and is all-in
+Timetogiveup: calls 843
+*** TURN *** [4s As Js] [9d]
+*** RIVER *** [4s As Js 9d] [Qc]
+*** SHOW DOWN ***
+Timetogiveup: shows [Ah Kc] (a pair of Aces)
+Malginious: shows [Ac Jc] (two pair, Aces and Jacks)
+Malginious collected 2675 from pot
+*** SUMMARY ***
+Total pot 2675 | Rake 0 
+Board [4s As Js 9d Qc]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: Malginious (button) showed [Ac Jc] and won (2675) with two pair, Aces and Jacks
+Seat 7: teuter160 (small blind) folded before Flop
+Seat 8: Timetogiveup (big blind) showed [Ah Kc] and lost with a pair of Aces
+
+
+
+PokerStars Hand #260359465962: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:22:31 BRT [2026/04/05 17:22:31 ET]
+Table '3989590908 2' 8-max Seat #7 is the button
+Seat 1: AlfredoNeto99 (1802 in chips) 
+Seat 2: Dynasty63 (1281 in chips) 
+Seat 3: xxniccoxx (1201 in chips) 
+Seat 4: scorza23 (1654 in chips) 
+Seat 6: Malginious (2675 in chips) 
+Seat 7: teuter160 (1604 in chips) 
+Seat 8: Timetogiveup (291 in chips) 
+AlfredoNeto99: posts the ante 4
+Dynasty63: posts the ante 4
+xxniccoxx: posts the ante 4
+scorza23: posts the ante 4
+Malginious: posts the ante 4
+teuter160: posts the ante 4
+Timetogiveup: posts the ante 4
+Timetogiveup: posts small blind 15
+AlfredoNeto99: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 9d]
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+Malginious: raises 30 to 60
+teuter160: folds 
+Timetogiveup: folds 
+AlfredoNeto99: calls 30
+*** FLOP *** [Qd 8s 6d]
+AlfredoNeto99: checks 
+Malginious: checks 
+*** TURN *** [Qd 8s 6d] [Kh]
+AlfredoNeto99: bets 84
+Malginious: folds 
+Uncalled bet (84) returned to AlfredoNeto99
+AlfredoNeto99 collected 163 from pot
+AlfredoNeto99: doesn't show hand 
+*** SUMMARY ***
+Total pot 163 | Rake 0 
+Board [Qd 8s 6d Kh]
+Seat 1: AlfredoNeto99 (big blind) collected (163)
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: Malginious folded on the Turn
+Seat 7: teuter160 (button) folded before Flop (didn't bet)
+Seat 8: Timetogiveup (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359478816: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:23:19 BRT [2026/04/05 17:23:19 ET]
+Table '3989590908 2' 8-max Seat #8 is the button
+Seat 1: AlfredoNeto99 (1901 in chips) 
+Seat 2: Dynasty63 (1277 in chips) 
+Seat 3: xxniccoxx (1197 in chips) 
+Seat 4: scorza23 (1650 in chips) 
+Seat 6: Malginious (2611 in chips) 
+Seat 7: teuter160 (1600 in chips) 
+Seat 8: Timetogiveup (272 in chips) 
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+Malginious: posts the ante 6
+teuter160: posts the ante 6
+Timetogiveup: posts the ante 6
+AlfredoNeto99: posts small blind 25
+Dynasty63: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Js]
+xxniccoxx: folds 
+scorza23: folds 
+Malginious: folds 
+teuter160: folds 
+Timetogiveup: raises 216 to 266 and is all-in
+AlfredoNeto99: calls 241
+Dynasty63: raises 1005 to 1271 and is all-in
+AlfredoNeto99: calls 1005
+*** FLOP *** [8d 4c 4h]
+*** TURN *** [8d 4c 4h] [Kd]
+*** RIVER *** [8d 4c 4h Kd] [5d]
+*** SHOW DOWN ***
+AlfredoNeto99: shows [Td Ac] (a pair of Fours)
+Dynasty63: shows [Ah Kc] (two pair, Kings and Fours)
+Dynasty63 collected 2010 from side pot
+Timetogiveup: shows [Ks 7d] (two pair, Kings and Fours - lower kicker)
+Dynasty63 collected 840 from main pot
+Timetogiveup finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 2850 Main pot 840. Side pot 2010. | Rake 0 
+Board [8d 4c 4h Kd 5d]
+Seat 1: AlfredoNeto99 (small blind) showed [Td Ac] and lost with a pair of Fours
+Seat 2: Dynasty63 (big blind) showed [Ah Kc] and won (2850) with two pair, Kings and Fours
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 7: teuter160 folded before Flop (didn't bet)
+Seat 8: Timetogiveup (button) showed [Ks 7d] and lost with two pair, Kings and Fours
+
+
+
+PokerStars Hand #260359487650: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:23:52 BRT [2026/04/05 17:23:52 ET]
+Table '3989590908 2' 8-max Seat #1 is the button
+Seat 1: AlfredoNeto99 (624 in chips) 
+Seat 2: Dynasty63 (2850 in chips) 
+Seat 3: xxniccoxx (1191 in chips) 
+Seat 4: scorza23 (1644 in chips) 
+Seat 6: Malginious (2605 in chips) 
+Seat 7: teuter160 (1594 in chips) 
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+Malginious: posts the ante 6
+teuter160: posts the ante 6
+Dynasty63: posts small blind 25
+xxniccoxx: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 7c]
+scorza23: folds 
+Malginious: folds 
+teuter160: folds 
+AlfredoNeto99: folds 
+Dynasty63: folds 
+Uncalled bet (25) returned to xxniccoxx
+xxniccoxx collected 86 from pot
+xxniccoxx: doesn't show hand 
+*** SUMMARY ***
+Total pot 86 | Rake 0 
+Seat 1: AlfredoNeto99 (button) folded before Flop (didn't bet)
+Seat 2: Dynasty63 (small blind) folded before Flop
+Seat 3: xxniccoxx (big blind) collected (86)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 7: teuter160 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359494023: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:24:16 BRT [2026/04/05 17:24:16 ET]
+Table '3989590908 2' 8-max Seat #2 is the button
+Seat 1: AlfredoNeto99 (618 in chips) 
+Seat 2: Dynasty63 (2819 in chips) 
+Seat 3: xxniccoxx (1246 in chips) 
+Seat 4: scorza23 (1638 in chips) 
+Seat 6: Malginious (2599 in chips) 
+Seat 7: teuter160 (1588 in chips) 
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+Malginious: posts the ante 6
+teuter160: posts the ante 6
+xxniccoxx: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 6d]
+Malginious: folds 
+teuter160: folds 
+AlfredoNeto99: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+Uncalled bet (25) returned to scorza23
+scorza23 collected 86 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 86 | Rake 0 
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 (button) folded before Flop (didn't bet)
+Seat 3: xxniccoxx (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (86)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 7: teuter160 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359498364: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:24:32 BRT [2026/04/05 17:24:32 ET]
+Table '3989590908 2' 8-max Seat #3 is the button
+Seat 1: AlfredoNeto99 (612 in chips) 
+Seat 2: Dynasty63 (2813 in chips) 
+Seat 3: xxniccoxx (1215 in chips) 
+Seat 4: scorza23 (1693 in chips) 
+Seat 6: Malginious (2593 in chips) 
+Seat 7: teuter160 (1582 in chips) 
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+Malginious: posts the ante 6
+teuter160: posts the ante 6
+scorza23: posts small blind 25
+Malginious: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 9c]
+teuter160: folds 
+AlfredoNeto99: folds 
+Dynasty63: calls 50
+xxniccoxx: folds 
+scorza23: raises 100 to 150
+Malginious: calls 100
+Dynasty63: calls 100
+*** FLOP *** [4s Kc Qd]
+scorza23: bets 243
+Malginious: folds 
+Dynasty63: folds 
+Uncalled bet (243) returned to scorza23
+scorza23 collected 486 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 486 | Rake 0 
+Board [4s Kc Qd]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 folded on the Flop
+Seat 3: xxniccoxx (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) collected (486)
+Seat 6: Malginious (big blind) folded on the Flop
+Seat 7: teuter160 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359510482: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:25:18 BRT [2026/04/05 17:25:18 ET]
+Table '3989590908 2' 8-max Seat #4 is the button
+Seat 1: AlfredoNeto99 (606 in chips) 
+Seat 2: Dynasty63 (2657 in chips) 
+Seat 3: xxniccoxx (1209 in chips) 
+Seat 4: scorza23 (2023 in chips) 
+Seat 6: Malginious (2437 in chips) 
+Seat 7: teuter160 (1576 in chips) 
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+Malginious: posts the ante 6
+teuter160: posts the ante 6
+Malginious: posts small blind 25
+teuter160: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 6h]
+AlfredoNeto99: folds 
+Dynasty63: raises 50 to 100
+gale1000 is disconnected 
+Xico UEM is disconnected 
+xxniccoxx: folds 
+scorza23: folds 
+Malginious: calls 75
+teuter160: calls 50
+*** FLOP *** [Kc Qd 9d]
+Malginious: bets 336
+teuter160: raises 1134 to 1470 and is all-in
+Dynasty63: folds 
+Malginious: calls 1134
+*** TURN *** [Kc Qd 9d] [As]
+*** RIVER *** [Kc Qd 9d As] [3d]
+*** SHOW DOWN ***
+Malginious: shows [Jc Td] (a straight, Ten to Ace)
+teuter160: shows [Ad Ah] (three of a kind, Aces)
+Malginious collected 3276 from pot
+teuter160 finished the tournament in 22nd place
+*** SUMMARY ***
+Total pot 3276 | Rake 0 
+Board [Kc Qd 9d As 3d]
+Seat 1: AlfredoNeto99 folded before Flop (didn't bet)
+Seat 2: Dynasty63 folded on the Flop
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Malginious (small blind) showed [Jc Td] and won (3276) with a straight, Ten to Ace
+Seat 7: teuter160 (big blind) showed [Ad Ah] and lost with three of a kind, Aces
+
+
+
+PokerStars Hand #260359525523: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:26:13 BRT [2026/04/05 17:26:13 ET]
+Table '3989590908 2' 8-max Seat #6 is the button
+Seat 1: AlfredoNeto99 (600 in chips) 
+Seat 2: Dynasty63 (2551 in chips) 
+Seat 3: xxniccoxx (1203 in chips) 
+Seat 4: scorza23 (2017 in chips) 
+Seat 5: gale1000 (1369 in chips) 
+Seat 6: Malginious (4137 in chips) 
+Seat 8: Xico UEM (2352 in chips) out of hand (moved from another table into small blind)
+Xico UEM will be allowed to play after the button
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+gale1000: posts the ante 6
+Malginious: posts the ante 6
+AlfredoNeto99: posts small blind 25
+Dynasty63: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 3s]
+xxniccoxx: raises 50 to 100
+scorza23: folds 
+gale1000: folds 
+Malginious: calls 100
+AlfredoNeto99: folds 
+Dynasty63: calls 50
+*** FLOP *** [Kd 3h As]
+Dynasty63: checks 
+xxniccoxx: bets 119
+Malginious: folds 
+Dynasty63: folds 
+Uncalled bet (119) returned to xxniccoxx
+xxniccoxx collected 361 from pot
+xxniccoxx: doesn't show hand 
+*** SUMMARY ***
+Total pot 361 | Rake 0 
+Board [Kd 3h As]
+Seat 1: AlfredoNeto99 (small blind) folded before Flop
+Seat 2: Dynasty63 (big blind) folded on the Flop
+Seat 3: xxniccoxx collected (361)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 folded before Flop (didn't bet)
+Seat 6: Malginious (button) folded on the Flop
+
+
+
+PokerStars Hand #260359536400: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:26:54 BRT [2026/04/05 17:26:54 ET]
+Table '3989590908 2' 8-max Seat #1 is the button
+Seat 1: AlfredoNeto99 (569 in chips) 
+Seat 2: Dynasty63 (2445 in chips) 
+Seat 3: xxniccoxx (1458 in chips) 
+Seat 4: scorza23 (2011 in chips) 
+Seat 5: gale1000 (1363 in chips) 
+Seat 6: Malginious (4031 in chips) 
+Seat 8: Xico UEM (2352 in chips) 
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+gale1000: posts the ante 6
+Malginious: posts the ante 6
+Xico UEM: posts the ante 6
+Dynasty63: posts small blind 25
+xxniccoxx: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 8d]
+scorza23: folds 
+gale1000: folds 
+Malginious: folds 
+Xico UEM: folds 
+AlfredoNeto99: raises 513 to 563 and is all-in
+Dynasty63: raises 1876 to 2439 and is all-in
+xxniccoxx: folds 
+Uncalled bet (1876) returned to Dynasty63
+*** FLOP *** [2c 9d Kd]
+*** TURN *** [2c 9d Kd] [6s]
+*** RIVER *** [2c 9d Kd 6s] [8s]
+*** SHOW DOWN ***
+Dynasty63: shows [Qs Ad] (high card Ace)
+AlfredoNeto99: shows [Kc Th] (a pair of Kings)
+AlfredoNeto99 collected 1218 from pot
+*** SUMMARY ***
+Total pot 1218 | Rake 0 
+Board [2c 9d Kd 6s 8s]
+Seat 1: AlfredoNeto99 (button) showed [Kc Th] and won (1218) with a pair of Kings
+Seat 2: Dynasty63 (small blind) showed [Qs Ad] and lost with high card Ace
+Seat 3: xxniccoxx (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359546108: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:27:30 BRT [2026/04/05 17:27:30 ET]
+Table '3989590908 2' 8-max Seat #2 is the button
+Seat 1: AlfredoNeto99 (1218 in chips) 
+Seat 2: Dynasty63 (1876 in chips) 
+Seat 3: xxniccoxx (1402 in chips) 
+Seat 4: scorza23 (2005 in chips) 
+Seat 5: gale1000 (1357 in chips) 
+Seat 6: Malginious (4025 in chips) 
+Seat 8: Xico UEM (2346 in chips) 
+AlfredoNeto99: posts the ante 6
+Dynasty63: posts the ante 6
+xxniccoxx: posts the ante 6
+scorza23: posts the ante 6
+gale1000: posts the ante 6
+Malginious: posts the ante 6
+Xico UEM: posts the ante 6
+xxniccoxx: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 7d]
+gale1000: calls 50
+Malginious: folds 
+Xico UEM: folds 
+AlfredoNeto99: raises 1162 to 1212 and is all-in
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: calls 1162
+*** FLOP *** [Kc 4c 6h]
+*** TURN *** [Kc 4c 6h] [6d]
+*** RIVER *** [Kc 4c 6h 6d] [Jh]
+*** SHOW DOWN ***
+gale1000: shows [As Ac] (two pair, Aces and Sixes)
+AlfredoNeto99: shows [Ad Qd] (a pair of Sixes)
+gale1000 collected 2541 from pot
+AlfredoNeto99 finished the tournament in 21st place
+*** SUMMARY ***
+Total pot 2541 | Rake 0 
+Board [Kc 4c 6h 6d Jh]
+Seat 1: AlfredoNeto99 showed [Ad Qd] and lost with a pair of Sixes
+Seat 2: Dynasty63 (button) folded before Flop (didn't bet)
+Seat 3: xxniccoxx (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: gale1000 showed [As Ac] and won (2541) with two pair, Aces and Sixes
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359557462: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:28:12 BRT [2026/04/05 17:28:12 ET]
+Table '3989590908 2' 8-max Seat #3 is the button
+Seat 2: Dynasty63 (1870 in chips) 
+Seat 3: xxniccoxx (1371 in chips) 
+Seat 4: scorza23 (1949 in chips) 
+Seat 5: gale1000 (2680 in chips) 
+Seat 6: Malginious (4019 in chips) 
+Seat 8: Xico UEM (2340 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+scorza23: posts small blind 40
+gale1000: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac 2d]
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: raises 160 to 240
+gale1000: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 220 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) collected (220)
+Seat 5: gale1000 (big blind) folded before Flop
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359564624: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:28:39 BRT [2026/04/05 17:28:39 ET]
+Table '3989590908 2' 8-max Seat #4 is the button
+Seat 2: Dynasty63 (1860 in chips) 
+Seat 3: xxniccoxx (1361 in chips) 
+Seat 4: scorza23 (2079 in chips) 
+Seat 5: gale1000 (2590 in chips) 
+Seat 6: Malginious (4009 in chips) 
+Seat 8: Xico UEM (2330 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+gale1000: posts small blind 40
+Malginious: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 4c]
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: calls 40
+Malginious: checks 
+*** FLOP *** [8s 2c Tc]
+gale1000: bets 220
+Malginious: folds 
+Uncalled bet (220) returned to gale1000
+gale1000 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Board [8s 2c Tc]
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: gale1000 (small blind) collected (220)
+Seat 6: Malginious (big blind) folded on the Flop
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359576236: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:29:21 BRT [2026/04/05 17:29:21 ET]
+Table '3989590908 2' 8-max Seat #5 is the button
+Seat 2: Dynasty63 (1850 in chips) 
+Seat 3: xxniccoxx (1351 in chips) 
+Seat 4: scorza23 (2069 in chips) 
+Seat 5: gale1000 (2720 in chips) 
+Seat 6: Malginious (3919 in chips) 
+Seat 8: Xico UEM (2320 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+Malginious: posts small blind 40
+Xico UEM: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Ks]
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: folds 
+Malginious: folds 
+Uncalled bet (40) returned to Xico UEM
+Xico UEM collected 140 from pot
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 (button) folded before Flop (didn't bet)
+Seat 6: Malginious (small blind) folded before Flop
+Seat 8: Xico UEM (big blind) collected (140)
+
+
+
+PokerStars Hand #260359579652: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:29:34 BRT [2026/04/05 17:29:34 ET]
+Table '3989590908 2' 8-max Seat #6 is the button
+Seat 2: Dynasty63 (1840 in chips) 
+Seat 3: xxniccoxx (1341 in chips) 
+Seat 4: scorza23 (2059 in chips) 
+Seat 5: gale1000 (2710 in chips) 
+Seat 6: Malginious (3869 in chips) 
+Seat 8: Xico UEM (2410 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+Xico UEM: posts small blind 40
+Dynasty63: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Ac]
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: calls 80
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: raises 1750 to 1830 and is all-in
+gale1000: folds 
+Uncalled bet (1750) returned to Dynasty63
+Dynasty63 collected 260 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 2: Dynasty63 (big blind) collected (260)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 folded before Flop
+Seat 6: Malginious (button) folded before Flop (didn't bet)
+Seat 8: Xico UEM (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359584565: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:29:52 BRT [2026/04/05 17:29:52 ET]
+Table '3989590908 2' 8-max Seat #8 is the button
+Seat 2: Dynasty63 (2010 in chips) 
+Seat 3: xxniccoxx (1331 in chips) 
+Seat 4: scorza23 (2049 in chips) 
+Seat 5: gale1000 (2620 in chips) 
+Seat 6: Malginious (3859 in chips) 
+Seat 8: Xico UEM (2360 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+Dynasty63: posts small blind 40
+xxniccoxx: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 8c]
+scorza23: folds 
+gale1000: calls 80
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: checks 
+*** FLOP *** [3s Ad 4d]
+xxniccoxx: checks 
+gale1000: checks 
+*** TURN *** [3s Ad 4d] [3h]
+xxniccoxx: checks 
+gale1000: checks 
+*** RIVER *** [3s Ad 4d 3h] [Qh]
+xxniccoxx: checks 
+gale1000: checks 
+*** SHOW DOWN ***
+xxniccoxx: shows [Kh 6h] (a pair of Threes)
+gale1000: shows [Kc Js] (a pair of Threes)
+xxniccoxx collected 130 from pot
+gale1000 collected 130 from pot
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Board [3s Ad 4d 3h Qh]
+Seat 2: Dynasty63 (small blind) folded before Flop
+Seat 3: xxniccoxx (big blind) showed [Kh 6h] and won (130) with a pair of Threes
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 showed [Kc Js] and won (130) with a pair of Threes
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359592937: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:30:23 BRT [2026/04/05 17:30:23 ET]
+Table '3989590908 2' 8-max Seat #2 is the button
+Seat 2: Dynasty63 (1960 in chips) 
+Seat 3: xxniccoxx (1371 in chips) 
+Seat 4: scorza23 (2039 in chips) 
+Seat 5: gale1000 (2660 in chips) 
+Seat 6: Malginious (3849 in chips) 
+Seat 8: Xico UEM (2350 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+xxniccoxx: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 4s]
+gale1000: folds 
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+Uncalled bet (40) returned to scorza23
+scorza23 collected 140 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 2: Dynasty63 (button) folded before Flop (didn't bet)
+Seat 3: xxniccoxx (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (140)
+Seat 5: gale1000 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359598814: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:30:44 BRT [2026/04/05 17:30:44 ET]
+Table '3989590908 2' 8-max Seat #3 is the button
+Seat 2: Dynasty63 (1950 in chips) 
+Seat 3: xxniccoxx (1321 in chips) 
+Seat 4: scorza23 (2129 in chips) 
+Seat 5: gale1000 (2650 in chips) 
+Seat 6: Malginious (3839 in chips) 
+Seat 8: Xico UEM (2340 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+scorza23: posts small blind 40
+gale1000: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8h]
+Malginious: raises 80 to 160
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: folds 
+Uncalled bet (80) returned to Malginious
+Malginious collected 260 from pot
+Malginious: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: gale1000 (big blind) folded before Flop
+Seat 6: Malginious collected (260)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359602358: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:30:58 BRT [2026/04/05 17:30:58 ET]
+Table '3989590908 2' 8-max Seat #4 is the button
+Seat 2: Dynasty63 (1940 in chips) 
+Seat 3: xxniccoxx (1311 in chips) 
+Seat 4: scorza23 (2079 in chips) 
+Seat 5: gale1000 (2560 in chips) 
+Seat 6: Malginious (4009 in chips) 
+Seat 8: Xico UEM (2330 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+gale1000: posts small blind 40
+Malginious: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7c]
+Xico UEM: raises 80 to 160
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: calls 120
+Malginious: calls 80
+*** FLOP *** [Qs 4d 4c]
+gale1000: checks 
+Malginious: checks 
+Xico UEM: bets 178
+gale1000: folds 
+Malginious: calls 178
+*** TURN *** [Qs 4d 4c] [9h]
+Malginious: checks 
+Xico UEM: checks 
+*** RIVER *** [Qs 4d 4c 9h] [6c]
+Malginious: bets 3661 and is all-in
+Xico UEM: folds 
+Uncalled bet (3661) returned to Malginious
+Malginious collected 896 from pot
+Malginious: doesn't show hand 
+*** SUMMARY ***
+Total pot 896 | Rake 0 
+Board [Qs 4d 4c 9h 6c]
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: gale1000 (small blind) folded on the Flop
+Seat 6: Malginious (big blind) collected (896)
+Seat 8: Xico UEM folded on the River
+
+
+
+PokerStars Hand #260359617031: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:31:51 BRT [2026/04/05 17:31:51 ET]
+Table '3989590908 2' 8-max Seat #5 is the button
+Seat 2: Dynasty63 (1930 in chips) 
+Seat 3: xxniccoxx (1301 in chips) 
+Seat 4: scorza23 (2069 in chips) 
+Seat 5: gale1000 (2390 in chips) 
+Seat 6: Malginious (4557 in chips) 
+Seat 8: Xico UEM (1982 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+Malginious: posts small blind 40
+Xico UEM: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 9h]
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: calls 80
+Malginious: calls 40
+Xico UEM: raises 240 to 320
+gale1000: calls 240
+Malginious: folds 
+*** FLOP *** [8s Qh 8d]
+Xico UEM: bets 390
+gale1000: folds 
+Uncalled bet (390) returned to Xico UEM
+Xico UEM collected 780 from pot
+*** SUMMARY ***
+Total pot 780 | Rake 0 
+Board [8s Qh 8d]
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 (button) folded on the Flop
+Seat 6: Malginious (small blind) folded before Flop
+Seat 8: Xico UEM (big blind) collected (780)
+
+
+
+PokerStars Hand #260359625074: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:32:21 BRT [2026/04/05 17:32:21 ET]
+Table '3989590908 2' 8-max Seat #6 is the button
+Seat 2: Dynasty63 (1920 in chips) 
+Seat 3: xxniccoxx (1291 in chips) 
+Seat 4: scorza23 (2059 in chips) 
+Seat 5: gale1000 (2060 in chips) 
+Seat 6: Malginious (4467 in chips) 
+Seat 8: Xico UEM (2432 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+Xico UEM: posts small blind 40
+Dynasty63: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 7h]
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: folds 
+Malginious: folds 
+Xico UEM: folds 
+Uncalled bet (40) returned to Dynasty63
+Dynasty63 collected 140 from pot
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 2: Dynasty63 (big blind) collected (140)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 folded before Flop (didn't bet)
+Seat 6: Malginious (button) folded before Flop (didn't bet)
+Seat 8: Xico UEM (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359630865: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:32:43 BRT [2026/04/05 17:32:43 ET]
+Table '3989590908 2' 8-max Seat #8 is the button
+Seat 2: Dynasty63 (2010 in chips) 
+Seat 3: xxniccoxx (1281 in chips) 
+Seat 4: scorza23 (2049 in chips) 
+Seat 5: gale1000 (2050 in chips) 
+Seat 6: Malginious (4457 in chips) 
+Seat 8: Xico UEM (2382 in chips) 
+Dynasty63: posts the ante 10
+xxniccoxx: posts the ante 10
+scorza23: posts the ante 10
+gale1000: posts the ante 10
+Malginious: posts the ante 10
+Xico UEM: posts the ante 10
+Dynasty63: posts small blind 40
+xxniccoxx: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Qh]
+scorza23: folds 
+gale1000: folds 
+Malginious: folds 
+Xico UEM: raises 80 to 160
+Dynasty63: calls 120
+xxniccoxx: folds 
+*** FLOP *** [6s 5h 7c]
+Dynasty63: bets 1840 and is all-in
+Xico UEM: folds 
+Uncalled bet (1840) returned to Dynasty63
+Dynasty63 collected 460 from pot
+*** SUMMARY ***
+Total pot 460 | Rake 0 
+Board [6s 5h 7c]
+Seat 2: Dynasty63 (small blind) collected (460)
+Seat 3: xxniccoxx (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM (button) folded on the Flop
+
+
+
+PokerStars Hand #260359641720: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:33:23 BRT [2026/04/05 17:33:23 ET]
+Table '3989590908 2' 8-max Seat #2 is the button
+Seat 2: Dynasty63 (2300 in chips) 
+Seat 3: xxniccoxx (1191 in chips) 
+Seat 4: scorza23 (2039 in chips) 
+Seat 5: gale1000 (2040 in chips) 
+Seat 6: Malginious (4447 in chips) 
+Seat 8: Xico UEM (2212 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+xxniccoxx: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Jc]
+gale1000: folds 
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: raises 1056 to 1176 and is all-in
+scorza23: calls 1056
+*** FLOP *** [5d 4c 3s]
+*** TURN *** [5d 4c 3s] [7h]
+*** RIVER *** [5d 4c 3s 7h] [Qd]
+*** SHOW DOWN ***
+xxniccoxx: shows [Ks 9d] (high card King)
+scorza23: shows [8c Jc] (high card Queen)
+xxniccoxx collected 2442 from pot
+*** SUMMARY ***
+Total pot 2442 | Rake 0 
+Board [5d 4c 3s 7h Qd]
+Seat 2: Dynasty63 (button) folded before Flop (didn't bet)
+Seat 3: xxniccoxx (small blind) showed [Ks 9d] and won (2442) with high card King
+Seat 4: scorza23 (big blind) showed [8c Jc] and lost with high card Queen
+Seat 5: gale1000 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359648162: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:33:47 BRT [2026/04/05 17:33:47 ET]
+Table '3989590908 2' 8-max Seat #3 is the button
+Seat 2: Dynasty63 (2285 in chips) 
+Seat 3: xxniccoxx (2442 in chips) 
+Seat 4: scorza23 (848 in chips) 
+Seat 5: gale1000 (2025 in chips) 
+Seat 6: Malginious (4432 in chips) 
+Seat 8: Xico UEM (2197 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+scorza23: posts small blind 60
+gale1000: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Ad]
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: raises 2150 to 2270 and is all-in
+xxniccoxx: folds 
+scorza23: calls 773 and is all-in
+gale1000: folds 
+Uncalled bet (1437) returned to Dynasty63
+*** FLOP *** [Kh 7d 5d]
+*** TURN *** [Kh 7d 5d] [Ah]
+*** RIVER *** [Kh 7d 5d Ah] [Js]
+*** SHOW DOWN ***
+scorza23: shows [7h Ad] (two pair, Aces and Sevens)
+Dynasty63: shows [Ac Ts] (a pair of Aces)
+scorza23 collected 1876 from pot
+*** SUMMARY ***
+Total pot 1876 | Rake 0 
+Board [Kh 7d 5d Ah Js]
+Seat 2: Dynasty63 showed [Ac Ts] and lost with a pair of Aces
+Seat 3: xxniccoxx (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) showed [7h Ad] and won (1876) with two pair, Aces and Sevens
+Seat 5: gale1000 (big blind) folded before Flop
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359656301: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:34:17 BRT [2026/04/05 17:34:17 ET]
+Table '3989590908 2' 8-max Seat #4 is the button
+Seat 2: Dynasty63 (1437 in chips) 
+Seat 3: xxniccoxx (2427 in chips) 
+Seat 4: scorza23 (1876 in chips) 
+Seat 5: gale1000 (1890 in chips) 
+Seat 6: Malginious (4417 in chips) 
+Seat 8: Xico UEM (2182 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+gale1000: posts small blind 60
+Malginious: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Ks]
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: raises 240 to 360
+gale1000: folds 
+Malginious: folds 
+Uncalled bet (240) returned to scorza23
+scorza23 collected 390 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 (button) collected (390)
+Seat 5: gale1000 (small blind) folded before Flop
+Seat 6: Malginious (big blind) folded before Flop
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359661070: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:34:35 BRT [2026/04/05 17:34:35 ET]
+Table '3989590908 2' 8-max Seat #5 is the button
+Seat 2: Dynasty63 (1422 in chips) 
+Seat 3: xxniccoxx (2412 in chips) 
+Seat 4: scorza23 (2131 in chips) 
+Seat 5: gale1000 (1815 in chips) 
+Seat 6: Malginious (4282 in chips) 
+Seat 8: Xico UEM (2167 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+Malginious: posts small blind 60
+Xico UEM: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 6s]
+Dynasty63: raises 1287 to 1407 and is all-in
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: folds 
+Malginious: folds 
+Xico UEM: folds 
+Uncalled bet (1287) returned to Dynasty63
+Dynasty63 collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: Dynasty63 collected (390)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 (button) folded before Flop (didn't bet)
+Seat 6: Malginious (small blind) folded before Flop
+Seat 8: Xico UEM (big blind) folded before Flop
+
+
+
+PokerStars Hand #260359666464: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:34:55 BRT [2026/04/05 17:34:55 ET]
+Table '3989590908 2' 8-max Seat #6 is the button
+Seat 2: Dynasty63 (1677 in chips) 
+Seat 3: xxniccoxx (2397 in chips) 
+Seat 4: scorza23 (2116 in chips) 
+Seat 5: gale1000 (1800 in chips) 
+Seat 6: Malginious (4207 in chips) 
+Seat 8: Xico UEM (2032 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+Xico UEM: posts small blind 60
+Dynasty63: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 7c]
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: calls 120
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: checks 
+*** FLOP *** [Js Kd As]
+Dynasty63: checks 
+gale1000: bets 480
+Dynasty63: folds 
+Uncalled bet (480) returned to gale1000
+gale1000 collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Board [Js Kd As]
+Seat 2: Dynasty63 (big blind) folded on the Flop
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 collected (390)
+Seat 6: Malginious (button) folded before Flop (didn't bet)
+Seat 8: Xico UEM (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359673180: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:35:20 BRT [2026/04/05 17:35:20 ET]
+Table '3989590908 2' 8-max Seat #8 is the button
+Seat 2: Dynasty63 (1542 in chips) 
+Seat 3: xxniccoxx (2382 in chips) 
+Seat 4: scorza23 (2101 in chips) 
+Seat 5: gale1000 (2055 in chips) 
+Seat 6: Malginious (4192 in chips) 
+Seat 8: Xico UEM (1957 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+Dynasty63: posts small blind 60
+xxniccoxx: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 2s]
+scorza23: folds 
+gale1000: folds 
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: calls 60
+xxniccoxx: checks 
+*** FLOP *** [6d 9h As]
+Dynasty63: bets 1407 and is all-in
+xxniccoxx: folds 
+Uncalled bet (1407) returned to Dynasty63
+Dynasty63 collected 330 from pot
+*** SUMMARY ***
+Total pot 330 | Rake 0 
+Board [6d 9h As]
+Seat 2: Dynasty63 (small blind) collected (330)
+Seat 3: xxniccoxx (big blind) folded on the Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 folded before Flop (didn't bet)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359679954: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:35:45 BRT [2026/04/05 17:35:45 ET]
+Table '3989590908 2' 8-max Seat #2 is the button
+Seat 2: Dynasty63 (1737 in chips) 
+Seat 3: xxniccoxx (2247 in chips) 
+Seat 4: scorza23 (2086 in chips) 
+Seat 5: gale1000 (2040 in chips) 
+Seat 6: Malginious (4177 in chips) 
+Seat 8: Xico UEM (1942 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+xxniccoxx: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 3h]
+gale1000: raises 120 to 240
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds [6s 3h]
+Uncalled bet (120) returned to gale1000
+gale1000 collected 390 from pot
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 2: Dynasty63 (button) folded before Flop (didn't bet)
+Seat 3: xxniccoxx (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: gale1000 collected (390)
+Seat 6: Malginious folded before Flop (didn't bet)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359686519: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:36:09 BRT [2026/04/05 17:36:09 ET]
+Table '3989590908 2' 8-max Seat #3 is the button
+Seat 2: Dynasty63 (1722 in chips) 
+Seat 3: xxniccoxx (2172 in chips) 
+Seat 4: scorza23 (1951 in chips) 
+Seat 5: gale1000 (2295 in chips) 
+Seat 6: Malginious (4162 in chips) 
+Seat 8: Xico UEM (1927 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+scorza23: posts small blind 60
+gale1000: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Js]
+Malginious: raises 120 to 240
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: folds 
+gale1000: calls 120
+*** FLOP *** [8s As 4s]
+gale1000: bets 480
+Malginious: folds 
+Uncalled bet (480) returned to gale1000
+gale1000 collected 630 from pot
+*** SUMMARY ***
+Total pot 630 | Rake 0 
+Board [8s As 4s]
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: gale1000 (big blind) collected (630)
+Seat 6: Malginious folded on the Flop
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359693482: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:36:35 BRT [2026/04/05 17:36:35 ET]
+Table '3989590908 2' 8-max Seat #4 is the button
+Seat 2: Dynasty63 (1707 in chips) 
+Seat 3: xxniccoxx (2157 in chips) 
+Seat 4: scorza23 (1876 in chips) 
+Seat 5: gale1000 (2670 in chips) 
+Seat 6: Malginious (3907 in chips) 
+Seat 8: Xico UEM (1912 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+gale1000: posts small blind 60
+Malginious: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Ac]
+Xico UEM: folds 
+Dynasty63: folds 
+xxniccoxx: folds 
+scorza23: raises 240 to 360
+gale1000: folds 
+Malginious: calls 240
+*** FLOP *** [Tc 9h 7s]
+Malginious: bets 240
+scorza23: folds 
+Uncalled bet (240) returned to Malginious
+Malginious collected 870 from pot
+Malginious: doesn't show hand 
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [Tc 9h 7s]
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded on the Flop
+Seat 5: gale1000 (small blind) folded before Flop
+Seat 6: Malginious (big blind) collected (870)
+Seat 8: Xico UEM folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359702444: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:37:08 BRT [2026/04/05 17:37:08 ET]
+Table '3989590908 2' 8-max Seat #5 is the button
+Seat 2: Dynasty63 (1692 in chips) 
+Seat 3: xxniccoxx (2142 in chips) 
+Seat 4: scorza23 (1501 in chips) 
+Seat 5: gale1000 (2595 in chips) 
+Seat 6: Malginious (4402 in chips) 
+Seat 8: Xico UEM (1897 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+Malginious: posts small blind 60
+Xico UEM: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 3s]
+Dynasty63: folds 
+xxniccoxx: raises 120 to 240
+scorza23: folds 
+gale1000: folds 
+Malginious: folds 
+Xico UEM: calls 120
+*** FLOP *** [6d Kd 9h]
+Xico UEM: checks 
+xxniccoxx: bets 240
+Xico UEM: raises 1402 to 1642 and is all-in
+xxniccoxx: calls 1402
+*** TURN *** [6d Kd 9h] [4d]
+*** RIVER *** [6d Kd 9h 4d] [Qs]
+*** SHOW DOWN ***
+Xico UEM: shows [Td 8d] (a flush, King high)
+xxniccoxx: shows [Ks Ah] (a pair of Kings)
+Xico UEM collected 3914 from pot
+*** SUMMARY ***
+Total pot 3914 | Rake 0 
+Board [6d Kd 9h 4d Qs]
+Seat 2: Dynasty63 folded before Flop (didn't bet)
+Seat 3: xxniccoxx showed [Ks Ah] and lost with a pair of Kings
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 (button) folded before Flop (didn't bet)
+Seat 6: Malginious (small blind) folded before Flop
+Seat 8: Xico UEM (big blind) showed [Td 8d] and won (3914) with a flush, King high
+
+
+
+PokerStars Hand #260359712623: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:37:47 BRT [2026/04/05 17:37:47 ET]
+Table '3989590908 2' 8-max Seat #6 is the button
+Seat 2: Dynasty63 (1677 in chips) 
+Seat 3: xxniccoxx (245 in chips) 
+Seat 4: scorza23 (1486 in chips) 
+Seat 5: gale1000 (2580 in chips) 
+Seat 6: Malginious (4327 in chips) 
+Seat 8: Xico UEM (3914 in chips) 
+Dynasty63: posts the ante 15
+xxniccoxx: posts the ante 15
+scorza23: posts the ante 15
+gale1000: posts the ante 15
+Malginious: posts the ante 15
+Xico UEM: posts the ante 15
+Xico UEM: posts small blind 60
+Dynasty63: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 5s]
+xxniccoxx: raises 110 to 230 and is all-in
+scorza23: folds 
+gale1000: calls 230
+Malginious: folds 
+Xico UEM: folds 
+Dynasty63: calls 110
+*** FLOP *** [Jc 6c 6d]
+Dynasty63: checks 
+gale1000: checks 
+*** TURN *** [Jc 6c 6d] [8d]
+Dynasty63: checks 
+gale1000: checks 
+*** RIVER *** [Jc 6c 6d 8d] [2s]
+Dynasty63: checks 
+gale1000: checks 
+*** SHOW DOWN ***
+Dynasty63: shows [Qh 9s] (a pair of Sixes)
+xxniccoxx: mucks hand 
+gale1000: shows [5h Ah] (a pair of Sixes - Ace kicker)
+gale1000 collected 840 from pot
+xxniccoxx finished the tournament in 17th place
+*** SUMMARY ***
+Total pot 840 | Rake 0 
+Board [Jc 6c 6d 8d 2s]
+Seat 2: Dynasty63 (big blind) showed [Qh 9s] and lost with a pair of Sixes
+Seat 3: xxniccoxx mucked [Tc 5c]
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: gale1000 showed [5h Ah] and won (840) with a pair of Sixes
+Seat 6: Malginious (button) folded before Flop (didn't bet)
+Seat 8: Xico UEM (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359742398: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:39:39 BRT [2026/04/05 17:39:39 ET]
+Table '3989590908 3' 8-max Seat #6 is the button
+Seat 1: XEM420 (2878 in chips) 
+Seat 2: ratrix2009 (2360 in chips) 
+Seat 3: DTL81 (2772 in chips) 
+Seat 4: LucasFGalvão (2403 in chips) 
+Seat 5: scorza23 (1471 in chips) 
+Seat 6: rodriguessf (3885 in chips) 
+Seat 7: gale1000 (3695 in chips) 
+Seat 8: zadalarg (989 in chips) 
+XEM420: posts the ante 20
+ratrix2009: posts the ante 20
+DTL81: posts the ante 20
+LucasFGalvão: posts the ante 20
+scorza23: posts the ante 20
+rodriguessf: posts the ante 20
+gale1000: posts the ante 20
+zadalarg: posts the ante 20
+gale1000: posts small blind 80
+zadalarg: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 2d]
+XEM420: folds 
+ratrix2009: folds 
+DTL81: folds 
+LucasFGalvão: raises 2223 to 2383 and is all-in
+scorza23: folds 
+rodriguessf: folds 
+gale1000: raises 1292 to 3675 and is all-in
+zadalarg: folds 
+Uncalled bet (1292) returned to gale1000
+*** FLOP *** [4d Jh 8h]
+*** TURN *** [4d Jh 8h] [Ah]
+*** RIVER *** [4d Jh 8h Ah] [9s]
+*** SHOW DOWN ***
+gale1000: shows [Ad Kh] (a pair of Aces)
+LucasFGalvão: shows [Kc Qh] (high card Ace)
+gale1000 collected 5086 from pot
+LucasFGalvão finished the tournament in 16th place
+*** SUMMARY ***
+Total pot 5086 | Rake 0 
+Board [4d Jh 8h Ah 9s]
+Seat 1: XEM420 folded before Flop (didn't bet)
+Seat 2: ratrix2009 folded before Flop (didn't bet)
+Seat 3: DTL81 folded before Flop (didn't bet)
+Seat 4: LucasFGalvão showed [Kc Qh] and lost with high card Ace
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: rodriguessf (button) folded before Flop (didn't bet)
+Seat 7: gale1000 (small blind) showed [Ad Kh] and won (5086) with a pair of Aces
+Seat 8: zadalarg (big blind) folded before Flop
+
+
+
+PokerStars Hand #260359754740: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:40:26 BRT [2026/04/05 17:40:26 ET]
+Table '3989590908 3' 8-max Seat #7 is the button
+Seat 1: XEM420 (2858 in chips) 
+Seat 2: ratrix2009 (2340 in chips) 
+Seat 3: DTL81 (2752 in chips) 
+Seat 5: scorza23 (1451 in chips) 
+Seat 6: rodriguessf (3865 in chips) 
+Seat 7: gale1000 (6378 in chips) 
+Seat 8: zadalarg (809 in chips) 
+XEM420: posts the ante 20
+ratrix2009: posts the ante 20
+DTL81: posts the ante 20
+scorza23: posts the ante 20
+rodriguessf: posts the ante 20
+gale1000: posts the ante 20
+zadalarg: posts the ante 20
+zadalarg: posts small blind 80
+XEM420: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qd]
+ratrix2009: folds 
+DTL81: raises 320 to 480
+scorza23: folds 
+rodriguessf: folds 
+gale1000: raises 1340 to 1820
+zadalarg: folds 
+XEM420: folds 
+DTL81: folds 
+Uncalled bet (1340) returned to gale1000
+gale1000 collected 1340 from pot
+*** SUMMARY ***
+Total pot 1340 | Rake 0 
+Seat 1: XEM420 (big blind) folded before Flop
+Seat 2: ratrix2009 folded before Flop (didn't bet)
+Seat 3: DTL81 folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: rodriguessf folded before Flop (didn't bet)
+Seat 7: gale1000 (button) collected (1340)
+Seat 8: zadalarg (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359763721: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:41:00 BRT [2026/04/05 17:41:00 ET]
+Table '3989590908 3' 8-max Seat #8 is the button
+Seat 1: XEM420 (2678 in chips) 
+Seat 2: ratrix2009 (2320 in chips) 
+Seat 3: DTL81 (2252 in chips) 
+Seat 5: scorza23 (1431 in chips) 
+Seat 6: rodriguessf (3845 in chips) 
+Seat 7: gale1000 (7218 in chips) 
+Seat 8: zadalarg (709 in chips) 
+XEM420: posts the ante 20
+ratrix2009: posts the ante 20
+DTL81: posts the ante 20
+scorza23: posts the ante 20
+rodriguessf: posts the ante 20
+gale1000: posts the ante 20
+zadalarg: posts the ante 20
+XEM420: posts small blind 80
+ratrix2009: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [As Jh]
+DTL81: folds 
+scorza23: raises 1251 to 1411 and is all-in
+rodriguessf: folds 
+gale1000: folds 
+zadalarg: folds 
+XEM420: folds 
+ratrix2009: folds 
+Uncalled bet (1251) returned to scorza23
+scorza23 collected 540 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 1: XEM420 (small blind) folded before Flop
+Seat 2: ratrix2009 (big blind) folded before Flop
+Seat 3: DTL81 folded before Flop (didn't bet)
+Seat 5: scorza23 collected (540)
+Seat 6: rodriguessf folded before Flop (didn't bet)
+Seat 7: gale1000 folded before Flop (didn't bet)
+Seat 8: zadalarg (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359771399: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:41:29 BRT [2026/04/05 17:41:29 ET]
+Table '3989590908 3' 8-max Seat #1 is the button
+Seat 1: XEM420 (2578 in chips) 
+Seat 2: ratrix2009 (2140 in chips) 
+Seat 3: DTL81 (2232 in chips) 
+Seat 5: scorza23 (1791 in chips) 
+Seat 6: rodriguessf (3825 in chips) 
+Seat 7: gale1000 (7198 in chips) 
+Seat 8: zadalarg (689 in chips) 
+XEM420: posts the ante 20
+ratrix2009: posts the ante 20
+DTL81: posts the ante 20
+scorza23: posts the ante 20
+rodriguessf: posts the ante 20
+gale1000: posts the ante 20
+zadalarg: posts the ante 20
+ratrix2009: posts small blind 80
+DTL81: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Kd]
+scorza23: folds 
+rodriguessf: raises 160 to 320
+gale1000: folds 
+zadalarg: raises 349 to 669 and is all-in
+XEM420: folds 
+ratrix2009: folds 
+DTL81: folds 
+rodriguessf: calls 349
+*** FLOP *** [Tc 5c 5h]
+*** TURN *** [Tc 5c 5h] [6s]
+*** RIVER *** [Tc 5c 5h 6s] [3c]
+*** SHOW DOWN ***
+rodriguessf: shows [Qh Qd] (two pair, Queens and Fives)
+zadalarg: shows [As Ac] (two pair, Aces and Fives)
+zadalarg collected 1718 from pot
+*** SUMMARY ***
+Total pot 1718 | Rake 0 
+Board [Tc 5c 5h 6s 3c]
+Seat 1: XEM420 (button) folded before Flop (didn't bet)
+Seat 2: ratrix2009 (small blind) folded before Flop
+Seat 3: DTL81 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: rodriguessf showed [Qh Qd] and lost with two pair, Queens and Fives
+Seat 7: gale1000 folded before Flop (didn't bet)
+Seat 8: zadalarg showed [As Ac] and won (1718) with two pair, Aces and Fives
+
+
+
+PokerStars Hand #260359783082: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:42:13 BRT [2026/04/05 17:42:13 ET]
+Table '3989590908 3' 8-max Seat #2 is the button
+Seat 1: XEM420 (2558 in chips) 
+Seat 2: ratrix2009 (2040 in chips) 
+Seat 3: DTL81 (2052 in chips) 
+Seat 5: scorza23 (1771 in chips) 
+Seat 6: rodriguessf (3136 in chips) 
+Seat 7: gale1000 (7178 in chips) 
+Seat 8: zadalarg (1718 in chips) 
+XEM420: posts the ante 20
+ratrix2009: posts the ante 20
+DTL81: posts the ante 20
+scorza23: posts the ante 20
+rodriguessf: posts the ante 20
+gale1000: posts the ante 20
+zadalarg: posts the ante 20
+DTL81: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 5s]
+rodriguessf: folds 
+gale1000: raises 160 to 320
+zadalarg: folds 
+XEM420: folds 
+ratrix2009: folds 
+DTL81: folds 
+scorza23: folds 
+Uncalled bet (160) returned to gale1000
+gale1000 collected 540 from pot
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 1: XEM420 folded before Flop (didn't bet)
+Seat 2: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 3: DTL81 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: rodriguessf folded before Flop (didn't bet)
+Seat 7: gale1000 collected (540)
+Seat 8: zadalarg folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359790695: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:42:42 BRT [2026/04/05 17:42:42 ET]
+Table '3989590908 3' 8-max Seat #3 is the button
+Seat 1: XEM420 (2538 in chips) 
+Seat 2: ratrix2009 (2020 in chips) 
+Seat 3: DTL81 (1952 in chips) 
+Seat 5: scorza23 (1591 in chips) 
+Seat 6: rodriguessf (3116 in chips) 
+Seat 7: gale1000 (7538 in chips) 
+Seat 8: zadalarg (1698 in chips) 
+XEM420: posts the ante 20
+ratrix2009: posts the ante 20
+DTL81: posts the ante 20
+scorza23: posts the ante 20
+rodriguessf: posts the ante 20
+gale1000: posts the ante 20
+zadalarg: posts the ante 20
+scorza23: posts small blind 80
+rodriguessf: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 9c]
+gale1000: raises 160 to 320
+zadalarg: folds 
+XEM420: folds 
+ratrix2009: folds 
+DTL81: folds 
+scorza23: folds 
+rodriguessf: calls 160
+*** FLOP *** [Jd 9d 9h]
+rodriguessf: checks 
+gale1000: bets 860
+rodriguessf: folds 
+Uncalled bet (860) returned to gale1000
+gale1000 collected 860 from pot
+*** SUMMARY ***
+Total pot 860 | Rake 0 
+Board [Jd 9d 9h]
+Seat 1: XEM420 folded before Flop (didn't bet)
+Seat 2: ratrix2009 folded before Flop (didn't bet)
+Seat 3: DTL81 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: rodriguessf (big blind) folded on the Flop
+Seat 7: gale1000 collected (860)
+Seat 8: zadalarg folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359807273: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:43:44 BRT [2026/04/05 17:43:44 ET]
+Table '3989590908 3' 8-max Seat #5 is the button
+Seat 1: XEM420 (2518 in chips) 
+Seat 2: ratrix2009 (2000 in chips) 
+Seat 3: DTL81 (1932 in chips) 
+Seat 5: scorza23 (1491 in chips) 
+Seat 6: rodriguessf (2776 in chips) 
+Seat 7: gale1000 (8058 in chips) 
+Seat 8: zadalarg (1678 in chips) 
+XEM420: posts the ante 25
+ratrix2009: posts the ante 25
+DTL81: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+zadalarg: posts the ante 25
+rodriguessf: posts small blind 100
+gale1000: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Kh]
+zadalarg: calls 200
+XEM420: folds 
+ratrix2009: folds 
+DTL81: folds 
+scorza23: folds 
+rodriguessf: folds 
+gale1000: checks 
+*** FLOP *** [4h 8c 3c]
+gale1000: checks 
+zadalarg: bets 600
+gale1000: calls 600
+*** TURN *** [4h 8c 3c] [Td]
+gale1000: bets 600
+zadalarg: raises 253 to 853 and is all-in
+gale1000: calls 253
+*** RIVER *** [4h 8c 3c Td] [5s]
+*** SHOW DOWN ***
+gale1000: shows [5d 3d] (two pair, Fives and Threes)
+zadalarg: shows [7c 4c] (a pair of Fours)
+gale1000 collected 3581 from pot
+zadalarg finished the tournament in 14th place
+*** SUMMARY ***
+Total pot 3581 | Rake 0 
+Board [4h 8c 3c Td 5s]
+Seat 1: XEM420 folded before Flop (didn't bet)
+Seat 2: ratrix2009 folded before Flop (didn't bet)
+Seat 3: DTL81 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: rodriguessf (small blind) folded before Flop
+Seat 7: gale1000 (big blind) showed [5d 3d] and won (3581) with two pair, Fives and Threes
+Seat 8: zadalarg showed [7c 4c] and lost with a pair of Fours
+
+
+
+PokerStars Hand #260359826903: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:44:58 BRT [2026/04/05 17:44:58 ET]
+Table '3989590908 3' 8-max Seat #6 is the button
+Seat 1: XEM420 (2493 in chips) 
+Seat 2: ratrix2009 (1975 in chips) 
+Seat 3: DTL81 (1907 in chips) 
+Seat 5: scorza23 (1466 in chips) 
+Seat 6: rodriguessf (2651 in chips) 
+Seat 7: gale1000 (9961 in chips) 
+XEM420: posts the ante 25
+ratrix2009: posts the ante 25
+DTL81: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+gale1000: posts small blind 100
+XEM420: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4h Jd]
+ratrix2009: raises 1750 to 1950 and is all-in
+DTL81: folds 
+scorza23: folds 
+rodriguessf: folds 
+gale1000: calls 1850
+XEM420: folds 
+*** FLOP *** [9c 6d 3d]
+*** TURN *** [9c 6d 3d] [Kd]
+*** RIVER *** [9c 6d 3d Kd] [Qc]
+*** SHOW DOWN ***
+gale1000: shows [Th Ac] (high card Ace)
+ratrix2009: shows [7s Ah] (high card Ace - lower kicker)
+gale1000 collected 4250 from pot
+ratrix2009 finished the tournament in 13th place
+*** SUMMARY ***
+Total pot 4250 | Rake 0 
+Board [9c 6d 3d Kd Qc]
+Seat 1: XEM420 (big blind) folded before Flop
+Seat 2: ratrix2009 showed [7s Ah] and lost with high card Ace
+Seat 3: DTL81 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: rodriguessf (button) folded before Flop (didn't bet)
+Seat 7: gale1000 (small blind) showed [Th Ac] and won (4250) with high card Ace
+
+
+
+PokerStars Hand #260359831447: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:45:15 BRT [2026/04/05 17:45:15 ET]
+Table '3989590908 3' 8-max Seat #7 is the button
+Seat 1: XEM420 (2268 in chips) 
+Seat 3: DTL81 (1882 in chips) 
+Seat 5: scorza23 (1441 in chips) 
+Seat 6: rodriguessf (2626 in chips) 
+Seat 7: gale1000 (12236 in chips) 
+XEM420: posts the ante 25
+DTL81: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+XEM420: posts small blind 100
+DTL81: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Th]
+scorza23: raises 1216 to 1416 and is all-in
+rodriguessf: folds 
+gale1000: folds 
+XEM420: folds 
+DTL81: calls 1216
+*** FLOP *** [8s Jh 2s]
+*** TURN *** [8s Jh 2s] [5c]
+*** RIVER *** [8s Jh 2s 5c] [6d]
+*** SHOW DOWN ***
+DTL81: shows [Tc Kc] (high card King)
+scorza23: shows [Kh Th] (high card King)
+DTL81 collected 1529 from pot
+scorza23 collected 1528 from pot
+*** SUMMARY ***
+Total pot 3057 | Rake 0 
+Board [8s Jh 2s 5c 6d]
+Seat 1: XEM420 (small blind) folded before Flop
+Seat 3: DTL81 (big blind) showed [Tc Kc] and won (1529) with high card King
+Seat 5: scorza23 showed [Kh Th] and won (1528) with high card King
+Seat 6: rodriguessf folded before Flop (didn't bet)
+Seat 7: gale1000 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359836409: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:45:34 BRT [2026/04/05 17:45:34 ET]
+Table '3989590908 3' 8-max Seat #1 is the button
+Seat 1: XEM420 (2143 in chips) 
+Seat 3: DTL81 (1970 in chips) 
+Seat 5: scorza23 (1528 in chips) 
+Seat 6: rodriguessf (2601 in chips) 
+Seat 7: gale1000 (12211 in chips) 
+XEM420: posts the ante 25
+DTL81: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+DTL81: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Qh]
+rodriguessf: raises 200 to 400
+gale1000: folds 
+XEM420: calls 400
+DTL81: folds 
+scorza23: raises 1103 to 1503 and is all-in
+rodriguessf: folds 
+XEM420: calls 1103
+*** FLOP *** [5s As 6d]
+*** TURN *** [5s As 6d] [6c]
+*** RIVER *** [5s As 6d 6c] [Qd]
+*** SHOW DOWN ***
+scorza23: shows [7h Qh] (two pair, Queens and Sixes)
+XEM420: shows [Jc Ks] (a pair of Sixes)
+scorza23 collected 3631 from pot
+*** SUMMARY ***
+Total pot 3631 | Rake 0 
+Board [5s As 6d 6c Qd]
+Seat 1: XEM420 (button) showed [Jc Ks] and lost with a pair of Sixes
+Seat 3: DTL81 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [7h Qh] and won (3631) with two pair, Queens and Sixes
+Seat 6: rodriguessf folded before Flop
+Seat 7: gale1000 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359845756: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:46:10 BRT [2026/04/05 17:46:10 ET]
+Table '3989590908 3' 8-max Seat #3 is the button
+Seat 1: XEM420 (615 in chips) 
+Seat 3: DTL81 (1845 in chips) 
+Seat 5: scorza23 (3631 in chips) 
+Seat 6: rodriguessf (2176 in chips) 
+Seat 7: gale1000 (12186 in chips) 
+Seat 8: Louisloua (6629 in chips) 
+XEM420: posts the ante 25
+DTL81: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+Louisloua: posts the ante 25
+scorza23: posts small blind 100
+rodriguessf: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Ad]
+gale1000: folds 
+Louisloua: folds 
+XEM420: folds 
+DTL81: raises 1620 to 1820 and is all-in
+scorza23: calls 1720
+rodriguessf: folds 
+*** FLOP *** [7d Ac 5d]
+*** TURN *** [7d Ac 5d] [6d]
+*** RIVER *** [7d Ac 5d 6d] [Ks]
+*** SHOW DOWN ***
+scorza23: shows [Kc Ad] (two pair, Aces and Kings)
+DTL81: shows [Kd Ah] (two pair, Aces and Kings)
+scorza23 collected 1995 from pot
+DTL81 collected 1995 from pot
+*** SUMMARY ***
+Total pot 3990 | Rake 0 
+Board [7d Ac 5d 6d Ks]
+Seat 1: XEM420 folded before Flop (didn't bet)
+Seat 3: DTL81 (button) showed [Kd Ah] and won (1995) with two pair, Aces and Kings
+Seat 5: scorza23 (small blind) showed [Kc Ad] and won (1995) with two pair, Aces and Kings
+Seat 6: rodriguessf (big blind) folded before Flop
+Seat 7: gale1000 folded before Flop (didn't bet)
+Seat 8: Louisloua folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359851795: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:46:33 BRT [2026/04/05 17:46:33 ET]
+Table '3989590908 3' 8-max Seat #5 is the button
+Seat 1: XEM420 (590 in chips) 
+Seat 3: DTL81 (1995 in chips) 
+Seat 5: scorza23 (3781 in chips) 
+Seat 6: rodriguessf (1951 in chips) 
+Seat 7: gale1000 (12161 in chips) 
+Seat 8: Louisloua (6604 in chips) 
+XEM420: posts the ante 25
+DTL81: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+Louisloua: posts the ante 25
+rodriguessf: posts small blind 100
+gale1000: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Jd]
+Louisloua: folds 
+XEM420: raises 365 to 565 and is all-in
+DTL81: raises 1405 to 1970 and is all-in
+scorza23: folds 
+rodriguessf: calls 1826 and is all-in
+gale1000: folds 
+Uncalled bet (44) returned to DTL81
+*** FLOP *** [7h Tc 9d]
+*** TURN *** [7h Tc 9d] [Kh]
+*** RIVER *** [7h Tc 9d Kh] [6d]
+*** SHOW DOWN ***
+rodriguessf: shows [Ac Ad] (a pair of Aces)
+DTL81: shows [Ah 5d] (high card Ace)
+rodriguessf collected 2722 from side pot
+XEM420: shows [6c Ks] (two pair, Kings and Sixes)
+XEM420 collected 2045 from main pot
+*** SUMMARY ***
+Total pot 4767 Main pot 2045. Side pot 2722. | Rake 0 
+Board [7h Tc 9d Kh 6d]
+Seat 1: XEM420 showed [6c Ks] and won (2045) with two pair, Kings and Sixes
+Seat 3: DTL81 showed [Ah 5d] and lost with high card Ace
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: rodriguessf (small blind) showed [Ac Ad] and won (2722) with a pair of Aces
+Seat 7: gale1000 (big blind) folded before Flop
+Seat 8: Louisloua folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359859206: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:47:02 BRT [2026/04/05 17:47:02 ET]
+Table '3989590908 3' 8-max Seat #6 is the button
+Seat 1: XEM420 (2045 in chips) 
+Seat 3: DTL81 (44 in chips) 
+Seat 5: scorza23 (3756 in chips) 
+Seat 6: rodriguessf (2722 in chips) 
+Seat 7: gale1000 (11936 in chips) 
+Seat 8: Louisloua (6579 in chips) 
+XEM420: posts the ante 25
+DTL81: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+Louisloua: posts the ante 25
+gale1000: posts small blind 100
+Louisloua: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4d]
+XEM420: raises 300 to 500
+DTL81: calls 19 and is all-in
+scorza23: folds 
+rodriguessf: folds 
+gale1000: folds 
+Louisloua: folds 
+Uncalled bet (300) returned to XEM420
+*** FLOP *** [3s Tc Td]
+*** TURN *** [3s Tc Td] [4s]
+*** RIVER *** [3s Tc Td 4s] [Jc]
+*** SHOW DOWN ***
+XEM420: shows [As Ah] (two pair, Aces and Tens)
+XEM420 collected 443 from side pot
+DTL81: shows [9c 6h] (a pair of Tens)
+XEM420 collected 226 from main pot
+DTL81 finished the tournament in 11th place
+*** SUMMARY ***
+Total pot 669 Main pot 226. Side pot 443. | Rake 0 
+Board [3s Tc Td 4s Jc]
+Seat 1: XEM420 showed [As Ah] and won (669) with two pair, Aces and Tens
+Seat 3: DTL81 showed [9c 6h] and lost with a pair of Tens
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: rodriguessf (button) folded before Flop (didn't bet)
+Seat 7: gale1000 (small blind) folded before Flop
+Seat 8: Louisloua (big blind) folded before Flop
+
+
+
+PokerStars Hand #260359867218: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 18:47:32 BRT [2026/04/05 17:47:32 ET]
+Table '3989590908 3' 8-max Seat #7 is the button
+Seat 1: XEM420 (2489 in chips) 
+Seat 5: scorza23 (3731 in chips) 
+Seat 6: rodriguessf (2697 in chips) 
+Seat 7: gale1000 (11811 in chips) 
+Seat 8: Louisloua (6354 in chips) 
+XEM420: posts the ante 25
+scorza23: posts the ante 25
+rodriguessf: posts the ante 25
+gale1000: posts the ante 25
+Louisloua: posts the ante 25
+Louisloua: posts small blind 100
+XEM420: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 8h]
+scorza23: folds 
+rodriguessf: raises 200 to 400
+gale1000: folds 
+Louisloua: folds 
+XEM420: calls 200
+*** FLOP *** [6c 2h 2d]
+XEM420: checks 
+rodriguessf: bets 338
+XEM420: calls 338
+*** TURN *** [6c 2h 2d] [2s]
+XEM420: checks 
+rodriguessf: bets 1934 and is all-in
+XEM420: folds 
+Uncalled bet (1934) returned to rodriguessf
+rodriguessf collected 1701 from pot
+rodriguessf: doesn't show hand 
+*** SUMMARY ***
+Total pot 1701 | Rake 0 
+Board [6c 2h 2d 2s]
+Seat 1: XEM420 (big blind) folded on the Turn
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: rodriguessf collected (1701)
+Seat 7: gale1000 (button) folded before Flop (didn't bet)
+Seat 8: Louisloua (small blind) folded before Flop
+
+
+
+PokerStars Hand #260359880418: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 18:48:23 BRT [2026/04/05 17:48:23 ET]
+Table '3989590908 3' 8-max Seat #8 is the button
+Seat 1: XEM420 (1726 in chips) 
+Seat 5: scorza23 (3706 in chips) 
+Seat 6: rodriguessf (3635 in chips) 
+Seat 7: gale1000 (11786 in chips) 
+Seat 8: Louisloua (6229 in chips) 
+XEM420: posts the ante 35
+scorza23: posts the ante 35
+rodriguessf: posts the ante 35
+gale1000: posts the ante 35
+Louisloua: posts the ante 35
+XEM420: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Ah]
+rodriguessf: folds 
+gale1000: folds 
+Louisloua: folds 
+XEM420: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 475 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 475 | Rake 0 
+Seat 1: XEM420 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (475)
+Seat 6: rodriguessf folded before Flop (didn't bet)
+Seat 7: gale1000 folded before Flop (didn't bet)
+Seat 8: Louisloua (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359883377: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 18:48:35 BRT [2026/04/05 17:48:35 ET]
+Table '3989590908 3' 8-max Seat #1 is the button
+Seat 1: XEM420 (1541 in chips) 
+Seat 5: scorza23 (3996 in chips) 
+Seat 6: rodriguessf (3600 in chips) 
+Seat 7: gale1000 (11751 in chips) 
+Seat 8: Louisloua (6194 in chips) 
+XEM420: posts the ante 35
+scorza23: posts the ante 35
+rodriguessf: posts the ante 35
+gale1000: posts the ante 35
+Louisloua: posts the ante 35
+scorza23: posts small blind 150
+rodriguessf: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Ad]
+gale1000: folds 
+Louisloua: folds 
+XEM420: raises 1206 to 1506 and is all-in
+scorza23: calls 1356
+rodriguessf: folds 
+*** FLOP *** [9d 4d 6h]
+*** TURN *** [9d 4d 6h] [6d]
+*** RIVER *** [9d 4d 6h 6d] [5h]
+*** SHOW DOWN ***
+scorza23: shows [Ks Ad] (a pair of Sixes)
+XEM420: shows [9h Qd] (two pair, Nines and Sixes)
+XEM420 collected 3487 from pot
+*** SUMMARY ***
+Total pot 3487 | Rake 0 
+Board [9d 4d 6h 6d 5h]
+Seat 1: XEM420 (button) showed [9h Qd] and won (3487) with two pair, Nines and Sixes
+Seat 5: scorza23 (small blind) showed [Ks Ad] and lost with a pair of Sixes
+Seat 6: rodriguessf (big blind) folded before Flop
+Seat 7: gale1000 folded before Flop (didn't bet)
+Seat 8: Louisloua folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359891463: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 18:49:07 BRT [2026/04/05 17:49:07 ET]
+Table '3989590908 3' 8-max Seat #5 is the button
+Seat 1: XEM420 (3487 in chips) 
+Seat 5: scorza23 (2455 in chips) 
+Seat 6: rodriguessf (3265 in chips) 
+Seat 7: gale1000 (11716 in chips) 
+Seat 8: Louisloua (6159 in chips) 
+XEM420: posts the ante 35
+scorza23: posts the ante 35
+rodriguessf: posts the ante 35
+gale1000: posts the ante 35
+Louisloua: posts the ante 35
+rodriguessf: posts small blind 150
+gale1000: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Tc]
+Louisloua: folds 
+XEM420: folds 
+scorza23: folds 
+rodriguessf: raises 2930 to 3230 and is all-in
+gale1000: folds 
+Uncalled bet (2930) returned to rodriguessf
+rodriguessf collected 775 from pot
+rodriguessf: doesn't show hand 
+*** SUMMARY ***
+Total pot 775 | Rake 0 
+Seat 1: XEM420 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: rodriguessf (small blind) collected (775)
+Seat 7: gale1000 (big blind) folded before Flop
+Seat 8: Louisloua folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260359895744: Tournament #3989590908, $1.80+$0.20 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 18:49:23 BRT [2026/04/05 17:49:23 ET]
+Table '3989590908 3' 8-max Seat #6 is the button
+Seat 1: XEM420 (3452 in chips) 
+Seat 5: scorza23 (2420 in chips) 
+Seat 6: rodriguessf (3705 in chips) 
+Seat 7: gale1000 (11381 in chips) 
+Seat 8: Louisloua (6124 in chips) 
+XEM420: posts the ante 35
+scorza23: posts the ante 35
+rodriguessf: posts the ante 35
+gale1000: posts the ante 35
+Louisloua: posts the ante 35
+gale1000: posts small blind 150
+Louisloua: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 9d]
+XEM420: folds 
+scorza23: raises 2085 to 2385 and is all-in
+rodriguessf: folds 
+gale1000: raises 3615 to 6000
+Louisloua: folds 
+Uncalled bet (3615) returned to gale1000
+*** FLOP *** [7h Ah Tc]
+*** TURN *** [7h Ah Tc] [3h]
+*** RIVER *** [7h Ah Tc 3h] [Jh]
+*** SHOW DOWN ***
+gale1000: shows [Qc Ac] (a pair of Aces)
+scorza23: shows [Td 9d] (a pair of Tens)
+gale1000 collected 5245 from pot
+scorza23 finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 5245 | Rake 0 
+Board [7h Ah Tc 3h Jh]
+Seat 1: XEM420 folded before Flop (didn't bet)
+Seat 5: scorza23 showed [Td 9d] and lost with a pair of Tens
+Seat 6: rodriguessf (button) folded before Flop (didn't bet)
+Seat 7: gale1000 (small blind) showed [Qc Ac] and won (5245) with a pair of Aces
+Seat 8: Louisloua (big blind) folded before Flop
+
+
+

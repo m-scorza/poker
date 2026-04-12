@@ -1,0 +1,142 @@
+﻿PokerStars Hand #259757727553: Tournament #3975837847,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:22:30 UTC [2026/02/16 19:22:30 ET]
+Table '3975837847 1' 4-max Seat #1 is the button
+Seat 1: devas3000 (941 in chips, $1.76 bounty) 
+Seat 2: jcjax001 (1177 in chips, $2.20 bounty) 
+Seat 3: scorza23 (941 in chips, $1.76 bounty) 
+Seat 4: VuckoX (941 in chips, $1.76 bounty) 
+jcjax001: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 8s]
+VuckoX: calls 50
+devas3000: folds 
+jcjax001: raises 50 to 100
+scorza23: folds 
+VuckoX: calls 50
+*** FLOP *** [Js Ac Kc]
+jcjax001: bets 100
+VuckoX: raises 741 to 841 and is all-in
+jcjax001: calls 741
+*** TURN *** [Js Ac Kc] [Jh]
+*** RIVER *** [Js Ac Kc Jh] [9h]
+*** SHOW DOWN ***
+jcjax001: shows [9d Jd] (a full house, Jacks full of Nines)
+VuckoX: shows [Qs 5s] (a pair of Jacks)
+jcjax001 collected 1932 from pot
+jcjax001 wins $0.88 for eliminating VuckoX and their own bounty increases by $0.88 to $3.08
+VuckoX finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1932 | Rake 0 
+Board [Js Ac Kc Jh 9h]
+Seat 1: devas3000 (button) folded before Flop (didn't bet)
+Seat 2: jcjax001 (small blind) showed [9d Jd] and won (1932) with a full house, Jacks full of Nines
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 4: VuckoX showed [Qs 5s] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #259757732747: Tournament #3975837847,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:22:59 UTC [2026/02/16 19:22:59 ET]
+Table '3975837847 1' 4-max Seat #2 is the button
+Seat 1: devas3000 (941 in chips, $1.76 bounty) 
+Seat 2: jcjax001 (2168 in chips, $3.08 bounty) 
+Seat 3: scorza23 (891 in chips, $1.76 bounty) 
+scorza23: posts small blind 25
+devas3000: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2d]
+jcjax001: raises 50 to 100
+scorza23: folds 
+devas3000: calls 50
+*** FLOP *** [Tc 7s 3c]
+devas3000: checks 
+jcjax001: checks 
+*** TURN *** [Tc 7s 3c] [8d]
+devas3000: bets 100
+jcjax001: raises 100 to 200
+devas3000: calls 100
+*** RIVER *** [Tc 7s 3c 8d] [6s]
+devas3000: checks 
+jcjax001: checks 
+*** SHOW DOWN ***
+devas3000: shows [7d Jd] (a pair of Sevens)
+jcjax001: shows [8s Qh] (a pair of Eights)
+jcjax001 collected 625 from pot
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Board [Tc 7s 3c 8d 6s]
+Seat 1: devas3000 (big blind) showed [7d Jd] and lost with a pair of Sevens
+Seat 2: jcjax001 (button) showed [8s Qh] and won (625) with a pair of Eights
+Seat 3: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757738222: Tournament #3975837847,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:23:30 UTC [2026/02/16 19:23:30 ET]
+Table '3975837847 1' 4-max Seat #3 is the button
+Seat 1: devas3000 (641 in chips, $1.76 bounty) 
+Seat 2: jcjax001 (2493 in chips, $3.08 bounty) 
+Seat 3: scorza23 (866 in chips, $1.76 bounty) 
+devas3000: posts small blind 25
+jcjax001: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 6c]
+scorza23: raises 125 to 175
+devas3000: calls 150
+jcjax001: calls 125
+*** FLOP *** [Ac 7h 8s]
+devas3000: checks 
+jcjax001: checks 
+scorza23: bets 525
+devas3000: calls 466 and is all-in
+jcjax001: folds 
+Uncalled bet (59) returned to scorza23
+*** TURN *** [Ac 7h 8s] [7c]
+*** RIVER *** [Ac 7h 8s 7c] [Jh]
+*** SHOW DOWN ***
+devas3000: shows [9s Ad] (two pair, Aces and Sevens)
+scorza23: shows [Kh 6c] (a pair of Sevens)
+devas3000 collected 1457 from pot
+*** SUMMARY ***
+Total pot 1457 | Rake 0 
+Board [Ac 7h 8s 7c Jh]
+Seat 1: devas3000 (small blind) showed [9s Ad] and won (1457) with two pair, Aces and Sevens
+Seat 2: jcjax001 (big blind) folded on the Flop
+Seat 3: scorza23 (button) showed [Kh 6c] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #259757742518: Tournament #3975837847,  Hold'em No Limit - Level I (25/50) - 2026/02/17 0:23:54 UTC [2026/02/16 19:23:54 ET]
+Table '3975837847 1' 4-max Seat #1 is the button
+Seat 1: devas3000 (1457 in chips, $1.76 bounty) 
+Seat 2: jcjax001 (2318 in chips, $3.08 bounty) 
+Seat 3: scorza23 (225 in chips, $1.76 bounty) 
+jcjax001: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 6d]
+devas3000: raises 100 to 150
+jcjax001: calls 125
+scorza23: raises 75 to 225 and is all-in
+devas3000: calls 75
+jcjax001: calls 75
+*** FLOP *** [8s Ah 9d]
+jcjax001: checks 
+devas3000: bets 338
+jcjax001: folds 
+Uncalled bet (338) returned to devas3000
+*** TURN *** [8s Ah 9d] [8c]
+*** RIVER *** [8s Ah 9d 8c] [9h]
+*** SHOW DOWN ***
+scorza23: shows [Kd 6d] (two pair, Nines and Eights)
+devas3000: shows [7d Ad] (two pair, Aces and Nines)
+devas3000 collected 675 from pot
+devas3000 wins $0.44 for eliminating scorza23 and their own bounty increases by $0.88 to $2.64
+scorza23 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 675 | Rake 0 
+Board [8s Ah 9d 8c 9h]
+Seat 1: devas3000 (button) showed [7d Ad] and won (675) with two pair, Aces and Nines
+Seat 2: jcjax001 (small blind) folded on the Flop
+Seat 3: scorza23 (big blind) showed [Kd 6d] and lost with two pair, Nines and Eights
+
+
+

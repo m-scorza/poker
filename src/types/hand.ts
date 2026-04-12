@@ -1,0 +1,61 @@
+import type { Position } from './analysis';
+
+/** A single parsed PokerStars hand. */
+export interface Hand {
+  id: string;
+  tournamentId: string;
+  date: Date;
+  level: number;
+  smallBlind: number;
+  bigBlind: number;
+  ante: number;
+  maxSeats: number;
+  activePlayers: number;
+  buttonSeat: number;
+  boardFlop: string[] | null;
+  boardTurn: string | null;
+  boardRiver: string | null;
+  totalPot: number;
+  rake: number;
+}
+
+/** One player's data within a single hand. */
+export interface PlayerInHand {
+  handId: string;
+  seatNumber: number;
+  playerName: string;
+  chipsBefore: number;
+  position: Position;
+  isHero: boolean;
+  holeCards: [string, string] | null;
+}
+
+/** A single action taken by a player on a given street. */
+export interface Action {
+  handId: string;
+  street: 'preflop' | 'flop' | 'turn' | 'river';
+  playerName: string;
+  actionType:
+    | 'fold'
+    | 'check'
+    | 'call'
+    | 'raise'
+    | 'bet'
+    | 'post_sb'
+    | 'post_bb'
+    | 'post_ante';
+  amount: number | null;
+  isAllIn: boolean;
+  sequence: number;
+}
+
+/** Aggregated tournament metadata. */
+export interface Tournament {
+  id: string;
+  buyIn: number;
+  fee: number;
+  format: string;
+  finishPosition: number | null;
+  prize: number | null;
+  handsPlayed: number;
+}

@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap');
+
+/*
+ * Premium Dark Poker HUD Theme.
+ * Focuses on deep blacks, sharp glassmorphism overlays, and neon accent highlights.
+ */
+
+@theme {
+  --color-bg: #050505; /* True OLED black */
+  --color-bg-card: rgba(18, 18, 20, 0.65); /* Glass backing */
+  --color-bg-sidebar: rgba(10, 10, 12, 0.8); /* Frosted sidebar */
+  --color-bg-hover: rgba(255, 255, 255, 0.05);
+  --color-bg-input: rgba(0, 0, 0, 0.4);
+  
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-border-active: rgba(255, 255, 255, 0.15);
+
+  --color-text: #f0f0f5;
+  --color-text-dim: #9494a5;
+  --color-text-muted: #606070;
+
+  --color-accent: #00e676; /* Vivid neon green */
+  --color-accent-dim: #00b35c;
+  --color-danger: #ff3366; /* Neon pink/red */
+  --color-danger-dim: #cc0033;
+  --color-warning: #ffb700;
+  --color-info: #007bff;
+
+  --color-suit-spade: #f0f0f5;
+  --color-suit-heart: #ff3366;
+  --color-suit-diamond: #4488ff;
+  --color-suit-club: #00e676;
+
+  --color-range-in: rgba(0, 230, 118, 0.15);
+  --color-range-out: rgba(255, 51, 102, 0.15);
+  --color-range-neutral: rgba(255, 255, 255, 0.03);
+
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+/* Global App Background Effects */
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Very subtle, dark gradient to make it feel alive without being noisy */
+  background: radial-gradient(circle at top left, var(--color-bg) 0%, #080808 100%);
+  overflow-x: hidden;
+}
+
+/* Glassmorphism primitives */
+.bg-\[var\(--color-bg-card\)\] {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.bg-\[var\(--color-bg-sidebar\)\] {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Monospace data display */
+.font-data {
+  font-family: var(--font-mono);
+  letter-spacing: -0.02em;
+}
+
+/* Micro-animations for buttons and links */
+button, a {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+button:active {
+  transform: scale(0.97);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-active);
+}

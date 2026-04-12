@@ -1,0 +1,887 @@
+﻿PokerStars Hand #260358725006: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level III (70/140) - 2026/04/05 17:34:17 BRT [2026/04/05 16:34:17 ET]
+Table '3989574426 21' 8-max Seat #4 is the button
+Seat 1: jonskin54321 (2948 in chips) 
+Seat 2: Fedor199191 (12906 in chips) 
+Seat 4: Goldorak2222 (6124 in chips) 
+Seat 5: leofor84 (4502 in chips) 
+Seat 6: G.Canesa (4958 in chips) 
+Seat 7: guinunes77 (5528 in chips) 
+Seat 8: scorza23 (5000 in chips) 
+jonskin54321: posts the ante 21
+Fedor199191: posts the ante 21
+Goldorak2222: posts the ante 21
+leofor84: posts the ante 21
+G.Canesa: posts the ante 21
+guinunes77: posts the ante 21
+scorza23: posts the ante 21
+leofor84: posts small blind 70
+G.Canesa: posts big blind 140
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Kh]
+guinunes77: folds 
+scorza23: folds 
+jonskin54321: raises 140 to 280
+Fedor199191: folds 
+Goldorak2222: calls 280
+leofor84: folds 
+G.Canesa: folds 
+*** FLOP *** [Ac 9h Kc]
+jonskin54321: bets 420
+Goldorak2222: raises 5403 to 5823 and is all-in
+jonskin54321: folds 
+Uncalled bet (5403) returned to Goldorak2222
+Goldorak2222 collected 1757 from pot
+Goldorak2222: doesn't show hand 
+*** SUMMARY ***
+Total pot 1757 | Rake 0 
+Board [Ac 9h Kc]
+Seat 1: jonskin54321 folded on the Flop
+Seat 2: Fedor199191 folded before Flop (didn't bet)
+Seat 4: Goldorak2222 (button) collected (1757)
+Seat 5: leofor84 (small blind) folded before Flop
+Seat 6: G.Canesa (big blind) folded before Flop
+Seat 7: guinunes77 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358736701: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IV (80/160) - 2026/04/05 17:35:00 BRT [2026/04/05 16:35:00 ET]
+Table '3989574426 21' 8-max Seat #5 is the button
+Seat 1: jonskin54321 (2227 in chips) 
+Seat 2: Fedor199191 (12885 in chips) 
+Seat 3: manojukka (5000 in chips) 
+Seat 4: Goldorak2222 (7160 in chips) 
+Seat 5: leofor84 (4411 in chips) 
+Seat 6: G.Canesa (4797 in chips) 
+Seat 7: guinunes77 (5507 in chips) 
+Seat 8: scorza23 (4979 in chips) 
+jonskin54321: posts the ante 24
+Fedor199191: posts the ante 24
+manojukka: posts the ante 24
+Goldorak2222: posts the ante 24
+leofor84: posts the ante 24
+G.Canesa: posts the ante 24
+guinunes77: posts the ante 24
+scorza23: posts the ante 24
+G.Canesa: posts small blind 80
+guinunes77: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Ks]
+scorza23: folds 
+jonskin54321: folds 
+Fedor199191: folds 
+manojukka: folds 
+Goldorak2222: calls 160
+leofor84: folds 
+G.Canesa: raises 320 to 480
+guinunes77: folds 
+Goldorak2222: folds 
+Uncalled bet (320) returned to G.Canesa
+G.Canesa collected 672 from pot
+*** SUMMARY ***
+Total pot 672 | Rake 0 
+Seat 1: jonskin54321 folded before Flop (didn't bet)
+Seat 2: Fedor199191 folded before Flop (didn't bet)
+Seat 3: manojukka folded before Flop (didn't bet)
+Seat 4: Goldorak2222 folded before Flop
+Seat 5: leofor84 (button) folded before Flop (didn't bet)
+Seat 6: G.Canesa (small blind) collected (672)
+Seat 7: guinunes77 (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358746600: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IV (80/160) - 2026/04/05 17:35:37 BRT [2026/04/05 16:35:37 ET]
+Table '3989574426 23' 8-max Seat #1 is the button
+Seat 1: completelyn (5830 in chips) 
+Seat 2: ProTC08 (5828 in chips) 
+Seat 3: mcfly_24_05 (6658 in chips) 
+Seat 4: scorza23 (4955 in chips) 
+Seat 7: lucka121 (5000 in chips) 
+completelyn: posts the ante 24
+ProTC08: posts the ante 24
+mcfly_24_05: posts the ante 24
+scorza23: posts the ante 24
+lucka121: posts the ante 24
+ProTC08: posts small blind 80
+mcfly_24_05: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Tc]
+scorza23 is connected 
+scorza23 is connected 
+scorza23: folds 
+kieselwicht is disconnected 
+lucka121: folds 
+completelyn: raises 480 to 640
+ProTC08: calls 560
+mcfly_24_05: folds 
+*** FLOP *** [Kd 8c 7s]
+ProTC08: checks 
+completelyn: bets 800
+ProTC08: folds 
+Uncalled bet (800) returned to completelyn
+completelyn collected 1560 from pot
+completelyn: doesn't show hand 
+*** SUMMARY ***
+Total pot 1560 | Rake 0 
+Board [Kd 8c 7s]
+Seat 1: completelyn (button) collected (1560)
+Seat 2: ProTC08 (small blind) folded on the Flop
+Seat 3: mcfly_24_05 (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 7: lucka121 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358759678: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IV (80/160) - 2026/04/05 17:36:25 BRT [2026/04/05 16:36:25 ET]
+Table '3989574426 23' 8-max Seat #2 is the button
+Seat 1: completelyn (6726 in chips) 
+Seat 2: ProTC08 (5164 in chips) 
+Seat 3: mcfly_24_05 (6474 in chips) 
+Seat 4: scorza23 (4931 in chips) 
+Seat 5: Mr.GoldenSon (3926 in chips) 
+Seat 6: kieselwicht (5000 in chips) 
+Seat 7: lucka121 (4976 in chips) 
+completelyn: posts the ante 24
+ProTC08: posts the ante 24
+mcfly_24_05: posts the ante 24
+scorza23: posts the ante 24
+Mr.GoldenSon: posts the ante 24
+kieselwicht: posts the ante 24
+lucka121: posts the ante 24
+mcfly_24_05: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Jd]
+Mr.GoldenSon: folds 
+kieselwicht: folds 
+lucka121: raises 160 to 320
+DeniskaWin is disconnected 
+completelyn: calls 320
+ProTC08: folds 
+mcfly_24_05: calls 240
+scorza23: calls 160
+*** FLOP *** [Kc 3h 7c]
+mcfly_24_05: checks 
+scorza23: checks 
+lucka121: checks 
+completelyn: bets 640
+mcfly_24_05: folds 
+scorza23: folds 
+lucka121: folds 
+Uncalled bet (640) returned to completelyn
+completelyn collected 1448 from pot
+completelyn: doesn't show hand 
+*** SUMMARY ***
+Total pot 1448 | Rake 0 
+Board [Kc 3h 7c]
+Seat 1: completelyn collected (1448)
+Seat 2: ProTC08 (button) folded before Flop (didn't bet)
+Seat 3: mcfly_24_05 (small blind) folded on the Flop
+Seat 4: scorza23 (big blind) folded on the Flop
+Seat 5: Mr.GoldenSon folded before Flop (didn't bet)
+Seat 6: kieselwicht folded before Flop (didn't bet)
+Seat 7: lucka121 folded on the Flop
+
+
+
+PokerStars Hand #260358774132: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IV (80/160) - 2026/04/05 17:37:18 BRT [2026/04/05 16:37:18 ET]
+Table '3989574426 23' 8-max Seat #3 is the button
+Seat 1: completelyn (7830 in chips) 
+Seat 2: ProTC08 (5140 in chips) 
+Seat 3: mcfly_24_05 (6130 in chips) 
+Seat 4: scorza23 (4587 in chips) 
+Seat 5: Mr.GoldenSon (3902 in chips) 
+Seat 6: kieselwicht (4976 in chips) 
+Seat 7: lucka121 (4632 in chips) 
+Seat 8: DeniskaWin (5000 in chips) 
+completelyn: posts the ante 24
+ProTC08: posts the ante 24
+mcfly_24_05: posts the ante 24
+scorza23: posts the ante 24
+Mr.GoldenSon: posts the ante 24
+kieselwicht: posts the ante 24
+lucka121: posts the ante 24
+DeniskaWin: posts the ante 24
+scorza23: posts small blind 80
+Mr.GoldenSon: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 7h]
+kieselwicht: folds 
+lucka121: raises 4448 to 4608 and is all-in
+DeniskaWin: raises 368 to 4976 and is all-in
+completelyn: folds 
+ProTC08: folds 
+mcfly_24_05: folds 
+scorza23: folds 
+Mr.GoldenSon: calls 3718 and is all-in
+Uncalled bet (368) returned to DeniskaWin
+*** FLOP *** [9h 7s Qc]
+*** TURN *** [9h 7s Qc] [5h]
+*** RIVER *** [9h 7s Qc 5h] [8s]
+*** SHOW DOWN ***
+lucka121: shows [8c 8h] (three of a kind, Eights)
+DeniskaWin: shows [6h 6d] (a straight, Five to Nine)
+DeniskaWin collected 1460 from side pot
+Mr.GoldenSon: shows [5s Ks] (a pair of Fives)
+DeniskaWin collected 11906 from main pot
+lucka121 finished the tournament
+Mr.GoldenSon finished the tournament
+*** SUMMARY ***
+Total pot 13366 Main pot 11906. Side pot 1460. | Rake 0 
+Board [9h 7s Qc 5h 8s]
+Seat 1: completelyn folded before Flop (didn't bet)
+Seat 2: ProTC08 folded before Flop (didn't bet)
+Seat 3: mcfly_24_05 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: Mr.GoldenSon (big blind) showed [5s Ks] and lost with a pair of Fives
+Seat 6: kieselwicht folded before Flop (didn't bet)
+Seat 7: lucka121 showed [8c 8h] and lost with three of a kind, Eights
+Seat 8: DeniskaWin showed [6h 6d] and won (13366) with a straight, Five to Nine
+
+
+
+PokerStars Hand #260358781898: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IV (80/160) - 2026/04/05 17:37:47 BRT [2026/04/05 16:37:47 ET]
+Table '3989574426 23' 8-max Seat #4 is the button
+Seat 1: completelyn (7806 in chips) 
+Seat 2: ProTC08 (5116 in chips) 
+Seat 3: mcfly_24_05 (6106 in chips) 
+Seat 4: scorza23 (4483 in chips) 
+Seat 6: kieselwicht (4952 in chips) 
+Seat 8: DeniskaWin (13734 in chips) 
+completelyn: posts the ante 24
+ProTC08: posts the ante 24
+mcfly_24_05: posts the ante 24
+scorza23: posts the ante 24
+kieselwicht: posts the ante 24
+DeniskaWin: posts the ante 24
+kieselwicht: posts small blind 80
+DeniskaWin: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 7d]
+pokergott69 is disconnected 
+completelyn: raises 320 to 480
+ProTC08: folds 
+mcfly_24_05: calls 480
+scorza23: folds 
+kieselwicht: folds 
+DeniskaWin: folds 
+*** FLOP *** [7h 5d 6d]
+completelyn: bets 480
+mcfly_24_05: calls 480
+*** TURN *** [7h 5d 6d] [Kc]
+completelyn: bets 640
+mcfly_24_05: calls 640
+*** RIVER *** [7h 5d 6d Kc] [Td]
+completelyn: checks 
+mcfly_24_05: checks 
+*** SHOW DOWN ***
+completelyn: shows [Ts Tc] (three of a kind, Tens)
+mcfly_24_05: mucks hand 
+completelyn collected 3584 from pot
+niinaK is disconnected 
+*** SUMMARY ***
+Total pot 3584 | Rake 0 
+Board [7h 5d 6d Kc Td]
+Seat 1: completelyn showed [Ts Tc] and won (3584) with three of a kind, Tens
+Seat 2: ProTC08 folded before Flop (didn't bet)
+Seat 3: mcfly_24_05 mucked [5s As]
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: kieselwicht (small blind) folded before Flop
+Seat 8: DeniskaWin (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358799648: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IV (80/160) - 2026/04/05 17:38:52 BRT [2026/04/05 16:38:52 ET]
+Table '3989574426 23' 8-max Seat #6 is the button
+Seat 1: completelyn (9766 in chips) 
+Seat 2: ProTC08 (5092 in chips) 
+Seat 3: mcfly_24_05 (4482 in chips) 
+Seat 4: scorza23 (4459 in chips) 
+Seat 5: pokergott69 (12466 in chips) 
+Seat 6: kieselwicht (4848 in chips) 
+Seat 7: niinaK (5000 in chips) out of hand (moved from another table into small blind)
+Seat 8: DeniskaWin (13550 in chips) 
+niinaK will be allowed to play after the button
+completelyn: posts the ante 24
+ProTC08: posts the ante 24
+mcfly_24_05: posts the ante 24
+scorza23: posts the ante 24
+pokergott69: posts the ante 24
+kieselwicht: posts the ante 24
+DeniskaWin: posts the ante 24
+DeniskaWin: posts small blind 80
+completelyn: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 4s]
+ProTC08: calls 160
+mcfly_24_05: folds 
+scorza23: folds 
+pokergott69: raises 728 to 888
+kieselwicht: calls 888
+DeniskaWin: calls 808
+completelyn: folds 
+ProTC08: calls 728
+*** FLOP *** [4d 2s Kc]
+DeniskaWin: checks 
+ProTC08: bets 480
+pokergott69: calls 480
+kieselwicht: raises 480 to 960
+DeniskaWin: raises 1600 to 2560
+ProTC08: folds 
+pokergott69: folds 
+kieselwicht: raises 1376 to 3936 and is all-in
+DeniskaWin: calls 1376
+*** TURN *** [4d 2s Kc] [6d]
+*** RIVER *** [4d 2s Kc 6d] [5c]
+*** SHOW DOWN ***
+DeniskaWin: shows [Qd Kd] (a pair of Kings)
+kieselwicht: shows [Ks Ac] (a pair of Kings - Ace kicker)
+kieselwicht collected 12712 from pot
+*** SUMMARY ***
+Total pot 12712 | Rake 0 
+Board [4d 2s Kc 6d 5c]
+Seat 1: completelyn (big blind) folded before Flop
+Seat 2: ProTC08 folded on the Flop
+Seat 3: mcfly_24_05 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pokergott69 folded on the Flop
+Seat 6: kieselwicht (button) showed [Ks Ac] and won (12712) with a pair of Kings
+Seat 8: DeniskaWin (small blind) showed [Qd Kd] and lost with a pair of Kings
+
+
+
+PokerStars Hand #260358821087: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level V (100/200) - 2026/04/05 17:40:12 BRT [2026/04/05 16:40:12 ET]
+Table '3989574426 23' 8-max Seat #8 is the button
+Seat 1: completelyn (9582 in chips) 
+Seat 3: mcfly_24_05 (4458 in chips) 
+Seat 4: scorza23 (4435 in chips) 
+Seat 5: pokergott69 (11074 in chips) 
+Seat 6: kieselwicht (12712 in chips) 
+Seat 7: niinaK (5000 in chips) 
+Seat 8: DeniskaWin (8702 in chips) 
+completelyn: posts the ante 30
+mcfly_24_05: posts the ante 30
+scorza23: posts the ante 30
+pokergott69: posts the ante 30
+kieselwicht: posts the ante 30
+niinaK: posts the ante 30
+DeniskaWin: posts the ante 30
+completelyn: posts small blind 100
+mcfly_24_05: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7h]
+scorza23: folds 
+pokergott69: calls 200
+kieselwicht: calls 200
+niinaK: folds 
+DeniskaWin: folds 
+completelyn: calls 100
+mcfly_24_05: checks 
+*** FLOP *** [2d Th Ts]
+completelyn: checks 
+mcfly_24_05: checks 
+pokergott69: checks 
+kieselwicht: bets 505
+completelyn: calls 505
+mcfly_24_05: folds 
+pokergott69: folds 
+*** TURN *** [2d Th Ts] [7c]
+completelyn: checks 
+kieselwicht: bets 1010
+completelyn: folds [8c]
+Uncalled bet (1010) returned to kieselwicht
+kieselwicht collected 2020 from pot
+kieselwicht: doesn't show hand 
+*** SUMMARY ***
+Total pot 2020 | Rake 0 
+Board [2d Th Ts 7c]
+Seat 1: completelyn (small blind) folded on the Turn
+Seat 3: mcfly_24_05 (big blind) folded on the Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pokergott69 folded on the Flop
+Seat 6: kieselwicht collected (2020)
+Seat 7: niinaK folded before Flop (didn't bet)
+Seat 8: DeniskaWin (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358843588: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level V (100/200) - 2026/04/05 17:41:35 BRT [2026/04/05 16:41:35 ET]
+Table '3989574426 23' 8-max Seat #1 is the button
+Seat 1: completelyn (8847 in chips) 
+Seat 2: scotianostra (5000 in chips) out of hand (moved from another table into small blind)
+Seat 3: mcfly_24_05 (4228 in chips) 
+Seat 4: scorza23 (4405 in chips) 
+Seat 5: pokergott69 (10844 in chips) 
+Seat 6: kieselwicht (13997 in chips) 
+Seat 7: niinaK (4970 in chips) 
+Seat 8: DeniskaWin (8672 in chips) 
+scotianostra will be allowed to play after the button
+completelyn: posts the ante 30
+mcfly_24_05: posts the ante 30
+scorza23: posts the ante 30
+pokergott69: posts the ante 30
+kieselwicht: posts the ante 30
+niinaK: posts the ante 30
+DeniskaWin: posts the ante 30
+mcfly_24_05: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3s]
+scotianostra is disconnected 
+pokergott69: raises 520 to 720
+kieselwicht: calls 720
+niinaK: calls 720
+DeniskaWin: folds 
+completelyn: folds 
+mcfly_24_05: folds 
+scorza23: folds 
+*** FLOP *** [Js 2d 4h]
+pokergott69: checks 
+kieselwicht: bets 1335
+niinaK: folds 
+pokergott69: calls 1335
+*** TURN *** [Js 2d 4h] [8h]
+pokergott69: checks 
+kieselwicht: bets 2670
+pokergott69: calls 2670
+*** RIVER *** [Js 2d 4h 8h] [8c]
+pokergott69: checks 
+kieselwicht: checks 
+*** SHOW DOWN ***
+pokergott69: shows [Ac 5c] (a pair of Eights)
+kieselwicht: shows [Jh 9h] (two pair, Jacks and Eights)
+kieselwicht collected 10680 from pot
+*** SUMMARY ***
+Total pot 10680 | Rake 0 
+Board [Js 2d 4h 8h 8c]
+Seat 1: completelyn (button) folded before Flop (didn't bet)
+Seat 3: mcfly_24_05 (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 5: pokergott69 showed [Ac 5c] and lost with a pair of Eights
+Seat 6: kieselwicht showed [Jh 9h] and won (10680) with two pair, Jacks and Eights
+Seat 7: niinaK folded on the Flop
+Seat 8: DeniskaWin folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358863584: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level V (100/200) - 2026/04/05 17:42:49 BRT [2026/04/05 16:42:49 ET]
+Table '3989574426 23' 8-max Seat #3 is the button
+Seat 1: completelyn (8817 in chips) 
+Seat 2: scotianostra (5000 in chips) 
+Seat 3: mcfly_24_05 (4098 in chips) 
+Seat 4: scorza23 (4175 in chips) 
+Seat 5: pokergott69 (6089 in chips) 
+Seat 6: kieselwicht (19922 in chips) 
+Seat 7: niinaK (4220 in chips) 
+Seat 8: DeniskaWin (8642 in chips) 
+completelyn: posts the ante 30
+scotianostra: posts the ante 30
+mcfly_24_05: posts the ante 30
+scorza23: posts the ante 30
+pokergott69: posts the ante 30
+kieselwicht: posts the ante 30
+niinaK: posts the ante 30
+DeniskaWin: posts the ante 30
+scorza23: posts small blind 100
+pokergott69: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 9h]
+kieselwicht: folds 
+niinaK: calls 200
+DeniskaWin: raises 400 to 600
+completelyn: calls 600
+scotianostra: folds 
+mcfly_24_05: folds 
+scorza23: folds 
+pokergott69: folds 
+niinaK: calls 400
+*** FLOP *** [As 9s Tc]
+niinaK: checks 
+DeniskaWin: bets 600
+completelyn: raises 600 to 1200
+niinaK: folds 
+DeniskaWin: calls 600
+*** TURN *** [As 9s Tc] [3h]
+DeniskaWin: checks 
+completelyn: bets 1600
+DeniskaWin: folds 
+Uncalled bet (1600) returned to completelyn
+completelyn collected 4740 from pot
+completelyn: doesn't show hand 
+*** SUMMARY ***
+Total pot 4740 | Rake 0 
+Board [As 9s Tc 3h]
+Seat 1: completelyn collected (4740)
+Seat 2: scotianostra folded before Flop (didn't bet)
+Seat 3: mcfly_24_05 (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 5: pokergott69 (big blind) folded before Flop
+Seat 6: kieselwicht folded before Flop (didn't bet)
+Seat 7: niinaK folded on the Flop
+Seat 8: DeniskaWin folded on the Turn
+
+
+
+PokerStars Hand #260358881989: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level V (100/200) - 2026/04/05 17:43:57 BRT [2026/04/05 16:43:57 ET]
+Table '3989574426 23' 8-max Seat #4 is the button
+Seat 1: completelyn (11727 in chips) 
+Seat 2: scotianostra (4970 in chips) 
+Seat 3: mcfly_24_05 (4068 in chips) 
+Seat 4: scorza23 (4045 in chips) 
+Seat 5: pokergott69 (5859 in chips) 
+Seat 6: kieselwicht (19892 in chips) 
+Seat 7: niinaK (3590 in chips) 
+Seat 8: DeniskaWin (6812 in chips) 
+completelyn: posts the ante 30
+scotianostra: posts the ante 30
+mcfly_24_05: posts the ante 30
+scorza23: posts the ante 30
+pokergott69: posts the ante 30
+kieselwicht: posts the ante 30
+niinaK: posts the ante 30
+DeniskaWin: posts the ante 30
+pokergott69: posts small blind 100
+kieselwicht: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 7s]
+niinaK: calls 200
+DeniskaWin: folds 
+completelyn: calls 200
+scotianostra: folds 
+mcfly_24_05: folds 
+scorza23: folds 
+pokergott69: calls 100
+kieselwicht: checks 
+*** FLOP *** [5s Th 8s]
+pokergott69: checks 
+kieselwicht: checks 
+niinaK: checks 
+completelyn: checks 
+*** TURN *** [5s Th 8s] [Kd]
+pokergott69: checks 
+kieselwicht: checks 
+niinaK: checks 
+completelyn: bets 800
+pokergott69: folds 
+kieselwicht: folds 
+niinaK: folds 
+Uncalled bet (800) returned to completelyn
+completelyn collected 1040 from pot
+completelyn: doesn't show hand 
+*** SUMMARY ***
+Total pot 1040 | Rake 0 
+Board [5s Th 8s Kd]
+Seat 1: completelyn collected (1040)
+Seat 2: scotianostra folded before Flop (didn't bet)
+Seat 3: mcfly_24_05 folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: pokergott69 (small blind) folded on the Turn
+Seat 6: kieselwicht (big blind) folded on the Turn
+Seat 7: niinaK folded on the Turn
+Seat 8: DeniskaWin folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260358899319: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/04/05 17:45:02 BRT [2026/04/05 16:45:02 ET]
+Table '3989574426 23' 8-max Seat #5 is the button
+Seat 1: completelyn (12537 in chips) 
+Seat 2: scotianostra (4940 in chips) 
+Seat 3: mcfly_24_05 (4038 in chips) 
+Seat 4: scorza23 (4015 in chips) 
+Seat 5: pokergott69 (5629 in chips) 
+Seat 6: kieselwicht (19662 in chips) 
+Seat 8: DeniskaWin (6782 in chips) 
+completelyn: posts the ante 38
+scotianostra: posts the ante 38
+mcfly_24_05: posts the ante 38
+scorza23: posts the ante 38
+pokergott69: posts the ante 38
+kieselwicht: posts the ante 38
+DeniskaWin: posts the ante 38
+kieselwicht: posts small blind 125
+DeniskaWin: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3c]
+completelyn: folds 
+scotianostra: raises 500 to 750
+mcfly_24_05: folds 
+scorza23: folds 
+pokergott69: folds 
+kieselwicht: folds 
+DeniskaWin: folds 
+Uncalled bet (500) returned to scotianostra
+scotianostra collected 891 from pot
+scotianostra: doesn't show hand 
+*** SUMMARY ***
+Total pot 891 | Rake 0 
+Seat 1: completelyn folded before Flop (didn't bet)
+Seat 2: scotianostra collected (891)
+Seat 3: mcfly_24_05 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pokergott69 (button) folded before Flop (didn't bet)
+Seat 6: kieselwicht (small blind) folded before Flop
+Seat 8: DeniskaWin (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358904638: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/04/05 17:45:21 BRT [2026/04/05 16:45:21 ET]
+Table '3989574426 23' 8-max Seat #6 is the button
+Seat 1: completelyn (12499 in chips) 
+Seat 2: scotianostra (5543 in chips) 
+Seat 3: mcfly_24_05 (4000 in chips) 
+Seat 4: scorza23 (3977 in chips) 
+Seat 5: pokergott69 (5591 in chips) 
+Seat 6: kieselwicht (19499 in chips) 
+Seat 8: DeniskaWin (6494 in chips) 
+completelyn: posts the ante 38
+scotianostra: posts the ante 38
+mcfly_24_05: posts the ante 38
+scorza23: posts the ante 38
+pokergott69: posts the ante 38
+kieselwicht: posts the ante 38
+DeniskaWin: posts the ante 38
+DeniskaWin: posts small blind 125
+completelyn: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [2s Js]
+scotianostra: folds 
+mcfly_24_05: folds 
+scorza23: folds 
+pokergott69: calls 250
+kieselwicht: calls 250
+DeniskaWin: calls 125
+completelyn: checks 
+*** FLOP *** [4s Qc 7s]
+DeniskaWin: checks 
+completelyn: checks 
+pokergott69: checks 
+Shizoe84 is disconnected 
+kieselwicht: bets 883
+DeniskaWin: folds 
+completelyn: calls 883
+pokergott69: folds 
+*** TURN *** [4s Qc 7s] [Ks]
+completelyn: checks 
+kieselwicht: checks 
+*** RIVER *** [4s Qc 7s Ks] [Td]
+completelyn: checks 
+kieselwicht: checks 
+*** SHOW DOWN ***
+completelyn: shows [Ac 9c] (high card Ace)
+kieselwicht: shows [Qs Jd] (a pair of Queens)
+kieselwicht collected 3032 from pot
+*** SUMMARY ***
+Total pot 3032 | Rake 0 
+Board [4s Qc 7s Ks Td]
+Seat 1: completelyn (big blind) showed [Ac 9c] and lost with high card Ace
+Seat 2: scotianostra folded before Flop (didn't bet)
+Seat 3: mcfly_24_05 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pokergott69 folded on the Flop
+Seat 6: kieselwicht (button) showed [Qs Jd] and won (3032) with a pair of Queens
+Seat 8: DeniskaWin (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260358928079: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/04/05 17:46:47 BRT [2026/04/05 16:46:47 ET]
+Table '3989574426 23' 8-max Seat #8 is the button
+Seat 1: completelyn (11328 in chips) 
+Seat 2: scotianostra (5505 in chips) 
+Seat 3: mcfly_24_05 (3962 in chips) 
+Seat 4: scorza23 (3939 in chips) 
+Seat 5: pokergott69 (5303 in chips) 
+Seat 6: kieselwicht (21360 in chips) 
+Seat 7: Shizoe84 (5000 in chips) 
+Seat 8: DeniskaWin (6206 in chips) 
+completelyn: posts the ante 38
+scotianostra: posts the ante 38
+mcfly_24_05: posts the ante 38
+scorza23: posts the ante 38
+pokergott69: posts the ante 38
+kieselwicht: posts the ante 38
+Shizoe84: posts the ante 38
+DeniskaWin: posts the ante 38
+completelyn: posts small blind 125
+scotianostra: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 7h]
+mcfly_24_05: folds 
+scorza23: folds 
+pokergott69: calls 250
+kieselwicht: folds 
+Shizoe84: folds 
+DeniskaWin: raises 500 to 750
+completelyn: folds 
+scotianostra: folds 
+pokergott69: calls 500
+*** FLOP *** [Ks Qc 8s]
+pokergott69: bets 250
+DeniskaWin: raises 1250 to 1500
+pokergott69: folds 
+Uncalled bet (1250) returned to DeniskaWin
+DeniskaWin collected 2679 from pot
+DeniskaWin: doesn't show hand 
+*** SUMMARY ***
+Total pot 2679 | Rake 0 
+Board [Ks Qc 8s]
+Seat 1: completelyn (small blind) folded before Flop
+Seat 2: scotianostra (big blind) folded before Flop
+Seat 3: mcfly_24_05 folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pokergott69 folded on the Flop
+Seat 6: kieselwicht folded before Flop (didn't bet)
+Seat 7: Shizoe84 folded before Flop (didn't bet)
+Seat 8: DeniskaWin (button) collected (2679)
+
+
+
+PokerStars Hand #260358939545: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/04/05 17:47:29 BRT [2026/04/05 16:47:29 ET]
+Table '3989574426 23' 8-max Seat #1 is the button
+Seat 1: completelyn (11165 in chips) 
+Seat 2: scotianostra (5217 in chips) 
+Seat 3: mcfly_24_05 (3924 in chips) 
+Seat 4: scorza23 (3901 in chips) 
+Seat 5: pokergott69 (4265 in chips) 
+Seat 6: kieselwicht (21322 in chips) 
+Seat 7: Shizoe84 (4962 in chips) 
+Seat 8: DeniskaWin (7847 in chips) 
+completelyn: posts the ante 38
+scotianostra: posts the ante 38
+mcfly_24_05: posts the ante 38
+scorza23: posts the ante 38
+pokergott69: posts the ante 38
+kieselwicht: posts the ante 38
+Shizoe84: posts the ante 38
+DeniskaWin: posts the ante 38
+scotianostra: posts small blind 125
+mcfly_24_05: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 8d]
+scorza23: folds 
+pokergott69: folds 
+kieselwicht: raises 250 to 500
+Shizoe84: folds 
+DeniskaWin: calls 500
+completelyn: calls 500
+scotianostra: folds 
+mcfly_24_05: calls 250
+*** FLOP *** [Jd 8h 4d]
+mcfly_24_05: checks 
+kieselwicht: bets 1215
+DeniskaWin: folds 
+completelyn: calls 1215
+mcfly_24_05: folds 
+*** TURN *** [Jd 8h 4d] [Ts]
+kieselwicht: bets 2430
+completelyn: calls 2430
+*** RIVER *** [Jd 8h 4d Ts] [5s]
+kieselwicht: bets 4860
+completelyn: folds [Kd 7d]
+Uncalled bet (4860) returned to kieselwicht
+kieselwicht collected 9719 from pot
+*** SUMMARY ***
+Total pot 9719 | Rake 0 
+Board [Jd 8h 4d Ts 5s]
+Seat 1: completelyn (button) folded on the River
+Seat 2: scotianostra (small blind) folded before Flop
+Seat 3: mcfly_24_05 (big blind) folded on the Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: pokergott69 folded before Flop (didn't bet)
+Seat 6: kieselwicht collected (9719)
+Seat 7: Shizoe84 folded before Flop (didn't bet)
+Seat 8: DeniskaWin folded on the Flop
+
+
+
+PokerStars Hand #260358970954: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/04/05 17:49:24 BRT [2026/04/05 16:49:24 ET]
+Table '3989574426 9' 8-max Seat #5 is the button
+Seat 1: KFullerK (21795 in chips) 
+Seat 2: r3v3rs3f3r3t (2015 in chips) 
+Seat 3: SOY PATO355 (9192 in chips) 
+Seat 4: bleissi (7627 in chips) 
+Seat 5: laerciolira (1902 in chips) 
+Seat 6: Virmol (2992 in chips) 
+Seat 7: scorza23 (3863 in chips) 
+KFullerK: posts the ante 38
+r3v3rs3f3r3t: posts the ante 38
+SOY PATO355: posts the ante 38
+bleissi: posts the ante 38
+laerciolira: posts the ante 38
+Virmol: posts the ante 38
+scorza23: posts the ante 38
+Virmol: posts small blind 125
+scorza23: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Qh]
+KFullerK: folds 
+r3v3rs3f3r3t: raises 1727 to 1977 and is all-in
+SOY PATO355: folds 
+bleissi: folds 
+laerciolira: folds 
+Virmol: folds 
+scorza23: folds 
+Uncalled bet (1727) returned to r3v3rs3f3r3t
+r3v3rs3f3r3t collected 891 from pot
+*** SUMMARY ***
+Total pot 891 | Rake 0 
+Seat 1: KFullerK folded before Flop (didn't bet)
+Seat 2: r3v3rs3f3r3t collected (891)
+Seat 3: SOY PATO355 folded before Flop (didn't bet)
+Seat 4: bleissi folded before Flop (didn't bet)
+Seat 5: laerciolira (button) folded before Flop (didn't bet)
+Seat 6: Virmol (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260358979181: Tournament #3989574426, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/04/05 17:49:55 BRT [2026/04/05 16:49:55 ET]
+Table '3989574426 9' 8-max Seat #6 is the button
+Seat 1: KFullerK (21757 in chips) 
+Seat 2: r3v3rs3f3r3t (2618 in chips) 
+Seat 3: SOY PATO355 (9154 in chips) 
+Seat 4: bleissi (7589 in chips) 
+Seat 5: laerciolira (1864 in chips) 
+Seat 6: Virmol (2829 in chips) 
+Seat 7: scorza23 (3575 in chips) 
+KFullerK: posts the ante 50
+r3v3rs3f3r3t: posts the ante 50
+SOY PATO355: posts the ante 50
+bleissi: posts the ante 50
+laerciolira: posts the ante 50
+Virmol: posts the ante 50
+scorza23: posts the ante 50
+scorza23: posts small blind 150
+KFullerK: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [5h As]
+r3v3rs3f3r3t: folds 
+SOY PATO355: calls 300
+bleissi: folds 
+laerciolira: folds 
+Virmol: folds 
+scorza23: raises 3225 to 3525 and is all-in
+KFullerK: raises 18182 to 21707 and is all-in
+SOY PATO355: folds 
+Uncalled bet (18182) returned to KFullerK
+*** FLOP *** [Kc Ts 9h]
+*** TURN *** [Kc Ts 9h] [6c]
+*** RIVER *** [Kc Ts 9h 6c] [9s]
+*** SHOW DOWN ***
+scorza23: shows [5h As] (a pair of Nines)
+KFullerK: shows [Kh Ks] (a full house, Kings full of Nines)
+KFullerK collected 7700 from pot
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 7700 | Rake 0 
+Board [Kc Ts 9h 6c 9s]
+Seat 1: KFullerK (big blind) showed [Kh Ks] and won (7700) with a full house, Kings full of Nines
+Seat 2: r3v3rs3f3r3t folded before Flop (didn't bet)
+Seat 3: SOY PATO355 folded before Flop
+Seat 4: bleissi folded before Flop (didn't bet)
+Seat 5: laerciolira folded before Flop (didn't bet)
+Seat 6: Virmol (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) showed [5h As] and lost with a pair of Nines
+
+
+

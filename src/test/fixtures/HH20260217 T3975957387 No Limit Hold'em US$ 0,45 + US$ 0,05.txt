@@ -1,0 +1,1303 @@
+﻿PokerStars Hand #259762440610: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:10:12 UTC [2026/02/17 9:10:12 ET]
+Table '3975957387 1' 8-max Seat #6 is the button
+Seat 1: MisteriosoPK (1834 in chips) 
+Seat 2: justus6468 (1494 in chips) 
+Seat 3: scorza23 (1500 in chips) 
+Seat 4: Hapi1602 (1672 in chips) 
+Seat 5: Hygormassa (1373 in chips) 
+Seat 6: RSAsh9 (1162 in chips) 
+Seat 7: geeza5 (1474 in chips) 
+Seat 8: AViagi (1491 in chips) 
+MisteriosoPK: posts the ante 3
+justus6468: posts the ante 3
+scorza23: posts the ante 3
+Hapi1602: posts the ante 3
+Hygormassa: posts the ante 3
+RSAsh9: posts the ante 3
+geeza5: posts the ante 3
+AViagi: posts the ante 3
+geeza5: posts small blind 10
+AViagi: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 3d]
+MisteriosoPK: folds 
+justus6468: folds 
+scorza23: folds 
+Hapi1602: folds 
+Hygormassa: raises 60 to 80
+RSAsh9: raises 280 to 360
+geeza5: folds 
+AViagi: folds 
+Hygormassa: calls 280
+*** FLOP *** [Td 6c 6s]
+Hygormassa: bets 1010 and is all-in
+RSAsh9: calls 799 and is all-in
+Uncalled bet (211) returned to Hygormassa
+*** TURN *** [Td 6c 6s] [2c]
+*** RIVER *** [Td 6c 6s 2c] [2s]
+*** SHOW DOWN ***
+Hygormassa: shows [As Jc] (two pair, Sixes and Deuces)
+RSAsh9: shows [Kc Kh] (two pair, Kings and Sixes)
+RSAsh9 collected 2372 from pot
+*** SUMMARY ***
+Total pot 2372 | Rake 0 
+Board [Td 6c 6s 2c 2s]
+Seat 1: MisteriosoPK folded before Flop (didn't bet)
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: Hapi1602 folded before Flop (didn't bet)
+Seat 5: Hygormassa showed [As Jc] and lost with two pair, Sixes and Deuces
+Seat 6: RSAsh9 (button) showed [Kc Kh] and won (2372) with two pair, Kings and Sixes
+Seat 7: geeza5 (small blind) folded before Flop
+Seat 8: AViagi (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762454706: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:11:52 UTC [2026/02/17 9:11:52 ET]
+Table '3975957387 4' 8-max Seat #7 is the button
+Seat 1: Grufty1963 (1727 in chips) 
+Seat 2: alex0096012 (357 in chips) 
+Seat 3: scorza23 (1497 in chips) 
+Seat 5: Ale495x (1500 in chips) 
+Seat 6: Kingyuno1 (1500 in chips) 
+Seat 7: bim-f15 (1464 in chips) 
+Seat 8: dmitriypom (1474 in chips) 
+Grufty1963: posts the ante 3
+alex0096012: posts the ante 3
+scorza23: posts the ante 3
+Ale495x: posts the ante 3
+Kingyuno1: posts the ante 3
+bim-f15: posts the ante 3
+dmitriypom: posts the ante 3
+dmitriypom: posts small blind 10
+Grufty1963: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Qs]
+alex0096012: folds 
+scorza23: raises 20 to 40
+Ale495x: raises 80 to 120
+Kingyuno1: folds 
+bim-f15: folds 
+dmitriypom: folds 
+Grufty1963: folds 
+scorza23: calls 80
+*** FLOP *** [Jh 5d 2c]
+scorza23: bets 291
+Ale495x: calls 291
+*** TURN *** [Jh 5d 2c] [4d]
+scorza23: bets 437
+Ale495x: calls 437
+*** RIVER *** [Jh 5d 2c 4d] [3s]
+scorza23: checks 
+Ale495x: bets 649 and is all-in
+scorza23: calls 646 and is all-in
+Uncalled bet (3) returned to Ale495x
+*** SHOW DOWN ***
+Ale495x: shows [4s Ks] (a pair of Fours)
+scorza23: shows [Jd Qs] (a pair of Jacks)
+scorza23 collected 3039 from pot
+*** SUMMARY ***
+Total pot 3039 | Rake 0 
+Board [Jh 5d 2c 4d 3s]
+Seat 1: Grufty1963 (big blind) folded before Flop
+Seat 2: alex0096012 folded before Flop (didn't bet)
+Seat 3: scorza23 showed [Jd Qs] and won (3039) with a pair of Jacks
+Seat 5: Ale495x showed [4s Ks] and lost with a pair of Fours
+Seat 6: Kingyuno1 folded before Flop (didn't bet)
+Seat 7: bim-f15 (button) folded before Flop (didn't bet)
+Seat 8: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762467285: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:13:22 UTC [2026/02/17 9:13:22 ET]
+Table '3975957387 4' 8-max Seat #8 is the button
+Seat 1: Grufty1963 (1704 in chips) 
+Seat 2: alex0096012 (354 in chips) 
+Seat 3: scorza23 (3039 in chips) 
+Seat 4: okawa44 (1500 in chips) 
+Seat 5: Ale495x (3 in chips) 
+Seat 6: Kingyuno1 (1497 in chips) 
+Seat 7: bim-f15 (1461 in chips) 
+Seat 8: dmitriypom (1461 in chips) 
+Grufty1963: posts the ante 4
+alex0096012: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Ale495x: posts the ante 3 and is all-in
+Kingyuno1: posts the ante 4
+bim-f15: posts the ante 4
+dmitriypom: posts the ante 4
+Grufty1963: posts small blind 15
+alex0096012: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5s]
+scorza23: folds 
+okawa44: folds 
+Kingyuno1: raises 30 to 60
+bim-f15: folds 
+dmitriypom: folds 
+Grufty1963: folds 
+alex0096012: calls 30
+*** FLOP *** [4d 8h 9c]
+alex0096012: bets 30
+Kingyuno1: raises 120 to 150
+alex0096012: raises 140 to 290 and is all-in
+Kingyuno1: calls 140
+*** TURN *** [4d 8h 9c] [Jh]
+*** RIVER *** [4d 8h 9c Jh] [Qs]
+*** SHOW DOWN ***
+alex0096012: shows [Ah Kh] (high card Ace)
+Kingyuno1: shows [2h 9d] (a pair of Nines)
+Kingyuno1 collected 722 from side pot
+Ale495x: shows [Ks Qc] (a pair of Queens)
+Ale495x collected 24 from main pot
+alex0096012 finished the tournament in 31st place
+*** SUMMARY ***
+Total pot 746 Main pot 24. Side pot 722. | Rake 0 
+Board [4d 8h 9c Jh Qs]
+Seat 1: Grufty1963 (small blind) folded before Flop
+Seat 2: alex0096012 (big blind) showed [Ah Kh] and lost with high card Ace
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: okawa44 folded before Flop (didn't bet)
+Seat 5: Ale495x showed [Ks Qc] and won (24) with a pair of Queens
+Seat 6: Kingyuno1 showed [2h 9d] and won (722) with a pair of Nines
+Seat 7: bim-f15 folded before Flop (didn't bet)
+Seat 8: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762472447: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:13:59 UTC [2026/02/17 9:13:59 ET]
+Table '3975957387 4' 8-max Seat #1 is the button
+Seat 1: Grufty1963 (1685 in chips) 
+Seat 3: scorza23 (3035 in chips) 
+Seat 4: okawa44 (1496 in chips) 
+Seat 5: Ale495x (24 in chips) 
+Seat 6: Kingyuno1 (1865 in chips) 
+Seat 7: bim-f15 (1457 in chips) 
+Seat 8: dmitriypom (1457 in chips) 
+Grufty1963: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Ale495x: posts the ante 4
+Kingyuno1: posts the ante 4
+bim-f15: posts the ante 4
+dmitriypom: posts the ante 4
+scorza23: posts small blind 15
+okawa44: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Td]
+Ale495x: calls 20 and is all-in
+Kingyuno1: calls 30
+bim-f15: raises 153 to 183
+dmitriypom: raises 1270 to 1453 and is all-in
+Grufty1963: folds 
+scorza23: folds 
+okawa44: folds 
+Kingyuno1: folds 
+bim-f15: calls 1270 and is all-in
+*** FLOP *** [6d 5d 2c]
+*** TURN *** [6d 5d 2c] [4d]
+*** RIVER *** [6d 5d 2c 4d] [Jc]
+*** SHOW DOWN ***
+bim-f15: shows [Th Ts] (a pair of Tens)
+dmitriypom: shows [Kd Ad] (a flush, Ace high)
+dmitriypom collected 2886 from side pot
+Ale495x: shows [As Ac] (a pair of Aces)
+dmitriypom collected 143 from main pot
+bim-f15 finished the tournament in 29th place
+Ale495x finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 3029 Main pot 143. Side pot 2886. | Rake 0 
+Board [6d 5d 2c 4d Jc]
+Seat 1: Grufty1963 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: okawa44 (big blind) folded before Flop
+Seat 5: Ale495x showed [As Ac] and lost with a pair of Aces
+Seat 6: Kingyuno1 folded before Flop
+Seat 7: bim-f15 showed [Th Ts] and lost with a pair of Tens
+Seat 8: dmitriypom showed [Kd Ad] and won (3029) with a flush, Ace high
+
+
+
+PokerStars Hand #259762480180: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:14:53 UTC [2026/02/17 9:14:53 ET]
+Table '3975957387 4' 8-max Seat #3 is the button
+Seat 1: Grufty1963 (1681 in chips) 
+Seat 3: scorza23 (3016 in chips) 
+Seat 4: okawa44 (1462 in chips) 
+Seat 6: Kingyuno1 (1831 in chips) 
+Seat 8: dmitriypom (3029 in chips) 
+Grufty1963: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Kingyuno1: posts the ante 4
+dmitriypom: posts the ante 4
+okawa44: posts small blind 15
+Kingyuno1: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 3s]
+dmitriypom: folds 
+Grufty1963: folds 
+justus6468 is disconnected 
+scorza23: folds 
+okawa44: folds 
+Uncalled bet (15) returned to Kingyuno1
+Kingyuno1 collected 50 from pot
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: Grufty1963 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: okawa44 (small blind) folded before Flop
+Seat 6: Kingyuno1 (big blind) collected (50)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762483691: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:15:18 UTC [2026/02/17 9:15:18 ET]
+Table '3975957387 4' 8-max Seat #4 is the button
+Seat 1: Grufty1963 (1677 in chips) 
+Seat 2: justus6468 (1783 in chips) 
+Seat 3: scorza23 (3012 in chips) 
+Seat 4: okawa44 (1443 in chips) 
+Seat 6: Kingyuno1 (1862 in chips) 
+Seat 8: dmitriypom (3025 in chips) 
+Grufty1963: posts the ante 4
+justus6468: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Kingyuno1: posts the ante 4
+dmitriypom: posts the ante 4
+Kingyuno1: posts small blind 15
+dmitriypom: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 5d]
+Grufty1963: raises 60 to 90
+justus6468: folds 
+scorza23: folds 
+CHRISTOFARNO is disconnected 
+okawa44: folds 
+Kingyuno1: folds 
+dmitriypom: folds 
+Uncalled bet (60) returned to Grufty1963
+Grufty1963 collected 99 from pot
+Grufty1963: doesn't show hand 
+*** SUMMARY ***
+Total pot 99 | Rake 0 
+Seat 1: Grufty1963 collected (99)
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: okawa44 (button) folded before Flop (didn't bet)
+Seat 6: Kingyuno1 (small blind) folded before Flop
+Seat 8: dmitriypom (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762487480: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:15:44 UTC [2026/02/17 9:15:44 ET]
+Table '3975957387 4' 8-max Seat #6 is the button
+Seat 1: Grufty1963 (1742 in chips) 
+Seat 2: justus6468 (1779 in chips) 
+Seat 3: scorza23 (3008 in chips) 
+Seat 4: okawa44 (1439 in chips) 
+Seat 6: Kingyuno1 (1843 in chips) 
+Seat 7: CHRISTOFARNO (1404 in chips) out of hand (moved from another table into small blind)
+Seat 8: dmitriypom (2991 in chips) 
+CHRISTOFARNO will be allowed to play after the button
+Grufty1963: posts the ante 4
+justus6468: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Kingyuno1: posts the ante 4
+dmitriypom: posts the ante 4
+dmitriypom: posts small blind 15
+Grufty1963: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c As]
+justus6468: folds 
+scorza23: folds 
+okawa44: folds 
+Kingyuno1: calls 30
+dmitriypom: calls 15
+Grufty1963: checks 
+*** FLOP *** [Js Jc 2s]
+dmitriypom: checks 
+Grufty1963: checks 
+Kingyuno1: bets 120
+dmitriypom: folds 
+Grufty1963: folds 
+Uncalled bet (120) returned to Kingyuno1
+Kingyuno1 collected 114 from pot
+*** SUMMARY ***
+Total pot 114 | Rake 0 
+Board [Js Jc 2s]
+Seat 1: Grufty1963 (big blind) folded on the Flop
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: okawa44 folded before Flop (didn't bet)
+Seat 6: Kingyuno1 (button) collected (114)
+Seat 8: dmitriypom (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259762492946: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:16:23 UTC [2026/02/17 9:16:23 ET]
+Table '3975957387 4' 8-max Seat #8 is the button
+Seat 1: Grufty1963 (1708 in chips) 
+Seat 2: justus6468 (1775 in chips) 
+Seat 3: scorza23 (3004 in chips) 
+Seat 4: okawa44 (1435 in chips) 
+Seat 6: Kingyuno1 (1923 in chips) 
+Seat 7: CHRISTOFARNO (1404 in chips) 
+Seat 8: dmitriypom (2957 in chips) 
+Grufty1963: posts the ante 4
+justus6468: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Kingyuno1: posts the ante 4
+CHRISTOFARNO: posts the ante 4
+dmitriypom: posts the ante 4
+Grufty1963: posts small blind 15
+justus6468: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9s]
+scorza23: folds 
+okawa44: folds 
+Kingyuno1: raises 90 to 120
+CHRISTOFARNO: raises 1280 to 1400 and is all-in
+dmitriypom: folds 
+Grufty1963: folds 
+justus6468: folds 
+Kingyuno1: folds 
+Uncalled bet (1280) returned to CHRISTOFARNO
+CHRISTOFARNO collected 313 from pot
+CHRISTOFARNO: doesn't show hand 
+*** SUMMARY ***
+Total pot 313 | Rake 0 
+Seat 1: Grufty1963 (small blind) folded before Flop
+Seat 2: justus6468 (big blind) folded before Flop
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: okawa44 folded before Flop (didn't bet)
+Seat 6: Kingyuno1 folded before Flop
+Seat 7: CHRISTOFARNO collected (313)
+Seat 8: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762495850: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:16:43 UTC [2026/02/17 9:16:43 ET]
+Table '3975957387 4' 8-max Seat #1 is the button
+Seat 1: Grufty1963 (1689 in chips) 
+Seat 2: justus6468 (1741 in chips) 
+Seat 3: scorza23 (3000 in chips) 
+Seat 4: okawa44 (1431 in chips) 
+Seat 6: Kingyuno1 (1799 in chips) 
+Seat 7: CHRISTOFARNO (1593 in chips) 
+Seat 8: dmitriypom (2953 in chips) 
+Grufty1963: posts the ante 4
+justus6468: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Kingyuno1: posts the ante 4
+CHRISTOFARNO: posts the ante 4
+dmitriypom: posts the ante 4
+justus6468: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 2c]
+okawa44: folds 
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+Grufty1963: folds 
+justus6468: calls 15
+scorza23: checks 
+*** FLOP *** [2d Qd 7c]
+justus6468: checks 
+scorza23: checks 
+*** TURN *** [2d Qd 7c] [Th]
+justus6468: checks 
+scorza23: checks 
+*** RIVER *** [2d Qd 7c Th] [9d]
+justus6468: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+justus6468: shows [5h Ac] (high card Ace)
+scorza23: shows [8d 2c] (a pair of Deuces)
+scorza23 collected 88 from pot
+*** SUMMARY ***
+Total pot 88 | Rake 0 
+Board [2d Qd 7c Th 9d]
+Seat 1: Grufty1963 (button) folded before Flop (didn't bet)
+Seat 2: justus6468 (small blind) showed [5h Ac] and lost with high card Ace
+Seat 3: scorza23 (big blind) showed [8d 2c] and won (88) with a pair of Deuces
+Seat 4: okawa44 folded before Flop (didn't bet)
+Seat 6: Kingyuno1 folded before Flop (didn't bet)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762500119: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:17:14 UTC [2026/02/17 9:17:14 ET]
+Table '3975957387 4' 8-max Seat #2 is the button
+Seat 1: Grufty1963 (1685 in chips) 
+Seat 2: justus6468 (1707 in chips) 
+Seat 3: scorza23 (3054 in chips) 
+Seat 4: okawa44 (1427 in chips) 
+Seat 6: Kingyuno1 (1795 in chips) 
+Seat 7: CHRISTOFARNO (1589 in chips) 
+Seat 8: dmitriypom (2949 in chips) 
+Grufty1963: posts the ante 4
+justus6468: posts the ante 4
+scorza23: posts the ante 4
+okawa44: posts the ante 4
+Kingyuno1: posts the ante 4
+CHRISTOFARNO: posts the ante 4
+dmitriypom: posts the ante 4
+scorza23: posts small blind 15
+okawa44: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 6c]
+Kingyuno1: calls 30
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+Grufty1963: raises 30 to 60
+justus6468: folds 
+scorza23: folds 
+okawa44: folds 
+Kingyuno1: calls 30
+*** FLOP *** [2h Kh 2s]
+Kingyuno1: bets 120
+Grufty1963: raises 300 to 420
+Kingyuno1: calls 300
+*** TURN *** [2h Kh 2s] [6h]
+Kingyuno1: bets 1311 and is all-in
+Grufty1963: calls 1201 and is all-in
+Uncalled bet (110) returned to Kingyuno1
+*** RIVER *** [2h Kh 2s 6h] [7d]
+*** SHOW DOWN ***
+Kingyuno1: shows [3c As] (a pair of Deuces)
+Grufty1963: shows [Ts Jh] (a pair of Deuces - lower kicker)
+Kingyuno1 collected 3435 from pot
+Grufty1963 finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 3435 | Rake 0 
+Board [2h Kh 2s 6h 7d]
+Seat 1: Grufty1963 showed [Ts Jh] and lost with a pair of Deuces
+Seat 2: justus6468 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 4: okawa44 (big blind) folded before Flop
+Seat 6: Kingyuno1 showed [3c As] and won (3435) with a pair of Deuces
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762507934: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:18:10 UTC [2026/02/17 9:18:10 ET]
+Table '3975957387 4' 8-max Seat #3 is the button
+Seat 2: justus6468 (1703 in chips) 
+Seat 3: scorza23 (3035 in chips) 
+Seat 4: okawa44 (1393 in chips) 
+Seat 6: Kingyuno1 (3545 in chips) 
+Seat 7: CHRISTOFARNO (1585 in chips) 
+Seat 8: dmitriypom (2945 in chips) 
+justus6468: posts the ante 6
+scorza23: posts the ante 6
+okawa44: posts the ante 6
+Kingyuno1: posts the ante 6
+CHRISTOFARNO: posts the ante 6
+dmitriypom: posts the ante 6
+okawa44: posts small blind 25
+Kingyuno1: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 8c]
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+justus6468: folds 
+scorza23: folds 
+okawa44: folds 
+Uncalled bet (25) returned to Kingyuno1
+Kingyuno1 collected 86 from pot
+*** SUMMARY ***
+Total pot 86 | Rake 0 
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 4: okawa44 (small blind) folded before Flop
+Seat 6: Kingyuno1 (big blind) collected (86)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762509668: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:18:23 UTC [2026/02/17 9:18:23 ET]
+Table '3975957387 4' 8-max Seat #4 is the button
+Seat 2: justus6468 (1697 in chips) 
+Seat 3: scorza23 (3029 in chips) 
+Seat 4: okawa44 (1362 in chips) 
+Seat 6: Kingyuno1 (3600 in chips) 
+Seat 7: CHRISTOFARNO (1579 in chips) 
+Seat 8: dmitriypom (2939 in chips) 
+justus6468: posts the ante 6
+scorza23: posts the ante 6
+okawa44: posts the ante 6
+Kingyuno1: posts the ante 6
+CHRISTOFARNO: posts the ante 6
+dmitriypom: posts the ante 6
+Kingyuno1: posts small blind 25
+CHRISTOFARNO: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Jh]
+dmitriypom: folds 
+justus6468: folds 
+scorza23: folds 
+okawa44: folds 
+Kingyuno1: calls 25
+CHRISTOFARNO: checks 
+*** FLOP *** [Jd Kd 4h]
+Kingyuno1: bets 200
+CHRISTOFARNO: folds 
+Uncalled bet (200) returned to Kingyuno1
+Kingyuno1 collected 136 from pot
+*** SUMMARY ***
+Total pot 136 | Rake 0 
+Board [Jd Kd 4h]
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: okawa44 (button) folded before Flop (didn't bet)
+Seat 6: Kingyuno1 (small blind) collected (136)
+Seat 7: CHRISTOFARNO (big blind) folded on the Flop
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762515231: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:19:02 UTC [2026/02/17 9:19:02 ET]
+Table '3975957387 4' 8-max Seat #6 is the button
+Seat 2: justus6468 (1691 in chips) 
+Seat 3: scorza23 (3023 in chips) 
+Seat 4: okawa44 (1356 in chips) 
+Seat 6: Kingyuno1 (3680 in chips) 
+Seat 7: CHRISTOFARNO (1523 in chips) 
+Seat 8: dmitriypom (2933 in chips) 
+justus6468: posts the ante 6
+scorza23: posts the ante 6
+okawa44: posts the ante 6
+Kingyuno1: posts the ante 6
+CHRISTOFARNO: posts the ante 6
+dmitriypom: posts the ante 6
+CHRISTOFARNO: posts small blind 25
+dmitriypom: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 9c]
+justus6468: folds 
+scorza23: folds 
+okawa44: folds 
+11mn1886 is disconnected 
+Kingyuno1: raises 200 to 250
+CHRISTOFARNO: raises 1267 to 1517 and is all-in
+dmitriypom: folds 
+Kingyuno1: folds 
+Uncalled bet (1267) returned to CHRISTOFARNO
+CHRISTOFARNO collected 586 from pot
+CHRISTOFARNO: doesn't show hand 
+*** SUMMARY ***
+Total pot 586 | Rake 0 
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: okawa44 folded before Flop (didn't bet)
+Seat 6: Kingyuno1 (button) folded before Flop
+Seat 7: CHRISTOFARNO (small blind) collected (586)
+Seat 8: dmitriypom (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762520492: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:19:39 UTC [2026/02/17 9:19:39 ET]
+Table '3975957387 4' 8-max Seat #7 is the button
+Seat 1: B4h4m4$ (3884 in chips) 
+Seat 2: justus6468 (1685 in chips) 
+Seat 3: scorza23 (3017 in chips) 
+Seat 4: okawa44 (1350 in chips) 
+Seat 5: 11mn1886 (2593 in chips) 
+Seat 6: Kingyuno1 (3424 in chips) 
+Seat 7: CHRISTOFARNO (1853 in chips) 
+Seat 8: dmitriypom (2877 in chips) 
+B4h4m4$: posts the ante 6
+justus6468: posts the ante 6
+scorza23: posts the ante 6
+okawa44: posts the ante 6
+11mn1886: posts the ante 6
+Kingyuno1: posts the ante 6
+CHRISTOFARNO: posts the ante 6
+dmitriypom: posts the ante 6
+dmitriypom: posts small blind 25
+B4h4m4$: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 6h]
+justus6468: folds 
+scorza23: folds 
+okawa44: folds 
+11mn1886: folds 
+Kingyuno1: calls 50
+CHRISTOFARNO: folds 
+dmitriypom: raises 200 to 250
+B4h4m4$: folds 
+Kingyuno1: calls 200
+*** FLOP *** [8s 9s 3s]
+dmitriypom: checks 
+Kingyuno1: bets 3168 and is all-in
+dmitriypom: folds 
+Uncalled bet (3168) returned to Kingyuno1
+Kingyuno1 collected 598 from pot
+*** SUMMARY ***
+Total pot 598 | Rake 0 
+Board [8s 9s 3s]
+Seat 1: B4h4m4$ (big blind) folded before Flop
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 4: okawa44 folded before Flop (didn't bet)
+Seat 5: 11mn1886 folded before Flop (didn't bet)
+Seat 6: Kingyuno1 collected (598)
+Seat 7: CHRISTOFARNO (button) folded before Flop (didn't bet)
+Seat 8: dmitriypom (small blind) folded on the Flop
+
+
+
+PokerStars Hand #259762527027: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:20:25 UTC [2026/02/17 9:20:25 ET]
+Table '3975957387 4' 8-max Seat #8 is the button
+Seat 1: B4h4m4$ (3828 in chips) 
+Seat 2: justus6468 (1679 in chips) 
+Seat 3: scorza23 (3011 in chips) 
+Seat 4: okawa44 (1344 in chips) 
+Seat 5: 11mn1886 (2587 in chips) 
+Seat 6: Kingyuno1 (3766 in chips) 
+Seat 7: CHRISTOFARNO (1847 in chips) 
+Seat 8: dmitriypom (2621 in chips) 
+B4h4m4$: posts the ante 6
+justus6468: posts the ante 6
+scorza23: posts the ante 6
+okawa44: posts the ante 6
+11mn1886: posts the ante 6
+Kingyuno1: posts the ante 6
+CHRISTOFARNO: posts the ante 6
+dmitriypom: posts the ante 6
+B4h4m4$: posts small blind 25
+justus6468: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 9c]
+scorza23: raises 100 to 150
+okawa44: folds 
+11mn1886: folds 
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+B4h4m4$: folds 
+justus6468: calls 100
+*** FLOP *** [2d Qd 7c]
+justus6468: checks 
+scorza23: checks 
+*** TURN *** [2d Qd 7c] [Th]
+justus6468: checks 
+scorza23: bets 187
+justus6468: calls 187
+*** RIVER *** [2d Qd 7c Th] [6c]
+justus6468: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+justus6468: shows [Jc Tc] (a pair of Tens)
+scorza23: mucks hand 
+justus6468 collected 747 from pot
+*** SUMMARY ***
+Total pot 747 | Rake 0 
+Board [2d Qd 7c Th 6c]
+Seat 1: B4h4m4$ (small blind) folded before Flop
+Seat 2: justus6468 (big blind) showed [Jc Tc] and won (747) with a pair of Tens
+Seat 3: scorza23 mucked [9d 9c]
+Seat 4: okawa44 folded before Flop (didn't bet)
+Seat 5: 11mn1886 folded before Flop (didn't bet)
+Seat 6: Kingyuno1 folded before Flop (didn't bet)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762533265: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:21:09 UTC [2026/02/17 9:21:09 ET]
+Table '3975957387 4' 8-max Seat #1 is the button
+Seat 1: B4h4m4$ (3797 in chips) 
+Seat 2: justus6468 (2083 in chips) 
+Seat 3: scorza23 (2668 in chips) 
+Seat 5: 11mn1886 (2581 in chips) 
+Seat 6: Kingyuno1 (3760 in chips) 
+Seat 7: CHRISTOFARNO (1841 in chips) 
+Seat 8: dmitriypom (2615 in chips) 
+B4h4m4$: posts the ante 6
+justus6468: posts the ante 6
+scorza23: posts the ante 6
+11mn1886: posts the ante 6
+Kingyuno1: posts the ante 6
+CHRISTOFARNO: posts the ante 6
+dmitriypom: posts the ante 6
+justus6468: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 9d]
+11mn1886: raises 50 to 100
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+B4h4m4$: calls 100
+justus6468: folds 
+scorza23: folds 
+*** FLOP *** [5d 9c 5s]
+11mn1886: bets 111
+B4h4m4$: calls 111
+*** TURN *** [5d 9c 5s] [5c]
+11mn1886: bets 377
+B4h4m4$: raises 3203 to 3580 and is all-in
+11mn1886: calls 1987 and is all-in
+Uncalled bet (1216) returned to B4h4m4$
+*** RIVER *** [5d 9c 5s 5c] [6h]
+*** SHOW DOWN ***
+11mn1886: shows [As Ah] (a full house, Fives full of Aces)
+B4h4m4$: shows [Ad 8d] (three of a kind, Fives)
+11mn1886 collected 5267 from pot
+*** SUMMARY ***
+Total pot 5267 | Rake 0 
+Board [5d 9c 5s 5c 6h]
+Seat 1: B4h4m4$ (button) showed [Ad 8d] and lost with three of a kind, Fives
+Seat 2: justus6468 (small blind) folded before Flop
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 5: 11mn1886 showed [As Ah] and won (5267) with a full house, Fives full of Aces
+Seat 6: Kingyuno1 folded before Flop (didn't bet)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762541541: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:22:07 UTC [2026/02/17 9:22:07 ET]
+Table '3975957387 4' 8-max Seat #2 is the button
+Seat 1: B4h4m4$ (1216 in chips) 
+Seat 2: justus6468 (2052 in chips) 
+Seat 3: scorza23 (2612 in chips) 
+Seat 5: 11mn1886 (5267 in chips) 
+Seat 6: Kingyuno1 (3754 in chips) 
+Seat 7: CHRISTOFARNO (1835 in chips) 
+Seat 8: dmitriypom (2609 in chips) 
+B4h4m4$: posts the ante 6
+justus6468: posts the ante 6
+scorza23: posts the ante 6
+11mn1886: posts the ante 6
+Kingyuno1: posts the ante 6
+CHRISTOFARNO: posts the ante 6
+dmitriypom: posts the ante 6
+scorza23: posts small blind 25
+11mn1886: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 5s]
+Kingyuno1: calls 50
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+B4h4m4$: folds 
+justus6468: folds 
+scorza23: folds 
+11mn1886: checks 
+*** FLOP *** [5d 5h 6s]
+11mn1886: checks 
+Kingyuno1: checks 
+*** TURN *** [5d 5h 6s] [6d]
+11mn1886: checks 
+Kingyuno1: bets 50
+11mn1886: folds 
+Uncalled bet (50) returned to Kingyuno1
+Kingyuno1 collected 167 from pot
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Board [5d 5h 6s 6d]
+Seat 1: B4h4m4$ folded before Flop (didn't bet)
+Seat 2: justus6468 (button) folded before Flop (didn't bet)
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: 11mn1886 (big blind) folded on the Turn
+Seat 6: Kingyuno1 collected (167)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762549500: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:23:02 UTC [2026/02/17 9:23:02 ET]
+Table '3975957387 4' 8-max Seat #3 is the button
+Seat 1: B4h4m4$ (1210 in chips) 
+Seat 2: justus6468 (2046 in chips) 
+Seat 3: scorza23 (2581 in chips) 
+Seat 5: 11mn1886 (5211 in chips) 
+Seat 6: Kingyuno1 (3865 in chips) 
+Seat 7: CHRISTOFARNO (1829 in chips) 
+Seat 8: dmitriypom (2603 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+dmitriypom: posts the ante 10
+11mn1886: posts small blind 40
+Kingyuno1: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Kc]
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+B4h4m4$: raises 80 to 160
+justus6468: folds 
+scorza23: folds 
+11mn1886: folds 
+Kingyuno1: calls 80
+*** FLOP *** [8d Jh 2d]
+Kingyuno1: bets 320
+B4h4m4$: folds 
+Uncalled bet (320) returned to Kingyuno1
+Kingyuno1 collected 430 from pot
+*** SUMMARY ***
+Total pot 430 | Rake 0 
+Board [8d Jh 2d]
+Seat 1: B4h4m4$ folded on the Flop
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: 11mn1886 (small blind) folded before Flop
+Seat 6: Kingyuno1 (big blind) collected (430)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762553602: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:23:31 UTC [2026/02/17 9:23:31 ET]
+Table '3975957387 4' 8-max Seat #5 is the button
+Seat 1: B4h4m4$ (1040 in chips) 
+Seat 2: justus6468 (2036 in chips) 
+Seat 3: scorza23 (2571 in chips) 
+Seat 5: 11mn1886 (5161 in chips) 
+Seat 6: Kingyuno1 (4125 in chips) 
+Seat 7: CHRISTOFARNO (1819 in chips) 
+Seat 8: dmitriypom (2593 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+dmitriypom: posts the ante 10
+Kingyuno1: posts small blind 40
+CHRISTOFARNO: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 8s]
+dmitriypom: folds 
+B4h4m4$: folds 
+justus6468: folds 
+scorza23: folds 
+11mn1886: raises 80 to 160
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+Uncalled bet (80) returned to 11mn1886
+11mn1886 collected 270 from pot
+11mn1886: doesn't show hand 
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Seat 1: B4h4m4$ folded before Flop (didn't bet)
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: 11mn1886 (button) collected (270)
+Seat 6: Kingyuno1 (small blind) folded before Flop
+Seat 7: CHRISTOFARNO (big blind) folded before Flop
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762558221: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:24:03 UTC [2026/02/17 9:24:03 ET]
+Table '3975957387 4' 8-max Seat #6 is the button
+Seat 1: B4h4m4$ (1030 in chips) 
+Seat 2: justus6468 (2026 in chips) 
+Seat 3: scorza23 (2561 in chips) 
+Seat 5: 11mn1886 (5341 in chips) 
+Seat 6: Kingyuno1 (4075 in chips) 
+Seat 7: CHRISTOFARNO (1729 in chips) 
+Seat 8: dmitriypom (2583 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+dmitriypom: posts the ante 10
+CHRISTOFARNO: posts small blind 40
+dmitriypom: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 7h]
+B4h4m4$: folds 
+justus6468: folds 
+scorza23: folds 
+11mn1886: raises 80 to 160
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+dmitriypom: calls 80
+*** FLOP *** [Qs Ts Qd]
+dmitriypom: checks 
+11mn1886: checks 
+*** TURN *** [Qs Ts Qd] [5c]
+dmitriypom: checks 
+11mn1886: checks 
+*** RIVER *** [Qs Ts Qd 5c] [8d]
+dmitriypom: checks 
+11mn1886: checks 
+*** SHOW DOWN ***
+dmitriypom: shows [As 6d] (a pair of Queens)
+11mn1886: shows [Ah 9d] (a pair of Queens - Ace+Ten+Nine kicker)
+11mn1886 collected 430 from pot
+*** SUMMARY ***
+Total pot 430 | Rake 0 
+Board [Qs Ts Qd 5c 8d]
+Seat 1: B4h4m4$ folded before Flop (didn't bet)
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: 11mn1886 showed [Ah 9d] and won (430) with a pair of Queens
+Seat 6: Kingyuno1 (button) folded before Flop (didn't bet)
+Seat 7: CHRISTOFARNO (small blind) folded before Flop
+Seat 8: dmitriypom (big blind) showed [As 6d] and lost with a pair of Queens
+
+
+
+PokerStars Hand #259762565135: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:24:52 UTC [2026/02/17 9:24:52 ET]
+Table '3975957387 4' 8-max Seat #7 is the button
+Seat 1: B4h4m4$ (1020 in chips) 
+Seat 2: justus6468 (2016 in chips) 
+Seat 3: scorza23 (2551 in chips) 
+Seat 5: 11mn1886 (5601 in chips) 
+Seat 6: Kingyuno1 (4065 in chips) 
+Seat 7: CHRISTOFARNO (1679 in chips) 
+Seat 8: dmitriypom (2413 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+dmitriypom: posts the ante 10
+dmitriypom: posts small blind 40
+B4h4m4$: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 6h]
+justus6468: folds 
+scorza23: folds 
+11mn1886: raises 80 to 160
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+B4h4m4$: raises 850 to 1010 and is all-in
+11mn1886: calls 850
+*** FLOP *** [8c 5c Jd]
+*** TURN *** [8c 5c Jd] [Ts]
+*** RIVER *** [8c 5c Jd Ts] [As]
+*** SHOW DOWN ***
+B4h4m4$: shows [9h Ac] (a pair of Aces)
+11mn1886: shows [Qh Qd] (a pair of Queens)
+B4h4m4$ collected 2130 from pot
+*** SUMMARY ***
+Total pot 2130 | Rake 0 
+Board [8c 5c Jd Ts As]
+Seat 1: B4h4m4$ (big blind) showed [9h Ac] and won (2130) with a pair of Aces
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 folded before Flop (didn't bet)
+Seat 5: 11mn1886 showed [Qh Qd] and lost with a pair of Queens
+Seat 6: Kingyuno1 folded before Flop (didn't bet)
+Seat 7: CHRISTOFARNO (button) folded before Flop (didn't bet)
+Seat 8: dmitriypom (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762570094: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:25:26 UTC [2026/02/17 9:25:26 ET]
+Table '3975957387 4' 8-max Seat #8 is the button
+Seat 1: B4h4m4$ (2130 in chips) 
+Seat 2: justus6468 (2006 in chips) 
+Seat 3: scorza23 (2541 in chips) 
+Seat 5: 11mn1886 (4581 in chips) 
+Seat 6: Kingyuno1 (4055 in chips) 
+Seat 7: CHRISTOFARNO (1669 in chips) 
+Seat 8: dmitriypom (2363 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+dmitriypom: posts the ante 10
+B4h4m4$: posts small blind 40
+justus6468: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Kd]
+scorza23: raises 160 to 240
+11mn1886: calls 240
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+B4h4m4$: calls 200
+justus6468: folds 
+*** FLOP *** [Ks 8h 2h]
+B4h4m4$: checks 
+scorza23: bets 435
+11mn1886: folds 
+B4h4m4$: folds 
+Uncalled bet (435) returned to scorza23
+scorza23 collected 870 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [Ks 8h 2h]
+Seat 1: B4h4m4$ (small blind) folded on the Flop
+Seat 2: justus6468 (big blind) folded before Flop
+Seat 3: scorza23 collected (870)
+Seat 5: 11mn1886 folded on the Flop
+Seat 6: Kingyuno1 folded before Flop (didn't bet)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762580956: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:26:41 UTC [2026/02/17 9:26:41 ET]
+Table '3975957387 4' 8-max Seat #1 is the button
+Seat 1: B4h4m4$ (1880 in chips) 
+Seat 2: justus6468 (1916 in chips) 
+Seat 3: scorza23 (3161 in chips) 
+Seat 5: 11mn1886 (4331 in chips) 
+Seat 6: Kingyuno1 (4045 in chips) 
+Seat 7: CHRISTOFARNO (1659 in chips) 
+Seat 8: dmitriypom (2353 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+dmitriypom: posts the ante 10
+justus6468: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 4d]
+11mn1886: folds 
+Kingyuno1: folds 
+CHRISTOFARNO: folds 
+dmitriypom: folds 
+B4h4m4$: raises 80 to 160
+justus6468: calls 120
+scorza23: folds 
+*** FLOP *** [Jc 8c Jd]
+justus6468: checks 
+B4h4m4$: bets 160
+justus6468: calls 160
+*** TURN *** [Jc 8c Jd] [Th]
+justus6468: checks 
+B4h4m4$: bets 250
+justus6468: calls 250
+*** RIVER *** [Jc 8c Jd Th] [5h]
+justus6468: checks 
+B4h4m4$: bets 900
+justus6468: calls 900
+*** SHOW DOWN ***
+B4h4m4$: shows [8d Js] (a full house, Jacks full of Eights)
+justus6468: mucks hand 
+B4h4m4$ collected 3090 from pot
+*** SUMMARY ***
+Total pot 3090 | Rake 0 
+Board [Jc 8c Jd Th 5h]
+Seat 1: B4h4m4$ (button) showed [8d Js] and won (3090) with a full house, Jacks full of Eights
+Seat 2: justus6468 (small blind) mucked [Ac Ts]
+Seat 3: scorza23 (big blind) folded before Flop
+Seat 5: 11mn1886 folded before Flop (didn't bet)
+Seat 6: Kingyuno1 folded before Flop (didn't bet)
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+Seat 8: dmitriypom folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762587732: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:27:28 UTC [2026/02/17 9:27:28 ET]
+Table '3975957387 4' 8-max Seat #2 is the button
+Seat 1: B4h4m4$ (3490 in chips) 
+Seat 2: justus6468 (436 in chips) 
+Seat 3: scorza23 (3071 in chips) 
+Seat 5: 11mn1886 (4321 in chips) 
+Seat 6: Kingyuno1 (4035 in chips) 
+Seat 7: CHRISTOFARNO (1649 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+scorza23: posts small blind 40
+11mn1886: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 3s]
+Kingyuno1: calls 80
+CHRISTOFARNO: folds 
+B4h4m4$: folds 
+justus6468: raises 346 to 426 and is all-in
+scorza23: folds 
+11mn1886: folds 
+Kingyuno1: calls 346
+*** FLOP *** [4h 8s 8d]
+*** TURN *** [4h 8s 8d] [7c]
+*** RIVER *** [4h 8s 8d 7c] [Kc]
+*** SHOW DOWN ***
+Kingyuno1: shows [Jd Td] (a pair of Eights)
+justus6468: shows [Kd 2h] (two pair, Kings and Eights)
+justus6468 collected 1032 from pot
+*** SUMMARY ***
+Total pot 1032 | Rake 0 
+Board [4h 8s 8d 7c Kc]
+Seat 1: B4h4m4$ folded before Flop (didn't bet)
+Seat 2: justus6468 (button) showed [Kd 2h] and won (1032) with two pair, Kings and Eights
+Seat 3: scorza23 (small blind) folded before Flop
+Seat 5: 11mn1886 (big blind) folded before Flop
+Seat 6: Kingyuno1 showed [Jd Td] and lost with a pair of Eights
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762591422: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:27:53 UTC [2026/02/17 9:27:53 ET]
+Table '3975957387 4' 8-max Seat #3 is the button
+Seat 1: B4h4m4$ (3480 in chips) 
+Seat 2: justus6468 (1032 in chips) 
+Seat 3: scorza23 (3021 in chips) 
+Seat 5: 11mn1886 (4231 in chips) 
+Seat 6: Kingyuno1 (3599 in chips) 
+Seat 7: CHRISTOFARNO (1639 in chips) 
+B4h4m4$: posts the ante 10
+justus6468: posts the ante 10
+scorza23: posts the ante 10
+11mn1886: posts the ante 10
+Kingyuno1: posts the ante 10
+CHRISTOFARNO: posts the ante 10
+11mn1886: posts small blind 40
+Kingyuno1: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Ad]
+CHRISTOFARNO: folds 
+B4h4m4$: raises 80 to 160
+justus6468: folds 
+scorza23: folds 
+11mn1886: folds 
+Kingyuno1: calls 80
+*** FLOP *** [4d Js 5c]
+Kingyuno1: bets 320
+B4h4m4$: raises 380 to 700
+Kingyuno1: raises 380 to 1080
+B4h4m4$: raises 380 to 1460
+Kingyuno1: raises 1969 to 3429 and is all-in
+B4h4m4$: calls 1850 and is all-in
+Uncalled bet (119) returned to Kingyuno1
+*** TURN *** [4d Js 5c] [3s]
+*** RIVER *** [4d Js 5c 3s] [Ts]
+*** SHOW DOWN ***
+Kingyuno1: shows [8d Jh] (a pair of Jacks)
+B4h4m4$: shows [Ks Kd] (a pair of Kings)
+B4h4m4$ collected 7040 from pot
+*** SUMMARY ***
+Total pot 7040 | Rake 0 
+Board [4d Js 5c 3s Ts]
+Seat 1: B4h4m4$ showed [Ks Kd] and won (7040) with a pair of Kings
+Seat 2: justus6468 folded before Flop (didn't bet)
+Seat 3: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: 11mn1886 (small blind) folded before Flop
+Seat 6: Kingyuno1 (big blind) showed [8d Jh] and lost with a pair of Jacks
+Seat 7: CHRISTOFARNO folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762599939: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 14:28:54 UTC [2026/02/17 9:28:54 ET]
+Table '3975957387 4' 8-max Seat #5 is the button
+Seat 1: B4h4m4$ (7040 in chips) 
+Seat 2: justus6468 (1022 in chips) 
+Seat 3: scorza23 (3011 in chips) 
+Seat 5: 11mn1886 (4181 in chips) 
+Seat 6: Kingyuno1 (119 in chips) 
+Seat 7: CHRISTOFARNO (1629 in chips) 
+B4h4m4$: posts the ante 15
+justus6468: posts the ante 15
+scorza23: posts the ante 15
+11mn1886: posts the ante 15
+Kingyuno1: posts the ante 15
+CHRISTOFARNO: posts the ante 15
+Kingyuno1: posts small blind 60
+CHRISTOFARNO: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ts]
+B4h4m4$: folds 
+justus6468: raises 887 to 1007 and is all-in
+scorza23: calls 1007
+11mn1886: folds 
+Kingyuno1: calls 44 and is all-in
+CHRISTOFARNO: raises 607 to 1614 and is all-in
+scorza23: calls 607
+*** FLOP *** [7c 7h Qh]
+*** TURN *** [7c 7h Qh] [3s]
+*** RIVER *** [7c 7h Qh 3s] [6h]
+*** SHOW DOWN ***
+CHRISTOFARNO: shows [Kh Ah] (a flush, Ace high)
+scorza23: shows [Tc Ts] (two pair, Tens and Sevens)
+CHRISTOFARNO collected 1214 from side pot-2 
+justus6468: shows [Ad 7d] (three of a kind, Sevens)
+CHRISTOFARNO collected 2709 from side pot-1 
+Kingyuno1: shows [2d 5c] (a pair of Sevens)
+CHRISTOFARNO collected 506 from main pot
+justus6468 finished the tournament in 17th place
+Kingyuno1 finished the tournament in 18th place
+*** SUMMARY ***
+Total pot 4429 Main pot 506. Side pot-1 2709. Side pot-2 1214. | Rake 0 
+Board [7c 7h Qh 3s 6h]
+Seat 1: B4h4m4$ folded before Flop (didn't bet)
+Seat 2: justus6468 showed [Ad 7d] and lost with three of a kind, Sevens
+Seat 3: scorza23 showed [Tc Ts] and lost with two pair, Tens and Sevens
+Seat 5: 11mn1886 (button) folded before Flop (didn't bet)
+Seat 6: Kingyuno1 (small blind) showed [2d 5c] and lost with a pair of Sevens
+Seat 7: CHRISTOFARNO (big blind) showed [Kh Ah] and won (4429) with a flush, Ace high
+
+
+
+PokerStars Hand #259762607218: Tournament #3975957387, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 14:29:45 UTC [2026/02/17 9:29:45 ET]
+Table '3975957387 1' 8-max Seat #6 is the button
+Seat 1: MisteriosoPK (1779 in chips) 
+Seat 2: xtulio99 (2656 in chips) 
+Seat 3: silverlok (2553 in chips) 
+Seat 4: scorza23 (1382 in chips) 
+Seat 5: B4h4m4$ (7025 in chips) 
+Seat 6: RSAsh9 (5622 in chips) 
+Seat 7: okawa44 (2284 in chips) 
+MisteriosoPK: posts the ante 15
+xtulio99: posts the ante 15
+silverlok: posts the ante 15
+scorza23: posts the ante 15
+B4h4m4$: posts the ante 15
+RSAsh9: posts the ante 15
+okawa44: posts the ante 15
+okawa44: posts small blind 60
+MisteriosoPK: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ah]
+xtulio99: raises 120 to 240
+silverlok: folds 
+scorza23: raises 1127 to 1367 and is all-in
+B4h4m4$: folds 
+RSAsh9: folds 
+okawa44: folds 
+MisteriosoPK: folds 
+xtulio99: calls 1127
+*** FLOP *** [Kh Ad 2s]
+*** TURN *** [Kh Ad 2s] [Ts]
+*** RIVER *** [Kh Ad 2s Ts] [6h]
+*** SHOW DOWN ***
+xtulio99: shows [Ac Ks] (two pair, Aces and Kings)
+scorza23: shows [Js Ah] (a pair of Aces)
+xtulio99 collected 3019 from pot
+scorza23 finished the tournament in 14th place
+*** SUMMARY ***
+Total pot 3019 | Rake 0 
+Board [Kh Ad 2s Ts 6h]
+Seat 1: MisteriosoPK (big blind) folded before Flop
+Seat 2: xtulio99 showed [Ac Ks] and won (3019) with two pair, Aces and Kings
+Seat 3: silverlok folded before Flop (didn't bet)
+Seat 4: scorza23 showed [Js Ah] and lost with a pair of Aces
+Seat 5: B4h4m4$ folded before Flop (didn't bet)
+Seat 6: RSAsh9 (button) folded before Flop (didn't bet)
+Seat 7: okawa44 (small blind) folded before Flop
+
+
+

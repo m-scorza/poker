@@ -1,0 +1,532 @@
+﻿PokerStars Hand #259755211313: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:49:40 UTC [2026/02/16 16:49:40 ET]
+Table '3975792003 2' 8-max Seat #1 is the button
+Seat 1: felipechopss (1500 in chips) 
+Seat 2: TioDaEsfiha (1500 in chips) 
+Seat 3: Tiffany666 (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: amorim888 (1500 in chips) 
+Seat 7: Milanezzz (1500 in chips) 
+Seat 8: kosh001 (1500 in chips) 
+felipechopss: posts the ante 3
+TioDaEsfiha: posts the ante 3
+Tiffany666: posts the ante 3
+scorza23: posts the ante 3
+amorim888: posts the ante 3
+Milanezzz: posts the ante 3
+kosh001: posts the ante 3
+TioDaEsfiha: posts small blind 10
+Tiffany666: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 2h]
+felipechopss is disconnected 
+scorza23: folds 
+amorim888: raises 20 to 40
+Milanezzz: folds 
+kosh001: calls 40
+felipechopss: folds 
+TioDaEsfiha: folds 
+Tiffany666: calls 20
+*** FLOP *** [Qc Qs 3s]
+Tiffany666: checks 
+amorim888: checks 
+kosh001: checks 
+*** TURN *** [Qc Qs 3s] [7c]
+Tiffany666: checks 
+amorim888: checks 
+kosh001: checks 
+*** RIVER *** [Qc Qs 3s 7c] [4c]
+Tiffany666: checks 
+amorim888: checks 
+kosh001: checks 
+*** SHOW DOWN ***
+Tiffany666: shows [Jd 5h] (a pair of Queens)
+amorim888: shows [Kc Td] (a pair of Queens - King kicker)
+kosh001: shows [Jh Ad] (a pair of Queens - Ace kicker)
+kosh001 collected 151 from pot
+*** SUMMARY ***
+Total pot 151 | Rake 0 
+Board [Qc Qs 3s 7c 4c]
+Seat 1: felipechopss (button) folded before Flop (didn't bet)
+Seat 2: TioDaEsfiha (small blind) folded before Flop
+Seat 3: Tiffany666 (big blind) showed [Jd 5h] and lost with a pair of Queens
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: amorim888 showed [Kc Td] and lost with a pair of Queens
+Seat 7: Milanezzz folded before Flop (didn't bet)
+Seat 8: kosh001 showed [Jh Ad] and won (151) with a pair of Queens
+
+
+
+PokerStars Hand #259755227968: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:50:42 UTC [2026/02/16 16:50:42 ET]
+Table '3975792003 2' 8-max Seat #2 is the button
+Seat 1: felipechopss (1497 in chips) 
+Seat 2: TioDaEsfiha (1487 in chips) 
+Seat 3: Tiffany666 (1457 in chips) 
+Seat 5: scorza23 (1497 in chips) 
+Seat 6: amorim888 (1457 in chips) 
+Seat 7: Milanezzz (1497 in chips) 
+Seat 8: kosh001 (1608 in chips) 
+felipechopss: posts the ante 3
+TioDaEsfiha: posts the ante 3
+Tiffany666: posts the ante 3
+scorza23: posts the ante 3
+amorim888: posts the ante 3
+Milanezzz: posts the ante 3
+kosh001: posts the ante 3
+Tiffany666: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7d Jc]
+amorim888: raises 24 to 44
+Milanezzz: folds 
+kosh001: folds 
+felipechopss: calls 44
+diamantebrun is disconnected 
+TioDaEsfiha: folds 
+Tiffany666: folds 
+scorza23: folds 
+*** FLOP *** [8s 9c 5h]
+amorim888: checks 
+felipechopss: checks 
+*** TURN *** [8s 9c 5h] [Ah]
+amorim888: bets 91
+felipechopss: folds 
+Uncalled bet (91) returned to amorim888
+amorim888 collected 139 from pot
+amorim888: doesn't show hand 
+*** SUMMARY ***
+Total pot 139 | Rake 0 
+Board [8s 9c 5h Ah]
+Seat 1: felipechopss folded on the Turn
+Seat 2: TioDaEsfiha (button) folded before Flop (didn't bet)
+Seat 3: Tiffany666 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 6: amorim888 collected (139)
+Seat 7: Milanezzz folded before Flop (didn't bet)
+Seat 8: kosh001 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755242501: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:51:37 UTC [2026/02/16 16:51:37 ET]
+Table '3975792003 2' 8-max Seat #3 is the button
+Seat 1: felipechopss (1450 in chips) 
+Seat 2: TioDaEsfiha (1484 in chips) 
+Seat 3: Tiffany666 (1444 in chips) 
+Seat 4: diamantebrun (1500 in chips) out of hand (moved from another table into small blind)
+Seat 5: scorza23 (1474 in chips) 
+Seat 7: Milanezzz (1494 in chips) 
+Seat 8: kosh001 (1605 in chips) 
+diamantebrun will be allowed to play after the button
+felipechopss: posts the ante 3
+TioDaEsfiha: posts the ante 3
+Tiffany666: posts the ante 3
+scorza23: posts the ante 3
+Milanezzz: posts the ante 3
+kosh001: posts the ante 3
+scorza23: posts small blind 10
+Milanezzz: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 4d]
+kosh001: calls 20
+felipechopss: folds 
+TioDaEsfiha: folds 
+Tiffany666: folds 
+scorza23: folds 
+Milanezzz: checks 
+*** FLOP *** [2s Ks 6c]
+Milanezzz: checks 
+kosh001: bets 20
+Milanezzz: raises 59 to 79
+kosh001: raises 121 to 200
+Milanezzz: folds 
+Uncalled bet (121) returned to kosh001
+kosh001 collected 226 from pot
+kosh001: doesn't show hand 
+*** SUMMARY ***
+Total pot 226 | Rake 0 
+Board [2s Ks 6c]
+Seat 1: felipechopss folded before Flop (didn't bet)
+Seat 2: TioDaEsfiha folded before Flop (didn't bet)
+Seat 3: Tiffany666 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 7: Milanezzz (big blind) folded on the Flop
+Seat 8: kosh001 collected (226)
+
+
+
+PokerStars Hand #259755255066: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:52:24 UTC [2026/02/16 16:52:24 ET]
+Table '3975792003 2' 8-max Seat #5 is the button
+Seat 1: felipechopss (1447 in chips) 
+Seat 2: TioDaEsfiha (1481 in chips) 
+Seat 3: Tiffany666 (1441 in chips) 
+Seat 4: diamantebrun (1500 in chips) 
+Seat 5: scorza23 (1461 in chips) 
+Seat 7: Milanezzz (1392 in chips) 
+Seat 8: kosh001 (1729 in chips) 
+felipechopss: posts the ante 3
+TioDaEsfiha: posts the ante 3
+Tiffany666: posts the ante 3
+diamantebrun: posts the ante 3
+scorza23: posts the ante 3
+Milanezzz: posts the ante 3
+kosh001: posts the ante 3
+Milanezzz: posts small blind 10
+kosh001: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qc]
+felipechopss: folds 
+TioDaEsfiha: folds 
+Tiffany666: raises 60 to 80
+diamantebrun: folds 
+scorza23: calls 80
+Milanezzz: folds 
+kosh001: calls 60
+*** FLOP *** [8c Jd 3h]
+kosh001: checks 
+Tiffany666: checks 
+scorza23: bets 60
+kosh001: calls 60
+Tiffany666: calls 60
+*** TURN *** [8c Jd 3h] [9c]
+kosh001: checks 
+Tiffany666: checks 
+scorza23: bets 226
+kosh001: raises 903 to 1129
+Tiffany666: raises 169 to 1298 and is all-in
+scorza23: folds 
+kosh001: calls 169
+*** RIVER *** [8c Jd 3h 9c] [Qs]
+*** SHOW DOWN ***
+kosh001: shows [Th Qd] (a straight, Eight to Queen)
+Tiffany666: shows [Ah Js] (a pair of Jacks)
+kosh001 collected 3273 from pot
+Tiffany666 finished the tournament
+*** SUMMARY ***
+Total pot 3273 | Rake 0 
+Board [8c Jd 3h 9c Qs]
+Seat 1: felipechopss folded before Flop (didn't bet)
+Seat 2: TioDaEsfiha folded before Flop (didn't bet)
+Seat 3: Tiffany666 showed [Ah Js] and lost with a pair of Jacks
+Seat 4: diamantebrun folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded on the Turn
+Seat 7: Milanezzz (small blind) folded before Flop
+Seat 8: kosh001 (big blind) showed [Th Qd] and won (3273) with a straight, Eight to Queen
+
+
+
+PokerStars Hand #259755275201: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:53:40 UTC [2026/02/16 16:53:40 ET]
+Table '3975792003 2' 8-max Seat #7 is the button
+Seat 1: felipechopss (1444 in chips) 
+Seat 2: TioDaEsfiha (1478 in chips) 
+Seat 4: diamantebrun (1497 in chips) 
+Seat 5: scorza23 (1092 in chips) 
+Seat 7: Milanezzz (1379 in chips) 
+Seat 8: kosh001 (3561 in chips) 
+felipechopss: posts the ante 3
+TioDaEsfiha: posts the ante 3
+diamantebrun: posts the ante 3
+scorza23: posts the ante 3
+Milanezzz: posts the ante 3
+kosh001: posts the ante 3
+kosh001: posts small blind 10
+felipechopss: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 2c]
+bianchilouco is disconnected 
+TioDaEsfiha: raises 30 to 50
+diamantebrun: folds 
+scorza23: folds 
+Milanezzz: folds 
+kosh001: calls 40
+felipechopss: folds 
+*** FLOP *** [Kh 4s 9s]
+kosh001: bets 40
+TioDaEsfiha: calls 40
+*** TURN *** [Kh 4s 9s] [3h]
+kosh001: bets 60
+TioDaEsfiha: calls 60
+*** RIVER *** [Kh 4s 9s 3h] [9h]
+kosh001: bets 100
+TioDaEsfiha: calls 100
+*** SHOW DOWN ***
+kosh001: shows [Kc Tc] (two pair, Kings and Nines)
+TioDaEsfiha: mucks hand 
+kosh001 collected 538 from pot
+*** SUMMARY ***
+Total pot 538 | Rake 0 
+Board [Kh 4s 9s 3h 9h]
+Seat 1: felipechopss (big blind) folded before Flop
+Seat 2: TioDaEsfiha mucked [Jc Jd]
+Seat 4: diamantebrun folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: Milanezzz (button) folded before Flop (didn't bet)
+Seat 8: kosh001 (small blind) showed [Kc Tc] and won (538) with two pair, Kings and Nines
+
+
+
+PokerStars Hand #259755288579: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 21:54:31 UTC [2026/02/16 16:54:31 ET]
+Table '3975792003 2' 8-max Seat #8 is the button
+Seat 1: felipechopss (1421 in chips) 
+Seat 3: scorpionking-28 (1500 in chips) 
+Seat 4: diamantebrun (1494 in chips) 
+Seat 5: scorza23 (1089 in chips) 
+Seat 6: bianchilouco (1500 in chips) 
+Seat 7: Milanezzz (1376 in chips) 
+Seat 8: kosh001 (3846 in chips) 
+felipechopss: posts the ante 3
+scorpionking-28: posts the ante 3
+diamantebrun: posts the ante 3
+scorza23: posts the ante 3
+bianchilouco: posts the ante 3
+Milanezzz: posts the ante 3
+kosh001: posts the ante 3
+felipechopss: posts small blind 10
+scorpionking-28: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [4d Ah]
+diamantebrun: folds 
+scorza23: folds 
+bianchilouco: folds 
+Milanezzz: folds 
+kosh001: calls 20
+felipechopss: calls 10
+scorpionking-28: raises 40 to 60
+kosh001: calls 40
+felipechopss: folds 
+*** FLOP *** [9h 5s 6h]
+scorpionking-28: bets 81
+els5891 is disconnected 
+kosh001: folds 
+Uncalled bet (81) returned to scorpionking-28
+scorpionking-28 collected 161 from pot
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Board [9h 5s 6h]
+Seat 1: felipechopss (small blind) folded before Flop
+Seat 3: scorpionking-28 (big blind) collected (161)
+Seat 4: diamantebrun folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: bianchilouco folded before Flop (didn't bet)
+Seat 7: Milanezzz folded before Flop (didn't bet)
+Seat 8: kosh001 (button) folded on the Flop
+
+
+
+PokerStars Hand #259755358151: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 22:00:51 UTC [2026/02/16 17:00:51 ET]
+Table '3975792003 2' 8-max Seat #1 is the button
+Seat 1: felipechopss (1398 in chips) 
+Seat 2: els5891 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 3: scorpionking-28 (1598 in chips) 
+Seat 4: diamantebrun (1491 in chips) 
+Seat 5: scorza23 (1086 in chips) 
+Seat 6: bianchilouco (1497 in chips) 
+Seat 7: Milanezzz (1373 in chips) 
+Seat 8: kosh001 (3783 in chips) 
+els5891 will be allowed to play after the button
+felipechopss: posts the ante 4
+scorpionking-28: posts the ante 4
+diamantebrun: posts the ante 4
+scorza23: posts the ante 4
+bianchilouco: posts the ante 4
+Milanezzz: posts the ante 4
+kosh001: posts the ante 4
+scorpionking-28: posts small blind 15
+diamantebrun: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Ac]
+scorza23: raises 30 to 60
+bianchilouco: folds 
+Milanezzz: folds 
+kosh001: calls 60
+felipechopss: calls 60
+scorpionking-28: folds 
+diamantebrun: calls 30
+*** FLOP *** [4d Td 8c]
+diamantebrun: checks 
+scorza23: bets 142
+kosh001: folds 
+felipechopss: calls 142
+diamantebrun: folds 
+*** TURN *** [4d Td 8c] [Ah]
+scorza23: bets 284
+felipechopss: folds 
+Uncalled bet (284) returned to scorza23
+scorza23 collected 567 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 567 | Rake 0 
+Board [4d Td 8c Ah]
+Seat 1: felipechopss (button) folded on the Turn
+Seat 3: scorpionking-28 (small blind) folded before Flop
+Seat 4: diamantebrun (big blind) folded on the Flop
+Seat 5: scorza23 collected (567)
+Seat 6: bianchilouco folded before Flop (didn't bet)
+Seat 7: Milanezzz folded before Flop (didn't bet)
+Seat 8: kosh001 folded on the Flop
+
+
+
+PokerStars Hand #259755375143: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 22:02:02 UTC [2026/02/16 17:02:02 ET]
+Table '3975792003 2' 8-max Seat #3 is the button
+Seat 1: felipechopss (1192 in chips) 
+Seat 2: els5891 (1500 in chips) 
+Seat 3: scorpionking-28 (1579 in chips) 
+Seat 4: diamantebrun (1427 in chips) 
+Seat 5: scorza23 (1447 in chips) 
+Seat 6: bianchilouco (1493 in chips) 
+Seat 7: Milanezzz (1369 in chips) 
+Seat 8: kosh001 (3719 in chips) 
+felipechopss: posts the ante 4
+els5891: posts the ante 4
+scorpionking-28: posts the ante 4
+diamantebrun: posts the ante 4
+scorza23: posts the ante 4
+bianchilouco: posts the ante 4
+Milanezzz: posts the ante 4
+kosh001: posts the ante 4
+diamantebrun: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3s Ad]
+bianchilouco: folds 
+Milanezzz: folds 
+kosh001: folds 
+felipechopss: folds 
+els5891: folds 
+scorpionking-28: raises 60 to 90
+diamantebrun: folds 
+scorza23: calls 60
+*** FLOP *** [4c 5d 6c]
+scorza23: checks 
+scorpionking-28: checks 
+*** TURN *** [4c 5d 6c] [4s]
+scorza23: checks 
+scorpionking-28: bets 60
+scorza23: folds 
+Uncalled bet (60) returned to scorpionking-28
+scorpionking-28 collected 227 from pot
+*** SUMMARY ***
+Total pot 227 | Rake 0 
+Board [4c 5d 6c 4s]
+Seat 1: felipechopss folded before Flop (didn't bet)
+Seat 2: els5891 folded before Flop (didn't bet)
+Seat 3: scorpionking-28 (button) collected (227)
+Seat 4: diamantebrun (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Turn
+Seat 6: bianchilouco folded before Flop (didn't bet)
+Seat 7: Milanezzz folded before Flop (didn't bet)
+Seat 8: kosh001 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755387892: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 22:02:52 UTC [2026/02/16 17:02:52 ET]
+Table '3975792003 2' 8-max Seat #4 is the button
+Seat 1: felipechopss (1188 in chips) 
+Seat 2: els5891 (1496 in chips) 
+Seat 3: scorpionking-28 (1712 in chips) 
+Seat 4: diamantebrun (1408 in chips) 
+Seat 5: scorza23 (1353 in chips) 
+Seat 6: bianchilouco (1489 in chips) 
+Seat 7: Milanezzz (1365 in chips) 
+Seat 8: kosh001 (3715 in chips) 
+felipechopss: posts the ante 4
+els5891: posts the ante 4
+scorpionking-28: posts the ante 4
+diamantebrun: posts the ante 4
+scorza23: posts the ante 4
+bianchilouco: posts the ante 4
+Milanezzz: posts the ante 4
+kosh001: posts the ante 4
+scorza23: posts small blind 15
+bianchilouco: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Jh]
+Milanezzz: folds 
+kosh001: folds 
+felipechopss: folds 
+els5891: raises 34 to 64
+scorpionking-28: folds 
+diamantebrun: folds 
+scorza23: folds 
+bianchilouco: raises 206 to 270
+els5891: folds 
+Uncalled bet (206) returned to bianchilouco
+bianchilouco collected 175 from pot
+bianchilouco: doesn't show hand 
+*** SUMMARY ***
+Total pot 175 | Rake 0 
+Seat 1: felipechopss folded before Flop (didn't bet)
+Seat 2: els5891 folded before Flop
+Seat 3: scorpionking-28 folded before Flop (didn't bet)
+Seat 4: diamantebrun (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 6: bianchilouco (big blind) collected (175)
+Seat 7: Milanezzz folded before Flop (didn't bet)
+Seat 8: kosh001 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259755410496: Tournament #3975792003, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/16 22:04:17 UTC [2026/02/16 17:04:17 ET]
+Table '3975792003 2' 8-max Seat #5 is the button
+Seat 1: felipechopss (1184 in chips) 
+Seat 2: els5891 (1428 in chips) 
+Seat 3: scorpionking-28 (1708 in chips) 
+Seat 4: diamantebrun (1404 in chips) 
+Seat 5: scorza23 (1334 in chips) 
+Seat 6: bianchilouco (1596 in chips) 
+Seat 7: Milanezzz (1361 in chips) 
+Seat 8: kosh001 (3711 in chips) 
+felipechopss: posts the ante 4
+els5891: posts the ante 4
+scorpionking-28: posts the ante 4
+diamantebrun: posts the ante 4
+scorza23: posts the ante 4
+bianchilouco: posts the ante 4
+Milanezzz: posts the ante 4
+kosh001: posts the ante 4
+bianchilouco: posts small blind 15
+Milanezzz: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ah]
+kosh001: calls 30
+felipechopss: folds 
+els5891: folds 
+scorpionking-28: raises 30 to 60
+diamantebrun: folds 
+scorza23: raises 30 to 90
+bianchilouco: folds 
+Milanezzz: folds 
+kosh001: calls 60
+scorpionking-28: calls 30
+*** FLOP *** [Kc Ts 3s]
+kosh001: checks 
+scorpionking-28: checks 
+scorza23: bets 174
+kosh001: folds 
+scorpionking-28: calls 174
+*** TURN *** [Kc Ts 3s] [Kd]
+scorpionking-28: checks 
+scorza23: bets 348
+scorpionking-28: calls 348
+*** RIVER *** [Kc Ts 3s Kd] [7c]
+scorpionking-28: checks 
+scorza23: bets 718 and is all-in
+scorpionking-28: calls 718
+*** SHOW DOWN ***
+scorza23: shows [Js Ah] (a pair of Kings)
+scorpionking-28: shows [Kh 9h] (three of a kind, Kings)
+scorpionking-28 collected 2827 from pot
+scorza23 finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 2827 | Rake 0 
+Board [Kc Ts 3s Kd 7c]
+Seat 1: felipechopss folded before Flop (didn't bet)
+Seat 2: els5891 folded before Flop (didn't bet)
+Seat 3: scorpionking-28 showed [Kh 9h] and won (2827) with three of a kind, Kings
+Seat 4: diamantebrun folded before Flop (didn't bet)
+Seat 5: scorza23 (button) showed [Js Ah] and lost with a pair of Kings
+Seat 6: bianchilouco (small blind) folded before Flop
+Seat 7: Milanezzz (big blind) folded before Flop
+Seat 8: kosh001 folded on the Flop
+
+
+

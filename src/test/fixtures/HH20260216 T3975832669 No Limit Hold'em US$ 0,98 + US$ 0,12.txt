@@ -1,0 +1,1376 @@
+﻿PokerStars Hand #259757622887: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/02/17 0:12:45 UTC [2026/02/16 19:12:45 ET]
+Table '3975832669 6' 8-max Seat #1 is the button
+Seat 1: P@kerist@s (5000 in chips) 
+Seat 2: laamons (5000 in chips) 
+Seat 3: nefastibu! (5000 in chips) 
+Seat 4: coruja66 (5000 in chips) 
+Seat 5: scorza23 (5000 in chips) 
+Seat 6: felcun789 (5000 in chips) 
+Seat 7: hanckop1978 (5000 in chips) 
+Seat 8: ramosx5 (5000 in chips) 
+P@kerist@s: posts the ante 15
+laamons: posts the ante 15
+nefastibu!: posts the ante 15
+coruja66: posts the ante 15
+scorza23: posts the ante 15
+felcun789: posts the ante 15
+hanckop1978: posts the ante 15
+ramosx5: posts the ante 15
+laamons: posts small blind 50
+nefastibu!: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 4c]
+hanckop1978 is disconnected 
+coruja66: folds 
+scorza23: folds 
+felcun789: calls 100
+hanckop1978: raises 470 to 570
+ramosx5: folds 
+P@kerist@s: calls 570
+laamons: folds 
+nefastibu!: folds 
+felcun789: calls 470
+*** FLOP *** [8d 7d 2d]
+felcun789: checks 
+hanckop1978: bets 4415 and is all-in
+P@kerist@s: folds 
+felcun789: folds 
+Uncalled bet (4415) returned to hanckop1978
+hanckop1978 collected 1980 from pot
+hanckop1978: doesn't show hand 
+*** SUMMARY ***
+Total pot 1980 | Rake 0 
+Board [8d 7d 2d]
+Seat 1: P@kerist@s (button) folded on the Flop
+Seat 2: laamons (small blind) folded before Flop
+Seat 3: nefastibu! (big blind) folded before Flop
+Seat 4: coruja66 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: felcun789 folded on the Flop
+Seat 7: hanckop1978 collected (1980)
+Seat 8: ramosx5 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757629363: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/02/17 0:13:20 UTC [2026/02/16 19:13:20 ET]
+Table '3975832669 6' 8-max Seat #2 is the button
+Seat 1: P@kerist@s (4415 in chips) 
+Seat 2: laamons (4935 in chips) 
+Seat 3: nefastibu! (4885 in chips) 
+Seat 4: coruja66 (4985 in chips) 
+Seat 5: scorza23 (4985 in chips) 
+Seat 6: felcun789 (4415 in chips) 
+Seat 7: hanckop1978 (6395 in chips) 
+Seat 8: ramosx5 (4985 in chips) 
+P@kerist@s: posts the ante 15
+laamons: posts the ante 15
+nefastibu!: posts the ante 15
+coruja66: posts the ante 15
+scorza23: posts the ante 15
+felcun789: posts the ante 15
+hanckop1978: posts the ante 15
+ramosx5: posts the ante 15
+nefastibu!: posts small blind 50
+coruja66: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 2c]
+scorza23: folds 
+felcun789: calls 100
+hanckop1978: raises 470 to 570
+ramosx5: folds 
+P@kerist@s: folds 
+laamons: folds 
+nefastibu!: folds 
+coruja66: folds 
+felcun789: calls 470
+*** FLOP *** [5d 6d Jc]
+felcun789: checks 
+hanckop1978: bets 1410
+felcun789: calls 1410
+*** TURN *** [5d 6d Jc] [As]
+felcun789: checks 
+hanckop1978: bets 2115
+felcun789: calls 2115
+*** RIVER *** [5d 6d Jc As] [8c]
+felcun789: bets 305 and is all-in
+hanckop1978: calls 305
+*** SHOW DOWN ***
+felcun789: shows [7d 4d] (a straight, Four to Eight)
+hanckop1978: shows [Qc Jd] (a pair of Jacks)
+felcun789 collected 9070 from pot
+*** SUMMARY ***
+Total pot 9070 | Rake 0 
+Board [5d 6d Jc As 8c]
+Seat 1: P@kerist@s folded before Flop (didn't bet)
+Seat 2: laamons (button) folded before Flop (didn't bet)
+Seat 3: nefastibu! (small blind) folded before Flop
+Seat 4: coruja66 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: felcun789 showed [7d 4d] and won (9070) with a straight, Four to Eight
+Seat 7: hanckop1978 showed [Qc Jd] and lost with a pair of Jacks
+Seat 8: ramosx5 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757639119: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/02/17 0:14:14 UTC [2026/02/16 19:14:14 ET]
+Table '3975832669 6' 8-max Seat #3 is the button
+Seat 1: P@kerist@s (4400 in chips) 
+Seat 2: laamons (4920 in chips) 
+Seat 3: nefastibu! (4820 in chips) 
+Seat 4: coruja66 (4870 in chips) 
+Seat 5: scorza23 (4970 in chips) 
+Seat 6: felcun789 (9070 in chips) 
+Seat 7: hanckop1978 (1980 in chips) 
+Seat 8: ramosx5 (4970 in chips) 
+P@kerist@s: posts the ante 15
+laamons: posts the ante 15
+nefastibu!: posts the ante 15
+coruja66: posts the ante 15
+scorza23: posts the ante 15
+felcun789: posts the ante 15
+hanckop1978: posts the ante 15
+ramosx5: posts the ante 15
+coruja66: posts small blind 50
+scorza23: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Jd]
+felcun789: folds 
+hanckop1978: raises 1865 to 1965 and is all-in
+ramosx5: folds 
+P@kerist@s: folds 
+laamons: folds 
+nefastibu!: folds 
+coruja66: folds 
+scorza23: calls 1865
+*** FLOP *** [6h 9s 2c]
+*** TURN *** [6h 9s 2c] [Qc]
+*** RIVER *** [6h 9s 2c Qc] [Ad]
+*** SHOW DOWN ***
+scorza23: shows [Kc Jd] (high card Ace)
+hanckop1978: shows [Jh 2h] (a pair of Deuces)
+hanckop1978 collected 4100 from pot
+*** SUMMARY ***
+Total pot 4100 | Rake 0 
+Board [6h 9s 2c Qc Ad]
+Seat 1: P@kerist@s folded before Flop (didn't bet)
+Seat 2: laamons folded before Flop (didn't bet)
+Seat 3: nefastibu! (button) folded before Flop (didn't bet)
+Seat 4: coruja66 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [Kc Jd] and lost with high card Ace
+Seat 6: felcun789 folded before Flop (didn't bet)
+Seat 7: hanckop1978 showed [Jh 2h] and won (4100) with a pair of Deuces
+Seat 8: ramosx5 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757648282: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/02/17 0:15:04 UTC [2026/02/16 19:15:04 ET]
+Table '3975832669 6' 8-max Seat #4 is the button
+Seat 1: P@kerist@s (4385 in chips) 
+Seat 2: laamons (4905 in chips) 
+Seat 3: nefastibu! (4805 in chips) 
+Seat 4: coruja66 (4805 in chips) 
+Seat 5: scorza23 (2990 in chips) 
+Seat 6: felcun789 (9055 in chips) 
+Seat 7: hanckop1978 (4100 in chips) 
+Seat 8: ramosx5 (4955 in chips) 
+P@kerist@s: posts the ante 15
+laamons: posts the ante 15
+nefastibu!: posts the ante 15
+coruja66: posts the ante 15
+scorza23: posts the ante 15
+felcun789: posts the ante 15
+hanckop1978: posts the ante 15
+ramosx5: posts the ante 15
+scorza23: posts small blind 50
+felcun789: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 7c]
+hanckop1978: folds 
+ramosx5: folds 
+P@kerist@s: folds 
+laamons: folds 
+nefastibu!: folds 
+coruja66: folds 
+scorza23: raises 110 to 210
+felcun789: calls 110
+*** FLOP *** [Ts 5h 8c]
+scorza23: bets 2765 and is all-in
+felcun789: folds 
+Uncalled bet (2765) returned to scorza23
+scorza23 collected 540 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Board [Ts 5h 8c]
+Seat 1: P@kerist@s folded before Flop (didn't bet)
+Seat 2: laamons folded before Flop (didn't bet)
+Seat 3: nefastibu! folded before Flop (didn't bet)
+Seat 4: coruja66 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (540)
+Seat 6: felcun789 (big blind) folded on the Flop
+Seat 7: hanckop1978 folded before Flop (didn't bet)
+Seat 8: ramosx5 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757658118: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/02/17 0:15:59 UTC [2026/02/16 19:15:59 ET]
+Table '3975832669 6' 8-max Seat #5 is the button
+Seat 1: P@kerist@s (4370 in chips) 
+Seat 2: laamons (4890 in chips) 
+Seat 3: nefastibu! (4790 in chips) 
+Seat 4: coruja66 (4790 in chips) 
+Seat 5: scorza23 (3305 in chips) 
+Seat 6: felcun789 (8830 in chips) 
+Seat 8: ramosx5 (4940 in chips) 
+P@kerist@s: posts the ante 15
+laamons: posts the ante 15
+nefastibu!: posts the ante 15
+coruja66: posts the ante 15
+scorza23: posts the ante 15
+felcun789: posts the ante 15
+ramosx5: posts the ante 15
+felcun789: posts small blind 50
+ramosx5: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 2s]
+P@kerist@s: raises 100 to 200
+laamons: folds 
+nefastibu!: folds 
+coruja66: folds 
+scorza23: folds 
+felcun789: folds 
+ramosx5: folds 
+Uncalled bet (100) returned to P@kerist@s
+P@kerist@s collected 355 from pot
+P@kerist@s: doesn't show hand 
+*** SUMMARY ***
+Total pot 355 | Rake 0 
+Seat 1: P@kerist@s collected (355)
+Seat 2: laamons folded before Flop (didn't bet)
+Seat 3: nefastibu! folded before Flop (didn't bet)
+Seat 4: coruja66 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: felcun789 (small blind) folded before Flop
+Seat 8: ramosx5 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757666017: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/02/17 0:16:44 UTC [2026/02/16 19:16:44 ET]
+Table '3975832669 6' 8-max Seat #6 is the button
+Seat 1: P@kerist@s (4610 in chips) 
+Seat 2: laamons (4875 in chips) 
+Seat 3: nefastibu! (4775 in chips) 
+Seat 4: coruja66 (4775 in chips) 
+Seat 5: scorza23 (3290 in chips) 
+Seat 6: felcun789 (8765 in chips) 
+Seat 8: ramosx5 (4825 in chips) 
+P@kerist@s: posts the ante 15
+laamons: posts the ante 15
+nefastibu!: posts the ante 15
+coruja66: posts the ante 15
+scorza23: posts the ante 15
+felcun789: posts the ante 15
+ramosx5: posts the ante 15
+ramosx5: posts small blind 50
+P@kerist@s: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 9s]
+laamons: folds 
+nefastibu!: folds 
+coruja66: folds 
+ernie490 is disconnected 
+scorza23: folds 
+felcun789: raises 200 to 300
+ramosx5: folds 
+P@kerist@s: calls 200
+*** FLOP *** [5s 7h 4s]
+P@kerist@s: checks 
+felcun789: bets 378
+P@kerist@s: calls 378
+*** TURN *** [5s 7h 4s] [7c]
+P@kerist@s: checks 
+felcun789: bets 756
+P@kerist@s: calls 756
+*** RIVER *** [5s 7h 4s 7c] [9c]
+P@kerist@s: checks 
+felcun789: checks 
+*** SHOW DOWN ***
+P@kerist@s: shows [As Kh] (a pair of Sevens)
+felcun789: mucks hand 
+P@kerist@s collected 3023 from pot
+*** SUMMARY ***
+Total pot 3023 | Rake 0 
+Board [5s 7h 4s 7c 9c]
+Seat 1: P@kerist@s (big blind) showed [As Kh] and won (3023) with a pair of Sevens
+Seat 2: laamons folded before Flop (didn't bet)
+Seat 3: nefastibu! folded before Flop (didn't bet)
+Seat 4: coruja66 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: felcun789 (button) mucked [Qd Td]
+Seat 8: ramosx5 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757674070: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level I (50/100) - 2026/02/17 0:17:29 UTC [2026/02/16 19:17:29 ET]
+Table '3975832669 6' 8-max Seat #8 is the button
+Seat 1: P@kerist@s (6184 in chips) 
+Seat 2: laamons (4860 in chips) 
+Seat 3: nefastibu! (4760 in chips) 
+Seat 4: coruja66 (4760 in chips) 
+Seat 5: scorza23 (3275 in chips) 
+Seat 7: ernie490 (5000 in chips) 
+Seat 8: ramosx5 (4760 in chips) 
+P@kerist@s: posts the ante 15
+laamons: posts the ante 15
+nefastibu!: posts the ante 15
+coruja66: posts the ante 15
+scorza23: posts the ante 15
+ernie490: posts the ante 15
+ramosx5: posts the ante 15
+P@kerist@s: posts small blind 50
+laamons: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Jd]
+nefastibu!: folds 
+coruja66: folds 
+scorza23: folds 
+ernie490: folds 
+ramosx5: raises 100 to 200
+P@kerist@s: calls 150
+laamons: folds 
+*** FLOP *** [2s Kh Jc]
+P@kerist@s: checks 
+shkendim93 is disconnected 
+ramosx5: bets 151
+P@kerist@s: calls 151
+*** TURN *** [2s Kh Jc] [Qs]
+P@kerist@s: checks 
+ramosx5: checks 
+*** RIVER *** [2s Kh Jc Qs] [Ts]
+P@kerist@s: checks 
+ramosx5: bets 1515
+P@kerist@s: folds 
+Uncalled bet (1515) returned to ramosx5
+ramosx5 collected 907 from pot
+*** SUMMARY ***
+Total pot 907 | Rake 0 
+Board [2s Kh Jc Qs Ts]
+Seat 1: P@kerist@s (small blind) folded on the River
+Seat 2: laamons (big blind) folded before Flop
+Seat 3: nefastibu! folded before Flop (didn't bet)
+Seat 4: coruja66 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 7: ernie490 folded before Flop (didn't bet)
+Seat 8: ramosx5 (button) collected (907)
+
+
+
+PokerStars Hand #259757687266: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level II (60/120) - 2026/02/17 0:18:43 UTC [2026/02/16 19:18:43 ET]
+Table '3975832669 6' 8-max Seat #1 is the button
+Seat 1: P@kerist@s (5818 in chips) 
+Seat 2: laamons (4745 in chips) 
+Seat 3: nefastibu! (4745 in chips) 
+Seat 4: coruja66 (4745 in chips) 
+Seat 5: scorza23 (3260 in chips) 
+Seat 6: shkendim93 (5000 in chips) 
+Seat 7: ernie490 (4985 in chips) 
+Seat 8: ramosx5 (5301 in chips) 
+P@kerist@s: posts the ante 18
+laamons: posts the ante 18
+nefastibu!: posts the ante 18
+coruja66: posts the ante 18
+scorza23: posts the ante 18
+shkendim93: posts the ante 18
+ernie490: posts the ante 18
+ramosx5: posts the ante 18
+laamons: posts small blind 60
+nefastibu!: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 9d]
+coruja66: folds 
+scorza23: folds 
+shkendim93: calls 120
+ernie490: folds 
+ramosx5: raises 360 to 480
+P@kerist@s: calls 480
+laamons: folds 
+nefastibu!: calls 360
+shkendim93: calls 360
+*** FLOP *** [8d 6c 4d]
+nefastibu!: checks 
+shkendim93: checks 
+ramosx5: bets 786
+P@kerist@s: calls 786
+nefastibu!: folds 
+shkendim93: folds 
+*** TURN *** [8d 6c 4d] [Js]
+ramosx5: bets 4017 and is all-in
+P@kerist@s: folds 
+Uncalled bet (4017) returned to ramosx5
+ramosx5 collected 3696 from pot
+*** SUMMARY ***
+Total pot 3696 | Rake 0 
+Board [8d 6c 4d Js]
+Seat 1: P@kerist@s (button) folded on the Turn
+Seat 2: laamons (small blind) folded before Flop
+Seat 3: nefastibu! (big blind) folded on the Flop
+Seat 4: coruja66 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: shkendim93 folded on the Flop
+Seat 7: ernie490 folded before Flop (didn't bet)
+Seat 8: ramosx5 collected (3696)
+
+
+
+PokerStars Hand #259757696808: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level II (60/120) - 2026/02/17 0:19:37 UTC [2026/02/16 19:19:37 ET]
+Table '3975832669 6' 8-max Seat #2 is the button
+Seat 1: P@kerist@s (4534 in chips) 
+Seat 2: laamons (4667 in chips) 
+Seat 3: nefastibu! (4247 in chips) 
+Seat 4: coruja66 (4727 in chips) 
+Seat 5: scorza23 (3242 in chips) 
+Seat 6: shkendim93 (4502 in chips) 
+Seat 7: ernie490 (4967 in chips) 
+Seat 8: ramosx5 (7713 in chips) 
+P@kerist@s: posts the ante 18
+laamons: posts the ante 18
+nefastibu!: posts the ante 18
+coruja66: posts the ante 18
+scorza23: posts the ante 18
+shkendim93: posts the ante 18
+ernie490: posts the ante 18
+ramosx5: posts the ante 18
+nefastibu!: posts small blind 60
+coruja66: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 9h]
+scorza23: raises 132 to 252
+shkendim93: calls 252
+ernie490: folds 
+ramosx5: folds 
+P@kerist@s: folds 
+laamons: calls 252
+nefastibu!: folds 
+coruja66: calls 132
+*** FLOP *** [Ac 5c Ad]
+coruja66: checks 
+scorza23: bets 1212
+shkendim93: calls 1212
+laamons: folds 
+coruja66: folds 
+*** TURN *** [Ac 5c Ad] [Ks]
+scorza23: bets 1760 and is all-in
+shkendim93: calls 1760
+*** RIVER *** [Ac 5c Ad Ks] [As]
+*** SHOW DOWN ***
+scorza23: shows [9s 9h] (a full house, Aces full of Nines)
+shkendim93: shows [Th Ts] (a full house, Aces full of Tens)
+shkendim93 collected 7156 from pot
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 7156 | Rake 0 
+Board [Ac 5c Ad Ks As]
+Seat 1: P@kerist@s folded before Flop (didn't bet)
+Seat 2: laamons (button) folded on the Flop
+Seat 3: nefastibu! (small blind) folded before Flop
+Seat 4: coruja66 (big blind) folded on the Flop
+Seat 5: scorza23 showed [9s 9h] and lost with a full house, Aces full of Nines
+Seat 6: shkendim93 showed [Th Ts] and won (7156) with a full house, Aces full of Tens
+Seat 7: ernie490 folded before Flop (didn't bet)
+Seat 8: ramosx5 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757903260: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/02/17 0:39:37 UTC [2026/02/16 19:39:37 ET]
+Table '3975832669 5' 8-max Seat #2 is the button
+Seat 1: Laranjeira13 (2858 in chips) 
+Seat 2: XBenX99 (5526 in chips) 
+Seat 3: leduvel (13010 in chips) 
+Seat 4: scorza23 (5000 in chips) 
+Seat 6: AceIfCoelWould7 (14393 in chips) 
+Seat 7: ViiMags (4500 in chips) 
+Seat 8: Snake__33630 (5003 in chips) 
+Laranjeira13: posts the ante 38
+XBenX99: posts the ante 38
+leduvel: posts the ante 38
+scorza23: posts the ante 38
+AceIfCoelWould7: posts the ante 38
+ViiMags: posts the ante 38
+Snake__33630: posts the ante 38
+leduvel: posts small blind 125
+scorza23: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2h]
+AceIfCoelWould7: raises 250 to 500
+ViiMags: raises 500 to 1000
+Snake__33630: folds 
+Laranjeira13: folds 
+XBenX99: folds 
+leduvel: folds 
+scorza23: folds 
+AceIfCoelWould7: calls 500
+*** FLOP *** [Jd Tc 6h]
+AceIfCoelWould7: bets 500
+ViiMags: raises 1500 to 2000
+AceIfCoelWould7: raises 11355 to 13355 and is all-in
+ViiMags: calls 1462 and is all-in
+Uncalled bet (9893) returned to AceIfCoelWould7
+*** TURN *** [Jd Tc 6h] [3d]
+*** RIVER *** [Jd Tc 6h 3d] [Qs]
+*** SHOW DOWN ***
+AceIfCoelWould7: shows [Js Kh] (a pair of Jacks)
+ViiMags: shows [As Ad] (a pair of Aces)
+ViiMags collected 9565 from pot
+*** SUMMARY ***
+Total pot 9565 | Rake 0 
+Board [Jd Tc 6h 3d Qs]
+Seat 1: Laranjeira13 folded before Flop (didn't bet)
+Seat 2: XBenX99 (button) folded before Flop (didn't bet)
+Seat 3: leduvel (small blind) folded before Flop
+Seat 4: scorza23 (big blind) folded before Flop
+Seat 6: AceIfCoelWould7 showed [Js Kh] and lost with a pair of Jacks
+Seat 7: ViiMags showed [As Ad] and won (9565) with a pair of Aces
+Seat 8: Snake__33630 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757912315: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/02/17 0:40:32 UTC [2026/02/16 19:40:32 ET]
+Table '3975832669 5' 8-max Seat #3 is the button
+Seat 1: Laranjeira13 (2820 in chips) 
+Seat 2: XBenX99 (5488 in chips) 
+Seat 3: leduvel (12847 in chips) 
+Seat 4: scorza23 (4712 in chips) 
+Seat 6: AceIfCoelWould7 (9893 in chips) 
+Seat 7: ViiMags (9565 in chips) 
+Seat 8: Snake__33630 (4965 in chips) 
+Laranjeira13: posts the ante 38
+XBenX99: posts the ante 38
+leduvel: posts the ante 38
+scorza23: posts the ante 38
+AceIfCoelWould7: posts the ante 38
+ViiMags: posts the ante 38
+Snake__33630: posts the ante 38
+scorza23: posts small blind 125
+AceIfCoelWould7: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 3c]
+ViiMags: raises 375 to 625
+Snake__33630: calls 625
+Laranjeira13: folds 
+XBenX99: raises 4825 to 5450 and is all-in
+leduvel: folds 
+scorza23: folds 
+AceIfCoelWould7: folds 
+ViiMags: folds 
+Snake__33630: calls 4302 and is all-in
+Uncalled bet (523) returned to XBenX99
+*** FLOP *** [4c 8c 3h]
+*** TURN *** [4c 8c 3h] [7s]
+*** RIVER *** [4c 8c 3h 7s] [Kh]
+*** SHOW DOWN ***
+Snake__33630: shows [Jh Ad] (high card Ace)
+XBenX99: shows [Ks As] (a pair of Kings)
+XBenX99 collected 11120 from pot
+Snake__33630 finished the tournament
+*** SUMMARY ***
+Total pot 11120 | Rake 0 
+Board [4c 8c 3h 7s Kh]
+Seat 1: Laranjeira13 folded before Flop (didn't bet)
+Seat 2: XBenX99 showed [Ks As] and won (11120) with a pair of Kings
+Seat 3: leduvel (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) folded before Flop
+Seat 6: AceIfCoelWould7 (big blind) folded before Flop
+Seat 7: ViiMags folded before Flop
+Seat 8: Snake__33630 showed [Jh Ad] and lost with high card Ace
+
+
+
+PokerStars Hand #259757918546: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VI (125/250) - 2026/02/17 0:41:11 UTC [2026/02/16 19:41:11 ET]
+Table '3975832669 5' 8-max Seat #4 is the button
+Seat 1: Laranjeira13 (2782 in chips) 
+Seat 2: XBenX99 (11643 in chips) 
+Seat 3: leduvel (12809 in chips) 
+Seat 4: scorza23 (4549 in chips) 
+Seat 6: AceIfCoelWould7 (9605 in chips) 
+Seat 7: ViiMags (8902 in chips) 
+Laranjeira13: posts the ante 38
+XBenX99: posts the ante 38
+leduvel: posts the ante 38
+scorza23: posts the ante 38
+AceIfCoelWould7: posts the ante 38
+ViiMags: posts the ante 38
+AceIfCoelWould7: posts small blind 125
+ViiMags: posts big blind 250
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 2s]
+matosbr is disconnected 
+Laranjeira13: folds 
+XBenX99: calls 250
+leduvel: calls 250
+scorza23: folds 
+AceIfCoelWould7: raises 300 to 550
+ViiMags: folds 
+XBenX99: calls 300
+leduvel: calls 300
+*** FLOP *** [9h 4d 5h]
+AceIfCoelWould7: checks 
+XBenX99: checks 
+leduvel: checks 
+*** TURN *** [9h 4d 5h] [9c]
+AceIfCoelWould7: checks 
+XBenX99 has timed out
+XBenX99: checks 
+leduvel: checks 
+*** RIVER *** [9h 4d 5h 9c] [7h]
+AceIfCoelWould7: checks 
+XBenX99: bets 500
+leduvel: folds 
+AceIfCoelWould7: calls 500
+*** SHOW DOWN ***
+XBenX99: shows [Th Qc] (a pair of Nines)
+AceIfCoelWould7: shows [Jc Kc] (a pair of Nines - King kicker)
+AceIfCoelWould7 collected 3128 from pot
+*** SUMMARY ***
+Total pot 3128 | Rake 0 
+Board [9h 4d 5h 9c 7h]
+Seat 1: Laranjeira13 folded before Flop (didn't bet)
+Seat 2: XBenX99 showed [Th Qc] and lost with a pair of Nines
+Seat 3: leduvel folded on the River
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 (small blind) showed [Jc Kc] and won (3128) with a pair of Nines
+Seat 7: ViiMags (big blind) folded before Flop
+
+
+
+PokerStars Hand #259757934492: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:42:49 UTC [2026/02/16 19:42:49 ET]
+Table '3975832669 5' 8-max Seat #6 is the button
+Seat 1: Laranjeira13 (2744 in chips) 
+Seat 2: XBenX99 (10555 in chips) 
+Seat 3: leduvel (12221 in chips) 
+Seat 4: scorza23 (4511 in chips) 
+Seat 5: bradzrt (5000 in chips) 
+Seat 6: AceIfCoelWould7 (11645 in chips) 
+Seat 7: ViiMags (8614 in chips) 
+Seat 8: matosbr (32133 in chips) 
+Laranjeira13: posts the ante 50
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+bradzrt: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+ViiMags: posts small blind 150
+matosbr: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 7s]
+Laranjeira13: raises 2394 to 2694 and is all-in
+XBenX99: folds 
+leduvel: folds 
+scorza23: folds 
+bradzrt: folds 
+AceIfCoelWould7: folds 
+XBenX99 is disconnected 
+ViiMags: folds 
+matosbr: calls 2394
+*** FLOP *** [Ad 3h Kh]
+*** TURN *** [Ad 3h Kh] [Ac]
+XBenX99 is disconnected 
+*** RIVER *** [Ad 3h Kh Ac] [Kc]
+*** SHOW DOWN ***
+matosbr: shows [Qc Ah] (a full house, Aces full of Kings)
+Laranjeira13: shows [2d 2s] (two pair, Aces and Kings)
+matosbr collected 5938 from pot
+Laranjeira13 finished the tournament
+*** SUMMARY ***
+Total pot 5938 | Rake 0 
+Board [Ad 3h Kh Ac Kc]
+Seat 1: Laranjeira13 showed [2d 2s] and lost with two pair, Aces and Kings
+Seat 2: XBenX99 folded before Flop (didn't bet)
+Seat 3: leduvel folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: bradzrt folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 (button) folded before Flop (didn't bet)
+Seat 7: ViiMags (small blind) folded before Flop
+Seat 8: matosbr (big blind) showed [Qc Ah] and won (5938) with a full house, Aces full of Kings
+
+
+
+PokerStars Hand #259757939674: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:43:21 UTC [2026/02/16 19:43:21 ET]
+Table '3975832669 5' 8-max Seat #7 is the button
+Seat 2: XBenX99 (10505 in chips) 
+Seat 3: leduvel (12171 in chips) 
+Seat 4: scorza23 (4461 in chips) 
+Seat 5: bradzrt (4950 in chips) 
+Seat 6: AceIfCoelWould7 (11595 in chips) 
+Seat 7: ViiMags (8414 in chips) 
+Seat 8: matosbr (35327 in chips) 
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+bradzrt: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+matosbr: posts small blind 150
+XBenX99: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 8h]
+XBenX99 is disconnected 
+leduvel: folds 
+scorza23: folds 
+bradzrt: folds 
+AceIfCoelWould7: raises 360 to 660
+ViiMags: calls 660
+matosbr: folds 
+XBenX99: folds 
+*** FLOP *** [3h 5c Qc]
+AceIfCoelWould7: checks 
+ViiMags: checks 
+*** TURN *** [3h 5c Qc] [Qh]
+AceIfCoelWould7: bets 2100
+ViiMags: calls 2100
+*** RIVER *** [3h 5c Qc Qh] [2c]
+AceIfCoelWould7: checks 
+ViiMags: checks 
+*** SHOW DOWN ***
+AceIfCoelWould7: shows [6d As] (a pair of Queens)
+ViiMags: mucks hand 
+AceIfCoelWould7 collected 6320 from pot
+*** SUMMARY ***
+Total pot 6320 | Rake 0 
+Board [3h 5c Qc Qh 2c]
+Seat 2: XBenX99 (big blind) folded before Flop
+Seat 3: leduvel folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: bradzrt folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 showed [6d As] and won (6320) with a pair of Queens
+Seat 7: ViiMags (button) mucked [Kh Th]
+Seat 8: matosbr (small blind) folded before Flop
+
+
+
+PokerStars Hand #259757950654: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:44:29 UTC [2026/02/16 19:44:29 ET]
+Table '3975832669 5' 8-max Seat #8 is the button
+Seat 1: Pelissa77 (5000 in chips) out of hand (moved from another table into small blind)
+Seat 2: XBenX99 (10155 in chips) 
+Seat 3: leduvel (12121 in chips) 
+Seat 4: scorza23 (4411 in chips) 
+Seat 6: AceIfCoelWould7 (15105 in chips) 
+Seat 7: ViiMags (5604 in chips) 
+Seat 8: matosbr (35127 in chips) 
+Pelissa77 will be allowed to play after the button
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+XBenX99: posts small blind 150
+leduvel: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 3c]
+426kgd is disconnected 
+scorza23: folds 
+AceIfCoelWould7: raises 1800 to 2100
+ViiMags: folds 
+matosbr: folds 
+XBenX99: folds 
+leduvel: folds 
+Uncalled bet (1800) returned to AceIfCoelWould7
+AceIfCoelWould7 collected 1050 from pot
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Seat 2: XBenX99 (small blind) folded before Flop
+Seat 3: leduvel (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 collected (1050)
+Seat 7: ViiMags folded before Flop (didn't bet)
+Seat 8: matosbr (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757955982: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:45:01 UTC [2026/02/16 19:45:01 ET]
+Table '3975832669 5' 8-max Seat #2 is the button
+Seat 1: Pelissa77 (5000 in chips) 
+Seat 2: XBenX99 (9955 in chips) 
+Seat 3: leduvel (11771 in chips) 
+Seat 4: scorza23 (4361 in chips) 
+Seat 5: 426kgd (20349 in chips) 
+Seat 6: AceIfCoelWould7 (15805 in chips) 
+Seat 7: ViiMags (5554 in chips) 
+Seat 8: matosbr (35077 in chips) 
+Pelissa77: posts the ante 50
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+426kgd: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+leduvel: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4s]
+426kgd: folds 
+AceIfCoelWould7: folds 
+ViiMags: folds 
+matosbr: folds 
+Pelissa77: folds 
+XBenX99: folds 
+leduvel: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: Pelissa77 folded before Flop (didn't bet)
+Seat 2: XBenX99 (button) folded before Flop (didn't bet)
+Seat 3: leduvel (small blind) folded before Flop
+Seat 4: scorza23 (big blind) collected (700)
+Seat 5: 426kgd folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 folded before Flop (didn't bet)
+Seat 7: ViiMags folded before Flop (didn't bet)
+Seat 8: matosbr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757959282: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:45:21 UTC [2026/02/16 19:45:21 ET]
+Table '3975832669 5' 8-max Seat #3 is the button
+Seat 1: Pelissa77 (4950 in chips) 
+Seat 2: XBenX99 (9905 in chips) 
+Seat 3: leduvel (11571 in chips) 
+Seat 4: scorza23 (4861 in chips) 
+Seat 5: 426kgd (20299 in chips) 
+Seat 6: AceIfCoelWould7 (15755 in chips) 
+Seat 7: ViiMags (5504 in chips) 
+Seat 8: matosbr (35027 in chips) 
+Pelissa77: posts the ante 50
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+426kgd: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+scorza23: posts small blind 150
+426kgd: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 2d]
+AceIfCoelWould7: raises 360 to 660
+ViiMags: folds 
+matosbr: folds 
+Pelissa77: folds 
+XBenX99: calls 660
+leduvel: folds 
+scorza23: raises 4151 to 4811 and is all-in
+426kgd: folds 
+AceIfCoelWould7: raises 10894 to 15705 and is all-in
+XBenX99: folds 
+Uncalled bet (10894) returned to AceIfCoelWould7
+*** FLOP *** [Qd 2s 6s]
+*** TURN *** [Qd 2s 6s] [4h]
+*** RIVER *** [Qd 2s 6s 4h] [9c]
+*** SHOW DOWN ***
+scorza23: shows [Ad 2d] (a pair of Deuces)
+AceIfCoelWould7: shows [Th As] (high card Ace)
+scorza23 collected 10982 from pot
+*** SUMMARY ***
+Total pot 10982 | Rake 0 
+Board [Qd 2s 6s 4h 9c]
+Seat 1: Pelissa77 folded before Flop (didn't bet)
+Seat 2: XBenX99 folded before Flop
+Seat 3: leduvel (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) showed [Ad 2d] and won (10982) with a pair of Deuces
+Seat 5: 426kgd (big blind) folded before Flop
+Seat 6: AceIfCoelWould7 showed [Th As] and lost with high card Ace
+Seat 7: ViiMags folded before Flop (didn't bet)
+Seat 8: matosbr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757966990: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:46:09 UTC [2026/02/16 19:46:09 ET]
+Table '3975832669 5' 8-max Seat #4 is the button
+Seat 1: Pelissa77 (4900 in chips) 
+Seat 2: XBenX99 (9195 in chips) 
+Seat 3: leduvel (11521 in chips) 
+Seat 4: scorza23 (10982 in chips) 
+Seat 5: 426kgd (19949 in chips) 
+Seat 6: AceIfCoelWould7 (10894 in chips) 
+Seat 7: ViiMags (5454 in chips) 
+Seat 8: matosbr (34977 in chips) 
+Pelissa77: posts the ante 50
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+426kgd: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+426kgd: posts small blind 150
+AceIfCoelWould7: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Jc]
+ViiMags: folds 
+matosbr: calls 300
+Pelissa77: folds 
+XBenX99: calls 300
+leduvel: folds 
+scorza23: folds 
+426kgd: calls 150
+AceIfCoelWould7: checks 
+*** FLOP *** [9h Ad 8s]
+426kgd: checks 
+AceIfCoelWould7: checks 
+matosbr: bets 900
+XBenX99: folds 
+426kgd: folds 
+AceIfCoelWould7: folds 
+Uncalled bet (900) returned to matosbr
+matosbr collected 1600 from pot
+matosbr: doesn't show hand 
+*** SUMMARY ***
+Total pot 1600 | Rake 0 
+Board [9h Ad 8s]
+Seat 1: Pelissa77 folded before Flop (didn't bet)
+Seat 2: XBenX99 folded on the Flop
+Seat 3: leduvel folded before Flop (didn't bet)
+Seat 4: scorza23 (button) folded before Flop (didn't bet)
+Seat 5: 426kgd (small blind) folded on the Flop
+Seat 6: AceIfCoelWould7 (big blind) folded on the Flop
+Seat 7: ViiMags folded before Flop (didn't bet)
+Seat 8: matosbr collected (1600)
+
+
+
+PokerStars Hand #259757974983: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:46:58 UTC [2026/02/16 19:46:58 ET]
+Table '3975832669 5' 8-max Seat #5 is the button
+Seat 1: Pelissa77 (4850 in chips) 
+Seat 2: XBenX99 (8845 in chips) 
+Seat 3: leduvel (11471 in chips) 
+Seat 4: scorza23 (10932 in chips) 
+Seat 5: 426kgd (19599 in chips) 
+Seat 6: AceIfCoelWould7 (10544 in chips) 
+Seat 7: ViiMags (5404 in chips) 
+Seat 8: matosbr (36227 in chips) 
+Pelissa77: posts the ante 50
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+426kgd: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+AceIfCoelWould7: posts small blind 150
+ViiMags: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 6c]
+matosbr: folds 
+Pelissa77: folds 
+XBenX99: folds 
+leduvel: folds 
+scorza23: raises 600 to 900
+426kgd: calls 900
+AceIfCoelWould7: folds 
+ViiMags: folds 
+*** FLOP *** [7d 9c 7h]
+scorza23: checks 
+426kgd: bets 1200
+scorza23: folds 
+Uncalled bet (1200) returned to 426kgd
+426kgd collected 2650 from pot
+426kgd: doesn't show hand 
+*** SUMMARY ***
+Total pot 2650 | Rake 0 
+Board [7d 9c 7h]
+Seat 1: Pelissa77 folded before Flop (didn't bet)
+Seat 2: XBenX99 folded before Flop (didn't bet)
+Seat 3: leduvel folded before Flop (didn't bet)
+Seat 4: scorza23 folded on the Flop
+Seat 5: 426kgd (button) collected (2650)
+Seat 6: AceIfCoelWould7 (small blind) folded before Flop
+Seat 7: ViiMags (big blind) folded before Flop
+Seat 8: matosbr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259757981143: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VII (150/300) - 2026/02/17 0:47:36 UTC [2026/02/16 19:47:36 ET]
+Table '3975832669 5' 8-max Seat #6 is the button
+Seat 1: Pelissa77 (4800 in chips) 
+Seat 2: XBenX99 (8795 in chips) 
+Seat 3: leduvel (11421 in chips) 
+Seat 4: scorza23 (9982 in chips) 
+Seat 5: 426kgd (21299 in chips) 
+Seat 6: AceIfCoelWould7 (10344 in chips) 
+Seat 7: ViiMags (5054 in chips) 
+Seat 8: matosbr (36177 in chips) 
+Pelissa77: posts the ante 50
+XBenX99: posts the ante 50
+leduvel: posts the ante 50
+scorza23: posts the ante 50
+426kgd: posts the ante 50
+AceIfCoelWould7: posts the ante 50
+ViiMags: posts the ante 50
+matosbr: posts the ante 50
+ViiMags: posts small blind 150
+matosbr: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 7d]
+Pelissa77: folds 
+XBenX99 is disconnected 
+XBenX99 has timed out while disconnected
+XBenX99: folds 
+XBenX99 is sitting out
+XBenX99 is disconnected 
+XBenX99 has returned
+leduvel: raises 300 to 600
+scorza23: folds 
+426kgd: calls 600
+AceIfCoelWould7: calls 600
+ViiMags: folds 
+matosbr: calls 300
+*** FLOP *** [2h Ks Qh]
+matosbr: bets 600
+leduvel: calls 600
+426kgd: calls 600
+AceIfCoelWould7: folds 
+*** TURN *** [2h Ks Qh] [5c]
+matosbr: bets 300
+leduvel: calls 300
+426kgd: calls 300
+*** RIVER *** [2h Ks Qh 5c] [6d]
+matosbr: checks 
+leduvel: checks 
+426kgd: checks 
+*** SHOW DOWN ***
+matosbr: shows [Tc Qc] (a pair of Queens)
+leduvel: mucks hand 
+426kgd: mucks hand 
+matosbr collected 5650 from pot
+*** SUMMARY ***
+Total pot 5650 | Rake 0 
+Board [2h Ks Qh 5c 6d]
+Seat 1: Pelissa77 folded before Flop (didn't bet)
+Seat 2: XBenX99 folded before Flop (didn't bet)
+Seat 3: leduvel mucked [2s As]
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: 426kgd mucked [9h 8h]
+Seat 6: AceIfCoelWould7 (button) folded on the Flop
+Seat 7: ViiMags (small blind) folded before Flop
+Seat 8: matosbr (big blind) showed [Tc Qc] and won (5650) with a pair of Queens
+
+
+
+PokerStars Hand #259757998655: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VIII (175/350) - 2026/02/17 0:49:25 UTC [2026/02/16 19:49:25 ET]
+Table '3975832669 5' 8-max Seat #7 is the button
+Seat 1: Pelissa77 (4750 in chips) 
+Seat 2: XBenX99 (8745 in chips) 
+Seat 3: leduvel (9871 in chips) 
+Seat 4: scorza23 (9932 in chips) 
+Seat 5: 426kgd (19749 in chips) 
+Seat 6: AceIfCoelWould7 (9694 in chips) 
+Seat 7: ViiMags (4854 in chips) 
+Seat 8: matosbr (40277 in chips) 
+Pelissa77: posts the ante 55
+XBenX99: posts the ante 55
+leduvel: posts the ante 55
+scorza23: posts the ante 55
+426kgd: posts the ante 55
+AceIfCoelWould7: posts the ante 55
+ViiMags: posts the ante 55
+matosbr: posts the ante 55
+matosbr: posts small blind 175
+Pelissa77: posts big blind 350
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Qs]
+XBenX99: folds 
+leduvel: folds 
+scorza23: folds 
+426kgd: folds 
+AceIfCoelWould7: folds 
+ViiMags: folds 
+matosbr: calls 175
+Pelissa77: checks 
+*** FLOP *** [2c Qh As]
+matosbr: bets 700
+Pelissa77: folds 
+Uncalled bet (700) returned to matosbr
+matosbr collected 1140 from pot
+matosbr: doesn't show hand 
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Board [2c Qh As]
+Seat 1: Pelissa77 (big blind) folded on the Flop
+Seat 2: XBenX99 folded before Flop (didn't bet)
+Seat 3: leduvel folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: 426kgd folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 folded before Flop (didn't bet)
+Seat 7: ViiMags (button) folded before Flop (didn't bet)
+Seat 8: matosbr (small blind) collected (1140)
+
+
+
+PokerStars Hand #259758002889: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VIII (175/350) - 2026/02/17 0:49:51 UTC [2026/02/16 19:49:51 ET]
+Table '3975832669 5' 8-max Seat #8 is the button
+Seat 1: Pelissa77 (4345 in chips) 
+Seat 2: XBenX99 (8690 in chips) 
+Seat 3: leduvel (9816 in chips) 
+Seat 4: scorza23 (9877 in chips) 
+Seat 5: 426kgd (19694 in chips) 
+Seat 6: AceIfCoelWould7 (9639 in chips) 
+Seat 7: ViiMags (4799 in chips) 
+Seat 8: matosbr (41012 in chips) 
+Pelissa77: posts the ante 55
+XBenX99: posts the ante 55
+leduvel: posts the ante 55
+scorza23: posts the ante 55
+426kgd: posts the ante 55
+AceIfCoelWould7: posts the ante 55
+ViiMags: posts the ante 55
+matosbr: posts the ante 55
+Pelissa77: posts small blind 175
+XBenX99: posts big blind 350
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Ac]
+leduvel: folds 
+scorza23: folds 
+426kgd: folds 
+AceIfCoelWould7: folds 
+ViiMags: folds 
+matosbr: calls 350
+Pelissa77: raises 3940 to 4290 and is all-in
+XBenX99: folds 
+matosbr: folds 
+Uncalled bet (3940) returned to Pelissa77
+Pelissa77 collected 1490 from pot
+Pelissa77: doesn't show hand 
+*** SUMMARY ***
+Total pot 1490 | Rake 0 
+Seat 1: Pelissa77 (small blind) collected (1490)
+Seat 2: XBenX99 (big blind) folded before Flop
+Seat 3: leduvel folded before Flop (didn't bet)
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: 426kgd folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 folded before Flop (didn't bet)
+Seat 7: ViiMags folded before Flop (didn't bet)
+Seat 8: matosbr (button) folded before Flop
+
+
+
+PokerStars Hand #259758007328: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VIII (175/350) - 2026/02/17 0:50:19 UTC [2026/02/16 19:50:19 ET]
+Table '3975832669 5' 8-max Seat #1 is the button
+Seat 1: Pelissa77 (5430 in chips) 
+Seat 2: XBenX99 (8285 in chips) 
+Seat 3: leduvel (9761 in chips) 
+Seat 4: scorza23 (9822 in chips) 
+Seat 5: 426kgd (19639 in chips) 
+Seat 6: AceIfCoelWould7 (9584 in chips) 
+Seat 7: ViiMags (4744 in chips) 
+Seat 8: matosbr (40607 in chips) 
+Pelissa77: posts the ante 55
+XBenX99: posts the ante 55
+leduvel: posts the ante 55
+scorza23: posts the ante 55
+426kgd: posts the ante 55
+AceIfCoelWould7: posts the ante 55
+ViiMags: posts the ante 55
+matosbr: posts the ante 55
+XBenX99: posts small blind 175
+leduvel: posts big blind 350
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 3h]
+scorza23: folds 
+426kgd: folds 
+AceIfCoelWould7: raises 1400 to 1750
+ViiMags: folds 
+matosbr: folds 
+Pelissa77: folds 
+XBenX99: folds 
+leduvel: folds 
+Uncalled bet (1400) returned to AceIfCoelWould7
+AceIfCoelWould7 collected 1315 from pot
+*** SUMMARY ***
+Total pot 1315 | Rake 0 
+Seat 1: Pelissa77 (button) folded before Flop (didn't bet)
+Seat 2: XBenX99 (small blind) folded before Flop
+Seat 3: leduvel (big blind) folded before Flop
+Seat 4: scorza23 folded before Flop (didn't bet)
+Seat 5: 426kgd folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 collected (1315)
+Seat 7: ViiMags folded before Flop (didn't bet)
+Seat 8: matosbr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758011177: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VIII (175/350) - 2026/02/17 0:50:44 UTC [2026/02/16 19:50:44 ET]
+Table '3975832669 5' 8-max Seat #2 is the button
+Seat 1: Pelissa77 (5375 in chips) 
+Seat 2: XBenX99 (8055 in chips) 
+Seat 3: leduvel (9356 in chips) 
+Seat 4: scorza23 (9767 in chips) 
+Seat 5: 426kgd (19584 in chips) 
+Seat 6: AceIfCoelWould7 (10494 in chips) 
+Seat 7: ViiMags (4689 in chips) 
+Seat 8: matosbr (40552 in chips) 
+Pelissa77: posts the ante 55
+XBenX99: posts the ante 55
+leduvel: posts the ante 55
+scorza23: posts the ante 55
+426kgd: posts the ante 55
+AceIfCoelWould7: posts the ante 55
+ViiMags: posts the ante 55
+matosbr: posts the ante 55
+leduvel: posts small blind 175
+scorza23: posts big blind 350
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Kc]
+426kgd: folds 
+AceIfCoelWould7: folds 
+ViiMags: raises 525 to 875
+matosbr: folds 
+Pelissa77: calls 875
+XBenX99: calls 875
+leduvel: folds 
+scorza23: raises 4115 to 4990
+ViiMags: calls 3759 and is all-in
+Pelissa77: calls 4115
+XBenX99: calls 4115
+*** FLOP *** [6c Ad 8c]
+scorza23: checks 
+Pelissa77: checks 
+XBenX99: bets 3010 and is all-in
+scorza23: calls 3010
+Pelissa77: calls 330 and is all-in
+*** TURN *** [6c Ad 8c] [8d]
+*** RIVER *** [6c Ad 8c 8d] [5d]
+*** SHOW DOWN ***
+scorza23: shows [Ks Kc] (two pair, Kings and Eights)
+XBenX99: shows [Ah 5s] (two pair, Aces and Eights)
+XBenX99 collected 5360 from side pot-2 
+Pelissa77: shows [4s 4d] (two pair, Eights and Fours)
+XBenX99 collected 2058 from side pot-1 
+ViiMags: shows [7d 7c] (two pair, Eights and Sevens)
+XBenX99 collected 19151 from main pot
+Pelissa77 finished the tournament
+ViiMags finished the tournament
+*** SUMMARY ***
+Total pot 26569 Main pot 19151. Side pot-1 2058. Side pot-2 5360. | Rake 0 
+Board [6c Ad 8c 8d 5d]
+Seat 1: Pelissa77 showed [4s 4d] and lost with two pair, Eights and Fours
+Seat 2: XBenX99 (button) showed [Ah 5s] and won (26569) with two pair, Aces and Eights
+Seat 3: leduvel (small blind) folded before Flop
+Seat 4: scorza23 (big blind) showed [Ks Kc] and lost with two pair, Kings and Eights
+Seat 5: 426kgd folded before Flop (didn't bet)
+Seat 6: AceIfCoelWould7 folded before Flop (didn't bet)
+Seat 7: ViiMags showed [7d 7c] and lost with two pair, Eights and Sevens
+Seat 8: matosbr folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259758021060: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VIII (175/350) - 2026/02/17 0:51:46 UTC [2026/02/16 19:51:46 ET]
+Table '3975832669 5' 8-max Seat #3 is the button
+Seat 2: XBenX99 (26569 in chips) 
+Seat 3: leduvel (9126 in chips) 
+Seat 4: scorza23 (1712 in chips) 
+Seat 5: 426kgd (19529 in chips) 
+Seat 6: AceIfCoelWould7 (10439 in chips) 
+Seat 7: Sanjua66 (5000 in chips) 
+Seat 8: matosbr (40497 in chips) 
+XBenX99: posts the ante 55
+leduvel: posts the ante 55
+scorza23: posts the ante 55
+426kgd: posts the ante 55
+AceIfCoelWould7: posts the ante 55
+Sanjua66: posts the ante 55
+matosbr: posts the ante 55
+scorza23: posts small blind 175
+426kgd: posts big blind 350
+*** HOLE CARDS ***
+Dealt to scorza23 [As 6c]
+Sanjua66 is disconnected 
+AceIfCoelWould7: folds 
+Sanjua66: folds 
+matosbr: calls 350
+XBenX99: folds 
+leduvel: folds 
+scorza23: raises 1307 to 1657 and is all-in
+426kgd: calls 1307
+matosbr: calls 1307
+*** FLOP *** [3h Ad 5s]
+426kgd: checks 
+matosbr: bets 1050
+426kgd: folds 
+Uncalled bet (1050) returned to matosbr
+*** TURN *** [3h Ad 5s] [8d]
+*** RIVER *** [3h Ad 5s 8d] [Th]
+*** SHOW DOWN ***
+scorza23: shows [As 6c] (a pair of Aces)
+matosbr: shows [Tc Qh] (a pair of Tens)
+scorza23 collected 5356 from pot
+*** SUMMARY ***
+Total pot 5356 | Rake 0 
+Board [3h Ad 5s 8d Th]
+Seat 2: XBenX99 folded before Flop (didn't bet)
+Seat 3: leduvel (button) folded before Flop (didn't bet)
+Seat 4: scorza23 (small blind) showed [As 6c] and won (5356) with a pair of Aces
+Seat 5: 426kgd (big blind) folded on the Flop
+Seat 6: AceIfCoelWould7 folded before Flop (didn't bet)
+Seat 7: Sanjua66 folded before Flop (didn't bet)
+Seat 8: matosbr showed [Tc Qh] and lost with a pair of Tens
+
+
+
+PokerStars Hand #259758029251: Tournament #3975832669, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level VIII (175/350) - 2026/02/17 0:52:38 UTC [2026/02/16 19:52:38 ET]
+Table '3975832669 5' 8-max Seat #4 is the button
+Seat 2: XBenX99 (26514 in chips) 
+Seat 3: leduvel (9071 in chips) 
+Seat 4: scorza23 (5356 in chips) 
+Seat 5: 426kgd (17817 in chips) 
+Seat 6: AceIfCoelWould7 (10384 in chips) 
+Seat 7: Sanjua66 (4945 in chips) 
+Seat 8: matosbr (38785 in chips) 
+XBenX99: posts the ante 55
+leduvel: posts the ante 55
+scorza23: posts the ante 55
+426kgd: posts the ante 55
+AceIfCoelWould7: posts the ante 55
+Sanjua66: posts the ante 55
+matosbr: posts the ante 55
+426kgd: posts small blind 175
+AceIfCoelWould7: posts big blind 350
+*** HOLE CARDS ***
+Dealt to scorza23 [As 4c]
+Sanjua66: raises 350 to 700
+matosbr: folds 
+XBenX99: calls 700
+leduvel: folds 
+scorza23: raises 4601 to 5301 and is all-in
+426kgd: folds 
+AceIfCoelWould7: folds 
+Sanjua66: calls 4190 and is all-in
+XBenX99: calls 4601
+*** FLOP *** [Kc 7h 3c]
+*** TURN *** [Kc 7h 3c] [Jc]
+*** RIVER *** [Kc 7h 3c Jc] [7s]
+*** SHOW DOWN ***
+XBenX99: shows [9s Kd] (two pair, Kings and Sevens)
+scorza23: shows [As 4c] (a pair of Sevens)
+XBenX99 collected 822 from side pot
+Sanjua66: shows [Ah 6h] (a pair of Sevens)
+XBenX99 collected 15580 from main pot
+scorza23 finished the tournament
+Sanjua66 finished the tournament
+*** SUMMARY ***
+Total pot 16402 Main pot 15580. Side pot 822. | Rake 0 
+Board [Kc 7h 3c Jc 7s]
+Seat 2: XBenX99 showed [9s Kd] and won (16402) with two pair, Kings and Sevens
+Seat 3: leduvel folded before Flop (didn't bet)
+Seat 4: scorza23 (button) showed [As 4c] and lost with a pair of Sevens
+Seat 5: 426kgd (small blind) folded before Flop
+Seat 6: AceIfCoelWould7 (big blind) folded before Flop
+Seat 7: Sanjua66 showed [Ah 6h] and lost with a pair of Sevens
+Seat 8: matosbr folded before Flop (didn't bet)
+
+
+

@@ -1,0 +1,56 @@
+﻿PokerStars Hand #259762522436: Tournament #3975960271, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:19:53 UTC [2026/02/17 9:19:53 ET]
+Table '3975960271 1' 9-max Seat #1 is the button
+Seat 1: Dofeitosa (1500 in chips) 
+Seat 2: avonni d3 (1500 in chips) 
+Seat 3: MCLMUSIC (1500 in chips) 
+Seat 4: marcosss516 (1500 in chips) 
+Seat 5: WheelerFox (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 7: chrysz13 (1500 in chips) 
+Seat 8: copetti37 (1500 in chips) is sitting out
+Seat 9: Servantorz (1500 in chips) 
+avonni d3: posts small blind 10
+MCLMUSIC: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Ah]
+copetti37 is disconnected 
+copetti37 has returned
+marcosss516: folds 
+WheelerFox: folds 
+scorza23: raises 22 to 42
+chrysz13: raises 118 to 160
+copetti37 has timed out
+copetti37: folds 
+copetti37 is sitting out
+Servantorz: folds 
+Dofeitosa: folds 
+avonni d3: folds 
+MCLMUSIC: folds 
+scorza23: calls 118
+*** FLOP *** [Ts Ac Ks]
+scorza23: bets 350
+chrysz13: raises 990 to 1340 and is all-in
+scorza23: calls 990 and is all-in
+copetti37 has returned
+*** TURN *** [Ts Ac Ks] [As]
+*** RIVER *** [Ts Ac Ks As] [7h]
+*** SHOW DOWN ***
+scorza23: shows [9h Ah] (three of a kind, Aces)
+chrysz13: shows [Kh Kd] (a full house, Kings full of Aces)
+chrysz13 collected 3030 from pot
+scorza23 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3030 | Rake 0 
+Board [Ts Ac Ks As 7h]
+Seat 1: Dofeitosa (button) folded before Flop (didn't bet)
+Seat 2: avonni d3 (small blind) folded before Flop
+Seat 3: MCLMUSIC (big blind) folded before Flop
+Seat 4: marcosss516 folded before Flop (didn't bet)
+Seat 5: WheelerFox folded before Flop (didn't bet)
+Seat 6: scorza23 showed [9h Ah] and lost with three of a kind, Aces
+Seat 7: chrysz13 showed [Kh Kd] and won (3030) with a full house, Kings full of Aces
+Seat 8: copetti37 folded before Flop (didn't bet)
+Seat 9: Servantorz folded before Flop (didn't bet)
+
+
+

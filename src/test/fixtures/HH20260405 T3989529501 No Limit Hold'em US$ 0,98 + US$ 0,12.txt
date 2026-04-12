@@ -1,0 +1,2361 @@
+﻿PokerStars Hand #260356779502: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 18:24:54 UTC [2026/04/05 14:24:54 ET]
+Table '3989529501 4' 8-max Seat #2 is the button
+Seat 1: 21Dreski (5980 in chips) 
+Seat 2: lntruso (3990 in chips) 
+Seat 3: lauu1208 (5035 in chips) 
+Seat 4: Morschmaker (4770 in chips) 
+Seat 5: KnoxvilleGirl (17283 in chips) 
+Seat 6: Bongo59 (3784 in chips) 
+Seat 7: scorza23 (5000 in chips) 
+Seat 8: cappoccino (11339 in chips) 
+21Dreski: posts the ante 60
+lntruso: posts the ante 60
+lauu1208: posts the ante 60
+Morschmaker: posts the ante 60
+KnoxvilleGirl: posts the ante 60
+Bongo59: posts the ante 60
+scorza23: posts the ante 60
+cappoccino: posts the ante 60
+lauu1208: posts small blind 200
+Morschmaker: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 7d]
+KnoxvilleGirl: calls 400
+Bongo59: calls 400
+scorza23: folds 
+cappoccino: folds 
+21Dreski: calls 400
+lntruso: calls 400
+lauu1208: folds 
+Morschmaker: raises 4310 to 4710 and is all-in
+KnoxvilleGirl: folds 
+Bongo59: folds 
+21Dreski: folds 
+lntruso: folds 
+Uncalled bet (4310) returned to Morschmaker
+Morschmaker collected 2680 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 2680 | Rake 0 
+Seat 1: 21Dreski folded before Flop
+Seat 2: lntruso (button) folded before Flop
+Seat 3: lauu1208 (small blind) folded before Flop
+Seat 4: Morschmaker (big blind) collected (2680)
+Seat 5: KnoxvilleGirl folded before Flop
+Seat 6: Bongo59 folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356789093: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 18:25:32 UTC [2026/04/05 14:25:32 ET]
+Table '3989529501 4' 8-max Seat #3 is the button
+Seat 1: 21Dreski (5520 in chips) 
+Seat 2: lntruso (3530 in chips) 
+Seat 3: lauu1208 (4775 in chips) 
+Seat 4: Morschmaker (6990 in chips) 
+Seat 5: KnoxvilleGirl (16823 in chips) 
+Seat 6: Bongo59 (3324 in chips) 
+Seat 7: scorza23 (4940 in chips) 
+Seat 8: cappoccino (11279 in chips) 
+21Dreski: posts the ante 60
+lntruso: posts the ante 60
+lauu1208: posts the ante 60
+Morschmaker: posts the ante 60
+KnoxvilleGirl: posts the ante 60
+Bongo59: posts the ante 60
+scorza23: posts the ante 60
+cappoccino: posts the ante 60
+Morschmaker: posts small blind 200
+KnoxvilleGirl: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 8c]
+Bongo59: calls 400
+scorza23: raises 800 to 1200
+cappoccino: folds 
+21Dreski: folds 
+lntruso: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Bongo59: calls 800
+*** FLOP *** [6s 8s 7c]
+Bongo59: checks 
+scorza23: bets 800
+Bongo59: calls 800
+*** TURN *** [6s 8s 7c] [7d]
+Bongo59: checks 
+scorza23: bets 800
+Bongo59: calls 800
+*** RIVER *** [6s 8s 7c 7d] [3d]
+Bongo59: checks 
+scorza23: bets 800
+Bongo59: calls 464 and is all-in
+Uncalled bet (336) returned to scorza23
+*** SHOW DOWN ***
+scorza23: shows [8d 8c] (a full house, Eights full of Sevens)
+Bongo59: shows [Ks Qc] (a pair of Sevens)
+scorza23 collected 7608 from pot
+Bongo59 finished the tournament
+*** SUMMARY ***
+Total pot 7608 | Rake 0 
+Board [6s 8s 7c 7d 3d]
+Seat 1: 21Dreski folded before Flop (didn't bet)
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 (button) folded before Flop (didn't bet)
+Seat 4: Morschmaker (small blind) folded before Flop
+Seat 5: KnoxvilleGirl (big blind) folded before Flop
+Seat 6: Bongo59 showed [Ks Qc] and lost with a pair of Sevens
+Seat 7: scorza23 showed [8d 8c] and won (7608) with a full house, Eights full of Sevens
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356805499: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 18:26:38 UTC [2026/04/05 14:26:38 ET]
+Table '3989529501 4' 8-max Seat #4 is the button
+Seat 1: 21Dreski (5460 in chips) 
+Seat 2: lntruso (3470 in chips) 
+Seat 3: lauu1208 (4715 in chips) 
+Seat 4: Morschmaker (6730 in chips) 
+Seat 5: KnoxvilleGirl (16363 in chips) 
+Seat 7: scorza23 (9224 in chips) 
+Seat 8: cappoccino (11219 in chips) 
+21Dreski: posts the ante 60
+lntruso: posts the ante 60
+lauu1208: posts the ante 60
+Morschmaker: posts the ante 60
+KnoxvilleGirl: posts the ante 60
+scorza23: posts the ante 60
+cappoccino: posts the ante 60
+KnoxvilleGirl: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 4c]
+cappoccino: folds 
+21Dreski: folds 
+lntruso: raises 3010 to 3410 and is all-in
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+scorza23: folds 
+Uncalled bet (3010) returned to lntruso
+lntruso collected 1420 from pot
+lntruso: doesn't show hand 
+*** SUMMARY ***
+Total pot 1420 | Rake 0 
+Seat 1: 21Dreski folded before Flop (didn't bet)
+Seat 2: lntruso collected (1420)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker (button) folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356814726: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 18:27:15 UTC [2026/04/05 14:27:15 ET]
+Table '3989529501 4' 8-max Seat #5 is the button
+Seat 1: 21Dreski (5400 in chips) 
+Seat 2: lntruso (4430 in chips) 
+Seat 3: lauu1208 (4655 in chips) 
+Seat 4: Morschmaker (6670 in chips) 
+Seat 5: KnoxvilleGirl (16103 in chips) 
+Seat 6: Rafael Noss (5000 in chips) out of hand (moved from another table into small blind)
+Seat 7: scorza23 (8764 in chips) 
+Seat 8: cappoccino (11159 in chips) 
+Rafael Noss will be allowed to play after the button
+21Dreski: posts the ante 60
+lntruso: posts the ante 60
+lauu1208: posts the ante 60
+Morschmaker: posts the ante 60
+KnoxvilleGirl: posts the ante 60
+scorza23: posts the ante 60
+cappoccino: posts the ante 60
+scorza23: posts small blind 200
+cappoccino: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 9s]
+21Dreski: calls 400
+lntruso: folds 
+lauu1208: raises 4195 to 4595 and is all-in
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+scorza23: folds 
+cappoccino: folds 
+21Dreski: calls 4195
+*** FLOP *** [7s Qh 4h]
+*** TURN *** [7s Qh 4h] [3h]
+*** RIVER *** [7s Qh 4h 3h] [4c]
+*** SHOW DOWN ***
+21Dreski: shows [Ad 2s] (a pair of Fours)
+lauu1208: shows [Ac Kh] (a pair of Fours - Ace+King kicker)
+lauu1208 collected 10210 from pot
+*** SUMMARY ***
+Total pot 10210 | Rake 0 
+Board [7s Qh 4h 3h 4c]
+Seat 1: 21Dreski showed [Ad 2s] and lost with a pair of Fours
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 showed [Ac Kh] and won (10210) with a pair of Fours
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: cappoccino (big blind) folded before Flop
+
+
+
+PokerStars Hand #260356825374: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 18:27:57 UTC [2026/04/05 14:27:57 ET]
+Table '3989529501 4' 8-max Seat #7 is the button
+Seat 1: 21Dreski (745 in chips) 
+Seat 2: lntruso (4370 in chips) 
+Seat 3: lauu1208 (10210 in chips) 
+Seat 4: Morschmaker (6610 in chips) 
+Seat 5: KnoxvilleGirl (16043 in chips) 
+Seat 6: Rafael Noss (5000 in chips) 
+Seat 7: scorza23 (8504 in chips) 
+Seat 8: cappoccino (10699 in chips) 
+21Dreski: posts the ante 60
+lntruso: posts the ante 60
+lauu1208: posts the ante 60
+Morschmaker: posts the ante 60
+KnoxvilleGirl: posts the ante 60
+Rafael Noss: posts the ante 60
+scorza23: posts the ante 60
+cappoccino: posts the ante 60
+cappoccino: posts small blind 200
+21Dreski: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ks]
+lntruso: folds 
+lauu1208: raises 400 to 800
+Morschmaker: folds 
+KnoxvilleGirl: calls 800
+Rafael Noss: calls 800
+scorza23: folds 
+cappoccino: folds 
+21Dreski: calls 285 and is all-in
+*** FLOP *** [Tc Qh 9s]
+lauu1208: checks 
+KnoxvilleGirl: checks 
+Rafael Noss: checks 
+*** TURN *** [Tc Qh 9s] [4d]
+lauu1208: bets 941
+KnoxvilleGirl: folds 
+Rafael Noss: folds 
+Uncalled bet (941) returned to lauu1208
+*** RIVER *** [Tc Qh 9s 4d] [8d]
+*** SHOW DOWN ***
+lauu1208: shows [Qc Jc] (a straight, Eight to Queen)
+lauu1208 collected 345 from side pot
+21Dreski: shows [Kc 8s] (a pair of Eights)
+lauu1208 collected 3420 from main pot
+21Dreski finished the tournament
+*** SUMMARY ***
+Total pot 3765 Main pot 3420. Side pot 345. | Rake 0 
+Board [Tc Qh 9s 4d 8d]
+Seat 1: 21Dreski (big blind) showed [Kc 8s] and lost with a pair of Eights
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 showed [Qc Jc] and won (3765) with a straight, Eight to Queen
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded on the Turn
+Seat 6: Rafael Noss folded on the Turn
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: cappoccino (small blind) folded before Flop
+
+
+
+PokerStars Hand #260356837403: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:28:45 UTC [2026/04/05 14:28:45 ET]
+Table '3989529501 4' 8-max Seat #8 is the button
+Seat 2: lntruso (4310 in chips) 
+Seat 3: lauu1208 (13115 in chips) 
+Seat 4: Morschmaker (6550 in chips) 
+Seat 5: KnoxvilleGirl (15183 in chips) 
+Seat 6: Rafael Noss (4140 in chips) 
+Seat 7: scorza23 (8444 in chips) 
+Seat 8: cappoccino (10439 in chips) 
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+Rafael Noss: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+lntruso: posts small blind 250
+lauu1208: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [7s Tc]
+Morschmaker: raises 5970 to 6470 and is all-in
+KnoxvilleGirl: folds 
+Rafael Noss: folds 
+scorza23: folds 
+cappoccino: folds 
+lntruso: folds 
+lauu1208: folds 
+Uncalled bet (5970) returned to Morschmaker
+Morschmaker collected 1810 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 1810 | Rake 0 
+Seat 2: lntruso (small blind) folded before Flop
+Seat 3: lauu1208 (big blind) folded before Flop
+Seat 4: Morschmaker collected (1810)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Rafael Noss folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356841311: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:29:00 UTC [2026/04/05 14:29:00 ET]
+Table '3989529501 4' 8-max Seat #2 is the button
+Seat 2: lntruso (3980 in chips) 
+Seat 3: lauu1208 (12535 in chips) 
+Seat 4: Morschmaker (7780 in chips) 
+Seat 5: KnoxvilleGirl (15103 in chips) 
+Seat 6: Rafael Noss (4060 in chips) 
+Seat 7: scorza23 (8364 in chips) 
+Seat 8: cappoccino (10359 in chips) 
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+Rafael Noss: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+lauu1208: posts small blind 250
+Morschmaker: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8d]
+044078 is disconnected 
+KnoxvilleGirl: folds 
+Rafael Noss: folds 
+scorza23: folds 
+cappoccino: folds 
+lntruso: folds 
+lauu1208: folds 
+Uncalled bet (250) returned to Morschmaker
+Morschmaker collected 1060 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 1060 | Rake 0 
+Seat 2: lntruso (button) folded before Flop (didn't bet)
+Seat 3: lauu1208 (small blind) folded before Flop
+Seat 4: Morschmaker (big blind) collected (1060)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Rafael Noss folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356844579: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:29:13 UTC [2026/04/05 14:29:13 ET]
+Table '3989529501 4' 8-max Seat #3 is the button
+Seat 1: 044078 (6582 in chips) 
+Seat 2: lntruso (3900 in chips) 
+Seat 3: lauu1208 (12205 in chips) 
+Seat 4: Morschmaker (8510 in chips) 
+Seat 5: KnoxvilleGirl (15023 in chips) 
+Seat 6: Rafael Noss (3980 in chips) 
+Seat 7: scorza23 (8284 in chips) 
+Seat 8: cappoccino (10279 in chips) 
+044078: posts the ante 80
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+Rafael Noss: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+Morschmaker: posts small blind 250
+KnoxvilleGirl: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Kd]
+Rafael Noss: folds 
+scorza23: raises 500 to 1000
+cappoccino: folds 
+044078: folds 
+lntruso: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: calls 500
+*** FLOP *** [7s 3c 6c]
+KnoxvilleGirl: checks 
+scorza23: bets 1500
+KnoxvilleGirl: folds 
+Uncalled bet (1500) returned to scorza23
+scorza23 collected 2890 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2890 | Rake 0 
+Board [7s 3c 6c]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 (button) folded before Flop (didn't bet)
+Seat 4: Morschmaker (small blind) folded before Flop
+Seat 5: KnoxvilleGirl (big blind) folded on the Flop
+Seat 6: Rafael Noss folded before Flop (didn't bet)
+Seat 7: scorza23 collected (2890)
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356850974: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:29:39 UTC [2026/04/05 14:29:39 ET]
+Table '3989529501 4' 8-max Seat #4 is the button
+Seat 1: 044078 (6502 in chips) 
+Seat 2: lntruso (3820 in chips) 
+Seat 3: lauu1208 (12125 in chips) 
+Seat 4: Morschmaker (8180 in chips) 
+Seat 5: KnoxvilleGirl (13943 in chips) 
+Seat 6: Rafael Noss (3900 in chips) 
+Seat 7: scorza23 (10094 in chips) 
+Seat 8: cappoccino (10199 in chips) 
+044078: posts the ante 80
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+Rafael Noss: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+KnoxvilleGirl: posts small blind 250
+Rafael Noss: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc Jh]
+scorza23: folds 
+cappoccino: folds 
+044078: raises 5922 to 6422 and is all-in
+lntruso: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Rafael Noss: folds 
+Uncalled bet (5922) returned to 044078
+044078 collected 1890 from pot
+044078: doesn't show hand 
+*** SUMMARY ***
+Total pot 1890 | Rake 0 
+Seat 1: 044078 collected (1890)
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker (button) folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (small blind) folded before Flop
+Seat 6: Rafael Noss (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356860190: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:30:15 UTC [2026/04/05 14:30:15 ET]
+Table '3989529501 4' 8-max Seat #5 is the button
+Seat 1: 044078 (7812 in chips) 
+Seat 2: lntruso (3740 in chips) 
+Seat 3: lauu1208 (12045 in chips) 
+Seat 4: Morschmaker (8100 in chips) 
+Seat 5: KnoxvilleGirl (13613 in chips) 
+Seat 6: Rafael Noss (3320 in chips) 
+Seat 7: scorza23 (10014 in chips) 
+Seat 8: cappoccino (10119 in chips) 
+044078: posts the ante 80
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+Rafael Noss: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+Rafael Noss: posts small blind 250
+scorza23: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 8s]
+cappoccino: folds 
+044078: folds 
+lntruso: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Rafael Noss: raises 2740 to 3240 and is all-in
+scorza23: folds 
+Uncalled bet (2740) returned to Rafael Noss
+Rafael Noss collected 1640 from pot
+Rafael Noss: doesn't show hand 
+*** SUMMARY ***
+Total pot 1640 | Rake 0 
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (button) folded before Flop (didn't bet)
+Seat 6: Rafael Noss (small blind) collected (1640)
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356866810: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:30:41 UTC [2026/04/05 14:30:41 ET]
+Table '3989529501 4' 8-max Seat #6 is the button
+Seat 1: 044078 (7732 in chips) 
+Seat 2: lntruso (3660 in chips) 
+Seat 3: lauu1208 (11965 in chips) 
+Seat 4: Morschmaker (8020 in chips) 
+Seat 5: KnoxvilleGirl (13533 in chips) 
+Seat 6: Rafael Noss (4380 in chips) 
+Seat 7: scorza23 (9434 in chips) 
+Seat 8: cappoccino (10039 in chips) 
+044078: posts the ante 80
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+Rafael Noss: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+scorza23: posts small blind 250
+cappoccino: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 6h]
+044078: folds 
+lntruso: folds 
+lauu1208: raises 500 to 1000
+Morschmaker: calls 1000
+KnoxvilleGirl: folds 
+Rafael Noss: folds 
+scorza23: folds 
+cappoccino: folds 
+*** FLOP *** [3h 7h Qs]
+lauu1208: bets 848
+Morschmaker: calls 848
+*** TURN *** [3h 7h Qs] [Jh]
+lauu1208: bets 1272
+Morschmaker: raises 4820 to 6092 and is all-in
+lauu1208: folds 
+Uncalled bet (4820) returned to Morschmaker
+Morschmaker collected 7630 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 7630 | Rake 0 
+Board [3h 7h Qs Jh]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 folded on the Turn
+Seat 4: Morschmaker collected (7630)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Rafael Noss (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: cappoccino (big blind) folded before Flop
+
+
+
+PokerStars Hand #260356878781: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:31:28 UTC [2026/04/05 14:31:28 ET]
+Table '3989529501 4' 8-max Seat #7 is the button
+Seat 1: 044078 (7652 in chips) 
+Seat 2: lntruso (3580 in chips) 
+Seat 3: lauu1208 (8765 in chips) 
+Seat 4: Morschmaker (12450 in chips) 
+Seat 5: KnoxvilleGirl (13453 in chips) 
+Seat 6: Rafael Noss (4300 in chips) 
+Seat 7: scorza23 (9104 in chips) 
+Seat 8: cappoccino (9459 in chips) 
+044078: posts the ante 80
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+Rafael Noss: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+cappoccino: posts small blind 250
+044078: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 9s]
+lntruso: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Rafael Noss: raises 3720 to 4220 and is all-in
+scorza23: calls 4220
+cappoccino: folds 
+044078: folds 
+*** FLOP *** [4h 9d 4s]
+*** TURN *** [4h 9d 4s] [7d]
+*** RIVER *** [4h 9d 4s 7d] [Jh]
+*** SHOW DOWN ***
+Rafael Noss: shows [5s 5c] (two pair, Fives and Fours)
+scorza23: shows [9h 9s] (a full house, Nines full of Fours)
+scorza23 collected 9830 from pot
+Rafael Noss finished the tournament in 176th place
+*** SUMMARY ***
+Total pot 9830 | Rake 0 
+Board [4h 9d 4s 7d Jh]
+Seat 1: 044078 (big blind) folded before Flop
+Seat 2: lntruso folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Rafael Noss showed [5s 5c] and lost with two pair, Fives and Fours
+Seat 7: scorza23 (button) showed [9h 9s] and won (9830) with a full house, Nines full of Fours
+Seat 8: cappoccino (small blind) folded before Flop
+
+
+
+PokerStars Hand #260356886042: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:31:57 UTC [2026/04/05 14:31:57 ET]
+Table '3989529501 4' 8-max Seat #8 is the button
+Seat 1: 044078 (7072 in chips) 
+Seat 2: lntruso (3500 in chips) 
+Seat 3: lauu1208 (8685 in chips) 
+Seat 4: Morschmaker (12370 in chips) 
+Seat 5: KnoxvilleGirl (13373 in chips) 
+Seat 7: scorza23 (14634 in chips) 
+Seat 8: cappoccino (9129 in chips) 
+044078: posts the ante 80
+lntruso: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+044078: posts small blind 250
+lntruso: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 3s]
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+scorza23: folds 
+cappoccino: calls 500
+044078: calls 250
+lntruso: raises 2920 to 3420 and is all-in
+cappoccino: raises 5629 to 9049 and is all-in
+044078: calls 6492 and is all-in
+Uncalled bet (2057) returned to cappoccino
+*** FLOP *** [5s 4d 4c]
+*** TURN *** [5s 4d 4c] [5c]
+*** RIVER *** [5s 4d 4c 5c] [2c]
+*** SHOW DOWN ***
+044078: shows [8c Kc] (a flush, King high)
+cappoccino: shows [Qs Qd] (two pair, Queens and Fives)
+044078 collected 7144 from side pot
+lntruso: shows [Qc Kh] (two pair, Fives and Fours)
+044078 collected 10820 from main pot
+lntruso finished the tournament in 170th place
+*** SUMMARY ***
+Total pot 17964 Main pot 10820. Side pot 7144. | Rake 0 
+Board [5s 4d 4c 5c 2c]
+Seat 1: 044078 (small blind) showed [8c Kc] and won (17964) with a flush, King high
+Seat 2: lntruso (big blind) showed [Qc Kh] and lost with two pair, Fives and Fours
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino (button) showed [Qs Qd] and lost with two pair, Queens and Fives
+
+
+
+PokerStars Hand #260356899330: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level X (250/500) - 2026/04/05 18:32:49 UTC [2026/04/05 14:32:49 ET]
+Table '3989529501 4' 8-max Seat #1 is the button
+Seat 1: 044078 (17964 in chips) 
+Seat 3: lauu1208 (8605 in chips) 
+Seat 4: Morschmaker (12290 in chips) 
+Seat 5: KnoxvilleGirl (13293 in chips) 
+Seat 7: scorza23 (14554 in chips) 
+Seat 8: cappoccino (2057 in chips) 
+044078: posts the ante 80
+lauu1208: posts the ante 80
+Morschmaker: posts the ante 80
+KnoxvilleGirl: posts the ante 80
+scorza23: posts the ante 80
+cappoccino: posts the ante 80
+lauu1208: posts small blind 250
+Morschmaker: posts big blind 500
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ad]
+Valila11 is disconnected 
+KnoxvilleGirl: calls 500
+scorza23: folds 
+cappoccino: folds 
+044078: folds 
+lauu1208: calls 250
+Morschmaker: checks 
+*** FLOP *** [4d Td 5d]
+lauu1208: checks 
+Morschmaker: checks 
+KnoxvilleGirl: checks 
+*** TURN *** [4d Td 5d] [6c]
+lauu1208: checks 
+Morschmaker: checks 
+KnoxvilleGirl: checks 
+*** RIVER *** [4d Td 5d 6c] [2d]
+lauu1208: checks 
+Morschmaker: bets 500
+KnoxvilleGirl: folds 
+lauu1208: calls 500
+*** SHOW DOWN ***
+Morschmaker: shows [3h 8c] (a straight, Deuce to Six)
+lauu1208: shows [6d Ac] (a flush, Ten high)
+lauu1208 collected 2980 from pot
+*** SUMMARY ***
+Total pot 2980 | Rake 0 
+Board [4d Td 5d 6c 2d]
+Seat 1: 044078 (button) folded before Flop (didn't bet)
+Seat 3: lauu1208 (small blind) showed [6d Ac] and won (2980) with a flush, Ten high
+Seat 4: Morschmaker (big blind) showed [3h 8c] and lost with a straight, Deuce to Six
+Seat 5: KnoxvilleGirl folded on the River
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356913753: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XI (300/600) - 2026/04/05 18:33:46 UTC [2026/04/05 14:33:46 ET]
+Table '3989529501 4' 8-max Seat #3 is the button
+Seat 1: 044078 (17884 in chips) 
+Seat 2: Fjzxuxaaaa (16876 in chips) 
+Seat 3: lauu1208 (10505 in chips) 
+Seat 4: Morschmaker (11210 in chips) 
+Seat 5: KnoxvilleGirl (12713 in chips) 
+Seat 6: Valila11 (13804 in chips) 
+Seat 7: scorza23 (14474 in chips) 
+Seat 8: cappoccino (1977 in chips) 
+044078: posts the ante 90
+Fjzxuxaaaa: posts the ante 90
+lauu1208: posts the ante 90
+Morschmaker: posts the ante 90
+KnoxvilleGirl: posts the ante 90
+Valila11: posts the ante 90
+scorza23: posts the ante 90
+cappoccino: posts the ante 90
+Morschmaker: posts small blind 300
+KnoxvilleGirl: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 5s]
+Valila11: folds 
+scorza23: folds 
+cappoccino: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: raises 600 to 1200
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Uncalled bet (600) returned to lauu1208
+lauu1208 collected 2220 from pot
+lauu1208: doesn't show hand 
+*** SUMMARY ***
+Total pot 2220 | Rake 0 
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 (button) collected (2220)
+Seat 4: Morschmaker (small blind) folded before Flop
+Seat 5: KnoxvilleGirl (big blind) folded before Flop
+Seat 6: Valila11 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356918784: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XI (300/600) - 2026/04/05 18:34:06 UTC [2026/04/05 14:34:06 ET]
+Table '3989529501 4' 8-max Seat #4 is the button
+Seat 1: 044078 (17794 in chips) 
+Seat 2: Fjzxuxaaaa (16786 in chips) 
+Seat 3: lauu1208 (12035 in chips) 
+Seat 4: Morschmaker (10820 in chips) 
+Seat 5: KnoxvilleGirl (12023 in chips) 
+Seat 6: Valila11 (13714 in chips) 
+Seat 7: scorza23 (14384 in chips) 
+Seat 8: cappoccino (1887 in chips) 
+044078: posts the ante 90
+Fjzxuxaaaa: posts the ante 90
+lauu1208: posts the ante 90
+Morschmaker: posts the ante 90
+KnoxvilleGirl: posts the ante 90
+Valila11: posts the ante 90
+scorza23: posts the ante 90
+cappoccino: posts the ante 90
+KnoxvilleGirl: posts small blind 300
+Valila11: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh Kd]
+scorza23: raises 600 to 1200
+cappoccino: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: calls 900
+Valila11: folds 
+*** FLOP *** [3d Tc 8s]
+KnoxvilleGirl: checks 
+scorza23: bets 1200
+KnoxvilleGirl: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 3720 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 3720 | Rake 0 
+Board [3d Tc 8s]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker (button) folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (small blind) folded on the Flop
+Seat 6: Valila11 (big blind) folded before Flop
+Seat 7: scorza23 collected (3720)
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356927072: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XI (300/600) - 2026/04/05 18:34:39 UTC [2026/04/05 14:34:39 ET]
+Table '3989529501 4' 8-max Seat #5 is the button
+Seat 1: 044078 (17704 in chips) 
+Seat 2: Fjzxuxaaaa (16696 in chips) 
+Seat 3: lauu1208 (11945 in chips) 
+Seat 4: Morschmaker (10730 in chips) 
+Seat 5: KnoxvilleGirl (10733 in chips) 
+Seat 6: Valila11 (13024 in chips) 
+Seat 7: scorza23 (16814 in chips) 
+Seat 8: cappoccino (1797 in chips) 
+044078: posts the ante 90
+Fjzxuxaaaa: posts the ante 90
+lauu1208: posts the ante 90
+Morschmaker: posts the ante 90
+KnoxvilleGirl: posts the ante 90
+Valila11: posts the ante 90
+scorza23: posts the ante 90
+cappoccino: posts the ante 90
+Valila11: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Qc]
+cappoccino: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: raises 600 to 1200
+KnoxvilleGirl: calls 1200
+Valila11: calls 900
+scorza23: calls 600
+*** FLOP *** [Kd As 9h]
+Valila11: checks 
+scorza23: checks 
+Morschmaker: bets 1980
+KnoxvilleGirl: calls 1980
+Valila11: calls 1980
+scorza23: folds 
+*** TURN *** [Kd As 9h] [7s]
+Valila11: checks 
+Morschmaker: checks 
+KnoxvilleGirl: bets 7463 and is all-in
+Valila11: folds 
+Morschmaker: folds 
+Uncalled bet (7463) returned to KnoxvilleGirl
+KnoxvilleGirl collected 11460 from pot
+KnoxvilleGirl: doesn't show hand 
+*** SUMMARY ***
+Total pot 11460 | Rake 0 
+Board [Kd As 9h 7s]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded on the Turn
+Seat 5: KnoxvilleGirl (button) collected (11460)
+Seat 6: Valila11 (small blind) folded on the Turn
+Seat 7: scorza23 (big blind) folded on the Flop
+Seat 8: cappoccino folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356949884: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XI (300/600) - 2026/04/05 18:36:08 UTC [2026/04/05 14:36:08 ET]
+Table '3989529501 4' 8-max Seat #6 is the button
+Seat 1: 044078 (17614 in chips) 
+Seat 2: Fjzxuxaaaa (16606 in chips) 
+Seat 3: lauu1208 (11855 in chips) 
+Seat 4: Morschmaker (7460 in chips) 
+Seat 5: KnoxvilleGirl (18923 in chips) 
+Seat 6: Valila11 (9754 in chips) 
+Seat 7: scorza23 (15524 in chips) 
+Seat 8: cappoccino (1707 in chips) 
+044078: posts the ante 90
+Fjzxuxaaaa: posts the ante 90
+lauu1208: posts the ante 90
+Morschmaker: posts the ante 90
+KnoxvilleGirl: posts the ante 90
+Valila11: posts the ante 90
+scorza23: posts the ante 90
+cappoccino: posts the ante 90
+scorza23: posts small blind 300
+cappoccino: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Qd]
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: raises 6770 to 7370 and is all-in
+KnoxvilleGirl: folds 
+Valila11: folds 
+scorza23: folds 
+cappoccino: folds 
+Uncalled bet (6770) returned to Morschmaker
+Morschmaker collected 2220 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 2220 | Rake 0 
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker collected (2220)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Valila11 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: cappoccino (big blind) folded before Flop
+
+
+
+PokerStars Hand #260356955222: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XI (300/600) - 2026/04/05 18:36:30 UTC [2026/04/05 14:36:30 ET]
+Table '3989529501 4' 8-max Seat #7 is the button
+Seat 1: 044078 (17524 in chips) 
+Seat 2: Fjzxuxaaaa (16516 in chips) 
+Seat 3: lauu1208 (11765 in chips) 
+Seat 4: Morschmaker (8990 in chips) 
+Seat 5: KnoxvilleGirl (18833 in chips) 
+Seat 6: Valila11 (9664 in chips) 
+Seat 7: scorza23 (15134 in chips) 
+Seat 8: cappoccino (1017 in chips) 
+044078: posts the ante 90
+Fjzxuxaaaa: posts the ante 90
+lauu1208: posts the ante 90
+Morschmaker: posts the ante 90
+KnoxvilleGirl: posts the ante 90
+Valila11: posts the ante 90
+scorza23: posts the ante 90
+cappoccino: posts the ante 90
+cappoccino: posts small blind 300
+044078: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Qs]
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: raises 8300 to 8900 and is all-in
+KnoxvilleGirl: folds 
+Valila11: folds 
+scorza23: folds 
+cappoccino: folds 
+044078: folds 
+Uncalled bet (8300) returned to Morschmaker
+Morschmaker collected 2220 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 2220 | Rake 0 
+Seat 1: 044078 (big blind) folded before Flop
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker collected (2220)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Valila11 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: cappoccino (small blind) folded before Flop
+
+
+
+PokerStars Hand #260356962249: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XI (300/600) - 2026/04/05 18:36:57 UTC [2026/04/05 14:36:57 ET]
+Table '3989529501 4' 8-max Seat #8 is the button
+Seat 1: 044078 (16834 in chips) 
+Seat 2: Fjzxuxaaaa (16426 in chips) 
+Seat 3: lauu1208 (11675 in chips) 
+Seat 4: Morschmaker (10520 in chips) 
+Seat 5: KnoxvilleGirl (18743 in chips) 
+Seat 6: Valila11 (9574 in chips) 
+Seat 7: scorza23 (15044 in chips) 
+Seat 8: cappoccino (627 in chips) 
+044078: posts the ante 90
+Fjzxuxaaaa: posts the ante 90
+lauu1208: posts the ante 90
+Morschmaker: posts the ante 90
+KnoxvilleGirl: posts the ante 90
+Valila11: posts the ante 90
+scorza23: posts the ante 90
+cappoccino: posts the ante 90
+044078: posts small blind 300
+Fjzxuxaaaa: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 6c]
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: calls 600
+Valila11: raises 600 to 1200
+scorza23: folds 
+cappoccino: calls 537 and is all-in
+044078: raises 4857 to 6057
+Fjzxuxaaaa: folds 
+KnoxvilleGirl: folds 
+Valila11: raises 3427 to 9484 and is all-in
+044078: calls 3427
+*** FLOP *** [7d Js 8c]
+*** TURN *** [7d Js 8c] [Kc]
+*** RIVER *** [7d Js 8c Kc] [7c]
+*** SHOW DOWN ***
+044078: shows [Ks As] (two pair, Kings and Sevens)
+Valila11: shows [Kh Qc] (two pair, Kings and Sevens - lower kicker)
+044078 collected 18020 from side pot
+cappoccino: shows [Qd 9d] (a pair of Sevens)
+044078 collected 3405 from main pot
+Valila11 finished the tournament in 132nd place
+cappoccino finished the tournament in 133rd place
+Blauauge1970 is disconnected 
+x reyker x is disconnected 
+*** SUMMARY ***
+Total pot 21425 Main pot 3405. Side pot 18020. | Rake 0 
+Board [7d Js 8c Kc 7c]
+Seat 1: 044078 (small blind) showed [Ks As] and won (21425) with two pair, Kings and Sevens
+Seat 2: Fjzxuxaaaa (big blind) folded before Flop
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop
+Seat 6: Valila11 showed [Kh Qc] and lost with two pair, Kings and Sevens
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: cappoccino (button) showed [Qd 9d] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #260356973352: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XI (300/600) - 2026/04/05 18:37:42 UTC [2026/04/05 14:37:42 ET]
+Table '3989529501 4' 8-max Seat #1 is the button
+Seat 1: 044078 (28685 in chips) 
+Seat 2: Fjzxuxaaaa (15736 in chips) 
+Seat 3: lauu1208 (11585 in chips) 
+Seat 4: Morschmaker (10430 in chips) 
+Seat 5: KnoxvilleGirl (18053 in chips) 
+Seat 6: Blauauge1970 (32070 in chips) 
+Seat 7: scorza23 (14954 in chips) 
+Seat 8: x reyker x (25205 in chips) 
+044078: posts the ante 90
+Fjzxuxaaaa: posts the ante 90
+lauu1208: posts the ante 90
+Morschmaker: posts the ante 90
+KnoxvilleGirl: posts the ante 90
+Blauauge1970: posts the ante 90
+scorza23: posts the ante 90
+x reyker x: posts the ante 90
+Fjzxuxaaaa: posts small blind 300
+lauu1208: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 3c]
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: calls 600
+scorza23: folds 
+x reyker x: folds 
+044078: calls 600
+Fjzxuxaaaa: calls 300
+lauu1208: checks 
+*** FLOP *** [Kh Ks 4d]
+Fjzxuxaaaa: checks 
+lauu1208: checks 
+Blauauge1970: checks 
+044078: checks 
+*** TURN *** [Kh Ks 4d] [7c]
+Fjzxuxaaaa: checks 
+lauu1208: checks 
+Blauauge1970: checks 
+044078: checks 
+*** RIVER *** [Kh Ks 4d 7c] [6s]
+Fjzxuxaaaa: checks 
+lauu1208: checks 
+Blauauge1970: checks 
+044078: checks 
+*** SHOW DOWN ***
+Fjzxuxaaaa: shows [Js 9d] (a pair of Kings)
+lauu1208: shows [5s 5h] (two pair, Kings and Fives)
+Blauauge1970: mucks hand 
+044078: mucks hand 
+lauu1208 collected 3120 from pot
+*** SUMMARY ***
+Total pot 3120 | Rake 0 
+Board [Kh Ks 4d 7c 6s]
+Seat 1: 044078 (button) mucked [Jc Tc]
+Seat 2: Fjzxuxaaaa (small blind) showed [Js 9d] and lost with a pair of Kings
+Seat 3: lauu1208 (big blind) showed [5s 5h] and won (3120) with two pair, Kings and Fives
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 mucked [Qd Td]
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356987615: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XII (350/700) - 2026/04/05 18:38:42 UTC [2026/04/05 14:38:42 ET]
+Table '3989529501 4' 8-max Seat #2 is the button
+Seat 1: 044078 (27995 in chips) 
+Seat 2: Fjzxuxaaaa (15046 in chips) 
+Seat 3: lauu1208 (14015 in chips) 
+Seat 4: Morschmaker (10340 in chips) 
+Seat 5: KnoxvilleGirl (17963 in chips) 
+Seat 6: Blauauge1970 (31380 in chips) 
+Seat 7: scorza23 (14864 in chips) 
+Seat 8: x reyker x (25115 in chips) 
+044078: posts the ante 110
+Fjzxuxaaaa: posts the ante 110
+lauu1208: posts the ante 110
+Morschmaker: posts the ante 110
+KnoxvilleGirl: posts the ante 110
+Blauauge1970: posts the ante 110
+scorza23: posts the ante 110
+x reyker x: posts the ante 110
+lauu1208: posts small blind 350
+Morschmaker: posts big blind 700
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 2c]
+KnoxvilleGirl: folds 
+Blauauge1970: raises 700 to 1400
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+Uncalled bet (700) returned to Blauauge1970
+Blauauge1970 collected 2630 from pot
+Blauauge1970: doesn't show hand 
+*** SUMMARY ***
+Total pot 2630 | Rake 0 
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 3: lauu1208 (small blind) folded before Flop
+Seat 4: Morschmaker (big blind) folded before Flop
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 collected (2630)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356993129: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XII (350/700) - 2026/04/05 18:39:05 UTC [2026/04/05 14:39:05 ET]
+Table '3989529501 4' 8-max Seat #3 is the button
+Seat 1: 044078 (27885 in chips) 
+Seat 2: Fjzxuxaaaa (14936 in chips) 
+Seat 3: lauu1208 (13555 in chips) 
+Seat 4: Morschmaker (9530 in chips) 
+Seat 5: KnoxvilleGirl (17853 in chips) 
+Seat 6: Blauauge1970 (33200 in chips) 
+Seat 7: scorza23 (14754 in chips) 
+Seat 8: x reyker x (25005 in chips) 
+044078: posts the ante 110
+Fjzxuxaaaa: posts the ante 110
+lauu1208: posts the ante 110
+Morschmaker: posts the ante 110
+KnoxvilleGirl: posts the ante 110
+Blauauge1970: posts the ante 110
+scorza23: posts the ante 110
+x reyker x: posts the ante 110
+Morschmaker: posts small blind 350
+KnoxvilleGirl: posts big blind 700
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 6c]
+Blauauge1970: calls 700
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: checks 
+*** FLOP *** [Ad 9c 2h]
+KnoxvilleGirl: bets 700
+Blauauge1970: calls 700
+*** TURN *** [Ad 9c 2h] [8h]
+KnoxvilleGirl: bets 700
+Blauauge1970: raises 700 to 1400
+KnoxvilleGirl: folds 
+Uncalled bet (700) returned to Blauauge1970
+Blauauge1970 collected 5430 from pot
+Blauauge1970: doesn't show hand 
+*** SUMMARY ***
+Total pot 5430 | Rake 0 
+Board [Ad 9c 2h 8h]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 (button) folded before Flop (didn't bet)
+Seat 4: Morschmaker (small blind) folded before Flop
+Seat 5: KnoxvilleGirl (big blind) folded on the Turn
+Seat 6: Blauauge1970 collected (5430)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357004868: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XII (350/700) - 2026/04/05 18:39:51 UTC [2026/04/05 14:39:51 ET]
+Table '3989529501 4' 8-max Seat #4 is the button
+Seat 1: 044078 (27775 in chips) 
+Seat 2: Fjzxuxaaaa (14826 in chips) 
+Seat 3: lauu1208 (13445 in chips) 
+Seat 4: Morschmaker (9070 in chips) 
+Seat 5: KnoxvilleGirl (15643 in chips) 
+Seat 6: Blauauge1970 (36420 in chips) 
+Seat 7: scorza23 (14644 in chips) 
+Seat 8: x reyker x (24895 in chips) 
+044078: posts the ante 110
+Fjzxuxaaaa: posts the ante 110
+lauu1208: posts the ante 110
+Morschmaker: posts the ante 110
+KnoxvilleGirl: posts the ante 110
+Blauauge1970: posts the ante 110
+scorza23: posts the ante 110
+x reyker x: posts the ante 110
+KnoxvilleGirl: posts small blind 350
+Blauauge1970: posts big blind 700
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Td]
+scorza23: raises 700 to 1400
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: calls 700
+*** FLOP *** [9h 9s 9d]
+Blauauge1970: checks 
+scorza23: checks 
+*** TURN *** [9h 9s 9d] [4c]
+Blauauge1970: checks 
+scorza23: checks 
+*** RIVER *** [9h 9s 9d 4c] [3c]
+Blauauge1970: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+Blauauge1970: shows [Ks 7d] (three of a kind, Nines)
+scorza23: mucks hand 
+Blauauge1970 collected 4030 from pot
+*** SUMMARY ***
+Total pot 4030 | Rake 0 
+Board [9h 9s 9d 4c 3c]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker (button) folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (small blind) folded before Flop
+Seat 6: Blauauge1970 (big blind) showed [Ks 7d] and won (4030) with three of a kind, Nines
+Seat 7: scorza23 mucked [Qh Td]
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357014987: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XII (350/700) - 2026/04/05 18:40:31 UTC [2026/04/05 14:40:31 ET]
+Table '3989529501 4' 8-max Seat #5 is the button
+Seat 1: 044078 (27665 in chips) 
+Seat 2: Fjzxuxaaaa (14716 in chips) 
+Seat 3: lauu1208 (13335 in chips) 
+Seat 4: Morschmaker (8960 in chips) 
+Seat 5: KnoxvilleGirl (15183 in chips) 
+Seat 6: Blauauge1970 (38940 in chips) 
+Seat 7: scorza23 (13134 in chips) 
+Seat 8: x reyker x (24785 in chips) 
+044078: posts the ante 110
+Fjzxuxaaaa: posts the ante 110
+lauu1208: posts the ante 110
+Morschmaker: posts the ante 110
+KnoxvilleGirl: posts the ante 110
+Blauauge1970: posts the ante 110
+scorza23: posts the ante 110
+x reyker x: posts the ante 110
+Blauauge1970: posts small blind 350
+scorza23: posts big blind 700
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 2d]
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: raises 700 to 1400
+lauu1208: calls 1400
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: folds 
+scorza23: folds 
+*** FLOP *** [Jd 5c Ts]
+Fjzxuxaaaa: bets 1419
+lauu1208: calls 1419
+*** TURN *** [Jd 5c Ts] [Qh]
+Fjzxuxaaaa: checks 
+lauu1208: bets 3784
+Fjzxuxaaaa: calls 3784
+*** RIVER *** [Jd 5c Ts Qh] [5d]
+Fjzxuxaaaa: bets 8003 and is all-in
+lauu1208: folds 
+Uncalled bet (8003) returned to Fjzxuxaaaa
+Fjzxuxaaaa collected 15136 from pot
+Fjzxuxaaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 15136 | Rake 0 
+Board [Jd 5c Ts Qh 5d]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa collected (15136)
+Seat 3: lauu1208 folded on the River
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (button) folded before Flop (didn't bet)
+Seat 6: Blauauge1970 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357035280: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XII (350/700) - 2026/04/05 18:41:50 UTC [2026/04/05 14:41:50 ET]
+Table '3989529501 4' 8-max Seat #6 is the button
+Seat 1: 044078 (27555 in chips) 
+Seat 2: Fjzxuxaaaa (23139 in chips) 
+Seat 3: lauu1208 (6622 in chips) 
+Seat 4: Morschmaker (8850 in chips) 
+Seat 5: KnoxvilleGirl (15073 in chips) 
+Seat 6: Blauauge1970 (38480 in chips) 
+Seat 7: scorza23 (12324 in chips) 
+Seat 8: x reyker x (24675 in chips) 
+044078: posts the ante 110
+Fjzxuxaaaa: posts the ante 110
+lauu1208: posts the ante 110
+Morschmaker: posts the ante 110
+KnoxvilleGirl: posts the ante 110
+Blauauge1970: posts the ante 110
+scorza23: posts the ante 110
+x reyker x: posts the ante 110
+scorza23: posts small blind 350
+x reyker x: posts big blind 700
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 4h]
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: folds 
+scorza23: raises 1400 to 2100
+x reyker x: folds 
+Uncalled bet (1400) returned to scorza23
+scorza23 collected 2280 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2280 | Rake 0 
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) collected (2280)
+Seat 8: x reyker x (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357042305: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XII (350/700) - 2026/04/05 18:42:18 UTC [2026/04/05 14:42:18 ET]
+Table '3989529501 4' 8-max Seat #7 is the button
+Seat 1: 044078 (27445 in chips) 
+Seat 2: Fjzxuxaaaa (23029 in chips) 
+Seat 3: lauu1208 (6512 in chips) 
+Seat 4: Morschmaker (8740 in chips) 
+Seat 5: KnoxvilleGirl (14963 in chips) 
+Seat 6: Blauauge1970 (38370 in chips) 
+Seat 7: scorza23 (13794 in chips) 
+Seat 8: x reyker x (23865 in chips) 
+044078: posts the ante 110
+Fjzxuxaaaa: posts the ante 110
+lauu1208: posts the ante 110
+Morschmaker: posts the ante 110
+KnoxvilleGirl: posts the ante 110
+Blauauge1970: posts the ante 110
+scorza23: posts the ante 110
+x reyker x: posts the ante 110
+x reyker x: posts small blind 350
+044078: posts big blind 700
+*** HOLE CARDS ***
+Dealt to scorza23 [6c Qd]
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: calls 700
+Blauauge1970: calls 700
+scorza23: folds 
+x reyker x: calls 350
+044078: checks 
+*** FLOP *** [Tc Kc Jh]
+x reyker x: checks 
+044078: checks 
+KnoxvilleGirl: checks 
+Blauauge1970: bets 700
+x reyker x: calls 700
+044078: folds 
+KnoxvilleGirl: calls 700
+*** TURN *** [Tc Kc Jh] [Kd]
+x reyker x: checks 
+KnoxvilleGirl: checks 
+Blauauge1970: bets 2100
+x reyker x: calls 2100
+KnoxvilleGirl: folds 
+*** RIVER *** [Tc Kc Jh Kd] [2d]
+x reyker x: checks 
+Blauauge1970: checks 
+*** SHOW DOWN ***
+x reyker x: shows [Jc 9s] (two pair, Kings and Jacks)
+Blauauge1970: shows [Jd Ah] (two pair, Kings and Jacks - Ace kicker)
+Blauauge1970 collected 9980 from pot
+*** SUMMARY ***
+Total pot 9980 | Rake 0 
+Board [Tc Kc Jh Kd 2d]
+Seat 1: 044078 (big blind) folded on the Flop
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded on the Turn
+Seat 6: Blauauge1970 showed [Jd Ah] and won (9980) with two pair, Kings and Jacks
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: x reyker x (small blind) showed [Jc 9s] and lost with two pair, Kings and Jacks
+
+
+
+PokerStars Hand #260357061039: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIII (400/800) - 2026/04/05 18:43:34 UTC [2026/04/05 14:43:34 ET]
+Table '3989529501 4' 8-max Seat #8 is the button
+Seat 1: 044078 (26635 in chips) 
+Seat 2: Fjzxuxaaaa (22919 in chips) 
+Seat 3: lauu1208 (6402 in chips) 
+Seat 4: Morschmaker (8630 in chips) 
+Seat 5: KnoxvilleGirl (13453 in chips) 
+Seat 6: Blauauge1970 (44740 in chips) 
+Seat 7: scorza23 (13684 in chips) 
+Seat 8: x reyker x (20255 in chips) 
+044078: posts the ante 120
+Fjzxuxaaaa: posts the ante 120
+lauu1208: posts the ante 120
+Morschmaker: posts the ante 120
+KnoxvilleGirl: posts the ante 120
+Blauauge1970: posts the ante 120
+scorza23: posts the ante 120
+x reyker x: posts the ante 120
+044078: posts small blind 400
+Fjzxuxaaaa: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Qc]
+lauu1208: folds 
+Morschmaker: raises 7710 to 8510 and is all-in
+KnoxvilleGirl: folds 
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+Uncalled bet (7710) returned to Morschmaker
+Morschmaker collected 2960 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 2960 | Rake 0 
+Seat 1: 044078 (small blind) folded before Flop
+Seat 2: Fjzxuxaaaa (big blind) folded before Flop
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker collected (2960)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357067785: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIII (400/800) - 2026/04/05 18:44:02 UTC [2026/04/05 14:44:02 ET]
+Table '3989529501 4' 8-max Seat #1 is the button
+Seat 1: 044078 (26115 in chips) 
+Seat 2: Fjzxuxaaaa (21999 in chips) 
+Seat 3: lauu1208 (6282 in chips) 
+Seat 4: Morschmaker (10670 in chips) 
+Seat 5: KnoxvilleGirl (13333 in chips) 
+Seat 6: Blauauge1970 (44620 in chips) 
+Seat 7: scorza23 (13564 in chips) 
+Seat 8: x reyker x (20135 in chips) 
+044078: posts the ante 120
+Fjzxuxaaaa: posts the ante 120
+lauu1208: posts the ante 120
+Morschmaker: posts the ante 120
+KnoxvilleGirl: posts the ante 120
+Blauauge1970: posts the ante 120
+scorza23: posts the ante 120
+x reyker x: posts the ante 120
+Fjzxuxaaaa: posts small blind 400
+lauu1208: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 5d]
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: calls 800
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: raises 3200 to 4000
+lauu1208: folds 
+Blauauge1970: folds 
+Uncalled bet (3200) returned to Fjzxuxaaaa
+Fjzxuxaaaa collected 3360 from pot
+Fjzxuxaaaa: doesn't show hand 
+*** SUMMARY ***
+Total pot 3360 | Rake 0 
+Seat 1: 044078 (button) folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa (small blind) collected (3360)
+Seat 3: lauu1208 (big blind) folded before Flop
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357074842: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIII (400/800) - 2026/04/05 18:44:29 UTC [2026/04/05 14:44:29 ET]
+Table '3989529501 4' 8-max Seat #2 is the button
+Seat 1: 044078 (25995 in chips) 
+Seat 2: Fjzxuxaaaa (24439 in chips) 
+Seat 3: lauu1208 (5362 in chips) 
+Seat 4: Morschmaker (10550 in chips) 
+Seat 5: KnoxvilleGirl (13213 in chips) 
+Seat 6: Blauauge1970 (43700 in chips) 
+Seat 7: scorza23 (13444 in chips) 
+Seat 8: x reyker x (20015 in chips) 
+044078: posts the ante 120
+Fjzxuxaaaa: posts the ante 120
+lauu1208: posts the ante 120
+Morschmaker: posts the ante 120
+KnoxvilleGirl: posts the ante 120
+Blauauge1970: posts the ante 120
+scorza23: posts the ante 120
+x reyker x: posts the ante 120
+lauu1208: posts small blind 400
+Morschmaker: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Js]
+KnoxvilleGirl: calls 800
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: calls 800
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: raises 9630 to 10430 and is all-in
+KnoxvilleGirl: folds 
+x reyker x: calls 9630
+*** FLOP *** [9c 2s 7s]
+*** TURN *** [9c 2s 7s] [3c]
+*** RIVER *** [9c 2s 7s 3c] [3d]
+*** SHOW DOWN ***
+Morschmaker: shows [8h 9h] (two pair, Nines and Threes)
+x reyker x: shows [Kc Jh] (a pair of Threes)
+Morschmaker collected 23020 from pot
+*** SUMMARY ***
+Total pot 23020 | Rake 0 
+Board [9c 2s 7s 3c 3d]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 3: lauu1208 (small blind) folded before Flop
+Seat 4: Morschmaker (big blind) showed [8h 9h] and won (23020) with two pair, Nines and Threes
+Seat 5: KnoxvilleGirl folded before Flop
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x showed [Kc Jh] and lost with a pair of Threes
+
+
+
+PokerStars Hand #260357087131: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIII (400/800) - 2026/04/05 18:45:18 UTC [2026/04/05 14:45:18 ET]
+Table '3989529501 4' 8-max Seat #3 is the button
+Seat 1: 044078 (25875 in chips) 
+Seat 2: Fjzxuxaaaa (24319 in chips) 
+Seat 3: lauu1208 (4842 in chips) 
+Seat 4: Morschmaker (23020 in chips) 
+Seat 5: KnoxvilleGirl (12293 in chips) 
+Seat 6: Blauauge1970 (43580 in chips) 
+Seat 7: scorza23 (13324 in chips) 
+Seat 8: x reyker x (9465 in chips) 
+044078: posts the ante 120
+Fjzxuxaaaa: posts the ante 120
+lauu1208: posts the ante 120
+Morschmaker: posts the ante 120
+KnoxvilleGirl: posts the ante 120
+Blauauge1970: posts the ante 120
+scorza23: posts the ante 120
+x reyker x: posts the ante 120
+Morschmaker: posts small blind 400
+KnoxvilleGirl: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [9c Ad]
+Blauauge1970: calls 800
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: checks 
+*** FLOP *** [7s 7c As]
+KnoxvilleGirl: checks 
+Blauauge1970: bets 800
+KnoxvilleGirl: calls 800
+*** TURN *** [7s 7c As] [8d]
+KnoxvilleGirl: checks 
+Blauauge1970: bets 1600
+KnoxvilleGirl: calls 1600
+*** RIVER *** [7s 7c As 8d] [Jh]
+KnoxvilleGirl: checks 
+Blauauge1970: bets 1600
+KnoxvilleGirl: folds 
+Uncalled bet (1600) returned to Blauauge1970
+Blauauge1970 collected 7760 from pot
+Blauauge1970: doesn't show hand 
+*** SUMMARY ***
+Total pot 7760 | Rake 0 
+Board [7s 7c As 8d Jh]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 (button) folded before Flop (didn't bet)
+Seat 4: Morschmaker (small blind) folded before Flop
+Seat 5: KnoxvilleGirl (big blind) folded on the River
+Seat 6: Blauauge1970 collected (7760)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357101040: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIII (400/800) - 2026/04/05 18:46:13 UTC [2026/04/05 14:46:13 ET]
+Table '3989529501 4' 8-max Seat #4 is the button
+Seat 1: 044078 (25755 in chips) 
+Seat 2: Fjzxuxaaaa (24199 in chips) 
+Seat 3: lauu1208 (4722 in chips) 
+Seat 4: Morschmaker (22500 in chips) 
+Seat 5: KnoxvilleGirl (8973 in chips) 
+Seat 6: Blauauge1970 (48020 in chips) 
+Seat 7: scorza23 (13204 in chips) 
+Seat 8: x reyker x (9345 in chips) 
+044078: posts the ante 120
+Fjzxuxaaaa: posts the ante 120
+lauu1208: posts the ante 120
+Morschmaker: posts the ante 120
+KnoxvilleGirl: posts the ante 120
+Blauauge1970: posts the ante 120
+scorza23: posts the ante 120
+x reyker x: posts the ante 120
+KnoxvilleGirl: posts small blind 400
+Blauauge1970: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 4s]
+scorza23: folds 
+x reyker x: folds 
+044078: calls 800
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: calls 400
+Blauauge1970: checks 
+*** FLOP *** [Jd 5c 3c]
+KnoxvilleGirl: checks 
+Blauauge1970: bets 1600
+044078: folds 
+KnoxvilleGirl: folds 
+Uncalled bet (1600) returned to Blauauge1970
+Blauauge1970 collected 3360 from pot
+Blauauge1970: doesn't show hand 
+*** SUMMARY ***
+Total pot 3360 | Rake 0 
+Board [Jd 5c 3c]
+Seat 1: 044078 folded on the Flop
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker (button) folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (small blind) folded on the Flop
+Seat 6: Blauauge1970 (big blind) collected (3360)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357109096: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIII (400/800) - 2026/04/05 18:46:44 UTC [2026/04/05 14:46:44 ET]
+Table '3989529501 4' 8-max Seat #5 is the button
+Seat 1: 044078 (24835 in chips) 
+Seat 2: Fjzxuxaaaa (24079 in chips) 
+Seat 3: lauu1208 (4602 in chips) 
+Seat 4: Morschmaker (22380 in chips) 
+Seat 5: KnoxvilleGirl (8053 in chips) 
+Seat 6: Blauauge1970 (50460 in chips) 
+Seat 7: scorza23 (13084 in chips) 
+Seat 8: x reyker x (9225 in chips) 
+044078: posts the ante 120
+Fjzxuxaaaa: posts the ante 120
+lauu1208: posts the ante 120
+Morschmaker: posts the ante 120
+KnoxvilleGirl: posts the ante 120
+Blauauge1970: posts the ante 120
+scorza23: posts the ante 120
+x reyker x: posts the ante 120
+Blauauge1970: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 2s]
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: raises 3276 to 4076
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: folds 
+scorza23: folds 
+Uncalled bet (3276) returned to lauu1208
+lauu1208 collected 2960 from pot
+lauu1208: doesn't show hand 
+*** SUMMARY ***
+Total pot 2960 | Rake 0 
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 collected (2960)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl (button) folded before Flop (didn't bet)
+Seat 6: Blauauge1970 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357118125: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIII (400/800) - 2026/04/05 18:47:20 UTC [2026/04/05 14:47:20 ET]
+Table '3989529501 4' 8-max Seat #6 is the button
+Seat 1: 044078 (24715 in chips) 
+Seat 2: Fjzxuxaaaa (23959 in chips) 
+Seat 3: lauu1208 (6642 in chips) 
+Seat 4: Morschmaker (22260 in chips) 
+Seat 5: KnoxvilleGirl (7933 in chips) 
+Seat 6: Blauauge1970 (49940 in chips) 
+Seat 7: scorza23 (12164 in chips) 
+Seat 8: x reyker x (9105 in chips) 
+044078: posts the ante 120
+Fjzxuxaaaa: posts the ante 120
+lauu1208: posts the ante 120
+Morschmaker: posts the ante 120
+KnoxvilleGirl: posts the ante 120
+Blauauge1970: posts the ante 120
+scorza23: posts the ante 120
+x reyker x: posts the ante 120
+scorza23: posts small blind 400
+x reyker x: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Ac]
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: raises 800 to 1600
+Morschmaker: calls 1600
+KnoxvilleGirl: folds 
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: folds 
+*** FLOP *** [7c 2d 5h]
+lauu1208: checks 
+Morschmaker: bets 5360
+lauu1208: folds 
+Uncalled bet (5360) returned to Morschmaker
+Morschmaker collected 5360 from pot
+Morschmaker: doesn't show hand 
+*** SUMMARY ***
+Total pot 5360 | Rake 0 
+Board [7c 2d 5h]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded on the Flop
+Seat 4: Morschmaker collected (5360)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: x reyker x (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357130031: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:48:08 UTC [2026/04/05 14:48:08 ET]
+Table '3989529501 4' 8-max Seat #7 is the button
+Seat 1: 044078 (24595 in chips) 
+Seat 2: Fjzxuxaaaa (23839 in chips) 
+Seat 3: lauu1208 (4922 in chips) 
+Seat 4: Morschmaker (25900 in chips) 
+Seat 5: KnoxvilleGirl (7813 in chips) 
+Seat 6: Blauauge1970 (49820 in chips) 
+Seat 7: scorza23 (11644 in chips) 
+Seat 8: x reyker x (8185 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+KnoxvilleGirl: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+x reyker x: posts small blind 500
+044078: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 9s]
+Fjzxuxaaaa: raises 1000 to 2000
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: folds 
+044078: calls 1000
+*** FLOP *** [4s 5c 8d]
+044078: checks 
+Fjzxuxaaaa: bets 1710
+044078: calls 1710
+*** TURN *** [4s 5c 8d] [Tc]
+044078: checks 
+Fjzxuxaaaa: checks 
+*** RIVER *** [4s 5c 8d Tc] [4c]
+044078: bets 4560
+Fjzxuxaaaa: folds 
+Uncalled bet (4560) returned to 044078
+044078 collected 9120 from pot
+044078: doesn't show hand 
+*** SUMMARY ***
+Total pot 9120 | Rake 0 
+Board [4s 5c 8d Tc 4c]
+Seat 1: 044078 (big blind) collected (9120)
+Seat 2: Fjzxuxaaaa folded on the River
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: x reyker x (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357143828: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:49:02 UTC [2026/04/05 14:49:02 ET]
+Table '3989529501 4' 8-max Seat #8 is the button
+Seat 1: 044078 (29855 in chips) 
+Seat 2: Fjzxuxaaaa (19979 in chips) 
+Seat 3: lauu1208 (4772 in chips) 
+Seat 4: Morschmaker (25750 in chips) 
+Seat 5: KnoxvilleGirl (7663 in chips) 
+Seat 6: Blauauge1970 (49670 in chips) 
+Seat 7: scorza23 (11494 in chips) 
+Seat 8: x reyker x (7535 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+KnoxvilleGirl: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+044078: posts small blind 500
+Fjzxuxaaaa: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ad]
+lauu1208: folds 
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: folds 
+scorza23: raises 1000 to 2000
+x reyker x: folds 
+044078: calls 1500
+Fjzxuxaaaa: folds 
+*** FLOP *** [2s 5h Qh]
+044078: checks 
+scorza23: bets 2000
+044078: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 6200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 6200 | Rake 0 
+Board [2s 5h Qh]
+Seat 1: 044078 (small blind) folded on the Flop
+Seat 2: Fjzxuxaaaa (big blind) folded before Flop
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 collected (6200)
+Seat 8: x reyker x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357153029: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:49:39 UTC [2026/04/05 14:49:39 ET]
+Table '3989529501 4' 8-max Seat #1 is the button
+Seat 1: 044078 (27705 in chips) 
+Seat 2: Fjzxuxaaaa (18829 in chips) 
+Seat 3: lauu1208 (4622 in chips) 
+Seat 4: Morschmaker (25600 in chips) 
+Seat 5: KnoxvilleGirl (7513 in chips) 
+Seat 6: Blauauge1970 (49520 in chips) 
+Seat 7: scorza23 (15544 in chips) 
+Seat 8: x reyker x (7385 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+KnoxvilleGirl: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+Fjzxuxaaaa: posts small blind 500
+lauu1208: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 2c]
+Morschmaker: folds 
+KnoxvilleGirl: folds 
+Blauauge1970: raises 1000 to 2000
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: raises 2472 to 4472 and is all-in
+Blauauge1970: calls 2472
+*** FLOP *** [9h 3h 6d]
+*** TURN *** [9h 3h 6d] [4h]
+*** RIVER *** [9h 3h 6d 4h] [3d]
+*** SHOW DOWN ***
+lauu1208: shows [3s Ac] (three of a kind, Threes)
+Blauauge1970: shows [Jd Jc] (two pair, Jacks and Threes)
+lauu1208 collected 10644 from pot
+*** SUMMARY ***
+Total pot 10644 | Rake 0 
+Board [9h 3h 6d 4h 3d]
+Seat 1: 044078 (button) folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa (small blind) folded before Flop
+Seat 3: lauu1208 (big blind) showed [3s Ac] and won (10644) with three of a kind, Threes
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: KnoxvilleGirl folded before Flop (didn't bet)
+Seat 6: Blauauge1970 showed [Jd Jc] and lost with two pair, Jacks and Threes
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357165585: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:50:29 UTC [2026/04/05 14:50:29 ET]
+Table '3989529501 4' 8-max Seat #2 is the button
+Seat 1: 044078 (27555 in chips) 
+Seat 2: Fjzxuxaaaa (18179 in chips) 
+Seat 3: lauu1208 (10644 in chips) 
+Seat 4: Morschmaker (25450 in chips) 
+Seat 5: KnoxvilleGirl (7363 in chips) 
+Seat 6: Blauauge1970 (44898 in chips) 
+Seat 7: scorza23 (15394 in chips) 
+Seat 8: x reyker x (7235 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+KnoxvilleGirl: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+lauu1208: posts small blind 500
+Morschmaker: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 7c]
+KnoxvilleGirl: raises 6213 to 7213 and is all-in
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: folds 
+044078: raises 20192 to 27405 and is all-in
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+Uncalled bet (20192) returned to 044078
+*** FLOP *** [9h Ac 8d]
+*** TURN *** [9h Ac 8d] [8h]
+*** RIVER *** [9h Ac 8d 8h] [4d]
+*** SHOW DOWN ***
+KnoxvilleGirl: shows [6h Kd] (a pair of Eights)
+044078: shows [8s 8c] (four of a kind, Eights)
+044078 collected 17126 from pot
+KnoxvilleGirl finished the tournament in 88th place
+*** SUMMARY ***
+Total pot 17126 | Rake 0 
+Board [9h Ac 8d 8h 4d]
+Seat 1: 044078 showed [8s 8c] and won (17126) with four of a kind, Eights
+Seat 2: Fjzxuxaaaa (button) folded before Flop (didn't bet)
+Seat 3: lauu1208 (small blind) folded before Flop
+Seat 4: Morschmaker (big blind) folded before Flop
+Seat 5: KnoxvilleGirl showed [6h Kd] and lost with a pair of Eights
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357173081: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:51:00 UTC [2026/04/05 14:51:00 ET]
+Table '3989529501 4' 8-max Seat #3 is the button
+Seat 1: 044078 (37318 in chips) 
+Seat 2: Fjzxuxaaaa (18029 in chips) 
+Seat 3: lauu1208 (9994 in chips) 
+Seat 4: Morschmaker (24300 in chips) 
+Seat 6: Blauauge1970 (44748 in chips) 
+Seat 7: scorza23 (15244 in chips) 
+Seat 8: x reyker x (7085 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+Morschmaker: posts small blind 500
+Blauauge1970: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Kd]
+scorza23: folds 
+x reyker x: calls 1000
+044078: calls 1000
+Fjzxuxaaaa: folds 
+lauu1208: calls 1000
+Morschmaker: folds 
+Blauauge1970: checks 
+*** FLOP *** [7c 3h Kh]
+Blauauge1970: checks 
+x reyker x: bets 5935 and is all-in
+044078: calls 5935
+lauu1208: folds 
+Blauauge1970: folds 
+*** TURN *** [7c 3h Kh] [Qs]
+*** RIVER *** [7c 3h Kh Qs] [6s]
+*** SHOW DOWN ***
+x reyker x: shows [9h 9d] (a pair of Nines)
+044078: shows [Ah 4h] (high card Ace)
+x reyker x collected 17420 from pot
+*** SUMMARY ***
+Total pot 17420 | Rake 0 
+Board [7c 3h Kh Qs 6s]
+Seat 1: 044078 showed [Ah 4h] and lost with high card Ace
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 (button) folded on the Flop
+Seat 4: Morschmaker (small blind) folded before Flop
+Seat 6: Blauauge1970 (big blind) folded on the Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x showed [9h 9d] and won (17420) with a pair of Nines
+
+
+
+PokerStars Hand #260357188779: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:52:03 UTC [2026/04/05 14:52:03 ET]
+Table '3989529501 4' 8-max Seat #4 is the button
+Seat 1: 044078 (30233 in chips) 
+Seat 2: Fjzxuxaaaa (17879 in chips) 
+Seat 3: lauu1208 (8844 in chips) 
+Seat 4: Morschmaker (23650 in chips) 
+Seat 6: Blauauge1970 (43598 in chips) 
+Seat 7: scorza23 (15094 in chips) 
+Seat 8: x reyker x (17420 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+Blauauge1970: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 3c]
+x reyker x: folds 
+044078: raises 3550 to 4550
+Fjzxuxaaaa: folds 
+lauu1208: folds 
+Morschmaker: folds 
+Blauauge1970: folds 
+scorza23: folds 
+Uncalled bet (3550) returned to 044078
+044078 collected 3550 from pot
+044078: doesn't show hand 
+*** SUMMARY ***
+Total pot 3550 | Rake 0 
+Seat 1: 044078 collected (3550)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker (button) folded before Flop (didn't bet)
+Seat 6: Blauauge1970 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 8: x reyker x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357194571: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:52:26 UTC [2026/04/05 14:52:26 ET]
+Table '3989529501 4' 8-max Seat #6 is the button
+Seat 1: 044078 (32633 in chips) 
+Seat 2: Fjzxuxaaaa (17729 in chips) 
+Seat 3: lauu1208 (8694 in chips) 
+Seat 4: Morschmaker (23500 in chips) 
+Seat 6: Blauauge1970 (42948 in chips) 
+Seat 7: scorza23 (13944 in chips) 
+Seat 8: x reyker x (17270 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+scorza23: posts small blind 500
+x reyker x: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 4h]
+044078: folds 
+Fjzxuxaaaa: folds 
+lauu1208: raises 1000 to 2000
+Morschmaker: folds 
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: folds 
+Uncalled bet (1000) returned to lauu1208
+lauu1208 collected 3550 from pot
+lauu1208: doesn't show hand 
+*** SUMMARY ***
+Total pot 3550 | Rake 0 
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 collected (3550)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 6: Blauauge1970 (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: x reyker x (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357202210: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XIV (500/1000) - 2026/04/05 18:52:57 UTC [2026/04/05 14:52:57 ET]
+Table '3989529501 4' 8-max Seat #7 is the button
+Seat 1: 044078 (32483 in chips) 
+Seat 2: Fjzxuxaaaa (17579 in chips) 
+Seat 3: lauu1208 (11094 in chips) 
+Seat 4: Morschmaker (23350 in chips) 
+Seat 6: Blauauge1970 (42798 in chips) 
+Seat 7: scorza23 (13294 in chips) 
+Seat 8: x reyker x (16120 in chips) 
+044078: posts the ante 150
+Fjzxuxaaaa: posts the ante 150
+lauu1208: posts the ante 150
+Morschmaker: posts the ante 150
+Blauauge1970: posts the ante 150
+scorza23: posts the ante 150
+x reyker x: posts the ante 150
+x reyker x: posts small blind 500
+044078: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [8h Qc]
+Fjzxuxaaaa: folds 
+lauu1208: raises 1000 to 2000
+Morschmaker: folds 
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Uncalled bet (1000) returned to lauu1208
+lauu1208 collected 3550 from pot
+lauu1208: doesn't show hand 
+*** SUMMARY ***
+Total pot 3550 | Rake 0 
+Seat 1: 044078 (big blind) folded before Flop
+Seat 2: Fjzxuxaaaa folded before Flop (didn't bet)
+Seat 3: lauu1208 collected (3550)
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: x reyker x (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357207943: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XV (600/1200) - 2026/04/05 18:53:20 UTC [2026/04/05 14:53:20 ET]
+Table '3989529501 4' 8-max Seat #8 is the button
+Seat 1: 044078 (31333 in chips) 
+Seat 2: Fjzxuxaaaa (17429 in chips) 
+Seat 3: lauu1208 (13494 in chips) 
+Seat 4: Morschmaker (23200 in chips) 
+Seat 6: Blauauge1970 (42648 in chips) 
+Seat 7: scorza23 (13144 in chips) 
+Seat 8: x reyker x (15470 in chips) 
+044078: posts the ante 180
+Fjzxuxaaaa: posts the ante 180
+lauu1208: posts the ante 180
+Morschmaker: posts the ante 180
+Blauauge1970: posts the ante 180
+scorza23: posts the ante 180
+x reyker x: posts the ante 180
+044078: posts small blind 600
+Fjzxuxaaaa: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Qd]
+lauu1208: raises 1200 to 2400
+Morschmaker: folds 
+Blauauge1970: calls 2400
+scorza23: folds 
+x reyker x: folds 
+044078: folds 
+Fjzxuxaaaa: folds 
+*** FLOP *** [4d 4s 8h]
+takis315 is disconnected 
+lauu1208: bets 1200
+Blauauge1970: raises 18000 to 19200
+lauu1208: calls 9714 and is all-in
+Uncalled bet (8286) returned to Blauauge1970
+*** TURN *** [4d 4s 8h] [6c]
+*** RIVER *** [4d 4s 8h 6c] [7s]
+*** SHOW DOWN ***
+lauu1208: shows [Ac Ah] (two pair, Aces and Fours)
+Blauauge1970: shows [Tc Th] (two pair, Tens and Fours)
+lauu1208 collected 29688 from pot
+*** SUMMARY ***
+Total pot 29688 | Rake 0 
+Board [4d 4s 8h 6c 7s]
+Seat 1: 044078 (small blind) folded before Flop
+Seat 2: Fjzxuxaaaa (big blind) folded before Flop
+Seat 3: lauu1208 showed [Ac Ah] and won (29688) with two pair, Aces and Fours
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 6: Blauauge1970 showed [Tc Th] and lost with two pair, Tens and Fours
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357221591: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XV (600/1200) - 2026/04/05 18:54:14 UTC [2026/04/05 14:54:14 ET]
+Table '3989529501 4' 8-max Seat #1 is the button
+Seat 1: 044078 (30553 in chips) 
+Seat 2: Fjzxuxaaaa (16049 in chips) 
+Seat 3: lauu1208 (29688 in chips) 
+Seat 4: Morschmaker (23020 in chips) 
+Seat 5: takis315 (8277 in chips) 
+Seat 6: Blauauge1970 (29154 in chips) 
+Seat 7: scorza23 (12964 in chips) 
+Seat 8: x reyker x (15290 in chips) 
+044078: posts the ante 180
+Fjzxuxaaaa: posts the ante 180
+lauu1208: posts the ante 180
+Morschmaker: posts the ante 180
+takis315: posts the ante 180
+Blauauge1970: posts the ante 180
+scorza23: posts the ante 180
+x reyker x: posts the ante 180
+Fjzxuxaaaa: posts small blind 600
+lauu1208: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Qc]
+Morschmaker: folds 
+takis315: folds 
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: calls 1200
+044078: raises 5640 to 6840
+Fjzxuxaaaa: raises 9029 to 15869 and is all-in
+lauu1208: folds 
+x reyker x: folds 
+044078: calls 9029
+*** FLOP *** [5h 7d 6d]
+*** TURN *** [5h 7d 6d] [Kc]
+*** RIVER *** [5h 7d 6d Kc] [8s]
+*** SHOW DOWN ***
+Fjzxuxaaaa: shows [Ts Tc] (a pair of Tens)
+044078: shows [Kd Kh] (three of a kind, Kings)
+044078 collected 35578 from pot
+Fjzxuxaaaa finished the tournament in 79th place
+*** SUMMARY ***
+Total pot 35578 | Rake 0 
+Board [5h 7d 6d Kc 8s]
+Seat 1: 044078 (button) showed [Kd Kh] and won (35578) with three of a kind, Kings
+Seat 2: Fjzxuxaaaa (small blind) showed [Ts Tc] and lost with a pair of Tens
+Seat 3: lauu1208 (big blind) folded before Flop
+Seat 4: Morschmaker folded before Flop (didn't bet)
+Seat 5: takis315 folded before Flop (didn't bet)
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x folded before Flop
+
+
+
+PokerStars Hand #260357232760: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XV (600/1200) - 2026/04/05 18:54:59 UTC [2026/04/05 14:54:59 ET]
+Table '3989529501 4' 8-max Seat #3 is the button
+Seat 1: 044078 (50082 in chips) 
+Seat 3: lauu1208 (28308 in chips) 
+Seat 4: Morschmaker (22840 in chips) 
+Seat 5: takis315 (8097 in chips) 
+Seat 6: Blauauge1970 (28974 in chips) 
+Seat 7: scorza23 (12784 in chips) 
+Seat 8: x reyker x (13910 in chips) 
+044078: posts the ante 180
+lauu1208: posts the ante 180
+Morschmaker: posts the ante 180
+takis315: posts the ante 180
+Blauauge1970: posts the ante 180
+scorza23: posts the ante 180
+x reyker x: posts the ante 180
+Morschmaker: posts small blind 600
+takis315: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 9h]
+Blauauge1970: folds 
+scorza23: folds 
+x reyker x: calls 1200
+044078: folds 
+lauu1208: folds 
+Morschmaker: folds 
+takis315: checks 
+*** FLOP *** [6s Qh 6c]
+takis315: bets 1200
+x reyker x: raises 6660 to 7860
+takis315: calls 5517 and is all-in
+Uncalled bet (1143) returned to x reyker x
+*** TURN *** [6s Qh 6c] [Ac]
+*** RIVER *** [6s Qh 6c Ac] [Jc]
+*** SHOW DOWN ***
+takis315: shows [6d Th] (three of a kind, Sixes)
+x reyker x: shows [Jh Jd] (a full house, Jacks full of Sixes)
+x reyker x collected 17694 from pot
+takis315 finished the tournament in 77th place
+*** SUMMARY ***
+Total pot 17694 | Rake 0 
+Board [6s Qh 6c Ac Jc]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 3: lauu1208 (button) folded before Flop (didn't bet)
+Seat 4: Morschmaker (small blind) folded before Flop
+Seat 5: takis315 (big blind) showed [6d Th] and lost with three of a kind, Sixes
+Seat 6: Blauauge1970 folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: x reyker x showed [Jh Jd] and won (17694) with a full house, Jacks full of Sixes
+
+
+
+PokerStars Hand #260357291426: Tournament #3989529501, $0.49+$0.49+$0.12 USD Hold'em No Limit - Level XV (600/1200) - 2026/04/05 19:01:22 UTC [2026/04/05 15:01:22 ET]
+Table '3989529501 4' 8-max Seat #4 is the button
+Seat 1: 044078 (49902 in chips) 
+Seat 2: ludad18 (45202 in chips) 
+Seat 3: lauu1208 (28128 in chips) 
+Seat 4: Morschmaker (22060 in chips) 
+Seat 6: Blauauge1970 (28794 in chips) 
+Seat 7: scorza23 (12604 in chips) 
+Seat 8: x reyker x (23507 in chips) 
+044078: posts the ante 180
+ludad18: posts the ante 180
+lauu1208: posts the ante 180
+Morschmaker: posts the ante 180
+Blauauge1970: posts the ante 180
+scorza23: posts the ante 180
+x reyker x: posts the ante 180
+Blauauge1970: posts small blind 600
+scorza23: posts big blind 1200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 8d]
+x reyker x: calls 1200
+044078: folds 
+ludad18: folds 
+lauu1208: folds 
+Morschmaker: folds 
+Blauauge1970: calls 600
+scorza23: raises 3600 to 4800
+x reyker x: calls 3600
+Blauauge1970: folds 
+*** FLOP *** [7d Ac 7h]
+scorza23: bets 3600
+x reyker x: raises 3600 to 7200
+scorza23: raises 424 to 7624 and is all-in
+x reyker x: calls 424
+*** TURN *** [7d Ac 7h] [9d]
+*** RIVER *** [7d Ac 7h 9d] [2h]
+*** SHOW DOWN ***
+scorza23: shows [Ah 8d] (two pair, Aces and Sevens)
+x reyker x: shows [Jd As] (two pair, Aces and Sevens - Jack kicker)
+x reyker x collected 27308 from pot
+scorza23 finished the tournament in 76th place
+*** SUMMARY ***
+Total pot 27308 | Rake 0 
+Board [7d Ac 7h 9d 2h]
+Seat 1: 044078 folded before Flop (didn't bet)
+Seat 2: ludad18 folded before Flop (didn't bet)
+Seat 3: lauu1208 folded before Flop (didn't bet)
+Seat 4: Morschmaker (button) folded before Flop (didn't bet)
+Seat 6: Blauauge1970 (small blind) folded before Flop
+Seat 7: scorza23 (big blind) showed [Ah 8d] and lost with two pair, Aces and Sevens
+Seat 8: x reyker x showed [Jd As] and won (27308) with two pair, Aces and Sevens
+
+
+

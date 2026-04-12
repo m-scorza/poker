@@ -1,0 +1,4669 @@
+﻿PokerStars Hand #260356793914: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:25:52 UTC [2026/04/05 14:25:52 ET]
+Table '3989543785 2' 8-max Seat #2 is the button
+Seat 2: ARGO409 (1500 in chips) 
+Seat 3: BlueBon09 (1500 in chips) 
+Seat 5: Lucas.Miranda77 (1500 in chips) 
+Seat 6: scorza23 (1500 in chips) 
+Seat 8: lasvegas5791 (1500 in chips) 
+ARGO409: posts the ante 3
+BlueBon09: posts the ante 3
+Lucas.Miranda77: posts the ante 3
+scorza23: posts the ante 3
+lasvegas5791: posts the ante 3
+BlueBon09: posts small blind 10
+Lucas.Miranda77: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 6c]
+scorza23: folds 
+lasvegas5791: raises 20 to 40
+ARGO409: folds 
+BlueBon09: folds 
+Lucas.Miranda77: calls 20
+*** FLOP *** [Th 8c Kh]
+Lucas.Miranda77: checks 
+the.dokto501 is disconnected 
+lasvegas5791: bets 53
+Lucas.Miranda77: folds 
+Uncalled bet (53) returned to lasvegas5791
+lasvegas5791 collected 105 from pot
+lasvegas5791: doesn't show hand 
+*** SUMMARY ***
+Total pot 105 | Rake 0 
+Board [Th 8c Kh]
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 3: BlueBon09 (small blind) folded before Flop
+Seat 5: Lucas.Miranda77 (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: lasvegas5791 collected (105)
+
+
+
+PokerStars Hand #260356802297: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:26:25 UTC [2026/04/05 14:26:25 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 1: the.dokto501 (1500 in chips) 
+Seat 2: ARGO409 (1497 in chips) 
+Seat 3: BlueBon09 (1487 in chips) 
+Seat 5: Lucas.Miranda77 (1457 in chips) 
+Seat 6: scorza23 (1497 in chips) 
+Seat 7: lws15 (1500 in chips) 
+Seat 8: lasvegas5791 (1562 in chips) 
+the.dokto501: posts the ante 3
+ARGO409: posts the ante 3
+BlueBon09: posts the ante 3
+Lucas.Miranda77: posts the ante 3
+scorza23: posts the ante 3
+lws15: posts the ante 3
+lasvegas5791: posts the ante 3
+Lucas.Miranda77: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Ah]
+lws15: calls 20
+lasvegas5791: calls 20
+the.dokto501: calls 20
+ARGO409: folds 
+BlueBon09: folds 
+Lucas.Miranda77: calls 10
+scorza23: raises 60 to 80
+lws15: calls 60
+lasvegas5791: folds 
+the.dokto501: calls 60
+Lucas.Miranda77: calls 60
+*** FLOP *** [4h Qh Qd]
+Lucas.Miranda77: checks 
+rodeio163 is disconnected 
+scorza23: checks 
+lws15: checks 
+the.dokto501: bets 160
+Lucas.Miranda77: folds 
+scorza23: raises 1254 to 1414 and is all-in
+lws15: folds 
+the.dokto501: folds 
+Uncalled bet (1254) returned to scorza23
+scorza23 collected 681 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 681 | Rake 0 
+Board [4h Qh Qd]
+Seat 1: the.dokto501 folded on the Flop
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 3: BlueBon09 (button) folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) collected (681)
+Seat 7: lws15 folded on the Flop
+Seat 8: lasvegas5791 folded before Flop
+
+
+
+PokerStars Hand #260356823658: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:27:50 UTC [2026/04/05 14:27:50 ET]
+Table '3989543785 2' 8-max Seat #5 is the button
+Seat 1: the.dokto501 (1257 in chips) 
+Seat 2: ARGO409 (1494 in chips) 
+Seat 3: BlueBon09 (1484 in chips) 
+Seat 4: rodeio163 (1500 in chips) 
+Seat 5: Lucas.Miranda77 (1374 in chips) 
+Seat 6: scorza23 (1935 in chips) 
+Seat 8: lasvegas5791 (1539 in chips) 
+the.dokto501: posts the ante 3
+ARGO409: posts the ante 3
+BlueBon09: posts the ante 3
+rodeio163: posts the ante 3
+Lucas.Miranda77: posts the ante 3
+scorza23: posts the ante 3
+lasvegas5791: posts the ante 3
+scorza23: posts small blind 10
+lasvegas5791: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 9h]
+the.dokto501: folds 
+ARGO409: folds 
+BlueBon09: raises 40 to 60
+rodeio163: folds 
+Lucas.Miranda77: calls 60
+scorza23: folds 
+lasvegas5791: calls 40
+*** FLOP *** [Ts Qs 3d]
+lasvegas5791: checks 
+BlueBon09: bets 80
+Lucas.Miranda77: folds 
+lasvegas5791: folds 
+Uncalled bet (80) returned to BlueBon09
+BlueBon09 collected 211 from pot
+*** SUMMARY ***
+Total pot 211 | Rake 0 
+Board [Ts Qs 3d]
+Seat 1: the.dokto501 folded before Flop (didn't bet)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 3: BlueBon09 collected (211)
+Seat 4: rodeio163 folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 (button) folded on the Flop
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: lasvegas5791 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260356833344: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:28:28 UTC [2026/04/05 14:28:28 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 1: the.dokto501 (1254 in chips) 
+Seat 2: ARGO409 (1491 in chips) 
+Seat 3: BlueBon09 (1632 in chips) 
+Seat 4: rodeio163 (1497 in chips) 
+Seat 5: Lucas.Miranda77 (1311 in chips) 
+Seat 6: scorza23 (1922 in chips) 
+Seat 8: lasvegas5791 (1476 in chips) 
+the.dokto501: posts the ante 3
+ARGO409: posts the ante 3
+BlueBon09: posts the ante 3
+rodeio163: posts the ante 3
+Lucas.Miranda77: posts the ante 3
+scorza23: posts the ante 3
+lasvegas5791: posts the ante 3
+lasvegas5791: posts small blind 10
+the.dokto501: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qs]
+ARGO409: folds 
+BlueBon09: folds 
+rodeio163: folds 
+Lucas.Miranda77: folds 
+scorza23: raises 20 to 40
+lasvegas5791: calls 30
+the.dokto501: calls 20
+*** FLOP *** [8s 5s Kc]
+lasvegas5791: checks 
+the.dokto501: checks 
+scorza23: bets 60
+lasvegas5791: raises 100 to 160
+the.dokto501: folds 
+scorza23: calls 100
+*** TURN *** [8s 5s Kc] [Qc]
+lasvegas5791: bets 231
+scorza23: calls 231
+*** RIVER *** [8s 5s Kc Qc] [Kd]
+lasvegas5791: checks 
+scorza23: checks 
+*** SHOW DOWN ***
+lasvegas5791: shows [Th 6h] (a pair of Kings)
+scorza23: shows [As Qs] (two pair, Kings and Queens)
+scorza23 collected 923 from pot
+*** SUMMARY ***
+Total pot 923 | Rake 0 
+Board [8s 5s Kc Qc Kd]
+Seat 1: the.dokto501 (big blind) folded on the Flop
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 3: BlueBon09 folded before Flop (didn't bet)
+Seat 4: rodeio163 folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) showed [As Qs] and won (923) with two pair, Kings and Queens
+Seat 8: lasvegas5791 (small blind) showed [Th 6h] and lost with a pair of Kings
+
+
+
+PokerStars Hand #260356853011: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:29:47 UTC [2026/04/05 14:29:47 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 1: the.dokto501 (1211 in chips) 
+Seat 3: BlueBon09 (1629 in chips) 
+Seat 4: rodeio163 (1494 in chips) 
+Seat 5: Lucas.Miranda77 (1308 in chips) 
+Seat 6: scorza23 (2411 in chips) 
+Seat 7: edrtec5 (1500 in chips) 
+Seat 8: lasvegas5791 (1042 in chips) 
+the.dokto501: posts the ante 3
+BlueBon09: posts the ante 3
+rodeio163: posts the ante 3
+Lucas.Miranda77: posts the ante 3
+scorza23: posts the ante 3
+edrtec5: posts the ante 3
+lasvegas5791: posts the ante 3
+the.dokto501: posts small blind 10
+BlueBon09: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 4h]
+rodeio163: folds 
+Lucas.Miranda77: folds 
+scorza23: folds 
+edrtec5: raises 20 to 40
+lasvegas5791: calls 40
+the.dokto501: calls 30
+BlueBon09: folds 
+*** FLOP *** [Td Jc 3c]
+the.dokto501: checks 
+edrtec5: bets 81
+lasvegas5791: folds 
+the.dokto501: folds 
+Uncalled bet (81) returned to edrtec5
+lucsoleira is disconnected 
+edrtec5 collected 161 from pot
+edrtec5: doesn't show hand 
+*** SUMMARY ***
+Total pot 161 | Rake 0 
+Board [Td Jc 3c]
+Seat 1: the.dokto501 (small blind) folded on the Flop
+Seat 3: BlueBon09 (big blind) folded before Flop
+Seat 4: rodeio163 folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 collected (161)
+Seat 8: lasvegas5791 (button) folded on the Flop
+
+
+
+PokerStars Hand #260356863780: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:30:29 UTC [2026/04/05 14:30:29 ET]
+Table '3989543785 2' 8-max Seat #1 is the button
+Seat 1: the.dokto501 (1168 in chips) 
+Seat 2: lucsoleira (1500 in chips) out of hand (moved from another table into small blind)
+Seat 3: BlueBon09 (1606 in chips) 
+Seat 4: rodeio163 (1491 in chips) 
+Seat 5: Lucas.Miranda77 (1305 in chips) 
+Seat 6: scorza23 (2408 in chips) 
+Seat 7: edrtec5 (1618 in chips) 
+Seat 8: lasvegas5791 (999 in chips) 
+lucsoleira will be allowed to play after the button
+the.dokto501: posts the ante 3
+BlueBon09: posts the ante 3
+rodeio163: posts the ante 3
+Lucas.Miranda77: posts the ante 3
+scorza23: posts the ante 3
+edrtec5: posts the ante 3
+lasvegas5791: posts the ante 3
+BlueBon09: posts small blind 10
+rodeio163: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 3h]
+Lucas.Miranda77: folds 
+scorza23: folds 
+edrtec5: raises 20 to 40
+lasvegas5791: calls 40
+the.dokto501: folds 
+BlueBon09: folds 
+rodeio163: calls 20
+*** FLOP *** [Jd Tc Ts]
+rodeio163: bets 160
+edrtec5: calls 160
+lasvegas5791: folds 
+*** TURN *** [Jd Tc Ts] [2d]
+rodeio163: bets 471
+edrtec5: raises 471 to 942
+rodeio163: calls 471
+*** RIVER *** [Jd Tc Ts 2d] [2h]
+rodeio163: bets 346 and is all-in
+edrtec5: calls 346
+*** SHOW DOWN ***
+rodeio163: shows [Kd Js] (two pair, Jacks and Tens)
+edrtec5: shows [Th Ad] (a full house, Tens full of Deuces)
+edrtec5 collected 3047 from pot
+rodeio163 finished the tournament in 32nd place
+*** SUMMARY ***
+Total pot 3047 | Rake 0 
+Board [Jd Tc Ts 2d 2h]
+Seat 1: the.dokto501 (button) folded before Flop (didn't bet)
+Seat 3: BlueBon09 (small blind) folded before Flop
+Seat 4: rodeio163 (big blind) showed [Kd Js] and lost with two pair, Jacks and Tens
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 showed [Th Ad] and won (3047) with a full house, Tens full of Deuces
+Seat 8: lasvegas5791 folded on the Flop
+
+
+
+PokerStars Hand #260356878482: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:31:27 UTC [2026/04/05 14:31:27 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 1: the.dokto501 (1165 in chips) 
+Seat 2: lucsoleira (1500 in chips) 
+Seat 3: BlueBon09 (1593 in chips) 
+Seat 5: Lucas.Miranda77 (1302 in chips) 
+Seat 6: scorza23 (2405 in chips) 
+Seat 7: edrtec5 (3174 in chips) 
+Seat 8: lasvegas5791 (956 in chips) 
+the.dokto501: posts the ante 4
+lucsoleira: posts the ante 4
+BlueBon09: posts the ante 4
+Lucas.Miranda77: posts the ante 4
+scorza23: posts the ante 4
+edrtec5: posts the ante 4
+lasvegas5791: posts the ante 4
+Lucas.Miranda77: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Th]
+edrtec5: folds 
+lasvegas5791: folds 
+the.dokto501: calls 30
+lucsoleira: folds 
+BlueBon09: calls 30
+Lucas.Miranda77: raises 45 to 75
+scorza23: calls 45
+the.dokto501: calls 45
+BlueBon09: calls 45
+*** FLOP *** [7d 2h 4s]
+Lucas.Miranda77: checks 
+scorza23: checks 
+the.dokto501: checks 
+BlueBon09: checks 
+*** TURN *** [7d 2h 4s] [Kc]
+Lucas.Miranda77: checks 
+scorza23: bets 90
+the.dokto501: raises 90 to 180
+BlueBon09: calls 180
+Lucas.Miranda77: folds 
+scorza23: folds 
+*** RIVER *** [7d 2h 4s Kc] [9c]
+the.dokto501: bets 906 and is all-in
+BlueBon09: calls 906
+*** SHOW DOWN ***
+the.dokto501: shows [Kd 8h] (a pair of Kings)
+BlueBon09: shows [Qc Ks] (a pair of Kings - Queen kicker)
+BlueBon09 collected 2590 from pot
+the.dokto501 finished the tournament in 30th place
+*** SUMMARY ***
+Total pot 2590 | Rake 0 
+Board [7d 2h 4s Kc 9c]
+Seat 1: the.dokto501 showed [Kd 8h] and lost with a pair of Kings
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: BlueBon09 (button) showed [Qc Ks] and won (2590) with a pair of Kings
+Seat 5: Lucas.Miranda77 (small blind) folded on the Turn
+Seat 6: scorza23 (big blind) folded on the Turn
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: lasvegas5791 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356904046: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:33:08 UTC [2026/04/05 14:33:08 ET]
+Table '3989543785 2' 8-max Seat #5 is the button
+Seat 2: lucsoleira (1496 in chips) 
+Seat 3: BlueBon09 (3018 in chips) 
+Seat 5: Lucas.Miranda77 (1223 in chips) 
+Seat 6: scorza23 (2236 in chips) 
+Seat 7: edrtec5 (3170 in chips) 
+Seat 8: lasvegas5791 (952 in chips) 
+lucsoleira: posts the ante 4
+BlueBon09: posts the ante 4
+Lucas.Miranda77: posts the ante 4
+scorza23: posts the ante 4
+edrtec5: posts the ante 4
+lasvegas5791: posts the ante 4
+scorza23: posts small blind 15
+edrtec5: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 3h]
+lasvegas5791: calls 30
+lucsoleira: folds 
+BlueBon09: calls 30
+Lucas.Miranda77: folds 
+scorza23: folds 
+edrtec5: raises 120 to 150
+lasvegas5791: raises 798 to 948 and is all-in
+BlueBon09: calls 918
+edrtec5: raises 2218 to 3166 and is all-in
+BlueBon09: calls 2066 and is all-in
+Uncalled bet (152) returned to edrtec5
+*** FLOP *** [Qs Kh 7d]
+*** TURN *** [Qs Kh 7d] [4s]
+*** RIVER *** [Qs Kh 7d 4s] [6s]
+*** SHOW DOWN ***
+edrtec5: shows [5c 5s] (a pair of Fives)
+BlueBon09: shows [Jd Ah] (high card Ace)
+edrtec5 collected 4132 from side pot
+lasvegas5791: shows [Js Ac] (high card Ace)
+edrtec5 collected 2883 from main pot
+BlueBon09 finished the tournament in 28th place
+lasvegas5791 finished the tournament in 29th place
+*** SUMMARY ***
+Total pot 7015 Main pot 2883. Side pot 4132. | Rake 0 
+Board [Qs Kh 7d 4s 6s]
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: BlueBon09 showed [Jd Ah] and lost with high card Ace
+Seat 5: Lucas.Miranda77 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: edrtec5 (big blind) showed [5c 5s] and won (7015) with a pair of Fives
+Seat 8: lasvegas5791 showed [Js Ac] and lost with high card Ace
+
+
+
+PokerStars Hand #260356914427: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:33:49 UTC [2026/04/05 14:33:49 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 2: lucsoleira (1492 in chips) 
+Seat 4: Augusto Diwali (1124 in chips) 
+Seat 5: Lucas.Miranda77 (1219 in chips) 
+Seat 6: scorza23 (2217 in chips) 
+Seat 7: edrtec5 (7167 in chips) 
+lucsoleira: posts the ante 4
+Augusto Diwali: posts the ante 4
+Lucas.Miranda77: posts the ante 4
+scorza23: posts the ante 4
+edrtec5: posts the ante 4
+edrtec5: posts small blind 15
+lucsoleira: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Td Ac]
+Augusto Diwali: raises 30 to 60
+Lucas.Miranda77: calls 60
+scorza23: raises 120 to 180
+edrtec5: folds 
+lucsoleira: folds 
+Augusto Diwali: raises 240 to 420
+Lucas.Miranda77: folds 
+scorza23: calls 240
+*** FLOP *** [3c Jh 8c]
+Augusto Diwali: bets 700 and is all-in
+scorza23: calls 700
+*** TURN *** [3c Jh 8c] [8d]
+*** RIVER *** [3c Jh 8c 8d] [7h]
+*** SHOW DOWN ***
+Augusto Diwali: shows [Qh Qd] (two pair, Queens and Eights)
+scorza23: shows [Td Ac] (a pair of Eights)
+Augusto Diwali collected 2365 from pot
+*** SUMMARY ***
+Total pot 2365 | Rake 0 
+Board [3c Jh 8c 8d 7h]
+Seat 2: lucsoleira (big blind) folded before Flop
+Seat 4: Augusto Diwali showed [Qh Qd] and won (2365) with two pair, Queens and Eights
+Seat 5: Lucas.Miranda77 folded before Flop
+Seat 6: scorza23 (button) showed [Td Ac] and lost with a pair of Eights
+Seat 7: edrtec5 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260356925583: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:34:33 UTC [2026/04/05 14:34:33 ET]
+Table '3989543785 2' 8-max Seat #7 is the button
+Seat 2: lucsoleira (1458 in chips) 
+Seat 3: Gigi74754 (1245 in chips) 
+Seat 4: Augusto Diwali (2365 in chips) 
+Seat 5: Lucas.Miranda77 (1155 in chips) 
+Seat 6: scorza23 (1093 in chips) 
+Seat 7: edrtec5 (7148 in chips) 
+lucsoleira: posts the ante 4
+Gigi74754: posts the ante 4
+Augusto Diwali: posts the ante 4
+Lucas.Miranda77: posts the ante 4
+scorza23: posts the ante 4
+edrtec5: posts the ante 4
+lucsoleira: posts small blind 15
+Gigi74754: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 5d]
+Augusto Diwali: folds 
+Lucas.Miranda77: raises 60 to 90
+scorza23: folds 
+edrtec5: folds 
+lucsoleira: folds 
+Gigi74754: folds 
+Uncalled bet (60) returned to Lucas.Miranda77
+Lucas.Miranda77 collected 99 from pot
+Lucas.Miranda77: doesn't show hand 
+*** SUMMARY ***
+Total pot 99 | Rake 0 
+Seat 2: lucsoleira (small blind) folded before Flop
+Seat 3: Gigi74754 (big blind) folded before Flop
+Seat 4: Augusto Diwali folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 collected (99)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356930824: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:34:53 UTC [2026/04/05 14:34:53 ET]
+Table '3989543785 2' 8-max Seat #2 is the button
+Seat 2: lucsoleira (1439 in chips) 
+Seat 3: Gigi74754 (1211 in chips) 
+Seat 4: Augusto Diwali (2361 in chips) 
+Seat 5: Lucas.Miranda77 (1220 in chips) 
+Seat 6: scorza23 (1089 in chips) 
+Seat 7: edrtec5 (7144 in chips) 
+lucsoleira: posts the ante 4
+Gigi74754: posts the ante 4
+Augusto Diwali: posts the ante 4
+Lucas.Miranda77: posts the ante 4
+scorza23: posts the ante 4
+edrtec5: posts the ante 4
+Gigi74754: posts small blind 15
+Augusto Diwali: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Th 8s]
+Lucas.Miranda77: raises 60 to 90
+scorza23: folds 
+edrtec5: folds 
+lucsoleira: folds 
+Gigi74754: calls 75
+Augusto Diwali: folds 
+*** FLOP *** [2d 9s 2h]
+Gigi74754: checks 
+Lucas.Miranda77: bets 70
+Gigi74754: folds 
+Uncalled bet (70) returned to Lucas.Miranda77
+Lucas.Miranda77 collected 234 from pot
+Lucas.Miranda77: doesn't show hand 
+*** SUMMARY ***
+Total pot 234 | Rake 0 
+Board [2d 9s 2h]
+Seat 2: lucsoleira (button) folded before Flop (didn't bet)
+Seat 3: Gigi74754 (small blind) folded on the Flop
+Seat 4: Augusto Diwali (big blind) folded before Flop
+Seat 5: Lucas.Miranda77 collected (234)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356937684: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 18:35:20 UTC [2026/04/05 14:35:20 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 2: lucsoleira (1435 in chips) 
+Seat 3: Gigi74754 (1117 in chips) 
+Seat 4: Augusto Diwali (2327 in chips) 
+Seat 5: Lucas.Miranda77 (1360 in chips) 
+Seat 6: scorza23 (1085 in chips) 
+Seat 7: edrtec5 (7140 in chips) 
+lucsoleira: posts the ante 4
+Gigi74754: posts the ante 4
+Augusto Diwali: posts the ante 4
+Lucas.Miranda77: posts the ante 4
+scorza23: posts the ante 4
+edrtec5: posts the ante 4
+Augusto Diwali: posts small blind 15
+Lucas.Miranda77: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [3c 9c]
+scorza23: folds 
+edrtec5: raises 30 to 60
+lucsoleira: calls 60
+Gigi74754: folds 
+Augusto Diwali: folds 
+Lucas.Miranda77: folds 
+*** FLOP *** [2c 5h Qh]
+edrtec5: bets 95
+lucsoleira: calls 95
+*** TURN *** [2c 5h Qh] [7c]
+edrtec5: bets 250
+felipe92577 is disconnected 
+lucsoleira: folds 
+Uncalled bet (250) returned to edrtec5
+edrtec5 collected 379 from pot
+edrtec5: doesn't show hand 
+*** SUMMARY ***
+Total pot 379 | Rake 0 
+Board [2c 5h Qh 7c]
+Seat 2: lucsoleira folded on the Turn
+Seat 3: Gigi74754 (button) folded before Flop (didn't bet)
+Seat 4: Augusto Diwali (small blind) folded before Flop
+Seat 5: Lucas.Miranda77 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 collected (379)
+
+
+
+PokerStars Hand #260356950014: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:36:09 UTC [2026/04/05 14:36:09 ET]
+Table '3989543785 2' 8-max Seat #4 is the button
+Seat 1: felipe92577 (1314 in chips) 
+Seat 2: lucsoleira (1276 in chips) 
+Seat 3: Gigi74754 (1113 in chips) 
+Seat 4: Augusto Diwali (2308 in chips) 
+Seat 5: Lucas.Miranda77 (1326 in chips) 
+Seat 6: scorza23 (1081 in chips) 
+Seat 7: edrtec5 (7360 in chips) 
+Seat 8: Asterix426 (6486 in chips) 
+felipe92577: posts the ante 6
+lucsoleira: posts the ante 6
+Gigi74754: posts the ante 6
+Augusto Diwali: posts the ante 6
+Lucas.Miranda77: posts the ante 6
+scorza23: posts the ante 6
+edrtec5: posts the ante 6
+Asterix426: posts the ante 6
+Lucas.Miranda77: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d 7d]
+edrtec5: folds 
+Asterix426: folds 
+felipe92577: folds 
+lucsoleira: raises 78 to 128
+Gigi74754: folds 
+Augusto Diwali: calls 128
+Lucas.Miranda77: folds 
+scorza23: raises 947 to 1075 and is all-in
+lucsoleira: folds 
+Augusto Diwali: folds 
+Uncalled bet (947) returned to scorza23
+scorza23 collected 457 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 457 | Rake 0 
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira folded before Flop
+Seat 3: Gigi74754 folded before Flop (didn't bet)
+Seat 4: Augusto Diwali (button) folded before Flop
+Seat 5: Lucas.Miranda77 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (457)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260356960448: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:36:50 UTC [2026/04/05 14:36:50 ET]
+Table '3989543785 2' 8-max Seat #5 is the button
+Seat 1: felipe92577 (1308 in chips) 
+Seat 2: lucsoleira (1142 in chips) 
+Seat 3: Gigi74754 (1107 in chips) 
+Seat 4: Augusto Diwali (2174 in chips) 
+Seat 5: Lucas.Miranda77 (1295 in chips) 
+Seat 6: scorza23 (1404 in chips) 
+Seat 7: edrtec5 (7354 in chips) 
+Seat 8: Asterix426 (6480 in chips) 
+felipe92577: posts the ante 6
+lucsoleira: posts the ante 6
+Gigi74754: posts the ante 6
+Augusto Diwali: posts the ante 6
+Lucas.Miranda77: posts the ante 6
+scorza23: posts the ante 6
+edrtec5: posts the ante 6
+Asterix426: posts the ante 6
+scorza23: posts small blind 25
+edrtec5: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 9d]
+Asterix426: raises 100 to 150
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: folds 
+Augusto Diwali: calls 150
+Lucas.Miranda77: folds 
+scorza23: raises 1248 to 1398 and is all-in
+edrtec5: folds 
+Asterix426: folds 
+Augusto Diwali: calls 1248
+*** FLOP *** [4c 3h 6s]
+*** TURN *** [4c 3h 6s] [9h]
+*** RIVER *** [4c 3h 6s 9h] [8d]
+*** SHOW DOWN ***
+scorza23: shows [Ad 9d] (a pair of Nines)
+Augusto Diwali: shows [Ah 3c] (a pair of Threes)
+scorza23 collected 3044 from pot
+*** SUMMARY ***
+Total pot 3044 | Rake 0 
+Board [4c 3h 6s 9h 8d]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: Gigi74754 folded before Flop (didn't bet)
+Seat 4: Augusto Diwali showed [Ah 3c] and lost with a pair of Threes
+Seat 5: Lucas.Miranda77 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) showed [Ad 9d] and won (3044) with a pair of Nines
+Seat 7: edrtec5 (big blind) folded before Flop
+Seat 8: Asterix426 folded before Flop
+
+
+
+PokerStars Hand #260356968702: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:37:23 UTC [2026/04/05 14:37:23 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 1: felipe92577 (1302 in chips) 
+Seat 2: lucsoleira (1136 in chips) 
+Seat 3: Gigi74754 (1101 in chips) 
+Seat 4: Augusto Diwali (770 in chips) 
+Seat 5: Lucas.Miranda77 (1289 in chips) 
+Seat 6: scorza23 (3044 in chips) 
+Seat 7: edrtec5 (7298 in chips) 
+Seat 8: Asterix426 (6324 in chips) 
+felipe92577: posts the ante 6
+lucsoleira: posts the ante 6
+Gigi74754: posts the ante 6
+Augusto Diwali: posts the ante 6
+Lucas.Miranda77: posts the ante 6
+scorza23: posts the ante 6
+edrtec5: posts the ante 6
+Asterix426: posts the ante 6
+edrtec5: posts small blind 25
+Asterix426: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 3s]
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: folds 
+Augusto Diwali: folds 
+Lucas.Miranda77: raises 50 to 100
+scorza23: folds 
+edrtec5: folds 
+Asterix426: calls 50
+*** FLOP *** [2c 2d Td]
+Asterix426: checks 
+Lucas.Miranda77: checks 
+*** TURN *** [2c 2d Td] [Ad]
+Asterix426: bets 137
+Lucas.Miranda77: folds 
+Uncalled bet (137) returned to Asterix426
+Asterix426 collected 273 from pot
+*** SUMMARY ***
+Total pot 273 | Rake 0 
+Board [2c 2d Td Ad]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: Gigi74754 folded before Flop (didn't bet)
+Seat 4: Augusto Diwali folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 folded on the Turn
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: edrtec5 (small blind) folded before Flop
+Seat 8: Asterix426 (big blind) collected (273)
+
+
+
+PokerStars Hand #260356976263: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:37:56 UTC [2026/04/05 14:37:56 ET]
+Table '3989543785 2' 8-max Seat #7 is the button
+Seat 1: felipe92577 (1296 in chips) 
+Seat 2: lucsoleira (1130 in chips) 
+Seat 3: Gigi74754 (1095 in chips) 
+Seat 4: Augusto Diwali (764 in chips) 
+Seat 5: Lucas.Miranda77 (1183 in chips) 
+Seat 6: scorza23 (3038 in chips) 
+Seat 7: edrtec5 (7267 in chips) 
+Seat 8: Asterix426 (6491 in chips) 
+felipe92577: posts the ante 6
+lucsoleira: posts the ante 6
+Gigi74754: posts the ante 6
+Augusto Diwali: posts the ante 6
+Lucas.Miranda77: posts the ante 6
+scorza23: posts the ante 6
+edrtec5: posts the ante 6
+Asterix426: posts the ante 6
+Asterix426: posts small blind 25
+felipe92577: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Jc]
+lucsoleira: folds 
+Gigi74754: folds 
+Augusto Diwali: raises 50 to 100
+Lucas.Miranda77: folds 
+scorza23: folds 
+edrtec5: folds 
+Asterix426: calls 75
+felipe92577: folds 
+*** FLOP *** [Jd Ts 8h]
+Asterix426: bets 149
+Augusto Diwali: raises 509 to 658 and is all-in
+Asterix426: calls 509
+*** TURN *** [Jd Ts 8h] [6h]
+*** RIVER *** [Jd Ts 8h 6h] [2s]
+*** SHOW DOWN ***
+Asterix426: shows [7d Ac] (high card Ace)
+Augusto Diwali: shows [7c Kd] (high card King)
+Asterix426 collected 1614 from pot
+Augusto Diwali finished the tournament in 23rd place
+*** SUMMARY ***
+Total pot 1614 | Rake 0 
+Board [Jd Ts 8h 6h 2s]
+Seat 1: felipe92577 (big blind) folded before Flop
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: Gigi74754 folded before Flop (didn't bet)
+Seat 4: Augusto Diwali showed [7c Kd] and lost with high card King
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 (button) folded before Flop (didn't bet)
+Seat 8: Asterix426 (small blind) showed [7d Ac] and won (1614) with high card Ace
+
+
+
+PokerStars Hand #260356984872: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:38:31 UTC [2026/04/05 14:38:31 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 1: felipe92577 (1240 in chips) 
+Seat 2: lucsoleira (1124 in chips) 
+Seat 3: Gigi74754 (1089 in chips) 
+Seat 5: Lucas.Miranda77 (1177 in chips) 
+Seat 6: scorza23 (3032 in chips) 
+Seat 7: edrtec5 (7261 in chips) 
+Seat 8: Asterix426 (7341 in chips) 
+felipe92577: posts the ante 6
+lucsoleira: posts the ante 6
+Gigi74754: posts the ante 6
+Lucas.Miranda77: posts the ante 6
+scorza23: posts the ante 6
+edrtec5: posts the ante 6
+Asterix426: posts the ante 6
+felipe92577: posts small blind 25
+lucsoleira: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Qd]
+Gigi74754: calls 50
+Lucas.Miranda77: folds 
+scorza23: folds 
+edrtec5: raises 50 to 100
+Asterix426: raises 350 to 450
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: folds 
+edrtec5: calls 350
+*** FLOP *** [2d Kh Ad]
+edrtec5: checks 
+Asterix426: bets 750
+edrtec5: calls 750
+*** TURN *** [2d Kh Ad] [Ts]
+edrtec5: checks 
+Asterix426: bets 2567
+edrtec5: calls 2567
+*** RIVER *** [2d Kh Ad Ts] [Kc]
+edrtec5: checks 
+Asterix426: bets 3568 and is all-in
+edrtec5: folds 
+Uncalled bet (3568) returned to Asterix426
+Asterix426 collected 7701 from pot
+*** SUMMARY ***
+Total pot 7701 | Rake 0 
+Board [2d Kh Ad Ts Kc]
+Seat 1: felipe92577 (small blind) folded before Flop
+Seat 2: lucsoleira (big blind) folded before Flop
+Seat 3: Gigi74754 folded before Flop
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded on the River
+Seat 8: Asterix426 (button) collected (7701)
+
+
+
+PokerStars Hand #260357003954: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:39:48 UTC [2026/04/05 14:39:48 ET]
+Table '3989543785 2' 8-max Seat #1 is the button
+Seat 1: felipe92577 (1209 in chips) 
+Seat 2: lucsoleira (1068 in chips) 
+Seat 3: Gigi74754 (1033 in chips) 
+Seat 5: Lucas.Miranda77 (1171 in chips) 
+Seat 6: scorza23 (3026 in chips) 
+Seat 7: edrtec5 (3488 in chips) 
+Seat 8: Asterix426 (11269 in chips) 
+felipe92577: posts the ante 6
+lucsoleira: posts the ante 6
+Gigi74754: posts the ante 6
+Lucas.Miranda77: posts the ante 6
+scorza23: posts the ante 6
+edrtec5: posts the ante 6
+Asterix426: posts the ante 6
+lucsoleira: posts small blind 25
+Gigi74754: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ad]
+Lucas.Miranda77: folds 
+scorza23: raises 50 to 100
+edrtec5: raises 3382 to 3482 and is all-in
+Asterix426: folds 
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: folds 
+scorza23: folds 
+Uncalled bet (3382) returned to edrtec5
+edrtec5 collected 317 from pot
+edrtec5: doesn't show hand 
+*** SUMMARY ***
+Total pot 317 | Rake 0 
+Seat 1: felipe92577 (button) folded before Flop (didn't bet)
+Seat 2: lucsoleira (small blind) folded before Flop
+Seat 3: Gigi74754 (big blind) folded before Flop
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop
+Seat 7: edrtec5 collected (317)
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357012319: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 18:40:21 UTC [2026/04/05 14:40:21 ET]
+Table '3989543785 2' 8-max Seat #2 is the button
+Seat 1: felipe92577 (1203 in chips) 
+Seat 2: lucsoleira (1037 in chips) 
+Seat 3: Gigi74754 (977 in chips) 
+Seat 5: Lucas.Miranda77 (1165 in chips) 
+Seat 6: scorza23 (2920 in chips) 
+Seat 7: edrtec5 (3699 in chips) 
+Seat 8: Asterix426 (11263 in chips) 
+felipe92577: posts the ante 6
+lucsoleira: posts the ante 6
+Gigi74754: posts the ante 6
+Lucas.Miranda77: posts the ante 6
+scorza23: posts the ante 6
+edrtec5: posts the ante 6
+Asterix426: posts the ante 6
+Gigi74754: posts small blind 25
+Lucas.Miranda77: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 6s]
+scorza23: folds 
+edrtec5: raises 50 to 100
+Asterix426: calls 100
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: calls 75
+Lucas.Miranda77: calls 50
+*** FLOP *** [8c 9c Js]
+Gigi74754: checks 
+Lucas.Miranda77: checks 
+edrtec5: checks 
+Asterix426: bets 650
+Gigi74754: folds 
+Lucas.Miranda77: folds 
+edrtec5: raises 2943 to 3593 and is all-in
+Asterix426: calls 2943
+*** TURN *** [8c 9c Js] [Qh]
+*** RIVER *** [8c 9c Js Qh] [8d]
+*** SHOW DOWN ***
+edrtec5: shows [Tc Ts] (a straight, Eight to Queen)
+Asterix426: shows [Th Ac] (a straight, Eight to Queen)
+edrtec5 collected 3814 from pot
+Asterix426 collected 3814 from pot
+*** SUMMARY ***
+Total pot 7628 | Rake 0 
+Board [8c 9c Js Qh 8d]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira (button) folded before Flop (didn't bet)
+Seat 3: Gigi74754 (small blind) folded on the Flop
+Seat 5: Lucas.Miranda77 (big blind) folded on the Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 showed [Tc Ts] and won (3814) with a straight, Eight to Queen
+Seat 8: Asterix426 showed [Th Ac] and won (3814) with a straight, Eight to Queen
+
+
+
+PokerStars Hand #260357032324: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:41:39 UTC [2026/04/05 14:41:39 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 1: felipe92577 (1197 in chips) 
+Seat 2: lucsoleira (1031 in chips) 
+Seat 3: Gigi74754 (871 in chips) 
+Seat 5: Lucas.Miranda77 (1059 in chips) 
+Seat 6: scorza23 (2914 in chips) 
+Seat 7: edrtec5 (3814 in chips) 
+Seat 8: Asterix426 (11378 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+Gigi74754: posts the ante 10
+Lucas.Miranda77: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+Lucas.Miranda77: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 5c]
+edrtec5: folds 
+Asterix426: raises 80 to 160
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: folds 
+Lucas.Miranda77: raises 320 to 480
+scorza23: folds 
+Asterix426: calls 320
+*** FLOP *** [3c 3d 7c]
+Lucas.Miranda77: checks 
+Asterix426: bets 720
+Lucas.Miranda77: folds 
+Uncalled bet (720) returned to Asterix426
+Asterix426 collected 1110 from pot
+*** SUMMARY ***
+Total pot 1110 | Rake 0 
+Board [3c 3d 7c]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: Gigi74754 (button) folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 (small blind) folded on the Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 collected (1110)
+
+
+
+PokerStars Hand #260357045558: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:42:30 UTC [2026/04/05 14:42:30 ET]
+Table '3989543785 2' 8-max Seat #5 is the button
+Seat 1: felipe92577 (1187 in chips) 
+Seat 2: lucsoleira (1021 in chips) 
+Seat 3: Gigi74754 (861 in chips) 
+Seat 5: Lucas.Miranda77 (569 in chips) 
+Seat 6: scorza23 (2824 in chips) 
+Seat 7: edrtec5 (3804 in chips) 
+Seat 8: Asterix426 (11998 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+Gigi74754: posts the ante 10
+Lucas.Miranda77: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+scorza23: posts small blind 40
+edrtec5: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Qh]
+Asterix426: folds 
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: folds 
+Lucas.Miranda77: folds 
+scorza23: raises 160 to 240
+edrtec5: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 230 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: Gigi74754 folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (230)
+Seat 7: edrtec5 (big blind) folded before Flop
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357052823: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:42:59 UTC [2026/04/05 14:42:59 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 1: felipe92577 (1177 in chips) 
+Seat 2: lucsoleira (1011 in chips) 
+Seat 3: Gigi74754 (851 in chips) 
+Seat 5: Lucas.Miranda77 (559 in chips) 
+Seat 6: scorza23 (2964 in chips) 
+Seat 7: edrtec5 (3714 in chips) 
+Seat 8: Asterix426 (11988 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+Gigi74754: posts the ante 10
+Lucas.Miranda77: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+edrtec5: posts small blind 40
+Asterix426: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4d 2d]
+felipe92577: folds 
+lucsoleira: folds 
+Gigi74754: calls 80
+Lucas.Miranda77: folds 
+scorza23: folds 
+edrtec5: raises 3624 to 3704 and is all-in
+Asterix426 is disconnected 
+Asterix426 is connected 
+Asterix426: folds 
+Gigi74754: calls 761 and is all-in
+Uncalled bet (2863) returned to edrtec5
+Asterix426 is disconnected 
+*** FLOP *** [5h 2c 9d]
+*** TURN *** [5h 2c 9d] [Ah]
+*** RIVER *** [5h 2c 9d Ah] [Kh]
+*** SHOW DOWN ***
+edrtec5: shows [5c Ac] (two pair, Aces and Fives)
+Gigi74754: shows [Qc 8c] (high card Ace)
+edrtec5 collected 1832 from pot
+Gigi74754 finished the tournament in 21st place
+*** SUMMARY ***
+Total pot 1832 | Rake 0 
+Board [5h 2c 9d Ah Kh]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: Gigi74754 showed [Qc 8c] and lost with high card Ace
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: edrtec5 (small blind) showed [5c Ac] and won (1832) with two pair, Aces and Fives
+Seat 8: Asterix426 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357062233: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:43:39 UTC [2026/04/05 14:43:39 ET]
+Table '3989543785 2' 8-max Seat #7 is the button
+Seat 1: felipe92577 (1167 in chips) 
+Seat 2: lucsoleira (1001 in chips) 
+Seat 5: Lucas.Miranda77 (549 in chips) 
+Seat 6: scorza23 (2954 in chips) 
+Seat 7: edrtec5 (4695 in chips) 
+Seat 8: Asterix426 (11898 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+Lucas.Miranda77: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+Asterix426: posts small blind 40
+felipe92577: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 3s]
+lucsoleira: folds 
+Lucas.Miranda77: folds 
+scorza23: folds 
+edrtec5: calls 80
+Asterix426: calls 40
+felipe92577: raises 1077 to 1157 and is all-in
+edrtec5: folds 
+Asterix426: folds 
+Uncalled bet (1077) returned to felipe92577
+felipe92577 collected 300 from pot
+felipe92577: doesn't show hand 
+*** SUMMARY ***
+Total pot 300 | Rake 0 
+Seat 1: felipe92577 (big blind) collected (300)
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 5: Lucas.Miranda77 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 (button) folded before Flop
+Seat 8: Asterix426 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357068677: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:44:05 UTC [2026/04/05 14:44:05 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 1: felipe92577 (1377 in chips) 
+Seat 2: lucsoleira (991 in chips) 
+Seat 5: Lucas.Miranda77 (539 in chips) 
+Seat 6: scorza23 (2944 in chips) 
+Seat 7: edrtec5 (4605 in chips) 
+Seat 8: Asterix426 (11808 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+Lucas.Miranda77: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+felipe92577: posts small blind 40
+lucsoleira: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Qh]
+Lucas.Miranda77: raises 449 to 529 and is all-in
+scorza23: folds 
+edrtec5: folds 
+Asterix426: folds 
+felipe92577: folds 
+lucsoleira: calls 449
+*** FLOP *** [2h 3c 9s]
+*** TURN *** [2h 3c 9s] [3s]
+*** RIVER *** [2h 3c 9s 3s] [Qs]
+*** SHOW DOWN ***
+lucsoleira: shows [As 2s] (a flush, Ace high)
+Lucas.Miranda77: shows [Qc Td] (two pair, Queens and Threes)
+lucsoleira collected 1158 from pot
+Lucas.Miranda77 finished the tournament in 20th place
+*** SUMMARY ***
+Total pot 1158 | Rake 0 
+Board [2h 3c 9s 3s Qs]
+Seat 1: felipe92577 (small blind) folded before Flop
+Seat 2: lucsoleira (big blind) showed [As 2s] and won (1158) with a flush, Ace high
+Seat 5: Lucas.Miranda77 showed [Qc Td] and lost with two pair, Queens and Threes
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357080534: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:44:51 UTC [2026/04/05 14:44:51 ET]
+Table '3989543785 2' 8-max Seat #1 is the button
+Seat 1: felipe92577 (1327 in chips) 
+Seat 2: lucsoleira (1610 in chips) 
+Seat 6: scorza23 (2934 in chips) 
+Seat 7: edrtec5 (4595 in chips) 
+Seat 8: Asterix426 (11798 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+lucsoleira: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Js]
+edrtec5: folds 
+Asterix426: raises 400 to 480
+felipe92577: folds 
+lucsoleira: folds 
+scorza23: folds 
+Uncalled bet (400) returned to Asterix426
+Asterix426 collected 250 from pot
+*** SUMMARY ***
+Total pot 250 | Rake 0 
+Seat 1: felipe92577 (button) folded before Flop (didn't bet)
+Seat 2: lucsoleira (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 collected (250)
+
+
+
+PokerStars Hand #260357085250: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:45:10 UTC [2026/04/05 14:45:10 ET]
+Table '3989543785 2' 8-max Seat #2 is the button
+Seat 1: felipe92577 (1317 in chips) 
+Seat 2: lucsoleira (1560 in chips) 
+Seat 6: scorza23 (2844 in chips) 
+Seat 7: edrtec5 (4585 in chips) 
+Seat 8: Asterix426 (11958 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+scorza23: posts small blind 40
+edrtec5: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Tc]
+Asterix426: folds 
+felipe92577: raises 80 to 160
+lucsoleira: folds 
+scorza23: calls 120
+ARGO409 is disconnected 
+edrtec5: calls 80
+*** FLOP *** [Jc 8c 2d]
+scorza23: bets 160
+edrtec5: calls 160
+felipe92577: folds 
+*** TURN *** [Jc 8c 2d] [Qd]
+scorza23: bets 320
+edrtec5: calls 320
+*** RIVER *** [Jc 8c 2d Qd] [Ac]
+scorza23: bets 1490
+edrtec5: folds 
+Uncalled bet (1490) returned to scorza23
+scorza23 collected 1490 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1490 | Rake 0 
+Board [Jc 8c 2d Qd Ac]
+Seat 1: felipe92577 folded on the Flop
+Seat 2: lucsoleira (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) collected (1490)
+Seat 7: edrtec5 (big blind) folded on the River
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357095418: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 18:45:50 UTC [2026/04/05 14:45:50 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 1: felipe92577 (1147 in chips) 
+Seat 2: lucsoleira (1550 in chips) 
+Seat 3: ARGO409 (2372 in chips) 
+Seat 6: scorza23 (3684 in chips) 
+Seat 7: edrtec5 (3935 in chips) 
+Seat 8: Asterix426 (11948 in chips) 
+felipe92577: posts the ante 10
+lucsoleira: posts the ante 10
+ARGO409: posts the ante 10
+scorza23: posts the ante 10
+edrtec5: posts the ante 10
+Asterix426: posts the ante 10
+edrtec5: posts small blind 40
+Asterix426: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 4s]
+felipe92577: folds 
+lucsoleira: folds 
+ARGO409: folds 
+scorza23: folds 
+edrtec5: calls 40
+Asterix426: raises 1020 to 1100
+edrtec5: folds 
+Uncalled bet (1020) returned to Asterix426
+Asterix426 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: edrtec5 (small blind) folded before Flop
+Seat 8: Asterix426 (big blind) collected (220)
+
+
+
+PokerStars Hand #260357101514: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:46:14 UTC [2026/04/05 14:46:14 ET]
+Table '3989543785 2' 8-max Seat #7 is the button
+Seat 1: felipe92577 (1137 in chips) 
+Seat 2: lucsoleira (1540 in chips) 
+Seat 3: ARGO409 (2362 in chips) 
+Seat 6: scorza23 (3674 in chips) 
+Seat 7: edrtec5 (3845 in chips) 
+Seat 8: Asterix426 (12078 in chips) 
+felipe92577: posts the ante 15
+lucsoleira: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+Asterix426: posts small blind 60
+felipe92577: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Kc]
+lucsoleira: folds 
+ARGO409: folds 
+scorza23: folds 
+edrtec5: calls 120
+Asterix426: calls 60
+felipe92577: checks 
+*** FLOP *** [6s Qd 8d]
+Asterix426: checks 
+felipe92577: checks 
+edrtec5: checks 
+*** TURN *** [6s Qd 8d] [Qs]
+Asterix426: checks 
+felipe92577: checks 
+edrtec5: bets 240
+Asterix426: folds 
+felipe92577: folds 
+Uncalled bet (240) returned to edrtec5
+edrtec5 collected 450 from pot
+edrtec5: doesn't show hand 
+*** SUMMARY ***
+Total pot 450 | Rake 0 
+Board [6s Qd 8d Qs]
+Seat 1: felipe92577 (big blind) folded on the Turn
+Seat 2: lucsoleira folded before Flop (didn't bet)
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 (button) collected (450)
+Seat 8: Asterix426 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260357110025: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:46:48 UTC [2026/04/05 14:46:48 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 1: felipe92577 (1002 in chips) 
+Seat 2: lucsoleira (1525 in chips) 
+Seat 3: ARGO409 (2347 in chips) 
+Seat 6: scorza23 (3659 in chips) 
+Seat 7: edrtec5 (4160 in chips) 
+Seat 8: Asterix426 (11943 in chips) 
+felipe92577: posts the ante 15
+lucsoleira: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+felipe92577: posts small blind 60
+lucsoleira: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8s 7s]
+ARGO409: folds 
+scorza23: folds 
+edrtec5: folds 
+Asterix426: raises 480 to 600
+felipe92577: folds 
+lucsoleira: raises 910 to 1510 and is all-in
+Asterix426: calls 910
+*** FLOP *** [6h 3h 9h]
+*** TURN *** [6h 3h 9h] [9s]
+*** RIVER *** [6h 3h 9h 9s] [7d]
+*** SHOW DOWN ***
+lucsoleira: shows [Tc Ad] (a pair of Nines)
+Asterix426: shows [9d Kh] (three of a kind, Nines)
+Asterix426 collected 3170 from pot
+lucsoleira finished the tournament in 18th place
+*** SUMMARY ***
+Total pot 3170 | Rake 0 
+Board [6h 3h 9h 9s 7d]
+Seat 1: felipe92577 (small blind) folded before Flop
+Seat 2: lucsoleira (big blind) showed [Tc Ad] and lost with a pair of Nines
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) showed [9d Kh] and won (3170) with three of a kind, Nines
+
+
+
+PokerStars Hand #260357118286: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:47:20 UTC [2026/04/05 14:47:20 ET]
+Table '3989543785 2' 8-max Seat #1 is the button
+Seat 1: felipe92577 (927 in chips) 
+Seat 3: ARGO409 (2332 in chips) 
+Seat 6: scorza23 (3644 in chips) 
+Seat 7: edrtec5 (4145 in chips) 
+Seat 8: Asterix426 (13588 in chips) 
+felipe92577: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+ARGO409: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Qh]
+edrtec5: folds 
+Asterix426: raises 480 to 600
+felipe92577: folds 
+ARGO409: calls 540
+scorza23: folds 
+*** FLOP *** [3d 5c 2s]
+ARGO409: checks 
+Asterix426: bets 1200
+ARGO409: calls 1200
+*** TURN *** [3d 5c 2s] [Jd]
+ARGO409: checks 
+Asterix426: bets 720
+ARGO409: calls 517 and is all-in
+Uncalled bet (203) returned to Asterix426
+*** RIVER *** [3d 5c 2s Jd] [7c]
+*** SHOW DOWN ***
+ARGO409: shows [Js As] (a pair of Jacks)
+Asterix426: shows [Ts Jh] (a pair of Jacks - lower kicker)
+ARGO409 collected 4829 from pot
+*** SUMMARY ***
+Total pot 4829 | Rake 0 
+Board [3d 5c 2s Jd 7c]
+Seat 1: felipe92577 (button) folded before Flop (didn't bet)
+Seat 3: ARGO409 (small blind) showed [Js As] and won (4829) with a pair of Jacks
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 showed [Ts Jh] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #260357130258: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:48:09 UTC [2026/04/05 14:48:09 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 1: felipe92577 (912 in chips) 
+Seat 3: ARGO409 (4829 in chips) 
+Seat 6: scorza23 (3509 in chips) 
+Seat 7: edrtec5 (4130 in chips) 
+Seat 8: Asterix426 (11256 in chips) 
+felipe92577: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+scorza23: posts small blind 60
+edrtec5: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ah]
+Asterix426: raises 360 to 480
+felipe92577: folds 
+ARGO409: folds 
+scorza23: raises 1155 to 1635
+edrtec5: folds 
+Asterix426: calls 1155
+*** FLOP *** [2c Ks Td]
+scorza23: bets 1859 and is all-in
+Asterix426: calls 1859
+*** TURN *** [2c Ks Td] [9d]
+*** RIVER *** [2c Ks Td 9d] [As]
+*** SHOW DOWN ***
+scorza23: shows [Qh Ah] (a pair of Aces)
+Asterix426: shows [2d Qd] (a pair of Deuces)
+scorza23 collected 7183 from pot
+*** SUMMARY ***
+Total pot 7183 | Rake 0 
+Board [2c Ks Td 9d As]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 3: ARGO409 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) showed [Qh Ah] and won (7183) with a pair of Aces
+Seat 7: edrtec5 (big blind) folded before Flop
+Seat 8: Asterix426 showed [2d Qd] and lost with a pair of Deuces
+
+
+
+PokerStars Hand #260357139946: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:48:47 UTC [2026/04/05 14:48:47 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 1: felipe92577 (897 in chips) 
+Seat 3: ARGO409 (4814 in chips) 
+Seat 6: scorza23 (7183 in chips) 
+Seat 7: edrtec5 (3995 in chips) 
+Seat 8: Asterix426 (7747 in chips) 
+felipe92577: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+edrtec5: posts small blind 60
+Asterix426: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5c]
+felipe92577: folds 
+ARGO409: folds 
+scorza23: folds 
+edrtec5: calls 60
+Asterix426: raises 480 to 600
+edrtec5: calls 480
+*** FLOP *** [2d 8c 4h]
+edrtec5: checks 
+Asterix426: bets 840
+edrtec5: folds 
+Uncalled bet (840) returned to Asterix426
+Asterix426 collected 1275 from pot
+*** SUMMARY ***
+Total pot 1275 | Rake 0 
+Board [2d 8c 4h]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: edrtec5 (small blind) folded on the Flop
+Seat 8: Asterix426 (big blind) collected (1275)
+
+
+
+PokerStars Hand #260357147832: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:49:18 UTC [2026/04/05 14:49:18 ET]
+Table '3989543785 2' 8-max Seat #7 is the button
+Seat 1: felipe92577 (882 in chips) 
+Seat 3: ARGO409 (4799 in chips) 
+Seat 6: scorza23 (7168 in chips) 
+Seat 7: edrtec5 (3380 in chips) 
+Seat 8: Asterix426 (8407 in chips) 
+felipe92577: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+Asterix426: posts small blind 60
+felipe92577: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 4d]
+ARGO409: calls 120
+scorza23: folds 
+edrtec5: folds 
+Asterix426: calls 60
+felipe92577: checks 
+*** FLOP *** [9s 6c Qd]
+Asterix426: bets 120
+felipe92577: folds 
+ARGO409: calls 120
+*** TURN *** [9s 6c Qd] [Jc]
+Asterix426: bets 240
+ARGO409: calls 240
+*** RIVER *** [9s 6c Qd Jc] [7c]
+Asterix426: bets 480
+ARGO409: calls 480
+*** SHOW DOWN ***
+Asterix426: shows [Qc 7h] (two pair, Queens and Sevens)
+ARGO409: mucks hand 
+Asterix426 collected 2115 from pot
+*** SUMMARY ***
+Total pot 2115 | Rake 0 
+Board [9s 6c Qd Jc 7c]
+Seat 1: felipe92577 (big blind) folded on the Flop
+Seat 3: ARGO409 mucked [Ad Jh]
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 (button) folded before Flop (didn't bet)
+Seat 8: Asterix426 (small blind) showed [Qc 7h] and won (2115) with two pair, Queens and Sevens
+
+
+
+PokerStars Hand #260357156931: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:49:55 UTC [2026/04/05 14:49:55 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 1: felipe92577 (747 in chips) 
+Seat 3: ARGO409 (3824 in chips) 
+Seat 6: scorza23 (7153 in chips) 
+Seat 7: edrtec5 (3365 in chips) 
+Seat 8: Asterix426 (9547 in chips) 
+felipe92577: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+felipe92577: posts small blind 60
+ARGO409: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Th]
+scorza23: folds 
+edrtec5: folds 
+Asterix426: raises 480 to 600
+felipe92577: folds 
+ARGO409: folds 
+Uncalled bet (480) returned to Asterix426
+Asterix426 collected 375 from pot
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Seat 1: felipe92577 (small blind) folded before Flop
+Seat 3: ARGO409 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) collected (375)
+
+
+
+PokerStars Hand #260357161524: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:50:13 UTC [2026/04/05 14:50:13 ET]
+Table '3989543785 2' 8-max Seat #1 is the button
+Seat 1: felipe92577 (672 in chips) 
+Seat 3: ARGO409 (3689 in chips) 
+Seat 6: scorza23 (7138 in chips) 
+Seat 7: edrtec5 (3350 in chips) 
+Seat 8: Asterix426 (9787 in chips) 
+felipe92577: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+ARGO409: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Qc]
+edrtec5: folds 
+Asterix426: calls 120
+felipe92577: folds 
+ARGO409: calls 60
+scorza23: checks 
+*** FLOP *** [As 8d Ah]
+ARGO409: checks 
+scorza23: checks 
+Asterix426: checks 
+*** TURN *** [As 8d Ah] [Kc]
+ARGO409: bets 120
+scorza23: calls 120
+Asterix426: folds 
+*** RIVER *** [As 8d Ah Kc] [9h]
+ARGO409: bets 600
+scorza23: calls 600
+Fedor199191 is disconnected 
+*** SHOW DOWN ***
+ARGO409: shows [Ac 3c] (three of a kind, Aces)
+scorza23: mucks hand 
+ARGO409 collected 1875 from pot
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Board [As 8d Ah Kc 9h]
+Seat 1: felipe92577 (button) folded before Flop (didn't bet)
+Seat 3: ARGO409 (small blind) showed [Ac 3c] and won (1875) with three of a kind, Aces
+Seat 6: scorza23 (big blind) mucked [Kd Qc]
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 folded on the Turn
+
+
+
+PokerStars Hand #260357169884: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 18:50:47 UTC [2026/04/05 14:50:47 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 1: felipe92577 (657 in chips) 
+Seat 2: lamps0707 (2012 in chips) 
+Seat 3: ARGO409 (4709 in chips) 
+Seat 4: baby boss br (2833 in chips) out of hand (moved from another table into small blind)
+Seat 5: Fedor199191 (1193 in chips) out of hand (moved from another table into small blind)
+Seat 6: scorza23 (6283 in chips) 
+Seat 7: edrtec5 (3335 in chips) 
+Seat 8: Asterix426 (9652 in chips) 
+baby boss br will be allowed to play after the button
+Fedor199191 will be allowed to play after the button
+felipe92577: posts the ante 15
+lamps0707: posts the ante 15
+ARGO409: posts the ante 15
+scorza23: posts the ante 15
+edrtec5: posts the ante 15
+Asterix426: posts the ante 15
+scorza23: posts small blind 60
+edrtec5: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 2s]
+Asterix426: calls 120
+felipe92577: raises 522 to 642 and is all-in
+lamps0707: folds 
+ARGO409: folds 
+scorza23: folds 
+edrtec5: folds 
+Asterix426: calls 522
+*** FLOP *** [2d 9d 9h]
+*** TURN *** [2d 9d 9h] [4s]
+*** RIVER *** [2d 9d 9h 4s] [2h]
+*** SHOW DOWN ***
+Asterix426: shows [Qh 7c] (two pair, Nines and Deuces)
+felipe92577: shows [Ad Jd] (two pair, Nines and Deuces - Ace kicker)
+felipe92577 collected 1554 from pot
+*** SUMMARY ***
+Total pot 1554 | Rake 0 
+Board [2d 9d 9h 4s 2h]
+Seat 1: felipe92577 showed [Ad Jd] and won (1554) with two pair, Nines and Deuces
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: edrtec5 (big blind) folded before Flop
+Seat 8: Asterix426 showed [Qh 7c] and lost with two pair, Nines and Deuces
+
+
+
+PokerStars Hand #260357177891: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:51:19 UTC [2026/04/05 14:51:19 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 1: felipe92577 (1554 in chips) 
+Seat 2: lamps0707 (1997 in chips) 
+Seat 3: ARGO409 (4694 in chips) 
+Seat 4: baby boss br (2833 in chips) 
+Seat 5: Fedor199191 (1193 in chips) 
+Seat 6: scorza23 (6208 in chips) 
+Seat 7: edrtec5 (3200 in chips) 
+Seat 8: Asterix426 (8995 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+edrtec5: posts the ante 20
+Asterix426: posts the ante 20
+edrtec5: posts small blind 80
+Asterix426: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 7d]
+felipe92577: folds 
+lamps0707: folds 
+ARGO409: folds 
+baby boss br: folds 
+Fedor199191: folds 
+scorza23: raises 320 to 480
+edrtec5: raises 2700 to 3180 and is all-in
+Asterix426: folds 
+scorza23: folds 
+Uncalled bet (2700) returned to edrtec5
+edrtec5 collected 1280 from pot
+edrtec5: doesn't show hand 
+*** SUMMARY ***
+Total pot 1280 | Rake 0 
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 5: Fedor199191 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) folded before Flop
+Seat 7: edrtec5 (small blind) collected (1280)
+Seat 8: Asterix426 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357184217: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:51:45 UTC [2026/04/05 14:51:45 ET]
+Table '3989543785 2' 8-max Seat #7 is the button
+Seat 1: felipe92577 (1534 in chips) 
+Seat 2: lamps0707 (1977 in chips) 
+Seat 3: ARGO409 (4674 in chips) 
+Seat 4: baby boss br (2813 in chips) 
+Seat 5: Fedor199191 (1173 in chips) 
+Seat 6: scorza23 (5708 in chips) 
+Seat 7: edrtec5 (3980 in chips) 
+Seat 8: Asterix426 (8815 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+edrtec5: posts the ante 20
+Asterix426: posts the ante 20
+Asterix426: posts small blind 80
+felipe92577: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 5d]
+lamps0707: folds 
+ARGO409: calls 160
+baby boss br: folds 
+Fedor199191: folds 
+scorza23: folds 
+edrtec5: folds 
+Asterix426: calls 80
+felipe92577: checks 
+*** FLOP *** [As 2h 5c]
+Asterix426: checks 
+felipe92577: checks 
+ARGO409: checks 
+*** TURN *** [As 2h 5c] [3c]
+Asterix426: checks 
+felipe92577: bets 211
+ARGO409: folds 
+Asterix426: folds 
+Uncalled bet (211) returned to felipe92577
+felipe92577 collected 640 from pot
+felipe92577: doesn't show hand 
+*** SUMMARY ***
+Total pot 640 | Rake 0 
+Board [As 2h 5c 3c]
+Seat 1: felipe92577 (big blind) collected (640)
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 folded on the Turn
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 5: Fedor199191 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 (button) folded before Flop (didn't bet)
+Seat 8: Asterix426 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260357194011: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:52:24 UTC [2026/04/05 14:52:24 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 1: felipe92577 (1994 in chips) 
+Seat 2: lamps0707 (1957 in chips) 
+Seat 3: ARGO409 (4494 in chips) 
+Seat 4: baby boss br (2793 in chips) 
+Seat 5: Fedor199191 (1153 in chips) 
+Seat 6: scorza23 (5688 in chips) 
+Seat 7: edrtec5 (3960 in chips) 
+Seat 8: Asterix426 (8635 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+edrtec5: posts the ante 20
+Asterix426: posts the ante 20
+felipe92577: posts small blind 80
+lamps0707: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Ks]
+ARGO409: folds 
+baby boss br: folds 
+Fedor199191: folds 
+scorza23: folds 
+edrtec5: folds 
+Asterix426: raises 480 to 640
+felipe92577: folds 
+lamps0707: folds 
+Uncalled bet (480) returned to Asterix426
+Asterix426 collected 560 from pot
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: felipe92577 (small blind) folded before Flop
+Seat 2: lamps0707 (big blind) folded before Flop
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 5: Fedor199191 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) collected (560)
+
+
+
+PokerStars Hand #260357199535: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:52:46 UTC [2026/04/05 14:52:46 ET]
+Table '3989543785 2' 8-max Seat #1 is the button
+Seat 1: felipe92577 (1894 in chips) 
+Seat 2: lamps0707 (1777 in chips) 
+Seat 3: ARGO409 (4474 in chips) 
+Seat 4: baby boss br (2773 in chips) 
+Seat 5: Fedor199191 (1133 in chips) 
+Seat 6: scorza23 (5668 in chips) 
+Seat 7: edrtec5 (3940 in chips) 
+Seat 8: Asterix426 (9015 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+edrtec5: posts the ante 20
+Asterix426: posts the ante 20
+lamps0707: posts small blind 80
+ARGO409: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [As 5h]
+baby boss br: folds 
+Fedor199191: folds 
+scorza23: folds 
+edrtec5: folds 
+Asterix426: raises 160 to 320
+felipe92577: folds 
+lamps0707: folds 
+ARGO409: folds 
+Uncalled bet (160) returned to Asterix426
+Asterix426 collected 560 from pot
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: felipe92577 (button) folded before Flop (didn't bet)
+Seat 2: lamps0707 (small blind) folded before Flop
+Seat 3: ARGO409 (big blind) folded before Flop
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 5: Fedor199191 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 collected (560)
+
+
+
+PokerStars Hand #260357204535: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:53:06 UTC [2026/04/05 14:53:06 ET]
+Table '3989543785 2' 8-max Seat #2 is the button
+Seat 1: felipe92577 (1874 in chips) 
+Seat 2: lamps0707 (1677 in chips) 
+Seat 3: ARGO409 (4294 in chips) 
+Seat 4: baby boss br (2753 in chips) 
+Seat 5: Fedor199191 (1113 in chips) 
+Seat 6: scorza23 (5648 in chips) 
+Seat 7: edrtec5 (3920 in chips) 
+Seat 8: Asterix426 (9395 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+edrtec5: posts the ante 20
+Asterix426: posts the ante 20
+ARGO409: posts small blind 80
+baby boss br: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5h]
+Fedor199191: raises 933 to 1093 and is all-in
+scorza23: folds 
+edrtec5: folds 
+Asterix426: folds 
+felipe92577: folds 
+lamps0707: folds 
+ARGO409: folds 
+baby boss br: folds 
+Uncalled bet (933) returned to Fedor199191
+Fedor199191 collected 560 from pot
+Fedor199191: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lamps0707 (button) folded before Flop (didn't bet)
+Seat 3: ARGO409 (small blind) folded before Flop
+Seat 4: baby boss br (big blind) folded before Flop
+Seat 5: Fedor199191 collected (560)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: edrtec5 folded before Flop (didn't bet)
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357210757: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:53:31 UTC [2026/04/05 14:53:31 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 1: felipe92577 (1854 in chips) 
+Seat 2: lamps0707 (1657 in chips) 
+Seat 3: ARGO409 (4194 in chips) 
+Seat 4: baby boss br (2573 in chips) 
+Seat 5: Fedor199191 (1493 in chips) 
+Seat 6: scorza23 (5628 in chips) 
+Seat 8: Asterix426 (9375 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+Asterix426: posts the ante 20
+baby boss br: posts small blind 80
+Fedor199191: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3c Tc]
+scorza23: folds 
+Asterix426: folds 
+felipe92577: folds 
+lamps0707: folds 
+ARGO409: calls 160
+baby boss br: calls 80
+Fedor199191: raises 1313 to 1473 and is all-in
+ARGO409: folds 
+baby boss br: folds 
+Uncalled bet (1313) returned to Fedor199191
+Fedor199191 collected 620 from pot
+Fedor199191: doesn't show hand 
+*** SUMMARY ***
+Total pot 620 | Rake 0 
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 (button) folded before Flop
+Seat 4: baby boss br (small blind) folded before Flop
+Seat 5: Fedor199191 (big blind) collected (620)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357220086: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:54:08 UTC [2026/04/05 14:54:08 ET]
+Table '3989543785 2' 8-max Seat #4 is the button
+Seat 1: felipe92577 (1834 in chips) 
+Seat 2: lamps0707 (1637 in chips) 
+Seat 3: ARGO409 (4014 in chips) 
+Seat 4: baby boss br (2393 in chips) 
+Seat 5: Fedor199191 (1933 in chips) 
+Seat 6: scorza23 (5608 in chips) 
+Seat 8: Asterix426 (9355 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+Asterix426: posts the ante 20
+Fedor199191: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 6d]
+Asterix426: folds 
+felipe92577: folds 
+lamps0707: folds 
+ARGO409: folds 
+baby boss br: raises 160 to 320
+Fedor199191: folds 
+scorza23: calls 160
+*** FLOP *** [2c 5s 2s]
+scorza23: bets 480
+baby boss br: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 860 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 860 | Rake 0 
+Board [2c 5s 2s]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br (button) folded on the Flop
+Seat 5: Fedor199191 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (860)
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357233521: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 18:55:02 UTC [2026/04/05 14:55:02 ET]
+Table '3989543785 2' 8-max Seat #5 is the button
+Seat 1: felipe92577 (1814 in chips) 
+Seat 2: lamps0707 (1617 in chips) 
+Seat 3: ARGO409 (3994 in chips) 
+Seat 4: baby boss br (2053 in chips) 
+Seat 5: Fedor199191 (1833 in chips) 
+Seat 6: scorza23 (6128 in chips) 
+Seat 8: Asterix426 (9335 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+Asterix426: posts the ante 20
+scorza23: posts small blind 80
+Asterix426: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Ah]
+felipe92577: folds 
+lamps0707: folds 
+ARGO409: folds 
+baby boss br: folds 
+Fedor199191: folds 
+scorza23: raises 320 to 480
+Asterix426: calls 320
+*** FLOP *** [7h Kd Ac]
+scorza23: bets 480
+Asterix426: calls 480
+*** TURN *** [7h Kd Ac] [9s]
+scorza23: bets 480
+Asterix426: calls 480
+*** RIVER *** [7h Kd Ac 9s] [Qs]
+scorza23: bets 1510
+Asterix426: raises 6365 to 7875 and is all-in
+scorza23: calls 3158 and is all-in
+Uncalled bet (3207) returned to Asterix426
+*** SHOW DOWN ***
+Asterix426: shows [Kh Jd] (a pair of Kings)
+scorza23: shows [8c Ah] (a pair of Aces)
+scorza23 collected 12356 from pot
+*** SUMMARY ***
+Total pot 12356 | Rake 0 
+Board [7h Kd Ac 9s Qs]
+Seat 1: felipe92577 folded before Flop (didn't bet)
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 5: Fedor199191 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) showed [8c Ah] and won (12356) with a pair of Aces
+Seat 8: Asterix426 (big blind) showed [Kh Jd] and lost with a pair of Kings
+
+
+
+PokerStars Hand #260357284381: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 19:00:44 UTC [2026/04/05 15:00:44 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 1: felipe92577 (1794 in chips) 
+Seat 2: lamps0707 (1597 in chips) 
+Seat 3: ARGO409 (3974 in chips) 
+Seat 4: baby boss br (2033 in chips) 
+Seat 5: Fedor199191 (1813 in chips) 
+Seat 6: scorza23 (12356 in chips) 
+Seat 8: Asterix426 (3207 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+Asterix426: posts the ante 20
+Asterix426: posts small blind 80
+felipe92577: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Qh]
+lamps0707: folds 
+ARGO409: calls 160
+baby boss br: folds 
+Fedor199191: folds 
+scorza23: raises 320 to 480
+Asterix426: folds 
+felipe92577: folds 
+ARGO409: calls 320
+*** FLOP *** [3c 7c 9s]
+ARGO409: checks 
+scorza23: bets 480
+ARGO409: folds 
+Uncalled bet (480) returned to scorza23
+scorza23 collected 1340 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1340 | Rake 0 
+Board [3c 7c 9s]
+Seat 1: felipe92577 (big blind) folded before Flop
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 folded on the Flop
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 5: Fedor199191 folded before Flop (didn't bet)
+Seat 6: scorza23 (button) collected (1340)
+Seat 8: Asterix426 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357291341: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VI (80/160) - 2026/04/05 19:01:22 UTC [2026/04/05 15:01:22 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 1: felipe92577 (1614 in chips) 
+Seat 2: lamps0707 (1577 in chips) 
+Seat 3: ARGO409 (3474 in chips) 
+Seat 4: baby boss br (2013 in chips) 
+Seat 5: Fedor199191 (1793 in chips) 
+Seat 6: scorza23 (13196 in chips) 
+Seat 8: Asterix426 (3107 in chips) 
+felipe92577: posts the ante 20
+lamps0707: posts the ante 20
+ARGO409: posts the ante 20
+baby boss br: posts the ante 20
+Fedor199191: posts the ante 20
+scorza23: posts the ante 20
+Asterix426: posts the ante 20
+felipe92577: posts small blind 80
+lamps0707: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Qd]
+ARGO409: folds 
+baby boss br: folds 
+Fedor199191: folds 
+scorza23: folds 
+Asterix426: raises 2927 to 3087 and is all-in
+felipe92577: calls 1514 and is all-in
+lamps0707: folds 
+Uncalled bet (1493) returned to Asterix426
+*** FLOP *** [Ah 6h 5d]
+*** TURN *** [Ah 6h 5d] [5c]
+*** RIVER *** [Ah 6h 5d 5c] [9s]
+*** SHOW DOWN ***
+felipe92577: shows [Kc Tc] (a pair of Fives)
+Asterix426: shows [Qs 9h] (two pair, Nines and Fives)
+Asterix426 collected 3488 from pot
+felipe92577 finished the tournament in 13th place
+*** SUMMARY ***
+Total pot 3488 | Rake 0 
+Board [Ah 6h 5d 5c 9s]
+Seat 1: felipe92577 (small blind) showed [Kc Tc] and lost with a pair of Fives
+Seat 2: lamps0707 (big blind) folded before Flop
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 5: Fedor199191 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) showed [Qs 9h] and won (3488) with two pair, Nines and Fives
+
+
+
+PokerStars Hand #260357297304: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:01:52 UTC [2026/04/05 15:01:52 ET]
+Table '3989543785 2' 8-max Seat #2 is the button
+Seat 2: lamps0707 (1397 in chips) 
+Seat 3: ARGO409 (3454 in chips) 
+Seat 4: baby boss br (1993 in chips) 
+Seat 5: Fedor199191 (1773 in chips) 
+Seat 6: scorza23 (13176 in chips) 
+Seat 8: Asterix426 (4981 in chips) 
+lamps0707: posts the ante 25
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+Fedor199191: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+ARGO409: posts small blind 100
+baby boss br: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 7h]
+Fedor199191: folds 
+scorza23: folds 
+Asterix426: raises 600 to 800
+lamps0707: folds 
+ARGO409: folds 
+baby boss br: folds 
+Uncalled bet (600) returned to Asterix426
+Asterix426 collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 2: lamps0707 (button) folded before Flop (didn't bet)
+Seat 3: ARGO409 (small blind) folded before Flop
+Seat 4: baby boss br (big blind) folded before Flop
+Seat 5: Fedor199191 folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: Asterix426 collected (650)
+
+
+
+PokerStars Hand #260357304337: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:02:22 UTC [2026/04/05 15:02:22 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 2: lamps0707 (1372 in chips) 
+Seat 3: ARGO409 (3329 in chips) 
+Seat 4: baby boss br (1768 in chips) 
+Seat 5: Fedor199191 (1748 in chips) 
+Seat 6: scorza23 (13151 in chips) 
+Seat 8: Asterix426 (5406 in chips) 
+lamps0707: posts the ante 25
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+Fedor199191: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+baby boss br: posts small blind 100
+Fedor199191: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Js]
+scorza23: raises 400 to 600
+Asterix426: raises 4781 to 5381 and is all-in
+lamps0707: folds 
+ARGO409: folds 
+baby boss br: calls 1643 and is all-in
+Fedor199191: folds 
+scorza23: folds 
+Uncalled bet (3638) returned to Asterix426
+*** FLOP *** [Th 5d 6h]
+*** TURN *** [Th 5d 6h] [5h]
+*** RIVER *** [Th 5d 6h 5h] [Qs]
+*** SHOW DOWN ***
+baby boss br: shows [Kc Kd] (two pair, Kings and Fives)
+Asterix426: shows [Ac 7h] (a pair of Fives)
+baby boss br collected 4436 from pot
+*** SUMMARY ***
+Total pot 4436 | Rake 0 
+Board [Th 5d 6h 5h Qs]
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: baby boss br (small blind) showed [Kc Kd] and won (4436) with two pair, Kings and Fives
+Seat 5: Fedor199191 (big blind) folded before Flop
+Seat 6: scorza23 folded before Flop
+Seat 8: Asterix426 showed [Ac 7h] and lost with a pair of Fives
+
+
+
+PokerStars Hand #260357310331: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:02:49 UTC [2026/04/05 15:02:49 ET]
+Table '3989543785 2' 8-max Seat #4 is the button
+Seat 2: lamps0707 (1347 in chips) 
+Seat 3: ARGO409 (3304 in chips) 
+Seat 4: baby boss br (4436 in chips) 
+Seat 5: Fedor199191 (1523 in chips) 
+Seat 6: scorza23 (12526 in chips) 
+Seat 8: Asterix426 (3638 in chips) 
+lamps0707: posts the ante 25
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+Fedor199191: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+Fedor199191: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5s Js]
+Asterix426: raises 3413 to 3613 and is all-in
+lamps0707: folds 
+ARGO409: folds 
+baby boss br: folds 
+Fedor199191: calls 1398 and is all-in
+scorza23: folds 
+Uncalled bet (2115) returned to Asterix426
+*** FLOP *** [3s Ts 2c]
+*** TURN *** [3s Ts 2c] [5c]
+*** RIVER *** [3s Ts 2c 5c] [6d]
+*** SHOW DOWN ***
+Fedor199191: shows [As Qs] (high card Ace)
+Asterix426: shows [5d Ad] (a pair of Fives)
+Asterix426 collected 3346 from pot
+Fedor199191 finished the tournament in 12th place
+*** SUMMARY ***
+Total pot 3346 | Rake 0 
+Board [3s Ts 2c 5c 6d]
+Seat 2: lamps0707 folded before Flop (didn't bet)
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br (button) folded before Flop (didn't bet)
+Seat 5: Fedor199191 (small blind) showed [As Qs] and lost with high card Ace
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: Asterix426 showed [5d Ad] and won (3346) with a pair of Fives
+
+
+
+PokerStars Hand #260357316957: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:03:16 UTC [2026/04/05 15:03:16 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 2: lamps0707 (1322 in chips) 
+Seat 3: ARGO409 (3279 in chips) 
+Seat 4: baby boss br (4411 in chips) 
+Seat 6: scorza23 (12301 in chips) 
+Seat 8: Asterix426 (5461 in chips) 
+lamps0707: posts the ante 25
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+Asterix426: posts small blind 100
+lamps0707: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Jc]
+ARGO409: folds 
+baby boss br: folds 
+scorza23: raises 400 to 600
+Asterix426: folds 
+lamps0707: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 625 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 2: lamps0707 (big blind) folded before Flop
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 6: scorza23 (button) collected (625)
+Seat 8: Asterix426 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357321413: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:03:34 UTC [2026/04/05 15:03:34 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 2: lamps0707 (1097 in chips) 
+Seat 3: ARGO409 (3254 in chips) 
+Seat 4: baby boss br (4386 in chips) 
+Seat 6: scorza23 (12701 in chips) 
+Seat 8: Asterix426 (5336 in chips) 
+lamps0707: posts the ante 25
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+lamps0707: posts small blind 100
+ARGO409: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 2d]
+baby boss br: folds 
+scorza23: folds 
+Asterix426: raises 5111 to 5311 and is all-in
+lamps0707: calls 972 and is all-in
+ARGO409: folds 
+Uncalled bet (4239) returned to Asterix426
+*** FLOP *** [3d 7h 3s]
+*** TURN *** [3d 7h 3s] [2c]
+*** RIVER *** [3d 7h 3s 2c] [5d]
+*** SHOW DOWN ***
+lamps0707: shows [Ad Jc] (a pair of Threes)
+Asterix426: shows [2s 4s] (two pair, Threes and Deuces)
+Asterix426 collected 2469 from pot
+lamps0707 finished the tournament in 11th place
+*** SUMMARY ***
+Total pot 2469 | Rake 0 
+Board [3d 7h 3s 2c 5d]
+Seat 2: lamps0707 (small blind) showed [Ad Jc] and lost with a pair of Threes
+Seat 3: ARGO409 (big blind) folded before Flop
+Seat 4: baby boss br folded before Flop (didn't bet)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) showed [2s 4s] and won (2469) with two pair, Threes and Deuces
+
+
+
+PokerStars Hand #260357328436: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:04:01 UTC [2026/04/05 15:04:01 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 3: ARGO409 (3029 in chips) 
+Seat 4: baby boss br (4361 in chips) 
+Seat 6: scorza23 (12676 in chips) 
+Seat 8: Asterix426 (6708 in chips) 
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+baby boss br: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc 5s]
+Asterix426: raises 6483 to 6683 and is all-in
+ARGO409: folds 
+baby boss br: folds 
+scorza23: folds 
+Uncalled bet (6483) returned to Asterix426
+Asterix426 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 3: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: baby boss br (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 8: Asterix426 collected (600)
+
+
+
+PokerStars Hand #260357331584: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:04:15 UTC [2026/04/05 15:04:15 ET]
+Table '3989543785 2' 8-max Seat #4 is the button
+Seat 3: ARGO409 (3004 in chips) 
+Seat 4: baby boss br (4236 in chips) 
+Seat 6: scorza23 (12451 in chips) 
+Seat 8: Asterix426 (7083 in chips) 
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+scorza23: posts small blind 100
+Asterix426: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 9s]
+ARGO409: folds 
+Rosendo_x is disconnected 
+baby boss br: raises 200 to 400
+scorza23: folds 
+Asterix426: calls 200
+*** FLOP *** [6s Qc 9c]
+Asterix426: bets 6658 and is all-in
+baby boss br: folds 
+Uncalled bet (6658) returned to Asterix426
+Asterix426 collected 1000 from pot
+*** SUMMARY ***
+Total pot 1000 | Rake 0 
+Board [6s Qc 9c]
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br (button) folded on the Flop
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 8: Asterix426 (big blind) collected (1000)
+
+
+
+PokerStars Hand #260357338854: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:04:41 UTC [2026/04/05 15:04:41 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 3: ARGO409 (2979 in chips) 
+Seat 4: baby boss br (3811 in chips) 
+Seat 6: scorza23 (12326 in chips) 
+Seat 7: Rosendo_x (2229 in chips) out of hand (moved from another table into small blind)
+Seat 8: Asterix426 (7658 in chips) 
+Rosendo_x will be allowed to play after the button
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Asterix426: posts the ante 25
+Asterix426: posts small blind 100
+ARGO409: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Th]
+baby boss br: raises 200 to 400
+scorza23: folds 
+Asterix426: folds 
+ARGO409: folds 
+Uncalled bet (200) returned to baby boss br
+baby boss br collected 600 from pot
+baby boss br: doesn't show hand 
+*** SUMMARY ***
+Total pot 600 | Rake 0 
+Seat 3: ARGO409 (big blind) folded before Flop
+Seat 4: baby boss br collected (600)
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Asterix426 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357342187: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:04:55 UTC [2026/04/05 15:04:55 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 3: ARGO409 (2754 in chips) 
+Seat 4: baby boss br (4186 in chips) 
+Seat 6: scorza23 (12301 in chips) 
+Seat 7: Rosendo_x (2229 in chips) 
+Seat 8: Asterix426 (7533 in chips) 
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Rosendo_x: posts the ante 25
+Asterix426: posts the ante 25
+ARGO409: posts small blind 100
+baby boss br: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 7s]
+scorza23: folds 
+Rosendo_x: folds 
+Asterix426: folds 
+ARGO409: folds 
+Uncalled bet (100) returned to baby boss br
+baby boss br collected 325 from pot
+baby boss br: doesn't show hand 
+*** SUMMARY ***
+Total pot 325 | Rake 0 
+Seat 3: ARGO409 (small blind) folded before Flop
+Seat 4: baby boss br (big blind) collected (325)
+Seat 6: scorza23 folded before Flop (didn't bet)
+Seat 7: Rosendo_x folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357345839: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:05:09 UTC [2026/04/05 15:05:09 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 3: ARGO409 (2629 in chips) 
+Seat 4: baby boss br (4386 in chips) 
+Seat 6: scorza23 (12276 in chips) 
+Seat 7: Rosendo_x (2204 in chips) 
+Seat 8: Asterix426 (7508 in chips) 
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Rosendo_x: posts the ante 25
+Asterix426: posts the ante 25
+baby boss br: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 4h]
+Rosendo_x: folds 
+Asterix426: folds 
+ARGO409: folds 
+baby boss br: calls 100
+scorza23: raises 600 to 800
+baby boss br: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 525 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 525 | Rake 0 
+Seat 3: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: baby boss br (small blind) folded before Flop
+Seat 6: scorza23 (big blind) collected (525)
+Seat 7: Rosendo_x folded before Flop (didn't bet)
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357354504: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:05:43 UTC [2026/04/05 15:05:43 ET]
+Table '3989543785 2' 8-max Seat #4 is the button
+Seat 3: ARGO409 (2604 in chips) 
+Seat 4: baby boss br (4161 in chips) 
+Seat 6: scorza23 (12576 in chips) 
+Seat 7: Rosendo_x (2179 in chips) 
+Seat 8: Asterix426 (7483 in chips) 
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Rosendo_x: posts the ante 25
+Asterix426: posts the ante 25
+scorza23: posts small blind 100
+Rosendo_x: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 4s]
+Asterix426: folds 
+ARGO409: raises 400 to 600
+baby boss br: folds 
+scorza23: folds 
+Rosendo_x: raises 1554 to 2154 and is all-in
+ARGO409: calls 1554
+*** FLOP *** [5c 8d Js]
+*** TURN *** [5c 8d Js] [9d]
+*** RIVER *** [5c 8d Js 9d] [3c]
+*** SHOW DOWN ***
+Rosendo_x: shows [Ad 2d] (high card Ace)
+ARGO409: shows [Ah 4d] (high card Ace)
+Rosendo_x collected 2267 from pot
+ARGO409 collected 2266 from pot
+*** SUMMARY ***
+Total pot 4533 | Rake 0 
+Board [5c 8d Js 9d 3c]
+Seat 3: ARGO409 showed [Ah 4d] and won (2266) with high card Ace
+Seat 4: baby boss br (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) folded before Flop
+Seat 7: Rosendo_x (big blind) showed [Ad 2d] and won (2267) with high card Ace
+Seat 8: Asterix426 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357364346: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VII (100/200) - 2026/04/05 19:06:20 UTC [2026/04/05 15:06:20 ET]
+Table '3989543785 2' 8-max Seat #6 is the button
+Seat 3: ARGO409 (2691 in chips) 
+Seat 4: baby boss br (4136 in chips) 
+Seat 6: scorza23 (12451 in chips) 
+Seat 7: Rosendo_x (2267 in chips) 
+Seat 8: Asterix426 (7458 in chips) 
+ARGO409: posts the ante 25
+baby boss br: posts the ante 25
+scorza23: posts the ante 25
+Rosendo_x: posts the ante 25
+Asterix426: posts the ante 25
+Rosendo_x: posts small blind 100
+Asterix426: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Qs]
+ARGO409: folds 
+baby boss br: raises 200 to 400
+scorza23: folds 
+Rosendo_x: folds 
+Asterix426: raises 7033 to 7433 and is all-in
+baby boss br: calls 3711 and is all-in
+Uncalled bet (3322) returned to Asterix426
+*** FLOP *** [Js 8c Kc]
+*** TURN *** [Js 8c Kc] [6h]
+*** RIVER *** [Js 8c Kc 6h] [Ks]
+*** SHOW DOWN ***
+Asterix426: shows [2c 2d] (two pair, Kings and Deuces)
+baby boss br: shows [As Ts] (a pair of Kings)
+Asterix426 collected 8447 from pot
+baby boss br finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 8447 | Rake 0 
+Board [Js 8c Kc 6h Ks]
+Seat 3: ARGO409 folded before Flop (didn't bet)
+Seat 4: baby boss br showed [As Ts] and lost with a pair of Kings
+Seat 6: scorza23 (button) folded before Flop (didn't bet)
+Seat 7: Rosendo_x (small blind) folded before Flop
+Seat 8: Asterix426 (big blind) showed [2c 2d] and won (8447) with two pair, Kings and Deuces
+
+
+
+PokerStars Hand #260357375171: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:07:01 UTC [2026/04/05 15:07:01 ET]
+Table '3989543785 2' 8-max Seat #7 is the button
+Seat 3: ARGO409 (2666 in chips) 
+Seat 6: scorza23 (12426 in chips) 
+Seat 7: Rosendo_x (2142 in chips) 
+Seat 8: Asterix426 (11769 in chips) 
+ARGO409: posts the ante 35
+scorza23: posts the ante 35
+Rosendo_x: posts the ante 35
+Asterix426: posts the ante 35
+Asterix426: posts small blind 150
+ARGO409: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 9d]
+scorza23: raises 600 to 900
+Rosendo_x: folds 
+Asterix426: folds 
+ARGO409: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 890 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 3: ARGO409 (big blind) folded before Flop
+Seat 6: scorza23 collected (890)
+Seat 7: Rosendo_x (button) folded before Flop (didn't bet)
+Seat 8: Asterix426 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357378335: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:07:13 UTC [2026/04/05 15:07:13 ET]
+Table '3989543785 2' 8-max Seat #8 is the button
+Seat 3: ARGO409 (2331 in chips) 
+Seat 6: scorza23 (12981 in chips) 
+Seat 7: Rosendo_x (2107 in chips) 
+Seat 8: Asterix426 (11584 in chips) 
+ARGO409: posts the ante 35
+scorza23: posts the ante 35
+Rosendo_x: posts the ante 35
+Asterix426: posts the ante 35
+ARGO409: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad 3d]
+Rosendo_x: folds 
+Asterix426: raises 11249 to 11549 and is all-in
+ARGO409: folds 
+scorza23: folds 
+Uncalled bet (11249) returned to Asterix426
+Asterix426 collected 890 from pot
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 3: ARGO409 (small blind) folded before Flop
+Seat 6: scorza23 (big blind) folded before Flop
+Seat 7: Rosendo_x folded before Flop (didn't bet)
+Seat 8: Asterix426 (button) collected (890)
+
+
+
+PokerStars Hand #260357381559: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:07:26 UTC [2026/04/05 15:07:26 ET]
+Table '3989543785 2' 8-max Seat #3 is the button
+Seat 3: ARGO409 (2146 in chips) 
+Seat 6: scorza23 (12646 in chips) 
+Seat 7: Rosendo_x (2072 in chips) 
+Seat 8: Asterix426 (12139 in chips) 
+ARGO409: posts the ante 35
+scorza23: posts the ante 35
+Rosendo_x: posts the ante 35
+Asterix426: posts the ante 35
+scorza23: posts small blind 150
+Rosendo_x: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks Kd]
+Asterix426: raises 900 to 1200
+ARGO409: folds 
+scorza23: raises 2840 to 4040
+Rosendo_x: folds 
+Asterix426: raises 8064 to 12104 and is all-in
+scorza23: calls 8064
+*** FLOP *** [7s Jd 8d]
+*** TURN *** [7s Jd 8d] [Ts]
+*** RIVER *** [7s Jd 8d Ts] [2d]
+*** SHOW DOWN ***
+scorza23: shows [Ks Kd] (a pair of Kings)
+Asterix426: shows [Ah 8h] (a pair of Eights)
+scorza23 collected 24648 from pot
+Asterix426 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 24648 | Rake 0 
+Board [7s Jd 8d Ts 2d]
+Seat 3: ARGO409 (button) folded before Flop (didn't bet)
+Seat 6: scorza23 (small blind) showed [Ks Kd] and won (24648) with a pair of Kings
+Seat 7: Rosendo_x (big blind) folded before Flop
+Seat 8: Asterix426 showed [Ah 8h] and lost with a pair of Eights
+
+
+
+PokerStars Hand #260357388335: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:07:51 UTC [2026/04/05 15:07:51 ET]
+Table '3989543785 4' 8-max Seat #3 is the button
+Seat 1: Sherlock.KO (3335 in chips) 
+Seat 2: ARGO409 (2111 in chips) 
+Seat 3: edrtec5 (1960 in chips) 
+Seat 4: ratrix2009 (7921 in chips) 
+Seat 5: scorza23 (25155 in chips) 
+Seat 6: Nixe11 (4105 in chips) 
+Seat 7: adolfoluis01 (1676 in chips) 
+Seat 8: Rosendo_x (1737 in chips) 
+Sherlock.KO: posts the ante 35
+ARGO409: posts the ante 35
+edrtec5: posts the ante 35
+ratrix2009: posts the ante 35
+scorza23: posts the ante 35
+Nixe11: posts the ante 35
+adolfoluis01: posts the ante 35
+Rosendo_x: posts the ante 35
+ratrix2009: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 2c]
+Nixe11: folds 
+adolfoluis01: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+edrtec5: folds 
+ratrix2009: folds 
+Uncalled bet (150) returned to scorza23
+scorza23 collected 580 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 580 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 3: edrtec5 (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (580)
+Seat 6: Nixe11 folded before Flop (didn't bet)
+Seat 7: adolfoluis01 folded before Flop (didn't bet)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357394346: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:08:14 UTC [2026/04/05 15:08:14 ET]
+Table '3989543785 4' 8-max Seat #4 is the button
+Seat 1: Sherlock.KO (3300 in chips) 
+Seat 2: ARGO409 (2076 in chips) 
+Seat 3: edrtec5 (1925 in chips) 
+Seat 4: ratrix2009 (7736 in chips) 
+Seat 5: scorza23 (25550 in chips) 
+Seat 6: Nixe11 (4070 in chips) 
+Seat 7: adolfoluis01 (1641 in chips) 
+Seat 8: Rosendo_x (1702 in chips) 
+Sherlock.KO: posts the ante 35
+ARGO409: posts the ante 35
+edrtec5: posts the ante 35
+ratrix2009: posts the ante 35
+scorza23: posts the ante 35
+Nixe11: posts the ante 35
+adolfoluis01: posts the ante 35
+Rosendo_x: posts the ante 35
+scorza23: posts small blind 150
+Nixe11: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [8h 7h]
+adolfoluis01: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+edrtec5: folds 
+ratrix2009: folds 
+scorza23: raises 600 to 900
+Nixe11: folds 
+Uncalled bet (600) returned to scorza23
+scorza23 collected 880 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 880 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 3: edrtec5 folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (880)
+Seat 6: Nixe11 (big blind) folded before Flop
+Seat 7: adolfoluis01 folded before Flop (didn't bet)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357402642: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:08:45 UTC [2026/04/05 15:08:45 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (3265 in chips) 
+Seat 2: ARGO409 (2041 in chips) 
+Seat 3: edrtec5 (1890 in chips) 
+Seat 4: ratrix2009 (7701 in chips) 
+Seat 5: scorza23 (26095 in chips) 
+Seat 6: Nixe11 (3735 in chips) 
+Seat 7: adolfoluis01 (1606 in chips) 
+Seat 8: Rosendo_x (1667 in chips) 
+Sherlock.KO: posts the ante 35
+ARGO409: posts the ante 35
+edrtec5: posts the ante 35
+ratrix2009: posts the ante 35
+scorza23: posts the ante 35
+Nixe11: posts the ante 35
+adolfoluis01: posts the ante 35
+Rosendo_x: posts the ante 35
+Nixe11: posts small blind 150
+adolfoluis01: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kh]
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: calls 300
+edrtec5: raises 1555 to 1855 and is all-in
+ratrix2009: folds 
+scorza23: calls 1855
+Nixe11: folds 
+adolfoluis01: folds 
+ARGO409: calls 1555
+*** FLOP *** [7s 7d 7h]
+ARGO409: checks 
+scorza23: checks 
+*** TURN *** [7s 7d 7h] [9s]
+ARGO409: bets 151 and is all-in
+scorza23: calls 151
+*** RIVER *** [7s 7d 7h 9s] [3d]
+*** SHOW DOWN ***
+ARGO409: shows [Kd 9d] (a full house, Sevens full of Nines)
+scorza23: shows [Ah Kh] (three of a kind, Sevens)
+ARGO409 collected 302 from side pot
+edrtec5: shows [Ac Jc] (three of a kind, Sevens)
+ARGO409 collected 6295 from main pot
+edrtec5 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 6597 Main pot 6295. Side pot 302. | Rake 0 
+Board [7s 7d 7h 9s 3d]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 showed [Kd 9d] and won (6597) with a full house, Sevens full of Nines
+Seat 3: edrtec5 showed [Ac Jc] and lost with three of a kind, Sevens
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) showed [Ah Kh] and lost with three of a kind, Sevens
+Seat 6: Nixe11 (small blind) folded before Flop
+Seat 7: adolfoluis01 (big blind) folded before Flop
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357420835: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:09:57 UTC [2026/04/05 15:09:57 ET]
+Table '3989543785 4' 8-max Seat #6 is the button
+Seat 1: Sherlock.KO (3230 in chips) 
+Seat 2: ARGO409 (6597 in chips) 
+Seat 4: ratrix2009 (7666 in chips) 
+Seat 5: scorza23 (24054 in chips) 
+Seat 6: Nixe11 (3550 in chips) 
+Seat 7: adolfoluis01 (1271 in chips) 
+Seat 8: Rosendo_x (1632 in chips) 
+Sherlock.KO: posts the ante 35
+ARGO409: posts the ante 35
+ratrix2009: posts the ante 35
+scorza23: posts the ante 35
+Nixe11: posts the ante 35
+adolfoluis01: posts the ante 35
+Rosendo_x: posts the ante 35
+adolfoluis01: posts small blind 150
+Rosendo_x: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 3c]
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: folds 
+Nixe11: folds 
+adolfoluis01: raises 936 to 1236 and is all-in
+Rosendo_x: calls 936
+*** FLOP *** [9s Td 2s]
+*** TURN *** [9s Td 2s] [Th]
+*** RIVER *** [9s Td 2s Th] [Kd]
+*** SHOW DOWN ***
+adolfoluis01: shows [5c 4c] (a pair of Tens)
+Rosendo_x: shows [Qh 9c] (two pair, Tens and Nines)
+Rosendo_x collected 2717 from pot
+adolfoluis01 finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 2717 | Rake 0 
+Board [9s Td 2s Th Kd]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Nixe11 (button) folded before Flop (didn't bet)
+Seat 7: adolfoluis01 (small blind) showed [5c 4c] and lost with a pair of Tens
+Seat 8: Rosendo_x (big blind) showed [Qh 9c] and won (2717) with two pair, Tens and Nines
+
+
+
+PokerStars Hand #260357431233: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:10:36 UTC [2026/04/05 15:10:36 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (3195 in chips) 
+Seat 2: ARGO409 (6562 in chips) 
+Seat 4: ratrix2009 (7631 in chips) 
+Seat 5: scorza23 (24019 in chips) 
+Seat 6: Nixe11 (3515 in chips) 
+Seat 8: Rosendo_x (3078 in chips) 
+Sherlock.KO: posts the ante 35
+ARGO409: posts the ante 35
+ratrix2009: posts the ante 35
+scorza23: posts the ante 35
+Nixe11: posts the ante 35
+Rosendo_x: posts the ante 35
+Sherlock.KO: posts small blind 150
+ARGO409: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Jc]
+ratrix2009: folds 
+scorza23: folds 
+Nixe11: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+Uncalled bet (150) returned to ARGO409
+ARGO409 collected 510 from pot
+ARGO409: doesn't show hand 
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) collected (510)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Nixe11 folded before Flop (didn't bet)
+Seat 8: Rosendo_x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357436441: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level VIII (150/300) - 2026/04/05 19:10:55 UTC [2026/04/05 15:10:55 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (3010 in chips) 
+Seat 2: ARGO409 (6887 in chips) 
+Seat 4: ratrix2009 (7596 in chips) 
+Seat 5: scorza23 (23984 in chips) 
+Seat 6: Nixe11 (3480 in chips) 
+Seat 8: Rosendo_x (3043 in chips) 
+Sherlock.KO: posts the ante 35
+ARGO409: posts the ante 35
+ratrix2009: posts the ante 35
+scorza23: posts the ante 35
+Nixe11: posts the ante 35
+Rosendo_x: posts the ante 35
+ARGO409: posts small blind 150
+ratrix2009: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6d Js]
+scorza23: folds 
+Nixe11: folds 
+Rosendo_x: raises 300 to 600
+Sherlock.KO: raises 2375 to 2975 and is all-in
+ARGO409: folds 
+ratrix2009: folds 
+Rosendo_x: folds 
+Uncalled bet (2375) returned to Sherlock.KO
+Sherlock.KO collected 1860 from pot
+Sherlock.KO: doesn't show hand 
+*** SUMMARY ***
+Total pot 1860 | Rake 0 
+Seat 1: Sherlock.KO (button) collected (1860)
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Nixe11 folded before Flop (didn't bet)
+Seat 8: Rosendo_x folded before Flop
+
+
+
+PokerStars Hand #260357446736: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:11:34 UTC [2026/04/05 15:11:34 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (4235 in chips) 
+Seat 2: ARGO409 (6702 in chips) 
+Seat 4: ratrix2009 (7261 in chips) 
+Seat 5: scorza23 (23949 in chips) 
+Seat 6: Nixe11 (3445 in chips) 
+Seat 8: Rosendo_x (2408 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Nixe11: posts the ante 50
+Rosendo_x: posts the ante 50
+ratrix2009: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ks]
+Nixe11: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+Uncalled bet (200) returned to scorza23
+scorza23 collected 700 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (700)
+Seat 6: Nixe11 folded before Flop (didn't bet)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357453648: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:11:59 UTC [2026/04/05 15:11:59 ET]
+Table '3989543785 4' 8-max Seat #4 is the button
+Seat 1: Sherlock.KO (4185 in chips) 
+Seat 2: ARGO409 (6652 in chips) 
+Seat 4: ratrix2009 (7011 in chips) 
+Seat 5: scorza23 (24399 in chips) 
+Seat 6: Nixe11 (3395 in chips) 
+Seat 8: Rosendo_x (2358 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Nixe11: posts the ante 50
+Rosendo_x: posts the ante 50
+scorza23: posts small blind 200
+Nixe11: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 8c]
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: calls 400
+ratrix2009: folds 
+scorza23: raises 800 to 1200
+Nixe11: folds 
+ARGO409: calls 800
+*** FLOP *** [3h 4d 7c]
+scorza23: bets 1200
+ARGO409: raises 4202 to 5402 and is all-in
+scorza23: calls 4202
+*** TURN *** [3h 4d 7c] [Ac]
+*** RIVER *** [3h 4d 7c Ac] [Ks]
+*** SHOW DOWN ***
+scorza23: shows [8d 8c] (a pair of Eights)
+ARGO409: shows [Jh Jd] (a pair of Jacks)
+ARGO409 collected 13904 from pot
+*** SUMMARY ***
+Total pot 13904 | Rake 0 
+Board [3h 4d 7c Ac Ks]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 showed [Jh Jd] and won (13904) with a pair of Jacks
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) showed [8d 8c] and lost with a pair of Eights
+Seat 6: Nixe11 (big blind) folded before Flop
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357465079: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:12:43 UTC [2026/04/05 15:12:43 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (4135 in chips) 
+Seat 2: ARGO409 (13904 in chips) 
+Seat 4: ratrix2009 (6961 in chips) 
+Seat 5: scorza23 (17747 in chips) 
+Seat 6: Nixe11 (2945 in chips) 
+Seat 8: Rosendo_x (2308 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Nixe11: posts the ante 50
+Rosendo_x: posts the ante 50
+Nixe11: posts small blind 200
+Rosendo_x: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Tc]
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: folds 
+Nixe11: folds 
+Uncalled bet (200) returned to Rosendo_x
+Rosendo_x collected 700 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 700 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 6: Nixe11 (small blind) folded before Flop
+Seat 8: Rosendo_x (big blind) collected (700)
+
+
+
+PokerStars Hand #260357469899: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:13:01 UTC [2026/04/05 15:13:01 ET]
+Table '3989543785 4' 8-max Seat #6 is the button
+Seat 1: Sherlock.KO (4085 in chips) 
+Seat 2: ARGO409 (13854 in chips) 
+Seat 4: ratrix2009 (6911 in chips) 
+Seat 5: scorza23 (17697 in chips) 
+Seat 6: Nixe11 (2695 in chips) 
+Seat 8: Rosendo_x (2758 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Nixe11: posts the ante 50
+Rosendo_x: posts the ante 50
+Rosendo_x: posts small blind 200
+Sherlock.KO: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Kd]
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: raises 400 to 800
+Nixe11: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 1300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 1: Sherlock.KO (big blind) folded before Flop
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 collected (1300)
+Seat 6: Nixe11 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357475674: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:13:23 UTC [2026/04/05 15:13:23 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (3635 in chips) 
+Seat 2: ARGO409 (13804 in chips) 
+Seat 4: ratrix2009 (6861 in chips) 
+Seat 5: scorza23 (18547 in chips) 
+Seat 6: Nixe11 (2645 in chips) 
+Seat 8: Rosendo_x (2508 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Nixe11: posts the ante 50
+Rosendo_x: posts the ante 50
+Sherlock.KO: posts small blind 200
+ARGO409: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts Qs]
+ratrix2009: folds 
+scorza23: raises 800 to 1200
+Nixe11: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+Uncalled bet (800) returned to scorza23
+scorza23 collected 1300 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) folded before Flop
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 collected (1300)
+Seat 6: Nixe11 folded before Flop (didn't bet)
+Seat 8: Rosendo_x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357483631: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:13:53 UTC [2026/04/05 15:13:53 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (3385 in chips) 
+Seat 2: ARGO409 (13354 in chips) 
+Seat 4: ratrix2009 (6811 in chips) 
+Seat 5: scorza23 (19397 in chips) 
+Seat 6: Nixe11 (2595 in chips) 
+Seat 8: Rosendo_x (2458 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Nixe11: posts the ante 50
+Rosendo_x: posts the ante 50
+ARGO409: posts small blind 200
+ratrix2009: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Td]
+scorza23: folds 
+Nixe11: raises 2145 to 2545 and is all-in
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+Uncalled bet (2145) returned to Nixe11
+Nixe11 collected 1300 from pot
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Seat 1: Sherlock.KO (button) folded before Flop (didn't bet)
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 6: Nixe11 collected (1300)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357489119: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:14:14 UTC [2026/04/05 15:14:14 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (3335 in chips) 
+Seat 2: ARGO409 (13104 in chips) 
+Seat 4: ratrix2009 (6361 in chips) 
+Seat 5: scorza23 (19347 in chips) 
+Seat 6: Nixe11 (3445 in chips) 
+Seat 8: Rosendo_x (2408 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Nixe11: posts the ante 50
+Rosendo_x: posts the ante 50
+ratrix2009: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [2h 2c]
+Nixe11: raises 2995 to 3395 and is all-in
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: calls 2995
+*** FLOP *** [3d 5d 9d]
+*** TURN *** [3d 5d 9d] [3c]
+*** RIVER *** [3d 5d 9d 3c] [8h]
+*** SHOW DOWN ***
+scorza23: shows [2h 2c] (two pair, Threes and Deuces)
+Nixe11: shows [Js Ac] (a pair of Threes)
+scorza23 collected 7290 from pot
+Nixe11 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 7290 | Rake 0 
+Board [3d 5d 9d 3c 8h]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [2h 2c] and won (7290) with two pair, Threes and Deuces
+Seat 6: Nixe11 showed [Js Ac] and lost with a pair of Threes
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357500848: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:14:59 UTC [2026/04/05 15:14:59 ET]
+Table '3989543785 4' 8-max Seat #4 is the button
+Seat 1: Sherlock.KO (3285 in chips) 
+Seat 2: ARGO409 (13054 in chips) 
+Seat 4: ratrix2009 (6111 in chips) 
+Seat 5: scorza23 (23192 in chips) 
+Seat 8: Rosendo_x (2358 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Rosendo_x: posts the ante 50
+scorza23: posts small blind 200
+Rosendo_x: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 7s]
+Sherlock.KO: raises 2835 to 3235 and is all-in
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: folds 
+Rosendo_x: folds 
+Uncalled bet (2835) returned to Sherlock.KO
+Sherlock.KO collected 1250 from pot
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Seat 1: Sherlock.KO collected (1250)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 8: Rosendo_x (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357506183: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:15:19 UTC [2026/04/05 15:15:19 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (4085 in chips) 
+Seat 2: ARGO409 (13004 in chips) 
+Seat 4: ratrix2009 (6061 in chips) 
+Seat 5: scorza23 (22942 in chips) 
+Seat 8: Rosendo_x (1908 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Rosendo_x: posts the ante 50
+Rosendo_x: posts small blind 200
+Sherlock.KO: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 2c]
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: folds 
+Rosendo_x: raises 1458 to 1858 and is all-in
+Sherlock.KO: folds 
+Uncalled bet (1458) returned to Rosendo_x
+Rosendo_x collected 1050 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 1050 | Rake 0 
+Seat 1: Sherlock.KO (big blind) folded before Flop
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) collected (1050)
+
+
+
+PokerStars Hand #260357512632: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:15:44 UTC [2026/04/05 15:15:44 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (3635 in chips) 
+Seat 2: ARGO409 (12954 in chips) 
+Seat 4: ratrix2009 (6011 in chips) 
+Seat 5: scorza23 (22892 in chips) 
+Seat 8: Rosendo_x (2508 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Rosendo_x: posts the ante 50
+Sherlock.KO: posts small blind 200
+ARGO409: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [4s 4c]
+ratrix2009: raises 5561 to 5961 and is all-in
+scorza23: folds 
+Rosendo_x: calls 2458 and is all-in
+Sherlock.KO: folds 
+ARGO409: folds 
+Uncalled bet (3503) returned to ratrix2009
+*** FLOP *** [Jc Ac Kh]
+*** TURN *** [Jc Ac Kh] [7d]
+*** RIVER *** [Jc Ac Kh 7d] [9c]
+*** SHOW DOWN ***
+ratrix2009: shows [8s 8h] (a pair of Eights)
+Rosendo_x: shows [9d Ad] (two pair, Aces and Nines)
+Rosendo_x collected 5766 from pot
+*** SUMMARY ***
+Total pot 5766 | Rake 0 
+Board [Jc Ac Kh 7d 9c]
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) folded before Flop
+Seat 4: ratrix2009 showed [8s 8h] and lost with a pair of Eights
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rosendo_x (button) showed [9d Ad] and won (5766) with two pair, Aces and Nines
+
+
+
+PokerStars Hand #260357517940: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:16:04 UTC [2026/04/05 15:16:04 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (3385 in chips) 
+Seat 2: ARGO409 (12504 in chips) 
+Seat 4: ratrix2009 (3503 in chips) 
+Seat 5: scorza23 (22842 in chips) 
+Seat 8: Rosendo_x (5766 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Rosendo_x: posts the ante 50
+ARGO409: posts small blind 200
+ratrix2009: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 5d]
+scorza23: folds 
+Rosendo_x: folds 
+Sherlock.KO: raises 2935 to 3335 and is all-in
+ARGO409: folds 
+ratrix2009: folds 
+Uncalled bet (2935) returned to Sherlock.KO
+Sherlock.KO collected 1250 from pot
+Sherlock.KO: doesn't show hand 
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Seat 1: Sherlock.KO (button) collected (1250)
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357522463: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level IX (200/400) - 2026/04/05 19:16:21 UTC [2026/04/05 15:16:21 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (4185 in chips) 
+Seat 2: ARGO409 (12254 in chips) 
+Seat 4: ratrix2009 (3053 in chips) 
+Seat 5: scorza23 (22792 in chips) 
+Seat 8: Rosendo_x (5716 in chips) 
+Sherlock.KO: posts the ante 50
+ARGO409: posts the ante 50
+ratrix2009: posts the ante 50
+scorza23: posts the ante 50
+Rosendo_x: posts the ante 50
+ratrix2009: posts small blind 200
+scorza23: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 2s]
+Rosendo_x: raises 400 to 800
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: calls 400
+*** FLOP *** [Js 2d 4s]
+scorza23: bets 1200
+Rosendo_x: raises 1200 to 2400
+scorza23: calls 1200
+*** TURN *** [Js 2d 4s] [3c]
+scorza23: checks 
+Rosendo_x: checks 
+*** RIVER *** [Js 2d 4s 3c] [Qh]
+scorza23: checks 
+Rosendo_x: checks 
+*** SHOW DOWN ***
+scorza23: shows [Ts 2s] (a pair of Deuces)
+Rosendo_x: shows [Tc Th] (a pair of Tens)
+Rosendo_x collected 6850 from pot
+*** SUMMARY ***
+Total pot 6850 | Rake 0 
+Board [Js 2d 4s 3c Qh]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [Ts 2s] and lost with a pair of Deuces
+Seat 8: Rosendo_x showed [Tc Th] and won (6850) with a pair of Tens
+
+
+
+PokerStars Hand #260357532137: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:16:58 UTC [2026/04/05 15:16:58 ET]
+Table '3989543785 4' 8-max Seat #4 is the button
+Seat 1: Sherlock.KO (4135 in chips) 
+Seat 2: ARGO409 (12204 in chips) 
+Seat 4: ratrix2009 (2803 in chips) 
+Seat 5: scorza23 (19542 in chips) 
+Seat 8: Rosendo_x (9316 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+scorza23: posts small blind 300
+Rosendo_x: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 3c]
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: raises 2128 to 2728 and is all-in
+scorza23: folds 
+Rosendo_x: folds 
+Uncalled bet (2128) returned to ratrix2009
+ratrix2009 collected 1875 from pot
+ratrix2009: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) collected (1875)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 8: Rosendo_x (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357535702: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:17:12 UTC [2026/04/05 15:17:12 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (4060 in chips) 
+Seat 2: ARGO409 (12129 in chips) 
+Seat 4: ratrix2009 (4003 in chips) 
+Seat 5: scorza23 (19167 in chips) 
+Seat 8: Rosendo_x (8641 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+Rosendo_x: posts small blind 300
+Sherlock.KO: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 6d]
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: raises 1200 to 1800
+Rosendo_x: folds 
+Sherlock.KO: folds 
+Uncalled bet (1200) returned to scorza23
+scorza23 collected 1875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: Sherlock.KO (big blind) folded before Flop
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) collected (1875)
+Seat 8: Rosendo_x (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357540087: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:17:28 UTC [2026/04/05 15:17:28 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (3385 in chips) 
+Seat 2: ARGO409 (12054 in chips) 
+Seat 4: ratrix2009 (3928 in chips) 
+Seat 5: scorza23 (20367 in chips) 
+Seat 8: Rosendo_x (8266 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+Sherlock.KO: posts small blind 300
+ARGO409: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Td 5d]
+ratrix2009: folds 
+scorza23: folds 
+Rosendo_x: raises 600 to 1200
+Sherlock.KO: folds 
+ARGO409: folds 
+Uncalled bet (600) returned to Rosendo_x
+Rosendo_x collected 1875 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) folded before Flop
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rosendo_x (button) collected (1875)
+
+
+
+PokerStars Hand #260357543034: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:17:39 UTC [2026/04/05 15:17:39 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (3010 in chips) 
+Seat 2: ARGO409 (11379 in chips) 
+Seat 4: ratrix2009 (3853 in chips) 
+Seat 5: scorza23 (20292 in chips) 
+Seat 8: Rosendo_x (9466 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+ARGO409: posts small blind 300
+ratrix2009: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs As]
+scorza23: raises 600 to 1200
+Rosendo_x: folds 
+Sherlock.KO: raises 1735 to 2935 and is all-in
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: calls 1735
+*** FLOP *** [Kd 7d 9c]
+*** TURN *** [Kd 7d 9c] [2h]
+*** RIVER *** [Kd 7d 9c 2h] [7c]
+*** SHOW DOWN ***
+scorza23: shows [Qs As] (a pair of Sevens)
+Sherlock.KO: shows [9h 9s] (a full house, Nines full of Sevens)
+Sherlock.KO collected 7145 from pot
+*** SUMMARY ***
+Total pot 7145 | Rake 0 
+Board [Kd 7d 9c 2h 7c]
+Seat 1: Sherlock.KO (button) showed [9h 9s] and won (7145) with a full house, Nines full of Sevens
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: scorza23 showed [Qs As] and lost with a pair of Sevens
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357550534: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:18:08 UTC [2026/04/05 15:18:08 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (7145 in chips) 
+Seat 2: ARGO409 (11004 in chips) 
+Seat 4: ratrix2009 (3178 in chips) 
+Seat 5: scorza23 (17282 in chips) 
+Seat 8: Rosendo_x (9391 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+ratrix2009: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 5h]
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: raises 2503 to 3103 and is all-in
+scorza23: folds 
+Uncalled bet (2503) returned to ratrix2009
+ratrix2009 collected 1575 from pot
+ratrix2009: doesn't show hand 
+*** SUMMARY ***
+Total pot 1575 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) collected (1575)
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357555097: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:18:26 UTC [2026/04/05 15:18:26 ET]
+Table '3989543785 4' 8-max Seat #4 is the button
+Seat 1: Sherlock.KO (7070 in chips) 
+Seat 2: ARGO409 (10929 in chips) 
+Seat 4: ratrix2009 (4078 in chips) 
+Seat 5: scorza23 (16607 in chips) 
+Seat 8: Rosendo_x (9316 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+scorza23: posts small blind 300
+Rosendo_x: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Jd]
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: raises 1200 to 1800
+Rosendo_x: calls 1200
+*** FLOP *** [Ad 5d 4s]
+scorza23: bets 1200
+Rosendo_x: calls 1200
+*** TURN *** [Ad 5d 4s] [6d]
+scorza23: bets 6375
+Rosendo_x: calls 6241 and is all-in
+Uncalled bet (134) returned to scorza23
+*** RIVER *** [Ad 5d 4s 6d] [2s]
+*** SHOW DOWN ***
+scorza23: shows [5h Jd] (a pair of Fives)
+Rosendo_x: shows [Th Ah] (a pair of Aces)
+Rosendo_x collected 18857 from pot
+*** SUMMARY ***
+Total pot 18857 | Rake 0 
+Board [Ad 5d 4s 6d 2s]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) showed [5h Jd] and lost with a pair of Fives
+Seat 8: Rosendo_x (big blind) showed [Th Ah] and won (18857) with a pair of Aces
+
+
+
+PokerStars Hand #260357569374: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:19:19 UTC [2026/04/05 15:19:19 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (6995 in chips) 
+Seat 2: ARGO409 (10854 in chips) 
+Seat 4: ratrix2009 (4003 in chips) 
+Seat 5: scorza23 (7291 in chips) 
+Seat 8: Rosendo_x (18857 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+Rosendo_x: posts small blind 300
+Sherlock.KO: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [2h Td]
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: folds 
+Rosendo_x: raises 600 to 1200
+Sherlock.KO: folds 
+Uncalled bet (600) returned to Rosendo_x
+Rosendo_x collected 1575 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 1575 | Rake 0 
+Seat 1: Sherlock.KO (big blind) folded before Flop
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) collected (1575)
+
+
+
+PokerStars Hand #260357576736: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:19:47 UTC [2026/04/05 15:19:47 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (6320 in chips) 
+Seat 2: ARGO409 (10779 in chips) 
+Seat 4: ratrix2009 (3928 in chips) 
+Seat 5: scorza23 (7216 in chips) 
+Seat 8: Rosendo_x (19757 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+Sherlock.KO: posts small blind 300
+ARGO409: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 8c]
+ratrix2009: folds 
+scorza23: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+Uncalled bet (300) returned to ARGO409
+ARGO409 collected 975 from pot
+ARGO409: doesn't show hand 
+*** SUMMARY ***
+Total pot 975 | Rake 0 
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) collected (975)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rosendo_x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357582296: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:20:08 UTC [2026/04/05 15:20:08 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (5945 in chips) 
+Seat 2: ARGO409 (11379 in chips) 
+Seat 4: ratrix2009 (3853 in chips) 
+Seat 5: scorza23 (7141 in chips) 
+Seat 8: Rosendo_x (19682 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+ARGO409: posts small blind 300
+ratrix2009: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [6s Kh]
+scorza23: folds 
+Rosendo_x: folds 
+Sherlock.KO: raises 5270 to 5870 and is all-in
+ARGO409: folds 
+ratrix2009: folds 
+Uncalled bet (5270) returned to Sherlock.KO
+Sherlock.KO collected 1875 from pot
+*** SUMMARY ***
+Total pot 1875 | Rake 0 
+Seat 1: Sherlock.KO (button) collected (1875)
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 4: ratrix2009 (big blind) folded before Flop
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357588463: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:20:31 UTC [2026/04/05 15:20:31 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (7145 in chips) 
+Seat 2: ARGO409 (11004 in chips) 
+Seat 4: ratrix2009 (3178 in chips) 
+Seat 5: scorza23 (7066 in chips) 
+Seat 8: Rosendo_x (19607 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+ratrix2009: posts small blind 300
+scorza23: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 5d]
+Rosendo_x: raises 600 to 1200
+Sherlock.KO: folds 
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: calls 600
+*** FLOP *** [6h Tc 4d]
+scorza23: checks 
+Rosendo_x: bets 1200
+scorza23: folds 
+Uncalled bet (1200) returned to Rosendo_x
+Rosendo_x collected 3075 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 3075 | Rake 0 
+Board [6h Tc 4d]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 4: ratrix2009 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded on the Flop
+Seat 8: Rosendo_x collected (3075)
+
+
+
+PokerStars Hand #260357595306: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level X (300/600) - 2026/04/05 19:20:57 UTC [2026/04/05 15:20:57 ET]
+Table '3989543785 4' 8-max Seat #4 is the button
+Seat 1: Sherlock.KO (7070 in chips) 
+Seat 2: ARGO409 (10929 in chips) 
+Seat 4: ratrix2009 (2803 in chips) 
+Seat 5: scorza23 (5791 in chips) 
+Seat 8: Rosendo_x (21407 in chips) 
+Sherlock.KO: posts the ante 75
+ARGO409: posts the ante 75
+ratrix2009: posts the ante 75
+scorza23: posts the ante 75
+Rosendo_x: posts the ante 75
+scorza23: posts small blind 300
+Rosendo_x: posts big blind 600
+*** HOLE CARDS ***
+Dealt to scorza23 [7c 9s]
+Sherlock.KO: folds 
+ARGO409: raises 600 to 1200
+ratrix2009: folds 
+scorza23: folds 
+Rosendo_x: calls 600
+*** FLOP *** [9h 8d 2h]
+Rosendo_x: checks 
+ARGO409: checks 
+*** TURN *** [9h 8d 2h] [5s]
+Rosendo_x: checks 
+ARGO409: bets 600
+Rosendo_x: calls 600
+*** RIVER *** [9h 8d 2h 5s] [Ks]
+Rosendo_x: checks 
+ARGO409: checks 
+*** SHOW DOWN ***
+Rosendo_x: shows [Js Ts] (high card King)
+ARGO409: shows [Ah 5d] (a pair of Fives)
+ARGO409 collected 4275 from pot
+*** SUMMARY ***
+Total pot 4275 | Rake 0 
+Board [9h 8d 2h 5s Ks]
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 showed [Ah 5d] and won (4275) with a pair of Fives
+Seat 4: ratrix2009 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 8: Rosendo_x (big blind) showed [Js Ts] and lost with high card King
+
+
+
+PokerStars Hand #260357609948: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:21:53 UTC [2026/04/05 15:21:53 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (6995 in chips) 
+Seat 2: ARGO409 (13329 in chips) 
+Seat 4: ratrix2009 (2728 in chips) 
+Seat 5: scorza23 (5416 in chips) 
+Seat 8: Rosendo_x (19532 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+ratrix2009: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+Rosendo_x: posts small blind 400
+Sherlock.KO: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 7s]
+ARGO409: folds 
+ratrix2009: folds 
+scorza23: folds 
+Rosendo_x: calls 400
+Sherlock.KO: checks 
+*** FLOP *** [Qh 9d 4d]
+Rosendo_x: checks 
+Sherlock.KO: bets 6095 and is all-in
+Rosendo_x: folds 
+Uncalled bet (6095) returned to Sherlock.KO
+Sherlock.KO collected 2100 from pot
+Sherlock.KO: doesn't show hand 
+*** SUMMARY ***
+Total pot 2100 | Rake 0 
+Board [Qh 9d 4d]
+Seat 1: Sherlock.KO (big blind) collected (2100)
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 4: ratrix2009 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) folded on the Flop
+
+
+
+PokerStars Hand #260357616900: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:22:19 UTC [2026/04/05 15:22:19 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (8195 in chips) 
+Seat 2: ARGO409 (13229 in chips) 
+Seat 4: ratrix2009 (2628 in chips) 
+Seat 5: scorza23 (5316 in chips) 
+Seat 8: Rosendo_x (18632 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+ratrix2009: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+Sherlock.KO: posts small blind 400
+ARGO409: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 9s]
+ratrix2009: raises 1728 to 2528 and is all-in
+scorza23: calls 2528
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+*** FLOP *** [3h 6h 6c]
+*** TURN *** [3h 6h 6c] [3c]
+*** RIVER *** [3h 6h 6c 3c] [2h]
+*** SHOW DOWN ***
+ratrix2009: shows [7h 7s] (two pair, Sevens and Sixes)
+scorza23: shows [9c 9s] (two pair, Nines and Sixes)
+scorza23 collected 6756 from pot
+ratrix2009 finished the tournament in 5th place and received $2.07.
+*** SUMMARY ***
+Total pot 6756 | Rake 0 
+Board [3h 6h 6c 3c 2h]
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) folded before Flop
+Seat 4: ratrix2009 showed [7h 7s] and lost with two pair, Sevens and Sixes
+Seat 5: scorza23 showed [9c 9s] and won (6756) with two pair, Nines and Sixes
+Seat 8: Rosendo_x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357624566: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:22:48 UTC [2026/04/05 15:22:48 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (7695 in chips) 
+Seat 2: ARGO409 (12329 in chips) 
+Seat 5: scorza23 (9444 in chips) 
+Seat 8: Rosendo_x (18532 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+ARGO409: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 6c]
+Rosendo_x: raises 800 to 1600
+Sherlock.KO: folds 
+ARGO409: folds 
+scorza23: folds 
+Uncalled bet (800) returned to Rosendo_x
+Rosendo_x collected 2400 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 1: Sherlock.KO (button) folded before Flop (didn't bet)
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) folded before Flop
+Seat 8: Rosendo_x collected (2400)
+
+
+
+PokerStars Hand #260357628708: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:23:03 UTC [2026/04/05 15:23:03 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (7595 in chips) 
+Seat 2: ARGO409 (11829 in chips) 
+Seat 5: scorza23 (8544 in chips) 
+Seat 8: Rosendo_x (20032 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+scorza23: posts small blind 400
+Rosendo_x: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Ac Kd]
+Sherlock.KO: folds 
+ARGO409: calls 800
+scorza23: raises 7644 to 8444 and is all-in
+Rosendo_x: folds 
+ARGO409: folds 
+Uncalled bet (7644) returned to scorza23
+scorza23 collected 2800 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2800 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) folded before Flop
+Seat 5: scorza23 (small blind) collected (2800)
+Seat 8: Rosendo_x (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357633657: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:23:22 UTC [2026/04/05 15:23:22 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (7495 in chips) 
+Seat 2: ARGO409 (10929 in chips) 
+Seat 5: scorza23 (10444 in chips) 
+Seat 8: Rosendo_x (19132 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+Rosendo_x: posts small blind 400
+Sherlock.KO: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 2c]
+ARGO409: folds 
+scorza23: folds 
+Rosendo_x: raises 1600 to 2400
+Sherlock.KO: folds 
+Uncalled bet (1600) returned to Rosendo_x
+Rosendo_x collected 2000 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Seat 1: Sherlock.KO (big blind) folded before Flop
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) collected (2000)
+
+
+
+PokerStars Hand #260357637273: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:23:36 UTC [2026/04/05 15:23:36 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (6595 in chips) 
+Seat 2: ARGO409 (10829 in chips) 
+Seat 5: scorza23 (10344 in chips) 
+Seat 8: Rosendo_x (20232 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+Sherlock.KO: posts small blind 400
+ARGO409: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [As Th]
+scorza23: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+Uncalled bet (400) returned to ARGO409
+ARGO409 collected 1200 from pot
+ARGO409: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) collected (1200)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rosendo_x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357639891: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:23:46 UTC [2026/04/05 15:23:46 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (6095 in chips) 
+Seat 2: ARGO409 (11529 in chips) 
+Seat 5: scorza23 (10244 in chips) 
+Seat 8: Rosendo_x (20132 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+ARGO409: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Ad]
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 1200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 1: Sherlock.KO (button) folded before Flop (didn't bet)
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (1200)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357642645: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:23:56 UTC [2026/04/05 15:23:56 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (5995 in chips) 
+Seat 2: ARGO409 (11029 in chips) 
+Seat 5: scorza23 (10944 in chips) 
+Seat 8: Rosendo_x (20032 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+scorza23: posts small blind 400
+Rosendo_x: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 9h]
+Sherlock.KO: folds 
+ARGO409: folds 
+scorza23: folds 
+Uncalled bet (400) returned to Rosendo_x
+Rosendo_x collected 1200 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 8: Rosendo_x (big blind) collected (1200)
+
+
+
+PokerStars Hand #260357645489: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:24:07 UTC [2026/04/05 15:24:07 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (5895 in chips) 
+Seat 2: ARGO409 (10929 in chips) 
+Seat 5: scorza23 (10444 in chips) 
+Seat 8: Rosendo_x (20732 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+Rosendo_x: posts small blind 400
+Sherlock.KO: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [5d Js]
+ARGO409: folds 
+scorza23: folds 
+Rosendo_x: calls 400
+Sherlock.KO: checks 
+*** FLOP *** [5c Kh 6h]
+Rosendo_x: checks 
+Sherlock.KO: checks 
+*** TURN *** [5c Kh 6h] [6s]
+Rosendo_x: checks 
+Sherlock.KO: checks 
+*** RIVER *** [5c Kh 6h 6s] [Kd]
+Rosendo_x: checks 
+Sherlock.KO: checks 
+*** SHOW DOWN ***
+Rosendo_x: shows [3d 9c] (two pair, Kings and Sixes)
+Sherlock.KO: shows [4h Qc] (two pair, Kings and Sixes - Queen kicker)
+Sherlock.KO collected 2000 from pot
+*** SUMMARY ***
+Total pot 2000 | Rake 0 
+Board [5c Kh 6h 6s Kd]
+Seat 1: Sherlock.KO (big blind) showed [4h Qc] and won (2000) with two pair, Kings and Sixes
+Seat 2: ARGO409 folded before Flop (didn't bet)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) showed [3d 9c] and lost with two pair, Kings and Sixes
+
+
+
+PokerStars Hand #260357653468: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:24:38 UTC [2026/04/05 15:24:38 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 1: Sherlock.KO (6995 in chips) 
+Seat 2: ARGO409 (10829 in chips) 
+Seat 5: scorza23 (10344 in chips) 
+Seat 8: Rosendo_x (19832 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+Sherlock.KO: posts small blind 400
+ARGO409: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2d]
+scorza23: folds 
+Rosendo_x: folds 
+Sherlock.KO: folds 
+Uncalled bet (400) returned to ARGO409
+ARGO409 collected 1200 from pot
+ARGO409: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 1: Sherlock.KO (small blind) folded before Flop
+Seat 2: ARGO409 (big blind) collected (1200)
+Seat 5: scorza23 folded before Flop (didn't bet)
+Seat 8: Rosendo_x (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357657248: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:24:52 UTC [2026/04/05 15:24:52 ET]
+Table '3989543785 4' 8-max Seat #1 is the button
+Seat 1: Sherlock.KO (6495 in chips) 
+Seat 2: ARGO409 (11529 in chips) 
+Seat 5: scorza23 (10244 in chips) 
+Seat 8: Rosendo_x (19732 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+ARGO409: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 7c]
+Rosendo_x: folds 
+Sherlock.KO: folds 
+ARGO409: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 1200 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1200 | Rake 0 
+Seat 1: Sherlock.KO (button) folded before Flop (didn't bet)
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (1200)
+Seat 8: Rosendo_x folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260357660664: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:25:05 UTC [2026/04/05 15:25:05 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 1: Sherlock.KO (6395 in chips) 
+Seat 2: ARGO409 (11029 in chips) 
+Seat 5: scorza23 (10944 in chips) 
+Seat 8: Rosendo_x (19632 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+scorza23: posts small blind 400
+Rosendo_x: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [9s 6s]
+Sherlock.KO: folds 
+ARGO409: raises 800 to 1600
+scorza23: folds 
+Rosendo_x: folds 
+Uncalled bet (800) returned to ARGO409
+ARGO409 collected 2400 from pot
+ARGO409: doesn't show hand 
+*** SUMMARY ***
+Total pot 2400 | Rake 0 
+Seat 1: Sherlock.KO folded before Flop (didn't bet)
+Seat 2: ARGO409 (button) collected (2400)
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 8: Rosendo_x (big blind) folded before Flop
+
+
+
+PokerStars Hand #260357667402: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:25:31 UTC [2026/04/05 15:25:31 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 1: Sherlock.KO (6295 in chips) 
+Seat 2: ARGO409 (12529 in chips) 
+Seat 5: scorza23 (10444 in chips) 
+Seat 8: Rosendo_x (18732 in chips) 
+Sherlock.KO: posts the ante 100
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+Rosendo_x: posts small blind 400
+Sherlock.KO: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [As Qc]
+ARGO409: raises 800 to 1600
+scorza23: folds 
+Rosendo_x: folds 
+Sherlock.KO: raises 4595 to 6195 and is all-in
+ARGO409: calls 4595
+*** FLOP *** [3c 7d 9d]
+*** TURN *** [3c 7d 9d] [3h]
+*** RIVER *** [3c 7d 9d 3h] [5c]
+*** SHOW DOWN ***
+Sherlock.KO: shows [6s 6d] (two pair, Sixes and Threes)
+ARGO409: shows [9c Ac] (two pair, Nines and Threes)
+ARGO409 collected 13190 from pot
+Sherlock.KO finished the tournament in 4th place and received $3.17.
+*** SUMMARY ***
+Total pot 13190 | Rake 0 
+Board [3c 7d 9d 3h 5c]
+Seat 1: Sherlock.KO (big blind) showed [6s 6d] and lost with two pair, Sixes and Threes
+Seat 2: ARGO409 showed [9c Ac] and won (13190) with two pair, Nines and Threes
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) folded before Flop
+
+
+
+PokerStars Hand #260357674842: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XI (400/800) - 2026/04/05 19:26:00 UTC [2026/04/05 15:26:00 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 2: ARGO409 (19424 in chips) 
+Seat 5: scorza23 (10344 in chips) 
+Seat 8: Rosendo_x (18232 in chips) 
+ARGO409: posts the ante 100
+scorza23: posts the ante 100
+Rosendo_x: posts the ante 100
+ARGO409: posts small blind 400
+scorza23: posts big blind 800
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ah]
+Rosendo_x: raises 800 to 1600
+ARGO409: folds 
+scorza23: raises 3900 to 5500
+Rosendo_x: calls 3900
+*** FLOP *** [7c Th Js]
+scorza23: bets 4744 and is all-in
+Rosendo_x: calls 4744
+*** TURN *** [7c Th Js] [Ad]
+*** RIVER *** [7c Th Js Ad] [Kh]
+*** SHOW DOWN ***
+scorza23: shows [Qh Ah] (a straight, Ten to Ace)
+Rosendo_x: shows [Qc Kc] (a straight, Ten to Ace)
+scorza23 collected 10594 from pot
+Rosendo_x collected 10594 from pot
+*** SUMMARY ***
+Total pot 21188 | Rake 0 
+Board [7c Th Js Ad Kh]
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [Qh Ah] and won (10594) with a straight, Ten to Ace
+Seat 8: Rosendo_x (button) showed [Qc Kc] and won (10594) with a straight, Ten to Ace
+
+
+
+PokerStars Hand #260357685254: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:26:40 UTC [2026/04/05 15:26:40 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 2: ARGO409 (18924 in chips) 
+Seat 5: scorza23 (10594 in chips) 
+Seat 8: Rosendo_x (18482 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+Rosendo_x: posts the ante 125
+scorza23: posts small blind 500
+Rosendo_x: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 3h]
+ARGO409: calls 1000
+scorza23: folds 
+Rosendo_x: checks 
+*** FLOP *** [7c Qs 8s]
+Rosendo_x: checks 
+ARGO409: bets 1000
+Rosendo_x: calls 1000
+*** TURN *** [7c Qs 8s] [9d]
+Rosendo_x: checks 
+ARGO409: checks 
+*** RIVER *** [7c Qs 8s 9d] [Jc]
+Rosendo_x: checks 
+ARGO409: checks 
+*** SHOW DOWN ***
+Rosendo_x: shows [6s 3s] (high card Queen)
+ARGO409: shows [4c As] (high card Ace)
+ARGO409 collected 4875 from pot
+*** SUMMARY ***
+Total pot 4875 | Rake 0 
+Board [7c Qs 8s 9d Jc]
+Seat 2: ARGO409 (button) showed [4c As] and won (4875) with high card Ace
+Seat 5: scorza23 (small blind) folded before Flop
+Seat 8: Rosendo_x (big blind) showed [6s 3s] and lost with high card Queen
+
+
+
+PokerStars Hand #260357692413: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:27:07 UTC [2026/04/05 15:27:07 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 2: ARGO409 (21674 in chips) 
+Seat 5: scorza23 (9969 in chips) 
+Seat 8: Rosendo_x (16357 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+Rosendo_x: posts the ante 125
+Rosendo_x: posts small blind 500
+ARGO409: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 9h]
+scorza23: folds 
+Rosendo_x: calls 500
+ARGO409: checks 
+*** FLOP *** [Qc Ts Td]
+Rosendo_x: checks 
+ARGO409: checks 
+*** TURN *** [Qc Ts Td] [7h]
+Rosendo_x: checks 
+ARGO409: bets 1000
+Rosendo_x: folds 
+Uncalled bet (1000) returned to ARGO409
+ARGO409 collected 2375 from pot
+ARGO409: doesn't show hand 
+*** SUMMARY ***
+Total pot 2375 | Rake 0 
+Board [Qc Ts Td 7h]
+Seat 2: ARGO409 (big blind) collected (2375)
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) folded on the Turn
+
+
+
+PokerStars Hand #260357700168: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:27:37 UTC [2026/04/05 15:27:37 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 2: ARGO409 (22924 in chips) 
+Seat 5: scorza23 (9844 in chips) 
+Seat 8: Rosendo_x (15232 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+Rosendo_x: posts the ante 125
+ARGO409: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Qd]
+Rosendo_x: raises 1000 to 2000
+ARGO409: folds 
+scorza23: calls 1000
+*** FLOP *** [Qc Tc 3d]
+scorza23: bets 7719 and is all-in
+Rosendo_x: folds 
+Uncalled bet (7719) returned to scorza23
+scorza23 collected 4875 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 4875 | Rake 0 
+Board [Qc Tc 3d]
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (4875)
+Seat 8: Rosendo_x (button) folded on the Flop
+
+
+
+PokerStars Hand #260357706768: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:28:03 UTC [2026/04/05 15:28:03 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 2: ARGO409 (22299 in chips) 
+Seat 5: scorza23 (12594 in chips) 
+Seat 8: Rosendo_x (13107 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+Rosendo_x: posts the ante 125
+scorza23: posts small blind 500
+Rosendo_x: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Kd]
+ARGO409: folds 
+scorza23: raises 1000 to 2000
+Rosendo_x: calls 1000
+*** FLOP *** [Kc 7d 2h]
+scorza23: bets 4375
+Rosendo_x: folds 
+Uncalled bet (4375) returned to scorza23
+scorza23 collected 4375 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 4375 | Rake 0 
+Board [Kc 7d 2h]
+Seat 2: ARGO409 (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) collected (4375)
+Seat 8: Rosendo_x (big blind) folded on the Flop
+
+
+
+PokerStars Hand #260357717041: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:28:43 UTC [2026/04/05 15:28:43 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 2: ARGO409 (22174 in chips) 
+Seat 5: scorza23 (14844 in chips) 
+Seat 8: Rosendo_x (10982 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+Rosendo_x: posts the ante 125
+Rosendo_x: posts small blind 500
+ARGO409: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 6d]
+scorza23: folds 
+Rosendo_x: raises 2000 to 3000
+ARGO409: calls 2000
+*** FLOP *** [Jh Kh 2c]
+Rosendo_x: bets 3000
+ARGO409: folds 
+Uncalled bet (3000) returned to Rosendo_x
+Rosendo_x collected 6375 from pot
+Rosendo_x: doesn't show hand 
+*** SUMMARY ***
+Total pot 6375 | Rake 0 
+Board [Jh Kh 2c]
+Seat 2: ARGO409 (big blind) folded on the Flop
+Seat 5: scorza23 (button) folded before Flop (didn't bet)
+Seat 8: Rosendo_x (small blind) collected (6375)
+
+
+
+PokerStars Hand #260357722023: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:29:03 UTC [2026/04/05 15:29:03 ET]
+Table '3989543785 4' 8-max Seat #8 is the button
+Seat 2: ARGO409 (19049 in chips) 
+Seat 5: scorza23 (14719 in chips) 
+Seat 8: Rosendo_x (14232 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+Rosendo_x: posts the ante 125
+ARGO409: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Ad]
+Rosendo_x: raises 1000 to 2000
+ARGO409: folds 
+scorza23: raises 4875 to 6875
+Rosendo_x: raises 7232 to 14107 and is all-in
+scorza23: calls 7232
+*** FLOP *** [7s 8d 6c]
+*** TURN *** [7s 8d 6c] [8s]
+*** RIVER *** [7s 8d 6c 8s] [Ah]
+*** SHOW DOWN ***
+scorza23: shows [Qd Ad] (two pair, Aces and Eights)
+Rosendo_x: shows [9s 9c] (two pair, Nines and Eights)
+scorza23 collected 29089 from pot
+Rosendo_x finished the tournament in 3rd place and received $4.84.
+*** SUMMARY ***
+Total pot 29089 | Rake 0 
+Board [7s 8d 6c 8s Ah]
+Seat 2: ARGO409 (small blind) folded before Flop
+Seat 5: scorza23 (big blind) showed [Qd Ad] and won (29089) with two pair, Aces and Eights
+Seat 8: Rosendo_x (button) showed [9s 9c] and lost with two pair, Nines and Eights
+
+
+
+PokerStars Hand #260357728484: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:29:28 UTC [2026/04/05 15:29:28 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 2: ARGO409 (18424 in chips) 
+Seat 5: scorza23 (29576 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+scorza23: posts small blind 500
+ARGO409: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Kc]
+scorza23: calls 500
+ARGO409: checks 
+*** FLOP *** [Qc 3c 7h]
+ARGO409: checks 
+scorza23: bets 2000
+ARGO409: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 2250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2250 | Rake 0 
+Board [Qc 3c 7h]
+Seat 2: ARGO409 (big blind) folded on the Flop
+Seat 5: scorza23 (button) (small blind) collected (2250)
+
+
+
+PokerStars Hand #260357733010: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:29:45 UTC [2026/04/05 15:29:45 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 2: ARGO409 (17299 in chips) 
+Seat 5: scorza23 (30701 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+ARGO409: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Jd]
+ARGO409: folds 
+Uncalled bet (500) returned to scorza23
+scorza23 collected 1250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Seat 2: ARGO409 (button) (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (1250)
+
+
+
+PokerStars Hand #260357735606: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:29:55 UTC [2026/04/05 15:29:55 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 2: ARGO409 (16674 in chips) 
+Seat 5: scorza23 (31326 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+scorza23: posts small blind 500
+ARGO409: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 2s]
+scorza23: raises 2000 to 3000
+ARGO409: calls 2000
+*** FLOP *** [9d Ks 8d]
+ARGO409: checks 
+scorza23: bets 3000
+ARGO409: folds 
+Uncalled bet (3000) returned to scorza23
+scorza23 collected 6250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 6250 | Rake 0 
+Board [9d Ks 8d]
+Seat 2: ARGO409 (big blind) folded on the Flop
+Seat 5: scorza23 (button) (small blind) collected (6250)
+
+
+
+PokerStars Hand #260357740832: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:30:15 UTC [2026/04/05 15:30:15 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 2: ARGO409 (13549 in chips) 
+Seat 5: scorza23 (34451 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+ARGO409: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Ad]
+ARGO409: folds 
+Uncalled bet (500) returned to scorza23
+scorza23 collected 1250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1250 | Rake 0 
+Seat 2: ARGO409 (button) (small blind) folded before Flop
+Seat 5: scorza23 (big blind) collected (1250)
+
+
+
+PokerStars Hand #260357742672: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:30:22 UTC [2026/04/05 15:30:22 ET]
+Table '3989543785 4' 8-max Seat #5 is the button
+Seat 2: ARGO409 (12924 in chips) 
+Seat 5: scorza23 (35076 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+scorza23: posts small blind 500
+ARGO409: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Qc]
+scorza23: raises 2000 to 3000
+ARGO409: folds 
+Uncalled bet (2000) returned to scorza23
+scorza23 collected 2250 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 2250 | Rake 0 
+Seat 2: ARGO409 (big blind) folded before Flop
+Seat 5: scorza23 (button) (small blind) collected (2250)
+
+
+
+PokerStars Hand #260357744935: Tournament #3989543785, $0.90+$0.10 USD Hold'em No Limit - Level XII (500/1000) - 2026/04/05 19:30:31 UTC [2026/04/05 15:30:31 ET]
+Table '3989543785 4' 8-max Seat #2 is the button
+Seat 2: ARGO409 (11799 in chips) 
+Seat 5: scorza23 (36201 in chips) 
+ARGO409: posts the ante 125
+scorza23: posts the ante 125
+ARGO409: posts small blind 500
+scorza23: posts big blind 1000
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd Jc]
+ARGO409: calls 500
+scorza23: checks 
+*** FLOP *** [9h Js 7h]
+scorza23: bets 3000
+ARGO409: raises 7674 to 10674 and is all-in
+scorza23: calls 7674
+*** TURN *** [9h Js 7h] [7d]
+*** RIVER *** [9h Js 7h 7d] [6h]
+*** SHOW DOWN ***
+scorza23: shows [Qd Jc] (two pair, Jacks and Sevens)
+ARGO409: shows [Kc Td] (a pair of Sevens)
+scorza23 collected 23598 from pot
+ARGO409 finished the tournament in 2nd place and received $7.40.
+scorza23 wins the tournament and receives $11.32 - congratulations!
+*** SUMMARY ***
+Total pot 23598 | Rake 0 
+Board [9h Js 7h 7d 6h]
+Seat 2: ARGO409 (button) (small blind) showed [Kc Td] and lost with a pair of Sevens
+Seat 5: scorza23 (big blind) showed [Qd Jc] and won (23598) with two pair, Jacks and Sevens
+
+
+

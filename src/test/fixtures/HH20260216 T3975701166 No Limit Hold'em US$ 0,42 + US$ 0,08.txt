@@ -1,0 +1,59 @@
+﻿PokerStars Hand #259750492719: Tournament #3975701166, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/02/16 16:55:38 UTC [2026/02/16 11:55:38 ET]
+Table '3975701166 1' 9-max Seat #1 is the button
+Seat 1: cuecue57 (1500 in chips) 
+Seat 2: alleinzuhaus (1500 in chips) 
+Seat 3: Master Lehmann (1500 in chips) 
+Seat 4: Vallhalla1 (1500 in chips) 
+Seat 5: BQVS (1500 in chips) 
+Seat 6: Leonardofp19 (1500 in chips) 
+Seat 7: s.apps1 (1500 in chips) 
+Seat 8: RafaelBaude (1500 in chips) 
+Seat 9: scorza23 (1500 in chips) 
+alleinzuhaus: posts small blind 10
+Master Lehmann: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As Kc]
+Vallhalla1: calls 20
+BQVS: folds 
+Leonardofp19: folds 
+s.apps1: folds 
+RafaelBaude: folds 
+scorza23: raises 70 to 90
+cuecue57: folds 
+alleinzuhaus: calls 80
+Master Lehmann: folds 
+Vallhalla1: calls 70
+*** FLOP *** [Tc 6c 3c]
+alleinzuhaus: checks 
+Vallhalla1: checks 
+scorza23: bets 290
+alleinzuhaus: calls 290
+Vallhalla1: folds 
+*** TURN *** [Tc 6c 3c] [2s]
+alleinzuhaus: checks 
+scorza23: bets 435
+alleinzuhaus: calls 435
+*** RIVER *** [Tc 6c 3c 2s] [3h]
+alleinzuhaus: checks 
+scorza23: bets 685 and is all-in
+alleinzuhaus: calls 685 and is all-in
+*** SHOW DOWN ***
+scorza23: shows [As Kc] (a pair of Threes)
+alleinzuhaus: shows [5s 4d] (a straight, Deuce to Six)
+alleinzuhaus collected 3110 from pot
+scorza23 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 3110 | Rake 0 
+Board [Tc 6c 3c 2s 3h]
+Seat 1: cuecue57 (button) folded before Flop (didn't bet)
+Seat 2: alleinzuhaus (small blind) showed [5s 4d] and won (3110) with a straight, Deuce to Six
+Seat 3: Master Lehmann (big blind) folded before Flop
+Seat 4: Vallhalla1 folded on the Flop
+Seat 5: BQVS folded before Flop (didn't bet)
+Seat 6: Leonardofp19 folded before Flop (didn't bet)
+Seat 7: s.apps1 folded before Flop (didn't bet)
+Seat 8: RafaelBaude folded before Flop (didn't bet)
+Seat 9: scorza23 showed [As Kc] and lost with a pair of Threes
+
+
+

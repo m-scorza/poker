@@ -1,0 +1,705 @@
+﻿PokerStars Hand #260346807358: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:31:32 UTC [2026/04/04 17:31:32 ET]
+Table '3989317274 1' 9-max Seat #1 is the button
+Seat 1: FindingBluff (1500 in chips) 
+Seat 2: RANZENGARDE (1500 in chips) 
+Seat 3: SenegoiD31 (1500 in chips) 
+Seat 4: Nobody249 (1500 in chips) 
+Seat 5: TMixT (1500 in chips) 
+Seat 6: laurenpabreu (1500 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: Caynee23 (1500 in chips) 
+Seat 9: TTYes (1500 in chips) 
+RANZENGARDE: posts small blind 10
+SenegoiD31: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [As 5h]
+Nobody249: folds 
+TMixT: folds 
+laurenpabreu: calls 20
+scorza23: folds 
+Caynee23: raises 40 to 60
+TTYes: folds 
+FindingBluff: folds 
+RANZENGARDE: folds 
+SenegoiD31: folds 
+laurenpabreu: calls 40
+*** FLOP *** [5s Qd 3c]
+laurenpabreu: checks 
+Caynee23: bets 150
+laurenpabreu: folds 
+Uncalled bet (150) returned to Caynee23
+Caynee23 collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Board [5s Qd 3c]
+Seat 1: FindingBluff (button) folded before Flop (didn't bet)
+Seat 2: RANZENGARDE (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) folded before Flop
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT folded before Flop (didn't bet)
+Seat 6: laurenpabreu folded on the Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Caynee23 collected (150)
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346821137: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:32:31 UTC [2026/04/04 17:32:31 ET]
+Table '3989317274 1' 9-max Seat #2 is the button
+Seat 1: FindingBluff (1500 in chips) 
+Seat 2: RANZENGARDE (1490 in chips) 
+Seat 3: SenegoiD31 (1480 in chips) 
+Seat 4: Nobody249 (1500 in chips) 
+Seat 5: TMixT (1500 in chips) 
+Seat 6: laurenpabreu (1440 in chips) 
+Seat 7: scorza23 (1500 in chips) 
+Seat 8: Caynee23 (1590 in chips) 
+Seat 9: TTYes (1500 in chips) 
+SenegoiD31: posts small blind 10
+Nobody249: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Qc]
+TMixT: folds 
+laurenpabreu: calls 20
+scorza23: raises 40 to 60
+Caynee23: folds 
+TTYes: calls 60
+FindingBluff: folds 
+RANZENGARDE: folds 
+SenegoiD31: raises 80 to 140
+Nobody249: folds 
+laurenpabreu: calls 120
+scorza23: calls 80
+TTYes: folds 
+*** FLOP *** [4c 2s 2d]
+SenegoiD31: checks 
+laurenpabreu: checks 
+scorza23: bets 200
+SenegoiD31: calls 200
+laurenpabreu: calls 200
+*** TURN *** [4c 2s 2d] [9h]
+SenegoiD31: checks 
+laurenpabreu: checks 
+scorza23: bets 400
+SenegoiD31: calls 400
+laurenpabreu: folds 
+*** RIVER *** [4c 2s 2d 9h] [Th]
+SenegoiD31: bets 740 and is all-in
+scorza23: folds 
+Uncalled bet (740) returned to SenegoiD31
+SenegoiD31 collected 1900 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 1900 | Rake 0 
+Board [4c 2s 2d 9h Th]
+Seat 1: FindingBluff folded before Flop (didn't bet)
+Seat 2: RANZENGARDE (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) collected (1900)
+Seat 4: Nobody249 (big blind) folded before Flop
+Seat 5: TMixT folded before Flop (didn't bet)
+Seat 6: laurenpabreu folded on the Turn
+Seat 7: scorza23 folded on the River
+Seat 8: Caynee23 folded before Flop (didn't bet)
+Seat 9: TTYes folded before Flop
+
+
+
+PokerStars Hand #260346847647: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:34:25 UTC [2026/04/04 17:34:25 ET]
+Table '3989317274 1' 9-max Seat #3 is the button
+Seat 1: FindingBluff (1500 in chips) 
+Seat 2: RANZENGARDE (1490 in chips) 
+Seat 3: SenegoiD31 (2640 in chips) 
+Seat 4: Nobody249 (1480 in chips) 
+Seat 5: TMixT (1500 in chips) 
+Seat 6: laurenpabreu (1100 in chips) 
+Seat 7: scorza23 (760 in chips) 
+Seat 8: Caynee23 (1590 in chips) 
+Seat 9: TTYes (1440 in chips) 
+Nobody249: posts small blind 10
+TMixT: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 2s]
+laurenpabreu has timed out
+laurenpabreu: folds 
+laurenpabreu is sitting out
+scorza23: folds 
+laurenpabreu has returned
+Caynee23: raises 40 to 60
+TTYes: folds 
+FindingBluff: folds 
+RANZENGARDE: calls 60
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: folds 
+*** FLOP *** [Ac Th 6c]
+Caynee23: bets 150
+RANZENGARDE: calls 150
+*** TURN *** [Ac Th 6c] [8d]
+Caynee23: bets 450
+RANZENGARDE: calls 450
+*** RIVER *** [Ac Th 6c 8d] [4c]
+Caynee23: bets 930 and is all-in
+RANZENGARDE: calls 830 and is all-in
+Uncalled bet (100) returned to Caynee23
+*** SHOW DOWN ***
+Caynee23: shows [Ad 9s] (a pair of Aces)
+RANZENGARDE: shows [Ah Jc] (a pair of Aces - Jack kicker)
+RANZENGARDE collected 3010 from pot
+*** SUMMARY ***
+Total pot 3010 | Rake 0 
+Board [Ac Th 6c 8d 4c]
+Seat 1: FindingBluff folded before Flop (didn't bet)
+Seat 2: RANZENGARDE showed [Ah Jc] and won (3010) with a pair of Aces
+Seat 3: SenegoiD31 (button) folded before Flop (didn't bet)
+Seat 4: Nobody249 (small blind) folded before Flop
+Seat 5: TMixT (big blind) folded before Flop
+Seat 6: laurenpabreu folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Caynee23 showed [Ad 9s] and lost with a pair of Aces
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346862998: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:35:30 UTC [2026/04/04 17:35:30 ET]
+Table '3989317274 1' 9-max Seat #4 is the button
+Seat 1: FindingBluff (1500 in chips) 
+Seat 2: RANZENGARDE (3010 in chips) 
+Seat 3: SenegoiD31 (2640 in chips) 
+Seat 4: Nobody249 (1470 in chips) 
+Seat 5: TMixT (1480 in chips) 
+Seat 6: laurenpabreu (1100 in chips) 
+Seat 7: scorza23 (760 in chips) 
+Seat 8: Caynee23 (100 in chips) 
+Seat 9: TTYes (1440 in chips) 
+TMixT: posts small blind 10
+laurenpabreu: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 8c]
+scorza23: folds 
+Caynee23: raises 80 to 100 and is all-in
+TTYes: raises 100 to 200
+FindingBluff: folds 
+RANZENGARDE: folds 
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: folds 
+laurenpabreu: folds 
+Uncalled bet (100) returned to TTYes
+*** FLOP *** [4h Th 5s]
+*** TURN *** [4h Th 5s] [5h]
+*** RIVER *** [4h Th 5s 5h] [9h]
+*** SHOW DOWN ***
+Caynee23: shows [6h Ac] (a flush, Ten high)
+TTYes: shows [Ad As] (two pair, Aces and Fives)
+Caynee23 collected 230 from pot
+*** SUMMARY ***
+Total pot 230 | Rake 0 
+Board [4h Th 5s 5h 9h]
+Seat 1: FindingBluff folded before Flop (didn't bet)
+Seat 2: RANZENGARDE folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Nobody249 (button) folded before Flop (didn't bet)
+Seat 5: TMixT (small blind) folded before Flop
+Seat 6: laurenpabreu (big blind) folded before Flop
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 8: Caynee23 showed [6h Ac] and won (230) with a flush, Ten high
+Seat 9: TTYes showed [Ad As] and lost with two pair, Aces and Fives
+
+
+
+PokerStars Hand #260346871838: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level I (10/20) - 2026/04/04 21:36:08 UTC [2026/04/04 17:36:08 ET]
+Table '3989317274 1' 9-max Seat #5 is the button
+Seat 1: FindingBluff (1500 in chips) 
+Seat 2: RANZENGARDE (3010 in chips) 
+Seat 3: SenegoiD31 (2640 in chips) 
+Seat 4: Nobody249 (1470 in chips) 
+Seat 5: TMixT (1470 in chips) 
+Seat 6: laurenpabreu (1080 in chips) 
+Seat 7: scorza23 (760 in chips) 
+Seat 8: Caynee23 (230 in chips) 
+Seat 9: TTYes (1340 in chips) 
+laurenpabreu: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Jd]
+Caynee23: folds 
+TTYes: folds 
+FindingBluff: folds 
+RANZENGARDE: calls 20
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: folds 
+laurenpabreu: calls 10
+scorza23: checks 
+*** FLOP *** [3h 7h 8h]
+laurenpabreu: checks 
+scorza23: checks 
+RANZENGARDE: checks 
+*** TURN *** [3h 7h 8h] [3d]
+laurenpabreu: bets 60
+scorza23: folds 
+RANZENGARDE: folds 
+Uncalled bet (60) returned to laurenpabreu
+laurenpabreu collected 60 from pot
+laurenpabreu: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [3h 7h 8h 3d]
+Seat 1: FindingBluff folded before Flop (didn't bet)
+Seat 2: RANZENGARDE folded on the Turn
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT (button) folded before Flop (didn't bet)
+Seat 6: laurenpabreu (small blind) collected (60)
+Seat 7: scorza23 (big blind) folded on the Turn
+Seat 8: Caynee23 folded before Flop (didn't bet)
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346884420: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:37:02 UTC [2026/04/04 17:37:02 ET]
+Table '3989317274 1' 9-max Seat #6 is the button
+Seat 1: FindingBluff (1500 in chips) 
+Seat 2: RANZENGARDE (2990 in chips) 
+Seat 3: SenegoiD31 (2640 in chips) 
+Seat 4: Nobody249 (1470 in chips) 
+Seat 5: TMixT (1470 in chips) 
+Seat 6: laurenpabreu (1120 in chips) 
+Seat 7: scorza23 (740 in chips) 
+Seat 8: Caynee23 (230 in chips) 
+Seat 9: TTYes (1340 in chips) 
+scorza23: posts small blind 15
+Caynee23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 6h]
+TTYes: folds 
+FindingBluff: folds 
+RANZENGARDE: calls 30
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: raises 60 to 90
+laurenpabreu: folds 
+scorza23: folds 
+Caynee23: raises 140 to 230 and is all-in
+RANZENGARDE: calls 200
+TMixT: calls 140
+*** FLOP *** [7s As 7h]
+RANZENGARDE: checks 
+TMixT: bets 353
+RANZENGARDE: calls 353
+*** TURN *** [7s As 7h] [6d]
+RANZENGARDE: checks 
+TMixT: checks 
+*** RIVER *** [7s As 7h 6d] [Qs]
+RANZENGARDE: checks 
+TMixT: checks 
+*** SHOW DOWN ***
+RANZENGARDE: shows [Jd Ad] (two pair, Aces and Sevens)
+TMixT: shows [Ac 8s] (two pair, Aces and Sevens)
+RANZENGARDE collected 353 from side pot
+TMixT collected 353 from side pot
+Caynee23: mucks hand 
+RANZENGARDE collected 353 from main pot
+TMixT collected 352 from main pot
+Caynee23 finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 1411 Main pot 705. Side pot 706. | Rake 0 
+Board [7s As 7h 6d Qs]
+Seat 1: FindingBluff folded before Flop (didn't bet)
+Seat 2: RANZENGARDE showed [Jd Ad] and won (706) with two pair, Aces and Sevens
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT showed [Ac 8s] and won (705) with two pair, Aces and Sevens
+Seat 6: laurenpabreu (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) folded before Flop
+Seat 8: Caynee23 (big blind) mucked [Ks Qh]
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346901221: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:38:14 UTC [2026/04/04 17:38:14 ET]
+Table '3989317274 1' 9-max Seat #7 is the button
+Seat 1: FindingBluff (1500 in chips) 
+Seat 2: RANZENGARDE (3113 in chips) 
+Seat 3: SenegoiD31 (2640 in chips) 
+Seat 4: Nobody249 (1470 in chips) 
+Seat 5: TMixT (1592 in chips) 
+Seat 6: laurenpabreu (1120 in chips) 
+Seat 7: scorza23 (725 in chips) 
+Seat 9: TTYes (1340 in chips) 
+TTYes: posts small blind 15
+FindingBluff: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 3d]
+RANZENGARDE: folds 
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: folds 
+laurenpabreu: folds 
+scorza23: folds 
+TTYes: calls 15
+FindingBluff: checks 
+*** FLOP *** [Ah As 4d]
+TTYes: checks 
+FindingBluff: checks 
+*** TURN *** [Ah As 4d] [Th]
+TTYes: checks 
+FindingBluff: checks 
+*** RIVER *** [Ah As 4d Th] [5s]
+TTYes: checks 
+FindingBluff: checks 
+*** SHOW DOWN ***
+TTYes: shows [Ks 9h] (a pair of Aces)
+FindingBluff: mucks hand 
+TTYes collected 60 from pot
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [Ah As 4d Th 5s]
+Seat 1: FindingBluff (big blind) mucked [3s Qd]
+Seat 2: RANZENGARDE folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT folded before Flop (didn't bet)
+Seat 6: laurenpabreu folded before Flop (didn't bet)
+Seat 7: scorza23 (button) folded before Flop (didn't bet)
+Seat 9: TTYes (small blind) showed [Ks 9h] and won (60) with a pair of Aces
+
+
+
+PokerStars Hand #260346919577: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:39:32 UTC [2026/04/04 17:39:32 ET]
+Table '3989317274 1' 9-max Seat #9 is the button
+Seat 1: FindingBluff (1470 in chips) 
+Seat 2: RANZENGARDE (3113 in chips) 
+Seat 3: SenegoiD31 (2640 in chips) 
+Seat 4: Nobody249 (1470 in chips) 
+Seat 5: TMixT (1592 in chips) 
+Seat 6: laurenpabreu (1120 in chips) 
+Seat 7: scorza23 (725 in chips) 
+Seat 9: TTYes (1370 in chips) 
+FindingBluff: posts small blind 15
+RANZENGARDE: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6h Tc]
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: folds 
+laurenpabreu: calls 30
+scorza23: folds 
+TTYes: folds 
+FindingBluff: folds 
+RANZENGARDE: checks 
+*** FLOP *** [2h 5s 5c]
+RANZENGARDE: checks 
+laurenpabreu: bets 75
+RANZENGARDE: calls 75
+*** TURN *** [2h 5s 5c] [Kh]
+RANZENGARDE: checks 
+laurenpabreu: bets 30
+RANZENGARDE: calls 30
+*** RIVER *** [2h 5s 5c Kh] [5h]
+RANZENGARDE: checks 
+laurenpabreu: bets 285
+RANZENGARDE: folds 
+Uncalled bet (285) returned to laurenpabreu
+laurenpabreu collected 285 from pot
+laurenpabreu: doesn't show hand 
+*** SUMMARY ***
+Total pot 285 | Rake 0 
+Board [2h 5s 5c Kh 5h]
+Seat 1: FindingBluff (small blind) folded before Flop
+Seat 2: RANZENGARDE (big blind) folded on the River
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT folded before Flop (didn't bet)
+Seat 6: laurenpabreu collected (285)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: TTYes (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346934048: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level II (15/30) - 2026/04/04 21:40:34 UTC [2026/04/04 17:40:34 ET]
+Table '3989317274 1' 9-max Seat #1 is the button
+Seat 1: FindingBluff (1455 in chips) 
+Seat 2: RANZENGARDE (2978 in chips) 
+Seat 3: SenegoiD31 (2640 in chips) 
+Seat 4: Nobody249 (1470 in chips) 
+Seat 5: TMixT (1592 in chips) 
+Seat 6: laurenpabreu (1270 in chips) 
+Seat 7: scorza23 (725 in chips) 
+Seat 9: TTYes (1370 in chips) 
+RANZENGARDE: posts small blind 15
+SenegoiD31: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 8h]
+Nobody249: folds 
+TMixT: raises 30 to 60
+laurenpabreu: folds 
+scorza23: folds 
+TTYes: calls 60
+FindingBluff: folds 
+RANZENGARDE: folds 
+SenegoiD31: calls 30
+*** FLOP *** [6s 7c Ad]
+SenegoiD31: checks 
+TMixT: checks 
+TTYes: bets 90
+SenegoiD31: calls 90
+TMixT: folds 
+*** TURN *** [6s 7c Ad] [4s]
+SenegoiD31: checks 
+TTYes: bets 150
+SenegoiD31: folds 
+Uncalled bet (150) returned to TTYes
+TTYes collected 375 from pot
+TTYes: doesn't show hand 
+*** SUMMARY ***
+Total pot 375 | Rake 0 
+Board [6s 7c Ad 4s]
+Seat 1: FindingBluff (button) folded before Flop (didn't bet)
+Seat 2: RANZENGARDE (small blind) folded before Flop
+Seat 3: SenegoiD31 (big blind) folded on the Turn
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT folded on the Flop
+Seat 6: laurenpabreu folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: TTYes collected (375)
+
+
+
+PokerStars Hand #260346952857: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:41:55 UTC [2026/04/04 17:41:55 ET]
+Table '3989317274 1' 9-max Seat #2 is the button
+Seat 1: FindingBluff (1455 in chips) 
+Seat 2: RANZENGARDE (2963 in chips) 
+Seat 3: SenegoiD31 (2490 in chips) 
+Seat 4: Nobody249 (1470 in chips) 
+Seat 5: TMixT (1532 in chips) 
+Seat 6: laurenpabreu (1270 in chips) 
+Seat 7: scorza23 (725 in chips) 
+Seat 9: TTYes (1595 in chips) 
+SenegoiD31: posts small blind 25
+Nobody249: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ts 4c]
+TMixT: folds 
+laurenpabreu: folds 
+scorza23: folds 
+TTYes: folds 
+FindingBluff: raises 55 to 105
+RANZENGARDE: folds 
+SenegoiD31: folds 
+Nobody249: calls 55
+*** FLOP *** [Ad 7c 5d]
+Nobody249: checks 
+FindingBluff: bets 72
+Nobody249: folds 
+Uncalled bet (72) returned to FindingBluff
+FindingBluff collected 235 from pot
+*** SUMMARY ***
+Total pot 235 | Rake 0 
+Board [Ad 7c 5d]
+Seat 1: FindingBluff collected (235)
+Seat 2: RANZENGARDE (button) folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (small blind) folded before Flop
+Seat 4: Nobody249 (big blind) folded on the Flop
+Seat 5: TMixT folded before Flop (didn't bet)
+Seat 6: laurenpabreu folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346962941: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:42:39 UTC [2026/04/04 17:42:39 ET]
+Table '3989317274 1' 9-max Seat #3 is the button
+Seat 1: FindingBluff (1585 in chips) 
+Seat 2: RANZENGARDE (2963 in chips) 
+Seat 3: SenegoiD31 (2465 in chips) 
+Seat 4: Nobody249 (1365 in chips) 
+Seat 5: TMixT (1532 in chips) 
+Seat 6: laurenpabreu (1270 in chips) 
+Seat 7: scorza23 (725 in chips) 
+Seat 9: TTYes (1595 in chips) 
+Nobody249: posts small blind 25
+TMixT: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Jc]
+laurenpabreu: folds 
+scorza23: folds 
+TTYes: folds 
+FindingBluff: folds 
+RANZENGARDE: folds 
+SenegoiD31: raises 50 to 100
+Nobody249: folds 
+TMixT: calls 50
+*** FLOP *** [Td As 4c]
+TMixT: bets 113
+SenegoiD31: calls 113
+*** TURN *** [Td As 4c] [9s]
+TMixT: bets 150
+SenegoiD31: calls 150
+*** RIVER *** [Td As 4c 9s] [Qc]
+TMixT: checks 
+SenegoiD31: bets 248
+TMixT: calls 248
+*** SHOW DOWN ***
+SenegoiD31: shows [Ac 8d] (a pair of Aces)
+TMixT: shows [Tc 4h] (two pair, Tens and Fours)
+TMixT collected 1247 from pot
+*** SUMMARY ***
+Total pot 1247 | Rake 0 
+Board [Td As 4c 9s Qc]
+Seat 1: FindingBluff folded before Flop (didn't bet)
+Seat 2: RANZENGARDE folded before Flop (didn't bet)
+Seat 3: SenegoiD31 (button) showed [Ac 8d] and lost with a pair of Aces
+Seat 4: Nobody249 (small blind) folded before Flop
+Seat 5: TMixT (big blind) showed [Tc 4h] and won (1247) with two pair, Tens and Fours
+Seat 6: laurenpabreu folded before Flop (didn't bet)
+Seat 7: scorza23 folded before Flop (didn't bet)
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346977812: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:43:43 UTC [2026/04/04 17:43:43 ET]
+Table '3989317274 1' 9-max Seat #4 is the button
+Seat 1: FindingBluff (1585 in chips) 
+Seat 2: RANZENGARDE (2963 in chips) 
+Seat 3: SenegoiD31 (1854 in chips) 
+Seat 4: Nobody249 (1340 in chips) 
+Seat 5: TMixT (2168 in chips) 
+Seat 6: laurenpabreu (1270 in chips) 
+Seat 7: scorza23 (725 in chips) 
+Seat 9: TTYes (1595 in chips) 
+TMixT: posts small blind 25
+laurenpabreu: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Th Qh]
+scorza23: raises 100 to 150
+TTYes: folds 
+FindingBluff: raises 300 to 450
+RANZENGARDE: folds 
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: folds 
+laurenpabreu: folds 
+scorza23: raises 275 to 725 and is all-in
+FindingBluff: calls 275
+*** FLOP *** [Td 7c 3h]
+*** TURN *** [Td 7c 3h] [Tc]
+*** RIVER *** [Td 7c 3h Tc] [Ad]
+*** SHOW DOWN ***
+scorza23: shows [Th Qh] (three of a kind, Tens)
+FindingBluff: shows [Qd Qc] (two pair, Queens and Tens)
+scorza23 collected 1525 from pot
+*** SUMMARY ***
+Total pot 1525 | Rake 0 
+Board [Td 7c 3h Tc Ad]
+Seat 1: FindingBluff showed [Qd Qc] and lost with two pair, Queens and Tens
+Seat 2: RANZENGARDE folded before Flop (didn't bet)
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Nobody249 (button) folded before Flop (didn't bet)
+Seat 5: TMixT (small blind) folded before Flop
+Seat 6: laurenpabreu (big blind) folded before Flop
+Seat 7: scorza23 showed [Th Qh] and won (1525) with three of a kind, Tens
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260346988929: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:44:32 UTC [2026/04/04 17:44:32 ET]
+Table '3989317274 1' 9-max Seat #5 is the button
+Seat 1: FindingBluff (860 in chips) 
+Seat 2: RANZENGARDE (2963 in chips) 
+Seat 3: SenegoiD31 (1854 in chips) 
+Seat 4: Nobody249 (1340 in chips) 
+Seat 5: TMixT (2143 in chips) 
+Seat 6: laurenpabreu (1220 in chips) 
+Seat 7: scorza23 (1525 in chips) 
+Seat 9: TTYes (1595 in chips) 
+laurenpabreu: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 6d]
+TTYes: folds 
+FindingBluff: raises 55 to 105
+RANZENGARDE: folds 
+SenegoiD31: calls 105
+Nobody249: folds 
+TMixT: folds 
+laurenpabreu: folds 
+scorza23: folds 
+*** FLOP *** [4h Ah 7c]
+FindingBluff: checks 
+SenegoiD31: checks 
+*** TURN *** [4h Ah 7c] [Jc]
+FindingBluff: bets 66
+SenegoiD31: calls 66
+*** RIVER *** [4h Ah 7c Jc] [2d]
+FindingBluff: checks 
+SenegoiD31: bets 417
+laurenpabreu is disconnected 
+FindingBluff: folds 
+Uncalled bet (417) returned to SenegoiD31
+SenegoiD31 collected 417 from pot
+SenegoiD31: doesn't show hand 
+*** SUMMARY ***
+Total pot 417 | Rake 0 
+Board [4h Ah 7c Jc 2d]
+Seat 1: FindingBluff folded on the River
+Seat 2: RANZENGARDE folded before Flop (didn't bet)
+Seat 3: SenegoiD31 collected (417)
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT (button) folded before Flop (didn't bet)
+Seat 6: laurenpabreu (small blind) folded before Flop
+Seat 7: scorza23 (big blind) folded before Flop
+Seat 9: TTYes folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260347005536: Tournament #3989317274, $0.42+$0.08 USD Hold'em No Limit - Level III (25/50) - 2026/04/04 21:45:46 UTC [2026/04/04 17:45:46 ET]
+Table '3989317274 1' 9-max Seat #6 is the button
+Seat 1: FindingBluff (689 in chips) 
+Seat 2: RANZENGARDE (2963 in chips) 
+Seat 3: SenegoiD31 (2100 in chips) 
+Seat 4: Nobody249 (1340 in chips) 
+Seat 5: TMixT (2143 in chips) 
+Seat 6: laurenpabreu (1195 in chips) 
+Seat 7: scorza23 (1475 in chips) 
+Seat 9: TTYes (1595 in chips) 
+scorza23: posts small blind 25
+TTYes: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 6s]
+FindingBluff: folds 
+RANZENGARDE: calls 50
+SenegoiD31: folds 
+Nobody249: folds 
+TMixT: raises 100 to 150
+laurenpabreu: folds 
+scorza23: calls 125
+TTYes: folds 
+RANZENGARDE: calls 100
+*** FLOP *** [3s 4s Qs]
+scorza23: bets 500
+RANZENGARDE: calls 500
+TMixT: folds 
+*** TURN *** [3s 4s Qs] [5d]
+scorza23: bets 825 and is all-in
+RANZENGARDE: calls 825
+*** RIVER *** [3s 4s Qs 5d] [As]
+*** SHOW DOWN ***
+scorza23: shows [6d 6s] (a flush, Ace high)
+RANZENGARDE: shows [8h 8s] (a flush, Ace high - Eight higher)
+RANZENGARDE collected 3150 from pot
+scorza23 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 3150 | Rake 0 
+Board [3s 4s Qs 5d As]
+Seat 1: FindingBluff folded before Flop (didn't bet)
+Seat 2: RANZENGARDE showed [8h 8s] and won (3150) with a flush, Ace high
+Seat 3: SenegoiD31 folded before Flop (didn't bet)
+Seat 4: Nobody249 folded before Flop (didn't bet)
+Seat 5: TMixT folded on the Flop
+Seat 6: laurenpabreu (button) folded before Flop (didn't bet)
+Seat 7: scorza23 (small blind) showed [6d 6s] and lost with a flush, Ace high
+Seat 9: TTYes (big blind) folded before Flop
+
+
+

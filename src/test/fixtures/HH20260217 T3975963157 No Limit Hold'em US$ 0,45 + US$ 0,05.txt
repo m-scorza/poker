@@ -1,0 +1,2976 @@
+﻿PokerStars Hand #259762644492: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:33:55 UTC [2026/02/17 9:33:55 ET]
+Table '3975963157 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (1500 in chips) 
+Seat 2: MO_Miura (1500 in chips) 
+Seat 3: BH.yam.MG (1500 in chips) 
+Seat 4: guihappel (1500 in chips) 
+Seat 5: Pentecoste54 (1500 in chips) 
+Seat 6: xtulio99 (1500 in chips) 
+Seat 7: Genesiswalker (1500 in chips) 
+Seat 8: Dofeitosa (1500 in chips) 
+scorza23: posts the ante 3
+MO_Miura: posts the ante 3
+BH.yam.MG: posts the ante 3
+guihappel: posts the ante 3
+Pentecoste54: posts the ante 3
+xtulio99: posts the ante 3
+Genesiswalker: posts the ante 3
+Dofeitosa: posts the ante 3
+MO_Miura: posts small blind 10
+BH.yam.MG: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Kc]
+guihappel: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: folds 
+Dofeitosa: folds 
+scorza23: raises 40 to 60
+MO_Miura: calls 50
+BH.yam.MG: calls 40
+*** FLOP *** [8h Ah 6h]
+MO_Miura: checks 
+BH.yam.MG: bets 142
+scorza23: raises 1295 to 1437 and is all-in
+MO_Miura: folds 
+BH.yam.MG: calls 1295 and is all-in
+*** TURN *** [8h Ah 6h] [6s]
+*** RIVER *** [8h Ah 6h 6s] [Jc]
+*** SHOW DOWN ***
+BH.yam.MG: shows [As 3d] (two pair, Aces and Sixes)
+scorza23: shows [Ad Kc] (two pair, Aces and Sixes - King kicker)
+scorza23 collected 3078 from pot
+BH.yam.MG finished the tournament
+*** SUMMARY ***
+Total pot 3078 | Rake 0 
+Board [8h Ah 6h 6s Jc]
+Seat 1: scorza23 (button) showed [Ad Kc] and won (3078) with two pair, Aces and Sixes
+Seat 2: MO_Miura (small blind) folded on the Flop
+Seat 3: BH.yam.MG (big blind) showed [As 3d] and lost with two pair, Aces and Sixes
+Seat 4: guihappel folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker folded before Flop (didn't bet)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762654303: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:35:00 UTC [2026/02/17 9:35:00 ET]
+Table '3975963157 2' 8-max Seat #2 is the button
+Seat 1: scorza23 (3078 in chips) 
+Seat 2: MO_Miura (1437 in chips) 
+Seat 5: Pentecoste54 (1497 in chips) 
+Seat 6: xtulio99 (1497 in chips) 
+Seat 7: Genesiswalker (1497 in chips) 
+Seat 8: Dofeitosa (1497 in chips) 
+scorza23: posts the ante 3
+MO_Miura: posts the ante 3
+Pentecoste54: posts the ante 3
+xtulio99: posts the ante 3
+Genesiswalker: posts the ante 3
+Dofeitosa: posts the ante 3
+Pentecoste54: posts small blind 10
+xtulio99: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 7d]
+Genesiswalker: raises 40 to 60
+Dofeitosa: folds 
+scorza23: folds 
+MO_Miura: calls 60
+Pentecoste54: folds 
+xtulio99: folds 
+*** FLOP *** [Td 7s 5h]
+Genesiswalker: bets 100
+RSAsh9 is disconnected 
+MO_Miura: folds 
+Uncalled bet (100) returned to Genesiswalker
+Genesiswalker collected 168 from pot
+*** SUMMARY ***
+Total pot 168 | Rake 0 
+Board [Td 7s 5h]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: MO_Miura (button) folded on the Flop
+Seat 5: Pentecoste54 (small blind) folded before Flop
+Seat 6: xtulio99 (big blind) folded before Flop
+Seat 7: Genesiswalker collected (168)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762658833: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:35:30 UTC [2026/02/17 9:35:30 ET]
+Table '3975963157 2' 8-max Seat #5 is the button
+Seat 1: scorza23 (3075 in chips) 
+Seat 2: MO_Miura (1374 in chips) 
+Seat 3: RSAsh9 (1500 in chips) 
+Seat 4: Skielka (1500 in chips) 
+Seat 5: Pentecoste54 (1484 in chips) 
+Seat 6: xtulio99 (1474 in chips) 
+Seat 7: Genesiswalker (1602 in chips) 
+Seat 8: Dofeitosa (1494 in chips) 
+scorza23: posts the ante 3
+MO_Miura: posts the ante 3
+RSAsh9: posts the ante 3
+Skielka: posts the ante 3
+Pentecoste54: posts the ante 3
+xtulio99: posts the ante 3
+Genesiswalker: posts the ante 3
+Dofeitosa: posts the ante 3
+xtulio99: posts small blind 10
+Genesiswalker: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 6c]
+Dofeitosa: folds 
+scorza23: folds 
+MO_Miura: calls 20
+RSAsh9: folds 
+Skielka: raises 40 to 60
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: folds 
+MO_Miura: calls 40
+*** FLOP *** [2s Td Th]
+MO_Miura: checks 
+Skielka: checks 
+*** TURN *** [2s Td Th] [3d]
+MO_Miura: bets 20
+Skielka: calls 20
+*** RIVER *** [2s Td Th 3d] [3s]
+MO_Miura: bets 1291 and is all-in
+Skielka: folds 
+Uncalled bet (1291) returned to MO_Miura
+MO_Miura collected 214 from pot
+MO_Miura: doesn't show hand 
+*** SUMMARY ***
+Total pot 214 | Rake 0 
+Board [2s Td Th 3d 3s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: MO_Miura collected (214)
+Seat 3: RSAsh9 folded before Flop (didn't bet)
+Seat 4: Skielka folded on the River
+Seat 5: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 6: xtulio99 (small blind) folded before Flop
+Seat 7: Genesiswalker (big blind) folded before Flop
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762666407: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:36:21 UTC [2026/02/17 9:36:21 ET]
+Table '3975963157 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (3072 in chips) 
+Seat 3: RSAsh9 (1497 in chips) 
+Seat 4: Skielka (1417 in chips) 
+Seat 5: Pentecoste54 (1481 in chips) 
+Seat 6: xtulio99 (1461 in chips) 
+Seat 7: Genesiswalker (1579 in chips) 
+Seat 8: Dofeitosa (1491 in chips) 
+scorza23: posts the ante 3
+RSAsh9: posts the ante 3
+Skielka: posts the ante 3
+Pentecoste54: posts the ante 3
+xtulio99: posts the ante 3
+Genesiswalker: posts the ante 3
+Dofeitosa: posts the ante 3
+Genesiswalker: posts small blind 10
+Dofeitosa: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Th]
+scorza23: folds 
+RSAsh9: calls 20
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: raises 40 to 60
+Dofeitosa: folds 
+RSAsh9: calls 40
+*** FLOP *** [8h 6c 2h]
+Genesiswalker: bets 100
+RSAsh9: calls 100
+*** TURN *** [8h 6c 2h] [Ac]
+Genesiswalker: checks 
+RSAsh9: checks 
+*** RIVER *** [8h 6c 2h Ac] [9s]
+Genesiswalker: bets 80
+RSAsh9: calls 80
+*** SHOW DOWN ***
+Genesiswalker: shows [Kd 6d] (a pair of Sixes)
+RSAsh9: shows [8c Kh] (a pair of Eights)
+RSAsh9 collected 521 from pot
+*** SUMMARY ***
+Total pot 521 | Rake 0 
+Board [8h 6c 2h Ac 9s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 showed [8c Kh] and won (521) with a pair of Eights
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 (button) folded before Flop (didn't bet)
+Seat 7: Genesiswalker (small blind) showed [Kd 6d] and lost with a pair of Sixes
+Seat 8: Dofeitosa (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762674745: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:37:16 UTC [2026/02/17 9:37:16 ET]
+Table '3975963157 2' 8-max Seat #7 is the button
+Seat 1: scorza23 (3069 in chips) 
+Seat 3: RSAsh9 (1775 in chips) 
+Seat 4: Skielka (1414 in chips) 
+Seat 5: Pentecoste54 (1478 in chips) 
+Seat 6: xtulio99 (1458 in chips) 
+Seat 7: Genesiswalker (1336 in chips) 
+Seat 8: Dofeitosa (1468 in chips) 
+scorza23: posts the ante 3
+RSAsh9: posts the ante 3
+Skielka: posts the ante 3
+Pentecoste54: posts the ante 3
+xtulio99: posts the ante 3
+Genesiswalker: posts the ante 3
+Dofeitosa: posts the ante 3
+Dofeitosa: posts small blind 10
+scorza23: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c 5h]
+RSAsh9: raises 20 to 40
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: calls 40
+Dofeitosa: folds 
+scorza23: calls 20
+*** FLOP *** [Qd Qs Js]
+scorza23: checks 
+RSAsh9: checks 
+Genesiswalker: checks 
+*** TURN *** [Qd Qs Js] [8d]
+scorza23: checks 
+RSAsh9: checks 
+Genesiswalker: checks 
+*** RIVER *** [Qd Qs Js 8d] [Jc]
+scorza23: bets 76
+RSAsh9: folds 
+Genesiswalker: folds 
+Uncalled bet (76) returned to scorza23
+scorza23 collected 151 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 151 | Rake 0 
+Board [Qd Qs Js 8d Jc]
+Seat 1: scorza23 (big blind) collected (151)
+Seat 3: RSAsh9 folded on the River
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker (button) folded on the River
+Seat 8: Dofeitosa (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762681780: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:38:03 UTC [2026/02/17 9:38:03 ET]
+Table '3975963157 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (3177 in chips) 
+Seat 3: RSAsh9 (1732 in chips) 
+Seat 4: Skielka (1411 in chips) 
+Seat 5: Pentecoste54 (1475 in chips) 
+Seat 6: xtulio99 (1455 in chips) 
+Seat 7: Genesiswalker (1293 in chips) 
+Seat 8: Dofeitosa (1455 in chips) 
+scorza23: posts the ante 3
+RSAsh9: posts the ante 3
+Skielka: posts the ante 3
+Pentecoste54: posts the ante 3
+xtulio99: posts the ante 3
+Genesiswalker: posts the ante 3
+Dofeitosa: posts the ante 3
+scorza23: posts small blind 10
+RSAsh9: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 2s]
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: folds 
+Dofeitosa: folds 
+scorza23: folds 
+Uncalled bet (10) returned to RSAsh9
+RSAsh9 collected 41 from pot
+RSAsh9: doesn't show hand 
+*** SUMMARY ***
+Total pot 41 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 3: RSAsh9 (big blind) collected (41)
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker folded before Flop (didn't bet)
+Seat 8: Dofeitosa (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762685573: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 14:38:27 UTC [2026/02/17 9:38:27 ET]
+Table '3975963157 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (3164 in chips) 
+Seat 3: RSAsh9 (1760 in chips) 
+Seat 4: Skielka (1408 in chips) 
+Seat 5: Pentecoste54 (1472 in chips) 
+Seat 6: xtulio99 (1452 in chips) 
+Seat 7: Genesiswalker (1290 in chips) 
+Seat 8: Dofeitosa (1452 in chips) 
+scorza23: posts the ante 3
+RSAsh9: posts the ante 3
+Skielka: posts the ante 3
+Pentecoste54: posts the ante 3
+xtulio99: posts the ante 3
+Genesiswalker: posts the ante 3
+Dofeitosa: posts the ante 3
+RSAsh9: posts small blind 10
+Skielka: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [5c Kc]
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: folds 
+Dofeitosa: raises 28 to 48
+scorza23: folds 
+RSAsh9: folds 
+Skielka: folds 
+Uncalled bet (28) returned to Dofeitosa
+Dofeitosa collected 71 from pot
+Dofeitosa: doesn't show hand 
+*** SUMMARY ***
+Total pot 71 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: RSAsh9 (small blind) folded before Flop
+Seat 4: Skielka (big blind) folded before Flop
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker folded before Flop (didn't bet)
+Seat 8: Dofeitosa collected (71)
+
+
+
+PokerStars Hand #259762691367: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:39:05 UTC [2026/02/17 9:39:05 ET]
+Table '3975963157 2' 8-max Seat #3 is the button
+Seat 1: scorza23 (3161 in chips) 
+Seat 3: RSAsh9 (1747 in chips) 
+Seat 4: Skielka (1385 in chips) 
+Seat 5: Pentecoste54 (1469 in chips) 
+Seat 6: xtulio99 (1449 in chips) 
+Seat 7: Genesiswalker (1287 in chips) 
+Seat 8: Dofeitosa (1500 in chips) 
+scorza23: posts the ante 4
+RSAsh9: posts the ante 4
+Skielka: posts the ante 4
+Pentecoste54: posts the ante 4
+xtulio99: posts the ante 4
+Genesiswalker: posts the ante 4
+Dofeitosa: posts the ante 4
+Skielka: posts small blind 15
+Pentecoste54: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 6h]
+xtulio99: folds 
+Genesiswalker: folds 
+Dofeitosa: folds 
+scorza23: folds 
+RSAsh9: calls 30
+Skielka: raises 90 to 120
+Pentecoste54: folds 
+RSAsh9: calls 90
+*** FLOP *** [9s Ts 9c]
+Skielka: bets 90
+RSAsh9: calls 90
+*** TURN *** [9s Ts 9c] [3s]
+Skielka: bets 478
+RSAsh9: folds 
+Uncalled bet (478) returned to Skielka
+Skielka collected 478 from pot
+Skielka: doesn't show hand 
+*** SUMMARY ***
+Total pot 478 | Rake 0 
+Board [9s Ts 9c 3s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 (button) folded on the Turn
+Seat 4: Skielka (small blind) collected (478)
+Seat 5: Pentecoste54 (big blind) folded before Flop
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker folded before Flop (didn't bet)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762698957: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:39:55 UTC [2026/02/17 9:39:55 ET]
+Table '3975963157 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (3157 in chips) 
+Seat 3: RSAsh9 (1533 in chips) 
+Seat 4: Skielka (1649 in chips) 
+Seat 5: Pentecoste54 (1435 in chips) 
+Seat 6: xtulio99 (1445 in chips) 
+Seat 7: Genesiswalker (1283 in chips) 
+Seat 8: Dofeitosa (1496 in chips) 
+scorza23: posts the ante 4
+RSAsh9: posts the ante 4
+Skielka: posts the ante 4
+Pentecoste54: posts the ante 4
+xtulio99: posts the ante 4
+Genesiswalker: posts the ante 4
+Dofeitosa: posts the ante 4
+Pentecoste54: posts small blind 15
+xtulio99: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Ah]
+Genesiswalker: folds 
+Dofeitosa: raises 42 to 72
+scorza23: folds 
+RSAsh9: folds 
+Skielka: calls 72
+Pentecoste54: folds 
+xtulio99: calls 42
+*** FLOP *** [2c Kc 7s]
+xtulio99: checks 
+Dofeitosa: checks 
+Skielka: checks 
+*** TURN *** [2c Kc 7s] [6d]
+xtulio99: checks 
+Dofeitosa: bets 98
+Skielka: calls 98
+xtulio99: calls 98
+*** RIVER *** [2c Kc 7s 6d] [8s]
+xtulio99: checks 
+Dofeitosa: checks 
+Skielka: checks 
+*** SHOW DOWN ***
+xtulio99: shows [Tc 5c] (high card King)
+Dofeitosa: shows [Ac 7c] (a pair of Sevens)
+Skielka: mucks hand 
+Dofeitosa collected 553 from pot
+*** SUMMARY ***
+Total pot 553 | Rake 0 
+Board [2c Kc 7s 6d 8s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 folded before Flop (didn't bet)
+Seat 4: Skielka (button) mucked [9c 6c]
+Seat 5: Pentecoste54 (small blind) folded before Flop
+Seat 6: xtulio99 (big blind) showed [Tc 5c] and lost with high card King
+Seat 7: Genesiswalker folded before Flop (didn't bet)
+Seat 8: Dofeitosa showed [Ac 7c] and won (553) with a pair of Sevens
+
+
+
+PokerStars Hand #259762710265: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:41:09 UTC [2026/02/17 9:41:09 ET]
+Table '3975963157 2' 8-max Seat #5 is the button
+Seat 1: scorza23 (3153 in chips) 
+Seat 3: RSAsh9 (1529 in chips) 
+Seat 4: Skielka (1475 in chips) 
+Seat 5: Pentecoste54 (1416 in chips) 
+Seat 6: xtulio99 (1271 in chips) 
+Seat 7: Genesiswalker (1279 in chips) 
+Seat 8: Dofeitosa (1875 in chips) 
+scorza23: posts the ante 4
+RSAsh9: posts the ante 4
+Skielka: posts the ante 4
+Pentecoste54: posts the ante 4
+xtulio99: posts the ante 4
+Genesiswalker: posts the ante 4
+Dofeitosa: posts the ante 4
+xtulio99: posts small blind 15
+Genesiswalker: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh Ah]
+Dofeitosa: folds 
+scorza23: raises 30 to 60
+RSAsh9: folds 
+Skielka: calls 60
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: calls 30
+*** FLOP *** [Qc As 3h]
+Genesiswalker: checks 
+scorza23: checks 
+Skielka: checks 
+*** TURN *** [Qc As 3h] [9s]
+Genesiswalker: bets 60
+scorza23: calls 60
+Skielka: calls 60
+*** RIVER *** [Qc As 3h 9s] [Ad]
+Genesiswalker: checks 
+scorza23: bets 403
+Skielka: folds 
+Genesiswalker: folds 
+Uncalled bet (403) returned to scorza23
+scorza23 collected 403 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 403 | Rake 0 
+Board [Qc As 3h 9s Ad]
+Seat 1: scorza23 collected (403)
+Seat 3: RSAsh9 folded before Flop (didn't bet)
+Seat 4: Skielka folded on the River
+Seat 5: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 6: xtulio99 (small blind) folded before Flop
+Seat 7: Genesiswalker (big blind) folded on the River
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762726181: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:42:53 UTC [2026/02/17 9:42:53 ET]
+Table '3975963157 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (3432 in chips) 
+Seat 3: RSAsh9 (1525 in chips) 
+Seat 4: Skielka (1351 in chips) 
+Seat 5: Pentecoste54 (1412 in chips) 
+Seat 6: xtulio99 (1252 in chips) 
+Seat 7: Genesiswalker (1155 in chips) 
+Seat 8: Dofeitosa (1871 in chips) 
+scorza23: posts the ante 4
+RSAsh9: posts the ante 4
+Skielka: posts the ante 4
+Pentecoste54: posts the ante 4
+xtulio99: posts the ante 4
+Genesiswalker: posts the ante 4
+Dofeitosa: posts the ante 4
+Genesiswalker: posts small blind 15
+Dofeitosa: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Ks]
+scorza23: folds 
+RSAsh9: raises 30 to 60
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: folds 
+Dofeitosa: folds 
+Uncalled bet (30) returned to RSAsh9
+RSAsh9 collected 103 from pot
+RSAsh9: doesn't show hand 
+*** SUMMARY ***
+Total pot 103 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 collected (103)
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 (button) folded before Flop (didn't bet)
+Seat 7: Genesiswalker (small blind) folded before Flop
+Seat 8: Dofeitosa (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762731068: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level II (15/30) - 2026/02/17 14:43:25 UTC [2026/02/17 9:43:25 ET]
+Table '3975963157 2' 8-max Seat #7 is the button
+Seat 1: scorza23 (3428 in chips) 
+Seat 3: RSAsh9 (1594 in chips) 
+Seat 4: Skielka (1347 in chips) 
+Seat 5: Pentecoste54 (1408 in chips) 
+Seat 6: xtulio99 (1248 in chips) 
+Seat 7: Genesiswalker (1136 in chips) 
+Seat 8: Dofeitosa (1837 in chips) 
+scorza23: posts the ante 4
+RSAsh9: posts the ante 4
+Skielka: posts the ante 4
+Pentecoste54: posts the ante 4
+xtulio99: posts the ante 4
+Genesiswalker: posts the ante 4
+Dofeitosa: posts the ante 4
+Dofeitosa: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [2s 6h]
+RSAsh9: calls 30
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: calls 30
+Dofeitosa: folds 
+scorza23: checks 
+*** FLOP *** [2d Qd 5c]
+scorza23: checks 
+RSAsh9: checks 
+Genesiswalker: checks 
+*** TURN *** [2d Qd 5c] [4s]
+scorza23: checks 
+RSAsh9: checks 
+Genesiswalker: checks 
+*** RIVER *** [2d Qd 5c 4s] [5d]
+scorza23: checks 
+RSAsh9: checks 
+Genesiswalker: checks 
+*** SHOW DOWN ***
+scorza23: shows [2s 6h] (two pair, Fives and Deuces)
+RSAsh9: mucks hand 
+Genesiswalker: mucks hand 
+scorza23 collected 133 from pot
+*** SUMMARY ***
+Total pot 133 | Rake 0 
+Board [2d Qd 5c 4s 5d]
+Seat 1: scorza23 (big blind) showed [2s 6h] and won (133) with two pair, Fives and Deuces
+Seat 3: RSAsh9 mucked [Jh 3h]
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker (button) mucked [Ts 9h]
+Seat 8: Dofeitosa (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762743835: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:44:46 UTC [2026/02/17 9:44:46 ET]
+Table '3975963157 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (3527 in chips) 
+Seat 3: RSAsh9 (1560 in chips) 
+Seat 4: Skielka (1343 in chips) 
+Seat 5: Pentecoste54 (1404 in chips) 
+Seat 6: xtulio99 (1244 in chips) 
+Seat 7: Genesiswalker (1102 in chips) 
+Seat 8: Dofeitosa (1818 in chips) 
+scorza23: posts the ante 6
+RSAsh9: posts the ante 6
+Skielka: posts the ante 6
+Pentecoste54: posts the ante 6
+xtulio99: posts the ante 6
+Genesiswalker: posts the ante 6
+Dofeitosa: posts the ante 6
+scorza23: posts small blind 25
+RSAsh9: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 3d]
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: folds 
+Dofeitosa: raises 70 to 120
+scorza23: folds 
+RSAsh9: raises 307 to 427
+Dofeitosa: folds 
+Uncalled bet (307) returned to RSAsh9
+RSAsh9 collected 307 from pot
+RSAsh9: doesn't show hand 
+*** SUMMARY ***
+Total pot 307 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 3: RSAsh9 (big blind) collected (307)
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker folded before Flop (didn't bet)
+Seat 8: Dofeitosa (button) folded before Flop
+
+
+
+PokerStars Hand #259762749752: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:45:24 UTC [2026/02/17 9:45:24 ET]
+Table '3975963157 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (3496 in chips) 
+Seat 3: RSAsh9 (1741 in chips) 
+Seat 4: Skielka (1337 in chips) 
+Seat 5: Pentecoste54 (1398 in chips) 
+Seat 6: xtulio99 (1238 in chips) 
+Seat 7: Genesiswalker (1096 in chips) 
+Seat 8: Dofeitosa (1692 in chips) 
+scorza23: posts the ante 6
+RSAsh9: posts the ante 6
+Skielka: posts the ante 6
+Pentecoste54: posts the ante 6
+xtulio99: posts the ante 6
+Genesiswalker: posts the ante 6
+Dofeitosa: posts the ante 6
+RSAsh9: posts small blind 25
+Skielka: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh 8c]
+Pentecoste54: folds 
+xtulio99: folds 
+Genesiswalker: folds 
+Dofeitosa: folds 
+scorza23: raises 100 to 150
+RSAsh9: folds 
+Skielka: calls 100
+*** FLOP *** [7d Js Ks]
+Skielka: checks 
+scorza23: bets 184
+Skielka: folds 
+Uncalled bet (184) returned to scorza23
+scorza23 collected 367 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 367 | Rake 0 
+Board [7d Js Ks]
+Seat 1: scorza23 (button) collected (367)
+Seat 3: RSAsh9 (small blind) folded before Flop
+Seat 4: Skielka (big blind) folded on the Flop
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker folded before Flop (didn't bet)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762758079: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:46:17 UTC [2026/02/17 9:46:17 ET]
+Table '3975963157 2' 8-max Seat #3 is the button
+Seat 1: scorza23 (3707 in chips) 
+Seat 3: RSAsh9 (1710 in chips) 
+Seat 4: Skielka (1181 in chips) 
+Seat 5: Pentecoste54 (1392 in chips) 
+Seat 6: xtulio99 (1232 in chips) 
+Seat 7: Genesiswalker (1090 in chips) 
+Seat 8: Dofeitosa (1686 in chips) 
+scorza23: posts the ante 6
+RSAsh9: posts the ante 6
+Skielka: posts the ante 6
+Pentecoste54: posts the ante 6
+xtulio99: posts the ante 6
+Genesiswalker: posts the ante 6
+Dofeitosa: posts the ante 6
+Skielka: posts small blind 25
+Pentecoste54: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [As 3s]
+xtulio99: folds 
+Genesiswalker: calls 50
+Dofeitosa: folds 
+scorza23: folds 
+RSAsh9: folds 
+Skielka: folds 
+Pentecoste54: checks 
+*** FLOP *** [9d Td 7d]
+Pentecoste54: checks 
+Genesiswalker: bets 50
+Pentecoste54: folds 
+Uncalled bet (50) returned to Genesiswalker
+Genesiswalker collected 167 from pot
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Board [9d Td 7d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 (button) folded before Flop (didn't bet)
+Seat 4: Skielka (small blind) folded before Flop
+Seat 5: Pentecoste54 (big blind) folded on the Flop
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 7: Genesiswalker collected (167)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762765059: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:47:02 UTC [2026/02/17 9:47:02 ET]
+Table '3975963157 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (3701 in chips) 
+Seat 3: RSAsh9 (1704 in chips) 
+Seat 4: Skielka (1150 in chips) 
+Seat 5: Pentecoste54 (1336 in chips) 
+Seat 6: xtulio99 (1226 in chips) 
+Seat 7: Genesiswalker (1201 in chips) 
+Seat 8: Dofeitosa (1680 in chips) 
+scorza23: posts the ante 6
+RSAsh9: posts the ante 6
+Skielka: posts the ante 6
+Pentecoste54: posts the ante 6
+xtulio99: posts the ante 6
+Genesiswalker: posts the ante 6
+Dofeitosa: posts the ante 6
+Pentecoste54: posts small blind 25
+xtulio99: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [9h Qc]
+Genesiswalker: raises 100 to 150
+Dofeitosa: folds 
+scorza23: folds 
+RSAsh9: raises 100 to 250
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: raises 970 to 1220 and is all-in
+Genesiswalker: calls 1045 and is all-in
+RSAsh9: calls 970
+*** FLOP *** [3h 3c 7h]
+*** TURN *** [3h 3c 7h] [Kh]
+*** RIVER *** [3h 3c 7h Kh] [Jc]
+*** SHOW DOWN ***
+xtulio99: shows [As Kc] (two pair, Kings and Threes)
+RSAsh9: shows [Ad Ks] (two pair, Kings and Threes)
+xtulio99 collected 25 from side pot
+RSAsh9 collected 25 from side pot
+Genesiswalker: shows [Qd Ac] (a pair of Threes)
+xtulio99 collected 1826 from main pot
+RSAsh9 collected 1826 from main pot
+Genesiswalker finished the tournament in 27th place
+*** SUMMARY ***
+Total pot 3702 Main pot 3652. Side pot 50. | Rake 0 
+Board [3h 3c 7h Kh Jc]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 showed [Ad Ks] and won (1851) with two pair, Kings and Threes
+Seat 4: Skielka (button) folded before Flop (didn't bet)
+Seat 5: Pentecoste54 (small blind) folded before Flop
+Seat 6: xtulio99 (big blind) showed [As Kc] and won (1851) with two pair, Kings and Threes
+Seat 7: Genesiswalker showed [Qd Ac] and lost with a pair of Threes
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762771638: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level III (25/50) - 2026/02/17 14:47:43 UTC [2026/02/17 9:47:43 ET]
+Table '3975963157 2' 8-max Seat #5 is the button
+Seat 1: scorza23 (3695 in chips) 
+Seat 3: RSAsh9 (2329 in chips) 
+Seat 4: Skielka (1144 in chips) 
+Seat 5: Pentecoste54 (1305 in chips) 
+Seat 6: xtulio99 (1851 in chips) 
+Seat 8: Dofeitosa (1674 in chips) 
+scorza23: posts the ante 6
+RSAsh9: posts the ante 6
+Skielka: posts the ante 6
+Pentecoste54: posts the ante 6
+xtulio99: posts the ante 6
+Dofeitosa: posts the ante 6
+xtulio99: posts small blind 25
+Dofeitosa: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5d 2d]
+scorza23: folds 
+RSAsh9: calls 50
+Skielka: raises 50 to 100
+Pentecoste54 has timed out
+Pentecoste54: folds 
+Pentecoste54 is sitting out
+xtulio99: calls 75
+Dofeitosa: folds 
+RSAsh9: calls 50
+*** FLOP *** [As 4s 8d]
+xtulio99: checks 
+RSAsh9: checks 
+Skielka: bets 193
+xtulio99: folds 
+Pentecoste54 has returned
+RSAsh9: folds 
+Uncalled bet (193) returned to Skielka
+Skielka collected 386 from pot
+Skielka: doesn't show hand 
+*** SUMMARY ***
+Total pot 386 | Rake 0 
+Board [As 4s 8d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 folded on the Flop
+Seat 4: Skielka collected (386)
+Seat 5: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 6: xtulio99 (small blind) folded on the Flop
+Seat 8: Dofeitosa (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762784323: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:49:03 UTC [2026/02/17 9:49:03 ET]
+Table '3975963157 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (3689 in chips) 
+Seat 3: RSAsh9 (2223 in chips) 
+Seat 4: Skielka (1424 in chips) 
+Seat 5: Pentecoste54 (1299 in chips) 
+Seat 6: xtulio99 (1745 in chips) 
+Seat 8: Dofeitosa (1618 in chips) 
+scorza23: posts the ante 10
+RSAsh9: posts the ante 10
+Skielka: posts the ante 10
+Pentecoste54: posts the ante 10
+xtulio99: posts the ante 10
+Dofeitosa: posts the ante 10
+Dofeitosa: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Kh]
+RSAsh9: calls 80
+Skielka: raises 80 to 160
+Pentecoste54: folds 
+xtulio99: raises 1575 to 1735 and is all-in
+Dofeitosa: folds 
+scorza23: folds 
+RSAsh9: folds 
+Skielka: folds 
+Uncalled bet (1575) returned to xtulio99
+xtulio99 collected 580 from pot
+xtulio99: doesn't show hand 
+*** SUMMARY ***
+Total pot 580 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 3: RSAsh9 folded before Flop
+Seat 4: Skielka folded before Flop
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 (button) collected (580)
+Seat 8: Dofeitosa (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762790004: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:49:39 UTC [2026/02/17 9:49:39 ET]
+Table '3975963157 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (3599 in chips) 
+Seat 3: RSAsh9 (2133 in chips) 
+Seat 4: Skielka (1254 in chips) 
+Seat 5: Pentecoste54 (1289 in chips) 
+Seat 6: xtulio99 (2155 in chips) 
+Seat 8: Dofeitosa (1568 in chips) 
+scorza23: posts the ante 10
+RSAsh9: posts the ante 10
+Skielka: posts the ante 10
+Pentecoste54: posts the ante 10
+xtulio99: posts the ante 10
+Dofeitosa: posts the ante 10
+scorza23: posts small blind 40
+RSAsh9: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Jh Th]
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Dofeitosa: folds 
+scorza23: raises 160 to 240
+RSAsh9: folds 
+Uncalled bet (160) returned to scorza23
+scorza23 collected 220 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 1: scorza23 (small blind) collected (220)
+Seat 3: RSAsh9 (big blind) folded before Flop
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 8: Dofeitosa (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762794466: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:50:08 UTC [2026/02/17 9:50:08 ET]
+Table '3975963157 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (3729 in chips) 
+Seat 3: RSAsh9 (2043 in chips) 
+Seat 4: Skielka (1244 in chips) 
+Seat 5: Pentecoste54 (1279 in chips) 
+Seat 6: xtulio99 (2145 in chips) 
+Seat 8: Dofeitosa (1558 in chips) 
+scorza23: posts the ante 10
+RSAsh9: posts the ante 10
+Skielka: posts the ante 10
+Pentecoste54: posts the ante 10
+xtulio99: posts the ante 10
+Dofeitosa: posts the ante 10
+RSAsh9: posts small blind 40
+Skielka: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [5h Th]
+Pentecoste54 has timed out
+Pentecoste54: folds 
+Pentecoste54 is sitting out
+xtulio99: folds 
+Dofeitosa: raises 112 to 192
+Pentecoste54 has returned
+scorza23: folds 
+RSAsh9: folds 
+Skielka: folds 
+Uncalled bet (112) returned to Dofeitosa
+Dofeitosa collected 260 from pot
+Dofeitosa: doesn't show hand 
+*** SUMMARY ***
+Total pot 260 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 3: RSAsh9 (small blind) folded before Flop
+Seat 4: Skielka (big blind) folded before Flop
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 8: Dofeitosa collected (260)
+
+
+
+PokerStars Hand #259762801448: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:50:53 UTC [2026/02/17 9:50:53 ET]
+Table '3975963157 2' 8-max Seat #3 is the button
+Seat 1: scorza23 (3719 in chips) 
+Seat 3: RSAsh9 (1993 in chips) 
+Seat 4: Skielka (1154 in chips) 
+Seat 5: Pentecoste54 (1269 in chips) 
+Seat 6: xtulio99 (2135 in chips) 
+Seat 8: Dofeitosa (1728 in chips) 
+scorza23: posts the ante 10
+RSAsh9: posts the ante 10
+Skielka: posts the ante 10
+Pentecoste54: posts the ante 10
+xtulio99: posts the ante 10
+Dofeitosa: posts the ante 10
+Skielka: posts small blind 40
+Pentecoste54: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [8s Js]
+xtulio99: folds 
+Dofeitosa: folds 
+scorza23: folds 
+RSAsh9: folds 
+Skielka: raises 80 to 160
+Pentecoste54: calls 80
+*** FLOP *** [6d Ac Kc]
+AndiStier is disconnected 
+babyhud is disconnected 
+Skielka: bets 190
+Pentecoste54: raises 190 to 380
+Skielka: calls 190
+*** TURN *** [6d Ac Kc] [8c]
+Skielka: checks 
+Pentecoste54: bets 719 and is all-in
+Skielka: folds 
+Uncalled bet (719) returned to Pentecoste54
+Pentecoste54 collected 1140 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 1140 | Rake 0 
+Board [6d Ac Kc 8c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 3: RSAsh9 (button) folded before Flop (didn't bet)
+Seat 4: Skielka (small blind) folded on the Turn
+Seat 5: Pentecoste54 (big blind) collected (1140)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762812289: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:52:02 UTC [2026/02/17 9:52:02 ET]
+Table '3975963157 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (3709 in chips) 
+Seat 2: babyhud (1028 in chips) 
+Seat 3: RSAsh9 (1983 in chips) 
+Seat 4: Skielka (604 in chips) 
+Seat 5: Pentecoste54 (1859 in chips) 
+Seat 6: xtulio99 (2125 in chips) 
+Seat 7: AndiStier (1489 in chips) 
+Seat 8: Dofeitosa (1718 in chips) 
+scorza23: posts the ante 10
+babyhud: posts the ante 10
+RSAsh9: posts the ante 10
+Skielka: posts the ante 10
+Pentecoste54: posts the ante 10
+xtulio99: posts the ante 10
+AndiStier: posts the ante 10
+Dofeitosa: posts the ante 10
+Pentecoste54: posts small blind 40
+xtulio99: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 9c]
+AndiStier: folds 
+Dofeitosa: folds 
+scorza23: folds 
+babyhud: raises 938 to 1018 and is all-in
+RSAsh9: calls 1018
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+*** FLOP *** [Jd Td 7h]
+*** TURN *** [Jd Td 7h] [3s]
+*** RIVER *** [Jd Td 7h 3s] [Qd]
+*** SHOW DOWN ***
+babyhud: shows [Kd Qc] (a pair of Queens)
+RSAsh9: shows [3h Ah] (a pair of Threes)
+babyhud collected 2236 from pot
+*** SUMMARY ***
+Total pot 2236 | Rake 0 
+Board [Jd Td 7h 3s Qd]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: babyhud showed [Kd Qc] and won (2236) with a pair of Queens
+Seat 3: RSAsh9 showed [3h Ah] and lost with a pair of Threes
+Seat 4: Skielka (button) folded before Flop (didn't bet)
+Seat 5: Pentecoste54 (small blind) folded before Flop
+Seat 6: xtulio99 (big blind) folded before Flop
+Seat 7: AndiStier folded before Flop (didn't bet)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762818983: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:52:46 UTC [2026/02/17 9:52:46 ET]
+Table '3975963157 2' 8-max Seat #5 is the button
+Seat 1: scorza23 (3699 in chips) 
+Seat 2: babyhud (2236 in chips) 
+Seat 3: RSAsh9 (955 in chips) 
+Seat 4: Skielka (594 in chips) 
+Seat 5: Pentecoste54 (1809 in chips) 
+Seat 6: xtulio99 (2035 in chips) 
+Seat 7: AndiStier (1479 in chips) 
+Seat 8: Dofeitosa (1708 in chips) 
+scorza23: posts the ante 10
+babyhud: posts the ante 10
+RSAsh9: posts the ante 10
+Skielka: posts the ante 10
+Pentecoste54: posts the ante 10
+xtulio99: posts the ante 10
+AndiStier: posts the ante 10
+Dofeitosa: posts the ante 10
+xtulio99: posts small blind 40
+AndiStier: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [4s Ad]
+Dofeitosa: folds 
+scorza23: folds 
+babyhud: folds 
+RSAsh9: folds 
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: raises 80 to 160
+AndiStier: calls 80
+*** FLOP *** [8h 7s 5h]
+xtulio99: bets 100
+AndiStier: raises 1209 to 1309 and is all-in
+xtulio99: calls 1209
+*** TURN *** [8h 7s 5h] [3c]
+*** RIVER *** [8h 7s 5h 3c] [8c]
+*** SHOW DOWN ***
+xtulio99: shows [7h Qd] (two pair, Eights and Sevens)
+AndiStier: shows [3h 4h] (two pair, Eights and Threes)
+xtulio99 collected 3018 from pot
+AndiStier finished the tournament in 21st place
+*** SUMMARY ***
+Total pot 3018 | Rake 0 
+Board [8h 7s 5h 3c 8c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: babyhud folded before Flop (didn't bet)
+Seat 3: RSAsh9 folded before Flop (didn't bet)
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 6: xtulio99 (small blind) showed [7h Qd] and won (3018) with two pair, Eights and Sevens
+Seat 7: AndiStier (big blind) showed [3h 4h] and lost with two pair, Eights and Threes
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762828529: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IV (40/80) - 2026/02/17 14:53:47 UTC [2026/02/17 9:53:47 ET]
+Table '3975963157 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (3689 in chips) 
+Seat 2: babyhud (2226 in chips) 
+Seat 3: RSAsh9 (945 in chips) 
+Seat 4: Skielka (584 in chips) 
+Seat 5: Pentecoste54 (1799 in chips) 
+Seat 6: xtulio99 (3574 in chips) 
+Seat 8: Dofeitosa (1698 in chips) 
+scorza23: posts the ante 10
+babyhud: posts the ante 10
+RSAsh9: posts the ante 10
+Skielka: posts the ante 10
+Pentecoste54: posts the ante 10
+xtulio99: posts the ante 10
+Dofeitosa: posts the ante 10
+Dofeitosa: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 4d]
+babyhud: raises 136 to 216
+RSAsh9: folds 
+Skielka: raises 358 to 574 and is all-in
+Pentecoste54: folds 
+xtulio99: folds 
+Dofeitosa: folds 
+scorza23: folds 
+babyhud: calls 358
+*** FLOP *** [5h Ah Ad]
+*** TURN *** [5h Ah Ad] [8c]
+*** RIVER *** [5h Ah Ad 8c] [2s]
+*** SHOW DOWN ***
+babyhud: shows [Kd Qh] (a pair of Aces)
+Skielka: shows [8d 8s] (a full house, Eights full of Aces)
+Skielka collected 1338 from pot
+*** SUMMARY ***
+Total pot 1338 | Rake 0 
+Board [5h Ah Ad 8c 2s]
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: babyhud showed [Kd Qh] and lost with a pair of Aces
+Seat 3: RSAsh9 folded before Flop (didn't bet)
+Seat 4: Skielka showed [8d 8s] and won (1338) with a full house, Eights full of Aces
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 (button) folded before Flop (didn't bet)
+Seat 8: Dofeitosa (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762834423: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 14:54:26 UTC [2026/02/17 9:54:26 ET]
+Table '3975963157 2' 8-max Seat #8 is the button
+Seat 1: scorza23 (3599 in chips) 
+Seat 2: babyhud (1642 in chips) 
+Seat 3: RSAsh9 (935 in chips) 
+Seat 4: Skielka (1338 in chips) 
+Seat 5: Pentecoste54 (1789 in chips) 
+Seat 6: xtulio99 (3564 in chips) 
+Seat 8: Dofeitosa (1648 in chips) 
+scorza23: posts the ante 15
+babyhud: posts the ante 15
+RSAsh9: posts the ante 15
+Skielka: posts the ante 15
+Pentecoste54: posts the ante 15
+xtulio99: posts the ante 15
+Dofeitosa: posts the ante 15
+scorza23: posts small blind 60
+babyhud: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 6h]
+RSAsh9: calls 120
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Dofeitosa: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+babyhud: checks 
+*** FLOP *** [Kc Qs 2h]
+babyhud: bets 120
+RSAsh9: calls 120
+*** TURN *** [Kc Qs 2h] [3c]
+babyhud: checks 
+RSAsh9: checks 
+*** RIVER *** [Kc Qs 2h 3c] [7d]
+babyhud: bets 1387 and is all-in
+RSAsh9: folds 
+Uncalled bet (1387) returned to babyhud
+babyhud collected 645 from pot
+babyhud: doesn't show hand 
+*** SUMMARY ***
+Total pot 645 | Rake 0 
+Board [Kc Qs 2h 3c 7d]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: babyhud (big blind) collected (645)
+Seat 3: RSAsh9 folded on the River
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 8: Dofeitosa (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762879454: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:00:32 UTC [2026/02/17 10:00:32 ET]
+Table '3975963157 2' 8-max Seat #1 is the button
+Seat 1: scorza23 (3524 in chips) 
+Seat 2: babyhud (2032 in chips) 
+Seat 4: Skielka (1323 in chips) 
+Seat 5: Pentecoste54 (1774 in chips) 
+Seat 6: xtulio99 (3549 in chips) 
+Seat 8: Dofeitosa (1633 in chips) 
+scorza23: posts the ante 15
+babyhud: posts the ante 15
+Skielka: posts the ante 15
+Pentecoste54: posts the ante 15
+xtulio99: posts the ante 15
+Dofeitosa: posts the ante 15
+babyhud: posts small blind 60
+Skielka: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 7s]
+Pentecoste54: folds 
+xtulio99 has timed out
+xtulio99: folds 
+xtulio99 is sitting out
+Dofeitosa: folds 
+scorza23: folds 
+babyhud: folds 
+Uncalled bet (60) returned to Skielka
+Skielka collected 210 from pot
+Skielka: doesn't show hand 
+*** SUMMARY ***
+Total pot 210 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: babyhud (small blind) folded before Flop
+Seat 4: Skielka (big blind) collected (210)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762885319: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:01:14 UTC [2026/02/17 10:01:14 ET]
+Table '3975963157 2' 8-max Seat #2 is the button
+Seat 1: scorza23 (3509 in chips) 
+Seat 2: babyhud (1957 in chips) 
+Seat 4: Skielka (1458 in chips) 
+Seat 5: Pentecoste54 (1759 in chips) 
+Seat 6: xtulio99 (3534 in chips) is sitting out
+Seat 8: Dofeitosa (1618 in chips) 
+scorza23: posts the ante 15
+babyhud: posts the ante 15
+Skielka: posts the ante 15
+Pentecoste54: posts the ante 15
+xtulio99: posts the ante 15
+Dofeitosa: posts the ante 15
+Skielka: posts small blind 60
+Pentecoste54: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 7s]
+xtulio99: folds 
+Dofeitosa: folds 
+scorza23: folds 
+babyhud: raises 240 to 360
+Skielka: folds 
+Pentecoste54: folds 
+Uncalled bet (240) returned to babyhud
+babyhud collected 390 from pot
+babyhud: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: babyhud (button) collected (390)
+Seat 4: Skielka (small blind) folded before Flop
+Seat 5: Pentecoste54 (big blind) folded before Flop
+Seat 6: xtulio99 folded before Flop (didn't bet)
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762888367: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:01:33 UTC [2026/02/17 10:01:33 ET]
+Table '3975963157 2' 8-max Seat #4 is the button
+Seat 1: scorza23 (3494 in chips) 
+Seat 2: babyhud (2212 in chips) 
+Seat 4: Skielka (1383 in chips) 
+Seat 5: Pentecoste54 (1624 in chips) 
+Seat 6: xtulio99 (3519 in chips) is sitting out
+Seat 8: Dofeitosa (1603 in chips) 
+scorza23: posts the ante 15
+babyhud: posts the ante 15
+Skielka: posts the ante 15
+Pentecoste54: posts the ante 15
+xtulio99: posts the ante 15
+Dofeitosa: posts the ante 15
+Pentecoste54: posts small blind 60
+xtulio99: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 6c]
+Dofeitosa: folds 
+scorza23: folds 
+babyhud: folds 
+Skielka: raises 120 to 240
+Pentecoste54: raises 1369 to 1609 and is all-in
+xtulio99: folds 
+Skielka: folds 
+Uncalled bet (1369) returned to Pentecoste54
+xtulio99 has returned
+Pentecoste54 collected 690 from pot
+*** SUMMARY ***
+Total pot 690 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: babyhud folded before Flop (didn't bet)
+Seat 4: Skielka (button) folded before Flop
+Seat 5: Pentecoste54 (small blind) collected (690)
+Seat 6: xtulio99 (big blind) folded before Flop
+Seat 8: Dofeitosa folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762890713: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:01:49 UTC [2026/02/17 10:01:49 ET]
+Table '3975963157 2' 8-max Seat #5 is the button
+Seat 1: scorza23 (3479 in chips) 
+Seat 2: babyhud (2197 in chips) 
+Seat 4: Skielka (1128 in chips) 
+Seat 5: Pentecoste54 (2059 in chips) 
+Seat 6: xtulio99 (3384 in chips) 
+Seat 8: Dofeitosa (1588 in chips) 
+scorza23: posts the ante 15
+babyhud: posts the ante 15
+Skielka: posts the ante 15
+Pentecoste54: posts the ante 15
+xtulio99: posts the ante 15
+Dofeitosa: posts the ante 15
+xtulio99: posts small blind 60
+Dofeitosa: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [4c Jd]
+scorza23: folds 
+babyhud: raises 2062 to 2182 and is all-in
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Dofeitosa: folds 
+Uncalled bet (2062) returned to babyhud
+babyhud collected 390 from pot
+babyhud: doesn't show hand 
+*** SUMMARY ***
+Total pot 390 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: babyhud collected (390)
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 6: xtulio99 (small blind) folded before Flop
+Seat 8: Dofeitosa (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762895836: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:02:23 UTC [2026/02/17 10:02:23 ET]
+Table '3975963157 2' 8-max Seat #6 is the button
+Seat 1: scorza23 (3464 in chips) 
+Seat 2: babyhud (2452 in chips) 
+Seat 4: Skielka (1113 in chips) 
+Seat 5: Pentecoste54 (2044 in chips) 
+Seat 6: xtulio99 (3309 in chips) 
+Seat 8: Dofeitosa (1453 in chips) 
+scorza23: posts the ante 15
+babyhud: posts the ante 15
+Skielka: posts the ante 15
+Pentecoste54: posts the ante 15
+xtulio99: posts the ante 15
+Dofeitosa: posts the ante 15
+Dofeitosa: posts small blind 60
+scorza23: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 9s]
+babyhud: folds 
+Skielka: folds 
+Pentecoste54: folds 
+xtulio99: folds 
+Dofeitosa: raises 1318 to 1438 and is all-in
+scorza23: calls 1318
+*** FLOP *** [Kc 8h Kh]
+*** TURN *** [Kc 8h Kh] [7c]
+*** RIVER *** [Kc 8h Kh 7c] [6h]
+*** SHOW DOWN ***
+Dofeitosa: shows [Qd 6d] (two pair, Kings and Sixes)
+scorza23: shows [9h 9s] (two pair, Kings and Nines)
+scorza23 collected 2966 from pot
+Dofeitosa finished the tournament in 17th place
+*** SUMMARY ***
+Total pot 2966 | Rake 0 
+Board [Kc 8h Kh 7c 6h]
+Seat 1: scorza23 (big blind) showed [9h 9s] and won (2966) with two pair, Kings and Nines
+Seat 2: babyhud folded before Flop (didn't bet)
+Seat 4: Skielka folded before Flop (didn't bet)
+Seat 5: Pentecoste54 folded before Flop (didn't bet)
+Seat 6: xtulio99 (button) folded before Flop (didn't bet)
+Seat 8: Dofeitosa (small blind) showed [Qd 6d] and lost with two pair, Kings and Sixes
+
+
+
+PokerStars Hand #259762903174: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:03:11 UTC [2026/02/17 10:03:11 ET]
+Table '3975963157 1' 8-max Seat #1 is the button
+Seat 1: TSILIGEORGE13 (9271 in chips) 
+Seat 2: MisteriosoPK (1145 in chips) 
+Seat 3: Skielka (1098 in chips) 
+Seat 4: RSAsh9 (590 in chips) 
+Seat 5: HookahFumari (3603 in chips) 
+Seat 6: Pentecoste54 (2029 in chips) 
+Seat 7: dragos160 (2879 in chips) 
+Seat 8: scorza23 (4977 in chips) 
+TSILIGEORGE13: posts the ante 15
+MisteriosoPK: posts the ante 15
+Skielka: posts the ante 15
+RSAsh9: posts the ante 15
+HookahFumari: posts the ante 15
+Pentecoste54: posts the ante 15
+dragos160: posts the ante 15
+scorza23: posts the ante 15
+MisteriosoPK: posts small blind 60
+Skielka: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 9h]
+RSAsh9: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+dragos160: raises 120 to 240
+scorza23: folds 
+TSILIGEORGE13: folds 
+MisteriosoPK: raises 890 to 1130 and is all-in
+Skielka: calls 963 and is all-in
+dragos160: calls 890
+*** FLOP *** [Qh 4d Jh]
+*** TURN *** [Qh 4d Jh] [Ac]
+*** RIVER *** [Qh 4d Jh Ac] [Ts]
+*** SHOW DOWN ***
+MisteriosoPK: shows [Ad Kd] (a straight, Ten to Ace)
+dragos160: shows [Jc Tc] (two pair, Jacks and Tens)
+MisteriosoPK collected 94 from side pot
+Skielka: shows [Kc Jd] (a straight, Ten to Ace)
+MisteriosoPK collected 1685 from main pot
+Skielka collected 1684 from main pot
+*** SUMMARY ***
+Total pot 3463 Main pot 3369. Side pot 94. | Rake 0 
+Board [Qh 4d Jh Ac Ts]
+Seat 1: TSILIGEORGE13 (button) folded before Flop (didn't bet)
+Seat 2: MisteriosoPK (small blind) showed [Ad Kd] and won (1779) with a straight, Ten to Ace
+Seat 3: Skielka (big blind) showed [Kc Jd] and won (1684) with a straight, Ten to Ace
+Seat 4: RSAsh9 folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 7: dragos160 showed [Jc Tc] and lost with two pair, Jacks and Tens
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762909839: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level V (60/120) - 2026/02/17 15:03:53 UTC [2026/02/17 10:03:53 ET]
+Table '3975963157 1' 8-max Seat #2 is the button
+Seat 1: TSILIGEORGE13 (9256 in chips) 
+Seat 2: MisteriosoPK (1779 in chips) 
+Seat 3: Skielka (1684 in chips) 
+Seat 4: RSAsh9 (575 in chips) 
+Seat 5: HookahFumari (3588 in chips) 
+Seat 6: Pentecoste54 (2014 in chips) 
+Seat 7: dragos160 (1734 in chips) 
+Seat 8: scorza23 (4962 in chips) 
+TSILIGEORGE13: posts the ante 15
+MisteriosoPK: posts the ante 15
+Skielka: posts the ante 15
+RSAsh9: posts the ante 15
+HookahFumari: posts the ante 15
+Pentecoste54: posts the ante 15
+dragos160: posts the ante 15
+scorza23: posts the ante 15
+Skielka: posts small blind 60
+RSAsh9: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [3d 9c]
+HookahFumari: raises 120 to 240
+Pentecoste54: folds 
+dragos160: folds 
+scorza23: folds 
+TSILIGEORGE13: calls 240
+MisteriosoPK: folds 
+Skielka: calls 180
+RSAsh9: folds 
+*** FLOP *** [8s 3c Ac]
+Skielka: checks 
+HookahFumari: bets 317
+TSILIGEORGE13: folds 
+Skielka: folds 
+Uncalled bet (317) returned to HookahFumari
+HookahFumari collected 960 from pot
+HookahFumari: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Board [8s 3c Ac]
+Seat 1: TSILIGEORGE13 folded on the Flop
+Seat 2: MisteriosoPK (button) folded before Flop (didn't bet)
+Seat 3: Skielka (small blind) folded on the Flop
+Seat 4: RSAsh9 (big blind) folded before Flop
+Seat 5: HookahFumari collected (960)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 7: dragos160 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762917778: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:04:45 UTC [2026/02/17 10:04:45 ET]
+Table '3975963157 1' 8-max Seat #3 is the button
+Seat 1: TSILIGEORGE13 (9001 in chips) 
+Seat 2: MisteriosoPK (1764 in chips) 
+Seat 3: Skielka (1429 in chips) 
+Seat 4: RSAsh9 (440 in chips) 
+Seat 5: HookahFumari (4293 in chips) 
+Seat 6: Pentecoste54 (1999 in chips) 
+Seat 7: dragos160 (1719 in chips) 
+Seat 8: scorza23 (4947 in chips) 
+TSILIGEORGE13: posts the ante 20
+MisteriosoPK: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+RSAsh9: posts small blind 80
+HookahFumari: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Qh 2h]
+Pentecoste54: folds 
+dragos160: folds 
+scorza23: folds 
+TSILIGEORGE13: folds 
+MisteriosoPK: raises 1584 to 1744 and is all-in
+Skielka: folds 
+RSAsh9: folds 
+HookahFumari: folds 
+Uncalled bet (1584) returned to MisteriosoPK
+MisteriosoPK collected 560 from pot
+MisteriosoPK: doesn't show hand 
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: MisteriosoPK collected (560)
+Seat 3: Skielka (button) folded before Flop (didn't bet)
+Seat 4: RSAsh9 (small blind) folded before Flop
+Seat 5: HookahFumari (big blind) folded before Flop
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 7: dragos160 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762920990: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:05:05 UTC [2026/02/17 10:05:05 ET]
+Table '3975963157 1' 8-max Seat #4 is the button
+Seat 1: TSILIGEORGE13 (8981 in chips) 
+Seat 2: MisteriosoPK (2144 in chips) 
+Seat 3: Skielka (1409 in chips) 
+Seat 4: RSAsh9 (340 in chips) 
+Seat 5: HookahFumari (4113 in chips) 
+Seat 6: Pentecoste54 (1979 in chips) 
+Seat 7: dragos160 (1699 in chips) 
+Seat 8: scorza23 (4927 in chips) 
+TSILIGEORGE13: posts the ante 20
+MisteriosoPK: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+HookahFumari: posts small blind 80
+Pentecoste54: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd 4s]
+dragos160: folds 
+scorza23: folds 
+TSILIGEORGE13: folds 
+MisteriosoPK: folds 
+Skielka: folds 
+RSAsh9: folds 
+HookahFumari: folds 
+Uncalled bet (80) returned to Pentecoste54
+Pentecoste54 collected 320 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: MisteriosoPK folded before Flop (didn't bet)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 4: RSAsh9 (button) folded before Flop (didn't bet)
+Seat 5: HookahFumari (small blind) folded before Flop
+Seat 6: Pentecoste54 (big blind) collected (320)
+Seat 7: dragos160 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762924034: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:05:25 UTC [2026/02/17 10:05:25 ET]
+Table '3975963157 1' 8-max Seat #5 is the button
+Seat 1: TSILIGEORGE13 (8961 in chips) 
+Seat 2: MisteriosoPK (2124 in chips) 
+Seat 3: Skielka (1389 in chips) 
+Seat 4: RSAsh9 (320 in chips) 
+Seat 5: HookahFumari (4013 in chips) 
+Seat 6: Pentecoste54 (2199 in chips) 
+Seat 7: dragos160 (1679 in chips) 
+Seat 8: scorza23 (4907 in chips) 
+TSILIGEORGE13: posts the ante 20
+MisteriosoPK: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+Pentecoste54: posts small blind 80
+dragos160: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 5s]
+scorza23: folds 
+TSILIGEORGE13: raises 320 to 480
+MisteriosoPK: folds 
+Skielka: folds 
+RSAsh9: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+dragos160: calls 320
+*** FLOP *** [Tc 9d Ts]
+dragos160: bets 320
+TSILIGEORGE13: raises 640 to 960
+dragos160: raises 219 to 1179 and is all-in
+TSILIGEORGE13: calls 219
+*** TURN *** [Tc 9d Ts] [8d]
+*** RIVER *** [Tc 9d Ts 8d] [7c]
+*** SHOW DOWN ***
+dragos160: shows [Jc Th] (a straight, Seven to Jack)
+TSILIGEORGE13: shows [Ks Kh] (two pair, Kings and Tens)
+dragos160 collected 3558 from pot
+*** SUMMARY ***
+Total pot 3558 | Rake 0 
+Board [Tc 9d Ts 8d 7c]
+Seat 1: TSILIGEORGE13 showed [Ks Kh] and lost with two pair, Kings and Tens
+Seat 2: MisteriosoPK folded before Flop (didn't bet)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 4: RSAsh9 folded before Flop (didn't bet)
+Seat 5: HookahFumari (button) folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (small blind) folded before Flop
+Seat 7: dragos160 (big blind) showed [Jc Th] and won (3558) with a straight, Seven to Jack
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762929405: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:06:00 UTC [2026/02/17 10:06:00 ET]
+Table '3975963157 1' 8-max Seat #6 is the button
+Seat 1: TSILIGEORGE13 (7282 in chips) 
+Seat 2: MisteriosoPK (2104 in chips) 
+Seat 3: Skielka (1369 in chips) 
+Seat 4: RSAsh9 (300 in chips) 
+Seat 5: HookahFumari (3993 in chips) 
+Seat 6: Pentecoste54 (2099 in chips) 
+Seat 7: dragos160 (3558 in chips) 
+Seat 8: scorza23 (4887 in chips) 
+TSILIGEORGE13: posts the ante 20
+MisteriosoPK: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+dragos160: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [8d Qc]
+TSILIGEORGE13: raises 320 to 480
+MisteriosoPK: folds 
+Skielka: raises 869 to 1349 and is all-in
+RSAsh9: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+dragos160: folds 
+scorza23: folds 
+TSILIGEORGE13: calls 869
+*** FLOP *** [5c Kc 2h]
+*** TURN *** [5c Kc 2h] [Td]
+*** RIVER *** [5c Kc 2h Td] [7s]
+*** SHOW DOWN ***
+TSILIGEORGE13: shows [9c As] (high card Ace)
+Skielka: shows [Qh Kh] (a pair of Kings)
+Skielka collected 3098 from pot
+*** SUMMARY ***
+Total pot 3098 | Rake 0 
+Board [5c Kc 2h Td 7s]
+Seat 1: TSILIGEORGE13 showed [9c As] and lost with high card Ace
+Seat 2: MisteriosoPK folded before Flop (didn't bet)
+Seat 3: Skielka showed [Qh Kh] and won (3098) with a pair of Kings
+Seat 4: RSAsh9 folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 7: dragos160 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762934323: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:06:32 UTC [2026/02/17 10:06:32 ET]
+Table '3975963157 1' 8-max Seat #7 is the button
+Seat 1: TSILIGEORGE13 (5913 in chips) 
+Seat 3: Skielka (3098 in chips) 
+Seat 4: RSAsh9 (280 in chips) 
+Seat 5: HookahFumari (3973 in chips) 
+Seat 6: Pentecoste54 (2079 in chips) 
+Seat 7: dragos160 (3458 in chips) 
+Seat 8: scorza23 (4707 in chips) 
+TSILIGEORGE13: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+TSILIGEORGE13: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3h Ah]
+Skielka: folds 
+RSAsh9: folds 
+HookahFumari: folds 
+Pentecoste54: raises 1899 to 2059 and is all-in
+dragos160: folds 
+scorza23: folds 
+TSILIGEORGE13: folds 
+Uncalled bet (1899) returned to Pentecoste54
+Pentecoste54 collected 540 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Seat 1: TSILIGEORGE13 (big blind) folded before Flop
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 4: RSAsh9 folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 collected (540)
+Seat 7: dragos160 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762938378: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:06:58 UTC [2026/02/17 10:06:58 ET]
+Table '3975963157 1' 8-max Seat #8 is the button
+Seat 1: TSILIGEORGE13 (5733 in chips) 
+Seat 3: Skielka (3078 in chips) 
+Seat 4: RSAsh9 (260 in chips) 
+Seat 5: HookahFumari (3953 in chips) 
+Seat 6: Pentecoste54 (2439 in chips) 
+Seat 7: dragos160 (3438 in chips) 
+Seat 8: scorza23 (4607 in chips) 
+TSILIGEORGE13: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+TSILIGEORGE13: posts small blind 80
+Skielka: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5h]
+RSAsh9: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+dragos160: calls 160
+scorza23: folds 
+TSILIGEORGE13: raises 160 to 320
+Skielka: folds 
+dragos160: calls 160
+*** FLOP *** [6s 4s 9h]
+TSILIGEORGE13: bets 940
+dragos160: folds 
+Uncalled bet (940) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 940 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 940 | Rake 0 
+Board [6s 4s 9h]
+Seat 1: TSILIGEORGE13 (small blind) collected (940)
+Seat 3: Skielka (big blind) folded before Flop
+Seat 4: RSAsh9 folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 7: dragos160 folded on the Flop
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762942889: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:07:28 UTC [2026/02/17 10:07:28 ET]
+Table '3975963157 1' 8-max Seat #1 is the button
+Seat 1: TSILIGEORGE13 (6333 in chips) 
+Seat 3: Skielka (2898 in chips) 
+Seat 4: RSAsh9 (240 in chips) 
+Seat 5: HookahFumari (3933 in chips) 
+Seat 6: Pentecoste54 (2419 in chips) 
+Seat 7: dragos160 (3098 in chips) 
+Seat 8: scorza23 (4587 in chips) 
+TSILIGEORGE13: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+Skielka: posts small blind 80
+RSAsh9: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc 2d]
+HookahFumari: folds 
+Pentecoste54: folds 
+dragos160: raises 160 to 320
+scorza23: folds 
+TSILIGEORGE13: folds 
+Skielka: calls 240
+RSAsh9: folds 
+*** FLOP *** [Jh Ad 3h]
+Skielka: checks 
+dragos160: bets 320
+Skielka: raises 320 to 640
+dragos160: calls 320
+*** TURN *** [Jh Ad 3h] [6d]
+Skielka: checks 
+dragos160: checks 
+*** RIVER *** [Jh Ad 3h 6d] [Qs]
+Skielka: bets 1110
+dragos160: calls 1110
+*** SHOW DOWN ***
+Skielka: shows [Qc Ac] (two pair, Aces and Queens)
+dragos160: mucks hand 
+Skielka collected 4440 from pot
+*** SUMMARY ***
+Total pot 4440 | Rake 0 
+Board [Jh Ad 3h 6d Qs]
+Seat 1: TSILIGEORGE13 (button) folded before Flop (didn't bet)
+Seat 3: Skielka (small blind) showed [Qc Ac] and won (4440) with two pair, Aces and Queens
+Seat 4: RSAsh9 (big blind) folded before Flop
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 7: dragos160 mucked [Tc Qh]
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762948536: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:08:04 UTC [2026/02/17 10:08:04 ET]
+Table '3975963157 1' 8-max Seat #3 is the button
+Seat 1: TSILIGEORGE13 (6313 in chips) 
+Seat 3: Skielka (5248 in chips) 
+Seat 4: RSAsh9 (60 in chips) 
+Seat 5: HookahFumari (3913 in chips) 
+Seat 6: Pentecoste54 (2399 in chips) 
+Seat 7: dragos160 (1008 in chips) 
+Seat 8: scorza23 (4567 in chips) 
+TSILIGEORGE13: posts the ante 20
+Skielka: posts the ante 20
+RSAsh9: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+dragos160: posts the ante 20
+scorza23: posts the ante 20
+RSAsh9: posts small blind 40 and is all-in
+HookahFumari: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [9d Ad]
+Pentecoste54: raises 2219 to 2379 and is all-in
+dragos160: calls 988 and is all-in
+scorza23: folds 
+TSILIGEORGE13: folds 
+Skielka: folds 
+HookahFumari: folds 
+Uncalled bet (1391) returned to Pentecoste54
+*** FLOP *** [As Td 3s]
+*** TURN *** [As Td 3s] [3d]
+*** RIVER *** [As Td 3s 3d] [8h]
+*** SHOW DOWN ***
+Pentecoste54: shows [Ts Tc] (a full house, Tens full of Threes)
+dragos160: shows [6h 9h] (a pair of Threes)
+Pentecoste54 collected 2016 from side pot
+RSAsh9: shows [7d 5c] (a pair of Threes)
+Pentecoste54 collected 300 from main pot
+dragos160 finished the tournament in 13th place
+RSAsh9 finished the tournament in 14th place
+*** SUMMARY ***
+Total pot 2316 Main pot 300. Side pot 2016. | Rake 0 
+Board [As Td 3s 3d 8h]
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 3: Skielka (button) folded before Flop (didn't bet)
+Seat 4: RSAsh9 (small blind) showed [7d 5c] and lost with a pair of Threes
+Seat 5: HookahFumari (big blind) folded before Flop
+Seat 6: Pentecoste54 showed [Ts Tc] and won (2316) with a full house, Tens full of Threes
+Seat 7: dragos160 showed [6h 9h] and lost with a pair of Threes
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762953464: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:08:36 UTC [2026/02/17 10:08:36 ET]
+Table '3975963157 1' 8-max Seat #5 is the button
+Seat 1: TSILIGEORGE13 (6293 in chips) 
+Seat 3: Skielka (5228 in chips) 
+Seat 5: HookahFumari (3733 in chips) 
+Seat 6: Pentecoste54 (3707 in chips) 
+Seat 8: scorza23 (4547 in chips) 
+TSILIGEORGE13: posts the ante 20
+Skielka: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+scorza23: posts the ante 20
+Pentecoste54: posts small blind 80
+scorza23: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 5c]
+TSILIGEORGE13: raises 160 to 320
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (160) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 500 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: TSILIGEORGE13 collected (500)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari (button) folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762956297: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:08:54 UTC [2026/02/17 10:08:54 ET]
+Table '3975963157 1' 8-max Seat #6 is the button
+Seat 1: TSILIGEORGE13 (6613 in chips) 
+Seat 3: Skielka (5208 in chips) 
+Seat 5: HookahFumari (3713 in chips) 
+Seat 6: Pentecoste54 (3607 in chips) 
+Seat 8: scorza23 (4367 in chips) 
+TSILIGEORGE13: posts the ante 20
+Skielka: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+scorza23: posts the ante 20
+scorza23: posts small blind 80
+TSILIGEORGE13: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [3s 9h]
+Skielka: raises 160 to 320
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+TSILIGEORGE13: folds 
+Uncalled bet (160) returned to Skielka
+Skielka collected 500 from pot
+Skielka: doesn't show hand 
+*** SUMMARY ***
+Total pot 500 | Rake 0 
+Seat 1: TSILIGEORGE13 (big blind) folded before Flop
+Seat 3: Skielka collected (500)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762959638: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VI (80/160) - 2026/02/17 15:09:15 UTC [2026/02/17 10:09:15 ET]
+Table '3975963157 1' 8-max Seat #8 is the button
+Seat 1: TSILIGEORGE13 (6433 in chips) 
+Seat 3: Skielka (5528 in chips) 
+Seat 5: HookahFumari (3693 in chips) 
+Seat 6: Pentecoste54 (3587 in chips) 
+Seat 8: scorza23 (4267 in chips) 
+TSILIGEORGE13: posts the ante 20
+Skielka: posts the ante 20
+HookahFumari: posts the ante 20
+Pentecoste54: posts the ante 20
+scorza23: posts the ante 20
+TSILIGEORGE13: posts small blind 80
+Skielka: posts big blind 160
+*** HOLE CARDS ***
+Dealt to scorza23 [7s 7c]
+HookahFumari: folds 
+Pentecoste54: folds 
+RaFaeLStars7 is disconnected 
+scorza23: raises 320 to 480
+TSILIGEORGE13: calls 400
+Skielka: calls 320
+*** FLOP *** [9d 5c Kd]
+TSILIGEORGE13: checks 
+Skielka: checks 
+scorza23: checks 
+*** TURN *** [9d 5c Kd] [6s]
+TSILIGEORGE13: bets 1540
+Skielka: folds 
+scorza23: folds 
+Uncalled bet (1540) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 1540 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 1540 | Rake 0 
+Board [9d 5c Kd 6s]
+Seat 1: TSILIGEORGE13 (small blind) collected (1540)
+Seat 3: Skielka (big blind) folded on the Turn
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded on the Turn
+
+
+
+PokerStars Hand #259762965599: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:09:54 UTC [2026/02/17 10:09:54 ET]
+Table '3975963157 1' 8-max Seat #1 is the button
+Seat 1: TSILIGEORGE13 (7473 in chips) 
+Seat 2: RaFaeLStars7 (1607 in chips) out of hand (moved from another table into small blind)
+Seat 3: Skielka (5028 in chips) 
+Seat 5: HookahFumari (3673 in chips) 
+Seat 6: Pentecoste54 (3567 in chips) 
+Seat 8: scorza23 (3767 in chips) 
+RaFaeLStars7 will be allowed to play after the button
+TSILIGEORGE13: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+Skielka: posts small blind 100
+HookahFumari: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kh 8h]
+Pentecoste54: folds 
+scorza23: raises 400 to 600
+TSILIGEORGE13: folds 
+Skielka: folds 
+HookahFumari: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 625 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 625 | Rake 0 
+Seat 1: TSILIGEORGE13 (button) folded before Flop (didn't bet)
+Seat 3: Skielka (small blind) folded before Flop
+Seat 5: HookahFumari (big blind) folded before Flop
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: scorza23 collected (625)
+
+
+
+PokerStars Hand #259762969503: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:10:18 UTC [2026/02/17 10:10:18 ET]
+Table '3975963157 1' 8-max Seat #3 is the button
+Seat 1: TSILIGEORGE13 (7448 in chips) 
+Seat 2: RaFaeLStars7 (1607 in chips) 
+Seat 3: Skielka (4903 in chips) 
+Seat 5: HookahFumari (3448 in chips) 
+Seat 6: Pentecoste54 (3542 in chips) 
+Seat 8: scorza23 (4167 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+HookahFumari: posts small blind 100
+Pentecoste54: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Qd 3c]
+scorza23: folds 
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: folds 
+Uncalled bet (100) returned to Pentecoste54
+Pentecoste54 collected 350 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka (button) folded before Flop (didn't bet)
+Seat 5: HookahFumari (small blind) folded before Flop
+Seat 6: Pentecoste54 (big blind) collected (350)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762972421: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:10:37 UTC [2026/02/17 10:10:37 ET]
+Table '3975963157 1' 8-max Seat #5 is the button
+Seat 1: TSILIGEORGE13 (7423 in chips) 
+Seat 2: RaFaeLStars7 (1582 in chips) 
+Seat 3: Skielka (4878 in chips) 
+Seat 5: HookahFumari (3323 in chips) 
+Seat 6: Pentecoste54 (3767 in chips) 
+Seat 8: scorza23 (4142 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+Pentecoste54: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d 5c]
+TSILIGEORGE13: folds 
+RaFaeLStars7: raises 1357 to 1557 and is all-in
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (1357) returned to RaFaeLStars7
+RaFaeLStars7 collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 collected (650)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari (button) folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762974840: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:10:53 UTC [2026/02/17 10:10:53 ET]
+Table '3975963157 1' 8-max Seat #6 is the button
+Seat 1: TSILIGEORGE13 (7398 in chips) 
+Seat 2: RaFaeLStars7 (2007 in chips) 
+Seat 3: Skielka (4853 in chips) 
+Seat 5: HookahFumari (3298 in chips) 
+Seat 6: Pentecoste54 (3642 in chips) 
+Seat 8: scorza23 (3917 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+TSILIGEORGE13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8d 9h]
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: raises 400 to 600
+TSILIGEORGE13: folds 
+Uncalled bet (400) returned to scorza23
+scorza23 collected 550 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: TSILIGEORGE13 (big blind) folded before Flop
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) collected (550)
+
+
+
+PokerStars Hand #259762978416: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:11:15 UTC [2026/02/17 10:11:15 ET]
+Table '3975963157 1' 8-max Seat #8 is the button
+Seat 1: TSILIGEORGE13 (7173 in chips) 
+Seat 2: RaFaeLStars7 (1982 in chips) 
+Seat 3: Skielka (4828 in chips) 
+Seat 5: HookahFumari (3273 in chips) 
+Seat 6: Pentecoste54 (3617 in chips) 
+Seat 8: scorza23 (4242 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+TSILIGEORGE13: posts small blind 100
+RaFaeLStars7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [4c 5h]
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+TSILIGEORGE13: raises 550 to 750
+RaFaeLStars7: folds 
+Uncalled bet (550) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 550 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Seat 1: TSILIGEORGE13 (small blind) collected (550)
+Seat 2: RaFaeLStars7 (big blind) folded before Flop
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762981278: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:11:34 UTC [2026/02/17 10:11:34 ET]
+Table '3975963157 1' 8-max Seat #1 is the button
+Seat 1: TSILIGEORGE13 (7498 in chips) 
+Seat 2: RaFaeLStars7 (1757 in chips) 
+Seat 3: Skielka (4803 in chips) 
+Seat 5: HookahFumari (3248 in chips) 
+Seat 6: Pentecoste54 (3592 in chips) 
+Seat 8: scorza23 (4217 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+RaFaeLStars7: posts small blind 100
+Skielka: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [9h 9d]
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: raises 220 to 420
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: folds 
+Uncalled bet (220) returned to scorza23
+scorza23 collected 650 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: TSILIGEORGE13 (button) folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 (small blind) folded before Flop
+Seat 3: Skielka (big blind) folded before Flop
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: scorza23 collected (650)
+
+
+
+PokerStars Hand #259762984091: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:11:52 UTC [2026/02/17 10:11:52 ET]
+Table '3975963157 1' 8-max Seat #2 is the button
+Seat 1: TSILIGEORGE13 (7473 in chips) 
+Seat 2: RaFaeLStars7 (1632 in chips) 
+Seat 3: Skielka (4578 in chips) 
+Seat 5: HookahFumari (3223 in chips) 
+Seat 6: Pentecoste54 (3567 in chips) 
+Seat 8: scorza23 (4642 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+Skielka: posts small blind 100
+HookahFumari: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2c Tc]
+Pentecoste54: folds 
+scorza23: folds 
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: folds 
+Uncalled bet (100) returned to HookahFumari
+HookahFumari collected 350 from pot
+HookahFumari: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 (button) folded before Flop (didn't bet)
+Seat 3: Skielka (small blind) folded before Flop
+Seat 5: HookahFumari (big blind) collected (350)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259762986928: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:12:10 UTC [2026/02/17 10:12:10 ET]
+Table '3975963157 1' 8-max Seat #3 is the button
+Seat 1: TSILIGEORGE13 (7448 in chips) 
+Seat 2: RaFaeLStars7 (1607 in chips) 
+Seat 3: Skielka (4453 in chips) 
+Seat 5: HookahFumari (3448 in chips) 
+Seat 6: Pentecoste54 (3542 in chips) 
+Seat 8: scorza23 (4617 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+HookahFumari: posts small blind 100
+Pentecoste54: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc Jc]
+scorza23: raises 400 to 600
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: calls 600
+HookahFumari: folds 
+Pentecoste54: folds 
+*** FLOP *** [5h Jh 2h]
+scorza23: bets 1650
+Skielka: raises 2178 to 3828 and is all-in
+scorza23: folds 
+Uncalled bet (2178) returned to Skielka
+Skielka collected 4950 from pot
+Skielka: doesn't show hand 
+*** SUMMARY ***
+Total pot 4950 | Rake 0 
+Board [5h Jh 2h]
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka (button) collected (4950)
+Seat 5: HookahFumari (small blind) folded before Flop
+Seat 6: Pentecoste54 (big blind) folded before Flop
+Seat 8: scorza23 folded on the Flop
+
+
+
+PokerStars Hand #259762993203: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:12:49 UTC [2026/02/17 10:12:49 ET]
+Table '3975963157 1' 8-max Seat #5 is the button
+Seat 1: TSILIGEORGE13 (7423 in chips) 
+Seat 2: RaFaeLStars7 (1582 in chips) 
+Seat 3: Skielka (7128 in chips) 
+Seat 5: HookahFumari (3323 in chips) 
+Seat 6: Pentecoste54 (3317 in chips) 
+Seat 8: scorza23 (2342 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+Pentecoste54: posts small blind 100
+scorza23: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [7h 5h]
+TSILIGEORGE13: raises 400 to 600
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (400) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 650 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: TSILIGEORGE13 collected (650)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari (button) folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259762997266: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:13:14 UTC [2026/02/17 10:13:14 ET]
+Table '3975963157 1' 8-max Seat #6 is the button
+Seat 1: TSILIGEORGE13 (7848 in chips) 
+Seat 2: RaFaeLStars7 (1557 in chips) 
+Seat 3: Skielka (7103 in chips) 
+Seat 5: HookahFumari (3298 in chips) 
+Seat 6: Pentecoste54 (3192 in chips) 
+Seat 8: scorza23 (2117 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+scorza23: posts small blind 100
+TSILIGEORGE13: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [5h 2d]
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (100) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 350 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 350 | Rake 0 
+Seat 1: TSILIGEORGE13 (big blind) collected (350)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259762999614: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:13:29 UTC [2026/02/17 10:13:29 ET]
+Table '3975963157 1' 8-max Seat #8 is the button
+Seat 1: TSILIGEORGE13 (8073 in chips) 
+Seat 2: RaFaeLStars7 (1532 in chips) 
+Seat 3: Skielka (7078 in chips) 
+Seat 5: HookahFumari (3273 in chips) 
+Seat 6: Pentecoste54 (3167 in chips) 
+Seat 8: scorza23 (1992 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+TSILIGEORGE13: posts small blind 100
+RaFaeLStars7: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [2d Ts]
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: raises 2942 to 3142 and is all-in
+scorza23: folds 
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Uncalled bet (2942) returned to Pentecoste54
+Pentecoste54 collected 650 from pot
+Pentecoste54: doesn't show hand 
+*** SUMMARY ***
+Total pot 650 | Rake 0 
+Seat 1: TSILIGEORGE13 (small blind) folded before Flop
+Seat 2: RaFaeLStars7 (big blind) folded before Flop
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 collected (650)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763005137: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VII (100/200) - 2026/02/17 15:14:04 UTC [2026/02/17 10:14:04 ET]
+Table '3975963157 1' 8-max Seat #1 is the button
+Seat 1: TSILIGEORGE13 (7948 in chips) 
+Seat 2: RaFaeLStars7 (1307 in chips) 
+Seat 3: Skielka (7053 in chips) 
+Seat 5: HookahFumari (3248 in chips) 
+Seat 6: Pentecoste54 (3592 in chips) 
+Seat 8: scorza23 (1967 in chips) 
+TSILIGEORGE13: posts the ante 25
+RaFaeLStars7: posts the ante 25
+Skielka: posts the ante 25
+HookahFumari: posts the ante 25
+Pentecoste54: posts the ante 25
+scorza23: posts the ante 25
+RaFaeLStars7: posts small blind 100
+Skielka: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [8c 5s]
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+TSILIGEORGE13: raises 200 to 400
+RaFaeLStars7: raises 800 to 1200
+Skielka: folds 
+TSILIGEORGE13: folds 
+Uncalled bet (800) returned to RaFaeLStars7
+RaFaeLStars7 collected 1150 from pot
+*** SUMMARY ***
+Total pot 1150 | Rake 0 
+Seat 1: TSILIGEORGE13 (button) folded before Flop
+Seat 2: RaFaeLStars7 (small blind) collected (1150)
+Seat 3: Skielka (big blind) folded before Flop
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763011935: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:14:47 UTC [2026/02/17 10:14:47 ET]
+Table '3975963157 1' 8-max Seat #2 is the button
+Seat 1: TSILIGEORGE13 (7523 in chips) 
+Seat 2: RaFaeLStars7 (2032 in chips) 
+Seat 3: Skielka (6828 in chips) 
+Seat 5: HookahFumari (3223 in chips) 
+Seat 6: Pentecoste54 (3567 in chips) 
+Seat 8: scorza23 (1942 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+HookahFumari: posts the ante 35
+Pentecoste54: posts the ante 35
+scorza23: posts the ante 35
+Skielka: posts small blind 150
+HookahFumari: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Ad]
+Pentecoste54: folds 
+scorza23: raises 1607 to 1907 and is all-in
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: folds 
+Uncalled bet (1607) returned to scorza23
+scorza23 collected 960 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 (button) folded before Flop (didn't bet)
+Seat 3: Skielka (small blind) folded before Flop
+Seat 5: HookahFumari (big blind) folded before Flop
+Seat 6: Pentecoste54 folded before Flop (didn't bet)
+Seat 8: scorza23 collected (960)
+
+
+
+PokerStars Hand #259763014819: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:15:04 UTC [2026/02/17 10:15:04 ET]
+Table '3975963157 1' 8-max Seat #3 is the button
+Seat 1: TSILIGEORGE13 (7488 in chips) 
+Seat 2: RaFaeLStars7 (1997 in chips) 
+Seat 3: Skielka (6643 in chips) 
+Seat 5: HookahFumari (2888 in chips) 
+Seat 6: Pentecoste54 (3532 in chips) 
+Seat 8: scorza23 (2567 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+HookahFumari: posts the ante 35
+Pentecoste54: posts the ante 35
+scorza23: posts the ante 35
+HookahFumari: posts small blind 150
+Pentecoste54: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7h Kh]
+scorza23: folds 
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: raises 2553 to 2853 and is all-in
+Pentecoste54: folds 
+Uncalled bet (2553) returned to HookahFumari
+HookahFumari collected 810 from pot
+HookahFumari: doesn't show hand 
+*** SUMMARY ***
+Total pot 810 | Rake 0 
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka (button) folded before Flop (didn't bet)
+Seat 5: HookahFumari (small blind) collected (810)
+Seat 6: Pentecoste54 (big blind) folded before Flop
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763019205: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:15:31 UTC [2026/02/17 10:15:31 ET]
+Table '3975963157 1' 8-max Seat #5 is the button
+Seat 1: TSILIGEORGE13 (7453 in chips) 
+Seat 2: RaFaeLStars7 (1962 in chips) 
+Seat 3: Skielka (6608 in chips) 
+Seat 5: HookahFumari (3363 in chips) 
+Seat 6: Pentecoste54 (3197 in chips) 
+Seat 8: scorza23 (2532 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+HookahFumari: posts the ante 35
+Pentecoste54: posts the ante 35
+scorza23: posts the ante 35
+Pentecoste54: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6d 3s]
+TSILIGEORGE13: raises 300 to 600
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: folds 
+Pentecoste54: folds 
+scorza23: folds 
+Uncalled bet (300) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 960 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: TSILIGEORGE13 collected (960)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari (button) folded before Flop (didn't bet)
+Seat 6: Pentecoste54 (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763021377: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:15:45 UTC [2026/02/17 10:15:45 ET]
+Table '3975963157 1' 8-max Seat #6 is the button
+Seat 1: TSILIGEORGE13 (8078 in chips) 
+Seat 2: RaFaeLStars7 (1927 in chips) 
+Seat 3: Skielka (6573 in chips) 
+Seat 5: HookahFumari (3328 in chips) 
+Seat 6: Pentecoste54 (3012 in chips) 
+Seat 8: scorza23 (2197 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+HookahFumari: posts the ante 35
+Pentecoste54: posts the ante 35
+scorza23: posts the ante 35
+scorza23: posts small blind 150
+TSILIGEORGE13: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 3d]
+RaFaeLStars7: folds 
+Skielka: folds 
+HookahFumari: raises 2993 to 3293 and is all-in
+Pentecoste54: folds 
+scorza23: folds 
+TSILIGEORGE13: folds 
+Uncalled bet (2993) returned to HookahFumari
+HookahFumari collected 960 from pot
+HookahFumari: doesn't show hand 
+*** SUMMARY ***
+Total pot 960 | Rake 0 
+Seat 1: TSILIGEORGE13 (big blind) folded before Flop
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 5: HookahFumari collected (960)
+Seat 6: Pentecoste54 (button) folded before Flop (didn't bet)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763024764: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:16:06 UTC [2026/02/17 10:16:06 ET]
+Table '3975963157 1' 8-max Seat #8 is the button
+Seat 1: TSILIGEORGE13 (7743 in chips) 
+Seat 2: RaFaeLStars7 (1892 in chips) 
+Seat 3: Skielka (6538 in chips) 
+Seat 6: Pentecoste54 (2977 in chips) 
+Seat 8: scorza23 (2012 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+Pentecoste54: posts the ante 35
+scorza23: posts the ante 35
+TSILIGEORGE13: posts small blind 150
+RaFaeLStars7: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 6c]
+Skielka: folds 
+Pentecoste54: raises 2642 to 2942 and is all-in
+scorza23: folds 
+TSILIGEORGE13: calls 2792
+RaFaeLStars7: folds 
+*** FLOP *** [Td 3c Ts]
+*** TURN *** [Td 3c Ts] [As]
+*** RIVER *** [Td 3c Ts As] [8d]
+*** SHOW DOWN ***
+TSILIGEORGE13: shows [Ks Kh] (two pair, Kings and Tens)
+Pentecoste54: shows [Jc Kd] (a pair of Tens)
+TSILIGEORGE13 collected 6359 from pot
+Pentecoste54 finished the tournament in 10th place
+*** SUMMARY ***
+Total pot 6359 | Rake 0 
+Board [Td 3c Ts As 8d]
+Seat 1: TSILIGEORGE13 (small blind) showed [Ks Kh] and won (6359) with two pair, Kings and Tens
+Seat 2: RaFaeLStars7 (big blind) folded before Flop
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 6: Pentecoste54 showed [Jc Kd] and lost with a pair of Tens
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763028718: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:16:30 UTC [2026/02/17 10:16:30 ET]
+Table '3975963157 1' 8-max Seat #1 is the button
+Seat 1: TSILIGEORGE13 (11125 in chips) 
+Seat 2: RaFaeLStars7 (1557 in chips) 
+Seat 3: Skielka (6503 in chips) 
+Seat 8: scorza23 (1977 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+scorza23: posts the ante 35
+RaFaeLStars7: posts small blind 150
+Skielka: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3d Ac]
+scorza23: raises 1642 to 1942 and is all-in
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: folds 
+Uncalled bet (1642) returned to scorza23
+scorza23 collected 890 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 1: TSILIGEORGE13 (button) folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 (small blind) folded before Flop
+Seat 3: Skielka (big blind) folded before Flop
+Seat 8: scorza23 collected (890)
+
+
+
+PokerStars Hand #259763030940: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:16:43 UTC [2026/02/17 10:16:43 ET]
+Table '3975963157 1' 8-max Seat #2 is the button
+Seat 1: TSILIGEORGE13 (11090 in chips) 
+Seat 2: RaFaeLStars7 (1372 in chips) 
+Seat 3: Skielka (6168 in chips) 
+Seat 8: scorza23 (2532 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+scorza23: posts the ante 35
+Skielka: posts small blind 150
+scorza23: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [7d 5d]
+TSILIGEORGE13: raises 300 to 600
+RaFaeLStars7: folds 
+Skielka: folds 
+scorza23: folds 
+Uncalled bet (300) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 890 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 1: TSILIGEORGE13 collected (890)
+Seat 2: RaFaeLStars7 (button) folded before Flop (didn't bet)
+Seat 3: Skielka (small blind) folded before Flop
+Seat 8: scorza23 (big blind) folded before Flop
+
+
+
+PokerStars Hand #259763034005: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:17:02 UTC [2026/02/17 10:17:02 ET]
+Table '3975963157 1' 8-max Seat #3 is the button
+Seat 1: TSILIGEORGE13 (11645 in chips) 
+Seat 2: RaFaeLStars7 (1337 in chips) 
+Seat 3: Skielka (5983 in chips) 
+Seat 8: scorza23 (2197 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+scorza23: posts the ante 35
+scorza23: posts small blind 150
+TSILIGEORGE13: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 5h]
+RaFaeLStars7: folds 
+Skielka: raises 300 to 600
+scorza23: folds 
+TSILIGEORGE13: folds 
+Uncalled bet (300) returned to Skielka
+Skielka collected 890 from pot
+Skielka: doesn't show hand 
+*** SUMMARY ***
+Total pot 890 | Rake 0 
+Seat 1: TSILIGEORGE13 (big blind) folded before Flop
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka (button) collected (890)
+Seat 8: scorza23 (small blind) folded before Flop
+
+
+
+PokerStars Hand #259763037996: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:17:26 UTC [2026/02/17 10:17:26 ET]
+Table '3975963157 1' 8-max Seat #8 is the button
+Seat 1: TSILIGEORGE13 (11310 in chips) 
+Seat 2: RaFaeLStars7 (1302 in chips) 
+Seat 3: Skielka (6538 in chips) 
+Seat 8: scorza23 (2012 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+scorza23: posts the ante 35
+TSILIGEORGE13: posts small blind 150
+RaFaeLStars7: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [6h 5c]
+Skielka: folds 
+scorza23: folds 
+TSILIGEORGE13: raises 10975 to 11275 and is all-in
+babyhud is disconnected 
+luti.sp2010 is disconnected 
+RaFaeLStars7: folds 
+Uncalled bet (10975) returned to TSILIGEORGE13
+TSILIGEORGE13 collected 740 from pot
+TSILIGEORGE13: doesn't show hand 
+*** SUMMARY ***
+Total pot 740 | Rake 0 
+Seat 1: TSILIGEORGE13 (small blind) collected (740)
+Seat 2: RaFaeLStars7 (big blind) folded before Flop
+Seat 3: Skielka folded before Flop (didn't bet)
+Seat 8: scorza23 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763041327: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:17:47 UTC [2026/02/17 10:17:47 ET]
+Table '3975963157 1' 8-max Seat #1 is the button
+Seat 1: TSILIGEORGE13 (11715 in chips) 
+Seat 2: RaFaeLStars7 (967 in chips) 
+Seat 3: Skielka (6503 in chips) 
+Seat 4: babyhud (5795 in chips) 
+Seat 5: HookahFumari (3988 in chips) 
+Seat 6: luti.sp2010 (6227 in chips) 
+Seat 7: MO_Miura (10828 in chips) 
+Seat 8: scorza23 (1977 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+babyhud: posts the ante 35
+HookahFumari: posts the ante 35
+luti.sp2010: posts the ante 35
+MO_Miura: posts the ante 35
+scorza23: posts the ante 35
+RaFaeLStars7: posts small blind 150
+Skielka: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [Qc 9h]
+babyhud: folds 
+HookahFumari: folds 
+luti.sp2010: folds 
+MO_Miura: raises 600 to 900
+scorza23: folds 
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: calls 600
+*** FLOP *** [8s Qs 2d]
+Skielka: checks 
+MO_Miura: bets 600
+Skielka: calls 600
+*** TURN *** [8s Qs 2d] [4c]
+Skielka: checks 
+MO_Miura: bets 9293 and is all-in
+Skielka: folds 
+Uncalled bet (9293) returned to MO_Miura
+MO_Miura collected 3430 from pot
+MO_Miura: doesn't show hand 
+*** SUMMARY ***
+Total pot 3430 | Rake 0 
+Board [8s Qs 2d 4c]
+Seat 1: TSILIGEORGE13 (button) folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 (small blind) folded before Flop
+Seat 3: Skielka (big blind) folded on the Turn
+Seat 4: babyhud folded before Flop (didn't bet)
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: luti.sp2010 folded before Flop (didn't bet)
+Seat 7: MO_Miura collected (3430)
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763050455: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level VIII (150/300) - 2026/02/17 15:18:43 UTC [2026/02/17 10:18:43 ET]
+Table '3975963157 1' 8-max Seat #2 is the button
+Seat 1: TSILIGEORGE13 (11680 in chips) 
+Seat 2: RaFaeLStars7 (782 in chips) 
+Seat 3: Skielka (4968 in chips) 
+Seat 4: babyhud (5760 in chips) 
+Seat 5: HookahFumari (3953 in chips) 
+Seat 6: luti.sp2010 (6192 in chips) 
+Seat 7: MO_Miura (12723 in chips) 
+Seat 8: scorza23 (1942 in chips) 
+TSILIGEORGE13: posts the ante 35
+RaFaeLStars7: posts the ante 35
+Skielka: posts the ante 35
+babyhud: posts the ante 35
+HookahFumari: posts the ante 35
+luti.sp2010: posts the ante 35
+MO_Miura: posts the ante 35
+scorza23: posts the ante 35
+Skielka: posts small blind 150
+babyhud: posts big blind 300
+*** HOLE CARDS ***
+Dealt to scorza23 [3h 7s]
+HookahFumari: folds 
+luti.sp2010: folds 
+MO_Miura: calls 300
+scorza23: folds 
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: raises 300 to 600
+babyhud: calls 300
+MO_Miura: calls 300
+*** FLOP *** [Qs As 7d]
+Skielka: checks 
+babyhud: checks 
+MO_Miura: checks 
+*** TURN *** [Qs As 7d] [4d]
+Skielka: checks 
+babyhud: checks 
+MO_Miura: checks 
+*** RIVER *** [Qs As 7d 4d] [Qd]
+Skielka: bets 1040
+babyhud: raises 1040 to 2080
+MO_Miura: folds 
+Skielka: calls 1040
+*** SHOW DOWN ***
+babyhud: shows [Qc Jh] (three of a kind, Queens)
+Skielka: shows [Kd Td] (a flush, King high)
+Skielka collected 6240 from pot
+*** SUMMARY ***
+Total pot 6240 | Rake 0 
+Board [Qs As 7d 4d Qd]
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 (button) folded before Flop (didn't bet)
+Seat 3: Skielka (small blind) showed [Kd Td] and won (6240) with a flush, King high
+Seat 4: babyhud (big blind) showed [Qc Jh] and lost with three of a kind, Queens
+Seat 5: HookahFumari folded before Flop (didn't bet)
+Seat 6: luti.sp2010 folded before Flop (didn't bet)
+Seat 7: MO_Miura folded on the River
+Seat 8: scorza23 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #259763059714: Tournament #3975963157, $0.45+$0.05 USD Hold'em No Limit - Level IX (200/400) - 2026/02/17 15:19:39 UTC [2026/02/17 10:19:39 ET]
+Table '3975963157 1' 8-max Seat #3 is the button
+Seat 1: TSILIGEORGE13 (11645 in chips) 
+Seat 2: RaFaeLStars7 (747 in chips) 
+Seat 3: Skielka (8493 in chips) 
+Seat 4: babyhud (3045 in chips) 
+Seat 5: HookahFumari (3918 in chips) 
+Seat 6: luti.sp2010 (6157 in chips) 
+Seat 7: MO_Miura (12088 in chips) 
+Seat 8: scorza23 (1907 in chips) 
+TSILIGEORGE13: posts the ante 50
+RaFaeLStars7: posts the ante 50
+Skielka: posts the ante 50
+babyhud: posts the ante 50
+HookahFumari: posts the ante 50
+luti.sp2010: posts the ante 50
+MO_Miura: posts the ante 50
+scorza23: posts the ante 50
+babyhud: posts small blind 200
+HookahFumari: posts big blind 400
+*** HOLE CARDS ***
+Dealt to scorza23 [Jc Ah]
+luti.sp2010: folds 
+MO_Miura: raises 400 to 800
+scorza23: raises 1057 to 1857 and is all-in
+TSILIGEORGE13: folds 
+RaFaeLStars7: folds 
+Skielka: raises 6586 to 8443 and is all-in
+babyhud: folds 
+HookahFumari: folds 
+MO_Miura: folds 
+Uncalled bet (6586) returned to Skielka
+*** FLOP *** [5c 8d 4s]
+*** TURN *** [5c 8d 4s] [2s]
+*** RIVER *** [5c 8d 4s 2s] [6s]
+*** SHOW DOWN ***
+scorza23: shows [Jc Ah] (high card Ace)
+Skielka: shows [Kd Ad] (high card Ace - King kicker)
+Skielka collected 5514 from pot
+scorza23 finished the tournament in 8th place
+*** SUMMARY ***
+Total pot 5514 | Rake 0 
+Board [5c 8d 4s 2s 6s]
+Seat 1: TSILIGEORGE13 folded before Flop (didn't bet)
+Seat 2: RaFaeLStars7 folded before Flop (didn't bet)
+Seat 3: Skielka (button) showed [Kd Ad] and won (5514) with high card Ace
+Seat 4: babyhud (small blind) folded before Flop
+Seat 5: HookahFumari (big blind) folded before Flop
+Seat 6: luti.sp2010 folded before Flop (didn't bet)
+Seat 7: MO_Miura folded before Flop
+Seat 8: scorza23 showed [Jc Ah] and lost with high card Ace
+
+
+

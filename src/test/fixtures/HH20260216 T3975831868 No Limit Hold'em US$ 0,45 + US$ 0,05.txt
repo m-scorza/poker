@@ -1,0 +1,41 @@
+﻿PokerStars Hand #259757508036: Tournament #3975831868, $0.45+$0.05 USD Hold'em No Limit - Level I (10/20) - 2026/02/17 0:02:28 UTC [2026/02/16 19:02:28 ET]
+Table '3975831868 2' 8-max Seat #3 is the button
+Seat 3: traumatizato (1500 in chips) 
+Seat 5: scorza23 (1500 in chips) 
+Seat 6: Jeimav (1500 in chips) 
+Seat 7: danicheba (1500 in chips) 
+Seat 8: pff1977 (1500 in chips) 
+traumatizato: posts the ante 3
+scorza23: posts the ante 3
+Jeimav: posts the ante 3
+danicheba: posts the ante 3
+pff1977: posts the ante 3
+scorza23: posts small blind 10
+Jeimav: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Ks]
+danicheba: folds 
+pff1977: raises 65 to 85
+traumatizato: folds 
+scorza23: raises 1412 to 1497 and is all-in
+Jeimav: folds 
+pff1977: calls 1412 and is all-in
+*** FLOP *** [8h Kh 2h]
+*** TURN *** [8h Kh 2h] [Ac]
+*** RIVER *** [8h Kh 2h Ac] [2c]
+*** SHOW DOWN ***
+scorza23: shows [Js Ks] (two pair, Kings and Deuces)
+pff1977: shows [Ad Ah] (a full house, Aces full of Deuces)
+pff1977 collected 3029 from pot
+scorza23 finished the tournament
+*** SUMMARY ***
+Total pot 3029 | Rake 0 
+Board [8h Kh 2h Ac 2c]
+Seat 3: traumatizato (button) folded before Flop (didn't bet)
+Seat 5: scorza23 (small blind) showed [Js Ks] and lost with two pair, Kings and Deuces
+Seat 6: Jeimav (big blind) folded before Flop
+Seat 7: danicheba folded before Flop (didn't bet)
+Seat 8: pff1977 showed [Ad Ah] and won (3029) with a full house, Aces full of Deuces
+
+
+

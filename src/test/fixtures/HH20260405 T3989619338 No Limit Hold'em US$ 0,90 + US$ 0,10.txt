@@ -1,0 +1,1047 @@
+﻿PokerStars Hand #260360775904: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 19:53:39 BRT [2026/04/05 18:53:39 ET]
+Table '3989619338 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (1488 in chips) is sitting out
+Seat 2: carlos ad949 (1396 in chips) 
+Seat 3: regsanches (1391 in chips) 
+Seat 4: SplashDiddy007 (1396 in chips) out of hand (moved from another table into small blind)
+Seat 5: sharom3147 (1820 in chips) out of hand (moved from another table into small blind)
+Seat 6: BUTTCHIN0707 (1500 in chips) out of hand (moved from another table into small blind)
+Seat 7: arcadekidd26 (1635 in chips) 
+Seat 8: David1813123 (1477 in chips) 
+SplashDiddy007 will be allowed to play after the button
+sharom3147 will be allowed to play after the button
+BUTTCHIN0707 will be allowed to play after the button
+scorza23: posts the ante 3
+carlos ad949: posts the ante 3
+regsanches: posts the ante 3
+arcadekidd26: posts the ante 3
+David1813123: posts the ante 3
+arcadekidd26: posts small blind 10
+David1813123: posts big blind 20
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 2s]
+scorza23: folds 
+scorza23 is disconnected 
+scorza23 has returned
+carlos ad949: raises 20 to 40
+regsanches: raises 125 to 165
+arcadekidd26: folds 
+David1813123: folds 
+carlos ad949: folds 
+Uncalled bet (125) returned to regsanches
+regsanches collected 125 from pot
+regsanches: doesn't show hand 
+*** SUMMARY ***
+Total pot 125 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 folded before Flop
+Seat 3: regsanches (button) collected (125)
+Seat 7: arcadekidd26 (small blind) folded before Flop
+Seat 8: David1813123 (big blind) folded before Flop
+
+
+
+PokerStars Hand #260360785100: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 19:54:23 BRT [2026/04/05 18:54:23 ET]
+Table '3989619338 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (1485 in chips) 
+Seat 2: carlos ad949 (1353 in chips) 
+Seat 3: regsanches (1473 in chips) 
+Seat 4: SplashDiddy007 (1396 in chips) 
+Seat 5: sharom3147 (1820 in chips) 
+Seat 6: BUTTCHIN0707 (1500 in chips) 
+Seat 7: arcadekidd26 (1622 in chips) 
+Seat 8: David1813123 (1454 in chips) 
+scorza23: posts the ante 4
+carlos ad949: posts the ante 4
+regsanches: posts the ante 4
+SplashDiddy007: posts the ante 4
+sharom3147: posts the ante 4
+BUTTCHIN0707: posts the ante 4
+arcadekidd26: posts the ante 4
+David1813123: posts the ante 4
+David1813123: posts small blind 15
+scorza23: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Js Kh]
+carlos ad949: folds 
+regsanches: folds 
+SplashDiddy007: folds 
+sharom3147 has timed out
+sharom3147: folds 
+sharom3147 is sitting out
+BUTTCHIN0707: folds 
+arcadekidd26: raises 30 to 60
+David1813123: folds 
+scorza23: calls 30
+*** FLOP *** [Jd 7h 5c]
+scorza23: bets 167
+arcadekidd26: calls 167
+*** TURN *** [Jd 7h 5c] [Ac]
+scorza23: checks 
+arcadekidd26: bets 251
+scorza23: raises 251 to 502
+arcadekidd26: folds 
+Uncalled bet (251) returned to scorza23
+scorza23 collected 1003 from pot
+scorza23: doesn't show hand 
+*** SUMMARY ***
+Total pot 1003 | Rake 0 
+Board [Jd 7h 5c Ac]
+Seat 1: scorza23 (big blind) collected (1003)
+Seat 2: carlos ad949 folded before Flop (didn't bet)
+Seat 3: regsanches folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: sharom3147 folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 (button) folded on the Turn
+Seat 8: David1813123 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360855772: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:01:57 BRT [2026/04/05 19:01:57 ET]
+Table '3989619338 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (2006 in chips) 
+Seat 2: carlos ad949 (1349 in chips) 
+Seat 3: regsanches (1469 in chips) 
+Seat 4: SplashDiddy007 (1392 in chips) 
+Seat 5: sharom3147 (1816 in chips) 
+Seat 6: BUTTCHIN0707 (1496 in chips) 
+Seat 7: arcadekidd26 (1140 in chips) 
+Seat 8: David1813123 (1435 in chips) 
+scorza23: posts the ante 4
+carlos ad949: posts the ante 4
+regsanches: posts the ante 4
+SplashDiddy007: posts the ante 4
+sharom3147: posts the ante 4
+BUTTCHIN0707: posts the ante 4
+arcadekidd26: posts the ante 4
+David1813123: posts the ante 4
+scorza23: posts small blind 15
+carlos ad949: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [6c 4d]
+regsanches: folds 
+SplashDiddy007: folds 
+sharom3147: calls 30
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+David1813123: folds 
+scorza23: folds 
+carlos ad949: checks 
+*** FLOP *** [7c 2h 6d]
+carlos ad949: checks 
+sharom3147: bets 60
+carlos ad949: folds 
+Uncalled bet (60) returned to sharom3147
+sharom3147 collected 107 from pot
+David1813123 is disconnected 
+*** SUMMARY ***
+Total pot 107 | Rake 0 
+Board [7c 2h 6d]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: carlos ad949 (big blind) folded on the Flop
+Seat 3: regsanches folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: sharom3147 collected (107)
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+Seat 8: David1813123 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360867939: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:02:57 BRT [2026/04/05 19:02:57 ET]
+Table '3989619338 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (1987 in chips) 
+Seat 2: carlos ad949 (1315 in chips) 
+Seat 3: regsanches (1465 in chips) 
+Seat 4: SplashDiddy007 (1388 in chips) 
+Seat 5: sharom3147 (1889 in chips) 
+Seat 6: BUTTCHIN0707 (1492 in chips) 
+Seat 7: arcadekidd26 (1136 in chips) 
+Seat 8: David1813123 (1431 in chips) 
+scorza23: posts the ante 4
+carlos ad949: posts the ante 4
+regsanches: posts the ante 4
+SplashDiddy007: posts the ante 4
+sharom3147: posts the ante 4
+BUTTCHIN0707: posts the ante 4
+arcadekidd26: posts the ante 4
+David1813123: posts the ante 4
+carlos ad949: posts small blind 15
+regsanches: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [Jd Td]
+SplashDiddy007: folds 
+sharom3147: calls 30
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+David1813123 is connected 
+David1813123 is disconnected 
+David1813123 is connected 
+David1813123: calls 30
+scorza23: calls 30
+carlos ad949: calls 15
+regsanches: checks 
+*** FLOP *** [Qs 5h 8s]
+carlos ad949: checks 
+regsanches: bets 60
+sharom3147: folds 
+David1813123: folds 
+scorza23: calls 60
+carlos ad949: folds 
+*** TURN *** [Qs 5h 8s] [Jh]
+regsanches: bets 151
+scorza23: calls 151
+*** RIVER *** [Qs 5h 8s Jh] [Qd]
+regsanches: bets 604
+scorza23: calls 604
+*** SHOW DOWN ***
+regsanches: shows [Qc 2d] (three of a kind, Queens)
+scorza23: mucks hand 
+regsanches collected 1812 from pot
+*** SUMMARY ***
+Total pot 1812 | Rake 0 
+Board [Qs 5h 8s Jh Qd]
+Seat 1: scorza23 (button) mucked [Jd Td]
+Seat 2: carlos ad949 (small blind) folded on the Flop
+Seat 3: regsanches (big blind) showed [Qc 2d] and won (1812) with three of a kind, Queens
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: sharom3147 folded on the Flop
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+Seat 8: David1813123 folded on the Flop
+
+
+
+PokerStars Hand #260360891483: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level II (15/30) - 2026/04/05 20:04:53 BRT [2026/04/05 19:04:53 ET]
+Table '3989619338 4' 8-max Seat #2 is the button
+Seat 1: scorza23 (1138 in chips) 
+Seat 2: carlos ad949 (1281 in chips) 
+Seat 3: regsanches (2428 in chips) 
+Seat 4: SplashDiddy007 (1384 in chips) 
+Seat 5: sharom3147 (1855 in chips) 
+Seat 6: BUTTCHIN0707 (1488 in chips) 
+Seat 7: arcadekidd26 (1132 in chips) 
+Seat 8: David1813123 (1397 in chips) 
+scorza23: posts the ante 4
+carlos ad949: posts the ante 4
+regsanches: posts the ante 4
+SplashDiddy007: posts the ante 4
+sharom3147: posts the ante 4
+BUTTCHIN0707: posts the ante 4
+arcadekidd26: posts the ante 4
+David1813123: posts the ante 4
+regsanches: posts small blind 15
+SplashDiddy007: posts big blind 30
+*** HOLE CARDS ***
+Dealt to scorza23 [7c Ah]
+sharom3147: calls 30
+BUTTCHIN0707: folds 
+arcadekidd26: raises 60 to 90
+David1813123: folds 
+scorza23: folds 
+carlos ad949: calls 90
+regsanches: folds 
+SplashDiddy007: folds 
+sharom3147: folds 
+*** FLOP *** [Kh 2h Td]
+arcadekidd26: bets 144
+carlos ad949: folds 
+Uncalled bet (144) returned to arcadekidd26
+arcadekidd26 collected 287 from pot
+arcadekidd26: doesn't show hand 
+*** SUMMARY ***
+Total pot 287 | Rake 0 
+Board [Kh 2h Td]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 (button) folded on the Flop
+Seat 3: regsanches (small blind) folded before Flop
+Seat 4: SplashDiddy007 (big blind) folded before Flop
+Seat 5: sharom3147 folded before Flop
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 collected (287)
+Seat 8: David1813123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360904972: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:05:59 BRT [2026/04/05 19:05:59 ET]
+Table '3989619338 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (1134 in chips) 
+Seat 2: carlos ad949 (1187 in chips) 
+Seat 3: regsanches (2409 in chips) 
+Seat 4: SplashDiddy007 (1350 in chips) 
+Seat 5: sharom3147 (1821 in chips) 
+Seat 6: BUTTCHIN0707 (1484 in chips) 
+Seat 7: arcadekidd26 (1325 in chips) 
+Seat 8: David1813123 (1393 in chips) 
+scorza23: posts the ante 6
+carlos ad949: posts the ante 6
+regsanches: posts the ante 6
+SplashDiddy007: posts the ante 6
+sharom3147: posts the ante 6
+BUTTCHIN0707: posts the ante 6
+arcadekidd26: posts the ante 6
+David1813123: posts the ante 6
+SplashDiddy007: posts small blind 25
+sharom3147: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Tc Kc]
+BUTTCHIN0707: folds 
+arcadekidd26: calls 50
+David1813123: folds 
+scorza23 has timed out
+scorza23: folds 
+scorza23 is sitting out
+carlos ad949: raises 50 to 100
+regsanches: folds 
+SplashDiddy007: folds 
+sharom3147: calls 50
+arcadekidd26: calls 50
+*** FLOP *** [As Qd Td]
+sharom3147: checks 
+arcadekidd26: checks 
+carlos ad949: bets 187
+sharom3147: folds 
+arcadekidd26: calls 187
+*** TURN *** [As Qd Td] [4s]
+arcadekidd26: checks 
+carlos ad949: bets 894 and is all-in
+arcadekidd26: calls 894
+*** RIVER *** [As Qd Td 4s] [Ts]
+*** SHOW DOWN ***
+arcadekidd26: shows [3d Ad] (two pair, Aces and Tens)
+carlos ad949: shows [Ac 6s] (two pair, Aces and Tens)
+arcadekidd26 collected 1268 from pot
+carlos ad949 collected 1267 from pot
+*** SUMMARY ***
+Total pot 2535 | Rake 0 
+Board [As Qd Td 4s Ts]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 showed [Ac 6s] and won (1267) with two pair, Aces and Tens
+Seat 3: regsanches (button) folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 (small blind) folded before Flop
+Seat 5: sharom3147 (big blind) folded on the Flop
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 showed [3d Ad] and won (1268) with two pair, Aces and Tens
+Seat 8: David1813123 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260360922245: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:07:24 BRT [2026/04/05 19:07:24 ET]
+Table '3989619338 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (1128 in chips) is sitting out
+Seat 2: carlos ad949 (1267 in chips) 
+Seat 3: regsanches (2403 in chips) 
+Seat 4: SplashDiddy007 (1319 in chips) 
+Seat 5: sharom3147 (1715 in chips) 
+Seat 6: BUTTCHIN0707 (1478 in chips) 
+Seat 7: arcadekidd26 (1406 in chips) 
+Seat 8: David1813123 (1387 in chips) 
+scorza23: posts the ante 6
+carlos ad949: posts the ante 6
+regsanches: posts the ante 6
+SplashDiddy007: posts the ante 6
+sharom3147: posts the ante 6
+BUTTCHIN0707: posts the ante 6
+arcadekidd26: posts the ante 6
+David1813123: posts the ante 6
+sharom3147: posts small blind 25
+BUTTCHIN0707: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [8c Js]
+arcadekidd26: folds 
+David1813123: calls 50
+scorza23: folds 
+carlos ad949: calls 50
+regsanches: raises 50 to 100
+SplashDiddy007: folds 
+sharom3147: folds 
+BUTTCHIN0707: calls 50
+David1813123: calls 50
+carlos ad949: calls 50
+*** FLOP *** [2s 2h Jh]
+BUTTCHIN0707: checks 
+David1813123: checks 
+carlos ad949: checks 
+regsanches: checks 
+*** TURN *** [2s 2h Jh] [Ad]
+BUTTCHIN0707: checks 
+David1813123: checks 
+carlos ad949: bets 50
+regsanches: calls 50
+BUTTCHIN0707: calls 50
+David1813123: folds 
+*** RIVER *** [2s 2h Jh Ad] [8d]
+BUTTCHIN0707: checks 
+carlos ad949: checks 
+regsanches: checks 
+*** SHOW DOWN ***
+BUTTCHIN0707: shows [Kh 3h] (a pair of Deuces)
+carlos ad949: mucks hand 
+regsanches: shows [3s Ks] (a pair of Deuces)
+BUTTCHIN0707 collected 312 from pot
+regsanches collected 311 from pot
+*** SUMMARY ***
+Total pot 623 | Rake 0 
+Board [2s 2h Jh Ad 8d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 mucked [Ts 9d]
+Seat 3: regsanches showed [3s Ks] and won (311) with a pair of Deuces
+Seat 4: SplashDiddy007 (button) folded before Flop (didn't bet)
+Seat 5: sharom3147 (small blind) folded before Flop
+Seat 6: BUTTCHIN0707 (big blind) showed [Kh 3h] and won (312) with a pair of Deuces
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+Seat 8: David1813123 folded on the Turn
+
+
+
+PokerStars Hand #260360943048: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:09:06 BRT [2026/04/05 19:09:06 ET]
+Table '3989619338 4' 8-max Seat #5 is the button
+Seat 1: scorza23 (1122 in chips) is sitting out
+Seat 2: carlos ad949 (1111 in chips) 
+Seat 4: SplashDiddy007 (1313 in chips) 
+Seat 5: sharom3147 (1684 in chips) 
+Seat 6: BUTTCHIN0707 (1634 in chips) 
+Seat 7: arcadekidd26 (1400 in chips) 
+Seat 8: David1813123 (1281 in chips) 
+scorza23: posts the ante 6
+carlos ad949: posts the ante 6
+SplashDiddy007: posts the ante 6
+sharom3147: posts the ante 6
+BUTTCHIN0707: posts the ante 6
+arcadekidd26: posts the ante 6
+David1813123: posts the ante 6
+BUTTCHIN0707: posts small blind 25
+arcadekidd26: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [5s 7h]
+David1813123: raises 1225 to 1275 and is all-in
+scorza23: folds 
+carlos ad949: folds 
+SplashDiddy007: folds 
+sharom3147: folds 
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+Uncalled bet (1225) returned to David1813123
+David1813123 collected 167 from pot
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: sharom3147 (button) folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 (small blind) folded before Flop
+Seat 7: arcadekidd26 (big blind) folded before Flop
+Seat 8: David1813123 collected (167)
+
+
+
+PokerStars Hand #260360946675: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:09:24 BRT [2026/04/05 19:09:24 ET]
+Table '3989619338 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (1116 in chips) is sitting out
+Seat 2: carlos ad949 (1105 in chips) 
+Seat 4: SplashDiddy007 (1307 in chips) 
+Seat 5: sharom3147 (1678 in chips) 
+Seat 6: BUTTCHIN0707 (1603 in chips) 
+Seat 7: arcadekidd26 (1344 in chips) 
+Seat 8: David1813123 (1392 in chips) 
+scorza23: posts the ante 6
+carlos ad949: posts the ante 6
+SplashDiddy007: posts the ante 6
+sharom3147: posts the ante 6
+BUTTCHIN0707: posts the ante 6
+arcadekidd26: posts the ante 6
+David1813123: posts the ante 6
+arcadekidd26: posts small blind 25
+David1813123: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Js 6d]
+scorza23: folds 
+carlos ad949: folds 
+SplashDiddy007: folds 
+sharom3147: calls 50
+BUTTCHIN0707: folds 
+arcadekidd26: calls 25
+David1813123: raises 1336 to 1386 and is all-in
+sharom3147: calls 1336
+arcadekidd26: folds 
+*** FLOP *** [Qs Kc 2h]
+*** TURN *** [Qs Kc 2h] [4h]
+*** RIVER *** [Qs Kc 2h 4h] [8s]
+*** SHOW DOWN ***
+David1813123: shows [4d 4s] (three of a kind, Fours)
+sharom3147: shows [Ad 5c] (high card Ace)
+David1813123 collected 2864 from pot
+*** SUMMARY ***
+Total pot 2864 | Rake 0 
+Board [Qs Kc 2h 4h 8s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: sharom3147 showed [Ad 5c] and lost with high card Ace
+Seat 6: BUTTCHIN0707 (button) folded before Flop (didn't bet)
+Seat 7: arcadekidd26 (small blind) folded before Flop
+Seat 8: David1813123 (big blind) showed [4d 4s] and won (2864) with three of a kind, Fours
+
+
+
+PokerStars Hand #260360957875: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:10:19 BRT [2026/04/05 19:10:19 ET]
+Table '3989619338 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (1110 in chips) is sitting out
+Seat 2: carlos ad949 (1099 in chips) 
+Seat 4: SplashDiddy007 (1301 in chips) 
+Seat 5: sharom3147 (286 in chips) 
+Seat 6: BUTTCHIN0707 (1597 in chips) 
+Seat 7: arcadekidd26 (1288 in chips) 
+Seat 8: David1813123 (2864 in chips) 
+scorza23: posts the ante 6
+carlos ad949: posts the ante 6
+SplashDiddy007: posts the ante 6
+sharom3147: posts the ante 6
+BUTTCHIN0707: posts the ante 6
+arcadekidd26: posts the ante 6
+David1813123: posts the ante 6
+David1813123: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [4h 3d]
+carlos ad949: raises 50 to 100
+SplashDiddy007: folds 
+sharom3147: folds 
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+David1813123: folds 
+scorza23: folds 
+Uncalled bet (50) returned to carlos ad949
+carlos ad949 collected 167 from pot
+carlos ad949: doesn't show hand 
+*** SUMMARY ***
+Total pot 167 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: carlos ad949 collected (167)
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: sharom3147 folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 (button) folded before Flop (didn't bet)
+Seat 8: David1813123 (small blind) folded before Flop
+
+
+
+PokerStars Hand #260360963463: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 20:10:47 BRT [2026/04/05 19:10:47 ET]
+Table '3989619338 4' 8-max Seat #8 is the button
+Seat 1: scorza23 (1054 in chips) is sitting out
+Seat 2: carlos ad949 (1210 in chips) 
+Seat 4: SplashDiddy007 (1295 in chips) 
+Seat 5: sharom3147 (280 in chips) 
+Seat 6: BUTTCHIN0707 (1591 in chips) 
+Seat 7: arcadekidd26 (1282 in chips) 
+Seat 8: David1813123 (2833 in chips) 
+scorza23: posts the ante 6
+carlos ad949: posts the ante 6
+SplashDiddy007: posts the ante 6
+sharom3147: posts the ante 6
+BUTTCHIN0707: posts the ante 6
+arcadekidd26: posts the ante 6
+David1813123: posts the ante 6
+scorza23: posts small blind 25
+carlos ad949: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 3h]
+SplashDiddy007: raises 50 to 100
+sharom3147: folds 
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+David1813123: raises 2727 to 2827 and is all-in
+scorza23: folds 
+carlos ad949: folds 
+SplashDiddy007: folds 
+Uncalled bet (2727) returned to David1813123
+David1813123 collected 317 from pot
+*** SUMMARY ***
+Total pot 317 | Rake 0 
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: carlos ad949 (big blind) folded before Flop
+Seat 4: SplashDiddy007 folded before Flop
+Seat 5: sharom3147 folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+Seat 8: David1813123 (button) collected (317)
+
+
+
+PokerStars Hand #260360971982: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:11:29 BRT [2026/04/05 19:11:29 ET]
+Table '3989619338 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (1023 in chips) is sitting out
+Seat 2: carlos ad949 (1154 in chips) 
+Seat 4: SplashDiddy007 (1189 in chips) 
+Seat 5: sharom3147 (274 in chips) 
+Seat 6: BUTTCHIN0707 (1585 in chips) 
+Seat 7: arcadekidd26 (1276 in chips) 
+Seat 8: David1813123 (3044 in chips) 
+scorza23: posts the ante 10
+carlos ad949: posts the ante 10
+SplashDiddy007: posts the ante 10
+sharom3147: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+arcadekidd26: posts the ante 10
+David1813123: posts the ante 10
+carlos ad949: posts small blind 40
+SplashDiddy007: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [2c 7d]
+sharom3147: folds 
+BUTTCHIN0707: folds 
+arcadekidd26: raises 80 to 160
+David1813123: raises 2874 to 3034 and is all-in
+scorza23: folds 
+carlos ad949: folds 
+SplashDiddy007: folds 
+arcadekidd26: calls 1106 and is all-in
+Uncalled bet (1768) returned to David1813123
+*** FLOP *** [Js Qd 8h]
+*** TURN *** [Js Qd 8h] [4h]
+*** RIVER *** [Js Qd 8h 4h] [8s]
+*** SHOW DOWN ***
+arcadekidd26: shows [Qc Jh] (two pair, Queens and Jacks)
+David1813123: shows [7c 7s] (two pair, Eights and Sevens)
+arcadekidd26 collected 2722 from pot
+*** SUMMARY ***
+Total pot 2722 | Rake 0 
+Board [Js Qd 8h 4h 8s]
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: carlos ad949 (small blind) folded before Flop
+Seat 4: SplashDiddy007 (big blind) folded before Flop
+Seat 5: sharom3147 folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 showed [Qc Jh] and won (2722) with two pair, Queens and Jacks
+Seat 8: David1813123 showed [7c 7s] and lost with two pair, Eights and Sevens
+
+
+
+PokerStars Hand #260360981820: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:12:18 BRT [2026/04/05 19:12:18 ET]
+Table '3989619338 4' 8-max Seat #2 is the button
+Seat 1: scorza23 (1013 in chips) is sitting out
+Seat 2: carlos ad949 (1104 in chips) 
+Seat 4: SplashDiddy007 (1099 in chips) 
+Seat 5: sharom3147 (264 in chips) 
+Seat 6: BUTTCHIN0707 (1575 in chips) 
+Seat 7: arcadekidd26 (2722 in chips) 
+Seat 8: David1813123 (1768 in chips) 
+scorza23: posts the ante 10
+carlos ad949: posts the ante 10
+SplashDiddy007: posts the ante 10
+sharom3147: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+arcadekidd26: posts the ante 10
+David1813123: posts the ante 10
+SplashDiddy007: posts small blind 40
+sharom3147: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 8c]
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+David1813123: raises 1678 to 1758 and is all-in
+scorza23: folds 
+carlos ad949: folds 
+SplashDiddy007: folds 
+sharom3147: calls 174 and is all-in
+Uncalled bet (1504) returned to David1813123
+*** FLOP *** [9c 8d 7s]
+*** TURN *** [9c 8d 7s] [Ah]
+*** RIVER *** [9c 8d 7s Ah] [9s]
+*** SHOW DOWN ***
+sharom3147: shows [Qd Js] (a pair of Nines)
+David1813123: shows [6c 4d] (a pair of Nines - lower kicker)
+sharom3147 collected 618 from pot
+*** SUMMARY ***
+Total pot 618 | Rake 0 
+Board [9c 8d 7s Ah 9s]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 (button) folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 (small blind) folded before Flop
+Seat 5: sharom3147 (big blind) showed [Qd Js] and won (618) with a pair of Nines
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+Seat 8: David1813123 showed [6c 4d] and lost with a pair of Nines
+
+
+
+PokerStars Hand #260360987039: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:12:44 BRT [2026/04/05 19:12:44 ET]
+Table '3989619338 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (1003 in chips) is sitting out
+Seat 2: carlos ad949 (1094 in chips) 
+Seat 4: SplashDiddy007 (1049 in chips) 
+Seat 5: sharom3147 (618 in chips) 
+Seat 6: BUTTCHIN0707 (1565 in chips) 
+Seat 7: arcadekidd26 (2712 in chips) 
+Seat 8: David1813123 (1504 in chips) 
+scorza23: posts the ante 10
+carlos ad949: posts the ante 10
+SplashDiddy007: posts the ante 10
+sharom3147: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+arcadekidd26: posts the ante 10
+David1813123: posts the ante 10
+sharom3147: posts small blind 40
+BUTTCHIN0707: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah 6h]
+arcadekidd26: folds 
+David1813123: raises 1414 to 1494 and is all-in
+scorza23: folds 
+carlos ad949: folds 
+SplashDiddy007: folds 
+sharom3147: calls 568 and is all-in
+BUTTCHIN0707: calls 1414
+*** FLOP *** [7d 6d Tc]
+lamps0707 is disconnected 
+*** TURN *** [7d 6d Tc] [9c]
+*** RIVER *** [7d 6d Tc 9c] [3c]
+*** SHOW DOWN ***
+BUTTCHIN0707: shows [Kd Kc] (a pair of Kings)
+David1813123: shows [4c 2d] (high card Ten)
+BUTTCHIN0707 collected 1772 from side pot
+sharom3147: shows [Ad Qd] (high card Ace)
+BUTTCHIN0707 collected 1894 from main pot
+David1813123 finished the tournament in 23rd place
+sharom3147 finished the tournament in 24th place
+*** SUMMARY ***
+Total pot 3666 Main pot 1894. Side pot 1772. | Rake 0 
+Board [7d 6d Tc 9c 3c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 (button) folded before Flop (didn't bet)
+Seat 5: sharom3147 (small blind) showed [Ad Qd] and lost with high card Ace
+Seat 6: BUTTCHIN0707 (big blind) showed [Kd Kc] and won (3666) with a pair of Kings
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+Seat 8: David1813123 showed [4c 2d] and lost with high card Ten
+
+
+
+PokerStars Hand #260360993788: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:13:18 BRT [2026/04/05 19:13:18 ET]
+Table '3989619338 4' 8-max Seat #6 is the button
+Seat 1: scorza23 (993 in chips) is sitting out
+Seat 2: carlos ad949 (1084 in chips) 
+Seat 3: lamps0707 (1703 in chips) 
+Seat 4: SplashDiddy007 (1039 in chips) 
+Seat 6: BUTTCHIN0707 (3727 in chips) 
+Seat 7: arcadekidd26 (2702 in chips) 
+scorza23: posts the ante 10
+carlos ad949: posts the ante 10
+lamps0707: posts the ante 10
+SplashDiddy007: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+arcadekidd26: posts the ante 10
+arcadekidd26: posts small blind 40
+scorza23: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs 8h]
+emerson thor is disconnected 
+carlos ad949 has timed out
+carlos ad949: folds 
+carlos ad949 is sitting out
+lamps0707: folds 
+SplashDiddy007: folds 
+BUTTCHIN0707: folds 
+arcadekidd26: raises 80 to 160
+scorza23: folds 
+Uncalled bet (80) returned to arcadekidd26
+arcadekidd26 collected 220 from pot
+arcadekidd26: doesn't show hand 
+*** SUMMARY ***
+Total pot 220 | Rake 0 
+Seat 1: scorza23 (big blind) folded before Flop
+Seat 2: carlos ad949 folded before Flop (didn't bet)
+Seat 3: lamps0707 folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 (button) folded before Flop (didn't bet)
+Seat 7: arcadekidd26 (small blind) collected (220)
+
+
+
+PokerStars Hand #260360999724: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:13:48 BRT [2026/04/05 19:13:48 ET]
+Table '3989619338 4' 8-max Seat #7 is the button
+Seat 1: scorza23 (903 in chips) is sitting out
+Seat 2: carlos ad949 (1074 in chips) is sitting out
+Seat 3: lamps0707 (1693 in chips) 
+Seat 4: SplashDiddy007 (1029 in chips) 
+Seat 5: emerson thor (3864 in chips) 
+Seat 6: BUTTCHIN0707 (3717 in chips) 
+Seat 7: arcadekidd26 (2832 in chips) 
+scorza23: posts the ante 10
+carlos ad949: posts the ante 10
+lamps0707: posts the ante 10
+SplashDiddy007: posts the ante 10
+emerson thor: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+arcadekidd26: posts the ante 10
+scorza23: posts small blind 40
+carlos ad949: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [9c 5c]
+lamps0707: folds 
+SplashDiddy007: raises 80 to 160
+emerson thor: folds 
+BUTTCHIN0707: folds 
+arcadekidd26: calls 160
+scorza23: folds 
+carlos ad949: folds 
+*** FLOP *** [Ks 9d 7c]
+SplashDiddy007: bets 160
+carlos ad949 has returned
+arcadekidd26: folds 
+Uncalled bet (160) returned to SplashDiddy007
+SplashDiddy007 collected 510 from pot
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Board [Ks 9d 7c]
+Seat 1: scorza23 (small blind) folded before Flop
+Seat 2: carlos ad949 (big blind) folded before Flop
+Seat 3: lamps0707 folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 collected (510)
+Seat 5: emerson thor folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 (button) folded on the Flop
+
+
+
+PokerStars Hand #260361007134: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:14:25 BRT [2026/04/05 19:14:25 ET]
+Table '3989619338 4' 8-max Seat #1 is the button
+Seat 1: scorza23 (853 in chips) is sitting out
+Seat 2: carlos ad949 (984 in chips) 
+Seat 3: lamps0707 (1683 in chips) 
+Seat 4: SplashDiddy007 (1369 in chips) 
+Seat 5: emerson thor (3854 in chips) 
+Seat 6: BUTTCHIN0707 (3707 in chips) 
+Seat 7: arcadekidd26 (2662 in chips) 
+scorza23: posts the ante 10
+carlos ad949: posts the ante 10
+lamps0707: posts the ante 10
+SplashDiddy007: posts the ante 10
+emerson thor: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+arcadekidd26: posts the ante 10
+carlos ad949: posts small blind 40
+lamps0707: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [Ks 5h]
+SplashDiddy007: folds 
+emerson thor: raises 80 to 160
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+scorza23: folds 
+carlos ad949: folds 
+lamps0707: folds 
+Uncalled bet (80) returned to emerson thor
+emerson thor collected 270 from pot
+emerson thor: doesn't show hand 
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Seat 1: scorza23 (button) folded before Flop (didn't bet)
+Seat 2: carlos ad949 (small blind) folded before Flop
+Seat 3: lamps0707 (big blind) folded before Flop
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: emerson thor collected (270)
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361012970: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level IV (40/80) - 2026/04/05 20:14:54 BRT [2026/04/05 19:14:54 ET]
+Table '3989619338 4' 8-max Seat #2 is the button
+Seat 1: scorza23 (843 in chips) is sitting out
+Seat 2: carlos ad949 (934 in chips) 
+Seat 3: lamps0707 (1593 in chips) 
+Seat 4: SplashDiddy007 (1359 in chips) 
+Seat 5: emerson thor (4034 in chips) 
+Seat 6: BUTTCHIN0707 (3697 in chips) 
+Seat 7: arcadekidd26 (2652 in chips) 
+scorza23: posts the ante 10
+carlos ad949: posts the ante 10
+lamps0707: posts the ante 10
+SplashDiddy007: posts the ante 10
+emerson thor: posts the ante 10
+BUTTCHIN0707: posts the ante 10
+arcadekidd26: posts the ante 10
+lamps0707: posts small blind 40
+SplashDiddy007: posts big blind 80
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 3h]
+emerson thor: folds 
+BUTTCHIN0707: calls 80
+arcadekidd26: folds 
+scorza23: folds 
+scorza23 has returned
+carlos ad949: folds 
+lamps0707: folds 
+SplashDiddy007: checks 
+*** FLOP *** [Kd Kc Js]
+SplashDiddy007: bets 160
+BUTTCHIN0707: calls 160
+*** TURN *** [Kd Kc Js] [4c]
+SplashDiddy007: bets 160
+BUTTCHIN0707: calls 160
+*** RIVER *** [Kd Kc Js 4c] [6c]
+SplashDiddy007: bets 320
+BUTTCHIN0707: calls 320
+*** SHOW DOWN ***
+SplashDiddy007: shows [3c 9s] (a pair of Kings)
+BUTTCHIN0707: shows [6d Ad] (two pair, Kings and Sixes)
+BUTTCHIN0707 collected 1550 from pot
+*** SUMMARY ***
+Total pot 1550 | Rake 0 
+Board [Kd Kc Js 4c 6c]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 (button) folded before Flop (didn't bet)
+Seat 3: lamps0707 (small blind) folded before Flop
+Seat 4: SplashDiddy007 (big blind) showed [3c 9s] and lost with a pair of Kings
+Seat 5: emerson thor folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 showed [6d Ad] and won (1550) with two pair, Kings and Sixes
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361029607: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 20:16:18 BRT [2026/04/05 19:16:18 ET]
+Table '3989619338 4' 8-max Seat #3 is the button
+Seat 1: scorza23 (833 in chips) 
+Seat 2: carlos ad949 (924 in chips) 
+Seat 3: lamps0707 (1543 in chips) 
+Seat 4: SplashDiddy007 (629 in chips) 
+Seat 5: emerson thor (4024 in chips) 
+Seat 6: BUTTCHIN0707 (4517 in chips) 
+Seat 7: arcadekidd26 (2642 in chips) 
+scorza23: posts the ante 15
+carlos ad949: posts the ante 15
+lamps0707: posts the ante 15
+SplashDiddy007: posts the ante 15
+emerson thor: posts the ante 15
+BUTTCHIN0707: posts the ante 15
+arcadekidd26: posts the ante 15
+SplashDiddy007: posts small blind 60
+emerson thor: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd 2s]
+BUTTCHIN0707: folds 
+arcadekidd26: folds 
+scorza23: folds 
+carlos ad949: raises 789 to 909 and is all-in
+lamps0707: folds 
+SplashDiddy007: calls 554 and is all-in
+emerson thor: folds 
+Uncalled bet (295) returned to carlos ad949
+*** FLOP *** [2d 6h Tc]
+*** TURN *** [2d 6h Tc] [Kc]
+*** RIVER *** [2d 6h Tc Kc] [Th]
+*** SHOW DOWN ***
+SplashDiddy007: shows [Jh Js] (two pair, Jacks and Tens)
+carlos ad949: shows [9s Ah] (a pair of Tens)
+SplashDiddy007 collected 1453 from pot
+*** SUMMARY ***
+Total pot 1453 | Rake 0 
+Board [2d 6h Tc Kc Th]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 showed [9s Ah] and lost with a pair of Tens
+Seat 3: lamps0707 (button) folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 (small blind) showed [Jh Js] and won (1453) with two pair, Jacks and Tens
+Seat 5: emerson thor (big blind) folded before Flop
+Seat 6: BUTTCHIN0707 folded before Flop (didn't bet)
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361033942: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 20:16:40 BRT [2026/04/05 19:16:40 ET]
+Table '3989619338 4' 8-max Seat #4 is the button
+Seat 1: scorza23 (818 in chips) 
+Seat 2: carlos ad949 (295 in chips) 
+Seat 3: lamps0707 (1528 in chips) 
+Seat 4: SplashDiddy007 (1453 in chips) 
+Seat 5: emerson thor (3889 in chips) 
+Seat 6: BUTTCHIN0707 (4502 in chips) 
+Seat 7: arcadekidd26 (2627 in chips) 
+scorza23: posts the ante 15
+carlos ad949: posts the ante 15
+lamps0707: posts the ante 15
+SplashDiddy007: posts the ante 15
+emerson thor: posts the ante 15
+BUTTCHIN0707: posts the ante 15
+arcadekidd26: posts the ante 15
+emerson thor: posts small blind 60
+BUTTCHIN0707: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [6s 7h]
+arcadekidd26: folds 
+scorza23: folds 
+carlos ad949: raises 160 to 280 and is all-in
+lamps0707: folds 
+SplashDiddy007: raises 1158 to 1438 and is all-in
+emerson thor: folds 
+BUTTCHIN0707: folds 
+Uncalled bet (1158) returned to SplashDiddy007
+*** FLOP *** [Qh Js 2s]
+*** TURN *** [Qh Js 2s] [Ac]
+*** RIVER *** [Qh Js 2s Ac] [8d]
+*** SHOW DOWN ***
+carlos ad949: shows [Jh Th] (a pair of Jacks)
+SplashDiddy007: shows [5s 5d] (a pair of Fives)
+carlos ad949 collected 845 from pot
+*** SUMMARY ***
+Total pot 845 | Rake 0 
+Board [Qh Js 2s Ac 8d]
+Seat 1: scorza23 folded before Flop (didn't bet)
+Seat 2: carlos ad949 showed [Jh Th] and won (845) with a pair of Jacks
+Seat 3: lamps0707 folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 (button) showed [5s 5d] and lost with a pair of Fives
+Seat 5: emerson thor (small blind) folded before Flop
+Seat 6: BUTTCHIN0707 (big blind) folded before Flop
+Seat 7: arcadekidd26 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #260361040150: Tournament #3989619338, $0.90+$0.10 USD Hold'em No Limit - Level V (60/120) - 2026/04/05 20:17:12 BRT [2026/04/05 19:17:12 ET]
+Table '3989619338 4' 8-max Seat #5 is the button
+Seat 1: scorza23 (803 in chips) 
+Seat 2: carlos ad949 (845 in chips) 
+Seat 3: lamps0707 (1513 in chips) 
+Seat 4: SplashDiddy007 (1158 in chips) 
+Seat 5: emerson thor (3814 in chips) 
+Seat 6: BUTTCHIN0707 (4367 in chips) 
+Seat 7: arcadekidd26 (2612 in chips) 
+scorza23: posts the ante 15
+carlos ad949: posts the ante 15
+lamps0707: posts the ante 15
+SplashDiddy007: posts the ante 15
+emerson thor: posts the ante 15
+BUTTCHIN0707: posts the ante 15
+arcadekidd26: posts the ante 15
+BUTTCHIN0707: posts small blind 60
+arcadekidd26: posts big blind 120
+*** HOLE CARDS ***
+Dealt to scorza23 [Qs Td]
+scorza23: raises 668 to 788 and is all-in
+carlos ad949: folds 
+lamps0707: folds 
+SplashDiddy007: folds 
+emerson thor: folds 
+BUTTCHIN0707: calls 728
+arcadekidd26: folds 
+*** FLOP *** [7h 7d 6s]
+*** TURN *** [7h 7d 6s] [Kh]
+*** RIVER *** [7h 7d 6s Kh] [3c]
+*** SHOW DOWN ***
+BUTTCHIN0707: shows [As 9h] (a pair of Sevens)
+scorza23: shows [Qs Td] (a pair of Sevens - lower kicker)
+BUTTCHIN0707 collected 1801 from pot
+scorza23 finished the tournament in 20th place
+*** SUMMARY ***
+Total pot 1801 | Rake 0 
+Board [7h 7d 6s Kh 3c]
+Seat 1: scorza23 showed [Qs Td] and lost with a pair of Sevens
+Seat 2: carlos ad949 folded before Flop (didn't bet)
+Seat 3: lamps0707 folded before Flop (didn't bet)
+Seat 4: SplashDiddy007 folded before Flop (didn't bet)
+Seat 5: emerson thor (button) folded before Flop (didn't bet)
+Seat 6: BUTTCHIN0707 (small blind) showed [As 9h] and won (1801) with a pair of Sevens
+Seat 7: arcadekidd26 (big blind) folded before Flop
+
+
+
