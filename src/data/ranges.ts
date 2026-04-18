@@ -164,8 +164,45 @@ export const RFI_RANGES: PositionRanges = {
   SB: rangeSet(SB_RANGE),
 };
 
+/** Reaction Ranges (Facing Raise) - Simplified based on [Vol.2] / [216R] */
+const EP_VS_EP_RX: string[] = [
+  ...expandPairs('A', 'T'),
+  ...expandSuitedRange('A', 'K', 'Q', 's'),
+  'AKo',
+];
+
+const LP_VS_EP_RX: string[] = [
+  ...expandPairs('A', '7'),
+  ...expandSuitedRange('A', 'K', 'J', 's'),
+  ...expandSuitedRange('A', '5', '4', 's'),
+  'KQs', 'AKo', 'AQo',
+];
+
+const BTN_VS_CO_RX: string[] = [
+  ...expandPairs('A', '2'),
+  ...expandSuitedRange('A', 'K', '2', 's'),
+  ...expandSuitedRange('K', 'Q', 'T', 's'),
+  ...expandSuitedRange('Q', 'J', 'T', 's'),
+  'JTs',
+  ...expandSuitedRange('A', 'K', 'T', 'o'),
+  'KQo',
+];
+
+export const REACTION_RANGES: Record<string, RangeSet> = {
+  EP_VS_EP: rangeSet(EP_VS_EP_RX),
+  LP_VS_EP: rangeSet(LP_VS_EP_RX),
+  BTN_VS_CO: rangeSet(BTN_VS_CO_RX),
+};
+
 /** SB raise range for BLIND_WAR scenario. Same as SB RFI range. */
 export const SB_BLIND_WAR_RANGE: RangeSet = rangeSet(SB_RANGE);
+
+/** BB defense range: According to [GamePlan], never fold suited hands vs 2.5x open. */
+export const BB_DEFENSE_RANGE: RangeSet = rangeSet([
+  ...allHandCombos().filter(h => h.endsWith('s')),
+  'AA', 'KK', 'QQ', 'JJ', 'TT', '99', '88', '77', '66', '55', '44', '33', '22',
+  'AKo', 'AQo', 'AJo', 'ATo', 'KQo', 'KJo', 'QJo'
+]);
 
 /**
  * Check if a hand is suited (for BB defense rule: never fold suited vs normal open).
@@ -198,10 +235,31 @@ export function allHandCombos(): string[] {
 }
 
 /** Open raise sizing based on stack depth (in bb). Source: [GamePlan] */
-export function openRaiseSize(stackBb: number): number {
-  if (stackBb >= 75) return 3;
-  if (stackBb >= 40) return 2.5;
-  return 2;
+export function getRFIRange(position: Position): RangeSet | undefined {
+  if (position === 'SB' || position === 'BTN/SB') {
+    return SB_BLIND_WAR_RANGE;
+  }
+  if (position === 'BB') {
+    return BB_DEFENSE_RANGE;
+  }
+  return RFI_RANGES[position];
+}
+
+/** 
+ * Get reaction range based on Hero position and Opener position.
+ */
+export function getReactionRange(hero: Position, opener: Position): RangeSet | undefined {
+  if (hero === 'BB') return BB_DEFENSE_RANGE;
+  
+  const isEP = (p: string) => ['UTG', 'UTG+1', 'MP1', 'MP2'].includes(p);
+  const isLP = (p: string) => ['HJ', 'CO', 'BTN'].includes(p);
+
+  if (hero === 'BTN' && opener === 'CO') return REACTION_RANGES.BTN_VS_CO;
+  if (isLP(hero) && isEP(opener)) return REACTION_RANGES.LP_VS_EP;
+  if (isEP(hero) && isEP(opener)) return REACTION_RANGES.EP_VS_EP;
+  
+  // Default fallback for other pairs: use a standard LP vs EP range
+  return REACTION_RANGES.LP_VS_EP;
 }
 
 /** 3-bet sizing based on stack depth (in bb) and position (IP/OOP). Source: [GamePlan] */

@@ -36,6 +36,13 @@ A structured knowledge base compiled from **Reg Life** (Brazil's largest poker s
 ### Quick Reference
 - **[claudecode_index.md](docs/strategy/claudecode_index.md)** — AI retrieval index for rapid concept lookup
 
+## 🛠️ Project Docs
+
+- **[docs/STATUS.md](docs/STATUS.md)** — single source of truth for what's actually shipped
+- **[docs/ROADMAP.md](docs/ROADMAP.md)** — phase log + prioritised punch list
+- **[docs/PROMPT_GUIDE.md](docs/PROMPT_GUIDE.md)** — how to start a session with Claude / Gemini
+- **[CLAUDE.md](CLAUDE.md)** / **[GEMINI.md](GEMINI.md)** — project spec (intent); stay in sync
+
 ## 🏷️ Conventions
 
 - All poker terms in English (3-bet, C-bet, Equity, Fold Equity, etc.)

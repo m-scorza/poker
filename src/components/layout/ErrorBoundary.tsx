@@ -40,11 +40,11 @@ export class ErrorBoundary extends Component<Props, State> {
             </div>
             
             <h2 className="text-xl font-bold text-[var(--color-text)] mb-3">
-              Ops! Algo deu errado.
+              Oops! Something went wrong.
             </h2>
             
             <p className="text-[var(--color-text-dim)] mb-6">
-              O aplicativo encontrou um erro crítico e não pôde continuar. Nossa equipe (quer dizer, o robô) pede desculpas.
+              The application encountered a critical error and cannot continue. Our robot assistant (that's me) apologizes.
             </p>
 
             {this.state.error && (
@@ -60,7 +60,7 @@ export class ErrorBoundary extends Component<Props, State> {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-bold bg-[var(--color-accent)]/10 text-[var(--color-accent)] border border-[var(--color-accent)]/20 hover:bg-[var(--color-accent)]/20 transition-all active:scale-95"
             >
               <RefreshCcw size={18} />
-              Recarregar Aplicação
+              Reload Application
             </button>
           </div>
         </div>

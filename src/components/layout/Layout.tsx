@@ -13,7 +13,7 @@ export function Layout() {
   return (
     <div className="min-h-screen bg-[var(--color-bg)] text-[var(--color-text)]">
       <Sidebar />
-      <main className="pb-20 md:pb-6 md:ml-56 p-4 md:p-6 transition-all">
+      <main className="pb-20 md:pb-6 md:ml-56 p-4 md:p-6 transition-all animate-in fade-in slide-up">
         <Outlet />
       </main>
     </div>

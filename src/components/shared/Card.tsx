@@ -15,32 +15,50 @@ const SUIT_COLORS: Record<string, string> = {
 };
 
 interface CardProps {
-  card: string; // e.g. "Ah", "Kd", "Tc"
-  size?: 'sm' | 'md' | 'lg';
+  card: string; // e.g. "Ah", "Kd", "Tc", or "back"
+  size?: 'sm' | 'md' | 'lg' | 'xl';
 }
 
 export function PokerCard({ card, size = 'md' }: CardProps) {
-  const rank = card.slice(0, -1);
+  const sizeClasses = {
+    sm: 'w-7 h-10 text-[10px] rounded',
+    md: 'w-10 h-14 text-xs rounded',
+    lg: 'w-14 h-20 text-sm rounded-md',
+    xl: 'w-20 h-28 text-xl rounded-md',
+  };
+
+  if (card === 'back' || card.toLowerCase() === 'xx') {
+    return (
+      <div className={clsx('bg-slate-800 border-2 border-slate-700 shadow-md flex items-center justify-center overflow-hidden', sizeClasses[size])}>
+        <div className="w-full h-full opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-500 to-transparent patterned-bg"></div>
+      </div>
+    );
+  }
+
+  const rank = card.slice(0, -1).toUpperCase();
   const suit = card.slice(-1).toLowerCase();
   const symbol = SUIT_SYMBOLS[suit] ?? suit;
   const color = SUIT_COLORS[suit] ?? '';
 
-  const sizeClasses = {
-    sm: 'text-xs px-1 py-0.5 min-w-[28px]',
-    md: 'text-sm px-1.5 py-1 min-w-[36px]',
-    lg: 'text-base px-2 py-1.5 min-w-[44px]',
-  };
-
   return (
-    <span
+    <div
       className={clsx(
-        'inline-flex items-center justify-center font-data font-bold',
-        'bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded',
+        'relative bg-[#1f1f2e] border border-[var(--color-border-active)] shadow-md flex flex-col p-1 select-none font-bold',
         color,
         sizeClasses[size],
       )}
+      style={{ fontFamily: 'var(--font-sans)', boxShadow: '2px 2px 8px rgba(0,0,0,0.4)' }}
     >
-      {rank}{symbol}
-    </span>
+      <div className="flex flex-col items-center leading-[1.1] w-3">
+        <span>{rank}</span>
+        <span className="text-[1.2em]">{symbol}</span>
+      </div>
+      {(size === 'lg' || size === 'xl') && (
+        <div className="absolute right-1 bottom-1 flex flex-col items-center leading-[1.1] w-3 rotate-180">
+          <span>{rank}</span>
+          <span className="text-[1.2em]">{symbol}</span>
+        </div>
+      )}
+    </div>
   );
 }

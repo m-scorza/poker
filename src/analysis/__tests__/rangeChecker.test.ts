@@ -125,7 +125,7 @@ describe('checkCompliance — HU_BTN', () => {
 
 describe('checkCompliance — FACING_RAISE', () => {
   it('deviation: cold-call from non-BTN/BB', () => {
-    const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'call', scenario: 'FACING_RAISE' });
+    const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'call', scenario: 'FACING_RAISE', openerPosition: 'CO' });
     const result = checkCompliance(d);
     expect(result!.deviationType).toBe('COLD_CALL');
   });
@@ -143,7 +143,7 @@ describe('checkCompliance — FACING_RAISE', () => {
   });
 
   it('compliant: 3-bet from HJ', () => {
-    const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'raise', scenario: 'FACING_RAISE' });
+    const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'CO' });
     const result = checkCompliance(d);
     expect(result!.isCompliant).toBe(true);
   });

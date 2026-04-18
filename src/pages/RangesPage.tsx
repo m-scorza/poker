@@ -5,25 +5,34 @@
 
 import { useEffect, useState, useMemo, useCallback } from 'react';
 import { Save, RotateCcw, Edit3, Eye } from 'lucide-react';
-import { RangeGrid, type CellStatus } from '../components/shared/RangeGrid';
+import { clsx } from 'clsx';
+import { HandReplay } from '../components/hands/HandReplay';
+import { DualRangeMatrix, type RangeCellData } from '../components/shared/DualRangeMatrix';
 import { useAppStore } from '../data/appStore';
-import { getAllHeroDecisions, saveCustomRange, loadCustomRange, deleteCustomRange } from '../data/store';
+import { getAllHeroDecisions, saveCustomRange, loadCustomRange, deleteCustomRange, db } from '../data/store';
 import { batchCheckCompliance, getRFIRange } from '../analysis/rangeChecker';
 import { compliancePercentage } from '../analysis/rangeChecker';
 import { getPushRangeForPosition } from '../analysis/pushFoldChecker';
+import { getReactionRange } from '../data/ranges';
 import type { Position, HeroDecision } from '../types/analysis';
+import type { Hand } from '../types/hand';
 
-const RFI_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB'];
+const RFI_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB', 'BB'];
 
 type ViewMode = 'compliance' | 'edit' | 'push_fold';
 
 export function RangesPage() {
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
   const [selectedPos, setSelectedPos] = useState<Position>('UTG');
+  const [selectedScenario, setSelectedScenario] = useState<'RFI' | 'FACING_RAISE'>('RFI');
   const [viewMode, setViewMode] = useState<ViewMode>('compliance');
   const [customRange, setCustomRange] = useState<Set<string>>(new Set());
   const [hasCustom, setHasCustom] = useState(false);
   const [hoveredHand, setHoveredHand] = useState<string | null>(null);
+  
+  // Hand Replay state
+  const [replayedHandId, setReplayedHandId] = useState<string | null>(null);
+  const [replayedHand, setReplayedHand] = useState<Hand | null>(null);
   const { strategyProfile } = useAppStore();
 
   useEffect(() => {
@@ -34,6 +43,19 @@ export function RangesPage() {
     }
     load();
   }, [strategyProfile]);
+
+  // Load selected hand for replay
+  useEffect(() => {
+    if (!replayedHandId) {
+       setReplayedHand(null);
+       return;
+    }
+    async function loadHand() {
+       const h = await db.hands.get(replayedHandId!);
+       if (h) setReplayedHand(h);
+    }
+    loadHand();
+  }, [replayedHandId]);
 
   // Load custom range when position changes
   useEffect(() => {
@@ -49,69 +71,73 @@ export function RangesPage() {
     }
   }, [selectedPos]);
 
+  // For SB we want BLIND_WAR and RFI, including HU BTN/SB hands which are technically small blind positions
+  // For BB we want BB_VS_RAISE
   const posDecisions = useMemo(
-    () => decisions.filter((d) => d.position === selectedPos && d.scenario === 'RFI'),
-    [decisions, selectedPos],
+    () => decisions.filter((d) => {
+      // If SB is selected, it must catch both true 'SB' and 'BTN/SB'
+      // Filter by scenario
+      if (selectedScenario === 'RFI') {
+         return d.scenario === 'RFI' || d.scenario === 'BLIND_WAR' || d.scenario === 'HU_BTN';
+      } else {
+         return d.scenario === 'FACING_RAISE' || d.scenario === 'BB_VS_RAISE';
+      }
+    }),
+    [decisions, selectedPos, selectedScenario],
   );
 
-  const handKeyMap = useMemo(() => {
-    const map = new Map<string, { correct: number; deviation: number }>();
-    for (const d of posDecisions) {
-      const entry = map.get(d.handKey) ?? { correct: 0, deviation: 0 };
-      if (d.isCompliant) entry.correct++;
-      else entry.deviation++;
-      map.set(d.handKey, entry);
-    }
-    return map;
-  }, [posDecisions]);
+  const theoreticalRange = useMemo(() => {
+    if (selectedScenario === 'RFI') return getRFIRange(selectedPos);
+    // Generic opener for reaction (CO is common)
+    return getReactionRange(selectedPos, 'CO');
+  }, [selectedPos, selectedScenario]);
 
-  const hoveredDetails = useMemo(() => {
-    if (!hoveredHand) return null;
-    const decisionsForHand = posDecisions.filter((d) => d.handKey === hoveredHand);
-    if (decisionsForHand.length === 0) return null;
-    const correct = decisionsForHand.filter((d) => d.isCompliant).length;
-    const deviations = decisionsForHand.filter((d) => !d.isCompliant);
-    return { total: decisionsForHand.length, correct, deviations };
-  }, [hoveredHand, posDecisions]);
-
-  const theoreticalRange = getRFIRange(selectedPos);
   const pushRange = getPushRangeForPosition(selectedPos);
 
-  const getCellStatus = useCallback(
-    (handKey: string): CellStatus => {
-      if (viewMode === 'edit') {
-        return customRange.has(handKey) ? 'in-range' : 'out-of-range';
-      }
-      if (viewMode === 'push_fold') {
-        return pushRange?.has(handKey) ? 'in-range' : 'out-of-range';
-      }
-      // Compliance mode
-      const played = handKeyMap.get(handKey);
-      if (played) {
-        if (played.deviation > 0) return 'played-deviation';
-        return 'played-correct';
-      }
-      if (theoreticalRange?.has(handKey)) return 'in-range';
-      return 'not-dealt';
-    },
-    [viewMode, customRange, pushRange, handKeyMap, theoreticalRange],
-  );
+  const matrixData = useMemo(() => {
+    const map = new Map<string, RangeCellData>();
+    const RANKS = ['A', 'K', 'Q', 'J', 'T', '9', '8', '7', '6', '5', '4', '3', '2'];
 
-  const handleCellClick = useCallback(
-    (handKey: string) => {
-      if (viewMode !== 'edit') return;
-      setCustomRange((prev) => {
-        const next = new Set(prev);
-        if (next.has(handKey)) {
-          next.delete(handKey);
-        } else {
-          next.add(handKey);
-        }
-        return next;
-      });
-    },
-    [viewMode],
-  );
+    for (let r = 0; r < 13; r++) {
+      for (let c = 0; c < 13; c++) {
+        let handKey = '';
+        const r1 = RANKS[r]!;
+        const r2 = RANKS[c]!;
+        if (r === c) handKey = r1 + r2;
+        else if (r < c) handKey = r1 + r2 + 's';
+        else handKey = r2 + r1 + 'o';
+
+        const handDecisions = posDecisions.filter(d => d.handKey === handKey);
+        map.set(handKey, {
+          handKey,
+          inTheoreticalRange: theoreticalRange?.has(handKey) ?? false,
+          isPushHand: pushRange?.has(handKey) ?? false,
+          totalInstances: handDecisions.length,
+          correctInstances: handDecisions.filter(d => d.isCompliant).length,
+          deviations: handDecisions
+            .filter(d => !d.isCompliant)
+            .map(d => ({
+              handId: d.handId,
+              action: d.action,
+              deviationType: d.deviationType || 'Unknown',
+              stackBb: d.stackBb,
+              date: new Date()
+            })),
+          actionCounts: {
+            raise: handDecisions.filter(d => d.action === 'raise').length,
+            call: handDecisions.filter(d => d.action === 'call').length,
+            fold: handDecisions.filter(d => d.action === 'fold').length,
+            other: handDecisions.filter(d => !['raise', 'call', 'fold'].includes(d.action)).length,
+          }
+        });
+      }
+    }
+    return map;
+  }, [posDecisions, theoreticalRange, pushRange]);
+
+  const handleHandClick = (handId: string) => {
+    setReplayedHandId(handId);
+  };
 
   const handleSave = () => {
     saveCustomRange(selectedPos, [...customRange]);
@@ -150,7 +176,7 @@ export function RangesPage() {
                 : 'text-[var(--color-text-dim)] border-[var(--color-border)] hover:border-[var(--color-accent)]'
             }`}
           >
-            <Edit3 size={12} /> Editar
+            <Edit3 size={12} /> Edit
           </button>
           <button
             onClick={() => setViewMode('push_fold')}
@@ -165,27 +191,57 @@ export function RangesPage() {
         </div>
       </div>
 
-      {/* Position selector */}
-      <div className="flex gap-2 mb-6">
-        {RFI_POSITIONS.map((pos) => {
-          const posCount = decisions.filter((d) => d.position === pos && d.scenario === 'RFI').length;
-          return (
-            <button
-              key={pos}
-              onClick={() => setSelectedPos(pos)}
-              className={`px-3 py-2 rounded-lg text-sm font-data transition-colors ${
-                selectedPos === pos
-                  ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)]'
-                  : 'bg-[var(--color-bg-card)] text-[var(--color-text-dim)] border border-[var(--color-border)] hover:border-[var(--color-border-active)]'
-              }`}
-            >
-              {pos}
-              {posCount > 0 && viewMode === 'compliance' && (
-                <span className="ml-1 text-xs text-[var(--color-text-muted)]">({posCount})</span>
+      <div className="flex flex-col sm:flex-row gap-4 mb-6">
+         {/* Position selector */}
+         <div className="flex bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
+           {RFI_POSITIONS.map((pos) => {
+             const posCount = decisions.filter((d) => {
+               const matchPos = (pos === 'SB') ? (d.position === 'SB' || d.position === 'BTN/SB') : (d.position === pos);
+               if (!matchPos) return false;
+               if (selectedScenario === 'RFI') {
+                  return d.scenario === 'RFI' || d.scenario === 'BLIND_WAR' || d.scenario === 'HU_BTN';
+               } else {
+                  return d.scenario === 'FACING_RAISE' || d.scenario === 'BB_VS_RAISE';
+               }
+             }).length;
+             
+             return (
+               <button
+                 key={pos}
+                 onClick={() => setSelectedPos(pos)}
+                 className={clsx(
+                    "px-3 py-1.5 rounded text-xs font-bold transition-all flex items-center gap-1.5",
+                    selectedPos === pos ? "bg-white text-black shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
+                 )}
+               >
+                 {pos}
+                 {posCount > 0 && <span className="opacity-50 text-[10px]">({posCount})</span>}
+               </button>
+             );
+           })}
+         </div>
+
+         {/* Scenario selector */}
+         <div className="flex bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-lg p-1">
+            <button 
+              onClick={() => setSelectedScenario('RFI')}
+              className={clsx(
+                 "px-4 py-1.5 rounded text-xs font-bold transition-all",
+                 selectedScenario === 'RFI' ? "bg-blue-600 text-white shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
               )}
+            >
+               RFI / Open
             </button>
-          );
-        })}
+            <button 
+              onClick={() => setSelectedScenario('FACING_RAISE')}
+              className={clsx(
+                 "px-4 py-1.5 rounded text-xs font-bold transition-all",
+                 selectedScenario === 'FACING_RAISE' ? "bg-rose-600 text-white shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
+              )}
+            >
+               Reaction (vs Raise)
+            </button>
+         </div>
       </div>
 
       {/* Stats bar */}
@@ -193,7 +249,7 @@ export function RangesPage() {
         {viewMode === 'compliance' && (
           <>
             <div>
-              <span className="text-[var(--color-text-dim)]">Mãos RFI: </span>
+              <span className="text-[var(--color-text-dim)]">RFI Hands: </span>
               <span className="font-data font-bold">{posDecisions.length}</span>
             </div>
             <div>
@@ -218,7 +274,7 @@ export function RangesPage() {
         </div>
         {viewMode === 'edit' && hasCustom && (
           <span className="text-[10px] px-1.5 py-0.5 rounded bg-[var(--color-info)]/20 text-[var(--color-info)]">
-            Customizado
+            Custom
           </span>
         )}
       </div>
@@ -230,112 +286,65 @@ export function RangesPage() {
             onClick={handleSave}
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)] hover:bg-[var(--color-accent)]/25 transition-colors"
           >
-            <Save size={12} /> Salvar Range
+            <Save size={12} /> Save Range
           </button>
           <button
             onClick={handleReset}
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg text-[var(--color-text-dim)] border border-[var(--color-border)] hover:text-[var(--color-danger)] hover:border-[var(--color-danger)] transition-colors"
           >
-            <RotateCcw size={12} /> Resetar para Teórico
+            <RotateCcw size={12} /> Reset to Theoretical
           </button>
         </div>
       )}
 
       {/* Legend */}
       <div className="flex gap-4 mb-4 text-xs">
-        {viewMode === 'compliance' && (
-          <>
-            <div className="flex items-center gap-1.5">
-              <div className="w-3 h-3 rounded-sm bg-emerald-900/50 border border-emerald-500" />
-              <span className="text-[var(--color-text-dim)]">Jogou corretamente</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <div className="w-3 h-3 rounded-sm bg-red-900/50 border border-red-500" />
-              <span className="text-[var(--color-text-dim)]">Desvio</span>
-            </div>
-          </>
-        )}
         <div className="flex items-center gap-1.5">
-          <div className="w-3 h-3 rounded-sm bg-[var(--color-range-in)] border border-[var(--color-accent-dim)]" />
-          <span className="text-[var(--color-text-dim)]">
-            {viewMode === 'push_fold' ? 'No push range' : viewMode === 'edit' ? 'Selecionado' : 'No range (não jogado)'}
-          </span>
+          <div className="w-3 h-3 rounded-sm bg-emerald-500/20 border border-emerald-500/40" />
+          <span className="text-[var(--color-text-dim)]">Played Correctly</span>
         </div>
         <div className="flex items-center gap-1.5">
-          <div className="w-3 h-3 rounded-sm bg-[var(--color-range-neutral)] border border-[var(--color-border)] opacity-50" />
-          <span className="text-[var(--color-text-dim)]">
-            {viewMode === 'push_fold' ? 'Fora do push range' : viewMode === 'edit' ? 'Não selecionado' : 'Fora do range'}
-          </span>
+          <div className="w-3 h-3 rounded-sm bg-red-500/30 border border-red-500/50" />
+          <span className="text-[var(--color-text-dim)]">Deviation</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+           <div className="w-3 h-3 bg-white/5 border border-white/10 rounded-sm" />
+           <span className="text-[var(--color-text-dim)]">No Data</span>
         </div>
       </div>
 
-      {/* Grid container with adjacent Info Panel */}
-      <div className="flex flex-col lg:flex-row gap-6 items-start mt-6">
-        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4 inline-block shadow-sm">
-          <RangeGrid
-            getCellStatus={getCellStatus}
-            onCellClick={viewMode === 'edit' ? handleCellClick : undefined}
-            onCellHover={setHoveredHand}
-          />
-        </div>
-
-        {/* Hover Information Panel */}
-        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5 min-w-[280px] shadow-sm hidden md:block">
-          {hoveredHand ? (
-            <div>
-               <h3 className="text-2xl font-data font-bold text-white mb-2 pb-2 border-b border-[var(--color-border)]">{hoveredHand}</h3>
-               {hoveredDetails ? (
-                 <div className="space-y-3 mt-4 text-sm">
-                   <div className="flex justify-between items-center text-[var(--color-text-dim)]">
-                      <span>Vezes em que recebeu:</span>
-                      <span className="font-data font-bold text-[var(--color-text)] text-base">{hoveredDetails.total}</span>
-                   </div>
-                   <div className="flex justify-between items-center text-[var(--color-text-dim)]">
-                      <span>Jogadas GTO Corretas:</span>
-                      <span className="font-data font-bold text-emerald-400 text-base">{hoveredDetails.correct}</span>
-                   </div>
-                   {hoveredDetails.deviations.length > 0 && (
-                     <div className="mt-4 pt-4 border-t border-[var(--color-border)]/50">
-                        <span className="text-xs uppercase tracking-wide text-red-400 font-bold mb-2 block">Lista de Desvios:</span>
-                        <ul className="space-y-2">
-                           {hoveredDetails.deviations.slice(0, 3).map((d, i) => (
-                              <li key={i} className="text-xs flex flex-col bg-red-900/10 p-2 rounded">
-                                 <span className="text-[var(--color-text-dim)]">{d.deviationType}</span>
-                                 <span className="font-data font-bold text-red-200">Ação: {d.action} ({d.stackBb.toFixed(0)}bb)</span>
-                              </li>
-                           ))}
-                           {hoveredDetails.deviations.length > 3 && (
-                             <li className="text-xs text-[var(--color-text-muted)] italic">+{hoveredDetails.deviations.length - 3} desvios omitidos...</li>
-                           )}
-                        </ul>
-                     </div>
-                   )}
-                 </div>
-               ) : (
-                 <div className="mt-4 text-sm text-[var(--color-text-muted)] italic">
-                   Você ainda não recebeu esta mão sob essas condições nesta posição.
-                 </div>
-               )}
-            </div>
-          ) : (
-            <div className="h-full flex flex-col items-center justify-center text-[var(--color-text-muted)] p-6 text-center">
-               <Eye size={32} className="mb-3 opacity-50 mx-auto" />
-               <p className="text-sm">Passe o mouse sobre qualquer mão na matriz para ver o histórico detalhado.</p>
-            </div>
-          )}
-        </div>
+      {/* Dual Matrix */}
+      <div className="mt-6">
+        <DualRangeMatrix 
+          data={matrixData} 
+          onHandClick={handleHandClick} 
+          position={selectedPos}
+          viewMode={viewMode}
+        />
       </div>
+
+      {/* Replay Modal */}
+      {replayedHand && (
+        <HandReplay 
+           hand={replayedHand} 
+           heroDecision={posDecisions.find(d => d.handId === replayedHandId) || null}
+           onClose={() => {
+              setReplayedHand(null);
+              setReplayedHandId(null);
+           }} 
+        />
+      )}
 
       {/* Push/fold info */}
       {viewMode === 'push_fold' && (
         <div className="mt-4 bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4 max-w-xl">
           <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-2">Push/Fold (10bb)</p>
           <p className="text-sm text-[var(--color-text)]">
-            Com stack de 10bb ou menos, a estratégia é all-in ou fold.
-            Este é o push range para <span className="font-data font-bold text-[var(--color-accent)]">{selectedPos}</span>.
+            With a stack of 10bb or less, the standard strategy is all-in or fold.
+            This is the push range for <span className="font-data font-bold text-[var(--color-accent)]">{selectedPos}</span>.
           </p>
           <p className="text-xs text-[var(--color-text-muted)] mt-2">
-            Fonte: [Vol.2, NERD] — docs/strategy/02-ranges-and-position.md §4
+            Source: [Vol.2, NERD] — docs/strategy/02-ranges-and-position.md §4
           </p>
         </div>
       )}

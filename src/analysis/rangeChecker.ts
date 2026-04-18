@@ -9,7 +9,7 @@
 
 import type { Position, DeviationType, HeroDecision } from '../types/analysis';
 import type { RangeSet } from '../types/ranges';
-import { RFI_RANGES, SB_BLIND_WAR_RANGE, isSuitedHand } from '../data/ranges';
+import { RFI_RANGES, SB_BLIND_WAR_RANGE, BB_DEFENSE_RANGE, isSuitedHand, getReactionRange } from '../data/ranges';
 import type { StrategyProfile } from '../data/strategyProfiles';
 import { BB_DEFENSE_ICM_ADJUSTMENTS } from '../data/strategyProfiles';
 import type { ICMStage } from '../data/strategyProfiles';
@@ -46,7 +46,7 @@ export function checkCompliance(
       return checkHUBtn(action, stackBb);
 
     case 'FACING_RAISE':
-      return checkFacingRaise(position, action);
+      return checkFacingRaise(position, handKey, action, decision.openerPosition);
 
     case 'FACING_LIMP':
       return checkFacingLimp(action);
@@ -144,17 +144,40 @@ function checkHUBtn(
  */
 function checkFacingRaise(
   position: Position,
+  handKey: string,
   action: 'fold' | 'raise' | 'call' | 'check',
+  openerPosition?: Position | null,
 ): ComplianceResult | null {
-  // BTN and BB can call facing a raise
-  if (position === 'BTN' || position === 'BB' || position === 'BTN/SB') {
+  // If we don't know who opened, we can't evaluate — parser likely lost the
+  // raiser's seat-to-position mapping. Surface it so it isn't silent.
+  if (!openerPosition) {
+    if (typeof console !== 'undefined') {
+      console.warn(
+        `[rangeChecker] FACING_RAISE with unknown opener (hero=${position}, hand=${handKey}, action=${action}) — skipped from compliance`,
+      );
+    }
     return null;
   }
 
+  const range = getReactionRange(position, openerPosition);
+  if (!range) return null;
+
+  const inRange = range.has(handKey);
+
   if (action === 'call') {
-    // Cold-calling from non-BTN/BB is a deviation
-    // (Exception for small pairs at 40bb+ not checked here — too context-dependent)
+    // Standard reaction in Reg Life is 3-bet or fold (no cold-call)
+    // Exception for BB exists in its own scenario
+    if (position === 'BB') return { isCompliant: true, deviationType: null };
     return { isCompliant: false, deviationType: 'COLD_CALL' };
+  }
+
+  if (inRange && action === 'fold') {
+    return { isCompliant: false, deviationType: 'OVERFOLD' };
+  }
+
+  if (!inRange && action === 'raise') {
+    // 3-betting out of range
+    return { isCompliant: false, deviationType: 'OPENED_OUT_OF_RANGE' };
   }
 
   return { isCompliant: true, deviationType: null };
@@ -253,11 +276,14 @@ export function compliancePercentage(
 }
 
 /**
- * Get the RFI range for a position.
+ * Get the RFI or Defense range for a position.
  */
 export function getRFIRange(position: Position): RangeSet | undefined {
   if (position === 'SB' || position === 'BTN/SB') {
     return SB_BLIND_WAR_RANGE;
+  }
+  if (position === 'BB') {
+    return BB_DEFENSE_RANGE;
   }
   return RFI_RANGES[position];
 }

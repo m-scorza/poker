@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Parser Stress Test — parses every .txt file in tests/fixtures/
+ * Parser Stress Test — parses every .txt file in src/test/fixtures/
  * and reports success/failure rates with detailed diagnostics.
  *
- * Usage: npx tsx tests/stress-test-parser.ts
+ * Usage: npx tsx scripts/stress-test-parser.ts
  */
 
 import { readdirSync, readFileSync } from 'node:fs';
@@ -24,7 +24,7 @@ function stressTest(heroName: string): void {
   const files = readdirSync(FIXTURES_DIR).filter((f) => f.endsWith('.txt'));
 
   if (files.length === 0) {
-    console.log('No .txt files found in tests/fixtures/');
+    console.log('No .txt files found in src/test/fixtures/');
     console.log('Place your PokerStars hand history files there and re-run.');
     return;
   }

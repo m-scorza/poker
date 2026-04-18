@@ -58,4 +58,6 @@ export interface HeroDecision {
   wentToShowdown: boolean;
   wonAtShowdown: boolean;
   wonAmount: number;
+  netProfit: number;
+  openerPosition?: Position | null;
 }

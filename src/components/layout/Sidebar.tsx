@@ -7,18 +7,20 @@ import {
   AlertTriangle,
   Calendar,
   Users,
+  Zap,
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
 
 const NAV_ITEMS = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
-  { to: '/hands', icon: Search, label: 'Mãos' },
-  { to: '/stats', icon: BarChart3, label: 'Estatísticas' },
+  { to: '/hands', icon: Search, label: 'Hands' },
+  { to: '/stats', icon: BarChart3, label: 'Statistics' },
   { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
   { to: '/leaks', icon: AlertTriangle, label: 'Leaks' },
-  { to: '/sessions', icon: Calendar, label: 'Sessões' },
-  { to: '/villains', icon: Users, label: 'Vilões' },
+  { to: '/sessions', icon: Calendar, label: 'Sessions' },
+  { to: '/villains', icon: Users, label: 'Villains' },
+  { to: '/arena', icon: Zap, label: 'The Arena' },
 ];
 
 export function Sidebar() {

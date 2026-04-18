@@ -5,10 +5,8 @@
  */
 
 import { create } from 'zustand';
-import type { Hand } from '../types/hand';
-import type { HeroDecision, Position, Scenario } from '../types/analysis';
+import type { Position, Scenario } from '../types/analysis';
 import type { StrategyProfile } from '../data/strategyProfiles';
-import type { Leak, AggregateStats } from '../analysis/leakDetector';
 
 export interface Filters {
   dateFrom: Date | null;

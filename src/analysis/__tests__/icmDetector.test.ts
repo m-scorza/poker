@@ -23,6 +23,7 @@ function makeHand(overrides: Partial<Hand>): Hand {
     boardRiver: null,
     totalPot: 0,
     rake: 0,
+    hasShowdown: false,
     ...overrides,
   };
 }

@@ -4,14 +4,17 @@
  */
 
 import { useEffect, useState } from 'react';
-import { clsx } from 'clsx';
 import { PokerCard } from '../shared/Card';
-import { getPlayersForHand, getActionsForHand } from '../../data/store';
+import { getPlayersForHand, getActionsForHand, toggleStarHand } from '../../data/store';
+import { Star, ChevronLeft, ChevronRight, X } from 'lucide-react';
+import { clsx } from 'clsx';
 import { classifyBoardTexture } from '../../analysis/postflopAnalyzer';
 import { analyzePostflop } from '../../analysis/postflopAnalyzer';
+import { CardGroup, OddsCalculator } from 'poker-odds-calculator';
 import type { Hand, PlayerInHand, Action } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import type { PostflopAction } from '../../analysis/postflopAnalyzer';
+import { calculateAlpha, calculateMDF, getRecommendedCbetSizing } from '../../analysis/math';
 
 interface HandReplayProps {
   hand: Hand;
@@ -22,7 +25,7 @@ interface HandReplayProps {
 type Street = 'preflop' | 'flop' | 'turn' | 'river';
 
 const STREET_LABELS: Record<Street, string> = {
-  preflop: 'Pré-Flop',
+  preflop: 'Pre-flop',
   flop: 'Flop',
   turn: 'Turn',
   river: 'River',
@@ -55,6 +58,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   const [actions, setActions] = useState<Action[]>([]);
   const [postflopSpots, setPostflopSpots] = useState<PostflopAction[]>([]);
   const [activeStreet, setActiveStreet] = useState<Street>('preflop');
+  const [isStarred, setIsStarred] = useState(hand.isStarred || false);
 
   useEffect(() => {
     async function load() {
@@ -67,6 +71,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
       // Compute postflop spots
       if (heroDecision && hand.boardFlop) {
+        const heroName = p.find(pl => pl.isHero)?.playerName || 'scorza23';
         const preflopFolders = new Set(
           a.filter((act) => act.street === 'preflop' && act.actionType === 'fold')
             .map((act) => act.playerName),
@@ -74,7 +79,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         const flopPlayerCount = p.length - preflopFolders.size;
         const spots = analyzePostflop(
           a,
-          heroDecision.handId ? players.find((pl) => pl.isHero)?.playerName ?? 'scorza23' : 'scorza23',
+          heroName,
           heroDecision.wasPreFlopRaiser,
           hand.boardFlop,
           flopPlayerCount,
@@ -84,7 +89,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
       }
     }
     load();
-  }, [hand, heroDecision, players.length]);
+  }, [hand, heroDecision]);
 
   const hero = players.find((p) => p.isHero);
   const streetActions = actions.filter((a) => a.street === activeStreet);
@@ -116,12 +121,27 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
               | Pot: {hand.totalPot}
             </p>
           </div>
-          <button
-            onClick={onClose}
-            className="text-[var(--color-text-muted)] hover:text-[var(--color-text)] text-xl px-2"
-          >
-            &times;
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={async () => {
+                const newState = await toggleStarHand(hand.id);
+                setIsStarred(newState);
+              }}
+              className={clsx(
+                "p-2 rounded-lg transition-all",
+                isStarred ? "text-amber-400 bg-amber-400/10" : "text-[var(--color-text-muted)] hover:text-amber-400 hover:bg-amber-400/5"
+              )}
+              title={isStarred ? "Remove star" : "Star hand for review"}
+            >
+              <Star size={20} fill={isStarred ? "currentColor" : "none"} />
+            </button>
+            <button
+              onClick={onClose}
+              className="p-2 text-[var(--color-text-muted)] hover:text-white rounded-lg transition-colors"
+            >
+              <X size={24} />
+            </button>
+          </div>
         </div>
 
         {/* Hero info */}
@@ -150,53 +170,117 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           </div>
         )}
 
-        {/* Board */}
-        <div className="flex items-center gap-2 mb-4 p-3 bg-[var(--color-bg-card)] rounded-lg border border-[var(--color-border)]">
-          <span className="text-xs text-[var(--color-text-dim)] mr-2">Board:</span>
-          {hand.boardFlop ? (
-            <>
-              {hand.boardFlop.map((c, i) => (
-                <PokerCard key={`f${i}`} card={c} size="lg" />
-              ))}
-              {hand.boardTurn && (
-                <>
-                  <span className="mx-1 text-[var(--color-border)]">|</span>
-                  <PokerCard card={hand.boardTurn} size="lg" />
-                </>
-              )}
-              {hand.boardRiver && (
-                <>
-                  <span className="mx-1 text-[var(--color-border)]">|</span>
-                  <PokerCard card={hand.boardRiver} size="lg" />
-                </>
-              )}
-              {boardTexture && (
-                <span className="ml-auto text-[10px] px-2 py-0.5 rounded bg-[var(--color-bg-hover)] text-[var(--color-text-dim)]">
-                  {boardTexture.texture.replace('_', ' ')}
-                </span>
-              )}
-            </>
-          ) : (
-            <span className="text-[var(--color-text-muted)] text-xs">Sem board (fold pré-flop)</span>
+        {/* Villains info at showdown */}
+        {players.filter((p) => !p.isHero && p.holeCards && p.holeCards.length === 2).length > 0 && (
+          <div className="flex flex-wrap items-center gap-3 mb-4 p-2 bg-[var(--color-bg-card)] rounded-lg border border-[var(--color-border)] opacity-80">
+             <span className="text-xs text-[var(--color-text-dim)] mr-2">Opponents (Showdown):</span>
+             {players.filter((p) => !p.isHero && p.holeCards && p.holeCards.length === 2).map(villain => (
+                <div key={villain.playerName} className="flex items-center gap-2 px-3 border-l border-[var(--color-border)] first:border-0 first:pl-0">
+                   <span className="font-data font-bold text-xs">{villain.playerName}</span>
+                   <div className="flex gap-1">
+                     {villain.holeCards!.map((c, i) => (
+                       <PokerCard key={i} card={c} size="md" />
+                     ))}
+                   </div>
+                </div>
+             ))}
+          </div>
+        )}
+
+        {/* 2D Graphical Table Representation */}
+        <div className="bg-[#0f121a] border border-[var(--color-border)] rounded-xl mb-6 relative flex flex-col items-center justify-center p-8 overflow-hidden shadow-lg">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent pointer-events-none"></div>
+          
+          <div className="absolute top-3 left-4">
+             <span className="text-[10px] uppercase text-[var(--color-text-dim)] font-bold tracking-widest">Pot: {hand.totalPot}</span>
+          </div>
+
+          {boardTexture && (
+            <div className="absolute top-3 right-4">
+               <span className="text-[10px] uppercase font-bold text-[var(--color-text-muted)] tracking-widest">
+                  {boardTexture.texture.replace(/_/g, ' ')}
+               </span>
+            </div>
           )}
+          
+          {/* Main Board Center */}
+          <div className="flex items-center justify-center gap-2 z-10 my-4 perspective-1000">
+            {hand.boardFlop ? (
+              <>
+                <div className="flex gap-2 mr-3 px-3 py-2 bg-black/30 rounded-xl backdrop-blur-sm border border-white/5">
+                  {hand.boardFlop.map((c, i) => (
+                    <div key={`f${i}`} className="animate-in zoom-in" style={{ animationDelay: `${i * 100}ms` }}>
+                       <PokerCard card={c} size="xl" />
+                    </div>
+                  ))}
+                </div>
+                
+                {['turn', 'river'].includes(activeStreet) && hand.boardTurn ? (
+                  <div className="animate-in zoom-in px-2" style={{ animationDelay: '300ms' }}>
+                    <PokerCard card={hand.boardTurn} size="xl" />
+                  </div>
+                ) : (
+                  <div className="px-2 opacity-30"><PokerCard card="back" size="xl" /></div>
+                )}
+                
+                {activeStreet === 'river' && hand.boardRiver ? (
+                  <div className="animate-in zoom-in px-2" style={{ animationDelay: '400ms' }}>
+                    <PokerCard card={hand.boardRiver} size="xl" />
+                  </div>
+                ) : (
+                  <div className="px-2 opacity-30"><PokerCard card="back" size="xl" /></div>
+                )}
+              </>
+            ) : (
+              <div className="flex gap-2 opacity-30">
+                 <PokerCard card="back" size="xl" />
+                 <PokerCard card="back" size="xl" />
+                 <PokerCard card="back" size="xl" />
+              </div>
+            )}
+          </div>
         </div>
 
-        {/* Street tabs */}
-        <div className="flex gap-1 mb-3">
-          {streets.map((s) => (
-            <button
-              key={s}
-              onClick={() => setActiveStreet(s)}
-              className={clsx(
-                'px-3 py-1.5 rounded-lg text-xs font-data transition-colors',
-                activeStreet === s
-                  ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)]'
-                  : 'bg-[var(--color-bg-card)] text-[var(--color-text-dim)] border border-[var(--color-border)] hover:border-[var(--color-border-active)]',
-              )}
-            >
-              {STREET_LABELS[s]}
-            </button>
-          ))}
+        {/* Street tabs with navigation */}
+        <div className="flex items-center gap-2 mb-3 w-fit">
+          <button 
+             onClick={() => {
+               const idx = streets.indexOf(activeStreet);
+               if (idx > 0) setActiveStreet(streets[idx - 1] as Street);
+             }}
+             disabled={streets.indexOf(activeStreet) === 0}
+             className="p-1 text-[var(--color-text-muted)] hover:text-white disabled:opacity-30 transition-colors"
+          >
+             <ChevronLeft size={20} />
+          </button>
+          
+          <div className="flex gap-1">
+            {streets.map((s) => (
+              <button
+                key={s}
+                onClick={() => setActiveStreet(s)}
+                className={clsx(
+                  'px-3 py-1.5 rounded-lg text-xs font-data transition-colors',
+                  activeStreet === s
+                    ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)]'
+                    : 'bg-[var(--color-bg-card)] text-[var(--color-text-dim)] border border-[var(--color-border)] hover:border-[var(--color-border-active)]',
+                )}
+              >
+                {STREET_LABELS[s]}
+              </button>
+            ))}
+          </div>
+
+          <button 
+             onClick={() => {
+               const idx = streets.indexOf(activeStreet);
+               if (idx < streets.length - 1) setActiveStreet(streets[idx + 1] as Street);
+             }}
+             disabled={streets.indexOf(activeStreet) === streets.length - 1}
+             className="p-1 text-[var(--color-text-muted)] hover:text-white disabled:opacity-30 transition-colors"
+          >
+             <ChevronRight size={20} />
+          </button>
         </div>
 
         {/* Actions for selected street */}
@@ -229,56 +313,140 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             );
           })}
           {streetActions.length === 0 && (
-            <p className="text-xs text-[var(--color-text-muted)] px-3 py-2">Sem ações nesta rua.</p>
+            <p className="text-xs text-[var(--color-text-muted)] px-3 py-2">No actions on this street.</p>
           )}
         </div>
 
         {/* Postflop spots */}
         {postflopSpots.length > 0 && (
           <div className="border-t border-[var(--color-border)] pt-3">
-            <h4 className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-2">Análise Pós-Flop</h4>
+            <h4 className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-2">Post-flop Analysis</h4>
             <div className="space-y-1">
               {postflopSpots.map((spot, i) => (
                 <div
                   key={i}
                   className={clsx(
-                    'flex items-center gap-2 px-3 py-1.5 rounded text-xs',
-                    spot.isCorrect === true && 'bg-emerald-900/15',
-                    spot.isCorrect === false && 'bg-red-900/15',
+                    'flex flex-col gap-1 px-3 py-2 rounded text-xs border border-white/5',
+                    spot.isCorrect === true && 'bg-emerald-900/10 border-emerald-500/20',
+                    spot.isCorrect === false && 'bg-red-900/10 border-red-500/20',
                     spot.isCorrect === null && 'bg-[var(--color-bg-card)]',
                   )}
                 >
-                  <span className={clsx(
-                    'font-data font-bold',
-                    spot.isCorrect === true && 'text-[var(--color-accent)]',
-                    spot.isCorrect === false && 'text-[var(--color-danger)]',
-                    spot.isCorrect === null && 'text-[var(--color-text-dim)]',
-                  )}>
-                    {spot.spot.replace(/_/g, ' ')}
-                  </span>
-                  <span className="text-[var(--color-text-muted)]">({spot.street})</span>
-                  <span className="text-[var(--color-text-dim)] ml-auto">{spot.note}</span>
+                  <div className="flex items-center gap-2">
+                    <span className={clsx(
+                      'font-data font-bold uppercase tracking-wider',
+                      spot.isCorrect === true && 'text-[var(--color-accent)]',
+                      spot.isCorrect === false && 'text-[var(--color-danger)]',
+                      spot.isCorrect === null && 'text-[var(--color-text-dim)]',
+                    )}>
+                      {spot.spot === 'NONE' ? 'FACING BET' : spot.spot.replace(/_/g, ' ')}
+                    </span>
+                    <span className="text-[var(--color-text-muted)] opacity-50">({spot.street})</span>
+                  </div>
+                  <span className="text-[var(--color-text-dim)] font-medium leading-relaxed">{spot.note}</span>
                 </div>
               ))}
             </div>
           </div>
         )}
 
+        {/* Strategic Coach & Math Context */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+          {/* Strategy Context Card */}
+          {boardTexture && (
+            <div className="border border-[var(--color-border)] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-900/10 to-[var(--color-bg-card)] rounded-xl overflow-hidden shadow-sm">
+               <div className="px-3 py-2 bg-blue-900/20 border-b border-[var(--color-border)]">
+                  <span className="text-[10px] uppercase font-bold tracking-widest text-blue-300">Strategic Context</span>
+               </div>
+               <div className="p-3 space-y-2">
+                  <div className="flex justify-between items-center text-xs">
+                    <span className="text-[var(--color-text-dim)]">Texture:</span>
+                    <span className="font-bold text-white uppercase">{boardTexture.texture.replace(/_/g, ' ')}</span>
+                  </div>
+                  <div className="text-[11px] text-[var(--color-text-muted)] italic leading-relaxed bg-black/20 p-2 rounded border border-white/5">
+                    {(() => {
+                        const rec = getRecommendedCbetSizing(boardTexture.texture);
+                        return `Tip: ${rec.label}. Maintain range advantage with small bets or polarize on wet boards.`;
+                    })()}
+                  </div>
+               </div>
+            </div>
+          )}
+
+          {/* Equity & Math Card */}
+          {(() => {
+            const opponentsWithCards = players.filter(p => !p.isHero && p.holeCards && p.holeCards.length === 2);
+            let heroEquity: number | null = null;
+            
+            if (hero?.holeCards && hero.holeCards.length === 2 && opponentsWithCards.length > 0) {
+              try {
+                const heroGroup = CardGroup.fromString(hero.holeCards.join(''));
+                const oppGroups = opponentsWithCards.map(p => CardGroup.fromString(p.holeCards!.join('')));
+                const boardCards = [];
+                if (hand.boardFlop) boardCards.push(...hand.boardFlop);
+                if (hand.boardTurn) boardCards.push(hand.boardTurn);
+                if (hand.boardRiver) boardCards.push(hand.boardRiver);
+                const boardGroup = boardCards.length > 0 ? CardGroup.fromString(boardCards.join('')) : undefined;
+                const result = OddsCalculator.calculate([heroGroup, ...oppGroups], boardGroup);
+                heroEquity = result.equities[0]?.getEquity() || 0;
+              } catch (e) {}
+            }
+
+            return (
+              <div className="border border-[var(--color-accent-dim)]/30 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-900/10 to-[var(--color-bg-card)] rounded-xl overflow-hidden shadow-sm">
+                <div className="px-3 py-2 bg-emerald-900/20 border-b border-[var(--color-border)]">
+                   <span className="text-[10px] uppercase font-bold tracking-widest text-[var(--color-accent)]">Equity & Math</span>
+                </div>
+                <div className="p-3 space-y-2">
+                   {heroEquity !== null && (
+                     <div className="flex justify-between items-center text-xs">
+                        <span className="text-[var(--color-text-dim)] text-xs">Your Equity:</span>
+                        <span className="font-data font-bold text-[var(--color-accent)] text-xs">{heroEquity}%</span>
+                     </div>
+                   )}
+                   {(() => {
+                      const lastBet = [...streetActions].reverse().find(a => a.actionType === 'bet' || a.actionType === 'raise');
+                      if (!lastBet || !lastBet.amount || hand.totalPot === 0) return null;
+                      const mdf = calculateMDF(hand.totalPot, lastBet.amount);
+                      const alpha = calculateAlpha(hand.totalPot, lastBet.amount);
+                      return (
+                        <div className="grid grid-cols-2 gap-2 mt-1">
+                          <div className="bg-black/30 p-2 rounded text-center">
+                            <p className="text-[9px] text-[var(--color-text-muted)] uppercase">MDF</p>
+                            <p className="font-data font-bold text-white text-xs">{(mdf * 100).toFixed(0)}%</p>
+                          </div>
+                          <div className="bg-black/30 p-2 rounded text-center">
+                            <p className="text-[9px] text-[var(--color-text-muted)] uppercase">Alpha</p>
+                            <p className="font-data font-bold text-white text-xs">{(alpha * 100).toFixed(0)}%</p>
+                          </div>
+                        </div>
+                      );
+                   })()}
+                </div>
+              </div>
+            );
+          })()}
+        </div>
+
         {/* Decision summary */}
         {heroDecision && (
-          <div className="border-t border-[var(--color-border)] pt-3 mt-3 flex items-center gap-3 text-xs">
-            <span className="text-[var(--color-text-dim)]">Cenário:</span>
-            <span className="font-data">{heroDecision.scenario}</span>
-            <span className="text-[var(--color-text-dim)] ml-2">Ação:</span>
-            <span className="font-data font-bold">{heroDecision.action}</span>
+          <div className="border-t border-[var(--color-border)] pt-4 mt-6 flex items-center gap-4 text-xs font-data">
+            <div className="flex items-center gap-2">
+              <span className="text-[var(--color-text-dim)]">Scenario:</span>
+              <span className="text-rose-400 font-bold">{heroDecision.scenario.replace(/_/g, ' ')}</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-sans text-[var(--color-text-dim)]">Action:</span>
+              <span className="font-bold uppercase">{heroDecision.action}</span>
+            </div>
             {heroDecision.deviationType ? (
-              <span className="ml-auto px-2 py-0.5 rounded bg-red-900/30 text-[var(--color-danger)]">
+              <div className="ml-auto px-2 py-1 rounded bg-red-900/20 text-[var(--color-danger)] font-bold border border-red-500/20 uppercase tracking-tighter">
                 {heroDecision.deviationType}
-              </span>
+              </div>
             ) : heroDecision.isCompliant ? (
-              <span className="ml-auto px-2 py-0.5 rounded bg-emerald-900/30 text-[var(--color-accent)]">
-                Correto
-              </span>
+              <div className="ml-auto px-2 py-1 rounded bg-emerald-900/20 text-[var(--color-accent)] font-bold border border-emerald-500/20 uppercase tracking-tighter text-[10px]">
+                GTO Compliant
+              </div>
             ) : null}
           </div>
         )}

@@ -2,7 +2,6 @@
  * Leaks page — detailed leak display with severity and recommendations.
  */
 
-import { useEffect } from 'react';
 import { AlertTriangle, TrendingUp, TrendingDown, CheckCircle, BookOpen } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
@@ -34,10 +33,10 @@ const SEVERITY_COLORS: Record<LeakSeverity, string> = {
 };
 
 const SEVERITY_BADGES: Record<LeakSeverity, { bg: string; text: string; label: string }> = {
-  critical: { bg: 'bg-[var(--color-danger)]/20', text: 'text-[var(--color-danger)]', label: 'CRÍTICO' },
-  high: { bg: 'bg-[var(--color-warning)]/20', text: 'text-[var(--color-warning)]', label: 'ALTO' },
-  medium: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', label: 'MÉDIO' },
-  low: { bg: 'bg-gray-500/20', text: 'text-[var(--color-text-dim)]', label: 'BAIXO' },
+  critical: { bg: 'bg-[var(--color-danger)]/20', text: 'text-[var(--color-danger)]', label: 'CRITICAL' },
+  high: { bg: 'bg-[var(--color-warning)]/20', text: 'text-[var(--color-warning)]', label: 'HIGH' },
+  medium: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', label: 'MEDIUM' },
+  low: { bg: 'bg-gray-500/20', text: 'text-[var(--color-text-dim)]', label: 'LOW' },
 };
 
 export function LeaksPage() {
@@ -56,25 +55,25 @@ export function LeaksPage() {
 
   return (
     <div>
-      <h2 className="text-xl font-bold mb-6">Detector de Leaks</h2>
+      <h2 className="text-xl font-bold mb-6">Leak Detector</h2>
 
       {totalHands === 0 ? (
         <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
-          <p className="text-[var(--color-text-dim)]">Importe mãos para detectar leaks.</p>
+          <p className="text-[var(--color-text-dim)]">Import hands to detect leaks.</p>
         </div>
       ) : leaks.length === 0 ? (
         <div className="bg-emerald-900/10 border border-emerald-600/30 rounded-xl p-8 text-center">
           <CheckCircle size={32} className="mx-auto mb-3 text-[var(--color-accent)]" />
-          <p className="text-[var(--color-accent)] font-semibold mb-1">Nenhum leak detectado!</p>
+          <p className="text-[var(--color-accent)] font-semibold mb-1">No leaks detected!</p>
           <p className="text-sm text-[var(--color-text-dim)]">
-            Todas as métricas estão dentro dos alvos do perfil {strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'}.
+            All metrics are within {strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'} profile targets.
           </p>
         </div>
       ) : (
         <div className="space-y-3">
           <p className="text-sm text-[var(--color-text-dim)] mb-4">
-            {leaks.length} leak{leaks.length > 1 ? 's' : ''} detectado{leaks.length > 1 ? 's' : ''} em {totalHands} mãos
-            — Perfil: <span className="font-data text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'}</span>
+            {leaks.length} leak{leaks.length > 1 ? 's' : ''} detected across {totalHands} hands
+            — Profile: <span className="font-data text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'}</span>
           </p>
 
           {leaks.map((leak) => {
@@ -95,12 +94,12 @@ export function LeaksPage() {
                     </div>
                     <p className="text-sm text-[var(--color-text-dim)] mb-2">{leak.description}</p>
                     <div className="flex gap-4 text-xs text-[var(--color-text-muted)]">
-                      <span>Amostra: {leak.sampleSize} mãos</span>
-                      <span>Desvio: {leak.deviation > 0 ? '+' : ''}{leak.deviation}pp</span>
+                      <span>Sample: {leak.sampleSize} hands</span>
+                      <span>Deviation: {leak.deviation > 0 ? '+' : ''}{leak.deviation}pp</span>
                       {LEAK_SOURCES[leak.id] && (
                         <span
                           className="flex items-center gap-1 text-[var(--color-info)] cursor-help"
-                          title={`Fonte: ${LEAK_SOURCES[leak.id]!.source}\nReferência: ${LEAK_SOURCES[leak.id]!.doc}`}
+                          title={`Source: ${LEAK_SOURCES[leak.id]!.source}\nReference: ${LEAK_SOURCES[leak.id]!.doc}`}
                         >
                           <BookOpen size={10} />
                           {LEAK_SOURCES[leak.id]!.source}
@@ -119,7 +118,7 @@ export function LeaksPage() {
                       <span className="font-data text-2xl font-bold">{leak.value}%</span>
                     </div>
                     <p className="text-xs text-[var(--color-text-muted)] mt-0.5">
-                      Alvo: {leak.target[0]}–{leak.target[1]}%
+                      Target: {leak.target[0]}–{leak.target[1]}%
                     </p>
                   </div>
                 </div>

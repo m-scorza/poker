@@ -1,0 +1,13 @@
+# scripts/
+
+One-off utility scripts. Not part of the app build. Run from repo root.
+
+| File | Purpose |
+|---|---|
+| `scratch.ts` | Ad-hoc W$SD check — parses every fixture, prints showdown rate. `npx tsx scripts/scratch.ts` |
+| `stress-test-parser.ts` | Parse every `.txt` in `src/test/fixtures/`, report success/failure. `npx tsx scripts/stress-test-parser.ts` |
+| `test-summaries.cjs` | Parse every tournament summary in `src/test/fixtures/summaries/`, report ITM totals. `node scripts/test-summaries.cjs` |
+| `test-odds.cjs` / `test-odds.mjs` | Sanity-check `poker-odds-calculator` works. `node scripts/test-odds.cjs` |
+| `fix_imports.cjs` | One-off codemod used during refactor. Safe to delete if no longer needed. |
+
+All scripts assume the repo root as CWD.
