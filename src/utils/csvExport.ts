@@ -16,11 +16,11 @@ function pct(n: number, d: number): string {
  */
 export function exportSessionsCSV(sessions: Session[]): void {
   const headers = [
-    'Sessão',
-    'Data Início',
-    'Data Fim',
-    'Mãos',
-    'Torneios',
+    'Session',
+    'Start Time',
+    'End Time',
+    'Hands',
+    'Tournaments',
     'VPIP %',
     'PFR %',
     'C-bet Total %',

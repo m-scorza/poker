@@ -1,13 +1,15 @@
 import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { clsx } from 'clsx';
-import { Search, Filter, ChevronDown, ChevronUp, Eye, Upload as UploadIcon, CheckCircle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, Filter, ChevronDown, ChevronUp, Eye, Upload as UploadIcon, CheckCircle, ChevronLeft, ChevronRight, Trash2, Star } from 'lucide-react';
 import { useAppStore } from '../data/appStore';
-import { getAllHeroDecisions, getHands, importHands, importTournamentSummaries, getTotalHandCount } from '../data/store';
+import { getAllHeroDecisions, getHands, importHands, importTournamentSummaries, getTotalHandCount, clearAllData, toggleStarHand } from '../data/store';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { HandReplay } from '../components/hands/HandReplay';
+import { ConfirmDialog } from '../components/shared/ConfirmDialog';
 import { parsePokerStarsFile } from '../parser/pokerstars';
 import { buildHeroDecision } from '../analysis/scenarioDetector';
 import { parseTournamentSummary } from '../parser/tournamentSummary';
+import { motion, AnimatePresence } from 'framer-motion';
 import type { Hand } from '../types/hand';
 import type { HeroDecision, Position, Scenario, DeviationType } from '../types/analysis';
 
@@ -26,11 +28,11 @@ type HandCategory = typeof HAND_CATEGORIES[number];
 
 const DEVIATION_LABELS: Record<DeviationType, string> = {
   OVERFOLD: 'Overfold',
-  OPENED_OUT_OF_RANGE: 'Fora do range',
+  OPENED_OUT_OF_RANGE: 'Out of Range',
   LIMPED: 'Limp',
   SB_OVERFOLD: 'SB Overfold',
   SB_LIMPED: 'SB Limp',
-  SB_OUT_OF_RANGE: 'SB Fora do range',
+  SB_OUT_OF_RANGE: 'SB Out of Range',
   COLD_CALL: 'Cold Call',
   BB_FOLD_SUITED: 'BB Fold Suited',
   SB_COLD_CALL: 'SB Cold Call',
@@ -70,7 +72,7 @@ const STACK_DEPTH_LABELS: Record<StackDepth, string> = {
 };
 
 const CATEGORY_LABELS: Record<HandCategory, string> = {
-  pairs: 'Pares',
+  pairs: 'Pairs',
   broadway: 'Broadway',
   'suited-connectors': 'Suited Connectors',
   'suited-aces': 'Suited Aces',
@@ -101,6 +103,8 @@ export function HandsPage() {
   const pageSize = 50;
 
   // View state
+  const [showUpload, setShowUpload] = useState(false);
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [replayHandId, setReplayHandId] = useState<string | null>(null);
   const { strategyProfile } = useAppStore();
 
@@ -178,15 +182,66 @@ export function HandsPage() {
     }
   };
 
+  const handleToggleStar = async (handId: string) => {
+    const newState = await toggleStarHand(handId);
+    setHandsMap(prev => {
+      const next = new Map(prev);
+      const hand = next.get(handId);
+      if (hand) next.set(handId, { ...hand, isStarred: newState });
+      return next;
+    });
+  };
+
   const SortIcon = ({ field }: { field: typeof sortField }) =>
     sortField === field ? (sortAsc ? <ChevronUp size={12} /> : <ChevronDown size={12} />) : null;
 
+  const handleClearData = async () => {
+    await clearAllData();
+    window.location.reload();
+  };
+
   return (
     <div className="space-y-6">
-      <HandsPageUpload onUploadSuccess={load} />
+      <div className="flex justify-between items-center mb-6">
+         <div className="flex items-center gap-4">
+            <h1 className="text-2xl font-black font-data text-white uppercase tracking-tight">Hand Archive</h1>
+            <div className="h-6 w-px bg-white/10" />
+            <button 
+              onClick={() => setShowUpload(!showUpload)}
+              className={clsx(
+                "flex items-center gap-2 px-4 py-1.5 text-xs font-bold rounded-full transition-all ring-1",
+                showUpload ? "bg-white text-black ring-white" : "bg-emerald-500/10 text-emerald-400 ring-emerald-500/20 hover:bg-emerald-500/20"
+              )}
+            >
+               <UploadIcon size={14} />
+               {showUpload ? 'Hide Importer' : 'Import Hands'}
+            </button>
+         </div>
+         <button 
+           type="button"
+           onClick={() => setShowResetConfirm(true)}
+           className="flex items-center gap-2 px-3 py-1.5 text-xs font-semibold text-red-100 bg-red-900/50 hover:bg-red-800/80 border border-red-900/50 rounded-lg transition-colors"
+           title="Delete everything"
+         >
+            <Trash2 size={14} />
+            Reset DB
+         </button>
+      </div>
 
-      <div>
-        <h2 className="text-xl font-bold mb-6">Mãos & Arquivo</h2>
+      <AnimatePresence>
+        {showUpload && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            className="overflow-hidden mb-10"
+          >
+            <HandsPageUpload onUploadSuccess={load} />
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      <div className="space-y-4">
 
         {/* Filters */}
         <div className="flex flex-wrap gap-3 mb-4">
@@ -194,7 +249,7 @@ export function HandsPage() {
             <Search size={14} className="absolute left-2.5 top-2.5 text-[var(--color-text-muted)]" />
             <input
               type="text"
-              placeholder="Buscar mão (ex: AKs)"
+              placeholder="Search hand (e.g., AKs)"
               value={searchKey}
               onChange={(e) => setSearchKey(e.target.value)}
               className="pl-8 pr-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
@@ -207,7 +262,7 @@ export function HandsPage() {
               value={dateFrom} 
               onChange={e => setDateFrom(e.target.value)}
               className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)]"
-              title="De (Data)"
+              title="From (Date)"
             />
             <span className="text-[var(--color-text-muted)]">-</span>
             <input 
@@ -215,22 +270,22 @@ export function HandsPage() {
               value={dateTo} 
               onChange={e => setDateTo(e.target.value)}
               className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)]"
-              title="Até (Data)"
+              title="To (Date)"
             />
           </div>
 
-          <Select value={posFilter} onChange={setPosFilter} options={POSITIONS} placeholder="Posição" />
-          <Select value={scenarioFilter} onChange={setScenarioFilter} options={SCENARIOS} placeholder="Cenário" />
-          <Select value={actionFilter} onChange={setActionFilter} options={['fold', 'raise', 'call', 'check']} placeholder="Ação pre-flop" />
+          <Select value={posFilter} onChange={setPosFilter} options={POSITIONS} placeholder="Position" />
+          <Select value={scenarioFilter} onChange={setScenarioFilter} options={SCENARIOS} placeholder="Scenario" />
+          <Select value={actionFilter} onChange={setActionFilter} options={['fold', 'raise', 'call', 'check']} placeholder="Pre-flop Action" />
           <Select value={complianceFilter} onChange={setComplianceFilter} options={['compliant', 'deviation']} placeholder="GTO / Compliance" />
           <SelectLabeled value={stackFilter} onChange={setStackFilter} options={STACK_DEPTHS} labels={STACK_DEPTH_LABELS} placeholder="Stack" />
-          <SelectLabeled value={categoryFilter} onChange={setCategoryFilter} options={HAND_CATEGORIES} labels={CATEGORY_LABELS} placeholder="Categoria" />
+          <SelectLabeled value={categoryFilter} onChange={setCategoryFilter} options={HAND_CATEGORIES} labels={CATEGORY_LABELS} placeholder="Category" />
         </div>
 
         <div className="flex justify-between items-center mb-3">
           <p className="text-xs text-[var(--color-text-muted)] flex items-center gap-1">
             <Filter size={12} />
-            {filtered.length} de {decisions.length} mãos
+            {filtered.length} of {decisions.length} hands
           </p>
 
           <div className="flex items-center gap-3">
@@ -241,7 +296,7 @@ export function HandsPage() {
              >
                <ChevronLeft size={16} />
              </button>
-             <span className="text-xs font-data">Pág {page + 1} de {Math.ceil(filtered.length / pageSize) || 1}</span>
+             <span className="text-xs font-data">Page {page + 1} of {Math.ceil(filtered.length / pageSize) || 1}</span>
              <button 
                onClick={() => setPage(p => Math.min(Math.ceil(filtered.length / pageSize) - 1, p + 1))}
                disabled={page >= Math.ceil(filtered.length / pageSize) - 1}
@@ -259,12 +314,12 @@ export function HandsPage() {
               <thead>
                 <tr className="border-b border-[var(--color-border)] text-left bg-[var(--color-bg-hover)]">
                   {([
-                    ['date', 'Data'],
+                    ['date', 'Date'],
                     ['handId', 'Hand ID'],
-                    ['position', 'Posição'],
-                    ['handKey', 'Mão'],
-                    ['scenario', 'Cenário'],
-                    ['action', 'Ação'],
+                    ['position', 'Position'],
+                    ['handKey', 'Hand'],
+                    ['scenario', 'Scenario'],
+                    ['action', 'Action'],
                   ] as const).map(([field, label]) => (
                     <th
                       key={field}
@@ -279,10 +334,9 @@ export function HandsPage() {
                   <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">
                     Stack
                   </th>
-                  <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">
-                    GTO Score
+                  <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide text-right">
+                    Review
                   </th>
-                  <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide w-8" />
                 </tr>
               </thead>
               <tbody>
@@ -334,16 +388,30 @@ export function HandsPage() {
                           <span className="text-xs text-[var(--color-text-muted)]">—</span>
                         )}
                       </td>
-                      <td className="px-3 py-2">
-                        {h && (
+                      <td className="px-3 py-2 text-right">
+                        <div className="flex items-center justify-end gap-1">
                           <button
-                            onClick={() => setReplayHandId(d.handId)}
-                            className="bg-[var(--color-bg-input)] hover:bg-[var(--color-bg-hover)] border border-[var(--color-border)] p-1.5 rounded text-[var(--color-text-muted)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-all shadow-sm"
-                            title="Ver replay em profundidade"
+                            onClick={() => handleToggleStar(d.handId)}
+                            className={clsx(
+                               "p-1.5 rounded-full transition-all ring-1",
+                               h?.isStarred 
+                                ? "bg-amber-400 text-black ring-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.2)]" 
+                                : "text-[var(--color-text-dim)] hover:text-amber-400 ring-white/5 hover:ring-amber-400/50"
+                            )}
+                            title={h?.isStarred ? "Featured Hand" : "Star for Review"}
                           >
-                            <Eye size={14} />
+                            <Star size={12} fill={h?.isStarred ? "currentColor" : "none"} />
                           </button>
-                        )}
+                          {h && (
+                            <button
+                              onClick={() => setReplayHandId(d.handId)}
+                              className="bg-white/5 hover:bg-[var(--color-accent)]/20 ring-1 ring-white/5 hover:ring-[var(--color-accent)]/50 p-1.5 rounded-full text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-all"
+                              title="In-depth analysis"
+                            >
+                              <Eye size={12} />
+                            </button>
+                          )}
+                        </div>
                       </td>
                     </tr>
                   )
@@ -354,7 +422,7 @@ export function HandsPage() {
 
           {filtered.length === 0 && (
             <div className="text-center py-8 text-[var(--color-text-muted)] text-sm">
-              Nenhuma mão encontrada.
+              No hands found.
             </div>
           )}
         </div>
@@ -367,6 +435,16 @@ export function HandsPage() {
           onClose={() => setReplayHandId(null)}
         />
       )}
+
+      <ConfirmDialog
+        isOpen={showResetConfirm}
+        title="Critical Action: Reset Database"
+        description="Are you absolutely sure you want to DELETE ALL hands and tournaments from your machine? This action is irreversible and all your imported history will be lost."
+        confirmLabel="Delete Everything"
+        onConfirm={handleClearData}
+        onCancel={() => setShowResetConfirm(false)}
+        variant="danger"
+      />
     </div>
   );
 }
@@ -378,66 +456,64 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
   const fileRef = useRef<HTMLInputElement>(null);
   const { isImporting, setImporting, setTotalHands, heroName, strategyProfile } = useAppStore();
 
+  const [importProgress, setImportProgress] = useState(0);
+  const [currentImportFile, setCurrentImportFile] = useState('');
+  const [statsFound, setStatsFound] = useState({ hands: 0, deviations: 0 });
+
   const processFiles = useCallback(async (files: FileList) => {
     setImporting(true);
+    setImportProgress(0);
+    setStatsFound({ hands: 0, deviations: 0 });
     setResults([]);
-    const newResults: typeof results = [];
-
+    
+    // Convert FileList to serialized content for the worker
+    const fileDataArr: any[] = [];
     for (const file of Array.from(files)) {
-      if (!file.name.endsWith('.txt')) {
-        newResults.push({ name: file.name, type: 'hand', error: 'Formato inválido' });
-        continue;
-      }
-
-      try {
+      if (file.name.endsWith('.txt')) {
         const content = await file.text();
-        
-        // Is it a summary?
-        if (content.includes('Tournament Summary') || file.name.includes('Summary')) {
-          const summary = parseTournamentSummary(content, heroName);
-          if (summary) {
-            await importTournamentSummaries([summary]);
-            newResults.push({ name: file.name, type: 'summary', parsed: 1, imported: 1 });
-          } else {
-            newResults.push({ name: file.name, type: 'summary', error: 'Falha ao processar Sumário' });
-          }
-          continue;
-        }
-
-        // Hand history
-        const parsed = parsePokerStarsFile(content, heroName);
-        const handsWithDecisions = parsed.map((p) => {
-          const decision = buildHeroDecision(p, heroName);
-          return { ...p, heroDecision: decision ?? undefined };
-        });
-
-        const decisions = handsWithDecisions
-          .map((h) => h.heroDecision)
-          .filter((d): d is NonNullable<typeof d> => d !== undefined);
-        const checkedDecisions = batchCheckCompliance(decisions, strategyProfile);
-
-        let decIdx = 0;
-        const finalHands = handsWithDecisions.map((h) => {
-          if (h.heroDecision) {
-            const checked = checkedDecisions[decIdx++];
-            return { ...h, heroDecision: checked };
-          }
-          return h;
-        });
-
-        const imported = await importHands(finalHands);
-        newResults.push({ name: file.name, type: 'hand', parsed: parsed.length, imported });
-      } catch (e) {
-        const msg = e instanceof Error ? e.message : 'Erro';
-        newResults.push({ name: file.name, type: 'hand', error: msg });
+        fileDataArr.push({ name: file.name, content });
       }
     }
 
-    setResults(newResults);
-    const total = await getTotalHandCount();
-    setTotalHands(total);
-    setImporting(false);
-    onUploadSuccess();
+    if (fileDataArr.length === 0) {
+      setImporting(false);
+      return;
+    }
+
+    // Initialize Worker
+    const worker = new Worker(new URL('../parser/worker.ts', import.meta.url), { type: 'module' });
+
+    worker.onmessage = async (e: MessageEvent) => {
+      const { type, progress, filename, handsFound, deviationsFound, hands } = e.data;
+
+      if (type === 'PROGRESS') {
+        setImportProgress(progress);
+        setCurrentImportFile(filename);
+        setStatsFound(prev => ({
+          hands: prev.hands + (handsFound || 0),
+          deviations: prev.deviations + (deviationsFound || 0)
+        }));
+      } else if (type === 'COMPLETE') {
+        // Save results to DB
+        const imported = await importHands(hands);
+        
+        // Update store and UI
+        const totalCount = await getTotalHandCount();
+        setTotalHands(totalCount);
+        setImporting(false);
+        setResults([{ name: `${fileDataArr.length} arquivos`, type: 'hand', imported }]);
+        onUploadSuccess();
+        
+        worker.terminate();
+      }
+    };
+
+    worker.postMessage({
+      files: fileDataArr,
+      heroName,
+      profile: strategyProfile,
+      icmStage: 'early' // Default for now
+    });
   }, [heroName, strategyProfile, setImporting, setTotalHands, onUploadSuccess]);
 
   const onDrop = useCallback((e: React.DragEvent) => {
@@ -471,30 +547,67 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
           className={clsx('mx-auto mb-3', dragOver ? 'text-[var(--color-accent)]' : 'text-[var(--color-text-dim)]')}
         />
         <p className="text-[var(--color-text)] font-semibold mb-1">
-          Arraste e Solte Arquivos PokerStars
+          Drag and Drop PokerStars Files
         </p>
         <p className="text-xs text-[var(--color-text-muted)]">
-          Suporta TXT de Mãos e Sumários (.txt)
+          Supports Hand Histories and Summaries (.txt)
         </p>
       </div>
 
       <input ref={fileRef} type="file" accept=".txt" multiple onChange={onFileSelect} className="hidden" />
 
-      {isImporting && (
-        <div className="mt-4 flex items-center justify-center gap-2 text-sm text-[var(--color-accent)] font-semibold">
-          <div className="w-4 h-4 border-2 border-[var(--color-accent)] border-t-transparent rounded-full animate-spin" />
-          Extraindo GTO e Histórico...
-        </div>
-      )}
+      <AnimatePresence>
+        {isImporting && (
+          <motion.div 
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            className="mt-6 space-y-4"
+          >
+            <div className="flex justify-between items-end mb-1">
+              <div className="space-y-1">
+                <p className="text-sm font-bold text-white flex items-center gap-2">
+                  <div className="w-3 h-3 border-2 border-[var(--color-accent)] border-t-transparent rounded-full animate-spin" />
+                  Processing History...
+                </p>
+                <p className="text-[10px] text-[var(--color-text-dim)] font-data truncate max-w-[300px]">
+                  File: {currentImportFile}
+                </p>
+              </div>
+              <div className="text-right">
+                <p className="text-lg font-data font-bold text-[var(--color-accent)]">{Math.round(importProgress)}%</p>
+              </div>
+            </div>
+
+            {/* Premium Progress Bar */}
+            <div className="h-2 w-full bg-white/5 rounded-full overflow-hidden border border-white/10 shadow-inner">
+              <motion.div 
+                className="h-full bg-gradient-to-r from-[var(--color-accent)] to-[#4ade80] shadow-[0_0_15px_rgba(0,255,136,0.3)]"
+                initial={{ width: 0 }}
+                animate={{ width: `${importProgress}%` }}
+                transition={{ type: 'spring', bounce: 0, duration: 0.5 }}
+              />
+            </div>
+
+            <div className="flex justify-between text-[10px] font-data text-[var(--color-text-muted)] uppercase tracking-wider">
+               <div className="flex gap-4">
+                 <span>Hands: <span className="text-white">{statsFound.hands}</span></span>
+                 <span>Deviations: <span className="text-[var(--color-danger)]">{statsFound.deviations}</span></span>
+               </div>
+               <span>Do not close this page</span>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {results.length > 0 && !isImporting && (
         <div className="mt-4 pt-4 border-t border-[var(--color-border)] text-sm space-y-2">
            <div className="flex items-center gap-2 font-semibold text-[var(--color-text)]">
              <CheckCircle size={16} className="text-[var(--color-accent)]" /> 
-             Processamento Concluído
+             Processing Completed
            </div>
            <div className="text-[var(--color-text-dim)] text-xs">
-             {totalHandNodes.reduce((acc, curr) => acc + (curr.imported ?? 0), 0)} Mãos Novas, {totalSummaryNodes.length} Sumários.
+             {totalHandNodes.reduce((acc, curr) => acc + (curr.imported ?? 0), 0)} New Hands, {totalSummaryNodes.length} Summaries.
            </div>
         </div>
       )}

@@ -126,7 +126,7 @@ export function VillainsPage() {
           <Search size={14} className="absolute left-2.5 top-2.5 text-[var(--color-text-muted)]" />
           <input
             type="text"
-            placeholder="Buscar jogador..."
+            placeholder="Search player..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="pl-8 pr-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
@@ -137,7 +137,7 @@ export function VillainsPage() {
           onChange={(e) => setArchetypeFilter(e.target.value as VillainArchetype | '')}
           className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] focus:outline-none focus:border-[var(--color-accent)]"
         >
-          <option value="">Todos os tipos</option>
+          <option value="">All types</option>
           <option value="fish">Fish</option>
           <option value="nit">Nit</option>
           <option value="tag">TAG</option>
@@ -146,18 +146,18 @@ export function VillainsPage() {
           <option value="maniac">Maniac</option>
         </select>
         <span className="text-xs text-[var(--color-text-muted)] self-center">
-          {filtered.length} jogadores
+          {filtered.length} players
         </span>
       </div>
 
       {loading ? (
         <div className="text-[var(--color-text-dim)] flex items-center gap-2">
           <div className="w-4 h-4 border-2 border-[var(--color-accent)] border-t-transparent rounded-full animate-spin" />
-          Carregando...
+          Loading...
         </div>
       ) : villains.length === 0 ? (
         <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
-          <p className="text-[var(--color-text-dim)]">Importe mãos para rastrear vilões.</p>
+          <p className="text-[var(--color-text-dim)]">Import hands to track villains.</p>
         </div>
       ) : (
         <>
@@ -167,9 +167,9 @@ export function VillainsPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-[var(--color-border)] text-left">
-                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Jogador</th>
-                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Mãos</th>
-                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Tipo</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Player</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Hands</th>
+                    <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Type</th>
                     <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">VPIP</th>
                     <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">PFR</th>
                     <th className="px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide">AF</th>
@@ -309,7 +309,7 @@ function VillainDetailPanel({
             </span>
           )}
           <span className="text-xs text-[var(--color-text-muted)]">
-            {villain.totalHands} mãos | Confiança: {villain.confidence}
+            {villain.totalHands} hands | Confidence: {villain.confidence}
           </span>
         </div>
         <button
@@ -345,7 +345,7 @@ function VillainDetailPanel({
       {/* Exploit advice */}
       {villain.archetype && (
         <div className="bg-[var(--color-bg)] rounded p-3 text-sm mb-3">
-          <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-1">Estratégia de Exploração</p>
+          <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-1">Exploit Strategy</p>
           <p className="text-[var(--color-text)]">{getExploitAdvice(villain.archetype)}</p>
         </div>
       )}
@@ -372,7 +372,7 @@ function VillainDetailPanel({
             onClick={() => setShowTagPicker(!showTagPicker)}
             className="text-[10px] px-2 py-1 rounded-full border border-dashed border-[var(--color-border)] text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:border-[var(--color-accent)] flex items-center gap-1"
           >
-            <Plus size={10} /> Adicionar
+            <Plus size={10} /> Add
           </button>
         </div>
 
@@ -395,14 +395,14 @@ function VillainDetailPanel({
                 value={customTag}
                 onChange={(e) => setCustomTag(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && addCustomTag()}
-                placeholder="Tag personalizada..."
+                placeholder="Custom tag..."
                 className="flex-1 px-2 py-1 text-[10px] bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
               />
               <button
                 onClick={addCustomTag}
                 className="px-2 py-1 text-[10px] rounded bg-[var(--color-accent)]/15 text-[var(--color-accent)] hover:bg-[var(--color-accent)]/25"
               >
-                Adicionar
+                Add
               </button>
             </div>
           </div>
@@ -413,13 +413,13 @@ function VillainDetailPanel({
       <div>
         <div className="flex items-center gap-2 mb-2">
           <MessageSquare size={14} className="text-[var(--color-text-dim)]" />
-          <span className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Notas</span>
+          <span className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide">Notes</span>
         </div>
         <textarea
           value={notes}
           onChange={(e) => setNotes(e.target.value)}
           onBlur={handleNotesBlur}
-          placeholder="Observações sobre o jogador..."
+          placeholder="Observations about the player..."
           rows={3}
           className="w-full px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)] resize-y"
         />

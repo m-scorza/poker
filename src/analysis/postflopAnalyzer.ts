@@ -11,6 +11,7 @@
 
 import type { Action } from '../types/hand';
 import type { BoardTexture } from '../data/strategyProfiles';
+import { getRecommendedCbetSizing, calculateMDF, calculatePotOdds } from './math';
 
 // --- Card helpers ---
 
@@ -196,6 +197,14 @@ export function analyzePostflop(
   const isHU = flopPlayerCount === 2;
   const boardAnalysis = classifyBoardTexture(flopCards);
 
+  // Se o hero foi All-In no preflop, ele não pode tomar ações no pós-flop.
+  const heroPreflopActions = actions.filter((a) => a.street === 'preflop' && a.playerName === heroName);
+  const heroAllInPreflop = heroPreflopActions.some((a) => a.isAllIn);
+  
+  if (heroAllInPreflop) {
+    return spots; // Retorna vazio, não gera leaks pós-flop.
+  }
+
   if (heroWasPFR) {
     // Did hero c-bet?
     const heroBetFlop = heroFlopActions.some((a) => a.actionType === 'bet');
@@ -204,14 +213,18 @@ export function analyzePostflop(
       // C-bet made
       const betAction = heroFlopActions.find((a) => a.actionType === 'bet');
       const sizing = betAction?.amount && totalPot > 0 ? betAction.amount / totalPot : null;
+      
+      // NEW: Texture-aware sizing validation
+      const rec = getRecommendedCbetSizing(boardAnalysis.texture);
+      const isCorrectSizing = sizing !== null ? sizing >= rec.minSizing && sizing <= rec.maxSizing : true;
 
       spots.push({
         spot: isHU ? 'CBET_HU' : 'CBET_MULTIWAY',
         street: 'flop',
         sizing,
-        isCorrect: true, // C-betting is generally correct as PFR
+        isCorrect: isCorrectSizing, 
         note: isHU
-          ? `C-bet HU no flop ${boardAnalysis.texture}`
+          ? `C-bet HU em board ${boardAnalysis.texture}. Recomendado: ${rec.label}.`
           : 'C-bet multiway',
       });
 
@@ -294,6 +307,20 @@ export function analyzePostflop(
           note: 'Donk bet no turn após call do c-bet',
         });
       }
+    }
+
+    // Check if hero faced a bet (and didn't fold/call yet)
+    const villainBet = flopActions.find((a) => a.playerName !== heroName && (a.actionType === 'bet' || a.actionType === 'raise'));
+    if (villainBet && villainBet.amount && totalPot > 0) {
+      const sizing = villainBet.amount / totalPot;
+      
+      spots.push({
+        spot: 'NONE', // Custom spot for facing bet
+        street: 'flop',
+        sizing,
+        isCorrect: null,
+        note: `Enfrentou aposta de ${(sizing * 100).toFixed(0)}% pot. Pot Odds: ${(calculatePotOdds(totalPot, villainBet.amount) * 100).toFixed(1)}%. MDF: ${(calculateMDF(totalPot, villainBet.amount) * 100).toFixed(1)}%.`,
+      });
     }
 
     // Check-raise on flop

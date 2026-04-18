@@ -17,6 +17,13 @@ export interface Hand {
   boardRiver: string | null;
   totalPot: number;
   rake: number;
+  /** True if the hand reached an actual showdown (*** SHOW DOWN *** section present). */
+  hasShowdown: boolean;
+  /** True if the user starred this hand for later review. */
+  isStarred?: boolean;
+  heroChipsBefore: number;
+  heroChipsAfter: number;
+  villainDeltas: { name: string; net: number }[];
 }
 
 /** One player's data within a single hand. */
@@ -25,6 +32,7 @@ export interface PlayerInHand {
   seatNumber: number;
   playerName: string;
   chipsBefore: number;
+  chipsAfter?: number;
   position: Position;
   isHero: boolean;
   holeCards: [string, string] | null;
@@ -57,5 +65,6 @@ export interface Tournament {
   format: string;
   finishPosition: number | null;
   prize: number | null;
+  bounty: number | null;
   handsPlayed: number;
 }

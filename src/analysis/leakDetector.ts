@@ -129,7 +129,15 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
       if (d.isCompliant) stats.complianceCompliant++;
     }
 
-    // AF components (from postflop, simplified using available data)
+    // AF components: Aggression Factor = (bets + raises) / calls
+    // We approximate using available decision data:
+    // - PFR (raise) counts as a raise
+    // - C-bet counts as a bet
+    // - Double barrel counts as a bet
+    // - Call action counts as a call
+    // This is simplified since we don't have per-street action counts in HeroDecision
+    if (d.action === 'raise') stats.totalRaises++;
+    if (d.action === 'call') stats.totalCalls++;
     if (d.cbetMade) stats.totalBets++;
     if (d.doubleBarrelMade) stats.totalBets++;
   }
@@ -304,6 +312,29 @@ export function detectLeaks(
         target: [thresholds.wonSD.min, thresholds.wonSD.max],
         deviation: Math.round((thresholds.wonSD.min - wonSD) * 10) / 10,
         sampleSize: stats.wtsdHands,
+      });
+    }
+  }
+
+  // AF (Aggression Factor) — out-of-range alert
+  // Requires a meaningful sample on both sides of the ratio.
+  if (stats.totalCalls >= 10 && (stats.totalCalls + stats.totalBets + stats.totalRaises) >= 20) {
+    const af = stats.totalCalls === 0 ? 0 : (stats.totalBets + stats.totalRaises) / stats.totalCalls;
+    if (af < thresholds.af.min || af > thresholds.af.max) {
+      const deviation = af < thresholds.af.min
+        ? thresholds.af.min - af
+        : af - thresholds.af.max;
+      leaks.push({
+        id: 'af',
+        name: 'AF',
+        description: af < thresholds.af.min
+          ? 'Too passive — not enough bets/raises relative to calls'
+          : 'Too aggressive — betting and raising beyond typical value frequency',
+        severity: computeSeverity(af, thresholds.af.min, thresholds.af.max),
+        value: Math.round(af * 100) / 100,
+        target: [thresholds.af.min, thresholds.af.max],
+        deviation: Math.round(deviation * 100) / 100,
+        sampleSize: stats.totalCalls + stats.totalBets + stats.totalRaises,
       });
     }
   }

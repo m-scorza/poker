@@ -55,6 +55,41 @@ db.version(2).stores({
   tx.table('settings').put({ id: 'global', heroName: 'scorza23' });
 });
 
+// Phase 5a: Add hasShowdown to hands, recompute wentToShowdown/wonAtShowdown on decisions
+// Bug #7 fix: W$SD false positives — the old heuristic counted non-showdown wins
+db.version(3).stores({
+  // No schema changes needed — hasShowdown is a non-indexed field on hands
+}).upgrade(async (tx) => {
+  // Step 1: Backfill hasShowdown on existing hands.
+  // Heuristic: if any non-hero player has hole cards stored, it was a showdown
+  // (PokerStars only reveals villain cards at showdown)
+  const players = tx.table('players');
+  const hands = tx.table('hands');
+  const decisions = tx.table('heroDecisions');
+
+  // Build a set of hand IDs that had showdowns (non-hero players with hole cards)
+  const showdownHandIds = new Set<string>();
+  await players.each((p: PlayerInHand) => {
+    if (!p.isHero && p.holeCards && p.holeCards.length === 2) {
+      showdownHandIds.add(p.handId);
+    }
+  });
+
+  // Update all hands with hasShowdown flag
+  await hands.toCollection().modify((hand: Hand) => {
+    (hand as any).hasShowdown = showdownHandIds.has(hand.id);
+  });
+
+  // Step 2: Recompute wentToShowdown and wonAtShowdown on heroDecisions
+  await decisions.toCollection().modify((d: HeroDecision) => {
+    const hadShowdown = showdownHandIds.has(d.handId);
+    // If the hand had a showdown and hero didn't fold (action !== 'fold'), hero went to showdown
+    const heroWentToSD = hadShowdown && d.action !== 'fold';
+    d.wentToShowdown = heroWentToSD;
+    d.wonAtShowdown = heroWentToSD && d.wonAmount > 0;
+  });
+});
+
 export { db };
 
 /** Check if a hand ID already exists (for deduplication). */
@@ -100,6 +135,7 @@ export async function importHands(
           format: h.tournament.format ?? '',
           finishPosition: h.tournament.finishPosition ?? null,
           prize: h.tournament.prize ?? null,
+          bounty: (h.tournament as any).bounty ?? null,
           handsPlayed: 0,
         }));
       if (tourns.length > 0) {
@@ -359,6 +395,7 @@ export async function importTournamentSummaries(
       if (existing) {
         if (summary.finishPosition !== null) existing.finishPosition = summary.finishPosition;
         if (summary.prize !== null) existing.prize = summary.prize;
+        if (summary.bounty !== null) existing.bounty = summary.bounty;
         await db.tournaments.put(existing);
         count++;
       } else {
@@ -369,6 +406,7 @@ export async function importTournamentSummaries(
           format: 'Unknown',
           finishPosition: summary.finishPosition,
           prize: summary.prize,
+          bounty: summary.bounty,
           handsPlayed: 0,
         });
         count++;
@@ -405,4 +443,14 @@ export async function getHeroName(): Promise<string> {
 /** Save the currently configured Hero Name */
 export async function saveHeroName(heroName: string): Promise<void> {
   await db.settings.put({ id: 'global', heroName });
+}
+
+/** Toggle the "starred" status of a hand. */
+export async function toggleStarHand(handId: string): Promise<boolean> {
+  const hand = await db.hands.get(handId);
+  if (!hand) return false;
+  
+  const newState = !hand.isStarred;
+  await db.hands.update(handId, { isStarred: newState });
+  return newState;
 }

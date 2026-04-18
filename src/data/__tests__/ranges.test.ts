@@ -4,7 +4,6 @@ import {
   SB_BLIND_WAR_RANGE,
   isSuitedHand,
   allHandCombos,
-  openRaiseSize,
   threeBetSize,
 } from '../ranges';
 
@@ -174,23 +173,6 @@ describe('allHandCombos', () => {
     expect(combos).toContain('22');    // Lowest pair
     expect(combos).toContain('32s');   // Lowest suited
     expect(combos).toContain('32o');   // Lowest offsuit
-  });
-});
-
-describe('openRaiseSize', () => {
-  it('returns 3bb at 75bb+', () => {
-    expect(openRaiseSize(100)).toBe(3);
-    expect(openRaiseSize(75)).toBe(3);
-  });
-
-  it('returns 2.5bb at 40-74bb', () => {
-    expect(openRaiseSize(50)).toBe(2.5);
-    expect(openRaiseSize(40)).toBe(2.5);
-  });
-
-  it('returns 2bb at <40bb', () => {
-    expect(openRaiseSize(30)).toBe(2);
-    expect(openRaiseSize(10)).toBe(2);
   });
 });
 

@@ -394,6 +394,58 @@ player2: folds
 Total pot 30 | Rake 0
 Seat 3: scorza23 (big blind) collected (30)`;
 
+/**
+ * W$SD regression: hero reaches showdown but wins without "showed and won".
+ * Villain shows first on river and mucks when their hand is weaker; hero
+ * collects pot. `hasShowdown=true`, hero collected > 0, but hero has NO
+ * "showed [cards] and won" line in SUMMARY — W$SD must be false.
+ */
+export const HAND_WON_WITHOUT_SHOWING = `\
+PokerStars Hand #260356647400: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level VI (100/200) - 2026/04/05 19:30:00 UTC [2026/04/05 15:30:00 ET]
+Table '3989541132 1' 6-max Seat #1 is the button
+Seat 1: scorza23 (4000 in chips)
+Seat 2: player2 (3500 in chips)
+Seat 3: player3 (3000 in chips)
+Seat 4: player4 (2500 in chips)
+Seat 5: player5 (2000 in chips)
+Seat 6: player6 (3000 in chips)
+scorza23: posts the ante 20
+player2: posts the ante 20
+player3: posts the ante 20
+player4: posts the ante 20
+player5: posts the ante 20
+player6: posts the ante 20
+player2: posts small blind 100
+player3: posts big blind 200
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kh]
+player4: folds
+player5: folds
+player6: folds
+scorza23: raises 200 to 400
+player2: folds
+player3: calls 200
+*** FLOP *** [Ad 7d 3c]
+player3: checks
+scorza23: bets 300
+player3: calls 300
+*** TURN *** [Ad 7d 3c] [8s]
+player3: checks
+scorza23: bets 600
+player3: calls 600
+*** RIVER *** [Ad 7d 3c 8s] [2d]
+player3: bets 800
+scorza23: calls 800
+*** SHOW DOWN ***
+player3: shows [Kd Qd] (high card Ace)
+scorza23: mucks hand
+scorza23 collected 4320 from pot
+*** SUMMARY ***
+Total pot 4320 | Rake 0
+Board [Ad 7d 3c 8s 2d]
+Seat 1: scorza23 (button) mucked [Ah Kh]
+Seat 3: player3 (big blind) showed [Kd Qd] and lost with high card Ace`;
+
 /** Hand with showdown + all-in on river. */
 export const HAND_SHOWDOWN = `\
 PokerStars Hand #260356647300: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level VI (100/200) - 2026/04/05 19:15:00 UTC [2026/04/05 15:15:00 ET]

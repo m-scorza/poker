@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep *)",
+      "Bash(grep -E '\\\\.\\(test|spec\\)\\\\.\\(ts|tsx\\)$')",
+      "Bash(grep -r \"TrendChart\\\\|Y-axis\\\\|\\\\\\\\[0,100\\\\\\\\]\" \"/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/src/components\" --include=\"*.tsx\")",
+      "Bash(grep -r 'W$SD\\\\|wentToShowdown\\\\|showdown\\\\|won at' src/analysis/__tests__/ src/parser/__tests__/)",
+      "Bash(find src/**/__tests__ -name \"*.test.ts\")",
+      "Bash(npm view *)",
+      "Bash(git mv *)",
+      "Bash(npm test *)",
+      "Bash(npx vitest *)"
+    ]
+  }
+}

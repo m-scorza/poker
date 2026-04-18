@@ -11,6 +11,7 @@ import {
   HAND_WALK,
   HAND_NON_CONTIGUOUS,
   HAND_FACING_LIMP,
+  HAND_WON_WITHOUT_SHOWING,
 } from '../../test/fixtures/sample-hands';
 
 function parseFirst(text: string) {
@@ -22,8 +23,9 @@ describe('detectScenario', () => {
   it('detects RFI — folded to hero at UTG', () => {
     const parsed = parseFirst(HAND_FULL_STREETS);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -35,8 +37,9 @@ describe('detectScenario', () => {
   it('detects RFI — folded to hero at UTG (preflop only)', () => {
     const parsed = parseFirst(HAND_PREFLOP_ONLY);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -48,8 +51,9 @@ describe('detectScenario', () => {
   it('detects HU_BTN — heads-up, hero is BTN/SB', () => {
     const parsed = parseFirst(HAND_HEADS_UP);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -61,8 +65,9 @@ describe('detectScenario', () => {
   it('detects BB_VS_RAISE — hero in BB facing normal 2x open', () => {
     const parsed = parseFirst(HAND_BB_VS_RAISE);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -74,8 +79,9 @@ describe('detectScenario', () => {
   it('detects BLIND_WAR — folded to SB', () => {
     const parsed = parseFirst(HAND_BLIND_WAR);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -87,8 +93,9 @@ describe('detectScenario', () => {
   it('detects WALK — everyone folds to BB', () => {
     const parsed = parseFirst(HAND_WALK);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -100,8 +107,9 @@ describe('detectScenario', () => {
   it('detects FACING_LIMP — someone limped before hero', () => {
     const parsed = parseFirst(HAND_FACING_LIMP);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -114,8 +122,9 @@ describe('detectScenario', () => {
     // Hero is BB (seat 1), player3 (CO) raises
     const parsed = parseFirst(HAND_NON_CONTIGUOUS);
     const hero = parsed.players.find((p) => p.isHero)!;
-    const scenario = detectScenario(
+    const { scenario } = detectScenario(
       parsed.actions,
+      parsed.players,
       'scorza23',
       hero.position,
       parsed.hand.bigBlind,
@@ -132,8 +141,9 @@ describe('detectScenario', () => {
       const parsed = parseFirst(HAND_BB_VS_ALLIN);
       const hero = parsed.players.find((p) => p.isHero)!;
       expect(hero.position).toBe('CO');
-      const scenario = detectScenario(
+      const { scenario } = detectScenario(
         parsed.actions,
+        parsed.players,
         'scorza23',
         hero.position,
         parsed.hand.bigBlind,
@@ -146,8 +156,9 @@ describe('detectScenario', () => {
       // Create a scenario where BB faces an all-in
       const parsed = parseFirst(HAND_BB_VS_ALLIN);
       // player6 is BB (seat 6, BTN=4: BTN(4), SB(5), BB(6))
-      const scenario = detectScenario(
+      const { scenario } = detectScenario(
         parsed.actions,
+        parsed.players,
         'player6',
         'BB',
         parsed.hand.bigBlind,
@@ -224,5 +235,34 @@ describe('buildHeroDecision', () => {
     const decision = buildHeroDecision(parsed);
     expect(decision!.isCompliant).toBe(false);
     expect(decision!.deviationType).toBeNull();
+  });
+
+  describe('W$SD detection', () => {
+    it('sets wonAtShowdown=false when hero wins pot without showing (Bug #7 regression)', () => {
+      // Hero reaches showdown (*** SHOW DOWN *** section present) and collects
+      // the pot after villain shows a losing hand, but hero mucks — no
+      // "showed [cards] and won" line for hero in SUMMARY. Current buggy
+      // behaviour: wonAmount > 0 inflates W$SD. Expected: W$SD = false.
+      const parsed = parseFirst(HAND_WON_WITHOUT_SHOWING);
+      expect(parsed.hand.hasShowdown).toBe(true);
+      expect(parsed.collectedAmounts.get('scorza23')).toBeGreaterThan(0);
+      expect(parsed.showdownWinners.has('scorza23')).toBe(false);
+
+      const decision = buildHeroDecision(parsed);
+      expect(decision!.wentToShowdown).toBe(true);
+      expect(decision!.wonAmount).toBeGreaterThan(0);
+      expect(decision!.wonAtShowdown).toBe(false);
+    });
+
+    it('sets wonAtShowdown=true when hero explicitly "showed and won"', () => {
+      // Sanity check: the reverse case — hero in "showed [cards] and won"
+      // line in SUMMARY — must still count as W$SD.
+      const parsed = parseFirst(HAND_BB_VS_ALLIN);
+      expect(parsed.showdownWinners.has('player6')).toBe(true);
+
+      const decision = buildHeroDecision(parsed, 'player6');
+      expect(decision!.wentToShowdown).toBe(true);
+      expect(decision!.wonAtShowdown).toBe(true);
+    });
   });
 });

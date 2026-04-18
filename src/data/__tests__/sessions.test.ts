@@ -20,6 +20,7 @@ function makeHand(id: string, dateStr: string, tournamentId: string = 'T1'): Han
     boardRiver: null,
     totalPot: 0,
     rake: 0,
+    hasShowdown: false,
   };
 }
 

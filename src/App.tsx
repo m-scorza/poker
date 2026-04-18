@@ -7,6 +7,7 @@ import { RangesPage } from './pages/RangesPage';
 import { LeaksPage } from './pages/LeaksPage';
 import { SessionsPage } from './pages/SessionsPage';
 import { VillainsPage } from './pages/VillainsPage';
+import { ArenaPage } from './pages/ArenaPage';
 import { ErrorBoundary } from './components/layout/ErrorBoundary';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/leaks" element={<LeaksPage />} />
           <Route path="/sessions" element={<SessionsPage />} />
           <Route path="/villains" element={<VillainsPage />} />
+          <Route path="/arena" element={<ArenaPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

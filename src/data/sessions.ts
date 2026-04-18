@@ -22,6 +22,11 @@ export interface Session {
   prizes: number;
   pnl: number;
   roi: number;
+  nemesis?: { 
+    name: string; 
+    amount: number; 
+    type: 'assassin' | 'crusher' | 'damage';
+  };
 }
 
 const DEFAULT_GAP_MS = 4 * 60 * 60 * 1000; // 4 hours
@@ -90,6 +95,50 @@ function buildSession(
   const pnl = prizes - buyIns;
   const roi = buyIns > 0 ? (pnl / buyIns) * 100 : 0;
 
+  // Advanced Nemesis Detection
+  const nemesisMap = new Map<string, number>();
+  let assassin: string | undefined;
+  let crusher = { name: '', amount: 0 };
+  
+  for (const h of hands) {
+    const decision = decisions.get(h.id);
+    const heroNet = decision?.netProfit ?? (h.heroChipsAfter - h.heroChipsBefore);
+    
+    // Crusher: Villain who won the most in a single hand against hero
+    if (heroNet < 0) {
+      for (const v of h.villainDeltas) {
+        if (v.net > crusher.amount) {
+          crusher = { name: v.name, amount: v.net };
+        }
+        // Total damage
+        nemesisMap.set(v.name, (nemesisMap.get(v.name) || 0) + v.net);
+      }
+    }
+    
+    // Assassin: Hero went to 0 chips in this hand
+    if (h.heroChipsAfter === 0 && h.heroChipsBefore > 0) {
+      const winner = h.villainDeltas.sort((a, b) => b.net - a.net)[0];
+      if (winner) assassin = winner.name;
+    }
+  }
+
+  let damageNemesis: { name: string; amount: number } | undefined;
+  let maxDamage = 0;
+  nemesisMap.forEach((amount, name) => {
+    if (amount > maxDamage) {
+      maxDamage = amount;
+      damageNemesis = { name, amount };
+    }
+  });
+
+  const finalNemesis = assassin 
+    ? { name: assassin, amount: 0, type: 'assassin' as const } 
+    : crusher.amount > 0 
+      ? { name: crusher.name, amount: crusher.amount, type: 'crusher' as const }
+      : damageNemesis 
+        ? { name: damageNemesis.name, amount: damageNemesis.amount, type: 'damage' as const }
+        : undefined;
+
   return {
     id: `session-${index + 1}`,
     startTime: hands[0]!.date,
@@ -102,6 +151,7 @@ function buildSession(
     prizes,
     pnl,
     roi,
+    nemesis: finalNemesis,
   };
 }
 
@@ -143,3 +193,50 @@ export function computeSessionTrends(sessions: Session[]): SessionTrendPoint[] {
     };
   });
 }
+
+/**
+ * Compute running stat trends WITHIN a single session, grouped every N hands.
+ * Used when user filters to a specific session so charts still show data.
+ */
+export function computeIntraSessionTrends(
+  decisions: HeroDecision[],
+  bucketSize: number = 25,
+): SessionTrendPoint[] {
+  if (decisions.length === 0) return [];
+  const pct = (n: number, d: number) => (d === 0 ? 0 : (n / d) * 100);
+  const points: SessionTrendPoint[] = [];
+  
+  let runVpip = 0, runPfr = 0, runComp = 0, runCompEl = 0, runWon = 0;
+  
+  for (let i = 0; i < decisions.length; i++) {
+    const d = decisions[i]!;
+    if (d.action === 'raise' || d.action === 'call') runVpip++;
+    if (d.wasPreFlopRaiser) runPfr++;
+    if (d.deviationType !== null || d.isCompliant) {
+      runCompEl++;
+      if (d.isCompliant) runComp++;
+    }
+    runWon += d.netProfit;
+    
+    // Emit a point every bucketSize hands, and at the end
+    if ((i + 1) % bucketSize === 0 || i === decisions.length - 1) {
+      const total = i + 1;
+      points.push({
+        sessionId: 'intra',
+        date: new Date(),
+        hands: total,
+        vpip: Math.round(pct(runVpip, total) * 10) / 10,
+        pfr: Math.round(pct(runPfr, total) * 10) / 10,
+        cbetTotal: 0,
+        cbetHU: 0,
+        wtsd: 0,
+        compliance: Math.round(pct(runComp, runCompEl) * 10) / 10,
+        pnl: runWon,
+        cumulativePnl: runWon,
+      });
+    }
+  }
+  
+  return points;
+}
+

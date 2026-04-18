@@ -62,4 +62,6 @@ export interface HeroDecision {
   wonAmount: number;
   icmStage?: ICMStage;
   squeezeSpot?: { callerCount: number; heroAction: string; recommendedSizing: number } | null;
+  netProfit: number;
+  openerPosition?: Position | null;
 }

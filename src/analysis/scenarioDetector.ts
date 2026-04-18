@@ -1,4 +1,4 @@
-import type { Action } from '../types/hand';
+import type { Action, PlayerInHand } from '../types/hand';
 import type { Position, Scenario, HeroDecision } from '../types/analysis';
 import type { ParsedHand } from '../parser/pokerstars';
 import { toCanonicalHandKey } from '../parser/handKey';
@@ -7,19 +7,26 @@ import { detectSqueezeOpportunity } from './squeezeDetector';
 
 const FORCED_ACTIONS = new Set(['post_ante', 'post_sb', 'post_bb']);
 
+interface ScenarioResult {
+  scenario: Scenario;
+  openerPosition: Position | null;
+}
+
 /**
  * Detect the preflop scenario for hero based on actions before hero's first voluntary action.
- *
- * Bug #1 prevention: Always checks actions before hero — never classifies FACING_RAISE as RFI.
- * Bug #2 prevention: Checks isAllIn flag AND raise size for BB_VS_LARGE_RAISE.
+ * Enhanced to return the opener's position for "Facing Raise" analysis.
  */
 export function detectScenario(
   actions: Action[],
+  players: PlayerInHand[],
   heroName: string,
   heroPosition: Position,
   bigBlind: number,
   activePlayers: number,
-): Scenario {
+): ScenarioResult {
+  // Map player name to position for easy lookup
+  const playerPosMap = new Map(players.map(p => [p.playerName, p.position]));
+
   // Get preflop voluntary actions only
   const preflopActions = actions.filter(
     (a) => a.street === 'preflop' && !FORCED_ACTIONS.has(a.actionType),
@@ -33,22 +40,25 @@ export function detectScenario(
 
   // HU: hero is BTN/SB
   if (activePlayers === 2 && heroPosition === 'BTN/SB') {
-    return 'HU_BTN';
+    return { scenario: 'HU_BTN', openerPosition: null };
   }
+
+  // Find the first raiser (the opener)
+  const firstRaiser = actionsBefore.find(a => a.actionType === 'raise');
+  const openerPosition = firstRaiser ? (playerPosMap.get(firstRaiser.playerName) || null) : null;
 
   // WALK: hero is BB, everyone folded
   if (heroPosition === 'BB' || heroPosition === 'BTN/SB') {
     const allFolded =
       actionsBefore.length > 0 &&
       actionsBefore.every((a) => a.actionType === 'fold');
-    // For BB: if all non-BB players folded and hero had no voluntary action, it's a walk
     if (heroPosition === 'BB' && allFolded && heroIdx === -1) {
-      return 'WALK';
+      return { scenario: 'WALK', openerPosition: null };
     }
   }
 
   // Classify what happened before hero
-  const hasRaise = actionsBefore.some((a) => a.actionType === 'raise');
+  const hasRaise = !!firstRaiser;
   const hasAllInRaise = actionsBefore.some(
     (a) => a.actionType === 'raise' && a.isAllIn,
   );
@@ -60,7 +70,7 @@ export function detectScenario(
   // BB-specific scenarios
   if (heroPosition === 'BB') {
     if (hasAllInRaise) {
-      return 'BB_VS_LARGE_RAISE';
+      return { scenario: 'BB_VS_LARGE_RAISE', openerPosition };
     }
     if (hasRaise) {
       // Check raise size relative to BB
@@ -68,55 +78,55 @@ export function detectScenario(
         .reverse()
         .find((a) => a.actionType === 'raise');
       if (lastRaise?.amount && lastRaise.amount / bigBlind >= 5) {
-        return 'BB_VS_LARGE_RAISE';
+        return { scenario: 'BB_VS_LARGE_RAISE', openerPosition };
       }
-      return 'BB_VS_RAISE';
+      return { scenario: 'BB_VS_RAISE', openerPosition };
     }
     if (hasLimp && !hasRaise) {
-      return 'BB_VS_LIMP';
+      const firstLimper = actionsBefore.find(a => a.actionType === 'call');
+      return { scenario: 'BB_VS_LIMP', openerPosition: firstLimper ? (playerPosMap.get(firstLimper.playerName) || null) : null };
     }
-    // Everyone folded to BB (but hero did act — checked or raised)
     if (allFoldedBefore && heroIdx !== -1) {
-      return 'WALK';
+      return { scenario: 'WALK', openerPosition: null };
     }
-    return 'WALK';
+    return { scenario: 'WALK', openerPosition: null };
   }
 
-  // SB: Blind war check (folded to SB, only BB remains)
+  // SB: Blind war check
   if (
     (heroPosition === 'SB' || heroPosition === 'BTN/SB') &&
     allFoldedBefore &&
     activePlayers > 2
   ) {
-    return 'BLIND_WAR';
+    return { scenario: 'BLIND_WAR', openerPosition: null };
   }
 
   // Non-blind positions
   if (hasAllInRaise) {
-    return 'FACING_ALL_IN';
+    return { scenario: 'FACING_ALL_IN', openerPosition };
   }
   if (hasRaise) {
-    return 'FACING_RAISE';
+    return { scenario: 'FACING_RAISE', openerPosition };
   }
   if (hasLimp && !hasRaise) {
-    return 'FACING_LIMP';
+    const firstLimper = actionsBefore.find(a => a.actionType === 'call');
+    return { scenario: 'FACING_LIMP', openerPosition: firstLimper ? (playerPosMap.get(firstLimper.playerName) || null) : null };
   }
   if (allFoldedBefore) {
-    return 'RFI';
+    return { scenario: 'RFI', openerPosition: null };
   }
 
-  return 'RFI';
+  return { scenario: 'RFI', openerPosition: null };
 }
 
 /**
  * Build a HeroDecision from a parsed hand.
- * Returns null if hero is not in the hand or it's a WALK with no decision.
  */
 export function buildHeroDecision(
   parsedHand: ParsedHand,
   heroName: string = 'scorza23',
 ): HeroDecision | null {
-  const { hand, players, actions, collectedAmounts } = parsedHand;
+  const { hand, players, actions, collectedAmounts, showdownWinners } = parsedHand;
 
   // Find hero
   const hero = players.find((p) => p.playerName === heroName);
@@ -124,13 +134,12 @@ export function buildHeroDecision(
   if (!hero.holeCards) return null;
 
   const stackBb = hand.bigBlind > 0 ? hero.chipsBefore / hand.bigBlind : 0;
-
-  // Canonical hand key
   const handKey = toCanonicalHandKey(hero.holeCards[0], hero.holeCards[1]);
 
   // Detect scenario
-  const scenario = detectScenario(
+  const { scenario, openerPosition } = detectScenario(
     actions,
+    players,
     heroName,
     hero.position,
     hand.bigBlind,
@@ -162,18 +171,11 @@ export function buildHeroDecision(
           ? 'check'
           : 'fold';
 
-  // Postflop analysis
+  // Analysis flags
   const sawFlop = hand.boardFlop !== null && heroAction !== 'fold';
-  const wasPreFlopRaiser =
-    heroVoluntaryActions.some((a) => a.actionType === 'raise');
+  const wasPreFlopRaiser = heroVoluntaryActions.some((a) => a.actionType === 'raise');
 
-  // C-bet: hero was PFR, flop exists, and hero had opportunity to bet
   const flopActions = actions.filter((a) => a.street === 'flop');
-  const heroFlopActions = flopActions.filter(
-    (a) => a.playerName === heroName,
-  );
-
-  // Count how many players saw the flop
   const preflopFolders = new Set(
     actions
       .filter((a) => a.street === 'preflop' && a.actionType === 'fold')
@@ -181,43 +183,20 @@ export function buildHeroDecision(
   );
   const flopPlayerCount = players.length - preflopFolders.size;
   const cbetHU = flopPlayerCount === 2;
-
-  // Guard: hero can't c-bet if already all-in preflop
   const heroAllInPreflop = heroVoluntaryActions.some((a) => a.isAllIn);
-
-  // C-bet opportunity: hero was PFR and saw flop and is NOT already all-in
-  // Bug #1: If there are ZERO voluntary flop actions from anyone, the preflop action
-  // ran out all-in, so hero cannot c-bet.
   const hasFlopActions = flopActions.length > 0;
   const cbetOpportunity = wasPreFlopRaiser && sawFlop && !heroAllInPreflop && hasFlopActions;
-  const cbetMade =
-    cbetOpportunity &&
-    heroFlopActions.some((a) => a.actionType === 'bet');
+  const cbetMade = cbetOpportunity && flopActions.some((a) => a.playerName === heroName && a.actionType === 'bet');
 
-  // Double barrel: hero c-bet flop, turn exists, not all-in preflop
   const turnActions = actions.filter((a) => a.street === 'turn');
-  const heroTurnActions = turnActions.filter(
-    (a) => a.playerName === heroName,
-  );
-  const doubleBarrelOpportunity =
-    cbetMade && hand.boardTurn !== null && !heroAllInPreflop && hasFlopActions;
-  const doubleBarrelMade =
-    doubleBarrelOpportunity &&
-    heroTurnActions.some((a) => a.actionType === 'bet');
+  const doubleBarrelOpportunity = cbetMade && hand.boardTurn !== null && !heroAllInPreflop;
+  const doubleBarrelMade = doubleBarrelOpportunity && turnActions.some((a) => a.playerName === heroName && a.actionType === 'bet');
 
   // Showdown detection
-  const wentToShowdown = actions.some(
-    (a) =>
-      a.playerName === heroName &&
-      a.street === 'river' &&
-      a.actionType !== 'fold',
-  ) && hand.boardRiver !== null;
-
-  // Won amount: from parsed "collected X from pot" lines
+  const heroFolded = actions.some((a) => a.playerName === heroName && a.actionType === 'fold');
+  const wentToShowdown = hand.hasShowdown && !heroFolded;
   const wonAmount = collectedAmounts?.get(heroName) ?? 0;
-
-  // Won at showdown: hero went to showdown AND collected chips
-  const wonAtShowdown = wentToShowdown && wonAmount > 0;
+  const wonAtShowdown = wentToShowdown && (wonAmount > 0 || (showdownWinners?.has(heroName) ?? false));
 
   return {
     handId: hand.id,
@@ -225,9 +204,10 @@ export function buildHeroDecision(
     handKey,
     stackBb,
     scenario,
+    openerPosition,
     action: heroAction,
-    isCompliant: false, // Stub — needs range data
-    deviationType: null, // Stub — needs range data
+    isCompliant: false, 
+    deviationType: null,
     sawFlop,
     wasPreFlopRaiser,
     cbetOpportunity,
@@ -242,5 +222,6 @@ export function buildHeroDecision(
     squeezeSpot: squeezeResult
       ? { callerCount: squeezeResult.callerCount, heroAction: squeezeResult.heroAction, recommendedSizing: squeezeResult.recommendedSizing }
       : null,
+    netProfit: (hero.chipsAfter || 0) - hero.chipsBefore,
   };
 }

@@ -21,19 +21,20 @@ function pct(n: number, d: number): string {
 export function exportSessionsPDF(
   sessions: Session[],
   leaks: Leak[] = [],
+  heroName: string = 'scorza23',
 ): void {
   const doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
   const pageWidth = doc.internal.pageSize.getWidth();
-  const now = format(new Date(), 'dd/MM/yyyy HH:mm');
+  const now = format(new Date(), 'yyyy-MM-dd HH:mm');
 
   // ── Header ──────────────────────────────────────────────
   doc.setFontSize(18);
-  doc.text('Relatório de Sessões — scorza23', 14, 18);
+  doc.text(`Session Report — ${heroName}`, 14, 18);
 
   doc.setFontSize(9);
   doc.setTextColor(120, 120, 120);
-  doc.text(`Gerado em ${now}`, 14, 24);
-  doc.text(`${sessions.length} sessão(ões)`, pageWidth - 14, 24, { align: 'right' });
+  doc.text(`Generated ${now}`, 14, 24);
+  doc.text(`${sessions.length} session${sessions.length === 1 ? '' : 's'}`, pageWidth - 14, 24, { align: 'right' });
   doc.setTextColor(0, 0, 0);
 
   // ── Aggregate Stats ─────────────────────────────────────
@@ -68,10 +69,10 @@ export function exportSessionsPDF(
     );
 
     doc.setFontSize(11);
-    doc.text('Resumo Geral', 14, 32);
+    doc.text('Overview', 14, 32);
 
     const summaryData = [
-      ['Mãos', totals.hands.toString()],
+      ['Hands', totals.hands.toString()],
       ['VPIP', pct(totals.vpip, totals.hands)],
       ['PFR', pct(totals.pfr, totals.hands)],
       ['C-bet Total', pct(totals.cbetMade, totals.cbetOpps)],
@@ -86,7 +87,7 @@ export function exportSessionsPDF(
 
     autoTable(doc, {
       startY: 35,
-      head: [['Estatística', 'Valor']],
+      head: [['Stat', 'Value']],
       body: summaryData,
       theme: 'grid',
       headStyles: { fillColor: [40, 40, 50], textColor: [200, 200, 200], fontSize: 8 },
@@ -102,10 +103,10 @@ export function exportSessionsPDF(
     const leakStartY = sessions.length > 0 ? 35 : 32;
 
     doc.setFontSize(11);
-    doc.text('Leaks Ativos', 90, 32);
+    doc.text('Active Leaks', 90, 32);
 
     const severityLabel = (s: string) =>
-      s === 'critical' ? 'CRÍTICO' : s === 'high' ? 'ALTO' : s === 'medium' ? 'MÉDIO' : 'BAIXO';
+      s === 'critical' ? 'CRITICAL' : s === 'high' ? 'HIGH' : s === 'medium' ? 'MEDIUM' : 'LOW';
 
     const leakRows = leaks.map((l) => [
       l.name,
@@ -117,7 +118,7 @@ export function exportSessionsPDF(
 
     autoTable(doc, {
       startY: leakStartY,
-      head: [['Leak', 'Severidade', 'Atual', 'Alvo', 'Desvio']],
+      head: [['Leak', 'Severity', 'Current', 'Target', 'Deviation']],
       body: leakRows,
       theme: 'grid',
       headStyles: { fillColor: [80, 30, 30], textColor: [200, 200, 200], fontSize: 8 },
@@ -132,10 +133,10 @@ export function exportSessionsPDF(
     doc.addPage('landscape');
 
     doc.setFontSize(11);
-    doc.text('Detalhamento por Sessão', 14, 14);
+    doc.text('Per-Session Breakdown', 14, 14);
 
     const headers = [
-      'Sessão', 'Início', 'Fim', 'Mãos', 'Torneios',
+      'Session', 'Start', 'End', 'Hands', 'Tourneys',
       'VPIP', 'PFR', 'C-bet', 'C-bet HU', 'WTSD',
       'Won SD', 'Compliance', 'Limps', '3-bet', 'Dbl Barrel',
     ];
@@ -144,8 +145,8 @@ export function exportSessionsPDF(
       const st = s.stats;
       return [
         s.id,
-        format(s.startTime, 'dd/MM HH:mm'),
-        format(s.endTime, 'dd/MM HH:mm'),
+        format(s.startTime, 'MM-dd HH:mm'),
+        format(s.endTime, 'MM-dd HH:mm'),
         s.totalHands.toString(),
         s.tournamentIds.length.toString(),
         pct(st.vpipHands, st.totalHands),
@@ -179,12 +180,12 @@ export function exportSessionsPDF(
     doc.setFontSize(7);
     doc.setTextColor(150, 150, 150);
     doc.text(
-      `Poker Hand Analyzer — scorza23 — Página ${i}/${totalPages}`,
+      `Poker Hand Analyzer — ${heroName} — Page ${i}/${totalPages}`,
       pageWidth / 2,
       doc.internal.pageSize.getHeight() - 6,
       { align: 'center' },
     );
   }
 
-  doc.save(`poker-relatorio-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
+  doc.save(`poker-report-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
 }
