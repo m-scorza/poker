@@ -30,6 +30,7 @@ export interface AppState {
 
   // UI
   filters: Filters;
+  activeSessionId: string;
   isImporting: boolean;
   lastImportCount: number | null;
 
@@ -42,6 +43,7 @@ export interface AppState {
   resetFilters: () => void;
   setImporting: (importing: boolean) => void;
   setLastImportCount: (count: number | null) => void;
+  setActiveSessionId: (id: string) => void;
 }
 
 const DEFAULT_FILTERS: Filters = {
@@ -61,6 +63,7 @@ export const useAppStore = create<AppState>()(
       heroName: 'scorza23',
       strategyProfile: 'game_plan',
       filters: { ...DEFAULT_FILTERS },
+      activeSessionId: 'all',
       isImporting: false,
       lastImportCount: null,
 
@@ -73,6 +76,7 @@ export const useAppStore = create<AppState>()(
       resetFilters: () => set({ filters: { ...DEFAULT_FILTERS } }),
       setImporting: (importing) => set({ isImporting: importing }),
       setLastImportCount: (count) => set({ lastImportCount: count }),
+      setActiveSessionId: (id) => set({ activeSessionId: id }),
     }),
     {
       name: 'poker-app-settings',

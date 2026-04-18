@@ -21,6 +21,9 @@ function makeHand(id: string, dateStr: string, tournamentId: string = 'T1'): Han
     totalPot: 0,
     rake: 0,
     hasShowdown: false,
+    heroChipsBefore: 1000,
+    heroChipsAfter: 1000,
+    villainDeltas: [],
   };
 }
 
@@ -44,6 +47,7 @@ function makeDecision(handId: string): HeroDecision {
     wentToShowdown: false,
     wonAtShowdown: false,
     wonAmount: 0,
+    netProfit: 0,
   };
 }
 

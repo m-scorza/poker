@@ -4,6 +4,7 @@ import type { ParsedHand } from '../parser/pokerstars';
 import { toCanonicalHandKey } from '../parser/handKey';
 import { estimateICMStage } from './icmDetector';
 import { detectSqueezeOpportunity } from './squeezeDetector';
+import { analyzePostflop } from './postflopAnalyzer';
 
 const FORCED_ACTIONS = new Set(['post_ante', 'post_sb', 'post_bb']);
 
@@ -192,11 +193,21 @@ export function buildHeroDecision(
   const doubleBarrelOpportunity = cbetMade && hand.boardTurn !== null && !heroAllInPreflop;
   const doubleBarrelMade = doubleBarrelOpportunity && turnActions.some((a) => a.playerName === heroName && a.actionType === 'bet');
 
+  // Postflop spots analysis
+  const postflopActions = analyzePostflop(
+    actions,
+    heroName,
+    wasPreFlopRaiser,
+    hand.boardFlop,
+    flopPlayerCount,
+    hand.bigBlind * 10, // Approximation for pot size logic
+  );
+
   // Showdown detection
   const heroFolded = actions.some((a) => a.playerName === heroName && a.actionType === 'fold');
   const wentToShowdown = hand.hasShowdown && !heroFolded;
   const wonAmount = collectedAmounts?.get(heroName) ?? 0;
-  const wonAtShowdown = wentToShowdown && (wonAmount > 0 || (showdownWinners?.has(heroName) ?? false));
+  const wonAtShowdown = wentToShowdown && (showdownWinners?.has(heroName) ?? false);
 
   return {
     handId: hand.id,
@@ -223,5 +234,6 @@ export function buildHeroDecision(
       ? { callerCount: squeezeResult.callerCount, heroAction: squeezeResult.heroAction, recommendedSizing: squeezeResult.recommendedSizing }
       : null,
     netProfit: (hero.chipsAfter || 0) - hero.chipsBefore,
+    postflopActions,
   };
 }

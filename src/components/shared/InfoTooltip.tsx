@@ -38,11 +38,11 @@ export function InfoTooltip({ text, target }: InfoTooltipProps) {
         <Info size={13} />
       </button>
       {show && (
-        <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 px-3 py-2 rounded-lg bg-[#1a1a2e] border border-[var(--color-border)] shadow-xl text-xs text-[var(--color-text-muted)] leading-relaxed pointer-events-none">
+        <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 px-3 py-2 rounded-lg bg-[var(--color-bg-tooltip)] border border-[var(--color-border)] shadow-xl text-xs text-[var(--color-text-muted)] leading-relaxed pointer-events-none">
           <p>{text}</p>
           {target && (
             <p className="mt-1 text-emerald-400 font-data font-bold">
-              Alvo: {target}
+              Target: {target}
             </p>
           )}
           {/* Arrow */}

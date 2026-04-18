@@ -5,8 +5,8 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-04-18
-**Branch at verification:** `updated-trying-new-stuff-poker`
-**Tests at verification:** 331 / 331 passing (18 files, post-PT-purge)
+**Branch at verification:** `phase-6-consolidated-final`
+**Tests at verification:** 332 / 332 passing (18 files, post-audit Batch 1)
 
 ---
 
@@ -59,11 +59,11 @@ tests in `__tests__/`.
 Target: English. The 7 files previously listed as containing Portuguese
 residue were purged on 2026-04-18 (TrendChart, LeaksPage, HandsPage,
 HandReplay, csvExport, pdfExport, villainExploitCrossRef — including its
-test fixture assertions).
+test fixture assertions). RangesPage `RangeValidatorPanel` translated
+on 2026-04-18 (Batch 1 audit).
 
 Residue still present in *analysis-layer* `note` strings that flow into
-UI tooltips / postflop leak cards (not on the Portuguese purge scope but
-flagged for a follow-up pass):
+UI tooltips / postflop leak cards (flagged for Batch 2):
 
 - `src/analysis/pushFoldChecker.ts` (shove / fold / resteal notes)
 - `src/analysis/postflopAnalyzer.ts` (turn probe / donk / c-bet notes)
@@ -94,13 +94,14 @@ flagged for a follow-up pass):
    missing (hero position / hand / action logged), making parser
    seat-to-position drops visible. Still returns `null` to skip from
    compliance — conservative over inventing a fallback opener.
-4. **Postflop spots unused** — `postflopAnalyzer.ts:156–174` detects
-   missed-c-bet / double-barrel / probe / donk but results never become
-   per-hand leak flags.
+4. **Postflop spots unused** — ✅ FIXED 2026-04-18. Logic from
+   `postflopAnalyzer.ts` now produces actionable leaks in `leakDetector.ts`
+   categorized by strategy source ([Vol.2], [D#07], [D#21]).
 5. **PDF hero name hardcoded** — ✅ FIXED 2026-04-17 (`utils/pdfExport.ts`
    now takes `heroName` param; `SessionsPage.tsx` passes from `useAppStore`).
-6. **Session filter scope** — `activeSessionId` lives only in
-   `DashboardPage.tsx:31`; other pages ignore it.
+6. **Session filter scope** — ✅ FIXED 2026-04-18. `activeSessionId` promoted
+   to global Zustand store (`appStore.ts`); filtering now propagates to
+   `DashboardPage`, `HandsPage`, and `StatsPage`.
 7. **Non-standard variants untested** — parser behaviour on Zoom, Cap,
    6+ Hold'em, play-money fixtures is not asserted.
 8. **`aggregateVillainStats` outside txn** — `store.ts:155` runs after the
@@ -120,9 +121,27 @@ Layout (as of 2026-04-18 reorg):
 - Old `tests/` directory deleted (was empty + a single script now in
   `scripts/`).
 
-Outstanding: branch `updated-trying-new-stuff-poker` has ~30 dirty source
-files plus 100+ untracked summary fixtures in `src/test/fixtures/summaries/`.
-Commit or `.gitignore` those next — ROADMAP P3.13.
+## Code + UX audit (Batch 1 — 2026-04-18)
+
+Completed (quick wins):
+- RangesPage `RangeValidatorPanel` Portuguese → English (12 strings)
+- Dead state removed: `dateFrom`/`dateTo` useState + date filter inputs in HandsPage
+- `aria-label` added to all icon-only buttons (HandsPage, HandReplay, ConfirmDialog)
+- 4 hardcoded hex colors → CSS variables (`--color-bg-dialog`, `--color-bg-tooltip`,
+  `--color-bg-board`, `--color-bg-card-solid` in `@theme` block)
+
+Remaining (Batch 2 — medium effort, not yet started):
+- Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap
+- Worker error handling: post `FILE_ERROR` from worker, `WorkerMessage` union type
+- Analysis-layer Portuguese purge (7 files + test assertions)
+- Villain aggregation atomicity (`store.ts` txn boundary)
+
+Remaining (Batch 3 — structural, not yet started):
+- Component smoke tests (happy-dom + @testing-library/react)
+- HandsPage decomposition (683 lines → extract hooks/components)
+- Route-level code splitting (React.lazy + Suspense)
+- DualRangeMatrix cell memoization
+- DashboardPage query optimization (split monolithic useLiveQuery)
 
 ---
 

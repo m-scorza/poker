@@ -1,4 +1,5 @@
 import type { ICMStage } from '../data/strategyProfiles';
+import type { PostflopAction } from '../analysis/postflopAnalyzer';
 
 export type Position =
   | 'UTG'
@@ -64,4 +65,5 @@ export interface HeroDecision {
   squeezeSpot?: { callerCount: number; heroAction: string; recommendedSizing: number } | null;
   netProfit: number;
   openerPosition?: Position | null;
+  postflopActions?: PostflopAction[];
 }

@@ -2,13 +2,12 @@ import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { clsx } from 'clsx';
 import { Search, Filter, ChevronDown, ChevronUp, Eye, Upload as UploadIcon, CheckCircle, ChevronLeft, ChevronRight, Trash2, Star } from 'lucide-react';
 import { useAppStore } from '../data/appStore';
-import { getAllHeroDecisions, getHands, importHands, importTournamentSummaries, getTotalHandCount, clearAllData, toggleStarHand } from '../data/store';
+import { getAllHeroDecisions, getHands, importHands, getTotalHandCount, clearAllData, toggleStarHand, db } from '../data/store';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
+import { groupIntoSessions } from '../data/sessions';
 import { HandReplay } from '../components/hands/HandReplay';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
-import { parsePokerStarsFile } from '../parser/pokerstars';
-import { buildHeroDecision } from '../analysis/scenarioDetector';
-import { parseTournamentSummary } from '../parser/tournamentSummary';
+
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Hand } from '../types/hand';
 import type { HeroDecision, Position, Scenario, DeviationType } from '../types/analysis';
@@ -82,6 +81,7 @@ const CATEGORY_LABELS: Record<HandCategory, string> = {
 export function HandsPage() {
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
   const [handsMap, setHandsMap] = useState<Map<string, Hand>>(new Map());
+  const [sessionHandIds, setSessionHandIds] = useState<Set<string> | null>(null);
   
   // Filters
   const [posFilter, setPosFilter] = useState<Position | ''>('');
@@ -91,8 +91,6 @@ export function HandsPage() {
   const [stackFilter, setStackFilter] = useState<StackDepth | ''>('');
   const [categoryFilter, setCategoryFilter] = useState<HandCategory | ''>('');
   const [searchKey, setSearchKey] = useState('');
-  const [dateFrom, setDateFrom] = useState('');
-  const [dateTo, setDateTo] = useState('');
   
   // Sorting
   const [sortField, setSortField] = useState<'handId' | 'position' | 'handKey' | 'scenario' | 'action' | 'date'>('date');
@@ -106,36 +104,47 @@ export function HandsPage() {
   const [showUpload, setShowUpload] = useState(false);
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [replayHandId, setReplayHandId] = useState<string | null>(null);
-  const { strategyProfile } = useAppStore();
+  const { strategyProfile, activeSessionId } = useAppStore();
 
   // Derived replay data
   const replayHand = replayHandId ? handsMap.get(replayHandId) ?? null : null;
   const replayDecision = replayHandId ? decisions.find((d) => d.handId === replayHandId) ?? null : null;
 
   const load = useCallback(async () => {
-    const [raw, hands] = await Promise.all([getAllHeroDecisions(), getHands()]);
+    const [raw, hands, rawTournaments] = await Promise.all([
+      getAllHeroDecisions(), 
+      getHands(),
+      db.tournaments.toArray()
+    ]);
     const checked = batchCheckCompliance(raw, strategyProfile);
     setDecisions(checked);
-    setHandsMap(new Map(hands.map((h) => [h.id, h])));
-  }, [strategyProfile]);
+    const hMap = new Map(hands.map((h) => [h.id, h]));
+    setHandsMap(hMap);
+
+    if (activeSessionId !== 'all') {
+      const tMap = new Map(rawTournaments.map(t => [t.id, t]));
+      const dMap = new Map(checked.map(d => [d.handId, d]));
+      const sessions = groupIntoSessions(hands, dMap, tMap);
+      const activeSession = sessions.find(s => s.id === activeSessionId);
+      if (activeSession) {
+        setSessionHandIds(new Set(activeSession.hands.map(h => h.id)));
+      } else {
+        setSessionHandIds(null);
+      }
+    } else {
+      setSessionHandIds(null);
+    }
+  }, [strategyProfile, activeSessionId]);
 
   useEffect(() => {
     load();
-  }, [load]);
+  }, [load, activeSessionId]);
 
   const filtered = useMemo(() => {
     let result = decisions;
     
-    // Apply date filter through handsMap
-    if (dateFrom || dateTo) {
-      const from = dateFrom ? new Date(dateFrom).getTime() : 0;
-      const to = dateTo ? new Date(dateTo).getTime() : Infinity;
-      result = result.filter(d => {
-        const hand = handsMap.get(d.handId);
-        if (!hand) return false;
-        const time = hand.date.getTime();
-        return time >= from && time <= to;
-      });
+    if (sessionHandIds) {
+      result = result.filter(d => sessionHandIds.has(d.handId));
     }
 
     if (posFilter) result = result.filter((d) => d.position === posFilter);
@@ -162,12 +171,12 @@ export function HandsPage() {
     });
 
     return result;
-  }, [decisions, handsMap, posFilter, scenarioFilter, actionFilter, complianceFilter, stackFilter, categoryFilter, searchKey, dateFrom, dateTo, sortField, sortAsc]);
+  }, [decisions, handsMap, posFilter, scenarioFilter, actionFilter, complianceFilter, stackFilter, categoryFilter, searchKey, sortField, sortAsc]);
 
   // Reset page to 0 when filters change
   useEffect(() => {
     setPage(0);
-  }, [posFilter, scenarioFilter, actionFilter, complianceFilter, stackFilter, categoryFilter, searchKey, dateFrom, dateTo]);
+  }, [posFilter, scenarioFilter, actionFilter, complianceFilter, stackFilter, categoryFilter, searchKey]);
 
   const paginated = useMemo(() => {
     return filtered.slice(page * pageSize, (page + 1) * pageSize);
@@ -256,23 +265,6 @@ export function HandsPage() {
             />
           </div>
 
-          <div className="flex items-center gap-2">
-            <input 
-              type="date" 
-              value={dateFrom} 
-              onChange={e => setDateFrom(e.target.value)}
-              className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)]"
-              title="From (Date)"
-            />
-            <span className="text-[var(--color-text-muted)]">-</span>
-            <input 
-              type="date" 
-              value={dateTo} 
-              onChange={e => setDateTo(e.target.value)}
-              className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)]"
-              title="To (Date)"
-            />
-          </div>
 
           <Select value={posFilter} onChange={setPosFilter} options={POSITIONS} placeholder="Position" />
           <Select value={scenarioFilter} onChange={setScenarioFilter} options={SCENARIOS} placeholder="Scenario" />
@@ -293,6 +285,7 @@ export function HandsPage() {
                onClick={() => setPage(p => Math.max(0, p - 1))}
                disabled={page === 0}
                className="p-1 rounded hover:bg-[var(--color-bg-hover)] disabled:opacity-50"
+               aria-label="Previous page"
              >
                <ChevronLeft size={16} />
              </button>
@@ -301,6 +294,7 @@ export function HandsPage() {
                onClick={() => setPage(p => Math.min(Math.ceil(filtered.length / pageSize) - 1, p + 1))}
                disabled={page >= Math.ceil(filtered.length / pageSize) - 1}
                className="p-1 rounded hover:bg-[var(--color-bg-hover)] disabled:opacity-50"
+               aria-label="Next page"
              >
                <ChevronRight size={16} />
              </button>
@@ -399,6 +393,7 @@ export function HandsPage() {
                                 : "text-[var(--color-text-dim)] hover:text-amber-400 ring-white/5 hover:ring-amber-400/50"
                             )}
                             title={h?.isStarred ? "Featured Hand" : "Star for Review"}
+                            aria-label={h?.isStarred ? "Remove star" : "Star hand for review"}
                           >
                             <Star size={12} fill={h?.isStarred ? "currentColor" : "none"} />
                           </button>
@@ -407,6 +402,7 @@ export function HandsPage() {
                               onClick={() => setReplayHandId(d.handId)}
                               className="bg-white/5 hover:bg-[var(--color-accent)]/20 ring-1 ring-white/5 hover:ring-[var(--color-accent)]/50 p-1.5 rounded-full text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-all"
                               title="In-depth analysis"
+                              aria-label="Open hand replay"
                             >
                               <Eye size={12} />
                             </button>
@@ -501,7 +497,7 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
         const totalCount = await getTotalHandCount();
         setTotalHands(totalCount);
         setImporting(false);
-        setResults([{ name: `${fileDataArr.length} arquivos`, type: 'hand', imported }]);
+        setResults([{ name: `${fileDataArr.length} files`, type: 'hand', imported }]);
         onUploadSuccess();
         
         worker.terminate();

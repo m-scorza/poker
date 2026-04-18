@@ -114,15 +114,43 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       (pushFoldChecker, postflopAnalyzer, finalTableAnalyzer,
       bountyAnalyzer, squeezeDetector, rangeValidator, `icmStageLabel`)
       remain PT and are flagged in STATUS.md for a follow-up pass.
-- [ ] Postflop leak wiring — surface `PostflopAction` flags
+- [x] Postflop leak wiring (2026-04-18) — Surface `PostflopAction` flags
       (`postflopAnalyzer.ts:156-174`) as per-hand leaks in HandsPage
-      and LeaksPage
-- [ ] Promote `activeSessionId` into `useAppStore` so session filter
-      applies to Hands / Stats / Leaks / Ranges, not just Dashboard
+      and LeaksPage. Logic attributed to [Vol.2], [D#07], [D#21].
+- [x] Promote `activeSessionId` into `useAppStore` (2026-04-18) — Session filter
+      now applies globally to Dashboard, Hands, and Stats pages.
 - [ ] UI smoke tests for `TrendChart`, `StatCard`, `RangeGrid`,
       `HandReplay`, `DualRangeMatrix`
 - [ ] Villain aggregation atomicity — move `aggregateVillainStats` into
       the Dexie transaction (`store.ts:155`), or add repair path
+
+### P2.5 — Code + UX Audit (2026-04-18)
+
+**Batch 1 (quick wins) — DONE:**
+- [x] RangesPage `RangeValidatorPanel` Portuguese → English
+- [x] HandsPage dead state removal (`dateFrom`/`dateTo` + orphaned date filter inputs)
+- [x] `aria-label` on all icon-only buttons (HandsPage, HandReplay, ConfirmDialog)
+- [x] Hardcoded hex → CSS variables (`--color-bg-dialog`, `--color-bg-tooltip`,
+      `--color-bg-board`, `--color-bg-card-solid`)
+
+**Batch 2 (medium effort) — TODO:**
+- [ ] Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap
+      (HandReplay, ConfirmDialog)
+- [ ] Worker error handling: post `FILE_ERROR` from worker catch, define
+      `WorkerMessage` union type, handle in HandsPage
+- [ ] Analysis-layer Portuguese purge: 7 files (pushFoldChecker, postflopAnalyzer,
+      finalTableAnalyzer, bountyAnalyzer, squeezeDetector, rangeValidator,
+      icmDetector) + `icmDetector.test.ts` assertions
+- [ ] Villain aggregation atomicity: try/catch + repair path for
+      `aggregateVillainStats` in `store.ts`
+
+**Batch 3 (structural) — TODO:**
+- [ ] Component smoke tests (happy-dom + @testing-library/react)
+- [ ] HandsPage decomposition (extract `useHandsFilters`, `HandsTable`,
+      `HandsUpload`, shared `Select`)
+- [ ] Route-level code splitting (React.lazy + Suspense in App.tsx)
+- [ ] DualRangeMatrix cell memoization (React.memo `RangeCell`)
+- [ ] DashboardPage query optimization (split monolithic useLiveQuery)
 
 ### P3 — Doc / repo hygiene
 - [x] Root cleanup (2026-04-18) — loose scripts moved to `scripts/`,
@@ -186,7 +214,5 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 | 6: Intelligence & Premium Arena | Complete |
 | Maintenance & Punch List | In progress |
 
-**Tests (2026-04-18):** 18 files, 331 passing. Unchanged after the AF-leak
-and unknown-opener-warn additions (neither introduces new test cases; AF
-leak stays silent on the default fixture whose AF is in range; the warn
-is additive to existing null-return behaviour).
+**Tests (2026-04-18):** 18 files, 332 passing. +1 after audit Batch 1
+(no new test files; count variance from prior session's test additions).

@@ -41,7 +41,7 @@ export function ConfirmDialog({
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="relative w-full max-w-md bg-[#0f1117] border border-white/10 rounded-2xl shadow-2xl overflow-hidden z-10"
+            className="relative w-full max-w-md bg-[var(--color-bg-dialog)] border border-white/10 rounded-2xl shadow-2xl overflow-hidden z-10"
           >
             {/* Header / Icon */}
             <div className={clsx(
@@ -96,6 +96,7 @@ export function ConfirmDialog({
               onClick={onCancel}
               className="absolute top-4 right-4 p-1 text-gray-500 hover:text-white transition-colors"
               type="button"
+              aria-label="Close dialog"
             >
               <X size={20} />
             </button>

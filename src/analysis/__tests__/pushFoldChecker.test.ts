@@ -27,6 +27,7 @@ function makeDecision(overrides: Partial<HeroDecision>): HeroDecision {
     wentToShowdown: false,
     wonAtShowdown: false,
     wonAmount: 0,
+    netProfit: 0,
     ...overrides,
   };
 }

@@ -4,38 +4,57 @@
 
 import { StatCard } from '../components/shared/StatCard';
 import { useAppStore } from '../data/appStore';
-import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
+import { computeAggregateStats } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../data/store';
-import { Trophy, TrendingUp, UserX, AlertCircle, Target, Flame, DollarSign, History } from 'lucide-react';
+import { Trophy, UserX, Flame, DollarSign, History } from 'lucide-react';
 import { clsx } from 'clsx';
+import { groupIntoSessions } from '../data/sessions';
 
 export function StatsPage() {
-  const { strategyProfile } = useAppStore();
-
+  const { strategyProfile, activeSessionId } = useAppStore();
   const data = useLiveQuery(async () => {
     const hands = await db.hands.toArray();
     const decisions = await db.heroDecisions.toArray();
     const tournaments = await db.tournaments.toArray();
     
-    const decisionMap = new Map(decisions.map(d => [d.handId, d]));
     const checked = batchCheckCompliance(decisions, strategyProfile);
-    const stats = computeAggregateStats(checked);
+
+    let filteredDecisions = checked;
+    let filteredHands = hands;
+    let filteredTournaments = tournaments;
+
+    if (activeSessionId !== 'all') {
+      const tMap = new Map(tournaments.map(t => [t.id, t]));
+      const dMap = new Map(checked.map(d => [d.handId, d]));
+      const sessions = groupIntoSessions(hands, dMap, tMap);
+      const activeSession = sessions.find(s => s.id === activeSessionId);
+      
+      if (activeSession) {
+        filteredHands = activeSession.hands;
+        const handIds = new Set(filteredHands.map(h => h.id));
+        filteredDecisions = checked.filter(d => handIds.has(d.handId));
+        const tIds = new Set(activeSession.tournamentIds);
+        filteredTournaments = tournaments.filter(t => tIds.has(t.id));
+      }
+    }
+
+    const stats = computeAggregateStats(filteredDecisions);
     
     // Sort hands by profit/loss (Big Hands table)
-    const sortedHands = [...decisions]
+    const sortedHands = [...filteredDecisions]
        .sort((a, b) => Math.abs(b.netProfit) - Math.abs(a.netProfit))
        .slice(0, 10);
 
     const handsWithData = sortedHands.map(d => ({
         decision: d,
-        hand: hands.find(h => h.id === d.handId)
+        hand: filteredHands.find(h => h.id === d.handId)
     })).filter(item => item.hand);
 
     // Calculate Tournament ROI by Buy-in
     const buyInStats = new Map<string, { buyIns: number; prizes: number; count: number; cashes: number; profit: number }>();
-    for (const t of tournaments) {
+    for (const t of filteredTournaments) {
        const cost = t.buyIn + t.fee;
        const revenue = (t.prize ?? 0) + (t.bounty ?? 0);
        const profit = revenue - cost;
@@ -52,7 +71,7 @@ export function StatsPage() {
 
     // Top Predators (Cumulative Loss)
     const nemesisMap = new Map<string, number>();
-    for (const h of hands) {
+    for (const h of filteredHands) {
       if (h.villainDeltas) {
         for (const v of h.villainDeltas) {
           if (v.net > 0) {
@@ -67,7 +86,7 @@ export function StatsPage() {
       .slice(0, 8);
 
     return { stats, buyInSummary: Array.from(buyInStats.entries()), topNemesis, bigHands: handsWithData };
-  }, [strategyProfile]);
+  }, [strategyProfile, activeSessionId]);
 
   if (!data || data.stats.totalHands === 0) {
     return (

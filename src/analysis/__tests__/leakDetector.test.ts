@@ -26,6 +26,7 @@ function makeDecision(overrides: Partial<HeroDecision>): HeroDecision {
     wentToShowdown: false,
     wonAtShowdown: false,
     wonAmount: 0,
+    netProfit: 0,
     ...overrides,
   };
 }
@@ -51,6 +52,7 @@ function makeStats(overrides: Partial<AggregateStats>): AggregateStats {
     totalCalls: 12,
     complianceEligible: 50,
     complianceCompliant: 47,
+    postflopErrors: new Map(),
     ...overrides,
   };
 }
@@ -180,6 +182,18 @@ describe('detectLeaks — Game Plan profile', () => {
     if (leaks.length >= 2) {
       expect(leaks[0]!.severity).toBe('critical');
     }
+  });
+
+  it('detects postflop leaks from aggregated errors', () => {
+    const postflopErrors = new Map();
+    postflopErrors.set('PROBE_TURN', { count: 3, sample: 3, note: 'Missed probe', source: '[D#07]' });
+    const stats = makeStats({ postflopErrors });
+    
+    const leaks = detectLeaks(stats, 'game_plan');
+    const probeLeak = leaks.find(l => l.id === 'postflop_probe_turn');
+    expect(probeLeak).toBeDefined();
+    expect(probeLeak!.description).toContain('[D#07]');
+    expect(probeLeak!.severity).toBe('medium');
   });
 });
 

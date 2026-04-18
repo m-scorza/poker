@@ -3,10 +3,10 @@
  * Supports viewing theoretical ranges and editing custom ranges.
  */
 
-import { useEffect, useState, useMemo, useCallback } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { Save, RotateCcw, Edit3, Eye, BarChart3 } from 'lucide-react';
 import { clsx } from 'clsx';
-import { RangeGrid, type CellStatus } from '../components/shared/RangeGrid';
+
 import { HandReplay } from '../components/hands/HandReplay';
 import { DualRangeMatrix, type RangeCellData } from '../components/shared/DualRangeMatrix';
 import { useAppStore } from '../data/appStore';
@@ -30,7 +30,7 @@ export function RangesPage() {
   const [viewMode, setViewMode] = useState<ViewMode>('compliance');
   const [customRange, setCustomRange] = useState<Set<string>>(new Set());
   const [hasCustom, setHasCustom] = useState(false);
-  const [hoveredHand, setHoveredHand] = useState<string | null>(null);
+
   
   // Hand Replay state
   const [replayedHandId, setReplayedHandId] = useState<string | null>(null);
@@ -371,7 +371,7 @@ function RangeValidatorPanel() {
   const validation = useMemo(() => rangeValidationSummary(), []);
 
   const directionLabel = (d: string) =>
-    d === 'wider' ? 'Mais aberto' : d === 'tighter' ? 'Mais fechado' : 'OK';
+    d === 'wider' ? 'Wider' : d === 'tighter' ? 'Tighter' : 'OK';
   const directionColor = (d: string) =>
     d === 'match' ? 'text-emerald-400' : 'text-yellow-400';
 
@@ -381,7 +381,7 @@ function RangeValidatorPanel() {
       <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5">
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-bold uppercase tracking-wide text-[var(--color-text-dim)]">
-            Precisão dos Ranges
+            Range Accuracy
           </h3>
           <span className={`text-2xl font-data font-bold ${validation.overallScore >= 80 ? 'text-emerald-400' : validation.overallScore >= 60 ? 'text-yellow-400' : 'text-red-400'}`}>
             {validation.overallScore}%
@@ -392,21 +392,21 @@ function RangeValidatorPanel() {
           <span>Push/Fold: <span className="font-data font-bold text-[var(--color-text)]">{validation.push.score}%</span></span>
         </div>
         <p className="text-xs text-[var(--color-text-muted)] mt-2">
-          Comparação dos nossos ranges com baselines de solvers GTO.
+          Comparison of our ranges against GTO solver baselines.
         </p>
       </div>
 
       {/* RFI Validation Table */}
       <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4">
-        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">RFI por Posição</h4>
+        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">RFI by Position</h4>
         <table className="w-full text-sm">
           <thead>
             <tr className="text-xs text-[var(--color-text-muted)] border-b border-[var(--color-border)]">
-              <th className="text-left py-1.5 pr-4">Posição</th>
-              <th className="text-right py-1.5 px-3">Nosso %</th>
+              <th className="text-left py-1.5 pr-4">Position</th>
+              <th className="text-right py-1.5 px-3">Ours %</th>
               <th className="text-right py-1.5 px-3">Solver %</th>
               <th className="text-right py-1.5 px-3">Delta</th>
-              <th className="text-left py-1.5 pl-3">Direção</th>
+              <th className="text-left py-1.5 pl-3">Direction</th>
             </tr>
           </thead>
           <tbody>
@@ -425,15 +425,15 @@ function RangeValidatorPanel() {
 
       {/* Push Validation Table */}
       <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4">
-        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">Push/Fold (10bb) por Posição</h4>
+        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">Push/Fold (10bb) by Position</h4>
         <table className="w-full text-sm">
           <thead>
             <tr className="text-xs text-[var(--color-text-muted)] border-b border-[var(--color-border)]">
-              <th className="text-left py-1.5 pr-4">Posição</th>
-              <th className="text-right py-1.5 px-3">Nosso %</th>
+              <th className="text-left py-1.5 pr-4">Position</th>
+              <th className="text-right py-1.5 px-3">Ours %</th>
               <th className="text-right py-1.5 px-3">Solver %</th>
               <th className="text-right py-1.5 px-3">Delta</th>
-              <th className="text-left py-1.5 pl-3">Direção</th>
+              <th className="text-left py-1.5 pl-3">Direction</th>
             </tr>
           </thead>
           <tbody>
@@ -451,7 +451,7 @@ function RangeValidatorPanel() {
       </div>
 
       <p className="text-xs text-[var(--color-text-muted)]">
-        Fonte: Solver baselines a 50bb (RFI) e 10bb (Push/Fold). Scores ponderados: RFI 60% + Push 40%.
+        Source: Solver baselines at 50bb (RFI) and 10bb (Push/Fold). Weighted scores: RFI 60% + Push 40%.
       </p>
     </div>
   );

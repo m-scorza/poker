@@ -36,6 +36,11 @@
   --color-range-out: rgba(255, 51, 102, 0.15);
   --color-range-neutral: rgba(255, 255, 255, 0.03);
 
+  --color-bg-dialog: #0f1117;
+  --color-bg-tooltip: #1a1a2e;
+  --color-bg-board: #0f121a;
+  --color-bg-card-solid: #1f1f2e;
+
   --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }

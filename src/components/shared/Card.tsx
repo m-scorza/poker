@@ -17,9 +17,10 @@ const SUIT_COLORS: Record<string, string> = {
 interface CardProps {
   card: string; // e.g. "Ah", "Kd", "Tc", or "back"
   size?: 'sm' | 'md' | 'lg' | 'xl';
+  className?: string;
 }
 
-export function PokerCard({ card, size = 'md' }: CardProps) {
+export function PokerCard({ card, size = 'md', className }: CardProps) {
   const sizeClasses = {
     sm: 'w-7 h-10 text-[10px] rounded',
     md: 'w-10 h-14 text-xs rounded',
@@ -43,9 +44,10 @@ export function PokerCard({ card, size = 'md' }: CardProps) {
   return (
     <div
       className={clsx(
-        'relative bg-[#1f1f2e] border border-[var(--color-border-active)] shadow-md flex flex-col p-1 select-none font-bold',
+        'relative bg-[var(--color-bg-card-solid)] border border-[var(--color-border-active)] shadow-md flex flex-col p-1 select-none font-bold',
         color,
         sizeClasses[size],
+        className
       )}
       style={{ fontFamily: 'var(--font-sans)', boxShadow: '2px 2px 8px rgba(0,0,0,0.4)' }}
     >

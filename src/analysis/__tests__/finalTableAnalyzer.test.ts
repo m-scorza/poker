@@ -25,6 +25,9 @@ function makeHand(overrides: Partial<Hand>): Hand {
     totalPot: 0,
     rake: 0,
     hasShowdown: false,
+    heroChipsBefore: 5000,
+    heroChipsAfter: 5000,
+    villainDeltas: [],
     ...overrides,
   };
 }

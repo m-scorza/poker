@@ -149,12 +149,14 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                 isStarred ? "text-amber-400 bg-amber-400/10" : "text-[var(--color-text-muted)] hover:text-amber-400 hover:bg-amber-400/5"
               )}
               title={isStarred ? "Remove star" : "Star hand for review"}
+              aria-label={isStarred ? "Remove star" : "Star hand for review"}
             >
               <Star size={20} fill={isStarred ? "currentColor" : "none"} />
             </button>
             <button
               onClick={onClose}
               className="p-2 text-[var(--color-text-muted)] hover:text-white rounded-lg transition-colors"
+              aria-label="Close replay"
             >
               <X size={24} />
             </button>
@@ -205,7 +207,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         )}
 
         {/* 2D Graphical Table Representation */}
-        <div className="bg-[#0f121a] border border-[var(--color-border)] rounded-xl mb-6 relative flex flex-col items-center justify-center p-8 overflow-hidden shadow-lg">
+        <div className="bg-[var(--color-bg-board)] border border-[var(--color-border)] rounded-xl mb-6 relative flex flex-col items-center justify-center p-8 overflow-hidden shadow-lg">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent pointer-events-none"></div>
           
           <div className="absolute top-3 left-4">
@@ -267,6 +269,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
              }}
              disabled={streets.indexOf(activeStreet) === 0}
              className="p-1 text-[var(--color-text-muted)] hover:text-white disabled:opacity-30 transition-colors"
+             aria-label="Previous street"
           >
              <ChevronLeft size={20} />
           </button>
@@ -295,6 +298,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
              }}
              disabled={streets.indexOf(activeStreet) === streets.length - 1}
              className="p-1 text-[var(--color-text-muted)] hover:text-white disabled:opacity-30 transition-colors"
+             aria-label="Next street"
           >
              <ChevronRight size={20} />
           </button>

@@ -6,6 +6,7 @@
  * Each position's range is defined as a Set of canonical hand keys (e.g. "AKs", "JJ", "T9o").
  */
 
+import type { Position } from '../types/analysis';
 import type { RangeSet, PositionRanges } from '../types/ranges';
 
 // --- Helper to expand range notation into individual hand keys ---

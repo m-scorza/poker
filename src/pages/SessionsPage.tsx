@@ -1,7 +1,7 @@
-import { useEffect, useState, Fragment } from 'react';
+import { useEffect, useState } from 'react';
 import { format, differenceInMinutes } from 'date-fns';
 import { Download, FileText, CalendarDays, ChevronDown, ChevronUp, UserX, Target, Zap, AlertCircle } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useAppStore } from '../data/appStore';
 import { db } from '../data/store';
 import { batchCheckCompliance } from '../analysis/rangeChecker';

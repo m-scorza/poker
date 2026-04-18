@@ -8,27 +8,16 @@ import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../data/sessions';
 import { computePositionStats } from '../analysis/positionStats';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { AlertTriangle, TrendingUp, TrendingDown, DollarSign, Target, BarChart3, Clock, Rocket, Shield, Crosshair } from 'lucide-react';
+import { AlertTriangle, TrendingUp, DollarSign, Target, BarChart3, Clock, Rocket, Shield, Crosshair } from 'lucide-react';
 import { clsx } from 'clsx';
-import type { LeakSeverity } from '../analysis/leakDetector';
 
-const SEVERITY_COLORS: Record<LeakSeverity, string> = {
-  critical: 'border-[var(--color-danger)] bg-red-900/20',
-  high: 'border-[var(--color-warning)] bg-orange-900/15',
-  medium: 'border-yellow-600 bg-yellow-900/10',
-  low: 'border-[var(--color-border)] bg-[var(--color-bg-card)]',
-};
 
-const SEVERITY_LABELS: Record<LeakSeverity, string> = {
-  critical: 'Critical',
-  high: 'High',
-  medium: 'Medium',
-  low: 'Low',
-};
+
+
+
 
 export function DashboardPage() {
-  const { strategyProfile } = useAppStore();
-  const [activeSessionId, setActiveSessionId] = useState<string>('all');
+  const { strategyProfile, activeSessionId, setActiveSessionId } = useAppStore();
 
   const totalHands = useLiveQuery(() => db.hands.count(), []) ?? 0;
 
@@ -158,7 +147,7 @@ export function DashboardPage() {
               <Rocket size={16} /> Strategy Efficiency
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
-              <StatCard label="Hands" value={aggregateStats?.totalHands || 0} subtext="Volume" accent="none" />
+              <StatCard label="Hands" value={aggregateStats?.totalHands || 0} subtext="Volume" accent="default" />
               <StatCard 
                  label="VPIP" 
                  value={pct(aggregateStats?.vpipHands || 0, aggregateStats?.totalHands || 0)} 

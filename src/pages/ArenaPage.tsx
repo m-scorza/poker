@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { clsx } from 'clsx';
@@ -6,7 +6,7 @@ import { useAppStore } from '../data/appStore';
 import { getAllHeroDecisions } from '../data/store';
 import { PokerCard } from '../components/shared/Card';
 import { checkCompliance } from '../analysis/rangeChecker';
-import type { HeroDecision, Position } from '../types/analysis';
+import type { HeroDecision } from '../types/analysis';
 
 // Types for the Trainer
 type DrillType = 'fault_fixer' | 'rfi_master' | 'cbet_clinic';

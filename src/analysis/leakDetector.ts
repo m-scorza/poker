@@ -48,6 +48,7 @@ export interface AggregateStats {
   totalCalls: number;      // For AF calculation
   complianceEligible: number;
   complianceCompliant: number;
+  postflopErrors: Map<string, { count: number; sample: number; note: string; source: string }>;
 }
 
 /**
@@ -74,6 +75,7 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
     totalCalls: 0,
     complianceEligible: 0,
     complianceCompliant: 0,
+    postflopErrors: new Map(),
   };
 
   for (const d of decisions) {
@@ -140,6 +142,30 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
     if (d.action === 'call') stats.totalCalls++;
     if (d.cbetMade) stats.totalBets++;
     if (d.doubleBarrelMade) stats.totalBets++;
+
+    // Postflop detailed analysis
+    if (d.postflopActions) {
+      for (const action of d.postflopActions) {
+        if (action.isCorrect === false) {
+          const key = action.spot;
+          const existing = stats.postflopErrors.get(key) || { count: 0, sample: 0, note: action.note, source: '' };
+          
+          // Source mapping for documentation
+          let source = '';
+          if (key === 'MISSED_CBET' || key === 'CBET_HU') source = '[Vol.2]';
+          if (key === 'PROBE_TURN') source = '[D#07]';
+          if (key === 'DONK_BET_TURN') source = '[D#21]';
+          if (key === 'BET_VS_MISSED_CBET') source = '[Vol.3]';
+
+          stats.postflopErrors.set(key, {
+            count: existing.count + 1,
+            sample: existing.sample + 1,
+            note: action.note,
+            source,
+          });
+        }
+      }
+    }
   }
 
   return stats;
@@ -385,6 +411,22 @@ export function detectLeaks(
       });
     }
   }
+
+  // Postflop Aggregated Leaks
+  stats.postflopErrors.forEach((error, key) => {
+    if (error.count >= 2) { // Minimum 2 instances to flag as a "leak"
+        leaks.push({
+            id: `postflop_${key.toLowerCase()}`,
+            name: `Postflop: ${key.replace(/_/g, ' ')}`,
+            description: `${error.note} ${error.source ? `Source: ${error.source}` : ''}`,
+            severity: error.count >= 5 ? 'high' : 'medium',
+            value: error.count,
+            target: [0, 0],
+            deviation: error.count,
+            sampleSize: error.sample,
+        });
+    }
+  });
 
   // Sort by severity (critical first)
   const severityOrder: Record<LeakSeverity, number> = {

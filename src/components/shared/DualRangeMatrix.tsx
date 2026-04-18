@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { clsx } from 'clsx';
 import { Eye, Target, Zap, TrendingUp, AlertCircle, ChevronRight, History } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -31,7 +31,7 @@ interface DualRangeMatrixProps {
   data: Map<string, RangeCellData>;
   onHandClick?: (handId: string) => void;
   position: string;
-  viewMode: 'compliance' | 'edit' | 'push_fold';
+  viewMode: 'compliance' | 'edit' | 'push_fold' | 'validator';
 }
 
 function getHandKey(row: number, col: number): string {
@@ -114,13 +114,13 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
               const handKey = getHandKey(row, col);
               const cell = data.get(handKey);
               const hasData = cell && cell.totalInstances > 0;
-              const hasDeviations = cell && cell.deviations.length > 0;
+
               const isCompliant = cell && cell.totalInstances > 0 && cell.deviations.length === 0;
 
-                const total = cell.totalInstances;
-                const raisePct = total > 0 ? (cell.actionCounts.raise / total) * 100 : 0;
-                const callPct = total > 0 ? (cell.actionCounts.call / total) * 100 : 0;
-                const foldPct = total > 0 ? ((cell.actionCounts.fold + cell.actionCounts.other) / total) * 100 : 0;
+                const total = cell?.totalInstances ?? 0;
+                const raisePct = total > 0 && cell ? (cell.actionCounts.raise / total) * 100 : 0;
+                const callPct = total > 0 && cell ? (cell.actionCounts.call / total) * 100 : 0;
+                const foldPct = total > 0 && cell ? ((cell.actionCounts.fold + cell.actionCounts.other) / total) * 100 : 0;
 
                 return (
                   <button
