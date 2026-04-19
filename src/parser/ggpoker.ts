@@ -2,6 +2,7 @@ import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import type { Position } from '../types/analysis';
 import type { ParsedHand } from './pokerstars';
 import type { ParsedTournamentSummary } from './tournamentSummary';
+import { assignPositions } from './position';
 
 const RE_HAND_ID = /(?:Poker Hand|GGPoker Hand|Hand) #(\w+):/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
@@ -12,7 +13,8 @@ const RE_SEAT = /Seat (\d+): (.+?) \(([\d,]+) in chips\)/;
 const RE_DEALT = /Dealt to (.+?) \[(.+)\]/;
 const RE_ACTION = /^(.+?): (folds|calls|checks|raises|posts small blind|posts big blind|posts the ante|shows|mucks|collected|wins|bets) ?([\d,]+)? ?(?:to )?([\d,]+)?/;
 const RE_BOARD = /Board \[(.+)\]/;
-const RE_WINNER = /Seat (\d+): (.+?) (?:\(.+?\))? (?:showed \[(.+?)\] and )?(won) \(([\d,]+)\)/g;
+const RE_WINNER = /Seat (\d+): (.+?) (?:\(.+?\))?\s*(?:showed \[(.+?)\] and won|won) \(([\d,]+)\)/g;
+const RE_TOTAL_POT = /Total pot ([\d,]+) \| Rake ([\d,]+)/;
 
 /**
  * Parse GGPoker Hand History files. Scaffold: produces a best-effort
@@ -58,19 +60,31 @@ export function parseGGPokerFile(
       const tournamentId = tMatch ? tMatch[1]! : '';
 
       let tournamentName = '';
+      let parsedBuyIn = 0;
+      let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
+      if (tournamentName.toLowerCase().includes('freeroll') || tournamentName.toLowerCase().includes('play money')) {
+         currency = 'PLAY';
+      }
+
       if (tournamentId && headerLine.includes(tournamentId)) {
         const afterId = headerLine.slice(headerLine.indexOf(tournamentId) + tournamentId.length).trim();
         if (afterId.startsWith(',')) {
           const namePart = afterId.slice(1).split(' - ')[0];
-          if (namePart) tournamentName = namePart.trim();
+          if (namePart) {
+            tournamentName = namePart.trim();
+            // Negative lookahead to ensure we don't grab "150,000" out of "$150,000 GTD" as the buy-in.
+            const buyMatch = /\$([\d.]+)(?!\s*GTD)/i.exec(tournamentName.replace(/,/g, ''));
+            if (buyMatch) parsedBuyIn = parseFloat(buyMatch[1]!);
+          }
         }
       }
 
       const tournament: Partial<Tournament> = {
         id: tournamentId,
         name: tournamentName,
-        buyIn: 0,
+        buyIn: currency === 'PLAY' ? 0 : parsedBuyIn,
         fee: 0,
+        currency,
       };
 
       const dateStr = lines[0]?.split(' - ')?.pop()?.trim() || '';
@@ -86,6 +100,16 @@ export function parseGGPokerFile(
       const smallBlind = blindsMatch ? parseInt(blindsMatch[2]!.replace(/,/g, ''), 10) : 0;
       const bigBlind = blindsMatch ? parseInt(blindsMatch[3]!.replace(/,/g, ''), 10) : 0;
       const ante = blindsMatch && blindsMatch[4] ? parseInt(blindsMatch[4]!.replace(/,/g, ''), 10) : 0;
+      let totalPot = 0;
+      let rake = 0;
+
+      const totalInvested = new Map<string, number>();
+      const collectedAmounts = new Map<string, number>();
+
+      const addInvestment = (name: string, amount: number) => {
+        if (isNaN(amount)) return;
+        totalInvested.set(name, (totalInvested.get(name) ?? 0) + amount);
+      };
 
       const buttonLineMatch = RE_BUTTON.exec(block);
       if (buttonLineMatch) buttonSeat = parseInt(buttonLineMatch[1]!, 10);
@@ -134,14 +158,25 @@ export function parseGGPokerFile(
           const amount = parseInt((actionMatch[4] || actionMatch[3] || '0').replace(/,/g, ''), 10);
 
           let actionType: Action['actionType'] = 'fold';
+          let investment = amount;
+          let storedAmount = amount;
           if (type.includes('posts the ante')) actionType = 'post_ante';
           else if (type.includes('posts small blind')) actionType = 'post_sb';
           else if (type.includes('posts big blind')) actionType = 'post_bb';
-          else if (type === 'folds') actionType = 'fold';
+          else if (type === 'folds') { actionType = 'fold'; investment = 0; }
           else if (type === 'calls') actionType = 'call';
-          else if (type === 'checks') actionType = 'check';
-          else if (type === 'raises' || type === 'bets') actionType = 'raise';
+          else if (type === 'checks') { actionType = 'check'; investment = 0; }
+          else if (type === 'raises') {
+             actionType = 'raise';
+             const added = actionMatch[3] ? parseInt(actionMatch[3].replace(/,/g, ''), 10) : 0;
+             const to = actionMatch[4] ? parseInt(actionMatch[4].replace(/,/g, ''), 10) : 0;
+             investment = added || to;
+             storedAmount = to || investment;
+          }
+          else if (type === 'bets') actionType = 'raise';
           else continue;
+
+          addInvestment(name, investment);
 
           actions.push({
             handId,
@@ -149,7 +184,7 @@ export function parseGGPokerFile(
             playerName: name,
             street: currentStreet,
             actionType,
-            amount,
+            amount: storedAmount,
             isAllIn: line.includes('all-in'),
           });
           continue;
@@ -162,13 +197,27 @@ export function parseGGPokerFile(
       const summaryStart = block.indexOf('*** SUMMARY ***');
       if (summaryStart !== -1) {
         const summary = block.slice(summaryStart);
+        const potMatch = RE_TOTAL_POT.exec(summary);
+        if (potMatch) {
+          totalPot = parseInt(potMatch[1]!.replace(/,/g, ''), 10);
+          rake = parseInt(potMatch[2]!.replace(/,/g, ''), 10);
+        }
+
         const boardMatch = RE_BOARD.exec(summary);
         if (boardMatch) board = boardMatch[1]!.split(' ');
 
         let m;
         while ((m = RE_WINNER.exec(summary)) !== null) {
           const winnerName = m[2] === 'Hero' ? heroName : m[2]!;
-          showdownWinners.add(winnerName);
+          
+          // Specifically check if they SHOWED cards to count as a showdown!
+          // regex capture group 3 is the holecards inside the "showed" block
+          if (m[3]) {
+            showdownWinners.add(winnerName);
+          }
+          
+          const wonAmt = parseInt(m[4]!.replace(/,/g, ''), 10);
+          collectedAmounts.set(winnerName, (collectedAmounts.get(winnerName) ?? 0) + wonAmt);
         }
       }
 
@@ -176,7 +225,18 @@ export function parseGGPokerFile(
       const boardFlop = board.length >= 3 ? board.slice(0, 3) : null;
       const boardTurn = board.length >= 4 ? board[3]! : null;
       const boardRiver = board.length >= 5 ? board[4]! : null;
+
+      const positionMap = assignPositions(
+        players.map(p => ({ seatNumber: p.seatNumber, playerName: p.playerName })),
+        buttonSeat
+      );
+      for (const p of players) {
+        p.position = positionMap.get(p.seatNumber) ?? 'BTN';
+      }
+
       const heroChipsBefore = hero?.chipsBefore ?? 0;
+      const heroPutIn = hero ? (totalInvested.get(heroName) ?? 0) : 0;
+      const heroWon = hero ? (collectedAmounts.get(heroName) ?? 0) : 0;
 
       const hand: Hand = {
         id: handId,
@@ -192,12 +252,18 @@ export function parseGGPokerFile(
         boardFlop,
         boardTurn,
         boardRiver,
-        totalPot: 0,
-        rake: 0,
+        totalPot,
+        rake,
         hasShowdown: showdownWinners.size > 0,
         heroChipsBefore,
-        heroChipsAfter: heroChipsBefore,
-        villainDeltas: [],
+        heroChipsAfter: heroChipsBefore - heroPutIn + heroWon,
+        villainDeltas: players
+          .filter(p => !p.isHero)
+          .map(p => {
+             const invested = totalInvested.get(p.playerName) ?? 0;
+             const won = collectedAmounts.get(p.playerName) ?? 0;
+             return { name: p.playerName, net: won - invested };
+          }),
       };
 
       results.push({
@@ -224,16 +290,60 @@ export function parseGGPokerSummary(
 ): ParsedTournamentSummary | null {
   if (!fileContent.includes('Tournament #')) return null;
 
-  const handResults = parseGGPokerFile(fileContent, heroName);
-  if (handResults.length === 0) return null;
+  const content = fileContent.replace(/^\uFEFF/, '').replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  const lines = content.split('\n').map(l => l.trim());
+  const heroLower = heroName.toLowerCase();
+  
+  let tournamentId = '';
+  let finishPosition: number | null = null;
+  let prize = 0;
+  let buyIn = 0;
+  let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
+  
+  for (const line of lines) {
+    if (!tournamentId) {
+      const tMatch = /Tournament #(\d+)/.exec(line);
+      if (tMatch) tournamentId = tMatch[1]!;
+    }
+    const fMatch = /(\d+)(?:st|nd|rd|th)? :\s+([^,]+)/i.exec(line);
+    if (fMatch) {
+      const pos = parseInt(fMatch[1]!, 10);
+      const name = fMatch[2]!.trim().toLowerCase();
+      if (name.includes(heroLower) || heroLower.includes(name)) {
+        finishPosition = pos;
+      }
+    }
+    const yfMatch = /You finished the tournament in (\d+)/i.exec(line);
+    if (yfMatch) {
+      finishPosition = parseInt(yfMatch[1]!, 10);
+    }
+    const yrMatch = /You received a total of \$?([\d.,]+)/i.exec(line);
+    if (yrMatch) {
+      prize = parseFloat(yrMatch[1]!.replace(/,/g, ''));
+    }
+    const biMatch = /Buy-in:\s*\$?([\d.,]+)/i.exec(line);
+    if (line.toLowerCase().includes('freeroll') || line.toLowerCase().includes('play money')) {
+      buyIn = 0; currency = 'PLAY';
+    } else if (line.toLowerCase().includes('ticket')) {
+      buyIn = 0; currency = 'TICKET';
+    } else if (line.toLowerCase().includes('t$')) {
+      currency = 'T$';
+    }
+    
+    if (biMatch && currency !== 'PLAY' && currency !== 'TICKET') {
+      buyIn = parseFloat(biMatch[1]!.replace(/,/g, ''));
+    }
+  }
 
-  const tournamentId = handResults[0]!.hand.tournamentId;
+  if (!tournamentId) return null;
 
   return {
     tournamentId,
-    finishPosition: null,
-    prize: 0,
+    finishPosition,
+    prize,
     bounty: 0,
+    buyIn,
+    currency,
     heroName,
   };
 }

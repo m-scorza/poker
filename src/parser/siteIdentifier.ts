@@ -26,6 +26,9 @@ export function identifyFile(content: string): FileIdentity {
   if (normalized.includes('PokerCraft') && (normalized.includes('Summary') || normalized.includes('Result'))) {
     return { site: 'ggpoker', type: 'tournament_summary' };
   }
+  if (normalized.includes('Tournament #') && normalized.includes('Buy-in:') && !normalized.includes('PokerStars') && !normalized.includes('Hand #') && !normalized.includes('Table \'')) {
+    return { site: 'ggpoker', type: 'tournament_summary' };
+  }
 
   // GGPoker Hand History. PokerStars already returned above, so any
   // remaining GGPoker/PokerCraft marker or bare "Poker Hand #" / "Hand #"

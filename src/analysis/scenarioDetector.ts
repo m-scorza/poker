@@ -173,7 +173,10 @@ export function buildHeroDecision(
           : 'fold';
 
   // Analysis flags
-  const sawFlop = hand.boardFlop !== null && heroAction !== 'fold';
+  const heroFoldedPreflop = actions.some(
+    (a) => a.playerName === heroName && a.street === 'preflop' && a.actionType === 'fold'
+  );
+  const sawFlop = hand.boardFlop !== null && !heroFoldedPreflop;
   const wasPreFlopRaiser = heroVoluntaryActions.some((a) => a.actionType === 'raise');
 
   const flopActions = actions.filter((a) => a.street === 'flop');

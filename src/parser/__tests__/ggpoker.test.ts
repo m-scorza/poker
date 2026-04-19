@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { parseGGPokerFile } from '../ggpoker';
+import { parseGGPokerFile, parseGGPokerSummary } from '../ggpoker';
 
 describe('GGPoker Parser', () => {
   const ggSample = `
@@ -63,5 +63,37 @@ Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
     const heroActions = hands[0]!.actions.filter(a => a.playerName === 'scorza23');
     expect(heroActions.some(a => a.actionType === 'post_ante')).toBe(true);
     expect(heroActions.some(a => a.actionType === 'raise' && a.amount === 240)).toBe(true);
+  });
+
+  it('correctly tracks position, totalPot, rake, and villainDeltas', () => {
+    const hands = parseGGPokerFile(ggSample, 'scorza23');
+    const hand = hands[0]!;
+    expect(hand.hand.totalPot).toBe(646);
+    expect(hand.hand.rake).toBe(0);
+
+    const hero = hand.players.find(p => p.isHero);
+    expect(hero?.position).toBe('CO');
+
+    const villainDelta = hand.hand.villainDeltas.find(v => v.name === 'a81061d');
+    // Note: uncalled bet adjustment isn't implemented for GG yet, so invested=376, won=646
+    expect(villainDelta?.net).toBe(646 - 376); 
+  });
+
+  it('correctly parses GGPoker Tournament Summary', () => {
+    const tsSample = `
+Tournament #279233755, Step 1 - $0.50 All-in or Fold, AoF Hold'em No Limit
+Buy-in: $0.5
+4 Players
+Total Prize Pool: $2
+Tournament started 2026/04/18 16:46:03 
+3rd : Hero, $0
+You finished the tournament in 3rd place.
+You received a total of $0.
+    `;
+    const summary = parseGGPokerSummary(tsSample, 'scorza23');
+    expect(summary).not.toBeNull();
+    expect(summary!.tournamentId).toBe('279233755');
+    expect(summary!.finishPosition).toBe(3);
+    expect(summary!.prize).toBe(0);
   });
 });

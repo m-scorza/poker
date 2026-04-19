@@ -9,7 +9,16 @@
       "Bash(npm view *)",
       "Bash(git mv *)",
       "Bash(npm test *)",
-      "Bash(npx vitest *)"
+      "Bash(npx vitest *)",
+      "Bash(grep -n \"useLiveQuery\\\\|useQuery\" /c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/src/pages/*.tsx)",
+      "Bash(find src/components -name \"*.tsx\" -exec wc -l {} +)",
+      "Bash(head -5 errors.txt)",
+      "Bash(powershell -c \"Get-Content errors.txt -TotalCount 5\")",
+      "Bash(tee /tmp/test-baseline-pre-cleanup.txt)",
+      "Bash(npx tsc *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

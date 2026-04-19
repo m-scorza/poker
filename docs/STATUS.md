@@ -277,7 +277,7 @@ src/types/  (4 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 21
-**`it` / `test` calls (approximate):** 344
+**`it` / `test` calls (approximate):** 347
 
 ```
 src/analysis/__tests__/bountyAnalyzer.test.ts

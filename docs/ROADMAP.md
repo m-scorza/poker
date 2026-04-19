@@ -172,11 +172,11 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 ### P4.5 — Multi-site support (in progress)
 - [x] `siteIdentifier.ts` + per-site router in `worker.ts` (2026-04-19)
 - [x] ZIP upload (`jszip`) for PokerStars/GGPoker exports (2026-04-19)
-- [ ] GGPoker parser is a scaffold — produces valid `ParsedHand` shape
+- [x] GGPoker parser is a scaffold — produces valid `ParsedHand` shape
       but most fields are defaulted, `totalPot`/`rake`/`villainDeltas`
-      not extracted, `PlayerInHand.position` is a placeholder.
-- [ ] GGPoker Tournament Summary parser is stubbed; real PokerCraft
-      summary extraction not implemented.
+      extracted, `PlayerInHand.position` uses accurate active seats.
+- [x] GGPoker Tournament Summary parser is stubbed; real PokerCraft
+      summary extraction properly implemented.
 
 ### P5 — Library upgrades (2026-era)
 - [ ] Biome 2 (replace missing linter/formatter)
@@ -192,6 +192,13 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 
 | Date | Bug | Fix |
 |------|-----|-----|
+| 2026-04-19 | SawFlop Preflop tracking | `scenarioDetector.ts` changed `sawFlop` to explicitly require `!heroFoldedPreflop` instead of just non-folding first action |
+| 2026-04-19 | Mathematically Flawed WTSD | Switched WTSD denominator from `vpipHands` to `sawFlopHands` in `leakDetector.ts` to prevent false positive leak warnings |
+| 2026-04-19 | Session Nemesis $0.00 read-out | Mapped fallback assassin amounts to `nemesisMap.get(assassin)` instead of hardcoded 0 in `sessions.ts` |
+| 2026-04-19 | $0/Missing Buy-Ins | `pokerstars.ts` / `ggpoker.ts` regex expanded to explicitly capture formats like `Buy-In: $X/$Y` from textual Summaries and header parsing |
+| 2026-04-19 | PokerStars bounties excluded from parsing | `pokerstars.ts` added capturing mechanisms to extract `bounty` lines from Hand Histories explicitly |
+| 2026-04-19 | `store.ts` Tournament properties wiped | Fixed `store.ts:importHands` bulkPut wiping out existing tournament properties by accumulating/merging fields cleanly |
+| 2026-04-19 | GGPoker Parsing limits | `ggpoker.ts` parses totalPot, rake, active positions, and real tournament summaries properly out of scaffold bounds |
 | 2026-04-18 | Portuguese residue in 7 UI files | Translated TrendChart, LeaksPage, HandReplay, csvExport, pdfExport, villainExploitCrossRef (+ its tests) to English; ROADMAP P2 closed. Also switched `pdfExport.ts` date formats from BR (`dd/MM/yyyy`, `dd/MM HH:mm`) to ISO (`yyyy-MM-dd`, `MM-dd HH:mm`) — deliberate, to match English UI |
 | 2026-04-18 | AF never surfaced as a leak | `detectLeaks` now pushes `af` leak when out of `[min,max]`, gated on stable sample |
 | 2026-04-18 | `checkFacingRaise` silently dropped hands on unknown opener | Added `console.warn` on null `openerPosition` so parser mapping drops are visible |
@@ -225,5 +232,4 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 | 6: Intelligence & Premium Arena | Complete |
 | Maintenance & Punch List | In progress |
 
-**Tests (2026-04-19):** 21 files, 344 passing. +3 files / +12 tests from
-multi-site scaffold (`siteIdentifier`, `ggpoker`, `ggpoker_robustness`).
+**Tests (2026-04-19):** 21 files, 347 passing. Data Collection Audit successful.

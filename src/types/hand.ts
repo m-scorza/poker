@@ -69,5 +69,6 @@ export interface Tournament {
   finishPosition: number | null;
   prize: number | null;
   bounty: number | null;
+  currency?: 'USD' | 'T$' | 'PLAY' | 'TICKET';
   handsPlayed: number;
 }

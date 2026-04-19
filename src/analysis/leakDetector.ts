@@ -32,6 +32,7 @@ export interface AggregateStats {
   totalHands: number;
   vpipHands: number;       // Hands where hero voluntarily put money in
   pfrHands: number;        // Hands where hero raised preflop
+  sawFlopHands: number;    // Hands where hero saw the flop
   threeBetOpps: number;    // Opportunities to 3-bet
   threeBetMade: number;    // Actually 3-bet
   cbetOpps: number;        // C-bet opportunities (PFR + saw flop)
@@ -59,6 +60,7 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
     totalHands: decisions.length,
     vpipHands: 0,
     pfrHands: 0,
+    sawFlopHands: 0,
     threeBetOpps: 0,
     threeBetMade: 0,
     cbetOpps: 0,
@@ -87,6 +89,11 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
     // PFR: raised preflop
     if (d.wasPreFlopRaiser) {
       stats.pfrHands++;
+    }
+
+    // Saw Flop: didn't fold preflop and flop was dealt
+    if (d.sawFlop) {
+      stats.sawFlopHands++;
     }
 
     // Limps: called with no prior raise (RFI or FACING_LIMP scenario + call)
@@ -203,7 +210,7 @@ export function detectLeaks(
   const pfr = pct(stats.pfrHands, stats.totalHands);
   const cbetTotal = pct(stats.cbetMade, stats.cbetOpps);
   const cbetHU = pct(stats.cbetHUMade, stats.cbetHUOpps);
-  const wtsd = stats.vpipHands > 0 ? pct(stats.wtsdHands, stats.vpipHands) : 0;
+  const wtsd = stats.sawFlopHands > 0 ? pct(stats.wtsdHands, stats.sawFlopHands) : 0;
   const wonSD = pct(stats.wonSDHands, stats.wtsdHands);
   const limpPct = pct(stats.limpHands, stats.totalHands);
   const compliance = pct(stats.complianceCompliant, stats.complianceEligible);
@@ -306,7 +313,7 @@ export function detectLeaks(
   }
 
   // WTSD
-  if (stats.vpipHands >= 20) {
+  if (stats.sawFlopHands >= 10) {
     if (wtsd < thresholds.wtsd.min || wtsd > thresholds.wtsd.max) {
       const deviation = wtsd < thresholds.wtsd.min
         ? thresholds.wtsd.min - wtsd
@@ -321,7 +328,7 @@ export function detectLeaks(
         value: Math.round(wtsd * 10) / 10,
         target: [thresholds.wtsd.min, thresholds.wtsd.max],
         deviation: Math.round(deviation * 10) / 10,
-        sampleSize: stats.vpipHands,
+        sampleSize: stats.sawFlopHands,
       });
     }
   }

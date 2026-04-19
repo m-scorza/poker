@@ -88,6 +88,10 @@ function buildSession(
   for (const tid of tournamentIds) {
     const t = tournaments.get(tid);
     if (t) {
+      if (t.currency === 'PLAY' || t.currency === 'TICKET') {
+        // Exclude 0 value out-of-pocket costs and play-money from raw USD financial tracking.
+        continue;
+      }
       buyIns += (t.buyIn + t.fee);
       prizes += (t.prize ?? 0);
     }
@@ -132,7 +136,7 @@ function buildSession(
   });
 
   const finalNemesis = assassin 
-    ? { name: assassin, amount: 0, type: 'assassin' as const } 
+    ? { name: assassin, amount: nemesisMap.get(assassin) || 0, type: 'assassin' as const } 
     : crusher.amount > 0 
       ? { name: crusher.name, amount: crusher.amount, type: 'crusher' as const }
       : damageNemesis 
@@ -186,7 +190,7 @@ export function computeSessionTrends(sessions: Session[]): SessionTrendPoint[] {
       pfr: Math.round(pct(s.stats.pfrHands, s.stats.totalHands) * 10) / 10,
       cbetTotal: Math.round(pct(s.stats.cbetMade, s.stats.cbetOpps) * 10) / 10,
       cbetHU: Math.round(pct(s.stats.cbetHUMade, s.stats.cbetHUOpps) * 10) / 10,
-      wtsd: Math.round(pct(s.stats.wtsdHands, s.stats.vpipHands) * 10) / 10,
+      wtsd: Math.round(pct(s.stats.wtsdHands, s.stats.sawFlopHands) * 10) / 10,
       compliance: Math.round(pct(s.stats.complianceCompliant, s.stats.complianceEligible) * 10) / 10,
       pnl: s.pnl,
       cumulativePnl
@@ -207,11 +211,14 @@ export function computeIntraSessionTrends(
   const points: SessionTrendPoint[] = [];
   
   let runVpip = 0, runPfr = 0, runComp = 0, runCompEl = 0, runWon = 0;
+  let runSawFlop = 0, runWentToSd = 0;
   
   for (let i = 0; i < decisions.length; i++) {
     const d = decisions[i]!;
     if (d.action === 'raise' || d.action === 'call') runVpip++;
     if (d.wasPreFlopRaiser) runPfr++;
+    if (d.sawFlop) runSawFlop++;
+    if (d.wentToShowdown) runWentToSd++;
     if (d.deviationType !== null || d.isCompliant) {
       runCompEl++;
       if (d.isCompliant) runComp++;
@@ -229,7 +236,7 @@ export function computeIntraSessionTrends(
         pfr: Math.round(pct(runPfr, total) * 10) / 10,
         cbetTotal: 0,
         cbetHU: 0,
-        wtsd: 0,
+        wtsd: Math.round(pct(runWentToSd, runSawFlop) * 10) / 10,
         compliance: Math.round(pct(runComp, runCompEl) * 10) / 10,
         pnl: runWon,
         cumulativePnl: runWon,

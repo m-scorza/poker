@@ -4,6 +4,9 @@ export interface ParsedTournamentSummary {
   finishPosition: number | null;
   prize: number | null;
   bounty: number | null;
+  buyIn?: number;
+  fee?: number;
+  currency?: 'USD' | 'T$' | 'PLAY' | 'TICKET';
   heroName: string;
 }
 
@@ -35,6 +38,9 @@ export function parseTournamentSummary(
   let finishPosition: number | null = null;
   let prize: number | null = null;
   let bounty: number | null = null;
+  let buyIn: number | null = null;
+  let fee: number | null = null;
+  let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]!;
@@ -88,6 +94,34 @@ export function parseTournamentSummary(
       const pMatch = RE_MONEY.exec(line);
       if (pMatch) prize = parseFloat(pMatch[1]!.replace(/,/g, ''));
     }
+
+    // Try finding Buy-In explicitly (e.g. PokerStars: "Buy-In: $0.98/$0.12")
+    if (line.toLowerCase().startsWith('buy-in:')) {
+      if (line.toLowerCase().includes('freeroll')) {
+        buyIn = 0; fee = 0; currency = 'PLAY';
+      } else if (line.toLowerCase().includes('fpp') || line.toLowerCase().includes('starscoin')) {
+        buyIn = 0; fee = 0; currency = 'PLAY';
+      } else if (line.toLowerCase().includes('ticket')) {
+        buyIn = 0; fee = 0; currency = 'TICKET';
+      } else if (line.toLowerCase().includes('t$')) {
+        currency = 'T$';
+      } else if (line.toLowerCase().includes('play money')) {
+        currency = 'PLAY';
+      }
+      const parts = line.split(':');
+      if (parts[1]) {
+        const numbers = parts[1].match(/\d+(?:\.\d+)?/g);
+        if (numbers && numbers.length >= 1) {
+          buyIn = parseFloat(numbers[0]!);
+          if (numbers.length >= 2) fee = parseFloat(numbers[1]!);
+        }
+      }
+    }
+  }
+
+  // Detect play money from tournament name
+  if (tournamentName.toLowerCase().includes('play money') || tournamentName.toLowerCase().includes('freeroll')) {
+    currency = 'PLAY';
   }
 
   if (!tournamentId) return null;
@@ -98,6 +132,9 @@ export function parseTournamentSummary(
     finishPosition: finishPosition || null,
     prize: prize || 0,
     bounty: bounty || 0,
+    buyIn: buyIn !== null ? buyIn : undefined,
+    fee: fee !== null ? fee : undefined,
+    currency,
     heroName,
   };
 }

@@ -484,6 +484,7 @@ Min 30 hands for tentative, 100+ for confident classification.
 | `07-final-table-play.md` | FT dynamics, fake shove, resteal | `finalTableAnalyzer.ts` |
 | `08-gto-and-exploits.md` | GTO baselines, MDA, population exploits | `leakDetector.ts` |
 | `09-study-methods-and-tools.md` | Leak finder framework, stat targets | `leakDetector.ts`, `statsCalculator.ts` |
+| `METRICS_DICTIONARY.md` | Single source of truth for platform math | **All Parsers/Analysis Math** |
 | `claudecode_index.md` | Concept-to-doc map | **Read FIRST** |
 
 **Source attribution:** `[GamePlan]` `[Vol.1-3]` `[ICM]` `[NERD]` `[D#N]` = Dossiê N by @luischiavo

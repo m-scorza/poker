@@ -128,23 +128,43 @@ export async function importHands(
       await db.actions.bulkAdd(newHands.flatMap((h) => h.actions));
 
       // Upsert tournaments (may span multiple files)
-      const tourns = newHands
-        .filter((h) => h.tournament.id)
-        .map((h) => ({
-          id: h.tournament.id!,
-          name: h.tournament.name,
-          category: h.tournament.category,
-          startDate: h.hand.date,
-          buyIn: h.tournament.buyIn ?? 0,
-          fee: h.tournament.fee ?? 0,
-          format: h.tournament.format ?? '',
-          finishPosition: h.tournament.finishPosition ?? null,
-          prize: h.tournament.prize ?? null,
-          bounty: (h.tournament as any).bounty ?? null,
-          handsPlayed: 0,
-        }));
-      if (tourns.length > 0) {
-        await db.tournaments.bulkPut(tourns);
+      const tIdsToProcess = [...new Set(newHands.filter((h) => h.tournament.id).map(h => h.tournament.id!))];
+      if (tIdsToProcess.length > 0) {
+        const existingTourns = await db.tournaments.where('id').anyOf(tIdsToProcess).toArray();
+        const existingTournMap = new Map<string, Tournament>();
+        for (const t of existingTourns) existingTournMap.set(t.id, t);
+        
+        const tournUpdates = new Map<string, Tournament>();
+        
+        for (const h of newHands) {
+          if (!h.tournament.id) continue;
+          const tid = h.tournament.id;
+          let t = tournUpdates.get(tid);
+          if (!t) {
+            const existing = existingTournMap.get(tid);
+            t = existing ? { ...existing } : { 
+              id: tid, buyIn: 0, fee: 0, format: '', handsPlayed: 0, 
+              finishPosition: null, prize: null, bounty: null 
+            } as Tournament;
+            tournUpdates.set(tid, t);
+          }
+          
+          if (h.tournament.name) t.name = h.tournament.name;
+          if (h.tournament.category) t.category = h.tournament.category;
+          if (!t.startDate || (h.hand.date && h.hand.date < t.startDate)) t.startDate = h.hand.date;
+          if (h.tournament.buyIn) t.buyIn = h.tournament.buyIn;
+          if (h.tournament.fee) t.fee = h.tournament.fee;
+          if (h.tournament.format) t.format = h.tournament.format;
+          if (h.tournament.currency) t.currency = h.tournament.currency;
+          if (h.tournament.finishPosition !== null && h.tournament.finishPosition !== undefined) t.finishPosition = h.tournament.finishPosition;
+          if (h.tournament.prize !== null && h.tournament.prize !== undefined) t.prize = h.tournament.prize;
+          
+          const tbounty = (h.tournament as any).bounty;
+          if (tbounty) {
+            t.bounty = (t.bounty || 0) + tbounty;
+          }
+        }
+        await db.tournaments.bulkPut(Array.from(tournUpdates.values()));
       }
 
       // Store hero decisions
@@ -402,18 +422,22 @@ export async function importTournamentSummaries(
         if (summary.finishPosition !== null) existing.finishPosition = summary.finishPosition;
         if (summary.prize !== null) existing.prize = summary.prize;
         if (summary.bounty !== null) existing.bounty = summary.bounty;
+        if (summary.buyIn !== undefined) existing.buyIn = summary.buyIn;
+        if (summary.fee !== undefined) existing.fee = summary.fee;
+        if (summary.currency) existing.currency = summary.currency;
         await db.tournaments.put(existing);
         count++;
       } else {
         await db.tournaments.put({
           id: summary.tournamentId,
           name: summary.name,
-          buyIn: 0,
-          fee: 0,
+          buyIn: summary.buyIn ?? 0,
+          fee: summary.fee ?? 0,
           format: 'Unknown',
           finishPosition: summary.finishPosition,
           prize: summary.prize,
           bounty: summary.bounty,
+          currency: summary.currency,
           handsPlayed: 0,
         });
         count++;

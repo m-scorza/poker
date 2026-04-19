@@ -36,6 +36,7 @@ function makeStats(overrides: Partial<AggregateStats>): AggregateStats {
     totalHands: 100,
     vpipHands: 25,
     pfrHands: 20,
+    sawFlopHands: 20,
     threeBetOpps: 15,
     threeBetMade: 2,
     cbetOpps: 10,
@@ -113,7 +114,8 @@ describe('detectLeaks — Game Plan profile', () => {
       cbetMade: 14,       // 70%
       cbetHUOpps: 10,
       cbetHUMade: 10,     // 100%
-      wtsdHands: 15,      // 30% of VPIP (15/50)
+      sawFlopHands: 50,
+      wtsdHands: 15,      // 30% of sawFlop (15/50)
       wonSDHands: 8,      // 53% won at SD (8/15)
       limpHands: 0,
       complianceEligible: 50,
@@ -155,7 +157,7 @@ describe('detectLeaks — Game Plan profile', () => {
   });
 
   it('detects high WTSD', () => {
-    const stats = makeStats({ vpipHands: 25, wtsdHands: 12 }); // 48%
+    const stats = makeStats({ sawFlopHands: 25, wtsdHands: 12 }); // 48%
     const leaks = detectLeaks(stats, 'game_plan');
     const wtsdLeak = leaks.find((l) => l.id === 'wtsd');
     expect(wtsdLeak).toBeDefined();

@@ -18,6 +18,7 @@ type Street = 'preflop' | 'flop' | 'turn' | 'river';
 const RE_HAND_ID = /Hand #(\d+)/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
 const RE_BUYIN = /\$(\d+(?:\.\d+)?)\+\$(\d+(?:\.\d+)?)(?:\+\$(\d+(?:\.\d+)?))?/;
+const RE_PLAY_MONEY_BUYIN = /([\d,]+)\+([\d,]+)/;
 const RE_LEVEL_BLINDS = /Level [IVXLCDM]+ \((\d+)\/(\d+)\)/;
 const RE_CASH_BLINDS = /\(\$(\d+(?:\.\d+)?)\/\$(\d+(?:\.\d+)?)/;
 const RE_DATE = /(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2})\s+\w+/;
@@ -46,6 +47,7 @@ const RE_CALLS = /^(.+?): calls \$?([\d.]+)/;
 const RE_RAISES = /^(.+?): raises \$?([\d.]+) to \$?([\d.]+)/;
 const RE_BETS = /^(.+?): bets \$?([\d.]+)/;
 const RE_ALL_IN = /and is all-in/;
+const RE_BOUNTY_WINS = /^(.+?) wins (?:the )?(?:\$([\d.]+)|[\d.]+|) (?:bounty )?for eliminating/;
 
 /**
  * Parse a PokerStars hand history file into structured data.
@@ -110,9 +112,24 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
   }
 
+  let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
+  if (tournamentName.toLowerCase().includes('play money') || tournamentName.toLowerCase().includes('freeroll') || tournamentName.toLowerCase().includes('pm ')) {
+    currency = 'PLAY';
+  }
+
   const buyinMatch = RE_BUYIN.exec(headerLine);
-  const buyIn = buyinMatch ? parseFloat(buyinMatch[1]!) : 0;
-  const fee = buyinMatch ? parseFloat(buyinMatch[2]!) : 0;
+  let buyIn = buyinMatch ? parseFloat(buyinMatch[1]!) : 0;
+  let fee = buyinMatch ? parseFloat(buyinMatch[2]!) : 0;
+
+  // Fallback for play money buy-ins that lack the $ symbol
+  if (!buyinMatch) {
+    const pmMatch = RE_PLAY_MONEY_BUYIN.exec(headerLine);
+    if (pmMatch) {
+      buyIn = parseFloat(pmMatch[1]!.replace(/,/g, ''));
+      fee = parseFloat(pmMatch[2]!.replace(/,/g, ''));
+      currency = 'PLAY';
+    }
+  }
 
   const blindsMatch = RE_LEVEL_BLINDS.exec(headerLine);
   const cashBlindsMatch = !blindsMatch ? RE_CASH_BLINDS.exec(headerLine) : null;
@@ -175,6 +192,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
   let boardRiver: string | null = null;
   let heroCards: [string, string] | null = null;
   let hasShowdown = false;
+  let handBounty = 0;
 
   // Track shown cards per player
   const shownCards = new Map<string, [string, string]>();
@@ -363,6 +381,15 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       });
       continue;
     }
+
+    // Check for bounties won by hero
+    const bountyMatch = RE_BOUNTY_WINS.exec(line);
+    if (bountyMatch && bountyMatch[1] === heroName) {
+      const amountRegex = /\$([\d.]+)/.exec(line);
+      if (amountRegex) {
+         handBounty += parseFloat(amountRegex[1]!);
+      }
+    }
   }
 
   // Parse showdown cards from SUMMARY section
@@ -502,9 +529,11 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     name: tournamentName,
     buyIn,
     fee,
+    currency,
     format: `${maxSeats}-max`,
     finishPosition,
     prize,
+    bounty: handBounty > 0 ? handBounty : null,
   };
 
   return { hand, players, actions, tournament, collectedAmounts, showdownWinners };
