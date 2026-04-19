@@ -8,7 +8,10 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "docs:update": "tsx scripts/regen-status.ts",
+    "docs:check": "tsx scripts/regen-status.ts --check",
+    "prepare": "sh scripts/install-hooks.sh"
   },
   "dependencies": {
     "@types/jszip": "^3.4.0",
