@@ -8,6 +8,7 @@ import { LeaksPage } from './pages/LeaksPage';
 import { SessionsPage } from './pages/SessionsPage';
 import { VillainsPage } from './pages/VillainsPage';
 import { ArenaPage } from './pages/ArenaPage';
+import { CareerPage } from './pages/CareerPage';
 import { ErrorBoundary } from './components/layout/ErrorBoundary';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
           <Route path="/" element={<DashboardPage />} />
+          <Route path="/career" element={<CareerPage />} />
           <Route path="/hands" element={<HandsPage />} />
           <Route path="/stats" element={<StatsPage />} />
           <Route path="/ranges" element={<RangesPage />} />

@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { StatCard } from '../components/shared/StatCard';
 import { TrendChart } from '../components/dashboard/TrendChart';
 import { useAppStore } from '../data/appStore';
