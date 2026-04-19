@@ -72,8 +72,9 @@ export function parseGGPokerFile(
           const namePart = afterId.slice(1).split(' - ')[0];
           if (namePart) {
             tournamentName = namePart.trim();
-            // Negative lookahead to ensure we don't grab "150,000" out of "$150,000 GTD" as the buy-in.
-            const buyMatch = /\$([\d.]+)(?!\s*GTD)/i.exec(tournamentName.replace(/,/g, ''));
+            // Completely strip out any prize pool guarantees before checking for buyin!
+            const cleanName = tournamentName.replace(/\$[\d,.]+\s*GTD/ig, '');
+            const buyMatch = /\$(\d+(?:\.\d+)?)/.exec(cleanName);
             if (buyMatch) parsedBuyIn = parseFloat(buyMatch[1]!);
           }
         }
