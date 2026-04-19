@@ -73,8 +73,10 @@ export function parseGGPokerFile(
           if (namePart) {
             tournamentName = namePart.trim();
             // Completely strip out any prize pool guarantees before checking for buyin!
-            const cleanName = tournamentName.replace(/\$[\d,.]+\s*GTD/ig, '');
-            const buyMatch = /\$(\d+(?:\.\d+)?)/.exec(cleanName);
+            const cleanName = tournamentName.replace(/\$[\d,.]+[a-z]*\s*(?:GTD|Guaranteed)/ig, '');
+            // Strip commas so that $1,050 parses correctly as 1050! 
+            const noComma = cleanName.replace(/,/g, '');
+            const buyMatch = /\$(\d+(?:\.\d+)?)/.exec(noComma);
             if (buyMatch) parsedBuyIn = parseFloat(buyMatch[1]!);
           }
         }
@@ -227,6 +229,10 @@ export function parseGGPokerFile(
       const boardTurn = board.length >= 4 ? board[3]! : null;
       const boardRiver = board.length >= 5 ? board[4]! : null;
 
+      const playersWhoFolded = new Set(actions.filter(a => a.actionType === 'fold').map(a => a.playerName));
+      const playersAtShowdown = players.length - playersWhoFolded.size;
+      const actualShowdownOccurred = playersAtShowdown >= 2;
+
       const positionMap = assignPositions(
         players.map(p => ({ seatNumber: p.seatNumber, playerName: p.playerName })),
         buttonSeat
@@ -255,7 +261,7 @@ export function parseGGPokerFile(
         boardRiver,
         totalPot,
         rake,
-        hasShowdown: showdownWinners.size > 0,
+        hasShowdown: actualShowdownOccurred,
         heroChipsBefore,
         heroChipsAfter: heroChipsBefore - heroPutIn + heroWon,
         villainDeltas: players
