@@ -161,11 +161,22 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       6+ / play-money fixtures (currently silent)
 
 ### P4 — New feature: Career / SharkScope-style tab
-- [ ] `CareerPage` + `/career` route, `careerAnalyzer.ts`
+- [x] `CareerPage` + `/career` route (2026-04-19) — basic tournament
+      history, ROI / ITM dashboard, profit timeline. Reads `tournaments`
+      table directly; no dedicated `careerAnalyzer.ts` module yet.
 - [ ] Lifetime scorecard, stake progression, bust-out distribution,
       streaks, format breakdown, opponent overlap, rake-adjusted ROI,
       $/hour, day×hour heatmap
 - [ ] Decide: fold `StatsPage` into Career, or keep both
+
+### P4.5 — Multi-site support (in progress)
+- [x] `siteIdentifier.ts` + per-site router in `worker.ts` (2026-04-19)
+- [x] ZIP upload (`jszip`) for PokerStars/GGPoker exports (2026-04-19)
+- [ ] GGPoker parser is a scaffold — produces valid `ParsedHand` shape
+      but most fields are defaulted, `totalPot`/`rake`/`villainDeltas`
+      not extracted, `PlayerInHand.position` is a placeholder.
+- [ ] GGPoker Tournament Summary parser is stubbed; real PokerCraft
+      summary extraction not implemented.
 
 ### P5 — Library upgrades (2026-era)
 - [ ] Biome 2 (replace missing linter/formatter)
@@ -214,5 +225,5 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 | 6: Intelligence & Premium Arena | Complete |
 | Maintenance & Punch List | In progress |
 
-**Tests (2026-04-18):** 18 files, 332 passing. +1 after audit Batch 1
-(no new test files; count variance from prior session's test additions).
+**Tests (2026-04-19):** 21 files, 344 passing. +3 files / +12 tests from
+multi-site scaffold (`siteIdentifier`, `ggpoker`, `ggpoker_robustness`).

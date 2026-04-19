@@ -398,7 +398,7 @@ src/
 
 ---
 
-## Key Dependencies (verified against `package.json` 2026-04-17)
+## Key Dependencies (verified against `package.json` 2026-04-19)
 
 Runtime:
 ```
@@ -408,7 +408,8 @@ recharts 3, framer-motion 12,
 lucide-react ^1.7.0 (pin looks suspect — verify against npm),
 clsx 2, date-fns 4,
 poker-odds-calculator 0.4 (equity math in HandReplay),
-jspdf 4 + jspdf-autotable 5 (PDF export)
+jspdf 4 + jspdf-autotable 5 (PDF export),
+jszip 3 (ZIP import on HandsPage upload)
 ```
 
 Build / test:

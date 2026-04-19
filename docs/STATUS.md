@@ -4,9 +4,9 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-04-18
+**Last verified against source:** 2026-04-19
 **Branch at verification:** `phase-6-consolidated-final`
-**Tests at verification:** 332 / 332 passing (18 files, post-audit Batch 1)
+**Tests at verification:** 344 / 344 passing (21 files)
 
 ---
 
@@ -22,6 +22,7 @@
 | `/sessions` | `SessionsPage` | Session list + CSV/PDF export |
 | `/villains` | `VillainsPage` | Auto-classified archetypes, manual notes |
 | `/arena` | `ArenaPage` | Training drills |
+| `/career` | `CareerPage` | Tournament history, ROI / ITM dashboard, profit timeline |
 
 ## Pages / files *not* in the repo (despite older docs saying so)
 
@@ -38,7 +39,8 @@ Runtime: `react@19`, `react-dom@19`, `react-router-dom@7`, `zustand@5`,
 `dexie@4`, `dexie-react-hooks@4`, `recharts@3`, `framer-motion@12`,
 `lucide-react@^1.7.0` *(verified 2026-04-18 — package jumped `0.577.0`
 → `1.0.0`; latest is `1.8.0`, pin is current-major)*, `clsx@2`,
-`date-fns@4`, `poker-odds-calculator@0.4`, `jspdf@4`, `jspdf-autotable@5`.
+`date-fns@4`, `poker-odds-calculator@0.4`, `jspdf@4`, `jspdf-autotable@5`,
+`jszip@3` *(added 2026-04-19 for ZIP export decompression)*.
 
 Dev: `vite@6`, `vitest@3`, `typescript@5.7`, `tailwindcss@4`,
 `@tailwindcss/vite@4`, `@vitejs/plugin-react@4`, `tsx@4`.
