@@ -76,8 +76,14 @@ export function parseGGPokerFile(
             const cleanName = tournamentName.replace(/\$[\d,.]+[a-z]*\s*(?:GTD|Guaranteed)/ig, '');
             // Strip commas so that $1,050 parses correctly as 1050! 
             const noComma = cleanName.replace(/,/g, '');
-            const buyMatch = /\$(\d+(?:\.\d+)?)/.exec(noComma);
-            if (buyMatch) parsedBuyIn = parseFloat(buyMatch[1]!);
+            const buyMatches = [...noComma.matchAll(/\$(\d+(?:\.\d+)?)/g)];
+            const validBuyins = buyMatches
+              .map(m => parseFloat(m[1]!))
+              .filter(val => val < 50000); // Filter out massive prize pool guarantees missing the GTD tag
+            
+            if (validBuyins.length > 0) {
+              parsedBuyIn = validBuyins[0]!;
+            }
           }
         }
       }
@@ -338,7 +344,10 @@ export function parseGGPokerSummary(
     }
     
     if (biMatch && currency !== 'PLAY' && currency !== 'TICKET') {
-      buyIn = parseFloat(biMatch[1]!.replace(/,/g, ''));
+      const parsed = parseFloat(biMatch[1]!.replace(/,/g, ''));
+      if (parsed < 50000) {
+        buyIn = parsed;
+      }
     }
   }
 
