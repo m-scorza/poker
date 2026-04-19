@@ -23,6 +23,11 @@ describe('parsePokerStarsFile', () => {
       expect(parsed!.hand.tournamentId).toBe('3989541132');
     });
 
+    it('extracts tournament name', () => {
+      const [parsed] = parsePokerStarsFile(HAND_FULL_STREETS);
+      expect(parsed!.tournament.name).toBe('$0.85+$0.15 USD Hold\'em No Limit');
+    });
+
     it('extracts buy-in and fee', () => {
       const [parsed] = parsePokerStarsFile(HAND_FULL_STREETS);
       expect(parsed!.tournament.buyIn).toBe(0.85);

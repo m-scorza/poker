@@ -99,6 +99,16 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
   const tournamentIdMatch = RE_TOURNAMENT_ID.exec(headerLine);
   const tournamentId = tournamentIdMatch?.[1] ?? '';
+  
+  // Extract tournament name (everything after ID and before Level/Blinds)
+  let tournamentName = '';
+  if (tournamentId) {
+    const afterId = headerLine.slice(headerLine.indexOf(tournamentId) + tournamentId.length).trim();
+    if (afterId.startsWith(',')) {
+      const namePart = afterId.slice(1).split(' - ')[0];
+      if (namePart) tournamentName = namePart.trim();
+    }
+  }
 
   const buyinMatch = RE_BUYIN.exec(headerLine);
   const buyIn = buyinMatch ? parseFloat(buyinMatch[1]!) : 0;
@@ -489,6 +499,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
   // Build tournament partial
   const tournament: Partial<Tournament> = {
     id: tournamentId,
+    name: tournamentName,
     buyIn,
     fee,
     format: `${maxSeats}-max`,

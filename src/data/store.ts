@@ -90,6 +90,8 @@ db.version(3).stores({
   });
 });
 
+db.version(4).stores({});
+
 export { db };
 
 /** Check if a hand ID already exists (for deduplication). */
@@ -130,6 +132,9 @@ export async function importHands(
         .filter((h) => h.tournament.id)
         .map((h) => ({
           id: h.tournament.id!,
+          name: h.tournament.name,
+          category: h.tournament.category,
+          startDate: h.hand.date,
           buyIn: h.tournament.buyIn ?? 0,
           fee: h.tournament.fee ?? 0,
           format: h.tournament.format ?? '',
@@ -393,6 +398,7 @@ export async function importTournamentSummaries(
     for (const summary of summaries) {
       const existing = await db.tournaments.get(summary.tournamentId);
       if (existing) {
+        if (summary.name) existing.name = summary.name;
         if (summary.finishPosition !== null) existing.finishPosition = summary.finishPosition;
         if (summary.prize !== null) existing.prize = summary.prize;
         if (summary.bounty !== null) existing.bounty = summary.bounty;
@@ -401,6 +407,7 @@ export async function importTournamentSummaries(
       } else {
         await db.tournaments.put({
           id: summary.tournamentId,
+          name: summary.name,
           buyIn: 0,
           fee: 0,
           format: 'Unknown',

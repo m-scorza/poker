@@ -1,8 +1,9 @@
 import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { clsx } from 'clsx';
+import JSZip from 'jszip';
 import { Search, Filter, ChevronDown, ChevronUp, Eye, Upload as UploadIcon, CheckCircle, ChevronLeft, ChevronRight, Trash2, Star } from 'lucide-react';
 import { useAppStore } from '../data/appStore';
-import { getAllHeroDecisions, getHands, importHands, getTotalHandCount, clearAllData, toggleStarHand, db } from '../data/store';
+import { getAllHeroDecisions, getHands, importHands, importTournamentSummaries, getTotalHandCount, clearAllData, toggleStarHand, db } from '../data/store';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { groupIntoSessions } from '../data/sessions';
 import { HandReplay } from '../components/hands/HandReplay';
@@ -454,20 +455,36 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
 
   const [importProgress, setImportProgress] = useState(0);
   const [currentImportFile, setCurrentImportFile] = useState('');
-  const [statsFound, setStatsFound] = useState({ hands: 0, deviations: 0 });
+  const [statsFound, setStatsFound] = useState({ hands: 0, summaries: 0, deviations: 0 });
 
   const processFiles = useCallback(async (files: FileList) => {
     setImporting(true);
     setImportProgress(0);
-    setStatsFound({ hands: 0, deviations: 0 });
+    setStatsFound({ hands: 0, summaries: 0, deviations: 0 });
     setResults([]);
     
     // Convert FileList to serialized content for the worker
     const fileDataArr: any[] = [];
     for (const file of Array.from(files)) {
-      if (file.name.endsWith('.txt')) {
+      const lowerName = file.name.toLowerCase();
+      if (lowerName.endsWith('.txt')) {
         const content = await file.text();
         fileDataArr.push({ name: file.name, content });
+      } else if (lowerName.endsWith('.zip')) {
+        try {
+          const zip = await JSZip.loadAsync(file);
+          const zipFiles = Object.keys(zip.files);
+          
+          for (const zipFileName of zipFiles) {
+            const entry = zip.files[zipFileName]!;
+            if (!entry.dir && zipFileName.toLowerCase().endsWith('.txt')) {
+              const content = await entry.async('string');
+              fileDataArr.push({ name: `${file.name}/${zipFileName}`, content });
+            }
+          }
+        } catch (err) {
+          console.error(`Failed to unzip ${file.name}:`, err);
+        }
       }
     }
 
@@ -480,24 +497,31 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
     const worker = new Worker(new URL('../parser/worker.ts', import.meta.url), { type: 'module' });
 
     worker.onmessage = async (e: MessageEvent) => {
-      const { type, progress, filename, handsFound, deviationsFound, hands } = e.data;
+      const { type, progress, filename, handsFound, summariesFound, deviationsFound, hands } = e.data;
 
       if (type === 'PROGRESS') {
         setImportProgress(progress);
         setCurrentImportFile(filename);
         setStatsFound(prev => ({
           hands: prev.hands + (handsFound || 0),
+          summaries: prev.summaries + (summariesFound || 0),
           deviations: prev.deviations + (deviationsFound || 0)
         }));
       } else if (type === 'COMPLETE') {
         // Save results to DB
-        const imported = await importHands(hands);
+        const [handImported, summaryImported] = await Promise.all([
+           importHands(hands),
+           importTournamentSummaries(e.data.summaries || [])
+        ]);
         
         // Update store and UI
         const totalCount = await getTotalHandCount();
         setTotalHands(totalCount);
         setImporting(false);
-        setResults([{ name: `${fileDataArr.length} files`, type: 'hand', imported }]);
+        setResults([
+          { name: `${fileDataArr.length} files`, type: 'hand', imported: handImported },
+          { name: `${fileDataArr.length} files`, type: 'summary', imported: summaryImported }
+        ]);
         onUploadSuccess();
         
         worker.terminate();
@@ -543,10 +567,10 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
           className={clsx('mx-auto mb-3', dragOver ? 'text-[var(--color-accent)]' : 'text-[var(--color-text-dim)]')}
         />
         <p className="text-[var(--color-text)] font-semibold mb-1">
-          Drag and Drop PokerStars Files
+          Drag and Drop Poker Files
         </p>
         <p className="text-xs text-[var(--color-text-muted)]">
-          Supports Hand Histories and Summaries (.txt)
+          Supports Hand Histories, Summaries and ZIPs (.txt, .zip)
         </p>
       </div>
 
@@ -586,10 +610,11 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
             </div>
 
             <div className="flex justify-between text-[10px] font-data text-[var(--color-text-muted)] uppercase tracking-wider">
-               <div className="flex gap-4">
-                 <span>Hands: <span className="text-white">{statsFound.hands}</span></span>
-                 <span>Deviations: <span className="text-[var(--color-danger)]">{statsFound.deviations}</span></span>
-               </div>
+                <div className="flex gap-4">
+                  <span>Hands: <span className="text-white">{statsFound.hands}</span></span>
+                  <span>Summaries: <span className="text-white">{statsFound.summaries}</span></span>
+                  <span>Deviations: <span className="text-[var(--color-danger)]">{statsFound.deviations}</span></span>
+                </div>
                <span>Do not close this page</span>
             </div>
           </motion.div>

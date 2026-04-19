@@ -1,6 +1,6 @@
-
 export interface ParsedTournamentSummary {
   tournamentId: string;
+  name?: string;
   finishPosition: number | null;
   prize: number | null;
   bounty: number | null;
@@ -31,6 +31,7 @@ export function parseTournamentSummary(
   const heroLower = heroName.toLowerCase();
 
   let tournamentId = '';
+  let tournamentName = '';
   let finishPosition: number | null = null;
   let prize: number | null = null;
   let bounty: number | null = null;
@@ -40,7 +41,14 @@ export function parseTournamentSummary(
     
     if (!tournamentId) {
       const tMatch = RE_TOURNAMENT_ID_SUMMARY.exec(line);
-      if (tMatch) tournamentId = tMatch[1]!;
+      if (tMatch) {
+        tournamentId = tMatch[1]!;
+        // Extract name from this line
+        const afterId = line.slice(line.indexOf(tournamentId) + tournamentId.length).trim();
+        if (afterId.startsWith(',')) {
+          tournamentName = afterId.slice(1).trim();
+        }
+      }
     }
 
     // Capture Bounty (often on separate lines near the end)
@@ -86,6 +94,7 @@ export function parseTournamentSummary(
 
   return {
     tournamentId,
+    name: tournamentName,
     finishPosition: finishPosition || null,
     prize: prize || 0,
     bounty: bounty || 0,

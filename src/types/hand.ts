@@ -60,6 +60,9 @@ export interface Action {
 /** Aggregated tournament metadata. */
 export interface Tournament {
   id: string;
+  name?: string;
+  category?: string; // e.g., 'Mystery Battle Royale', 'The Big', 'Bounty Builder'
+  startDate?: Date;
   buyIn: number;
   fee: number;
   format: string;
