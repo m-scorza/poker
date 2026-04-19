@@ -509,4 +509,29 @@ Min 30 hands for tentative, 100+ for confident classification.
 
 ---
 
-All phases 1-6 complete. The platform is now in **Elite Maintenance** mode. See `docs/ROADMAP.md` for the full history of the transformation.
+All phases 1-6 complete. See `docs/ROADMAP.md` for the full history.
+
+---
+
+## End-of-session contract (for AI agents)
+
+This section only lists rules the pre-commit hook actually enforces, plus
+one process rule that depends on human enforcement. Unenforced prose
+contracts are what caused the Gemini-drift incidents — don't add more.
+
+**Enforced by `.git/hooks/pre-commit` (installed via `npm install`):**
+
+1. `docs/STATUS.md` autogen blocks must be current. If you change
+   `package.json` deps, `src/App.tsx` routes, the `src/` tree, or
+   test files, run `npm run docs:update` before committing. The hook
+   runs `npm run docs:check` and blocks commits on drift.
+2. No untracked files under `src/` when committing anything in `src/`.
+   Either `git add` the file, `git rm` it, or add it to `.gitignore`.
+   This catches the "orphan feature files" failure mode — e.g., a
+   page imported from `App.tsx` but never tracked.
+
+**Process rule (human-enforced):**
+
+3. `--no-verify` is forbidden without an explicit user request in the
+   same session. If the hook fires, fix the underlying drift instead of
+   skipping it. If you genuinely need to bypass, ask first.
