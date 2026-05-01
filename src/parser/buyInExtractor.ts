@@ -1,0 +1,117 @@
+/**
+ * Shared buy-in extraction logic used by PokerStars and GGPoker parsers
+ * (both hand-history and tournament-summary paths).
+ *
+ * Single place to reason about: GTD prize-pool stripping, comma vs period
+ * decimal, a sanity ceiling for real-money tournaments.
+ */
+
+export type Currency = 'USD' | 'T$' | 'PLAY' | 'TICKET';
+
+export interface ExtractedBuyIn {
+  buyIn: number;
+  fee: number;
+  currency: Currency;
+  /** True when the input produced no confident match. Callers should
+   *  treat buyIn/fee as unknown rather than zero. */
+  unresolved: boolean;
+}
+
+/**
+ * Upper sanity bound for a USD tournament buy-in + fee on the sites we
+ * support. PokerStars' High Roller cap is $1,050+$105; Sunday events
+ * top out around $530+$20. Anything above this is almost certainly a
+ * prize pool / guarantee leaked through our regex.
+ */
+export const MAX_PLAUSIBLE_USD_BUYIN = 1200;
+
+/** Strip "$X GTD" / "$X Guaranteed" prize-pool text so the real buy-in
+ *  isn't confused with a guarantee. Case-insensitive. */
+export function stripGuarantees(input: string): string {
+  return input.replace(/\$[\d,.]+\s*(?:GTD|Guaranteed)/gi, '');
+}
+
+/**
+ * Extract buy-in + fee from a PokerStars-style string that may contain:
+ *   - `$0.85+$0.15 USD`
+ *   - `$0.85+$0.15+$0 USD` (KO / rebuy — three parts)
+ *   - `US$ 0,49 + US$ 0,06 USD` (Brazilian locale, comma decimal, spaces)
+ *   - `$250,000 GTD $0.98+$0.12 USD` (guaranteed prize pool preceding real buy-in)
+ *   - `Freeroll` / `Play Money` / `Ticket` (explicit non-cash)
+ *
+ * `nameHint` is the tournament name — used for currency classification.
+ * `source` is the line / header to pull buy-in numbers from.
+ */
+export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
+  const lowerName = nameHint.toLowerCase();
+  const lowerSource = source.toLowerCase();
+
+  // --- Explicit non-cash currencies first ---
+  if (
+    lowerName.includes('freeroll') ||
+    lowerSource.includes('freeroll') ||
+    lowerName.includes('play money') ||
+    lowerName.includes('pm ')
+  ) {
+    return { buyIn: 0, fee: 0, currency: 'PLAY', unresolved: false };
+  }
+  if (lowerName.includes('fpp') || lowerName.includes('starscoin')) {
+    return { buyIn: 0, fee: 0, currency: 'PLAY', unresolved: false };
+  }
+  if (lowerSource.includes('ticket') || lowerName.includes('ticket')) {
+    return { buyIn: 0, fee: 0, currency: 'TICKET', unresolved: false };
+  }
+
+  // T$ (Tournament Dollars / Player points) — still zero USD impact.
+  if (lowerSource.includes('t$') || lowerName.includes('t$')) {
+    return { buyIn: 0, fee: 0, currency: 'T$', unresolved: false };
+  }
+
+  const cleaned = stripGuarantees(source);
+
+  // Canonical cash pattern: `$X+$Y` (standard) or `$X+$Y+$Z` (PKO/KO).
+  // Modern PokerStars PKO format is `$BUYIN+$BOUNTY+$FEE`: parts 1+2 fund the
+  // prize pool & bounty (the "real" buy-in cost), part 3 is the rake/fee.
+  const canonical = /\$(\d+(?:\.\d+)?)\+\$(\d+(?:\.\d+)?)(?:\+\$(\d+(?:\.\d+)?))?/.exec(cleaned);
+  if (canonical) {
+    if (canonical[3] !== undefined) {
+      const buyIn = parseFloat(canonical[1]!) + parseFloat(canonical[2]!);
+      const fee = parseFloat(canonical[3]!);
+      return applyCeiling(buyIn, fee);
+    }
+    const buyIn = parseFloat(canonical[1]!);
+    const fee = parseFloat(canonical[2]!);
+    return applyCeiling(buyIn, fee);
+  }
+
+  // Brazilian locale: `US$ 0,49+US$ 0,06` / `US$ 1,40 + US$ 0,10`.
+  // Comma is the decimal separator here; accept optional spaces around
+  // the `+`. Anchor on `US$` so we don't confuse with other `N,NN+N,NN`.
+  const brazilian = /US\$\s*(\d+(?:,\d+)?)\s*\+\s*US\$\s*(\d+(?:,\d+)?)/.exec(cleaned);
+  if (brazilian) {
+    const buyIn = parseFloat(brazilian[1]!.replace(',', '.'));
+    const fee = parseFloat(brazilian[2]!.replace(',', '.'));
+    return applyCeiling(buyIn, fee);
+  }
+
+  // Nothing confidently matched. Do NOT fall back to a greedy
+  // "any N+N anywhere on the line" pattern — that's what produced the
+  // $250,006.60 phantom buy-in. Leave unresolved and let the caller
+  // decide (typically: keep prior value, don't overwrite).
+  return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+}
+
+/**
+ * Apply the USD plausibility ceiling. If the parsed buy-in (+ fee) is
+ * suspiciously large, treat as unresolved so the caller can fall back
+ * to the prior value or zero instead of poisoning the dashboard.
+ */
+function applyCeiling(buyIn: number, fee: number): ExtractedBuyIn {
+  if (!isFinite(buyIn) || !isFinite(fee)) {
+    return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+  }
+  if (buyIn + fee > MAX_PLAUSIBLE_USD_BUYIN) {
+    return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+  }
+  return { buyIn, fee, currency: 'USD', unresolved: false };
+}

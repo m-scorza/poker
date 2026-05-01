@@ -208,7 +208,8 @@ are stale. Do not edit by hand.
 
 <!-- BEGIN:AUTOGEN:src-tree -->
 ```
-src/parser/  (7 files)
+src/parser/  (8 files)
+  parser/buyInExtractor.ts
   parser/ggpoker.ts
   parser/handKey.ts
   parser/pokerstars.ts
@@ -276,8 +277,8 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 21
-**`it` / `test` calls (approximate):** 347
+**Test files:** 23
+**`it` / `test` calls (approximate):** 373
 
 ```
 src/analysis/__tests__/bountyAnalyzer.test.ts
@@ -295,6 +296,8 @@ src/analysis/__tests__/villainExploitCrossRef.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts
 src/data/__tests__/sessions.test.ts
+src/parser/__tests__/buyInExtractor.test.ts
+src/parser/__tests__/fixtureSweep.test.ts
 src/parser/__tests__/ggpoker.test.ts
 src/parser/__tests__/ggpoker_robustness.test.ts
 src/parser/__tests__/handKey.test.ts

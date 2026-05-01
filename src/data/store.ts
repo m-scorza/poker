@@ -407,13 +407,30 @@ export async function getAllVillainNotes(): Promise<Map<string, VillainNote>> {
   return map;
 }
 
-/** Import parsed tournament summaries */
+export interface SummaryImportResult {
+  /** Existing Tournament rows enriched with summary-only fields (prize, finish, bounty). */
+  updated: number;
+  /** Brand-new Tournament rows created from the summary alone (no matching hand history). */
+  created: number;
+  /** Summaries where the `buy-in` field was suppressed because the hand-history
+   *  parser already had a value — "hand-history wins" policy. */
+  buyInPreserved: number;
+}
+
+/**
+ * Import parsed tournament summaries.
+ *
+ * Precedence policy: **hand-history wins** for buy-in / fee / currency.
+ * A summary only fills in those fields when the existing Tournament row
+ * has `buyIn === 0` (i.e. summary-only, no hand history yet). Summaries
+ * continue to own prize, finishPosition, bounty, and name.
+ */
 export async function importTournamentSummaries(
   summaries: ParsedTournamentSummary[],
-): Promise<number> {
-  if (summaries.length === 0) return 0;
+): Promise<SummaryImportResult> {
+  const result: SummaryImportResult = { updated: 0, created: 0, buyInPreserved: 0 };
+  if (summaries.length === 0) return result;
 
-  let count = 0;
   await db.transaction('rw', db.tournaments, async () => {
     for (const summary of summaries) {
       const existing = await db.tournaments.get(summary.tournamentId);
@@ -422,11 +439,20 @@ export async function importTournamentSummaries(
         if (summary.finishPosition !== null) existing.finishPosition = summary.finishPosition;
         if (summary.prize !== null) existing.prize = summary.prize;
         if (summary.bounty !== null) existing.bounty = summary.bounty;
-        if (summary.buyIn !== undefined) existing.buyIn = summary.buyIn;
-        if (summary.fee !== undefined) existing.fee = summary.fee;
-        if (summary.currency) existing.currency = summary.currency;
+
+        // Hand-history wins: only fill buy-in/fee/currency when the row
+        // has no hand-history-derived value (buyIn === 0).
+        const handHistoryHasBuyIn = (existing.buyIn ?? 0) > 0;
+        if (!handHistoryHasBuyIn) {
+          if (summary.buyIn !== undefined) existing.buyIn = summary.buyIn;
+          if (summary.fee !== undefined) existing.fee = summary.fee;
+          if (summary.currency) existing.currency = summary.currency;
+        } else if (summary.buyIn !== undefined) {
+          result.buyInPreserved++;
+        }
+
         await db.tournaments.put(existing);
-        count++;
+        result.updated++;
       } else {
         await db.tournaments.put({
           id: summary.tournamentId,
@@ -440,12 +466,12 @@ export async function importTournamentSummaries(
           currency: summary.currency,
           handsPlayed: 0,
         });
-        count++;
+        result.created++;
       }
     }
   });
 
-  return count;
+  return result;
 }
 
 /** Clear all data (for testing / reset). */

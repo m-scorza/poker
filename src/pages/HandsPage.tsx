@@ -449,7 +449,14 @@ export function HandsPage() {
 // Upload Component Extracted
 function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
   const [dragOver, setDragOver] = useState(false);
-  const [results, setResults] = useState<Array<{ name: string; parsed?: number; imported?: number; type: 'hand' | 'summary'; error?: string }>>([]);
+  const [results, setResults] = useState<Array<{
+    name: string;
+    parsed?: number;
+    imported?: number;
+    summaryDetail?: { updated: number; created: number; buyInPreserved: number };
+    type: 'hand' | 'summary';
+    error?: string;
+  }>>([]);
   const fileRef = useRef<HTMLInputElement>(null);
   const { isImporting, setImporting, setTotalHands, heroName, strategyProfile } = useAppStore();
 
@@ -520,7 +527,12 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
         setImporting(false);
         setResults([
           { name: `${fileDataArr.length} files`, type: 'hand', imported: handImported },
-          { name: `${fileDataArr.length} files`, type: 'summary', imported: summaryImported }
+          {
+            name: `${fileDataArr.length} files`,
+            type: 'summary',
+            imported: summaryImported.updated + summaryImported.created,
+            summaryDetail: summaryImported,
+          }
         ]);
         onUploadSuccess();
         
@@ -624,11 +636,23 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
       {results.length > 0 && !isImporting && (
         <div className="mt-4 pt-4 border-t border-[var(--color-border)] text-sm space-y-2">
            <div className="flex items-center gap-2 font-semibold text-[var(--color-text)]">
-             <CheckCircle size={16} className="text-[var(--color-accent)]" /> 
+             <CheckCircle size={16} className="text-[var(--color-accent)]" />
              Processing Completed
            </div>
-           <div className="text-[var(--color-text-dim)] text-xs">
-             {totalHandNodes.reduce((acc, curr) => acc + (curr.imported ?? 0), 0)} New Hands, {totalSummaryNodes.length} Summaries.
+           <div className="text-[var(--color-text-dim)] text-xs space-y-1">
+             <div>
+               {totalHandNodes.reduce((acc, curr) => acc + (curr.imported ?? 0), 0)} New Hands
+             </div>
+             {totalSummaryNodes.map((r, i) => r.summaryDetail && (
+               <div key={i}>
+                 Summaries: {r.summaryDetail.updated} updated, {r.summaryDetail.created} created
+                 {r.summaryDetail.buyInPreserved > 0 && (
+                   <span className="text-[var(--color-warning,#ffaa00)]">
+                     {' '}({r.summaryDetail.buyInPreserved} buy-in{r.summaryDetail.buyInPreserved !== 1 ? 's' : ''} preserved from hand history)
+                   </span>
+                 )}
+               </div>
+             ))}
            </div>
         </div>
       )}

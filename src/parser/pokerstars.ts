@@ -1,5 +1,6 @@
 import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import { assignPositions } from './position';
+import { extractBuyIn } from './buyInExtractor';
 
 export interface ParsedHand {
   hand: Hand;
@@ -17,8 +18,6 @@ type Street = 'preflop' | 'flop' | 'turn' | 'river';
 // --- Regex patterns from CLAUDE.md ---
 const RE_HAND_ID = /Hand #(\d+)/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
-const RE_BUYIN = /\$(\d+(?:\.\d+)?)\+\$(\d+(?:\.\d+)?)(?:\+\$(\d+(?:\.\d+)?))?/;
-const RE_PLAY_MONEY_BUYIN = /([\d,]+)\+([\d,]+)/;
 const RE_LEVEL_BLINDS = /Level [IVXLCDM]+ \((\d+)\/(\d+)\)/;
 const RE_CASH_BLINDS = /\(\$(\d+(?:\.\d+)?)\/\$(\d+(?:\.\d+)?)/;
 const RE_DATE = /(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2})\s+\w+/;
@@ -112,24 +111,10 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
   }
 
-  let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
-  if (tournamentName.toLowerCase().includes('play money') || tournamentName.toLowerCase().includes('freeroll') || tournamentName.toLowerCase().includes('pm ')) {
-    currency = 'PLAY';
-  }
-
-  const buyinMatch = RE_BUYIN.exec(headerLine);
-  let buyIn = buyinMatch ? parseFloat(buyinMatch[1]!) : 0;
-  let fee = buyinMatch ? parseFloat(buyinMatch[2]!) : 0;
-
-  // Fallback for play money buy-ins that lack the $ symbol
-  if (!buyinMatch) {
-    const pmMatch = RE_PLAY_MONEY_BUYIN.exec(headerLine);
-    if (pmMatch) {
-      buyIn = parseFloat(pmMatch[1]!.replace(/,/g, ''));
-      fee = parseFloat(pmMatch[2]!.replace(/,/g, ''));
-      currency = 'PLAY';
-    }
-  }
+  const extracted = extractBuyIn(tournamentName, headerLine);
+  const buyIn = extracted.buyIn;
+  const fee = extracted.fee;
+  const currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = extracted.currency;
 
   const blindsMatch = RE_LEVEL_BLINDS.exec(headerLine);
   const cashBlindsMatch = !blindsMatch ? RE_CASH_BLINDS.exec(headerLine) : null;

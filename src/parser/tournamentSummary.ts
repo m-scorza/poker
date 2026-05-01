@@ -1,3 +1,5 @@
+import { extractBuyIn, MAX_PLAUSIBLE_USD_BUYIN } from './buyInExtractor';
+
 export interface ParsedTournamentSummary {
   tournamentId: string;
   name?: string;
@@ -97,26 +99,46 @@ export function parseTournamentSummary(
 
     // Try finding Buy-In explicitly (e.g. PokerStars: "Buy-In: $0.98/$0.12")
     if (line.toLowerCase().startsWith('buy-in:')) {
-      if (line.toLowerCase().includes('freeroll')) {
-        buyIn = 0; fee = 0; currency = 'PLAY';
-      } else if (line.toLowerCase().includes('fpp') || line.toLowerCase().includes('starscoin')) {
-        buyIn = 0; fee = 0; currency = 'PLAY';
-      } else if (line.toLowerCase().includes('ticket')) {
-        buyIn = 0; fee = 0; currency = 'TICKET';
-      } else if (line.toLowerCase().includes('t$')) {
-        currency = 'T$';
-      } else if (line.toLowerCase().includes('play money')) {
-        currency = 'PLAY';
-      }
-      const parts = line.split(':');
-      if (parts[1]) {
-        const numbers = parts[1].match(/\d+(?:\.\d+)?/g);
-        if (numbers && numbers.length >= 1) {
-          buyIn = parseFloat(numbers[0]!);
-          if (numbers.length >= 2) fee = parseFloat(numbers[1]!);
+      // PokerStars summaries use slash, not plus, as the buy-in/fee separator
+      // on this line: "Buy-In: $0.49/$0.06 USD". Normalize to `$X+$Y` so the
+      // shared extractor can handle it.
+      const afterColon = line.slice(line.indexOf(':') + 1);
+      const normalized = afterColon.replace(/\$(\d+(?:[.,]\d+)?)\/\$(\d+(?:[.,]\d+)?)/, '$$$1+$$$2');
+      const extracted = extractBuyIn(tournamentName, normalized);
+      if (!extracted.unresolved) {
+        buyIn = extracted.buyIn;
+        fee = extracted.fee;
+        currency = extracted.currency;
+      } else {
+        // Keep buyIn/fee null (= "undefined" on the way out) so importer
+        // won't clobber a correct hand-history value with garbage.
+        // Still capture currency classification if the extractor resolved it.
+        if (extracted.currency !== 'USD') {
+          currency = extracted.currency;
+          buyIn = 0;
+          fee = 0;
         }
       }
     }
+  }
+
+  // Tournament-name currency hint (covers summaries where the Buy-In
+  // line is missing entirely — rare but seen in Brazilian exports).
+  if (buyIn === null) {
+    const nameExtract = extractBuyIn(tournamentName, tournamentName);
+    if (!nameExtract.unresolved) {
+      buyIn = nameExtract.buyIn;
+      fee = nameExtract.fee;
+      currency = nameExtract.currency;
+    }
+  }
+
+  // Sanity net: a USD buy-in > the plausible ceiling is almost always a
+  // leaked prize-pool guarantee. Drop to undefined so we don't overwrite
+  // a correct hand-history value downstream.
+  if (currency === 'USD' && buyIn !== null && buyIn + (fee ?? 0) > MAX_PLAUSIBLE_USD_BUYIN) {
+    buyIn = null;
+    fee = null;
   }
 
   // Detect play money from tournament name
