@@ -1,0 +1,10 @@
+node_modules
+dist
+.git
+.hermes
+.claude
+*.log
+.env
+.env.*
+council-report-*.html
+council-transcript-*.md
