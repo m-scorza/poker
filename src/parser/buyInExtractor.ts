@@ -94,6 +94,16 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
     return applyCeiling(buyIn, fee);
   }
 
+  // GGPoker often encodes the full cost as a single cash amount in the
+  // tournament name (`Mystery Battle Royale $3 Hold'em`) or summary
+  // (`Buy-in: $0.5`). Guarantees were stripped above, so a remaining lone
+  // dollar amount is the best available buy-in with zero separated fee.
+  const singleCash = /\$(\d+(?:\.\d+)?)\b/.exec(cleaned);
+  if (singleCash) {
+    const buyIn = parseFloat(singleCash[1]!);
+    return applyCeiling(buyIn, 0);
+  }
+
   // Nothing confidently matched. Do NOT fall back to a greedy
   // "any N+N anywhere on the line" pattern — that's what produced the
   // $250,006.60 phantom buy-in. Leave unresolved and let the caller

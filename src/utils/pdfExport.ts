@@ -58,13 +58,15 @@ export function exportSessionsPDF(
         acc.threeBetMade += st.threeBetMade;
         acc.dbOpps += st.doubleBarrelOpps;
         acc.dbMade += st.doubleBarrelMade;
+        acc.totalBb += s.totalBb;
+        acc.bbHands += s.bb100Hands;
         return acc;
       },
       {
         hands: 0, vpip: 0, pfr: 0, cbetOpps: 0, cbetMade: 0,
         cbetHUOpps: 0, cbetHUMade: 0, wtsd: 0, wonSD: 0, limps: 0,
         compEligible: 0, compCompliant: 0, threeBetOpps: 0,
-        threeBetMade: 0, dbOpps: 0, dbMade: 0,
+        threeBetMade: 0, dbOpps: 0, dbMade: 0, totalBb: 0, bbHands: 0,
       },
     );
 
@@ -73,6 +75,8 @@ export function exportSessionsPDF(
 
     const summaryData = [
       ['Hands', totals.hands.toString()],
+      ['BB/100', totals.bbHands > 0 ? `${((totals.totalBb / totals.bbHands) * 100).toFixed(1)}` : '—'],
+      ['Total BB', totals.bbHands > 0 ? totals.totalBb.toFixed(1) : '—'],
       ['VPIP', pct(totals.vpip, totals.hands)],
       ['PFR', pct(totals.pfr, totals.hands)],
       ['C-bet Total', pct(totals.cbetMade, totals.cbetOpps)],
@@ -138,7 +142,7 @@ export function exportSessionsPDF(
     const headers = [
       'Session', 'Start', 'End', 'Hands', 'Tourneys',
       'VPIP', 'PFR', 'C-bet', 'C-bet HU', 'WTSD',
-      'Won SD', 'Compliance', 'Limps', '3-bet', 'Dbl Barrel',
+      'Won SD', 'Compliance', 'BB/100', 'Total BB', 'Limps', '3-bet', 'Dbl Barrel',
     ];
 
     const rows = sessions.map((s) => {
@@ -156,6 +160,8 @@ export function exportSessionsPDF(
         pct(st.wtsdHands, st.vpipHands),
         pct(st.wonSDHands, st.wtsdHands),
         pct(st.complianceCompliant, st.complianceEligible),
+        s.bb100Hands > 0 ? s.bb100.toFixed(1) : '—',
+        s.bb100Hands > 0 ? s.totalBb.toFixed(1) : '—',
         st.limpHands.toString(),
         pct(st.threeBetMade, st.threeBetOpps),
         pct(st.doubleBarrelMade, st.doubleBarrelOpps),

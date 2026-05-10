@@ -9,6 +9,7 @@ import {
   Users,
   Zap,
   Trophy,
+  DollarSign,
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
@@ -16,6 +17,7 @@ import { useAppStore } from '../../data/appStore';
 const NAV_ITEMS = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/career', icon: Trophy, label: 'Career' },
+  { to: '/pricing', icon: DollarSign, label: 'Pricing' },
   { to: '/hands', icon: Search, label: 'Hands' },
   { to: '/stats', icon: BarChart3, label: 'Statistics' },
   { to: '/ranges', icon: Grid3X3, label: 'Ranges' },

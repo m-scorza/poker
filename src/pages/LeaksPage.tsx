@@ -1,15 +1,17 @@
 /**
- * Leaks page — detailed leak display with severity and recommendations.
+ * Leaks page — prioritized leak display with severity, impact, and next actions.
  */
 
-import { AlertTriangle, TrendingUp, TrendingDown, CheckCircle, BookOpen } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { AlertTriangle, ArrowRight, BookOpen, CheckCircle, Crosshair, TrendingDown, TrendingUp } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../data/store';
+import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
-import type { LeakSeverity } from '../analysis/leakDetector';
+import type { Leak, LeakSeverity } from '../analysis/leakDetector';
 
 /** Strategy source attribution per leak ID. Maps to docs/strategy/ sections. */
 const LEAK_SOURCES: Record<string, { source: string; doc: string }> = {
@@ -26,18 +28,34 @@ const LEAK_SOURCES: Record<string, { source: string; doc: string }> = {
 };
 
 const SEVERITY_COLORS: Record<LeakSeverity, string> = {
-  critical: 'border-[var(--color-danger)] bg-red-900/20',
-  high: 'border-[var(--color-warning)] bg-orange-900/15',
-  medium: 'border-yellow-600 bg-yellow-900/10',
-  low: 'border-[var(--color-border)] bg-[var(--color-bg-card)]',
+  critical: 'border-[var(--color-danger)] bg-red-950/30 shadow-red-950/20',
+  high: 'border-[var(--color-warning)] bg-orange-950/25 shadow-orange-950/20',
+  medium: 'border-yellow-600/70 bg-yellow-950/15 shadow-yellow-950/10',
+  low: 'border-[var(--color-border)] bg-[var(--color-bg-card)] shadow-black/10',
 };
 
-const SEVERITY_BADGES: Record<LeakSeverity, { bg: string; text: string; label: string }> = {
-  critical: { bg: 'bg-[var(--color-danger)]/20', text: 'text-[var(--color-danger)]', label: 'CRITICAL' },
-  high: { bg: 'bg-[var(--color-warning)]/20', text: 'text-[var(--color-warning)]', label: 'HIGH' },
-  medium: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', label: 'MEDIUM' },
-  low: { bg: 'bg-gray-500/20', text: 'text-[var(--color-text-dim)]', label: 'LOW' },
+const SEVERITY_BADGES: Record<LeakSeverity, { bg: string; text: string; label: string; weight: number }> = {
+  critical: { bg: 'bg-[var(--color-danger)]/20', text: 'text-[var(--color-danger)]', label: 'CRITICAL', weight: 4 },
+  high: { bg: 'bg-[var(--color-warning)]/20', text: 'text-[var(--color-warning)]', label: 'HIGH', weight: 3 },
+  medium: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', label: 'MEDIUM', weight: 2 },
+  low: { bg: 'bg-gray-500/20', text: 'text-[var(--color-text-dim)]', label: 'LOW', weight: 1 },
 };
+
+function impactScore(leak: Leak): number {
+  return Math.round(SEVERITY_BADGES[leak.severity].weight * 25 + Math.min(40, Math.abs(leak.deviation)) + Math.min(20, leak.sampleSize / 10));
+}
+
+function actionForLeak(leak: Leak): string {
+  if (leak.id === 'vpip') return 'Cut weakest opens/calls first. Review every out-of-range VPIP hand before the next session.';
+  if (leak.id === 'pfr') return 'Restore raise-first discipline. Separate hands you should raise from hands you should simply fold.';
+  if (leak.id === 'limps') return 'Zero-limp challenge: every non-BB limp becomes raise or fold until the count is gone.';
+  if (leak.id === 'cbet_hu') return 'Drill heads-up IP c-bets: default to 33% pot until a clear exception appears.';
+  if (leak.id === 'cbet_total') return 'Filter missed c-bet spots and classify boards where pressure was skipped.';
+  if (leak.id === 'compliance') return 'Open the Range Matrix and fix the worst red combo/position pair first.';
+  if (leak.id === 'three_bet') return 'Tag every 3-bet opportunity and compare versus position/open size.';
+  if (leak.id === 'wtsd' || leak.id === 'won_sd') return 'Review showdown hands: mark thin calls, missed value bets, and station calls.';
+  return 'Review the sample hands behind this metric and tag the repeating decision pattern.';
+}
 
 export function LeaksPage() {
   const { strategyProfile } = useAppStore();
@@ -52,14 +70,32 @@ export function LeaksPage() {
 
   const leaks = data?.leaks ?? [];
   const totalHands = data?.totalHands ?? 0;
+  const prioritizedLeaks = [...leaks].sort((a, b) => impactScore(b) - impactScore(a));
+  const topLeak = prioritizedLeaks[0] ?? null;
 
   return (
-    <div>
-      <h2 className="text-xl font-bold mb-6">Leak Detector</h2>
+    <div className="space-y-6">
+      <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+        <div>
+          <p className="text-[10px] font-black uppercase tracking-[0.24em] text-[var(--color-accent)]">Leak Inbox</p>
+          <h2 className="mt-1 text-2xl font-black uppercase tracking-tight text-white">Fix the most expensive pattern first</h2>
+          <p className="mt-2 max-w-3xl text-sm text-[var(--color-text-dim)]">
+            Competitor trackers bury this inside reports. This page turns your stats into a prioritized repair queue with one concrete action per leak.
+          </p>
+        </div>
+        {topLeak && (
+          <div className="rounded-xl border border-[var(--color-danger)]/30 bg-[var(--color-danger)]/10 px-4 py-3 text-right">
+            <p className="text-[10px] font-black uppercase tracking-widest text-[var(--color-danger)]">Start here</p>
+            <p className="font-data text-lg font-black text-white">#{prioritizedLeaks.indexOf(topLeak) + 1} {topLeak.name}</p>
+          </div>
+        )}
+      </div>
 
       {totalHands === 0 ? (
         <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
-          <p className="text-[var(--color-text-dim)]">Import hands to detect leaks.</p>
+          <p className="font-semibold text-white">No leak evidence loaded yet.</p>
+          <p className="mt-2 mb-6 text-sm text-[var(--color-text-dim)]">Import hands or load the local demo to see the prioritized repair queue prospects will understand in seconds.</p>
+          <DemoDataButton label="Load demo leak inbox" />
         </div>
       ) : leaks.length === 0 ? (
         <div className="bg-emerald-900/10 border border-emerald-600/30 rounded-xl p-8 text-center">
@@ -70,30 +106,54 @@ export function LeaksPage() {
           </p>
         </div>
       ) : (
-        <div className="space-y-3">
-          <p className="text-sm text-[var(--color-text-dim)] mb-4">
-            {leaks.length} leak{leaks.length > 1 ? 's' : ''} detected across {totalHands} hands
-            — Profile: <span className="font-data text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'}</span>
-          </p>
+        <div className="space-y-4">
+          <div className="grid gap-3 md:grid-cols-3">
+            <div className="rounded-xl border border-white/10 bg-[var(--color-bg-card)] p-4">
+              <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Detected leaks</p>
+              <p className="mt-2 font-data text-3xl font-black text-white">{leaks.length}</p>
+            </div>
+            <div className="rounded-xl border border-white/10 bg-[var(--color-bg-card)] p-4">
+              <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Evidence sample</p>
+              <p className="mt-2 font-data text-3xl font-black text-white">{totalHands}</p>
+            </div>
+            <div className="rounded-xl border border-white/10 bg-[var(--color-bg-card)] p-4">
+              <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Profile</p>
+              <p className="mt-2 font-data text-xl font-black text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'}</p>
+            </div>
+          </div>
 
-          {leaks.map((leak) => {
+          {prioritizedLeaks.map((leak, index) => {
             const badge = SEVERITY_BADGES[leak.severity];
+            const score = impactScore(leak);
             return (
               <div
                 key={leak.id}
-                className={clsx('border rounded-xl p-4', SEVERITY_COLORS[leak.severity])}
+                className={clsx('rounded-2xl border p-5 shadow-xl', SEVERITY_COLORS[leak.severity])}
               >
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
+                <div className="grid gap-5 lg:grid-cols-[1fr_auto]">
+                  <div>
+                    <div className="mb-3 flex flex-wrap items-center gap-2">
+                      <span className="rounded-lg bg-black/30 px-2 py-1 font-data text-xs font-black text-white/70">#{index + 1}</span>
                       <AlertTriangle size={16} className={badge.text} />
-                      <span className="font-data font-bold">{leak.name}</span>
-                      <span className={clsx('text-[10px] px-1.5 py-0.5 rounded font-bold', badge.bg, badge.text)}>
+                      <span className="font-data text-lg font-black uppercase text-white">{leak.name}</span>
+                      <span className={clsx('text-[10px] px-2 py-1 rounded font-black', badge.bg, badge.text)}>
                         {badge.label}
                       </span>
+                      <span className="rounded-full border border-white/10 bg-black/20 px-2 py-1 text-[10px] font-black uppercase text-white/45">
+                        Impact {score}
+                      </span>
                     </div>
-                    <p className="text-sm text-[var(--color-text-dim)] mb-2">{leak.description}</p>
-                    <div className="flex gap-4 text-xs text-[var(--color-text-muted)]">
+
+                    <p className="text-sm leading-relaxed text-[var(--color-text-dim)]">{leak.description}</p>
+
+                    <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
+                      <p className="mb-1 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-accent)]">
+                        <Crosshair size={13} /> Fix this now
+                      </p>
+                      <p className="text-sm font-semibold leading-relaxed text-white">{actionForLeak(leak)}</p>
+                    </div>
+
+                    <div className="mt-4 flex flex-wrap gap-4 text-xs text-[var(--color-text-muted)]">
                       <span>Sample: {leak.sampleSize} hands</span>
                       <span>Deviation: {leak.deviation > 0 ? '+' : ''}{leak.deviation}pp</span>
                       {LEAK_SOURCES[leak.id] && (
@@ -108,18 +168,35 @@ export function LeaksPage() {
                     </div>
                   </div>
 
-                  <div className="text-right ml-6 shrink-0">
-                    <div className="flex items-center gap-2 justify-end">
-                      {leak.value < leak.target[0] ? (
-                        <TrendingDown size={18} className="text-[var(--color-danger)]" />
-                      ) : (
-                        <TrendingUp size={18} className="text-[var(--color-warning)]" />
-                      )}
-                      <span className="font-data text-2xl font-bold">{leak.value}%</span>
+                  <div className="flex flex-col justify-between gap-4 lg:w-56 lg:text-right">
+                    <div>
+                      <div className="flex items-center gap-2 lg:justify-end">
+                        {leak.value < leak.target[0] ? (
+                          <TrendingDown size={18} className="text-[var(--color-danger)]" />
+                        ) : (
+                          <TrendingUp size={18} className="text-[var(--color-warning)]" />
+                        )}
+                        <span className="font-data text-3xl font-black text-white">{leak.value}%</span>
+                      </div>
+                      <p className="mt-1 text-xs text-[var(--color-text-muted)]">
+                        Target: {leak.target[0]}–{leak.target[1]}%
+                      </p>
                     </div>
-                    <p className="text-xs text-[var(--color-text-muted)] mt-0.5">
-                      Target: {leak.target[0]}–{leak.target[1]}%
-                    </p>
+
+                    <div className="flex flex-col gap-2">
+                      <Link
+                        to="/hands"
+                        className="inline-flex items-center justify-center gap-2 rounded-lg bg-white/10 px-3 py-2 text-xs font-black uppercase tracking-wider text-white transition hover:bg-white/15"
+                      >
+                        Review hands <ArrowRight size={13} />
+                      </Link>
+                      <Link
+                        to={leak.id === 'compliance' ? '/ranges' : '/career'}
+                        className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-xs font-black uppercase tracking-wider text-white/70 transition hover:border-white/25 hover:text-white"
+                      >
+                        {leak.id === 'compliance' ? 'Open ranges' : 'Open coach'}
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

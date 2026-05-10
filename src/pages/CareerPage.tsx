@@ -1,35 +1,63 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useCallback, useEffect, useState, useMemo } from 'react';
 import { db } from '../data/store';
 import { CareerDashboard } from '../components/career/CareerDashboard';
+import { CareerCoachCard } from '../components/career/CareerCoachCard';
+import { CareerScopePanel } from '../components/career/CareerScopePanel';
 import { TimelineFeed, type TimelineEvent } from '../components/career/TimelineFeed';
+import { buildCareerCoachReport } from '../analysis/careerCoach';
+import { buildCareerScopeProfile } from '../analysis/careerScope';
+import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
+import { batchCheckCompliance } from '../analysis/rangeChecker';
+import { useAppStore } from '../data/appStore';
 import type { Tournament } from '../types/hand';
+import type { HeroDecision } from '../types/analysis';
 import { History, Trophy, TrendingUp } from 'lucide-react';
+import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash } from '../analysis/financials';
+
+function ordinal(value: number): string {
+  const mod100 = value % 100;
+  if (mod100 >= 11 && mod100 <= 13) return `${value}th`;
+  switch (value % 10) {
+    case 1: return `${value}st`;
+    case 2: return `${value}nd`;
+    case 3: return `${value}rd`;
+    default: return `${value}th`;
+  }
+}
 
 export function CareerPage() {
   const [tournaments, setTournaments] = useState<Tournament[]>([]);
+  const [decisions, setDecisions] = useState<HeroDecision[]>([]);
   const [loading, setLoading] = useState(true);
+  const { strategyProfile } = useAppStore();
+
+  const loadData = useCallback(async () => {
+    setLoading(true);
+    const [allTourns, allDecisions] = await Promise.all([
+      db.tournaments.toArray(),
+      db.heroDecisions.toArray(),
+    ]);
+    // Sort tournaments by startDate (if available) or ID
+    const sorted = allTourns.sort((a, b) => {
+      if (a.startDate && b.startDate) return a.startDate.getTime() - b.startDate.getTime();
+      return a.id.localeCompare(b.id);
+    });
+    setTournaments(sorted);
+    setDecisions(batchCheckCompliance(allDecisions, strategyProfile));
+    setLoading(false);
+  }, [strategyProfile]);
 
   useEffect(() => {
-    async function loadData() {
-      const allTourns = await db.tournaments.toArray();
-      // Sort tournaments by startDate (if available) or ID
-      const sorted = allTourns.sort((a, b) => {
-        if (a.startDate && b.startDate) return a.startDate.getTime() - b.startDate.getTime();
-        return a.id.localeCompare(b.id);
-      });
-      setTournaments(sorted);
-      setLoading(false);
-    }
     loadData();
-  }, []);
+  }, [loadData]);
 
   const stats = useMemo(() => {
     const played = tournaments.length;
     if (played === 0) return { totalWinnings: 0, totalProfit: 0, itmRate: 0, roi: 0, avgBuyIn: 0, tournamentsPlayed: 0 };
 
-    const totalWinnings = tournaments.reduce((acc, t) => acc + (t.prize || 0) + (t.bounty || 0), 0);
-    const totalBuyIns = tournaments.reduce((acc, t) => acc + (t.buyIn || 0) + (t.fee || 0), 0);
-    const itms = tournaments.filter(t => (t.prize || 0) > 0).length;
+    const totalWinnings = tournaments.reduce((acc, t) => acc + getTournamentRevenue(t), 0);
+    const totalBuyIns = tournaments.reduce((acc, t) => acc + getTournamentCost(t), 0);
+    const itms = tournaments.filter(hasTournamentCash).length;
 
     return {
       totalWinnings,
@@ -41,15 +69,27 @@ export function CareerPage() {
     };
   }, [tournaments]);
 
+  const leaks = useMemo(() => {
+    return detectLeaks(computeAggregateStats(decisions), strategyProfile);
+  }, [decisions, strategyProfile]);
+
+  const careerCoachReport = useMemo(() => {
+    return buildCareerCoachReport(tournaments, decisions, leaks);
+  }, [tournaments, decisions, leaks]);
+
+  const careerScopeProfile = useMemo(() => {
+    return buildCareerScopeProfile(tournaments);
+  }, [tournaments]);
+
   const { timelineEvents, profitHistory } = useMemo(() => {
     const events: TimelineEvent[] = [];
     let runningProfit = 0;
     const history: { date: string; amount: number }[] = [];
 
     tournaments.forEach((t) => {
-      const prize = (t.prize || 0) + (t.bounty || 0);
-      const cost = (t.buyIn || 0) + (t.fee || 0);
-      runningProfit += (prize - cost);
+      const prize = getTournamentRevenue(t);
+      const cost = getTournamentCost(t);
+      runningProfit += getTournamentNet(t);
       
       const date = t.startDate || new Date();
       
@@ -64,7 +104,7 @@ export function CareerPage() {
           type: 'tournament_result',
           date,
           title: t.name || `Tournament #${t.id}`,
-          description: `Finished ${t.finishPosition ? `at ${t.finishPosition}th place` : 'in the money'}. Prize: $${prize.toLocaleString()}.`,
+          description: `Finished ${t.finishPosition ? `in ${ordinal(t.finishPosition)} place` : 'in the money'}. Prize: $${prize.toLocaleString()}.`,
           value: `+$${prize.toLocaleString()}`,
           isPositive: true
         });
@@ -105,6 +145,10 @@ export function CareerPage() {
            Chronological overview of your tournament journey, achievements, and financial evolution.
          </p>
       </header>
+
+      <CareerCoachCard report={careerCoachReport} onDemoLoaded={loadData} />
+
+      <CareerScopePanel profile={careerScopeProfile} />
 
       <CareerDashboard stats={stats} profitHistory={profitHistory} />
 

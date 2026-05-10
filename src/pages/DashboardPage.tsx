@@ -1,11 +1,16 @@
+import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { StatCard } from '../components/shared/StatCard';
 import { TrendChart } from '../components/dashboard/TrendChart';
+import { ValueSnapshotCard } from '../components/dashboard/ValueSnapshotCard';
+import { StudyPlanCard } from '../components/dashboard/StudyPlanCard';
 import { useAppStore } from '../data/appStore';
 import { db } from '../data/store';
+import { buildCareerCoachReport } from '../analysis/careerCoach';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../data/sessions';
 import { computePositionStats } from '../analysis/positionStats';
+import { buildStudyQueue } from '../analysis/studyPlan';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { AlertTriangle, TrendingUp, DollarSign, Target, BarChart3, Clock, Rocket, Shield, Crosshair } from 'lucide-react';
 import { clsx } from 'clsx';
@@ -43,10 +48,18 @@ export function DashboardPage() {
       }
     }
 
-    const checked = batchCheckCompliance(filteredDecisions, strategyProfile);
-    const stats = computeAggregateStats(checked);
-    const leaks = detectLeaks(stats, strategyProfile);
-    const positionStats = computePositionStats(checked);
+    const allChecked = batchCheckCompliance(rawDecisions, strategyProfile);
+    const allStats = computeAggregateStats(allChecked);
+    const allLeaks = detectLeaks(allStats, strategyProfile);
+    const careerCoachReport = buildCareerCoachReport(rawTournaments, allChecked, allLeaks);
+
+    const checked = activeSessionId === 'all'
+      ? allChecked
+      : batchCheckCompliance(filteredDecisions, strategyProfile);
+    const stats = activeSessionId === 'all' ? allStats : computeAggregateStats(checked);
+    const leaks = activeSessionId === 'all' ? allLeaks : detectLeaks(stats, strategyProfile);
+    const positionStats = computePositionStats(checked, filteredHands);
+    const studyQueue = buildStudyQueue(leaks, checked, filteredHands, 5);
     
     // Financial stats
     const financialSessions = activeSessionId === 'all' 
@@ -68,9 +81,9 @@ export function DashboardPage() {
     });
 
     const statsSummary = { totalBuyIns, totalPrizes, totalTournaments, itmCount };
-    const displayTrend = activeSessionId === 'all' ? trendData : computeIntraSessionTrends(checked);
+    const displayTrend = activeSessionId === 'all' ? trendData : computeIntraSessionTrends(checked, filteredHands);
 
-    return { stats, leaks, trendData, sessionsGrouped, totalPnl, statsSummary, positionStats, displayTrend };
+    return { stats, leaks, trendData, sessionsGrouped, totalPnl, statsSummary, positionStats, displayTrend, careerCoachReport, studyQueue };
   }, [strategyProfile, activeSessionId]);
 
   const aggregateStats = data?.stats ?? null;
@@ -80,6 +93,8 @@ export function DashboardPage() {
   const statsSummary = data?.statsSummary ?? { totalBuyIns: 0, totalPrizes: 0, totalTournaments: 0, itmCount: 0 };
   const positionStats = data?.positionStats ?? [];
   const displayTrend = data?.displayTrend ?? [];
+  const careerCoachReport = data?.careerCoachReport ?? null;
+  const studyQueue = data?.studyQueue ?? [];
 
   const pct = (n: number, d: number) => (d === 0 ? '—' : `${((n / d) * 100).toFixed(1)}%`);
 
@@ -95,7 +110,7 @@ export function DashboardPage() {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <h2 className="text-2xl font-bold font-data text-white flex items-center gap-2">
-            Professional Dashboard 
+            Poker Career Snapshot
             {totalPnl !== 0 && (
               <span className={clsx('text-base px-2 py-0.5 rounded-full', totalPnl > 0 ? 'bg-emerald-900/30 text-emerald-400' : 'bg-red-900/30 text-red-400')}>
                 {totalPnl > 0 ? '+' : ''}${totalPnl.toFixed(2)}
@@ -103,7 +118,7 @@ export function DashboardPage() {
             )}
           </h2>
           <p className="text-sm text-[var(--color-text-dim)]">
-            {activeSessionId === 'all' ? 'Elite Multi-Session Analysis' : 'Granular Session Deep-Dive'}
+            {activeSessionId === 'all' ? 'Stake-readiness verdict, top blocker, and tournament trend from imported histories.' : 'Granular session deep-dive with the same leak-first discipline.'}
           </p>
         </div>
 
@@ -134,11 +149,21 @@ export function DashboardPage() {
           <Target className="mx-auto mb-4 text-[var(--color-text-muted)] opacity-50" size={48} />
           <h3 className="text-lg font-bold text-[var(--color-text)] mb-2">No Data Found</h3>
           <p className="text-[var(--color-text-dim)] text-sm">
-             Drag your Hand History or Summary files to the <strong>Hands</strong> tab to start.
+             Drag your Hand History or Summary files to the <strong>Hands</strong> tab to start, or load a safe local demo dataset for a prospect walkthrough.
           </p>
+          <DemoDataButton className="mt-6" />
         </div>
       ) : (
         <div className="space-y-8">
+          {careerCoachReport && activeSessionId === 'all' && (
+            <ValueSnapshotCard
+              report={careerCoachReport}
+              leakCount={leaks.length}
+              handCount={aggregateStats?.totalHands ?? totalHands}
+            />
+          )}
+
+          <StudyPlanCard items={studyQueue} />
           
           {/* Cluster 1: Macro Performance */}
           <section>
@@ -231,13 +256,13 @@ export function DashboardPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5 shadow-sm">
               <h3 className="text-[var(--color-text)] font-semibold mb-6 flex justify-between items-center">
-                <span className="flex items-center gap-2"><TrendingUp size={16} className="text-emerald-400"/> {activeSessionId === 'all' ? 'Bankroll Progression' : 'Current Session Chips'}</span>
-                <span className="text-[10px] bg-white/5 px-2 py-1 rounded text-[var(--color-text-dim)]">Real-time delta (After-Before)</span>
+                <span className="flex items-center gap-2"><TrendingUp size={16} className="text-emerald-400"/> {activeSessionId === 'all' ? 'Bankroll Progression' : 'Current Session BB Delta'}</span>
+                <span className="text-[10px] bg-white/5 px-2 py-1 rounded text-[var(--color-text-dim)]">{activeSessionId === 'all' ? 'Tournament buy-in/prize PnL' : 'Big-blind normalized hand delta'}</span>
               </h3>
               <div className="h-72">
                  <TrendChart
                   data={displayTrend}
-                  metrics={[ { key: 'cumulativePnl', label: activeSessionId === 'all' ? 'Profit ($)' : 'Chips (Δ)', color: '#10b981' } ]}
+                  metrics={[ { key: activeSessionId === 'all' ? 'cumulativePnl' : 'cumulativeBb', label: activeSessionId === 'all' ? 'Profit ($)' : 'Total BB', color: '#10b981' } ]}
                   yDomain={['auto', 'auto']}
                 />
               </div>
@@ -280,8 +305,8 @@ export function DashboardPage() {
                       <th className="text-center py-3 px-4 text-[var(--color-text-dim)] uppercase text-[10px] tracking-widest font-black">VPIP / PFR</th>
                       <th className="text-center py-3 px-4 text-[var(--color-text-dim)] uppercase text-[10px] tracking-widest font-black">Compliance</th>
                       <th className="text-center py-3 px-4 text-[var(--color-text-dim)] uppercase text-[10px] tracking-widest font-black">Win Rate</th>
-                      <th className="text-center py-3 px-4 text-[var(--color-text-dim)] uppercase text-[10px] tracking-widest font-black">Chips / Hand</th>
-                      <th className="text-right py-3 px-4 text-[var(--color-text-dim)] uppercase text-[10px] tracking-widest font-black">Net Profit</th>
+                      <th className="text-center py-3 px-4 text-[var(--color-text-dim)] uppercase text-[10px] tracking-widest font-black">bb/100</th>
+                      <th className="text-right py-3 px-4 text-[var(--color-text-dim)] uppercase text-[10px] tracking-widest font-black">Total BB</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -308,11 +333,11 @@ export function DashboardPage() {
                         <td className="py-4 px-4 text-center font-data font-bold text-white">
                            {ps.winPct.toFixed(1)}%
                         </td>
-                        <td className={clsx("py-4 px-4 text-center font-data font-bold", ps.totalProfit >= 0 ? "text-emerald-400" : "text-rose-400")}>
-                           {(ps.totalProfit / ps.hands).toFixed(0)}
+                        <td className={clsx("py-4 px-4 text-center font-data font-bold", ps.bb100 >= 0 ? "text-emerald-400" : "text-rose-400")}>
+                           {ps.bb100Hands > 0 ? `${ps.bb100 >= 0 ? '+' : ''}${ps.bb100.toFixed(1)}` : '—'}
                         </td>
-                        <td className={clsx('py-4 px-4 text-right font-data font-black', ps.totalProfit >= 0 ? 'text-emerald-400' : 'text-rose-400')}>
-                          {ps.totalProfit >= 0 ? '+' : ''}{ps.totalProfit.toLocaleString()} <span className="text-[10px] opacity-50 uppercase">Chips</span>
+                        <td className={clsx('py-4 px-4 text-right font-data font-black', ps.totalBb >= 0 ? 'text-emerald-400' : 'text-rose-400')}>
+                          {ps.bb100Hands > 0 ? `${ps.totalBb >= 0 ? '+' : ''}${ps.totalBb.toFixed(1)}` : '—'} <span className="text-[10px] opacity-50 uppercase">bb</span>
                         </td>
                       </tr>
                     ))}

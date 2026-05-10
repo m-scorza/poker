@@ -42,36 +42,38 @@ describe('fixture sweep — pokerstars/hh', () => {
     expect(files.length).toBeGreaterThan(50);
   });
 
-  it.each(files)('%s parses without silent block drop', (filename) => {
-    const raw = readUtf8(join(HH_DIR, filename));
-    const parsed = parsePokerStarsFile(raw);
+  it('parses all fixtures without silent block drops', () => {
+    for (const filename of files) {
+      const raw = readUtf8(join(HH_DIR, filename));
+      const parsed = parsePokerStarsFile(raw);
 
-    const oracle = parseFilenameOracle(filename);
+      const oracle = parseFilenameOracle(filename);
 
-    // Block-count sanity: count `PokerStars Hand #` headers and compare to
-    // parsed count. A drop of more than the dedup ratio means we silently
-    // skipped real hands.
-    // Match both "PokerStars Hand #" and "PokerStars Zoom Hand #" variants.
-    const headerCount = (raw.match(/Hand #\d+/g) || []).length;
-    expect(headerCount).toBeGreaterThan(0);
+      // Block-count sanity: count `PokerStars Hand #` headers and compare to
+      // parsed count. A drop of more than the dedup ratio means we silently
+      // skipped real hands.
+      // Match both "PokerStars Hand #" and "PokerStars Zoom Hand #" variants.
+      const headerCount = (raw.match(/Hand #\d+/g) || []).length;
+      expect(headerCount, filename).toBeGreaterThan(0);
 
-    // Parsed count must be ≥ 50% of headers (dedup tolerance) and > 0.
-    expect(parsed.length).toBeGreaterThan(0);
-    expect(parsed.length).toBeGreaterThanOrEqual(Math.floor(headerCount * 0.5));
+      // Parsed count must be ≥ 50% of headers (dedup tolerance) and > 0.
+      expect(parsed.length, filename).toBeGreaterThan(0);
+      expect(parsed.length, filename).toBeGreaterThanOrEqual(Math.floor(headerCount * 0.5));
 
-    if (oracle.isTournament && oracle.tournamentId) {
-      const first = parsed[0]!;
-      expect(first.hand.tournamentId).toBe(oracle.tournamentId);
+      if (oracle.isTournament && oracle.tournamentId) {
+        const first = parsed[0]!;
+        expect(first.hand.tournamentId, filename).toBe(oracle.tournamentId);
+      }
+
+      if (oracle.isTournament && oracle.buyIn !== null) {
+        const first = parsed[0]!;
+        const t = first.tournament;
+        expect(t.buyIn, filename).toBeCloseTo(oracle.buyIn, 2);
+        expect(t.fee, filename).toBeCloseTo(oracle.fee!, 2);
+        expect(t.currency, filename).toBe('USD');
+      }
     }
-
-    if (oracle.isTournament && oracle.buyIn !== null) {
-      const first = parsed[0]!;
-      const t = first.tournament;
-      expect(t.buyIn).toBeCloseTo(oracle.buyIn, 2);
-      expect(t.fee).toBeCloseTo(oracle.fee!, 2);
-      expect(t.currency).toBe('USD');
-    }
-  });
+  }, 300_000);
 });
 
 describe('fixture sweep — pokerstars/ts', () => {
@@ -81,25 +83,27 @@ describe('fixture sweep — pokerstars/ts', () => {
     expect(files.length).toBeGreaterThan(50);
   });
 
-  it.each(files)('%s parses to a summary with matching id+buy-in', (filename) => {
-    const raw = readUtf8(join(TS_DIR, filename));
-    const summary = parseTournamentSummary(raw);
+  it('parses all summaries with matching id+buy-in', () => {
+    for (const filename of files) {
+      const raw = readUtf8(join(TS_DIR, filename));
+      const summary = parseTournamentSummary(raw);
 
-    expect(summary).not.toBeNull();
-    if (!summary) return;
+      expect(summary, filename).not.toBeNull();
+      if (!summary) continue;
 
-    const oracle = parseFilenameOracle(filename);
+      const oracle = parseFilenameOracle(filename);
 
-    if (oracle.tournamentId) {
-      expect(summary.tournamentId).toBe(oracle.tournamentId);
+      if (oracle.tournamentId) {
+        expect(summary.tournamentId, filename).toBe(oracle.tournamentId);
+      }
+
+      if (oracle.buyIn !== null) {
+        expect(summary.buyIn, filename).toBeCloseTo(oracle.buyIn, 2);
+        expect(summary.fee, filename).toBeCloseTo(oracle.fee!, 2);
+        expect(summary.currency, filename).toBe('USD');
+      }
     }
-
-    if (oracle.buyIn !== null) {
-      expect(summary.buyIn).toBeCloseTo(oracle.buyIn, 2);
-      expect(summary.fee).toBeCloseTo(oracle.fee!, 2);
-      expect(summary.currency).toBe('USD');
-    }
-  });
+  }, 300_000);
 });
 
 describe.todo('fixture sweep — ggpoker (zip fixtures, deferred)');

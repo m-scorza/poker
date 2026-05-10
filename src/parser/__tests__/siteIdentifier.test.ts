@@ -39,6 +39,33 @@ You received a total of $0.
     expect(result.type).toBe('tournament_summary');
   });
 
+  it('identifies standardized Open Hand History JSON across networks', () => {
+    const result = identifyFile(JSON.stringify({
+      ohh: {
+        spec_version: '1.2.2',
+        network_name: 'iPoker Network',
+        site_name: 'iPoker',
+        game_number: '7948166852',
+      },
+    }));
+
+    expect(result.site).toBe('open_hand_history');
+    expect(result.type).toBe('hand_history');
+  });
+
+  it.each([
+    ['Winning Poker Network', 'Winning Poker Network Hand #55030950'],
+    ['iPoker', 'Game ID 7948166852 - iPoker Network - €100 Gtd'],
+    ['888poker', '888poker Hand History for Game 591212284'],
+    ['partypoker', '***** Hand History for Game 123456789 ***** partypoker'],
+    ['chico', 'BetOnline Hand #123456789, Chico Network'],
+    ['winamax', 'Winamax Poker - Tournament HandId: #123456789'],
+  ])('detects known but not-yet-native room marker: %s', (_label, content) => {
+    const result = identifyFile(content);
+    expect(result.site).toBe('known_unsupported');
+    expect(result.type).toBe('hand_history');
+  });
+
   it('returns unknown for garbage', () => {
     const result = identifyFile('some random text');
     expect(result.site).toBe('unknown');

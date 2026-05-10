@@ -198,6 +198,7 @@ are stale. Do not edit by hand.
 | `/career` | `CareerPage` |
 | `/hands` | `HandsPage` |
 | `/leaks` | `LeaksPage` |
+| `/pricing` | `PricingPage` |
 | `/ranges` | `RangesPage` |
 | `/sessions` | `SessionsPage` |
 | `/stats` | `StatsPage` |
@@ -208,18 +209,22 @@ are stale. Do not edit by hand.
 
 <!-- BEGIN:AUTOGEN:src-tree -->
 ```
-src/parser/  (8 files)
+src/parser/  (9 files)
   parser/buyInExtractor.ts
   parser/ggpoker.ts
   parser/handKey.ts
+  parser/openHandHistory.ts
   parser/pokerstars.ts
   parser/position.ts
   parser/siteIdentifier.ts
   parser/tournamentSummary.ts
   parser/worker.ts
-src/analysis/  (14 files)
+src/analysis/  (18 files)
   analysis/bountyAnalyzer.ts
+  analysis/careerCoach.ts
+  analysis/careerScope.ts
   analysis/finalTableAnalyzer.ts
+  analysis/financials.ts
   analysis/icmDetector.ts
   analysis/leakDetector.ts
   analysis/math.ts
@@ -230,35 +235,43 @@ src/analysis/  (14 files)
   analysis/rangeValidator.ts
   analysis/scenarioDetector.ts
   analysis/squeezeDetector.ts
+  analysis/studyPlan.ts
   analysis/villainClassifier.ts
   analysis/villainExploitCrossRef.ts
-src/data/  (6 files)
+src/data/  (7 files)
   data/appStore.ts
+  data/demoDataset.ts
   data/pushFoldRanges.ts
   data/ranges.ts
   data/sessions.ts
   data/store.ts
   data/strategyProfiles.ts
-src/pages/  (9 files)
+src/pages/  (10 files)
   pages/ArenaPage.tsx
   pages/CareerPage.tsx
   pages/DashboardPage.tsx
   pages/HandsPage.tsx
   pages/LeaksPage.tsx
+  pages/PricingPage.tsx
   pages/RangesPage.tsx
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (13 files)
+src/components/  (18 files)
+  components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx
+  components/career/CareerScopePanel.tsx
   components/career/TimelineFeed.tsx
+  components/dashboard/StudyPlanCard.tsx
   components/dashboard/TrendChart.tsx
+  components/dashboard/ValueSnapshotCard.tsx
   components/hands/HandReplay.tsx
   components/layout/ErrorBoundary.tsx
   components/layout/Layout.tsx
   components/layout/Sidebar.tsx
   components/shared/Card.tsx
   components/shared/ConfirmDialog.tsx
+  components/shared/DemoDataButton.tsx
   components/shared/DualRangeMatrix.tsx
   components/shared/InfoTooltip.tsx
   components/shared/RangeGrid.tsx
@@ -277,22 +290,28 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 23
-**`it` / `test` calls (approximate):** 373
+**Test files:** 30
+**`it` / `test` calls (approximate):** 406
 
 ```
 src/analysis/__tests__/bountyAnalyzer.test.ts
+src/analysis/__tests__/careerCoach.test.ts
+src/analysis/__tests__/careerScope.test.ts
 src/analysis/__tests__/finalTableAnalyzer.test.ts
+src/analysis/__tests__/financials.test.ts
 src/analysis/__tests__/icmDetector.test.ts
 src/analysis/__tests__/leakDetector.test.ts
+src/analysis/__tests__/positionStats.test.ts
 src/analysis/__tests__/postflopAnalyzer.test.ts
 src/analysis/__tests__/pushFoldChecker.test.ts
 src/analysis/__tests__/rangeChecker.test.ts
 src/analysis/__tests__/rangeValidator.test.ts
 src/analysis/__tests__/scenarioDetector.test.ts
 src/analysis/__tests__/squeezeDetector.test.ts
+src/analysis/__tests__/studyPlan.test.ts
 src/analysis/__tests__/villainClassifier.test.ts
 src/analysis/__tests__/villainExploitCrossRef.test.ts
+src/data/__tests__/demoDataset.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts
 src/data/__tests__/sessions.test.ts
@@ -301,6 +320,7 @@ src/parser/__tests__/fixtureSweep.test.ts
 src/parser/__tests__/ggpoker.test.ts
 src/parser/__tests__/ggpoker_robustness.test.ts
 src/parser/__tests__/handKey.test.ts
+src/parser/__tests__/openHandHistory.test.ts
 src/parser/__tests__/pokerstars.test.ts
 src/parser/__tests__/position.test.ts
 src/parser/__tests__/siteIdentifier.test.ts

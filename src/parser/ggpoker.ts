@@ -3,6 +3,7 @@ import type { Position } from '../types/analysis';
 import type { ParsedHand } from './pokerstars';
 import type { ParsedTournamentSummary } from './tournamentSummary';
 import { assignPositions } from './position';
+import { extractBuyIn } from './buyInExtractor';
 
 const RE_HAND_ID = /(?:Poker Hand|GGPoker Hand|Hand) #(\w+):/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
@@ -61,10 +62,8 @@ export function parseGGPokerFile(
 
       let tournamentName = '';
       let parsedBuyIn = 0;
+      let parsedFee = 0;
       let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
-      if (tournamentName.toLowerCase().includes('freeroll') || tournamentName.toLowerCase().includes('play money')) {
-         currency = 'PLAY';
-      }
 
       if (tournamentId && headerLine.includes(tournamentId)) {
         const afterId = headerLine.slice(headerLine.indexOf(tournamentId) + tournamentId.length).trim();
@@ -72,27 +71,22 @@ export function parseGGPokerFile(
           const namePart = afterId.slice(1).split(' - ')[0];
           if (namePart) {
             tournamentName = namePart.trim();
-            // Completely strip out any prize pool guarantees before checking for buyin!
-            const cleanName = tournamentName.replace(/\$[\d,.]+[a-z]*\s*(?:GTD|Guaranteed)/ig, '');
-            // Strip commas so that $1,050 parses correctly as 1050! 
-            const noComma = cleanName.replace(/,/g, '');
-            const buyMatches = [...noComma.matchAll(/\$(\d+(?:\.\d+)?)/g)];
-            const validBuyins = buyMatches
-              .map(m => parseFloat(m[1]!))
-              .filter(val => val < 50000); // Filter out massive prize pool guarantees missing the GTD tag
-            
-            if (validBuyins.length > 0) {
-              parsedBuyIn = validBuyins[0]!;
-            }
           }
         }
+      }
+
+      const extractedBuyIn = extractBuyIn(tournamentName, tournamentName || headerLine);
+      currency = extractedBuyIn.currency;
+      if (!extractedBuyIn.unresolved) {
+        parsedBuyIn = extractedBuyIn.buyIn;
+        parsedFee = extractedBuyIn.fee;
       }
 
       const tournament: Partial<Tournament> = {
         id: tournamentId,
         name: tournamentName,
-        buyIn: currency === 'PLAY' ? 0 : parsedBuyIn,
-        fee: 0,
+        buyIn: parsedBuyIn,
+        fee: parsedFee,
         currency,
       };
 
@@ -182,7 +176,7 @@ export function parseGGPokerFile(
              investment = added || to;
              storedAmount = to || investment;
           }
-          else if (type === 'bets') actionType = 'raise';
+          else if (type === 'bets') actionType = 'bet';
           else continue;
 
           addInvestment(name, investment);
@@ -284,7 +278,7 @@ export function parseGGPokerFile(
         players,
         actions,
         tournament,
-        collectedAmounts: new Map(),
+        collectedAmounts,
         showdownWinners,
       });
 
@@ -311,6 +305,7 @@ export function parseGGPokerSummary(
   let finishPosition: number | null = null;
   let prize = 0;
   let buyIn = 0;
+  let fee = 0;
   let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
   
   for (const line of lines) {
@@ -334,19 +329,17 @@ export function parseGGPokerSummary(
     if (yrMatch) {
       prize = parseFloat(yrMatch[1]!.replace(/,/g, ''));
     }
-    const biMatch = /Buy-in:\s*\$?([\d.,]+)/i.exec(line);
-    if (line.toLowerCase().includes('freeroll') || line.toLowerCase().includes('play money')) {
-      buyIn = 0; currency = 'PLAY';
-    } else if (line.toLowerCase().includes('ticket')) {
-      buyIn = 0; currency = 'TICKET';
-    } else if (line.toLowerCase().includes('t$')) {
-      currency = 'T$';
-    }
-    
-    if (biMatch && currency !== 'PLAY' && currency !== 'TICKET') {
-      const parsed = parseFloat(biMatch[1]!.replace(/,/g, ''));
-      if (parsed < 50000) {
-        buyIn = parsed;
+    const shouldExtractBuyIn = /Tournament #/i.test(line) || line.toLowerCase().startsWith('buy-in:');
+    if (shouldExtractBuyIn) {
+      const extracted = extractBuyIn('', line);
+      if (!extracted.unresolved) {
+        buyIn = extracted.buyIn;
+        fee = extracted.fee;
+        currency = extracted.currency;
+      } else if (extracted.currency !== 'USD') {
+        buyIn = 0;
+        fee = 0;
+        currency = extracted.currency;
       }
     }
   }
@@ -359,6 +352,7 @@ export function parseGGPokerSummary(
     prize,
     bounty: 0,
     buyIn,
+    fee,
     currency,
     heroName,
   };

@@ -3,8 +3,10 @@
  */
 
 import { StatCard } from '../components/shared/StatCard';
+import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { useAppStore } from '../data/appStore';
 import { computeAggregateStats } from '../analysis/leakDetector';
+import { computeBb100 } from '../analysis/positionStats';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../data/store';
@@ -42,15 +44,20 @@ export function StatsPage() {
 
     const stats = computeAggregateStats(filteredDecisions);
     
-    // Sort hands by profit/loss (Big Hands table)
+    const handById = new Map(filteredHands.map((hand) => [hand.id, hand]));
+
+    // Sort hands by profit/loss in big blinds, not raw tournament chips.
     const sortedHands = [...filteredDecisions]
-       .sort((a, b) => Math.abs(b.netProfit) - Math.abs(a.netProfit))
+       .map((decision) => {
+          const hand = handById.get(decision.handId);
+          const netBb = hand && hand.bigBlind > 0 ? decision.netProfit / hand.bigBlind : null;
+          return { decision, hand, netBb };
+       })
+       .filter((item): item is { decision: typeof filteredDecisions[number]; hand: NonNullable<typeof item.hand>; netBb: number | null } => Boolean(item.hand))
+       .sort((a, b) => Math.abs(b.netBb ?? 0) - Math.abs(a.netBb ?? 0))
        .slice(0, 10);
 
-    const handsWithData = sortedHands.map(d => ({
-        decision: d,
-        hand: filteredHands.find(h => h.id === d.handId)
-    })).filter(item => item.hand);
+    const bb100 = computeBb100(filteredDecisions, filteredHands);
 
     // Calculate Tournament ROI by Buy-in
     const buyInStats = new Map<string, { buyIns: number; prizes: number; count: number; cashes: number; profit: number }>();
@@ -69,23 +76,22 @@ export function StatsPage() {
        buyInStats.set(key, curr);
     }
 
-    // Top Predators (Cumulative Loss)
+    // Top Predators: cumulative damage in big blinds, not raw tournament chips.
     const nemesisMap = new Map<string, number>();
     for (const h of filteredHands) {
-      if (h.villainDeltas) {
-        for (const v of h.villainDeltas) {
-          if (v.net > 0) {
-            nemesisMap.set(v.name, (nemesisMap.get(v.name) || 0) + v.net);
-          }
+      if (!h.villainDeltas || h.bigBlind <= 0) continue;
+      for (const v of h.villainDeltas) {
+        if (v.net > 0) {
+          nemesisMap.set(v.name, (nemesisMap.get(v.name) || 0) + v.net / h.bigBlind);
         }
       }
     }
     const topNemesis = Array.from(nemesisMap.entries())
-      .map(([name, amount]) => ({ name, amount }))
-      .sort((a, b) => b.amount - a.amount)
+      .map(([name, amountBb]) => ({ name, amountBb }))
+      .sort((a, b) => b.amountBb - a.amountBb)
       .slice(0, 8);
 
-    return { stats, buyInSummary: Array.from(buyInStats.entries()), topNemesis, bigHands: handsWithData };
+    return { stats, buyInSummary: Array.from(buyInStats.entries()), topNemesis, bigHands: sortedHands, bb100 };
   }, [strategyProfile, activeSessionId]);
 
   if (!data || data.stats.totalHands === 0) {
@@ -95,12 +101,13 @@ export function StatsPage() {
             <Trophy size={64} className="text-[var(--color-text-dim)] opacity-10" />
          </div>
          <h2 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Intelligence Pending</h2>
-         <p className="text-[var(--color-text-dim)] max-w-md">Import your PokerStars hand histories to generate the Elite performance report.</p>
+         <p className="text-[var(--color-text-dim)] max-w-md mb-6">Import your PokerStars hand histories to generate the Elite performance report, or load the safe local demo to inspect BB/100, hand impact, and stake ROI immediately.</p>
+         <DemoDataButton label="Load demo audit" />
       </div>
     );
   }
 
-  const { stats: s, buyInSummary, topNemesis, bigHands } = data;
+  const { stats: s, buyInSummary, topNemesis, bigHands, bb100 } = data;
   const pct = (n: number, d: number) => (d === 0 ? '0%' : `${((n / d) * 100).toFixed(1)}%`);
 
   return (
@@ -111,6 +118,9 @@ export function StatsPage() {
            <p className="text-sm text-[var(--color-text-dim)]">Advanced metrics and ROI breakdown by tournament tier</p>
         </div>
         <div className="flex gap-2">
+           <div className={clsx('border px-3 py-1 rounded text-xs font-bold font-data', bb100.bb100 >= 0 ? 'bg-emerald-900/20 border-emerald-500/20 text-emerald-400' : 'bg-rose-900/20 border-rose-500/20 text-rose-400')}>
+              bb/100: {bb100.sampleSize > 0 ? `${bb100.bb100 >= 0 ? '+' : ''}${bb100.bb100.toFixed(1)}` : '—'}
+           </div>
            <div className="bg-emerald-900/20 border border-emerald-500/20 px-3 py-1 rounded text-emerald-400 text-xs font-bold font-data">
               Compliance: {pct(s.complianceCompliant, s.complianceEligible)}
            </div>
@@ -167,7 +177,7 @@ export function StatsPage() {
                <h3 className="text-sm font-black uppercase tracking-widest text-blue-400 flex items-center gap-2">
                   <Flame size={18} /> High Impact Hands
                </h3>
-               <span className="text-[10px] text-white/30 font-bold">Top 10 by Delta</span>
+               <span className="text-[10px] text-white/30 font-bold">Top 10 by BB Delta</span>
             </div>
             <div className="overflow-x-auto">
                <table className="w-full text-xs">
@@ -181,8 +191,11 @@ export function StatsPage() {
                               <span className="text-blue-400 uppercase tracking-tighter">{item.decision.position}</span>
                            </td>
                            <td className="px-4 py-4 text-right">
-                              <span className={clsx("text-base", item.decision.netProfit >= 0 ? "text-emerald-400" : "text-rose-400")}>
-                                 {item.decision.netProfit >= 0 ? '+' : ''}{item.decision.netProfit.toLocaleString()}
+                              <span className={clsx("text-base", (item.netBb ?? 0) >= 0 ? "text-emerald-400" : "text-rose-400")}>
+                                 {item.netBb === null ? '—' : `${item.netBb >= 0 ? '+' : ''}${item.netBb.toFixed(1)}bb`}
+                              </span>
+                              <span className="mt-1 block text-[9px] font-bold uppercase text-white/30">
+                                 {item.decision.netProfit >= 0 ? '+' : ''}{item.decision.netProfit.toLocaleString()} chips
                               </span>
                            </td>
                         </tr>
@@ -198,7 +211,7 @@ export function StatsPage() {
                <h3 className="text-sm font-black uppercase tracking-widest flex items-center gap-2">
                   <UserX size={18} /> Global Predators
                </h3>
-               <span className="text-[10px] font-bold">Most Profitable Opponents</span>
+               <span className="text-[10px] font-bold">Most BB Won From Hero</span>
             </div>
             <div className="p-4 space-y-2">
                {topNemesis.map((v, i) => (
@@ -210,7 +223,7 @@ export function StatsPage() {
                            <span className="text-[10px] text-[var(--color-text-dim)] uppercase font-bold">Loss Exposure</span>
                         </div>
                      </div>
-                     <span className="font-data text-rose-400 font-black text-xl">-${v.amount.toLocaleString()}</span>
+                     <span className="font-data text-rose-400 font-black text-xl">{v.amountBb.toFixed(1)} bb</span>
                   </div>
                ))}
             </div>

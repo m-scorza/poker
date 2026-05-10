@@ -9,6 +9,7 @@ import { SessionsPage } from './pages/SessionsPage';
 import { VillainsPage } from './pages/VillainsPage';
 import { ArenaPage } from './pages/ArenaPage';
 import { CareerPage } from './pages/CareerPage';
+import { PricingPage } from './pages/PricingPage';
 import { ErrorBoundary } from './components/layout/ErrorBoundary';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route element={<Layout />}>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/career" element={<CareerPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
           <Route path="/hands" element={<HandsPage />} />
           <Route path="/stats" element={<StatsPage />} />
           <Route path="/ranges" element={<RangesPage />} />

@@ -9,6 +9,7 @@ import type { Hand, Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import type { AggregateStats } from '../analysis/leakDetector';
 import { computeAggregateStats } from '../analysis/leakDetector';
+import { computeBb100 } from '../analysis/positionStats';
 
 export interface Session {
   id: string;
@@ -22,9 +23,13 @@ export interface Session {
   prizes: number;
   pnl: number;
   roi: number;
+  totalBb: number;
+  bb100: number;
+  bb100Hands: number;
   nemesis?: { 
     name: string; 
-    amount: number; 
+    /** Big blinds won by this villain from hero in the session. */
+    amountBb: number; 
     type: 'assassin' | 'crusher' | 'damage';
   };
 }
@@ -98,24 +103,27 @@ function buildSession(
   }
   const pnl = prizes - buyIns;
   const roi = buyIns > 0 ? (pnl / buyIns) * 100 : 0;
+  const bbStats = computeBb100(sessionDecisions, hands);
 
   // Advanced Nemesis Detection
   const nemesisMap = new Map<string, number>();
   let assassin: string | undefined;
-  let crusher = { name: '', amount: 0 };
+  let crusher = { name: '', amountBb: 0 };
   
   for (const h of hands) {
     const decision = decisions.get(h.id);
     const heroNet = decision?.netProfit ?? (h.heroChipsAfter - h.heroChipsBefore);
+    const bigBlind = h.bigBlind > 0 ? h.bigBlind : null;
     
-    // Crusher: Villain who won the most in a single hand against hero
-    if (heroNet < 0) {
+    // Crusher: villain who won the most BB in a single hand against hero.
+    if (heroNet < 0 && bigBlind) {
       for (const v of h.villainDeltas) {
-        if (v.net > crusher.amount) {
-          crusher = { name: v.name, amount: v.net };
+        const amountBb = v.net / bigBlind;
+        if (amountBb > crusher.amountBb) {
+          crusher = { name: v.name, amountBb };
         }
-        // Total damage
-        nemesisMap.set(v.name, (nemesisMap.get(v.name) || 0) + v.net);
+        // Total damage, normalized to big blinds instead of raw tournament chips.
+        nemesisMap.set(v.name, (nemesisMap.get(v.name) || 0) + amountBb);
       }
     }
     
@@ -126,21 +134,21 @@ function buildSession(
     }
   }
 
-  let damageNemesis: { name: string; amount: number } | undefined;
-  let maxDamage = 0;
-  nemesisMap.forEach((amount, name) => {
-    if (amount > maxDamage) {
-      maxDamage = amount;
-      damageNemesis = { name, amount };
+  let damageNemesis: { name: string; amountBb: number } | undefined;
+  let maxDamageBb = 0;
+  nemesisMap.forEach((amountBb, name) => {
+    if (amountBb > maxDamageBb) {
+      maxDamageBb = amountBb;
+      damageNemesis = { name, amountBb };
     }
   });
 
   const finalNemesis = assassin 
-    ? { name: assassin, amount: nemesisMap.get(assassin) || 0, type: 'assassin' as const } 
-    : crusher.amount > 0 
-      ? { name: crusher.name, amount: crusher.amount, type: 'crusher' as const }
+    ? { name: assassin, amountBb: nemesisMap.get(assassin) || 0, type: 'assassin' as const } 
+    : crusher.amountBb > 0 
+      ? { name: crusher.name, amountBb: crusher.amountBb, type: 'crusher' as const }
       : damageNemesis 
-        ? { name: damageNemesis.name, amount: damageNemesis.amount, type: 'damage' as const }
+        ? { name: damageNemesis.name, amountBb: damageNemesis.amountBb, type: 'damage' as const }
         : undefined;
 
   return {
@@ -155,6 +163,9 @@ function buildSession(
     prizes,
     pnl,
     roi,
+    totalBb: bbStats.totalBb,
+    bb100: bbStats.bb100,
+    bb100Hands: bbStats.sampleSize,
     nemesis: finalNemesis,
   };
 }
@@ -174,13 +185,18 @@ export interface SessionTrendPoint {
   compliance: number;
   pnl: number;
   cumulativePnl: number;
+  totalBb: number;
+  cumulativeBb: number;
+  bb100: number;
 }
 
 export function computeSessionTrends(sessions: Session[]): SessionTrendPoint[] {
   let cumulativePnl = 0;
+  let cumulativeBb = 0;
   return sessions.map((s) => {
     const pct = (n: number, d: number) => (d === 0 ? 0 : (n / d) * 100);
     cumulativePnl += s.pnl;
+    cumulativeBb += s.totalBb;
 
     return {
       sessionId: s.id,
@@ -193,7 +209,10 @@ export function computeSessionTrends(sessions: Session[]): SessionTrendPoint[] {
       wtsd: Math.round(pct(s.stats.wtsdHands, s.stats.sawFlopHands) * 10) / 10,
       compliance: Math.round(pct(s.stats.complianceCompliant, s.stats.complianceEligible) * 10) / 10,
       pnl: s.pnl,
-      cumulativePnl
+      cumulativePnl,
+      totalBb: Math.round(s.totalBb * 10) / 10,
+      cumulativeBb: Math.round(cumulativeBb * 10) / 10,
+      bb100: Math.round(s.bb100 * 10) / 10,
     };
   });
 }
@@ -204,13 +223,16 @@ export function computeSessionTrends(sessions: Session[]): SessionTrendPoint[] {
  */
 export function computeIntraSessionTrends(
   decisions: HeroDecision[],
+  hands: Hand[] = [],
   bucketSize: number = 25,
 ): SessionTrendPoint[] {
   if (decisions.length === 0) return [];
   const pct = (n: number, d: number) => (d === 0 ? 0 : (n / d) * 100);
   const points: SessionTrendPoint[] = [];
+  const bigBlindByHandId = new Map(hands.map((hand) => [hand.id, hand.bigBlind]));
   
   let runVpip = 0, runPfr = 0, runComp = 0, runCompEl = 0, runWon = 0;
+  let runBb = 0, runBbHands = 0;
   let runSawFlop = 0, runWentToSd = 0;
   
   for (let i = 0; i < decisions.length; i++) {
@@ -224,6 +246,11 @@ export function computeIntraSessionTrends(
       if (d.isCompliant) runComp++;
     }
     runWon += d.netProfit;
+    const bigBlind = bigBlindByHandId.get(d.handId);
+    if (bigBlind && bigBlind > 0) {
+      runBb += d.netProfit / bigBlind;
+      runBbHands += 1;
+    }
     
     // Emit a point every bucketSize hands, and at the end
     if ((i + 1) % bucketSize === 0 || i === decisions.length - 1) {
@@ -240,6 +267,9 @@ export function computeIntraSessionTrends(
         compliance: Math.round(pct(runComp, runCompEl) * 10) / 10,
         pnl: runWon,
         cumulativePnl: runWon,
+        totalBb: Math.round(runBb * 10) / 10,
+        cumulativeBb: Math.round(runBb * 10) / 10,
+        bb100: runBbHands > 0 ? Math.round((runBb / runBbHands) * 1000) / 10 : 0,
       });
     }
   }

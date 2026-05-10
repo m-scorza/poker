@@ -17,7 +17,7 @@ describe('buyInExtractor', () => {
     });
   });
 
-  describe('canonical $X+$Y', () => {
+  describe('canonical cash buy-ins', () => {
     it('extracts standard buy-in + fee', () => {
       const r = extractBuyIn('', '$0.85+$0.15 USD Hold\'em No Limit');
       expect(r.buyIn).toBe(0.85);
@@ -30,6 +30,20 @@ describe('buyInExtractor', () => {
       const r = extractBuyIn('', '$0.48+$0.50+$0.12 USD');
       expect(r.buyIn).toBeCloseTo(0.98);
       expect(r.fee).toBeCloseTo(0.12);
+    });
+    it('extracts GGPoker single-price tournament names', () => {
+      const r = extractBuyIn('Mystery Battle Royale $3 Hold\'em No Limit', 'Mystery Battle Royale $3 Hold\'em No Limit');
+      expect(r.buyIn).toBe(3);
+      expect(r.fee).toBe(0);
+      expect(r.currency).toBe('USD');
+      expect(r.unresolved).toBe(false);
+    });
+    it('extracts GGPoker summary Buy-in lines with a single amount', () => {
+      const r = extractBuyIn('', 'Buy-in: $0.5');
+      expect(r.buyIn).toBe(0.5);
+      expect(r.fee).toBe(0);
+      expect(r.currency).toBe('USD');
+      expect(r.unresolved).toBe(false);
     });
   });
 

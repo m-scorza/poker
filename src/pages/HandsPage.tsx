@@ -474,7 +474,7 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
     const fileDataArr: any[] = [];
     for (const file of Array.from(files)) {
       const lowerName = file.name.toLowerCase();
-      if (lowerName.endsWith('.txt')) {
+      if (lowerName.endsWith('.txt') || lowerName.endsWith('.json')) {
         const content = await file.text();
         fileDataArr.push({ name: file.name, content });
       } else if (lowerName.endsWith('.zip')) {
@@ -484,19 +484,36 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
           
           for (const zipFileName of zipFiles) {
             const entry = zip.files[zipFileName]!;
-            if (!entry.dir && zipFileName.toLowerCase().endsWith('.txt')) {
+            if (!entry.dir && (zipFileName.toLowerCase().endsWith('.txt') || zipFileName.toLowerCase().endsWith('.json'))) {
               const content = await entry.async('string');
               fileDataArr.push({ name: `${file.name}/${zipFileName}`, content });
             }
           }
         } catch (err) {
-          console.error(`Failed to unzip ${file.name}:`, err);
+          const message = err instanceof Error ? err.message : 'Could not read this ZIP archive';
+          setResults(prev => [...prev, {
+            name: file.name,
+            type: 'hand',
+            error: `ZIP import failed: ${message}`,
+          }]);
         }
+      } else {
+        setResults(prev => [...prev, {
+          name: file.name,
+          type: 'hand',
+          error: 'Unsupported file type. Upload PokerStars/GGPoker .txt files, Open Hand History .json files, or .zip archives.',
+        }]);
       }
     }
 
     if (fileDataArr.length === 0) {
       setImporting(false);
+      setCurrentImportFile('');
+      setResults(prev => prev.length > 0 ? prev : [{
+        name: 'No parseable files found',
+        type: 'hand',
+        error: 'No .txt/.json hand histories or tournament summaries were found in the selected upload.',
+      }]);
       return;
     }
 
@@ -504,7 +521,7 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
     const worker = new Worker(new URL('../parser/worker.ts', import.meta.url), { type: 'module' });
 
     worker.onmessage = async (e: MessageEvent) => {
-      const { type, progress, filename, handsFound, summariesFound, deviationsFound, hands } = e.data;
+      const { type, progress, filename, handsFound, summariesFound, deviationsFound, hands, error } = e.data;
 
       if (type === 'PROGRESS') {
         setImportProgress(progress);
@@ -514,6 +531,12 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
           summaries: prev.summaries + (summariesFound || 0),
           deviations: prev.deviations + (deviationsFound || 0)
         }));
+      } else if (type === 'FILE_ERROR') {
+        setResults(prev => [...prev, {
+          name: filename || 'Unknown file',
+          type: 'hand',
+          error: error || 'Parser failed on this file. Other files will continue importing.',
+        }]);
       } else if (type === 'COMPLETE') {
         // Save results to DB
         const [handImported, summaryImported] = await Promise.all([
@@ -525,7 +548,8 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
         const totalCount = await getTotalHandCount();
         setTotalHands(totalCount);
         setImporting(false);
-        setResults([
+        setResults(prev => [
+          ...prev,
           { name: `${fileDataArr.length} files`, type: 'hand', imported: handImported },
           {
             name: `${fileDataArr.length} files`,
@@ -538,6 +562,17 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
         
         worker.terminate();
       }
+    };
+
+    worker.onerror = (event) => {
+      setImporting(false);
+      setCurrentImportFile('');
+      setResults(prev => [...prev, {
+        name: 'Parser worker',
+        type: 'hand',
+        error: event.message || 'The background parser crashed before completing the import.',
+      }]);
+      worker.terminate();
     };
 
     worker.postMessage({
@@ -582,11 +617,11 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
           Drag and Drop Poker Files
         </p>
         <p className="text-xs text-[var(--color-text-muted)]">
-          Supports Hand Histories, Summaries and ZIPs (.txt, .zip)
+          Supports Hand Histories, Summaries, OHH JSON and ZIPs (.txt, .json, .zip)
         </p>
       </div>
 
-      <input ref={fileRef} type="file" accept=".txt" multiple onChange={onFileSelect} className="hidden" />
+      <input ref={fileRef} type="file" accept=".txt,.json,.zip" multiple onChange={onFileSelect} className="hidden" />
 
       <AnimatePresence>
         {isImporting && (
@@ -639,6 +674,11 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
              <CheckCircle size={16} className="text-[var(--color-accent)]" />
              Processing Completed
            </div>
+           {results.some(r => r.error) && (
+             <div className="rounded-lg border border-red-400/30 bg-red-400/10 p-3 text-xs font-semibold text-red-200">
+               Some files need attention. Valid files were still imported when possible.
+             </div>
+           )}
            <div className="text-[var(--color-text-dim)] text-xs space-y-1">
              <div>
                {totalHandNodes.reduce((acc, curr) => acc + (curr.imported ?? 0), 0)} New Hands
@@ -651,6 +691,11 @@ function HandsPageUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
                      {' '}({r.summaryDetail.buyInPreserved} buy-in{r.summaryDetail.buyInPreserved !== 1 ? 's' : ''} preserved from hand history)
                    </span>
                  )}
+               </div>
+             ))}
+             {results.filter(r => r.error).map((r, i) => (
+               <div key={`error-${i}`} className="text-red-300">
+                 {r.name}: {r.error}
                </div>
              ))}
            </div>

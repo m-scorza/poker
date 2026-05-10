@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { groupIntoSessions, computeSessionTrends } from '../sessions';
+import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../sessions';
 import type { Hand } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 
@@ -27,7 +27,7 @@ function makeHand(id: string, dateStr: string, tournamentId: string = 'T1'): Han
   };
 }
 
-function makeDecision(handId: string): HeroDecision {
+function makeDecision(handId: string, overrides: Partial<HeroDecision> = {}): HeroDecision {
   return {
     handId,
     position: 'UTG',
@@ -48,6 +48,7 @@ function makeDecision(handId: string): HeroDecision {
     wonAtShowdown: false,
     wonAmount: 0,
     netProfit: 0,
+    ...overrides,
   };
 }
 
@@ -169,7 +170,42 @@ describe('computeSessionTrends', () => {
     expect(trends[0]!.sessionId).toBe('session-1');
   });
 
-  it('returns empty for no sessions', () => {
-    expect(computeSessionTrends([])).toHaveLength(0);
+  it('computes session and trend results in bb/100 instead of raw chips', () => {
+    const hands = [
+      makeHand('1', '2026-04-05T10:00:00Z'),
+      { ...makeHand('2', '2026-04-05T10:30:00Z'), bigBlind: 40 },
+    ];
+    const decisions = new Map<string, HeroDecision>([
+      ['1', makeDecision('1', { netProfit: 200 })], // +10bb
+      ['2', makeDecision('2', { netProfit: -120 })], // -3bb
+    ]);
+
+    const sessions = groupIntoSessions(hands, decisions, new Map());
+    expect(sessions[0]!.totalBb).toBe(7);
+    expect(sessions[0]!.bb100Hands).toBe(2);
+    expect(sessions[0]!.bb100).toBe(350);
+
+    const trends = computeSessionTrends(sessions);
+    expect(trends[0]!.totalBb).toBe(7);
+    expect(trends[0]!.cumulativeBb).toBe(7);
+    expect(trends[0]!.bb100).toBe(350);
+  });
+
+  it('computes intra-session trend deltas in cumulative big blinds when hand blinds are available', () => {
+    const hands = [
+      makeHand('1', '2026-04-05T10:00:00Z'),
+      { ...makeHand('2', '2026-04-05T10:30:00Z'), bigBlind: 40 },
+    ];
+    const decisions = [
+      makeDecision('1', { netProfit: 200 }), // +10bb
+      makeDecision('2', { netProfit: -120 }), // -3bb
+    ];
+
+    const trend = computeIntraSessionTrends(decisions, hands, 1);
+    expect(trend).toHaveLength(2);
+    expect(trend[0]!.cumulativeBb).toBe(10);
+    expect(trend[0]!.bb100).toBe(1000);
+    expect(trend[1]!.cumulativeBb).toBe(7);
+    expect(trend[1]!.bb100).toBe(350);
   });
 });

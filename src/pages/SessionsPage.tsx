@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { format, differenceInMinutes } from 'date-fns';
 import { Download, FileText, CalendarDays, ChevronDown, ChevronUp, UserX, Target, Zap, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -10,6 +10,7 @@ import { groupIntoSessions } from '../data/sessions';
 import { exportSessionsCSV } from '../utils/csvExport';
 import { exportSessionsPDF } from '../utils/pdfExport';
 import { clsx } from 'clsx';
+import { DemoDataButton } from '../components/shared/DemoDataButton';
 import type { Session } from '../data/sessions';
 import type { Leak } from '../analysis/leakDetector';
 
@@ -19,24 +20,25 @@ export function SessionsPage() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const { strategyProfile, heroName } = useAppStore();
 
-  useEffect(() => {
-    async function load() {
-      const hands = await db.hands.toArray();
-      const decisions = await db.heroDecisions.toArray();
-      const tournaments = await db.tournaments.toArray();
-      
-      const checked = batchCheckCompliance(decisions, strategyProfile);
-      const decisionMap = new Map(checked.map((d) => [d.handId, d]));
-      const tMap = new Map(tournaments.map(t => [t.id, t]));
-      
-      const grouped = groupIntoSessions(hands, decisionMap, tMap);
-      setSessions([...grouped].reverse());
+  const load = useCallback(async () => {
+    const hands = await db.hands.toArray();
+    const decisions = await db.heroDecisions.toArray();
+    const tournaments = await db.tournaments.toArray();
+    
+    const checked = batchCheckCompliance(decisions, strategyProfile);
+    const decisionMap = new Map(checked.map((d) => [d.handId, d]));
+    const tMap = new Map(tournaments.map(t => [t.id, t]));
+    
+    const grouped = groupIntoSessions(hands, decisionMap, tMap);
+    setSessions([...grouped].reverse());
 
-      const aggStats = computeAggregateStats(checked);
-      setLeaks(detectLeaks(aggStats, strategyProfile));
-    }
-    load();
+    const aggStats = computeAggregateStats(checked);
+    setLeaks(detectLeaks(aggStats, strategyProfile));
   }, [strategyProfile]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
 
   const pct = (n: number, d: number) => (d === 0 ? '0%' : `${((n / d) * 100).toFixed(1)}%`);
   const pctNum = (n: number, d: number) => (d === 0 ? 0 : (n / d) * 100);
@@ -56,7 +58,7 @@ export function SessionsPage() {
           <h2 className="text-2xl font-bold font-data text-white flex items-center gap-2">
             Session History
           </h2>
-          <p className="text-sm text-[var(--color-text-muted)]">Track profits, volume, and consistency over time</p>
+          <p className="text-sm text-[var(--color-text-muted)]">Track BB/100, volume, ROI, and consistency over time</p>
         </div>
         
         {sessions.length > 0 && (
@@ -81,7 +83,8 @@ export function SessionsPage() {
         <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-12 text-center shadow-sm">
           <CalendarDays className="mx-auto mb-4 text-[var(--color-text-muted)] opacity-50" size={48} />
           <p className="text-[var(--color-text)] font-semibold text-lg">No Sessions</p>
-          <p className="text-[var(--color-text-dim)]">Import files in the "Hands" tab to generate sessions automatically.</p>
+          <p className="text-[var(--color-text-dim)] mb-6">Import files in the "Hands" tab or load the local demo to inspect session BB/100, ROI, exports, and nemesis tracking.</p>
+          <DemoDataButton label="Load demo sessions" onLoaded={load} />
         </div>
       ) : (
         <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl overflow-hidden shadow-sm">
@@ -94,7 +97,7 @@ export function SessionsPage() {
                   <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">Volume</th>
                   <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">Duration</th>
                   <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold text-rose-300">Buy-Ins</th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">PnL</th>
+                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">BB/100</th>
                   <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">ROI</th>
                   <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold text-emerald-400">GTO Comp.</th>
                 </tr>
@@ -102,8 +105,8 @@ export function SessionsPage() {
               {sessions.map((s) => {
                 const isExpanded = expandedId === s.id;
                 const st = s.stats;
-                const isGreen = s.pnl > 0;
-                const isRed = s.pnl < 0;
+                const isGreen = s.bb100 > 0;
+                const isRed = s.bb100 < 0;
 
                 return (
                   <tbody key={s.id} className={clsx(isExpanded && "bg-white/[0.02]")}>
@@ -139,15 +142,15 @@ export function SessionsPage() {
                            isRed && 'bg-red-900/40 text-red-100',
                            !isGreen && !isRed && 'text-[var(--color-text-dim)]'
                         )}>
-                          {isGreen ? '+' : ''}{s.pnl === 0 ? '-' : `$${s.pnl.toFixed(2)}`}
+                          {s.bb100Hands === 0 ? '—' : `${isGreen ? '+' : ''}${s.bb100.toFixed(1)}`}
                         </span>
                       </td>
                       <td className="px-3 py-4 font-data">
                          <span className={clsx(
                            'text-xs',
-                           isGreen ? 'text-emerald-400' : isRed ? 'text-rose-400' : 'text-[var(--color-text-dim)]'
+                           s.pnl > 0 ? 'text-emerald-400' : s.pnl < 0 ? 'text-rose-400' : 'text-[var(--color-text-dim)]'
                         )}>
-                          {s.roi === 0 ? '—' : `${isGreen ? '+' : ''}${s.roi.toFixed(1)}%`}
+                          {s.roi === 0 ? '—' : `${s.pnl > 0 ? '+' : ''}${s.roi.toFixed(1)}%`}
                         </span>
                       </td>
                       <td className="px-3 py-4 font-data">
@@ -185,7 +188,7 @@ export function SessionsPage() {
                                     <div className="space-y-1">
                                        <p className="text-xl font-data font-bold text-white tracking-tight">{s.nemesis.name}</p>
                                        <p className="text-xs text-[var(--color-text-muted)]">
-                                          Took <span className="text-rose-400 font-bold">${s.nemesis.amount.toFixed(2)}</span> from you this session.
+                                          Took <span className="text-rose-400 font-bold">{s.nemesis.amountBb.toFixed(1)} bb</span> from you this session.
                                        </p>
                                     </div>
                                  ) : (

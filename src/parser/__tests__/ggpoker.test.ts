@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { buildHeroDecision } from '../../analysis/scenarioDetector';
 import { parseGGPokerFile, parseGGPokerSummary } from '../ggpoker';
 
 describe('GGPoker Parser', () => {
@@ -37,11 +38,14 @@ Seat 4: 7d86368b folded before Flop
 Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
 `;
 
-  it('correctly parses hand ID and tournament ID', () => {
+  it('correctly parses hand ID, tournament ID, and single-price buy-in', () => {
     const hands = parseGGPokerFile(ggSample, 'scorza23');
     expect(hands).toHaveLength(1);
     expect(hands[0]!.hand.id).toBe('BR1103011317');
     expect(hands[0]!.hand.tournamentId).toBe('279277562');
+    expect(hands[0]!.tournament.buyIn).toBe(3);
+    expect(hands[0]!.tournament.fee).toBe(0);
+    expect(hands[0]!.tournament.currency).toBe('USD');
   });
 
   it('correctly identifies hero and herocards', () => {
@@ -63,6 +67,26 @@ Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
     const heroActions = hands[0]!.actions.filter(a => a.playerName === 'scorza23');
     expect(heroActions.some(a => a.actionType === 'post_ante')).toBe(true);
     expect(heroActions.some(a => a.actionType === 'raise' && a.amount === 240)).toBe(true);
+  });
+
+  it('parses postflop bets as bet actions, not raises', () => {
+    const hands = parseGGPokerFile(ggSample, 'scorza23');
+    const villainBet = hands[0]!.actions.find(
+      (a) => a.street === 'flop' && a.playerName === 'a81061d',
+    );
+
+    expect(villainBet?.actionType).toBe('bet');
+    expect(villainBet?.amount).toBe(120);
+  });
+
+  it('returns collected amounts for showdown winners', () => {
+    const hands = parseGGPokerFile(ggSample, 'scorza23');
+
+    expect(hands[0]!.collectedAmounts.get('a81061d')).toBe(646);
+    expect(hands[0]!.collectedAmounts.get('scorza23') ?? 0).toBe(0);
+
+    const decision = buildHeroDecision(hands[0]!, 'scorza23');
+    expect(decision?.wonAmount).toBe(0);
   });
 
   it('correctly tracks position, totalPot, rake, and villainDeltas', () => {
