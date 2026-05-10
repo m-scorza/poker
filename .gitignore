@@ -3,3 +3,9 @@ dist/
 *.tsbuildinfo
 .vite/
 errors.txt
+
+# Local agent/session artifacts
+council-report-*.html
+council-transcript-*.md
+docs/session-notes/
+.claude/settings.local.json

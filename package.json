@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "test": "vitest run",
+    "test": "vitest run --isolate=false",
     "test:watch": "vitest",
     "docs:update": "tsx scripts/regen-status.ts",
     "docs:check": "tsx scripts/regen-status.ts --check",
