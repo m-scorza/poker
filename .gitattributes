@@ -1,0 +1,17 @@
+# Normalize line endings in the index to LF on every commit.
+# Working tree keeps native EOL (CRLF on Windows, LF on WSL/macOS).
+# Ends the Hermes/Antigravity CRLF vs LF whitespace war.
+* text=auto eol=lf
+
+# Treat known binaries as binary regardless of content sniff.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary

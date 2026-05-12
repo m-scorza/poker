@@ -9,3 +9,7 @@ council-report-*.html
 council-transcript-*.md
 docs/session-notes/
 .claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Throwaway debug scripts at repo root
+/scratch.*

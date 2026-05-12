@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/src/test/fixtures/pokerstars/hh/**)",
+      "Bash(grep -E 'US\\\\$.*\\\\+US\\\\$.*\\\\+US\\\\$')",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(grep -E \"\\\\.tsx?$\")",
+      "Bash(xargs -I {} basename {})",
+      "Bash(sed 's/Page\\\\.tsx//')",
+      "Read(//c/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/src/parser/**)",
+      "Read(//c/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/src/test/**)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\MICRO\\Downloads\\poker-claude-integrate-knowledge-base-vvCeh\\docs"
+    ]
+  }
+}
