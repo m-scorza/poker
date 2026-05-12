@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { StatCard } from '../components/shared/StatCard';
 import { TrendChart } from '../components/dashboard/TrendChart';
@@ -14,6 +15,20 @@ import { buildStudyQueue } from '../analysis/studyPlan';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { AlertTriangle, TrendingUp, DollarSign, Target, BarChart3, Clock, Rocket, Shield, Crosshair } from 'lucide-react';
 import { clsx } from 'clsx';
+import { motion } from 'framer-motion';
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.05 }
+  }
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 300, damping: 24 } }
+};
 
 
 
@@ -25,11 +40,17 @@ export function DashboardPage() {
 
   const totalHands = useLiveQuery(() => db.hands.count(), []) ?? 0;
 
-  const data = useLiveQuery(async () => {
+  const rawData = useLiveQuery(async () => {
     const rawHands = await db.hands.toArray();
     const rawDecisions = await db.heroDecisions.toArray();
     const rawTournaments = await db.tournaments.toArray();
-    
+    return { rawHands, rawDecisions, rawTournaments };
+  }, []);
+
+  const data = useMemo(() => {
+    if (!rawData) return null;
+    const { rawHands, rawDecisions, rawTournaments } = rawData;
+
     const tMap = new Map(rawTournaments.map(t => [t.id, t]));
     const decisionMap = new Map(rawDecisions.map(d => [d.handId, d]));
 
@@ -39,7 +60,7 @@ export function DashboardPage() {
     // Filter Hands based on active session
     let filteredHands = rawHands;
     let filteredDecisions = rawDecisions;
-    
+
     if (activeSessionId !== 'all') {
       const activeSession = sessionsGrouped.find(s => s.id === activeSessionId);
       if (activeSession) {
@@ -60,20 +81,20 @@ export function DashboardPage() {
     const leaks = activeSessionId === 'all' ? allLeaks : detectLeaks(stats, strategyProfile);
     const positionStats = computePositionStats(checked, filteredHands);
     const studyQueue = buildStudyQueue(leaks, checked, filteredHands, 5);
-    
+
     // Financial stats
-    const financialSessions = activeSessionId === 'all' 
-      ? sessionsGrouped 
+    const financialSessions = activeSessionId === 'all'
+      ? sessionsGrouped
       : sessionsGrouped.filter(s => s.id === activeSessionId);
 
     const totalPnl = financialSessions.reduce((sum, s) => sum + s.pnl, 0);
     const totalBuyIns = financialSessions.reduce((sum, s) => sum + s.buyIns, 0);
     const totalPrizes = financialSessions.reduce((sum, s) => sum + s.prizes, 0);
-    
+
     const uniqueTourneys = new Set<string>();
     financialSessions.forEach(s => s.tournamentIds.forEach(id => uniqueTourneys.add(id)));
     const totalTournaments = uniqueTourneys.size;
-    
+
     let itmCount = 0;
     uniqueTourneys.forEach(id => {
        const t = tMap.get(id);
@@ -84,17 +105,17 @@ export function DashboardPage() {
     const displayTrend = activeSessionId === 'all' ? trendData : computeIntraSessionTrends(checked, filteredHands);
 
     return { stats, leaks, trendData, sessionsGrouped, totalPnl, statsSummary, positionStats, displayTrend, careerCoachReport, studyQueue };
-  }, [strategyProfile, activeSessionId]);
+  }, [rawData, activeSessionId, strategyProfile]);
 
   const aggregateStats = data?.stats ?? null;
-  const leaks = data?.leaks ?? [];
-  const sessionsList = data?.sessionsGrouped ?? [];
+  const leaks = data?.leaks ?? ([] as any[]);
+  const sessionsList = data?.sessionsGrouped ?? ([] as any[]);
   const totalPnl = data?.totalPnl ?? 0;
   const statsSummary = data?.statsSummary ?? { totalBuyIns: 0, totalPrizes: 0, totalTournaments: 0, itmCount: 0 };
-  const positionStats = data?.positionStats ?? [];
-  const displayTrend = data?.displayTrend ?? [];
+  const positionStats = data?.positionStats ?? ([] as any[]);
+  const displayTrend = data?.displayTrend ?? ([] as any[]);
   const careerCoachReport = data?.careerCoachReport ?? null;
-  const studyQueue = data?.studyQueue ?? [];
+  const studyQueue = data?.studyQueue ?? ([] as any[]);
 
   const pct = (n: number, d: number) => (d === 0 ? '—' : `${((n / d) * 100).toFixed(1)}%`);
 
@@ -123,15 +144,15 @@ export function DashboardPage() {
         </div>
 
         <div className="flex bg-[var(--color-bg-card)] rounded-lg p-1 border border-[var(--color-border)] shadow-lg ring-1 ring-white/5">
-          <select 
+          <select
             value={activeSessionId}
             onChange={(e) => setActiveSessionId(e.target.value)}
             className="bg-[#15171f] text-sm text-[var(--color-text)] outline-none px-4 py-2 pr-10 cursor-pointer rounded border-none appearance-none font-data font-bold hover:bg-[#1a1c24] transition-colors"
-            style={{ 
-              backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'%2300ff88\'%3E%3Cpath stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M19 9l-7 7-7-7\'/%3E%3C/svg%3E")', 
-              backgroundRepeat: 'no-repeat', 
-              backgroundPosition: 'right 0.75rem center', 
-              backgroundSize: '1.25rem' 
+            style={{
+              backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'none\' viewBox=\'0 0 24 24\' stroke=\'%2300ff88\'%3E%3Cpath stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M19 9l-7 7-7-7\'/%3E%3C/svg%3E")',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'right 0.75rem center',
+              backgroundSize: '1.25rem'
             }}
           >
             <option value="all" className="bg-[#1a1c24] font-sans">Full Database Overview</option>
@@ -149,7 +170,7 @@ export function DashboardPage() {
           <Target className="mx-auto mb-4 text-[var(--color-text-muted)] opacity-50" size={48} />
           <h3 className="text-lg font-bold text-[var(--color-text)] mb-2">No Data Found</h3>
           <p className="text-[var(--color-text-dim)] text-sm">
-             Drag your Hand History or Summary files to the <strong>Hands</strong> tab to start, or load a safe local demo dataset for a prospect walkthrough.
+             Drag your Hand History or Summary files to the <strong>Hands</strong> tab to start, or load a synthetic demo database to explore the analyzer.
           </p>
           <DemoDataButton className="mt-6" />
         </div>
@@ -164,38 +185,48 @@ export function DashboardPage() {
           )}
 
           <StudyPlanCard items={studyQueue} />
-          
+
           {/* Cluster 1: Macro Performance */}
           <section>
             <h3 className="text-sm font-bold uppercase tracking-widest text-blue-400 mb-4 flex items-center gap-2">
               <Rocket size={16} /> Strategy Efficiency
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
-              <StatCard label="Hands" value={aggregateStats?.totalHands || 0} subtext="Volume" accent="default" />
-              <StatCard 
-                 label="VPIP" 
-                 value={pct(aggregateStats?.vpipHands || 0, aggregateStats?.totalHands || 0)} 
-                 info={{ text: 'VPIP (Voluntarily Put In Pot).', target: '20-30%' }}
-                 accent={aggregateStats && (aggregateStats.vpipHands/aggregateStats.totalHands >= 0.20 && aggregateStats.vpipHands/aggregateStats.totalHands <= 0.30) ? 'green' : 'red'}
-              />
-              <StatCard 
-                 label="PFR" 
-                 value={pct(aggregateStats?.pfrHands || 0, aggregateStats?.totalHands || 0)} 
-                 info={{ text: 'PFR (Pre-Flop Raise).', target: '15-23%' }}
-                 accent={aggregateStats && (aggregateStats.pfrHands/aggregateStats.totalHands >= 0.15 && aggregateStats.pfrHands/aggregateStats.totalHands <= 0.23) ? 'green' : 'red'}
-              />
-              <StatCard 
-                 label="3-Bet" 
-                 value={pct(aggregateStats?.threeBetMade || 0, aggregateStats?.threeBetOpps || 0)} 
-                 info={{ text: '3-Bet Frequency.', target: '7-12%' }}
-              />
-              <StatCard 
-                 label="GTO Comp." 
-                 value={pct(aggregateStats?.complianceCompliant || 0, aggregateStats?.complianceEligible || 0)} 
-                 info={{ text: 'Range Compliance.', target: '≥ 85%' }}
-                 accent={aggregateStats && (aggregateStats.complianceCompliant/aggregateStats.complianceEligible >= 0.85) ? 'green' : 'warning'}
-              />
-            </div>
+            <motion.div variants={containerVariants} initial="hidden" animate="show" className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+              <motion.div variants={itemVariants}>
+                <StatCard label="Hands" value={aggregateStats?.totalHands || 0} subtext="Volume" accent="default" />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="VPIP"
+                   value={pct(aggregateStats?.vpipHands || 0, aggregateStats?.totalHands || 0)}
+                   info={{ text: 'VPIP (Voluntarily Put In Pot).', target: '20-30%' }}
+                   accent={aggregateStats && (aggregateStats.vpipHands/aggregateStats.totalHands >= 0.20 && aggregateStats.vpipHands/aggregateStats.totalHands <= 0.30) ? 'green' : 'red'}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="PFR"
+                   value={pct(aggregateStats?.pfrHands || 0, aggregateStats?.totalHands || 0)}
+                   info={{ text: 'PFR (Pre-Flop Raise).', target: '15-23%' }}
+                   accent={aggregateStats && (aggregateStats.pfrHands/aggregateStats.totalHands >= 0.15 && aggregateStats.pfrHands/aggregateStats.totalHands <= 0.23) ? 'green' : 'red'}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="3-Bet"
+                   value={pct(aggregateStats?.threeBetMade || 0, aggregateStats?.threeBetOpps || 0)}
+                   info={{ text: '3-Bet Frequency.', target: '7-12%' }}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="GTO Comp."
+                   value={pct(aggregateStats?.complianceCompliant || 0, aggregateStats?.complianceEligible || 0)}
+                   info={{ text: 'Range Compliance.', target: '≥ 85%' }}
+                   accent={aggregateStats && (aggregateStats.complianceCompliant/aggregateStats.complianceEligible >= 0.85) ? 'green' : 'warning'}
+                />
+              </motion.div>
+            </motion.div>
           </section>
 
           {/* Cluster 2: Post-flop Pressure */}
@@ -203,33 +234,43 @@ export function DashboardPage() {
             <h3 className="text-sm font-bold uppercase tracking-widest text-emerald-400 mb-4 flex items-center gap-2">
               <Shield size={16} /> Post-flop Dominance
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
-              <StatCard 
-                 label="C-Bet" 
-                 value={cbetPct} 
-                 subtext="Continuation Bet"
-                 info={{ text: 'Flop C-bet frequency.', target: '60-80%' }}
-              />
-              <StatCard 
-                 label="C-Bet HU" 
-                 value={cbetHUPct} 
-                 subtext="Single Opponent"
-                 accent={aggregateStats && (aggregateStats.cbetHUMade/aggregateStats.cbetHUOpps >= 0.90) ? 'green' : 'red'}
-                 info={{ text: 'Mandatory C-bet heads-up.', target: '≥ 95%' }}
-              />
-              <StatCard 
-                 label="AF" 
-                 value={aggregateStats && aggregateStats.totalCalls > 0 ? ((aggregateStats.totalBets + aggregateStats.totalRaises) / aggregateStats.totalCalls).toFixed(1) : '—'} 
-                 subtext="Aggression Factor"
-                 info={{ text: '(Bets + Raises) / Calls.', target: '2.0 - 4.0' }}
-              />
-              <StatCard label="WTSD" value={pct(aggregateStats?.wtsdHands || 0, aggregateStats?.vpipHands || 1)} subtext="Went to SD" />
-              <StatCard 
-                 label="Won at SD" 
-                 value={pct(aggregateStats?.wonSDHands || 0, aggregateStats?.wtsdHands || 1)} 
-                 accent={aggregateStats && (aggregateStats.wonSDHands/aggregateStats.wtsdHands >= 0.50) ? 'green' : 'red'}
-              />
-            </div>
+            <motion.div variants={containerVariants} initial="hidden" animate="show" className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="C-Bet"
+                   value={cbetPct}
+                   subtext="Continuation Bet"
+                   info={{ text: 'Flop C-bet frequency.', target: '60-80%' }}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="C-Bet HU"
+                   value={cbetHUPct}
+                   subtext="Single Opponent"
+                   accent={aggregateStats && (aggregateStats.cbetHUMade/aggregateStats.cbetHUOpps >= 0.90) ? 'green' : 'red'}
+                   info={{ text: 'Mandatory C-bet heads-up.', target: '≥ 95%' }}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="AF"
+                   value={aggregateStats && aggregateStats.totalCalls > 0 ? ((aggregateStats.totalBets + aggregateStats.totalRaises) / aggregateStats.totalCalls).toFixed(1) : '—'}
+                   subtext="Aggression Factor"
+                   info={{ text: '(Bets + Raises) / Calls.', target: '2.0 - 4.0' }}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard label="WTSD" value={pct(aggregateStats?.wtsdHands || 0, aggregateStats?.vpipHands || 1)} subtext="Went to SD" />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard
+                   label="Won at SD"
+                   value={pct(aggregateStats?.wonSDHands || 0, aggregateStats?.wtsdHands || 1)}
+                   accent={aggregateStats && (aggregateStats.wonSDHands/aggregateStats.wtsdHands >= 0.50) ? 'green' : 'red'}
+                />
+              </motion.div>
+            </motion.div>
           </section>
 
           {/* Cluster 3: Financial Health */}
@@ -237,19 +278,29 @@ export function DashboardPage() {
             <h3 className="text-sm font-bold uppercase tracking-widest text-amber-400 mb-4 flex items-center gap-2">
               <DollarSign size={16} /> Tournament Financials
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
-              <div className="p-4 bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl relative overflow-hidden group">
-                 <div className="absolute top-0 left-0 w-1 h-full bg-emerald-500 opacity-50" />
-                 <p className="text-[10px] text-[var(--color-text-dim)] uppercase font-bold tracking-tight mb-1">Total PnL</p>
-                 <h4 className={clsx("text-2xl font-data font-bold", totalPnl >= 0 ? "text-emerald-400" : "text-rose-400")}>
-                    {totalPnl >= 0 ? '+' : ''}${totalPnl.toFixed(2)}
-                 </h4>
-              </div>
-              <StatCard label="ROI Total" value={statsSummary.totalBuyIns > 0 ? `${((totalPnl / statsSummary.totalBuyIns) * 100).toFixed(1)}%` : '0%'} />
-              <StatCard label="ITM Rate" value={itmRate} subtext={`${statsSummary.itmCount} Cashes`} />
-              <StatCard label="Total Buy-Ins" value={`$${statsSummary.totalBuyIns.toFixed(2)}`} />
-              <StatCard label="Total Prizes" value={`$${statsSummary.totalPrizes.toFixed(2)}`} />
-            </div>
+            <motion.div variants={containerVariants} initial="hidden" animate="show" className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+              <motion.div variants={itemVariants}>
+                <div className="p-4 bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl relative overflow-hidden group h-full">
+                   <div className="absolute top-0 left-0 w-1 h-full bg-emerald-500 opacity-50" />
+                   <p className="text-[10px] text-[var(--color-text-dim)] uppercase font-bold tracking-tight mb-1">Total PnL</p>
+                   <h4 className={clsx("text-2xl font-data font-bold", totalPnl >= 0 ? "text-emerald-400" : "text-rose-400")}>
+                      {totalPnl >= 0 ? '+' : ''}${totalPnl.toFixed(2)}
+                   </h4>
+                </div>
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard label="ROI Total" value={statsSummary.totalBuyIns > 0 ? `${((totalPnl / statsSummary.totalBuyIns) * 100).toFixed(1)}%` : '0%'} />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard label="ITM Rate" value={itmRate} subtext={`${statsSummary.itmCount} Cashes`} />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard label="Total Buy-Ins" value={`$${statsSummary.totalBuyIns.toFixed(2)}`} />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <StatCard label="Total Prizes" value={`$${statsSummary.totalPrizes.toFixed(2)}`} />
+              </motion.div>
+            </motion.div>
           </section>
 
           {/* Charts Row */}
@@ -267,7 +318,7 @@ export function DashboardPage() {
                 />
               </div>
             </div>
-            
+
             <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5 shadow-sm">
               <h3 className="text-[var(--color-text)] font-semibold mb-6 flex justify-between items-center">
                 <span className="flex items-center gap-2"><Crosshair size={16} className="text-blue-400"/> Technical Focus</span>
@@ -346,7 +397,7 @@ export function DashboardPage() {
               </div>
             </div>
           )}
-          
+
           {/* Nemesis & Assassin Block */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
              <div className="md:col-span-2 bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
@@ -375,7 +426,7 @@ export function DashboardPage() {
                    ))}
                 </div>
              </div>
-             
+
              {/* Leak Summary Mini-Widget */}
              <div className="bg-gradient-to-br from-[var(--color-danger)]/10 to-[var(--color-bg-card)] border border-[var(--color-danger)]/20 rounded-xl p-6">
                 <div className="flex items-center justify-between mb-6">

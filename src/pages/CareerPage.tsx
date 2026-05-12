@@ -4,6 +4,8 @@ import { CareerDashboard } from '../components/career/CareerDashboard';
 import { CareerCoachCard } from '../components/career/CareerCoachCard';
 import { CareerScopePanel } from '../components/career/CareerScopePanel';
 import { TimelineFeed, type TimelineEvent } from '../components/career/TimelineFeed';
+import { LifetimeScorecard } from '../components/career/LifetimeScorecard';
+import { DayHourHeatmap } from '../components/career/DayHourHeatmap';
 import { buildCareerCoachReport } from '../analysis/careerCoach';
 import { buildCareerScopeProfile } from '../analysis/careerScope';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
@@ -90,12 +92,12 @@ export function CareerPage() {
       const prize = getTournamentRevenue(t);
       const cost = getTournamentCost(t);
       runningProfit += getTournamentNet(t);
-      
+
       const date = t.startDate || new Date();
-      
-      history.push({ 
-        date: date.toLocaleDateString([], { month: 'short', day: 'numeric' }), 
-        amount: Math.round(runningProfit) 
+
+      history.push({
+        date: date.toLocaleDateString([], { month: 'short', day: 'numeric' }),
+        amount: Math.round(runningProfit)
       });
 
       if (prize > 0) {
@@ -124,9 +126,9 @@ export function CareerPage() {
       }
     });
 
-    return { 
+    return {
       timelineEvents: events.reverse(), // Newest first
-      profitHistory: history 
+      profitHistory: history
     };
   }, [tournaments]);
 
@@ -145,6 +147,8 @@ export function CareerPage() {
            Chronological overview of your tournament journey, achievements, and financial evolution.
          </p>
       </header>
+
+      <LifetimeScorecard tournaments={tournaments} decisions={decisions} />
 
       <CareerCoachCard report={careerCoachReport} onDemoLoaded={loadData} />
 
@@ -168,10 +172,12 @@ export function CareerPage() {
                Current Form
              </h3>
              <p className="text-xs text-[var(--color-text-dim)] italic">
-               You are currently in a {stats.roi > 0 ? 'profitable' : 'challenging'} phase. 
+               You are currently in a {stats.roi > 0 ? 'profitable' : 'challenging'} phase.
                Keep consistent with your GTO compliance targets to sustain long-term growth.
              </p>
            </div>
+
+           <DayHourHeatmap tournaments={tournaments} />
         </div>
       </div>
     </div>

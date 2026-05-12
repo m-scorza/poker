@@ -1,0 +1,126 @@
+import { Search } from 'lucide-react';
+import type { Position, Scenario } from '../../types/analysis';
+
+const POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP1', 'MP', 'MP2', 'HJ', 'CO', 'BTN', 'SB', 'BB', 'BTN/SB'];
+
+const SCENARIOS: Scenario[] = [
+  'RFI', 'BLIND_WAR', 'HU_BTN', 'FACING_RAISE', 'FACING_ALL_IN',
+  'FACING_LIMP', 'BB_VS_RAISE', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP', 'WALK',
+];
+
+const STACK_DEPTHS = ['deep', 'medium', 'short'] as const;
+export type StackDepth = typeof STACK_DEPTHS[number];
+
+const HAND_CATEGORIES = ['pairs', 'broadway', 'suited-connectors', 'suited-aces', 'offsuit'] as const;
+export type HandCategory = typeof HAND_CATEGORIES[number];
+
+const STACK_DEPTH_LABELS: Record<StackDepth, string> = {
+  deep: 'Deep (>40bb)',
+  medium: 'Medium (20-40bb)',
+  short: 'Short (<20bb)',
+};
+
+const CATEGORY_LABELS: Record<HandCategory, string> = {
+  pairs: 'Pairs',
+  broadway: 'Broadway',
+  'suited-connectors': 'Suited Connectors',
+  'suited-aces': 'Suited Aces',
+  offsuit: 'Offsuit',
+};
+
+export interface HandsFiltersProps {
+  searchKey: string;
+  setSearchKey: (val: string) => void;
+  posFilter: Position | '';
+  setPosFilter: (val: Position | '') => void;
+  scenarioFilter: Scenario | '';
+  setScenarioFilter: (val: Scenario | '') => void;
+  actionFilter: string;
+  setActionFilter: (val: string) => void;
+  complianceFilter: string;
+  setComplianceFilter: (val: string) => void;
+  stackFilter: StackDepth | '';
+  setStackFilter: (val: StackDepth | '') => void;
+  categoryFilter: HandCategory | '';
+  setCategoryFilter: (val: HandCategory | '') => void;
+}
+
+export function HandsFilters(props: HandsFiltersProps) {
+  return (
+    <div className="flex flex-wrap gap-3 mb-4">
+      <div className="relative">
+        <Search size={14} className="absolute left-2.5 top-2.5 text-[var(--color-text-muted)]" />
+        <input
+          type="text"
+          placeholder="Search hand (e.g., AKs)"
+          value={props.searchKey}
+          onChange={(e) => props.setSearchKey(e.target.value)}
+          className="pl-8 pr-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
+        />
+      </div>
+
+      <Select value={props.posFilter} onChange={props.setPosFilter} options={POSITIONS} placeholder="Position" />
+      <Select value={props.scenarioFilter} onChange={props.setScenarioFilter} options={SCENARIOS} placeholder="Scenario" />
+      <Select value={props.actionFilter} onChange={props.setActionFilter} options={['fold', 'raise', 'call', 'check']} placeholder="Pre-flop Action" />
+      <Select value={props.complianceFilter} onChange={props.setComplianceFilter} options={['compliant', 'deviation']} placeholder="GTO / Compliance" />
+      <SelectLabeled value={props.stackFilter} onChange={props.setStackFilter} options={STACK_DEPTHS} labels={STACK_DEPTH_LABELS} placeholder="Stack" />
+      <SelectLabeled value={props.categoryFilter} onChange={props.setCategoryFilter} options={HAND_CATEGORIES} labels={CATEGORY_LABELS} placeholder="Category" />
+    </div>
+  );
+}
+
+function Select<T extends string>({
+  value,
+  onChange,
+  options,
+  placeholder,
+}: {
+  value: T | '';
+  onChange: (val: T | '') => void;
+  options: readonly T[];
+  placeholder: string;
+}) {
+  return (
+    <select
+      value={value}
+      onChange={(e) => onChange(e.target.value as T | '')}
+      className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] focus:outline-none focus:border-[var(--color-accent)]"
+    >
+      <option value="">{placeholder}</option>
+      {options.map((opt) => (
+        <option key={opt} value={opt}>
+          {opt}
+        </option>
+      ))}
+    </select>
+  );
+}
+
+function SelectLabeled<T extends string>({
+  value,
+  onChange,
+  options,
+  labels,
+  placeholder,
+}: {
+  value: T | '';
+  onChange: (val: T | '') => void;
+  options: readonly T[];
+  labels: Record<T, string>;
+  placeholder: string;
+}) {
+  return (
+    <select
+      value={value}
+      onChange={(e) => onChange(e.target.value as T | '')}
+      className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] focus:outline-none focus:border-[var(--color-accent)]"
+    >
+      <option value="">{placeholder}</option>
+      {options.map((opt) => (
+        <option key={opt} value={opt}>
+          {labels[opt]}
+        </option>
+      ))}
+    </select>
+  );
+}
