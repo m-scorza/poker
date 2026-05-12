@@ -13,18 +13,18 @@ import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { Leak, LeakSeverity } from '../analysis/leakDetector';
 
-/** Strategy source attribution per leak ID. Maps to docs/strategy/ sections. */
+/** Strategy source attribution per leak ID. Maps to docs/knowledge/strategy/ sections. */
 const LEAK_SOURCES: Record<string, { source: string; doc: string }> = {
-  vpip: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
-  pfr: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
-  three_bet: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
-  cbet_total: { source: '[09-study §4, 04-postflop §2]', doc: 'docs/strategy/04-postflop-strategy.md' },
-  cbet_hu: { source: '[Baseline, 04-postflop §2]', doc: 'docs/strategy/04-postflop-strategy.md' },
-  wtsd: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
-  won_sd: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
-  limps: { source: '[Baseline]', doc: 'docs/strategy/03-preflop-strategy.md' },
-  compliance: { source: '[Baseline, 02-ranges §3]', doc: 'docs/strategy/02-ranges-and-position.md' },
-  vpip_pfr_gap: { source: '[08-gto §3]', doc: 'docs/strategy/08-gto-and-exploits.md' },
+  vpip: { source: '[09-study §4]', doc: 'docs/knowledge/strategy/09-study-methods-and-tools.md' },
+  pfr: { source: '[09-study §4]', doc: 'docs/knowledge/strategy/09-study-methods-and-tools.md' },
+  three_bet: { source: '[09-study §4]', doc: 'docs/knowledge/strategy/09-study-methods-and-tools.md' },
+  cbet_total: { source: '[09-study §4, 04-postflop §2]', doc: 'docs/knowledge/strategy/04-postflop-strategy.md' },
+  cbet_hu: { source: '[Baseline, 04-postflop §2]', doc: 'docs/knowledge/strategy/04-postflop-strategy.md' },
+  wtsd: { source: '[09-study §4]', doc: 'docs/knowledge/strategy/09-study-methods-and-tools.md' },
+  won_sd: { source: '[09-study §4]', doc: 'docs/knowledge/strategy/09-study-methods-and-tools.md' },
+  limps: { source: '[Baseline]', doc: 'docs/knowledge/strategy/03-preflop-strategy.md' },
+  compliance: { source: '[Baseline, 02-ranges §3]', doc: 'docs/knowledge/strategy/02-ranges-and-position.md' },
+  vpip_pfr_gap: { source: '[08-gto §3]', doc: 'docs/knowledge/strategy/08-gto-and-exploits.md' },
 };
 
 const SEVERITY_COLORS: Record<LeakSeverity, string> = {

@@ -6,11 +6,11 @@ Use when Hermes or Antigravity is asked to review another agent's changes.
 
 1. Read:
    - `AGENTS.md`
-   - `docs/AI_COLLABORATION.md`
-   - `docs/TWO_AGENT_BOARD.md`
-   - `docs/SPRINT_DECISION_GATE.md`
-   - `docs/AGENT_HANDOFF.md`
-   - `docs/STATUS.md`
+   - `docs/agents/AI_COLLABORATION.md`
+   - `docs/agents/TWO_AGENT_BOARD.md`
+   - `docs/agents/SPRINT_DECISION_GATE.md`
+   - `docs/agents/AGENT_HANDOFF.md`
+   - `docs/product/STATUS.md`
 
 2. Inspect:
 
@@ -25,7 +25,7 @@ git diff -- <relevant files>
 - Scope creep or unrelated rewrites.
 - Missing tests for behavior changes.
 - Parser fixture gaps.
-- Poker logic regressions against `CLAUDE.md` / `docs/strategy/`.
+- Poker logic regressions against `CLAUDE.md` / `docs/knowledge/strategy/`.
 - Metrics errors, especially raw-chip-vs-bb confusion.
 - UI English/style drift.
 - Docs/status/roadmap drift.
@@ -47,4 +47,4 @@ npm run docs:check
 - Commands run and results.
 - Suggested next prompt for the implementer.
 
-6. If you make fixes during review, update `docs/AGENT_HANDOFF.md`.
+6. If you make fixes during review, update `docs/agents/AGENT_HANDOFF.md`.

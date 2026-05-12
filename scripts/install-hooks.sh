@@ -21,7 +21,7 @@ set -e
 # 1. Doc autogen freshness. Runs tsx directly so it works even if
 #    npm scripts are missing (partial checkouts, wrong-dir commits).
 npx --no-install tsx scripts/regen-status.ts --check || {
-  echo "docs/STATUS.md autogen blocks are stale. Run: npm run docs:update"
+  echo "docs/product/STATUS.md autogen blocks are stale. Run: npm run docs:update"
   exit 1
 }
 

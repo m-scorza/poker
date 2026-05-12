@@ -32,7 +32,7 @@ The current codebase contains strategy logic and source labels that appear deriv
 - `src/data/strategyProfiles.ts` references Game Plan thresholds and postflop sources.
 - `src/data/pushFoldRanges.ts` references `[Vol.2, NERD, GamePlan]`.
 - Analysis modules include dossier-style source tags such as `[D#07]`, `[D#21]`, `[D#04]`, and volume references.
-- `docs/strategy/` and `CLAUDE.md` document strategy/range behavior as product logic.
+- `docs/knowledge/strategy/` and `CLAUDE.md` document strategy/range behavior as product logic.
 
 This document is not legal advice. The practical product rule is simpler: do not scale distribution, publish shareable study artifacts, advertise a Reg Life companion, or monetize curriculum-derived recommendations until the license status is clear in writing.
 
@@ -53,7 +53,7 @@ Until partnership and IP status are resolved:
 Because the user chose to pivot away from Reg Life-specific content, the next concrete action is not a partnership pitch. It is an IP-safety and validation sequence:
 
 1. Demo the private/local tool to 3 Reg Life students and 3 independent poker players without claiming Reg Life affiliation.
-2. Record findings in `docs/USER_VALIDATION_PLAN.md`.
+2. Record findings in `docs/validation/USER_VALIDATION_PLAN.md`.
 3. Audit user-facing copy and public/demo/pricing flows for Reg Life / GamePlan / dossier-derived claims.
 4. Decide whether to remove/isolate those references or later seek written licensing.
 

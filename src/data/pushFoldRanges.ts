@@ -6,7 +6,7 @@
  *
  * Sources:
  * - CLAUDE.md "Short Stack Strategy (10bb or less)"
- * - docs/strategy/02-ranges-and-position.md §4 "Open Shove Ranges"
+ * - docs/knowledge/strategy/02-ranges-and-position.md §4 "Open Shove Ranges"
  * - [Vol.2, NERD]
  *
  * Resteal ranges apply when facing a late position open with ≤20bb.
@@ -46,7 +46,7 @@ function rangeSet(hands: string[]): RangeSet {
 }
 
 // --- Push ranges at 10bb by position ---
-// Source: CLAUDE.md + docs/strategy/02-ranges-and-position.md §4
+// Source: CLAUDE.md + docs/knowledge/strategy/02-ranges-and-position.md §4
 
 // UTG (~16%): Pairs 22+, A2s+, A7o+, KTs+, KQo
 const UTG_PUSH: string[] = [

@@ -5,7 +5,7 @@
  * equity drop from bounty considerations.
  *
  * Sources:
- * - docs/strategy/06-bounty-tournaments.md §1-9
+ * - docs/knowledge/strategy/06-bounty-tournaments.md §1-9
  * - CLAUDE.md "Bounty Tournament Support"
  * - [Vol.2, D#11, D#06, D#13, D#14, D#18]
  */
@@ -63,7 +63,7 @@ export function detectBountyTournament(
  * This is a simplified in-game approximation. For exact calculations,
  * use HRC (Holdem Resources Calculator).
  *
- * Source: docs/strategy/06-bounty-tournaments.md §2
+ * Source: docs/knowledge/strategy/06-bounty-tournaments.md §2
  *
  * @param bountyChipValue - Bounty value converted to chip equivalent
  * @param potSize - Current pot size in chips
@@ -167,7 +167,7 @@ export function estimateBountyContext(
 
 /**
  * Quick reference: equity drop ranges by scenario.
- * Source: docs/strategy/06-bounty-tournaments.md §9
+ * Source: docs/knowledge/strategy/06-bounty-tournaments.md §9
  */
 export const BOUNTY_HEURISTICS = {
   coveringVillain: { minDrop: 5, maxDrop: 15, description: 'Hero covers villain — significant equity drop' },

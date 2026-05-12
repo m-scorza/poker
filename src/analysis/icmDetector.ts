@@ -9,7 +9,7 @@
  * - Table format changes (9-max → 6-max → 3-max typically means FT)
  *
  * Sources:
- * - docs/strategy/05-icm-and-risk-premium.md §2 "When to Consider ICM"
+ * - docs/knowledge/strategy/05-icm-and-risk-premium.md §2 "When to Consider ICM"
  * - CLAUDE.md "ICM Concepts"
  */
 

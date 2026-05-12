@@ -6,10 +6,30 @@ This file has historically drifted from the actual code. **Before relying on
 a claim here, verify it against source.** Sections were audited and corrected
 on 2026-04-17 — structure, deps, language status all now match reality.
 If you spot a new mismatch, update this file in the same PR as the code
-change; see `docs/STATUS.md` for the current "what's actually shipped" snapshot.
+change; see `docs/product/STATUS.md` for the current "what's actually shipped" snapshot.
 
-See `docs/ROADMAP.md` for the prioritised punch list of verified bugs and doc
+See `docs/product/ROADMAP.md` for the prioritised punch list of verified bugs and doc
 drift still to address.
+
+## Where things live
+
+```
+src/ ............ the React app
+scripts/ ........ build/utility scripts
+docs/product/ ... STATUS, ROADMAP, PARSER_HEALTH (human-facing product state)
+docs/agents/ .... handoff log, collab rules, gates (AI-agent coordination)
+docs/knowledge/ . poker theory KB the analysis modules derive from
+docs/audits/ .... IP / professionalism / compliance audits
+docs/validation/  user-interview track
+docs/plans/ ..... dated implementation plans
+docs/design/ .... UI/UX briefs
+docs/reports/ ... janitor + kb-drift reports (point-in-time snapshots)
+docs/research/ .. competitor research
+.claude/ ........ Claude Code agent config
+.agents/ ........ Hermes/Antigravity collaboration scaffolding
+```
+
+See `docs/README.md` for the full bucket-by-bucket map.
 
 ### ✅ Phase 5: Accuracy & Localization Push (COMPLETED, partial)
 - **Financial Accuracy**: `chipsBefore/After` tracking for net PnL, not just gross wins.
@@ -431,7 +451,7 @@ Binary rules, beginner-friendly. Based on standard SNG opening ranges:
 - BB vs 2-3x open: never fold suited
 
 ### Profile 2: "Advanced Theory"
-Context-dependent. Based on full `/docs/strategy/` knowledge base.
+Context-dependent. Based on full `/docs/knowledge/strategy/` knowledge base.
 
 **C-bet by board texture:** High-card dry → 100% at 25-33%. Wet broadway → 100% at 50-75%. Low connected → check frequently. Paired low → check or 25%. `[D#09, D#10, Vol.2]`
 
@@ -464,7 +484,7 @@ Min 30 hands for tentative, 100+ for confident classification.
 
 ---
 
-## Knowledge Base (`/docs/strategy/`)
+## Knowledge Base (`/docs/knowledge/strategy/`)
 
 **Before modifying any analysis logic, read the relevant doc first.** For concept lookup, start with `claudecode_index.md`.
 
@@ -505,7 +525,7 @@ Min 30 hands for tentative, 100+ for confident classification.
 
 ---
 
-All phases 1-6 complete. See `docs/ROADMAP.md` for the full history.
+All phases 1-6 complete. See `docs/product/ROADMAP.md` for the full history.
 
 ---
 
@@ -517,7 +537,7 @@ contracts are what caused the Gemini-drift incidents — don't add more.
 
 **Enforced by `.git/hooks/pre-commit` (installed via `npm install`):**
 
-1. `docs/STATUS.md` autogen blocks must be current. If you change
+1. `docs/product/STATUS.md` autogen blocks must be current. If you change
    `package.json` deps, `src/App.tsx` routes, the `src/` tree, or
    test files, run `npm run docs:update` before committing. The hook
    runs `npm run docs:check` and blocks commits on drift.

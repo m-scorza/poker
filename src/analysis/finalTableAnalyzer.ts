@@ -2,8 +2,8 @@
  * Final Table analysis — stack dynamics, fake shove detection, resteal spots.
  *
  * Sources:
- * - docs/strategy/07-final-table-play.md §1-9
- * - docs/strategy/05-icm-and-risk-premium.md §3-4
+ * - docs/knowledge/strategy/07-final-table-play.md §1-9
+ * - docs/knowledge/strategy/05-icm-and-risk-premium.md §3-4
  * - [Vol.3, D#01, D#02, D#05, D#15, D#20]
  */
 
@@ -51,7 +51,7 @@ export interface RestealSpot {
  * Short: bottom 30% or < 15bb
  * Medium: everyone else
  *
- * Source: docs/strategy/07-final-table-play.md §1
+ * Source: docs/knowledge/strategy/07-final-table-play.md §1
  */
 export function classifyFTStacks(
   players: PlayerInHand[],
@@ -111,7 +111,7 @@ export function classifyFTStacks(
  * Detect a fake shove — large open raise (40-70% of stack) at FT that
  * leaves fold equity against multi-way action.
  *
- * Source: docs/strategy/07-final-table-play.md §3
+ * Source: docs/knowledge/strategy/07-final-table-play.md §3
  *
  * Conditions:
  * - Hero has 8-15bb
@@ -169,7 +169,7 @@ export function detectFakeShove(
  * - Hero has a short-to-medium stack (10-25bb)
  * - The opener is the chip leader or has risk advantage
  *
- * Source: docs/strategy/07-final-table-play.md §4
+ * Source: docs/knowledge/strategy/07-final-table-play.md §4
  */
 export function detectRestealSpot(
   hand: Hand,
@@ -252,7 +252,7 @@ export function detectRestealSpot(
 
 /**
  * FT decision matrix — quick reference for action bias.
- * Source: docs/strategy/07-final-table-play.md §9
+ * Source: docs/knowledge/strategy/07-final-table-play.md §9
  */
 export const FT_DECISION_MATRIX: Array<{
   heroStack: FTStackType;

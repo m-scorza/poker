@@ -36,14 +36,14 @@ If any of these files vanish, the build dies. They must be tracked in the same c
 | `.claude/settings.json` | **Track (commit A)** | Shared Claude Code config. |
 | `.claude/settings.local.json` | Already in `.gitignore` | ✓ |
 | `.claude/scheduled_tasks.lock` | **Add to .gitignore** | Local runtime state, never commit. |
-| `docs/AGENT_HANDOFF.md` | **Track (commit A)** | Shared handoff log. |
-| `docs/AI_COLLABORATION.md` | **Track (commit A)** | Process doc. |
-| `docs/IP_COPY_AUDIT.md` | **Track (commit A)** | Hermes audit output. |
-| `docs/PARSER_HEALTH.md` | **Track (commit A)** | Fixture-sweep evidence (council gate green). |
-| `docs/PARTNERSHIP_STATUS.md` | **Track (commit A)** | IP posture. |
-| `docs/SPRINT_DECISION_GATE.md` | **Track (commit A)** | Active sprint gate. |
-| `docs/TWO_AGENT_BOARD.md` | **Track (commit A)** | Operating board. |
-| `docs/USER_VALIDATION_PLAN.md` | **Track (commit A)** | Validation framework. |
+| `docs/agents/AGENT_HANDOFF.md` | **Track (commit A)** | Shared handoff log. |
+| `docs/agents/AI_COLLABORATION.md` | **Track (commit A)** | Process doc. |
+| `docs/audits/IP_COPY_AUDIT.md` | **Track (commit A)** | Hermes audit output. |
+| `docs/product/PARSER_HEALTH.md` | **Track (commit A)** | Fixture-sweep evidence (council gate green). |
+| `docs/agents/PARTNERSHIP_STATUS.md` | **Track (commit A)** | IP posture. |
+| `docs/agents/SPRINT_DECISION_GATE.md` | **Track (commit A)** | Active sprint gate. |
+| `docs/agents/TWO_AGENT_BOARD.md` | **Track (commit A)** | Operating board. |
+| `docs/validation/USER_VALIDATION_PLAN.md` | **Track (commit A)** | Validation framework. |
 | `docs/plans/2026-05-10-ip-safe-demo-repositioning.md` | **Track (commit A)** | Planning doc. |
 | `docs/plans/2026-05-12-parallel-reliability-next-steps.md` | **Track (commit A)** | Planning doc. |
 | `docs/design/CLAUDE_DESIGN_CONTEXT_PACK.md` | **Track (commit A)** | Design brief. |
@@ -93,8 +93,8 @@ Bundles the orphan untracked files above with their modified call sites.
 ### Commit E — Doc state catch-up
 
 - `CLAUDE.md` — phase 5/6 status, drift warnings, Reg Life neutralization
-- `docs/STATUS.md` — current STATUS snapshot
-- `docs/ROADMAP.md` — checkboxes
+- `docs/product/STATUS.md` — current STATUS snapshot
+- `docs/product/ROADMAP.md` — checkboxes
 - Re-run `npm run docs:update` to re-sync the autogen blocks if any drift since commit B.
 
 ---
@@ -105,7 +105,7 @@ Before any commit above, two zero-risk preconditions:
 
 ### 1. Stop the CRLF/LF war
 
-Almost every "modified" file shows `LF will be replaced by CRLF the next time Git touches it`. This is the warning that bit Hermes vs Antigravity twice in [docs/AGENT_HANDOFF.md](../AGENT_HANDOFF.md) (2026-05-11 + 2026-05-12 entries).
+Almost every "modified" file shows `LF will be replaced by CRLF the next time Git touches it`. This is the warning that bit Hermes vs Antigravity twice in [docs/agents/AGENT_HANDOFF.md](../AGENT_HANDOFF.md) (2026-05-11 + 2026-05-12 entries).
 
 **Proposal:** add `.gitattributes` at repo root:
 
@@ -152,7 +152,7 @@ Append to [.gitignore](../../.gitignore):
 9.  Open `claude/validation-track` worktree at the new HEAD
 ```
 
-Each commit gets its own `docs/AGENT_HANDOFF.md` entry. None use `--no-verify`. If the hook blocks, fix and re-stage — never bypass.
+Each commit gets its own `docs/agents/AGENT_HANDOFF.md` entry. None use `--no-verify`. If the hook blocks, fix and re-stage — never bypass.
 
 ---
 

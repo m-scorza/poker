@@ -7,7 +7,7 @@
 
 | Gate | Status | Evidence |
 |---|---|---|
-| Parser fixture sweep published | Green | `docs/PARSER_HEALTH.md`: 302 / 302 supported fixture files pass, 0 fail, 0 skip. |
+| Parser fixture sweep published | Green | `docs/product/PARSER_HEALTH.md`: 302 / 302 supported fixture files pass, 0 fail, 0 skip. |
 | Reg Life written partnership/license | Red | User reports informal verbal/DM encouragement only; no written terms in repo. |
 | Product posture selected | Green | Private/local tool for now. |
 | Reg Life-specific IP strategy | Red/changed | User chose to pivot away from Reg Life-specific content. Existing code/docs still contain Reg Life/GamePlan/dossier-derived logic and labels. |
@@ -36,11 +36,11 @@ Not allowed yet:
 
 ## Next sprint cannot be chosen until
 
-1. `docs/USER_VALIDATION_PLAN.md` has at least six completed interview entries, or the user explicitly chooses to override the validation gate.
+1. `docs/validation/USER_VALIDATION_PLAN.md` has at least six completed interview entries, or the user explicitly chooses to override the validation gate.
 2. The product either:
    - has written permission/license terms for Reg Life-derived content, or
    - has a documented plan to remove/isolate Reg Life-specific content from public/commercial flows.
-3. `docs/PARTNERSHIP_STATUS.md` reflects the latest truth.
+3. `docs/agents/PARTNERSHIP_STATUS.md` reflects the latest truth.
 
 ## Current recommended next sprint
 

@@ -1,6 +1,6 @@
 # IP-Safe Demo Repositioning Implementation Plan
 
-> **For Hermes:** Use this as the cross-agent scope. Antigravity should implement one task at a time and update `docs/AGENT_HANDOFF.md`; Hermes should review each diff skeptically before the next task.
+> **For Hermes:** Use this as the cross-agent scope. Antigravity should implement one task at a time and update `docs/agents/AGENT_HANDOFF.md`; Hermes should review each diff skeptically before the next task.
 
 **Goal:** make the app safe to demo as a private/local generic poker hand-history analyzer before user validation, without changing parser/range/leak/math behavior.
 
@@ -14,9 +14,9 @@
 
 Read first:
 
-- `docs/SPRINT_DECISION_GATE.md`
-- `docs/PARTNERSHIP_STATUS.md`
-- `docs/TWO_AGENT_BOARD.md`
+- `docs/agents/SPRINT_DECISION_GATE.md`
+- `docs/agents/PARTNERSHIP_STATUS.md`
+- `docs/agents/TWO_AGENT_BOARD.md`
 - `AGENTS.md`
 
 Do not:
@@ -37,7 +37,7 @@ Do not:
 **Files:**
 
 - Modify: `src/pages/PricingPage.tsx`
-- Update handoff: `docs/AGENT_HANDOFF.md`
+- Update handoff: `docs/agents/AGENT_HANDOFF.md`
 
 **Steps:**
 
@@ -46,7 +46,7 @@ Do not:
 3. Keep existing route/component structure intact unless copy requires minor layout text changes.
 4. Do not remove the route unless explicitly asked.
 5. Run `npx tsc -b --pretty false` if practical.
-6. Update `docs/AGENT_HANDOFF.md` and ask Hermes to review remaining IP/funnel risk.
+6. Update `docs/agents/AGENT_HANDOFF.md` and ask Hermes to review remaining IP/funnel risk.
 
 **Acceptance criteria:**
 
@@ -66,7 +66,7 @@ Do not:
 
 - Modify: `src/components/shared/DemoDataButton.tsx`
 - Modify: `src/data/demoDataset.ts`
-- Update handoff: `docs/AGENT_HANDOFF.md`
+- Update handoff: `docs/agents/AGENT_HANDOFF.md`
 
 **Steps:**
 
@@ -74,7 +74,7 @@ Do not:
 2. Replace demo tournament names like `Demo Reg Life Sprint` with generic labels.
 3. Keep demo behavior intact.
 4. Run `npx tsc -b --pretty false` if practical.
-5. Update `docs/AGENT_HANDOFF.md` and ask Hermes to review for remaining public/share/payment wording.
+5. Update `docs/agents/AGENT_HANDOFF.md` and ask Hermes to review for remaining public/share/payment wording.
 
 **Acceptance criteria:**
 
@@ -94,7 +94,7 @@ Do not:
 
 - Start with: `src/pages/SessionsPage.tsx`
 - Search changed UI paths for: `Reg Life`, `Game Plan`, `D#`, `Dossiê`, `Dossie`, `luischiavo`
-- Update handoff: `docs/AGENT_HANDOFF.md`
+- Update handoff: `docs/agents/AGENT_HANDOFF.md`
 
 **Steps:**
 

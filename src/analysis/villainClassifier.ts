@@ -1,7 +1,7 @@
 /**
  * Villain auto-classification using MDA (Mass Data Analysis) criteria.
  *
- * Source: docs/strategy/08-gto-and-exploits.md §3
+ * Source: docs/knowledge/strategy/08-gto-and-exploits.md §3
  * Thresholds from: CLAUDE.md "Villain Tracker" section
  *
  * Classification requires minimum hand counts:

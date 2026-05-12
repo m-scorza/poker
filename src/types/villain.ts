@@ -1,7 +1,7 @@
 /**
  * Villain tracking types.
  *
- * Source: CLAUDE.md "Villain Tracker", docs/strategy/08-gto-and-exploits.md §3 (MDA framework)
+ * Source: CLAUDE.md "Villain Tracker", docs/knowledge/strategy/08-gto-and-exploits.md §3 (MDA framework)
  */
 
 import type { Position, Scenario } from './analysis';

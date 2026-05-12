@@ -5,8 +5,8 @@
  * This is distinct from a standard 3-bet (which faces only a raiser with no callers).
  *
  * Sources:
- * - docs/strategy/03-preflop-strategy.md §4 "Squeeze Play"
- * - docs/strategy/10-glossary.md
+ * - docs/knowledge/strategy/03-preflop-strategy.md §4 "Squeeze Play"
+ * - docs/knowledge/strategy/10-glossary.md
  * - [Vol.3]
  */
 

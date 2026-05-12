@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * Regenerate autogen blocks in docs/STATUS.md from source.
+ * Regenerate autogen blocks in docs/product/STATUS.md from source.
  *
  * Writes four sections between <!-- BEGIN:AUTOGEN:<name> --> /
  * <!-- END:AUTOGEN:<name> --> markers:
@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const REPO_ROOT = join(__dirname, '..');
-const STATUS_PATH = join(REPO_ROOT, 'docs', 'STATUS.md');
+const STATUS_PATH = join(REPO_ROOT, 'docs', 'product', 'STATUS.md');
 const PKG_PATH = join(REPO_ROOT, 'package.json');
 const APP_PATH = join(REPO_ROOT, 'src', 'App.tsx');
 const SRC_DIRS = ['parser', 'analysis', 'data', 'pages', 'components', 'utils', 'types'];
@@ -141,7 +141,7 @@ const next = regen(current);
 
 if (CHECK) {
   if (current !== next) {
-    console.error('docs/STATUS.md autogen blocks are stale. Run: npm run docs:update');
+    console.error('docs/product/STATUS.md autogen blocks are stale. Run: npm run docs:update');
     process.exit(1);
   }
   process.exit(0);
@@ -149,7 +149,7 @@ if (CHECK) {
 
 if (current !== next) {
   writeFileSync(STATUS_PATH, next, 'utf-8');
-  console.log('docs/STATUS.md updated.');
+  console.log('docs/product/STATUS.md updated.');
 } else {
-  console.log('docs/STATUS.md already up to date.');
+  console.log('docs/product/STATUS.md already up to date.');
 }

@@ -356,7 +356,7 @@ export function RangesPage() {
             This is the push range for <span className="font-data font-bold text-[var(--color-accent)]">{selectedPos}</span>.
           </p>
           <p className="text-xs text-[var(--color-text-muted)] mt-2">
-            Source: [Vol.2, NERD] — docs/strategy/02-ranges-and-position.md §4
+            Source: [Vol.2, NERD] — docs/knowledge/strategy/02-ranges-and-position.md §4
           </p>
         </div>
       )}

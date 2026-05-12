@@ -1,0 +1,36 @@
+# `docs/` — the documentation map
+
+Every document under `docs/` lives in a labeled subfolder. If you can name
+who you are and what you're trying to do, you can skip to the right folder.
+
+| Folder | Purpose | Who reads this |
+|---|---|---|
+| [`product/`](product/) | What's actually shipped. STATUS is the autogen-driven source of truth; ROADMAP is the phase log; PARSER_HEALTH is the fixture-sweep reliability evidence. | Humans evaluating the product. New contributors before touching code. |
+| [`agents/`](agents/) | Multi-agent collaboration contracts: handoff log, collab rules, file-area board, sprint decision gate, partnership/IP posture, prompt-start guide. | Hermes, Antigravity, Claude Code, and any other agent picking up work. |
+| [`knowledge/`](knowledge/) | Poker theory the analysis modules derive from. `METRICS_DICTIONARY.md` is the single source of truth for platform math; `strategy/` is the full curriculum (RFI, ICM, postflop, etc.). | Anyone modifying `src/analysis/` or `src/data/ranges.ts`. Poker players auditing the logic. |
+| [`audits/`](audits/) | One-off compliance and professionalism audits. `IP_COPY_AUDIT.md` tracks neutralization of proprietary source attribution. | Anyone reviewing whether the codebase is safe to publish. |
+| [`validation/`](validation/) | User-validation track. `USER_VALIDATION_PLAN.md` is the framework; per-participant notes and synthesis go here. | The janitor agent (Claude Code), researchers. |
+| [`plans/`](plans/) | Dated implementation plans. Each plan is a snapshot of intent at a moment in time — not always carried out as written. | Anyone wondering "why was this done?" or "what's coming next?" |
+| [`design/`](design/) | UI/UX briefs. Visual direction, redesign packs. | Antigravity (the UI lane). |
+| [`reports/`](reports/) | Point-in-time analytical reports — janitor triage, KB drift, phase summaries. | Anyone wondering "what was the state of the repo on date X?" |
+| [`research/`](research/) | Competitor research, market context. | Strategy discussions; not consumed by code. |
+| `council/` | Local archive of council/transcript artifacts. **Gitignored** — present locally, never committed. | The user, when reviewing past moderation sessions. |
+| `session-notes/` | Ephemeral session notes. **Gitignored.** | Each agent during a working session. |
+
+## Conventions
+
+- **Newest at the top** for append-only logs (`agents/AGENT_HANDOFF.md`,
+  `reports/janitor-*.md`).
+- **Dates in filenames** for `plans/`, `reports/`, `research/`: `YYYY-MM-DD-slug.md`.
+- **Source-of-truth order** when docs disagree:
+  `code/tests` → `product/STATUS.md` → `CLAUDE.md` → `product/ROADMAP.md` → older notes.
+- **History across moves**: many files in this tree were renamed during the
+  2026-05-12 reorg. Use `git log --follow <path>` to trace pre-move history.
+
+## Adding a new doc
+
+1. Pick the right bucket from the table above. If nothing fits, ask in the
+   handoff log before inventing a new top-level folder.
+2. Date-prefix the filename if it's a plan/report/research note.
+3. Update the affected entry in `agents/AGENT_HANDOFF.md` so the other agents
+   know it exists.

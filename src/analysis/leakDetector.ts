@@ -4,7 +4,7 @@
  * Automatically identifies leaks in hero's play by comparing aggregate stats
  * against profile-specific thresholds.
  *
- * Source: CLAUDE.md "Leak Analyzer", docs/strategy/09-study-methods-and-tools.md §4
+ * Source: CLAUDE.md "Leak Analyzer", docs/knowledge/strategy/09-study-methods-and-tools.md §4
  */
 
 import type { HeroDecision } from '../types/analysis';

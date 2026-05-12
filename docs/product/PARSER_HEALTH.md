@@ -74,4 +74,4 @@ There are no Open Hand History real fixture files under `src/test/fixtures/` at 
 - PokerStars silent block-drop check is explicit: **3,285 / 3,285 hand blocks parsed; 0 skipped blocks**.
 - GGPoker archive reliability report is high confidence with **0 failures, 0 warnings, 0 low-confidence files**.
 
-The parser gate is therefore green for the fixture corpus currently in the repo. The remaining product gates are partnership / IP clarity and external user validation; see `docs/PARTNERSHIP_STATUS.md`.
+The parser gate is therefore green for the fixture corpus currently in the repo. The remaining product gates are partnership / IP clarity and external user validation; see `docs/agents/PARTNERSHIP_STATUS.md`.

@@ -1,15 +1,15 @@
 # Workflow: Council-Gated Two-Agent Loop
 
-Use when Hermes and Antigravity are both active and the work is constrained by `docs/SPRINT_DECISION_GATE.md`.
+Use when Hermes and Antigravity are both active and the work is constrained by `docs/agents/SPRINT_DECISION_GATE.md`.
 
 ## Required reading
 
 1. `AGENTS.md`
-2. `docs/AI_COLLABORATION.md`
-3. `docs/TWO_AGENT_BOARD.md`
-4. `docs/SPRINT_DECISION_GATE.md`
-5. `docs/PARTNERSHIP_STATUS.md`
-6. `docs/AGENT_HANDOFF.md`
+2. `docs/agents/AI_COLLABORATION.md`
+3. `docs/agents/TWO_AGENT_BOARD.md`
+4. `docs/agents/SPRINT_DECISION_GATE.md`
+5. `docs/agents/PARTNERSHIP_STATUS.md`
+6. `docs/agents/AGENT_HANDOFF.md`
 7. Task-specific source/docs named by the user
 
 ## Rule of engagement
@@ -40,13 +40,13 @@ Blocked unless the user explicitly overrides:
 2. Edit only that scope.
 3. Keep behavior changes out unless explicitly requested.
 4. Run the narrowest useful checks.
-5. Update `docs/AGENT_HANDOFF.md` using `.agents/skills/handoff.md`.
+5. Update `docs/agents/AGENT_HANDOFF.md` using `.agents/skills/handoff.md`.
 6. Ask the reviewer a specific question.
 
 ### If you are the reviewer
 
 1. Start from `git status --short` and `git diff --stat`.
-2. Compare the actual diff to the claimed scope in `docs/AGENT_HANDOFF.md`.
+2. Compare the actual diff to the claimed scope in `docs/agents/AGENT_HANDOFF.md`.
 3. Search for gate violations:
    - Reg Life / GamePlan / D# / dossier wording in user-facing source
    - payment/pricing/funnel CTAs

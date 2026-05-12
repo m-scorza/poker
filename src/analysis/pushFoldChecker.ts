@@ -10,7 +10,7 @@
  * Sources:
  * - CLAUDE.md "Short Stack Strategy (10bb or less)"
  * - CLAUDE.md "Resteal Ranges"
- * - docs/strategy/02-ranges-and-position.md §4
+ * - docs/knowledge/strategy/02-ranges-and-position.md §4
  */
 
 import type { HeroDecision, Position } from '../types/analysis';

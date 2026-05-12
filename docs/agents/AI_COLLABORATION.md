@@ -4,9 +4,9 @@ Purpose: let multiple AI agents push each other without overwriting work, duplic
 
 ## Current council-gated default
 
-For the current sprint, `docs/SPRINT_DECISION_GATE.md` overrides normal feature instincts. The next safe work is IP-safe private/local demo repositioning, parser/data-confidence work, and user validation prep. Do not route Antigravity toward dashboard polish, pricing/funnel work, shareable artifacts, public distribution, or deeper Reg Life-specific commercial features unless the user explicitly overrides the gate.
+For the current sprint, `docs/agents/SPRINT_DECISION_GATE.md` overrides normal feature instincts. The next safe work is IP-safe private/local demo repositioning, parser/data-confidence work, and user validation prep. Do not route Antigravity toward dashboard polish, pricing/funnel work, shareable artifacts, public distribution, or deeper Reg Life-specific commercial features unless the user explicitly overrides the gate.
 
-Use `docs/TWO_AGENT_BOARD.md` as the active assignment board for who owns each matter and how cross-review should happen.
+Use `docs/agents/TWO_AGENT_BOARD.md` as the active assignment board for who owns each matter and how cross-review should happen.
 
 ## Roles
 
@@ -40,7 +40,7 @@ Best default.
 
 1. User or Hermes defines the task and acceptance criteria.
 2. Antigravity implements in the IDE.
-3. Antigravity updates `docs/AGENT_HANDOFF.md`.
+3. Antigravity updates `docs/agents/AGENT_HANDOFF.md`.
 4. Hermes reviews the diff, runs checks, and pushes back.
 5. Antigravity fixes findings.
 6. Hermes verifies final state.
@@ -85,7 +85,7 @@ Prefer this split unless the user says otherwise.
 
 ## Required handoff note
 
-Use `docs/AGENT_HANDOFF.md` every time another agent should continue or review.
+Use `docs/agents/AGENT_HANDOFF.md` every time another agent should continue or review.
 
 Minimum fields:
 
@@ -107,13 +107,13 @@ Minimum fields:
 ### Ask Antigravity to implement
 
 ```text
-Read AGENTS.md and docs/AI_COLLABORATION.md first.
+Read AGENTS.md and docs/agents/AI_COLLABORATION.md first.
 Task: <specific task>.
 Scope: only touch <files/area>.
 Acceptance criteria:
 - <criterion 1>
 - <criterion 2>
-Before finishing, update docs/AGENT_HANDOFF.md with files touched, verification run, risks, and what Hermes should review.
+Before finishing, update docs/agents/AGENT_HANDOFF.md with files touched, verification run, risks, and what Hermes should review.
 Do not use --no-verify.
 ```
 
@@ -121,7 +121,7 @@ Do not use --no-verify.
 
 ```text
 Review the current diff skeptically.
-Read AGENTS.md, docs/AGENT_HANDOFF.md, docs/STATUS.md, and relevant source before judging.
+Read AGENTS.md, docs/agents/AGENT_HANDOFF.md, docs/product/STATUS.md, and relevant source before judging.
 Focus on: poker logic regressions, parser fragility, missing tests, UI drift, doc drift, and accidental broad rewrites.
 Run the narrowest useful checks, then report concrete fixes or patch them if safe.
 ```
@@ -130,14 +130,14 @@ Run the narrowest useful checks, then report concrete fixes or patch them if saf
 
 ```text
 Hermes: write a bite-sized implementation plan under docs/plans/ with exact files, tests, and acceptance criteria.
-Antigravity: implement only the next unchecked task from that plan, update docs/AGENT_HANDOFF.md, and stop for review.
+Antigravity: implement only the next unchecked task from that plan, update docs/agents/AGENT_HANDOFF.md, and stop for review.
 ```
 
 ## Conflict rules
 
 - If two agents changed the same file, stop and inspect both diffs before continuing.
 - If docs contradict source, trust source and update docs.
-- If poker strategy ambiguity appears, do not invent rules. Cite `CLAUDE.md` or `docs/strategy/` and mark assumptions.
+- If poker strategy ambiguity appears, do not invent rules. Cite `CLAUDE.md` or `docs/knowledge/strategy/` and mark assumptions.
 - If verification fails because of unrelated pre-existing changes, record that clearly instead of pretending the task is green.
 
 ## Good collaboration examples

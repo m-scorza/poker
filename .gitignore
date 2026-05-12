@@ -8,6 +8,8 @@ errors.txt
 council-report-*.html
 council-transcript-*.md
 docs/session-notes/
+docs/council/*
+!docs/council/.gitkeep
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
 

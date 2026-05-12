@@ -6,7 +6,7 @@
  * - Probe turn / donk bet detection
  * - Bet vs missed c-bet detection
  *
- * Source: CLAUDE.md "Postflop Analysis", docs/strategy/04-postflop-strategy.md
+ * Source: CLAUDE.md "Postflop Analysis", docs/knowledge/strategy/04-postflop-strategy.md
  */
 
 import type { Action } from '../types/hand';

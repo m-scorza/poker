@@ -97,7 +97,7 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
 
 Layout (as of 2026-04-18 reorg):
 
-- Root: tooling-required files only (`CLAUDE.md`, `GEMINI.md`, `README.md`,
+- Root: tooling-required files only (`CLAUDE.md`, `AGENTS.md`, `README.md`,
   `package.json`, `tsconfig.json`, `vite.config.ts`, `index.html`,
   `.gitignore`).
 - `docs/` — `STATUS.md`, `ROADMAP.md`, `PROMPT_GUIDE.md`, `strategy/`,
@@ -335,6 +335,5 @@ When shipping a change:
 3. If the change adds a new phantom (e.g. a route that's not yet wired),
    add a `⚠️ PARTIAL` row, not a green ✅.
 
-CLAUDE.md and GEMINI.md should reference this file rather than re-stating
-structure or dep lists. Those two stay identical to each other; this file
-stays identical to the code.
+CLAUDE.md and AGENTS.md should reference this file rather than re-stating
+structure or dep lists. This file stays identical to the code.

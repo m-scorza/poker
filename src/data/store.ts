@@ -314,6 +314,10 @@ export async function saveVillainNote(playerName: string, notes: string, tags: s
 }
 
 /** Aggregate basic stats for villains from newly imported hands (Bug #5) */
+async function yieldToBrowser(): Promise<void> {
+  await new Promise((resolve) => setTimeout(resolve, 0));
+}
+
 export async function aggregateVillainStats(
   handsData: Array<{ hand: Hand; players: PlayerInHand[]; actions: Action[] }>,
 ): Promise<void> {

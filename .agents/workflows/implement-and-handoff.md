@@ -6,15 +6,15 @@ Use when Antigravity is asked to implement a focused task and leave the repo rea
 
 1. Read:
    - `AGENTS.md`
-   - `docs/AI_COLLABORATION.md`
-   - `docs/TWO_AGENT_BOARD.md`
-   - `docs/SPRINT_DECISION_GATE.md`
-   - `docs/STATUS.md`
+   - `docs/agents/AI_COLLABORATION.md`
+   - `docs/agents/TWO_AGENT_BOARD.md`
+   - `docs/agents/SPRINT_DECISION_GATE.md`
+   - `docs/product/STATUS.md`
    - Any task-specific docs named by the user
 
 2. Confirm scope:
    - Identify exact files likely to change.
-   - If the task touches poker logic, read `CLAUDE.md`, `docs/METRICS_DICTIONARY.md`, and `docs/strategy/claudecode_index.md` before editing.
+   - If the task touches poker logic, read `CLAUDE.md`, `docs/knowledge/METRICS_DICTIONARY.md`, and `docs/knowledge/strategy/claudecode_index.md` before editing.
 
 3. Implement minimally:
    - Keep the diff small.
@@ -26,7 +26,7 @@ Use when Antigravity is asked to implement a focused task and leave the repo rea
    - Run `npx tsc -b --pretty false`, `npm test`, or `npm run build` when appropriate.
 
 5. Handoff:
-   - Update `docs/AGENT_HANDOFF.md` using `.agents/skills/handoff.md`.
+   - Update `docs/agents/AGENT_HANDOFF.md` using `.agents/skills/handoff.md`.
    - Explicitly ask Hermes what to review.
 
 ## User prompt shape

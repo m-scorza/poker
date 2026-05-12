@@ -2,7 +2,7 @@
  * Strategy Profile system — Game Plan (simplified) vs Advanced (context-dependent).
  *
  * Game Plan: binary rules from Reg Life Plano de Jogo SNG.
- * Advanced: nuanced rules from full knowledge base (docs/strategy/).
+ * Advanced: nuanced rules from full knowledge base (docs/knowledge/strategy/).
  *
  * Source: CLAUDE.md "Strategy Profiles (Modular Analysis)"
  */
@@ -52,7 +52,7 @@ export const gamePlanCbet: CbetRule = {
 
 /**
  * Advanced: texture-dependent c-bet decisions.
- * Source: [Vol.2, D#09, D#10], docs/strategy/04-postflop-strategy.md §2
+ * Source: [Vol.2, D#09, D#10], docs/knowledge/strategy/04-postflop-strategy.md §2
  */
 export const advancedCbet: CbetRule = {
   profile: 'advanced',
@@ -112,7 +112,7 @@ export const GAME_PLAN_THRESHOLDS: LeakThresholds = {
 };
 
 /**
- * Advanced thresholds — from docs/strategy/09-study-methods-and-tools.md §4.
+ * Advanced thresholds — from docs/knowledge/strategy/09-study-methods-and-tools.md §4.
  * Source: [Vol.3, 09-study §4]
  */
 export const ADVANCED_THRESHOLDS: LeakThresholds = {

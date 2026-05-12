@@ -1,50 +1,76 @@
-# 🧠 Poker Brain — Knowledge Repository
+# Poker Hand Analyzer
 
-A structured knowledge base compiled from **Reg Life** (Brazil's largest poker school) materials and community dossiês by **@luischiavo**. Covers MTT tournament strategy from fundamentals through advanced ICM, bounty dynamics, and post-flop theory.
+A client-side React + TypeScript app for analyzing PokerStars tournament hand
+histories. Parses `.txt` exports, classifies preflop scenarios, scores hero
+decisions against pre-defined theoretical ranges, tracks leaks across sessions,
+and visualizes results in a dark poker-HUD UI. No backend, no external APIs —
+everything runs in the browser and persists to IndexedDB. Default hero
+is `scorza23`.
 
-## 📚 Source Materials
+## Quick start
 
-| Material | Type | Content |
-|---|---|---|
-| Estudar dá Sorte Vol. 1 | Book | Fundamentals: EV, Pot Odds, Equity, Ranges, GTO Intro, Variance, Bankroll |
-| Estudar dá Sorte Vol. 2 | Book | Softwares, RFI Ranges (cEV), Open Shove, Flat/3-bet, BB Defense, C-bet IP/OOP, ICM, Bounty Intro, Blind War |
-| Estudar dá Sorte Vol. 3 | Book | MDA (Mass Data Analysis), ICM Practice, Advanced Post-Flop, 3-bet Pots, Squeeze, Check-Raise, C-bet Turn |
-| 216 Range Tables | Reference | RFI + vs RFI charts for 14/17/20/30/50/100bb across all positions |
-| ICM eBook | Reference | ICM theory, chip value asymmetry, Risk Premium, Bubble Factor |
-| The NERD's Playbook | Reference | Stack-based strategy guide by theNERDguy (Yuri Dzivielevski) |
-| Dicionário do Poker | Glossary | 200+ poker terms with definitions and examples |
-| 20 Dossiês (#1–#21) | Case Studies | Specific hand analyses from tournament spots |
+```bash
+npm install
+npm run dev      # start the Vite dev server
+npm test -- --run # run the Vitest suite (~420 tests)
+npm run build    # production build
+```
 
-## 🗂️ Knowledge Base (`/docs/strategy`)
+## What lives where
 
-### Core Theory
-- **[01-poker-math.md](docs/strategy/01-poker-math.md)** — EV, Pot Odds, Outs, Implied Odds, Equity (Crude/Realized/Robust)
-- **[02-ranges-and-position.md](docs/strategy/02-ranges-and-position.md)** — Range types (Linear/Polarized/Condensed), RFI by position, stack depth influence
-- **[03-preflop-strategy.md](docs/strategy/03-preflop-strategy.md)** — Open Raise, 3-bet, Flat, Open Shove, Push/Fold, vs RFI reactions by position and stack
-- **[04-postflop-strategy.md](docs/strategy/04-postflop-strategy.md)** — C-bet IP/OOP, Bet sizing, Range/Nuts advantage, Donk bet, Probe turn, Check-raise
+```
+/
+├── README.md ............. you are here
+├── CLAUDE.md ............. project memory for Claude Code (intent / spec)
+├── AGENTS.md ............. multi-agent collaboration entrypoint
+├── index.html ............ Vite entry
+├── package.json .......... deps + npm scripts
+├── vite.config.ts ........ build config
+├── tsconfig.json ......... TypeScript config
+├── tailwind.config.ts .... Tailwind 4 config (via plugin)
+├── Dockerfile ............ deploy target (static nginx)
+├── src/ .................. the React app
+│   ├── parser/ ........... PokerStars hand-history parser
+│   ├── analysis/ ......... scenario detection, range compliance, leaks
+│   ├── data/ ............. ranges, Dexie/IndexedDB, Zustand store
+│   ├── components/ ....... layout, hands, career, shared widgets
+│   ├── pages/ ............ routed views (Dashboard, Hands, Stats, ...)
+│   └── test/fixtures/ .... real PokerStars .txt fixtures
+├── scripts/ .............. build/utility scripts (regen-status, install-hooks)
+├── docs/ ................. all documentation (see docs/README.md)
+│   ├── product/ .......... STATUS, ROADMAP, PARSER_HEALTH
+│   ├── agents/ ........... AI-agent coordination contracts
+│   ├── knowledge/ ........ poker theory the analysis logic derives from
+│   ├── audits/ ........... IP / professionalism audits
+│   ├── validation/ ....... user-interview track
+│   ├── plans/ ............ dated implementation plans
+│   ├── design/ ........... UI/UX briefs
+│   ├── reports/ .......... janitor + KB-drift reports
+│   └── research/ ......... competitor research
+├── .claude/ .............. Claude Code agent config (settings, agent defs)
+└── .agents/ .............. Hermes/Antigravity collab scaffolding
+```
 
-### Tournament-Specific
-- **[05-icm-and-risk-premium.md](docs/strategy/05-icm-and-risk-premium.md)** — ICM model, Bubble Factor, Risk Premium, Risk Advantage, FT dynamics
-- **[06-bounty-tournaments.md](docs/strategy/06-bounty-tournaments.md)** — Bounty Power (BPWR), Equity Drop, PKO/PSKO adjustments, multi-way all-in bounty
-- **[07-final-table-play.md](docs/strategy/07-final-table-play.md)** — FT dynamics, Fake Shove, Open Raise FT, Resteal, BB Defense semi-FT
+## Who reads what
 
-### Study & Meta
-- **[08-gto-and-exploits.md](docs/strategy/08-gto-and-exploits.md)** — GTO foundations, Solver usage, MDA (Mass Data Analysis), Population tendencies
-- **[09-study-methods-and-tools.md](docs/strategy/09-study-methods-and-tools.md)** — Study workflow, Software stack, Leak Finder, Drills, Session review
-- **[10-glossary.md](docs/strategy/10-glossary.md)** — Comprehensive poker glossary (A–Z)
+| If you are... | Start here |
+|---|---|
+| A new human contributor | this README, then [`CLAUDE.md`](CLAUDE.md) |
+| Claude Code (this agent) | [`CLAUDE.md`](CLAUDE.md), then [`.claude/agents/janitor.md`](.claude/agents/janitor.md) |
+| Hermes / Antigravity / any coding agent | [`AGENTS.md`](AGENTS.md), then [`docs/agents/AGENT_HANDOFF.md`](docs/agents/AGENT_HANDOFF.md) |
+| A poker player auditing the analysis logic | [`docs/knowledge/strategy/`](docs/knowledge/strategy/) |
+| Someone curious what's actually shipped | [`docs/product/STATUS.md`](docs/product/STATUS.md) |
+| Looking for the full doc map | [`docs/README.md`](docs/README.md) |
 
-### Quick Reference
-- **[claudecode_index.md](docs/strategy/claudecode_index.md)** — AI retrieval index for rapid concept lookup
+## Tech stack
 
-## 🛠️ Project Docs
+React 19 · TypeScript (strict) · Vite 6 · Tailwind 4 · Zustand 5 · Dexie 4 ·
+Recharts · Framer Motion · poker-odds-calculator · Vitest 3 ·
+@tanstack/react-table + react-virtual · vite-plugin-pwa.
 
-- **[docs/STATUS.md](docs/STATUS.md)** — single source of truth for what's actually shipped
-- **[docs/ROADMAP.md](docs/ROADMAP.md)** — phase log + prioritised punch list
-- **[docs/PROMPT_GUIDE.md](docs/PROMPT_GUIDE.md)** — how to start a session with Claude / Gemini
-- **[CLAUDE.md](CLAUDE.md)** / **[GEMINI.md](GEMINI.md)** — project spec (intent); stay in sync
+## License & IP
 
-## 🏷️ Conventions
-
-- All poker terms in English (3-bet, C-bet, Equity, Fold Equity, etc.)
-- Math formatted in LaTeX where applicable
-- Source attribution: `[Vol.X]` = Estudar dá Sorte volume, `[D#N]` = Dossiê number, `[ICM]` = ICM eBook, `[NERD]` = NERD's Playbook, `[216R]` = 216 Ranges
+Strategy notes and theoretical ranges are derived from public-domain poker
+theory plus the contributor's personal study materials. See
+[`docs/audits/IP_COPY_AUDIT.md`](docs/audits/IP_COPY_AUDIT.md) for the
+current neutralization status.

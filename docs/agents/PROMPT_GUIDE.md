@@ -1,13 +1,13 @@
 # Prompt Guide — How to Start a Session
 
-This file tells you how to open a Claude/Gemini session so the assistant
-starts with full context, follows the project rules, and documents changes
-properly.
+This file tells you how to open a Claude/Hermes/Antigravity session so the
+assistant starts with full context, follows the project rules, and documents
+changes properly.
 
-> **Verify before you trust.** CLAUDE.md / GEMINI.md / ROADMAP.md describe
-> intent and can drift. `STATUS.md` is the single source of truth for what
-> is actually shipped. Read it first. If a doc contradicts STATUS.md, trust
-> STATUS.md and fix the doc in the same commit.
+> **Verify before you trust.** CLAUDE.md / ROADMAP.md describe intent and
+> can drift. `STATUS.md` is the single source of truth for what is actually
+> shipped. Read it first. If a doc contradicts STATUS.md, trust STATUS.md
+> and fix the doc in the same commit.
 
 ---
 
@@ -27,9 +27,9 @@ Task: [describe what you want to build or fix]
 Rules to follow:
 1. Read STATUS.md to know what's actually in the repo before acting.
 2. Read CLAUDE.md before touching analysis logic.
-3. Read docs/strategy/claudecode_index.md before touching ranges or scenarios.
+3. Read docs/knowledge/strategy/claudecode_index.md before touching ranges or scenarios.
 4. If a change alters structure, deps, routes, or UI language, update
-   STATUS.md in the same commit (CLAUDE.md / GEMINI.md reference it).
+   STATUS.md in the same commit (CLAUDE.md references it).
 5. Update ROADMAP.md when you finish a punch-list item; mark fixed known
    issues ✅ FIXED in STATUS.md with the date.
 6. UI target is English. Don't add new Portuguese strings. Residue is
@@ -55,7 +55,7 @@ Run tests after. Update ROADMAP.md / STATUS.md if applicable.
 
 | When you want... | Add this to your prompt |
 |---|---|
-| Analysis logic change | "Read docs/strategy/claudecode_index.md first and cite the source." |
+| Analysis logic change | "Read docs/knowledge/strategy/claudecode_index.md first and cite the source." |
 | New leak detection rule | "Add source attribution [GamePlan/Vol.X/D#N] in code comment." |
 | Parser changes | "Validate against the parsing rules table in CLAUDE.md." |
 | New UI component | "Dark theme (#0a0a0f bg, #00ff88 accent). UI text in English." |
@@ -69,13 +69,12 @@ Run tests after. Update ROADMAP.md / STATUS.md if applicable.
 
 When you open a session in this project, Claude already loads:
 - `CLAUDE.md` — project spec (intent): ranges, parsing rules, rules, bugs log
-- `GEMINI.md` — Gemini-specific mirror of the same spec (kept in sync)
+- `AGENTS.md` — multi-agent operating contract
 - `STATUS.md` — **fact sheet.** What's actually shipped right now.
 - `ROADMAP.md` — prioritised punch list of what's next
 
-Order of trust when they disagree: **STATUS.md > code > CLAUDE.md / GEMINI.md
-> ROADMAP.md.** If you catch a contradiction, fix STATUS.md first, then
-the doc that lied.
+Order of trust when they disagree: **STATUS.md > code > CLAUDE.md > ROADMAP.md.**
+If you catch a contradiction, fix STATUS.md first, then the doc that lied.
 
 You do NOT need to re-paste ranges, parsing rules, or scenario tables.
 Reference them by name.
@@ -103,7 +102,7 @@ When done: update ROADMAP.md checkbox and run npm test.
 ### Review Analysis Logic
 ```
 Check the [scenarioDetector / rangeChecker / leakDetector / postflopAnalyzer] logic for [specific concern].
-Cross-reference with CLAUDE.md rules and docs/strategy/. Report deviations.
+Cross-reference with CLAUDE.md rules and docs/knowledge/strategy/. Report deviations.
 ```
 
 ### Refactor / Cleanup

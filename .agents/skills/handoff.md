@@ -11,7 +11,7 @@ git status --short
 git diff --stat
 ```
 
-2. Update `docs/AGENT_HANDOFF.md` with a newest-first entry.
+2. Update `docs/agents/AGENT_HANDOFF.md` with a newest-first entry.
 
 3. Include:
 

@@ -6,8 +6,8 @@
  * to identify discrepancies and confidence levels.
  *
  * Sources:
- * - docs/strategy/02-ranges-and-position.md §3 (solver RFI % by position/stack)
- * - docs/strategy/02-ranges-and-position.md §4 (open shove ranges at 10bb)
+ * - docs/knowledge/strategy/02-ranges-and-position.md §3 (solver RFI % by position/stack)
+ * - docs/knowledge/strategy/02-ranges-and-position.md §4 (open shove ranges at 10bb)
  * - CLAUDE.md "Theoretical Ranges"
  */
 
@@ -35,7 +35,7 @@ export interface RangeValidationResult {
 
 /**
  * Solver-derived RFI % baselines by position at various stack depths.
- * Source: docs/strategy/02-ranges-and-position.md §3
+ * Source: docs/knowledge/strategy/02-ranges-and-position.md §3
  *
  * Our Baseline ranges are designed for early tournament play (~50-75bb),
  * so we compare against the 50bb column primarily.
@@ -60,7 +60,7 @@ const SOLVER_RFI_BASELINES: Record<string, {
 
 /**
  * Solver-derived open shove % at 10bb by position.
- * Source: docs/strategy/02-ranges-and-position.md §4
+ * Source: docs/knowledge/strategy/02-ranges-and-position.md §4
  */
 const SOLVER_PUSH_BASELINES: Record<string, number> = {
   UTG:     16,

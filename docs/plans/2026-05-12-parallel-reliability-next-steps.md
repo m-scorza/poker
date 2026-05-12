@@ -21,7 +21,7 @@
 - `src/data/demoDataset.ts`
 - `src/data/__tests__/demoSeedProgress.test.ts`
 - `src/data/__tests__/demoDataset.test.ts` if the demo semantics change
-- `docs/AGENT_HANDOFF.md`
+- `docs/agents/AGENT_HANDOFF.md`
 
 **Do not touch:** pricing/demo page copy, career cards, broad visual polish, parser/range/scenario logic.
 
@@ -52,7 +52,7 @@
 - `src/components/career/CareerCoachCard.tsx`
 - `src/pages/LeaksPage.tsx`
 - `src/pages/SessionsPage.tsx`
-- `docs/AGENT_HANDOFF.md`
+- `docs/agents/AGENT_HANDOFF.md`
 
 **Blocked while Hermes owns Lane A:**
 - `src/data/store.ts`
@@ -77,7 +77,7 @@
 **Recommended non-overlap files:**
 - `src/parser/**`
 - `src/parser/__tests__/**`
-- `docs/PARSER_HEALTH.md`
+- `docs/product/PARSER_HEALTH.md`
 - new fixture/audit docs under `docs/reports/` or `docs/plans/`
 
 **Task:** continue the highest-leverage reliability lane: parser/import confidence and evidence. Avoid the demo seed files owned by Hermes and the copy/UI files owned by Antigravity.
@@ -95,7 +95,7 @@
 ### Prompt for Antigravity
 
 ```text
-Read AGENTS.md, docs/TWO_AGENT_BOARD.md, docs/SPRINT_DECISION_GATE.md, docs/AGENT_HANDOFF.md, and docs/plans/2026-05-12-parallel-reliability-next-steps.md.
+Read AGENTS.md, docs/agents/TWO_AGENT_BOARD.md, docs/agents/SPRINT_DECISION_GATE.md, docs/agents/AGENT_HANDOFF.md, and docs/plans/2026-05-12-parallel-reliability-next-steps.md.
 
 Hermes owns the demo seed completion blocker. Do not edit src/data/store.ts, src/data/demoDataset.ts, src/data/__tests__/demoSeedProgress.test.ts, src/components/shared/DemoDataButton.tsx, or src/components/layout/Layout.tsx.
 
@@ -107,7 +107,7 @@ Your task is a non-overlapping user-facing copy review only. Inspect:
 
 Fix only visible private/local posture issues: Reg Life affiliation claims, payment/pricing/public funnel language, public sharing language, or visible Game Plan/D#/dossier labels. Do not change parser/range/scenario/math/data-store behavior.
 
-Run npx tsc -b --pretty false if source changes. Run npm run docs:check if docs change. Update docs/AGENT_HANDOFF.md with exact files, verification, risks, and ask Hermes to review.
+Run npx tsc -b --pretty false if source changes. Run npm run docs:check if docs change. Update docs/agents/AGENT_HANDOFF.md with exact files, verification, risks, and ask Hermes to review.
 ```
 
 ### Prompt for Claude Code
@@ -126,9 +126,9 @@ Avoid files currently owned by Hermes and Antigravity:
 - src/pages/LeaksPage.tsx
 - src/pages/SessionsPage.tsx
 
-Recommended lane: parser/import confidence. Work in src/parser/**, src/parser/__tests__/**, and docs/PARSER_HEALTH.md or docs/reports/**. Add or improve fixture/regression coverage; do not broaden into pricing/public-sharing/platform expansion.
+Recommended lane: parser/import confidence. Work in src/parser/**, src/parser/__tests__/**, and docs/product/PARSER_HEALTH.md or docs/reports/**. Add or improve fixture/regression coverage; do not broaden into pricing/public-sharing/platform expansion.
 
-Before stopping, update docs/AGENT_HANDOFF.md with files touched, verification, risks, and explicit review request.
+Before stopping, update docs/agents/AGENT_HANDOFF.md with files touched, verification, risks, and explicit review request.
 ```
 
 ---

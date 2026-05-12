@@ -1,11 +1,31 @@
 # AGENTS.md — Poker Analyzer Agent Rules
 
-This file is the shared operating contract for Hermes, Google Antigravity, Claude/Gemini-style IDE agents, and any future coding agent in this repo.
+This file is the shared operating contract for Hermes, Google Antigravity, Claude Code, and any future coding agent in this repo.
+
+## Where things live
+
+```
+src/ ............ the React app
+scripts/ ........ build/utility scripts
+docs/product/ ... STATUS, ROADMAP, PARSER_HEALTH (human-facing product state)
+docs/agents/ .... handoff log, collab rules, gates (AI-agent coordination)
+docs/knowledge/ . poker theory KB the analysis modules derive from
+docs/audits/ .... IP / professionalism / compliance audits
+docs/validation/  user-interview track
+docs/plans/ ..... dated implementation plans
+docs/design/ .... UI/UX briefs
+docs/reports/ ... janitor + kb-drift reports (point-in-time snapshots)
+docs/research/ .. competitor research
+.claude/ ........ Claude Code agent config
+.agents/ ........ Hermes/Antigravity collaboration scaffolding
+```
+
+See `docs/README.md` for the full bucket-by-bucket map.
 
 ## First principles
 
 - Preserve the user's work. Do not reset, overwrite, or discard existing changes unless explicitly asked.
-- Treat `docs/STATUS.md` as the fact sheet for shipped behavior. Treat `CLAUDE.md`, `GEMINI.md`, and `docs/ROADMAP.md` as intent/spec docs that can drift.
+- Treat `docs/product/STATUS.md` as the fact sheet for shipped behavior. Treat `CLAUDE.md` and `docs/product/ROADMAP.md` as intent/spec docs that can drift.
 - Verify claims against source before documenting them.
 - Prefer small, reviewable diffs over broad rewrites.
 - Keep all UI copy in English.
@@ -13,18 +33,18 @@ This file is the shared operating contract for Hermes, Google Antigravity, Claud
 
 ## Collaboration model
 
-Use this division when Hermes and Antigravity are both active. For current council-gated work, also read `docs/TWO_AGENT_BOARD.md` before choosing the next task:
+Use this division when Hermes and Antigravity are both active. For current council-gated work, also read `docs/agents/TWO_AGENT_BOARD.md` before choosing the next task:
 
 - Antigravity: fast IDE implementation, IP-safe user-facing copy neutralization, focused component edits, small refactors, applying specific review feedback.
 - Hermes: product architecture, parser/analysis correctness, test/fixture work, skeptical reviews, verification, documentation hygiene, and gate enforcement.
 
-Current gate: private/local generic poker analyzer posture. Do not start pricing/funnel/shareable/public-distribution work or Reg Life-branded positioning unless the user explicitly overrides `docs/SPRINT_DECISION_GATE.md`.
+Current gate: private/local generic poker analyzer posture. Do not start pricing/funnel/shareable/public-distribution work or Reg Life-branded positioning unless the user explicitly overrides `docs/agents/SPRINT_DECISION_GATE.md`.
 
 Only one agent should own a given file or subsystem at a time. If both agents need to touch the same area, one writes a handoff first and the other reviews or continues from that handoff.
 
 ## Required handoff workflow
 
-Before ending a non-trivial session, update `docs/AGENT_HANDOFF.md` with:
+Before ending a non-trivial session, update `docs/agents/AGENT_HANDOFF.md` with:
 
 - Owner / agent
 - Branch and scope
@@ -42,9 +62,9 @@ If the task is larger than one small edit, also keep a plan under `docs/plans/`.
 When docs disagree, use this order:
 
 1. Running source code and tests
-2. `docs/STATUS.md`
-3. `CLAUDE.md` / `GEMINI.md`
-4. `docs/ROADMAP.md`
+2. `docs/product/STATUS.md`
+3. `CLAUDE.md`
+4. `docs/product/ROADMAP.md`
 5. Older reports or session notes
 
 If you discover drift, fix the lying doc in the same change when practical.
@@ -71,9 +91,9 @@ npm run docs:update
 Before touching parser, ranges, scenario detection, leak detection, or financial math, read the relevant sections of:
 
 - `CLAUDE.md`
-- `docs/METRICS_DICTIONARY.md`
-- `docs/strategy/claudecode_index.md`
-- Relevant strategy doc under `docs/strategy/`
+- `docs/knowledge/METRICS_DICTIONARY.md`
+- `docs/knowledge/strategy/claudecode_index.md`
+- Relevant strategy doc under `docs/knowledge/strategy/`
 
 Critical conventions:
 
@@ -89,7 +109,7 @@ Critical conventions:
 - Parser changes need fixture or regression tests.
 - Analysis/math changes need direct unit tests.
 - UI behavior changes should at least build cleanly; use browser/manual verification when the visual state matters.
-- If a test cannot be run because of unrelated existing repo state, say so clearly in `docs/AGENT_HANDOFF.md`.
+- If a test cannot be run because of unrelated existing repo state, say so clearly in `docs/agents/AGENT_HANDOFF.md`.
 
 ## Git hygiene
 
@@ -102,7 +122,7 @@ Critical conventions:
 
 1. Planner writes a small scope and acceptance criteria.
 2. Implementer makes the smallest useful change.
-3. Implementer updates `docs/AGENT_HANDOFF.md`.
+3. Implementer updates `docs/agents/AGENT_HANDOFF.md`.
 4. Reviewer inspects the diff skeptically and runs verification.
 5. Implementer fixes review findings.
 6. Reviewer approves or merges.
