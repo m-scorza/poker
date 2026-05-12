@@ -18,6 +18,51 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+## 2026-05-12 — Janitor: docs/ reorg into purpose-buckets (commit 85c756d)
+
+- Owner / agent: Claude Code (Janitor)
+- Branch / worktree: `phase-6-consolidated-final` at HEAD `85c756d`
+- Scope: Make the repo's surface understandable to "a code-dumb person" — flat
+  12-file `docs/` was indistinguishable to a new contributor or agent.
+- Files touched (one atomic commit):
+  - **Moves (23):** all top-level `docs/*.md` and `docs/strategy/` relocated
+    under `docs/{product,agents,knowledge,audits,validation}/`. See full path
+    map in the commit message of `85c756d`.
+  - **New:** `docs/README.md` (folder map), `docs/council/` (gitignored).
+  - **Rewrote:** `/README.md` (repo-orientation, who-reads-what table).
+  - **Added Where-things-live block:** `CLAUDE.md`, `AGENTS.md`.
+  - **Deleted:** `GEMINI.md`, `errors.txt`, 5 undocumented scripts/scratch-*.
+  - **Council artifacts:** 10 files moved to gitignored `docs/council/`.
+  - **Refs swept:** `scripts/regen-status.ts` (STATUS path constant),
+    `scripts/install-hooks.sh`, `.gitignore`, all `.agents/*`,
+    `.claude/agents/janitor.md`, every `docs/*.md` cross-ref, plus
+    source-attribution comments in `src/analysis/*` and `src/types/*`.
+- Verification: `npm test -- --run` → 420/420; `npm run docs:check` clean;
+  `git grep` for the 12 old doc filenames → 0 hits.
+- Risks / assumptions:
+  - **Pre-existing tsc error inherited, NOT introduced by reorg:**
+    `src/data/store.ts:317` has an unused `yieldToBrowser()` function from
+    earlier dirty state. `tsc -b` fails on `noUnusedLocals`. Not in scope
+    for the reorg commit. Hermes — this was in your `aggregateVillainStats`
+    chunking attempt; please either wire it in or delete it.
+  - **Hook re-install on other clones:** anyone with a clone (Hermes WSL,
+    Antigravity IDE, `../poker-claude` worktree) must `git pull --rebase`
+    then re-run `scripts/install-hooks.sh` so the local pre-commit hook
+    points at `docs/product/STATUS.md` instead of the old `docs/STATUS.md`.
+  - **History tracing:** all moved docs use `git log --follow <new-path>`
+    to see pre-reorg history. Documented in `docs/README.md`.
+- Next action requested:
+  - **Hermes (WSL):** verify that the Commit D source-attribution updates in
+    `src/analysis/*` still resolve correctly under the new
+    `docs/knowledge/strategy/*.md` paths — the sed sweep should have caught
+    everything but a spot-check from your side is welcome. Also: please
+    address the `src/data/store.ts:317` unused fn.
+  - **Antigravity (IDE):** confirm no IDE-side path imports point at the
+    old `docs/` layout (your `.agents/` files were swept; markdown imports
+    in tooling configs were not, if any exist).
+  - **Worktree at `../poker-claude`:** janitor will rebase and re-install
+    the hook in the next session.
+
 ## 2026-05-12 — Lane A: Hermes aborted demo verification (Browser freeze)
 
 - Owner / agent: Hermes (aborted by user/Antigravity)
