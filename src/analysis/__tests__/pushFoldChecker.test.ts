@@ -92,7 +92,7 @@ describe('checkPushFold — open push at ≤10bb', () => {
     }));
     expect(result).not.toBeNull();
     expect(result!.result).toBe('bad_push');
-    expect(result!.note).toContain('all-in ou fold');
+    expect(result!.note).toContain('all-in or fold');
   });
 
   it('works for BLIND_WAR scenario', () => {

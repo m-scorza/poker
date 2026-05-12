@@ -197,12 +197,12 @@ export function analyzePostflop(
   const isHU = flopPlayerCount === 2;
   const boardAnalysis = classifyBoardTexture(flopCards);
 
-  // Se o hero foi All-In no preflop, ele não pode tomar ações no pós-flop.
+  // If hero was all-in preflop, no postflop actions are possible.
   const heroPreflopActions = actions.filter((a) => a.street === 'preflop' && a.playerName === heroName);
   const heroAllInPreflop = heroPreflopActions.some((a) => a.isAllIn);
   
   if (heroAllInPreflop) {
-    return spots; // Retorna vazio, não gera leaks pós-flop.
+    return spots; // Return empty — no postflop leaks.
   }
 
   if (heroWasPFR) {
@@ -245,7 +245,7 @@ export function analyzePostflop(
             street: 'turn',
             sizing: null,
             isCorrect: null,
-            note: 'Não continuou no turn após c-bet',
+            note: 'Failed to continue on turn after c-bet',
           });
         }
       }
@@ -289,7 +289,7 @@ export function analyzePostflop(
           street: 'turn',
           sizing: null,
           isCorrect: true,
-          note: 'Probe bet no turn após check-check no flop',
+          note: 'Probe bet on turn after check-check on flop',
         });
       }
     }
@@ -304,7 +304,7 @@ export function analyzePostflop(
           street: 'turn',
           sizing: null,
           isCorrect: null, // Context-dependent
-          note: 'Donk bet no turn após call do c-bet',
+          note: 'Donk bet on turn after calling flop c-bet',
         });
       }
     }
@@ -319,7 +319,7 @@ export function analyzePostflop(
         street: 'flop',
         sizing,
         isCorrect: null,
-        note: `Enfrentou aposta de ${(sizing * 100).toFixed(0)}% pot. Pot Odds: ${(calculatePotOdds(totalPot, villainBet.amount) * 100).toFixed(1)}%. MDF: ${(calculateMDF(totalPot, villainBet.amount) * 100).toFixed(1)}%.`,
+        note: `Facing ${(sizing * 100).toFixed(0)}% pot bet. Pot Odds: ${(calculatePotOdds(totalPot, villainBet.amount) * 100).toFixed(1)}%. MDF: ${(calculateMDF(totalPot, villainBet.amount) * 100).toFixed(1)}%.`,
       });
     }
 
@@ -333,7 +333,7 @@ export function analyzePostflop(
         street: 'flop',
         sizing: null,
         isCorrect: null,
-        note: 'Check-raise no flop',
+        note: 'Check-raise on flop',
       });
     }
   }

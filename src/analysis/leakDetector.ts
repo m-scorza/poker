@@ -160,8 +160,8 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
           // Source mapping for documentation
           let source = '';
           if (key === 'MISSED_CBET' || key === 'CBET_HU') source = '[Vol.2]';
-          if (key === 'PROBE_TURN') source = '[D#07]';
-          if (key === 'DONK_BET_TURN') source = '[D#21]';
+          if (key === 'PROBE_TURN') source = '[04-postflop §3]';
+          if (key === 'DONK_BET_TURN') source = '[04-postflop §5]';
           if (key === 'BET_VS_MISSED_CBET') source = '[Vol.3]';
 
           stats.postflopErrors.set(key, {
@@ -296,13 +296,13 @@ export function detectLeaks(
     }
   }
 
-  // C-bet HU (Critical leak in Game Plan)
+  // C-bet HU (Critical leak in Baseline profile)
   if (stats.cbetHUOpps >= 10) {
     if (cbetHU < thresholds.cbetHU.min) {
       leaks.push({
         id: 'cbet_hu',
         name: 'C-bet HU',
-        description: 'Missed c-bets in heads-up pots as PFR — should be 100% in Game Plan',
+        description: 'Missed c-bets in heads-up pots as PFR — should be 100% in Baseline profile',
         severity: profile === 'game_plan' ? 'critical' : computeSeverity(cbetHU, thresholds.cbetHU.min, thresholds.cbetHU.max),
         value: Math.round(cbetHU * 10) / 10,
         target: [thresholds.cbetHU.min, thresholds.cbetHU.max],

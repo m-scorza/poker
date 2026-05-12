@@ -150,15 +150,15 @@ export function estimateICMStageFromHand(hand: Hand): ICMStage {
 }
 
 /**
- * Get ICM stage label in Portuguese.
+ * Get ICM stage label in English.
  */
 export function icmStageLabel(stage: ICMStage): string {
   const labels: Record<ICMStage, string> = {
-    early: 'Início',
-    mid: 'Meio',
-    bubble: 'Bolha',
+    early: 'Early',
+    mid: 'Mid',
+    bubble: 'Bubble',
     itm: 'ITM',
-    final_table: 'Mesa Final',
+    final_table: 'Final Table',
   };
   return labels[stage];
 }

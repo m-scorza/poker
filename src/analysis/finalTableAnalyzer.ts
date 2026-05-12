@@ -155,8 +155,8 @@ export function detectFakeShove(
     isFakeShove,
     opponentsRemaining,
     note: isFakeShove
-      ? `Fake shove detectado: raise de ${(raisePercentOfStack * 100).toFixed(0)}% do stack com ${opponentsRemaining} oponentes. Preserva fold equity contra multi-way.`
-      : `Raise grande (${(raisePercentOfStack * 100).toFixed(0)}% do stack) mas sem condições de fake shove.`,
+      ? `Fake shove detected: raise of ${(raisePercentOfStack * 100).toFixed(0)}% of stack with ${opponentsRemaining} opponents. Preserves fold equity against multi-way action.`
+      : `Large raise (${(raisePercentOfStack * 100).toFixed(0)}% of stack) but fake shove conditions not met.`,
   };
 }
 
@@ -224,18 +224,18 @@ export function detectRestealSpot(
   let note: string;
   if (restealAction === 'resteal') {
     if (rpEstimate > 15) {
-      note = `Resteal com RP alto (${rpEstimate}%) — precisa de mão premium.`;
+      note = `Resteal with high RP (${rpEstimate}%) — requires a premium hand.`;
     } else {
       note = `Resteal vs ${opener.playerName} (${openerProfile.stackType}). RP ~${rpEstimate}%.`;
     }
   } else if (restealAction === 'fold') {
     if (rpEstimate > 15) {
-      note = `Fold correto — RP muito alto (${rpEstimate}%) vs ${openerProfile.stackType}.`;
+      note = `Correct fold — RP too high (${rpEstimate}%) vs ${openerProfile.stackType}.`;
     } else {
-      note = `Fold no spot de resteal. RP ~${rpEstimate}%. Avaliar se mão justificava shove.`;
+      note = `Fold in resteal spot. RP ~${rpEstimate}%. Evaluate whether the hand warranted a shove.`;
     }
   } else {
-    note = `Call (flat) no spot de resteal — considerar shove em vez de flat com ${stackBb.toFixed(0)}bb.`;
+    note = `Call (flat) in resteal spot — consider shoving instead of flatting with ${stackBb.toFixed(0)}bb.`;
   }
 
   return {
@@ -260,12 +260,12 @@ export const FT_DECISION_MATRIX: Array<{
   bias: string;
   description: string;
 }> = [
-  { heroStack: 'chip_leader', opponentStack: 'short', bias: 'Agredir', description: 'RP baixo, caçar bounty em PKO' },
-  { heroStack: 'chip_leader', opponentStack: 'medium', bias: 'Agredir', description: 'Eles não podem revidar' },
-  { heroStack: 'medium', opponentStack: 'chip_leader', bias: 'Cautela extrema', description: 'RP mais alto — fold marginal' },
-  { heroStack: 'medium', opponentStack: 'medium', bias: 'Seletivo', description: 'RP moderado nos dois lados' },
-  { heroStack: 'medium', opponentStack: 'short', bias: 'Deixar morrer', description: 'Beneficiar do pay jump sem risco' },
-  { heroStack: 'short', opponentStack: 'chip_leader', bias: 'Shove wide', description: 'RP baixo, nada a perder' },
-  { heroStack: 'short', opponentStack: 'medium', bias: 'Shove wide', description: 'RP baixo, pressionar' },
-  { heroStack: 'short', opponentStack: 'short', bias: 'Shove seletivo', description: 'Risco de eliminação mútua' },
+  { heroStack: 'chip_leader', opponentStack: 'short', bias: 'Attack', description: 'Low RP, hunt bounty in PKO' },
+  { heroStack: 'chip_leader', opponentStack: 'medium', bias: 'Attack', description: 'They cannot fight back' },
+  { heroStack: 'medium', opponentStack: 'chip_leader', bias: 'Extreme caution', description: 'Highest RP — fold marginal' },
+  { heroStack: 'medium', opponentStack: 'medium', bias: 'Selective', description: 'Moderate RP on both sides' },
+  { heroStack: 'medium', opponentStack: 'short', bias: 'Let them bust', description: 'Benefit from pay jump without risk' },
+  { heroStack: 'short', opponentStack: 'chip_leader', bias: 'Shove wide', description: 'Low RP, nothing to lose' },
+  { heroStack: 'short', opponentStack: 'medium', bias: 'Shove wide', description: 'Low RP, apply pressure' },
+  { heroStack: 'short', opponentStack: 'short', bias: 'Selective shove', description: 'Mutual elimination risk' },
 ];

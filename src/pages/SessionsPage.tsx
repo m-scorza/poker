@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { format, differenceInMinutes } from 'date-fns';
-import { Download, FileText, CalendarDays, ChevronDown, ChevronUp, UserX, Target, Zap, AlertCircle } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { Download, FileText, CalendarDays, ChevronDown, UserX, Target, Zap, AlertCircle } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useAppStore } from '../data/appStore';
 import { db } from '../data/store';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
@@ -24,11 +24,11 @@ export function SessionsPage() {
     const hands = await db.hands.toArray();
     const decisions = await db.heroDecisions.toArray();
     const tournaments = await db.tournaments.toArray();
-    
+
     const checked = batchCheckCompliance(decisions, strategyProfile);
     const decisionMap = new Map(checked.map((d) => [d.handId, d]));
     const tMap = new Map(tournaments.map(t => [t.id, t]));
-    
+
     const grouped = groupIntoSessions(hands, decisionMap, tMap);
     setSessions([...grouped].reverse());
 
@@ -42,7 +42,7 @@ export function SessionsPage() {
 
   const pct = (n: number, d: number) => (d === 0 ? '0%' : `${((n / d) * 100).toFixed(1)}%`);
   const pctNum = (n: number, d: number) => (d === 0 ? 0 : (n / d) * 100);
-  
+
   const formatDuration = (start: Date, end: Date) => {
     const mins = differenceInMinutes(end, start);
     if (mins < 60) return `${mins}m`;
@@ -60,7 +60,7 @@ export function SessionsPage() {
           </h2>
           <p className="text-sm text-[var(--color-text-muted)]">Track BB/100, volume, ROI, and consistency over time</p>
         </div>
-        
+
         {sessions.length > 0 && (
           <div className="flex items-center gap-2">
             <button
@@ -80,12 +80,22 @@ export function SessionsPage() {
       </div>
 
       {sessions.length === 0 ? (
-        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-12 text-center shadow-sm">
-          <CalendarDays className="mx-auto mb-4 text-[var(--color-text-muted)] opacity-50" size={48} />
-          <p className="text-[var(--color-text)] font-semibold text-lg">No Sessions</p>
-          <p className="text-[var(--color-text-dim)] mb-6">Import files in the "Hands" tab or load the local demo to inspect session BB/100, ROI, exports, and nemesis tracking.</p>
-          <DemoDataButton label="Load demo sessions" onLoaded={load} />
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-12 text-center shadow-lg relative overflow-hidden"
+        >
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent pointer-events-none" />
+          <motion.div
+            animate={{ scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <CalendarDays className="mx-auto mb-6 text-blue-500/50" size={56} />
+          </motion.div>
+          <p className="text-[var(--color-text)] font-bold text-xl mb-2">No Sessions Yet</p>
+          <p className="text-[var(--color-text-dim)] mb-8 max-w-md mx-auto">Import files in the <strong className="text-white">Hands</strong> tab or load the local demo to unlock granular session tracking, ROI analysis, and nemesis profiling.</p>
+          <DemoDataButton label="Load demo sessions" onLoaded={load} className="shadow-xl" />
+        </motion.div>
       ) : (
         <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl overflow-hidden shadow-sm">
           <div className="overflow-x-auto">
@@ -102,20 +112,29 @@ export function SessionsPage() {
                   <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold text-emerald-400">GTO Comp.</th>
                 </tr>
               </thead>
-              {sessions.map((s) => {
+              <AnimatePresence>
+              {sessions.map((s, idx) => {
                 const isExpanded = expandedId === s.id;
                 const st = s.stats;
                 const isGreen = s.bb100 > 0;
                 const isRed = s.bb100 < 0;
 
                 return (
-                  <tbody key={s.id} className={clsx(isExpanded && "bg-white/[0.02]")}>
+                  <motion.tbody
+                    key={s.id}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: idx * 0.05 }}
+                    className={clsx(isExpanded && "bg-white/[0.02]", "group/body")}
+                  >
                     <tr
-                      className="border-b border-[var(--color-border)]/30 hover:bg-white/[0.04] transition-colors cursor-pointer group"
+                      className="border-b border-[var(--color-border)]/30 hover:bg-white/[0.06] transition-all cursor-pointer group relative"
                       onClick={() => setExpandedId(isExpanded ? null : s.id)}
                     >
                       <td className="px-4 py-4 text-center">
-                        {isExpanded ? <ChevronUp size={16} className="text-[var(--color-accent)]" /> : <ChevronDown size={16} className="text-[var(--color-text-dim)]" />}
+                        <motion.div animate={{ rotate: isExpanded ? 180 : 0 }}>
+                          <ChevronDown size={16} className={clsx("transition-colors", isExpanded ? "text-[var(--color-accent)]" : "text-[var(--color-text-dim)] group-hover:text-white")} />
+                        </motion.div>
                       </td>
                       <td className="px-3 py-4">
                         <div className="font-data font-bold text-[var(--color-text)]">
@@ -166,7 +185,7 @@ export function SessionsPage() {
                         </span>
                       </td>
                     </tr>
-                    
+
                     {/* Expanded Session Report Card */}
                     {isExpanded && (
                       <tr>
@@ -220,7 +239,7 @@ export function SessionsPage() {
                                        </div>
                                     ) : (
                                        <div className="bg-emerald-900/10 p-3 rounded-xl border border-emerald-500/20 text-emerald-200">
-                                          ✅ <span className="font-bold">Elite Discipline.</span> You maintained the Game Plan even under pressure. Keep it up!
+                                          ✅ <span className="font-bold">Elite Discipline.</span> You maintained your baseline strategy even under pressure. Keep it up!
                                        </div>
                                     )}
                                     <p className="italic opacity-60 px-2 border-l-2 border-amber-500/30 py-1">
@@ -233,9 +252,10 @@ export function SessionsPage() {
                         </td>
                       </tr>
                     )}
-                  </tbody>
+                  </motion.tbody>
                 );
               })}
+              </AnimatePresence>
             </table>
           </div>
         </div>
@@ -250,7 +270,7 @@ function ProgressBar({ label, val, color }: { label: string; val: number; color:
     emerald: 'bg-emerald-500',
     amber: 'bg-amber-500',
   };
-  
+
   return (
     <div className="space-y-1.5">
       <div className="flex justify-between text-[10px] uppercase font-bold tracking-tighter">
@@ -258,7 +278,7 @@ function ProgressBar({ label, val, color }: { label: string; val: number; color:
         <span className="text-white font-data">{val.toFixed(1)}%</span>
       </div>
       <div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
-        <motion.div 
+        <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${val}%` }}
           className={clsx("h-full rounded-full shadow-[0_0_8px_rgba(0,0,0,0.5)]", colors[color])}

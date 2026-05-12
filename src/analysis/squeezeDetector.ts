@@ -97,11 +97,11 @@ export function detectSqueezeOpportunity(
   if (heroSqueezeAction === 'squeeze') {
     note = `Squeeze de ${heroPosition} vs ${opener.playerName} + ${callers.length} caller(s).`;
   } else if (heroSqueezeAction === 'call') {
-    note = `Oportunidade de squeeze perdida — cold call em vez de squeeze.`;
+    note = `Missed squeeze opportunity — cold call instead of squeeze.`;
   } else if (heroSqueezeAction === 'fold') {
-    note = `Fold no spot de squeeze — pode ser correto com mão fraca.`;
+    note = `Fold in squeeze spot — may be correct with a weak hand.`;
   } else {
-    note = `Spot de squeeze detectado.`;
+    note = `Squeeze spot detected.`;
   }
 
   return {

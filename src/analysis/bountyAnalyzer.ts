@@ -146,13 +146,13 @@ export function estimateBountyContext(
 
   let note: string;
   if (equityDrop > 15) {
-    note = 'Equity drop muito alto — call com qualquer mão razoável.';
+    note = 'Very high equity drop — call with any reasonable hand.';
   } else if (equityDrop > 10) {
-    note = 'Equity drop significativo — expandir ranges de call/3-bet.';
+    note = 'Significant equity drop — widen call/3-bet ranges.';
   } else if (equityDrop > 5) {
-    note = 'Equity drop moderado — ajustar ranges ligeiramente mais loose.';
+    note = 'Moderate equity drop — adjust ranges slightly looser.';
   } else {
-    note = 'Equity drop pequeno — jogar próximo ao padrão com leve ajuste.';
+    note = 'Small equity drop — play close to standard with minor adjustment.';
   }
 
   return {
@@ -170,9 +170,9 @@ export function estimateBountyContext(
  * Source: docs/strategy/06-bounty-tournaments.md §9
  */
 export const BOUNTY_HEURISTICS = {
-  coveringVillain: { minDrop: 5, maxDrop: 15, description: 'Hero cobre vilão — equity drop significativo' },
-  notCovering: { minDrop: 2, maxDrop: 8, description: 'Vilão cobre hero — equity drop parcial (PKO progressivo)' },
-  multiWay: { minDrop: 10, maxDrop: 25, description: 'Multi-way all-in — bounties acumulados ampliam range dramaticamente' },
-  earlyGame: { minDrop: 5, maxDrop: 10, description: 'Início — bounties pequenos relativo ao stack' },
-  lateGame: { minDrop: 10, maxDrop: 20, description: 'Final — bounties inflados, hunting domina' },
+  coveringVillain: { minDrop: 5, maxDrop: 15, description: 'Hero covers villain — significant equity drop' },
+  notCovering: { minDrop: 2, maxDrop: 8, description: 'Villain covers hero — partial equity drop (progressive KO)' },
+  multiWay: { minDrop: 10, maxDrop: 25, description: 'Multi-way all-in — accumulated bounties widen range dramatically' },
+  earlyGame: { minDrop: 5, maxDrop: 10, description: 'Early — bounties small relative to stack' },
+  lateGame: { minDrop: 10, maxDrop: 20, description: 'Late — inflated bounties, hunting dominates' },
 } as const;

@@ -253,7 +253,7 @@ describe('FT_DECISION_MATRIX', () => {
       (e) => e.heroStack === 'chip_leader' && e.opponentStack === 'short',
     );
     expect(entry).toBeDefined();
-    expect(entry!.bias).toContain('Agredir');
+    expect(entry!.bias).toContain('Attack');
   });
 
   it('medium vs chip leader = caution', () => {
@@ -261,6 +261,6 @@ describe('FT_DECISION_MATRIX', () => {
       (e) => e.heroStack === 'medium' && e.opponentStack === 'chip_leader',
     );
     expect(entry).toBeDefined();
-    expect(entry!.bias).toContain('Cautela');
+    expect(entry!.bias).toContain('caution');
   });
 });

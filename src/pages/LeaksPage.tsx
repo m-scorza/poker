@@ -19,11 +19,11 @@ const LEAK_SOURCES: Record<string, { source: string; doc: string }> = {
   pfr: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
   three_bet: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
   cbet_total: { source: '[09-study §4, 04-postflop §2]', doc: 'docs/strategy/04-postflop-strategy.md' },
-  cbet_hu: { source: '[GamePlan, 04-postflop §2]', doc: 'docs/strategy/04-postflop-strategy.md' },
+  cbet_hu: { source: '[Baseline, 04-postflop §2]', doc: 'docs/strategy/04-postflop-strategy.md' },
   wtsd: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
   won_sd: { source: '[09-study §4]', doc: 'docs/strategy/09-study-methods-and-tools.md' },
-  limps: { source: '[GamePlan]', doc: 'docs/strategy/03-preflop-strategy.md' },
-  compliance: { source: '[GamePlan, 02-ranges §3]', doc: 'docs/strategy/02-ranges-and-position.md' },
+  limps: { source: '[Baseline]', doc: 'docs/strategy/03-preflop-strategy.md' },
+  compliance: { source: '[Baseline, 02-ranges §3]', doc: 'docs/strategy/02-ranges-and-position.md' },
   vpip_pfr_gap: { source: '[08-gto §3]', doc: 'docs/strategy/08-gto-and-exploits.md' },
 };
 
@@ -94,7 +94,7 @@ export function LeaksPage() {
       {totalHands === 0 ? (
         <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
           <p className="font-semibold text-white">No leak evidence loaded yet.</p>
-          <p className="mt-2 mb-6 text-sm text-[var(--color-text-dim)]">Import hands or load the local demo to see the prioritized repair queue prospects will understand in seconds.</p>
+          <p className="mt-2 mb-6 text-sm text-[var(--color-text-dim)]">Import hands or load the synthetic demo to see the prioritized leak repair queue.</p>
           <DemoDataButton label="Load demo leak inbox" />
         </div>
       ) : leaks.length === 0 ? (
@@ -102,7 +102,7 @@ export function LeaksPage() {
           <CheckCircle size={32} className="mx-auto mb-3 text-[var(--color-accent)]" />
           <p className="text-[var(--color-accent)] font-semibold mb-1">No leaks detected!</p>
           <p className="text-sm text-[var(--color-text-dim)]">
-            All metrics are within {strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'} profile targets.
+            All metrics are within {strategyProfile === 'game_plan' ? 'Baseline' : 'Advanced'} profile targets.
           </p>
         </div>
       ) : (
@@ -118,7 +118,7 @@ export function LeaksPage() {
             </div>
             <div className="rounded-xl border border-white/10 bg-[var(--color-bg-card)] p-4">
               <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Profile</p>
-              <p className="mt-2 font-data text-xl font-black text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Game Plan' : 'Advanced'}</p>
+              <p className="mt-2 font-data text-xl font-black text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Baseline' : 'Advanced'}</p>
             </div>
           </div>
 

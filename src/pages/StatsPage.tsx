@@ -101,7 +101,7 @@ export function StatsPage() {
             <Trophy size={64} className="text-[var(--color-text-dim)] opacity-10" />
          </div>
          <h2 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Intelligence Pending</h2>
-         <p className="text-[var(--color-text-dim)] max-w-md mb-6">Import your PokerStars hand histories to generate the Elite performance report, or load the safe local demo to inspect BB/100, hand impact, and stake ROI immediately.</p>
+         <p className="text-[var(--color-text-dim)] max-w-md mb-6">Import your PokerStars or GGPoker hand histories to generate the detailed performance report, or load the synthetic demo to inspect BB/100, hand impact, and stake ROI immediately.</p>
          <DemoDataButton label="Load demo audit" />
       </div>
     );

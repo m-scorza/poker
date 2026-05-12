@@ -198,7 +198,7 @@ export function RangesPage() {
                 : 'text-[var(--color-text-dim)] border-[var(--color-border)] hover:border-[var(--color-accent)]'
             }`}
           >
-            <BarChart3 size={12} /> Validação
+            <BarChart3 size={12} /> Validation
           </button>
         </div>
       </div>

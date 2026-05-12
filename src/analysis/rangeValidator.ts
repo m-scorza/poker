@@ -1,7 +1,7 @@
 /**
  * Range accuracy validation against solver outputs.
  *
- * Compares the app's hardcoded RFI ranges (from Reg Life Game Plan)
+ * Compares the app's hardcoded RFI ranges (from the Baseline strategy)
  * against solver-derived baselines (GTO Wizard / HRC references)
  * to identify discrepancies and confidence levels.
  *
@@ -37,7 +37,7 @@ export interface RangeValidationResult {
  * Solver-derived RFI % baselines by position at various stack depths.
  * Source: docs/strategy/02-ranges-and-position.md §3
  *
- * Our Game Plan ranges are designed for early tournament play (~50-75bb),
+ * Our Baseline ranges are designed for early tournament play (~50-75bb),
  * so we compare against the 50bb column primarily.
  */
 const SOLVER_RFI_BASELINES: Record<string, {
@@ -106,11 +106,11 @@ export function validateRFIRanges(
 
     let note: string;
     if (direction === 'match') {
-      note = `Range alinhado com solver (${stackDepth}bb).`;
+      note = `Range aligned with solver (${stackDepth}bb).`;
     } else if (direction === 'wider') {
-      note = `Range ${delta.toFixed(1)}pp mais amplo que solver a ${stackDepth}bb. Game Plan é mais agressivo nesta posição.`;
+      note = `Range ${delta.toFixed(1)}pp wider than solver at ${stackDepth}bb. Baseline is more aggressive at this position.`;
     } else {
-      note = `Range ${delta.toFixed(1)}pp mais tight que solver a ${stackDepth}bb. Game Plan é mais conservador nesta posição.`;
+      note = `Range ${delta.toFixed(1)}pp tighter than solver at ${stackDepth}bb. Baseline is more conservative at this position.`;
     }
 
     results.push({
@@ -149,11 +149,11 @@ export function validatePushRanges(): RangeValidationResult[] {
 
     let note: string;
     if (direction === 'match') {
-      note = `Push range alinhado com solver (10bb chipEV).`;
+      note = `Push range aligned with solver (10bb chipEV).`;
     } else if (direction === 'wider') {
-      note = `Push range ${delta.toFixed(1)}pp mais amplo que solver. Pode aumentar variância.`;
+      note = `Push range ${delta.toFixed(1)}pp wider than solver. May increase variance.`;
     } else {
-      note = `Push range ${delta.toFixed(1)}pp mais tight que solver. Pode estar perdendo EV em push spots.`;
+      note = `Push range ${delta.toFixed(1)}pp tighter than solver. May be leaving EV in push spots.`;
     }
 
     results.push({

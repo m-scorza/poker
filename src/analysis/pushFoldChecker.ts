@@ -51,7 +51,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
-        note: 'Shove correto com mão dentro do range de push.',
+        note: 'Correct shove — hand is within the push range.',
       };
     }
 
@@ -62,7 +62,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
-        note: `${handKey} está fora do range de push para ${position} com ${stackBb.toFixed(0)}bb.`,
+        note: `${handKey} is outside the push range for ${position} at ${stackBb.toFixed(0)}bb.`,
       };
     }
 
@@ -73,7 +73,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
-        note: `${handKey} deveria ser shove de ${position} com ${stackBb.toFixed(0)}bb.`,
+        note: `${handKey} should be a shove from ${position} at ${stackBb.toFixed(0)}bb.`,
       };
     }
 
@@ -84,7 +84,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
-        note: 'Fold correto — mão fora do range de push.',
+        note: 'Correct fold — hand is outside the push range.',
       };
     }
 
@@ -96,7 +96,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
-        note: `Com ${stackBb.toFixed(0)}bb, a estratégia é all-in ou fold — não call.`,
+        note: `At ${stackBb.toFixed(0)}bb the strategy is all-in or fold — not call.`,
       };
     }
   }
@@ -116,7 +116,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
-        note: 'Resteal correto — shove com mão dentro do range de resteal.',
+        note: 'Correct resteal — shove with a hand inside the resteal range.',
       };
     }
 
@@ -127,7 +127,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
-        note: `${handKey} é resteal de ${position} com ${stackBb.toFixed(0)}bb vs open late.`,
+        note: `${handKey} is a resteal from ${position} at ${stackBb.toFixed(0)}bb vs late open.`,
       };
     }
 

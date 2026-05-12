@@ -128,9 +128,9 @@ describe('estimateICMStageFromHand', () => {
 });
 
 describe('icmStageLabel', () => {
-  it('returns Portuguese labels', () => {
-    expect(icmStageLabel('early')).toBe('Início');
-    expect(icmStageLabel('bubble')).toBe('Bolha');
-    expect(icmStageLabel('final_table')).toBe('Mesa Final');
+  it('returns English labels', () => {
+    expect(icmStageLabel('early')).toBe('Early');
+    expect(icmStageLabel('bubble')).toBe('Bubble');
+    expect(icmStageLabel('final_table')).toBe('Final Table');
   });
 });
