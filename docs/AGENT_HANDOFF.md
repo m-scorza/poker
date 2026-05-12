@@ -18,6 +18,36 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+## 2026-05-12 — Janitor sweep: 5-commit dirty-tree triage landed + worktree opened
+
+- Owner / agent: Claude Code (Janitor)
+- Branch / worktree: `phase-6-consolidated-final` at HEAD `42f7fad`; new worktree `claude/validation-track` at `../poker-claude`
+- Scope: Land the 5-commit sequence from `docs/reports/janitor-triage-2026-05-12.md`, then open the parallel worktree per `.claude/agents/janitor.md` Mode 3.
+- Files touched: 23 (Commit A) + 15 (B) + 10 (C) + 16 (D) + 4 (E) = 68 file-touches across 5 commits.
+- Summary:
+  - `44e45a9` Commit A — agent collaboration scaffolding (`.gitattributes`, `.gitignore` additions, `AGENTS.md`, `.agents/`, `.claude/agents/janitor.md`, all `docs/*.md` framework files, triage report).
+  - `ce300c3` Commit B — Phase 7 lazy routing + HandsPage decomp + Career expansion + PWA + 6 previously-orphan source files brought into tracking.
+  - `311cb82` Commit C — Demo UX seed-progress overlay + ConfirmDialog/HandReplay a11y.
+  - `4bd2cef` Commit D — IP-safe copy: `[D#N]` source tags neutralized to `[NN-section §X]`, "Game Plan" → "Baseline profile"; residual English purge across Pages.
+  - `42f7fad` Commit E — `STATUS.md`/`ROADMAP.md`/`CLAUDE.md` doc catch-up + appended Hermes Lane A entry.
+  - Trailing-whitespace strips applied as janitor hygiene during B, C, D (no semantic changes).
+  - Worktree created at `../poker-claude` on `claude/validation-track` for the validation/audit/fixtures tasks defined in the approved plan.
+- Verification:
+  - `npm test -- --run` — 420 passed (32 files), post-E.
+  - `npx tsc -b --pretty false` — clean.
+  - `npm run docs:check` — autogen current.
+  - `git diff --check` — no trailing whitespace / mixed line endings.
+  - `git status --short` — working tree clean.
+- Risks / assumptions:
+  - `package-lock.json` rewrite (~7546+/2788−) bundled into Commit B. Assumed it reflects a deliberate `npm install` for the Phase 7 deps (`@tanstack/react-table`, `@tanstack/react-virtual`, `vite-plugin-pwa`), not corruption. Flag and re-lock if any unexpected dep delta surfaces.
+  - Commit D touched `src/analysis/*` (Hermes's lane). Scope was strictly user-visible strings and source-tag attribution — symmetric +/- counts confirm no logic edits. If Hermes spots any semantic drift on review, revert is trivial.
+- Next action requested:
+  - Hermes — review Commit D string substitutions and Commit B lockfile.
+  - Antigravity — confirm Commit B EOL normalization didn't break any working-tree paths on the IDE side.
+  - User — green-light Task 1 (validation infrastructure under `docs/validation/`) to start in the `../poker-claude` worktree.
+
+---
+
 ## 2026-05-12 — Lane A: Demo Seed Completion Fix (Hermes implementation)
 
 - Owner / agent: Hermes
