@@ -133,24 +133,18 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] Hardcoded hex → CSS variables (`--color-bg-dialog`, `--color-bg-tooltip`,
       `--color-bg-board`, `--color-bg-card-solid`)
 
-**Batch 2 (medium effort) — TODO:**
-- [ ] Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap
-      (HandReplay, ConfirmDialog)
-- [ ] Worker error handling: post `FILE_ERROR` from worker catch, define
-      `WorkerMessage` union type, handle in HandsPage
-- [ ] Analysis-layer Portuguese purge: 7 files (pushFoldChecker, postflopAnalyzer,
-      finalTableAnalyzer, bountyAnalyzer, squeezeDetector, rangeValidator,
-      icmDetector) + `icmDetector.test.ts` assertions
-- [ ] Villain aggregation atomicity: try/catch + repair path for
-      `aggregateVillainStats` in `store.ts`
+**Batch 2 (medium effort):**
+- [x] Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap (Completed)
+- [x] Analysis-layer Portuguese purge: 7 files (pushFoldChecker, postflopAnalyzer, finalTableAnalyzer, bountyAnalyzer, squeezeDetector, rangeValidator, icmDetector) + `icmDetector.test.ts` assertions (Completed)
+- [ ] Worker error handling: post `FILE_ERROR` from worker catch, define `WorkerMessage` union type, handle in HandsPage
+- [x] Villain aggregation atomicity: try/catch + repair path for `aggregateVillainStats` in `store.ts` (Completed)
 
-**Batch 3 (structural) — TODO:**
+**Batch 3 (structural):**
+- [x] Route-level code splitting (React.lazy + Suspense in App.tsx) (Completed)
 - [ ] Component smoke tests (happy-dom + @testing-library/react)
-- [ ] HandsPage decomposition (extract `useHandsFilters`, `HandsTable`,
-      `HandsUpload`, shared `Select`)
-- [ ] Route-level code splitting (React.lazy + Suspense in App.tsx)
+- [x] HandsPage decomposition (extract `HandsTable`, `HandsUpload`, `HandsFilters`, TanStack Virtualization) (Completed)
 - [ ] DualRangeMatrix cell memoization (React.memo `RangeCell`)
-- [ ] DashboardPage query optimization (split monolithic useLiveQuery)
+- [x] DashboardPage query optimization (split monolithic useLiveQuery) (Completed)
 
 ### P3 — Doc / repo hygiene
 - [x] Root cleanup (2026-04-18) — loose scripts moved to `scripts/`,
@@ -164,6 +158,7 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] `CareerPage` + `/career` route (2026-04-19) — basic tournament
       history, ROI / ITM dashboard, profit timeline. Reads `tournaments`
       table directly; no dedicated `careerAnalyzer.ts` module yet.
+- [x] `LifetimeScorecard` + `DayHourHeatmap` components (2026-05-10) — added detailed metrics and profit heatmaps.
 - [ ] Lifetime scorecard, stake progression, bust-out distribution,
       streaks, format breakdown, opponent overlap, rake-adjusted ROI,
       $/hour, day×hour heatmap

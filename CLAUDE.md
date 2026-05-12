@@ -15,8 +15,7 @@ drift still to address.
 - **Financial Accuracy**: `chipsBefore/After` tracking for net PnL, not just gross wins.
 - **Nemesis Tracking**: Automated session and global nemesis detection via `villainDeltas`.
 - **The Oracle & The Mirror**: Side-by-side Range Matrix with Master-Detail interaction.
-- **Localization**: UI migrated to English. Residue remains in ~7 files — see
-  Code Guidelines below.
+- **Localization**: UI and Analysis layers 100% migrated to English.
 - **Actionable Stats**: Performance-driven stats page with tournament ROI and leak cards.
 
 ### ✅ Phase 6: Intelligence & Premium Arena (COMPLETED)
@@ -38,7 +37,7 @@ drift still to address.
 3. **The Arena**: Isometric training simulation in `src/pages/ArenaPage.tsx`.
 4. **Data Persistence**: Starred hands and session stats stored in IndexedDB (Dexie).
 
-**Core principle:** This app does NOT solve GTO in real time. It compares hero's decisions against pre-defined theoretical ranges. The ranges come from the Reg Life coaching program.
+**Core principle:** This app does NOT solve GTO in real time. It compares hero's decisions against pre-defined theoretical ranges.
 
 **Hero name:** `scorza23` (PokerStars screen name).
 
@@ -131,7 +130,7 @@ Seat 1: player1 (button) showed [Kd As] and won (3268)
 
 ---
 
-## Theoretical Ranges (Reg Life Game Plan)
+## Theoretical Ranges (Baseline Game Plan)
 
 RFI ranges apply when folded to hero (no prior raise or limp).
 
@@ -389,11 +388,7 @@ src/
 - TypeScript strict mode. Functional React + hooks. Zustand for state. Dexie for IndexedDB.
 - No external API calls. Unit tests with Vitest (332 tests, 18 files).
 - Variable names in English.
-- UI strings: **target is English**. The 7 UI files flagged in older drafts
-  were purged on 2026-04-18 (TrendChart, LeaksPage, HandsPage, HandReplay,
-  csvExport, pdfExport, villainExploitCrossRef). Residue in analysis-layer
-  `note` strings is tracked in `docs/STATUS.md` — that file is the source
-  of truth for current language status. New code should ship in English.
+- UI strings and Analysis logic: **100% English**. All Portuguese strings were purged on 2026-05-11. New code should ship in English.
 - Do not add docstrings, comments, or error handling for impossible scenarios.
 
 ---
@@ -428,8 +423,8 @@ component (`src/components/shared/RangeGrid.tsx`).
 
 ## Strategy Profiles
 
-### Profile 1: "Game Plan" (Default)
-Binary rules, beginner-friendly. Based on Reg Life Plano de Jogo SNG:
+### Profile 1: "Baseline" (Default)
+Binary rules, beginner-friendly. Based on standard SNG opening ranges:
 - C-bet IP vs BB: 100% at 33% on all boards
 - SB: raise or fold only
 - Facing raise (non-BTN/BB): 3-bet or fold only

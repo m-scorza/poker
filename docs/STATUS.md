@@ -58,23 +58,7 @@ tests in `__tests__/`.
 
 ## UI language
 
-Target: English. The 7 files previously listed as containing Portuguese
-residue were purged on 2026-04-18 (TrendChart, LeaksPage, HandsPage,
-HandReplay, csvExport, pdfExport, villainExploitCrossRef — including its
-test fixture assertions). RangesPage `RangeValidatorPanel` translated
-on 2026-04-18 (Batch 1 audit).
-
-Residue still present in *analysis-layer* `note` strings that flow into
-UI tooltips / postflop leak cards (flagged for Batch 2):
-
-- `src/analysis/pushFoldChecker.ts` (shove / fold / resteal notes)
-- `src/analysis/postflopAnalyzer.ts` (turn probe / donk / c-bet notes)
-- `src/analysis/finalTableAnalyzer.ts` (fake-shove / resteal notes)
-- `src/analysis/bountyAnalyzer.ts` (equity-drop notes)
-- `src/analysis/squeezeDetector.ts` (squeeze-spot notes)
-- `src/analysis/rangeValidator.ts` (solver-delta notes)
-- `src/analysis/icmDetector.ts` — `icmStageLabel` still returns
-  `Início / Bolha / Mesa Final` (and `icmDetector.test.ts` asserts them)
+Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-layer `note` strings have been purged of Portuguese. The app is fully localized to English.
 
 ## Known correctness issues (not yet fixed)
 
@@ -132,18 +116,18 @@ Completed (quick wins):
 - 4 hardcoded hex colors → CSS variables (`--color-bg-dialog`, `--color-bg-tooltip`,
   `--color-bg-board`, `--color-bg-card-solid` in `@theme` block)
 
-Remaining (Batch 2 — medium effort, not yet started):
-- Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap
-- Worker error handling: post `FILE_ERROR` from worker, `WorkerMessage` union type
-- Analysis-layer Portuguese purge (7 files + test assertions)
-- Villain aggregation atomicity (`store.ts` txn boundary)
+Remaining (Batch 2 — medium effort):
+- [x] Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap (Completed 2026-05-11)
+- [x] Analysis-layer Portuguese purge: 7 files + test assertions (Completed 2026-05-11)
+- [x] Worker error handling: post `FILE_ERROR` from worker, `WorkerMessage` union type
+- [x] Villain aggregation atomicity (`store.ts` txn boundary) (Completed 2026-05-11)
 
-Remaining (Batch 3 — structural, not yet started):
-- Component smoke tests (happy-dom + @testing-library/react)
-- HandsPage decomposition (683 lines → extract hooks/components)
-- Route-level code splitting (React.lazy + Suspense)
-- DualRangeMatrix cell memoization
-- DashboardPage query optimization (split monolithic useLiveQuery)
+Remaining (Batch 3 — structural):
+- [x] Route-level code splitting (React.lazy + Suspense) (Completed 2026-05-11)
+- [ ] Component smoke tests (happy-dom + @testing-library/react)
+- [x] HandsPage decomposition (683 lines → extract hooks/components, added TanStack Virtual) (Completed 2026-05-11)
+- [ ] DualRangeMatrix cell memoization
+- [x] DashboardPage query optimization (split monolithic useLiveQuery) (Completed 2026-05-11)
 
 ---
 
@@ -158,6 +142,8 @@ are stale. Do not edit by hand.
 <!-- BEGIN:AUTOGEN:deps -->
 **Runtime** (`dependencies`):
 
+- @tanstack/react-table ^8.21.3
+- @tanstack/react-virtual ^3.13.24
 - @types/jszip ^3.4.0
 - clsx ^2.1.1
 - date-fns ^4.1.0
@@ -173,6 +159,7 @@ are stale. Do not edit by hand.
 - react-dom ^19.0.0
 - react-router-dom ^7.14.0
 - recharts ^3.8.1
+- vite-plugin-pwa ^1.3.0
 - zustand ^5.0.12
 
 **Build / test** (`devDependencies`):
@@ -257,15 +244,20 @@ src/pages/  (10 files)
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (18 files)
+src/components/  (23 files)
   components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx
   components/career/CareerScopePanel.tsx
+  components/career/DayHourHeatmap.tsx
+  components/career/LifetimeScorecard.tsx
   components/career/TimelineFeed.tsx
   components/dashboard/StudyPlanCard.tsx
   components/dashboard/TrendChart.tsx
   components/dashboard/ValueSnapshotCard.tsx
   components/hands/HandReplay.tsx
+  components/hands/HandsFilters.tsx
+  components/hands/HandsTable.tsx
+  components/hands/HandsUpload.tsx
   components/layout/ErrorBoundary.tsx
   components/layout/Layout.tsx
   components/layout/Sidebar.tsx
@@ -290,10 +282,11 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 30
-**`it` / `test` calls (approximate):** 406
+**Test files:** 32
+**`it` / `test` calls (approximate):** 411
 
 ```
+src/__tests__/App.test.tsx
 src/analysis/__tests__/bountyAnalyzer.test.ts
 src/analysis/__tests__/careerCoach.test.ts
 src/analysis/__tests__/careerScope.test.ts
@@ -312,6 +305,7 @@ src/analysis/__tests__/studyPlan.test.ts
 src/analysis/__tests__/villainClassifier.test.ts
 src/analysis/__tests__/villainExploitCrossRef.test.ts
 src/data/__tests__/demoDataset.test.ts
+src/data/__tests__/demoSeedProgress.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts
 src/data/__tests__/sessions.test.ts

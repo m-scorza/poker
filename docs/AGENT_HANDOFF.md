@@ -18,6 +18,24 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+## 2026-05-12 — Lane A: Demo Seed Completion Fix (Hermes implementation)
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `c:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Fix demo seed completion blocker by eliminating heavy repeated IndexedDB villain aggregation during synthetic chunk import (Lane A).
+- Files touched:
+  - `src/data/store.ts`
+  - `src/data/demoDataset.ts`
+  - `src/data/__tests__/demoSeedProgress.test.ts`
+- Summary: Addressed the UI thread timeouts in the final phases of demo import. Modified `importHands()` to accept an `ImportHandsOptions` config with `aggregateVillains` (defaults to true). In `seedDemoDataset()`, the 200-hand chunk import loop now passes `{ aggregateVillains: false }`. After all `10,716` hands are imported across the 54 chunks, a single `await aggregateVillainStats(dataset.handsData)` is called. This drastically reduces IndexedDB overhead, ensuring the final chunks do not freeze the browser.
+- Verification:
+  - `npx tsc -b --pretty false` — Passed.
+  - `npm test -- --run src/data/__tests__/demoSeedProgress.test.ts src/data/__tests__/demoDataset.test.ts src/__tests__/App.test.tsx` — Passed. The test suite now includes a specific assertion verifying that `aggregateVillainStats` runs only once at the end of the demo seed instead of repeatedly.
+- Risks / assumptions:
+  - Default user imports (without the option flag) still aggregate villains synchronously. If a user manually imports an absolutely massive file in one go, they might hit the same performance boundary, but the synthetic chunking behavior is now fixed for the local demo.
+- Next action requested: Final validation and merging of the parallel lanes.
+
+---
 ## 2026-05-12 — Lane B: Private/Local Copy Audit (Clean)
 
 - Owner / agent: Google Antigravity
