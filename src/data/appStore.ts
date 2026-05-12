@@ -33,6 +33,8 @@ export interface AppState {
   activeSessionId: string;
   isImporting: boolean;
   lastImportCount: number | null;
+  isSeedingDemo: boolean;
+  demoProgressMessage: string | null;
 
   // Actions
   setTotalHands: (count: number) => void;
@@ -44,6 +46,7 @@ export interface AppState {
   setImporting: (importing: boolean) => void;
   setLastImportCount: (count: number | null) => void;
   setActiveSessionId: (id: string) => void;
+  setDemoSeedProgress: (isSeeding: boolean, message: string | null) => void;
 }
 
 const DEFAULT_FILTERS: Filters = {
@@ -66,6 +69,8 @@ export const useAppStore = create<AppState>()(
       activeSessionId: 'all',
       isImporting: false,
       lastImportCount: null,
+      isSeedingDemo: false,
+      demoProgressMessage: null,
 
       setTotalHands: (count) => set({ totalHands: count }),
       setTotalTournaments: (count) => set({ totalTournaments: count }),
@@ -77,6 +82,7 @@ export const useAppStore = create<AppState>()(
       setImporting: (importing) => set({ isImporting: importing }),
       setLastImportCount: (count) => set({ lastImportCount: count }),
       setActiveSessionId: (id) => set({ activeSessionId: id }),
+      setDemoSeedProgress: (isSeeding, message) => set({ isSeedingDemo: isSeeding, demoProgressMessage: message }),
     }),
     {
       name: 'poker-app-settings',

@@ -3,7 +3,7 @@
  * Shows board cards, player actions, pot progression, and hero cards.
  */
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef, useCallback } from 'react';
 import { PokerCard } from '../shared/Card';
 import { getPlayersForHand, getActionsForHand, toggleStarHand } from '../../data/store';
 import { Star, ChevronLeft, ChevronRight, X } from 'lucide-react';
@@ -59,6 +59,49 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   const [postflopSpots, setPostflopSpots] = useState<PostflopAction[]>([]);
   const [activeStreet, setActiveStreet] = useState<Street>('preflop');
   const [isStarred, setIsStarred] = useState(hand.isStarred || false);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const previousActiveElement = useRef<Element | null>(null);
+
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (e.key === 'Escape') {
+      onClose();
+      return;
+    }
+    if (e.key === 'Tab' && dialogRef.current) {
+      const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+      const first = focusable[0]!;
+      const last = focusable[focusable.length - 1]!;
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+  }, [onClose]);
+
+  useEffect(() => {
+    previousActiveElement.current = document.activeElement;
+    document.addEventListener('keydown', handleKeyDown);
+    requestAnimationFrame(() => {
+      const first = dialogRef.current?.querySelector<HTMLElement>(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+      first?.focus();
+    });
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      if (previousActiveElement.current instanceof HTMLElement) {
+        previousActiveElement.current.focus();
+      }
+    };
+  }, [handleKeyDown]);
 
   useEffect(() => {
     async function load() {
@@ -106,13 +149,17 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60" onClick={onClose}>
       <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="hand-replay-title"
         className="bg-[var(--color-bg)] border border-[var(--color-border)] rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <div>
-            <h3 className="font-data font-bold text-lg">
+            <h3 id="hand-replay-title" className="font-data font-bold text-lg">
               Hand #{hand.id.slice(-8)}
             </h3>
             <div className="flex items-center gap-2 flex-wrap">
@@ -209,7 +256,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         {/* 2D Graphical Table Representation */}
         <div className="bg-[var(--color-bg-board)] border border-[var(--color-border)] rounded-xl mb-6 relative flex flex-col items-center justify-center p-8 overflow-hidden shadow-lg">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent pointer-events-none"></div>
-          
+
           <div className="absolute top-3 left-4">
              <span className="text-[10px] uppercase text-[var(--color-text-dim)] font-bold tracking-widest">Pot: {hand.totalPot}</span>
           </div>
@@ -221,7 +268,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                </span>
             </div>
           )}
-          
+
           {/* Main Board Center */}
           <div className="flex items-center justify-center gap-2 z-10 my-4 perspective-1000">
             {hand.boardFlop ? (
@@ -233,7 +280,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                     </div>
                   ))}
                 </div>
-                
+
                 {['turn', 'river'].includes(activeStreet) && hand.boardTurn ? (
                   <div className="animate-in zoom-in px-2" style={{ animationDelay: '300ms' }}>
                     <PokerCard card={hand.boardTurn} size="xl" />
@@ -241,7 +288,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                 ) : (
                   <div className="px-2 opacity-30"><PokerCard card="back" size="xl" /></div>
                 )}
-                
+
                 {activeStreet === 'river' && hand.boardRiver ? (
                   <div className="animate-in zoom-in px-2" style={{ animationDelay: '400ms' }}>
                     <PokerCard card={hand.boardRiver} size="xl" />
@@ -262,7 +309,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
         {/* Street tabs with navigation */}
         <div className="flex items-center gap-2 mb-3 w-fit">
-          <button 
+          <button
              onClick={() => {
                const idx = streets.indexOf(activeStreet);
                if (idx > 0) setActiveStreet(streets[idx - 1] as Street);
@@ -273,7 +320,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           >
              <ChevronLeft size={20} />
           </button>
-          
+
           <div className="flex gap-1">
             {streets.map((s) => (
               <button
@@ -291,7 +338,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             ))}
           </div>
 
-          <button 
+          <button
              onClick={() => {
                const idx = streets.indexOf(activeStreet);
                if (idx < streets.length - 1) setActiveStreet(streets[idx + 1] as Street);
@@ -398,7 +445,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           {(() => {
             const opponentsWithCards = players.filter(p => !p.isHero && p.holeCards && p.holeCards.length === 2);
             let heroEquity: number | null = null;
-            
+
             if (hero?.holeCards && hero.holeCards.length === 2 && opponentsWithCards.length > 0) {
               try {
                 const heroGroup = CardGroup.fromString(hero.holeCards.join(''));

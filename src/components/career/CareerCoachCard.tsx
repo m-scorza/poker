@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { AlertTriangle, ArrowRight, Banknote, CheckCircle2, Download, Shield, Target, TrendingDown, TrendingUp } from 'lucide-react';
 import { clsx } from 'clsx';
 import { buildCareerCoachMarkdownReport } from '../../analysis/careerCoach';
@@ -90,7 +89,7 @@ export function CareerCoachCard({ report, onDemoLoaded }: CareerCoachCardProps) 
               Import tournaments to unlock stake-readiness guidance.
             </h2>
             <p className="mt-3 text-sm font-medium leading-6 text-[var(--color-text-dim)]">
-              The paid-MVP value lives here: upload summaries and the app converts ROI, ABI, drawdown,
+              Upload tournament summaries and the app converts ROI, ABI, drawdown,
               leaks, and compliance into a clear move-up / hold / rebuild decision.
             </p>
           </div>
@@ -129,14 +128,8 @@ export function CareerCoachCard({ report, onDemoLoaded }: CareerCoachCardProps) 
                 onClick={downloadMarkdownReport}
                 className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-black uppercase tracking-widest text-[var(--color-text-dim)] transition hover:border-[var(--color-accent)]/40 hover:text-[var(--color-accent)]"
               >
-                <Download size={13} /> Export report
+                <Download size={13} /> Export private review
               </button>
-              <Link
-                to="/pricing"
-                className="inline-flex items-center gap-2 rounded-full border border-[var(--color-accent)]/25 bg-[var(--color-accent)]/10 px-3 py-1 text-[11px] font-black uppercase tracking-widest text-[var(--color-accent)] transition hover:bg-[var(--color-accent)]/20"
-              >
-                Sell this report <ArrowRight size={13} />
-              </Link>
             </div>
             <p className="mt-3 max-w-xl text-sm font-medium leading-6 text-[var(--color-text-dim)]">
               {scoreCopy(report)} This is not bankroll advice; it is a tracked-results risk signal from your imported history.

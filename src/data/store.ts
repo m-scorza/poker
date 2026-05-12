@@ -101,6 +101,10 @@ export async function handExists(handId: string): Promise<boolean> {
 }
 
 /** Bulk import parsed hands with deduplication. Returns count of newly imported hands. */
+export interface ImportHandsOptions {
+  aggregateVillains?: boolean;
+}
+
 export async function importHands(
   hands: Array<{
     hand: Hand;
@@ -109,6 +113,7 @@ export async function importHands(
     tournament: Partial<Tournament>;
     heroDecision?: HeroDecision;
   }>,
+  options: ImportHandsOptions = {},
 ): Promise<number> {
   // Get existing hand IDs for dedup
   const allIds = hands.map((h) => h.hand.id);
@@ -195,8 +200,15 @@ export async function importHands(
     });
   }
 
-  // Aggregate villain stats outside the main transaction to prevent locking
-  await aggregateVillainStats(newHands);
+  if (options.aggregateVillains !== false) {
+    // Aggregate villain stats outside the main transaction to prevent locking
+    try {
+      await aggregateVillainStats(newHands);
+    } catch (error) {
+      console.error('Villain aggregation failed during import. These stats will be missing until a repair is triggered:', error);
+      // Future: trigger a background repair worker or flag the session as needing aggregation
+    }
+  }
 
   return newHands.length;
 }

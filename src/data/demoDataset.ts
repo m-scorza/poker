@@ -1,4 +1,4 @@
-import { importHands, importTournamentSummaries, db } from './store';
+import { aggregateVillainStats, importHands, importTournamentSummaries, db } from './store';
 import type { Action, Hand, PlayerInHand, Tournament } from '../types/hand';
 import type { HeroDecision, Position, Scenario, DeviationType } from '../types/analysis';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
@@ -21,7 +21,17 @@ export interface DemoSeedResult {
   alreadyLoaded: boolean;
 }
 
+export type DemoSeedPhase = 'checking' | 'generating' | 'importing_hands' | 'importing_summaries' | 'done';
+
+export interface DemoSeedProgress {
+  phase: DemoSeedPhase;
+  message: string;
+  progress?: number;
+}
+
 const DEMO_PREFIX = 'DEMO';
+export const DEMO_TOURNAMENT_COUNT = 250;
+export const DEMO_TARGET_HAND_COUNT = 10_000;
 const HERO = 'scorza23';
 const BUY_IN = 1;
 const FEE = 0.1;
@@ -43,7 +53,7 @@ function makeDecision(
   bigBlind: number,
 ): HeroDecision {
   const positions: Position[] = ['BTN', 'CO', 'HJ', 'BB', 'SB'];
-  const scenarios: Scenario[] = ['RFI', 'RFI', 'FACING_RAISE', 'BB_VS_RAISE', 'BLIND_WAR'];
+  const scenarios: Scenario[] = ['RFI', 'RFI', 'RFI', 'RFI', 'RFI'];
   const compliant = (tournamentIndex + handIndex) % 8 !== 0;
   const action: HeroDecision['action'] = compliant
     ? (handIndex === 1 ? 'call' : 'raise')
@@ -121,15 +131,17 @@ function makePlayers(
   });
 }
 
-function makeHandBundle(tournament: Tournament, tournamentIndex: number, handIndex: number, netProfit: number) {
+function makeHandBundle(tournament: Tournament, tournamentIndex: number, handIndex: number, tournamentHandCount: number, netProfit: number) {
   const id = demoHandId(tournamentIndex, handIndex);
   const date = new Date((tournament.startDate ?? new Date()).getTime() + handIndex * 8 * 60 * 1000);
   const bigBlind = 50 + ((tournamentIndex + handIndex) % 6) * 25;
-  const heroDecision = makeDecision(id, handIndex, tournamentIndex, netProfit, bigBlind);
   const smallBlind = bigBlind / 2;
   const villain = `demo_villain_${(tournamentIndex + handIndex) % 9}`;
   const heroChipsBefore = 3000 + ((tournamentIndex + handIndex) % 12) * 160;
-  const heroChipsAfter = heroChipsBefore + Math.round(netProfit * bigBlind);
+  const isEarlyBustoutFinale = tournamentHandCount <= 12 && handIndex === tournamentHandCount - 1;
+  const effectiveNetProfit = isEarlyBustoutFinale ? -Math.ceil(heroChipsBefore / bigBlind) : netProfit;
+  const heroDecision = makeDecision(id, handIndex, tournamentIndex, effectiveNetProfit, bigBlind);
+  const heroChipsAfter = Math.max(0, heroChipsBefore + Math.round(effectiveNetProfit * bigBlind));
   const sawFlop = heroDecision.sawFlop;
 
   const hand: Hand = {
@@ -146,13 +158,13 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
     boardFlop: sawFlop ? ['Qc', '7d', '2c'] : null,
     boardTurn: sawFlop && handIndex === 0 ? 'Ks' : null,
     boardRiver: sawFlop && handIndex === 1 ? '9h' : null,
-    totalPot: Math.max(bigBlind * 3, Math.round(bigBlind * (6 + Math.abs(netProfit)))) ,
+    totalPot: Math.max(bigBlind * 3, Math.round(bigBlind * (6 + Math.abs(effectiveNetProfit)))) ,
     rake: 0,
     hasShowdown: heroDecision.wentToShowdown,
     isStarred: tournamentIndex % 11 === 0 && handIndex === 1,
     heroChipsBefore,
     heroChipsAfter,
-    villainDeltas: [{ name: villain, net: -Math.round(netProfit * bigBlind) }],
+    villainDeltas: [{ name: villain, net: -Math.round(effectiveNetProfit * bigBlind) }],
   };
 
   const players = makePlayers(
@@ -164,7 +176,7 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
     heroChipsBefore,
     heroChipsAfter,
     bigBlind,
-    netProfit,
+    effectiveNetProfit,
   );
   const sbPlayer = players.find((player) => player.position === 'SB')!;
   const bbPlayer = players.find((player) => player.position === 'BB')!;
@@ -178,7 +190,7 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
   const actions: Action[] = [
     { handId: id, street: 'preflop', playerName: sbPlayer.playerName, actionType: 'post_sb', amount: smallBlind, isAllIn: false, sequence: 1 },
     { handId: id, street: 'preflop', playerName: bbPlayer.playerName, actionType: 'post_bb', amount: bigBlind, isAllIn: false, sequence: 2 },
-    { handId: id, street: 'preflop', playerName: HERO, actionType: heroDecision.action, amount: actionAmount, isAllIn: false, sequence: 3 },
+    { handId: id, street: 'preflop', playerName: HERO, actionType: heroDecision.action, amount: isEarlyBustoutFinale ? heroChipsBefore : actionAmount, isAllIn: isEarlyBustoutFinale, sequence: 3 },
   ];
 
   if (heroDecision.action === 'raise') {
@@ -208,12 +220,27 @@ function tournamentReturn(index: number): number {
   return 0;
 }
 
+function demoHandCountForTournament(index: number): number {
+  if (index % 17 === 0) return 96 + (index % 7) * 4;
+  if (index % 5 === 0) return 8 + (index % 4);
+  return 24 + ((index * 13) % 45);
+}
+
+function handProfitShare(tournamentProfit: number, tournamentIndex: number, handIndex: number, tournamentHandCount: number): number {
+  const profile = [1.8, -1.1, 0.7, -0.5, 0.35, -0.25, 0.18, -0.12];
+  const base = profile[(tournamentIndex + handIndex) % profile.length]!;
+  const tournamentSignal = tournamentProfit / tournamentHandCount;
+  const stagePressure = handIndex > tournamentHandCount * 0.75 ? 1.35 : 1;
+
+  return Number((base * stagePressure + tournamentSignal).toFixed(2));
+}
+
 export function buildDemoDataset(): DemoDataset {
-  const tournaments: Tournament[] = Array.from({ length: 40 }, (_, index) => {
+  const tournaments: Tournament[] = Array.from({ length: DEMO_TOURNAMENT_COUNT }, (_, index) => {
     const prize = tournamentReturn(index);
     return {
       id: demoTournamentId(index),
-      name: `Demo Reg Life Sprint #${index + 1}`,
+      name: `Demo Local MTT Session #${index + 1}`,
       category: index % 5 === 0 ? 'Bounty Builder' : 'Regular MTT',
       startDate: new Date(2026, 3, 1 + index, 20, 0, 0),
       buyIn: BUY_IN,
@@ -229,8 +256,10 @@ export function buildDemoDataset(): DemoDataset {
 
   const handsData = tournaments.flatMap((tournament, tournamentIndex) => {
     const profit = (tournament.prize || 0) + (tournament.bounty || 0) - BUY_IN - FEE;
-    const handProfits = [profit * 0.6, profit * 0.3, profit * 0.1];
-    return handProfits.map((netProfit, handIndex) => makeHandBundle(tournament, tournamentIndex, handIndex, netProfit));
+    const handCount = demoHandCountForTournament(tournamentIndex);
+    return Array.from({ length: handCount }, (_, handIndex) => (
+      makeHandBundle(tournament, tournamentIndex, handIndex, handCount, handProfitShare(profit, tournamentIndex, handIndex, handCount))
+    ));
   });
 
   const summaries: ParsedTournamentSummary[] = tournaments.map((tournament) => ({
@@ -248,19 +277,54 @@ export function buildDemoDataset(): DemoDataset {
   return { handsData, summaries };
 }
 
-export async function seedDemoDataset(): Promise<DemoSeedResult> {
-  const dataset = buildDemoDataset();
+export async function seedDemoDataset(onProgress?: (p: DemoSeedProgress) => void): Promise<DemoSeedResult> {
+  onProgress?.({ phase: 'checking', message: 'Checking existing dataset...' });
+
   const [existingDemoHands, existingDemoTournaments] = await Promise.all([
     db.hands.where('id').startsWith(`${DEMO_PREFIX}-H-`).count(),
     db.tournaments.where('id').startsWith(`${DEMO_PREFIX}-T-`).count(),
   ]);
 
-  if (existingDemoHands >= dataset.handsData.length && existingDemoTournaments >= dataset.summaries.length) {
+  if (existingDemoHands > 0 && existingDemoTournaments >= DEMO_TOURNAMENT_COUNT) {
     return { importedHands: 0, summariesCreated: 0, summariesUpdated: 0, alreadyLoaded: true };
   }
 
-  const importedHands = await importHands(dataset.handsData);
+  // Yield to allow UI to update
+  await new Promise(r => setTimeout(r, 10));
+
+  onProgress?.({ phase: 'generating', message: 'Generating synthetic tournaments...' });
+  const dataset = buildDemoDataset();
+
+  await new Promise(r => setTimeout(r, 10));
+
+  let importedHands = 0;
+  const chunkSize = 200;
+
+  for (let i = 0; i < dataset.handsData.length; i += chunkSize) {
+    const chunk = dataset.handsData.slice(i, i + chunkSize);
+    const currentCount = Math.min(dataset.handsData.length, i + chunk.length);
+    const percent = Math.min(100, Math.round((currentCount / dataset.handsData.length) * 100));
+
+    onProgress?.({
+      phase: 'importing_hands',
+      message: `Writing hands locally... ${currentCount.toLocaleString()} / ${dataset.handsData.length.toLocaleString()}`,
+      progress: percent
+    });
+
+    // Yield before each chunk
+    await new Promise(r => setTimeout(r, 25));
+
+    importedHands += await importHands(chunk, { aggregateVillains: false });
+  }
+
+  await aggregateVillainStats(dataset.handsData);
+
+  onProgress?.({ phase: 'importing_summaries', message: 'Finalizing tournament summaries...' });
+  await new Promise(r => setTimeout(r, 10));
+
   const summaryResult = await importTournamentSummaries(dataset.summaries);
+
+  onProgress?.({ phase: 'done', message: 'Demo dataset loaded successfully', progress: 100 });
 
   return {
     importedHands,

@@ -9,7 +9,7 @@ import {
   Users,
   Zap,
   Trophy,
-  DollarSign,
+  Sparkles,
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
@@ -17,7 +17,7 @@ import { useAppStore } from '../../data/appStore';
 const NAV_ITEMS = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/career', icon: Trophy, label: 'Career' },
-  { to: '/pricing', icon: DollarSign, label: 'Pricing' },
+  { to: '/pricing', icon: Sparkles, label: 'Demo' },
   { to: '/hands', icon: Search, label: 'Hands' },
   { to: '/stats', icon: BarChart3, label: 'Statistics' },
   { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
@@ -66,7 +66,7 @@ export function Sidebar() {
           onChange={(e) => setStrategyProfile(e.target.value as any)}
           className="w-full bg-[var(--color-bg-input)] border border-[var(--color-border)] text-[var(--color-accent)] text-xs p-1.5 rounded outline-none font-bold bg-emerald-900/10"
         >
-          <option value="game_plan">Game Plan (GTO)</option>
+          <option value="game_plan">Baseline (GTO)</option>
           <option value="advanced">Advanced (Exploit)</option>
         </select>
       </div>
