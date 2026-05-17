@@ -6,11 +6,8 @@ export interface FileIdentity {
   type: FileType;
 }
 
-/**
- * Identifies the poker site and file type based on content.
- */
 export function identifyFile(content: string): FileIdentity {
-  const normalized = content.trim().slice(0, 4000); // Check the header
+  const normalized = content.trim().slice(0, 65536); // Scan enough for email/export preambles before the first real hand.
   const lower = normalized.toLowerCase();
 
   if (looksLikeOpenHandHistoryJson(normalized)) {

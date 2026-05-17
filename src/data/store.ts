@@ -393,10 +393,13 @@ export async function aggregateVillainStats(
       v.stats.pfr = updateMA(v.stats.pfr, hasPfr ? 100 : 0);
       v.stats.limpPct = updateMA(v.stats.limpPct, hasLimp ? 100 : 0);
       if (has3BetOpp) {
-        // Track 3-bet % only when they had the opportunity
         const prev3Bet = v.stats.threeBetPct;
         // Weight: count 3-bet opps separately
         v.stats.threeBetPct = updateMA(prev3Bet, has3Bet ? 100 : 0);
+      }
+
+      if (v.totalHands % 100 === 0) {
+        await yieldToBrowser();
       }
     }
   }

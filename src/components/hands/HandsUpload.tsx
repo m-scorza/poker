@@ -5,6 +5,8 @@ import { Upload as UploadIcon, CheckCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAppStore } from '../../data/appStore';
 import { importHands, importTournamentSummaries, getTotalHandCount } from '../../data/store';
+import { formatImportSummary } from '../../parser/importSummary';
+import type { ImportSummary } from '../../parser/workerProcessor';
 
 export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
   const [dragOver, setDragOver] = useState(false);
@@ -22,12 +24,14 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const [importProgress, setImportProgress] = useState(0);
   const [currentImportFile, setCurrentImportFile] = useState('');
   const [statsFound, setStatsFound] = useState({ hands: 0, summaries: 0, deviations: 0 });
+  const [importSummary, setImportSummary] = useState<ImportSummary | null>(null);
 
   const processFiles = useCallback(async (files: FileList) => {
     setImporting(true);
     setImportProgress(0);
     setStatsFound({ hands: 0, summaries: 0, deviations: 0 });
     setResults([]);
+    setImportSummary(null);
 
     // Convert FileList to serialized content for the worker
     const fileDataArr: any[] = [];
@@ -80,7 +84,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     const worker = new Worker(new URL('../../parser/worker.ts', import.meta.url), { type: 'module' });
 
     worker.onmessage = async (e: MessageEvent) => {
-      const { type, progress, filename, handsFound, summariesFound, deviationsFound, hands, error } = e.data;
+      const { type, progress, filename, handsFound, summariesFound, deviationsFound, hands, error, importSummary: completedImportSummary } = e.data;
 
       if (type === 'PROGRESS') {
         setImportProgress(progress);
@@ -97,6 +101,10 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           error: error || 'Parser failed on this file. Other files will continue importing.',
         }]);
       } else if (type === 'COMPLETE') {
+        if (completedImportSummary) {
+          setImportSummary(completedImportSummary);
+        }
+
         // Save results to DB
         const [handImported, summaryImported] = await Promise.all([
            importHands(hands),
@@ -153,6 +161,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
   const totalHandNodes = results.filter(r => r.type === 'hand' && !r.error);
   const totalSummaryNodes = results.filter(r => r.type === 'summary' && !r.error);
+  const formattedImportSummary = importSummary ? formatImportSummary(importSummary) : null;
 
   return (
     <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
@@ -192,10 +201,10 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           >
             <div className="flex justify-between items-end mb-1">
               <div className="space-y-1">
-                <p className="text-sm font-bold text-white flex items-center gap-2">
+                <div className="text-sm font-bold text-white flex items-center gap-2">
                   <div className="w-3 h-3 border-2 border-[var(--color-accent)] border-t-transparent rounded-full animate-spin" />
                   Processing History...
-                </p>
+                </div>
                 <p className="text-[10px] text-[var(--color-text-dim)] font-data truncate max-w-[300px]">
                   File: {currentImportFile}
                 </p>
@@ -236,6 +245,24 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
            {results.some(r => r.error) && (
              <div className="rounded-lg border border-red-400/30 bg-red-400/10 p-3 text-xs font-semibold text-red-200">
                Some files need attention. Valid files were still imported when possible.
+             </div>
+           )}
+           {formattedImportSummary && (
+             <div className={clsx(
+               'rounded-lg border p-3 text-xs',
+               formattedImportSummary.tone === 'success' && 'border-emerald-400/30 bg-emerald-400/10 text-emerald-100',
+               formattedImportSummary.tone === 'warning' && 'border-yellow-400/30 bg-yellow-400/10 text-yellow-100',
+               formattedImportSummary.tone === 'danger' && 'border-red-400/30 bg-red-400/10 text-red-100',
+             )}>
+               <div className="font-bold">{formattedImportSummary.title}</div>
+               <div className="mt-1 text-[var(--color-text-muted)]">{formattedImportSummary.detail}</div>
+               {formattedImportSummary.warningPreview.length > 0 && (
+                 <ul className="mt-2 list-disc pl-4 space-y-1">
+                   {formattedImportSummary.warningPreview.map((warning, i) => (
+                     <li key={i}>{warning}</li>
+                   ))}
+                 </ul>
+               )}
              </div>
            )}
            <div className="text-[var(--color-text-dim)] text-xs space-y-1">

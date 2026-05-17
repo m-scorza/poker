@@ -8,6 +8,9 @@ import { LifetimeScorecard } from '../components/career/LifetimeScorecard';
 import { DayHourHeatmap } from '../components/career/DayHourHeatmap';
 import { buildCareerCoachReport } from '../analysis/careerCoach';
 import { buildCareerScopeProfile } from '../analysis/careerScope';
+import { computeBustOutDistribution, computeStakeEvolution } from '../analysis/careerStats';
+import { BustOutChart } from '../components/career/BustOutChart';
+import { StakeTrendChart } from '../components/career/StakeTrendChart';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { useAppStore } from '../data/appStore';
@@ -83,6 +86,14 @@ export function CareerPage() {
     return buildCareerScopeProfile(tournaments);
   }, [tournaments]);
 
+  const bustOutDistribution = useMemo(() => {
+    return computeBustOutDistribution(tournaments);
+  }, [tournaments]);
+
+  const stakeEvolution = useMemo(() => {
+    return computeStakeEvolution(tournaments);
+  }, [tournaments]);
+
   const { timelineEvents, profitHistory } = useMemo(() => {
     const events: TimelineEvent[] = [];
     let runningProfit = 0;
@@ -117,7 +128,7 @@ export function CareerPage() {
             id: `m-${t.id}`,
             type: 'milestone',
             date,
-            title: 'Huge Win Achievement!',
+            title: 'Huge Win Achievement',
             description: `Secured a massive ${Math.round(prize/cost)}x return on ${t.name || t.id}.`,
             value: 'MILESTONE',
             isPositive: true
@@ -153,6 +164,27 @@ export function CareerPage() {
       <CareerCoachCard report={careerCoachReport} onDemoLoaded={loadData} />
 
       <CareerScopePanel profile={careerScopeProfile} />
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="bg-[#0f172a] border border-white/10 rounded-[2rem] p-8 shadow-xl">
+           <h3 className="text-xs font-black text-white uppercase tracking-[0.2em] mb-6 flex items-center gap-2">
+             <Trophy size={14} className="text-amber-400" />
+             Finish Distribution
+           </h3>
+           <div className="h-[240px]">
+             <BustOutChart data={bustOutDistribution} />
+           </div>
+        </div>
+        <div className="bg-[#0f172a] border border-white/10 rounded-[2rem] p-8 shadow-xl">
+           <h3 className="text-xs font-black text-white uppercase tracking-[0.2em] mb-6 flex items-center gap-2">
+             <TrendingUp size={14} className="text-indigo-400" />
+             Stake Evolution (ABI)
+           </h3>
+           <div className="h-[240px]">
+             <StakeTrendChart data={stakeEvolution} />
+           </div>
+        </div>
+      </div>
 
       <CareerDashboard stats={stats} profitHistory={profitHistory} />
 

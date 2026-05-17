@@ -136,12 +136,12 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 **Batch 2 (medium effort):**
 - [x] Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap (Completed)
 - [x] Analysis-layer Portuguese purge: 7 files (pushFoldChecker, postflopAnalyzer, finalTableAnalyzer, bountyAnalyzer, squeezeDetector, rangeValidator, icmDetector) + `icmDetector.test.ts` assertions (Completed)
-- [ ] Worker error handling: post `FILE_ERROR` from worker catch, define `WorkerMessage` union type, handle in HandsPage
+- [x] Worker error handling: `FILE_ERROR` posted from worker catch, `WorkerMessage` union defined in `workerProcessor.ts`, handled in `HandsUpload.tsx` (Completed 2026-05-15)
 - [x] Villain aggregation atomicity: try/catch + repair path for `aggregateVillainStats` in `store.ts` (Completed)
 
 **Batch 3 (structural):**
 - [x] Route-level code splitting (React.lazy + Suspense in App.tsx) (Completed)
-- [ ] Component smoke tests (happy-dom + @testing-library/react)
+- [x] Component smoke tests (happy-dom + @testing-library/react) (Completed 2026-05-12)
 - [x] HandsPage decomposition (extract `HandsTable`, `HandsUpload`, `HandsFilters`, TanStack Virtualization) (Completed)
 - [ ] DualRangeMatrix cell memoization (React.memo `RangeCell`)
 - [x] DashboardPage query optimization (split monolithic useLiveQuery) (Completed)
@@ -158,10 +158,9 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] `CareerPage` + `/career` route (2026-04-19) — basic tournament
       history, ROI / ITM dashboard, profit timeline. Reads `tournaments`
       table directly; no dedicated `careerAnalyzer.ts` module yet.
-- [x] `LifetimeScorecard` + `DayHourHeatmap` components (2026-05-10) — added detailed metrics and profit heatmaps.
-- [ ] Lifetime scorecard, stake progression, bust-out distribution,
-      streaks, format breakdown, opponent overlap, rake-adjusted ROI,
-      $/hour, day×hour heatmap
+- [x] Lifetime scorecard, stake progression, bust-out distribution,
+      rake-adjusted ROI, $/hour (Career hardening pass 2026-05-12)
+- [ ] Streaks, format breakdown, opponent overlap, day×hour heatmap
 - [ ] Decide: fold `StatsPage` into Career, or keep both
 
 ### P4.5 — Multi-site support (in progress)

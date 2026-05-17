@@ -1,9 +1,10 @@
 import { useMemo } from 'react';
-import { Target, Trophy, Clock, CheckCircle } from 'lucide-react';
+import { Trophy, Clock, CheckCircle, Percent, DollarSign, Zap, TrendingDown } from 'lucide-react';
 import { clsx } from 'clsx';
 import type { Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import { getTournamentNet } from '../../analysis/financials';
+import { estimateHourlyRate, computeRakeAdjustedRoi } from '../../analysis/careerStats';
 
 interface LifetimeScorecardProps {
   tournaments: Tournament[];
@@ -25,79 +26,99 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
       if (net < worstLoss) worstLoss = net;
     });
 
-    const vpipHands = decisions.filter(d => d.action !== 'fold');
-    const vpipRate = totalHands > 0 ? (vpipHands.length / totalHands) * 100 : 0;
-
-    const preflopRaises = decisions.filter(d => d.action === 'raise');
-    const pfrRate = totalHands > 0 ? (preflopRaises.length / totalHands) * 100 : 0;
+    const hourlyRate = estimateHourlyRate(tournaments);
+    const technicalRoi = computeRakeAdjustedRoi(tournaments);
 
     return {
       totalHands,
       complianceRate,
       biggestWin,
       worstLoss,
-      vpipRate,
-      pfrRate
+      hourlyRate,
+      technicalRoi
     };
   }, [tournaments, decisions]);
 
   if (metrics.totalHands === 0) return null;
 
   return (
-    <div className="bg-[#15171f] border border-white/5 rounded-2xl p-6">
-      <div className="flex items-center gap-2 mb-6">
-        <Target size={18} className="text-[var(--color-accent)]" />
-        <h3 className="text-sm font-bold text-white uppercase tracking-wider">
-          Lifetime Scorecard
-        </h3>
-      </div>
+    <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0f172a] p-8 shadow-2xl">
+      <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-indigo-500/5 blur-3xl" />
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest font-bold flex items-center gap-1">
-            <Clock size={12} /> Total Hands
-          </span>
-          <span className="text-xl font-data font-bold text-white">
-            {metrics.totalHands.toLocaleString()}
-          </span>
+      <div className="relative z-10 grid gap-8 md:grid-cols-4 lg:grid-cols-6">
+        {/* Main Score */}
+        <div className="md:col-span-2 lg:col-span-2">
+          <div className="flex items-center gap-2 mb-4">
+            <Zap size={16} className="text-cyan-400" />
+            <h3 className="text-xs font-black text-white uppercase tracking-[0.2em]">Efficiency Score</h3>
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-6xl font-black text-white tracking-tighter">
+              {Math.round(metrics.complianceRate)}
+            </span>
+            <span className="text-2xl font-bold text-cyan-400/60">%</span>
+          </div>
+          <p className="mt-2 text-xs font-bold text-[var(--color-text-dim)] uppercase tracking-widest">GTO Compliance Rate</p>
         </div>
 
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest font-bold flex items-center gap-1">
-            <CheckCircle size={12} /> GTO Compliance
-          </span>
-          <span className={clsx("text-xl font-data font-bold", metrics.complianceRate >= 85 ? "text-emerald-400" : "text-amber-400")}>
-            {metrics.complianceRate.toFixed(1)}%
-          </span>
+        {/* Financials */}
+        <div className="space-y-6">
+          <div>
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+              <DollarSign size={10} /> Hourly Rate
+            </div>
+            <div className={clsx("text-xl font-data font-black", metrics.hourlyRate >= 0 ? "text-emerald-400" : "text-rose-400")}>
+              ${metrics.hourlyRate.toFixed(2)}<span className="text-[10px] ml-1 opacity-60">/hr</span>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+              <Percent size={10} /> Technical ROI
+            </div>
+            <div className="text-xl font-data font-black text-white">
+              {metrics.technicalRoi.toFixed(1)}%
+            </div>
+          </div>
         </div>
 
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest font-bold flex items-center gap-1">
-            <Trophy size={12} /> Best Result
-          </span>
-          <span className="text-xl font-data font-bold text-emerald-400">
-            +${Math.round(metrics.biggestWin).toLocaleString()}
-          </span>
+        {/* Volume */}
+        <div className="space-y-6">
+          <div>
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+              <Clock size={10} /> Experience
+            </div>
+            <div className="text-xl font-data font-black text-white">
+              {metrics.totalHands.toLocaleString()}
+            </div>
+            <div className="text-[10px] font-bold text-[var(--color-text-dim)]">Hands Tracked</div>
+          </div>
+          <div>
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+              <CheckCircle size={10} /> Compliance
+            </div>
+            <div className="text-xl font-data font-black text-white">
+              {Math.round((metrics.complianceRate / 100) * metrics.totalHands).toLocaleString()}
+            </div>
+            <div className="text-[10px] font-bold text-[var(--color-text-dim)]">Compliant Decs.</div>
+          </div>
         </div>
 
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest font-bold flex items-center gap-1">
-            <Trophy size={12} /> Worst Result
-          </span>
-          <span className="text-xl font-data font-bold text-red-400">
-            ${Math.round(metrics.worstLoss).toLocaleString()}
-          </span>
-        </div>
-      </div>
-
-      <div className="mt-6 pt-6 border-t border-white/5 flex gap-8">
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest font-bold">VPIP</span>
-          <span className="text-sm font-data text-white">{metrics.vpipRate.toFixed(1)}%</span>
-        </div>
-        <div className="flex flex-col gap-1">
-          <span className="text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest font-bold">PFR</span>
-          <span className="text-sm font-data text-white">{metrics.pfrRate.toFixed(1)}%</span>
+        {/* Best/Worst */}
+        <div className="md:col-span-2 lg:col-span-2 space-y-4">
+           <div className="rounded-2xl bg-emerald-500/10 border border-emerald-500/15 p-4 flex items-center justify-between">
+              <div>
+                <div className="text-[10px] font-black uppercase tracking-widest text-emerald-400/80">Best Score</div>
+                <div className="text-lg font-data font-black text-emerald-400">+${metrics.biggestWin.toLocaleString()}</div>
+              </div>
+              <Trophy className="text-emerald-400/40" size={24} />
+           </div>
+           <div className="rounded-2xl bg-rose-500/10 border border-rose-500/15 p-4 flex items-center justify-between">
+              <div>
+                <div className="text-[10px] font-black uppercase tracking-widest text-rose-400/80">Worst Defeat</div>
+                <div className="text-lg font-data font-black text-rose-400">-${Math.abs(metrics.worstLoss).toLocaleString()}</div>
+              </div>
+              <TrendingDown className="text-rose-400/40" size={24} />
+           </div>
         </div>
       </div>
     </div>

@@ -4,9 +4,9 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-04-19
+**Last verified against source:** 2026-05-15
 **Branch at verification:** `phase-6-consolidated-final`
-**Tests at verification:** 344 / 344 passing (21 files)
+**Tests at verification:** 447 / 447 passing (41 files)
 
 ---
 
@@ -119,12 +119,13 @@ Completed (quick wins):
 Remaining (Batch 2 — medium effort):
 - [x] Dialog accessibility: `role="dialog"`, `aria-modal`, Esc key, focus trap (Completed 2026-05-11)
 - [x] Analysis-layer Portuguese purge: 7 files + test assertions (Completed 2026-05-11)
-- [x] Worker error handling: post `FILE_ERROR` from worker, `WorkerMessage` union type
+- [x] Worker error handling: post `FILE_ERROR` from worker, `WorkerMessage` union type;
+  `COMPLETE` now includes an import-confidence summary (`high`/`medium`/`low`, parsed/failed file counts, capped warnings), and upload UI renders the confidence badge after processing (Completed 2026-05-15)
 - [x] Villain aggregation atomicity (`store.ts` txn boundary) (Completed 2026-05-11)
 
 Remaining (Batch 3 — structural):
 - [x] Route-level code splitting (React.lazy + Suspense) (Completed 2026-05-11)
-- [ ] Component smoke tests (happy-dom + @testing-library/react)
+- [x] Component smoke tests (happy-dom + @testing-library/react) (Completed 2026-05-12)
 - [x] HandsPage decomposition (683 lines → extract hooks/components, added TanStack Virtual) (Completed 2026-05-11)
 - [ ] DualRangeMatrix cell memoization
 - [x] DashboardPage query optimization (split monolithic useLiveQuery) (Completed 2026-05-11)
@@ -159,19 +160,22 @@ are stale. Do not edit by hand.
 - react-dom ^19.0.0
 - react-router-dom ^7.14.0
 - recharts ^3.8.1
-- vite-plugin-pwa ^1.3.0
 - zustand ^5.0.12
 
 **Build / test** (`devDependencies`):
 
 - @tailwindcss/vite ^4.2.2
+- @testing-library/jest-dom ^6.9.1
+- @testing-library/react ^16.3.2
 - @types/react ^19.0.0
 - @types/react-dom ^19.0.0
 - @vitejs/plugin-react ^4.3.4
+- happy-dom ^20.9.0
 - tailwindcss ^4.2.2
 - tsx ^4.21.0
 - typescript ~5.7.2
 - vite ^6.0.0
+- vite-plugin-pwa ^1.3.0
 - vitest ^3.0.0
 <!-- END:AUTOGEN:deps -->
 
@@ -196,20 +200,23 @@ are stale. Do not edit by hand.
 
 <!-- BEGIN:AUTOGEN:src-tree -->
 ```
-src/parser/  (9 files)
+src/parser/  (11 files)
   parser/buyInExtractor.ts
   parser/ggpoker.ts
   parser/handKey.ts
+  parser/importSummary.ts
   parser/openHandHistory.ts
   parser/pokerstars.ts
   parser/position.ts
   parser/siteIdentifier.ts
   parser/tournamentSummary.ts
   parser/worker.ts
-src/analysis/  (18 files)
+  parser/workerProcessor.ts
+src/analysis/  (19 files)
   analysis/bountyAnalyzer.ts
   analysis/careerCoach.ts
   analysis/careerScope.ts
+  analysis/careerStats.ts
   analysis/finalTableAnalyzer.ts
   analysis/financials.ts
   analysis/icmDetector.ts
@@ -225,9 +232,10 @@ src/analysis/  (18 files)
   analysis/studyPlan.ts
   analysis/villainClassifier.ts
   analysis/villainExploitCrossRef.ts
-src/data/  (7 files)
+src/data/  (8 files)
   data/appStore.ts
   data/demoDataset.ts
+  data/demoVillains.ts
   data/pushFoldRanges.ts
   data/ranges.ts
   data/sessions.ts
@@ -244,12 +252,14 @@ src/pages/  (10 files)
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (23 files)
+src/components/  (25 files)
+  components/career/BustOutChart.tsx
   components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx
   components/career/CareerScopePanel.tsx
   components/career/DayHourHeatmap.tsx
   components/career/LifetimeScorecard.tsx
+  components/career/StakeTrendChart.tsx
   components/career/TimelineFeed.tsx
   components/dashboard/StudyPlanCard.tsx
   components/dashboard/TrendChart.tsx
@@ -282,14 +292,15 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 32
-**`it` / `test` calls (approximate):** 411
+**Test files:** 41
+**`it` / `test` calls (approximate):** 438
 
 ```
 src/__tests__/App.test.tsx
 src/analysis/__tests__/bountyAnalyzer.test.ts
 src/analysis/__tests__/careerCoach.test.ts
 src/analysis/__tests__/careerScope.test.ts
+src/analysis/__tests__/careerStats.test.ts
 src/analysis/__tests__/finalTableAnalyzer.test.ts
 src/analysis/__tests__/financials.test.ts
 src/analysis/__tests__/icmDetector.test.ts
@@ -304,6 +315,12 @@ src/analysis/__tests__/squeezeDetector.test.ts
 src/analysis/__tests__/studyPlan.test.ts
 src/analysis/__tests__/villainClassifier.test.ts
 src/analysis/__tests__/villainExploitCrossRef.test.ts
+src/components/career/__tests__/LifetimeScorecard.test.tsx
+src/components/shared/__tests__/Card.test.tsx
+src/components/shared/__tests__/ConfirmDialog.test.tsx
+src/components/shared/__tests__/InfoTooltip.test.tsx
+src/components/shared/__tests__/RangeGrid.test.tsx
+src/components/shared/__tests__/StatCard.test.tsx
 src/data/__tests__/demoDataset.test.ts
 src/data/__tests__/demoSeedProgress.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
@@ -314,10 +331,12 @@ src/parser/__tests__/fixtureSweep.test.ts
 src/parser/__tests__/ggpoker.test.ts
 src/parser/__tests__/ggpoker_robustness.test.ts
 src/parser/__tests__/handKey.test.ts
+src/parser/__tests__/importSummary.test.ts
 src/parser/__tests__/openHandHistory.test.ts
 src/parser/__tests__/pokerstars.test.ts
 src/parser/__tests__/position.test.ts
 src/parser/__tests__/siteIdentifier.test.ts
+src/parser/__tests__/workerImportSummary.test.ts
 ```
 <!-- END:AUTOGEN:tests -->
 

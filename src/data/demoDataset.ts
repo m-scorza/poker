@@ -2,6 +2,7 @@ import { aggregateVillainStats, importHands, importTournamentSummaries, db } fro
 import type { Action, Hand, PlayerInHand, Tournament } from '../types/hand';
 import type { HeroDecision, Position, Scenario, DeviationType } from '../types/analysis';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
+import { DEMO_VILLAINS } from './demoVillains';
 
 export interface DemoDataset {
   handsData: Array<{
@@ -37,6 +38,37 @@ const BUY_IN = 1;
 const FEE = 0.1;
 const SEAT_POSITIONS: Position[] = ['BTN', 'SB', 'BB', 'UTG', 'HJ', 'CO'];
 
+// --- Deterministic RNG ---
+class RNG {
+  private seed: number;
+  constructor(seed: number) { this.seed = seed; }
+  next(): number {
+    this.seed = (this.seed * 1664525 + 1013904223) % 4294967296;
+    return this.seed / 4294967296;
+  }
+  pick<T>(arr: T[]): T { return arr[Math.floor(this.next() * arr.length)]!; }
+  randomInRange(min: number, max: number): number { return min + this.next() * (max - min); }
+}
+
+// --- Demo Manifest ---
+export const DEMO_MANIFEST = {
+  version: '2.0.0',
+  description: 'Realistic synthetic poker world with archetypes and leaks',
+  archetypesIncluded: DEMO_VILLAINS.map(v => v.archetype),
+  intendedHeroLeaks: ['LOW_3BET', 'PASSIVE_STEALING', 'BB_OVERFOLD', 'OPEN_LIMPING'],
+  intendedVillainLeaks: ['FISH_OVERCALLS', 'NIT_OVERFOLDS', 'MANIAC_OVERBLUFFS'],
+  villainCount: DEMO_VILLAINS.length,
+};
+
+// --- Hero Profile (Intentional Leaks) ---
+const HERO_PROFILE = {
+  threeBetFreq: 0.04,        // Too low (Target 7-10%)
+  btnStealFreq: 0.35,        // Too passive (Target 45%+)
+  bbFoldVsRaise: 0.75,       // Too tight (Target 60%)
+  openLimpFreq: 0.05,        // Bad habit (Target 0%)
+  missedCbetFreq: 0.20,      // Missed HU c-bets (Target 0% in Game Plan)
+};
+
 function demoTournamentId(index: number): string {
   return `${DEMO_PREFIX}-T-${String(index + 1).padStart(3, '0')}`;
 }
@@ -45,49 +77,104 @@ function demoHandId(tournamentIndex: number, handIndex: number): string {
   return `${DEMO_PREFIX}-H-${String(tournamentIndex + 1).padStart(3, '0')}-${handIndex + 1}`;
 }
 
+function selectHandKey(rng: RNG): string {
+  const hands = [
+    'AA', 'KK', 'QQ', 'JJ', 'TT', '99', '88', '77', '66', '55', '44', '33', '22',
+    'AKs', 'AQs', 'AJs', 'ATs', 'A9s', 'A8s', 'A7s', 'A6s', 'A5s', 'A4s', 'A3s', 'A2s',
+    'AKo', 'AQo', 'AJo', 'ATo', 'KQs', 'KJs', 'KTs', 'QJs', 'QTs', 'JTs', 'T9s', '98s', '87s', '76s', '65s', '54s',
+    'KQo', 'KJo', 'KTo', 'QJo', 'QTo', 'JTo', '72o', 'T2o', 'J5o', 'Q6o'
+  ];
+  return rng.pick(hands);
+}
+
 function makeDecision(
   handId: string,
-  handIndex: number,
-  tournamentIndex: number,
+  _handIndex: number,
+  _tournamentIndex: number,
   netProfitBb: number,
   bigBlind: number,
+  scenario: Scenario,
+  position: Position,
+  handKey: string,
+  rng: RNG
 ): HeroDecision {
-  const positions: Position[] = ['BTN', 'CO', 'HJ', 'BB', 'SB'];
-  const scenarios: Scenario[] = ['RFI', 'RFI', 'RFI', 'RFI', 'RFI'];
-  const compliant = (tournamentIndex + handIndex) % 8 !== 0;
-  const action: HeroDecision['action'] = compliant
-    ? (handIndex === 1 ? 'call' : 'raise')
-    : (handIndex === 2 ? 'fold' : 'call');
-  const sawFlop = action !== 'fold' && handIndex !== 2;
+  const h = HERO_PROFILE;
+  let action: HeroDecision['action'] = 'fold';
+  let isCompliant = true;
+  let deviationType: DeviationType | null = null;
+
+  // Logic for Hero's decision based on scenario and profile
+  if (scenario === 'RFI') {
+    const isStrong = ['AA', 'KK', 'QQ', 'JJ', 'TT', 'AKs', 'AQs', 'AKo'].includes(handKey);
+    const isMedium = ['99', '88', 'AJs', 'ATs', 'KQs', 'AQo', '77', '66'].includes(handKey);
+    const isStealSpot = ['BTN', 'CO', 'SB'].includes(position);
+
+    if (isStrong || isMedium) {
+      action = 'raise';
+    } else if (isStealSpot && rng.next() < h.btnStealFreq) {
+      action = 'raise';
+    } else if (isStealSpot && rng.next() < 0.1) {
+      // Intentional Leak: Passive stealing
+      action = 'fold';
+      isCompliant = false;
+      deviationType = position === 'SB' ? 'SB_OVERFOLD' : 'OVERFOLD';
+    } else if (rng.next() < h.openLimpFreq) {
+      // Intentional Leak: Open limping
+      action = 'call';
+      isCompliant = false;
+      deviationType = position === 'SB' ? 'SB_LIMPED' : 'LIMPED';
+    }
+  } else if (scenario === 'FACING_RAISE') {
+    const isStrong = ['AA', 'KK', 'QQ', 'AKs'].includes(handKey);
+    if (isStrong) {
+      if (rng.next() < h.threeBetFreq) {
+        action = 'raise';
+      } else {
+        action = 'call'; // Passive 3-betting leak
+      }
+    } else if (rng.next() < 0.15) {
+      action = 'call'; // Cold call leak
+      isCompliant = false;
+      deviationType = 'COLD_CALL';
+    }
+  } else if (scenario === 'BB_VS_RAISE') {
+    const isSuited = handKey.endsWith('s');
+    if (rng.next() < h.bbFoldVsRaise) {
+      action = 'fold';
+      if (isSuited) {
+        isCompliant = false;
+        deviationType = 'BB_FOLD_SUITED';
+      }
+    } else {
+      action = 'call';
+    }
+  }
+
+  const sawFlop = action !== 'fold'; // In these scenarios, check is not possible yet
   const wasPreFlopRaiser = action === 'raise';
   const cbetOpportunity = wasPreFlopRaiser && sawFlop;
-  const cbetMade = cbetOpportunity && tournamentIndex % 6 !== 0;
-  const deviationType: DeviationType | null = compliant
-    ? null
-    : handIndex % 3 === 0
-      ? 'OPENED_OUT_OF_RANGE'
-      : handIndex % 3 === 1
-        ? 'COLD_CALL'
-        : 'BB_FOLD_SUITED';
+
+  // Intentional Leak: Missed HU c-bets
+  const cbetMade = cbetOpportunity && rng.next() > h.missedCbetFreq;
 
   return {
     handId,
-    position: positions[(tournamentIndex + handIndex) % positions.length]!,
-    handKey: ['AKs', 'QJs', '76s', 'A5s', 'TT'][(tournamentIndex + handIndex) % 5]!,
-    stackBb: 18 + ((tournamentIndex + handIndex) % 38),
-    scenario: scenarios[(tournamentIndex + handIndex) % scenarios.length]!,
+    position,
+    handKey,
+    stackBb: 18 + (rng.next() * 40),
+    scenario,
     action,
-    isCompliant: compliant,
+    isCompliant,
     deviationType,
     sawFlop,
     wasPreFlopRaiser,
     cbetOpportunity,
     cbetMade,
     cbetHU: cbetOpportunity,
-    doubleBarrelOpportunity: cbetMade && handIndex === 0,
-    doubleBarrelMade: cbetMade && handIndex === 0 && tournamentIndex % 5 !== 0,
-    wentToShowdown: sawFlop && handIndex === 1,
-    wonAtShowdown: sawFlop && handIndex === 1 && netProfitBb > 0,
+    doubleBarrelOpportunity: cbetMade && rng.next() < 0.3,
+    doubleBarrelMade: cbetMade && rng.next() < 0.15,
+    wentToShowdown: sawFlop && rng.next() < 0.3,
+    wonAtShowdown: sawFlop && netProfitBb > 0,
     wonAmount: Math.max(0, Math.round(140 + netProfitBb * 40)),
     netProfit: Math.round(netProfitBb * bigBlind),
   };
@@ -96,51 +183,56 @@ function makeDecision(
 function makePlayers(
   handId: string,
   heroPosition: Position,
-  villain: string,
-  tournamentIndex: number,
-  handIndex: number,
   heroChipsBefore: number,
   heroChipsAfter: number,
   bigBlind: number,
   netProfit: number,
+  rng: RNG
 ): PlayerInHand[] {
+  // Select a subset of demo villains for this hand
+  const currentVillains = [...DEMO_VILLAINS];
+  const shuffled = currentVillains.sort(() => rng.next() - 0.5);
+
   return SEAT_POSITIONS.map((position, index) => {
     const seatNumber = index + 1;
     const isHero = position === heroPosition;
-    const isMainVillain = position === 'BB' && !isHero;
-    const playerName = isHero
-      ? HERO
-      : isMainVillain
-        ? villain
-        : `demo_${position.toLowerCase().replace(/[^a-z0-9]/g, '_')}_${tournamentIndex % 7}`;
+    const villain = shuffled[index]!;
+    const playerName = isHero ? HERO : villain.name;
 
     return {
       handId,
       seatNumber,
       playerName,
-      chipsBefore: isHero ? heroChipsBefore : 2800 + seatNumber * 120,
+      chipsBefore: isHero ? heroChipsBefore : 2800 + seatNumber * 120 + Math.floor(rng.next() * 500),
       chipsAfter: isHero
         ? heroChipsAfter
-        : isMainVillain
-          ? 3200 - Math.round(netProfit * bigBlind)
-          : 2800 + seatNumber * 120,
+        : 2800 + seatNumber * 120 + Math.floor(rng.next() * 500) - (isHero ? 0 : Math.round(netProfit * bigBlind / 5)), // Approximate
       position,
       isHero,
-      holeCards: isHero ? ['Ah', 'Kh'] : handIndex === 1 && isMainVillain ? ['Qs', 'Qd'] : null,
+      holeCards: isHero ? ['Ah', 'Kh'] : (rng.next() < 0.1 ? ['Qs', 'Qd'] : null),
     };
   });
 }
 
-function makeHandBundle(tournament: Tournament, tournamentIndex: number, handIndex: number, tournamentHandCount: number, netProfit: number) {
+function makeHandBundle(tournament: Tournament, tournamentIndex: number, handIndex: number, tournamentHandCount: number, netProfit: number, rng: RNG) {
   const id = demoHandId(tournamentIndex, handIndex);
   const date = new Date((tournament.startDate ?? new Date()).getTime() + handIndex * 8 * 60 * 1000);
-  const bigBlind = 50 + ((tournamentIndex + handIndex) % 6) * 25;
+  const bigBlind = 50 + ((tournamentIndex + handIndex) % 12) * 25;
   const smallBlind = bigBlind / 2;
-  const villain = `demo_villain_${(tournamentIndex + handIndex) % 9}`;
-  const heroChipsBefore = 3000 + ((tournamentIndex + handIndex) % 12) * 160;
+
+  const heroPosition = rng.pick(SEAT_POSITIONS);
+  const handKey = selectHandKey(rng);
+
+  // Scenarios
+  let scenario: Scenario = 'RFI';
+  if (heroPosition === 'BB') scenario = 'BB_VS_RAISE';
+  else if (rng.next() < 0.3) scenario = 'FACING_RAISE';
+
+  const heroChipsBefore = 3000 + (rng.next() * 5000);
   const isEarlyBustoutFinale = tournamentHandCount <= 12 && handIndex === tournamentHandCount - 1;
   const effectiveNetProfit = isEarlyBustoutFinale ? -Math.ceil(heroChipsBefore / bigBlind) : netProfit;
-  const heroDecision = makeDecision(id, handIndex, tournamentIndex, effectiveNetProfit, bigBlind);
+
+  const heroDecision = makeDecision(id, handIndex, tournamentIndex, effectiveNetProfit, bigBlind, scenario, heroPosition, handKey, rng);
   const heroChipsAfter = Math.max(0, heroChipsBefore + Math.round(effectiveNetProfit * bigBlind));
   const sawFlop = heroDecision.sawFlop;
 
@@ -148,7 +240,7 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
     id,
     tournamentId: tournament.id,
     date,
-    level: 1 + ((tournamentIndex + handIndex) % 12),
+    level: 1 + Math.floor(handIndex / 10),
     smallBlind,
     bigBlind,
     ante: Math.round(bigBlind * 0.1),
@@ -156,51 +248,64 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
     activePlayers: SEAT_POSITIONS.length,
     buttonSeat: SEAT_POSITIONS.indexOf('BTN') + 1,
     boardFlop: sawFlop ? ['Qc', '7d', '2c'] : null,
-    boardTurn: sawFlop && handIndex === 0 ? 'Ks' : null,
-    boardRiver: sawFlop && handIndex === 1 ? '9h' : null,
+    boardTurn: sawFlop && rng.next() < 0.5 ? 'Ks' : null,
+    boardRiver: sawFlop && rng.next() < 0.3 ? '9h' : null,
     totalPot: Math.max(bigBlind * 3, Math.round(bigBlind * (6 + Math.abs(effectiveNetProfit)))) ,
     rake: 0,
     hasShowdown: heroDecision.wentToShowdown,
-    isStarred: tournamentIndex % 11 === 0 && handIndex === 1,
+    isStarred: rng.next() < 0.05,
     heroChipsBefore,
     heroChipsAfter,
-    villainDeltas: [{ name: villain, net: -Math.round(effectiveNetProfit * bigBlind) }],
+    villainDeltas: [],
   };
 
   const players = makePlayers(
     id,
-    heroDecision.position,
-    villain,
-    tournamentIndex,
-    handIndex,
+    heroPosition,
     heroChipsBefore,
     heroChipsAfter,
     bigBlind,
     effectiveNetProfit,
+    rng
   );
-  const sbPlayer = players.find((player) => player.position === 'SB')!;
-  const bbPlayer = players.find((player) => player.position === 'BB')!;
 
+  // Update villain deltas and identify main villain
   const actionAmount = heroDecision.action === 'raise'
-    ? bigBlind * 2
+    ? bigBlind * 2.5
     : heroDecision.action === 'call'
       ? bigBlind
-      : null;
+      : 0;
 
   const actions: Action[] = [
-    { handId: id, street: 'preflop', playerName: sbPlayer.playerName, actionType: 'post_sb', amount: smallBlind, isAllIn: false, sequence: 1 },
-    { handId: id, street: 'preflop', playerName: bbPlayer.playerName, actionType: 'post_bb', amount: bigBlind, isAllIn: false, sequence: 2 },
-    { handId: id, street: 'preflop', playerName: HERO, actionType: heroDecision.action, amount: isEarlyBustoutFinale ? heroChipsBefore : actionAmount, isAllIn: isEarlyBustoutFinale, sequence: 3 },
+    { handId: id, street: 'preflop', playerName: players.find(p => p.position === 'SB')!.playerName, actionType: 'post_sb', amount: smallBlind, isAllIn: false, sequence: 1 },
+    { handId: id, street: 'preflop', playerName: players.find(p => p.position === 'BB')!.playerName, actionType: 'post_bb', amount: bigBlind, isAllIn: false, sequence: 2 },
   ];
 
-  if (heroDecision.action === 'raise') {
-    actions.push({ handId: id, street: 'preflop', playerName: villain, actionType: sawFlop ? 'call' : 'fold', amount: sawFlop ? bigBlind : null, isAllIn: false, sequence: 4 });
+  let currentSeq = 3;
+
+  // Add scenario-based actions
+  if (scenario === 'FACING_RAISE' || scenario === 'BB_VS_RAISE') {
+    const raiserOptions = players.filter(p => !p.isHero && p.position !== 'BB');
+    if (raiserOptions.length > 0) {
+      const raiser = rng.pick(raiserOptions);
+      actions.push({ handId: id, street: 'preflop', playerName: raiser.playerName, actionType: 'raise', amount: bigBlind * 2.2, isAllIn: false, sequence: currentSeq++ });
+    }
+  }
+
+  actions.push({ handId: id, street: 'preflop', playerName: HERO, actionType: heroDecision.action, amount: isEarlyBustoutFinale ? heroChipsBefore : actionAmount, isAllIn: isEarlyBustoutFinale, sequence: currentSeq++ });
+
+  if (heroDecision.action === 'raise' && scenario === 'RFI') {
+    const callerOptions = players.filter(p => !p.isHero);
+    if (callerOptions.length > 0) {
+      const caller = rng.pick(callerOptions);
+      actions.push({ handId: id, street: 'preflop', playerName: caller.playerName, actionType: sawFlop ? 'call' : 'fold', amount: sawFlop ? bigBlind * 2.5 : null, isAllIn: false, sequence: currentSeq++ });
+      hand.villainDeltas.push({ name: caller.playerName, net: -Math.round(effectiveNetProfit * bigBlind) });
+    }
   }
 
   if (sawFlop) {
     actions.push(
-      { handId: id, street: 'flop', playerName: villain, actionType: 'check', amount: null, isAllIn: false, sequence: 5 },
-      { handId: id, street: 'flop', playerName: HERO, actionType: heroDecision.cbetMade ? 'bet' : 'check', amount: heroDecision.cbetMade ? bigBlind * 2 : null, isAllIn: false, sequence: 6 },
+      { handId: id, street: 'flop', playerName: HERO, actionType: heroDecision.cbetMade ? 'bet' : 'check', amount: heroDecision.cbetMade ? bigBlind * 3 : null, isAllIn: false, sequence: currentSeq++ },
     );
   }
 
@@ -213,31 +318,35 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
   };
 }
 
-function tournamentReturn(index: number): number {
-  if (index % 19 === 0) return 18.5;
-  if (index % 11 === 0) return 9.25;
-  if (index % 4 === 0) return 3.4;
+function tournamentReturn(_index: number, rng: RNG): number {
+  const r = rng.next();
+  if (r < 0.05) return 25 + rng.next() * 50; // Big win
+  if (r < 0.15) return 10 + rng.next() * 10; // Medium win
+  if (r < 0.3) return 3 + rng.next() * 5;    // Min cash
   return 0;
 }
 
-function demoHandCountForTournament(index: number): number {
-  if (index % 17 === 0) return 96 + (index % 7) * 4;
-  if (index % 5 === 0) return 8 + (index % 4);
-  return 24 + ((index * 13) % 45);
+function demoHandCountForTournament(_index: number, rng: RNG): number {
+  const r = rng.next();
+  if (r < 0.2) return 8 + Math.floor(rng.next() * 10);  // Early bust
+  if (r < 0.7) return 25 + Math.floor(rng.next() * 30); // Mid run
+  return 80 + Math.floor(rng.next() * 100);            // Deep run
 }
 
 function handProfitShare(tournamentProfit: number, tournamentIndex: number, handIndex: number, tournamentHandCount: number): number {
   const profile = [1.8, -1.1, 0.7, -0.5, 0.35, -0.25, 0.18, -0.12];
   const base = profile[(tournamentIndex + handIndex) % profile.length]!;
   const tournamentSignal = tournamentProfit / tournamentHandCount;
-  const stagePressure = handIndex > tournamentHandCount * 0.75 ? 1.35 : 1;
+  const stagePressure = handIndex > tournamentHandCount * 0.75 ? 1.5 : 1;
 
   return Number((base * stagePressure + tournamentSignal).toFixed(2));
 }
 
 export function buildDemoDataset(): DemoDataset {
+  const internalRng = new RNG(1337); // Dedicated RNG for generation
+
   const tournaments: Tournament[] = Array.from({ length: DEMO_TOURNAMENT_COUNT }, (_, index) => {
-    const prize = tournamentReturn(index);
+    const prize = tournamentReturn(index, internalRng);
     return {
       id: demoTournamentId(index),
       name: `Demo Local MTT Session #${index + 1}`,
@@ -246,9 +355,9 @@ export function buildDemoDataset(): DemoDataset {
       buyIn: BUY_IN,
       fee: FEE,
       format: index % 5 === 0 ? 'PKO' : 'MTT',
-      finishPosition: prize > 0 ? (index % 19 === 0 ? 2 : index % 11 === 0 ? 5 : 18) : null,
+      finishPosition: prize > 0 ? Math.max(1, 20 - Math.floor(prize)) : null,
       prize,
-      bounty: index % 5 === 0 && prize > 0 ? 1.5 : 0,
+      bounty: index % 5 === 0 && prize > 0 ? prize * 0.2 : 0,
       currency: 'USD',
       handsPlayed: 0,
     };
@@ -256,9 +365,9 @@ export function buildDemoDataset(): DemoDataset {
 
   const handsData = tournaments.flatMap((tournament, tournamentIndex) => {
     const profit = (tournament.prize || 0) + (tournament.bounty || 0) - BUY_IN - FEE;
-    const handCount = demoHandCountForTournament(tournamentIndex);
+    const handCount = demoHandCountForTournament(tournamentIndex, internalRng);
     return Array.from({ length: handCount }, (_, handIndex) => (
-      makeHandBundle(tournament, tournamentIndex, handIndex, handCount, handProfitShare(profit, tournamentIndex, handIndex, handCount))
+      makeHandBundle(tournament, tournamentIndex, handIndex, handCount, handProfitShare(profit, tournamentIndex, handIndex, handCount), internalRng)
     ));
   });
 
@@ -292,7 +401,7 @@ export async function seedDemoDataset(onProgress?: (p: DemoSeedProgress) => void
   // Yield to allow UI to update
   await new Promise(r => setTimeout(r, 10));
 
-  onProgress?.({ phase: 'generating', message: 'Generating synthetic tournaments...' });
+  onProgress?.({ phase: 'generating', message: 'Generating synthetic world...' });
   const dataset = buildDemoDataset();
 
   await new Promise(r => setTimeout(r, 10));

@@ -141,6 +141,28 @@ Total pot 20 | Rake 0
     expect(p!.tournament.currency).toBe('USD');
   });
 
+  it('cash-game headers do not infer tournament buy-in from blind amounts', () => {
+    const hand = `PokerStars Hand #333333: Hold'em No Limit ($0.05/$0.10 - $2.50 Cap - USD) - 2026/02/16 20:21:56 UTC [2026/02/16 15:21:56 ET]
+Table 'Isonoe III Cap' 6-max Seat #1 is the button
+Seat 1: scorza23 ($10 in chips)
+Seat 2: villain ($10 in chips)
+scorza23: posts small blind $0.05
+villain: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5h]
+scorza23: folds
+villain collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+`;
+    const [p] = parsePokerStarsFile(hand);
+    expect(p!.hand.tournamentId).toBe('');
+    expect(p!.hand.smallBlind).toBeCloseTo(0.05, 2);
+    expect(p!.hand.bigBlind).toBeCloseTo(0.1, 2);
+    expect(p!.tournament.buyIn).toBe(0);
+    expect(p!.tournament.fee).toBe(0);
+  });
+
   it('header with $250,000 GTD does NOT poison buy-in', () => {
     const hand = baseHand(
       `PokerStars Hand #111111: Tournament #2222, $250,000 GTD $0.98+$0.12 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:16:05 UTC [2026/04/05 14:16:05 ET]`

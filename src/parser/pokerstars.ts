@@ -111,7 +111,9 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
   }
 
-  const extracted = extractBuyIn(tournamentName, headerLine);
+  const extracted = tournamentId
+    ? extractBuyIn(tournamentName, headerLine)
+    : { buyIn: 0, fee: 0, currency: 'USD' as const };
   const buyIn = extracted.buyIn;
   const fee = extracted.fee;
   const currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = extracted.currency;

@@ -18,6 +18,126 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+
+## 2026-05-15 — Hermes import confidence worker summary
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Non-overlapping import reliability/data confidence slice while Antigravity owns Demo Dataset V2 and career UI changes.
+- Files touched:
+  - `src/parser/workerProcessor.ts` — new directly testable worker-processing helper; unknown files now emit per-file errors and final import summaries include total/parsed/failed file counts, found hand/summary counts, confidence, and capped warnings.
+  - `src/parser/worker.ts` — slim browser worker wrapper around `processWorkerFiles()`.
+  - `src/parser/importSummary.ts` — pure formatter for upload confidence badges.
+  - `src/parser/__tests__/workerImportSummary.test.ts` — worker-boundary tests for low-confidence unknown-only uploads and medium-confidence mixed success/failure uploads.
+  - `src/parser/__tests__/importSummary.test.ts` — formatter tests for high/medium confidence copy and warning previews.
+  - `src/parser/siteIdentifier.ts` / `src/parser/__tests__/siteIdentifier.test.ts` — scanner now checks the first 64KB so PokerStars exports with long preambles are not classified as unknown.
+  - `src/components/hands/HandsUpload.tsx` — renders import confidence summary after worker completion.
+  - `docs/product/STATUS.md` — updated verified test count and worker-confidence shipped fact.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- Summary: Started the Import Reliability + Data Confidence lane by making the parser worker completion a data-quality event instead of just a successful payload. Unsupported/unknown files no longer disappear into a successful-looking import: they produce `FILE_ERROR`, warnings, and `low`/`medium` confidence summaries that the upload UI can show.
+- Verification:
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npx vitest run src/parser/__tests__/siteIdentifier.test.ts src/parser/__tests__/importSummary.test.ts src/parser/__tests__/workerImportSummary.test.ts"` — passed, 17 tests.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npx vitest run src/parser/__tests__"` — passed, 109 parser tests.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npx tsc -b --pretty false"` — passed.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npm test -- --run"` — passed, 41 files / 447 tests.
+- Risks / assumptions: The tree already contains Antigravity Demo Dataset V2 / career changes; this entry only claims the import-confidence files above. Worker `COMPLETE.importSummary` is currently transient UI state, not yet persisted to IndexedDB as a durable import-run audit trail.
+- Next action requested: Continue this lane with durable `importRuns` persistence + data health timeline, or have Antigravity/Hermes review the combined worker/demo diff before committing.
+
+---
+
+## 2026-05-15 — Demo Dataset V2: Realistic Synthetic Poker World
+
+- Owner / agent: Google Antigravity
+- Branch / worktree: `phase-6-consolidated-final` at `c:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Upgrade synthetic demo dataset to produce believable archetypes, scenario diversity, and intentional hero leaks for platform validation.
+- Files touched:
+  - `src/data/demoVillains.ts` (NEW) — Defined 10 fictional villains with MDA-based archetypes and tendency weights.
+  - `src/data/demoDataset.ts` — Refactored to use deterministic seeded RNG, scenario templates (RFI, 3-bet, BB defense), and a Hero profile with intentional leaks. Added `DEMO_MANIFEST`.
+  - `src/data/__tests__/demoDataset.test.ts` — Added diversity and leak audits; verified at least 10k hands and multiple archetypes/scenarios.
+  - `src/data/__tests__/demoSeedProgress.test.ts` — Updated to accommodate the new deterministic hand count (15,245).
+  - `src/parser/worker.ts` — Refactored to fix pre-existing type errors and ensure `processWorkerFiles` is exported correctly for tests.
+  - `docs/product/STATUS.md` — Updated verification date and test counts.
+- Summary: Delivered "Demo Dataset V2". The synthetic world now features named villains with stable tendencies (e.g., "Tight Tim", "Loose Leo") and a Hero with detectable leaks (low 3-bet%, passive steals, missed c-bets). This provides immediate visual signal for the Leaks, Villains, and Career pages without requiring real user data. The import remains performant and responsive via chunking.
+- Verification:
+  - `npm test src/data/__tests__/demoDataset.test.ts` — Passed (diversity/leak audits included).
+  - `npm test -- --run` — Passed (443 / 443 tests).
+  - `npx tsc -b --pretty false` — Passed (fixed several pre-existing and introduced type issues).
+  - `npm run docs:update` — Passed.
+- Risks / assumptions: The dataset is deterministic (Seed 1337); changing the seed will change hand counts and potentially break strict count assertions if any remain. Hero leaks are hardcoded in `HERO_PROFILE`.
+- Next action requested: Review the new demo dataset in the UI (Dashboard, Leaks, Villains, Career). Proceed with Career Module refinements or start the "Arena" drill implementation if prioritized.
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Started a non-overlapping Hermes lane after Antigravity cleanup: parser import reliability plus verification/test stabilization. Avoided demo-seed/browser automation rabbit hole and did not expand product/pricing/public-distribution scope.
+- Files touched:
+  - `src/parser/pokerstars.ts` — only call `extractBuyIn()` when a PokerStars tournament id is present; cash-game headers now keep tournament buy-in/fee at zero instead of inferring from blind/cap dollar amounts.
+  - `src/parser/__tests__/buyInExtractor.test.ts` — regression for PokerStars cash-game cap header with `$0.05/$0.10 - $2.50 Cap`.
+  - `src/components/shared/__tests__/*.test.tsx` and `src/components/career/__tests__/LifetimeScorecard.test.tsx` — stabilized Antigravity's new happy-dom component tests by scoping queries to the render container instead of global `screen` where framer-motion/AnimatePresence can leave `document.body` empty in this environment.
+  - `docs/product/STATUS.md` — refreshed verification summary after full suite/build passed.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- What changed: Fixed a concrete import-confidence bug: cash-game PokerStars hands were vulnerable to `extractBuyIn()` reading blind/cap dollar amounts as tournament buy-ins. Also turned the newly added component smoke tests from flaky/failing into passing tests without changing component behavior.
+- Verification run and result:
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npx vitest run src/parser/__tests__/buyInExtractor.test.ts"` — passed, 25 tests.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npx vitest run src/components/career/__tests__/LifetimeScorecard.test.tsx src/components/shared/__tests__/ConfirmDialog.test.tsx"` — passed, 5 tests.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npm test -- --run"` — passed, 39 files / 441 tests.
+  - `npx tsc -b --pretty false` — passed.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npm run docs:check"` — passed.
+  - `git diff --check` — passed.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh && npm run build"` — passed.
+- Risks / assumptions: Full Vitest/build verification was run through Windows `cmd.exe` because this worktree's `node_modules` contains Windows-native optional dependencies; direct WSL Vitest remains a poor signal unless dependencies are reinstalled for WSL. The `src/data/store.ts` Lane A `yieldToBrowser()` change remains Antigravity-owned and still needs a separate Hermes review if we want to keep or replace it.
+- Next recommended action: Review the combined diff once, especially Antigravity's career analytics/store change and Hermes's small parser guard, then decide whether to commit or split into separate commits.
+- Explicit review request: Antigravity or another reviewer should not reopen demo seed/browser automation. If continuing, inspect `src/data/store.ts` in isolation or take the next parser-fixture reliability item.
+
+## 2026-05-12 — Hermes review: Antigravity career expansion request-changes prompt
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Review Google Antigravity's latest career/test/docs diff and create the next prompt without repeating the prior demo-seed/browser-verification rabbit hole.
+- Files touched:
+  - `docs/agents/ANTIGRAVITY_NEXT_PROMPT.md` — ready-to-paste request-changes prompt.
+  - `docs/agents/AGENT_HANDOFF.md` — this review entry.
+- Summary: Request changes. The diff adds career analytics utilities, career charts, a redesigned `LifetimeScorecard`, Testing Library / happy-dom setup, and component tests, but it also overstates the work as "premium SaaS" and marks broad career roadmap items complete despite the current private/local sprint gate. Concrete review findings: `git diff --check` fails on trailing whitespace in `src/components/career/LifetimeScorecard.tsx:47`; `computeRakeAdjustedRoi()` claims fee-excluded / technical ROI but still subtracts fees through `getTournamentNet()` before dividing by buy-in only; docs/handoff overclaim completion; and Antigravity touched `src/data/store.ts`/Lane A with a `yieldToBrowser()` call that should not be expanded or claimed as a verified demo-seed fix.
+- Verification:
+  - `git status --short` — dirty tree includes Antigravity career/test/docs changes plus new `docs/agents/ANTIGRAVITY_NEXT_PROMPT.md` and this handoff edit.
+  - `git diff --stat` / changed-file inspection — reviewed career, store, package/test-config, and docs changes.
+  - Targeted risky-wording search in `src` — no visible Reg Life/Game Plan/D#/dossier/payment/public-sharing issue found beyond already-private `PricingPage` copy.
+  - `git diff --check` — failed: `src/components/career/LifetimeScorecard.tsx:47: trailing whitespace`.
+  - `npx tsc -b --pretty false` — passed.
+  - Targeted Vitest command — blocked by native optional dependency mismatch in WSL (`@rollup/rollup-linux-x64-gnu` missing).
+  - `npm run docs:check` — blocked by Windows `@esbuild/win32-x64` being present while WSL needs `@esbuild/linux-x64`.
+  - `npm install` repair attempt — failed with `ENOENT` creating `node_modules/@esbuild/linux-x64`; no additional working-tree changes observed.
+- Risks / assumptions: I did not run browser automation because the prior rabbit hole was specifically demo-seed/browser verification. Tests may pass in Antigravity's Windows environment but are not currently reproducible from Hermes/WSL until native `node_modules` are repaired or reinstalled in a WSL-safe location.
+- Next action requested: Paste `docs/agents/ANTIGRAVITY_NEXT_PROMPT.md` into Antigravity. It should do only the narrow cleanup pass, update handoff, and stop.
+
+## 2026-05-12 — Career Analytics Hardening & UI Testing (Preview)
+
+- Owner / agent: Google Antigravity
+- Branch / worktree: `phase-6-consolidated-final` at `c:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Career module analytics hardening and component-level smoke testing framework.
+- Files touched:
+  - `src/analysis/careerStats.ts` (Updated computeRakeAdjustedRoi)
+  - `src/components/career/BustOutChart.tsx` (New)
+  - `src/components/career/StakeTrendChart.tsx` (New)
+  - `src/components/career/LifetimeScorecard.tsx` (Updated whitespace)
+  - `src/pages/CareerPage.tsx` (Integration)
+  - `src/data/store.ts` (Lane A Assist: added `yieldToBrowser` - Hermes review required)
+  - `vite.config.ts` (Vitest happy-dom config)
+  - `src/components/shared/__tests__/*.test.tsx` (New smoke tests)
+  - `src/components/career/__tests__/*.test.tsx` (New smoke tests)
+  - `src/analysis/__tests__/careerStats.test.ts` (Updated ROI test)
+  - `docs/product/STATUS.md` & `docs/product/ROADMAP.md` (Progress tracking)
+- Summary:
+  1. **Career Analytics Hardening**: Implemented `computeBustOutDistribution`, `computeStakeEvolution` (ABI), `estimateHourlyRate`, and a fee-excluded `computeRakeAdjustedRoi` (Technical ROI).
+  2. **UI Hardening**: Delivered a glassmorphic redesign of `LifetimeScorecard` and new Recharts visualizers for finish distribution and stake progression. Fixed trailing whitespace in `LifetimeScorecard.tsx`.
+  3. **Testing Suite**: Configured Vitest + `happy-dom` and established a smoke-testing suite with 15+ tests across shared and career components.
+  4. **Lane A Note**: Added `yieldToBrowser` to `aggregateVillainStats` to assist with UI responsiveness. **Hermes must separately verify or replace this store change.**
+- Verification (Executed in Windows/Antigravity environment):
+  - `npx vitest run src/analysis/__tests__/careerStats.test.ts` — Passed.
+  - `npx tsc -b --pretty false` — Passed.
+  - `git diff --check` — Passed.
+- Risks / assumptions: `LifetimeScorecard.test.tsx` expects specific text ("Efficiency Score"). Native dependency mismatch may prevent Vitest from running in WSL until repaired.
+- Next action requested: Hermes review requested for the neutralized career/test/docs diff and the `yieldToBrowser` assist in `store.ts`.
+
 ## 2026-05-12 — Janitor: docs/ reorg into purpose-buckets (commit 85c756d)
 
 - Owner / agent: Claude Code (Janitor)

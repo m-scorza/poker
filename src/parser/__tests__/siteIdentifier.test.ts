@@ -9,6 +9,13 @@ describe('identifyFile', () => {
     expect(result.type).toBe('hand_history');
   });
 
+  it('detects PokerStars hand histories when the signature appears after a large email/export preamble', () => {
+    const content = `${'Export preamble\n'.repeat(450)}PokerStars Hand #259749325924: Tournament #3974723402...`;
+    const result = identifyFile(content);
+    expect(result.site).toBe('pokerstars');
+    expect(result.type).toBe('hand_history');
+  });
+
   it('identifies PokerStars Tournament Summary', () => {
     const content = 'PokerStars Tournament #3974723402, Summary...';
     const result = identifyFile(content);
