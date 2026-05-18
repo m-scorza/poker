@@ -126,6 +126,7 @@ export function VillainsPage() {
           <input
             type="text"
             placeholder="Search player..."
+            aria-label="Search player by name"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="pl-8 pr-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
@@ -134,6 +135,7 @@ export function VillainsPage() {
         <select
           value={archetypeFilter}
           onChange={(e) => setArchetypeFilter(e.target.value as VillainArchetype | '')}
+          aria-label="Filter by player archetype"
           className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] focus:outline-none focus:border-[var(--color-accent)]"
         >
           <option value="">All types</option>
@@ -150,7 +152,7 @@ export function VillainsPage() {
       </div>
 
       {loading ? (
-        <div className="text-[var(--color-text-dim)] flex items-center gap-2">
+        <div className="text-[var(--color-text-dim)] flex items-center gap-2" role="status" aria-label="Loading villains">
           <div className="w-4 h-4 border-2 border-[var(--color-accent)] border-t-transparent rounded-full animate-spin" />
           Loading...
         </div>
@@ -393,6 +395,7 @@ function VillainDetailPanel({
                 onChange={(e) => setCustomTag(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && addCustomTag()}
                 placeholder="Custom tag..."
+                aria-label="Add custom tag"
                 className="flex-1 px-2 py-1 text-[10px] bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
               />
               <button
@@ -417,6 +420,7 @@ function VillainDetailPanel({
           onChange={(e) => setNotes(e.target.value)}
           onBlur={handleNotesBlur}
           placeholder="Observations about the player..."
+          aria-label="Player notes"
           rows={3}
           className="w-full px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)] resize-y"
         />

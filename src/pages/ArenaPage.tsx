@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2, type LucideIcon } from 'lucide-react';
 import { clsx } from 'clsx';
@@ -30,6 +30,7 @@ export function ArenaPage() {
 
   const { strategyProfile } = useAppStore();
   const [allDecisions, setAllDecisions] = useState<HeroDecision[]>([]);
+  const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Load pool of decisions to draw from
   useEffect(() => {
@@ -38,6 +39,14 @@ export function ArenaPage() {
       setAllDecisions(data);
     }
     load();
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (advanceTimerRef.current !== null) {
+        clearTimeout(advanceTimerRef.current);
+      }
+    };
   }, []);
 
   const startDrill = (type: DrillType) => {
@@ -118,7 +127,11 @@ export function ArenaPage() {
       }
     }));
 
-    setTimeout(() => {
+    if (advanceTimerRef.current !== null) {
+      clearTimeout(advanceTimerRef.current);
+    }
+    advanceTimerRef.current = setTimeout(() => {
+      advanceTimerRef.current = null;
       nextHand();
     }, 2000);
   };

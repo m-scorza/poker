@@ -93,6 +93,9 @@ db.version(3).stores({
   });
 });
 
+// v4 is reserved/no-op: keeps the version sequence contiguous so any user DB
+// that landed on v4 in earlier builds still upgrades cleanly to v5+.
+// Do not delete — Dexie requires the version chain to be unbroken.
 db.version(4).stores({});
 
 // Import audit history: completed import runs and their data-confidence metadata.

@@ -69,7 +69,8 @@ function depsBlock(): string {
 
 function routesBlock(): string {
   const src = readFileSync(APP_PATH, 'utf-8');
-  const re = /<Route\s+path=["']([^"']+)["']\s+element=\{<(\w+)/g;
+  // Match `element={<Foo` or `element={page(<Foo` (any wrapper helper).
+  const re = /<Route\s+path=["']([^"']+)["']\s+element=\{[^<]*<(\w+)/g;
   const rows: Array<[string, string]> = [];
   let m;
   while ((m = re.exec(src)) !== null) rows.push([m[1]!, m[2]!]);

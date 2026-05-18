@@ -104,6 +104,7 @@ export function estimateBountyContext(
   villain: PlayerInHand | null,
   tournamentType: BountyTournamentType,
   buyIn: number,
+  startingStack?: number,
 ): BountyContext | null {
   if (tournamentType === 'regular') return null;
 
@@ -131,10 +132,17 @@ export function estimateBountyContext(
   // Calculate coverage
   const heroCoversVillain = villain ? hero.chipsBefore >= villain.chipsBefore : false;
 
-  // Estimate equity drop
-  // Convert bounty $ to chip equivalent (rough: bounty$ / buyIn$ * startingStack)
-  const startingStack = 1500; // PokerStars default starting stack
-  const bountyChipValue = buyIn > 0 ? (estimatedBounty / buyIn) * startingStack : 0;
+  // Convert bounty $ to chip equivalent.
+  // Prefer the caller-supplied tournament starting stack; otherwise back-derive
+  // a fallback from the current blinds (≈75bb is a common MTT start) so that
+  // larger-start tournaments don't get the legacy 1 500-chip under-estimate.
+  const effectiveStartingStack =
+    startingStack && startingStack > 0
+      ? startingStack
+      : hand.bigBlind > 0
+        ? hand.bigBlind * 75
+        : 1500;
+  const bountyChipValue = buyIn > 0 ? (estimatedBounty / buyIn) * effectiveStartingStack : 0;
   const potEstimate = hand.totalPot > 0 ? hand.totalPot : hand.bigBlind * 5;
 
   const equityDrop = calculateBPWR(

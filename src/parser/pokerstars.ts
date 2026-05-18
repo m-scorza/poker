@@ -20,7 +20,7 @@ const RE_HAND_ID = /Hand #(\d+)/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
 const RE_LEVEL_BLINDS = /Level [IVXLCDM]+ \((\d+)\/(\d+)\)/;
 const RE_CASH_BLINDS = /\(\$(\d+(?:\.\d+)?)\/\$(\d+(?:\.\d+)?)/;
-const RE_DATE = /(\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}:\d{2})\s+\w+/;
+const RE_DATE = /(\d{4})\/(\d{2})\/(\d{2}) (\d{2}):(\d{2}):(\d{2})\s+\w+/;
 const RE_TABLE_FORMAT = /(\d+)-max/;
 const RE_BUTTON_SEAT = /Seat #(\d+) is the button/;
 const RE_SEAT = /Seat (\d+): (.+?) \(\$?([\d,]+(?:\.\d+)?) in chips/;
@@ -134,7 +134,14 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
   const dateMatch = RE_DATE.exec(headerLine);
   if (!dateMatch) return null; // Bug #6: Require valid date
-  const date = new Date(dateMatch[1]! + ' UTC');
+  const date = new Date(Date.UTC(
+    parseInt(dateMatch[1]!, 10),
+    parseInt(dateMatch[2]!, 10) - 1,
+    parseInt(dateMatch[3]!, 10),
+    parseInt(dateMatch[4]!, 10),
+    parseInt(dateMatch[5]!, 10),
+    parseInt(dateMatch[6]!, 10),
+  ));
 
   // --- Table line ---
   const tableLine = lines[1];
