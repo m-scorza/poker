@@ -62,14 +62,14 @@ body {
 }
 
 /* Glassmorphism primitives */
-.bg-\[var\(--color-bg-card\)\] {
+@utility glass-card {
   background: var(--color-bg-card);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   box-shadow: 0 4px 24px -4px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
-.bg-\[var\(--color-bg-sidebar\)\] {
+@utility glass-sidebar {
   background: var(--color-bg-sidebar);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
@@ -77,7 +77,7 @@ body {
 }
 
 /* Monospace data display */
-.font-data {
+@utility font-data {
   font-family: var(--font-mono);
   letter-spacing: -0.02em;
 }

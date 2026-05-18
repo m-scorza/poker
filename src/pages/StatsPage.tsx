@@ -13,6 +13,8 @@ import { db } from '../data/store';
 import { Trophy, UserX, Flame, DollarSign, History } from 'lucide-react';
 import { clsx } from 'clsx';
 import { groupIntoSessions } from '../data/sessions';
+import { getTournamentCost, getTournamentRevenue } from '../analysis/financials';
+import { ratioPct } from '../utils/format';
 
 export function StatsPage() {
   const { strategyProfile, activeSessionId } = useAppStore();
@@ -62,8 +64,8 @@ export function StatsPage() {
     // Calculate Tournament ROI by Buy-in
     const buyInStats = new Map<string, { buyIns: number; prizes: number; count: number; cashes: number; profit: number }>();
     for (const t of filteredTournaments) {
-       const cost = t.buyIn + t.fee;
-       const revenue = (t.prize ?? 0) + (t.bounty ?? 0);
+       const cost = getTournamentCost(t);
+       const revenue = getTournamentRevenue(t);
        const profit = revenue - cost;
        const key = cost > 0 ? `$${cost.toFixed(2)}` : 'Freeroll';
        
@@ -108,7 +110,7 @@ export function StatsPage() {
   }
 
   const { stats: s, buyInSummary, topNemesis, bigHands, bb100 } = data;
-  const pct = (n: number, d: number) => (d === 0 ? '0%' : `${((n / d) * 100).toFixed(1)}%`);
+  const pct = (n: number, d: number) => ratioPct(n, d, '0%');
 
   return (
     <div className="space-y-10 pb-20">
@@ -128,7 +130,7 @@ export function StatsPage() {
       </header>
 
       {/* ROI by Buy-in Breakdown */}
-      <section className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl overflow-hidden shadow-xl">
+      <section className="glass-card border border-[var(--color-border)] rounded-2xl overflow-hidden shadow-xl">
          <div className="px-6 py-5 border-b border-[var(--color-border)] bg-black/40 flex items-center justify-between">
             <h3 className="text-sm font-black uppercase tracking-widest text-emerald-400 flex items-center gap-2">
                <DollarSign size={18} /> Financial Tier Analysis
@@ -172,7 +174,7 @@ export function StatsPage() {
 
       {/* Major Wins & Losses Table */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-         <section className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl overflow-hidden shadow-lg">
+         <section className="glass-card border border-[var(--color-border)] rounded-2xl overflow-hidden shadow-lg">
             <div className="px-6 py-4 border-b border-[var(--color-border)] bg-black/40 flex items-center justify-between">
                <h3 className="text-sm font-black uppercase tracking-widest text-blue-400 flex items-center gap-2">
                   <Flame size={18} /> High Impact Hands
@@ -206,7 +208,7 @@ export function StatsPage() {
          </section>
 
          {/* Predator Hall of Fame */}
-         <section className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl overflow-hidden shadow-lg">
+         <section className="glass-card border border-[var(--color-border)] rounded-2xl overflow-hidden shadow-lg">
             <div className="px-6 py-4 border-b border-[var(--color-border)] bg-black/40 flex items-center justify-between text-rose-400">
                <h3 className="text-sm font-black uppercase tracking-widest flex items-center gap-2">
                   <UserX size={18} /> Global Predators

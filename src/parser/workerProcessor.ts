@@ -21,6 +21,8 @@ export interface WorkerFilePayload {
   content: string;
 }
 
+export const MAX_PARSER_INPUT_BYTES = 20 * 1024 * 1024;
+
 export type ImportConfidence = 'high' | 'medium' | 'low';
 
 export interface ImportSummary {
@@ -78,6 +80,11 @@ export async function processWorkerFiles(
 
   for (const file of files) {
     try {
+      if (file.content.length > MAX_PARSER_INPUT_BYTES) {
+        recordFileError(file, `File body exceeded parser limit (${(file.content.length / (1024 * 1024)).toFixed(1)} MB > ${(MAX_PARSER_INPUT_BYTES / (1024 * 1024)).toFixed(0)} MB).`);
+        processedFiles++;
+        continue;
+      }
       const identity = identifyFile(file.content);
 
       if (identity.type === 'unknown') {

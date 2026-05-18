@@ -52,10 +52,13 @@ const RE_BOUNTY_WINS = /^(.+?) wins (?:the )?(?:\$([\d.]+)|[\d.]+|) (?:bounty )?
  * Parse a PokerStars hand history file into structured data.
  * Handles BOM encoding (Bug #6) and deduplicates by hand ID (Bug #5).
  */
+export const MAX_HAND_HISTORY_INPUT_BYTES = 20 * 1024 * 1024;
+
 export function parsePokerStarsFile(
   fileContent: string,
   heroName: string = 'scorza23',
 ): ParsedHand[] {
+  if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return [];
   // Bug #6: Strip UTF-8 BOM + normalize line endings (CRLF → LF)
   const content = fileContent
     .replace(/^\uFEFF/, '')

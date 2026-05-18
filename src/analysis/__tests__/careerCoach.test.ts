@@ -116,6 +116,21 @@ describe('buildCareerCoachReport', () => {
     expect(leakReport.nextActions.some((action) => action.includes('C-bet HU'))).toBe(true);
   });
 
+  it('excludes non-cash PLAY and TICKET tournaments from career financial totals', () => {
+    const tournaments = [
+      makeTournament(1, { buyIn: 10, fee: 1, prize: 0, bounty: 4, currency: 'USD' }),
+      makeTournament(2, { buyIn: 1000, fee: 0, prize: 5000, bounty: 250, currency: 'PLAY' }),
+      makeTournament(3, { buyIn: 50, fee: 5, prize: 200, bounty: 25, currency: 'TICKET' }),
+    ];
+
+    const report = buildCareerCoachReport(tournaments, [], []);
+
+    expect(report.totalBuyIns).toBeCloseTo(11);
+    expect(report.totalPrizes).toBeCloseTo(4);
+    expect(report.trackedProfit).toBeCloseTo(-7);
+    expect(report.roi).toBeCloseTo((-7 / 11) * 100);
+  });
+
   it('exports a concise markdown report suitable for sharing with a prospect or coach', () => {
     const tournaments = Array.from({ length: 35 }, (_, i) => makeTournament(i + 1, {
       prize: i % 4 === 0 ? 6 : 0,

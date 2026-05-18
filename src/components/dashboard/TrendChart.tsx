@@ -33,7 +33,7 @@ interface TrendChartProps {
 export function TrendChart({ data, metrics, height = 300, yDomain = [0, 100] }: TrendChartProps) {
   if (data.length === 0) {
     return (
-      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
+      <div className="glass-card border border-[var(--color-border)] rounded-xl p-8 text-center">
         <p className="text-[var(--color-text-muted)] text-sm">
           Not enough data for a trend chart. Import more sessions.
         </p>

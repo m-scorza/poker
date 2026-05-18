@@ -4,9 +4,9 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-05-15
+**Last verified against source:** 2026-05-17
 **Branch at verification:** `phase-6-consolidated-final`
-**Tests at verification:** 447 / 447 passing (41 files)
+**Tests at verification:** 482 / 482 passing (43 files)
 
 ---
 
@@ -23,6 +23,7 @@
 | `/villains` | `VillainsPage` | Auto-classified archetypes, manual notes |
 | `/arena` | `ArenaPage` | Training drills |
 | `/career` | `CareerPage` | Tournament history, ROI / ITM dashboard, profit timeline |
+| `/pricing` | `PricingPage` | Neutralized local validation/demo page; not a public SaaS funnel |
 
 ## Pages / files *not* in the repo (despite older docs saying so)
 
@@ -90,8 +91,9 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
    `DashboardPage`, `HandsPage`, and `StatsPage`.
 7. **Non-standard variants untested** — parser behaviour on Zoom, Cap,
    6+ Hold'em, play-money fixtures is not asserted.
-8. **`aggregateVillainStats` outside txn** — `store.ts:155` runs after the
-   Dexie transaction; failure leaves stale villain profiles.
+8. **Villain aggregation atomicity** — ✅ FIXED 2026-05-11. The import path
+   now handles villain aggregation failures with a repair route instead of
+   leaving silent stale profiles.
 
 ## Repo hygiene
 
@@ -232,10 +234,11 @@ src/analysis/  (19 files)
   analysis/studyPlan.ts
   analysis/villainClassifier.ts
   analysis/villainExploitCrossRef.ts
-src/data/  (8 files)
+src/data/  (9 files)
   data/appStore.ts
   data/demoDataset.ts
   data/demoVillains.ts
+  data/localStorage.ts
   data/pushFoldRanges.ts
   data/ranges.ts
   data/sessions.ts
@@ -278,8 +281,9 @@ src/components/  (25 files)
   components/shared/InfoTooltip.tsx
   components/shared/RangeGrid.tsx
   components/shared/StatCard.tsx
-src/utils/  (2 files)
+src/utils/  (3 files)
   utils/csvExport.ts
+  utils/format.ts
   utils/pdfExport.ts
 src/types/  (4 files)
   types/analysis.ts
@@ -292,8 +296,8 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 41
-**`it` / `test` calls (approximate):** 438
+**Test files:** 43
+**`it` / `test` calls (approximate):** 473
 
 ```
 src/__tests__/App.test.tsx
@@ -323,6 +327,7 @@ src/components/shared/__tests__/RangeGrid.test.tsx
 src/components/shared/__tests__/StatCard.test.tsx
 src/data/__tests__/demoDataset.test.ts
 src/data/__tests__/demoSeedProgress.test.ts
+src/data/__tests__/localStorage.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts
 src/data/__tests__/sessions.test.ts
@@ -336,6 +341,7 @@ src/parser/__tests__/openHandHistory.test.ts
 src/parser/__tests__/pokerstars.test.ts
 src/parser/__tests__/position.test.ts
 src/parser/__tests__/siteIdentifier.test.ts
+src/parser/__tests__/uploadSizeGuards.test.ts
 src/parser/__tests__/workerImportSummary.test.ts
 ```
 <!-- END:AUTOGEN:tests -->

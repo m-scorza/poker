@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, BrainCircuit, Flame, ShieldCheck, TrendingUp } from 'lucide-react';
 import { clsx } from 'clsx';
 import type { CareerCoachReport } from '../../analysis/careerCoach';
+import { money, pct } from '../../utils/format';
 
 interface ValueSnapshotCardProps {
   report: CareerCoachReport;
@@ -15,14 +16,6 @@ const verdictStyles: Record<CareerCoachReport['recommendation'], string> = {
   'Move Down / Rebuild': 'from-rose-500/25 via-rose-500/10 to-[var(--color-bg-card)] border-rose-400/40 text-rose-300',
   'Need More Sample': 'from-blue-500/25 via-blue-500/10 to-[var(--color-bg-card)] border-blue-400/40 text-blue-300',
 };
-
-function money(value: number): string {
-  return `$${value.toFixed(2)}`;
-}
-
-function pct(value: number | null): string {
-  return value === null ? '—' : `${value.toFixed(1)}%`;
-}
 
 function scoreLabel(score: number): string {
   if (score >= 75) return 'Shot-ready';

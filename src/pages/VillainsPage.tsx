@@ -9,6 +9,7 @@ import { clsx } from 'clsx';
 import { Search, Users, Tag, MessageSquare, X, Plus } from 'lucide-react';
 import { db, saveVillainNote, getAllVillainNotes } from '../data/store';
 import { getExploitAdvice, isRecreational } from '../analysis/villainClassifier';
+import { pct } from '../utils/format';
 import type { VillainArchetype, ArchetypeConfidence, VillainStats } from '../types/villain';
 
 interface VillainRow {
@@ -111,8 +112,6 @@ export function VillainsPage() {
     return result;
   }, [villains, search, archetypeFilter]);
 
-  const pct = (n: number) => `${n.toFixed(1)}%`;
-
   return (
     <div>
       <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
@@ -156,13 +155,13 @@ export function VillainsPage() {
           Loading...
         </div>
       ) : villains.length === 0 ? (
-        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
+        <div className="glass-card border border-[var(--color-border)] rounded-xl p-8 text-center">
           <p className="text-[var(--color-text-dim)]">Import hands to track villains.</p>
         </div>
       ) : (
         <>
           {/* Table */}
-          <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl overflow-hidden">
+          <div className="glass-card border border-[var(--color-border)] rounded-xl overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
@@ -259,8 +258,6 @@ function VillainDetailPanel({
   const [showTagPicker, setShowTagPicker] = useState(false);
   const [customTag, setCustomTag] = useState('');
 
-  const pct = (n: number) => `${n.toFixed(1)}%`;
-
   const saveNotesAndTags = useCallback(
     async (newNotes: string, newTags: string[]) => {
       await saveVillainNote(villain.name, newNotes, newTags);
@@ -299,7 +296,7 @@ function VillainDetailPanel({
 
   return (
     <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-6 w-full max-w-xl shadow-2xl relative animate-in zoom-in-95 duration-200 mt-0">
+      <div className="glass-card border border-[var(--color-border)] rounded-xl p-6 w-full max-w-xl shadow-2xl relative animate-in zoom-in-95 duration-200 mt-0">
         <div className="flex items-center justify-between mb-4 pb-3 border-b border-[var(--color-border)]">
         <div className="flex items-center gap-3">
           <h3 className="font-data font-bold text-lg">{villain.name}</h3>
@@ -383,7 +380,7 @@ function VillainDetailPanel({
                 <button
                   key={tag}
                   onClick={() => addTag(tag)}
-                  className="text-[10px] px-2 py-1 rounded bg-[var(--color-bg-card)] border border-[var(--color-border)] text-[var(--color-text-dim)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)]"
+                  className="text-[10px] px-2 py-1 rounded glass-card border border-[var(--color-border)] text-[var(--color-text-dim)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)]"
                 >
                   {tag}
                 </button>

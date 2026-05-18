@@ -14,7 +14,7 @@
  */
 
 import type { HeroDecision, Position } from '../types/analysis';
-import { isInPushRange, isInRestealRange, getPushRange, RESTEAL_RANGE } from '../data/pushFoldRanges';
+import { isInPushRange, isInRestealRange, getPushRange } from '../data/pushFoldRanges';
 import type { RangeSet } from '../types/ranges';
 
 export type PushFoldResult = 'correct_push' | 'correct_fold' | 'missed_push' | 'bad_push' | 'not_applicable';
@@ -202,11 +202,4 @@ export function pushFoldSummary(decisions: HeroDecision[]): {
  */
 export function getPushRangeForPosition(position: Position): RangeSet | undefined {
   return getPushRange(position);
-}
-
-/**
- * Get the resteal range for display.
- */
-export function getRestealRange(): RangeSet {
-  return RESTEAL_RANGE;
 }

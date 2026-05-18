@@ -4,6 +4,7 @@ import type { ParsedHand } from './pokerstars';
 import type { ParsedTournamentSummary } from './tournamentSummary';
 import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
+import { MAX_HAND_HISTORY_INPUT_BYTES } from './pokerstars';
 
 const RE_HAND_ID = /(?:Poker Hand|GGPoker Hand|Hand) #(\w+):/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
@@ -26,6 +27,7 @@ export function parseGGPokerFile(
   fileContent: string,
   heroName: string = 'scorza23'
 ): ParsedHand[] {
+  if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return [];
   const content = fileContent
     .replace(/^\uFEFF/, '')
     .replace(/\r\n/g, '\n')

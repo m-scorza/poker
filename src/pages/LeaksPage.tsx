@@ -31,7 +31,7 @@ const SEVERITY_COLORS: Record<LeakSeverity, string> = {
   critical: 'border-[var(--color-danger)] bg-red-950/30 shadow-red-950/20',
   high: 'border-[var(--color-warning)] bg-orange-950/25 shadow-orange-950/20',
   medium: 'border-yellow-600/70 bg-yellow-950/15 shadow-yellow-950/10',
-  low: 'border-[var(--color-border)] bg-[var(--color-bg-card)] shadow-black/10',
+  low: 'border-[var(--color-border)] glass-card shadow-black/10',
 };
 
 const SEVERITY_BADGES: Record<LeakSeverity, { bg: string; text: string; label: string; weight: number }> = {
@@ -92,7 +92,7 @@ export function LeaksPage() {
       </div>
 
       {totalHands === 0 ? (
-        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-8 text-center">
+        <div className="glass-card border border-[var(--color-border)] rounded-xl p-8 text-center">
           <p className="font-semibold text-white">No leak evidence loaded yet.</p>
           <p className="mt-2 mb-6 text-sm text-[var(--color-text-dim)]">Import hands or load the synthetic demo to see the prioritized leak repair queue.</p>
           <DemoDataButton label="Load demo leak inbox" />
@@ -108,15 +108,15 @@ export function LeaksPage() {
       ) : (
         <div className="space-y-4">
           <div className="grid gap-3 md:grid-cols-3">
-            <div className="rounded-xl border border-white/10 bg-[var(--color-bg-card)] p-4">
+            <div className="rounded-xl border border-white/10 glass-card p-4">
               <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Detected leaks</p>
               <p className="mt-2 font-data text-3xl font-black text-white">{leaks.length}</p>
             </div>
-            <div className="rounded-xl border border-white/10 bg-[var(--color-bg-card)] p-4">
+            <div className="rounded-xl border border-white/10 glass-card p-4">
               <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Evidence sample</p>
               <p className="mt-2 font-data text-3xl font-black text-white">{totalHands}</p>
             </div>
-            <div className="rounded-xl border border-white/10 bg-[var(--color-bg-card)] p-4">
+            <div className="rounded-xl border border-white/10 glass-card p-4">
               <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Profile</p>
               <p className="mt-2 font-data text-xl font-black text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Baseline' : 'Advanced'}</p>
             </div>

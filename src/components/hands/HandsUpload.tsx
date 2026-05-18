@@ -6,7 +6,28 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useAppStore } from '../../data/appStore';
 import { importHands, importTournamentSummaries, getTotalHandCount } from '../../data/store';
 import { formatImportSummary } from '../../parser/importSummary';
-import type { ImportSummary } from '../../parser/workerProcessor';
+import type { ImportSummary, WorkerFilePayload, WorkerMessage } from '../../parser/workerProcessor';
+
+const MB = 1024 * 1024;
+export const MAX_TXT_BYTES = 15 * MB;
+export const MAX_ZIP_BYTES = 50 * MB;
+export const MAX_ZIP_DECOMPRESSED_BYTES = 150 * MB;
+export const MAX_BATCH_BYTES = 200 * MB;
+const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
+
+type JSZipInternalEntry = { _data?: { uncompressedSize?: number } };
+
+function isSupportedZipEntry(fileName: string): boolean {
+  const lowerName = fileName.toLowerCase();
+  return lowerName.endsWith('.txt') || lowerName.endsWith('.json');
+}
+
+function getKnownZipEntrySize(entry: JSZip.JSZipObject): number | null {
+  const internalSize = (entry as unknown as JSZipInternalEntry)._data?.uncompressedSize;
+  return typeof internalSize === 'number' && Number.isFinite(internalSize) && internalSize >= 0
+    ? internalSize
+    : null;
+}
 
 export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }) {
   const [dragOver, setDragOver] = useState(false);
@@ -34,38 +55,101 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     setImportSummary(null);
 
     // Convert FileList to serialized content for the worker
-    const fileDataArr: any[] = [];
+    const fileDataArr: WorkerFilePayload[] = [];
+    let batchBytes = 0;
+    const pushError = (name: string, error: string) => {
+      setResults(prev => [...prev, { name, type: 'hand', error }]);
+    };
+
     for (const file of Array.from(files)) {
       const lowerName = file.name.toLowerCase();
       if (lowerName.endsWith('.txt') || lowerName.endsWith('.json')) {
+        if (file.size > MAX_TXT_BYTES) {
+          pushError(file.name, `File too large (${formatMB(file.size)}). Maximum ${formatMB(MAX_TXT_BYTES)} per hand-history file.`);
+          continue;
+        }
+        if (batchBytes + file.size > MAX_BATCH_BYTES) {
+          pushError(file.name, `Upload batch too large (limit ${formatMB(MAX_BATCH_BYTES)}). Select fewer files and try again.`);
+          continue;
+        }
         const content = await file.text();
+        batchBytes += file.size;
         fileDataArr.push({ name: file.name, content });
       } else if (lowerName.endsWith('.zip')) {
+        if (file.size > MAX_ZIP_BYTES) {
+          pushError(file.name, `ZIP archive too large (${formatMB(file.size)}). Maximum ${formatMB(MAX_ZIP_BYTES)}.`);
+          continue;
+        }
         try {
           const zip = await JSZip.loadAsync(file);
           const zipFiles = Object.keys(zip.files);
 
+          let plannedDecompressed = 0;
+          let zipMetadataMissing = false;
           for (const zipFileName of zipFiles) {
             const entry = zip.files[zipFileName]!;
-            if (!entry.dir && (zipFileName.toLowerCase().endsWith('.txt') || zipFileName.toLowerCase().endsWith('.json'))) {
-              const content = await entry.async('string');
-              fileDataArr.push({ name: `${file.name}/${zipFileName}`, content });
+            if (entry.dir) continue;
+            if (!isSupportedZipEntry(zipFileName)) continue;
+            const internalSize = getKnownZipEntrySize(entry);
+            if (internalSize === null) {
+              pushError(`${file.name}/${zipFileName}`, 'ZIP entry size metadata is unavailable. Refusing to extract this archive safely.');
+              zipMetadataMissing = true;
+              break;
             }
+            plannedDecompressed += internalSize;
           }
+          if (zipMetadataMissing) continue;
+          if (plannedDecompressed > MAX_ZIP_DECOMPRESSED_BYTES) {
+            pushError(file.name, `ZIP would decompress to ${formatMB(plannedDecompressed)} (limit ${formatMB(MAX_ZIP_DECOMPRESSED_BYTES)}). Refusing to extract.`);
+            continue;
+          }
+
+          let extractedBytes = 0;
+          let zipAborted = false;
+          for (const zipFileName of zipFiles) {
+            const entry = zip.files[zipFileName]!;
+            if (entry.dir) continue;
+            if (!isSupportedZipEntry(zipFileName)) continue;
+
+            const internalSize = getKnownZipEntrySize(entry);
+            if (internalSize === null) {
+              pushError(`${file.name}/${zipFileName}`, 'ZIP entry size metadata is unavailable. Refusing to extract this archive safely.');
+              zipAborted = true;
+              break;
+            }
+            if (internalSize > MAX_TXT_BYTES) {
+              pushError(`${file.name}/${zipFileName}`, `Entry too large (${formatMB(internalSize)}). Maximum ${formatMB(MAX_TXT_BYTES)} per file inside ZIP.`);
+              continue;
+            }
+            if (extractedBytes + internalSize > MAX_ZIP_DECOMPRESSED_BYTES) {
+              pushError(file.name, `Aborting ZIP extraction: cumulative size passed ${formatMB(MAX_ZIP_DECOMPRESSED_BYTES)}.`);
+              zipAborted = true;
+              break;
+            }
+            if (batchBytes + internalSize > MAX_BATCH_BYTES) {
+              pushError(file.name, `Upload batch too large (limit ${formatMB(MAX_BATCH_BYTES)}). Select fewer files and try again.`);
+              zipAborted = true;
+              break;
+            }
+
+            const content = await entry.async('string');
+            // Final guard for entries where uncompressedSize was missing/lied:
+            const contentBytes = new TextEncoder().encode(content).length;
+            if (contentBytes > MAX_TXT_BYTES) {
+              pushError(`${file.name}/${zipFileName}`, `Entry expanded to ${formatMB(contentBytes)}, exceeding ${formatMB(MAX_TXT_BYTES)}.`);
+              continue;
+            }
+            extractedBytes += contentBytes;
+            batchBytes += contentBytes;
+            fileDataArr.push({ name: `${file.name}/${zipFileName}`, content });
+          }
+          if (zipAborted) continue;
         } catch (err) {
           const message = err instanceof Error ? err.message : 'Could not read this ZIP archive';
-          setResults(prev => [...prev, {
-            name: file.name,
-            type: 'hand',
-            error: `ZIP import failed: ${message}`,
-          }]);
+          pushError(file.name, `ZIP import failed: ${message}`);
         }
       } else {
-        setResults(prev => [...prev, {
-          name: file.name,
-          type: 'hand',
-          error: 'Unsupported file type. Upload PokerStars/GGPoker .txt files, Open Hand History .json files, or .zip archives.',
-        }]);
+        pushError(file.name, 'Unsupported file type. Upload PokerStars/GGPoker .txt files, Open Hand History .json files, or .zip archives.');
       }
     }
 
@@ -83,32 +167,30 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     // Initialize Worker
     const worker = new Worker(new URL('../../parser/worker.ts', import.meta.url), { type: 'module' });
 
-    worker.onmessage = async (e: MessageEvent) => {
-      const { type, progress, filename, handsFound, summariesFound, deviationsFound, hands, error, importSummary: completedImportSummary } = e.data;
+    worker.onmessage = async (e: MessageEvent<WorkerMessage>) => {
+      const msg = e.data;
 
-      if (type === 'PROGRESS') {
-        setImportProgress(progress);
-        setCurrentImportFile(filename);
+      if (msg.type === 'PROGRESS') {
+        setImportProgress(msg.progress);
+        setCurrentImportFile(msg.filename);
         setStatsFound(prev => ({
-          hands: prev.hands + (handsFound || 0),
-          summaries: prev.summaries + (summariesFound || 0),
-          deviations: prev.deviations + (deviationsFound || 0)
+          hands: prev.hands + msg.handsFound,
+          summaries: prev.summaries + msg.summariesFound,
+          deviations: prev.deviations + msg.deviationsFound
         }));
-      } else if (type === 'FILE_ERROR') {
+      } else if (msg.type === 'FILE_ERROR') {
         setResults(prev => [...prev, {
-          name: filename || 'Unknown file',
+          name: msg.filename || 'Unknown file',
           type: 'hand',
-          error: error || 'Parser failed on this file. Other files will continue importing.',
+          error: msg.error || 'Parser failed on this file. Other files will continue importing.',
         }]);
-      } else if (type === 'COMPLETE') {
-        if (completedImportSummary) {
-          setImportSummary(completedImportSummary);
-        }
+      } else if (msg.type === 'COMPLETE') {
+        setImportSummary(msg.importSummary);
 
         // Save results to DB
         const [handImported, summaryImported] = await Promise.all([
-           importHands(hands),
-           importTournamentSummaries(e.data.summaries || [])
+           importHands(msg.hands),
+           importTournamentSummaries(msg.summaries)
         ]);
 
         // Update store and UI
@@ -164,7 +246,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const formattedImportSummary = importSummary ? formatImportSummary(importSummary) : null;
 
   return (
-    <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
+    <div className="glass-card border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
       <div
         onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
         onDragLeave={() => setDragOver(false)}

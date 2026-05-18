@@ -27,7 +27,7 @@ export function DayHourHeatmap({ tournaments }: DayHourHeatmapProps) {
       grid[day]![hour]!.count += 1;
     });
 
-    const flatData: any[] = [];
+    const flatData: { day: number; hour: number; net: number; count: number; absNet: number }[] = [];
     grid.forEach((dayArr, dayIndex) => {
       dayArr.forEach((cell, hourIndex) => {
         if (cell.count > 0) {

@@ -6,7 +6,8 @@ import {
   getSortedRowModel,
   flexRender,
   createColumnHelper,
-  SortingState
+  type OnChangeFn,
+  type SortingState
 } from '@tanstack/react-table';
 import { clsx } from 'clsx';
 import { Eye, Star, ChevronUp, ChevronDown } from 'lucide-react';
@@ -19,7 +20,7 @@ export interface HandsTableProps {
   onToggleStar: (handId: string) => void;
   onReplayHand: (handId: string) => void;
   sorting: SortingState;
-  onSortingChange: (sorting: SortingState) => void;
+  onSortingChange: OnChangeFn<SortingState>;
 }
 
 const columnHelper = createColumnHelper<{ d: HeroDecision; h: Hand | undefined }>();
@@ -189,7 +190,7 @@ export function HandsTable({
     data,
     columns,
     state: { sorting },
-    onSortingChange: onSortingChange as any,
+    onSortingChange,
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
   });
@@ -207,14 +208,14 @@ export function HandsTable({
 
   if (data.length === 0) {
     return (
-      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl overflow-hidden p-8 text-center text-[var(--color-text-muted)] text-sm">
+      <div className="glass-card border border-[var(--color-border)] rounded-xl overflow-hidden p-8 text-center text-[var(--color-text-muted)] text-sm">
         No hands found.
       </div>
     );
   }
 
   return (
-    <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl overflow-hidden flex flex-col h-[600px]">
+    <div className="glass-card border border-[var(--color-border)] rounded-xl overflow-hidden flex flex-col h-[600px]">
       {/* Table Header (Fixed) */}
       <div className="flex-none overflow-hidden pr-[15px] border-b border-[var(--color-border)] bg-[var(--color-bg-hover)]">
         <table className="w-full text-sm">

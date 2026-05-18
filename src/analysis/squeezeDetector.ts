@@ -118,36 +118,6 @@ export function detectSqueezeOpportunity(
 }
 
 /**
- * Batch detect squeeze opportunities from multiple hands' actions.
- */
-export function batchDetectSqueeze(
-  handsData: Array<{
-    actions: Action[];
-    heroName: string;
-    heroPosition: Position;
-    heroHandKey: string;
-    stackBb: number;
-    bigBlind: number;
-  }>,
-): SqueezeSpot[] {
-  const results: SqueezeSpot[] = [];
-  for (const data of handsData) {
-    const result = detectSqueezeOpportunity(
-      data.actions,
-      data.heroName,
-      data.heroPosition,
-      data.heroHandKey,
-      data.stackBb,
-      data.bigBlind,
-    );
-    if (result) {
-      results.push(result);
-    }
-  }
-  return results;
-}
-
-/**
  * Compute squeeze stats.
  */
 export function squeezeStats(spots: SqueezeSpot[]): {

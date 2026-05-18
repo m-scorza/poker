@@ -14,7 +14,8 @@ import type { SortingState } from '@tanstack/react-table';
 
 // Extracted Components
 import { HandsUpload } from '../components/hands/HandsUpload';
-import { HandsFilters, StackDepth, HandCategory } from '../components/hands/HandsFilters';
+import { HandsFilters } from '../components/hands/HandsFilters';
+import type { StackDepth, HandCategory } from '../components/hands/HandsFilters';
 import { HandsTable } from '../components/hands/HandsTable';
 
 function getStackDepth(bb: number): StackDepth {

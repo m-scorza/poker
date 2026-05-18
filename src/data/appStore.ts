@@ -9,6 +9,33 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Position, Scenario } from '../types/analysis';
 import type { StrategyProfile } from '../data/strategyProfiles';
+import { CURRENT_SETTINGS_VERSION } from './localStorage';
+
+const VALID_STRATEGY_PROFILES: readonly StrategyProfile[] = ['game_plan', 'advanced'] as const;
+
+export function isValidStrategyProfile(value: unknown): value is StrategyProfile {
+  return typeof value === 'string' && (VALID_STRATEGY_PROFILES as readonly string[]).includes(value);
+}
+
+export interface PersistedSettings {
+  strategyProfile?: unknown;
+  heroName?: unknown;
+}
+
+export function mergePersistedSettings<T extends { strategyProfile: StrategyProfile; heroName: string }>(
+  persisted: PersistedSettings | null | undefined,
+  current: T,
+): T {
+  const incoming = persisted ?? {};
+  const strategyProfile = isValidStrategyProfile(incoming.strategyProfile)
+    ? incoming.strategyProfile
+    : current.strategyProfile;
+  const heroName =
+    typeof incoming.heroName === 'string' && incoming.heroName.trim().length > 0
+      ? incoming.heroName
+      : current.heroName;
+  return { ...current, strategyProfile, heroName };
+}
 
 export interface Filters {
   dateFrom: Date | null;
@@ -86,10 +113,14 @@ export const useAppStore = create<AppState>()(
     }),
     {
       name: 'poker-app-settings',
+      version: CURRENT_SETTINGS_VERSION,
       partialize: (state) => ({
         strategyProfile: state.strategyProfile,
         heroName: state.heroName,
       }),
+      migrate: (persisted) => persisted,
+      merge: (persisted, current) =>
+        mergePersistedSettings(persisted as PersistedSettings | null | undefined, current),
     },
   ),
 );

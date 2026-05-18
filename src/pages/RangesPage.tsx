@@ -4,7 +4,7 @@
  */
 
 import { useEffect, useState, useMemo } from 'react';
-import { Save, RotateCcw, Edit3, Eye, BarChart3 } from 'lucide-react';
+import { Save, RotateCcw, Edit3, Eye, BarChart3, AlertCircle } from 'lucide-react';
 import { clsx } from 'clsx';
 
 import { HandReplay } from '../components/hands/HandReplay';
@@ -30,6 +30,7 @@ export function RangesPage() {
   const [viewMode, setViewMode] = useState<ViewMode>('compliance');
   const [customRange, setCustomRange] = useState<Set<string>>(new Set());
   const [hasCustom, setHasCustom] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
 
   
   // Hand Replay state
@@ -61,6 +62,7 @@ export function RangesPage() {
 
   // Load custom range when position changes
   useEffect(() => {
+    setSaveError(null);
     const stored = loadCustomRange(selectedPos);
     if (stored) {
       setCustomRange(stored);
@@ -142,8 +144,15 @@ export function RangesPage() {
   };
 
   const handleSave = () => {
-    saveCustomRange(selectedPos, [...customRange]);
-    setHasCustom(true);
+    const result = saveCustomRange(selectedPos, [...customRange]);
+    if (result.ok) {
+      setHasCustom(true);
+      setSaveError(null);
+    } else if (result.reason === 'quota') {
+      setSaveError('Storage quota exceeded — cannot save this range. Free up space or shrink the selection.');
+    } else {
+      setSaveError('Could not save this range. Check your browser storage settings.');
+    }
   };
 
   const handleReset = () => {
@@ -151,6 +160,7 @@ export function RangesPage() {
     const theoretical = getRFIRange(selectedPos);
     setCustomRange(theoretical ? new Set(theoretical) : new Set());
     setHasCustom(false);
+    setSaveError(null);
   };
 
   const compliance = compliancePercentage(posDecisions, strategyProfile);
@@ -205,7 +215,7 @@ export function RangesPage() {
 
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
          {/* Position selector */}
-         <div className="flex bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
+         <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
            {RFI_POSITIONS.map((pos) => {
              const posCount = decisions.filter((d) => {
                const matchPos = (pos === 'SB') ? (d.position === 'SB' || d.position === 'BTN/SB') : (d.position === pos);
@@ -234,7 +244,7 @@ export function RangesPage() {
          </div>
 
          {/* Scenario selector */}
-         <div className="flex bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-lg p-1">
+         <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1">
             <button 
               onClick={() => setSelectedScenario('RFI')}
               className={clsx(
@@ -293,19 +303,27 @@ export function RangesPage() {
 
       {/* Edit mode actions */}
       {viewMode === 'edit' && (
-        <div className="flex gap-2 mb-4">
-          <button
-            onClick={handleSave}
-            className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)] hover:bg-[var(--color-accent)]/25 transition-colors"
-          >
-            <Save size={12} /> Save Range
-          </button>
-          <button
-            onClick={handleReset}
-            className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg text-[var(--color-text-dim)] border border-[var(--color-border)] hover:text-[var(--color-danger)] hover:border-[var(--color-danger)] transition-colors"
-          >
-            <RotateCcw size={12} /> Reset to Theoretical
-          </button>
+        <div className="mb-4">
+          <div className="flex gap-2">
+            <button
+              onClick={handleSave}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)] hover:bg-[var(--color-accent)]/25 transition-colors"
+            >
+              <Save size={12} /> Save Range
+            </button>
+            <button
+              onClick={handleReset}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg text-[var(--color-text-dim)] border border-[var(--color-border)] hover:text-[var(--color-danger)] hover:border-[var(--color-danger)] transition-colors"
+            >
+              <RotateCcw size={12} /> Reset to Theoretical
+            </button>
+          </div>
+          {saveError && (
+            <div role="alert" className="mt-2 flex items-start gap-1.5 px-2 py-1.5 text-xs rounded-md bg-[var(--color-danger)]/10 text-[var(--color-danger)] border border-[var(--color-danger)]/40">
+              <AlertCircle size={12} className="mt-0.5 shrink-0" />
+              <span>{saveError}</span>
+            </div>
+          )}
         </div>
       )}
 
@@ -349,7 +367,7 @@ export function RangesPage() {
 
       {/* Push/fold info */}
       {viewMode === 'push_fold' && (
-        <div className="mt-4 bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4 max-w-xl">
+        <div className="mt-4 glass-card border border-[var(--color-border)] rounded-xl p-4 max-w-xl">
           <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-2">Push/Fold (10bb)</p>
           <p className="text-sm text-[var(--color-text)]">
             With a stack of 10bb or less, the standard strategy is all-in or fold.
@@ -378,7 +396,7 @@ function RangeValidatorPanel() {
   return (
     <div className="mt-4 space-y-4 max-w-2xl">
       {/* Overall Score */}
-      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5">
+      <div className="glass-card border border-[var(--color-border)] rounded-xl p-5">
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-bold uppercase tracking-wide text-[var(--color-text-dim)]">
             Range Accuracy
@@ -397,7 +415,7 @@ function RangeValidatorPanel() {
       </div>
 
       {/* RFI Validation Table */}
-      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4">
+      <div className="glass-card border border-[var(--color-border)] rounded-xl p-4">
         <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">RFI by Position</h4>
         <table className="w-full text-sm">
           <thead>
@@ -424,7 +442,7 @@ function RangeValidatorPanel() {
       </div>
 
       {/* Push Validation Table */}
-      <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4">
+      <div className="glass-card border border-[var(--color-border)] rounded-xl p-4">
         <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">Push/Fold (10bb) by Position</h4>
         <table className="w-full text-sm">
           <thead>

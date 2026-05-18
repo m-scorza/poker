@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../sessions';
-import type { Hand } from '../../types/hand';
+import type { Hand, Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 
 function makeHand(id: string, dateStr: string, tournamentId: string = 'T1'): Hand {
@@ -48,6 +48,20 @@ function makeDecision(handId: string, overrides: Partial<HeroDecision> = {}): He
     wonAtShowdown: false,
     wonAmount: 0,
     netProfit: 0,
+    ...overrides,
+  };
+}
+
+function makeTournament(id: string, overrides: Partial<Tournament> = {}): Tournament {
+  return {
+    id,
+    buyIn: 10,
+    fee: 1,
+    format: 'MTT',
+    finishPosition: null,
+    prize: 0,
+    bounty: 0,
+    handsPlayed: 0,
     ...overrides,
   };
 }
@@ -135,6 +149,46 @@ describe('groupIntoSessions', () => {
 
     expect(sessions[0]!.stats.totalHands).toBe(2);
     expect(sessions[0]!.stats.vpipHands).toBe(2); // Both are raise actions
+  });
+
+  it('uses shared bounty-aware tournament financials for session buy-ins, prizes, pnl, and roi', () => {
+    const hands = [
+      makeHand('1', '2026-04-05T10:00:00Z', 'T1'),
+      makeHand('2', '2026-04-05T10:30:00Z', 'T2'),
+    ];
+    const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
+    const tournaments = new Map<string, Tournament>([
+      ['T1', makeTournament('T1', { buyIn: 10, fee: 1, prize: 20, bounty: 5, currency: 'USD' })],
+      ['T2', makeTournament('T2', { buyIn: 5, fee: 0.5, prize: 0, bounty: 7.5, currency: 'USD' })],
+    ]);
+
+    const [session] = groupIntoSessions(hands, decisions, tournaments);
+
+    expect(session!.buyIns).toBeCloseTo(16.5);
+    expect(session!.prizes).toBeCloseTo(32.5);
+    expect(session!.pnl).toBeCloseTo(16);
+    expect(session!.roi).toBeCloseTo((16 / 16.5) * 100);
+  });
+
+  it('excludes non-cash tournament currencies from session financials', () => {
+    const hands = [
+      makeHand('1', '2026-04-05T10:00:00Z', 'CASH'),
+      makeHand('2', '2026-04-05T10:30:00Z', 'PLAY'),
+      makeHand('3', '2026-04-05T11:00:00Z', 'TICKET'),
+    ];
+    const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
+    const tournaments = new Map<string, Tournament>([
+      ['CASH', makeTournament('CASH', { buyIn: 10, fee: 1, prize: 0, bounty: 4, currency: 'USD' })],
+      ['PLAY', makeTournament('PLAY', { buyIn: 1000, fee: 0, prize: 5000, bounty: 300, currency: 'PLAY' })],
+      ['TICKET', makeTournament('TICKET', { buyIn: 50, fee: 5, prize: 200, bounty: 25, currency: 'TICKET' })],
+    ]);
+
+    const [session] = groupIntoSessions(hands, decisions, tournaments);
+
+    expect(session!.buyIns).toBeCloseTo(11);
+    expect(session!.prizes).toBeCloseTo(4);
+    expect(session!.pnl).toBeCloseTo(-7);
+    expect(session!.roi).toBeCloseTo((-7 / 11) * 100);
   });
 
   it('supports custom gap duration', () => {

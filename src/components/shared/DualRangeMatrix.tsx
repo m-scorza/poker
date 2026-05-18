@@ -168,7 +168,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl p-6 shadow-2xl h-full flex flex-col"
+              className="glass-card border border-[var(--color-border)] rounded-2xl p-6 shadow-2xl h-full flex flex-col"
             >
               <div className="flex items-center justify-between mb-6">
                  <div>

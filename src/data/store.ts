@@ -10,6 +10,7 @@ import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import type { VillainProfile } from '../types/villain';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
+import * as ls from './localStorage';
 
 export interface AppSettings {
   id: string; // 'global'
@@ -77,7 +78,7 @@ db.version(3).stores({
 
   // Update all hands with hasShowdown flag
   await hands.toCollection().modify((hand: Hand) => {
-    (hand as any).hasShowdown = showdownHandIds.has(hand.id);
+    hand.hasShowdown = showdownHandIds.has(hand.id);
   });
 
   // Step 2: Recompute wentToShowdown and wonAtShowdown on heroDecisions
@@ -164,9 +165,8 @@ export async function importHands(
           if (h.tournament.finishPosition !== null && h.tournament.finishPosition !== undefined) t.finishPosition = h.tournament.finishPosition;
           if (h.tournament.prize !== null && h.tournament.prize !== undefined) t.prize = h.tournament.prize;
           
-          const tbounty = (h.tournament as any).bounty;
-          if (tbounty) {
-            t.bounty = (t.bounty || 0) + tbounty;
+          if (h.tournament.bounty) {
+            t.bounty = (t.bounty || 0) + h.tournament.bounty;
           }
         }
         await db.tournaments.bulkPut(Array.from(tournUpdates.values()));
@@ -248,40 +248,60 @@ export async function getActionsForHand(handId: string): Promise<Action[]> {
   return db.actions.where('handId').equals(handId).sortBy('sequence');
 }
 
-/** Save a custom range for a position. */
-export function saveCustomRange(position: string, hands: string[]): void {
-  localStorage.setItem(`range:${position}`, JSON.stringify(hands));
+/** Save a custom range for a position. Returns a result so callers can react to quota errors. */
+export function saveCustomRange(position: string, hands: string[]): ls.SafeSetResult {
+  const envelope: ls.RangeEnvelopeV1 = { version: ls.CURRENT_RANGE_VERSION, hands };
+  return ls.safeSet(ls.KEYS.customRange(position), envelope);
 }
 
-/** Load a custom range for a position. */
+/** Load a custom range for a position. Accepts v1 envelope or legacy bare-array shape. */
 export function loadCustomRange(position: string): Set<string> | null {
-  const stored = localStorage.getItem(`range:${position}`);
-  if (!stored) return null;
-  try {
-    const hands = JSON.parse(stored) as string[];
-    return new Set(hands);
-  } catch {
-    return null;
+  const envelope = ls.safeGet<ls.RangeEnvelopeV1 | null>(
+    ls.KEYS.customRange(position),
+    ls.validateRangeEnvelope,
+    null,
+  );
+  if (envelope) return new Set(envelope.hands);
+
+  // Fall back to legacy `range:<pos>` key — migrate it on read if found.
+  const legacy = ls.safeGet<ls.RangeEnvelopeV1 | null>(
+    ls.KEYS.legacyCustomRange(position),
+    ls.validateRangeEnvelope,
+    null,
+  );
+  if (legacy) {
+    saveCustomRange(position, legacy.hands);
+    ls.safeRemove(ls.KEYS.legacyCustomRange(position));
+    return new Set(legacy.hands);
   }
+  return null;
 }
 
-/** Load all custom ranges. */
+/** Load all custom ranges. Migrates legacy `range:*` keys to the namespaced prefix. */
 export function loadAllCustomRanges(): Map<string, Set<string>> {
   const map = new Map<string, Set<string>>();
-  for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
-    if (key?.startsWith('range:')) {
-      const position = key.slice(6);
-      const range = loadCustomRange(position);
-      if (range) map.set(position, range);
-    }
+
+  for (const key of ls.listKeysWithPrefix(ls.LEGACY_RANGE_PREFIX)) {
+    if (key.startsWith(ls.RANGE_PREFIX)) continue; // skip the new prefix (also matches legacy)
+    const position = key.slice(ls.LEGACY_RANGE_PREFIX.length);
+    const range = loadCustomRange(position);
+    if (range) map.set(position, range);
   }
+
+  for (const key of ls.listKeysWithPrefix(ls.RANGE_PREFIX)) {
+    const position = key.slice(ls.RANGE_PREFIX.length);
+    if (map.has(position)) continue;
+    const range = loadCustomRange(position);
+    if (range) map.set(position, range);
+  }
+
   return map;
 }
 
 /** Delete a custom range for a position. */
 export function deleteCustomRange(position: string): void {
-  localStorage.removeItem(`range:${position}`);
+  ls.safeRemove(ls.KEYS.customRange(position));
+  ls.safeRemove(ls.KEYS.legacyCustomRange(position));
 }
 
 /** Villain notes stored in IndexedDB. */

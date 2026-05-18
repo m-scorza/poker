@@ -386,6 +386,27 @@ export function buildDemoDataset(): DemoDataset {
   return { handsData, summaries };
 }
 
+async function clearExistingDemoDataset(dataset: DemoDataset): Promise<void> {
+  const demoVillainNames = [...new Set(dataset.handsData.flatMap((entry) => (
+    entry.players.filter((player) => !player.isHero).map((player) => player.playerName)
+  )))];
+
+  await db.transaction(
+    'rw',
+    [db.hands, db.players, db.actions, db.heroDecisions, db.tournaments, db.villains],
+    async () => {
+      await Promise.all([
+        db.hands.where('id').startsWith(`${DEMO_PREFIX}-H-`).delete(),
+        db.players.where('handId').startsWith(`${DEMO_PREFIX}-H-`).delete(),
+        db.actions.where('handId').startsWith(`${DEMO_PREFIX}-H-`).delete(),
+        db.heroDecisions.where('handId').startsWith(`${DEMO_PREFIX}-H-`).delete(),
+        db.tournaments.where('id').startsWith(`${DEMO_PREFIX}-T-`).delete(),
+        db.villains.bulkDelete(demoVillainNames),
+      ]);
+    },
+  );
+}
+
 export async function seedDemoDataset(onProgress?: (p: DemoSeedProgress) => void): Promise<DemoSeedResult> {
   onProgress?.({ phase: 'checking', message: 'Checking existing dataset...' });
 
@@ -394,15 +415,25 @@ export async function seedDemoDataset(onProgress?: (p: DemoSeedProgress) => void
     db.tournaments.where('id').startsWith(`${DEMO_PREFIX}-T-`).count(),
   ]);
 
-  if (existingDemoHands > 0 && existingDemoTournaments >= DEMO_TOURNAMENT_COUNT) {
+  // Build first so the already-loaded gate compares against the current deterministic
+  // manifest, not merely "some prior demo with 250 tournaments". Without this,
+  // older 10,716-hand Demo V1 installs skip Demo V2 entirely and the UI appears
+  // barely changed after clicking the demo button.
+  const dataset = buildDemoDataset();
+
+  if (existingDemoHands === dataset.handsData.length && existingDemoTournaments >= DEMO_TOURNAMENT_COUNT) {
     return { importedHands: 0, summariesCreated: 0, summariesUpdated: 0, alreadyLoaded: true };
+  }
+
+  if (existingDemoHands > 0 || existingDemoTournaments > 0) {
+    onProgress?.({ phase: 'checking', message: 'Replacing older demo dataset...' });
+    await clearExistingDemoDataset(dataset);
   }
 
   // Yield to allow UI to update
   await new Promise(r => setTimeout(r, 10));
 
   onProgress?.({ phase: 'generating', message: 'Generating synthetic world...' });
-  const dataset = buildDemoDataset();
 
   await new Promise(r => setTimeout(r, 10));
 

@@ -1,5 +1,5 @@
 import type { Tournament } from '../types/hand';
-import { getTournamentNet, getTournamentCost } from './financials';
+import { getTournamentNet, getTournamentCost, getTournamentRevenue, isCashTournamentCurrency } from './financials';
 
 export interface BustOutBucket {
   label: string;
@@ -73,11 +73,11 @@ export function estimateHourlyRate(tournaments: Tournament[]): number {
 }
 
 export function computeRakeAdjustedRoi(tournaments: Tournament[]): number {
-  const cashTournaments = tournaments.filter(t => t.buyIn > 0);
+  const cashTournaments = tournaments.filter(t => isCashTournamentCurrency(t) && t.buyIn > 0);
   if (cashTournaments.length === 0) return 0;
 
   const totalBuyInOnly = cashTournaments.reduce((sum, t) => sum + (t.buyIn || 0), 0);
-  const totalRevenue = cashTournaments.reduce((sum, t) => sum + ((t.prize || 0) + (t.bounty || 0)), 0);
+  const totalRevenue = cashTournaments.reduce((sum, t) => sum + getTournamentRevenue(t), 0);
   const totalTechnicalProfit = totalRevenue - totalBuyInOnly;
   
   return totalBuyInOnly > 0 ? (totalTechnicalProfit / totalBuyInOnly) * 100 : 0;

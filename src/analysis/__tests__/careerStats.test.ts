@@ -64,4 +64,17 @@ describe('careerStats', () => {
     const roi = computeRakeAdjustedRoi(mockTournaments);
     expect(roi).toBeCloseTo(233.33);
   });
+
+  it('computeRakeAdjustedRoi excludes non-cash currencies from technical ROI', () => {
+    const tournaments: Tournament[] = [
+      { ...mockTournaments[0]!, bounty: 10, currency: 'USD' },
+      { ...mockTournaments[1]!, currency: 'PLAY', prize: 1000, bounty: 1000 },
+      { ...mockTournaments[1]!, id: '3', currency: 'TICKET', prize: 500, bounty: 50 },
+    ];
+
+    const roi = computeRakeAdjustedRoi(tournaments);
+
+    // Cash revenue = 100 prize + 10 bounty; cash buy-in only = 10.
+    expect(roi).toBeCloseTo(1000);
+  });
 });

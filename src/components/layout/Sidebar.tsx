@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
+import type { StrategyProfile } from '../../data/strategyProfiles';
 
 const NAV_ITEMS = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
@@ -31,7 +32,7 @@ export function Sidebar() {
   const { strategyProfile, setStrategyProfile } = useAppStore();
 
   return (
-    <aside className="fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-56 bg-[var(--color-bg-sidebar)] border-t md:border-t-0 md:border-r border-[var(--color-border)] flex flex-row md:flex-col z-50 overflow-x-auto md:overflow-visible shadow-[0_-4px_20px_rgba(0,0,0,0.5)] md:shadow-none">
+    <aside className="fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-56 glass-sidebar border-t md:border-t-0 md:border-r border-[var(--color-border)] flex flex-row md:flex-col z-50 overflow-x-auto md:overflow-visible shadow-[0_-4px_20px_rgba(0,0,0,0.5)] md:shadow-none">
       <div className="hidden md:block px-4 py-5 border-b border-[var(--color-border)]">
         <h1 className="text-lg font-bold text-[var(--color-accent)] font-data tracking-tight">
           ♠ Poker Analyzer
@@ -63,7 +64,7 @@ export function Sidebar() {
         <div>v0.2.0 — EV Platform</div>
         <select
           value={strategyProfile}
-          onChange={(e) => setStrategyProfile(e.target.value as any)}
+          onChange={(e) => setStrategyProfile(e.target.value as StrategyProfile)}
           className="w-full bg-[var(--color-bg-input)] border border-[var(--color-border)] text-[var(--color-accent)] text-xs p-1.5 rounded outline-none font-bold bg-emerald-900/10"
         >
           <option value="game_plan">Baseline (GTO)</option>

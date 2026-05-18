@@ -34,7 +34,7 @@ export class ErrorBoundary extends Component<Props, State> {
 
       return (
         <div className="min-h-screen flex items-center justify-center p-6 bg-[var(--color-bg)]">
-          <div className="bg-[var(--color-bg-card)] border border-[var(--color-danger)]/50 rounded-xl max-w-lg w-full p-8 text-center shadow-xl">
+          <div className="glass-card border border-[var(--color-danger)]/50 rounded-xl max-w-lg w-full p-8 text-center shadow-xl">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--color-danger)]/10 text-[var(--color-danger)] mb-6">
               <AlertTriangle size={32} />
             </div>

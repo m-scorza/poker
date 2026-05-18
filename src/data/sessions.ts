@@ -10,6 +10,7 @@ import type { HeroDecision } from '../types/analysis';
 import type { AggregateStats } from '../analysis/leakDetector';
 import { computeAggregateStats } from '../analysis/leakDetector';
 import { computeBb100 } from '../analysis/positionStats';
+import { getTournamentCost, getTournamentRevenue } from '../analysis/financials';
 
 export interface Session {
   id: string;
@@ -93,12 +94,8 @@ function buildSession(
   for (const tid of tournamentIds) {
     const t = tournaments.get(tid);
     if (t) {
-      if (t.currency === 'PLAY' || t.currency === 'TICKET') {
-        // Exclude 0 value out-of-pocket costs and play-money from raw USD financial tracking.
-        continue;
-      }
-      buyIns += (t.buyIn + t.fee);
-      prizes += (t.prize ?? 0);
+      buyIns += getTournamentCost(t);
+      prizes += getTournamentRevenue(t);
     }
   }
   const pnl = prizes - buyIns;

@@ -16,22 +16,8 @@ const PricingPage = lazy(() => import('./pages/PricingPage').then(m => ({ defaul
 
 function PageLoader() {
   return (
-    <div style={{
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '100%',
-      minHeight: '60vh',
-    }}>
-      <div style={{
-        width: 36,
-        height: 36,
-        border: '3px solid rgba(0, 255, 136, 0.15)',
-        borderTopColor: 'var(--color-accent, #00ff88)',
-        borderRadius: '50%',
-        animation: 'spin 0.8s linear infinite',
-      }} />
-      <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+    <div className="flex items-center justify-center h-full min-h-[60vh]">
+      <div className="w-9 h-9 border-3 border-accent/15 border-t-accent rounded-full animate-spin" />
     </div>
   );
 }

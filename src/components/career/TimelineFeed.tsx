@@ -10,7 +10,6 @@ export interface TimelineEvent {
   description: string;
   value?: string;
   isPositive?: boolean;
-  metadata?: any;
 }
 
 interface TimelineFeedProps {
@@ -53,7 +52,7 @@ export function TimelineFeed({ events }: TimelineFeedProps) {
             )} />
           </div>
 
-          <div className="bg-[var(--color-bg-card)] border border-white/5 rounded-xl p-4 hover:border-white/10 transition-colors group">
+          <div className="glass-card border border-white/5 rounded-xl p-4 hover:border-white/10 transition-colors group">
             <div className="flex justify-between items-start mb-2">
               <div className="flex items-center gap-3">
                 <div className={clsx(

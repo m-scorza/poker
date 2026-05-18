@@ -20,7 +20,7 @@ const ACCENT_COLORS = {
 
 export function StatCard({ label, value, subtext, accent = 'default', info }: StatCardProps) {
   return (
-    <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-4 transition-all duration-300 hover:-translate-y-1 hover:border-[var(--color-border-active)] hover:shadow-xl hover:bg-black/20 relative">
+    <div className="glass-card border border-[var(--color-border)] rounded-xl p-4 transition-all duration-300 hover:-translate-y-1 hover:border-[var(--color-border-active)] hover:shadow-xl hover:bg-black/20 relative">
       <div className="flex items-center justify-between gap-1">
         <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-1">
           {label}

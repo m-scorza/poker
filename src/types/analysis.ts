@@ -1,18 +1,7 @@
 import type { ICMStage } from '../data/strategyProfiles';
 import type { PostflopAction } from '../analysis/postflopAnalyzer';
-
-export type Position =
-  | 'UTG'
-  | 'UTG+1'
-  | 'MP1'
-  | 'MP'
-  | 'MP2'
-  | 'HJ'
-  | 'CO'
-  | 'BTN'
-  | 'SB'
-  | 'BB'
-  | 'BTN/SB';
+import type { Position } from './hand';
+export type { Position };
 
 export type Scenario =
   | 'RFI'

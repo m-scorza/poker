@@ -8,8 +8,7 @@
  */
 
 import type { Position, DeviationType, HeroDecision } from '../types/analysis';
-import type { RangeSet } from '../types/ranges';
-import { RFI_RANGES, SB_BLIND_WAR_RANGE, BB_DEFENSE_RANGE, isSuitedHand, getReactionRange } from '../data/ranges';
+import { RFI_RANGES, SB_BLIND_WAR_RANGE, isSuitedHand, getReactionRange } from '../data/ranges';
 import type { StrategyProfile } from '../data/strategyProfiles';
 import { BB_DEFENSE_ICM_ADJUSTMENTS } from '../data/strategyProfiles';
 import type { ICMStage } from '../data/strategyProfiles';
@@ -275,15 +274,4 @@ export function compliancePercentage(
   return (compliant / eligible) * 100;
 }
 
-/**
- * Get the RFI or Defense range for a position.
- */
-export function getRFIRange(position: Position): RangeSet | undefined {
-  if (position === 'SB' || position === 'BTN/SB') {
-    return SB_BLIND_WAR_RANGE;
-  }
-  if (position === 'BB') {
-    return BB_DEFENSE_RANGE;
-  }
-  return RFI_RANGES[position];
-}
+export { getRFIRange } from '../data/ranges';

@@ -2,15 +2,7 @@ import { Activity, BarChart3, CalendarDays, Flame, Gauge, LineChart as LineChart
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { clsx } from 'clsx';
 import type { CareerScopeProfile } from '../../analysis/careerScope';
-
-function money(value: number): string {
-  const sign = value > 0 ? '+' : value < 0 ? '-' : '';
-  return `${sign}$${Math.abs(value).toFixed(2)}`;
-}
-
-function pct(value: number | null): string {
-  return value === null ? '—' : `${value > 0 ? '+' : ''}${value.toFixed(1)}%`;
-}
+import { money, pct } from '../../utils/format';
 
 function formatDate(date: Date | null): string {
   return date ? date.toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' }) : '—';
@@ -106,7 +98,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
             <div className="rounded-2xl bg-white/[0.03] p-3">
               <div className="text-[var(--color-text-dim)]">Last 20 ROI</div>
               <div className={clsx('mt-1 font-data font-black', (profile.last20Roi ?? 0) >= 0 ? 'text-emerald-300' : 'text-rose-300')}>
-                {pct(profile.last20Roi)}
+                {pct(profile.last20Roi, true)}
               </div>
             </div>
           </div>
@@ -118,8 +110,8 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
 
         <div className="space-y-6">
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-            <MetricTile label="Total ROI" value={pct(profile.totalRoi)} detail={`${money(profile.totalProfit)} net`} icon={<Percent size={15} />} accent={isProfitable ? 'green' : 'rose'} />
-            <MetricTile label="Average ROI" value={pct(profile.averageRoi)} detail="Mean ROI per tournament" icon={<BarChart3 size={15} />} accent={profile.averageRoi >= 0 ? 'green' : 'rose'} />
+            <MetricTile label="Total ROI" value={pct(profile.totalRoi, true)} detail={`${money(profile.totalProfit, true)} net`} icon={<Percent size={15} />} accent={isProfitable ? 'green' : 'rose'} />
+            <MetricTile label="Average ROI" value={pct(profile.averageRoi, true)} detail="Mean ROI per tournament" icon={<BarChart3 size={15} />} accent={profile.averageRoi >= 0 ? 'green' : 'rose'} />
             <MetricTile label="ABI" value={`$${profile.averageStake.toFixed(2)}`} detail={`Stake $${profile.totalStake.toFixed(2)} · rake $${profile.totalRake.toFixed(2)}`} icon={<Activity size={15} />} />
             <MetricTile label="Activity" value={`${profile.gamesPerActiveDay.toFixed(1)}/day`} detail={`${profile.activeDays} active days · peak ${profile.mostGamesInDay}`} icon={<CalendarDays size={15} />} />
           </div>
@@ -155,7 +147,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
 
             <div className="space-y-3">
               <MetricTile label="ITM / Wins" value={`${profile.itmRate.toFixed(1)}%`} detail={`${profile.wins} outright wins`} icon={<Trophy size={15} />} accent="amber" />
-              <MetricTile label="Cashes" value={`$${profile.totalCashes.toFixed(2)}`} detail={`${money(profile.averageProfit)} avg profit/game`} icon={<Flame size={15} />} accent={isProfitable ? 'green' : 'rose'} />
+              <MetricTile label="Cashes" value={`$${profile.totalCashes.toFixed(2)}`} detail={`${money(profile.averageProfit, true)} avg profit/game`} icon={<Flame size={15} />} accent={isProfitable ? 'green' : 'rose'} />
               <div className="rounded-2xl border border-white/5 bg-white/[0.03] p-4 text-xs text-[var(--color-text-dim)]">
                 <div className="font-black uppercase tracking-[0.22em] text-white">Streaks</div>
                 <div className="mt-3 flex justify-between"><span>Best cashing streak</span><b className="text-emerald-300">{profile.maxCashingStreak}</b></div>

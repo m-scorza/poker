@@ -1,6 +1,8 @@
 import type { Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import type { Leak, LeakSeverity } from './leakDetector';
+import { getTournamentCost, getTournamentRevenue } from './financials';
+import { money } from '../utils/format';
 
 export type CareerRecommendation =
   | 'Move Up Candidate'
@@ -52,10 +54,6 @@ const SEVERITY_RANK: Record<LeakSeverity, number> = {
   low: 3,
 };
 
-function money(n: number): string {
-  return `$${n.toFixed(2)}`;
-}
-
 function pct(numerator: number, denominator: number): number {
   return denominator === 0 ? 0 : (numerator / denominator) * 100;
 }
@@ -65,11 +63,11 @@ function clampScore(score: number): number {
 }
 
 function tournamentCost(tournament: Tournament): number {
-  return (tournament.buyIn || 0) + (tournament.fee || 0);
+  return getTournamentCost(tournament);
 }
 
 function tournamentReturn(tournament: Tournament): number {
-  return (tournament.prize || 0) + (tournament.bounty || 0);
+  return getTournamentRevenue(tournament);
 }
 
 function sortByCareerDate(tournaments: Tournament[]): Tournament[] {

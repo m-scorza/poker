@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2, type LucideIcon } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
 import { getAllHeroDecisions } from '../data/store';
@@ -324,7 +324,15 @@ export function ArenaPage() {
   );
 }
 
-function DrillCard({ title, desc, icon: Icon, color, onClick }: any) {
+interface DrillCardProps {
+  title: string;
+  desc: string;
+  icon: LucideIcon;
+  color: 'red' | 'emerald' | 'blue';
+  onClick: () => void;
+}
+
+function DrillCard({ title, desc, icon: Icon, color, onClick }: DrillCardProps) {
   const colorMap = {
     red: 'from-red-900/20 via-red-900/5 to-transparent border-red-500/20 text-red-400 hover:border-red-500/40',
     emerald: 'from-emerald-900/20 via-emerald-900/5 to-transparent border-emerald-500/20 text-emerald-400 hover:border-emerald-500/40',
@@ -352,7 +360,14 @@ function DrillCard({ title, desc, icon: Icon, color, onClick }: any) {
   );
 }
 
-function ActionButton({ label, color, onClick, disabled }: any) {
+interface ActionButtonProps {
+  label: string;
+  color: 'gray' | 'blue' | 'emerald';
+  onClick: () => void;
+  disabled: boolean;
+}
+
+function ActionButton({ label, color, onClick, disabled }: ActionButtonProps) {
   const colorMap = {
     gray: 'bg-white/5 border-white/10 text-white hover:bg-white/10',
     blue: 'bg-blue-600/20 border-blue-500/30 text-blue-400 hover:bg-blue-600/30',

@@ -12,10 +12,12 @@ import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../data/sessions';
 import { computePositionStats } from '../analysis/positionStats';
 import { buildStudyQueue } from '../analysis/studyPlan';
+import { getTournamentRevenue } from '../analysis/financials';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { AlertTriangle, TrendingUp, DollarSign, Target, BarChart3, Clock, Rocket, Shield, Crosshair } from 'lucide-react';
 import { clsx } from 'clsx';
 import { motion } from 'framer-motion';
+import { ratioPct } from '../utils/format';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -98,7 +100,7 @@ export function DashboardPage() {
     let itmCount = 0;
     uniqueTourneys.forEach(id => {
        const t = tMap.get(id);
-       if (t && (t.prize || 0) > 0) itmCount++;
+       if (t && getTournamentRevenue(t) > 0) itmCount++;
     });
 
     const statsSummary = { totalBuyIns, totalPrizes, totalTournaments, itmCount };
@@ -108,16 +110,16 @@ export function DashboardPage() {
   }, [rawData, activeSessionId, strategyProfile]);
 
   const aggregateStats = data?.stats ?? null;
-  const leaks = data?.leaks ?? ([] as any[]);
-  const sessionsList = data?.sessionsGrouped ?? ([] as any[]);
+  const leaks = data?.leaks ?? [];
+  const sessionsList = data?.sessionsGrouped ?? [];
   const totalPnl = data?.totalPnl ?? 0;
   const statsSummary = data?.statsSummary ?? { totalBuyIns: 0, totalPrizes: 0, totalTournaments: 0, itmCount: 0 };
-  const positionStats = data?.positionStats ?? ([] as any[]);
-  const displayTrend = data?.displayTrend ?? ([] as any[]);
+  const positionStats = data?.positionStats ?? [];
+  const displayTrend = data?.displayTrend ?? [];
   const careerCoachReport = data?.careerCoachReport ?? null;
-  const studyQueue = data?.studyQueue ?? ([] as any[]);
+  const studyQueue = data?.studyQueue ?? [];
 
-  const pct = (n: number, d: number) => (d === 0 ? '—' : `${((n / d) * 100).toFixed(1)}%`);
+  const pct = (n: number, d: number) => ratioPct(n, d, '—');
 
   // Compute calculated stats
   const cbetPct = aggregateStats ? pct(aggregateStats.cbetMade, aggregateStats.cbetOpps) : '—';
@@ -143,7 +145,7 @@ export function DashboardPage() {
           </p>
         </div>
 
-        <div className="flex bg-[var(--color-bg-card)] rounded-lg p-1 border border-[var(--color-border)] shadow-lg ring-1 ring-white/5">
+        <div className="flex glass-card rounded-lg p-1 border border-[var(--color-border)] shadow-lg ring-1 ring-white/5">
           <select
             value={activeSessionId}
             onChange={(e) => setActiveSessionId(e.target.value)}
@@ -166,7 +168,7 @@ export function DashboardPage() {
       </div>
 
       {totalHands === 0 ? (
-        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-12 text-center shadow-sm">
+        <div className="glass-card border border-[var(--color-border)] rounded-xl p-12 text-center shadow-sm">
           <Target className="mx-auto mb-4 text-[var(--color-text-muted)] opacity-50" size={48} />
           <h3 className="text-lg font-bold text-[var(--color-text)] mb-2">No Data Found</h3>
           <p className="text-[var(--color-text-dim)] text-sm">
@@ -280,7 +282,7 @@ export function DashboardPage() {
             </h3>
             <motion.div variants={containerVariants} initial="hidden" animate="show" className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
               <motion.div variants={itemVariants}>
-                <div className="p-4 bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl relative overflow-hidden group h-full">
+                <div className="p-4 glass-card border border-[var(--color-border)] rounded-xl relative overflow-hidden group h-full">
                    <div className="absolute top-0 left-0 w-1 h-full bg-emerald-500 opacity-50" />
                    <p className="text-[10px] text-[var(--color-text-dim)] uppercase font-bold tracking-tight mb-1">Total PnL</p>
                    <h4 className={clsx("text-2xl font-data font-bold", totalPnl >= 0 ? "text-emerald-400" : "text-rose-400")}>
@@ -305,7 +307,7 @@ export function DashboardPage() {
 
           {/* Charts Row */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5 shadow-sm">
+            <div className="glass-card border border-[var(--color-border)] rounded-xl p-5 shadow-sm">
               <h3 className="text-[var(--color-text)] font-semibold mb-6 flex justify-between items-center">
                 <span className="flex items-center gap-2"><TrendingUp size={16} className="text-emerald-400"/> {activeSessionId === 'all' ? 'Bankroll Progression' : 'Current Session BB Delta'}</span>
                 <span className="text-[10px] bg-white/5 px-2 py-1 rounded text-[var(--color-text-dim)]">{activeSessionId === 'all' ? 'Tournament buy-in/prize PnL' : 'Big-blind normalized hand delta'}</span>
@@ -319,7 +321,7 @@ export function DashboardPage() {
               </div>
             </div>
 
-            <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-5 shadow-sm">
+            <div className="glass-card border border-[var(--color-border)] rounded-xl p-5 shadow-sm">
               <h3 className="text-[var(--color-text)] font-semibold mb-6 flex justify-between items-center">
                 <span className="flex items-center gap-2"><Crosshair size={16} className="text-blue-400"/> Technical Focus</span>
                 <span className="text-[10px] bg-white/5 px-2 py-1 rounded text-[var(--color-text-dim)]">VPIP/PFR Correlation</span>
@@ -339,7 +341,7 @@ export function DashboardPage() {
 
           {/* Position Heatmap with BB/100 */}
           {positionStats.length > 0 && (
-            <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
+            <div className="glass-card border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
               <div className="flex justify-between items-center mb-6">
                  <h3 className="text-lg font-bold text-white flex items-center gap-2">
                    <BarChart3 size={18} className="text-blue-400" />
@@ -400,7 +402,7 @@ export function DashboardPage() {
 
           {/* Nemesis & Assassin Block */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-             <div className="md:col-span-2 bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
+             <div className="md:col-span-2 glass-card border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-6 flex items-center gap-2">
                    <Clock size={16} className="text-rose-400" /> Recent Session Predators
                 </h3>

@@ -75,7 +75,7 @@ function looksLikeOpenHandHistoryJson(content: string): boolean {
   if (first !== '{' && first !== '[') return false;
 
   try {
-    const parsed = JSON.parse(content);
+    const parsed: unknown = JSON.parse(content);
     return containsOpenHandHistoryObject(parsed);
   } catch {
     return false;

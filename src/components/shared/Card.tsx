@@ -8,10 +8,10 @@ const SUIT_SYMBOLS: Record<string, string> = {
 };
 
 const SUIT_COLORS: Record<string, string> = {
-  h: 'text-[var(--color-suit-heart)]',
-  d: 'text-[var(--color-suit-diamond)]',
-  c: 'text-[var(--color-suit-club)]',
-  s: 'text-[var(--color-suit-spade)]',
+  h: 'text-suit-heart',
+  d: 'text-suit-diamond',
+  c: 'text-suit-club',
+  s: 'text-suit-spade',
 };
 
 interface CardProps {
@@ -44,12 +44,11 @@ export function PokerCard({ card, size = 'md', className }: CardProps) {
   return (
     <div
       className={clsx(
-        'relative bg-[var(--color-bg-card-solid)] border border-[var(--color-border-active)] shadow-md flex flex-col p-1 select-none font-bold',
+        'relative bg-bg-card-solid border border-border-active shadow-[2px_2px_8px_rgba(0,0,0,0.4)] flex flex-col p-1 select-none font-bold',
         color,
         sizeClasses[size],
         className
       )}
-      style={{ fontFamily: 'var(--font-sans)', boxShadow: '2px 2px 8px rgba(0,0,0,0.4)' }}
     >
       <div className="flex flex-col items-center leading-[1.1] w-3">
         <span>{rank}</span>

@@ -212,7 +212,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
         {/* Hero info */}
         {hero && (
-          <div className="flex items-center gap-3 mb-4 p-3 bg-[var(--color-bg-card)] rounded-lg border border-[var(--color-border)]">
+          <div className="flex items-center gap-3 mb-4 p-3 glass-card rounded-lg border border-[var(--color-border)]">
             <div>
               <span className="text-xs text-[var(--color-text-dim)]">Hero</span>
               <span className="font-data font-bold ml-2">{hero.playerName}</span>
@@ -238,7 +238,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
         {/* Villains info at showdown */}
         {players.filter((p) => !p.isHero && p.holeCards && p.holeCards.length === 2).length > 0 && (
-          <div className="flex flex-wrap items-center gap-3 mb-4 p-2 bg-[var(--color-bg-card)] rounded-lg border border-[var(--color-border)] opacity-80">
+          <div className="flex flex-wrap items-center gap-3 mb-4 p-2 glass-card rounded-lg border border-[var(--color-border)] opacity-80">
              <span className="text-xs text-[var(--color-text-dim)] mr-2">Opponents (Showdown):</span>
              {players.filter((p) => !p.isHero && p.holeCards && p.holeCards.length === 2).map(villain => (
                 <div key={villain.playerName} className="flex items-center gap-2 px-3 border-l border-[var(--color-border)] first:border-0 first:pl-0">
@@ -330,7 +330,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                   'px-3 py-1.5 rounded-lg text-xs font-data transition-colors',
                   activeStreet === s
                     ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)]'
-                    : 'bg-[var(--color-bg-card)] text-[var(--color-text-dim)] border border-[var(--color-border)] hover:border-[var(--color-border-active)]',
+                    : 'glass-card text-[var(--color-text-dim)] border border-[var(--color-border)] hover:border-[var(--color-border-active)]',
                 )}
               >
                 {STREET_LABELS[s]}
@@ -397,7 +397,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                     'flex flex-col gap-1 px-3 py-2 rounded text-xs border border-white/5',
                     spot.isCorrect === true && 'bg-emerald-900/10 border-emerald-500/20',
                     spot.isCorrect === false && 'bg-red-900/10 border-red-500/20',
-                    spot.isCorrect === null && 'bg-[var(--color-bg-card)]',
+                    spot.isCorrect === null && 'glass-card',
                   )}
                 >
                   <div className="flex items-center gap-2">
@@ -457,7 +457,9 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                 const boardGroup = boardCards.length > 0 ? CardGroup.fromString(boardCards.join('')) : undefined;
                 const result = OddsCalculator.calculate([heroGroup, ...oppGroups], boardGroup);
                 heroEquity = result.equities[0]?.getEquity() || 0;
-              } catch (e) {}
+              } catch (e) {
+                console.warn('[HandReplay] Failed to calculate equity using poker-odds-calculator:', e);
+              }
             }
 
             return (

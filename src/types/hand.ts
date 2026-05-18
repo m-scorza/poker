@@ -1,4 +1,15 @@
-import type { Position } from './analysis';
+export type Position =
+  | 'UTG'
+  | 'UTG+1'
+  | 'MP1'
+  | 'MP'
+  | 'MP2'
+  | 'HJ'
+  | 'CO'
+  | 'BTN'
+  | 'SB'
+  | 'BB'
+  | 'BTN/SB';
 
 /** A single parsed PokerStars hand. */
 export interface Hand {

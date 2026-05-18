@@ -11,6 +11,7 @@ import { exportSessionsCSV } from '../utils/csvExport';
 import { exportSessionsPDF } from '../utils/pdfExport';
 import { clsx } from 'clsx';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
+import { ratioPct } from '../utils/format';
 import type { Session } from '../data/sessions';
 import type { Leak } from '../analysis/leakDetector';
 
@@ -40,7 +41,7 @@ export function SessionsPage() {
     load();
   }, [load]);
 
-  const pct = (n: number, d: number) => (d === 0 ? '0%' : `${((n / d) * 100).toFixed(1)}%`);
+  const pct = (n: number, d: number) => ratioPct(n, d, '0%');
   const pctNum = (n: number, d: number) => (d === 0 ? 0 : (n / d) * 100);
 
   const formatDuration = (start: Date, end: Date) => {
@@ -83,7 +84,7 @@ export function SessionsPage() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl p-12 text-center shadow-lg relative overflow-hidden"
+          className="glass-card border border-[var(--color-border)] rounded-xl p-12 text-center shadow-lg relative overflow-hidden"
         >
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent pointer-events-none" />
           <motion.div
@@ -97,7 +98,7 @@ export function SessionsPage() {
           <DemoDataButton label="Load demo sessions" onLoaded={load} className="shadow-xl" />
         </motion.div>
       ) : (
-        <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-xl overflow-hidden shadow-sm">
+        <div className="glass-card border border-[var(--color-border)] rounded-xl overflow-hidden shadow-sm">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -198,7 +199,7 @@ export function SessionsPage() {
                           >
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                               {/* Nemesis Tracker */}
-                              <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl p-5 shadow-sm relative overflow-hidden group/card shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
+                              <div className="glass-card border border-[var(--color-border)] rounded-2xl p-5 shadow-sm relative overflow-hidden group/card shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
                                  <div className="absolute -top-2 -right-2 p-3 opacity-10 group-hover/card:rotate-12 transition-transform duration-500"><UserX size={80} /></div>
                                  <h4 className="text-[10px] uppercase font-bold text-rose-400 tracking-widest mb-4 flex items-center gap-2">
                                     <Zap size={14} className="animate-pulse" /> Session Nemesis
@@ -216,7 +217,7 @@ export function SessionsPage() {
                               </div>
 
                               {/* Street Consistency */}
-                              <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl p-5 shadow-sm shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
+                              <div className="glass-card border border-[var(--color-border)] rounded-2xl p-5 shadow-sm shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
                                  <h4 className="text-[10px] uppercase font-bold text-blue-400 tracking-widest mb-4 flex items-center gap-2">
                                     <Target size={14} /> GTO Consistency
                                  </h4>
@@ -228,7 +229,7 @@ export function SessionsPage() {
                               </div>
 
                               {/* Insights & Coaching */}
-                              <div className="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl p-5 shadow-sm shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
+                              <div className="glass-card border border-[var(--color-border)] rounded-2xl p-5 shadow-sm shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
                                  <h4 className="text-[10px] uppercase font-bold text-amber-500 tracking-widest mb-4 flex items-center gap-2">
                                     <AlertCircle size={14} /> Session Intelligence
                                  </h4>

@@ -1,17 +1,52 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { seedDemoDataset, type DemoSeedProgress } from '../demoDataset';
 
-const storeMocks = vi.hoisted(() => ({
-  importHands: vi.fn(async (hands: unknown[], _options?: { aggregateVillains?: boolean }) => hands.length),
-  aggregateVillainStats: vi.fn(async (_hands?: unknown[]) => undefined),
-  importTournamentSummaries: vi.fn(async (summaries: unknown[]) => ({ created: summaries.length, updated: 0, buyInPreserved: 0 })),
-  clearAllData: vi.fn()
-}));
+const storeMocks = vi.hoisted(() => {
+  const state = {
+    existingDemoHands: 0,
+    existingDemoTournaments: 0,
+  };
+  const deletes = {
+    hands: vi.fn(async () => undefined),
+    players: vi.fn(async () => undefined),
+    actions: vi.fn(async () => undefined),
+    heroDecisions: vi.fn(async () => undefined),
+    tournaments: vi.fn(async () => undefined),
+    villains: vi.fn(async () => undefined),
+  };
+
+  return {
+    state,
+    deletes,
+    importHands: vi.fn(async (hands: unknown[], _options?: { aggregateVillains?: boolean }) => hands.length),
+    aggregateVillainStats: vi.fn(async (_hands?: unknown[]) => undefined),
+    importTournamentSummaries: vi.fn(async (summaries: unknown[]) => ({ created: summaries.length, updated: 0, buyInPreserved: 0 })),
+    clearAllData: vi.fn(),
+  };
+});
+
+const startsWithCollection = (count: () => number, deleteFn: () => Promise<void>) => ({
+  startsWith: () => ({
+    count: async () => count(),
+    delete: deleteFn,
+  }),
+});
 
 vi.mock('../store', () => ({
   db: {
-    hands: { where: () => ({ startsWith: () => ({ count: async () => 0 }) }) },
-    tournaments: { where: () => ({ startsWith: () => ({ count: async () => 0 }) }) }
+    transaction: async (_mode: string, _tables: unknown[], callback: () => Promise<void>) => callback(),
+    hands: {
+      where: () => startsWithCollection(() => storeMocks.state.existingDemoHands, storeMocks.deletes.hands),
+      bulkDelete: storeMocks.deletes.hands,
+    },
+    players: { where: () => startsWithCollection(() => 0, storeMocks.deletes.players) },
+    actions: { where: () => startsWithCollection(() => 0, storeMocks.deletes.actions) },
+    heroDecisions: { where: () => startsWithCollection(() => 0, storeMocks.deletes.heroDecisions) },
+    tournaments: {
+      where: () => startsWithCollection(() => storeMocks.state.existingDemoTournaments, storeMocks.deletes.tournaments),
+      bulkDelete: storeMocks.deletes.tournaments,
+    },
+    villains: { bulkDelete: storeMocks.deletes.villains },
   },
   importHands: storeMocks.importHands,
   aggregateVillainStats: storeMocks.aggregateVillainStats,
@@ -22,6 +57,8 @@ vi.mock('../store', () => ({
 describe('seedDemoDataset progress callback', () => {
   beforeEach(() => {
     vi.clearAllMocks();
+    storeMocks.state.existingDemoHands = 0;
+    storeMocks.state.existingDemoTournaments = 0;
   });
 
   it('advances through all phases and reaches done', async () => {
@@ -55,5 +92,23 @@ describe('seedDemoDataset progress callback', () => {
     expect(storeMocks.importHands.mock.calls.every(([, options]) => options?.aggregateVillains === false)).toBe(true);
     expect(storeMocks.aggregateVillainStats).toHaveBeenCalledTimes(1);
     expect(storeMocks.aggregateVillainStats.mock.calls[0]![0].length).toBeGreaterThanOrEqual(10_000);
+  });
+
+  it('replaces older demo data instead of treating any 250-tournament demo as already loaded', async () => {
+    const progressUpdates: DemoSeedProgress[] = [];
+    storeMocks.state.existingDemoHands = 10_716;
+    storeMocks.state.existingDemoTournaments = 250;
+
+    const result = await seedDemoDataset((p) => progressUpdates.push(p));
+
+    expect(result.alreadyLoaded).toBe(false);
+    expect(progressUpdates.some((p) => p.message === 'Replacing older demo dataset...')).toBe(true);
+    expect(storeMocks.deletes.hands).toHaveBeenCalled();
+    expect(storeMocks.deletes.players).toHaveBeenCalled();
+    expect(storeMocks.deletes.actions).toHaveBeenCalled();
+    expect(storeMocks.deletes.heroDecisions).toHaveBeenCalled();
+    expect(storeMocks.deletes.tournaments).toHaveBeenCalled();
+    expect(storeMocks.deletes.villains).toHaveBeenCalled();
+    expect(storeMocks.importHands).toHaveBeenCalled();
   });
 });

@@ -27,8 +27,33 @@ const SRC_DIRS = ['parser', 'analysis', 'data', 'pages', 'components', 'utils', 
 
 const CHECK = process.argv.includes('--check');
 
+interface PackageJsonDeps {
+  dependencies?: Record<string, string>;
+  devDependencies?: Record<string, string>;
+}
+
+function isPackageJsonDeps(value: unknown): value is PackageJsonDeps {
+  if (!value || typeof value !== 'object') return false;
+  const candidate = value as { dependencies?: unknown; devDependencies?: unknown };
+  return isStringRecord(candidate.dependencies) && isStringRecord(candidate.devDependencies);
+}
+
+function isStringRecord(value: unknown): value is Record<string, string> | undefined {
+  if (value === undefined) return true;
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return false;
+  return Object.values(value).every(v => typeof v === 'string');
+}
+
+function readPackageJsonDeps(): PackageJsonDeps {
+  const parsed: unknown = JSON.parse(readFileSync(PKG_PATH, 'utf-8'));
+  if (!isPackageJsonDeps(parsed)) {
+    throw new Error(`${PKG_PATH} has unexpected dependency metadata shape`);
+  }
+  return parsed;
+}
+
 function depsBlock(): string {
-  const pkg = JSON.parse(readFileSync(PKG_PATH, 'utf-8'));
+  const pkg = readPackageJsonDeps();
   const fmt = (o: Record<string, string>) =>
     Object.entries(o).sort(([a], [b]) => a.localeCompare(b)).map(([n, v]) => `- ${n} ${v}`).join('\n');
   return [

@@ -77,6 +77,7 @@ interface OhhHand {
 }
 
 export function parseOpenHandHistoryFile(fileContent: string, heroName = 'scorza23'): ParsedHand[] {
+  if (fileContent.length > 20 * 1024 * 1024) return [];
   const rawHands = readOhhHands(fileContent);
   const parsed: ParsedHand[] = [];
 
