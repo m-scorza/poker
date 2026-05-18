@@ -199,33 +199,39 @@ export function buildSolverSpotInputFromParsedHand(
   };
 }
 
-export interface ClassifyOptions {
-  /** True once a real solver adapter has been wired in. Until then, any
-   *  coverage classification short-circuits to `no_solver_configured`. */
-  solverConfigured?: boolean;
-}
-
 export function classifySolverCoverage(
   spot: SolverSpotInput,
-  options: ClassifyOptions = {},
+  options: SolverCoverageOptions = {},
 ): SolverCoverage {
   if (!options.solverConfigured) {
     return { status: 'unsupported', reason: 'no_solver_configured', confidence: 'none' };
   }
 
-  if (!spot.heroStackBb || !Number.isFinite(spot.heroStackBb)) {
+  const supportedGameTypes = options.supportedGameTypes ?? ['mtt', 'cash'];
+  const supportedStreets = options.supportedStreets ?? ['preflop', 'flop'];
+  const maxEffectiveStackBb = options.maxEffectiveStackBb ?? 100;
+
+  if (
+    !spot.handId ||
+    !spot.heroPosition ||
+    !spot.heroStackBb ||
+    !Number.isFinite(spot.heroStackBb) ||
+    !spot.effectiveStackBb ||
+    !Number.isFinite(spot.effectiveStackBb) ||
+    !Number.isFinite(spot.potBb)
+  ) {
     return { status: 'unsupported', reason: 'missing_required_context', confidence: 'none' };
   }
-  if (spot.gameType !== 'mtt' && spot.gameType !== 'cash') {
+  if (!supportedGameTypes.includes(spot.gameType)) {
     return { status: 'unsupported', reason: 'unsupported_game_type', confidence: 'none' };
   }
-  if (spot.street !== 'preflop' && spot.street !== 'flop') {
+  if (!supportedStreets.includes(spot.street)) {
     return { status: 'unsupported', reason: 'unsupported_street', confidence: 'none' };
   }
-  if (spot.effectiveStackBb > 100) {
+  if (spot.effectiveStackBb > maxEffectiveStackBb) {
     return { status: 'partial', reason: 'unsupported_stack_depth', confidence: 'low' };
   }
-  if (spot.tournamentContext?.requiresIcm) {
+  if (spot.tournamentContext?.requiresIcm || spot.tournamentContext?.isBounty) {
     return { status: 'partial', reason: 'unsupported_tournament_context', confidence: 'low' };
   }
   return { status: 'covered', confidence: 'high' };

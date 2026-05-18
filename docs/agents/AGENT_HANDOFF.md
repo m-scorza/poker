@@ -18,6 +18,35 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+## 2026-05-18 — Solver coverage readiness cleanup
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Continue the solver boundary lane by tightening coverage readiness classification and documenting that the preflop parsed-hand converter slice is now in place.
+- Files touched:
+  - `src/analysis/solverAdapter.ts` — replaced the duplicate local classify-options shape with `SolverCoverageOptions`, made supported game types/streets/stack cap configurable, and added missing-context plus bounty/ICM readiness guards.
+  - `docs/product/SOLVER_BOUNDARY.md` — updated current implementation and next slices after the narrow converter/coverage work.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- Summary:
+  - `classifySolverCoverage()` still returns `no_solver_configured` by default, preserving the no-false-solver-claim boundary.
+  - When a future real adapter calls it with `solverConfigured: true`, it now checks required spot context, configured game type/street support, max effective stack depth, and tournament contexts requiring ICM or bounty handling before claiming coverage.
+  - The solver boundary doc now points the next safe slice toward deterministic fake/proxy adapter fixtures or a carefully tested flop converter, rather than redoing the completed narrow preflop converter/coverage slice.
+- Verification:
+  - `npm run docs:update` — passed; `docs/product/STATUS.md` already up to date.
+  - `npm run docs:check` — passed.
+  - `npm test -- --run src/analysis/__tests__/solverAdapter.test.ts src/analysis/__tests__/solverSpotBuilder.test.ts` — passed, 2 files / 6 tests.
+  - `npx tsc -b --pretty false` — passed as part of the chained verification before build.
+  - `npm run build` — passed, production Vite/PWA build.
+  - `git diff --check` — passed; Git printed existing CRLF normalization warnings for many files/fixtures.
+- Risks / assumptions:
+  - This still does not integrate a real solver and does not produce EV recommendations.
+  - Existing tests for the preflop converter and coverage classifier were already present in the working tree; this slice only tightened the classifier implementation and updated docs.
+  - Bounty/ICM handling is intentionally conservative: readiness is partial/low confidence until a future adapter explicitly supports tournament-EV/bounty semantics.
+- Next action requested:
+  - Next backend slice: add a deterministic fake/proxy adapter for internal UI/testing with `evidenceKind: "proxy_model"` or keep it `unsupported`; do not label anything `solver_backed` until a real licensed adapter covers the spot.
+
+---
+
 ## 2026-05-18 — Solver boundary safety scaffold
 
 - Owner / agent: Hermes
