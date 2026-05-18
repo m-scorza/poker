@@ -9,6 +9,7 @@ import { useAppStore } from '../data/appStore';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../data/store';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
+import { getRecentImportRuns, summarizeDataHealth } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { Leak, LeakSeverity } from '../analysis/leakDetector';
@@ -59,6 +60,8 @@ function actionForLeak(leak: Leak): string {
 
 export function LeaksPage() {
   const { strategyProfile } = useAppStore();
+  const recentImportRuns = useLiveQuery(() => getRecentImportRuns(1), [], []);
+  const dataHealth = summarizeDataHealth(recentImportRuns ?? []);
 
   const data = useLiveQuery(async () => {
     const raw = await db.heroDecisions.toArray();
@@ -75,6 +78,36 @@ export function LeaksPage() {
 
   return (
     <div className="space-y-6">
+      {dataHealth.status === 'ready' && (dataHealth.confidence === 'low' || dataHealth.confidence === 'medium') && (
+        <div className={clsx(
+          'flex items-start gap-3 rounded-xl border p-4 text-xs shadow-md',
+          dataHealth.confidence === 'low'
+            ? 'border-[var(--color-danger)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
+            : 'border-yellow-600/30 bg-yellow-950/15 text-yellow-100/90 shadow-yellow-950/10'
+        )}>
+          <AlertTriangle className={clsx(
+            'mt-0.5 h-[18px] w-[18px] shrink-0',
+            dataHealth.confidence === 'low' ? 'text-[var(--color-danger)]' : 'text-yellow-400'
+          )} />
+          <div>
+            <span className="font-bold uppercase tracking-wider">
+              {dataHealth.confidence === 'low' ? 'Action Required' : 'Directional Analysis'}:
+            </span>{' '}
+            {dataHealth.confidence === 'low'
+              ? 'Your latest import encountered significant warnings or failures. Downstream leak analysis may be incomplete or biased. Fix import warnings in the Upload tab before trusting metrics.'
+              : 'Your latest import completed with minor warnings. Statistics are highly useful but should be treated as directional.'}
+            <div className="mt-2">
+              <Link
+                to="/hands"
+                className="inline-flex items-center gap-1 font-bold text-white hover:underline uppercase tracking-wider text-[10px]"
+              >
+                Review Import Warnings &rarr;
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="text-[10px] font-black uppercase tracking-[0.24em] text-[var(--color-accent)]">Leak Inbox</p>

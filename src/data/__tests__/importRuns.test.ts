@@ -1,8 +1,11 @@
 import 'fake-indexeddb/auto';
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+vi.unmock('../store');
+vi.unmock('../importRuns');
 import type { ImportSummary } from '../../parser/workerProcessor';
 import {
   buildImportRunRecord,
+  buildImportRunTimeline,
   summarizeDataHealth,
   saveImportRun,
   getRecentImportRuns,
@@ -104,6 +107,59 @@ describe('summarizeDataHealth', () => {
     expect(summary.recentFailedFiles).toBe(3);
     expect(summary.warnings).toEqual(['all files failed']);
     expect(summary.message).toBe('Latest import is low confidence; fix import warnings before trusting analysis.');
+  });
+});
+
+describe('buildImportRunTimeline', () => {
+  it('returns recent runs newest-first with formatted labels and capped previews', () => {
+    const olderHigh = buildImportRunRecord(
+      { ...baseSummary, totalFiles: 1, parsedFiles: 1, failedFiles: 0, confidence: 'high', warnings: [] },
+      ['older.txt'],
+      { savedHands: 50, savedSummaries: 1 },
+      new Date('2026-05-16T20:00:00Z'),
+    );
+    const latestMedium = buildImportRunRecord(
+      baseSummary,
+      ['latest-1.txt', 'latest-2.txt', 'latest-3.txt', 'latest-4.txt'],
+      { savedHands: 118, savedSummaries: 2 },
+      new Date('2026-05-17T20:00:00Z'),
+    );
+
+    const timeline = buildImportRunTimeline([olderHigh, latestMedium]);
+
+    expect(timeline.map(row => row.id)).toEqual([latestMedium.id, olderHigh.id]);
+    expect(timeline[0]).toEqual({
+      id: latestMedium.id,
+      importedAt: new Date('2026-05-17T20:00:00Z'),
+      confidence: 'medium',
+      title: '2026-05-17 20:00 UTC · medium confidence',
+      parsedFilesLabel: '2/3 files parsed',
+      savedLabel: '118 hands / 2 summaries saved',
+      sourcePreview: ['latest-1.txt', 'latest-2.txt', 'latest-3.txt', '+1 more'],
+      failedFilesLabel: '1 failed file',
+      warningPreview: ['bad.txt: unsupported file', 'summary.txt: missing finish position'],
+    });
+    expect(timeline[1]!.failedFilesLabel).toBe('No failed files');
+    expect(timeline[1]!.warningPreview).toEqual([]);
+  });
+
+  it('caps warning previews and source previews for dense imports', () => {
+    const dense = buildImportRunRecord(
+      {
+        ...baseSummary,
+        warnings: ['w1', 'w2', 'w3', 'w4'],
+      },
+      ['a.txt', 'b.txt', 'c.txt', 'd.txt', 'e.txt'],
+      { savedHands: 1, savedSummaries: 0 },
+      new Date('2026-05-17T22:30:00Z'),
+    );
+
+    expect(buildImportRunTimeline([dense])).toMatchObject([
+      {
+        sourcePreview: ['a.txt', 'b.txt', 'c.txt', '+2 more'],
+        warningPreview: ['w1', 'w2', '+2 more warnings'],
+      },
+    ]);
   });
 });
 

@@ -8,6 +8,7 @@ import { useAppStore } from '../../data/appStore';
 import { importHands, importTournamentSummaries, getTotalHandCount } from '../../data/store';
 import {
   buildImportRunRecord,
+  buildImportRunTimeline,
   getRecentImportRuns,
   saveImportRun,
   summarizeDataHealth,
@@ -62,6 +63,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const [currentImportFile, setCurrentImportFile] = useState('');
   const [statsFound, setStatsFound] = useState({ hands: 0, summaries: 0, deviations: 0 });
   const [importSummary, setImportSummary] = useState<ImportSummary | null>(null);
+  const [showHistory, setShowHistory] = useState(false);
 
   const processFiles = useCallback(async (files: FileList) => {
     setImporting(true);
@@ -275,6 +277,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const formattedImportSummary = importSummary ? formatImportSummary(importSummary) : null;
   const recentImportRuns = useLiveQuery(() => getRecentImportRuns(5), [], []);
   const dataHealth = summarizeDataHealth(recentImportRuns ?? []);
+  const importRunTimeline = buildImportRunTimeline(recentImportRuns ?? []);
 
   return (
     <div className="glass-card border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
@@ -310,18 +313,32 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             <div className="font-semibold text-[var(--color-text)]">Data Health</div>
             <div className="mt-1 text-[var(--color-text-muted)]">{dataHealth.message}</div>
           </div>
-          {dataHealth.confidence ? (
-            <span className={clsx(
-              'rounded-full border px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider',
-              confidenceBadgeClasses[dataHealth.confidence],
-            )}>
-              {dataHealth.confidence} confidence
-            </span>
-          ) : (
-            <span className="rounded-full border border-[var(--color-border)] px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider text-[var(--color-text-muted)]">
-              No imports yet
-            </span>
-          )}
+          <div className="flex items-center gap-2">
+            {dataHealth.status === 'ready' && (
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowHistory(prev => !prev);
+                }}
+                className="rounded border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white hover:bg-white/10 transition-colors cursor-pointer"
+              >
+                {showHistory ? 'Hide Details' : 'Show History'}
+              </button>
+            )}
+            {dataHealth.confidence ? (
+              <span className={clsx(
+                'rounded-full border px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider',
+                confidenceBadgeClasses[dataHealth.confidence],
+              )}>
+                {dataHealth.confidence} confidence
+              </span>
+            ) : (
+              <span className="rounded-full border border-[var(--color-border)] px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider text-[var(--color-text-muted)]">
+                No imports yet
+              </span>
+            )}
+          </div>
         </div>
         {dataHealth.status === 'ready' && (
           <div className="mt-3 grid grid-cols-2 gap-2 text-[var(--color-text-muted)] md:grid-cols-4">
@@ -331,12 +348,59 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             <div><span className="text-[var(--color-text)]">Failed:</span> {dataHealth.recentFailedFiles}</div>
           </div>
         )}
-        {dataHealth.warnings.length > 0 && (
+        {dataHealth.warnings.length > 0 && !showHistory && (
           <ul className="mt-3 list-disc space-y-1 pl-4 text-yellow-100/90">
             {dataHealth.warnings.map((warning, i) => (
               <li key={`${warning}-${i}`}>{warning}</li>
             ))}
           </ul>
+        )}
+
+        {/* Collapsible Timeline Details */}
+        {showHistory && importRunTimeline.length > 0 && (
+          <div className="mt-4 pt-4 border-t border-[var(--color-border)] space-y-4">
+            <div className="text-[10px] font-black uppercase tracking-wider text-[var(--color-text-muted)] mb-2">
+              Import History Timeline
+            </div>
+            <div className="relative pl-4 border-l border-white/10 space-y-4">
+              {importRunTimeline.map((run) => (
+                <div key={run.id} className="relative">
+                  {/* Timeline bullet */}
+                  <div className={clsx(
+                    'absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full border border-black',
+                    run.confidence === 'high' && 'bg-emerald-400',
+                    run.confidence === 'medium' && 'bg-yellow-400',
+                    run.confidence === 'low' && 'bg-red-400'
+                  )} />
+                  <div className="space-y-1">
+                    <div className="flex items-center justify-between text-[10px]">
+                      <span className="font-semibold text-white">
+                        {run.title}
+                      </span>
+                    </div>
+                    <p className="text-[10px] text-[var(--color-text-muted)]">
+                      {run.parsedFilesLabel} &middot; <span className="text-white">{run.savedLabel}</span> &middot; <span className="text-amber-400/90">{run.failedFilesLabel}</span>
+                    </p>
+                    <div className="text-[9px] text-[var(--color-text-muted)]">
+                      Sources: {run.sourcePreview.join(', ')}
+                    </div>
+                    {run.warningPreview.length > 0 && (
+                      <div className="mt-1 max-h-20 overflow-y-auto rounded bg-black/20 p-2 font-mono text-[9px] text-yellow-100/80 scrollbar-thin">
+                        <div className="font-bold text-[8px] uppercase tracking-widest text-yellow-200/60 mb-1">
+                          Warnings / Error logs
+                        </div>
+                        <ul className="list-disc pl-3 space-y-0.5">
+                          {run.warningPreview.map((warning, i) => (
+                            <li key={`${run.id}-${warning}-${i}`} className="leading-relaxed">{warning}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         )}
       </div>
 

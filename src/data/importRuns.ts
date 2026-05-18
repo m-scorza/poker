@@ -34,6 +34,18 @@ export interface DataHealthSummary {
   message: string;
 }
 
+export interface ImportRunTimelineRow {
+  id: string;
+  importedAt: Date;
+  confidence: ImportConfidence;
+  title: string;
+  parsedFilesLabel: string;
+  savedLabel: string;
+  sourcePreview: string[];
+  failedFilesLabel: string;
+  warningPreview: string[];
+}
+
 const MAX_WARNING_COUNT = 5;
 
 export function buildImportRunRecord(
@@ -104,4 +116,45 @@ export async function saveImportRun(record: ImportRunRecord): Promise<void> {
 
 export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {
   return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
+}
+
+export function buildImportRunTimeline(runs: ImportRunRecord[]): ImportRunTimelineRow[] {
+  const sorted = [...runs].sort((a, b) => b.importedAt.getTime() - a.importedAt.getTime());
+  return sorted.map((run) => {
+    const y = run.importedAt.getUTCFullYear();
+    const m = String(run.importedAt.getUTCMonth() + 1).padStart(2, '0');
+    const d = String(run.importedAt.getUTCDate()).padStart(2, '0');
+    const hh = String(run.importedAt.getUTCHours()).padStart(2, '0');
+    const mm = String(run.importedAt.getUTCMinutes()).padStart(2, '0');
+    const title = `${y}-${m}-${d} ${hh}:${mm} UTC · ${run.confidence} confidence`;
+
+    const parsedFilesLabel = `${run.parsedFiles}/${run.totalFiles} files parsed`;
+    const savedLabel = `${run.savedHands} hands / ${run.savedSummaries} summaries saved`;
+
+    const failedFilesLabel = run.failedFiles === 0
+      ? 'No failed files'
+      : run.failedFiles === 1
+        ? '1 failed file'
+        : `${run.failedFiles} failed files`;
+
+    const sourcePreview = run.sourceFiles.length > 3
+      ? [...run.sourceFiles.slice(0, 3), `+${run.sourceFiles.length - 3} more`]
+      : [...run.sourceFiles];
+
+    const warningPreview = run.warnings.length > 2
+      ? [...run.warnings.slice(0, 2), `+${run.warnings.length - 2} more warnings`]
+      : [...run.warnings];
+
+    return {
+      id: run.id,
+      importedAt: run.importedAt,
+      confidence: run.confidence,
+      title,
+      parsedFilesLabel,
+      savedLabel,
+      sourcePreview,
+      failedFilesLabel,
+      warningPreview,
+    };
+  });
 }

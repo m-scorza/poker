@@ -1,4 +1,7 @@
 import { useCallback, useEffect, useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
+import { clsx } from 'clsx';
+import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../data/store';
 import { CareerDashboard } from '../components/career/CareerDashboard';
 import { CareerCoachCard } from '../components/career/CareerCoachCard';
@@ -14,9 +17,10 @@ import { StakeTrendChart } from '../components/career/StakeTrendChart';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { useAppStore } from '../data/appStore';
+import { getRecentImportRuns, summarizeDataHealth } from '../data/importRuns';
 import type { Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
-import { History, Trophy, TrendingUp } from 'lucide-react';
+import { History, Trophy, TrendingUp, AlertTriangle } from 'lucide-react';
 import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash } from '../analysis/financials';
 
 function ordinal(value: number): string {
@@ -35,6 +39,8 @@ export function CareerPage() {
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
   const [loading, setLoading] = useState(true);
   const { strategyProfile } = useAppStore();
+  const recentImportRuns = useLiveQuery(() => getRecentImportRuns(1), [], []);
+  const dataHealth = summarizeDataHealth(recentImportRuns ?? []);
 
   const loadData = useCallback(async () => {
     setLoading(true);
@@ -158,6 +164,36 @@ export function CareerPage() {
            Chronological overview of your tournament journey, achievements, and financial evolution.
          </p>
       </header>
+
+      {dataHealth.status === 'ready' && (dataHealth.confidence === 'low' || dataHealth.confidence === 'medium') && (
+        <div className={clsx(
+          'flex items-start gap-3 rounded-xl border p-4 text-xs shadow-md',
+          dataHealth.confidence === 'low'
+            ? 'border-[var(--color-danger)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
+            : 'border-yellow-600/30 bg-yellow-950/15 text-yellow-100/90 shadow-yellow-950/10'
+        )}>
+          <AlertTriangle className={clsx(
+            'mt-0.5 h-[18px] w-[18px] shrink-0',
+            dataHealth.confidence === 'low' ? 'text-[var(--color-danger)]' : 'text-yellow-400'
+          )} />
+          <div>
+            <span className="font-bold uppercase tracking-wider">
+              {dataHealth.confidence === 'low' ? 'Action Required' : 'Directional Analysis'}:
+            </span>{' '}
+            {dataHealth.confidence === 'low'
+              ? 'Your latest import encountered significant warnings or failures. Career financials, profit charts, and ABI stats may be incomplete or biased. Fix import warnings in the Upload tab before trusting metrics.'
+              : 'Your latest import completed with minor warnings. Profit timelines and GTO scorecards are highly useful but should be treated as directional.'}
+            <div className="mt-2">
+              <Link
+                to="/hands"
+                className="inline-flex items-center gap-1 font-bold text-white hover:underline uppercase tracking-wider text-[10px]"
+              >
+                Review Import Warnings &rarr;
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
 
       <LifetimeScorecard tournaments={tournaments} decisions={decisions} />
 

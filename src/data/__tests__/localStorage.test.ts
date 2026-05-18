@@ -1,4 +1,6 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import 'fake-indexeddb/auto';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
+vi.unmock('../store');
 
 // happy-dom 20.9 + vitest does not expose a working `localStorage.setItem`.
 // Install an in-memory Storage shim BEFORE importing modules that touch it
