@@ -148,6 +148,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60" onClick={onClose}>
+      {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions -- stopPropagation prevents the backdrop click from closing the modal when the user clicks inside the dialog body. */}
       <div
         ref={dialogRef}
         role="dialog"

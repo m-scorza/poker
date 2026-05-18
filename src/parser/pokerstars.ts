@@ -37,7 +37,7 @@ const RE_SHOWED = /Seat \d+: (.+?) (?:\(.+?\) )?showed \[([^\]]+)\]/;
 const RE_SHOWED_AND_WON = /Seat \d+: (.+?) (?:\(.+?\) )?showed \[[^\]]+\] and won/;
 const RE_FINISH = /finished the tournament in (\d+)\w+ place/;
 const RE_PRIZE = /received \$([0-9.]+)/;
-const RE_COLLECTED = /^(.+?)(?:\:)? collected \$?([\d.,]+) from/;
+const RE_COLLECTED = /^(.+?):? collected \$?([\d.,]+) from/;
 
 // Action patterns
 const RE_FOLDS = /^(.+?): folds/;

@@ -2,6 +2,7 @@ node_modules/
 dist/
 *.tsbuildinfo
 .vite/
+.eslintcache
 errors.txt
 
 # Local agent/session artifacts

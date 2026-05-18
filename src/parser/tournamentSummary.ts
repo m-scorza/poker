@@ -14,7 +14,7 @@ export interface ParsedTournamentSummary {
 
 const RE_TOURNAMENT_ID_SUMMARY = /Tournament #(\d+)/i;
 // More flexible patterns for finish, prize, and bounties
-const RE_FINISH_FLEX = /(\d+)(?:st|nd|rd|th)?:\s+([^,(\[\]]+)/i;
+const RE_FINISH_FLEX = /(\d+)(?:st|nd|rd|th)?:\s+([^,([\]]+)/i;
 const RE_MONEY = /\$?([\d,]+\.?\d*)/;
 const RE_BOUNTY_LINE = /(?:received|won|bounty).*?\$?([\d,]+\.?\d*).*?(?:bounties|eliminating)/i;
 

@@ -236,7 +236,7 @@ export function SessionsPage() {
                                  <div className="text-xs text-[var(--color-text-muted)] space-y-3">
                                     {st.complianceEligible > 0 && (st.complianceCompliant / st.complianceEligible) < 0.85 ? (
                                        <div className="bg-rose-900/10 p-3 rounded-xl border border-rose-500/20 text-rose-200">
-                                          ⚠️ <span className="font-bold">Low Compliance.</span> Your deviations this session indicate "reactionary" play. Re-evaluate your Turn folds.
+                                          ⚠️ <span className="font-bold">Low Compliance.</span> Your deviations this session indicate &ldquo;reactionary&rdquo; play. Re-evaluate your Turn folds.
                                        </div>
                                     ) : (
                                        <div className="bg-emerald-900/10 p-3 rounded-xl border border-emerald-500/20 text-emerald-200">
@@ -244,7 +244,7 @@ export function SessionsPage() {
                                        </div>
                                     )}
                                     <p className="italic opacity-60 px-2 border-l-2 border-amber-500/30 py-1">
-                                       "The {s.nemesis?.name || 'opponent'} factor should not make you deviate from your theoretical range."
+                                       &ldquo;The {s.nemesis?.name || 'opponent'} factor should not make you deviate from your theoretical range.&rdquo;
                                     </p>
                                  </div>
                               </div>

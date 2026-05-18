@@ -44,7 +44,7 @@ export class ErrorBoundary extends Component<Props, State> {
             </h2>
             
             <p className="text-[var(--color-text-dim)] mb-6">
-              The application encountered a critical error and cannot continue. Our robot assistant (that's me) apologizes.
+              The application encountered a critical error and cannot continue. Our robot assistant (that&apos;s me) apologizes.
             </p>
 
             {this.state.error && (
