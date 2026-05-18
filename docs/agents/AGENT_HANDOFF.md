@@ -18,6 +18,42 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+## 2026-05-17 — Hermes durable import data-health persistence
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Continue the import reliability lane by persisting completed import-run audit records locally and rendering a minimal persistent Data Health panel near upload controls.
+- Files touched:
+  - `docs/plans/2026-05-17-import-run-data-health.md` — implementation plan and verification path for the durable import-run/data-health slice.
+  - `src/data/importRuns.ts` — new pure import-run record builder, data-health summarizer, and Dexie-backed save/read helpers.
+  - `src/data/__tests__/importRuns.test.ts` — RED/GREEN coverage for record construction, empty/medium/low data-health summaries, newest-first persistence, and reset clearing.
+  - `src/data/store.ts` — added Dexie version 5 `importRuns` table and included it in full local data reset.
+  - `src/components/hands/HandsUpload.tsx` — saves an import audit record after hands/summaries persist and renders persisted Data Health after reload via `useLiveQuery`.
+  - `package.json` / `package-lock.json` — added `fake-indexeddb` dev dependency for Dexie persistence tests under Vitest/happy-dom.
+  - `docs/product/STATUS.md` — regenerated autogen dependency/source/test inventory.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- Summary:
+  - Followed TDD: `src/data/__tests__/importRuns.test.ts` first failed because `src/data/importRuns.ts` did not exist, then passed after implementing the helper and persistence layer.
+  - Each completed worker import now becomes a durable local audit run with source filenames, parsed/failed file counts, found/saved hand and summary counts, confidence, warnings, and timestamp.
+  - Upload UI now shows a persistent Data Health panel with confidence badge, last import time, recent saved counts, failed file count, and warning preview.
+  - Existing parser/import success still wins if audit persistence fails; the UI logs a warning rather than falsely failing an otherwise saved import.
+  - Left untracked `AUDIT_NEW.md` untouched and unstaged because it is outside this import-data-health slice.
+- Verification:
+  - RED: `cmd.exe /c "cd /d C:\\Users\\MICRO\\Downloads\\poker-claude-integrate-knowledge-base-vvCeh && npm test -- --run src/data/__tests__/importRuns.test.ts"` — initially failed on missing `../importRuns` module as expected.
+  - Focused GREEN: same test — passed, 6 tests.
+  - `cmd.exe /c "cd /d C:\\Users\\MICRO\\Downloads\\poker-claude-integrate-knowledge-base-vvCeh && npm run docs:update && npm run docs:check && npx tsc -b --pretty false && npm test -- --run src/data/__tests__/importRuns.test.ts src/parser/__tests__/uploadSizeGuards.test.ts src/data/__tests__/localStorage.test.ts"` — passed, 36 tests.
+  - `cmd.exe /c "cd /d C:\\Users\\MICRO\\Downloads\\poker-claude-integrate-knowledge-base-vvCeh && npm run build"` — passed, production Vite/PWA build generated.
+  - Full test suite first run: 43 files / 485 tests passed, with one Vitest worker `fetch` timeout while loading `framer-motion` in `ConfirmDialog.test.tsx`; rerun passed.
+  - Full test suite rerun: `cmd.exe /c "cd /d C:\\Users\\MICRO\\Downloads\\poker-claude-integrate-knowledge-base-vvCeh && npm test -- --run"` — passed, 44 files / 488 tests.
+- Risks / assumptions:
+  - The Data Health panel is intentionally minimal and aggregate-focused; a richer per-import timeline can be added next using the same persisted `importRuns` table.
+  - `fake-indexeddb` is test-only and needed because happy-dom does not provide the IndexedDB API Dexie expects.
+  - WSL-native npm commands remain unsuitable for this checkout; all npm verification used Windows Node through `cmd.exe`.
+- Next action requested:
+  - Next import-reliability slice: expose a recent import-run timeline/details view and propagate import confidence into downstream analysis/recommendation surfaces.
+
+---
+
 ## 2026-05-17 — Hermes dirty-tree gate, blocker fixes, and push prep
 
 - Owner / agent: Hermes

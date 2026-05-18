@@ -172,6 +172,7 @@ are stale. Do not edit by hand.
 - @types/react ^19.0.0
 - @types/react-dom ^19.0.0
 - @vitejs/plugin-react ^4.3.4
+- fake-indexeddb ^6.2.5
 - happy-dom ^20.9.0
 - tailwindcss ^4.2.2
 - tsx ^4.21.0
@@ -234,10 +235,11 @@ src/analysis/  (19 files)
   analysis/studyPlan.ts
   analysis/villainClassifier.ts
   analysis/villainExploitCrossRef.ts
-src/data/  (9 files)
+src/data/  (10 files)
   data/appStore.ts
   data/demoDataset.ts
   data/demoVillains.ts
+  data/importRuns.ts
   data/localStorage.ts
   data/pushFoldRanges.ts
   data/ranges.ts
@@ -296,8 +298,8 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 43
-**`it` / `test` calls (approximate):** 473
+**Test files:** 44
+**`it` / `test` calls (approximate):** 479
 
 ```
 src/__tests__/App.test.tsx
@@ -327,6 +329,7 @@ src/components/shared/__tests__/RangeGrid.test.tsx
 src/components/shared/__tests__/StatCard.test.tsx
 src/data/__tests__/demoDataset.test.ts
 src/data/__tests__/demoSeedProgress.test.ts
+src/data/__tests__/importRuns.test.ts
 src/data/__tests__/localStorage.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts

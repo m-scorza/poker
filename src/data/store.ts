@@ -10,6 +10,7 @@ import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import type { VillainProfile } from '../types/villain';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
+import type { ImportRunRecord } from './importRuns';
 import * as ls from './localStorage';
 
 export interface AppSettings {
@@ -34,6 +35,7 @@ const db = new Dexie('PokerAnalyzer') as Dexie & {
   heroDecisions: EntityTable<HeroDecision, 'handId'>;
   villains: EntityTable<VillainProfile, 'playerName'>;
   sessions: EntityTable<SessionRecord, 'id'>;
+  importRuns: EntityTable<ImportRunRecord, 'id'>;
   settings: EntityTable<AppSettings, 'id'>;
 };
 
@@ -92,6 +94,11 @@ db.version(3).stores({
 });
 
 db.version(4).stores({});
+
+// Import audit history: completed import runs and their data-confidence metadata.
+db.version(5).stores({
+  importRuns: 'id, importedAt, confidence',
+});
 
 export { db };
 
@@ -517,7 +524,7 @@ export async function importTournamentSummaries(
 export async function clearAllData(): Promise<void> {
   await db.transaction(
     'rw',
-    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions],
+    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions, db.importRuns],
     async () => {
       await db.hands.clear();
       await db.players.clear();
@@ -526,6 +533,7 @@ export async function clearAllData(): Promise<void> {
       await db.heroDecisions.clear();
       await db.villains.clear();
       await db.sessions.clear();
+      await db.importRuns.clear();
     },
   );
 }

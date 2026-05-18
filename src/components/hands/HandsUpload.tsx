@@ -1,10 +1,17 @@
 import { useState, useCallback, useRef } from 'react';
 import { clsx } from 'clsx';
+import { useLiveQuery } from 'dexie-react-hooks';
 import JSZip from 'jszip';
 import { Upload as UploadIcon, CheckCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAppStore } from '../../data/appStore';
 import { importHands, importTournamentSummaries, getTotalHandCount } from '../../data/store';
+import {
+  buildImportRunRecord,
+  getRecentImportRuns,
+  saveImportRun,
+  summarizeDataHealth,
+} from '../../data/importRuns';
 import { formatImportSummary } from '../../parser/importSummary';
 import type { ImportSummary, WorkerFilePayload, WorkerMessage } from '../../parser/workerProcessor';
 
@@ -14,6 +21,15 @@ export const MAX_ZIP_BYTES = 50 * MB;
 export const MAX_ZIP_DECOMPRESSED_BYTES = 150 * MB;
 export const MAX_BATCH_BYTES = 200 * MB;
 const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
+const formatDateTime = (date: Date | null) => date
+  ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date)
+  : 'Never';
+
+const confidenceBadgeClasses = {
+  high: 'border-emerald-400/30 bg-emerald-400/10 text-emerald-100',
+  medium: 'border-yellow-400/30 bg-yellow-400/10 text-yellow-100',
+  low: 'border-red-400/30 bg-red-400/10 text-red-100',
+};
 
 type JSZipInternalEntry = { _data?: { uncompressedSize?: number } };
 
@@ -193,6 +209,19 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
            importTournamentSummaries(msg.summaries)
         ]);
 
+        try {
+          await saveImportRun(buildImportRunRecord(
+            msg.importSummary,
+            fileDataArr.map(file => file.name),
+            {
+              savedHands: handImported,
+              savedSummaries: summaryImported.updated + summaryImported.created,
+            },
+          ));
+        } catch (error) {
+          console.warn('Import completed, but audit history could not be saved:', error);
+        }
+
         // Update store and UI
         const totalCount = await getTotalHandCount();
         setTotalHands(totalCount);
@@ -244,6 +273,8 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const totalHandNodes = results.filter(r => r.type === 'hand' && !r.error);
   const totalSummaryNodes = results.filter(r => r.type === 'summary' && !r.error);
   const formattedImportSummary = importSummary ? formatImportSummary(importSummary) : null;
+  const recentImportRuns = useLiveQuery(() => getRecentImportRuns(5), [], []);
+  const dataHealth = summarizeDataHealth(recentImportRuns ?? []);
 
   return (
     <div className="glass-card border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
@@ -272,6 +303,42 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
       </div>
 
       <input ref={fileRef} type="file" accept=".txt,.json,.zip" multiple onChange={onFileSelect} className="hidden" />
+
+      <div className="mt-4 rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-base)]/70 p-4 text-xs">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <div className="font-semibold text-[var(--color-text)]">Data Health</div>
+            <div className="mt-1 text-[var(--color-text-muted)]">{dataHealth.message}</div>
+          </div>
+          {dataHealth.confidence ? (
+            <span className={clsx(
+              'rounded-full border px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider',
+              confidenceBadgeClasses[dataHealth.confidence],
+            )}>
+              {dataHealth.confidence} confidence
+            </span>
+          ) : (
+            <span className="rounded-full border border-[var(--color-border)] px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider text-[var(--color-text-muted)]">
+              No imports yet
+            </span>
+          )}
+        </div>
+        {dataHealth.status === 'ready' && (
+          <div className="mt-3 grid grid-cols-2 gap-2 text-[var(--color-text-muted)] md:grid-cols-4">
+            <div><span className="text-[var(--color-text)]">Last:</span> {formatDateTime(dataHealth.lastImportedAt)}</div>
+            <div><span className="text-[var(--color-text)]">Files:</span> {dataHealth.recentFiles}</div>
+            <div><span className="text-[var(--color-text)]">Saved:</span> {dataHealth.recentSavedHands} hands / {dataHealth.recentSavedSummaries} summaries</div>
+            <div><span className="text-[var(--color-text)]">Failed:</span> {dataHealth.recentFailedFiles}</div>
+          </div>
+        )}
+        {dataHealth.warnings.length > 0 && (
+          <ul className="mt-3 list-disc space-y-1 pl-4 text-yellow-100/90">
+            {dataHealth.warnings.map((warning, i) => (
+              <li key={`${warning}-${i}`}>{warning}</li>
+            ))}
+          </ul>
+        )}
+      </div>
 
       <AnimatePresence>
         {isImporting && (
