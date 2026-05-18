@@ -119,7 +119,11 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           a.filter((act) => act.street === 'preflop' && act.actionType === 'fold')
             .map((act) => act.playerName),
         );
-        const flopPlayerCount = p.length - preflopFolders.size;
+        const preflopAllIns = new Set(
+          a.filter((act) => act.street === 'preflop' && act.isAllIn)
+            .map((act) => act.playerName),
+        );
+        const flopPlayerCount = p.length - preflopFolders.size - preflopAllIns.size;
         const spots = analyzePostflop(
           a,
           heroName,

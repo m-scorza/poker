@@ -185,7 +185,14 @@ export function buildHeroDecision(
       .filter((a) => a.street === 'preflop' && a.actionType === 'fold')
       .map((a) => a.playerName),
   );
-  const flopPlayerCount = players.length - preflopFolders.size;
+  // Players who went all-in preflop reach the flop but cannot act on it.
+  // For c-bet "HU on flop" semantics, only count players with chips behind.
+  const preflopAllIns = new Set(
+    actions
+      .filter((a) => a.street === 'preflop' && a.isAllIn)
+      .map((a) => a.playerName),
+  );
+  const flopPlayerCount = players.length - preflopFolders.size - preflopAllIns.size;
   const cbetHU = flopPlayerCount === 2;
   const heroAllInPreflop = heroVoluntaryActions.some((a) => a.isAllIn);
   const hasFlopActions = flopActions.length > 0;

@@ -49,4 +49,37 @@ describe('solver adapter boundary', () => {
     expect(result.source).toBe('local-boundary');
     expect(result.coverage.confidence).toBe('none');
   });
+
+  it('classifies spot readiness without making solver EV claims when a solver is configured later', () => {
+    expect(classifySolverCoverage({ ...baseSpot, heroStackBb: 0 }, { solverConfigured: true })).toEqual({
+      status: 'unsupported',
+      reason: 'missing_required_context',
+      confidence: 'none',
+    });
+    expect(classifySolverCoverage({ ...baseSpot, gameType: 'unknown' }, { solverConfigured: true })).toEqual({
+      status: 'unsupported',
+      reason: 'unsupported_game_type',
+      confidence: 'none',
+    });
+    expect(classifySolverCoverage({ ...baseSpot, street: 'turn' }, { solverConfigured: true })).toEqual({
+      status: 'unsupported',
+      reason: 'unsupported_street',
+      confidence: 'none',
+    });
+    expect(classifySolverCoverage({ ...baseSpot, effectiveStackBb: 160 }, { solverConfigured: true })).toEqual({
+      status: 'partial',
+      reason: 'unsupported_stack_depth',
+      confidence: 'low',
+    });
+    expect(
+      classifySolverCoverage(
+        { ...baseSpot, tournamentContext: { stage: 'bubble', requiresIcm: true } },
+        { solverConfigured: true },
+      ),
+    ).toEqual({
+      status: 'partial',
+      reason: 'unsupported_tournament_context',
+      confidence: 'low',
+    });
+  });
 });

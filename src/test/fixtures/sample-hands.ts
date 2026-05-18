@@ -491,3 +491,57 @@ Total pot 6180 | Rake 0
 Board [Qh 7d 3c 8s 2d]
 Seat 1: scorza23 (button) showed [Qs Qd] and lost with three of a kind, Queens
 Seat 3: player3 (big blind) showed [7s 7h] and won (6180) with a full house, Sevens full of Queens`;
+
+/**
+ * Three-handed flop where one villain went all-in preflop.
+ * Hero (UTG) opens, CO calls, BTN 3-bet shoves, blinds fold, hero + CO call.
+ * Three players technically "reach" the flop but only hero and CO have chips —
+ * the BTN shover has no remaining action. For c-bet "HU on flop" semantics
+ * this is effectively heads-up between hero and CO (cbetHU should be true).
+ */
+export const HAND_3WAY_FLOP_WITH_ALLIN = `\
+PokerStars Hand #260356700001: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level V (50/100) - 2026/04/05 19:00:00 UTC [2026/04/05 15:00:00 ET]
+Table '3989541132 1' 6-max Seat #1 is the button
+Seat 1: player1 (800 in chips)
+Seat 2: player2 (3000 in chips)
+Seat 3: player3 (2500 in chips)
+Seat 4: scorza23 (3500 in chips)
+Seat 5: player5 (2800 in chips)
+Seat 6: player6 (3200 in chips)
+player1: posts the ante 10
+player2: posts the ante 10
+player3: posts the ante 10
+scorza23: posts the ante 10
+player5: posts the ante 10
+player6: posts the ante 10
+player2: posts small blind 50
+player3: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ad Kd]
+scorza23: raises 100 to 200
+player5: folds
+player6: calls 200
+player1: raises 590 to 790 and is all-in
+player2: folds
+player3: folds
+scorza23: calls 590
+player6: calls 590
+*** FLOP *** [Qh 7s 2c]
+scorza23: bets 500
+player6: folds
+scorza23 collected 1020 from side pot
+*** TURN *** [Qh 7s 2c] [3d]
+*** RIVER *** [Qh 7s 2c 3d] [Jh]
+*** SHOW DOWN ***
+scorza23: shows [Ad Kd] (high card Ace)
+player1: shows [Jd Jc] (a pair of Jacks)
+player1 collected 2520 from main pot
+*** SUMMARY ***
+Total pot 3540 Main pot 2520. Side pot 1020. | Rake 0
+Board [Qh 7s 2c 3d Jh]
+Seat 1: player1 (button) showed [Jd Jc] and won (2520) with a pair of Jacks
+Seat 2: player2 (small blind) folded before Flop
+Seat 3: player3 (big blind) folded before Flop
+Seat 4: scorza23 showed [Ad Kd] and lost with high card Ace
+Seat 5: player5 folded before Flop (didn't bet)
+Seat 6: player6 folded on the Flop`;

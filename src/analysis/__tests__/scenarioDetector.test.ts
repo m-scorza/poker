@@ -12,6 +12,7 @@ import {
   HAND_NON_CONTIGUOUS,
   HAND_FACING_LIMP,
   HAND_WON_WITHOUT_SHOWING,
+  HAND_3WAY_FLOP_WITH_ALLIN,
 } from '../../test/fixtures/sample-hands';
 
 function parseFirst(text: string) {
@@ -252,6 +253,20 @@ describe('buildHeroDecision', () => {
       expect(decision!.wentToShowdown).toBe(true);
       expect(decision!.wonAmount).toBeGreaterThan(0);
       expect(decision!.wonAtShowdown).toBe(false);
+    });
+
+    it('cbetHU=true when 3rd player is all-in preflop (H14 regression)', () => {
+      // Three players technically reach the flop, but one is all-in preflop
+      // with no chips behind. For c-bet "HU on flop" semantics, only count
+      // players who can actually act on the flop.
+      const parsed = parseFirst(HAND_3WAY_FLOP_WITH_ALLIN);
+      const decision = buildHeroDecision(parsed);
+      expect(decision).not.toBeNull();
+      expect(decision!.wasPreFlopRaiser).toBe(true);
+      expect(decision!.sawFlop).toBe(true);
+      expect(decision!.cbetOpportunity).toBe(true);
+      expect(decision!.cbetMade).toBe(true);
+      expect(decision!.cbetHU).toBe(true);
     });
 
     it('sets wonAtShowdown=true when hero explicitly "showed and won"', () => {

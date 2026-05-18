@@ -225,6 +225,19 @@ You finished the tournament in 1st place.
     expect(s!.fee).toBeUndefined();
   });
 
+  it('Brazilian-locale Buy-In line "US$ 0,49/US$ 0,06" is extracted (H12)', () => {
+    // Brazilian PokerStars exports use comma as the decimal separator and
+    // `US$` as the currency prefix, with slash between buy-in and fee.
+    // The summary normalizer must rewrite to the canonical `+` form before
+    // dispatching to the shared extractor.
+    const s = parseTournamentSummary(
+      baseSummary("PokerStars Tournament #9999, No Limit Hold'em", 'Buy-In: US$ 0,49/US$ 0,06 USD')
+    );
+    expect(s!.buyIn).toBeCloseTo(0.49);
+    expect(s!.fee).toBeCloseTo(0.06);
+    expect(s!.currency).toBe('USD');
+  });
+
   it('freeroll summary is classified PLAY', () => {
     const s = parseTournamentSummary(
       baseSummary(

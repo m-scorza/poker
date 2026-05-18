@@ -1,6 +1,17 @@
 import { extractBuyIn, MAX_PLAUSIBLE_USD_BUYIN } from './buyInExtractor';
 import { parseUsdCents, centsToUsd } from './money';
 
+/**
+ * Try US-locale parse first, fall back to locale-aware (comma-decimal) on
+ * null. Keeps existing en-US behaviour identical while letting Brazilian /
+ * European summary exports through ("US$ 1,40", "0,49").
+ */
+function parseMoneyAnyLocale(input: string): number | null {
+  const us = parseUsdCents(input);
+  if (us !== null) return us;
+  return parseUsdCents(input, { localeAware: true });
+}
+
 export interface ParsedTournamentSummary {
   tournamentId: string;
   name?: string;
@@ -67,7 +78,7 @@ export function parseTournamentSummary(
         || lines[i-1]?.toLowerCase().includes(heroLower)
         || lines[i+1]?.toLowerCase().includes(heroLower);
       if (bMatch && contextHasHero) {
-        const addCents = parseUsdCents(bMatch[1]!);
+        const addCents = parseMoneyAnyLocale(bMatch[1]!);
         if (addCents !== null) bountyCents = (bountyCents || 0) + addCents;
       }
     }
@@ -84,7 +95,7 @@ export function parseTournamentSummary(
         // Check same line for prize
         const moneyMatch = RE_MONEY.exec(line.slice(finishMatch[0].length));
         if (moneyMatch) {
-          const cents = parseUsdCents(moneyMatch[1]!);
+          const cents = parseMoneyAnyLocale(moneyMatch[1]!);
           if (cents !== null) prizeCents = cents;
         }
       }
@@ -98,7 +109,7 @@ export function parseTournamentSummary(
     if (line.toLowerCase().startsWith('you received')) {
       const pMatch = RE_MONEY.exec(line);
       if (pMatch) {
-        const cents = parseUsdCents(pMatch[1]!);
+        const cents = parseMoneyAnyLocale(pMatch[1]!);
         if (cents !== null) prizeCents = cents;
       }
     }
@@ -107,9 +118,16 @@ export function parseTournamentSummary(
     if (line.toLowerCase().startsWith('buy-in:')) {
       // PokerStars summaries use slash, not plus, as the buy-in/fee separator
       // on this line: "Buy-In: $0.49/$0.06 USD". Normalize to `$X+$Y` so the
-      // shared extractor can handle it.
+      // shared extractor can handle it. Two locale variants:
+      //   en-US: "$0.49/$0.06"
+      //   pt-BR: "US$ 0,49/US$ 0,06" (and freer spacing)
       const afterColon = line.slice(line.indexOf(':') + 1);
-      const normalized = afterColon.replace(/\$(\d+(?:[.,]\d+)?)\/\$(\d+(?:[.,]\d+)?)/, '$$$1+$$$2');
+      const normalized = afterColon
+        .replace(
+          /US\$\s*(\d+(?:[.,]\d+)?)\s*\/\s*US\$\s*(\d+(?:[.,]\d+)?)/,
+          'US$$ $1+US$$ $2',
+        )
+        .replace(/\$(\d+(?:[.,]\d+)?)\/\$(\d+(?:[.,]\d+)?)/, '$$$1+$$$2');
       const extracted = extractBuyIn(tournamentName, normalized);
       if (!extracted.unresolved) {
         buyIn = extracted.buyIn;

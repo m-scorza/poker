@@ -308,8 +308,8 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 48
-**`it` / `test` calls (approximate):** 506
+**Test files:** 49
+**`it` / `test` calls (approximate):** 511
 
 ```
 src/__tests__/App.test.tsx
@@ -328,6 +328,7 @@ src/analysis/__tests__/rangeChecker.test.ts
 src/analysis/__tests__/rangeValidator.test.ts
 src/analysis/__tests__/scenarioDetector.test.ts
 src/analysis/__tests__/solverAdapter.test.ts
+src/analysis/__tests__/solverSpotBuilder.test.ts
 src/analysis/__tests__/squeezeDetector.test.ts
 src/analysis/__tests__/studyPlan.test.ts
 src/analysis/__tests__/villainClassifier.test.ts
