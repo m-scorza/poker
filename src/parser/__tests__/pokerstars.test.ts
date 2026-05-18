@@ -219,6 +219,80 @@ describe('parsePokerStarsFile', () => {
       const [parsed] = parsePokerStarsFile(HAND_FULL_STREETS);
       expect(parsed!.hand.rake).toBe(0);
     });
+
+    it('captures grand total when summary splits into main + side pots', () => {
+      const sidePotHand = [
+        "PokerStars Hand #999000001: Tournament #1234567, $1.40+$0.10 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 15:05:00 UTC [2026/02/16 10:05:00 ET]",
+        "Table '1234567 1' 3-max Seat #1 is the button",
+        'Seat 1: hero (1000 in chips)',
+        'Seat 2: villA (500 in chips)',
+        'Seat 3: villB (300 in chips)',
+        'hero: posts small blind 50',
+        'villA: posts big blind 100',
+        '*** HOLE CARDS ***',
+        'Dealt to hero [Ac Kc]',
+        'villB: raises 200 to 300 and is all-in',
+        'hero: raises 700 to 1000 and is all-in',
+        'villA: calls 400 and is all-in',
+        '*** FLOP *** [2d 7s 9h]',
+        '*** TURN *** [2d 7s 9h] [Jc]',
+        '*** RIVER *** [2d 7s 9h Jc] [Qd]',
+        '*** SHOW DOWN ***',
+        'hero: shows [Ac Kc] (high card Ace)',
+        'villA: shows [Th Td] (a pair of Tens)',
+        'villB: shows [Qs Qc] (three of a kind, Queens)',
+        'villB collected 900 from main pot',
+        'villA collected 400 from side pot',
+        '*** SUMMARY ***',
+        'Total pot 1300 Main pot 900. Side pot 400. | Rake 0',
+        'Board [2d 7s 9h Jc Qd]',
+        'Seat 1: hero (button) (small blind) showed [Ac Kc] and lost',
+        'Seat 2: villA (big blind) showed [Th Td] and lost',
+        'Seat 3: villB showed [Qs Qc] and won (900)',
+      ].join('\n');
+      const [parsed] = parsePokerStarsFile(sidePotHand);
+      expect(parsed!.hand.totalPot).toBe(1300);
+    });
+
+    it('captures grand total when summary has multiple side pots', () => {
+      const multiSidePotLine = 'Total pot 49540 Main pot 28270. Side pot-1 9510. Side pot-2 11760. | Rake 0';
+      const hand = [
+        "PokerStars Hand #999000002: Tournament #1234567, $1.40+$0.10 USD Hold'em No Limit - Level I (50/100) - 2026/02/16 15:05:00 UTC [2026/02/16 10:05:00 ET]",
+        "Table '1234567 1' 4-max Seat #1 is the button",
+        'Seat 1: hero (1000 in chips)',
+        'Seat 2: villA (500 in chips)',
+        'Seat 3: villB (300 in chips)',
+        'Seat 4: villC (200 in chips)',
+        'hero: posts small blind 50',
+        'villA: posts big blind 100',
+        '*** HOLE CARDS ***',
+        'Dealt to hero [Ac Kc]',
+        'villB: raises 200 to 300 and is all-in',
+        'villC: calls 200 and is all-in',
+        'hero: raises 700 to 1000 and is all-in',
+        'villA: calls 400 and is all-in',
+        '*** FLOP *** [2d 7s 9h]',
+        '*** TURN *** [2d 7s 9h] [Jc]',
+        '*** RIVER *** [2d 7s 9h Jc] [Qd]',
+        '*** SHOW DOWN ***',
+        'hero: shows [Ac Kc] (high card Ace)',
+        'villA: shows [Th Td] (a pair of Tens)',
+        'villB: shows [Qs Qc] (three of a kind, Queens)',
+        'villC: shows [3d 3s] (a pair of Threes)',
+        'villB collected 28270 from main pot',
+        'villA collected 9510 from side pot-1',
+        'villA collected 11760 from side pot-2',
+        '*** SUMMARY ***',
+        multiSidePotLine,
+        'Board [2d 7s 9h Jc Qd]',
+        'Seat 1: hero (button) (small blind) showed [Ac Kc] and lost',
+        'Seat 2: villA (big blind) showed [Th Td] and won',
+        'Seat 3: villB showed [Qs Qc] and won (28270)',
+        'Seat 4: villC showed [3d 3s] and lost',
+      ].join('\n');
+      const [parsed] = parsePokerStarsFile(hand);
+      expect(parsed!.hand.totalPot).toBe(49540);
+    });
   });
 
   describe('edge cases', () => {
