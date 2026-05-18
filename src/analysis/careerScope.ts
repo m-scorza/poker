@@ -1,5 +1,6 @@
 import type { Tournament } from '../types/hand';
 import { getTournamentCost, getTournamentNet, getTournamentRevenue, isCashTournamentCurrency } from './financials';
+import { sumUsd } from '../parser/money';
 
 export type CareerScopeForm = 'Hot' | 'Uptrend' | 'Stable' | 'Rebuild' | 'Insufficient Sample';
 
@@ -151,11 +152,11 @@ export function buildCareerScopeProfile(tournaments: Tournament[]): CareerScopeP
   }
 
   const activeDays = byDay.size;
-  const totalStake = cashTournaments.reduce((sum, tournament) => sum + (tournament.buyIn || 0), 0);
-  const totalRake = cashTournaments.reduce((sum, tournament) => sum + (tournament.fee || 0), 0);
-  const totalCashes = cashTournaments.reduce((sum, tournament) => sum + getTournamentRevenue(tournament), 0);
-  const totalCost = cashTournaments.reduce((sum, tournament) => sum + getTournamentCost(tournament), 0);
-  const totalProfit = cashTournaments.reduce((sum, tournament) => sum + getTournamentNet(tournament), 0);
+  const totalStake = sumUsd(cashTournaments.map(t => t.buyIn || 0));
+  const totalRake = sumUsd(cashTournaments.map(t => t.fee || 0));
+  const totalCashes = sumUsd(cashTournaments.map(getTournamentRevenue));
+  const totalCost = sumUsd(cashTournaments.map(getTournamentCost));
+  const totalProfit = sumUsd(cashTournaments.map(getTournamentNet));
   const totalRoi = pct(totalProfit, totalCost);
   const averageRoi = averageTournamentRoi(sorted);
   const itmRate = pct(cashTournaments.filter((tournament) => getTournamentRevenue(tournament) > 0).length, totalCashTournaments);
@@ -164,7 +165,7 @@ export function buildCareerScopeProfile(tournaments: Tournament[]): CareerScopeP
   let runningProfit = 0;
   const runningValues: number[] = [];
   const bankroll = cashTournaments.map((tournament, index) => {
-    runningProfit += getTournamentNet(tournament);
+    runningProfit = sumUsd([runningProfit, getTournamentNet(tournament)]);
     runningValues.push(runningProfit);
     return {
       index: index + 1,
@@ -182,8 +183,8 @@ export function buildCareerScopeProfile(tournaments: Tournament[]): CareerScopeP
   });
 
   const last20 = cashTournaments.slice(-20);
-  const last20Cost = last20.reduce((sum, tournament) => sum + getTournamentCost(tournament), 0);
-  const last20Profit = last20.reduce((sum, tournament) => sum + getTournamentNet(tournament), 0);
+  const last20Cost = sumUsd(last20.map(getTournamentCost));
+  const last20Profit = sumUsd(last20.map(getTournamentNet));
   const last20Roi = last20.length === 0 ? null : pct(last20Profit, last20Cost);
 
   const maxCashingStreak = maxStreak(cashTournaments, (tournament) => getTournamentRevenue(tournament) > 0);

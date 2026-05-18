@@ -1,4 +1,5 @@
 import { extractBuyIn, MAX_PLAUSIBLE_USD_BUYIN } from './buyInExtractor';
+import { parseUsdCents, centsToUsd } from './money';
 
 export interface ParsedTournamentSummary {
   tournamentId: string;
@@ -38,8 +39,8 @@ export function parseTournamentSummary(
   let tournamentId = '';
   let tournamentName = '';
   let finishPosition: number | null = null;
-  let prize: number | null = null;
-  let bounty: number | null = null;
+  let prizeCents: number | null = null;
+  let bountyCents: number | null = null;
   let buyIn: number | null = null;
   let fee: number | null = null;
   let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
@@ -62,11 +63,12 @@ export function parseTournamentSummary(
     // Capture Bounty (often on separate lines near the end)
     if (line.toLowerCase().includes('received') || line.toLowerCase().includes('bounty')) {
       const bMatch = RE_BOUNTY_LINE.exec(line);
-      if (bMatch && line.toLowerCase().includes(heroLower)) {
-         bounty = (bounty || 0) + parseFloat(bMatch[1]!.replace(/,/g, ''));
-      } else if (bMatch && (lines[i-1]?.toLowerCase().includes(heroLower) || lines[i+1]?.toLowerCase().includes(heroLower))) {
-         // Check context lines for hero name
-         bounty = (bounty || 0) + parseFloat(bMatch[1]!.replace(/,/g, ''));
+      const contextHasHero = line.toLowerCase().includes(heroLower)
+        || lines[i-1]?.toLowerCase().includes(heroLower)
+        || lines[i+1]?.toLowerCase().includes(heroLower);
+      if (bMatch && contextHasHero) {
+        const addCents = parseUsdCents(bMatch[1]!);
+        if (addCents !== null) bountyCents = (bountyCents || 0) + addCents;
       }
     }
 
@@ -78,15 +80,16 @@ export function parseTournamentSummary(
       
       if (name.includes(heroLower) || heroLower.includes(name)) {
         finishPosition = pos;
-        
+
         // Check same line for prize
         const moneyMatch = RE_MONEY.exec(line.slice(finishMatch[0].length));
         if (moneyMatch) {
-          prize = parseFloat(moneyMatch[1]!.replace(/,/g, ''));
+          const cents = parseUsdCents(moneyMatch[1]!);
+          if (cents !== null) prizeCents = cents;
         }
       }
     }
-    
+
     // Fallback: search for "You finished", "You received" type lines (common in summary headers)
     if (line.toLowerCase().startsWith('you finished')) {
       const posMatch = /(\d+)/.exec(line);
@@ -94,7 +97,10 @@ export function parseTournamentSummary(
     }
     if (line.toLowerCase().startsWith('you received')) {
       const pMatch = RE_MONEY.exec(line);
-      if (pMatch) prize = parseFloat(pMatch[1]!.replace(/,/g, ''));
+      if (pMatch) {
+        const cents = parseUsdCents(pMatch[1]!);
+        if (cents !== null) prizeCents = cents;
+      }
     }
 
     // Try finding Buy-In explicitly (e.g. PokerStars: "Buy-In: $0.98/$0.12")
@@ -152,8 +158,8 @@ export function parseTournamentSummary(
     tournamentId,
     name: tournamentName,
     finishPosition: finishPosition || null,
-    prize: prize || 0,
-    bounty: bounty || 0,
+    prize: prizeCents !== null ? centsToUsd(prizeCents) : 0,
+    bounty: bountyCents !== null ? centsToUsd(bountyCents) : 0,
     buyIn: buyIn !== null ? buyIn : undefined,
     fee: fee !== null ? fee : undefined,
     currency,

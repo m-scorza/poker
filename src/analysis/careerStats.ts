@@ -1,5 +1,6 @@
 import type { Tournament } from '../types/hand';
 import { getTournamentNet, getTournamentCost, getTournamentRevenue, isCashTournamentCurrency } from './financials';
+import { sumUsd } from '../parser/money';
 
 export interface BustOutBucket {
   label: string;
@@ -51,7 +52,7 @@ export function computeStakeEvolution(tournaments: Tournament[]): StakePoint[] {
   const windowSize = 20;
   return sorted.map((t, i) => {
     const window = sorted.slice(Math.max(0, i - windowSize + 1), i + 1);
-    const totalCost = window.reduce((sum, curr) => sum + getTournamentCost(curr), 0);
+    const totalCost = sumUsd(window.map(getTournamentCost));
     const avgBuyIn = totalCost / window.length;
     
     return {
@@ -62,7 +63,7 @@ export function computeStakeEvolution(tournaments: Tournament[]): StakePoint[] {
 }
 
 export function estimateHourlyRate(tournaments: Tournament[]): number {
-  const totalProfit = tournaments.reduce((sum, t) => sum + getTournamentNet(t), 0);
+  const totalProfit = sumUsd(tournaments.map(getTournamentNet));
   const totalHands = tournaments.reduce((sum, t) => sum + (t.handsPlayed || 0), 0);
   
   if (totalHands === 0) return 0;
@@ -76,9 +77,9 @@ export function computeRakeAdjustedRoi(tournaments: Tournament[]): number {
   const cashTournaments = tournaments.filter(t => isCashTournamentCurrency(t) && t.buyIn > 0);
   if (cashTournaments.length === 0) return 0;
 
-  const totalBuyInOnly = cashTournaments.reduce((sum, t) => sum + (t.buyIn || 0), 0);
-  const totalRevenue = cashTournaments.reduce((sum, t) => sum + getTournamentRevenue(t), 0);
-  const totalTechnicalProfit = totalRevenue - totalBuyInOnly;
+  const totalBuyInOnly = sumUsd(cashTournaments.map(t => t.buyIn || 0));
+  const totalRevenue = sumUsd(cashTournaments.map(getTournamentRevenue));
+  const totalTechnicalProfit = sumUsd([totalRevenue, -totalBuyInOnly]);
   
   return totalBuyInOnly > 0 ? (totalTechnicalProfit / totalBuyInOnly) * 100 : 0;
 }

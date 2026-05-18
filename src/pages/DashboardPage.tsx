@@ -13,6 +13,7 @@ import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } fr
 import { computePositionStats } from '../analysis/positionStats';
 import { buildStudyQueue } from '../analysis/studyPlan';
 import { getTournamentRevenue } from '../analysis/financials';
+import { sumUsd } from '../parser/money';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { AlertTriangle, TrendingUp, DollarSign, Target, BarChart3, Clock, Rocket, Shield, Crosshair } from 'lucide-react';
 import { clsx } from 'clsx';
@@ -89,9 +90,9 @@ export function DashboardPage() {
       ? sessionsGrouped
       : sessionsGrouped.filter(s => s.id === activeSessionId);
 
-    const totalPnl = financialSessions.reduce((sum, s) => sum + s.pnl, 0);
-    const totalBuyIns = financialSessions.reduce((sum, s) => sum + s.buyIns, 0);
-    const totalPrizes = financialSessions.reduce((sum, s) => sum + s.prizes, 0);
+    const totalPnl = sumUsd(financialSessions.map(s => s.pnl));
+    const totalBuyIns = sumUsd(financialSessions.map(s => s.buyIns));
+    const totalPrizes = sumUsd(financialSessions.map(s => s.prizes));
 
     const uniqueTourneys = new Set<string>();
     financialSessions.forEach(s => s.tournamentIds.forEach(id => uniqueTourneys.add(id)));

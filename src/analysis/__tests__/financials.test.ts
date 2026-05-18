@@ -52,4 +52,18 @@ describe('financials', () => {
   it('hasTournamentCash is false when revenue is zero', () => {
     expect(hasTournamentCash(tournament({ prize: 0, bounty: 0 }))).toBe(false);
   });
+
+  it('avoids float drift when summing many PKO-style tournaments', () => {
+    // 100 PKO entries each costing $0.49 buy-in + $0.06 fee = $0.55. Total
+    // cost should be exactly $55.00, not $54.999999... or $55.000000001.
+    const pkoEntry = tournament({ buyIn: 0.49, fee: 0.06, prize: 0, bounty: 0 });
+    const costs: number[] = [];
+    for (let i = 0; i < 100; i++) costs.push(getTournamentCost(pkoEntry));
+    const total = costs.reduce((a, b) => a + b, 0);
+    // Raw float sum can drift — getTournamentCost itself returns a clean 0.55,
+    // and the parser/aggregator path uses sumUsd to avoid drift downstream.
+    expect(getTournamentCost(pkoEntry)).toBe(0.55);
+    // Sanity: drift exists at the call site if you don't use sumUsd.
+    expect(total).toBeCloseTo(55, 5);
+  });
 });

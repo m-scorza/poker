@@ -22,6 +22,7 @@ import type { Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import { History, Trophy, TrendingUp, AlertTriangle } from 'lucide-react';
 import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash } from '../analysis/financials';
+import { sumUsd } from '../parser/money';
 
 function ordinal(value: number): string {
   const mod100 = value % 100;
@@ -66,8 +67,8 @@ export function CareerPage() {
     const played = tournaments.length;
     if (played === 0) return { totalWinnings: 0, totalProfit: 0, itmRate: 0, roi: 0, avgBuyIn: 0, tournamentsPlayed: 0 };
 
-    const totalWinnings = tournaments.reduce((acc, t) => acc + getTournamentRevenue(t), 0);
-    const totalBuyIns = tournaments.reduce((acc, t) => acc + getTournamentCost(t), 0);
+    const totalWinnings = sumUsd(tournaments.map(getTournamentRevenue));
+    const totalBuyIns = sumUsd(tournaments.map(getTournamentCost));
     const itms = tournaments.filter(hasTournamentCash).length;
 
     return {

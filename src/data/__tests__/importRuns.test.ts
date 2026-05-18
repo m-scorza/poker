@@ -1,18 +1,11 @@
 import 'fake-indexeddb/auto';
-import Dexie from 'dexie';
-import { indexedDB, IDBKeyRange } from 'fake-indexeddb';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-vi.unmock('../store');
-vi.unmock('../importRuns');
 import type { ImportSummary } from '../../parser/workerProcessor';
 import {
   buildImportRunRecord,
   buildImportRunTimeline,
   summarizeDataHealth,
-  saveImportRun,
-  getRecentImportRuns,
 } from '../importRuns';
-import { clearAllData } from '../store';
 
 const baseSummary: ImportSummary = {
   totalFiles: 3,
@@ -23,6 +16,33 @@ const baseSummary: ImportSummary = {
   confidence: 'medium',
   warnings: ['bad.txt: unsupported file', 'summary.txt: missing finish position'],
 };
+
+async function loadIsolatedImportRunPersistence() {
+  vi.resetModules();
+  vi.doMock('../store', async () => {
+    const DexieModule = await import('dexie');
+    const fakeIndexedDb = await import('fake-indexeddb');
+    const Dexie = DexieModule.default;
+    Dexie.dependencies.indexedDB = fakeIndexedDb.indexedDB;
+    Dexie.dependencies.IDBKeyRange = fakeIndexedDb.IDBKeyRange;
+
+    const db = new Dexie(`PokerAnalyzerImportRunsTest-${crypto.randomUUID()}`) as any;
+    db.version(1).stores({ importRuns: 'id, importedAt, confidence' });
+
+    return {
+      db,
+      clearAllData: async () => {
+        await db.importRuns.clear();
+      },
+    };
+  });
+
+  const importRuns = await import('../importRuns');
+  const store = await import('../store');
+  await store.clearAllData();
+
+  return { importRuns, store };
+}
 
 describe('buildImportRunRecord', () => {
   it('preserves import summary, source filenames, saved counts, warnings, and timestamp', () => {
@@ -166,54 +186,52 @@ describe('buildImportRunTimeline', () => {
 });
 
 describe('import run persistence', () => {
-  beforeEach(async () => {
-    Object.assign(globalThis, { indexedDB, IDBKeyRange });
-    Object.assign(window, { indexedDB, IDBKeyRange });
-    Dexie.dependencies.indexedDB = indexedDB;
-    Dexie.dependencies.IDBKeyRange = IDBKeyRange;
-    await clearAllData();
+  beforeEach(() => {
+    vi.doUnmock('../store');
   });
 
   it('saves import runs and reads them newest-first with a limit', async () => {
-    const oldest = buildImportRunRecord(
+    const { importRuns } = await loadIsolatedImportRunPersistence();
+    const oldest = importRuns.buildImportRunRecord(
       { ...baseSummary, confidence: 'high', warnings: [] },
       ['oldest.txt'],
       { savedHands: 10, savedSummaries: 1 },
       new Date('2026-05-15T20:00:00Z'),
     );
-    const middle = buildImportRunRecord(
+    const middle = importRuns.buildImportRunRecord(
       { ...baseSummary, confidence: 'medium' },
       ['middle.txt'],
       { savedHands: 20, savedSummaries: 1 },
       new Date('2026-05-16T20:00:00Z'),
     );
-    const newest = buildImportRunRecord(
+    const newest = importRuns.buildImportRunRecord(
       { ...baseSummary, confidence: 'low' },
       ['newest.txt'],
       { savedHands: 30, savedSummaries: 1 },
       new Date('2026-05-17T20:00:00Z'),
     );
 
-    await saveImportRun(oldest);
-    await saveImportRun(newest);
-    await saveImportRun(middle);
+    await importRuns.saveImportRun(oldest);
+    await importRuns.saveImportRun(newest);
+    await importRuns.saveImportRun(middle);
 
-    const runs = await getRecentImportRuns(2);
+    const runs = await importRuns.getRecentImportRuns(2);
 
     expect(runs.map((run) => run.id)).toEqual([newest.id, middle.id]);
   });
 
   it('clears import runs during full local data reset', async () => {
-    const run = buildImportRunRecord(
+    const { importRuns, store } = await loadIsolatedImportRunPersistence();
+    const run = importRuns.buildImportRunRecord(
       baseSummary,
       ['hands.txt'],
       { savedHands: 118, savedSummaries: 2 },
       new Date('2026-05-17T20:00:00Z'),
     );
 
-    await saveImportRun(run);
-    await clearAllData();
+    await importRuns.saveImportRun(run);
+    await store.clearAllData();
 
-    await expect(getRecentImportRuns()).resolves.toEqual([]);
+    await expect(importRuns.getRecentImportRuns()).resolves.toEqual([]);
   });
 });

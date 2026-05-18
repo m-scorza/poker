@@ -1,6 +1,7 @@
 import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
+import { parseUsdCents, centsToUsd } from './money';
 
 export interface ParsedHand {
   hand: Hand;
@@ -189,7 +190,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
   let boardRiver: string | null = null;
   let heroCards: [string, string] | null = null;
   let hasShowdown = false;
-  let handBounty = 0;
+  let handBountyCents = 0;
 
   // Track shown cards per player
   const shownCards = new Map<string, [string, string]>();
@@ -384,7 +385,8 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (bountyMatch && bountyMatch[1] === heroName) {
       const amountRegex = /\$([\d.]+)/.exec(line);
       if (amountRegex) {
-         handBounty += parseFloat(amountRegex[1]!);
+        const cents = parseUsdCents(amountRegex[1]!);
+        if (cents !== null) handBountyCents += cents;
       }
     }
   }
@@ -456,7 +458,8 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
     const prizeMatch = RE_PRIZE.exec(line);
     if (prizeMatch) {
-      prize = parseFloat(prizeMatch[1]!);
+      const cents = parseUsdCents(prizeMatch[1]!);
+      if (cents !== null) prize = centsToUsd(cents);
     }
   }
 
@@ -530,7 +533,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     format: `${maxSeats}-max`,
     finishPosition,
     prize,
-    bounty: handBounty > 0 ? handBounty : null,
+    bounty: handBountyCents > 0 ? centsToUsd(handBountyCents) : null,
   };
 
   return { hand, players, actions, tournament, collectedAmounts, showdownWinners };

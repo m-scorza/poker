@@ -209,12 +209,13 @@ are stale. Do not edit by hand.
 
 <!-- BEGIN:AUTOGEN:src-tree -->
 ```
-src/parser/  (13 files)
+src/parser/  (14 files)
   parser/buyInExtractor.ts
   parser/contributionPackage.ts
   parser/ggpoker.ts
   parser/handKey.ts
   parser/importSummary.ts
+  parser/money.ts
   parser/openHandHistory.ts
   parser/pokerstars.ts
   parser/position.ts
@@ -223,7 +224,7 @@ src/parser/  (13 files)
   parser/tournamentSummary.ts
   parser/worker.ts
   parser/workerProcessor.ts
-src/analysis/  (19 files)
+src/analysis/  (20 files)
   analysis/bountyAnalyzer.ts
   analysis/careerCoach.ts
   analysis/careerScope.ts
@@ -239,6 +240,7 @@ src/analysis/  (19 files)
   analysis/rangeChecker.ts
   analysis/rangeValidator.ts
   analysis/scenarioDetector.ts
+  analysis/solverAdapter.ts
   analysis/squeezeDetector.ts
   analysis/studyPlan.ts
   analysis/villainClassifier.ts
@@ -306,8 +308,8 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 46
-**`it` / `test` calls (approximate):** 487
+**Test files:** 48
+**`it` / `test` calls (approximate):** 506
 
 ```
 src/__tests__/App.test.tsx
@@ -325,6 +327,7 @@ src/analysis/__tests__/pushFoldChecker.test.ts
 src/analysis/__tests__/rangeChecker.test.ts
 src/analysis/__tests__/rangeValidator.test.ts
 src/analysis/__tests__/scenarioDetector.test.ts
+src/analysis/__tests__/solverAdapter.test.ts
 src/analysis/__tests__/squeezeDetector.test.ts
 src/analysis/__tests__/studyPlan.test.ts
 src/analysis/__tests__/villainClassifier.test.ts
@@ -349,6 +352,7 @@ src/parser/__tests__/ggpoker.test.ts
 src/parser/__tests__/ggpoker_robustness.test.ts
 src/parser/__tests__/handKey.test.ts
 src/parser/__tests__/importSummary.test.ts
+src/parser/__tests__/money.test.ts
 src/parser/__tests__/openHandHistory.test.ts
 src/parser/__tests__/pokerstars.test.ts
 src/parser/__tests__/position.test.ts

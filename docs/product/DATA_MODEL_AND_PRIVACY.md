@@ -171,14 +171,15 @@ Current package contents:
 - generated `createdAt` and caller-provided app version
 - sanitized text chunks with synthetic source aliases such as `source-1.txt`
 - site/type labels from local file detection
-- parser hand counts after reparsing sanitized PokerStars text as `Hero`
+- parser hand counts after reparsing sanitized PokerStars, GGPoker, and Open Hand History chunks
 - redaction reports with counts and public aliases only
 - parser report with total files, sanitized files, unsupported files, hand count, confidence, and generic warnings
 - forbidden-field findings that use generic marker labels instead of echoing sensitive strings
 
 Current limits:
 
-- PokerStars hand histories are the first supported sanitized chunk type.
+- Native text sanitizer/package coverage currently includes PokerStars and GGPoker hand histories.
+- Standard Open Hand History JSON can be sanitized and reparsed while preserving player-id/action/pot relationships through synthetic IDs.
 - Unsupported files are omitted from chunks and represented by generic source aliases/warnings.
 - The package is marked `shareable: false` if a forbidden marker is detected in the serialized payload.
 - No real filename, local path, raw nickname, original hand/tournament/table ID, or exact original date should appear in a shareable package.

@@ -1,4 +1,6 @@
-import { parsePokerStarsFile } from './pokerstars';
+import { parseGGPokerFile } from './ggpoker';
+import { parseOpenHandHistoryFile } from './openHandHistory';
+import { parsePokerStarsFile, type ParsedHand } from './pokerstars';
 import { identifyFile, type FileIdentity } from './siteIdentifier';
 import { sanitizeHandHistory, type SanitizedHandHistoryReport } from './sanitizeHandHistory';
 import type { ImportConfidence } from './workerProcessor';
@@ -63,17 +65,17 @@ export function buildLocalContributionPackage(
     const sourceFileAlias = `source-${index + 1}.txt`;
     addForbiddenMarkers(forbiddenMarkers, file.name);
     addForbiddenMarkers(forbiddenMarkers, options.heroName);
-    collectRawPokerStarsIdentifiers(file.content, forbiddenMarkers);
+    collectRawPokerIdentifiers(file.content, forbiddenMarkers);
 
     const identity = identifyFile(file.content);
-    if (identity.site !== 'pokerstars' || identity.type !== 'hand_history') {
+    if (!isSanitizableHandHistory(identity)) {
       unsupportedFiles += 1;
       warnings.push(`${sourceFileAlias}: unsupported or unrecognized poker file`);
       return;
     }
 
     const sanitized = sanitizeHandHistory(file.content, { heroName: options.heroName });
-    const parsedHands = parsePokerStarsFile(sanitized.text, 'Hero');
+    const parsedHands = parseSanitizedHandHistory(identity, sanitized.text, options.heroName);
     handsFound += parsedHands.length;
 
     chunks.push({
@@ -118,18 +120,43 @@ export function buildLocalContributionPackage(
   };
 }
 
+function isSanitizableHandHistory(identity: FileIdentity): boolean {
+  return identity.type === 'hand_history' && (
+    identity.site === 'pokerstars'
+    || identity.site === 'ggpoker'
+    || identity.site === 'open_hand_history'
+  );
+}
+
+function parseSanitizedHandHistory(
+  identity: FileIdentity,
+  sanitizedText: string,
+  originalHeroName: string,
+): ParsedHand[] {
+  if (identity.site === 'pokerstars') return parsePokerStarsFile(sanitizedText, 'Hero');
+  if (identity.site === 'ggpoker') return parseGGPokerFile(sanitizedText, originalHeroName === 'Hero' ? 'scorza23' : originalHeroName);
+  if (identity.site === 'open_hand_history') return parseOpenHandHistoryFile(sanitizedText, 'Hero');
+  return [];
+}
+
 function addForbiddenMarkers(markers: Set<string>, value: string): void {
   const trimmed = value.trim();
+  if (isSyntheticSafeMarker(trimmed)) return;
   if (trimmed.length >= 3) markers.add(trimmed);
 
   const basename = trimmed.replace(/\\/g, '/').split('/').filter(Boolean).pop();
-  if (basename && basename.length >= 3) markers.add(basename);
+  if (basename && basename.length >= 3 && !isSyntheticSafeMarker(basename)) markers.add(basename);
 }
 
-function collectRawPokerStarsIdentifiers(content: string, markers: Set<string>): void {
-  collectMatches(content, /Hand #(\d+)/g, markers);
+function isSyntheticSafeMarker(value: string): boolean {
+  return value === 'Hero' || /^Villain_\d+$/.test(value) || /^source-\d+\.txt$/.test(value);
+}
+
+function collectRawPokerIdentifiers(content: string, markers: Set<string>): void {
+  collectMatches(content, /(?:PokerStars Hand|Poker Hand|GGPoker Hand|Hand) #([A-Za-z0-9]+)/g, markers);
   collectMatches(content, /Tournament #(\d+)/g, markers);
   collectMatches(content, /^Seat \d+: (.+?) \(/gm, markers);
+  collectMatches(content, /^(.+?): (?:folds|calls|checks|raises|posts small blind|posts big blind|posts the ante|shows|mucks|collected|wins|bets)/gm, markers);
   collectMatches(content, /Table '([^']+)'/g, markers);
   collectMatches(content, /(\d{4}\/\d{2}\/\d{2})/g, markers);
 }
@@ -138,7 +165,7 @@ function collectMatches(content: string, regex: RegExp, markers: Set<string>): v
   let match: RegExpExecArray | null;
   while ((match = regex.exec(content)) !== null) {
     const value = match[1];
-    if (value && value.trim().length >= 3) markers.add(value.trim());
+    if (value && value.trim().length >= 3 && !isSyntheticSafeMarker(value.trim())) markers.add(value.trim());
   }
 }
 

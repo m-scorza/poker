@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { parseGGPokerFile } from '../ggpoker';
 import { parsePokerStarsFile } from '../pokerstars';
 import { sanitizeHandHistory } from '../sanitizeHandHistory';
 
@@ -87,5 +88,68 @@ describe('sanitizeHandHistory', () => {
     expect(JSON.stringify(sanitized.report)).not.toContain('scorza23');
     expect(JSON.stringify(sanitized.report)).not.toContain('RealButton99');
     expect(JSON.stringify(sanitized.report)).not.toContain('3989541132');
+  });
+
+  it('redacts GGPoker hand histories while preserving GGPoker parser semantics', () => {
+    const rawGgHand = `Poker Hand #BR1103011317: Tournament #279277562, Mystery Battle Royale $3 Hold'em No Limit - Level4(40/80(16)) - 2026/04/18 20:42:47
+Table 'Private GG Table 59' 5-max Seat #1 is the button
+Seat 1: 647abfe7 (2,499 in chips)
+Seat 2: a81061d (376 in chips)
+Seat 3: 707c8e6c (934 in chips)
+Seat 4: 7d86368b (3,928 in chips)
+Seat 5: Hero (259 in chips)
+7d86368b: posts the ante 16
+647abfe7: posts the ante 16
+707c8e6c: posts the ante 16
+Hero: posts the ante 16
+a81061d: posts small blind 40
+707c8e6c: posts big blind 80
+*** HOLE CARDS ***
+Dealt to Hero [7c 7s]
+7d86368b: folds
+Hero: raises 160 to 240
+647abfe7: folds
+a81061d: calls 200
+707c8e6c: folds
+*** FLOP *** [4h 9c Ts]
+a81061d: bets 120 and is all-in
+Hero: calls 3 and is all-in
+*** SUMMARY ***
+Total pot 646 | Rake 0
+Board [4h 9c Ts Th 2s]
+Seat 1: 647abfe7 (button) folded before Flop
+Seat 2: a81061d (small blind) showed [Tc Kh] and won (646) with three of a kind, Tens
+Seat 3: 707c8e6c (big blind) folded before Flop
+Seat 4: 7d86368b folded before Flop
+Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
+`;
+
+    const sanitized = sanitizeHandHistory(rawGgHand, { heroName: 'Hero' });
+
+    expect(sanitized.text).not.toContain('BR1103011317');
+    expect(sanitized.text).not.toContain('279277562');
+    expect(sanitized.text).not.toContain('Private GG Table 59');
+    expect(sanitized.text).not.toContain('647abfe7');
+    expect(sanitized.text).not.toContain('a81061d');
+    expect(sanitized.text).not.toContain('2026/04/18');
+
+    expect(sanitized.text).toContain('Poker Hand #BR900000000001');
+    expect(sanitized.text).toContain('Tournament #800000000001');
+    expect(sanitized.text).toContain("Table 'Sanitized Table 1'");
+    expect(sanitized.text).toContain('Villain_2: posts small blind 40');
+    expect(sanitized.text).toContain('Hero: raises 160 to 240');
+
+    const reparsed = parseGGPokerFile(sanitized.text, 'scorza23');
+    expect(reparsed).toHaveLength(1);
+    expect(reparsed[0]!.hand.id).toBe('BR900000000001');
+    expect(reparsed[0]!.hand.tournamentId).toBe('800000000001');
+    expect(reparsed[0]!.players.map((p) => p.playerName).sort()).toEqual([
+      'Villain_1',
+      'Villain_2',
+      'Villain_3',
+      'Villain_4',
+      'scorza23',
+    ]);
+    expect(reparsed[0]!.players.find((p) => p.isHero)?.holeCards).toEqual(['7c', '7s']);
   });
 });

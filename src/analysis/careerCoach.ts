@@ -3,6 +3,7 @@ import type { HeroDecision } from '../types/analysis';
 import type { Leak, LeakSeverity } from './leakDetector';
 import { getTournamentCost, getTournamentRevenue } from './financials';
 import { money } from '../utils/format';
+import { sumUsd } from '../parser/money';
 
 export type CareerRecommendation =
   | 'Move Up Candidate'
@@ -247,13 +248,13 @@ export function buildCareerCoachReport(
 ): CareerCoachReport {
   const sorted = sortByCareerDate(tournaments);
   const tournamentsPlayed = sorted.length;
-  const totalBuyIns = sorted.reduce((sum, t) => sum + tournamentCost(t), 0);
-  const totalPrizes = sorted.reduce((sum, t) => sum + tournamentReturn(t), 0);
-  const trackedProfit = totalPrizes - totalBuyIns;
+  const totalBuyIns = sumUsd(sorted.map(tournamentCost));
+  const totalPrizes = sumUsd(sorted.map(tournamentReturn));
+  const trackedProfit = sumUsd([totalPrizes, -totalBuyIns]);
   const avgBuyIn = tournamentsPlayed > 0 ? totalBuyIns / tournamentsPlayed : 0;
   const roi = pct(trackedProfit, totalBuyIns);
   const itmRate = pct(sorted.filter((t) => tournamentReturn(t) > 0).length, tournamentsPlayed);
-  const profits = sorted.map((t) => tournamentReturn(t) - tournamentCost(t));
+  const profits = sorted.map((t) => sumUsd([tournamentReturn(t), -tournamentCost(t)]));
   const maxDrawdown = computeMaxDrawdown(profits);
   const maxDrawdownBuyIns = avgBuyIn > 0 ? maxDrawdown / avgBuyIn : 0;
   const longestNoCashStreak = computeLongestNoCashStreak(sorted);
@@ -261,9 +262,9 @@ export function buildCareerCoachReport(
   const compliance = complianceRate(decisions);
 
   const last20 = sorted.slice(-20);
-  const last20Cost = last20.reduce((sum, t) => sum + tournamentCost(t), 0);
-  const last20Prize = last20.reduce((sum, t) => sum + tournamentReturn(t), 0);
-  const last20Roi = last20.length >= 5 && last20Cost > 0 ? pct(last20Prize - last20Cost, last20Cost) : null;
+  const last20Cost = sumUsd(last20.map(tournamentCost));
+  const last20Prize = sumUsd(last20.map(tournamentReturn));
+  const last20Roi = last20.length >= 5 && last20Cost > 0 ? pct(sumUsd([last20Prize, -last20Cost]), last20Cost) : null;
 
   let score = 50;
   if (roi > 20) score += 25;

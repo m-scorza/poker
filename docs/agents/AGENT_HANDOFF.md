@@ -18,6 +18,73 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+## 2026-05-18 — Solver boundary safety scaffold
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Add a small backend-only solver adapter boundary so future EV/cost work cannot accidentally claim solver-backed recommendations before real coverage exists.
+- Files touched:
+  - `src/analysis/solverAdapter.ts` — new spot/result/coverage types plus safe unsupported adapter.
+  - `src/analysis/__tests__/solverAdapter.test.ts` — RED/GREEN tests for unsupported coverage, no recommendation, null EV loss, and explicit evidence metadata.
+  - `docs/product/SOLVER_BOUNDARY.md` — documents evidence labels, no-false-EV guardrails, and next implementation slices.
+  - `docs/product/STATUS.md` — regenerated autogen source/test inventory.
+  - `src/data/__tests__/importRuns.test.ts` — isolated persistence tests behind a per-test mocked Dexie store so `--isolate=false` no longer leaks IndexedDB/global store state into other data tests.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- Summary:
+  - Added `SolverSpotInput`, `SolverCoverage`, `SolverRecommendation`, `SolverAnalysisResult`, and `SolverAdapter` as a clean contract for future solver/proxy/rule analysis.
+  - Added `createUnsupportedSolverAdapter()` and `classifySolverCoverage()` as the current safe default: unsupported, `no_solver_configured`, confidence none, no recommendation, and `evLossBb: null`.
+  - Documented that `rule_based`, `proxy_model`, and `solver_backed` must stay separate; solver EV language is only allowed for genuinely covered solver-backed spots.
+  - While re-running full gates, found the existing `importRuns.test.ts` full-suite `--isolate=false` stabilization still leaked IndexedDB/store state into neighboring tests. Reworked those persistence assertions to dynamically load `importRuns` against a per-test fake Dexie store, avoiding global store mocks that pollute demo-seed tests.
+- Verification:
+  - RED: `src/analysis/__tests__/solverAdapter.test.ts` initially failed because `../solverAdapter` did not exist.
+  - GREEN: `npm test -- --run src/analysis/__tests__/solverAdapter.test.ts && npx tsc -b --pretty false` — passed.
+  - Docs/focused/build gate: `npm run docs:update && npm run docs:check && npm test -- --run src/analysis/__tests__/solverAdapter.test.ts src/parser/__tests__/contributionPackage.test.ts src/parser/__tests__/sanitizeHandHistory.test.ts && npx tsc -b --pretty false && npm run build && git diff --check` — passed, 10 focused tests and production Vite/PWA build.
+  - Full suite attempt after solver work failed in `src/data/__tests__/importRuns.test.ts` with `IndexedDB API missing`; this was the order-sensitive `--isolate=false` persistence-test issue, not solver code.
+  - After isolating import-run persistence tests: `npm test -- --run src/data/__tests__/importRuns.test.ts src/data/__tests__/demoSeedProgress.test.ts && npx tsc -b --pretty false && npm run build && git diff --check` — passed, 11 focused data tests, TypeScript clean, production build clean, and whitespace clean.
+  - `npm run docs:check` — passed.
+- Risks / assumptions:
+  - This is intentionally not a solver integration; it is a guardrail layer to prevent false precision.
+  - Next converter work must keep chip-EV, tournament-EV, bounty, and ICM contexts explicit instead of collapsing them into one score.
+- Next action requested:
+  - Next backend slice: convert a narrow parsed-hand/hero-decision subset into `SolverSpotInput`, then add coverage rules for missing context, game type, street, stack depth, and ICM/bounty exclusions.
+
+---
+
+## 2026-05-18 — Multi-site sanitized contribution packages
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Continue the privacy/parser-corpus lane by expanding the local-only sanitized package builder beyond PokerStars to GGPoker text and standard Open Hand History JSON.
+- Files touched:
+  - `src/parser/sanitizeHandHistory.ts` — expanded sanitizer to support alphanumeric GGPoker hand IDs, generic poker timestamps, and Open Hand History JSON with synthetic game/tournament/player IDs while preserving action/pot references.
+  - `src/parser/contributionPackage.ts` — reparses sanitized PokerStars, GGPoker, and Open Hand History chunks with the matching parser and includes them in local package reports.
+  - `src/parser/__tests__/sanitizeHandHistory.test.ts` — added GGPoker RED/GREEN coverage proving raw GG IDs/names/table/timestamp are removed and reparsed semantics remain intact.
+  - `src/parser/__tests__/contributionPackage.test.ts` — added GGPoker and Open Hand History package coverage proving sanitized chunks, hand counts, generic source aliases, and absence of raw identifiers/filenames.
+  - `docs/product/DATA_MODEL_AND_PRIVACY.md` — updated current builder coverage/limits.
+  - `docs/product/STATUS.md` — regenerated autogen source/test inventory.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- Summary:
+  - GGPoker text contribution chunks now sanitize `BR...` hand IDs to parser-compatible synthetic IDs like `BR900000000001`, replace tournament/table/time/player identifiers, and reparse through `parseGGPokerFile`.
+  - Open Hand History JSON chunks now sanitize `game_number`, `tournament_info.tournament_number`, table/date fields, player names, player IDs, `hero_player_id`, action `player_id`, and pot winner `player_id` while preserving cards, stacks, action order, pots, blinds, and parseability.
+  - Package builder now accepts `pokerstars`, `ggpoker`, and `open_hand_history` hand-history identities; unsupported files still produce only generic warnings and no chunks.
+  - Ran `npm install` once because WSL node_modules was missing Rollup's Linux optional package; this did not change tracked package manifests.
+- Verification:
+  - RED: `npm test -- --run src/parser/__tests__/sanitizeHandHistory.test.ts` failed on raw GGPoker `BR1103011317` still present before sanitizer expansion.
+  - RED: `npm test -- --run src/parser/__tests__/contributionPackage.test.ts` failed because GGPoker/Open Hand History inputs produced zero chunks before package-builder support.
+  - Focused GREEN/regression: `npm test -- --run src/parser/__tests__/contributionPackage.test.ts src/parser/__tests__/sanitizeHandHistory.test.ts src/parser/__tests__/openHandHistory.test.ts` — passed, 10 tests.
+  - Broader parser focus plus typecheck: `npm test -- --run src/parser/__tests__/contributionPackage.test.ts src/parser/__tests__/sanitizeHandHistory.test.ts src/parser/__tests__/ggpoker.test.ts src/parser/__tests__/openHandHistory.test.ts && npx tsc -b --pretty false` — passed, 18 focused tests and TypeScript clean.
+  - Docs: `npm run docs:update && npm run docs:check` — passed.
+  - Full suite attempt: `npm test -- --run` reached 46 passed files / 510 passed tests, then `ConfirmDialog > renders with title and description` timed out once; immediate focused rerun passed.
+  - Focused flake rerun + production build + whitespace: `npm test -- --run src/components/shared/__tests__/ConfirmDialog.test.tsx && npm run build && git diff --check` — passed. `git diff --check` printed existing CRLF normalization warnings for fixture/source files only.
+- Risks / assumptions:
+  - Open Hand History JSON sanitizer preserves schema relationships but is intentionally conservative; additional OHH variants should get fixtures before declaring exhaustive OHH support.
+  - Forbidden marker scanning remains a backstop; tests are the primary evidence that sanitizer-specific raw fields do not serialize.
+  - The one full-suite `ConfirmDialog` timeout looked like the same Vitest/happy-dom flake pattern seen in prior handoffs because the isolated rerun passed.
+- Next action requested:
+  - Good next backend slice: add a local package preview/export UI behind explicit consent copy, or pivot to solver feasibility adapter boundaries if analysis EV/cost modeling is now more important than corpus expansion.
+
+---
+
 ## 2026-05-18 — Local sanitized contribution package builder
 
 - Owner / agent: Hermes

@@ -4,7 +4,12 @@
  *
  * Single place to reason about: GTD prize-pool stripping, comma vs period
  * decimal, a sanity ceiling for real-money tournaments.
+ *
+ * All numeric parsing routes through integer cents (`parseUsdCents` →
+ * `centsToUsd`) so multi-tournament aggregation downstream is drift-free.
  */
+
+import { parseUsdCents, centsToUsd } from './money';
 
 export type Currency = 'USD' | 'T$' | 'PLAY' | 'TICKET';
 
@@ -75,13 +80,20 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
   const canonical = /\$(\d+(?:\.\d+)?)\+\$(\d+(?:\.\d+)?)(?:\+\$(\d+(?:\.\d+)?))?/.exec(cleaned);
   if (canonical) {
     if (canonical[3] !== undefined) {
-      const buyIn = parseFloat(canonical[1]!) + parseFloat(canonical[2]!);
-      const fee = parseFloat(canonical[3]!);
-      return applyCeiling(buyIn, fee);
+      const part1 = parseUsdCents(canonical[1]!);
+      const part2 = parseUsdCents(canonical[2]!);
+      const part3 = parseUsdCents(canonical[3]!);
+      if (part1 === null || part2 === null || part3 === null) {
+        return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+      }
+      return applyCeilingCents(part1 + part2, part3);
     }
-    const buyIn = parseFloat(canonical[1]!);
-    const fee = parseFloat(canonical[2]!);
-    return applyCeiling(buyIn, fee);
+    const buyInCents = parseUsdCents(canonical[1]!);
+    const feeCents = parseUsdCents(canonical[2]!);
+    if (buyInCents === null || feeCents === null) {
+      return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+    }
+    return applyCeilingCents(buyInCents, feeCents);
   }
 
   // Brazilian locale: `US$ 0,49+US$ 0,06` / `US$ 1,40 + US$ 0,10`.
@@ -89,9 +101,12 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
   // the `+`. Anchor on `US$` so we don't confuse with other `N,NN+N,NN`.
   const brazilian = /US\$\s*(\d+(?:,\d+)?)\s*\+\s*US\$\s*(\d+(?:,\d+)?)/.exec(cleaned);
   if (brazilian) {
-    const buyIn = parseFloat(brazilian[1]!.replace(',', '.'));
-    const fee = parseFloat(brazilian[2]!.replace(',', '.'));
-    return applyCeiling(buyIn, fee);
+    const buyInCents = parseUsdCents(brazilian[1]!, { localeAware: true });
+    const feeCents = parseUsdCents(brazilian[2]!, { localeAware: true });
+    if (buyInCents === null || feeCents === null) {
+      return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+    }
+    return applyCeilingCents(buyInCents, feeCents);
   }
 
   // GGPoker often encodes the full cost as a single cash amount in the
@@ -100,8 +115,11 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
   // dollar amount is the best available buy-in with zero separated fee.
   const singleCash = /\$(\d+(?:\.\d+)?)\b/.exec(cleaned);
   if (singleCash) {
-    const buyIn = parseFloat(singleCash[1]!);
-    return applyCeiling(buyIn, 0);
+    const buyInCents = parseUsdCents(singleCash[1]!);
+    if (buyInCents === null) {
+      return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+    }
+    return applyCeilingCents(buyInCents, 0);
   }
 
   // Nothing confidently matched. Do NOT fall back to a greedy
@@ -112,16 +130,22 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
 }
 
 /**
- * Apply the USD plausibility ceiling. If the parsed buy-in (+ fee) is
- * suspiciously large, treat as unresolved so the caller can fall back
- * to the prior value or zero instead of poisoning the dashboard.
+ * Apply the USD plausibility ceiling. Inputs are integer cents; output is
+ * USD floats. If the parsed buy-in (+ fee) exceeds the ceiling, treat as
+ * unresolved so the caller can fall back rather than poison the dashboard.
  */
-function applyCeiling(buyIn: number, fee: number): ExtractedBuyIn {
-  if (!isFinite(buyIn) || !isFinite(fee)) {
+function applyCeilingCents(buyInCents: number, feeCents: number): ExtractedBuyIn {
+  if (!Number.isFinite(buyInCents) || !Number.isFinite(feeCents)) {
     return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
   }
-  if (buyIn + fee > MAX_PLAUSIBLE_USD_BUYIN) {
+  const totalCents = buyInCents + feeCents;
+  if (totalCents > MAX_PLAUSIBLE_USD_BUYIN * 100) {
     return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
   }
-  return { buyIn, fee, currency: 'USD', unresolved: false };
+  return {
+    buyIn: centsToUsd(buyInCents),
+    fee: centsToUsd(feeCents),
+    currency: 'USD',
+    unresolved: false,
+  };
 }

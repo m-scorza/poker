@@ -1,4 +1,5 @@
 import type { Tournament } from '../types/hand';
+import { sumUsd } from '../parser/money';
 
 const NON_CASH_CURRENCIES: ReadonlySet<string> = new Set(['PLAY', 'TICKET']);
 
@@ -10,16 +11,16 @@ export function isCashTournamentCurrency(tournament: Tournament): boolean {
 
 export function getTournamentCost(tournament: Tournament): number {
   if (!isCashTournamentCurrency(tournament)) return 0;
-  return (tournament.buyIn || 0) + (tournament.fee || 0);
+  return sumUsd([tournament.buyIn || 0, tournament.fee || 0]);
 }
 
 export function getTournamentRevenue(tournament: Tournament): number {
   if (!isCashTournamentCurrency(tournament)) return 0;
-  return (tournament.prize || 0) + (tournament.bounty || 0);
+  return sumUsd([tournament.prize || 0, tournament.bounty || 0]);
 }
 
 export function getTournamentNet(tournament: Tournament): number {
-  return getTournamentRevenue(tournament) - getTournamentCost(tournament);
+  return sumUsd([getTournamentRevenue(tournament), -getTournamentCost(tournament)]);
 }
 
 export function hasTournamentCash(tournament: Tournament): boolean {

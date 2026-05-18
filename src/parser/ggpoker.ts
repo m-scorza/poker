@@ -5,6 +5,7 @@ import type { ParsedTournamentSummary } from './tournamentSummary';
 import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
 import { MAX_HAND_HISTORY_INPUT_BYTES } from './pokerstars';
+import { parseUsdCents, centsToUsd } from './money';
 
 const RE_HAND_ID = /(?:Poker Hand|GGPoker Hand|Hand) #(\w+):/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
@@ -329,7 +330,8 @@ export function parseGGPokerSummary(
     }
     const yrMatch = /You received a total of \$?([\d.,]+)/i.exec(line);
     if (yrMatch) {
-      prize = parseFloat(yrMatch[1]!.replace(/,/g, ''));
+      const cents = parseUsdCents(yrMatch[1]!);
+      if (cents !== null) prize = centsToUsd(cents);
     }
     const shouldExtractBuyIn = /Tournament #/i.test(line) || line.toLowerCase().startsWith('buy-in:');
     if (shouldExtractBuyIn) {
