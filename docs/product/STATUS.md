@@ -209,14 +209,16 @@ are stale. Do not edit by hand.
 
 <!-- BEGIN:AUTOGEN:src-tree -->
 ```
-src/parser/  (11 files)
+src/parser/  (13 files)
   parser/buyInExtractor.ts
+  parser/contributionPackage.ts
   parser/ggpoker.ts
   parser/handKey.ts
   parser/importSummary.ts
   parser/openHandHistory.ts
   parser/pokerstars.ts
   parser/position.ts
+  parser/sanitizeHandHistory.ts
   parser/siteIdentifier.ts
   parser/tournamentSummary.ts
   parser/worker.ts
@@ -304,8 +306,8 @@ src/types/  (4 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 44
-**`it` / `test` calls (approximate):** 483
+**Test files:** 46
+**`it` / `test` calls (approximate):** 487
 
 ```
 src/__tests__/App.test.tsx
@@ -341,6 +343,7 @@ src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts
 src/data/__tests__/sessions.test.ts
 src/parser/__tests__/buyInExtractor.test.ts
+src/parser/__tests__/contributionPackage.test.ts
 src/parser/__tests__/fixtureSweep.test.ts
 src/parser/__tests__/ggpoker.test.ts
 src/parser/__tests__/ggpoker_robustness.test.ts
@@ -349,6 +352,7 @@ src/parser/__tests__/importSummary.test.ts
 src/parser/__tests__/openHandHistory.test.ts
 src/parser/__tests__/pokerstars.test.ts
 src/parser/__tests__/position.test.ts
+src/parser/__tests__/sanitizeHandHistory.test.ts
 src/parser/__tests__/siteIdentifier.test.ts
 src/parser/__tests__/uploadSizeGuards.test.ts
 src/parser/__tests__/workerImportSummary.test.ts

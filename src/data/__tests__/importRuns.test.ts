@@ -1,4 +1,6 @@
 import 'fake-indexeddb/auto';
+import Dexie from 'dexie';
+import { indexedDB, IDBKeyRange } from 'fake-indexeddb';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 vi.unmock('../store');
 vi.unmock('../importRuns');
@@ -165,6 +167,10 @@ describe('buildImportRunTimeline', () => {
 
 describe('import run persistence', () => {
   beforeEach(async () => {
+    Object.assign(globalThis, { indexedDB, IDBKeyRange });
+    Object.assign(window, { indexedDB, IDBKeyRange });
+    Dexie.dependencies.indexedDB = indexedDB;
+    Dexie.dependencies.IDBKeyRange = IDBKeyRange;
     await clearAllData();
   });
 

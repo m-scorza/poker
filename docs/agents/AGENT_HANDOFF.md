@@ -18,6 +18,101 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 ```
 ---
 
+## 2026-05-18 — Local sanitized contribution package builder
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Continue the engine/data/privacy plan by adding a local-only sanitized parser fixture package builder. This is not an upload flow.
+- Files touched:
+  - `src/parser/contributionPackage.ts` — new local-only package builder with schema/kind/version metadata, sanitized chunks, generic source aliases, parser report, shareability flag, and generic forbidden-marker findings.
+  - `src/parser/__tests__/contributionPackage.test.ts` — RED/GREEN tests proving package schema, sanitized chunks, parser counts, generic unsupported warnings, and absence of raw identifiers/filenames.
+  - `docs/product/DATA_MODEL_AND_PRIVACY.md` — documented the current local package builder contents and limits.
+  - `src/data/__tests__/importRuns.test.ts` — further hardened Dexie/fake-indexeddb dependencies so full-suite `--isolate=false` runs keep IndexedDB available after happy-dom/global pollution.
+  - `docs/product/STATUS.md` — regenerated autogen source/test inventory.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry plus prior privacy entries.
+- Summary:
+  - Added `buildLocalContributionPackage()` for local parser-debug fixture generation: raw files in, sanitized chunks plus parser report out.
+  - Package output uses synthetic source aliases (`source-1.txt`) and generic unsupported warnings; real filenames, local paths, raw player names, original hand/tournament/table IDs, and original dates are not serialized in shareable packages.
+  - Supported sanitized chunks currently target PokerStars hand histories and reparse sanitized text as `Hero` to produce hand counts.
+  - Unsupported/unrecognized files are excluded from chunks and represented only by generic warnings.
+  - Added a forbidden marker scan that marks the package `shareable: false` if any collected raw marker survives; findings use generic marker names so the report itself does not echo secrets.
+  - Full-suite verification exposed that the prior IndexedDB test stabilization was still order-sensitive; patched Dexie dependencies directly in `importRuns.test.ts` setup and reverified the full suite.
+- Verification:
+  - RED: `npm test -- --run src/parser/__tests__/contributionPackage.test.ts` initially failed on missing `../contributionPackage`, as expected.
+  - Focused GREEN: `npm test -- --run src/parser/__tests__/contributionPackage.test.ts` — passed, 2 tests.
+  - Focused regression: `npm test -- --run src/parser/__tests__/contributionPackage.test.ts src/parser/__tests__/sanitizeHandHistory.test.ts src/data/__tests__/importRuns.test.ts` — passed, 12 tests.
+  - Typecheck: `npx tsc -b --pretty false` — passed.
+  - Docs: `npm run docs:update && npm run docs:check` — passed.
+  - First full chained gate hit one transient Vitest worker fetch timeout in `leakDetector.test.ts`; rerun then exposed order-sensitive `IndexedDB API missing` in `importRuns.test.ts`.
+  - After Dexie/fake-indexeddb hardening: `npm test -- --run src/data/__tests__/importRuns.test.ts && npx tsc -b --pretty false` — passed.
+  - Final full gate: `npm test -- --run && npm run build` — passed, 46 files / 496 tests and production Vite/PWA build.
+  - `git diff --check` — passed.
+- Risks / assumptions:
+  - This builder is intentionally local-only and has no consent/encryption/upload path yet.
+  - Current sanitized chunk support is PokerStars-first; GGPoker/Open Hand History support should be added with fixtures before declaring broad contribution support.
+  - Forbidden marker scanning is a safety backstop, not a substitute for sanitizer-specific tests and server-side raw-payload rejection if upload ever exists.
+- Next action requested:
+  - Add GGPoker/Open Hand History sanitizer/package coverage or start the solver feasibility adapter boundary, depending on whether parser corpus expansion or analysis-cost work is higher priority.
+
+---
+
+## 2026-05-18 — Sanitized hand-history privacy foundation
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Start the engine/data/privacy lane with a source-backed privacy boundary doc and a parser-preserving PokerStars hand-history sanitizer suitable for local fixture/contribution workflows.
+- Files touched:
+  - `docs/product/DATA_MODEL_AND_PRIVACY.md` — new source-backed data classification and privacy boundary for raw, normalized, sanitized, and aggregate data.
+  - `src/parser/sanitizeHandHistory.ts` — new sanitizer that strips BOM/normalizes line endings, maps hand/tournament IDs to synthetic numeric IDs, replaces table names/timestamps, and aliases players to `Hero` / `Villain_N` without returning original identifiers.
+  - `src/parser/__tests__/sanitizeHandHistory.test.ts` — RED/GREEN coverage proving real player/table/hand/tournament/timestamp identifiers are removed while sanitized PokerStars text still reparses.
+  - `src/data/__tests__/importRuns.test.ts` — stabilized fake IndexedDB globals under full-suite `--isolate=false` runs after the new full test surfaced happy-dom global pollution.
+  - `docs/product/STATUS.md` — regenerated autogen source/test inventory.
+  - `docs/plans/2026-05-18-engine-data-solver-privacy-addendum.md` — still untracked additive plan from the prior planning pass.
+  - `docs/agents/AGENT_HANDOFF.md` — this handoff entry plus the prior planning handoff.
+- Summary:
+  - Implemented the first concrete privacy primitive before any upload/encryption work: raw hand history can now be transformed into parser-useful anonymized text and a safe redaction report that contains aliases/counts only.
+  - Kept the output parser-compatible by using synthetic numeric IDs rather than non-numeric placeholders, preserving cards/actions/stacks/pots/positions/showdown semantics for regression fixtures.
+  - Documented forbidden fields and the intended boundary: raw hand histories and exact nicknames stay local by default; sanitized fixtures/contribution packages may exist only after client-side redaction and explicit consent.
+  - Fixed an existing test-environment fragility discovered by the full suite: `importRuns.test.ts` now reassigns `indexedDB`/`IDBKeyRange` from `fake-indexeddb` in persistence setup so it survives other happy-dom tests under `--isolate=false`.
+- Verification:
+  - RED: `npm test -- --run src/parser/__tests__/sanitizeHandHistory.test.ts` initially failed on missing `../sanitizeHandHistory`, as expected.
+  - Focused GREEN: `npm test -- --run src/parser/__tests__/sanitizeHandHistory.test.ts` — passed, 2 tests.
+  - Regression focus after IndexedDB stabilization: `npm test -- --run src/data/__tests__/importRuns.test.ts src/parser/__tests__/sanitizeHandHistory.test.ts` — passed, 10 tests.
+  - Typecheck: `npx tsc -b --pretty false` — passed.
+  - Docs: `npm run docs:update && npm run docs:check` — passed.
+  - Full gate: `npm test -- --run && npm run build` — passed, 45 files / 494 tests and production Vite/PWA build.
+- Risks / assumptions:
+  - Sanitizer currently targets PokerStars-style text and table/timestamp patterns; future phases should add GGPoker/Open Hand History fixtures before treating it as site-agnostic.
+  - Alias generation is deterministic by seat order inside a sanitized batch, but no cross-import identity continuity is preserved by design.
+  - This is not an upload feature; consent, encryption, retention/deletion, and server-side raw-data rejection remain prerequisites before any network contribution flow.
+- Next action requested:
+  - Build the local-only sanitized contribution package builder next: schema version, sanitized hand chunks, parser report/import warnings/confidence, and explicit forbidden-field assertions.
+
+---
+
+## 2026-05-18 — Engine/data/solver/privacy additive plan
+
+- Owner / agent: Hermes
+- Branch / worktree: `phase-6-consolidated-final` at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
+- Scope: Add a non-UI/non-UX backend roadmap layer for data reliability, solver feasibility, safe hand-history contribution, anonymization, encryption, and corpus learning without overwriting active import-trust plans.
+- Files touched:
+  - `docs/plans/2026-05-18-engine-data-solver-privacy-addendum.md` — new additive plan.
+  - `docs/agents/AGENT_HANDOFF.md` — this handoff entry.
+- Summary:
+  - Preserved the current import-run/data-health and downstream trust timeline plans as prior work.
+  - Added a follow-on engine lane covering data model classification, sanitized fixture generation, local contribution packages, encryption/consent design, solver feasibility/adapters, safe learning loops, and multi-agent ownership boundaries.
+  - Explicitly avoided UI/UX commitments, public sharing, pricing/funnel work, and any network upload before privacy/consent/encryption/deletion rules are written.
+- Verification:
+  - Planning/docs-only change; no source tests required.
+  - `git status --short --branch` was clean before writing the plan.
+- Risks / assumptions:
+  - The plan references public solver feasibility targets from current web search (`wasm-postflop`, TexasSolver, CFR/CFR+ research repos) but does not choose a dependency or assert license suitability yet.
+  - The next implementation slice should still close/commit the already-finished import trust timeline before starting this lane unless the user explicitly reprioritizes.
+- Next action requested:
+  - Start with Phase A (`docs/product/DATA_MODEL_AND_PRIVACY.md`) and Phase B (`src/parser/sanitizeHandHistory.ts` + tests) when ready.
+
+---
+
 ## 2026-05-18 — Hermes review/finish of downstream trust timeline slice
 
 - Owner / agent: Hermes, continuing while Google Antigravity was active in the same lane.
