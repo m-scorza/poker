@@ -39,6 +39,7 @@ export interface ImportRunTimelineRow {
   importedAt: Date;
   confidence: ImportConfidence;
   title: string;
+  statusLabel: string;
   parsedFilesLabel: string;
   savedLabel: string;
   sourcePreview: string[];
@@ -145,11 +146,18 @@ export function buildImportRunTimeline(runs: ImportRunRecord[]): ImportRunTimeli
       ? [...run.warnings.slice(0, 2), `+${run.warnings.length - 2} more warnings`]
       : [...run.warnings];
 
+    const statusLabel = run.confidence === 'high'
+      ? 'Import Complete'
+      : run.confidence === 'medium'
+        ? 'Imported with Warnings'
+        : 'Needs Review';
+
     return {
       id: run.id,
       importedAt: run.importedAt,
       confidence: run.confidence,
       title,
+      statusLabel,
       parsedFilesLabel,
       savedLabel,
       sourcePreview,

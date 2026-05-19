@@ -374,8 +374,16 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                   )} />
                   <div className="space-y-1">
                     <div className="flex items-center justify-between text-[10px]">
-                      <span className="font-semibold text-white">
-                        {run.title}
+                      <span className="font-semibold text-white flex items-center gap-1.5">
+                        {run.title.split(' · ')[0]}
+                        <span className={clsx(
+                          'rounded-full px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider',
+                          run.confidence === 'high' && 'bg-emerald-400/10 text-emerald-300 border border-emerald-400/20',
+                          run.confidence === 'medium' && 'bg-yellow-400/10 text-yellow-300 border border-yellow-400/20',
+                          run.confidence === 'low' && 'bg-red-400/10 text-red-300 border border-red-400/20'
+                        )}>
+                          {run.statusLabel}
+                        </span>
                       </span>
                     </div>
                     <p className="text-[10px] text-[var(--color-text-muted)]">
@@ -451,9 +459,23 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
       {results.length > 0 && !isImporting && (
         <div className="mt-4 pt-4 border-t border-[var(--color-border)] text-sm space-y-2">
-           <div className="flex items-center gap-2 font-semibold text-[var(--color-text)]">
-             <CheckCircle size={16} className="text-[var(--color-accent)]" />
-             Processing Completed
+           <div className="flex items-center justify-between gap-2 font-semibold text-[var(--color-text)]">
+             <div className="flex items-center gap-2">
+               <CheckCircle size={16} className="text-[var(--color-accent)]" />
+               Processing Completed
+             </div>
+             {importSummary && (
+               <span className={clsx(
+                 'rounded-full px-2 py-0.5 font-data text-[10px] font-bold uppercase tracking-wider',
+                 importSummary.confidence === 'high' && 'bg-emerald-400/10 text-emerald-300 border border-emerald-400/20',
+                 importSummary.confidence === 'medium' && 'bg-yellow-400/10 text-yellow-300 border border-yellow-400/20',
+                 importSummary.confidence === 'low' && 'bg-red-400/10 text-red-300 border border-red-400/20'
+               )}>
+                 {importSummary.confidence === 'high' && 'Import Complete'}
+                 {importSummary.confidence === 'medium' && 'Imported with Warnings'}
+                 {importSummary.confidence === 'low' && 'Needs Review'}
+               </span>
+             )}
            </div>
            {results.some(r => r.error) && (
              <div className="rounded-lg border border-red-400/30 bg-red-400/10 p-3 text-xs font-semibold text-red-200">

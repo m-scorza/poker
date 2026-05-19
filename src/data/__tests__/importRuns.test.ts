@@ -155,6 +155,7 @@ describe('buildImportRunTimeline', () => {
       importedAt: new Date('2026-05-17T20:00:00Z'),
       confidence: 'medium',
       title: '2026-05-17 20:00 UTC · medium confidence',
+      statusLabel: 'Imported with Warnings',
       parsedFilesLabel: '2/3 files parsed',
       savedLabel: '118 hands / 2 summaries saved',
       sourcePreview: ['latest-1.txt', 'latest-2.txt', 'latest-3.txt', '+1 more'],
@@ -163,6 +164,7 @@ describe('buildImportRunTimeline', () => {
     });
     expect(timeline[1]!.failedFilesLabel).toBe('No failed files');
     expect(timeline[1]!.warningPreview).toEqual([]);
+    expect(timeline[1]!.statusLabel).toBe('Import Complete');
   });
 
   it('caps warning previews and source previews for dense imports', () => {
