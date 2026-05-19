@@ -2,17 +2,23 @@
 
 Use this file as the shared baton between Hermes, Google Antigravity, and any other coding agent. Keep the newest entry at the top.
 
+**Trunk is `main`. All work lands through pull requests** — see
+`CLAUDE.md` "End-of-session contract" for the full rules. Each entry
+should name the PR (open or merged) so the next agent can read the
+diff and CI result without spelunking the local branch.
+
 ## Template
 
 ```md
 ## YYYY-MM-DD — <short task name>
 
 - Owner / agent:
-- Branch / worktree:
+- Branch:                        # feature branch name, e.g. solver/<slice>
+- PR:                            # https://github.com/m-scorza/poker/pull/<n> (or "open: <url>" if not merged yet)
 - Scope:
 - Files touched:
 - Summary:
-- Verification:
+- Verification:                  # local commands run + CI result (green/red on which checks)
 - Risks / assumptions:
 - Next action requested:
 ```
