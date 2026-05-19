@@ -74,6 +74,11 @@ describe('buildStudyQueue', () => {
       source: 'leak',
       severity: 'high',
       cta: 'Open Range Matrix',
+      confidence: 'high',
+      evidence: {
+        kind: 'aggregate_leak',
+        label: 'Aggregate leak sample',
+      },
     });
     expect(queue[0]!.priorityScore).toBeGreaterThan(0);
   });
@@ -92,6 +97,8 @@ describe('buildStudyQueue', () => {
     expect(bbDefense!.estimatedBbLoss).toBe(14); // 5bb + 9bb
     expect(bbDefense!.handIds).toEqual(['h2', 'h1']);
     expect(bbDefense!.explanation).toContain('BB vs raise');
+    expect(bbDefense!.confidence).toBe('low');
+    expect(bbDefense!.evidence.details).toContain('2 tagged decisions');
   });
 
   it('adds a GTO Wizard style biggest-loss review queue in BB, not raw chips', () => {
@@ -105,6 +112,11 @@ describe('buildStudyQueue', () => {
     expect(lossQueue).toBeDefined();
     expect(lossQueue!.estimatedBbLoss).toBe(10); // 8bb + 2bb
     expect(lossQueue!.handIds).toEqual(['smallBlindLevel', 'bigBlindLevel']);
+    expect(lossQueue!.confidence).toBe('low');
+    expect(lossQueue!.evidence).toMatchObject({
+      kind: 'bb_loss_review',
+      label: 'Normalized BB loss review',
+    });
   });
 
   it('creates a missed c-bet drill when flop pressure opportunities are skipped', () => {
@@ -119,6 +131,12 @@ describe('buildStudyQueue', () => {
       title: 'Missed c-bet drill queue',
       sampleSize: 1,
       handIds: ['cbet1'],
+      confidence: 'low',
+      evidence: {
+        kind: 'postflop_flags',
+        label: 'Postflop opportunity tags',
+        details: ['1 missed continuation-bet opportunity'],
+      },
     });
   });
 });

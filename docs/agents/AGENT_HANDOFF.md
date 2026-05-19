@@ -24,6 +24,36 @@ diff and CI result without spelunking the local branch.
 ```
 ---
 
+## 2026-05-19 — Study queue evidence and confidence metadata
+
+- Owner / agent: Hermes
+- Branch / worktree: `feat/study-queue-evidence` at `/mnt/c/Users/MICRO/Downloads/poker-hermes-study-queue-evidence`
+- PR: pending local push/open
+- Scope: Continue the post-upload study workflow backend lane by making study-queue items explain why they were prioritized and how reliable each queue card is.
+- Files touched:
+  - `src/analysis/studyPlan.ts` — added `StudyQueueConfidence`, structured `StudyQueueEvidence`, and populated metadata for aggregate leak cards, tagged decision clusters, missed-c-bet queues, and biggest-loss review queues.
+  - `src/analysis/__tests__/studyPlan.test.ts` — RED/GREEN assertions for confidence/evidence on leak, deviation, postflop, and normalized-loss queue items.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- Summary:
+  - Every `StudyQueueItem` now carries a simple `high` / `medium` / `low` confidence label and structured evidence object for future UI trust copy.
+  - Aggregate leak and repeated tagged-decision queues derive confidence from sample size (`>=30` high, `>=10` medium, otherwise low).
+  - Biggest-loss replay queues are explicitly low-confidence review prompts, not proof of a leak, and their evidence text says they are sorted by bb delta, not raw chips.
+  - Missed-c-bet drill queues now expose postflop flag evidence so the Upload → Data Health → Leak Priorities → Study Queue path can show why a drill was created.
+- Verification:
+  - RED: `npm test -- --run src/analysis/__tests__/studyPlan.test.ts` failed before implementation because queue items had no `confidence` / `evidence` fields.
+  - GREEN: `npm test -- --run src/analysis/__tests__/studyPlan.test.ts` — passed, 4 tests.
+  - `npx tsc -b --pretty false` — passed.
+  - `npm run build` — passed, production Vite/PWA build.
+  - `npm run docs:check` — passed.
+- Risks / assumptions:
+  - This is a backend data-contract slice only; no visible UI card rendering is included yet.
+  - Confidence is intentionally sample-size based and conservative; it is not solver confidence or EV certainty.
+  - A WSL `npm install --ignore-scripts` attempt timed out; Windows `npm install --ignore-scripts` completed and did not change tracked package manifests.
+- Next action requested:
+  - Open PR for this branch after a final `git diff --check`; then wire the new fields into an isolated Study Queue card UI with clear trust labels.
+
+---
+
 ## 2026-05-18 — Solver coverage readiness cleanup
 
 - Owner / agent: Hermes
