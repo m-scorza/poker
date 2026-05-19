@@ -49,6 +49,36 @@ diff and CI result without spelunking the local branch.
 
 ---
 
+## 2026-05-18 — Deterministic proxy solver adapter
+
+- Owner / agent: Hermes
+- Branch / worktree: `feat/solver-proxy-adapter` at `/mnt/c/Users/MICRO/Downloads/poker-hermes-solver-proxy`
+- PR: https://github.com/m-scorza/poker/pull/14
+- Scope: Add internal-only deterministic proxy adapter scaffolding so future UI/tests can exercise the solver boundary without claiming solver-backed EV.
+- Files touched:
+  - `src/analysis/solverAdapter.ts` — added `createDeterministicProxySolverAdapter()` plus stable deterministic action selection for covered spots.
+  - `src/analysis/__tests__/solverAdapter.test.ts` — added RED/GREEN tests for deterministic proxy output, no `solver_backed` evidence, null EV loss, missing-context fallback, and ICM/bounty no-recommendation behavior.
+  - `docs/product/SOLVER_BOUNDARY.md` — documented the proxy adapter as internal test scaffolding and updated next safe slices.
+  - `docs/product/STATUS.md` — regenerated autogen test-count block after adding tests.
+  - `docs/agents/AGENT_HANDOFF.md` — this entry.
+- Summary:
+  - The proxy adapter reports adapter metadata as `proxy_model`, but only returns proxy recommendations for structurally `covered` spots according to `classifySolverCoverage(spot, { solverConfigured: true })`.
+  - Unsupported, missing-context, ICM, bounty, and other partial spots return no recommendation, `evLossBb: null`, and `evidenceKind: "unsupported"` for the result.
+  - Covered proxy outputs are deterministic for identical spot inputs, keep `evLossBb: null`, and explicitly explain they are internal proxy scaffolding, not solver-backed analysis.
+- Verification:
+  - RED: `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-hermes-solver-proxy && npm test -- --run src/analysis/__tests__/solverAdapter.test.ts"` — failed as expected because `createDeterministicProxySolverAdapter` did not exist.
+  - GREEN focused: same focused test command — passed, 1 file / 7 tests.
+  - `cmd.exe /c "cd /d C:\Users\MICRO\Downloads\poker-hermes-solver-proxy && npm test -- --run src/analysis/__tests__/solverAdapter.test.ts src/analysis/__tests__/solverSpotBuilder.test.ts && npx tsc -b --pretty false && npm run docs:check && npm run build"` — passed after `npm run docs:update`, 2 files / 9 tests, TypeScript clean, docs check clean, production build clean.
+  - `git diff --check` from WSL in the worktree — passed. Windows `git diff --check` cannot read this WSL-created worktree's `.git` pointer path, so Git-only checks were run from WSL.
+- Risks / assumptions:
+  - This is not a solver integration, not an EV model, and not user-facing poker advice by itself.
+  - The deterministic action is a fixture selection only; downstream UI must display it as `proxy_model` and never as solver-backed EV.
+  - ICM/bounty spots remain conservative: no proxy recommendation until explicit tournament-EV/bounty support exists.
+- Next action requested:
+  - Open a focused PR against `main` for `feat/solver-proxy-adapter`, or continue with the next safe slice: isolated UI/internal fixture wiring that visibly labels any output as `proxy_model` and keeps EV hidden.
+
+---
+
 ## 2026-05-18 — Solver coverage readiness cleanup
 
 - Owner / agent: Hermes

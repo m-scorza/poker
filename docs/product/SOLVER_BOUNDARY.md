@@ -15,6 +15,7 @@ This product may eventually compare selected hands against solver-like outputs, 
 - `createUnsupportedSolverAdapter()` — safe default adapter that returns no recommendation and no EV loss.
 - `buildSolverSpotInputFromParsedHand()` — narrow preflop-only converter from parsed hand plus `HeroDecision` into a bb-normalized spot, with explicit warnings instead of guessed context.
 - `classifySolverCoverage()` — readiness classifier that can be used by future real adapters while the default unsupported adapter still short-circuits to `no_solver_configured`.
+- `createDeterministicProxySolverAdapter()` — internal-only deterministic proxy fixture that exercises the adapter boundary for tests/UI flows without solver-backed evidence or EV-loss claims.
 
 The default adapter always reports:
 
@@ -23,6 +24,8 @@ The default adapter always reports:
 - `coverage.confidence: "none"`
 - `evidenceKind: "unsupported"`
 - `evLossBb: null`
+
+The deterministic proxy adapter is only test scaffolding. It may return a deterministic recommendation for structurally covered spots so UI/internal tests can exercise the boundary, but it always keeps `evLossBb: null`, labels covered outputs as `proxy_model`, and downgrades unsupported, ICM, or bounty-sensitive spots to no recommendation.
 
 ## Evidence labels
 
@@ -45,6 +48,6 @@ Use these labels consistently:
 
 ## Next implementation slices
 
-1. Add deterministic fake/proxy adapter fixtures for UI/testing that are clearly `proxy_model` or `unsupported`, not `solver_backed`.
-2. Add a second converter slice for flop spots only after pot/action reconstruction tests prove the spot is the state before hero's decision.
-3. Research and choose a real adapter only after license/performance/coverage review.
+1. Add a second converter slice for flop spots only after pot/action reconstruction tests prove the spot is the state before hero's decision.
+2. Research and choose a real adapter only after license/performance/coverage review.
+3. Wire proxy outputs into isolated UI/internal fixtures only if the UI clearly labels them `proxy_model` and never displays solver EV.

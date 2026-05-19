@@ -256,3 +256,70 @@ export function createUnsupportedSolverAdapter(): SolverAdapter {
     },
   };
 }
+
+export function createDeterministicProxySolverAdapter(): SolverAdapter {
+  return {
+    id: 'deterministic-proxy-fixture',
+    evidenceKind: 'proxy_model',
+    async analyze(spot: SolverSpotInput): Promise<SolverAnalysisResult> {
+      const coverage = classifySolverCoverage(spot, { solverConfigured: true });
+      if (coverage.status !== 'covered') {
+        const tournamentWarning = coverage.reason === 'unsupported_tournament_context'
+          ? ' ICM or bounty-sensitive spots require explicit model support and cannot use this proxy.'
+          : '';
+        return {
+          spotId: spot.handId,
+          source: 'deterministic-proxy-fixture',
+          evidenceKind: 'unsupported',
+          coverage,
+          recommendation: null,
+          evLossBb: null,
+          explanation: `Coverage is ${coverage.status}; the deterministic proxy cannot produce a proxy recommendation.${tournamentWarning}`,
+        };
+      }
+
+      const preferredAction = deterministicProxyAction(spot);
+      return {
+        spotId: spot.handId,
+        source: 'deterministic-proxy-fixture',
+        evidenceKind: 'proxy_model',
+        coverage,
+        recommendation: {
+          preferredAction,
+          mixedActions: [{ action: preferredAction, frequency: 1 }],
+          notes: [
+            'Deterministic proxy fixture for internal UI/testing only.',
+            'Not solver-backed and not suitable for EV-loss claims.',
+          ],
+        },
+        evLossBb: null,
+        explanation:
+          'This is a deterministic proxy recommendation for internal testing, not a solver-backed analysis. It must not be described as solver EV.',
+      };
+    },
+  };
+}
+
+function deterministicProxyAction(spot: SolverSpotInput): SolverActionKind {
+  const candidates: SolverActionKind[] = ['fold', 'call', 'raise'];
+  const key = [
+    spot.gameType,
+    spot.street,
+    spot.heroPosition,
+    spot.heroStackBb,
+    spot.effectiveStackBb,
+    spot.potBb,
+    spot.heroCards?.join('') ?? '',
+    spot.actions.map((action) => `${action.playerPosition}:${action.action}:${action.amountBb ?? ''}`).join('|'),
+  ].join('#');
+  const index = Math.abs(stableHash(key)) % candidates.length;
+  return candidates[index] ?? 'call';
+}
+
+function stableHash(value: string): number {
+  let hash = 0;
+  for (let index = 0; index < value.length; index += 1) {
+    hash = ((hash << 5) - hash + value.charCodeAt(index)) | 0;
+  }
+  return hash;
+}
