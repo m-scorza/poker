@@ -28,7 +28,7 @@ diff and CI result without spelunking the local branch.
 
 - Owner / agent: Hermes
 - Branch / worktree: `feat/study-queue-evidence` at `/mnt/c/Users/MICRO/Downloads/poker-hermes-study-queue-evidence`
-- PR: pending local push/open
+- PR: https://github.com/m-scorza/poker/pull/16
 - Scope: Continue the post-upload study workflow backend lane by making study-queue items explain why they were prioritized and how reliable each queue card is.
 - Files touched:
   - `src/analysis/studyPlan.ts` — added `StudyQueueConfidence`, structured `StudyQueueEvidence`, and populated metadata for aggregate leak cards, tagged decision clusters, missed-c-bet queues, and biggest-loss review queues.
