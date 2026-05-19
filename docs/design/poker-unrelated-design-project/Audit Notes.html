@@ -1,0 +1,1074 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1440, initial-scale=1" />
+<title>Poker Analyzer — Design Audit Notes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0b0d;
+    --panel: #111318;
+    --panel-2: #161922;
+    --panel-3: #1c2130;
+    --border: rgba(255,255,255,0.065);
+    --border-strong: rgba(255,255,255,0.11);
+    --grid: rgba(255,255,255,0.035);
+    --fg: #ecedf0;
+    --fg-2: #a4a8b2;
+    --fg-3: #6c7180;
+    --fg-4: #464a58;
+    --accent: #8b7cff;
+    --accent-2: #b7adff;
+    --accent-soft: rgba(139,124,255,0.10);
+    --accent-border: rgba(139,124,255,0.30);
+    --pos: #6dbf8d;
+    --pos-soft: rgba(109,191,141,0.10);
+    --neg: #e8807a;
+    --neg-soft: rgba(232,128,122,0.10);
+    --warn: #d9a85a;
+    --warn-soft: rgba(217,168,90,0.10);
+    --info: #7eb6f0;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --sans: 'Inter', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    line-height: 1.55;
+    font-size: 14px;
+  }
+  a { color: inherit; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  code, .mono { font-family: var(--mono); }
+
+  /* ===== TOP BAR ===== */
+  .topbar {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(10,11,13,0.85);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar-inner {
+    max-width: 1440px; margin: 0 auto;
+    padding: 14px 36px;
+    display: flex; align-items: center; gap: 18px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-mark {
+    width: 28px; height: 28px; border-radius: 7px;
+    background: linear-gradient(160deg, #1c2030 0%, #0e1014 100%);
+    border: 1px solid var(--border-strong);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--accent);
+  }
+  .brand-mark svg { width: 14px; height: 14px; }
+  .brand-name { font-size: 13.5px; font-weight: 600; letter-spacing: -0.005em; }
+  .brand-sub { font-size: 10.5px; color: var(--fg-3); font-family: var(--mono); letter-spacing: 0.04em; text-transform: uppercase; margin-top: 1px; }
+  .topbar-spacer { flex: 1; }
+  .topbar-meta {
+    font-family: var(--mono); font-size: 11px; color: var(--fg-3);
+    letter-spacing: 0.02em; display: flex; align-items: center; gap: 14px;
+  }
+  .topbar-meta .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+  /* ===== LAYOUT ===== */
+  .shell { max-width: 1440px; margin: 0 auto; padding: 32px 36px 96px; display: grid; grid-template-columns: 232px 1fr; gap: 56px; }
+
+  /* ===== TOC ===== */
+  .toc { position: sticky; top: 80px; align-self: start; max-height: calc(100vh - 100px); overflow: auto; padding-right: 8px; }
+  .toc-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg-4); font-weight: 600; margin-bottom: 12px; }
+  .toc-section { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); margin: 18px 0 6px; font-weight: 600; }
+  .toc a {
+    display: flex; align-items: center; gap: 10px;
+    text-decoration: none;
+    font-size: 12.5px; color: var(--fg-2);
+    padding: 5px 8px; border-radius: 5px;
+    line-height: 1.4;
+  }
+  .toc a:hover { background: rgba(255,255,255,0.035); color: var(--fg); }
+  .toc a.is-current { background: var(--accent-soft); color: var(--fg); }
+  .toc-num { font-family: var(--mono); font-size: 10.5px; color: var(--fg-4); min-width: 22px; }
+
+  /* ===== CONTENT ===== */
+  .content { min-width: 0; max-width: 860px; }
+  .doc-head { padding-bottom: 28px; border-bottom: 1px solid var(--border); margin-bottom: 36px; }
+  .crumb { font-family: var(--mono); font-size: 11px; color: var(--fg-3); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+  .crumb-sep { color: var(--fg-4); }
+  h1.doc-title { margin: 0 0 12px; font-size: 36px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.1; }
+  .doc-lede { font-size: 15.5px; color: var(--fg-2); max-width: 680px; line-height: 1.6; margin: 0; }
+  .doc-meta { display: flex; gap: 26px; margin-top: 22px; font-size: 12px; color: var(--fg-3); }
+  .doc-meta b { color: var(--fg-2); font-weight: 500; font-family: var(--mono); display: block; margin-top: 3px; font-size: 13px; }
+
+  section { margin-top: 56px; scroll-margin-top: 80px; }
+  section > .section-head {
+    display: flex; align-items: baseline; gap: 16px;
+    padding-bottom: 14px; border-bottom: 1px solid var(--border);
+    margin-bottom: 26px;
+  }
+  .section-num { font-family: var(--mono); font-size: 12px; color: var(--fg-4); letter-spacing: 0.06em; }
+  h2.section-title { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -0.018em; }
+  .section-sub { color: var(--fg-3); font-size: 13px; margin: 0; flex: 1; text-align: right; font-family: var(--mono); letter-spacing: 0.02em; }
+
+  h3 { font-size: 15.5px; font-weight: 600; margin: 28px 0 10px; letter-spacing: -0.005em; }
+  h4 { font-size: 13px; font-weight: 600; margin: 18px 0 8px; color: var(--fg); text-transform: uppercase; letter-spacing: 0.1em; }
+  p { margin: 0 0 12px; color: var(--fg-2); }
+  p.lede { font-size: 15px; color: var(--fg); }
+  strong { color: var(--fg); font-weight: 600; }
+  em { font-style: normal; color: var(--accent-2); font-family: var(--mono); font-size: 0.9em; }
+  ul { padding-left: 22px; margin: 0 0 14px; }
+  li { margin: 6px 0; color: var(--fg-2); }
+  li::marker { color: var(--fg-4); }
+
+  .file { font-family: var(--mono); font-size: 12px; padding: 1px 6px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 4px; color: var(--fg-2); }
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; border-radius: 3px; font-weight: 500; }
+  .badge-crit { background: var(--neg-soft); color: var(--neg); border: 1px solid rgba(232,128,122,0.25); }
+  .badge-warn { background: var(--warn-soft); color: var(--warn); border: 1px solid rgba(217,168,90,0.25); }
+  .badge-info { background: var(--accent-soft); color: var(--accent-2); border: 1px solid var(--accent-border); }
+  .badge-ok   { background: var(--pos-soft); color: var(--pos); border: 1px solid rgba(109,191,141,0.25); }
+
+  /* TL;DR card */
+  .tldr {
+    background: var(--panel); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    border-radius: 10px; padding: 22px 26px;
+    margin-bottom: 8px;
+  }
+  .tldr .tldr-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent-2); font-weight: 600; margin-bottom: 12px; }
+  .tldr p { font-size: 15.5px; color: var(--fg); margin: 0 0 10px; line-height: 1.55; }
+  .tldr p:last-child { margin: 0; }
+  .tldr p b { color: var(--fg); font-weight: 600; }
+
+  /* Surface card */
+  .surface {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 22px 26px; margin: 16px 0;
+  }
+  .surface-h {
+    display: flex; align-items: center; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border); margin-bottom: 16px;
+  }
+  .surface-route { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .surface-title { font-size: 15px; font-weight: 600; flex: 1; }
+  .surface-verdict { font-family: var(--mono); font-size: 11px; color: var(--fg-3); letter-spacing: 0.04em; text-transform: uppercase; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .col h4 { margin-top: 0; }
+
+  /* Observation list */
+  .obs { list-style: none; padding: 0; margin: 0; }
+  .obs li {
+    padding: 10px 0 10px 24px; position: relative; font-size: 13.5px; color: var(--fg-2); line-height: 1.55;
+    border-bottom: 1px solid var(--border);
+  }
+  .obs li:last-child { border-bottom: 0; }
+  .obs li::before {
+    content: ''; position: absolute; left: 4px; top: 17px;
+    width: 5px; height: 5px; border-radius: 2px;
+    background: var(--fg-4);
+  }
+  .obs li[data-sev="crit"]::before { background: var(--neg); }
+  .obs li[data-sev="warn"]::before { background: var(--warn); }
+  .obs li[data-sev="ok"]::before { background: var(--pos); }
+  .obs li b { color: var(--fg); font-weight: 600; }
+
+  /* Comparison strip */
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 0; }
+  .compare-cell { padding: 14px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--panel-2); }
+  .compare-cell .label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-4); margin-bottom: 10px; font-family: var(--mono); }
+  .compare-cell.now .label { color: var(--neg); }
+  .compare-cell.target .label { color: var(--pos); }
+  .compare-cell .body { font-size: 13px; color: var(--fg-2); line-height: 1.55; }
+  .compare-cell .body strong { color: var(--fg); }
+  .compare-cell .body code { font-family: var(--mono); font-size: 11.5px; color: var(--fg-3); padding: 1px 4px; background: var(--panel-3); border-radius: 3px; }
+
+  /* Commit-to checklist */
+  .commit-list { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 16px 0; }
+  .commit-item {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 9px;
+    padding: 16px 18px;
+    display: grid; grid-template-columns: 28px 1fr auto; gap: 14px; align-items: start;
+  }
+  .commit-num {
+    font-family: var(--mono); font-size: 11px; color: var(--fg-4);
+    width: 26px; height: 26px; border-radius: 5px;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid var(--border);
+    background: var(--panel-2);
+  }
+  .commit-title { font-size: 14px; font-weight: 600; margin: 0 0 4px; }
+  .commit-body { font-size: 12.5px; color: var(--fg-3); margin: 0; line-height: 1.55; }
+  .commit-tag { font-family: var(--mono); font-size: 10.5px; color: var(--fg-4); text-transform: uppercase; letter-spacing: 0.08em; }
+
+  /* Tokens grid */
+  .tok-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 16px 0; }
+  .tok {
+    background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 14px 12px; font-size: 12px;
+  }
+  .tok-swatch { height: 26px; border-radius: 4px; border: 1px solid var(--border); margin-bottom: 10px; }
+  .tok-name { color: var(--fg); font-weight: 500; font-size: 12.5px; }
+  .tok-hex { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); margin-top: 2px; }
+  .tok-use { font-size: 11px; color: var(--fg-3); margin-top: 8px; line-height: 1.5; }
+
+  /* Footer card */
+  .next {
+    margin-top: 56px; padding: 26px 28px;
+    background: linear-gradient(160deg, rgba(139,124,255,0.06) 0%, transparent 60%);
+    border: 1px solid var(--accent-border); border-radius: 12px;
+  }
+  .next-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent-2); font-weight: 600; margin-bottom: 10px; }
+  .next h3 { margin: 0 0 12px; font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
+  .next p { color: var(--fg-2); font-size: 14px; max-width: 680px; }
+  .next-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 20px; }
+  .next-opt {
+    background: rgba(0,0,0,0.25); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .next-opt b { display: block; font-size: 12.5px; margin-bottom: 6px; color: var(--fg); }
+  .next-opt span { font-size: 11.5px; color: var(--fg-3); line-height: 1.5; }
+  .next-opt-pick {
+    margin-top: 10px; font-family: var(--mono); font-size: 10.5px;
+    color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase;
+  }
+
+  /* Brand mark comparison */
+  .brand-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 0; }
+  .brand-card { padding: 18px 20px; border: 1px solid var(--border); border-radius: 9px; }
+  .brand-card.now { background: #050505; }
+  .brand-card.proposed { background: var(--panel-2); }
+  .brand-card .label { font-size: 10.5px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-4); margin-bottom: 16px; }
+  .brand-card.now .label { color: var(--neg); }
+  .brand-card.proposed .label { color: var(--pos); }
+  .brand-card .mock { display: flex; align-items: center; gap: 10px; }
+  .brand-card.now .mock-text { font-family: var(--mono); font-size: 18px; color: #00e676; font-weight: 700; }
+  .brand-card.now .mock-sub { font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 2px; }
+  .brand-card.proposed .mock-mark {
+    width: 32px; height: 32px; border-radius: 7px;
+    background: linear-gradient(160deg, #1c2030 0%, #0e1014 100%);
+    border: 1px solid var(--border-strong);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--accent);
+  }
+  .brand-card.proposed .mock-text { font-size: 15px; font-weight: 600; letter-spacing: -0.005em; color: var(--fg); }
+  .brand-card.proposed .mock-sub { font-size: 10.5px; color: var(--fg-3); font-family: var(--mono); letter-spacing: 0.04em; text-transform: uppercase; margin-top: 2px; }
+  .brand-card .note { font-size: 11.5px; color: var(--fg-3); margin-top: 18px; line-height: 1.55; }
+
+  /* IA tree */
+  .ia-tree { font-family: var(--mono); font-size: 12.5px; color: var(--fg-2); background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px; padding: 18px 22px; line-height: 1.85; }
+  .ia-tree .ia-section { color: var(--fg-4); text-transform: uppercase; letter-spacing: 0.1em; font-size: 10.5px; margin-top: 10px; display: block; }
+  .ia-tree .ia-section:first-child { margin-top: 0; }
+  .ia-tree .ia-item { color: var(--fg); }
+  .ia-tree .ia-sec-item { color: var(--fg-3); }
+  .ia-tree del { color: var(--neg); text-decoration: line-through; opacity: 0.65; }
+  .ia-tree ins { color: var(--pos); text-decoration: none; }
+  .ia-tree .ia-note { font-family: var(--sans); font-size: 11.5px; color: var(--fg-3); margin-left: 14px; }
+
+  /* Naming grid */
+  .name-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 14px 0; }
+  .name-row {
+    padding: 10px 14px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px;
+    display: flex; justify-content: space-between; align-items: center; gap: 14px;
+  }
+  .name-now { font-family: var(--mono); font-size: 12px; color: var(--neg); text-decoration: line-through; opacity: 0.85; }
+  .name-row .arrow { color: var(--fg-4); font-family: var(--mono); font-size: 11px; }
+  .name-new { font-family: var(--mono); font-size: 12px; color: var(--fg); }
+
+  /* Mini-screenshot caption */
+  .figcap { font-size: 11.5px; color: var(--fg-3); font-style: italic; margin-top: 6px; }
+
+  /* Inline two-column note */
+  .twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 14 14" fill="currentColor"><path d="M7 1 L1 7.5 L7 13 L13 7.5 Z" stroke="currentColor" stroke-width="1.2" fill="none"/><circle cx="7" cy="7.5" r="2" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="brand-name">Poker Analyzer</div>
+        <div class="brand-sub">Design Audit · v0.2.0</div>
+      </div>
+    </div>
+    <div class="topbar-spacer"></div>
+    <div class="topbar-meta"><span class="dot"></span> internal review · m. scorza</div>
+  </div>
+</div>
+
+<div class="shell">
+
+  <!-- ============== TABLE OF CONTENTS ============== -->
+  <nav class="toc">
+    <div class="toc-label">On this page</div>
+    <a href="#tldr"><span class="toc-num">00</span> TL;DR</a>
+    <div class="toc-section">Foundations</div>
+    <a href="#brand"><span class="toc-num">01</span> Brand &amp; positioning</a>
+    <a href="#tokens"><span class="toc-num">02</span> Color &amp; type system</a>
+    <a href="#ia"><span class="toc-num">03</span> Information architecture</a>
+    <a href="#names"><span class="toc-num">04</span> Naming &amp; copy</a>
+    <div class="toc-section">Surface review</div>
+    <a href="#sidebar"><span class="toc-num">05</span> Sidebar / shell</a>
+    <a href="#dashboard"><span class="toc-num">06</span> Dashboard</a>
+    <a href="#career"><span class="toc-num">07</span> Career</a>
+    <a href="#hands"><span class="toc-num">08</span> Hands</a>
+    <a href="#leaks"><span class="toc-num">09</span> Leaks</a>
+    <a href="#stats"><span class="toc-num">10</span> Statistics</a>
+    <a href="#ranges"><span class="toc-num">11</span> Ranges</a>
+    <a href="#sessions"><span class="toc-num">12</span> Sessions</a>
+    <a href="#villains"><span class="toc-num">13</span> Villains</a>
+    <a href="#arena"><span class="toc-num">14</span> The Arena</a>
+    <a href="#demo"><span class="toc-num">15</span> Demo / Pricing</a>
+    <div class="toc-section">Synthesis</div>
+    <a href="#cross"><span class="toc-num">16</span> Cross-cutting issues</a>
+    <a href="#commit"><span class="toc-num">17</span> What to commit to</a>
+    <a href="#next"><span class="toc-num">18</span> Suggested next step</a>
+  </nav>
+
+  <!-- ============== CONTENT ============== -->
+  <main class="content">
+
+    <div class="doc-head">
+      <div class="crumb">
+        <span>docs</span><span class="crumb-sep">/</span><span>design</span><span class="crumb-sep">/</span><span>AUDIT — pre-redesign</span>
+      </div>
+      <h1 class="doc-title">Pre-redesign audit.</h1>
+      <p class="doc-lede">
+        A read on what the app looks like today, where the visual language gets in the way of the product,
+        and what to lock down before generating another round of dashboard directions.
+        The aesthetic of this document is also the recommended destination — restrained, calm, single-accent, no neon.
+      </p>
+      <div class="doc-meta">
+        <div>Scope <b>10 routes · 359 src files</b></div>
+        <div>Repo <b>m-scorza/poker</b></div>
+        <div>Branch <b>janitor/docs-reorg-2026-05-12</b></div>
+        <div>Date <b>2026-05-13</b></div>
+      </div>
+    </div>
+
+    <!-- ============== TL;DR ============== -->
+    <section id="tldr">
+      <div class="section-head">
+        <span class="section-num">00</span>
+        <h2 class="section-title">TL;DR</h2>
+        <p class="section-sub">read first</p>
+      </div>
+
+      <div class="tldr">
+        <div class="tldr-label">The one thing</div>
+        <p>
+          Your <b>engineering is production-grade</b> — 359 source files, 420 tests, real analysis logic across leak detection, range compliance, ICM, final-table, villain classification.
+          Your <b>visual layer is prototype-grade</b> — OLED black, neon green, glassmorphism, mono-everywhere, every metric rendered with the same weight.
+        </p>
+        <p>
+          The gap between those two things is the entire problem. A buyer evaluating this product can't tell from the UI that the analysis underneath is serious. That's a fixable framing problem — not a code problem.
+        </p>
+        <p>
+          <b>Three commitments before any redesign:</b> pick one product name, kill the casino-HUD identity, and impose a single confidence/severity system across every page. After that, "Tournament Lab" as the visual direction is the right bet.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============== 01 — BRAND ============== -->
+    <section id="brand">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Brand &amp; positioning</h2>
+        <p class="section-sub">the identity problem</p>
+      </div>
+
+      <p class="lede">The app currently has at least <strong>five competing identities</strong>, none of them committed to.</p>
+
+      <ul>
+        <li><span class="file">"Poker Analyzer HUD"</span> — browser tab title and what most surfaces say</li>
+        <li><span class="file">"Poker Analyzer / App Settings"</span> — sidebar header (neon-green mono, reads as a config menu, not a brand)</li>
+        <li><span class="file">"EV Platform"</span> — sidebar footer <span class="mono">v0.2.0 — EV Platform</span></li>
+        <li><span class="file">"CareerScope"</span> — Career page section title, name borrowed from SharkScope</li>
+        <li><span class="file">"Tournament Lab"</span> — your stated design direction, but not used anywhere in-product yet</li>
+        <li><span class="file">"The Arena" / "Fault Fixer"</span> — sub-feature names that read like game modes from a different app</li>
+      </ul>
+
+      <p>This proliferation is the loudest signal of <em>"agent-built prototype"</em>. A serious product has one name on the door and one POV. Right now a buyer can't tell what to call the thing.</p>
+
+      <h3>The brand mark itself</h3>
+
+      <div class="brand-compare">
+        <div class="brand-card now">
+          <div class="label">Today</div>
+          <div class="mock">
+            <div>
+              <div class="mock-text">♠ Poker Analyzer</div>
+              <div class="mock-sub">App Settings</div>
+            </div>
+          </div>
+          <div class="note">
+            <b>Issues:</b> the spade-emoji + monospace + neon-green combo reads as a poker-themed admin panel, not as analytics. "App Settings" as a subtitle suggests the whole sidebar is settings. The footer adds "EV Platform v0.2.0" which is internal vocabulary.
+          </div>
+        </div>
+        <div class="brand-card proposed">
+          <div class="label">Proposed</div>
+          <div class="mock">
+            <div class="mock-mark">
+              <svg viewBox="0 0 14 14" fill="currentColor" style="width:15px;height:15px;"><path d="M7 1 L1 7.5 L7 13 L13 7.5 Z" stroke="currentColor" stroke-width="1.2" fill="none"/><circle cx="7" cy="7.5" r="2" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <div class="mock-text">Tournament Lab</div>
+              <div class="mock-sub">private analysis</div>
+            </div>
+          </div>
+          <div class="note">
+            <b>Why:</b> dedicated geometric mark (not an emoji), single product name, sans-serif wordmark, a quiet descriptor under it. No version string in the chrome — version belongs in <span class="file">Settings → About</span>, not in the navigation. Reads as a tool, not a HUD.
+          </div>
+        </div>
+      </div>
+
+      <p><b>Recommendation:</b> commit to a single product name and stop using it as decoration. "Tournament Lab" is the one I'd pick from your existing vocabulary — it's specific, it's the one name that doesn't sound borrowed, and it leaves room for a poker-adjacent product (cash games, mixed) later without renaming.</p>
+    </section>
+
+    <!-- ============== 02 — TOKENS ============== -->
+    <section id="tokens">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Color &amp; type system</h2>
+        <p class="section-sub">src/index.css</p>
+      </div>
+
+      <p class="lede">Your <span class="file">src/index.css</span> declares the theme as "Premium Dark Poker HUD" and ships with <span class="mono" style="color:var(--pos)">#00e676</span> neon green and <span class="mono" style="color:var(--neg)">#ff3366</span> neon pink. That string in the source is the honest tell — it's a HUD theme, not an analytics theme.</p>
+
+      <h3>What goes wrong, specifically</h3>
+      <ul class="obs">
+        <li data-sev="crit"><b>Neon green as chrome.</b> <span class="mono">--color-accent: #00e676</span> is used for the brand title, active sidebar item, "load demo" button, status badges, "compliant" rows, success deltas, AND the chart line. When everything important is neon green, nothing stands out.</li>
+        <li data-sev="crit"><b>Neon pink for routine deviations.</b> <span class="mono">#ff3366</span> on every off-target stat means a 99.7% VPIP (catastrophic) and an 11.0 AF (slightly high) get the exact same visual weight. The user can't triage by glancing.</li>
+        <li data-sev="warn"><b>Glassmorphism on data-dense surfaces.</b> <span class="mono">backdrop-filter: blur(16px)</span> on every card backing makes tables and stat grids feel hazy on top of the radial gradient. Beautiful in screenshots, hostile during a 2-hour study session.</li>
+        <li data-sev="warn"><b>Mono everywhere.</b> Headings like <span class="mono">"HOLD CURRENT STAKE"</span>, <span class="mono">"STRATEGIC AUDIT"</span>, <span class="mono">"PLAYER CAREER"</span> are all JetBrains Mono uppercase. Mono should be reserved for IDs, hand keys, amounts, ratios. Body and headings are sans.</li>
+        <li data-sev="ok"><b>Suit colors are sensible.</b> Spade-white, heart-red, diamond-blue, club-green is readable and consistent. Keep these — they belong inside the hand-replay card and nowhere else.</li>
+      </ul>
+
+      <h3>Recommended palette</h3>
+      <div class="tok-grid">
+        <div class="tok"><div class="tok-swatch" style="background:#0a0b0d"></div><div class="tok-name">Page background</div><div class="tok-hex">#0a0b0d</div><div class="tok-use">Dark neutral, not pure black. Easier on the eyes.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#111318"></div><div class="tok-name">Panel</div><div class="tok-hex">#111318</div><div class="tok-use">Default card surface. No blur.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#161922"></div><div class="tok-name">Panel elevated</div><div class="tok-hex">#161922</div><div class="tok-use">Inputs, table-row hover, popovers.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#8b7cff"></div><div class="tok-name">Accent (violet)</div><div class="tok-hex">#8b7cff</div><div class="tok-use">Single accent for primary actions + active nav. Used sparingly.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#6dbf8d"></div><div class="tok-name">Positive</div><div class="tok-hex">#6dbf8d</div><div class="tok-use">Compliance ok, positive deltas. <em>Muted</em>, not neon.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#e8807a"></div><div class="tok-name">Negative / critical</div><div class="tok-hex">#e8807a</div><div class="tok-use">High-severity leaks, drawdowns. Used at most 2× per screen.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#d9a85a"></div><div class="tok-name">Warning</div><div class="tok-hex">#d9a85a</div><div class="tok-use">Medium leaks, low-confidence flags.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#7eb6f0"></div><div class="tok-name">Info</div><div class="tok-hex">#7eb6f0</div><div class="tok-use">Position chips (BTN/SB/BB), neutral state.</div></div>
+        <div class="tok"><div class="tok-swatch" style="background:#ecedf0"></div><div class="tok-name">Foreground</div><div class="tok-hex">#ecedf0</div><div class="tok-use">Primary text. Off-white, not pure.</div></div>
+      </div>
+
+      <h3>Recommended type</h3>
+      <div class="twocol">
+        <div>
+          <h4>Sans · Inter</h4>
+          <p style="font-size:13px;">Keep Inter — it's the right choice. Drop the 800-weight import; you only need 400/500/600.</p>
+          <ul style="font-size:12.5px;">
+            <li>Page title — <b>28px / 600 / -0.02em</b></li>
+            <li>Section title — <b>16-18px / 600</b></li>
+            <li>Card title — <b>13-14px / 600</b></li>
+            <li>Body — <b>13-14px / 400-500</b></li>
+            <li>Overline / label — <b>11px / 500 / 0.1em / uppercase</b></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Mono · JetBrains Mono</h4>
+          <p style="font-size:13px;">Keep — but restrict it to:</p>
+          <ul style="font-size:12.5px;">
+            <li>Numeric metric values (tabular)</li>
+            <li>Hand IDs, player IDs, scenario codes</li>
+            <li>Tiny "10-uppercase-letterspaced" overline labels</li>
+            <li>Keyboard shortcut chips</li>
+          </ul>
+          <p style="font-size:12.5px; color: var(--neg);">Never on page titles or headings.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 03 — IA ============== -->
+    <section id="ia">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Information architecture</h2>
+        <p class="section-sub">src/components/layout/Sidebar.tsx</p>
+      </div>
+
+      <p class="lede">All 10 routes are sibling items with equal visual weight. There's no priority, no grouping, no hint of which surfaces matter most.</p>
+
+      <p>The current order: Dashboard, Career, Demo, Hands, Statistics, Ranges, Leaks, Sessions, Villains, The Arena. That puts <span class="file">Demo</span> third and <span class="file">Leaks</span> seventh — which is exactly backwards. Leaks is your differentiator. Demo is plumbing.</p>
+
+      <h3>Proposed grouping</h3>
+      <div class="ia-tree">
+        <span class="ia-section">Review</span>
+        <div><span class="ia-item">Dashboard</span> <span class="ia-note">the verdict + what to fix next</span></div>
+        <div><span class="ia-item">Hands</span> <span class="ia-note">the archive + replay</span></div>
+        <div><span class="ia-item">Leaks</span> <span class="ia-note">prioritized repair queue</span></div>
+
+        <span class="ia-section">Reports</span>
+        <div><span class="ia-item">Career</span> <span class="ia-note">long-arc performance (rolls up Career + Statistics today)</span></div>
+        <div><span class="ia-item">Sessions</span> <span class="ia-note">session-by-session</span></div>
+        <div><span class="ia-item">Ranges</span> <span class="ia-note">compliance vs theory</span></div>
+
+        <span class="ia-section">Practice</span>
+        <div><ins>Drills</ins> <span class="ia-note">renamed from "The Arena" — fewer game-show vibes</span></div>
+
+        <span class="ia-section">Data</span>
+        <div><ins>Players</ins> <span class="ia-note">renamed from "Villains" — only because it currently shows empty rows; treat as a power-user tool, demote</span></div>
+        <div><del>Demo</del> <span class="ia-note">move to a one-time empty-state on Dashboard, then hide forever</span></div>
+
+        <span class="ia-section">Footer</span>
+        <div><ins>Settings</ins> <span class="ia-note">strategy profile picker (Baseline/Advanced) lives here, not in nav footer</span></div>
+        <div><del>v0.2.0 — EV Platform</del> <span class="ia-note">drop. version → Settings → About</span></div>
+      </div>
+
+      <ul class="obs" style="margin-top:18px;">
+        <li data-sev="crit"><b>Statistics overlaps Career.</b> Both pages show ROI, ABI, ITM, BB/100, profit graph. Pick one home for those numbers. "Career" is the better name; absorb Statistics' uniquely-useful pieces (high-impact hands, global predators, technical consistency strip) as <b>tabs inside Career</b>.</li>
+        <li data-sev="crit"><b>Demo / Pricing route is doing two jobs badly.</b> The route is <span class="file">/pricing</span> but labeled "Demo" in the nav, and the page is a public-marketing landing with "100% local · Private review only" upsell bullets. Inside a tool you've already opened, this is dead UI. Move to: empty-state on Dashboard when no hands imported, OR delete entirely if the only purpose was external linking.</li>
+        <li data-sev="warn"><b>"The Arena" is the right idea, wrong name.</b> Drills/practice is genuinely differentiated — most analyzers don't have it. But the current name + the lightning bolt + the empty poker table make it feel like a game mode. Rename to <b>Drills</b>. Lean into the seriousness.</li>
+      </ul>
+    </section>
+
+    <!-- ============== 04 — NAMES / COPY ============== -->
+    <section id="names">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Naming &amp; copy</h2>
+        <p class="section-sub">tone audit</p>
+      </div>
+
+      <p class="lede">A lot of UI strings are written for an audience of one — the developer building it. They need to be re-written for a calm, credible private review tool.</p>
+
+      <div class="name-grid">
+        <div class="name-row"><span class="name-now">HOLD CURRENT STAKE</span><span class="arrow">→</span><span class="name-new">Hold current stake</span></div>
+        <div class="name-row"><span class="name-now">30-SECOND ANSWER</span><span class="arrow">→</span><span class="name-new">Verdict</span></div>
+        <div class="name-row"><span class="name-now">COMPETITOR-INSPIRED STUDY QUEUE</span><span class="arrow">→</span><span class="name-new">Study queue</span></div>
+        <div class="name-row"><span class="name-now">Next best study block</span><span class="arrow">→</span><span class="name-new">What to study next</span></div>
+        <div class="name-row"><span class="name-now">FIX THIS NOW</span><span class="arrow">→</span><span class="name-new">Recommended fix</span></div>
+        <div class="name-row"><span class="name-now">FIX THE MOST EXPENSIVE PATTERN FIRST</span><span class="arrow">→</span><span class="name-new">Leak queue</span></div>
+        <div class="name-row"><span class="name-now">CAREER SIGNAL · 141.4%</span><span class="arrow">→</span><span class="name-new">ROI · 141.4%</span></div>
+        <div class="name-row"><span class="name-now">STRATEGIC AUDIT</span><span class="arrow">→</span><span class="name-new">Reports</span></div>
+        <div class="name-row"><span class="name-now">CAREERSCOPE PROFILE</span><span class="arrow">→</span><span class="name-new">Career overview</span></div>
+        <div class="name-row"><span class="name-now">PRIVATE SHARKSCOPE</span><span class="arrow">→</span><span class="name-new">[remove — competitor reference]</span></div>
+        <div class="name-row"><span class="name-now">GLOBAL PREDATORS</span><span class="arrow">→</span><span class="name-new">Top exposures</span></div>
+        <div class="name-row"><span class="name-now">SESSION NEMESIS</span><span class="arrow">→</span><span class="name-new">Biggest loss vs.</span></div>
+        <div class="name-row"><span class="name-now">VILLAIN TRACKER</span><span class="arrow">→</span><span class="name-new">Players</span></div>
+        <div class="name-row"><span class="name-now">FAULT FIXER</span><span class="arrow">→</span><span class="name-new">Replay deviations</span></div>
+        <div class="name-row"><span class="name-now">RFI MASTER</span><span class="arrow">→</span><span class="name-new">RFI drill</span></div>
+        <div class="name-row"><span class="name-now">C-BET CLINIC</span><span class="arrow">→</span><span class="name-new">C-bet drill</span></div>
+      </div>
+
+      <h3>Specific copy issues</h3>
+      <ul class="obs">
+        <li data-sev="crit"><b>"PRIVATE SHARKSCOPE"</b> on the Career page directly invokes a third-party product. Per your own IP audit doc, this needs to go.</li>
+        <li data-sev="crit"><b>"Competitor-inspired study queue"</b> as a section header. "Competitor-inspired" is a meta-product statement — buyers don't need to know what you were inspired by.</li>
+        <li data-sev="warn"><b>"Coach or buyer" copy.</b> "<i>Playable, but blocked from 250 tournaments and 10716 hands. This is the first thing a coach or buyer should understand before opening any chart.</i>" — the user is the coach. They're not a buyer in this context. Cut "or buyer".</li>
+        <li data-sev="warn"><b>Elite Discipline / Session Intelligence.</b> Sessions page calls a normal session "Elite Discipline". Hyperbole degrades trust on a tool whose whole point is honest numbers.</li>
+        <li data-sev="warn"><b>Number-formatting collisions.</b> Same view shows <span class="mono">+$361.85</span>, <span class="mono">$3,4</span>, <span class="mono">+$18,5</span>. That's mixed locale (US comma vs European comma) inside one page. Pick one and stick with it.</li>
+        <li data-sev="warn"><b>Hand cards show duplicate rank.</b> The replay card shows "<span class="mono">A♥ K♥</span>" with an upside-down "<span class="mono">A♥ K♥</span>" repeated below — the bottom rank is supposed to be the visual flourish of a playing card, but it reads as a layout bug. Simplify.</li>
+      </ul>
+    </section>
+
+    <!-- ============== 05 — SIDEBAR ============== -->
+    <section id="sidebar">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Sidebar / shell</h2>
+        <p class="section-sub">/ (every page)</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">Sidebar.tsx</span>
+          <span class="surface-title">Top-level navigation</span>
+          <span class="surface-verdict"><span class="badge badge-warn">needs-rebuild</span></span>
+        </div>
+        <ul class="obs">
+          <li data-sev="crit"><b>Brand block reads as settings.</b> "<span class="mono">♠ Poker Analyzer / App Settings</span>" — the second line is supposed to be a tagline; it reads as "click me for app settings".</li>
+          <li data-sev="crit"><b>All 10 items are visually equal.</b> No grouping, no separators, no hierarchy. Review the IA proposal in §03.</li>
+          <li data-sev="warn"><b>Active state is too subtle.</b> <span class="mono">bg-[var(--color-bg-hover)]</span> + neon-green text + <span class="mono">scale-105</span>. The scale is unnecessary motion; a left-edge accent rail + a foreground-color flip is cleaner.</li>
+          <li data-sev="warn"><b>Footer is a junk drawer.</b> "<span class="mono">v0.2.0 — EV Platform</span>" + strategy profile picker + nothing else. The strategy profile is a global toggle that affects every page — it deserves a proper place (Settings, or a top-bar pill).</li>
+          <li data-sev="ok"><b>Mobile bottom-nav fallback exists</b> and the responsive logic in <span class="file">Sidebar.tsx</span> is sound — keep the pattern, just restyle.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 06 — DASHBOARD ============== -->
+    <section id="dashboard">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2 class="section-title">Dashboard</h2>
+        <p class="section-sub">/ · DashboardPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/</span>
+          <span class="surface-title">Career Snapshot &amp; daily verdict</span>
+          <span class="surface-verdict"><span class="badge badge-crit">heaviest lift</span></span>
+        </div>
+
+        <p>Eight competing modules: 30-Second Answer hero · "Fix this now" stripe · Next Best Study Block + Study Queue · Strategy Efficiency (5 cards) · Post-Flop Dominance (5 cards) · Tournament Financials (5 cards) · Bankroll Progression chart · Technical Focus chart · Positional Heatmap · Recent Session Predators · Alert Log.</p>
+        <p>That's <b>~30 metric tiles on one screen</b>. The "30-second answer" name is honest — but it's drowned by the next 29.</p>
+
+        <h4>What's working</h4>
+        <ul class="obs">
+          <li data-sev="ok"><b>The "30-second answer" idea</b> (HOLD CURRENT STAKE + readiness 72/100 + main blocker + open coach CTA) is exactly the right anchor. The shape of the card is right.</li>
+          <li data-sev="ok"><b>Next Best Study Block</b> with a ranked queue beside it is the correct shape. Keep this structure.</li>
+        </ul>
+
+        <h4>What's not</h4>
+        <ul class="obs">
+          <li data-sev="crit"><b>Hierarchy collapses below the hero.</b> Strategy Efficiency · Post-Flop · Financials are three identical 5-card rows. Color-code mismatches (VPIP 99.7% red, PFR 85.5% red, AF 11.0 red) flatten severity — everything is on fire.</li>
+          <li data-sev="crit"><b>"Career Signal · 141.4%"</b> in the hero is just ROI relabelled. The hero shouldn't compete with the Career page on financial KPIs — it should commit to a verdict about <i>play quality</i>, with ROI as supporting context.</li>
+          <li data-sev="warn"><b>Technical Focus chart</b> (VPIP/PFR/Compliance correlation) is noise — flat lines across 8 months. Either it's broken (suspicious — your demo data probably generates identical hands per day) or it's not visualizing what you want.</li>
+          <li data-sev="warn"><b>Positional Heatmap is a table, not a heatmap.</b> Just five rows of numbers. The "heatmap" promise should mean per-position color saturation. Either build the heatmap or rename it "Positional breakdown".</li>
+          <li data-sev="warn"><b>Recent Session Predators / Alert Log</b> at the bottom — both feel like afterthoughts. Alert Log especially: a red panel with 4 truncated leak descriptions that already appear in the Study Queue above. Delete it.</li>
+          <li data-sev="warn"><b>"Fix this now" stripe</b> repeats text from the hero ("Playing too loose — entering too many pots") in the next breath. One mention, not two.</li>
+        </ul>
+
+        <h4>Target layout</h4>
+        <div class="compare">
+          <div class="compare-cell now">
+            <div class="label">Today (≈30 tiles)</div>
+            <div class="body">Verdict · Study queue · <b>5×3 = 15 KPI cards</b> · 2 charts · heatmap table · predators · alert log</div>
+          </div>
+          <div class="compare-cell target">
+            <div class="label">Target (5 modules)</div>
+            <div class="body">
+              <strong>1.</strong> Verdict + readiness/confidence (hero) ·
+              <strong>2.</strong> Top blocker + recommended fix ·
+              <strong>3.</strong> Study queue (5 ranked items) ·
+              <strong>4.</strong> Career trend (1 chart, profit + sample) ·
+              <strong>5.</strong> Diagnostics drawer (collapsed by default; VPIP/PFR/AF/etc behind a click)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 07 — CAREER ============== -->
+    <section id="career">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2 class="section-title">Career</h2>
+        <p class="section-sub">/career · CareerPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/career</span>
+          <span class="surface-title">Player Career &amp; Stake Readiness</span>
+          <span class="surface-verdict"><span class="badge badge-warn">overlaps Dashboard</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="crit"><b>Three redundant career summaries on one page.</b> Lifetime Scorecard → Stake Readiness → CareerScope Profile each tell the same story (88/100 ability · 141.4% ROI · 35.6% ITM · +$388.85 net). Compress to one.</li>
+          <li data-sev="crit"><b>The "88 / 100 LOCAL ESTIMATE" Ability Rating is uncalibrated.</b> Anything that says <i>"unlike SharkScope, it cannot see the global player pool"</i> shouldn't be presenting a 0-100 score with a needle gauge — that anchoring is dishonest in a tool whose entire pitch is honest numbers. Either source a real benchmark, or downgrade the display to a qualitative band ("solid sample · profitable phase").</li>
+          <li data-sev="warn"><b>Historical Timeline is repetitive.</b> Every entry says "Demo Local MTT Session #N · Finished in Xth place. Prize: $Y." It's just the Sessions table styled differently. Either show non-session milestones only (first cash, biggest win, longest streak), or remove and link to Sessions.</li>
+          <li data-sev="warn"><b>Profit Heatmap (Day / Hour)</b> is empty in the screenshot — six green dots in a vertical column. If you don't have enough samples to populate it, hide the module rather than show a broken-looking version.</li>
+          <li data-sev="ok"><b>The bankroll-trendline chart is genuinely good.</b> Clean axis, dashed regression line, no decorative grid. Keep this exact treatment elsewhere.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 08 — HANDS ============== -->
+    <section id="hands">
+      <div class="section-head">
+        <span class="section-num">08</span>
+        <h2 class="section-title">Hands</h2>
+        <p class="section-sub">/hands · HandsPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/hands</span>
+          <span class="surface-title">Hand Archive + Replay modal</span>
+          <span class="surface-verdict"><span class="badge badge-ok">closest to ready</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="ok"><b>This is your strongest surface.</b> Table is the hero, filters are persistent, virtualization handles 10k+ rows. Bones are right.</li>
+          <li data-sev="warn"><b>Filter row is over-rendered.</b> Six pill-dropdowns + search + reset DB + Import Hands at the top. The pills are heavy because they all use the same neutral chrome — no sense of which is currently filtering. Use a "filters applied: 3" summary chip + a drawer for the rest.</li>
+          <li data-sev="warn"><b>"Reset DB" button is dangerous and lives in the top-right.</b> Move to Settings, behind a confirm modal.</li>
+          <li data-sev="warn"><b>Stack column color-coding is unclear.</b> Stack values are gold/yellow regardless of value. If gold means "short stack" it should kick in below 20bb only; if it's just decoration, drop the color.</li>
+          <li data-sev="warn"><b>Hand replay modal cards.</b> The card visual repeats the rank/suit upside down at the bottom of each card — fine on a real playing card, looks like a render bug in a UI. Consider a single rank+suit (top-left), or full miniature playing-card art (with proper indices and pip layout).</li>
+          <li data-sev="ok"><b>Replay modal's structure</b> — board + pre-flop/flop tabs + action list + Strategic Context + Equity &amp; Math (MDF/Alpha) — is exactly right.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 09 — LEAKS ============== -->
+    <section id="leaks">
+      <div class="section-head">
+        <span class="section-num">09</span>
+        <h2 class="section-title">Leaks</h2>
+        <p class="section-sub">/leaks · LeaksPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/leaks</span>
+          <span class="surface-title">Prioritized repair queue</span>
+          <span class="surface-verdict"><span class="badge badge-crit">looks alarmist</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="crit"><b>Every leak card has a red border + red glow.</b> Four "critical" + two "high" + one "medium" + one "low" — but all eight look critical because the red is the dominant frame. Severity must drive border/dot color only, not the entire card chrome.</li>
+          <li data-sev="crit"><b>Two CTAs per card competing.</b> "Fix this now" appears as a sub-panel + "Review Hands" button + "Open Coach" button. Three actions, three opinions about what to do next. Pick one primary action per card.</li>
+          <li data-sev="warn"><b>"Start here · #1 VPIP" in the top-right</b> duplicates the #1 card you can already see. Replace with a sample-confidence summary (e.g. "8 leaks · 10,716 hands · Baseline profile · last computed 2m ago").</li>
+          <li data-sev="warn"><b>Impact numbers (160, 137, 109…)</b> are unitless. Impact in <i>what</i>? bb? bb/100? Tip the units explicitly so the user knows whether "Impact 160" is a lot or a little.</li>
+          <li data-sev="ok"><b>The information is genuinely good</b> — sample size, deviation in percentage points, target band, source range/book reference. The signal/noise is high once the visual chrome is fixed.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 10 — STATS ============== -->
+    <section id="stats">
+      <div class="section-head">
+        <span class="section-num">10</span>
+        <h2 class="section-title">Statistics</h2>
+        <p class="section-sub">/stats · StatsPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/stats</span>
+          <span class="surface-title">"Strategic Audit"</span>
+          <span class="surface-verdict"><span class="badge badge-crit">remove or merge</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="crit"><b>The Financial Tier Analysis shows one row.</b> "$1.10 / 250 / 89 / 141.4% / +$388.85" — that's a single buy-in level. With only one tier the entire table is a wrapper around four numbers already on the Dashboard.</li>
+          <li data-sev="crit"><b>High Impact Hands top-10 are all identical.</b> Every entry: <span class="mono">-55.0bb · TT or 76s · SB or HJ · -4125 chips</span>. Either the demo data generator is producing duplicate hands, or the dedup logic is wrong. As a buyer-facing screen, this reads as a bug — fix the data, or hide the module until there's real variance.</li>
+          <li data-sev="crit"><b>Global Predators duplicates Villains.</b> Same 8 demo_villains, slightly different framing ("loss exposure"). Either roll into the Players page as a sortable column, or kill.</li>
+          <li data-sev="warn"><b>Technical Consistency strip</b> at the bottom (PFR / Steal / AF / WTSD / C-Bet HU / Total ITMs) is the only thing on this page that doesn't live elsewhere — merge it into Career as a "Diagnostics" tab.</li>
+        </ul>
+
+        <p><b>Recommendation:</b> delete this route. Move "Technical Consistency" + "High Impact Hands" into Career as tabs. Remove "Statistics" from the nav.</p>
+      </div>
+    </section>
+
+    <!-- ============== 11 — RANGES ============== -->
+    <section id="ranges">
+      <div class="section-head">
+        <span class="section-num">11</span>
+        <h2 class="section-title">Ranges</h2>
+        <p class="section-sub">/ranges · RangesPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/ranges</span>
+          <span class="surface-title">Oracle (GTO) vs Mirror (Performance)</span>
+          <span class="surface-verdict"><span class="badge badge-info">keep + polish</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="ok"><b>The dual-grid concept is your most distinctive idea in the app.</b> "Here's what theory says you should do · here's what you actually did." Don't lose this.</li>
+          <li data-sev="warn"><b>Yellow + green + red on the same 169 cells</b> is hard to scan. Yellow seems to mean "low frequency"? Define the legend visibly and use a single hue with saturation steps (e.g. emerald 10/30/60/100%) instead of three competing hues.</li>
+          <li data-sev="warn"><b>Critical Deviations sidebar</b> is a stack of identical-looking "LIMPED · Action: call · 34bb" rows. Group by action type (limped × N, called raise × M) instead of listing every hand.</li>
+          <li data-sev="warn"><b>Top tabs (Compliance / Edit / Push/Fold / Validation)</b> are buttons of three different colors. They look like primary actions, not tabs. Use a single segmented control.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 12 — SESSIONS ============== -->
+    <section id="sessions">
+      <div class="section-head">
+        <span class="section-num">12</span>
+        <h2 class="section-title">Sessions</h2>
+        <p class="section-sub">/sessions · SessionsPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/sessions</span>
+          <span class="surface-title">Session History</span>
+          <span class="surface-verdict"><span class="badge badge-info">healthy bones</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="ok"><b>Table + expandable detail rows</b> is the right pattern. Keep it.</li>
+          <li data-sev="warn"><b>The expanded row has three competing modules</b> (Session Nemesis · GTO Consistency · Session Intelligence) — pick one as primary and demote the others.</li>
+          <li data-sev="warn"><b>"Session Intelligence · Elite Discipline"</b> on a routine session is hyperbole that erodes trust. Replace with descriptive language: "no significant deviations · within target range".</li>
+          <li data-sev="warn"><b>BB/100 values include <span class="mono">-475.2</span></b> on a 9-hand session — that's a 9-hand sample, so it's noise, not signal. Either suppress BB/100 below a sample threshold, or grey it out with a "low confidence" tag.</li>
+          <li data-sev="ok"><b>CSV / PDF export buttons</b> in the top-right are exactly what a serious user wants. Keep prominent.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 13 — VILLAINS ============== -->
+    <section id="villains">
+      <div class="section-head">
+        <span class="section-num">13</span>
+        <h2 class="section-title">Villains</h2>
+        <p class="section-sub">/villains · VillainsPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/villains</span>
+          <span class="surface-title">Player tracker</span>
+          <span class="surface-verdict"><span class="badge badge-crit">looks broken</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="crit"><b>44 rows of all-zeros.</b> "0.0% / 0.0% / 0.0 / 0.0% / 0.0". The demo data has no per-villain stats populated — so a buyer looking at this page sees an empty product. Either populate the demo data, or replace the page with an empty-state explaining what populates here when real histories are imported.</li>
+          <li data-sev="warn"><b>Name "Villains"</b> is poker-internal jargon. "Players" or "Opponents" reads neutral and matches the broader analytics-tool register.</li>
+          <li data-sev="warn"><b>Detail modal is minimal.</b> VPIP/PFR/AF/Gap + Tags + Notes. With zero data on the demo set, the modal looks like a stub. Add a hand-count chart and a "biggest pots vs hero" list.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== 14 — ARENA ============== -->
+    <section id="arena">
+      <div class="section-head">
+        <span class="section-num">14</span>
+        <h2 class="section-title">The Arena</h2>
+        <p class="section-sub">/arena · ArenaPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/arena</span>
+          <span class="surface-title">Practice drills</span>
+          <span class="surface-verdict"><span class="badge badge-warn">good idea, wrong dressing</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="ok"><b>The premise is excellent.</b> Most analyzers are read-only — turning leak data into a focused drill loop is a real differentiator.</li>
+          <li data-sev="crit"><b>The drill UI is bare.</b> Empty oval table, two cards, Fold/Call/Raise. No score tracker visible (the 0/0 in the top-right is too small), no streak feedback, no "the GTO answer was..." reveal. After 3 hands a user has no idea if they're improving.</li>
+          <li data-sev="warn"><b>Three drill cards are visually distinct colors</b> (red border / green border / blue border). Use a single neutral card + a small severity dot to indicate which leak it targets.</li>
+          <li data-sev="warn"><b>Naming.</b> "Fault Fixer / RFI Master / C-bet Clinic" — three different tonal registers. Use a single template: "<i>{topic} drill</i>" (RFI drill · C-bet drill · Deviation replay).</li>
+          <li data-sev="warn"><b>Loading "GTO" badge top-right</b> — what is the user supposed to do with this? If it's the active strategy profile, show as a chip, not an oversized button.</li>
+        </ul>
+
+        <p><b>Recommendation:</b> the redesign of this page needs a separate session — it's a workflow problem, not a visual one. Defer for now; lock down the brand + dashboard direction first.</p>
+      </div>
+    </section>
+
+    <!-- ============== 15 — DEMO/PRICING ============== -->
+    <section id="demo">
+      <div class="section-head">
+        <span class="section-num">15</span>
+        <h2 class="section-title">Demo / Pricing</h2>
+        <p class="section-sub">/pricing · PricingPage.tsx</p>
+      </div>
+
+      <div class="surface">
+        <div class="surface-h">
+          <span class="surface-route">/pricing</span>
+          <span class="surface-title">Marketing landing inside the app</span>
+          <span class="surface-verdict"><span class="badge badge-crit">delete</span></span>
+        </div>
+
+        <ul class="obs">
+          <li data-sev="crit"><b>This page shouldn't exist inside the tool.</b> "LOCAL POKER HAND-HISTORY ANALYZER · For MTT players · 100% local · Private review only" is marketing copy aimed at someone who isn't using the product yet. The user is already in the product.</li>
+          <li data-sev="crit"><b>The route is <span class="file">/pricing</span> but there's no pricing.</b> File is mis-named. Per your brief, pricing/funnel/public-sharing language is explicitly off the table at this stage.</li>
+          <li data-sev="warn"><b>"Load Demo Dataset" button</b> is the only useful thing on the page. Promote that action to the empty-state on Dashboard ("no hands imported yet → load demo or import"), and delete this route.</li>
+        </ul>
+
+        <p><b>Recommendation:</b> remove from nav. The "load demo dataset" CTA moves to Dashboard empty-state. If you want a public landing page later, build it outside the app at <span class="mono">tournamentlab.app/</span> with the app at <span class="mono">tournamentlab.app/app</span>.</p>
+      </div>
+    </section>
+
+    <!-- ============== 16 — CROSS-CUTTING ============== -->
+    <section id="cross">
+      <div class="section-head">
+        <span class="section-num">16</span>
+        <h2 class="section-title">Cross-cutting issues</h2>
+        <p class="section-sub">apply everywhere</p>
+      </div>
+
+      <h3>One severity system, applied everywhere</h3>
+      <p>Today the same red is used for "you're playing 99.7% of hands" (catastrophic) and "your AF is 11.0 vs target 2-3" (high but not catastrophic). Lock down four severity bands and use them globally:</p>
+      <ul>
+        <li><span class="badge badge-crit">critical</span> — Z-score &gt; 3 from target, sample &gt; 1000. Use red border-dot only, never red card chrome.</li>
+        <li><span class="badge badge-warn">high</span> — Z-score 2-3, or Z &gt; 3 with sample 200-1000.</li>
+        <li><span class="badge badge-info">medium</span> — Z 1-2, real but not urgent.</li>
+        <li><span class="badge badge-ok">on-target</span> — within band. Default to neutral foreground, not green.</li>
+      </ul>
+
+      <h3>Sample / confidence is a first-class citizen</h3>
+      <p>Every metric needs to say <i>how confident</i> alongside <i>what</i>. A 99.7% VPIP from 10,716 hands is iron-clad; the same number from 60 hands is noise. Today the app shows BB/100 of <span class="mono">-475.2</span> on 9 hands as if it matters. Three rules:</p>
+      <ul>
+        <li>Hand-level stats &lt; 200 hands: render in <span class="mono">var(--fg-3)</span> + "low confidence" chip</li>
+        <li>Hand-level stats 200-1000: full opacity, no chip</li>
+        <li>Hand-level stats &gt; 1000: full opacity + small "n=10,716" annotation</li>
+        <li>BB/100 below threshold: do not render at all</li>
+      </ul>
+
+      <h3>Number formatting</h3>
+      <p>Pick one locale and stick to it. Today there's <span class="mono">+$361.85</span> AND <span class="mono">$3,4</span> AND <span class="mono">+$18,5</span> on the same page — that's a mix of US format and European format. Use <span class="mono">Intl.NumberFormat('en-US')</span> with two decimal places for currency, and put currency right-aligned in tables.</p>
+
+      <h3>Loading and empty states</h3>
+      <p>Right now the Villains page shows 44 zero-rows when the data isn't populated, the Profit Heatmap shows a vertical green column, and the Statistics top-10 shows duplicate hands. A "no data yet" empty state is more credible than a broken-looking populated one. Build three reusable shells:</p>
+      <ul>
+        <li><b>Skeleton</b> — used while parsing/computing</li>
+        <li><b>Empty</b> — used when the user has 0 hands for this view</li>
+        <li><b>Low-confidence</b> — used when the user has some, but not enough</li>
+      </ul>
+
+      <h3>Animation budget</h3>
+      <p>Today, <span class="mono">button:active { transform: scale(0.97) }</span> + <span class="mono">scale-105</span> on active nav + <span class="mono">animate-in slide-up zoom-in fade-in</span> entrances on cards. Pick one transition primitive (probably <span class="mono">opacity + 4px translate</span> on mount), and one hover state (slight background lift). Drop the active-scale.</p>
+    </section>
+
+    <!-- ============== 17 — COMMIT TO ============== -->
+    <section id="commit">
+      <div class="section-head">
+        <span class="section-num">17</span>
+        <h2 class="section-title">What to commit to before redesigning</h2>
+        <p class="section-sub">decisions, not designs</p>
+      </div>
+
+      <p class="lede">Each of these is a one-line decision that unlocks the next round of design exploration. Make them before we generate new directions, not during.</p>
+
+      <div class="commit-list">
+
+        <div class="commit-item">
+          <div class="commit-num">01</div>
+          <div>
+            <h4 class="commit-title">One product name.</h4>
+            <p class="commit-body">"Tournament Lab" is my pick. It's specific, doesn't overlap with PokerTracker / SharkScope / HM3, and leaves room to add cash-games later. Use it in the title bar, the sidebar, and the page chrome. Drop "Poker Analyzer", "EV Platform", "HUD" from every surface.</p>
+          </div>
+          <div class="commit-tag">identity</div>
+        </div>
+
+        <div class="commit-item">
+          <div class="commit-num">02</div>
+          <div>
+            <h4 class="commit-title">One accent color.</h4>
+            <p class="commit-body">Pick muted emerald (#5fb585) or analytical violet (#8b7cff). Use it ONLY for primary actions and active nav. Kill neon green and neon pink everywhere except suit colors inside the hand-replay card.</p>
+          </div>
+          <div class="commit-tag">tokens</div>
+        </div>
+
+        <div class="commit-item">
+          <div class="commit-num">03</div>
+          <div>
+            <h4 class="commit-title">Severity system.</h4>
+            <p class="commit-body">Lock down 4 bands (critical/high/medium/on-target) with explicit Z-score + sample thresholds. Apply to leak cards, range cells, and per-stat coloring. Color appears as a 4px dot or 2px rail — never as full-card chrome.</p>
+          </div>
+          <div class="commit-tag">data</div>
+        </div>
+
+        <div class="commit-item">
+          <div class="commit-num">04</div>
+          <div>
+            <h4 class="commit-title">IA cleanup.</h4>
+            <p class="commit-body">Group nav into Review / Reports / Practice + Settings. Delete Statistics route. Delete /pricing route. Rename The Arena → Drills, Villains → Players. Strategy profile picker moves into Settings.</p>
+          </div>
+          <div class="commit-tag">structure</div>
+        </div>
+
+        <div class="commit-item">
+          <div class="commit-num">05</div>
+          <div>
+            <h4 class="commit-title">Dashboard hero shape.</h4>
+            <p class="commit-body">5 modules max: Verdict / Top blocker / Study queue / Career trend / Diagnostics drawer. Everything else moves to its dedicated page or gets deleted.</p>
+          </div>
+          <div class="commit-tag">dashboard</div>
+        </div>
+
+        <div class="commit-item">
+          <div class="commit-num">06</div>
+          <div>
+            <h4 class="commit-title">Empty / loading / low-confidence shells.</h4>
+            <p class="commit-body">Three reusable templates the rest of the design system depends on. Without these, every page leaks credibility when the data isn't there.</p>
+          </div>
+          <div class="commit-tag">data</div>
+        </div>
+
+        <div class="commit-item">
+          <div class="commit-num">07</div>
+          <div>
+            <h4 class="commit-title">Honest gauges.</h4>
+            <p class="commit-body">The "88 / 100 Ability Rating" needle gauge is making a claim that can't be defended. Either source a real benchmark cohort, or replace 0-100 scores with qualitative bands ("Profitable phase · solid sample").</p>
+          </div>
+          <div class="commit-tag">credibility</div>
+        </div>
+
+        <div class="commit-item">
+          <div class="commit-num">08</div>
+          <div>
+            <h4 class="commit-title">Number formatting + locale.</h4>
+            <p class="commit-body">Pick <span class="mono">en-US</span>, two-decimal currency, tabular numbers in mono. Wrap with one helper (<span class="mono">formatBb()</span>, <span class="mono">formatCurrency()</span>, <span class="mono">formatPct()</span>). Today there's mixed locale on the same screen.</p>
+          </div>
+          <div class="commit-tag">tokens</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 18 — NEXT ============== -->
+    <section id="next">
+      <div class="section-head">
+        <span class="section-num">18</span>
+        <h2 class="section-title">Suggested next step</h2>
+        <p class="section-sub">one decision</p>
+      </div>
+
+      <div class="next">
+        <div class="next-label">Recommended sequence</div>
+        <h3>Re-run "three Dashboard directions" with the audit baked in.</h3>
+        <p>
+          Your existing <span class="file">Dashboard Directions.html</span> was generated before this audit. With the commitments in §17 locked, the next round can stop solving foundation problems and focus on actual visual exploration —
+          how restrained vs. how data-dense, how Linear-quiet vs. how Sentry-detailed, where the verdict + study-queue lives, what kind of trend chart wins.
+        </p>
+        <div class="next-options">
+          <div class="next-opt">
+            <b>Direction A — Conservative</b>
+            <span>Current architecture, muted emerald, calmer hierarchy. The "we cleaned it up" version.</span>
+            <div class="next-opt-pick">safe baseline</div>
+          </div>
+          <div class="next-opt">
+            <b>Direction B — Tournament Lab</b>
+            <span>Dark neutral cockpit, violet accent, denser BI-tool layout. The committed-to version.</span>
+            <div class="next-opt-pick">strong fit</div>
+          </div>
+          <div class="next-opt">
+            <b>Direction C — Analyst notebook</b>
+            <span>Lighter cream surfaces, report-like, premium private-coach feel. The divergent option.</span>
+            <div class="next-opt-pick">contrast</div>
+          </div>
+        </div>
+        <p style="margin-top:22px; color: var(--fg-3); font-size: 13px;">
+          After Dashboard directions land and you pick one, the same direction expands into Hands + Leaks + Career as the full "Tournament Lab — System" file — your existing <span class="file">Tournament Lab - System.html</span> becomes the v2 of that, with the IA + tokens + copy decisions from §17 already applied.
+        </p>
+      </div>
+
+      <p style="margin-top:32px; color: var(--fg-3); font-size: 13px;">
+        — End of audit. Reply with which §17 commitments you want to make, or any you'd push back on, and I'll spin up the new Dashboard directions.
+      </p>
+    </section>
+
+  </main>
+</div>
+
+<script>
+  // simple TOC scroll-spy
+  const sections = [...document.querySelectorAll('section[id]')];
+  const links = new Map([...document.querySelectorAll('.toc a')].map(a => [a.getAttribute('href').slice(1), a]));
+  function onScroll() {
+    let current = sections[0].id;
+    const y = window.scrollY + 120;
+    for (const s of sections) {
+      if (s.offsetTop <= y) current = s.id;
+    }
+    links.forEach(a => a.classList.remove('is-current'));
+    links.get(current)?.classList.add('is-current');
+  }
+  document.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+
+</body>
+</html>

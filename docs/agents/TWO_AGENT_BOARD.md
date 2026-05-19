@@ -49,58 +49,8 @@ Only one agent may be the active editor for a file area at a time.
 
 ## Current Antigravity task to run first
 
-Paste this into Antigravity:
-
-```text
-Read AGENTS.md, docs/agents/AI_COLLABORATION.md, docs/agents/SPRINT_DECISION_GATE.md, docs/agents/PARTNERSHIP_STATUS.md, and docs/agents/TWO_AGENT_BOARD.md first.
-Run workflow implement-and-handoff.
-
-Task: IP-safe demo copy neutralization for private/local validation.
-
-Scope: user-facing/demo copy only. Start by inspecting these known hotspots:
-- src/pages/PricingPage.tsx
-- src/components/shared/DemoDataButton.tsx
-- src/data/demoDataset.ts
-- src/pages/SessionsPage.tsx
-
-Do not change parser, scenario detection, range logic, leak math, financial math, tests, or strategy source docs.
-
-Acceptance criteria:
-- No user-facing text claims or implies this is a Reg Life product, Reg Life companion, or built for Reg Life players.
-- No user-facing CTA asks for payment, pilot purchase, or public/commercial funnel action before validation/IP gates are cleared.
-- Demo copy says private/local generic poker hand-history analyzer.
-- Share/export language is framed as private review only, not public/shareable distribution.
-- Existing functionality remains intact.
-- Run at least `npx tsc -b --pretty false` if practical. Run `npm run docs:check` if docs/status files change.
-
-Before stopping:
-- Update docs/agents/AGENT_HANDOFF.md with exact files touched, checks run, risks, and ask Hermes to review for remaining Reg Life/GamePlan/payment/public-distribution wording.
-- Do not use --no-verify.
-```
-
-## Hermes review prompt after Antigravity finishes
-
-Use this in Hermes:
-
-```text
-Review Antigravity's current diff skeptically.
-Read AGENTS.md, docs/agents/TWO_AGENT_BOARD.md, docs/agents/SPRINT_DECISION_GATE.md, docs/agents/PARTNERSHIP_STATUS.md, docs/agents/AGENT_HANDOFF.md, and the changed files.
-
-Focus:
-- remaining Reg Life / GamePlan / D# / dossier / partnership / payment / public-sharing wording in user-facing paths
-- accidental behavior changes outside copy/demo posture
-- missing verification
-- scope creep into parser/range/math
-
-Run:
-- git status --short
-- git diff --stat
-- targeted search for risky wording in src
-- npx tsc -b --pretty false if source changed
-- npm run docs:check if docs changed
-
-Return approve/request-changes with exact file/line fixes, or patch tiny safe copy misses directly.
-```
+The IP-safe demo neutralization sprint is complete. 
+Please refer to the latest sprint plans in `docs/plans/` (such as `2026-05-18-downstream-trust-timeline.md` or `2026-05-18-engine-data-solver-privacy-addendum.md`) or the `docs/agents/AGENT_HANDOFF.md` to pick up the next task.
 
 ## Reverse review task for Antigravity
 

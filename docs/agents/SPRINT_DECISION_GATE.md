@@ -10,7 +10,7 @@
 | Parser fixture sweep published | Green | `docs/product/PARSER_HEALTH.md`: 302 / 302 supported fixture files pass, 0 fail, 0 skip. |
 | Reg Life written partnership/license | Red | User reports informal verbal/DM encouragement only; no written terms in repo. |
 | Product posture selected | Green | Private/local tool for now. |
-| Reg Life-specific IP strategy | Red/changed | User chose to pivot away from Reg Life-specific content. Existing code/docs still contain Reg Life/GamePlan/dossier-derived logic and labels. |
+| Reg Life-specific IP strategy | Green | User-facing code and copy has been neutralized to a generic private local posture. Internal logic/citations remain as comments. |
 | External user validation | Red | Planned but not yet executed. Target: 3 Reg Life students + 3 independent players. |
 
 ## Allowed work before the red gates clear
@@ -44,18 +44,10 @@ Not allowed yet:
 
 ## Current recommended next sprint
 
-Given the user's decision to pivot away from Reg Life-specific content, the likely next sprint is **IP-safe product repositioning**, not new features.
+The **IP-safe product repositioning** sprint is complete. The UI has been neutralized.
 
-Candidate sprint:
+Candidate next sprints:
 
-> Make the app safe to demo as a private/local generic poker analyzer by removing Reg Life branding/citations from user-facing copy, isolating curriculum-derived internals behind neutral labels, and preserving parser/analysis tests.
+1. **Downstream Trust & Import Timeline**: Propagate data-health confidence into downstream analysis views and provide a collapsible import run history.
+2. **Engine, Solver Feasibility, and Privacy-Preserving Data Addendum**: Build the non-UI base for reliable analysis, solver integration feasibility, and opt-in privacy-preserving hand-history contribution.
 
-Potential acceptance criteria:
-
-- No user-facing text claims Reg Life affiliation.
-- No pricing/demo page implies rights to Reg Life curriculum.
-- Source citations remain internal docs/code comments only until licensing is resolved.
-- Strategy profile labels are generic enough for private demo use.
-- Existing parser and analysis tests still pass.
-
-This should still wait until at least some user validation is scheduled or completed, unless the immediate goal is just to reduce IP exposure before demos.

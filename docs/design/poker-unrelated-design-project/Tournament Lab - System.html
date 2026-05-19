@@ -1,0 +1,1950 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1480, initial-scale=1" />
+<title>Tournament Lab — Design System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #08090b;
+    --panel: #0e1014;
+    --panel-2: #131620;
+    --panel-3: #181b26;
+    --panel-hover: #1b1f2c;
+    --border: rgba(255,255,255,0.055);
+    --border-strong: rgba(255,255,255,0.11);
+    --border-emph: rgba(255,255,255,0.18);
+    --grid-line: rgba(255,255,255,0.04);
+    --fg: #f1f2f5;
+    --fg-2: #aab0bd;
+    --fg-3: #6b7280;
+    --fg-4: #44495a;
+    --accent: #9b8cff;
+    --accent-2: #c4baff;
+    --accent-soft: rgba(155,140,255,0.10);
+    --accent-border: rgba(155,140,255,0.30);
+    --pos: #6ee7b7;
+    --pos-soft: rgba(110,231,183,0.10);
+    --neg: #ef9a96;
+    --neg-soft: rgba(239,154,150,0.10);
+    --warn: #f5c46b;
+    --warn-soft: rgba(245,196,107,0.10);
+    --info: #7eb6f0;
+    --info-soft: rgba(126,182,240,0.10);
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --sans: 'Inter', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--fg);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 64px 64px;
+    background-position: -1px -1px;
+  }
+  button { font-family: inherit; }
+  a { color: inherit; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+
+  /* =============== APP SHELL =============== */
+  .app { display: grid; grid-template-columns: 232px 1fr; min-height: 100vh; max-width: 1480px; margin: 0 auto; }
+
+  /* Sidebar */
+  .sb {
+    border-right: 1px solid var(--border);
+    padding: 20px 14px 24px;
+    background: rgba(8,9,11,0.85);
+    backdrop-filter: blur(8px);
+    position: sticky; top: 0; height: 100vh; overflow: auto;
+  }
+  .sb-brand { display: flex; align-items: center; gap: 10px; padding: 6px 8px 4px; }
+  .sb-mark {
+    width: 28px; height: 28px; border-radius: 7px;
+    background: linear-gradient(160deg, #1a1d2a 0%, #0e1014 100%);
+    border: 1px solid var(--border-strong);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .sb-mark svg { width: 14px; height: 14px; color: var(--accent); }
+  .sb-name { font-size: 13.5px; font-weight: 600; color: var(--fg); letter-spacing: -0.005em; line-height: 1.2; }
+  .sb-name-sub { font-size: 10.5px; color: var(--fg-3); font-family: var(--mono); letter-spacing: 0.02em; margin-top: 1px; }
+  .sb-search {
+    margin: 16px 0 10px; display: flex; align-items: center; gap: 8px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 7px;
+    padding: 6px 9px; color: var(--fg-3); font-size: 12px;
+  }
+  .sb-search svg { width: 12px; height: 12px; }
+  .sb-search .sb-search-key { margin-left: auto; font-family: var(--mono); font-size: 10px; padding: 1px 5px; border: 1px solid var(--border); border-radius: 3px; color: var(--fg-4); }
+  .sb-divider { height: 1px; background: var(--border); margin: 12px 0; }
+  .sb-section { font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg-4); padding: 0 8px; margin: 10px 0 4px; font-weight: 600; }
+  .sb-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 6.5px 8px; border-radius: 5px; font-size: 12.5px; color: var(--fg-2);
+    cursor: pointer; position: relative; background: none; border: 0; width: 100%; text-align: left;
+  }
+  .sb-item:hover { background: var(--panel-hover); color: var(--fg); }
+  .sb-item[aria-current="page"] { background: rgba(255,255,255,0.04); color: var(--fg); }
+  .sb-item[aria-current="page"]::before { content: ''; position: absolute; left: -4px; top: 6px; bottom: 6px; width: 2px; background: var(--accent); border-radius: 2px; }
+  .sb-glyph { width: 14px; display: inline-flex; color: var(--fg-3); }
+  .sb-glyph svg { width: 14px; height: 14px; }
+  .sb-item[aria-current="page"] .sb-glyph { color: var(--accent); }
+  .sb-count { margin-left: auto; font-family: var(--mono); font-size: 10px; color: var(--fg-3); }
+  .sb-status { margin-top: 18px; padding: 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--panel); }
+  .sb-status-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); margin-bottom: 8px; }
+  .sb-status-row { display: flex; align-items: center; justify-content: space-between; font-size: 11.5px; color: var(--fg-2); margin-bottom: 5px; font-family: var(--mono); }
+  .sb-status-row span:first-child { color: var(--fg-3); font-family: var(--sans); }
+  .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--pos); box-shadow: 0 0 0 3px rgba(110,231,183,0.12); display: inline-block; margin-right: 6px; vertical-align: middle; }
+  .sb-prof { margin-top: 16px; display: flex; align-items: center; gap: 10px; padding: 8px; border-radius: 7px; border: 1px solid var(--border); background: var(--panel); }
+  .sb-avatar { width: 26px; height: 26px; border-radius: 50%; background: linear-gradient(135deg, #2a2f43, #181b26); border: 1px solid var(--border-strong); display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 11px; color: var(--accent-2); font-weight: 600; }
+  .sb-prof-name { font-size: 12px; color: var(--fg); font-weight: 500; line-height: 1.2; }
+  .sb-prof-sub { font-size: 10.5px; color: var(--fg-3); font-family: var(--mono); margin-top: 1px; }
+
+  /* Main */
+  .main { padding: 0; min-width: 0; display: flex; flex-direction: column; }
+
+  /* Top bar (within main) */
+  .topbar {
+    display: flex; align-items: center; gap: 14px;
+    padding: 12px 28px; border-bottom: 1px solid var(--border);
+    background: rgba(8,9,11,0.65); backdrop-filter: blur(6px);
+    position: sticky; top: 0; z-index: 50;
+  }
+  .crumbs { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); letter-spacing: 0.04em; text-transform: uppercase; }
+  .crumbs b { color: var(--fg-2); font-weight: 500; }
+  .topbar .spacer { flex: 1; }
+  .topbar .seg { display: inline-flex; background: var(--panel); border: 1px solid var(--border); border-radius: 7px; padding: 3px; }
+  .topbar .seg button { background: none; border: 0; color: var(--fg-2); font: 500 12px var(--sans); padding: 6px 11px; border-radius: 4px; cursor: pointer; }
+  .topbar .seg button[aria-pressed="true"] { background: var(--panel-3); color: var(--fg); }
+  .topbar-btn {
+    background: var(--panel); border: 1px solid var(--border); color: var(--fg-2);
+    font: 500 12px var(--sans); padding: 6px 11px; border-radius: 7px;
+    cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+  }
+  .topbar-btn:hover { background: var(--panel-2); color: var(--fg); }
+  .topbar-btn.primary { background: var(--accent); border-color: var(--accent); color: #0e1014; }
+  .topbar-btn.primary:hover { background: var(--accent-2); }
+  .topbar-btn svg { width: 12px; height: 12px; }
+  .kbd { font-family: var(--mono); font-size: 10px; padding: 1px 5px; border: 1px solid var(--border); border-radius: 3px; color: var(--fg-3); margin-left: 6px; }
+
+  /* Screen container */
+  .screen { padding: 24px 28px 60px; display: none; }
+  .screen[data-active="true"] { display: block; }
+
+  .head {
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 18px;
+    padding-bottom: 18px; border-bottom: 1px solid var(--border); margin-bottom: 22px;
+  }
+  .head h1 { margin: 0; font-size: 24px; font-weight: 600; letter-spacing: -0.018em; color: var(--fg); }
+  .head .sub { margin-top: 6px; font-size: 12.5px; color: var(--fg-3); }
+  .head .meta { display: flex; gap: 18px; margin-top: 8px; font-size: 12px; color: var(--fg-3); }
+  .head .meta b { color: var(--fg-2); font-family: var(--mono); font-weight: 500; }
+  .head-actions { display: flex; gap: 8px; align-items: center; }
+
+  /* Cards / panels */
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; }
+  .panel.elevated { background: var(--panel-2); }
+  .panel.outline { background: transparent; border-style: dashed; }
+  .panel-h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .panel-t { font-size: 12px; font-weight: 600; color: var(--fg); text-transform: uppercase; letter-spacing: 0.08em; }
+  .panel-num { font-family: var(--mono); color: var(--fg-4); margin-right: 8px; font-weight: 500; }
+  .panel-meta { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); }
+
+  /* Cockpit grid */
+  .cock { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
+
+  /* =============== DASHBOARD =============== */
+  .verdict { grid-column: span 8; padding: 22px 24px; position: relative; overflow: hidden; }
+  .verdict::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse 600px 200px at 0% 0%, rgba(155,140,255,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .verdict-top { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; position: relative; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 7px; padding: 5px 10px; border-radius: 5px;
+    background: var(--accent-soft); border: 1px solid var(--accent-border);
+    font-family: var(--mono); font-size: 10.5px; color: var(--accent-2);
+    letter-spacing: 0.04em; text-transform: uppercase; font-weight: 500;
+  }
+  .badge.pos { background: var(--pos-soft); border-color: rgba(110,231,183,0.30); color: var(--pos); }
+  .badge.neg { background: var(--neg-soft); border-color: rgba(239,154,150,0.30); color: var(--neg); }
+  .badge.warn { background: var(--warn-soft); border-color: rgba(245,196,107,0.30); color: var(--warn); }
+  .badge.info { background: var(--info-soft); border-color: rgba(126,182,240,0.30); color: var(--info); }
+  .badge.neutral { background: var(--panel-2); border-color: var(--border); color: var(--fg-2); }
+  .badge .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .verdict-meta { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .verdict-head { font-size: 28px; font-weight: 600; line-height: 1.22; letter-spacing: -0.022em; color: var(--fg); max-width: 660px; position: relative; }
+  .verdict-head em { color: var(--accent-2); font-style: normal; }
+  .verdict-body { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 22px; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+  .vb-l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); margin-bottom: 6px; }
+  .vb-text { font-size: 14px; color: var(--fg); font-weight: 500; line-height: 1.4; }
+  .vb-sub { font-size: 11.5px; color: var(--fg-3); margin-top: 4px; font-family: var(--mono); }
+  .vb-v { font-family: var(--mono); font-size: 24px; color: var(--fg); font-weight: 500; line-height: 1; }
+  .ring { width: 56px; height: 56px; }
+
+  .next-card { grid-column: span 4; display: flex; flex-direction: column; }
+  .next-eyebrow { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); margin-bottom: 10px; }
+  .next-topic { font-size: 18px; font-weight: 600; color: var(--fg); line-height: 1.3; letter-spacing: -0.005em; }
+  .next-desc { font-size: 12.5px; color: var(--fg-2); margin-top: 10px; line-height: 1.55; }
+  .next-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+  .next-meta .l { font-size: 10.5px; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.1em; }
+  .next-meta b { display: block; font-family: var(--mono); color: var(--fg); font-size: 13px; font-weight: 500; margin-top: 4px; }
+  .next-foot { margin-top: auto; padding-top: 14px; display: flex; gap: 8px; }
+
+  /* Buttons */
+  .btn { background: var(--accent); border: 0; color: #0e1014; font: 600 12px var(--sans); padding: 8px 14px; border-radius: 6px; cursor: pointer; letter-spacing: 0.005em; display: inline-flex; align-items: center; gap: 6px; }
+  .btn:hover { background: var(--accent-2); }
+  .btn-ghost { background: transparent; border: 1px solid var(--border-strong); color: var(--fg-2); padding: 7px 12px; border-radius: 6px; font: 500 12px var(--sans); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-ghost:hover { background: var(--panel); color: var(--fg); }
+  .btn-quiet { background: transparent; border: 0; color: var(--fg-2); padding: 6px 10px; border-radius: 6px; font: 500 12px var(--sans); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+  .btn-quiet:hover { background: var(--panel-2); color: var(--fg); }
+  .btn-danger { background: rgba(239,154,150,0.12); border: 1px solid rgba(239,154,150,0.28); color: var(--neg); padding: 7px 12px; border-radius: 6px; font: 500 12px var(--sans); cursor: pointer; }
+  .btn-icon { width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--border); color: var(--fg-2); border-radius: 6px; cursor: pointer; }
+  .btn-icon:hover { background: var(--panel-2); color: var(--fg); }
+  .btn-icon svg { width: 13px; height: 13px; }
+  .btn svg, .btn-ghost svg, .btn-quiet svg, .btn-danger svg { width: 12px; height: 12px; }
+
+  /* KPI strip */
+  .kpis { grid-column: span 12; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .kpi { padding: 18px 22px; border-right: 1px solid var(--border); }
+  .kpi:last-child { border-right: 0; }
+  .kpi-l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; }
+  .kpi-v { font-family: var(--mono); font-size: 28px; color: var(--fg); font-weight: 500; letter-spacing: -0.01em; line-height: 1; }
+  .kpi-d { font-size: 11px; color: var(--fg-3); margin-top: 8px; display: flex; align-items: center; gap: 6px; font-family: var(--mono); }
+  .kpi-d .pos { color: var(--pos); }
+  .kpi-d .neg { color: var(--neg); }
+  .kpi-spark { margin-top: 8px; height: 24px; display: block; }
+  .kpi-conf { font-family: var(--mono); font-size: 10px; color: var(--fg-3); display: inline-flex; align-items: center; gap: 5px; }
+  .kpi-conf-bar { width: 28px; height: 2px; background: var(--panel-3); border-radius: 1px; overflow: hidden; }
+  .kpi-conf-bar span { display: block; height: 100%; background: var(--accent); }
+
+  /* Trend / confidence */
+  .trend { grid-column: span 8; }
+  .trend-stats { display: flex; gap: 28px; }
+  .trend-stat-l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); margin-bottom: 4px; }
+  .trend-stat-v { font-family: var(--mono); font-size: 18px; color: var(--fg); font-weight: 500; }
+  .trend-stat-s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); margin-top: 2px; }
+  .trend-stat-s.pos { color: var(--pos); }
+  .trend-stat-s.neg { color: var(--neg); }
+  .conf { grid-column: span 4; }
+  .conf-band { display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 7px; margin-bottom: 10px; }
+  .conf-band-val { font-family: var(--mono); font-size: 18px; color: var(--accent-2); font-weight: 500; }
+  .conf-band-l { font-size: 11.5px; color: var(--fg-2); flex: 1; }
+  .conf-band-l b { color: var(--fg); font-weight: 500; }
+  .conf-list { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
+  .conf-line { display: grid; grid-template-columns: 1fr auto; gap: 8px; font-size: 11.5px; color: var(--fg-2); }
+  .conf-line b { color: var(--fg); font-family: var(--mono); font-weight: 500; }
+
+  /* Leaks (dashboard) */
+  .leaks-block { grid-column: span 12; padding: 0; }
+  .leaks-h { display: flex; align-items: center; justify-content: space-between; padding: 16px 22px; border-bottom: 1px solid var(--border); }
+  .leaks-h h3 { margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+  .leaks-h-actions { display: flex; gap: 6px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 9px; border-radius: 5px; background: var(--panel-2); border: 1px solid var(--border); font-size: 11px; color: var(--fg-2); cursor: pointer; font-family: var(--mono); }
+  .chip[aria-pressed="true"] { background: var(--panel-3); color: var(--fg); border-color: var(--border-strong); }
+  .chip svg { width: 11px; height: 11px; }
+  .chip .close { color: var(--fg-3); cursor: pointer; }
+  .chip .close:hover { color: var(--fg); }
+
+  table.tbl { width: 100%; border-collapse: collapse; }
+  table.tbl thead th { text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); font-weight: 600; padding: 11px 22px; border-bottom: 1px solid var(--border); background: var(--panel-2); }
+  table.tbl thead th.num { text-align: right; }
+  table.tbl tbody td { padding: 13px 22px; border-bottom: 1px solid var(--border); font-size: 12.5px; vertical-align: middle; }
+  table.tbl tbody tr:last-child td { border-bottom: 0; }
+  table.tbl tbody tr:hover td { background: rgba(255,255,255,0.018); }
+  table.tbl tbody tr[aria-selected="true"] td { background: var(--accent-soft); }
+  table.tbl tbody tr[data-state="reviewed"] td .l-name,
+  table.tbl tbody tr[data-state="reviewed"] td .h-name { color: var(--fg-3); }
+  .l-rank { font-family: var(--mono); font-size: 11px; color: var(--fg-3); width: 30px; }
+  .l-name { color: var(--fg); font-weight: 500; }
+  .l-sub { color: var(--fg-3); font-size: 11.5px; margin-top: 4px; font-family: var(--mono); }
+  .sev2 { display: inline-flex; align-items: center; gap: 8px; padding: 3px 9px 3px 6px; border-radius: 4px; font-size: 10.5px; font-family: var(--mono); letter-spacing: 0.04em; text-transform: uppercase; font-weight: 500; }
+  .sev2.high { background: rgba(239,154,150,0.08); color: var(--neg); border: 1px solid rgba(239,154,150,0.22); }
+  .sev2.med { background: rgba(245,196,107,0.07); color: var(--warn); border: 1px solid rgba(245,196,107,0.20); }
+  .sev2.low { background: rgba(126,182,240,0.07); color: var(--info); border: 1px solid rgba(126,182,240,0.20); }
+  .sev2 .sev-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .num { font-family: var(--mono); text-align: right; color: var(--fg-2); }
+  .num.neg { color: var(--neg); }
+  .num.pos { color: var(--pos); }
+  .conf-mini { display: inline-flex; align-items: center; gap: 8px; }
+  .conf-mini-bar { width: 56px; height: 3px; background: var(--panel-3); border-radius: 2px; overflow: hidden; }
+  .conf-mini-bar span { display: block; height: 100%; background: var(--accent); }
+  .conf-mini-v { font-family: var(--mono); font-size: 11px; color: var(--fg-2); }
+
+  /* =============== HANDS SCREEN =============== */
+  .filters {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 16px; margin-bottom: 14px;
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .select {
+    display: inline-flex; align-items: center; gap: 8px; padding: 7px 11px;
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--fg-2);
+    border-radius: 6px; font-size: 12px; cursor: pointer;
+  }
+  .select:hover { background: var(--panel-3); color: var(--fg); }
+  .select b { color: var(--fg); font-weight: 500; }
+  .select svg { width: 10px; height: 10px; color: var(--fg-3); }
+  .filters .spacer { flex: 1; }
+  .filters .input {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--panel-2); border: 1px solid var(--border);
+    border-radius: 6px; padding: 6px 10px; font-size: 12px; color: var(--fg-3);
+    min-width: 200px;
+  }
+  .filters .input input {
+    background: none; border: 0; color: var(--fg); font: 400 12px var(--sans);
+    outline: none; flex: 1; min-width: 0;
+  }
+  .filters .input svg { width: 12px; height: 12px; }
+  .density { display: inline-flex; background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px; padding: 2px; }
+  .density button { background: none; border: 0; color: var(--fg-3); padding: 4px 6px; border-radius: 3px; cursor: pointer; }
+  .density button[aria-pressed="true"] { background: var(--panel-3); color: var(--fg); }
+  .density svg { width: 13px; height: 13px; }
+
+  .active-chips { display: flex; gap: 6px; margin-bottom: 12px; align-items: center; flex-wrap: wrap; }
+  .active-chips .label { font-size: 10.5px; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.1em; margin-right: 6px; }
+
+  .hands-wrap { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .hands-toolbar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px; border-bottom: 1px solid var(--border);
+    background: var(--panel-2);
+  }
+  .hands-toolbar .count { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .hands-toolbar .count b { color: var(--fg); }
+  .hands-toolbar .selected { font-family: var(--mono); font-size: 11px; color: var(--accent-2); padding: 3px 8px; border: 1px solid var(--accent-border); border-radius: 4px; background: var(--accent-soft); }
+  .hands-toolbar .spacer { flex: 1; }
+
+  table.hands { width: 100%; border-collapse: collapse; }
+  table.hands thead th { text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); font-weight: 600; padding: 10px 14px; background: var(--panel-2); border-bottom: 1px solid var(--border); position: sticky; top: 0; }
+  table.hands thead th.num { text-align: right; }
+  table.hands tbody td { padding: 0 14px; border-bottom: 1px solid var(--border); font-size: 12.5px; vertical-align: middle; height: 42px; }
+  table.hands tbody tr:hover td { background: rgba(255,255,255,0.02); }
+  table.hands tbody tr[data-state="starred"] td { background: rgba(245,196,107,0.025); }
+  table.hands tbody tr[data-state="deviation"] td .h-name { color: var(--neg); }
+  table.hands tbody tr[data-state="reviewed"] td { color: var(--fg-3); }
+  table.hands tbody tr[aria-selected="true"] td { background: var(--accent-soft); }
+  table.hands td.checkbox { width: 32px; padding-left: 16px; }
+  .check { width: 14px; height: 14px; border: 1px solid var(--border-strong); border-radius: 3px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+  .check.checked { background: var(--accent); border-color: var(--accent); }
+  .check.checked::after { content: '✓'; color: #0e1014; font-size: 10px; font-weight: 700; }
+  .row-state {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 2px 7px; border-radius: 3px; font-family: var(--mono); font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.04em; font-weight: 500;
+  }
+  .row-state.compliant { background: var(--pos-soft); color: var(--pos); }
+  .row-state.deviation { background: var(--neg-soft); color: var(--neg); }
+  .row-state.neutral { background: var(--panel-3); color: var(--fg-3); }
+  .row-state.review { background: var(--info-soft); color: var(--info); }
+  .star { color: var(--fg-4); cursor: pointer; }
+  .star.on { color: var(--warn); }
+  .star svg { width: 13px; height: 13px; }
+  .pos-tag {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 22px; border-radius: 4px;
+    background: var(--panel-3); border: 1px solid var(--border);
+    font-family: var(--mono); font-size: 10.5px; color: var(--fg-2); font-weight: 600;
+  }
+  .pos-tag.btn-pos { color: var(--accent-2); border-color: var(--accent-border); background: var(--accent-soft); }
+  .row-actions { display: flex; gap: 4px; justify-content: flex-end; opacity: 0; transition: opacity 0.1s; }
+  table.hands tbody tr:hover .row-actions { opacity: 1; }
+
+  /* Hands pagination */
+  .pager { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; border-top: 1px solid var(--border); background: var(--panel-2); }
+  .pager-info { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .pager-ctrls { display: flex; align-items: center; gap: 4px; }
+
+  /* =============== LEAKS SCREEN =============== */
+  .leaks-layout { display: grid; grid-template-columns: 380px 1fr; gap: 16px; }
+  .queue { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+  .queue-h { padding: 14px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .queue-h h3 { margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+  .queue-filter { display: flex; gap: 6px; padding: 10px 14px; border-bottom: 1px solid var(--border); background: var(--panel-2); }
+  .q-item { padding: 13px 16px; border-bottom: 1px solid var(--border); cursor: pointer; position: relative; }
+  .q-item:last-child { border-bottom: 0; }
+  .q-item:hover { background: var(--panel-2); }
+  .q-item[aria-selected="true"] { background: var(--accent-soft); }
+  .q-item[aria-selected="true"]::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--accent); }
+  .q-item-top { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+  .q-item-rank { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); }
+  .q-item-name { font-size: 13px; color: var(--fg); font-weight: 500; line-height: 1.35; }
+  .q-item-meta { display: flex; gap: 12px; margin-top: 6px; font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); }
+  .q-item-meta .neg { color: var(--neg); }
+  .q-item-bar { display: flex; gap: 2px; margin-top: 8px; }
+  .q-item-bar span { flex: 1; height: 2px; background: var(--panel-3); border-radius: 1px; }
+  .q-item-bar span.fill { background: var(--accent); }
+
+  .detail { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 0; overflow: hidden; }
+  .detail-head { padding: 22px 24px 18px; border-bottom: 1px solid var(--border); }
+  .detail-eyebrow { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+  .detail-title { font-size: 22px; font-weight: 600; color: var(--fg); letter-spacing: -0.012em; line-height: 1.25; max-width: 720px; }
+  .detail-desc { font-size: 13px; color: var(--fg-2); margin-top: 10px; max-width: 700px; line-height: 1.55; }
+  .detail-actions { display: flex; gap: 8px; margin-top: 16px; }
+
+  .detail-stats { display: grid; grid-template-columns: repeat(4, 1fr); border-bottom: 1px solid var(--border); }
+  .ds { padding: 16px 22px; border-right: 1px solid var(--border); }
+  .ds:last-child { border-right: 0; }
+  .ds-l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); margin-bottom: 8px; }
+  .ds-v { font-family: var(--mono); font-size: 22px; color: var(--fg); font-weight: 500; line-height: 1; }
+  .ds-v.neg { color: var(--neg); }
+  .ds-s { font-size: 11.5px; color: var(--fg-3); margin-top: 6px; font-family: var(--mono); }
+
+  .detail-body { padding: 22px 24px; }
+  .detail-sect { margin-bottom: 24px; }
+  .detail-sect:last-child { margin-bottom: 0; }
+  .detail-sect-h { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); font-weight: 600; margin-bottom: 12px; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .compare-row { display: grid; grid-template-columns: 1fr 80px 80px; gap: 14px; padding: 8px 12px; border-radius: 6px; align-items: center; }
+  .compare-row + .compare-row { margin-top: 2px; }
+  .compare-row:nth-child(even) { background: var(--panel-2); }
+  .compare-l { font-size: 12px; color: var(--fg-2); }
+  .compare-v { font-family: var(--mono); font-size: 12px; text-align: right; }
+  .compare-v.you { color: var(--fg); }
+  .compare-v.base { color: var(--fg-3); }
+  .compare-v.delta { color: var(--neg); }
+
+  .hand-mini { padding: 10px 12px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px; display: grid; grid-template-columns: auto 1fr auto auto; gap: 12px; align-items: center; font-size: 12px; cursor: pointer; }
+  .hand-mini + .hand-mini { margin-top: 4px; }
+  .hand-mini:hover { background: var(--panel-3); }
+  .hand-mini-id { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); }
+  .hand-mini-desc { color: var(--fg-2); font-size: 12px; }
+  .hand-mini .num { width: 64px; }
+
+  /* =============== CAREER SCREEN =============== */
+  .career-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px; }
+  .career-main { display: flex; flex-direction: column; gap: 14px; }
+  .career-side { display: flex; flex-direction: column; gap: 14px; }
+  .tilesrow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .tile { padding: 16px 18px; border-right: 1px solid var(--border); }
+  .tile:last-child { border-right: 0; }
+  .tile .l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); margin-bottom: 8px; }
+  .tile .v { font-family: var(--mono); font-size: 24px; color: var(--fg); font-weight: 500; line-height: 1; }
+  .tile .d { font-family: var(--mono); font-size: 11px; color: var(--fg-3); margin-top: 6px; }
+  .tile .d .pos { color: var(--pos); }
+  .tile .d .neg { color: var(--neg); }
+
+  .sessions { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .sess-row { display: grid; grid-template-columns: 110px 1fr 70px 90px 90px 60px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 12.5px; cursor: pointer; }
+  .sess-row:last-child { border-bottom: 0; }
+  .sess-row:hover { background: var(--panel-2); }
+  .sess-row[aria-selected="true"] { background: var(--accent-soft); }
+  .sess-date { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .sess-title { color: var(--fg); font-weight: 500; }
+  .sess-sub { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); margin-top: 3px; }
+  .sess-num { font-family: var(--mono); text-align: right; color: var(--fg-2); }
+  .sess-num.pos { color: var(--pos); }
+  .sess-num.neg { color: var(--neg); }
+
+  /* =============== IMPORT/DEMO SCREEN =============== */
+  .import-stage { display: grid; grid-template-columns: 1fr; gap: 14px; max-width: 900px; }
+  .import-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 28px 32px; position: relative; overflow: hidden; }
+  .import-card::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse 700px 280px at 50% -10%, rgba(155,140,255,0.10) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .import-eyebrow { font-family: var(--mono); font-size: 10.5px; color: var(--accent-2); text-transform: uppercase; letter-spacing: 0.14em; }
+  .import-title { font-size: 24px; font-weight: 600; color: var(--fg); margin-top: 6px; letter-spacing: -0.018em; }
+  .import-sub { font-size: 13px; color: var(--fg-3); margin-top: 8px; max-width: 560px; line-height: 1.55; }
+  .import-progress { margin-top: 28px; }
+  .progress-bar { height: 4px; background: var(--panel-3); border-radius: 2px; overflow: hidden; position: relative; }
+  .progress-bar span { display: block; height: 100%; background: var(--accent); width: 62%; box-shadow: 0 0 12px rgba(155,140,255,0.4); position: relative; }
+  .progress-bar span::after {
+    content: ''; position: absolute; right: 0; top: 0; bottom: 0; width: 30%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18));
+  }
+  .progress-meta { display: flex; justify-content: space-between; margin-top: 10px; font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .progress-meta b { color: var(--fg); }
+  .steps { margin-top: 28px; display: flex; flex-direction: column; gap: 12px; }
+  .step { display: grid; grid-template-columns: 22px 1fr auto; gap: 14px; align-items: center; padding: 4px 0; }
+  .step-icon { width: 16px; height: 16px; border-radius: 50%; border: 1px solid var(--border-strong); display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 10px; color: var(--fg-4); }
+  .step.done .step-icon { background: var(--pos-soft); border-color: rgba(110,231,183,0.35); color: var(--pos); }
+  .step.running .step-icon {
+    background: var(--accent-soft); border-color: var(--accent-border); color: var(--accent);
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100%{box-shadow:0 0 0 0 rgba(155,140,255,0.0);} 50%{box-shadow:0 0 0 4px rgba(155,140,255,0.12);} }
+  .step-name { font-size: 13px; color: var(--fg-2); }
+  .step.done .step-name { color: var(--fg); }
+  .step.running .step-name { color: var(--fg); font-weight: 500; }
+  .step.queued .step-name { color: var(--fg-3); }
+  .step-meta { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); }
+  .step-meta.run { color: var(--accent-2); }
+
+  /* =============== COMPONENTS SCREEN =============== */
+  .cmp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .cmp-grid.three { grid-template-columns: 1fr 1fr 1fr; }
+  .cmp-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; }
+  .cmp-h { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); font-weight: 600; margin-bottom: 14px; display: flex; align-items: center; justify-content: space-between; }
+  .cmp-row { padding: 8px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; }
+  .cmp-row:last-child { border-bottom: 0; }
+  .cmp-label { font-family: var(--mono); font-size: 11px; color: var(--fg-3); min-width: 110px; }
+  .cmp-val { font-family: var(--mono); font-size: 11px; color: var(--fg-3); margin-left: auto; }
+
+  .swatch { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .swatch:last-child { border-bottom: 0; }
+  .sw-box { width: 28px; height: 28px; border-radius: 5px; flex: none; border: 1px solid var(--border); }
+  .sw-name { font-family: var(--mono); font-size: 11.5px; color: var(--fg); }
+  .sw-sub { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); margin-top: 2px; }
+  .sw-val { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); margin-left: auto; }
+
+  .type-row { padding: 12px 0; border-bottom: 1px solid var(--border); display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+  .type-row:last-child { border-bottom: 0; }
+  .type-l { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); white-space: nowrap; }
+
+  .btn-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 10px 0; }
+
+  /* Empty / loading / error states */
+  .state-card { padding: 32px 28px; text-align: center; }
+  .state-icon { width: 44px; height: 44px; border-radius: 50%; background: var(--panel-2); border: 1px solid var(--border); display: inline-flex; align-items: center; justify-content: center; color: var(--fg-3); }
+  .state-icon svg { width: 20px; height: 20px; }
+  .state-title { margin-top: 14px; font-size: 14px; color: var(--fg); font-weight: 600; }
+  .state-desc { margin-top: 6px; font-size: 12.5px; color: var(--fg-3); max-width: 280px; margin-left: auto; margin-right: auto; line-height: 1.5; }
+  .state-foot { margin-top: 16px; display: flex; gap: 8px; justify-content: center; }
+  .state-card.warn .state-icon { background: var(--warn-soft); border-color: rgba(245,196,107,0.30); color: var(--warn); }
+  .state-card.error .state-icon { background: var(--neg-soft); border-color: rgba(239,154,150,0.30); color: var(--neg); }
+
+  .skeleton { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+  .skel-line { height: 10px; background: linear-gradient(90deg, var(--panel-2) 0%, var(--panel-3) 50%, var(--panel-2) 100%); background-size: 200% 100%; border-radius: 3px; animation: skel 1.4s ease-in-out infinite; margin-bottom: 10px; }
+  @keyframes skel { 0%{background-position:200% 0;} 100%{background-position:-200% 0;} }
+  .skel-line.w-30 { width: 30%; } .skel-line.w-50 { width: 50%; } .skel-line.w-70 { width: 70%; } .skel-line.w-90 { width: 90%; }
+
+  /* responsive guard */
+  @media (max-width: 1100px) {
+    .app { grid-template-columns: 1fr; }
+    .sb { display: none; }
+    .cock > * { grid-column: span 12 !important; }
+    .leaks-layout { grid-template-columns: 1fr; }
+    .career-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sb">
+    <div class="sb-brand">
+      <div class="sb-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg>
+      </div>
+      <div>
+        <div class="sb-name">Tournament Lab</div>
+        <div class="sb-name-sub">v0.6 · local</div>
+      </div>
+    </div>
+    <div class="sb-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      Search hands, leaks…
+      <span class="sb-search-key">⌘K</span>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-section">Review</div>
+    <button class="sb-item" data-screen="dashboard" aria-current="page">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg></span>
+      Dashboard
+    </button>
+    <button class="sb-item" data-screen="hands">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></span>
+      Hands<span class="sb-count">84.3k</span>
+    </button>
+    <button class="sb-item" data-screen="leaks">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg></span>
+      Leaks<span class="sb-count">12</span>
+    </button>
+    <button class="sb-item" data-screen="career">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-6 4 4 8-10"/></svg></span>
+      Career &amp; sessions
+    </button>
+    <div class="sb-divider"></div>
+    <div class="sb-section">Tools</div>
+    <button class="sb-item">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg></span>
+      Ranges
+    </button>
+    <button class="sb-item">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg></span>
+      Drills
+    </button>
+    <button class="sb-item">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v6H4zM4 14h16v6H4z"/></svg></span>
+      Reports
+    </button>
+    <div class="sb-divider"></div>
+    <div class="sb-section">Data</div>
+    <button class="sb-item" data-screen="import">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></span>
+      Import
+    </button>
+    <button class="sb-item">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 0 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 0 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 0 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 0 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></span>
+      Settings
+    </button>
+    <div class="sb-divider"></div>
+    <div class="sb-section">Design</div>
+    <button class="sb-item" data-screen="components">
+      <span class="sb-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v10l-8 4-8-4V7z"/><path d="M12 12L4 7M12 12v9M12 12l8-5"/></svg></span>
+      Component spec
+    </button>
+
+    <div class="sb-status">
+      <div class="sb-status-label">Database</div>
+      <div class="sb-status-row"><span><span class="live-dot"></span>Watching</span><span>84.3k</span></div>
+      <div class="sb-status-row"><span>Last import</span><span>2h ago</span></div>
+      <div class="sb-status-row"><span>Site coverage</span><span>4/4</span></div>
+    </div>
+
+    <div class="sb-prof">
+      <div class="sb-avatar">JL</div>
+      <div style="flex:1; min-width:0;">
+        <div class="sb-prof-name">Local profile</div>
+        <div class="sb-prof-sub">no account · private</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+    <!-- ===== TOPBAR ===== -->
+    <div class="topbar">
+      <div class="crumbs" id="crumbs">REVIEW <span style="color:var(--fg-4)">/</span> <b>DASHBOARD</b></div>
+      <div class="spacer"></div>
+      <div class="seg" id="scope-seg">
+        <button aria-pressed="true">Full database</button>
+        <button>Last session</button>
+        <button>30d</button>
+        <button>Custom</button>
+      </div>
+      <button class="topbar-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h18l-7 9v6l-4-2v-4z"/></svg>
+        Filters
+      </button>
+      <button class="topbar-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+        Import
+      </button>
+    </div>
+
+    <!-- ===================================================
+         DASHBOARD
+         =================================================== -->
+    <section class="screen" data-screen="dashboard" data-active="true" data-screen-label="Dashboard">
+      <div class="head">
+        <div>
+          <h1>Performance overview</h1>
+          <div class="meta">
+            <div><b>84,326</b> hands</div>
+            <div><b>248</b> tournaments</div>
+            <div><b>Jan 2025 – May 2026</b></div>
+            <div><b>4</b> sites</div>
+          </div>
+        </div>
+        <div class="head-actions">
+          <button class="btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>
+            Refresh
+          </button>
+          <button class="btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+            Export
+          </button>
+        </div>
+      </div>
+
+      <div class="cock">
+        <!-- Verdict -->
+        <div class="panel verdict">
+          <div class="verdict-top">
+            <span class="badge"><span class="dot"></span>VERDICT · FULL DATABASE</span>
+            <span class="verdict-meta">84,326 hands · 248 events · 17 mo</span>
+          </div>
+          <div class="verdict-head">
+            Solid mid-stakes baseline. One repeatable <em>defensive leak</em> is suppressing ROI by an estimated <em>1.8 bb/100</em>.
+          </div>
+          <div class="verdict-body">
+            <div>
+              <div class="vb-l">Top blocker</div>
+              <div class="vb-text">Out-of-position defense versus late-position aggression</div>
+              <div class="vb-sub">BTN / SB · 25–40 bb · high severity</div>
+            </div>
+            <div>
+              <div class="vb-l">Readiness</div>
+              <svg class="ring" viewBox="0 0 40 40">
+                <circle cx="20" cy="20" r="16" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="3"/>
+                <circle cx="20" cy="20" r="16" fill="none" stroke="#9b8cff" stroke-width="3" stroke-dasharray="100.5" stroke-dashoffset="27.1" stroke-linecap="round" transform="rotate(-90 20 20)"/>
+                <text x="20" y="22" text-anchor="middle" font-size="11" fill="#f1f2f5" font-family="JetBrains Mono" font-weight="500">73</text>
+              </svg>
+              <div class="vb-sub">/ 100 · confident</div>
+            </div>
+            <div>
+              <div class="vb-l">Est. recovery</div>
+              <div class="vb-v">+2.4</div>
+              <div class="vb-sub">bb/100 · top 3 fixed</div>
+            </div>
+            <div>
+              <div class="vb-l">Confidence</div>
+              <div class="vb-v">92%</div>
+              <div class="vb-sub">sample-weighted</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next study -->
+        <div class="panel next-card">
+          <div class="next-eyebrow">→ NEXT BEST STUDY</div>
+          <div class="next-topic">BTN vs SB confrontations, 25–40 bb</div>
+          <div class="next-desc">Defense rate 38% (baseline 51%). Tighten 3-bet calling range, add wider 4-bet bluffs at 30 bb effective.</div>
+          <div class="next-meta">
+            <div><div class="l">Type</div><b>Drill + theory</b></div>
+            <div><div class="l">Sample</div><b>1,240 hands</b></div>
+            <div><div class="l">Impact</div><b>+1.8 bb/100</b></div>
+            <div><div class="l">Est. time</div><b>~18 min</b></div>
+          </div>
+          <div class="next-foot">
+            <button class="btn">Open drill</button>
+            <button class="btn-ghost">Review hands</button>
+          </div>
+        </div>
+
+        <!-- KPIs -->
+        <div class="kpis">
+          <div class="kpi">
+            <div class="kpi-l">ROI <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:92%"></span></span>92</span></div>
+            <div class="kpi-v">+12.4<span style="font-size:18px;color:var(--fg-3)">%</span></div>
+            <div class="kpi-d"><span class="pos">▲ 1.6pp</span> vs 90d</div>
+            <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,18 10,16 20,17 30,12 40,14 50,9 60,11 70,7 80,9 90,6 100,8 110,4 120,5" stroke="#9b8cff" stroke-width="1.4" fill="none"/></svg>
+          </div>
+          <div class="kpi">
+            <div class="kpi-l">ABI <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:88%"></span></span>88</span></div>
+            <div class="kpi-v">$24</div>
+            <div class="kpi-d"><span class="neg">▼ $2</span> vs 90d</div>
+            <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,8 10,10 20,9 30,11 40,10 50,12 60,11 70,14 80,13 90,15 100,14 110,16 120,16" stroke="#9b8cff" stroke-width="1.4" fill="none"/></svg>
+          </div>
+          <div class="kpi">
+            <div class="kpi-l">ITM <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:84%"></span></span>84</span></div>
+            <div class="kpi-v">17.8<span style="font-size:18px;color:var(--fg-3)">%</span></div>
+            <div class="kpi-d"><span class="pos">▲ 0.8pp</span> field-adj.</div>
+            <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,14 10,13 20,15 30,12 40,13 50,11 60,12 70,10 80,11 90,9 100,11 110,8 120,9" stroke="#9b8cff" stroke-width="1.4" fill="none"/></svg>
+          </div>
+          <div class="kpi">
+            <div class="kpi-l">bb / 100 <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:94%"></span></span>94</span></div>
+            <div class="kpi-v">+3.2</div>
+            <div class="kpi-d"><span class="pos">▲ 0.4</span> cash-equiv.</div>
+            <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,16 10,14 20,15 30,11 40,12 50,8 60,10 70,7 80,8 90,5 100,7 110,4 120,5" stroke="#9b8cff" stroke-width="1.4" fill="none"/></svg>
+          </div>
+        </div>
+
+        <!-- Trend -->
+        <div class="panel trend">
+          <div class="panel-h">
+            <div class="panel-t"><span class="panel-num">04</span>bb / 100 — rolling 5k hands</div>
+            <div class="panel-meta">17 months</div>
+          </div>
+          <div class="trend-stats">
+            <div><div class="trend-stat-l">Current</div><div class="trend-stat-v">+3.2</div><div class="trend-stat-s pos">▲ 0.4 vs 30d</div></div>
+            <div><div class="trend-stat-l">30-day mean</div><div class="trend-stat-v">+2.8</div><div class="trend-stat-s">σ 1.4</div></div>
+            <div><div class="trend-stat-l">Best window</div><div class="trend-stat-v">+5.1</div><div class="trend-stat-s">Mar 2026</div></div>
+            <div><div class="trend-stat-l">Drawdown</div><div class="trend-stat-v">−14</div><div class="trend-stat-s neg">buy-ins · Aug '25</div></div>
+          </div>
+          <svg viewBox="0 0 760 200" width="100%" height="200" preserveAspectRatio="none" style="display:block; margin-top:14px;">
+            <defs>
+              <linearGradient id="d-fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#9b8cff" stop-opacity="0.22"/><stop offset="100%" stop-color="#9b8cff" stop-opacity="0"/></linearGradient>
+            </defs>
+            <g stroke="rgba(255,255,255,0.045)"><line x1="0" y1="50" x2="760" y2="50"/><line x1="0" y1="100" x2="760" y2="100"/><line x1="0" y1="150" x2="760" y2="150"/></g>
+            <line x1="0" y1="100" x2="760" y2="100" stroke="rgba(255,255,255,0.10)" stroke-dasharray="3 5"/>
+            <path d="M0,124 L48,118 L96,128 L144,108 L192,114 L240,90 L288,98 L336,134 L384,142 L432,118 L480,82 L528,72 L576,68 L624,76 L672,58 L720,52 L760,44 L760,100 L0,100 Z" fill="url(#d-fill)"/>
+            <path d="M0,124 L48,118 L96,128 L144,108 L192,114 L240,90 L288,98 L336,134 L384,142 L432,118 L480,82 L528,72 L576,68 L624,76 L672,58 L720,52 L760,44" stroke="#9b8cff" stroke-width="1.8" fill="none"/>
+            <circle cx="760" cy="44" r="4" fill="#9b8cff"/>
+          </svg>
+        </div>
+
+        <!-- Confidence -->
+        <div class="panel conf">
+          <div class="panel-h">
+            <div class="panel-t"><span class="panel-num">05</span>Data confidence</div>
+            <div class="panel-meta">84.3k / 248</div>
+          </div>
+          <div class="conf-band">
+            <div class="conf-band-val">B+</div>
+            <div class="conf-band-l">Sample is <b>large</b> with <b>known thin patches</b> below.</div>
+          </div>
+          <div class="conf-list">
+            <div class="conf-line"><span>Preflop</span><b>94% · 84,326</b></div>
+            <div class="conf-line"><span>Flop</span><b>88% · 41,210</b></div>
+            <div class="conf-line"><span>Turn</span><b>71% · 18,902</b></div>
+            <div class="conf-line"><span>River</span><b>58% · 8,144</b></div>
+            <div class="conf-line"><span>HU / SB defense</span><b>43% · 2,180</b></div>
+          </div>
+        </div>
+
+        <!-- Leaks (mini queue) -->
+        <div class="panel leaks-block">
+          <div class="leaks-h">
+            <h3><span class="panel-num">06</span>Leak priority queue</h3>
+            <div class="leaks-h-actions">
+              <span class="chip" aria-pressed="true">All · 12</span>
+              <span class="chip">Preflop · 5</span>
+              <span class="chip">Postflop · 7</span>
+              <button class="btn-quiet" data-screen-link="leaks">Open full analyzer →</button>
+            </div>
+          </div>
+          <table class="tbl">
+            <thead>
+              <tr><th>#</th><th>Leak</th><th>Severity</th><th>Sample</th><th>Confidence</th><th class="num">bb/100 impact</th><th class="num">Est. recovery</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="l-rank">01</td>
+                <td><div class="l-name">Overfolding BTN vs SB 3-bet in position</div><div class="l-sub">Defense 38% · baseline 51% · 25–40 bb</div></td>
+                <td><span class="sev2 high"><span class="sev-dot"></span>High</span></td>
+                <td class="num">1,240</td>
+                <td><span class="conf-mini"><span class="conf-mini-bar"><span style="width:92%"></span></span><span class="conf-mini-v">92%</span></span></td>
+                <td class="num neg">−1.8</td>
+                <td class="num">+1.4</td>
+              </tr>
+              <tr>
+                <td class="l-rank">02</td>
+                <td><div class="l-name">SB defense vs CO/BTN open too tight</div><div class="l-sub">Calling 28% · baseline 36%</div></td>
+                <td><span class="sev2 high"><span class="sev-dot"></span>High</span></td>
+                <td class="num">920</td>
+                <td><span class="conf-mini"><span class="conf-mini-bar"><span style="width:88%"></span></span><span class="conf-mini-v">88%</span></span></td>
+                <td class="num neg">−1.2</td>
+                <td class="num">+0.9</td>
+              </tr>
+              <tr>
+                <td class="l-rank">03</td>
+                <td><div class="l-name">Turn check-raise frequency too low OOP</div><div class="l-sub">Freq 6% · baseline 11% · single-raised</div></td>
+                <td><span class="sev2 med"><span class="sev-dot"></span>Medium</span></td>
+                <td class="num">680</td>
+                <td><span class="conf-mini"><span class="conf-mini-bar"><span style="width:84%"></span></span><span class="conf-mini-v">84%</span></span></td>
+                <td class="num neg">−0.9</td>
+                <td class="num">+0.6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         HANDS TABLE
+         =================================================== -->
+    <section class="screen" data-screen="hands" data-screen-label="Hands">
+      <div class="head">
+        <div>
+          <h1>Hands</h1>
+          <div class="meta">
+            <div><b>84,326</b> total</div>
+            <div><b>3,418</b> filtered</div>
+            <div><b>248</b> sessions</div>
+          </div>
+        </div>
+        <div class="head-actions">
+          <button class="btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
+            Customize columns
+          </button>
+          <button class="btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5"/></svg>
+            Export CSV
+          </button>
+        </div>
+      </div>
+
+      <!-- Filters bar -->
+      <div class="filters">
+        <button class="select"><span>Position</span><b>BTN, SB</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <button class="select"><span>Stack</span><b>25–40 bb</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <button class="select"><span>Scenario</span><b>3-bet pots</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <button class="select"><span>Result</span><b>Any</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <button class="select"><span>State</span><b>Deviation</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <button class="select"><span>Date</span><b>Last 90 days</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="spacer"></div>
+        <div class="input">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input placeholder="Search hand id, board, tag…" />
+        </div>
+        <div class="density" title="Row density">
+          <button title="Comfortable"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+          <button aria-pressed="true" title="Compact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h18M3 9h18M3 13h18M3 17h18M3 21h18"/></svg></button>
+        </div>
+      </div>
+
+      <!-- Active chip row -->
+      <div class="active-chips">
+        <span class="label">Active</span>
+        <span class="chip" aria-pressed="true">Position: BTN, SB <span class="close">×</span></span>
+        <span class="chip" aria-pressed="true">Stack: 25–40 bb <span class="close">×</span></span>
+        <span class="chip" aria-pressed="true">Scenario: 3-bet pots <span class="close">×</span></span>
+        <span class="chip" aria-pressed="true">State: Deviation <span class="close">×</span></span>
+        <button class="btn-quiet">Clear all</button>
+        <div style="flex:1"></div>
+        <button class="btn-quiet">Save filter set…</button>
+      </div>
+
+      <!-- Hands table -->
+      <div class="hands-wrap">
+        <div class="hands-toolbar">
+          <span class="count"><b>3,418</b> hands matching filters</span>
+          <span class="selected">3 selected</span>
+          <div class="spacer"></div>
+          <button class="btn-quiet">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15 9 22 9 16 14 18 21 12 17 6 21 8 14 2 9 9 9 12 2"/></svg>
+            Star
+          </button>
+          <button class="btn-quiet">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Mark reviewed
+          </button>
+          <button class="btn-quiet">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+            Export
+          </button>
+          <button class="btn-quiet">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+          </button>
+        </div>
+
+        <table class="hands">
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th>Date / time</th>
+              <th>Hand</th>
+              <th>Pos</th>
+              <th>Eff bb</th>
+              <th>Scenario</th>
+              <th>Action</th>
+              <th class="num">Δ bb</th>
+              <th>State</th>
+              <th>Tags</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="hands-tbody"></tbody>
+        </table>
+
+        <div class="pager">
+          <div class="pager-info">Showing <b>1–25</b> of <b>3,418</b></div>
+          <div class="pager-ctrls">
+            <button class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button class="btn-quiet" style="font-family:var(--mono);font-size:11px;">1 / 137</button>
+            <button class="btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         LEAK ANALYZER
+         =================================================== -->
+    <section class="screen" data-screen="leaks" data-screen-label="Leak Analyzer">
+      <div class="head">
+        <div>
+          <h1>Leak analyzer</h1>
+          <div class="meta">
+            <div><b>12</b> active</div>
+            <div>Ranked by <b>impact × confidence × sample</b></div>
+            <div>Est. total recovery <b>+3.6 bb/100</b></div>
+          </div>
+        </div>
+        <div class="head-actions">
+          <button class="btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/></svg>
+            Re-analyze
+          </button>
+          <button class="btn-ghost">Export queue</button>
+        </div>
+      </div>
+
+      <div class="leaks-layout">
+        <!-- Queue -->
+        <div class="queue">
+          <div class="queue-h">
+            <h3>Queue</h3>
+            <span class="panel-meta">12 items</span>
+          </div>
+          <div class="queue-filter">
+            <span class="chip" aria-pressed="true">All</span>
+            <span class="chip">Preflop</span>
+            <span class="chip">Postflop</span>
+            <span class="chip">By position</span>
+          </div>
+          <div id="leak-queue"></div>
+        </div>
+
+        <!-- Detail -->
+        <div class="detail">
+          <div class="detail-head">
+            <div class="detail-eyebrow">
+              <span>LEAK #01</span>
+              <span style="color:var(--fg-4)">·</span>
+              <span class="sev2 high"><span class="sev-dot"></span>High</span>
+              <span style="color:var(--fg-4)">·</span>
+              <span>Preflop · in-position defense</span>
+            </div>
+            <div class="detail-title">Overfolding BTN vs SB three-bet at 25–40 bb effective</div>
+            <div class="detail-desc">
+              Across 1,240 qualifying hands, BTN defends versus SB three-bets at <b style="color:var(--fg)">38%</b> against a baseline of <b style="color:var(--fg)">51%</b>. The shortfall is concentrated at 25–30 bb effective and against late-position regs. Expected impact: <b style="color:var(--neg)">−1.8 bb/100</b>.
+            </div>
+            <div class="detail-actions">
+              <button class="btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg>
+                Open drill
+              </button>
+              <button class="btn-ghost">Review 1,240 hands →</button>
+              <button class="btn-ghost">Snooze</button>
+              <button class="btn-ghost">Dismiss</button>
+            </div>
+          </div>
+
+          <div class="detail-stats">
+            <div class="ds"><div class="ds-l">Sample</div><div class="ds-v">1,240</div><div class="ds-s">qualifying hands</div></div>
+            <div class="ds"><div class="ds-l">Confidence</div><div class="ds-v">92<span style="font-size:14px;color:var(--fg-3)">%</span></div><div class="ds-s">large n, low variance</div></div>
+            <div class="ds"><div class="ds-l">bb/100 impact</div><div class="ds-v neg">−1.8</div><div class="ds-s">measured · 17 mo window</div></div>
+            <div class="ds"><div class="ds-l">Est. recovery</div><div class="ds-v">+1.4</div><div class="ds-s">if closed to 90% of baseline</div></div>
+          </div>
+
+          <div class="detail-body">
+            <!-- Compare -->
+            <div class="detail-sect">
+              <div class="detail-sect-h">Your behavior vs. baseline</div>
+              <div>
+                <div class="compare-row" style="grid-template-columns:1fr 80px 80px 80px; padding-top:0; padding-bottom: 8px; background: transparent; border-bottom: 1px solid var(--border); margin-bottom: 6px;">
+                  <span style="font-size:10.5px;color:var(--fg-3);text-transform:uppercase;letter-spacing:0.1em;">Spot</span>
+                  <span style="font-size:10.5px;color:var(--fg-3);text-transform:uppercase;letter-spacing:0.1em;text-align:right;">You</span>
+                  <span style="font-size:10.5px;color:var(--fg-3);text-transform:uppercase;letter-spacing:0.1em;text-align:right;">Baseline</span>
+                  <span style="font-size:10.5px;color:var(--fg-3);text-transform:uppercase;letter-spacing:0.1em;text-align:right;">Δ</span>
+                </div>
+                <div class="compare-row" style="grid-template-columns:1fr 80px 80px 80px;">
+                  <span class="compare-l">Overall defense (call + 4-bet)</span>
+                  <span class="compare-v you">38.0%</span>
+                  <span class="compare-v base">51.0%</span>
+                  <span class="compare-v delta">−13.0</span>
+                </div>
+                <div class="compare-row" style="grid-template-columns:1fr 80px 80px 80px;">
+                  <span class="compare-l">Calling frequency</span>
+                  <span class="compare-v you">31.2%</span>
+                  <span class="compare-v base">38.4%</span>
+                  <span class="compare-v delta">−7.2</span>
+                </div>
+                <div class="compare-row" style="grid-template-columns:1fr 80px 80px 80px;">
+                  <span class="compare-l">4-bet frequency</span>
+                  <span class="compare-v you">6.8%</span>
+                  <span class="compare-v base">12.6%</span>
+                  <span class="compare-v delta">−5.8</span>
+                </div>
+                <div class="compare-row" style="grid-template-columns:1fr 80px 80px 80px;">
+                  <span class="compare-l">At 25–30 bb effective</span>
+                  <span class="compare-v you">29.4%</span>
+                  <span class="compare-v base">48.9%</span>
+                  <span class="compare-v delta">−19.5</span>
+                </div>
+                <div class="compare-row" style="grid-template-columns:1fr 80px 80px 80px;">
+                  <span class="compare-l">At 30–40 bb effective</span>
+                  <span class="compare-v you">44.1%</span>
+                  <span class="compare-v base">52.8%</span>
+                  <span class="compare-v delta">−8.7</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Why it matters / sample notes -->
+            <div class="detail-sect">
+              <div class="detail-sect-h">Why it matters</div>
+              <div style="font-size: 13px; color: var(--fg-2); line-height: 1.6; max-width: 720px;">
+                At 25–30 bb effective in BTN-vs-SB confrontations, folding too often forfeits a measurable share of the pot equity you've already paid for with your opening range. The shortfall is heaviest against three opponents who three-bet wide on the small blind; against the rest of the field, defense is closer to baseline. Closing this leak is high-leverage because the spot is common and the deviation is large.
+              </div>
+            </div>
+
+            <!-- Example hands -->
+            <div class="detail-sect">
+              <div class="detail-sect-h" style="display:flex; align-items:center; justify-content:space-between;">
+                <span>Representative hands</span>
+                <button class="btn-quiet">See all 1,240 →</button>
+              </div>
+              <div class="hand-mini">
+                <span class="hand-mini-id">#H-8123-44</span>
+                <span class="hand-mini-desc">BTN <b style="color:var(--fg)">AJo</b> facing SB 3-bet to 7.4 bb · 28 bb effective</span>
+                <span class="row-state deviation">Fold</span>
+                <span class="num neg">−1.0 bb</span>
+              </div>
+              <div class="hand-mini">
+                <span class="hand-mini-id">#H-7991-12</span>
+                <span class="hand-mini-desc">BTN <b style="color:var(--fg)">KTs</b> facing SB 3-bet to 6.9 bb · 32 bb effective</span>
+                <span class="row-state deviation">Fold</span>
+                <span class="num neg">−0.8 bb</span>
+              </div>
+              <div class="hand-mini">
+                <span class="hand-mini-id">#H-7644-08</span>
+                <span class="hand-mini-desc">BTN <b style="color:var(--fg)">A9s</b> facing SB 3-bet to 7.0 bb · 26 bb effective</span>
+                <span class="row-state deviation">Fold</span>
+                <span class="num neg">−1.2 bb</span>
+              </div>
+              <div class="hand-mini">
+                <span class="hand-mini-id">#H-7512-21</span>
+                <span class="hand-mini-desc">BTN <b style="color:var(--fg)">QJo</b> facing SB 3-bet to 6.5 bb · 30 bb effective</span>
+                <span class="row-state compliant">Call</span>
+                <span class="num pos">+0.4 bb</span>
+              </div>
+            </div>
+
+            <!-- Recommended next steps -->
+            <div class="detail-sect">
+              <div class="detail-sect-h">Recommended next steps</div>
+              <ol style="margin: 0; padding-left: 18px; color: var(--fg-2); font-size: 13px; line-height: 1.7;">
+                <li><b style="color:var(--fg)">Drill — BTN 3-bet defense, 25–30 bb</b> · 60 hand sample, ~14 min</li>
+                <li>Add wider 4-bet bluffs with A5s / KQo blocker hands at 28 bb effective</li>
+                <li>Review the 38 hands tagged <span class="badge neutral" style="font-size:9px;padding:1px 6px;letter-spacing:0.05em;">repeat-vs-villain</span> for opponent-specific notes</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         CAREER & SESSIONS
+         =================================================== -->
+    <section class="screen" data-screen="career" data-screen-label="Career &amp; sessions">
+      <div class="head">
+        <div>
+          <h1>Career &amp; sessions</h1>
+          <div class="meta">
+            <div><b>248</b> tournaments</div>
+            <div><b>17</b> months</div>
+            <div><b>4</b> sites · <b>$24</b> ABI</div>
+          </div>
+        </div>
+        <div class="head-actions">
+          <div class="seg">
+            <button aria-pressed="true">All time</button>
+            <button>YTD</button>
+            <button>90d</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tile row -->
+      <div class="tilesrow" style="margin-bottom: 14px;">
+        <div class="tile">
+          <div class="l">ROI</div>
+          <div class="v">+12.4%</div>
+          <div class="d"><span class="pos">▲ 1.6pp</span> vs prior year</div>
+        </div>
+        <div class="tile">
+          <div class="l">Average buy-in</div>
+          <div class="v">$24</div>
+          <div class="d"><span class="neg">▼ $2</span> 90-day trend</div>
+        </div>
+        <div class="tile">
+          <div class="l">ITM rate</div>
+          <div class="v">17.8%</div>
+          <div class="d"><span class="pos">▲ 0.8pp</span> field-adj.</div>
+        </div>
+        <div class="tile">
+          <div class="l">Final tables</div>
+          <div class="v">14</div>
+          <div class="d"><span style="color:var(--fg-3)">5.6% of 248 events</span></div>
+        </div>
+      </div>
+
+      <div class="career-grid">
+        <div class="career-main">
+          <!-- ROI by stake -->
+          <div class="panel">
+            <div class="panel-h">
+              <div class="panel-t"><span class="panel-num">A</span>Volume &amp; bb/100 — last 17 months</div>
+              <div class="panel-meta">monthly · cash-equivalent</div>
+            </div>
+            <svg viewBox="0 0 760 220" width="100%" height="220" preserveAspectRatio="none" style="display:block;">
+              <defs>
+                <linearGradient id="c-fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#9b8cff" stop-opacity="0.22"/><stop offset="100%" stop-color="#9b8cff" stop-opacity="0"/></linearGradient>
+              </defs>
+              <g stroke="rgba(255,255,255,0.04)"><line x1="0" y1="55" x2="760" y2="55"/><line x1="0" y1="110" x2="760" y2="110"/><line x1="0" y1="165" x2="760" y2="165"/></g>
+              <line x1="0" y1="110" x2="760" y2="110" stroke="rgba(255,255,255,0.10)" stroke-dasharray="3 5"/>
+              <!-- volume bars -->
+              <g fill="rgba(155,140,255,0.18)">
+                <rect x="6" y="170" width="36" height="34"/>
+                <rect x="50" y="160" width="36" height="44"/>
+                <rect x="94" y="150" width="36" height="54"/>
+                <rect x="138" y="155" width="36" height="49"/>
+                <rect x="182" y="140" width="36" height="64"/>
+                <rect x="226" y="135" width="36" height="69"/>
+                <rect x="270" y="120" width="36" height="84"/>
+                <rect x="314" y="110" width="36" height="94"/>
+                <rect x="358" y="120" width="36" height="84"/>
+                <rect x="402" y="100" width="36" height="104"/>
+                <rect x="446" y="105" width="36" height="99"/>
+                <rect x="490" y="95" width="36" height="109"/>
+                <rect x="534" y="85" width="36" height="119"/>
+                <rect x="578" y="78" width="36" height="126"/>
+                <rect x="622" y="80" width="36" height="124"/>
+                <rect x="666" y="70" width="36" height="134"/>
+                <rect x="710" y="60" width="36" height="144"/>
+              </g>
+              <!-- bb/100 line -->
+              <path d="M24,128 L68,118 L112,134 L156,108 L200,114 L244,90 L288,98 L332,104 L376,128 L420,118 L464,82 L508,72 L552,68 L596,66 L640,58 L684,52 L728,44" stroke="#c4baff" stroke-width="2" fill="none"/>
+              <circle cx="728" cy="44" r="4" fill="#c4baff"/>
+              <text x="6" y="106" font-size="9" fill="#6b7280" font-family="JetBrains Mono">0 bb</text>
+            </svg>
+            <div style="display:flex;gap:14px;margin-top:10px;font-family:var(--mono);font-size:10.5px;color:var(--fg-3);">
+              <div><span style="display:inline-block;width:10px;height:10px;background:rgba(155,140,255,0.4);margin-right:6px;vertical-align:middle;"></span>Volume (hands)</div>
+              <div><span style="display:inline-block;width:10px;height:2px;background:#c4baff;margin-right:6px;vertical-align:middle;"></span>bb / 100</div>
+            </div>
+          </div>
+
+          <!-- Recent sessions -->
+          <div class="sessions">
+            <div class="leaks-h" style="background:transparent;">
+              <h3 style="margin:0;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;"><span class="panel-num">B</span>Recent sessions</h3>
+              <div class="leaks-h-actions">
+                <span class="chip" aria-pressed="true">All sites</span>
+                <span class="chip">Stars</span>
+                <span class="chip">PartyP.</span>
+                <button class="btn-quiet">View all 248 →</button>
+              </div>
+            </div>
+            <div class="sess-row" aria-selected="true">
+              <div class="sess-date">11 May 26<div class="sess-sub">19:04 – 23:48</div></div>
+              <div><div class="sess-title">$22 PKO · Sunday Storm</div><div class="sess-sub">Stars · 1,212 entries</div></div>
+              <div class="sess-num">312</div>
+              <div class="sess-num pos">+4.1</div>
+              <div class="sess-num pos">+$48</div>
+              <div style="text-align:right;"><span class="badge pos" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">ITM</span></div>
+            </div>
+            <div class="sess-row">
+              <div class="sess-date">10 May 26<div class="sess-sub">20:11 – 22:32</div></div>
+              <div><div class="sess-title">$11 Bounty Builders</div><div class="sess-sub">Stars · 2,408 entries</div></div>
+              <div class="sess-num">186</div>
+              <div class="sess-num neg">−2.3</div>
+              <div class="sess-num neg">−$22</div>
+              <div style="text-align:right;"><span class="badge neutral" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">OUT</span></div>
+            </div>
+            <div class="sess-row">
+              <div class="sess-date">09 May 26<div class="sess-sub">14:30 – 19:15</div></div>
+              <div><div class="sess-title">$33 Mini Main Event</div><div class="sess-sub">PartyP. · 808 entries</div></div>
+              <div class="sess-num">428</div>
+              <div class="sess-num pos">+5.6</div>
+              <div class="sess-num pos">+$184</div>
+              <div style="text-align:right;"><span class="badge pos" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">FT</span></div>
+            </div>
+            <div class="sess-row">
+              <div class="sess-date">08 May 26<div class="sess-sub">21:00 – 23:10</div></div>
+              <div><div class="sess-title">$15 Hot Turbo</div><div class="sess-sub">Stars · 612 entries</div></div>
+              <div class="sess-num">94</div>
+              <div class="sess-num pos">+1.8</div>
+              <div class="sess-num neg">−$15</div>
+              <div style="text-align:right;"><span class="badge neutral" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">OUT</span></div>
+            </div>
+            <div class="sess-row">
+              <div class="sess-date">07 May 26<div class="sess-sub">19:30 – 22:48</div></div>
+              <div><div class="sess-title">$22 Sunday Cooldown</div><div class="sess-sub">Stars · 1,940 entries</div></div>
+              <div class="sess-num">256</div>
+              <div class="sess-num pos">+3.4</div>
+              <div class="sess-num pos">+$66</div>
+              <div style="text-align:right;"><span class="badge pos" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">ITM</span></div>
+            </div>
+            <div class="sess-row">
+              <div class="sess-date">06 May 26<div class="sess-sub">20:00 – 21:24</div></div>
+              <div><div class="sess-title">$11 Daily Cup</div><div class="sess-sub">Stars · 1,288 entries</div></div>
+              <div class="sess-num">62</div>
+              <div class="sess-num neg">−4.1</div>
+              <div class="sess-num neg">−$11</div>
+              <div style="text-align:right;"><span class="badge neutral" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">OUT</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="career-side">
+          <!-- ROI by stake -->
+          <div class="panel">
+            <div class="panel-h">
+              <div class="panel-t"><span class="panel-num">C</span>ROI by stake</div>
+              <div class="panel-meta">field-adjusted</div>
+            </div>
+            <div style="display:flex; flex-direction:column; gap: 8px;">
+              <div style="display:grid; grid-template-columns: 80px 1fr 60px; gap: 12px; align-items: center; font-size: 12px;">
+                <span style="color:var(--fg-2);">$5–$11</span>
+                <div style="height:6px;background:var(--panel-3);border-radius:3px;overflow:hidden;"><div style="height:100%;width:62%;background:var(--accent);"></div></div>
+                <span class="num pos">+18.4%</span>
+              </div>
+              <div style="display:grid; grid-template-columns: 80px 1fr 60px; gap: 12px; align-items: center; font-size: 12px;">
+                <span style="color:var(--fg-2);">$15–$22</span>
+                <div style="height:6px;background:var(--panel-3);border-radius:3px;overflow:hidden;"><div style="height:100%;width:48%;background:var(--accent);"></div></div>
+                <span class="num pos">+14.2%</span>
+              </div>
+              <div style="display:grid; grid-template-columns: 80px 1fr 60px; gap: 12px; align-items: center; font-size: 12px;">
+                <span style="color:var(--fg-2);">$33–$55</span>
+                <div style="height:6px;background:var(--panel-3);border-radius:3px;overflow:hidden;"><div style="height:100%;width:30%;background:var(--accent);"></div></div>
+                <span class="num pos">+9.1%</span>
+              </div>
+              <div style="display:grid; grid-template-columns: 80px 1fr 60px; gap: 12px; align-items: center; font-size: 12px;">
+                <span style="color:var(--fg-2);">$109+</span>
+                <div style="height:6px;background:var(--panel-3);border-radius:3px;overflow:hidden;"><div style="height:100%;width:8%;background:var(--warn);"></div></div>
+                <span class="num neg">−2.4%</span>
+              </div>
+              <div style="font-size: 11.5px; color: var(--fg-3); padding-top: 12px; border-top: 1px solid var(--border); margin-top: 4px; line-height: 1.5;">
+                $109+ has only <b style="color:var(--warn);">42 events</b>. Sample is too thin for a strong conclusion.
+              </div>
+            </div>
+          </div>
+
+          <!-- Position heatmap (compact) -->
+          <div class="panel">
+            <div class="panel-h">
+              <div class="panel-t"><span class="panel-num">D</span>bb/100 by position</div>
+              <div class="panel-meta">all depths</div>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:6px;">
+              <div style="display:grid;grid-template-columns:60px 1fr 80px;gap:10px;align-items:center;font-size:12px;">
+                <span class="pos-tag btn-pos">BTN</span>
+                <div style="height:8px;background:var(--panel-3);border-radius:3px;overflow:hidden;position:relative;"><div style="height:100%;width:78%;background:var(--accent);"></div></div>
+                <span class="num pos">+8.2</span>
+              </div>
+              <div style="display:grid;grid-template-columns:60px 1fr 80px;gap:10px;align-items:center;font-size:12px;">
+                <span class="pos-tag">CO</span>
+                <div style="height:8px;background:var(--panel-3);border-radius:3px;overflow:hidden;"><div style="height:100%;width:62%;background:var(--accent);"></div></div>
+                <span class="num pos">+5.1</span>
+              </div>
+              <div style="display:grid;grid-template-columns:60px 1fr 80px;gap:10px;align-items:center;font-size:12px;">
+                <span class="pos-tag">HJ</span>
+                <div style="height:8px;background:var(--panel-3);border-radius:3px;overflow:hidden;"><div style="height:100%;width:48%;background:var(--accent);"></div></div>
+                <span class="num pos">+3.0</span>
+              </div>
+              <div style="display:grid;grid-template-columns:60px 1fr 80px;gap:10px;align-items:center;font-size:12px;">
+                <span class="pos-tag">MP</span>
+                <div style="height:8px;background:var(--panel-3);border-radius:3px;overflow:hidden;"><div style="height:100%;width:36%;background:var(--accent);"></div></div>
+                <span class="num pos">+1.4</span>
+              </div>
+              <div style="display:grid;grid-template-columns:60px 1fr 80px;gap:10px;align-items:center;font-size:12px;">
+                <span class="pos-tag">SB</span>
+                <div style="height:8px;background:var(--panel-3);border-radius:3px;overflow:hidden;position:relative;"><div style="height:100%;width:18%;background:var(--neg); margin-left: auto;"></div></div>
+                <span class="num neg">−4.6</span>
+              </div>
+              <div style="display:grid;grid-template-columns:60px 1fr 80px;gap:10px;align-items:center;font-size:12px;">
+                <span class="pos-tag">BB</span>
+                <div style="height:8px;background:var(--panel-3);border-radius:3px;overflow:hidden;position:relative;"><div style="height:100%;width:30%;background:var(--neg); margin-left:auto;"></div></div>
+                <span class="num neg">−7.8</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Volume calendar (compact heatmap) -->
+          <div class="panel">
+            <div class="panel-h">
+              <div class="panel-t"><span class="panel-num">E</span>Activity · 12 weeks</div>
+              <div class="panel-meta">events / day</div>
+            </div>
+            <div style="display:grid; grid-template-columns: repeat(12, 1fr); gap: 3px;" id="cal-heat"></div>
+            <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--fg-3);margin-top:10px;">
+              <span>Feb</span><span>Mar</span><span>Apr</span><span>May</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         IMPORT / DEMO PROGRESS
+         =================================================== -->
+    <section class="screen" data-screen="import" data-screen-label="Import">
+      <div class="head">
+        <div>
+          <h1>Import</h1>
+          <div class="sub">Reading hand histories and tournament summaries from your local files. Nothing leaves this machine.</div>
+        </div>
+        <div class="head-actions">
+          <button class="btn-ghost">Cancel</button>
+        </div>
+      </div>
+
+      <div class="import-stage">
+        <div class="import-card">
+          <div class="import-eyebrow">IMPORT · IN PROGRESS</div>
+          <div class="import-title">Parsing 312 new hands across 2 sessions</div>
+          <div class="import-sub">We're reconciling tournament summaries with hand histories, classifying scenarios, and updating leak estimates. You can navigate away — progress will continue and you'll see results when ready.</div>
+
+          <div class="import-progress">
+            <div class="progress-bar"><span></span></div>
+            <div class="progress-meta">
+              <span><b>62%</b> · step 4 of 6</span>
+              <span>elapsed <b>00:42</b> · est. <b>00:28</b> remaining</span>
+            </div>
+          </div>
+
+          <div class="steps">
+            <div class="step done">
+              <div class="step-icon">✓</div>
+              <div class="step-name">Reading files (.txt, .xml)</div>
+              <div class="step-meta">312 files · 4.1 MB</div>
+            </div>
+            <div class="step done">
+              <div class="step-icon">✓</div>
+              <div class="step-name">Parsing hand histories</div>
+              <div class="step-meta">312 hands · 0 errors</div>
+            </div>
+            <div class="step done">
+              <div class="step-icon">✓</div>
+              <div class="step-name">Reconciling tournament summaries</div>
+              <div class="step-meta">2 sessions · matched</div>
+            </div>
+            <div class="step running">
+              <div class="step-icon">•</div>
+              <div class="step-name">Classifying scenarios &amp; ranges</div>
+              <div class="step-meta run">214 / 312</div>
+            </div>
+            <div class="step queued">
+              <div class="step-icon">○</div>
+              <div class="step-name">Updating leak estimates</div>
+              <div class="step-meta">pending</div>
+            </div>
+            <div class="step queued">
+              <div class="step-icon">○</div>
+              <div class="step-name">Writing to local database</div>
+              <div class="step-meta">pending</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Warning row -->
+        <div class="panel state-card warn" style="text-align:left;padding:18px 22px;">
+          <div style="display:flex;gap:14px;align-items:flex-start;">
+            <div class="state-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.7 3.86a2 2 0 0 0-3.4 0z"/></svg>
+            </div>
+            <div style="flex:1;">
+              <div style="font-size:13px; color:var(--fg); font-weight:600;">3 hands have malformed timestamps</div>
+              <div style="font-size:12px; color:var(--fg-3); margin-top:4px; line-height:1.5;">These hands were imported using fallback timestamps inferred from the surrounding session. Statistics that depend on time-of-day may be slightly off for those rows.</div>
+              <div style="margin-top: 10px; display:flex; gap:8px;">
+                <button class="btn-ghost">Review affected hands</button>
+                <button class="btn-quiet">Dismiss</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quietly running list -->
+        <div class="panel">
+          <div class="panel-h">
+            <div class="panel-t"><span class="panel-num">·</span>Recent imports</div>
+            <div class="panel-meta">local history</div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap: 8px;">
+            <div style="display:grid; grid-template-columns: auto 1fr auto auto; gap: 14px; align-items:center; font-size: 12.5px;">
+              <span class="badge pos" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">DONE</span>
+              <span style="color:var(--fg-2);">11 May · 17:02 · 1,488 hands · 6 sessions</span>
+              <span class="num" style="color:var(--fg-3);">0 errors</span>
+              <button class="btn-quiet">Open log</button>
+            </div>
+            <div style="display:grid; grid-template-columns: auto 1fr auto auto; gap: 14px; align-items:center; font-size: 12.5px;">
+              <span class="badge pos" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">DONE</span>
+              <span style="color:var(--fg-2);">10 May · 23:55 · 968 hands · 4 sessions</span>
+              <span class="num" style="color:var(--fg-3);">0 errors</span>
+              <button class="btn-quiet">Open log</button>
+            </div>
+            <div style="display:grid; grid-template-columns: auto 1fr auto auto; gap: 14px; align-items:center; font-size: 12.5px;">
+              <span class="badge warn" style="font-size:9px;padding:2px 6px;letter-spacing:0.05em;">PARTIAL</span>
+              <span style="color:var(--fg-2);">09 May · 21:13 · 2,104 hands · 9 sessions</span>
+              <span class="num" style="color:var(--warn);">2 warnings</span>
+              <button class="btn-quiet">Open log</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         COMPONENT SPEC
+         =================================================== -->
+    <section class="screen" data-screen="components" data-screen-label="Component spec">
+      <div class="head">
+        <div>
+          <h1>Component spec</h1>
+          <div class="sub">Design tokens, type scale, and reusable components. Same system across all screens above.</div>
+        </div>
+      </div>
+
+      <!-- Color tokens -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:0 0 12px;">01 · Color tokens</h2>
+      <div class="cmp-grid three">
+        <div class="cmp-card">
+          <div class="cmp-h">Surfaces</div>
+          <div class="swatch"><div class="sw-box" style="background:#08090b"></div><div><div class="sw-name">--bg</div><div class="sw-sub">page canvas</div></div><div class="sw-val">#08090B</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#0e1014"></div><div><div class="sw-name">--panel</div><div class="sw-sub">card surface</div></div><div class="sw-val">#0E1014</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#131620"></div><div><div class="sw-name">--panel-2</div><div class="sw-sub">elevated surface</div></div><div class="sw-val">#131620</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#181b26"></div><div><div class="sw-name">--panel-3</div><div class="sw-sub">interactive hover</div></div><div class="sw-val">#181B26</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#1b1f2c"></div><div><div class="sw-name">--panel-hover</div><div class="sw-sub">item hover</div></div><div class="sw-val">#1B1F2C</div></div>
+        </div>
+        <div class="cmp-card">
+          <div class="cmp-h">Text & borders</div>
+          <div class="swatch"><div class="sw-box" style="background:#f1f2f5"></div><div><div class="sw-name">--fg</div><div class="sw-sub">primary</div></div><div class="sw-val">#F1F2F5</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#aab0bd"></div><div><div class="sw-name">--fg-2</div><div class="sw-sub">secondary</div></div><div class="sw-val">#AAB0BD</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#6b7280"></div><div><div class="sw-name">--fg-3</div><div class="sw-sub">tertiary / meta</div></div><div class="sw-val">#6B7280</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#44495a"></div><div><div class="sw-name">--fg-4</div><div class="sw-sub">faint / disabled</div></div><div class="sw-val">#44495A</div></div>
+          <div class="swatch"><div class="sw-box" style="background:rgba(255,255,255,0.055);border-color:rgba(255,255,255,0.10);"></div><div><div class="sw-name">--border</div><div class="sw-sub">default</div></div><div class="sw-val">rgba(255,255,255,.055)</div></div>
+          <div class="swatch"><div class="sw-box" style="background:rgba(255,255,255,0.11);border-color:rgba(255,255,255,0.18);"></div><div><div class="sw-name">--border-strong</div><div class="sw-sub">emphasis</div></div><div class="sw-val">rgba(255,255,255,.11)</div></div>
+        </div>
+        <div class="cmp-card">
+          <div class="cmp-h">Accent &amp; semantic</div>
+          <div class="swatch"><div class="sw-box" style="background:#9b8cff"></div><div><div class="sw-name">--accent</div><div class="sw-sub">single accent · violet</div></div><div class="sw-val">#9B8CFF</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#c4baff"></div><div><div class="sw-name">--accent-2</div><div class="sw-sub">accent hover/text</div></div><div class="sw-val">#C4BAFF</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#6ee7b7"></div><div><div class="sw-name">--pos</div><div class="sw-sub">positive · muted</div></div><div class="sw-val">#6EE7B7</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#ef9a96"></div><div><div class="sw-name">--neg</div><div class="sw-sub">negative · muted</div></div><div class="sw-val">#EF9A96</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#f5c46b"></div><div><div class="sw-name">--warn</div><div class="sw-sub">warning</div></div><div class="sw-val">#F5C46B</div></div>
+          <div class="swatch"><div class="sw-box" style="background:#7eb6f0"></div><div><div class="sw-name">--info</div><div class="sw-sub">info / neutral state</div></div><div class="sw-val">#7EB6F0</div></div>
+        </div>
+      </div>
+
+      <!-- Typography -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">02 · Typography scale</h2>
+      <div class="cmp-grid">
+        <div class="cmp-card">
+          <div class="cmp-h">Inter (sans)</div>
+          <div class="type-row"><span style="font-size:28px;font-weight:600;letter-spacing:-0.02em;">Performance overview</span><span class="type-l">28 / 600 / -0.02em</span></div>
+          <div class="type-row"><span style="font-size:18px;font-weight:600;letter-spacing:-0.005em;">Section / large card</span><span class="type-l">18 / 600</span></div>
+          <div class="type-row"><span style="font-size:14px;font-weight:600;">Card / panel title</span><span class="type-l">14 / 600</span></div>
+          <div class="type-row"><span style="font-size:13px;">Body, calm description copy.</span><span class="type-l">13 / 400</span></div>
+          <div class="type-row"><span style="font-size:12px;color:var(--fg-3);">Secondary / meta copy</span><span class="type-l">12 / 400</span></div>
+          <div class="type-row"><span style="font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:var(--fg-3);">Overline label</span><span class="type-l">11 / 500 / 0.12em</span></div>
+        </div>
+        <div class="cmp-card">
+          <div class="cmp-h">JetBrains Mono (numbers, ids, code)</div>
+          <div class="type-row"><span style="font-family:var(--mono);font-size:28px;font-weight:500;">+12.4% · +3.2 bb/100</span><span class="type-l">28 / 500</span></div>
+          <div class="type-row"><span style="font-family:var(--mono);font-size:18px;font-weight:500;">84,326 hands</span><span class="type-l">18 / 500</span></div>
+          <div class="type-row"><span style="font-family:var(--mono);font-size:13px;">#H-8123-44 · 25–40 bb</span><span class="type-l">13 / 400</span></div>
+          <div class="type-row"><span style="font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:0.12em;color:var(--fg-3);">PANEL OVERLINE</span><span class="type-l">10.5 / 600 / 0.12em</span></div>
+          <div class="cmp-row" style="margin-top:8px;"><span class="cmp-label">Rule</span><span style="font-size:12px; color: var(--fg-2);">Sans for headings, body, controls. Mono for numbers, IDs, technical overlines.</span></div>
+        </div>
+      </div>
+
+      <!-- Card variants -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">03 · Card variants</h2>
+      <div class="cmp-grid three">
+        <div class="panel">
+          <div class="panel-h"><div class="panel-t"><span class="panel-num">·</span>Default panel</div></div>
+          <div style="font-size:12.5px;color:var(--fg-2);line-height:1.55;">Solid surface on bg. Used for most dashboard cards, tables, sidebars. 1px border, radius 10px.</div>
+        </div>
+        <div class="panel elevated">
+          <div class="panel-h"><div class="panel-t"><span class="panel-num">·</span>Elevated panel</div></div>
+          <div style="font-size:12.5px;color:var(--fg-2);line-height:1.55;">One step brighter (--panel-2). Used for inner regions, table headers, contained controls.</div>
+        </div>
+        <div class="panel outline">
+          <div class="panel-h"><div class="panel-t"><span class="panel-num">·</span>Outline / placeholder</div></div>
+          <div style="font-size:12.5px;color:var(--fg-3);line-height:1.55;">Dashed border, transparent fill. Used for empty regions, drag targets, before-data states.</div>
+        </div>
+      </div>
+
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">04 · Metric card</h2>
+      <div class="kpis" style="grid-template-columns: repeat(4, 1fr); display: grid;">
+        <div class="kpi">
+          <div class="kpi-l">ROI <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:92%"></span></span>92</span></div>
+          <div class="kpi-v">+12.4<span style="font-size:18px;color:var(--fg-3)">%</span></div>
+          <div class="kpi-d"><span class="pos">▲ 1.6pp</span> vs 90d</div>
+          <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,18 10,16 20,17 30,12 40,14 50,9 60,11 70,7 80,9 90,6 100,8 110,4 120,5" stroke="#9b8cff" stroke-width="1.4" fill="none"/></svg>
+        </div>
+        <div class="kpi">
+          <div class="kpi-l">bb / 100 <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:94%"></span></span>94</span></div>
+          <div class="kpi-v">+3.2</div>
+          <div class="kpi-d"><span class="pos">▲ 0.4</span> cash-equiv.</div>
+          <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,16 10,14 20,15 30,11 40,12 50,8 60,10 70,7 80,8 90,5 100,7 110,4 120,5" stroke="#9b8cff" stroke-width="1.4" fill="none"/></svg>
+        </div>
+        <div class="kpi">
+          <div class="kpi-l">Drawdown <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:78%"></span></span>78</span></div>
+          <div class="kpi-v" style="color:var(--neg)">−14</div>
+          <div class="kpi-d">buy-ins · Aug '25</div>
+          <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,4 10,5 20,7 30,8 40,10 50,12 60,14 70,16 80,14 90,12 100,10 110,8 120,6" stroke="#ef9a96" stroke-width="1.4" fill="none"/></svg>
+        </div>
+        <div class="kpi">
+          <div class="kpi-l">Sample <span class="badge warn" style="font-size:9px;padding:1px 6px;letter-spacing:0.05em;">THIN</span></div>
+          <div class="kpi-v">2,180</div>
+          <div class="kpi-d">HU samples · directional only</div>
+          <svg class="kpi-spark" viewBox="0 0 120 24" preserveAspectRatio="none"><polyline points="0,18 10,17 20,18 30,16 40,17 50,15 60,16 70,15 80,16 90,15 100,16 110,15 120,16" stroke="#f5c46b" stroke-width="1.4" fill="none"/></svg>
+        </div>
+      </div>
+      <div style="font-size: 11.5px; color: var(--fg-3); margin-top:10px; max-width: 700px; line-height: 1.55;">
+        <b style="color:var(--fg-2);">Anatomy:</b> label · confidence chip · value (mono) · delta · sparkline. Confidence chip is the contract — no metric ships without sample/confidence context.
+      </div>
+
+      <!-- Table row states -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">05 · Table row states</h2>
+      <div class="hands-wrap">
+        <table class="hands">
+          <thead><tr><th>State</th><th>Hand</th><th>Pos</th><th>Action</th><th class="num">Δ bb</th><th>State tag</th><th>Sample row</th></tr></thead>
+          <tbody>
+            <tr><td>Default</td><td class="num" style="text-align:left;">#H-8123-44</td><td><span class="pos-tag btn-pos">BTN</span></td><td>Call</td><td class="num pos">+1.4</td><td><span class="row-state compliant">Compliant</span></td><td style="color:var(--fg-3);font-size:11.5px;">no badge</td></tr>
+            <tr data-state="deviation"><td>Deviation</td><td class="num" style="text-align:left;">#H-7991-12</td><td><span class="pos-tag btn-pos">BTN</span></td><td><span class="h-name">Fold</span></td><td class="num neg">−0.8</td><td><span class="row-state deviation">Deviation</span></td><td style="color:var(--neg);font-size:11.5px;">action shown red</td></tr>
+            <tr data-state="starred"><td>Starred</td><td class="num" style="text-align:left;">#H-7644-08</td><td><span class="pos-tag">SB</span></td><td>3-bet</td><td class="num pos">+2.1</td><td><span class="star on"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9 16 14 18 21 12 17 6 21 8 14 2 9 9 9 12 2"/></svg></span> Starred</td><td style="color:var(--fg-3);font-size:11.5px;">warm bg tint</td></tr>
+            <tr data-state="reviewed"><td>Reviewed</td><td class="num" style="text-align:left;">#H-7512-21</td><td><span class="pos-tag">CO</span></td><td>Open</td><td class="num">+0.4</td><td><span class="row-state neutral">Reviewed</span></td><td style="color:var(--fg-3);font-size:11.5px;">muted text</td></tr>
+            <tr aria-selected="true"><td>Selected</td><td class="num" style="text-align:left;">#H-7466-02</td><td><span class="pos-tag">HJ</span></td><td>Open</td><td class="num pos">+0.6</td><td><span class="row-state review">In review</span></td><td style="color:var(--accent-2);font-size:11.5px;">accent bg</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Filters / chips / selects -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">06 · Filters · chips · selects</h2>
+      <div class="cmp-grid">
+        <div class="cmp-card">
+          <div class="cmp-h">Filter selects</div>
+          <div class="btn-row">
+            <button class="select"><span>Position</span><b>BTN, SB</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+            <button class="select"><span>Stack</span><b>25–40 bb</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+            <button class="select"><span>Date</span><b>Last 90 days</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+          </div>
+          <div class="cmp-h" style="margin-top:14px;">Active chips (removable)</div>
+          <div class="btn-row">
+            <span class="chip" aria-pressed="true">Position: BTN <span class="close">×</span></span>
+            <span class="chip" aria-pressed="true">25–40 bb <span class="close">×</span></span>
+            <span class="chip" aria-pressed="true">3-bet pots <span class="close">×</span></span>
+          </div>
+          <div class="cmp-h" style="margin-top:14px;">Toggle chips</div>
+          <div class="btn-row">
+            <span class="chip" aria-pressed="true">All · 12</span>
+            <span class="chip">Preflop · 5</span>
+            <span class="chip">Postflop · 7</span>
+            <span class="chip">By position</span>
+          </div>
+        </div>
+        <div class="cmp-card">
+          <div class="cmp-h">Segmented control</div>
+          <div class="btn-row">
+            <div class="seg"><button aria-pressed="true">Full database</button><button>Last session</button><button>30d</button><button>Custom</button></div>
+          </div>
+          <div class="cmp-h" style="margin-top:14px;">Input</div>
+          <div class="btn-row">
+            <div class="filters" style="padding:0;border:0;background:transparent;margin:0;">
+              <div class="input"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input placeholder="Search hand id, board, tag…"/></div>
+            </div>
+          </div>
+          <div class="cmp-h" style="margin-top:14px;">Density toggle</div>
+          <div class="btn-row">
+            <div class="density"><button title="Comfortable"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button><button aria-pressed="true" title="Compact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h18M3 9h18M3 13h18M3 17h18M3 21h18"/></svg></button></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">07 · Buttons</h2>
+      <div class="cmp-card">
+        <div class="btn-row">
+          <button class="btn">Primary action</button>
+          <button class="btn-ghost">Secondary</button>
+          <button class="btn-quiet">Quiet / link</button>
+          <button class="btn-danger">Destructive</button>
+          <button class="btn-icon" title="More"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="12" cy="19" r="1"/></svg></button>
+          <button class="btn" disabled style="opacity:0.4;cursor:not-allowed;">Disabled</button>
+        </div>
+        <div style="font-size: 11.5px; color: var(--fg-3); margin-top:14px; max-width: 760px; line-height: 1.55;">
+          Primary is the single accent — used sparingly, only for the highest-priority action on a surface. Secondary is the default action. Quiet is for inline / list-row actions. Destructive uses muted red, never aggressive.
+        </div>
+      </div>
+
+      <!-- Badges -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">08 · Severity &amp; confidence badges</h2>
+      <div class="cmp-grid">
+        <div class="cmp-card">
+          <div class="cmp-h">Severity</div>
+          <div class="btn-row">
+            <span class="sev2 high"><span class="sev-dot"></span>High</span>
+            <span class="sev2 med"><span class="sev-dot"></span>Medium</span>
+            <span class="sev2 low"><span class="sev-dot"></span>Low</span>
+          </div>
+          <div class="cmp-h" style="margin-top:14px;">Generic semantic badges</div>
+          <div class="btn-row">
+            <span class="badge pos"><span class="dot"></span>POSITIVE</span>
+            <span class="badge neg"><span class="dot"></span>NEGATIVE</span>
+            <span class="badge warn"><span class="dot"></span>WARNING</span>
+            <span class="badge info"><span class="dot"></span>INFO</span>
+            <span class="badge neutral"><span class="dot"></span>NEUTRAL</span>
+            <span class="badge"><span class="dot"></span>ACCENT</span>
+          </div>
+        </div>
+        <div class="cmp-card">
+          <div class="cmp-h">Confidence indicators</div>
+          <div style="display:flex; flex-direction: column; gap: 12px;">
+            <div style="display:flex; align-items:center; gap: 10px;">
+              <span class="conf-mini"><span class="conf-mini-bar"><span style="width:92%"></span></span><span class="conf-mini-v">92%</span></span>
+              <span style="font-size:12px; color:var(--fg-3);">Inline mini-bar for tables</span>
+            </div>
+            <div style="display:flex; align-items:center; gap: 10px;">
+              <span class="kpi-conf"><span class="kpi-conf-bar"><span style="width:78%"></span></span>78</span>
+              <span style="font-size:12px; color:var(--fg-3);">Compact chip for KPI corners</span>
+            </div>
+            <div style="display:flex; align-items:center; gap: 10px;">
+              <span class="badge"><span class="dot"></span>B+ · 92% WEIGHTED</span>
+              <span style="font-size:12px; color:var(--fg-3);">Grade band for headlines</span>
+            </div>
+            <div style="display:flex; align-items:center; gap: 10px;">
+              <span class="badge warn" style="font-size:9px;padding:1px 6px;letter-spacing:0.05em;">THIN</span>
+              <span style="font-size:12px; color:var(--fg-3);">When sample is too small for conclusions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- States -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">09 · States — empty · loading · warning · error</h2>
+      <div class="cmp-grid">
+        <div class="panel state-card">
+          <div class="state-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg></div>
+          <div class="state-title">No hands match these filters</div>
+          <div class="state-desc">Try removing a chip, widening the stack range, or expanding the date window.</div>
+          <div class="state-foot"><button class="btn-ghost">Clear filters</button><button class="btn">Show all hands</button></div>
+        </div>
+        <div class="skeleton">
+          <div class="skel-line w-30" style="height:14px;"></div>
+          <div class="skel-line w-90"></div>
+          <div class="skel-line w-70"></div>
+          <div class="skel-line w-50"></div>
+          <div class="skel-line w-70"></div>
+          <div style="font-family:var(--mono);font-size:10.5px;color:var(--fg-3);margin-top:14px;">LOADING · ~600 ms target</div>
+        </div>
+        <div class="panel state-card warn">
+          <div class="state-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.7 3.86a2 2 0 0 0-3.4 0z"/></svg></div>
+          <div class="state-title">Sample below confidence threshold</div>
+          <div class="state-desc">River-line conclusions on heads-up samples are directional only. Results shown but flagged.</div>
+          <div class="state-foot"><button class="btn-ghost">Show anyway</button></div>
+        </div>
+        <div class="panel state-card error">
+          <div class="state-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg></div>
+          <div class="state-title">Couldn't parse 3 hands</div>
+          <div class="state-desc">The local importer logged 3 malformed timestamps. These hands were skipped; the rest imported cleanly.</div>
+          <div class="state-foot"><button class="btn-ghost">Open log</button><button class="btn">Retry</button></div>
+        </div>
+      </div>
+
+      <!-- Loading overlay -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">10 · Loading / import overlay</h2>
+      <div class="panel" style="padding:0; overflow: hidden;">
+        <div style="padding: 22px 24px; display:flex; align-items:center; gap: 18px;">
+          <svg width="32" height="32" viewBox="0 0 40 40">
+            <circle cx="20" cy="20" r="16" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="3"/>
+            <circle cx="20" cy="20" r="16" fill="none" stroke="#9b8cff" stroke-width="3" stroke-dasharray="100.5" stroke-dashoffset="38" stroke-linecap="round" transform="rotate(-90 20 20)">
+              <animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="1.4s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+          <div style="flex:1;">
+            <div style="font-size: 13px; color: var(--fg); font-weight: 500;">Classifying scenarios &amp; ranges</div>
+            <div style="font-size: 11.5px; color: var(--fg-3); font-family: var(--mono); margin-top: 4px;">214 / 312 · est. 28s remaining</div>
+          </div>
+          <button class="btn-ghost">Run in background</button>
+          <button class="btn-quiet">Cancel</button>
+        </div>
+        <div class="progress-bar"><span></span></div>
+      </div>
+
+      <!-- Tokens / radius / spacing -->
+      <h2 style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--fg-3);margin:28px 0 12px;">11 · Radius · spacing · density</h2>
+      <div class="cmp-grid three">
+        <div class="cmp-card">
+          <div class="cmp-h">Radius</div>
+          <div class="cmp-row"><div style="width:28px;height:28px;border:1px solid var(--border-strong);border-radius:3px;"></div><span class="cmp-label">--r-xs</span><span class="cmp-val">3px · chips/tags</span></div>
+          <div class="cmp-row"><div style="width:28px;height:28px;border:1px solid var(--border-strong);border-radius:5px;"></div><span class="cmp-label">--r-sm</span><span class="cmp-val">5px · controls</span></div>
+          <div class="cmp-row"><div style="width:28px;height:28px;border:1px solid var(--border-strong);border-radius:7px;"></div><span class="cmp-label">--r-md</span><span class="cmp-val">7px · inputs/buttons</span></div>
+          <div class="cmp-row"><div style="width:28px;height:28px;border:1px solid var(--border-strong);border-radius:10px;"></div><span class="cmp-label">--r-lg</span><span class="cmp-val">10px · panels/cards</span></div>
+          <div class="cmp-row"><div style="width:28px;height:14px;border:1px solid var(--border-strong);border-radius:999px;"></div><span class="cmp-label">--r-pill</span><span class="cmp-val">999px · status pills only</span></div>
+        </div>
+        <div class="cmp-card">
+          <div class="cmp-h">Spacing scale</div>
+          <div class="cmp-row"><span class="cmp-label">2 · hairline</span><span class="cmp-val">2px</span></div>
+          <div class="cmp-row"><span class="cmp-label">6 · gap-xs</span><span class="cmp-val">6px</span></div>
+          <div class="cmp-row"><span class="cmp-label">10 · gap-sm</span><span class="cmp-val">10px</span></div>
+          <div class="cmp-row"><span class="cmp-label">14 · grid-gap</span><span class="cmp-val">14px · cards</span></div>
+          <div class="cmp-row"><span class="cmp-label">18 / 22 · pad</span><span class="cmp-val">card padding</span></div>
+          <div class="cmp-row"><span class="cmp-label">28 · page</span><span class="cmp-val">page side padding</span></div>
+        </div>
+        <div class="cmp-card">
+          <div class="cmp-h">Density</div>
+          <div class="cmp-row"><span class="cmp-label">row · compact</span><span class="cmp-val">38–42px · scanning</span></div>
+          <div class="cmp-row"><span class="cmp-label">row · comfortable</span><span class="cmp-val">48px · review</span></div>
+          <div class="cmp-row"><span class="cmp-label">card title</span><span class="cmp-val">14/600 + 8px below</span></div>
+          <div class="cmp-row"><span class="cmp-label">grid</span><span class="cmp-val">12-col · 14px gap</span></div>
+          <div class="cmp-row"><span class="cmp-label">max-width</span><span class="cmp-val">1480px · centered</span></div>
+        </div>
+      </div>
+
+      <div style="margin-top: 28px; padding: 16px 20px; border: 1px dashed var(--border-strong); border-radius: 10px; color: var(--fg-3); font-size: 12px; line-height: 1.6; max-width: 900px;">
+        <b style="color:var(--fg-2);">System contracts</b> · Every visible metric carries sample + confidence context. Severity is always sample-weighted, never raw. Raw chips is never a primary performance metric — bb deltas, bb/100, ROI, ABI, ITM only. Copy stays calm, English, private/local; no pricing, no public sharing, no virality.
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+  // ===== Screen routing =====
+  const screenLabels = {
+    dashboard: 'DASHBOARD',
+    hands: 'HANDS',
+    leaks: 'LEAK ANALYZER',
+    career: 'CAREER &amp; SESSIONS',
+    import: 'IMPORT',
+    components: 'COMPONENT SPEC',
+  };
+  const groups = {
+    dashboard: 'REVIEW', hands: 'REVIEW', leaks: 'REVIEW', career: 'REVIEW',
+    import: 'DATA', components: 'DESIGN',
+  };
+  function go(screen) {
+    document.querySelectorAll('.sb-item').forEach(b => {
+      b.removeAttribute('aria-current');
+      if (b.dataset.screen === screen) b.setAttribute('aria-current', 'page');
+    });
+    document.querySelectorAll('.screen').forEach(s => {
+      s.dataset.active = s.dataset.screen === screen ? 'true' : 'false';
+    });
+    const crumbs = document.getElementById('crumbs');
+    crumbs.innerHTML = (groups[screen] || 'REVIEW') + ' <span style="color:var(--fg-4)">/</span> <b>' + screenLabels[screen] + '</b>';
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }
+  document.querySelectorAll('[data-screen]').forEach(el => {
+    if (el.tagName === 'BUTTON') el.addEventListener('click', () => go(el.dataset.screen));
+  });
+  document.querySelectorAll('[data-screen-link]').forEach(el => {
+    el.addEventListener('click', () => go(el.dataset.screenLink));
+  });
+
+  // ===== Hands fixture =====
+  const hands = [
+    { d:'11 May 21:04', id:'H-8123-44', pos:'BTN', bb:28, sc:'vs SB 3-bet', ac:'Fold', delta:-1.0, st:'deviation', tags:['BTN-defense'] },
+    { d:'11 May 20:48', id:'H-8123-21', pos:'BTN', bb:32, sc:'vs SB 3-bet', ac:'Call', delta:+1.4, st:'compliant', tags:['BTN-defense'] },
+    { d:'11 May 20:11', id:'H-8122-77', pos:'CO',  bb:38, sc:'Open', ac:'2.2x',  delta:+0.4, st:'compliant', tags:[] },
+    { d:'11 May 19:54', id:'H-8122-55', pos:'SB',  bb:26, sc:'vs CO open', ac:'Fold', delta:-0.5, st:'deviation', tags:['SB-defense'] },
+    { d:'11 May 19:32', id:'H-8121-12', pos:'BB',  bb:24, sc:'vs BTN open', ac:'Call', delta:-1.8, st:'review', tags:['flag'] },
+    { d:'10 May 22:48', id:'H-7991-12', pos:'BTN', bb:32, sc:'vs SB 3-bet', ac:'Fold', delta:-0.8, st:'deviation', tags:['BTN-defense'] },
+    { d:'10 May 22:10', id:'H-7990-04', pos:'HJ',  bb:42, sc:'Open', ac:'2.5x',  delta:+0.6, st:'compliant', tags:[] },
+    { d:'10 May 21:33', id:'H-7989-66', pos:'CO',  bb:36, sc:'3-bet vs HJ', ac:'3.0x', delta:+2.1, st:'starred', tags:['fav-line'] },
+    { d:'10 May 21:09', id:'H-7989-12', pos:'SB',  bb:30, sc:'vs MP open', ac:'Fold', delta:-0.5, st:'reviewed', tags:[] },
+    { d:'10 May 20:47', id:'H-7988-31', pos:'BB',  bb:28, sc:'vs CO open', ac:'Defend', delta:+1.1, st:'compliant', tags:[] },
+    { d:'09 May 19:12', id:'H-7644-08', pos:'BTN', bb:26, sc:'vs SB 3-bet', ac:'Fold', delta:-1.2, st:'deviation', tags:['BTN-defense','review-flagged'] },
+    { d:'09 May 18:54', id:'H-7644-02', pos:'CO',  bb:40, sc:'Open', ac:'2.2x', delta:+0.4, st:'compliant', tags:[] },
+    { d:'09 May 18:11', id:'H-7643-77', pos:'BTN', bb:35, sc:'Open', ac:'2.2x', delta:+0.8, st:'compliant', tags:[] },
+    { d:'09 May 17:48', id:'H-7643-12', pos:'SB',  bb:22, sc:'vs CO open', ac:'Call', delta:-2.4, st:'deviation', tags:['SB-defense'] },
+    { d:'09 May 17:09', id:'H-7642-44', pos:'BB',  bb:18, sc:'vs BTN open', ac:'3-bet', delta:+3.2, st:'starred', tags:['fav-line'] },
+    { d:'08 May 22:48', id:'H-7512-21', pos:'BTN', bb:30, sc:'vs SB 3-bet', ac:'Call', delta:+0.4, st:'reviewed', tags:[] },
+    { d:'08 May 22:11', id:'H-7511-08', pos:'HJ',  bb:44, sc:'Open', ac:'2.5x', delta:-0.2, st:'compliant', tags:[] },
+    { d:'08 May 21:42', id:'H-7510-72', pos:'CO',  bb:38, sc:'Open', ac:'2.2x', delta:+0.6, st:'compliant', tags:[] },
+    { d:'08 May 21:09', id:'H-7510-12', pos:'BTN', bb:33, sc:'vs SB 3-bet', ac:'4-bet', delta:+2.8, st:'starred', tags:['fav-line'] },
+    { d:'08 May 20:48', id:'H-7509-44', pos:'SB',  bb:24, sc:'vs HJ open', ac:'Fold', delta:-0.4, st:'reviewed', tags:[] },
+    { d:'08 May 20:11', id:'H-7508-90', pos:'BB',  bb:22, sc:'vs CO open', ac:'Defend', delta:+0.6, st:'compliant', tags:[] },
+    { d:'07 May 23:48', id:'H-7466-02', pos:'HJ',  bb:36, sc:'Open', ac:'2.5x', delta:+0.6, st:'review', tags:['review-flagged'] },
+    { d:'07 May 23:11', id:'H-7465-88', pos:'CO',  bb:34, sc:'3-bet vs HJ', ac:'3.0x', delta:+1.2, st:'compliant', tags:[] },
+    { d:'07 May 22:48', id:'H-7465-22', pos:'BTN', bb:38, sc:'Open', ac:'2.2x', delta:-0.4, st:'compliant', tags:[] },
+    { d:'07 May 22:11', id:'H-7464-99', pos:'SB',  bb:28, sc:'vs CO open', ac:'Fold', delta:-0.5, st:'deviation', tags:['SB-defense'] },
+  ];
+
+  function rowState(st) {
+    const m = {
+      compliant: '<span class="row-state compliant">Compliant</span>',
+      deviation: '<span class="row-state deviation">Deviation</span>',
+      review:    '<span class="row-state review">In review</span>',
+      starred:   '<span class="row-state neutral">Starred</span>',
+      reviewed:  '<span class="row-state neutral">Reviewed</span>',
+    };
+    return m[st] || '';
+  }
+  function checked(i) { return [0,2,10].includes(i) ? 'checked' : ''; }
+  function selected(i) { return i === 10 ? 'aria-selected="true"' : ''; }
+  function star(t) { return t.includes('fav-line') ? '<span class="star on"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15 9 22 9 16 14 18 21 12 17 6 21 8 14 2 9 9 9 12 2"/></svg></span>' : '<span class="star"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15 9 22 9 16 14 18 21 12 17 6 21 8 14 2 9 9 9 12 2"/></svg></span>'; }
+  function posTag(p) { return '<span class="pos-tag' + (p==='BTN'?' btn-pos':'') + '">' + p + '</span>'; }
+  function tagPills(tags) {
+    if (!tags.length) return '<span style="color:var(--fg-4);font-size:11px;">—</span>';
+    return tags.slice(0,2).map(t => '<span class="chip" style="padding:2px 7px;font-size:10px;">' + t + '</span>').join(' ');
+  }
+  const tbody = document.getElementById('hands-tbody');
+  tbody.innerHTML = hands.map((h,i) => `
+    <tr data-state="${h.st}" ${selected(i)}>
+      <td class="checkbox"><span class="check ${checked(i)}"></span></td>
+      <td>${star(h.tags)}</td>
+      <td><span style="font-family:var(--mono);font-size:11.5px;color:var(--fg-3);">${h.d}</span></td>
+      <td><span class="h-name" style="font-family:var(--mono);font-size:11.5px;">#${h.id}</span></td>
+      <td>${posTag(h.pos)}</td>
+      <td class="num">${h.bb}</td>
+      <td style="color:var(--fg-2);">${h.sc}</td>
+      <td style="font-weight:500;color:${h.st==='deviation'?'var(--neg)':'var(--fg)'};">${h.ac}</td>
+      <td class="num ${h.delta>0?'pos':'neg'}">${h.delta>0?'+':''}${h.delta.toFixed(1)}</td>
+      <td>${rowState(h.st)}</td>
+      <td>${tagPills(h.tags)}</td>
+      <td style="text-align:right;">
+        <div class="row-actions">
+          <button class="btn-icon" title="Replay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg></button>
+          <button class="btn-icon" title="Tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.6 13.4L13.4 20.6a1.4 1.4 0 0 1-2 0L2 11.2V2h9.2l9.4 9.4a1.4 1.4 0 0 1 0 2z"/><circle cx="7" cy="7" r="1"/></svg></button>
+          <button class="btn-icon" title="More"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="12" cy="19" r="1"/></svg></button>
+        </div>
+      </td>
+    </tr>
+  `).join('');
+
+  // ===== Leak queue items =====
+  const leaks = [
+    { rank:'01', name:'Overfolding BTN vs SB 3-bet IP', sev:'High', sample:'1,240', conf:92, imp:-1.8, sel:true },
+    { rank:'02', name:'SB defense vs CO/BTN open too tight', sev:'High', sample:'920', conf:88, imp:-1.2 },
+    { rank:'03', name:'Turn check-raise frequency too low OOP', sev:'Medium', sample:'680', conf:84, imp:-0.9 },
+    { rank:'04', name:'Open-limping MP at early levels', sev:'Medium', sample:'480', conf:78, imp:-0.6 },
+    { rank:'05', name:'River bluff-catching MP vs CO too loose', sev:'Low', sample:'320', conf:65, imp:-0.3 },
+    { rank:'06', name:'BB defense vs BTN min-raise too wide', sev:'Medium', sample:'612', conf:80, imp:-0.5 },
+    { rank:'07', name:'CO 3-bet vs HJ open under-bluffed', sev:'Low', sample:'408', conf:72, imp:-0.3 },
+    { rank:'08', name:'Continuation-bet flop SRP too high', sev:'Low', sample:'2,140', conf:70, imp:-0.2 },
+  ];
+  const sevClass = s => s.toLowerCase();
+  const queueEl = document.getElementById('leak-queue');
+  queueEl.innerHTML = leaks.map(l => {
+    const fillCount = Math.round(l.conf / 10);
+    const bars = Array.from({length:10}, (_,i) => '<span class="' + (i < fillCount ? 'fill' : '') + '"></span>').join('');
+    return `
+      <div class="q-item" ${l.sel?'aria-selected="true"':''}>
+        <div class="q-item-top">
+          <span class="q-item-rank">${l.rank}</span>
+          <span class="sev2 ${sevClass(l.sev)}"><span class="sev-dot"></span>${l.sev}</span>
+        </div>
+        <div class="q-item-name">${l.name}</div>
+        <div class="q-item-meta">
+          <span>${l.sample} hands</span>
+          <span>${l.conf}% conf</span>
+          <span class="neg">${l.imp.toFixed(1)} bb/100</span>
+        </div>
+        <div class="q-item-bar">${bars}</div>
+      </div>`;
+  }).join('');
+  queueEl.querySelectorAll('.q-item').forEach((el,i) => {
+    el.addEventListener('click', () => {
+      queueEl.querySelectorAll('.q-item').forEach(e => e.removeAttribute('aria-selected'));
+      el.setAttribute('aria-selected','true');
+    });
+  });
+
+  // ===== Heatmap (activity) =====
+  const heat = document.getElementById('cal-heat');
+  if (heat) {
+    let html = '';
+    for (let w = 0; w < 12; w++) {
+      for (let d = 0; d < 7; d++) {
+        const v = Math.random();
+        let bg = 'var(--panel-3)';
+        if (v > 0.85) bg = 'var(--accent)';
+        else if (v > 0.65) bg = 'rgba(155,140,255,0.6)';
+        else if (v > 0.4) bg = 'rgba(155,140,255,0.3)';
+        else if (v > 0.2) bg = 'rgba(155,140,255,0.12)';
+        html += `<div style="width:100%;aspect-ratio:1;background:${bg};border-radius:2px;"></div>`;
+      }
+    }
+    heat.style.gridTemplateColumns = 'repeat(12, 1fr)';
+    heat.style.gridAutoFlow = 'column';
+    heat.style.gridTemplateRows = 'repeat(7, 1fr)';
+    heat.innerHTML = html;
+  }
+</script>
+</body>
+</html>

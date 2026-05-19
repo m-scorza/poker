@@ -1,0 +1,1405 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1480, initial-scale=1" />
+<title>Dashboard v4 — carousel · live chips · interactive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0c;
+    --panel: #14151a;
+    --panel-2: #1a1c22;
+    --panel-3: #20232a;
+    --panel-hover: #1d2027;
+    --border: rgba(255,255,255,0.07);
+    --border-strong: rgba(255,255,255,0.13);
+    --fg: #efefef;
+    --fg-2: #b4b6bc;
+    --fg-3: #74777e;
+    --fg-4: #4a4d54;
+    --accent: #8b7cff;
+    --accent-2: #b7adff;
+    --accent-soft: rgba(139,124,255,0.10);
+    --accent-border: rgba(139,124,255,0.30);
+    --pos: #6dbf8d;
+    --neg: #e8807a;
+    --warn: #d9a85a;
+    --info: #7eb6f0;
+    --money: #b8e1c8;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --sans: 'Inter', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  body { background: var(--bg); color: var(--fg); min-height: 100vh; }
+  button, input, select { font-family: inherit; }
+  a { color: inherit; text-decoration: none; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+
+  /* CHROME */
+  .chrome { position: sticky; top: 0; z-index: 100; background: rgba(10,10,12,0.88); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+  .chrome-inner { max-width: 1480px; margin: 0 auto; padding: 13px 32px; display: flex; align-items: center; gap: 24px; }
+  .chrome-brand { display: flex; align-items: center; gap: 11px; font-size: 13px; color: #cfd1d6; }
+  .chrome-brand-mark { width: 22px; height: 22px; border-radius: 5px; background: linear-gradient(135deg, #232631 0%, #14161a 100%); border: 1px solid rgba(255,255,255,0.10); display: flex; align-items: center; justify-content: center; color: #b7adff; }
+  .chrome-brand-mark svg { width: 11px; height: 11px; }
+  .chrome-brand b { font-weight: 600; color: var(--fg); }
+  .chrome-brand span { color: var(--fg-3); font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; }
+  .chrome-spacer { flex: 1; }
+  .chrome-note { font-size: 11.5px; color: var(--fg-3); font-family: var(--mono); letter-spacing: 0.02em; }
+  .decisions-strip { max-width: 1480px; margin: 0 auto; padding: 11px 32px 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .dec-chip { background: rgba(139,124,255,0.08); border: 1px solid rgba(139,124,255,0.22); color: var(--accent-2); font-family: var(--mono); font-size: 10.5px; padding: 4px 9px; border-radius: 4px; letter-spacing: 0.02em; display: inline-flex; align-items: center; gap: 6px; }
+  .dec-chip::before { content: ''; width: 5px; height: 5px; background: var(--accent-2); border-radius: 50%; }
+  .dec-chip.money { background: rgba(184,225,200,0.07); border-color: rgba(184,225,200,0.22); color: var(--money); }
+  .dec-chip.money::before { background: var(--money); }
+
+  /* LAYOUT */
+  .frame { max-width: 1480px; margin: 0 auto; padding: 20px 32px 60px; display: grid; grid-template-columns: 232px 1fr; gap: 32px; }
+
+  /* SIDEBAR */
+  .sb { padding-top: 8px; min-height: 100vh; }
+  .sb-brand { display: flex; align-items: center; gap: 11px; padding: 6px 10px 22px; }
+  .sb-mark { width: 30px; height: 30px; border-radius: 8px; background: linear-gradient(160deg, #2a2d3a 0%, #14151a 100%); border: 1px solid var(--border-strong); display: flex; align-items: center; justify-content: center; color: var(--accent); }
+  .sb-mark svg { width: 14px; height: 14px; }
+  .sb-name { font-size: 14px; font-weight: 600; color: var(--fg); letter-spacing: -0.01em; }
+  .sb-name-sub { font-size: 10.5px; color: var(--fg-3); font-family: var(--mono); margin-top: 2px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .sb-search { display: flex; align-items: center; gap: 8px; padding: 7px 10px; background: var(--panel); border: 1px solid var(--border); border-radius: 7px; color: var(--fg-3); font-size: 12px; margin-bottom: 14px; }
+  .sb-search svg { width: 12px; height: 12px; }
+  .sb-search .key { margin-left: auto; font-family: var(--mono); font-size: 10px; color: var(--fg-4); padding: 1px 5px; border: 1px solid var(--border); border-radius: 3px; }
+  .sb-section { font-size: 10px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--fg-4); padding: 0 10px; margin: 14px 0 4px; font-weight: 600; font-family: var(--mono); }
+  .sb-item { display: flex; align-items: center; gap: 11px; padding: 8px 10px; border-radius: 7px; font-size: 13px; color: var(--fg-2); cursor: pointer; position: relative; border: 0; background: none; width: 100%; text-align: left; }
+  .sb-item:hover { background: var(--panel-2); color: var(--fg); }
+  .sb-item[aria-current="page"] { background: rgba(139,124,255,0.10); color: var(--accent-2); }
+  .sb-item[aria-current="page"]::before { content: ''; position: absolute; left: -4px; top: 7px; bottom: 7px; width: 3px; background: var(--accent); border-radius: 2px; }
+  .sb-item svg { width: 15px; height: 15px; color: var(--fg-3); }
+  .sb-item[aria-current="page"] svg { color: var(--accent); }
+  .sb-count { margin-left: auto; font-family: var(--mono); font-size: 10px; color: var(--fg-4); }
+  .sb-stake { margin-top: 22px; padding: 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 9px; position: relative; overflow: hidden; }
+  .sb-stake::after { content: ''; position: absolute; right: -40px; top: -30px; width: 110px; height: 110px; background: radial-gradient(circle, rgba(184,225,200,0.10) 0%, transparent 65%); pointer-events: none; }
+  .sb-stake-eyebrow { font-size: 10px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--fg-4); margin-bottom: 8px; font-family: var(--mono); }
+  .sb-stake-val { font-family: var(--mono); font-size: 22px; color: var(--money); font-weight: 500; line-height: 1; }
+  .sb-stake-row { display: flex; align-items: center; gap: 8px; margin-top: 8px; font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); position: relative; z-index: 1; }
+  .sb-stake-row .dot { width: 5px; height: 5px; background: var(--pos); border-radius: 50%; box-shadow: 0 0 0 3px rgba(109,191,141,0.12); }
+  .sb-stake-tiny { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 10px; color: var(--fg-3); display: flex; justify-content: space-between; }
+  .sb-stake-tiny b { color: var(--fg-2); font-weight: 500; }
+  .sb-foot { margin-top: 18px; display: flex; flex-direction: column; gap: 10px; }
+  .sb-collapse { background: var(--panel); border: 1px solid var(--border); color: var(--fg-3); font-size: 11.5px; padding: 8px 10px; border-radius: 6px; display: flex; align-items: center; gap: 8px; cursor: pointer; font-family: var(--mono); }
+  .sb-collapse svg { width: 12px; height: 12px; }
+  .sb-collapse .k { margin-left: auto; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border); border-radius: 3px; }
+
+  /* MAIN */
+  .main { min-width: 0; padding-top: 8px; }
+  .topbar { display: flex; align-items: flex-end; justify-content: space-between; padding-bottom: 24px; border-bottom: 1px solid var(--border); margin-bottom: 22px; gap: 18px; }
+  .topbar h1 { margin: 0; font-size: 30px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.05; }
+  .topbar .crumb { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 10px; }
+  .topbar .meta { display: flex; gap: 22px; margin-top: 10px; font-size: 12px; color: var(--fg-3); }
+  .topbar .meta b { color: var(--fg-2); font-family: var(--mono); font-weight: 500; }
+  .top-actions { display: flex; gap: 10px; align-items: center; }
+  .strategy-chip { display: inline-flex; align-items: center; gap: 8px; padding: 6px 11px; background: var(--accent-soft); border: 1px solid var(--accent-border); border-radius: 6px; font-size: 11.5px; color: var(--accent-2); font-family: var(--mono); cursor: pointer; }
+  .strategy-chip .dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; }
+  .strategy-chip svg { width: 9px; height: 9px; opacity: 0.7; }
+  .seg { display: inline-flex; background: var(--panel); border: 1px solid var(--border); border-radius: 7px; padding: 3px; }
+  .seg button { background: none; border: 0; color: var(--fg-2); font: 500 12px var(--sans); padding: 6px 13px; border-radius: 4px; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--panel-3); color: var(--fg); }
+
+  /* MONEY HERO */
+  .money-hero { background: linear-gradient(160deg, var(--panel) 0%, #0e1014 100%); border: 1px solid var(--border); border-radius: 14px; padding: 36px 40px; margin-bottom: 16px; position: relative; overflow: hidden; }
+  .money-hero::after { content: ''; position: absolute; right: -120px; top: -60px; width: 380px; height: 380px; background: radial-gradient(circle, rgba(139,124,255,0.10) 0%, transparent 65%); pointer-events: none; }
+  .mh-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 36px; position: relative; }
+  .mh-eye { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--fg-3); font-family: var(--mono); margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+  .mh-eye .dot { width: 6px; height: 6px; background: var(--pos); border-radius: 50%; box-shadow: 0 0 0 4px rgba(109,191,141,0.12); }
+  .mh-money { font-family: var(--mono); font-size: 64px; color: var(--money); font-weight: 500; letter-spacing: -0.028em; line-height: 1; }
+  .mh-money .cents { font-size: 36px; color: rgba(184,225,200,0.55); }
+  .mh-delta { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; font-family: var(--mono); font-size: 13px; color: var(--pos); }
+  .mh-delta::before { content: '↑'; font-size: 14px; }
+  .chip-stack { position: absolute; right: 6px; bottom: -28px; width: 280px; height: 280px; pointer-events: none; z-index: 0; }
+  .chip-stack svg { width: 100%; height: 100%; display: block; }
+  .chip-readout {
+    position: absolute; right: 32px; bottom: 14px;
+    font-family: var(--mono); font-size: 10px; color: var(--fg-3);
+    letter-spacing: 0.08em; text-transform: uppercase; line-height: 1.5;
+    text-align: right; z-index: 2; pointer-events: none;
+  }
+  .chip-readout b { color: var(--fg); font-weight: 500; letter-spacing: 0.04em; }
+  .chip-readout .tier-badge {
+    display: inline-block; padding: 1px 7px; margin-left: 4px;
+    border-radius: 3px; font-size: 9px; letter-spacing: 0.06em;
+    background: var(--panel-3); border: 1px solid var(--border);
+  }
+  .chip-readout .tier-badge.tier-bronze { color: #d6cdb0; border-color: rgba(214,205,176,0.25); background: rgba(214,205,176,0.06); }
+  .chip-readout .tier-badge.tier-red    { color: #e8736d; border-color: rgba(232,115,109,0.30); background: rgba(232,115,109,0.07); }
+  .chip-readout .tier-badge.tier-green  { color: var(--money); border-color: rgba(184,225,200,0.30); background: rgba(184,225,200,0.07); }
+  .chip-readout .tier-badge.tier-black  { color: var(--accent-2); border-color: var(--accent-border); background: var(--accent-soft); }
+  .chip-readout .tier-badge.tier-gold   { color: #d4af37; border-color: rgba(212,175,55,0.35); background: rgba(212,175,55,0.08); }
+  .mh-foot { margin-top: 18px; display: flex; gap: 18px; flex-wrap: wrap; font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .mh-foot b { color: var(--fg-2); font-weight: 500; }
+  .mh-foot .sep { color: var(--fg-4); }
+  .mh-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 28px; align-content: center; position: relative; z-index: 2; }
+  .mh-stat .l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg-3); margin-bottom: 6px; font-family: var(--mono); }
+  .mh-stat .v { font-family: var(--mono); font-size: 22px; color: var(--fg); font-weight: 500; line-height: 1; }
+  .mh-stat .v.pos { color: var(--pos); }
+  .mh-stat .s { font-size: 11px; color: var(--fg-3); margin-top: 4px; font-family: var(--mono); }
+
+  /* KPI STRIP — carousel paged */
+  .kpi-strip { padding: 18px 22px 20px; margin-bottom: 16px; }
+  .kpi-head { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+  .kpi-eye { font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg); font-family: var(--mono); }
+  .kpi-profile { font-family: var(--mono); font-size: 10.5px; padding: 3px 9px; background: var(--accent-soft); border: 1px solid var(--accent-border); border-radius: 4px; color: var(--accent-2); letter-spacing: 0.04em; }
+  .kpi-meta { margin-left: auto; font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); }
+  .kpi-nav { display: inline-flex; gap: 4px; }
+  .kpi-nav button { background: var(--panel-2); border: 1px solid var(--border); color: var(--fg-3); width: 26px; height: 22px; border-radius: 5px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; padding: 0; }
+  .kpi-nav button:hover:not(:disabled) { color: var(--fg); border-color: var(--border-strong); }
+  .kpi-nav button:disabled { opacity: 0.35; cursor: default; }
+  .kpi-nav svg { width: 10px; height: 10px; }
+  .kpi-pages { font-family: var(--mono); font-size: 10px; color: var(--fg-4); margin-left: 6px; }
+  .kpi-pages b { color: var(--fg-2); font-weight: 500; }
+  .kpi-viewport { overflow: hidden; border: 1px solid var(--border); border-radius: 8px; }
+  .kpi-track { display: flex; gap: 1px; background: var(--border); transition: margin-left 0.32s cubic-bezier(0.4,0,0.2,1); }
+  .kpi { background: var(--panel); border: 0; padding: 14px 16px; text-align: left; cursor: pointer; transition: background 0.12s ease; position: relative; font: inherit; color: inherit; flex: 0 0 calc((100% - 5px) / 6); }
+  .kpi:hover { background: var(--panel-2); }
+  .kpi[aria-selected="true"] { background: var(--panel-2); }
+  .kpi[aria-selected="true"]::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--accent); }
+  .kpi-l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); font-family: var(--mono); font-weight: 600; }
+  .kpi-v { font-family: var(--mono); font-size: 22px; color: var(--fg); font-weight: 500; line-height: 1; margin-top: 8px; }
+  .kpi-v .kpi-unit { font-size: 14px; color: var(--fg-3); margin-left: 2px; }
+  .kpi-band { height: 4px; background: var(--panel-3); border-radius: 2px; position: relative; margin-top: 12px; }
+  .kpi-target { position: absolute; top: 0; bottom: 0; background: rgba(109,191,141,0.22); border-radius: 2px; }
+  .kpi-marker { position: absolute; top: -3px; bottom: -3px; width: 2px; border-radius: 1px; background: var(--fg); transform: translateX(-1px); }
+  .kpi-marker.pos { background: var(--pos); box-shadow: 0 0 0 2px rgba(109,191,141,0.18); }
+  .kpi-marker.warn { background: var(--warn); box-shadow: 0 0 0 2px rgba(217,168,90,0.18); }
+  .kpi-marker.neg { background: var(--neg); box-shadow: 0 0 0 2px rgba(232,128,122,0.18); }
+  .kpi-s { font-size: 10.5px; color: var(--fg-3); margin-top: 8px; font-family: var(--mono); }
+  .kpi-s.pos { color: var(--pos); }
+  .kpi-s.warn { color: var(--warn); }
+  .kpi-s.neg { color: var(--neg); }
+  .kpi-s .arrow { margin-right: 3px; }
+
+  /* ROWS */
+  .row { display: grid; gap: 16px; margin-bottom: 16px; }
+  .row-2-43 { grid-template-columns: 1.42fr 1fr; }
+  .row-2-eq { grid-template-columns: 1fr 1fr; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 22px 24px; display: flex; flex-direction: column; }
+  .card-eye { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg-3); font-family: var(--mono); margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+  .card-eye .meta { margin-left: auto; font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); text-transform: none; letter-spacing: 0.02em; }
+  .card-eye.warn { color: var(--warn); }
+  .card-eye.warn .dot { width: 6px; height: 6px; background: var(--warn); border-radius: 50%; }
+
+  /* VERDICT */
+  .verdict { border-left: 3px solid var(--accent); }
+  .v-title { font-size: 22px; font-weight: 600; line-height: 1.3; letter-spacing: -0.015em; max-width: 540px; }
+  .v-title em { color: var(--accent-2); font-style: normal; }
+  .v-sub { font-size: 13px; color: var(--fg-2); margin-top: 12px; line-height: 1.6; max-width: 520px; }
+  .v-stats-wrap { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 22px; }
+  .v-stat .l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); margin-bottom: 6px; font-family: var(--mono); }
+  .v-stat .v { font-family: var(--mono); font-size: 18px; color: var(--fg); font-weight: 500; }
+  .v-stat .v.pos { color: var(--pos); }
+  .v-stat .s { font-size: 11px; color: var(--fg-3); margin-top: 4px; font-family: var(--mono); }
+
+  /* RANGE MATRIX */
+  .range { padding: 18px 20px; }
+  .range-h { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .range-title { font-size: 10.5px; font-family: var(--mono); color: var(--fg); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 600; }
+  .range-pos { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); }
+  .range-sub { font-size: 12px; color: var(--fg-2); margin-bottom: 14px; line-height: 1.5; }
+  .range-sub em { color: var(--neg); font-style: normal; font-family: var(--mono); }
+  .range-grid { display: grid; grid-template-columns: repeat(13, 1fr); gap: 2px; }
+  .rcell { aspect-ratio: 1; background: rgba(255,255,255,0.04); border-radius: 3px; font-family: var(--mono); font-size: 9px; color: var(--fg-4); display: flex; align-items: baseline; justify-content: center; transition: transform 0.1s ease; cursor: pointer; line-height: 1; padding-top: 38%; }
+  .rcell .suf { font-size: 0.7em; opacity: 0.65; margin-left: 0.5px; letter-spacing: 0; font-weight: 500; }
+  .rcell.r3 .suf, .rcell.r4 .suf { opacity: 0.85; }
+  .rcell:hover { transform: scale(1.08); z-index: 2; position: relative; }
+  .rcell.r1 { background: rgba(139,124,255,0.16); color: var(--accent-2); }
+  .rcell.r2 { background: rgba(139,124,255,0.32); color: #fff; }
+  .rcell.r3 { background: rgba(139,124,255,0.52); color: #fff; }
+  .rcell.r4 { background: rgba(139,124,255,0.82); color: #fff; }
+  .rcell.dev { box-shadow: inset 0 0 0 1.5px var(--neg); animation: pulse-dev 2.4s ease-in-out infinite; }
+  @keyframes pulse-dev { 0%,100% { box-shadow: inset 0 0 0 1.5px var(--neg); } 50% { box-shadow: inset 0 0 0 1.5px var(--neg), 0 0 0 1.5px rgba(232,128,122,0.30); } }
+  .range-foot { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 14px; font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); align-items: center; }
+  .range-foot b { color: var(--fg); font-weight: 500; }
+  .range-foot .swatch { width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; vertical-align: middle; display: inline-block; }
+  .range-foot .swatch.dev { box-shadow: inset 0 0 0 1.5px var(--neg); }
+  .range-tabs { display: inline-flex; gap: 2px; padding: 2px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 5px; margin-left: auto; }
+  .range-tabs button { background: none; border: 0; color: var(--fg-3); font: 500 10px var(--mono); padding: 3px 7px; border-radius: 3px; cursor: pointer; letter-spacing: 0.04em; }
+  .range-tabs button[aria-pressed="true"] { background: var(--panel-3); color: var(--fg); }
+
+  /* TOP BLOCKER */
+  .blocker-title { font-size: 18px; font-weight: 600; line-height: 1.4; letter-spacing: -0.008em; }
+  .blocker-desc { font-size: 13px; color: var(--fg-2); margin-top: 10px; line-height: 1.6; }
+  .blocker-meta { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 14px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); }
+  .blocker-cell .l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); margin-bottom: 4px; font-family: var(--mono); }
+  .blocker-cell .v { font-family: var(--mono); font-size: 15px; color: var(--fg); }
+  .blocker-cell .v.neg { color: var(--neg); }
+  .blocker-foot { margin-top: 18px; display: flex; gap: 8px; }
+  .btn { background: var(--accent); border: 0; color: #0f0f14; font: 600 12.5px var(--sans); padding: 9px 16px; border-radius: 7px; cursor: pointer; letter-spacing: -0.005em; }
+  .btn:hover { background: var(--accent-2); }
+  .btn-ghost { background: transparent; border: 1px solid var(--border-strong); color: var(--fg-2); padding: 8px 14px; border-radius: 7px; font: 500 12.5px var(--sans); cursor: pointer; }
+  .btn-ghost:hover { color: var(--fg); border-color: var(--fg-3); }
+
+  /* STACK BANDS */
+  .stack-sub { font-size: 12px; color: var(--fg-2); margin-bottom: 14px; line-height: 1.5; }
+  .stack-bands { display: flex; flex-direction: column; gap: 9px; }
+  .sb-row { display: grid; grid-template-columns: 78px 1fr 78px 50px; gap: 12px; align-items: center; font-size: 12px; }
+  .sb-band { font-family: var(--mono); font-size: 10.5px; color: var(--fg-2); }
+  .sb-bar { height: 8px; background: var(--panel-3); border-radius: 2px; overflow: hidden; position: relative; }
+  .sb-bar span { display: block; height: 100%; border-radius: 2px; }
+  .sb-row[data-band="push"] .sb-bar span { background: var(--neg); }
+  .sb-row[data-band="crit"] .sb-bar span { background: #ff8c5a; }
+  .sb-row[data-band="warn"] .sb-bar span { background: var(--warn); }
+  .sb-row[data-band="ok"] .sb-bar span { background: var(--fg-3); }
+  .sb-row[data-band="deep"] .sb-bar span { background: var(--info); }
+  .sb-row[data-band="push"] .sb-band { color: var(--neg); }
+  .sb-row[data-band="crit"] .sb-band { color: #ff8c5a; }
+  .sb-row[data-band="warn"] .sb-band { color: var(--warn); }
+  .sb-row[data-band="deep"] .sb-band { color: var(--info); }
+  .sb-row { padding: 4px 6px; margin: 0 -6px; border-radius: 5px; cursor: pointer; transition: background 0.12s ease; }
+  .sb-row:hover { background: var(--panel-2); }
+  .sb-row[aria-selected="true"] { background: var(--panel-2); box-shadow: inset 2px 0 0 var(--accent); }
+  .sb-pct { font-family: var(--mono); font-size: 11px; color: var(--fg-2); text-align: right; }
+  .sb-money { font-family: var(--mono); font-size: 11px; color: var(--neg); text-align: right; }
+  .sb-money.pos { color: var(--pos); }
+  .stack-foot { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); line-height: 1.55; }
+  .stack-foot b { color: var(--fg-2); font-weight: 500; }
+
+  /* SEVERITY STRIP */
+  .strip { padding: 16px 20px 18px; }
+  .strip-h { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; padding: 0 4px; }
+  .strip-t { font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg); font-family: var(--mono); }
+  .strip-meta { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .strip-rows { display: flex; flex-direction: column; gap: 2px; }
+  .strip-row { display: grid; grid-template-columns: 26px 1fr 78px 110px 95px 76px 22px; align-items: center; gap: 14px; padding: 11px 14px; border-radius: 7px; font-size: 12.5px; cursor: pointer; }
+  .strip-row:hover { background: var(--panel-2); }
+  .strip-row[data-sev="crit"] { background: rgba(232,128,122,0.04); }
+  .strip-row[data-sev="crit"]:hover { background: rgba(232,128,122,0.08); }
+  .strip-row[aria-selected="true"] { background: var(--panel-2); box-shadow: inset 2px 0 0 var(--accent); }
+  .strip-row[data-sev="crit"][aria-selected="true"] { background: rgba(232,128,122,0.10); }
+  .strip-rank { font-family: var(--mono); font-size: 10.5px; color: var(--fg-4); }
+  .strip-name { color: var(--fg); font-weight: 500; }
+  .strip-sub { color: var(--fg-3); font-size: 11px; margin-top: 3px; font-family: var(--mono); }
+  .strip-sev { display: inline-flex; align-items: center; gap: 7px; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .strip-sev .dot { width: 5px; height: 5px; border-radius: 50%; }
+  .strip-sev.crit { color: var(--neg); }
+  .strip-sev.crit .dot { background: var(--neg); }
+  .strip-sev.high { color: var(--warn); }
+  .strip-sev.high .dot { background: var(--warn); }
+  .strip-sev.med { color: var(--info); }
+  .strip-sev.med .dot { background: var(--info); }
+  .strip-impact { font-family: var(--mono); font-size: 12px; color: var(--neg); text-align: right; }
+  .strip-pos { font-family: var(--mono); font-size: 10.5px; padding: 2px 7px; background: var(--panel-3); border: 1px solid var(--border); border-radius: 3px; color: var(--fg-2); width: fit-content; }
+  .strip-conf { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px; color: var(--fg-2); }
+  .strip-conf .bar { width: 32px; height: 2px; background: var(--panel-3); border-radius: 1px; overflow: hidden; }
+  .strip-conf .bar span { display: block; height: 100%; background: var(--accent); }
+  .strip-arrow { color: var(--fg-4); text-align: right; }
+
+  /* LEAK ROW EXPAND */
+  .strip-row .strip-arrow svg { width: 12px; height: 12px; transition: transform 0.2s ease; }
+  .strip-row[aria-expanded="true"] .strip-arrow svg { transform: rotate(90deg); }
+  .strip-expand { display: none; padding: 0 14px 16px; margin-top: -4px; }
+  .strip-row-wrap[data-expanded="true"] .strip-expand { display: block; }
+  .strip-expand-inner { background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 24px; align-items: start; }
+  .se-block .se-l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); font-family: var(--mono); margin-bottom: 10px; font-weight: 600; }
+  .se-dist { display: flex; gap: 6px; align-items: flex-end; height: 64px; }
+  .se-dist .bar { flex: 1; background: var(--panel-3); border-radius: 3px 3px 0 0; position: relative; min-height: 6px; transition: background 0.15s ease; }
+  .se-dist .bar.neg { background: var(--neg); opacity: 0.55; }
+  .se-dist .bar.neg.peak { opacity: 0.95; }
+  .se-dist-labels { display: flex; gap: 6px; margin-top: 6px; font-family: var(--mono); font-size: 9.5px; color: var(--fg-3); text-transform: uppercase; letter-spacing: 0.06em; }
+  .se-dist-labels span { flex: 1; text-align: center; }
+  .se-meta-row { display: flex; flex-direction: column; gap: 9px; font-family: var(--mono); font-size: 11px; }
+  .se-meta-row .row-line { display: flex; justify-content: space-between; align-items: baseline; }
+  .se-meta-row .row-line .l { color: var(--fg-3); }
+  .se-meta-row .row-line .v { color: var(--fg); font-weight: 500; }
+  .se-meta-row .row-line .v.neg { color: var(--neg); }
+  .se-meta-row .row-line .v.pos { color: var(--pos); }
+  .se-actions { display: flex; flex-direction: column; gap: 8px; }
+  .se-btn { background: var(--accent); border: 0; color: #0f0f14; font: 600 11.5px var(--sans); padding: 8px 12px; border-radius: 6px; cursor: pointer; }
+  .se-btn:hover { background: var(--accent-2); }
+  .se-btn-ghost { background: transparent; border: 1px solid var(--border-strong); color: var(--fg-2); padding: 7px 11px; border-radius: 6px; font: 500 11.5px var(--sans); cursor: pointer; text-align: center; }
+  .se-btn-ghost:hover { color: var(--fg); border-color: var(--fg-3); }
+  .se-hands { display: flex; flex-direction: column; gap: 6px; }
+  .se-hand { display: grid; grid-template-columns: 60px 1fr 50px; align-items: center; gap: 10px; padding: 7px 9px; background: var(--panel-3); border: 1px solid var(--border); border-radius: 5px; font-family: var(--mono); font-size: 10.5px; cursor: pointer; }
+  .se-hand:hover { background: var(--panel-hover); }
+  .se-hand .id { color: var(--fg-3); letter-spacing: 0.04em; }
+  .se-hand .holding { color: var(--fg); font-weight: 500; }
+  .se-hand .holding .suit-r { color: var(--neg); }
+  .se-hand .holding .suit-b { color: var(--info); }
+  .se-hand .net { text-align: right; color: var(--neg); font-weight: 500; }
+  .se-hand .net.pos { color: var(--pos); }
+
+  .arc { padding: 22px 24px; }
+  .arc-h { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+  .arc-t { font-size: 13px; font-weight: 600; }
+  .arc-stats { display: flex; gap: 28px; margin-left: auto; }
+  .as-l { font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg-3); font-family: var(--mono); }
+  .as-v { font-family: var(--mono); font-size: 15px; color: var(--fg); font-weight: 500; margin-top: 4px; }
+  .as-v.money { color: var(--money); }
+  .arc-chart { height: 220px; }
+  .arc-chart svg { width: 100%; height: 100%; }
+  .arc-foot { display: flex; gap: 18px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 11px; color: var(--fg-3); align-items: center; }
+  .arc-legend { display: inline-flex; align-items: center; gap: 6px; }
+  .arc-legend::before { content: ''; width: 12px; height: 2px; background: var(--money); border-radius: 1px; }
+  .arc-legend.regression::before { background: linear-gradient(to right, var(--fg-3) 0%, var(--fg-3) 50%, transparent 50%, transparent 100%); background-size: 4px 100%; }
+  .arc-legend.milestone::before { width: 8px; height: 8px; border-radius: 50%; background: var(--money); }
+
+  /* DIAGNOSTICS DRAWER */
+  .diag { padding: 0; overflow: hidden; }
+  .diag-h { display: flex; align-items: center; padding: 16px 22px; cursor: pointer; }
+  .diag-h h3 { margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; font-family: var(--mono); }
+  .diag-h .sub { margin-left: 12px; font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+  .diag-h .chev { margin-left: auto; color: var(--fg-3); display: flex; transition: transform 0.2s ease; }
+  .diag-h .chev svg { width: 14px; height: 14px; }
+  .diag.open .diag-h .chev { transform: rotate(180deg); }
+  .diag-preview { padding: 0 22px 18px; display: flex; flex-wrap: wrap; gap: 24px; font-family: var(--mono); font-size: 11px; }
+  .diag.open .diag-preview { display: none; }
+  .diag-pv { display: flex; flex-direction: column; gap: 3px; }
+  .diag-pv .l { color: var(--fg-3); font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; }
+  .diag-pv .v { color: var(--fg); font-size: 13.5px; }
+  .diag-pv .v.neg { color: var(--neg); }
+  .diag-pv .v.warn { color: var(--warn); }
+  .diag-pv .v.pos { color: var(--pos); }
+  .diag-body { display: none; padding: 0 22px 22px; }
+  .diag.open .diag-body { display: block; }
+  .diag-row { display: grid; grid-template-columns: repeat(8, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .diag-cell { background: var(--panel); padding: 12px 14px; }
+  .diag-cell .l { font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg-3); font-family: var(--mono); }
+  .diag-cell .v { font-family: var(--mono); font-size: 16px; color: var(--fg); font-weight: 500; margin-top: 5px; line-height: 1; }
+  .diag-cell .s { font-size: 10px; color: var(--fg-3); margin-top: 4px; font-family: var(--mono); }
+  .diag-cell .s.neg { color: var(--neg); }
+  .diag-cell .s.pos { color: var(--pos); }
+  .diag-cell .s.warn { color: var(--warn); }
+</style>
+</head>
+<body>
+
+<div class="chrome">
+  <div class="chrome-inner">
+    <div class="chrome-brand">
+      <div class="chrome-brand-mark">
+        <svg viewBox="0 0 14 14" fill="currentColor"><path d="M7 1 L1 7.5 L7 13 L13 7.5 Z" stroke="currentColor" stroke-width="1.2" fill="none"/><circle cx="7" cy="7.5" r="2" fill="currentColor"/></svg>
+      </div>
+      <div><b>Dashboard</b> <span>· v4 · chip stack · carousel · interactive</span></div>
+    </div>
+    <div class="chrome-spacer"></div>
+    <div class="chrome-note">money hero · range matrix · severity strip</div>
+  </div>
+  <div class="decisions-strip">
+    <span class="dec-chip money">money is hero</span>
+    <span class="dec-chip">range matrix on dashboard</span>
+    <span class="dec-chip">verdict supports, doesn't dominate</span>
+    <span class="dec-chip">leak queue ranked by $</span>
+    <span class="dec-chip">violet locked · GTO baseline</span>
+    <span class="dec-chip">diagnostics collapsed by default</span>
+    <span class="dec-chip">stack bands carry B's depth motif</span>
+    <span class="dec-chip">sidebar holds bankroll card</span>
+  </div>
+</div>
+
+<div class="frame">
+
+  <aside class="sb">
+    <div class="sb-brand">
+      <div class="sb-mark">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><path d="M7 1.5 C9.5 4.5, 11.5 6, 11.5 8.5 C11.5 10.5, 10 11.5, 8.5 11.5 C7.8 11.5, 7 11.2, 7 11.2 C7 11.2, 6.2 11.5, 5.5 11.5 C4 11.5, 2.5 10.5, 2.5 8.5 C2.5 6, 4.5 4.5, 7 1.5 Z" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="sb-name">Poker Analyzer</div>
+        <div class="sb-name-sub">scorza23 · local</div>
+      </div>
+    </div>
+    <div class="sb-search">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="5"/><line x1="11" y1="11" x2="14" y2="14"/></svg>
+      Search hands, leaks…
+      <span class="key">⌘K</span>
+    </div>
+    <div class="sb-section">Review</div>
+    <button class="sb-item" aria-current="page">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="5" height="5" rx="0.8"/><rect x="9" y="2" width="5" height="5" rx="0.8"/><rect x="2" y="9" width="5" height="5" rx="0.8"/><rect x="9" y="9" width="5" height="5" rx="0.8"/></svg>
+      Dashboard
+    </button>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="7" cy="7" r="4.5"/><line x1="10.5" y1="10.5" x2="14" y2="14"/></svg>
+      Hands<span class="sb-count">10,716</span>
+    </button>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 1.5 L14 13.5 L2 13.5 Z"/><line x1="8" y1="6" x2="8" y2="10"/><circle cx="8" cy="11.5" r="0.6" fill="currentColor"/></svg>
+      Leaks<span class="sb-count">8</span>
+    </button>
+    <div class="sb-section">Reports</div>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 2 L11 2 L11 5 L13 5 L13 14 L3 14 L3 5 L5 5 Z"/><circle cx="8" cy="7" r="1.5" fill="currentColor"/></svg>
+      Career
+    </button>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="3" width="12" height="11" rx="1"/><line x1="2" y1="6" x2="14" y2="6"/><line x1="5" y1="1.5" x2="5" y2="4.5"/><line x1="11" y1="1.5" x2="11" y2="4.5"/></svg>
+      Sessions<span class="sb-count">37</span>
+    </button>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="12" height="12" rx="1"/><line x1="6" y1="2" x2="6" y2="14"/><line x1="10" y1="2" x2="10" y2="14"/><line x1="2" y1="6" x2="14" y2="6"/><line x1="2" y1="10" x2="14" y2="10"/></svg>
+      Ranges
+    </button>
+    <div class="sb-section">Practice</div>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6"/><circle cx="8" cy="8" r="3"/></svg>
+      Arena
+    </button>
+    <div class="sb-section">Data</div>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="5" r="2.5"/><path d="M3 14 C3 11, 5 9.5, 8 9.5 C11 9.5, 13 11, 13 14"/></svg>
+      Villains<span class="sb-count">44</span>
+    </button>
+    <button class="sb-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 13 L6 8 L9 11 L14 4"/></svg>
+      Demo
+    </button>
+
+    <div class="sb-stake">
+      <div class="sb-stake-eyebrow">Lifetime profit</div>
+      <div class="sb-stake-val">+$388.85</div>
+      <div class="sb-stake-row"><span class="dot"></span>141.4% ROI · 250 tourneys</div>
+      <div class="sb-stake-tiny">
+        <span>30d <b style="color: var(--pos);">+$24.30</b></span>
+        <span>$1.10 ABI</span>
+      </div>
+    </div>
+
+    <div class="sb-foot">
+      <button class="sb-collapse">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M10 4 L6 8 L10 12"/><line x1="2.5" y1="3" x2="2.5" y2="13"/></svg>
+        Collapse
+        <span class="k">⌘\</span>
+      </button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div>
+        <div class="crumb">DASHBOARD · OVERVIEW · scorza23</div>
+        <h1>Where you stand.</h1>
+        <div class="meta">
+          <span>Imported <b>10,716 hands</b></span>
+          <span><b>37 sessions</b> · 8 months</span>
+          <span>Last import <b>2 min ago</b></span>
+        </div>
+      </div>
+      <div class="top-actions">
+        <div class="seg">
+          <button aria-pressed="true">Lifetime</button>
+          <button>30d</button>
+          <button>Session</button>
+        </div>
+        <div class="strategy-chip">
+          <span class="dot"></span>
+          Baseline · GTO
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 5 L6 8 L9 5"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="money-hero">
+      <div class="mh-grid">
+        <div>
+          <div class="mh-eye"><span class="dot"></span>NET PROFIT · LIFETIME</div>
+          <div class="mh-money" id="mh-money">+$388<span class="cents">.85</span></div>
+          <div class="mh-delta" id="mh-delta">+$24.30 last 30 days · trend stable</div>
+          <div class="mh-foot">
+            <span>250 <b>tournaments</b></span>
+            <span class="sep">·</span>
+            <span>$1.10 <b>ABI</b></span>
+            <span class="sep">·</span>
+            <span>8 <b>months</b></span>
+            <span class="sep">·</span>
+            <span>longest ITM streak <b>11</b></span>
+          </div>
+        </div>
+        <div class="mh-stats">
+          <div class="mh-stat"><div class="l">ROI</div><div class="v pos">141.4%</div><div class="s">vs 0% breakeven</div></div>
+          <div class="mh-stat"><div class="l">ITM rate</div><div class="v">35.6%</div><div class="s">vs ~16% field avg</div></div>
+          <div class="mh-stat"><div class="l">Best cash</div><div class="v">+$22.50</div><div class="s">1st of 89 · 23 Oct</div></div>
+          <div class="mh-stat"><div class="l">Drawdown</div><div class="v">−$18.40</div><div class="s">recovered in 12</div></div>
+        </div>
+      </div>
+
+      <div class="chip-stack" aria-hidden="true" id="chip-stack"></div>
+      <div class="chip-readout" id="chip-readout"></div>
+      <!-- chip stack — see renderChipStack() in script -->
+
+
+    </div>
+
+    <!-- ============== KPI STRIP — CAROUSEL ============== -->
+    <div class="card kpi-strip">
+      <div class="kpi-head">
+        <span class="kpi-eye">KEY INDICATORS</span>
+        <span class="kpi-profile">TAG · solid</span>
+        <span class="kpi-meta">click a tile to filter the dashboard</span>
+        <div class="kpi-nav">
+          <button id="kpi-prev" aria-label="previous page" disabled>
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7.5 2.5 L3.5 6 L7.5 9.5"/></svg>
+          </button>
+          <button id="kpi-next" aria-label="next page">
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4.5 2.5 L8.5 6 L4.5 9.5"/></svg>
+          </button>
+          <span class="kpi-pages" id="kpi-pages"><b>1</b>/2</span>
+        </div>
+      </div>
+      <div class="kpi-viewport">
+        <div class="kpi-track" id="kpi-track" role="tablist">
+          <button class="kpi" data-kpi="vpip">
+            <div class="kpi-l">VPIP</div>
+            <div class="kpi-v">21.8<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:50%;right:40%;"></span><span class="kpi-marker pos" style="left:54%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>on target · 20–24</div>
+          </button>
+          <button class="kpi" data-kpi="pfr">
+            <div class="kpi-l">PFR</div>
+            <div class="kpi-v">17.2<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:53%;right:37%;"></span><span class="kpi-marker pos" style="left:57%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>on target · 16–19</div>
+          </button>
+          <button class="kpi" data-kpi="3bet">
+            <div class="kpi-l">3-BET</div>
+            <div class="kpi-v">8.4<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:47%;right:40%;"></span><span class="kpi-marker pos" style="left:56%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>on target · 7–9</div>
+          </button>
+          <button class="kpi" data-kpi="af">
+            <div class="kpi-l">AF</div>
+            <div class="kpi-v">2.4</div>
+            <div class="kpi-band"><span class="kpi-target" style="left:40%;right:40%;"></span><span class="kpi-marker pos" style="left:48%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>on target · 2–3</div>
+          </button>
+          <button class="kpi" data-kpi="wtsd">
+            <div class="kpi-l">WTSD</div>
+            <div class="kpi-v">28<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:35%;right:45%;"></span><span class="kpi-marker warn" style="left:65%;"></span></div>
+            <div class="kpi-s warn"><span class="arrow">▲</span>+4 vs target · 22–26</div>
+          </button>
+          <button class="kpi" data-kpi="wsd">
+            <div class="kpi-l">W$SD</div>
+            <div class="kpi-v">51<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:32%;right:44%;"></span><span class="kpi-marker pos" style="left:44%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>on target · 48–54</div>
+          </button>
+          <button class="kpi" data-kpi="steal">
+            <div class="kpi-l">STEAL</div>
+            <div class="kpi-v">34<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:52%;right:35%;"></span><span class="kpi-marker warn" style="left:42%;"></span></div>
+            <div class="kpi-s warn"><span class="arrow">▼</span>−5 vs target · 39–42</div>
+          </button>
+          <button class="kpi" data-kpi="btnopen">
+            <div class="kpi-l">BTN OPEN</div>
+            <div class="kpi-v">58<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:32%;right:50%;"></span><span class="kpi-marker neg" style="left:62%;"></span></div>
+            <div class="kpi-s neg"><span class="arrow">▲</span>+8 vs target · 48–52</div>
+          </button>
+          <button class="kpi" data-kpi="bbdef">
+            <div class="kpi-l">BB DEF</div>
+            <div class="kpi-v">39<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:50%;right:32%;"></span><span class="kpi-marker warn" style="left:46%;"></span></div>
+            <div class="kpi-s warn"><span class="arrow">▼</span>−3 vs target · 42–46</div>
+          </button>
+          <button class="kpi" data-kpi="cbf">
+            <div class="kpi-l">C-BET F</div>
+            <div class="kpi-v">66<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:48%;right:36%;"></span><span class="kpi-marker pos" style="left:54%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>on target · 60–70</div>
+          </button>
+          <button class="kpi" data-kpi="f3b">
+            <div class="kpi-l">FOLD 3B</div>
+            <div class="kpi-v">52<span class="kpi-unit">%</span></div>
+            <div class="kpi-band"><span class="kpi-target" style="left:46%;right:38%;"></span><span class="kpi-marker pos" style="left:54%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>on target · 48–56</div>
+          </button>
+          <button class="kpi" data-kpi="icm">
+            <div class="kpi-l">ICM Δ</div>
+            <div class="kpi-v">+0.4</div>
+            <div class="kpi-band"><span class="kpi-target" style="left:46%;right:36%;"></span><span class="kpi-marker pos" style="left:56%;"></span></div>
+            <div class="kpi-s pos"><span class="arrow">●</span>slight edge · baseline</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-2-43">
+      <div class="card verdict">
+        <div class="card-eye" id="v-card-eye">
+          <span id="v-eye-text">TODAY'S VERDICT</span>
+          <span class="meta" id="v-meta">computed 2m ago · confidence high · n=10,716</span>
+        </div>
+        <div class="v-title" id="v-title">Hold your stake. Sample is sound; <em>one wide-open BTN leak</em> is the swing.</div>
+        <div class="v-sub" id="v-sub">Across 250 tournaments at $1.10, you're profitable and trending up. The single biggest swing is too-wide BTN opens vs late-position 3-bets — fixing it projects to recover ~28bb/100 and ~$60 over your next 100 tournaments at this stake.</div>
+        <div class="v-stats-wrap" id="v-stats-wrap">
+          <div class="v-stat"><div class="l">Readiness</div><div class="v">72/100</div><div class="s">+4 vs 30d</div></div>
+          <div class="v-stat"><div class="l">Compliance</div><div class="v pos">88%</div><div class="s">baseline · GTO</div></div>
+          <div class="v-stat"><div class="l">BB/100</div><div class="v">+8.4</div><div class="s">stable · 30d</div></div>
+        </div>
+      </div>
+
+      <div class="card range">
+        <div class="range-h">
+          <span class="range-title">RANGE · BTN OPEN</span>
+          <div class="range-tabs" role="tablist">
+            <button aria-pressed="true">BTN</button>
+            <button>CO</button>
+            <button>SB</button>
+            <button>BB</button>
+          </div>
+        </div>
+        <div class="range-sub">Opening <em>58%</em> vs target 48–52%. Six cells deviate from baseline.</div>
+        <div class="range-grid" id="range-grid"></div>
+        <div class="range-foot">
+          <span><span class="swatch" style="background: rgba(139,124,255,0.82);"></span><b>always open</b></span>
+          <span><span class="swatch" style="background: rgba(139,124,255,0.32);"></span><b>mix</b></span>
+          <span><span class="swatch dev"></span><b>deviation</b> · 6 cells</span>
+          <span class="range-pos" style="margin-left:auto;">100bb · n=1,142</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-2-eq">
+      <div class="card blocker">
+        <div class="card-eye warn">
+          <span class="dot"></span>TOP BLOCKER · 1 of 8
+          <span class="meta">~$0.62/tourney cost</span>
+        </div>
+        <div class="blocker-title">BTN opening too wide vs late-position 3-bets.</div>
+        <div class="blocker-desc">You're opening 58% on the BTN vs target band 48–52%. The bottom 6% of your opens (K8s, K7s, Q6s, Q5s, J7s, T7s — highlighted in the matrix) are punished hardest by CO/HJ 3-bets.</div>
+        <div class="blocker-meta">
+          <div class="blocker-cell"><div class="l">Deviation</div><div class="v neg">+8%</div></div>
+          <div class="blocker-cell"><div class="l">Sample</div><div class="v">1,142</div></div>
+          <div class="blocker-cell"><div class="l">Cost</div><div class="v neg">−28bb/100</div></div>
+          <div class="blocker-cell"><div class="l">Projected</div><div class="v neg">−$0.62/T</div></div>
+        </div>
+        <div class="blocker-foot">
+          <button class="btn">Review filtered hands</button>
+          <button class="btn-ghost">Open in Ranges</button>
+        </div>
+      </div>
+
+      <div class="card stack">
+        <div class="card-eye">
+          STACK BANDS
+          <span class="meta">where you played · 250 tourneys</span>
+        </div>
+        <div class="stack-sub">Effective stack depth at decision points. Biggest dollar losses are concentrated in the <span style="color: #ff8c5a; font-family: var(--mono);">10–17bb</span> band.</div>
+        <div class="stack-bands">
+          <div class="sb-row" data-band="push"><span class="sb-band">&lt;10bb</span><span class="sb-bar"><span style="width:8%"></span></span><span class="sb-money">−$0.18</span><span class="sb-pct">8%</span></div>
+          <div class="sb-row" data-band="crit"><span class="sb-band">10–17bb</span><span class="sb-bar"><span style="width:14%"></span></span><span class="sb-money">−$0.42</span><span class="sb-pct">14%</span></div>
+          <div class="sb-row" data-band="warn"><span class="sb-band">17–25bb</span><span class="sb-bar"><span style="width:22%"></span></span><span class="sb-money">−$0.09</span><span class="sb-pct">22%</span></div>
+          <div class="sb-row" data-band="ok"><span class="sb-band">25–50bb</span><span class="sb-bar"><span style="width:38%"></span></span><span class="sb-money pos">+$0.84</span><span class="sb-pct">38%</span></div>
+          <div class="sb-row" data-band="deep"><span class="sb-band">50bb+</span><span class="sb-bar"><span style="width:18%"></span></span><span class="sb-money pos">+$1.41</span><span class="sb-pct">18%</span></div>
+        </div>
+        <div class="stack-foot">
+          <b>10–17bb</b> band is where most of your dollar leak lives — push/fold execution + 3-bet sizing.
+        </div>
+      </div>
+    </div>
+
+    <div class="card strip">
+      <div class="strip-h">
+        <span class="strip-t">LEAK QUEUE · ranked by $ impact</span>
+        <span class="strip-meta">5 of 8 shown · baseline · last 250 tournaments</span>
+      </div>
+      <div class="strip-rows">
+        <div class="strip-row" data-sev="crit">
+          <span class="strip-rank">01</span>
+          <div><div class="strip-name">BTN open width</div><div class="strip-sub">opening 58% vs target 48–52%</div></div>
+          <span class="strip-sev crit"><span class="dot"></span>CRIT</span>
+          <span class="strip-pos">BTN · 100bb</span>
+          <span class="strip-conf"><span class="bar"><span style="width:88%"></span></span>n=1142</span>
+          <span class="strip-impact">−$0.62/T</span>
+          <span class="strip-arrow">→</span>
+        </div>
+        <div class="strip-row">
+          <span class="strip-rank">02</span>
+          <div><div class="strip-name">SB 3-bet sizing</div><div class="strip-sub">2.5x vs target 2.75–3x at 25bb</div></div>
+          <span class="strip-sev high"><span class="dot"></span>HIGH</span>
+          <span class="strip-pos">SB · 25bb</span>
+          <span class="strip-conf"><span class="bar"><span style="width:62%"></span></span>n=412</span>
+          <span class="strip-impact">−$0.28/T</span>
+          <span class="strip-arrow">→</span>
+        </div>
+        <div class="strip-row">
+          <span class="strip-rank">03</span>
+          <div><div class="strip-name">Missed steal CO</div><div class="strip-sub">folding 22% too often at 30bb</div></div>
+          <span class="strip-sev high"><span class="dot"></span>HIGH</span>
+          <span class="strip-pos">CO · 30bb</span>
+          <span class="strip-conf"><span class="bar"><span style="width:78%"></span></span>n=864</span>
+          <span class="strip-impact">−$0.21/T</span>
+          <span class="strip-arrow">→</span>
+        </div>
+        <div class="strip-row">
+          <span class="strip-rank">04</span>
+          <div><div class="strip-name">BB defense vs HJ open</div><div class="strip-sub">−3% vs target band</div></div>
+          <span class="strip-sev med"><span class="dot"></span>MED</span>
+          <span class="strip-pos">BB · 30bb</span>
+          <span class="strip-conf"><span class="bar"><span style="width:71%"></span></span>n=606</span>
+          <span class="strip-impact">−$0.09/T</span>
+          <span class="strip-arrow">→</span>
+        </div>
+        <div class="strip-row">
+          <span class="strip-rank">05</span>
+          <div><div class="strip-name">4-bet bluff frequency</div><div class="strip-sub">low-confidence · sample below threshold</div></div>
+          <span class="strip-sev med"><span class="dot"></span>MED</span>
+          <span class="strip-pos">UTG · 100bb</span>
+          <span class="strip-conf"><span class="bar"><span style="width:24%"></span></span>n=98</span>
+          <span class="strip-impact">−$0.04/T</span>
+          <span class="strip-arrow">→</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card arc">
+      <div class="arc-h">
+        <div class="arc-t">Career arc</div>
+        <span style="font-family: var(--mono); font-size: 11px; color: var(--fg-3);">250 tournaments · $1.10 ABI · 8 months</span>
+        <div class="arc-stats">
+          <div><div class="as-l">Lifetime</div><div class="as-v money">+$388.85</div></div>
+          <div><div class="as-l">Best month</div><div class="as-v">+$72.40</div></div>
+          <div><div class="as-l">Volume</div><div class="as-v">31.2/wk</div></div>
+          <div><div class="as-l">ITM streak</div><div class="as-v">11</div></div>
+        </div>
+      </div>
+      <div class="arc-chart">
+        <svg viewBox="0 0 1000 220" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="arcFill" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="rgba(184,225,200,0.22)"/>
+              <stop offset="100%" stop-color="rgba(184,225,200,0)"/>
+            </linearGradient>
+          </defs>
+          <line x1="0" y1="50" x2="1000" y2="50" stroke="rgba(255,255,255,0.04)"/>
+          <line x1="0" y1="100" x2="1000" y2="100" stroke="rgba(255,255,255,0.04)"/>
+          <line x1="0" y1="150" x2="1000" y2="150" stroke="rgba(255,255,255,0.04)"/>
+          <line x1="0" y1="200" x2="1000" y2="200" stroke="rgba(255,255,255,0.04)"/>
+          <line x1="0" y1="200" x2="1000" y2="55" stroke="rgba(180,182,188,0.40)" stroke-width="1.4" stroke-dasharray="5 4"/>
+          <path d="M0 200 L30 195 L60 196 L90 188 L120 192 L150 180 L180 170 L210 178 L240 165 L270 168 L300 155 L330 145 L360 152 L390 138 L420 142 L450 128 L480 118 L510 122 L540 110 L570 102 L600 108 L630 95 L660 88 L690 92 L720 78 L750 70 L780 74 L810 62 L840 58 L870 65 L900 50 L930 45 L960 50 L1000 38" stroke="#b8e1c8" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M0 200 L30 195 L60 196 L90 188 L120 192 L150 180 L180 170 L210 178 L240 165 L270 168 L300 155 L330 145 L360 152 L390 138 L420 142 L450 128 L480 118 L510 122 L540 110 L570 102 L600 108 L630 95 L660 88 L690 92 L720 78 L750 70 L780 74 L810 62 L840 58 L870 65 L900 50 L930 45 L960 50 L1000 38 L1000 220 L0 220 Z" fill="url(#arcFill)"/>
+          <circle cx="180" cy="170" r="3.5" fill="#b8e1c8"/>
+          <circle cx="450" cy="128" r="3.5" fill="#b8e1c8"/>
+          <circle cx="780" cy="74" r="3.5" fill="#b8e1c8"/>
+          <circle cx="930" cy="45" r="3.5" fill="#b8e1c8"/>
+        </svg>
+      </div>
+      <div class="arc-foot">
+        <span class="arc-legend">cumulative $</span>
+        <span class="arc-legend regression">regression</span>
+        <span class="arc-legend milestone">milestones</span>
+        <span style="margin-left: auto;">first cash · break-even · biggest win · longest ITM streak</span>
+      </div>
+    </div>
+
+    <div class="card diag" id="diag">
+      <div class="diag-h" id="diag-toggle">
+        <h3>DIAGNOSTICS</h3>
+        <span class="sub">16 metrics · all on-target except 3 · click to expand</span>
+        <span class="chev"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6 L8 10 L12 6"/></svg></span>
+      </div>
+      <div class="diag-preview">
+        <div class="diag-pv"><div class="l">VPIP</div><div class="v pos">21.8%</div></div>
+        <div class="diag-pv"><div class="l">PFR</div><div class="v pos">17.2%</div></div>
+        <div class="diag-pv"><div class="l">3-bet</div><div class="v pos">8.4%</div></div>
+        <div class="diag-pv"><div class="l">AF</div><div class="v pos">2.4</div></div>
+        <div class="diag-pv"><div class="l">BTN open</div><div class="v neg">58%</div></div>
+        <div class="diag-pv"><div class="l">BB defense</div><div class="v warn">39%</div></div>
+        <div class="diag-pv"><div class="l">Steal CO</div><div class="v warn">34%</div></div>
+        <div class="diag-pv"><div class="l">C-bet flop</div><div class="v pos">66%</div></div>
+        <div class="diag-pv"><div class="l">+8 more</div><div class="v" style="color: var(--fg-3);">expand →</div></div>
+      </div>
+      <div class="diag-body">
+        <div class="diag-row">
+          <div class="diag-cell"><div class="l">VPIP</div><div class="v">21.8%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">PFR</div><div class="v">17.2%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">3-bet</div><div class="v">8.4%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">4-bet</div><div class="v">2.1%</div><div class="s warn">−1 vs target</div></div>
+          <div class="diag-cell"><div class="l">AF</div><div class="v">2.4</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">WTSD</div><div class="v">28%</div><div class="s warn">+4 vs target</div></div>
+          <div class="diag-cell"><div class="l">W$SD</div><div class="v">51%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">Steal</div><div class="v">34%</div><div class="s warn">−5 vs target</div></div>
+          <div class="diag-cell"><div class="l">BTN open</div><div class="v">58%</div><div class="s neg">+8 vs target</div></div>
+          <div class="diag-cell"><div class="l">CO open</div><div class="v">36%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">SB open</div><div class="v">42%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">BB def</div><div class="v">39%</div><div class="s warn">−3 vs target</div></div>
+          <div class="diag-cell"><div class="l">C-bet F</div><div class="v">66%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">C-bet T</div><div class="v">54%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">Fold 3b</div><div class="v">52%</div><div class="s pos">on target</div></div>
+          <div class="diag-cell"><div class="l">ICM Δ</div><div class="v">+0.4</div><div class="s pos">slight edge</div></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+  // =================== RANGE DATA ===================
+  const ranks = ['A','K','Q','J','T','9','8','7','6','5','4','3','2'];
+  const RANGES = {
+    BTN: {
+      title: 'RANGE · BTN OPEN',
+      pos: '100bb · n=1,142',
+      sub: 'Opening <em>58%</em> vs target 48&ndash;52%. Six cells deviate from baseline.',
+      devs: new Set(['K8s','K7s','Q6s','Q5s','J7s','T7s']),
+      footRight: '100bb · n=1,142',
+      legendDev: 'deviation · 6 cells',
+      verdict: {
+        meta: 'computed 2m ago · confidence high · n=1,142',
+        title: 'Hold your stake. Sample is sound; <em>one wide-open BTN leak</em> is the swing.',
+        sub: "Across 250 tournaments at $1.10, you're profitable and trending up. The single biggest swing is too-wide BTN opens vs late-position 3-bets &mdash; fixing it projects to recover ~28bb/100 and ~$60 over your next 100 tournaments at this stake.",
+        stats: [
+          { l: 'Readiness', v: '72/100', cls: '',    s: '+4 vs 30d' },
+          { l: 'Compliance', v: '88%',   cls: 'pos', s: 'baseline · GTO' },
+          { l: 'BB/100',    v: '+8.4',   cls: '',    s: 'stable · 30d' }
+        ]
+      },
+      opens: {
+        'AA':4,'KK':4,'QQ':4,'JJ':4,'TT':4,'99':4,'88':4,'77':3,'66':3,'55':3,'44':2,'33':2,'22':2,
+        'AKs':4,'AQs':3,'AJs':3,'ATs':3,'A9s':3,'A8s':3,'A7s':3,'A6s':2,'A5s':3,'A4s':2,'A3s':2,'A2s':2,
+        'AKo':4,'AQo':3,'AJo':3,'ATo':3,'A9o':2,'A8o':2,'A7o':2,'A5o':1,'A4o':1,'A3o':1,'A2o':1,
+        'KQs':3,'KJs':3,'KTs':3,'K9s':2,'K8s':2,'K7s':2,'K6s':2,'K5s':1,'K4s':1,'K3s':1,'K2s':1,
+        'KQo':3,'KJo':3,'KTo':2,'K9o':1,'K8o':1,
+        'QJs':3,'QTs':3,'Q9s':2,'Q8s':2,'Q7s':1,'Q6s':1,'Q5s':1,'Q4s':1,
+        'QJo':2,'QTo':2,'Q9o':1,
+        'JTs':3,'J9s':2,'J8s':2,'J7s':1,
+        'JTo':2,'J9o':1,
+        'T9s':2,'T8s':2,'T7s':1,
+        'T9o':1,
+        '98s':2,'97s':1,'98o':1,
+        '87s':2,'86s':1,
+        '76s':2,
+        '65s':2,
+        '54s':1
+      }
+    },
+    CO: {
+      title: 'RANGE · CO OPEN',
+      pos: '100bb · n=864',
+      sub: 'Opening <em>36%</em> vs target 34&ndash;38%. On target overall &mdash; folding 22% too often at 30bb.',
+      devs: new Set([]),
+      footRight: '100bb · n=864',
+      legendDev: '0 cells off-baseline',
+      verdict: {
+        meta: 'computed 2m ago · confidence high · n=864',
+        title: 'CO opens are healthy. <em>Missed steals at 30bb</em> are leaking ~9bb/100.',
+        sub: "Frequency is on-band and shape is right, but at 30bb effective you're folding 22% too often vs reasonable defenders. Widening the bottom 4&ndash;5% of opens at this depth projects to recover ~9bb/100.",
+        stats: [
+          { l: 'Open freq',  v: '36%',  cls: 'pos', s: 'on target · 34–38' },
+          { l: 'Steal 30bb', v: '34%',  cls: 'warn',s: '−5 vs target' },
+          { l: 'Sample',     v: '864',  cls: '',    s: 'high confidence' }
+        ]
+      },
+      opens: {
+        'AA':4,'KK':4,'QQ':4,'JJ':4,'TT':4,'99':4,'88':3,'77':3,'66':3,'55':2,'44':2,'33':2,'22':2,
+        'AKs':4,'AQs':4,'AJs':3,'ATs':3,'A9s':3,'A8s':3,'A7s':2,'A6s':2,'A5s':3,'A4s':2,'A3s':2,'A2s':2,
+        'AKo':4,'AQo':3,'AJo':3,'ATo':3,'A9o':2,'A8o':1,'A7o':1,
+        'KQs':3,'KJs':3,'KTs':3,'K9s':2,'K8s':1,'K7s':1,
+        'KQo':3,'KJo':3,'KTo':2,
+        'QJs':3,'QTs':3,'Q9s':2,'Q8s':1,
+        'QJo':2,'QTo':1,
+        'JTs':3,'J9s':2,'J8s':1,
+        'JTo':1,
+        'T9s':2,'T8s':1,
+        '98s':2,'87s':2,'76s':2,'65s':1,'54s':1
+      }
+    },
+    SB: {
+      title: 'RANGE · SB OPEN',
+      pos: '25bb · n=412',
+      sub: 'Opening <em>42%</em> vs target 40&ndash;44%. <em>Sizing</em> deviates &mdash; using 2.5x vs target 2.75&ndash;3x.',
+      devs: new Set(['77','66','55','44','33','22','A2s','A3s','K9s']),
+      footRight: '25bb · n=412',
+      legendDev: 'sizing deviation · 9 marked',
+      verdict: {
+        meta: 'computed 2m ago · confidence medium · n=412',
+        title: 'SB frequencies are fine. <em>3-bet sizing is undersized</em> at 25bb.',
+        sub: "You're opening on-band from the SB but using 2.5x vs target 2.75&ndash;3x for re-raises. Below 30bb effective this undersizing costs roughly 12bb/100 by inviting too many flats from positions you don't want playing back.",
+        stats: [
+          { l: 'Open freq', v: '42%', cls: 'pos', s: 'on target · 40–44' },
+          { l: '3-bet size',v: '2.5x',cls: 'warn',s: 'target 2.75–3x' },
+          { l: 'Sample',    v: '412', cls: '',    s: 'medium confidence' }
+        ]
+      },
+      opens: {
+        'AA':4,'KK':4,'QQ':4,'JJ':4,'TT':4,'99':4,'88':4,'77':3,'66':3,'55':3,'44':3,'33':2,'22':2,
+        'AKs':4,'AQs':4,'AJs':4,'ATs':3,'A9s':3,'A8s':3,'A7s':3,'A6s':2,'A5s':3,'A4s':3,'A3s':2,'A2s':2,
+        'AKo':4,'AQo':4,'AJo':3,'ATo':3,'A9o':3,'A8o':2,'A7o':2,'A5o':1,'A4o':1,'A3o':1,'A2o':1,
+        'KQs':4,'KJs':3,'KTs':3,'K9s':2,'K8s':2,'K7s':2,'K6s':1,'K5s':1,
+        'KQo':3,'KJo':3,'KTo':3,'K9o':2,'K8o':1,
+        'QJs':3,'QTs':3,'Q9s':2,'Q8s':2,'Q7s':1,
+        'QJo':3,'QTo':2,'Q9o':1,
+        'JTs':3,'J9s':2,'J8s':2,
+        'JTo':2,'J9o':1,
+        'T9s':2,'T8s':2,
+        '98s':2,'87s':2,'76s':2,'65s':2,'54s':1
+      }
+    },
+    BB: {
+      title: 'RANGE · BB DEFENSE',
+      pos: 'vs HJ · n=606',
+      sub: 'Defending <em>39%</em> vs target 42&ndash;46%. <em>Under-defending</em> &mdash; folding too much from the BB.',
+      devs: new Set(['QTo','J9o','T8s','97s','86s','76o','65o']),
+      footRight: 'vs HJ · n=606',
+      legendDev: 'under-defended · 7 cells',
+      verdict: {
+        meta: 'computed 2m ago · confidence high · n=606',
+        title: "BB defense is <em>tight</em>. You're folding ~3% too much vs HJ opens.",
+        sub: "From the BB closing the action vs HJ, you should be defending wider on the bottom of the range with suited connectors and offsuit broadways. Tightening here gives up ~4bb/100 long-run.",
+        stats: [
+          { l: 'Defense', v: '39%', cls: 'warn', s: '−3 vs 42–46' },
+          { l: 'Fold %',  v: '61%', cls: 'warn', s: '+3 over target' },
+          { l: 'Sample',  v: '606', cls: '',     s: 'high confidence' }
+        ]
+      },
+      opens: {
+        'AA':4,'KK':4,'QQ':4,'JJ':4,'TT':4,'99':3,'88':3,'77':2,'66':2,'55':2,'44':2,'33':2,'22':1,
+        'AKs':4,'AQs':4,'AJs':3,'ATs':3,'A9s':2,'A8s':2,'A7s':2,'A6s':2,'A5s':2,'A4s':2,'A3s':1,'A2s':1,
+        'AKo':4,'AQo':3,'AJo':2,'ATo':2,'A9o':1,
+        'KQs':3,'KJs':3,'KTs':2,'K9s':2,'K8s':1,
+        'KQo':2,'KJo':2,'KTo':1,
+        'QJs':2,'QTs':2,'Q9s':1,
+        'QJo':1,'QTo':1,
+        'JTs':2,'J9s':1,
+        'JTo':1,'J9o':1,
+        'T9s':2,'T8s':1,
+        '98s':2,'87s':2,'76s':1,'65s':1
+      }
+    }
+  };
+
+  // =================== BUILD GRID ===================
+  function renderRange(pos) {
+    const data = RANGES[pos];
+    const grid = document.getElementById('range-grid');
+    if (!grid || !data) return;
+    let html = '';
+    for (let i=0; i<13; i++) {
+      for (let j=0; j<13; j++) {
+        let key, label;
+        if (i === j) { key = ranks[i]+ranks[j]; label = key; }
+        else if (i < j) { key = ranks[i]+ranks[j]+'s'; label = key; }
+        else { key = ranks[j]+ranks[i]+'o'; label = key; }
+        const r = data.opens[key] || 0;
+        const cls = ['rcell'];
+        if (r) cls.push('r'+r);
+        if (data.devs.has(key)) cls.push('dev');
+        let display;
+        if (i === j) display = ranks[i]+ranks[j];
+        else if (i < j) display = ranks[i]+ranks[j]+'<span class="suf">s</span>';
+        else display = ranks[j]+ranks[i]+'<span class="suf">o</span>';
+        html += '<div class="'+cls.join(' ')+'" title="'+label+'">'+display+'</div>';
+      }
+    }
+    grid.innerHTML = html;
+    document.querySelector('.range-title').textContent = data.title;
+    document.querySelector('.range-sub').innerHTML = data.sub;
+    document.querySelector('.range-foot .range-pos').textContent = data.footRight;
+    document.querySelector('.range-foot .swatch.dev').parentNode.querySelector('b').textContent = 'deviation';
+    const devLegend = document.querySelectorAll('.range-foot span')[2];
+    if (devLegend) devLegend.innerHTML = '<span class="swatch dev"></span><b>'+data.legendDev+'</b>';
+
+    // verdict card update
+    if (data.verdict) {
+      document.getElementById('v-title').innerHTML = data.verdict.title;
+      document.getElementById('v-sub').innerHTML = data.verdict.sub;
+      document.getElementById('v-meta').textContent = data.verdict.meta;
+      const wrap = document.getElementById('v-stats-wrap');
+      wrap.innerHTML = data.verdict.stats.map(d =>
+        '<div class="v-stat"><div class="l">'+d.l+'</div><div class="v'+(d.cls?' '+d.cls:'')+'">'+d.v+'</div><div class="s">'+d.s+'</div></div>'
+      ).join('');
+    }
+  }
+  renderRange('BTN');
+
+  // =================== RANGE TABS ===================
+  document.querySelectorAll('.range-tabs button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.range-tabs button').forEach(b => b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'));
+      renderRange(btn.textContent.trim());
+    });
+  });
+
+  // =================== SCOPE SEG (Lifetime / 30d / Session) ===================
+  const SCOPE = {
+    Lifetime: {
+      profit: 388.85, money: '+$388', cents: '.85',
+      delta: '+$24.30 last 30 days · trend stable',
+      mhStats: [
+        { l: 'ROI',       v: '141.4%',  cls: 'pos', s: 'vs 0% breakeven' },
+        { l: 'ITM rate',  v: '35.6%',   cls: '',    s: 'vs ~16% field avg' },
+        { l: 'Best cash', v: '+$22.50', cls: '',    s: '1st of 89 · 23 Oct' },
+        { l: 'Drawdown', v: '−$18.40', cls: '',    s: 'recovered in 12' }
+      ]
+    },
+    '30d': {
+      profit: 24.30, money: '+$24', cents: '.30',
+      delta: '6 sessions · +12bb/100 · trend up',
+      mhStats: [
+        { l: 'ROI',       v: '+38.4%',  cls: 'pos', s: '30 tournaments' },
+        { l: 'ITM rate',  v: '40.0%',   cls: '',    s: '12 of 30 cashed' },
+        { l: 'Best cash', v: '+$12.50', cls: '',    s: '4th place · 02 May' },
+        { l: 'Drawdown', v: '−$4.80',  cls: '',    s: 'recovered in 5' }
+      ]
+    },
+    Session: {
+      profit: 3.40, money: '+$3', cents: '.40',
+      delta: 'session 37 · 28 hands · +18bb/100',
+      mhStats: [
+        { l: 'ROI',       v: '+62%',    cls: 'pos', s: '5 tournaments live' },
+        { l: 'ITM rate',  v: '60.0%',   cls: '',    s: '3 of 5 cashed' },
+        { l: 'Best cash', v: '+$2.20',  cls: '',    s: '2nd · in progress' },
+        { l: 'Drawdown', v: '−$0.40',  cls: '',    s: 'session low' }
+      ]
+    }
+  };
+  function applyScope(name) {
+    const s = SCOPE[name]; if (!s) return;
+    document.getElementById('mh-money').innerHTML = s.money + '<span class="cents">'+s.cents+'</span>';
+    document.getElementById('mh-delta').textContent = s.delta;
+    const eyeText = name === 'Lifetime' ? 'NET PROFIT · LIFETIME' : (name === '30d' ? 'NET PROFIT · LAST 30 DAYS' : 'NET PROFIT · LIVE SESSION');
+    document.querySelector('.mh-eye').innerHTML = '<span class="dot"></span>' + eyeText;
+    const tiles = document.querySelectorAll('.mh-stats .mh-stat');
+    s.mhStats.forEach((d, i) => {
+      if (!tiles[i]) return;
+      tiles[i].querySelector('.l').textContent = d.l;
+      const v = tiles[i].querySelector('.v');
+      v.className = 'v' + (d.cls ? ' '+d.cls : '');
+      v.textContent = d.v;
+      tiles[i].querySelector('.s').textContent = d.s;
+    });
+    renderChipStack(s.profit);
+  }
+  document.querySelectorAll('.topbar .seg button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.topbar .seg button').forEach(b => b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'));
+      applyScope(btn.textContent.trim());
+    });
+  });
+
+  // =================== CHIP STACK — data-encoded, visible separation ===================
+  function renderChipStack(profit) {
+    const target = document.getElementById('chip-stack');
+    const readout = document.getElementById('chip-readout');
+    if (!target) return;
+
+    const tiers = [
+      { min: 0,    side: '#9a9078', top: '#d6cdb0', edge: '#3a3322', stripe: '#fff',    denom: '$1',   key: 'bronze' },
+      { min: 100,  side: '#b03b36', top: '#e8736d', edge: '#3a1614', stripe: '#fff',    denom: '$5',   key: 'red'    },
+      { min: 300,  side: '#4a9469', top: '#9ed9b6', edge: '#1a3d28', stripe: '#fff',    denom: '$25',  key: 'green'  },
+      { min: 700,  side: '#5d4dd8', top: '#a89aff', edge: '#2a225a', stripe: '#fff',    denom: '$100', key: 'black'  },
+      { min: 1500, side: '#1c1c1c', top: '#3a3a3a', edge: '#000',    stripe: '#d4af37', denom: '$500', key: 'gold'   }
+    ];
+
+    const abs = Math.abs(profit);
+    const tier = [...tiers].reverse().find(t => abs >= t.min) || tiers[0];
+    const tierIdx = tiers.indexOf(tier);
+    const nextMin = tiers[tierIdx + 1]?.min ?? (tier.min * 3 + 500);
+    const tierRange = nextMin - tier.min;
+    const progress = Math.min(1, (abs - tier.min) / tierRange);
+    const chipCount = Math.max(4, Math.min(12, 4 + Math.floor(progress * 8)));
+
+    // SVG dims
+    const W = 280, H = 280;
+    const cx = 150;
+    const baseY = H - 26;
+    const rx = 56, ry = 8;
+    const sideH = 9;
+
+    let svg = '<svg viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg">';
+    svg += '<defs>';
+    svg += '<linearGradient id="cs-side" x1="0" x2="0" y1="0" y2="1">';
+    svg +=   '<stop offset="0" stop-color="'+tier.side+'"/>';
+    svg +=   '<stop offset="1" stop-color="'+tier.edge+'"/>';
+    svg += '</linearGradient>';
+    svg += '<linearGradient id="cs-top" x1="0" x2="0" y1="0" y2="1">';
+    svg +=   '<stop offset="0" stop-color="'+tier.top+'"/>';
+    svg +=   '<stop offset="1" stop-color="'+tier.side+'"/>';
+    svg += '</linearGradient>';
+    svg += '<filter id="cs-blur" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="0.65"/></filter>';
+    svg += '<filter id="cs-halo" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>';
+    svg += '<filter id="cs-shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>';
+    svg += '</defs>';
+
+    // diffuse halo
+    svg += '<ellipse cx="'+cx+'" cy="'+(baseY - chipCount*sideH*0.5)+'" rx="'+(rx+30)+'" ry="'+(chipCount*sideH*0.7 + 14)+'" fill="'+tier.side+'" opacity="0.18" filter="url(#cs-halo)"/>';
+    // ground shadow
+    svg += '<ellipse cx="'+cx+'" cy="'+(baseY + 14)+'" rx="'+(rx + 6)+'" ry="4" fill="rgba(0,0,0,0.55)" filter="url(#cs-shadow)"/>';
+
+    // Stack (slight blur for atmosphere; chip edges still readable due to stroke contrast)
+    svg += '<g filter="url(#cs-blur)">';
+    for (let i = 0; i < chipCount; i++) {
+      const isTop = i === chipCount - 1;
+      const yBot = baseY - i * sideH;
+      const yTop = yBot - sideH;
+
+      // side band path: top-edge line + right side + curved bottom + left side
+      svg += '<path d="M '+(cx-rx)+' '+yTop+' L '+(cx-rx)+' '+yBot+' A '+rx+' '+ry+' 0 0 0 '+(cx+rx)+' '+yBot+' L '+(cx+rx)+' '+yTop+' Z" fill="url(#cs-side)"/>';
+
+      // 5 rim stripes — perspective-aware (faded at sides)
+      for (let s = 0; s < 5; s++) {
+        const t = (s + 0.5) / 5;            // 0..1 across visible top arc
+        const ang = Math.PI - t * Math.PI;  // PI down to 0
+        const sx = cx + Math.cos(ang) * (rx - 4);
+        const opacity = Math.sin(ang) * 0.55;
+        svg += '<rect x="'+(sx - 2)+'" y="'+(yTop + 0.5)+'" width="3.5" height="'+(sideH - 1.2)+'" fill="'+tier.stripe+'" opacity="'+opacity.toFixed(2)+'"/>';
+      }
+
+      // dark separator: rounded ellipse along the bottom edge of the chip side
+      svg += '<path d="M '+(cx-rx)+' '+yBot+' A '+rx+' '+ry+' 0 0 0 '+(cx+rx)+' '+yBot+'" fill="none" stroke="'+tier.edge+'" stroke-width="0.8" opacity="0.7"/>';
+
+      // top face (visible because it sits above the chip below it)
+      svg += '<ellipse cx="'+cx+'" cy="'+yTop+'" rx="'+rx+'" ry="'+ry+'" fill="url(#cs-top)" stroke="'+tier.edge+'" stroke-width="0.7"/>';
+
+      if (isTop) {
+        // double inner ring detail on the very top
+        svg += '<ellipse cx="'+cx+'" cy="'+yTop+'" rx="'+(rx-7)+'" ry="'+(ry-1.8)+'" fill="none" stroke="'+tier.edge+'" stroke-width="0.5" opacity="0.55"/>';
+        svg += '<ellipse cx="'+cx+'" cy="'+yTop+'" rx="'+(rx-14)+'" ry="'+(ry-3.5)+'" fill="none" stroke="'+tier.edge+'" stroke-width="0.4" opacity="0.40"/>';
+        // denomination glyph
+        svg += '<text x="'+cx+'" y="'+(yTop+2.6)+'" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" font-weight="600" fill="'+tier.edge+'" opacity="0.75">'+tier.denom+'</text>';
+      }
+    }
+    svg += '</g>';
+
+    // Foreground accent: 2-3 smaller chips off to the side, only at green tier+
+    if (tierIdx >= 2) {
+      const frontCount = Math.min(4, Math.max(2, 1 + Math.floor(progress * 3)));
+      const fx = cx + 78, fb = baseY - 6;
+      svg += '<g opacity="0.92">';
+      for (let i = 0; i < frontCount; i++) {
+        const fy = fb - i * 6.5;
+        svg += '<path d="M '+(fx-26)+' '+(fy-4)+' L '+(fx-26)+' '+fy+' A 26 5 0 0 0 '+(fx+26)+' '+fy+' L '+(fx+26)+' '+(fy-4)+' Z" fill="'+tier.side+'"/>';
+        svg += '<path d="M '+(fx-26)+' '+fy+' A 26 5 0 0 0 '+(fx+26)+' '+fy+'" fill="none" stroke="'+tier.edge+'" stroke-width="0.6" opacity="0.7"/>';
+        svg += '<ellipse cx="'+fx+'" cy="'+(fy-4)+'" rx="26" ry="5" fill="'+tier.top+'" stroke="'+tier.edge+'" stroke-width="0.5"/>';
+      }
+      svg += '</g>';
+    }
+
+    svg += '</svg>';
+    target.innerHTML = svg;
+
+    // readout below
+    if (readout) {
+      const tierLabels = { bronze: 'Bronze · $1', red: 'Red · $5', green: 'Green · $25', black: 'Black · $100', gold: 'Gold · $500' };
+      readout.innerHTML =
+        '<b>'+chipCount+'</b> chips<span class="tier-badge tier-'+tier.key+'">'+tierLabels[tier.key]+'</span>';
+    }
+  }
+  renderChipStack(388.85);
+
+  // =================== STACK BAND ROW SELECT ===================
+  document.querySelectorAll('.sb-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const sel = row.getAttribute('aria-selected') === 'true';
+      document.querySelectorAll('.sb-row').forEach(r => r.setAttribute('aria-selected', 'false'));
+      row.setAttribute('aria-selected', sel ? 'false' : 'true');
+    });
+  });
+
+  // =================== KPI TILE SELECT + CAROUSEL ===================
+  (function kpiCarousel() {
+    const track = document.getElementById('kpi-track');
+    const prev = document.getElementById('kpi-prev');
+    const next = document.getElementById('kpi-next');
+    const pages = document.getElementById('kpi-pages');
+    if (!track) return;
+    const tiles = track.querySelectorAll('.kpi');
+    const PER_PAGE = 6;
+    const pageCount = Math.max(1, Math.ceil(tiles.length / PER_PAGE));
+    let page = 0;
+    function applyPage() {
+      const vp = track.parentElement.clientWidth;
+      track.style.marginLeft = (-page * vp) + 'px';
+      prev.disabled = page === 0;
+      next.disabled = page === pageCount - 1;
+      if (pages) pages.innerHTML = '<b>'+(page+1)+'</b>/'+pageCount;
+    }
+    prev.addEventListener('click', () => { if (page > 0) { page--; applyPage(); } });
+    next.addEventListener('click', () => { if (page < pageCount - 1) { page++; applyPage(); } });
+    window.addEventListener('resize', applyPage);
+    applyPage();
+  })();
+  document.querySelectorAll('.kpi').forEach(tile => {
+    tile.addEventListener('click', () => {
+      const sel = tile.getAttribute('aria-selected') === 'true';
+      document.querySelectorAll('.kpi').forEach(t => t.setAttribute('aria-selected', 'false'));
+      tile.setAttribute('aria-selected', sel ? 'false' : 'true');
+    });
+  });
+
+  // =================== LEAK ROW EXPAND ===================
+  const LEAK_DATA = {
+    '01': {
+      name: 'BTN open width',
+      dist: [
+        { l: 'preflop', pct: 88, peak: true },
+        { l: 'flop',    pct: 9 },
+        { l: 'turn',    pct: 3 },
+        { l: 'river',   pct: 0 }
+      ],
+      meta: [
+        ['Position',   'BTN · 100bb', ''],
+        ['Frequency',  '58%', 'neg'],
+        ['Target',     '48–52%', ''],
+        ['Sample',     '1,142 hands', ''],
+        ['Confidence', '0.88 · high', 'pos'],
+        ['Cost',       '−28bb/100 · ~−$0.62/T', 'neg']
+      ],
+      hands: [
+        { id: '#8127', cards: 'K<span class="suit-r">♥</span>7<span class="suit-r">♥</span>', net: '−12bb' },
+        { id: '#7942', cards: 'Q<span class="suit-r">♦</span>6<span class="suit-r">♦</span>', net: '−18bb' },
+        { id: '#7831', cards: 'J<span class="suit-b">♣</span>7<span class="suit-b">♣</span>', net: '−9bb'  }
+      ]
+    },
+    '02': {
+      name: 'SB 3-bet sizing',
+      dist: [
+        { l: 'preflop', pct: 100, peak: true },
+        { l: 'flop',    pct: 0 },
+        { l: 'turn',    pct: 0 },
+        { l: 'river',   pct: 0 }
+      ],
+      meta: [
+        ['Position',   'SB · 25bb', ''],
+        ['Used size',  '2.5x', 'neg'],
+        ['Target',     '2.75–3x', ''],
+        ['Sample',     '412 hands', ''],
+        ['Confidence', '0.62 · medium', 'warn'],
+        ['Cost',       '−12bb/100 · ~−$0.28/T', 'neg']
+      ],
+      hands: [
+        { id: '#9012', cards: 'A<span class="suit-r">♥</span>J<span class="suit-r">♥</span>', net: '−6bb' },
+        { id: '#8855', cards: 'K<span class="suit-b">♣</span>Q<span class="suit-b">♣</span>', net: '−8bb' }
+      ]
+    },
+    '03': {
+      name: 'Missed steal CO',
+      dist: [
+        { l: 'preflop', pct: 100, peak: true },
+        { l: 'flop',    pct: 0 },
+        { l: 'turn',    pct: 0 },
+        { l: 'river',   pct: 0 }
+      ],
+      meta: [
+        ['Position',   'CO · 30bb', ''],
+        ['Fold freq',  '22% over', 'neg'],
+        ['Target',     'open wider', ''],
+        ['Sample',     '864 hands', ''],
+        ['Confidence', '0.78 · high', 'pos'],
+        ['Cost',       '−9bb/100 · ~−$0.21/T', 'neg']
+      ],
+      hands: [
+        { id: '#9224', cards: 'A<span class="suit-r">♥</span>9<span class="suit-r">♥</span>', net: '0bb' },
+        { id: '#9201', cards: 'K<span class="suit-b">♣</span>T<span class="suit-b">♣</span>', net: '0bb' }
+      ]
+    },
+    '04': {
+      name: 'BB defense vs HJ',
+      dist: [
+        { l: 'preflop', pct: 100, peak: true },
+        { l: 'flop',    pct: 0 },
+        { l: 'turn',    pct: 0 },
+        { l: 'river',   pct: 0 }
+      ],
+      meta: [
+        ['Position',   'BB · 30bb', ''],
+        ['Defense',    '39%', 'warn'],
+        ['Target',     '42–46%', ''],
+        ['Sample',     '606 hands', ''],
+        ['Confidence', '0.71 · high', 'pos'],
+        ['Cost',       '−4bb/100 · ~−$0.09/T', 'neg']
+      ],
+      hands: [
+        { id: '#7402', cards: 'Q<span class="suit-r">♦</span>T<span class="suit-b">♣</span>', net: '0bb' },
+        { id: '#7388', cards: '8<span class="suit-r">♥</span>6<span class="suit-r">♥</span>', net: '0bb' }
+      ]
+    },
+    '05': {
+      name: '4-bet bluff frequency',
+      dist: [
+        { l: 'preflop', pct: 100, peak: true },
+        { l: 'flop',    pct: 0 },
+        { l: 'turn',    pct: 0 },
+        { l: 'river',   pct: 0 }
+      ],
+      meta: [
+        ['Position',   'UTG · 100bb', ''],
+        ['4-bet bluff','2.1%', 'warn'],
+        ['Target',     '~3%', ''],
+        ['Sample',     '98 hands', 'warn'],
+        ['Confidence', '0.24 · low', 'warn'],
+        ['Cost',       '−2bb/100 · ~−$0.04/T', 'neg']
+      ],
+      hands: [
+        { id: '#6201', cards: 'A<span class="suit-r">♥</span>5<span class="suit-r">♥</span>', net: '−2bb' }
+      ]
+    }
+  };
+
+  function renderLeakExpand(rank) {
+    const d = LEAK_DATA[rank]; if (!d) return '';
+    const maxPct = Math.max(...d.dist.map(b => b.pct)) || 1;
+    const dist = d.dist.map(b =>
+      '<div class="bar neg'+(b.peak?' peak':'')+'" style="height:'+Math.max(6, (b.pct/maxPct)*60)+'px;" title="'+b.l+' · '+b.pct+'%"></div>'
+    ).join('');
+    const distLabels = d.dist.map(b => '<span>'+b.l+'</span>').join('');
+    const metaRows = d.meta.map(([l, v, cls]) =>
+      '<div class="row-line"><span class="l">'+l+'</span><span class="v'+(cls?' '+cls:'')+'">'+v+'</span></div>'
+    ).join('');
+    const hands = d.hands.map(h =>
+      '<div class="se-hand"><span class="id">'+h.id+'</span><span class="holding">'+h.cards+'</span><span class="net'+(h.net.startsWith('+')?' pos':'')+'">'+h.net+'</span></div>'
+    ).join('');
+    return ''
+      + '<div class="strip-expand"><div class="strip-expand-inner">'
+      +   '<div class="se-block">'
+      +     '<div class="se-l">Where the leak shows up</div>'
+      +     '<div class="se-dist">'+dist+'</div>'
+      +     '<div class="se-dist-labels">'+distLabels+'</div>'
+      +   '</div>'
+      +   '<div class="se-block">'
+      +     '<div class="se-l">Breakdown</div>'
+      +     '<div class="se-meta-row">'+metaRows+'</div>'
+      +   '</div>'
+      +   '<div class="se-block">'
+      +     '<div class="se-l">Sample hands &middot; '+d.hands.length+'</div>'
+      +     '<div class="se-hands">'+hands+'</div>'
+      +     '<div class="se-actions" style="margin-top:12px;">'
+      +       '<button class="se-btn">Review all '+d.meta[3][1].replace(/[^0-9]/g,'')+' hands</button>'
+      +       '<button class="se-btn-ghost">Open in Ranges</button>'
+      +     '</div>'
+      +   '</div>'
+      + '</div></div>';
+  }
+
+  // wrap each row so we can inject expand markup right after it
+  document.querySelectorAll('.strip-rows .strip-row').forEach(row => {
+    const wrap = document.createElement('div');
+    wrap.className = 'strip-row-wrap';
+    row.parentNode.insertBefore(wrap, row);
+    wrap.appendChild(row);
+    const rank = row.querySelector('.strip-rank')?.textContent.trim();
+    wrap.insertAdjacentHTML('beforeend', renderLeakExpand(rank));
+    row.addEventListener('click', () => {
+      const isOpen = wrap.getAttribute('data-expanded') === 'true';
+      // close all
+      document.querySelectorAll('.strip-row-wrap').forEach(w => w.setAttribute('data-expanded', 'false'));
+      document.querySelectorAll('.strip-row').forEach(r => {
+        r.setAttribute('aria-selected', 'false');
+        r.setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        wrap.setAttribute('data-expanded', 'true');
+        row.setAttribute('aria-selected', 'true');
+        row.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // =================== DIAGNOSTICS DRAWER ===================
+  document.getElementById('diag-toggle').addEventListener('click', () => {
+    document.getElementById('diag').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>

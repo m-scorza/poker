@@ -8,7 +8,7 @@
 - Product posture: private/local generic poker analyzer.
 - Reg Life / curriculum licensing: informal encouragement only; no written terms in repo.
 - Do not start pricing/funnel/public-sharing/public-distribution work unless the user explicitly overrides the gate.
-- Dashboard/design exploration is currently a separate track. Do not mix design mockups/briefs into engine/backend implementation unless the user asks.
+- Dashboard/design exploration is now an ACTIVE track owned by Antigravity. We are aligning the application with the `docs/design/00_source_of_truth_poker_dashboard.md` design brief, specifically targeting the Dashboard v5 Action Layer.
 
 ## Current engineering lane
 

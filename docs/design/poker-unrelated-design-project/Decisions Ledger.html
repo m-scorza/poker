@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1280, initial-scale=1" />
+<title>Decisions — Poker Analyzer Redesign</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0b0d;
+    --panel: #111318;
+    --panel-2: #161922;
+    --panel-3: #1c2130;
+    --border: rgba(255,255,255,0.065);
+    --border-strong: rgba(255,255,255,0.11);
+    --fg: #ecedf0;
+    --fg-2: #a4a8b2;
+    --fg-3: #6c7180;
+    --fg-4: #464a58;
+    --accent: #8b7cff;
+    --accent-2: #b7adff;
+    --accent-soft: rgba(139,124,255,0.10);
+    --accent-border: rgba(139,124,255,0.30);
+    --pos: #6dbf8d;
+    --pos-soft: rgba(109,191,141,0.10);
+    --neg: #e8807a;
+    --neg-soft: rgba(232,128,122,0.10);
+    --warn: #d9a85a;
+    --warn-soft: rgba(217,168,90,0.10);
+    --info: #7eb6f0;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --sans: 'Inter', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: var(--sans); -webkit-font-smoothing: antialiased;
+    line-height: 1.55; font-size: 14px; min-height: 100vh;
+  }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  code, .mono { font-family: var(--mono); }
+
+  /* TOP */
+  .topbar {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(10,11,13,0.85);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar-inner { max-width: 1180px; margin: 0 auto; padding: 14px 36px; display: flex; align-items: center; gap: 18px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-mark { width: 28px; height: 28px; border-radius: 7px; background: linear-gradient(160deg, #1c2030 0%, #0e1014 100%); border: 1px solid var(--border-strong); display: flex; align-items: center; justify-content: center; color: var(--accent); }
+  .brand-mark svg { width: 14px; height: 14px; }
+  .brand-name { font-size: 13.5px; font-weight: 600; }
+  .brand-sub { font-size: 10.5px; color: var(--fg-3); font-family: var(--mono); letter-spacing: 0.04em; text-transform: uppercase; margin-top: 1px; }
+  .topbar-spacer { flex: 1; }
+  .topbar-meta { font-family: var(--mono); font-size: 11px; color: var(--fg-3); display: flex; gap: 14px; align-items: center; }
+  .topbar-meta .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+  /* SHELL */
+  .shell { max-width: 1180px; margin: 0 auto; padding: 32px 36px 96px; }
+
+  .doc-head { padding-bottom: 28px; border-bottom: 1px solid var(--border); margin-bottom: 36px; }
+  .crumb { font-family: var(--mono); font-size: 11px; color: var(--fg-3); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px; }
+  .crumb span + span::before { content: ' / '; color: var(--fg-4); margin: 0 4px; }
+  h1.doc-title { margin: 0 0 12px; font-size: 34px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.1; }
+  .doc-lede { font-size: 15px; color: var(--fg-2); max-width: 720px; margin: 0; }
+  .doc-meta { display: flex; gap: 26px; margin-top: 22px; font-size: 12px; color: var(--fg-3); }
+  .doc-meta b { color: var(--fg-2); font-weight: 500; font-family: var(--mono); display: block; margin-top: 3px; font-size: 13px; }
+
+  section { margin-top: 48px; scroll-margin-top: 80px; }
+  section > .section-head { display: flex; align-items: baseline; gap: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--border); margin-bottom: 22px; }
+  .section-num { font-family: var(--mono); font-size: 12px; color: var(--fg-4); letter-spacing: 0.06em; }
+  h2.section-title { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: -0.018em; }
+  .section-sub { color: var(--fg-3); font-size: 12px; margin: 0; flex: 1; text-align: right; font-family: var(--mono); }
+
+  h3 { font-size: 15px; font-weight: 600; margin: 24px 0 10px; letter-spacing: -0.005em; }
+  p { margin: 0 0 12px; color: var(--fg-2); }
+  p.lede { font-size: 14.5px; color: var(--fg); }
+  strong { color: var(--fg); font-weight: 600; }
+  ul { padding-left: 22px; margin: 0 0 12px; }
+  li { margin: 4px 0; color: var(--fg-2); }
+  li::marker { color: var(--fg-4); }
+
+  /* DECISION CARDS */
+  .dec-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+  .dec {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 9px;
+    padding: 16px 20px;
+    display: grid; grid-template-columns: 72px 1fr 90px; gap: 18px; align-items: start;
+  }
+  .dec-ref { font-family: var(--mono); font-size: 10.5px; color: var(--fg-4); letter-spacing: 0.04em; padding-top: 2px; }
+  .dec-body h4 { margin: 0 0 6px; font-size: 13.5px; font-weight: 600; color: var(--fg); letter-spacing: -0.005em; }
+  .dec-body .matheus { font-size: 12.5px; color: var(--fg-3); margin: 0 0 8px; line-height: 1.55; font-style: italic; border-left: 2px solid var(--border-strong); padding: 1px 0 1px 10px; }
+  .dec-body .matheus::before { content: 'M · '; font-style: normal; color: var(--fg-4); font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.08em; }
+  .dec-body .verdict { font-size: 13px; color: var(--fg); margin: 0; line-height: 1.55; }
+  .dec-body .verdict strong { color: var(--fg); }
+
+  .badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+    text-transform: uppercase; padding: 3px 8px; border-radius: 4px;
+    height: fit-content;
+  }
+  .b-keep   { background: var(--pos-soft); color: var(--pos); border: 1px solid rgba(109,191,141,0.25); }
+  .b-flip   { background: var(--warn-soft); color: var(--warn); border: 1px solid rgba(217,168,90,0.25); }
+  .b-kill   { background: var(--neg-soft); color: var(--neg); border: 1px solid rgba(232,128,122,0.25); }
+  .b-amend  { background: var(--accent-soft); color: var(--accent-2); border: 1px solid var(--accent-border); }
+  .b-defer  { background: var(--panel-2); color: var(--fg-3); border: 1px solid var(--border); }
+  .b-open   { background: rgba(126,182,240,0.10); color: var(--info); border: 1px solid rgba(126,182,240,0.25); }
+
+  /* NAME OPTIONS */
+  .name-options { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin: 18px 0 8px; }
+  .name-opt {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 20px 22px; cursor: pointer; transition: all 0.15s ease;
+    position: relative;
+  }
+  .name-opt:hover { border-color: var(--border-strong); background: var(--panel-2); transform: translateY(-1px); }
+  .name-opt .mark {
+    width: 36px; height: 36px; border-radius: 8px;
+    background: linear-gradient(160deg, #1c2030 0%, #0e1014 100%);
+    border: 1px solid var(--border-strong);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 16px;
+  }
+  .name-opt .mark svg { width: 18px; height: 18px; color: var(--accent); }
+  .name-opt .word { font-size: 19px; font-weight: 600; letter-spacing: -0.015em; }
+  .name-opt .word .accent { color: var(--accent); }
+  .name-opt .tagline { font-size: 11px; color: var(--fg-3); font-family: var(--mono); letter-spacing: 0.04em; text-transform: uppercase; margin-top: 3px; }
+  .name-opt .note { font-size: 12px; color: var(--fg-3); margin-top: 14px; line-height: 1.5; }
+  .name-opt .pros { margin-top: 12px; font-size: 11.5px; color: var(--fg-2); }
+  .name-opt .pros .label { color: var(--fg-4); font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; margin-right: 6px; }
+  .name-opt .ribbon { position: absolute; top: 14px; right: 14px; font-family: var(--mono); font-size: 9.5px; color: var(--accent); letter-spacing: 0.1em; }
+
+  /* MARK OPTIONS */
+  .mark-options { display: grid; grid-template-columns: repeat(6,1fr); gap: 12px; margin: 16px 0; }
+  .mark-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 9px;
+    padding: 18px; display: flex; flex-direction: column; align-items: center; text-align: center;
+  }
+  .mark-card .mark-vis {
+    width: 56px; height: 56px; border-radius: 12px;
+    background: linear-gradient(160deg, #1c2030 0%, #0e1014 100%);
+    border: 1px solid var(--border-strong);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 12px; color: var(--accent);
+  }
+  .mark-card .mark-vis svg { width: 28px; height: 28px; }
+  .mark-card .mark-vis.alt { background: linear-gradient(160deg, rgba(139,124,255,0.18) 0%, #0e1014 100%); }
+  .mark-card .mark-label { font-size: 11.5px; color: var(--fg); font-weight: 500; }
+  .mark-card .mark-desc { font-size: 10.5px; color: var(--fg-3); margin-top: 4px; line-height: 1.45; }
+
+  /* OPEN QUESTIONS */
+  .open-q {
+    background: linear-gradient(160deg, rgba(126,182,240,0.06) 0%, transparent 60%);
+    border: 1px solid rgba(126,182,240,0.25);
+    border-radius: 11px; padding: 22px 26px;
+  }
+  .open-q .label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--info); font-weight: 600; margin-bottom: 12px; }
+  .open-q ol { padding-left: 22px; margin: 0; }
+  .open-q li { margin: 12px 0; color: var(--fg); font-size: 14px; }
+  .open-q li b { color: var(--fg); }
+  .open-q li span { display: block; font-size: 12.5px; color: var(--fg-3); margin-top: 3px; line-height: 1.5; }
+
+  /* NEXT */
+  .next-box {
+    margin-top: 48px; padding: 26px 28px;
+    background: linear-gradient(160deg, rgba(139,124,255,0.06) 0%, transparent 60%);
+    border: 1px solid var(--accent-border); border-radius: 12px;
+  }
+  .next-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent-2); font-weight: 600; margin-bottom: 10px; }
+  .next-box h3 { margin: 0 0 12px; font-size: 19px; font-weight: 600; }
+  .next-box p { font-size: 13.5px; max-width: 720px; }
+  .next-list { margin: 16px 0 0; padding: 0; list-style: none; }
+  .next-list li { font-size: 13px; color: var(--fg-2); padding: 6px 0 6px 22px; position: relative; }
+  .next-list li::before { content: ''; position: absolute; left: 4px; top: 13px; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
+
+  /* COUNTERS */
+  .counters { display: grid; grid-template-columns: repeat(5,1fr); gap: 10px; margin: 20px 0 0; }
+  .counter { background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .counter .n { font-family: var(--mono); font-size: 20px; font-weight: 500; color: var(--fg); }
+  .counter .l { font-size: 10.5px; color: var(--fg-3); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.1em; }
+  .counter.keep .n { color: var(--pos); }
+  .counter.flip .n { color: var(--warn); }
+  .counter.kill .n { color: var(--neg); }
+  .counter.amend .n { color: var(--accent-2); }
+  .counter.open .n { color: var(--info); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 14 14" fill="currentColor"><path d="M7 1 L1 7.5 L7 13 L13 7.5 Z" stroke="currentColor" stroke-width="1.2" fill="none"/><circle cx="7" cy="7.5" r="2" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="brand-name">Decisions Ledger</div>
+        <div class="brand-sub">round 01 · m.s. + reviewer</div>
+      </div>
+    </div>
+    <div class="topbar-spacer"></div>
+    <div class="topbar-meta"><span class="dot"></span> 32 calls reviewed</div>
+  </div>
+</div>
+
+<div class="shell">
+
+  <div class="doc-head">
+    <div class="crumb"><span>docs</span><span>design</span><span>round-01 — decisions</span></div>
+    <h1 class="doc-title">Decisions.</h1>
+    <p class="doc-lede">
+      Matheus's review folded into the audit, item by item. <strong>Bold = the final call for Round 2.</strong>
+      A few §17 commitments flipped (name, Villains, Predators, money-first hero) — captured below. Three open questions block the next round; resolve those and I'll generate Dashboard Directions v2.
+    </p>
+    <div class="counters">
+      <div class="counter keep"><div class="n">11</div><div class="l">kept as proposed</div></div>
+      <div class="counter amend"><div class="n">10</div><div class="l">amended</div></div>
+      <div class="counter flip"><div class="n">6</div><div class="l">flipped</div></div>
+      <div class="counter kill"><div class="n">2</div><div class="l">deferred</div></div>
+      <div class="counter open"><div class="n">3</div><div class="l">open</div></div>
+    </div>
+  </div>
+
+  <!-- ============== SECTION 01: FLIPPED ============== -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Flipped from the audit</h2>
+      <p class="section-sub">important — read first</p>
+    </div>
+
+    <div class="dec-grid">
+
+      <div class="dec">
+        <div class="dec-ref">§01<br/>brand</div>
+        <div class="dec-body">
+          <h4>Product name — "Tournament Lab" is out.</h4>
+          <p class="matheus">looks a little like ai slop still</p>
+          <p class="verdict">Need a different name. <strong>Three options below in §03 — pick one and we move.</strong> If none fit, give us a steer (one word, one feel) and we'll iterate. Constraint: not "Analyzer", not "HUD", not "EV Platform".</p>
+        </div>
+        <span class="badge b-flip">flipped</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§01<br/>mark</div>
+        <div class="dec-body">
+          <h4>Brand mark needs poker iconography.</h4>
+          <p class="matheus">i like that but it doesnt resemble to poker immediatly</p>
+          <p class="verdict"><strong>Drop the abstract geometric mark.</strong> Use a poker-native primitive instead. Options in §03: suit-stack, range-grid 3×3, card-corner, spade-with-rule, chip-ring. Picking the mark and the name together.</p>
+        </div>
+        <span class="badge b-flip">flipped</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§03<br/>IA</div>
+        <div class="dec-body">
+          <h4>"Villains" stays. Do NOT rename to Players.</h4>
+          <p class="matheus">i guess villains is the correct call, its usual poker slang for people we face</p>
+          <p class="matheus">but we're targeting poker players</p>
+          <p class="verdict"><strong>Keep "Villains" in the sidebar and across the app.</strong> The whole product is for poker players — leaning into native jargon is correct, not jargon-laundered analytics. Drop the §04 rename row. <em>(But still fix the 44-zero-row demo data — that's a separate bug, not a naming issue.)</em></p>
+        </div>
+        <span class="badge b-flip">flipped</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§04<br/>copy</div>
+        <div class="dec-body">
+          <h4>"Predators" framing stays.</h4>
+          <p class="matheus">im not sure if i agree. because like its the people that makes the player lose money</p>
+          <p class="verdict"><strong>Don't rename "Global Predators" to "Top exposures".</strong> Predators is honest about what the data shows — players who consistently take chips off you. Keep the term. Same logic applies anywhere else "exposure" was proposed.</p>
+        </div>
+        <span class="badge b-flip">flipped</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§06<br/>hero</div>
+        <div class="dec-body">
+          <h4>Money is the hero metric on Dashboard + Career.</h4>
+          <p class="matheus">but the main thing a poker player has in career accolades is the money he made</p>
+          <p class="verdict"><strong>Net profit (in $) is the primary number.</strong> ROI / ITM / bb/100 are supporting context, not the main display. The audit's stance ("raw chips shouldn't be primary") was over-corrected — for tournament players, lifetime cash is the truth. Bb-deltas stay on hand-level metrics; dollars dominate at career/dashboard level.</p>
+        </div>
+        <span class="badge b-flip">flipped</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§07<br/>career</div>
+        <div class="dec-body">
+          <h4>Ability Rating gauge stays — with a disclaimer.</h4>
+          <p class="matheus">if the players use it correctly it should have the same efficiency as sharkscope or even higher since we will have detail of all the player tournaments. i agree we should add a disclaimer though</p>
+          <p class="verdict"><strong>Keep the 0-100 gauge.</strong> Add an inline confidence/disclaimer chip next to it: <span class="mono">local · n=10,716 · no global cohort</span>. When real imports are loaded, the chip upgrades to <span class="mono">your full history</span>. We don't replace the gauge with a qualitative band.</p>
+        </div>
+        <span class="badge b-flip">flipped</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============== SECTION 02: AMENDED ============== -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Amended — kept but refined</h2>
+      <p class="section-sub">10 items</p>
+    </div>
+
+    <div class="dec-grid">
+
+      <div class="dec">
+        <div class="dec-ref">§07<br/>career</div>
+        <div class="dec-body">
+          <h4>Historical Timeline — keep, but be selective.</h4>
+          <p class="matheus">disagree, its nice to see accolades, but i agree that it should be more selective on what it displays, got that idea from gg poker stats page, next time ill send you a screenshot on that</p>
+          <p class="verdict">Don't delete the timeline. <strong>Show only milestones</strong>: first cash · biggest cash · best finish · longest itm streak · stake promotion. Drop the "Demo Local MTT Session #N" entries — those live in Sessions. Hold for the GG screenshot before final layout.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§06<br/>dash</div>
+        <div class="dec-body">
+          <h4>5-module Dashboard — only if no data is lost.</h4>
+          <p class="matheus">if we can do that without losing displayed data im all for it</p>
+          <p class="verdict">Yes. <strong>Surface 5 modules at first glance</strong> (Verdict · Top Blocker · Study Queue · Career Trend · Diagnostics). Everything currently visible stays in the product — the 15 KPI cards collapse into a <strong>"Diagnostics" expandable section</strong> on the dashboard itself + dedicated tabs on Career. Nothing deleted, just demoted.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§05<br/>shell</div>
+        <div class="dec-body">
+          <h4>Sidebar — collapsible to icons.</h4>
+          <p class="matheus">also i think the side bar should be able to be collapsed you know, so the actual content has more space. but for that we would need to think of little icons and something to make it smart</p>
+          <p class="verdict">New requirement. <strong>Two states: 232px expanded ↔ 56px collapsed (icon rail).</strong> Toggle in sidebar footer + keyboard shortcut (<span class="mono">⌘\</span>). Each nav item gets a distinct, readable icon. Active rail accent stays in both states. Hovering an icon in collapsed mode shows the label as a tooltip-strip.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§12<br/>sessions</div>
+        <div class="dec-body">
+          <h4>Drop Nemesis · keep GTO Consistency + Intelligence · add highlights.</h4>
+          <p class="matheus">nemesis i agree to remove but gto is key and intelligence is a read of that. i think what would also be cool is like best hand worst hand bad beat, thats just cool to know i figure</p>
+          <p class="verdict">Session expanded row gets <strong>three modules</strong>: <em>GTO Consistency</em> (primary) · <em>Session Read</em> (renamed from Intelligence, more grounded copy) · <em>Highlights</em> (new — best hand · worst hand · bad beat of the session). Removes Nemesis. Keeps the chip count.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§11<br/>ranges</div>
+        <div class="dec-body">
+          <h4>Critical Deviations — summary + drill-down.</h4>
+          <p class="matheus">i think stepping in the middle of this is the most correct, like i can show briefly what was decisions made wrong, but the full list of deviations is also cool, because the player could revisit the specific hand replay from there, no?</p>
+          <p class="verdict"><strong>Top: 3-4 line summary</strong> ("12 limps · 4 wrong calls vs 3-bet · 2 missed steals"). <strong>Below: full clickable list</strong> with each row linking into the Hands page filtered + the replay modal opened on that hand. Don't group-and-hide; the depth is the point.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§11<br/>ranges</div>
+        <div class="dec-body">
+          <h4>Range grids — simplify hues AND make them bigger.</h4>
+          <p class="matheus">yeah, for that i also think maybe the grids should be bigger so it easier to read</p>
+          <p class="verdict">Two changes: (1) drop the yellow/green/red tri-color, use <strong>single hue with 4 saturation steps</strong> (deviation band, not action band). (2) <strong>Grid cells go from ~28px to ~42px</strong>, page goes from two-up to one grid centered + one offset below — readability over density.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§08<br/>hands</div>
+        <div class="dec-body">
+          <h4>Hand-replay modal — bigger, easier to open.</h4>
+          <p class="matheus">i think its not smooth enough, and the detail hand window only opens when clicking on a tiny little button, not sure if its the best choice</p>
+          <p class="matheus">the window should be larger though so everything fits</p>
+          <p class="verdict">Two amendments: (1) <strong>whole row click opens the replay</strong> (with a separate small "review later" star button for the tiny-click action). (2) <strong>Modal grows to ~1240×780</strong> from current cramped size — board + actions + strategic context + math all visible without scrolling.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§14<br/>arena</div>
+        <div class="dec-body">
+          <h4>Arena — keep, dress it as a real table.</h4>
+          <p class="matheus">actually when i make the wrong move it tells me, but i agree with the rest. it could be a lot better and prettier, like giving the opponent cards so you have spacial sense of where sitting, like ok everyone knows that hijack is before button sb and bb, but it would be cool if i could see 3 players with cards to my right, the button in front of the button player, the chips indicating bb and sb</p>
+          <p class="verdict"><strong>Render the actual 9-handed table</strong>: villains seated with face-down cards, dealer button visible, SB/BB chip stacks visible, hero seat highlighted. Add a session counter + streak badge top-right. Drop the three-different-colored drill cards — neutral cards with severity dot only. <em>The "wrong move feedback" already exists — keep, just style consistently.</em></p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§04<br/>copy</div>
+        <div class="dec-body">
+          <h4>"RFI Master / C-Bet Clinic" — needs new names.</h4>
+          <p class="matheus">not sure, seems kinda boring specially alongside cbet drill</p>
+          <p class="verdict">"RFI drill" got rejected as boring. <strong>Try the "{verb} {topic}" template</strong>: <em>Open RFI · Sharpen C-bet · Defend Big Blind · Steal Late · Survive Bubble · Crush Final Table</em>. More energetic, still grounded. Same template kills "Fault Fixer". Pick from this set in v2.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§16<br/>cross</div>
+        <div class="dec-body">
+          <h4>Animations — more interesting throughout.</h4>
+          <p class="matheus">i think animations should be more interesting/better throughout the entire webapp</p>
+          <p class="verdict">Was going to cut the animation budget; flipping. <strong>Two motion lanes</strong>: (1) <em>Calm UI</em> — page enters, panel reveals, hover lifts: subtle, fast, opacity+4px. (2) <em>Poker-native moments</em> — card flips, chips sliding, range grid filling, leak severity pulse on first load, drill "correct/wrong" reveal. Lane 2 is where we spend the budget; lane 1 stays disciplined.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============== SECTION 03: OPEN QUESTIONS ============== -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Open questions — pick before we generate</h2>
+      <p class="section-sub">blockers</p>
+    </div>
+
+    <p class="lede">Three decisions block Dashboard Directions v2. They're paired (name + mark go together) — pick one set.</p>
+
+    <h3>Name + mark — vote one</h3>
+    <div class="name-options">
+
+      <div class="name-opt">
+        <div class="ribbon">OPT A</div>
+        <div class="mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+            <path d="M12 3 L4 11 L4 14 L12 22 L20 14 L20 11 Z"/>
+            <line x1="4" y1="14" x2="20" y2="14"/>
+          </svg>
+        </div>
+        <div class="word">Sharp<span class="accent">edge</span></div>
+        <div class="tagline">poker · review</div>
+        <div class="note">Spade-as-a-blade silhouette with a horizontal rule through it. "Sharpening your edge" — what review actually does.</div>
+        <div class="pros"><span class="label">vibe</span>aggressive, player-coded, not generic</div>
+      </div>
+
+      <div class="name-opt">
+        <div class="ribbon">OPT B</div>
+        <div class="mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="3" width="6" height="6" rx="1"/>
+            <rect x="9" y="3" width="6" height="6" rx="1" fill="currentColor"/>
+            <rect x="15" y="3" width="6" height="6" rx="1"/>
+            <rect x="3" y="9" width="6" height="6" rx="1"/>
+            <rect x="9" y="9" width="6" height="6" rx="1"/>
+            <rect x="15" y="9" width="6" height="6" rx="1" fill="currentColor"/>
+            <rect x="3" y="15" width="6" height="6" rx="1" fill="currentColor"/>
+            <rect x="9" y="15" width="6" height="6" rx="1"/>
+            <rect x="15" y="15" width="6" height="6" rx="1"/>
+          </svg>
+        </div>
+        <div class="word">Range<span class="accent">Room</span></div>
+        <div class="tagline">your private study</div>
+        <div class="note">3×3 range grid as the mark. Reads instantly as "poker" without using a card or chip. Name evokes a private workspace.</div>
+        <div class="pros"><span class="label">vibe</span>analytical, tool-coded, calm</div>
+      </div>
+
+      <div class="name-opt">
+        <div class="ribbon">OPT C</div>
+        <div class="mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+            <rect x="5" y="3" width="11" height="16" rx="1.5"/>
+            <rect x="8" y="6" width="11" height="16" rx="1.5" fill="rgba(139,124,255,0.15)"/>
+            <path d="M11 12 L12.5 10 L14 12 L12.5 14 Z" fill="currentColor" stroke="none"/>
+          </svg>
+        </div>
+        <div class="word">Double<span class="accent">Out</span></div>
+        <div class="tagline">deep tournament tool</div>
+        <div class="note">Two stacked playing cards with a diamond pip. "Double out" is poker for finishing — frames the product as the tool for getting deep.</div>
+        <div class="pros"><span class="label">vibe</span>tournament-specific, sharp, distinctive</div>
+      </div>
+
+    </div>
+
+    <p style="font-size: 12.5px; color: var(--fg-3); margin-top: 8px;">
+      None of these landing? Reply with one word that <em>doesn't</em> work for you ("nothing with 'lab'", "no animals", "no military verbs") and I'll spin a second set. Or veto the named-product direction entirely and we stay nameless under "Poker Analyzer" but redo the typography so it reads as the product.
+    </p>
+
+    <h3>Accent color — vote one</h3>
+    <div class="mark-options" style="grid-template-columns: repeat(3,1fr);">
+      <div class="mark-card">
+        <div class="mark-vis" style="background: rgba(139,124,255,0.18); color: #8b7cff;">
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="9"/></svg>
+        </div>
+        <div class="mark-label">Analytical violet</div>
+        <div class="mark-desc">#8b7cff · BI-tool feel, modern, slight Linear/Vercel association — different from every other poker analyzer</div>
+      </div>
+      <div class="mark-card">
+        <div class="mark-vis" style="background: rgba(95,181,133,0.18); color: #5fb585;">
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="9"/></svg>
+        </div>
+        <div class="mark-label">Muted emerald</div>
+        <div class="mark-desc">#5fb585 · keeps the green DNA of your current app but kills the neon. Felt-table adjacent. Lowest-risk shift.</div>
+      </div>
+      <div class="mark-card">
+        <div class="mark-vis" style="background: rgba(217,144,90,0.18); color: #d9905a;">
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="9"/></svg>
+        </div>
+        <div class="mark-label">Bronze amber</div>
+        <div class="mark-desc">#d9905a · gold-poker-chip warmth without the casino feel. Felt premium without being financial.</div>
+      </div>
+    </div>
+
+    <h3>Drills page — in scope for round 2 or defer?</h3>
+    <p>The audit deferred Drills as a workflow problem. Matheus's comment on it (table view with seated villains, button/SB/BB chips, spatial sense) is concrete enough that we could include it in round 2's "System" pass. Two options:</p>
+    <ul>
+      <li><strong>Include now:</strong> Dashboard Directions v2 has 3 directions for Dashboard only, then we expand the winner into Dashboard + Hands + Leaks + Career + Drills as one system.</li>
+      <li><strong>Defer:</strong> Same as audit said — handle Drills in a dedicated round 3 once Dashboard + core surfaces are locked.</li>
+    </ul>
+    <p style="font-size: 12.5px; color: var(--fg-3);">My take: <strong>defer</strong>. Drills needs its own attention; bundling it dilutes the system pass.</p>
+
+  </section>
+
+  <!-- ============== SECTION 04: KEPT ============== -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Kept — agreed</h2>
+      <p class="section-sub">11 items, brief</p>
+    </div>
+
+    <div class="dec-grid">
+
+      <div class="dec">
+        <div class="dec-ref">§03<br/>IA</div>
+        <div class="dec-body">
+          <h4>Merge Statistics into Career as subpage.</h4>
+          <p class="matheus">agree to merge with career or at least making it a subpage</p>
+          <p class="verdict">Career becomes tabbed: <em>Overview · Diagnostics · Technical · High-Impact Hands · Timeline</em>. Statistics removed from sidebar.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§15<br/>demo</div>
+        <div class="dec-body">
+          <h4>/pricing route kept for now (demo onboarding).</h4>
+          <p class="matheus">for now it will be kept since ill run a small demo with real players, that should kind of onboard them, but execution is not good right now</p>
+          <p class="verdict">Stays in nav as "Demo". <strong>Rebuild the page into a proper onboarding</strong>: 3-step walkthrough · "Load demo dataset" prominent · "Import your own .txt" secondary. Drop the marketing-landing chrome. Plan: redirect to Dashboard once any hand is imported.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§08<br/>hands</div>
+        <div class="dec-body">
+          <h4>Reset DB stays where it is (for now).</h4>
+          <p class="matheus">sure, but right now its comfy for me to have it there, since i often check if the parser is working ok and so i reset it frequently, in production ill move it</p>
+          <p class="verdict">Acknowledged as dev convenience. Production version moves to Settings. <strong>Add a 2-line confirm modal now</strong> ("This deletes 10,716 hands. Type 'reset'") — cheap insurance against muscle memory.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§08<br/>hands</div>
+        <div class="dec-body">
+          <h4>Hand-card visual — duplicate rank stays (it's a playing card).</h4>
+          <p class="matheus">i mean, thats how playing cards are</p>
+          <p class="verdict">Fair. Keep the top-corner + bottom-corner rank/suit rendering. Just <strong>tighten the proportions</strong> so it reads as a card and not as a layout bug — current spacing makes the bottom rank float.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§10<br/>stats</div>
+        <div class="dec-body">
+          <h4>High-Impact Hands duplicates — backend issue, not design.</h4>
+          <p class="matheus">that may be a parsing issue like if different hand histories have different formats may cause this, dont know yet</p>
+          <p class="matheus">its the demo data, when i upload real hands it works fine</p>
+          <p class="verdict">Design treats this as a non-issue. Add a <strong>"sample run on demo data"</strong> note so reviewers aren't spooked. Parser bug is yours to chase.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§13<br/>villains</div>
+        <div class="dec-body">
+          <h4>44 zero-rows — same root cause, same handling.</h4>
+          <p class="matheus">its the demo data, when i upload real hands it works fine</p>
+          <p class="verdict">Same as above. Add a small <em>"populated when real histories load"</em> footer so demo viewers know what to expect.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§12<br/>sessions</div>
+        <div class="dec-body">
+          <h4>BB/100 on small samples — leave to backend.</h4>
+          <p class="matheus">leave as is thats a backend issue</p>
+          <p class="verdict">Design stops trying to suppress these. <strong>Will still grey out values below a sample threshold</strong> via a <span class="mono">low-confidence</span> chip — that's display, not data math, and it's cheap. Otherwise unchanged.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§04<br/>copy</div>
+        <div class="dec-body">
+          <h4>Stack column color — only kick in below short-stack threshold.</h4>
+          <p class="matheus">its really stack size supposed to be at least</p>
+          <p class="verdict">Threshold: <strong>≤25bb → amber, ≤15bb → orange, ≤10bb → red.</strong> Above 25bb: default foreground, no color. Same logic powers the Sessions table.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§12<br/>copy</div>
+        <div class="dec-body">
+          <h4>"Elite Discipline" / hyperbole — dropped.</h4>
+          <p class="matheus">agreed, totally momentaneum and also ai slop reminders</p>
+          <p class="verdict">All hype-adjacent labels swapped for descriptive: <em>Elite Discipline → On-target session · Strategic Audit → Reports · Career Signal → ROI</em>. Same template applies anywhere else we catch it.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§04<br/>copy</div>
+        <div class="dec-body">
+          <h4>Drop "PRIVATE SHARKSCOPE" + "Competitor-inspired".</h4>
+          <p class="matheus">nice find, agree</p>
+          <p class="verdict">All competitor-named labels removed. Section becomes "Career overview" + the disclaimer chip from §07. No more "CareerScope" either.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§03<br/>IA</div>
+        <div class="dec-body">
+          <h4>Strategy profile picker → Settings.</h4>
+          <p class="matheus">makes sense</p>
+          <p class="verdict">Out of sidebar footer. Lives in <strong>Settings → Strategy</strong> with a small chip in the top-right showing the active profile (<span class="mono">Baseline</span> / <span class="mono">Advanced</span>) that opens the picker on click.</p>
+        </div>
+        <span class="badge b-keep">kept</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============== SECTION 05: AI-SLOP CALLOUTS ============== -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2 class="section-title">"This screams AI" — visual flags to fix</h2>
+      <p class="section-sub">Matheus's gut checks</p>
+    </div>
+
+    <p>Three of Matheus's comments boiled down to "this looks AI-generated even if you can't pin why." Worth a separate section because this is the buyable-vs-prototype line.</p>
+
+    <div class="dec-grid">
+      <div class="dec">
+        <div class="dec-ref">§15<br/>demo</div>
+        <div class="dec-body">
+          <h4>"this kind of bubble this font idk why but it screams AI"</h4>
+          <p class="verdict">Matheus flagged the Demo/Pricing page chrome. Diagnosis: <strong>oversized rounded pills with uppercase mono inside dark glass panels</strong>. That combo (Linear/Vercel-cosplay) appears on hundreds of agent-built landing pages. Round-2 fixes: drop the glassmorphism, use plain rectangles with 6-8px radius, mixed-case labels, normal-weight Inter.</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">§14<br/>arena</div>
+        <div class="dec-body">
+          <h4>"looks a little like ai slop still"</h4>
+          <p class="verdict">Matheus on the Arena/Drills chrome (the empty oval table + lightning-bolt). Round-2: render a <strong>real 9-handed table layout</strong> with seated opponents (see §02 above). The look becomes immediately legible as poker, not as "AI-generated dashboard with a poker theme on top".</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+
+      <div class="dec">
+        <div class="dec-ref">cross</div>
+        <div class="dec-body">
+          <h4>Pattern: oversized headings, uppercase mono, glass blur.</h4>
+          <p class="verdict">Three tells of agent-built UI. Round-2 system <strong>caps</strong>: page-title ≤ 28px · uppercase mono only on tiny 10px overlines · zero <span class="mono">backdrop-filter: blur</span> on any data-bearing surface. Glass survives only on the very top topbar (and even that's optional).</p>
+        </div>
+        <span class="badge b-amend">amended</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== NEXT ============== -->
+  <div class="next-box">
+    <div class="next-label">Next step</div>
+    <h3>Dashboard Directions v2 — once 3 open questions resolve.</h3>
+    <p>With name + mark + accent locked, I'll generate three Dashboard directions, each a fully-mocked surface (sidebar, topbar, dashboard body) with the Round-1 decisions baked in. Then we pick one and expand into the System file.</p>
+    <ul class="next-list">
+      <li>Direction A — <strong>safe restraint.</strong> Linear-quiet. Single accent. Hero verdict + 5 modules. Most conservative.</li>
+      <li>Direction B — <strong>tournament cockpit.</strong> Denser BI-tool layout. Mini range grid as a permanent dashboard widget. Card-flip animation on metric reveal.</li>
+      <li>Direction C — <strong>player-first.</strong> Money is enormous (the hero is a $-number in 64px), career arc dominates, severity dots integrated into a "today's losses" inline strip. Most divergent.</li>
+    </ul>
+    <p style="margin-top: 18px; color: var(--fg-3);">All three honor: Villains stays · Predators stays · money is hero · sidebar collapses · Drills deferred · severity = dots not chrome · animations have a poker-native lane.</p>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1180, initial-scale=1" />
+<title>Source of Truth — Poker Analyzer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0b0d;
+    --panel: #14151a;
+    --panel-2: #1a1c22;
+    --panel-3: #20232a;
+    --border: rgba(255,255,255,0.07);
+    --border-strong: rgba(255,255,255,0.13);
+    --fg: #efefef;
+    --fg-2: #b4b6bc;
+    --fg-3: #74777e;
+    --fg-4: #4a4d54;
+    --accent: #8b7cff;
+    --accent-2: #b7adff;
+    --accent-soft: rgba(139,124,255,0.10);
+    --accent-border: rgba(139,124,255,0.30);
+    --pos: #6dbf8d;
+    --neg: #e8807a;
+    --warn: #d9a85a;
+    --info: #7eb6f0;
+    --money: #b8e1c8;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --sans: 'Inter', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 14px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+  /* PRINT */
+  @media print {
+    @page { size: A4; margin: 14mm 14mm 16mm; }
+    html, body { background: var(--bg) !important; color: var(--fg) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .top { display: none !important; }
+    .toc { display: none !important; }
+    .shell { display: block !important; max-width: none !important; padding: 0 !important; margin: 0 !important; }
+    main { display: block !important; }
+    .doc-head { padding-bottom: 18px; margin-bottom: 24px; }
+    h1 { font-size: 26px; }
+    h2 { font-size: 18px; }
+    h3 { font-size: 13px; margin-top: 18px; }
+    section { margin-top: 0; padding-top: 12px; break-before: page; }
+    section:first-of-type, #thesis { break-before: auto; }
+    .hero, .owner, .who, .open, .dec, table.gloss, .rule { break-inside: avoid; }
+    .owner-grid, .who-grid { gap: 10px; }
+    .gloss { font-size: 11.5px; }
+    .gloss td { padding: 8px 10px; }
+    .sec-head { padding-bottom: 8px; margin-bottom: 16px; }
+    p, li { color: var(--fg-2) !important; }
+    a { color: inherit !important; text-decoration: none !important; }
+    /* avoid orphans */
+    h2, h3 { break-after: avoid; }
+  }
+  code, .mono { font-family: var(--mono); }
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 4px; }
+
+  /* TOP */
+  .top { position: sticky; top: 0; z-index: 50; background: rgba(10,11,13,0.85); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+  .top-inner { max-width: 1080px; margin: 0 auto; padding: 14px 36px; display: flex; align-items: center; gap: 18px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark { width: 28px; height: 28px; border-radius: 7px; background: linear-gradient(160deg, #1c2030 0%, #0e1014 100%); border: 1px solid var(--border-strong); display: flex; align-items: center; justify-content: center; color: var(--accent); }
+  .mark svg { width: 14px; height: 14px; }
+  .brand-name { font-size: 13.5px; font-weight: 600; }
+  .brand-sub { font-size: 10.5px; color: var(--fg-3); font-family: var(--mono); letter-spacing: 0.04em; text-transform: uppercase; margin-top: 1px; }
+  .spacer { flex: 1; }
+  .meta { font-family: var(--mono); font-size: 11px; color: var(--fg-3); display: flex; gap: 14px; align-items: center; }
+  .meta .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+
+  /* SHELL */
+  .shell { max-width: 1080px; margin: 0 auto; padding: 32px 36px 96px; display: grid; grid-template-columns: 200px 1fr; gap: 48px; }
+
+  /* TOC */
+  .toc { position: sticky; top: 72px; align-self: flex-start; font-family: var(--mono); font-size: 11.5px; }
+  .toc-l { font-size: 10px; color: var(--fg-4); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 12px; font-weight: 600; }
+  .toc a { display: flex; align-items: center; gap: 10px; padding: 6px 8px; margin: 0 -8px; border-radius: 5px; color: var(--fg-2); text-decoration: none; line-height: 1.4; }
+  .toc a:hover { background: var(--panel-2); color: var(--fg); }
+  .toc a .n { color: var(--fg-4); font-size: 10px; min-width: 18px; }
+
+  /* DOC */
+  .doc-head { padding-bottom: 28px; border-bottom: 1px solid var(--border); margin-bottom: 36px; }
+  .crumb { font-family: var(--mono); font-size: 11px; color: var(--fg-3); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 14px; }
+  .crumb span + span::before { content: ' / '; color: var(--fg-4); margin: 0 4px; }
+  h1 { margin: 0 0 12px; font-size: 32px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.1; }
+  .lede { font-size: 14.5px; color: var(--fg-2); max-width: 720px; margin: 0; }
+  .doc-meta { display: flex; gap: 26px; margin-top: 22px; font-size: 11.5px; color: var(--fg-3); font-family: var(--mono); }
+  .doc-meta b { color: var(--fg-2); font-weight: 500; display: block; margin-top: 3px; font-size: 12.5px; }
+
+  section { margin-top: 56px; scroll-margin-top: 80px; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; padding-bottom: 12px; border-bottom: 1px solid var(--border); margin-bottom: 22px; }
+  .sec-num { font-family: var(--mono); font-size: 11px; color: var(--fg-4); letter-spacing: 0.06em; }
+  h2 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -0.015em; }
+  .sec-sub { color: var(--fg-3); font-size: 11px; font-family: var(--mono); margin: 0; flex: 1; text-align: right; }
+  h3 { font-size: 14px; font-weight: 600; margin: 22px 0 10px; letter-spacing: -0.003em; }
+  p { margin: 0 0 12px; color: var(--fg-2); }
+  p.lead { font-size: 14.5px; color: var(--fg); }
+  strong { color: var(--fg); font-weight: 600; }
+  em { color: var(--accent-2); font-style: normal; }
+  ul, ol { padding-left: 22px; margin: 0 0 12px; }
+  li { margin: 5px 0; color: var(--fg-2); }
+  li::marker { color: var(--fg-4); }
+
+  /* HERO BLOCK — thesis / promise */
+  .hero {
+    background: linear-gradient(160deg, var(--panel) 0%, #0e1014 100%);
+    border: 1px solid var(--border); border-radius: 12px;
+    padding: 28px 32px; position: relative; overflow: hidden;
+  }
+  .hero::after { content: ''; position: absolute; right: -100px; top: -50px; width: 280px; height: 280px; background: radial-gradient(circle, rgba(139,124,255,0.10) 0%, transparent 65%); pointer-events: none; }
+  .hero-eye { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--fg-3); font-family: var(--mono); margin-bottom: 14px; }
+  .hero-body { font-size: 17px; line-height: 1.5; color: var(--fg); max-width: 680px; font-weight: 500; letter-spacing: -0.005em; }
+  .hero-body em { color: var(--money); font-style: normal; }
+
+  /* OWNERSHIP CARDS */
+  .owner-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 8px; }
+  .owner {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 9px;
+    padding: 16px 18px; position: relative;
+  }
+  .owner::before { content: ''; position: absolute; left: 0; top: 14px; bottom: 14px; width: 2px; background: var(--accent); border-radius: 1px; }
+  .owner-name { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+  .owner-route { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); margin-bottom: 12px; letter-spacing: 0.02em; }
+  .owner-job { font-size: 12.5px; color: var(--fg-2); line-height: 1.55; }
+  .owner-job b { color: var(--fg); }
+  .owner-not { font-size: 11px; color: var(--fg-3); margin-top: 8px; font-family: var(--mono); padding-top: 8px; border-top: 1px dashed var(--border); }
+  .owner-not::before { content: 'NOT: '; color: var(--neg); font-weight: 500; }
+
+  /* RULES */
+  .rule {
+    display: grid; grid-template-columns: 36px 1fr 90px; gap: 16px;
+    padding: 12px 0; border-bottom: 1px solid var(--border); align-items: start;
+  }
+  .rule:last-child { border-bottom: 0; }
+  .rule-n { font-family: var(--mono); font-size: 11px; color: var(--fg-4); padding-top: 2px; }
+  .rule-body { font-size: 13px; color: var(--fg); line-height: 1.55; }
+  .rule-body span { color: var(--fg-3); display: block; font-size: 12.5px; margin-top: 3px; }
+  .rule-body code { font-size: 11.5px; color: var(--accent-2); background: var(--accent-soft); padding: 1px 5px; border-radius: 3px; }
+  .rule-tag {
+    font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase;
+    text-align: right; padding-top: 4px;
+  }
+  .rule-tag.firm { color: var(--pos); }
+  .rule-tag.soft { color: var(--warn); }
+
+  /* METRICS TABLE */
+  .gloss { width: 100%; border-collapse: collapse; }
+  .gloss th { text-align: left; font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--fg-3); font-weight: 600; padding: 10px 12px; border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.015); }
+  .gloss td { padding: 11px 12px; border-bottom: 1px solid var(--border); vertical-align: top; font-size: 12.5px; }
+  .gloss tr:last-child td { border-bottom: 0; }
+  .gloss td.k { font-family: var(--mono); color: var(--fg); font-weight: 500; white-space: nowrap; }
+  .gloss td.t { font-family: var(--mono); color: var(--fg-3); white-space: nowrap; font-size: 11px; }
+  .gloss td.d { color: var(--fg-2); line-height: 1.5; }
+  .gloss td .target { font-family: var(--mono); font-size: 11px; color: var(--fg-3); margin-top: 4px; display: block; }
+  .gloss td .target b { color: var(--pos); font-weight: 500; }
+  .gloss td .target b.warn { color: var(--warn); }
+  .gloss td .target b.neg { color: var(--neg); }
+
+  /* DECISIONS — chip list */
+  .dec-list { display: flex; flex-direction: column; gap: 4px; }
+  .dec {
+    display: grid; grid-template-columns: 28px 1fr 78px; gap: 14px; padding: 11px 14px;
+    border-radius: 7px; background: var(--panel); border: 1px solid var(--border);
+    align-items: start;
+  }
+  .dec-ref { font-family: var(--mono); font-size: 10.5px; color: var(--fg-4); padding-top: 1px; }
+  .dec-text { font-size: 13px; color: var(--fg); line-height: 1.5; }
+  .dec-text span { color: var(--fg-3); display: block; font-size: 12px; margin-top: 3px; }
+  .badge { display: inline-flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 7px; border-radius: 4px; height: fit-content; white-space: nowrap; }
+  .b-locked { background: var(--accent-soft); color: var(--accent-2); border: 1px solid var(--accent-border); }
+  .b-keep   { background: rgba(109,191,141,0.10); color: var(--pos); border: 1px solid rgba(109,191,141,0.25); }
+  .b-flip   { background: rgba(217,168,90,0.10); color: var(--warn); border: 1px solid rgba(217,168,90,0.25); }
+  .b-def    { background: var(--panel-2); color: var(--fg-3); border: 1px solid var(--border); }
+
+  /* OPEN QUESTIONS */
+  .open {
+    background: linear-gradient(160deg, rgba(126,182,240,0.05) 0%, transparent 60%);
+    border: 1px solid rgba(126,182,240,0.22);
+    border-radius: 11px; padding: 22px 24px;
+  }
+  .open-l { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--info); font-weight: 600; margin-bottom: 12px; font-family: var(--mono); }
+  .open ol { padding-left: 22px; margin: 0; }
+  .open li { margin: 12px 0; color: var(--fg); font-size: 14px; }
+  .open li b { color: var(--fg); }
+  .open li span { display: block; font-size: 12.5px; color: var(--fg-3); margin-top: 3px; line-height: 1.5; }
+
+  /* AUDIENCE BLOCK */
+  .who-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .who { background: var(--panel); border: 1px solid var(--border); border-radius: 9px; padding: 16px 18px; }
+  .who-eye { font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--fg-3); margin-bottom: 8px; font-family: var(--mono); }
+  .who h4 { margin: 0 0 6px; font-size: 13.5px; font-weight: 600; }
+  .who p { font-size: 12.5px; margin: 0; }
+  .who.primary { border-color: var(--accent-border); background: linear-gradient(160deg, var(--accent-soft) 0%, var(--panel) 70%); }
+  .who.primary .who-eye { color: var(--accent-2); }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <div class="mark">
+        <svg viewBox="0 0 14 14" fill="currentColor"><path d="M7 1 L1 7.5 L7 13 L13 7.5 Z" stroke="currentColor" stroke-width="1.2" fill="none"/><circle cx="7" cy="7.5" r="2" fill="currentColor"/></svg>
+      </div>
+      <div>
+        <div class="brand-name">Source of Truth</div>
+        <div class="brand-sub">poker analyzer · v1</div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="meta"><span class="dot"></span>living doc · edit freely</div>
+  </div>
+</div>
+
+<div class="shell">
+
+  <aside class="toc">
+    <div class="toc-l">contents</div>
+    <a href="#thesis"><span class="n">01</span>Product thesis</a>
+    <a href="#user"><span class="n">02</span>Target user</a>
+    <a href="#promise"><span class="n">03</span>Core promise</a>
+    <a href="#pages"><span class="n">04</span>Page ownership</a>
+    <a href="#dash"><span class="n">05</span>Dashboard rules</a>
+    <a href="#metrics"><span class="n">06</span>Metrics glossary</a>
+    <a href="#decisions"><span class="n">07</span>Design decisions</a>
+    <a href="#open"><span class="n">08</span>Open questions</a>
+  </aside>
+
+  <main>
+
+    <div class="doc-head">
+      <div class="crumb"><span>docs</span><span>product</span><span>source-of-truth</span></div>
+      <h1>Source of Truth.</h1>
+      <p class="lede">The single doc that any new contributor — designer, engineer, future Matheus, future me — should read first. If something in another file contradicts this one, this one wins until updated here.</p>
+      <div class="doc-meta">
+        <div>Last updated <b>v1 · today</b></div>
+        <div>Stage <b>Dashboard v4 shipped</b></div>
+        <div>Next page <b>Leaks</b></div>
+      </div>
+    </div>
+
+    <!-- ====================== 01 THESIS ====================== -->
+    <section id="thesis">
+      <div class="sec-head">
+        <span class="sec-num">01</span>
+        <h2>Product thesis</h2>
+        <p class="sec-sub">the one paragraph</p>
+      </div>
+
+      <div class="hero">
+        <div class="hero-eye">PRODUCT THESIS</div>
+        <div class="hero-body">
+          A private analysis tool for tournament poker players who treat the grind seriously. We read their hand histories and answer the only question they actually have: <em>am I profitable, and if not — what's the one thing to fix?</em> Money is the language. Range deviations are the proof. Drills close the loop.
+        </div>
+      </div>
+
+      <h3>Why we exist</h3>
+      <p>Every other analyzer either drowns the player in unitless stats (HUDs) or hides behind GTO theory the player can't afford to study from scratch (solvers). We sit between: <strong>diagnosis-first, dollar-coded, ranked by impact</strong>, with the option to drill down to ranges and hands when the player wants the proof.</p>
+    </section>
+
+    <!-- ====================== 02 USER ====================== -->
+    <section id="user">
+      <div class="sec-head">
+        <span class="sec-num">02</span>
+        <h2>Target user</h2>
+        <p class="sec-sub">who we design for</p>
+      </div>
+
+      <p class="lead">Serious, self-coaching MTT players at micro-to-low stakes (~$1–$15 ABI). They've imported thousands of hands, know what VPIP and PFR mean, and want a tool that talks to them like a peer — <strong>poker jargon stays</strong>, "Villains" stays, "Predators" stays.</p>
+
+      <div class="who-grid">
+        <div class="who primary">
+          <div class="who-eye">PRIMARY · scorza23-type</div>
+          <h4>Self-coaching grinder</h4>
+          <p>250+ tourneys imported, $1–$5 ABI, plays 30/week, evening sessions. Reads strategy content, can't afford a coach. Wants: <strong>"is my game leaking money, where, and how do I fix it?"</strong></p>
+        </div>
+        <div class="who">
+          <div class="who-eye">SECONDARY</div>
+          <h4>Aspirational mid-stakes</h4>
+          <p>Moving up from $5 to $15 ABI. Wants the same answers plus stake-readiness signal: "am I bankrolled and skill-ready for the next stake?"</p>
+        </div>
+      </div>
+
+      <h3>Who we are NOT for</h3>
+      <ul>
+        <li><strong>HUD users</strong> — they want live overlay during play; we're offline review only.</li>
+        <li><strong>Cash players</strong> — we project in tournaments, ICM matters, payouts matter. Different math.</li>
+        <li><strong>Solver power users</strong> — we present canned baselines; we don't run sims.</li>
+        <li><strong>High-stakes pros</strong> — they already have coaches and bespoke databases.</li>
+      </ul>
+    </section>
+
+    <!-- ====================== 03 PROMISE ====================== -->
+    <section id="promise">
+      <div class="sec-head">
+        <span class="sec-num">03</span>
+        <h2>Core promise</h2>
+        <p class="sec-sub">what we deliver in 30 seconds</p>
+      </div>
+
+      <p class="lead">Open the app. Within 30 seconds you know <strong>three things</strong>:</p>
+      <ol>
+        <li><strong>Are you profitable?</strong> — Big green number, lifetime $, plus 30d trend. (Money hero on Dashboard.)</li>
+        <li><strong>What's the biggest leak?</strong> — One named issue, position-tagged, with $/tourney cost and a confidence score. (Top blocker card.)</li>
+        <li><strong>What to do next?</strong> — A single CTA into the matching range view or filtered hand set. (Action buttons.)</li>
+      </ol>
+
+      <h3>What we deliberately don't promise</h3>
+      <ul>
+        <li><strong>Coaching-level prose.</strong> We rank, quantify, and link to the spot. We don't lecture.</li>
+        <li><strong>Solver accuracy.</strong> "Baseline · GTO" is a canned reference, clearly labelled as such.</li>
+        <li><strong>Live HUD.</strong> Offline review only.</li>
+        <li><strong>Comparison to a global pool.</strong> Sample is your own database; we don't fake percentiles we can't see.</li>
+      </ul>
+    </section>
+
+    <!-- ====================== 04 PAGES ====================== -->
+    <section id="pages">
+      <div class="sec-head">
+        <span class="sec-num">04</span>
+        <h2>Page ownership map</h2>
+        <p class="sec-sub">which page owns which question</p>
+      </div>
+
+      <p>Every metric lives in exactly one home. If two pages show the same number, one of them is borrowing — link to the owner instead of duplicating.</p>
+
+      <div class="owner-grid">
+
+        <div class="owner">
+          <div class="owner-name">Dashboard</div>
+          <div class="owner-route">/dashboard · entrypoint</div>
+          <div class="owner-job"><b>Are you profitable, and what's the biggest leak?</b> Money hero, today's verdict, top blocker, KPI strip (6 of 12), range matrix preview, leak queue top 5, career arc.</div>
+          <div class="owner-not">deep leak inspection · per-hand replay · full ranges editor</div>
+        </div>
+
+        <div class="owner">
+          <div class="owner-name">Leaks</div>
+          <div class="owner-route">/leaks · diagnosis pane</div>
+          <div class="owner-job"><b>One leak, full depth.</b> Full leak list (left rail), selected-leak hero with $/T + recovery projection, range overlay (your range vs baseline vs diff), sample hands table, coaching note.</div>
+          <div class="owner-not">general stats overview · profit chart · session timeline</div>
+        </div>
+
+        <div class="owner">
+          <div class="owner-name">Hands</div>
+          <div class="owner-route">/hands · raw database</div>
+          <div class="owner-job"><b>Find one hand.</b> Searchable / filterable table of all 10,716 imported hands. Click → replay modal.</div>
+          <div class="owner-not">aggregated statistics · range views · session grouping</div>
+        </div>
+
+        <div class="owner">
+          <div class="owner-name">Career</div>
+          <div class="owner-route">/career · long-horizon profit</div>
+          <div class="owner-job"><b>The dollar trajectory.</b> Cumulative profit, ROI, ITM, BB/100, by-stake breakdown, milestones, drawdowns.</div>
+          <div class="owner-not">leak diagnosis · range work · per-hand detail</div>
+        </div>
+
+        <div class="owner">
+          <div class="owner-name">Sessions</div>
+          <div class="owner-route">/sessions · per-session view</div>
+          <div class="owner-job"><b>What happened in this session?</b> Table of 37 sessions, expandable. Per-session result, hands played, deviations flagged.</div>
+          <div class="owner-not">aggregate KPIs · leak ranking · range views</div>
+        </div>
+
+        <div class="owner">
+          <div class="owner-name">Ranges</div>
+          <div class="owner-route">/ranges · reference grids</div>
+          <div class="owner-job"><b>What should you be doing?</b> Full 13×13 matrix per position+stack depth, your range vs baseline, with sample-size annotations.</div>
+          <div class="owner-not">leak ranking · session/hand drill-down</div>
+        </div>
+
+        <div class="owner">
+          <div class="owner-name">Arena</div>
+          <div class="owner-route">/arena · drills (deferred)</div>
+          <div class="owner-job"><b>Closes the diagnosis → fix loop.</b> Auto-generated drill sets from the leak queue. Deferred — not in v1 scope.</div>
+          <div class="owner-not">v1 launch surface</div>
+        </div>
+
+        <div class="owner">
+          <div class="owner-name">Villains</div>
+          <div class="owner-route">/villains · opponent tracker</div>
+          <div class="owner-job"><b>Who takes chips off you most.</b> Per-villain stats + "Predators" framing — players you consistently lose to and why.</div>
+          <div class="owner-not">your own leak diagnosis · session view</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================== 05 DASHBOARD RULES ====================== -->
+    <section id="dash">
+      <div class="sec-head">
+        <span class="sec-num">05</span>
+        <h2>Dashboard rules</h2>
+        <p class="sec-sub">non-negotiables for the entry page</p>
+      </div>
+
+      <p>The Dashboard is the most-seen surface. These rules govern what goes on it and what doesn't.</p>
+
+      <h3>Composition (in order, top to bottom)</h3>
+      <div class="rule">
+        <span class="rule-n">01</span>
+        <div class="rule-body">Money hero is always the top module. <span>Lifetime $ in <code>--money</code> green, monospace, ≥56px. Sparkline / chip stack lives here, never anywhere else.</span></div>
+        <span class="rule-tag firm">firm</span>
+      </div>
+      <div class="rule">
+        <span class="rule-n">02</span>
+        <div class="rule-body">KPI carousel surfaces 6 of 12 indicators, paginated. <span>VPIP / PFR / 3-bet / AF / WTSD / W$SD first page; positional + by-street second page.</span></div>
+        <span class="rule-tag firm">firm</span>
+      </div>
+      <div class="rule">
+        <span class="rule-n">03</span>
+        <div class="rule-body">Verdict + Range matrix sit side-by-side. <span>Switching the matrix position (BTN/CO/SB/BB) re-writes the verdict copy. They are linked, not independent.</span></div>
+        <span class="rule-tag firm">firm</span>
+      </div>
+      <div class="rule">
+        <span class="rule-n">04</span>
+        <div class="rule-body">Top Blocker + Stack Bands are peers. <span>Two-column row; both ground the verdict in concrete data.</span></div>
+        <span class="rule-tag firm">firm</span>
+      </div>
+      <div class="rule">
+        <span class="rule-n">05</span>
+        <div class="rule-body">Leak Queue is ranked by <code>$/tournament</code>, never bb/100. <span>bb/100 sits as secondary copy. Dollar impact is the headline number.</span></div>
+        <span class="rule-tag firm">firm</span>
+      </div>
+      <div class="rule">
+        <span class="rule-n">06</span>
+        <div class="rule-body">Career arc owns the bottom of the page, not the top. <span>Money hero answers "are you profitable today"; arc answers "how did you get here". They serve different prompts.</span></div>
+        <span class="rule-tag firm">firm</span>
+      </div>
+      <div class="rule">
+        <span class="rule-n">07</span>
+        <div class="rule-body">Diagnostics drawer collapsed by default. <span>16 metrics. Preview row peeks 8; click expands all 16. Never the entry surface.</span></div>
+        <span class="rule-tag firm">firm</span>
+      </div>
+
+      <h3>What never goes on Dashboard</h3>
+      <ul>
+        <li>Full hand tables (live on /hands)</li>
+        <li>Full range editor (lives on /ranges)</li>
+        <li>Per-session drill-down (lives on /sessions)</li>
+        <li>Per-villain stats (lives on /villains)</li>
+        <li>Filler stat tiles. Every tile must answer a question a serious player asks weekly.</li>
+      </ul>
+
+      <h3>Interaction rules</h3>
+      <ul>
+        <li><strong>Scope segment</strong> (Lifetime / 30d / Session) re-renders the money hero + KPI carousel + leak queue. Affects everything; never just one module.</li>
+        <li><strong>Range tabs</strong> swap the matrix AND the verdict copy. They are bonded.</li>
+        <li><strong>Leak rows</strong> expand inline on click — they don't navigate. Navigation is on the "Review hands" / "Open in Ranges" buttons inside the expand.</li>
+        <li><strong>KPI tiles</strong> filter on click (selected state). Click again to deselect. Only one selected at a time.</li>
+      </ul>
+    </section>
+
+    <!-- ====================== 06 METRICS ====================== -->
+    <section id="metrics">
+      <div class="sec-head">
+        <span class="sec-num">06</span>
+        <h2>Metrics glossary</h2>
+        <p class="sec-sub">canonical definitions · use these names exactly</p>
+      </div>
+
+      <h3>Money metrics</h3>
+      <table class="gloss">
+        <thead><tr><th>Name</th><th>Unit</th><th>Definition</th></tr></thead>
+        <tbody>
+          <tr><td class="k">Net profit (lifetime)</td><td class="t">$</td><td class="d">Sum of buy-ins minus sum of cashes across all imported tournaments. The headline money number. Owner: Dashboard hero.</td></tr>
+          <tr><td class="k">ROI</td><td class="t">%</td><td class="d">Lifetime cashes divided by buy-ins, minus 1. Always shown vs 0% breakeven, never vs a field average.</td></tr>
+          <tr><td class="k">ITM rate</td><td class="t">%</td><td class="d">Tournaments cashed / tournaments played. Reference: ~16% field average (paid spots ratio).</td></tr>
+          <tr><td class="k">Best cash</td><td class="t">$</td><td class="d">Largest single-tournament cash on record, with position + date.</td></tr>
+          <tr><td class="k">Drawdown</td><td class="t">$</td><td class="d">Largest peak-to-trough dip in cumulative profit. Always accompanied by recovery span ("recovered in 12 tournaments").</td></tr>
+          <tr><td class="k">ABI</td><td class="t">$</td><td class="d">Average buy-in across all imported tournaments. Sidebar bankroll card.</td></tr>
+          <tr><td class="k">$/tournament</td><td class="t">$/T</td><td class="d">Projected dollar impact of a leak — bb/100 × ABI × hands per tournament / 100. THE rank-by metric in the Leak Queue.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Play-style indicators (KPIs)</h3>
+      <table class="gloss">
+        <thead><tr><th>Name</th><th>Unit</th><th>Definition</th></tr></thead>
+        <tbody>
+          <tr><td class="k">VPIP</td><td class="t">%</td><td class="d">Voluntarily Put $ In Pot. % of hands you put chips in pre-flop excluding blinds posted dead. <span class="target">target band <b>20–24%</b></span></td></tr>
+          <tr><td class="k">PFR</td><td class="t">%</td><td class="d">Pre-Flop Raise. % of hands you raise pre-flop. <span class="target">target band <b>16–19%</b></span></td></tr>
+          <tr><td class="k">3-bet</td><td class="t">%</td><td class="d">% of opportunities you re-raise a pre-flop open. <span class="target">target band <b>7–9%</b></span></td></tr>
+          <tr><td class="k">4-bet</td><td class="t">%</td><td class="d">% of opportunities you re-raise a 3-bet. <span class="target">target band <b>~3%</b></span></td></tr>
+          <tr><td class="k">AF</td><td class="t">ratio</td><td class="d">Aggression Factor — (bets + raises) / calls post-flop. <span class="target">target band <b>2–3</b></span></td></tr>
+          <tr><td class="k">WTSD</td><td class="t">%</td><td class="d">Went To ShowDown. % of hands seen flop that reached river showdown. <span class="target">target band <b>22–26%</b></span></td></tr>
+          <tr><td class="k">W$SD</td><td class="t">%</td><td class="d">Won $ at ShowDown. % of showdowns won. <span class="target">target band <b>48–54%</b></span></td></tr>
+        </tbody>
+      </table>
+
+      <h3>Positional + by-street</h3>
+      <table class="gloss">
+        <thead><tr><th>Name</th><th>Unit</th><th>Definition</th></tr></thead>
+        <tbody>
+          <tr><td class="k">BTN open</td><td class="t">%</td><td class="d">% of pots opened from Button. <span class="target">target <b>48–52%</b></span></td></tr>
+          <tr><td class="k">CO open</td><td class="t">%</td><td class="d">% of pots opened from Cutoff. <span class="target">target <b>34–38%</b></span></td></tr>
+          <tr><td class="k">SB open</td><td class="t">%</td><td class="d">% of pots opened from Small Blind. <span class="target">target <b>40–44%</b></span></td></tr>
+          <tr><td class="k">BB defense</td><td class="t">%</td><td class="d">% of opens you defend (call or 3-bet) from Big Blind. <span class="target">target <b>42–46%</b> vs HJ</span></td></tr>
+          <tr><td class="k">Steal</td><td class="t">%</td><td class="d">% of pots opened from CO+BTN+SB combined when folded to you. <span class="target">target <b>39–42%</b></span></td></tr>
+          <tr><td class="k">C-bet flop</td><td class="t">%</td><td class="d">% of times you bet the flop after raising pre. <span class="target">target <b>60–70%</b></span></td></tr>
+          <tr><td class="k">Fold to 3b</td><td class="t">%</td><td class="d">% of times you fold to a 3-bet after opening. <span class="target">target <b>48–56%</b></span></td></tr>
+          <tr><td class="k">ICM Δ</td><td class="t">bb</td><td class="d">Independent Chip Model edge vs baseline play in tournament late-game spots.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Sample / confidence</h3>
+      <table class="gloss">
+        <thead><tr><th>Name</th><th>Unit</th><th>Definition</th></tr></thead>
+        <tbody>
+          <tr><td class="k">n (sample)</td><td class="t">count</td><td class="d">Number of hands matching the filter. <span class="target"><b>≥500</b> high · <b class="warn">100–500</b> medium · <b class="neg">&lt;100</b> low</span></td></tr>
+          <tr><td class="k">Confidence</td><td class="t">0–1</td><td class="d">Statistical confidence in a leak signal. Function of sample size and effect size. Shown as bar + numeric (e.g. "0.88 · high").</td></tr>
+          <tr><td class="k">Severity</td><td class="t">crit/high/med</td><td class="d">Bucketed dollar impact. <b style="color:var(--neg)">CRIT</b> ≥$0.50/T · <b style="color:var(--warn)">HIGH</b> $0.15–$0.50/T · <b style="color:var(--info)">MED</b> &lt;$0.15/T</td></tr>
+          <tr><td class="k">Readiness</td><td class="t">/100</td><td class="d">Composite score: sample × compliance × profitability. Used as a single-glance "are you fit to move stake?" signal.</td></tr>
+          <tr><td class="k">Compliance</td><td class="t">%</td><td class="d">% of your decisions that match the active strategy profile (Baseline · GTO by default).</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ====================== 07 DECISIONS ====================== -->
+    <section id="decisions">
+      <div class="sec-head">
+        <span class="sec-num">07</span>
+        <h2>Design decisions</h2>
+        <p class="sec-sub">locked-in calls · do not relitigate without cause</p>
+      </div>
+
+      <h3>Brand &amp; language</h3>
+      <div class="dec-list">
+        <div class="dec">
+          <span class="dec-ref">D01</span>
+          <div class="dec-text">"Villains" stays as the opponent term. <span>Poker-native jargon; product is for poker players. Do not rename to "Players" / "Opponents".</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D02</span>
+          <div class="dec-text">"Predators" framing stays. <span>Honest about what the data shows — players who consistently take chips off you. Do not soften to "Top exposures".</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D03</span>
+          <div class="dec-text">Product name = parked. <span>"Tournament Lab" is dead. Working name "Poker Analyzer" until a real one is picked.</span></div>
+          <span class="badge b-def">deferred</span>
+        </div>
+      </div>
+
+      <h3>Visual system</h3>
+      <div class="dec-list">
+        <div class="dec">
+          <span class="dec-ref">D04</span>
+          <div class="dec-text">Single violet accent (<code>#8b7cff</code>). <span>No neon green chrome. Green (<code>#b8e1c8</code>) is reserved for money.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D05</span>
+          <div class="dec-text">Severity = dots, not chrome. <span>Status communicated by colored dots / micro-marks. No full-card-colored states.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D06</span>
+          <div class="dec-text">No glassmorphism on data surfaces. <span>Backdrops are flat panels. Glass only on overlays and sticky chrome.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D07</span>
+          <div class="dec-text">Mono for numbers, sans for prose. <span>JetBrains Mono on every figure; Inter on every sentence. Mixed labels follow the value's type.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+      </div>
+
+      <h3>Information architecture</h3>
+      <div class="dec-list">
+        <div class="dec">
+          <span class="dec-ref">D08</span>
+          <div class="dec-text">5 modules on Dashboard, nothing deleted. <span>Money hero · KPIs · Verdict+Range · Blocker+Stacks · Leak queue · Career arc · Diagnostics. (Counts the collapsed drawer as one.)</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D09</span>
+          <div class="dec-text">Sidebar is collapsible (<code>⌘\</code>). <span>Expanded default; collapses to icon rail.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D10</span>
+          <div class="dec-text">Money is the hero. <span>Lifetime $ takes the top slot on Dashboard. Verdict moves below.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D11</span>
+          <div class="dec-text">Range matrix lives on the Dashboard. <span>Not Ranges-only. 13×13 BTN open is the signature widget; deviant cells highlighted.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D12</span>
+          <div class="dec-text">Diagnostics is a drawer, not a page. <span>Lives on Dashboard, collapsed by default with 8-tile peek row.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+      </div>
+
+      <h3>Interaction</h3>
+      <div class="dec-list">
+        <div class="dec">
+          <span class="dec-ref">D13</span>
+          <div class="dec-text">Chip stack is data-encoded. <span>Chip count grows/shrinks with profit. Palette tiers at $100/$300/$700/$1500.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D14</span>
+          <div class="dec-text">KPI tiles are a carousel, not a fixed grid. <span>6 per page, paged with arrows. Reach beyond 6 indicators without making the row scroll horizontally.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D15</span>
+          <div class="dec-text">Range tabs drive verdict copy. <span>Switching BTN→CO→SB→BB rewrites both the matrix and the adjacent verdict card.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D16</span>
+          <div class="dec-text">Leak rows expand in place. <span>No navigation on row click; the row reveals an inline panel with mini distribution + sample hands + actions.</span></div>
+          <span class="badge b-locked">locked</span>
+        </div>
+      </div>
+
+      <h3>Scope &amp; commitments</h3>
+      <div class="dec-list">
+        <div class="dec">
+          <span class="dec-ref">D17</span>
+          <div class="dec-text">Arena drills are deferred. <span>Not in v1. Slot exists in nav; surface is empty-state.</span></div>
+          <span class="badge b-def">deferred</span>
+        </div>
+        <div class="dec">
+          <span class="dec-ref">D18</span>
+          <div class="dec-text">"Baseline · GTO" is the only strategy profile shipped. <span>Other profiles (exploit, mass-multi-table, ICM-heavy) are post-v1.</span></div>
+          <span class="badge b-keep">v1</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== 08 OPEN ====================== -->
+    <section id="open">
+      <div class="sec-head">
+        <span class="sec-num">08</span>
+        <h2>Open questions</h2>
+        <p class="sec-sub">unblockers for Leaks page + v1 launch</p>
+      </div>
+
+      <div class="open">
+        <div class="open-l">BLOCKING NEXT BUILD</div>
+        <ol>
+          <li><b>Leaks page sidebar — keep or hide?</b><span>Keep gives consistent chrome + bankroll card visible always. Hiding gives ~232px back to the leak detail pane, useful for full-size range overlay. My lean: keep it, but allow collapse via the same <code>⌘\</code> shortcut.</span></li>
+          <li><b>Predators framing — side card or inline?</b><span>Either a sidebar widget on the Leaks page showing villain types that exploit each leak (e.g. "3-bettors · stationy callers"), or inline annotations on each sample hand row. Pick one — having both fragments the signal.</span></li>
+          <li><b>One Leaks page direction, or two as tweakable variations?</b><span>Default is one solid direction. Two only if you want side-by-side exploration of layout (e.g. left-rail list vs top filter bar). Adds a turn.</span></li>
+        </ol>
+
+        <div class="open-l" style="margin-top: 24px;">v1 LAUNCH BLOCKERS</div>
+        <ol start="4">
+          <li><b>Product name.</b><span>Still parked. "Poker Analyzer" works as a working name but not for marketing. Need 1 word, peer-not-vendor energy. Constraint: not "Analyzer", not "HUD", not "EV Platform".</span></li>
+          <li><b>Brand mark.</b><span>Drop the abstract geometric. Use a poker-native primitive (suit-stack, range-grid 3×3, card-corner, spade-with-rule, chip-ring). Picking name + mark together.</span></li>
+          <li><b>Strategy profile picker — UI scope?</b><span>D18 says Baseline only in v1, but the chip already says "Baseline · GTO" suggesting alternatives exist. Either commit to single-profile and hide the dropdown affordance, or build the picker now and ship 1 option.</span></li>
+        </ol>
+
+        <div class="open-l" style="margin-top: 24px;">DEFERRABLE</div>
+        <ol start="7">
+          <li><b>Mobile layout.</b><span>Design system is desktop-first 1480px. No mobile rules yet. Defer until we know if mobile review is a real use case.</span></li>
+          <li><b>Empty-state for first-time users.</b><span>What does Dashboard look like with 0 imported hands? Not solved.</span></li>
+          <li><b>Multi-database / multi-stake users.</b><span>If a user plays $1 AND $10 ABI, do we show two cards or one combined? Not solved.</span></li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+</body>
+<script>
+  (function autoPrint() {
+    const ready = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
+    Promise.all([ready, new Promise(r => window.addEventListener('load', r))])
+      .then(() => new Promise(r => setTimeout(r, 500)))
+      .then(() => window.print());
+  })();
+</script>
+</html>
