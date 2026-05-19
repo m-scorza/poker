@@ -13,6 +13,8 @@ This product may eventually compare selected hands against solver-like outputs, 
 - `SolverRecommendation` — future action/frequency output shape.
 - `SolverAnalysisResult` — result metadata with `evidenceKind` and nullable `evLossBb`.
 - `createUnsupportedSolverAdapter()` — safe default adapter that returns no recommendation and no EV loss.
+- `buildSolverSpotInputFromParsedHand()` — narrow preflop-only converter from parsed hand plus `HeroDecision` into a bb-normalized spot, with explicit warnings instead of guessed context.
+- `classifySolverCoverage()` — readiness classifier that can be used by future real adapters while the default unsupported adapter still short-circuits to `no_solver_configured`.
 
 The default adapter always reports:
 
@@ -43,7 +45,6 @@ Use these labels consistently:
 
 ## Next implementation slices
 
-1. Add converters from parsed `Hand`/`HeroDecision` into `SolverSpotInput` for a narrow preflop-only subset.
-2. Add coverage classifiers for unsupported game types, missing cards/board/action context, stack-depth caps, and ICM/bounty exclusions.
-3. Add a fake deterministic adapter for UI/testing that is clearly `proxy_model` or `unsupported`, not `solver_backed`.
-4. Research and choose a real adapter only after license/performance/coverage review.
+1. Add deterministic fake/proxy adapter fixtures for UI/testing that are clearly `proxy_model` or `unsupported`, not `solver_backed`.
+2. Add a second converter slice for flop spots only after pot/action reconstruction tests prove the spot is the state before hero's decision.
+3. Research and choose a real adapter only after license/performance/coverage review.
