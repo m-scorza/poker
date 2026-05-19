@@ -22,6 +22,31 @@ diff and CI result without spelunking the local branch.
 - Risks / assumptions:
 - Next action requested:
 ```
+
+## 2026-05-19 — Import Confidence / Partial Import Visibility Improvement
+
+- Owner / agent: Google Antigravity
+- Branch: feat/import-confidence-badges at C:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh
+- PR: pending until opened
+- Scope: Implement a small user-facing Import Confidence / Partial Import visibility improvement using existing data.
+- Files touched:
+  - `src/data/importRuns.ts` — Added type-safe `statusLabel` to `ImportRunTimelineRow` interface and populated it within `buildImportRunTimeline`.
+  - `src/components/hands/HandsUpload.tsx` — Rendered beautiful visual status pills/badges (`Import Complete`, `Imported with Warnings`, `Needs Review`) on both the chronological history timeline items and the immediate completed import results banner.
+  - `src/data/__tests__/importRuns.test.ts` — Added `statusLabel` assertions to `buildImportRunTimeline` test cases.
+- Summary:
+  - Clean imports (high confidence) display normally with a sleek emerald "Import Complete" pill.
+  - Imports with warnings or partial success (medium confidence) clearly display a yellow "Imported with Warnings" pill.
+  - Low confidence imports clearly display a red "Needs Review" pill.
+  - Leverages the existing Dexie data-persistence schema and fields. No new parser, scenario detection, range, or math logic was introduced.
+- Verification:
+  - All 520 tests in 49 files pass cleanly: `npx vitest run` (duration 66s).
+  - TypeScript compiles with zero warnings or errors: `npx tsc -b --pretty false`.
+  - React/Vite production build succeeds: `npm run build`.
+- Risks / assumptions:
+  - Safe local-first UI changes only. No change to any solver adapter or strategic hand metrics.
+- Next action requested:
+  - Next frontend/backend task. Hermes can continue checking the next import-reliability or solver-boundary slice.
+
 ---
 
 ## 2026-05-18 — Solver coverage readiness cleanup
