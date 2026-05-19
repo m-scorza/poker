@@ -531,9 +531,16 @@ All phases 1-6 complete. See `docs/product/ROADMAP.md` for the full history.
 
 ## End-of-session contract (for AI agents)
 
-This section only lists rules the pre-commit hook actually enforces, plus
-one process rule that depends on human enforcement. Unenforced prose
-contracts are what caused the Gemini-drift incidents — don't add more.
+This section only lists rules that something actually enforces — the
+pre-commit hook, GitHub branch protection on `main`, or required CI
+checks — plus one process rule that depends on human enforcement.
+Unenforced prose contracts are what caused the Gemini-drift incidents
+— don't add more.
+
+**Trunk: `main`.** As of 2026-05-18, `main` is the canonical branch.
+The old `phase-6-consolidated-final` branch is retired. All work lands
+through pull requests against `main`. Don't push to `main` directly —
+the branch is protected and GitHub will reject it.
 
 **Enforced by `.git/hooks/pre-commit` (installed via `npm install`):**
 
@@ -546,8 +553,30 @@ contracts are what caused the Gemini-drift incidents — don't add more.
    This catches the "orphan feature files" failure mode — e.g., a
    page imported from `App.tsx` but never tracked.
 
-**Process rule (human-enforced):**
+**Enforced by GitHub branch protection on `main`:**
 
-3. `--no-verify` is forbidden without an explicit user request in the
+3. All changes land via PR. Open from a feature branch (e.g.
+   `solver/<slice>`, `ui/<feature>`, `chore/<thing>`); push to
+   `origin/<your-branch>`; open a PR with `gh pr create --base main`
+   (or via the GitHub UI).
+4. CI must be green before merge. The required check is
+   `lint / typecheck / test / build`, defined in
+   `.github/workflows/ci.yml`. Run the pieces locally before pushing
+   so you're not waiting on CI to discover a typo:
+
+   ```
+   npm run docs:check && npm run typecheck && npm run lint &&
+     npm test && npm run build
+   ```
+5. Force-push and branch deletion are blocked on `main`. If you need to
+   undo a merged commit, do it via a new PR that reverts.
+
+**Process rules (human-enforced):**
+
+6. `--no-verify` is forbidden without an explicit user request in the
    same session. If the hook fires, fix the underlying drift instead of
    skipping it. If you genuinely need to bypass, ask first.
+7. When your PR's CI is red because `main` moved (e.g. another agent
+   merged a fix), bring `main` into your branch (`git merge origin/main`
+   or rebase) and re-push. Don't ask the user to "Update branch" if you
+   can do it from the command line.
