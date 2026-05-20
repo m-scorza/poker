@@ -16,8 +16,25 @@
 import type { HeroDecision, Position } from '../types/analysis';
 import { isInPushRange, isInRestealRange, getPushRange } from '../data/pushFoldRanges';
 import type { RangeSet } from '../types/ranges';
+import {
+  analyzeHeadsUpPushFoldReference,
+  type HeadsUpReferenceAnalysis,
+  type HeadsUpReferenceSet,
+} from './headsUpPushFoldReference';
 
-export type PushFoldResult = 'correct_push' | 'correct_fold' | 'missed_push' | 'bad_push' | 'not_applicable';
+export type PushFoldResult =
+  | 'correct_push'
+  | 'correct_fold'
+  | 'missed_push'
+  | 'bad_push'
+  | 'correct_call'
+  | 'missed_call'
+  | 'loose_call'
+  | 'not_applicable';
+
+export interface PushFoldCheckOptions {
+  headsUpReferences?: HeadsUpReferenceSet;
+}
 
 export interface PushFoldAnalysis {
   result: PushFoldResult;
@@ -25,7 +42,12 @@ export interface PushFoldAnalysis {
   stackBb: number;
   position: Position;
   handKey: string;
+  handId: string;
   note: string;
+  sourceType?: 'local_hu_push_fold_csv';
+  evidenceKind?: 'rule_based';
+  evLossBb?: null;
+  reference?: HeadsUpReferenceAnalysis;
 }
 
 /**
@@ -34,11 +56,17 @@ export interface PushFoldAnalysis {
  * Only applies when:
  * - stackBb ≤ 10 AND scenario is RFI or BLIND_WAR (open push spots)
  * - stackBb ≤ 20 AND scenario is FACING_RAISE AND hero is BTN/SB/BB (resteal spots)
+ * - optional local heads-up reference tables cover HU button push/fold and BB call-vs-all-in spots
  *
  * Returns null if the spot is not a push/fold situation.
  */
-export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
+export function checkPushFold(decision: HeroDecision, options: PushFoldCheckOptions = {}): PushFoldAnalysis | null {
   const { stackBb, position, handKey, action, scenario } = decision;
+
+  if (options.headsUpReferences) {
+    const reference = analyzeHeadsUpPushFoldReference(decision, options.headsUpReferences);
+    if (reference) return fromHeadsUpReference(decision, reference);
+  }
 
   // --- Open push at ≤10bb ---
   if (stackBb <= 10 && (scenario === 'RFI' || scenario === 'BLIND_WAR' || scenario === 'HU_BTN')) {
@@ -51,6 +79,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
+        handId: decision.handId,
         note: 'Correct shove — hand is within the push range.',
       };
     }
@@ -62,6 +91,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
+        handId: decision.handId,
         note: `${handKey} is outside the push range for ${position} at ${stackBb.toFixed(0)}bb.`,
       };
     }
@@ -73,6 +103,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
+        handId: decision.handId,
         note: `${handKey} should be a shove from ${position} at ${stackBb.toFixed(0)}bb.`,
       };
     }
@@ -84,6 +115,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
+        handId: decision.handId,
         note: 'Correct fold — hand is outside the push range.',
       };
     }
@@ -96,6 +128,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
+        handId: decision.handId,
         note: `At ${stackBb.toFixed(0)}bb the strategy is all-in or fold — not call.`,
       };
     }
@@ -116,6 +149,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
+        handId: decision.handId,
         note: 'Correct resteal — shove with a hand inside the resteal range.',
       };
     }
@@ -127,6 +161,7 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
         stackBb,
         position,
         handKey,
+        handId: decision.handId,
         note: `${handKey} is a resteal from ${position} at ${stackBb.toFixed(0)}bb vs late open.`,
       };
     }
@@ -143,10 +178,10 @@ export function checkPushFold(decision: HeroDecision): PushFoldAnalysis | null {
  * Batch analyze push/fold decisions.
  * Filters to only short-stack spots and returns analyses.
  */
-export function batchCheckPushFold(decisions: HeroDecision[]): PushFoldAnalysis[] {
+export function batchCheckPushFold(decisions: HeroDecision[], options: PushFoldCheckOptions = {}): PushFoldAnalysis[] {
   const results: PushFoldAnalysis[] = [];
   for (const d of decisions) {
-    const result = checkPushFold(d);
+    const result = checkPushFold(d, options);
     if (result) {
       results.push(result);
     }
@@ -202,4 +237,39 @@ export function pushFoldSummary(decisions: HeroDecision[]): {
  */
 export function getPushRangeForPosition(position: Position): RangeSet | undefined {
   return getPushRange(position);
+}
+
+function fromHeadsUpReference(decision: HeroDecision, reference: HeadsUpReferenceAnalysis): PushFoldAnalysis {
+  return {
+    result: mapReferenceResult(reference),
+    inPushRange: reference.recommendedAction !== 'fold',
+    stackBb: decision.stackBb,
+    position: decision.position,
+    handKey: reference.handKey,
+    handId: decision.handId,
+    note: reference.note,
+    sourceType: 'local_hu_push_fold_csv',
+    evidenceKind: reference.evidenceKind,
+    evLossBb: reference.evLossBb,
+    reference,
+  };
+}
+
+function mapReferenceResult(reference: HeadsUpReferenceAnalysis): PushFoldResult {
+  switch (reference.result) {
+    case 'correct_aggression':
+      return 'correct_push';
+    case 'missed_aggression':
+      return 'missed_push';
+    case 'over_aggression':
+      return 'bad_push';
+    case 'correct_call':
+      return 'correct_call';
+    case 'missed_call':
+      return 'missed_call';
+    case 'loose_call':
+      return 'loose_call';
+    case 'correct_fold':
+      return 'correct_fold';
+  }
 }

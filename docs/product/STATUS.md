@@ -224,18 +224,20 @@ src/parser/  (14 files)
   parser/tournamentSummary.ts
   parser/worker.ts
   parser/workerProcessor.ts
-src/analysis/  (20 files)
+src/analysis/  (22 files)
   analysis/bountyAnalyzer.ts
   analysis/careerCoach.ts
   analysis/careerScope.ts
   analysis/careerStats.ts
   analysis/finalTableAnalyzer.ts
   analysis/financials.ts
+  analysis/headsUpPushFoldReference.ts
   analysis/icmDetector.ts
   analysis/leakDetector.ts
   analysis/math.ts
   analysis/positionStats.ts
   analysis/postflopAnalyzer.ts
+  analysis/proofHandSelector.ts
   analysis/pushFoldChecker.ts
   analysis/rangeChecker.ts
   analysis/rangeValidator.ts
@@ -245,11 +247,12 @@ src/analysis/  (20 files)
   analysis/studyPlan.ts
   analysis/villainClassifier.ts
   analysis/villainExploitCrossRef.ts
-src/data/  (10 files)
+src/data/  (11 files)
   data/appStore.ts
   data/demoDataset.ts
   data/demoVillains.ts
   data/importRuns.ts
+  data/localHeadsUpReferences.ts
   data/localStorage.ts
   data/pushFoldRanges.ts
   data/ranges.ts
@@ -310,8 +313,8 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 49
-**`it` / `test` calls (approximate):** 514
+**Test files:** 52
+**`it` / `test` calls (approximate):** 540
 
 ```
 src/__tests__/App.test.tsx
@@ -321,10 +324,12 @@ src/analysis/__tests__/careerScope.test.ts
 src/analysis/__tests__/careerStats.test.ts
 src/analysis/__tests__/finalTableAnalyzer.test.ts
 src/analysis/__tests__/financials.test.ts
+src/analysis/__tests__/headsUpPushFoldReference.test.ts
 src/analysis/__tests__/icmDetector.test.ts
 src/analysis/__tests__/leakDetector.test.ts
 src/analysis/__tests__/positionStats.test.ts
 src/analysis/__tests__/postflopAnalyzer.test.ts
+src/analysis/__tests__/proofHandSelector.test.ts
 src/analysis/__tests__/pushFoldChecker.test.ts
 src/analysis/__tests__/rangeChecker.test.ts
 src/analysis/__tests__/rangeValidator.test.ts
@@ -344,6 +349,7 @@ src/components/shared/__tests__/StatCard.test.tsx
 src/data/__tests__/demoDataset.test.ts
 src/data/__tests__/demoSeedProgress.test.ts
 src/data/__tests__/importRuns.test.ts
+src/data/__tests__/localHeadsUpReferences.test.ts
 src/data/__tests__/localStorage.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts

@@ -16,3 +16,8 @@ docs/council/*
 
 # Throwaway debug scripts at repo root
 /scratch.*
+
+# User-provided local reference data (e.g. heads-up push/fold CSVs).
+# These belong on disk for local testing but must never be committed —
+# they may carry commercial/third-party solver provenance.
+/holdemresources_*.zip

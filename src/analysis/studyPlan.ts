@@ -1,10 +1,16 @@
 import type { HeroDecision, DeviationType, Scenario } from '../types/analysis';
 import type { Hand } from '../types/hand';
 import type { Leak, LeakSeverity } from './leakDetector';
+import { batchCheckPushFold, type PushFoldCheckOptions } from './pushFoldChecker';
 
 export type StudyQueueConfidence = 'high' | 'medium' | 'low';
 
-export type StudyQueueEvidenceKind = 'aggregate_leak' | 'tagged_decisions' | 'postflop_flags' | 'bb_loss_review';
+export type StudyQueueEvidenceKind =
+  | 'aggregate_leak'
+  | 'tagged_decisions'
+  | 'postflop_flags'
+  | 'bb_loss_review'
+  | 'reference_misses';
 
 export interface StudyQueueEvidence {
   kind: StudyQueueEvidenceKind;
@@ -15,7 +21,7 @@ export interface StudyQueueEvidence {
 export interface StudyQueueItem {
   id: string;
   title: string;
-  source: 'leak' | 'deviation' | 'postflop' | 'loss';
+  source: 'leak' | 'deviation' | 'postflop' | 'loss' | 'reference';
   severity: LeakSeverity;
   priorityScore: number;
   sampleSize: number;
@@ -106,6 +112,7 @@ export function buildStudyQueue(
   decisions: HeroDecision[],
   hands: Hand[],
   limit = 5,
+  options: PushFoldCheckOptions = {},
 ): StudyQueueItem[] {
   const handMap = new Map(hands.map((hand) => [hand.id, hand]));
   const items: StudyQueueItem[] = [];
@@ -205,6 +212,54 @@ export function buildStudyQueue(
       cta: 'Drill 33% flop c-bets',
       explanation: 'GTO Wizard/DTO-style practice loop: isolate missed continuation bets and rehearse the default pressure line.',
     });
+  }
+
+  if (options.headsUpReferences) {
+    const referenceMisses = batchCheckPushFold(decisions, options).filter(
+      (analysis) =>
+        analysis.sourceType === 'local_hu_push_fold_csv' &&
+        (analysis.result === 'missed_push' ||
+          analysis.result === 'bad_push' ||
+          analysis.result === 'missed_call' ||
+          analysis.result === 'loose_call'),
+    );
+
+    if (referenceMisses.length > 0) {
+      const missedHandIds = new Set(referenceMisses.map((analysis) => analysis.handId));
+      const missedReferenceDecisions = decisions.filter((decision) => missedHandIds.has(decision.handId));
+      const bbLosses = missedReferenceDecisions
+        .map((decision) => handBbDelta(decision, handMap))
+        .filter((bb): bb is number => bb !== null && bb < 0)
+        .map((bb) => Math.abs(bb));
+      const estimatedBbLoss = bbLosses.length > 0 ? bbLosses.reduce((sum, bb) => sum + bb, 0) : null;
+      const score = priorityScore(
+        severityFromScore(referenceMisses.length * 16 + (estimatedBbLoss ?? 0) * 3),
+        referenceMisses.length,
+        estimatedBbLoss,
+      );
+
+      items.push({
+        id: 'reference-hu-push-fold',
+        title: 'Heads-up push/fold reference misses',
+        source: 'reference',
+        severity: severityFromScore(score),
+        priorityScore: score,
+        sampleSize: referenceMisses.length,
+        estimatedBbLoss,
+        confidence: confidenceFromSampleSize(referenceMisses.length),
+        evidence: {
+          kind: 'reference_misses',
+          label: 'Local heads-up reference misses',
+          details: [
+            pluralize(referenceMisses.length, 'reference miss', 'reference misses'),
+            'Compared against your locally loaded HU push/fold CSV/table',
+          ],
+        },
+        handIds: sortedLossHandIds(missedReferenceDecisions, handMap),
+        cta: 'Review local reference table spots',
+        explanation: `${referenceMisses.length} heads-up push/fold decision${referenceMisses.length === 1 ? '' : 's'} diverged from the local CSV/table reference. Review these as practical reference-table drills; EV loss is unknown until richer reference data is attached.`,
+      });
+    }
   }
 
   const biggestLosses = decisions

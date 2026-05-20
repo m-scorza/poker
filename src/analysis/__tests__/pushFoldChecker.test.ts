@@ -5,7 +5,23 @@ import {
   pushFoldAccuracy,
   pushFoldSummary,
 } from '../pushFoldChecker';
+import { parseHeadsUpFrequencyCsv } from '../headsUpPushFoldReference';
 import type { HeroDecision } from '../../types/analysis';
+
+const LOCAL_HU_PUSH_CSV = [
+  'stack,AA,A2o,72o',
+  '8.00,1,0.75,0',
+].join('\n');
+
+const LOCAL_HU_CALL_CSV = [
+  'stack,AA,A2o,72o',
+  '8.00,1,0.8,0',
+].join('\n');
+
+const localHeadsUpReferences = {
+  push: parseHeadsUpFrequencyCsv(LOCAL_HU_PUSH_CSV, 'push'),
+  call: parseHeadsUpFrequencyCsv(LOCAL_HU_CALL_CSV, 'call'),
+};
 
 function makeDecision(overrides: Partial<HeroDecision>): HeroDecision {
   return {
@@ -143,6 +159,56 @@ describe('checkPushFold — not applicable', () => {
       scenario: 'BB_VS_RAISE',
       position: 'BB',
     }));
+    expect(result).toBeNull();
+  });
+});
+
+
+describe('checkPushFold — local heads-up reference tables', () => {
+  it('uses the local heads-up push reference for HU button decisions when provided', () => {
+    const result = checkPushFold(makeDecision({
+      stackBb: 8,
+      position: 'BTN/SB',
+      handKey: 'A2o',
+      action: 'fold',
+      scenario: 'HU_BTN',
+    }), { headsUpReferences: localHeadsUpReferences });
+
+    expect(result).not.toBeNull();
+    expect(result!.result).toBe('missed_push');
+    expect(result!.sourceType).toBe('local_hu_push_fold_csv');
+    expect(result!.evidenceKind).toBe('rule_based');
+    expect(result!.evLossBb).toBeNull();
+    expect(result!.note).toContain('local heads-up push/fold reference');
+    expect(result!.note).not.toContain('solver');
+  });
+
+  it('surfaces big blind call-vs-all-in decisions from the local call reference', () => {
+    const result = checkPushFold(makeDecision({
+      stackBb: 8,
+      position: 'BB',
+      handKey: 'A2o',
+      action: 'fold',
+      scenario: 'FACING_ALL_IN',
+    }), { headsUpReferences: localHeadsUpReferences });
+
+    expect(result).not.toBeNull();
+    expect(result!.result).toBe('missed_call');
+    expect(result!.sourceType).toBe('local_hu_push_fold_csv');
+    expect(result!.evidenceKind).toBe('rule_based');
+    expect(result!.evLossBb).toBeNull();
+    expect(result!.note).toContain('calls A2o near 8bb');
+  });
+
+  it('does not change legacy behavior unless local heads-up references are provided', () => {
+    const result = checkPushFold(makeDecision({
+      stackBb: 8,
+      position: 'BB',
+      handKey: 'A2o',
+      action: 'fold',
+      scenario: 'FACING_ALL_IN',
+    }));
+
     expect(result).toBeNull();
   });
 });
