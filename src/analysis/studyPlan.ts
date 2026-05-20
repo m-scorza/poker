@@ -1,15 +1,33 @@
 import type { HeroDecision, DeviationType, Scenario } from '../types/analysis';
 import type { Hand } from '../types/hand';
 import type { Leak, LeakSeverity } from './leakDetector';
+import { batchCheckPushFold, type PushFoldCheckOptions } from './pushFoldChecker';
+
+export type StudyQueueConfidence = 'high' | 'medium' | 'low';
+
+export type StudyQueueEvidenceKind =
+  | 'aggregate_leak'
+  | 'tagged_decisions'
+  | 'postflop_flags'
+  | 'bb_loss_review'
+  | 'reference_misses';
+
+export interface StudyQueueEvidence {
+  kind: StudyQueueEvidenceKind;
+  label: string;
+  details: string[];
+}
 
 export interface StudyQueueItem {
   id: string;
   title: string;
-  source: 'leak' | 'deviation' | 'postflop' | 'loss';
+  source: 'leak' | 'deviation' | 'postflop' | 'loss' | 'reference';
   severity: LeakSeverity;
   priorityScore: number;
   sampleSize: number;
   estimatedBbLoss: number | null;
+  confidence: StudyQueueConfidence;
+  evidence: StudyQueueEvidence;
   handIds: string[];
   cta: string;
   explanation: string;
@@ -64,6 +82,16 @@ function severityFromScore(score: number): LeakSeverity {
   return 'low';
 }
 
+function confidenceFromSampleSize(sampleSize: number): StudyQueueConfidence {
+  if (sampleSize >= 30) return 'high';
+  if (sampleSize >= 10) return 'medium';
+  return 'low';
+}
+
+function pluralize(count: number, singular: string, plural = `${singular}s`): string {
+  return `${count} ${count === 1 ? singular : plural}`;
+}
+
 function priorityScore(severity: LeakSeverity, sampleSize: number, estimatedBbLoss: number | null): number {
   const lossBoost = estimatedBbLoss === null ? 0 : Math.min(35, Math.max(0, estimatedBbLoss));
   const sampleBoost = Math.min(20, sampleSize * 2);
@@ -84,6 +112,7 @@ export function buildStudyQueue(
   decisions: HeroDecision[],
   hands: Hand[],
   limit = 5,
+  options: PushFoldCheckOptions = {},
 ): StudyQueueItem[] {
   const handMap = new Map(hands.map((hand) => [hand.id, hand]));
   const items: StudyQueueItem[] = [];
@@ -98,6 +127,15 @@ export function buildStudyQueue(
       priorityScore: priorityScore(leak.severity, leak.sampleSize, estimatedBbLoss),
       sampleSize: leak.sampleSize,
       estimatedBbLoss,
+      confidence: confidenceFromSampleSize(leak.sampleSize),
+      evidence: {
+        kind: 'aggregate_leak',
+        label: 'Aggregate leak sample',
+        details: [
+          pluralize(leak.sampleSize, 'tracked spot'),
+          `Current ${leak.value}%, target ${leak.target[0]}–${leak.target[1]}%`,
+        ],
+      },
       handIds: [],
       cta: leak.id === 'compliance' ? 'Open Range Matrix' : 'Review filtered hands',
       explanation: `${leak.description} Current ${leak.value}%, target ${leak.target[0]}–${leak.target[1]}%.`,
@@ -133,6 +171,15 @@ export function buildStudyQueue(
       priorityScore: score,
       sampleSize: group.length,
       estimatedBbLoss,
+      confidence: confidenceFromSampleSize(group.length),
+      evidence: {
+        kind: 'tagged_decisions',
+        label: 'Tagged decision cluster',
+        details: [
+          pluralize(group.length, 'tagged decision'),
+          `${SCENARIO_LABELS[topScenario]} is the most common scenario`,
+        ],
+      },
       handIds: sortedLossHandIds(group, handMap),
       cta: deviationType === 'OPENED_OUT_OF_RANGE' || deviationType === 'OVERFOLD' ? 'Drill range cell' : 'Review hand queue',
       explanation: `${group.length} tagged ${SCENARIO_LABELS[topScenario]} spot${group.length === 1 ? '' : 's'} need a repeatable rule before the next session.`,
@@ -155,10 +202,64 @@ export function buildStudyQueue(
       priorityScore: score,
       sampleSize: missedCbetHands.length,
       estimatedBbLoss,
+      confidence: confidenceFromSampleSize(missedCbetHands.length),
+      evidence: {
+        kind: 'postflop_flags',
+        label: 'Postflop opportunity tags',
+        details: [pluralize(missedCbetHands.length, 'missed continuation-bet opportunity', 'missed continuation-bet opportunities')],
+      },
       handIds: sortedLossHandIds(missedCbetHands, handMap),
       cta: 'Drill 33% flop c-bets',
       explanation: 'GTO Wizard/DTO-style practice loop: isolate missed continuation bets and rehearse the default pressure line.',
     });
+  }
+
+  if (options.headsUpReferences) {
+    const referenceMisses = batchCheckPushFold(decisions, options).filter(
+      (analysis) =>
+        analysis.sourceType === 'local_hu_push_fold_csv' &&
+        (analysis.result === 'missed_push' ||
+          analysis.result === 'bad_push' ||
+          analysis.result === 'missed_call' ||
+          analysis.result === 'loose_call'),
+    );
+
+    if (referenceMisses.length > 0) {
+      const missedHandIds = new Set(referenceMisses.map((analysis) => analysis.handId));
+      const missedReferenceDecisions = decisions.filter((decision) => missedHandIds.has(decision.handId));
+      const bbLosses = missedReferenceDecisions
+        .map((decision) => handBbDelta(decision, handMap))
+        .filter((bb): bb is number => bb !== null && bb < 0)
+        .map((bb) => Math.abs(bb));
+      const estimatedBbLoss = bbLosses.length > 0 ? bbLosses.reduce((sum, bb) => sum + bb, 0) : null;
+      const score = priorityScore(
+        severityFromScore(referenceMisses.length * 16 + (estimatedBbLoss ?? 0) * 3),
+        referenceMisses.length,
+        estimatedBbLoss,
+      );
+
+      items.push({
+        id: 'reference-hu-push-fold',
+        title: 'Heads-up push/fold reference misses',
+        source: 'reference',
+        severity: severityFromScore(score),
+        priorityScore: score,
+        sampleSize: referenceMisses.length,
+        estimatedBbLoss,
+        confidence: confidenceFromSampleSize(referenceMisses.length),
+        evidence: {
+          kind: 'reference_misses',
+          label: 'Local heads-up reference misses',
+          details: [
+            pluralize(referenceMisses.length, 'reference miss', 'reference misses'),
+            'Compared against your locally loaded HU push/fold CSV/table',
+          ],
+        },
+        handIds: sortedLossHandIds(missedReferenceDecisions, handMap),
+        cta: 'Review local reference table spots',
+        explanation: `${referenceMisses.length} heads-up push/fold decision${referenceMisses.length === 1 ? '' : 's'} diverged from the local CSV/table reference. Review these as practical reference-table drills; EV loss is unknown until richer reference data is attached.`,
+      });
+    }
   }
 
   const biggestLosses = decisions
@@ -178,6 +279,15 @@ export function buildStudyQueue(
       priorityScore: score,
       sampleSize: biggestLosses.length,
       estimatedBbLoss,
+      confidence: 'low',
+      evidence: {
+        kind: 'bb_loss_review',
+        label: 'Normalized BB loss review',
+        details: [
+          pluralize(biggestLosses.length, 'loss hand'),
+          'Sorted by bb delta, not raw chips',
+        ],
+      },
       handIds: biggestLosses.map((entry) => entry.decision.handId),
       cta: 'Replay top losses',
       explanation: 'GTO Wizard-style review: sort by biggest normalized BB damage so one large pot cannot hide inside aggregate charts.',

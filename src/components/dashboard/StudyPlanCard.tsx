@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, BookOpenCheck, Crosshair, Flame, Layers, TrendingDown } from 'lucide-react';
 import { clsx } from 'clsx';
 import type { StudyQueueItem } from '../../analysis/studyPlan';
+import { getEvidenceMetadata } from '../../utils/evidence';
 
 interface StudyPlanCardProps {
   items: StudyQueueItem[];
@@ -12,6 +13,7 @@ const SOURCE_LABEL: Record<StudyQueueItem['source'], string> = {
   deviation: 'Range mistake',
   postflop: 'Trainer drill',
   loss: 'BB-loss review',
+  reference: 'Reference table',
 };
 
 const SOURCE_ICON: Record<StudyQueueItem['source'], typeof Crosshair> = {
@@ -19,6 +21,7 @@ const SOURCE_ICON: Record<StudyQueueItem['source'], typeof Crosshair> = {
   deviation: Crosshair,
   postflop: BookOpenCheck,
   loss: TrendingDown,
+  reference: Crosshair,
 };
 
 const SEVERITY_CLASS: Record<StudyQueueItem['severity'], string> = {
@@ -44,6 +47,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
 
   const top = items[0]!;
   const TopIcon = SOURCE_ICON[top.source];
+  const topEvidence = getEvidenceMetadata(top.id, top.source);
 
   return (
     <section className="overflow-hidden rounded-2xl border border-violet-500/20 bg-gradient-to-br from-[#11121a] via-[var(--color-bg-card)] to-black/40 shadow-2xl shadow-violet-950/10">
@@ -52,17 +56,25 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(113,112,255,0.16),transparent_42%)]" />
           <div className="relative">
             <p className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.24em] text-violet-300">
-              <Layers size={14} /> Competitor-inspired study queue
+              <Layers size={14} /> Ranked study queue
             </p>
             <h3 className="mt-3 text-2xl font-black tracking-tight text-white">Next best study block</h3>
             <p className="mt-2 text-sm leading-relaxed text-[var(--color-text-dim)]">
-              Built from PokerTracker/HM3 leak discovery, GTO Wizard EV-loss sorting, and DTO-style drills: one ranked queue instead of another passive chart.
+              Built from leak discovery, normalized BB-loss sorting, local reference-table checks, and focused drill queues: one ranked queue instead of another passive chart.
             </p>
 
             <div className="mt-5 rounded-xl border border-violet-400/20 bg-violet-400/10 p-4">
-              <div className="mb-2 flex items-center gap-2">
-                <TopIcon size={16} className="text-violet-200" />
-                <span className="text-[10px] font-black uppercase tracking-widest text-violet-200">Start now</span>
+              <div className="mb-2 flex flex-wrap items-center gap-2">
+                <div className="flex items-center gap-2">
+                  <TopIcon size={16} className="text-violet-200" />
+                  <span className="text-[10px] font-black uppercase tracking-widest text-violet-200">Start now</span>
+                </div>
+                <span 
+                  className={clsx('rounded-full border px-2 py-0.5 text-[9px] font-black uppercase transition-all duration-200 cursor-help', topEvidence.badgeClass)} 
+                  title={topEvidence.tooltip}
+                >
+                  {topEvidence.label}
+                </span>
               </div>
               <p className="font-data text-lg font-black text-white">{top.title}</p>
               <p className="mt-2 text-xs leading-relaxed text-white/60">{top.explanation}</p>
@@ -79,6 +91,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
         <div className="divide-y divide-white/10">
           {items.map((item, index) => {
             const Icon = SOURCE_ICON[item.source];
+            const evidence = getEvidenceMetadata(item.id, item.source);
             return (
               <Link
                 key={item.id}
@@ -97,6 +110,12 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
                     <p className="font-data text-sm font-black uppercase tracking-tight text-white group-hover:text-violet-200">{item.title}</p>
                     <span className="rounded-full border border-white/10 bg-black/20 px-2 py-0.5 text-[10px] font-black uppercase text-white/45">
                       {SOURCE_LABEL[item.source]}
+                    </span>
+                    <span 
+                      className={clsx('rounded-full border px-2 py-0.5 text-[10px] font-black uppercase cursor-help', evidence.badgeClass)} 
+                      title={evidence.tooltip}
+                    >
+                      {evidence.label}
                     </span>
                     <span className={clsx('rounded-full border px-2 py-0.5 text-[10px] font-black uppercase', SEVERITY_CLASS[item.severity])}>
                       {item.severity}
