@@ -14,7 +14,7 @@
     "typecheck": "tsc -b --noEmit",
     "docs:update": "tsx scripts/regen-status.ts",
     "docs:check": "tsx scripts/regen-status.ts --check",
-    "prepare": "sh scripts/install-hooks.sh"
+    "prepare": "node scripts/install-hooks.js"
   },
   "dependencies": {
     "@tanstack/react-table": "^8.21.3",
