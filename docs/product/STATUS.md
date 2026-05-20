@@ -293,12 +293,14 @@ src/components/  (25 files)
   components/shared/InfoTooltip.tsx
   components/shared/RangeGrid.tsx
   components/shared/StatCard.tsx
-src/utils/  (3 files)
+src/utils/  (4 files)
   utils/csvExport.ts
+  utils/evidence.ts
   utils/format.ts
   utils/pdfExport.ts
-src/types/  (4 files)
+src/types/  (5 files)
   types/analysis.ts
+  types/evidence.ts
   types/hand.ts
   types/ranges.ts
   types/villain.ts

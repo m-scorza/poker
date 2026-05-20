@@ -1,10 +1,18 @@
 import type { ParsedHand } from '../parser/pokerstars';
 import type { HeroDecision } from '../types/analysis';
 import type { Action, PlayerInHand } from '../types/hand';
+import type { EvidenceKind } from '../types/evidence';
 
 export type SolverStreet = 'preflop' | 'flop' | 'turn' | 'river';
 export type SolverActionKind = 'fold' | 'check' | 'call' | 'bet' | 'raise' | 'all-in';
-export type SolverEvidenceKind = 'unsupported' | 'rule_based' | 'proxy_model' | 'solver_backed';
+
+/**
+ * Back-compat alias. The canonical type lives in `src/types/evidence.ts` so the
+ * same vocabulary (`unsupported` / `rule_based` / `local_reference` /
+ * `proxy_model` / `solver_backed`) is shared across solver, leak, push/fold,
+ * and study-queue outputs.
+ */
+export type SolverEvidenceKind = EvidenceKind;
 
 export interface SolverSpotAction {
   street: SolverStreet;

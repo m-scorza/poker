@@ -34,6 +34,12 @@ async function loadIsolatedImportRunPersistence() {
       clearAllData: async () => {
         await db.importRuns.clear();
       },
+      saveImportRun: async (record: any) => {
+        await db.importRuns.put(record);
+      },
+      getRecentImportRuns: async (limit = 10) => {
+        return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
+      },
     };
   });
 
@@ -193,7 +199,7 @@ describe('import run persistence', () => {
   });
 
   it('saves import runs and reads them newest-first with a limit', async () => {
-    const { importRuns } = await loadIsolatedImportRunPersistence();
+    const { importRuns, store } = await loadIsolatedImportRunPersistence();
     const oldest = importRuns.buildImportRunRecord(
       { ...baseSummary, confidence: 'high', warnings: [] },
       ['oldest.txt'],
@@ -213,11 +219,11 @@ describe('import run persistence', () => {
       new Date('2026-05-17T20:00:00Z'),
     );
 
-    await importRuns.saveImportRun(oldest);
-    await importRuns.saveImportRun(newest);
-    await importRuns.saveImportRun(middle);
+    await store.saveImportRun(oldest);
+    await store.saveImportRun(newest);
+    await store.saveImportRun(middle);
 
-    const runs = await importRuns.getRecentImportRuns(2);
+    const runs = await store.getRecentImportRuns(2);
 
     expect(runs.map((run) => run.id)).toEqual([newest.id, middle.id]);
   });
@@ -231,9 +237,9 @@ describe('import run persistence', () => {
       new Date('2026-05-17T20:00:00Z'),
     );
 
-    await importRuns.saveImportRun(run);
+    await store.saveImportRun(run);
     await store.clearAllData();
 
-    await expect(importRuns.getRecentImportRuns()).resolves.toEqual([]);
+    await expect(store.getRecentImportRuns()).resolves.toEqual([]);
   });
 });
