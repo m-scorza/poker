@@ -7,9 +7,9 @@ import { AlertTriangle, ArrowRight, BookOpen, CheckCircle, Crosshair, TrendingDo
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { db } from '../data/store';
+import { db, getRecentImportRuns } from '../data/store';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
-import { getRecentImportRuns, summarizeDataHealth } from '../data/importRuns';
+import { summarizeDataHealth } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { Leak, LeakSeverity } from '../analysis/leakDetector';

@@ -1,5 +1,6 @@
 import type { ImportConfidence, ImportSummary } from '../parser/workerProcessor';
-import { db } from './store';
+
+export { saveImportRun, getRecentImportRuns } from './store';
 
 export interface SavedImportCounts {
   savedHands: number;
@@ -109,14 +110,6 @@ export function summarizeDataHealth(runs: ImportRunRecord[]): DataHealthSummary 
     warnings,
     message,
   };
-}
-
-export async function saveImportRun(record: ImportRunRecord): Promise<void> {
-  await db.importRuns.put(record);
-}
-
-export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {
-  return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
 }
 
 export function buildImportRunTimeline(runs: ImportRunRecord[]): ImportRunTimelineRow[] {

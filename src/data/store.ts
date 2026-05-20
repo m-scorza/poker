@@ -561,3 +561,12 @@ export async function toggleStarHand(handId: string): Promise<boolean> {
   await db.hands.update(handId, { isStarred: newState });
   return newState;
 }
+
+export async function saveImportRun(record: ImportRunRecord): Promise<void> {
+  await db.importRuns.put(record);
+}
+
+export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {
+  return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
+}
+
