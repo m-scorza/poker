@@ -270,12 +270,14 @@ src/pages/  (10 files)
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (25 files)
+src/components/  (27 files)
   components/career/BustOutChart.tsx
   components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx
   components/career/CareerScopePanel.tsx
+  components/career/CareerStreaksCard.tsx
   components/career/DayHourHeatmap.tsx
+  components/career/FormatBreakdownTable.tsx
   components/career/LifetimeScorecard.tsx
   components/career/StakeTrendChart.tsx
   components/career/TimelineFeed.tsx
@@ -313,8 +315,8 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 52
-**`it` / `test` calls (approximate):** 540
+**Test files:** 54
+**`it` / `test` calls (approximate):** 546
 
 ```
 src/__tests__/App.test.tsx
@@ -340,6 +342,8 @@ src/analysis/__tests__/squeezeDetector.test.ts
 src/analysis/__tests__/studyPlan.test.ts
 src/analysis/__tests__/villainClassifier.test.ts
 src/analysis/__tests__/villainExploitCrossRef.test.ts
+src/components/career/__tests__/CareerStreaksCard.test.tsx
+src/components/career/__tests__/FormatBreakdownTable.test.tsx
 src/components/career/__tests__/LifetimeScorecard.test.tsx
 src/components/shared/__tests__/Card.test.tsx
 src/components/shared/__tests__/ConfirmDialog.test.tsx
