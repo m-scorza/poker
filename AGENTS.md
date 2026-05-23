@@ -44,18 +44,10 @@ Only one agent should own a given file or subsystem at a time. If both agents ne
 
 ## Required handoff workflow
 
-Before ending a non-trivial session, update `docs/agents/AGENT_HANDOFF.md` with:
+Before ending an execution session, you must document your progress in `docs/agents/AGENT_HANDOFF.md` and follow the templates and guidelines defined in [HANDOFF_PROTOCOL.md](./docs/agents/HANDOFF_PROTOCOL.md).
 
-- Owner / agent
-- Branch and scope
-- Files touched
-- What changed
-- Verification run and result
-- Risks / assumptions
-- Next recommended action
-- Explicit review request, if another agent should continue
+For task execution and claiming rules, refer to [TASK_PROTOCOL.md](./docs/agents/TASK_PROTOCOL.md).
 
-If the task is larger than one small edit, also keep a plan under `docs/plans/`.
 
 ## Source-of-truth order
 

@@ -21,3 +21,11 @@ docs/council/*
 # These belong on disk for local testing but must never be committed —
 # they may carry commercial/third-party solver provenance.
 /holdemresources_*.zip
+
+# Local advisory runtime states
+.agents/state/
+.agents/spool.lock
+.agents/events.ndjson
+.agents/runs/
+docs/agents/CURRENT_CONTEXT.md
+

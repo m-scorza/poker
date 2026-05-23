@@ -1,5 +1,11 @@
 # Poker Hand Analyzer — scorza23
 
+## ⚠️ Active Coordination & Protocols
+
+All agent coordination, task execution, and handoff formatting must strictly follow:
+*   [TASK_PROTOCOL.md](./docs/agents/TASK_PROTOCOL.md) (Task claiming and workspace checks).
+*   [HANDOFF_PROTOCOL.md](./docs/agents/HANDOFF_PROTOCOL.md) (Handoff templates and manual checks).
+
 ## ⚠️ Before trusting this doc
 
 This file has historically drifted from the actual code. **Before relying on
