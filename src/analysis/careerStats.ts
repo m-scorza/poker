@@ -1,5 +1,5 @@
 import type { Tournament } from '../types/hand';
-import { getTournamentNet, getTournamentCost, getTournamentRevenue, isCashTournamentCurrency } from './financials';
+import { getTournamentNet, getTournamentCost, getTournamentRevenue, isCashTournamentCurrency, hasTournamentCash } from './financials';
 import { sumUsd } from '../parser/money';
 
 export interface BustOutBucket {
@@ -11,6 +11,194 @@ export interface BustOutBucket {
 export interface StakePoint {
   date: string;
   abi: number;
+}
+
+export interface CareerStreaks {
+  currentItmStreak: number;
+  longestItmStreak: number;
+  currentWinStreak: number;
+  longestWinStreak: number;
+  longestCashlessStreak: number;
+}
+
+export interface FormatBreakdown {
+  format: string;
+  count: number;
+  itmRate: number;
+  roi: number;
+  buyIns: number;
+  prizes: number;
+  profit: number;
+  avgBuyIn: number;
+}
+
+export function classifyTournamentFormat(t: Tournament): 'MTT' | 'Sit & Go' | 'Spin & Go' | 'Heads Up' {
+  const name = (t.name || '').toLowerCase();
+  const format = (t.format || '').toLowerCase();
+  
+  if (
+    name.includes('spin & go') ||
+    name.includes('spin&go') ||
+    name.includes('spin') ||
+    name.includes('expresso') ||
+    name.includes('twister') ||
+    format.includes('spin') ||
+    format.includes('3-max')
+  ) {
+    return 'Spin & Go';
+  }
+
+  if (
+    name.includes('heads up') ||
+    name.includes('heads-up') ||
+    name.includes(' hu ') ||
+    name.endsWith(' hu') ||
+    format.includes('heads up') ||
+    format.includes('hu')
+  ) {
+    return 'Heads Up';
+  }
+
+  if (
+    name.includes('sit & go') ||
+    name.includes('sit&go') ||
+    name.includes('sng') ||
+    format.includes('sit & go') ||
+    format.includes('sng')
+  ) {
+    return 'Sit & Go';
+  }
+
+  return 'MTT';
+}
+
+export function computeFormatBreakdown(tournaments: Tournament[]): FormatBreakdown[] {
+  const breakdownMap = new Map<string, {
+    count: number;
+    cashes: number;
+    buyIns: number;
+    prizes: number;
+    profit: number;
+  }>();
+
+  const formats = ['MTT', 'Sit & Go', 'Spin & Go', 'Heads Up'];
+  formats.forEach(f => {
+    breakdownMap.set(f, { count: 0, cashes: 0, buyIns: 0, prizes: 0, profit: 0 });
+  });
+
+  tournaments.forEach(t => {
+    const fmt = classifyTournamentFormat(t);
+    const cost = getTournamentCost(t);
+    const revenue = getTournamentRevenue(t);
+    const profit = revenue - cost;
+    const isItm = hasTournamentCash(t);
+
+    const curr = breakdownMap.get(fmt) || { count: 0, cashes: 0, buyIns: 0, prizes: 0, profit: 0 };
+    curr.count++;
+    if (isItm) curr.cashes++;
+    curr.buyIns += cost;
+    curr.prizes += revenue;
+    curr.profit += profit;
+
+    breakdownMap.set(fmt, curr);
+  });
+
+  return Array.from(breakdownMap.entries())
+    .map(([format, stats]) => ({
+      format,
+      count: stats.count,
+      itmRate: stats.count > 0 ? (stats.cashes / stats.count) * 100 : 0,
+      roi: stats.buyIns > 0 ? (stats.profit / stats.buyIns) * 100 : 0,
+      buyIns: stats.buyIns,
+      prizes: stats.prizes,
+      profit: stats.profit,
+      avgBuyIn: stats.count > 0 ? stats.buyIns / stats.count : 0,
+    }))
+    .filter(item => item.count > 0);
+}
+
+export function computeCareerStreaks(tournaments: Tournament[]): CareerStreaks {
+  const sorted = [...tournaments]
+    .filter(t => t.startDate)
+    .sort((a, b) => a.startDate!.getTime() - b.startDate!.getTime());
+
+  if (sorted.length === 0) {
+    return {
+      currentItmStreak: 0,
+      longestItmStreak: 0,
+      currentWinStreak: 0,
+      longestWinStreak: 0,
+      longestCashlessStreak: 0,
+    };
+  }
+
+  let currentItm = 0;
+  let longestItm = 0;
+  let runningItm = 0;
+
+  let currentWin = 0;
+  let longestWin = 0;
+  let runningWin = 0;
+
+  let longestCashless = 0;
+  let runningCashless = 0;
+
+  for (let i = 0; i < sorted.length; i++) {
+    const t = sorted[i];
+    if (!t) continue;
+    const isItm = hasTournamentCash(t);
+    const isWin = t.finishPosition === 1;
+
+    // ITM Streak
+    if (isItm) {
+      runningItm++;
+      longestItm = Math.max(longestItm, runningItm);
+      runningCashless = 0;
+    } else {
+      runningItm = 0;
+      runningCashless++;
+      longestCashless = Math.max(longestCashless, runningCashless);
+    }
+
+    // Win Streak
+    if (isWin) {
+      runningWin++;
+      longestWin = Math.max(longestWin, runningWin);
+    } else {
+      runningWin = 0;
+    }
+  }
+
+  // Calculate current streaks by looking back from the end
+  let i = sorted.length - 1;
+  while (i >= 0) {
+    const t = sorted[i];
+    if (t && hasTournamentCash(t)) {
+      currentItm++;
+      i--;
+    } else {
+      break;
+    }
+  }
+
+  i = sorted.length - 1;
+  while (i >= 0) {
+    const t = sorted[i];
+    if (t && t.finishPosition === 1) {
+      currentWin++;
+      i--;
+    } else {
+      break;
+    }
+  }
+
+  return {
+    currentItmStreak: currentItm,
+    longestItmStreak: longestItm,
+    currentWinStreak: currentWin,
+    longestWinStreak: longestWin,
+    longestCashlessStreak: longestCashless,
+  };
 }
 
 export function computeBustOutDistribution(tournaments: Tournament[]): BustOutBucket[] {

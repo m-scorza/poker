@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback, memo } from 'react';
 import { clsx } from 'clsx';
 import { Eye, Target, Zap, TrendingUp, AlertCircle, ChevronRight, History } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -42,12 +42,107 @@ function getHandKey(row: number, col: number): string {
   return r2 + r1 + 'o';
 }
 
+interface OracleCellProps {
+  handKey: string;
+  inTheoreticalRange: boolean;
+  isPushHand: boolean;
+}
+
+const OracleCell = memo(function OracleCell({
+  handKey,
+  inTheoreticalRange,
+  isPushHand,
+}: OracleCellProps) {
+  return (
+    <div
+      className={clsx(
+        'w-8 h-7 md:w-9 md:h-8 text-[9px] font-data flex items-center justify-center border rounded-sm transition-all',
+        isPushHand
+          ? 'bg-amber-500/30 border-amber-500/40 text-amber-100 shadow-[0_0_10px_rgba(245,158,11,0.1)]'
+          : inTheoreticalRange 
+            ? 'bg-emerald-900/40 border-emerald-500/40 text-emerald-100 shadow-[inset_0_0_8px_rgba(16,185,129,0.1)]' 
+            : 'bg-white/[0.02] border-white/5 text-[var(--color-text-muted)] opacity-30'
+      )}
+    >
+      {handKey}
+    </div>
+  );
+});
+
+interface MirrorCellProps {
+  handKey: string;
+  cell: RangeCellData | undefined;
+  isSelected: boolean;
+  onMouseEnter: (handKey: string) => void;
+  onClick: (handKey: string) => void;
+}
+
+const MirrorCell = memo(function MirrorCell({
+  handKey,
+  cell,
+  isSelected,
+  onMouseEnter,
+  onClick,
+}: MirrorCellProps) {
+  const hasData = cell && cell.totalInstances > 0;
+  const isCompliant = cell && cell.totalInstances > 0 && cell.deviations.length === 0;
+
+  const total = cell?.totalInstances ?? 0;
+  const raisePct = total > 0 && cell ? (cell.actionCounts.raise / total) * 100 : 0;
+  const callPct = total > 0 && cell ? (cell.actionCounts.call / total) * 100 : 0;
+  const foldPct = total > 0 && cell ? ((cell.actionCounts.fold + cell.actionCounts.other) / total) * 100 : 0;
+
+  return (
+    <button
+      onMouseEnter={() => onMouseEnter(handKey)}
+      onClick={() => onClick(handKey)}
+      className={clsx(
+        'w-8 h-7 md:w-9 md:h-8 text-[9px] font-data border rounded-sm transition-all relative overflow-hidden group flex items-center justify-center',
+        isSelected && 'ring-2 ring-white z-10 scale-110 shadow-xl',
+        !hasData 
+          ? 'bg-white/[0.01] border-white/5 text-[var(--color-text-dim)] opacity-20' 
+          : isCompliant
+            ? 'border-emerald-500/40 text-white'
+            : 'border-rose-500/50 text-white font-bold'
+      )}
+    >
+      {/* Action Strips */}
+      {hasData && (
+        <div className="absolute inset-0 flex flex-col pointer-events-none opacity-60 group-hover:opacity-80 transition-opacity">
+           {raisePct > 0 && <div className="bg-emerald-500" style={{ height: `${raisePct}%` }} />}
+           {callPct > 0 && <div className="bg-blue-500" style={{ height: `${callPct}%` }} />}
+           {foldPct > 0 && <div className="bg-white/20" style={{ height: `${foldPct}%` }} />}
+        </div>
+      )}
+      
+      <span className={clsx(
+         "relative z-10",
+         hasData ? "drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]" : ""
+      )}>
+         {handKey}
+      </span>
+    </button>
+  );
+});
+
 export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualRangeMatrixProps) {
   const [hoveredHand, setHoveredHand] = useState<string | null>(null);
   const [selectedHand, setSelectedHand] = useState<string | null>(null);
 
   const activeHand = selectedHand || hoveredHand;
   const activeDetails = activeHand ? data.get(activeHand) : null;
+
+  const handleMouseEnter = useCallback((handKey: string) => {
+    setHoveredHand(handKey);
+  }, []);
+
+  const handleCellClick = useCallback((handKey: string) => {
+    setSelectedHand((prev) => (prev === handKey ? null : handKey));
+  }, []);
+
+  const handleMouseLeaveMirror = useCallback(() => {
+    setHoveredHand(null);
+  }, []);
 
   return (
     <div className="flex flex-col lg:flex-row gap-6 items-start">
@@ -65,21 +160,16 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
             RANKS.map((_, col) => {
               const handKey = getHandKey(row, col);
               const cell = data.get(handKey);
+              const isPushHand = !!(cell?.isPushHand && viewMode !== 'edit');
+              const inTheoreticalRange = !!cell?.inTheoreticalRange;
 
               return (
-                <div
+                <OracleCell
                   key={`oracle-${handKey}`}
-                  className={clsx(
-                    'w-8 h-7 md:w-9 md:h-8 text-[9px] font-data flex items-center justify-center border rounded-sm transition-all',
-                    cell?.isPushHand && viewMode !== 'edit'
-                      ? 'bg-amber-500/30 border-amber-500/40 text-amber-100 shadow-[0_0_10px_rgba(245,158,11,0.1)]'
-                      : cell?.inTheoreticalRange 
-                        ? 'bg-emerald-900/40 border-emerald-500/40 text-emerald-100 shadow-[inset_0_0_8px_rgba(16,185,129,0.1)]' 
-                        : 'bg-white/[0.02] border-white/5 text-[var(--color-text-muted)] opacity-30'
-                  )}
-                >
-                  {handKey}
-                </div>
+                  handKey={handKey}
+                  inTheoreticalRange={inTheoreticalRange}
+                  isPushHand={isPushHand}
+                />
               );
             })
           )}
@@ -107,53 +197,24 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
         <div 
           className="inline-grid gap-[2px] bg-black/20 p-1.5 rounded-lg border border-white/5" 
           style={{ gridTemplateColumns: `repeat(13, 1fr)` }}
-          onMouseLeave={() => setHoveredHand(null)}
+          onMouseLeave={handleMouseLeaveMirror}
         >
           {RANKS.map((_, row) =>
             RANKS.map((_, col) => {
               const handKey = getHandKey(row, col);
               const cell = data.get(handKey);
-              const hasData = cell && cell.totalInstances > 0;
+              const isSelected = selectedHand === handKey;
 
-              const isCompliant = cell && cell.totalInstances > 0 && cell.deviations.length === 0;
-
-                const total = cell?.totalInstances ?? 0;
-                const raisePct = total > 0 && cell ? (cell.actionCounts.raise / total) * 100 : 0;
-                const callPct = total > 0 && cell ? (cell.actionCounts.call / total) * 100 : 0;
-                const foldPct = total > 0 && cell ? ((cell.actionCounts.fold + cell.actionCounts.other) / total) * 100 : 0;
-
-                return (
-                  <button
-                    key={`mirror-${handKey}`}
-                    onMouseEnter={() => setHoveredHand(handKey)}
-                    onClick={() => setSelectedHand(selectedHand === handKey ? null : handKey)}
-                    className={clsx(
-                      'w-8 h-7 md:w-9 md:h-8 text-[9px] font-data border rounded-sm transition-all relative overflow-hidden group flex items-center justify-center',
-                      selectedHand === handKey && 'ring-2 ring-white z-10 scale-110 shadow-xl',
-                      !hasData 
-                        ? 'bg-white/[0.01] border-white/5 text-[var(--color-text-dim)] opacity-20' 
-                        : isCompliant
-                          ? 'border-emerald-500/40 text-white'
-                          : 'border-rose-500/50 text-white font-bold'
-                    )}
-                  >
-                    {/* Action Strips */}
-                    {hasData && (
-                      <div className="absolute inset-0 flex flex-col pointer-events-none opacity-60 group-hover:opacity-80 transition-opacity">
-                         {raisePct > 0 && <div className="bg-emerald-500" style={{ height: `${raisePct}%` }} />}
-                         {callPct > 0 && <div className="bg-blue-500" style={{ height: `${callPct}%` }} />}
-                         {foldPct > 0 && <div className="bg-white/20" style={{ height: `${foldPct}%` }} />}
-                      </div>
-                    )}
-                    
-                    <span className={clsx(
-                       "relative z-10",
-                       hasData ? "drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]" : ""
-                    )}>
-                       {handKey}
-                    </span>
-                  </button>
-                );
+              return (
+                <MirrorCell
+                  key={`mirror-${handKey}`}
+                  handKey={handKey}
+                  cell={cell}
+                  isSelected={isSelected}
+                  onMouseEnter={handleMouseEnter}
+                  onClick={handleCellClick}
+                />
+              );
             })
           )}
         </div>
