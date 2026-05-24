@@ -232,6 +232,42 @@ describe('selectProofHands', () => {
     expect(picks.find((p) => p.handId === 'noflop')!.reasons).not.toContain('clarity');
   });
 
+  it('credits clarity on limps, cbet_total, wtsd, won_sd, and three_bet leaks', () => {
+    const limpHand = decision({ handId: 'limp', netProfit: -100, deviationType: 'LIMPED' });
+    const cbetTotalHand = decision({ handId: 'cbetTotal', netProfit: -100, cbetOpportunity: true, cbetMade: false });
+    const wtsdHand = decision({ handId: 'wtsd', netProfit: -100, wentToShowdown: true });
+    const wonSdHand = decision({ handId: 'wonSd', netProfit: -100, wentToShowdown: true, wonAtShowdown: false });
+    const threeBetHand = decision({ handId: 'threeBet', netProfit: -100, scenario: 'FACING_RAISE' });
+
+    const picksLimp = selectProofHands({ decisions: [limpHand], hands: [hand('limp')], leakId: 'limps', evidenceKind: 'rule_based', now: NOW });
+    const picksCbetTotal = selectProofHands({ decisions: [cbetTotalHand], hands: [hand('cbetTotal')], leakId: 'cbet_total', evidenceKind: 'rule_based', now: NOW });
+    const picksWtsd = selectProofHands({ decisions: [wtsdHand], hands: [hand('wtsd')], leakId: 'wtsd', evidenceKind: 'rule_based', now: NOW });
+    const picksWonSd = selectProofHands({ decisions: [wonSdHand], hands: [hand('wonSd')], leakId: 'won_sd', evidenceKind: 'rule_based', now: NOW });
+    const picksThreeBet = selectProofHands({ decisions: [threeBetHand], hands: [hand('threeBet')], leakId: 'three_bet', evidenceKind: 'rule_based', now: NOW });
+
+    expect(picksLimp.find(p => p.handId === 'limp')?.reasons).toContain('clarity');
+    expect(picksCbetTotal.find(p => p.handId === 'cbetTotal')?.reasons).toContain('clarity');
+    expect(picksWtsd.find(p => p.handId === 'wtsd')?.reasons).toContain('clarity');
+    expect(picksWonSd.find(p => p.handId === 'wonSd')?.reasons).toContain('clarity');
+    expect(picksThreeBet.find(p => p.handId === 'threeBet')?.reasons).toContain('clarity');
+  });
+
+  it('handles hand dates that are missing or in the future gracefully', () => {
+    const missingDateHand = hand('missing', { date: undefined });
+    const futureDateHand = hand('future', { date: new Date(NOW.getTime() + 100000) });
+    const decisions = [
+      decision({ handId: 'missing', netProfit: -100 }),
+      decision({ handId: 'future', netProfit: -100 }),
+    ];
+
+    const picks = selectProofHands({ decisions, hands: [missingDateHand, futureDateHand], leakId: 'compliance', now: NOW });
+    
+    // Hand with missing date has 0 recency score, so reasons does not include 'recency'
+    expect(picks.find(p => p.handId === 'missing')?.reasons).not.toContain('recency');
+    // Hand with future date has 1 recency score, so reasons includes 'recency'
+    expect(picks.find(p => p.handId === 'future')?.reasons).toContain('recency');
+  });
+
   it('skips hands whose Hand record is missing a usable bigBlind', () => {
     const decisions = [
       decision({ handId: 'good', netProfit: -200 }),

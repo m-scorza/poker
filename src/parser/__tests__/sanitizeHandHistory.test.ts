@@ -152,4 +152,62 @@ Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
     ]);
     expect(reparsed[0]!.players.find((p) => p.isHero)?.holeCards).toEqual(['7c', '7s']);
   });
+
+  it('redacts Open Hand History JSON format while preserving OHH semantics', () => {
+    const rawOhhJson = {
+      spec_version: '1.0.0',
+      hero_player_id: 'p1',
+      game_number: '12345',
+      table_name: 'My Table',
+      start_date_utc: '2026-05-24T12:00:00',
+      players: [
+        { id: 'p1', name: 'scorza23' },
+        { id: 'p2', name: 'villain123' },
+      ],
+      tournament_info: {
+        tournament_number: '999',
+        name: 'Big Tourney',
+        start_date_utc: '2026-05-24T11:00:00',
+      },
+      rounds: [
+        {
+          actions: [
+            { player_id: 'p1', action: 'raise' },
+          ],
+        },
+      ],
+      pots: [
+        {
+          player_wins: [
+            { player_id: 'p1', amount: 100 },
+          ],
+        },
+      ],
+    };
+
+    const sanitized = sanitizeHandHistory(JSON.stringify(rawOhhJson), { heroName: 'scorza23' });
+    const parsed = JSON.parse(sanitized.text);
+
+    // Verify redactions
+    expect(parsed.hero_player_id).toBe('player-1');
+    expect(parsed.game_number).toBe('900000000001');
+    expect(parsed.table_name).toBe('Sanitized Table 1');
+    expect(parsed.start_date_utc).toBe('2020-01-01T00:00:00');
+    expect(parsed.players[0].name).toBe('Hero');
+    expect(parsed.players[0].id).toBe('player-1');
+    expect(parsed.players[1].name).toBe('Villain_1');
+    expect(parsed.players[1].id).toBe('player-2');
+    expect(parsed.tournament_info.tournament_number).toBe('800000000001');
+    expect(parsed.tournament_info.name).toBe('Sanitized Tournament');
+    expect(parsed.tournament_info.start_date_utc).toBe('2020-01-01T00:00:01');
+    expect(parsed.rounds[0].actions[0].player_id).toBe('player-1');
+    expect(parsed.pots[0].player_wins[0].player_id).toBe('player-1');
+
+    // Verify report
+    expect(sanitized.report.playerAliasCount).toBe(2);
+    expect(sanitized.report.handIdCount).toBe(1);
+    expect(sanitized.report.tournamentIdCount).toBe(1);
+    expect(sanitized.report.tableNameCount).toBe(1);
+    expect(sanitized.report.aliases).toEqual(['Hero', 'Villain_1']);
+  });
 });

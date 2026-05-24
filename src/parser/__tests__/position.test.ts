@@ -67,4 +67,29 @@ describe('assignPositions', () => {
     // First seat (1) becomes BTN
     expect(result.get(1)).toBe('BTN');
   });
+
+  it('handles 0 active seats gracefully', () => {
+    const result = assignPositions([], 1);
+    expect(result.size).toBe(0);
+  });
+
+  it('handles 1 active seat gracefully', () => {
+    const result = assignPositions(seats(3), 1);
+    expect(result.size).toBe(1);
+    expect(result.get(3)).toBe('BTN');
+  });
+
+  it('assigns >9 players table using dynamic labels', () => {
+    const result = assignPositions(seats(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), 1);
+    expect(result.get(1)).toBe('BTN');
+    expect(result.get(2)).toBe('SB');
+    expect(result.get(3)).toBe('BB');
+    expect(result.get(4)).toBe('UTG');
+    expect(result.get(5)).toBe('UTG+1');
+    expect(result.get(6)).toBe('UTG+2');
+    expect(result.get(7)).toBe('UTG+3');
+    expect(result.get(8)).toBe('UTG+4');
+    expect(result.get(9)).toBe('HJ');
+    expect(result.get(10)).toBe('CO');
+  });
 });

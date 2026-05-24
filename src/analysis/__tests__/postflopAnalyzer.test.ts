@@ -49,6 +49,13 @@ describe('classifyBoardTexture', () => {
     expect(result.isMonotone).toBe(true);
   });
 
+  it('classifies monotone board with high cards', () => {
+    const result = classifyBoardTexture(['Ac', 'Kc', '3c']);
+    expect(result.texture).toBe('monotone_c');
+    expect(result.isMonotone).toBe(true);
+    expect(result.highCardCount).toBe(2);
+  });
+
   it('classifies neutral board when no category fits', () => {
     // J-5-2 rainbow — high card (J) but some connectedness from J being near others?
     // Actually J=11, 5, 2: gaps are 6 and 3, so disconnected. But J is broadway.
@@ -163,6 +170,43 @@ describe('analyzePostflop', () => {
   it('returns empty for no flop', () => {
     const spots = analyzePostflop([], 'hero', true, null, 2, 100);
     expect(spots).toHaveLength(0);
+  });
+
+  it('returns empty if hero was all-in preflop', () => {
+    const actions = [
+      makeAction({ playerName: 'hero', actionType: 'raise', street: 'preflop', isAllIn: true, sequence: 1 }),
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 2 }),
+    ];
+    const spots = analyzePostflop(actions, 'hero', true, ['Ah', '7d', '2c'], 2, 100);
+    expect(spots).toHaveLength(0);
+  });
+
+  it('detects donk bet on turn', () => {
+    const actions = [
+      makeAction({ playerName: 'villain', actionType: 'bet', street: 'flop', sequence: 1 }),
+      makeAction({ playerName: 'hero', actionType: 'call', street: 'flop', sequence: 2 }),
+      makeAction({ playerName: 'hero', actionType: 'bet', street: 'turn', sequence: 3 }),
+    ];
+    const spots = analyzePostflop(actions, 'hero', false, ['Ah', '7d', '2c'], 2, 100);
+    expect(spots.some((s) => s.spot === 'DONK_BET_TURN')).toBe(true);
+  });
+
+  it('detects check-raise on flop', () => {
+    const actions = [
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 1 }),
+      makeAction({ playerName: 'villain', actionType: 'bet', street: 'flop', sequence: 2 }),
+      makeAction({ playerName: 'hero', actionType: 'raise', street: 'flop', sequence: 3 }),
+    ];
+    const spots = analyzePostflop(actions, 'hero', false, ['Ah', '7d', '2c'], 2, 100);
+    expect(spots.some((s) => s.spot === 'CHECK_RAISE_FLOP')).toBe(true);
+  });
+
+  it('detects facing a bet on flop', () => {
+    const actions = [
+      makeAction({ playerName: 'villain', actionType: 'bet', amount: 50, street: 'flop', sequence: 1 }),
+    ];
+    const spots = analyzePostflop(actions, 'hero', false, ['Ah', '7d', '2c'], 2, 100);
+    expect(spots.some((s) => s.spot === 'NONE' && s.note.includes('Facing 50% pot bet'))).toBe(true);
   });
 });
 
