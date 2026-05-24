@@ -88,6 +88,21 @@ describe('buyInExtractor', () => {
       expect(r.currency).toBe('TICKET');
       expect(r.buyIn).toBe(0);
     });
+    it('classifies FPP and starscoin', () => {
+      const r1 = extractBuyIn('100 FPP Satellite', '');
+      expect(r1.currency).toBe('PLAY');
+      expect(r1.buyIn).toBe(0);
+
+      const r2 = extractBuyIn('StarsCoin Super Satellite', '');
+      expect(r2.currency).toBe('PLAY');
+      expect(r2.buyIn).toBe(0);
+    });
+    it('classifies T$', () => {
+      const r = extractBuyIn('T$ 10 Hyper-Turbo', 'Buy-in: T$ 10');
+      expect(r.currency).toBe('T$');
+      expect(r.buyIn).toBe(0);
+      expect(r.fee).toBe(0);
+    });
   });
 
   describe('plausibility ceiling', () => {

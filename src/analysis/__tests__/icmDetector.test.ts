@@ -3,6 +3,7 @@ import {
   estimateICMStage,
   estimateICMStageFromHand,
   icmStageLabel,
+  icmStageColor,
 } from '../icmDetector';
 import type { Hand, PlayerInHand } from '../../types/hand';
 
@@ -132,5 +133,15 @@ describe('icmStageLabel', () => {
     expect(icmStageLabel('early')).toBe('Early');
     expect(icmStageLabel('bubble')).toBe('Bubble');
     expect(icmStageLabel('final_table')).toBe('Final Table');
+  });
+});
+
+describe('icmStageColor', () => {
+  it('returns correct CSS variable color classes', () => {
+    expect(icmStageColor('early')).toBe('text-[var(--color-accent)]');
+    expect(icmStageColor('mid')).toBe('text-[var(--color-info)]');
+    expect(icmStageColor('bubble')).toBe('text-[var(--color-warning)]');
+    expect(icmStageColor('itm')).toBe('text-[var(--color-warning)]');
+    expect(icmStageColor('final_table')).toBe('text-[var(--color-danger)]');
   });
 });
