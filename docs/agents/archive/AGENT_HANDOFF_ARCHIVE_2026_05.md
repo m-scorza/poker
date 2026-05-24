@@ -21,7 +21,29 @@ diff and CI result without spelunking the local branch.
 - Verification:                  # local commands run + CI result (green/red on which checks)
 - Risks / assumptions:
 - Next action requested:
-```
+## 2026-05-23 — Phase 4: Runtime State Ledger
+
+- Owner / agent: Antigravity
+- Branch: hygiene/context-docs-compaction
+- Scope: scripts/agent-kernel.cjs
+- Files touched:
+  - scripts/agent-kernel.cjs — added state spooler CLI operations (init-state, state, validate-state, add-task, lock-status, unlock) with optimistic locking, schema validation, and path safety constraints.
+- Summary:
+  - Configured state folder at `.agents/state/` with task_spool.json (spool ledger), spool.lock (atomic write lock), and events.ndjson (audit event log).
+  - Implemented lock file writing via `wx` flag with 60-second TTL stale check.
+  - Implemented schema version checking (supporting `schema_version === "1.0"` only).
+  - Added safety checks to prevent path traversal outside repo root or non-JSON extensions.
+  - Updated status and doctor commands to support state and lock checking.
+- Verification:
+  - `npx tsc -b --pretty false` ✓
+  - `npm test -- --run` ✓ (555 tests pass)
+  - `node scripts/agent-kernel.cjs doctor` ✓ (reports HEALTHY)
+- Risks / assumptions:
+  - Stale locks must be cleared manually using `unlock --force`. No auto-removal is built to prevent database race conditions.
+- Next action requested:
+  - Discuss and plan Phase 5 task claim and execution automation.
+
+---
 
 ## 2026-05-23 — Career hub consolidation (Stats fold-in + streaks + format breakdown)
 

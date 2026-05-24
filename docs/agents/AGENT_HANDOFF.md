@@ -9,62 +9,36 @@ All historical handoff records older than May 2026 are archived in [AGENT_HANDOF
 ```md
 ## YYYY-MM-DD — <short task name>
 
-- Owner / agent:
-- Branch:                        # feature branch name, e.g. solver/<slice>
-- PR:                            # https://github.com/m-scorza/poker/pull/<n> (or "open: <url>" if not merged yet)
-- Scope:
-- Files touched:
-- Summary:
-- Verification:                  # local commands run + CI result (green/red on which checks)
-- Risks / assumptions:
-- Next action requested:
+- Owner / agent:          # Agent name (Antigravity, Hermes, Claude)
+- Branch:                 # Active git branch name
+- Scope:                  # Files allowed to be touched
+- Files touched:          # Files modified or created
+- Summary:                # Bullet points describing changes
+- Verification:           # Output of validation commands and logs
+- Risks / assumptions:    # Structural dependencies and risks
+- Next action requested:  # Action instructions for the next agent
 ```
 
-## 2026-05-23 — Phase 4: Runtime State Ledger
+## 2026-05-24 — Phase 6: Sequential Pilot Task Planning
 
 - Owner / agent: Antigravity
 - Branch: hygiene/context-docs-compaction
-- Scope: scripts/agent-kernel.cjs
+- Scope: none (planning only)
 - Files touched:
-  - scripts/agent-kernel.cjs — added state spooler CLI operations (init-state, state, validate-state, add-task, lock-status, unlock) with optimistic locking, schema validation, and path safety constraints.
+  - `docs/plans/2026-05-24-phase-6-pilot-plan.md` (Design artifact)
+  - `task.md` (Task list artifact)
 - Summary:
-  - Configured state folder at `.agents/state/` with task_spool.json (spool ledger), spool.lock (atomic write lock), and events.ndjson (audit event log).
-  - Implemented lock file writing via `wx` flag with 60-second TTL stale check.
-  - Implemented schema version checking (supporting `schema_version === "1.0"` only).
-  - Added safety checks to prevent path traversal outside repo root or non-JSON extensions.
-  - Updated status and doctor commands to support state and lock checking.
+  - Proposed 3 candidate pilot tasks for Phase 6 manual verification.
+  - Recommended Candidate A (Unit testing and extending formatting utilities in `format.ts`).
+  - Drafted exact task and evidence JSON schemas for the pilot.
+  - Outlined step-by-step procedure command sequences.
+  - Defined expected failure modes and validation rules.
+  - Established scorecard evaluation metrics.
 - Verification:
-  - `npx tsc -b --pretty false` ✓
-  - `npm test -- --run` ✓ (555 tests pass)
-  - `node scripts/agent-kernel.cjs doctor` ✓ (reports HEALTHY)
+  - `node scripts/agent-kernel.cjs doctor` ✓ (HEALTHY)
+  - `npm run typecheck` ✓ (PASS)
+  - `npm test` ✓ (555 tests pass)
 - Risks / assumptions:
-  - Stale locks must be cleared manually using `unlock --force`. No auto-removal is built to prevent database race conditions.
+  - Zero code mutation to the kernel is made. The pilot relies on manual execution and creation of JSON files.
 - Next action requested:
-  - Discuss and plan Phase 5 task claim and execution automation.
-
-## 2026-05-23 — Career hub consolidation (Stats fold-in + streaks + format breakdown)
-
-- Owner / agent: Claude
-- Branch: `feat/career-hub-and-stats-consolidation` (rebased onto fresh `origin/main`, single commit)
-- PR: https://github.com/m-scorza/poker/pull/20
-- Scope: Finish the in-flight Career/Stats consolidation found dirty in the working tree, and complete the two remaining ROADMAP P4 career surfaces ("Streaks, format breakdown").
-- Files touched:
-  - `src/analysis/careerStats.ts` — added `computeCareerStreaks` (current/longest ITM, win, cashless streaks) and `computeFormatBreakdown` (per-format count/ITM/ROI/profit/avgBuyIn via `classifyTournamentFormat`); both use `financials.ts` helpers.
-  - `src/analysis/__tests__/careerStats.test.ts` — reworked/extended for the new aggregators (7 tests green).
-  - `src/components/career/CareerStreaksCard.tsx` (NEW) — presentational card consuming `computeCareerStreaks`.
-  - `src/components/career/FormatBreakdownTable.tsx` (NEW) — table consuming `computeFormatBreakdown`, formatted via `utils/format`.
-  - `src/components/career/__tests__/CareerStreaksCard.test.tsx` + `FormatBreakdownTable.test.tsx` (NEW) — smoke tests matching the `LifetimeScorecard` convention (render-with-data + null-on-empty).
-  - `src/pages/CareerPage.tsx` — wired the two new cards into the overview/tiers tabs.
-  - `src/pages/StatsPage.tsx` — slimmed after folding content into Career.
-  - `src/components/shared/DualRangeMatrix.tsx` — matrix display updates.
-  - `docs/product/STATUS.md` — regenerated autogen blocks.
-- Summary:
-  - The dirty tree was a mid-implementation consolidation: `CareerPage` imported `CareerStreaksCard`/`FormatBreakdownTable` that did not exist, so typecheck failed. The aggregation layer was already done + tested; only the two presentational components were missing. Built them against the existing tested contracts.
-  - Rebased the branch onto fresh `origin/main` (`--onto origin/main 1de48f3`) so the PR contains exactly this one consolidation commit — the prior HU push/fold (#19) and EvidenceKind (#18) commits on the old base were already merged.
-- Verification:
-  - `npm run docs:check` ✓, `npm run typecheck` ✓, `npm run lint` ✓ (0 errors, 8 pre-existing warnings, none in new files), `npm test -- --run` ✓ (52 files / 551 tests before the 4 new component tests; 555 with them), `npm run build` ✓ (production PWA).
-- Risks / assumptions:
-  - Pure additive UI on top of already-tested analysis helpers; no parser/scenario/range/math changes.
-  - `classifyTournamentFormat` is heuristic on tournament name/format strings; unusual format labels fall through to MTT.
-- Next action requested:
-  - After merge, the remaining open P4 item is "opponent overlap, day×hour heatmap polish." Antigravity could wire study-queue confidence/evidence into a UI card next; Hermes lane stays on confidence propagation into leak/range/scenario outputs.
+  - Review the Phase 6 implementation plan (`phase6_pilot_plan.md`) and approve the recommended pilot task to initiate execution.
