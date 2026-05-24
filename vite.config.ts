@@ -41,5 +41,14 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     testTimeout: 60000,
+    exclude: [
+      '**/node_modules/**',
+      '**/dist/**',
+      '**/cypress/**',
+      '**/.path/**',
+      '**/.git/**',
+      '**/.cache/**',
+      '**/.claude/**'
+    ]
   },
 });
