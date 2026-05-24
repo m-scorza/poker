@@ -19,26 +19,28 @@ All historical handoff records older than May 2026 are archived in [AGENT_HANDOF
 - Next action requested:  # Action instructions for the next agent
 ```
 
-## 2026-05-24 — Phase 6: Sequential Pilot Task Planning
+## 2026-05-24 — Phase 6: Sequential Pilot Task Execution
 
 - Owner / agent: Antigravity
-- Branch: hygiene/context-docs-compaction
-- Scope: none (planning only)
+- Branch: hygiene/format-utilities-tests (committed under commit 6507b11)
+- Scope:
+  - src/utils/format.ts
+  - src/utils/__tests__/format.test.ts
 - Files touched:
-  - `docs/plans/2026-05-24-phase-6-pilot-plan.md` (Design artifact)
-  - `task.md` (Task list artifact)
+  - `src/utils/format.ts` — added stackBb formatter function.
+  - `src/utils/__tests__/format.test.ts` — added comprehensive test cases covering money, pct, ratioPct, and stackBb formatters (100% coverage).
+  - `docs/product/STATUS.md` — updated test inventory counts via regen script.
 - Summary:
-  - Proposed 3 candidate pilot tasks for Phase 6 manual verification.
-  - Recommended Candidate A (Unit testing and extending formatting utilities in `format.ts`).
-  - Drafted exact task and evidence JSON schemas for the pilot.
-  - Outlined step-by-step procedure command sequences.
-  - Defined expected failure modes and validation rules.
-  - Established scorecard evaluation metrics.
+  - Initialized state database, added the pilot task, claimed it, implemented formatting changes/tests, verified functionally, and transitioned to completed through the kernel.
+  - Successfully verified all expected safety failure modes: branch mismatch, scope drift, missing checks, and untracked files.
+  - Reverted failure artifacts and ran cleanup cycles before final happy path completion.
+  - Filled out the scorecard metrics evaluating task spooler friction.
 - Verification:
-  - `node scripts/agent-kernel.cjs doctor` ✓ (HEALTHY)
+  - `node scripts/agent-kernel.cjs doctor` ✓ (HEALTHY on clean checkout)
   - `npm run typecheck` ✓ (PASS)
-  - `npm test` ✓ (555 tests pass)
+  - `npx vitest run src/utils/__tests__/format.test.ts` ✓ (9 tests pass)
+  - `git commit` successfully verified via doc-update pre-commit hook bounds.
 - Risks / assumptions:
-  - Zero code mutation to the kernel is made. The pilot relies on manual execution and creation of JSON files.
+  - Spool state `.agents/state/` remains untracked and gitignored.
 - Next action requested:
-  - Review the Phase 6 implementation plan (`phase6_pilot_plan.md`) and approve the recommended pilot task to initiate execution.
+  - Proceed with Phase 6b: automatic context and handoff file generation design.
