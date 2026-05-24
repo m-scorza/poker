@@ -6,6 +6,21 @@ const { spawnSync } = require('child_process');
 const command = process.argv[2];
 const isJson = process.argv.includes('--json');
 
+// Argument parsing helpers
+function getArgValue(flag) {
+  const idx = process.argv.indexOf(flag);
+  if (idx !== -1 && idx + 1 < process.argv.length) {
+    return process.argv[idx + 1];
+  }
+  return null;
+}
+
+const argTaskId = getArgValue('--task');
+const argAgent = getArgValue('--agent');
+const argSummary = getArgValue('--summary');
+const argEvidenceFile = getArgValue('--evidence-file');
+const argReason = getArgValue('--reason');
+
 // Helper to run Git commands via spawnSync
 function runGit(args, cwd) {
   const result = spawnSync('git', args, {
@@ -44,6 +59,16 @@ function isValidIsoDate(str) {
   if (typeof str !== 'string') return false;
   const d = new Date(str);
   return !isNaN(d.getTime()) && str === d.toISOString();
+}
+
+function fileMatchesPatterns(file, patterns) {
+  return patterns.some(pat => {
+    if (pat.endsWith('/**')) {
+      const dir = pat.slice(0, -3);
+      return file === dir || file.startsWith(dir + '/');
+    }
+    return file === pat;
+  });
 }
 
 function checkInputFileSafety(filePath) {
@@ -296,8 +321,53 @@ function validateSpoolSchema(spool) {
           }
         });
       }
+      if (task.owner_agent !== null && task.owner_agent !== undefined && !['antigravity', 'hermes', 'claude', 'any'].includes(task.owner_agent)) {
+        errors.push(`${prefix} owner_agent must be null or one of [antigravity, hermes, claude, any], got "${task.owner_agent}"`);
+      }
+      if (task.started_at !== null && task.started_at !== undefined && !isValidIsoDate(task.started_at)) {
+        errors.push(`${prefix} started_at must be null or a valid ISO date string`);
+      }
+      if (task.completed_at !== null && task.completed_at !== undefined && !isValidIsoDate(task.completed_at)) {
+        errors.push(`${prefix} completed_at must be null or a valid ISO date string`);
+      }
       if (!Array.isArray(task.attempts)) {
         errors.push(`${prefix} attempts must be an array`);
+      } else {
+        task.attempts.forEach((att, attIdx) => {
+          const attPrefix = `${prefix}.attempts[${attIdx}]`;
+          if (!att || typeof att !== 'object') {
+            errors.push(`${attPrefix} must be an object`);
+            return;
+          }
+          if (typeof att.attempt_id !== 'number' || att.attempt_id < 0) {
+            errors.push(`${attPrefix} attempt_id must be a non-negative number`);
+          }
+          if (!isValidIsoDate(att.started_at)) {
+            errors.push(`${attPrefix} started_at is not a valid ISO date string`);
+          }
+          if (att.ended_at !== null && att.ended_at !== undefined && !isValidIsoDate(att.ended_at)) {
+            errors.push(`${attPrefix} ended_at must be null or a valid ISO date string`);
+          }
+          const allowedAttemptStatuses = ['running', 'completed', 'failed', 'blocked', 'needs_human', 'aborted'];
+          if (!allowedAttemptStatuses.includes(att.status)) {
+            errors.push(`${attPrefix} status must be one of [${allowedAttemptStatuses.join(', ')}], got "${att.status}"`);
+          }
+          if (typeof att.summary !== 'string') {
+            errors.push(`${attPrefix} summary must be a string`);
+          }
+          if (att.evidence_file !== null && att.evidence_file !== undefined && typeof att.evidence_file !== 'string') {
+            errors.push(`${attPrefix} evidence_file must be null or a string`);
+          }
+          if (att.dirty_files && !Array.isArray(att.dirty_files)) {
+            errors.push(`${attPrefix} dirty_files must be an array of strings`);
+          } else if (att.dirty_files) {
+            att.dirty_files.forEach((df, dfIdx) => {
+              if (typeof df !== 'string') {
+                errors.push(`${attPrefix}.dirty_files[${dfIdx}] must be a string`);
+              }
+            });
+          }
+        });
       }
       if (!isValidIsoDate(task.created_at)) {
         errors.push(`${prefix} created_at is not a valid ISO date string`);
@@ -385,7 +455,7 @@ function parseGitPorcelain(stdout) {
 // Main logic routing
 if (!command) {
   console.error('Usage: node scripts/agent-kernel.cjs <command> [--json]');
-  console.error('Available commands: status, doctor, inspect-git, print-context, validate-protocol, init-state, state, validate-state, add-task, lock-status, unlock');
+  console.error('Available commands: status, doctor, inspect-git, print-context, validate-protocol, init-state, state, validate-state, add-task, lock-status, unlock, claim, complete, fail, blocked, needs-human, abort');
   process.exit(1);
 }
 
@@ -465,6 +535,7 @@ switch (command) {
     const stateInitialized = fs.existsSync(spoolFile);
     let spoolRevision = null;
     let taskCount = 0;
+    let runningTaskId = null;
     const taskCountsByStatus = {};
     if (stateInitialized) {
       try {
@@ -473,6 +544,9 @@ switch (command) {
         taskCount = spool.tasks.length;
         spool.tasks.forEach(t => {
           taskCountsByStatus[t.status] = (taskCountsByStatus[t.status] || 0) + 1;
+          if (t.status === 'running') {
+            runningTaskId = t.task_id;
+          }
         });
       } catch (_) {}
     }
@@ -499,6 +573,7 @@ switch (command) {
       spool_revision: spoolRevision,
       task_count: taskCount,
       task_counts_by_status: taskCountsByStatus,
+      running_task_id: runningTaskId,
       is_locked: locked,
       is_stale_lock: isStaleLock,
       lock_metadata: lockMetadata
@@ -526,6 +601,9 @@ switch (command) {
         Object.entries(output.task_counts_by_status).forEach(([s, count]) => {
           console.log(`    - ${s}: ${count}`);
         });
+        if (output.running_task_id) {
+          console.log(`  Running Task:   ${output.running_task_id}`);
+        }
       }
       console.log(`Locked:          ${output.is_locked}`);
       if (output.is_locked) {
@@ -574,6 +652,7 @@ switch (command) {
     // 6. State Spool Health (if exists)
     let spoolPass = true;
     let spoolDetail = 'No state spool initialized yet';
+    let runningCount = 0;
     if (fs.existsSync(spoolFile)) {
       try {
         const raw = fs.readFileSync(spoolFile, 'utf8');
@@ -583,6 +662,7 @@ switch (command) {
           spoolPass = false;
           spoolDetail = `Schema validation failed: ${errors.join(', ')}`;
         } else {
+          runningCount = parsed.tasks.filter(t => t.status === 'running').length;
           spoolPass = true;
           spoolDetail = `Valid (Revision ${parsed.spool_revision}, Tasks: ${parsed.tasks.length})`;
         }
@@ -608,7 +688,12 @@ switch (command) {
     }
     checks.push({ name: 'Lock Health', pass: lockPass, detail: lockDetail });
 
-    // 8. Required active docs exist
+    // 8. Active Run Limit Check (ensure <= 1 running task)
+    let runLimitPass = runningCount <= 1;
+    let runLimitDetail = runningCount <= 1 ? `Active running tasks: ${runningCount}` : `Violation: ${runningCount} tasks are currently running`;
+    checks.push({ name: 'Active Run Limit', pass: runLimitPass, detail: runLimitDetail });
+
+    // 9. Required active docs exist
     const requiredDocs = [
       'AGENTS.md',
       'CLAUDE.md',
@@ -624,7 +709,7 @@ switch (command) {
       detail: missingDocs.length === 0 ? 'All active protocol and status documents present' : `Missing docs: ${missingDocs.join(', ')}`
     });
 
-    // 9. .gitignore contains runtime ignore rules
+    // 10. .gitignore contains runtime ignore rules
     const gitignorePath = path.join(repoRoot, '.gitignore');
     let gitignorePass = false;
     let gitignoreDetail = '.gitignore file missing';
@@ -643,12 +728,12 @@ switch (command) {
     }
     checks.push({ name: 'Gitignore Setup', pass: gitignorePass, detail: gitignoreDetail });
 
-    // 10. .gitattributes exists
+    // 11. .gitattributes exists
     const gitattributesPath = path.join(repoRoot, '.gitattributes');
     const gitattributesExists = fs.existsSync(gitattributesPath);
     checks.push({ name: 'Gitattributes Setup', pass: gitattributesExists, detail: gitattributesExists ? 'Present' : '.gitattributes missing' });
 
-    // 11. Protocol size limits pass
+    // 12. Protocol size limits pass
     const limits = [
       { file: 'docs/agents/AGENT_HANDOFF.md', limit: 5120, label: 'AGENT_HANDOFF.md (<5KB)' },
       { file: 'docs/agents/TASK_PROTOCOL.md', limit: 3072, label: 'TASK_PROTOCOL.md (<3KB)' },
@@ -811,6 +896,27 @@ switch (command) {
           console.log(`      Agent:     ${task.target_agent}`);
           console.log(`      Branch:    ${task.branch}`);
           console.log(`      Goal:      ${task.goal}`);
+          if (task.owner_agent) {
+            console.log(`      Owner:     ${task.owner_agent}`);
+          }
+          if (task.started_at) {
+            console.log(`      Started:   ${task.started_at}`);
+          }
+          if (task.completed_at) {
+            console.log(`      Completed: ${task.completed_at}`);
+          }
+          if (task.attempts && task.attempts.length > 0) {
+            console.log(`      Attempts (${task.attempts.length}):`);
+            task.attempts.forEach(att => {
+              console.log(`        - Att #${att.attempt_id}: status: ${att.status}, started: ${att.started_at}, ended: ${att.ended_at || 'active'}, summary: "${att.summary}"`);
+              if (att.evidence_file) {
+                console.log(`          evidence: ${att.evidence_file}`);
+              }
+              if (att.dirty_files && att.dirty_files.length > 0) {
+                console.log(`          files: [${att.dirty_files.join(', ')}]`);
+              }
+            });
+          }
         });
       }
     }
@@ -1050,8 +1156,645 @@ switch (command) {
     break;
   }
 
+  case 'claim': {
+    if (!argTaskId || !argAgent) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Missing --task <id> or --agent <agent> arguments' }));
+      } else {
+        console.error('Error: Missing --task <id> or --agent <agent> arguments');
+      }
+      process.exit(1);
+    }
+
+    acquireLock('claim');
+    const spool = readSpool();
+    const task = spool.tasks.find(t => t.task_id === argTaskId);
+    if (!task) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Task "${argTaskId}" not found in spool` }));
+      } else {
+        console.error(`Error: Task "${argTaskId}" not found in spool`);
+      }
+      process.exit(1);
+    }
+
+    if (task.status !== 'pending') {
+      releaseLock();
+      const msg = `Task "${argTaskId}" cannot be claimed: status is "${task.status}" (expected "pending")`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (task.target_agent !== 'any' && task.target_agent !== argAgent) {
+      releaseLock();
+      const msg = `Task "${argTaskId}" cannot be claimed by agent "${argAgent}": target_agent is "${task.target_agent}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    const statusResult = runGit(['status', '--porcelain=v2', '--branch'], repoRoot);
+    if (statusResult.status !== 0) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Git status execution failed' }));
+      } else {
+        console.error('Error: Git status execution failed');
+      }
+      process.exit(1);
+    }
+    const gitState = parseGitPorcelain(statusResult.stdout);
+
+    if (gitState.branch !== task.branch) {
+      releaseLock();
+      const msg = `Branch mismatch.\nCurrent branch: ${gitState.branch}\nExpected branch: ${task.branch}\nSwitch branches manually only after confirming the working tree is clean.`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (gitState.branch === 'main' || gitState.branch === 'master') {
+      releaseLock();
+      const msg = `Cannot operate on protected branch "${gitState.branch}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (!gitState.isClean) {
+      releaseLock();
+      const msg = `Cannot claim task: working tree is dirty. Tracked dirty: ${gitState.dirtyFiles.length}, Untracked: ${gitState.untrackedFiles.length}`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg, dirty_files: gitState.dirtyFiles, untracked_files: gitState.untrackedFiles }));
+      } else {
+        console.error(`Error: ${msg}`);
+        gitState.dirtyFiles.forEach(f => console.error(`  [Dirty]   ${f}`));
+        gitState.untrackedFiles.forEach(f => console.error(`  [Untrak]  ${f}`));
+      }
+      process.exit(1);
+    }
+
+    const runningTask = spool.tasks.find(t => t.status === 'running');
+    if (runningTask) {
+      releaseLock();
+      const msg = `Cannot claim task: task "${runningTask.task_id}" is currently running. Only one task can run concurrently.`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    const nowStr = new Date().toISOString();
+    task.status = 'running';
+    task.owner_agent = argAgent;
+    task.started_at = nowStr;
+    task.updated_at = nowStr;
+
+    task.attempts.push({
+      attempt_id: task.attempts.length + 1,
+      started_at: nowStr,
+      ended_at: null,
+      status: 'running',
+      summary: '',
+      evidence_file: null,
+      dirty_files: []
+    });
+
+    spool.spool_revision += 1;
+    spool.updated_at = nowStr;
+
+    writeSpoolAtomic(spool, 'claim', task.task_id, 'task_claimed', { task_id: task.task_id, agent: argAgent });
+
+    if (isJson) {
+      console.log(JSON.stringify({ success: true, task }));
+    } else {
+      console.log(`Task "${task.task_id}" successfully claimed by agent "${argAgent}".`);
+    }
+    process.exit(0);
+    break;
+  }
+
+  case 'complete': {
+    if (!argTaskId || !argAgent || !argSummary || !argEvidenceFile) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Missing --task <id>, --agent <agent>, --summary "<text>" or --evidence-file <path> arguments' }));
+      } else {
+        console.error('Error: Missing --task <id>, --agent <agent>, --summary "<text>" or --evidence-file <path> arguments');
+      }
+      process.exit(1);
+    }
+
+    acquireLock('complete');
+    const spool = readSpool();
+    const task = spool.tasks.find(t => t.task_id === argTaskId);
+    if (!task) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Task "${argTaskId}" not found in spool` }));
+      } else {
+        console.error(`Error: Task "${argTaskId}" not found in spool`);
+      }
+      process.exit(1);
+    }
+
+    if (task.status !== 'running') {
+      releaseLock();
+      const msg = `Task "${argTaskId}" is not running (current status: "${task.status}")`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (task.owner_agent !== argAgent) {
+      releaseLock();
+      const msg = `Agent mismatch: Task "${argTaskId}" is owned by "${task.owner_agent}", caller is "${argAgent}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    const safety = checkInputFileSafety(argEvidenceFile);
+    if (!safety.valid) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Evidence file safety violation: ${safety.reason}` }));
+      } else {
+        console.error(`Error: Evidence file safety violation: ${safety.reason}`);
+      }
+      process.exit(1);
+    }
+
+    let fileContent;
+    try {
+      fileContent = fs.readFileSync(safety.resolved, 'utf8');
+    } catch (e) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Failed to read evidence file: ${e.message}` }));
+      } else {
+        console.error(`Error: Failed to read evidence file: ${e.message}`);
+      }
+      process.exit(1);
+    }
+
+    let evidence;
+    try {
+      evidence = JSON.parse(fileContent);
+    } catch (e) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Malformed evidence JSON: ${e.message}` }));
+      } else {
+        console.error(`Error: Malformed evidence JSON: ${e.message}`);
+      }
+      process.exit(1);
+    }
+
+    if (!evidence || typeof evidence !== 'object') {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Evidence must be a JSON object' }));
+      } else {
+        console.error('Error: Evidence must be a JSON object');
+      }
+      process.exit(1);
+    }
+
+    if (evidence.task_id !== argTaskId) {
+      releaseLock();
+      const msg = `Evidence task_id mismatch: got "${evidence.task_id}", expected "${argTaskId}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (!Array.isArray(evidence.commands)) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Evidence must contain a "commands" array' }));
+      } else {
+        console.error('Error: Evidence must contain a "commands" array');
+      }
+      process.exit(1);
+    }
+
+    const missingChecks = [];
+    task.required_checks.forEach(check => {
+      const match = evidence.commands.find(c => c && c.name === check.name);
+      if (!match) {
+        missingChecks.push(`Required check "${check.name}" not reported in evidence`);
+      } else if (match.exit_code !== 0) {
+        missingChecks.push(`Required check "${check.name}" failed with non-zero exit_code: ${match.exit_code}`);
+      }
+    });
+
+    if (missingChecks.length > 0) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Check validation failed', details: missingChecks }));
+      } else {
+        console.error('Error: Required checks validation failed:');
+        missingChecks.forEach(mc => console.error(`  - ${mc}`));
+      }
+      process.exit(1);
+    }
+
+    const statusResult = runGit(['status', '--porcelain=v2', '--branch'], repoRoot);
+    if (statusResult.status !== 0) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Git status execution failed' }));
+      } else {
+        console.error('Error: Git status execution failed');
+      }
+      process.exit(1);
+    }
+    const gitState = parseGitPorcelain(statusResult.stdout);
+
+    if (gitState.untrackedFiles.length > 0) {
+      releaseLock();
+      const msg = `Cannot complete task: untracked non-ignored source files present: ${gitState.untrackedFiles.length}`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg, untracked_files: gitState.untrackedFiles }));
+      } else {
+        console.error(`Error: ${msg}`);
+        gitState.untrackedFiles.forEach(f => console.error(`  - ${f}`));
+      }
+      process.exit(1);
+    }
+
+    const outOfScopeFiles = [];
+    gitState.dirtyFiles.forEach(file => {
+      if (!fileMatchesPatterns(file, task.allowed_files)) {
+        outOfScopeFiles.push(file);
+      }
+    });
+
+    if (outOfScopeFiles.length > 0) {
+      releaseLock();
+      const msg = `Cannot complete task: modified files outside allowed_files scope detected. Please mark task as needs-human.`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg, disallowed_files: outOfScopeFiles }));
+      } else {
+        console.error(`Error: ${msg}`);
+        outOfScopeFiles.forEach(f => console.error(`  - [DISALLOWED] ${f}`));
+        console.error(`Suggest running: node scripts/agent-kernel.cjs needs-human --task ${task.task_id} --agent ${argAgent} --reason "Dirty files outside allowed scope."`);
+      }
+      process.exit(1);
+    }
+
+    const nowStr = new Date().toISOString();
+    task.status = 'completed';
+    task.completed_at = nowStr;
+    task.updated_at = nowStr;
+
+    const activeAttempt = task.attempts[task.attempts.length - 1];
+    if (activeAttempt && activeAttempt.status === 'running') {
+      activeAttempt.ended_at = nowStr;
+      activeAttempt.status = 'completed';
+      activeAttempt.summary = argSummary;
+      activeAttempt.evidence_file = argEvidenceFile;
+      activeAttempt.dirty_files = gitState.dirtyFiles;
+    }
+
+    spool.spool_revision += 1;
+    spool.updated_at = nowStr;
+
+    writeSpoolAtomic(spool, 'complete', task.task_id, 'task_completed', { task_id: task.task_id, agent: argAgent });
+
+    if (isJson) {
+      console.log(JSON.stringify({ success: true, task }));
+    } else {
+      console.log(`Task "${task.task_id}" successfully completed by agent "${argAgent}".`);
+    }
+    process.exit(0);
+    break;
+  }
+
+  case 'fail': {
+    if (!argTaskId || !argAgent || !argSummary) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Missing --task <id>, --agent <agent> or --summary "<text>" arguments' }));
+      } else {
+        console.error('Error: Missing --task <id>, --agent <agent> or --summary "<text>" arguments');
+      }
+      process.exit(1);
+    }
+
+    acquireLock('fail');
+    const spool = readSpool();
+    const task = spool.tasks.find(t => t.task_id === argTaskId);
+    if (!task) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Task "${argTaskId}" not found in spool` }));
+      } else {
+        console.error(`Error: Task "${argTaskId}" not found in spool`);
+      }
+      process.exit(1);
+    }
+
+    if (task.status !== 'running') {
+      releaseLock();
+      const msg = `Task "${argTaskId}" is not running (current status: "${task.status}")`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (task.owner_agent !== argAgent) {
+      releaseLock();
+      const msg = `Agent mismatch: Task "${argTaskId}" is owned by "${task.owner_agent}", caller is "${argAgent}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (argEvidenceFile) {
+      const safety = checkInputFileSafety(argEvidenceFile);
+      if (!safety.valid) {
+        releaseLock();
+        if (isJson) {
+          console.log(JSON.stringify({ error: `Evidence file safety violation: ${safety.reason}` }));
+        } else {
+          console.error(`Error: Evidence file safety violation: ${safety.reason}`);
+        }
+        process.exit(1);
+      }
+    }
+
+    const statusResult = runGit(['status', '--porcelain=v2', '--branch'], repoRoot);
+    const gitState = statusResult.status === 0 ? parseGitPorcelain(statusResult.stdout) : { dirtyFiles: [] };
+
+    const nowStr = new Date().toISOString();
+    task.status = 'failed';
+    task.updated_at = nowStr;
+
+    const activeAttempt = task.attempts[task.attempts.length - 1];
+    if (activeAttempt && activeAttempt.status === 'running') {
+      activeAttempt.ended_at = nowStr;
+      activeAttempt.status = 'failed';
+      activeAttempt.summary = argSummary;
+      activeAttempt.evidence_file = argEvidenceFile || null;
+      activeAttempt.dirty_files = gitState.dirtyFiles;
+    }
+
+    spool.spool_revision += 1;
+    spool.updated_at = nowStr;
+
+    writeSpoolAtomic(spool, 'fail', task.task_id, 'task_failed', { task_id: task.task_id, agent: argAgent });
+
+    if (isJson) {
+      console.log(JSON.stringify({ success: true, task }));
+    } else {
+      console.log(`Task "${task.task_id}" marked as FAILED by agent "${argAgent}".`);
+    }
+    process.exit(0);
+    break;
+  }
+
+  case 'blocked': {
+    if (!argTaskId || !argAgent || !argReason) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Missing --task <id>, --agent <agent> or --reason "<text>" arguments' }));
+      } else {
+        console.error('Error: Missing --task <id>, --agent <agent> or --reason "<text>" arguments');
+      }
+      process.exit(1);
+    }
+
+    acquireLock('blocked');
+    const spool = readSpool();
+    const task = spool.tasks.find(t => t.task_id === argTaskId);
+    if (!task) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Task "${argTaskId}" not found in spool` }));
+      } else {
+        console.error(`Error: Task "${argTaskId}" not found in spool`);
+      }
+      process.exit(1);
+    }
+
+    if (task.status !== 'pending' && task.status !== 'running') {
+      releaseLock();
+      const msg = `Task "${argTaskId}" must be pending or running to mark blocked (current status: "${task.status}")`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    const statusResult = runGit(['status', '--porcelain=v2', '--branch'], repoRoot);
+    const gitState = statusResult.status === 0 ? parseGitPorcelain(statusResult.stdout) : { dirtyFiles: [] };
+
+    const nowStr = new Date().toISOString();
+    
+    if (task.status === 'running') {
+      const activeAttempt = task.attempts[task.attempts.length - 1];
+      if (activeAttempt && activeAttempt.status === 'running') {
+        activeAttempt.ended_at = nowStr;
+        activeAttempt.status = 'blocked';
+        activeAttempt.summary = argReason;
+        activeAttempt.dirty_files = gitState.dirtyFiles;
+      }
+    }
+
+    task.status = 'blocked';
+    task.updated_at = nowStr;
+
+    spool.spool_revision += 1;
+    spool.updated_at = nowStr;
+
+    writeSpoolAtomic(spool, 'blocked', task.task_id, 'task_blocked', { task_id: task.task_id, agent: argAgent, reason: argReason });
+
+    if (isJson) {
+      console.log(JSON.stringify({ success: true, task }));
+    } else {
+      console.log(`Task "${task.task_id}" marked as BLOCKED by agent "${argAgent}". Reason: ${argReason}`);
+    }
+    process.exit(0);
+    break;
+  }
+
+  case 'needs-human': {
+    if (!argTaskId || !argAgent || !argReason) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Missing --task <id>, --agent <agent> or --reason "<text>" arguments' }));
+      } else {
+        console.error('Error: Missing --task <id>, --agent <agent> or --reason "<text>" arguments');
+      }
+      process.exit(1);
+    }
+
+    acquireLock('needs-human');
+    const spool = readSpool();
+    const task = spool.tasks.find(t => t.task_id === argTaskId);
+    if (!task) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Task "${argTaskId}" not found in spool` }));
+      } else {
+        console.error(`Error: Task "${argTaskId}" not found in spool`);
+      }
+      process.exit(1);
+    }
+
+    if (task.status === 'completed' || task.status === 'aborted') {
+      releaseLock();
+      const msg = `Task "${argTaskId}" cannot be transitioned to needs_human because status is "${task.status}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    const statusResult = runGit(['status', '--porcelain=v2', '--branch'], repoRoot);
+    const gitState = statusResult.status === 0 ? parseGitPorcelain(statusResult.stdout) : { dirtyFiles: [] };
+
+    const nowStr = new Date().toISOString();
+    
+    if (task.status === 'running') {
+      const activeAttempt = task.attempts[task.attempts.length - 1];
+      if (activeAttempt && activeAttempt.status === 'running') {
+        activeAttempt.ended_at = nowStr;
+        activeAttempt.status = 'needs_human';
+        activeAttempt.summary = argReason;
+        activeAttempt.dirty_files = gitState.dirtyFiles;
+      }
+    }
+
+    task.status = 'needs_human';
+    task.updated_at = nowStr;
+
+    spool.spool_revision += 1;
+    spool.updated_at = nowStr;
+
+    writeSpoolAtomic(spool, 'needs-human', task.task_id, 'task_needs_human', { task_id: task.task_id, agent: argAgent, reason: argReason });
+
+    if (isJson) {
+      console.log(JSON.stringify({ success: true, task }));
+    } else {
+      console.log(`Task "${task.task_id}" marked as NEEDS_HUMAN by agent "${argAgent}". Reason: ${argReason}`);
+    }
+    process.exit(0);
+    break;
+  }
+
+  case 'abort': {
+    if (!argTaskId || !argAgent || !argReason) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Missing --task <id>, --agent <agent> or --reason "<text>" arguments' }));
+      } else {
+        console.error('Error: Missing --task <id>, --agent <agent> or --reason "<text>" arguments');
+      }
+      process.exit(1);
+    }
+
+    if (argAgent !== 'human') {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Abort command is restricted strictly to --agent human' }));
+      } else {
+        console.error('Error: Abort command is restricted strictly to --agent human');
+      }
+      process.exit(1);
+    }
+
+    acquireLock('abort');
+    const spool = readSpool();
+    const task = spool.tasks.find(t => t.task_id === argTaskId);
+    if (!task) {
+      releaseLock();
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Task "${argTaskId}" not found in spool` }));
+      } else {
+        console.error(`Error: Task "${argTaskId}" not found in spool`);
+      }
+      process.exit(1);
+    }
+
+    if (task.status === 'completed' || task.status === 'aborted') {
+      releaseLock();
+      const msg = `Task "${argTaskId}" cannot be aborted because status is "${task.status}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    const statusResult = runGit(['status', '--porcelain=v2', '--branch'], repoRoot);
+    const gitState = statusResult.status === 0 ? parseGitPorcelain(statusResult.stdout) : { dirtyFiles: [] };
+
+    const nowStr = new Date().toISOString();
+    
+    if (task.status === 'running') {
+      const activeAttempt = task.attempts[task.attempts.length - 1];
+      if (activeAttempt && activeAttempt.status === 'running') {
+        activeAttempt.ended_at = nowStr;
+        activeAttempt.status = 'aborted';
+        activeAttempt.summary = argReason;
+        activeAttempt.dirty_files = gitState.dirtyFiles;
+      }
+    }
+
+    task.status = 'aborted';
+    task.updated_at = nowStr;
+
+    spool.spool_revision += 1;
+    spool.updated_at = nowStr;
+
+    writeSpoolAtomic(spool, 'abort', task.task_id, 'task_aborted', { task_id: task.task_id, agent: 'human', reason: argReason });
+
+    if (isJson) {
+      console.log(JSON.stringify({ success: true, task }));
+    } else {
+      console.log(`Task "${task.task_id}" permanently ABORTED by human. Reason: ${argReason}`);
+    }
+    process.exit(0);
+    break;
+  }
+
   default:
     console.error(`Unknown command: ${command}`);
-    console.error('Available commands: status, doctor, inspect-git, print-context, validate-protocol, init-state, state, validate-state, add-task, lock-status, unlock');
+    console.error('Available commands: status, doctor, inspect-git, print-context, validate-protocol, init-state, state, validate-state, add-task, lock-status, unlock, claim, complete, fail, blocked, needs-human, abort');
     process.exit(1);
 }
+
+
