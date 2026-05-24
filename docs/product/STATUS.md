@@ -315,8 +315,8 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 54
-**`it` / `test` calls (approximate):** 546
+**Test files:** 56
+**`it` / `test` calls (approximate):** 562
 
 ```
 src/__tests__/App.test.tsx
@@ -329,6 +329,7 @@ src/analysis/__tests__/financials.test.ts
 src/analysis/__tests__/headsUpPushFoldReference.test.ts
 src/analysis/__tests__/icmDetector.test.ts
 src/analysis/__tests__/leakDetector.test.ts
+src/analysis/__tests__/math.test.ts
 src/analysis/__tests__/positionStats.test.ts
 src/analysis/__tests__/postflopAnalyzer.test.ts
 src/analysis/__tests__/proofHandSelector.test.ts
@@ -373,6 +374,7 @@ src/parser/__tests__/sanitizeHandHistory.test.ts
 src/parser/__tests__/siteIdentifier.test.ts
 src/parser/__tests__/uploadSizeGuards.test.ts
 src/parser/__tests__/workerImportSummary.test.ts
+src/utils/__tests__/evidence.test.ts
 ```
 <!-- END:AUTOGEN:tests -->
 
