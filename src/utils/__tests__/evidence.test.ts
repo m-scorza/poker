@@ -58,5 +58,10 @@ describe('evidence metadata utilities', () => {
       // postflop_ prefix overrides isPreflopRule match
       expect(getEvidenceMetadata('postflop_vpip').label).toBe('proxy-model');
     });
+
+    it('handles fallback default outcome correctly', () => {
+      const res = getEvidenceMetadata('completely-unknown-metric');
+      expect(res.label).toBe('proxy-model');
+    });
   });
 });
