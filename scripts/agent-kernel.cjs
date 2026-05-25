@@ -48,11 +48,15 @@ if (gitCheck.status === 0 && gitCheck.stdout === 'true') {
 }
 
 // State paths configuration
-const stateDir = inGitRepo && repoRoot ? path.join(repoRoot, '.agents', 'state') : '';
-const spoolFile = inGitRepo && repoRoot ? path.join(stateDir, 'task_spool.json') : '';
-const tmpSpoolFile = inGitRepo && repoRoot ? path.join(stateDir, 'task_spool.tmp') : '';
-const lockFile = inGitRepo && repoRoot ? path.join(stateDir, 'spool.lock') : '';
-const eventLogFile = inGitRepo && repoRoot ? path.join(stateDir, 'events.ndjson') : '';
+const stateRoot = process.env.AGENT_KERNEL_STATE_ROOT
+  ? path.resolve(process.env.AGENT_KERNEL_STATE_ROOT)
+  : (inGitRepo && repoRoot ? repoRoot : '');
+
+const stateDir = stateRoot ? path.join(stateRoot, '.agents', 'state') : '';
+const spoolFile = stateRoot ? path.join(stateDir, 'task_spool.json') : '';
+const tmpSpoolFile = stateRoot ? path.join(stateDir, 'task_spool.tmp') : '';
+const lockFile = stateRoot ? path.join(stateDir, 'spool.lock') : '';
+const eventLogFile = stateRoot ? path.join(stateDir, 'events.ndjson') : '';
 
 // Validation Helpers
 function isValidIsoDate(str) {
@@ -555,11 +559,11 @@ switch (command) {
 
     // Check for state violations outside of state/
     const forbiddenPaths = [
-      path.join(repoRoot, '.agents', 'spool.lock'),
-      path.join(repoRoot, '.agents', 'events.ndjson'),
-      path.join(repoRoot, 'task_spool.json')
+      path.join(stateRoot, '.agents', 'spool.lock'),
+      path.join(stateRoot, '.agents', 'events.ndjson'),
+      path.join(stateRoot, 'task_spool.json')
     ];
-    const presentForbidden = forbiddenPaths.filter(p => fs.existsSync(p)).map(p => path.relative(repoRoot, p));
+    const presentForbidden = forbiddenPaths.filter(p => fs.existsSync(p)).map(p => path.relative(stateRoot, p));
 
     // Runtime state checks
     const stateInitialized = fs.existsSync(spoolFile);
@@ -668,9 +672,9 @@ switch (command) {
 
     // 5. Forbidden runtime state paths do not exist
     const forbiddenPaths = [
-      { path: path.join(repoRoot, '.agents', 'spool.lock'), name: '.agents/spool.lock (outside state/)' },
-      { path: path.join(repoRoot, '.agents', 'events.ndjson'), name: '.agents/events.ndjson (outside state/)' },
-      { path: path.join(repoRoot, 'task_spool.json'), name: 'task_spool.json (outside state/)' }
+      { path: path.join(stateRoot, '.agents', 'spool.lock'), name: '.agents/spool.lock (outside state/)' },
+      { path: path.join(stateRoot, '.agents', 'events.ndjson'), name: '.agents/events.ndjson (outside state/)' },
+      { path: path.join(stateRoot, 'task_spool.json'), name: 'task_spool.json (outside state/)' }
     ];
     const presentForbidden = forbiddenPaths.filter(p => fs.existsSync(p.path));
     checks.push({
