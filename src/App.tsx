@@ -13,7 +13,7 @@ const SessionsPage = lazy(() => import('./pages/SessionsPage').then(m => ({ defa
 const VillainsPage = lazy(() => import('./pages/VillainsPage').then(m => ({ default: m.VillainsPage })));
 const ArenaPage = lazy(() => import('./pages/ArenaPage').then(m => ({ default: m.ArenaPage })));
 const CareerPage = lazy(() => import('./pages/CareerPage').then(m => ({ default: m.CareerPage })));
-const PricingPage = lazy(() => import('./pages/PricingPage').then(m => ({ default: m.PricingPage })));
+const DemoPage = lazy(() => import('./pages/DemoPage').then(m => ({ default: m.DemoPage })));
 
 function PageLoader() {
   return (
@@ -57,7 +57,7 @@ export function AppRoutes() {
         <Route element={<Layout />}>
           <Route path="/" element={page(<DashboardPage />)} />
           <Route path="/career" element={page(<CareerPage />)} />
-          <Route path="/pricing" element={page(<PricingPage />)} />
+          <Route path="/demo" element={page(<DemoPage />)} />
           <Route path="/hands" element={page(<HandsPage />)} />
           <Route path="/stats" element={page(<StatsPage />)} />
           <Route path="/ranges" element={page(<RangesPage />)} />

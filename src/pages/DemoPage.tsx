@@ -40,7 +40,7 @@ const STEPS = [
   },
 ];
 
-export function PricingPage() {
+export function DemoPage() {
   return (
     <div className="space-y-10 pb-20">
       <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#10151f] via-[#0b0d12] to-black p-8 shadow-2xl lg:p-10">

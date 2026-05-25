@@ -196,9 +196,9 @@ are stale. Do not edit by hand.
 | `/` | `DashboardPage` |
 | `/arena` | `ArenaPage` |
 | `/career` | `CareerPage` |
+| `/demo` | `DemoPage` |
 | `/hands` | `HandsPage` |
 | `/leaks` | `LeaksPage` |
-| `/pricing` | `PricingPage` |
 | `/ranges` | `RangesPage` |
 | `/sessions` | `SessionsPage` |
 | `/stats` | `StatsPage` |
@@ -263,9 +263,9 @@ src/pages/  (10 files)
   pages/ArenaPage.tsx
   pages/CareerPage.tsx
   pages/DashboardPage.tsx
+  pages/DemoPage.tsx
   pages/HandsPage.tsx
   pages/LeaksPage.tsx
-  pages/PricingPage.tsx
   pages/RangesPage.tsx
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
