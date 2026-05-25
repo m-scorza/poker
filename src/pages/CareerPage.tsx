@@ -28,7 +28,7 @@ import type { VillainProfile } from '../types/villain';
 import { 
   History, Trophy, TrendingUp, AlertTriangle, 
   Calendar, TableProperties, Swords, Flame, 
-  DollarSign, UserX, ExternalLink 
+  DollarSign, UserX, ExternalLink, Users
 } from 'lucide-react';
 import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash } from '../analysis/financials';
 import { sumUsd } from '../parser/money';
@@ -171,6 +171,48 @@ export function CareerPage() {
       .sort((a, b) => b.amountBb - a.amountBb)
       .slice(0, 8);
   }, [hands, villains]);
+
+  const topVictims = useMemo(() => {
+    const villainMap = new Map(villains.map(v => [v.playerName, v]));
+    const victimsMap = new Map<string, number>();
+    for (const h of hands) {
+      if (!h.villainDeltas || h.bigBlind <= 0) continue;
+      for (const v of h.villainDeltas) {
+        if (v.net < 0) {
+          victimsMap.set(v.name, (victimsMap.get(v.name) || 0) + Math.abs(v.net) / h.bigBlind);
+        }
+      }
+    }
+    return Array.from(victimsMap.entries())
+      .map(([name, amountBb]) => {
+        const vProf = villainMap.get(name);
+        return {
+          name,
+          amountBb,
+          archetype: vProf?.archetype || null,
+          confidence: vProf?.archetypeConfidence || null,
+          handsCount: vProf?.totalHands || 0,
+          notesCount: (vProf?.notes ? 1 : 0) + (vProf?.tags?.length || 0),
+        };
+      })
+      .sort((a, b) => b.amountBb - a.amountBb)
+      .slice(0, 8);
+  }, [hands, villains]);
+
+  const topOverlap = useMemo(() => {
+    return [...villains]
+      .sort((a, b) => b.totalHands - a.totalHands)
+      .slice(0, 8)
+      .map(v => ({
+        name: v.playerName,
+        handsCount: v.totalHands,
+        archetype: v.archetype,
+        confidence: v.archetypeConfidence,
+        notesCount: (v.notes ? 1 : 0) + (v.tags?.length || 0),
+        vpip: v.stats.vpip,
+        pfr: v.stats.pfr
+      }));
+  }, [villains]);
 
   const bigHands = useMemo(() => {
     const handById = new Map(hands.map((hand) => [hand.id, hand]));
@@ -443,7 +485,8 @@ export function CareerPage() {
       )}
 
       {activeTab === 'nemesis' && (
-        <div className="space-y-6">
+        <div className="space-y-8">
+          {/* Global Predators */}
           <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl bg-[#0f172a]">
              <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between text-rose-400">
                 <h3 className="text-xs font-black uppercase tracking-widest flex items-center gap-2">
@@ -452,41 +495,135 @@ export function CareerPage() {
                 <span className="text-[10px] font-bold uppercase tracking-wider text-rose-400/70">Most BB Won From Hero</span>
              </div>
              {topNemesis.length === 0 ? (
-               <div className="p-8 text-center text-[var(--color-text-dim)]">
-                 No opponent exposure recorded. Keep importing hands to track predators.
-               </div>
+                <div className="p-8 text-center text-[var(--color-text-dim)]">
+                  No predator exposure recorded. Keep importing hands to track predators.
+                </div>
              ) : (
-               <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {topNemesis.map((v, i) => (
-                     <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.02] border border-white/5 group hover:border-rose-500/30 transition-all">
-                        <div className="flex items-center gap-4">
-                           <span className="text-xl font-black text-rose-500/30 font-data">#{i+1}</span>
-                           <div className="flex flex-col">
-                              <span className="font-data font-black text-white text-base tracking-tight uppercase group-hover:text-rose-400 transition-colors">{v.name}</span>
-                              <div className="flex items-center gap-2 mt-1.5">
-                                 {v.archetype && (
-                                   <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-rose-950/40 text-rose-400 uppercase tracking-wider border border-rose-500/20">
-                                      {v.archetype}
-                                   </span>
-                                 )}
-                                 <span className="text-[9px] text-[var(--color-text-dim)] font-bold uppercase">
-                                    {v.handsCount} hands observed
-                                 </span>
-                                 {v.notesCount > 0 && (
-                                   <span className="text-[9px] text-amber-400 font-bold bg-amber-950/20 px-1.5 py-0.5 rounded flex items-center gap-0.5 border border-amber-500/10">
-                                     ✏️ {v.notesCount}
-                                   </span>
-                                 )}
-                              </div>
-                           </div>
-                        </div>
-                        <div className="flex flex-col items-end">
-                           <span className="font-data text-rose-400 font-black text-lg">-{v.amountBb.toFixed(1)} bb</span>
-                           <span className="text-[9px] text-white/30 uppercase tracking-widest font-bold mt-1">Loss exposure</span>
-                        </div>
-                     </div>
-                  ))}
-               </div>
+                <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                   {topNemesis.map((v, i) => (
+                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.02] border border-white/5 group hover:border-rose-500/30 transition-all">
+                         <div className="flex items-center gap-4">
+                            <span className="text-xl font-black text-rose-500/30 font-data">#{i+1}</span>
+                            <div className="flex flex-col">
+                               <span className="font-data font-black text-white text-base tracking-tight uppercase group-hover:text-rose-400 transition-colors">{v.name}</span>
+                               <div className="flex items-center gap-2 mt-1.5">
+                                  {v.archetype && (
+                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-rose-950/40 text-rose-400 uppercase tracking-wider border border-rose-500/20">
+                                       {v.archetype}
+                                    </span>
+                                  )}
+                                  <span className="text-[9px] text-[var(--color-text-dim)] font-bold uppercase">
+                                     {v.handsCount} hands observed
+                                  </span>
+                                  {v.notesCount > 0 && (
+                                    <span className="text-[9px] text-amber-400 font-bold bg-amber-950/20 px-1.5 py-0.5 rounded flex items-center gap-0.5 border border-amber-500/10">
+                                      ✏️ {v.notesCount}
+                                    </span>
+                                  )}
+                               </div>
+                            </div>
+                         </div>
+                         <div className="flex flex-col items-end">
+                            <span className="font-data text-rose-400 font-black text-lg">-{v.amountBb.toFixed(1)} bb</span>
+                            <span className="text-[9px] text-white/30 uppercase tracking-widest font-bold mt-1">Loss exposure</span>
+                         </div>
+                      </div>
+                   ))}
+                </div>
+             )}
+          </section>
+
+          {/* Global Prey */}
+          <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl bg-[#0f172a]">
+             <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between text-emerald-400">
+                <h3 className="text-xs font-black uppercase tracking-widest flex items-center gap-2">
+                   <Swords size={16} /> Global Prey
+                </h3>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400/70">Most BB Won By Hero</span>
+             </div>
+             {topVictims.length === 0 ? (
+                <div className="p-8 text-center text-[var(--color-text-dim)]">
+                  No victim exposure recorded. Keep importing hands to track prey.
+                </div>
+             ) : (
+                <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                   {topVictims.map((v, i) => (
+                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.02] border border-white/5 group hover:border-emerald-500/30 transition-all">
+                         <div className="flex items-center gap-4">
+                            <span className="text-xl font-black text-emerald-500/30 font-data">#{i+1}</span>
+                            <div className="flex flex-col">
+                               <span className="font-data font-black text-white text-base tracking-tight uppercase group-hover:text-emerald-400 transition-colors">{v.name}</span>
+                               <div className="flex items-center gap-2 mt-1.5">
+                                  {v.archetype && (
+                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-emerald-950/40 text-emerald-400 uppercase tracking-wider border border-emerald-500/20">
+                                       {v.archetype}
+                                    </span>
+                                  )}
+                                  <span className="text-[9px] text-[var(--color-text-dim)] font-bold uppercase">
+                                     {v.handsCount} hands observed
+                                  </span>
+                                  {v.notesCount > 0 && (
+                                    <span className="text-[9px] text-amber-400 font-bold bg-amber-950/20 px-1.5 py-0.5 rounded flex items-center gap-0.5 border border-amber-500/10">
+                                      ✏️ {v.notesCount}
+                                    </span>
+                                  )}
+                               </div>
+                            </div>
+                         </div>
+                         <div className="flex flex-col items-end">
+                            <span className="font-data text-emerald-400 font-black text-lg">+{v.amountBb.toFixed(1)} bb</span>
+                            <span className="text-[9px] text-white/30 uppercase tracking-widest font-bold mt-1">Win exposure</span>
+                         </div>
+                      </div>
+                   ))}
+                </div>
+             )}
+          </section>
+
+          {/* Opponent Overlap */}
+          <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl bg-[#0f172a]">
+             <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between text-blue-400">
+                <h3 className="text-xs font-black uppercase tracking-widest flex items-center gap-2">
+                   <Users size={16} /> Opponent Overlap
+                </h3>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-blue-400/70">Most Hands Played Against</span>
+             </div>
+             {topOverlap.length === 0 ? (
+                <div className="p-8 text-center text-[var(--color-text-dim)]">
+                  No opponent overlap recorded. Keep importing hands to track active opponents.
+                </div>
+             ) : (
+                <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                   {topOverlap.map((v, i) => (
+                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.02] border border-white/5 group hover:border-blue-500/30 transition-all">
+                         <div className="flex items-center gap-4">
+                            <span className="text-xl font-black text-blue-500/30 font-data">#{i+1}</span>
+                            <div className="flex flex-col">
+                               <span className="font-data font-black text-white text-base tracking-tight uppercase group-hover:text-blue-400 transition-colors">{v.name}</span>
+                               <div className="flex items-center gap-2 mt-1.5">
+                                  {v.archetype && (
+                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-blue-950/40 text-blue-400 uppercase tracking-wider border border-blue-500/20">
+                                       {v.archetype}
+                                    </span>
+                                  )}
+                                  <span className="text-[9px] text-[var(--color-text-dim)] font-bold uppercase">
+                                     VPIP/PFR: {(v.vpip * 100).toFixed(0)}/{(v.pfr * 100).toFixed(0)}
+                                  </span>
+                                  {v.notesCount > 0 && (
+                                    <span className="text-[9px] text-amber-400 font-bold bg-amber-950/20 px-1.5 py-0.5 rounded flex items-center gap-0.5 border border-amber-500/10">
+                                      ✏️ {v.notesCount}
+                                    </span>
+                                  )}
+                               </div>
+                            </div>
+                         </div>
+                         <div className="flex flex-col items-end">
+                            <span className="font-data text-blue-400 font-black text-lg">{v.handsCount}</span>
+                            <span className="text-[9px] text-white/30 uppercase tracking-widest font-bold mt-1">Hands observed</span>
+                         </div>
+                      </div>
+                   ))}
+                </div>
              )}
           </section>
         </div>

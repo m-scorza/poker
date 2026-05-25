@@ -129,7 +129,7 @@ Remaining (Batch 3 — structural):
 - [x] Route-level code splitting (React.lazy + Suspense) (Completed 2026-05-11)
 - [x] Component smoke tests (happy-dom + @testing-library/react) (Completed 2026-05-12)
 - [x] HandsPage decomposition (683 lines → extract hooks/components, added TanStack Virtual) (Completed 2026-05-11)
-- [ ] DualRangeMatrix cell memoization
+- [x] DualRangeMatrix cell memoization (Completed 2026-05-24)
 - [x] DashboardPage query optimization (split monolithic useLiveQuery) (Completed 2026-05-11)
 
 ---
