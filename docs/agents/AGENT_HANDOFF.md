@@ -38,6 +38,27 @@ All historical handoff records older than May 2026 are archived in [AGENT_HANDOF
 - Next action requested:
   - Review changes and merge to main when appropriate.
 
+## 2026-05-25 — Support AGENT_KERNEL_STATE_ROOT in Agent Kernel
+
+- Owner / agent: Antigravity
+- Branch: main
+- Scope:
+  - scripts/agent-kernel.cjs
+- Files touched:
+  - `scripts/agent-kernel.cjs`
+- Summary:
+  - Updated the agent kernel to recognize the `AGENT_KERNEL_STATE_ROOT` environment variable.
+  - Configured state directories (`.agents/state/` and `.agents/runs/`) to resolve relative to `AGENT_KERNEL_STATE_ROOT` when set.
+  - Adjusted forbidden path checks in both the `status` and `doctor` commands to use the state root path to preserve isolation diagnostics.
+- Verification:
+  - Initialized a custom state root using `AGENT_KERNEL_STATE_ROOT` and confirmed `task_spool.json` / `events.ndjson` are written to the custom path.
+  - Verified `doctor` diagnostics pass when run against initialized state under custom root.
+  - Ran `npx tsc -b --pretty false` (successful, clean exit).
+  - Ran `npm test` (586 tests across 56 files pass successfully).
+- Risks / assumptions:
+  - Future tools calling the kernel must set `AGENT_KERNEL_STATE_ROOT` to point to the desired central ledger directory.
+- Next action requested:
+  - Human to review, commit, and complete the PR.
 
 ## 2026-05-25 — Opponent Overlap and Roadmap Hygiene
 
