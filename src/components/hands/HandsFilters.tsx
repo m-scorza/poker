@@ -11,7 +11,7 @@ const SCENARIOS: Scenario[] = [
 const STACK_DEPTHS = ['deep', 'medium', 'short'] as const;
 export type StackDepth = typeof STACK_DEPTHS[number];
 
-const HAND_CATEGORIES = ['pairs', 'broadway', 'suited-connectors', 'suited-aces', 'offsuit'] as const;
+const HAND_CATEGORIES = ['pairs', 'broadway', 'suited-connectors', 'suited-aces', 'suited-gappers', 'offsuit'] as const;
 export type HandCategory = typeof HAND_CATEGORIES[number];
 
 const STACK_DEPTH_LABELS: Record<StackDepth, string> = {
@@ -25,6 +25,7 @@ const CATEGORY_LABELS: Record<HandCategory, string> = {
   broadway: 'Broadway',
   'suited-connectors': 'Suited Connectors',
   'suited-aces': 'Suited Aces',
+  'suited-gappers': 'Suited Gappers & Other',
   offsuit: 'Offsuit',
 };
 

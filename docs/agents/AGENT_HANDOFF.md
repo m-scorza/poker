@@ -19,6 +19,26 @@ All historical handoff records older than May 2026 are archived in [AGENT_HANDOF
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-05-30 — Fix getHandCategory suited gapper broadway fallthrough
+
+- Owner / agent:          Antigravity
+- Branch:                 task/hand-category-fallthrough-fix
+- Scope:                  src/pages/HandsPage.tsx, src/components/hands/HandsFilters.tsx
+- Files touched:
+  - `src/components/hands/HandsFilters.tsx` — added `'suited-gappers'` to `HAND_CATEGORIES` and mapped its label `'Suited Gappers & Other'` in `CATEGORY_LABELS`.
+  - `src/pages/HandsPage.tsx` — fixed `getHandCategory` so it doesn't fall through to `'broadway'` for suited hands, mapping suited gappers correctly to `'suited-gappers'`. Added self-executing unit tests executing assertions at module-load time in test environments.
+- Summary:
+  - Addressed a scenario where non-broadway, non-ace, non-connector suited hands (e.g. K5s, 86s) were mislabeled as 'broadway' by mapping them to the new 'suited-gappers' category.
+  - Ensured correct rendering in filters and tables.
+- Verification:
+  - `npm run typecheck` ✓ (tsc completed successfully)
+  - `npm test` ✓ (all 586 tests passed)
+- Risks / assumptions:
+  - Category filtering works correctly for new and existing hands.
+- Next action requested:
+  - Review changes and merge to main when appropriate.
+
+
 ## 2026-05-25 — Opponent Overlap and Roadmap Hygiene
 
 - Owner / agent: Antigravity
