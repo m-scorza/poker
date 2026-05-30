@@ -12,7 +12,12 @@ The latest sprint decision gate controls all agent tasks:
 Task assignments and execution states are tracked inside the local, Gitignored file:
 `.agents/state/task_spool.json`
 
-For the current sprint, the primary work is sequential:
+For the current sprint, task execution is scheduler-controlled:
+1.  The human/operator chooses the next task lane.
+2.  `scripts/parallel-runner.cjs` may prepare worktrees only for non-overlapping task scopes.
+3.  If pending tasks share `allowed_files` or conceptual lanes, run them sequentially or split/merge the task contracts first.
+
+Primary ownership lanes:
 1.  **Antigravity (IDE)**: UI copy neutralization (neutralize labels in dashboard and data buttons).
 2.  **Hermes (WSL)**: Parser checks and verification suite correctness.
 3.  **Claude (Terminal)**: Integration, PR formatting, and code health audits.

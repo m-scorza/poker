@@ -13,6 +13,7 @@ docs/council/*
 !docs/council/.gitkeep
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
+.codex/
 
 # Throwaway debug scripts at repo root
 /scratch.*
@@ -28,4 +29,3 @@ docs/council/*
 .agents/events.ndjson
 .agents/runs/
 docs/agents/CURRENT_CONTEXT.md
-

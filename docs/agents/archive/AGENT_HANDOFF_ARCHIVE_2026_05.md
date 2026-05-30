@@ -21,6 +21,41 @@ diff and CI result without spelunking the local branch.
 - Verification:                  # local commands run + CI result (green/red on which checks)
 - Risks / assumptions:
 - Next action requested:
+```
+
+## 2026-05-25 - Support AGENT_KERNEL_STATE_ROOT in Agent Kernel
+
+- Owner / agent: Antigravity
+- Branch: main
+- Scope: `scripts/agent-kernel.cjs`
+- Files touched: `scripts/agent-kernel.cjs`
+- Summary: Added `AGENT_KERNEL_STATE_ROOT` support so `.agents/state/` and `.agents/runs/` can resolve under a configured central state root; adjusted status/doctor forbidden-path diagnostics accordingly.
+- Verification: Custom state root initialization checked; `doctor` diagnostics passed under custom root; `npx tsc -b --pretty false` passed; `npm test` passed with 586 tests across 56 files.
+- Risks / assumptions: Future kernel callers must set `AGENT_KERNEL_STATE_ROOT` when using a central ledger.
+- Next action requested: Human review, commit, and PR completion.
+
+## 2026-05-25 - Opponent Overlap and Roadmap Hygiene
+
+- Owner / agent: Antigravity
+- Branch: `perf/dual-range-matrix-memoization` at commit `fa7bb94`
+- Scope: `src/pages/CareerPage.tsx`, `docs/product/ROADMAP.md`, `docs/product/STATUS.md`
+- Files touched: Added Career opponent overlap/victim metrics and updated ROADMAP/STATUS progress.
+- Summary: Verified route/page rename state, implemented opponent metrics in Career, and aligned product progress docs.
+- Verification: `npx tsc -b --pretty false` passed; `npm test` passed with 586 tests; `npm run build` passed.
+- Risks / assumptions: Working tree was clean; changes were committed to feature branches.
+- Next action requested: Hermes or human review before merge to main.
+
+## 2026-05-24 - Phase 6: Sequential Pilot Task Execution
+
+- Owner / agent: Antigravity
+- Branch: `hygiene/format-utilities-tests` at commit `6507b11`
+- Scope: `src/utils/format.ts`, `src/utils/__tests__/format.test.ts`
+- Files touched: Added `stackBb` formatter, broadened formatter tests, and regenerated STATUS test inventory.
+- Summary: Initialized the state ledger, added/claimed/completed a pilot task through the kernel, verified expected safety failure modes, and recorded task spooler friction.
+- Verification: `node scripts/agent-kernel.cjs doctor` passed on clean checkout; `npm run typecheck` passed; `npx vitest run src/utils/__tests__/format.test.ts` passed with 9 tests; commit hook passed.
+- Risks / assumptions: `.agents/state/` remains untracked and gitignored.
+- Next action requested: Proceed with Phase 6b automatic context and handoff generation design.
+
 ## 2026-05-23 — Phase 4: Runtime State Ledger
 
 - Owner / agent: Antigravity

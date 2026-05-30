@@ -8,7 +8,6 @@ Use when Hermes or Antigravity is asked to review another agent's changes.
    - `AGENTS.md`
    - `docs/agents/AI_COLLABORATION.md`
    - `docs/agents/TWO_AGENT_BOARD.md`
-   - `docs/agents/SPRINT_DECISION_GATE.md`
    - `docs/agents/AGENT_HANDOFF.md`
    - `docs/product/STATUS.md`
 

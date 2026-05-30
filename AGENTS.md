@@ -33,12 +33,12 @@ See `docs/README.md` for the full bucket-by-bucket map.
 
 ## Collaboration model
 
-Use this division when Hermes and Antigravity are both active. For current council-gated work, also read `docs/agents/TWO_AGENT_BOARD.md` before choosing the next task:
+Use this division when Hermes and Antigravity are both active. For current gated work, also read `docs/agents/TWO_AGENT_BOARD.md` before choosing the next task:
 
 - Antigravity: fast IDE implementation, IP-safe user-facing copy neutralization, focused component edits, small refactors, applying specific review feedback.
 - Hermes: product architecture, parser/analysis correctness, test/fixture work, skeptical reviews, verification, documentation hygiene, and gate enforcement.
 
-Current gate: private/local generic poker analyzer posture. Do not start pricing/funnel/shareable/public-distribution work or Reg Life-branded positioning unless the user explicitly overrides `docs/agents/SPRINT_DECISION_GATE.md`.
+Current gate: private/local generic poker analyzer posture. Do not start pricing/funnel/shareable/public-distribution work or Reg Life-branded positioning unless the user explicitly overrides `docs/agents/TWO_AGENT_BOARD.md`.
 
 Only one agent should own a given file or subsystem at a time. If both agents need to touch the same area, one writes a handoff first and the other reviews or continues from that handoff.
 
@@ -62,6 +62,8 @@ When docs disagree, use this order:
 If you discover drift, fix the lying doc in the same change when practical.
 
 ## Build and verification commands
+
+If dependencies are absent in this checkout, run `npm.cmd ci` on Windows or `npm ci` elsewhere before verification.
 
 Use the narrowest useful command first, then the broader checks before final handoff.
 
@@ -105,7 +107,7 @@ Critical conventions:
 
 ## Git hygiene
 
-- Work on a feature branch or an isolated worktree when possible.
+- Work on a feature branch or an isolated worktree when possible. Parallel worktrees are allowed only when the task scheduler confirms that claimed file scopes do not overlap.
 - Do not stage unrelated files.
 - Do not commit generated/session artifacts unless they are intentionally part of the workflow.
 - Before handing off, inspect `git status --short` and `git diff --stat`.
