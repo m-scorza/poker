@@ -19,9 +19,23 @@ import { getReactionRange } from '../data/ranges';
 import type { Position, HeroDecision } from '../types/analysis';
 import type { Hand } from '../types/hand';
 
-const RFI_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB', 'BB'];
+const RFI_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB', 'BB'];
 
 type ViewMode = 'compliance' | 'edit' | 'push_fold' | 'validator';
+
+function matchesPosition(decision: HeroDecision, position: Position): boolean {
+  if (position === 'SB') {
+    return decision.position === 'SB' || decision.position === 'BTN/SB';
+  }
+  return decision.position === position;
+}
+
+function matchesScenario(decision: HeroDecision, scenario: 'RFI' | 'FACING_RAISE'): boolean {
+  if (scenario === 'RFI') {
+    return decision.scenario === 'RFI' || decision.scenario === 'BLIND_WAR' || decision.scenario === 'HU_BTN';
+  }
+  return decision.scenario === 'FACING_RAISE' || decision.scenario === 'BB_VS_RAISE';
+}
 
 export function RangesPage() {
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
@@ -78,15 +92,7 @@ export function RangesPage() {
   // For SB we want BLIND_WAR and RFI, including HU BTN/SB hands which are technically small blind positions
   // For BB we want BB_VS_RAISE
   const posDecisions = useMemo(
-    () => decisions.filter((d) => {
-      // If SB is selected, it must catch both true 'SB' and 'BTN/SB'
-      // Filter by scenario
-      if (selectedScenario === 'RFI') {
-         return d.scenario === 'RFI' || d.scenario === 'BLIND_WAR' || d.scenario === 'HU_BTN';
-      } else {
-         return d.scenario === 'FACING_RAISE' || d.scenario === 'BB_VS_RAISE';
-      }
-    }),
+    () => decisions.filter((d) => matchesPosition(d, selectedPos) && matchesScenario(d, selectedScenario)),
     [decisions, selectedPos, selectedScenario],
   );
 
@@ -218,13 +224,7 @@ export function RangesPage() {
          <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
            {RFI_POSITIONS.map((pos) => {
              const posCount = decisions.filter((d) => {
-               const matchPos = (pos === 'SB') ? (d.position === 'SB' || d.position === 'BTN/SB') : (d.position === pos);
-               if (!matchPos) return false;
-               if (selectedScenario === 'RFI') {
-                  return d.scenario === 'RFI' || d.scenario === 'BLIND_WAR' || d.scenario === 'HU_BTN';
-               } else {
-                  return d.scenario === 'FACING_RAISE' || d.scenario === 'BB_VS_RAISE';
-               }
+               return matchesPosition(d, pos) && matchesScenario(d, selectedScenario);
              }).length;
              
              return (
