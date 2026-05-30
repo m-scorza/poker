@@ -129,7 +129,7 @@ Remaining (Batch 3 — structural):
 - [x] Route-level code splitting (React.lazy + Suspense) (Completed 2026-05-11)
 - [x] Component smoke tests (happy-dom + @testing-library/react) (Completed 2026-05-12)
 - [x] HandsPage decomposition (683 lines → extract hooks/components, added TanStack Virtual) (Completed 2026-05-11)
-- [ ] DualRangeMatrix cell memoization
+- [x] DualRangeMatrix cell memoization (Completed 2026-05-24)
 - [x] DashboardPage query optimization (split monolithic useLiveQuery) (Completed 2026-05-11)
 
 ---
@@ -196,9 +196,9 @@ are stale. Do not edit by hand.
 | `/` | `DashboardPage` |
 | `/arena` | `ArenaPage` |
 | `/career` | `CareerPage` |
+| `/demo` | `DemoPage` |
 | `/hands` | `HandsPage` |
 | `/leaks` | `LeaksPage` |
-| `/pricing` | `PricingPage` |
 | `/ranges` | `RangesPage` |
 | `/sessions` | `SessionsPage` |
 | `/stats` | `StatsPage` |
@@ -263,9 +263,9 @@ src/pages/  (10 files)
   pages/ArenaPage.tsx
   pages/CareerPage.tsx
   pages/DashboardPage.tsx
+  pages/DemoPage.tsx
   pages/HandsPage.tsx
   pages/LeaksPage.tsx
-  pages/PricingPage.tsx
   pages/RangesPage.tsx
   pages/SessionsPage.tsx
   pages/StatsPage.tsx

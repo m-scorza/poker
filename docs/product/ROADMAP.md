@@ -143,14 +143,14 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] Route-level code splitting (React.lazy + Suspense in App.tsx) (Completed)
 - [x] Component smoke tests (happy-dom + @testing-library/react) (Completed 2026-05-12)
 - [x] HandsPage decomposition (extract `HandsTable`, `HandsUpload`, `HandsFilters`, TanStack Virtualization) (Completed)
-- [ ] DualRangeMatrix cell memoization (React.memo `RangeCell`)
+- [x] DualRangeMatrix cell memoization (React.memo `RangeCell`) (Completed)
 - [x] DashboardPage query optimization (split monolithic useLiveQuery) (Completed)
 
 ### P3 — Doc / repo hygiene
 - [x] Root cleanup (2026-04-18) — loose scripts moved to `scripts/`,
       loose docs moved to `docs/`, empty `tests/` dir removed
-- [ ] Commit or gitignore the 100+ untracked summary fixtures in
-      `src/test/fixtures/summaries/`
+- [x] Commit or gitignore the 100+ untracked summary fixtures in
+      `src/test/fixtures/summaries/` (Committed)
 - [ ] Fixture variant tests — assert parser behaviour on Cap / Zoom /
       6+ / play-money fixtures (currently silent)
 
@@ -160,7 +160,7 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       table directly; no dedicated `careerAnalyzer.ts` module yet.
 - [x] Lifetime scorecard, stake progression, bust-out distribution,
       rake-adjusted ROI, $/hour (Career hardening pass 2026-05-12)
-- [ ] Streaks, format breakdown, opponent overlap, day×hour heatmap
+- [x] Streaks, format breakdown, opponent overlap, day×hour heatmap (Completed)
 - [ ] Decide: fold `StatsPage` into Career, or keep both
 
 ### P4.5 — Multi-site support (in progress)
