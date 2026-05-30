@@ -1,6 +1,6 @@
 # Handoff Documentation Protocol (HANDOFF_PROTOCOL)
 
-This document defines the rules for documenting tasks and transferring ownership between agents using a sequential single working tree model.
+This document defines the rules for documenting tasks and transferring ownership between agents using scheduler-controlled branches or isolated worktrees.
 
 ## 1. Handoff Template
 Every completed or failed execution session must record an entry at the top of [AGENT_HANDOFF.md](./AGENT_HANDOFF.md) using this format:
@@ -25,7 +25,7 @@ Completion status is strictly gated on validation evidence. You must run and doc
 3.  **Logs Reference**: Store build/test output logs in `.agents/runs/` (Gitignored) for manual human inspection.
 
 ## 3. Human Handoff Sequence
-Since the workflow tool does not switch branches automatically, the handoff transfer is managed sequentially via these human-executed Git steps:
+Since branch/worktree changes require operator approval, the handoff transfer is managed via these human-approved Git steps:
 
 1.  **Review the Diff**: The human verifies the active agent's diff footprint:
     ```bash
@@ -42,4 +42,3 @@ Since the workflow tool does not switch branches automatically, the handoff tran
     git status --short
     git checkout <next-branch>
     ```
-

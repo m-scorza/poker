@@ -1,6 +1,6 @@
 # AI Collaboration Playbook — Hermes + Google Antigravity
 
-This playbook defines specialized agent roles, file ownership bounds, and pointers to coordination protocols for sequential single working tree development.
+This playbook defines specialized agent roles, file ownership bounds, and pointers to coordination protocols for scheduler-controlled branch or worktree development.
 
 ## 1. Protocol Pointers
 For task execution, claims, and handoff documentation, refer strictly to:
@@ -35,6 +35,6 @@ Only one agent should edit a given file area at a time. The review guidelines ar
 | Status & Handoff docs | Hermes | Antigravity |
 
 ## 4. Conflict Resolution Rules
-- **No Concurrent Edits**: Only one task can be in the `running` state at any time.
+- **No Overlapping Edits**: Parallel work is allowed only when the scheduler confirms non-overlapping file scopes and lanes.
 - **Drift Principle**: If a code change shifts strategy bounds, the corresponding tests and strategy documentation must be updated in the same commit.
 - **Source of Truth**: When documents disagree with execution behavior, trust the running source code and tests, then update the documentation to match.

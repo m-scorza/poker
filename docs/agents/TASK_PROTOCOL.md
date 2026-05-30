@@ -1,9 +1,9 @@
 # Task Execution Protocol (TASK_PROTOCOL)
 
-This document defines the state constraints, claiming rules, and Git hygiene policies for sequential multi-agent execution on a single working tree.
+Defines the state, claiming, and Git rules for scheduler-controlled multi-agent work. Agents may use separate Git worktrees, but the scheduler must block overlapping file ownership before parallel launch.
 
 ## 1. Local State Schema
-The local task board is stored in `.agents/state/task_spool.json` (Gitignored). Each task must adhere to the following schema:
+The local task board is `.agents/state/task_spool.json` (Gitignored). Task shape:
 
 ```json
 {
@@ -25,21 +25,26 @@ The local task board is stored in `.agents/state/task_spool.json` (Gitignored). 
 }
 ```
 
-## 2. Zero-Mutation Git Boundary
-To prevent workspace corruption and silent changes:
-- **Read-Only Git**: The workflow tool (`aos.js`) must never execute modifying Git commands (`git checkout`, `git switch`, `git stash`, `git reset`, or `git clean`).
-- **Human Responsibility**: The human developer handles all branch switching and workspace cleanup manually. Stash is allowed only as an explicit human emergency choice, not as the default workflow.
-- **Drift Mismatch**: If `aos.js` detects that the active branch does not match the task's expected branch, it must abort and output the correct manual checkout command.
+## 2. Git Boundary
+- **Agent-proposed Git**: Agents may propose checkout/switch/commit commands for operator approval, but must not run mutating Git silently.
+- **Runner approval**: `scripts/parallel-runner.cjs` defaults to dry-run. Use `--execute` only after reviewing conflicts and planned worktrees.
+- **Drift mismatch**: If the scheduler or kernel sees the wrong branch, abort and print the manual checkout command.
 
-## 3. Clean working-tree Guard
-To prevent cross-task leakage and dirty-state pollution:
-- **Block on Dirty**: An agent must not be claimed or run if the working tree has any unstaged changes or untracked source files.
-- **Allowed Untracked Paths**: Only standard Gitignored folders are excluded from this clean status check:
+## 3. Clean Tree Guard
+- **Block on dirty**: Do not claim/run if the worktree has unstaged changes or untracked source files.
+- **Allowed untracked paths**:
   - `node_modules/`
   - `.agents/state/`
   - `.agents/runs/`
-  - `docs/agents/CURRENT_CONTEXT.md`
-- **Dirty Tree Interruption**: When dirty state is detected, the workflow tool must:
+- **Dirty interruption**:
   1. Show the list of dirty files.
   2. Suggest inspection (`git status -s`, `git diff`, `git diff --staged`).
-  3. Prompt the human to manually resolve: commit intentional work, revert accidental work, or create a rescue branch if preservation is needed.
+  3. Ask the human to resolve: commit intentional work, revert accidental work, or create a rescue branch.
+
+## 4. Parallel Worktree Guard
+Parallel execution is allowed only for a non-overlapping task batch.
+
+- **File-scope exclusivity**: No launched tasks may share `allowed_files`.
+- **Lane exclusivity**: Avoid parallel tasks in the same lane (`range`, `scenario`, `store`, `worker/import`, `ui`, `docs/protocol`) unless the human accepts merge risk.
+- **One task per worktree**: Each worktree runs one task branch and shares only central `.agents/state/`.
+- **Evidence before completion**: Completion requires evidence JSON accepted by `scripts/agent-kernel.cjs complete`.

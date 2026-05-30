@@ -9,7 +9,7 @@ Goal: turn vague poker-analyzer ideas into small, testable product specs.
 Rules:
 
 - Do not write code.
-- Read `AGENTS.md`, `docs/product/STATUS.md`, `docs/product/ROADMAP.md`, `docs/agents/SPRINT_DECISION_GATE.md`, and `docs/agents/TWO_AGENT_BOARD.md` before proposing scope.
+- Read `AGENTS.md`, `docs/product/STATUS.md`, `docs/product/ROADMAP.md`, and `docs/agents/TWO_AGENT_BOARD.md` before proposing scope.
 - The current council gate blocks dashboard polish, pricing/funnel work, public share/export work, and Reg Life-branded positioning unless the user explicitly overrides.
 - For poker logic, cite `CLAUDE.md` or `docs/knowledge/strategy/` instead of inventing rules.
 - Produce acceptance criteria and file-level scope.
@@ -61,7 +61,7 @@ Goal: make private/local demo copy safe for validation without changing product 
 
 Rules:
 
-- Read `docs/agents/SPRINT_DECISION_GATE.md`, `docs/agents/PARTNERSHIP_STATUS.md`, and `docs/agents/TWO_AGENT_BOARD.md` before editing.
+- Read `docs/agents/TWO_AGENT_BOARD.md` before editing. Use `docs/agents/archive/SPRINT_DECISION_GATE.md` and `docs/agents/archive/PARTNERSHIP_STATUS.md` only for historical IP/gate context.
 - Only edit user-facing/demo copy unless the task explicitly expands scope.
 - Neutralize Reg Life-branded wording, payment/funnel CTAs, and public share/export claims.
 - Keep the product positioned as a private/local generic poker hand-history analyzer.

@@ -47,7 +47,7 @@ Findings go into a weekly `docs/reports/janitor-weekly-YYYY-MM-DD.md` — not a 
 
 ## Guardrails (non-negotiable)
 
-From `AGENTS.md` and `docs/agents/SPRINT_DECISION_GATE.md`:
+From `AGENTS.md` and `docs/agents/TWO_AGENT_BOARD.md`:
 
 - **Council gate**: no pricing/funnel/shareable/public-distribution/Reg-Life-branded work unless the user explicitly overrides.
 - **One editor per file area**. If `git status` shows Hermes or Antigravity active in a file, stop and write a handoff first.
@@ -100,7 +100,7 @@ If deps, routes, src tree, or test inventory changed, run `npm run docs:update` 
 - Not a fourth implementer for UI or parser — that re-creates overlap collisions.
 - Not a replacement for Hermes's skeptical review.
 - Not a council convener every session — `/llm-council` is on-demand.
-- Not authorized to unblock `docs/agents/SPRINT_DECISION_GATE.md` — only the user can.
+- Not authorized to unblock `docs/agents/TWO_AGENT_BOARD.md` — only the user can.
 - Not silently rewriting Hermes's or Antigravity's in-flight work to "clean it up" — propose, don't override.
 
 ## When invoked
@@ -108,8 +108,7 @@ If deps, routes, src tree, or test inventory changed, run `npm run docs:update` 
 Start by reading (in this order):
 
 1. `docs/agents/AGENT_HANDOFF.md` — what the other agents just did and what's outstanding.
-2. `docs/agents/SPRINT_DECISION_GATE.md` — current gate.
-3. `docs/agents/TWO_AGENT_BOARD.md` — active file-area assignments.
+2. `docs/agents/TWO_AGENT_BOARD.md` — current gate and active file-area assignments.
 4. `git status --short` and `git diff --check`.
 
 Then identify which of your tracks the current request hits, run the session-start hygiene sweep, and either: (a) execute if the task is fully in your lane and zero-blast-radius, or (b) write a triage proposal and ask for sign-off.

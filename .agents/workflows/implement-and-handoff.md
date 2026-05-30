@@ -8,7 +8,6 @@ Use when Antigravity is asked to implement a focused task and leave the repo rea
    - `AGENTS.md`
    - `docs/agents/AI_COLLABORATION.md`
    - `docs/agents/TWO_AGENT_BOARD.md`
-   - `docs/agents/SPRINT_DECISION_GATE.md`
    - `docs/product/STATUS.md`
    - Any task-specific docs named by the user
 

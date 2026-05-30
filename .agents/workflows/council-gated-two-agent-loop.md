@@ -1,15 +1,14 @@
 # Workflow: Council-Gated Two-Agent Loop
 
-Use when Hermes and Antigravity are both active and the work is constrained by `docs/agents/SPRINT_DECISION_GATE.md`.
+Use when Hermes and Antigravity are both active and the work is constrained by `docs/agents/TWO_AGENT_BOARD.md`.
 
 ## Required reading
 
 1. `AGENTS.md`
 2. `docs/agents/AI_COLLABORATION.md`
 3. `docs/agents/TWO_AGENT_BOARD.md`
-4. `docs/agents/SPRINT_DECISION_GATE.md`
-5. `docs/agents/PARTNERSHIP_STATUS.md`
-6. `docs/agents/AGENT_HANDOFF.md`
+4. `docs/agents/AGENT_HANDOFF.md`
+5. Historical context only when needed: `docs/agents/archive/SPRINT_DECISION_GATE.md` and `docs/agents/archive/PARTNERSHIP_STATUS.md`
 7. Task-specific source/docs named by the user
 
 ## Rule of engagement
