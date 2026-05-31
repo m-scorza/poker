@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { clsx } from 'clsx';
 import { useLiveQuery } from 'dexie-react-hooks';
 import JSZip from 'jszip';
@@ -78,6 +78,19 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const [localReferenceMessage, setLocalReferenceMessage] = useState<string | null>(null);
   const pushReferenceRef = useRef<HTMLInputElement>(null);
   const callReferenceRef = useRef<HTMLInputElement>(null);
+  const workerRef = useRef<Worker | null>(null);
+  const mountedRef = useRef(true);
+  const importSeqRef = useRef(0);
+
+  useEffect(() => {
+    return () => {
+      mountedRef.current = false;
+      importSeqRef.current += 1;
+      workerRef.current?.terminate();
+      workerRef.current = null;
+      setImporting(false);
+    };
+  }, [setImporting]);
 
   const handleLocalReferenceFile = useCallback(async (kind: HeadsUpReferenceKind, file: File | null) => {
     if (!file) return;
@@ -100,11 +113,17 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   }, [onUploadSuccess]);
 
   const processFiles = useCallback(async (files: FileList) => {
+    const importSeq = importSeqRef.current + 1;
+    importSeqRef.current = importSeq;
+    const isCurrentImport = () => mountedRef.current && importSeqRef.current === importSeq;
+
     setImporting(true);
     setImportProgress(0);
     setStatsFound({ hands: 0, summaries: 0, deviations: 0 });
     setResults([]);
     setImportSummary(null);
+    workerRef.current?.terminate();
+    workerRef.current = null;
 
     // Convert FileList to serialized content for the worker
     const fileDataArr: WorkerFilePayload[] = [];
@@ -125,6 +144,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           continue;
         }
         const content = await file.text();
+        if (!isCurrentImport()) return;
         batchBytes += file.size;
         fileDataArr.push({ name: file.name, content });
       } else if (lowerName.endsWith('.zip')) {
@@ -134,6 +154,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         }
         try {
           const zip = await JSZip.loadAsync(file);
+          if (!isCurrentImport()) return;
           const zipFiles = Object.keys(zip.files);
 
           let plannedDecompressed = 0;
@@ -185,6 +206,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             }
 
             const content = await entry.async('string');
+            if (!isCurrentImport()) return;
             // Final guard for entries where uncompressedSize was missing/lied:
             const contentBytes = new TextEncoder().encode(content).length;
             if (contentBytes > MAX_TXT_BYTES) {
@@ -218,8 +240,10 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
     // Initialize Worker
     const worker = new Worker(new URL('../../parser/worker.ts', import.meta.url), { type: 'module' });
+    workerRef.current = worker;
 
     worker.onmessage = async (e: MessageEvent<WorkerMessage>) => {
+      if (!isCurrentImport() || workerRef.current !== worker) return;
       const msg = e.data;
 
       if (msg.type === 'PROGRESS') {
@@ -244,6 +268,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
            importHands(msg.hands),
            importTournamentSummaries(msg.summaries)
         ]);
+        if (!isCurrentImport() || workerRef.current !== worker) return;
 
         try {
           await saveImportRun(buildImportRunRecord(
@@ -257,9 +282,11 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         } catch (error) {
           console.warn('Import completed, but audit history could not be saved:', error);
         }
+        if (!isCurrentImport() || workerRef.current !== worker) return;
 
         // Update store and UI
         const totalCount = await getTotalHandCount();
+        if (!isCurrentImport() || workerRef.current !== worker) return;
         setTotalHands(totalCount);
         setImporting(false);
         setResults(prev => [
@@ -275,10 +302,12 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         onUploadSuccess();
 
         worker.terminate();
+        if (workerRef.current === worker) workerRef.current = null;
       }
     };
 
     worker.onerror = (event) => {
+      if (!isCurrentImport() || workerRef.current !== worker) return;
       setImporting(false);
       setCurrentImportFile('');
       setResults(prev => [...prev, {
@@ -287,6 +316,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         error: event.message || 'The background parser crashed before completing the import.',
       }]);
       worker.terminate();
+      if (workerRef.current === worker) workerRef.current = null;
     };
 
     worker.postMessage({

@@ -7,12 +7,12 @@ export interface FileIdentity {
 }
 
 export function identifyFile(content: string): FileIdentity {
-  const normalized = content.trim().slice(0, 65536); // Scan enough for email/export preambles before the first real hand.
-  const lower = normalized.toLowerCase();
-
-  if (looksLikeOpenHandHistoryJson(normalized)) {
+  if (looksLikeOpenHandHistoryJson(content)) {
     return { site: 'open_hand_history', type: 'hand_history' };
   }
+
+  const normalized = content.trim().slice(0, 65536); // Scan enough for email/export preambles before the first real hand.
+  const lower = normalized.toLowerCase();
   
   // PokerStars Hand History
   if (normalized.includes('PokerStars Hand #')) {
