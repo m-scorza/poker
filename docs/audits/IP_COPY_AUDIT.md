@@ -1,6 +1,9 @@
 # IP / Copy Risk Audit — Private Demo Repositioning
 
 **Created:** 2026-05-10
+**Current review note:** 2026-05-31 — this file is retained as audit history.
+The active user-facing route is now `/demo` (`DemoPage`), not `/pricing`, and
+the current operating gate lives in `docs/agents/TWO_AGENT_BOARD.md`.
 **Repo audited:** Windows working copy at `/mnt/c/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh`
 **Purpose:** give Antigravity and Hermes a shared map of user-facing language that must be neutralized before private/local validation demos.
 
@@ -18,7 +21,11 @@ Searched `src/**/*.{ts,tsx}` for:
 Reg Life|GamePlan|Game Plan|D#|Dossiê|Dossie|luischiavo|payment|pricing|pilot|public|shareable|share report|Export/share
 ```
 
-## Highest-priority user-facing copy fixes
+## Original highest-priority user-facing copy findings
+
+The table below preserves the original 2026-05-10 audit findings. It is not a
+current bug list; later copy work neutralized these surfaces, and `PricingPage`
+has since been replaced by `DemoPage`.
 
 These are the first places Antigravity should fix because they affect visible UI, navigation, demo copy, or user-facing messages.
 
