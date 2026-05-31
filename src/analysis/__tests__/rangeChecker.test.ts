@@ -163,8 +163,33 @@ describe('checkCompliance — FACING_RAISE', () => {
     expect(result!.isCompliant).toBe(true);
   });
 
+  it('compliant: CO has a specific reaction range versus HJ opener', () => {
+    const d = makeDecision({ position: 'CO', handKey: '98s', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'HJ' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(true);
+  });
+
+  it('compliant: BTN has a conservative mapped reaction range versus HJ opener', () => {
+    const d = makeDecision({ position: 'BTN', handKey: 'AQo', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'HJ' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(true);
+  });
+
   it('deviation: SB does not use loose LP-vs-EP fallback facing early opener', () => {
     const d = makeDecision({ position: 'SB', handKey: 'AQo', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'UTG' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(false);
+    expect(result!.deviationType).toBe('OPENED_OUT_OF_RANGE');
+  });
+
+  it('compliant: SB has a specific tighter range versus late-position opener', () => {
+    const d = makeDecision({ position: 'SB', handKey: 'AJs', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'CO' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(true);
+  });
+
+  it('deviation: SB late-position reaction range is tighter than BTN-vs-CO', () => {
+    const d = makeDecision({ position: 'SB', handKey: 'A2s', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'BTN' });
     const result = checkCompliance(d);
     expect(result!.isCompliant).toBe(false);
     expect(result!.deviationType).toBe('OPENED_OUT_OF_RANGE');
