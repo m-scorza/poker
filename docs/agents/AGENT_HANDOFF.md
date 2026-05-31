@@ -19,6 +19,33 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-05-31 - Facing-raise reaction ranges and SB fallthrough
+
+- Owner / agent:          Codex
+- Branch:                 task/facing-raise-ranges-fix
+- Scope:                  `src/data/ranges.ts`, `src/analysis/rangeChecker.ts`, and focused range checker tests.
+- Files touched:
+  - `src/data/ranges.ts` - replaces heuristic facing-raise lookup with an explicit hero/opener reaction range map and adds CO-vs-HJ and SB-vs-late ranges.
+  - `src/analysis/__tests__/rangeChecker.test.ts` - adds regressions for CO vs HJ, BTN vs HJ, SB vs CO, and SB vs BTN reaction behavior.
+  - `docs/product/STATUS.md` - regenerated test inventory count after adding range regressions.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Stopped SB from falling through to loose late-position facing-raise behavior.
+  - Made unsupported hero/opener reaction pairs return `undefined` instead of borrowing an unrelated fallback range.
+  - Added position-specific reaction mappings for early-position, late-position, button, cutoff, and small blind facing opener classes.
+- Verification:
+  - `npx.cmd vitest run src/analysis/__tests__/rangeChecker.test.ts` - passed, 40 tests.
+  - `npm.cmd run typecheck` - passed.
+  - `npm.cmd test` - passed after sandbox rerun outside restricted filesystem, 56 files / 600 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - failed before regen, then passed after `npm.cmd run docs:update`.
+  - Local evidence summary: `.agents/runs/2026-05-31-facing-raise-ranges-evidence.md`.
+- Risks / assumptions:
+  - The new reaction ranges are conservative approximations from the existing range helpers and local strategy docs, not solver-imported matrices.
+  - Scheduler `complete` should not be forced while task `allowed_files` omits required generated docs/handoff updates; mark/review the board state after PR review.
+- Next action requested:
+  - Review the branch/PR. If accepted, update the task board metadata or mark the task complete after acknowledging the required docs files.
+
 ## 2026-05-31 - Documentation review and source-of-truth refresh
 
 - Owner / agent:          Codex
