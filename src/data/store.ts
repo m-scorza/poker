@@ -6,11 +6,12 @@
  */
 
 import Dexie, { type EntityTable } from 'dexie';
-import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
+import type { Hand, PlayerInHand, Action, Tournament, Position } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
-import type { VillainProfile } from '../types/villain';
+import type { VillainProfile, VillainRawCounters, VillainStats, PositionStats, PositionStatsRawCounters } from '../types/villain';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 import type { ImportRunRecord } from './importRuns';
+import { classifyVillain, computeVillainStats, emptyCounters } from '../analysis/villainClassifier';
 import * as ls from './localStorage';
 
 export interface AppSettings {
@@ -332,8 +333,9 @@ export async function saveVillainNote(playerName: string, notes: string, tags: s
       firstSeen: new Date(),
       lastSeen: new Date(),
       totalHands: 0,
-      stats: { vpip: 0, pfr: 0, threeBetPct: 0, foldToThreeBet: 0, cbetFlop: 0, cbetTurn: 0, foldToCbet: 0, wtsd: 0, wsd: 0, af: 0, limpPct: 0 },
-      statsByPosition: new Map(),
+      stats: createEmptyVillainStats(),
+      statsByPosition: {},
+      rawCounters: emptyCounters(),
       shownHands: [],
       archetype: null,
       archetypeConfidence: 'low',
@@ -346,6 +348,260 @@ export async function saveVillainNote(playerName: string, notes: string, tags: s
 /** Aggregate basic stats for villains from newly imported hands (Bug #5) */
 async function yieldToBrowser(): Promise<void> {
   await new Promise((resolve) => setTimeout(resolve, 0));
+}
+
+function createEmptyVillainStats(): VillainStats {
+  return {
+    vpip: 0,
+    pfr: 0,
+    threeBetPct: 0,
+    foldToThreeBet: 0,
+    cbetFlop: 0,
+    cbetTurn: 0,
+    foldToCbet: 0,
+    wtsd: 0,
+    wsd: 0,
+    af: 0,
+    limpPct: 0,
+  };
+}
+
+function createEmptyPositionRawCounters(): PositionStatsRawCounters {
+  return {
+    totalHands: 0,
+    vpipHands: 0,
+    pfrHands: 0,
+    threeBetOpps: 0,
+    threeBetMade: 0,
+  };
+}
+
+function pct(numerator: number, denominator: number): number {
+  return denominator === 0 ? 0 : (numerator / denominator) * 100;
+}
+
+function computePositionStats(rawCounters: PositionStatsRawCounters): PositionStats {
+  return {
+    hands: rawCounters.totalHands,
+    vpip: pct(rawCounters.vpipHands, rawCounters.totalHands),
+    pfr: pct(rawCounters.pfrHands, rawCounters.totalHands),
+    threeBetPct: pct(rawCounters.threeBetMade, rawCounters.threeBetOpps),
+    rawCounters,
+  };
+}
+
+function normalizeRawCounters(
+  rawCounters: VillainRawCounters | undefined,
+  stats: VillainStats,
+  totalHands: number,
+): VillainRawCounters {
+  if (rawCounters) {
+    return { ...emptyCounters(), ...rawCounters };
+  }
+
+  const counters = emptyCounters();
+  counters.totalHands = totalHands;
+  counters.vpipHands = Math.round((stats.vpip / 100) * totalHands);
+  counters.pfrHands = Math.round((stats.pfr / 100) * totalHands);
+  counters.limpHands = Math.round((stats.limpPct / 100) * totalHands);
+  counters.threeBetOpps = totalHands;
+  counters.threeBetMade = Math.round((stats.threeBetPct / 100) * totalHands);
+  counters.cbetFlopOpps = totalHands;
+  counters.cbetFlopMade = Math.round((stats.cbetFlop / 100) * totalHands);
+  counters.cbetTurnOpps = totalHands;
+  counters.cbetTurnMade = Math.round((stats.cbetTurn / 100) * totalHands);
+  return counters;
+}
+
+function normalizePositionStats(value: unknown): PositionStats | undefined {
+  if (!value || typeof value !== 'object') return undefined;
+
+  const stats = value as Partial<PositionStats>;
+  if (stats.rawCounters) {
+    return computePositionStats({ ...createEmptyPositionRawCounters(), ...stats.rawCounters });
+  }
+
+  const hands = stats.hands ?? 0;
+  const rawCounters: PositionStatsRawCounters = {
+    totalHands: hands,
+    vpipHands: Math.round(((stats.vpip ?? 0) / 100) * hands),
+    pfrHands: Math.round(((stats.pfr ?? 0) / 100) * hands),
+    threeBetOpps: hands,
+    threeBetMade: Math.round(((stats.threeBetPct ?? 0) / 100) * hands),
+  };
+  return computePositionStats(rawCounters);
+}
+
+function normalizeStatsByPosition(value: unknown): Partial<Record<Position, PositionStats>> {
+  if (!value) return {};
+  const entries = value instanceof Map ? value.entries() : Object.entries(value);
+  const normalized: Partial<Record<Position, PositionStats>> = {};
+  for (const [position, stats] of entries) {
+    const normalizedStats = normalizePositionStats(stats);
+    if (normalizedStats) normalized[position as Position] = normalizedStats;
+  }
+  return normalized;
+}
+
+function createVillainProfile(player: PlayerInHand, hand: Hand): VillainProfile {
+  return {
+    playerName: player.playerName,
+    firstSeen: hand.date,
+    lastSeen: hand.date,
+    totalHands: 0,
+    stats: createEmptyVillainStats(),
+    statsByPosition: {},
+    rawCounters: emptyCounters(),
+    shownHands: [],
+    archetype: null,
+    archetypeConfidence: 'low',
+    notes: '',
+    tags: [],
+  };
+}
+
+interface VillainHandObservation {
+  vpip: boolean;
+  pfr: boolean;
+  limp: boolean;
+  threeBetOpp: boolean;
+  threeBetMade: boolean;
+  foldToThreeBetOpp: boolean;
+  foldToThreeBetMade: boolean;
+  cbetFlopOpp: boolean;
+  cbetFlopMade: boolean;
+  cbetTurnOpp: boolean;
+  cbetTurnMade: boolean;
+  foldToCbetOpp: boolean;
+  foldToCbetMade: boolean;
+  wentToShowdown: boolean;
+  wonAtShowdown: boolean;
+  bets: number;
+  raises: number;
+  calls: number;
+}
+
+function voluntaryPreflopActions(actions: Action[]): Action[] {
+  return actions.filter(
+    (a) => a.street === 'preflop' && !['post_ante', 'post_sb', 'post_bb'].includes(a.actionType),
+  );
+}
+
+function firstActionOnStreet(actions: Action[], playerName: string, street: Action['street']): Action | undefined {
+  return actions
+    .filter((a) => a.street === street && a.playerName === playerName)
+    .sort((a, b) => a.sequence - b.sequence)[0];
+}
+
+function hasPriorAggression(actions: Action[], action: Action): boolean {
+  return actions.some(
+    (a) => a.street === action.street &&
+      a.sequence < action.sequence &&
+      a.playerName !== action.playerName &&
+      (a.actionType === 'bet' || a.actionType === 'raise'),
+  );
+}
+
+function collectVillainHandObservation(
+  hand: Hand,
+  player: PlayerInHand,
+  actions: Action[],
+): VillainHandObservation {
+  const playerActions = actions.filter((a) => a.playerName === player.playerName);
+  const playerPreflop = voluntaryPreflopActions(playerActions);
+  const allPreflop = voluntaryPreflopActions(actions).sort((a, b) => a.sequence - b.sequence);
+  const playerFirstPreflop = playerPreflop[0];
+  const actionsBeforeFirst = playerFirstPreflop
+    ? allPreflop.filter((a) => a.sequence < playerFirstPreflop.sequence)
+    : [];
+  const hasRaiseBefore = actionsBeforeFirst.some((a) => a.actionType === 'raise');
+
+  const preflopRaises = allPreflop.filter((a) => a.actionType === 'raise');
+  const lastPreflopRaise = preflopRaises[preflopRaises.length - 1];
+  const firstPlayerRaise = playerPreflop.find((a) => a.actionType === 'raise');
+  const firstRaiseAfterPlayerOpen = firstPlayerRaise
+    ? allPreflop.find((a) => a.sequence > firstPlayerRaise.sequence && a.playerName !== player.playerName && a.actionType === 'raise')
+    : undefined;
+  const foldAfterFacingThreeBet = firstRaiseAfterPlayerOpen
+    ? playerPreflop.some((a) => a.sequence > firstRaiseAfterPlayerOpen.sequence && a.actionType === 'fold')
+    : false;
+
+  const flopAction = firstActionOnStreet(actions, player.playerName, 'flop');
+  const hasFlopCbetOpp = lastPreflopRaise?.playerName === player.playerName &&
+    !!flopAction &&
+    !hasPriorAggression(actions, flopAction);
+  const hasFlopCbet = hasFlopCbetOpp && flopAction?.actionType === 'bet';
+
+  const turnAction = firstActionOnStreet(actions, player.playerName, 'turn');
+  const hasTurnCbetOpp = hasFlopCbet &&
+    !!turnAction &&
+    !hasPriorAggression(actions, turnAction);
+  const hasTurnCbet = hasTurnCbetOpp && turnAction?.actionType === 'bet';
+
+  const opposingFlopCbet = actions.find((a) => {
+    if (a.street !== 'flop' || a.actionType !== 'bet' || a.playerName === player.playerName) return false;
+    if (lastPreflopRaise?.playerName !== a.playerName) return false;
+    return !hasPriorAggression(actions, a);
+  });
+  const actionFacingCbet = opposingFlopCbet
+    ? playerActions.find((a) => a.street === 'flop' && a.sequence > opposingFlopCbet.sequence)
+    : undefined;
+
+  return {
+    vpip: playerPreflop.some((a) => a.actionType === 'call' || a.actionType === 'raise'),
+    pfr: playerPreflop.some((a) => a.actionType === 'raise'),
+    limp: playerFirstPreflop?.actionType === 'call' && !hasRaiseBefore,
+    threeBetOpp: hasRaiseBefore,
+    threeBetMade: hasRaiseBefore && playerPreflop.some((a) => a.actionType === 'raise'),
+    foldToThreeBetOpp: !!firstRaiseAfterPlayerOpen,
+    foldToThreeBetMade: foldAfterFacingThreeBet,
+    cbetFlopOpp: hasFlopCbetOpp,
+    cbetFlopMade: hasFlopCbet,
+    cbetTurnOpp: hasTurnCbetOpp,
+    cbetTurnMade: hasTurnCbet,
+    foldToCbetOpp: !!actionFacingCbet,
+    foldToCbetMade: actionFacingCbet?.actionType === 'fold',
+    wentToShowdown: hand.hasShowdown && player.holeCards !== null,
+    wonAtShowdown: hand.hasShowdown &&
+      player.holeCards !== null &&
+      (hand.villainDeltas.find((d) => d.name === player.playerName)?.net ?? 0) > 0,
+    bets: playerActions.filter((a) => a.actionType === 'bet').length,
+    raises: playerActions.filter((a) => a.actionType === 'raise').length,
+    calls: playerActions.filter((a) => a.actionType === 'call').length,
+  };
+}
+
+function applyObservationToCounters(counters: VillainRawCounters, observation: VillainHandObservation): void {
+  counters.totalHands += 1;
+  if (observation.vpip) counters.vpipHands += 1;
+  if (observation.pfr) counters.pfrHands += 1;
+  if (observation.limp) counters.limpHands += 1;
+  if (observation.threeBetOpp) counters.threeBetOpps += 1;
+  if (observation.threeBetMade) counters.threeBetMade += 1;
+  if (observation.foldToThreeBetOpp) counters.foldToThreeBetOpps += 1;
+  if (observation.foldToThreeBetMade) counters.foldToThreeBetMade += 1;
+  if (observation.cbetFlopOpp) counters.cbetFlopOpps += 1;
+  if (observation.cbetFlopMade) counters.cbetFlopMade += 1;
+  if (observation.cbetTurnOpp) counters.cbetTurnOpps += 1;
+  if (observation.cbetTurnMade) counters.cbetTurnMade += 1;
+  if (observation.foldToCbetOpp) counters.foldToCbetOpps += 1;
+  if (observation.foldToCbetMade) counters.foldToCbetMade += 1;
+  if (observation.wentToShowdown) counters.wtsdHands += 1;
+  if (observation.wonAtShowdown) counters.wsdHands += 1;
+  counters.totalBets += observation.bets;
+  counters.totalRaises += observation.raises;
+  counters.totalCalls += observation.calls;
+}
+
+function applyObservationToPositionCounters(
+  counters: PositionStatsRawCounters,
+  observation: VillainHandObservation,
+): void {
+  counters.totalHands += 1;
+  if (observation.vpip) counters.vpipHands += 1;
+  if (observation.pfr) counters.pfrHands += 1;
+  if (observation.threeBetOpp) counters.threeBetOpps += 1;
+  if (observation.threeBetMade) counters.threeBetMade += 1;
 }
 
 export async function aggregateVillainStats(
@@ -364,6 +620,8 @@ export async function aggregateVillainStats(
 
   const existing = await db.villains.where('playerName').anyOf([...namesToFetch]).toArray();
   for (const v of existing) {
+    v.statsByPosition = normalizeStatsByPosition(v.statsByPosition);
+    v.rawCounters = normalizeRawCounters(v.rawCounters, v.stats, v.totalHands);
     villainMap.set(v.playerName, v);
   }
 
@@ -373,60 +631,28 @@ export async function aggregateVillainStats(
 
       let v = villainMap.get(p.playerName);
       if (!v) {
-        v = {
-          playerName: p.playerName,
-          firstSeen: hand.date,
-          lastSeen: hand.date,
-          totalHands: 0,
-          stats: { vpip: 0, pfr: 0, threeBetPct: 0, foldToThreeBet: 0, cbetFlop: 0, cbetTurn: 0, foldToCbet: 0, wtsd: 0, wsd: 0, af: 0, limpPct: 0 },
-          statsByPosition: new Map(),
-          shownHands: [],
-          archetype: null,
-          archetypeConfidence: 'low',
-          notes: '',
-          tags: [],
-        };
+        v = createVillainProfile(p, hand);
         villainMap.set(p.playerName, v);
       }
 
-      v.totalHands++;
       if (hand.date > v.lastSeen) v.lastSeen = hand.date;
       if (hand.date < v.firstSeen) v.firstSeen = hand.date;
 
-      // Stat tracking: VPIP, PFR, limps, 3-bets
-      const pActions = actions.filter((a) => a.playerName === p.playerName);
-      const preflopVoluntary = pActions.filter(
-        (a) => a.street === 'preflop' && !['post_ante', 'post_sb', 'post_bb'].includes(a.actionType),
-      );
-      const hasVpip = preflopVoluntary.some((a) => a.actionType === 'call' || a.actionType === 'raise');
-      const hasPfr = preflopVoluntary.some((a) => a.actionType === 'raise');
+      const observation = collectVillainHandObservation(hand, p, actions);
+      applyObservationToCounters(v.rawCounters, observation);
+      v.totalHands = v.rawCounters.totalHands;
+      v.stats = computeVillainStats(v.rawCounters);
 
-      // Limp: preflop call with no raise before this player's action
-      const allPreflopVoluntary = actions.filter(
-        (a) => a.street === 'preflop' && !['post_ante', 'post_sb', 'post_bb'].includes(a.actionType),
-      );
-      const playerFirstIdx = allPreflopVoluntary.findIndex((a) => a.playerName === p.playerName);
-      const actionsBefore = playerFirstIdx > 0 ? allPreflopVoluntary.slice(0, playerFirstIdx) : [];
-      const hasRaiseBefore = actionsBefore.some((a) => a.actionType === 'raise');
-      const hasLimp = preflopVoluntary.length > 0 &&
-        preflopVoluntary[0]!.actionType === 'call' &&
-        !hasRaiseBefore;
+      const existingPositionStats = v.statsByPosition[p.position];
+      const positionCounters = existingPositionStats?.rawCounters
+        ? { ...createEmptyPositionRawCounters(), ...existingPositionStats.rawCounters }
+        : createEmptyPositionRawCounters();
+      applyObservationToPositionCounters(positionCounters, observation);
+      v.statsByPosition[p.position] = computePositionStats(positionCounters);
 
-      // 3-bet: player faces a raise and re-raises
-      const has3BetOpp = hasRaiseBefore;
-      const has3Bet = has3BetOpp && preflopVoluntary.some((a) => a.actionType === 'raise');
-
-      const n = v.totalHands;
-      const updateMA = (old: number, val: number) => ((old * (n - 1)) + val) / n;
-
-      v.stats.vpip = updateMA(v.stats.vpip, hasVpip ? 100 : 0);
-      v.stats.pfr = updateMA(v.stats.pfr, hasPfr ? 100 : 0);
-      v.stats.limpPct = updateMA(v.stats.limpPct, hasLimp ? 100 : 0);
-      if (has3BetOpp) {
-        const prev3Bet = v.stats.threeBetPct;
-        // Weight: count 3-bet opps separately
-        v.stats.threeBetPct = updateMA(prev3Bet, has3Bet ? 100 : 0);
-      }
+      const classification = classifyVillain(v.stats, v.totalHands);
+      v.archetype = classification.archetype;
+      v.archetypeConfidence = classification.confidence;
 
       if (v.totalHands % 100 === 0) {
         await yieldToBrowser();
@@ -569,4 +795,3 @@ export async function saveImportRun(record: ImportRunRecord): Promise<void> {
 export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {
   return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
 }
-
