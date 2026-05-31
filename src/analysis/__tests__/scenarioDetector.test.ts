@@ -197,11 +197,83 @@ describe('buildHeroDecision', () => {
     expect(decision!.cbetMade).toBe(true);
   });
 
+  it('uses preflop pot size for c-bet sizing analysis', () => {
+    const parsed = parseFirst(HAND_FULL_STREETS);
+    const decision = buildHeroDecision(parsed);
+    const cbet = decision!.postflopActions?.find((a) => a.spot === 'CBET_HU');
+    expect(cbet?.sizing).toBeCloseTo(66 / 265, 3);
+  });
+
+  it('does not create a c-bet opportunity when villain donk-bets before hero', () => {
+    const parsed = parseFirst(`PokerStars Hand #260356800001: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level IV (50/100) - 2026/04/05 18:45:00 UTC [2026/04/05 14:45:00 ET]
+Table '3989541132 1' 6-max Seat #1 is the button
+Seat 1: scorza23 (3000 in chips)
+Seat 2: player2 (3000 in chips)
+Seat 3: player3 (3000 in chips)
+Seat 4: player4 (3000 in chips)
+Seat 5: player5 (3000 in chips)
+Seat 6: player6 (3000 in chips)
+player2: posts small blind 50
+player3: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kh]
+scorza23: raises 100 to 200
+player2: folds
+player3: calls 100
+*** FLOP *** [Ad 7d 2c]
+player3: bets 250
+scorza23: calls 250
+*** SUMMARY ***
+Total pot 950 | Rake 0
+Board [Ad 7d 2c]
+Seat 1: scorza23 (button) folded on the Flop
+Seat 3: player3 (big blind) collected (950)
+`);
+    const decision = buildHeroDecision(parsed);
+    expect(decision!.sawFlop).toBe(true);
+    expect(decision!.wasPreFlopRaiser).toBe(true);
+    expect(decision!.cbetOpportunity).toBe(false);
+    expect(decision!.cbetMade).toBe(false);
+    expect(decision!.postflopActions?.some((a) => a.spot === 'MISSED_CBET')).toBe(false);
+  });
+
   it('handles preflop-only hand (no flop)', () => {
     const parsed = parseFirst(HAND_PREFLOP_ONLY);
     const decision = buildHeroDecision(parsed);
     expect(decision!.sawFlop).toBe(false);
     expect(decision!.cbetOpportunity).toBe(false);
+  });
+
+  it('does not analyze postflop missed c-bet spots after hero folded preflop', () => {
+    const parsed = parseFirst(`PokerStars Hand #260356800002: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level IV (50/100) - 2026/04/05 18:45:00 UTC [2026/04/05 14:45:00 ET]
+Table '3989541132 1' 6-max Seat #1 is the button
+Seat 1: scorza23 (3000 in chips)
+Seat 2: player2 (3000 in chips)
+Seat 3: player3 (3000 in chips)
+Seat 4: player4 (3000 in chips)
+Seat 5: player5 (3000 in chips)
+Seat 6: player6 (3000 in chips)
+player2: posts small blind 50
+player3: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kh]
+scorza23: raises 100 to 200
+player2: raises 450 to 650
+player3: folds
+scorza23: folds
+*** FLOP *** [Ad 7d 2c]
+player2: bets 400
+*** SUMMARY ***
+Total pot 1050 | Rake 0
+Board [Ad 7d 2c]
+Seat 1: scorza23 (button) folded before Flop
+Seat 2: player2 (small blind) collected (1050)
+`);
+    const decision = buildHeroDecision(parsed);
+    expect(decision!.sawFlop).toBe(false);
+    expect(decision!.wasPreFlopRaiser).toBe(true);
+    expect(decision!.cbetOpportunity).toBe(false);
+    expect(decision!.postflopActions).toHaveLength(0);
   });
 
   it('detects hero fold action', () => {

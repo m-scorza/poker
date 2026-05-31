@@ -7,10 +7,48 @@ import { detectSqueezeOpportunity } from './squeezeDetector';
 import { analyzePostflop } from './postflopAnalyzer';
 
 const FORCED_ACTIONS = new Set(['post_ante', 'post_sb', 'post_bb']);
+const AGGRESSIVE_ACTIONS = new Set(['bet', 'raise']);
 
 interface ScenarioResult {
   scenario: Scenario;
   openerPosition: Position | null;
+}
+
+function actionsBeforePlayer(actions: Action[], playerName: string): Action[] {
+  const playerIdx = actions.findIndex((a) => a.playerName === playerName);
+  return playerIdx === -1 ? actions : actions.slice(0, playerIdx);
+}
+
+function hasAggressionBeforePlayer(actions: Action[], playerName: string): boolean {
+  return actionsBeforePlayer(actions, playerName).some(
+    (a) => a.playerName !== playerName && AGGRESSIVE_ACTIONS.has(a.actionType),
+  );
+}
+
+function computePotBeforeStreet(actions: Action[], street: Action['street']): number {
+  const streets: Action['street'][] = ['preflop', 'flop', 'turn', 'river'];
+  const streetIdx = streets.indexOf(street);
+  if (streetIdx <= 0) return 0;
+
+  const priorStreets = new Set(streets.slice(0, streetIdx));
+  const investedByPlayer = new Map<string, number>();
+  let pot = 0;
+
+  for (const action of actions) {
+    if (!priorStreets.has(action.street) || action.amount === null) continue;
+    if (action.actionType === 'fold' || action.actionType === 'check') continue;
+
+    const currentInvestment = investedByPlayer.get(action.playerName) ?? 0;
+    const contribution = action.actionType === 'raise'
+      ? Math.max(0, action.amount - currentInvestment)
+      : action.amount;
+    if (contribution <= 0) continue;
+
+    investedByPlayer.set(action.playerName, currentInvestment + contribution);
+    pot += contribution;
+  }
+
+  return pot;
 }
 
 /**
@@ -196,7 +234,8 @@ export function buildHeroDecision(
   const cbetHU = flopPlayerCount === 2;
   const heroAllInPreflop = heroVoluntaryActions.some((a) => a.isAllIn);
   const hasFlopActions = flopActions.length > 0;
-  const cbetOpportunity = wasPreFlopRaiser && sawFlop && !heroAllInPreflop && hasFlopActions;
+  const facedFlopDonk = hasAggressionBeforePlayer(flopActions, heroName);
+  const cbetOpportunity = wasPreFlopRaiser && sawFlop && !heroAllInPreflop && hasFlopActions && !facedFlopDonk;
   const cbetMade = cbetOpportunity && flopActions.some((a) => a.playerName === heroName && a.actionType === 'bet');
 
   const turnActions = actions.filter((a) => a.street === 'turn');
@@ -208,9 +247,9 @@ export function buildHeroDecision(
     actions,
     heroName,
     wasPreFlopRaiser,
-    hand.boardFlop,
+    sawFlop ? hand.boardFlop : null,
     flopPlayerCount,
-    hand.bigBlind * 10, // Approximation for pot size logic
+    computePotBeforeStreet(actions, 'flop') || hand.totalPot,
   );
 
   // Showdown detection
