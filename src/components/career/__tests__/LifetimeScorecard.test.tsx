@@ -22,10 +22,24 @@ const mockTournaments: Tournament[] = [
 const mockDecisions: HeroDecision[] = [
   {
     handId: 'h1',
+    position: 'BTN',
+    handKey: 'AKs',
+    stackBb: 40,
+    scenario: 'RFI',
     action: 'raise',
     isCompliant: true,
     deviationType: null,
-    street: 'preflop'
+    sawFlop: false,
+    wasPreFlopRaiser: true,
+    cbetOpportunity: false,
+    cbetMade: false,
+    cbetHU: false,
+    doubleBarrelOpportunity: false,
+    doubleBarrelMade: false,
+    wentToShowdown: false,
+    wonAtShowdown: false,
+    wonAmount: 0,
+    netProfit: 0
   }
 ];
 

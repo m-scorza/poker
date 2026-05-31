@@ -36,8 +36,9 @@ function hand(id: string, overrides: Partial<Hand> = {}): Hand {
 }
 
 function decision(overrides: Partial<HeroDecision> & { handId: string }): HeroDecision {
+  const { handId, ...rest } = overrides;
   return {
-    handId: overrides.handId,
+    handId,
     position: 'BB',
     handKey: 'A5s',
     stackBb: 30,
@@ -56,7 +57,7 @@ function decision(overrides: Partial<HeroDecision> & { handId: string }): HeroDe
     wonAtShowdown: false,
     wonAmount: 0,
     netProfit: -100,
-    ...overrides,
+    ...rest,
   };
 }
 
