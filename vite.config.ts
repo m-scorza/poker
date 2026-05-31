@@ -41,6 +41,21 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     testTimeout: 60000,
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'html'],
+      all: false,
+      include: ['src/**/*.{ts,tsx}'],
+      exclude: [
+        'src/**/*.test.{ts,tsx}',
+        'src/**/__tests__/**',
+        'src/test/**',
+        'src/types/**',
+      ],
+      thresholds: {
+        lines: 70,
+      },
+    },
     exclude: [
       '**/node_modules/**',
       '**/dist/**',
