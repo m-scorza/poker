@@ -90,13 +90,22 @@ describe('analyzePostflop', () => {
 
   it('detects missed c-bet in HU as PFR', () => {
     const actions = [
-      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 1 }),
-      makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 2 }),
+      makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 2 }),
     ];
     const spots = analyzePostflop(actions, 'hero', true, ['Ah', '7d', '2c'], 2, 100);
     expect(spots).toHaveLength(1);
     expect(spots[0]!.spot).toBe('MISSED_CBET');
     expect(spots[0]!.isCorrect).toBe(false);
+  });
+
+  it('does not flag missed c-bet when PFR checks out of position', () => {
+    const actions = [
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 1 }),
+      makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 2 }),
+    ];
+    const spots = analyzePostflop(actions, 'hero', true, ['Ah', '7d', '2c'], 2, 100);
+    expect(spots.some((s) => s.spot === 'MISSED_CBET')).toBe(false);
   });
 
   it('detects c-bet HU', () => {
@@ -155,6 +164,15 @@ describe('analyzePostflop', () => {
     const betSpot = spots.find((s) => s.spot === 'BET_VS_MISSED_CBET');
     expect(betSpot).toBeDefined();
     expect(betSpot!.isCorrect).toBe(false);
+  });
+
+  it('does not flag bet-vs-missed-cbet when hero is out of position', () => {
+    const actions = [
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 1 }),
+      makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 2 }),
+    ];
+    const spots = analyzePostflop(actions, 'hero', false, ['Kh', 'Qd', '3c'], 2, 100);
+    expect(spots.some((s) => s.spot === 'BET_VS_MISSED_CBET')).toBe(false);
   });
 
   it('detects probe turn after check-check on flop', () => {
