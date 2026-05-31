@@ -19,6 +19,33 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-05-30 - Range compliance MP and reaction cleanup
+
+- Owner / agent:          Codex
+- Branch:                 codex-range-compliance-mp-reactions
+- Scope:                  Range compliance correctness and Ranges page filtering only.
+- Files touched:
+  - `src/data/ranges.ts` - added explicit `MP` RFI mapping and removed loose reaction fallback.
+  - `src/analysis/rangeChecker.ts` - centralized RFI lookup, preserved BB RFI skip, and excluded BTN/BB calls before range lookup.
+  - `src/pages/RangesPage.tsx` - added `MP` selector and applied selected position to matrix decisions.
+  - `src/analysis/__tests__/rangeChecker.test.ts` - added MP, SB fallback, unsupported pair, and BTN/BB caller regressions.
+  - `docs/product/STATUS.md` - regenerated test-count autogen block.
+- Summary:
+  - 7/8-max `MP` hands are now checked against a conservative MP1 baseline instead of silently passing compliance.
+  - Facing-raise range checks no longer default unsupported hero/opener pairs to LP-vs-EP; unsupported raise/fold pairs are skipped, while non-BTN/BB cold calls still flag.
+  - Ranges page counts and grid data now use the same position/scenario predicates.
+- Verification:
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npx.cmd vitest run src/analysis/__tests__/rangeChecker.test.ts` - passed, 36 tests.
+  - `npx.cmd vitest run --isolate=false` - passed, 56 files / 590 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed after `npm.cmd run docs:update`.
+- Risks / assumptions:
+  - `MP` uses MP1 rather than MP2 to avoid creating loose false compliance for ambiguous middle-position histories.
+  - SB facing an early open uses the tighter EP-vs-EP reaction set until dedicated SB reaction charts exist.
+- Next action requested:
+  - Review whether dedicated reaction charts should be added for SB, blinds, and late-position-vs-late-position spots.
+
 ## 2026-05-31 - C-bet opportunity and missed-cbet fixes
 
 - Owner / agent:          Codex

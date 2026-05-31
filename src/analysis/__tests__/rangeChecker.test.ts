@@ -64,6 +64,20 @@ describe('checkCompliance — RFI', () => {
     expect(result!.isCompliant).toBe(false);
     expect(result!.deviationType).toBe('LIMPED');
   });
+
+  it('deviation: MP fold of in-range hand is checked, not skipped', () => {
+    const d = makeDecision({ position: 'MP', handKey: 'AKs', action: 'fold', scenario: 'RFI' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(false);
+    expect(result!.deviationType).toBe('OVERFOLD');
+  });
+
+  it('deviation: MP raise out of range is checked, not skipped', () => {
+    const d = makeDecision({ position: 'MP', handKey: '72o', action: 'raise', scenario: 'RFI' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(false);
+    expect(result!.deviationType).toBe('OPENED_OUT_OF_RANGE');
+  });
 });
 
 describe('checkCompliance — BLIND_WAR', () => {
@@ -132,21 +146,34 @@ describe('checkCompliance — FACING_RAISE', () => {
   });
 
   it('excluded: BTN can call facing raise', () => {
-    const d = makeDecision({ position: 'BTN', handKey: 'AQs', action: 'call', scenario: 'FACING_RAISE' });
+    const d = makeDecision({ position: 'BTN', handKey: 'AQs', action: 'call', scenario: 'FACING_RAISE', openerPosition: 'CO' });
     const result = checkCompliance(d);
     expect(result).toBeNull();
   });
 
   it('excluded: BB can call facing raise', () => {
-    const d = makeDecision({ position: 'BB', handKey: 'AQs', action: 'call', scenario: 'FACING_RAISE' });
+    const d = makeDecision({ position: 'BB', handKey: 'AQs', action: 'call', scenario: 'FACING_RAISE', openerPosition: 'CO' });
     const result = checkCompliance(d);
     expect(result).toBeNull();
   });
 
-  it('compliant: 3-bet from HJ', () => {
-    const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'CO' });
+  it('compliant: 3-bet from HJ versus early opener', () => {
+    const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'UTG' });
     const result = checkCompliance(d);
     expect(result!.isCompliant).toBe(true);
+  });
+
+  it('deviation: SB does not use loose LP-vs-EP fallback facing early opener', () => {
+    const d = makeDecision({ position: 'SB', handKey: 'AQo', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'UTG' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(false);
+    expect(result!.deviationType).toBe('OPENED_OUT_OF_RANGE');
+  });
+
+  it('excluded: unsupported raise pair is skipped instead of using fallback range', () => {
+    const d = makeDecision({ position: 'HJ', handKey: 'AQo', action: 'raise', scenario: 'FACING_RAISE', openerPosition: 'CO' });
+    const result = checkCompliance(d);
+    expect(result).toBeNull();
   });
 });
 

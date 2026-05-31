@@ -8,7 +8,7 @@
  */
 
 import type { Position, DeviationType, HeroDecision } from '../types/analysis';
-import { RFI_RANGES, SB_BLIND_WAR_RANGE, isSuitedHand, getReactionRange } from '../data/ranges';
+import { SB_BLIND_WAR_RANGE, isSuitedHand, getReactionRange, getRFIRange } from '../data/ranges';
 import type { StrategyProfile } from '../data/strategyProfiles';
 import { BB_DEFENSE_ICM_ADJUSTMENTS } from '../data/strategyProfiles';
 import type { ICMStage } from '../data/strategyProfiles';
@@ -74,9 +74,13 @@ function checkRFI(
   handKey: string,
   action: 'fold' | 'raise' | 'call' | 'check',
 ): ComplianceResult {
-  const range = RFI_RANGES[position];
+  if (position === 'BB') {
+    return { isCompliant: true, deviationType: null };
+  }
+
+  const range = getRFIRange(position);
   if (!range) {
-    // BB and BTN/SB don't have RFI ranges (BB is never RFI, BTN/SB is HU)
+    // Unsupported positions are skipped instead of guessed.
     return { isCompliant: true, deviationType: null };
   }
 
@@ -158,17 +162,17 @@ function checkFacingRaise(
     return null;
   }
 
+  if (action === 'call') {
+    // Standard reaction in Reg Life is 3-bet or fold (no cold-call)
+    // BTN and BB are excluded because flatting can be acceptable.
+    if (position === 'BB' || position === 'BTN') return null;
+    return { isCompliant: false, deviationType: 'COLD_CALL' };
+  }
+
   const range = getReactionRange(position, openerPosition);
   if (!range) return null;
 
   const inRange = range.has(handKey);
-
-  if (action === 'call') {
-    // Standard reaction in Reg Life is 3-bet or fold (no cold-call)
-    // Exception for BB exists in its own scenario
-    if (position === 'BB') return { isCompliant: true, deviationType: null };
-    return { isCompliant: false, deviationType: 'COLD_CALL' };
-  }
 
   if (inRange && action === 'fold') {
     return { isCompliant: false, deviationType: 'OVERFOLD' };

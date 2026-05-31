@@ -157,6 +157,9 @@ const SB_RANGE = cumulativeRange(UTG_HANDS, UTG1_ADDITIONS, MP1_ADDITIONS, MP2_A
 export const RFI_RANGES: PositionRanges = {
   UTG: rangeSet(UTG_RANGE),
   'UTG+1': rangeSet(UTG1_RANGE),
+  // 7/8-max hand histories report a single MP seat. Use MP1 as the
+  // conservative middle-position baseline instead of silently skipping it.
+  MP: rangeSet(MP1_RANGE),
   MP1: rangeSet(MP1_RANGE),
   MP2: rangeSet(MP2_RANGE),
   HJ: rangeSet(HJ_RANGE),
@@ -252,15 +255,16 @@ export function getRFIRange(position: Position): RangeSet | undefined {
 export function getReactionRange(hero: Position, opener: Position): RangeSet | undefined {
   if (hero === 'BB') return BB_DEFENSE_RANGE;
   
-  const isEP = (p: string) => ['UTG', 'UTG+1', 'MP1', 'MP2'].includes(p);
-  const isLP = (p: string) => ['HJ', 'CO', 'BTN'].includes(p);
+  const isEP = (p: string) => ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2'].includes(p);
+  const isLP = (p: string) => ['HJ', 'CO'].includes(p);
 
   if (hero === 'BTN' && opener === 'CO') return REACTION_RANGES.BTN_VS_CO;
+  if (hero === 'BTN' && isEP(opener)) return REACTION_RANGES.LP_VS_EP;
+  if (hero === 'SB' && isEP(opener)) return REACTION_RANGES.EP_VS_EP;
   if (isLP(hero) && isEP(opener)) return REACTION_RANGES.LP_VS_EP;
   if (isEP(hero) && isEP(opener)) return REACTION_RANGES.EP_VS_EP;
   
-  // Default fallback for other pairs: use a standard LP vs EP range
-  return REACTION_RANGES.LP_VS_EP;
+  return undefined;
 }
 
 /** 3-bet sizing based on stack depth (in bb) and position (IP/OOP). Source: [GamePlan] */
