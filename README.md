@@ -1,19 +1,20 @@
 # Poker Hand Analyzer
 
-A client-side React + TypeScript app for analyzing PokerStars tournament hand
-histories. Parses `.txt` exports, classifies preflop scenarios, scores hero
-decisions against pre-defined theoretical ranges, tracks leaks across sessions,
-and visualizes results in a dark poker-HUD UI. No backend, no external APIs —
-everything runs in the browser and persists to IndexedDB. Default hero
-is `scorza23`.
+A private, local-first React + TypeScript app for analyzing poker tournament
+hand histories. It imports PokerStars, GGPoker, and Open Hand History inputs,
+classifies preflop/postflop spots, scores hero decisions against local
+theoretical ranges, tracks leaks across sessions, and visualizes results in a
+browser-only analytics UI. No backend, no external APIs by default: hand data
+stays in local IndexedDB.
 
 ## Quick start
 
 ```bash
-npm install
-npm run dev      # start the Vite dev server
-npm test -- --run # run the Vitest suite (~420 tests)
-npm run build    # production build
+npm ci
+npm run dev       # start the Vite dev server
+npm test          # run the Vitest suite
+npm run build     # typecheck + production build
+npm run docs:check
 ```
 
 ## What lives where
@@ -27,15 +28,14 @@ npm run build    # production build
 ├── package.json .......... deps + npm scripts
 ├── vite.config.ts ........ build config
 ├── tsconfig.json ......... TypeScript config
-├── tailwind.config.ts .... Tailwind 4 config (via plugin)
 ├── Dockerfile ............ deploy target (static nginx)
 ├── src/ .................. the React app
-│   ├── parser/ ........... PokerStars hand-history parser
+│   ├── parser/ ........... PokerStars, GGPoker, and OHH import logic
 │   ├── analysis/ ......... scenario detection, range compliance, leaks
 │   ├── data/ ............. ranges, Dexie/IndexedDB, Zustand store
 │   ├── components/ ....... layout, hands, career, shared widgets
 │   ├── pages/ ............ routed views (Dashboard, Hands, Stats, ...)
-│   └── test/fixtures/ .... real PokerStars .txt fixtures
+│   └── test/fixtures/ .... PokerStars and GGPoker parser fixtures
 ├── scripts/ .............. build/utility scripts (regen-status, install-hooks)
 ├── docs/ ................. all documentation (see docs/README.md)
 │   ├── product/ .......... STATUS, ROADMAP, PARSER_HEALTH
@@ -55,8 +55,8 @@ npm run build    # production build
 
 | If you are... | Start here |
 |---|---|
-| A new human contributor | this README, then [`CLAUDE.md`](CLAUDE.md) |
-| Claude Code (this agent) | [`CLAUDE.md`](CLAUDE.md), then [`.claude/agents/janitor.md`](.claude/agents/janitor.md) |
+| A new human contributor | this README, then [`docs/product/STATUS.md`](docs/product/STATUS.md) |
+| Claude Code (this agent) | [`AGENTS.md`](AGENTS.md), then [`CLAUDE.md`](CLAUDE.md) |
 | Hermes / Antigravity / any coding agent | [`AGENTS.md`](AGENTS.md), then [`docs/agents/AGENT_HANDOFF.md`](docs/agents/AGENT_HANDOFF.md) |
 | A poker player auditing the analysis logic | [`docs/knowledge/strategy/`](docs/knowledge/strategy/) |
 | Someone curious what's actually shipped | [`docs/product/STATUS.md`](docs/product/STATUS.md) |
@@ -66,7 +66,7 @@ npm run build    # production build
 
 React 19 · TypeScript (strict) · Vite 6 · Tailwind 4 · Zustand 5 · Dexie 4 ·
 Recharts · Framer Motion · poker-odds-calculator · Vitest 3 ·
-@tanstack/react-table + react-virtual · vite-plugin-pwa.
+@tanstack/react-table · @tanstack/react-virtual · vite-plugin-pwa.
 
 ## License & IP
 

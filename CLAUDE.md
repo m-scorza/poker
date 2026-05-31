@@ -1,4 +1,4 @@
-# Poker Hand Analyzer — scorza23
+# Poker Hand Analyzer
 
 ## ⚠️ Active Coordination & Protocols
 
@@ -9,8 +9,9 @@ All agent coordination, task execution, and handoff formatting must strictly fol
 ## ⚠️ Before trusting this doc
 
 This file has historically drifted from the actual code. **Before relying on
-a claim here, verify it against source.** Sections were audited and corrected
-on 2026-04-17 — structure, deps, language status all now match reality.
+a claim here, verify it against source.** High-signal sections were audited and
+corrected on 2026-05-31, but this file is still an intent/spec guide. Source
+code, tests, and `docs/product/STATUS.md` win when there is any disagreement.
 If you spot a new mismatch, update this file in the same PR as the code
 change; see `docs/product/STATUS.md` for the current "what's actually shipped" snapshot.
 
@@ -44,7 +45,7 @@ See `docs/README.md` for the full bucket-by-bucket map.
 - **Localization**: UI and Analysis layers 100% migrated to English.
 - **Actionable Stats**: Performance-driven stats page with tournament ROI and leak cards.
 
-### ✅ Phase 6: Intelligence & Premium Arena (COMPLETED)
+### ✅ Phase 6: Intelligence & Arena (COMPLETED)
 - **High-Performance Parser**: Background parsing via Web Worker
   (`src/parser/worker.ts`), bounty support, and fuzzy summary matching.
 - **The Arena Trainer**: `ArenaPage.tsx` — compliance drills with Reaction
@@ -52,7 +53,7 @@ See `docs/README.md` for the full bucket-by-bucket map.
 - **Master Detail Insights**: Side-by-side Range Matrix with action frequency strips.
 - **Nemesis System**: Assassin, Crusher, and Total Damage tracking.
 
-**Stack:** React 19, TypeScript (strict), Tailwind CSS 4, Zustand, Dexie 4, Recharts, Vitest, Framer Motion, Poker-Odds-Calculator
+**Stack:** React 19, TypeScript (strict), Tailwind CSS 4, Zustand, Dexie 4, TanStack Table/Virtual, Recharts, Vitest, Framer Motion, Poker-Odds-Calculator
 
 ---
 
@@ -65,18 +66,18 @@ See `docs/README.md` for the full bucket-by-bucket map.
 
 **Core principle:** This app does NOT solve GTO in real time. It compares hero's decisions against pre-defined theoretical ranges.
 
-**Hero name:** `scorza23` (PokerStars screen name).
+**Hero name:** configurable in local settings. Historical fixtures/tests often use `scorza23`; user-facing docs should keep the posture generic.
 
 ---
 
 ## Core Features
 
-1. **Upload & Parsing** — Drag-and-drop `.txt` files, auto-dedup by Hand ID, multi-file support
+1. **Upload & Parsing** — Drag-and-drop text/ZIP/JSON inputs for PokerStars, GGPoker, and Open Hand History; auto-dedup by hand ID; multi-file support
 2. **Dashboard** — VPIP, PFR, C-bet (HU/total), WTSD, AF, ITM Rate, position heatmap, trend charts, session filter, info tooltips, intra-session running stats (25-hand buckets)
 3. **Hand Explorer** — Filter by position, scenario, deviation, stack depth, table size. Street-by-street replay, auto-flagged errors, manual notes
 4. **Range Compliance** — 13×13 grid per position, color-coded by compliance, deviation list with context
 5. **Leak Analyzer** — 10+ leaks with severity, trend, estimated bb cost. Dual-profile thresholds (Game Plan vs Advanced)
-6. **Session Manager** — Auto-group by 4h gap, comparison table + charts, CSV export
+6. **Session Manager** — Auto-group by 4h gap, comparison table + charts, CSV/PDF export
 7. **Villain Tracker** — Auto-classify opponents (Fish/Nit/TAG/LAG/Station/Maniac), manual notes/tags
 8. **Bounty & FT Analysis** — BPWR calculator, equity drop, fake shove detection, resteal analysis
 
@@ -371,31 +372,28 @@ type VillainArchetype = 'fish' | 'nit' | 'tag' | 'lag' | 'station' | 'maniac';
 
 ---
 
-## Project Structure (verified against source 2026-04-17)
+## Project Structure (verified against source 2026-05-31)
 
 ```
 src/
-├── parser/         pokerstars.ts, position.ts, handKey.ts,
-│                   tournamentSummary.ts, worker.ts (Web Worker offload)
-├── analysis/       scenarioDetector.ts*, rangeChecker.ts*, postflopAnalyzer.ts,
-│                   leakDetector.ts, icmDetector.ts, bountyAnalyzer.ts,
-│                   finalTableAnalyzer.ts, squeezeDetector.ts, pushFoldChecker.ts,
-│                   rangeValidator.ts, villainClassifier.ts,
-│                   villainExploitCrossRef.ts, math.ts, positionStats.ts
+├── parser/         PokerStars, GGPoker, Open Hand History, sanitizer,
+│                   contribution package, site identification, worker import
+├── analysis/       scenarioDetector.ts*, rangeChecker.ts*, postflopAnalyzer.ts*,
+│                   financials/career/study-plan modules, solver boundary,
+│                   bounty/final-table/squeeze/villain helpers
 ├── data/           ranges.ts*, store.ts (IndexedDB/Dexie), appStore.ts (Zustand),
-│                   sessions.ts, strategyProfiles.ts, pushFoldRanges.ts
+│                   sessions.ts, strategyProfiles.ts, pushFold/local heads-up refs
 ├── components/     layout/ (Layout, Sidebar, ErrorBoundary),
-│                   dashboard/ (TrendChart),
-│                   hands/ (HandReplay),
+│                   dashboard/ (TrendChart, StudyPlanCard, ValueSnapshotCard),
+│                   career/, hands/ (HandReplay, HandsTable, HandsUpload),
 │                   shared/ (Card, StatCard, RangeGrid, DualRangeMatrix,
-│                            InfoTooltip, ConfirmDialog)
+│                            InfoTooltip, ConfirmDialog, DemoDataButton)
 ├── pages/          DashboardPage, HandsPage (upload inline), StatsPage,
 │                   RangesPage, LeaksPage, VillainsPage, SessionsPage,
-│                   ArenaPage
-├── utils/          csvExport.ts, pdfExport.ts
-├── types/          hand.ts, analysis.ts, villain.ts
-└── test/fixtures/  ~250 real PokerStars .txt files + sample-hands.ts +
-                    summaries/ subdirectory
+│                   ArenaPage, CareerPage, DemoPage
+├── utils/          csvExport.ts, pdfExport.ts, evidence.ts, format.ts
+├── types/          hand.ts, analysis.ts, villain.ts, ranges.ts, evidence.ts
+└── test/fixtures/  PokerStars and GGPoker real-fixture corpus plus samples
 ```
 `*` = critical files, read before modifying
 
@@ -405,39 +403,40 @@ src/
   `Sidebar.tsx` + IndexedDB `settings` table.
 - No `Board.tsx` shared component. No `components/ranges` `stats` `leaks`
   `sessions` `upload` `villains` subdirs — those pages consume `shared/`.
-- `ArenaPage.tsx` exists and is wired at `/arena`.
+- `ArenaPage.tsx` exists and is wired at `/arena`; `DemoPage.tsx` is wired at `/demo`.
 
 ---
 
 ## Code Guidelines
 
 - TypeScript strict mode. Functional React + hooks. Zustand for state. Dexie for IndexedDB.
-- No external API calls. Unit tests with Vitest (332 tests, 18 files).
+- No external API calls by default. Unit tests run with Vitest; see `docs/product/STATUS.md` for the current test inventory.
 - Variable names in English.
 - UI strings and Analysis logic: **100% English**. All Portuguese strings were purged on 2026-05-11. New code should ship in English.
 - Do not add docstrings, comments, or error handling for impossible scenarios.
 
 ---
 
-## Key Dependencies (verified against `package.json` 2026-04-19)
+## Key Dependencies (verified against `package.json` 2026-05-31)
 
 Runtime:
 ```
 react 19, react-dom 19, react-router-dom 7,
 zustand 5, dexie 4, dexie-react-hooks 4,
-recharts 3, framer-motion 12,
-lucide-react ^1.7.0 (pin looks suspect — verify against npm),
+@tanstack/react-table 8, @tanstack/react-virtual 3,
+recharts 3, framer-motion 12, lucide-react 1,
 clsx 2, date-fns 4,
 poker-odds-calculator 0.4 (equity math in HandReplay),
 jspdf 4 + jspdf-autotable 5 (PDF export),
-jszip 3 (ZIP import on HandsPage upload)
+jszip 3 (ZIP import on HandsPage upload),
+vite-plugin-pwa 1
 ```
 
 Build / test:
 ```
 vite 6, @vitejs/plugin-react 4, tsx 4, typescript 5.7,
 tailwindcss 4 + @tailwindcss/vite 4,
-vitest 3
+vitest 3, jsdom, fake-indexeddb, Testing Library, ESLint 9
 ```
 
 **Phantom deps removed from older drafts:** `pokersolver`,
@@ -508,7 +507,9 @@ Min 30 hands for tentative, 100+ for confident classification.
 | `METRICS_DICTIONARY.md` | Single source of truth for platform math | **All Parsers/Analysis Math** |
 | `claudecode_index.md` | Concept-to-doc map | **Read FIRST** |
 
-**Source attribution:** `[GamePlan]` `[Vol.1-3]` `[ICM]` `[NERD]` `[D#N]` = Dossiê N by @luischiavo
+**Source attribution:** legacy internal tags such as `[GamePlan]`, `[Vol.1-3]`,
+`[ICM]`, `[NERD]`, and `[D#N]` may still appear in strategy/code comments.
+Do not expose these as user-facing branding without a separate IP/source review.
 
 ---
 
