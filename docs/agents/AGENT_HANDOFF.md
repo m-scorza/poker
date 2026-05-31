@@ -19,6 +19,36 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-05-31 - Advanced analyzer import pipeline wiring
+
+- Owner / agent:          Codex
+- Branch:                 task/connect-advanced-analyzers
+- Scope:                  `src/types/analysis.ts`, `src/analysis/scenarioDetector.ts`, `src/parser/workerProcessor.ts`, `src/data/store.ts`, and focused scenario detector tests.
+- Files touched:
+  - `src/types/analysis.ts` - adds optional `bountyContext`, `fakeShoveSpot`, and `restealSpot` fields to `HeroDecision`.
+  - `src/analysis/scenarioDetector.ts` - attaches bounty, fake-shove, and resteal analyzer outputs while building import-pipeline hero decisions.
+  - `src/analysis/__tests__/scenarioDetector.test.ts` - adds regressions for PKO bounty context, FT fake shove, and FT resteal context.
+  - `docs/product/STATUS.md` - regenerated test-count metadata.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Connected existing `bountyAnalyzer` and `finalTableAnalyzer` outputs to the `HeroDecision` records created by `buildHeroDecision`.
+  - Preserved the existing `squeezeSpot` pipeline wiring and added tests that prove all advanced contexts are attached before persistence.
+  - Left Dexie schema/indexes unchanged because the new fields are non-indexed object payloads on existing `heroDecisions` rows.
+- Verification:
+  - `npx.cmd vitest run src/analysis/__tests__/scenarioDetector.test.ts` - passed, 28 tests.
+  - `npm.cmd run typecheck` - passed.
+  - `npm.cmd test` - passed outside sandbox after the known esbuild filesystem denial, 56 files / 599 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed after `npm.cmd run docs:update`.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-05-31-advanced-analyzers-evidence.md`.
+- Risks / assumptions:
+  - Bounty context uses hand-history tournament labels/buy-in and a primary-villain heuristic; companion tournament summaries can still refine tournament rows after import, but do not retroactively recompute existing decisions.
+  - Final-table contexts are gated to `icmStage === 'final_table'` to avoid early-stage fake-shove/resteal false positives.
+  - Scheduler `complete` should not be forced while task `allowed_files` omits required generated docs/handoff updates; mark/review the board state after PR review.
+- Next action requested:
+  - Review the branch/PR. If accepted, reconcile task board completion with the required docs files.
+
 ## 2026-05-31 - Villain stats position records and raw counters
 
 - Owner / agent:          Codex
