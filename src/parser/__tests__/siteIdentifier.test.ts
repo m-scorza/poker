@@ -60,6 +60,21 @@ You received a total of $0.
     expect(result.type).toBe('hand_history');
   });
 
+  it('identifies Open Hand History JSON larger than the text signature scan window', () => {
+    const result = identifyFile(JSON.stringify({
+      ohh: {
+        spec_version: '1.2.2',
+        network_name: 'iPoker Network',
+        site_name: 'iPoker',
+        game_number: '7948166852',
+      },
+      padding: 'x'.repeat(70000),
+    }));
+
+    expect(result.site).toBe('open_hand_history');
+    expect(result.type).toBe('hand_history');
+  });
+
   it.each([
     ['Winning Poker Network', 'Winning Poker Network Hand #55030950'],
     ['iPoker', 'Game ID 7948166852 - iPoker Network - €100 Gtd'],

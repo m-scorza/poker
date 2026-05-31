@@ -173,6 +173,14 @@ export interface PostflopAction {
   note: string;
 }
 
+function actedAfterVillainCheck(actions: Action[], heroName: string): boolean {
+  const heroIdx = actions.findIndex((a) => a.playerName === heroName);
+  if (heroIdx <= 0) return false;
+  return actions.slice(0, heroIdx).some(
+    (a) => a.playerName !== heroName && a.actionType === 'check',
+  );
+}
+
 /**
  * Analyze hero's postflop play in a single hand.
  *
@@ -196,6 +204,7 @@ export function analyzePostflop(
 
   const isHU = flopPlayerCount === 2;
   const boardAnalysis = classifyBoardTexture(flopCards);
+  const heroInPositionOnFlop = actedAfterVillainCheck(flopActions, heroName);
 
   // If hero was all-in preflop, no postflop actions are possible.
   const heroPreflopActions = actions.filter((a) => a.street === 'preflop' && a.playerName === heroName);
@@ -249,8 +258,8 @@ export function analyzePostflop(
           });
         }
       }
-    } else if (isHU) {
-      // Missed c-bet in HU as PFR — this is always a leak in Game Plan
+    } else if (isHU && heroInPositionOnFlop) {
+      // Missed c-bet in HU as IP PFR is a Game Plan leak. OOP checks are context-dependent.
       spots.push({
         spot: 'MISSED_CBET',
         street: 'flop',
@@ -267,7 +276,7 @@ export function analyzePostflop(
     const villainCheckedFlop = villainFlopActions.some((a) => a.actionType === 'check');
     const heroBetFlop = heroFlopActions.some((a) => a.actionType === 'bet');
 
-    if (isHU && villainCheckedFlop) {
+    if (isHU && villainCheckedFlop && heroInPositionOnFlop) {
       spots.push({
         spot: 'BET_VS_MISSED_CBET',
         street: 'flop',
