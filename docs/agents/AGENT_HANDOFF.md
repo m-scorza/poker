@@ -19,6 +19,38 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-05-31 - Documentation review and source-of-truth refresh
+
+- Owner / agent:          Codex
+- Branch:                 codex/docs-review-2026-05-31
+- Scope:                  Documentation-only review of root README, core product docs, agent-facing guidance, script inventory, and audit notes.
+- Files touched:
+  - `README.md` - reframed the app as a private/local multi-site analyzer, removed stale fixed-hero and old test-count wording, and corrected tree/dependency references.
+  - `CLAUDE.md` - refreshed high-signal architecture, dependency, structure, hero-name, and source-attribution notes while preserving its intent/spec role.
+  - `docs/product/STATUS.md` - updated verification metadata, `/demo` route state, dependency/analysis summaries, recent correctness fixes, and open follow-ups.
+  - `docs/product/ROADMAP.md` - closed completed smoke-test, villain repair-path, TanStack Table/Virtual, and PWA configuration items; added the still-open `statsByPosition` persistence task.
+  - `docs/product/PARSER_HEALTH.md` - changed the remaining gate pointer to the active board and IP audit instead of the retired partnership-status path.
+  - `docs/audits/IP_COPY_AUDIT.md` - marked the audit as historical and noted `/demo` supersedes the old `/pricing` route.
+  - `scripts/README.md` - added the active agent/kernel/docs scripts.
+  - `docs/reports/2026-05-31-documentation-review.md` - recorded audit scope, corrections, and remaining drift risks.
+  - `docs/agents/AGENT_HANDOFF.md` - recorded this session.
+  - `.agents/runs/2026-05-31-docs-review-evidence.md` - local gitignored evidence summary.
+- Summary:
+  - Brought current docs back in line with `main` after PRs #27-#29: `/demo` is the active validation/demo route, `/pricing` is no longer wired, current test result is 56 files / 596 tests, and recent range/OHH/c-bet correctness fixes are reflected in `STATUS.md`.
+  - Kept historical plans/reports/archive entries intact unless they were being used as active current pointers.
+  - Did not mutate `.agents/state/task_spool.json`; the local scheduler state still needs separate cleanup after recent merges.
+- Verification:
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - sandboxed run failed to load `vite.config.ts` because esbuild hit `Cannot read directory "../../../..": Acesso negado`; rerun outside sandbox passed, 56 files / 596 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed again after final `STATUS.md` metadata update.
+- Risks / assumptions:
+  - This was a documentation-only pass; no app source behavior changed.
+  - Historical docs still mention `/pricing`, `PARTNERSHIP_STATUS.md`, and older branch names by design because they are point-in-time records.
+  - `CLAUDE.md` remains lower authority than source/tests/`STATUS.md`, even after this refresh.
+- Next action requested:
+  - Review and commit this docs branch if the scope looks right; then handle the separate task-spool cleanup and the next correctness task (`statsByPosition` persistence or dedicated facing-raise reaction charts).
+
 ## 2026-05-30 - Range compliance MP and reaction cleanup
 
 - Owner / agent:          Codex
