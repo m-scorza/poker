@@ -136,6 +136,27 @@ describe('aggregateVillainStats', () => {
     expect(villain!.stats.threeBetPct).toBe(100);
   });
 
+  it('does not count a 3-bettor folding to a 4-bet as fold-to-3-bet', async () => {
+    await aggregateVillainStats([
+      handData('1', 'CO', [
+        action('1', 1, 'Hero', 'raise'),
+        action('1', 2, 'Villain', 'raise'),
+        action('1', 3, 'Hero', 'raise'),
+        action('1', 4, 'Villain', 'fold'),
+      ]),
+    ]);
+
+    const villain = await db.villains.get('Villain');
+
+    expect(villain!.rawCounters).toMatchObject({
+      threeBetOpps: 1,
+      threeBetMade: 1,
+      foldToThreeBetOpps: 0,
+      foldToThreeBetMade: 0,
+    });
+    expect(villain!.stats.foldToThreeBet).toBe(0);
+  });
+
   it('tracks per-position VPIP/PFR independently', async () => {
     await aggregateVillainStats([
       handData('1', 'CO', [

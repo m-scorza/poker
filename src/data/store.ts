@@ -519,7 +519,7 @@ function collectVillainHandObservation(
   const preflopRaises = allPreflop.filter((a) => a.actionType === 'raise');
   const lastPreflopRaise = preflopRaises[preflopRaises.length - 1];
   const firstPlayerRaise = playerPreflop.find((a) => a.actionType === 'raise');
-  const firstRaiseAfterPlayerOpen = firstPlayerRaise
+  const firstRaiseAfterPlayerOpen = firstPlayerRaise && !hasRaiseBefore
     ? allPreflop.find((a) => a.sequence > firstPlayerRaise.sequence && a.playerName !== player.playerName && a.actionType === 'raise')
     : undefined;
   const foldAfterFacingThreeBet = firstRaiseAfterPlayerOpen
