@@ -192,10 +192,55 @@ const BTN_VS_CO_RX: string[] = [
   'KQo',
 ];
 
-export const REACTION_RANGES: Record<string, RangeSet> = {
+const CO_VS_HJ_RX: string[] = [
+  ...expandPairs('A', '8'),
+  ...expandSuitedRange('A', 'K', 'J', 's'),
+  ...expandSuitedRange('A', '5', '3', 's'),
+  'KQs', 'QJs', 'JTs',
+  '98s', '87s', '76s',
+  'AKo', 'AQo',
+];
+
+const SB_VS_LATE_RX: string[] = [
+  ...expandPairs('A', '8'),
+  ...expandSuitedRange('A', 'K', 'J', 's'),
+  ...expandSuitedRange('A', '5', '4', 's'),
+  'KQs', 'AKo', 'AQo',
+];
+
+export const REACTION_RANGES = {
   EP_VS_EP: rangeSet(EP_VS_EP_RX),
   LP_VS_EP: rangeSet(LP_VS_EP_RX),
   BTN_VS_CO: rangeSet(BTN_VS_CO_RX),
+  CO_VS_HJ: rangeSet(CO_VS_HJ_RX),
+  SB_VS_LATE: rangeSet(SB_VS_LATE_RX),
+} satisfies Record<string, RangeSet>;
+
+type ReactionRangeKey = keyof typeof REACTION_RANGES;
+
+const EP_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2'];
+
+const REACTION_RANGE_BY_POSITION: Partial<Record<Position, Partial<Record<Position, ReactionRangeKey>>>> = {
+  'UTG+1': { UTG: 'EP_VS_EP' },
+  MP: { UTG: 'EP_VS_EP', 'UTG+1': 'EP_VS_EP' },
+  MP1: { UTG: 'EP_VS_EP', 'UTG+1': 'EP_VS_EP' },
+  MP2: { UTG: 'EP_VS_EP', 'UTG+1': 'EP_VS_EP', MP: 'EP_VS_EP', MP1: 'EP_VS_EP' },
+  HJ: Object.fromEntries(EP_POSITIONS.map((position) => [position, 'LP_VS_EP'])) as Partial<Record<Position, ReactionRangeKey>>,
+  CO: {
+    ...Object.fromEntries(EP_POSITIONS.map((position) => [position, 'LP_VS_EP'])),
+    HJ: 'CO_VS_HJ',
+  } as Partial<Record<Position, ReactionRangeKey>>,
+  BTN: {
+    ...Object.fromEntries(EP_POSITIONS.map((position) => [position, 'LP_VS_EP'])),
+    HJ: 'CO_VS_HJ',
+    CO: 'BTN_VS_CO',
+  } as Partial<Record<Position, ReactionRangeKey>>,
+  SB: {
+    ...Object.fromEntries(EP_POSITIONS.map((position) => [position, 'EP_VS_EP'])),
+    HJ: 'SB_VS_LATE',
+    CO: 'SB_VS_LATE',
+    BTN: 'SB_VS_LATE',
+  } as Partial<Record<Position, ReactionRangeKey>>,
 };
 
 /** SB raise range for BLIND_WAR scenario. Same as SB RFI range. */
@@ -254,17 +299,9 @@ export function getRFIRange(position: Position): RangeSet | undefined {
  */
 export function getReactionRange(hero: Position, opener: Position): RangeSet | undefined {
   if (hero === 'BB') return BB_DEFENSE_RANGE;
-  
-  const isEP = (p: string) => ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2'].includes(p);
-  const isLP = (p: string) => ['HJ', 'CO'].includes(p);
 
-  if (hero === 'BTN' && opener === 'CO') return REACTION_RANGES.BTN_VS_CO;
-  if (hero === 'BTN' && isEP(opener)) return REACTION_RANGES.LP_VS_EP;
-  if (hero === 'SB' && isEP(opener)) return REACTION_RANGES.EP_VS_EP;
-  if (isLP(hero) && isEP(opener)) return REACTION_RANGES.LP_VS_EP;
-  if (isEP(hero) && isEP(opener)) return REACTION_RANGES.EP_VS_EP;
-  
-  return undefined;
+  const rangeKey = REACTION_RANGE_BY_POSITION[hero]?.[opener];
+  return rangeKey ? REACTION_RANGES[rangeKey] : undefined;
 }
 
 /** 3-bet sizing based on stack depth (in bb) and position (IP/OOP). Source: [GamePlan] */

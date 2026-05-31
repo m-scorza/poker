@@ -38,6 +38,16 @@ export interface PositionStats {
   vpip: number;
   pfr: number;
   threeBetPct: number;
+  rawCounters: PositionStatsRawCounters;
+}
+
+/** Raw counters for position-specific preflop stats. */
+export interface PositionStatsRawCounters {
+  totalHands: number;
+  vpipHands: number;
+  pfrHands: number;
+  threeBetOpps: number;
+  threeBetMade: number;
 }
 
 /** A hand revealed at showdown — used to build villain's actual range profile. */
@@ -57,7 +67,8 @@ export interface VillainProfile {
   lastSeen: Date;
   totalHands: number;
   stats: VillainStats;
-  statsByPosition: Map<Position, PositionStats>;
+  statsByPosition: Partial<Record<Position, PositionStats>>;
+  rawCounters: VillainRawCounters;
   shownHands: ShownHand[];
   archetype: VillainArchetype | null;
   archetypeConfidence: ArchetypeConfidence;
