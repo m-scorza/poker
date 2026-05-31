@@ -3,6 +3,8 @@ import type { Position, Scenario, HeroDecision } from '../types/analysis';
 import type { ParsedHand } from '../parser/pokerstars';
 import { toCanonicalHandKey } from '../parser/handKey';
 import { estimateICMStage } from './icmDetector';
+import { detectBountyTournament, estimateBountyContext } from './bountyAnalyzer';
+import { detectFakeShove, detectRestealSpot } from './finalTableAnalyzer';
 import { detectSqueezeOpportunity } from './squeezeDetector';
 import { analyzePostflop } from './postflopAnalyzer';
 
@@ -49,6 +51,40 @@ function computePotBeforeStreet(actions: Action[], street: Action['street']): nu
   }
 
   return pot;
+}
+
+function findPrimaryVillain(
+  players: PlayerInHand[],
+  actions: Action[],
+  heroName: string,
+): PlayerInHand | null {
+  const nonHeroPlayers = players.filter((p) => p.playerName !== heroName);
+  if (nonHeroPlayers.length === 0) return null;
+
+  const preflopActions = actions.filter(
+    (a) => a.street === 'preflop' && !FORCED_ACTIONS.has(a.actionType),
+  );
+  const heroIdx = preflopActions.findIndex((a) => a.playerName === heroName);
+  const actionsBeforeHero = heroIdx === -1 ? preflopActions : preflopActions.slice(0, heroIdx);
+
+  const directAggressor = [...actionsBeforeHero]
+    .reverse()
+    .find((a) => a.playerName !== heroName && AGGRESSIVE_ACTIONS.has(a.actionType));
+  const directCaller = actionsBeforeHero.find((a) => a.playerName !== heroName && a.actionType === 'call');
+  const fallbackActor = actions.find((a) => a.playerName !== heroName && !FORCED_ACTIONS.has(a.actionType));
+  const villainName = directAggressor?.playerName ?? directCaller?.playerName ?? fallbackActor?.playerName;
+
+  return nonHeroPlayers.find((p) => p.playerName === villainName) ?? nonHeroPlayers[0]!;
+}
+
+function inferBountyTournamentType(parsedHand: ParsedHand): ReturnType<typeof detectBountyTournament> {
+  const { tournament } = parsedHand;
+  const label = [tournament.name, tournament.category, tournament.format]
+    .filter(Boolean)
+    .join(' ');
+  const detected = detectBountyTournament(label, tournament.buyIn ?? 0);
+  if (detected !== 'regular') return detected;
+  return (tournament.bounty ?? 0) > 0 ? 'knockout' : 'regular';
 }
 
 /**
@@ -192,6 +228,17 @@ export function buildHeroDecision(
   const squeezeResult = detectSqueezeOpportunity(
     actions, heroName, hero.position, handKey, stackBb, hand.bigBlind,
   );
+  const primaryVillain = findPrimaryVillain(players, actions, heroName);
+  const bountyContext = estimateBountyContext(
+    hand,
+    hero,
+    primaryVillain,
+    inferBountyTournamentType(parsedHand),
+    parsedHand.tournament.buyIn ?? 0,
+  );
+  const isFinalTableSpot = icmEstimate.stage === 'final_table';
+  const fakeShoveSpot = isFinalTableSpot ? detectFakeShove(hand, hero, actions) : null;
+  const restealSpot = isFinalTableSpot ? detectRestealSpot(hand, hero, players, actions) : null;
 
   // Find hero's first voluntary preflop action
   const heroVoluntaryActions = actions.filter(
@@ -279,6 +326,9 @@ export function buildHeroDecision(
     wonAtShowdown,
     wonAmount,
     icmStage: icmEstimate.stage,
+    bountyContext,
+    fakeShoveSpot,
+    restealSpot,
     squeezeSpot: squeezeResult
       ? { callerCount: squeezeResult.callerCount, heroAction: squeezeResult.heroAction, recommendedSizing: squeezeResult.recommendedSizing }
       : null,

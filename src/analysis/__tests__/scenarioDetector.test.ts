@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { detectScenario, buildHeroDecision } from '../scenarioDetector';
-import { parsePokerStarsFile } from '../../parser/pokerstars';
+import { parsePokerStarsFile, type ParsedHand } from '../../parser/pokerstars';
+import type { Action, Hand, PlayerInHand, Tournament } from '../../types/hand';
 import {
   HAND_FULL_STREETS,
   HAND_PREFLOP_ONLY,
@@ -18,6 +19,89 @@ import {
 function parseFirst(text: string) {
   const results = parsePokerStarsFile(text);
   return results[0]!;
+}
+
+function makeHand(overrides: Partial<Hand> = {}): Hand {
+  return {
+    id: 'advanced-spot-1',
+    tournamentId: 'T1',
+    date: new Date('2026-05-31T12:00:00Z'),
+    level: 16,
+    smallBlind: 200,
+    bigBlind: 400,
+    ante: 50,
+    maxSeats: 9,
+    activePlayers: 4,
+    buttonSeat: 1,
+    boardFlop: null,
+    boardTurn: null,
+    boardRiver: null,
+    totalPot: 1200,
+    rake: 0,
+    hasShowdown: false,
+    heroChipsBefore: 4800,
+    heroChipsAfter: 4800,
+    villainDeltas: [],
+    ...overrides,
+  };
+}
+
+function makePlayer(overrides: Partial<PlayerInHand>): PlayerInHand {
+  return {
+    handId: 'advanced-spot-1',
+    seatNumber: 1,
+    playerName: 'Hero',
+    chipsBefore: 4800,
+    chipsAfter: 4800,
+    position: 'CO',
+    isHero: true,
+    holeCards: ['Ah', 'Kh'],
+    ...overrides,
+  };
+}
+
+function makeAction(overrides: Partial<Action>): Action {
+  return {
+    handId: 'advanced-spot-1',
+    street: 'preflop',
+    playerName: 'Hero',
+    actionType: 'fold',
+    amount: null,
+    isAllIn: false,
+    sequence: 1,
+    ...overrides,
+  };
+}
+
+function makeParsedHand(
+  overrides: {
+    hand?: Partial<Hand>;
+    players?: PlayerInHand[];
+    actions?: Action[];
+    tournament?: Partial<Tournament>;
+  } = {},
+): ParsedHand {
+  const hand = makeHand(overrides.hand);
+  const players = overrides.players ?? [makePlayer({ handId: hand.id })];
+  const actions = overrides.actions ?? [
+    makeAction({ handId: hand.id, playerName: 'Hero', actionType: 'raise', amount: 3200 }),
+  ];
+
+  return {
+    hand,
+    players,
+    actions,
+    tournament: {
+      id: hand.tournamentId,
+      name: '$10 Progressive KO',
+      buyIn: 10,
+      fee: 1,
+      format: 'Progressive KO',
+      ...overrides.tournament,
+    },
+    collectedAmounts: new Map(),
+    showdownWinners: new Set(),
+  };
 }
 
 describe('detectScenario', () => {
@@ -308,6 +392,111 @@ Seat 2: player2 (small blind) collected (1050)
     const decision = buildHeroDecision(parsed);
     expect(decision!.isCompliant).toBe(false);
     expect(decision!.deviationType).toBeNull();
+  });
+
+  it('attaches bounty context for progressive KO hands', () => {
+    const hand = makeHand({ id: 'bounty-spot', level: 7, activePlayers: 6, maxSeats: 9, totalPot: 1600 });
+    const villain = makePlayer({
+      handId: hand.id,
+      playerName: 'Villain',
+      seatNumber: 2,
+      chipsBefore: 3000,
+      chipsAfter: 3000,
+      position: 'HJ',
+      isHero: false,
+      holeCards: null,
+    });
+    const hero = makePlayer({ handId: hand.id, chipsBefore: 5000, chipsAfter: 5000, position: 'CO' });
+    const parsed = makeParsedHand({
+      hand,
+      players: [villain, hero],
+      actions: [
+        makeAction({ handId: hand.id, playerName: 'Villain', actionType: 'raise', amount: 800, sequence: 1 }),
+        makeAction({ handId: hand.id, playerName: 'Hero', actionType: 'call', amount: 800, sequence: 2 }),
+      ],
+    });
+
+    const decision = buildHeroDecision(parsed, 'Hero');
+
+    expect(decision!.bountyContext).toMatchObject({
+      tournamentType: 'progressive_ko',
+      heroCoversVillain: true,
+      stageAdjustment: 'mid',
+    });
+    expect(decision!.bountyContext!.equityDrop).toBeGreaterThan(0);
+  });
+
+  it('attaches fake shove context for final table large non-all-in raises', () => {
+    const hand = makeHand({ id: 'fake-shove-spot', level: 16, activePlayers: 4, maxSeats: 9, bigBlind: 400 });
+    const hero = makePlayer({ handId: hand.id, chipsBefore: 4800, chipsAfter: 4800, position: 'BTN' });
+    const parsed = makeParsedHand({
+      hand,
+      players: [
+        hero,
+        makePlayer({ handId: hand.id, playerName: 'SB', seatNumber: 2, chipsBefore: 5200, position: 'SB', isHero: false, holeCards: null }),
+        makePlayer({ handId: hand.id, playerName: 'BB', seatNumber: 3, chipsBefore: 7000, position: 'BB', isHero: false, holeCards: null }),
+      ],
+      actions: [
+        makeAction({ handId: hand.id, playerName: 'Hero', actionType: 'raise', amount: 3200, sequence: 1, isAllIn: false }),
+      ],
+      tournament: { name: '$20 Freezeout', format: '9-max', buyIn: 20 },
+    });
+
+    const decision = buildHeroDecision(parsed, 'Hero');
+
+    expect(decision!.icmStage).toBe('final_table');
+    expect(decision!.fakeShoveSpot).toMatchObject({
+      handId: hand.id,
+      heroPosition: 'BTN',
+      isFakeShove: true,
+      raiseSize: 3200,
+    });
+  });
+
+  it('attaches resteal context for final table late-position defense', () => {
+    const hand = makeHand({ id: 'resteal-spot', level: 16, activePlayers: 4, maxSeats: 9, bigBlind: 400 });
+    const opener = makePlayer({
+      handId: hand.id,
+      playerName: 'ChipLeader',
+      seatNumber: 1,
+      chipsBefore: 20000,
+      position: 'CO',
+      isHero: false,
+      holeCards: null,
+    });
+    const hero = makePlayer({
+      handId: hand.id,
+      seatNumber: 4,
+      chipsBefore: 6000,
+      chipsAfter: 6000,
+      position: 'BB',
+    });
+    const parsed = makeParsedHand({
+      hand,
+      players: [
+        opener,
+        makePlayer({ handId: hand.id, playerName: 'BTN', seatNumber: 2, chipsBefore: 4500, position: 'BTN', isHero: false, holeCards: null }),
+        makePlayer({ handId: hand.id, playerName: 'SB', seatNumber: 3, chipsBefore: 3000, position: 'SB', isHero: false, holeCards: null }),
+        hero,
+      ],
+      actions: [
+        makeAction({ handId: hand.id, playerName: 'ChipLeader', actionType: 'raise', amount: 800, sequence: 1 }),
+        makeAction({ handId: hand.id, playerName: 'BTN', actionType: 'fold', sequence: 2 }),
+        makeAction({ handId: hand.id, playerName: 'SB', actionType: 'fold', sequence: 3 }),
+        makeAction({ handId: hand.id, playerName: 'Hero', actionType: 'raise', amount: 6000, sequence: 4, isAllIn: true }),
+      ],
+      tournament: { name: '$20 Final Table', format: '9-max', buyIn: 20 },
+    });
+
+    const decision = buildHeroDecision(parsed, 'Hero');
+
+    expect(decision!.icmStage).toBe('final_table');
+    expect(decision!.restealSpot).toMatchObject({
+      handId: hand.id,
+      heroPosition: 'BB',
+      villainStackType: 'chip_leader',
+      heroAction: 'resteal',
+    });
   });
 
   describe('W$SD detection', () => {

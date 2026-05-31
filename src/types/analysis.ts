@@ -1,5 +1,7 @@
 import type { ICMStage } from '../data/strategyProfiles';
 import type { PostflopAction } from '../analysis/postflopAnalyzer';
+import type { BountyContext } from '../analysis/bountyAnalyzer';
+import type { FakeShoveSpot, RestealSpot } from '../analysis/finalTableAnalyzer';
 import type { Position } from './hand';
 export type { Position };
 
@@ -51,6 +53,9 @@ export interface HeroDecision {
   wonAtShowdown: boolean;
   wonAmount: number;
   icmStage?: ICMStage;
+  bountyContext?: BountyContext | null;
+  fakeShoveSpot?: FakeShoveSpot | null;
+  restealSpot?: RestealSpot | null;
   squeezeSpot?: { callerCount: number; heroAction: string; recommendedSizing: number } | null;
   netProfit: number;
   openerPosition?: Position | null;
