@@ -47,6 +47,32 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:
   - Review and PR this branch, then update the local task spool if desired.
 
+## 2026-05-31 - OHH large JSON and upload worker cleanup
+
+- Owner / agent:          Codex
+- Branch:                 task/ohh-parser-worker-fix-codex
+- Scope:                  OHH file identification and upload worker lifecycle cleanup.
+- Files touched:
+  - `src/parser/siteIdentifier.ts` - checks full JSON content for OHH before the 65KB text signature scan.
+  - `src/parser/__tests__/siteIdentifier.test.ts` - adds a large OHH JSON regression.
+  - `src/components/hands/HandsUpload.tsx` - terminates superseded/unmounted parser workers and guards stale async completions.
+  - `docs/product/STATUS.md` - updates generated test-count block.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Large valid OHH JSON files are no longer misrouted because the detector no longer parses only a truncated JSON prefix.
+  - Upload workers are cleaned up on unmount, replacement, completion, and error; stale async file reads/import completions are ignored using an import sequence guard.
+- Verification:
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npx.cmd vitest run src/parser/__tests__/siteIdentifier.test.ts` - passed, 14 tests.
+  - `npm.cmd run docs:check` - passed.
+  - `npx.cmd vitest run --isolate=false` - passed, 56 files / 587 tests.
+  - `npm.cmd run build` - passed.
+- Risks / assumptions:
+  - Main checkout had an unrelated Antigravity handoff edit; task implementation was mirrored into a clean worktree for a clean PR.
+  - No browser manual upload/unmount smoke was run; validation is typecheck, parser regression, full tests, and build.
+- Next action requested:
+  - Review and open/merge PR when ready. The original checkout still preserves the unrelated Antigravity handoff edit.
+
 ## 2026-05-31 - Standalone Sandbox v4 Visual Novelty Upgrades
 
 - Owner / agent:          Antigravity
