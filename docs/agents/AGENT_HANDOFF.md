@@ -19,6 +19,36 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-05-31 - Villain stats position records and raw counters
+
+- Owner / agent:          Codex
+- Branch:                 task/villain-stats-fix
+- Scope:                  `src/types/villain.ts`, `src/data/store.ts`, and `src/data/__tests__/store.test.ts`.
+- Files touched:
+  - `src/types/villain.ts` - changes `statsByPosition` from `Map` to a serializable record and adds persisted raw counters.
+  - `src/data/store.ts` - aggregates villain stats through raw counters, populates per-position records, preserves notes/tags, and normalizes legacy rows.
+  - `src/data/__tests__/store.test.ts` - adds fake IndexedDB tests for record persistence, per-position stats, sparse 3-bet/c-bet denominators, and note preservation.
+  - `docs/product/STATUS.md` - regenerated test inventory for the new store test file.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Replaced IndexedDB-hostile `Map` storage for position stats with a plain `Partial<Record<Position, PositionStats>>`.
+  - Persisted raw villain counters so VPIP/PFR/3-bet/c-bet stats use the correct denominators across incremental imports.
+  - Added per-position raw counters and position stat updates inside `aggregateVillainStats`.
+  - Added legacy normalization for existing `Map`/record-shaped position stats and profiles missing raw counters.
+- Verification:
+  - `npx.cmd vitest run src/data/__tests__/store.test.ts` - passed, 5 tests.
+  - `npm.cmd run typecheck` - passed.
+  - `npm.cmd test` - passed outside sandbox after the known esbuild filesystem denial, 57 files / 601 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed after `npm.cmd run docs:update`.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-05-31-villain-stats-evidence.md`.
+- Risks / assumptions:
+  - Legacy profiles without raw counters are reconstructed from existing percentages, so their historical opportunity denominators are approximate until new hands accrue.
+  - Scheduler `complete` should not be forced while task `allowed_files` omits required generated docs/handoff updates; mark/review the board state after PR review.
+- Next action requested:
+  - Review the branch/PR. If accepted, reconcile task board completion with the required docs files.
+
 ## 2026-05-31 - Facing-raise reaction ranges and SB fallthrough
 
 - Owner / agent:          Codex

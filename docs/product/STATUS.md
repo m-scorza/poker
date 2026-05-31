@@ -329,8 +329,8 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 56
-**`it` / `test` calls (approximate):** 591
+**Test files:** 57
+**`it` / `test` calls (approximate):** 597
 
 ```
 src/__tests__/App.test.tsx
@@ -373,6 +373,7 @@ src/data/__tests__/localStorage.test.ts
 src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts
 src/data/__tests__/sessions.test.ts
+src/data/__tests__/store.test.ts
 src/parser/__tests__/buyInExtractor.test.ts
 src/parser/__tests__/contributionPackage.test.ts
 src/parser/__tests__/fixtureSweep.test.ts
