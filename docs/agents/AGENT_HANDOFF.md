@@ -52,6 +52,125 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:
   - Review the PR, then either accept the expanded file scope or update the local task board metadata before marking the scheduler task fully completed.
 
+## 2026-05-31 - Advanced analyzer import pipeline wiring
+
+- Owner / agent:          Codex
+- Branch:                 task/connect-advanced-analyzers
+- Scope:                  `src/types/analysis.ts`, `src/analysis/scenarioDetector.ts`, `src/parser/workerProcessor.ts`, `src/data/store.ts`, and focused scenario detector tests.
+- Files touched:
+  - `src/types/analysis.ts` - adds optional `bountyContext`, `fakeShoveSpot`, and `restealSpot` fields to `HeroDecision`.
+  - `src/analysis/scenarioDetector.ts` - attaches bounty, fake-shove, and resteal analyzer outputs while building import-pipeline hero decisions.
+  - `src/analysis/__tests__/scenarioDetector.test.ts` - adds regressions for PKO bounty context, FT fake shove, and FT resteal context.
+  - `docs/product/STATUS.md` - regenerated test-count metadata.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Connected existing `bountyAnalyzer` and `finalTableAnalyzer` outputs to the `HeroDecision` records created by `buildHeroDecision`.
+  - Preserved the existing `squeezeSpot` pipeline wiring and added tests that prove all advanced contexts are attached before persistence.
+  - Left Dexie schema/indexes unchanged because the new fields are non-indexed object payloads on existing `heroDecisions` rows.
+- Verification:
+  - `npx.cmd vitest run src/analysis/__tests__/scenarioDetector.test.ts` - passed, 28 tests.
+  - `npm.cmd run typecheck` - passed.
+  - `npm.cmd test` - passed outside sandbox after the known esbuild filesystem denial, 56 files / 599 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed after `npm.cmd run docs:update`.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-05-31-advanced-analyzers-evidence.md`.
+- Risks / assumptions:
+  - Bounty context uses hand-history tournament labels/buy-in and a primary-villain heuristic; companion tournament summaries can still refine tournament rows after import, but do not retroactively recompute existing decisions.
+  - Final-table contexts are gated to `icmStage === 'final_table'` to avoid early-stage fake-shove/resteal false positives.
+  - Scheduler `complete` should not be forced while task `allowed_files` omits required generated docs/handoff updates; mark/review the board state after PR review.
+- Next action requested:
+  - Review the branch/PR. If accepted, reconcile task board completion with the required docs files.
+
+## 2026-05-31 - Villain stats position records and raw counters
+
+- Owner / agent:          Codex
+- Branch:                 task/villain-stats-fix
+- Scope:                  `src/types/villain.ts`, `src/data/store.ts`, and `src/data/__tests__/store.test.ts`.
+- Files touched:
+  - `src/types/villain.ts` - changes `statsByPosition` from `Map` to a serializable record and adds persisted raw counters.
+  - `src/data/store.ts` - aggregates villain stats through raw counters, populates per-position records, preserves notes/tags, and normalizes legacy rows.
+  - `src/data/__tests__/store.test.ts` - adds fake IndexedDB tests for record persistence, per-position stats, sparse 3-bet/c-bet denominators, and note preservation.
+  - `docs/product/STATUS.md` - regenerated test inventory for the new store test file.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Replaced IndexedDB-hostile `Map` storage for position stats with a plain `Partial<Record<Position, PositionStats>>`.
+  - Persisted raw villain counters so VPIP/PFR/3-bet/c-bet stats use the correct denominators across incremental imports.
+  - Added per-position raw counters and position stat updates inside `aggregateVillainStats`.
+  - Added legacy normalization for existing `Map`/record-shaped position stats and profiles missing raw counters.
+- Verification:
+  - `npx.cmd vitest run src/data/__tests__/store.test.ts` - passed, 5 tests.
+  - `npm.cmd run typecheck` - passed.
+  - `npm.cmd test` - passed outside sandbox after the known esbuild filesystem denial, 57 files / 601 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed after `npm.cmd run docs:update`.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-05-31-villain-stats-evidence.md`.
+- Risks / assumptions:
+  - Legacy profiles without raw counters are reconstructed from existing percentages, so their historical opportunity denominators are approximate until new hands accrue.
+  - Scheduler `complete` should not be forced while task `allowed_files` omits required generated docs/handoff updates; mark/review the board state after PR review.
+- Next action requested:
+  - Review the branch/PR. If accepted, reconcile task board completion with the required docs files.
+
+## 2026-05-31 - Facing-raise reaction ranges and SB fallthrough
+
+- Owner / agent:          Codex
+- Branch:                 task/facing-raise-ranges-fix
+- Scope:                  `src/data/ranges.ts`, `src/analysis/rangeChecker.ts`, and focused range checker tests.
+- Files touched:
+  - `src/data/ranges.ts` - replaces heuristic facing-raise lookup with an explicit hero/opener reaction range map and adds CO-vs-HJ and SB-vs-late ranges.
+  - `src/analysis/__tests__/rangeChecker.test.ts` - adds regressions for CO vs HJ, BTN vs HJ, SB vs CO, and SB vs BTN reaction behavior.
+  - `docs/product/STATUS.md` - regenerated test inventory count after adding range regressions.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Stopped SB from falling through to loose late-position facing-raise behavior.
+  - Made unsupported hero/opener reaction pairs return `undefined` instead of borrowing an unrelated fallback range.
+  - Added position-specific reaction mappings for early-position, late-position, button, cutoff, and small blind facing opener classes.
+- Verification:
+  - `npx.cmd vitest run src/analysis/__tests__/rangeChecker.test.ts` - passed, 40 tests.
+  - `npm.cmd run typecheck` - passed.
+  - `npm.cmd test` - passed after sandbox rerun outside restricted filesystem, 56 files / 600 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - failed before regen, then passed after `npm.cmd run docs:update`.
+  - Local evidence summary: `.agents/runs/2026-05-31-facing-raise-ranges-evidence.md`.
+- Risks / assumptions:
+  - The new reaction ranges are conservative approximations from the existing range helpers and local strategy docs, not solver-imported matrices.
+  - Scheduler `complete` should not be forced while task `allowed_files` omits required generated docs/handoff updates; mark/review the board state after PR review.
+- Next action requested:
+  - Review the branch/PR. If accepted, update the task board metadata or mark the task complete after acknowledging the required docs files.
+
+## 2026-05-31 - Documentation review and source-of-truth refresh
+
+- Owner / agent:          Codex
+- Branch:                 codex/docs-review-2026-05-31
+- Scope:                  Documentation-only review of root README, core product docs, agent-facing guidance, script inventory, and audit notes.
+- Files touched:
+  - `README.md` - reframed the app as a private/local multi-site analyzer, removed stale fixed-hero and old test-count wording, and corrected tree/dependency references.
+  - `CLAUDE.md` - refreshed high-signal architecture, dependency, structure, hero-name, and source-attribution notes while preserving its intent/spec role.
+  - `docs/product/STATUS.md` - updated verification metadata, `/demo` route state, dependency/analysis summaries, recent correctness fixes, and open follow-ups.
+  - `docs/product/ROADMAP.md` - closed completed smoke-test, villain repair-path, TanStack Table/Virtual, and PWA configuration items; added the still-open `statsByPosition` persistence task.
+  - `docs/product/PARSER_HEALTH.md` - changed the remaining gate pointer to the active board and IP audit instead of the retired partnership-status path.
+  - `docs/audits/IP_COPY_AUDIT.md` - marked the audit as historical and noted `/demo` supersedes the old `/pricing` route.
+  - `scripts/README.md` - added the active agent/kernel/docs scripts.
+  - `docs/reports/2026-05-31-documentation-review.md` - recorded audit scope, corrections, and remaining drift risks.
+  - `docs/agents/AGENT_HANDOFF.md` - recorded this session.
+  - `.agents/runs/2026-05-31-docs-review-evidence.md` - local gitignored evidence summary.
+- Summary:
+  - Brought current docs back in line with `main` after PRs #27-#29: `/demo` is the active validation/demo route, `/pricing` is no longer wired, current test result is 56 files / 596 tests, and recent range/OHH/c-bet correctness fixes are reflected in `STATUS.md`.
+  - Kept historical plans/reports/archive entries intact unless they were being used as active current pointers.
+  - Did not mutate `.agents/state/task_spool.json`; the local scheduler state still needs separate cleanup after recent merges.
+- Verification:
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - sandboxed run failed to load `vite.config.ts` because esbuild hit `Cannot read directory "../../../..": Acesso negado`; rerun outside sandbox passed, 56 files / 596 tests.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed again after final `STATUS.md` metadata update.
+- Risks / assumptions:
+  - This was a documentation-only pass; no app source behavior changed.
+  - Historical docs still mention `/pricing`, `PARTNERSHIP_STATUS.md`, and older branch names by design because they are point-in-time records.
+  - `CLAUDE.md` remains lower authority than source/tests/`STATUS.md`, even after this refresh.
+- Next action requested:
+  - Review and commit this docs branch if the scope looks right; then handle the separate task-spool cleanup and the next correctness task (`statsByPosition` persistence or dedicated facing-raise reaction charts).
+
 ## 2026-05-30 - Range compliance MP and reaction cleanup
 
 - Owner / agent:          Codex
