@@ -19,6 +19,40 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-01 - Antigravity worktree integration review
+
+- Owner / agent:          Codex
+- Branch:                 codex/antigravity-worktree-integration-2026-06-01
+- Scope:                  Review `C:\Users\MICRO\Downloads\poker-agent-worktrees`, port only still-useful work into the actual repo, and avoid stale branch docs/status edits.
+- Files touched:
+  - `src/components/dashboard/__tests__/TrendChart.test.tsx` - new `TrendChart` empty/data smoke coverage with a Recharts mock.
+  - `src/components/hands/__tests__/HandReplay.test.tsx` - new async modal/store interaction smoke coverage.
+  - `src/components/shared/__tests__/DualRangeMatrix.test.tsx` - new matrix selection and deviation callback smoke coverage.
+  - `docs/product/STATUS.md` - regenerated test inventory after adding component tests.
+  - `.agents/runs/2026-06-01-antigravity-worktree-integration-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Reviewed Antigravity worktrees `task-2026-05-30-002` through `009` and `task-2026-06-01-010` / `011`.
+  - Rejected stale/superseded work from `010` because current `main` already has a stronger `tsconfig.test.json`.
+  - Rejected staged `007` changes because current `main` already has stronger `HandsUpload` worker cleanup and safer OHH JSON detection than the regex-only draft.
+  - Accepted `011` UI smoke-test coverage with cleanup: updated stale `TrendChart` fixture fields, removed branch-specific docs edits, stabilized async `HandReplay` tests, and regenerated status from the current repo state.
+- Verification:
+  - `npx.cmd vitest run src/components/dashboard/__tests__/TrendChart.test.tsx src/components/hands/__tests__/HandReplay.test.tsx src/components/shared/__tests__/DualRangeMatrix.test.tsx` - passed, 3 files / 11 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npm.cmd run docs:update` - updated `docs/product/STATUS.md`.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - sandboxed first run failed before startup with esbuild access denied reading Vite config; escalated rerun passed, 60 files / 620 tests.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-01-antigravity-worktree-integration-evidence.md`.
+- Risks / assumptions:
+  - The accepted tests are smoke coverage for component rendering and interaction; they do not replace visual browser QA.
+  - Full Vitest still prints the existing `--localstorage-file` warning even though the suite passes.
+  - Antigravity's branch-specific `STATUS.md` verification header was intentionally not copied.
+- Next action requested:
+  - Review the scoped test additions, then commit and open a PR if the smoke coverage is acceptable.
+
 ## 2026-06-01 - Review-output refresh and current codebase audit
 
 - Owner / agent:          Codex

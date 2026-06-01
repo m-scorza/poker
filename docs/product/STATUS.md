@@ -339,8 +339,8 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 57
-**`it` / `test` calls (approximate):** 600
+**Test files:** 60
+**`it` / `test` calls (approximate):** 611
 
 ```
 src/__tests__/App.test.tsx
@@ -370,8 +370,11 @@ src/analysis/__tests__/villainExploitCrossRef.test.ts
 src/components/career/__tests__/CareerStreaksCard.test.tsx
 src/components/career/__tests__/FormatBreakdownTable.test.tsx
 src/components/career/__tests__/LifetimeScorecard.test.tsx
+src/components/dashboard/__tests__/TrendChart.test.tsx
+src/components/hands/__tests__/HandReplay.test.tsx
 src/components/shared/__tests__/Card.test.tsx
 src/components/shared/__tests__/ConfirmDialog.test.tsx
+src/components/shared/__tests__/DualRangeMatrix.test.tsx
 src/components/shared/__tests__/InfoTooltip.test.tsx
 src/components/shared/__tests__/RangeGrid.test.tsx
 src/components/shared/__tests__/StatCard.test.tsx
