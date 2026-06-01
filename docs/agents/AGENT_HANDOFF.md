@@ -19,6 +19,37 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-01 - Review-output refresh and current codebase audit
+
+- Owner / agent:          Codex
+- Branch:                 codex/review-output-refresh-2026-06-01
+- Scope:                  Read `C:\Users\MICRO\poker-review-output`, verify its reports against current source/docs, update current research/docs only.
+- Files touched:
+  - `docs/reports/2026-06-01-review-output-refresh.md` - new refreshed status report for the May 24 review-output findings.
+  - `docs/product/STATUS.md` - updated verification header, marked villain position-stat persistence fixed, and replaced stale open follow-up text.
+  - `docs/product/ROADMAP.md` - marked villain position-stat persistence complete and added ICM compliance/UI surfacing follow-ups.
+  - `CLAUDE.md` - narrowed the Bounty/FT feature claim and corrected the stale sidebar route list.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Confirmed PRs #27-#34 made the highest-priority May 24 findings stale: range position filtering, MP RFI coverage, suited-gapper category, c-bet guards, OHH detection, worker cleanup, villain stats persistence, advanced analyzer context attachment, and test hygiene are now landed.
+  - Added a refreshed report with current active findings: per-hand ICM stage not consumed by compliance recomputation, HandReplay postflop recomputation/pot mismatch, remaining Portuguese postflop note strings, partial bounty/FT UI surfacing, missing PWA assets, caret-ranged `poker-odds-calculator`, and a small HandsPage test-hygiene smell.
+  - Did not edit product runtime code; this pass is a docs/research update and review.
+- Verification:
+  - `npx.cmd vitest run src/analysis/__tests__/rangeChecker.test.ts src/analysis/__tests__/scenarioDetector.test.ts src/analysis/__tests__/postflopAnalyzer.test.ts src/data/__tests__/store.test.ts src/parser/__tests__/siteIdentifier.test.ts src/parser/__tests__/uploadSizeGuards.test.ts` - passed, 6 files / 122 tests.
+  - `npm.cmd test` - sandboxed first run failed before startup with esbuild access denied reading Vite config; escalated rerun passed, 57 files / 609 tests.
+  - `npm.cmd run typecheck` - passed.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd run build` - passed.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-01-review-output-refresh-evidence.md`.
+- Risks / assumptions:
+  - `C:\Users\MICRO\poker-review-output` was read but not modified because it is outside the repo writable scope; the refreshed report lives in repo docs.
+  - Remaining P1 findings are documented, not fixed, and should become focused implementation tasks.
+  - `npm test` still prints existing `--localstorage-file` warnings even though the suite passes.
+- Next action requested:
+  - Review the refreshed report, then implement the first focused fix batch: per-decision ICM compliance, HandReplay postflop reuse/pot consistency, and postflop note translation.
+
 ## 2026-05-31 - Test runner isolation and test typecheck
 
 - Owner / agent:          Codex
