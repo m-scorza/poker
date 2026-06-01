@@ -91,7 +91,8 @@ describe('seedDemoDataset progress callback', () => {
     expect(storeMocks.importHands.mock.calls.length).toBeGreaterThan(1);
     expect(storeMocks.importHands.mock.calls.every(([, options]) => options?.aggregateVillains === false)).toBe(true);
     expect(storeMocks.aggregateVillainStats).toHaveBeenCalledTimes(1);
-    expect(storeMocks.aggregateVillainStats.mock.calls[0]![0].length).toBeGreaterThanOrEqual(10_000);
+    const aggregateCall = storeMocks.aggregateVillainStats.mock.calls[0]!;
+    expect(aggregateCall[0]?.length).toBeGreaterThanOrEqual(10_000);
   });
 
   it('replaces older demo data instead of treating any 250-tournament demo as already loaded', async () => {

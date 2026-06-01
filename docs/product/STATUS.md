@@ -183,9 +183,11 @@ are stale. Do not edit by hand.
 - @tailwindcss/vite ^4.2.2
 - @testing-library/jest-dom ^6.9.1
 - @testing-library/react ^16.3.2
+- @types/node ^22.19.19
 - @types/react ^19.0.0
 - @types/react-dom ^19.0.0
 - @vitejs/plugin-react ^4.3.4
+- @vitest/coverage-v8 ^3.2.4
 - eslint ^9.39.4
 - eslint-plugin-jsx-a11y ^6.10.2
 - eslint-plugin-react ^7.37.5
