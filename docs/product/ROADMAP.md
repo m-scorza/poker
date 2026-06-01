@@ -39,11 +39,13 @@
 - [x] Customizable ranges (user-editable grids with push/fold view)
 - [x] PDF session export
 
-### Phase 4: Bounty & Advanced — Complete
+### Phase 4: Bounty & Advanced — Complete as analysis plumbing, partial UI
 - [x] Bounty tournament detection and equity drop calculation
 - [x] BPWR (Bounty Power) calculator
 - [x] FT-specific analysis (fake shove detection, resteal spots)
 - [x] Squeeze play detection and analysis
+- [ ] Surface bounty/fake-shove/resteal contexts in the UI, or keep them
+      documented as attached metadata rather than fully shipped visible features
 
 ### Phase 5: Accuracy & Analytics Depth — Complete
 - [x] W$SD false positives — detect actual `*** SHOW DOWN ***` section
@@ -123,8 +125,12 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       (route smoke plus component tests added through 2026-05-12)
 - [x] Villain aggregation atomicity — import path catches aggregation failure
       and preserves repair path instead of leaving silent stale profiles
-- [ ] Villain `statsByPosition` persistence — replace `Map` with an
-      IndexedDB-friendly record and store raw opportunity/action counters
+- [x] Villain `statsByPosition` persistence — replaced `Map` with an
+      IndexedDB-friendly record and stored raw opportunity/action counters
+      (Completed 2026-05-31)
+- [ ] Per-decision ICM compliance — make page/import recomputation consume
+      `HeroDecision.icmStage` instead of defaulting all Advanced-profile
+      BB-defense checks to early-game assumptions
 
 ### P2.5 — Code + UX Audit (2026-04-18)
 

@@ -79,7 +79,7 @@ See `docs/README.md` for the full bucket-by-bucket map.
 5. **Leak Analyzer** — 10+ leaks with severity, trend, estimated bb cost. Dual-profile thresholds (Game Plan vs Advanced)
 6. **Session Manager** — Auto-group by 4h gap, comparison table + charts, CSV/PDF export
 7. **Villain Tracker** — Auto-classify opponents (Fish/Nit/TAG/LAG/Station/Maniac), manual notes/tags
-8. **Bounty & FT Analysis** — BPWR calculator, equity drop, fake shove detection, resteal analysis
+8. **Bounty & FT Context** — BPWR/equity-drop/fake-shove/resteal metadata is attached to hero decisions; visible UI surfacing is still partial, so verify `STATUS.md` before treating it as a fully shipped user-facing feature.
 
 ---
 
@@ -368,7 +368,7 @@ type VillainArchetype = 'fish' | 'nit' | 'tag' | 'lag' | 'station' | 'maniac';
 - **Range grid:** 13×13. Pairs on diagonal. Suited above, offsuit below. Color by compliance.
 - **Charts:** Recharts. Line for evolution, bar for session comparisons.
 - **Language:** UI in English only. Code in English.
-- **Layout:** Left sidebar (Dashboard / Maos / Estatisticas / Ranges / Leaks / Sessoes / Upload / Config) + main content.
+- **Layout:** Left sidebar (Dashboard / Hands / Stats / Ranges / Leaks / Sessions / Villains / Arena / Career / Demo) + main content.
 
 ---
 

@@ -4,9 +4,9 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-05-31
-**Branch at verification:** `codex/docs-review-2026-05-31` (based on `main` at `411acde`)
-**Tests at verification:** 596 / 596 passing (56 files)
+**Last verified against source:** 2026-06-01
+**Branch at verification:** `codex/review-output-refresh-2026-06-01` (based on `main` at `14e1fae`)
+**Tests at verification:** 609 / 609 passing (57 files)
 
 ---
 
@@ -106,14 +106,22 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     2026-05-31. Donk bets before hero acts block c-bet opportunities, hero
     preflop folds no longer produce postflop spots, OOP checks no longer count
     as mandatory missed c-bets, and flop sizing uses computed preflop pot.
+12. **Villain `statsByPosition` persistence / raw counters** — ✅ FIXED
+    2026-05-31. `statsByPosition` is now a serializable
+    `Partial<Record<Position, PositionStats>>`, raw opportunity/action counters
+    are persisted, and fake IndexedDB tests cover position stats plus 3-bet and
+    c-bet denominators.
 
 ## Open follow-ups
 
 - Dedicated facing-raise reaction charts for SB, blinds, and late-position vs
   late-position spots are still a strategy-data follow-up.
-- `VillainProfile.statsByPosition` still uses `Map<Position, PositionStats>`;
-  changing it to an IndexedDB-friendly record plus raw opportunity/action
-  counters is still pending.
+- Advanced-profile BB defense compliance still needs to consume each
+  `HeroDecision.icmStage` when import/page code recomputes range compliance;
+  current call sites default to early game unless a stage is passed explicitly.
+- Bounty/final-table contexts are attached to `HeroDecision`, but visible UI
+  surfacing is still partial beyond ICM and squeeze cues.
+- PWA manifest/icon references still need real files under `public/`.
 - The real-fixture parser sweep does not yet include Open Hand History files.
 
 ## Repo hygiene
