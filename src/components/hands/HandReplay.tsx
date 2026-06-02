@@ -112,27 +112,32 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
       setPlayers(p);
       setActions(a);
 
-      // Compute postflop spots
       if (heroDecision && hand.boardFlop) {
-        const heroName = p.find(pl => pl.isHero)?.playerName || 'scorza23';
-        const preflopFolders = new Set(
-          a.filter((act) => act.street === 'preflop' && act.actionType === 'fold')
-            .map((act) => act.playerName),
-        );
-        const preflopAllIns = new Set(
-          a.filter((act) => act.street === 'preflop' && act.isAllIn)
-            .map((act) => act.playerName),
-        );
-        const flopPlayerCount = p.length - preflopFolders.size - preflopAllIns.size;
-        const spots = analyzePostflop(
-          a,
-          heroName,
-          heroDecision.wasPreFlopRaiser,
-          hand.boardFlop,
-          flopPlayerCount,
-          hand.totalPot,
-        );
-        setPostflopSpots(spots);
+        if (Array.isArray(heroDecision.postflopActions)) {
+          setPostflopSpots(heroDecision.postflopActions);
+        } else {
+          const heroName = p.find(pl => pl.isHero)?.playerName || 'scorza23';
+          const preflopFolders = new Set(
+            a.filter((act) => act.street === 'preflop' && act.actionType === 'fold')
+              .map((act) => act.playerName),
+          );
+          const preflopAllIns = new Set(
+            a.filter((act) => act.street === 'preflop' && act.isAllIn)
+              .map((act) => act.playerName),
+          );
+          const flopPlayerCount = p.length - preflopFolders.size - preflopAllIns.size;
+          const spots = analyzePostflop(
+            a,
+            heroName,
+            heroDecision.wasPreFlopRaiser,
+            hand.boardFlop,
+            flopPlayerCount,
+            hand.totalPot,
+          );
+          setPostflopSpots(spots);
+        }
+      } else {
+        setPostflopSpots([]);
       }
     }
     load();

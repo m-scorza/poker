@@ -233,8 +233,8 @@ export function analyzePostflop(
         sizing,
         isCorrect: isCorrectSizing, 
         note: isHU
-          ? `C-bet HU em board ${boardAnalysis.texture}. Recomendado: ${rec.label}.`
-          : 'C-bet multiway',
+          ? `C-bet heads-up on ${boardAnalysis.texture} board. Recommended sizing: ${rec.label}.`
+          : 'C-bet multiway.',
       });
 
       // Check for double barrel
@@ -246,7 +246,7 @@ export function analyzePostflop(
             street: 'turn',
             sizing: null,
             isCorrect: null,
-            note: 'Double barrel no turn',
+            note: 'Double barrel on the turn',
           });
         } else if (heroTurnActions.some((a) => a.actionType === 'check')) {
           spots.push({
@@ -265,7 +265,7 @@ export function analyzePostflop(
         street: 'flop',
         sizing: null,
         isCorrect: false,
-        note: `Missed c-bet HU como PFR em board ${boardAnalysis.texture}`,
+        note: `Missed c-bet heads-up as preflop raiser on ${boardAnalysis.texture} board`,
       });
     }
   } else {
@@ -283,7 +283,7 @@ export function analyzePostflop(
         sizing: heroBetFlop ? null : null,
         isCorrect: heroBetFlop,
         note: heroBetFlop
-          ? 'Bet vs missed c-bet (correto)'
+          ? 'Bet vs missed c-bet (correct)'
           : 'Missed exploitative bet vs missed c-bet',
       });
     }

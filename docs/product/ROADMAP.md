@@ -112,10 +112,9 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       LeaksPage, HandsPage, HandReplay, csvExport, pdfExport,
       villainExploitCrossRef) translated to English; 4 test assertions in
       `villainExploitCrossRef.test.ts` rewritten against the new English
-      strings. Tests: 331/331 still green. Analysis-layer note strings
-      (pushFoldChecker, postflopAnalyzer, finalTableAnalyzer,
-      bountyAnalyzer, squeezeDetector, rangeValidator, `icmStageLabel`)
-      remain PT and are flagged in STATUS.md for a follow-up pass.
+      strings. Tests: 331/331 still green. Later analysis-layer cleanup added
+      note-string assertions; the `postflopAnalyzer` follow-up was completed
+      on 2026-06-02.
 - [x] Postflop leak wiring (2026-04-18) — Surface `PostflopAction` flags
       (`postflopAnalyzer.ts:156-174`) as per-hand leaks in HandsPage
       and LeaksPage. Logic attributed to [Vol.2], [D#07], [D#21].
@@ -131,6 +130,9 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] Per-decision ICM compliance — page/import recomputation now consumes
       `HeroDecision.icmStage` before falling back to a batch-level stage for
       Advanced-profile BB-defense checks (Completed 2026-06-02)
+- [x] HandReplay postflop consistency — replay modal now prefers stored
+      import-time `HeroDecision.postflopActions`, and `postflopAnalyzer` notes
+      have a no-Portuguese-fragments regression (Completed 2026-06-02)
 
 ### P2.5 — Code + UX Audit (2026-04-18)
 

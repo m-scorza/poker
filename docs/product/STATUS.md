@@ -5,8 +5,8 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-06-02
-**Branch at verification:** `codex/icm-compliance-stage`
-**Tests at verification:** 625 / 625 passing (60 files)
+**Branch at verification:** `codex/handreplay-postflop-consistency`
+**Tests at verification:** 627 / 627 passing (60 files)
 
 ---
 
@@ -115,6 +115,10 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     BB suited-fold compliance now uses each `HeroDecision.icmStage` when present
     before falling back to the batch-level stage, so import and page
     recomputation no longer treats every hand as early game.
+14. **HandReplay postflop consistency / note language** - FIXED 2026-06-02.
+    HandReplay now prefers stored import-time `HeroDecision.postflopActions`
+    over replay-time recomputation, and `postflopAnalyzer.ts` note regressions
+    guard against the Portuguese fragments found in the June 1 refresh.
 
 ## Open follow-ups
 
@@ -341,7 +345,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 60
-**`it` / `test` calls (approximate):** 616
+**`it` / `test` calls (approximate):** 618
 
 ```
 src/__tests__/App.test.tsx
