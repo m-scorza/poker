@@ -19,6 +19,40 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-02 - PWA icon assets
+
+- Owner / agent:          Codex
+- Branch:                 codex/add-pwa-icon-assets
+- Scope:                  Close the PWA install-asset finding by adding the files already referenced by `vite.config.ts`.
+- Files touched:
+  - `public/favicon.ico` - generated 32x32 app favicon.
+  - `public/apple-touch-icon.png` - generated 180x180 touch icon.
+  - `public/masked-icon.svg` - generated monochrome mask icon.
+  - `public/pwa-192x192.png` - generated 192x192 PWA icon.
+  - `public/pwa-512x512.png` - generated 512x512 PWA icon.
+  - `docs/product/STATUS.md` - marks PWA manifest assets fixed and refreshes verification header.
+  - `docs/product/ROADMAP.md` - marks vite-plugin-pwa icon assets complete.
+  - `docs/reports/2026-06-01-review-output-refresh.md` - records the PWA finding as resolved and updates the recommended next batch.
+  - `.agents/runs/2026-06-02-pwa-icon-assets-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Added the public asset files referenced by `VitePWA()` instead of removing manifest references.
+  - Verified PNG dimensions and that `npm.cmd run build` copies the icons into `dist/`.
+  - Updated the June 1 refresh so the remaining batch is dependency pinning and HandsPage test-hygiene cleanup.
+- Verification:
+  - PNG dimension check - `apple-touch-icon.png` 180x180, `pwa-192x192.png` 192x192, `pwa-512x512.png` 512x512.
+  - `npm.cmd run build` - passed; `dist/` contains the generated favicon, touch icon, mask SVG, and PWA PNGs.
+  - `npm.cmd run docs:update` - status inventory already up to date.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - escalated run passed, 60 files / 628 tests.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-02-pwa-icon-assets-evidence.md`.
+- Risks / assumptions:
+  - These are minimal generated install assets for the private/local app posture, not final brand design.
+  - Full Vitest still prints the existing `--localstorage-file` warning even though the suite passes.
+- Next action requested:
+  - Review and merge this asset/docs fix, then pin `poker-odds-calculator` exactly.
+
 ## 2026-06-02 - Bounty and final-table context surfacing
 
 - Owner / agent:          Codex

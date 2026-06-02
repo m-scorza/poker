@@ -186,7 +186,7 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [ ] Biome 2 (replace missing linter/formatter)
 - [ ] nuqs (URL-sync Hands filters, Ranges position selector)
 - [x] TanStack Table + TanStack Virtual on HandsPage list
-- [x] vite-plugin-pwa configured (icon/asset polish still open)
+- [x] vite-plugin-pwa configured with public icon assets
 - [ ] `framer-motion@12` → `motion@11`
 - [ ] Vite 6→7, Vitest 3→4, React 19→19.1+, TS 5.7→5.8/5.9
 

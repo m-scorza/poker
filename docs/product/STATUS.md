@@ -5,7 +5,7 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-06-02
-**Branch at verification:** `codex/surface-bounty-ft-contexts`
+**Branch at verification:** `codex/add-pwa-icon-assets`
 **Tests at verification:** 628 / 628 passing (60 files)
 
 ---
@@ -123,12 +123,15 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     HandReplay now renders attached `bountyContext`, `fakeShoveSpot`, and
     `restealSpot` metadata in a Tournament Context panel instead of limiting
     visible cues to ICM stage and squeeze spots.
+16. **PWA manifest assets** - FIXED 2026-06-02.
+    The `public/` directory now contains the icons referenced by
+    `vite.config.ts`: `favicon.ico`, `apple-touch-icon.png`, `masked-icon.svg`,
+    `pwa-192x192.png`, and `pwa-512x512.png`.
 
 ## Open follow-ups
 
 - Dedicated facing-raise reaction charts for SB, blinds, and late-position vs
   late-position spots are still a strategy-data follow-up.
-- PWA manifest/icon references still need real files under `public/`.
 - The real-fixture parser sweep does not yet include Open Hand History files.
 
 ## Repo hygiene
