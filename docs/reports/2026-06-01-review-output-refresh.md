@@ -42,7 +42,7 @@ pipeline.
 | "Range compliance always reads 0%" | Refuted / stale | `buildHeroDecision()` still initializes `isCompliant: false`, but worker/pages rerun `batchCheckCompliance()`. Full tests pass. |
 | RangesPage selected position does not filter | Fixed | `RangesPage.tsx` now filters with `matchesPosition(d, selectedPos)` and `matchesScenario(...)`. |
 | `MP` missing from `RFI_RANGES` | Fixed | `RFI_RANGES` now includes `MP: rangeSet(MP1_RANGE)`. |
-| Suited gappers classified as broadway | Fixed | `HandsPage.getHandCategory()` returns `suited-gappers`; inline assertions cover `K5s`, `86s`, `Q4s`. |
+| Suited gappers classified as broadway | Fixed | `HandsPage.getHandCategory()` returns `suited-gappers`; `src/pages/__tests__/HandsPage.test.ts` covers `K5s`, `86s`, and `Q4s`. |
 | C-bet false positives after donk bets / no flop / OOP | Fixed in import pipeline | `scenarioDetector.ts` gates saw-flop, donk-before-hero, all-in, and passes a computed flop pot into `analyzePostflop()`. |
 | Facing-raise fallback too loose / SB fallthrough | Mostly fixed | Unsupported pairs now skip instead of using a loose fallback; SB/late-position cases have focused tests. Dedicated reaction charts remain a strategy-data follow-up. |
 | `statsByPosition` Map serialization and denominator bugs | Fixed | `VillainProfile.statsByPosition` is now `Partial<Record<Position, PositionStats>>` with persisted raw counters and store tests. |
@@ -163,14 +163,19 @@ Recommended fix: complete.
 
 ### P3 - Test-only assertions live inside `HandsPage.tsx`
 
+**Resolved 2026-06-02:** `getHandCategory()` is now exported for tests,
+the self-executing test-environment guard was removed from `HandsPage.tsx`, and
+the same classification coverage lives in
+`src/pages/__tests__/HandsPage.test.ts`.
+
 `HandsPage.tsx` has self-executing test assertions behind a test-environment
-guard. They did catch the suited-gapper bug, but they introduce `as any` in
-production source and keep test logic inside a page module.
+guard. They were meant to catch the suited-gapper bug, but they introduced
+`as any` in production source and kept test logic inside a page module.
 
 Impact: not a runtime bug, but it is a code hygiene regression versus the repo's
 prior "no explicit any in src/scripts" standard.
 
-Recommended fix: move those assertions into a real test file.
+Recommended fix: complete.
 
 ## Research Update
 
@@ -231,4 +236,6 @@ exit 0
 
 ## Recommended Next Batch
 
-1. Move test-only `HandsPage.tsx` assertions into a real test file.
+No open items remain from this refresh. Broader non-refresh follow-ups still
+exist in `docs/product/STATUS.md`, including dedicated facing-raise reaction
+charts and an Open Hand History real-fixture sweep.
