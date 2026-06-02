@@ -33,6 +33,7 @@ export function checkCompliance(
   icmStage: ICMStage = 'early',
 ): ComplianceResult | null {
   const { scenario, position, handKey, action, stackBb } = decision;
+  const effectiveIcmStage = decision.icmStage ?? icmStage;
 
   switch (scenario) {
     case 'RFI':
@@ -51,7 +52,7 @@ export function checkCompliance(
       return checkFacingLimp(action);
 
     case 'BB_VS_RAISE':
-      return checkBBvsRaise(handKey, action, profile, icmStage);
+      return checkBBvsRaise(handKey, action, profile, effectiveIcmStage);
 
     case 'WALK':
       // No decision to evaluate

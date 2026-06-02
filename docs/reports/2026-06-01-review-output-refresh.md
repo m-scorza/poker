@@ -57,6 +57,10 @@ pipeline.
 
 ### P1 - Per-hand ICM is detected but compliance recomputation still defaults to early
 
+**Resolved 2026-06-02:** `checkCompliance()` now uses
+`decision.icmStage ?? icmStage`, and `batchCheckCompliance()` /
+`compliancePercentage()` inherit that per-decision behavior.
+
 `buildHeroDecision()` attaches `icmStage`, and HandReplay can display it. But the
 range-compliance call path still mostly ignores that per-hand field:
 
@@ -72,9 +76,9 @@ game even when the hand itself was detected as bubble, ITM, or final-table. This
 is much narrower than the old "ICM is all hardcoded early" report, but still a
 real analytical-trust bug.
 
-Recommended fix: make `checkCompliance()` default to `decision.icmStage ??
-icmStage`, update `batchCheckCompliance()` and `compliancePercentage()`, then add
-regression coverage for Advanced `BB_VS_RAISE` at bubble/final-table stages.
+Recommended fix: complete. Regression coverage now covers Advanced
+`BB_VS_RAISE` suited folds at bubble/final-table stages, including batch and
+percentage recomputation.
 
 ### P1 - HandReplay can diverge from imported postflop analysis
 
@@ -209,9 +213,8 @@ exit 0
 
 ## Recommended Next Batch
 
-1. Fix per-decision ICM compliance consumption.
-2. Make HandReplay reuse stored postflop analysis or the same flop-pot helper,
+1. Make HandReplay reuse stored postflop analysis or the same flop-pot helper,
    then translate remaining postflop notes.
-3. Decide whether to surface or delist bounty/fake-shove/resteal contexts.
-4. Add PWA icon assets.
-5. Pin `poker-odds-calculator` exactly.
+2. Decide whether to surface or delist bounty/fake-shove/resteal contexts.
+3. Add PWA icon assets.
+4. Pin `poker-odds-calculator` exactly.

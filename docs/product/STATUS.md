@@ -4,9 +4,9 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-06-01
-**Branch at verification:** `codex/review-output-refresh-2026-06-01` (based on `main` at `14e1fae`)
-**Tests at verification:** 609 / 609 passing (57 files)
+**Last verified against source:** 2026-06-02
+**Branch at verification:** `codex/icm-compliance-stage`
+**Tests at verification:** 625 / 625 passing (60 files)
 
 ---
 
@@ -111,14 +111,15 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     `Partial<Record<Position, PositionStats>>`, raw opportunity/action counters
     are persisted, and fake IndexedDB tests cover position stats plus 3-bet and
     c-bet denominators.
+13. **Per-decision ICM compliance stage** - FIXED 2026-06-02. Advanced-profile
+    BB suited-fold compliance now uses each `HeroDecision.icmStage` when present
+    before falling back to the batch-level stage, so import and page
+    recomputation no longer treats every hand as early game.
 
 ## Open follow-ups
 
 - Dedicated facing-raise reaction charts for SB, blinds, and late-position vs
   late-position spots are still a strategy-data follow-up.
-- Advanced-profile BB defense compliance still needs to consume each
-  `HeroDecision.icmStage` when import/page code recomputes range compliance;
-  current call sites default to early game unless a stage is passed explicitly.
 - Bounty/final-table contexts are attached to `HeroDecision`, but visible UI
   surfacing is still partial beyond ICM and squeeze cues.
 - PWA manifest/icon references still need real files under `public/`.
@@ -340,7 +341,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 60
-**`it` / `test` calls (approximate):** 611
+**`it` / `test` calls (approximate):** 616
 
 ```
 src/__tests__/App.test.tsx

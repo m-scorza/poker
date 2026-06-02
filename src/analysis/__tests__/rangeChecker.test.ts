@@ -241,6 +241,42 @@ describe('checkCompliance — BB_VS_RAISE', () => {
     expect(result!.isCompliant).toBe(true);
   });
 
+  it('Advanced uses the decision ICM stage when no fallback stage is passed', () => {
+    const d = makeDecision({
+      position: 'BB',
+      handKey: '72s',
+      action: 'fold',
+      scenario: 'BB_VS_RAISE',
+      icmStage: 'bubble',
+    });
+    const result = checkCompliance(d, 'advanced');
+    expect(result).toEqual({ isCompliant: true, deviationType: null });
+  });
+
+  it('Advanced decision ICM stage overrides an early fallback stage', () => {
+    const d = makeDecision({
+      position: 'BB',
+      handKey: '72s',
+      action: 'fold',
+      scenario: 'BB_VS_RAISE',
+      icmStage: 'final_table',
+    });
+    const result = checkCompliance(d, 'advanced', 'early');
+    expect(result).toEqual({ isCompliant: true, deviationType: null });
+  });
+
+  it('Game Plan still flags suited folds even when the decision is high-ICM', () => {
+    const d = makeDecision({
+      position: 'BB',
+      handKey: '72s',
+      action: 'fold',
+      scenario: 'BB_VS_RAISE',
+      icmStage: 'bubble',
+    });
+    const result = checkCompliance(d, 'game_plan');
+    expect(result).toEqual({ isCompliant: false, deviationType: 'BB_FOLD_SUITED' });
+  });
+
   it('Advanced + early game: fold suited is still a deviation', () => {
     const d = makeDecision({ position: 'BB', handKey: '72s', action: 'fold', scenario: 'BB_VS_RAISE' });
     const result = checkCompliance(d, 'advanced', 'early');
@@ -300,6 +336,27 @@ describe('compliancePercentage', () => {
     ];
     expect(compliancePercentage(decisions)).toBe(100);
   });
+
+  it('uses per-decision ICM stages for Advanced BB suited folds', () => {
+    const decisions = [
+      makeDecision({
+        position: 'BB',
+        handKey: '72s',
+        action: 'fold',
+        scenario: 'BB_VS_RAISE',
+        icmStage: 'bubble',
+      }),
+      makeDecision({
+        position: 'BB',
+        handKey: '83s',
+        action: 'fold',
+        scenario: 'BB_VS_RAISE',
+        icmStage: 'early',
+      }),
+    ];
+
+    expect(compliancePercentage(decisions, 'advanced')).toBe(50);
+  });
 });
 
 describe('batchCheckCompliance', () => {
@@ -310,5 +367,28 @@ describe('batchCheckCompliance', () => {
     const result = batchCheckCompliance(decisions);
     expect(result[0]!.isCompliant).toBe(false);
     expect(result[0]!.deviationType).toBe('OVERFOLD');
+  });
+
+  it('uses each decision ICM stage instead of one batch-wide stage', () => {
+    const decisions = [
+      makeDecision({
+        position: 'BB',
+        handKey: '72s',
+        action: 'fold',
+        scenario: 'BB_VS_RAISE',
+        icmStage: 'final_table',
+      }),
+      makeDecision({
+        position: 'BB',
+        handKey: '83s',
+        action: 'fold',
+        scenario: 'BB_VS_RAISE',
+        icmStage: 'early',
+      }),
+    ];
+
+    const result = batchCheckCompliance(decisions, 'advanced');
+    expect(result[0]).toMatchObject({ isCompliant: true, deviationType: null });
+    expect(result[1]).toMatchObject({ isCompliant: false, deviationType: 'BB_FOLD_SUITED' });
   });
 });

@@ -128,9 +128,9 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] Villain `statsByPosition` persistence — replaced `Map` with an
       IndexedDB-friendly record and stored raw opportunity/action counters
       (Completed 2026-05-31)
-- [ ] Per-decision ICM compliance — make page/import recomputation consume
-      `HeroDecision.icmStage` instead of defaulting all Advanced-profile
-      BB-defense checks to early-game assumptions
+- [x] Per-decision ICM compliance — page/import recomputation now consumes
+      `HeroDecision.icmStage` before falling back to a batch-level stage for
+      Advanced-profile BB-defense checks (Completed 2026-06-02)
 
 ### P2.5 — Code + UX Audit (2026-04-18)
 

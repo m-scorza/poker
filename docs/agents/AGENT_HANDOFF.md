@@ -19,6 +19,39 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-02 - Per-decision ICM compliance stage
+
+- Owner / agent:          Codex
+- Branch:                 codex/icm-compliance-stage
+- Scope:                  Fix Advanced-profile range compliance recomputation so per-hand ICM stage is consumed by import/page compliance paths.
+- Files touched:
+  - `src/analysis/rangeChecker.ts` - uses `decision.icmStage ?? icmStage` for BB-vs-raise compliance.
+  - `src/analysis/__tests__/rangeChecker.test.ts` - adds direct, batch, and percentage regressions for Advanced BB suited folds at bubble/final-table stages.
+  - `docs/product/STATUS.md` - marks the ICM compliance finding fixed and refreshes verification/test counts.
+  - `docs/product/ROADMAP.md` - marks per-decision ICM compliance complete.
+  - `docs/reports/2026-06-01-review-output-refresh.md` - records the P1 finding as resolved and updates the recommended next batch.
+  - `.agents/runs/2026-06-02-icm-compliance-stage-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Closed the active trust bug where Advanced-profile BB suited-fold compliance could be recomputed as early game even when each `HeroDecision` had a detected bubble, ITM, or final-table stage.
+  - Kept Game Plan behavior unchanged: suited folds versus normal 2-3x opens are still deviations even under high ICM.
+  - Added regression coverage proving single-decision, batch recomputation, and compliance-percentage paths consume per-decision ICM stage before using the fallback stage.
+- Verification:
+  - `npx.cmd vitest run src/analysis/__tests__/rangeChecker.test.ts` - passed, 1 file / 45 tests.
+  - `npm.cmd run docs:update` - updated generated test-call count in `docs/product/STATUS.md`.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - sandboxed first run failed before startup with esbuild access denied reading Vite config; escalated rerun passed, 60 files / 625 tests.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-02-icm-compliance-stage-evidence.md`.
+- Risks / assumptions:
+  - This is still a staged heuristic for Advanced BB defense, not a full ICM solver.
+  - Full Vitest still prints the existing `--localstorage-file` warning even though the suite passes.
+- Next action requested:
+  - Review and merge this focused fix, then move to HandReplay postflop consistency and remaining postflop note translation.
+
 ## 2026-06-01 - Antigravity worktree integration review
 
 - Owner / agent:          Codex
