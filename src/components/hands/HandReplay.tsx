@@ -53,6 +53,18 @@ const ACTION_LABELS: Record<string, string> = {
   post_ante: 'Ante',
 };
 
+function formatContextLabel(value: string): string {
+  return value
+    .replace(/_/g, ' ')
+    .split(' ')
+    .map((word) => (word.length <= 2 ? word.toUpperCase() : word[0]!.toUpperCase() + word.slice(1)))
+    .join(' ');
+}
+
+function formatCompactNumber(value: number): string {
+  return value.toFixed(1).replace(/\.0$/, '');
+}
+
 export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   const [players, setPlayers] = useState<PlayerInHand[]>([]);
   const [actions, setActions] = useState<Action[]>([]);
@@ -149,6 +161,9 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   const boardTexture = hand.boardFlop
     ? classifyBoardTexture(hand.boardFlop)
     : null;
+  const hasTournamentContext = Boolean(
+    heroDecision?.bountyContext || heroDecision?.fakeShoveSpot || heroDecision?.restealSpot,
+  );
 
   const streets: Street[] = ['preflop'];
   if (hand.boardFlop) streets.push('flop');
@@ -191,6 +206,21 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
               {heroDecision?.squeezeSpot && heroDecision.squeezeSpot.callerCount > 0 && (
                 <span className="text-[10px] px-1.5 py-0.5 rounded font-bold bg-orange-900/30 text-orange-400">
                   Squeeze Spot
+                </span>
+              )}
+              {heroDecision?.bountyContext && (
+                <span className="text-[10px] px-1.5 py-0.5 rounded font-bold bg-amber-900/30 text-amber-300">
+                  Bounty
+                </span>
+              )}
+              {heroDecision?.fakeShoveSpot && (
+                <span className="text-[10px] px-1.5 py-0.5 rounded font-bold bg-sky-900/30 text-sky-300">
+                  {heroDecision.fakeShoveSpot.isFakeShove ? 'Fake Shove' : 'Large Raise'}
+                </span>
+              )}
+              {heroDecision?.restealSpot && (
+                <span className="text-[10px] px-1.5 py-0.5 rounded font-bold bg-rose-900/30 text-rose-300">
+                  Resteal
                 </span>
               )}
             </div>
@@ -448,6 +478,94 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                     })()}
                   </div>
                </div>
+            </div>
+          )}
+
+          {/* Tournament Context Card */}
+          {heroDecision && hasTournamentContext && (
+            <div className="border border-amber-500/20 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-amber-900/10 to-[var(--color-bg-card)] rounded-xl overflow-hidden shadow-sm">
+              <div className="px-3 py-2 bg-amber-900/20 border-b border-[var(--color-border)]">
+                <span className="text-[10px] uppercase font-bold tracking-widest text-amber-300">Tournament Context</span>
+              </div>
+              <div className="p-3 space-y-2 text-xs">
+                {heroDecision.bountyContext && (
+                  <div className="bg-black/20 p-2 rounded border border-white/5 space-y-1">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="font-bold text-amber-200">Bounty Context</span>
+                      <span className="font-data text-[10px] uppercase text-[var(--color-text-muted)]">
+                        {formatContextLabel(heroDecision.bountyContext.tournamentType)}
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-2">
+                      <span className="text-[var(--color-text-dim)]">Equity drop</span>
+                      <span className="font-data font-bold text-white text-right">
+                        {formatCompactNumber(heroDecision.bountyContext.equityDrop)}%
+                      </span>
+                      <span className="text-[var(--color-text-dim)]">Coverage</span>
+                      <span className="font-data font-bold text-white text-right">
+                        {heroDecision.bountyContext.heroCoversVillain ? 'Hero covers target' : 'Target covers hero'}
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-[var(--color-text-muted)] leading-relaxed">
+                      {heroDecision.bountyContext.note}
+                    </p>
+                  </div>
+                )}
+
+                {heroDecision.fakeShoveSpot && (
+                  <div className="bg-black/20 p-2 rounded border border-white/5 space-y-1">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="font-bold text-sky-200">
+                        {heroDecision.fakeShoveSpot.isFakeShove ? 'Fake Shove Spot' : 'Large Raise Spot'}
+                      </span>
+                      <span className="font-data text-[10px] uppercase text-[var(--color-text-muted)]">
+                        {formatCompactNumber(heroDecision.fakeShoveSpot.heroStackBb)}bb
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-2">
+                      <span className="text-[var(--color-text-dim)]">Raise size</span>
+                      <span className="font-data font-bold text-white text-right">
+                        {heroDecision.fakeShoveSpot.raiseSize}
+                      </span>
+                      <span className="text-[var(--color-text-dim)]">Opponents behind</span>
+                      <span className="font-data font-bold text-white text-right">
+                        {heroDecision.fakeShoveSpot.opponentsRemaining}
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-[var(--color-text-muted)] leading-relaxed">
+                      {heroDecision.fakeShoveSpot.note}
+                    </p>
+                  </div>
+                )}
+
+                {heroDecision.restealSpot && (
+                  <div className="bg-black/20 p-2 rounded border border-white/5 space-y-1">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="font-bold text-rose-200">Resteal Spot</span>
+                      <span className="font-data text-[10px] uppercase text-[var(--color-text-muted)]">
+                        {formatCompactNumber(heroDecision.restealSpot.heroStackBb)}bb
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-2">
+                      <span className="text-[var(--color-text-dim)]">Hero action</span>
+                      <span className="font-data font-bold text-white text-right uppercase">
+                        {heroDecision.restealSpot.heroAction}
+                      </span>
+                      <span className="text-[var(--color-text-dim)]">Opener stack</span>
+                      <span className="font-data font-bold text-white text-right">
+                        {formatContextLabel(heroDecision.restealSpot.villainStackType)}
+                      </span>
+                      <span className="text-[var(--color-text-dim)]">Risk premium</span>
+                      <span className="font-data font-bold text-white text-right">
+                        {formatCompactNumber(heroDecision.restealSpot.riskPremiumEstimate)}%
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-[var(--color-text-muted)] leading-relaxed">
+                      {heroDecision.restealSpot.note}
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
           )}
 

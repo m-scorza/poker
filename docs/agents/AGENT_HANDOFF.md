@@ -19,6 +19,39 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-02 - Bounty and final-table context surfacing
+
+- Owner / agent:          Codex
+- Branch:                 codex/surface-bounty-ft-contexts
+- Scope:                  Surface already-attached bounty/fake-shove/resteal decision metadata in user-visible replay UI and update the review refresh.
+- Files touched:
+  - `src/components/hands/HandReplay.tsx` - adds header chips and a Tournament Context panel for `bountyContext`, `fakeShoveSpot`, and `restealSpot`.
+  - `src/components/hands/__tests__/HandReplay.test.tsx` - verifies all three attached context types render in the replay modal.
+  - `docs/product/STATUS.md` - marks bounty/final-table context surfacing fixed and refreshes verification/test counts.
+  - `docs/product/ROADMAP.md` - marks the UI-surfacing item complete.
+  - `docs/reports/2026-06-01-review-output-refresh.md` - records the P1 finding as resolved and updates the recommended next batch.
+  - `.agents/runs/2026-06-02-bounty-ft-context-surfacing-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Closed the docs/UI mismatch where bounty and final-table analyzers attached metadata, but HandReplay only surfaced ICM and squeeze cues.
+  - Added compact visible context for bounty equity drop/coverage, fake-shove raise context, and final-table resteal risk-premium context.
+  - Kept analysis behavior unchanged; this is a display and documentation consistency fix.
+- Verification:
+  - `npx.cmd vitest run src/components/hands/__tests__/HandReplay.test.tsx` - passed, 1 file / 7 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:update` - updated generated test-call count in `docs/product/STATUS.md`.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - sandboxed first run failed before startup with esbuild access denied reading Vite config; escalated rerun passed, 60 files / 628 tests.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-02-bounty-ft-context-surfacing-evidence.md`.
+- Risks / assumptions:
+  - The panel displays analyzer metadata already stored on `HeroDecision`; it does not broaden or recalibrate the bounty/FT heuristics.
+  - Full Vitest still prints the existing `--localstorage-file` warning even though the suite passes.
+- Next action requested:
+  - Review and merge this focused UI/docs fix, then move to PWA icon assets and exact `poker-odds-calculator` pinning.
+
 ## 2026-06-02 - HandReplay postflop consistency
 
 - Owner / agent:          Codex

@@ -5,8 +5,8 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-06-02
-**Branch at verification:** `codex/handreplay-postflop-consistency`
-**Tests at verification:** 627 / 627 passing (60 files)
+**Branch at verification:** `codex/surface-bounty-ft-contexts`
+**Tests at verification:** 628 / 628 passing (60 files)
 
 ---
 
@@ -119,13 +119,15 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     HandReplay now prefers stored import-time `HeroDecision.postflopActions`
     over replay-time recomputation, and `postflopAnalyzer.ts` note regressions
     guard against the Portuguese fragments found in the June 1 refresh.
+15. **Bounty/final-table context surfacing** - FIXED 2026-06-02.
+    HandReplay now renders attached `bountyContext`, `fakeShoveSpot`, and
+    `restealSpot` metadata in a Tournament Context panel instead of limiting
+    visible cues to ICM stage and squeeze spots.
 
 ## Open follow-ups
 
 - Dedicated facing-raise reaction charts for SB, blinds, and late-position vs
   late-position spots are still a strategy-data follow-up.
-- Bounty/final-table contexts are attached to `HeroDecision`, but visible UI
-  surfacing is still partial beyond ICM and squeeze cues.
 - PWA manifest/icon references still need real files under `public/`.
 - The real-fixture parser sweep does not yet include Open Hand History files.
 
@@ -345,7 +347,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 60
-**`it` / `test` calls (approximate):** 618
+**`it` / `test` calls (approximate):** 619
 
 ```
 src/__tests__/App.test.tsx
