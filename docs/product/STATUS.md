@@ -5,7 +5,7 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-06-02
-**Branch at verification:** `codex/add-pwa-icon-assets`
+**Branch at verification:** `codex/pin-poker-odds-calculator`
 **Tests at verification:** 628 / 628 passing (60 files)
 
 ---
@@ -127,6 +127,9 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     The `public/` directory now contains the icons referenced by
     `vite.config.ts`: `favicon.ico`, `apple-touch-icon.png`, `masked-icon.svg`,
     `pwa-192x192.png`, and `pwa-512x512.png`.
+17. **Exact `poker-odds-calculator` pin** - FIXED 2026-06-02.
+    `package.json` and the root `package-lock.json` dependency spec now pin
+    `poker-odds-calculator` to `0.4.0` instead of the pre-1.0 caret range.
 
 ## Open follow-ups
 
@@ -189,7 +192,7 @@ are stale. Do not edit by hand.
 - jspdf-autotable ^5.0.8
 - jszip ^3.10.1
 - lucide-react ^1.16.0
-- poker-odds-calculator ^0.4.0
+- poker-odds-calculator 0.4.0
 - react ^19.2.6
 - react-dom ^19.2.6
 - react-router-dom ^7.15.1
