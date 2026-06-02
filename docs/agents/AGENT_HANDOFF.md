@@ -19,6 +19,42 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-02 - HandReplay postflop consistency
+
+- Owner / agent:          Codex
+- Branch:                 codex/handreplay-postflop-consistency
+- Scope:                  Close the HandReplay postflop recomputation drift and Portuguese note regressions from the June 1 review refresh.
+- Files touched:
+  - `src/components/hands/HandReplay.tsx` - prefers stored import-time `HeroDecision.postflopActions` and falls back to recomputation only for older decisions.
+  - `src/components/hands/__tests__/HandReplay.test.tsx` - verifies stored postflop spots are rendered without calling replay-time analysis.
+  - `src/analysis/postflopAnalyzer.ts` - translates remaining Portuguese-facing postflop notes to English.
+  - `src/analysis/__tests__/postflopAnalyzer.test.ts` - rejects the Portuguese fragments found in the refresh report.
+  - `docs/product/STATUS.md` - marks the finding fixed and refreshes verification/test counts.
+  - `docs/product/ROADMAP.md` - marks HandReplay postflop consistency complete.
+  - `docs/reports/2026-06-01-review-output-refresh.md` - records both P1 findings as resolved and updates the next batch.
+  - `.agents/runs/2026-06-02-handreplay-postflop-consistency-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Closed the replay/import trust bug where HandReplay could recompute postflop analysis with a different pot basis than the importer and show different c-bet sizing feedback.
+  - Kept backward compatibility for old decisions that do not have stored `postflopActions`.
+  - Removed the Portuguese fragments in user-facing postflop analyzer notes and added a focused regression.
+- Verification:
+  - `npx.cmd vitest run src/analysis/__tests__/postflopAnalyzer.test.ts src/components/hands/__tests__/HandReplay.test.tsx src/analysis/__tests__/scenarioDetector.test.ts` - passed, 3 files / 64 tests.
+  - `npm.cmd run docs:update` - updated generated test-call count in `docs/product/STATUS.md`.
+  - `rg -n "Recomendado|correto|como PFR|em board|no turn|C-bet HU em" src\analysis\postflopAnalyzer.ts src\analysis\__tests__\postflopAnalyzer.test.ts src\components\hands\HandReplay.tsx src\components\hands\__tests__\HandReplay.test.tsx` - only matched the regression test regex.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - sandboxed first run failed before startup with esbuild access denied reading Vite config; escalated rerun passed, 60 files / 627 tests.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-02-handreplay-postflop-consistency-evidence.md`.
+- Risks / assumptions:
+  - Stored postflop analysis is now treated as the source of truth for imported decisions. Old decisions without that field still use the legacy replay-time analyzer path.
+  - Full Vitest still prints the existing `--localstorage-file` warning even though the suite passes.
+- Next action requested:
+  - Review and merge this focused fix, then move to the remaining review-refresh batch: bounty/fake-shove/resteal context surfacing, PWA icons, and exact dependency pinning.
+
 ## 2026-06-02 - Per-decision ICM compliance stage
 
 - Owner / agent:          Codex

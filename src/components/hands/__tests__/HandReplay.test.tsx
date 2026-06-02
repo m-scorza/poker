@@ -11,12 +11,25 @@ const storeMocks = vi.hoisted(() => ({
   getActionsForHand: vi.fn(),
   toggleStarHand: vi.fn(),
 }));
+const postflopMocks = vi.hoisted(() => ({
+  analyzePostflop: vi.fn(),
+}));
 
 vi.mock('../../../data/store', () => ({
   getPlayersForHand: storeMocks.getPlayersForHand,
   getActionsForHand: storeMocks.getActionsForHand,
   toggleStarHand: storeMocks.toggleStarHand,
 }));
+
+vi.mock('../../../analysis/postflopAnalyzer', async () => {
+  const actual = await vi.importActual<typeof import('../../../analysis/postflopAnalyzer')>(
+    '../../../analysis/postflopAnalyzer'
+  );
+  return {
+    ...actual,
+    analyzePostflop: postflopMocks.analyzePostflop,
+  };
+});
 
 vi.mock('poker-odds-calculator', () => ({
   CardGroup: {
@@ -159,6 +172,7 @@ describe('HandReplay', () => {
     storeMocks.getPlayersForHand.mockResolvedValue(players);
     storeMocks.getActionsForHand.mockResolvedValue(actions);
     storeMocks.toggleStarHand.mockResolvedValue(true);
+    postflopMocks.analyzePostflop.mockReturnValue([]);
   });
 
   it('loads hand details and renders the modal header', async () => {
@@ -227,5 +241,29 @@ describe('HandReplay', () => {
     expect(within(container).getByText('Check')).toBeInTheDocument();
     expect(within(container).getByText('Bet')).toBeInTheDocument();
     expect(within(container).getAllByText('50').length).toBeGreaterThan(0);
+  });
+
+  it('uses imported postflop analysis instead of recomputing replay spots', async () => {
+    const decisionWithStoredPostflop: HeroDecision = {
+      ...heroDecision,
+      postflopActions: [
+        {
+          spot: 'CBET_HU',
+          street: 'flop',
+          sizing: 0.249,
+          isCorrect: true,
+          note: 'Stored import-time c-bet analysis',
+        },
+      ],
+    };
+    const { container } = render(
+      <HandReplay hand={hand} heroDecision={decisionWithStoredPostflop} onClose={vi.fn()} />
+    );
+
+    await waitFor(() => {
+      expect(within(container).getByText('Stored import-time c-bet analysis')).toBeInTheDocument();
+    });
+
+    expect(postflopMocks.analyzePostflop).not.toHaveBeenCalled();
   });
 });

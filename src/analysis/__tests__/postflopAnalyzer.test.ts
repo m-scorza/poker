@@ -226,6 +226,34 @@ describe('analyzePostflop', () => {
     const spots = analyzePostflop(actions, 'hero', false, ['Ah', '7d', '2c'], 2, 100);
     expect(spots.some((s) => s.spot === 'NONE' && s.note.includes('Facing 50% pot bet'))).toBe(true);
   });
+
+  it('emits English postflop notes without Portuguese fragments', () => {
+    const spotSets = [
+      analyzePostflop([
+        makeAction({ playerName: 'hero', actionType: 'bet', amount: 33, street: 'flop', sequence: 1 }),
+      ], 'hero', true, ['Kh', 'Qd', '3c'], 2, 100),
+      analyzePostflop([
+        makeAction({ playerName: 'hero', actionType: 'bet', street: 'flop', sequence: 1 }),
+        makeAction({ playerName: 'villain', actionType: 'call', street: 'flop', sequence: 2 }),
+        makeAction({ playerName: 'hero', actionType: 'bet', street: 'turn', sequence: 3 }),
+      ], 'hero', true, ['Kh', 'Qd', '3c'], 2, 100),
+      analyzePostflop([
+        makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
+        makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 2 }),
+      ], 'hero', true, ['Ah', '7d', '2c'], 2, 100),
+      analyzePostflop([
+        makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
+        makeAction({ playerName: 'hero', actionType: 'bet', street: 'flop', sequence: 2 }),
+      ], 'hero', false, ['Kh', 'Qd', '3c'], 2, 100),
+    ];
+    const portugueseFragments = /\b(recomendado|como|correto)\b|\bem board\b|\bno turn\b/i;
+
+    const notes = spotSets.flat().map((spot) => spot.note);
+    expect(notes.length).toBeGreaterThan(0);
+    for (const note of notes) {
+      expect(note).not.toMatch(portugueseFragments);
+    }
+  });
 });
 
 describe('isGoodBarrelCard', () => {

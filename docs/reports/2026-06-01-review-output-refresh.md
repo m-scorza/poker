@@ -82,6 +82,10 @@ percentage recomputation.
 
 ### P1 - HandReplay can diverge from imported postflop analysis
 
+**Resolved 2026-06-02:** HandReplay now prefers stored import-time
+`heroDecision.postflopActions` when the field is present, and falls back to
+recomputation only for older decisions without stored postflop analysis.
+
 The import path now calls `analyzePostflop()` with a computed flop-pot value.
 HandReplay still recomputes the same analysis with `hand.totalPot`, which is the
 final stored hand pot and can be much larger than the flop pot.
@@ -90,11 +94,14 @@ Impact: a hand can have one stored `HeroDecision.postflopActions` result, while
 the replay modal displays a different sizing judgment. This is exactly the kind
 of trust issue the old reports were worried about.
 
-Recommended fix: prefer `heroDecision.postflopActions` in HandReplay when
-available, or share the same pot-before-flop helper between scenario detection
-and replay.
+Recommended fix: complete. The modal no longer recomputes over stored
+postflop analysis.
 
 ### P1 - Postflop notes still contain Portuguese-facing text
+
+**Resolved 2026-06-02:** the listed `postflopAnalyzer.ts` notes are translated
+to English, and a focused test now rejects the Portuguese fragments found in
+this refresh.
 
 `postflopAnalyzer.ts` still emits notes such as `C-bet HU em board`,
 `Recomendado`, `Double barrel no turn`, `Missed c-bet HU como PFR`, and
@@ -104,8 +111,7 @@ Impact: these notes are visible in HandReplay and can feed user-facing analysis.
 This contradicts the repo rule that UI copy stays English and the docs claim
 that analysis-layer note strings were purged.
 
-Recommended fix: translate the remaining notes and add a focused assertion that
-postflop notes emitted by `analyzePostflop()` contain no Portuguese markers.
+Recommended fix: complete.
 
 ### P1 - Bounty/final-table context is attached but not surfaced enough for the docs claim
 
@@ -213,8 +219,6 @@ exit 0
 
 ## Recommended Next Batch
 
-1. Make HandReplay reuse stored postflop analysis or the same flop-pot helper,
-   then translate remaining postflop notes.
-2. Decide whether to surface or delist bounty/fake-shove/resteal contexts.
-3. Add PWA icon assets.
-4. Pin `poker-odds-calculator` exactly.
+1. Decide whether to surface or delist bounty/fake-shove/resteal contexts.
+2. Add PWA icon assets.
+3. Pin `poker-odds-calculator` exactly.
