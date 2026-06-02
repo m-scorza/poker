@@ -19,6 +19,38 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-02 - Exact poker odds dependency pin
+
+- Owner / agent:          Codex
+- Branch:                 codex/pin-poker-odds-calculator
+- Scope:                  Pin the pre-1.0 `poker-odds-calculator` dependency exactly and close the review-refresh package finding.
+- Files touched:
+  - `package.json` - changes `poker-odds-calculator` from `^0.4.0` to `0.4.0`.
+  - `package-lock.json` - updates the root dependency spec to exact `0.4.0`; resolved package entry was already `0.4.0`.
+  - `docs/product/STATUS.md` - records the exact pin and refreshes the dependency inventory/header.
+  - `docs/reports/2026-06-01-review-output-refresh.md` - records the package finding as resolved and updates the recommended next batch.
+  - `.agents/runs/2026-06-02-pin-poker-odds-calculator-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Removed the caret range for `poker-odds-calculator` so a pre-1.0 minor release cannot change HandReplay equity behavior through install drift.
+  - Confirmed `npm.cmd install --package-lock-only --ignore-scripts` reports the lockfile is up to date.
+  - The remaining active review-refresh item is moving the `HandsPage.tsx` test-only assertions into a real test file.
+- Verification:
+  - `npm.cmd install --package-lock-only --ignore-scripts` - up to date; audited 736 packages; existing 2 critical audit findings remain.
+  - `rg -n '"poker-odds-calculator": "\^' package.json package-lock.json` - no matches.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:update` - updated generated dependency inventory in `docs/product/STATUS.md`.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - escalated run passed, 60 files / 628 tests.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-02-pin-poker-odds-calculator-evidence.md`.
+- Risks / assumptions:
+  - This does not change the resolved package version, only the installation range.
+  - `npm install` still reports the existing two critical audit findings; this scoped pin does not address them.
+  - Full Vitest still prints the existing `--localstorage-file` warning even though the suite passes.
+- Next action requested:
+  - Review and merge this dependency/docs fix, then move the test-only `HandsPage.tsx` assertions into a real test file.
+
 ## 2026-06-02 - PWA icon assets
 
 - Owner / agent:          Codex

@@ -51,7 +51,7 @@ pipeline.
 | Bounty/final-table analyzers dead code | Fixed | `scenarioDetector.ts` attaches `bountyContext`, `fakeShoveSpot`, and `restealSpot` to `HeroDecision`; HandReplay now surfaces those contexts in a Tournament Context panel. |
 | Test isolation / missing coverage tooling | Fixed | `package.json` uses `vitest run`; coverage and `typecheck:test` are configured. |
 | PWA icons missing | Fixed | `public/` now contains `favicon.ico`, `apple-touch-icon.png`, `masked-icon.svg`, `pwa-192x192.png`, and `pwa-512x512.png`; build copies them into `dist/`. |
-| `poker-odds-calculator` should be pinned exactly | Still open | Dependency remains `^0.4.0` in `package.json` and `package-lock.json`. |
+| `poker-odds-calculator` should be pinned exactly | Fixed | `package.json` and the root `package-lock.json` dependency spec now use exact `0.4.0`. |
 
 ## Active Findings
 
@@ -146,16 +146,20 @@ Impact: PWA install metadata can warn or fall back to generic icons.
 
 Recommended fix: complete.
 
-### P2 - `poker-odds-calculator` remains caret-ranged
+### P2 - `poker-odds-calculator` was caret-ranged
 
-The old research recommendation to pin the package exactly remains valid:
-`package.json` still has `^0.4.0`.
+**Resolved 2026-06-02:** `package.json` and the root
+`package-lock.json` dependency spec now pin `poker-odds-calculator` to
+`0.4.0`; the installed lock entry was already resolved to `0.4.0`.
+
+Before this fix, the old research recommendation to pin the package exactly
+remained valid because `package.json` still had `^0.4.0`.
 
 Impact: pre-1.0 packages can make breaking changes on minor versions. The app
 uses this package only in HandReplay equity display, so the blast radius is
 small but user-visible.
 
-Recommended fix: change it to `0.4.0` and refresh the lockfile.
+Recommended fix: complete.
 
 ### P3 - Test-only assertions live inside `HandsPage.tsx`
 
@@ -227,5 +231,4 @@ exit 0
 
 ## Recommended Next Batch
 
-1. Pin `poker-odds-calculator` exactly.
-2. Move test-only `HandsPage.tsx` assertions into a real test file.
+1. Move test-only `HandsPage.tsx` assertions into a real test file.
