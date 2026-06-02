@@ -19,6 +19,37 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-02 - HandsPage hand-category test extraction
+
+- Owner / agent:          Codex
+- Branch:                 codex/move-hand-category-tests
+- Scope:                  Move `HandsPage.tsx` self-executing hand-category assertions into a real Vitest file.
+- Files touched:
+  - `src/pages/HandsPage.tsx` - exports `getHandCategory()` and removes the `globalThis as any` test-environment assertion block.
+  - `src/pages/__tests__/HandsPage.test.ts` - adds real parameterized coverage for the same hand categories, including suited-gapper regressions.
+  - `docs/product/STATUS.md` - marks the test-only assertion finding fixed and refreshes verification/test counts.
+  - `docs/reports/2026-06-01-review-output-refresh.md` - records the P3 finding as resolved and clears the recommended refresh batch.
+  - `.agents/runs/2026-06-02-hand-category-test-extraction-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Removed test logic from production page source without changing runtime filter behavior.
+  - Preserved the suited-gapper coverage and corrected the stale `AKs` expectation to match the current suited-aces category.
+  - The June 1 refresh report now has no open recommended-next-batch items.
+- Verification:
+  - `npx.cmd vitest run src/pages/__tests__/HandsPage.test.ts` - passed, 1 file / 21 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npm.cmd run docs:update` - updated generated test inventory in `docs/product/STATUS.md`.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd test` - escalated run passed, 61 files / 649 tests.
+  - `git diff --check` - passed.
+  - Local evidence summary: `.agents/runs/2026-06-02-hand-category-test-extraction-evidence.md`.
+- Risks / assumptions:
+  - `getHandCategory()` is now exported only for focused tests; no product behavior changed.
+  - Full Vitest still prints the existing `--localstorage-file` warning even though the suite passes.
+- Next action requested:
+  - Review and merge this final review-refresh cleanup. After merge, the June 1 refresh items are closed; remaining broader follow-ups live in `docs/product/STATUS.md`.
+
 ## 2026-06-02 - Exact poker odds dependency pin
 
 - Owner / agent:          Codex

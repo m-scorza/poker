@@ -5,8 +5,8 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-06-02
-**Branch at verification:** `codex/pin-poker-odds-calculator`
-**Tests at verification:** 628 / 628 passing (60 files)
+**Branch at verification:** `codex/move-hand-category-tests`
+**Tests at verification:** 649 / 649 passing (61 files)
 
 ---
 
@@ -130,6 +130,9 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
 17. **Exact `poker-odds-calculator` pin** - FIXED 2026-06-02.
     `package.json` and the root `package-lock.json` dependency spec now pin
     `poker-odds-calculator` to `0.4.0` instead of the pre-1.0 caret range.
+18. **HandsPage test-only assertions** - FIXED 2026-06-02.
+    `getHandCategory()` coverage moved from a self-executing test-environment
+    guard inside `HandsPage.tsx` to `src/pages/__tests__/HandsPage.test.ts`.
 
 ## Open follow-ups
 
@@ -352,8 +355,8 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 60
-**`it` / `test` calls (approximate):** 619
+**Test files:** 61
+**`it` / `test` calls (approximate):** 620
 
 ```
 src/__tests__/App.test.tsx
@@ -400,6 +403,7 @@ src/data/__tests__/pushFoldRanges.test.ts
 src/data/__tests__/ranges.test.ts
 src/data/__tests__/sessions.test.ts
 src/data/__tests__/store.test.ts
+src/pages/__tests__/HandsPage.test.ts
 src/parser/__tests__/buyInExtractor.test.ts
 src/parser/__tests__/contributionPackage.test.ts
 src/parser/__tests__/fixtureSweep.test.ts

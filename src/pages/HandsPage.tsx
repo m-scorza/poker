@@ -24,7 +24,7 @@ function getStackDepth(bb: number): StackDepth {
   return 'short';
 }
 
-function getHandCategory(handKey: string): HandCategory {
+export function getHandCategory(handKey: string): HandCategory {
   if (handKey.length === 2) return 'pairs';
   if (handKey.endsWith('s')) {
     const r1 = handKey[0]!;
@@ -40,37 +40,6 @@ function getHandCategory(handKey: string): HandCategory {
   const broadways = new Set(['A', 'K', 'Q', 'J', 'T']);
   if (broadways.has(handKey[0]!) && broadways.has(handKey[1]!)) return 'broadway';
   return 'offsuit';
-}
-
-// Self-executing unit tests for getHandCategory in test environment
-if (typeof globalThis !== 'undefined' && (globalThis as any).process?.env?.NODE_ENV === 'test') {
-  const assertCategory = (hand: string, expected: HandCategory) => {
-    const actual = getHandCategory(hand);
-    if (actual !== expected) {
-      throw new Error(`getHandCategory('${hand}') expected '${expected}', got '${actual}'`);
-    }
-  };
-  assertCategory('AA', 'pairs');
-  assertCategory('KK', 'pairs');
-  assertCategory('22', 'pairs');
-  assertCategory('AKs', 'broadway');
-  assertCategory('KQs', 'broadway');
-  assertCategory('QJs', 'broadway');
-  assertCategory('JTs', 'broadway');
-  assertCategory('A9s', 'suited-aces');
-  assertCategory('A2s', 'suited-aces');
-  assertCategory('T9s', 'suited-connectors');
-  assertCategory('98s', 'suited-connectors');
-  assertCategory('54s', 'suited-connectors');
-  assertCategory('K5s', 'suited-gappers');
-  assertCategory('86s', 'suited-gappers');
-  assertCategory('Q4s', 'suited-gappers');
-  assertCategory('AKo', 'broadway');
-  assertCategory('KQo', 'broadway');
-  assertCategory('QJo', 'broadway');
-  assertCategory('A9o', 'offsuit');
-  assertCategory('J8o', 'offsuit');
-  assertCategory('72o', 'offsuit');
 }
 
 export function HandsPage() {
