@@ -50,7 +50,7 @@ pipeline.
 | Worker lifecycle/concurrency cleanup | Fixed | `HandsUpload.tsx` terminates superseded/unmounted workers and gates stale callbacks with `importSeqRef`. |
 | Bounty/final-table analyzers dead code | Fixed | `scenarioDetector.ts` attaches `bountyContext`, `fakeShoveSpot`, and `restealSpot` to `HeroDecision`; HandReplay now surfaces those contexts in a Tournament Context panel. |
 | Test isolation / missing coverage tooling | Fixed | `package.json` uses `vitest run`; coverage and `typecheck:test` are configured. |
-| PWA icons missing | Still open | `vite.config.ts` references icons/assets, but there is no `public/` directory. |
+| PWA icons missing | Fixed | `public/` now contains `favicon.ico`, `apple-touch-icon.png`, `masked-icon.svg`, `pwa-192x192.png`, and `pwa-512x512.png`; build copies them into `dist/`. |
 | `poker-odds-calculator` should be pinned exactly | Still open | Dependency remains `^0.4.0` in `package.json` and `package-lock.json`. |
 
 ## Active Findings
@@ -134,14 +134,17 @@ contexts that the importer attaches to each `HeroDecision`.
 
 ### P2 - PWA install assets are still missing
 
+**Resolved 2026-06-02:** added the referenced public assets:
+`favicon.ico`, `apple-touch-icon.png`, `masked-icon.svg`, `pwa-192x192.png`,
+and `pwa-512x512.png`. `npm.cmd run build` copies them into `dist/`.
+
 `vite.config.ts` includes `favicon.ico`, `apple-touch-icon.png`,
 `masked-icon.svg`, `pwa-192x192.png`, and `pwa-512x512.png`, but `public/` is
 absent.
 
 Impact: PWA install metadata can warn or fall back to generic icons.
 
-Recommended fix: add minimal generated assets under `public/`, or remove the
-manifest/icon references until assets exist.
+Recommended fix: complete.
 
 ### P2 - `poker-odds-calculator` remains caret-ranged
 
@@ -177,7 +180,8 @@ The package recommendations need to be reprioritized after the May 31 work:
    serializable position stats and denominator behavior.
 4. The best next "research-to-action" item is not a new library. It is resolving
    the ICM/compliance and postflop replay inconsistencies with shared code paths.
-5. The PWA research remains actionable only after icon assets exist.
+5. The PWA icon-asset gap is closed; deeper PWA research should wait until
+   offline/install behavior becomes a product priority.
 6. The React Compiler / bundle analyzer ideas from Opus remain speculative. Do
    not prioritize them ahead of the remaining trust bugs.
 
@@ -223,6 +227,5 @@ exit 0
 
 ## Recommended Next Batch
 
-1. Add PWA icon assets.
-2. Pin `poker-odds-calculator` exactly.
-3. Move test-only `HandsPage.tsx` assertions into a real test file.
+1. Pin `poker-odds-calculator` exactly.
+2. Move test-only `HandsPage.tsx` assertions into a real test file.
