@@ -48,7 +48,7 @@ pipeline.
 | `statsByPosition` Map serialization and denominator bugs | Fixed | `VillainProfile.statsByPosition` is now `Partial<Record<Position, PositionStats>>` with persisted raw counters and store tests. |
 | OHH JSON over 65KB misidentified | Fixed | `siteIdentifier.ts` checks full JSON/OHH shape before the 65KB text marker scan; tests cover large OHH JSON. |
 | Worker lifecycle/concurrency cleanup | Fixed | `HandsUpload.tsx` terminates superseded/unmounted workers and gates stale callbacks with `importSeqRef`. |
-| Bounty/final-table analyzers dead code | Partially fixed | `scenarioDetector.ts` attaches `bountyContext`, `fakeShoveSpot`, and `restealSpot` to `HeroDecision`, but UI surfacing remains limited. |
+| Bounty/final-table analyzers dead code | Fixed | `scenarioDetector.ts` attaches `bountyContext`, `fakeShoveSpot`, and `restealSpot` to `HeroDecision`; HandReplay now surfaces those contexts in a Tournament Context panel. |
 | Test isolation / missing coverage tooling | Fixed | `package.json` uses `vitest run`; coverage and `typecheck:test` are configured. |
 | PWA icons missing | Still open | `vite.config.ts` references icons/assets, but there is no `public/` directory. |
 | `poker-odds-calculator` should be pinned exactly | Still open | Dependency remains `^0.4.0` in `package.json` and `package-lock.json`. |
@@ -115,18 +115,22 @@ Recommended fix: complete.
 
 ### P1 - Bounty/final-table context is attached but not surfaced enough for the docs claim
 
+**Resolved 2026-06-02:** HandReplay now renders attached
+`bountyContext`, `fakeShoveSpot`, and `restealSpot` metadata in a Tournament
+Context panel, with regression coverage for all three context types.
+
 The old "dead code" finding is no longer accurate. `bountyContext`,
 `fakeShoveSpot`, and `restealSpot` are attached to `HeroDecision` and tested.
-However, current UI search only finds visible rendering for ICM stage and
-squeeze spots in HandReplay. I did not find UI rendering for bounty context,
+Before this fix, UI search only found visible rendering for ICM stage and
+squeeze spots in HandReplay, with no rendering for bounty context,
 fake-shove context, or resteal context.
 
-Impact: `CLAUDE.md` and `ROADMAP.md` still read as if full Bounty & FT analysis
-is a shipped user-facing feature. The safer current description is "analysis
-metadata is attached; UI surfacing is partial."
+Impact before fix: `CLAUDE.md` and `ROADMAP.md` read as if Bounty & FT
+analysis was a shipped user-facing feature, while the visible UI only showed
+partial cues.
 
-Recommended fix: either surface these contexts in HandReplay/Leaks/Study Plan,
-or downgrade the docs claim until the UI exists.
+Recommended fix: complete. HandReplay now surfaces the stored tournament
+contexts that the importer attaches to each `HeroDecision`.
 
 ### P2 - PWA install assets are still missing
 
@@ -219,6 +223,6 @@ exit 0
 
 ## Recommended Next Batch
 
-1. Decide whether to surface or delist bounty/fake-shove/resteal contexts.
-2. Add PWA icon assets.
-3. Pin `poker-odds-calculator` exactly.
+1. Add PWA icon assets.
+2. Pin `poker-odds-calculator` exactly.
+3. Move test-only `HandsPage.tsx` assertions into a real test file.

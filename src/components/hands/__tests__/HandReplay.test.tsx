@@ -266,4 +266,53 @@ describe('HandReplay', () => {
 
     expect(postflopMocks.analyzePostflop).not.toHaveBeenCalled();
   });
+
+  it('surfaces bounty and final-table contexts attached to the decision', async () => {
+    const decisionWithTournamentContext: HeroDecision = {
+      ...heroDecision,
+      bountyContext: {
+        tournamentType: 'progressive_ko',
+        equityDrop: 8.5,
+        heroCoversVillain: true,
+        bountyRatio: 1,
+        stageAdjustment: 'mid',
+        note: 'Moderate bounty pressure widens profitable calls.',
+      },
+      fakeShoveSpot: {
+        handId: hand.id,
+        heroPosition: 'BTN',
+        heroStackBb: 11.5,
+        raiseSize: 575,
+        isFakeShove: true,
+        opponentsRemaining: 3,
+        note: 'Fake shove keeps fold equity against multi-way action.',
+      },
+      restealSpot: {
+        handId: hand.id,
+        heroPosition: 'BB',
+        heroStackBb: 18,
+        villainPosition: 'BTN',
+        villainStackType: 'chip_leader',
+        heroAction: 'resteal',
+        riskPremiumEstimate: 15,
+        note: 'Resteal vs chip leader with controlled risk premium.',
+      },
+    };
+    const { container } = render(
+      <HandReplay hand={hand} heroDecision={decisionWithTournamentContext} onClose={vi.fn()} />
+    );
+
+    await waitFor(() => {
+      expect(within(container).getByText('Tournament Context')).toBeInTheDocument();
+    });
+
+    expect(within(container).getByText('Bounty Context')).toBeInTheDocument();
+    expect(within(container).getByText('Progressive KO')).toBeInTheDocument();
+    expect(within(container).getByText('Hero covers target')).toBeInTheDocument();
+    expect(within(container).getByText('Fake Shove Spot')).toBeInTheDocument();
+    expect(within(container).getByText('Fake shove keeps fold equity against multi-way action.')).toBeInTheDocument();
+    expect(within(container).getByText('Resteal Spot')).toBeInTheDocument();
+    expect(within(container).getByText('Chip Leader')).toBeInTheDocument();
+    expect(within(container).getByText('Resteal vs chip leader with controlled risk premium.')).toBeInTheDocument();
+  });
 });

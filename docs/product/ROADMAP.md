@@ -44,8 +44,8 @@
 - [x] BPWR (Bounty Power) calculator
 - [x] FT-specific analysis (fake shove detection, resteal spots)
 - [x] Squeeze play detection and analysis
-- [ ] Surface bounty/fake-shove/resteal contexts in the UI, or keep them
-      documented as attached metadata rather than fully shipped visible features
+- [x] Surface bounty/fake-shove/resteal contexts in HandReplay's Tournament
+      Context panel (Completed 2026-06-02)
 
 ### Phase 5: Accuracy & Analytics Depth — Complete
 - [x] W$SD false positives — detect actual `*** SHOW DOWN ***` section
