@@ -19,6 +19,29 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-02 - Product readiness refresh
+
+- Owner / agent:          Codex
+- Branch:                 codex/product-readiness-refresh-2026-06-02
+- Scope:                  Refresh older Hermes/Opus product-readiness analysis against the current repo state.
+- Files touched:
+  - `docs/reports/2026-06-02-product-readiness-refresh.md` - adds a current readiness scorecard, use-case estimates, blockers, and recommended next gate.
+  - `.agents/runs/2026-06-02-product-readiness-refresh-evidence.md` - local evidence summary.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Re-scored readiness independently instead of copying or mechanically raising the old Hermes estimate.
+  - Separates private validation readiness from paid/public product readiness.
+  - Concludes the current repo is ready for guided private validation, not public sale.
+  - Identifies validation, OHH real-fixture coverage, facing-raise charts, confidence surfacing, and release/support hygiene as the next product gates.
+- Verification:
+  - `npm.cmd run docs:check` - passed.
+  - `git diff --check` - passed.
+- Risks / assumptions:
+  - This is a product/readiness report only; no code behavior changed.
+  - External market check was narrow and used only as benchmark calibration, not as a full competitor research refresh.
+- Next action requested:
+  - Review and merge the report. Then run the six-user validation plan before starting commercial/public-product work.
+
 ## 2026-06-02 - HandsPage hand-category test extraction
 
 - Owner / agent:          Codex
