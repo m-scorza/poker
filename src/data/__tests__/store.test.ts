@@ -1,7 +1,20 @@
 import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it } from 'vitest';
-import { aggregateVillainStats, clearAllData, db, saveVillainNote } from '../store';
+import {
+  aggregateVillainStats,
+  clearAllData,
+  clearImportRuns,
+  db,
+  getRecentImportRuns,
+  saveImportRun,
+  saveVillainNote,
+} from '../store';
 import type { Action, Hand, PlayerInHand, Position } from '../../types/hand';
+import type { ImportRunRecord } from '../importRuns';
+import {
+  IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+  buildImportDiagnosticsSnapshot,
+} from '../importDiagnosticsPolicy';
 
 function makeHand(id: string, overrides: Partial<Hand> = {}): Hand {
   return {
@@ -79,6 +92,24 @@ function handData(
       makePlayer(id, 'Villain', villainPosition, false, playerOverrides),
     ],
     actions,
+  };
+}
+
+function makeImportRunRecord(index: number): ImportRunRecord {
+  return {
+    id: `import-${index}`,
+    importedAt: new Date(Date.UTC(2026, 4, 17, 20, index, 0)),
+    sourceFiles: [`run-${index}.txt`],
+    totalFiles: 1,
+    parsedFiles: 1,
+    failedFiles: 0,
+    handsFound: index,
+    summariesFound: 0,
+    savedHands: index,
+    savedSummaries: 0,
+    confidence: 'high',
+    warnings: [],
+    diagnostics: buildImportDiagnosticsSnapshot(),
   };
 }
 
@@ -218,5 +249,30 @@ describe('aggregateVillainStats', () => {
     expect(villain!.notes).toBe('floats too wide');
     expect(villain!.tags).toEqual(['sticky']);
     expect(villain!.stats.vpip).toBe(100);
+  });
+});
+
+describe('import diagnostics persistence', () => {
+  beforeEach(async () => {
+    await clearAllData();
+  });
+
+  it('keeps only the latest local diagnostic runs by default', async () => {
+    for (let i = 0; i < IMPORT_DIAGNOSTICS_RETENTION_RUNS + 2; i++) {
+      await saveImportRun(makeImportRunRecord(i));
+    }
+
+    const runs = await getRecentImportRuns(IMPORT_DIAGNOSTICS_RETENTION_RUNS + 10);
+
+    expect(runs).toHaveLength(IMPORT_DIAGNOSTICS_RETENTION_RUNS);
+    expect(runs[0]!.id).toBe(`import-${IMPORT_DIAGNOSTICS_RETENTION_RUNS + 1}`);
+    expect(runs[runs.length - 1]!.id).toBe('import-2');
+  });
+
+  it('clears import diagnostics without requiring a full local data reset', async () => {
+    await saveImportRun(makeImportRunRecord(1));
+    await clearImportRuns();
+
+    await expect(getRecentImportRuns()).resolves.toEqual([]);
   });
 });

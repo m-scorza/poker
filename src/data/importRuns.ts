@@ -1,6 +1,27 @@
 import type { ImportConfidence, ImportSummary } from '../parser/workerProcessor';
+import {
+  IMPORT_DIAGNOSTICS_EXPORT_RUNS,
+  IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+  buildImportDiagnosticsSnapshot,
+  sanitizeDiagnosticSourceFile,
+  sanitizeDiagnosticText,
+  type ImportDiagnosticsEnvironment,
+  type ImportDiagnosticsSnapshot,
+} from './importDiagnosticsPolicy';
 
 export { saveImportRun, getRecentImportRuns } from './store';
+export {
+  IMPORT_DIAGNOSTICS_EXPORT_RUNS,
+  IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+  MAX_DIAGNOSTIC_TEXT_LENGTH,
+  buildImportDiagnosticsSnapshot,
+  sanitizeDiagnosticSourceFile,
+  sanitizeDiagnosticText,
+} from './importDiagnosticsPolicy';
+export type {
+  ImportDiagnosticsEnvironment,
+  ImportDiagnosticsSnapshot,
+} from './importDiagnosticsPolicy';
 
 export interface SavedImportCounts {
   savedHands: number;
@@ -20,6 +41,7 @@ export interface ImportRunRecord {
   savedSummaries: number;
   confidence: ImportConfidence;
   warnings: string[];
+  diagnostics: ImportDiagnosticsSnapshot;
 }
 
 export interface DataHealthSummary {
@@ -53,11 +75,14 @@ export interface ImportDiagnosticsOptions {
   maxRuns?: number;
 }
 
+export interface ImportRunRecordOptions {
+  environment?: ImportDiagnosticsEnvironment;
+}
+
 const MAX_WARNING_COUNT = 5;
 
 function markdownListValue(value: string): string {
-  const singleLine = value.replace(/[\r\n]+/g, ' ').trim();
-  return singleLine.length > 0 ? singleLine : '(blank)';
+  return sanitizeDiagnosticText(value);
 }
 
 export function buildImportRunRecord(
@@ -65,11 +90,12 @@ export function buildImportRunRecord(
   sourceFiles: string[],
   savedCounts: SavedImportCounts,
   importedAt = new Date(),
+  options: ImportRunRecordOptions = {},
 ): ImportRunRecord {
   return {
     id: `import-${importedAt.toISOString()}`,
     importedAt,
-    sourceFiles: [...sourceFiles],
+    sourceFiles: sourceFiles.map(sanitizeDiagnosticSourceFile),
     totalFiles: summary.totalFiles,
     parsedFiles: summary.parsedFiles,
     failedFiles: summary.failedFiles,
@@ -78,7 +104,8 @@ export function buildImportRunRecord(
     savedHands: savedCounts.savedHands,
     savedSummaries: savedCounts.savedSummaries,
     confidence: summary.confidence,
-    warnings: [...summary.warnings],
+    warnings: summary.warnings.map(sanitizeDiagnosticText),
+    diagnostics: buildImportDiagnosticsSnapshot(options.environment),
   };
 }
 
@@ -175,7 +202,7 @@ export function buildImportDiagnosticsMarkdown(
   options: ImportDiagnosticsOptions = {},
 ): string {
   const generatedAt = options.generatedAt ?? new Date();
-  const maxRuns = options.maxRuns ?? 5;
+  const maxRuns = options.maxRuns ?? IMPORT_DIAGNOSTICS_EXPORT_RUNS;
   const sortedRuns = [...runs]
     .sort((a, b) => b.importedAt.getTime() - a.importedAt.getTime())
     .slice(0, maxRuns);
@@ -185,7 +212,9 @@ export function buildImportDiagnosticsMarkdown(
     '',
     `Generated: ${generatedAt.toISOString()}`,
     '',
-    'Privacy note: this report contains source filenames, aggregate import counts, and parser warnings only. It does not include raw hand histories, hole cards, board cards, actions, or player-level hand data. Review filenames before sharing outside your machine.',
+    `Collection: automatic local-only diagnostics. The app keeps the latest ${IMPORT_DIAGNOSTICS_RETENTION_RUNS} import runs in browser storage.`,
+    '',
+    'Privacy note: this report contains sanitized source filenames, aggregate import counts, environment basics, and parser warnings only. It does not include raw hand histories, hole cards, board cards, actions, player-level hand data, or local paths. Review filenames before sharing outside your machine.',
     '',
   ];
 
@@ -212,7 +241,7 @@ export function buildImportDiagnosticsMarkdown(
     if (run.sourceFiles.length === 0) {
       lines.push('- None recorded');
     } else {
-      run.sourceFiles.forEach((sourceFile) => lines.push(`- ${markdownListValue(sourceFile)}`));
+      run.sourceFiles.forEach((sourceFile) => lines.push(`- ${sanitizeDiagnosticSourceFile(sourceFile)}`));
     }
 
     lines.push('', 'Warnings:');
@@ -220,6 +249,15 @@ export function buildImportDiagnosticsMarkdown(
       lines.push('- None');
     } else {
       run.warnings.forEach((warning) => lines.push(`- ${markdownListValue(warning)}`));
+    }
+
+    const environment = run.diagnostics?.environment;
+    if (environment) {
+      lines.push('', 'Environment:');
+      if (environment.appVersion) lines.push(`- App version: ${markdownListValue(environment.appVersion)}`);
+      if (environment.browserFamily) lines.push(`- Browser: ${markdownListValue(environment.browserFamily)}`);
+      if (environment.platform) lines.push(`- Platform: ${markdownListValue(environment.platform)}`);
+      if (environment.language) lines.push(`- Language: ${markdownListValue(environment.language)}`);
     }
 
     lines.push('');

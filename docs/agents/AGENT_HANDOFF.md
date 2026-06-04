@@ -19,6 +19,42 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-04 - Automatic local import diagnostics
+
+- Owner / agent:          Codex
+- Branch:                 codex/auto-import-diagnostics
+- Scope:                  Make import diagnostics automatic, local-only, bounded, and user-clearable.
+- Files touched:
+  - `src/data/importDiagnosticsPolicy.ts` - adds diagnostics privacy constants, metadata builder, and redaction helpers.
+  - `src/data/importRuns.ts` - stores diagnostics metadata, sanitized source filenames, capped warning text, and richer Markdown export content.
+  - `src/data/store.ts` - prunes import diagnostics to the latest 50 runs and adds diagnostics-only clear support.
+  - `src/components/hands/HandsUpload.tsx` - collects browser/app basics locally, exports retained diagnostics, and adds Clear Diagnostics.
+  - `src/data/__tests__/importRuns.test.ts` - covers diagnostics redaction, metadata, export content, mock persistence retention, and clear behavior.
+  - `src/data/__tests__/store.test.ts` - covers real Dexie retention and diagnostics-only clear behavior.
+  - `docs/product/DATA_MODEL_AND_PRIVACY.md` - documents automatic local diagnostics and the no-telemetry boundary.
+  - `docs/product/STATUS.md` - records the shipped behavior.
+  - `.agents/runs/2026-06-04-auto-import-diagnostics-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Every completed import now saves an explicit local-only diagnostics snapshot with sanitized basenames, capped single-line warnings, aggregate counts, and environment basics.
+  - Import diagnostics retention is bounded to the latest 50 runs and can be cleared without deleting parsed hands/tournaments.
+  - The diagnostics export now uses the retained ledger and states the automatic local collection + privacy boundary.
+- Verification:
+  - `npx.cmd vitest run src/data/__tests__/importRuns.test.ts src/data/__tests__/store.test.ts` - passed, 2 files / 24 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run build` - passed.
+  - `npm.cmd run lint` - passed with 7 existing accessibility warnings in previously-warning files.
+  - `npx.cmd vitest run` - passed, 61 files / 659 tests.
+  - `npm.cmd run docs:update` - passed and updated generated inventories.
+  - `npm.cmd run docs:check` - passed.
+  - `git diff --check` - passed.
+- Risks / assumptions:
+  - Browser/platform/language basics are retained locally only; any remote submission still needs explicit consent and backend-retention design.
+  - Filenames are reduced to basenames, but user-created filenames may still contain personal context; export copy still tells users to review before sharing.
+- Next action requested:
+  - Review and merge this local diagnostics slice, then continue with facing-raise strategy-data hardening.
+
 ## 2026-06-04 - Import diagnostics export
 
 - Owner / agent:          Codex

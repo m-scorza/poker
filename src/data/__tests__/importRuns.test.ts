@@ -2,9 +2,13 @@ import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { ImportSummary } from '../../parser/workerProcessor';
 import {
+  IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+  MAX_DIAGNOSTIC_TEXT_LENGTH,
   buildImportDiagnosticsMarkdown,
   buildImportRunRecord,
   buildImportRunTimeline,
+  sanitizeDiagnosticSourceFile,
+  sanitizeDiagnosticText,
   summarizeDataHealth,
 } from '../importRuns';
 
@@ -35,8 +39,19 @@ async function loadIsolatedImportRunPersistence() {
       clearAllData: async () => {
         await db.importRuns.clear();
       },
-      saveImportRun: async (record: any) => {
+      clearImportRuns: async () => {
+        await db.importRuns.clear();
+      },
+      saveImportRun: async (record: any, retentionLimit = IMPORT_DIAGNOSTICS_RETENTION_RUNS) => {
         await db.importRuns.put(record);
+        const excessKeys = await db.importRuns
+          .orderBy('importedAt')
+          .reverse()
+          .offset(retentionLimit)
+          .primaryKeys();
+        if (excessKeys.length > 0) {
+          await db.importRuns.bulkDelete(excessKeys);
+        }
       },
       getRecentImportRuns: async (limit = 10) => {
         return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
@@ -51,20 +66,44 @@ async function loadIsolatedImportRunPersistence() {
   return { importRuns, store };
 }
 
+describe('diagnostic redaction helpers', () => {
+  it('keeps source filenames to basenames and strips local or archive paths', () => {
+    expect(sanitizeDiagnosticSourceFile('C:\\Users\\Hero\\Documents\\hands.txt')).toBe('hands.txt');
+    expect(sanitizeDiagnosticSourceFile('upload.zip/folder/session-1.txt')).toBe('upload.zip/session-1.txt');
+    expect(sanitizeDiagnosticSourceFile('\n')).toBe('(blank)');
+  });
+
+  it('keeps warning text single-line and capped', () => {
+    const longWarning = `bad.txt: ${'x'.repeat(MAX_DIAGNOSTIC_TEXT_LENGTH + 40)}`;
+
+    expect(sanitizeDiagnosticText('first line\nsecond\tline')).toBe('first line second line');
+    expect(sanitizeDiagnosticText(longWarning)).toHaveLength(MAX_DIAGNOSTIC_TEXT_LENGTH);
+    expect(sanitizeDiagnosticText(longWarning)).toMatch(/\.\.\.$/);
+  });
+});
+
 describe('buildImportRunRecord', () => {
-  it('preserves import summary, source filenames, saved counts, warnings, and timestamp', () => {
+  it('preserves import summary, sanitized source filenames, saved counts, warnings, diagnostics, and timestamp', () => {
     const importedAt = new Date('2026-05-17T20:00:00Z');
 
     const record = buildImportRunRecord(
-      baseSummary,
-      ['hands-1.txt', 'hands-2.txt', 'bad.txt'],
+      { ...baseSummary, warnings: ['bad.txt: unsupported file\nsecond line'] },
+      ['hands-1.txt', 'folder/hands-2.txt', 'archive.zip/private/bad.txt'],
       { savedHands: 118, savedSummaries: 2 },
       importedAt,
+      {
+        environment: {
+          appVersion: 'test-build',
+          browserFamily: 'Chrome',
+          language: 'en-US',
+          platform: 'Win32',
+        },
+      },
     );
 
     expect(record.id).toBe('import-2026-05-17T20:00:00.000Z');
     expect(record.importedAt).toEqual(importedAt);
-    expect(record.sourceFiles).toEqual(['hands-1.txt', 'hands-2.txt', 'bad.txt']);
+    expect(record.sourceFiles).toEqual(['hands-1.txt', 'hands-2.txt', 'archive.zip/bad.txt']);
     expect(record.totalFiles).toBe(3);
     expect(record.parsedFiles).toBe(2);
     expect(record.failedFiles).toBe(1);
@@ -73,7 +112,23 @@ describe('buildImportRunRecord', () => {
     expect(record.savedHands).toBe(118);
     expect(record.savedSummaries).toBe(2);
     expect(record.confidence).toBe('medium');
-    expect(record.warnings).toEqual(baseSummary.warnings);
+    expect(record.warnings).toEqual(['bad.txt: unsupported file second line']);
+    expect(record.diagnostics).toMatchObject({
+      schemaVersion: 1,
+      collectedAutomatically: true,
+      storage: 'local-only',
+      sourceFilePolicy: 'basename-only',
+      warningPolicy: 'single-line-truncated',
+      retentionRuns: IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+      environment: {
+        appVersion: 'test-build',
+        browserFamily: 'Chrome',
+        language: 'en-US',
+        platform: 'Win32',
+      },
+    });
+    expect(record.diagnostics.excludes).toContain('raw hand histories');
+    expect(record.diagnostics.excludes).toContain('local paths');
   });
 });
 
@@ -207,6 +262,14 @@ describe('buildImportDiagnosticsMarkdown', () => {
       ['hands-1.txt', 'bad.txt'],
       { savedHands: 118, savedSummaries: 2 },
       new Date('2026-05-17T20:00:00Z'),
+      {
+        environment: {
+          appVersion: 'test-build',
+          browserFamily: 'Chrome',
+          platform: 'Win32',
+          language: 'en-US',
+        },
+      },
     );
 
     const report = buildImportDiagnosticsMarkdown([olderHigh, latestMedium], {
@@ -215,7 +278,9 @@ describe('buildImportDiagnosticsMarkdown', () => {
 
     expect(report).toContain('# Poker Import Diagnostics');
     expect(report).toContain('Generated: 2026-05-18T12:00:00.000Z');
+    expect(report).toContain('Collection: automatic local-only diagnostics.');
     expect(report).toContain('It does not include raw hand histories');
+    expect(report).toContain('local paths');
     expect(report.indexOf('## Import 1: 2026-05-17T20:00:00.000Z')).toBeLessThan(
       report.indexOf('## Import 2: 2026-05-16T10:00:00.000Z'),
     );
@@ -226,6 +291,10 @@ describe('buildImportDiagnosticsMarkdown', () => {
     expect(report).toContain('- bad.txt');
     expect(report).toContain('- bad.txt: unsupported file');
     expect(report).toContain('- None');
+    expect(report).toContain('- App version: test-build');
+    expect(report).toContain('- Browser: Chrome');
+    expect(report).toContain('- Platform: Win32');
+    expect(report).toContain('- Language: en-US');
   });
 
   it('handles empty import history', () => {
@@ -306,6 +375,39 @@ describe('import run persistence', () => {
     const runs = await store.getRecentImportRuns(2);
 
     expect(runs.map((run) => run.id)).toEqual([newest.id, middle.id]);
+  });
+
+  it('prunes old import diagnostics after the retention cap', async () => {
+    const { importRuns, store } = await loadIsolatedImportRunPersistence();
+    for (let i = 0; i < IMPORT_DIAGNOSTICS_RETENTION_RUNS + 2; i++) {
+      await store.saveImportRun(importRuns.buildImportRunRecord(
+        baseSummary,
+        [`run-${i}.txt`],
+        { savedHands: i, savedSummaries: 0 },
+        new Date(Date.UTC(2026, 4, 17, 20, i, 0)),
+      ));
+    }
+
+    const runs = await store.getRecentImportRuns(IMPORT_DIAGNOSTICS_RETENTION_RUNS + 10);
+
+    expect(runs).toHaveLength(IMPORT_DIAGNOSTICS_RETENTION_RUNS);
+    expect(runs[0]!.sourceFiles).toEqual([`run-${IMPORT_DIAGNOSTICS_RETENTION_RUNS + 1}.txt`]);
+    expect(runs[runs.length - 1]!.sourceFiles).toEqual(['run-2.txt']);
+  });
+
+  it('clears only import diagnostics when requested', async () => {
+    const { importRuns, store } = await loadIsolatedImportRunPersistence();
+    const run = importRuns.buildImportRunRecord(
+      baseSummary,
+      ['hands.txt'],
+      { savedHands: 118, savedSummaries: 2 },
+      new Date('2026-05-17T20:00:00Z'),
+    );
+
+    await store.saveImportRun(run);
+    await store.clearImportRuns();
+
+    await expect(store.getRecentImportRuns()).resolves.toEqual([]);
   });
 
   it('clears import runs during full local data reset', async () => {
