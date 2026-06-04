@@ -8,11 +8,15 @@ describe('evidence metadata utilities', () => {
       const res1 = getEvidenceMetadata('reference-hu-push-fold');
       expect(res1.label).toBe('local-reference');
       expect(res1.badgeClass).toContain('text-amber-400');
+      expect(res1.strength).toBe('reference_check');
+      expect(res1.strengthLabel).toBe('Reference check');
+      expect(res1.solverBacked).toBe(false);
 
       // cleanId contains cbet_hu
       // Note: cbet_hu itself falls through the inner condition to return proxy-model
       const res2 = getEvidenceMetadata('cbet_hu');
       expect(res2.label).toBe('proxy-model');
+      expect(res2.strengthLabel).toBe('Directional only');
 
       // sourceKind is reference but cleanId has reference-hu-push-fold
       const res3 = getEvidenceMetadata('reference-hu-push-fold', 'reference');
@@ -24,6 +28,8 @@ describe('evidence metadata utilities', () => {
       const res1 = getEvidenceMetadata('loss-biggest-bb-swings');
       expect(res1.label).toBe('unsupported');
       expect(res1.badgeClass).toContain('text-rose-400');
+      expect(res1.strength).toBe('review_only');
+      expect(res1.caveat).toContain('not as a verdict');
 
       // sourceKind is loss
       const res2 = getEvidenceMetadata('any-id', 'loss');
@@ -33,6 +39,7 @@ describe('evidence metadata utilities', () => {
     it('handles rule-based preflop rules correctly', () => {
       // cleanId contains vpip
       expect(getEvidenceMetadata('vpip_stat').label).toBe('rule-based');
+      expect(getEvidenceMetadata('vpip_stat').strengthLabel).toBe('Rule-based, no EV');
       // cleanId contains pfr
       expect(getEvidenceMetadata('pfr_stat').label).toBe('rule-based');
       // cleanId contains limping/limps
@@ -53,6 +60,7 @@ describe('evidence metadata utilities', () => {
       // default fallthrough or specific postflop keywords
       expect(getEvidenceMetadata('wtsd').label).toBe('proxy-model');
       expect(getEvidenceMetadata('wtsd').badgeClass).toContain('text-blue-400');
+      expect(getEvidenceMetadata('wtsd').strength).toBe('directional');
       expect(getEvidenceMetadata('won_at_sd').label).toBe('proxy-model');
       
       // postflop_ prefix overrides isPreflopRule match
@@ -62,6 +70,7 @@ describe('evidence metadata utilities', () => {
     it('handles fallback default outcome correctly', () => {
       const res = getEvidenceMetadata('completely-unknown-metric');
       expect(res.label).toBe('proxy-model');
+      expect(res.solverBacked).toBe(false);
     });
   });
 });

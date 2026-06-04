@@ -13,6 +13,7 @@ import { summarizeDataHealth } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { Leak, LeakSeverity } from '../analysis/leakDetector';
+import { getEvidenceMetadata } from '../utils/evidence';
 
 /** Strategy source attribution per leak ID. Maps to docs/knowledge/strategy/ sections. */
 const LEAK_SOURCES: Record<string, { source: string; doc: string }> = {
@@ -111,9 +112,9 @@ export function LeaksPage() {
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="text-[10px] font-black uppercase tracking-[0.24em] text-[var(--color-accent)]">Leak Inbox</p>
-          <h2 className="mt-1 text-2xl font-black uppercase tracking-tight text-white">Fix the most expensive pattern first</h2>
+          <h2 className="mt-1 text-2xl font-black uppercase tracking-tight text-white">Review the highest-risk pattern first</h2>
           <p className="mt-2 max-w-3xl text-sm text-[var(--color-text-dim)]">
-            Competitor trackers bury this inside reports. This page turns your stats into a prioritized repair queue with one concrete action per leak.
+            This page turns your stats into a prioritized review queue with evidence labels, sample counts, and caveats for each recommendation.
           </p>
         </div>
         {topLeak && (
@@ -127,7 +128,7 @@ export function LeaksPage() {
       {totalHands === 0 ? (
         <div className="glass-card border border-[var(--color-border)] rounded-xl p-8 text-center">
           <p className="font-semibold text-white">No leak evidence loaded yet.</p>
-          <p className="mt-2 mb-6 text-sm text-[var(--color-text-dim)]">Import hands or load the synthetic demo to see the prioritized leak repair queue.</p>
+          <p className="mt-2 mb-6 text-sm text-[var(--color-text-dim)]">Import hands or load the synthetic demo to see the prioritized leak review queue.</p>
           <DemoDataButton label="Load demo leak inbox" />
         </div>
       ) : leaks.length === 0 ? (
@@ -158,6 +159,7 @@ export function LeaksPage() {
           {prioritizedLeaks.map((leak, index) => {
             const badge = SEVERITY_BADGES[leak.severity];
             const score = impactScore(leak);
+            const evidence = getEvidenceMetadata(leak.id);
             return (
               <div
                 key={leak.id}
@@ -175,15 +177,28 @@ export function LeaksPage() {
                       <span className="rounded-full border border-white/10 bg-black/20 px-2 py-1 text-[10px] font-black uppercase text-white/45">
                         Impact {score}
                       </span>
+                      <span
+                        className={clsx('rounded-full border px-2 py-1 text-[10px] font-black uppercase cursor-help', evidence.badgeClass)}
+                        title={evidence.tooltip}
+                      >
+                        {evidence.label}
+                      </span>
+                      <span
+                        className={clsx('rounded-full border px-2 py-1 text-[10px] font-black uppercase cursor-help', evidence.strengthClass)}
+                        title={evidence.caveat}
+                      >
+                        {evidence.strengthLabel}
+                      </span>
                     </div>
 
                     <p className="text-sm leading-relaxed text-[var(--color-text-dim)]">{leak.description}</p>
 
                     <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
                       <p className="mb-1 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-accent)]">
-                        <Crosshair size={13} /> Fix this now
+                        <Crosshair size={13} /> Next review step
                       </p>
                       <p className="text-sm font-semibold leading-relaxed text-white">{actionForLeak(leak)}</p>
+                      <p className="mt-2 text-xs leading-relaxed text-yellow-100/70">{evidence.caveat}</p>
                     </div>
 
                     <div className="mt-4 flex flex-wrap gap-4 text-xs text-[var(--color-text-muted)]">

@@ -19,6 +19,40 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-04 - Recommendation trust labels
+
+- Owner / agent:          Codex
+- Branch:                 codex/recommendation-trust-labels
+- Scope:                  Add visible trust/caveat labels so rule-based and proxy-model recommendations do not read as solver-backed advice.
+- Files touched:
+  - `src/utils/evidence.ts` - expands evidence metadata with recommendation strength, caveats, and `solverBacked` status.
+  - `src/utils/__tests__/evidence.test.ts` - covers the new metadata fields.
+  - `src/components/dashboard/StudyPlanCard.tsx` - surfaces evidence strength, sample confidence, and caveats in Study Queue.
+  - `src/pages/LeaksPage.tsx` - surfaces evidence strength and caveats in Leak Inbox and softens action copy from fix-now to review-step language.
+  - `src/analysis/studyPlan.ts` - removes solver-adjacent wording from non-solver study queue explanations.
+  - `docs/product/STATUS.md` - records the shipped trust-label behavior.
+  - `.agents/runs/2026-06-04-recommendation-trust-labels-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Added explicit `rule-based, no EV`, `directional only`, `reference check`, and `review only` recommendation-strength labels.
+  - Added caveat text to Study Queue and Leak Inbox so unsupported/proxy evidence is framed as a review prompt, not a strategy verdict.
+  - Preserved the existing private/local posture and did not add solver integration.
+- Verification:
+  - `npx.cmd vitest run src/utils/__tests__/evidence.test.ts` - passed, 1 file / 5 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run build` - passed outside sandbox after sandboxed Vite config resolution failed with Windows access denied.
+  - `npx.cmd vitest run` - escalated run passed, 61 files / 649 tests.
+  - `npm.cmd run docs:update` - already up to date.
+  - `npm.cmd run docs:check` - passed.
+  - `npm.cmd run lint` - passed with 7 existing accessibility warnings in unrelated files (`HandReplay.tsx`, `HandsUpload.tsx`, `DualRangeMatrix.tsx`, `RangeGrid.tsx`).
+  - `git diff --check` - passed.
+- Risks / assumptions:
+  - This is a trust-surfacing change, not a solver or strategy-data upgrade.
+  - Remaining trust-gate work still includes OHH real-fixture coverage and dedicated facing-raise charts.
+- Next action requested:
+  - Review and merge this trust-label slice, then continue with import observability and facing-raise strategy-data hardening.
+
 ## 2026-06-02 - Product readiness refresh
 
 - Owner / agent:          Codex
