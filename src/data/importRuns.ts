@@ -48,7 +48,17 @@ export interface ImportRunTimelineRow {
   warningPreview: string[];
 }
 
+export interface ImportDiagnosticsOptions {
+  generatedAt?: Date;
+  maxRuns?: number;
+}
+
 const MAX_WARNING_COUNT = 5;
+
+function markdownListValue(value: string): string {
+  const singleLine = value.replace(/[\r\n]+/g, ' ').trim();
+  return singleLine.length > 0 ? singleLine : '(blank)';
+}
 
 export function buildImportRunRecord(
   summary: ImportSummary,
@@ -158,4 +168,62 @@ export function buildImportRunTimeline(runs: ImportRunRecord[]): ImportRunTimeli
       warningPreview,
     };
   });
+}
+
+export function buildImportDiagnosticsMarkdown(
+  runs: ImportRunRecord[],
+  options: ImportDiagnosticsOptions = {},
+): string {
+  const generatedAt = options.generatedAt ?? new Date();
+  const maxRuns = options.maxRuns ?? 5;
+  const sortedRuns = [...runs]
+    .sort((a, b) => b.importedAt.getTime() - a.importedAt.getTime())
+    .slice(0, maxRuns);
+
+  const lines = [
+    '# Poker Import Diagnostics',
+    '',
+    `Generated: ${generatedAt.toISOString()}`,
+    '',
+    'Privacy note: this report contains source filenames, aggregate import counts, and parser warnings only. It does not include raw hand histories, hole cards, board cards, actions, or player-level hand data. Review filenames before sharing outside your machine.',
+    '',
+  ];
+
+  if (sortedRuns.length === 0) {
+    lines.push('No import runs are recorded yet.');
+    return `${lines.join('\n')}\n`;
+  }
+
+  sortedRuns.forEach((run, index) => {
+    lines.push(
+      `## Import ${index + 1}: ${run.importedAt.toISOString()}`,
+      '',
+      `- Confidence: ${run.confidence}`,
+      `- Files parsed: ${run.parsedFiles}/${run.totalFiles}`,
+      `- Failed files: ${run.failedFiles}`,
+      `- Hands found: ${run.handsFound}`,
+      `- Tournament summaries found: ${run.summariesFound}`,
+      `- Hands saved: ${run.savedHands}`,
+      `- Tournament summaries saved: ${run.savedSummaries}`,
+      '',
+      'Source files:',
+    );
+
+    if (run.sourceFiles.length === 0) {
+      lines.push('- None recorded');
+    } else {
+      run.sourceFiles.forEach((sourceFile) => lines.push(`- ${markdownListValue(sourceFile)}`));
+    }
+
+    lines.push('', 'Warnings:');
+    if (run.warnings.length === 0) {
+      lines.push('- None');
+    } else {
+      run.warnings.forEach((warning) => lines.push(`- ${markdownListValue(warning)}`));
+    }
+
+    lines.push('');
+  });
+
+  return `${lines.join('\n')}\n`;
 }

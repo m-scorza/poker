@@ -2,6 +2,7 @@ import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { ImportSummary } from '../../parser/workerProcessor';
 import {
+  buildImportDiagnosticsMarkdown,
   buildImportRunRecord,
   buildImportRunTimeline,
   summarizeDataHealth,
@@ -190,6 +191,85 @@ describe('buildImportRunTimeline', () => {
         warningPreview: ['w1', 'w2', '+2 more warnings'],
       },
     ]);
+  });
+});
+
+describe('buildImportDiagnosticsMarkdown', () => {
+  it('exports recent import runs newest-first with counts, sources, warnings, and privacy note', () => {
+    const olderHigh = buildImportRunRecord(
+      { ...baseSummary, totalFiles: 1, parsedFiles: 1, failedFiles: 0, confidence: 'high', warnings: [] },
+      ['older.txt'],
+      { savedHands: 40, savedSummaries: 1 },
+      new Date('2026-05-16T10:00:00Z'),
+    );
+    const latestMedium = buildImportRunRecord(
+      baseSummary,
+      ['hands-1.txt', 'bad.txt'],
+      { savedHands: 118, savedSummaries: 2 },
+      new Date('2026-05-17T20:00:00Z'),
+    );
+
+    const report = buildImportDiagnosticsMarkdown([olderHigh, latestMedium], {
+      generatedAt: new Date('2026-05-18T12:00:00Z'),
+    });
+
+    expect(report).toContain('# Poker Import Diagnostics');
+    expect(report).toContain('Generated: 2026-05-18T12:00:00.000Z');
+    expect(report).toContain('It does not include raw hand histories');
+    expect(report.indexOf('## Import 1: 2026-05-17T20:00:00.000Z')).toBeLessThan(
+      report.indexOf('## Import 2: 2026-05-16T10:00:00.000Z'),
+    );
+    expect(report).toContain('- Confidence: medium');
+    expect(report).toContain('- Files parsed: 2/3');
+    expect(report).toContain('- Failed files: 1');
+    expect(report).toContain('- hands-1.txt');
+    expect(report).toContain('- bad.txt');
+    expect(report).toContain('- bad.txt: unsupported file');
+    expect(report).toContain('- None');
+  });
+
+  it('handles empty import history', () => {
+    const report = buildImportDiagnosticsMarkdown([], {
+      generatedAt: new Date('2026-05-18T12:00:00Z'),
+    });
+
+    expect(report).toContain('No import runs are recorded yet.');
+  });
+
+  it('limits exported runs when requested', () => {
+    const runs = [1, 2, 3].map((day) =>
+      buildImportRunRecord(
+        baseSummary,
+        [`run-${day}.txt`],
+        { savedHands: day, savedSummaries: 0 },
+        new Date(`2026-05-${10 + day}T00:00:00Z`),
+      ),
+    );
+
+    const report = buildImportDiagnosticsMarkdown(runs, {
+      generatedAt: new Date('2026-05-18T12:00:00Z'),
+      maxRuns: 2,
+    });
+
+    expect(report).toContain('run-3.txt');
+    expect(report).toContain('run-2.txt');
+    expect(report).not.toContain('run-1.txt');
+  });
+
+  it('keeps exported source and warning rows on one markdown list line', () => {
+    const run = buildImportRunRecord(
+      { ...baseSummary, warnings: ['bad.txt: first line\nsecond line'] },
+      ['folder\nhands.txt'],
+      { savedHands: 0, savedSummaries: 0 },
+      new Date('2026-05-17T20:00:00Z'),
+    );
+
+    const report = buildImportDiagnosticsMarkdown([run], {
+      generatedAt: new Date('2026-05-18T12:00:00Z'),
+    });
+
+    expect(report).toContain('- folder hands.txt');
+    expect(report).toContain('- bad.txt: first line second line');
   });
 });
 

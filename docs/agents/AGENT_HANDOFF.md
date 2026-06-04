@@ -19,6 +19,38 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-04 - Import diagnostics export
+
+- Owner / agent:          Codex
+- Branch:                 codex/import-diagnostics-export
+- Scope:                  Add privacy-conscious import diagnostics export for parser/import failure observability.
+- Files touched:
+  - `src/data/importRuns.ts` - adds Markdown diagnostics report builder for recent import runs.
+  - `src/data/__tests__/importRuns.test.ts` - covers diagnostics export ordering, content, empty state, run limit, and multiline sanitization.
+  - `src/components/hands/HandsUpload.tsx` - adds Data Health `Export Diagnostics` download action.
+  - `docs/product/STATUS.md` - records the shipped import diagnostics export.
+  - `.agents/runs/2026-06-04-import-diagnostics-export-evidence.md` - local verification notes.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Added a Markdown export containing source filenames, aggregate import counts, confidence, and parser warnings.
+  - Export copy explicitly states it excludes raw hand histories, hole cards, board cards, actions, and player-level hand data.
+  - Added a Data Health export button so real-user parse failures can be shared without copying raw files.
+- Verification:
+  - `npx.cmd vitest run src/data/__tests__/importRuns.test.ts` - passed, 1 file / 12 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run lint` - passed with 7 existing accessibility warnings in unrelated/previously-warning files.
+  - `npm.cmd run build` - passed outside sandbox because sandboxed Vite config resolution is known to hit Windows access denied.
+  - `npx.cmd vitest run` - escalated run passed, 61 files / 653 tests.
+  - `npm.cmd run docs:update` - passed and updated the generated test inventory.
+  - `npm.cmd run docs:check` - passed.
+  - `git diff --check` - passed.
+- Risks / assumptions:
+  - Source filenames and parser warning strings may still contain user-provided naming context; the export warns users to review filenames before sharing.
+  - This improves observability and support handoff, but does not add new parser coverage or OHH real fixtures.
+- Next action requested:
+  - Review and merge this import-observability slice, then continue with facing-raise strategy-data hardening.
+
 ## 2026-06-04 - Recommendation trust labels
 
 - Owner / agent:          Codex
