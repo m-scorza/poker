@@ -5,8 +5,8 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-06-04
-**Branch at verification:** `codex/recommendation-trust-labels`
-**Tests at verification:** 649 / 649 passing (61 files)
+**Branch at verification:** `codex/import-diagnostics-export`
+**Tests at verification:** 653 / 653 passing (61 files)
 
 ---
 
@@ -138,6 +138,12 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     `solverBacked` status. Leak Inbox and Study Queue show rule/proxy/reference
     labels, sample confidence, and no-solver-EV caveats so weak evidence is
     presented as a review prompt instead of solver-backed advice.
+20. **Import diagnostics export** - FIXED 2026-06-04.
+    Hands upload Data Health now exposes a Markdown diagnostics export with
+    source filenames, aggregate import counts, confidence, and parser warnings.
+    The export explicitly excludes raw hand histories, cards, actions, and
+    player-level hand data so parse failures can be shared for support without
+    dumping private hand content.
 
 ## Open follow-ups
 
@@ -361,7 +367,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 61
-**`it` / `test` calls (approximate):** 620
+**`it` / `test` calls (approximate):** 624
 
 ```
 src/__tests__/App.test.tsx
