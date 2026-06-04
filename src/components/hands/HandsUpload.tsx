@@ -11,12 +11,15 @@ import {
   getTotalHandCount,
   getRecentImportRuns,
   saveImportRun,
+  clearImportRuns,
 } from '../../data/store';
 import {
+  IMPORT_DIAGNOSTICS_RETENTION_RUNS,
   buildImportDiagnosticsMarkdown,
   buildImportRunRecord,
   buildImportRunTimeline,
   summarizeDataHealth,
+  type ImportDiagnosticsEnvironment,
 } from '../../data/importRuns';
 import {
   clearLocalHeadsUpReferenceSet,
@@ -36,6 +39,28 @@ const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
 const formatDateTime = (date: Date | null) => date
   ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date)
   : 'Never';
+
+function getBrowserFamily(userAgent: string): string {
+  if (/Edg\//.test(userAgent)) return 'Edge';
+  if (/OPR\//.test(userAgent)) return 'Opera';
+  if (/Chrome\//.test(userAgent)) return 'Chrome';
+  if (/Firefox\//.test(userAgent)) return 'Firefox';
+  if (/Safari\//.test(userAgent)) return 'Safari';
+  return 'Other';
+}
+
+function getImportDiagnosticsEnvironment(): ImportDiagnosticsEnvironment {
+  const viteEnv = (import.meta as ImportMeta & {
+    env?: Record<string, string | undefined>;
+  }).env;
+
+  return {
+    appVersion: viteEnv?.VITE_APP_VERSION ?? 'local',
+    browserFamily: getBrowserFamily(navigator.userAgent),
+    language: navigator.language,
+    platform: navigator.platform,
+  };
+}
 
 const confidenceBadgeClasses = {
   high: 'border-emerald-400/30 bg-emerald-400/10 text-emerald-100',
@@ -75,6 +100,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const [statsFound, setStatsFound] = useState({ hands: 0, summaries: 0, deviations: 0 });
   const [importSummary, setImportSummary] = useState<ImportSummary | null>(null);
   const [showHistory, setShowHistory] = useState(false);
+  const [diagnosticsMessage, setDiagnosticsMessage] = useState<string | null>(null);
   const [localReferenceSummary, setLocalReferenceSummary] = useState(() => getLocalHeadsUpReferenceSummary());
   const [localReferenceMessage, setLocalReferenceMessage] = useState<string | null>(null);
   const pushReferenceRef = useRef<HTMLInputElement>(null);
@@ -123,6 +149,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     setStatsFound({ hands: 0, summaries: 0, deviations: 0 });
     setResults([]);
     setImportSummary(null);
+    setDiagnosticsMessage(null);
     workerRef.current?.terminate();
     workerRef.current = null;
 
@@ -272,6 +299,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         if (!isCurrentImport() || workerRef.current !== worker) return;
 
         try {
+          const importedAt = new Date();
           await saveImportRun(buildImportRunRecord(
             msg.importSummary,
             fileDataArr.map(file => file.name),
@@ -279,6 +307,8 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
               savedHands: handImported,
               savedSummaries: summaryImported.updated + summaryImported.created,
             },
+            importedAt,
+            { environment: getImportDiagnosticsEnvironment() },
           ));
         } catch (error) {
           console.warn('Import completed, but audit history could not be saved:', error);
@@ -340,12 +370,16 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const totalHandNodes = results.filter(r => r.type === 'hand' && !r.error);
   const totalSummaryNodes = results.filter(r => r.type === 'summary' && !r.error);
   const formattedImportSummary = importSummary ? formatImportSummary(importSummary) : null;
-  const recentImportRuns = useLiveQuery(() => getRecentImportRuns(5), [], []);
+  const retainedImportRuns = useLiveQuery(() => getRecentImportRuns(IMPORT_DIAGNOSTICS_RETENTION_RUNS), [], []);
+  const recentImportRuns = (retainedImportRuns ?? []).slice(0, 5);
   const dataHealth = summarizeDataHealth(recentImportRuns ?? []);
   const importRunTimeline = buildImportRunTimeline(recentImportRuns ?? []);
+  const retainedImportRunCount = retainedImportRuns?.length ?? 0;
 
   function downloadImportDiagnostics() {
-    const markdown = buildImportDiagnosticsMarkdown(recentImportRuns ?? []);
+    const markdown = buildImportDiagnosticsMarkdown(retainedImportRuns ?? [], {
+      maxRuns: IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+    });
     const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
@@ -355,6 +389,21 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     link.click();
     link.remove();
     URL.revokeObjectURL(url);
+  }
+
+  async function clearLocalImportDiagnostics() {
+    if (!window.confirm('Clear local import diagnostics? Parsed hands and tournament data will stay in place.')) {
+      return;
+    }
+
+    try {
+      await clearImportRuns();
+      setShowHistory(false);
+      setDiagnosticsMessage('Local import diagnostics cleared. Parsed hands were not deleted.');
+    } catch (error) {
+      console.warn('Local import diagnostics could not be cleared:', error);
+      setDiagnosticsMessage('Local import diagnostics could not be cleared.');
+    }
   }
 
   return (
@@ -429,6 +478,17 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
+                    void clearLocalImportDiagnostics();
+                  }}
+                  className="rounded border border-red-400/20 bg-red-400/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-red-100 hover:bg-red-400/15 transition-colors cursor-pointer"
+                  title="Clear local import diagnostics without deleting parsed hands."
+                >
+                  Clear Diagnostics
+                </button>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
                     setShowHistory(prev => !prev);
                   }}
                   className="rounded border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white hover:bg-white/10 transition-colors cursor-pointer"
@@ -452,11 +512,22 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           </div>
         </div>
         {dataHealth.status === 'ready' && (
-          <div className="mt-3 grid grid-cols-2 gap-2 text-[var(--color-text-muted)] md:grid-cols-4">
-            <div><span className="text-[var(--color-text)]">Last:</span> {formatDateTime(dataHealth.lastImportedAt)}</div>
-            <div><span className="text-[var(--color-text)]">Files:</span> {dataHealth.recentFiles}</div>
-            <div><span className="text-[var(--color-text)]">Saved:</span> {dataHealth.recentSavedHands} hands / {dataHealth.recentSavedSummaries} summaries</div>
-            <div><span className="text-[var(--color-text)]">Failed:</span> {dataHealth.recentFailedFiles}</div>
+          <>
+            <div className="mt-3 grid grid-cols-2 gap-2 text-[var(--color-text-muted)] md:grid-cols-4">
+              <div><span className="text-[var(--color-text)]">Last:</span> {formatDateTime(dataHealth.lastImportedAt)}</div>
+              <div><span className="text-[var(--color-text)]">Files:</span> {dataHealth.recentFiles}</div>
+              <div><span className="text-[var(--color-text)]">Saved:</span> {dataHealth.recentSavedHands} hands / {dataHealth.recentSavedSummaries} summaries</div>
+              <div><span className="text-[var(--color-text)]">Failed:</span> {dataHealth.recentFailedFiles}</div>
+            </div>
+            <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[10px] text-[var(--color-text-muted)]">
+              Local diagnostics: {retainedImportRunCount} retained import run{retainedImportRunCount === 1 ? '' : 's'}.
+              Keeps the latest {IMPORT_DIAGNOSTICS_RETENTION_RUNS} locally and excludes raw hands, cards, actions, and local paths.
+            </div>
+          </>
+        )}
+        {diagnosticsMessage && (
+          <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[var(--color-text-muted)]">
+            {diagnosticsMessage}
           </div>
         )}
         {dataHealth.warnings.length > 0 && !showHistory && (

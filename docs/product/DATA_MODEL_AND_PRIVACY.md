@@ -80,10 +80,14 @@ Villain profiles are local-only by default.
 
 ### Import runs (`src/data/importRuns.ts`)
 
-Import-run records are local audit metadata.
+Import-run records are automatic local diagnostics metadata.
 
-- `sourceFiles` can reveal local filenames; do not export raw filenames.
-- Confidence, parsed/failed counts, warning categories, and saved counts are safe candidates if stripped of filenames and raw warning text that might include names.
+- The app retains the latest 50 import diagnostic runs in IndexedDB.
+- `sourceFiles` are stored as sanitized basenames only; local paths and archive subpaths are stripped.
+- Parser warnings are collapsed to one line and capped before storage.
+- Each new run stores local-only diagnostic policy metadata stating that raw hand histories, cards, actions, player-level hand data, and local paths are excluded.
+- The upload UI can export or clear this local diagnostic ledger without deleting parsed hands.
+- Network upload or silent telemetry remains out of scope until the future upload/encryption gate below is satisfied.
 
 ---
 

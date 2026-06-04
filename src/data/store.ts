@@ -11,6 +11,7 @@ import type { HeroDecision } from '../types/analysis';
 import type { VillainProfile, VillainRawCounters, VillainStats, PositionStats, PositionStatsRawCounters } from '../types/villain';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 import type { ImportRunRecord } from './importRuns';
+import { IMPORT_DIAGNOSTICS_RETENTION_RUNS } from './importDiagnosticsPolicy';
 import { classifyVillain, computeVillainStats, emptyCounters } from '../analysis/villainClassifier';
 import * as ls from './localStorage';
 
@@ -788,8 +789,34 @@ export async function toggleStarHand(handId: string): Promise<boolean> {
   return newState;
 }
 
-export async function saveImportRun(record: ImportRunRecord): Promise<void> {
-  await db.importRuns.put(record);
+export async function saveImportRun(
+  record: ImportRunRecord,
+  retentionLimit = IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+): Promise<void> {
+  const normalizedLimit = Math.max(0, Math.floor(retentionLimit));
+
+  await db.transaction('rw', db.importRuns, async () => {
+    await db.importRuns.put(record);
+
+    if (normalizedLimit === 0) {
+      await db.importRuns.clear();
+      return;
+    }
+
+    const excessKeys = await db.importRuns
+      .orderBy('importedAt')
+      .reverse()
+      .offset(normalizedLimit)
+      .primaryKeys();
+
+    if (excessKeys.length > 0) {
+      await db.importRuns.bulkDelete(excessKeys);
+    }
+  });
+}
+
+export async function clearImportRuns(): Promise<void> {
+  await db.importRuns.clear();
 }
 
 export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {

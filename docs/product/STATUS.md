@@ -5,8 +5,8 @@
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
 **Last verified against source:** 2026-06-04
-**Branch at verification:** `codex/import-diagnostics-export`
-**Tests at verification:** 653 / 653 passing (61 files)
+**Branch at verification:** `codex/auto-import-diagnostics`
+**Tests at verification:** 659 / 659 passing (61 files)
 
 ---
 
@@ -144,6 +144,12 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     The export explicitly excludes raw hand histories, cards, actions, and
     player-level hand data so parse failures can be shared for support without
     dumping private hand content.
+21. **Automatic local import diagnostics** - FIXED 2026-06-04.
+    Import attempts now save structured local-only diagnostics automatically.
+    Source filenames are reduced to basenames, parser warnings are single-line
+    capped strings, old runs are pruned to the latest 50, and Data Health can
+    clear diagnostics without deleting parsed hands. No network telemetry or
+    silent upload path exists.
 
 ## Open follow-ups
 
@@ -298,10 +304,11 @@ src/analysis/  (22 files)
   analysis/studyPlan.ts
   analysis/villainClassifier.ts
   analysis/villainExploitCrossRef.ts
-src/data/  (11 files)
+src/data/  (12 files)
   data/appStore.ts
   data/demoDataset.ts
   data/demoVillains.ts
+  data/importDiagnosticsPolicy.ts
   data/importRuns.ts
   data/localHeadsUpReferences.ts
   data/localStorage.ts
@@ -367,7 +374,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 61
-**`it` / `test` calls (approximate):** 624
+**`it` / `test` calls (approximate):** 630
 
 ```
 src/__tests__/App.test.tsx
