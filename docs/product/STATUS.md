@@ -4,8 +4,8 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-06-02
-**Branch at verification:** `codex/move-hand-category-tests`
+**Last verified against source:** 2026-06-04
+**Branch at verification:** `codex/recommendation-trust-labels`
 **Tests at verification:** 649 / 649 passing (61 files)
 
 ---
@@ -133,6 +133,11 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
 18. **HandsPage test-only assertions** - FIXED 2026-06-02.
     `getHandCategory()` coverage moved from a self-executing test-environment
     guard inside `HandsPage.tsx` to `src/pages/__tests__/HandsPage.test.ts`.
+19. **Recommendation trust labels / no-solver caveats** - FIXED 2026-06-04.
+    Evidence metadata now carries recommendation strength, caveats, and
+    `solverBacked` status. Leak Inbox and Study Queue show rule/proxy/reference
+    labels, sample confidence, and no-solver-EV caveats so weak evidence is
+    presented as a review prompt instead of solver-backed advice.
 
 ## Open follow-ups
 

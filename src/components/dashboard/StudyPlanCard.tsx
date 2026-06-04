@@ -42,6 +42,10 @@ function bbLabel(value: number | null): string {
   return `${value.toFixed(1)} bb`;
 }
 
+function confidenceLabel(value: StudyQueueItem['confidence']): string {
+  return `sample ${value}`;
+}
+
 export function StudyPlanCard({ items }: StudyPlanCardProps) {
   if (items.length === 0) return null;
 
@@ -58,7 +62,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
             <p className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.24em] text-violet-300">
               <Layers size={14} /> Ranked study queue
             </p>
-            <h3 className="mt-3 text-2xl font-black tracking-tight text-white">Next best study block</h3>
+            <h3 className="mt-3 text-2xl font-black tracking-tight text-white">Next review block</h3>
             <p className="mt-2 text-sm leading-relaxed text-[var(--color-text-dim)]">
               Built from leak discovery, normalized BB-loss sorting, local reference-table checks, and focused drill queues: one ranked queue instead of another passive chart.
             </p>
@@ -75,9 +79,16 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
                 >
                   {topEvidence.label}
                 </span>
+                <span
+                  className={clsx('rounded-full border px-2 py-0.5 text-[9px] font-black uppercase cursor-help', topEvidence.strengthClass)}
+                  title={topEvidence.caveat}
+                >
+                  {topEvidence.strengthLabel}
+                </span>
               </div>
               <p className="font-data text-lg font-black text-white">{top.title}</p>
               <p className="mt-2 text-xs leading-relaxed text-white/60">{top.explanation}</p>
+              <p className="mt-2 text-[11px] leading-relaxed text-yellow-100/70">{topEvidence.caveat}</p>
               <Link
                 to={routeFor(top)}
                 className="mt-4 inline-flex items-center gap-2 rounded-lg bg-violet-500 px-3 py-2 text-xs font-black uppercase tracking-wider text-white transition hover:bg-violet-400"
@@ -117,11 +128,21 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
                     >
                       {evidence.label}
                     </span>
+                    <span
+                      className={clsx('rounded-full border px-2 py-0.5 text-[10px] font-black uppercase cursor-help', evidence.strengthClass)}
+                      title={evidence.caveat}
+                    >
+                      {evidence.strengthLabel}
+                    </span>
                     <span className={clsx('rounded-full border px-2 py-0.5 text-[10px] font-black uppercase', SEVERITY_CLASS[item.severity])}>
                       {item.severity}
                     </span>
+                    <span className="rounded-full border border-white/10 bg-black/20 px-2 py-0.5 text-[10px] font-black uppercase text-white/45">
+                      {confidenceLabel(item.confidence)}
+                    </span>
                   </div>
                   <p className="line-clamp-2 text-xs leading-relaxed text-[var(--color-text-dim)]">{item.explanation}</p>
+                  <p className="mt-1 line-clamp-1 text-[11px] leading-relaxed text-yellow-100/60">{evidence.caveat}</p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-2 text-right md:w-56">

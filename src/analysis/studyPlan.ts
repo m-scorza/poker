@@ -210,7 +210,7 @@ export function buildStudyQueue(
       },
       handIds: sortedLossHandIds(missedCbetHands, handMap),
       cta: 'Drill 33% flop c-bets',
-      explanation: 'GTO Wizard/DTO-style practice loop: isolate missed continuation bets and rehearse the default pressure line.',
+      explanation: 'Practice loop: isolate missed continuation bets and rehearse the default pressure line. This is a frequency heuristic, not solver EV.',
     });
   }
 
@@ -290,7 +290,7 @@ export function buildStudyQueue(
       },
       handIds: biggestLosses.map((entry) => entry.decision.handId),
       cta: 'Replay top losses',
-      explanation: 'GTO Wizard-style review: sort by biggest normalized BB damage so one large pot cannot hide inside aggregate charts.',
+      explanation: 'Review queue: sort by biggest normalized BB damage so one large pot cannot hide inside aggregate charts. This is not a strategy verdict.',
     });
   }
 
