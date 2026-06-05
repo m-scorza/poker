@@ -1,0 +1,70 @@
+[
+  {
+    "spec_version": "1.2.2",
+    "network_name": "888 Poker",
+    "site_name": "Pacific Poker",
+    "game_type": "Holdem",
+    "start_date_utc": "2013-12-30T16:08:49",
+    "table_size": 6,
+    "table_name": "#1",
+    "game_number": "591212284",
+    "ante_amount": 0,
+    "small_blind_amount": 30,
+    "big_blind_amount": 60,
+    "dealer_seat": 1,
+    "hero_player_id": 2,
+    "tournament_info": {
+      "type": "MTT",
+      "tournament_number": "53999979",
+      "buyin_amount": 0.1,
+      "fee_amount": 0.01,
+      "currency": "USD"
+    },
+    "players": [
+      { "id": 0, "name": "Player1", "seat": 1, "starting_stack": 555 },
+      { "id": 1, "name": "Player4", "seat": 4, "starting_stack": 1078 },
+      { "id": 2, "name": "Hero", "seat": 6, "starting_stack": 580 },
+      { "id": 3, "name": "Player9", "seat": 9, "starting_stack": 787 }
+    ],
+    "rounds": [
+      {
+        "street": "Preflop",
+        "actions": [
+          { "player_id": 1, "action": "Post SB", "amount": 30, "is_allin": false },
+          { "player_id": 2, "action": "Post BB", "amount": 60, "is_allin": false },
+          { "player_id": 2, "action": "Dealt Cards", "cards": ["9d", "7c"], "amount": 0, "is_allin": false },
+          { "player_id": 3, "action": "Call", "amount": 60, "is_allin": false },
+          { "player_id": 0, "action": "Fold", "amount": 0, "is_allin": false },
+          { "player_id": 1, "action": "Call", "amount": 30, "is_allin": false },
+          { "player_id": 2, "action": "Check", "amount": 0, "is_allin": false }
+        ]
+      },
+      {
+        "street": "Flop",
+        "cards": ["7s", "6d", "5d"],
+        "actions": [
+          { "player_id": 1, "action": "Check", "amount": 0, "is_allin": false },
+          { "player_id": 2, "action": "Check", "amount": 0, "is_allin": false },
+          { "player_id": 3, "action": "Check", "amount": 0, "is_allin": false }
+        ]
+      },
+      {
+        "street": "Turn",
+        "cards": ["4c"],
+        "actions": [
+          { "player_id": 1, "action": "Check", "amount": 0, "is_allin": false },
+          { "player_id": 2, "action": "Bet", "amount": 90, "is_allin": false },
+          { "player_id": 3, "action": "Fold", "amount": 0, "is_allin": false },
+          { "player_id": 1, "action": "Fold", "amount": 0, "is_allin": false }
+        ]
+      }
+    ],
+    "pots": [
+      {
+        "amount": 180,
+        "rake": 0,
+        "player_wins": [{ "player_id": 2, "win_amount": 180, "contributed_rake": 0 }]
+      }
+    ]
+  }
+]

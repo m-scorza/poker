@@ -3,9 +3,11 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { parsePokerStarsFile } from '../pokerstars';
 import { parseTournamentSummary } from '../tournamentSummary';
+import { parseOpenHandHistoryFile } from '../openHandHistory';
 
 const HH_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'pokerstars', 'hh');
 const TS_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'pokerstars', 'ts');
+const OHH_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'ohh');
 
 const RE_FILENAME_TID = /\bT(\d{6,})\b/;
 const RE_FILENAME_BUYIN = /US\$\s*(\d+(?:,\d+)?)\s*\+\s*US\$\s*(\d+(?:,\d+)?)/;
@@ -18,6 +20,40 @@ interface FilenameOracle {
   fee: number | null;
   isTournament: boolean;
 }
+
+interface OhhFixtureOracle {
+  handId: string;
+  tournamentId: string;
+  buyIn: number;
+  fee: number;
+  bigBlind: number;
+  boardFlop: string[];
+  boardTurn: string;
+  heroCards: string[];
+}
+
+const OHH_ORACLES: Record<string, OhhFixtureOracle> = {
+  '888-pacific-tournament-array.json': {
+    handId: '591212284',
+    tournamentId: '53999979',
+    buyIn: 0.1,
+    fee: 0.01,
+    bigBlind: 60,
+    boardFlop: ['7s', '6d', '5d'],
+    boardTurn: '4c',
+    heroCards: ['9d', '7c'],
+  },
+  'ipoker-tournament.json': {
+    handId: '7948166852',
+    tournamentId: '925681798',
+    buyIn: 0.45,
+    fee: 0.05,
+    bigBlind: 160,
+    boardFlop: ['4s', 'Jc', '7d'],
+    boardTurn: '7s',
+    heroCards: ['Qh', 'Qc'],
+  },
+};
 
 function parseFilenameOracle(filename: string): FilenameOracle {
   const isTournament = !NON_TOURNAMENT_HH.test(filename);
@@ -107,3 +143,33 @@ describe('fixture sweep — pokerstars/ts', () => {
 });
 
 describe.todo('fixture sweep — ggpoker (zip fixtures, deferred)');
+
+describe('fixture sweep - open-hand-history/json', () => {
+  const files = readdirSync(OHH_DIR).filter((f) => f.endsWith('.json'));
+
+  it('directory has fixtures', () => {
+    expect(files.length).toBeGreaterThanOrEqual(Object.keys(OHH_ORACLES).length);
+  });
+
+  it('parses all standardized OHH fixtures with matching hand metadata', () => {
+    for (const filename of files) {
+      const oracle = OHH_ORACLES[filename];
+      expect(oracle, filename).toBeDefined();
+      if (!oracle) continue;
+
+      const raw = readUtf8(join(OHH_DIR, filename));
+      const parsed = parseOpenHandHistoryFile(raw, 'scorza23');
+
+      expect(parsed.length, filename).toBe(1);
+      const first = parsed[0]!;
+      expect(first.hand.id, filename).toBe(oracle.handId);
+      expect(first.hand.tournamentId, filename).toBe(oracle.tournamentId);
+      expect(first.hand.bigBlind, filename).toBe(oracle.bigBlind);
+      expect(first.hand.boardFlop, filename).toEqual(oracle.boardFlop);
+      expect(first.hand.boardTurn, filename).toBe(oracle.boardTurn);
+      expect(first.tournament.buyIn, filename).toBeCloseTo(oracle.buyIn, 2);
+      expect(first.tournament.fee, filename).toBeCloseTo(oracle.fee, 2);
+      expect(first.players.find((p) => p.isHero)?.holeCards, filename).toEqual(oracle.heroCards);
+    }
+  });
+});
