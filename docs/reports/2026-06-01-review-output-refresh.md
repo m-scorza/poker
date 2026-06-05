@@ -1,5 +1,11 @@
 # Review Output Refresh - 2026-06-01
 
+> **2026-06-05 reconciliation note:** This report is a historical refresh of the
+> May 24 findings. Later PRs #48 and #49 closed or narrowed the repeated
+> facing-raise and OHH fixture-sweep labels. Check
+> `docs/reports/2026-06-05-stale-findings-reconciliation.md` before treating
+> any "recommended next batch" item here as active work.
+
 ## Scope
 
 Reviewed `C:\Users\MICRO\poker-review-output` against the current repo state on

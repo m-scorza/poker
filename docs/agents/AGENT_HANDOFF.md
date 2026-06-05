@@ -19,6 +19,30 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-05 - Stale findings reconciliation
+
+- Owner / agent:          Codex
+- Branch:                 codex/reconcile-stale-findings
+- Scope:                  Reconcile repeated old report/spool findings against current merged `main`.
+- Files touched:
+  - `docs/reports/2026-06-05-stale-findings-reconciliation.md` - maps old labels to current source-of-truth status and remaining real follow-ups.
+  - `docs/agents/TWO_AGENT_BOARD.md` - warns that the gitignored spool can lag behind merged PRs.
+  - `docs/reports/2026-06-01-review-output-refresh.md` - adds a supersession note for later facing-raise/OHH work.
+  - `docs/reports/2026-06-02-product-readiness-refresh.md` - adds a supersession note for later facing-raise/OHH work.
+  - `.agents/state/task_spool.json` - local gitignored coordination state updated to mark tasks 005, 006, 008, and 009 completed.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Clarified that PRs #48 and #49 did not duplicate old work; they closed narrower remaining trust gaps.
+  - Marked old `needs_human` spool entries as completed after verifying current source/docs for facing-raise coverage, villain position stats, advanced analyzer context attachment, and test hygiene.
+  - Preserved real remaining follow-ups: native proprietary room fixtures, solver-validated per-pair charts, user validation, and release/support hygiene.
+- Verification:
+  - `npm.cmd run docs:check` - passed.
+  - `git diff --check` - passed.
+- Risks / assumptions:
+  - `.agents/state/task_spool.json` is local/gitignored; the tracked PR documents the reconciliation, while the local spool update only affects this checkout.
+- Next action requested:
+  - Review and merge this reconciliation slice, then choose between native-format fixture sourcing, validation execution, or release-hygiene docs.
+
 ## 2026-06-05 - OHH fixture sweep coverage
 
 - Owner / agent:          Codex
