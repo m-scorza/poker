@@ -1,5 +1,14 @@
 # Product Readiness Refresh - 2026-06-02
 
+> **2026-06-05 reconciliation note:** This report is a point-in-time readiness
+> snapshot. Two blockers named below were later narrowed or closed: PR #48 made
+> facing-raise reaction coverage explicit without claiming solver-backed charts,
+> and PR #49 added standardized Open Hand History JSON fixtures to the parser
+> fixture sweep. Use `docs/product/STATUS.md`,
+> `docs/product/PARSER_HEALTH.md`, and
+> `docs/reports/2026-06-05-stale-findings-reconciliation.md` for current task
+> selection.
+
 This is a fresh product-readiness judgment against the current repo state, not a
 renormalized copy of the older Hermes or Opus scores. The old reports are useful
 history, but this score is anchored to what the app can credibly do today and
