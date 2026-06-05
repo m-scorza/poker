@@ -1,24 +1,26 @@
-# Parser Health — Fixture Sweep
+# Parser Health - Fixture Sweep
 
-**Last verified:** 2026-05-10 23:45 UTC
-**Branch/worktree:** `phase-6-consolidated-final` at `/home/micro/projects/poker-analyzer`
-**Purpose:** publish the exact parser fixture pass / skip / fail numbers requested by the council, so product decisions are based on measured parser health rather than vibes.
+**Last verified:** 2026-06-05
+**Branch/worktree:** `codex/ohh-fixture-sweep` at `C:\Users\MICRO\OneDrive\Documentos\GitHub\poker`
+**Purpose:** publish exact parser fixture pass / skip / fail numbers so product decisions are based on measured parser health rather than vibes.
 
 ## Commands run
 
 ```bash
-npx vitest run src/parser/__tests__/fixtureSweep.test.ts --reporter=verbose
-npx tsx /tmp/parser-health-sweep.ts
+npx.cmd vitest run src/parser/__tests__/fixtureSweep.test.ts src/parser/__tests__/openHandHistory.test.ts
 ```
 
 Vitest result:
 
 ```text
-Test Files  1 passed (1)
-Tests       5 passed (5)
+Test Files  2 passed (2)
+Tests       9 passed (9)
 ```
 
-The `/tmp/parser-health-sweep.ts` script was a one-off audit script that reused the production parser modules and fixture-oracle expectations from `src/parser/__tests__/fixtureSweep.test.ts`, plus `parsePokerStarsFileWithReport` for skipped-block visibility.
+The current focused sweep covers PokerStars real fixtures and standardized
+Open Hand History JSON fixtures committed under `src/test/fixtures/`.
+The GGPoker archive numbers below are retained from the prior archive audit
+because `fixtureSweep.test.ts` still keeps GGPoker ZIP sweep work deferred.
 
 ## Headline result
 
@@ -26,10 +28,11 @@ The `/tmp/parser-health-sweep.ts` script was a one-off audit script that reused 
 |---|---:|---:|---:|---:|
 | PokerStars hand histories | 92 | 92 | 0 | 0 |
 | PokerStars tournament summaries | 157 | 157 | 0 | 0 |
+| Open Hand History JSON fixtures | 2 | 2 | 0 | 0 |
 | GGPoker zipped fixture entries | 53 | 53 | 0 | 0 |
-| **Total supported fixture files** | **302** | **302** | **0** | **0** |
+| **Total supported fixture files / entries** | **304** | **304** | **0** | **0** |
 
-## PokerStars detail
+## PokerStars Detail
 
 | Metric | Count |
 |---|---:|
@@ -42,7 +45,23 @@ The `/tmp/parser-health-sweep.ts` script was a one-off audit script that reused 
 | Buy-in / fee filename-oracle failures | 0 |
 | Tournament ID filename-oracle failures | 0 |
 
-## GGPoker detail
+## Open Hand History Detail
+
+| Metric | Count |
+|---|---:|
+| JSON fixture files | 2 |
+| Parsed files | 2 |
+| Failed files | 0 |
+| Parsed hands | 2 |
+| Covered standardized shapes | iPoker object wrapper, 888/Pacific array wrapper |
+
+The OHH fixtures verify standardized JSON parsing, not native proprietary
+iPoker, 888/Pacific, WPN, PartyPoker, Chico, or Winamax text exports. Native
+room formats still need real user/export samples before the app can claim
+direct support. The supported import path for those rooms remains conversion
+to standardized Open Hand History JSON.
+
+## GGPoker Detail
 
 | Metric | Count |
 |---|---:|
@@ -58,20 +77,18 @@ The `/tmp/parser-health-sweep.ts` script was a one-off audit script that reused 
 | Low-confidence files | 0 |
 | Warning files | 0 |
 
-## Current coverage boundary
+## Current Coverage Boundary
 
-This fixture sweep verifies the supported real-fixture corpus currently present under `src/test/fixtures/`:
+This fixture evidence verifies the supported corpus currently present under
+`src/test/fixtures/`:
 
 - PokerStars hand histories
 - PokerStars tournament summaries
-- GGPoker zipped hand-history / tournament-summary exports
+- standardized Open Hand History JSON examples
+- GGPoker zipped hand-history / tournament-summary exports from the prior
+  archive audit
 
-There are no Open Hand History real fixture files under `src/test/fixtures/` at this verification point. OHH parser behavior may have unit coverage elsewhere, but it is not represented in the real-fixture sweep number above.
-
-## Council gate status
-
-- Fixture sweep pass rate is now explicitly published: **302 / 302 supported fixture files pass; 0 fail; 0 skip**.
-- PokerStars silent block-drop check is explicit: **3,285 / 3,285 hand blocks parsed; 0 skipped blocks**.
-- GGPoker archive reliability report is high confidence with **0 failures, 0 warnings, 0 low-confidence files**.
-
-The parser gate is therefore green for the fixture corpus currently in the repo. The remaining product gate is the private/local generic analyzer posture in `docs/agents/TWO_AGENT_BOARD.md`; historical Reg Life/IP notes live in `docs/audits/IP_COPY_AUDIT.md` and archived agent docs.
+The parser gate is green for the fixture corpus in the repo. The remaining
+product gate is still the private/local generic analyzer posture in
+`docs/agents/TWO_AGENT_BOARD.md`; historical Reg Life/IP notes live in
+`docs/audits/IP_COPY_AUDIT.md` and archived agent docs.

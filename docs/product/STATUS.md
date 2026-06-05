@@ -4,9 +4,9 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-06-04
-**Branch at verification:** `codex/auto-import-diagnostics`
-**Tests at verification:** 659 / 659 passing (61 files)
+**Last verified against source:** 2026-06-05
+**Branch at verification:** `codex/ohh-fixture-sweep`
+**Tests at verification:** 666 / 666 passing (61 files)
 
 ---
 
@@ -155,13 +155,20 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     assuming CO for every hero position. The displayed hand sample, matrix, and
     coverage note use the same hero/opener pair, and the app labels rule-based,
     partial, or unsupported coverage rather than implying solver-backed charts.
+23. **Open Hand History fixture sweep coverage** - FIXED 2026-06-05.
+    The parser fixture sweep now includes two standardized Open Hand History
+    JSON fixtures under `src/test/fixtures/ohh/` covering iPoker object-wrapper
+    and 888/Pacific array-wrapper shapes. Native proprietary room text formats
+    still require real samples before direct support is claimed.
 
 ## Open follow-ups
 
 - Solver-validated per-pair facing-raise charts remain a strategy-data
   follow-up. Current reaction coverage is explicit and rule-based, not
   solver-backed.
-- The real-fixture parser sweep does not yet include Open Hand History files.
+- Native proprietary room text formats such as iPoker, 888/Pacific, WPN,
+  PartyPoker, Chico, and Winamax remain unsupported unless converted to
+  standardized Open Hand History JSON or backed by real parser fixtures.
 
 ## Repo hygiene
 
@@ -380,7 +387,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 61
-**`it` / `test` calls (approximate):** 635
+**`it` / `test` calls (approximate):** 637
 
 ```
 src/__tests__/App.test.tsx

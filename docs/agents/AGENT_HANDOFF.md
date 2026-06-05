@@ -19,6 +19,38 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-05 - OHH fixture sweep coverage
+
+- Owner / agent:          Codex
+- Branch:                 codex/ohh-fixture-sweep
+- Scope:                  Add Open Hand History JSON fixtures to the parser fixture sweep and refresh parser-health/product docs.
+- Files touched:
+  - `src/test/fixtures/ohh/ipoker-tournament.json` - standardized iPoker-style OHH object-wrapper fixture.
+  - `src/test/fixtures/ohh/888-pacific-tournament-array.json` - standardized 888/Pacific-style OHH array-wrapper fixture.
+  - `src/parser/__tests__/fixtureSweep.test.ts` - adds OHH fixture sweep oracle checks for IDs, blinds, board, buy-in/fee, and hero cards.
+  - `docs/product/PARSER_HEALTH.md` - refreshes parser fixture evidence and boundary language.
+  - `docs/product/STATUS.md` - records shipped OHH fixture sweep coverage and keeps native proprietary text formats as a follow-up.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Parser fixture evidence now includes two committed standardized Open Hand History JSON fixtures.
+  - OHH coverage is labeled narrowly: standardized JSON object/array wrappers are covered; native proprietary room text exports are not claimed.
+  - Parser-health totals now publish 304 supported fixture files/entries with the prior GGPoker archive audit split out from the current focused sweep.
+- Verification:
+  - `npx.cmd vitest run src/parser/__tests__/fixtureSweep.test.ts src/parser/__tests__/openHandHistory.test.ts` - passed, 2 files / 9 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run lint` - passed with 7 existing accessibility warnings in previously-warning files.
+  - `npm.cmd run build` - passed.
+  - `npx.cmd vitest run` - passed, 61 files / 666 tests.
+  - `npm.cmd run docs:update` - passed and updated generated inventories.
+  - `npm.cmd run docs:check` - passed.
+  - `git diff --check` - passed.
+- Risks / assumptions:
+  - The OHH fixtures are standardized JSON examples, not exhaustive native-room text exports.
+  - Direct native iPoker, 888/Pacific, WPN, PartyPoker, Chico, and Winamax text support still needs real fixtures before support claims.
+- Next action requested:
+  - Review and merge this parser fixture slice, then continue with native-format fixture sourcing or remaining release-hygiene work.
+
 ## 2026-06-04 - Facing-raise coverage and solver feasibility
 
 - Owner / agent:          Codex
