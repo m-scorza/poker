@@ -49,5 +49,5 @@ Use these labels consistently:
 ## Next implementation slices
 
 1. Add a second converter slice for flop spots only after pot/action reconstruction tests prove the spot is the state before hero's decision.
-2. Research and choose a real adapter only after license/performance/coverage review.
+2. Use [2026-06-04 solver feasibility](../research/2026-06-04-solver-feasibility.md) as the current research baseline: no real adapter should be wired until an offline CLI spike proves license, runtime, memory, spot construction, and output metadata.
 3. Wire proxy outputs into isolated UI/internal fixtures only if the UI clearly labels them `proxy_model` and never displays solver EV.

@@ -15,7 +15,10 @@ import { batchCheckCompliance, getRFIRange } from '../analysis/rangeChecker';
 import { compliancePercentage } from '../analysis/rangeChecker';
 import { getPushRangeForPosition } from '../analysis/pushFoldChecker';
 import { rangeValidationSummary } from '../analysis/rangeValidator';
-import { getReactionRange } from '../data/ranges';
+import {
+  getFacingRaiseOpenersForPosition,
+  getReactionRangeInfo,
+} from '../data/ranges';
 import type { Position, HeroDecision } from '../types/analysis';
 import type { Hand } from '../types/hand';
 
@@ -30,17 +33,24 @@ function matchesPosition(decision: HeroDecision, position: Position): boolean {
   return decision.position === position;
 }
 
-function matchesScenario(decision: HeroDecision, scenario: 'RFI' | 'FACING_RAISE'): boolean {
+function matchesScenario(
+  decision: HeroDecision,
+  scenario: 'RFI' | 'FACING_RAISE',
+  openerPosition: Position | null = null,
+): boolean {
   if (scenario === 'RFI') {
     return decision.scenario === 'RFI' || decision.scenario === 'BLIND_WAR' || decision.scenario === 'HU_BTN';
   }
-  return decision.scenario === 'FACING_RAISE' || decision.scenario === 'BB_VS_RAISE';
+  const isFacingRaise = decision.scenario === 'FACING_RAISE' || decision.scenario === 'BB_VS_RAISE';
+  if (!isFacingRaise) return false;
+  return openerPosition ? decision.openerPosition === openerPosition : true;
 }
 
 export function RangesPage() {
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
   const [selectedPos, setSelectedPos] = useState<Position>('UTG');
   const [selectedScenario, setSelectedScenario] = useState<'RFI' | 'FACING_RAISE'>('RFI');
+  const [selectedOpener, setSelectedOpener] = useState<Position>('CO');
   const [viewMode, setViewMode] = useState<ViewMode>('compliance');
   const [customRange, setCustomRange] = useState<Set<string>>(new Set());
   const [hasCustom, setHasCustom] = useState(false);
@@ -89,18 +99,47 @@ export function RangesPage() {
     }
   }, [selectedPos]);
 
+  const validReactionOpeners = useMemo(
+    () => getFacingRaiseOpenersForPosition(selectedPos),
+    [selectedPos],
+  );
+  const selectedReactionOpener = selectedScenario === 'FACING_RAISE'
+    ? validReactionOpeners.includes(selectedOpener)
+      ? selectedOpener
+      : validReactionOpeners[validReactionOpeners.length - 1] ?? null
+    : null;
+
+  useEffect(() => {
+    if (
+      selectedScenario === 'FACING_RAISE' &&
+      selectedReactionOpener &&
+      selectedReactionOpener !== selectedOpener
+    ) {
+      setSelectedOpener(selectedReactionOpener);
+    }
+  }, [selectedScenario, selectedOpener, selectedReactionOpener]);
+
   // For SB we want BLIND_WAR and RFI, including HU BTN/SB hands which are technically small blind positions
   // For BB we want BB_VS_RAISE
   const posDecisions = useMemo(
-    () => decisions.filter((d) => matchesPosition(d, selectedPos) && matchesScenario(d, selectedScenario)),
-    [decisions, selectedPos, selectedScenario],
+    () => decisions.filter((d) =>
+      matchesPosition(d, selectedPos) &&
+      matchesScenario(d, selectedScenario, selectedReactionOpener),
+    ),
+    [decisions, selectedPos, selectedScenario, selectedReactionOpener],
+  );
+
+  const reactionRangeInfo = useMemo(
+    () => selectedScenario === 'FACING_RAISE'
+      ? getReactionRangeInfo(selectedPos, selectedReactionOpener)
+      : null,
+    [selectedPos, selectedReactionOpener, selectedScenario],
   );
 
   const theoreticalRange = useMemo(() => {
     if (selectedScenario === 'RFI') return getRFIRange(selectedPos);
-    // Generic opener for reaction (CO is common)
-    return getReactionRange(selectedPos, 'CO');
-  }, [selectedPos, selectedScenario]);
+    return reactionRangeInfo?.range;
+  }, [selectedPos, selectedScenario, reactionRangeInfo]);
 
   const pushRange = getPushRangeForPosition(selectedPos);
 
@@ -224,7 +263,7 @@ export function RangesPage() {
          <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
            {RFI_POSITIONS.map((pos) => {
              const posCount = decisions.filter((d) => {
-               return matchesPosition(d, pos) && matchesScenario(d, selectedScenario);
+               return matchesPosition(d, pos) && matchesScenario(d, selectedScenario, selectedReactionOpener);
              }).length;
              
              return (
@@ -264,6 +303,26 @@ export function RangesPage() {
                Reaction (vs Raise)
             </button>
          </div>
+         {selectedScenario === 'FACING_RAISE' && (
+           <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
+             {validReactionOpeners.length > 0 ? validReactionOpeners.map((opener) => (
+               <button
+                 key={opener}
+                 onClick={() => setSelectedOpener(opener)}
+                 className={clsx(
+                   "px-3 py-1.5 rounded text-xs font-bold transition-all flex items-center gap-1.5",
+                   selectedReactionOpener === opener ? "bg-rose-500 text-white shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
+                 )}
+               >
+                 vs {opener}
+               </button>
+             )) : (
+               <div className="px-3 py-1.5 text-xs font-bold text-[var(--color-text-muted)]">
+                 No earlier opener
+               </div>
+             )}
+           </div>
+         )}
       </div>
 
       {/* Stats bar */}
@@ -271,7 +330,9 @@ export function RangesPage() {
         {viewMode === 'compliance' && (
           <>
             <div>
-              <span className="text-[var(--color-text-dim)]">RFI Hands: </span>
+              <span className="text-[var(--color-text-dim)]">
+                {selectedScenario === 'RFI' ? 'RFI Hands: ' : 'Spot Hands: '}
+              </span>
               <span className="font-data font-bold">{posDecisions.length}</span>
             </div>
             <div>
@@ -300,6 +361,30 @@ export function RangesPage() {
           </span>
         )}
       </div>
+
+      {selectedScenario === 'FACING_RAISE' && reactionRangeInfo && (
+        <div className={clsx(
+          "mb-4 rounded-lg border p-3 text-xs",
+          reactionRangeInfo.status === 'supported'
+            ? "border-emerald-400/20 bg-emerald-400/10 text-emerald-100"
+            : "border-yellow-400/20 bg-yellow-400/10 text-yellow-100"
+        )}>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="font-bold uppercase tracking-wider">
+              {reactionRangeInfo.status === 'supported' ? 'Chart available' : 'No chart yet'}
+            </span>
+            <span className="font-data text-[var(--color-text)]">
+              {reactionRangeInfo.label}
+            </span>
+            <span className="rounded-full border border-white/10 px-2 py-0.5 font-data text-[10px] uppercase tracking-wider text-white/80">
+              {reactionRangeInfo.comboCount} combos
+            </span>
+          </div>
+          <p className="mt-1 text-[var(--color-text-muted)]">
+            {reactionRangeInfo.note}
+          </p>
+        </div>
+      )}
 
       {/* Edit mode actions */}
       {viewMode === 'edit' && (

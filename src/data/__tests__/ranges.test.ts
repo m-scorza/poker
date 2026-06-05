@@ -5,6 +5,9 @@ import {
   isSuitedHand,
   allHandCombos,
   threeBetSize,
+  getFacingRaiseOpenersForPosition,
+  getReactionRange,
+  getReactionRangeInfo,
 } from '../ranges';
 
 describe('RFI_RANGES', () => {
@@ -141,6 +144,49 @@ describe('SB_BLIND_WAR_RANGE', () => {
     expect(SB_BLIND_WAR_RANGE.has('K2o')).toBe(true);
     expect(SB_BLIND_WAR_RANGE.has('Q2o')).toBe(true);
     expect(SB_BLIND_WAR_RANGE.has('32o')).toBe(true);
+  });
+});
+
+describe('facing-raise reaction coverage', () => {
+  it('lists only earlier positions as possible openers', () => {
+    expect(getFacingRaiseOpenersForPosition('UTG')).toEqual([]);
+    expect(getFacingRaiseOpenersForPosition('CO')).toEqual(['UTG', 'UTG+1', 'MP', 'MP1', 'MP2', 'HJ']);
+    expect(getFacingRaiseOpenersForPosition('SB')).toEqual(['UTG', 'UTG+1', 'MP', 'MP1', 'MP2', 'HJ', 'CO', 'BTN']);
+  });
+
+  it('returns supported metadata for encoded reaction charts', () => {
+    const info = getReactionRangeInfo('SB', 'CO');
+
+    expect(info.status).toBe('supported');
+    expect(info.rangeKey).toBe('SB_VS_LATE');
+    expect(info.range).toBeDefined();
+    expect(info.comboCount).toBe(info.range!.size);
+    expect(info.confidence).toBe('rule-based');
+    expect(info.note).toContain('Rule-based');
+  });
+
+  it('returns unsupported metadata for invalid opener order instead of guessing', () => {
+    const info = getReactionRangeInfo('HJ', 'CO');
+
+    expect(info.status).toBe('unsupported');
+    expect(info.range).toBeUndefined();
+    expect(info.rangeKey).toBeNull();
+    expect(info.comboCount).toBe(0);
+    expect(info.note).toContain('not an earlier opener');
+  });
+
+  it('keeps BB defense as partial rule coverage, not a full reaction chart', () => {
+    const info = getReactionRangeInfo('BB', 'CO');
+
+    expect(info.status).toBe('supported');
+    expect(info.rangeKey).toBe('BB_DEFENSE');
+    expect(info.confidence).toBe('partial');
+    expect(info.note).toContain('not a full solver-backed BB strategy');
+  });
+
+  it('keeps the legacy range getter aligned with coverage metadata', () => {
+    expect(getReactionRange('SB', 'CO')).toBe(getReactionRangeInfo('SB', 'CO').range);
+    expect(getReactionRange('HJ', 'CO')).toBeUndefined();
   });
 });
 
