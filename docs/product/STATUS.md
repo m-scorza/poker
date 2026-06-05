@@ -150,11 +150,17 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     capped strings, old runs are pruned to the latest 50, and Data Health can
     clear diagnostics without deleting parsed hands. No network telemetry or
     silent upload path exists.
+22. **Facing-raise reaction chart coverage** - FIXED 2026-06-04.
+    Ranges now exposes a real opener selector for reaction spots instead of
+    assuming CO for every hero position. The displayed hand sample, matrix, and
+    coverage note use the same hero/opener pair, and the app labels rule-based,
+    partial, or unsupported coverage rather than implying solver-backed charts.
 
 ## Open follow-ups
 
-- Dedicated facing-raise reaction charts for SB, blinds, and late-position vs
-  late-position spots are still a strategy-data follow-up.
+- Solver-validated per-pair facing-raise charts remain a strategy-data
+  follow-up. Current reaction coverage is explicit and rule-based, not
+  solver-backed.
 - The real-fixture parser sweep does not yet include Open Hand History files.
 
 ## Repo hygiene
@@ -374,7 +380,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 61
-**`it` / `test` calls (approximate):** 630
+**`it` / `test` calls (approximate):** 635
 
 ```
 src/__tests__/App.test.tsx

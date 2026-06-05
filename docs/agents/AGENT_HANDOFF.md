@@ -19,6 +19,39 @@ Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_0
 - Next action requested:  # Action instructions for the next agent
 ```
 
+## 2026-06-04 - Facing-raise coverage and solver feasibility
+
+- Owner / agent:          Codex
+- Branch:                 codex/facing-raise-coverage
+- Scope:                  Make facing-raise chart coverage explicit and refresh solver feasibility without adding solver-backed claims.
+- Files touched:
+  - `src/data/ranges.ts` - adds facing-raise opener lists and reaction coverage metadata.
+  - `src/data/__tests__/ranges.test.ts` - covers valid openers, supported chart metadata, invalid-opener handling, BB partial defense, and legacy getter alignment.
+  - `src/pages/RangesPage.tsx` - adds opener selection for Reaction mode and a supported/unsupported coverage note.
+  - `docs/research/2026-06-04-solver-feasibility.md` - records current solver feasibility research and conservative recommendation.
+  - `docs/product/SOLVER_BOUNDARY.md` - links future solver work to the feasibility baseline.
+  - `docs/product/STATUS.md` - records the shipped facing-raise coverage behavior and keeps solver-validated charts as a follow-up.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Reaction charts no longer assume a CO opener for every hero position; the selected opener controls the chart, matrix, and hand sample.
+  - Facing-raise coverage now reports rule-based, partial, or unsupported status instead of silently returning an empty range.
+  - Solver feasibility research keeps real solver integration deferred until an offline CLI spike proves license, runtime, memory, and output metadata.
+- Verification:
+  - `npx.cmd vitest run src/data/__tests__/ranges.test.ts src/analysis/__tests__/rangeChecker.test.ts` - passed, 2 files / 76 tests.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run lint` - passed with 7 existing accessibility warnings in previously-warning files.
+  - `npm.cmd run build` - passed after rerun with a longer timeout; the first 120s run timed out after successful build output.
+  - `npx.cmd vitest run` - passed, 61 files / 664 tests.
+  - `npm.cmd run docs:update` - passed and updated generated inventories.
+  - `npm.cmd run docs:check` - passed.
+  - `git diff --check` - passed.
+- Risks / assumptions:
+  - Existing reaction ranges remain rule-based strategy references; this PR makes coverage visible but does not make them solver-validated.
+  - Browser/native solver integration remains deferred by design; no solver dependency or telemetry was added.
+- Next action requested:
+  - Review and merge this coverage slice, then continue with OHH real-fixture coverage or release-hygiene docs.
+
 ## 2026-06-04 - Automatic local import diagnostics
 
 - Owner / agent:          Codex
