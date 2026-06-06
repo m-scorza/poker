@@ -104,19 +104,19 @@ The repository contains **45 tracked or untracked markdown files** (excluding ig
 
 A detailed grep and review of the documentation against the active source code code was completed. Below are active or historical documents carrying claims that conflict with shipped code, current posture boundaries, or active developer routing:
 
-### 1. Reg Life & Commercial Posture Drift
+### 1. third-party curriculum & Commercial Posture Drift
 *   **File Path:** [docs/validation/USER_VALIDATION_PLAN.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/validation/USER_VALIDATION_PLAN.md#L9-L17)
     *   **Excerpt:**
         ```markdown
-        Until Reg Life licensing/IP status is resolved, present this as:
+        Until third-party curriculum licensing/IP status is resolved, present this as:
         > A private/local poker hand-history analyzer that helps a player find leaks and prioritize study from their own hand histories.
 
         Do **not** present it as:
-        - A Reg Life official companion.
-        - A Reg Life curriculum product.
-        - A tool licensed by Reg Life.
+        - An official third-party curriculum companion.
+        - A third-party curriculum product.
+        - A tool licensed by third-party curriculum.
         ```
-    *   **Why reviewed:** This file already matches the private/local generic poker posture established under [AGENTS.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/AGENTS.md) and [CURRENT_CONTEXT.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/agents/CURRENT_CONTEXT.md). The risk is future drift from this wording, not a current instruction to claim Reg Life affiliation.
+    *   **Why reviewed:** This file already matches the private/local generic poker posture established under [AGENTS.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/AGENTS.md) and [CURRENT_CONTEXT.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/agents/CURRENT_CONTEXT.md). The risk is future drift from this wording, not a current instruction to claim third-party curriculum affiliation.
 *   **File Path:** [docs/product/STATUS.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/product/STATUS.md#L192)
     *   **Excerpt:** `| /pricing | PricingPage |`
     *   **Why it needs review:** While the `PricingPage` is documented as wired, its contents have been neutralized to a local validation/demo page. Retaining the `/pricing` route path and referencing it in the status page is a lingering artifact of the public subscription funnel. 
@@ -189,6 +189,6 @@ To maintain absolute repo alignment and prevent future agent confusion, the foll
 2.  **Add a Stale/Historical Banner to older plans:** Modify [docs/plans/2026-05-12-parallel-reliability-next-steps.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/plans/2026-05-12-parallel-reliability-next-steps.md) and [docs/plans/2026-05-03-codebase-review-execution-plan.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/plans/2026-05-03-codebase-review-execution-plan.md) to prepend a prominent warning header at the very top of each file stating:
     > [!NOTE]
     > This document is a historical snapshot of planning intent. For active shipped behavior and the single source of truth, verify against STATUS.md and the active source code.
-3.  **Update validation guide wording:** Edit [docs/validation/USER_VALIDATION_PLAN.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/validation/USER_VALIDATION_PLAN.md#L9-L17) to remove the conflicting prompt instructing agents to present the app as an official Reg Life companion. Replace it with generic local-first framing, matching the sprint gate.
+3.  **Update validation guide wording:** Edit [docs/validation/USER_VALIDATION_PLAN.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/validation/USER_VALIDATION_PLAN.md#L9-L17) to remove the conflicting prompt instructing agents to present the app as an official third-party curriculum companion. Replace it with generic local-first framing, matching the sprint gate.
 4.  **Consolidate prompt guide into CLAUDE.md:** Merge the useful parts of [docs/agents/PROMPT_GUIDE.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/agents/PROMPT_GUIDE.md) directly into [CLAUDE.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/CLAUDE.md) under a unified "Agent Instructions" block and delete the duplicate file.
 5.  **Reflect deterministic 15k hand count in STATUS:** Document the current V2 demo dataset hand count (`15,245` hands / `250` tournaments) under the demo description block of [STATUS.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/product/STATUS.md) to replace old assumptions.

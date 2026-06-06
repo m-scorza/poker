@@ -64,7 +64,7 @@
 **Task:** run a user-facing copy-only audit for the private/local generic posture. Do not change parser, range, scenario, financial math, demo seeding, or data-store behavior.
 
 **Acceptance criteria:**
-1. No visible Reg Life affiliation claim.
+1. No visible third-party curriculum affiliation claim.
 2. No payment/pricing/public-funnel CTA.
 3. Export/share language remains private-review-only.
 4. Any remaining `Game Plan`, `D#`, or dossier strings are classified as internal-only, visible UI, or docs-only.
@@ -105,7 +105,7 @@ Your task is a non-overlapping user-facing copy review only. Inspect:
 - src/pages/LeaksPage.tsx
 - src/pages/SessionsPage.tsx
 
-Fix only visible private/local posture issues: Reg Life affiliation claims, payment/pricing/public funnel language, public sharing language, or visible Game Plan/D#/dossier labels. Do not change parser/range/scenario/math/data-store behavior.
+Fix only visible private/local posture issues: third-party curriculum affiliation claims, payment/pricing/public funnel language, public sharing language, or visible Game Plan/D#/dossier labels. Do not change parser/range/scenario/math/data-store behavior.
 
 Run npx tsc -b --pretty false if source changes. Run npm run docs:check if docs change. Update docs/agents/AGENT_HANDOFF.md with exact files, verification, risks, and ask Hermes to review.
 ```

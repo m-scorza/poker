@@ -1,5 +1,5 @@
 /**
- * Theoretical RFI ranges from the Reg Life Game Plan (SNG/MTT early game).
+ * Theoretical RFI ranges from the third-party curriculum Game Plan (SNG/MTT early game).
  * Source: [GamePlan] — Plano de Jogo SNG
  *
  * These ranges apply when it is folded to hero (RFI scenario).

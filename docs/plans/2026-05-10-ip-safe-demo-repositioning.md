@@ -4,7 +4,7 @@
 
 **Goal:** make the app safe to demo as a private/local generic poker hand-history analyzer before user validation, without changing parser/range/leak/math behavior.
 
-**Architecture:** This is a copy/posture sprint, not a logic sprint. The implementation should neutralize user-facing Reg Life/payment/public-sharing language while preserving current behavior and tests. Internal comments/source citations can be audited later unless they surface in UI/demo output.
+**Architecture:** This is a copy/posture sprint, not a logic sprint. The implementation should neutralize user-facing third-party curriculum/payment/public-sharing language while preserving current behavior and tests. Internal comments/source citations can be audited later unless they surface in UI/demo output.
 
 **Tech Stack:** React 19, TypeScript, Tailwind CSS, Vite, Vitest.
 
@@ -23,7 +23,7 @@ Do not:
 
 - alter parser/scenario/range/leak/financial logic,
 - add pricing/payment/funnel CTAs,
-- claim Reg Life affiliation,
+- claim third-party curriculum affiliation,
 - create public/shareable artifact flows,
 - broaden platform support.
 
@@ -32,7 +32,7 @@ Do not:
 **Owner:** Antigravity implementer
 **Reviewer:** Hermes
 
-**Objective:** remove user-facing Reg Life and payment/funnel framing from the pricing/pilot page so it becomes private validation/demo posture only.
+**Objective:** remove user-facing third-party curriculum and payment/funnel framing from the pricing/pilot page so it becomes private validation/demo posture only.
 
 **Files:**
 
@@ -41,7 +41,7 @@ Do not:
 
 **Steps:**
 
-1. Inspect the current page for Reg Life, pilot purchase, charge/payment, public launch, founding-user funnel, and shareable-report language.
+1. Inspect the current page for third-party curriculum, pilot purchase, charge/payment, public launch, founding-user funnel, and shareable-report language.
 2. Replace with private/local validation language.
 3. Keep existing route/component structure intact unless copy requires minor layout text changes.
 4. Do not remove the route unless explicitly asked.
@@ -50,7 +50,7 @@ Do not:
 
 **Acceptance criteria:**
 
-- No user-facing copy says Reg Life, Reg Life player/student, Reg Life pilot, or Reg Life companion.
+- No user-facing copy says third-party curriculum, training-community player/student, private validation pilot, or third-party curriculum companion.
 - No user-facing copy asks the user to pay, buy, subscribe, join a paid pilot, or use payment links.
 - The page is framed as private validation/demo preparation, not public SaaS launch.
 - The diff is copy/posture-only.
@@ -60,7 +60,7 @@ Do not:
 **Owner:** Antigravity implementer
 **Reviewer:** Hermes
 
-**Objective:** ensure demo-loading labels do not imply public sharing, paid pilot CTAs, or Reg Life-specific demo data.
+**Objective:** ensure demo-loading labels do not imply public sharing, paid pilot CTAs, or third-party-curriculum-specific demo data.
 
 **Files:**
 
@@ -71,14 +71,14 @@ Do not:
 **Steps:**
 
 1. Keep the demo loader behavior intact; only neutralize visible button/status copy if needed.
-2. Replace demo tournament names like `Demo Reg Life Sprint` with generic labels.
+2. Replace demo tournament names like `Demo third-party curriculum Sprint` with generic labels.
 3. Keep demo behavior intact.
 4. Run `npx tsc -b --pretty false` if practical.
 5. Update `docs/agents/AGENT_HANDOFF.md` and ask Hermes to review for remaining public/share/payment wording.
 
 **Acceptance criteria:**
 
-- Demo mode does not mention Reg Life.
+- Demo mode does not mention third-party curriculum.
 - Demo mode does not direct users toward payment/pro/pilot purchase.
 - Export/share wording is private-review oriented.
 - No parser/range/math source files changed.
@@ -93,7 +93,7 @@ Do not:
 **Files:**
 
 - Start with: `src/pages/SessionsPage.tsx`
-- Search changed UI paths for: `Reg Life`, `Game Plan`, `D#`, `Dossiê`, `Dossie`, `luischiavo`
+- Search changed UI paths for: `third-party curriculum`, `Game Plan`, `D#`, `Dossiê`, `Dossie`, `luischiavo`
 - Update handoff: `docs/agents/AGENT_HANDOFF.md`
 
 **Steps:**
@@ -128,7 +128,7 @@ npm run docs:check
 Also search `src` for risky wording:
 
 ```text
-Reg Life|GamePlan|Game Plan|D#|Dossiê|Dossie|luischiavo|payment|pricing|pilot|public|shareable
+third-party curriculum|GamePlan|Game Plan|D#|Dossiê|Dossie|luischiavo|payment|pricing|pilot|public|shareable
 ```
 
 **Acceptance criteria:**

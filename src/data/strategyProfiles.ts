@@ -1,7 +1,7 @@
 /**
  * Strategy Profile system — Game Plan (simplified) vs Advanced (context-dependent).
  *
- * Game Plan: binary rules from Reg Life Plano de Jogo SNG.
+ * Game Plan: binary rules from third-party curriculum Plano de Jogo SNG.
  * Advanced: nuanced rules from full knowledge base (docs/knowledge/strategy/).
  *
  * Source: CLAUDE.md "Strategy Profiles (Modular Analysis)"

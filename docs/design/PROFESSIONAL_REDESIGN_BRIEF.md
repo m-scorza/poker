@@ -39,7 +39,7 @@ Private/local generic poker performance analyzer.
 
 Not:
 - casino/gambling visual language
-- Reg Life-branded product
+- third-party-branded product
 - public sales funnel
 - crypto-neon dashboard clone
 - PokerTracker/HM3 clone

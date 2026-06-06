@@ -4,6 +4,32 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 
 Older or compacted handoff records are archived in [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md).
 
+## 2026-06-06 - Third-party curriculum mention purge
+
+- Owner / agent:          Codex
+- Branch:                 codex/purge-third-party-mentions
+- Scope:                  Remove explicit third-party brand mentions from repo docs, archived docs, strategy notes, and source comments while preserving private/local generic analyzer posture.
+- Files touched:
+  - `AGENTS.md` - neutralizes the active gate wording.
+  - `docs/agents/TWO_AGENT_BOARD.md` - neutralizes the active exclusion gate label.
+  - `docs/validation/USER_VALIDATION_PLAN.md` - removes named cohort/product wording and keeps private/local validation language generic.
+  - `docs/audits/IP_COPY_AUDIT.md`, `docs/design/*`, `docs/plans/*`, `docs/product/PARSER_HEALTH.md`, `docs/reports/*`, `docs/agents/archive/*`, and `docs/knowledge/strategy/*` - replace historical named references with generic third-party curriculum / training-community wording.
+  - `src/data/strategyProfiles.ts`, `src/data/ranges.ts`, and `src/analysis/rangeChecker.ts` - neutralize source comments only; no runtime behavior changed.
+  - `docs/agents/AGENT_HANDOFF.md` - records this session.
+- Summary:
+  - Removed explicit named third-party brand mentions from tracked repo content.
+  - Preserved the current private/local, no-pricing, no-public-sharing gate.
+  - Kept strategy/source-risk warnings intact under generic third-party curriculum wording.
+- Verification:
+  - Exact old-brand mention scan - no matches; log: `.agents/runs/2026-06-06-purge-third-party-search.log`.
+  - `npx.cmd tsc -b --pretty false` - passed; log: `.agents/runs/2026-06-06-purge-third-party-tsc.log`.
+  - `npm.cmd run docs:check` - passed; log: `.agents/runs/2026-06-06-purge-third-party-docs-check.log`.
+- Risks / assumptions:
+  - This is a wording/comment/docs purge. It does not rename `Game Plan`, `[GamePlan]`, dossier tags, strategy constants, or knowledge-base source structure.
+  - `.agents/runs` is local/gitignored; logs are retained in this checkout only.
+- Next action requested:
+  - Review the wording sweep. If the desired policy is broader than the explicit brand-name purge, schedule a second pass for `Game Plan`, dossier tags, and third-party curriculum source labels.
+
 ## Template
 
 ```md

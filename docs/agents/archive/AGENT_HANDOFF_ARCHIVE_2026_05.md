@@ -485,7 +485,7 @@ diff and CI result without spelunking the local branch.
   - `src/data/demoDataset.ts` — clears all `DEMO-H-*` and `DEMO-T-*` rows when replacing older demo datasets, instead of only deleting IDs in the current generated manifest.
   - `docs/product/STATUS.md` — updated manual shipped-state metadata, `/pricing` route note, and stale villain-aggregation known-issue wording.
   - `docs/reports/code_hygiene_audit.md` — marked Phase 1 report as a historical inventory and recorded that Phase 2 fixes were applied in the same dirty tree.
-  - `docs/reports/2026-05-17-docs-staleness-audit.md` — corrected the validation-plan excerpt so it no longer falsely claims the plan instructs Reg Life affiliation.
+  - `docs/reports/2026-05-17-docs-staleness-audit.md` — corrected the validation-plan excerpt so it no longer falsely claims the plan instructs third-party curriculum affiliation.
   - `docs/reports/2026-05-17-markdown-inventory-and-cleanup.md` — updated the STATUS drift note after the final correction.
   - `docs/agents/AGENT_HANDOFF.md` — this final review/verification entry.
 - Review notes:
@@ -716,14 +716,14 @@ diff and CI result without spelunking the local branch.
 
 - Owner / agent: Antigravity
 - Branch / worktree: `phase-6-consolidated-final` at `c:\Users\MICRO\Downloads\poker-claude-integrate-knowledge-base-vvCeh`
-- Scope: Execute a thorough, low-level markdown audit and staleness scan, creating a consolidated inventory, classifying all 45 `.md` files, reporting stale claims (Reg Life, pricing funnels, old V1 hand counts, aggregateVillainStats txn boundaries), folder misplacements, duplication hotspots, and offering strictly docs-only safe recommendations.
+- Scope: Execute a thorough, low-level markdown audit and staleness scan, creating a consolidated inventory, classifying all 45 `.md` files, reporting stale claims (third-party curriculum, pricing funnels, old V1 hand counts, aggregateVillainStats txn boundaries), folder misplacements, duplication hotspots, and offering strictly docs-only safe recommendations.
 - Files touched:
   - [docs/reports/2026-05-17-docs-staleness-audit.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/reports/2026-05-17-docs-staleness-audit.md) — new alignment and staleness audit report.
   - [docs/agents/AGENT_HANDOFF.md](file:///c:/Users/MICRO/Downloads/poker-claude-integrate-knowledge-base-vvCeh/docs/agents/AGENT_HANDOFF.md) — this entry.
 - Summary:
   - Inventoried all 45 tracked and untracked markdown files, sorting them into clear folders and classifications (`active-current`, `active-reference`, `historical-plan`, `historical-report`, `design-only`, `agent-instructions`, `generated-or-tooling`).
   - Identified major staleness hotspots:
-    1. Reg Life and commercial payment funnel drift in old plans and validation guidelines.
+    1. third-party curriculum and commercial payment funnel drift in old plans and validation guidelines.
     2. Outdated V1 demo seed count (`10,716`) in older plans, whereas V2 generates `15,245`.
     3. Direct contradiction in `STATUS.md` regarding the completed `aggregateVillainStats` transaction boundary bug.
     4. Integration gaps for bounties in the Session Manager (`src/data/sessions.ts` still bypasses shared financials).
@@ -876,7 +876,7 @@ diff and CI result without spelunking the local branch.
 - Verification:
   - `git status --short` — dirty tree includes Antigravity career/test/docs changes plus new `docs/agents/ANTIGRAVITY_NEXT_PROMPT.md` and this handoff edit.
   - `git diff --stat` / changed-file inspection — reviewed career, store, package/test-config, and docs changes.
-  - Targeted risky-wording search in `src` — no visible Reg Life/Game Plan/D#/dossier/payment/public-sharing issue found beyond already-private `PricingPage` copy.
+  - Targeted risky-wording search in `src` — no visible third-party curriculum/Game Plan/D#/dossier/payment/public-sharing issue found beyond already-private `PricingPage` copy.
   - `git diff --check` — failed: `src/components/career/LifetimeScorecard.tsx:47: trailing whitespace`.
   - `npx tsc -b --pretty false` — passed.
   - Targeted Vitest command — blocked by native optional dependency mismatch in WSL (`@rollup/rollup-linux-x64-gnu` missing).
@@ -1030,12 +1030,12 @@ diff and CI result without spelunking the local branch.
   - `docs/agents/AGENT_HANDOFF.md` — this entry.
   - (No source files changed — audit passed cleanly).
 - Summary: Inspected `PricingPage.tsx`, `CareerCoachCard.tsx`, `LeaksPage.tsx`, and `SessionsPage.tsx` per the Lane B requirements. The audit is clean:
-  1. No visible Reg Life affiliation claims exist in any UI components (only in internal source code comments).
+  1. No visible third-party curriculum affiliation claims exist in any UI components (only in internal source code comments).
   2. No payment/pricing/public-funnel CTAs exist (`PricingPage.tsx` is completely private-validation focused).
   3. Export/share language explicitly states "Export private review" and "No public sharing or distribution."
   4. Global checks confirm all remaining `Game Plan`, `D#`, or dossier strings are strictly internal-only (code comments, test descriptions, or unrendered internal structures like `villainExploitCrossRef.ts`).
 - Verification:
-  - Global `grep_search` confirmed `Reg Life`, `Game Plan`, and `D#` do not appear as visible text in any `.tsx` files.
+  - Global `grep_search` confirmed `third-party curriculum`, `Game Plan`, and `D#` do not appear as visible text in any `.tsx` files.
 - Risks / assumptions:
   - `villainExploitCrossRef.ts` contains `[D#04]` source fields, but they are not currently consumed by any UI component. They are classified as internal-only for now.
 - Next action requested: Hermes should continue and finish Lane A (demo seed completion blocker).
@@ -1281,7 +1281,7 @@ diff and CI result without spelunking the local branch.
 - Summary:
   - **A11y:** Added `role="dialog"`, `aria-modal`, Escape key handlers, and focus traps to `ConfirmDialog` and `HandReplay`.
   - **UI/UX Polish:** Added `framer-motion` staggered animations to the KPI grids on `DashboardPage.tsx` and the session rows on `SessionsPage.tsx`. Also built an animated, premium empty state for the `SessionsPage` when no data is present.
-  - **Doc Drift:** Neutralized all mentions of "Reg Life" in `CLAUDE.md`. Marked the UI language and analysis-layer string localization as 100% complete in `STATUS.md`. Checked off Batch 2 and 3 items in `ROADMAP.md`.
+  - **Doc Drift:** Neutralized all mentions of "third-party curriculum" in `CLAUDE.md`. Marked the UI language and analysis-layer string localization as 100% complete in `STATUS.md`. Checked off Batch 2 and 3 items in `ROADMAP.md`.
 - Verification:
   - `npm test -- --run` — Passed (30 files / 413 tests).
   - `npm run build` — Passed (No bundle warnings, successful Vite/TS compilation).
@@ -1345,7 +1345,7 @@ diff and CI result without spelunking the local branch.
   - `src/data/__tests__/demoDataset.test.ts`
   - `src/components/shared/DemoDataButton.tsx`
   - `docs/agents/AGENT_HANDOFF.md`
-- Summary: Added exported demo sizing constants and changed `buildDemoDataset()` to generate 250 synthetic tournaments × 40 hands = 10,000 demo hands. Added varied synthetic bb-delta profiles across hands so the larger demo database has wins, losses, leaks, cashes, and starred review hands. Renamed generated demo tournament labels from Reg Life-specific wording to neutral local MTT session wording. Updated the shared demo loader success message to use the exported tournament count instead of hardcoding 40.
+- Summary: Added exported demo sizing constants and changed `buildDemoDataset()` to generate 250 synthetic tournaments × 40 hands = 10,000 demo hands. Added varied synthetic bb-delta profiles across hands so the larger demo database has wins, losses, leaks, cashes, and starred review hands. Renamed generated demo tournament labels from third-party-curriculum-specific wording to neutral local MTT session wording. Updated the shared demo loader success message to use the exported tournament count instead of hardcoding 40.
 - Verification:
   - RED: `npx vitest run src/data/__tests__/demoDataset.test.ts --reporter=verbose` failed as expected before implementation: expected 250 summaries but got 40.
   - GREEN: `npx vitest run src/data/__tests__/demoDataset.test.ts --reporter=verbose` passed: 1 file, 3 tests.
@@ -1366,14 +1366,14 @@ diff and CI result without spelunking the local branch.
   - `src/pages/PricingPage.tsx` — Full rewrite: pricing/sales funnel → private validation demo page
   - `src/components/layout/Sidebar.tsx` — "Pricing" nav label → "Demo" (with Sparkles icon); "Game Plan (GTO)" → "Baseline (GTO)"
   - `src/components/career/CareerCoachCard.tsx` — Removed "Sell this report" CTA linking to /pricing; "paid-MVP value" copy → neutral description; "Export report" → "Export private review"; removed unused `Link` import
-  - `src/data/demoDataset.ts` — "Demo Reg Life Sprint" → "Demo MTT Sprint" (note: Hermes already renamed to "Demo Local MTT Session" in a concurrent edit, so the current name is Hermes's version); fixed pre-existing TS errors from Hermes's incomplete refactor (`DEMO_HANDS_PER_TOURNAMENT` → `demoHandCountForTournament()`, added missing 4th arg to `handProfitShare`)
+  - `src/data/demoDataset.ts` — "Demo third-party curriculum Sprint" → "Demo MTT Sprint" (note: Hermes already renamed to "Demo Local MTT Session" in a concurrent edit, so the current name is Hermes's version); fixed pre-existing TS errors from Hermes's incomplete refactor (`DEMO_HANDS_PER_TOURNAMENT` → `demoHandCountForTournament()`, added missing 4th arg to `handProfitShare`)
   - `src/pages/SessionsPage.tsx` — "maintained the Game Plan" → "maintained your baseline strategy"
   - `src/pages/LeaksPage.tsx` — Visible "Game Plan" labels → "Baseline"; `[GamePlan]` source badges → `[Baseline]`; internal `game_plan` JS key unchanged
   - `src/analysis/leakDetector.ts` — User-visible leak description "should be 100% in Game Plan" → "should be 100% in Baseline profile"; `[D#07]`/`[D#21]` postflop source tags → `[04-postflop §3]`/`[04-postflop §5]`; adjacent comment neutralized
   - `src/pages/RangesPage.tsx` — Portuguese UI label "Validação" → "Validation" (per AGENTS.md: "Keep all UI copy in English")
   - `docs/agents/AGENT_HANDOFF.md` — This entry
 - Summary (Pass 1 — P0/P1 hotspots):
-  - Removed all user-facing Reg Life mentions (PricingPage, demoDataset).
+  - Removed all user-facing third-party curriculum mentions (PricingPage, demoDataset).
   - Removed all payment/pricing/pilot/funnel/founding-user/public-distribution language (entire PricingPage rewritten, CareerCoachCard CTA removed).
   - Renamed visible "Game Plan" strategy profile label to "Baseline" in Sidebar, SessionsPage, and LeaksPage (5 instances).
   - Neutralized `[GamePlan]` source attribution badges in LeaksPage to `[Baseline]` (3 instances).
@@ -1391,13 +1391,13 @@ diff and CI result without spelunking the local branch.
   - No docs/status files were changed (other than this handoff), so `npm run docs:check` was not run.
 - Risks / assumptions:
   - Internal code keys (`game_plan`, `strategyProfile`) were intentionally NOT renamed — only visible UI labels.
-  - Internal source comments in `strategyProfiles.ts`, `ranges.ts`, `rangeValidator.ts`, `rangeChecker.ts`, `postflopAnalyzer.ts` still mention "Game Plan" / "Reg Life" in code comments. These are out of scope per `docs/audits/IP_COPY_AUDIT.md` classification.
+  - Internal source comments in `strategyProfiles.ts`, `ranges.ts`, `rangeValidator.ts`, `rangeChecker.ts`, `postflopAnalyzer.ts` still mention "Game Plan" / "third-party curriculum" in code comments. These are out of scope per `docs/audits/IP_COPY_AUDIT.md` classification.
   - Test descriptions in `rangeChecker.test.ts` and `leakDetector.test.ts` still say "Game Plan". Not changed per scope rules. The `leakDetector.test.ts` line 191/197 test manually constructs `source: '[D#07]'` in a postflopErrors map and asserts the description contains it — this test bypasses `computeAggregateStats`, so my change to the source mapping does not break it.
   - The `/pricing` route path is kept in `App.tsx` to avoid broader routing changes; the Sidebar label shows "Demo".
   - `villainExploitCrossRef.ts` contains `[D#04]` source fields that are NOT currently rendered in any UI page but could be in the future. Hermes should decide if these need proactive neutralization.
   - The `demoDataset.ts` fix wires Hermes's `demoHandCountForTournament` function into the hand generation loop. This is a minimal fix to make tsc pass; Hermes should verify the demo dataset behavior is correct.
 - Next action requested: **Hermes should review this diff** for:
-  1. Remaining Reg Life / GamePlan / D# / dossier / partnership / payment / public-sharing wording in user-facing paths.
+  1. Remaining third-party curriculum / GamePlan / D# / dossier / partnership / payment / public-sharing wording in user-facing paths.
   2. Accidental behavior changes outside copy/demo posture.
   3. Whether `villainExploitCrossRef.ts` `[D#04]` source fields need proactive neutralization.
   4. Whether the `demoDataset.ts` TS fix correctly implements Hermes's demo-scale intent.
@@ -1426,7 +1426,7 @@ diff and CI result without spelunking the local branch.
   - `docs/validation/USER_VALIDATION_PLAN.md`
   - `docs/plans/2026-05-10-ip-safe-demo-repositioning.md`
   - `docs/audits/IP_COPY_AUDIT.md`
-- Summary: Compared WSL and Windows repos. Collaboration/gate docs existed only in WSL, while the user's active Antigravity work is in the Windows repo. Copied only missing collaboration/gate docs into the Windows repo without overwriting existing files. Then created `docs/audits/IP_COPY_AUDIT.md`, a Hermes-owned source audit that identifies user-facing Reg Life/Game Plan/payment/public-sharing hotspots for Antigravity/Hermes review. Follow-up correction: the Windows repo does not have `src/components/demo/DemoModeBanner.tsx`; the actual shared demo component is `src/components/shared/DemoDataButton.tsx`, so the board/plan/audit now reference that path.
+- Summary: Compared WSL and Windows repos. Collaboration/gate docs existed only in WSL, while the user's active Antigravity work is in the Windows repo. Copied only missing collaboration/gate docs into the Windows repo without overwriting existing files. Then created `docs/audits/IP_COPY_AUDIT.md`, a Hermes-owned source audit that identifies user-facing third-party curriculum/Game Plan/payment/public-sharing hotspots for Antigravity/Hermes review. Follow-up correction: the Windows repo does not have `src/components/demo/DemoModeBanner.tsx`; the actual shared demo component is `src/components/shared/DemoDataButton.tsx`, so the board/plan/audit now reference that path.
 - Verification: `npm run docs:check` passed after copying docs into the Windows repo and again after this handoff update. Scoped `git status --short` shows the listed collaboration/audit docs as new/untracked.
 - Risks / assumptions: The Windows repo HEAD differs from the WSL repo (`9878ba8` vs WSL `d1ea317`) and has a large unrelated dirty state. No source files were changed by Hermes in this step; Antigravity may be editing source concurrently.
 - Next action requested: Antigravity should use `docs/audits/IP_COPY_AUDIT.md` plus `docs/agents/TWO_AGENT_BOARD.md` to continue copy-neutralization. Hermes should review Antigravity's actual diff after it updates handoff.
@@ -1461,27 +1461,27 @@ diff and CI result without spelunking the local branch.
   - `docs/validation/USER_VALIDATION_PLAN.md`
   - `docs/agents/SPRINT_DECISION_GATE.md`
   - `docs/agents/AGENT_HANDOFF.md`
-- Summary: User clarified that Reg Life status is informal verbal/DM encouragement from someone they can name privately, not written license/distribution terms. Current product posture is private/local. User chose to pivot away from Reg Life-specific content. External validation target is 3 Reg Life students plus 3 independent poker players, with no Reg Life affiliation claim.
+- Summary: User clarified that third-party curriculum status is informal verbal/DM encouragement from someone they can name privately, not written license/distribution terms. Current product posture is private/local. User chose to pivot away from third-party-curriculum-specific content. External validation target is three training-community students plus three independent poker players, with no third-party curriculum affiliation claim.
 - Verification: `npm run docs:check` passed.
-- Risks / assumptions: No legal judgment is made here; this records product risk posture and next evidence gates. Existing code still contains Reg Life/GamePlan/dossier references that may need a future IP-safe repositioning sprint.
+- Risks / assumptions: No legal judgment is made here; this records product risk posture and next evidence gates. Existing code still contains third-party curriculum/GamePlan/dossier references that may need a future IP-safe repositioning sprint.
 - Next action requested: Run the six validation conversations and record them in `docs/validation/USER_VALIDATION_PLAN.md`; then prioritize an IP-safe repositioning sprint before public/pricing/shareable distribution work.
 
 ## 2026-05-10 — Verification sprint council gates
 
 - Owner / agent: Hermes
 - Branch / worktree: `phase-6-consolidated-final` at `/home/micro/projects/poker-analyzer`
-- Scope: Follow the 2026-05-10 council's "one thing first": publish fixture sweep numbers and record Reg Life / IP status before any feature sprint.
+- Scope: Follow the 2026-05-10 council's "one thing first": publish fixture sweep numbers and record third-party curriculum / IP status before any feature sprint.
 - Files touched:
   - `docs/product/PARSER_HEALTH.md`
   - `docs/agents/PARTNERSHIP_STATUS.md`
   - `docs/agents/AGENT_HANDOFF.md`
-- Summary: Ran the fixture sweep test and a one-off parser-health audit. Published exact pass/fail/skip counts: 302 / 302 supported fixture files pass; 0 fail; 0 skip. Recorded Reg Life partnership as unverified in-repo and strategy/curriculum IP status as not cleared.
+- Summary: Ran the fixture sweep test and a one-off parser-health audit. Published exact pass/fail/skip counts: 302 / 302 supported fixture files pass; 0 fail; 0 skip. Recorded third-party partnership as unverified in-repo and strategy/curriculum IP status as not cleared.
 - Verification:
   - `npx vitest run src/parser/__tests__/fixtureSweep.test.ts --reporter=verbose` passed: 1 file, 5 tests.
   - `npx tsx /tmp/parser-health-sweep.ts` produced the published fixture counts.
   - `npm run docs:check` passed.
 - Risks / assumptions: This is documentation and measurement only; it does not change parser/runtime behavior. The `/tmp/parser-health-sweep.ts` script is a temporary audit helper, not committed. OHH has no real fixture files under `src/test/fixtures/`, so it is not part of the 302-file real-fixture number.
-- Next action requested: Do not start analysis/platform/funnel/shareable-artifact work until the user decides how to resolve Reg Life/IP status and external user validation.
+- Next action requested: Do not start analysis/platform/funnel/shareable-artifact work until the user decides how to resolve third-party curriculum/IP status and external user validation.
 
 ## 2026-05-10 — AI collaboration workflow bootstrap
 

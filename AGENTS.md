@@ -38,7 +38,7 @@ Use this division when Hermes and Antigravity are both active. For current gated
 - Antigravity: fast IDE implementation, IP-safe user-facing copy neutralization, focused component edits, small refactors, applying specific review feedback.
 - Hermes: product architecture, parser/analysis correctness, test/fixture work, skeptical reviews, verification, documentation hygiene, and gate enforcement.
 
-Current gate: private/local generic poker analyzer posture. Do not start pricing/funnel/shareable/public-distribution work or Reg Life-branded positioning unless the user explicitly overrides `docs/agents/TWO_AGENT_BOARD.md`.
+Current gate: private/local generic poker analyzer posture. Do not start pricing/funnel/shareable/public-distribution work or third-party-branded positioning unless the user explicitly overrides `docs/agents/TWO_AGENT_BOARD.md`.
 
 Only one agent should own a given file or subsystem at a time. If both agents need to touch the same area, one writes a handoff first and the other reviews or continues from that handoff.
 

@@ -1,6 +1,6 @@
 # 10 — Poker Glossary
 
-Compiled from *Dicionário do Poker* (Reg Life) and supplemented from the Estudar dá Sorte series. [Glossary]
+Compiled from *Dicionário do Poker* (third-party curriculum) and supplemented from the Estudar dá Sorte series. [Glossary]
 
 ---
 

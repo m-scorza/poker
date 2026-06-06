@@ -90,5 +90,5 @@ This fixture evidence verifies the supported corpus currently present under
 
 The parser gate is green for the fixture corpus in the repo. The remaining
 product gate is still the private/local generic analyzer posture in
-`docs/agents/TWO_AGENT_BOARD.md`; historical Reg Life/IP notes live in
+`docs/agents/TWO_AGENT_BOARD.md`; historical third-party curriculum/IP notes live in
 `docs/audits/IP_COPY_AUDIT.md` and archived agent docs.

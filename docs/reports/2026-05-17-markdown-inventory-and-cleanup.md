@@ -26,7 +26,7 @@ Agents should treat these as active:
 - `docs/agents/AGENT_HANDOFF.md` — newest handoff entries and recent verification.
 - `docs/agents/SPRINT_DECISION_GATE.md` — allowed/blocked work before validation/IP gates clear.
 - `docs/agents/TWO_AGENT_BOARD.md` — multi-agent ownership defaults.
-- `docs/agents/PARTNERSHIP_STATUS.md` — Reg Life/IP posture.
+- `docs/agents/PARTNERSHIP_STATUS.md` — third-party curriculum/IP posture.
 - `docs/product/PARSER_HEALTH.md` — latest fixture-sweep evidence.
 - `docs/validation/USER_VALIDATION_PLAN.md` — validation gate and interview template.
 

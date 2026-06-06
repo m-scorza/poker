@@ -6,7 +6,7 @@ This board monitors active agent assignments and enforces council gates for the 
 The latest sprint decision gate controls all agent tasks:
 - **Private/Local Posture**: The application must be framed as a private, local-only generic poker hand-history analyzer.
 - **No Commercial CTAs**: Do not implement pricing pages, payment funnels, or public share/export features.
-- **Reg Life Exclusion**: Neutralize all Reg Life-branded wording, strategy profile names (rename to "Baseline" or "Advanced"), and database attributions in user-facing views.
+- **Third-party curriculum exclusion**: Neutralize all third-party-branded wording, strategy profile names (rename to "Baseline" or "Advanced"), and database attributions in user-facing views.
 
 ## 2. Active Assignment References
 Task assignments and execution states are tracked inside the local, Gitignored file:

@@ -52,7 +52,7 @@ and an explicit non-solver boundary.
 ## What Improved Since The Older Reports
 
 - The product posture is clearer. The app is now framed as a private/local
-  generic poker analyzer, not a Reg Life product or paid SaaS.
+  generic poker analyzer, not a third-party curriculum product or paid SaaS.
 - The old pricing/public-launch surface has been removed from routing and
   navigation; `/demo` is the current validation surface.
 - The test gate is much stronger on the source-of-truth status page: 649 / 649
@@ -136,7 +136,7 @@ The key blockers are:
 The next step should be validation, not another broad build sprint.
 
 1. **Run the six-user validation plan.**
-   - Three Reg Life-adjacent users only as target-user proxies, with no
+   - Three training-community-adjacent users only as target-user proxies, with no
      affiliation claim.
    - Three independent poker players.
    - Required outcome: each user imports real histories, names at least two

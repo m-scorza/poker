@@ -38,7 +38,7 @@ This addendum intentionally avoids dashboard polish, new public sharing surfaces
 
 - Default is local/private. No hand-history upload, telemetry, or background collection without explicit opt-in.
 - No real screen names, table names, tournament IDs, exact timestamps, or raw hand text in any contributed dataset.
-- Do not send raw Reg Life/curriculum-derived labels or private strategy source citations in shared artifacts.
+- Do not send raw third-party curriculum/curriculum-derived labels or private strategy source citations in shared artifacts.
 - Do not imply solver-grade EV unless a solver adapter produced that value and the spot was within solver coverage.
 - All parser/analysis changes need direct tests or fixture coverage.
 - Use Windows Node command wrappers for verification in this checkout unless the WSL `node_modules` issue is fixed.
@@ -249,7 +249,7 @@ This addendum intentionally avoids dashboard polish, new public sharing surfaces
 
 **Board update to make later:**
 - Add a new row to `docs/agents/TWO_AGENT_BOARD.md` for “Privacy-preserving data contribution + solver feasibility”.
-- Blocked areas: pricing/funnel, dashboard redesign, public sharing UX, Reg Life-branded copy.
+- Blocked areas: pricing/funnel, dashboard redesign, public sharing UX, third-party-branded copy.
 
 **Handoff requirement:**
 Every implementation slice must update `docs/agents/AGENT_HANDOFF.md` with:

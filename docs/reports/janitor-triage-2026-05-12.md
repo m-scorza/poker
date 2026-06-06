@@ -92,7 +92,7 @@ Bundles the orphan untracked files above with their modified call sites.
 
 ### Commit E — Doc state catch-up
 
-- `CLAUDE.md` — phase 5/6 status, drift warnings, Reg Life neutralization
+- `CLAUDE.md` — phase 5/6 status, drift warnings, third-party curriculum neutralization
 - `docs/product/STATUS.md` — current STATUS snapshot
 - `docs/product/ROADMAP.md` — checkboxes
 - Re-run `npm run docs:update` to re-sync the autogen blocks if any drift since commit B.

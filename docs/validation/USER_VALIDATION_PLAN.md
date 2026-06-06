@@ -6,15 +6,15 @@
 
 ## Current product posture for demos
 
-Until Reg Life licensing/IP status is resolved, present this as:
+Until third-party curriculum licensing/IP status is resolved, present this as:
 
 > A private/local poker hand-history analyzer that helps a player find leaks and prioritize study from their own hand histories.
 
 Do **not** present it as:
 
-- A Reg Life official companion.
-- A Reg Life curriculum product.
-- A tool licensed by Reg Life.
+- An official third-party curriculum companion.
+- A third-party curriculum product.
+- A tool licensed by a third-party curriculum owner.
 - A paid SaaS ready for public sale.
 - A shareable curriculum-artifact generator.
 
@@ -24,8 +24,8 @@ Run six short demos/interviews:
 
 | Group | Count | Notes |
 |---|---:|---|
-| Reg Life students | 3 | Useful target-user proxy, but avoid claiming Reg Life affiliation or curriculum rights. |
-| Independent poker players | 3 | Control group to test whether the product has value outside Reg Life-specific framing. |
+| training-community students | 3 | Useful target-user proxy, but avoid claiming third-party curriculum affiliation or curriculum rights. |
+| Independent poker players | 3 | Control group to test whether the product has value outside third-party-curriculum-specific framing. |
 
 ## Success criteria
 
@@ -39,14 +39,14 @@ The next sprint can be chosen only after recording answers to these questions:
 6. Would the user pay, and if so for what exact outcome?
 7. Does the user care more about leak analysis, study queue, bankroll/career insights, villain tracking, or training drills?
 8. Does the absence of their preferred poker site block use?
-9. Does any current strategy wording feel too tied to Reg Life or another coach's IP?
+9. Does any current strategy wording feel too tied to third-party curriculum or another coach's IP?
 
 ## Demo script
 
 ### Opening
 
 ```text
-I'm testing a private/local poker hand-history analyzer. It imports tournament hand histories and tries to turn them into leak analysis and study priorities. This is not an official Reg Life product and I'm not asking you to buy anything today. I mainly want to see where it is useful, confusing, or wrong.
+I'm testing a private/local poker hand-history analyzer. It imports tournament hand histories and tries to turn them into leak analysis and study priorities. This is not an official third-party curriculum product and I'm not asking you to buy anything today. I mainly want to see where it is useful, confusing, or wrong.
 ```
 
 ### Observe without explaining too much
@@ -86,7 +86,7 @@ Create one entry per interview below or in a separate dated note.
 ```md
 ## Participant N — YYYY-MM-DD
 
-- Segment: Reg Life student / independent player
+- Segment: training-community student / independent player
 - Stakes / format:
 - Poker sites used:
 - First useful moment:
@@ -106,7 +106,7 @@ Create one entry per interview below or in a separate dated note.
 Use the evidence to pick one sprint:
 
 - If users distrust parser/import accuracy: continue Import Reliability + Data Confidence.
-- If users understand analysis but want clearer next actions: improve Study Queue / explanations using generic, non-Reg-Life language.
+- If users understand analysis but want clearer next actions: improve Study Queue / explanations using generic language.
 - If users cannot import their site: consider one platform-support sprint, but only for the most-requested room.
-- If users want the app and ask how to pay after using it: harden funnel/payment, but only with non-Reg-Life positioning unless licensing is resolved.
-- If users are confused by all strategy/curriculum framing: pivot language toward generic poker analytics and remove Reg Life-specific assumptions from user-facing copy.
+- If users want the app and ask how to pay after using it: harden funnel/payment, but only with generic positioning unless licensing is resolved.
+- If users are confused by all strategy/curriculum framing: pivot language toward generic poker analytics and remove third-party-curriculum-specific assumptions from user-facing copy.

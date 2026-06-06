@@ -23,7 +23,7 @@ Product context:
 - The app imports local poker hand histories and tournament summaries.
 - It helps tournament players identify leaks, review hands, and understand career/session performance.
 - Current posture is private/local generic poker analyzer.
-- Do not imply Reg Life affiliation, public distribution, pricing, payment, or shareable/public study-card virality.
+- Do not imply third-party curriculum affiliation, public distribution, pricing, payment, or shareable/public study-card virality.
 - User-facing copy should be English, calm, and validation-safe.
 - Raw chips won/lost should not be the primary performance metric. Prefer bb deltas, bb/100, ROI/ABI/ITM where relevant, and always include sample/confidence context.
 
@@ -95,7 +95,7 @@ Create one self-contained HTML artifact showing:
 
 Product rules:
 - Private/local generic poker analyzer.
-- No Reg Life branding/affiliation claims.
+- No third-party curriculum branding/affiliation claims.
 - No pricing/payment/funnel/public-sharing language.
 - Poker visuals should be restrained.
 - Raw chips should not be primary for hand-level performance. Use bb deltas/bb impact and confidence context.
