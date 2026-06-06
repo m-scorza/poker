@@ -166,6 +166,13 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     asset URLs, native share APIs, and known telemetry/cloud/payment/remote-AI
     SDK dependencies unless a future opt-in feature adds an explicit allowlist
     entry with matching privacy documentation.
+25. **Import confidence ledger** - FIXED 2026-06-06.
+    Local import diagnostics now derive a confidence ledger from retained import
+    runs: analysis posture, parsed-file rate, high/medium/low run counts, saved
+    record totals, and grouped parser warning categories. The upload Data Health
+    card and Markdown diagnostics export use this ledger so downstream analysis
+    can distinguish ready, directional, and needs-review import states without
+    exposing raw hand histories or local paths.
 
 ## Open follow-ups
 
@@ -393,7 +400,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 63
-**`it` / `test` calls (approximate):** 649
+**`it` / `test` calls (approximate):** 652
 
 ```
 src/__tests__/App.test.tsx

@@ -90,5 +90,23 @@ This fixture evidence verifies the supported corpus currently present under
 
 The parser gate is green for the fixture corpus in the repo. The remaining
 product gate is still the private/local generic analyzer posture in
-`docs/agents/TWO_AGENT_BOARD.md`; historical Reg Life/IP notes live in
+`docs/agents/TWO_AGENT_BOARD.md`; historical third-party/IP notes live in
 `docs/audits/IP_COPY_AUDIT.md` and archived agent docs.
+
+## Live Import Confidence
+
+Fixture sweeps are the repo-level parser gate. User imports have a separate
+local confidence ledger derived from retained import diagnostics in
+`src/data/importRuns.ts`.
+
+The ledger summarizes retained runs into:
+
+- ready / directional / needs-review analysis posture
+- high / medium / low confidence run counts
+- parsed-file rate and failed-file count
+- saved hand / tournament-summary totals
+- grouped parser warning categories with sanitized examples
+
+This keeps product guidance tied to the user's actual local import history
+without exporting raw hand histories, cards, actions, player-level hand data, or
+local paths.

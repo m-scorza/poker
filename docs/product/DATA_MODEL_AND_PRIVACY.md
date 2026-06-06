@@ -95,6 +95,7 @@ Import-run records are automatic local diagnostics metadata.
 - Parser warnings are collapsed to one line and capped before storage.
 - Each new run stores local-only diagnostic policy metadata stating that raw hand histories, cards, actions, player-level hand data, and local paths are excluded.
 - The upload UI can export or clear this local diagnostic ledger without deleting parsed hands.
+- A derived confidence ledger summarizes retained runs into high/medium/low counts, parsed-file rate, analysis posture, and warning categories. The category ledger is aggregate support metadata; raw warning lines remain local diagnostics and are sanitized before display/export.
 - Network upload or silent telemetry remains out of scope until the future upload/encryption gate below is satisfied.
 
 ---

@@ -2,6 +2,38 @@
 
 Archived from active docs/agents/AGENT_HANDOFF.md on 2026-06-06 to keep the active baton under the kernel context budget.
 
+## 2026-06-06 - Private/local runtime privacy guard
+
+- Owner / agent:          Codex
+- Branch:                 codex/local-privacy-guard
+- Scope:                  Turn the private/local research finding into an enforceable runtime privacy boundary without blocking future explicit opt-in product decisions.
+- Files touched:
+  - `scripts/privacy-boundary-check.ts` - adds a static guard for runtime network APIs, remote assets, native share APIs, and blocked telemetry/cloud/payment/remote-AI SDK dependencies.
+  - `src/__tests__/privacyBoundaryCheck.test.ts` - covers network/share detection, external URL detection, dependency detection, and exact allowlist behavior.
+  - `src/index.css` and `src/pages/ArenaPage.tsx` - remove existing Google Fonts and remote texture runtime dependencies.
+  - `package.json`, `scripts/README.md`, and `scripts/install-hooks.js` - document `npm run privacy:check` and add it to the generated pre-commit hook.
+  - `docs/product/DATA_MODEL_AND_PRIVACY.md` and `docs/product/STATUS.md` - document the guard and future allowlist path.
+- Summary:
+  - `privacy:check` now fails on accidental `fetch`, `XMLHttpRequest`, `sendBeacon`, `WebSocket`, `EventSource`, `navigator.share`, external runtime URLs, and blocked SDK dependencies.
+  - Future cloud/sync/support-export/solver API work remains possible, but it must update privacy docs and add a precise file/pattern allowlist entry with a reason.
+  - Existing remote runtime assets were removed so the current app passes the guard.
+- Verification:
+  - `npm.cmd run privacy:check` - passed.
+  - `npx.cmd vitest run src/__tests__/privacyBoundaryCheck.test.ts` - passed, 4 tests.
+  - `node --check scripts/install-hooks.js` - passed.
+  - `npx.cmd tsc -b --pretty false` - passed.
+  - `npm.cmd run typecheck:test` - passed.
+  - `npm.cmd run docs:update` - updated `docs/product/STATUS.md`.
+  - `npm.cmd run docs:check` - passed.
+  - `git diff --check` - passed.
+  - `npm.cmd run build` - passed.
+  - `npx.cmd vitest run --reporter=dot` - passed, 63 files / 678 tests.
+- Risks / assumptions:
+  - The guard is static and conservative. It is meant to catch product-boundary drift, not prove total network isolation at the browser/runtime level.
+  - SVG namespace URLs remain allowed because they are identifiers, not remote runtime assets.
+- Next action requested:
+  - Review this stacked branch after the evidence-citation branch, then continue with parser confidence ledger work.
+
 ## 2026-06-06 - Evidence citation trust badges
 
 - Owner / agent:          Codex
