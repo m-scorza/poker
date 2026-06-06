@@ -386,11 +386,12 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 61
-**`it` / `test` calls (approximate):** 637
+**Test files:** 62
+**`it` / `test` calls (approximate):** 642
 
 ```
 src/__tests__/App.test.tsx
+src/__tests__/agentKernel.test.ts
 src/analysis/__tests__/bountyAnalyzer.test.ts
 src/analysis/__tests__/careerCoach.test.ts
 src/analysis/__tests__/careerScope.test.ts

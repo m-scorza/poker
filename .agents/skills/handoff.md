@@ -13,6 +13,8 @@ git diff --stat
 
 2. Update `docs/agents/AGENT_HANDOFF.md` with a newest-first entry.
 
+   For scheduler tasks, this happens before `agent-kernel complete`; `docs/agents/AGENT_HANDOFF.md` must be listed in the task's `protocol_files`.
+
 3. Include:
 
 - Owner / agent
@@ -31,7 +33,7 @@ git diff --stat
 ## Handoff template
 
 ```md
-## YYYY-MM-DD — <short task name>
+## YYYY-MM-DD - <short task name>
 
 - Owner / agent:
 - Branch / worktree:
