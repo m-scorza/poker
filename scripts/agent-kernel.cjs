@@ -20,6 +20,7 @@ const argAgent = getArgValue('--agent');
 const argSummary = getArgValue('--summary');
 const argEvidenceFile = getArgValue('--evidence-file');
 const argReason = getArgValue('--reason');
+const AVAILABLE_COMMANDS = 'status, doctor, inspect-git, print-context, print-current-context, render-handoff, validate-protocol, validate-evidence, init-state, state, validate-state, add-task, lock-status, unlock, claim, complete, fail, blocked, needs-human, abort';
 
 // Helper to run Git commands via spawnSync
 function runGit(args, cwd) {
@@ -75,6 +76,54 @@ function fileMatchesPatterns(file, patterns) {
   });
 }
 
+const TASK_SCOPE_FIELDS = ['allowed_files', 'protocol_files', 'generated_files'];
+
+function validateTaskPathList(task, prefix, field, errors, required) {
+  if (task[field] === undefined) {
+    if (required) {
+      errors.push(`${prefix} ${field} must be an array`);
+    }
+    return;
+  }
+
+  if (!Array.isArray(task[field])) {
+    errors.push(`${prefix} ${field} must be an array`);
+    return;
+  }
+
+  task[field].forEach((file, fidx) => {
+    if (typeof file !== 'string') {
+      errors.push(`${prefix}.${field}[${fidx}] must be a string`);
+      return;
+    }
+    if (path.isAbsolute(file)) {
+      errors.push(`${prefix}.${field}[${fidx}] must be a relative path, got absolute: "${file}"`);
+      return;
+    }
+
+    const resolved = path.resolve(repoRoot, file);
+    const relative = path.relative(repoRoot, resolved);
+    if (relative.startsWith('..') || path.isAbsolute(relative)) {
+      errors.push(`${prefix}.${field}[${fidx}] escapes repository root: "${file}"`);
+    }
+    if (file.includes('..')) {
+      errors.push(`${prefix}.${field}[${fidx}] contains path traversal: "${file}"`);
+    }
+  });
+}
+
+function effectiveTaskScope(task) {
+  const scope = [];
+  TASK_SCOPE_FIELDS.forEach(field => {
+    if (Array.isArray(task[field])) {
+      task[field].forEach(file => {
+        if (!scope.includes(file)) scope.push(file);
+      });
+    }
+  });
+  return scope;
+}
+
 function checkInputFileSafety(filePath) {
   if (!filePath) {
     return { valid: false, reason: 'Missing file path' };
@@ -98,6 +147,71 @@ function checkInputFileSafety(filePath) {
   }
   
   return { valid: true, resolved };
+}
+
+function loadEvidenceFile(filePath) {
+  const safety = checkInputFileSafety(filePath);
+  if (!safety.valid) {
+    return { valid: false, error: `Evidence file safety violation: ${safety.reason}` };
+  }
+
+  let fileContent;
+  try {
+    fileContent = fs.readFileSync(safety.resolved, 'utf8');
+  } catch (e) {
+    return { valid: false, error: `Failed to read evidence file: ${e.message}` };
+  }
+
+  let evidence;
+  try {
+    evidence = JSON.parse(fileContent);
+  } catch (e) {
+    return { valid: false, error: `Malformed evidence JSON: ${e.message}` };
+  }
+
+  return { valid: true, evidence, resolved: safety.resolved };
+}
+
+function validateEvidenceForTask(task, evidence, expectedTaskId) {
+  const errors = [];
+
+  if (!evidence || typeof evidence !== 'object' || Array.isArray(evidence)) {
+    errors.push('Evidence must be a JSON object');
+    return errors;
+  }
+
+  if (evidence.task_id !== expectedTaskId) {
+    errors.push(`Evidence task_id mismatch: got "${evidence.task_id}", expected "${expectedTaskId}"`);
+  }
+
+  if (!Array.isArray(evidence.commands)) {
+    errors.push('Evidence must contain a "commands" array');
+    return errors;
+  }
+
+  evidence.commands.forEach((cmd, idx) => {
+    if (!cmd || typeof cmd !== 'object' || Array.isArray(cmd)) {
+      errors.push(`commands[${idx}] must be an object`);
+      return;
+    }
+    if (typeof cmd.name !== 'string' || cmd.name.trim() === '') {
+      errors.push(`commands[${idx}].name must be a non-empty string`);
+    }
+    if (typeof cmd.exit_code !== 'number') {
+      errors.push(`commands[${idx}].exit_code must be a number`);
+    }
+  });
+
+  task.required_checks.forEach(check => {
+    const match = evidence.commands.find(c => c && c.name === check.name);
+    if (!match) {
+      errors.push(`Required check "${check.name}" not reported in evidence`);
+    } else if (match.exit_code !== 0) {
+      errors.push(`Required check "${check.name}" failed with non-zero exit_code: ${match.exit_code}`);
+    }
+  });
+
+  return errors;
 }
 
 function readLockMetadata() {
@@ -318,27 +432,9 @@ function validateSpoolSchema(spool) {
       if (typeof task.goal !== 'string' || task.goal.trim() === '') {
         errors.push(`${prefix} goal must be a non-empty string`);
       }
-      if (!Array.isArray(task.allowed_files)) {
-        errors.push(`${prefix} allowed_files must be an array`);
-      } else {
-        task.allowed_files.forEach((file, fidx) => {
-          if (typeof file !== 'string') {
-            errors.push(`${prefix}.allowed_files[${fidx}] must be a string`);
-            return;
-          }
-          if (path.isAbsolute(file)) {
-            errors.push(`${prefix}.allowed_files[${fidx}] must be a relative path, got absolute: "${file}"`);
-          } else {
-            const resolved = path.resolve(repoRoot, file);
-            if (!resolved.startsWith(repoRoot)) {
-              errors.push(`${prefix}.allowed_files[${fidx}] escapes repository root: "${file}"`);
-            }
-            if (file.includes('..')) {
-              errors.push(`${prefix}.allowed_files[${fidx}] contains path traversal: "${file}"`);
-            }
-          }
-        });
-      }
+      validateTaskPathList(task, prefix, 'allowed_files', errors, true);
+      validateTaskPathList(task, prefix, 'protocol_files', errors, false);
+      validateTaskPathList(task, prefix, 'generated_files', errors, false);
       if (!Array.isArray(task.required_checks)) {
         errors.push(`${prefix} required_checks must be an array`);
       } else {
@@ -363,6 +459,23 @@ function validateSpoolSchema(spool) {
       }
       if (task.completed_at !== null && task.completed_at !== undefined && !isValidIsoDate(task.completed_at)) {
         errors.push(`${prefix} completed_at must be null or a valid ISO date string`);
+      }
+      if (task.truth_checked_at !== null && task.truth_checked_at !== undefined && !isValidIsoDate(task.truth_checked_at)) {
+        errors.push(`${prefix} truth_checked_at must be null or a valid ISO date string`);
+      }
+      if (task.superseded_by !== null && task.superseded_by !== undefined && typeof task.superseded_by !== 'string') {
+        errors.push(`${prefix} superseded_by must be null or a string`);
+      }
+      if (task.source_refs !== undefined) {
+        if (!Array.isArray(task.source_refs)) {
+          errors.push(`${prefix} source_refs must be an array`);
+        } else {
+          task.source_refs.forEach((ref, ridx) => {
+            if (typeof ref !== 'string' || ref.trim() === '') {
+              errors.push(`${prefix}.source_refs[${ridx}] must be a non-empty string`);
+            }
+          });
+        }
       }
       if (!Array.isArray(task.attempts)) {
         errors.push(`${prefix} attempts must be an array`);
@@ -489,7 +602,7 @@ function parseGitPorcelain(stdout) {
 // Main logic routing
 if (!command) {
   console.error('Usage: node scripts/agent-kernel.cjs <command> [--json]');
-  console.error('Available commands: status, doctor, inspect-git, print-context, print-current-context, render-handoff, validate-protocol, init-state, state, validate-state, add-task, lock-status, unlock, claim, complete, fail, blocked, needs-human, abort');
+  console.error(`Available commands: ${AVAILABLE_COMMANDS}`);
   process.exit(1);
 }
 
@@ -779,7 +892,10 @@ switch (command) {
       if (fs.existsSync(p)) {
         const size = fs.statSync(p).size;
         if (size > l.limit) {
-          sizeViolations.push(`${l.file} size is ${size} bytes (limit is ${l.limit})`);
+          const remediation = l.file === 'docs/agents/AGENT_HANDOFF.md'
+            ? '; move older entries to docs/agents/archive/AGENT_HANDOFF_ARCHIVE_YYYY_MM.md and keep only the active baton in AGENT_HANDOFF.md'
+            : '';
+          sizeViolations.push(`${l.file} size is ${size} bytes (limit is ${l.limit})${remediation}`);
         }
       }
     });
@@ -896,7 +1012,8 @@ switch (command) {
       out += `- **Agent**: \`${activeTask.owner_agent || activeTask.target_agent}\`\n`;
       out += `- **Title**: ${activeTask.title}\n`;
       out += `- **Goal**: ${activeTask.goal}\n`;
-      const scopeStr = activeTask.allowed_files.length > 0 ? activeTask.allowed_files.join(', ') : 'None';
+      const activeScope = effectiveTaskScope(activeTask);
+      const scopeStr = activeScope.length > 0 ? activeScope.join(', ') : 'None';
       out += `- **Allowed Scope**: ${scopeStr}\n`;
     } else {
       if (!stateInit) {
@@ -1071,7 +1188,8 @@ switch (command) {
     let out = `## ${dateStr} — ${taskTitle}${statusHeader}\n\n`;
     out += `- Owner / agent:          ${task.owner_agent || task.target_agent || 'any'}\n`;
     out += `- Branch:                 ${task.branch}\n`;
-    const scopeStr = task.allowed_files.length > 0 ? task.allowed_files.join(', ') : 'None';
+    const handoffScope = effectiveTaskScope(task);
+    const scopeStr = handoffScope.length > 0 ? handoffScope.join(', ') : 'None';
     out += `- Scope:                  ${scopeStr}\n`;
 
     out += `- Files touched:\n`;
@@ -1127,7 +1245,7 @@ switch (command) {
         status: task.status,
         branch: task.branch,
         owner_agent: task.owner_agent || task.target_agent || 'any',
-        scope: task.allowed_files,
+        scope: handoffScope,
         files_touched: filesTouched,
         summary: activeAttempt && activeAttempt.summary
           ? activeAttempt.summary.split('\n').map(l => l.trim()).filter(l => l !== '')
@@ -1164,7 +1282,10 @@ switch (command) {
         exists,
         size,
         limit: l.limit,
-        pass
+        pass,
+        remediation: pass || l.file !== 'docs/agents/AGENT_HANDOFF.md'
+          ? null
+          : 'Move older entries to docs/agents/archive/AGENT_HANDOFF_ARCHIVE_YYYY_MM.md and keep only the active baton in AGENT_HANDOFF.md.'
       });
     });
 
@@ -1176,10 +1297,69 @@ switch (command) {
         const marker = r.pass ? '[PASS]' : '[FAIL]';
         const detail = r.exists ? `${r.size} bytes (limit: ${r.limit} bytes)` : 'file does not exist';
         console.log(`${marker.padEnd(7)} ${r.file.padEnd(35)}: ${detail}`);
+        if (r.remediation) {
+          console.log(`        Remediation: ${r.remediation}`);
+        }
       });
     }
 
     process.exit(allPass ? 0 : 1);
+    break;
+  }
+
+  case 'validate-evidence': {
+    if (!argTaskId || !argEvidenceFile) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: 'Missing --task <id> or --evidence-file <path> arguments' }));
+      } else {
+        console.error('Error: Missing --task <id> or --evidence-file <path> arguments');
+      }
+      process.exit(1);
+    }
+
+    const spool = readSpool();
+    const task = spool.tasks.find(t => t.task_id === argTaskId);
+    if (!task) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: `Task "${argTaskId}" not found in spool` }));
+      } else {
+        console.error(`Error: Task "${argTaskId}" not found in spool`);
+      }
+      process.exit(1);
+    }
+
+    const loaded = loadEvidenceFile(argEvidenceFile);
+    if (!loaded.valid) {
+      if (isJson) {
+        console.log(JSON.stringify({ error: loaded.error }));
+      } else {
+        console.error(`Error: ${loaded.error}`);
+      }
+      process.exit(1);
+    }
+
+    const errors = validateEvidenceForTask(task, loaded.evidence, argTaskId);
+    if (errors.length > 0) {
+      if (isJson) {
+        console.log(JSON.stringify({ pass: false, error: 'Evidence validation failed', details: errors }));
+      } else {
+        console.error('Error: Evidence validation failed:');
+        errors.forEach(err => console.error(`  - ${err}`));
+      }
+      process.exit(1);
+    }
+
+    if (isJson) {
+      console.log(JSON.stringify({
+        pass: true,
+        task_id: task.task_id,
+        evidence_file: argEvidenceFile,
+        required_checks: task.required_checks.map(check => check.name)
+      }, null, 2));
+    } else {
+      console.log(`Evidence for task "${task.task_id}" is valid.`);
+    }
+    process.exit(0);
     break;
   }
 
@@ -1236,6 +1416,19 @@ switch (command) {
           console.log(`      Agent:     ${task.target_agent}`);
           console.log(`      Branch:    ${task.branch}`);
           console.log(`      Goal:      ${task.goal}`);
+          console.log(`      Scope:     ${effectiveTaskScope(task).join(', ') || 'None'}`);
+          if (task.protocol_files && task.protocol_files.length > 0) {
+            console.log(`      Protocol:  ${task.protocol_files.join(', ')}`);
+          }
+          if (task.generated_files && task.generated_files.length > 0) {
+            console.log(`      Generated: ${task.generated_files.join(', ')}`);
+          }
+          if (task.truth_checked_at) {
+            console.log(`      Truth:     ${task.truth_checked_at}`);
+          }
+          if (task.superseded_by) {
+            console.log(`      Superseded by: ${task.superseded_by}`);
+          }
           if (task.owner_agent) {
             console.log(`      Owner:     ${task.owner_agent}`);
           }
@@ -1394,7 +1587,12 @@ switch (command) {
       branch: inputTask.branch.trim(),
       goal: inputTask.goal.trim(),
       allowed_files: Array.isArray(inputTask.allowed_files) ? inputTask.allowed_files : [],
+      protocol_files: Array.isArray(inputTask.protocol_files) ? inputTask.protocol_files : [],
+      generated_files: Array.isArray(inputTask.generated_files) ? inputTask.generated_files : [],
       required_checks: Array.isArray(inputTask.required_checks) ? inputTask.required_checks : [],
+      source_refs: Array.isArray(inputTask.source_refs) ? inputTask.source_refs : [],
+      truth_checked_at: typeof inputTask.truth_checked_at === 'string' ? inputTask.truth_checked_at : null,
+      superseded_by: typeof inputTask.superseded_by === 'string' ? inputTask.superseded_by : null,
       attempts: [],
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString()
@@ -1675,91 +1873,25 @@ switch (command) {
       process.exit(1);
     }
 
-    const safety = checkInputFileSafety(argEvidenceFile);
-    if (!safety.valid) {
+    const loadedEvidence = loadEvidenceFile(argEvidenceFile);
+    if (!loadedEvidence.valid) {
       releaseLock();
       if (isJson) {
-        console.log(JSON.stringify({ error: `Evidence file safety violation: ${safety.reason}` }));
+        console.log(JSON.stringify({ error: loadedEvidence.error }));
       } else {
-        console.error(`Error: Evidence file safety violation: ${safety.reason}`);
+        console.error(`Error: ${loadedEvidence.error}`);
       }
       process.exit(1);
     }
 
-    let fileContent;
-    try {
-      fileContent = fs.readFileSync(safety.resolved, 'utf8');
-    } catch (e) {
+    const evidenceErrors = validateEvidenceForTask(task, loadedEvidence.evidence, argTaskId);
+    if (evidenceErrors.length > 0) {
       releaseLock();
       if (isJson) {
-        console.log(JSON.stringify({ error: `Failed to read evidence file: ${e.message}` }));
+        console.log(JSON.stringify({ error: 'Evidence validation failed', details: evidenceErrors }));
       } else {
-        console.error(`Error: Failed to read evidence file: ${e.message}`);
-      }
-      process.exit(1);
-    }
-
-    let evidence;
-    try {
-      evidence = JSON.parse(fileContent);
-    } catch (e) {
-      releaseLock();
-      if (isJson) {
-        console.log(JSON.stringify({ error: `Malformed evidence JSON: ${e.message}` }));
-      } else {
-        console.error(`Error: Malformed evidence JSON: ${e.message}`);
-      }
-      process.exit(1);
-    }
-
-    if (!evidence || typeof evidence !== 'object') {
-      releaseLock();
-      if (isJson) {
-        console.log(JSON.stringify({ error: 'Evidence must be a JSON object' }));
-      } else {
-        console.error('Error: Evidence must be a JSON object');
-      }
-      process.exit(1);
-    }
-
-    if (evidence.task_id !== argTaskId) {
-      releaseLock();
-      const msg = `Evidence task_id mismatch: got "${evidence.task_id}", expected "${argTaskId}"`;
-      if (isJson) {
-        console.log(JSON.stringify({ error: msg }));
-      } else {
-        console.error(`Error: ${msg}`);
-      }
-      process.exit(1);
-    }
-
-    if (!Array.isArray(evidence.commands)) {
-      releaseLock();
-      if (isJson) {
-        console.log(JSON.stringify({ error: 'Evidence must contain a "commands" array' }));
-      } else {
-        console.error('Error: Evidence must contain a "commands" array');
-      }
-      process.exit(1);
-    }
-
-    const missingChecks = [];
-    task.required_checks.forEach(check => {
-      const match = evidence.commands.find(c => c && c.name === check.name);
-      if (!match) {
-        missingChecks.push(`Required check "${check.name}" not reported in evidence`);
-      } else if (match.exit_code !== 0) {
-        missingChecks.push(`Required check "${check.name}" failed with non-zero exit_code: ${match.exit_code}`);
-      }
-    });
-
-    if (missingChecks.length > 0) {
-      releaseLock();
-      if (isJson) {
-        console.log(JSON.stringify({ error: 'Check validation failed', details: missingChecks }));
-      } else {
-        console.error('Error: Required checks validation failed:');
-        missingChecks.forEach(mc => console.error(`  - ${mc}`));
+        console.error('Error: Evidence validation failed:');
+        evidenceErrors.forEach(err => console.error(`  - ${err}`));
       }
       process.exit(1);
     }
@@ -1789,17 +1921,18 @@ switch (command) {
     }
 
     const outOfScopeFiles = [];
+    const effectiveScope = effectiveTaskScope(task);
     gitState.dirtyFiles.forEach(file => {
-      if (!fileMatchesPatterns(file, task.allowed_files)) {
+      if (!fileMatchesPatterns(file, effectiveScope)) {
         outOfScopeFiles.push(file);
       }
     });
 
     if (outOfScopeFiles.length > 0) {
       releaseLock();
-      const msg = `Cannot complete task: modified files outside allowed_files scope detected. Please mark task as needs-human.`;
+      const msg = `Cannot complete task: modified files outside effective task scope detected. Please mark task as needs-human.`;
       if (isJson) {
-        console.log(JSON.stringify({ error: msg, disallowed_files: outOfScopeFiles }));
+        console.log(JSON.stringify({ error: msg, disallowed_files: outOfScopeFiles, effective_scope: effectiveScope }));
       } else {
         console.error(`Error: ${msg}`);
         outOfScopeFiles.forEach(f => console.error(`  - [DISALLOWED] ${f}`));
@@ -2133,8 +2266,6 @@ switch (command) {
 
   default:
     console.error(`Unknown command: ${command}`);
-    console.error('Available commands: status, doctor, inspect-git, print-context, print-current-context, render-handoff, validate-protocol, init-state, state, validate-state, add-task, lock-status, unlock, claim, complete, fail, blocked, needs-human, abort');
+    console.error(`Available commands: ${AVAILABLE_COMMANDS}`);
     process.exit(1);
 }
-
-

@@ -172,6 +172,8 @@ function createPrompt(task) {
     .map((check) => `- ${check.name}: ${check.command}`)
     .join('\n');
   const files = (task.allowed_files || []).map((file) => `- ${file}`).join('\n');
+  const protocolFiles = (task.protocol_files || []).map((file) => `- ${file}`).join('\n');
+  const generatedFiles = (task.generated_files || []).map((file) => `- ${file}`).join('\n');
 
   return `You are executing ${task.task_id}: ${task.title}.
 
@@ -184,8 +186,14 @@ Read first:
 Task goal:
 ${task.goal}
 
-Allowed files:
+Implementation files:
 ${files || '- No files listed; stop and ask for a corrected task contract.'}
+
+Protocol files:
+${protocolFiles || '- None declared. Do not edit handoff/protocol docs unless the task contract is corrected.'}
+
+Generated files:
+${generatedFiles || '- None declared. Do not edit generated docs or lockfiles unless the task contract is corrected.'}
 
 Required checks:
 ${checks || '- No required checks listed; choose the narrowest useful verification and record it.'}
@@ -193,10 +201,25 @@ ${checks || '- No required checks listed; choose the narrowest useful verificati
 Workflow:
 1. Confirm the branch is ${task.branch}.
 2. Claim the task with: node scripts/agent-kernel.cjs claim --task ${task.task_id} --agent ${task.target_agent}
-3. Edit only the allowed files.
-4. Run the required checks and write .agents/state/evidence-${task.task_id}.json with task_id and command exit codes.
-5. Complete with: node scripts/agent-kernel.cjs complete --task ${task.task_id} --agent ${task.target_agent} --summary "<short summary>" --evidence-file .agents/state/evidence-${task.task_id}.json
-6. After completion, update docs/agents/AGENT_HANDOFF.md and stop.
+3. Edit only the implementation files plus any declared protocol/generated files.
+4. Run the required checks and write .agents/state/evidence-${task.task_id}.json.
+5. Evidence JSON shape:
+{
+  "task_id": "${task.task_id}",
+  "commands": [
+    {
+      "name": "<required check name>",
+      "command": "<exact command>",
+      "exit_code": 0,
+      "stdout": "<short summary or log path>",
+      "stderr": ""
+    }
+  ]
+}
+6. Preflight evidence with: node scripts/agent-kernel.cjs validate-evidence --task ${task.task_id} --evidence-file .agents/state/evidence-${task.task_id}.json
+7. Update docs/agents/AGENT_HANDOFF.md before completion. You can draft from: node scripts/agent-kernel.cjs render-handoff --task ${task.task_id}
+8. Complete with: node scripts/agent-kernel.cjs complete --task ${task.task_id} --agent ${task.target_agent} --summary "<short summary>" --evidence-file .agents/state/evidence-${task.task_id}.json
+9. Stop. Do not edit or generate any repo files after completion.
 `;
 }
 

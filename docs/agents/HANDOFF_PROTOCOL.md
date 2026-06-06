@@ -6,7 +6,7 @@ This document defines the rules for documenting tasks and transferring ownership
 Every completed or failed execution session must record an entry at the top of [AGENT_HANDOFF.md](./AGENT_HANDOFF.md) using this format:
 
 ```md
-## YYYY-MM-DD — <short task name>
+## YYYY-MM-DD - <short task name>
 
 - Owner / agent:          # Agent name (Antigravity, Hermes, Claude)
 - Branch:                 # Active git branch name
@@ -23,6 +23,16 @@ Completion status is strictly gated on validation evidence. You must run and doc
 1.  **TypeScript Compilation**: Run `npx tsc -b --pretty false` and confirm exit code 0.
 2.  **Targeted Tests**: Run tests covering modified code (Vitest) and record the exit status.
 3.  **Logs Reference**: Store build/test output logs in `.agents/runs/` (Gitignored) for manual human inspection.
+
+Before completing a scheduler task:
+
+1. Write `.agents/state/evidence-<task_id>.json`.
+2. Run `node scripts/agent-kernel.cjs validate-evidence --task <task_id> --evidence-file <path>`.
+3. Add the handoff entry while `docs/agents/AGENT_HANDOFF.md` is inside the task's `protocol_files`.
+4. Run `node scripts/agent-kernel.cjs complete ...`.
+5. Stop without further file edits.
+
+Keep `AGENT_HANDOFF.md` under the kernel context budget. When it grows, move older dated entries to `docs/agents/archive/AGENT_HANDOFF_ARCHIVE_YYYY_MM.md` and keep only the active baton plus template.
 
 ## 3. Human Handoff Sequence
 Since branch/worktree changes require operator approval, the handoff transfer is managed via these human-approved Git steps:

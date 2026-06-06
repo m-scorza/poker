@@ -16,6 +16,15 @@ The local task board is `.agents/state/task_spool.json` (Gitignored). Task shape
   "allowed_files": [
     "src/parser/ggpoker.ts"
   ],
+  "protocol_files": [
+    "docs/agents/AGENT_HANDOFF.md"
+  ],
+  "generated_files": [],
+  "source_refs": [
+    "docs/product/STATUS.md"
+  ],
+  "truth_checked_at": "2026-06-06T00:00:00.000Z",
+  "superseded_by": null,
   "required_checks": [
     {
       "name": "vitest",
@@ -24,6 +33,10 @@ The local task board is `.agents/state/task_spool.json` (Gitignored). Task shape
   ]
 }
 ```
+
+`allowed_files` is implementation scope. `protocol_files` covers required tracked process side effects. `generated_files` covers expected docs, lockfiles, or inventories. Completion enforces the combined scope and rejects unexpected dirty files.
+
+`source_refs`, `truth_checked_at`, and `superseded_by` record freshness before reopening old findings.
 
 ## 2. Git Boundary
 - **Agent-proposed Git**: Agents may propose checkout/switch/commit commands for operator approval, but must not run mutating Git silently.
@@ -47,4 +60,5 @@ Parallel execution is allowed only for a non-overlapping task batch.
 - **File-scope exclusivity**: No launched tasks may share `allowed_files`.
 - **Lane exclusivity**: Avoid parallel tasks in the same lane (`range`, `scenario`, `store`, `worker/import`, `ui`, `docs/protocol`) unless the human accepts merge risk.
 - **One task per worktree**: Each worktree runs one task branch and shares only central `.agents/state/`.
-- **Evidence before completion**: Completion requires evidence JSON accepted by `scripts/agent-kernel.cjs complete`.
+- **Evidence before completion**: Write `.agents/state/evidence-<task_id>.json`, then preflight it with `node scripts/agent-kernel.cjs validate-evidence --task <task_id> --evidence-file <path>`.
+- **Handoff before completion**: Update `docs/agents/AGENT_HANDOFF.md` before `complete`; do not edit or generate files after `complete`.
