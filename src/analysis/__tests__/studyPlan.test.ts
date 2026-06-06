@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest';
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { buildStudyQueue } from '../studyPlan';
 import type { HeroDecision } from '../../types/analysis';
+import type { Evidence } from '../../types/evidence';
 import type { Hand } from '../../types/hand';
 import type { Leak } from '../leakDetector';
 
@@ -64,6 +67,14 @@ const complianceLeak: Leak = {
   sampleSize: 80,
 };
 
+function expectEvidenceCitationsToResolve(evidence: Evidence): void {
+  for (const citation of evidence.citations) {
+    const path = resolve(process.cwd(), citation.docPath);
+    expect(existsSync(path), citation.docPath).toBe(true);
+    expect(readFileSync(path, 'utf8'), `${citation.docPath} should contain quote`).toContain(citation.quote);
+  }
+}
+
 describe('buildStudyQueue', () => {
   it('turns leaks into prioritized study items with a concrete CTA', () => {
     const queue = buildStudyQueue([complianceLeak], [], [], 3);
@@ -81,6 +92,9 @@ describe('buildStudyQueue', () => {
       },
     });
     expect(queue[0]!.priorityScore).toBeGreaterThan(0);
+    expect(queue[0]!.evidence.trust.kind).toBe('rule_based');
+    expect(queue[0]!.evidence.trust.citations).toHaveLength(1);
+    expectEvidenceCitationsToResolve(queue[0]!.evidence.trust);
   });
 
   it('clusters repeated deviation types and ranks hands by normalized BB loss', () => {
@@ -99,6 +113,9 @@ describe('buildStudyQueue', () => {
     expect(bbDefense!.explanation).toContain('BB vs raise');
     expect(bbDefense!.confidence).toBe('low');
     expect(bbDefense!.evidence.details).toContain('2 tagged decisions');
+    expect(bbDefense!.evidence.trust.kind).toBe('rule_based');
+    expect(bbDefense!.evidence.trust.citations[0]?.docPath).toBe('docs/knowledge/strategy/03-preflop-strategy.md');
+    expectEvidenceCitationsToResolve(bbDefense!.evidence.trust);
   });
 
   it('adds a GTO Wizard style biggest-loss review queue in BB, not raw chips', () => {
@@ -117,6 +134,8 @@ describe('buildStudyQueue', () => {
       kind: 'bb_loss_review',
       label: 'Normalized BB loss review',
     });
+    expect(lossQueue!.evidence.trust.kind).toBe('unsupported');
+    expect(lossQueue!.evidence.trust.citations).toHaveLength(0);
   });
 
   it('creates a missed c-bet drill when flop pressure opportunities are skipped', () => {
@@ -138,5 +157,8 @@ describe('buildStudyQueue', () => {
         details: ['1 missed continuation-bet opportunity'],
       },
     });
+    expect(cbetQueue!.evidence.trust.kind).toBe('proxy_model');
+    expect(cbetQueue!.evidence.trust.citations[0]?.docPath).toBe('docs/knowledge/strategy/04-postflop-strategy.md');
+    expectEvidenceCitationsToResolve(cbetQueue!.evidence.trust);
   });
 });

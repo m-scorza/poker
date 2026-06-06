@@ -51,7 +51,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
 
   const top = items[0]!;
   const TopIcon = SOURCE_ICON[top.source];
-  const topEvidence = getEvidenceMetadata(top.id, top.source);
+  const topEvidence = getEvidenceMetadata(top.id, top.source, top.evidence.trust);
 
   return (
     <section className="overflow-hidden rounded-2xl border border-violet-500/20 bg-gradient-to-br from-[#11121a] via-[var(--color-bg-card)] to-black/40 shadow-2xl shadow-violet-950/10">
@@ -85,6 +85,12 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
                 >
                   {topEvidence.strengthLabel}
                 </span>
+                <span
+                  className={clsx('rounded-full border px-2 py-0.5 text-[9px] font-black uppercase cursor-help', topEvidence.citationClass)}
+                  title={topEvidence.citationTooltip}
+                >
+                  {topEvidence.citationLabel}
+                </span>
               </div>
               <p className="font-data text-lg font-black text-white">{top.title}</p>
               <p className="mt-2 text-xs leading-relaxed text-white/60">{top.explanation}</p>
@@ -102,7 +108,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
         <div className="divide-y divide-white/10">
           {items.map((item, index) => {
             const Icon = SOURCE_ICON[item.source];
-            const evidence = getEvidenceMetadata(item.id, item.source);
+            const evidence = getEvidenceMetadata(item.id, item.source, item.evidence.trust);
             return (
               <Link
                 key={item.id}
@@ -133,6 +139,12 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
                       title={evidence.caveat}
                     >
                       {evidence.strengthLabel}
+                    </span>
+                    <span
+                      className={clsx('rounded-full border px-2 py-0.5 text-[10px] font-black uppercase cursor-help', evidence.citationClass)}
+                      title={evidence.citationTooltip}
+                    >
+                      {evidence.citationLabel}
                     </span>
                     <span className={clsx('rounded-full border px-2 py-0.5 text-[10px] font-black uppercase', SEVERITY_CLASS[item.severity])}>
                       {item.severity}

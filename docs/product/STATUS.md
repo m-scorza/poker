@@ -387,7 +387,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 62
-**`it` / `test` calls (approximate):** 642
+**`it` / `test` calls (approximate):** 645
 
 ```
 src/__tests__/App.test.tsx

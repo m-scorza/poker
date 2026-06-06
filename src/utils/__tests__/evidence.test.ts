@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { getEvidenceMetadata } from '../evidence';
+import { createEvidence, UNSUPPORTED_EVIDENCE } from '../../types/evidence';
 
 describe('evidence metadata utilities', () => {
   describe('getEvidenceMetadata', () => {
@@ -71,6 +72,40 @@ describe('evidence metadata utilities', () => {
       const res = getEvidenceMetadata('completely-unknown-metric');
       expect(res.label).toBe('proxy-model');
       expect(res.solverBacked).toBe(false);
+    });
+
+    it('prefers canonical evidence over id heuristics', () => {
+      const res = getEvidenceMetadata('loss-biggest-bb-swings', 'loss', createEvidence('rule_based', [
+        {
+          docPath: 'docs/knowledge/strategy/09-study-methods-and-tools.md',
+          section: '4. Leak Finder Framework',
+          quote: 'Create a study plan targeting the biggest leaks first',
+        },
+      ]));
+
+      expect(res.label).toBe('rule-based');
+      expect(res.canonicalKind).toBe('rule_based');
+      expect(res.citationStatus).toBe('present');
+      expect(res.citationLabel).toBe('KB cited');
+      expect(res.canRenderAsAdvice).toBe(true);
+    });
+
+    it('surfaces missing citations for non-unsupported evidence', () => {
+      const res = getEvidenceMetadata('postflop-missed-cbet', 'postflop', createEvidence('proxy_model'));
+
+      expect(res.label).toBe('proxy-model');
+      expect(res.citationStatus).toBe('missing');
+      expect(res.citationLabel).toBe('Needs citation');
+      expect(res.citationTooltip).toContain('no knowledge-base citation');
+    });
+
+    it('keeps unsupported evidence review-only even when the id looks rule-based', () => {
+      const res = getEvidenceMetadata('vpip_stat', undefined, UNSUPPORTED_EVIDENCE);
+
+      expect(res.label).toBe('unsupported');
+      expect(res.strength).toBe('review_only');
+      expect(res.citationStatus).toBe('not_required');
+      expect(res.canRenderAsAdvice).toBe(false);
     });
   });
 });
