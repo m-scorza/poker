@@ -20,7 +20,7 @@ is not already closed or superseded on current `main`.
 For the current sprint, task execution is scheduler-controlled:
 1.  The human/operator chooses the next task lane.
 2.  `scripts/parallel-runner.cjs` may prepare worktrees only for non-overlapping task scopes.
-3.  If pending tasks share `allowed_files` or conceptual lanes, run them sequentially or split/merge the task contracts first.
+3.  If pending tasks share `allowed_files` or conceptual lanes, run them sequentially or split/merge the task contracts first. Use `protocol_files` and `generated_files` only for expected process side effects; do not hide implementation overlap there.
 
 Primary ownership lanes:
 1.  **Antigravity (IDE)**: UI copy neutralization (neutralize labels in dashboard and data buttons).

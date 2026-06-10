@@ -26,6 +26,7 @@ Use when Antigravity is asked to implement a focused task and leave the repo rea
 
 5. Handoff:
    - Update `docs/agents/AGENT_HANDOFF.md` using `.agents/skills/handoff.md`.
+   - For scheduler tasks, validate evidence and update handoff before running `agent-kernel complete`.
    - Explicitly ask Hermes what to review.
 
 ## User prompt shape
