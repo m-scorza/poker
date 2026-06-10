@@ -14,7 +14,6 @@ docs/council/*
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
 .codex/
-graphify-out/
 
 # Throwaway debug scripts at repo root
 /scratch.*

@@ -1,0 +1,88 @@
+---
+source_file: "src/test/fixtures/pokerstars/ts"
+type: "concept"
+community: "PokerStars Tournament Fixtures"
+tags:
+  - graphify/concept
+  - graphify/EXTRACTED
+  - community/PokerStars_Tournament_Fixtures
+---
+[src/test/fixtures/pokerstars/ts](file:///C:/Users/MICRO/OneDrive/Documentos/GitHub/poker/src/test/fixtures/pokerstars/ts)
+
+# PokerStars Tournament Summary Format
+
+## Connections
+- [[PokerStars Freeroll Tournament Variant]] - `conceptually_related_to` [INFERRED]
+- [[PokerStars Hand History Format]] - `semantically_similar_to` [INFERRED]
+- [[PokerStars TS 3989352976]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989354302]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989529501]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989540623]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989541132]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989543785]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989565352]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989565558]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989574118]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989578117]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989590783]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989590908]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989607291]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989607944]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989608128]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS 3989612229]] - `shares_data_with` [EXTRACTED]
+- [[PokerStars TS Fixture Corpus (chunk 17)]] - `conceptually_related_to` [INFERRED]
+- [[PokerStars Tournament 3989615918 ($1.80+$0.20)]] - `conceptually_related_to` [EXTRACTED]
+- [[PokerStars Tournament 3989619338 ($0.90+$0.10)]] - `conceptually_related_to` [EXTRACTED]
+- [[PokerStars Tournament 3989623412 ($0.98+$0.12, 340 players)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3974102192 NLHE $0.49+$0.06]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975064215 NLHE $0.85+$0.15]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975069147 NLHE $0.85+$0.15]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975070702 NLHE $0.85+$0.15]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975072695 NLHE $0.85+$0.15]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975072811 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975080387 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975080443 NLHE $0.45+$0.05]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975081113 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975081598 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975124243 NLHE $0.45+$0.05]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975125444 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975126128 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975170482 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975170496 NLHE $0.45+$0.05]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975171865 NLHE $0.45+$0.05]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975174265 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975175625 NLHE $0.45+$0.05]] - `conceptually_related_to` [EXTRACTED]
+- [[TS T3975184071 NLHE $0.42+$0.08]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975186401 ($0.42+$0.08, 7th)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975186926 ($0.42+$0.08)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975187449 ($0.45+$0.05)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975189022 ($0.45+$0.05)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975196910 ($0.42+$0.08)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975199008 ($0.42+$0.08)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975207320 ($0.90+$0.10, 32 players, 9th)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975214518 ($0.45+$0.05)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975222356 ($0.90+$0.10)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975224006 ($0.45+$0.05)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975228726 ($0.90+$0.10)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975234499 ($0.45+$0.05)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975252862 ($0.45+$0.05)]] - `conceptually_related_to` [EXTRACTED]
+- [[TS Tournament 3975967913 ($0.45+$0.05) 18th place]] - `references` [EXTRACTED]
+- [[TS Tournament 3975968186 ($0.42+$0.08)]] - `references` [EXTRACTED]
+- [[TS Tournament 3975972855 ($0.45+$0.05)]] - `references` [EXTRACTED]
+- [[TS Tournament 3975974411 ($0.42+$0.08)]] - `references` [EXTRACTED]
+- [[TS Tournament 3975983059 ($0.46+$0.04) 2nd place Power Path Ticket]] - `references` [EXTRACTED]
+- [[TS Tournament 3989275876 ($0.91+$0.09)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989276326 ($0.85+$0.15)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989277038 ($0.91+$0.09)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989277405 ($0.90+$0.10)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989289921 ($0.46+$0.04)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989305854 ($1.70+$0.30) 6th place]] - `references` [EXTRACTED]
+- [[TS Tournament 3989305980 ($0.42+$0.08)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989306107 ($0.85+$0.15)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989316179 ($0.42+$0.08)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989317274 ($0.42+$0.08)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989329814 ($0.85+$0.15)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989329851 ($1.70+$0.30)]] - `references` [EXTRACTED]
+- [[TS Tournament 3989330107 ($0.42+$0.08)]] - `references` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/PokerStars_Tournament_Fixtures

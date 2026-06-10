@@ -1,0 +1,17 @@
+---
+source_file: "src/test/fixtures/pokerstars/ts/TS20260214 T3975207320 No Limit Hold'em US$ 0,90+US$ 0,10.txt"
+type: "document"
+community: "PokerStars Tournament Fixtures"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/PokerStars_Tournament_Fixtures
+---
+[src/test/fixtures/pokerstars/ts/TS20260214 T3975207320 No Limit Hold](file:///C:/Users/MICRO/OneDrive/Documentos/GitHub/poker/src/test/fixtures/pokerstars/ts/TS20260214%20T3975207320%20No%20Limit%20Hold)
+
+# TS Tournament #3975207320 ($0.90+$0.10, 32 players, 9th)
+
+## Connections
+- [[PokerStars Tournament Summary Format]] - `conceptually_related_to` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/PokerStars_Tournament_Fixtures
