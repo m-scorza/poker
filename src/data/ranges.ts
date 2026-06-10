@@ -1,6 +1,6 @@
 /**
- * Theoretical RFI ranges from the Reg Life Game Plan (SNG/MTT early game).
- * Source: [GamePlan] — Plano de Jogo SNG
+ * Theoretical RFI ranges from the Baseline Game Plan (SNG/MTT early game).
+ * Source: [GamePlan] — Baseline Game Plan SNG
  *
  * These ranges apply when it is folded to hero (RFI scenario).
  * Each position's range is defined as a Set of canonical hand keys (e.g. "AKs", "JJ", "T9o").

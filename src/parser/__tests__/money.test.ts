@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { parseUsdCents, centsToUsd, sumUsd } from '../money';
+import { parseUsdCents, centsToUsd, sumUsd, parseLocaleChips } from '../money';
+
 
 describe('parseUsdCents', () => {
   it('parses standard US decimal strings into integer cents', () => {
@@ -75,3 +76,32 @@ describe('sumUsd', () => {
     expect(sumUsd([-0.55, -0.55, 1.5])).toBe(0.4);
   });
 });
+
+describe('parseLocaleChips', () => {
+  it('parses standard US numbers', () => {
+    expect(parseLocaleChips('1500')).toBe(1500);
+    expect(parseLocaleChips('1,500')).toBe(1500);
+    expect(parseLocaleChips('1,500.50')).toBe(1500.5);
+    expect(parseLocaleChips('1.50')).toBe(1.5);
+    expect(parseLocaleChips('$1,500.50')).toBe(1500.5);
+  });
+
+  it('parses BR/EU numbers with dots as thousands and commas as decimals', () => {
+    expect(parseLocaleChips('1.500')).toBe(1500);
+    expect(parseLocaleChips('1.500,50')).toBe(1500.5);
+    expect(parseLocaleChips('1,50')).toBe(1.5);
+    expect(parseLocaleChips('R$ 1.500,50')).toBe(1500.5);
+  });
+
+  it('handles single-digit decimals correctly', () => {
+    expect(parseLocaleChips('1.5')).toBe(1.5);
+    expect(parseLocaleChips('1,5')).toBe(1.5);
+    expect(parseLocaleChips('12.5')).toBe(12.5);
+  });
+
+  it('handles empty and malformed strings gracefully', () => {
+    expect(parseLocaleChips('')).toBe(0);
+    expect(parseLocaleChips('abc')).toBe(0);
+  });
+});
+

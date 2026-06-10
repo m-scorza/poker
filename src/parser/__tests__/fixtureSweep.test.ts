@@ -173,3 +173,56 @@ describe('fixture sweep - open-hand-history/json', () => {
     }
   });
 });
+
+describe('specialized variant fixture checks', () => {
+  it('parses Zoom tournament fixture successfully', () => {
+    const raw = readUtf8(join(HH_DIR, 'HH20260216 T3974766292 No Limit Hold\'em US$ 4,90 + US$ 0,60 Zoom.txt'));
+    const parsed = parsePokerStarsFile(raw);
+    expect(parsed.length).toBeGreaterThan(0);
+    const first = parsed[0]!;
+    expect(first.hand.tournamentId).toBe('3974766292');
+    expect(first.tournament.buyIn).toBe(4.90);
+    expect(first.tournament.fee).toBe(0.60);
+  });
+
+  it('parses Cap cash game fixture successfully', () => {
+    const raw = readUtf8(join(HH_DIR, 'HH20260216 Isonoe III Cap - US$ 0,05-US$ 0,10 - USD No Limit All-in Poker.txt'));
+    const parsed = parsePokerStarsFile(raw);
+    expect(parsed.length).toBeGreaterThan(0);
+    const first = parsed[0]!;
+    expect(first.hand.bigBlind).toBe(0.10);
+    expect(first.hand.smallBlind).toBe(0.05);
+    // Since cash game, tournamentId is empty
+    expect(first.hand.tournamentId).toBe('');
+  });
+
+  it('parses 6+ Hold\'em tournament fixture successfully', () => {
+    const raw = readUtf8(join(HH_DIR, 'HH20260217 T3974762738 No Limit 6+ Hold\'em 220K + 30K.txt'));
+    const parsed = parsePokerStarsFile(raw);
+    expect(parsed.length).toBeGreaterThan(0);
+    const first = parsed[0]!;
+    expect(first.hand.tournamentId).toBe('3974762738');
+    expect(first.hand.bigBlind).toBe(15);
+    expect(first.hand.smallBlind).toBe(0);
+    
+    // Check that ante action exists
+    const anteAction = first.actions.find(a => a.actionType === 'post_ante');
+    expect(anteAction).toBeDefined();
+    expect(anteAction!.amount).toBe(15);
+
+    // Check that button blind BB posting exists
+    const bbAction = first.actions.find(a => a.actionType === 'post_bb');
+    expect(bbAction).toBeDefined();
+    expect(bbAction!.amount).toBe(15);
+  });
+
+  it('parses play money cash game fixture successfully', () => {
+    const raw = readUtf8(join(HH_DIR, 'HH20260217 NLHE 100-200 6 Max - 100-200 - Dinheiro Fictício No Limit Hold\'em.txt'));
+    const parsed = parsePokerStarsFile(raw);
+    expect(parsed.length).toBeGreaterThan(0);
+    const first = parsed[0]!;
+    expect(first.hand.bigBlind).toBe(200);
+    expect(first.hand.smallBlind).toBe(100);
+    expect(first.tournament.currency).toBe('PLAY');
+  });
+});

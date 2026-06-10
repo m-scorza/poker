@@ -26,6 +26,8 @@ export interface Leak {
   deviation: number;
   /** Number of hands in the sample */
   sampleSize: number;
+  /** Confidence level based on sample size */
+  confidence: 'low' | 'medium' | 'high';
 }
 
 export interface AggregateStats {
@@ -196,6 +198,19 @@ function computeSeverity(value: number, min: number, max: number): LeakSeverity 
   return 'critical';
 }
 
+export function calculateLeakConfidence(leakId: string, sampleSize: number): 'low' | 'medium' | 'high' {
+  const isPreflopGeneral = ['vpip', 'pfr', 'limps', 'vpip_pfr_gap'].includes(leakId);
+  if (isPreflopGeneral) {
+    if (sampleSize < 30) return 'low';
+    if (sampleSize < 100) return 'medium';
+    return 'high';
+  } else {
+    if (sampleSize < 10) return 'low';
+    if (sampleSize < 30) return 'medium';
+    return 'high';
+  }
+}
+
 /**
  * Detect leaks from aggregate stats using profile-specific thresholds.
  */
@@ -204,7 +219,7 @@ export function detectLeaks(
   profile: StrategyProfile = 'game_plan',
 ): Leak[] {
   const thresholds = getThresholds(profile);
-  const leaks: Leak[] = [];
+  const leaks: Omit<Leak, 'confidence'>[] = [];
 
   const vpip = pct(stats.vpipHands, stats.totalHands);
   const pfr = pct(stats.pfrHands, stats.totalHands);
@@ -442,7 +457,13 @@ export function detectLeaks(
     medium: 2,
     low: 3,
   };
-  leaks.sort((a, b) => severityOrder[a.severity] - severityOrder[b.severity]);
 
-  return leaks;
+  const leaksWithConfidence = leaks.map(leak => ({
+    ...leak,
+    confidence: calculateLeakConfidence(leak.id, leak.sampleSize)
+  })) as Leak[];
+
+  leaksWithConfidence.sort((a, b) => severityOrder[a.severity] - severityOrder[b.severity]);
+
+  return leaksWithConfidence;
 }

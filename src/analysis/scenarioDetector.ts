@@ -78,13 +78,13 @@ function findPrimaryVillain(
 }
 
 function inferBountyTournamentType(parsedHand: ParsedHand): ReturnType<typeof detectBountyTournament> {
-  const { tournament } = parsedHand;
+  const { tournament, hand } = parsedHand;
   const label = [tournament.name, tournament.category, tournament.format]
     .filter(Boolean)
     .join(' ');
   const detected = detectBountyTournament(label, tournament.buyIn ?? 0);
   if (detected !== 'regular') return detected;
-  return (tournament.bounty ?? 0) > 0 ? 'knockout' : 'regular';
+  return (hand.bountyCollected ?? 0) > 0 ? 'knockout' : 'regular';
 }
 
 /**

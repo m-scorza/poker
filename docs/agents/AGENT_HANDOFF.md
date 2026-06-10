@@ -7,37 +7,30 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
-## 2026-06-06 - Parser confidence ledger
+## 2026-06-07 - Leak Confidence, Branding Neutralization, and Variant Fixtures
 
-- Owner / agent:          Codex
+- Owner / agent:          Antigravity
 - Branch:                 codex/parser-confidence-ledger
-- Scope:                  Turn retained local import diagnostics into an explicit parser confidence ledger that downstream analysis and support exports can trust.
+- Scope:                  Leak confidence computation, brand comment neutralization, and specialized variant fixtures (Zoom/Cap/6+/Play-Money).
 - Files touched:
-  - `src/data/importRuns.ts` - adds import warning categorization, confidence ledger derivation, ledger-backed data health, and a ledger section in diagnostics Markdown.
-  - `src/data/__tests__/importRuns.test.ts` - covers warning categories, ledger aggregation, empty posture, data-health linkage, and diagnostics export output.
-  - `src/components/hands/HandsUpload.tsx` - shows parsed-file rate, high/medium/low run mix, and top parser warning categories in the Data Health card.
-  - `docs/product/DATA_MODEL_AND_PRIVACY.md`, `docs/product/PARSER_HEALTH.md`, and `docs/product/STATUS.md` - document the local aggregate ledger and shipped parser-confidence behavior.
-  - `docs/agents/archive/AGENT_HANDOFF_ARCHIVE_2026_06.md` - archives the previous active handoff entry to keep this baton compact.
+  - `src/analysis/leakDetector.ts` - adds `confidence` to `Leak` interface and `detectLeaks` calculation.
+  - `src/analysis/rangeChecker.ts`, `src/data/ranges.ts`, `src/data/strategyProfiles.ts` - neutralizes comments containing "Reg Life" or "Plano de Jogo" references.
+  - `src/parser/pokerstars.ts` - adds button blind parsing for 6+ Hold'em and play money cash game stakes fallback.
+  - `src/parser/__tests__/fixtureSweep.test.ts` - adds specialized variant fixture checks.
 - Summary:
-  - Retained import runs now derive an `ImportConfidenceLedger` with ready/directional/blocked posture, latest confidence, parsed-file rate, saved record totals, high/medium/low run counts, and grouped parser warning categories with sanitized examples.
-  - Diagnostics Markdown now includes an "Import Confidence Ledger" section before per-run details, so support/debug reports explain why analysis should be trusted, treated as directional, or reviewed.
-  - Hands upload Data Health now exposes the same ledger summary locally without adding telemetry, raw hand export, network upload, or solver claims.
+  - Added confidence logic to the leak detector to compute Low/Medium/High confidence based on sample size thresholds (e.g. Low if < 30 hands for preflop, or < 10 opportunities for postflop/3-bet).
+  - Purged remaining comments mentioning "Reg Life" or "Plano de Jogo" from strategy/ranges files.
+  - Implemented button blind parsing and play money cash game stakes parsing fallbacks in the parser.
+  - Added dedicated test sweeps verifying correct parsing of Zoom, Cap, 6+ Hold'em, and play-money fixtures.
 - Verification:
-  - `npx.cmd vitest run src\data\__tests__\importRuns.test.ts` - passed, 19 tests.
-  - `npx.cmd tsc -b --pretty false` - passed.
-  - `npm.cmd run typecheck:test` - passed.
-  - `npm.cmd run privacy:check` - passed.
-  - `npm.cmd run docs:update` - updated `docs/product/STATUS.md`.
-  - `npm.cmd run docs:check` - passed.
-  - `npm.cmd run build` - passed.
-  - `npx.cmd vitest run --reporter=dot` - passed, 63 files / 681 tests.
-  - `git diff --check` - passed.
+  - `npm test` - passed, 693 tests.
+  - `npx tsc -b --pretty false` - passed.
+  - `npm run docs:update` and `npm run docs:check` - passed.
+  - `npm run build` - passed.
 - Risks / assumptions:
-  - Warning categories are deterministic string buckets for support triage. They are not a full parser root-cause classifier.
-  - The ledger summarizes retained local import history; it does not prove fixture coverage beyond the committed parser sweep.
-  - This stacked branch still inherits historical third-party wording from its base. This slice did not add new references and neutralized the touched parser-health line.
+  - Play money detection relies on the absence of cash symbols in cash blinds headers (e.g. `(100/200)`).
 - Next action requested:
-  - Review this stacked branch after the local privacy guard branch. The next research-derived slice can be native-format fixture sourcing or a shareable-local support package preview that still stays offline/local-first.
+  - Verify the engine outputs and proceed with validation loops.
 
 ## Template
 
