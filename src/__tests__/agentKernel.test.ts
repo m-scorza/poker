@@ -8,8 +8,20 @@ const kernelPath = resolve(process.cwd(), 'scripts/agent-kernel.cjs');
 
 const tempRepos: string[] = [];
 
+// Ignore the host's global/system git config (e.g. forced commit signing)
+// so temp-repo commits behave the same on every machine.
+const gitEnv = {
+  ...process.env,
+  GIT_CONFIG_GLOBAL: '/dev/null',
+  GIT_CONFIG_SYSTEM: '/dev/null',
+  GIT_AUTHOR_NAME: 'Kernel Test',
+  GIT_AUTHOR_EMAIL: 'kernel@example.test',
+  GIT_COMMITTER_NAME: 'Kernel Test',
+  GIT_COMMITTER_EMAIL: 'kernel@example.test',
+};
+
 function runGit(repo: string, args: string[]) {
-  execFileSync('git', args, { cwd: repo, stdio: 'pipe' });
+  execFileSync('git', args, { cwd: repo, stdio: 'pipe', env: gitEnv });
 }
 
 function write(repo: string, file: string, contents: string) {
@@ -104,6 +116,7 @@ function runKernel(repo: string, args: string[]) {
   return spawnSync(process.execPath, [kernelPath, ...args], {
     cwd: repo,
     encoding: 'utf8',
+    env: gitEnv,
   });
 }
 
