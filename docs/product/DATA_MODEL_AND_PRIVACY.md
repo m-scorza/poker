@@ -14,6 +14,14 @@ This document is intentionally backend/engine-facing. It does not commit the pro
 - Any contribution/export flow must sanitize first, then optionally encrypt/package. Network upload is out of scope until consent, retention, deletion, and encryption rules are documented.
 - Reversible pseudonym maps are local-only. Shared artifacts should be irreversible enough that the project cannot reconstruct real screen names from them.
 
+## Static privacy guard
+
+Run `npm run privacy:check` before merging runtime changes that might affect data movement.
+
+The guard fails on unreviewed browser network APIs, remote runtime asset URLs, native share APIs, and known telemetry/cloud/payment/remote-AI SDK dependencies. This protects the current private/local posture from accidental drift.
+
+This is not a permanent ban on future cloud, support-export, solver API, or opt-in analytics work. A future intentional feature must update the privacy design, add explicit opt-in UX, and add a narrow allowlist entry in `scripts/privacy-boundary-check.ts` for the exact file and pattern being introduced.
+
 ---
 
 ## Data classes

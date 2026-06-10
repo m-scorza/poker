@@ -37,7 +37,13 @@ npx --no-install tsx scripts/regen-status.ts --check || {
   exit 1
 }
 
-# 2. No untracked files under src/ when committing anything in src/.
+# 2. Private/local runtime boundary.
+npx --no-install tsx scripts/privacy-boundary-check.ts || {
+  echo "Privacy boundary check failed. Run: npm run privacy:check"
+  exit 1
+}
+
+# 3. No untracked files under src/ when committing anything in src/.
 #    This is Gemini's recurring failure mode: leaving orphan feature
 #    files outside git.
 if git diff --cached --name-only | grep -q '^src/'; then

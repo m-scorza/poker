@@ -160,6 +160,12 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
     JSON fixtures under `src/test/fixtures/ohh/` covering iPoker object-wrapper
     and 888/Pacific array-wrapper shapes. Native proprietary room text formats
     still require real samples before direct support is claimed.
+24. **Private/local runtime guard** - FIXED 2026-06-06.
+    Runtime external font/texture dependencies were removed, and
+    `npm run privacy:check` now fails on unreviewed network APIs, remote runtime
+    asset URLs, native share APIs, and known telemetry/cloud/payment/remote-AI
+    SDK dependencies unless a future opt-in feature adds an explicit allowlist
+    entry with matching privacy documentation.
 
 ## Open follow-ups
 
@@ -386,12 +392,13 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 62
-**`it` / `test` calls (approximate):** 645
+**Test files:** 63
+**`it` / `test` calls (approximate):** 649
 
 ```
 src/__tests__/App.test.tsx
 src/__tests__/agentKernel.test.ts
+src/__tests__/privacyBoundaryCheck.test.ts
 src/analysis/__tests__/bountyAnalyzer.test.ts
 src/analysis/__tests__/careerCoach.test.ts
 src/analysis/__tests__/careerScope.test.ts

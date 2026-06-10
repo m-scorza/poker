@@ -218,7 +218,7 @@ export function ArenaPage() {
             {/* Table Surface */}
             <div className="absolute inset-0 bg-[#161b26] rounded-[180px] border-[12px] border-[#2a3142] shadow-[0_40px_100px_rgba(0,0,0,0.6),inset_0_0_80px_rgba(0,0,0,0.4)] overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent" />
-                <div className="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/pinstripe.png')]" />
+                <div className="absolute inset-0 opacity-5 bg-[repeating-linear-gradient(45deg,rgba(255,255,255,0.45)_0_1px,transparent_1px_8px)]" />
             </div>
 
             {/* Dealer Chip / Position Indicator */}
