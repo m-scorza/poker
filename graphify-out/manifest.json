@@ -1,0 +1,2462 @@
+{
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.claude\\settings.json": {
+    "mtime": 1780179574.2314553,
+    "ast_hash": "4704c8c682a1dfd71f2159c48818578a",
+    "semantic_hash": "4704c8c682a1dfd71f2159c48818578a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\eslint.config.js": {
+    "mtime": 1780175622.2402544,
+    "ast_hash": "4261c2b9898fb038460227913868afd5",
+    "semantic_hash": "4261c2b9898fb038460227913868afd5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\package.json": {
+    "mtime": 1781104160.9510548,
+    "ast_hash": "26a484bbcc17deca5c512a84ecc139b4",
+    "semantic_hash": "26a484bbcc17deca5c512a84ecc139b4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\hygiene-scanner.ts": {
+    "mtime": 1780175622.2462542,
+    "ast_hash": "3f6f1df4e72c40bc001271c04aaa17eb",
+    "semantic_hash": "3f6f1df4e72c40bc001271c04aaa17eb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\install-hooks.js": {
+    "mtime": 1781104160.9550557,
+    "ast_hash": "78f9375165ceb8f602797533b80c2911",
+    "semantic_hash": "78f9375165ceb8f602797533b80c2911"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\privacy-boundary-check.ts": {
+    "mtime": 1781104160.9560552,
+    "ast_hash": "3a5397e6468b0d5853f574ed47aca038",
+    "semantic_hash": "3a5397e6468b0d5853f574ed47aca038"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\regen-status.ts": {
+    "mtime": 1780175622.248259,
+    "ast_hash": "34b5a11e3837df0dc9b8f236f700a38e",
+    "semantic_hash": "34b5a11e3837df0dc9b8f236f700a38e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\scratch.ts": {
+    "mtime": 1780175622.248259,
+    "ast_hash": "0b5f53184e005a1172353508dca9652a",
+    "semantic_hash": "0b5f53184e005a1172353508dca9652a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\stress-test-parser.ts": {
+    "mtime": 1780175622.249253,
+    "ast_hash": "b2d3ff0141a0e6c5ae88b4a043f54849",
+    "semantic_hash": "b2d3ff0141a0e6c5ae88b4a043f54849"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\test-odds.mjs": {
+    "mtime": 1780175622.250252,
+    "ast_hash": "7c358ff14b45711eaaa806cadec47a20",
+    "semantic_hash": "7c358ff14b45711eaaa806cadec47a20"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\App.tsx": {
+    "mtime": 1780175622.2512536,
+    "ast_hash": "1a37e5bbddc05cfcc3edec545f5a117b",
+    "semantic_hash": "1a37e5bbddc05cfcc3edec545f5a117b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\__tests__\\App.test.tsx": {
+    "mtime": 1780175622.2522528,
+    "ast_hash": "c0a12d6914555d9ef464601f966d9a9e",
+    "semantic_hash": "c0a12d6914555d9ef464601f966d9a9e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\__tests__\\agentKernel.test.ts": {
+    "mtime": 1780747950.3485186,
+    "ast_hash": "0f7d8a8cf60e31f162e55c95afbce005",
+    "semantic_hash": "0f7d8a8cf60e31f162e55c95afbce005"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\__tests__\\privacyBoundaryCheck.test.ts": {
+    "mtime": 1781104160.9570582,
+    "ast_hash": "c3631b66fc20a5255c8a12a375908200",
+    "semantic_hash": "c3631b66fc20a5255c8a12a375908200"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\bountyAnalyzer.test.ts": {
+    "mtime": 1780175622.2542636,
+    "ast_hash": "5fb65be359e77805132ca082fe4012d1",
+    "semantic_hash": "5fb65be359e77805132ca082fe4012d1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\careerCoach.test.ts": {
+    "mtime": 1780175622.2552545,
+    "ast_hash": "a3146cee4d357a2e4868665d83ab699f",
+    "semantic_hash": "a3146cee4d357a2e4868665d83ab699f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\careerScope.test.ts": {
+    "mtime": 1780175622.2572544,
+    "ast_hash": "0505d0061693b1a1d50035968b7287da",
+    "semantic_hash": "0505d0061693b1a1d50035968b7287da"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\careerStats.test.ts": {
+    "mtime": 1780175622.2572544,
+    "ast_hash": "73391545c18c54f759e4291e60542458",
+    "semantic_hash": "73391545c18c54f759e4291e60542458"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\finalTableAnalyzer.test.ts": {
+    "mtime": 1780175622.2582552,
+    "ast_hash": "6b02e14cd7328a849e97472e2798d1e5",
+    "semantic_hash": "6b02e14cd7328a849e97472e2798d1e5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\financials.test.ts": {
+    "mtime": 1780175622.2582552,
+    "ast_hash": "31627719ad751d92199343421b5b6dc1",
+    "semantic_hash": "31627719ad751d92199343421b5b6dc1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\headsUpPushFoldReference.test.ts": {
+    "mtime": 1780175622.260254,
+    "ast_hash": "ad93674b062103e0d23231ea76b28eb3",
+    "semantic_hash": "ad93674b062103e0d23231ea76b28eb3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\icmDetector.test.ts": {
+    "mtime": 1780175622.2612545,
+    "ast_hash": "df3d3b4be6000d17d3c49c923e795fb0",
+    "semantic_hash": "df3d3b4be6000d17d3c49c923e795fb0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\leakDetector.test.ts": {
+    "mtime": 1780175622.2612545,
+    "ast_hash": "fdeee48ea33348550603f6847a13d052",
+    "semantic_hash": "fdeee48ea33348550603f6847a13d052"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\math.test.ts": {
+    "mtime": 1780175622.2622533,
+    "ast_hash": "9028e46e79689d246e27ce73dcef5951",
+    "semantic_hash": "9028e46e79689d246e27ce73dcef5951"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\positionStats.test.ts": {
+    "mtime": 1780175622.2622533,
+    "ast_hash": "99ac9ab23c72b16edb9393c3849311cd",
+    "semantic_hash": "99ac9ab23c72b16edb9393c3849311cd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\postflopAnalyzer.test.ts": {
+    "mtime": 1780407245.2115734,
+    "ast_hash": "c5d2c95e73b2f2db600a2398f0c6270d",
+    "semantic_hash": "c5d2c95e73b2f2db600a2398f0c6270d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\proofHandSelector.test.ts": {
+    "mtime": 1780278774.2208834,
+    "ast_hash": "d920b118c85b16493d1e71a1ff2fb9f7",
+    "semantic_hash": "d920b118c85b16493d1e71a1ff2fb9f7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\pushFoldChecker.test.ts": {
+    "mtime": 1780175622.2637775,
+    "ast_hash": "dd341447d30d456ce8949704ada8837e",
+    "semantic_hash": "dd341447d30d456ce8949704ada8837e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\rangeChecker.test.ts": {
+    "mtime": 1780396586.9493904,
+    "ast_hash": "8a0516d58079796e52245c2bddde11dc",
+    "semantic_hash": "8a0516d58079796e52245c2bddde11dc"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\rangeValidator.test.ts": {
+    "mtime": 1781125415.4109335,
+    "ast_hash": "f248054d09dddd6f1c858f42b82514de",
+    "semantic_hash": "f248054d09dddd6f1c858f42b82514de"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\scenarioDetector.test.ts": {
+    "mtime": 1780277839.433794,
+    "ast_hash": "b19423f9f4f4909baace30f02e440d5c",
+    "semantic_hash": "b19423f9f4f4909baace30f02e440d5c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\solverAdapter.test.ts": {
+    "mtime": 1780175622.2667716,
+    "ast_hash": "ecf15417acacb367a86a3017f978a121",
+    "semantic_hash": "ecf15417acacb367a86a3017f978a121"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\solverSpotBuilder.test.ts": {
+    "mtime": 1780175622.2677696,
+    "ast_hash": "7d4190a0e5d0dc329e790197b2f66e88",
+    "semantic_hash": "7d4190a0e5d0dc329e790197b2f66e88"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\squeezeDetector.test.ts": {
+    "mtime": 1780175622.2687693,
+    "ast_hash": "7ebf1299871ac29abb776311024708fc",
+    "semantic_hash": "7ebf1299871ac29abb776311024708fc"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\studyPlan.test.ts": {
+    "mtime": 1781103952.5769763,
+    "ast_hash": "6516411b27a859dfb99d2fe157a925c8",
+    "semantic_hash": "6516411b27a859dfb99d2fe157a925c8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\villainClassifier.test.ts": {
+    "mtime": 1780175622.2687693,
+    "ast_hash": "702f916d2ea3e8ef076651476bd0be1a",
+    "semantic_hash": "702f916d2ea3e8ef076651476bd0be1a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\__tests__\\villainExploitCrossRef.test.ts": {
+    "mtime": 1780175622.2697694,
+    "ast_hash": "c5e217a7af020796079db66ee9cf5f8a",
+    "semantic_hash": "c5e217a7af020796079db66ee9cf5f8a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\bountyAnalyzer.ts": {
+    "mtime": 1780175622.2707863,
+    "ast_hash": "35303de746ed311534364ec825b67a36",
+    "semantic_hash": "35303de746ed311534364ec825b67a36"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\careerCoach.ts": {
+    "mtime": 1780175622.2717705,
+    "ast_hash": "98efcce2949dddf2d0aeacc11729304b",
+    "semantic_hash": "98efcce2949dddf2d0aeacc11729304b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\careerScope.ts": {
+    "mtime": 1780175622.2737796,
+    "ast_hash": "9f496f5e75e7c0f5283c9791b082632d",
+    "semantic_hash": "9f496f5e75e7c0f5283c9791b082632d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\careerStats.ts": {
+    "mtime": 1780175622.2737796,
+    "ast_hash": "4884a0a487a5be6f771521cc17e35d16",
+    "semantic_hash": "4884a0a487a5be6f771521cc17e35d16"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\finalTableAnalyzer.ts": {
+    "mtime": 1780175622.2747707,
+    "ast_hash": "5d06568fa2ea5697d621232cf8178fdb",
+    "semantic_hash": "5d06568fa2ea5697d621232cf8178fdb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\financials.ts": {
+    "mtime": 1780175622.2757697,
+    "ast_hash": "5bb4c908f8af064d8efae381c2e2f377",
+    "semantic_hash": "5bb4c908f8af064d8efae381c2e2f377"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\headsUpPushFoldReference.ts": {
+    "mtime": 1780175622.2757697,
+    "ast_hash": "6b8fdf448c49dd02c35f995507237c03",
+    "semantic_hash": "6b8fdf448c49dd02c35f995507237c03"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\icmDetector.ts": {
+    "mtime": 1780175622.2757697,
+    "ast_hash": "419a91f04f45ae88626e59f2b567005a",
+    "semantic_hash": "419a91f04f45ae88626e59f2b567005a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\leakDetector.ts": {
+    "mtime": 1781125415.4139333,
+    "ast_hash": "d4811dbc9211656c08c021db53c752d7",
+    "semantic_hash": "d4811dbc9211656c08c021db53c752d7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\math.ts": {
+    "mtime": 1780175622.277769,
+    "ast_hash": "55f3cae2f16a155ef3e22b23979c73f3",
+    "semantic_hash": "55f3cae2f16a155ef3e22b23979c73f3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\positionStats.ts": {
+    "mtime": 1780175622.277769,
+    "ast_hash": "90b5881d3330ac79f72dc1896c51b776",
+    "semantic_hash": "90b5881d3330ac79f72dc1896c51b776"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\postflopAnalyzer.ts": {
+    "mtime": 1780407245.2125776,
+    "ast_hash": "524a61b51f6555ef0fabe808ab1b93ba",
+    "semantic_hash": "524a61b51f6555ef0fabe808ab1b93ba"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\proofHandSelector.ts": {
+    "mtime": 1780175622.2787695,
+    "ast_hash": "55daf698c44d353a5ac1e164d18622ab",
+    "semantic_hash": "55daf698c44d353a5ac1e164d18622ab"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\pushFoldChecker.ts": {
+    "mtime": 1780175622.2787695,
+    "ast_hash": "b413ac6e2b8dfb43066c354bd0860c5f",
+    "semantic_hash": "b413ac6e2b8dfb43066c354bd0860c5f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\rangeChecker.ts": {
+    "mtime": 1781125415.4159303,
+    "ast_hash": "6302dc8111d5d4a415a7056c0c8a1a12",
+    "semantic_hash": "6302dc8111d5d4a415a7056c0c8a1a12"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\rangeValidator.ts": {
+    "mtime": 1781125415.4179342,
+    "ast_hash": "233f8d28e14a4b89e68cc2f32a2e7f1f",
+    "semantic_hash": "233f8d28e14a4b89e68cc2f32a2e7f1f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\scenarioDetector.ts": {
+    "mtime": 1781125415.4209342,
+    "ast_hash": "e0c193391792498c5c401f004a63a3ed",
+    "semantic_hash": "e0c193391792498c5c401f004a63a3ed"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\solverAdapter.ts": {
+    "mtime": 1780175622.281772,
+    "ast_hash": "d1052c0e05ecf14f991bfec01ebc7e79",
+    "semantic_hash": "d1052c0e05ecf14f991bfec01ebc7e79"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\squeezeDetector.ts": {
+    "mtime": 1780175622.282309,
+    "ast_hash": "afc49b7be0741790321821177bdf9146",
+    "semantic_hash": "afc49b7be0741790321821177bdf9146"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\studyPlan.ts": {
+    "mtime": 1781103952.5775034,
+    "ast_hash": "abb5f2fc5b07e9fcc1e16b7fa8e43f2a",
+    "semantic_hash": "abb5f2fc5b07e9fcc1e16b7fa8e43f2a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\villainClassifier.ts": {
+    "mtime": 1780175622.2832973,
+    "ast_hash": "9295af7227cfc5dfad5b7fac2aa17f20",
+    "semantic_hash": "9295af7227cfc5dfad5b7fac2aa17f20"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\analysis\\villainExploitCrossRef.ts": {
+    "mtime": 1780175622.2842941,
+    "ast_hash": "7890a5602fc44ff9f97aa1cff9f7874a",
+    "semantic_hash": "7890a5602fc44ff9f97aa1cff9f7874a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\BustOutChart.tsx": {
+    "mtime": 1780175622.2863045,
+    "ast_hash": "61b44ad5d628414cf3a25a5b145f7ee5",
+    "semantic_hash": "61b44ad5d628414cf3a25a5b145f7ee5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\CareerCoachCard.tsx": {
+    "mtime": 1780175622.287297,
+    "ast_hash": "6583ae9ba1e5e737570494382c45ec0c",
+    "semantic_hash": "6583ae9ba1e5e737570494382c45ec0c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\CareerDashboard.tsx": {
+    "mtime": 1780175622.288294,
+    "ast_hash": "3804a6d3154f7e8a4f1685a3c417ec61",
+    "semantic_hash": "3804a6d3154f7e8a4f1685a3c417ec61"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\CareerScopePanel.tsx": {
+    "mtime": 1780175622.2892983,
+    "ast_hash": "bbbb2d93643d5169a8d37ec6ea51bad7",
+    "semantic_hash": "bbbb2d93643d5169a8d37ec6ea51bad7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\CareerStreaksCard.tsx": {
+    "mtime": 1780175622.2902968,
+    "ast_hash": "ca6426a3a6a69177a9aa9236af4e8a7f",
+    "semantic_hash": "ca6426a3a6a69177a9aa9236af4e8a7f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\DayHourHeatmap.tsx": {
+    "mtime": 1780175622.2912936,
+    "ast_hash": "fdbbf1764db3074d43478132fa04e1e9",
+    "semantic_hash": "fdbbf1764db3074d43478132fa04e1e9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\FormatBreakdownTable.tsx": {
+    "mtime": 1780175622.2912936,
+    "ast_hash": "aef84a33ad334084c8b0d3ff011229e7",
+    "semantic_hash": "aef84a33ad334084c8b0d3ff011229e7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\LifetimeScorecard.tsx": {
+    "mtime": 1780175622.2912936,
+    "ast_hash": "e0f21efbaa1ae5561eee388826de9ee9",
+    "semantic_hash": "e0f21efbaa1ae5561eee388826de9ee9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\StakeTrendChart.tsx": {
+    "mtime": 1780175622.2922955,
+    "ast_hash": "33ceb3ddbf5a74b49e16be1ffed8d88e",
+    "semantic_hash": "33ceb3ddbf5a74b49e16be1ffed8d88e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\TimelineFeed.tsx": {
+    "mtime": 1780175622.2922955,
+    "ast_hash": "f09c1883f9752e4ba4b2be7c310e1cff",
+    "semantic_hash": "f09c1883f9752e4ba4b2be7c310e1cff"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\__tests__\\CareerStreaksCard.test.tsx": {
+    "mtime": 1780175622.2932975,
+    "ast_hash": "909fbedbe303c60fcb6f98b9b38d9074",
+    "semantic_hash": "909fbedbe303c60fcb6f98b9b38d9074"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\__tests__\\FormatBreakdownTable.test.tsx": {
+    "mtime": 1780175622.2932975,
+    "ast_hash": "cfea3c66a16252199a590c3a85f0c3f0",
+    "semantic_hash": "cfea3c66a16252199a590c3a85f0c3f0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\career\\__tests__\\LifetimeScorecard.test.tsx": {
+    "mtime": 1780278774.247878,
+    "ast_hash": "d5ce2ce66b8b38d9112811f8948c936f",
+    "semantic_hash": "d5ce2ce66b8b38d9112811f8948c936f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\dashboard\\StudyPlanCard.tsx": {
+    "mtime": 1781103952.579497,
+    "ast_hash": "508c685abb7b58c86959a0dcf1082f20",
+    "semantic_hash": "508c685abb7b58c86959a0dcf1082f20"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\dashboard\\TrendChart.tsx": {
+    "mtime": 1780175622.2952952,
+    "ast_hash": "f8817f26304a21af09e67ac1703f13e7",
+    "semantic_hash": "f8817f26304a21af09e67ac1703f13e7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\dashboard\\ValueSnapshotCard.tsx": {
+    "mtime": 1780175622.2952952,
+    "ast_hash": "649c6ca6662ae8fbde841d0317bc0db2",
+    "semantic_hash": "649c6ca6662ae8fbde841d0317bc0db2"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\dashboard\\__tests__\\TrendChart.test.tsx": {
+    "mtime": 1780356304.5618367,
+    "ast_hash": "1b24db959c8ddccc9db7a89cf12bcbea",
+    "semantic_hash": "1b24db959c8ddccc9db7a89cf12bcbea"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\hands\\HandReplay.tsx": {
+    "mtime": 1780408078.5555222,
+    "ast_hash": "07c43f8a1f6d22632c827c785b41fa25",
+    "semantic_hash": "07c43f8a1f6d22632c827c785b41fa25"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\hands\\HandsFilters.tsx": {
+    "mtime": 1780175622.2972972,
+    "ast_hash": "c6955db55a40ca88bbcd0e0d48ea592e",
+    "semantic_hash": "c6955db55a40ca88bbcd0e0d48ea592e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\hands\\HandsTable.tsx": {
+    "mtime": 1780175622.298298,
+    "ast_hash": "d551a26198b17a50d6a1e1aff8c1d1bc",
+    "semantic_hash": "d551a26198b17a50d6a1e1aff8c1d1bc"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\hands\\HandsUpload.tsx": {
+    "mtime": 1781125415.4244535,
+    "ast_hash": "537be996db4b120688c18e2696b4012b",
+    "semantic_hash": "537be996db4b120688c18e2696b4012b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\hands\\__tests__\\HandReplay.test.tsx": {
+    "mtime": 1780408078.55652,
+    "ast_hash": "775950494fde6c6cae7b15c247c326a9",
+    "semantic_hash": "775950494fde6c6cae7b15c247c326a9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\layout\\ErrorBoundary.tsx": {
+    "mtime": 1780175622.3012946,
+    "ast_hash": "f39e378919577031762da18706ef5635",
+    "semantic_hash": "f39e378919577031762da18706ef5635"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\layout\\Layout.tsx": {
+    "mtime": 1780175622.3012946,
+    "ast_hash": "8d18939a58ae6c8c79017b47eddadd37",
+    "semantic_hash": "8d18939a58ae6c8c79017b47eddadd37"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\layout\\Sidebar.tsx": {
+    "mtime": 1780175622.3022966,
+    "ast_hash": "9df2963eab949e278490330306126178",
+    "semantic_hash": "9df2963eab949e278490330306126178"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\Card.tsx": {
+    "mtime": 1780175622.3052976,
+    "ast_hash": "a27b90354848b83a53794b09e48e9b0e",
+    "semantic_hash": "a27b90354848b83a53794b09e48e9b0e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\ConfirmDialog.tsx": {
+    "mtime": 1780175622.3072948,
+    "ast_hash": "9dbc259c76a8a5c48c595e524133f610",
+    "semantic_hash": "9dbc259c76a8a5c48c595e524133f610"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\DemoDataButton.tsx": {
+    "mtime": 1780175622.3082962,
+    "ast_hash": "e3355bcf6e72250746e7f93f7f4e3d9b",
+    "semantic_hash": "e3355bcf6e72250746e7f93f7f4e3d9b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\DualRangeMatrix.tsx": {
+    "mtime": 1780175622.309296,
+    "ast_hash": "6f038cebc7de3f1f34d94929f873e5e9",
+    "semantic_hash": "6f038cebc7de3f1f34d94929f873e5e9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\InfoTooltip.tsx": {
+    "mtime": 1780175622.3102963,
+    "ast_hash": "5507ccbadb88113adaf7de9e97d3ec0c",
+    "semantic_hash": "5507ccbadb88113adaf7de9e97d3ec0c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\RangeGrid.tsx": {
+    "mtime": 1780175622.3112938,
+    "ast_hash": "02b829e9a4c3bfde5509f840397e039a",
+    "semantic_hash": "02b829e9a4c3bfde5509f840397e039a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\StatCard.tsx": {
+    "mtime": 1780175622.3112938,
+    "ast_hash": "dfd74264274da2fdca6c539531f0771a",
+    "semantic_hash": "dfd74264274da2fdca6c539531f0771a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\__tests__\\Card.test.tsx": {
+    "mtime": 1780175622.3122945,
+    "ast_hash": "6c92a5f3ec98d4604518d29b1804c483",
+    "semantic_hash": "6c92a5f3ec98d4604518d29b1804c483"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\__tests__\\ConfirmDialog.test.tsx": {
+    "mtime": 1780175622.313295,
+    "ast_hash": "9850964a99342548dd380f731168a8d0",
+    "semantic_hash": "9850964a99342548dd380f731168a8d0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\__tests__\\DualRangeMatrix.test.tsx": {
+    "mtime": 1780356304.5648365,
+    "ast_hash": "92222fda82971b0b8944c6e0b0eb1c1e",
+    "semantic_hash": "92222fda82971b0b8944c6e0b0eb1c1e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\__tests__\\InfoTooltip.test.tsx": {
+    "mtime": 1780175622.3138201,
+    "ast_hash": "864dc4d15529e8b31d7dcab776ff7c62",
+    "semantic_hash": "864dc4d15529e8b31d7dcab776ff7c62"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\__tests__\\RangeGrid.test.tsx": {
+    "mtime": 1780175622.3148165,
+    "ast_hash": "4d2a3ba2efe3bd632cc710a491716727",
+    "semantic_hash": "4d2a3ba2efe3bd632cc710a491716727"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\components\\shared\\__tests__\\StatCard.test.tsx": {
+    "mtime": 1780175622.3158157,
+    "ast_hash": "9842289ac5ecf69b783cf396c5ce864c",
+    "semantic_hash": "9842289ac5ecf69b783cf396c5ce864c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\demoDataset.test.ts": {
+    "mtime": 1780175622.3168142,
+    "ast_hash": "676aefabda561f4fb779fe3dfaa8c5b8",
+    "semantic_hash": "676aefabda561f4fb779fe3dfaa8c5b8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\demoSeedProgress.test.ts": {
+    "mtime": 1780278774.2518804,
+    "ast_hash": "f11977c916ebd41918c725465dde051e",
+    "semantic_hash": "f11977c916ebd41918c725465dde051e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\importRuns.test.ts": {
+    "mtime": 1781125415.4264512,
+    "ast_hash": "976087d0028d8e7989488b9b5e7c0019",
+    "semantic_hash": "976087d0028d8e7989488b9b5e7c0019"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\localHeadsUpReferences.test.ts": {
+    "mtime": 1780175622.3188145,
+    "ast_hash": "6c1b9e89e2ebf0c60ba5103f677bc370",
+    "semantic_hash": "6c1b9e89e2ebf0c60ba5103f677bc370"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\localStorage.test.ts": {
+    "mtime": 1780175622.3198173,
+    "ast_hash": "00c95fe7816e69dc364e2f009372d1ea",
+    "semantic_hash": "00c95fe7816e69dc364e2f009372d1ea"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\pushFoldRanges.test.ts": {
+    "mtime": 1780175622.3198173,
+    "ast_hash": "cf9092bc6e5121c9bfd73c96f6945b45",
+    "semantic_hash": "cf9092bc6e5121c9bfd73c96f6945b45"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\ranges.test.ts": {
+    "mtime": 1780666602.6933186,
+    "ast_hash": "583c1725a5ba7d7996217284aedab21c",
+    "semantic_hash": "583c1725a5ba7d7996217284aedab21c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\sessions.test.ts": {
+    "mtime": 1780175622.3218167,
+    "ast_hash": "4b750018ffd2a4f6f87a093d06495cc7",
+    "semantic_hash": "4b750018ffd2a4f6f87a093d06495cc7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\__tests__\\store.test.ts": {
+    "mtime": 1780607259.8338413,
+    "ast_hash": "a56534f6b63923c3acad1adb07afc0a9",
+    "semantic_hash": "a56534f6b63923c3acad1adb07afc0a9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\appStore.ts": {
+    "mtime": 1780175622.3218167,
+    "ast_hash": "be0e6a4c399c4ad24e607835749dbb53",
+    "semantic_hash": "be0e6a4c399c4ad24e607835749dbb53"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\demoDataset.ts": {
+    "mtime": 1780175622.3228147,
+    "ast_hash": "c4e80afcb895a34c52473b47b28b4ce3",
+    "semantic_hash": "c4e80afcb895a34c52473b47b28b4ce3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\demoVillains.ts": {
+    "mtime": 1780175622.3248177,
+    "ast_hash": "6e283162ea7ae0c90b4195663c7e8538",
+    "semantic_hash": "6e283162ea7ae0c90b4195663c7e8538"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\importDiagnosticsPolicy.ts": {
+    "mtime": 1780607259.8348427,
+    "ast_hash": "f02aed70f4bddacdb99e8b002f96fcc8",
+    "semantic_hash": "f02aed70f4bddacdb99e8b002f96fcc8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\importRuns.ts": {
+    "mtime": 1781125415.4294508,
+    "ast_hash": "51e60613abf072c207f6e5dbdaa8c2c4",
+    "semantic_hash": "51e60613abf072c207f6e5dbdaa8c2c4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\localHeadsUpReferences.ts": {
+    "mtime": 1780175622.3268163,
+    "ast_hash": "7501b2b9fdcdb669a2c1af1a6213a12b",
+    "semantic_hash": "7501b2b9fdcdb669a2c1af1a6213a12b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\localStorage.ts": {
+    "mtime": 1780175622.3273697,
+    "ast_hash": "58cbe23884b716d53abc1d787024648b",
+    "semantic_hash": "58cbe23884b716d53abc1d787024648b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\pushFoldRanges.ts": {
+    "mtime": 1780175622.3278158,
+    "ast_hash": "e9d5772a86bd8d5012299a2ca2939e1a",
+    "semantic_hash": "e9d5772a86bd8d5012299a2ca2939e1a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\ranges.ts": {
+    "mtime": 1781125415.4324486,
+    "ast_hash": "d913392c94db68efc9b5095e561a1614",
+    "semantic_hash": "d913392c94db68efc9b5095e561a1614"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\sessions.ts": {
+    "mtime": 1780175622.328813,
+    "ast_hash": "e75fe0cee1cde474730cd0a5249d927f",
+    "semantic_hash": "e75fe0cee1cde474730cd0a5249d927f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\store.ts": {
+    "mtime": 1781125415.4354525,
+    "ast_hash": "304dcc4d51d53b6b348f7f70bd06714f",
+    "semantic_hash": "304dcc4d51d53b6b348f7f70bd06714f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\data\\strategyProfiles.ts": {
+    "mtime": 1781125415.4374506,
+    "ast_hash": "2a864920f7c1b7f789d3a48ab260debe",
+    "semantic_hash": "2a864920f7c1b7f789d3a48ab260debe"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\main.tsx": {
+    "mtime": 1780175622.3308191,
+    "ast_hash": "3505bd2108c5b3bd8ad908ff83b48ace",
+    "semantic_hash": "3505bd2108c5b3bd8ad908ff83b48ace"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\ArenaPage.tsx": {
+    "mtime": 1781104160.9600534,
+    "ast_hash": "914674d954aa87cfc3262ba90c4f598d",
+    "semantic_hash": "914674d954aa87cfc3262ba90c4f598d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\CareerPage.tsx": {
+    "mtime": 1780175622.3348153,
+    "ast_hash": "2d61c04d2e694eaca3257494546d8e39",
+    "semantic_hash": "2d61c04d2e694eaca3257494546d8e39"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\DashboardPage.tsx": {
+    "mtime": 1780175622.335816,
+    "ast_hash": "dac8f31563b078b38e687104dc27d4d3",
+    "semantic_hash": "dac8f31563b078b38e687104dc27d4d3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\DemoPage.tsx": {
+    "mtime": 1780175622.336817,
+    "ast_hash": "c3353411e8f17bfe93dfae1b291ebf54",
+    "semantic_hash": "c3353411e8f17bfe93dfae1b291ebf54"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\HandsPage.tsx": {
+    "mtime": 1780409981.7062294,
+    "ast_hash": "9f93ef8f35a3121b7a7428f158331803",
+    "semantic_hash": "9f93ef8f35a3121b7a7428f158331803"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\LeaksPage.tsx": {
+    "mtime": 1781103952.580498,
+    "ast_hash": "ff686c0ff96ff7baee2460001d1c0b73",
+    "semantic_hash": "ff686c0ff96ff7baee2460001d1c0b73"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\RangesPage.tsx": {
+    "mtime": 1781125415.4404492,
+    "ast_hash": "310d42657cb0c13164e19e9867645054",
+    "semantic_hash": "310d42657cb0c13164e19e9867645054"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\SessionsPage.tsx": {
+    "mtime": 1780175622.3408165,
+    "ast_hash": "92a6b66c237b6d5d56b93f0aea519dc9",
+    "semantic_hash": "92a6b66c237b6d5d56b93f0aea519dc9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\StatsPage.tsx": {
+    "mtime": 1780175622.3418167,
+    "ast_hash": "b6aab12f70f1e8d04a8bedd0115be24a",
+    "semantic_hash": "b6aab12f70f1e8d04a8bedd0115be24a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\VillainsPage.tsx": {
+    "mtime": 1780175622.3418167,
+    "ast_hash": "04faa78ecb140d06c426aa10feb67803",
+    "semantic_hash": "04faa78ecb140d06c426aa10feb67803"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\pages\\__tests__\\HandsPage.test.ts": {
+    "mtime": 1780409981.7072327,
+    "ast_hash": "77490fbacdd2e5777ca71d6b628648e5",
+    "semantic_hash": "77490fbacdd2e5777ca71d6b628648e5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\buyInExtractor.test.ts": {
+    "mtime": 1780175622.3438191,
+    "ast_hash": "44e6caa1628847ebb83ae5c4bf96683d",
+    "semantic_hash": "44e6caa1628847ebb83ae5c4bf96683d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\contributionPackage.test.ts": {
+    "mtime": 1780175622.359815,
+    "ast_hash": "eb082a21e170befdc7a4342f378de459",
+    "semantic_hash": "eb082a21e170befdc7a4342f378de459"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\fixtureSweep.test.ts": {
+    "mtime": 1781125415.4429755,
+    "ast_hash": "f56bd8bf508d6a58138b8d15670e9d57",
+    "semantic_hash": "f56bd8bf508d6a58138b8d15670e9d57"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\ggpoker.test.ts": {
+    "mtime": 1780175622.3828166,
+    "ast_hash": "c5f6eb9a9883674e1e67c3b07c71522e",
+    "semantic_hash": "c5f6eb9a9883674e1e67c3b07c71522e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\ggpoker_robustness.test.ts": {
+    "mtime": 1780175622.3838148,
+    "ast_hash": "b7c988bae23a4c03fdc752176c086ce7",
+    "semantic_hash": "b7c988bae23a4c03fdc752176c086ce7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\handKey.test.ts": {
+    "mtime": 1780175622.3848178,
+    "ast_hash": "5ad6b722a9895b70d00f40728b64b342",
+    "semantic_hash": "5ad6b722a9895b70d00f40728b64b342"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\importSummary.test.ts": {
+    "mtime": 1780175622.3858147,
+    "ast_hash": "7f0413f542f5654f917446d8b96df529",
+    "semantic_hash": "7f0413f542f5654f917446d8b96df529"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\money.test.ts": {
+    "mtime": 1781125415.4449744,
+    "ast_hash": "bc51fde9569a9a7bb669544764f6467f",
+    "semantic_hash": "bc51fde9569a9a7bb669544764f6467f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\openHandHistory.test.ts": {
+    "mtime": 1780175622.3868196,
+    "ast_hash": "adb870fb27562b64355e2dc2b27d925a",
+    "semantic_hash": "adb870fb27562b64355e2dc2b27d925a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\pokerstars.test.ts": {
+    "mtime": 1781125415.4469745,
+    "ast_hash": "941e95c6fa41b899832acd98c107a008",
+    "semantic_hash": "941e95c6fa41b899832acd98c107a008"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\position.test.ts": {
+    "mtime": 1781125415.4499714,
+    "ast_hash": "f91fa2d3eeb6bf5aaafb7da2010802dd",
+    "semantic_hash": "f91fa2d3eeb6bf5aaafb7da2010802dd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\sanitizeHandHistory.test.ts": {
+    "mtime": 1780175622.389817,
+    "ast_hash": "996ac117b25b2ba990f870d27fe967ff",
+    "semantic_hash": "996ac117b25b2ba990f870d27fe967ff"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\siteIdentifier.test.ts": {
+    "mtime": 1780203091.21064,
+    "ast_hash": "f0ce81436606a33352f5ed5d68813119",
+    "semantic_hash": "f0ce81436606a33352f5ed5d68813119"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\uploadSizeGuards.test.ts": {
+    "mtime": 1780175622.390817,
+    "ast_hash": "e259d018fab1cd20008df99385bb642b",
+    "semantic_hash": "e259d018fab1cd20008df99385bb642b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\__tests__\\workerImportSummary.test.ts": {
+    "mtime": 1780175622.3918152,
+    "ast_hash": "ca8fcc49509017b052f54fca2113ed85",
+    "semantic_hash": "ca8fcc49509017b052f54fca2113ed85"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\buyInExtractor.ts": {
+    "mtime": 1781125415.4529734,
+    "ast_hash": "9c80826049e501b14eb18df2789169f8",
+    "semantic_hash": "9c80826049e501b14eb18df2789169f8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\contributionPackage.ts": {
+    "mtime": 1780175622.3928154,
+    "ast_hash": "70de3f5e2b02b61af5bd3076bfef6fc4",
+    "semantic_hash": "70de3f5e2b02b61af5bd3076bfef6fc4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\ggpoker.ts": {
+    "mtime": 1780175622.4099019,
+    "ast_hash": "060201158c6f9d5dccae548a9ec27e70",
+    "semantic_hash": "060201158c6f9d5dccae548a9ec27e70"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\handKey.ts": {
+    "mtime": 1780175622.4099019,
+    "ast_hash": "f2aac8a222a8a2ab2f778865680a54d2",
+    "semantic_hash": "f2aac8a222a8a2ab2f778865680a54d2"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\importSummary.ts": {
+    "mtime": 1780175622.4109035,
+    "ast_hash": "65daedfc146758545519b54f12161c52",
+    "semantic_hash": "65daedfc146758545519b54f12161c52"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\money.ts": {
+    "mtime": 1781125415.4549713,
+    "ast_hash": "39a124a416be068c6949bcdf7f6d83e8",
+    "semantic_hash": "39a124a416be068c6949bcdf7f6d83e8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\openHandHistory.ts": {
+    "mtime": 1780175622.4129038,
+    "ast_hash": "65bb7cd0e725481b925decd5da51bbef",
+    "semantic_hash": "65bb7cd0e725481b925decd5da51bbef"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\pokerstars.ts": {
+    "mtime": 1781125415.4559722,
+    "ast_hash": "37fef3a1bdf55bd3d92d220732e3effa",
+    "semantic_hash": "37fef3a1bdf55bd3d92d220732e3effa"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\position.ts": {
+    "mtime": 1781125415.4579747,
+    "ast_hash": "80231fba530785df716fec7cf286beff",
+    "semantic_hash": "80231fba530785df716fec7cf286beff"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\sanitizeHandHistory.ts": {
+    "mtime": 1780175622.415904,
+    "ast_hash": "e3c17076f0bf823e3fa93ed5075931a5",
+    "semantic_hash": "e3c17076f0bf823e3fa93ed5075931a5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\siteIdentifier.ts": {
+    "mtime": 1780203091.2121556,
+    "ast_hash": "8d2def7df7414193863c8f6711211265",
+    "semantic_hash": "8d2def7df7414193863c8f6711211265"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\tournamentSummary.ts": {
+    "mtime": 1780175622.416903,
+    "ast_hash": "07da0655d1eefb8555e9b89ee974dfef",
+    "semantic_hash": "07da0655d1eefb8555e9b89ee974dfef"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\worker.ts": {
+    "mtime": 1780175622.4179053,
+    "ast_hash": "437416426d581dd0c6464578a33042f9",
+    "semantic_hash": "437416426d581dd0c6464578a33042f9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\parser\\workerProcessor.ts": {
+    "mtime": 1780175622.4179053,
+    "ast_hash": "a445cddba0b2121d4ee535fd2ec11690",
+    "semantic_hash": "a445cddba0b2121d4ee535fd2ec11690"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\ohh\\888-pacific-tournament-array.json": {
+    "mtime": 1780668181.493441,
+    "ast_hash": "2749ed269c2be6bb93603d36e398f50b",
+    "semantic_hash": "2749ed269c2be6bb93603d36e398f50b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\ohh\\ipoker-tournament.json": {
+    "mtime": 1780668181.495441,
+    "ast_hash": "b09df167c06b02e5ecf682c0731de20d",
+    "semantic_hash": "b09df167c06b02e5ecf682c0731de20d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\sample-hands.ts": {
+    "mtime": 1780175622.6504738,
+    "ast_hash": "e2f5a9104a3486a26f89a784a8960022",
+    "semantic_hash": "e2f5a9104a3486a26f89a784a8960022"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\types\\analysis.ts": {
+    "mtime": 1780277840.1971066,
+    "ast_hash": "7c947f05c059a894e2e4d6591b1a2d99",
+    "semantic_hash": "7c947f05c059a894e2e4d6591b1a2d99"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\types\\evidence.ts": {
+    "mtime": 1780175622.6574745,
+    "ast_hash": "2221bd418fde2519018e145794157541",
+    "semantic_hash": "2221bd418fde2519018e145794157541"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\types\\hand.ts": {
+    "mtime": 1781125415.4619727,
+    "ast_hash": "ad417dc0e40471ac4ec7b49204e1a6c1",
+    "semantic_hash": "ad417dc0e40471ac4ec7b49204e1a6c1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\types\\ranges.ts": {
+    "mtime": 1780175622.6604753,
+    "ast_hash": "7f1c16d8d985d9aa397f8ec4fe53851b",
+    "semantic_hash": "7f1c16d8d985d9aa397f8ec4fe53851b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\types\\villain.ts": {
+    "mtime": 1780277840.2011056,
+    "ast_hash": "1ee488826048fd2b98e5815671000bea",
+    "semantic_hash": "1ee488826048fd2b98e5815671000bea"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\utils\\__tests__\\evidence.test.ts": {
+    "mtime": 1781103952.5825033,
+    "ast_hash": "5262956bb919e02ca3a1a4becb36f159",
+    "semantic_hash": "5262956bb919e02ca3a1a4becb36f159"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\utils\\csvExport.ts": {
+    "mtime": 1780175622.6634755,
+    "ast_hash": "ded7aa5145612a89ac23518247ad5c7a",
+    "semantic_hash": "ded7aa5145612a89ac23518247ad5c7a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\utils\\evidence.ts": {
+    "mtime": 1781103952.5835018,
+    "ast_hash": "17a06816833753a640a6d66d67133b28",
+    "semantic_hash": "17a06816833753a640a6d66d67133b28"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\utils\\format.ts": {
+    "mtime": 1780175622.6654744,
+    "ast_hash": "ea6f48fe573fe812dfe7591161e4cafe",
+    "semantic_hash": "ea6f48fe573fe812dfe7591161e4cafe"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\utils\\pdfExport.ts": {
+    "mtime": 1780175622.7350163,
+    "ast_hash": "c81ec9ecd81dcaa06e52e6c8da193077",
+    "semantic_hash": "c81ec9ecd81dcaa06e52e6c8da193077"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\vite-env.d.ts": {
+    "mtime": 1780175622.7350163,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": "0352474ba2918efe13895edbc3780d94"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\tsconfig.json": {
+    "mtime": 1780175622.736001,
+    "ast_hash": "88f6a952f24a23d68976369ec46c4338",
+    "semantic_hash": "88f6a952f24a23d68976369ec46c4338"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\tsconfig.test.json": {
+    "mtime": 1780278774.2528794,
+    "ast_hash": "955f4af0f996ee677718493c00e4ea89",
+    "semantic_hash": "955f4af0f996ee677718493c00e4ea89"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\vite.config.ts": {
+    "mtime": 1780278790.0969534,
+    "ast_hash": "aac61e92e24623c471c4b0c22ec788cb",
+    "semantic_hash": "aac61e92e24623c471c4b0c22ec788cb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.agents\\agents.md": {
+    "mtime": 1780179574.1734574,
+    "ast_hash": "43b95eb39df909dff336e99d6db4c66f",
+    "semantic_hash": "43b95eb39df909dff336e99d6db4c66f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.agents\\skills\\handoff.md": {
+    "mtime": 1780747950.323517,
+    "ast_hash": "5efd01dc396aab0f1d66526450629c79",
+    "semantic_hash": "5efd01dc396aab0f1d66526450629c79"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.agents\\workflows\\council-gated-two-agent-loop.md": {
+    "mtime": 1780179574.1754584,
+    "ast_hash": "6a9900613b0eee7338985915fdd92b6a",
+    "semantic_hash": "6a9900613b0eee7338985915fdd92b6a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.agents\\workflows\\implement-and-handoff.md": {
+    "mtime": 1780747950.325517,
+    "ast_hash": "790f77583c203a421eebbc2ad5c32ec2",
+    "semantic_hash": "790f77583c203a421eebbc2ad5c32ec2"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.agents\\workflows\\review-current-diff.md": {
+    "mtime": 1780179574.2274568,
+    "ast_hash": "3d9b6ead0ef8442dd024eded4ee71837",
+    "semantic_hash": "3d9b6ead0ef8442dd024eded4ee71837"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.claude\\agents\\janitor.md": {
+    "mtime": 1780179574.2304585,
+    "ast_hash": "a3d3b7c399f3c1feb514c2d520c3c361",
+    "semantic_hash": "a3d3b7c399f3c1feb514c2d520c3c361"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.github\\pull_request_template.md": {
+    "mtime": 1780175622.1932528,
+    "ast_hash": "fa7357e9d57cbf67a352423bef6fcb27",
+    "semantic_hash": "fa7357e9d57cbf67a352423bef6fcb27"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.github\\workflows\\ci.yml": {
+    "mtime": 1780175622.1942565,
+    "ast_hash": "e261159d66d125ab45db68ad4e3f9eec",
+    "semantic_hash": "e261159d66d125ab45db68ad4e3f9eec"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\AGENTS.md": {
+    "mtime": 1780747895.214756,
+    "ast_hash": "eea6e6e083b782f9d6507d0d4b904e6c",
+    "semantic_hash": "eea6e6e083b782f9d6507d0d4b904e6c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\AUDIT_NEW.md": {
+    "mtime": 1780175622.1952534,
+    "ast_hash": "9596fbc1771f71a1bbd39f30ac768992",
+    "semantic_hash": "9596fbc1771f71a1bbd39f30ac768992"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\CLAUDE.md": {
+    "mtime": 1780280123.5414786,
+    "ast_hash": "9fc4ada1eb26d64050532d86c5a56aa8",
+    "semantic_hash": "9fc4ada1eb26d64050532d86c5a56aa8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\README.md": {
+    "mtime": 1780277839.412266,
+    "ast_hash": "56c8f2071a5e911824ec1fc0eae1c6ff",
+    "semantic_hash": "56c8f2071a5e911824ec1fc0eae1c6ff"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\README.md": {
+    "mtime": 1780179574.2374558,
+    "ast_hash": "a79021177b4545fcfb3df8328eb11188",
+    "semantic_hash": "a79021177b4545fcfb3df8328eb11188"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\AGENT_HANDOFF.md": {
+    "mtime": 1781125415.396893,
+    "ast_hash": "414eeb58a70d26e78d542e1fe5a5ea45",
+    "semantic_hash": "414eeb58a70d26e78d542e1fe5a5ea45"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\AI_COLLABORATION.md": {
+    "mtime": 1780179574.24146,
+    "ast_hash": "a86f42112de2f273fa89e8a9570c4277",
+    "semantic_hash": "a86f42112de2f273fa89e8a9570c4277"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\HANDOFF_PROTOCOL.md": {
+    "mtime": 1780747950.3335187,
+    "ast_hash": "15237c8b9528158940e16200ca412a4d",
+    "semantic_hash": "15237c8b9528158940e16200ca412a4d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\TASK_PROTOCOL.md": {
+    "mtime": 1780747950.3345182,
+    "ast_hash": "ec88302df4fed8638d1eee265cc008a5",
+    "semantic_hash": "ec88302df4fed8638d1eee265cc008a5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\TWO_AGENT_BOARD.md": {
+    "mtime": 1780747950.335521,
+    "ast_hash": "bc49976ee2137ce31aaf3e71b264d4a0",
+    "semantic_hash": "bc49976ee2137ce31aaf3e71b264d4a0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\archive\\AGENT_HANDOFF_ARCHIVE_2026_05.md": {
+    "mtime": 1780747895.2327554,
+    "ast_hash": "16635e11c8deac4490b82dcfe757cb51",
+    "semantic_hash": "16635e11c8deac4490b82dcfe757cb51"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\archive\\AGENT_HANDOFF_ARCHIVE_2026_06.md": {
+    "mtime": 1781125415.4008892,
+    "ast_hash": "80e3e1225e296aed5f20fa9eccfdb3f6",
+    "semantic_hash": "80e3e1225e296aed5f20fa9eccfdb3f6"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\archive\\PARTNERSHIP_STATUS.md": {
+    "mtime": 1780747895.2337577,
+    "ast_hash": "68b068d00ed65db4ed2d2f8d0d0f0ac9",
+    "semantic_hash": "68b068d00ed65db4ed2d2f8d0d0f0ac9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\archive\\PROMPT_GUIDE.md": {
+    "mtime": 1780175622.2072535,
+    "ast_hash": "3676e5864e66c4ce7b91b26567dff233",
+    "semantic_hash": "3676e5864e66c4ce7b91b26567dff233"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\agents\\archive\\SPRINT_DECISION_GATE.md": {
+    "mtime": 1780747895.2357583,
+    "ast_hash": "48a1c48f196fa1f0233f624b0660dcea",
+    "semantic_hash": "48a1c48f196fa1f0233f624b0660dcea"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\audits\\IP_COPY_AUDIT.md": {
+    "mtime": 1780747895.2367544,
+    "ast_hash": "8cedbdc85b30c2b5f16a4b371a3846de",
+    "semantic_hash": "8cedbdc85b30c2b5f16a4b371a3846de"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\design\\CLAUDE_DESIGN_CONTEXT_PACK.md": {
+    "mtime": 1780747895.2387633,
+    "ast_hash": "e8e9ca7bfbb39f4b59f875a8abcaa6bb",
+    "semantic_hash": "e8e9ca7bfbb39f4b59f875a8abcaa6bb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\design\\PROFESSIONAL_REDESIGN_BRIEF.md": {
+    "mtime": 1780747895.239755,
+    "ast_hash": "8bdd1b4696976cee635d8b1bf61e813c",
+    "semantic_hash": "8bdd1b4696976cee635d8b1bf61e813c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\METRICS_DICTIONARY.md": {
+    "mtime": 1780175622.2132518,
+    "ast_hash": "90a0caa7497015e5448b13fddbec1693",
+    "semantic_hash": "90a0caa7497015e5448b13fddbec1693"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\01-poker-math.md": {
+    "mtime": 1780175622.2132518,
+    "ast_hash": "c9bd223bad12f6f33646d13c2a4c18ad",
+    "semantic_hash": "c9bd223bad12f6f33646d13c2a4c18ad"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\02-ranges-and-position.md": {
+    "mtime": 1780175622.214256,
+    "ast_hash": "c8a788f252058655ee27d861107a9a47",
+    "semantic_hash": "c8a788f252058655ee27d861107a9a47"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\03-preflop-strategy.md": {
+    "mtime": 1780175622.215253,
+    "ast_hash": "73f7f6d3174c3897ca98b60044362a74",
+    "semantic_hash": "73f7f6d3174c3897ca98b60044362a74"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\04-postflop-strategy.md": {
+    "mtime": 1780175622.2162573,
+    "ast_hash": "9458d00e9fd7923a7b6ead4aac365829",
+    "semantic_hash": "9458d00e9fd7923a7b6ead4aac365829"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\05-icm-and-risk-premium.md": {
+    "mtime": 1780175622.2162573,
+    "ast_hash": "0bf9f10018d76820ff0e54c753907ece",
+    "semantic_hash": "0bf9f10018d76820ff0e54c753907ece"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\06-bounty-tournaments.md": {
+    "mtime": 1780175622.217257,
+    "ast_hash": "155a0bd8ae8e3bf8b4619b2327ee5f97",
+    "semantic_hash": "155a0bd8ae8e3bf8b4619b2327ee5f97"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\07-final-table-play.md": {
+    "mtime": 1780175622.2182531,
+    "ast_hash": "9ee6a81fc2a8ceee005f78ad229de2c9",
+    "semantic_hash": "9ee6a81fc2a8ceee005f78ad229de2c9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\08-gto-and-exploits.md": {
+    "mtime": 1780175622.2182531,
+    "ast_hash": "6b102c8f24b62acfff56fecf520a31cd",
+    "semantic_hash": "6b102c8f24b62acfff56fecf520a31cd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\09-study-methods-and-tools.md": {
+    "mtime": 1780175622.219254,
+    "ast_hash": "d950368c5ca67d49971c9307b4f8fa73",
+    "semantic_hash": "d950368c5ca67d49971c9307b4f8fa73"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\10-glossary.md": {
+    "mtime": 1780747895.24176,
+    "ast_hash": "b4abfea1ca77fc449470cb70e42c5070",
+    "semantic_hash": "b4abfea1ca77fc449470cb70e42c5070"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\knowledge\\strategy\\claudecode_index.md": {
+    "mtime": 1780747895.2437596,
+    "ast_hash": "d16872819e82627f879f33a81f9b61d4",
+    "semantic_hash": "d16872819e82627f879f33a81f9b61d4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\plans\\2026-05-03-codebase-review-execution-plan.md": {
+    "mtime": 1780175622.2222548,
+    "ast_hash": "9b9df30e9d5730bcf03963f812fca472",
+    "semantic_hash": "9b9df30e9d5730bcf03963f812fca472"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\plans\\2026-05-10-ip-safe-demo-repositioning.md": {
+    "mtime": 1780747895.2467594,
+    "ast_hash": "5320a2235b3eeede25f52a2f2a5857f8",
+    "semantic_hash": "5320a2235b3eeede25f52a2f2a5857f8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\plans\\2026-05-12-parallel-reliability-next-steps.md": {
+    "mtime": 1780747895.247756,
+    "ast_hash": "969ebbbfec5d5a8cde2b96906f9f89a7",
+    "semantic_hash": "969ebbbfec5d5a8cde2b96906f9f89a7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\plans\\2026-05-17-import-run-data-health.md": {
+    "mtime": 1780175622.2242534,
+    "ast_hash": "dc68ed7c687937aed7897a34b4bf54cd",
+    "semantic_hash": "dc68ed7c687937aed7897a34b4bf54cd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\plans\\2026-05-18-downstream-trust-timeline.md": {
+    "mtime": 1780175622.2252517,
+    "ast_hash": "a67f69035eb2888a573eb0d0d9b1022f",
+    "semantic_hash": "a67f69035eb2888a573eb0d0d9b1022f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\plans\\2026-05-18-engine-data-solver-privacy-addendum.md": {
+    "mtime": 1780747895.2497537,
+    "ast_hash": "faf6fc051f5d16a5ce58b3b56e5cb81b",
+    "semantic_hash": "faf6fc051f5d16a5ce58b3b56e5cb81b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\product\\DATA_MODEL_AND_PRIVACY.md": {
+    "mtime": 1781125415.4028912,
+    "ast_hash": "0adc94f1abda6929cb24d96add6109ce",
+    "semantic_hash": "0adc94f1abda6929cb24d96add6109ce"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\product\\PARSER_HEALTH.md": {
+    "mtime": 1781125415.4054139,
+    "ast_hash": "43a101ea5c90ae545404ac8a471a8d64",
+    "semantic_hash": "43a101ea5c90ae545404ac8a471a8d64"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\product\\ROADMAP.md": {
+    "mtime": 1780408668.2198005,
+    "ast_hash": "67e2b2540fa4a9ed465d509bee51881d",
+    "semantic_hash": "67e2b2540fa4a9ed465d509bee51881d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\product\\SOLVER_BOUNDARY.md": {
+    "mtime": 1780666602.6883204,
+    "ast_hash": "2ca4754b425d3ed17386a8a75155d556",
+    "semantic_hash": "2ca4754b425d3ed17386a8a75155d556"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\product\\STATUS.md": {
+    "mtime": 1781125415.4079356,
+    "ast_hash": "553f2725ae6b7d8eb420d1ee2396a3ef",
+    "semantic_hash": "553f2725ae6b7d8eb420d1ee2396a3ef"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\2026-05-17-docs-staleness-audit.md": {
+    "mtime": 1780747895.2547574,
+    "ast_hash": "6f171b4d08876f3e60574bef3cdc4af2",
+    "semantic_hash": "6f171b4d08876f3e60574bef3cdc4af2"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\2026-05-17-markdown-inventory-and-cleanup.md": {
+    "mtime": 1780747895.2567556,
+    "ast_hash": "a5f3c188fd42ff8b4724d340fb14de37",
+    "semantic_hash": "a5f3c188fd42ff8b4724d340fb14de37"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\2026-05-31-documentation-review.md": {
+    "mtime": 1780277839.4262683,
+    "ast_hash": "f662a176e29e9176f409f407a1860ae4",
+    "semantic_hash": "f662a176e29e9176f409f407a1860ae4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\2026-06-01-review-output-refresh.md": {
+    "mtime": 1780669168.471414,
+    "ast_hash": "69a48f716fdbad6a9cb87a6cab105e8a",
+    "semantic_hash": "69a48f716fdbad6a9cb87a6cab105e8a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\2026-06-02-product-readiness-refresh.md": {
+    "mtime": 1780747895.257758,
+    "ast_hash": "ac2b0f1b49f5588eb1ae928037c8284c",
+    "semantic_hash": "ac2b0f1b49f5588eb1ae928037c8284c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\2026-06-05-stale-findings-reconciliation.md": {
+    "mtime": 1780669168.4734113,
+    "ast_hash": "e1e289fd0076294b16f1de7931e78a50",
+    "semantic_hash": "e1e289fd0076294b16f1de7931e78a50"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\code_hygiene_audit.md": {
+    "mtime": 1780175622.2352533,
+    "ast_hash": "ae72ff0caa862fa832fd7de28ce2782a",
+    "semantic_hash": "ae72ff0caa862fa832fd7de28ce2782a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\janitor-triage-2026-05-12.md": {
+    "mtime": 1780747895.2587602,
+    "ast_hash": "09d9a829b20acc2acbc3ae1d94a60cbb",
+    "semantic_hash": "09d9a829b20acc2acbc3ae1d94a60cbb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\reports\\phase6_elite_transformation.md": {
+    "mtime": 1780175622.2372563,
+    "ast_hash": "a04c0b12dfa9463818c07bf128fd8b3a",
+    "semantic_hash": "a04c0b12dfa9463818c07bf128fd8b3a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\research\\2026-05-04-competitor-research-and-implementation-timeline.md": {
+    "mtime": 1780175622.2382574,
+    "ast_hash": "6379101f4b4d6ae9a2bff8e10ebdd532",
+    "semantic_hash": "6379101f4b4d6ae9a2bff8e10ebdd532"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\research\\2026-06-04-solver-feasibility.md": {
+    "mtime": 1780666602.69134,
+    "ast_hash": "b27c8a52499c7d4b2c6b50dbbbfba5f1",
+    "semantic_hash": "b27c8a52499c7d4b2c6b50dbbbfba5f1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs\\validation\\USER_VALIDATION_PLAN.md": {
+    "mtime": 1780747895.2627575,
+    "ast_hash": "9f9a16710533d8e82635a128d1fc4dbe",
+    "semantic_hash": "9f9a16710533d8e82635a128d1fc4dbe"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\index.html": {
+    "mtime": 1780175622.2412515,
+    "ast_hash": "d40836347def1d841b0c59d7da23921a",
+    "semantic_hash": "d40836347def1d841b0c59d7da23921a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\scripts\\README.md": {
+    "mtime": 1781104160.952052,
+    "ast_hash": "804af86bc6b80a860e389953a0aab6e4",
+    "semantic_hash": "804af86bc6b80a860e389953a0aab6e4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 Isonoe III Cap - US$ 0,05-US$ 0,10 - USD No Limit All-in Poker.txt": {
+    "mtime": 1780175622.426917,
+    "ast_hash": "481c17e1204e1388a708f14751d8917e",
+    "semantic_hash": "481c17e1204e1388a708f14751d8917e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 Praxedis III - US$ 0,01-US$ 0,02 - USD No Limit Hold'em.txt": {
+    "mtime": 1780175622.426917,
+    "ast_hash": "11b3d5532a0d9f0b18acc48e6d91c158",
+    "semantic_hash": "11b3d5532a0d9f0b18acc48e6d91c158"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974723402 No Limit Hold'em US$ 1,40 + US$ 0,10.txt": {
+    "mtime": 1780175622.4289017,
+    "ast_hash": "0fb7a6e52e37013a9f56ac0da5aa03e1",
+    "semantic_hash": "0fb7a6e52e37013a9f56ac0da5aa03e1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974765785 No Limit Hold'em US$ 2,01 + US$ 0,19.txt": {
+    "mtime": 1780175622.4299037,
+    "ast_hash": "e831f7de1df1a7fce4ce6f2d77f704bc",
+    "semantic_hash": "e831f7de1df1a7fce4ce6f2d77f704bc"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974766235 No Limit Hold'em US$ 0,98 + US$ 0,12.txt": {
+    "mtime": 1780175622.4319017,
+    "ast_hash": "d453f39d69eee64180e7fbdb8d3ca41a",
+    "semantic_hash": "d453f39d69eee64180e7fbdb8d3ca41a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974766245 No Limit Hold'em US$ 0,49 + US$ 0,06.txt": {
+    "mtime": 1780175622.4339058,
+    "ast_hash": "4bc0f0f0a51e5785f8684477c7603911",
+    "semantic_hash": "4bc0f0f0a51e5785f8684477c7603911"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974766292 No Limit Hold'em US$ 4,90 + US$ 0,60 Zoom.txt": {
+    "mtime": 1780175622.4349084,
+    "ast_hash": "f9217221bef17558bdb7e0d56b57121c",
+    "semantic_hash": "f9217221bef17558bdb7e0d56b57121c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974766413 No Limit Hold'em US$ 2,01 + US$ 0,19.txt": {
+    "mtime": 1780175622.435907,
+    "ast_hash": "0f806a8adbb0132a0eab5c7c5924cfa5",
+    "semantic_hash": "0f806a8adbb0132a0eab5c7c5924cfa5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974766430 No Limit Hold'em US$ 1 + US$ 0,10.txt": {
+    "mtime": 1780175622.435907,
+    "ast_hash": "5ccddf0d93a5e60f6dc20f48d570769a",
+    "semantic_hash": "5ccddf0d93a5e60f6dc20f48d570769a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3974766978 No Limit Hold'em US$ 0,98 + US$ 0,12.txt": {
+    "mtime": 1780175622.4369051,
+    "ast_hash": "ab2f9bb1d23b3073d2896d482b828ce2",
+    "semantic_hash": "ab2f9bb1d23b3073d2896d482b828ce2"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975650293 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.438981,
+    "ast_hash": "46bb6dc237e9ff687ac44dc90b5c6fbd",
+    "semantic_hash": "46bb6dc237e9ff687ac44dc90b5c6fbd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975659799 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4409554,
+    "ast_hash": "fdf82cbc6d630c6cb351aad8ccbcda5a",
+    "semantic_hash": "fdf82cbc6d630c6cb351aad8ccbcda5a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975660447 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4459562,
+    "ast_hash": "4878fb717089b4473a7d6fb5946403d1",
+    "semantic_hash": "4878fb717089b4473a7d6fb5946403d1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975660743 No Limit Hold'em US$ 0,46 + US$ 0,04.txt": {
+    "mtime": 1780175622.4479566,
+    "ast_hash": "09ae0a6e4600e5ec1c751a8788585471",
+    "semantic_hash": "09ae0a6e4600e5ec1c751a8788585471"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975663761 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4489563,
+    "ast_hash": "afc68122a8545460c59351e31c492f50",
+    "semantic_hash": "afc68122a8545460c59351e31c492f50"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975675382 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4489563,
+    "ast_hash": "66c207c67e44ad13f506483ee338fbb2",
+    "semantic_hash": "66c207c67e44ad13f506483ee338fbb2"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975676813 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4499578,
+    "ast_hash": "dac0b5192b47d8e60b2673b2acc4b5b6",
+    "semantic_hash": "dac0b5192b47d8e60b2673b2acc4b5b6"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975700928 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4519546,
+    "ast_hash": "313101e8ff18f35970597735d7850c10",
+    "semantic_hash": "313101e8ff18f35970597735d7850c10"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975701166 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4519546,
+    "ast_hash": "56fb3794cca3bb88d4a65b3bc0ef5971",
+    "semantic_hash": "56fb3794cca3bb88d4a65b3bc0ef5971"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975701907 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.453952,
+    "ast_hash": "e9d9e0dd97f0207884bfa4f097b6ca92",
+    "semantic_hash": "e9d9e0dd97f0207884bfa4f097b6ca92"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975702151 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4549544,
+    "ast_hash": "bc5260f1f301967b29f26e6508bff749",
+    "semantic_hash": "bc5260f1f301967b29f26e6508bff749"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975702791 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4559553,
+    "ast_hash": "f640fde313b294fd43b93935d7200226",
+    "semantic_hash": "f640fde313b294fd43b93935d7200226"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975717339 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4599552,
+    "ast_hash": "3598693dd54d7d532bdf8450f47bf8d4",
+    "semantic_hash": "3598693dd54d7d532bdf8450f47bf8d4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975717736 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4619548,
+    "ast_hash": "b3bedf97ee379afdc3fafb5a05e4c0c8",
+    "semantic_hash": "b3bedf97ee379afdc3fafb5a05e4c0c8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975791928 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4629543,
+    "ast_hash": "e7fa117fb436b5259b4e679ea2694082",
+    "semantic_hash": "e7fa117fb436b5259b4e679ea2694082"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975792003 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4639547,
+    "ast_hash": "1d128cf9f0fb7b455f45dd77a5a42317",
+    "semantic_hash": "1d128cf9f0fb7b455f45dd77a5a42317"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975830581 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4649582,
+    "ast_hash": "1c83eb9bef36313968dd0ea36757c857",
+    "semantic_hash": "1c83eb9bef36313968dd0ea36757c857"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975831868 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4669528,
+    "ast_hash": "4c01f47e102e3490376b5b06595985f7",
+    "semantic_hash": "4c01f47e102e3490376b5b06595985f7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975832669 No Limit Hold'em US$ 0,98 + US$ 0,12.txt": {
+    "mtime": 1780175622.4669528,
+    "ast_hash": "e03e36db598aed5ba7e7acb8b5d7ca0b",
+    "semantic_hash": "e03e36db598aed5ba7e7acb8b5d7ca0b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975837433 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4679534,
+    "ast_hash": "bfd6724af5356af487f59723a3fa320b",
+    "semantic_hash": "bfd6724af5356af487f59723a3fa320b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975837847 No Limit Hold'em Variado.txt": {
+    "mtime": 1780175622.4679534,
+    "ast_hash": "679b8cbafb51cdbff1a7cd2a41417655",
+    "semantic_hash": "679b8cbafb51cdbff1a7cd2a41417655"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975838422 No Limit Hold'em Variado.txt": {
+    "mtime": 1780175622.468954,
+    "ast_hash": "8af3a0ab788c406da0ce1264af8e7ce7",
+    "semantic_hash": "8af3a0ab788c406da0ce1264af8e7ce7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260216 T3975840243 No Limit Hold'em Variado.txt": {
+    "mtime": 1780175622.4699526,
+    "ast_hash": "670050d69046f644314d11c7a815a5e7",
+    "semantic_hash": "670050d69046f644314d11c7a815a5e7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 NLHE 100-200 6 Max - 100-200 - Dinheiro Fict\u00edcio No Limit Hold'em.txt": {
+    "mtime": 1780175622.4699526,
+    "ast_hash": "7682775082182b7fc21e09e710536156",
+    "semantic_hash": "7682775082182b7fc21e09e710536156"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3974762738 No Limit 6+ Hold'em 220K + 30K.txt": {
+    "mtime": 1780175622.470953,
+    "ast_hash": "5986f57ee630299313cc843bcd68da87",
+    "semantic_hash": "5986f57ee630299313cc843bcd68da87"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975949849 No Limit Hold'em US$ 0,29 + US$ 0,01.txt": {
+    "mtime": 1780175622.470953,
+    "ast_hash": "bd731b1a10f05bdc3f37e557bd9954f4",
+    "semantic_hash": "bd731b1a10f05bdc3f37e557bd9954f4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975957387 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.471953,
+    "ast_hash": "747bc0680c049fec11f844803d693b07",
+    "semantic_hash": "747bc0680c049fec11f844803d693b07"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975958080 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4729562,
+    "ast_hash": "6c7ccb9da680b1522bb870720ab7e229",
+    "semantic_hash": "6c7ccb9da680b1522bb870720ab7e229"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975959727 No Limit Hold'em US$ 0,29 + US$ 0,01.txt": {
+    "mtime": 1780175622.4739542,
+    "ast_hash": "5cd0a1f4e085022581dd308c1ca15324",
+    "semantic_hash": "5cd0a1f4e085022581dd308c1ca15324"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975960271 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4749568,
+    "ast_hash": "8dfb7805169fa05be0dfd39722cb3e2e",
+    "semantic_hash": "8dfb7805169fa05be0dfd39722cb3e2e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975960660 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4769685,
+    "ast_hash": "402b28b26b14e43629c8c4613a736c2f",
+    "semantic_hash": "402b28b26b14e43629c8c4613a736c2f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975961807 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4779556,
+    "ast_hash": "e081b24db0f22dd31c9cfe875f819a81",
+    "semantic_hash": "e081b24db0f22dd31c9cfe875f819a81"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975963130 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4789588,
+    "ast_hash": "cf6168bdcdbeb44558a9ff4bc59d7318",
+    "semantic_hash": "cf6168bdcdbeb44558a9ff4bc59d7318"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975963157 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4809563,
+    "ast_hash": "7d80df82a2a3b743f8b9a4a55d519966",
+    "semantic_hash": "7d80df82a2a3b743f8b9a4a55d519966"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975967913 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4819562,
+    "ast_hash": "30d739af6eb0dc381c4378d8f563f123",
+    "semantic_hash": "30d739af6eb0dc381c4378d8f563f123"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975968186 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.482955,
+    "ast_hash": "33560af35b2c5a7549a20ca624781b9b",
+    "semantic_hash": "33560af35b2c5a7549a20ca624781b9b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975972855 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.4839535,
+    "ast_hash": "d8a9a7db051b242b229f6c9d63fc96df",
+    "semantic_hash": "d8a9a7db051b242b229f6c9d63fc96df"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975974411 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4849544,
+    "ast_hash": "aaba9777ee79e650cb492d174bb254ed",
+    "semantic_hash": "aaba9777ee79e650cb492d174bb254ed"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260217 T3975983059 No Limit Hold'em US$ 0,46 + US$ 0,04.txt": {
+    "mtime": 1780175622.4849544,
+    "ast_hash": "be77950fdeb7725e1618454c59e81497",
+    "semantic_hash": "be77950fdeb7725e1618454c59e81497"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989275876 No Limit Hold'em US$ 0,91 + US$ 0,09.txt": {
+    "mtime": 1780175622.4859543,
+    "ast_hash": "ab94f9dc4bc6ed4c748beb128401fdd5",
+    "semantic_hash": "ab94f9dc4bc6ed4c748beb128401fdd5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989276326 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.486954,
+    "ast_hash": "733bf48a068b8b48416a4d4e8a803c09",
+    "semantic_hash": "733bf48a068b8b48416a4d4e8a803c09"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989277038 No Limit Hold'em US$ 0,91 + US$ 0,09.txt": {
+    "mtime": 1780175622.4879532,
+    "ast_hash": "5ea93247fd4fdc33d6716fdc2b87e78b",
+    "semantic_hash": "5ea93247fd4fdc33d6716fdc2b87e78b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989277405 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.4894726,
+    "ast_hash": "3e81a28532eb60c1a9880edb53e8c8cd",
+    "semantic_hash": "3e81a28532eb60c1a9880edb53e8c8cd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989289921 No Limit Hold'em US$ 0,46 + US$ 0,04.txt": {
+    "mtime": 1780175622.4904752,
+    "ast_hash": "5b684710c8a1be2f89d7aa92a01be974",
+    "semantic_hash": "5b684710c8a1be2f89d7aa92a01be974"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989304794 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.4914727,
+    "ast_hash": "3cbf7dd571cb0d8eb3500012b39320df",
+    "semantic_hash": "3cbf7dd571cb0d8eb3500012b39320df"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989305854 No Limit Hold'em US$ 1,70 + US$ 0,30.txt": {
+    "mtime": 1780175622.4934719,
+    "ast_hash": "ed195e164b4f6990ee14f211dc0de6d0",
+    "semantic_hash": "ed195e164b4f6990ee14f211dc0de6d0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989305980 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.4934719,
+    "ast_hash": "6c8db69526d829f438905dd218c4d5d4",
+    "semantic_hash": "6c8db69526d829f438905dd218c4d5d4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989306107 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.4964757,
+    "ast_hash": "51d5d08115d2d7a1bf7e55839aac8cee",
+    "semantic_hash": "51d5d08115d2d7a1bf7e55839aac8cee"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989316179 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.497476,
+    "ast_hash": "d890c4274282ace2626f2e192364cb49",
+    "semantic_hash": "d890c4274282ace2626f2e192364cb49"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989316412 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.4984732,
+    "ast_hash": "9f06be5bf99e9180fe878cf6ad5bda3b",
+    "semantic_hash": "9f06be5bf99e9180fe878cf6ad5bda3b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989317146 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.4994793,
+    "ast_hash": "a19b12a149680060a7cd3872ff51e972",
+    "semantic_hash": "a19b12a149680060a7cd3872ff51e972"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989317274 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.5004723,
+    "ast_hash": "4792fd7b00033b5595f541511cfdf8bd",
+    "semantic_hash": "4792fd7b00033b5595f541511cfdf8bd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989329814 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.5014718,
+    "ast_hash": "1ccd3fb1d7f3a40a45d96fe8fc894c31",
+    "semantic_hash": "1ccd3fb1d7f3a40a45d96fe8fc894c31"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989329851 No Limit Hold'em US$ 1,70 + US$ 0,30.txt": {
+    "mtime": 1780175622.502473,
+    "ast_hash": "750f6476d81b9ef2e234ae52c7ea50db",
+    "semantic_hash": "750f6476d81b9ef2e234ae52c7ea50db"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989330107 No Limit Hold'em US$ 0,42 + US$ 0,08.txt": {
+    "mtime": 1780175622.5034707,
+    "ast_hash": "659b2c4e5ff975d2709119bbadc38caf",
+    "semantic_hash": "659b2c4e5ff975d2709119bbadc38caf"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989330647 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.50547,
+    "ast_hash": "7a933f9d22a602c9f03f49d14bc645eb",
+    "semantic_hash": "7a933f9d22a602c9f03f49d14bc645eb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989352976 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.506475,
+    "ast_hash": "c17e47164f933d0cd9a0850e59e9577d",
+    "semantic_hash": "c17e47164f933d0cd9a0850e59e9577d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260404 T3989354302 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.507473,
+    "ast_hash": "34444ae86e43c9b7c4779dad40b370c4",
+    "semantic_hash": "34444ae86e43c9b7c4779dad40b370c4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989529501 No Limit Hold'em US$ 0,98 + US$ 0,12.txt": {
+    "mtime": 1780175622.5084732,
+    "ast_hash": "37f32b3a7549804cb8d4e7e2b16440a1",
+    "semantic_hash": "37f32b3a7549804cb8d4e7e2b16440a1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989540623 No Limit Hold'em US$ 1,80 + US$ 0,20.txt": {
+    "mtime": 1780175622.509475,
+    "ast_hash": "fbb5aabd404987c469834f96fdb7a2c6",
+    "semantic_hash": "fbb5aabd404987c469834f96fdb7a2c6"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989541132 No Limit Hold'em US$ 0,85 + US$ 0,15.txt": {
+    "mtime": 1780175622.510476,
+    "ast_hash": "fd0fa97477fc774ea472737e854f29be",
+    "semantic_hash": "fd0fa97477fc774ea472737e854f29be"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989543785 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.5114725,
+    "ast_hash": "6aa8449ce9ec3f369fe04efcafd3f284",
+    "semantic_hash": "6aa8449ce9ec3f369fe04efcafd3f284"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989565352 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.5124788,
+    "ast_hash": "01ca9b06c2294e61970e4dc2a84b20e3",
+    "semantic_hash": "01ca9b06c2294e61970e4dc2a84b20e3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989565558 No Limit Hold'em US$ 1,80 + US$ 0,20.txt": {
+    "mtime": 1780175622.5134816,
+    "ast_hash": "52cbd26a37b583660ff64c19ee7ec472",
+    "semantic_hash": "52cbd26a37b583660ff64c19ee7ec472"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989565607 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.515476,
+    "ast_hash": "723a10de1883eb3955bdadbd0fadea9a",
+    "semantic_hash": "723a10de1883eb3955bdadbd0fadea9a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989574118 No Limit Hold'em US$ 0,46 + US$ 0,04.txt": {
+    "mtime": 1780175622.515476,
+    "ast_hash": "692835700b1a1a7bc40e5ff0e45e0697",
+    "semantic_hash": "692835700b1a1a7bc40e5ff0e45e0697"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989574182 No Limit Hold'em US$ 0,96 + US$ 0,04.txt": {
+    "mtime": 1780175622.5164733,
+    "ast_hash": "259d9565587a327de7cbe1c048c3e5ef",
+    "semantic_hash": "259d9565587a327de7cbe1c048c3e5ef"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989574426 No Limit Hold'em US$ 0,98 + US$ 0,12.txt": {
+    "mtime": 1780175622.517475,
+    "ast_hash": "ba40be4c0fac1be08f9ae9cb8f6490ec",
+    "semantic_hash": "ba40be4c0fac1be08f9ae9cb8f6490ec"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989578117 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.5184717,
+    "ast_hash": "d39d56a6666cc65f7d9e3919f8304859",
+    "semantic_hash": "d39d56a6666cc65f7d9e3919f8304859"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989589709 No Limit Hold'em US$ 0,45 + US$ 0,05.txt": {
+    "mtime": 1780175622.5184717,
+    "ast_hash": "9fa706cfa8dee71c4284919990f87fc9",
+    "semantic_hash": "9fa706cfa8dee71c4284919990f87fc9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989590783 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.5194724,
+    "ast_hash": "a67c5d76500e4f41fefd3771d138305b",
+    "semantic_hash": "a67c5d76500e4f41fefd3771d138305b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989590908 No Limit Hold'em US$ 1,80 + US$ 0,20.txt": {
+    "mtime": 1780175622.520471,
+    "ast_hash": "56fe7ad0b337d19a6e4896ffe56cda56",
+    "semantic_hash": "56fe7ad0b337d19a6e4896ffe56cda56"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989607291 No Limit Hold'em US$ 0,98 + US$ 0,12.txt": {
+    "mtime": 1780175622.520471,
+    "ast_hash": "927c6530117014d64a82d5833535ac5b",
+    "semantic_hash": "927c6530117014d64a82d5833535ac5b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989607944 No Limit Hold'em US$ 1,80 + US$ 0,20.txt": {
+    "mtime": 1780175622.5224712,
+    "ast_hash": "a604adba5d61b4183f51b8af962620ad",
+    "semantic_hash": "a604adba5d61b4183f51b8af962620ad"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989608128 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.5234752,
+    "ast_hash": "513d3b9e440cf57f98974b5f55c4fe12",
+    "semantic_hash": "513d3b9e440cf57f98974b5f55c4fe12"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989612229 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.524474,
+    "ast_hash": "52a793255b63586ae0119d0b56606fa9",
+    "semantic_hash": "52a793255b63586ae0119d0b56606fa9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989613934 No Limit Hold'em US$ 1,80 + US$ 0,20.txt": {
+    "mtime": 1780175622.524474,
+    "ast_hash": "f43a04cea3d02d9c2138bf59e9dd1da8",
+    "semantic_hash": "f43a04cea3d02d9c2138bf59e9dd1da8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989614144 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.5254729,
+    "ast_hash": "9633a97acf741f08f75bf1f802bc593c",
+    "semantic_hash": "9633a97acf741f08f75bf1f802bc593c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989615918 No Limit Hold'em US$ 1,80 + US$ 0,20.txt": {
+    "mtime": 1780175622.5264726,
+    "ast_hash": "5b7fe42090ba771964bb9a1742601d1d",
+    "semantic_hash": "5b7fe42090ba771964bb9a1742601d1d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989619338 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.527475,
+    "ast_hash": "8414041c00beec3d54c9f9765980bc55",
+    "semantic_hash": "8414041c00beec3d54c9f9765980bc55"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989623412 No Limit Hold'em US$ 0,98 + US$ 0,12.txt": {
+    "mtime": 1780175622.529481,
+    "ast_hash": "cc98319e88d7b916bd42ae84c40c10d1",
+    "semantic_hash": "cc98319e88d7b916bd42ae84c40c10d1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\hh\\HH20260405 T3989625926 No Limit Hold'em US$ 0,90 + US$ 0,10.txt": {
+    "mtime": 1780175622.5304768,
+    "ast_hash": "f06cfc81482f72af7acde63880af4332",
+    "semantic_hash": "f06cfc81482f72af7acde63880af4332"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3974102192 No Limit Hold'em US$ 0,49+US$ 0,06.txt": {
+    "mtime": 1780175622.5324755,
+    "ast_hash": "e870b046b0032652077849a3f7998e24",
+    "semantic_hash": "e870b046b0032652077849a3f7998e24"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975064215 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.5334742,
+    "ast_hash": "fb23646dcdd7728073c5ff2b8aaf6d70",
+    "semantic_hash": "fb23646dcdd7728073c5ff2b8aaf6d70"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975069147 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.5334742,
+    "ast_hash": "7973d3f5bf9c4c1642323c35cc76ddee",
+    "semantic_hash": "7973d3f5bf9c4c1642323c35cc76ddee"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975070702 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.5344732,
+    "ast_hash": "93cdf792d8ef30a4a36315915b840e2b",
+    "semantic_hash": "93cdf792d8ef30a4a36315915b840e2b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975072695 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.5354714,
+    "ast_hash": "ba0b19b25c4628e12c02b2555c18230d",
+    "semantic_hash": "ba0b19b25c4628e12c02b2555c18230d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975072811 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5354714,
+    "ast_hash": "220c67e108565a35963e40c8ea647097",
+    "semantic_hash": "220c67e108565a35963e40c8ea647097"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975080387 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.536474,
+    "ast_hash": "8b2904a48f62dee2e2a651fbe7a8a5af",
+    "semantic_hash": "8b2904a48f62dee2e2a651fbe7a8a5af"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975080443 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.536474,
+    "ast_hash": "0ed5c4b73f920b1428cb0356640a137a",
+    "semantic_hash": "0ed5c4b73f920b1428cb0356640a137a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975081113 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5374727,
+    "ast_hash": "32c522399e28576c4251a53c5f1b1c2a",
+    "semantic_hash": "32c522399e28576c4251a53c5f1b1c2a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975081598 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5384707,
+    "ast_hash": "e7373e6f38389fdfb15d138a7bc306dc",
+    "semantic_hash": "e7373e6f38389fdfb15d138a7bc306dc"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975124243 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5384707,
+    "ast_hash": "2cce12037ccbc07014c81d350b59c154",
+    "semantic_hash": "2cce12037ccbc07014c81d350b59c154"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975125444 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5384707,
+    "ast_hash": "abf897836b36cc5ae268bf69f1e6f3ab",
+    "semantic_hash": "abf897836b36cc5ae268bf69f1e6f3ab"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975125729 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5394711,
+    "ast_hash": "3896d573b61104432e37e6130a6ad606",
+    "semantic_hash": "3896d573b61104432e37e6130a6ad606"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975126128 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5404756,
+    "ast_hash": "91ef35bba40fa7f1ee44e12949894c25",
+    "semantic_hash": "91ef35bba40fa7f1ee44e12949894c25"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975170482 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5414767,
+    "ast_hash": "856fde07e0cfcdff6b9d2bb09d17cecb",
+    "semantic_hash": "856fde07e0cfcdff6b9d2bb09d17cecb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975170496 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5414767,
+    "ast_hash": "4cd49d8bd19713a3a6c808f46adcac3f",
+    "semantic_hash": "4cd49d8bd19713a3a6c808f46adcac3f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975171865 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5424733,
+    "ast_hash": "74ce7cb36390a4cf81b47e91e4fdfe9c",
+    "semantic_hash": "74ce7cb36390a4cf81b47e91e4fdfe9c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975172051 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.543473,
+    "ast_hash": "f91693e12e74f17cb5d02b1d3c2ebc4b",
+    "semantic_hash": "f91693e12e74f17cb5d02b1d3c2ebc4b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975174265 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.543473,
+    "ast_hash": "680a79f0caf2cb8e2563424f82426ebd",
+    "semantic_hash": "680a79f0caf2cb8e2563424f82426ebd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975175625 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5444746,
+    "ast_hash": "6563a54f15379e47a052a920192a819e",
+    "semantic_hash": "6563a54f15379e47a052a920192a819e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975184071 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5454764,
+    "ast_hash": "5e29e51cd02f6ddfa0c75343b06bf495",
+    "semantic_hash": "5e29e51cd02f6ddfa0c75343b06bf495"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975186401 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5464776,
+    "ast_hash": "b99409eeff8d5e078457aff40b780333",
+    "semantic_hash": "b99409eeff8d5e078457aff40b780333"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975186926 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5474916,
+    "ast_hash": "325cfb37239dcc0129bcde003385dd45",
+    "semantic_hash": "325cfb37239dcc0129bcde003385dd45"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975187449 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5484772,
+    "ast_hash": "8c6345ae834dc0b052c2c3b5ddd7bb06",
+    "semantic_hash": "8c6345ae834dc0b052c2c3b5ddd7bb06"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975189022 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5494716,
+    "ast_hash": "6c5f7adf9e16ebc1d1eb620d4a1ee1e4",
+    "semantic_hash": "6c5f7adf9e16ebc1d1eb620d4a1ee1e4"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975196473 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.550475,
+    "ast_hash": "2eb4117e9c44491235b3dbf1b6f2bff3",
+    "semantic_hash": "2eb4117e9c44491235b3dbf1b6f2bff3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975196910 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.550475,
+    "ast_hash": "ea3c3e5e5cfaef965c468e2b1665ca51",
+    "semantic_hash": "ea3c3e5e5cfaef965c468e2b1665ca51"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975198633 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5524716,
+    "ast_hash": "21dc64b8064a7e2f6a8725e37ca3ec53",
+    "semantic_hash": "21dc64b8064a7e2f6a8725e37ca3ec53"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975199008 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.553471,
+    "ast_hash": "367c7122c4cbd4344d560e8dccf1e0c1",
+    "semantic_hash": "367c7122c4cbd4344d560e8dccf1e0c1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975201733 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.553471,
+    "ast_hash": "0c96d2e9df6c704238e293ff22c3de80",
+    "semantic_hash": "0c96d2e9df6c704238e293ff22c3de80"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975203026 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5544713,
+    "ast_hash": "406d56e32181e6d2e9177fcfd64efc8e",
+    "semantic_hash": "406d56e32181e6d2e9177fcfd64efc8e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975204142 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5544713,
+    "ast_hash": "fa12796f26e5056e5ac02f4bfdd37ede",
+    "semantic_hash": "fa12796f26e5056e5ac02f4bfdd37ede"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975206853 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.55547,
+    "ast_hash": "976e77e977f5413cc6d558636dda04d0",
+    "semantic_hash": "976e77e977f5413cc6d558636dda04d0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975207320 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.55547,
+    "ast_hash": "2ec6a7d2fc334047ce129a3179afc9d1",
+    "semantic_hash": "2ec6a7d2fc334047ce129a3179afc9d1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975214518 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5564735,
+    "ast_hash": "6d0849854683efcf6131882561e7ce3a",
+    "semantic_hash": "6d0849854683efcf6131882561e7ce3a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975222356 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.5574756,
+    "ast_hash": "4cc7a70e61a3d0fb1177d05215a42d1e",
+    "semantic_hash": "4cc7a70e61a3d0fb1177d05215a42d1e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975224006 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5584745,
+    "ast_hash": "f5865e05509e4481aaac778fbfd70a7c",
+    "semantic_hash": "f5865e05509e4481aaac778fbfd70a7c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975228726 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.5594747,
+    "ast_hash": "56ca0cae9c06f8cc506ff4f8a7dcf089",
+    "semantic_hash": "56ca0cae9c06f8cc506ff4f8a7dcf089"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975234499 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5594747,
+    "ast_hash": "843743e90086dd4f2123013aa84a298f",
+    "semantic_hash": "843743e90086dd4f2123013aa84a298f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975249626 No Limit Hold'em Freeroll.txt": {
+    "mtime": 1780175622.5604744,
+    "ast_hash": "5748cd9f9c98090b893ae84b51f07eaf",
+    "semantic_hash": "5748cd9f9c98090b893ae84b51f07eaf"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975251297 No Limit Hold'em Freeroll.txt": {
+    "mtime": 1780175622.5614722,
+    "ast_hash": "cd691f79a374eb4ad506f62859f94d88",
+    "semantic_hash": "cd691f79a374eb4ad506f62859f94d88"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975252615 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5614722,
+    "ast_hash": "89c54e535b12532da3e629fbe60557fb",
+    "semantic_hash": "89c54e535b12532da3e629fbe60557fb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975252862 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5614722,
+    "ast_hash": "d08f3473421b9e761b11daa50784edb7",
+    "semantic_hash": "d08f3473421b9e761b11daa50784edb7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975254977 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.562473,
+    "ast_hash": "2b15507374377d5c66ff5d6e2b62fe3f",
+    "semantic_hash": "2b15507374377d5c66ff5d6e2b62fe3f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975255247 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.563483,
+    "ast_hash": "4160821e7830023fad7a8d8f2cde5e5a",
+    "semantic_hash": "4160821e7830023fad7a8d8f2cde5e5a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975255778 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.564477,
+    "ast_hash": "2eb4c81f165ab13ffcc27cc3b77dd9d9",
+    "semantic_hash": "2eb4c81f165ab13ffcc27cc3b77dd9d9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975260357 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.5664737,
+    "ast_hash": "0a662537eea00191f8de0f5758708f2b",
+    "semantic_hash": "0a662537eea00191f8de0f5758708f2b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975265369 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.5674736,
+    "ast_hash": "1e1a962ee5a91b4d6bd39f7aa1922b5d",
+    "semantic_hash": "1e1a962ee5a91b4d6bd39f7aa1922b5d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260214 T3975266562 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5684707,
+    "ast_hash": "1b708f480e951cf27d79f8ecf10911fb",
+    "semantic_hash": "1b708f480e951cf27d79f8ecf10911fb"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3974102150 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.5684707,
+    "ast_hash": "ef5957860bdbc0f80f4f44cca7215ff1",
+    "semantic_hash": "ef5957860bdbc0f80f4f44cca7215ff1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975347672 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5694718,
+    "ast_hash": "1c8fa626cbb20945f25418ea29f45a52",
+    "semantic_hash": "1c8fa626cbb20945f25418ea29f45a52"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975347790 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5694718,
+    "ast_hash": "30fccc355e792c9689881d20d8c9cfe9",
+    "semantic_hash": "30fccc355e792c9689881d20d8c9cfe9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975352094 No Limit Hold'em US$ 0,46+US$ 0,04.txt": {
+    "mtime": 1780175622.5704732,
+    "ast_hash": "03c04f1e899bbf31443d9437b3fe0aec",
+    "semantic_hash": "03c04f1e899bbf31443d9437b3fe0aec"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975518054 No Limit Hold'em US$ 0,58+US$ 0,02.txt": {
+    "mtime": 1780175622.5714717,
+    "ast_hash": "63239de8592eaf73a6089c9d033b6cae",
+    "semantic_hash": "63239de8592eaf73a6089c9d033b6cae"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975525563 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5714717,
+    "ast_hash": "152cd282a8210dd14fbecc120a06a406",
+    "semantic_hash": "152cd282a8210dd14fbecc120a06a406"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975526607 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.5724735,
+    "ast_hash": "26d0791b9e56510f2f57370def3f31e3",
+    "semantic_hash": "26d0791b9e56510f2f57370def3f31e3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975530159 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.5734768,
+    "ast_hash": "b5babe2b6729c1640fe16371ab88c6e1",
+    "semantic_hash": "b5babe2b6729c1640fe16371ab88c6e1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975537402 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.5744765,
+    "ast_hash": "6fc30caf806ad718b01f2679a00e8213",
+    "semantic_hash": "6fc30caf806ad718b01f2679a00e8213"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975543447 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.5744765,
+    "ast_hash": "d88b18c68aa6f4fb2cf05cce63989944",
+    "semantic_hash": "d88b18c68aa6f4fb2cf05cce63989944"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975547374 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5754764,
+    "ast_hash": "c37eae25b37e5dfd2546911797945637",
+    "semantic_hash": "c37eae25b37e5dfd2546911797945637"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975549409 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5764754,
+    "ast_hash": "1d884c38ad31b57875381a89eca9159a",
+    "semantic_hash": "1d884c38ad31b57875381a89eca9159a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975549598 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.577474,
+    "ast_hash": "9f12ab7a420b87827ad56e1db63b8e5c",
+    "semantic_hash": "9f12ab7a420b87827ad56e1db63b8e5c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975553517 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.577474,
+    "ast_hash": "d0e9b8de7d4b702a85faf1f5fff70461",
+    "semantic_hash": "d0e9b8de7d4b702a85faf1f5fff70461"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975557799 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.577474,
+    "ast_hash": "e6bc878c522931d54881f05e0bf5dfa0",
+    "semantic_hash": "e6bc878c522931d54881f05e0bf5dfa0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975558267 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5784733,
+    "ast_hash": "590f2292d4c493b6b46d25dcafac6605",
+    "semantic_hash": "590f2292d4c493b6b46d25dcafac6605"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975558289 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.579474,
+    "ast_hash": "10fefa766a3b5ea8b7aff783e5aaa47e",
+    "semantic_hash": "10fefa766a3b5ea8b7aff783e5aaa47e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975562768 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.5804882,
+    "ast_hash": "961a2879791479e059b18d4725b4a87e",
+    "semantic_hash": "961a2879791479e059b18d4725b4a87e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975565933 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.5814748,
+    "ast_hash": "2e6bee3ec1cd1438132314fddc6cdd5a",
+    "semantic_hash": "2e6bee3ec1cd1438132314fddc6cdd5a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975566054 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.582473,
+    "ast_hash": "588e8cd1c0f021535a7669ff41c1e8a9",
+    "semantic_hash": "588e8cd1c0f021535a7669ff41c1e8a9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260215 T3975566658 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5834782,
+    "ast_hash": "05e12fdd050d870461901e6e8d3d3b06",
+    "semantic_hash": "05e12fdd050d870461901e6e8d3d3b06"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3974765785 No Limit Hold'em US$ 2,01+US$ 0,19.txt": {
+    "mtime": 1780175622.5834782,
+    "ast_hash": "88be9526592a862413c5ffa6ff09aff9",
+    "semantic_hash": "88be9526592a862413c5ffa6ff09aff9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3974766235 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.5844755,
+    "ast_hash": "0c77e9fd5e68b540b3078fb2fed48442",
+    "semantic_hash": "0c77e9fd5e68b540b3078fb2fed48442"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3974766245 No Limit Hold'em US$ 0,49+US$ 0,06.txt": {
+    "mtime": 1780175622.5854754,
+    "ast_hash": "174aeaec8dd9442f5777e2b961ae8f8e",
+    "semantic_hash": "174aeaec8dd9442f5777e2b961ae8f8e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3974766292 No Limit Hold'em US$ 4,90+US$ 0,60.txt": {
+    "mtime": 1780175622.5854754,
+    "ast_hash": "0fedfab54fc1fac1c73f228edc911bf7",
+    "semantic_hash": "0fedfab54fc1fac1c73f228edc911bf7"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3974766413 No Limit Hold'em US$ 2,01+US$ 0,19.txt": {
+    "mtime": 1780175622.586474,
+    "ast_hash": "e06ff2283b61b8ca7524dbb2123e43ae",
+    "semantic_hash": "e06ff2283b61b8ca7524dbb2123e43ae"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3974766430 No Limit Hold'em US$ 1+US$ 0,10.txt": {
+    "mtime": 1780175622.587472,
+    "ast_hash": "9a761b92b0e856ebd059dc3ddc8f9737",
+    "semantic_hash": "9a761b92b0e856ebd059dc3ddc8f9737"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3974766978 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.5884714,
+    "ast_hash": "e0215e21807f69ddac3291b15eebcd04",
+    "semantic_hash": "e0215e21807f69ddac3291b15eebcd04"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975650293 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5884714,
+    "ast_hash": "c2a941b9769f6332ec8b551d94295cc8",
+    "semantic_hash": "c2a941b9769f6332ec8b551d94295cc8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975659799 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5894723,
+    "ast_hash": "672376d30a43b5b0db5280bff933d94c",
+    "semantic_hash": "672376d30a43b5b0db5280bff933d94c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975660447 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5894723,
+    "ast_hash": "d460ae57389c05d2a595fcb96d0416f6",
+    "semantic_hash": "d460ae57389c05d2a595fcb96d0416f6"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975660743 No Limit Hold'em US$ 0,46+US$ 0,04.txt": {
+    "mtime": 1780175622.5904744,
+    "ast_hash": "204ae57d9fe3a558c3367d8d2cdfe7f0",
+    "semantic_hash": "204ae57d9fe3a558c3367d8d2cdfe7f0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975663761 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5914724,
+    "ast_hash": "4372e6249c6736f70e9edf7e6b2c1fbc",
+    "semantic_hash": "4372e6249c6736f70e9edf7e6b2c1fbc"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975675382 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.592476,
+    "ast_hash": "3996be68842020a9c739f925201bb4c3",
+    "semantic_hash": "3996be68842020a9c739f925201bb4c3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975676813 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.592476,
+    "ast_hash": "14f288c4bddea2d605926167d4ecddc8",
+    "semantic_hash": "14f288c4bddea2d605926167d4ecddc8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975700928 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5934732,
+    "ast_hash": "a1fb29d32adf6fe33a217bab55ff38b3",
+    "semantic_hash": "a1fb29d32adf6fe33a217bab55ff38b3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975701166 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5944798,
+    "ast_hash": "83fa1cb92ec791eab029ac7255daf1a0",
+    "semantic_hash": "83fa1cb92ec791eab029ac7255daf1a0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975701907 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.595487,
+    "ast_hash": "0e65566bde8641815680bde7df27fc96",
+    "semantic_hash": "0e65566bde8641815680bde7df27fc96"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975702151 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.595487,
+    "ast_hash": "b1c53baafb9de871383fb91f5740a066",
+    "semantic_hash": "b1c53baafb9de871383fb91f5740a066"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975702791 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5964725,
+    "ast_hash": "2db8799e4c07523d4e7394d6dc326700",
+    "semantic_hash": "2db8799e4c07523d4e7394d6dc326700"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975717736 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5974731,
+    "ast_hash": "ced4f7d7e6f8a2d6cdd63b8227dcdd50",
+    "semantic_hash": "ced4f7d7e6f8a2d6cdd63b8227dcdd50"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975791928 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.5994723,
+    "ast_hash": "b336d1165a0c2c34fb687d37614506ab",
+    "semantic_hash": "b336d1165a0c2c34fb687d37614506ab"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975792003 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.5994723,
+    "ast_hash": "66436d7e2b95b36051f7ac050e76352b",
+    "semantic_hash": "66436d7e2b95b36051f7ac050e76352b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975830581 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.600474,
+    "ast_hash": "72b13815b81bb0e529fb8c2972570aad",
+    "semantic_hash": "72b13815b81bb0e529fb8c2972570aad"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975831868 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.600474,
+    "ast_hash": "159cf05479e443e3dd11e0093f1e9551",
+    "semantic_hash": "159cf05479e443e3dd11e0093f1e9551"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975832669 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.601474,
+    "ast_hash": "b6108be2a4c26a3d9bf80ee752b4193f",
+    "semantic_hash": "b6108be2a4c26a3d9bf80ee752b4193f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975837433 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6024723,
+    "ast_hash": "c5c85f3ac07c792772d80fd1d68eb212",
+    "semantic_hash": "c5c85f3ac07c792772d80fd1d68eb212"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975837847 No Limit Hold'em Freeroll.txt": {
+    "mtime": 1780175622.6034715,
+    "ast_hash": "27a27ac1cbaccc347af34cf11c81f5ff",
+    "semantic_hash": "27a27ac1cbaccc347af34cf11c81f5ff"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975838422 No Limit Hold'em Freeroll.txt": {
+    "mtime": 1780175622.6034715,
+    "ast_hash": "7311c38ee22ad2b4eb7599ba072a6403",
+    "semantic_hash": "7311c38ee22ad2b4eb7599ba072a6403"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260216 T3975840243 No Limit Hold'em Freeroll.txt": {
+    "mtime": 1780175622.6044736,
+    "ast_hash": "73a0fd6f89346fc7b35933ec26b6759a",
+    "semantic_hash": "73a0fd6f89346fc7b35933ec26b6759a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3974762738 No Limit 6+ Hold'em 22+3.txt": {
+    "mtime": 1780175622.6044736,
+    "ast_hash": "9e7f9386849b03940acc22f3d4668180",
+    "semantic_hash": "9e7f9386849b03940acc22f3d4668180"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975949849 No Limit Hold'em US$ 0,29+US$ 0,01.txt": {
+    "mtime": 1780175622.605472,
+    "ast_hash": "5756d02b19be003b84b8af84c9a846a3",
+    "semantic_hash": "5756d02b19be003b84b8af84c9a846a3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975957387 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6064754,
+    "ast_hash": "a61392faa7107d8b07114d02482c3917",
+    "semantic_hash": "a61392faa7107d8b07114d02482c3917"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975958080 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.6075063,
+    "ast_hash": "65d9b9c2aebfb0d5295c1f567829dd1c",
+    "semantic_hash": "65d9b9c2aebfb0d5295c1f567829dd1c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975959727 No Limit Hold'em US$ 0,29+US$ 0,01.txt": {
+    "mtime": 1780175622.608472,
+    "ast_hash": "e02bf95eb591b1ab03d082e50261e74f",
+    "semantic_hash": "e02bf95eb591b1ab03d082e50261e74f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975960271 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.608472,
+    "ast_hash": "a0da5e28344ae4c346bb9210cf063154",
+    "semantic_hash": "a0da5e28344ae4c346bb9210cf063154"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975960660 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.6094728,
+    "ast_hash": "bcb9765172f73520728ee53dccc72c86",
+    "semantic_hash": "bcb9765172f73520728ee53dccc72c86"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975961807 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6104739,
+    "ast_hash": "5ed79f0f2707ee23bdfcfa3f761e7147",
+    "semantic_hash": "5ed79f0f2707ee23bdfcfa3f761e7147"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975963130 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.6104739,
+    "ast_hash": "09ee06f4da6d67e112d108652186885d",
+    "semantic_hash": "09ee06f4da6d67e112d108652186885d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975963157 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6114717,
+    "ast_hash": "dbf0c76c64099c6b2631aeaa24fe7623",
+    "semantic_hash": "dbf0c76c64099c6b2631aeaa24fe7623"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975967913 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6114717,
+    "ast_hash": "5f2a78ae25a5e900a3160f4c95f79ba3",
+    "semantic_hash": "5f2a78ae25a5e900a3160f4c95f79ba3"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975968186 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.6134882,
+    "ast_hash": "ace099933b03374863d541e1a005652d",
+    "semantic_hash": "ace099933b03374863d541e1a005652d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975972855 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6134882,
+    "ast_hash": "1f566cfaebfcc21467db74420cff23f6",
+    "semantic_hash": "1f566cfaebfcc21467db74420cff23f6"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975974411 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.614474,
+    "ast_hash": "ae4d99ebe555c112aca282bfa7bed39a",
+    "semantic_hash": "ae4d99ebe555c112aca282bfa7bed39a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260217 T3975983059 No Limit Hold'em US$ 0,46+US$ 0,04.txt": {
+    "mtime": 1780175622.615474,
+    "ast_hash": "56dc61dcb4a1606cb41670c8f4a8e988",
+    "semantic_hash": "56dc61dcb4a1606cb41670c8f4a8e988"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989275876 No Limit Hold'em US$ 0,91+US$ 0,09.txt": {
+    "mtime": 1780175622.615474,
+    "ast_hash": "ad17c14b5c35e071ed640fb139de6b1a",
+    "semantic_hash": "ad17c14b5c35e071ed640fb139de6b1a"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989276326 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.6165423,
+    "ast_hash": "4a5d037bc7297b5cfdf3a49fccb3ee7b",
+    "semantic_hash": "4a5d037bc7297b5cfdf3a49fccb3ee7b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989277038 No Limit Hold'em US$ 0,91+US$ 0,09.txt": {
+    "mtime": 1780175622.6174717,
+    "ast_hash": "12d1e815d7db3e6d33aecea24ad600c1",
+    "semantic_hash": "12d1e815d7db3e6d33aecea24ad600c1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989277405 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6174717,
+    "ast_hash": "4b04e5490ca30d314d407ef7d51f73f1",
+    "semantic_hash": "4b04e5490ca30d314d407ef7d51f73f1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989289921 No Limit Hold'em US$ 0,46+US$ 0,04.txt": {
+    "mtime": 1780175622.6184716,
+    "ast_hash": "b629c3b6d230ecaf88253801892fd1f1",
+    "semantic_hash": "b629c3b6d230ecaf88253801892fd1f1"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989304794 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.6194718,
+    "ast_hash": "7cdea9b8eb80722ca0884b5565628cb0",
+    "semantic_hash": "7cdea9b8eb80722ca0884b5565628cb0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989305854 No Limit Hold'em US$ 1,70+US$ 0,30.txt": {
+    "mtime": 1780175622.6194718,
+    "ast_hash": "59db43d4c76dacf87d38e21bef64495e",
+    "semantic_hash": "59db43d4c76dacf87d38e21bef64495e"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989305980 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.6204703,
+    "ast_hash": "8d8dffa98a164cb27597e2d8fe935b2b",
+    "semantic_hash": "8d8dffa98a164cb27597e2d8fe935b2b"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989306107 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.6204703,
+    "ast_hash": "fc6fccc56bb150267715539a3c4b8320",
+    "semantic_hash": "fc6fccc56bb150267715539a3c4b8320"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989316179 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.6214764,
+    "ast_hash": "46ee5ff5d027fa547539e8b6e68d73f0",
+    "semantic_hash": "46ee5ff5d027fa547539e8b6e68d73f0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989316412 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.6224751,
+    "ast_hash": "f336e351f87aef4e21c4cafde01ec40d",
+    "semantic_hash": "f336e351f87aef4e21c4cafde01ec40d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989317146 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.6244712,
+    "ast_hash": "6a724103588a904c0bbfba0a8823a53d",
+    "semantic_hash": "6a724103588a904c0bbfba0a8823a53d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989317274 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.625473,
+    "ast_hash": "3919239f4351d646fb61cf190db36a50",
+    "semantic_hash": "3919239f4351d646fb61cf190db36a50"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989329814 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.625473,
+    "ast_hash": "10ac9872d96c6275611b5f14b5b12363",
+    "semantic_hash": "10ac9872d96c6275611b5f14b5b12363"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989329851 No Limit Hold'em US$ 1,70+US$ 0,30.txt": {
+    "mtime": 1780175622.6264734,
+    "ast_hash": "894f37209b4bc1d865ab4b2467b8dc03",
+    "semantic_hash": "894f37209b4bc1d865ab4b2467b8dc03"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989330107 No Limit Hold'em US$ 0,42+US$ 0,08.txt": {
+    "mtime": 1780175622.6274748,
+    "ast_hash": "1076c8c25d091e91ec116890952d91ae",
+    "semantic_hash": "1076c8c25d091e91ec116890952d91ae"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989330647 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.6274748,
+    "ast_hash": "41b8012a74a81faf91ba09b1b980b68c",
+    "semantic_hash": "41b8012a74a81faf91ba09b1b980b68c"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989352976 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6284752,
+    "ast_hash": "75a2becce492f40764c47539c15c43f9",
+    "semantic_hash": "75a2becce492f40764c47539c15c43f9"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260404 T3989354302 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6284752,
+    "ast_hash": "de5947218262f0a4b7fc72371a08fce6",
+    "semantic_hash": "de5947218262f0a4b7fc72371a08fce6"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989529501 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.629475,
+    "ast_hash": "3fc334c79bd9b138f9f30a43db08e416",
+    "semantic_hash": "3fc334c79bd9b138f9f30a43db08e416"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989540623 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.6304731,
+    "ast_hash": "b2d62b04c7f222269a2678bcda3d4580",
+    "semantic_hash": "b2d62b04c7f222269a2678bcda3d4580"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989541132 No Limit Hold'em US$ 0,85+US$ 0,15.txt": {
+    "mtime": 1780175622.6314778,
+    "ast_hash": "551a051aa7e55b9fbefae91e91d31f83",
+    "semantic_hash": "551a051aa7e55b9fbefae91e91d31f83"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989543785 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.632476,
+    "ast_hash": "357f069bef3bcd5a2bfeb51381dc9e87",
+    "semantic_hash": "357f069bef3bcd5a2bfeb51381dc9e87"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989565352 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6334748,
+    "ast_hash": "78b5d204c78ef7402ae2559bf65c3777",
+    "semantic_hash": "78b5d204c78ef7402ae2559bf65c3777"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989565558 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.6344717,
+    "ast_hash": "1e5210ebf21d50c125b8414077a00ce0",
+    "semantic_hash": "1e5210ebf21d50c125b8414077a00ce0"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989565607 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6344717,
+    "ast_hash": "335335bdb65b8e0e842bfa00cd2242b8",
+    "semantic_hash": "335335bdb65b8e0e842bfa00cd2242b8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989574118 No Limit Hold'em US$ 0,46+US$ 0,04.txt": {
+    "mtime": 1780175622.635474,
+    "ast_hash": "d914ac8bc9214b06e5b3ebb9153f6f5d",
+    "semantic_hash": "d914ac8bc9214b06e5b3ebb9153f6f5d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989574182 No Limit Hold'em US$ 0,96+US$ 0,04.txt": {
+    "mtime": 1780175622.6364725,
+    "ast_hash": "652ecbd6a054d5eb21690726872fb574",
+    "semantic_hash": "652ecbd6a054d5eb21690726872fb574"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989574426 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.6364725,
+    "ast_hash": "bd48ed7046495f8d7a0685450c4440ff",
+    "semantic_hash": "bd48ed7046495f8d7a0685450c4440ff"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989578117 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6374724,
+    "ast_hash": "ca8e362e9becd3667e88d484af039a43",
+    "semantic_hash": "ca8e362e9becd3667e88d484af039a43"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989589709 No Limit Hold'em US$ 0,45+US$ 0,05.txt": {
+    "mtime": 1780175622.6374724,
+    "ast_hash": "5999ee681441987a9145801985b46fe8",
+    "semantic_hash": "5999ee681441987a9145801985b46fe8"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989590783 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.638471,
+    "ast_hash": "11eb58b9c891e1cc5748a42fb54aca92",
+    "semantic_hash": "11eb58b9c891e1cc5748a42fb54aca92"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989590908 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.6394713,
+    "ast_hash": "477f58c41df2cfaf3a3c364fce485076",
+    "semantic_hash": "477f58c41df2cfaf3a3c364fce485076"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989607291 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.640473,
+    "ast_hash": "eb76cc967911f0a823467fa05be02885",
+    "semantic_hash": "eb76cc967911f0a823467fa05be02885"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989607944 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.6414745,
+    "ast_hash": "e79d1d3c00530692d8c34c298e7238dd",
+    "semantic_hash": "e79d1d3c00530692d8c34c298e7238dd"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989608128 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6424732,
+    "ast_hash": "71f31ad110b7bd7fd4ca0d9855bf4b4d",
+    "semantic_hash": "71f31ad110b7bd7fd4ca0d9855bf4b4d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989612229 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6444757,
+    "ast_hash": "cfaa37bdaea08df187a31038bd744be5",
+    "semantic_hash": "cfaa37bdaea08df187a31038bd744be5"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989613934 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.6444757,
+    "ast_hash": "a489a8078ee06aa39d65ccc4953269b6",
+    "semantic_hash": "a489a8078ee06aa39d65ccc4953269b6"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989614144 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6454725,
+    "ast_hash": "b5c74bf9ccc169083490f183ac032209",
+    "semantic_hash": "b5c74bf9ccc169083490f183ac032209"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989615918 No Limit Hold'em US$ 1,80+US$ 0,20.txt": {
+    "mtime": 1780175622.6454725,
+    "ast_hash": "153e21233d1f1aac1c7a554ced565d42",
+    "semantic_hash": "153e21233d1f1aac1c7a554ced565d42"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989619338 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6464732,
+    "ast_hash": "d98882e963c79f74a71afcd93599e864",
+    "semantic_hash": "d98882e963c79f74a71afcd93599e864"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989623412 No Limit Hold'em US$ 0,98+US$ 0,12.txt": {
+    "mtime": 1780175622.6484754,
+    "ast_hash": "655ff8d2690394191d7056dbf7023375",
+    "semantic_hash": "655ff8d2690394191d7056dbf7023375"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\src\\test\\fixtures\\pokerstars\\ts\\TS20260405 T3989625926 No Limit Hold'em US$ 0,90+US$ 0,10.txt": {
+    "mtime": 1780175622.6494725,
+    "ast_hash": "e959c4423cba801dfb2d8bfe96c46b0d",
+    "semantic_hash": "e959c4423cba801dfb2d8bfe96c46b0d"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\public\\apple-touch-icon.png": {
+    "mtime": 1780408668.2387962,
+    "ast_hash": "b735ab3e14e2f843509279d59cfa7c65",
+    "semantic_hash": "b735ab3e14e2f843509279d59cfa7c65"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\public\\masked-icon.svg": {
+    "mtime": 1780408668.239796,
+    "ast_hash": "e9a3231b7a2d3cd2c7d7f9906bfa0e8f",
+    "semantic_hash": "e9a3231b7a2d3cd2c7d7f9906bfa0e8f"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\public\\pwa-192x192.png": {
+    "mtime": 1780408668.2407968,
+    "ast_hash": "b9db2726b709fcae2fc6feec05b30899",
+    "semantic_hash": "b9db2726b709fcae2fc6feec05b30899"
+  },
+  "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\public\\pwa-512x512.png": {
+    "mtime": 1780408668.2427979,
+    "ast_hash": "74968d045113984efd756d46767cce31",
+    "semantic_hash": "74968d045113984efd756d46767cce31"
+  }
+}

@@ -1,0 +1,18 @@
+---
+source_file: "OneDrive/Documentos/GitHub/poker/package.json"
+type: "code"
+community: "Build & Test Scripts"
+location: "L17"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Build__Test_Scripts
+---
+[package.json (L17)](file:///C:/Users/MICRO/OneDrive/Documentos/GitHub/poker/package.json)
+
+# privacy:check
+
+## Connections
+- [[scripts]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Build__Test_Scripts
