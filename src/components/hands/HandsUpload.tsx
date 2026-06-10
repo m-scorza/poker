@@ -20,6 +20,7 @@ import {
   buildImportRunTimeline,
   summarizeDataHealth,
   type ImportDiagnosticsEnvironment,
+  type ImportConfidenceLedger,
 } from '../../data/importRuns';
 import {
   clearLocalHeadsUpReferenceSet,
@@ -39,6 +40,17 @@ const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
 const formatDateTime = (date: Date | null) => date
   ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date)
   : 'Never';
+
+const analysisPostureLabels: Record<ImportConfidenceLedger['analysisPosture'], string> = {
+  empty: 'No baseline',
+  ready: 'Ready',
+  directional: 'Directional',
+  blocked: 'Needs review',
+};
+
+function formatLedgerRate(rate: number | null): string {
+  return rate === null ? 'n/a' : `${Math.round(rate * 100)}%`;
+}
 
 function getBrowserFamily(userAgent: string): string {
   if (/Edg\//.test(userAgent)) return 'Edge';
@@ -375,6 +387,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const dataHealth = summarizeDataHealth(recentImportRuns ?? []);
   const importRunTimeline = buildImportRunTimeline(recentImportRuns ?? []);
   const retainedImportRunCount = retainedImportRuns?.length ?? 0;
+  const topWarningCategories = dataHealth.ledger.warningCategories.slice(0, 2);
 
   function downloadImportDiagnostics() {
     const markdown = buildImportDiagnosticsMarkdown(retainedImportRuns ?? [], {
@@ -520,8 +533,18 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
               <div><span className="text-[var(--color-text)]">Failed:</span> {dataHealth.recentFailedFiles}</div>
             </div>
             <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[10px] text-[var(--color-text-muted)]">
-              Local diagnostics: {retainedImportRunCount} retained import run{retainedImportRunCount === 1 ? '' : 's'}.
-              Keeps the latest {IMPORT_DIAGNOSTICS_RETENTION_RUNS} locally and excludes raw hands, cards, actions, and local paths.
+              <div>
+                Local diagnostics: {retainedImportRunCount} retained import run{retainedImportRunCount === 1 ? '' : 's'}.
+                Keeps the latest {IMPORT_DIAGNOSTICS_RETENTION_RUNS} locally and excludes raw hands, cards, actions, and local paths.
+              </div>
+              <div className="mt-1">
+                Confidence ledger: {analysisPostureLabels[dataHealth.ledger.analysisPosture]}; {dataHealth.ledger.parsedFiles}/{dataHealth.ledger.totalFiles} files parsed ({formatLedgerRate(dataHealth.ledger.parsedFileRate)}); confidence mix H/M/L {dataHealth.ledger.confidenceCounts.high}/{dataHealth.ledger.confidenceCounts.medium}/{dataHealth.ledger.confidenceCounts.low}.
+              </div>
+              {topWarningCategories.length > 0 && (
+                <div className="mt-1 text-yellow-100/80">
+                  Top parser warning categories: {topWarningCategories.map(row => `${row.label} ${row.count}`).join(', ')}.
+                </div>
+              )}
             </div>
           </>
         )}

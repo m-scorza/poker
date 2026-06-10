@@ -1,10 +1,41 @@
 import { describe, it, expect } from 'vitest';
+
+class MemoryStorage {
+  private data = new Map<string, string>();
+  get length(): number {
+    return this.data.size;
+  }
+  clear(): void {
+    this.data.clear();
+  }
+  getItem(key: string): string | null {
+    return this.data.has(key) ? this.data.get(key)! : null;
+  }
+  key(index: number): string | null {
+    return Array.from(this.data.keys())[index] ?? null;
+  }
+  removeItem(key: string): void {
+    this.data.delete(key);
+  }
+  setItem(key: string, value: string): void {
+    this.data.set(key, String(value));
+  }
+}
+
+const memoryStorage = new MemoryStorage();
+Object.defineProperty(globalThis, 'localStorage', {
+  value: memoryStorage,
+  configurable: true,
+  writable: true,
+});
+
 import {
   validateRFIRanges,
   validatePushRanges,
   rangeAccuracyScore,
   rangeValidationSummary,
 } from '../rangeValidator';
+import { saveCustomRange, deleteCustomRange } from '../../data/store';
 
 describe('validateRFIRanges', () => {
   it('returns results for all RFI positions', () => {
@@ -57,6 +88,23 @@ describe('validateRFIRanges', () => {
     const results = validateRFIRanges();
     const highMedium = results.filter((r) => r.confidence === 'high' || r.confidence === 'medium');
     expect(highMedium.length).toBeGreaterThanOrEqual(results.length / 2);
+  });
+
+  it('respects user-saved custom RFI ranges', () => {
+    const customUTG = ['AA', 'KK', 'QQ'];
+    saveCustomRange('UTG', customUTG);
+
+    try {
+      const results = validateRFIRanges();
+      const utg = results.find((r) => r.position === 'UTG')!;
+      expect(utg.ourCount).toBe(3);
+    } finally {
+      deleteCustomRange('UTG');
+    }
+
+    const reverted = validateRFIRanges();
+    const utgReverted = reverted.find((r) => r.position === 'UTG')!;
+    expect(utgReverted.ourCount).not.toBe(3);
   });
 });
 

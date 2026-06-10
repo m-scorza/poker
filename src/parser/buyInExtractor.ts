@@ -20,6 +20,7 @@ export interface ExtractedBuyIn {
   /** True when the input produced no confident match. Callers should
    *  treat buyIn/fee as unknown rather than zero. */
   unresolved: boolean;
+  isBounty?: boolean;
 }
 
 /**
@@ -51,6 +52,14 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
   const lowerName = nameHint.toLowerCase();
   const lowerSource = source.toLowerCase();
 
+  const isBountyKeyword =
+    lowerName.includes('knockout') ||
+    lowerName.includes('bounty') ||
+    lowerName.includes('ko') ||
+    lowerSource.includes('knockout') ||
+    lowerSource.includes('bounty') ||
+    lowerSource.includes('ko');
+
   // --- Explicit non-cash currencies first ---
   if (
     lowerName.includes('freeroll') ||
@@ -58,18 +67,18 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
     lowerName.includes('play money') ||
     lowerName.includes('pm ')
   ) {
-    return { buyIn: 0, fee: 0, currency: 'PLAY', unresolved: false };
+    return { buyIn: 0, fee: 0, currency: 'PLAY', unresolved: false, isBounty: isBountyKeyword };
   }
   if (lowerName.includes('fpp') || lowerName.includes('starscoin')) {
-    return { buyIn: 0, fee: 0, currency: 'PLAY', unresolved: false };
+    return { buyIn: 0, fee: 0, currency: 'PLAY', unresolved: false, isBounty: isBountyKeyword };
   }
   if (lowerSource.includes('ticket') || lowerName.includes('ticket')) {
-    return { buyIn: 0, fee: 0, currency: 'TICKET', unresolved: false };
+    return { buyIn: 0, fee: 0, currency: 'TICKET', unresolved: false, isBounty: isBountyKeyword };
   }
 
   // T$ (Tournament Dollars / Player points) — still zero USD impact.
   if (lowerSource.includes('t$') || lowerName.includes('t$')) {
-    return { buyIn: 0, fee: 0, currency: 'T$', unresolved: false };
+    return { buyIn: 0, fee: 0, currency: 'T$', unresolved: false, isBounty: isBountyKeyword };
   }
 
   const cleaned = stripGuarantees(source);
@@ -86,14 +95,14 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
       if (part1 === null || part2 === null || part3 === null) {
         return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
       }
-      return applyCeilingCents(part1 + part2, part3);
+      return applyCeilingCents(part1 + part2, part3, true);
     }
     const buyInCents = parseUsdCents(canonical[1]!);
     const feeCents = parseUsdCents(canonical[2]!);
     if (buyInCents === null || feeCents === null) {
       return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
     }
-    return applyCeilingCents(buyInCents, feeCents);
+    return applyCeilingCents(buyInCents, feeCents, isBountyKeyword);
   }
 
   // Brazilian locale: `US$ 0,49+US$ 0,06` / `US$ 1,40 + US$ 0,10`.
@@ -106,7 +115,7 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
     if (buyInCents === null || feeCents === null) {
       return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
     }
-    return applyCeilingCents(buyInCents, feeCents);
+    return applyCeilingCents(buyInCents, feeCents, isBountyKeyword);
   }
 
   // GGPoker often encodes the full cost as a single cash amount in the
@@ -119,14 +128,14 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
     if (buyInCents === null) {
       return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
     }
-    return applyCeilingCents(buyInCents, 0);
+    return applyCeilingCents(buyInCents, 0, isBountyKeyword);
   }
 
   // Nothing confidently matched. Do NOT fall back to a greedy
   // "any N+N anywhere on the line" pattern — that's what produced the
   // $250,006.60 phantom buy-in. Leave unresolved and let the caller
   // decide (typically: keep prior value, don't overwrite).
-  return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
+  return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true, isBounty: isBountyKeyword };
 }
 
 /**
@@ -134,7 +143,7 @@ export function extractBuyIn(nameHint: string, source: string): ExtractedBuyIn {
  * USD floats. If the parsed buy-in (+ fee) exceeds the ceiling, treat as
  * unresolved so the caller can fall back rather than poison the dashboard.
  */
-function applyCeilingCents(buyInCents: number, feeCents: number): ExtractedBuyIn {
+function applyCeilingCents(buyInCents: number, feeCents: number, isBounty?: boolean): ExtractedBuyIn {
   if (!Number.isFinite(buyInCents) || !Number.isFinite(feeCents)) {
     return { buyIn: 0, fee: 0, currency: 'USD', unresolved: true };
   }
@@ -147,5 +156,7 @@ function applyCeilingCents(buyInCents: number, feeCents: number): ExtractedBuyIn
     fee: centsToUsd(feeCents),
     currency: 'USD',
     unresolved: false,
+    isBounty,
   };
 }
+

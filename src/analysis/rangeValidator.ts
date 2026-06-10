@@ -14,6 +14,7 @@
 import { RFI_RANGES } from '../data/ranges';
 import { PUSH_RANGES } from '../data/pushFoldRanges';
 import type { Position } from '../types/analysis';
+import { loadCustomRange } from '../data/store';
 
 export interface RangeValidationResult {
   position: Position;
@@ -90,7 +91,10 @@ export function validateRFIRanges(
     const baseline = SOLVER_RFI_BASELINES[pos];
     if (!baseline) continue;
 
-    const ourCount = range.size;
+    const custom = loadCustomRange(pos);
+    const activeRange = custom || range;
+
+    const ourCount = activeRange.size;
     const ourPct = (ourCount / TOTAL_COMBOS) * 100;
     const solverPct = stackDepth === 30 ? baseline.pct30bb
       : stackDepth === 100 ? baseline.pct100bb
@@ -138,7 +142,10 @@ export function validatePushRanges(): RangeValidationResult[] {
     const solverPct = SOLVER_PUSH_BASELINES[pos];
     if (solverPct === undefined) continue;
 
-    const ourCount = range.size;
+    const custom = loadCustomRange(pos);
+    const activeRange = custom || range;
+
+    const ourCount = activeRange.size;
     const ourPct = (ourCount / TOTAL_COMBOS) * 100;
     const delta = Math.abs(ourPct - solverPct);
     const direction: RangeValidationResult['direction'] =

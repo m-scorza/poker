@@ -4,9 +4,11 @@ import type { ImportSummary } from '../../parser/workerProcessor';
 import {
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,
   MAX_DIAGNOSTIC_TEXT_LENGTH,
+  buildImportConfidenceLedger,
   buildImportDiagnosticsMarkdown,
   buildImportRunRecord,
   buildImportRunTimeline,
+  categorizeImportWarning,
   sanitizeDiagnosticSourceFile,
   sanitizeDiagnosticText,
   summarizeDataHealth,
@@ -82,6 +84,96 @@ describe('diagnostic redaction helpers', () => {
   });
 });
 
+describe('import confidence ledger', () => {
+  it('categorizes parser warnings into stable support categories', () => {
+    expect(categorizeImportWarning('bad.txt: unsupported file')).toBe('unsupported_format');
+    expect(categorizeImportWarning('huge.txt: File body exceeded parser limit')).toBe('parser_limit');
+    expect(categorizeImportWarning('summary.txt: missing finish position')).toBe('summary_gap');
+    expect(categorizeImportWarning('hands.txt: Could not parse hand block')).toBe('parse_failure');
+    expect(categorizeImportWarning('hands.txt: skipped partial hand')).toBe('partial_import');
+    expect(categorizeImportWarning('hands.txt: strange but readable')).toBe('other');
+  });
+
+  it('aggregates retained confidence, parse rate, saved records, and warning categories', () => {
+    const olderHigh = buildImportRunRecord(
+      { ...baseSummary, totalFiles: 1, parsedFiles: 1, failedFiles: 0, confidence: 'high', warnings: [] },
+      ['older.txt'],
+      { savedHands: 50, savedSummaries: 1 },
+      new Date('2026-05-16T20:00:00Z'),
+    );
+    const latestMedium = buildImportRunRecord(
+      {
+        ...baseSummary,
+        warnings: [
+          'bad.txt: unsupported file',
+          'summary.txt: missing finish position',
+          'other.txt: unsupported file',
+        ],
+      },
+      ['latest-1.txt', 'latest-2.txt', 'bad.txt'],
+      { savedHands: 118, savedSummaries: 2 },
+      new Date('2026-05-17T20:00:00Z'),
+    );
+
+    const ledger = buildImportConfidenceLedger([olderHigh, latestMedium]);
+
+    expect(ledger).toMatchObject({
+      analysisPosture: 'directional',
+      latestConfidence: 'medium',
+      latestImportedAt: new Date('2026-05-17T20:00:00Z'),
+      totalRuns: 2,
+      totalFiles: 4,
+      parsedFiles: 3,
+      failedFiles: 1,
+      savedHands: 168,
+      savedSummaries: 3,
+      parsedFileRate: 0.75,
+      confidenceCounts: {
+        high: 1,
+        medium: 1,
+        low: 0,
+      },
+      reviewFocus: 'Latest import has warnings; treat analysis as directional and review the top warning categories.',
+    });
+    expect(ledger.warningCategories).toEqual([
+      {
+        category: 'unsupported_format',
+        label: 'Unsupported format',
+        count: 2,
+        examples: ['bad.txt: unsupported file', 'other.txt: unsupported file'],
+      },
+      {
+        category: 'summary_gap',
+        label: 'Summary recovery gap',
+        count: 1,
+        examples: ['summary.txt: missing finish position'],
+      },
+    ]);
+  });
+
+  it('returns an empty posture before imports exist', () => {
+    expect(buildImportConfidenceLedger([])).toEqual({
+      analysisPosture: 'empty',
+      latestConfidence: null,
+      latestImportedAt: null,
+      totalRuns: 0,
+      totalFiles: 0,
+      parsedFiles: 0,
+      failedFiles: 0,
+      savedHands: 0,
+      savedSummaries: 0,
+      parsedFileRate: null,
+      confidenceCounts: {
+        high: 0,
+        medium: 0,
+        low: 0,
+      },
+      warningCategories: [],
+      reviewFocus: 'Import hand histories to establish a parser confidence baseline.',
+    });
+  });
+});
+
 describe('buildImportRunRecord', () => {
   it('preserves import summary, sanitized source filenames, saved counts, warnings, diagnostics, and timestamp', () => {
     const importedAt = new Date('2026-05-17T20:00:00Z');
@@ -145,6 +237,25 @@ describe('summarizeDataHealth', () => {
       recentFailedFiles: 0,
       warnings: [],
       message: 'No import history recorded yet.',
+      ledger: {
+        analysisPosture: 'empty',
+        latestConfidence: null,
+        latestImportedAt: null,
+        totalRuns: 0,
+        totalFiles: 0,
+        parsedFiles: 0,
+        failedFiles: 0,
+        savedHands: 0,
+        savedSummaries: 0,
+        parsedFileRate: null,
+        confidenceCounts: {
+          high: 0,
+          medium: 0,
+          low: 0,
+        },
+        warningCategories: [],
+        reviewFocus: 'Import hand histories to establish a parser confidence baseline.',
+      },
     });
   });
 
@@ -174,6 +285,9 @@ describe('summarizeDataHealth', () => {
     expect(summary.recentFailedFiles).toBe(1);
     expect(summary.warnings).toEqual(baseSummary.warnings);
     expect(summary.message).toBe('Latest import has warnings; analysis should be treated as directional.');
+    expect(summary.ledger.analysisPosture).toBe('directional');
+    expect(summary.ledger.confidenceCounts).toEqual({ high: 1, medium: 1, low: 0 });
+    expect(summary.ledger.warningCategories.map(row => row.category)).toEqual(['unsupported_format', 'summary_gap']);
   });
 
   it('keeps low-confidence latest imports low even with saved hands', () => {
@@ -191,6 +305,7 @@ describe('summarizeDataHealth', () => {
     expect(summary.recentFailedFiles).toBe(3);
     expect(summary.warnings).toEqual(['all files failed']);
     expect(summary.message).toBe('Latest import is low confidence; fix import warnings before trusting analysis.');
+    expect(summary.ledger.analysisPosture).toBe('blocked');
   });
 });
 
@@ -281,6 +396,12 @@ describe('buildImportDiagnosticsMarkdown', () => {
     expect(report).toContain('Collection: automatic local-only diagnostics.');
     expect(report).toContain('It does not include raw hand histories');
     expect(report).toContain('local paths');
+    expect(report).toContain('## Import Confidence Ledger');
+    expect(report).toContain('- Analysis posture: directional');
+    expect(report).toContain('- Files parsed: 3/4 (75%)');
+    expect(report).toContain('- Confidence mix: high 1, medium 1, low 0');
+    expect(report).toContain('- Unsupported format: 1; examples: bad.txt: unsupported file');
+    expect(report).toContain('- Summary recovery gap: 1; examples: summary.txt: missing finish position');
     expect(report.indexOf('## Import 1: 2026-05-17T20:00:00.000Z')).toBeLessThan(
       report.indexOf('## Import 2: 2026-05-16T10:00:00.000Z'),
     );

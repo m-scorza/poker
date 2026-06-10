@@ -324,4 +324,75 @@ describe('parsePokerStarsFile', () => {
       expect(parsePokerStarsFile('not a hand history')).toEqual([]);
     });
   });
+
+  describe('bounty tournaments and cents math', () => {
+    it('extracts hand-level bounty and sets tournament category to Progressive KO', () => {
+      const bountyHand = [
+        "PokerStars Hand #260356649000: Tournament #3989541132, $10.00+$10.00+$2.00 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:00:00 ET",
+        "Table '3989541132 1' 9-max Seat #1 is the button",
+        "Seat 1: hero (1500 in chips)",
+        "Seat 2: villA (1500 in chips)",
+        "hero: posts small blind 10",
+        "villA: posts big blind 20",
+        "*** HOLE CARDS ***",
+        "Dealt to hero [Ac Kc]",
+        "hero: raises 40 to 60",
+        "villA: calls 40",
+        "*** FLOP *** [Ad Kd 2s]",
+        "hero: bets 100",
+        "villA: raises 100 to 200",
+        "hero: raises 1240 to 1440 and is all-in",
+        "villA: calls 1240 and is all-in",
+        "*** TURN *** [Ad Kd 2s] [3h]",
+        "*** RIVER *** [Ad Kd 2s 3h] [4c]",
+        "hero wins the $10.00 bounty for eliminating villA",
+        "*** SHOW DOWN ***",
+        "hero: shows [Ac Kc] (two pair, Aces and Kings)",
+        "villA: shows [Qh Qs] (a pair of Queens)",
+        "hero collected 3000 from pot",
+        "*** SUMMARY ***",
+        "Total pot 3000 | Rake 0",
+        "Board [Ad Kd 2s 3h 4c]",
+        "Seat 1: hero (button) (small blind) showed [Ac Kc] and won (3000)",
+        "Seat 2: villA (big blind) showed [Qh Qs] and lost"
+      ].join('\n');
+
+      const [parsed] = parsePokerStarsFile(bountyHand, 'hero');
+      expect(parsed).toBeDefined();
+      expect(parsed!.hand.bountyCollected).toBe(10);
+      expect(parsed!.tournament.category).toBe('Progressive KO');
+      expect((parsed!.tournament as any).bounty).toBeUndefined();
+    });
+
+    it('processes stack and voluntary actions using cents math without float drift', () => {
+      const floatDriftHand = [
+        "PokerStars Hand #260356649001: Tournament #3989541132, $1.50+$0.15 USD Hold'em No Limit - Level I (1/2) - 2026/04/05 18:00:00 ET",
+        "Table '3989541132 1' 9-max Seat #1 is the button",
+        "Seat 1: hero (1.50 in chips)",
+        "Seat 2: villA (1.50 in chips)",
+        "hero: posts small blind 0.10",
+        "villA: posts big blind 0.20",
+        "*** HOLE CARDS ***",
+        "Dealt to hero [Ac Kc]",
+        "hero: bets 0.30",
+        "villA: calls 0.30",
+        "*** FLOP *** [Ad Kd 2s]",
+        "hero: bets 1.10 and is all-in",
+        "villA: calls 1.10 and is all-in",
+        "*** SHOW DOWN ***",
+        "hero: shows [Ac Kc]",
+        "villA: shows [Qh Qs]",
+        "hero collected 3.00 from pot",
+        "*** SUMMARY ***",
+        "Total pot 3.00 | Rake 0",
+        "Seat 1: hero (button) (small blind) showed [Ac Kc] and won (3.00)",
+        "Seat 2: villA (big blind) showed [Qh Qs] and lost"
+      ].join('\n');
+
+      const [parsed] = parsePokerStarsFile(floatDriftHand, 'hero');
+      expect(parsed).toBeDefined();
+      expect(parsed!.hand.heroChipsAfter).toBe(3.00);
+      expect(parsed!.players.find(p => p.isHero)!.chipsAfter).toBe(3.00);
+    });
+  });
 });

@@ -96,3 +96,64 @@ export function sumUsd(values: readonly number[]): number {
   }
   return cents / 100;
 }
+
+/**
+ * Parse chip/stack string from Seat line into a float number of chips.
+ * Handles both US locale (comma as thousands, dot as decimal) and
+ * European/Brazilian locale (dot/space as thousands, comma as decimal).
+ */
+export function parseLocaleChips(input: string): number {
+  if (typeof input !== 'string') return 0;
+  let trimmed = input.trim();
+  if (!trimmed) return 0;
+
+  // Strip non-numeric prefixes (e.g. currency symbols like $, R$, US$)
+  trimmed = trimmed.replace(/^[^0-9.,-]+/, '').trim();
+
+  const hasDot = trimmed.includes('.');
+  const hasComma = trimmed.includes(',');
+
+  let normalized: string;
+
+  if (hasDot && hasComma) {
+    const firstDot = trimmed.indexOf('.');
+    const firstComma = trimmed.indexOf(',');
+    if (firstComma < firstDot) {
+      // Comma comes first: e.g. "1,500.50" (US format)
+      normalized = trimmed.replace(/,/g, '');
+    } else {
+      // Dot comes first: e.g. "1.500,50" (BR format)
+      normalized = trimmed.replace(/\./g, '').replace(',', '.');
+    }
+  } else if (hasDot) {
+    // Only dots: check if it represents a decimal (e.g. "1.5" or "1.50")
+    // or thousands (e.g. "1.500" or "1.500.000")
+    const parts = trimmed.split('.');
+    const lastPart = parts[parts.length - 1]!;
+    if (parts.length === 2 && lastPart.length < 3) {
+      // Single dot followed by 1 or 2 digits: e.g. "1.50" (cash game $1.50)
+      normalized = trimmed;
+    } else {
+      // Thousands separator: e.g. "1.500" -> "1500" or "1.500.000" -> "1500000"
+      normalized = trimmed.replace(/\./g, '');
+    }
+  } else if (hasComma) {
+    // Only commas: check if it represents a decimal (e.g. "1,5" or "1,50")
+    // or thousands (e.g. "1,500" or "1,500,000")
+    const parts = trimmed.split(',');
+    const lastPart = parts[parts.length - 1]!;
+    if (parts.length === 2 && lastPart.length < 3) {
+      // Single comma followed by 1 or 2 digits: e.g. "1,50" -> "1.50"
+      normalized = trimmed.replace(',', '.');
+    } else {
+      // Thousands separator: e.g. "1,500" -> "1500"
+      normalized = trimmed.replace(/,/g, '');
+    }
+  } else {
+    normalized = trimmed;
+  }
+
+  const result = parseFloat(normalized);
+  return Number.isNaN(result) ? 0 : result;
+}
+

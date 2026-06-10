@@ -14,6 +14,7 @@ import type { ImportRunRecord } from './importRuns';
 import { IMPORT_DIAGNOSTICS_RETENTION_RUNS } from './importDiagnosticsPolicy';
 import { classifyVillain, computeVillainStats, emptyCounters } from '../analysis/villainClassifier';
 import * as ls from './localStorage';
+import { sumUsd } from '../parser/money';
 
 export interface AppSettings {
   id: string; // 'global'
@@ -177,8 +178,9 @@ export async function importHands(
           if (h.tournament.finishPosition !== null && h.tournament.finishPosition !== undefined) t.finishPosition = h.tournament.finishPosition;
           if (h.tournament.prize !== null && h.tournament.prize !== undefined) t.prize = h.tournament.prize;
           
-          if (h.tournament.bounty) {
-            t.bounty = (t.bounty || 0) + h.tournament.bounty;
+          const handBounty = h.hand.bountyCollected || h.tournament.bounty || 0;
+          if (handBounty > 0) {
+            t.bounty = sumUsd([t.bounty || 0, handBounty]);
           }
         }
         await db.tournaments.bulkPut(Array.from(tournUpdates.values()));

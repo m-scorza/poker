@@ -164,7 +164,7 @@ function checkFacingRaise(
   }
 
   if (action === 'call') {
-    // Standard reaction in Reg Life is 3-bet or fold (no cold-call)
+    // Standard reaction in Baseline is 3-bet or fold (no cold-call)
     // BTN and BB are excluded because flatting can be acceptable.
     if (position === 'BB' || position === 'BTN') return null;
     return { isCompliant: false, deviationType: 'COLD_CALL' };

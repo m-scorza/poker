@@ -60,13 +60,24 @@ describe('assignPositions', () => {
     expect(result.get(5)).toBe('CO');
   });
 
-  it('falls back gracefully on invalid button seat', () => {
-    // When button seat is not found, falls back to first seat as BTN
+  it('falls back clockwise-logically on invalid button seat (Bug A6)', () => {
+    // When button seat (4) is not found, closest counter-clockwise seat is 3, which becomes BTN
     const result = assignPositions(seats(1, 2, 3), 4);
     expect(result.size).toBe(3);
-    // First seat (1) becomes BTN
-    expect(result.get(1)).toBe('BTN');
+    expect(result.get(3)).toBe('BTN');
+    expect(result.get(1)).toBe('SB');
+    expect(result.get(2)).toBe('BB');
   });
+
+  it('falls back clockwise-logically with wrap-around on invalid button seat (Bug A6)', () => {
+    // When button seat (1) is not found in active seats [3, 5, 7], we wrap around to highest seat 7
+    const result = assignPositions(seats(3, 5, 7), 1);
+    expect(result.size).toBe(3);
+    expect(result.get(7)).toBe('BTN');
+    expect(result.get(3)).toBe('SB');
+    expect(result.get(5)).toBe('BB');
+  });
+
 
   it('handles 0 active seats gracefully', () => {
     const result = assignPositions([], 1);

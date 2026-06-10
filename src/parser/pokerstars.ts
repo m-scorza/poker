@@ -1,7 +1,8 @@
 import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
-import { parseUsdCents, centsToUsd } from './money';
+import { parseUsdCents, centsToUsd, parseLocaleChips } from './money';
+
 
 export interface ParsedHand {
   hand: Hand;
@@ -29,6 +30,7 @@ const RE_SITTING_OUT = /is sitting out/;
 const RE_ANTE = /^(.+?): posts the ante \$?([\d.]+)/;
 const RE_SMALL_BLIND = /^(.+?): posts small blind \$?([\d.]+)/;
 const RE_BIG_BLIND = /^(.+?): posts big blind \$?([\d.]+)/;
+const RE_BUTTON_BLIND = /^(.+?): posts button blind \$?([\d.]+)/;
 const RE_FLOP = /\*\*\* FLOP \*\*\* \[([^\]]+)\]/;
 const RE_TURN = /\*\*\* TURN \*\*\* \[[^\]]+\] \[([^\]]+)\]/;
 const RE_RIVER = /\*\*\* RIVER \*\*\* \[[^\]]+\] \[([^\]]+)\]/;
@@ -82,7 +84,8 @@ export function parsePokerStarsFile(
       seenIds.add(parsed.hand.id);
 
       results.push(parsed);
-    } catch {
+    } catch (err) {
+      console.warn('Failed to parse hand block:', err);
       // Graceful degradation: skip unparseable hands, don't crash the file
       continue;
     }
@@ -117,17 +120,29 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
   const extracted = tournamentId
     ? extractBuyIn(tournamentName, headerLine)
-    : { buyIn: 0, fee: 0, currency: 'USD' as const };
+    : { buyIn: 0, fee: 0, currency: 'USD' as const, isBounty: false };
   const buyIn = extracted.buyIn;
   const fee = extracted.fee;
-  const currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = extracted.currency;
-
   const blindsMatch = RE_LEVEL_BLINDS.exec(headerLine);
   const cashBlindsMatch = !blindsMatch ? RE_CASH_BLINDS.exec(headerLine) : null;
+  const buttonBlindsMatch = !blindsMatch && !cashBlindsMatch
+    ? /Level [IVXLCDM]+ \(Button Blind\s+([\d,.]+)\s*-\s*Ante\s+([\d,.]+)\s*\)/i.exec(headerLine)
+    : null;
+  const playMoneyBlindsMatch = !blindsMatch && !cashBlindsMatch && !buttonBlindsMatch
+    ? /\((\d+(?:\.\d+)?)\/(\d+(?:\.\d+)?)\)/.exec(headerLine)
+    : null;
+
   const smallBlind = blindsMatch ? parseInt(blindsMatch[1]!, 10)
-    : cashBlindsMatch ? parseFloat(cashBlindsMatch[1]!) : 0;
+    : cashBlindsMatch ? parseFloat(cashBlindsMatch[1]!)
+    : playMoneyBlindsMatch ? parseFloat(playMoneyBlindsMatch[1]!) : 0;
   const bigBlind = blindsMatch ? parseInt(blindsMatch[2]!, 10)
-    : cashBlindsMatch ? parseFloat(cashBlindsMatch[2]!) : 0;
+    : cashBlindsMatch ? parseFloat(cashBlindsMatch[2]!)
+    : buttonBlindsMatch ? parseFloat(buttonBlindsMatch[1]!.replace(',', '.'))
+    : playMoneyBlindsMatch ? parseFloat(playMoneyBlindsMatch[2]!) : 0;
+
+  const currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = tournamentId
+    ? extracted.currency
+    : playMoneyBlindsMatch ? 'PLAY' : 'USD';
 
   // Extract level number from roman numerals position (use index as approximation)
   const levelMatch = /Level ([IVXLCDM]+)/.exec(headerLine);
@@ -165,7 +180,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       seats.push({
         seatNumber: parseInt(seatMatch[1]!, 10),
         playerName: seatMatch[2]!,
-        chips: parseFloat(seatMatch[3]!.replace(/,/g, '')),
+        chips: parseLocaleChips(seatMatch[3]!),
       });
     }
   }
@@ -194,12 +209,12 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
   // Track shown cards per player
   const shownCards = new Map<string, [string, string]>();
-  // Track total chips put into the pot by each player
+  // Track total cents put into the pot by each player (using integer cents)
   const totalInvested = new Map<string, number>();
 
-  const addInvestment = (name: string, amount: number) => {
-    if (isNaN(amount)) return;
-    totalInvested.set(name, (totalInvested.get(name) ?? 0) + amount);
+  const addInvestment = (name: string, amountCents: number) => {
+    if (isNaN(amountCents)) return;
+    totalInvested.set(name, (totalInvested.get(name) ?? 0) + amountCents);
   };
 
   // Hero cards pattern
@@ -254,14 +269,15 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     // Forced bets
     const anteMatch = RE_ANTE.exec(line);
     if (anteMatch) {
-      ante = parseFloat(anteMatch[2]!);
-      addInvestment(anteMatch[1]!, ante);
+      const amountCents = Math.round(parseFloat(anteMatch[2]!) * 100);
+      ante = amountCents / 100;
+      addInvestment(anteMatch[1]!, amountCents);
       actions.push({
         handId,
         street: 'preflop',
         playerName: anteMatch[1]!,
         actionType: 'post_ante',
-        amount: ante,
+        amount: amountCents / 100,
         isAllIn: false,
         sequence: sequence++,
       });
@@ -270,14 +286,30 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     const sbMatch = RE_SMALL_BLIND.exec(line);
     if (sbMatch) {
-      const amount = parseFloat(sbMatch[2]!);
-      addInvestment(sbMatch[1]!, amount);
+      const amountCents = Math.round(parseFloat(sbMatch[2]!) * 100);
+      addInvestment(sbMatch[1]!, amountCents);
       actions.push({
         handId,
         street: 'preflop',
         playerName: sbMatch[1]!,
         actionType: 'post_sb',
-        amount: amount,
+        amount: amountCents / 100,
+        isAllIn: false,
+        sequence: sequence++,
+      });
+      continue;
+    }
+
+    const buttonBlindMatch = RE_BUTTON_BLIND.exec(line);
+    if (buttonBlindMatch) {
+      const amountCents = Math.round(parseFloat(buttonBlindMatch[2]!) * 100);
+      addInvestment(buttonBlindMatch[1]!, amountCents);
+      actions.push({
+        handId,
+        street: 'preflop',
+        playerName: buttonBlindMatch[1]!,
+        actionType: 'post_bb',
+        amount: amountCents / 100,
         isAllIn: false,
         sequence: sequence++,
       });
@@ -286,14 +318,14 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     const bbMatch = RE_BIG_BLIND.exec(line);
     if (bbMatch) {
-      const amount = parseFloat(bbMatch[2]!);
-      addInvestment(bbMatch[1]!, amount);
+      const amountCents = Math.round(parseFloat(bbMatch[2]!) * 100);
+      addInvestment(bbMatch[1]!, amountCents);
       actions.push({
         handId,
         street: 'preflop',
         playerName: bbMatch[1]!,
         actionType: 'post_bb',
-        amount: amount,
+        amount: amountCents / 100,
         isAllIn: false,
         sequence: sequence++,
       });
@@ -333,14 +365,14 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     const callMatch = RE_CALLS.exec(line);
     if (callMatch) {
-      const amount = parseFloat(callMatch[2]!);
-      addInvestment(callMatch[1]!, amount);
+      const amountCents = Math.round(parseFloat(callMatch[2]!) * 100);
+      addInvestment(callMatch[1]!, amountCents);
       actions.push({
         handId,
         street: currentStreet,
         playerName: callMatch[1]!,
         actionType: 'call',
-        amount: amount,
+        amount: amountCents / 100,
         isAllIn,
         sequence: sequence++,
       });
@@ -349,15 +381,15 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     const raiseMatch = RE_RAISES.exec(line);
     if (raiseMatch) {
-      const added = parseFloat(raiseMatch[2]!);
-      const total = parseFloat(raiseMatch[3]!);
-      addInvestment(raiseMatch[1]!, added);
+      const addedCents = Math.round(parseFloat(raiseMatch[2]!) * 100);
+      const totalCents = Math.round(parseFloat(raiseMatch[3]!) * 100);
+      addInvestment(raiseMatch[1]!, addedCents);
       actions.push({
         handId,
         street: currentStreet,
         playerName: raiseMatch[1]!,
         actionType: 'raise',
-        amount: total, // Store "to" amount
+        amount: totalCents / 100, // Store "to" amount
         isAllIn,
         sequence: sequence++,
       });
@@ -366,14 +398,14 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     const betMatch = RE_BETS.exec(line);
     if (betMatch) {
-      const amount = parseFloat(betMatch[2]!);
-      addInvestment(betMatch[1]!, amount);
+      const amountCents = Math.round(parseFloat(betMatch[2]!) * 100);
+      addInvestment(betMatch[1]!, amountCents);
       actions.push({
         handId,
         street: currentStreet,
         playerName: betMatch[1]!,
         actionType: 'bet',
-        amount: amount,
+        amount: amountCents / 100,
         isAllIn,
         sequence: sequence++,
       });
@@ -404,9 +436,8 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
   }
 
   // Parse collected amounts (for wonAmount tracking) and showdown winners
-  const collectedAmounts = new Map<string, number>();
+  const collectedAmounts = new Map<string, number>(); // Stores cents internally
   const showdownWinners = new Set<string>();
-  const RE_WON_SUMMARY = /Seat \d+: (.+?) .*?won \(?\$?([\d.,]+)\)?/;
   for (const line of lines) {
     const showedWonMatch = RE_SHOWED_AND_WON.exec(line);
     if (showedWonMatch) {
@@ -416,20 +447,11 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (collectedMatch) {
       const name = collectedMatch[1]!.trim();
       const amountStr = collectedMatch[2]!.replace(/,/g, '');
-      const amount = parseFloat(amountStr);
-      if (!isNaN(amount)) {
-        collectedAmounts.set(name, (collectedAmounts.get(name) ?? 0) + amount);
+      const amountCents = Math.round(parseFloat(amountStr) * 100);
+      if (!isNaN(amountCents)) {
+        collectedAmounts.set(name, (collectedAmounts.get(name) ?? 0) + amountCents);
       }
       continue;
-    }
-    const wonMatch = RE_WON_SUMMARY.exec(line);
-    if (wonMatch) {
-      const name = wonMatch[1]!.trim();
-      const amountStr = wonMatch[2]!.replace(/,/g, '');
-      const amount = parseFloat(amountStr);
-      if (!isNaN(amount)) {
-        collectedAmounts.set(name, (collectedAmounts.get(name) ?? 0) + amount);
-      }
     }
   }
 
@@ -486,14 +508,15 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     rake,
     hasShowdown,
     heroChipsBefore: heroSeat?.chips ?? 0,
-    heroChipsAfter: heroSeat ? heroSeat.chips - heroPutIn + heroWon : 0,
+    heroChipsAfter: heroSeat ? (Math.round(heroSeat.chips * 100) - heroPutIn + heroWon) / 100 : 0,
     villainDeltas: seats
       .filter((s) => s.playerName !== heroName)
       .map((s) => {
         const invested = totalInvested.get(s.playerName) ?? 0;
         const won = collectedAmounts.get(s.playerName) ?? 0;
-        return { name: s.playerName, net: won - invested };
+        return { name: s.playerName, net: (won - invested) / 100 };
       }),
+    bountyCollected: handBountyCents > 0 ? centsToUsd(handBountyCents) : null,
   };
 
   // Build PlayerInHand array
@@ -516,7 +539,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       seatNumber: seat.seatNumber,
       playerName: seat.playerName,
       chipsBefore: seat.chips,
-      chipsAfter: seat.chips - totalPutIn + totalWon,
+      chipsAfter: (Math.round(seat.chips * 100) - totalPutIn + totalWon) / 100,
       position,
       isHero,
       holeCards,
@@ -533,10 +556,16 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     format: `${maxSeats}-max`,
     finishPosition,
     prize,
-    bounty: handBountyCents > 0 ? centsToUsd(handBountyCents) : null,
+    category: extracted.isBounty ? 'Progressive KO' : undefined,
   };
 
-  return { hand, players, actions, tournament, collectedAmounts, showdownWinners };
+  // Convert collectedAmounts to float for returned map representation
+  const collectedAmountsFloat = new Map<string, number>();
+  for (const [name, cents] of collectedAmounts.entries()) {
+    collectedAmountsFloat.set(name, cents / 100);
+  }
+
+  return { hand, players, actions, tournament, collectedAmounts: collectedAmountsFloat, showdownWinners };
 }
 
 /** Convert Roman numeral string to integer. */

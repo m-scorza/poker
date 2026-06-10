@@ -7,37 +7,30 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
-## 2026-06-06 - Private/local runtime privacy guard
+## 2026-06-07 - Leak Confidence, Branding Neutralization, and Variant Fixtures
 
-- Owner / agent:          Codex
-- Branch:                 codex/local-privacy-guard
-- Scope:                  Turn the private/local research finding into an enforceable runtime privacy boundary without blocking future explicit opt-in product decisions.
+- Owner / agent:          Antigravity
+- Branch:                 codex/parser-confidence-ledger
+- Scope:                  Leak confidence computation, brand comment neutralization, and specialized variant fixtures (Zoom/Cap/6+/Play-Money).
 - Files touched:
-  - `scripts/privacy-boundary-check.ts` - adds a static guard for runtime network APIs, remote assets, native share APIs, and blocked telemetry/cloud/payment/remote-AI SDK dependencies.
-  - `src/__tests__/privacyBoundaryCheck.test.ts` - covers network/share detection, external URL detection, dependency detection, and exact allowlist behavior.
-  - `src/index.css` and `src/pages/ArenaPage.tsx` - remove existing Google Fonts and remote texture runtime dependencies.
-  - `package.json`, `scripts/README.md`, and `scripts/install-hooks.js` - document `npm run privacy:check` and add it to the generated pre-commit hook.
-  - `docs/product/DATA_MODEL_AND_PRIVACY.md` and `docs/product/STATUS.md` - document the guard and future allowlist path.
+  - `src/analysis/leakDetector.ts` - adds `confidence` to `Leak` interface and `detectLeaks` calculation.
+  - `src/analysis/rangeChecker.ts`, `src/data/ranges.ts`, `src/data/strategyProfiles.ts` - neutralizes comments containing "Reg Life" or "Plano de Jogo" references.
+  - `src/parser/pokerstars.ts` - adds button blind parsing for 6+ Hold'em and play money cash game stakes fallback.
+  - `src/parser/__tests__/fixtureSweep.test.ts` - adds specialized variant fixture checks.
 - Summary:
-  - `privacy:check` now fails on accidental `fetch`, `XMLHttpRequest`, `sendBeacon`, `WebSocket`, `EventSource`, `navigator.share`, external runtime URLs, and blocked SDK dependencies.
-  - Future cloud/sync/support-export/solver API work remains possible, but it must update privacy docs and add a precise file/pattern allowlist entry with a reason.
-  - Existing remote runtime assets were removed so the current app passes the guard.
+  - Added confidence logic to the leak detector to compute Low/Medium/High confidence based on sample size thresholds (e.g. Low if < 30 hands for preflop, or < 10 opportunities for postflop/3-bet).
+  - Purged remaining comments mentioning "Reg Life" or "Plano de Jogo" from strategy/ranges files.
+  - Implemented button blind parsing and play money cash game stakes parsing fallbacks in the parser.
+  - Added dedicated test sweeps verifying correct parsing of Zoom, Cap, 6+ Hold'em, and play-money fixtures.
 - Verification:
-  - `npm.cmd run privacy:check` - passed.
-  - `npx.cmd vitest run src/__tests__/privacyBoundaryCheck.test.ts` - passed, 4 tests.
-  - `node --check scripts/install-hooks.js` - passed.
-  - `npx.cmd tsc -b --pretty false` - passed.
-  - `npm.cmd run typecheck:test` - passed.
-  - `npm.cmd run docs:update` - updated `docs/product/STATUS.md`.
-  - `npm.cmd run docs:check` - passed.
-  - `git diff --check` - passed.
-  - `npm.cmd run build` - passed.
-  - `npx.cmd vitest run --reporter=dot` - passed, 63 files / 678 tests.
+  - `npm test` - passed, 693 tests.
+  - `npx tsc -b --pretty false` - passed.
+  - `npm run docs:update` and `npm run docs:check` - passed.
+  - `npm run build` - passed.
 - Risks / assumptions:
-  - The guard is static and conservative. It is meant to catch product-boundary drift, not prove total network isolation at the browser/runtime level.
-  - SVG namespace URLs remain allowed because they are identifiers, not remote runtime assets.
+  - Play money detection relies on the absence of cash symbols in cash blinds headers (e.g. `(100/200)`).
 - Next action requested:
-  - Review this stacked branch after the evidence-citation branch, then continue with parser confidence ledger work.
+  - Verify the engine outputs and proceed with validation loops.
 
 ## Template
 

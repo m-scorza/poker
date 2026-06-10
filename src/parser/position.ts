@@ -49,12 +49,24 @@ export function assignPositions(
   // Sort by seat number
   const sorted = [...activeSeats].sort((a, b) => a.seatNumber - b.seatNumber);
 
-  // Find button index in sorted array — fall back to seat 0 if button not found
+  // Find button index in sorted array — fall back to closest active seat counter-clockwise if not found
   let btnIdx = sorted.findIndex((s) => s.seatNumber === buttonSeat);
   if (btnIdx === -1) {
-    // Button seat may have been eliminated; use first seat as fallback
-    btnIdx = 0;
+    // Button seat may have been eliminated; find closest active seat counter-clockwise
+    let fallbackSeatIdx = -1;
+    for (let i = sorted.length - 1; i >= 0; i--) {
+      if (sorted[i]!.seatNumber <= buttonSeat) {
+        fallbackSeatIdx = i;
+        break;
+      }
+    }
+    // If no seat is <= buttonSeat, wrap around to the highest seat number
+    if (fallbackSeatIdx === -1) {
+      fallbackSeatIdx = sorted.length - 1;
+    }
+    btnIdx = fallbackSeatIdx;
   }
+
 
   // Rotate so BTN is first (clockwise from BTN)
   const rotated = [...sorted.slice(btnIdx), ...sorted.slice(0, btnIdx)];

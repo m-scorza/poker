@@ -471,7 +471,7 @@ export function RangesPage() {
 }
 
 function RangeValidatorPanel() {
-  const validation = useMemo(() => rangeValidationSummary(), []);
+  const validation = rangeValidationSummary();
 
   const directionLabel = (d: string) =>
     d === 'wider' ? 'Wider' : d === 'tighter' ? 'Tighter' : 'OK';

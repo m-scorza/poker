@@ -35,6 +35,7 @@ export interface Hand {
   heroChipsBefore: number;
   heroChipsAfter: number;
   villainDeltas: { name: string; net: number }[];
+  bountyCollected?: number | null;
 }
 
 /** One player's data within a single hand. */
