@@ -13,6 +13,7 @@ import { summarizeDataHealth } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { Leak, LeakSeverity } from '../analysis/leakDetector';
+import { KB_PATHS, createEvidence, type Evidence } from '../types/evidence';
 import { getEvidenceMetadata } from '../utils/evidence';
 
 /** Strategy source attribution per leak ID. Maps to docs/knowledge/strategy/ sections. */
@@ -27,6 +28,51 @@ const LEAK_SOURCES: Record<string, { source: string; doc: string }> = {
   limps: { source: '[Baseline]', doc: 'docs/knowledge/strategy/03-preflop-strategy.md' },
   compliance: { source: '[Baseline, 02-ranges §3]', doc: 'docs/knowledge/strategy/02-ranges-and-position.md' },
   vpip_pfr_gap: { source: '[08-gto §3]', doc: 'docs/knowledge/strategy/08-gto-and-exploits.md' },
+};
+
+const LEAK_FINDER_EVIDENCE = createEvidence('rule_based', [
+  {
+    docPath: KB_PATHS.studyMethods,
+    section: '4. Leak Finder Framework',
+    quote: 'Compare each stat against known GTO ranges',
+  },
+]);
+
+const PREFLOP_RANGE_EVIDENCE = createEvidence('rule_based', [
+  {
+    docPath: KB_PATHS.rangesAndPosition,
+    section: '3. RFI Ranges by Stack Depth',
+    quote: 'Reference ranges from solver outputs (chipEV).',
+  },
+]);
+
+const POSTFLOP_PROXY_EVIDENCE = createEvidence('proxy_model', [
+  {
+    docPath: KB_PATHS.postflopStrategy,
+    section: '2. C-Bet Strategy',
+    quote: 'even weak hands benefit from denying equity',
+  },
+], 'Frequency heuristic only. No solver EV is attached; use this as a study prompt until the spot is manually reviewed.');
+
+const SHOWDOWN_PROXY_EVIDENCE = createEvidence('proxy_model', [
+  {
+    docPath: KB_PATHS.studyMethods,
+    section: '4. Leak Finder Framework',
+    quote: 'WTSD | ~25-30%',
+  },
+], 'Database stat baseline only. Use the hands behind the sample before changing river strategy.');
+
+const LEAK_EVIDENCE: Record<string, Evidence> = {
+  vpip: LEAK_FINDER_EVIDENCE,
+  pfr: LEAK_FINDER_EVIDENCE,
+  three_bet: LEAK_FINDER_EVIDENCE,
+  cbet_total: POSTFLOP_PROXY_EVIDENCE,
+  cbet_hu: POSTFLOP_PROXY_EVIDENCE,
+  wtsd: SHOWDOWN_PROXY_EVIDENCE,
+  won_sd: SHOWDOWN_PROXY_EVIDENCE,
+  limps: LEAK_FINDER_EVIDENCE,
+  compliance: PREFLOP_RANGE_EVIDENCE,
+  vpip_pfr_gap: LEAK_FINDER_EVIDENCE,
 };
 
 const SEVERITY_COLORS: Record<LeakSeverity, string> = {
@@ -159,7 +205,8 @@ export function LeaksPage() {
           {prioritizedLeaks.map((leak, index) => {
             const badge = SEVERITY_BADGES[leak.severity];
             const score = impactScore(leak);
-            const evidence = getEvidenceMetadata(leak.id);
+            const source = LEAK_SOURCES[leak.id];
+            const evidence = getEvidenceMetadata(leak.id, undefined, LEAK_EVIDENCE[leak.id]);
             return (
               <div
                 key={leak.id}
@@ -189,6 +236,12 @@ export function LeaksPage() {
                       >
                         {evidence.strengthLabel}
                       </span>
+                      <span
+                        className={clsx('rounded-full border px-2 py-1 text-[10px] font-black uppercase cursor-help', evidence.citationClass)}
+                        title={evidence.citationTooltip}
+                      >
+                        {evidence.citationLabel}
+                      </span>
                     </div>
 
                     <p className="text-sm leading-relaxed text-[var(--color-text-dim)]">{leak.description}</p>
@@ -204,13 +257,13 @@ export function LeaksPage() {
                     <div className="mt-4 flex flex-wrap gap-4 text-xs text-[var(--color-text-muted)]">
                       <span>Sample: {leak.sampleSize} hands</span>
                       <span>Deviation: {leak.deviation > 0 ? '+' : ''}{leak.deviation}pp</span>
-                      {LEAK_SOURCES[leak.id] && (
+                      {source && (
                         <span
                           className="flex items-center gap-1 text-[var(--color-info)] cursor-help"
-                          title={`Source: ${LEAK_SOURCES[leak.id]!.source}\nReference: ${LEAK_SOURCES[leak.id]!.doc}`}
+                          title={`Source: ${source.source}\nReference: ${source.doc}`}
                         >
                           <BookOpen size={10} />
-                          {LEAK_SOURCES[leak.id]!.source}
+                          {source.source}
                         </span>
                       )}
                     </div>

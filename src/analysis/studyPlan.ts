@@ -1,4 +1,5 @@
 import type { HeroDecision, DeviationType, Scenario } from '../types/analysis';
+import { KB_PATHS, UNSUPPORTED_EVIDENCE, createEvidence, type Evidence } from '../types/evidence';
 import type { Hand } from '../types/hand';
 import type { Leak, LeakSeverity } from './leakDetector';
 import { batchCheckPushFold, type PushFoldCheckOptions } from './pushFoldChecker';
@@ -16,6 +17,7 @@ export interface StudyQueueEvidence {
   kind: StudyQueueEvidenceKind;
   label: string;
   details: string[];
+  trust: Evidence;
 }
 
 export interface StudyQueueItem {
@@ -67,6 +69,51 @@ const SCENARIO_LABELS: Record<Scenario, string> = {
   BB_VS_LIMP: 'BB vs limp',
   WALK: 'Walk',
 };
+
+const AGGREGATE_LEAK_EVIDENCE = createEvidence('rule_based', [
+  {
+    docPath: KB_PATHS.studyMethods,
+    section: '4. Leak Finder Framework',
+    quote: 'Create a study plan targeting the biggest leaks first',
+  },
+]);
+
+const PREFLOP_RANGE_EVIDENCE = createEvidence('rule_based', [
+  {
+    docPath: KB_PATHS.rangesAndPosition,
+    section: '3. RFI Ranges by Stack Depth',
+    quote: 'Reference ranges from solver outputs (chipEV).',
+  },
+]);
+
+const BB_DEFENSE_EVIDENCE = createEvidence('rule_based', [
+  {
+    docPath: KB_PATHS.preflopStrategy,
+    section: '2. Big Blind Defense',
+    quote: 'Any hand that loses less than 1.12bb/hand is worth playing.',
+  },
+]);
+
+const CBET_PROXY_EVIDENCE = createEvidence('proxy_model', [
+  {
+    docPath: KB_PATHS.postflopStrategy,
+    section: '2. C-Bet Strategy',
+    quote: 'even weak hands benefit from denying equity',
+  },
+], 'Frequency heuristic only. No solver EV is attached; use this as a study prompt until the spot is manually reviewed.');
+
+const HU_REFERENCE_EVIDENCE = createEvidence('local_reference', [
+  {
+    docPath: KB_PATHS.rangesAndPosition,
+    section: '4. Open Shove Ranges',
+    quote: 'At 10bb, the strategy is simplified to all-in or fold.',
+  },
+], 'Uses your local heads-up push/fold reference table. Treat as a practical drill prompt; EV loss is unknown.');
+
+function evidenceForDeviation(deviationType: DeviationType): Evidence {
+  if (deviationType === 'BB_FOLD_SUITED') return BB_DEFENSE_EVIDENCE;
+  return PREFLOP_RANGE_EVIDENCE;
+}
 
 function handBbDelta(decision: HeroDecision, handMap: Map<string, Hand>): number | null {
   const hand = handMap.get(decision.handId);
@@ -131,6 +178,7 @@ export function buildStudyQueue(
       evidence: {
         kind: 'aggregate_leak',
         label: 'Aggregate leak sample',
+        trust: AGGREGATE_LEAK_EVIDENCE,
         details: [
           pluralize(leak.sampleSize, 'tracked spot'),
           `Current ${leak.value}%, target ${leak.target[0]}–${leak.target[1]}%`,
@@ -175,6 +223,7 @@ export function buildStudyQueue(
       evidence: {
         kind: 'tagged_decisions',
         label: 'Tagged decision cluster',
+        trust: evidenceForDeviation(deviationType),
         details: [
           pluralize(group.length, 'tagged decision'),
           `${SCENARIO_LABELS[topScenario]} is the most common scenario`,
@@ -206,6 +255,7 @@ export function buildStudyQueue(
       evidence: {
         kind: 'postflop_flags',
         label: 'Postflop opportunity tags',
+        trust: CBET_PROXY_EVIDENCE,
         details: [pluralize(missedCbetHands.length, 'missed continuation-bet opportunity', 'missed continuation-bet opportunities')],
       },
       handIds: sortedLossHandIds(missedCbetHands, handMap),
@@ -250,6 +300,7 @@ export function buildStudyQueue(
         evidence: {
           kind: 'reference_misses',
           label: 'Local heads-up reference misses',
+          trust: HU_REFERENCE_EVIDENCE,
           details: [
             pluralize(referenceMisses.length, 'reference miss', 'reference misses'),
             'Compared against your locally loaded HU push/fold CSV/table',
@@ -283,6 +334,7 @@ export function buildStudyQueue(
       evidence: {
         kind: 'bb_loss_review',
         label: 'Normalized BB loss review',
+        trust: UNSUPPORTED_EVIDENCE,
         details: [
           pluralize(biggestLosses.length, 'loss hand'),
           'Sorted by bb delta, not raw chips',
