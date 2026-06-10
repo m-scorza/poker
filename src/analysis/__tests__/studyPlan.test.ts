@@ -65,6 +65,7 @@ const complianceLeak: Leak = {
   target: [90, 100],
   deviation: 18,
   sampleSize: 80,
+  confidence: 'high',
 };
 
 function expectEvidenceCitationsToResolve(evidence: Evidence): void {

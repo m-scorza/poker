@@ -54,6 +54,7 @@ function makeLeak(overrides: Partial<Leak> = {}): Leak {
     target: [95, 100],
     deviation: 33,
     sampleSize: 20,
+    confidence: 'medium',
     ...overrides,
   };
 }
