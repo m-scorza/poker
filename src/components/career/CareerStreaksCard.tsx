@@ -73,13 +73,13 @@ export function CareerStreaksCard({ tournaments }: CareerStreaksCardProps) {
               key={stat.label}
               className="rounded-2xl bg-[#15171f] border border-white/5 p-5"
             >
-              <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-3">
+              <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-3">
                 <stat.icon size={12} className={stat.accent} /> {stat.label}
               </div>
               <div className={clsx('text-4xl font-data font-black tracking-tighter', stat.accent)}>
                 {stat.value}
               </div>
-              <p className="mt-2 text-[10px] font-bold text-[var(--color-text-dim)]">{stat.hint}</p>
+              <p className="mt-2 text-[10px] font-bold text-[var(--fg-dim)]">{stat.hint}</p>
             </div>
           ))}
         </div>

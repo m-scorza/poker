@@ -27,7 +27,7 @@ const SOURCE_ICON: Record<StudyQueueItem['source'], typeof Crosshair> = {
 const SEVERITY_CLASS: Record<StudyQueueItem['severity'], string> = {
   critical: 'border-rose-500/40 bg-rose-500/10 text-rose-300',
   high: 'border-orange-500/40 bg-orange-500/10 text-orange-300',
-  medium: 'border-yellow-500/40 bg-yellow-500/10 text-yellow-300',
+  medium: 'border-warn/40 bg-warn/10 text-warn',
   low: 'border-white/10 bg-white/5 text-white/60',
 };
 
@@ -54,7 +54,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
   const topEvidence = getEvidenceMetadata(top.id, top.source, top.evidence.trust);
 
   return (
-    <section className="overflow-hidden rounded-2xl border border-violet-500/20 bg-gradient-to-br from-[#11121a] via-[var(--color-bg-card)] to-black/40 shadow-2xl shadow-violet-950/10">
+    <section className="overflow-hidden rounded-2xl border border-violet-500/20 bg-gradient-to-br from-[#11121a] via-[var(--ink-2)] to-black/40 shadow-2xl shadow-violet-950/10">
       <div className="grid gap-0 lg:grid-cols-[0.95fr_1.4fr]">
         <div className="relative border-b border-white/10 p-5 lg:border-b-0 lg:border-r">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(113,112,255,0.16),transparent_42%)]" />
@@ -63,7 +63,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
               <Layers size={14} /> Ranked study queue
             </p>
             <h3 className="mt-3 text-2xl font-black tracking-tight text-white">Next review block</h3>
-            <p className="mt-2 text-sm leading-relaxed text-[var(--color-text-dim)]">
+            <p className="mt-2 text-sm leading-relaxed text-[var(--fg-dim)]">
               Built from leak discovery, normalized BB-loss sorting, local reference-table checks, and focused drill queues: one ranked queue instead of another passive chart.
             </p>
 
@@ -94,7 +94,7 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
               </div>
               <p className="font-data text-lg font-black text-white">{top.title}</p>
               <p className="mt-2 text-xs leading-relaxed text-white/60">{top.explanation}</p>
-              <p className="mt-2 text-[11px] leading-relaxed text-yellow-100/70">{topEvidence.caveat}</p>
+              <p className="mt-2 text-[11px] leading-relaxed text-[var(--fg-dim)]">{topEvidence.caveat}</p>
               <Link
                 to={routeFor(top)}
                 className="mt-4 inline-flex items-center gap-2 rounded-lg bg-violet-500 px-3 py-2 text-xs font-black uppercase tracking-wider text-white transition hover:bg-violet-400"
@@ -153,8 +153,8 @@ export function StudyPlanCard({ items }: StudyPlanCardProps) {
                       {confidenceLabel(item.confidence)}
                     </span>
                   </div>
-                  <p className="line-clamp-2 text-xs leading-relaxed text-[var(--color-text-dim)]">{item.explanation}</p>
-                  <p className="mt-1 line-clamp-1 text-[11px] leading-relaxed text-yellow-100/60">{evidence.caveat}</p>
+                  <p className="line-clamp-2 text-xs leading-relaxed text-[var(--fg-dim)]">{item.explanation}</p>
+                  <p className="mt-1 line-clamp-1 text-[11px] leading-relaxed text-[var(--fg-dim)]">{evidence.caveat}</p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-2 text-right md:w-56">

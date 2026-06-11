@@ -226,14 +226,19 @@ are stale. Do not edit by hand.
 <!-- BEGIN:AUTOGEN:deps -->
 **Runtime** (`dependencies`):
 
+- @gsap/react ^2.1.2
+- @react-three/drei ^10.7.7
+- @react-three/fiber ^9.6.1
 - @tanstack/react-table ^8.21.3
 - @tanstack/react-virtual ^3.13.24
 - @types/jszip ^3.4.1
+- @types/three ^0.184.1
 - clsx ^2.1.1
 - date-fns ^4.2.1
 - dexie ^4.4.2
 - dexie-react-hooks ^4.4.0
 - framer-motion ^12.39.0
+- gsap ^3.15.0
 - jspdf ^4.2.1
 - jspdf-autotable ^5.0.8
 - jszip ^3.10.1
@@ -243,6 +248,7 @@ are stale. Do not edit by hand.
 - react-dom ^19.2.6
 - react-router-dom ^7.15.1
 - recharts ^3.8.1
+- three ^0.184.0
 - zustand ^5.0.13
 
 **Build / test** (`devDependencies`):
@@ -354,7 +360,7 @@ src/pages/  (10 files)
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (27 files)
+src/components/  (33 files)
   components/career/BustOutChart.tsx
   components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx
@@ -365,9 +371,15 @@ src/components/  (27 files)
   components/career/LifetimeScorecard.tsx
   components/career/StakeTrendChart.tsx
   components/career/TimelineFeed.tsx
+  components/dashboard/BankrollChart.tsx
+  components/dashboard/MonumentCurve.tsx
+  components/dashboard/PositionalHeatmap.tsx
+  components/dashboard/RingHud.tsx
   components/dashboard/StudyPlanCard.tsx
   components/dashboard/TrendChart.tsx
   components/dashboard/ValueSnapshotCard.tsx
+  components/dashboard/VerdictGauge.tsx
+  components/dashboard/WireTape.tsx
   components/hands/HandReplay.tsx
   components/hands/HandsFilters.tsx
   components/hands/HandsTable.tsx

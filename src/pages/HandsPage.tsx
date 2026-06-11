@@ -186,7 +186,7 @@ export function HandsPage() {
         />
 
         <div className="flex justify-between items-center mb-3">
-          <p className="text-xs text-[var(--color-text-muted)] flex items-center gap-1">
+          <p className="text-xs text-[var(--fg-muted)] flex items-center gap-1">
             <Filter size={12} />
             {filtered.length} of {decisions.length} hands
           </p>

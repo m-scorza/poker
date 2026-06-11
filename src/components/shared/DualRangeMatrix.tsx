@@ -56,12 +56,8 @@ const OracleCell = memo(function OracleCell({
   return (
     <div
       className={clsx(
-        'w-8 h-7 md:w-9 md:h-8 text-[9px] font-data flex items-center justify-center border rounded-sm transition-all',
-        isPushHand
-          ? 'bg-amber-500/30 border-amber-500/40 text-amber-100 shadow-[0_0_10px_rgba(245,158,11,0.1)]'
-          : inTheoreticalRange 
-            ? 'bg-emerald-900/40 border-emerald-500/40 text-emerald-100 shadow-[inset_0_0_8px_rgba(16,185,129,0.1)]' 
-            : 'bg-white/[0.02] border-white/5 text-[var(--color-text-muted)] opacity-30'
+        'mc',
+        isPushHand ? 'open' : inTheoreticalRange ? 'open' : 'fold'
       )}
     >
       {handKey}
@@ -90,35 +86,24 @@ const MirrorCell = memo(function MirrorCell({
   const total = cell?.totalInstances ?? 0;
   const raisePct = total > 0 && cell ? (cell.actionCounts.raise / total) * 100 : 0;
   const callPct = total > 0 && cell ? (cell.actionCounts.call / total) * 100 : 0;
-  const foldPct = total > 0 && cell ? ((cell.actionCounts.fold + cell.actionCounts.other) / total) * 100 : 0;
+
+  let stateClass = 'fold';
+  if (hasData) {
+     if (!isCompliant) stateClass = 'dev';
+     else if (raisePct > 80 || callPct > 80) stateClass = 'open';
+     else if (raisePct > 0 || callPct > 0) stateClass = 'mix';
+  }
 
   return (
     <button
       onMouseEnter={() => onMouseEnter(handKey)}
       onClick={() => onClick(handKey)}
       className={clsx(
-        'w-8 h-7 md:w-9 md:h-8 text-[9px] font-data border rounded-sm transition-all relative overflow-hidden group flex items-center justify-center',
-        isSelected && 'ring-2 ring-white z-10 scale-110 shadow-xl',
-        !hasData 
-          ? 'bg-white/[0.01] border-white/5 text-[var(--color-text-dim)] opacity-20' 
-          : isCompliant
-            ? 'border-emerald-500/40 text-white'
-            : 'border-rose-500/50 text-white font-bold'
+        'mc', stateClass,
+        isSelected && 'ring-2 ring-white z-10 scale-110 shadow-xl'
       )}
     >
-      {/* Action Strips */}
-      {hasData && (
-        <div className="absolute inset-0 flex flex-col pointer-events-none opacity-60 group-hover:opacity-80 transition-opacity">
-           {raisePct > 0 && <div className="bg-emerald-500" style={{ height: `${raisePct}%` }} />}
-           {callPct > 0 && <div className="bg-blue-500" style={{ height: `${callPct}%` }} />}
-           {foldPct > 0 && <div className="bg-white/20" style={{ height: `${foldPct}%` }} />}
-        </div>
-      )}
-      
-      <span className={clsx(
-         "relative z-10",
-         hasData ? "drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]" : ""
-      )}>
+      <span className={clsx("relative z-10", hasData ? "drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]" : "")}>
          {handKey}
       </span>
     </button>
@@ -150,7 +135,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
       <div className="space-y-3">
         <div className="flex items-center gap-2 px-1">
           <Eye size={14} className="text-emerald-400" />
-          <span className="text-xs font-bold uppercase tracking-widest text-[var(--color-text-dim)]">The Oracle (GTO)</span>
+          <span className="text-xs font-bold uppercase tracking-widest text-[var(--fg-dim)]">The Oracle (GTO)</span>
         </div>
         <div 
           className="inline-grid gap-[2px] bg-black/20 p-1.5 rounded-lg border border-white/5" 
@@ -176,15 +161,8 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
         </div>
         
         {/* Oracle Legend */}
-        <div className="flex gap-4 mt-2 px-1">
-           <div className="flex items-center gap-1.5">
-              <div className="w-2 h-2 rounded-full bg-emerald-500" />
-              <span className="text-[10px] text-[var(--color-text-dim)] uppercase">RFI / Open</span>
-           </div>
-           <div className="flex items-center gap-1.5">
-              <div className="w-2 h-2 rounded-full bg-amber-500" />
-              <span className="text-[10px] text-[var(--color-text-dim)] uppercase">Push/Fold (10bb)</span>
-           </div>
+        <div className="mxleg mt-4">
+           <span><span style={{ display: 'inline-block', width: 9, height: 9, borderRadius: 2, background: 'color-mix(in srgb, #C9CDD6 26%, #111114)', border: '1px solid var(--accent-line)', verticalAlign: '-1px' }}></span> in range</span>
         </div>
       </div>
 
@@ -192,7 +170,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
       <div className="space-y-3">
         <div className="flex items-center gap-2 px-1">
           <Target size={14} className="text-blue-400" />
-          <span className="text-xs font-bold uppercase tracking-widest text-[var(--color-text-dim)]">The Mirror (Performance)</span>
+          <span className="text-xs font-bold uppercase tracking-widest text-[var(--fg-dim)]">The Mirror (Performance)</span>
         </div>
         <div 
           className="inline-grid gap-[2px] bg-black/20 p-1.5 rounded-lg border border-white/5" 
@@ -229,17 +207,17 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="glass-card border border-[var(--color-border)] rounded-2xl p-6 shadow-2xl h-full flex flex-col"
+              className="compartment border border-[var(--hairline)] rounded-2xl p-6 shadow-2xl h-full flex flex-col"
             >
               <div className="flex items-center justify-between mb-6">
                  <div>
                     <h3 className="text-3xl font-data font-black text-white">{activeHand}</h3>
-                    <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-widest">{position} - Pre-flop</p>
+                    <p className="text-xs text-[var(--fg-dim)] uppercase tracking-widest">{position} - Pre-flop</p>
                  </div>
                  <div className={clsx(
                     "px-3 py-1 rounded-full text-[10px] font-bold uppercase",
-                    activeDetails.isPushHand ? "bg-amber-500/10 text-amber-400 border border-amber-500/20" :
-                    activeDetails.inTheoreticalRange ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "bg-white/5 text-[var(--color-text-muted)]"
+                    activeDetails.isPushHand ? "bg-[var(--accent-soft)] text-[var(--accent)] border border-[var(--accent-line)]" :
+                    activeDetails.inTheoreticalRange ? "bg-[var(--accent-soft)] text-[var(--accent)] border border-[var(--accent-line)]" : "bg-white/5 text-[var(--fg-muted)]"
                  )}>
                     {activeDetails.isPushHand ? 'Push/Fold' : activeDetails.inTheoreticalRange ? 'GTO Standard' : 'Exclude'}
                  </div>
@@ -247,11 +225,11 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
 
               <div className="grid grid-cols-2 gap-4 mb-8">
                  <div className="p-4 bg-white/[0.03] rounded-xl border border-white/5">
-                    <p className="text-[10px] uppercase text-[var(--color-text-dim)] font-bold mb-1">Frequency</p>
+                    <p className="text-[10px] uppercase text-[var(--fg-dim)] font-bold mb-1">Frequency</p>
                     <p className="text-xl font-data font-bold text-white">{activeDetails.totalInstances}</p>
                  </div>
                  <div className="p-4 bg-white/[0.03] rounded-xl border border-white/5">
-                    <p className="text-[10px] uppercase text-[var(--color-text-dim)] font-bold mb-1">Compliance</p>
+                    <p className="text-[10px] uppercase text-[var(--fg-dim)] font-bold mb-1">Compliance</p>
                     <p className={clsx(
                        "text-xl font-data font-bold",
                        (activeDetails.correctInstances / activeDetails.totalInstances) >= 0.9 ? "text-emerald-400" : "text-rose-400"
@@ -282,31 +260,31 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
                              </div>
                              <div className="flex justify-between items-end">
                                 <span className="text-sm font-data font-bold text-white">Action: {d.action}</span>
-                                <span className="text-[10px] text-[var(--color-text-dim)]">{d.stackBb.toFixed(0)}bb</span>
+                                <span className="text-[10px] text-[var(--fg-dim)]">{d.stackBb.toFixed(0)}bb</span>
                              </div>
                           </button>
                        ))}
                     </div>
                  </div>
-              ) : activeDetails.totalInstances > 0 ? (
-                 <div className="flex-1 flex flex-col items-center justify-center text-center p-6 bg-emerald-500/5 rounded-2xl border border-emerald-500/10">
-                    <Zap size={32} className="text-emerald-400 mb-3 opacity-50" />
-                    <p className="text-emerald-400 font-bold mb-1">Elite Execution</p>
-                    <p className="text-xs text-emerald-100/60 lowercase">No deviations recorded for this hand in this position.</p>
+                  ) : activeDetails.totalInstances > 0 ? (
+                 <div className="flex-1 flex flex-col items-center justify-center text-center p-6 bg-[var(--ink-2)] rounded-2xl">
+                    <Zap size={32} className="text-[var(--accent)] mb-3 opacity-50" />
+                    <p className="text-[var(--fg)] font-bold mb-1">Elite Execution</p>
+                    <p className="text-xs text-[var(--fg-muted)] lowercase">No deviations recorded for this hand in this position.</p>
                  </div>
               ) : (
                  <div className="flex-1 flex flex-col items-center justify-center text-center p-6 border border-dashed border-white/5 rounded-2xl">
-                    <History size={32} className="text-[var(--color-text-dim)] mb-3 opacity-20" />
-                    <p className="text-xs text-[var(--color-text-muted)]">No historical data found for {activeHand} in {position}.</p>
+                    <History size={32} className="text-[var(--fg-dim)] mb-3 opacity-20" />
+                    <p className="text-xs text-[var(--fg-muted)]">No historical data found for {activeHand} in {position}.</p>
                  </div>
               )}
 
               <div className="mt-8 pt-6 border-t border-white/5">
                  <div className="flex items-center gap-2 mb-2">
-                    <TrendingUp size={14} className="text-[var(--color-accent)]" />
-                    <span className="text-[10px] uppercase font-bold tracking-widest text-[var(--color-text-dim)]">Strategic Insight</span>
+                    <TrendingUp size={14} className="text-[var(--accent)]" />
+                    <span className="text-[10px] uppercase font-bold tracking-widest text-[var(--fg-dim)]">Strategic Insight</span>
                  </div>
-                 <p className="text-xs text-[var(--color-text-dim)] leading-relaxed italic">
+                 <p className="text-xs text-[var(--fg-dim)] leading-relaxed italic">
                     {activeDetails.inTheoreticalRange 
                        ? `Always open ${activeHand} from ${position}. Exploitative adjustment: check for aggressive 3-betters behind.`
                        : `${activeHand} is a standard fold from ${position}. Calling or raising creates long-term -EV scenarios.`
@@ -321,10 +299,10 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
                className="h-full flex flex-col items-center justify-center text-center p-12 bg-white/[0.01] border border-dashed border-white/5 rounded-2xl"
             >
                <div className="p-4 bg-white/5 rounded-full mb-6">
-                  <GridIcon size={40} className="text-[var(--color-text-dim)] opacity-20" />
+                  <GridIcon size={40} className="text-[var(--fg-dim)] opacity-20" />
                </div>
                <h4 className="text-white font-bold mb-2">Select a Hand</h4>
-               <p className="text-xs text-[var(--color-text-dim)] leading-relaxed max-w-[200px]">
+               <p className="text-xs text-[var(--fg-dim)] leading-relaxed max-w-[200px]">
                   Compare theory vs. reality by clicking any cell in the Mirror matrix.
                </p>
             </motion.div>

@@ -282,17 +282,15 @@ export function CareerPage() {
   };
 
   if (loading) {
-    return <div className="p-8 text-center animate-pulse text-[var(--color-text-dim)]">Mapping career data...</div>;
+    return <div className="p-8 text-center animate-pulse text-[var(--fg-dim)]">Mapping career data...</div>;
   }
 
   return (
     <div className="space-y-10 pb-20">
-      <header className="flex flex-col gap-2">
-         <div className="flex items-center gap-3">
-           <Trophy className="text-amber-400" size={24} />
-           <h1 className="text-3xl font-black text-white uppercase tracking-tighter italic">Player Career</h1>
-         </div>
-         <p className="text-[var(--color-text-dim)] text-sm max-w-2xl font-medium">
+      <header className="flex flex-col gap-2 mb-8">
+         <span className="kick sig mb-2 block">Player Career</span>
+         <h1 className="text-3xl font-bold text-[var(--fg)]">Evolution & Stats</h1>
+         <p className="lede text-[var(--fg-dim)] max-w-2xl">
            Chronological overview of your tournament journey, achievements, and financial evolution.
          </p>
       </header>
@@ -301,12 +299,12 @@ export function CareerPage() {
         <div className={clsx(
           'flex items-start gap-3 rounded-xl border p-4 text-xs shadow-md',
           dataHealth.confidence === 'low'
-            ? 'border-[var(--color-danger)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
-            : 'border-yellow-600/30 bg-yellow-950/15 text-yellow-100/90 shadow-yellow-950/10'
+            ? 'border-[var(--loss)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
+            : 'border-warn/30 bg-warn/10 text-[var(--fg-dim)]'
         )}>
           <AlertTriangle className={clsx(
             'mt-0.5 h-[18px] w-[18px] shrink-0',
-            dataHealth.confidence === 'low' ? 'text-[var(--color-danger)]' : 'text-yellow-400'
+            dataHealth.confidence === 'low' ? 'text-[var(--loss)]' : 'text-warn'
           )} />
           <div>
             <span className="font-bold uppercase tracking-wider">
@@ -328,48 +326,28 @@ export function CareerPage() {
       )}
 
       {/* Tabs Switcher */}
-      <div className="flex border-b border-white/10 gap-8 mb-8 overflow-x-auto">
+      <div className="tabs mb-8">
         <button
           onClick={() => setActiveTab('overview')}
-          className={clsx(
-            'pb-4 text-sm font-bold uppercase tracking-wider border-b-2 transition-all flex items-center gap-2 whitespace-nowrap',
-            activeTab === 'overview'
-              ? 'border-[var(--color-accent)] text-[var(--color-accent)]'
-              : 'border-transparent text-[var(--color-text-dim)] hover:text-white'
-          )}
+          className={activeTab === 'overview' ? 'on' : ''}
         >
           <Calendar size={16} /> Overview
         </button>
         <button
           onClick={() => setActiveTab('tiers')}
-          className={clsx(
-            'pb-4 text-sm font-bold uppercase tracking-wider border-b-2 transition-all flex items-center gap-2 whitespace-nowrap',
-            activeTab === 'tiers'
-              ? 'border-[var(--color-accent)] text-[var(--color-accent)]'
-              : 'border-transparent text-[var(--color-text-dim)] hover:text-white'
-          )}
+          className={activeTab === 'tiers' ? 'on' : ''}
         >
           <TableProperties size={16} /> Tiers & Formats
         </button>
         <button
           onClick={() => setActiveTab('nemesis')}
-          className={clsx(
-            'pb-4 text-sm font-bold uppercase tracking-wider border-b-2 transition-all flex items-center gap-2 whitespace-nowrap',
-            activeTab === 'nemesis'
-              ? 'border-[var(--color-accent)] text-[var(--color-accent)]'
-              : 'border-transparent text-[var(--color-text-dim)] hover:text-white'
-          )}
+          className={activeTab === 'nemesis' ? 'on' : ''}
         >
           <Swords size={16} /> Nemesis & Opponents
         </button>
         <button
           onClick={() => setActiveTab('hands')}
-          className={clsx(
-            'pb-4 text-sm font-bold uppercase tracking-wider border-b-2 transition-all flex items-center gap-2 whitespace-nowrap',
-            activeTab === 'hands'
-              ? 'border-[var(--color-accent)] text-[var(--color-accent)]'
-              : 'border-transparent text-[var(--color-text-dim)] hover:text-white'
-          )}
+          className={activeTab === 'hands' ? 'on' : ''}
         >
           <Flame size={16} /> High Impact Hands
         </button>
@@ -387,18 +365,18 @@ export function CareerPage() {
           <CareerScopePanel profile={careerScopeProfile} />
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="bg-[#0f172a] border border-white/10 rounded-[2rem] p-8 shadow-xl">
-               <h3 className="text-xs font-black text-white uppercase tracking-[0.2em] mb-6 flex items-center gap-2">
-                 <Trophy size={14} className="text-amber-400" />
+            <div className="compartment p-8">
+               <h3 className="kick text-[var(--warn)] mb-6 flex items-center gap-2">
+                 <Trophy size={14} className="text-[var(--warn)]" />
                  Finish Distribution
                </h3>
                <div className="h-[240px]">
                  <BustOutChart data={bustOutDistribution} />
                </div>
             </div>
-            <div className="bg-[#0f172a] border border-white/10 rounded-[2rem] p-8 shadow-xl">
-               <h3 className="text-xs font-black text-white uppercase tracking-[0.2em] mb-6 flex items-center gap-2">
-                 <TrendingUp size={14} className="text-indigo-400" />
+            <div className="compartment p-8">
+               <h3 className="kick text-[var(--sig)] mb-6 flex items-center gap-2">
+                 <TrendingUp size={14} className="text-[var(--sig)]" />
                  Stake Evolution (ABI)
                </h3>
                <div className="h-[240px]">
@@ -411,20 +389,20 @@ export function CareerPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2 space-y-6">
-              <div className="flex items-center gap-3 border-b border-white/5 pb-4">
-                <History size={18} className="text-[var(--color-accent)]" />
-                <h2 className="text-lg font-bold text-white uppercase tracking-wide">Historical Timeline</h2>
+              <div className="flex items-center gap-3 border-b border-[var(--hairline)] pb-4">
+                <History size={18} className="text-[var(--accent)]" />
+                <h2 className="kick">Historical Timeline</h2>
               </div>
               <TimelineFeed events={timelineEvents} />
             </div>
 
             <div className="space-y-8">
-               <div className="bg-[#15171f] border border-white/5 rounded-2xl p-6">
-                 <h3 className="text-xs font-bold text-white uppercase tracking-widest mb-6 flex items-center gap-2">
-                   <TrendingUp size={14} className="text-[var(--color-accent)]" />
+               <div className="compartment p-6">
+                 <h3 className="kick text-[var(--accent)] mb-6 flex items-center gap-2">
+                   <TrendingUp size={14} className="text-[var(--accent)]" />
                    Current Form
                  </h3>
-                 <p className="text-xs text-[var(--color-text-dim)] italic">
+                 <p className="text-xs text-[var(--fg-dim)] italic">
                    You are currently in a {stats.roi > 0 ? 'profitable' : 'challenging'} phase.
                    Keep consistent with your GTO compliance targets to sustain long-term growth.
                  </p>
@@ -440,39 +418,39 @@ export function CareerPage() {
         <div className="space-y-10">
           <FormatBreakdownTable tournaments={tournaments} />
 
-          <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-xl bg-[#0f172a]">
-             <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between">
-                <h3 className="text-xs font-black uppercase tracking-widest text-emerald-400 flex items-center gap-2">
+          <section className="compartment p-0 overflow-hidden">
+             <div className="px-6 py-5 border-b border-[var(--hairline)] bg-[var(--ink-2)] flex items-center justify-between">
+                <h3 className="kick text-[var(--money)] flex items-center gap-2 mb-0">
                    <DollarSign size={16} /> Financial Tier Analysis
                 </h3>
-                <span className="text-[10px] text-[var(--color-text-dim)] font-bold uppercase italic">Grouped by Buy-In Level</span>
+                <span className="text-[10px] text-[var(--fg-dim)] font-bold uppercase italic">Grouped by Buy-In Level</span>
              </div>
              <div className="overflow-x-auto">
                 <table className="w-full text-sm text-left">
                    <thead>
-                      <tr className="border-b border-white/5 text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest bg-white/[0.01]">
-                         <th className="px-6 py-4 font-black">Stake Tier</th>
-                         <th className="px-6 py-4 font-black text-center">Volume</th>
-                         <th className="px-6 py-4 font-black text-center">Cashes</th>
-                         <th className="px-6 py-4 font-black text-center">ROI</th>
-                         <th className="px-6 py-4 font-black text-right">Net Profit</th>
+                      <tr className="border-b border-[var(--hairline)] text-[10px] text-[var(--fg-dim)] uppercase tracking-widest">
+                         <th className="px-6 py-4 font-bold">Stake Tier</th>
+                         <th className="px-6 py-4 font-bold text-center">Volume</th>
+                         <th className="px-6 py-4 font-bold text-center">Cashes</th>
+                         <th className="px-6 py-4 font-bold text-center">ROI</th>
+                         <th className="px-6 py-4 font-bold text-right">Net Profit</th>
                       </tr>
                    </thead>
-                   <tbody className="font-data font-bold">
+                   <tbody className="font-mono font-bold">
                       {buyInSummary.map(([key, st]) => (
-                         <tr key={key} className="border-b border-white/5 hover:bg-white/[0.02] transition-colors group">
+                         <tr key={key} className="border-b border-[var(--hairline)] hover:bg-[var(--ink-2)] transition-colors group">
                             <td className="px-6 py-5">
-                               <span className="text-base text-white group-hover:text-emerald-400 transition-colors font-sans">{key}</span>
+                               <span className="text-base text-[var(--fg)] group-hover:text-[var(--money)] transition-colors font-mono">{key}</span>
                             </td>
-                            <td className="px-6 py-5 text-center text-[var(--color-text-dim)]">{st.count}</td>
+                            <td className="px-6 py-5 text-center text-[var(--fg-dim)]">{st.count}</td>
                             <td className="px-6 py-5 text-center">
-                               <span className="text-white">{st.cashes}</span> 
-                               <span className="text-[10px] text-[var(--color-text-dim)] ml-1">({((st.cashes/st.count)*100).toFixed(0)}%)</span>
+                               <span className="text-[var(--fg)]">{st.cashes}</span> 
+                               <span className="text-[10px] text-[var(--fg-dim)] ml-1">({((st.cashes/st.count)*100).toFixed(0)}%)</span>
                             </td>
-                            <td className={clsx("px-6 py-5 text-center text-base", st.profit >= 0 ? "text-emerald-400" : "text-rose-400")}>
+                            <td className={clsx("px-6 py-5 text-center text-base", st.profit >= 0 ? "text-[var(--money)]" : "text-[var(--loss)]")}>
                                {((st.profit / (st.buyIns || 1)) * 100).toFixed(1)}%
                             </td>
-                            <td className={clsx("px-6 py-5 text-right font-black text-base", st.profit >= 0 ? "text-emerald-400" : "text-rose-400")}>
+                            <td className={clsx("px-6 py-5 text-right font-bold text-base", st.profit >= 0 ? "text-[var(--money)]" : "text-[var(--loss)]")}>
                                {st.profit >= 0 ? '+' : ''}${st.profit.toFixed(2)}
                             </td>
                          </tr>
@@ -487,45 +465,40 @@ export function CareerPage() {
       {activeTab === 'nemesis' && (
         <div className="space-y-8">
           {/* Global Predators */}
-          <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl bg-[#0f172a]">
-             <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between text-rose-400">
-                <h3 className="text-xs font-black uppercase tracking-widest flex items-center gap-2">
+          <section className="compartment p-0 overflow-hidden">
+             <div className="px-6 py-5 border-b border-[var(--hairline)] bg-[var(--ink-2)] flex items-center justify-between text-[var(--loss)]">
+                <h3 className="kick flex items-center gap-2 mb-0">
                    <UserX size={16} /> Global Predators
                 </h3>
-                <span className="text-[10px] font-bold uppercase tracking-wider text-rose-400/70">Most BB Won From Hero</span>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--loss)]/70">Most BB Won From Hero</span>
              </div>
              {topNemesis.length === 0 ? (
-                <div className="p-8 text-center text-[var(--color-text-dim)]">
+                <div className="p-8 text-center text-[var(--fg-dim)]">
                   No predator exposure recorded. Keep importing hands to track predators.
                 </div>
              ) : (
                 <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
                    {topNemesis.map((v, i) => (
-                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.02] border border-white/5 group hover:border-rose-500/30 transition-all">
+                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-[var(--ink-2)] border border-[var(--hairline)] group hover:border-[var(--loss-line)] transition-all">
                          <div className="flex items-center gap-4">
-                            <span className="text-xl font-black text-rose-500/30 font-data">#{i+1}</span>
+                            <span className="text-xl font-bold text-[var(--loss)]/30 font-mono">#{i+1}</span>
                             <div className="flex flex-col">
-                               <span className="font-data font-black text-white text-base tracking-tight uppercase group-hover:text-rose-400 transition-colors">{v.name}</span>
+                               <span className="font-mono font-bold text-[var(--fg)] text-base tracking-tight uppercase group-hover:text-[var(--loss)] transition-colors">{v.name}</span>
                                <div className="flex items-center gap-2 mt-1.5">
                                   {v.archetype && (
-                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-rose-950/40 text-rose-400 uppercase tracking-wider border border-rose-500/20">
+                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-[var(--loss-soft)] text-[var(--loss)] uppercase tracking-wider border border-[var(--loss-line)]">
                                        {v.archetype}
                                     </span>
                                   )}
-                                  <span className="text-[9px] text-[var(--color-text-dim)] font-bold uppercase">
+                                  <span className="text-[9px] text-[var(--fg-dim)] font-bold uppercase">
                                      {v.handsCount} hands observed
                                   </span>
-                                  {v.notesCount > 0 && (
-                                    <span className="text-[9px] text-amber-400 font-bold bg-amber-950/20 px-1.5 py-0.5 rounded flex items-center gap-0.5 border border-amber-500/10">
-                                      ✏️ {v.notesCount}
-                                    </span>
-                                  )}
                                </div>
                             </div>
                          </div>
                          <div className="flex flex-col items-end">
-                            <span className="font-data text-rose-400 font-black text-lg">-{v.amountBb.toFixed(1)} bb</span>
-                            <span className="text-[9px] text-white/30 uppercase tracking-widest font-bold mt-1">Loss exposure</span>
+                            <span className="font-mono text-[var(--loss)] font-bold text-lg">-{v.amountBb.toFixed(1)} bb</span>
+                            <span className="text-[9px] text-[var(--fg-muted)] uppercase tracking-widest font-bold mt-1">Loss exposure</span>
                          </div>
                       </div>
                    ))}
@@ -534,45 +507,40 @@ export function CareerPage() {
           </section>
 
           {/* Global Prey */}
-          <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl bg-[#0f172a]">
-             <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between text-emerald-400">
-                <h3 className="text-xs font-black uppercase tracking-widest flex items-center gap-2">
+          <section className="compartment p-0 overflow-hidden">
+             <div className="px-6 py-5 border-b border-[var(--hairline)] bg-[var(--ink-2)] flex items-center justify-between text-[var(--money)]">
+                <h3 className="kick flex items-center gap-2 mb-0">
                    <Swords size={16} /> Global Prey
                 </h3>
-                <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400/70">Most BB Won By Hero</span>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--money)]/70">Most BB Won By Hero</span>
              </div>
              {topVictims.length === 0 ? (
-                <div className="p-8 text-center text-[var(--color-text-dim)]">
+                <div className="p-8 text-center text-[var(--fg-dim)]">
                   No victim exposure recorded. Keep importing hands to track prey.
                 </div>
              ) : (
                 <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
                    {topVictims.map((v, i) => (
-                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.02] border border-white/5 group hover:border-emerald-500/30 transition-all">
+                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-[var(--ink-2)] border border-[var(--hairline)] group hover:border-[var(--money-line)] transition-all">
                          <div className="flex items-center gap-4">
-                            <span className="text-xl font-black text-emerald-500/30 font-data">#{i+1}</span>
+                            <span className="text-xl font-bold text-[var(--money)]/30 font-mono">#{i+1}</span>
                             <div className="flex flex-col">
-                               <span className="font-data font-black text-white text-base tracking-tight uppercase group-hover:text-emerald-400 transition-colors">{v.name}</span>
+                               <span className="font-mono font-bold text-[var(--fg)] text-base tracking-tight uppercase group-hover:text-[var(--money)] transition-colors">{v.name}</span>
                                <div className="flex items-center gap-2 mt-1.5">
                                   {v.archetype && (
-                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-emerald-950/40 text-emerald-400 uppercase tracking-wider border border-emerald-500/20">
+                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-[var(--money-soft)] text-[var(--money)] uppercase tracking-wider border border-[var(--money-line)]">
                                        {v.archetype}
                                     </span>
                                   )}
-                                  <span className="text-[9px] text-[var(--color-text-dim)] font-bold uppercase">
+                                  <span className="text-[9px] text-[var(--fg-dim)] font-bold uppercase">
                                      {v.handsCount} hands observed
                                   </span>
-                                  {v.notesCount > 0 && (
-                                    <span className="text-[9px] text-amber-400 font-bold bg-amber-950/20 px-1.5 py-0.5 rounded flex items-center gap-0.5 border border-amber-500/10">
-                                      ✏️ {v.notesCount}
-                                    </span>
-                                  )}
                                </div>
                             </div>
                          </div>
                          <div className="flex flex-col items-end">
-                            <span className="font-data text-emerald-400 font-black text-lg">+{v.amountBb.toFixed(1)} bb</span>
-                            <span className="text-[9px] text-white/30 uppercase tracking-widest font-bold mt-1">Win exposure</span>
+                            <span className="font-mono text-[var(--money)] font-bold text-lg">+{v.amountBb.toFixed(1)} bb</span>
+                            <span className="text-[9px] text-[var(--fg-muted)] uppercase tracking-widest font-bold mt-1">Win exposure</span>
                          </div>
                       </div>
                    ))}
@@ -581,45 +549,40 @@ export function CareerPage() {
           </section>
 
           {/* Opponent Overlap */}
-          <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl bg-[#0f172a]">
-             <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between text-blue-400">
-                <h3 className="text-xs font-black uppercase tracking-widest flex items-center gap-2">
+          <section className="compartment p-0 overflow-hidden">
+             <div className="px-6 py-5 border-b border-[var(--hairline)] bg-[var(--ink-2)] flex items-center justify-between text-[var(--sig)]">
+                <h3 className="kick flex items-center gap-2 mb-0">
                    <Users size={16} /> Opponent Overlap
                 </h3>
-                <span className="text-[10px] font-bold uppercase tracking-wider text-blue-400/70">Most Hands Played Against</span>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[var(--sig)]/70">Most Hands Played Against</span>
              </div>
              {topOverlap.length === 0 ? (
-                <div className="p-8 text-center text-[var(--color-text-dim)]">
+                <div className="p-8 text-center text-[var(--fg-dim)]">
                   No opponent overlap recorded. Keep importing hands to track active opponents.
                 </div>
              ) : (
                 <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
                    {topOverlap.map((v, i) => (
-                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-white/[0.02] border border-white/5 group hover:border-blue-500/30 transition-all">
+                      <div key={v.name} className="flex items-center justify-between p-4 rounded-2xl bg-[var(--ink-2)] border border-[var(--hairline)] group hover:border-[var(--sig-line)] transition-all">
                          <div className="flex items-center gap-4">
-                            <span className="text-xl font-black text-blue-500/30 font-data">#{i+1}</span>
+                            <span className="text-xl font-bold text-[var(--sig)]/30 font-mono">#{i+1}</span>
                             <div className="flex flex-col">
-                               <span className="font-data font-black text-white text-base tracking-tight uppercase group-hover:text-blue-400 transition-colors">{v.name}</span>
+                               <span className="font-mono font-bold text-[var(--fg)] text-base tracking-tight uppercase group-hover:text-[var(--sig)] transition-colors">{v.name}</span>
                                <div className="flex items-center gap-2 mt-1.5">
                                   {v.archetype && (
-                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-blue-950/40 text-blue-400 uppercase tracking-wider border border-blue-500/20">
+                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-[var(--sig-soft)] text-[var(--sig)] uppercase tracking-wider border border-[var(--sig-line)]">
                                        {v.archetype}
                                     </span>
                                   )}
-                                  <span className="text-[9px] text-[var(--color-text-dim)] font-bold uppercase">
+                                  <span className="text-[9px] text-[var(--fg-dim)] font-bold uppercase">
                                      VPIP/PFR: {(v.vpip * 100).toFixed(0)}/{(v.pfr * 100).toFixed(0)}
                                   </span>
-                                  {v.notesCount > 0 && (
-                                    <span className="text-[9px] text-amber-400 font-bold bg-amber-950/20 px-1.5 py-0.5 rounded flex items-center gap-0.5 border border-amber-500/10">
-                                      ✏️ {v.notesCount}
-                                    </span>
-                                  )}
                                </div>
                             </div>
                          </div>
                          <div className="flex flex-col items-end">
-                            <span className="font-data text-blue-400 font-black text-lg">{v.handsCount}</span>
-                            <span className="text-[9px] text-white/30 uppercase tracking-widest font-bold mt-1">Hands observed</span>
+                            <span className="font-mono text-[var(--sig)] font-bold text-lg">{v.handsCount}</span>
+                            <span className="text-[9px] text-[var(--fg-muted)] uppercase tracking-widest font-bold mt-1">Hands observed</span>
                          </div>
                       </div>
                    ))}
@@ -631,44 +594,44 @@ export function CareerPage() {
 
       {activeTab === 'hands' && (
         <div className="space-y-6">
-           <section className="glass-card border border-white/10 rounded-[2rem] overflow-hidden shadow-2xl bg-[#0f172a]">
-              <div className="px-6 py-5 border-b border-white/5 bg-black/40 flex items-center justify-between">
-                 <h3 className="text-xs font-black uppercase tracking-widest text-blue-400 flex items-center gap-2">
+           <section className="compartment p-0 overflow-hidden">
+              <div className="px-6 py-5 border-b border-[var(--hairline)] bg-[var(--ink-2)] flex items-center justify-between">
+                 <h3 className="kick text-[var(--sig)] flex items-center gap-2 mb-0">
                     <Flame size={16} /> High Impact Hands
                  </h3>
-                 <span className="text-[10px] text-white/30 font-bold uppercase tracking-wider">Top 10 by BB Delta</span>
+                 <span className="text-[10px] text-[var(--fg-muted)] font-bold uppercase tracking-wider">Top 10 by BB Delta</span>
               </div>
               <div className="overflow-x-auto">
                  <table className="w-full text-sm text-left">
                     <thead>
-                       <tr className="border-b border-white/5 text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest bg-white/[0.01]">
-                          <th className="px-6 py-4 font-black">Rank</th>
-                          <th className="px-6 py-4 font-black">Hole Cards</th>
-                          <th className="px-6 py-4 text-center font-black">Position</th>
-                          <th className="px-6 py-4 text-right font-black">BB Profit/Loss</th>
-                          <th className="px-6 py-4 text-center font-black">Action</th>
+                       <tr className="border-b border-[var(--hairline)] text-[10px] text-[var(--fg-dim)] uppercase tracking-widest">
+                          <th className="px-6 py-4 font-bold">Rank</th>
+                          <th className="px-6 py-4 font-bold">Hole Cards</th>
+                          <th className="px-6 py-4 text-center font-bold">Position</th>
+                          <th className="px-6 py-4 text-right font-bold">BB Profit/Loss</th>
+                          <th className="px-6 py-4 text-center font-bold">Action</th>
                        </tr>
                     </thead>
-                    <tbody className="font-data font-bold">
+                    <tbody className="font-mono font-bold">
                        {bigHands.map((item, i) => (
-                          <tr key={item.decision.handId} className="border-b border-white/5 hover:bg-white/[0.02] transition-colors">
-                             <td className="px-6 py-5 text-[var(--color-text-dim)] w-16">#{i+1}</td>
-                             <td className="px-6 py-5 text-white text-base w-32 font-sans">{item.decision.handKey}</td>
+                          <tr key={item.decision.handId} className="border-b border-[var(--hairline)] hover:bg-[var(--ink-2)] transition-colors">
+                             <td className="px-6 py-5 text-[var(--fg-dim)] w-16">#{i+1}</td>
+                             <td className="px-6 py-5 text-[var(--fg)] text-base w-32 font-mono">{item.decision.handKey}</td>
                              <td className="px-6 py-5 text-center">
-                                <span className="text-blue-400 uppercase tracking-wide text-xs">{item.decision.position}</span>
+                                <span className="text-[var(--sig)] uppercase tracking-wide text-xs">{item.decision.position}</span>
                              </td>
                              <td className="px-6 py-5 text-right">
-                                <span className={clsx("text-base block", (item.netBb ?? 0) >= 0 ? "text-emerald-400" : "text-rose-400")}>
+                                <span className={clsx("text-base block", (item.netBb ?? 0) >= 0 ? "text-[var(--money)]" : "text-[var(--loss)]")}>
                                    {item.netBb === null ? '—' : `${item.netBb >= 0 ? '+' : ''}${item.netBb.toFixed(1)} bb`}
                                 </span>
-                                <span className="text-[10px] font-bold uppercase text-white/30 mt-0.5 block">
+                                <span className="text-[10px] font-bold uppercase text-[var(--fg-muted)] mt-0.5 block">
                                    {item.decision.netProfit >= 0 ? '+' : ''}{item.decision.netProfit.toLocaleString()} chips
                                 </span>
                              </td>
                              <td className="px-6 py-5 text-center">
                                <button
                                  onClick={() => handleOpenReplayer(item.hand, item.decision)}
-                                 className="px-3 py-1.5 rounded-lg bg-[var(--color-accent)]/10 text-[var(--color-accent)] hover:bg-[var(--color-accent)]/20 text-xs font-bold uppercase tracking-wider flex items-center gap-1 mx-auto transition-colors"
+                                 className="btn outline"
                                >
                                  Replay <ExternalLink size={12} />
                                </button>

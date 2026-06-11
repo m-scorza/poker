@@ -138,10 +138,10 @@ describe('icmStageLabel', () => {
 
 describe('icmStageColor', () => {
   it('returns correct CSS variable color classes', () => {
-    expect(icmStageColor('early')).toBe('text-[var(--color-accent)]');
-    expect(icmStageColor('mid')).toBe('text-[var(--color-info)]');
-    expect(icmStageColor('bubble')).toBe('text-[var(--color-warning)]');
-    expect(icmStageColor('itm')).toBe('text-[var(--color-warning)]');
-    expect(icmStageColor('final_table')).toBe('text-[var(--color-danger)]');
+    expect(icmStageColor('early')).toBe('text-[var(--accent)]');
+    expect(icmStageColor('mid')).toBe('text-[var(--sig)]');
+    expect(icmStageColor('bubble')).toBe('text-[var(--warn)]');
+    expect(icmStageColor('itm')).toBe('text-[var(--warn)]');
+    expect(icmStageColor('final_table')).toBe('text-[var(--loss)]');
   });
 });

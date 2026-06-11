@@ -1,0 +1,133 @@
+/* =========================================================
+   POKER ANALYZER — design tokens (Tailwind 4 @theme)
+   Source of truth: DECISIONS.md + DESIGN.md (same folder).
+   Pixel reference: poker 4/poker/Command Desk R.html
+
+   Install (poker repo):
+     1. copy to src/styles/tokens.css
+     2. in the root stylesheet:  @import "tailwindcss"; @import "./tokens.css";
+     3. utilities appear as bg-ink, text-money, border-hairline,
+        font-display, text-sig, etc.
+   ========================================================= */
+
+@theme {
+  /* ---- chassis ---- */
+  --color-ink: #0a0a0c;            /* app canvas (bg) */
+  --color-ink-2: #111114;          /* compartment tone shift */
+  --color-ink-3: #16161a;          /* hover tone */
+  --color-input: #131316;
+
+  --color-hairline: rgba(255, 255, 255, 0.07);
+  --color-hairline-strong: rgba(255, 255, 255, 0.16);
+
+  --color-fg: #f2f2f4;
+  --color-fg-muted: #8b8d94;
+  --color-fg-dim: #56585f;
+
+  /* ---- interactive (silver) ---- */
+  --color-accent: #C9CDD6;
+  --color-accent-soft: rgba(201, 205, 214, 0.07);
+  --color-accent-line: rgba(201, 205, 214, 0.34);
+
+  /* ---- semantics: alive on a quiet field ---- */
+  --color-money: #34D98C;          /* positive money is ALWAYS green */
+  --color-money-soft: rgba(52, 217, 140, 0.10);
+  --color-money-line: rgba(52, 217, 140, 0.40);
+
+  --color-loss: #FF5468;
+  --color-loss-soft: rgba(255, 84, 104, 0.10);
+  --color-loss-line: rgba(255, 84, 104, 0.40);
+
+  /* warning = the danger hue at lower intensity (severity is intensity,
+     not a new hue) — dusty rose, no pulse, always labeled REVIEW */
+  --color-warn: #A5697B;
+  --color-warn-soft: rgba(165, 105, 123, 0.08);
+  --color-warn-line: rgba(165, 105, 123, 0.30);
+
+  /* ---- the violet signature (user presence + wayfinding ONLY) ---- */
+  --color-sig: #9B6CFF;
+  --color-sig-soft: rgba(155, 108, 255, 0.10);
+  --color-sig-glow: rgba(155, 108, 255, 0.30);
+  --color-sig-line: rgba(155, 108, 255, 0.46);
+
+  /* ---- poker surfaces ---- */
+  --color-felt: #121215;
+  --color-felt-rail: #1c1c21;
+
+  /* ---- 4-color deck (carried from poker 4 tokens) ---- */
+  --color-spade: #f2f2f4;
+  --color-heart: #FF5468;
+  --color-diamond: #5AA2FF;
+  --color-club: #34D98C;
+
+  /* ---- type ---- */
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* ---- radius ---- */
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+
+  /* ---- elevation (floating layers ONLY: dock, palette, tooltip) ---- */
+  --shadow-float: 0 10px 36px rgba(0, 0, 0, 0.45);
+  /* the jewel (one per screen): */
+  --shadow-jewel: 0 0 28px rgba(52, 217, 140, 0.11), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* =========================================================
+   Base design system tokens — spacing, type scale, radius
+   (desk system names, distinct from Tailwind --radius-* names)
+   Source: design-system/reference/theme.css
+   ========================================================= */
+:root {
+  --s-2xs: 4px;  --s-xs: 8px;   --s-sm: 12px;  --s-md: 16px;
+  --s-lg: 20px;  --s-xl: 24px;  --s-2xl: 32px; --s-3xl: 40px;
+
+  --t-cap: 9px;  --t-sm: 11px;  --t-body: 13px;
+  --t-h3: 18px;  --t-h2: 24px;  --t-display: 34px;
+
+  --r-xs: 3px;   --r-sm: 6px;   --r-md: 10px;  --r-lg: 14px;
+}
+
+/* =========================================================
+   Base layer — the non-negotiables
+   ========================================================= */
+@layer base {
+  html {
+    font-variant-numeric: tabular-nums;     /* columns never shimmer */
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: var(--color-sig-glow);      /* selection carries the signature */
+    color: var(--color-fg);
+  }
+  :focus-visible {
+    outline: 1px solid var(--color-sig-line);
+    outline-offset: 2px;
+  }
+}
+
+/* =========================================================
+   Reference component classes (optional, mirror DESIGN.md)
+   ========================================================= */
+@layer components {
+  /* the kicker — connective tissue of the whole UI */
+  .kicker {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-fg-muted);
+  }
+  /* compartment = tone shift, no border, no glow */
+  .compartment {
+    background: var(--color-ink-2);
+    border-radius: var(--radius-md);
+  }
+  .compartment-hover:hover { background: var(--color-ink-3); }
+  /* internal hairline rule */
+  .rule { border-top: 1px solid var(--color-hairline); }
+}

@@ -52,7 +52,7 @@ export function DayHourHeatmap({ tournaments }: DayHourHeatmapProps) {
   return (
     <div className="bg-[#15171f] border border-white/5 rounded-2xl p-6">
       <div className="flex items-center gap-2 mb-6">
-        <Calendar size={18} className="text-[var(--color-accent)]" />
+        <Calendar size={18} className="text-[var(--accent)]" />
         <h3 className="text-sm font-bold text-white uppercase tracking-wider">
           Profit Heatmap (Day / Hour)
         </h3>
@@ -92,7 +92,7 @@ export function DayHourHeatmap({ tournaments }: DayHourHeatmapProps) {
                       <p className="text-white font-bold text-xs mb-1">
                         {DAYS[d.day]} at {HOURS[d.hour]}
                       </p>
-                      <p className="text-[10px] text-[var(--color-text-dim)]">
+                      <p className="text-[10px] text-[var(--fg-dim)]">
                         Tournaments: {d.count}
                       </p>
                       <p className={`text-xs font-bold ${d.net >= 0 ? 'text-emerald-400' : 'text-red-400'}`}>
@@ -106,7 +106,7 @@ export function DayHourHeatmap({ tournaments }: DayHourHeatmapProps) {
             />
             <Scatter data={data} shape="circle">
               {data.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={entry.net >= 0 ? 'var(--color-accent)' : '#ef4444'} fillOpacity={0.8} />
+                <Cell key={`cell-${index}`} fill={entry.net >= 0 ? 'var(--accent)' : '#ef4444'} fillOpacity={0.8} />
               ))}
             </Scatter>
           </ScatterChart>

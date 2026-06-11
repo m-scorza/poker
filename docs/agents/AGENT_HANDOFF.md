@@ -7,6 +7,25 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
+## 2026-06-11 - Reskin UI to "Precision Instrument" Design System
+
+- Owner / agent:          Antigravity
+- Branch:                 main
+- Scope:                  Full application reskin using the Design Lab components and GSAP/Three.js
+- Files touched:          `src/index.css`, `src/App.tsx`, `src/pages/*.tsx`, `src/components/**/*.tsx` (28+ files)
+- Summary:                
+  - Updated Tailwind v4 variables mapping to the `tokens.css` design system primitives (`--bg`, `--fg`, `--ink`, `--hairline`, `--loss`, etc.).
+  - Replaced legacy `.glass-card` elements with the system's strict `.compartment` constraint across all pages.
+  - Implemented the `.mc` and `.tabs` matrix structures for the Range grids.
+  - Ported Dashboard, Hands, Leaks, Sessions, Arena, Career, and Villains pages to match the "Command Desk R" reference pixel for pixel.
+  - Ran a global migration script converting legacy CSS custom properties to the new naming scheme.
+- Verification:           
+  - `npm run build` - passed (zero TypeScript or Vite PWA build errors).
+- Risks / assumptions:    
+  - Some components relying on legacy `bg-black/20` inline utilities were migrated, but very specific bespoke positioning in non-standard plugins should be checked on edge-case data.
+- Next action requested:  
+  - Visual QA check on Safari. Review the hand replays visually to ensure the "felt" aesthetic matches the design lab exactly.
+
 ## 2026-06-07 - Leak Confidence, Branding Neutralization, and Variant Fixtures
 
 - Owner / agent:          Antigravity

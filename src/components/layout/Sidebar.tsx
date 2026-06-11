@@ -2,74 +2,82 @@ import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard,
   Search,
-  BarChart3,
   Grid3X3,
   AlertTriangle,
   Calendar,
   Users,
   Zap,
   Trophy,
-  Sparkles,
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
-import type { StrategyProfile } from '../../data/strategyProfiles';
 
 const NAV_ITEMS = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
-  { to: '/career', icon: Trophy, label: 'Career' },
-  { to: '/demo', icon: Sparkles, label: 'Demo' },
   { to: '/hands', icon: Search, label: 'Hands' },
-  { to: '/stats', icon: BarChart3, label: 'Statistics' },
-  { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
   { to: '/leaks', icon: AlertTriangle, label: 'Leaks' },
+  { to: '/career', icon: Trophy, label: 'Career Arc', section: 'Reports' },
   { to: '/sessions', icon: Calendar, label: 'Sessions' },
+  { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
+  { to: '/arena', icon: Zap, label: 'The Arena', section: 'Practice' },
   { to: '/villains', icon: Users, label: 'Villains' },
-  { to: '/arena', icon: Zap, label: 'The Arena' },
 ];
 
 export function Sidebar() {
-  const { strategyProfile, setStrategyProfile } = useAppStore();
+  // Strategy profile drop-down kept from older design for now, just styled quietly
+  useAppStore();
 
   return (
-    <aside className="fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-56 glass-sidebar border-t md:border-t-0 md:border-r border-[var(--color-border)] flex flex-row md:flex-col z-50 overflow-x-auto md:overflow-visible shadow-[0_-4px_20px_rgba(0,0,0,0.5)] md:shadow-none">
-      <div className="hidden md:block px-4 py-5 border-b border-[var(--color-border)]">
-        <h1 className="text-lg font-bold text-[var(--color-accent)] font-data tracking-tight">
-          ♠ Poker Analyzer
-        </h1>
-        <p className="text-xs text-[var(--color-text-dim)] mt-0.5">App Settings</p>
+    <aside className="fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-56 bg-[var(--color-ink)] border-t md:border-t-0 md:border-r border-[var(--color-hairline)] flex flex-row md:flex-col z-50 overflow-x-auto md:overflow-visible">
+      <div className="hidden md:flex flex-col px-5 py-6">
+        <div className="flex items-center gap-3 mb-1">
+          <div className="w-8 h-8 rounded bg-[var(--color-fg)] text-[var(--color-ink)] font-display font-extrabold flex items-center justify-center text-[15px] tracking-tighter">PA</div>
+          <div>
+            <h1 className="font-display font-extrabold text-[15px] leading-tight tracking-tight">Poker Analyzer</h1>
+            <span className="text-[11px] text-[var(--color-fg-muted)]">Command Desk</span>
+          </div>
+        </div>
       </div>
 
-      <nav className="flex-1 flex flex-row md:flex-col py-2 md:py-3 px-2 space-x-1 md:space-x-0 md:space-y-0.5">
-        {NAV_ITEMS.map(({ to, icon: Icon, label }) => (
-          <NavLink
-            key={to}
-            to={to}
-            className={({ isActive }) =>
-              clsx(
-                'flex flex-col md:flex-row items-center justify-center md:justify-start gap-1 md:gap-3 px-3 py-2 md:py-2.5 rounded-lg text-xs md:text-sm transition-all whitespace-nowrap min-w-[70px] md:min-w-full',
-                isActive
-                  ? 'bg-[var(--color-bg-hover)] text-[var(--color-accent)] scale-105 md:scale-100'
-                  : 'text-[var(--color-text-dim)] hover:text-[var(--color-text)] hover:bg-[var(--color-bg-hover)]',
-              )
-            }
-          >
-            <Icon size={20} className="md:w-[18px] md:h-[18px]" />
-            <span className="hidden sm:inline md:inline">{label}</span>
-          </NavLink>
+      <nav className="flex-1 flex flex-row md:flex-col py-2 md:py-0 px-3 space-x-1 md:space-x-0 md:space-y-0.5">
+        <div className="hidden md:block px-3 py-2 text-[10px] uppercase tracking-[0.16em] text-[var(--color-fg-dim)] font-mono mt-2 mb-1">Review</div>
+        {NAV_ITEMS.map(({ to, icon: Icon, label, section }) => (
+          <div key={to}>
+            {section && <div className="hidden md:block px-3 py-2 text-[10px] uppercase tracking-[0.16em] text-[var(--color-fg-dim)] font-mono mt-4 mb-1">{section}</div>}
+            <NavLink
+              to={to}
+              className={({ isActive }) =>
+                clsx(
+                  'flex flex-col md:flex-row items-center justify-center md:justify-start gap-1 md:gap-3 px-3 py-2 md:py-2 rounded-md text-[11px] md:text-[13px] transition-all whitespace-nowrap min-w-[70px] md:min-w-full font-sans',
+                  isActive
+                    ? 'text-[var(--color-fg)] bg-[rgba(255,255,255,0.045)] shadow-[inset_2px_0_0_var(--color-sig)]'
+                    : 'text-[var(--color-fg-muted)] hover:text-[var(--color-fg)] hover:bg-[var(--color-ink-3)]'
+                )
+              }
+            >
+              <Icon size={16} className="md:w-[16px] md:h-[16px] opacity-70" />
+              <span className="hidden sm:inline md:inline font-medium">{label}</span>
+            </NavLink>
+          </div>
         ))}
       </nav>
 
-      <div className="hidden md:block px-4 py-3 border-t border-[var(--color-border)] text-xs text-[var(--color-text-muted)] space-y-3">
-        <div>v0.2.0 — EV Platform</div>
-        <select
-          value={strategyProfile}
-          onChange={(e) => setStrategyProfile(e.target.value as StrategyProfile)}
-          className="w-full bg-[var(--color-bg-input)] border border-[var(--color-border)] text-[var(--color-accent)] text-xs p-1.5 rounded outline-none font-bold bg-emerald-900/10"
-        >
-          <option value="game_plan">Baseline (GTO)</option>
-          <option value="advanced">Advanced (Exploit)</option>
-        </select>
+      <div className="hidden md:block px-5 py-6 mt-auto">
+        <div className="jewel mb-4">
+          <span className="kicker" style={{ fontSize: '9px' }}>Lifetime profit</span>
+          <div className="font-display font-extrabold text-[20px] text-[var(--color-money)] tracking-tight leading-none mt-1.5" style={{ textShadow: '0 0 20px rgba(52,217,140,0.40)' }}>+$388.85</div>
+          <div className="font-mono text-[10px] text-[var(--color-fg-muted)] mt-1.5 leading-snug">
+            +141.4% ROI · 250 tourneys
+          </div>
+        </div>
+        
+        <div className="pt-4 border-t border-[var(--color-hairline)] flex items-center gap-3">
+          <div className="w-8 h-8 rounded-full bg-[var(--color-ink-3)] text-[var(--color-fg)] flex items-center justify-center font-display font-bold text-sm">S</div>
+          <div>
+            <div className="text-[13px] font-semibold text-[var(--color-fg)]">scorza23</div>
+            <div className="font-mono text-[10px] text-[var(--color-fg-dim)] mt-0.5">Grinder · B+</div>
+          </div>
+        </div>
       </div>
     </aside>
   );

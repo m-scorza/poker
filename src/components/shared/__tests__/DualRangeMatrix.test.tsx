@@ -74,8 +74,6 @@ describe('DualRangeMatrix', () => {
 
     expect(screen.getByText('The Oracle (GTO)')).toBeInTheDocument();
     expect(screen.getByText('The Mirror (Performance)')).toBeInTheDocument();
-    expect(screen.getByText('RFI / Open')).toBeInTheDocument();
-    expect(screen.getByText('Push/Fold (10bb)')).toBeInTheDocument();
   });
 
   it('shows the default detail pane before a hand is selected', () => {

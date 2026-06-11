@@ -4,7 +4,7 @@ import type { BustOutBucket } from '../../analysis/careerStats';
 export function BustOutChart({ data }: { data: BustOutBucket[] }) {
   if (data.length === 0) {
     return (
-      <div className="flex h-full items-center justify-center text-[10px] uppercase tracking-widest text-[var(--color-text-dim)]">
+      <div className="flex h-full items-center justify-center text-[10px] uppercase tracking-widest text-[var(--fg-dim)]">
         No finish data available
       </div>
     );

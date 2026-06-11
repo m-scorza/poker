@@ -78,7 +78,7 @@ export function HandsTable({
     columnHelper.accessor(row => row.d.handId, {
       id: 'handId',
       header: 'Hand ID',
-      cell: info => <span className="text-[var(--color-text-muted)]">{info.getValue().slice(-8)}</span>
+      cell: info => <span className="text-[var(--fg-muted)]">{info.getValue().slice(-8)}</span>
     }),
     columnHelper.accessor(row => row.d.position, {
       id: 'position',
@@ -93,7 +93,7 @@ export function HandsTable({
     columnHelper.accessor(row => row.d.scenario, {
       id: 'scenario',
       header: 'Scenario',
-      cell: info => <span className="text-[var(--color-text-dim)]">{info.getValue()}</span>
+      cell: info => <span className="text-[var(--fg-dim)]">{info.getValue()}</span>
     }),
     columnHelper.accessor(row => row.d.action, {
       id: 'action',
@@ -102,11 +102,11 @@ export function HandsTable({
         const action = info.getValue();
         return (
           <span className={clsx(
-            'text-xs px-1.5 py-0.5 rounded font-data uppercase tracking-wider',
-            action === 'raise' && 'bg-emerald-900/40 text-[var(--color-accent)] border border-[var(--color-accent)]/20',
-            action === 'fold' && 'bg-gray-800 text-[var(--color-text-dim)] border border-gray-700',
-            action === 'call' && 'bg-blue-900/40 text-[var(--color-info)] border border-[var(--color-info)]/20',
-            action === 'check' && 'bg-gray-800 text-[var(--color-text-dim)] border border-gray-700',
+            'text-xs px-1.5 py-0.5 rounded font-mono uppercase tracking-wider',
+            action === 'raise' && 'bg-[var(--money-soft)] text-[var(--money)] border border-[var(--money-line)]',
+            action === 'fold' && 'bg-[var(--ink-3)] text-[var(--fg-dim)] border border-[var(--hairline)]',
+            action === 'call' && 'bg-[var(--sig-soft)] text-[var(--sig)] border border-[var(--sig-line)]',
+            action === 'check' && 'bg-[var(--ink-3)] text-[var(--fg-dim)] border border-[var(--hairline)]',
           )}>
             {action}
           </span>
@@ -120,8 +120,8 @@ export function HandsTable({
         const bb = info.getValue();
         return (
           <span className={clsx(
-            bb < 20 && 'text-[var(--color-danger)] font-bold',
-            bb >= 20 && bb <= 40 && 'text-[var(--color-warning)] font-bold',
+            bb < 20 && 'text-[var(--loss)] font-bold',
+            bb >= 20 && bb <= 40 && 'text-[var(--warn)] font-bold',
           )}>
             {bb.toFixed(0)}bb
           </span>
@@ -135,19 +135,19 @@ export function HandsTable({
         const d = info.row.original.d;
         if (d.deviationType) {
           return (
-            <span className="whitespace-nowrap text-[10px] font-bold px-2 py-1 rounded bg-red-900/30 text-[var(--color-danger)] uppercase tracking-wider border border-[var(--color-danger)]/30">
+            <span className="whitespace-nowrap text-[10px] font-bold px-2 py-1 rounded bg-[var(--loss-soft)] text-[var(--loss)] uppercase tracking-wider border border-[var(--loss-line)]">
               {DEVIATION_LABELS[d.deviationType] || d.deviationType}
             </span>
           );
         }
         if (d.isCompliant) {
           return (
-            <span className="text-[10px] font-bold px-2 py-1 rounded bg-emerald-900/30 text-[var(--color-accent)] uppercase tracking-wider border border-[var(--color-accent)]/30">
+            <span className="text-[10px] font-bold px-2 py-1 rounded bg-[var(--money-soft)] text-[var(--money)] uppercase tracking-wider border border-[var(--money-line)]">
               COMPLIANT
             </span>
           );
         }
-        return <span className="text-xs text-[var(--color-text-muted)]">—</span>;
+        return <span className="text-xs text-[var(--fg-muted)]">—</span>;
       }
     }),
     columnHelper.display({
@@ -162,8 +162,8 @@ export function HandsTable({
               className={clsx(
                   "p-1.5 rounded-full transition-all ring-1",
                   h?.isStarred
-                  ? "bg-amber-400 text-black ring-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.2)]"
-                  : "text-[var(--color-text-dim)] hover:text-amber-400 ring-white/5 hover:ring-amber-400/50"
+                  ? "bg-[var(--warn)] text-[var(--ink-1)] ring-[var(--warn)] shadow-[0_0_10px_var(--warn-soft)]"
+                  : "text-[var(--fg-dim)] hover:text-[var(--warn)] ring-[var(--hairline)] hover:ring-[var(--warn-line)]"
               )}
               title={h?.isStarred ? "Featured Hand" : "Star for Review"}
               aria-label={h?.isStarred ? `Unstar hand ${d.handId}` : `Star hand ${d.handId} for review`}
@@ -173,7 +173,7 @@ export function HandsTable({
             {h && (
               <button
                 onClick={() => onReplayHand(d.handId)}
-                className="bg-white/5 hover:bg-[var(--color-accent)]/20 ring-1 ring-white/5 hover:ring-[var(--color-accent)]/50 p-1.5 rounded-full text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-all"
+                className="bg-[var(--ink-3)] hover:bg-[var(--accent)]/20 ring-1 ring-[var(--hairline)] hover:ring-[var(--accent)]/50 p-1.5 rounded-full text-[var(--fg-muted)] hover:text-[var(--accent)] transition-all"
                 title="In-depth analysis"
                 aria-label={`Open in-depth analysis for hand ${d.handId}`}
               >
@@ -208,16 +208,16 @@ export function HandsTable({
 
   if (data.length === 0) {
     return (
-      <div className="glass-card border border-[var(--color-border)] rounded-xl overflow-hidden p-8 text-center text-[var(--color-text-muted)] text-sm">
+      <div className="compartment border-[var(--hairline)] overflow-hidden p-8 text-center text-[var(--fg-muted)] text-sm">
         No hands found.
       </div>
     );
   }
 
   return (
-    <div className="glass-card border border-[var(--color-border)] rounded-xl overflow-hidden flex flex-col h-[600px]">
+    <div className="compartment p-0 border-[var(--hairline)] overflow-hidden flex flex-col h-[600px]">
       {/* Table Header (Fixed) */}
-      <div className="flex-none overflow-hidden pr-[15px] border-b border-[var(--color-border)] bg-[var(--color-bg-hover)]">
+      <div className="flex-none overflow-hidden pr-[15px] border-b border-[var(--hairline)] bg-[var(--ink-2)]">
         <table className="w-full text-sm">
           <thead>
             {table.getHeaderGroups().map(headerGroup => (
@@ -227,8 +227,8 @@ export function HandsTable({
                     key={header.id}
                     onClick={header.column.getToggleSortingHandler()}
                     className={clsx(
-                      "px-3 py-2.5 text-xs text-[var(--color-text-dim)] uppercase tracking-wide",
-                      header.column.getCanSort() ? "cursor-pointer hover:text-[var(--color-text)]" : "",
+                      "px-3 py-2.5 text-xs text-[var(--fg-dim)] uppercase tracking-wide",
+                      header.column.getCanSort() ? "cursor-pointer hover:text-[var(--fg)]" : "",
                       header.id === 'actions' ? 'flex-1 text-right' : 'w-[12%]'
                     )}
                   >
@@ -257,14 +257,14 @@ export function HandsTable({
                 return (
                   <tr
                     key={row.id}
-                    className="border-b border-[var(--color-border)]/50 hover:bg-[var(--color-bg-hover)] transition-colors flex w-full absolute top-0 left-0"
+                    className="border-b border-[var(--hairline)] hover:bg-[var(--ink-2)] transition-colors flex w-full absolute top-0 left-0"
                     style={{
                       transform: `translateY(${virtualRow.start}px)`,
                       height: `${virtualRow.size}px`
                     }}
                   >
                     {row.getVisibleCells().map(cell => (
-                      <td key={cell.id} className={clsx("px-3 py-2 font-data text-xs flex items-center", cell.column.id === 'actions' ? 'flex-1 justify-end' : 'w-[12%]')}>
+                      <td key={cell.id} className={clsx("px-3 py-2 font-mono text-xs flex items-center", cell.column.id === 'actions' ? 'flex-1 justify-end' : 'w-[12%]')}>
                         {flexRender(cell.column.columnDef.cell, cell.getContext())}
                       </td>
                     ))}
