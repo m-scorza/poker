@@ -78,7 +78,16 @@ CI and passes, and `agentKernel.test.ts` passes in this remote sandbox
 - 7 `jsx-a11y` warnings (clickable divs without keyboard support) —
   identical to yesterday.
 
-### 5. Correction to the 2026-06-10 ledger
+### 5. Critical Dependabot alert: vitest < 3.2.6 — NEW, FIXED IN THIS PR
+- GitHub flagged 1 critical vulnerability on `main`
+  (Dependabot alert #8): GHSA-5xrq-8626-4rwp — arbitrary file read/execute
+  when the Vitest UI server is listening. Dev-only dependency and this repo
+  runs `vitest run` (no UI server), so practical exposure was low.
+- **Fix applied:** `npm audit fix` bumped vitest within the existing
+  `^3.0.0` range (lockfile-only change); `npm audit` now reports
+  0 vulnerabilities and the suite stays 693 / 693.
+
+### 6. Correction to the 2026-06-10 ledger
 - Yesterday's claim "only HandReplay and HandsPage have component tests"
   was inaccurate **at the time**: `shared/__tests__` (6 files, since
   2026-05-18), `career/__tests__` (3 files), and `TrendChart.test.tsx`
