@@ -96,7 +96,18 @@ in a remote session on branch `claude/relaxed-mccarthy-pgzdw7`. Follows up on
   (`.graphify_root`, `.graphify_python`, `cache/`, `cost.json`) while keeping
   the report/graph, or relativize paths at generation time.
 
-### 7. `scripts/` debris — OPEN
+### 7. Critical Dependabot advisory on `vitest` — FIXED in this PR
+- **Status:** new (Dependabot alert #8 on default branch). **Priority:** high
+  (dev-only exposure).
+- `vitest <3.2.6` / `@vitest/coverage-v8 <=3.2.5`: GHSA-5xrq-8626-4rwp —
+  arbitrary file read/execute when the Vitest UI server is listening. Dev
+  dependency, so no shipped-app exposure, but agents and the owner run vitest
+  locally.
+- **Fix:** `npm audit fix` bumped vitest to 3.2.6 (lockfile-only change,
+  semver ranges already allowed it). `npm audit` now reports 0
+  vulnerabilities; full suite re-run green (693 / 693).
+
+### 8. `scripts/` debris — OPEN
 - **Status:** new. **Priority:** low.
 - `scripts/fix_imports.cjs` is a one-off codemod whose own README entry says
   "Safe to delete if no longer needed"; `scripts/test-odds.cjs` and
