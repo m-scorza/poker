@@ -122,7 +122,7 @@ carries no danger association). Instead, warning shares the danger hue at lower 
 
 ## D11 · Process
 
-- `poker 2 try (4)` = **archive** (the lab, 49 bricks, all history). Quarry, don't extend.
+- Design lab archive = **archive** (the lab, 49 bricks, all history). Quarry, don't extend.
 - `poker 4` = sketches + this handoff (now consolidated here). Also frozen once copied to the repo.
 - All real design-system work happens **in the poker repo via Claude Code**, with these three
   files as law. The catalog habit — building brick #50 instead of shipping — is the named enemy.

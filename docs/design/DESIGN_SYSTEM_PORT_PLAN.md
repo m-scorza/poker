@@ -10,7 +10,7 @@
 > - Contract: `docs/design/DESIGN.md` (copy in step 0)
 > - Decisions + rationale: `docs/design/DECISIONS.md` (copy in step 0)
 >
-> Design Lab repo root: `C:\Users\MICRO\Downloads\poker 2 try (4)` →
+> Design Lab source archive: local-only design workspace.
 > `design-system/` is the source folder; `archive/` is exploration history (quarry, don't extend).
 
 ---
@@ -102,7 +102,7 @@ The repo posture is "no external API calls by default" + PWA. **Do not** add Goo
 ```
 npm i @fontsource/bricolage-grotesque @fontsource/inter @fontsource-variable/jetbrains-mono
 ```
-Import the needed weights in `src/main.tsx` (or a `src/styles/fonts.css` imported from `index.css`). Bricolage needs the heavy display weights (700/800); Inter 400/500/600; JetBrains Mono 400/500.
+Use local/system font fallbacks only unless fonts are self-hosted in the repo. Do not add remote font URLs; Bricolage, Inter, and JetBrains Mono are preferred when already available locally.
 
 ---
 
