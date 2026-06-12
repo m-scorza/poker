@@ -16,7 +16,7 @@ function StatPill({ label, value, icon, trend, isPositive }: StatPillProps) {
       <div className="absolute top-0 right-0 p-3 opacity-5 group-hover:opacity-10 transition-opacity">
         {icon}
       </div>
-      <div className="flex items-center gap-2 text-[var(--color-text-dim)] uppercase text-[10px] font-bold tracking-widest">
+      <div className="flex items-center gap-2 text-[var(--fg-dim)] uppercase text-[10px] font-bold tracking-widest">
         {icon}
         {label}
       </div>
@@ -89,7 +89,7 @@ export function CareerDashboard({ stats, profitHistory }: CareerDashboardProps) 
       <div className="bg-[#15171f] border border-white/5 rounded-2xl p-6">
         <div className="flex justify-between items-center mb-6">
           <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
-            <TrendingUp size={16} className="text-[var(--color-accent)]" />
+            <TrendingUp size={16} className="text-[var(--accent)]" />
             Career Profit Graph
           </h3>
         </div>
@@ -99,8 +99,8 @@ export function CareerDashboard({ stats, profitHistory }: CareerDashboardProps) 
             <AreaChart data={profitHistory} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
               <defs>
                 <linearGradient id="profitGradient" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="var(--color-accent)" stopOpacity={0.3}/>
-                  <stop offset="95%" stopColor="var(--color-accent)" stopOpacity={0}/>
+                  <stop offset="5%" stopColor="var(--accent)" stopOpacity={0.3}/>
+                  <stop offset="95%" stopColor="var(--accent)" stopOpacity={0}/>
                 </linearGradient>
                 <linearGradient id="lossGradient" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#ef4444" stopOpacity={0.3}/>
@@ -129,13 +129,13 @@ export function CareerDashboard({ stats, profitHistory }: CareerDashboardProps) 
                   borderRadius: '12px',
                   boxShadow: '0 10px 15px -3px rgba(0,0,0,0.5)'
                 }}
-                itemStyle={{ color: 'var(--color-accent)', fontSize: '12px', fontWeight: 'bold' }}
+                itemStyle={{ color: 'var(--accent)', fontSize: '12px', fontWeight: 'bold' }}
                 labelStyle={{ color: 'rgba(255,255,255,0.5)', fontSize: '10px', marginBottom: '4px' }}
               />
               <Area 
                 type="monotone" 
                 dataKey="amount" 
-                stroke="var(--color-accent)" 
+                stroke="var(--accent)" 
                 fillOpacity={1} 
                 fill="url(#profitGradient)" 
                 strokeWidth={3}

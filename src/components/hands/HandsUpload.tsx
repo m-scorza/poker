@@ -76,7 +76,7 @@ function getImportDiagnosticsEnvironment(): ImportDiagnosticsEnvironment {
 
 const confidenceBadgeClasses = {
   high: 'border-emerald-400/30 bg-emerald-400/10 text-emerald-100',
-  medium: 'border-yellow-400/30 bg-yellow-400/10 text-yellow-100',
+  medium: 'border-warn/30 bg-warn/10 text-warn',
   low: 'border-red-400/30 bg-red-400/10 text-red-100',
 };
 
@@ -420,7 +420,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   }
 
   return (
-    <div className="glass-card border border-[var(--color-border)] rounded-xl p-6 shadow-sm">
+    <div className="compartment p-6">
       <div
         onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
         onDragLeave={() => setDragOver(false)}
@@ -429,18 +429,18 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         className={clsx(
           'border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-colors',
           dragOver
-            ? 'border-[var(--color-accent)] bg-[var(--color-accent)]/5'
-            : 'border-[var(--color-border)] hover:border-[var(--color-border-active)] bg-[var(--color-bg-base)]',
+            ? 'border-[var(--accent)] bg-[var(--accent)]/5'
+            : 'border-[var(--hairline)] hover:border-[var(--hairline)] bg-[var(--bg)]',
         )}
       >
         <UploadIcon
           size={32}
-          className={clsx('mx-auto mb-3', dragOver ? 'text-[var(--color-accent)]' : 'text-[var(--color-text-dim)]')}
+          className={clsx('mx-auto mb-3', dragOver ? 'text-[var(--accent)]' : 'text-[var(--fg-dim)]')}
         />
-        <p className="text-[var(--color-text)] font-semibold mb-1">
+        <p className="text-[var(--fg)] font-semibold mb-1">
           Drag and Drop Poker Files
         </p>
-        <p className="text-xs text-[var(--color-text-muted)]">
+        <p className="text-xs text-[var(--fg-muted)]">
           Supports Hand Histories, Summaries, OHH JSON and ZIPs (.txt, .json, .zip)
         </p>
       </div>
@@ -467,11 +467,11 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         className="hidden"
       />
 
-      <div className="mt-4 rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-base)]/70 p-4 text-xs">
+      <div className="mt-4 rounded-lg border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-xs">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
-            <div className="font-semibold text-[var(--color-text)]">Data Health</div>
-            <div className="mt-1 text-[var(--color-text-muted)]">{dataHealth.message}</div>
+            <div className="font-semibold text-[var(--fg)]">Data Health</div>
+            <div className="mt-1 text-[var(--fg-muted)]">{dataHealth.message}</div>
           </div>
           <div className="flex items-center gap-2">
             {dataHealth.status === 'ready' && (
@@ -482,7 +482,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                     e.stopPropagation();
                     downloadImportDiagnostics();
                   }}
-                  className="rounded border border-yellow-400/20 bg-yellow-400/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-yellow-100 hover:bg-yellow-400/15 transition-colors cursor-pointer"
+                  className="rounded border border-warn/20 bg-warn/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-warn hover:bg-warn/15 transition-colors cursor-pointer"
                   title="Download source filenames, import counts, and parser warnings without raw hand histories."
                 >
                   Export Diagnostics
@@ -512,13 +512,13 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             )}
             {dataHealth.confidence ? (
               <span className={clsx(
-                'rounded-full border px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider',
+                'rounded-full border px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-wider',
                 confidenceBadgeClasses[dataHealth.confidence],
               )}>
                 {dataHealth.confidence} confidence
               </span>
             ) : (
-              <span className="rounded-full border border-[var(--color-border)] px-3 py-1 font-data text-[10px] font-bold uppercase tracking-wider text-[var(--color-text-muted)]">
+              <span className="rounded-full border border-[var(--hairline)] px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-wider text-[var(--fg-muted)]">
                 No imports yet
               </span>
             )}
@@ -526,13 +526,13 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         </div>
         {dataHealth.status === 'ready' && (
           <>
-            <div className="mt-3 grid grid-cols-2 gap-2 text-[var(--color-text-muted)] md:grid-cols-4">
-              <div><span className="text-[var(--color-text)]">Last:</span> {formatDateTime(dataHealth.lastImportedAt)}</div>
-              <div><span className="text-[var(--color-text)]">Files:</span> {dataHealth.recentFiles}</div>
-              <div><span className="text-[var(--color-text)]">Saved:</span> {dataHealth.recentSavedHands} hands / {dataHealth.recentSavedSummaries} summaries</div>
-              <div><span className="text-[var(--color-text)]">Failed:</span> {dataHealth.recentFailedFiles}</div>
+            <div className="mt-3 grid grid-cols-2 gap-2 text-[var(--fg-muted)] md:grid-cols-4">
+              <div><span className="text-[var(--fg)]">Last:</span> {formatDateTime(dataHealth.lastImportedAt)}</div>
+              <div><span className="text-[var(--fg)]">Files:</span> {dataHealth.recentFiles}</div>
+              <div><span className="text-[var(--fg)]">Saved:</span> {dataHealth.recentSavedHands} hands / {dataHealth.recentSavedSummaries} summaries</div>
+              <div><span className="text-[var(--fg)]">Failed:</span> {dataHealth.recentFailedFiles}</div>
             </div>
-            <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[10px] text-[var(--color-text-muted)]">
+            <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[10px] text-[var(--fg-muted)]">
               <div>
                 Local diagnostics: {retainedImportRunCount} retained import run{retainedImportRunCount === 1 ? '' : 's'}.
                 Keeps the latest {IMPORT_DIAGNOSTICS_RETENTION_RUNS} locally and excludes raw hands, cards, actions, and local paths.
@@ -541,7 +541,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                 Confidence ledger: {analysisPostureLabels[dataHealth.ledger.analysisPosture]}; {dataHealth.ledger.parsedFiles}/{dataHealth.ledger.totalFiles} files parsed ({formatLedgerRate(dataHealth.ledger.parsedFileRate)}); confidence mix H/M/L {dataHealth.ledger.confidenceCounts.high}/{dataHealth.ledger.confidenceCounts.medium}/{dataHealth.ledger.confidenceCounts.low}.
               </div>
               {topWarningCategories.length > 0 && (
-                <div className="mt-1 text-yellow-100/80">
+                <div className="mt-1 text-[var(--fg-dim)]">
                   Top parser warning categories: {topWarningCategories.map(row => `${row.label} ${row.count}`).join(', ')}.
                 </div>
               )}
@@ -549,12 +549,12 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           </>
         )}
         {diagnosticsMessage && (
-          <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[var(--color-text-muted)]">
+          <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[var(--fg-muted)]">
             {diagnosticsMessage}
           </div>
         )}
         {dataHealth.warnings.length > 0 && !showHistory && (
-          <ul className="mt-3 list-disc space-y-1 pl-4 text-yellow-100/90">
+          <ul className="mt-3 list-disc space-y-1 pl-4 text-[var(--fg-dim)]">
             {dataHealth.warnings.map((warning, i) => (
               <li key={`${warning}-${i}`}>{warning}</li>
             ))}
@@ -563,8 +563,8 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
         {/* Collapsible Timeline Details */}
         {showHistory && importRunTimeline.length > 0 && (
-          <div className="mt-4 pt-4 border-t border-[var(--color-border)] space-y-4">
-            <div className="text-[10px] font-black uppercase tracking-wider text-[var(--color-text-muted)] mb-2">
+          <div className="mt-4 pt-4 border-t border-[var(--hairline)] space-y-4">
+            <div className="text-[10px] font-black uppercase tracking-wider text-[var(--fg-muted)] mb-2">
               Import History Timeline
             </div>
             <div className="relative pl-4 border-l border-white/10 space-y-4">
@@ -574,7 +574,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                   <div className={clsx(
                     'absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full border border-black',
                     run.confidence === 'high' && 'bg-emerald-400',
-                    run.confidence === 'medium' && 'bg-yellow-400',
+                    run.confidence === 'medium' && 'bg-warn',
                     run.confidence === 'low' && 'bg-red-400'
                   )} />
                   <div className="space-y-1">
@@ -584,22 +584,22 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                         <span className={clsx(
                           'rounded-full px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider',
                           run.confidence === 'high' && 'bg-emerald-400/10 text-emerald-300 border border-emerald-400/20',
-                          run.confidence === 'medium' && 'bg-yellow-400/10 text-yellow-300 border border-yellow-400/20',
+                          run.confidence === 'medium' && 'bg-warn/10 text-warn border border-warn/20',
                           run.confidence === 'low' && 'bg-red-400/10 text-red-300 border border-red-400/20'
                         )}>
                           {run.statusLabel}
                         </span>
                       </span>
                     </div>
-                    <p className="text-[10px] text-[var(--color-text-muted)]">
-                      {run.parsedFilesLabel} &middot; <span className="text-white">{run.savedLabel}</span> &middot; <span className="text-amber-400/90">{run.failedFilesLabel}</span>
+                    <p className="text-[10px] text-[var(--fg-muted)]">
+                      {run.parsedFilesLabel} &middot; <span className="text-white">{run.savedLabel}</span> &middot; <span className="text-[var(--warn)]">{run.failedFilesLabel}</span>
                     </p>
-                    <div className="text-[9px] text-[var(--color-text-muted)]">
+                    <div className="text-[9px] text-[var(--fg-muted)]">
                       Sources: {run.sourcePreview.join(', ')}
                     </div>
                     {run.warningPreview.length > 0 && (
-                      <div className="mt-1 max-h-20 overflow-y-auto rounded bg-black/20 p-2 font-mono text-[9px] text-yellow-100/80 scrollbar-thin">
-                        <div className="font-bold text-[8px] uppercase tracking-widest text-yellow-200/60 mb-1">
+                      <div className="mt-1 max-h-20 overflow-y-auto rounded bg-black/20 p-2 font-mono text-[9px] text-[var(--fg-dim)] scrollbar-thin">
+                        <div className="font-bold text-[8px] uppercase tracking-widest text-[var(--fg-dim)] mb-1">
                           Warnings / Error logs
                         </div>
                         <ul className="list-disc pl-3 space-y-0.5">
@@ -617,11 +617,11 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         )}
       </div>
 
-      <div className="mt-4 rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-base)]/70 p-4 text-xs">
+      <div className="mt-4 rounded-lg border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-xs">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <div className="font-semibold text-[var(--color-text)]">Local heads-up reference tables</div>
-            <div className="mt-1 max-w-2xl text-[var(--color-text-muted)]">
+            <div className="font-semibold text-[var(--fg)]">Local heads-up reference tables</div>
+            <div className="mt-1 max-w-2xl text-[var(--fg-muted)]">
               Optional private CSV/table inputs for HU button push and BB call-vs-all-in checks. These stay in browser storage and only create rule-based study hints; no solver EV is inferred.
             </div>
           </div>
@@ -648,13 +648,13 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             </button>
           </div>
         </div>
-        <div className="mt-3 grid gap-2 text-[var(--color-text-muted)] md:grid-cols-2">
+        <div className="mt-3 grid gap-2 text-[var(--fg-muted)] md:grid-cols-2">
           {(['push', 'call'] as const).map((kind) => {
             const summary = localReferenceSummary[kind];
             return (
               <div key={kind} className="rounded border border-white/10 bg-black/10 p-3">
                 <div className="flex items-center justify-between gap-2">
-                  <div className="font-bold uppercase tracking-wider text-[var(--color-text)]">{kind === 'push' ? 'HU push' : 'BB call'}</div>
+                  <div className="font-bold uppercase tracking-wider text-[var(--fg)]">{kind === 'push' ? 'HU push' : 'BB call'}</div>
                   {summary && (
                     <button
                       type="button"
@@ -670,7 +670,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                 </div>
                 {summary ? (
                   <div className="mt-1 space-y-0.5">
-                    <div className="truncate text-[var(--color-text)]">{summary.fileName}</div>
+                    <div className="truncate text-[var(--fg)]">{summary.fileName}</div>
                     <div>{summary.rows} stacks · {summary.hands} hands · {summary.minStackBb}-{summary.maxStackBb}bb</div>
                   </div>
                 ) : (
@@ -681,7 +681,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           })}
         </div>
         {localReferenceMessage && (
-          <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[var(--color-text-muted)]">
+          <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[var(--fg-muted)]">
             {localReferenceMessage}
           </div>
         )}
@@ -698,33 +698,33 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             <div className="flex justify-between items-end mb-1">
               <div className="space-y-1">
                 <div className="text-sm font-bold text-white flex items-center gap-2">
-                  <div className="w-3 h-3 border-2 border-[var(--color-accent)] border-t-transparent rounded-full animate-spin" />
+                  <div className="w-3 h-3 border-2 border-[var(--accent)] border-t-transparent rounded-full animate-spin" />
                   Processing History...
                 </div>
-                <p className="text-[10px] text-[var(--color-text-dim)] font-data truncate max-w-[300px]">
+                <p className="text-[10px] text-[var(--fg-dim)] font-mono truncate max-w-[300px]">
                   File: {currentImportFile}
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-lg font-data font-bold text-[var(--color-accent)]">{Math.round(importProgress)}%</p>
+                <p className="text-lg font-mono font-bold text-[var(--accent)]">{Math.round(importProgress)}%</p>
               </div>
             </div>
 
             {/* Premium Progress Bar */}
-            <div className="h-2 w-full bg-white/5 rounded-full overflow-hidden border border-white/10 shadow-inner">
+            <div className="h-2 w-full bg-[var(--ink-2)] rounded-full overflow-hidden border border-[var(--hairline)] shadow-inner">
               <motion.div
-                className="h-full bg-gradient-to-r from-[var(--color-accent)] to-[#4ade80] shadow-[0_0_15px_rgba(0,255,136,0.3)]"
+                className="h-full bg-[var(--accent)]"
                 initial={{ width: 0 }}
                 animate={{ width: `${importProgress}%` }}
                 transition={{ type: 'spring', bounce: 0, duration: 0.5 }}
               />
             </div>
 
-            <div className="flex justify-between text-[10px] font-data text-[var(--color-text-muted)] uppercase tracking-wider">
+            <div className="flex justify-between text-[10px] font-mono text-[var(--fg-muted)] uppercase tracking-wider">
                 <div className="flex gap-4">
                   <span>Hands: <span className="text-white">{statsFound.hands}</span></span>
                   <span>Summaries: <span className="text-white">{statsFound.summaries}</span></span>
-                  <span>Deviations: <span className="text-[var(--color-danger)]">{statsFound.deviations}</span></span>
+                  <span>Deviations: <span className="text-[var(--loss)]">{statsFound.deviations}</span></span>
                 </div>
                <span>Do not close this page</span>
             </div>
@@ -733,17 +733,17 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
       </AnimatePresence>
 
       {results.length > 0 && !isImporting && (
-        <div className="mt-4 pt-4 border-t border-[var(--color-border)] text-sm space-y-2">
-           <div className="flex items-center justify-between gap-2 font-semibold text-[var(--color-text)]">
+        <div className="mt-4 pt-4 border-t border-[var(--hairline)] text-sm space-y-2">
+           <div className="flex items-center justify-between gap-2 font-semibold text-[var(--fg)]">
              <div className="flex items-center gap-2">
-               <CheckCircle size={16} className="text-[var(--color-accent)]" />
+               <CheckCircle size={16} className="text-[var(--accent)]" />
                Processing Completed
              </div>
              {importSummary && (
                <span className={clsx(
-                 'rounded-full px-2 py-0.5 font-data text-[10px] font-bold uppercase tracking-wider',
+                 'rounded-full px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-wider',
                  importSummary.confidence === 'high' && 'bg-emerald-400/10 text-emerald-300 border border-emerald-400/20',
-                 importSummary.confidence === 'medium' && 'bg-yellow-400/10 text-yellow-300 border border-yellow-400/20',
+                 importSummary.confidence === 'medium' && 'bg-warn/10 text-warn border border-warn/20',
                  importSummary.confidence === 'low' && 'bg-red-400/10 text-red-300 border border-red-400/20'
                )}>
                  {importSummary.confidence === 'high' && 'Import Complete'}
@@ -761,11 +761,11 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
              <div className={clsx(
                'rounded-lg border p-3 text-xs',
                formattedImportSummary.tone === 'success' && 'border-emerald-400/30 bg-emerald-400/10 text-emerald-100',
-               formattedImportSummary.tone === 'warning' && 'border-yellow-400/30 bg-yellow-400/10 text-yellow-100',
+               formattedImportSummary.tone === 'warning' && 'border-warn/30 bg-warn/10 text-warn',
                formattedImportSummary.tone === 'danger' && 'border-red-400/30 bg-red-400/10 text-red-100',
              )}>
                <div className="font-bold">{formattedImportSummary.title}</div>
-               <div className="mt-1 text-[var(--color-text-muted)]">{formattedImportSummary.detail}</div>
+               <div className="mt-1 text-[var(--fg-muted)]">{formattedImportSummary.detail}</div>
                {formattedImportSummary.warningPreview.length > 0 && (
                  <ul className="mt-2 list-disc pl-4 space-y-1">
                    {formattedImportSummary.warningPreview.map((warning, i) => (
@@ -775,7 +775,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                )}
              </div>
            )}
-           <div className="text-[var(--color-text-dim)] text-xs space-y-1">
+           <div className="text-[var(--fg-dim)] text-xs space-y-1">
              <div>
                {totalHandNodes.reduce((acc, curr) => acc + (curr.imported ?? 0), 0)} New Hands
              </div>
@@ -783,7 +783,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                <div key={i}>
                  Summaries: {r.summaryDetail.updated} updated, {r.summaryDetail.created} created
                  {r.summaryDetail.buyInPreserved > 0 && (
-                   <span className="text-[var(--color-warning,#ffaa00)]">
+                   <span className="text-[var(--warn)]">
                      {' '}({r.summaryDetail.buyInPreserved} buy-in{r.summaryDetail.buyInPreserved !== 1 ? 's' : ''} preserved from hand history)
                    </span>
                  )}

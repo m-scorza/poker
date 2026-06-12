@@ -32,14 +32,14 @@ const STREET_LABELS: Record<Street, string> = {
 };
 
 const ACTION_COLORS: Record<string, string> = {
-  fold: 'text-[var(--color-text-muted)]',
-  check: 'text-[var(--color-text-dim)]',
-  call: 'text-[var(--color-info)]',
-  raise: 'text-[var(--color-accent)]',
-  bet: 'text-[var(--color-warning)]',
-  post_sb: 'text-[var(--color-text-muted)]',
-  post_bb: 'text-[var(--color-text-muted)]',
-  post_ante: 'text-[var(--color-text-muted)]',
+  fold: 'text-[var(--fg-dim)]',
+  check: 'text-[var(--fg)]',
+  call: 'text-[var(--money)]',
+  raise: 'text-[var(--accent)]',
+  bet: 'text-[var(--sig)]',
+  post_sb: 'text-[var(--fg-dim)]',
+  post_bb: 'text-[var(--fg-dim)]',
+  post_ante: 'text-[var(--fg-dim)]',
 };
 
 const ACTION_LABELS: Record<string, string> = {
@@ -178,17 +178,17 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="hand-replay-title"
-        className="bg-[var(--color-bg)] border border-[var(--color-border)] rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+        className="bg-[var(--ink-2)] border border-[var(--hairline)] rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <div>
-            <h3 id="hand-replay-title" className="font-data font-bold text-lg">
+            <h3 id="hand-replay-title" className="font-mono font-bold text-lg text-[var(--fg)]">
               Hand #{hand.id.slice(-8)}
             </h3>
-            <div className="flex items-center gap-2 flex-wrap">
-              <p className="text-xs text-[var(--color-text-muted)]">
+            <div className="flex items-center gap-2 flex-wrap mt-1">
+              <p className="text-xs text-[var(--fg-dim)]">
                 {hand.maxSeats}-max | Level {hand.level} ({hand.smallBlind}/{hand.bigBlind})
                 {hand.ante > 0 && ` ante ${hand.ante}`}
                 | Pot: {hand.totalPot}
@@ -233,7 +233,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
               }}
               className={clsx(
                 "p-2 rounded-lg transition-all",
-                isStarred ? "text-amber-400 bg-amber-400/10" : "text-[var(--color-text-muted)] hover:text-amber-400 hover:bg-amber-400/5"
+                isStarred ? "text-amber-400 bg-amber-400/10" : "text-[var(--fg-muted)] hover:text-amber-400 hover:bg-amber-400/5"
               )}
               title={isStarred ? "Remove star" : "Star hand for review"}
               aria-label={isStarred ? "Remove star" : "Star hand for review"}
@@ -242,7 +242,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             </button>
             <button
               onClick={onClose}
-              className="p-2 text-[var(--color-text-muted)] hover:text-white rounded-lg transition-colors"
+              className="p-2 text-[var(--fg-dim)] hover:text-[var(--fg)] rounded-lg transition-colors"
               aria-label="Close replay"
             >
               <X size={24} />
@@ -252,14 +252,14 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
         {/* Hero info */}
         {hero && (
-          <div className="flex items-center gap-3 mb-4 p-3 glass-card rounded-lg border border-[var(--color-border)]">
+          <div className="compartment flex items-center gap-3 mb-4 p-3 border-[var(--accent-line)]">
             <div>
-              <span className="text-xs text-[var(--color-text-dim)]">Hero</span>
-              <span className="font-data font-bold ml-2">{hero.playerName}</span>
-              <span className="ml-2 text-xs px-1.5 py-0.5 rounded bg-[var(--color-accent)]/15 text-[var(--color-accent)]">
+              <span className="text-xs text-[var(--fg-dim)]">Hero</span>
+              <span className="font-mono font-bold ml-2 text-[var(--fg)]">{hero.playerName}</span>
+              <span className="ml-2 text-xs px-1.5 py-0.5 rounded bg-[var(--accent-soft)] text-[var(--accent)] border border-[var(--accent-line)]">
                 {heroDecision?.position}
               </span>
-              <span className="ml-2 font-data text-xs text-[var(--color-text-dim)]">
+              <span className="ml-2 font-mono text-xs text-[var(--fg-dim)]">
                 {(hero.chipsBefore / hand.bigBlind).toFixed(0)}bb
               </span>
             </div>
@@ -269,7 +269,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
               ))}
             </div>
             {heroDecision && (
-              <span className="font-data text-sm font-bold ml-2">
+              <span className="font-mono text-sm font-bold ml-2 text-[var(--fg)]">
                 {heroDecision.handKey}
               </span>
             )}
@@ -278,11 +278,11 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
         {/* Villains info at showdown */}
         {players.filter((p) => !p.isHero && p.holeCards && p.holeCards.length === 2).length > 0 && (
-          <div className="flex flex-wrap items-center gap-3 mb-4 p-2 glass-card rounded-lg border border-[var(--color-border)] opacity-80">
-             <span className="text-xs text-[var(--color-text-dim)] mr-2">Opponents (Showdown):</span>
+          <div className="compartment flex flex-wrap items-center gap-3 mb-4 p-2 opacity-80 border-dashed">
+             <span className="text-xs text-[var(--fg-dim)] mr-2">Opponents (Showdown):</span>
              {players.filter((p) => !p.isHero && p.holeCards && p.holeCards.length === 2).map(villain => (
-                <div key={villain.playerName} className="flex items-center gap-2 px-3 border-l border-[var(--color-border)] first:border-0 first:pl-0">
-                   <span className="font-data font-bold text-xs">{villain.playerName}</span>
+                <div key={villain.playerName} className="flex items-center gap-2 px-3 border-l border-[var(--hairline)] first:border-0 first:pl-0">
+                   <span className="font-mono font-bold text-xs text-[var(--fg)]">{villain.playerName}</span>
                    <div className="flex gap-1">
                      {villain.holeCards!.map((c, i) => (
                        <PokerCard key={i} card={c} size="md" />
@@ -294,16 +294,16 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         )}
 
         {/* 2D Graphical Table Representation */}
-        <div className="bg-[var(--color-bg-board)] border border-[var(--color-border)] rounded-xl mb-6 relative flex flex-col items-center justify-center p-8 overflow-hidden shadow-lg">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent pointer-events-none"></div>
+        <div className="bg-[var(--ink)] border border-[var(--hairline)] rounded-xl mb-6 relative flex flex-col items-center justify-center p-8 overflow-hidden shadow-lg">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[var(--sig-soft)] to-transparent pointer-events-none"></div>
 
           <div className="absolute top-3 left-4">
-             <span className="text-[10px] uppercase text-[var(--color-text-dim)] font-bold tracking-widest">Pot: {hand.totalPot}</span>
+             <span className="text-[10px] uppercase text-[var(--fg-dim)] font-bold tracking-widest">Pot: {hand.totalPot}</span>
           </div>
 
           {boardTexture && (
             <div className="absolute top-3 right-4">
-               <span className="text-[10px] uppercase font-bold text-[var(--color-text-muted)] tracking-widest">
+               <span className="text-[10px] uppercase font-bold text-[var(--fg-dim)] tracking-widest">
                   {boardTexture.texture.replace(/_/g, ' ')}
                </span>
             </div>
@@ -355,23 +355,18 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                if (idx > 0) setActiveStreet(streets[idx - 1] as Street);
              }}
              disabled={streets.indexOf(activeStreet) === 0}
-             className="p-1 text-[var(--color-text-muted)] hover:text-white disabled:opacity-30 transition-colors"
+             className="p-1 text-[var(--fg-muted)] hover:text-[var(--fg)] disabled:opacity-30 transition-colors"
              aria-label="Previous street"
           >
              <ChevronLeft size={20} />
           </button>
 
-          <div className="flex gap-1">
+          <div className="tabs">
             {streets.map((s) => (
               <button
                 key={s}
                 onClick={() => setActiveStreet(s)}
-                className={clsx(
-                  'px-3 py-1.5 rounded-lg text-xs font-data transition-colors',
-                  activeStreet === s
-                    ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)]'
-                    : 'glass-card text-[var(--color-text-dim)] border border-[var(--color-border)] hover:border-[var(--color-border-active)]',
-                )}
+                className={activeStreet === s ? 'on' : ''}
               >
                 {STREET_LABELS[s]}
               </button>
@@ -384,7 +379,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                if (idx < streets.length - 1) setActiveStreet(streets[idx + 1] as Street);
              }}
              disabled={streets.indexOf(activeStreet) === streets.length - 1}
-             className="p-1 text-[var(--color-text-muted)] hover:text-white disabled:opacity-30 transition-colors"
+             className="p-1 text-[var(--fg-muted)] hover:text-[var(--fg)] disabled:opacity-30 transition-colors"
              aria-label="Next street"
           >
              <ChevronRight size={20} />
@@ -400,20 +395,20 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                 key={i}
                 className={clsx(
                   'flex items-center gap-2 px-3 py-1.5 rounded text-sm',
-                  isHero && 'bg-[var(--color-accent)]/5 border-l-2 border-[var(--color-accent)]',
+                  isHero && 'bg-[var(--accent-soft)] border-l-2 border-[var(--accent)]',
                 )}
               >
-                <span className={clsx('font-data text-xs w-24 truncate', isHero && 'font-bold text-[var(--color-accent)]')}>
+                <span className={clsx('font-mono text-xs w-24 truncate', isHero ? 'font-bold text-[var(--fg)]' : 'text-[var(--fg-dim)]')}>
                   {a.playerName}
                 </span>
-                <span className={clsx('font-data font-medium', ACTION_COLORS[a.actionType])}>
+                <span className={clsx('font-mono font-bold', ACTION_COLORS[a.actionType])}>
                   {ACTION_LABELS[a.actionType] ?? a.actionType}
                 </span>
                 {a.amount !== null && a.amount > 0 && (
-                  <span className="font-data text-xs text-[var(--color-text-dim)]">{a.amount}</span>
+                  <span className="font-mono text-xs text-[var(--fg-muted)]">{a.amount}</span>
                 )}
                 {a.isAllIn && (
-                  <span className="text-[10px] px-1 py-0.5 rounded bg-[var(--color-danger)]/20 text-[var(--color-danger)] font-bold">
+                  <span className="text-[10px] px-1 py-0.5 rounded bg-[var(--loss-soft)] text-[var(--loss)] font-bold border border-[var(--loss-line)]">
                     ALL-IN
                   </span>
                 )}
@@ -421,37 +416,37 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             );
           })}
           {streetActions.length === 0 && (
-            <p className="text-xs text-[var(--color-text-muted)] px-3 py-2">No actions on this street.</p>
+            <p className="text-xs text-[var(--fg-dim)] px-3 py-2">No actions on this street.</p>
           )}
         </div>
 
         {/* Postflop spots */}
         {postflopSpots.length > 0 && (
-          <div className="border-t border-[var(--color-border)] pt-3">
-            <h4 className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-2">Post-flop Analysis</h4>
+          <div className="border-t border-[var(--hairline)] pt-3">
+            <h4 className="kick mb-2">Post-flop Analysis</h4>
             <div className="space-y-1">
               {postflopSpots.map((spot, i) => (
                 <div
                   key={i}
                   className={clsx(
-                    'flex flex-col gap-1 px-3 py-2 rounded text-xs border border-white/5',
-                    spot.isCorrect === true && 'bg-emerald-900/10 border-emerald-500/20',
-                    spot.isCorrect === false && 'bg-red-900/10 border-red-500/20',
-                    spot.isCorrect === null && 'glass-card',
+                    'flex flex-col gap-1 px-3 py-2 rounded text-xs border border-[var(--hairline)]',
+                    spot.isCorrect === true && 'bg-[var(--money-soft)] border-[var(--money-line)]',
+                    spot.isCorrect === false && 'bg-[var(--loss-soft)] border-[var(--loss-line)]',
+                    spot.isCorrect === null && 'bg-white/5',
                   )}
                 >
                   <div className="flex items-center gap-2">
                     <span className={clsx(
-                      'font-data font-bold uppercase tracking-wider',
-                      spot.isCorrect === true && 'text-[var(--color-accent)]',
-                      spot.isCorrect === false && 'text-[var(--color-danger)]',
-                      spot.isCorrect === null && 'text-[var(--color-text-dim)]',
+                      'font-mono font-bold uppercase tracking-wider',
+                      spot.isCorrect === true && 'text-[var(--money)]',
+                      spot.isCorrect === false && 'text-[var(--loss)]',
+                      spot.isCorrect === null && 'text-[var(--fg-dim)]',
                     )}>
                       {spot.spot === 'NONE' ? 'FACING BET' : spot.spot.replace(/_/g, ' ')}
                     </span>
-                    <span className="text-[var(--color-text-muted)] opacity-50">({spot.street})</span>
+                    <span className="text-[var(--fg-muted)] opacity-50">({spot.street})</span>
                   </div>
-                  <span className="text-[var(--color-text-dim)] font-medium leading-relaxed">{spot.note}</span>
+                  <span className="text-[var(--fg)] font-medium leading-relaxed">{spot.note}</span>
                 </div>
               ))}
             </div>
@@ -462,16 +457,16 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
           {/* Strategy Context Card */}
           {boardTexture && (
-            <div className="border border-[var(--color-border)] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-900/10 to-[var(--color-bg-card)] rounded-xl overflow-hidden shadow-sm">
-               <div className="px-3 py-2 bg-blue-900/20 border-b border-[var(--color-border)]">
+            <div className="border border-[var(--hairline)] bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-blue-900/10 to-[var(--ink-2)] rounded-xl overflow-hidden shadow-sm">
+               <div className="px-3 py-2 bg-blue-900/20 border-b border-[var(--hairline)]">
                   <span className="text-[10px] uppercase font-bold tracking-widest text-blue-300">Strategic Context</span>
                </div>
                <div className="p-3 space-y-2">
                   <div className="flex justify-between items-center text-xs">
-                    <span className="text-[var(--color-text-dim)]">Texture:</span>
+                    <span className="text-[var(--fg-dim)]">Texture:</span>
                     <span className="font-bold text-white uppercase">{boardTexture.texture.replace(/_/g, ' ')}</span>
                   </div>
-                  <div className="text-[11px] text-[var(--color-text-muted)] italic leading-relaxed bg-black/20 p-2 rounded border border-white/5">
+                  <div className="text-[11px] text-[var(--fg-muted)] italic leading-relaxed bg-black/20 p-2 rounded border border-white/5">
                     {(() => {
                         const rec = getRecommendedCbetSizing(boardTexture.texture);
                         return `Tip: ${rec.label}. Maintain range advantage with small bets or polarize on wet boards.`;
@@ -483,8 +478,8 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
           {/* Tournament Context Card */}
           {heroDecision && hasTournamentContext && (
-            <div className="border border-amber-500/20 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-amber-900/10 to-[var(--color-bg-card)] rounded-xl overflow-hidden shadow-sm">
-              <div className="px-3 py-2 bg-amber-900/20 border-b border-[var(--color-border)]">
+            <div className="border border-amber-500/20 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-amber-900/10 to-[var(--ink-2)] rounded-xl overflow-hidden shadow-sm">
+              <div className="px-3 py-2 bg-amber-900/20 border-b border-[var(--hairline)]">
                 <span className="text-[10px] uppercase font-bold tracking-widest text-amber-300">Tournament Context</span>
               </div>
               <div className="p-3 space-y-2 text-xs">
@@ -492,21 +487,21 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                   <div className="bg-black/20 p-2 rounded border border-white/5 space-y-1">
                     <div className="flex items-center justify-between gap-2">
                       <span className="font-bold text-amber-200">Bounty Context</span>
-                      <span className="font-data text-[10px] uppercase text-[var(--color-text-muted)]">
+                      <span className="font-data text-[10px] uppercase text-[var(--fg-muted)]">
                         {formatContextLabel(heroDecision.bountyContext.tournamentType)}
                       </span>
                     </div>
                     <div className="grid grid-cols-2 gap-2">
-                      <span className="text-[var(--color-text-dim)]">Equity drop</span>
+                      <span className="text-[var(--fg-dim)]">Equity drop</span>
                       <span className="font-data font-bold text-white text-right">
                         {formatCompactNumber(heroDecision.bountyContext.equityDrop)}%
                       </span>
-                      <span className="text-[var(--color-text-dim)]">Coverage</span>
+                      <span className="text-[var(--fg-dim)]">Coverage</span>
                       <span className="font-data font-bold text-white text-right">
                         {heroDecision.bountyContext.heroCoversVillain ? 'Hero covers target' : 'Target covers hero'}
                       </span>
                     </div>
-                    <p className="text-[11px] text-[var(--color-text-muted)] leading-relaxed">
+                    <p className="text-[11px] text-[var(--fg-muted)] leading-relaxed">
                       {heroDecision.bountyContext.note}
                     </p>
                   </div>
@@ -518,21 +513,21 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                       <span className="font-bold text-sky-200">
                         {heroDecision.fakeShoveSpot.isFakeShove ? 'Fake Shove Spot' : 'Large Raise Spot'}
                       </span>
-                      <span className="font-data text-[10px] uppercase text-[var(--color-text-muted)]">
+                      <span className="font-data text-[10px] uppercase text-[var(--fg-muted)]">
                         {formatCompactNumber(heroDecision.fakeShoveSpot.heroStackBb)}bb
                       </span>
                     </div>
                     <div className="grid grid-cols-2 gap-2">
-                      <span className="text-[var(--color-text-dim)]">Raise size</span>
+                      <span className="text-[var(--fg-dim)]">Raise size</span>
                       <span className="font-data font-bold text-white text-right">
                         {heroDecision.fakeShoveSpot.raiseSize}
                       </span>
-                      <span className="text-[var(--color-text-dim)]">Opponents behind</span>
+                      <span className="text-[var(--fg-dim)]">Opponents behind</span>
                       <span className="font-data font-bold text-white text-right">
                         {heroDecision.fakeShoveSpot.opponentsRemaining}
                       </span>
                     </div>
-                    <p className="text-[11px] text-[var(--color-text-muted)] leading-relaxed">
+                    <p className="text-[11px] text-[var(--fg-muted)] leading-relaxed">
                       {heroDecision.fakeShoveSpot.note}
                     </p>
                   </div>
@@ -542,25 +537,25 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                   <div className="bg-black/20 p-2 rounded border border-white/5 space-y-1">
                     <div className="flex items-center justify-between gap-2">
                       <span className="font-bold text-rose-200">Resteal Spot</span>
-                      <span className="font-data text-[10px] uppercase text-[var(--color-text-muted)]">
+                      <span className="font-data text-[10px] uppercase text-[var(--fg-muted)]">
                         {formatCompactNumber(heroDecision.restealSpot.heroStackBb)}bb
                       </span>
                     </div>
                     <div className="grid grid-cols-2 gap-2">
-                      <span className="text-[var(--color-text-dim)]">Hero action</span>
+                      <span className="text-[var(--fg-dim)]">Hero action</span>
                       <span className="font-data font-bold text-white text-right uppercase">
                         {heroDecision.restealSpot.heroAction}
                       </span>
-                      <span className="text-[var(--color-text-dim)]">Opener stack</span>
+                      <span className="text-[var(--fg-dim)]">Opener stack</span>
                       <span className="font-data font-bold text-white text-right">
                         {formatContextLabel(heroDecision.restealSpot.villainStackType)}
                       </span>
-                      <span className="text-[var(--color-text-dim)]">Risk premium</span>
+                      <span className="text-[var(--fg-dim)]">Risk premium</span>
                       <span className="font-data font-bold text-white text-right">
                         {formatCompactNumber(heroDecision.restealSpot.riskPremiumEstimate)}%
                       </span>
                     </div>
-                    <p className="text-[11px] text-[var(--color-text-muted)] leading-relaxed">
+                    <p className="text-[11px] text-[var(--fg-muted)] leading-relaxed">
                       {heroDecision.restealSpot.note}
                     </p>
                   </div>
@@ -591,15 +586,15 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             }
 
             return (
-              <div className="border border-[var(--color-accent-dim)]/30 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-900/10 to-[var(--color-bg-card)] rounded-xl overflow-hidden shadow-sm">
-                <div className="px-3 py-2 bg-emerald-900/20 border-b border-[var(--color-border)]">
-                   <span className="text-[10px] uppercase font-bold tracking-widest text-[var(--color-accent)]">Equity & Math</span>
+              <div className="border border-[var(--accent-line)] bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[var(--money-soft)] to-[var(--ink-2)] rounded-xl overflow-hidden shadow-sm">
+                <div className="px-3 py-2 bg-emerald-900/20 border-b border-[var(--hairline)]">
+                   <span className="text-[10px] uppercase font-bold tracking-widest text-[var(--accent)]">Equity & Math</span>
                 </div>
                 <div className="p-3 space-y-2">
                    {heroEquity !== null && (
                      <div className="flex justify-between items-center text-xs">
-                        <span className="text-[var(--color-text-dim)] text-xs">Your Equity:</span>
-                        <span className="font-data font-bold text-[var(--color-accent)] text-xs">{heroEquity}%</span>
+                        <span className="text-[var(--fg-dim)] text-xs">Your Equity:</span>
+                        <span className="font-data font-bold text-[var(--accent)] text-xs">{heroEquity}%</span>
                      </div>
                    )}
                    {(() => {
@@ -610,11 +605,11 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                       return (
                         <div className="grid grid-cols-2 gap-2 mt-1">
                           <div className="bg-black/30 p-2 rounded text-center">
-                            <p className="text-[9px] text-[var(--color-text-muted)] uppercase">MDF</p>
+                            <p className="text-[9px] text-[var(--fg-muted)] uppercase">MDF</p>
                             <p className="font-data font-bold text-white text-xs">{(mdf * 100).toFixed(0)}%</p>
                           </div>
                           <div className="bg-black/30 p-2 rounded text-center">
-                            <p className="text-[9px] text-[var(--color-text-muted)] uppercase">Alpha</p>
+                            <p className="text-[9px] text-[var(--fg-muted)] uppercase">Alpha</p>
                             <p className="font-data font-bold text-white text-xs">{(alpha * 100).toFixed(0)}%</p>
                           </div>
                         </div>
@@ -628,21 +623,21 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
         {/* Decision summary */}
         {heroDecision && (
-          <div className="border-t border-[var(--color-border)] pt-4 mt-6 flex items-center gap-4 text-xs font-data">
+          <div className="border-t border-[var(--hairline)] pt-4 mt-6 flex items-center gap-4 text-xs font-mono">
             <div className="flex items-center gap-2">
-              <span className="text-[var(--color-text-dim)]">Scenario:</span>
-              <span className="text-rose-400 font-bold">{heroDecision.scenario.replace(/_/g, ' ')}</span>
+              <span className="text-[var(--fg-dim)]">Scenario:</span>
+              <span className="text-[var(--loss)] font-bold">{heroDecision.scenario.replace(/_/g, ' ')}</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-sans text-[var(--color-text-dim)]">Action:</span>
-              <span className="font-bold uppercase">{heroDecision.action}</span>
+              <span className="text-[var(--fg-dim)]">Action:</span>
+              <span className="font-bold uppercase text-[var(--fg)]">{heroDecision.action}</span>
             </div>
             {heroDecision.deviationType ? (
-              <div className="ml-auto px-2 py-1 rounded bg-red-900/20 text-[var(--color-danger)] font-bold border border-red-500/20 uppercase tracking-tighter">
+              <div className="ml-auto px-2 py-1 rounded bg-[var(--loss-soft)] text-[var(--loss)] font-bold border border-[var(--loss-line)] uppercase">
                 {heroDecision.deviationType}
               </div>
             ) : heroDecision.isCompliant ? (
-              <div className="ml-auto px-2 py-1 rounded bg-emerald-900/20 text-[var(--color-accent)] font-bold border border-emerald-500/20 uppercase tracking-tighter text-[10px]">
+              <div className="ml-auto px-2 py-1 rounded bg-[var(--money-soft)] text-[var(--money)] font-bold border border-[var(--money-line)] uppercase text-[10px]">
                 GTO Compliant
               </div>
             ) : null}

@@ -27,11 +27,11 @@ function MetricTile({ label, value, detail, icon, accent = 'blue' }: MetricTileP
   return (
     <div className="rounded-2xl border border-white/5 bg-white/[0.03] p-4">
       <div className="flex items-center justify-between gap-3">
-        <div className="text-[10px] font-black uppercase tracking-[0.22em] text-[var(--color-text-dim)]">{label}</div>
+        <div className="text-[10px] font-black uppercase tracking-[0.22em] text-[var(--fg-dim)]">{label}</div>
         <div className={clsx('rounded-xl border p-2', accentClasses)}>{icon}</div>
       </div>
       <div className="mt-3 font-data text-2xl font-black text-white">{value}</div>
-      <div className="mt-1 text-[11px] font-semibold text-[var(--color-text-dim)]">{detail}</div>
+      <div className="mt-1 text-[11px] font-semibold text-[var(--fg-dim)]">{detail}</div>
     </div>
   );
 }
@@ -60,7 +60,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
           </div>
           <div>
             <h2 className="text-2xl font-black uppercase tracking-tight text-white">CareerScope Profile</h2>
-            <p className="mt-1 max-w-3xl text-sm font-medium text-[var(--color-text-dim)]">
+            <p className="mt-1 max-w-3xl text-sm font-medium text-[var(--fg-dim)]">
               SharkScope-style career intelligence built only from your imported hand histories and tournament summaries — no provider API required.
             </p>
           </div>
@@ -71,7 +71,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
         <div className="rounded-3xl border border-white/5 bg-black/20 p-6">
           <div className="flex items-center justify-between">
             <div>
-              <div className="text-[10px] font-black uppercase tracking-[0.24em] text-[var(--color-text-dim)]">Ability Rating</div>
+              <div className="text-[10px] font-black uppercase tracking-[0.24em] text-[var(--fg-dim)]">Ability Rating</div>
               <div className="mt-2 font-data text-6xl font-black text-white">{profile.abilityRating}</div>
               <div className="mt-1 text-xs font-bold uppercase tracking-widest text-cyan-200">/ 100 Local Estimate</div>
             </div>
@@ -87,7 +87,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
 
           <div className="mt-6 grid grid-cols-2 gap-3 text-xs">
             <div className="rounded-2xl bg-white/[0.03] p-3">
-              <div className="text-[var(--color-text-dim)]">Form</div>
+              <div className="text-[var(--fg-dim)]">Form</div>
               <div className={clsx(
                 'mt-1 font-black uppercase tracking-wide',
                 formAccent === 'green' && 'text-emerald-300',
@@ -96,14 +96,14 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
               )}>{profile.formLabel}</div>
             </div>
             <div className="rounded-2xl bg-white/[0.03] p-3">
-              <div className="text-[var(--color-text-dim)]">Last 20 ROI</div>
+              <div className="text-[var(--fg-dim)]">Last 20 ROI</div>
               <div className={clsx('mt-1 font-data font-black', (profile.last20Roi ?? 0) >= 0 ? 'text-emerald-300' : 'text-rose-300')}>
                 {pct(profile.last20Roi, true)}
               </div>
             </div>
           </div>
 
-          <p className="mt-6 text-xs leading-5 text-[var(--color-text-dim)]">
+          <p className="mt-6 text-xs leading-5 text-[var(--fg-dim)]">
             This is deliberately labeled local: unlike SharkScope, it cannot see the global player pool. It scores only what you import, making it private and coach/share-ready.
           </p>
         </div>
@@ -123,7 +123,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
                   <LineChartIcon size={15} className="text-cyan-300" />
                   Bankroll + Trendline
                 </h3>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-[var(--color-text-dim)]">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-[var(--fg-dim)]">
                   {formatDate(profile.firstGameDate)} → {formatDate(profile.lastGameDate)}
                 </span>
               </div>
@@ -148,7 +148,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
             <div className="space-y-3">
               <MetricTile label="ITM / Wins" value={`${profile.itmRate.toFixed(1)}%`} detail={`${profile.wins} outright wins`} icon={<Trophy size={15} />} accent="amber" />
               <MetricTile label="Cashes" value={`$${profile.totalCashes.toFixed(2)}`} detail={`${money(profile.averageProfit, true)} avg profit/game`} icon={<Flame size={15} />} accent={isProfitable ? 'green' : 'rose'} />
-              <div className="rounded-2xl border border-white/5 bg-white/[0.03] p-4 text-xs text-[var(--color-text-dim)]">
+              <div className="rounded-2xl border border-white/5 bg-white/[0.03] p-4 text-xs text-[var(--fg-dim)]">
                 <div className="font-black uppercase tracking-[0.22em] text-white">Streaks</div>
                 <div className="mt-3 flex justify-between"><span>Best cashing streak</span><b className="text-emerald-300">{profile.maxCashingStreak}</b></div>
                 <div className="mt-2 flex justify-between"><span>Worst losing streak</span><b className="text-rose-300">{profile.maxLosingStreak}</b></div>

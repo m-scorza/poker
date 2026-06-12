@@ -54,25 +54,26 @@ export function SessionsPage() {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mb-8">
         <div>
-          <h2 className="text-2xl font-bold font-data text-white flex items-center gap-2">
-            Session History
+          <span className="kick sig mb-2 block">Session History</span>
+          <h2 className="text-3xl font-bold text-[var(--fg)]">
+            Review performance
           </h2>
-          <p className="text-sm text-[var(--color-text-muted)]">Track BB/100, volume, ROI, and consistency over time</p>
+          <p className="lede text-[var(--fg-dim)]">Track BB/100, volume, ROI, and consistency.</p>
         </div>
 
         {sessions.length > 0 && (
           <div className="flex items-center gap-2">
             <button
               onClick={() => exportSessionsCSV(sessions)}
-              className="flex items-center gap-2 px-3 py-1.5 text-sm rounded border border-[var(--color-border)] text-[var(--color-text-dim)] hover:text-[var(--color-accent)] hover:border-[var(--color-accent)] transition-colors"
+              className="btn outline"
             >
               <Download size={14} /> CSV
             </button>
             <button
               onClick={() => exportSessionsPDF(sessions, leaks, heroName)}
-              className="flex items-center gap-2 px-3 py-1.5 text-sm rounded border border-[var(--color-border)] text-[var(--color-text-dim)] hover:text-rose-400 hover:border-rose-400 transition-colors"
+              className="btn outline"
             >
               <FileText size={14} /> PDF
             </button>
@@ -84,33 +85,34 @@ export function SessionsPage() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="glass-card border border-[var(--color-border)] rounded-xl p-12 text-center shadow-lg relative overflow-hidden"
+          className="compartment p-12 text-center"
         >
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent pointer-events-none" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[var(--sig-soft)] to-transparent pointer-events-none" />
           <motion.div
             animate={{ scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            className="text-[var(--sig)] mb-6 flex justify-center"
           >
-            <CalendarDays className="mx-auto mb-6 text-blue-500/50" size={56} />
+            <CalendarDays size={56} />
           </motion.div>
-          <p className="text-[var(--color-text)] font-bold text-xl mb-2">No Sessions Yet</p>
-          <p className="text-[var(--color-text-dim)] mb-8 max-w-md mx-auto">Import files in the <strong className="text-white">Hands</strong> tab or load the local demo to unlock granular session tracking, ROI analysis, and nemesis profiling.</p>
+          <p className="text-[var(--fg)] font-bold text-xl mb-2">No Sessions Yet</p>
+          <p className="text-[var(--fg-dim)] mb-8 max-w-md mx-auto">Import files in the <strong className="text-[var(--fg)]">Hands</strong> tab or load the local demo to unlock granular session tracking, ROI analysis, and nemesis profiling.</p>
           <DemoDataButton label="Load demo sessions" onLoaded={load} className="shadow-xl" />
         </motion.div>
       ) : (
-        <div className="glass-card border border-[var(--color-border)] rounded-xl overflow-hidden shadow-sm">
+        <div className="compartment p-0 overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-[var(--color-border)] text-left bg-black/20">
+                <tr className="border-b border-[var(--hairline)] text-left bg-[var(--ink-2)]">
                   <th className="px-4 py-4 w-10"></th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">Date</th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">Volume</th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">Duration</th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold text-rose-300">Buy-Ins</th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">BB/100</th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold">ROI</th>
-                  <th className="px-3 py-4 text-xs text-[var(--color-text-dim)] uppercase tracking-wider font-semibold text-emerald-400">GTO Comp.</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">Date</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">Volume</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">Duration</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">Buy-Ins</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">BB/100</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">ROI</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">GTO Comp.</th>
                 </tr>
               </thead>
               <AnimatePresence>
@@ -129,58 +131,58 @@ export function SessionsPage() {
                     className={clsx(isExpanded && "bg-white/[0.02]", "group/body")}
                   >
                     <tr
-                      className="border-b border-[var(--color-border)]/30 hover:bg-white/[0.06] transition-all cursor-pointer group relative"
+                      className="border-b border-[var(--hairline)] hover:bg-[var(--ink-2)] transition-all cursor-pointer group relative"
                       onClick={() => setExpandedId(isExpanded ? null : s.id)}
                     >
                       <td className="px-4 py-4 text-center">
                         <motion.div animate={{ rotate: isExpanded ? 180 : 0 }}>
-                          <ChevronDown size={16} className={clsx("transition-colors", isExpanded ? "text-[var(--color-accent)]" : "text-[var(--color-text-dim)] group-hover:text-white")} />
+                          <ChevronDown size={16} className={clsx("transition-colors", isExpanded ? "text-[var(--accent)]" : "text-[var(--fg-dim)] group-hover:text-[var(--fg)]")} />
                         </motion.div>
                       </td>
                       <td className="px-3 py-4">
-                        <div className="font-data font-bold text-[var(--color-text)]">
+                        <div className="font-mono font-bold text-[var(--fg)]">
                           {format(s.startTime, 'dd/MM/yyyy')}
                         </div>
-                        <div className="text-[10px] text-[var(--color-text-muted)]">
+                        <div className="text-[10px] text-[var(--fg-muted)]">
                           {format(s.startTime, 'HH:mm')} - {format(s.endTime, 'HH:mm')}
                         </div>
                       </td>
                       <td className="px-3 py-4">
-                        <div className="font-data text-[var(--color-text)] font-semibold">{s.totalHands} hands</div>
-                        <div className="text-[10px] text-[var(--color-text-muted)]">{s.tournamentIds.length} tournaments</div>
+                        <div className="font-mono text-[var(--fg)] font-semibold">{s.totalHands} hands</div>
+                        <div className="text-[10px] text-[var(--fg-muted)]">{s.tournamentIds.length} tournaments</div>
                       </td>
-                      <td className="px-3 py-4 font-data text-[var(--color-text-dim)] text-xs">
+                      <td className="px-3 py-4 font-mono text-[var(--fg-dim)] text-xs">
                         {formatDuration(s.startTime, s.endTime)}
                       </td>
-                      <td className="px-3 py-4 font-data text-rose-300/80">
+                      <td className="px-3 py-4 font-mono text-[var(--loss)]/80">
                         ${s.buyIns.toFixed(2)}
                       </td>
-                      <td className="px-3 py-4 font-data">
+                      <td className="px-3 py-4 font-mono">
                         <span className={clsx(
                            'font-bold px-2 py-0.5 rounded text-xs',
-                           isGreen && 'bg-emerald-900/40 text-emerald-400',
-                           isRed && 'bg-red-900/40 text-red-100',
-                           !isGreen && !isRed && 'text-[var(--color-text-dim)]'
+                           isGreen && 'bg-[var(--money-soft)] text-[var(--money)]',
+                           isRed && 'bg-[var(--loss-soft)] text-[var(--loss)]',
+                           !isGreen && !isRed && 'text-[var(--fg-dim)]'
                         )}>
                           {s.bb100Hands === 0 ? '—' : `${isGreen ? '+' : ''}${s.bb100.toFixed(1)}`}
                         </span>
                       </td>
-                      <td className="px-3 py-4 font-data">
+                      <td className="px-3 py-4 font-mono">
                          <span className={clsx(
-                           'text-xs',
-                           s.pnl > 0 ? 'text-emerald-400' : s.pnl < 0 ? 'text-rose-400' : 'text-[var(--color-text-dim)]'
+                           'text-xs font-bold px-2 py-0.5 rounded',
+                           s.pnl > 0 ? 'bg-[var(--money-soft)] text-[var(--money)]' : s.pnl < 0 ? 'bg-[var(--loss-soft)] text-[var(--loss)]' : 'text-[var(--fg-dim)]'
                         )}>
                           {s.roi === 0 ? '—' : `${s.pnl > 0 ? '+' : ''}${s.roi.toFixed(1)}%`}
                         </span>
                       </td>
-                      <td className="px-3 py-4 font-data">
+                      <td className="px-3 py-4 font-mono">
                         <span className={clsx(
                           'text-xs font-bold px-2 py-0.5 rounded border',
                           st.complianceEligible > 0 && (st.complianceCompliant / st.complianceEligible) * 100 >= 85
-                            ? 'bg-emerald-900/10 text-emerald-400 border-emerald-500/20'
+                            ? 'bg-[var(--money-soft)] text-[var(--money)] border-[var(--money-line)]'
                             : st.complianceEligible > 0
-                              ? 'bg-yellow-900/10 text-yellow-500 border-yellow-500/20'
-                              : 'text-[var(--color-text-dim)] border-transparent'
+                              ? 'bg-[var(--warn-soft)] text-[var(--warn)] border-[var(--warn-line)]'
+                              : 'text-[var(--fg-dim)] border-transparent'
                         )}>
                           {pct(st.complianceCompliant, st.complianceEligible)}
                         </span>
@@ -195,30 +197,30 @@ export function SessionsPage() {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: 'auto' }}
                             exit={{ opacity: 0, height: 0 }}
-                            className="px-8 py-8 border-b border-[var(--color-border)]"
+                            className="px-8 py-8 border-b border-[var(--hairline)]"
                           >
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                               {/* Nemesis Tracker */}
-                              <div className="glass-card border border-[var(--color-border)] rounded-2xl p-5 shadow-sm relative overflow-hidden group/card shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
-                                 <div className="absolute -top-2 -right-2 p-3 opacity-10 group-hover/card:rotate-12 transition-transform duration-500"><UserX size={80} /></div>
-                                 <h4 className="text-[10px] uppercase font-bold text-rose-400 tracking-widest mb-4 flex items-center gap-2">
+                              <div className="compartment relative overflow-hidden group/card">
+                                 <div className="absolute -top-2 -right-2 p-3 opacity-10 group-hover/card:rotate-12 transition-transform duration-500 text-[var(--loss)]"><UserX size={80} /></div>
+                                 <h4 className="kick text-[var(--loss)] mb-4 flex items-center gap-2">
                                     <Zap size={14} className="animate-pulse" /> Session Nemesis
                                  </h4>
                                  {s.nemesis ? (
                                     <div className="space-y-1">
-                                       <p className="text-xl font-data font-bold text-white tracking-tight">{s.nemesis.name}</p>
-                                       <p className="text-xs text-[var(--color-text-muted)]">
-                                          Took <span className="text-rose-400 font-bold">{s.nemesis.amountBb.toFixed(1)} bb</span> from you this session.
+                                       <p className="text-xl font-mono font-bold text-[var(--fg)] tracking-tight">{s.nemesis.name}</p>
+                                       <p className="text-xs text-[var(--fg-dim)]">
+                                          Took <span className="text-[var(--loss)] font-bold">{s.nemesis.amountBb.toFixed(1)} bb</span> from you this session.
                                        </p>
                                     </div>
                                  ) : (
-                                    <p className="text-sm text-[var(--color-text-dim)] italic">No predator identified.</p>
+                                    <p className="text-sm text-[var(--fg-muted)] italic">No predator identified.</p>
                                  )}
                               </div>
 
                               {/* Street Consistency */}
-                              <div className="glass-card border border-[var(--color-border)] rounded-2xl p-5 shadow-sm shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
-                                 <h4 className="text-[10px] uppercase font-bold text-blue-400 tracking-widest mb-4 flex items-center gap-2">
+                              <div className="compartment">
+                                 <h4 className="kick text-[var(--sig)] mb-4 flex items-center gap-2">
                                     <Target size={14} /> GTO Consistency
                                  </h4>
                                  <div className="space-y-4">
@@ -229,21 +231,21 @@ export function SessionsPage() {
                               </div>
 
                               {/* Insights & Coaching */}
-                              <div className="glass-card border border-[var(--color-border)] rounded-2xl p-5 shadow-sm shadow-[0_4px_20px_rgba(0,0,0,0.2)]">
-                                 <h4 className="text-[10px] uppercase font-bold text-amber-500 tracking-widest mb-4 flex items-center gap-2">
+                              <div className="compartment">
+                                 <h4 className="kick text-[var(--warn)] mb-4 flex items-center gap-2">
                                     <AlertCircle size={14} /> Session Intelligence
                                  </h4>
-                                 <div className="text-xs text-[var(--color-text-muted)] space-y-3">
+                                 <div className="text-xs text-[var(--fg-dim)] space-y-3">
                                     {st.complianceEligible > 0 && (st.complianceCompliant / st.complianceEligible) < 0.85 ? (
-                                       <div className="bg-rose-900/10 p-3 rounded-xl border border-rose-500/20 text-rose-200">
+                                       <div className="bg-[var(--loss-soft)] p-3 rounded-xl border border-[var(--loss-line)] text-[var(--loss)]">
                                           ⚠️ <span className="font-bold">Low Compliance.</span> Your deviations this session indicate &ldquo;reactionary&rdquo; play. Re-evaluate your Turn folds.
                                        </div>
                                     ) : (
-                                       <div className="bg-emerald-900/10 p-3 rounded-xl border border-emerald-500/20 text-emerald-200">
+                                       <div className="bg-[var(--money-soft)] p-3 rounded-xl border border-[var(--money-line)] text-[var(--money)]">
                                           ✅ <span className="font-bold">Elite Discipline.</span> You maintained your baseline strategy even under pressure. Keep it up!
                                        </div>
                                     )}
-                                    <p className="italic opacity-60 px-2 border-l-2 border-amber-500/30 py-1">
+                                    <p className="italic opacity-60 px-2 border-l-2 border-[var(--warn)] py-1">
                                        &ldquo;The {s.nemesis?.name || 'opponent'} factor should not make you deviate from your theoretical range.&rdquo;
                                     </p>
                                  </div>
@@ -267,18 +269,18 @@ export function SessionsPage() {
 
 function ProgressBar({ label, val, color }: { label: string; val: number; color: string }) {
   const colors: Record<string, string> = {
-    blue: 'bg-blue-500',
-    emerald: 'bg-emerald-500',
-    amber: 'bg-amber-500',
+    blue: 'bg-[var(--sig)]',
+    emerald: 'bg-[var(--money)]',
+    amber: 'bg-[var(--warn)]',
   };
 
   return (
     <div className="space-y-1.5">
       <div className="flex justify-between text-[10px] uppercase font-bold tracking-tighter">
-        <span className="text-[var(--color-text-dim)]">{label}</span>
-        <span className="text-white font-data">{val.toFixed(1)}%</span>
+        <span className="text-[var(--fg-dim)]">{label}</span>
+        <span className="text-[var(--fg)] font-mono">{val.toFixed(1)}%</span>
       </div>
-      <div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
+      <div className="h-1.5 w-full bg-[var(--ink-3)] rounded-full overflow-hidden">
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${val}%` }}

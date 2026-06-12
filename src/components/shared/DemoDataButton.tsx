@@ -49,7 +49,7 @@ export function DemoDataButton({ onLoaded, label = 'Load demo dataset', classNam
         type="button"
         onClick={handleClick}
         disabled={loading}
-        className="inline-flex items-center justify-center gap-2 rounded-xl border border-[var(--color-accent)]/40 bg-[var(--color-accent)]/15 px-5 py-3 text-sm font-black uppercase tracking-widest text-[var(--color-accent)] transition hover:bg-[var(--color-accent)]/25 disabled:cursor-not-allowed disabled:opacity-60"
+        className="inline-flex items-center justify-center gap-2 rounded-xl border border-[var(--accent)]/40 bg-[var(--accent)]/15 px-5 py-3 text-sm font-black uppercase tracking-widest text-[var(--accent)] transition hover:bg-[var(--accent)]/25 disabled:cursor-not-allowed disabled:opacity-60"
       >
         {loading ? <Loader2 size={16} className="animate-spin" /> : <DatabaseZap size={16} />}
         {loading ? 'Loading...' : label}

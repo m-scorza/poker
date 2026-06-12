@@ -50,13 +50,13 @@ export function HandsFilters(props: HandsFiltersProps) {
   return (
     <div className="flex flex-wrap gap-3 mb-4">
       <div className="relative">
-        <Search size={14} className="absolute left-2.5 top-2.5 text-[var(--color-text-muted)]" />
+        <Search size={14} className="absolute left-2.5 top-2.5 text-[var(--fg-muted)]" />
         <input
           type="text"
           placeholder="Search hand (e.g., AKs)"
           value={props.searchKey}
           onChange={(e) => props.setSearchKey(e.target.value)}
-          className="pl-8 pr-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-accent)]"
+          className="pl-8 pr-3 py-2 text-sm bg-[var(--ink-1)] border border-[var(--hairline)] rounded-lg text-[var(--fg)] placeholder:text-[var(--fg-muted)] focus:outline-none focus:border-[var(--accent)]"
         />
       </div>
 
@@ -85,7 +85,7 @@ function Select<T extends string>({
     <select
       value={value}
       onChange={(e) => onChange(e.target.value as T | '')}
-      className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] focus:outline-none focus:border-[var(--color-accent)]"
+      className="px-3 py-2 text-sm bg-[var(--ink-1)] border border-[var(--hairline)] rounded-lg text-[var(--fg)] focus:outline-none focus:border-[var(--accent)]"
     >
       <option value="">{placeholder}</option>
       {options.map((opt) => (
@@ -114,7 +114,7 @@ function SelectLabeled<T extends string>({
     <select
       value={value}
       onChange={(e) => onChange(e.target.value as T | '')}
-      className="px-3 py-2 text-sm bg-[var(--color-bg-input)] border border-[var(--color-border)] rounded-lg text-[var(--color-text)] focus:outline-none focus:border-[var(--color-accent)]"
+      className="px-3 py-2 text-sm bg-[var(--ink-1)] border border-[var(--hairline)] rounded-lg text-[var(--fg)] focus:outline-none focus:border-[var(--accent)]"
     >
       <option value="">{placeholder}</option>
       {options.map((opt) => (

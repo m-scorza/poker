@@ -8,7 +8,7 @@ interface StakeTrendChartProps {
 export function StakeTrendChart({ data }: StakeTrendChartProps) {
   if (data.length === 0) {
     return (
-      <div className="flex h-full items-center justify-center text-[10px] uppercase tracking-widest text-[var(--color-text-dim)]">
+      <div className="flex h-full items-center justify-center text-[10px] uppercase tracking-widest text-[var(--fg-dim)]">
         Insufficient history for trend
       </div>
     );

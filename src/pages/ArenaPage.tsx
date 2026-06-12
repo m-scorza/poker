@@ -143,12 +143,13 @@ export function ArenaPage() {
           <motion.div 
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="inline-block p-3 bg-[var(--color-accent)]/10 rounded-2xl mb-4"
+            className="inline-block p-3 border border-[var(--sig-line)] bg-[var(--sig-soft)] rounded-2xl mb-4"
           >
-            <Zap size={40} className="text-[var(--color-accent)]" />
+            <Zap size={40} className="text-[var(--sig)]" />
           </motion.div>
-          <h1 className="text-4xl font-bold text-white mb-2 font-data">The Arena</h1>
-          <p className="text-[var(--color-text-muted)]">Turn theory into instinct. Drill your flaws.</p>
+          <span className="kick sig block mb-2">The Arena</span>
+          <h1 className="text-4xl font-bold text-[var(--fg)] mb-2">Turn theory into instinct.</h1>
+          <p className="lede text-[var(--fg-dim)]">Drill your flaws.</p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -181,31 +182,31 @@ export function ArenaPage() {
   return (
     <div className="h-[calc(100vh-120px)] flex flex-col relative overflow-hidden">
       {/* Background Ambience */}
-      <div className="absolute inset-0 bg-[#0a0a0f] pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-emerald-500/5 blur-[120px] rounded-full" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-500/5 blur-[120px] rounded-full" />
+      <div className="absolute inset-0 bg-[var(--ink)] pointer-events-none">
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[var(--accent)]/5 blur-[120px] rounded-full" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-[var(--sig)]/5 blur-[120px] rounded-full" />
       </div>
 
-      <header className="flex justify-between items-center z-10 p-4 border-b border-white/5 bg-black/20 backdrop-blur-sm">
+      <header className="flex justify-between items-center z-10 p-4 border-b border-[var(--hairline)] bg-[var(--ink-2)] backdrop-blur-sm">
         <div className="flex items-center gap-4">
            <button 
              onClick={() => setDrill(prev => ({ ...prev, isActive: false }))}
-             className="p-2 hover:bg-white/5 rounded-lg text-[var(--color-text-dim)]"
+             className="p-2 hover:bg-[var(--accent-soft)] rounded-lg text-[var(--fg-dim)] hover:text-[var(--accent)]"
            >
              <RotateCcw size={18} />
            </button>
-           <div className="h-4 w-px bg-white/10" />
-           <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">{drill.type?.replace('_', ' ')}</span>
+           <div className="h-4 w-px bg-[var(--hairline)]" />
+           <span className="kick sig">{drill.type?.replace('_', ' ')}</span>
         </div>
 
         <div className="flex items-center gap-6">
            <div className="text-right">
-              <p className="text-[10px] uppercase text-[var(--color-text-muted)] font-bold">Score</p>
-              <p className="font-data font-bold text-[var(--color-accent)]">{drill.score.correct} / {drill.score.total}</p>
+              <p className="kick text-[var(--fg-muted)]">Score</p>
+              <p className="font-mono font-bold text-[var(--accent)]">{drill.score.correct} / {drill.score.total}</p>
            </div>
-           <div className="h-8 w-px bg-white/10" />
-           <div className="px-3 py-1 bg-white/5 border border-white/10 rounded-full">
-              <span className="text-xs font-data">{strategyProfile === 'game_plan' ? 'GTO' : 'ADV'}</span>
+           <div className="h-8 w-px bg-[var(--hairline)]" />
+           <div className="px-3 py-1 bg-[var(--ink-2)] border border-[var(--hairline)] rounded-full">
+              <span className="text-xs font-mono">{strategyProfile === 'game_plan' ? 'GTO' : 'ADV'}</span>
            </div>
         </div>
       </header>
@@ -216,19 +217,18 @@ export function ArenaPage() {
         {/* Animated Table */}
         <div className="w-full max-w-4xl aspect-[2/1] relative flex items-center justify-center">
             {/* Table Surface */}
-            <div className="absolute inset-0 bg-[#161b26] rounded-[180px] border-[12px] border-[#2a3142] shadow-[0_40px_100px_rgba(0,0,0,0.6),inset_0_0_80px_rgba(0,0,0,0.4)] overflow-hidden">
-                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 to-transparent" />
-                <div className="absolute inset-0 opacity-5 bg-[repeating-linear-gradient(45deg,rgba(255,255,255,0.45)_0_1px,transparent_1px_8px)]" />
+            <div className="absolute inset-0 bg-[var(--ink-2)] rounded-[180px] border-[12px] border-[var(--ink-3)] shadow-[0_40px_100px_rgba(0,0,0,0.6),inset_0_0_80px_rgba(0,0,0,0.4)] overflow-hidden">
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[var(--sig-soft)] to-transparent" />
+                <div className="absolute inset-0 opacity-5 bg-[repeating-linear-gradient(45deg,var(--accent-line)_0_1px,transparent_1px_8px)]" />
             </div>
 
-            {/* Dealer Chip / Position Indicator */}
             <div className="absolute top-[15%] left-1/2 -translate-x-1/2 flex flex-col items-center">
-               <div className="px-4 py-1.5 bg-black/40 border border-white/10 rounded-full shadow-lg backdrop-blur-md">
-                 <span className="text-xs font-bold text-white tracking-widest uppercase">
+               <div className="px-4 py-1.5 bg-[var(--ink)] border border-[var(--hairline)] rounded-full shadow-lg backdrop-blur-md">
+                 <span className="kick text-[var(--fg)]">
                     {drill.currentDecision?.scenario.replace('_', ' ')}
                  </span>
                </div>
-               <div className="mt-2 text-[10px] text-emerald-400 font-bold tracking-tighter uppercase opacity-80">
+               <div className="mt-2 text-[10px] text-[var(--accent)] font-bold tracking-tighter uppercase opacity-80">
                   Stage: Pre-flop
                </div>
             </div>
@@ -262,23 +262,22 @@ export function ArenaPage() {
                     </motion.div>
                 </AnimatePresence>
                 
-                <div className="mt-4 px-6 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-xl backdrop-blur-md shadow-lg">
+                <div className="mt-4 px-6 py-2 bg-[var(--accent-soft)] border border-[var(--accent-line)] rounded-xl backdrop-blur-md shadow-lg">
                    <div className="flex items-center gap-3">
-                      <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                      <span className="text-sm font-bold text-white font-data">
+                      <div className="w-2 h-2 rounded-full bg-[var(--accent)] animate-pulse" />
+                      <span className="text-sm font-bold text-[var(--fg)] font-mono">
                          {drill.currentDecision?.position}
                       </span>
-                      <span className="text-xs text-emerald-400/80 font-data">
+                      <span className="text-xs text-[var(--accent)] font-mono">
                          {drill.currentDecision?.stackBb.toFixed(0)}bb
                       </span>
                    </div>
                 </div>
             </div>
 
-            {/* Center Pot */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center opacity-40">
-               <p className="text-[10px] uppercase font-bold text-[var(--color-text-dim)] mb-1">Pot</p>
-               <p className="text-2xl font-data font-bold text-white">0.0</p>
+               <p className="kick text-[var(--fg-dim)] mb-1">Pot</p>
+               <p className="text-2xl font-mono font-bold text-[var(--fg)]">0.0</p>
             </div>
         </div>
 
@@ -296,17 +295,17 @@ export function ArenaPage() {
                className={clsx(
                  "absolute top-[20%] z-50 px-8 py-4 rounded-2xl shadow-2xl backdrop-blur-xl border flex flex-col items-center gap-2",
                  drill.lastFeedback.isCorrect 
-                    ? "bg-emerald-500/20 border-emerald-500/40" 
-                    : "bg-red-500/20 border-red-500/40"
+                    ? "bg-[var(--money-soft)] border-[var(--money-line)]" 
+                    : "bg-[var(--loss-soft)] border-[var(--loss-line)]"
                )}
             >
                 {drill.lastFeedback.isCorrect ? (
-                  <CheckCircle2 size={32} className="text-emerald-400" />
+                  <CheckCircle2 size={32} className="text-[var(--money)]" />
                 ) : (
-                  <AlertCircle size={32} className="text-red-400" />
+                  <AlertCircle size={32} className="text-[var(--loss)]" />
                 )}
-                <p className="text-lg font-bold text-white">{drill.lastFeedback.isCorrect ? 'CORRECT' : 'DEVIATION'}</p>
-                <p className="text-sm text-white/70 max-w-[200px] text-center">{drill.lastFeedback.note}</p>
+                <p className="text-lg font-bold text-[var(--fg)]">{drill.lastFeedback.isCorrect ? 'CORRECT' : 'DEVIATION'}</p>
+                <p className="text-sm text-[var(--fg-dim)] max-w-[200px] text-center">{drill.lastFeedback.note}</p>
             </motion.div>
           )}
         </AnimatePresence>
@@ -345,28 +344,19 @@ interface DrillCardProps {
   onClick: () => void;
 }
 
-function DrillCard({ title, desc, icon: Icon, color, onClick }: DrillCardProps) {
-  const colorMap = {
-    red: 'from-red-900/20 via-red-900/5 to-transparent border-red-500/20 text-red-400 hover:border-red-500/40',
-    emerald: 'from-emerald-900/20 via-emerald-900/5 to-transparent border-emerald-500/20 text-emerald-400 hover:border-emerald-500/40',
-    blue: 'from-blue-900/20 via-blue-900/5 to-transparent border-blue-500/20 text-blue-400 hover:border-blue-500/40',
-  };
-
+function DrillCard({ title, desc, icon: Icon, onClick }: DrillCardProps) {
   return (
     <motion.div 
       whileHover={{ y: -5 }}
       onClick={onClick}
-      className={clsx(
-        "cursor-pointer p-6 rounded-2xl border bg-gradient-to-br backdrop-blur-sm transition-all shadow-lg",
-        colorMap[color as keyof typeof colorMap]
-      )}
+      className="cursor-pointer compartment transition-all hover:border-[var(--accent-line)] group"
     >
-      <div className="mb-4">
+      <div className="mb-4 text-[var(--accent)] group-hover:scale-110 transition-transform">
         <Icon size={24} />
       </div>
-      <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
-      <p className="text-sm text-[var(--color-text-dim)] leading-relaxed">{desc}</p>
-      <div className="mt-6 flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-60">
+      <h3 className="text-xl font-bold text-[var(--fg)] mb-2">{title}</h3>
+      <p className="text-sm text-[var(--fg-dim)] leading-relaxed">{desc}</p>
+      <div className="inner-rule mt-6 text-xs font-bold uppercase tracking-widest text-[var(--accent)] flex items-center gap-2">
          Start Drill <ChevronRight size={14} />
       </div>
     </motion.div>
@@ -382,9 +372,9 @@ interface ActionButtonProps {
 
 function ActionButton({ label, color, onClick, disabled }: ActionButtonProps) {
   const colorMap = {
-    gray: 'bg-white/5 border-white/10 text-white hover:bg-white/10',
-    blue: 'bg-blue-600/20 border-blue-500/30 text-blue-400 hover:bg-blue-600/30',
-    emerald: 'bg-[var(--color-accent)]/20 border-[var(--color-accent)]/30 text-[var(--color-accent)] hover:bg-[var(--color-accent)]/30',
+    gray: 'btn outline',
+    blue: 'btn',
+    emerald: 'btn sig',
   };
 
   return (
@@ -392,7 +382,7 @@ function ActionButton({ label, color, onClick, disabled }: ActionButtonProps) {
       disabled={disabled}
       onClick={onClick}
       className={clsx(
-        "px-10 py-4 rounded-xl border text-sm font-bold uppercase tracking-widest transition-all shadow-xl disabled:opacity-30",
+        "px-10 py-4 font-bold text-sm",
         colorMap[color as keyof typeof colorMap]
       )}
     >

@@ -90,7 +90,7 @@ export function ConfirmDialog({
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="relative w-full max-w-md bg-[var(--color-bg-dialog)] border border-white/10 rounded-2xl shadow-2xl overflow-hidden z-10"
+            className="relative w-full max-w-md bg-[var(--bg-2)] border border-[var(--border-strong)] rounded-2xl shadow-2xl overflow-hidden z-10"
           >
             {/* Header / Icon */}
             <div className={clsx(

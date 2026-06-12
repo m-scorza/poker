@@ -26,17 +26,17 @@ function PageLoader() {
 function PageErrorFallback() {
   return (
     <div className="flex items-center justify-center h-full min-h-[60vh] p-6">
-      <div className="glass-card border border-[var(--color-danger)]/40 rounded-xl max-w-md w-full p-6 text-center">
-        <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[var(--color-danger)]/10 text-[var(--color-danger)] mb-4">
+      <div className="compartment border-[var(--loss)]/40 rounded-xl max-w-md w-full p-6 text-center">
+        <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[var(--loss)]/10 text-[var(--loss)] mb-4">
           <AlertTriangle size={24} />
         </div>
-        <h2 className="text-lg font-bold text-[var(--color-text)] mb-2">This page hit an error</h2>
-        <p className="text-sm text-[var(--color-text-dim)] mb-4">
+        <h2 className="text-lg font-bold text-[var(--fg)] mb-2">This page hit an error</h2>
+        <p className="text-sm text-[var(--fg-dim)] mb-4">
           The rest of the app still works — try another page or reload.
         </p>
         <button
           onClick={() => window.location.reload()}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold bg-[var(--color-accent)]/10 text-[var(--color-accent)] border border-[var(--color-accent)]/20 hover:bg-[var(--color-accent)]/20 transition-all active:scale-95"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/20 hover:bg-[var(--accent)]/20 transition-all active:scale-95"
         >
           <RefreshCcw size={16} />
           Reload

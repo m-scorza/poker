@@ -168,11 +168,11 @@ export function icmStageLabel(stage: ICMStage): string {
  */
 export function icmStageColor(stage: ICMStage): string {
   const colors: Record<ICMStage, string> = {
-    early: 'text-[var(--color-accent)]',
-    mid: 'text-[var(--color-info)]',
-    bubble: 'text-[var(--color-warning)]',
-    itm: 'text-[var(--color-warning)]',
-    final_table: 'text-[var(--color-danger)]',
+    early: 'text-[var(--accent)]',
+    mid: 'text-[var(--sig)]',
+    bubble: 'text-[var(--warn)]',
+    itm: 'text-[var(--warn)]',
+    final_table: 'text-[var(--loss)]',
   };
   return colors[stage];
 }

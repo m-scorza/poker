@@ -33,8 +33,8 @@ interface TrendChartProps {
 export function TrendChart({ data, metrics, height = 300, yDomain = [0, 100] }: TrendChartProps) {
   if (data.length === 0) {
     return (
-      <div className="glass-card border border-[var(--color-border)] rounded-xl p-8 text-center">
-        <p className="text-[var(--color-text-muted)] text-sm">
+      <div className="compartment p-8 text-center">
+        <p className="text-[var(--fg-muted)] text-sm">
           Not enough data for a trend chart. Import more sessions.
         </p>
       </div>
@@ -51,28 +51,28 @@ export function TrendChart({ data, metrics, height = 300, yDomain = [0, 100] }: 
   return (
     <ResponsiveContainer width="100%" height={height}>
       <LineChart data={chartData} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
-        <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
+        <CartesianGrid strokeDasharray="3 3" stroke="var(--hairline)" />
         <XAxis
           dataKey="label"
-          tick={{ fill: 'var(--color-text-dim)', fontSize: 11 }}
-          axisLine={{ stroke: 'var(--color-border)' }}
+          tick={{ fill: 'var(--fg-dim)', fontSize: 11 }}
+          axisLine={{ stroke: 'var(--hairline)' }}
         />
         <YAxis
-          tick={{ fill: 'var(--color-text-dim)', fontSize: 11 }}
-          axisLine={{ stroke: 'var(--color-border)' }}
+          tick={{ fill: 'var(--fg-dim)', fontSize: 11 }}
+          axisLine={{ stroke: 'var(--hairline)' }}
           domain={yDomain}
         />
         <Tooltip
           contentStyle={{
-            backgroundColor: 'var(--color-bg-card)',
-            border: '1px solid var(--color-border)',
+            backgroundColor: 'var(--ink-2)',
+            border: '1px solid var(--hairline)',
             borderRadius: 8,
             fontSize: 12,
           }}
-          labelStyle={{ color: 'var(--color-text-dim)' }}
+          labelStyle={{ color: 'var(--fg-dim)' }}
         />
         <Legend
-          wrapperStyle={{ fontSize: 11, color: 'var(--color-text-dim)' }}
+          wrapperStyle={{ fontSize: 11, color: 'var(--fg-dim)' }}
         />
         {metrics.map((m) => (
           <Line

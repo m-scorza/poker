@@ -76,17 +76,17 @@ const LEAK_EVIDENCE: Record<string, Evidence> = {
 };
 
 const SEVERITY_COLORS: Record<LeakSeverity, string> = {
-  critical: 'border-[var(--color-danger)] bg-red-950/30 shadow-red-950/20',
-  high: 'border-[var(--color-warning)] bg-orange-950/25 shadow-orange-950/20',
-  medium: 'border-yellow-600/70 bg-yellow-950/15 shadow-yellow-950/10',
-  low: 'border-[var(--color-border)] glass-card shadow-black/10',
+  critical: 'border-[var(--loss-line)] bg-[var(--loss-soft)]',
+  high: 'border-[var(--loss-line)] bg-[var(--loss-soft)] opacity-80',
+  medium: 'border-warn/50 bg-warn/8',
+  low: 'compartment',
 };
 
 const SEVERITY_BADGES: Record<LeakSeverity, { bg: string; text: string; label: string; weight: number }> = {
-  critical: { bg: 'bg-[var(--color-danger)]/20', text: 'text-[var(--color-danger)]', label: 'CRITICAL', weight: 4 },
-  high: { bg: 'bg-[var(--color-warning)]/20', text: 'text-[var(--color-warning)]', label: 'HIGH', weight: 3 },
-  medium: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', label: 'MEDIUM', weight: 2 },
-  low: { bg: 'bg-gray-500/20', text: 'text-[var(--color-text-dim)]', label: 'LOW', weight: 1 },
+  critical: { bg: 'bg-[var(--loss-soft)]', text: 'text-[var(--loss)]', label: 'CRITICAL', weight: 4 },
+  high: { bg: 'bg-[var(--loss-soft)]', text: 'text-[var(--loss)]', label: 'HIGH', weight: 3 },
+  medium: { bg: 'bg-warn/15', text: 'text-warn', label: 'MEDIUM', weight: 2 },
+  low: { bg: 'bg-white/5', text: 'text-[var(--fg-dim)]', label: 'LOW', weight: 1 },
 };
 
 function impactScore(leak: Leak): number {
@@ -129,12 +129,12 @@ export function LeaksPage() {
         <div className={clsx(
           'flex items-start gap-3 rounded-xl border p-4 text-xs shadow-md',
           dataHealth.confidence === 'low'
-            ? 'border-[var(--color-danger)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
-            : 'border-yellow-600/30 bg-yellow-950/15 text-yellow-100/90 shadow-yellow-950/10'
+            ? 'border-[var(--loss)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
+            : 'border-warn/30 bg-warn/10 text-[var(--fg-dim)]'
         )}>
           <AlertTriangle className={clsx(
             'mt-0.5 h-[18px] w-[18px] shrink-0',
-            dataHealth.confidence === 'low' ? 'text-[var(--color-danger)]' : 'text-yellow-400'
+            dataHealth.confidence === 'low' ? 'text-[var(--loss)]' : 'text-warn'
           )} />
           <div>
             <span className="font-bold uppercase tracking-wider">
@@ -155,50 +155,50 @@ export function LeaksPage() {
         </div>
       )}
 
-      <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+      <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between border-b border-[var(--hairline)] pb-4 mb-6">
         <div>
-          <p className="text-[10px] font-black uppercase tracking-[0.24em] text-[var(--color-accent)]">Leak Inbox</p>
-          <h2 className="mt-1 text-2xl font-black uppercase tracking-tight text-white">Review the highest-risk pattern first</h2>
-          <p className="mt-2 max-w-3xl text-sm text-[var(--color-text-dim)]">
+          <span className="kick sig">Leak Inbox</span>
+          <h1 style={{ marginTop: 4, marginBottom: 0 }}>Review the highest-risk pattern first</h1>
+          <p className="lede mt-2 max-w-3xl">
             This page turns your stats into a prioritized review queue with evidence labels, sample counts, and caveats for each recommendation.
           </p>
         </div>
         {topLeak && (
-          <div className="rounded-xl border border-[var(--color-danger)]/30 bg-[var(--color-danger)]/10 px-4 py-3 text-right">
-            <p className="text-[10px] font-black uppercase tracking-widest text-[var(--color-danger)]">Start here</p>
-            <p className="font-data text-lg font-black text-white">#{prioritizedLeaks.indexOf(topLeak) + 1} {topLeak.name}</p>
+          <div className="compartment text-right" style={{ padding: '12px 16px', margin: 0 }}>
+            <span className="kick text-[var(--loss)]">Start here</span>
+            <p className="font-mono text-lg font-bold text-[var(--fg)]">#{prioritizedLeaks.indexOf(topLeak) + 1} {topLeak.name}</p>
           </div>
         )}
       </div>
 
       {totalHands === 0 ? (
-        <div className="glass-card border border-[var(--color-border)] rounded-xl p-8 text-center">
-          <p className="font-semibold text-white">No leak evidence loaded yet.</p>
-          <p className="mt-2 mb-6 text-sm text-[var(--color-text-dim)]">Import hands or load the synthetic demo to see the prioritized leak review queue.</p>
+        <div className="compartment text-center py-8">
+          <p className="font-bold text-[var(--fg)]">No leak evidence loaded yet.</p>
+          <p className="mt-2 mb-6 text-sm text-[var(--fg-dim)]">Import hands or load the synthetic demo to see the prioritized leak review queue.</p>
           <DemoDataButton label="Load demo leak inbox" />
         </div>
-      ) : leaks.length === 0 ? (
-        <div className="bg-emerald-900/10 border border-emerald-600/30 rounded-xl p-8 text-center">
-          <CheckCircle size={32} className="mx-auto mb-3 text-[var(--color-accent)]" />
-          <p className="text-[var(--color-accent)] font-semibold mb-1">No leaks detected!</p>
-          <p className="text-sm text-[var(--color-text-dim)]">
+      ) : prioritizedLeaks.length === 0 ? (
+        <div className="compartment text-center py-8 border-[var(--money-line)] bg-[var(--money-soft)]">
+          <CheckCircle size={32} className="mx-auto mb-3 text-[var(--money)]" />
+          <p className="text-[var(--money)] font-bold mb-1">No leaks detected!</p>
+          <p className="text-sm text-[var(--fg-dim)]">
             All metrics are within {strategyProfile === 'game_plan' ? 'Baseline' : 'Advanced'} profile targets.
           </p>
         </div>
       ) : (
         <div className="space-y-4">
           <div className="grid gap-3 md:grid-cols-3">
-            <div className="rounded-xl border border-white/10 glass-card p-4">
-              <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Detected leaks</p>
-              <p className="mt-2 font-data text-3xl font-black text-white">{leaks.length}</p>
+            <div className="compartment">
+              <span className="kick">Detected leaks</span>
+              <p className="mt-2 font-mono text-3xl font-bold text-[var(--fg)]">{leaks.length}</p>
             </div>
-            <div className="rounded-xl border border-white/10 glass-card p-4">
-              <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Evidence sample</p>
-              <p className="mt-2 font-data text-3xl font-black text-white">{totalHands}</p>
+            <div className="compartment">
+              <span className="kick">Evidence sample</span>
+              <p className="mt-2 font-mono text-3xl font-bold text-[var(--fg)]">{totalHands}</p>
             </div>
-            <div className="rounded-xl border border-white/10 glass-card p-4">
-              <p className="text-[10px] font-black uppercase tracking-widest text-white/40">Profile</p>
-              <p className="mt-2 font-data text-xl font-black text-[var(--color-accent)]">{strategyProfile === 'game_plan' ? 'Baseline' : 'Advanced'}</p>
+            <div className="compartment">
+              <span className="kick">Profile</span>
+              <p className="mt-2 font-mono text-xl font-bold text-[var(--accent)]">{strategyProfile === 'game_plan' ? 'Baseline' : 'Advanced'}</p>
             </div>
           </div>
 
@@ -210,7 +210,7 @@ export function LeaksPage() {
             return (
               <div
                 key={leak.id}
-                className={clsx('rounded-2xl border p-5 shadow-xl', SEVERITY_COLORS[leak.severity])}
+                className={clsx('compartment flex flex-col', SEVERITY_COLORS[leak.severity])}
               >
                 <div className="grid gap-5 lg:grid-cols-[1fr_auto]">
                   <div>
@@ -244,22 +244,22 @@ export function LeaksPage() {
                       </span>
                     </div>
 
-                    <p className="text-sm leading-relaxed text-[var(--color-text-dim)]">{leak.description}</p>
+                    <p className="text-sm leading-relaxed text-[var(--fg-dim)] mt-2">{leak.description}</p>
 
-                    <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
-                      <p className="mb-1 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-accent)]">
+                    <div className="mt-4 border-t border-[var(--hairline)] pt-4">
+                      <p className="kick sig mb-1 flex items-center gap-2">
                         <Crosshair size={13} /> Next review step
                       </p>
-                      <p className="text-sm font-semibold leading-relaxed text-white">{actionForLeak(leak)}</p>
-                      <p className="mt-2 text-xs leading-relaxed text-yellow-100/70">{evidence.caveat}</p>
+                      <p className="text-sm font-bold leading-relaxed text-[var(--fg)]">{actionForLeak(leak)}</p>
+                      <p className="inner-rule mt-2">{evidence.caveat}</p>
                     </div>
 
-                    <div className="mt-4 flex flex-wrap gap-4 text-xs text-[var(--color-text-muted)]">
-                      <span>Sample: {leak.sampleSize} hands</span>
-                      <span>Deviation: {leak.deviation > 0 ? '+' : ''}{leak.deviation}pp</span>
+                    <div className="mt-4 flex flex-wrap gap-4 text-xs text-[var(--fg-muted)]">
+                      <span>Sample: <span className="font-mono">{leak.sampleSize}</span> hands</span>
+                      <span>Deviation: <span className="font-mono">{leak.deviation > 0 ? '+' : ''}{leak.deviation}pp</span></span>
                       {source && (
                         <span
-                          className="flex items-center gap-1 text-[var(--color-info)] cursor-help"
+                          className="flex items-center gap-1 text-[var(--sig)] cursor-help"
                           title={`Source: ${source.source}\nReference: ${source.doc}`}
                         >
                           <BookOpen size={10} />
@@ -273,13 +273,13 @@ export function LeaksPage() {
                     <div>
                       <div className="flex items-center gap-2 lg:justify-end">
                         {leak.value < leak.target[0] ? (
-                          <TrendingDown size={18} className="text-[var(--color-danger)]" />
+                          <TrendingDown size={18} className="text-[var(--loss)]" />
                         ) : (
-                          <TrendingUp size={18} className="text-[var(--color-warning)]" />
+                          <TrendingUp size={18} className="text-[var(--loss)]" />
                         )}
-                        <span className="font-data text-3xl font-black text-white">{leak.value}%</span>
+                        <span className="font-mono text-3xl font-bold text-[var(--fg)]">{leak.value}%</span>
                       </div>
-                      <p className="mt-1 text-xs text-[var(--color-text-muted)]">
+                      <p className="mt-1 text-xs text-[var(--fg-muted)]">
                         Target: {leak.target[0]}–{leak.target[1]}%
                       </p>
                     </div>
@@ -287,13 +287,13 @@ export function LeaksPage() {
                     <div className="flex flex-col gap-2">
                       <Link
                         to="/hands"
-                        className="inline-flex items-center justify-center gap-2 rounded-lg bg-white/10 px-3 py-2 text-xs font-black uppercase tracking-wider text-white transition hover:bg-white/15"
+                        className="btn inline-flex items-center justify-center gap-2"
                       >
                         Review hands <ArrowRight size={13} />
                       </Link>
                       <Link
                         to={leak.id === 'compliance' ? '/ranges' : '/career'}
-                        className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-xs font-black uppercase tracking-wider text-white/70 transition hover:border-white/25 hover:text-white"
+                        className="btn outline inline-flex items-center justify-center gap-2"
                       >
                         {leak.id === 'compliance' ? 'Open ranges' : 'Open coach'}
                       </Link>

@@ -31,8 +31,8 @@ export interface EvidenceMetadata {
 
 const STRENGTH_CLASS: Record<EvidenceMetadata['strength'], string> = {
   rule_based: 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30',
-  directional: 'bg-yellow-500/10 text-yellow-300 border-yellow-500/30',
-  reference_check: 'bg-amber-500/10 text-amber-300 border-amber-500/30',
+  directional: 'bg-warn/10 text-warn border-warn/30',
+  reference_check: 'bg-warn/10 text-[var(--fg-muted)] border-warn/20',
   review_only: 'bg-rose-500/10 text-rose-300 border-rose-500/30',
 };
 

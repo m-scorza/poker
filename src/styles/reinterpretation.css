@@ -1,0 +1,199 @@
+/* =========================================================
+   REINTERPRETATION — Command Desk R
+   Locked decisions (2026-06-09):
+   · Palette: INK MONO, dark-first (light parked)
+   · Background: static dot grid, toned down
+   · Surfaces: v7 model — tone-shift compartments, no outlines,
+     hairlines for internal structure, no decorative glow
+   · Halo: 10px, carries the VIOLET SIGNATURE (heart+brain
+     synthesis) — violet lives ONLY where the user is:
+     cursor halo, text selection, focus, live pulse. [V] toggles.
+   · Type voice: [T] toggles Ledger (Bricolage/Hanken/Space Mono)
+     vs Neutral (Inter/JetBrains) — last open decision.
+   Load AFTER theme.css + desk.css. body[data-shell] selectors
+   tie theme.css's body[data-color] specificity; later file wins.
+   ========================================================= */
+
+/* ---------- TOKENS · INK MONO (locked) ---------- */
+body[data-shell] {
+  --bg: #0a0a0c; --bg-2: #111114;
+  --bg-card: #111114; --bg-card-hover: #16161a;
+  --bg-input: #131316;
+  --border: rgba(255, 255, 255, 0.07); --border-strong: rgba(255, 255, 255, 0.16);
+  --accent: #C9CDD6; --accent-2: #34D98C;
+  --accent-soft: rgba(201, 205, 214, 0.07); --accent-glow: rgba(201, 205, 214, 0.16);
+  --accent-line: rgba(201, 205, 214, 0.34);
+  --loss: #FF5468; --loss-soft: rgba(255, 84, 104, 0.10); --loss-line: rgba(255, 84, 104, 0.40);
+  /* warn = same danger axis, clearly lower intensity: faded mauve-rose,
+     a full stop from critical — never yellow, never violet */
+  --warn: #A5697B; --warn-soft: rgba(165, 105, 123, 0.08); --warn-line: rgba(165, 105, 123, 0.30);
+  --c-chip-1: #C9CDD6; --c-chip-2: #34D98C; --c-chip-3: #FF5468;
+  --fg: #f2f2f4; --fg-muted: #8b8d94; --fg-dim: #56585f;
+  --felt: #121215; --felt-rail: #1c1c21;
+  --shadow-card: 0 10px 36px rgba(0, 0, 0, 0.45);
+
+  /* aliases — migrated components use tokens.css/Tailwind naming convention */
+  --money: var(--accent-2);
+  --money-soft: rgba(52, 217, 140, 0.10);
+  --money-line: rgba(52, 217, 140, 0.40);
+  --hairline: var(--border);
+  --hairline-strong: var(--border-strong);
+  --ink: var(--bg);
+  --ink-1: var(--bg-input);
+  --ink-2: var(--bg-2);
+  --ink-3: var(--bg-card-hover);
+
+  /* the signature hue — violet, used ONLY at user-presence points */
+  --sig: #9B6CFF;
+  --sig-soft: rgba(155, 108, 255, 0.10);
+  --sig-glow: rgba(155, 108, 255, 0.30);
+  --sig-line: rgba(155, 108, 255, 0.46);
+}
+body[data-sig="off"] {
+  --sig: #C9CDD6; --sig-soft: rgba(201, 205, 214, 0.08);
+  --sig-glow: rgba(201, 205, 214, 0.20); --sig-line: rgba(201, 205, 214, 0.36);
+}
+
+/* ---------- TYPE VOICE (key T — cycles 3) ---------- */
+/* ledger  = Bricolage / Hanken / Space Mono (theme.css default)
+   neutral = Inter / Inter / JetBrains
+   hybrid  = Bricolage display on Inter body + JetBrains data */
+body[data-font="neutral"] {
+  --display: 'Inter', system-ui, sans-serif;
+  --sans: 'Inter', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+body[data-font="neutral"] .mon-num,
+body[data-font="neutral"] .desk-title { letter-spacing: -0.035em; }
+body[data-font="hybrid"] {
+  --display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --sans: 'Inter', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* ---------- BACKGROUND · quiet dot grid ---------- */
+.glow-orb { display: none; }
+.bg-grid {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.035) 1px, transparent 1.5px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse 95% 80% at 50% 0%, #000 25%, transparent 100%);
+}
+
+/* ---------- HALO · the signature (key V) ---------- */
+.cursor-follower {
+  width: 10px; height: 10px;
+  border: 1px solid var(--sig-line);
+  background: var(--sig-soft);
+}
+::selection { background: var(--sig-glow); color: var(--fg); }
+
+/* focus + selection moments carry the signature */
+.scope:focus-within { border-color: var(--sig-line); box-shadow: none; }
+.cmdk input:focus { border-bottom-color: var(--sig-line); }
+.cmdk-item.sel, .cmdk-item:hover { background: var(--sig-soft); color: var(--fg); }
+.wire-badge .pulse { background: var(--sig); box-shadow: 0 0 0 0 var(--sig-glow); }
+.wire-badge .t b { color: var(--fg); }
+
+/* signature, second pass — "a tiny bit more present":
+   wayfinding moments (where am I / where do I act) join the set */
+.side-nav a.on { box-shadow: inset 2px 0 0 var(--sig); }
+.tab-menu button.on { color: var(--fg); box-shadow: inset 0 -2px 0 var(--sig); }
+.loader .lkick { color: var(--sig); }
+.loader .lbar i { background: var(--sig); box-shadow: none; }
+.verdict-fix .fa { color: var(--sig); }
+.hl-cta span { color: var(--sig) !important; }
+.crumb b { color: var(--sig); }
+
+/* ---------- SURFACES · v7 tone-shift model ---------- */
+.card {
+  background: var(--bg-2);
+  border: 0;
+  border-radius: var(--r-md);
+  backdrop-filter: none; -webkit-backdrop-filter: none;
+}
+.card.lift:hover { background: var(--bg-card-hover); box-shadow: none; border: 0; }
+.monument { background: var(--bg-2); }
+.headline { border: 0; background: linear-gradient(150deg, var(--loss-soft) 0%, var(--bg-2) 55%); }
+
+.sidebar { background: var(--bg); border-right: 1px solid var(--border); }
+.side-logo .glyph { background: var(--fg); color: var(--bg); box-shadow: none; }
+.side-nav a.on { color: var(--fg); background: rgba(255, 255, 255, 0.045); border-color: transparent; }
+.side-nav a.on .ct { color: var(--fg-muted); }
+/* the one jewel in the chrome: lifetime profit gets the glass+glow
+   treatment everything else gave up — a single deliberate shine */
+.side-foot {
+  background: linear-gradient(160deg, var(--sig-soft) 0%, rgba(52, 217, 140, 0.05) 55%, transparent 100%);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-md);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 28px rgba(52, 217, 140, 0.11), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  position: relative; overflow: hidden;
+}
+.side-foot::after {
+  content: ''; position: absolute; top: -40%; right: -30%; width: 80%; height: 80%;
+  background: radial-gradient(circle, rgba(52, 217, 140, 0.13) 0%, transparent 70%);
+  pointer-events: none;
+}
+.sf-profit { text-shadow: 0 0 20px rgba(52, 217, 140, 0.40); }
+.side-foot .ava { background: var(--bg-input); border: 1px solid var(--border-strong); color: var(--fg); }
+
+/* ---------- 13×13 RANGE MATRIX · monochrome frequency encoding ----------
+   Yellow purged (warn = alerts only, never range states).
+   Violet refused (D3: signature never touches data).
+   Mixed = the SAME action color at half fill — frequency drawn literally.
+   In-range vs fold contrast: solid mix fill vs near-invisible. */
+.mc { color: var(--fg-dim); }
+.mc.open {
+  background: color-mix(in srgb, #C9CDD6 26%, #111114);
+  border: 1px solid var(--accent-line);
+  color: var(--fg);
+}
+.mc.mix {
+  background: linear-gradient(135deg,
+    color-mix(in srgb, #C9CDD6 26%, #111114) 0% 50%,
+    rgba(255, 255, 255, 0.02) 50% 100%);
+  border: 1px dashed var(--accent-line);
+  color: var(--fg-muted);
+}
+.mc.dev { background: var(--loss-soft); border: 1px solid var(--loss); color: var(--loss); }
+.mc.fold { background: rgba(255, 255, 255, 0.015); border: 1px solid transparent; }
+.grid-legend i.open { background: color-mix(in srgb, #C9CDD6 26%, #111114); border: 1px solid var(--accent-line); }
+.grid-legend i.mix {
+  background: linear-gradient(135deg,
+    color-mix(in srgb, #C9CDD6 26%, #111114) 0% 50%,
+    rgba(255, 255, 255, 0.02) 50% 100%);
+  border: 1px dashed var(--accent-line);
+}
+.grid-legend i.dev { background: var(--loss-soft); border: 1px solid var(--loss); }
+
+/* ---------- DE-GLOW pass ---------- */
+.btn:hover { box-shadow: none; border-color: var(--border-strong); color: var(--fg); }
+.btn.primary { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.btn.primary:hover { box-shadow: none; filter: brightness(0.92); }
+.mon-num { text-shadow: none; }
+.mon-num .sign { color: var(--fg-muted); }
+.gauge .g-fg { filter: none; }
+.ch-line { filter: none; stroke-width: 2; }
+.ch-dot { filter: none; }
+.stat-trigger.active { box-shadow: none; }
+.chip.cap { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4); }
+.hl-cta:hover { box-shadow: none; border-color: var(--border-strong); }
+.seat-btn.active { box-shadow: none; border-color: var(--fg); }
+.loader .lbar i { background: var(--fg); box-shadow: none; }
+.dock { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35); }
+
+/* palette decision is made — hide the old theme swatch group */
+.dock .grp:first-child { display: none; }
+.dock .divide:first-of-type { display: none; }
+
+/* ---------- R-HUD chip ---------- */
+.r-hud {
+  position: fixed; left: 14px; bottom: 14px; z-index: 9500;
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
+  color: var(--fg-muted); background: var(--bg-2);
+  border: 1px solid var(--border-strong); border-radius: 8px;
+  padding: 8px 12px; line-height: 1.7; user-select: none;
+}
+.r-hud b { color: var(--fg); font-weight: 700; }
+.r-hud .sig { color: var(--sig); }
+.r-hud .keys { color: var(--fg-dim); display: block; }

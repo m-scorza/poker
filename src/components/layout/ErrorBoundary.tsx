@@ -33,23 +33,23 @@ export class ErrorBoundary extends Component<Props, State> {
       }
 
       return (
-        <div className="min-h-screen flex items-center justify-center p-6 bg-[var(--color-bg)]">
-          <div className="glass-card border border-[var(--color-danger)]/50 rounded-xl max-w-lg w-full p-8 text-center shadow-xl">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--color-danger)]/10 text-[var(--color-danger)] mb-6">
+        <div className="min-h-screen flex items-center justify-center p-6 bg-[var(--bg)]">
+          <div className="compartment border border-[var(--loss)]/50 rounded-xl max-w-lg w-full p-8 text-center shadow-xl">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[var(--loss)]/10 text-[var(--loss)] mb-6">
               <AlertTriangle size={32} />
             </div>
             
-            <h2 className="text-xl font-bold text-[var(--color-text)] mb-3">
+            <h2 className="text-xl font-bold text-[var(--fg)] mb-3">
               Oops! Something went wrong.
             </h2>
             
-            <p className="text-[var(--color-text-dim)] mb-6">
+            <p className="text-[var(--fg-dim)] mb-6">
               The application encountered a critical error and cannot continue. Our robot assistant (that&apos;s me) apologizes.
             </p>
 
             {this.state.error && (
-              <div className="mb-6 bg-[var(--color-bg-input)] rounded-lg p-4 text-left overflow-x-auto border border-[var(--color-border)]">
-                <code className="text-xs font-data text-[var(--color-danger)] whitespace-pre-wrap">
+              <div className="mb-6 bg-[var(--ink-1)] rounded-lg p-4 text-left overflow-x-auto border border-[var(--hairline)]">
+                <code className="text-xs font-mono text-[var(--loss)] whitespace-pre-wrap">
                   {this.state.error.message}
                 </code>
               </div>
@@ -57,7 +57,7 @@ export class ErrorBoundary extends Component<Props, State> {
 
             <button
               onClick={() => window.location.reload()}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-bold bg-[var(--color-accent)]/10 text-[var(--color-accent)] border border-[var(--color-accent)]/20 hover:bg-[var(--color-accent)]/20 transition-all active:scale-95"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-bold bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/20 hover:bg-[var(--accent)]/20 transition-all active:scale-95"
             >
               <RefreshCcw size={18} />
               Reload Application

@@ -18,7 +18,7 @@ describe('StatCard', () => {
   it('applies the correct accent color class', () => {
     const { container } = render(<StatCard label="VPIP" value="25%" accent="green" />);
     const valueElement = within(container).getByText('25%');
-    expect(valueElement).toHaveClass('text-[var(--color-accent)]');
+    expect(valueElement).toHaveClass('text-[var(--money)]');
   });
 
   it('renders info tooltip trigger when info is provided', () => {

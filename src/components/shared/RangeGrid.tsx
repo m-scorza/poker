@@ -29,11 +29,11 @@ function getHandKey(row: number, col: number): string {
 }
 
 const STATUS_CLASSES: Record<CellStatus, string> = {
-  'in-range': 'bg-[var(--color-range-in)] border-[var(--color-accent-dim)]',
-  'out-of-range': 'bg-[var(--color-range-neutral)] border-[var(--color-border)]',
-  'played-correct': 'bg-emerald-900/50 border-emerald-500',
-  'played-deviation': 'bg-red-900/50 border-red-500',
-  'not-dealt': 'bg-[var(--color-range-neutral)] border-[var(--color-border)] opacity-50',
+  'in-range': 'bg-[color-mix(in_srgb,#C9CDD6_26%,#111114)] border-[var(--accent-line)]',
+  'out-of-range': 'bg-white/[0.015] border-transparent',
+  'played-correct': 'bg-[var(--money-soft)] border-[var(--money-line)]',
+  'played-deviation': 'bg-[var(--loss-soft)] border-[var(--loss)]',
+  'not-dealt': 'bg-white/[0.015] border-transparent opacity-50',
 };
 
 export function RangeGrid({ getCellStatus, onCellClick, onCellHover }: RangeGridProps) {

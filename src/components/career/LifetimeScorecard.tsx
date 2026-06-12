@@ -58,13 +58,13 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
             </span>
             <span className="text-2xl font-bold text-cyan-400/60">%</span>
           </div>
-          <p className="mt-2 text-xs font-bold text-[var(--color-text-dim)] uppercase tracking-widest">GTO Compliance Rate</p>
+          <p className="mt-2 text-xs font-bold text-[var(--fg-dim)] uppercase tracking-widest">GTO Compliance Rate</p>
         </div>
 
         {/* Financials */}
         <div className="space-y-6">
           <div>
-            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-1">
               <DollarSign size={10} /> Hourly Rate
             </div>
             <div className={clsx("text-xl font-data font-black", metrics.hourlyRate >= 0 ? "text-emerald-400" : "text-rose-400")}>
@@ -72,7 +72,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
             </div>
           </div>
           <div>
-            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-1">
               <Percent size={10} /> Technical ROI
             </div>
             <div className="text-xl font-data font-black text-white">
@@ -84,22 +84,22 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
         {/* Volume */}
         <div className="space-y-6">
           <div>
-            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-1">
               <Clock size={10} /> Experience
             </div>
             <div className="text-xl font-data font-black text-white">
               {metrics.totalHands.toLocaleString()}
             </div>
-            <div className="text-[10px] font-bold text-[var(--color-text-dim)]">Hands Tracked</div>
+            <div className="text-[10px] font-bold text-[var(--fg-dim)]">Hands Tracked</div>
           </div>
           <div>
-            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--color-text-dim)] mb-1">
+            <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-1">
               <CheckCircle size={10} /> Compliance
             </div>
             <div className="text-xl font-data font-black text-white">
               {Math.round((metrics.complianceRate / 100) * metrics.totalHands).toLocaleString()}
             </div>
-            <div className="text-[10px] font-bold text-[var(--color-text-dim)]">Compliant Decs.</div>
+            <div className="text-[10px] font-bold text-[var(--fg-dim)]">Compliant Decs.</div>
           </div>
         </div>
 

@@ -212,55 +212,30 @@ export function RangesPage() {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-xl font-bold">Ranges</h2>
-        <div className="flex gap-1.5">
-          <button
-            onClick={() => setViewMode('compliance')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg border transition-colors ${
-              viewMode === 'compliance'
-                ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border-[var(--color-accent)]'
-                : 'text-[var(--color-text-dim)] border-[var(--color-border)] hover:border-[var(--color-accent)]'
-            }`}
-          >
-            <Eye size={12} /> Compliance
+      <div className="flex items-center justify-between mb-6 border-b border-[var(--hairline)] pb-4">
+        <div>
+          <span className="kick sig">Range Matrix</span>
+          <h1 style={{ marginTop: 4, marginBottom: 0 }}>Compliance & Theory</h1>
+        </div>
+        <div className="tabs">
+          <button onClick={() => setViewMode('compliance')} className={viewMode === 'compliance' ? 'on' : ''}>
+            <Eye size={12} className="inline mr-1 -mt-0.5" /> Compliance
           </button>
-          <button
-            onClick={() => setViewMode('edit')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg border transition-colors ${
-              viewMode === 'edit'
-                ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border-[var(--color-accent)]'
-                : 'text-[var(--color-text-dim)] border-[var(--color-border)] hover:border-[var(--color-accent)]'
-            }`}
-          >
-            <Edit3 size={12} /> Edit
+          <button onClick={() => setViewMode('edit')} className={viewMode === 'edit' ? 'on' : ''}>
+            <Edit3 size={12} className="inline mr-1 -mt-0.5" /> Edit
           </button>
-          <button
-            onClick={() => setViewMode('push_fold')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg border transition-colors ${
-              viewMode === 'push_fold'
-                ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border-[var(--color-accent)]'
-                : 'text-[var(--color-text-dim)] border-[var(--color-border)] hover:border-[var(--color-accent)]'
-            }`}
-          >
+          <button onClick={() => setViewMode('push_fold')} className={viewMode === 'push_fold' ? 'on' : ''}>
             Push/Fold
           </button>
-          <button
-            onClick={() => setViewMode('validator')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg border transition-colors ${
-              viewMode === 'validator'
-                ? 'bg-[var(--color-accent)]/15 text-[var(--color-accent)] border-[var(--color-accent)]'
-                : 'text-[var(--color-text-dim)] border-[var(--color-border)] hover:border-[var(--color-accent)]'
-            }`}
-          >
-            <BarChart3 size={12} /> Validation
+          <button onClick={() => setViewMode('validator')} className={viewMode === 'validator' ? 'on' : ''}>
+            <BarChart3 size={12} className="inline mr-1 -mt-0.5" /> Validation
           </button>
         </div>
       </div>
 
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
          {/* Position selector */}
-         <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
+         <div className="tabs" style={{ flexWrap: 'wrap', height: 'fit-content' }}>
            {RFI_POSITIONS.map((pos) => {
              const posCount = decisions.filter((d) => {
                return matchesPosition(d, pos) && matchesScenario(d, selectedScenario, selectedReactionOpener);
@@ -270,54 +245,41 @@ export function RangesPage() {
                <button
                  key={pos}
                  onClick={() => setSelectedPos(pos)}
-                 className={clsx(
-                    "px-3 py-1.5 rounded text-xs font-bold transition-all flex items-center gap-1.5",
-                    selectedPos === pos ? "bg-white text-black shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
-                 )}
+                 className={selectedPos === pos ? "on" : ""}
                >
-                 {pos}
-                 {posCount > 0 && <span className="opacity-50 text-[10px]">({posCount})</span>}
+                 {pos} {posCount > 0 && `(${posCount})`}
                </button>
              );
            })}
          </div>
 
          {/* Scenario selector */}
-         <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1">
+         <div className="tabs">
             <button 
               onClick={() => setSelectedScenario('RFI')}
-              className={clsx(
-                 "px-4 py-1.5 rounded text-xs font-bold transition-all",
-                 selectedScenario === 'RFI' ? "bg-blue-600 text-white shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
-              )}
+              className={selectedScenario === 'RFI' ? "on" : ""}
             >
                RFI / Open
             </button>
             <button 
               onClick={() => setSelectedScenario('FACING_RAISE')}
-              className={clsx(
-                 "px-4 py-1.5 rounded text-xs font-bold transition-all",
-                 selectedScenario === 'FACING_RAISE' ? "bg-rose-600 text-white shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
-              )}
+              className={selectedScenario === 'FACING_RAISE' ? "on" : ""}
             >
                Reaction (vs Raise)
             </button>
          </div>
          {selectedScenario === 'FACING_RAISE' && (
-           <div className="flex glass-card border border-[var(--color-border)] rounded-lg p-1 overflow-x-auto">
+           <div className="tabs" style={{ flexWrap: 'wrap', height: 'fit-content' }}>
              {validReactionOpeners.length > 0 ? validReactionOpeners.map((opener) => (
                <button
                  key={opener}
                  onClick={() => setSelectedOpener(opener)}
-                 className={clsx(
-                   "px-3 py-1.5 rounded text-xs font-bold transition-all flex items-center gap-1.5",
-                   selectedReactionOpener === opener ? "bg-rose-500 text-white shadow-lg" : "text-[var(--color-text-dim)] hover:text-white"
-                 )}
+                 className={selectedReactionOpener === opener ? "on" : ""}
                >
                  vs {opener}
                </button>
              )) : (
-               <div className="px-3 py-1.5 text-xs font-bold text-[var(--color-text-muted)]">
+               <div className="px-3 py-1.5 text-xs text-[var(--fg-muted)]">
                  No earlier opener
                </div>
              )}
@@ -330,21 +292,21 @@ export function RangesPage() {
         {viewMode === 'compliance' && (
           <>
             <div>
-              <span className="text-[var(--color-text-dim)]">
+              <span className="text-[var(--fg-dim)]">
                 {selectedScenario === 'RFI' ? 'RFI Hands: ' : 'Spot Hands: '}
               </span>
               <span className="font-data font-bold">{posDecisions.length}</span>
             </div>
             <div>
-              <span className="text-[var(--color-text-dim)]">Compliance: </span>
-              <span className={`font-data font-bold ${compliance >= 90 ? 'text-[var(--color-accent)]' : 'text-[var(--color-danger)]'}`}>
+              <span className="text-[var(--fg-dim)]">Compliance: </span>
+              <span className={`font-data font-bold ${compliance >= 90 ? 'text-[var(--accent)]' : 'text-[var(--loss)]'}`}>
                 {compliance.toFixed(1)}%
               </span>
             </div>
           </>
         )}
         <div>
-          <span className="text-[var(--color-text-dim)]">
+          <span className="text-[var(--fg-dim)]">
             {viewMode === 'push_fold' ? 'Push range: ' : viewMode === 'edit' ? 'Custom range: ' : 'Range: '}
           </span>
           <span className="font-data font-bold">
@@ -356,7 +318,7 @@ export function RangesPage() {
           </span>
         </div>
         {viewMode === 'edit' && hasCustom && (
-          <span className="text-[10px] px-1.5 py-0.5 rounded bg-[var(--color-info)]/20 text-[var(--color-info)]">
+          <span className="text-[10px] px-1.5 py-0.5 rounded border border-[var(--sig-line)] text-[var(--sig)]">
             Custom
           </span>
         )}
@@ -367,20 +329,20 @@ export function RangesPage() {
           "mb-4 rounded-lg border p-3 text-xs",
           reactionRangeInfo.status === 'supported'
             ? "border-emerald-400/20 bg-emerald-400/10 text-emerald-100"
-            : "border-yellow-400/20 bg-yellow-400/10 text-yellow-100"
+            : "border-warn/20 bg-warn/10 text-warn"
         )}>
           <div className="flex flex-wrap items-center gap-2">
             <span className="font-bold uppercase tracking-wider">
               {reactionRangeInfo.status === 'supported' ? 'Chart available' : 'No chart yet'}
             </span>
-            <span className="font-data text-[var(--color-text)]">
+            <span className="font-data text-[var(--fg)]">
               {reactionRangeInfo.label}
             </span>
             <span className="rounded-full border border-white/10 px-2 py-0.5 font-data text-[10px] uppercase tracking-wider text-white/80">
               {reactionRangeInfo.comboCount} combos
             </span>
           </div>
-          <p className="mt-1 text-[var(--color-text-muted)]">
+          <p className="mt-1 text-[var(--fg-muted)]">
             {reactionRangeInfo.note}
           </p>
         </div>
@@ -392,19 +354,19 @@ export function RangesPage() {
           <div className="flex gap-2">
             <button
               onClick={handleSave}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg bg-[var(--color-accent)]/15 text-[var(--color-accent)] border border-[var(--color-accent)] hover:bg-[var(--color-accent)]/25 transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg bg-[var(--accent)]/15 text-[var(--accent)] border border-[var(--accent)] hover:bg-[var(--accent)]/25 transition-colors"
             >
               <Save size={12} /> Save Range
             </button>
             <button
               onClick={handleReset}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg text-[var(--color-text-dim)] border border-[var(--color-border)] hover:text-[var(--color-danger)] hover:border-[var(--color-danger)] transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg text-[var(--fg-dim)] border border-[var(--hairline)] hover:text-[var(--loss)] hover:border-[var(--loss)] transition-colors"
             >
               <RotateCcw size={12} /> Reset to Theoretical
             </button>
           </div>
           {saveError && (
-            <div role="alert" className="mt-2 flex items-start gap-1.5 px-2 py-1.5 text-xs rounded-md bg-[var(--color-danger)]/10 text-[var(--color-danger)] border border-[var(--color-danger)]/40">
+            <div role="alert" className="mt-2 flex items-start gap-1.5 px-2 py-1.5 text-xs rounded-md bg-[var(--loss)]/10 text-[var(--loss)] border border-[var(--loss)]/40">
               <AlertCircle size={12} className="mt-0.5 shrink-0" />
               <span>{saveError}</span>
             </div>
@@ -412,21 +374,7 @@ export function RangesPage() {
         </div>
       )}
 
-      {/* Legend */}
-      <div className="flex gap-4 mb-4 text-xs">
-        <div className="flex items-center gap-1.5">
-          <div className="w-3 h-3 rounded-sm bg-emerald-500/20 border border-emerald-500/40" />
-          <span className="text-[var(--color-text-dim)]">Played Correctly</span>
-        </div>
-        <div className="flex items-center gap-1.5">
-          <div className="w-3 h-3 rounded-sm bg-red-500/30 border border-red-500/50" />
-          <span className="text-[var(--color-text-dim)]">Deviation</span>
-        </div>
-        <div className="flex items-center gap-1.5">
-           <div className="w-3 h-3 bg-white/5 border border-white/10 rounded-sm" />
-           <span className="text-[var(--color-text-dim)]">No Data</span>
-        </div>
-      </div>
+      {/* Legend is now part of the Matrix */}
 
       {/* Dual Matrix */}
       <div className="mt-6">
@@ -452,15 +400,15 @@ export function RangesPage() {
 
       {/* Push/fold info */}
       {viewMode === 'push_fold' && (
-        <div className="mt-4 glass-card border border-[var(--color-border)] rounded-xl p-4 max-w-xl">
-          <p className="text-xs text-[var(--color-text-dim)] uppercase tracking-wide mb-2">Push/Fold (10bb)</p>
-          <p className="text-sm text-[var(--color-text)]">
+        <div className="mt-4 compartment max-w-xl">
+          <p className="kick mb-2">Push/Fold (10bb)</p>
+          <p className="text-sm">
             With a stack of 10bb or less, the standard strategy is all-in or fold.
-            This is the push range for <span className="font-data font-bold text-[var(--color-accent)]">{selectedPos}</span>.
+            This is the push range for <span className="font-mono font-bold">{selectedPos}</span>.
           </p>
-          <p className="text-xs text-[var(--color-text-muted)] mt-2">
+          <div className="inner-rule">
             Source: [Vol.2, NERD] — docs/knowledge/strategy/02-ranges-and-position.md §4
-          </p>
+          </div>
         </div>
       )}
 
@@ -476,35 +424,33 @@ function RangeValidatorPanel() {
   const directionLabel = (d: string) =>
     d === 'wider' ? 'Wider' : d === 'tighter' ? 'Tighter' : 'OK';
   const directionColor = (d: string) =>
-    d === 'match' ? 'text-emerald-400' : 'text-yellow-400';
+    d === 'match' ? 'text-[var(--money)]' : 'text-warn';
 
   return (
     <div className="mt-4 space-y-4 max-w-2xl">
       {/* Overall Score */}
-      <div className="glass-card border border-[var(--color-border)] rounded-xl p-5">
+      <div className="compartment">
         <div className="flex items-center justify-between mb-3">
-          <h3 className="text-sm font-bold uppercase tracking-wide text-[var(--color-text-dim)]">
-            Range Accuracy
-          </h3>
-          <span className={`text-2xl font-data font-bold ${validation.overallScore >= 80 ? 'text-emerald-400' : validation.overallScore >= 60 ? 'text-yellow-400' : 'text-red-400'}`}>
+          <span className="kick">Range Accuracy</span>
+          <span className={`text-2xl font-mono font-bold ${validation.overallScore >= 80 ? 'text-[var(--money)]' : validation.overallScore >= 60 ? 'text-[var(--accent)]' : 'text-[var(--loss)]'}`}>
             {validation.overallScore}%
           </span>
         </div>
-        <div className="flex gap-4 text-xs text-[var(--color-text-dim)]">
-          <span>RFI: <span className="font-data font-bold text-[var(--color-text)]">{validation.rfi.score}%</span></span>
-          <span>Push/Fold: <span className="font-data font-bold text-[var(--color-text)]">{validation.push.score}%</span></span>
+        <div className="flex gap-4 text-xs text-[var(--fg-dim)]">
+          <span>RFI: <span className="font-mono font-bold text-[var(--fg)]">{validation.rfi.score}%</span></span>
+          <span>Push/Fold: <span className="font-mono font-bold text-[var(--fg)]">{validation.push.score}%</span></span>
         </div>
-        <p className="text-xs text-[var(--color-text-muted)] mt-2">
+        <div className="inner-rule mt-2">
           Comparison of our ranges against GTO solver baselines.
-        </p>
+        </div>
       </div>
 
       {/* RFI Validation Table */}
-      <div className="glass-card border border-[var(--color-border)] rounded-xl p-4">
-        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">RFI by Position</h4>
+      <div className="compartment">
+        <span className="kick mb-3">RFI by Position</span>
         <table className="w-full text-sm">
           <thead>
-            <tr className="text-xs text-[var(--color-text-muted)] border-b border-[var(--color-border)]">
+            <tr className="text-xs text-[var(--fg-muted)] border-b border-[var(--hairline)]">
               <th className="text-left py-1.5 pr-4">Position</th>
               <th className="text-right py-1.5 px-3">Ours %</th>
               <th className="text-right py-1.5 px-3">Solver %</th>
@@ -514,10 +460,10 @@ function RangeValidatorPanel() {
           </thead>
           <tbody>
             {validation.rfi.results.map((r) => (
-              <tr key={r.position} className="border-b border-[var(--color-border)]/30">
+              <tr key={r.position} className="border-b border-[var(--hairline)]/30">
                 <td className="py-1.5 pr-4 font-data font-bold">{r.position}</td>
                 <td className="py-1.5 px-3 text-right font-data">{r.ourPct.toFixed(1)}%</td>
-                <td className="py-1.5 px-3 text-right font-data text-[var(--color-text-dim)]">{r.solverPct.toFixed(1)}%</td>
+                <td className="py-1.5 px-3 text-right font-data text-[var(--fg-dim)]">{r.solverPct.toFixed(1)}%</td>
                 <td className="py-1.5 px-3 text-right font-data">{r.delta.toFixed(1)}%</td>
                 <td className={`py-1.5 pl-3 text-xs font-bold ${directionColor(r.direction)}`}>{directionLabel(r.direction)}</td>
               </tr>
@@ -527,11 +473,11 @@ function RangeValidatorPanel() {
       </div>
 
       {/* Push Validation Table */}
-      <div className="glass-card border border-[var(--color-border)] rounded-xl p-4">
-        <h4 className="text-xs font-bold uppercase tracking-wide text-[var(--color-text-dim)] mb-3">Push/Fold (10bb) by Position</h4>
+      <div className="compartment">
+        <span className="kick mb-3">Push/Fold (10bb) by Position</span>
         <table className="w-full text-sm">
           <thead>
-            <tr className="text-xs text-[var(--color-text-muted)] border-b border-[var(--color-border)]">
+            <tr className="text-xs text-[var(--fg-muted)] border-b border-[var(--hairline)]">
               <th className="text-left py-1.5 pr-4">Position</th>
               <th className="text-right py-1.5 px-3">Ours %</th>
               <th className="text-right py-1.5 px-3">Solver %</th>
@@ -541,10 +487,10 @@ function RangeValidatorPanel() {
           </thead>
           <tbody>
             {validation.push.results.map((r) => (
-              <tr key={r.position} className="border-b border-[var(--color-border)]/30">
+              <tr key={r.position} className="border-b border-[var(--hairline)]/30">
                 <td className="py-1.5 pr-4 font-data font-bold">{r.position}</td>
                 <td className="py-1.5 px-3 text-right font-data">{r.ourPct.toFixed(1)}%</td>
-                <td className="py-1.5 px-3 text-right font-data text-[var(--color-text-dim)]">{r.solverPct.toFixed(1)}%</td>
+                <td className="py-1.5 px-3 text-right font-data text-[var(--fg-dim)]">{r.solverPct.toFixed(1)}%</td>
                 <td className="py-1.5 px-3 text-right font-data">{r.delta.toFixed(1)}%</td>
                 <td className={`py-1.5 pl-3 text-xs font-bold ${directionColor(r.direction)}`}>{directionLabel(r.direction)}</td>
               </tr>
@@ -553,7 +499,7 @@ function RangeValidatorPanel() {
         </table>
       </div>
 
-      <p className="text-xs text-[var(--color-text-muted)]">
+      <p className="text-xs text-[var(--fg-muted)]">
         Source: Solver baselines at 50bb (RFI) and 10bb (Push/Fold). Weighted scores: RFI 60% + Push 40%.
       </p>
     </div>
