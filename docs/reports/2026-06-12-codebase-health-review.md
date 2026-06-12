@@ -111,7 +111,16 @@ environment that previously failed.
   step; `agentKernel.test.ts:15-16` pins `GIT_CONFIG_GLOBAL/SYSTEM`;
   `typecheck:test` and the full suite pass in this remote container.
 
-### 5. Hygiene-scanner false positive (tooling quality note)
+### 5. Critical Dependabot alert: vitest < 3.2.6 — FIXED in this PR
+- **Status:** new. **Priority:** high (severity) / low (practical exposure).
+- **Evidence:** GitHub Dependabot alert #8 (critical) on `main`;
+  `npm audit` confirms GHSA-5xrq-8626-4rwp — arbitrary file read/execute
+  when the Vitest UI server is listening. Dev-only dependency; the UI
+  server is not used in CI, so practical exposure is local-dev only.
+- **Fix:** `npm audit fix` bumped vitest 3.2.5 → 3.2.6 (lockfile-only,
+  within the existing `^3.0.0` range). Suite re-verified: 693/693.
+
+### 6. Hygiene-scanner false positive (tooling quality note)
 - **Status:** new. **Priority:** low.
 - **Evidence:** `scripts/hygiene-scanner.ts` reports
   `src/main.tsx` "imported default from ./App, but it has no default
