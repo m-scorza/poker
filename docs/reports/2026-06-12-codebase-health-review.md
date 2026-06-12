@@ -88,6 +88,15 @@ sandbox — exactly the environment class that previously failed.
 - **Recommended action:** add `src/test/factories.ts` with shared
   `makeDecision`/`makeHand`/`makePlayer` builders; migrate opportunistically.
 
+### 7. Critical advisory on `vitest` — NEW
+- **Priority:** medium (dev-only exposure, but it's the repo's only critical).
+- **Evidence:** Dependabot alert #8 on `main`; `npm audit` → `vitest <3.2.6`,
+  GHSA-5xrq-8626-4rwp ("When Vitest UI server is listening, arbitrary file can
+  be read and executed"), plus `@vitest/coverage-v8 <=3.2.5`. Dev dependency;
+  only exploitable while the Vitest UI server is running locally.
+- **Recommended action:** `npm audit fix` (bump vitest to >=3.2.6) in a small
+  chore PR; the suite is green so the bump should be low-risk.
+
 ## Watchlist (recurring, no action required yet)
 
 - **`HandsUpload.tsx` (802 lines, RECURRING):** still mixes ZIP extraction,
