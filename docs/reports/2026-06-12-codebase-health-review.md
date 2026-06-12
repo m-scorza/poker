@@ -27,7 +27,7 @@ direct inspection or by running the verification gate.
 - **Git status:** clean working tree before this report was added.
 - **Uncommitted changes:** none.
 - **Graphify freshness:** index generated **2026-06-10 12:26 UTC** on the
-  author's Windows machine (root `C:\Users\MICRO\OneDrive\Documentos\GitHub\poker`).
+  author's Windows machine (root recorded as an absolute local user-profile repo path).
   PR #56 merged 23:08 UTC the same day — **the index predates PR #56 and #57**.
 - **Mismatches found:**
   - `.github/workflows/ci.yml` — Graphify's "AUDIT_NEW → CI Workflow" node
@@ -66,7 +66,7 @@ environment that previously failed.
 - **Evidence:** `graphify-out/` is 12 MB (~2,000 Obsidian notes,
   52k-line `graph.json`). `manifest.json`, `cache/stat-index.json`,
   `.graphify_root`, `.graphify_python` embed absolute
-  `C:\Users\MICRO\...` paths. Index timestamp 2026-06-10 12:26 UTC predates
+  local user-profile paths. Index timestamp 2026-06-10 12:26 UTC predates
   the last two merges to `main`. No CI step or hook regenerates it.
 - **Why it matters:** the repo's posture is privacy-careful (privacy
   boundary guard, sanitized fixtures); committing a personal machine
@@ -203,7 +203,7 @@ environment that previously failed.
 ## Recommended next actions
 
 1. Decide `graphify-out/` policy (slim + stamp, or regeneration cadence)
-   and strip `C:\Users\MICRO` paths — prevents a second drifting
+   and strip local user-profile paths — prevents a second drifting
    source-of-truth — `graphify-out/**`, `.gitignore`, `scripts/README.md`.
 2. Keep the `STATUS.md` stamp honest (bumped in this PR; consider moving it
    into the autogen block) — `docs/product/STATUS.md`, `scripts/regen-status.ts`.
