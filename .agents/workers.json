@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "default_worker": "codex",
+  "workers": {
+    "claude": {
+      "kind": "cli",
+      "command": "claude.cmd",
+      "args": [
+        "-p",
+        "--permission-mode",
+        "default",
+        "--output-format",
+        "text",
+        "{{prompt}}"
+      ],
+      "notes": "Use the .cmd shim on Windows; PowerShell blocks the .ps1 shim in this checkout."
+    },
+    "codex": {
+      "kind": "cli",
+      "command": "codex.cmd",
+      "args": [
+        "--cd",
+        "{{workspace}}",
+        "--sandbox",
+        "workspace-write",
+        "--ask-for-approval",
+        "never",
+        "exec",
+        "{{prompt}}"
+      ],
+      "notes": "Dry-run the dispatcher first; execute only for scoped tasks that can run without interactive approvals."
+    },
+    "hermes": {
+      "kind": "cli",
+      "command": "hermes",
+      "args": [
+        "--oneshot",
+        "{{prompt}}"
+      ],
+      "notes": "Hermes may use configured providers; verify cost/provider settings before long loops."
+    },
+    "cursor": {
+      "kind": "manual",
+      "command": "cursor.cmd",
+      "args": [],
+      "notes": "Cursor is kept as a manual IDE lane because the installed CLI is not a clean stdout worker by default."
+    },
+    "antigravity": {
+      "kind": "manual",
+      "command": "",
+      "args": [],
+      "notes": "Use manually for IDE/visual work unless a reliable headless CLI is configured later."
+    }
+  }
+}
