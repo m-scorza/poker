@@ -290,6 +290,12 @@ could not catch the issues below.
   "Target 6–10%" (3-bet) disagree with CLAUDE.md's metrics table
   (15–23%, 7–10%). Whichever is right, hardcoded UI targets bypass the
   METRICS_DICTIONARY single-source-of-truth rule.
+- **Dependabot alert #9 (low) — esbuild advisory chain** — new; surfaced
+  on push during this review. `npm audit` traces it to esbuild ≤0.28 via
+  `vite`/`tsx`/`vitest` (GHSA-gv7w-rqvm-qjhr, GHSA-g7r4-m6w7-qqqr). Dev
+  tooling only (dev-server / Deno vectors; not in the shipped bundle), and
+  the clean fix is a breaking `vite@8` major bump — schedule it as its own
+  upgrade PR rather than an audit-fix --force.
 
 ## Review Ledger
 
