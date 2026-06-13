@@ -4,8 +4,8 @@
 > Updated when reality changes, not when aspirations do.
 > CLAUDE.md and ROADMAP.md describe *intent*; this file describes *fact*.
 
-**Last verified against source:** 2026-06-12
-**Branch at verification:** `claude/relaxed-mccarthy-jd66k5` (`main` @ `36ffabd`)
+**Last verified against source:** 2026-06-13
+**Branch at verification:** `claude/relaxed-mccarthy-9v7mv0` (`main` @ `e9717bd`)
 **Tests at verification:** 693 / 693 passing (63 files)
 
 ---
