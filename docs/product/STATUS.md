@@ -259,8 +259,8 @@ are stale. Do not edit by hand.
 - @types/node ^22.19.19
 - @types/react ^19.0.0
 - @types/react-dom ^19.0.0
-- @vitejs/plugin-react ^4.3.4
-- @vitest/coverage-v8 ^3.2.4
+- @vitejs/plugin-react ^6.0.0
+- @vitest/coverage-v8 ^4.0.0
 - eslint ^9.39.4
 - eslint-plugin-jsx-a11y ^6.10.2
 - eslint-plugin-react ^7.37.5
@@ -272,9 +272,9 @@ are stale. Do not edit by hand.
 - tsx ^4.21.0
 - typescript ~5.7.2
 - typescript-eslint ^8.59.3
-- vite ^6.0.0
+- vite ^8.0.0
 - vite-plugin-pwa ^1.3.0
-- vitest ^3.0.0
+- vitest ^4.0.0
 <!-- END:AUTOGEN:deps -->
 
 ### Wired routes (`src/App.tsx`)
