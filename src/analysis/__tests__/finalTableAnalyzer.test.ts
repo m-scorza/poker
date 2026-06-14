@@ -5,57 +5,28 @@ import {
   detectRestealSpot,
   FT_DECISION_MATRIX,
 } from '../finalTableAnalyzer';
-import type { Hand, PlayerInHand, Action } from '../../types/hand';
+import type { Hand, PlayerInHand } from '../../types/hand';
+import {
+  makeAction,
+  makeHand as baseHand,
+  makePlayer as basePlayer,
+} from '../../test/factories';
 
-function makeHand(overrides: Partial<Hand>): Hand {
-  return {
-    id: 'test-1',
-    tournamentId: 'T1',
-    date: new Date(),
+function makeHand(overrides: Partial<Hand> = {}): Hand {
+  return baseHand({
     level: 12,
     smallBlind: 200,
     bigBlind: 400,
     ante: 50,
-    maxSeats: 9,
     activePlayers: 5,
-    buttonSeat: 1,
-    boardFlop: null,
-    boardTurn: null,
-    boardRiver: null,
-    totalPot: 0,
-    rake: 0,
-    hasShowdown: false,
     heroChipsBefore: 5000,
     heroChipsAfter: 5000,
-    villainDeltas: [],
     ...overrides,
-  };
+  });
 }
 
-function makePlayer(overrides: Partial<PlayerInHand>): PlayerInHand {
-  return {
-    handId: 'test-1',
-    seatNumber: 1,
-    playerName: 'hero',
-    chipsBefore: 5000,
-    position: 'CO',
-    isHero: true,
-    holeCards: null,
-    ...overrides,
-  };
-}
-
-function makeAction(overrides: Partial<Action>): Action {
-  return {
-    handId: 'test-1',
-    street: 'preflop',
-    playerName: 'hero',
-    actionType: 'fold',
-    amount: null,
-    isAllIn: false,
-    sequence: 0,
-    ...overrides,
-  };
+function makePlayer(overrides: Partial<PlayerInHand> = {}): PlayerInHand {
+  return basePlayer({ chipsBefore: 5000, ...overrides });
 }
 
 describe('classifyFTStacks', () => {

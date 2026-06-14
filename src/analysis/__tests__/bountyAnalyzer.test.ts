@@ -6,43 +6,24 @@ import {
   BOUNTY_HEURISTICS,
 } from '../bountyAnalyzer';
 import type { Hand, PlayerInHand } from '../../types/hand';
+import { makeHand as baseHand, makePlayer as basePlayer } from '../../test/factories';
 
-function makeHand(overrides: Partial<Hand>): Hand {
-  return {
-    id: 'test-1',
-    tournamentId: 'T1',
-    date: new Date(),
+function makeHand(overrides: Partial<Hand> = {}): Hand {
+  return baseHand({
     level: 5,
     smallBlind: 50,
     bigBlind: 100,
     ante: 10,
-    maxSeats: 9,
     activePlayers: 6,
-    buttonSeat: 1,
-    boardFlop: null,
-    boardTurn: null,
-    boardRiver: null,
     totalPot: 500,
-    rake: 0,
-    hasShowdown: false,
     heroChipsBefore: 5000,
     heroChipsAfter: 5000,
-    villainDeltas: [],
     ...overrides,
-  };
+  });
 }
 
-function makePlayer(overrides: Partial<PlayerInHand>): PlayerInHand {
-  return {
-    handId: 'test-1',
-    seatNumber: 1,
-    playerName: 'hero',
-    chipsBefore: 5000,
-    position: 'CO',
-    isHero: true,
-    holeCards: null,
-    ...overrides,
-  };
+function makePlayer(overrides: Partial<PlayerInHand> = {}): PlayerInHand {
+  return basePlayer({ chipsBefore: 5000, ...overrides });
 }
 
 describe('detectBountyTournament', () => {

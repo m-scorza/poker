@@ -3,21 +3,18 @@ import { buildCareerCoachMarkdownReport, buildCareerCoachReport } from '../caree
 import type { Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import type { Leak } from '../leakDetector';
+import { makeTournament as baseTournament } from '../../test/factories';
 
 function makeTournament(index: number, overrides: Partial<Tournament> = {}): Tournament {
-  return {
+  return baseTournament({
     id: `t-${index}`,
     name: `Tournament ${index}`,
     startDate: new Date(2026, 0, index),
     buyIn: 1,
     fee: 0.1,
-    format: 'MTT',
-    finishPosition: null,
-    prize: 0,
-    bounty: 0,
     handsPlayed: 20,
     ...overrides,
-  };
+  });
 }
 
 function makeDecision(index: number, compliant = true): HeroDecision {

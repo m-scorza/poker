@@ -5,32 +5,8 @@ import {
   icmStageLabel,
   icmStageColor,
 } from '../icmDetector';
-import type { Hand, PlayerInHand } from '../../types/hand';
-
-function makeHand(overrides: Partial<Hand>): Hand {
-  return {
-    id: 'test-1',
-    tournamentId: 'T1',
-    date: new Date(),
-    level: 1,
-    smallBlind: 10,
-    bigBlind: 20,
-    ante: 0,
-    maxSeats: 9,
-    activePlayers: 9,
-    buttonSeat: 1,
-    boardFlop: null,
-    boardTurn: null,
-    boardRiver: null,
-    totalPot: 0,
-    rake: 0,
-    hasShowdown: false,
-    heroChipsBefore: 1500,
-    heroChipsAfter: 1500,
-    villainDeltas: [],
-    ...overrides,
-  };
-}
+import type { PlayerInHand } from '../../types/hand';
+import { makeHand } from '../../test/factories';
 
 function makePlayers(count: number, chipsBefore: number): PlayerInHand[] {
   return Array.from({ length: count }, (_, i) => ({

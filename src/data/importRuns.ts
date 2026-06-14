@@ -9,7 +9,6 @@ import {
   type ImportDiagnosticsSnapshot,
 } from './importDiagnosticsPolicy';
 
-export { saveImportRun, getRecentImportRuns } from './store';
 export {
   IMPORT_DIAGNOSTICS_EXPORT_RUNS,
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,

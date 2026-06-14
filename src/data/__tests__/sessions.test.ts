@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../sessions';
 import type { Hand, Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
+import { makeTournament as baseTournament } from '../../test/factories';
 
 function makeHand(id: string, dateStr: string, tournamentId: string = 'T1'): Hand {
   return {
@@ -53,17 +54,7 @@ function makeDecision(handId: string, overrides: Partial<HeroDecision> = {}): He
 }
 
 function makeTournament(id: string, overrides: Partial<Tournament> = {}): Tournament {
-  return {
-    id,
-    buyIn: 10,
-    fee: 1,
-    format: 'MTT',
-    finishPosition: null,
-    prize: 0,
-    bounty: 0,
-    handsPlayed: 0,
-    ...overrides,
-  };
+  return baseTournament({ id, ...overrides });
 }
 
 describe('groupIntoSessions', () => {
