@@ -4,18 +4,10 @@ import {
   squeezeStats,
 } from '../squeezeDetector';
 import type { Action } from '../../types/hand';
+import { makeAction as baseAction } from '../../test/factories';
 
-function makeAction(overrides: Partial<Action>): Action {
-  return {
-    handId: 'test-1',
-    street: 'preflop',
-    playerName: 'villain1',
-    actionType: 'fold',
-    amount: null,
-    isAllIn: false,
-    sequence: 0,
-    ...overrides,
-  };
+function makeAction(overrides: Partial<Action> = {}): Action {
+  return baseAction({ playerName: 'villain1', ...overrides });
 }
 
 describe('detectSqueezeOpportunity', () => {

@@ -317,6 +317,14 @@ function analyzeFile(filePath: string): FileAnalysis {
       }
     }
 
+    // `export default <expression>` (e.g. `export default App;`). This is an
+    // ExportAssignment, not a declaration with export+default modifiers, so it
+    // is recorded here — otherwise default imports of it look like they point at
+    // a module with no default export.
+    if (ts.isExportAssignment(node) && !node.isExportEquals) {
+      exports.push({ name: 'default', kind: 'default', line: getLineNumber(sourceFile, node.getStart()) });
+    }
+
     // 4. Collect local declarations
     const isDecl = ts.isVariableDeclaration(node) || ts.isFunctionDeclaration(node) || ts.isClassDeclaration(node) || ts.isInterfaceDeclaration(node) || ts.isTypeAliasDeclaration(node) || ts.isEnumDeclaration(node);
     if (isDecl) {
@@ -480,12 +488,22 @@ function run() {
         const isEntry = analysis.relativeName === 'src/main.tsx' || analysis.relativeName === 'src/App.tsx';
         
         if (!isPage && !isEntry) {
+          // Distinguish a genuinely dead export from one that is still called
+          // within its own file (only the `export` keyword is redundant). Without
+          // this, a "dead code" sweep that trusts `unused_completely` would delete
+          // live code.
+          const usedInOwnFile = exp.name !== 'default' && analysis.usedIdentifiers.has(exp.name);
+          const type = onlyImportedInTests
+            ? 'imported_only_in_tests'
+            : usedInOwnFile
+              ? 'unused_export_used_locally'
+              : 'unused_completely';
           unusedExportsReport.push({
             filePath: analysis.relativeName,
             line: exp.line,
             name: exp.name,
             kind: exp.kind,
-            type: onlyImportedInTests ? 'imported_only_in_tests' : 'unused_completely',
+            type,
             importers: externalImporters.map(imp => path.relative(REPO_ROOT, imp).replace(/\\/g, '/'))
           });
         }

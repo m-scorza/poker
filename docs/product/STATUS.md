@@ -411,8 +411,8 @@ src/types/  (5 files)
 ### Tests
 
 <!-- BEGIN:AUTOGEN:tests -->
-**Test files:** 63
-**`it` / `test` calls (approximate):** 672
+**Test files:** 64
+**`it` / `test` calls (approximate):** 677
 
 ```
 src/__tests__/App.test.tsx
@@ -446,6 +446,7 @@ src/components/career/__tests__/FormatBreakdownTable.test.tsx
 src/components/career/__tests__/LifetimeScorecard.test.tsx
 src/components/dashboard/__tests__/TrendChart.test.tsx
 src/components/hands/__tests__/HandReplay.test.tsx
+src/components/hands/__tests__/HandsUpload.test.tsx
 src/components/shared/__tests__/Card.test.tsx
 src/components/shared/__tests__/ConfirmDialog.test.tsx
 src/components/shared/__tests__/DualRangeMatrix.test.tsx
