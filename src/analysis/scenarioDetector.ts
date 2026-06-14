@@ -1,6 +1,7 @@
 import type { Action, PlayerInHand } from '../types/hand';
 import type { Position, Scenario, HeroDecision } from '../types/analysis';
 import type { ParsedHand } from '../parser/pokerstars';
+import type { StrategyProfile } from '../data/strategyProfiles';
 import { toCanonicalHandKey } from '../parser/handKey';
 import { estimateICMStage } from './icmDetector';
 import { detectBountyTournament, estimateBountyContext } from './bountyAnalyzer';
@@ -200,6 +201,7 @@ export function detectScenario(
 export function buildHeroDecision(
   parsedHand: ParsedHand,
   heroName: string = 'scorza23',
+  profile: StrategyProfile = 'game_plan',
 ): HeroDecision | null {
   const { hand, players, actions, collectedAmounts, showdownWinners } = parsedHand;
 
@@ -297,6 +299,7 @@ export function buildHeroDecision(
     sawFlop ? hand.boardFlop : null,
     flopPlayerCount,
     computePotBeforeStreet(actions, 'flop') || hand.totalPot,
+    profile,
   );
 
   // Showdown detection
@@ -333,6 +336,7 @@ export function buildHeroDecision(
       ? { callerCount: squeezeResult.callerCount, heroAction: squeezeResult.heroAction, recommendedSizing: squeezeResult.recommendedSizing }
       : null,
     netProfit: (hero.chipsAfter || 0) - hero.chipsBefore,
+    wentAllInPreflop: heroAllInPreflop,
     postflopActions,
   };
 }

@@ -9,7 +9,7 @@
 
 import type { HeroDecision } from '../types/analysis';
 import type { StrategyProfile } from '../data/strategyProfiles';
-import { getThresholds } from '../data/strategyProfiles';
+import { getThresholds, advancedThreeBetSize } from '../data/strategyProfiles';
 
 export type LeakSeverity = 'low' | 'medium' | 'high' | 'critical';
 
@@ -37,6 +37,8 @@ export interface AggregateStats {
   sawFlopHands: number;    // Hands where hero saw the flop
   threeBetOpps: number;    // Opportunities to 3-bet
   threeBetMade: number;    // Actually 3-bet
+  threeBetShoveOpps: number;   // Short-stack (<17bb) 3-bet spots where the rule says shove all-in
+  threeBetShoveMissed: number; // ...of those, hero raised but did NOT go all-in
   cbetOpps: number;        // C-bet opportunities (PFR + saw flop)
   cbetMade: number;        // C-bets made
   cbetHUOpps: number;      // C-bet opportunities HU
@@ -65,6 +67,8 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
     sawFlopHands: 0,
     threeBetOpps: 0,
     threeBetMade: 0,
+    threeBetShoveOpps: 0,
+    threeBetShoveMissed: 0,
     cbetOpps: 0,
     cbetMade: 0,
     cbetHUOpps: 0,
@@ -108,6 +112,17 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
       stats.threeBetOpps++;
       if (d.action === 'raise') {
         stats.threeBetMade++;
+
+        // Short-stack 3-bet sizing: at <17bb the rule (advancedThreeBetSize)
+        // says 3-bets should be all-in (shove-or-fold). Only an SB 3-bettor is
+        // OOP here; non-blind heroes act after the opener postflop, so are IP.
+        const isInPosition = d.position !== 'SB' && d.position !== 'BB' && d.position !== 'BTN/SB';
+        if (advancedThreeBetSize(d.stackBb, isInPosition) === 'all-in') {
+          stats.threeBetShoveOpps++;
+          if (!d.wentAllInPreflop) {
+            stats.threeBetShoveMissed++;
+          }
+        }
       }
     }
 
@@ -398,6 +413,22 @@ export function detectLeaks(
       target: [0, thresholds.limpPct.max],
       deviation: Math.round(limpPct * 10) / 10,
       sampleSize: stats.totalHands,
+    });
+  }
+
+  // Short-stack 3-bet sizing (Advanced profile, zero tolerance, min 5 opportunities).
+  // At <17bb the rule is shove-or-fold, so a non-all-in 3-bet is a sizing error.
+  if (profile === 'advanced' && stats.threeBetShoveOpps >= 5 && stats.threeBetShoveMissed > 0) {
+    const nonShovePct = pct(stats.threeBetShoveMissed, stats.threeBetShoveOpps);
+    leaks.push({
+      id: 'three_bet_shove',
+      name: '3-Bet Shove Sizing',
+      description: 'Min-3-betting at short stacks — at ≤17bb a 3-bet should be all-in (shove or fold), not a small raise.',
+      severity: nonShovePct > 50 ? 'high' : nonShovePct > 25 ? 'medium' : 'low',
+      value: Math.round(nonShovePct * 10) / 10,
+      target: [0, 0],
+      deviation: Math.round(nonShovePct * 10) / 10,
+      sampleSize: stats.threeBetShoveOpps,
     });
   }
 

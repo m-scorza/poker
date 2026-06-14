@@ -108,6 +108,52 @@ describe('analyzePostflop', () => {
     expect(spots.some((s) => s.spot === 'MISSED_CBET')).toBe(false);
   });
 
+  describe('profile-aware missed c-bet', () => {
+    // HU, hero IP (acts after villain check) as PFR, checks back the flop.
+    const missedCbet = [
+      makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 2 }),
+    ];
+    const hasMissedCbet = (flop: string[], profile?: 'game_plan' | 'advanced') =>
+      analyzePostflop(missedCbet, 'hero', true, flop, 2, 100, profile)
+        .some((s) => s.spot === 'MISSED_CBET');
+
+    // Textures where the c-bet is unconditional, so checking is a leak in both profiles.
+    const cbetTextures: string[][] = [
+      ['Ah', '7d', '2c'], // high_dry
+      ['Kh', 'Qh', '9d'], // wet_broadway
+    ];
+    // Textures that favor BB's range, so Advanced checks back (not a leak).
+    const checkBackTextures: string[][] = [
+      ['7h', '6d', '5c'], // low_connected
+      ['9h', '6d', '6c'], // paired_low
+      ['8c', '6c', '3c'], // monotone_low
+      ['9h', '5d', '2c'], // neutral
+    ];
+
+    it('Game Plan flags a checked flop on every texture (c-bet 100%)', () => {
+      for (const flop of [...cbetTextures, ...checkBackTextures]) {
+        expect(hasMissedCbet(flop, 'game_plan')).toBe(true);
+      }
+    });
+
+    it('defaults to Game Plan when no profile is supplied', () => {
+      expect(hasMissedCbet(['7h', '6d', '5c'])).toBe(true);
+    });
+
+    it('Advanced flags a missed c-bet on c-bet textures (high_dry, wet_broadway)', () => {
+      for (const flop of cbetTextures) {
+        expect(hasMissedCbet(flop, 'advanced')).toBe(true);
+      }
+    });
+
+    it('Advanced does not flag a check on BB-favoring textures', () => {
+      for (const flop of checkBackTextures) {
+        expect(hasMissedCbet(flop, 'advanced')).toBe(false);
+      }
+    });
+  });
+
   it('detects c-bet HU', () => {
     const actions = [
       makeAction({ playerName: 'hero', actionType: 'bet', amount: 33, street: 'flop', sequence: 1 }),

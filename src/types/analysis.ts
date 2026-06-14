@@ -59,5 +59,7 @@ export interface HeroDecision {
   squeezeSpot?: { callerCount: number; heroAction: string; recommendedSizing: number } | null;
   netProfit: number;
   openerPosition?: Position | null;
+  /** True if hero's voluntary preflop action was all-in (used for short-stack 3-bet shove analysis). */
+  wentAllInPreflop?: boolean;
   postflopActions?: PostflopAction[];
 }
