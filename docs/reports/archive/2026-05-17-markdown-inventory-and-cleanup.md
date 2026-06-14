@@ -1,3 +1,7 @@
+---
+status: resolved
+date: 2026-05-17
+---
 # Markdown Inventory and Cleanup Report — 2026-05-17
 
 ## Why this exists

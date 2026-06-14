@@ -14,7 +14,7 @@ Task assignments and execution states are tracked inside the local, Gitignored f
 
 The spool can lag behind merged PRs. Before claiming a `needs_human` task from
 that file, check `docs/product/STATUS.md`, `docs/product/PARSER_HEALTH.md`, and
-`docs/reports/2026-06-05-stale-findings-reconciliation.md` to confirm the task
+`docs/reports/archive/2026-06-05-stale-findings-reconciliation.md` to confirm the task
 is not already closed or superseded on current `main`.
 
 For the current sprint, task execution is scheduler-controlled:

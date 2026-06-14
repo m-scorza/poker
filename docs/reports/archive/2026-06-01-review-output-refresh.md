@@ -1,3 +1,8 @@
+---
+status: superseded
+date: 2026-06-01
+superseded_by: 2026-06-05-stale-findings-reconciliation.md
+---
 # Review Output Refresh - 2026-06-01
 
 > **2026-06-05 reconciliation note:** This report is a historical refresh of the

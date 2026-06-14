@@ -1,5 +1,7 @@
 ---
 status: resolved
+date: 2026-06-10
+related: ['#56', '#74']
 ---
 # Codebase Health Review - 2026-06-10
 

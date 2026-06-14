@@ -1,3 +1,8 @@
+---
+status: resolved
+date: 2026-06-05
+related: ['docs/product/STATUS.md Open follow-ups']
+---
 # Stale Findings Reconciliation - 2026-06-05
 
 ## Purpose

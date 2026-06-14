@@ -1,3 +1,8 @@
+---
+status: superseded
+date: 2026-06-02
+superseded_by: 2026-06-12-principal-engineer-audit.md
+---
 # Product Readiness Refresh - 2026-06-02
 
 > **2026-06-05 reconciliation note:** This report is a point-in-time readiness
