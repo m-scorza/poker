@@ -15,6 +15,11 @@ import {
   HAND_WON_WITHOUT_SHOWING,
   HAND_3WAY_FLOP_WITH_ALLIN,
 } from '../../test/fixtures/sample-hands';
+import {
+  makeAction as baseAction,
+  makeHand as baseHand,
+  makePlayer as basePlayer,
+} from '../../test/factories';
 
 function parseFirst(text: string) {
   const results = parsePokerStarsFile(text);
@@ -22,55 +27,39 @@ function parseFirst(text: string) {
 }
 
 function makeHand(overrides: Partial<Hand> = {}): Hand {
-  return {
+  return baseHand({
     id: 'advanced-spot-1',
-    tournamentId: 'T1',
     date: new Date('2026-05-31T12:00:00Z'),
     level: 16,
     smallBlind: 200,
     bigBlind: 400,
     ante: 50,
-    maxSeats: 9,
     activePlayers: 4,
-    buttonSeat: 1,
-    boardFlop: null,
-    boardTurn: null,
-    boardRiver: null,
     totalPot: 1200,
-    rake: 0,
-    hasShowdown: false,
     heroChipsBefore: 4800,
     heroChipsAfter: 4800,
-    villainDeltas: [],
     ...overrides,
-  };
+  });
 }
 
-function makePlayer(overrides: Partial<PlayerInHand>): PlayerInHand {
-  return {
+function makePlayer(overrides: Partial<PlayerInHand> = {}): PlayerInHand {
+  return basePlayer({
     handId: 'advanced-spot-1',
-    seatNumber: 1,
     playerName: 'Hero',
     chipsBefore: 4800,
     chipsAfter: 4800,
-    position: 'CO',
-    isHero: true,
     holeCards: ['Ah', 'Kh'],
     ...overrides,
-  };
+  });
 }
 
-function makeAction(overrides: Partial<Action>): Action {
-  return {
+function makeAction(overrides: Partial<Action> = {}): Action {
+  return baseAction({
     handId: 'advanced-spot-1',
-    street: 'preflop',
     playerName: 'Hero',
-    actionType: 'fold',
-    amount: null,
-    isAllIn: false,
     sequence: 1,
     ...overrides,
-  };
+  });
 }
 
 function makeParsedHand(
