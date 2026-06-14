@@ -1,3 +1,6 @@
+---
+status: resolved
+---
 # Codebase Health Review - 2026-06-10
 
 Scheduled health review of `main` (HEAD `c9106b8`, after PRs #52-#55), performed

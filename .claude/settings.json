@@ -16,5 +16,18 @@
       "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker",
       "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.claude"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx tsx \"${CLAUDE_PROJECT_DIR}/scripts/surface-open-reports.ts\""
+          }
+        ]
+      }
+    ]
   }
 }

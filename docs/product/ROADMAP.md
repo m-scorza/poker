@@ -161,8 +161,10 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       loose docs moved to `docs/`, empty `tests/` dir removed
 - [x] Commit or gitignore the 100+ untracked summary fixtures in
       `src/test/fixtures/summaries/` (Committed)
-- [ ] Fixture variant tests — assert parser behaviour on Cap / Zoom /
-      6+ / play-money fixtures (currently silent)
+- [x] Fixture variant tests (2026-06-14) — Cap / Zoom / 6+ / play-money each
+      have dedicated assertions in `fixtureSweep.test.ts` ›
+      `specialized variant fixture checks`. (ggpoker `.zip` sweep is still a
+      separate `describe.todo` in the same file.)
 
 ### P4 — New feature: Career / SharkScope-style tab
 - [x] `CareerPage` + `/career` route (2026-04-19) — basic tournament
@@ -188,7 +190,7 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] TanStack Table + TanStack Virtual on HandsPage list
 - [x] vite-plugin-pwa configured with public icon assets
 - [ ] `framer-motion@12` → `motion@11`
-- [ ] Vite 6→8 (pulls `@vitejs/plugin-react` 4→6 + Vitest 3→4; clears dev-only esbuild advisory GHSA-gv7w). React 19→19.1+, TS 5.7→5.8/5.9
+- [x] Vite 6→8 — landed in PR #73 (2026-06-14); `package.json` pins `vite ^8` / `vitest ^4` / `@vitejs/plugin-react ^6`. (pulls `@vitejs/plugin-react` 4→6 + Vitest 3→4; clears dev-only esbuild advisory GHSA-gv7w). React 19→19.1+, TS 5.7→5.8/5.9
   - Note (2026-06-14): must be **8**, not 7 — Vite 7 still ships esbuild `0.25`, so it would not clear the advisory; an `esbuild` override breaks `vite build`. Deliberate modernization, not a drive-by.
 
 ---

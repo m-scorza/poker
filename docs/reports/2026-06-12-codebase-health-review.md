@@ -1,3 +1,6 @@
+---
+status: open
+---
 # Codebase Health Review — 2026-06-12
 
 Scheduled Graphify-assisted health review of `main` (HEAD `36ffabd`, after
@@ -5,6 +8,19 @@ PRs #56–#57), performed in a remote session on branch
 `claude/relaxed-mccarthy-jd66k5`. Graphify (`graphify-out/`, committed in
 PR #57) was used as a navigation map; every finding below was verified by
 direct inspection or by running the verification gate.
+
+## Open items
+
+As of 2026-06-14, four of the five "Recommended next actions" below are closed:
+graphify-out policy (#1) by PR #65; the importRuns↔store cycle (#3), the
+HandsUpload component test (#4), and the shared test factory (#5) by PR #70.
+**One remains:**
+
+- **Fold the `STATUS.md` verification stamp into the autogen block** so
+  `docs:check` enforces it and it stops drifting (finding #3 below — recurring,
+  escalated). Files: `scripts/regen-status.ts`, `docs/product/STATUS.md`.
+
+Flip this report's frontmatter to `status: resolved` once that lands.
 
 ## Codebase Health Summary
 
