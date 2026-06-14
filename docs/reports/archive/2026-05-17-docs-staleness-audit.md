@@ -1,3 +1,7 @@
+---
+status: resolved
+date: 2026-05-17
+---
 # Documentation Staleness and Alignment Audit — 2026-05-17
 
 This report provides an exhaustive, low-level inventory and staleness scan of all markdown (`.md`) documentation files in the repository. Its primary goal is to establish a clear boundary between active developer contracts, shipped features, and historical plans so that Hermes and other agents can safely proceed with core backend reliability tasks without being misled by stale, outdated, or conflicting claims.

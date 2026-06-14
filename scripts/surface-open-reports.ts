@@ -1,20 +1,21 @@
 #!/usr/bin/env tsx
 /**
- * Surface OPEN health/janitor reports into agent context.
+ * Surface ACTIVE health/janitor reports into agent context.
  *
  * Wired as a SessionStart hook in .claude/settings.json: its stdout is injected
- * into the conversation on exit 0, so every agent session sees the open reports
- * before doing work. A report is "open" until someone flips its frontmatter
- * `status:` to `resolved`.
+ * into the conversation on exit 0, so every agent session sees the active reports
+ * before doing work.
  *
  * Convention (see docs/reports/README.md):
- *   - Each docs/reports/*.md MAY start with YAML frontmatter `status: open | resolved`.
- *   - Only `status: open` reports are surfaced. Missing/`resolved` => silent.
- *   - Surfaced content is, in priority order, the report's `## Open items`
- *     section, else `## Recommended next actions`, else the first lines of body.
+ *   - Reports live in docs/reports/ (active) and docs/reports/archive/ (done).
+ *     This scans only the active top level, so archived reports never surface.
+ *   - A report is surfaced only when its frontmatter `status:` is `open` or
+ *     `in_progress` AND it has a `## Open items` (or `## Recommended next actions`)
+ *     section. Reports without such a section (e.g. a reference appendix) stay
+ *     silent; the README index still lists every report.
  *
  * Exits 0 always (a reporting hook must never block a session). Prints nothing
- * when no report is open.
+ * when nothing active needs attention.
  *
  * Usage:
  *   tsx scripts/surface-open-reports.ts
@@ -30,7 +31,6 @@ const REPORTS_DIR = join(REPO_ROOT, 'docs', 'reports');
 
 const MAX_TOTAL_LINES = 70; // hard cap on injected context
 const MAX_SECTION_LINES = 30; // per-report cap before truncation
-const FALLBACK_BODY_LINES = 25;
 
 interface OpenReport {
   file: string;
@@ -88,7 +88,7 @@ function leadingDate(file: string): string {
   return m ? m[1]! : '0000-00-00'; // undated reports sort last
 }
 
-function collectOpenReports(): OpenReport[] {
+function collectActiveReports(): OpenReport[] {
   let files: string[];
   try {
     files = readdirSync(REPORTS_DIR).filter((f) => f.endsWith('.md') && f !== 'README.md');
@@ -96,29 +96,29 @@ function collectOpenReports(): OpenReport[] {
     return [];
   }
 
-  const open: OpenReport[] = [];
+  const active: OpenReport[] = [];
   for (const file of files) {
     const raw = readFileSync(join(REPORTS_DIR, file), 'utf-8');
-    if (readStatus(raw) !== 'open') continue;
+    const status = readStatus(raw);
+    if (status !== 'open' && status !== 'in_progress') continue;
 
     const body = stripFrontmatter(raw);
     const section =
-      extractSection(body, 'Open items') ??
-      extractSection(body, 'Recommended next actions') ??
-      body.split('\n').slice(0, FALLBACK_BODY_LINES).join('\n').trim();
+      extractSection(body, 'Open items') ?? extractSection(body, 'Recommended next actions');
+    if (!section) continue; // no actionable section → not surfaced (index still lists it)
 
-    open.push({ file, dateKey: leadingDate(file), section: clamp(section, MAX_SECTION_LINES) });
+    active.push({ file, dateKey: leadingDate(file), section: clamp(section, MAX_SECTION_LINES) });
   }
 
-  open.sort((a, b) => b.dateKey.localeCompare(a.dateKey)); // newest first
-  return open;
+  active.sort((a, b) => b.dateKey.localeCompare(a.dateKey)); // newest first
+  return active;
 }
 
 function render(open: OpenReport[]): string {
   const out: string[] = [];
-  out.push('⚠️ OPEN health reports — review before planning or starting work.');
-  out.push('These stay surfaced until their items are done and someone sets');
-  out.push('`status: resolved` in the report frontmatter (see docs/reports/README.md).');
+  out.push('⚠️ ACTIVE health reports — review before planning or starting work.');
+  out.push('These stay surfaced until their items are done and the report is set to');
+  out.push('`status: resolved` / `superseded` (see docs/reports/README.md).');
   out.push('');
   for (const r of open) {
     out.push(`### docs/reports/${r.file}`);
@@ -128,8 +128,8 @@ function render(open: OpenReport[]): string {
   return clamp(out.join('\n').trimEnd(), MAX_TOTAL_LINES);
 }
 
-const open = collectOpenReports();
-if (open.length > 0) {
-  process.stdout.write(render(open) + '\n');
+const active = collectActiveReports();
+if (active.length > 0) {
+  process.stdout.write(render(active) + '\n');
 }
 process.exit(0);

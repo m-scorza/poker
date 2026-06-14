@@ -15,8 +15,8 @@
     "typecheck": "tsc -b --noEmit",
     "typecheck:test": "tsc -p tsconfig.test.json --noEmit",
     "privacy:check": "tsx scripts/privacy-boundary-check.ts",
-    "docs:update": "tsx scripts/regen-status.ts",
-    "docs:check": "tsx scripts/regen-status.ts --check",
+    "docs:update": "tsx scripts/regen-status.ts && tsx scripts/regen-reports-index.ts",
+    "docs:check": "tsx scripts/regen-status.ts --check && tsx scripts/regen-reports-index.ts --check",
     "prepare": "node scripts/install-hooks.js"
   },
   "dependencies": {

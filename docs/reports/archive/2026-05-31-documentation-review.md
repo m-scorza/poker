@@ -1,3 +1,7 @@
+---
+status: resolved
+date: 2026-05-31
+---
 # Documentation Review - 2026-05-31
 
 ## Scope

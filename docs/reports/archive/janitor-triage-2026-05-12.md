@@ -1,3 +1,7 @@
+---
+status: resolved
+date: 2026-05-12
+---
 # Janitor Triage — 2026-05-12
 
 **Author:** Claude Code (third agent, validation-track / janitor role)

@@ -1,3 +1,8 @@
+---
+status: open
+date: 2026-06-12
+related: ['2026-06-12-principal-engineer-audit.md', '#76']
+---
 # Appendix — Subagent Prompts and Full Outputs (2026-06-12 Principal Audit)
 
 Companion to `2026-06-12-principal-engineer-audit.md`. Three read-only

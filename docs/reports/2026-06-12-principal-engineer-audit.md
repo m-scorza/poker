@@ -1,5 +1,7 @@
 ---
 status: open
+date: 2026-06-12
+related: ['#76']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 

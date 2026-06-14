@@ -1,3 +1,7 @@
+---
+status: resolved
+date: 2026-05-17
+---
 # Code Hygiene Audit Report — Phase 1 (Inventory)
 
 **Date:** 2026-05-17  

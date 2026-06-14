@@ -1,5 +1,7 @@
 ---
 status: open
+date: 2026-06-12
+related: ['#76']
 ---
 # Product Concept Review — Vision, Conceptual Critique, New Ideas
 
