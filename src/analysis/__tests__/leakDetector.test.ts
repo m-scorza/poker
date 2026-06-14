@@ -39,6 +39,8 @@ function makeStats(overrides: Partial<AggregateStats>): AggregateStats {
     sawFlopHands: 20,
     threeBetOpps: 15,
     threeBetMade: 2,
+    threeBetShoveOpps: 0,
+    threeBetShoveMissed: 0,
     cbetOpps: 10,
     cbetMade: 7,
     cbetHUOpps: 6,
@@ -101,6 +103,22 @@ describe('computeAggregateStats', () => {
     expect(stats.cbetMade).toBe(1);
     expect(stats.cbetHUOpps).toBe(2);
     expect(stats.cbetHUMade).toBe(1);
+  });
+
+  it('counts short-stack 3-bet shove opportunities and misses', () => {
+    const decisions = [
+      // <17bb FACING_RAISE 3-bet, not all-in → a missed shove
+      makeDecision({ scenario: 'FACING_RAISE', action: 'raise', stackBb: 12, wentAllInPreflop: false }),
+      // <17bb FACING_RAISE 3-bet, all-in → correct (opp, not missed)
+      makeDecision({ scenario: 'FACING_RAISE', action: 'raise', stackBb: 12, wentAllInPreflop: true }),
+      // 30bb FACING_RAISE 3-bet → not a shove spot
+      makeDecision({ scenario: 'FACING_RAISE', action: 'raise', stackBb: 30, wentAllInPreflop: false }),
+      // <17bb but folded → not a 3-bet, not counted
+      makeDecision({ scenario: 'FACING_RAISE', action: 'fold', stackBb: 12 }),
+    ];
+    const stats = computeAggregateStats(decisions);
+    expect(stats.threeBetShoveOpps).toBe(2);
+    expect(stats.threeBetShoveMissed).toBe(1);
   });
 });
 
@@ -231,5 +249,26 @@ describe('detectLeaks — Advanced profile', () => {
     const leaks = detectLeaks(stats, 'advanced');
     const tbLeak = leaks.find((l) => l.id === 'three_bet');
     expect(tbLeak).toBeDefined();
+  });
+
+  it('detects short-stack min-3-bets as a shove-sizing leak', () => {
+    const stats = makeStats({ threeBetShoveOpps: 6, threeBetShoveMissed: 4 });
+    const leaks = detectLeaks(stats, 'advanced');
+    const shoveLeak = leaks.find((l) => l.id === 'three_bet_shove');
+    expect(shoveLeak).toBeDefined();
+    expect(shoveLeak!.value).toBeCloseTo((4 / 6) * 100, 1);
+    expect(shoveLeak!.severity).toBe('high'); // 66% non-shove
+  });
+
+  it('does not flag short-stack 3-bet shoves in Game Plan profile', () => {
+    const stats = makeStats({ threeBetShoveOpps: 6, threeBetShoveMissed: 4 });
+    const leaks = detectLeaks(stats, 'game_plan');
+    expect(leaks.find((l) => l.id === 'three_bet_shove')).toBeUndefined();
+  });
+
+  it('does not flag short-stack shoves below the sample gate', () => {
+    const stats = makeStats({ threeBetShoveOpps: 3, threeBetShoveMissed: 3 });
+    const leaks = detectLeaks(stats, 'advanced');
+    expect(leaks.find((l) => l.id === 'three_bet_shove')).toBeUndefined();
   });
 });

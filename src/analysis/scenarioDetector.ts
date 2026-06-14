@@ -336,6 +336,7 @@ export function buildHeroDecision(
       ? { callerCount: squeezeResult.callerCount, heroAction: squeezeResult.heroAction, recommendedSizing: squeezeResult.recommendedSizing }
       : null,
     netProfit: (hero.chipsAfter || 0) - hero.chipsBefore,
+    wentAllInPreflop: heroAllInPreflop,
     postflopActions,
   };
 }
