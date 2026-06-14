@@ -5,6 +5,10 @@
 All agent coordination, task execution, and handoff formatting must strictly follow:
 *   [TASK_PROTOCOL.md](./docs/agents/TASK_PROTOCOL.md) (Task claiming and workspace checks).
 *   [HANDOFF_PROTOCOL.md](./docs/agents/HANDOFF_PROTOCOL.md) (Handoff templates and manual checks).
+*   [docs/reports/README.md](./docs/reports/README.md) — open health reports are
+    surfaced each session by the SessionStart hook in `.claude/settings.json`.
+    Close their `## Open items` and flip `status: resolved` rather than letting
+    recommendations pile up.
 
 ## ⚠️ Before trusting this doc
 
