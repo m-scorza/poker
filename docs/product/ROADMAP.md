@@ -188,7 +188,8 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
 - [x] TanStack Table + TanStack Virtual on HandsPage list
 - [x] vite-plugin-pwa configured with public icon assets
 - [ ] `framer-motion@12` → `motion@11`
-- [ ] Vite 6→7, Vitest 3→4, React 19→19.1+, TS 5.7→5.8/5.9
+- [ ] Vite 6→8 (pulls `@vitejs/plugin-react` 4→6 + Vitest 3→4; clears dev-only esbuild advisory GHSA-gv7w). React 19→19.1+, TS 5.7→5.8/5.9
+  - Note (2026-06-14): must be **8**, not 7 — Vite 7 still ships esbuild `0.25`, so it would not clear the advisory; an `esbuild` override breaks `vite build`. Deliberate modernization, not a drive-by.
 
 ---
 
