@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 ---
 # Codebase Health Review — 2026-06-12
 
@@ -11,16 +11,12 @@ direct inspection or by running the verification gate.
 
 ## Open items
 
-As of 2026-06-14, four of the five "Recommended next actions" below are closed:
+**Resolved 2026-06-14.** All five "Recommended next actions" below are closed:
 graphify-out policy (#1) by PR #65; the importRuns↔store cycle (#3), the
-HandsUpload component test (#4), and the shared test factory (#5) by PR #70.
-**One remains:**
-
-- **Fold the `STATUS.md` verification stamp into the autogen block** so
-  `docs:check` enforces it and it stops drifting (finding #3 below — recurring,
-  escalated). Files: `scripts/regen-status.ts`, `docs/product/STATUS.md`.
-
-Flip this report's frontmatter to `status: resolved` once that lands.
+HandsUpload component test (#4), and the shared test factory (#5) by PR #70; and
+the recurring `STATUS.md` verification-stamp drift (finding #3) by PR #74, which
+folded the stamp into an enforced `AUTOGEN:verified` block in
+`scripts/regen-status.ts`.
 
 ## Codebase Health Summary
 
