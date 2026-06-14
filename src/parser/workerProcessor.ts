@@ -103,7 +103,7 @@ export async function processWorkerFiles(
         }
 
         const handsToImport = parsedHands.map(parsed => {
-          const heroDecision = buildHeroDecision(parsed, heroName);
+          const heroDecision = buildHeroDecision(parsed, heroName, profile);
           let compliantDecision: HeroDecision | undefined = undefined;
           if (heroDecision) {
             [compliantDecision] = batchCheckCompliance([heroDecision], profile, icmStage);

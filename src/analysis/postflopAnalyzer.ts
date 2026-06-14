@@ -10,7 +10,7 @@
  */
 
 import type { Action } from '../types/hand';
-import type { BoardTexture } from '../data/strategyProfiles';
+import { getCbetRule, type BoardTexture, type StrategyProfile } from '../data/strategyProfiles';
 import { getRecommendedCbetSizing, calculateMDF, calculatePotOdds } from './math';
 
 // --- Card helpers ---
@@ -193,6 +193,7 @@ export function analyzePostflop(
   flopCards: string[] | null,
   flopPlayerCount: number,
   totalPot: number,
+  profile: StrategyProfile = 'game_plan',
 ): PostflopAction[] {
   const spots: PostflopAction[] = [];
   if (!flopCards) return spots;
@@ -259,14 +260,30 @@ export function analyzePostflop(
         }
       }
     } else if (isHU && heroInPositionOnFlop) {
-      // Missed c-bet in HU as IP PFR is a Game Plan leak. OOP checks are context-dependent.
-      spots.push({
-        spot: 'MISSED_CBET',
-        street: 'flop',
-        sizing: null,
-        isCorrect: false,
-        note: `Missed c-bet heads-up as preflop raiser on ${boardAnalysis.texture} board`,
+      // Missed c-bet in HU as IP PFR. Whether checking is actually a leak depends
+      // on the profile: Game Plan c-bets 100% (always a leak), while Advanced
+      // checks back on BB-favoring textures. We can't model range/nuts advantage,
+      // so feed the rule conservative advantages (bbHasNutsAdvantage: true,
+      // hasRangeAdvantage: false) — Advanced then only flags textures where the
+      // c-bet is unconditional (high_dry, wet_broadway), never paired_low/
+      // monotone/low_connected/neutral. Source: 04-postflop-strategy.md §2.
+      const shouldHaveCbet = getCbetRule(profile).shouldCbet({
+        boardTexture: boardAnalysis.texture,
+        isInPosition: true,
+        isHU: true,
+        heroIsPFR: true,
+        bbHasNutsAdvantage: true,
+        hasRangeAdvantage: false,
       });
+      if (shouldHaveCbet) {
+        spots.push({
+          spot: 'MISSED_CBET',
+          street: 'flop',
+          sizing: null,
+          isCorrect: false,
+          note: `Missed c-bet heads-up as preflop raiser on ${boardAnalysis.texture} board`,
+        });
+      }
     }
   } else {
     // Hero was NOT PFR — check for exploitative spots
