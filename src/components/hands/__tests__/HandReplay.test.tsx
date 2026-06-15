@@ -227,6 +227,20 @@ describe('HandReplay', () => {
     expect(onClose).toHaveBeenCalledTimes(1);
   });
 
+  it('closes from the backdrop without closing on dialog clicks', async () => {
+    const onClose = vi.fn();
+    const { container } = render(<HandReplay hand={hand} heroDecision={heroDecision} onClose={onClose} />);
+
+    const dialog = await within(container).findByRole('dialog', { name: /Hand #12345678/i });
+    fireEvent.click(dialog);
+
+    expect(onClose).not.toHaveBeenCalled();
+
+    fireEvent.click(within(container).getByRole('button', { name: /Close replay from backdrop/i }));
+
+    expect(onClose).toHaveBeenCalledTimes(1);
+  });
+
   it('renders preflop actions and can switch to flop actions', async () => {
     const { container } = render(<HandReplay hand={hand} heroDecision={heroDecision} onClose={vi.fn()} />);
 

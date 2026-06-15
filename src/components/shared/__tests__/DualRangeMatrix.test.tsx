@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { fireEvent, render, screen } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import type { RangeCellData } from '../DualRangeMatrix';
 import { DualRangeMatrix } from '../DualRangeMatrix';
 import '@testing-library/jest-dom';
@@ -95,6 +95,22 @@ describe('DualRangeMatrix', () => {
     expect(screen.getByText('5')).toBeInTheDocument();
     expect(screen.getByText('100%')).toBeInTheDocument();
     expect(screen.getByText('Elite Execution')).toBeInTheDocument();
+  });
+
+  it('clears hover-driven details when leaving a mirror cell', async () => {
+    renderMatrix();
+
+    const button = screen.getAllByRole('button').find((cell) => cell.textContent === 'AA');
+    expect(button).toBeDefined();
+    fireEvent.mouseEnter(button!);
+
+    expect(screen.getByText('UTG - Pre-flop')).toBeInTheDocument();
+
+    fireEvent.mouseLeave(button!);
+
+    await waitFor(() => {
+      expect(screen.getByText('Select a Hand')).toBeInTheDocument();
+    });
   });
 
   it('surfaces deviations and opens the related hand when clicked', () => {

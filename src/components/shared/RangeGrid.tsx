@@ -41,7 +41,6 @@ export function RangeGrid({ getCellStatus, onCellClick, onCellHover }: RangeGrid
     <div 
       className="inline-grid gap-[2px]" 
       style={{ gridTemplateColumns: `repeat(13, 1fr)` }}
-      onMouseLeave={() => onCellHover?.(null)}
     >
       {RANKS.map((_, row) =>
         RANKS.map((_, col) => {
@@ -53,6 +52,7 @@ export function RangeGrid({ getCellStatus, onCellClick, onCellHover }: RangeGrid
               key={handKey}
               onClick={() => onCellClick?.(handKey)}
               onMouseEnter={() => onCellHover?.(handKey)}
+              onMouseLeave={() => onCellHover?.(null)}
               className={clsx(
                 'w-10 h-8 text-[10px] font-data font-medium border rounded-sm',
                 'transition-colors hover:brightness-125 cursor-pointer',

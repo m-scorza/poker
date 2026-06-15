@@ -10,11 +10,20 @@ export function BankrollChart({ trendData }: { trendData: SessionTrendPoint[] })
   const containerRef = useRef<HTMLElement>(null);
   const [tab, setTab] = useState<'lifetime'|'30d'|'7d'>('lifetime');
 
+  const visibleTrendData = useMemo(() => {
+    if (tab === 'lifetime' || trendData.length === 0) return trendData;
+
+    const latestTime = Math.max(...trendData.map((point) => point.date.getTime()));
+    const days = tab === '30d' ? 30 : 7;
+    const cutoff = latestTime - days * 24 * 60 * 60 * 1000;
+    return trendData.filter((point) => point.date.getTime() >= cutoff);
+  }, [trendData, tab]);
+
   const { pathData, areaData, evData, lastPoint } = useMemo(() => {
-    if (!trendData || trendData.length === 0) return { pathData: '', areaData: '', evData: '', lastPoint: [0,0] };
+    if (visibleTrendData.length === 0) return { pathData: '', areaData: '', evData: '', lastPoint: [0,0] };
     
     const W = 1140, H = 150, padX = 0, padY = 20;
-    const data = trendData;
+    const data = visibleTrendData;
     const xs = (i: number) => padX + (i / Math.max(1, data.length - 1)) * (W - padX * 2);
     
     const maxVal = Math.max(...data.map(d => d.cumulativePnl));
@@ -31,7 +40,7 @@ export function BankrollChart({ trendData }: { trendData: SessionTrendPoint[] })
     const area = line + ` L ${W},${H+30} L 0,${H+30} Z`;
     
     return { pathData: line, areaData: area, evData: evLine, lastPoint: pts[pts.length - 1] || [0,0] };
-  }, [trendData, tab]);
+  }, [visibleTrendData]);
 
   useGSAP(() => {
     const tl = gsap.timeline({ defaults: { ease: 'power3.inOut' } });
