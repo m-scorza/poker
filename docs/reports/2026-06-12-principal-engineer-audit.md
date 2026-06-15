@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76']
+related: ['#76', '#83']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -659,6 +659,11 @@ class) forever.
 readiness checklist.
 **E4 — Arena fixes.** *(1d)* — C-bet Clinic filters for actual c-bet spots;
 `alert()` → ConfirmDialog; dead ternary; memoize `nextHand` pool.
+
+Status update 2026-06-15: addressed in draft PR #83. C-bet Clinic now filters
+to `cbetOpportunity` hands, uses flop-stage `Check` / `C-bet` controls, opens
+the shared `ConfirmDialog` for empty pools, reuses a memoized drill pool, and
+removes the duplicate display-card branch.
 
 ---
 
