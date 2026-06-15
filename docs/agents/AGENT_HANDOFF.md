@@ -11,15 +11,11 @@ Older or compacted handoff records are archived in:
 
 - Owner / agent:          Codex
 - Branch:                 codex/a11y-shared-interactions
-- Scope:                  Non-parser, non-import-success UI hygiene outside Claude's `fix/parser-chip-accounting` lane.
-- Files touched:          `src/components/shared/RangeGrid.tsx`, `src/components/shared/DualRangeMatrix.tsx`, `src/components/hands/HandReplay.tsx`, `src/components/dashboard/BankrollChart.tsx`, `src/components/dashboard/MonumentCurve.tsx`, `src/components/dashboard/RingHud.tsx`, their focused tests, and regenerated `docs/product/STATUS.md` test-count blocks.
-- Summary:
-  - Removed stale lint warnings outside `HandsUpload`: range grids now clear hover state from native buttons, HandReplay uses a real backdrop button instead of clickable containers, RingHud no longer uses `any`, MonumentCurve renders plain verdict text without `dangerouslySetInnerHTML`, and BankrollChart range tabs now filter the chart data instead of changing only visual state.
-  - Added focused tests for RangeGrid hover clearing, DualRangeMatrix hover clearing, and HandReplay backdrop close behavior.
-  - Re-ran `scripts/hygiene-scanner.ts`; the old default-export and same-file-use false positives are already closed by current `main` / PR #71, so no scanner code changes were needed. The generated `scripts/hygiene-report.json` was removed after inspection.
-- Verification:           `npm.cmd run typecheck` passed; `npm.cmd run typecheck:test` passed; focused component tests passed (3 files / 16 tests); full `npm.cmd test` passed (64 files / 709 tests); `npm.cmd run build` passed; `npm.cmd run docs:check` passed after `npm.cmd run docs:update`; `npm.cmd run lint -- --no-cache` passed with 0 errors and the 2 remaining `HandsUpload.tsx` a11y warnings intentionally left to Claude's import-flow lane.
-- Risks / assumptions:    `HandsUpload.tsx` still owns the last lint warnings, but Claude's prompted CQ-3 work likely touches that file; avoid editing it from this branch unless that lane is free. BankrollChart date tabs now filter by the latest visible session date and preserve cumulative PnL scale rather than rebasing to zero.
-- Next action requested:  Review/PR this branch as a small UI hygiene slice. After Claude finishes CQ-3, clear the remaining `HandsUpload` dropzone warnings in that branch or a follow-up import-flow branch.
+- Scope:                  UI hygiene outside parser/import lanes.
+- Files touched:          RangeGrid, DualRangeMatrix, HandReplay, BankrollChart, MonumentCurve, RingHud, focused tests, STATUS.
+- Summary:                Moved range hover clear to native buttons; made HandReplay backdrop a native button; typed RingHud; made BankrollChart tabs filter data; removed MonumentCurve `dangerouslySetInnerHTML`; added focused tests. Hygiene-scanner false positives were already fixed on `main` / PR #71.
+- Verification:           typecheck, typecheck:test, focused tests (3 files / 16 tests), full `npm test` (64 files / 709 tests), build, docs:update/check, lint --no-cache all passed. Two `HandsUpload` warnings remain for the CQ-3 lane.
+- Risks / next:           Review chart range semantics; do not touch `HandsUpload` here while Claude owns import-flow work.
 
 ## 2026-06-14 - Code health: importRuns/store cycle, shared test factories, HandsUpload test
 
