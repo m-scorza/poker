@@ -48,6 +48,7 @@ const RE_CHECKS = /^(.+?): checks/;
 const RE_CALLS = /^(.+?): calls \$?([\d.]+)/;
 const RE_RAISES = /^(.+?): raises \$?([\d.]+) to \$?([\d.]+)/;
 const RE_BETS = /^(.+?): bets \$?([\d.]+)/;
+const RE_UNCALLED = /^Uncalled bet \(\$?([\d.,]+)\) returned to (.+)$/;
 const RE_ALL_IN = /and is all-in/;
 const RE_BOUNTY_WINS = /^(.+?) wins (?:the )?(?:\$([\d.]+)|[\d.]+|) (?:bounty )?for eliminating/;
 
@@ -211,6 +212,10 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
   const shownCards = new Map<string, [string, string]>();
   // Track total cents put into the pot by each player (using integer cents)
   const totalInvested = new Map<string, number>();
+  // Track each player's chips committed toward the current street's bet level
+  // (blinds + voluntary wagers; antes excluded). A "raises X to Y" line adds
+  // Y − streetInvested[player] chips, not the "raises BY" increment X.
+  const streetInvested = new Map<string, number>();
 
   const addInvestment = (name: string, amountCents: number) => {
     if (isNaN(amountCents)) return;
@@ -226,6 +231,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     // Street markers
     if (line.startsWith('*** FLOP ***')) {
       currentStreet = 'flop';
+      streetInvested.clear();
       const flopMatch = RE_FLOP.exec(line);
       if (flopMatch) {
         boardFlop = flopMatch[1]!.split(' ').map((c) => c.trim());
@@ -234,6 +240,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
     if (line.startsWith('*** TURN ***')) {
       currentStreet = 'turn';
+      streetInvested.clear();
       const turnMatch = RE_TURN.exec(line);
       if (turnMatch) {
         boardTurn = turnMatch[1]!.trim();
@@ -242,6 +249,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
     if (line.startsWith('*** RIVER ***')) {
       currentStreet = 'river';
+      streetInvested.clear();
       const riverMatch = RE_RIVER.exec(line);
       if (riverMatch) {
         boardRiver = riverMatch[1]!.trim();
@@ -288,6 +296,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (sbMatch) {
       const amountCents = Math.round(parseFloat(sbMatch[2]!) * 100);
       addInvestment(sbMatch[1]!, amountCents);
+      streetInvested.set(sbMatch[1]!, (streetInvested.get(sbMatch[1]!) ?? 0) + amountCents);
       actions.push({
         handId,
         street: 'preflop',
@@ -304,6 +313,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (buttonBlindMatch) {
       const amountCents = Math.round(parseFloat(buttonBlindMatch[2]!) * 100);
       addInvestment(buttonBlindMatch[1]!, amountCents);
+      streetInvested.set(buttonBlindMatch[1]!, (streetInvested.get(buttonBlindMatch[1]!) ?? 0) + amountCents);
       actions.push({
         handId,
         street: 'preflop',
@@ -320,6 +330,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (bbMatch) {
       const amountCents = Math.round(parseFloat(bbMatch[2]!) * 100);
       addInvestment(bbMatch[1]!, amountCents);
+      streetInvested.set(bbMatch[1]!, (streetInvested.get(bbMatch[1]!) ?? 0) + amountCents);
       actions.push({
         handId,
         street: 'preflop',
@@ -367,6 +378,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (callMatch) {
       const amountCents = Math.round(parseFloat(callMatch[2]!) * 100);
       addInvestment(callMatch[1]!, amountCents);
+      streetInvested.set(callMatch[1]!, (streetInvested.get(callMatch[1]!) ?? 0) + amountCents);
       actions.push({
         handId,
         street: currentStreet,
@@ -381,9 +393,13 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     const raiseMatch = RE_RAISES.exec(line);
     if (raiseMatch) {
-      const addedCents = Math.round(parseFloat(raiseMatch[2]!) * 100);
       const totalCents = Math.round(parseFloat(raiseMatch[3]!) * 100);
-      addInvestment(raiseMatch[1]!, addedCents);
+      // "raises X to Y": chips actually added are Y minus what this player has
+      // already committed to the current street's bet level — not the "raises
+      // BY" increment X (raiseMatch[2]), which is the raise over the prior bet.
+      const alreadyIn = streetInvested.get(raiseMatch[1]!) ?? 0;
+      addInvestment(raiseMatch[1]!, totalCents - alreadyIn);
+      streetInvested.set(raiseMatch[1]!, totalCents);
       actions.push({
         handId,
         street: currentStreet,
@@ -400,6 +416,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (betMatch) {
       const amountCents = Math.round(parseFloat(betMatch[2]!) * 100);
       addInvestment(betMatch[1]!, amountCents);
+      streetInvested.set(betMatch[1]!, (streetInvested.get(betMatch[1]!) ?? 0) + amountCents);
       actions.push({
         handId,
         street: currentStreet,
@@ -409,6 +426,17 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
         isAllIn,
         sequence: sequence++,
       });
+      continue;
+    }
+
+    // Uncalled bet returned: chips the bettor wagered but no one called are
+    // handed back, so they never entered the pot. Subtract from the bettor's
+    // investment so net P&L and chip conservation hold.
+    const uncalledMatch = RE_UNCALLED.exec(line);
+    if (uncalledMatch) {
+      const amountStr = uncalledMatch[1]!.replace(/,/g, '');
+      const amountCents = Math.round(parseFloat(amountStr) * 100);
+      addInvestment(uncalledMatch[2]!.trim(), -amountCents);
       continue;
     }
 

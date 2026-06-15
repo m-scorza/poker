@@ -18,6 +18,7 @@ const RE_ACTION = /^(.+?): (folds|calls|checks|raises|posts small blind|posts bi
 const RE_BOARD = /Board \[(.+)\]/;
 const RE_WINNER = /Seat (\d+): (.+?) (?:\(.+?\))?\s*(?:showed \[(.+?)\] and won|won) \(([\d,]+)\)/g;
 const RE_TOTAL_POT = /Total pot ([\d,]+) \| Rake ([\d,]+)/;
+const RE_UNCALLED = /^Uncalled bet \(([\d,]+)\) returned to (.+)$/;
 
 /**
  * Parse GGPoker Hand History files. Scaffold: produces a best-effort
@@ -111,6 +112,10 @@ export function parseGGPokerFile(
 
       const totalInvested = new Map<string, number>();
       const collectedAmounts = new Map<string, number>();
+      // Chips each player has committed toward the current street's bet level
+      // (blinds + voluntary wagers; antes excluded). A "raises X to Y" adds
+      // Y − streetInvested[player], not the "raises BY" increment X.
+      const streetInvested = new Map<string, number>();
 
       const addInvestment = (name: string, amount: number) => {
         if (isNaN(amount)) return;
@@ -151,10 +156,17 @@ export function parseGGPokerFile(
           continue;
         }
 
-        if (line.startsWith('*** FLOP ***')) { currentStreet = 'flop'; continue; }
-        if (line.startsWith('*** TURN ***')) { currentStreet = 'turn'; continue; }
-        if (line.startsWith('*** RIVER ***')) { currentStreet = 'river'; continue; }
+        if (line.startsWith('*** FLOP ***')) { currentStreet = 'flop'; streetInvested.clear(); continue; }
+        if (line.startsWith('*** TURN ***')) { currentStreet = 'turn'; streetInvested.clear(); continue; }
+        if (line.startsWith('*** RIVER ***')) { currentStreet = 'river'; streetInvested.clear(); continue; }
         if (line.startsWith('*** SUMMARY ***')) break;
+
+        const uncalledMatch = RE_UNCALLED.exec(line);
+        if (uncalledMatch) {
+          const returned = parseInt(uncalledMatch[1]!.replace(/,/g, ''), 10);
+          addInvestment(uncalledMatch[2]!.trim() === 'Hero' ? heroName : uncalledMatch[2]!.trim(), -returned);
+          continue;
+        }
 
         const actionMatch = RE_ACTION.exec(line);
         if (actionMatch) {
@@ -166,22 +178,42 @@ export function parseGGPokerFile(
           let actionType: Action['actionType'] = 'fold';
           let investment = amount;
           let storedAmount = amount;
-          if (type.includes('posts the ante')) actionType = 'post_ante';
+          // Whether this action commits chips toward the current street's bet
+          // level (so the next raise's "to" amount is measured correctly).
+          // Antes are excluded; folds/checks commit nothing.
+          let commitsToStreet = true;
+          if (type.includes('posts the ante')) { actionType = 'post_ante'; commitsToStreet = false; }
           else if (type.includes('posts small blind')) actionType = 'post_sb';
           else if (type.includes('posts big blind')) actionType = 'post_bb';
-          else if (type === 'folds') { actionType = 'fold'; investment = 0; }
+          else if (type === 'folds') { actionType = 'fold'; investment = 0; commitsToStreet = false; }
           else if (type === 'calls') actionType = 'call';
-          else if (type === 'checks') { actionType = 'check'; investment = 0; }
+          else if (type === 'checks') { actionType = 'check'; investment = 0; commitsToStreet = false; }
           else if (type === 'raises') {
              actionType = 'raise';
-             const added = actionMatch[3] ? parseInt(actionMatch[3].replace(/,/g, ''), 10) : 0;
              const to = actionMatch[4] ? parseInt(actionMatch[4].replace(/,/g, ''), 10) : 0;
-             investment = added || to;
+             // Chips actually added = "to" minus what this player already has in
+             // on this street, not the "raises BY" increment (actionMatch[3]).
+             investment = to - (streetInvested.get(name) ?? 0);
              storedAmount = to || investment;
+             streetInvested.set(name, to);
+             addInvestment(name, investment);
+             actions.push({
+               handId,
+               sequence: actions.length,
+               playerName: name,
+               street: currentStreet,
+               actionType,
+               amount: storedAmount,
+               isAllIn: line.includes('all-in'),
+             });
+             continue;
           }
           else if (type === 'bets') actionType = 'bet';
           else continue;
 
+          if (commitsToStreet) {
+            streetInvested.set(name, (streetInvested.get(name) ?? 0) + investment);
+          }
           addInvestment(name, investment);
 
           actions.push({
