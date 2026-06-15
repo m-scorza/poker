@@ -267,6 +267,27 @@ describe('HandReplay', () => {
     expect(postflopMocks.analyzePostflop).not.toHaveBeenCalled();
   });
 
+  it('does not recompute postflop spots for a legacy hand hero folded preflop (B9)', async () => {
+    const legacyFolded: HeroDecision = { ...heroDecision, sawFlop: false };
+    render(<HandReplay hand={hand} heroDecision={legacyFolded} onClose={vi.fn()} />);
+
+    await waitFor(() => expect(storeMocks.getActionsForHand).toHaveBeenCalled());
+    await act(async () => { await Promise.resolve(); });
+
+    expect(postflopMocks.analyzePostflop).not.toHaveBeenCalled();
+  });
+
+  it('recomputes legacy postflop spots using the pre-flop pot, not the final pot (B9)', async () => {
+    // heroDecision has no stored postflopActions and sawFlop=true → legacy
+    // recompute path. The pot passed must be the pot before the flop
+    // (SB 25 + BB 50 = 75), not hand.totalPot (477).
+    render(<HandReplay hand={hand} heroDecision={heroDecision} onClose={vi.fn()} />);
+
+    await waitFor(() => expect(postflopMocks.analyzePostflop).toHaveBeenCalled());
+    const callArgs = postflopMocks.analyzePostflop.mock.calls[0]!;
+    expect(callArgs[5]).toBe(75);
+  });
+
   it('surfaces bounty and final-table contexts attached to the decision', async () => {
     const decisionWithTournamentContext: HeroDecision = {
       ...heroDecision,
