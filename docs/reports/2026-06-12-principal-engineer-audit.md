@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76']
+related: ['#76', '#86', '#87']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -53,11 +53,13 @@ predate the 2026-06-11 reskin). Triage owner: repo owner.
 - **CQ-3 — import success path can wedge the UI** (`HandsUpload.tsx` async
   `onmessage`, no try/catch around the Dexie writes).
 - **CQ-4 — per-hand parse failures invisible to the confidence ledger.**
-- **Aggregate postflop counters contradict the spot-level ledger fixes**
-  (OOP checks vs a 100% c-bet target; phantom missed-c-bet in limped pots).
 
 Full detail and the rest: Executive summary, §1.3–1.5, and the §5 EPIC A–H
 breakdown below. Flip `status: resolved` once these are tracked/closed.
+
+**Addressed (in review):** aggregate postflop counters — B2 phantom
+missed-c-bet in limped pots (PR #86) + B1 OOP checks vs the 100% HU c-bet
+target (PR #87).
 
 ## Executive summary
 
