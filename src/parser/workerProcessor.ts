@@ -38,7 +38,8 @@ export interface ImportSummary {
 export type WorkerMessage =
   | { type: 'PROGRESS'; progress: number; filename: string; handsFound: number; summariesFound: number; deviationsFound: number }
   | { type: 'FILE_ERROR'; progress: number; filename: string; error: string }
-  | { type: 'COMPLETE'; hands: ImportedHandEntry[]; summaries: ParsedTournamentSummary[]; importSummary: ImportSummary };
+  | { type: 'COMPLETE'; hands: ImportedHandEntry[]; summaries: ParsedTournamentSummary[]; importSummary: ImportSummary }
+  | { type: 'FATAL_ERROR'; error: string };
 
 export interface WorkerPayload {
   files: WorkerFilePayload[];

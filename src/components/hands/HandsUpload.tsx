@@ -303,47 +303,73 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
       } else if (msg.type === 'COMPLETE') {
         setImportSummary(msg.importSummary);
 
-        // Save results to DB
-        const [handImported, summaryImported] = await Promise.all([
-           importHands(msg.hands),
-           importTournamentSummaries(msg.summaries)
-        ]);
-        if (!isCurrentImport() || workerRef.current !== worker) return;
-
         try {
-          const importedAt = new Date();
-          await saveImportRun(buildImportRunRecord(
-            msg.importSummary,
-            fileDataArr.map(file => file.name),
-            {
-              savedHands: handImported,
-              savedSummaries: summaryImported.updated + summaryImported.created,
-            },
-            importedAt,
-            { environment: getImportDiagnosticsEnvironment() },
-          ));
-        } catch (error) {
-          console.warn('Import completed, but audit history could not be saved:', error);
-        }
-        if (!isCurrentImport() || workerRef.current !== worker) return;
+          // Save results to DB
+          const [handImported, summaryImported] = await Promise.all([
+             importHands(msg.hands),
+             importTournamentSummaries(msg.summaries)
+          ]);
+          if (!isCurrentImport() || workerRef.current !== worker) return;
 
-        // Update store and UI
-        const totalCount = await getTotalHandCount();
-        if (!isCurrentImport() || workerRef.current !== worker) return;
-        setTotalHands(totalCount);
-        setImporting(false);
-        setResults(prev => [
-          ...prev,
-          { name: `${fileDataArr.length} files`, type: 'hand', imported: handImported },
-          {
-            name: `${fileDataArr.length} files`,
-            type: 'summary',
-            imported: summaryImported.updated + summaryImported.created,
-            summaryDetail: summaryImported,
+          try {
+            const importedAt = new Date();
+            await saveImportRun(buildImportRunRecord(
+              msg.importSummary,
+              fileDataArr.map(file => file.name),
+              {
+                savedHands: handImported,
+                savedSummaries: summaryImported.updated + summaryImported.created,
+              },
+              importedAt,
+              { environment: getImportDiagnosticsEnvironment() },
+            ));
+          } catch (error) {
+            console.warn('Import completed, but audit history could not be saved:', error);
           }
-        ]);
-        onUploadSuccess();
+          if (!isCurrentImport() || workerRef.current !== worker) return;
 
+          // Update store and UI
+          const totalCount = await getTotalHandCount();
+          if (!isCurrentImport() || workerRef.current !== worker) return;
+          setTotalHands(totalCount);
+          setImporting(false);
+          setResults(prev => [
+            ...prev,
+            { name: `${fileDataArr.length} files`, type: 'hand', imported: handImported },
+            {
+              name: `${fileDataArr.length} files`,
+              type: 'summary',
+              imported: summaryImported.updated + summaryImported.created,
+              summaryDetail: summaryImported,
+            }
+          ]);
+          onUploadSuccess();
+        } catch (error) {
+          // Parsing succeeded but persisting to IndexedDB failed (quota,
+          // private mode, etc.). Without this catch the async onmessage would
+          // reject, setImporting(false) would never run, and the "Do not close
+          // this page" overlay would wedge forever. Clear the overlay and tell
+          // the user that re-importing is safe (dedup is by hand ID).
+          if (!isCurrentImport() || workerRef.current !== worker) return;
+          setImporting(false);
+          setCurrentImportFile('');
+          setResults(prev => [...prev, {
+            name: 'Saving to local storage',
+            type: 'hand',
+            error: `Parsing succeeded but saving failed (${error instanceof Error ? error.message : String(error)}). This can happen when browser storage is full or in private mode. Re-importing is safe — already-saved hands are skipped by hand ID.`,
+          }]);
+        } finally {
+          worker.terminate();
+          if (workerRef.current === worker) workerRef.current = null;
+        }
+      } else if (msg.type === 'FATAL_ERROR') {
+        setImporting(false);
+        setCurrentImportFile('');
+        setResults(prev => [...prev, {
+          name: 'Parser worker',
+          type: 'hand',
+          error: msg.error || 'The background parser failed before completing the import.',
+        }]);
         worker.terminate();
         if (workerRef.current === worker) workerRef.current = null;
       }
