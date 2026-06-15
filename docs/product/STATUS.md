@@ -250,12 +250,8 @@ are stale. Do not edit by hand.
 **Runtime** (`dependencies`):
 
 - @gsap/react ^2.1.2
-- @react-three/drei ^10.7.7
-- @react-three/fiber ^9.6.1
 - @tanstack/react-table ^8.21.3
 - @tanstack/react-virtual ^3.13.24
-- @types/jszip ^3.4.1
-- @types/three ^0.184.1
 - clsx ^2.1.1
 - date-fns ^4.2.1
 - dexie ^4.4.2
@@ -271,7 +267,6 @@ are stale. Do not edit by hand.
 - react-dom ^19.2.6
 - react-router-dom ^7.15.1
 - recharts ^3.8.1
-- three ^0.184.0
 - zustand ^5.0.13
 
 **Build / test** (`devDependencies`):
