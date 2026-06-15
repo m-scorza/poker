@@ -7,6 +7,21 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
+## 2026-06-15 - Arena C-bet Clinic cleanup
+
+- Owner / agent:          Codex
+- Branch:                 codex/arena-cbet-clinic
+- Scope:                  `src/pages/ArenaPage.tsx`, Arena page tests, generated status docs, principal-audit Arena note.
+- Files touched:          `src/pages/ArenaPage.tsx`, `src/pages/__tests__/ArenaPage.test.tsx`, `docs/product/STATUS.md`, `docs/agents/AGENT_HANDOFF.md`, `docs/reports/2026-06-12-principal-engineer-audit.md` (after PR creation).
+- Summary:
+  - C-bet Clinic now draws only from real `cbetOpportunity` hands and uses flop-stage `Check` / `C-bet` controls instead of preflop Fold/Call/Raise controls.
+  - Replaced the empty-pool `window.alert()` path with the shared `ConfirmDialog`.
+  - Memoized the active drill pool, reused it for `nextHand()`, and removed the duplicate display-card ternary.
+  - Added Arena regression tests for drill filtering, C-bet grading, display cards, empty-pool dialog behavior, and C-bet Clinic controls.
+- Verification:           `npm.cmd test -- --run src/pages/__tests__/ArenaPage.test.tsx`, `npm.cmd run docs:check`, `npm.cmd run typecheck`, `npm.cmd run typecheck:test`, `npm.cmd run lint -- --no-cache` (0 errors, inherited 10 warnings from `main`), `npm.cmd test` (65 files / 711 tests), `npm.cmd run build`, `npm.cmd run privacy:check`, `git diff --check` all passed.
+- Risks / assumptions:    C-bet grading uses existing postflop flags: `MISSED_CBET` and made c-bets prefer betting; c-bet opportunities without those flags treat checking as acceptable. No parser or aggregate postflop math changed.
+- Next action requested:  Review the Arena drill semantics before merge; parser/Career/HandsUpload audit lanes remain intentionally untouched.
+
 ## 2026-06-14 - Code health: importRuns/store cycle, shared test factories, HandsUpload test
 
 - Owner / agent:          Claude
