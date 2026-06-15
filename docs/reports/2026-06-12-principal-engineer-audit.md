@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76']
+related: ['#76', '#78']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -42,11 +42,6 @@ None of this is tracked in STATUS/ROADMAP yet. Severities are **as reported on
 2026-06-12** — re-verify against current `main` before acting (several UI findings
 predate the 2026-06-11 reskin). Triage owner: repo owner.
 
-- **Parser chip accounting — keystone (EPIC A).** `Uncalled bet (X) returned`
-  is unhandled and raise lines record "BY" not chips-added, so `netProfit`,
-  `heroChipsAfter`, `villainDeltas` and every bb-metric are wrong in contested
-  hands. **Re-verified live on `main` 2026-06-14** (zero handling in
-  `src/parser/`; 89 fixtures contain the line).
 - **CQ-1 — fabricated stats in shipped UI** (`Sidebar.tsx`, `DashboardPage.tsx`):
   hardcoded profit/ROI/BB-100/"Confidence: High"/identity. Trust-killer.
 - **CQ-2 — 100× display bug** (`CareerPage.tsx:578`): VPIP/PFR multiplied by 100 twice.
@@ -58,6 +53,11 @@ predate the 2026-06-11 reskin). Triage owner: repo owner.
 
 Full detail and the rest: Executive summary, §1.3–1.5, and the §5 EPIC A–H
 breakdown below. Flip `status: resolved` once these are tracked/closed.
+
+**Addressed (in review):** EPIC A1 parser chip accounting (raise
+investment + uncalled bets) — PR #78 (draft). The A2 conservation-invariant
+sweep and the newly-found "sitting-out player who returns is dropped from
+`villainDeltas`" residual (10 fixture hands) remain open follow-ups.
 
 ## Executive summary
 
