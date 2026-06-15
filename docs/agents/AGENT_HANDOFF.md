@@ -11,15 +11,11 @@ Older or compacted handoff records are archived in:
 
 - Owner / agent:          Codex
 - Branch:                 codex/dependency-hygiene
-- Scope:                  `package.json`, `package-lock.json`, generated status docs, principal-audit dependency hygiene note.
-- Files touched:          `package.json`, `package-lock.json`, `docs/product/STATUS.md`, `docs/agents/AGENT_HANDOFF.md`, `docs/reports/2026-06-12-principal-engineer-audit.md` (after PR creation).
-- Summary:
-  - Removed unused runtime dependencies `three`, `@react-three/fiber`, and `@react-three/drei`; fixed-string searches found no source imports or dynamic imports before removal.
-  - Removed stale runtime type packages `@types/three` and deprecated `@types/jszip`; JSZip ships its own types.
-  - Regenerated STATUS so the dependency snapshot matches `package.json`.
-- Verification:           `npm.cmd run docs:check`, `npm.cmd run typecheck`, `npm.cmd run typecheck:test`, `npm.cmd run lint -- --no-cache` (0 errors, inherited 10 warnings from `main`), `npm.cmd test` (64 files / 706 tests), `npm.cmd run build`, `npm.cmd run privacy:check`, `git diff --check` all passed.
-- Risks / assumptions:    No runtime source files changed. This is intentionally separate from Claude's parser/Career/HandsUpload lanes and from PR #79's accessibility cleanup.
-- Next action requested:  Review the dependency lockfile trim and merge after the draft PR is accepted; then remove the dependency-hygiene note from any remaining open queue if the merge lands.
+- Scope:                  Dependency trim plus generated/report docs.
+- Files touched:          `package.json`, lockfile, STATUS, handoff, principal report/index.
+- Summary:                Removed unused `three`, `@react-three/fiber`, `@react-three/drei`, stale `@types/three`, and deprecated `@types/jszip` after fixed-string import checks; regenerated STATUS and linked PR #82 in the audit report.
+- Verification:           docs:check, typecheck, typecheck:test, lint --no-cache (0 errors, inherited warnings), `npm test` (64/706), build, privacy:check, diff --check passed.
+- Risks / next:           No runtime source changed. Review lockfile trim; parser/Career/HandsUpload lanes untouched.
 
 ## 2026-06-14 - Code health: importRuns/store cycle, shared test factories, HandsUpload test
 
