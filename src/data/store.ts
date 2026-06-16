@@ -824,3 +824,18 @@ export async function clearImportRuns(): Promise<void> {
 export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {
   return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
 }
+
+/**
+ * Hands imported before this date carry incorrect netProfit / heroChipsAfter /
+ * villainDeltas due to the raise-investment and uncalled-bet parser bugs fixed
+ * in the chip-accounting PR. Re-importing corrects them; dedup by hand ID is safe.
+ */
+export const CHIP_ACCOUNTING_FIX_DATE = new Date('2026-06-15T00:00:00Z');
+
+export async function hasPreFixImportRuns(): Promise<boolean> {
+  const count = await db.importRuns
+    .where('importedAt')
+    .below(CHIP_ACCOUNTING_FIX_DATE)
+    .count();
+  return count > 0;
+}

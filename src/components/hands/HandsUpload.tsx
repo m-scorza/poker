@@ -12,6 +12,8 @@ import {
   getRecentImportRuns,
   saveImportRun,
   clearImportRuns,
+  hasPreFixImportRuns,
+  CHIP_ACCOUNTING_FIX_DATE,
 } from '../../data/store';
 import {
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,
@@ -113,6 +115,8 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const [importSummary, setImportSummary] = useState<ImportSummary | null>(null);
   const [showHistory, setShowHistory] = useState(false);
   const [diagnosticsMessage, setDiagnosticsMessage] = useState<string | null>(null);
+  const [reimportBannerDismissed, setReimportBannerDismissed] = useState(false);
+  const [hasStaleData, setHasStaleData] = useState(false);
   const [localReferenceSummary, setLocalReferenceSummary] = useState(() => getLocalHeadsUpReferenceSummary());
   const [localReferenceMessage, setLocalReferenceMessage] = useState<string | null>(null);
   const pushReferenceRef = useRef<HTMLInputElement>(null);
@@ -130,6 +134,10 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
       setImporting(false);
     };
   }, [setImporting]);
+
+  useEffect(() => {
+    void hasPreFixImportRuns().then(setHasStaleData);
+  }, []);
 
   const handleLocalReferenceFile = useCallback(async (kind: HeadsUpReferenceKind, file: File | null) => {
     if (!file) return;
@@ -466,6 +474,25 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         }}
         className="hidden"
       />
+
+      {hasStaleData && !reimportBannerDismissed && (
+        <div className="mt-4 flex items-start gap-3 rounded-lg border border-warn/30 bg-warn/10 p-3 text-xs text-warn">
+          <span className="mt-0.5 shrink-0 font-bold">!</span>
+          <div className="flex-1">
+            <span className="font-semibold">Re-import recommended.</span>{' '}
+            Data imported before {CHIP_ACCOUNTING_FIX_DATE.toLocaleDateString()} may have incorrect P&amp;L and bb/100 figures (chip-accounting fix).
+            Re-importing your hand histories corrects them — deduplication by hand ID keeps it safe.
+          </div>
+          <button
+            type="button"
+            onClick={(e) => { e.stopPropagation(); setReimportBannerDismissed(true); }}
+            className="shrink-0 text-warn/60 hover:text-warn transition-colors cursor-pointer"
+            aria-label="Dismiss"
+          >
+            ✕
+          </button>
+        </div>
+      )}
 
       <div className="mt-4 rounded-lg border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-xs">
         <div className="flex flex-wrap items-center justify-between gap-3">

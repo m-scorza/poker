@@ -40,6 +40,8 @@ const storeMocks = vi.hoisted(() => ({
   getRecentImportRuns: vi.fn(),
   saveImportRun: vi.fn(),
   clearImportRuns: vi.fn(),
+  hasPreFixImportRuns: vi.fn().mockResolvedValue(false),
+  CHIP_ACCOUNTING_FIX_DATE: new Date('2026-06-15T00:00:00Z'),
 }));
 
 vi.mock('../../../data/store', () => storeMocks);
