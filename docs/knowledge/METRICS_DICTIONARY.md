@@ -65,6 +65,24 @@ The platform isolates villains who do the most damage mathematically during a Se
 
 ---
 
+## ICM Stage (estimate)
+
+The ICM stage shown on a hand (`Early`/`Mid`/`Bubble`/`ITM`/`Final Table`) is a
+**heuristic estimate**, not a measured tournament phase. `estimateICMStage`
+derives it from a level + active-players + stack-depth score ladder with **no
+field-size data**, so:
+
+- A level-11 spot with short average stacks can read as "Bubble" even mid-way
+  through a large-field tournament.
+- 3-max / heads-up formats (`maxSeats < 6`) never reach `Final Table` under the
+  current gate.
+
+Because of this, the UI labels every stage with an "(est.)" suffix — never an
+unqualified "Bubble" badge (B10). Treat the stage as directional context, not a
+precise ICM phase.
+
+---
+
 ## Data Collection Best Practices
 
 To ensure maximum fidelity and prevent `$0.00` reads or anomalous statistical dilution:

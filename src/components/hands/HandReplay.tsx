@@ -9,6 +9,7 @@ import { getPlayersForHand, getActionsForHand, toggleStarHand } from '../../data
 import { Star, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { clsx } from 'clsx';
 import { classifyBoardTexture, analyzePostflop } from '../../analysis/postflopAnalyzer';
+import { computePotBeforeStreet } from '../../analysis/scenarioDetector';
 import { icmStageLabel, icmStageColor } from '../../analysis/icmDetector';
 import { CardGroup, OddsCalculator } from 'poker-odds-calculator';
 import type { Hand, PlayerInHand, Action } from '../../types/hand';
@@ -124,7 +125,10 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
       setPlayers(p);
       setActions(a);
 
-      if (heroDecision && hand.boardFlop) {
+      // Only show postflop spots when hero actually saw the flop. Gating the
+      // whole block on sawFlop stops the legacy recompute fallback from
+      // producing postflop spots for hands hero folded preflop (B9).
+      if (heroDecision && hand.boardFlop && heroDecision.sawFlop) {
         if (Array.isArray(heroDecision.postflopActions)) {
           setPostflopSpots(heroDecision.postflopActions);
         } else {
@@ -138,13 +142,16 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
               .map((act) => act.playerName),
           );
           const flopPlayerCount = p.length - preflopFolders.size - preflopAllIns.size;
+          // Use the pot as of the start of the flop, not the final pot, so
+          // legacy recomputes report correct c-bet sizing fractions (B9).
+          const flopPot = computePotBeforeStreet(a, 'flop') || hand.totalPot;
           const spots = analyzePostflop(
             a,
             heroName,
             heroDecision.wasPreFlopRaiser,
             hand.boardFlop,
             flopPlayerCount,
-            hand.totalPot,
+            flopPot,
           );
           setPostflopSpots(spots);
         }
