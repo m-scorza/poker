@@ -505,10 +505,11 @@ Seat 2: player2 (small blind) collected (1050)
       expect(decision!.wonAtShowdown).toBe(false);
     });
 
-    it('cbetHU=true when 3rd player is all-in preflop (H14 regression)', () => {
+    it('treats a flop as HU when the 3rd player is all-in preflop (H14 regression)', () => {
       // Three players technically reach the flop, but one is all-in preflop
       // with no chips behind. For c-bet "HU on flop" semantics, only count
-      // players who can actually act on the flop.
+      // players who can actually act on the flop — so hero's c-bet is a CBET_HU
+      // spot, not multiway.
       const parsed = parseFirst(HAND_3WAY_FLOP_WITH_ALLIN);
       const decision = buildHeroDecision(parsed);
       expect(decision).not.toBeNull();
@@ -516,7 +517,43 @@ Seat 2: player2 (small blind) collected (1050)
       expect(decision!.sawFlop).toBe(true);
       expect(decision!.cbetOpportunity).toBe(true);
       expect(decision!.cbetMade).toBe(true);
+      // Hero c-bets first (out of position), so the HU c-bet counter (which is
+      // gated on hero being IN POSITION, B1) does not count this spot...
+      expect(decision!.cbetHU).toBe(false);
+      // ...but the all-in 3rd player is still excluded, so this is detected as a
+      // heads-up c-bet, not a multiway one.
+      expect(decision!.postflopActions?.some((s) => s.spot === 'CBET_HU')).toBe(true);
+      expect(decision!.postflopActions?.some((s) => s.spot === 'CBET_MULTIWAY')).toBe(false);
+    });
+
+    it('counts cbetHU when hero c-bets in position (B1)', () => {
+      // HU: hero is BTN/SB (acts last postflop = in position). Villain (BB)
+      // checks, hero c-bets → this is a genuine HU IP c-bet opportunity.
+      const ipHand = `PokerStars Hand #260356700002: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level V (50/100) - 2026/04/05 19:10:00 UTC [2026/04/05 15:10:00 ET]
+Table '3989541132 1' 2-max Seat #1 is the button
+Seat 1: scorza23 (1500 in chips)
+Seat 2: villain (1500 in chips)
+scorza23: posts small blind 50
+villain: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kh]
+scorza23: raises 100 to 200
+villain: calls 100
+*** FLOP *** [2c 7d Th]
+villain: checks
+scorza23: bets 100
+villain: folds
+scorza23 collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Board [2c 7d Th]
+Seat 1: scorza23 (button) collected (400)
+Seat 2: villain (big blind) folded on the Flop`;
+      const decision = buildHeroDecision(parseFirst(ipHand));
+      expect(decision).not.toBeNull();
+      expect(decision!.cbetOpportunity).toBe(true);
       expect(decision!.cbetHU).toBe(true);
+      expect(decision!.cbetMade).toBe(true);
     });
 
     it('sets wonAtShowdown=true when hero explicitly "showed and won"', () => {
@@ -528,6 +565,69 @@ Seat 2: player2 (small blind) collected (1050)
       const decision = buildHeroDecision(parsed, 'player6');
       expect(decision!.wentToShowdown).toBe(true);
       expect(decision!.wonAtShowdown).toBe(true);
+    });
+  });
+
+  describe('double barrel gating (B3)', () => {
+    // HU: hero is BTN/SB and the preflop raiser; villain (BB) calls. Only the
+    // flop/turn action varies between cases.
+    const barrelHand = (flopTurn: string) => `PokerStars Hand #260356710000: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level V (50/100) - 2026/04/05 20:00:00 UTC [2026/04/05 16:00:00 ET]
+Table '3989541132 1' 2-max Seat #1 is the button
+Seat 1: scorza23 (3000 in chips)
+Seat 2: villain (3000 in chips)
+scorza23: posts small blind 50
+villain: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kh]
+scorza23: raises 100 to 200
+villain: calls 100
+${flopTurn}
+*** SHOW DOWN ***
+scorza23: shows [Ah Kh] (high card Ace)
+villain: shows [Qd Jd] (high card Queen)
+scorza23 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0`;
+
+    it('counts an opportunity for a called c-bet then a checked turn', () => {
+      const hand = barrelHand(`*** FLOP *** [2c 7d Th]
+villain: checks
+scorza23: bets 100
+villain: calls 100
+*** TURN *** [2c 7d Th] [3s]
+villain: checks
+scorza23: checks`);
+      const decision = buildHeroDecision(parseFirst(hand));
+      expect(decision!.cbetMade).toBe(true);
+      expect(decision!.doubleBarrelOpportunity).toBe(true);
+      expect(decision!.doubleBarrelMade).toBe(false);
+    });
+
+    it('counts a made double barrel when hero bets the turn', () => {
+      const hand = barrelHand(`*** FLOP *** [2c 7d Th]
+villain: checks
+scorza23: bets 100
+villain: calls 100
+*** TURN *** [2c 7d Th] [3s]
+villain: checks
+scorza23: bets 200`);
+      const decision = buildHeroDecision(parseFirst(hand));
+      expect(decision!.doubleBarrelOpportunity).toBe(true);
+      expect(decision!.doubleBarrelMade).toBe(true);
+    });
+
+    it('does not count an opportunity when the c-bet was check-raised (B3)', () => {
+      const hand = barrelHand(`*** FLOP *** [2c 7d Th]
+villain: checks
+scorza23: bets 100
+villain: raises 200 to 300
+scorza23: calls 200
+*** TURN *** [2c 7d Th] [3s]
+villain: checks
+scorza23: checks`);
+      const decision = buildHeroDecision(parseFirst(hand));
+      expect(decision!.cbetMade).toBe(true);
+      expect(decision!.doubleBarrelOpportunity).toBe(false);
     });
   });
 });
