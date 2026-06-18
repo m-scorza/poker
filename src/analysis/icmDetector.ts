@@ -151,14 +151,19 @@ export function estimateICMStageFromHand(hand: Hand): ICMStage {
 
 /**
  * Get ICM stage label in English.
+ *
+ * The stage is a heuristic estimate (a level/stack score ladder with no
+ * field-size data — see `estimateICMStage`), so labels are suffixed "(est.)"
+ * to avoid presenting e.g. a mid-field level-11 spot as a definitive "Bubble"
+ * (B10).
  */
 export function icmStageLabel(stage: ICMStage): string {
   const labels: Record<ICMStage, string> = {
-    early: 'Early',
-    mid: 'Mid',
-    bubble: 'Bubble',
-    itm: 'ITM',
-    final_table: 'Final Table',
+    early: 'Early (est.)',
+    mid: 'Mid (est.)',
+    bubble: 'Bubble (est.)',
+    itm: 'ITM (est.)',
+    final_table: 'Final Table (est.)',
   };
   return labels[stage];
 }

@@ -250,24 +250,34 @@ export function computeStakeEvolution(tournaments: Tournament[]): StakePoint[] {
   });
 }
 
+/** Hands assumed per hour when estimating an hourly rate. No real session
+ * clock is tracked, so this is only a rough proxy — surface it as an estimate. */
+export const ASSUMED_HANDS_PER_HOUR = 75;
+
 export function estimateHourlyRate(tournaments: Tournament[]): number {
   const totalProfit = sumUsd(tournaments.map(getTournamentNet));
   const totalHands = tournaments.reduce((sum, t) => sum + (t.handsPlayed || 0), 0);
-  
+
   if (totalHands === 0) return 0;
-  
-  // Assume average of 75 hands per hour (MTT standard)
-  const estimatedHours = totalHands / 75;
+
+  const estimatedHours = totalHands / ASSUMED_HANDS_PER_HOUR;
   return totalProfit / estimatedHours;
 }
 
-export function computeRakeAdjustedRoi(tournaments: Tournament[]): number {
+/**
+ * Lifetime ROI over cash-buy-in tournaments, using the *full* entry cost
+ * (buy-in + fee) as the basis: (revenue − buyin − fee) / (buyin + fee).
+ *
+ * The previous "rake-adjusted ROI" divided profit by the buy-in only and left
+ * the fee out of the cost entirely, which inflated the figure (it ignored the
+ * rake it claimed to adjust for). Real ROI must include the fee paid.
+ */
+export function computeLifetimeRoi(tournaments: Tournament[]): number {
   const cashTournaments = tournaments.filter(t => isCashTournamentCurrency(t) && t.buyIn > 0);
   if (cashTournaments.length === 0) return 0;
 
-  const totalBuyInOnly = sumUsd(cashTournaments.map(t => t.buyIn || 0));
-  const totalRevenue = sumUsd(cashTournaments.map(getTournamentRevenue));
-  const totalTechnicalProfit = sumUsd([totalRevenue, -totalBuyInOnly]);
-  
-  return totalBuyInOnly > 0 ? (totalTechnicalProfit / totalBuyInOnly) * 100 : 0;
+  const totalCost = sumUsd(cashTournaments.map(getTournamentCost));
+  const totalNet = sumUsd(cashTournaments.map(getTournamentNet));
+
+  return totalCost > 0 ? (totalNet / totalCost) * 100 : 0;
 }

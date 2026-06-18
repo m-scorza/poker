@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76']
+related: ['#76', '#81']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -49,7 +49,6 @@ predate the 2026-06-11 reskin). Triage owner: repo owner.
   `src/parser/`; 89 fixtures contain the line).
 - **CQ-1 — fabricated stats in shipped UI** (`Sidebar.tsx`, `DashboardPage.tsx`):
   hardcoded profit/ROI/BB-100/"Confidence: High"/identity. Trust-killer.
-- **CQ-2 — 100× display bug** (`CareerPage.tsx:578`): VPIP/PFR multiplied by 100 twice.
 - **CQ-3 — import success path can wedge the UI** (`HandsUpload.tsx` async
   `onmessage`, no try/catch around the Dexie writes).
 - **CQ-4 — per-hand parse failures invisible to the confidence ledger.**
@@ -58,6 +57,8 @@ predate the 2026-06-11 reskin). Triage owner: repo owner.
 
 Full detail and the rest: Executive summary, §1.3–1.5, and the §5 EPIC A–H
 breakdown below. Flip `status: resolved` once these are tracked/closed.
+
+**Addressed (in review):** CQ-2 100× VPIP/PFR display bug — PR #81.
 
 ## Executive summary
 
