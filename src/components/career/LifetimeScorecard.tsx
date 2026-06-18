@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 import type { Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import { getTournamentNet } from '../../analysis/financials';
-import { estimateHourlyRate, computeRakeAdjustedRoi } from '../../analysis/careerStats';
+import { estimateHourlyRate, computeLifetimeRoi } from '../../analysis/careerStats';
 
 interface LifetimeScorecardProps {
   tournaments: Tournament[];
@@ -27,7 +27,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
     });
 
     const hourlyRate = estimateHourlyRate(tournaments);
-    const technicalRoi = computeRakeAdjustedRoi(tournaments);
+    const roi = computeLifetimeRoi(tournaments);
 
     return {
       totalHands,
@@ -35,7 +35,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
       biggestWin,
       worstLoss,
       hourlyRate,
-      technicalRoi
+      roi
     };
   }, [tournaments, decisions]);
 
@@ -65,18 +65,19 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
         <div className="space-y-6">
           <div>
             <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-1">
-              <DollarSign size={10} /> Hourly Rate
+              <DollarSign size={10} /> Est. Hourly Rate
             </div>
             <div className={clsx("text-xl font-data font-black", metrics.hourlyRate >= 0 ? "text-emerald-400" : "text-rose-400")}>
               ${metrics.hourlyRate.toFixed(2)}<span className="text-[10px] ml-1 opacity-60">/hr</span>
             </div>
+            <div className="text-[10px] font-bold text-[var(--fg-dim)]">≈75 hands/hr assumed</div>
           </div>
           <div>
             <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-1">
-              <Percent size={10} /> Technical ROI
+              <Percent size={10} /> ROI
             </div>
             <div className="text-xl font-data font-black text-white">
-              {metrics.technicalRoi.toFixed(1)}%
+              {metrics.roi.toFixed(1)}%
             </div>
           </div>
         </div>

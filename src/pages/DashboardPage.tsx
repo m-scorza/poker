@@ -120,9 +120,11 @@ export function DashboardPage() {
 
   const topLeak = leaks[0];
 
+  const sampleConfidence = careerCoachReport?.sampleConfidence ?? 'low';
+  const verdictConf = `Confidence: ${sampleConfidence.charAt(0).toUpperCase()}${sampleConfidence.slice(1)}`;
+
   const wireItems = [
     { t: 'PROFIT', v: `$${totalPnl.toFixed(2)}`, cls: totalPnl >= 0 ? 'up' : 'loss' },
-    { t: 'BB/100', v: '+4.2', cls: 'up' }, 
     { t: 'VPIP', v: `${vpip.toFixed(1)}%` },
     { t: 'PFR',  v: `${pfr.toFixed(1)}%` },
     { t: '3BET', v: `${threeBet.toFixed(1)}%` },
@@ -155,7 +157,7 @@ export function DashboardPage() {
         <VerdictGauge 
           score={careerCoachReport?.stakeReadinessScore ?? 0}
           verdictReco={careerCoachReport?.recommendation.split('.')[0] || 'Keep grinding'}
-          verdictConf="Confidence: High"
+          verdictConf={verdictConf}
           roi={roi}
           totalPnl={totalPnl}
           blockerTitle={topLeak?.name || 'No major leaks'}
