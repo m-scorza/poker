@@ -567,4 +567,67 @@ Seat 2: villain (big blind) folded on the Flop`;
       expect(decision!.wonAtShowdown).toBe(true);
     });
   });
+
+  describe('double barrel gating (B3)', () => {
+    // HU: hero is BTN/SB and the preflop raiser; villain (BB) calls. Only the
+    // flop/turn action varies between cases.
+    const barrelHand = (flopTurn: string) => `PokerStars Hand #260356710000: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level V (50/100) - 2026/04/05 20:00:00 UTC [2026/04/05 16:00:00 ET]
+Table '3989541132 1' 2-max Seat #1 is the button
+Seat 1: scorza23 (3000 in chips)
+Seat 2: villain (3000 in chips)
+scorza23: posts small blind 50
+villain: posts big blind 100
+*** HOLE CARDS ***
+Dealt to scorza23 [Ah Kh]
+scorza23: raises 100 to 200
+villain: calls 100
+${flopTurn}
+*** SHOW DOWN ***
+scorza23: shows [Ah Kh] (high card Ace)
+villain: shows [Qd Jd] (high card Queen)
+scorza23 collected 600 from pot
+*** SUMMARY ***
+Total pot 600 | Rake 0`;
+
+    it('counts an opportunity for a called c-bet then a checked turn', () => {
+      const hand = barrelHand(`*** FLOP *** [2c 7d Th]
+villain: checks
+scorza23: bets 100
+villain: calls 100
+*** TURN *** [2c 7d Th] [3s]
+villain: checks
+scorza23: checks`);
+      const decision = buildHeroDecision(parseFirst(hand));
+      expect(decision!.cbetMade).toBe(true);
+      expect(decision!.doubleBarrelOpportunity).toBe(true);
+      expect(decision!.doubleBarrelMade).toBe(false);
+    });
+
+    it('counts a made double barrel when hero bets the turn', () => {
+      const hand = barrelHand(`*** FLOP *** [2c 7d Th]
+villain: checks
+scorza23: bets 100
+villain: calls 100
+*** TURN *** [2c 7d Th] [3s]
+villain: checks
+scorza23: bets 200`);
+      const decision = buildHeroDecision(parseFirst(hand));
+      expect(decision!.doubleBarrelOpportunity).toBe(true);
+      expect(decision!.doubleBarrelMade).toBe(true);
+    });
+
+    it('does not count an opportunity when the c-bet was check-raised (B3)', () => {
+      const hand = barrelHand(`*** FLOP *** [2c 7d Th]
+villain: checks
+scorza23: bets 100
+villain: raises 200 to 300
+scorza23: calls 200
+*** TURN *** [2c 7d Th] [3s]
+villain: checks
+scorza23: checks`);
+      const decision = buildHeroDecision(parseFirst(hand));
+      expect(decision!.cbetMade).toBe(true);
+      expect(decision!.doubleBarrelOpportunity).toBe(false);
+    });
+  });
 });

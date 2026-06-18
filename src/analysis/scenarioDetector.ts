@@ -293,7 +293,25 @@ export function buildHeroDecision(
   const cbetMade = cbetOpportunity && flopActions.some((a) => a.playerName === heroName && a.actionType === 'bet');
 
   const turnActions = actions.filter((a) => a.street === 'turn');
-  const doubleBarrelOpportunity = cbetMade && hand.boardTurn !== null && !heroAllInPreflop;
+  // A double barrel is only an opportunity if hero's flop c-bet was CALLED
+  // (a check-raise is not a barrel spot — hero is defending, not continuing),
+  // the turn was dealt, and hero is not facing a donk bet into them on the
+  // turn. Previously any c-bet + turn counted, so a c-bet that got
+  // check-raised and called was flagged as a missed double barrel (B3).
+  const flopCbetCalled = (() => {
+    if (!cbetMade) return false;
+    const heroBetIdx = flopActions.findIndex(
+      (a) => a.playerName === heroName && a.actionType === 'bet',
+    );
+    if (heroBetIdx === -1) return false;
+    const afterHeroBet = flopActions.slice(heroBetIdx + 1);
+    return afterHeroBet.some((a) => a.actionType === 'call')
+      && !afterHeroBet.some((a) => a.actionType === 'raise');
+  })();
+  const facedTurnDonk = hasAggressionBeforePlayer(turnActions, heroName);
+  const doubleBarrelOpportunity =
+    flopCbetCalled && hand.boardTurn !== null && !heroAllInPreflop
+    && turnActions.length > 0 && !facedTurnDonk;
   const doubleBarrelMade = doubleBarrelOpportunity && turnActions.some((a) => a.playerName === heroName && a.actionType === 'bet');
 
   // Postflop spots analysis
