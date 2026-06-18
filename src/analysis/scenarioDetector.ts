@@ -7,7 +7,7 @@ import { estimateICMStage } from './icmDetector';
 import { detectBountyTournament, estimateBountyContext } from './bountyAnalyzer';
 import { detectFakeShove, detectRestealSpot } from './finalTableAnalyzer';
 import { detectSqueezeOpportunity } from './squeezeDetector';
-import { analyzePostflop } from './postflopAnalyzer';
+import { analyzePostflop, actedAfterVillainCheck } from './postflopAnalyzer';
 
 const FORCED_ACTIONS = new Set(['post_ante', 'post_sb', 'post_bb']);
 const AGGRESSIVE_ACTIONS = new Set(['bet', 'raise']);
@@ -280,7 +280,12 @@ export function buildHeroDecision(
       .map((a) => a.playerName),
   );
   const flopPlayerCount = players.length - preflopFolders.size - preflopAllIns.size;
-  const cbetHU = flopPlayerCount === 2;
+  // The "c-bet 100% HU" rule applies only when hero is IN POSITION on the flop
+  // (the spot-level MISSED_CBET fix requires it too). Gating the HU c-bet
+  // counter on the same position logic stops a justified OOP check from being
+  // flagged as a missed HU c-bet (B1).
+  const heroInPositionOnFlop = actedAfterVillainCheck(flopActions, heroName);
+  const cbetHU = flopPlayerCount === 2 && heroInPositionOnFlop;
   const heroAllInPreflop = heroVoluntaryActions.some((a) => a.isAllIn);
   const hasFlopActions = flopActions.length > 0;
   const facedFlopDonk = hasAggressionBeforePlayer(flopActions, heroName);

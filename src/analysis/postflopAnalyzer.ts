@@ -173,7 +173,7 @@ export interface PostflopAction {
   note: string;
 }
 
-function actedAfterVillainCheck(actions: Action[], heroName: string): boolean {
+export function actedAfterVillainCheck(actions: Action[], heroName: string): boolean {
   const heroIdx = actions.findIndex((a) => a.playerName === heroName);
   if (heroIdx <= 0) return false;
   return actions.slice(0, heroIdx).some(
