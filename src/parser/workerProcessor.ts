@@ -2,9 +2,9 @@ import { buildHeroDecision } from '../analysis/scenarioDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { HeroDecision } from '../types/analysis';
 import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
-import { parseGGPokerFile, parseGGPokerSummary } from './ggpoker';
+import { parseGGPokerFileWithDiagnostics, parseGGPokerSummary } from './ggpoker';
 import { parseOpenHandHistoryFile } from './openHandHistory';
-import { parsePokerStarsFile, type ParsedHand } from './pokerstars';
+import { parsePokerStarsFileWithDiagnostics, type ParsedHand } from './pokerstars';
 import { identifyFile } from './siteIdentifier';
 import { parseTournamentSummary, type ParsedTournamentSummary } from './tournamentSummary';
 
@@ -38,7 +38,8 @@ export interface ImportSummary {
 export type WorkerMessage =
   | { type: 'PROGRESS'; progress: number; filename: string; handsFound: number; summariesFound: number; deviationsFound: number }
   | { type: 'FILE_ERROR'; progress: number; filename: string; error: string }
-  | { type: 'COMPLETE'; hands: ImportedHandEntry[]; summaries: ParsedTournamentSummary[]; importSummary: ImportSummary };
+  | { type: 'COMPLETE'; hands: ImportedHandEntry[]; summaries: ParsedTournamentSummary[]; importSummary: ImportSummary }
+  | { type: 'FATAL_ERROR'; error: string };
 
 export interface WorkerPayload {
   files: WorkerFilePayload[];
@@ -91,15 +92,23 @@ export async function processWorkerFiles(
         recordFileError(file, 'Unsupported or unrecognized poker file. Upload PokerStars/GGPoker hand histories, tournament summaries, Open Hand History JSON, or ZIPs containing those files.');
       } else if (identity.type === 'hand_history') {
         let parsedHands: ParsedHand[] = [];
+        let skippedBlocks = 0;
 
         if (identity.site === 'pokerstars') {
-          parsedHands = parsePokerStarsFile(file.content, heroName);
+          ({ hands: parsedHands, skippedBlocks } = parsePokerStarsFileWithDiagnostics(file.content, heroName));
         } else if (identity.site === 'ggpoker') {
-          parsedHands = parseGGPokerFile(file.content, heroName);
+          ({ hands: parsedHands, skippedBlocks } = parseGGPokerFileWithDiagnostics(file.content, heroName));
         } else if (identity.site === 'open_hand_history') {
           parsedHands = parseOpenHandHistoryFile(file.content, heroName);
         } else {
           throw new Error('Recognized poker room, but native parsing is not available yet. Convert/export as Open Hand History JSON or provide a raw export sample so a safe adapter can be added.');
+        }
+
+        // Surface per-hand parse drops to the confidence ledger. A warning
+        // downgrades file confidence to at most "medium" (CQ-4), so a file
+        // where blocks silently failed can no longer report "high confidence".
+        if (skippedBlocks > 0) {
+          warnings.push(`${file.name}: ${skippedBlocks} hand block(s) could not be parsed and were skipped.`);
         }
 
         const handsToImport = parsedHands.map(parsed => {

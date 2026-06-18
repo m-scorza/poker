@@ -192,6 +192,7 @@ describe('analyzePostflop', () => {
 
   it('detects bet vs missed c-bet', () => {
     const actions = [
+      makeAction({ playerName: 'villain', actionType: 'raise', street: 'preflop', sequence: 0 }),
       makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
       makeAction({ playerName: 'hero', actionType: 'bet', street: 'flop', sequence: 2 }),
     ];
@@ -203,6 +204,7 @@ describe('analyzePostflop', () => {
 
   it('detects missed exploitative bet vs missed c-bet', () => {
     const actions = [
+      makeAction({ playerName: 'villain', actionType: 'raise', street: 'preflop', sequence: 0 }),
       makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
       makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 2 }),
     ];
@@ -214,8 +216,22 @@ describe('analyzePostflop', () => {
 
   it('does not flag bet-vs-missed-cbet when hero is out of position', () => {
     const actions = [
+      makeAction({ playerName: 'villain', actionType: 'raise', street: 'preflop', sequence: 0 }),
       makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 1 }),
       makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 2 }),
+    ];
+    const spots = analyzePostflop(actions, 'hero', false, ['Kh', 'Qd', '3c'], 2, 100);
+    expect(spots.some((s) => s.spot === 'BET_VS_MISSED_CBET')).toBe(false);
+  });
+
+  it('does not flag bet-vs-missed-cbet in a limped pot (no preflop raiser) [B2]', () => {
+    // Blind-vs-blind limped pot: villain (not a PFR) checks, hero checks back.
+    // There was no c-bet to miss, so this must not produce a spot.
+    const actions = [
+      makeAction({ playerName: 'villain', actionType: 'call', street: 'preflop', sequence: 0 }),
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'preflop', sequence: 1 }),
+      makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 2 }),
+      makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 3 }),
     ];
     const spots = analyzePostflop(actions, 'hero', false, ['Kh', 'Qd', '3c'], 2, 100);
     expect(spots.some((s) => s.spot === 'BET_VS_MISSED_CBET')).toBe(false);
