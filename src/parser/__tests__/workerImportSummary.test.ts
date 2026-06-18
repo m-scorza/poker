@@ -65,4 +65,33 @@ describe('processWorkerFiles import summary', () => {
       },
     });
   });
+
+  // CQ-4: a hand block that carries a `Hand #` header but cannot be parsed
+  // (here: no valid date line) must be surfaced as a warning and pull the
+  // file's confidence down — it can no longer report silently as "high".
+  it('reports per-hand parse drops within an otherwise-parseable file', async () => {
+    const corruptedBlock = [
+      "PokerStars Hand #999999999: Tournament #1, $1.00+$0.00 USD Hold'em No Limit - Level I (10/20)",
+      "Table 'x 1' 9-max Seat #1 is the button",
+      'Seat 1: alpha (1500 in chips)',
+      'Seat 2: beta (1500 in chips)',
+    ].join('\n');
+
+    const messages = await collectWorkerMessages([
+      { name: 'stars-partial.txt', content: `${HAND_FULL_STREETS}\n\n\n${corruptedBlock}` },
+    ]);
+
+    const complete = messages[messages.length - 1];
+    expect(complete).toMatchObject({
+      type: 'COMPLETE',
+      importSummary: {
+        totalFiles: 1,
+        parsedFiles: 1,
+        failedFiles: 0,
+        handsFound: 1,
+        confidence: 'medium',
+        warnings: [expect.stringContaining('could not be parsed')],
+      },
+    });
+  });
 });
