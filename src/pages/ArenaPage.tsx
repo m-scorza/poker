@@ -1,15 +1,20 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2, type LucideIcon } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
 import { getAllHeroDecisions } from '../data/store';
 import { PokerCard } from '../components/shared/Card';
+import { ConfirmDialog } from '../components/shared/ConfirmDialog';
 import { checkCompliance } from '../analysis/rangeChecker';
 import type { HeroDecision } from '../types/analysis';
+import type { StrategyProfile } from '../data/strategyProfiles';
 
 // Types for the Trainer
 type DrillType = 'fault_fixer' | 'rfi_master' | 'cbet_clinic';
+type PreflopAction = 'fold' | 'raise' | 'call' | 'check';
+type CbetAction = 'check' | 'bet';
+type TrainerAction = PreflopAction | CbetAction;
 
 interface DrillState {
   isActive: boolean;
@@ -17,6 +22,65 @@ interface DrillState {
   currentDecision: HeroDecision | null;
   score: { correct: number; total: number };
   lastFeedback: { isCorrect: boolean; note: string } | null;
+}
+
+const DRILL_LABELS: Record<DrillType, string> = {
+  fault_fixer: 'Fault Fixer',
+  rfi_master: 'RFI Master',
+  cbet_clinic: 'C-bet Clinic',
+};
+
+const PREFLOP_ACTIONS: Array<{ label: string; action: PreflopAction; color: 'gray' | 'blue' | 'emerald' }> = [
+  { label: 'Fold', action: 'fold', color: 'gray' },
+  { label: 'Call', action: 'call', color: 'blue' },
+  { label: 'Raise', action: 'raise', color: 'emerald' },
+];
+
+const CBET_ACTIONS: Array<{ label: string; action: CbetAction; color: 'gray' | 'emerald' }> = [
+  { label: 'Check', action: 'check', color: 'gray' },
+  { label: 'C-bet', action: 'bet', color: 'emerald' },
+];
+
+export function getDrillPool(
+  type: DrillType,
+  allDecisions: HeroDecision[],
+  strategyProfile: StrategyProfile,
+): HeroDecision[] {
+  if (type === 'fault_fixer') {
+    return allDecisions.filter(d => {
+      const result = checkCompliance(d, strategyProfile);
+      return result && !result.isCompliant;
+    });
+  }
+
+  if (type === 'rfi_master') {
+    return allDecisions.filter(d => d.scenario === 'RFI' || d.scenario === 'BLIND_WAR');
+  }
+
+  return allDecisions.filter(d => d.cbetOpportunity);
+}
+
+export function shouldCbet(decision: HeroDecision): boolean {
+  if (decision.postflopActions?.some(action => action.spot === 'MISSED_CBET')) {
+    return true;
+  }
+  return decision.cbetMade;
+}
+
+export function isCbetActionCorrect(decision: HeroDecision, action: CbetAction): boolean {
+  return action === 'bet' ? shouldCbet(decision) : !shouldCbet(decision);
+}
+
+export function getDisplayCards(handKey: string | undefined): [string, string] {
+  const key = handKey && handKey.length >= 2 ? handKey : 'AA';
+  const r1 = key[0] ?? 'A';
+  const r2 = key[1] ?? r1;
+  const suited = key.endsWith('s');
+  return [`${r1}s`, suited ? `${r2}s` : `${r2}h`];
+}
+
+function pickRandomDecision(pool: HeroDecision[]): HeroDecision | null {
+  return pool[Math.floor(Math.random() * pool.length)] ?? null;
 }
 
 export function ArenaPage() {
@@ -30,6 +94,7 @@ export function ArenaPage() {
 
   const { strategyProfile } = useAppStore();
   const [allDecisions, setAllDecisions] = useState<HeroDecision[]>([]);
+  const [emptyDrillType, setEmptyDrillType] = useState<DrillType | null>(null);
   const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Load pool of decisions to draw from
@@ -49,26 +114,19 @@ export function ArenaPage() {
     };
   }, []);
 
-  const startDrill = (type: DrillType) => {
-    let pool = allDecisions;
-    
-    // Filter pool based on drill type
-    if (type === 'fault_fixer') {
-      // Focus on historical deviations
-      pool = allDecisions.filter(d => {
-        const result = checkCompliance(d, strategyProfile);
-        return result && !result.isCompliant;
-      });
-    } else if (type === 'rfi_master') {
-      pool = allDecisions.filter(d => d.scenario === 'RFI' || d.scenario === 'BLIND_WAR');
-    }
+  const activePool = useMemo(
+    () => drill.type ? getDrillPool(drill.type, allDecisions, strategyProfile) : [],
+    [allDecisions, drill.type, strategyProfile],
+  );
 
-    if (pool.length === 0) {
-      alert('Not enough data for this training. Import more hands!');
+  const startDrill = useCallback((type: DrillType) => {
+    const pool = getDrillPool(type, allDecisions, strategyProfile);
+    const first = pickRandomDecision(pool);
+    if (!first) {
+      setEmptyDrillType(type);
       return;
     }
 
-    const first = pool[Math.floor(Math.random() * pool.length)]!;
     setDrill({
       isActive: true,
       type,
@@ -76,41 +134,58 @@ export function ArenaPage() {
       score: { correct: 0, total: 0 },
       lastFeedback: null,
     });
-  };
+  }, [allDecisions, strategyProfile]);
 
   const nextHand = useCallback(() => {
-    let pool = allDecisions;
-    if (drill.type === 'fault_fixer') {
-      pool = allDecisions.filter(d => {
-         const res = checkCompliance(d, strategyProfile);
-         return res && !res.isCompliant;
-      });
-    } else if (drill.type === 'rfi_master') {
-      pool = allDecisions.filter(d => d.scenario === 'RFI' || d.scenario === 'BLIND_WAR');
+    const next = pickRandomDecision(activePool);
+    if (!next) {
+      setDrill(prev => ({ ...prev, isActive: false, currentDecision: null, lastFeedback: null }));
+      if (drill.type) {
+        setEmptyDrillType(drill.type);
+      }
+      return;
     }
 
-    const next = pool[Math.floor(Math.random() * pool.length)]!;
     setDrill(prev => ({
       ...prev,
       currentDecision: next,
       lastFeedback: null,
     }));
-  }, [allDecisions, drill.type, strategyProfile]);
+  }, [activePool, drill.type]);
 
-  const handleAction = (action: 'fold' | 'raise' | 'call' | 'check') => {
+  const handleAction = (action: TrainerAction) => {
     if (!drill.currentDecision) return;
 
-    // Evaluate user's chosen action against GTO theory
-    const testDecision = { ...drill.currentDecision, action };
-    const result = checkCompliance(testDecision, strategyProfile);
-    const userIsCorrect = result?.isCompliant ?? true;
+    let userIsCorrect = true;
+    let note = 'Excellent! Standard GTO move.';
 
-    // Find a correct action to show in feedback if user was wrong
-    let correctActionStr = 'the standard move';
-    if (!userIsCorrect) {
-      const actions: ('fold' | 'raise' | 'call' | 'check')[] = ['fold', 'raise', 'call', 'check'];
-      const found = actions.find(a => checkCompliance({ ...drill.currentDecision!, action: a }, strategyProfile)?.isCompliant);
-      if (found) correctActionStr = found.toUpperCase();
+    if (drill.type === 'cbet_clinic') {
+      if (action !== 'bet' && action !== 'check') return;
+      userIsCorrect = isCbetActionCorrect(drill.currentDecision, action);
+      const correctActionStr = shouldCbet(drill.currentDecision) ? 'C-BET' : 'CHECK';
+      note = userIsCorrect
+        ? action === 'bet'
+          ? 'Correct. This spot wants a continuation bet.'
+          : 'Correct. Checking is acceptable in this spot.'
+        : `Error! The postflop model prefers ${correctActionStr}.`;
+    } else {
+      if (action === 'bet') return;
+
+      // Evaluate user's chosen action against GTO theory
+      const testDecision = { ...drill.currentDecision, action };
+      const result = checkCompliance(testDecision, strategyProfile);
+      userIsCorrect = result?.isCompliant ?? true;
+
+      // Find a correct action to show in feedback if user was wrong
+      let correctActionStr = 'the standard move';
+      if (!userIsCorrect) {
+        const actions: PreflopAction[] = ['fold', 'raise', 'call', 'check'];
+        const found = actions.find(a => checkCompliance({ ...drill.currentDecision!, action: a }, strategyProfile)?.isCompliant);
+        if (found) correctActionStr = found.toUpperCase();
+      }
+      note = userIsCorrect
+        ? 'Excellent! Standard GTO move.'
+        : `Error! The theoretical range suggests ${correctActionStr}.`;
     }
 
     setDrill(prev => ({
@@ -121,9 +196,7 @@ export function ArenaPage() {
       },
       lastFeedback: {
         isCorrect: userIsCorrect,
-        note: userIsCorrect 
-          ? 'Excellent! Standard GTO move.' 
-          : `Error! The theoretical range suggests ${correctActionStr}.`
+        note,
       }
     }));
 
@@ -136,48 +209,66 @@ export function ArenaPage() {
     }, 2000);
   };
 
+  const clearEmptyDrillDialog = () => setEmptyDrillType(null);
+  const emptyDrillLabel = emptyDrillType ? DRILL_LABELS[emptyDrillType] : 'this drill';
+
   if (!drill.isActive) {
     return (
-      <div className="max-w-4xl mx-auto py-12">
-        <header className="text-center mb-12">
-          <motion.div 
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            className="inline-block p-3 border border-[var(--sig-line)] bg-[var(--sig-soft)] rounded-2xl mb-4"
-          >
-            <Zap size={40} className="text-[var(--sig)]" />
-          </motion.div>
-          <span className="kick sig block mb-2">The Arena</span>
-          <h1 className="text-4xl font-bold text-[var(--fg)] mb-2">Turn theory into instinct.</h1>
-          <p className="lede text-[var(--fg-dim)]">Drill your flaws.</p>
-        </header>
+      <>
+        <div className="max-w-4xl mx-auto py-12">
+          <header className="text-center mb-12">
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              className="inline-block p-3 border border-[var(--sig-line)] bg-[var(--sig-soft)] rounded-2xl mb-4"
+            >
+              <Zap size={40} className="text-[var(--sig)]" />
+            </motion.div>
+            <span className="kick sig block mb-2">The Arena</span>
+            <h1 className="text-4xl font-bold text-[var(--fg)] mb-2">Turn theory into instinct.</h1>
+            <p className="lede text-[var(--fg-dim)]">Drill your flaws.</p>
+          </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <DrillCard 
-            title="Fault Fixer" 
-            desc="Replay hands where you made actual deviations." 
-            icon={Target} 
-            color="red"
-            onClick={() => startDrill('fault_fixer')}
-          />
-          <DrillCard 
-            title="RFI Master" 
-            desc="Master pot opening across all positions." 
-            icon={Zap} 
-            color="emerald"
-            onClick={() => startDrill('rfi_master')}
-          />
-          <DrillCard 
-            title="C-bet Clinic" 
-            desc="Perfect your flop aggression." 
-            icon={Trophy} 
-            color="blue"
-            onClick={() => startDrill('cbet_clinic')}
-          />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <DrillCard
+              title="Fault Fixer"
+              desc="Replay hands where you made actual deviations."
+              icon={Target}
+              color="red"
+              onClick={() => startDrill('fault_fixer')}
+            />
+            <DrillCard
+              title="RFI Master"
+              desc="Master pot opening across all positions."
+              icon={Zap}
+              color="emerald"
+              onClick={() => startDrill('rfi_master')}
+            />
+            <DrillCard
+              title="C-bet Clinic"
+              desc="Perfect your flop aggression."
+              icon={Trophy}
+              color="blue"
+              onClick={() => startDrill('cbet_clinic')}
+            />
+          </div>
         </div>
-      </div>
+
+        <ConfirmDialog
+          isOpen={emptyDrillType !== null}
+          title="Not enough data"
+          description={`No ${emptyDrillLabel} spots are available yet. Import more hands to train this drill.`}
+          confirmLabel="Got it"
+          cancelLabel="Close"
+          onConfirm={clearEmptyDrillDialog}
+          onCancel={clearEmptyDrillDialog}
+          variant="info"
+        />
+      </>
     );
   }
+
+  const actionOptions = drill.type === 'cbet_clinic' ? CBET_ACTIONS : PREFLOP_ACTIONS;
 
   return (
     <div className="h-[calc(100vh-120px)] flex flex-col relative overflow-hidden">
@@ -192,6 +283,8 @@ export function ArenaPage() {
            <button 
              onClick={() => setDrill(prev => ({ ...prev, isActive: false }))}
              className="p-2 hover:bg-[var(--accent-soft)] rounded-lg text-[var(--fg-dim)] hover:text-[var(--accent)]"
+             type="button"
+             aria-label="Exit drill"
            >
              <RotateCcw size={18} />
            </button>
@@ -229,7 +322,7 @@ export function ArenaPage() {
                  </span>
                </div>
                <div className="mt-2 text-[10px] text-[var(--accent)] font-bold tracking-tighter uppercase opacity-80">
-                  Stage: Pre-flop
+                  Stage: {drill.type === 'cbet_clinic' ? 'Flop' : 'Pre-flop'}
                </div>
             </div>
 
@@ -244,14 +337,7 @@ export function ArenaPage() {
                       className="flex gap-2"
                     >
                         {(() => {
-                           const key = drill.currentDecision?.handKey || 'AA';
-                           const r1 = key[0];
-                           const r2 = key[1];
-                           const s = key.endsWith('s') ? 's' : 'o';
-                           // Map ranks to cards (simple heuristic for trainer)
-                           // If paired: As Ah. If suited: As Ks. If offsuit: As Kh.
-                           const c1 = `${r1}s`;
-                           const c2 = s === 's' ? `${r2}s` : (r1 === r2 ? `${r2}h` : `${r2}h`);
+                           const [c1, c2] = getDisplayCards(drill.currentDecision?.handKey);
                            return (
                              <>
                                <PokerCard card={c1} size="lg" className="shadow-2xl" />
@@ -312,24 +398,15 @@ export function ArenaPage() {
 
         {/* Action Controls */}
         <div className="flex gap-4 mt-8 pb-12 z-20">
-            <ActionButton 
-              label="Fold" 
-              color="gray" 
-              onClick={() => handleAction('fold')} 
-              disabled={!!drill.lastFeedback}
-            />
-            <ActionButton 
-              label="Call" 
-              color="blue" 
-              onClick={() => handleAction('call')} 
-              disabled={!!drill.lastFeedback}
-            />
-            <ActionButton 
-              label="Raise" 
-              color="emerald" 
-              onClick={() => handleAction('raise')} 
-              disabled={!!drill.lastFeedback}
-            />
+            {actionOptions.map((option) => (
+              <ActionButton
+                key={option.action}
+                label={option.label}
+                color={option.color}
+                onClick={() => handleAction(option.action)}
+                disabled={!!drill.lastFeedback}
+              />
+            ))}
         </div>
       </main>
     </div>
@@ -346,10 +423,11 @@ interface DrillCardProps {
 
 function DrillCard({ title, desc, icon: Icon, onClick }: DrillCardProps) {
   return (
-    <motion.div 
+    <motion.button
       whileHover={{ y: -5 }}
       onClick={onClick}
-      className="cursor-pointer compartment transition-all hover:border-[var(--accent-line)] group"
+      className="cursor-pointer compartment transition-all hover:border-[var(--accent-line)] group text-left"
+      type="button"
     >
       <div className="mb-4 text-[var(--accent)] group-hover:scale-110 transition-transform">
         <Icon size={24} />
@@ -359,7 +437,7 @@ function DrillCard({ title, desc, icon: Icon, onClick }: DrillCardProps) {
       <div className="inner-rule mt-6 text-xs font-bold uppercase tracking-widest text-[var(--accent)] flex items-center gap-2">
          Start Drill <ChevronRight size={14} />
       </div>
-    </motion.div>
+    </motion.button>
   );
 }
 
@@ -383,8 +461,9 @@ function ActionButton({ label, color, onClick, disabled }: ActionButtonProps) {
       onClick={onClick}
       className={clsx(
         "px-10 py-4 font-bold text-sm",
-        colorMap[color as keyof typeof colorMap]
+        colorMap[color]
       )}
+      type="button"
     >
       {label}
     </button>
