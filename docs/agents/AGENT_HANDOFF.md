@@ -7,6 +7,16 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
+## 2026-06-15 - Dependency hygiene: remove unused React Three stack
+
+- Owner / agent:          Codex
+- Branch:                 codex/dependency-hygiene
+- Scope:                  Dependency trim plus generated/report docs.
+- Files touched:          `package.json`, lockfile, STATUS, handoff, principal report/index.
+- Summary:                Removed unused `three`, `@react-three/fiber`, `@react-three/drei`, stale `@types/three`, and deprecated `@types/jszip` after fixed-string import checks; regenerated STATUS and linked PR #82 in the audit report.
+- Verification:           docs:check, typecheck, typecheck:test, lint --no-cache (0 errors, inherited warnings), `npm test` (64/706), build, privacy:check, diff --check passed.
+- Risks / next:           No runtime source changed. Review lockfile trim; parser/Career/HandsUpload lanes untouched.
+
 ## 2026-06-14 - Code health: importRuns/store cycle, shared test factories, HandsUpload test
 
 - Owner / agent:          Claude

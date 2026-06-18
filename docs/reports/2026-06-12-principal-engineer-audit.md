@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76', '#80', '#81', '#84', '#85', '#86', '#87']
+related: ['#76', '#80', '#81', '#82', '#84', '#85', '#86', '#87']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -676,6 +676,11 @@ fine; limbo is not.
 **F4 — Dependency hygiene.** *(0.5d)* — drop `three`/`@react-three/*` if
 truly unused (verify no dynamic imports); `@types/*` → devDependencies; drop
 deprecated `@types/jszip`.
+
+Status update 2026-06-15: addressed in draft PR #82 by removing unused
+`three`/`@react-three/*`, stale `@types/three`, and deprecated `@types/jszip`
+from runtime dependencies after re-verifying there are no source imports or
+dynamic imports.
 
 #### 5.1 F1 design (recorded for the implementer)
 
