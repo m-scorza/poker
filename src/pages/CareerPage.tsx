@@ -575,7 +575,7 @@ export function CareerPage() {
                                     </span>
                                   )}
                                   <span className="text-[9px] text-[var(--fg-dim)] font-bold uppercase">
-                                     VPIP/PFR: {(v.vpip * 100).toFixed(0)}/{(v.pfr * 100).toFixed(0)}
+                                     VPIP/PFR: {v.vpip.toFixed(0)}/{v.pfr.toFixed(0)}
                                   </span>
                                </div>
                             </div>
