@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76', '#80']
+related: ['#76', '#80', '#81']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -47,7 +47,6 @@ predate the 2026-06-11 reskin). Triage owner: repo owner.
   `heroChipsAfter`, `villainDeltas` and every bb-metric are wrong in contested
   hands. **Re-verified live on `main` 2026-06-14** (zero handling in
   `src/parser/`; 89 fixtures contain the line).
-- **CQ-2 — 100× display bug** (`CareerPage.tsx:578`): VPIP/PFR multiplied by 100 twice.
 - **CQ-3 — import success path can wedge the UI** (`HandsUpload.tsx` async
   `onmessage`, no try/catch around the Dexie writes).
 - **CQ-4 — per-hand parse failures invisible to the confidence ledger.**
@@ -57,7 +56,9 @@ predate the 2026-06-11 reskin). Triage owner: repo owner.
 Full detail and the rest: Executive summary, §1.3–1.5, and the §5 EPIC A–H
 breakdown below. Flip `status: resolved` once these are tracked/closed.
 
-**Addressed (in review):** CQ-1 fabricated UI stats — PR #80.
+**Addressed (in review):**
+- CQ-1 fabricated UI stats — PR #80.
+- CQ-2 100× VPIP/PFR display bug — PR #81.
 
 ## Executive summary
 
