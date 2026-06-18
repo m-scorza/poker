@@ -19,21 +19,25 @@ interface RingHudProps {
   threeBet: number;
 }
 
+const STAT_KEYS = ['vpip', 'pfr', '3bet'] as const;
+type StatKey = (typeof STAT_KEYS)[number];
+
 export function RingHud({ vpip, pfr, threeBet }: RingHudProps) {
   const containerRef = useRef<HTMLElement>(null);
-  const [activeStat, setActiveStat] = useState<'vpip' | 'pfr' | '3bet'>('vpip');
+  const [activeStat, setActiveStat] = useState<StatKey>('vpip');
 
-  const STATS: Record<string, Stat> = {
+  const STATS: Record<StatKey, Stat> = {
     vpip: { val: vpip, pct: Math.min(vpip / 100, 1), color: 'var(--accent)', lbl: 'VPIP', full: 'VPIP · voluntary in pot', target: 'Target 20–30%' },
     pfr:  { val: pfr, pct: Math.min(pfr / 100, 1), color: 'var(--accent-2)', lbl: 'PFR', full: 'PFR · preflop raise', target: 'Target 15–22%' },
     '3bet': { val: threeBet, pct: Math.min(threeBet / 100, 1), color: 'var(--loss)', lbl: '3-BET', full: '3-bet frequency', target: 'Target 6–10%' },
   };
 
-  const radii: Record<string, number> = { vpip: 76, pfr: 60, '3bet': 44 };
+  const radii: Record<StatKey, number> = { vpip: 76, pfr: 60, '3bet': 44 };
 
   useGSAP(() => {
-    Object.entries(STATS).forEach(([k, s]) => {
-      const r = radii[k] ?? 0;
+    STAT_KEYS.forEach((k) => {
+      const s = STATS[k];
+      const r = radii[k];
       const circ = 2 * Math.PI * r;
       const ring = containerRef.current?.querySelector(`.ring-${k}`) as SVGElement;
       if (ring) {
@@ -69,8 +73,9 @@ export function RingHud({ vpip, pfr, threeBet }: RingHudProps) {
       <div className="hud" style={{ marginTop: 'var(--s-md)' }}>
         <div className="hud-rings">
           <svg width="168" height="168">
-            {Object.entries(STATS).map(([k, s]) => {
-              const r = radii[k] ?? 0;
+            {STAT_KEYS.map((k) => {
+              const s = STATS[k];
+              const r = radii[k];
               const circ = 2 * Math.PI * r;
               return (
                 <g key={k}>
@@ -98,7 +103,7 @@ export function RingHud({ vpip, pfr, threeBet }: RingHudProps) {
             <button 
               key={k}
               className={`stat-trigger ${activeStat === k ? 'active' : ''}`}
-              onClick={() => setActiveStat(k as any)}
+              onClick={() => setActiveStat(k as StatKey)}
             >
               <span className="sl">
                 <span className="dotc" style={{ background: s.color }}></span>

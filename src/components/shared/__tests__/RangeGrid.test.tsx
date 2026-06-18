@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest';
-import { render, within } from '@testing-library/react';
+import { describe, it, expect, vi } from 'vitest';
+import { fireEvent, render, within } from '@testing-library/react';
 import { RangeGrid } from '../RangeGrid';
 import '@testing-library/jest-dom';
 
@@ -15,5 +15,19 @@ describe('RangeGrid', () => {
 
     const aaCell = within(container).getByRole('button', { name: 'AA' });
     expect(aaCell).toHaveClass('bg-[color-mix(in_srgb,#C9CDD6_26%,#111114)]');
+  });
+
+  it('clears the hovered hand when leaving a cell', () => {
+    const onCellHover = vi.fn();
+    const { container } = render(
+      <RangeGrid getCellStatus={() => 'out-of-range'} onCellHover={onCellHover} />
+    );
+
+    const aaCell = within(container).getByRole('button', { name: 'AA' });
+    fireEvent.mouseEnter(aaCell);
+    fireEvent.mouseLeave(aaCell);
+
+    expect(onCellHover).toHaveBeenNthCalledWith(1, 'AA');
+    expect(onCellHover).toHaveBeenNthCalledWith(2, null);
   });
 });

@@ -7,6 +7,16 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
+## 2026-06-15 - Accessibility and dashboard hygiene pass
+
+- Owner / agent:          Codex
+- Branch:                 codex/a11y-shared-interactions
+- Scope:                  UI hygiene outside parser/import lanes.
+- Files touched:          RangeGrid, DualRangeMatrix, HandReplay, BankrollChart, MonumentCurve, RingHud, focused tests, STATUS.
+- Summary:                Moved range hover clear to native buttons; made HandReplay backdrop a native button; typed RingHud; made BankrollChart tabs filter data; removed MonumentCurve `dangerouslySetInnerHTML`; added focused tests. Hygiene-scanner false positives were already fixed on `main` / PR #71.
+- Verification:           typecheck, typecheck:test, focused tests (3 files / 16 tests), full `npm test` (64 files / 709 tests), build, docs:update/check, lint --no-cache all passed. Two `HandsUpload` warnings remain for the CQ-3 lane.
+- Risks / next:           Review chart range semantics; do not touch `HandsUpload` here while Claude owns import-flow work.
+
 ## 2026-06-15 - Arena C-bet Clinic cleanup
 
 - Owner / agent:          Codex
@@ -26,19 +36,6 @@ Older or compacted handoff records are archived in:
 - Summary:                Removed unused `three`, `@react-three/fiber`, `@react-three/drei`, stale `@types/three`, and deprecated `@types/jszip` after fixed-string import checks; regenerated STATUS and linked PR #82 in the audit report.
 - Verification:           docs:check, typecheck, typecheck:test, lint --no-cache (0 errors, inherited warnings), `npm test` (64/706), build, privacy:check, diff --check passed.
 - Risks / next:           No runtime source changed. Review lockfile trim; parser/Career/HandsUpload lanes untouched.
-
-## 2026-06-14 - Code health: importRuns/store cycle, shared test factories, HandsUpload test
-
-- Owner / agent:          Claude
-- Branch:                 claude/nifty-gould-3c3457 (PR #70)
-- Scope:                  `src/data/importRuns.ts`, `src/test/factories.ts`, 7 analysis/data test files, `src/components/hands/__tests__/HandsUpload.test.tsx`
-- Summary:                Closes 2026-06-12 review findings #2 / #5 / #4.
-  - Removed the dead `importRuns -> store` re-export — the only value-level cycle edge; all consumers (`HandsUpload`, `LeaksPage`, `CareerPage`) already import persistence from `store`, so `importRuns` now has zero dependency on `store`.
-  - Added `src/test/factories.ts` (canonical `makeHand`/`makePlayer`/`makeAction`/`makeTournament`); migrated 7 test files to thin baseline wrappers preserving their prior defaults. Net -104 lines. Bespoke factories left local.
-  - Added the first `HandsUpload` component test: dropzone smoke, unsupported / oversized-`.txt` / oversized-`.zip` guards, and a worker-mocked end-to-end import. +5 tests.
-- Verification:           typecheck, typecheck:test, lint (0 errors), `npm test` 698/698 (64 files), build, docs:check — all green.
-- Risks / assumptions:    Test/code-health only; no runtime product paths changed. Trimmed this log and archived the 2026-06-07 "Leak Confidence" entry to stay under the kernel context budget (`agentKernel.test.ts`).
-- Next action requested:  Open review follow-ups: `hygiene-scanner.ts` false positives, jsx-a11y warnings.
 
 ## Template
 

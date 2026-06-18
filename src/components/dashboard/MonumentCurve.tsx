@@ -12,20 +12,20 @@ interface MonumentCurveProps {
   verdict: string;
 }
 
+const EQUITY_CURVE = [0, 12, 8, 22, 18, 30, 26, 40, 52, 46, 60, 74, 66, 88, 102, 94, 118, 140, 128, 150, 142, 170, 196, 182, 214, 236, 228, 262, 250, 286, 318, 306, 344, 366, 356, 389];
+
 export function MonumentCurve({ totalPnl, tournaments, roi, itmRate, verdict }: MonumentCurveProps) {
   const containerRef = useRef<HTMLElement>(null);
-
-  const EQUITY = [0,12,8,22,18,30,26,40,52,46,60,74,66,88,102,94,118,140,128,150,142,170,196,182,214,236,228,262,250,286,318,306,344,366,356,389];
   
   const { pathData, areaData, lastPoint } = useMemo(() => {
     const W = 560, H = 320, pad = 10;
-    const max = Math.max(...EQUITY), min = Math.min(...EQUITY);
-    const xs = (i: number) => pad + (i / (EQUITY.length - 1)) * (W - pad * 2);
+    const max = Math.max(...EQUITY_CURVE), min = Math.min(...EQUITY_CURVE);
+    const xs = (i: number) => pad + (i / (EQUITY_CURVE.length - 1)) * (W - pad * 2);
     const ys = (v: number) => H - pad - ((v - min) / (max - min || 1)) * (H - pad * 2);
     
-    const pts = EQUITY.length ? EQUITY.map((v, i) => [xs(i), ys(v)]) : [[0, 0]];
+    const pts = EQUITY_CURVE.length ? EQUITY_CURVE.map((v, i) => [xs(i), ys(v)]) : [[0, 0]];
     const line = pts.map((p, i) => (i ? 'L' : 'M') + p[0]!.toFixed(1) + ' ' + p[1]!.toFixed(1)).join(' ');
-    const area = line + ` L${xs(Math.max(0, EQUITY.length - 1)).toFixed(1)} ${H} L${pad} ${H} Z`;
+    const area = line + ` L${xs(Math.max(0, EQUITY_CURVE.length - 1)).toFixed(1)} ${H} L${pad} ${H} Z`;
     
     return { pathData: line, areaData: area, lastPoint: pts[pts.length - 1] ?? [0,0] };
   }, []);
@@ -84,7 +84,7 @@ export function MonumentCurve({ totalPnl, tournaments, roi, itmRate, verdict }: 
           <span className="int" id="monInt">{pnlInt}</span>
           <span className="cents">.{pnlDec || '00'}</span>
         </div>
-        <div className="mon-verdict" dangerouslySetInnerHTML={{ __html: verdict }} />
+        <div className="mon-verdict">{verdict}</div>
       </div>
       <div className="mon-substats">
         <div className={`substat ${totalPnl >= 0 ? 'up' : 'loss'}`}>

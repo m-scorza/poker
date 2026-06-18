@@ -178,15 +178,19 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   if (hand.boardRiver) streets.push('river');
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60" onClick={onClose}>
-      {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions -- stopPropagation prevents the backdrop click from closing the modal when the user clicks inside the dialog body. */}
+    <div className="fixed inset-0 z-50 flex items-center justify-center">
+      <button
+        type="button"
+        aria-label="Close replay from backdrop"
+        className="absolute inset-0 h-full w-full cursor-default bg-black/60"
+        onClick={onClose}
+      />
       <div
         ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-labelledby="hand-replay-title"
-        className="bg-[var(--ink-2)] border border-[var(--hairline)] rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto"
-        onClick={(e) => e.stopPropagation()}
+        className="relative bg-[var(--ink-2)] border border-[var(--hairline)] rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto"
       >
         {/* Header */}
         <div className="flex items-center justify-between mb-4">

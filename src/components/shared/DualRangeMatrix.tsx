@@ -70,6 +70,7 @@ interface MirrorCellProps {
   cell: RangeCellData | undefined;
   isSelected: boolean;
   onMouseEnter: (handKey: string) => void;
+  onMouseLeave: () => void;
   onClick: (handKey: string) => void;
 }
 
@@ -78,6 +79,7 @@ const MirrorCell = memo(function MirrorCell({
   cell,
   isSelected,
   onMouseEnter,
+  onMouseLeave,
   onClick,
 }: MirrorCellProps) {
   const hasData = cell && cell.totalInstances > 0;
@@ -97,6 +99,7 @@ const MirrorCell = memo(function MirrorCell({
   return (
     <button
       onMouseEnter={() => onMouseEnter(handKey)}
+      onMouseLeave={onMouseLeave}
       onClick={() => onClick(handKey)}
       className={clsx(
         'mc', stateClass,
@@ -175,7 +178,6 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
         <div 
           className="inline-grid gap-[2px] bg-black/20 p-1.5 rounded-lg border border-white/5" 
           style={{ gridTemplateColumns: `repeat(13, 1fr)` }}
-          onMouseLeave={handleMouseLeaveMirror}
         >
           {RANKS.map((_, row) =>
             RANKS.map((_, col) => {
@@ -190,6 +192,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
                   cell={cell}
                   isSelected={isSelected}
                   onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeaveMirror}
                   onClick={handleCellClick}
                 />
               );
