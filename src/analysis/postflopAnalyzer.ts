@@ -288,12 +288,20 @@ export function analyzePostflop(
   } else {
     // Hero was NOT PFR — check for exploitative spots
 
-    // Bet vs missed c-bet: villain was PFR, checked, hero should bet 100%
+    // Bet vs missed c-bet: villain was PFR, checked, hero should bet 100%.
+    // Require the checking villain to actually have been the preflop raiser —
+    // otherwise this fires in limped pots (no PFR), flagging a normal
+    // check-back as a "missed exploit vs missed c-bet" when there was no
+    // c-bet to miss (B2).
     const villainFlopActions = flopActions.filter((a) => a.playerName !== heroName);
+    const villainNames = new Set(villainFlopActions.map((a) => a.playerName));
+    const villainWasPFR = actions.some(
+      (a) => a.street === 'preflop' && a.actionType === 'raise' && villainNames.has(a.playerName),
+    );
     const villainCheckedFlop = villainFlopActions.some((a) => a.actionType === 'check');
     const heroBetFlop = heroFlopActions.some((a) => a.actionType === 'bet');
 
-    if (isHU && villainCheckedFlop && heroInPositionOnFlop) {
+    if (isHU && villainWasPFR && villainCheckedFlop && heroInPositionOnFlop) {
       spots.push({
         spot: 'BET_VS_MISSED_CBET',
         street: 'flop',

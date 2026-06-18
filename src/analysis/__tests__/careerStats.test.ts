@@ -2,9 +2,20 @@ import { describe, it, expect } from 'vitest';
 import {
   classifyTournamentFormat,
   computeFormatBreakdown,
-  computeCareerStreaks
+  computeCareerStreaks,
+  computeLifetimeRoi,
+  estimateHourlyRate,
+  ASSUMED_HANDS_PER_HOUR,
 } from '../careerStats';
 import type { Tournament } from '../../types/hand';
+
+function makeTourney(overrides: Partial<Tournament> = {}): Tournament {
+  return {
+    id: 't', name: '', buyIn: 10, fee: 1, format: '9-Max',
+    finishPosition: null, prize: 0, bounty: 0, handsPlayed: 0,
+    currency: 'USD', ...overrides,
+  } as Tournament;
+}
 
 describe('careerStats helpers', () => {
   describe('classifyTournamentFormat', () => {
@@ -78,6 +89,43 @@ describe('careerStats helpers', () => {
       expect(streaks.currentWinStreak).toBe(1); // tourn 6 is a win
       expect(streaks.longestWinStreak).toBe(2); // tourns 2 and 3
       expect(streaks.longestCashlessStreak).toBe(1); // only tourn 4 was cashless
+    });
+  });
+
+  describe('computeLifetimeRoi (A5)', () => {
+    it('uses full entry cost (buy-in + fee) as the basis', () => {
+      // One $10+$1 entry that returned $100: net = 100 - 11 = 89, cost = 11.
+      // ROI = 89/11 ~= 809.1%. The old buy-in-only formula gave 900%.
+      const roi = computeLifetimeRoi([makeTourney({ buyIn: 10, fee: 1, prize: 100 })]);
+      expect(roi).toBeCloseTo((89 / 11) * 100, 5);
+      expect(roi).toBeLessThan(900); // not the inflated buy-in-only figure
+    });
+
+    it('returns -100% when every cash entry busts', () => {
+      const roi = computeLifetimeRoi([
+        makeTourney({ buyIn: 10, fee: 1, prize: 0 }),
+        makeTourney({ buyIn: 20, fee: 2, prize: 0 }),
+      ]);
+      expect(roi).toBeCloseTo(-100, 5);
+    });
+
+    it('ignores play-money tournaments and returns 0 with no cash entries', () => {
+      expect(computeLifetimeRoi([makeTourney({ currency: 'PLAY', prize: 999 })])).toBe(0);
+      expect(computeLifetimeRoi([])).toBe(0);
+    });
+  });
+
+  describe('estimateHourlyRate (A5)', () => {
+    it('uses the assumed hands-per-hour constant', () => {
+      // net = 100 - 11 = 89 over ASSUMED_HANDS_PER_HOUR hands = 1 hour.
+      const rate = estimateHourlyRate([
+        makeTourney({ buyIn: 10, fee: 1, prize: 100, handsPlayed: ASSUMED_HANDS_PER_HOUR }),
+      ]);
+      expect(rate).toBeCloseTo(89, 5);
+    });
+
+    it('returns 0 when no hands were played', () => {
+      expect(estimateHourlyRate([makeTourney({ handsPlayed: 0 })])).toBe(0);
     });
   });
 });
