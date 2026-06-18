@@ -28,7 +28,7 @@ function hasAggressionBeforePlayer(actions: Action[], playerName: string): boole
   );
 }
 
-function computePotBeforeStreet(actions: Action[], street: Action['street']): number {
+export function computePotBeforeStreet(actions: Action[], street: Action['street']): number {
   const streets: Action['street'][] = ['preflop', 'flop', 'turn', 'river'];
   const streetIdx = streets.indexOf(street);
   if (streetIdx <= 0) return 0;
