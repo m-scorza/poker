@@ -14,10 +14,12 @@ import {
   clearImportRuns,
 } from '../../data/store';
 import {
+  CHIP_ACCOUNTING_FIX_DATE,
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,
   buildImportDiagnosticsMarkdown,
   buildImportRunRecord,
   buildImportRunTimeline,
+  hasPreFixImportRuns,
   summarizeDataHealth,
   type ImportDiagnosticsEnvironment,
   type ImportConfidenceLedger,
@@ -414,6 +416,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const importRunTimeline = buildImportRunTimeline(recentImportRuns ?? []);
   const retainedImportRunCount = retainedImportRuns?.length ?? 0;
   const topWarningCategories = dataHealth.ledger.warningCategories.slice(0, 2);
+  const showPreFixNotice = hasPreFixImportRuns(retainedImportRuns ?? []);
 
   function downloadImportDiagnostics() {
     const markdown = buildImportDiagnosticsMarkdown(retainedImportRuns ?? [], {
@@ -550,6 +553,24 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             )}
           </div>
         </div>
+        {showPreFixNotice && (
+          <div className="mt-3 rounded border border-warn/30 bg-warn/10 p-3 text-[11px]">
+            <div className="font-semibold text-warn">Some imports predate a chip-accounting fix</div>
+            <div className="mt-1 text-[var(--fg-muted)]">
+              Imports before {CHIP_ACCOUNTING_FIX_DATE.toISOString().slice(0, 10)} were parsed with a
+              bug that mis-counted raises and uncalled bets, so their net P&amp;L and bb-denominated
+              metrics may be wrong in contested pots. Re-import those hand-history files to correct
+              them — duplicates are skipped by hand ID, so it&apos;s safe to drop the same files again.
+            </div>
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); fileRef.current?.click(); }}
+              className="mt-2 rounded border border-warn/30 bg-warn/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-warn hover:bg-warn/25 transition-colors cursor-pointer"
+            >
+              Re-import files
+            </button>
+          </div>
+        )}
         {dataHealth.status === 'ready' && (
           <>
             <div className="mt-3 grid grid-cols-2 gap-2 text-[var(--fg-muted)] md:grid-cols-4">
