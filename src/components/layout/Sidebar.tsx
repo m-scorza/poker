@@ -24,8 +24,8 @@ const NAV_ITEMS = [
 ];
 
 export function Sidebar() {
-  // Strategy profile drop-down kept from older design for now, just styled quietly
-  useAppStore();
+  const heroName = useAppStore((s) => s.heroName);
+  const initial = heroName.trim().charAt(0).toUpperCase() || '?';
 
   return (
     <aside className="fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-56 bg-[var(--color-ink)] border-t md:border-t-0 md:border-r border-[var(--color-hairline)] flex flex-row md:flex-col z-50 overflow-x-auto md:overflow-visible">
@@ -63,19 +63,11 @@ export function Sidebar() {
       </nav>
 
       <div className="hidden md:block px-5 py-6 mt-auto">
-        <div className="jewel mb-4">
-          <span className="kicker" style={{ fontSize: '9px' }}>Lifetime profit</span>
-          <div className="font-display font-extrabold text-[20px] text-[var(--color-money)] tracking-tight leading-none mt-1.5" style={{ textShadow: '0 0 20px rgba(52,217,140,0.40)' }}>+$388.85</div>
-          <div className="font-mono text-[10px] text-[var(--color-fg-muted)] mt-1.5 leading-snug">
-            +141.4% ROI · 250 tourneys
-          </div>
-        </div>
-        
         <div className="pt-4 border-t border-[var(--color-hairline)] flex items-center gap-3">
-          <div className="w-8 h-8 rounded-full bg-[var(--color-ink-3)] text-[var(--color-fg)] flex items-center justify-center font-display font-bold text-sm">S</div>
+          <div className="w-8 h-8 rounded-full bg-[var(--color-ink-3)] text-[var(--color-fg)] flex items-center justify-center font-display font-bold text-sm">{initial}</div>
           <div>
-            <div className="text-[13px] font-semibold text-[var(--color-fg)]">scorza23</div>
-            <div className="font-mono text-[10px] text-[var(--color-fg-dim)] mt-0.5">Grinder · B+</div>
+            <div className="text-[13px] font-semibold text-[var(--color-fg)]">{heroName}</div>
+            <div className="font-mono text-[10px] text-[var(--color-fg-dim)] mt-0.5">Hero</div>
           </div>
         </div>
       </div>

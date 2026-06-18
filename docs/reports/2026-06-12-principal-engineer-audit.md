@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76', '#84']
+related: ['#76', '#80', '#81', '#84', '#86', '#87']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -47,17 +47,17 @@ predate the 2026-06-11 reskin). Triage owner: repo owner.
   `heroChipsAfter`, `villainDeltas` and every bb-metric are wrong in contested
   hands. **Re-verified live on `main` 2026-06-14** (zero handling in
   `src/parser/`; 89 fixtures contain the line).
-- **CQ-1 — fabricated stats in shipped UI** (`Sidebar.tsx`, `DashboardPage.tsx`):
-  hardcoded profit/ROI/BB-100/"Confidence: High"/identity. Trust-killer.
-- **CQ-2 — 100× display bug** (`CareerPage.tsx:578`): VPIP/PFR multiplied by 100 twice.
 - **CQ-4 — per-hand parse failures invisible to the confidence ledger.**
-- **Aggregate postflop counters contradict the spot-level ledger fixes**
-  (OOP checks vs a 100% c-bet target; phantom missed-c-bet in limped pots).
 
 Full detail and the rest: Executive summary, §1.3–1.5, and the §5 EPIC A–H
 breakdown below. Flip `status: resolved` once these are tracked/closed.
 
-**Addressed (in review):** CQ-3 wedge-able import overlay — PR #84.
+**Addressed (in review):**
+- CQ-1 fabricated UI stats — PR #80.
+- CQ-2 100× VPIP/PFR display bug — PR #81.
+- CQ-3 wedge-able import overlay — PR #84.
+- Aggregate postflop counters — B2 phantom missed-c-bet in limped pots (PR #86)
+  + B1 OOP checks vs the 100% HU c-bet target (PR #87).
 
 ## Executive summary
 
