@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76', '#78']
+related: ['#76', '#78', '#80', '#81', '#84', '#85', '#86', '#87']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -42,22 +42,29 @@ None of this is tracked in STATUS/ROADMAP yet. Severities are **as reported on
 2026-06-12** — re-verify against current `main` before acting (several UI findings
 predate the 2026-06-11 reskin). Triage owner: repo owner.
 
-- **CQ-1 — fabricated stats in shipped UI** (`Sidebar.tsx`, `DashboardPage.tsx`):
-  hardcoded profit/ROI/BB-100/"Confidence: High"/identity. Trust-killer.
-- **CQ-2 — 100× display bug** (`CareerPage.tsx:578`): VPIP/PFR multiplied by 100 twice.
-- **CQ-3 — import success path can wedge the UI** (`HandsUpload.tsx` async
-  `onmessage`, no try/catch around the Dexie writes).
-- **CQ-4 — per-hand parse failures invisible to the confidence ledger.**
-- **Aggregate postflop counters contradict the spot-level ledger fixes**
-  (OOP checks vs a 100% c-bet target; phantom missed-c-bet in limped pots).
+All original top-level findings below have been addressed (see "Addressed"
+list). Remaining open follow-ups surfaced while landing the batch:
+
+- **EPIC A2 — conservation-invariant fixture sweep** (follow-up to the EPIC A1
+  chip-accounting fix in PR #78): assert Σ all-player nets === 0 across the
+  fixture corpus.
+- **`villainDeltas` drops a sitting-out player who returns** (10 fixture hands;
+  surfaced while landing PR #78).
 
 Full detail and the rest: Executive summary, §1.3–1.5, and the §5 EPIC A–H
 breakdown below. Flip `status: resolved` once these are tracked/closed.
 
-**Addressed (in review):** EPIC A1 parser chip accounting (raise
-investment + uncalled bets) — PR #78 (draft). The A2 conservation-invariant
-sweep and the newly-found "sitting-out player who returns is dropped from
-`villainDeltas`" residual (10 fixture hands) remain open follow-ups.
+**Addressed (in review):**
+- CQ-1 fabricated UI stats — PR #80.
+- CQ-2 100× VPIP/PFR display bug — PR #81.
+- CQ-3 wedge-able import overlay — PR #84.
+- CQ-4 invisible per-hand parse drops — PR #85.
+- Aggregate postflop counters — B2 phantom missed-c-bet in limped pots (PR #86)
+  + B1 OOP checks vs the 100% HU c-bet target (PR #87).
+- EPIC A1 parser chip accounting (raise investment + uncalled bets) — PR #78.
+  The A2 conservation-invariant sweep and the "sitting-out player who returns
+  is dropped from `villainDeltas`" residual (10 fixture hands) remain open
+  follow-ups (listed above).
 
 ## Executive summary
 

@@ -13,5 +13,15 @@ function postWorkerMessage(message: WorkerMessage): void {
 }
 
 ctx.onmessage = async (e) => {
-  await processWorkerFiles(e.data, postWorkerMessage);
+  try {
+    await processWorkerFiles(e.data, postWorkerMessage);
+  } catch (err) {
+    // An unhandled rejection here would never reach the main thread (worker
+    // onerror does not reliably fire for async rejections), wedging the import
+    // overlay forever. Surface it as a FATAL_ERROR the component can recover from.
+    postWorkerMessage({
+      type: 'FATAL_ERROR',
+      error: err instanceof Error ? err.message : String(err),
+    });
+  }
 };

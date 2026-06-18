@@ -1,6 +1,6 @@
 import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import type { Position } from '../types/analysis';
-import type { ParsedHand } from './pokerstars';
+import type { ParsedHand, ParseFileResult } from './pokerstars';
 import type { ParsedTournamentSummary } from './tournamentSummary';
 import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
@@ -29,7 +29,14 @@ export function parseGGPokerFile(
   fileContent: string,
   heroName: string = 'scorza23'
 ): ParsedHand[] {
-  if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return [];
+  return parseGGPokerFileWithDiagnostics(fileContent, heroName).hands;
+}
+
+export function parseGGPokerFileWithDiagnostics(
+  fileContent: string,
+  heroName: string = 'scorza23'
+): ParseFileResult {
+  if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return { hands: [], skippedBlocks: 0 };
   const content = fileContent
     .replace(/^\uFEFF/, '')
     .replace(/\r\n/g, '\n')
@@ -44,6 +51,7 @@ export function parseGGPokerFile(
     );
   });
   const results: ParsedHand[] = [];
+  let skippedBlocks = 0;
 
   for (const block of blocks) {
     try {
@@ -55,7 +63,7 @@ export function parseGGPokerFile(
         l.includes('Hand #')
       ) || '';
       const handIdMatch = RE_HAND_ID.exec(headerLine);
-      if (!handIdMatch) continue;
+      if (!handIdMatch) { skippedBlocks++; continue; }
 
       const handId = handIdMatch[1]!;
       const tMatch = RE_TOURNAMENT_ID.exec(headerLine);
@@ -318,11 +326,12 @@ export function parseGGPokerFile(
       });
 
     } catch (err) {
+      skippedBlocks++;
       console.error(`Error parsing GGPoker hand:`, err);
     }
   }
 
-  return results;
+  return { hands: results, skippedBlocks };
 }
 
 /** Stub for GGPoker Tournament Summary parser. */

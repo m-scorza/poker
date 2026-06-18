@@ -105,10 +105,10 @@ describe('estimateICMStageFromHand', () => {
 });
 
 describe('icmStageLabel', () => {
-  it('returns English labels', () => {
-    expect(icmStageLabel('early')).toBe('Early');
-    expect(icmStageLabel('bubble')).toBe('Bubble');
-    expect(icmStageLabel('final_table')).toBe('Final Table');
+  it('returns English labels qualified as estimates (B10)', () => {
+    expect(icmStageLabel('early')).toBe('Early (est.)');
+    expect(icmStageLabel('bubble')).toBe('Bubble (est.)');
+    expect(icmStageLabel('final_table')).toBe('Final Table (est.)');
   });
 });
 

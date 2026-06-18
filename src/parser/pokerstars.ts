@@ -58,11 +58,30 @@ const RE_BOUNTY_WINS = /^(.+?) wins (?:the )?(?:\$([\d.]+)|[\d.]+|) (?:bounty )?
  */
 export const MAX_HAND_HISTORY_INPUT_BYTES = 20 * 1024 * 1024;
 
+/** Result of a file parse, including how many hand blocks were dropped. */
+export interface ParseFileResult {
+  hands: ParsedHand[];
+  /**
+   * Blocks that carried a `Hand #` header (i.e. were meant to be hands) but
+   * could not be parsed — either they threw or produced no hand. Duplicates do
+   * not count. Surfaced so the import confidence ledger can report silent
+   * per-hand drops instead of claiming "high confidence" (CQ-4).
+   */
+  skippedBlocks: number;
+}
+
 export function parsePokerStarsFile(
   fileContent: string,
   heroName: string = 'scorza23',
 ): ParsedHand[] {
-  if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return [];
+  return parsePokerStarsFileWithDiagnostics(fileContent, heroName).hands;
+}
+
+export function parsePokerStarsFileWithDiagnostics(
+  fileContent: string,
+  heroName: string = 'scorza23',
+): ParseFileResult {
+  if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return { hands: [], skippedBlocks: 0 };
   // Bug #6: Strip UTF-8 BOM + normalize line endings (CRLF → LF)
   const content = fileContent
     .replace(/^\uFEFF/, '')
@@ -74,11 +93,18 @@ export function parsePokerStarsFile(
 
   const results: ParsedHand[] = [];
   const seenIds = new Set<string>();
+  let skippedBlocks = 0;
 
   for (const block of blocks) {
+    // A block carrying a `Hand #` header is meant to be a hand; if it fails to
+    // parse we count it as skipped rather than dropping it silently (CQ-4).
+    const looksLikeHand = RE_HAND_ID.test(block);
     try {
       const parsed = parseHandBlock(block, heroName);
-      if (!parsed) continue;
+      if (!parsed) {
+        if (looksLikeHand) skippedBlocks++;
+        continue;
+      }
 
       // Bug #5: Deduplicate by hand ID
       if (seenIds.has(parsed.hand.id)) continue;
@@ -86,13 +112,14 @@ export function parsePokerStarsFile(
 
       results.push(parsed);
     } catch (err) {
+      if (looksLikeHand) skippedBlocks++;
       console.warn('Failed to parse hand block:', err);
       // Graceful degradation: skip unparseable hands, don't crash the file
       continue;
     }
   }
 
-  return results;
+  return { hands: results, skippedBlocks };
 }
 
 function parseHandBlock(block: string, heroName: string): ParsedHand | null {

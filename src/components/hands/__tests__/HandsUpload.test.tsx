@@ -174,4 +174,60 @@ describe('HandsUpload', () => {
     expect(useAppStore.getState().totalHands).toBe(3);
     expect(useAppStore.getState().isImporting).toBe(false);
   });
+
+  // CQ-3: a Dexie write failure on the COMPLETE path must not wedge the overlay.
+  it('clears the import overlay and surfaces an error when the DB write fails', async () => {
+    storeMocks.importHands.mockRejectedValue(new Error('QuotaExceededError'));
+    const onUploadSuccess = vi.fn();
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={onUploadSuccess} />);
+
+    selectFiles(container, [makeFile('hand.txt', "PokerStars Hand #1: Hold'em No Limit")]);
+
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    const worker = MockWorker.instances[0]!;
+
+    const completeMessage: WorkerMessage = {
+      type: 'COMPLETE',
+      hands: [],
+      summaries: [],
+      importSummary: {
+        totalFiles: 1,
+        parsedFiles: 1,
+        failedFiles: 0,
+        handsFound: 0,
+        summariesFound: 0,
+        confidence: 'high',
+        warnings: [],
+      },
+    };
+
+    await act(async () => {
+      worker.onmessage?.({ data: completeMessage } as MessageEvent<WorkerMessage>);
+    });
+
+    expect(await findByText(/saving failed/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(onUploadSuccess).not.toHaveBeenCalled();
+    expect(worker.terminate).toHaveBeenCalled();
+  });
+
+  // CQ-3: a FATAL_ERROR from the worker must clear the overlay and report it.
+  it('clears the overlay and reports a FATAL_ERROR from the worker', async () => {
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+
+    selectFiles(container, [makeFile('hand.txt', "PokerStars Hand #1: Hold'em No Limit")]);
+
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    const worker = MockWorker.instances[0]!;
+
+    await act(async () => {
+      worker.onmessage?.({
+        data: { type: 'FATAL_ERROR', error: 'worker exploded' },
+      } as MessageEvent<WorkerMessage>);
+    });
+
+    expect(await findByText(/worker exploded/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(worker.terminate).toHaveBeenCalled();
+  });
 });

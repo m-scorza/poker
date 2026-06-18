@@ -161,6 +161,30 @@ describe('groupIntoSessions', () => {
     expect(session!.roi).toBeCloseTo((16 / 16.5) * 100);
   });
 
+  it('does not double-count a tournament that spans a session gap (A5)', () => {
+    // One tournament, two hands split by a 6h gap → two sessions. Its buy-in
+    // and prize must be counted once, in the session holding the last hand.
+    const hands = [
+      makeHand('1', '2026-04-05T10:00:00Z', 'T1'),
+      makeHand('2', '2026-04-05T16:00:00Z', 'T1'),
+    ];
+    const decisions = new Map(hands.map((h) => [h.id, makeDecision(h.id)]));
+    const tournaments = new Map<string, Tournament>([
+      ['T1', makeTournament('T1', { buyIn: 10, fee: 1, prize: 50, bounty: 0, currency: 'USD' })],
+    ]);
+
+    const sessions = groupIntoSessions(hands, decisions, tournaments);
+    expect(sessions).toHaveLength(2);
+    // First session (earlier hand) carries no tournament money.
+    expect(sessions[0]!.buyIns).toBe(0);
+    expect(sessions[0]!.prizes).toBe(0);
+    // Last session (where the tournament finished) carries it all, once.
+    expect(sessions[1]!.buyIns).toBeCloseTo(11);
+    expect(sessions[1]!.prizes).toBeCloseTo(50);
+    // Total across sessions is the single entry, not double.
+    expect(sessions[0]!.buyIns + sessions[1]!.buyIns).toBeCloseTo(11);
+  });
+
   it('excludes non-cash tournament currencies from session financials', () => {
     const hands = [
       makeHand('1', '2026-04-05T10:00:00Z', 'CASH'),

@@ -55,6 +55,14 @@ export function groupIntoSessions(
   // Sort by date ascending
   const sorted = [...hands].sort((a, b) => a.date.getTime() - b.date.getTime());
 
+  // A tournament's buy-in/prize must be counted once, not once per session it
+  // touches. If a tournament's hands straddle a session gap, attribute its
+  // money to the session that holds its *last* hand (where it finished).
+  const lastHandIdByTournament = new Map<string, string>();
+  for (const hand of sorted) {
+    if (hand.tournamentId) lastHandIdByTournament.set(hand.tournamentId, hand.id);
+  }
+
   const sessions: Session[] = [];
   let currentHands: Hand[] = [sorted[0]!];
 
@@ -64,7 +72,7 @@ export function groupIntoSessions(
     const gap = hand.date.getTime() - prevHand.date.getTime();
 
     if (gap > gapMs) {
-      sessions.push(buildSession(currentHands, decisions, tournaments, sessions.length));
+      sessions.push(buildSession(currentHands, decisions, tournaments, sessions.length, lastHandIdByTournament));
       currentHands = [hand];
     } else {
       currentHands.push(hand);
@@ -72,7 +80,7 @@ export function groupIntoSessions(
   }
 
   if (currentHands.length > 0) {
-    sessions.push(buildSession(currentHands, decisions, tournaments, sessions.length));
+    sessions.push(buildSession(currentHands, decisions, tournaments, sessions.length, lastHandIdByTournament));
   }
 
   return sessions;
@@ -83,8 +91,10 @@ function buildSession(
   decisions: Map<string, HeroDecision>,
   tournaments: Map<string, Tournament>,
   index: number,
+  lastHandIdByTournament?: Map<string, string>,
 ): Session {
   const tournamentIds = [...new Set(hands.map((h) => h.tournamentId))];
+  const sessionHandIds = new Set(hands.map((h) => h.id));
   const sessionDecisions = hands
     .map((h) => decisions.get(h.id))
     .filter((d): d is HeroDecision => d !== undefined);
@@ -93,10 +103,14 @@ function buildSession(
   let prizes = 0;
   for (const tid of tournamentIds) {
     const t = tournaments.get(tid);
-    if (t) {
-      buyIns += getTournamentCost(t);
-      prizes += getTournamentRevenue(t);
-    }
+    if (!t) continue;
+    // Count a tournament's money only in the session holding its last hand, so
+    // a tournament spanning a session gap isn't double-counted. When no global
+    // map is supplied (single-session callers), fall back to counting it here.
+    const lastHandId = lastHandIdByTournament?.get(tid);
+    if (lastHandId && !sessionHandIds.has(lastHandId)) continue;
+    buyIns += getTournamentCost(t);
+    prizes += getTournamentRevenue(t);
   }
   const pnl = prizes - buyIns;
   const roi = buyIns > 0 ? (pnl / buyIns) * 100 : 0;
