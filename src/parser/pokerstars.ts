@@ -552,6 +552,16 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
   const heroPutIn = heroSeat ? (totalInvested.get(heroName) ?? 0) : 0;
   const heroWon = heroSeat ? (collectedAmounts.get(heroName) ?? 0) : 0;
 
+  // Every non-hero who put chips in or took chips out — including players who
+  // sat out but still posted antes/blinds (and so are excluded from `seats`).
+  // Without them the per-hand net sum wouldn't conserve to −rake. (A2)
+  const villainNames = new Set<string>([
+    ...seats.map((s) => s.playerName),
+    ...totalInvested.keys(),
+    ...collectedAmounts.keys(),
+  ]);
+  villainNames.delete(heroName);
+
   // Build Hand object
   const hand: Hand = {
     id: handId,
@@ -572,13 +582,11 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     hasShowdown,
     heroChipsBefore: heroSeat?.chips ?? 0,
     heroChipsAfter: heroSeat ? (Math.round(heroSeat.chips * 100) - heroPutIn + heroWon) / 100 : 0,
-    villainDeltas: seats
-      .filter((s) => s.playerName !== heroName)
-      .map((s) => {
-        const invested = totalInvested.get(s.playerName) ?? 0;
-        const won = collectedAmounts.get(s.playerName) ?? 0;
-        return { name: s.playerName, net: (won - invested) / 100 };
-      }),
+    villainDeltas: [...villainNames].map((name) => {
+      const invested = totalInvested.get(name) ?? 0;
+      const won = collectedAmounts.get(name) ?? 0;
+      return { name, net: (won - invested) / 100 };
+    }),
     bountyCollected: handBountyCents > 0 ? centsToUsd(handBountyCents) : null,
   };
 

@@ -15,13 +15,15 @@ true first, then build the coach loop** — both, sequenced.
 
 ### Act I — Make the numbers true (correctness foundation)
 
-- [ ] **I-1 · Parser chip accounting (EPIC A1)** — keystone. Per-street
-      committed-chips + `Uncalled bet … returned` handling in `pokerstars.ts`
-      and `ggpoker.ts`. **In review: PR #94** (corpus chip conservation rose
-      324 → 3048 / 3285 hands). The bug stays live on `main` until it merges.
-- [ ] **I-2 · Conservation invariant in CI (EPIC A2)** — wire `Σ invested == pot`
-      into `fixtureSweep.test.ts`; triage the ~237 residual hands (sitting-out /
-      returned players dropped from the seated projection).
+- [x] **I-1 · Parser chip accounting (EPIC A1)** — keystone. ✅ **Merged
+      (PR #94, 2026-06-20):** per-street committed-chips + `Uncalled bet …
+      returned` handling in `pokerstars.ts` and `ggpoker.ts`. Corpus chip
+      conservation rose 324 → 3048 / 3285 hands.
+- [x] **I-2 · Conservation invariant in CI (EPIC A2)** — ✅ done in this PR: a
+      `Σ nets === −rake` sweep guards `fixtureSweep.test.ts`. The ~237 residuals
+      were sitting-out players dropped from `villainDeltas`; now reincluded, so
+      all 3285 hero-seated hands conserve. Carve-out: sit-out-*hero* hands
+      (no seat → dead-ante non-event) are excluded and documented in the test.
 - [ ] **I-3 · `FACING_3BET` scenario (EPIC B4)** — stop grading
       cold-call-vs-(open+3bet) against a single-open range (`scenarioDetector.ts`,
       `rangeChecker.ts`, `leakDetector.ts`).

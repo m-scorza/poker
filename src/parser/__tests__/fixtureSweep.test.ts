@@ -110,6 +110,37 @@ describe('fixture sweep — pokerstars/hh', () => {
       }
     }
   }, 300_000);
+
+  // Chip conservation (EPIC A2): in every hand, chips in === chips out, so the
+  // sum of every player's net (hero + all villains, including sat-out players
+  // who posted antes) must equal −rake. This is the corpus-wide guard against
+  // any regression of the A1 raise / uncalled-bet accounting.
+  it('conserves chips in every parsed hand (Σ nets === −rake)', () => {
+    let checked = 0;
+    let skippedSitOutHero = 0;
+    for (const filename of files) {
+      const raw = readUtf8(join(HH_DIR, filename));
+      for (const { hand } of parsePokerStarsFile(raw)) {
+        // Documented carve-out: when the hero is sitting out it has no seat, so
+        // the parser reports heroChipsBefore/After = 0 (a dead-ante non-event,
+        // not a hand the hero played) and its posted ante is unattributable.
+        // Fixing it would mint an involuntary auto-fold hero decision and skew
+        // fold stats. Villain-only sit-outs still conserve via the villainDeltas
+        // union, so they remain checked.
+        if (hand.heroChipsBefore === 0) { skippedSitOutHero++; continue; }
+        const heroNet = hand.heroChipsAfter - hand.heroChipsBefore;
+        const villainNet = hand.villainDeltas.reduce((sum, v) => sum + v.net, 0);
+        expect(
+          Math.abs(heroNet + villainNet + hand.rake),
+          `${filename} #${hand.id}`,
+        ).toBeLessThan(0.005);
+        checked++;
+      }
+    }
+    // The corpus is ~3285 hands; the sit-out-hero carve-out is a small minority.
+    expect(checked).toBeGreaterThan(3000);
+    expect(skippedSitOutHero).toBeLessThan(checked);
+  }, 300_000);
 });
 
 describe('fixture sweep — pokerstars/ts', () => {
