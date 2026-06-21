@@ -9,6 +9,8 @@ import {
   buildImportRunRecord,
   buildImportRunTimeline,
   categorizeImportWarning,
+  CHIP_ACCOUNTING_FIX_DATE,
+  hasPreFixImportRuns,
   sanitizeDiagnosticSourceFile,
   sanitizeDiagnosticText,
   summarizeDataHealth,
@@ -23,6 +25,28 @@ const baseSummary: ImportSummary = {
   confidence: 'medium',
   warnings: ['bad.txt: unsupported file', 'summary.txt: missing finish position'],
 };
+
+describe('hasPreFixImportRuns (EPIC A1)', () => {
+  const counts = { savedHands: 1, savedSummaries: 0 };
+  const run = (importedAt: Date) =>
+    buildImportRunRecord(baseSummary, ['a.txt'], counts, importedAt);
+
+  it('flags a run recorded before the chip-accounting fix', () => {
+    expect(hasPreFixImportRuns([run(new Date('2026-06-01T00:00:00.000Z'))])).toBe(true);
+  });
+
+  it('does not flag runs recorded on or after the fix date', () => {
+    expect(hasPreFixImportRuns([run(new Date('2026-06-20T00:00:00.000Z'))])).toBe(false);
+    expect(hasPreFixImportRuns([run(CHIP_ACCOUNTING_FIX_DATE)])).toBe(false);
+  });
+
+  it('flags a mixed set if any run predates the fix, and treats empty as clean', () => {
+    const before = run(new Date('2026-05-01T00:00:00.000Z'));
+    const after = run(new Date('2026-06-20T00:00:00.000Z'));
+    expect(hasPreFixImportRuns([after, before])).toBe(true);
+    expect(hasPreFixImportRuns([])).toBe(false);
+  });
+});
 
 async function loadIsolatedImportRunPersistence() {
   vi.resetModules();

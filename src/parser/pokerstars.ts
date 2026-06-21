@@ -50,6 +50,7 @@ const RE_RAISES = /^(.+?): raises \$?([\d.]+) to \$?([\d.]+)/;
 const RE_BETS = /^(.+?): bets \$?([\d.]+)/;
 const RE_ALL_IN = /and is all-in/;
 const RE_BOUNTY_WINS = /^(.+?) wins (?:the )?(?:\$([\d.]+)|[\d.]+|) (?:bounty )?for eliminating/;
+const RE_UNCALLED = /^Uncalled bet \(\$?([\d.,]+)\) returned to (.+)$/;
 
 /**
  * Parse a PokerStars hand history file into structured data.
@@ -244,6 +245,15 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     totalInvested.set(name, (totalInvested.get(name) ?? 0) + amountCents);
   };
 
+  // Chips each player has committed on the CURRENT street. A `raises X to Y`
+  // commits Y − (their current street level), not the file's "by" amount X;
+  // bets/calls add their full amount; blinds seed it; it resets each street. (A1)
+  const streetCommitted = new Map<string, number>();
+  const addToStreet = (name: string, amountCents: number) => {
+    if (isNaN(amountCents)) return;
+    streetCommitted.set(name, (streetCommitted.get(name) ?? 0) + amountCents);
+  };
+
   // Hero cards pattern
   const reHeroCards = new RegExp(
     `Dealt to ${escapeRegex(heroName)} \\[([^\\]]+)\\]`,
@@ -253,6 +263,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     // Street markers
     if (line.startsWith('*** FLOP ***')) {
       currentStreet = 'flop';
+      streetCommitted.clear();
       const flopMatch = RE_FLOP.exec(line);
       if (flopMatch) {
         boardFlop = flopMatch[1]!.split(' ').map((c) => c.trim());
@@ -261,6 +272,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
     if (line.startsWith('*** TURN ***')) {
       currentStreet = 'turn';
+      streetCommitted.clear();
       const turnMatch = RE_TURN.exec(line);
       if (turnMatch) {
         boardTurn = turnMatch[1]!.trim();
@@ -269,6 +281,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     }
     if (line.startsWith('*** RIVER ***')) {
       currentStreet = 'river';
+      streetCommitted.clear();
       const riverMatch = RE_RIVER.exec(line);
       if (riverMatch) {
         boardRiver = riverMatch[1]!.trim();
@@ -315,6 +328,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (sbMatch) {
       const amountCents = Math.round(parseFloat(sbMatch[2]!) * 100);
       addInvestment(sbMatch[1]!, amountCents);
+      addToStreet(sbMatch[1]!, amountCents);
       actions.push({
         handId,
         street: 'preflop',
@@ -331,6 +345,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (buttonBlindMatch) {
       const amountCents = Math.round(parseFloat(buttonBlindMatch[2]!) * 100);
       addInvestment(buttonBlindMatch[1]!, amountCents);
+      addToStreet(buttonBlindMatch[1]!, amountCents);
       actions.push({
         handId,
         street: 'preflop',
@@ -347,6 +362,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (bbMatch) {
       const amountCents = Math.round(parseFloat(bbMatch[2]!) * 100);
       addInvestment(bbMatch[1]!, amountCents);
+      addToStreet(bbMatch[1]!, amountCents);
       actions.push({
         handId,
         street: 'preflop',
@@ -394,6 +410,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (callMatch) {
       const amountCents = Math.round(parseFloat(callMatch[2]!) * 100);
       addInvestment(callMatch[1]!, amountCents);
+      addToStreet(callMatch[1]!, amountCents);
       actions.push({
         handId,
         street: currentStreet,
@@ -408,13 +425,18 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     const raiseMatch = RE_RAISES.exec(line);
     if (raiseMatch) {
-      const addedCents = Math.round(parseFloat(raiseMatch[2]!) * 100);
+      const player = raiseMatch[1]!;
       const totalCents = Math.round(parseFloat(raiseMatch[3]!) * 100);
-      addInvestment(raiseMatch[1]!, addedCents);
+      // Chips added now = new street level − what this player already committed
+      // this street. The file's "by" amount (group 2) is wrong whenever the
+      // raiser already has chips in (blinds, 3-bets). (A1)
+      const addedCents = totalCents - (streetCommitted.get(player) ?? 0);
+      addInvestment(player, addedCents);
+      streetCommitted.set(player, totalCents);
       actions.push({
         handId,
         street: currentStreet,
-        playerName: raiseMatch[1]!,
+        playerName: player,
         actionType: 'raise',
         amount: totalCents / 100, // Store "to" amount
         isAllIn,
@@ -427,6 +449,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (betMatch) {
       const amountCents = Math.round(parseFloat(betMatch[2]!) * 100);
       addInvestment(betMatch[1]!, amountCents);
+      addToStreet(betMatch[1]!, amountCents);
       actions.push({
         handId,
         street: currentStreet,
@@ -509,6 +532,19 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
     if (prizeMatch) {
       const cents = parseUsdCents(prizeMatch[1]!);
       if (cents !== null) prize = centsToUsd(cents);
+    }
+  }
+
+  // Uncalled bets are returned to the bettor — wagered but never matched, so
+  // they aren't invested. Subtract them from the running total. (A1)
+  for (const line of lines) {
+    const uncalledMatch = RE_UNCALLED.exec(line);
+    if (uncalledMatch) {
+      const amountCents = Math.round(parseFloat(uncalledMatch[1]!.replace(/,/g, '')) * 100);
+      const name = uncalledMatch[2]!.trim();
+      if (!isNaN(amountCents)) {
+        totalInvested.set(name, (totalInvested.get(name) ?? 0) - amountCents);
+      }
     }
   }
 

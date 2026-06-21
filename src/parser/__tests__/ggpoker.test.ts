@@ -28,6 +28,7 @@ a81061d: calls 200
 *** FLOP *** [4h 9c Ts]
 a81061d: bets 120 and is all-in
 Hero: calls 3 and is all-in
+Uncalled bet (117) returned to a81061d
 *** SUMMARY ***
 Total pot 646 | Rake 0
 Board [4h 9c Ts Th 2s]
@@ -99,8 +100,23 @@ Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
     expect(hero?.position).toBe('CO');
 
     const villainDelta = hand.hand.villainDeltas.find(v => v.name === 'a81061d');
-    // Note: uncalled bet adjustment isn't implemented for GG yet, so invested=376, won=646
-    expect(villainDelta?.net).toBe(646 - 376); 
+    // a81061d: ante 16 + SB 40 + call 200 + bet 120 − uncalled 117 = 259 invested,
+    // won 646 → net +387 (EPIC A1: raise + uncalled-bet accounting).
+    expect(villainDelta?.net).toBe(646 - 259);
+  });
+
+  it('accounts for the preflop raiser and conserves chips (EPIC A1)', () => {
+    const hands = parseGGPokerFile(ggSample, 'scorza23');
+    const hand = hands[0]!.hand;
+
+    // Hero (CO): ante 16 + raise to 240 + flop call 3 all-in = 259 invested,
+    // won 0. Pre-fix the raise was counted as the "by" amount (160).
+    expect(hand.heroChipsAfter - hand.heroChipsBefore).toBe(-259);
+
+    // With both fixes every player's net sums to zero (rake 0).
+    const heroNet = hand.heroChipsAfter - hand.heroChipsBefore;
+    const villainNet = hand.villainDeltas.reduce((s, v) => s + v.net, 0);
+    expect(heroNet + villainNet).toBe(0);
   });
 
   it('correctly parses GGPoker Tournament Summary', () => {

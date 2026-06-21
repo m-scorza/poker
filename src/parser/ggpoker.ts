@@ -18,6 +18,7 @@ const RE_ACTION = /^(.+?): (folds|calls|checks|raises|posts small blind|posts bi
 const RE_BOARD = /Board \[(.+)\]/;
 const RE_WINNER = /Seat (\d+): (.+?) (?:\(.+?\))?\s*(?:showed \[(.+?)\] and won|won) \(([\d,]+)\)/g;
 const RE_TOTAL_POT = /Total pot ([\d,]+) \| Rake ([\d,]+)/;
+const RE_UNCALLED = /^Uncalled bet \(\$?([\d,]+)\) returned to (.+)$/;
 
 /**
  * Parse GGPoker Hand History files. Scaffold: produces a best-effort
@@ -125,6 +126,14 @@ export function parseGGPokerFileWithDiagnostics(
         totalInvested.set(name, (totalInvested.get(name) ?? 0) + amount);
       };
 
+      // Per-street committed chips, so a `raises X to Y` adds Y − (current
+      // street level), not the "by" amount X. Resets each street. (A1)
+      const streetCommitted = new Map<string, number>();
+      const addToStreet = (name: string, amount: number) => {
+        if (isNaN(amount)) return;
+        streetCommitted.set(name, (streetCommitted.get(name) ?? 0) + amount);
+      };
+
       const buttonLineMatch = RE_BUTTON.exec(block);
       if (buttonLineMatch) buttonSeat = parseInt(buttonLineMatch[1]!, 10);
 
@@ -159,9 +168,9 @@ export function parseGGPokerFileWithDiagnostics(
           continue;
         }
 
-        if (line.startsWith('*** FLOP ***')) { currentStreet = 'flop'; continue; }
-        if (line.startsWith('*** TURN ***')) { currentStreet = 'turn'; continue; }
-        if (line.startsWith('*** RIVER ***')) { currentStreet = 'river'; continue; }
+        if (line.startsWith('*** FLOP ***')) { currentStreet = 'flop'; streetCommitted.clear(); continue; }
+        if (line.startsWith('*** TURN ***')) { currentStreet = 'turn'; streetCommitted.clear(); continue; }
+        if (line.startsWith('*** RIVER ***')) { currentStreet = 'river'; streetCommitted.clear(); continue; }
         if (line.startsWith('*** SUMMARY ***')) break;
 
         const actionMatch = RE_ACTION.exec(line);
@@ -184,13 +193,25 @@ export function parseGGPokerFileWithDiagnostics(
              actionType = 'raise';
              const added = actionMatch[3] ? parseInt(actionMatch[3].replace(/,/g, ''), 10) : 0;
              const to = actionMatch[4] ? parseInt(actionMatch[4].replace(/,/g, ''), 10) : 0;
-             investment = added || to;
-             storedAmount = to || investment;
+             // Chips added = new street level − this player's current street
+             // commitment, not the file's "by" amount. (A1)
+             const target = to || added;
+             investment = target - (streetCommitted.get(name) ?? 0);
+             streetCommitted.set(name, target);
+             storedAmount = target;
           }
           else if (type === 'bets') actionType = 'bet';
           else continue;
 
           addInvestment(name, investment);
+          if (
+            actionType === 'post_sb' ||
+            actionType === 'post_bb' ||
+            actionType === 'call' ||
+            actionType === 'bet'
+          ) {
+            addToStreet(name, investment);
+          }
 
           actions.push({
             handId,
@@ -202,6 +223,19 @@ export function parseGGPokerFileWithDiagnostics(
             isAllIn: line.includes('all-in'),
           });
           continue;
+        }
+      }
+
+      // Uncalled bets are returned to the bettor — not invested. (A1)
+      for (const line of lines) {
+        const uncalledMatch = RE_UNCALLED.exec(line);
+        if (uncalledMatch) {
+          const amount = parseInt(uncalledMatch[1]!.replace(/,/g, ''), 10);
+          const rawName = uncalledMatch[2]!.trim();
+          const name = rawName === 'Hero' ? heroName : rawName;
+          if (!isNaN(amount)) {
+            totalInvested.set(name, (totalInvested.get(name) ?? 0) - amount);
+          }
         }
       }
 

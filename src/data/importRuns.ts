@@ -353,6 +353,25 @@ export function summarizeDataHealth(runs: ImportRunRecord[]): DataHealthSummary 
   };
 }
 
+/**
+ * Date the chip-accounting fix (EPIC A1) landed. Import runs recorded before
+ * this were parsed with the raise / uncalled-bet bug, so their stored net P&L
+ * and bb-denominated metrics can be wrong in contested pots.
+ */
+export const CHIP_ACCOUNTING_FIX_DATE = new Date('2026-06-18T00:00:00.000Z');
+
+/**
+ * True when any retained import run predates the chip-accounting fix and may
+ * therefore carry corrupted money metrics. Drives the re-import prompt in the
+ * Data Health panel; re-importing is safe because hands dedupe by hand ID.
+ */
+export function hasPreFixImportRuns(
+  runs: ImportRunRecord[],
+  fixDate: Date = CHIP_ACCOUNTING_FIX_DATE,
+): boolean {
+  return runs.some((run) => run.importedAt.getTime() < fixDate.getTime());
+}
+
 export function buildImportRunTimeline(runs: ImportRunRecord[]): ImportRunTimelineRow[] {
   const sorted = sortImportRunsNewestFirst(runs);
   return sorted.map((run) => {
