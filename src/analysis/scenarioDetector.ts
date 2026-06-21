@@ -138,6 +138,10 @@ export function detectScenario(
   const hasAllInRaise = actionsBefore.some(
     (a) => a.actionType === 'raise' && a.isAllIn,
   );
+  // ≥2 non-all-in raises before hero = an open + a 3-bet (or more). We have no
+  // 3-bet-defense / 4-bet ranges, so this is its own scenario (excluded from
+  // compliance) rather than graded against a single-open range. (B4)
+  const raiseCount = actionsBefore.filter((a) => a.actionType === 'raise').length;
   const hasLimp = actionsBefore.some((a) => a.actionType === 'call');
   const allFoldedBefore =
     actionsBefore.length === 0 ||
@@ -147,6 +151,9 @@ export function detectScenario(
   if (heroPosition === 'BB') {
     if (hasAllInRaise) {
       return { scenario: 'BB_VS_LARGE_RAISE', openerPosition };
+    }
+    if (raiseCount >= 2) {
+      return { scenario: 'FACING_3BET', openerPosition };
     }
     if (hasRaise) {
       // Check raise size relative to BB
@@ -180,6 +187,9 @@ export function detectScenario(
   // Non-blind positions
   if (hasAllInRaise) {
     return { scenario: 'FACING_ALL_IN', openerPosition };
+  }
+  if (raiseCount >= 2) {
+    return { scenario: 'FACING_3BET', openerPosition };
   }
   if (hasRaise) {
     return { scenario: 'FACING_RAISE', openerPosition };

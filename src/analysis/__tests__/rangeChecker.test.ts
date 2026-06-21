@@ -202,6 +202,18 @@ describe('checkCompliance — FACING_RAISE', () => {
   });
 });
 
+describe('checkCompliance — FACING_3BET (excluded, B4)', () => {
+  it('does not grade a cold-call vs (open + 3-bet) — no false OVERFOLD', () => {
+    const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'call', scenario: 'FACING_3BET', openerPosition: 'CO' });
+    expect(checkCompliance(d)).toBeNull();
+  });
+
+  it('does not grade a fold facing a 3-bet', () => {
+    const d = makeDecision({ position: 'HJ', handKey: 'AQo', action: 'fold', scenario: 'FACING_3BET', openerPosition: 'UTG' });
+    expect(checkCompliance(d)).toBeNull();
+  });
+});
+
 describe('checkCompliance — FACING_LIMP', () => {
   it('deviation: limp behind', () => {
     const d = makeDecision({ position: 'CO', handKey: 'AQs', action: 'call', scenario: 'FACING_LIMP' });

@@ -62,6 +62,7 @@ const SCENARIO_LABELS: Record<Scenario, string> = {
   BLIND_WAR: 'Blind war',
   HU_BTN: 'Heads-up BTN/SB',
   FACING_RAISE: 'Facing raise',
+  FACING_3BET: 'Facing 3-bet',
   FACING_ALL_IN: 'Facing all-in',
   FACING_LIMP: 'Facing limp',
   BB_VS_RAISE: 'BB vs raise',

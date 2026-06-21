@@ -24,9 +24,11 @@ true first, then build the coach loop** — both, sequenced.
       were sitting-out players dropped from `villainDeltas`; now reincluded, so
       all 3285 hero-seated hands conserve. Carve-out: sit-out-*hero* hands
       (no seat → dead-ante non-event) are excluded and documented in the test.
-- [ ] **I-3 · `FACING_3BET` scenario (EPIC B4)** — stop grading
-      cold-call-vs-(open+3bet) against a single-open range (`scenarioDetector.ts`,
-      `rangeChecker.ts`, `leakDetector.ts`).
+- [x] **I-3 · `FACING_3BET` scenario (EPIC B4)** — ✅ done in this PR:
+      `≥2 raises before hero → FACING_3BET`, excluded from compliance (no false
+      OVERFOLD, and facing-3bet spots no longer pollute `threeBetOpps`) until real
+      3-bet-defense ranges exist (see the "grade the excluded scenarios" reminder
+      under Gated / later).
 - [ ] **I-4 · Real leak denominators + honest confidence (EPIC B5)** —
       frequency = errors / opportunities; feed `calculateLeakConfidence` the true
       sample size (`leakDetector.ts`).
@@ -73,6 +75,14 @@ EPIC F perf ceiling (derived-stats layer, off-render-path equity), the rest of
 EPIC D (pipeline/fixture tests), A4 (re-entry / honest ITM), C4/C5 UI cleanup,
 and all of EPIC G (backend / sharing / payments / solver — each behind a
 `GOALS.md` gate). Revisit after Act I + the first Act II slice land.
+
+> **⏳ REMINDER — grade the excluded scenarios.** `FACING_3BET` (added in I-3)
+> and `FACING_ALL_IN` are currently **excluded** from range compliance — the
+> engine refuses to grade them rather than invent ranges. The future goal is to
+> **actually grade** both: real 3-bet-defense / 4-bet ranges for `FACING_3BET`,
+> and pot-odds + ICM for `FACING_ALL_IN`. Until then they surface via Act II
+> refusal-as-UI ("not graded, here's why"). See the header note in
+> `src/analysis/rangeChecker.ts`.
 
 ---
 

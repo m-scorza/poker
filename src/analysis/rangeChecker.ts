@@ -23,9 +23,14 @@ export interface ComplianceResult {
  *
  * Returns null for scenarios excluded from compliance (no binary correct answer):
  * - FACING_ALL_IN (depends on pot odds, ICM, stack dynamics)
+ * - FACING_3BET (no 3-bet-defense / 4-bet range data yet)
  * - BB_VS_LARGE_RAISE (facing 5x+ or all-in)
  * - BB_VS_LIMP (complex raise sizing decision)
  * - FACING_RAISE from BTN or BB (calling is acceptable)
+ *
+ * FUTURE (covenant follow-up, see docs/product/ROADMAP.md): replace the
+ * FACING_3BET and FACING_ALL_IN exclusions with real grading — 3-bet-defense /
+ * 4-bet ranges for FACING_3BET, pot-odds + ICM for FACING_ALL_IN.
  */
 export function checkCompliance(
   decision: HeroDecision,
@@ -58,7 +63,8 @@ export function checkCompliance(
       // No decision to evaluate
       return { isCompliant: true, deviationType: null };
 
-    // Excluded from compliance
+    // Excluded from compliance (no binary correct answer yet — see header note).
+    case 'FACING_3BET':
     case 'FACING_ALL_IN':
     case 'BB_VS_LARGE_RAISE':
     case 'BB_VS_LIMP':

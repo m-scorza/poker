@@ -4,7 +4,7 @@ import type { Position, Scenario } from '../../types/analysis';
 const POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP1', 'MP', 'MP2', 'HJ', 'CO', 'BTN', 'SB', 'BB', 'BTN/SB'];
 
 const SCENARIOS: Scenario[] = [
-  'RFI', 'BLIND_WAR', 'HU_BTN', 'FACING_RAISE', 'FACING_ALL_IN',
+  'RFI', 'BLIND_WAR', 'HU_BTN', 'FACING_RAISE', 'FACING_3BET', 'FACING_ALL_IN',
   'FACING_LIMP', 'BB_VS_RAISE', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP', 'WALK',
 ];
 
