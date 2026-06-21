@@ -15,7 +15,7 @@ stale three reviews running (see
 by the pre-commit `docs:check` hook — these counts cannot silently drift):
 
 - **Test files:** 67
-- **`it` / `test` calls (approximate):** 710
+- **`it` / `test` calls (approximate):** 711
 
 Run `npm test` for the live pass/fail tally. Dependency, route, source-tree,
 and test inventories below are regenerated from source.
@@ -209,17 +209,23 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
   - Financials: honest lifetime ROI + hourly estimate (A5 #88) and the session
     tournament double-count fix (A5 #90).
   - Hygiene: unused 3D deps removed (#82), Arena C-bet Clinic drill fixed (#83).
+- **Parser chip accounting — keystone (EPIC A1, PR #94, 2026-06-20)** —
+  per-street committed-chips + `Uncalled bet … returned` handling in
+  `pokerstars.ts` and `ggpoker.ts`. Net P&L, `villainDeltas`, and every
+  bb-denominated metric are now correct in contested pots; corpus chip
+  conservation rose 324 → 3048 / 3285 hands.
+- **Chip-conservation invariant (EPIC A2)** — `fixtureSweep.test.ts` now asserts
+  `Σ nets === −rake` per hand; sitting-out players are reincluded in
+  `villainDeltas` so all 3285 hero-seated hands conserve (sit-out-hero dead-ante
+  non-events are a documented carve-out).
 
 ## Open follow-ups
 
 The current prioritised punch list lives in `ROADMAP.md` › **Active Covenant**
 (Act I correctness → Act II coach loop). Headline open items:
 
-- **Parser chip accounting (EPIC A1)** — the keystone correctness fix is **in
-  review as PR #94**, not yet merged. Until it lands, net P&L, `villainDeltas`,
-  and every bb-denominated metric are wrong in contested pots on `main`.
-- **Conservation invariant + residuals (A2)**, **`FACING_3BET` (B4)**, and
-  **honest leak denominators (B5)** are the next correctness items.
+- **`FACING_3BET` (B4)** and **honest leak denominators (B5)** are the next
+  correctness items in the covenant's Act I.
 - Solver-validated per-pair facing-raise charts remain a strategy-data
   follow-up. Current reaction coverage is explicit and rule-based, not
   solver-backed.
@@ -451,7 +457,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 67
-**`it` / `test` calls (approximate):** 710
+**`it` / `test` calls (approximate):** 711
 
 ```
 src/__tests__/App.test.tsx

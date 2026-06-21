@@ -290,6 +290,15 @@ export function parseGGPokerFileWithDiagnostics(
       const heroPutIn = hero ? (totalInvested.get(heroName) ?? 0) : 0;
       const heroWon = hero ? (collectedAmounts.get(heroName) ?? 0) : 0;
 
+      // All non-hero chip participants (seated + anyone who posted or collected),
+      // so the per-hand net sum conserves to −rake. (A2)
+      const villainNames = new Set<string>([
+        ...players.map((p) => p.playerName),
+        ...totalInvested.keys(),
+        ...collectedAmounts.keys(),
+      ]);
+      villainNames.delete(heroName);
+
       const hand: Hand = {
         id: handId,
         tournamentId,
@@ -309,12 +318,10 @@ export function parseGGPokerFileWithDiagnostics(
         hasShowdown: actualShowdownOccurred,
         heroChipsBefore,
         heroChipsAfter: heroChipsBefore - heroPutIn + heroWon,
-        villainDeltas: players
-          .filter(p => !p.isHero)
-          .map(p => {
-             const invested = totalInvested.get(p.playerName) ?? 0;
-             const won = collectedAmounts.get(p.playerName) ?? 0;
-             return { name: p.playerName, net: won - invested };
+        villainDeltas: [...villainNames].map((name) => {
+             const invested = totalInvested.get(name) ?? 0;
+             const won = collectedAmounts.get(name) ?? 0;
+             return { name, net: won - invested };
           }),
       };
 
