@@ -150,6 +150,34 @@ describe('detectScenario', () => {
     expect(scenario).toBe('BB_VS_RAISE');
   });
 
+  it('detects FACING_3BET — open + 3-bet before a non-blind hero (B4)', () => {
+    const players = [
+      makePlayer({ playerName: 'opener', position: 'UTG', isHero: false }),
+      makePlayer({ playerName: 'threebettor', position: 'CO', isHero: false }),
+      makePlayer({ playerName: 'Hero', position: 'HJ', isHero: true }),
+    ];
+    const actions = [
+      makeAction({ playerName: 'opener', street: 'preflop', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'threebettor', street: 'preflop', actionType: 'raise', amount: 2400, sequence: 2 }),
+      makeAction({ playerName: 'Hero', street: 'preflop', actionType: 'fold', amount: null, sequence: 3 }),
+    ];
+    const { scenario } = detectScenario(actions, players, 'Hero', 'HJ', 400, 6);
+    expect(scenario).toBe('FACING_3BET');
+  });
+
+  it('detects FACING_RAISE — a single open is not a 3-bet spot', () => {
+    const players = [
+      makePlayer({ playerName: 'opener', position: 'CO', isHero: false }),
+      makePlayer({ playerName: 'Hero', position: 'BTN', isHero: true }),
+    ];
+    const actions = [
+      makeAction({ playerName: 'opener', street: 'preflop', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'Hero', street: 'preflop', actionType: 'fold', amount: null, sequence: 2 }),
+    ];
+    const { scenario } = detectScenario(actions, players, 'Hero', 'BTN', 400, 6);
+    expect(scenario).toBe('FACING_RAISE');
+  });
+
   it('detects BLIND_WAR — folded to SB', () => {
     const parsed = parseFirst(HAND_BLIND_WAR);
     const hero = parsed.players.find((p) => p.isHero)!;

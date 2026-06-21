@@ -10,6 +10,7 @@ export type Scenario =
   | 'BLIND_WAR'
   | 'HU_BTN'
   | 'FACING_RAISE'
+  | 'FACING_3BET'
   | 'FACING_ALL_IN'
   | 'FACING_LIMP'
   | 'BB_VS_RAISE'
