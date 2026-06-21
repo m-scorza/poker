@@ -6,6 +6,74 @@
 
 ---
 
+## Active Covenant (2026-06-20) — current punch list
+
+The live, prioritised work. This is the *current* priority order; the dated
+"Maintenance & Punch List" further down is retained as history. Direction set by
+the 2026-06-12 reviews and the owner's 2026-06-20 decision: **make the numbers
+true first, then build the coach loop** — both, sequenced.
+
+### Act I — Make the numbers true (correctness foundation)
+
+- [ ] **I-1 · Parser chip accounting (EPIC A1)** — keystone. Per-street
+      committed-chips + `Uncalled bet … returned` handling in `pokerstars.ts`
+      and `ggpoker.ts`. **In review: PR #94** (corpus chip conservation rose
+      324 → 3048 / 3285 hands). The bug stays live on `main` until it merges.
+- [ ] **I-2 · Conservation invariant in CI (EPIC A2)** — wire `Σ invested == pot`
+      into `fixtureSweep.test.ts`; triage the ~237 residual hands (sitting-out /
+      returned players dropped from the seated projection).
+- [ ] **I-3 · `FACING_3BET` scenario (EPIC B4)** — stop grading
+      cold-call-vs-(open+3bet) against a single-open range (`scenarioDetector.ts`,
+      `rangeChecker.ts`, `leakDetector.ts`).
+- [ ] **I-4 · Real leak denominators + honest confidence (EPIC B5)** —
+      frequency = errors / opportunities; feed `calculateLeakConfidence` the true
+      sample size (`leakDetector.ts`).
+- [ ] **I-5 · `HandsUpload.tsx` test coverage (EPIC D2)** — the one flow every
+      user runs (ZIP guards, worker wiring, error terminal state, confidence
+      rendering).
+
+### Act II — Begin the coach loop (product reframe; after I-1)
+
+Adopted from the 2026-06-12 product concept review (now archived): shift from
+*analyzer* to a **Diagnose → Drill → Re-measure** loop. Each needs true P&L
+underneath, hence sequenced after I-1.
+
+- [ ] **Weekly Coach's Note** — one leak with receipts, 3 costliest hands, one
+      drill, trend vs last week. Reuses `proofHandSelector.ts`, `leakDetector.ts`,
+      `careerCoach.ts`.
+- [ ] **Leaks as living entities** — `detected → studying → improving → fixed`
+      lifecycle with a trend sparkline and a "fixed leaks" history (`LeaksPage.tsx`).
+- [ ] **Demote dashboards** — primary surface answers "what should I study this
+      week, and why?"
+- [ ] **SRS drills from your own mistakes** — feed `ArenaPage.tsx` from hero's
+      actual misplayed spots on a spaced-repetition schedule.
+- [ ] **Refusal-as-UI** — surface where the engine declines to grade
+      (`FACING_3BET`, extreme ICM, unsupported sites) via the evidence taxonomy.
+- [ ] **Cut villain auto-archetypes from v1.0** — keep manual notes; stop
+      investing in 30-hand auto-classification.
+
+### Known residuals (audit follow-ups, re-verified 2026-06-20)
+
+- [ ] **`bountyAnalyzer.ts:144`** — last-resort hardcoded `1500` starting-stack
+      fallback. Low priority: only fires when `startingStack` is unknown *and*
+      `bigBlind` is 0, which never happens in a real hand. Replace with a derived
+      default or drop the branch.
+- [ ] **Colon-in-player-name parsing** — the `^(.+?): <action>` action regexes
+      can mis-split a player name containing `": "`. Low-frequency edge; add a
+      fixture and tighten if it surfaces.
+- [x] **`store.ts:102` empty `db.version(4).stores({})`** — *not a bug.* It is an
+      intentional no-op that keeps the Dexie version chain contiguous, now carrying
+      an explanatory comment. Recorded so it is not re-flagged by future audits.
+
+### Gated / later (named so they aren't lost)
+
+EPIC F perf ceiling (derived-stats layer, off-render-path equity), the rest of
+EPIC D (pipeline/fixture tests), A4 (re-entry / honest ITM), C4/C5 UI cleanup,
+and all of EPIC G (backend / sharing / payments / solver — each behind a
+`GOALS.md` gate). Revisit after Act I + the first Act II slice land.
+
+---
+
 ## Phase log (shipped)
 
 ### Phase 1: MVP — Complete

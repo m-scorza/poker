@@ -196,9 +196,30 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
   and the push/fold + range-checker paths).
 - **Vite 6→8, Vitest 3→4, plugin-react 4→6** (PR #73) — reflected in the
   autogen deps block below.
+- **Audit fix batch** (PRs #80–#92, merged 2026-06-18) — cleared most of the
+  2026-06-12 principal-engineer audit:
+  - UI honesty: removed fabricated sidebar/dashboard stats (CQ-1 #80), fixed the
+    100× VPIP/PFR double-scale (CQ-2 #81) and the wedge-able import overlay
+    (CQ-3 #84).
+  - Import trust: per-hand parse failures now reach the confidence ledger
+    (CQ-4 / A3 #85).
+  - Leak credibility: villain-was-PFR gating for missed c-bet (B2 #86),
+    position-aware HU c-bet (B1 #87), double-barrel gating (B3 #89), HandReplay
+    legacy fallback (B9 #92), ICM stage labelled as an estimate (B10 #91).
+  - Financials: honest lifetime ROI + hourly estimate (A5 #88) and the session
+    tournament double-count fix (A5 #90).
+  - Hygiene: unused 3D deps removed (#82), Arena C-bet Clinic drill fixed (#83).
 
 ## Open follow-ups
 
+The current prioritised punch list lives in `ROADMAP.md` › **Active Covenant**
+(Act I correctness → Act II coach loop). Headline open items:
+
+- **Parser chip accounting (EPIC A1)** — the keystone correctness fix is **in
+  review as PR #94**, not yet merged. Until it lands, net P&L, `villainDeltas`,
+  and every bb-denominated metric are wrong in contested pots on `main`.
+- **Conservation invariant + residuals (A2)**, **`FACING_3BET` (B4)**, and
+  **honest leak denominators (B5)** are the next correctness items.
 - Solver-validated per-pair facing-raise charts remain a strategy-data
   follow-up. Current reaction coverage is explicit and rule-based, not
   solver-backed.

@@ -1,7 +1,7 @@
 ---
-status: open
+status: resolved
 date: 2026-06-12
-related: ['#76']
+related: ['#76', 'docs/product/ROADMAP.md Active Covenant']
 ---
 # Product Concept Review — Vision, Conceptual Critique, New Ideas
 
@@ -14,18 +14,17 @@ built right*; this one covers *whether the right thing is being built*.
 
 ## Open items
 
-Recovered to `main` on 2026-06-14 from the unmerged `chore/docs-cleanup` branch
-(commit `b346101`); body preserved verbatim (2026-06-12 snapshot). These are
-**directional product decisions and ideas to consider**, not bugs — triage,
-adopt-or-drop, then flip `status: resolved`.
+**Resolved 2026-06-20.** These directional decisions were triaged and adopted
+into `docs/product/ROADMAP.md` › **Active Covenant** (Act II — Begin the coach
+loop): pick **coach** over mirror, shift from *analyzer* to a Diagnose → Drill →
+Re-measure loop, make "what should I study this week?" the atomic answer (demote
+dashboards), treat leaks as living entities, lean into calibrated honesty as the
+brand, and **cut villain/MDA auto-archetypes from v1.0**. Act II is sequenced
+**after** the Act I correctness foundation. The §3 idea catalogue and the §4
+positioning sentence below remain the working reference for that build.
 
-- Decide **mirror vs coach** identity (§2.6); shift from *analyzer* to a *loop* (§2.1).
-- Make **"what should I study this week?"** the atomic answer; demote dashboards (§2.2).
-- Treat **leaks as living entities**, not list rows (§2.3).
-- Consider **cutting villain/MDA depth from v1.0** (§2.4).
-- Lean into **calibrated honesty as the brand** — "the only poker tool that tells
-  you when it doesn't know" (§1.2).
-- New ideas + the v1.0 positioning sentence: §3–§4.
+_Original 2026-06-12 snapshot (recovered to `main` in #76 from the unmerged
+`chore/docs-cleanup` branch, commit `b346101`) preserved verbatim below._
 
 ## 1. What the concept gets right — and should say out loud
 

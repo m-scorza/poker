@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-06-12
-related: ['#76', '#80', '#81', '#82', '#83', '#84', '#85', '#86', '#87']
+related: ['#76', '#80', '#81', '#82', '#83', '#84', '#85', '#86', '#87', '#88', '#89', '#90', '#91', '#92', '#94']
 ---
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
@@ -41,6 +41,17 @@ Recovered to `main` on 2026-06-14 from the unmerged `chore/docs-cleanup` branch
 None of this is tracked in STATUS/ROADMAP yet. Severities are **as reported on
 2026-06-12** — re-verify against current `main` before acting (several UI findings
 predate the 2026-06-11 reskin). Triage owner: repo owner.
+
+> **2026-06-20 update.** Most of this audit has landed (see `related:` and STATUS
+> "Recent landings"): the CQ-1..CQ-4 UI/import fixes plus B1/B2/B3/B9/B10 and A5
+> merged in PRs #80–#92. The **EPIC A1 keystone** (the first item below) is now
+> **in review as PR #94** — its diagnosis is confirmed correct, and chip
+> conservation across the fixture corpus rose 324 → 3048 / 3285 hands; the bug
+> stays live on `main` until #94 merges. Remaining open work is tracked as the
+> **Active Covenant** in `docs/product/ROADMAP.md` (A2 conservation + the ~237
+> sitting-out residual, B4 `FACING_3BET`, B5 leak denominators, D2 upload tests,
+> then the Act II coach loop). This report stays `open` until the Act I
+> correctness items close.
 
 - **Parser chip accounting — keystone (EPIC A).** `Uncalled bet (X) returned`
   is unhandled and raise lines record "BY" not chips-added, so `netProfit`,
