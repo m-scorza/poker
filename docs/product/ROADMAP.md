@@ -34,9 +34,11 @@ true first, then build the coach loop** — both, sequenced.
       (not raw counts), with confidence keyed off the opportunity sample. A
       95%-correct, high-volume spot no longer manufactures a high-severity /
       high-confidence leak; `MISSED_CBET` is left to the aggregate c-bet leak.
-- [ ] **I-5 · `HandsUpload.tsx` test coverage (EPIC D2)** — the one flow every
-      user runs (ZIP guards, worker wiring, error terminal state, confidence
-      rendering).
+- [x] **I-5 · `HandsUpload.tsx` test coverage (EPIC D2)** — ✅ done in this PR:
+      14 tests now cover ZIP extraction + per-entry/decompressed guards, worker
+      wiring (FILE_ERROR / COMPLETE / FATAL_ERROR / onerror), the CQ-3 error
+      terminal states, and data-health / re-import-notice rendering.
+      **→ Act I (make the numbers true) is complete.**
 
 ### Act II — Begin the coach loop (product reframe; after I-1)
 

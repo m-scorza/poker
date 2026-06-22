@@ -44,11 +44,19 @@ const storeMocks = vi.hoisted(() => ({
 
 vi.mock('../../../data/store', () => storeMocks);
 
-// useLiveQuery just returns its default value so the component renders without
-// a live IndexedDB subscription.
+// useLiveQuery returns a per-test override (retained import runs) when one is
+// set, else the component's default value — so most tests render without a live
+// IndexedDB subscription.
+const liveQuery = vi.hoisted(() => ({ runs: undefined as unknown }));
 vi.mock('dexie-react-hooks', () => ({
-  useLiveQuery: (_querier: unknown, _deps: unknown, defaultValue: unknown) => defaultValue,
+  useLiveQuery: (_querier: unknown, _deps: unknown, defaultValue: unknown) =>
+    liveQuery.runs !== undefined ? liveQuery.runs : defaultValue,
 }));
+
+// Mock JSZip so the ZIP guard/extraction logic is exercised deterministically
+// without building real archives (and without jsdom Blob/arrayBuffer quirks).
+const jszipMock = vi.hoisted(() => ({ loadAsync: vi.fn() }));
+vi.mock('jszip', () => ({ default: jszipMock }));
 
 class MockWorker {
   static instances: MockWorker[] = [];
@@ -62,8 +70,19 @@ class MockWorker {
 }
 
 import { HandsUpload } from '../HandsUpload';
+import { buildImportRunRecord } from '../../../data/importRuns';
+import type { ImportSummary } from '../../../parser/workerProcessor';
 
 const MB = 1024 * 1024;
+
+function makeRun(importedAt: Date, confidence: ImportSummary['confidence'] = 'high') {
+  return buildImportRunRecord(
+    { totalFiles: 1, parsedFiles: 1, failedFiles: 0, handsFound: 10, summariesFound: 0, confidence, warnings: [] },
+    ['hands.txt'],
+    { savedHands: 10, savedSummaries: 0 },
+    importedAt,
+  );
+}
 
 function makeFile(name: string, content = 'data', sizeOverride?: number): File {
   const file = new File([content], name, { type: 'text/plain' });
@@ -84,6 +103,8 @@ function selectFiles(container: HTMLElement, files: File[]) {
 describe('HandsUpload', () => {
   beforeEach(() => {
     vi.clearAllMocks();
+    liveQuery.runs = undefined;
+    jszipMock.loadAsync.mockReset();
     MockWorker.instances = [];
     storeMocks.importHands.mockResolvedValue(3);
     storeMocks.importTournamentSummaries.mockResolvedValue({ updated: 0, created: 1, buyInPreserved: 0 });
@@ -227,5 +248,102 @@ describe('HandsUpload', () => {
     expect(await findByText(/worker exploded/i)).toBeInTheDocument();
     await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
     expect(worker.terminate).toHaveBeenCalled();
+  });
+
+  // --- ZIP extraction + guards ---
+
+  it('extracts supported entries from a ZIP and skips unsupported entries and dirs', async () => {
+    jszipMock.loadAsync.mockResolvedValue({
+      files: {
+        'hand.txt': { dir: false, _data: { uncompressedSize: 50 }, async: vi.fn().mockResolvedValue("PokerStars Hand #1: Hold'em No Limit") },
+        'readme.md': { dir: false, _data: { uncompressedSize: 20 }, async: vi.fn() },
+        'sub/': { dir: true, _data: { uncompressedSize: 0 }, async: vi.fn() },
+      },
+    });
+    const { container } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('archive.zip', 'zip', 2000)]);
+
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    const files = MockWorker.instances[0]!.postMessage.mock.calls[0]![0].files as Array<{ name: string }>;
+    expect(files.map((f) => f.name)).toEqual(['archive.zip/hand.txt']);
+  });
+
+  it('refuses a ZIP whose entry size metadata is missing, without spawning a worker', async () => {
+    jszipMock.loadAsync.mockResolvedValue({
+      files: { 'hand.txt': { dir: false, _data: undefined, async: vi.fn() } },
+    });
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('archive.zip', 'zip', 2000)]);
+
+    expect(await findByText(/size metadata is unavailable/i)).toBeInTheDocument();
+    expect(MockWorker.instances).toHaveLength(0);
+  });
+
+  it('refuses a ZIP that would decompress past the safety limit', async () => {
+    jszipMock.loadAsync.mockResolvedValue({
+      files: { 'hand.txt': { dir: false, _data: { uncompressedSize: 151 * MB }, async: vi.fn() } },
+    });
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('archive.zip', 'zip', 2000)]);
+
+    expect(await findByText(/would decompress to/i)).toBeInTheDocument();
+    expect(MockWorker.instances).toHaveLength(0);
+  });
+
+  // --- non-fatal + crash worker paths ---
+
+  it('captures a per-file FILE_ERROR but still completes the import', async () => {
+    const onUploadSuccess = vi.fn();
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={onUploadSuccess} />);
+    selectFiles(container, [makeFile('hand.txt', "PokerStars Hand #1: Hold'em No Limit")]);
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    const worker = MockWorker.instances[0]!;
+
+    // A non-fatal per-file error mid-import, then the run completes anyway.
+    const fileError = { type: 'FILE_ERROR', filename: 'bad.txt', error: 'parse boom' } as WorkerMessage;
+    const complete = {
+      type: 'COMPLETE', hands: [], summaries: [],
+      importSummary: { totalFiles: 1, parsedFiles: 1, failedFiles: 1, handsFound: 0, summariesFound: 0, confidence: 'medium', warnings: [] },
+    } as WorkerMessage;
+    await act(async () => {
+      worker.onmessage?.({ data: fileError } as MessageEvent<WorkerMessage>);
+    });
+    await act(async () => {
+      worker.onmessage?.({ data: complete } as MessageEvent<WorkerMessage>);
+    });
+
+    await waitFor(() => expect(onUploadSuccess).toHaveBeenCalledTimes(1));
+    expect(await findByText(/parse boom/i)).toBeInTheDocument();
+  });
+
+  it('clears the overlay and reports a worker onerror crash', async () => {
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('hand.txt', "PokerStars Hand #1: Hold'em No Limit")]);
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    const worker = MockWorker.instances[0]!;
+
+    await act(async () => {
+      worker.onerror?.({ message: 'worker crashed' });
+    });
+
+    expect(await findByText(/worker crashed/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(worker.terminate).toHaveBeenCalled();
+  });
+
+  // --- data-health + re-import notice (A1) ---
+
+  it('shows the import-confidence badge when a run is retained', () => {
+    liveQuery.runs = [makeRun(new Date('2026-06-21T00:00:00Z'), 'high')];
+    const { getByText, queryByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    expect(getByText('high confidence')).toBeInTheDocument();
+    expect(queryByText(/predate a chip-accounting fix/i)).not.toBeInTheDocument();
+  });
+
+  it('prompts a safe re-import when a retained run predates the chip-accounting fix', () => {
+    liveQuery.runs = [makeRun(new Date('2026-06-01T00:00:00Z'), 'high')];
+    const { getByText, getByRole } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    expect(getByText(/predate a chip-accounting fix/i)).toBeInTheDocument();
+    expect(getByRole('button', { name: /re-import files/i })).toBeInTheDocument();
   });
 });
