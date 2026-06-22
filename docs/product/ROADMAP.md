@@ -29,9 +29,11 @@ true first, then build the coach loop** — both, sequenced.
       OVERFOLD, and facing-3bet spots no longer pollute `threeBetOpps`) until real
       3-bet-defense ranges exist (see the "grade the excluded scenarios" reminder
       under Gated / later).
-- [ ] **I-4 · Real leak denominators + honest confidence (EPIC B5)** —
-      frequency = errors / opportunities; feed `calculateLeakConfidence` the true
-      sample size (`leakDetector.ts`).
+- [x] **I-4 · Real leak denominators + honest confidence (EPIC B5)** — ✅ done in
+      this PR: postflop leaks fire on error *rate* over gradeable opportunities
+      (not raw counts), with confidence keyed off the opportunity sample. A
+      95%-correct, high-volume spot no longer manufactures a high-severity /
+      high-confidence leak; `MISSED_CBET` is left to the aggregate c-bet leak.
 - [ ] **I-5 · `HandsUpload.tsx` test coverage (EPIC D2)** — the one flow every
       user runs (ZIP guards, worker wiring, error terminal state, confidence
       rendering).

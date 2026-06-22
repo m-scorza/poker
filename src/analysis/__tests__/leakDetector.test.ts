@@ -204,16 +204,34 @@ describe('detectLeaks — Game Plan profile', () => {
     }
   });
 
-  it('detects postflop leaks from aggregated errors', () => {
+  it('detects a postflop leak from a high error RATE, sized by opportunities (B5)', () => {
     const postflopErrors = new Map();
-    postflopErrors.set('PROBE_TURN', { count: 3, sample: 3, note: 'Missed probe', source: '[D#07]' });
-    const stats = makeStats({ postflopErrors });
-    
-    const leaks = detectLeaks(stats, 'game_plan');
-    const probeLeak = leaks.find(l => l.id === 'postflop_probe_turn');
-    expect(probeLeak).toBeDefined();
-    expect(probeLeak!.description).toContain('[D#07]');
-    expect(probeLeak!.severity).toBe('medium');
+    // 8 of 10 exploit spots played wrong → 80% error rate over a real sample.
+    postflopErrors.set('BET_VS_MISSED_CBET', { count: 8, sample: 10, note: 'Missed exploit', source: '[Vol.3]' });
+    const leaks = detectLeaks(makeStats({ postflopErrors }), 'game_plan');
+
+    const leak = leaks.find(l => l.id === 'postflop_bet_vs_missed_cbet');
+    expect(leak).toBeDefined();
+    expect(leak!.severity).toBe('high');
+    expect(leak!.value).toBe(80);          // error rate %, not raw count
+    expect(leak!.sampleSize).toBe(10);     // opportunities, not error count
+    expect(leak!.confidence).toBe('medium'); // confidence keyed off opportunities
+    expect(leak!.description).toContain('[Vol.3]');
+  });
+
+  it('does not flag a high-volume, mostly-correct spot on count alone (B5)', () => {
+    const postflopErrors = new Map();
+    // 5 errors but 100 opportunities → 5% rate. Pre-fix this was a high-confidence leak.
+    postflopErrors.set('CBET_HU', { count: 5, sample: 100, note: 'Wrong sizing', source: '[Vol.2]' });
+    const leaks = detectLeaks(makeStats({ postflopErrors }), 'game_plan');
+    expect(leaks.find(l => l.id === 'postflop_cbet_hu')).toBeUndefined();
+  });
+
+  it('does not raise a separate missed-c-bet postflop leak (covered by the aggregate c-bet leak)', () => {
+    const postflopErrors = new Map();
+    postflopErrors.set('MISSED_CBET', { count: 20, sample: 20, note: 'Missed c-bet', source: '[Vol.2]' });
+    const leaks = detectLeaks(makeStats({ postflopErrors }), 'game_plan');
+    expect(leaks.find(l => l.id === 'postflop_missed_cbet')).toBeUndefined();
   });
 });
 
