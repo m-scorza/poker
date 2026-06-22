@@ -167,27 +167,35 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
     if (d.cbetMade) stats.totalBets++;
     if (d.doubleBarrelMade) stats.totalBets++;
 
-    // Postflop detailed analysis
+    // Postflop detailed analysis. Track errors over *opportunities* per spot so
+    // leaks can fire on an error rate, not a raw count. `count` = errors,
+    // `sample` = gradeable opportunities. (B5)
     if (d.postflopActions) {
       for (const action of d.postflopActions) {
-        if (action.isCorrect === false) {
-          const key = action.spot;
-          const existing = stats.postflopErrors.get(key) || { count: 0, sample: 0, note: action.note, source: '' };
-          
-          // Source mapping for documentation
-          let source = '';
-          if (key === 'MISSED_CBET' || key === 'CBET_HU') source = '[Vol.2]';
-          if (key === 'PROBE_TURN') source = '[04-postflop §3]';
-          if (key === 'DONK_BET_TURN') source = '[04-postflop §5]';
-          if (key === 'BET_VS_MISSED_CBET') source = '[Vol.3]';
+        // Only spots with a definite verdict are gradeable opportunities; a null
+        // verdict (e.g. double-barrel, donk turn) is context-dependent — skip it.
+        if (action.isCorrect === null) continue;
+        const key = action.spot;
+        const existing = stats.postflopErrors.get(key) || { count: 0, sample: 0, note: '', source: '' };
+        const isError = action.isCorrect === false;
 
-          stats.postflopErrors.set(key, {
-            count: existing.count + 1,
-            sample: existing.sample + 1,
-            note: action.note,
-            source,
-          });
+        // Source/note describe the leak, so only update them on an error instance.
+        let source = existing.source;
+        let note = existing.note;
+        if (isError) {
+          note = action.note;
+          if (key === 'MISSED_CBET' || key === 'CBET_HU') source = '[Vol.2]';
+          else if (key === 'PROBE_TURN') source = '[04-postflop §3]';
+          else if (key === 'DONK_BET_TURN') source = '[04-postflop §5]';
+          else if (key === 'BET_VS_MISSED_CBET') source = '[Vol.3]';
         }
+
+        stats.postflopErrors.set(key, {
+          count: existing.count + (isError ? 1 : 0),
+          sample: existing.sample + 1,
+          note,
+          source,
+        });
       }
     }
   }
@@ -465,20 +473,30 @@ export function detectLeaks(
     }
   }
 
-  // Postflop Aggregated Leaks
+  // Postflop aggregated leaks (B5): fire on a meaningful error *rate* over enough
+  // gradeable opportunities, not a raw error count — so a player who plays the
+  // spot correctly most of the time isn't flagged on volume alone, and the
+  // confidence below reflects the true opportunity sample.
+  const ERROR_ONLY_SPOTS = new Set(['MISSED_CBET']); // structurally error-only —
+  // the missed-c-bet *rate* is already the aggregate c-bet leak (cbetOpps
+  // denominator) and each miss still shows as a per-hand HandReplay flag.
+  const MIN_POSTFLOP_OPPS = 8;      // tunable: need a real sample
+  const MIN_POSTFLOP_ERROR_RATE = 25; // tunable: ignore low-rate noise
   stats.postflopErrors.forEach((error, key) => {
-    if (error.count >= 2) { // Minimum 2 instances to flag as a "leak"
-        leaks.push({
-            id: `postflop_${key.toLowerCase()}`,
-            name: `Postflop: ${key.replace(/_/g, ' ')}`,
-            description: `${error.note} ${error.source ? `Source: ${error.source}` : ''}`,
-            severity: error.count >= 5 ? 'high' : 'medium',
-            value: error.count,
-            target: [0, 0],
-            deviation: error.count,
-            sampleSize: error.sample,
-        });
-    }
+    if (ERROR_ONLY_SPOTS.has(key)) return;
+    if (error.sample < MIN_POSTFLOP_OPPS || error.count < 2) return;
+    const errorRate = (error.count / error.sample) * 100;
+    if (errorRate < MIN_POSTFLOP_ERROR_RATE) return;
+    leaks.push({
+      id: `postflop_${key.toLowerCase()}`,
+      name: `Postflop: ${key.replace(/_/g, ' ')}`,
+      description: `${error.note} ${error.source ? `Source: ${error.source}` : ''} (${error.count}/${error.sample} spots wrong)`.trim(),
+      severity: errorRate >= 60 ? 'high' : errorRate >= 40 ? 'medium' : 'low',
+      value: Math.round(errorRate),
+      target: [0, 0],
+      deviation: Math.round(errorRate),
+      sampleSize: error.sample,
+    });
   });
 
   // Sort by severity (critical first)
