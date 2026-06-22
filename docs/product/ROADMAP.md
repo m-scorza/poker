@@ -46,9 +46,13 @@ Adopted from the 2026-06-12 product concept review (now archived): shift from
 *analyzer* to a **Diagnose → Drill → Re-measure** loop. Each needs true P&L
 underneath, hence sequenced after I-1.
 
-- [ ] **Weekly Coach's Note** — one leak with receipts, 3 costliest hands, one
-      drill, trend vs last week. Reuses `proofHandSelector.ts`, `leakDetector.ts`,
-      `careerCoach.ts`.
+- [x] **Coach's Note** — ✅ first slice done in this PR (`/coach`):
+      `buildCoachsNote` composes the now-correct study queue + `selectProofHands`
+      into a focus leak + receipt hands + an Arena drill. A discriminated result
+      (insufficient-data / all-clear / focus) keeps it honest — empty receipts
+      say "no single hand is decisive" rather than invent one. **Trend deferred**
+      to v2 (per-session ≠ per-week; a wrong arrow is anti-brand), and so is the
+      literal weekly windowing — it operates on the current dataset.
 - [ ] **Leaks as living entities** — `detected → studying → improving → fixed`
       lifecycle with a trend sparkline and a "fixed leaks" history (`LeaksPage.tsx`).
 - [ ] **Demote dashboards** — primary surface answers "what should I study this

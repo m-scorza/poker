@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard,
+  Crosshair,
   Search,
   Grid3X3,
   AlertTriangle,
@@ -14,6 +15,7 @@ import { useAppStore } from '../../data/appStore';
 
 const NAV_ITEMS = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
+  { to: '/coach', icon: Crosshair, label: "Coach's Note" },
   { to: '/hands', icon: Search, label: 'Hands' },
   { to: '/leaks', icon: AlertTriangle, label: 'Leaks' },
   { to: '/career', icon: Trophy, label: 'Career Arc', section: 'Reports' },
