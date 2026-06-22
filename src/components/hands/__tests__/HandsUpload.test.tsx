@@ -300,16 +300,16 @@ describe('HandsUpload', () => {
     const worker = MockWorker.instances[0]!;
 
     // A non-fatal per-file error mid-import, then the run completes anyway.
+    const fileError = { type: 'FILE_ERROR', filename: 'bad.txt', error: 'parse boom' } as WorkerMessage;
+    const complete = {
+      type: 'COMPLETE', hands: [], summaries: [],
+      importSummary: { totalFiles: 1, parsedFiles: 1, failedFiles: 1, handsFound: 0, summariesFound: 0, confidence: 'medium', warnings: [] },
+    } as WorkerMessage;
     await act(async () => {
-      worker.onmessage?.({ data: { type: 'FILE_ERROR', filename: 'bad.txt', error: 'parse boom' } } as MessageEvent<WorkerMessage>);
+      worker.onmessage?.({ data: fileError } as MessageEvent<WorkerMessage>);
     });
     await act(async () => {
-      worker.onmessage?.({
-        data: {
-          type: 'COMPLETE', hands: [], summaries: [],
-          importSummary: { totalFiles: 1, parsedFiles: 1, failedFiles: 1, handsFound: 0, summariesFound: 0, confidence: 'medium', warnings: [] },
-        },
-      } as MessageEvent<WorkerMessage>);
+      worker.onmessage?.({ data: complete } as MessageEvent<WorkerMessage>);
     });
 
     await waitFor(() => expect(onUploadSuccess).toHaveBeenCalledTimes(1));
