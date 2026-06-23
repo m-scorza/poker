@@ -10,6 +10,7 @@ import { Star, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { clsx } from 'clsx';
 import { classifyBoardTexture, analyzePostflop } from '../../analysis/postflopAnalyzer';
 import { computePotBeforeStreet } from '../../analysis/scenarioDetector';
+import { complianceExclusionReason } from '../../analysis/rangeChecker';
 import { icmStageLabel, icmStageColor } from '../../analysis/icmDetector';
 import { CardGroup, OddsCalculator } from 'poker-odds-calculator';
 import type { Hand, PlayerInHand, Action } from '../../types/hand';
@@ -633,27 +634,44 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         </div>
 
         {/* Decision summary */}
-        {heroDecision && (
-          <div className="border-t border-[var(--hairline)] pt-4 mt-6 flex items-center gap-4 text-xs font-mono">
-            <div className="flex items-center gap-2">
-              <span className="text-[var(--fg-dim)]">Scenario:</span>
-              <span className="text-[var(--loss)] font-bold">{heroDecision.scenario.replace(/_/g, ' ')}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-[var(--fg-dim)]">Action:</span>
-              <span className="font-bold uppercase text-[var(--fg)]">{heroDecision.action}</span>
-            </div>
-            {heroDecision.deviationType ? (
-              <div className="ml-auto px-2 py-1 rounded bg-[var(--loss-soft)] text-[var(--loss)] font-bold border border-[var(--loss-line)] uppercase">
-                {heroDecision.deviationType}
+        {heroDecision && (() => {
+          // Refusal-as-UI: a scenario the engine declines to grade (e.g. facing a
+          // 3-bet or an all-in) gets an explicit "Not graded — here's why" instead
+          // of a misleading badge or a red scenario label.
+          const exclusionReason = complianceExclusionReason(heroDecision.scenario);
+          return (
+            <div className="border-t border-[var(--hairline)] pt-4 mt-6">
+              <div className="flex items-center gap-4 text-xs font-mono">
+                <div className="flex items-center gap-2">
+                  <span className="text-[var(--fg-dim)]">Scenario:</span>
+                  <span className={clsx('font-bold', exclusionReason ? 'text-[var(--fg)]' : 'text-[var(--loss)]')}>
+                    {heroDecision.scenario.replace(/_/g, ' ')}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-[var(--fg-dim)]">Action:</span>
+                  <span className="font-bold uppercase text-[var(--fg)]">{heroDecision.action}</span>
+                </div>
+                {exclusionReason ? (
+                  <div className="ml-auto px-2 py-1 rounded bg-white/5 text-[var(--fg-muted)] font-bold border border-[var(--hairline)] uppercase text-[10px]">
+                    Not graded
+                  </div>
+                ) : heroDecision.deviationType ? (
+                  <div className="ml-auto px-2 py-1 rounded bg-[var(--loss-soft)] text-[var(--loss)] font-bold border border-[var(--loss-line)] uppercase">
+                    {heroDecision.deviationType}
+                  </div>
+                ) : heroDecision.isCompliant ? (
+                  <div className="ml-auto px-2 py-1 rounded bg-[var(--money-soft)] text-[var(--money)] font-bold border border-[var(--money-line)] uppercase text-[10px]">
+                    GTO Compliant
+                  </div>
+                ) : null}
               </div>
-            ) : heroDecision.isCompliant ? (
-              <div className="ml-auto px-2 py-1 rounded bg-[var(--money-soft)] text-[var(--money)] font-bold border border-[var(--money-line)] uppercase text-[10px]">
-                GTO Compliant
-              </div>
-            ) : null}
-          </div>
-        )}
+              {exclusionReason && (
+                <p className="mt-2 text-[11px] leading-relaxed text-[var(--fg-dim)]">{exclusionReason}</p>
+              )}
+            </div>
+          );
+        })()}
       </div>
     </div>
   );

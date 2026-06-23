@@ -7,7 +7,7 @@
  * Source: CLAUDE.md "Range Compliance Scope", "Preflop Scenario Classification"
  */
 
-import type { Position, DeviationType, HeroDecision } from '../types/analysis';
+import type { Position, DeviationType, HeroDecision, Scenario } from '../types/analysis';
 import { SB_BLIND_WAR_RANGE, isSuitedHand, getReactionRange, getRFIRange } from '../data/ranges';
 import type { StrategyProfile } from '../data/strategyProfiles';
 import { BB_DEFENSE_ICM_ADJUSTMENTS } from '../data/strategyProfiles';
@@ -70,6 +70,24 @@ export function checkCompliance(
     case 'BB_VS_LIMP':
       return null;
   }
+}
+
+/**
+ * The human reason a scenario is excluded from range compliance, or null if the
+ * scenario is graded. Surfaced as an explicit "not graded — here's why" in the
+ * UI (refusal-as-UI) instead of a misleading badge. Keep these keys in sync with
+ * the excluded `case`s in `checkCompliance` above.
+ */
+const COMPLIANCE_EXCLUSION_REASONS: Partial<Record<Scenario, string>> = {
+  FACING_3BET: 'Facing a 3-bet — there is no 3-bet-defence range yet, so this spot is not graded.',
+  FACING_ALL_IN: 'Facing an all-in — a pot-odds and ICM decision, not a range-compliance call.',
+  BB_VS_LARGE_RAISE: 'Big blind versus a 5x+ raise or all-in — folding can be correct, so this is not graded.',
+  BB_VS_LIMP: 'Big blind versus a limp — a raise-sizing decision we do not grade for compliance.',
+};
+
+/** Reason `scenario` is excluded from compliance, or null when it is graded. */
+export function complianceExclusionReason(scenario: Scenario): string | null {
+  return COMPLIANCE_EXCLUSION_REASONS[scenario] ?? null;
 }
 
 /**

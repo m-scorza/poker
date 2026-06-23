@@ -3,6 +3,7 @@ import {
   checkCompliance,
   compliancePercentage,
   batchCheckCompliance,
+  complianceExclusionReason,
 } from '../rangeChecker';
 import type { HeroDecision } from '../../types/analysis';
 
@@ -211,6 +212,23 @@ describe('checkCompliance — FACING_3BET (excluded, B4)', () => {
   it('does not grade a fold facing a 3-bet', () => {
     const d = makeDecision({ position: 'HJ', handKey: 'AQo', action: 'fold', scenario: 'FACING_3BET', openerPosition: 'UTG' });
     expect(checkCompliance(d)).toBeNull();
+  });
+});
+
+describe('complianceExclusionReason (refusal-as-UI)', () => {
+  it('gives a reason for every scenario excluded from compliance', () => {
+    for (const scenario of ['FACING_3BET', 'FACING_ALL_IN', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP'] as const) {
+      const reason = complianceExclusionReason(scenario);
+      expect(reason, scenario).toBeTruthy();
+      // The excluded scenarios must agree with checkCompliance returning null.
+      const d = makeDecision({ scenario, position: 'HJ', handKey: 'AQs', action: 'call' });
+      expect(checkCompliance(d), scenario).toBeNull();
+    }
+  });
+
+  it('returns null for a graded scenario', () => {
+    expect(complianceExclusionReason('RFI')).toBeNull();
+    expect(complianceExclusionReason('BB_VS_RAISE')).toBeNull();
   });
 });
 
