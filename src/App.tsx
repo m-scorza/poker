@@ -5,6 +5,7 @@ import { Layout } from './components/layout/Layout';
 import { ErrorBoundary } from './components/layout/ErrorBoundary';
 
 const DashboardPage = lazy(() => import('./pages/DashboardPage').then(m => ({ default: m.DashboardPage })));
+const CoachsNotePage = lazy(() => import('./pages/CoachsNotePage').then(m => ({ default: m.CoachsNotePage })));
 const HandsPage = lazy(() => import('./pages/HandsPage').then(m => ({ default: m.HandsPage })));
 const StatsPage = lazy(() => import('./pages/StatsPage').then(m => ({ default: m.StatsPage })));
 const RangesPage = lazy(() => import('./pages/RangesPage').then(m => ({ default: m.RangesPage })));
@@ -56,6 +57,7 @@ export function AppRoutes() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={page(<DashboardPage />)} />
+          <Route path="/coach" element={page(<CoachsNotePage />)} />
           <Route path="/career" element={page(<CareerPage />)} />
           <Route path="/demo" element={page(<DemoPage />)} />
           <Route path="/hands" element={page(<HandsPage />)} />
