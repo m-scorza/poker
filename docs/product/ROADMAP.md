@@ -59,8 +59,12 @@ underneath, hence sequenced after I-1.
       week, and why?"
 - [ ] **SRS drills from your own mistakes** — feed `ArenaPage.tsx` from hero's
       actual misplayed spots on a spaced-repetition schedule.
-- [ ] **Refusal-as-UI** — surface where the engine declines to grade
-      (`FACING_3BET`, extreme ICM, unsupported sites) via the evidence taxonomy.
+- [x] **Refusal-as-UI** — ✅ first slice done in this PR: HandReplay now shows an
+      explicit **"Not graded — here's why"** for scenarios the engine declines to
+      grade (`FACING_3BET`, `FACING_ALL_IN`, `BB_VS_LARGE_RAISE`, `BB_VS_LIMP`)
+      via `complianceExclusionReason`, instead of a blank/red badge. (Stats/Leaks
+      refusal surfacing + the position-specific `FACING_RAISE` BTN/BB case are
+      follow-ups.)
 - [ ] **Cut villain auto-archetypes from v1.0** — keep manual notes; stop
       investing in 30-hand auto-classification.
 
