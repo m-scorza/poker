@@ -15,6 +15,10 @@ import { IMPORT_DIAGNOSTICS_RETENTION_RUNS } from './importDiagnosticsPolicy';
 import { classifyVillain, computeVillainStats, emptyCounters } from '../analysis/villainClassifier';
 import * as ls from './localStorage';
 import { sumUsd } from '../parser/money';
+import { reconcileLeakStatuses, type LeakStatusRecord } from '../analysis/leakLifecycle';
+import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
+import { batchCheckCompliance } from '../analysis/rangeChecker';
+import type { StrategyProfile } from './strategyProfiles';
 
 export interface AppSettings {
   id: string; // 'global'
@@ -40,6 +44,7 @@ const db = new Dexie('PokerAnalyzer') as Dexie & {
   sessions: EntityTable<SessionRecord, 'id'>;
   importRuns: EntityTable<ImportRunRecord, 'id'>;
   settings: EntityTable<AppSettings, 'id'>;
+  leakStatus: EntityTable<LeakStatusRecord, 'leakId'>;
 };
 
 db.version(1).stores({
@@ -104,6 +109,13 @@ db.version(4).stores({});
 // Import audit history: completed import runs and their data-confidence metadata.
 db.version(5).stores({
   importRuns: 'id, importedAt, confidence',
+});
+
+// Leak lifecycle (living entities): which leaks the user is studying / has
+// resolved. Additive — a brand-new table starts empty, so no upgrade() is
+// needed (same discipline as the v4 no-op).
+db.version(6).stores({
+  leakStatus: 'leakId, resolvedAt',
 });
 
 export { db };
@@ -756,7 +768,7 @@ export async function importTournamentSummaries(
 export async function clearAllData(): Promise<void> {
   await db.transaction(
     'rw',
-    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions, db.importRuns],
+    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions, db.importRuns, db.leakStatus],
     async () => {
       await db.hands.clear();
       await db.players.clear();
@@ -766,6 +778,7 @@ export async function clearAllData(): Promise<void> {
       await db.villains.clear();
       await db.sessions.clear();
       await db.importRuns.clear();
+      await db.leakStatus.clear();
     },
   );
 }
@@ -823,4 +836,44 @@ export async function clearImportRuns(): Promise<void> {
 
 export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {
   return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
+}
+
+// --- Leak lifecycle (living entities) ---
+
+export async function getLeakStatuses(): Promise<LeakStatusRecord[]> {
+  return db.leakStatus.toArray();
+}
+
+/** Mark a leak as one the user is actively studying (idempotent). */
+export async function setLeakStudying(leakId: string): Promise<void> {
+  const existing = await db.leakStatus.get(leakId);
+  if (existing) return;
+  await db.leakStatus.put({ leakId, studyingSince: new Date(), resolvedAt: null });
+}
+
+/** Stop tracking a leak (removes it from studying and from the graveyard). */
+export async function stopStudyingLeak(leakId: string): Promise<void> {
+  await db.leakStatus.delete(leakId);
+}
+
+/**
+ * Advance the leak lifecycle at the import "re-measure" event: recompute the
+ * current leak set and reconcile it against the studied leaks. Only studied
+ * leaks transition (resolved / regressed), so untouched leaks never mint a
+ * tombstone. Returns what changed so the UI can surface it.
+ */
+export async function reconcileLeakStatusesOnImport(
+  profile: StrategyProfile,
+): Promise<{ newlyResolved: string[]; newlyRegressed: string[] }> {
+  const decisions = await db.heroDecisions.toArray();
+  const checked = batchCheckCompliance(decisions, profile);
+  const leaks = detectLeaks(computeAggregateStats(checked), profile);
+  const currentLeakIds = new Set(leaks.map((leak) => leak.id));
+
+  const records = await db.leakStatus.toArray();
+  const result = reconcileLeakStatuses(currentLeakIds, records, new Date());
+  const changed = result.records.filter((rec, i) => rec !== records[i]);
+  if (changed.length > 0) await db.leakStatus.bulkPut(changed);
+
+  return { newlyResolved: result.newlyResolved, newlyRegressed: result.newlyRegressed };
 }

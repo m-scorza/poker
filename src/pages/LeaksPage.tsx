@@ -2,15 +2,17 @@
  * Leaks page — prioritized leak display with severity, impact, and next actions.
  */
 
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { AlertTriangle, ArrowRight, BookOpen, CheckCircle, Crosshair, TrendingDown, TrendingUp } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { db, getRecentImportRuns } from '../data/store';
+import { db, getRecentImportRuns, getLeakStatuses, setLeakStudying, stopStudyingLeak } from '../data/store';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { summarizeDataHealth } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
+import { deriveLeakLifecycle } from '../analysis/leakLifecycle';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { Leak, LeakSeverity } from '../analysis/leakDetector';
 import { KB_PATHS, createEvidence, type Evidence } from '../types/evidence';
@@ -105,6 +107,18 @@ function actionForLeak(leak: Leak): string {
   return 'Review the sample hands behind this metric and tag the repeating decision pattern.';
 }
 
+/** Readable label for a leak id used in the graveyard (the resolved leak isn't recomputed). */
+function formatLeakId(leakId: string): string {
+  const base = leakId.startsWith('postflop_')
+    ? `Postflop: ${leakId.slice('postflop_'.length).replace(/_/g, ' ')}`
+    : leakId.replace(/_/g, ' ');
+  return base.replace(/\b(vpip|pfr|hu|sd|wtsd)\b/gi, (m) => m.toUpperCase()).replace(/\bcbet\b/gi, 'C-bet');
+}
+
+function formatResolvedDate(date: Date | null): string {
+  return date ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium' }).format(date) : '';
+}
+
 export function LeaksPage() {
   const { strategyProfile } = useAppStore();
   const recentImportRuns = useLiveQuery(() => getRecentImportRuns(1), [], []);
@@ -122,6 +136,16 @@ export function LeaksPage() {
   const totalHands = data?.totalHands ?? 0;
   const prioritizedLeaks = [...leaks].sort((a, b) => impactScore(b) - impactScore(a));
   const topLeak = prioritizedLeaks[0] ?? null;
+
+  // Leak lifecycle (living entities): which leaks the user is studying, and the
+  // "graveyard" of studied leaks that no longer fire in the current data.
+  const leakStatuses = useLiveQuery(() => getLeakStatuses(), [], []);
+  const statusMap = useMemo(
+    () => new Map((leakStatuses ?? []).map((r) => [r.leakId, r] as const)),
+    [leakStatuses],
+  );
+  const liveLeakIds = useMemo(() => new Set((data?.leaks ?? []).map((l) => l.id)), [data]);
+  const resolvedLeaks = (leakStatuses ?? []).filter((r) => r.resolvedAt !== null && !liveLeakIds.has(r.leakId));
 
   return (
     <div className="space-y-6">
@@ -207,6 +231,8 @@ export function LeaksPage() {
             const score = impactScore(leak);
             const source = LEAK_SOURCES[leak.id];
             const evidence = getEvidenceMetadata(leak.id, undefined, LEAK_EVIDENCE[leak.id]);
+            const record = statusMap.get(leak.id);
+            const lifecycle = deriveLeakLifecycle(record, true);
             return (
               <div
                 key={leak.id}
@@ -242,6 +268,12 @@ export function LeaksPage() {
                       >
                         {evidence.citationLabel}
                       </span>
+                      {lifecycle === 'studying' && (
+                        <span className="rounded-full border border-[var(--accent)]/40 bg-[var(--accent)]/10 px-2 py-1 text-[10px] font-black uppercase text-[var(--accent)]">Studying</span>
+                      )}
+                      {lifecycle === 'regressed' && (
+                        <span className="rounded-full border border-warn/40 bg-warn/15 px-2 py-1 text-[10px] font-black uppercase text-warn">Regressed</span>
+                      )}
                     </div>
 
                     <p className="text-sm leading-relaxed text-[var(--fg-dim)] mt-2">{leak.description}</p>
@@ -297,6 +329,23 @@ export function LeaksPage() {
                       >
                         {leak.id === 'compliance' ? 'Open ranges' : 'Open coach'}
                       </Link>
+                      {record ? (
+                        <button
+                          type="button"
+                          onClick={() => { void stopStudyingLeak(leak.id); }}
+                          className="btn outline inline-flex items-center justify-center gap-2 text-[var(--accent)]"
+                        >
+                          Studying ✓
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => { void setLeakStudying(leak.id); }}
+                          className="btn outline inline-flex items-center justify-center gap-2"
+                        >
+                          Mark as studying
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -304,6 +353,39 @@ export function LeaksPage() {
             );
           })}
         </div>
+      )}
+
+      {resolvedLeaks.length > 0 && (
+        <section className="compartment border-[var(--money-line)]">
+          <span className="kick text-[var(--money)]">Leaks you&apos;ve killed</span>
+          <p className="lede mt-2 max-w-3xl">
+            Leaks you marked and beat — no longer flagged in your current data. If one comes back, it
+            shows as <span className="font-bold text-warn">Regressed</span> above.
+          </p>
+          <ul className="mt-4 space-y-2">
+            {resolvedLeaks.map((r) => (
+              <li
+                key={r.leakId}
+                className="flex items-center justify-between gap-3 rounded border border-[var(--hairline)] bg-[var(--ink-1)] px-3 py-2 text-sm"
+              >
+                <span className="flex items-center gap-2">
+                  <CheckCircle size={14} className="text-[var(--money)]" />
+                  <span className="font-data font-bold text-[var(--fg)]">{formatLeakId(r.leakId)}</span>
+                </span>
+                <span className="flex items-center gap-3 text-xs text-[var(--fg-muted)]">
+                  <span>resolved {formatResolvedDate(r.resolvedAt)}</span>
+                  <button
+                    type="button"
+                    onClick={() => { void stopStudyingLeak(r.leakId); }}
+                    className="text-[10px] uppercase tracking-wider text-[var(--fg-dim)] hover:text-[var(--fg)]"
+                  >
+                    dismiss
+                  </button>
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
     </div>
   );

@@ -12,6 +12,7 @@ import {
   getRecentImportRuns,
   saveImportRun,
   clearImportRuns,
+  reconcileLeakStatusesOnImport,
 } from '../../data/store';
 import {
   CHIP_ACCOUNTING_FIX_DATE,
@@ -327,6 +328,15 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             ));
           } catch (error) {
             console.warn('Import completed, but audit history could not be saved:', error);
+          }
+          if (!isCurrentImport() || workerRef.current !== worker) return;
+
+          // Advance the leak lifecycle (resolved / regressed) at this re-measure.
+          // Non-fatal: a failure here must not wedge the import.
+          try {
+            await reconcileLeakStatusesOnImport(strategyProfile);
+          } catch (error) {
+            console.warn('Import completed, but the leak lifecycle could not be updated:', error);
           }
           if (!isCurrentImport() || workerRef.current !== worker) return;
 

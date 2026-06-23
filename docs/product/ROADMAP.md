@@ -53,8 +53,14 @@ underneath, hence sequenced after I-1.
       say "no single hand is decisive" rather than invent one. **Trend deferred**
       to v2 (per-session ≠ per-week; a wrong arrow is anti-brand), and so is the
       literal weekly windowing — it operates on the current dataset.
-- [ ] **Leaks as living entities** — `detected → studying → improving → fixed`
-      lifecycle with a trend sparkline and a "fixed leaks" history (`LeaksPage.tsx`).
+- [x] **Leaks as living entities** — ✅ first slice done in this PR: a persisted
+      leak lifecycle (`active → studying → resolved → regressed`) with a "leaks
+      you've killed" graveyard on LeaksPage. **Auto-resolve is gated on
+      `studying`** (only a leak you marked & beat earns a tombstone — untouched
+      leaks dropping below threshold never mint one), and the lifecycle advances
+      **at import** (the re-measure event), never on render. `reconcileLeakStatuses`
+      is pure + idempotent. **Trend sparkline deferred** to v2 (needs time-series
+      snapshots — same fabricated-signal risk deferred on the Coach's Note).
 - [ ] **Demote dashboards** — primary surface answers "what should I study this
       week, and why?"
 - [ ] **SRS drills from your own mistakes** — feed `ArenaPage.tsx` from hero's
