@@ -40,6 +40,7 @@ const storeMocks = vi.hoisted(() => ({
   getRecentImportRuns: vi.fn(),
   saveImportRun: vi.fn(),
   clearImportRuns: vi.fn(),
+  reconcileLeakStatusesOnImport: vi.fn(),
 }));
 
 vi.mock('../../../data/store', () => storeMocks);
@@ -112,6 +113,7 @@ describe('HandsUpload', () => {
     storeMocks.getRecentImportRuns.mockResolvedValue([]);
     storeMocks.saveImportRun.mockResolvedValue(undefined);
     storeMocks.clearImportRuns.mockResolvedValue(undefined);
+    storeMocks.reconcileLeakStatusesOnImport.mockResolvedValue({ newlyResolved: [], newlyRegressed: [] });
     vi.stubGlobal('Worker', MockWorker as unknown as typeof Worker);
     useAppStore.setState({ isImporting: false, totalHands: 0 });
   });
