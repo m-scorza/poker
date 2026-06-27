@@ -2,7 +2,7 @@ import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { ArenaPage, getDisplayCards, getDrillPool, isCbetActionCorrect } from '../ArenaPage';
-import { getAllHeroDecisions } from '../../data/store';
+import { getAllHeroDecisions, getSrsReviews, recordSrsReview } from '../../data/store';
 import type { HeroDecision } from '../../types/analysis';
 
 vi.mock('../../data/appStore', () => ({
@@ -11,6 +11,8 @@ vi.mock('../../data/appStore', () => ({
 
 vi.mock('../../data/store', () => ({
   getAllHeroDecisions: vi.fn(),
+  getSrsReviews: vi.fn(() => Promise.resolve([])),
+  recordSrsReview: vi.fn(() => Promise.resolve()),
 }));
 
 function decision(overrides: Partial<HeroDecision> = {}): HeroDecision {
@@ -103,5 +105,32 @@ describe('ArenaPage drill start behavior', () => {
     expect(screen.getByRole('button', { name: 'Check' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'C-bet' })).toBeInTheDocument();
     expect(screen.queryByRole('button', { name: 'Fold' })).not.toBeInTheDocument();
+  });
+
+  it('drills spaced review from real misplays: counts, persistence, completion', async () => {
+    // A UTG 72o open is out of range -> a graded fault, never reviewed before.
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'f1', position: 'UTG', handKey: '72o', action: 'raise', stackBb: 30 }),
+    ]);
+    vi.mocked(getSrsReviews).mockResolvedValue([]);
+
+    render(<ArenaPage />);
+
+    // The Spaced Review card surfaces it as one "new" pattern, nothing due.
+    const newLabel = await screen.findByText('New');
+    expect(newLabel.previousElementSibling).toHaveTextContent('1');
+    expect(screen.getByText('Due').previousElementSibling).toHaveTextContent('0');
+
+    // Start the review and answer the single card. Folding a 72o open is correct.
+    fireEvent.click(screen.getByText(/Drill your real mistakes/i).closest('button')!);
+    fireEvent.click(await screen.findByRole('button', { name: 'Fold' }));
+
+    // The outcome is persisted against the abstract pattern key.
+    expect(recordSrsReview).toHaveBeenCalledWith('RFI|UTG|72o|ge10|-', true);
+
+    // It was the last card, so the session completes after the advance delay.
+    expect(
+      await screen.findByText('Session complete.', undefined, { timeout: 4000 }),
+    ).toBeInTheDocument();
   });
 });
