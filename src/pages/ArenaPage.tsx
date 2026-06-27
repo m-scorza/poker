@@ -3,18 +3,33 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2, type LucideIcon } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
-import { getAllHeroDecisions } from '../data/store';
+import { getAllHeroDecisions, getSrsReviews, recordSrsReview } from '../data/store';
 import { PokerCard } from '../components/shared/Card';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
 import { checkCompliance } from '../analysis/rangeChecker';
+import { buildFaultSpots, selectQueue, type FaultSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
 import type { HeroDecision } from '../types/analysis';
 import type { StrategyProfile } from '../data/strategyProfiles';
 
+/** New misplay patterns introduced per spaced-review session (the rest wait). */
+const SRS_MAX_NEW = 15;
+
 // Types for the Trainer
-type DrillType = 'fault_fixer' | 'rfi_master' | 'cbet_clinic';
+type DrillType = 'spaced_review' | 'fault_fixer' | 'rfi_master' | 'cbet_clinic';
 type PreflopAction = 'fold' | 'raise' | 'call' | 'check';
 type CbetAction = 'check' | 'bet';
 type TrainerAction = PreflopAction | CbetAction;
+
+/** In-flight spaced-review session: an immutable ordered queue + a cursor. */
+interface SrsSession {
+  /** Patterns to drill this session, scheduled order (due first, then new). */
+  queue: FaultSpot[];
+  /** Index of the current card in `queue`. */
+  index: number;
+  /** Initial counts, for the session header. */
+  dueCount: number;
+  freshCount: number;
+}
 
 interface DrillState {
   isActive: boolean;
@@ -22,9 +37,12 @@ interface DrillState {
   currentDecision: HeroDecision | null;
   score: { correct: number; total: number };
   lastFeedback: { isCorrect: boolean; note: string } | null;
+  /** Present only for `spaced_review`; null for the random drills. */
+  srs: SrsSession | null;
 }
 
 const DRILL_LABELS: Record<DrillType, string> = {
+  spaced_review: 'Spaced Review',
   fault_fixer: 'Fault Fixer',
   rfi_master: 'RFI Master',
   cbet_clinic: 'C-bet Clinic',
@@ -57,7 +75,12 @@ export function getDrillPool(
     return allDecisions.filter(d => d.scenario === 'RFI' || d.scenario === 'BLIND_WAR');
   }
 
-  return allDecisions.filter(d => d.cbetOpportunity);
+  if (type === 'cbet_clinic') {
+    return allDecisions.filter(d => d.cbetOpportunity);
+  }
+
+  // spaced_review draws from a persisted SRS queue, not a random pool.
+  return [];
 }
 
 export function shouldCbet(decision: HeroDecision): boolean {
@@ -90,21 +113,33 @@ export function ArenaPage() {
     currentDecision: null,
     score: { correct: 0, total: 0 },
     lastFeedback: null,
+    srs: null,
   });
 
   const { strategyProfile } = useAppStore();
   const [allDecisions, setAllDecisions] = useState<HeroDecision[]>([]);
+  const [srsReviews, setSrsReviews] = useState<SrsReviewRecord[]>([]);
+  const [srsComplete, setSrsComplete] = useState<{ correct: number; total: number } | null>(null);
   const [emptyDrillType, setEmptyDrillType] = useState<DrillType | null>(null);
   const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Load pool of decisions to draw from
+  // Load pool of decisions to draw from, plus persisted spaced-review state.
   useEffect(() => {
     async function load() {
-      const data = await getAllHeroDecisions();
-      setAllDecisions(data);
+      const [decisions, reviews] = await Promise.all([getAllHeroDecisions(), getSrsReviews()]);
+      setAllDecisions(decisions);
+      setSrsReviews(reviews);
     }
     load();
   }, []);
+
+  // Due / new counts for the Spaced Review card, recomputed as data changes.
+  const srsPreview = useMemo(() => {
+    const spots = buildFaultSpots(allDecisions, strategyProfile);
+    const records = new Map(srsReviews.map((r) => [r.spotKey, r]));
+    const { due, fresh } = selectQueue(spots, records, Date.now(), SRS_MAX_NEW);
+    return { due: due.length, fresh: fresh.length };
+  }, [allDecisions, srsReviews, strategyProfile]);
 
   useEffect(() => {
     return () => {
@@ -133,6 +168,29 @@ export function ArenaPage() {
       currentDecision: first,
       score: { correct: 0, total: 0 },
       lastFeedback: null,
+      srs: null,
+    });
+  }, [allDecisions, strategyProfile]);
+
+  const startSpacedReview = useCallback(async () => {
+    const spots = buildFaultSpots(allDecisions, strategyProfile);
+    const reviews = await getSrsReviews();
+    setSrsReviews(reviews);
+    const records = new Map(reviews.map((r) => [r.spotKey, r]));
+    const { due, fresh, queue } = selectQueue(spots, records, Date.now(), SRS_MAX_NEW);
+    const [first] = queue;
+    if (!first) {
+      setEmptyDrillType('spaced_review');
+      return;
+    }
+    setSrsComplete(null);
+    setDrill({
+      isActive: true,
+      type: 'spaced_review',
+      currentDecision: first.representative,
+      score: { correct: 0, total: 0 },
+      lastFeedback: null,
+      srs: { queue, index: 0, dueCount: due.length, freshCount: fresh.length },
     });
   }, [allDecisions, strategyProfile]);
 
@@ -203,6 +261,40 @@ export function ArenaPage() {
     if (advanceTimerRef.current !== null) {
       clearTimeout(advanceTimerRef.current);
     }
+
+    // Spaced review: persist the outcome, then advance the cursor (or finish).
+    if (drill.type === 'spaced_review' && drill.srs) {
+      const session = drill.srs;
+      const spot = session.queue[session.index];
+      if (spot) void recordSrsReview(spot.spotKey, userIsCorrect);
+      const nextScore = {
+        correct: drill.score.correct + (userIsCorrect ? 1 : 0),
+        total: drill.score.total + 1,
+      };
+      const isLast = session.index + 1 >= session.queue.length;
+      advanceTimerRef.current = setTimeout(() => {
+        advanceTimerRef.current = null;
+        if (isLast) {
+          setDrill(prev => ({ ...prev, isActive: false, currentDecision: null, lastFeedback: null, srs: null }));
+          setSrsComplete(nextScore);
+          void getSrsReviews().then(setSrsReviews);
+        } else {
+          setDrill(prev => {
+            if (!prev.srs) return prev;
+            const nextCard = prev.srs.queue[prev.srs.index + 1];
+            if (!nextCard) return prev;
+            return {
+              ...prev,
+              currentDecision: nextCard.representative,
+              lastFeedback: null,
+              srs: { ...prev.srs, index: prev.srs.index + 1 },
+            };
+          });
+        }
+      }, 2000);
+      return;
+    }
+
     advanceTimerRef.current = setTimeout(() => {
       advanceTimerRef.current = null;
       nextHand();
@@ -213,6 +305,28 @@ export function ArenaPage() {
   const emptyDrillLabel = emptyDrillType ? DRILL_LABELS[emptyDrillType] : 'this drill';
 
   if (!drill.isActive) {
+    if (srsComplete) {
+      return (
+        <div className="max-w-2xl mx-auto py-20 text-center">
+          <motion.div
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            className="inline-block p-3 border border-[var(--money-line)] bg-[var(--money-soft)] rounded-2xl mb-4"
+          >
+            <CheckCircle2 size={40} className="text-[var(--money)]" />
+          </motion.div>
+          <span className="kick sig block mb-2">Spaced Review</span>
+          <h1 className="text-4xl font-bold text-[var(--fg)] mb-2">Session complete.</h1>
+          <p className="lede text-[var(--fg-dim)] mb-8">
+            You drilled {srsComplete.total} {srsComplete.total === 1 ? 'pattern' : 'patterns'} —{' '}
+            {srsComplete.correct} correct. Misses come back soon; the rest are scheduled further out.
+          </p>
+          <button type="button" className="btn sig px-8 py-3" onClick={() => setSrsComplete(null)}>
+            Back to the Arena
+          </button>
+        </div>
+      );
+    }
     return (
       <>
         <div className="max-w-4xl mx-auto py-12">
@@ -228,6 +342,40 @@ export function ArenaPage() {
             <h1 className="text-4xl font-bold text-[var(--fg)] mb-2">Turn theory into instinct.</h1>
             <p className="lede text-[var(--fg-dim)]">Drill your flaws.</p>
           </header>
+
+          {/* Spaced Review — the headline: drill your real mistakes on a schedule. */}
+          <button
+            type="button"
+            onClick={() => startSpacedReview()}
+            className="w-full text-left compartment mb-6 hover:border-[var(--accent-line)] transition-all group"
+          >
+            <div className="flex items-center justify-between gap-6 flex-wrap">
+              <div className="flex items-start gap-4">
+                <div className="text-[var(--accent)] group-hover:scale-110 transition-transform">
+                  <RotateCcw size={24} />
+                </div>
+                <div>
+                  <span className="kick sig block mb-1">Spaced Review</span>
+                  <h3 className="text-xl font-bold text-[var(--fg)] mb-1">Drill your real mistakes, on a schedule.</h3>
+                  <p className="text-sm text-[var(--fg-dim)] max-w-md">
+                    {srsPreview.due + srsPreview.fresh === 0
+                      ? "You're all caught up — new misplay patterns appear here after your next import."
+                      : 'The patterns you keep getting wrong come back until they stick; the rest space out.'}
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-6">
+                <div className="text-center">
+                  <p className="font-mono text-2xl font-bold text-[var(--loss)]">{srsPreview.due}</p>
+                  <p className="kick text-[var(--fg-muted)]">Due</p>
+                </div>
+                <div className="text-center">
+                  <p className="font-mono text-2xl font-bold text-[var(--accent)]">{srsPreview.fresh}</p>
+                  <p className="kick text-[var(--fg-muted)]">New</p>
+                </div>
+              </div>
+            </div>
+          </button>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <DrillCard
@@ -280,8 +428,14 @@ export function ArenaPage() {
 
       <header className="flex justify-between items-center z-10 p-4 border-b border-[var(--hairline)] bg-[var(--ink-2)] backdrop-blur-sm">
         <div className="flex items-center gap-4">
-           <button 
-             onClick={() => setDrill(prev => ({ ...prev, isActive: false }))}
+           <button
+             onClick={() => {
+               if (advanceTimerRef.current !== null) {
+                 clearTimeout(advanceTimerRef.current);
+                 advanceTimerRef.current = null;
+               }
+               setDrill(prev => ({ ...prev, isActive: false }));
+             }}
              className="p-2 hover:bg-[var(--accent-soft)] rounded-lg text-[var(--fg-dim)] hover:text-[var(--accent)]"
              type="button"
              aria-label="Exit drill"
@@ -297,6 +451,15 @@ export function ArenaPage() {
               <p className="kick text-[var(--fg-muted)]">Score</p>
               <p className="font-mono font-bold text-[var(--accent)]">{drill.score.correct} / {drill.score.total}</p>
            </div>
+           {drill.srs && (
+             <>
+               <div className="h-8 w-px bg-[var(--hairline)]" />
+               <div className="text-right">
+                  <p className="kick text-[var(--fg-muted)]">Review</p>
+                  <p className="font-mono font-bold text-[var(--fg)]">{drill.srs.index + 1} / {drill.srs.queue.length}</p>
+               </div>
+             </>
+           )}
            <div className="h-8 w-px bg-[var(--hairline)]" />
            <div className="px-3 py-1 bg-[var(--ink-2)] border border-[var(--hairline)] rounded-full">
               <span className="text-xs font-mono">{strategyProfile === 'game_plan' ? 'GTO' : 'ADV'}</span>
