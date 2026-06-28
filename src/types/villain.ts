@@ -6,7 +6,13 @@
 
 import type { Position, Scenario } from './analysis';
 
-/** MDA-derived villain archetype. Source: [D#04, 08-gto §3] */
+/**
+ * MDA-derived villain archetype. Source: [D#04, 08-gto §3]
+ *
+ * ⏸ PARKED 2026-06-23 — auto-classification is dormant (not computed or shown);
+ * these fields stay on `VillainProfile` for a future revival "when richer". See
+ * the banner in `src/analysis/villainClassifier.ts` + ROADMAP "Parked".
+ */
 export type VillainArchetype =
   | 'fish'             // VPIP − PFR > 15
   | 'nit'              // VPIP < 18, PFR < 14
