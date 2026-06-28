@@ -13,12 +13,14 @@ import {
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
 
+// Coach's Note is the front door ('/'); dashboards are demoted to supporting
+// evidence under "Reports". See docs/product/ROADMAP.md (Act II).
 const NAV_ITEMS = [
-  { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
-  { to: '/coach', icon: Crosshair, label: "Coach's Note" },
+  { to: '/', icon: Crosshair, label: "Coach's Note" },
   { to: '/hands', icon: Search, label: 'Hands' },
   { to: '/leaks', icon: AlertTriangle, label: 'Leaks' },
-  { to: '/career', icon: Trophy, label: 'Career Arc', section: 'Reports' },
+  { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard', section: 'Reports' },
+  { to: '/career', icon: Trophy, label: 'Career Arc' },
   { to: '/sessions', icon: Calendar, label: 'Sessions' },
   { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
   { to: '/arena', icon: Zap, label: 'The Arena', section: 'Practice' },
@@ -48,6 +50,7 @@ export function Sidebar() {
             {section && <div className="hidden md:block px-3 py-2 text-[10px] uppercase tracking-[0.16em] text-[var(--color-fg-dim)] font-mono mt-4 mb-1">{section}</div>}
             <NavLink
               to={to}
+              end={to === '/'}
               className={({ isActive }) =>
                 clsx(
                   'flex flex-col md:flex-row items-center justify-center md:justify-start gap-1 md:gap-3 px-3 py-2 md:py-2 rounded-md text-[11px] md:text-[13px] transition-all whitespace-nowrap min-w-[70px] md:min-w-full font-sans',
