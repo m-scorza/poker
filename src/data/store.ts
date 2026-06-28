@@ -18,6 +18,7 @@ import { sumUsd } from '../parser/money';
 import { reconcileLeakStatuses, type LeakStatusRecord } from '../analysis/leakLifecycle';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
+import { gradeSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
 import type { StrategyProfile } from './strategyProfiles';
 
 export interface AppSettings {
@@ -45,6 +46,7 @@ const db = new Dexie('PokerAnalyzer') as Dexie & {
   importRuns: EntityTable<ImportRunRecord, 'id'>;
   settings: EntityTable<AppSettings, 'id'>;
   leakStatus: EntityTable<LeakStatusRecord, 'leakId'>;
+  srsReview: EntityTable<SrsReviewRecord, 'spotKey'>;
 };
 
 db.version(1).stores({
@@ -116,6 +118,12 @@ db.version(5).stores({
 // needed (same discipline as the v4 no-op).
 db.version(6).stores({
   leakStatus: 'leakId, resolvedAt',
+});
+
+// Spaced-repetition review state for misplay patterns (Arena SRS drills).
+// Additive — a brand-new table starts empty, so no upgrade() is needed.
+db.version(7).stores({
+  srsReview: 'spotKey, dueAt',
 });
 
 export { db };
@@ -769,7 +777,7 @@ export async function importTournamentSummaries(
 export async function clearAllData(): Promise<void> {
   await db.transaction(
     'rw',
-    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions, db.importRuns, db.leakStatus],
+    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions, db.importRuns, db.leakStatus, db.srsReview],
     async () => {
       await db.hands.clear();
       await db.players.clear();
@@ -780,6 +788,7 @@ export async function clearAllData(): Promise<void> {
       await db.sessions.clear();
       await db.importRuns.clear();
       await db.leakStatus.clear();
+      await db.srsReview.clear();
     },
   );
 }
@@ -877,4 +886,25 @@ export async function reconcileLeakStatusesOnImport(
   if (changed.length > 0) await db.leakStatus.bulkPut(changed);
 
   return { newlyResolved: result.newlyResolved, newlyRegressed: result.newlyRegressed };
+}
+
+// --- Spaced-repetition review (Arena SRS drills) ---
+
+export async function getSrsReviews(): Promise<SrsReviewRecord[]> {
+  return db.srsReview.toArray();
+}
+
+/**
+ * Record the outcome of drilling one misplay pattern and advance its schedule.
+ * Returns the updated record so the caller can reflect the new due date.
+ */
+export async function recordSrsReview(
+  spotKey: string,
+  correct: boolean,
+  now: number = Date.now(),
+): Promise<SrsReviewRecord> {
+  const prev = await db.srsReview.get(spotKey);
+  const next = gradeSpot(spotKey, prev, correct, now);
+  await db.srsReview.put(next);
+  return next;
 }

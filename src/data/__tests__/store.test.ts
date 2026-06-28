@@ -6,6 +6,8 @@ import {
   clearImportRuns,
   db,
   getRecentImportRuns,
+  getSrsReviews,
+  recordSrsReview,
   saveImportRun,
   saveVillainNote,
 } from '../store';
@@ -274,5 +276,38 @@ describe('import diagnostics persistence', () => {
     await clearImportRuns();
 
     await expect(getRecentImportRuns()).resolves.toEqual([]);
+  });
+});
+
+describe('spaced-review persistence', () => {
+  beforeEach(async () => {
+    await clearAllData();
+  });
+
+  it('persists a new review and reads it back', async () => {
+    const now = 1_000_000_000;
+    const rec = await recordSrsReview('UTG|A5s|RFI', true, now);
+    expect(rec.box).toBe(1);
+
+    const all = await getSrsReviews();
+    expect(all).toHaveLength(1);
+    expect(all[0]!.spotKey).toBe('UTG|A5s|RFI');
+    expect(all[0]!.dueAt).toBeGreaterThan(now);
+  });
+
+  it('advances the schedule on repeat review of the same pattern', async () => {
+    const now = 1_000_000_000;
+    await recordSrsReview('k', true, now); // box 1
+    const second = await recordSrsReview('k', true, now); // box 2
+    expect(second.box).toBe(2);
+
+    const all = await getSrsReviews();
+    expect(all).toHaveLength(1); // same pattern, not a duplicate
+  });
+
+  it('is wiped by clearAllData', async () => {
+    await recordSrsReview('k', true);
+    await clearAllData();
+    await expect(getSrsReviews()).resolves.toEqual([]);
   });
 });
