@@ -284,23 +284,54 @@ export function batchCheckCompliance(
  * Compute compliance percentage for a set of decisions.
  * Only counts decisions that are eligible for compliance checking.
  */
+/**
+ * Graded/excluded breakdown behind the compliance %. `percentage` is null when
+ * nothing in the set was gradeable, so the UI can avoid showing a fake 100%
+ * for a position whose spots are all refused (facing 3-bets/all-ins, etc.).
+ */
+export interface ComplianceBreakdown {
+  /** Decisions the engine actually graded (checkCompliance returned a verdict). */
+  graded: number;
+  compliant: number;
+  /** Decisions the engine refused to grade (facing 3-bets/all-ins, extreme ICM, …). */
+  excluded: number;
+  percentage: number | null;
+}
+
+export function complianceBreakdown(
+  decisions: HeroDecision[],
+  profile: StrategyProfile = 'game_plan',
+  icmStage: ICMStage = 'early',
+): ComplianceBreakdown {
+  let graded = 0;
+  let compliant = 0;
+  let excluded = 0;
+
+  for (const d of decisions) {
+    const result = checkCompliance(d, profile, icmStage);
+    if (result === null) {
+      excluded++;
+      continue;
+    }
+    graded++;
+    if (result.isCompliant) compliant++;
+  }
+
+  return {
+    graded,
+    compliant,
+    excluded,
+    percentage: graded === 0 ? null : (compliant / graded) * 100,
+  };
+}
+
 export function compliancePercentage(
   decisions: HeroDecision[],
   profile: StrategyProfile = 'game_plan',
   icmStage: ICMStage = 'early',
 ): number {
-  let eligible = 0;
-  let compliant = 0;
-
-  for (const d of decisions) {
-    const result = checkCompliance(d, profile, icmStage);
-    if (result === null) continue;
-    eligible++;
-    if (result.isCompliant) compliant++;
-  }
-
-  if (eligible === 0) return 100;
-  return (compliant / eligible) * 100;
+  // Back-compat: an all-excluded set reports 100 (no graded deviations).
+  return complianceBreakdown(decisions, profile, icmStage).percentage ?? 100;
 }
 
 export { getRFIRange } from '../data/ranges';

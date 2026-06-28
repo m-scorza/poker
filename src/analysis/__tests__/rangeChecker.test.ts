@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import {
   checkCompliance,
   compliancePercentage,
+  complianceBreakdown,
   batchCheckCompliance,
   complianceExclusionReason,
 } from '../rangeChecker';
@@ -386,6 +387,33 @@ describe('compliancePercentage', () => {
     ];
 
     expect(compliancePercentage(decisions, 'advanced')).toBe(50);
+  });
+});
+
+describe('complianceBreakdown', () => {
+  it('separates graded, compliant, and excluded counts', () => {
+    const decisions = [
+      makeDecision({ handKey: 'AKs', action: 'raise', scenario: 'RFI' }), // compliant
+      makeDecision({ handKey: 'AKs', action: 'fold', scenario: 'RFI' }), // graded, not compliant
+      makeDecision({ scenario: 'FACING_ALL_IN' }), // excluded
+      makeDecision({ scenario: 'FACING_3BET' }), // excluded
+    ];
+    const b = complianceBreakdown(decisions);
+    expect(b.graded).toBe(2);
+    expect(b.compliant).toBe(1);
+    expect(b.excluded).toBe(2);
+    expect(b.percentage).toBeCloseTo(50, 5);
+  });
+
+  it('reports a null percentage (not a fake 100%) when nothing is gradeable', () => {
+    const decisions = [
+      makeDecision({ scenario: 'FACING_ALL_IN' }),
+      makeDecision({ scenario: 'FACING_3BET' }),
+    ];
+    const b = complianceBreakdown(decisions);
+    expect(b.graded).toBe(0);
+    expect(b.excluded).toBe(2);
+    expect(b.percentage).toBeNull();
   });
 });
 
