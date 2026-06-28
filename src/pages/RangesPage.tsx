@@ -12,7 +12,7 @@ import { DualRangeMatrix, type RangeCellData } from '../components/shared/DualRa
 import { useAppStore } from '../data/appStore';
 import { getAllHeroDecisions, saveCustomRange, loadCustomRange, deleteCustomRange, db } from '../data/store';
 import { batchCheckCompliance, getRFIRange } from '../analysis/rangeChecker';
-import { compliancePercentage } from '../analysis/rangeChecker';
+import { complianceBreakdown } from '../analysis/rangeChecker';
 import { getPushRangeForPosition } from '../analysis/pushFoldChecker';
 import { rangeValidationSummary } from '../analysis/rangeValidator';
 import {
@@ -208,7 +208,7 @@ export function RangesPage() {
     setSaveError(null);
   };
 
-  const compliance = compliancePercentage(posDecisions, strategyProfile);
+  const compliance = complianceBreakdown(posDecisions, strategyProfile);
 
   return (
     <div>
@@ -299,10 +299,28 @@ export function RangesPage() {
             </div>
             <div>
               <span className="text-[var(--fg-dim)]">Compliance: </span>
-              <span className={`font-data font-bold ${compliance >= 90 ? 'text-[var(--accent)]' : 'text-[var(--loss)]'}`}>
-                {compliance.toFixed(1)}%
-              </span>
+              {compliance.percentage === null ? (
+                <span
+                  className="font-data font-bold text-[var(--fg-muted)]"
+                  title="No spots in this position are gradeable yet — they're all scenarios the engine refuses to grade (facing 3-bets/all-ins, extreme ICM)."
+                >
+                  — <span className="text-[10px] font-normal">no graded spots</span>
+                </span>
+              ) : (
+                <span className={`font-data font-bold ${compliance.percentage >= 90 ? 'text-[var(--accent)]' : 'text-[var(--loss)]'}`}>
+                  {compliance.percentage.toFixed(1)}%
+                </span>
+              )}
             </div>
+            {compliance.excluded > 0 && (
+              <div
+                className="text-[11px] text-[var(--fg-muted)]"
+                title="These spots have no agreed range yet (facing 3-bets/all-ins, extreme ICM), so the engine refuses to grade them rather than guess. They're left out of the % above."
+              >
+                <span className="font-data">{compliance.graded}</span> graded ·{' '}
+                <span className="font-data">{compliance.excluded}</span> not graded
+              </div>
+            )}
           </>
         )}
         <div>
