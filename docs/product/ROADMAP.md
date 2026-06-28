@@ -61,10 +61,14 @@ underneath, hence sequenced after I-1.
       **at import** (the re-measure event), never on render. `reconcileLeakStatuses`
       is pure + idempotent. **Trend sparkline deferred** to v2 (needs time-series
       snapshots — same fabricated-signal risk deferred on the Coach's Note).
-- [ ] **Demote dashboards** — primary surface answers "what should I study this
-      week, and why?"
-- [ ] **SRS drills from your own mistakes** — feed `ArenaPage.tsx` from hero's
-      actual misplayed spots on a spaced-repetition schedule.
+- [x] **Demote dashboards** — ✅ done (PR #109): `/` now renders the Coach's Note
+      (the front door — "what should I study, and why?"); the dashboard moved to
+      `/dashboard` and into the sidebar's "Reports" section as supporting evidence.
+- [x] **SRS drills from your own mistakes** — ✅ done (PR #106): Arena "Spaced
+      Review" fed from hero's actual misplay *patterns* (`srsScheduler.ts`, Leitner
+      schedule, db v7 `srsReview`). The pattern key carries every input the grader
+      branches on (opener, stack bucket) so a card can't mask a leak. The Coach's
+      Note's existing "Drill it → The Arena" CTA now lands on a real-mistakes drill.
 - [x] **Refusal-as-UI** — ✅ first slice done in this PR: HandReplay now shows an
       explicit **"Not graded — here's why"** for scenarios the engine declines to
       grade (`FACING_3BET`, `FACING_ALL_IN`, `BB_VS_LARGE_RAISE`, `BB_VS_LIMP`)
@@ -84,6 +88,11 @@ underneath, hence sequenced after I-1.
       better-resourced_ — do NOT delete the dormant code; revive it then.**
       (The dead archetype→exploit cross-ref scaffolding was removed separately in
       #107; that was genuinely unused, unlike the dormant classifier.)
+
+**→ Act II (the coach loop) is complete.** Diagnose (Coach's Note + living
+leaks) → Drill (Arena Spaced Review) → Re-measure (import-time reconcile), with
+the Coach's Note as the front door and honesty (refusal-as-UI, parked
+archetypes) throughout. Remaining direction lives under Gated / later.
 
 ### Known residuals (audit follow-ups, re-verified 2026-06-20)
 
