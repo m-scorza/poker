@@ -579,17 +579,26 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           {/* Equity & Math Card */}
           {(() => {
             const opponentsWithCards = players.filter(p => !p.isHero && p.holeCards && p.holeCards.length === 2);
+            const boardCards: string[] = [];
+            if (hand.boardFlop) boardCards.push(...hand.boardFlop);
+            if (hand.boardTurn) boardCards.push(hand.boardTurn);
+            if (hand.boardRiver) boardCards.push(hand.boardRiver);
+
+            const canShowEquity = !!hero?.holeCards && hero.holeCards.length === 2 && opponentsWithCards.length > 0;
+            // Equity enumeration cost explodes with unknown board cards (measured:
+            // river ~0.3ms, turn ~8ms, flop ~144ms, preflop ~5.7s). At showdown the
+            // board is always complete (the only case seen across the fixture
+            // corpus), so cap at >=4 known cards — a sparse board with shown cards
+            // would otherwise freeze the UI on every render. We refuse it honestly
+            // below rather than run a multi-second enumeration.
+            const equityTooSparse = canShowEquity && boardCards.length < 4;
             let heroEquity: number | null = null;
 
-            if (hero?.holeCards && hero.holeCards.length === 2 && opponentsWithCards.length > 0) {
+            if (canShowEquity && !equityTooSparse) {
               try {
-                const heroGroup = CardGroup.fromString(hero.holeCards.join(''));
+                const heroGroup = CardGroup.fromString(hero!.holeCards!.join(''));
                 const oppGroups = opponentsWithCards.map(p => CardGroup.fromString(p.holeCards!.join('')));
-                const boardCards = [];
-                if (hand.boardFlop) boardCards.push(...hand.boardFlop);
-                if (hand.boardTurn) boardCards.push(hand.boardTurn);
-                if (hand.boardRiver) boardCards.push(hand.boardRiver);
-                const boardGroup = boardCards.length > 0 ? CardGroup.fromString(boardCards.join('')) : undefined;
+                const boardGroup = CardGroup.fromString(boardCards.join(''));
                 const result = OddsCalculator.calculate([heroGroup, ...oppGroups], boardGroup);
                 heroEquity = result.equities[0]?.getEquity() || 0;
               } catch (e) {
@@ -608,6 +617,11 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                         <span className="text-[var(--fg-dim)] text-xs">Your Equity:</span>
                         <span className="font-data font-bold text-[var(--accent)] text-xs">{heroEquity}%</span>
                      </div>
+                   )}
+                   {equityTooSparse && (
+                     <p className="text-[10px] text-[var(--fg-muted)] leading-snug">
+                        Equity not shown — the board was incomplete when cards were revealed, and a full run-out enumeration is too costly to run here.
+                     </p>
                    )}
                    {(() => {
                       const lastBet = [...streetActions].reverse().find(a => a.actionType === 'bet' || a.actionType === 'raise');
