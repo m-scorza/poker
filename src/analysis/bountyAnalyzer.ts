@@ -134,14 +134,14 @@ export function estimateBountyContext(
 
   // Convert bounty $ to chip equivalent.
   // Prefer the caller-supplied tournament starting stack; otherwise back-derive
-  // a fallback from the current blinds (≈75bb is a common MTT start) so that
-  // larger-start tournaments don't get the legacy 1 500-chip under-estimate.
+  // from the current blinds (≈75bb is a common MTT start). A real hand always
+  // has bigBlind > 0; the degenerate bigBlind == 0 case yields 0 (no bounty
+  // estimate) rather than a magic constant — better to surface nothing than a
+  // fabricated chip value.
   const effectiveStartingStack =
     startingStack && startingStack > 0
       ? startingStack
-      : hand.bigBlind > 0
-        ? hand.bigBlind * 75
-        : 1500;
+      : hand.bigBlind * 75;
   const bountyChipValue = buyIn > 0 ? (estimatedBounty / buyIn) * effectiveStartingStack : 0;
   const potEstimate = hand.totalPot > 0 ? hand.totalPot : hand.bigBlind * 5;
 
