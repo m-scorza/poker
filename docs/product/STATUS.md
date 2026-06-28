@@ -328,10 +328,11 @@ are stale. Do not edit by hand.
 <!-- BEGIN:AUTOGEN:routes -->
 | Path | Component |
 |---|---|
-| `/` | `DashboardPage` |
+| `/` | `CoachsNotePage` |
 | `/arena` | `ArenaPage` |
 | `/career` | `CareerPage` |
-| `/coach` | `CoachsNotePage` |
+| `/coach` | `Navigate` |
+| `/dashboard` | `DashboardPage` |
 | `/demo` | `DemoPage` |
 | `/hands` | `HandsPage` |
 | `/leaks` | `LeaksPage` |

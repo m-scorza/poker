@@ -1,5 +1,5 @@
 import { lazy, Suspense, type ReactNode } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AlertTriangle, RefreshCcw } from 'lucide-react';
 import { Layout } from './components/layout/Layout';
 import { ErrorBoundary } from './components/layout/ErrorBoundary';
@@ -56,8 +56,12 @@ export function AppRoutes() {
     <Suspense fallback={<PageLoader />}>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={page(<DashboardPage />)} />
-          <Route path="/coach" element={page(<CoachsNotePage />)} />
+          {/* Coach's Note is the front door — "what should I study, and why?" */}
+          <Route path="/" element={page(<CoachsNotePage />)} />
+          {/* Dashboards demoted to supporting evidence. */}
+          <Route path="/dashboard" element={page(<DashboardPage />)} />
+          {/* Old /coach links/bookmarks redirect to the new front door. */}
+          <Route path="/coach" element={<Navigate to="/" replace />} />
           <Route path="/career" element={page(<CareerPage />)} />
           <Route path="/demo" element={page(<DemoPage />)} />
           <Route path="/hands" element={page(<HandsPage />)} />
