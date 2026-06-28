@@ -162,8 +162,6 @@ export function CareerPage() {
         return {
           name,
           amountBb,
-          archetype: vProf?.archetype || null,
-          confidence: vProf?.archetypeConfidence || null,
           handsCount: vProf?.totalHands || 0,
           notesCount: (vProf?.notes ? 1 : 0) + (vProf?.tags?.length || 0),
         };
@@ -189,8 +187,6 @@ export function CareerPage() {
         return {
           name,
           amountBb,
-          archetype: vProf?.archetype || null,
-          confidence: vProf?.archetypeConfidence || null,
           handsCount: vProf?.totalHands || 0,
           notesCount: (vProf?.notes ? 1 : 0) + (vProf?.tags?.length || 0),
         };
@@ -206,8 +202,6 @@ export function CareerPage() {
       .map(v => ({
         name: v.playerName,
         handsCount: v.totalHands,
-        archetype: v.archetype,
-        confidence: v.archetypeConfidence,
         notesCount: (v.notes ? 1 : 0) + (v.tags?.length || 0),
         vpip: v.stats.vpip,
         pfr: v.stats.pfr
@@ -485,11 +479,6 @@ export function CareerPage() {
                             <div className="flex flex-col">
                                <span className="font-mono font-bold text-[var(--fg)] text-base tracking-tight uppercase group-hover:text-[var(--loss)] transition-colors">{v.name}</span>
                                <div className="flex items-center gap-2 mt-1.5">
-                                  {v.archetype && (
-                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-[var(--loss-soft)] text-[var(--loss)] uppercase tracking-wider border border-[var(--loss-line)]">
-                                       {v.archetype}
-                                    </span>
-                                  )}
                                   <span className="text-[9px] text-[var(--fg-dim)] font-bold uppercase">
                                      {v.handsCount} hands observed
                                   </span>
@@ -527,11 +516,6 @@ export function CareerPage() {
                             <div className="flex flex-col">
                                <span className="font-mono font-bold text-[var(--fg)] text-base tracking-tight uppercase group-hover:text-[var(--money)] transition-colors">{v.name}</span>
                                <div className="flex items-center gap-2 mt-1.5">
-                                  {v.archetype && (
-                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-[var(--money-soft)] text-[var(--money)] uppercase tracking-wider border border-[var(--money-line)]">
-                                       {v.archetype}
-                                    </span>
-                                  )}
                                   <span className="text-[9px] text-[var(--fg-dim)] font-bold uppercase">
                                      {v.handsCount} hands observed
                                   </span>
@@ -569,11 +553,6 @@ export function CareerPage() {
                             <div className="flex flex-col">
                                <span className="font-mono font-bold text-[var(--fg)] text-base tracking-tight uppercase group-hover:text-[var(--sig)] transition-colors">{v.name}</span>
                                <div className="flex items-center gap-2 mt-1.5">
-                                  {v.archetype && (
-                                    <span className="text-[9px] px-1.5 py-0.5 rounded font-bold bg-[var(--sig-soft)] text-[var(--sig)] uppercase tracking-wider border border-[var(--sig-line)]">
-                                       {v.archetype}
-                                    </span>
-                                  )}
                                   <span className="text-[9px] text-[var(--fg-dim)] font-bold uppercase">
                                      VPIP/PFR: {v.vpip.toFixed(0)}/{v.pfr.toFixed(0)}
                                   </span>

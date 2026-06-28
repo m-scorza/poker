@@ -71,8 +71,19 @@ underneath, hence sequenced after I-1.
       via `complianceExclusionReason`, instead of a blank/red badge. (Stats/Leaks
       refusal surfacing + the position-specific `FACING_RAISE` BTN/BB case are
       follow-ups.)
-- [ ] **Cut villain auto-archetypes from v1.0** — keep manual notes; stop
-      investing in 30-hand auto-classification.
+- [x] **Cut villain auto-archetypes from v1.0 (lean) — ⏸ PARKED for revival.**
+      2026-06-23: stopped computing + showing auto-archetypes. VillainsPage and
+      CareerPage now show only observed stats + manual notes — no guessed
+      Fish/Nit/TAG label, no archetype filter, no exploit-advice block, and no
+      ungated "REC" badge (`isRecreational` labelled on any sample size). `store.ts`
+      no longer calls `classifyVillain`. **The classifier, the `VillainArchetype`
+      type, and the profile `archetype`/`archetypeConfidence` fields are kept
+      DORMANT (exported + still tested)** so revival is just re-wiring the call
+      sites — see the banner in `src/analysis/villainClassifier.ts`.
+      **⏸ The owner wants to bring archetypes back later, done properly, _when
+      better-resourced_ — do NOT delete the dormant code; revive it then.**
+      (The dead archetype→exploit cross-ref scaffolding was removed separately in
+      #107; that was genuinely unused, unlike the dormant classifier.)
 
 ### Known residuals (audit follow-ups, re-verified 2026-06-20)
 

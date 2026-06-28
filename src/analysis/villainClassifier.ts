@@ -1,6 +1,17 @@
 /**
  * Villain auto-classification using MDA (Mass Data Analysis) criteria.
  *
+ * ┌─────────────────────────────────────────────────────────────────────────┐
+ * │ PARKED 2026-06-23 — REVISIT WHEN BETTER-RESOURCED.                        │
+ * │ The owner wants to bring auto-archetypes back later "when richer", done  │
+ * │ properly. For now `classifyVillain` / `getExploitAdvice` are DORMANT:     │
+ * │ nothing calls them (store no longer classifies; VillainsPage/CareerPage   │
+ * │ show only observed stats + manual notes — no guessed label). They stay    │
+ * │ here, exported and tested, so revival is just re-wiring the call sites.   │
+ * │ `computeVillainStats` / `emptyCounters` remain LIVE (real-stat pipeline). │
+ * │ See docs/product/ROADMAP.md "Parked".                                     │
+ * └─────────────────────────────────────────────────────────────────────────┘
+ *
  * Source: docs/knowledge/strategy/08-gto-and-exploits.md §3
  * Thresholds from: CLAUDE.md "Villain Tracker" section
  *
