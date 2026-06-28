@@ -12,7 +12,7 @@ import type { VillainProfile, VillainRawCounters, VillainStats, PositionStats, P
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 import type { ImportRunRecord } from './importRuns';
 import { IMPORT_DIAGNOSTICS_RETENTION_RUNS } from './importDiagnosticsPolicy';
-import { classifyVillain, computeVillainStats, emptyCounters } from '../analysis/villainClassifier';
+import { computeVillainStats, emptyCounters } from '../analysis/villainClassifier';
 import * as ls from './localStorage';
 import { sumUsd } from '../parser/money';
 import { reconcileLeakStatuses, type LeakStatusRecord } from '../analysis/leakLifecycle';
@@ -673,9 +673,10 @@ export async function aggregateVillainStats(
       applyObservationToPositionCounters(positionCounters, observation);
       v.statsByPosition[p.position] = computePositionStats(positionCounters);
 
-      const classification = classifyVillain(v.stats, v.totalHands);
-      v.archetype = classification.archetype;
-      v.archetypeConfidence = classification.confidence;
+      // Auto-archetype classification is parked (2026-06-23) — see
+      // docs/product/ROADMAP.md "Parked" + villainClassifier.ts. We keep the
+      // archetype fields null rather than stamping a guessed label; the
+      // classifier stays dormant for a future, better-resourced revival.
 
       if (v.totalHands % 100 === 0) {
         await yieldToBrowser();

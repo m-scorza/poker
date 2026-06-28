@@ -1,24 +1,25 @@
 /**
- * Villain Tracker page — opponent stats, archetype classification, notes.
+ * Villain Tracker page — opponent stats and notes.
  *
  * Collects stats from all parsed hands for every non-hero player.
+ *
+ * Auto-archetypes (Fish/Nit/TAG/…) and their exploit advice were parked
+ * 2026-06-23 — see docs/product/ROADMAP.md "Parked" and
+ * src/analysis/villainClassifier.ts. The classifier still exists, dormant; this
+ * page intentionally shows only observed stats + manual notes (no guessed label).
  */
 
 import { useEffect, useState, useMemo, useCallback } from 'react';
 import { clsx } from 'clsx';
 import { Search, Users, Tag, MessageSquare, X, Plus } from 'lucide-react';
 import { db, saveVillainNote, getAllVillainNotes } from '../data/store';
-import { getExploitAdvice, isRecreational } from '../analysis/villainClassifier';
 import { pct } from '../utils/format';
-import type { VillainArchetype, ArchetypeConfidence, VillainStats } from '../types/villain';
+import type { VillainStats } from '../types/villain';
 
 interface VillainRow {
   name: string;
   totalHands: number;
   stats: VillainStats;
-  archetype: VillainArchetype | null;
-  confidence: ArchetypeConfidence;
-  isRec: boolean;
   notes: string;
   tags: string[];
 }
@@ -36,35 +37,10 @@ const PREDEFINED_TAGS = [
   'limp-calls',
 ];
 
-const ARCHETYPE_COLORS: Record<VillainArchetype, string> = {
-  fish: 'bg-blue-900/30 text-blue-400',
-  nit: 'bg-gray-800 text-gray-400',
-  tag: 'bg-emerald-900/30 text-emerald-400',
-  lag: 'bg-orange-900/30 text-orange-400',
-  calling_station: 'bg-purple-900/30 text-purple-400',
-  maniac: 'bg-red-900/30 text-red-400',
-};
-
-const ARCHETYPE_LABELS: Record<VillainArchetype, string> = {
-  fish: 'Fish',
-  nit: 'Nit',
-  tag: 'TAG',
-  lag: 'LAG',
-  calling_station: 'Calling Station',
-  maniac: 'Maniac',
-};
-
-const CONFIDENCE_ICONS: Record<ArchetypeConfidence, string> = {
-  low: '○',
-  medium: '◐',
-  high: '●',
-};
-
 export function VillainsPage() {
   const [villains, setVillains] = useState<VillainRow[]>([]);
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(true);
-  const [archetypeFilter, setArchetypeFilter] = useState<VillainArchetype | ''>('');
   const [selectedVillain, setSelectedVillain] = useState<VillainRow | null>(null);
 
   useEffect(() => {
@@ -84,9 +60,6 @@ export function VillainsPage() {
             name: v.playerName,
             totalHands: v.totalHands,
             stats: v.stats,
-            archetype: v.archetype,
-            confidence: v.archetypeConfidence,
-            isRec: isRecreational(v.stats),
             notes: note?.notes ?? '',
             tags: note?.tags ?? [],
           };
@@ -101,16 +74,10 @@ export function VillainsPage() {
   }, []);
 
   const filtered = useMemo(() => {
-    let result = villains;
-    if (search) {
-      const q = search.toLowerCase();
-      result = result.filter((v) => v.name.toLowerCase().includes(q));
-    }
-    if (archetypeFilter) {
-      result = result.filter((v) => v.archetype === archetypeFilter);
-    }
-    return result;
-  }, [villains, search, archetypeFilter]);
+    if (!search) return villains;
+    const q = search.toLowerCase();
+    return villains.filter((v) => v.name.toLowerCase().includes(q));
+  }, [villains, search]);
 
   return (
     <div>
@@ -132,20 +99,6 @@ export function VillainsPage() {
             className="pl-8 pr-3 py-2 text-sm bg-[var(--ink-1)] border border-[var(--hairline)] rounded-lg text-[var(--fg)] placeholder:text-[var(--fg-muted)] focus:outline-none focus:border-[var(--accent)]"
           />
         </div>
-        <select
-          value={archetypeFilter}
-          onChange={(e) => setArchetypeFilter(e.target.value as VillainArchetype | '')}
-          aria-label="Filter by player archetype"
-          className="px-3 py-2 text-sm bg-[var(--ink-1)] border border-[var(--hairline)] rounded-lg text-[var(--fg)] focus:outline-none focus:border-[var(--accent)]"
-        >
-          <option value="">All types</option>
-          <option value="fish">Fish</option>
-          <option value="nit">Nit</option>
-          <option value="tag">TAG</option>
-          <option value="lag">LAG</option>
-          <option value="calling_station">Calling Station</option>
-          <option value="maniac">Maniac</option>
-        </select>
         <span className="text-xs text-[var(--fg-muted)] self-center">
           {filtered.length} players
         </span>
@@ -170,7 +123,6 @@ export function VillainsPage() {
                   <tr className="border-b border-[var(--hairline)] text-left">
                     <th className="px-3 py-2.5 text-xs text-[var(--fg-dim)] uppercase tracking-wide">Player</th>
                     <th className="px-3 py-2.5 text-xs text-[var(--fg-dim)] uppercase tracking-wide">Hands</th>
-                    <th className="px-3 py-2.5 text-xs text-[var(--fg-dim)] uppercase tracking-wide">Type</th>
                     <th className="px-3 py-2.5 text-xs text-[var(--fg-dim)] uppercase tracking-wide">VPIP</th>
                     <th className="px-3 py-2.5 text-xs text-[var(--fg-dim)] uppercase tracking-wide">PFR</th>
                     <th className="px-3 py-2.5 text-xs text-[var(--fg-dim)] uppercase tracking-wide">AF</th>
@@ -188,9 +140,6 @@ export function VillainsPage() {
                       <td className="px-3 py-2">
                         <div className="flex items-center gap-1.5">
                           <span className="font-data text-xs">{v.name}</span>
-                          {v.isRec && (
-                            <span className="text-[10px] px-1 py-0.5 rounded bg-blue-900/20 text-blue-400">REC</span>
-                          )}
                           {v.notes && (
                             <MessageSquare size={10} className="text-[var(--fg-muted)]" />
                           )}
@@ -200,15 +149,6 @@ export function VillainsPage() {
                         </div>
                       </td>
                       <td className="px-3 py-2 font-data text-xs">{v.totalHands}</td>
-                      <td className="px-3 py-2">
-                        {v.archetype ? (
-                          <span className={clsx('text-[10px] px-1.5 py-0.5 rounded font-bold', ARCHETYPE_COLORS[v.archetype])}>
-                            {CONFIDENCE_ICONS[v.confidence]} {ARCHETYPE_LABELS[v.archetype]}
-                          </span>
-                        ) : (
-                          <span className="text-xs text-[var(--fg-muted)]">—</span>
-                        )}
-                      </td>
                       <td className="px-3 py-2 font-data text-xs">{pct(v.stats.vpip)}</td>
                       <td className="px-3 py-2 font-data text-xs">{pct(v.stats.pfr)}</td>
                       <td className="px-3 py-2 font-data text-xs">{v.stats.af.toFixed(1)}</td>
@@ -302,13 +242,8 @@ function VillainDetailPanel({
         <div className="flex items-center justify-between mb-4 pb-3 border-b border-[var(--hairline)]">
         <div className="flex items-center gap-3">
           <h3 className="font-data font-bold text-lg">{villain.name}</h3>
-          {villain.archetype && (
-            <span className={clsx('text-xs px-2 py-1 rounded font-bold', ARCHETYPE_COLORS[villain.archetype])}>
-              {ARCHETYPE_LABELS[villain.archetype]}
-            </span>
-          )}
           <span className="text-xs text-[var(--fg-muted)]">
-            {villain.totalHands} hands | Confidence: {villain.confidence}
+            {villain.totalHands} hands
           </span>
         </div>
         <button
@@ -340,14 +275,6 @@ function VillainDetailPanel({
           </p>
         </div>
       </div>
-
-      {/* Exploit advice */}
-      {villain.archetype && (
-        <div className="bg-[var(--bg-2)] rounded p-3 text-sm mb-3">
-          <p className="text-xs text-[var(--fg-dim)] uppercase tracking-wide mb-1">Exploit Strategy</p>
-          <p className="text-[var(--fg)]">{getExploitAdvice(villain.archetype)}</p>
-        </div>
-      )}
 
       {/* Tags */}
       <div className="mb-3">
