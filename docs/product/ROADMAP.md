@@ -167,6 +167,11 @@ EPIC D (pipeline/fixture tests), A4 (re-entry / honest ITM), C4/C5 UI cleanup,
 and all of EPIC G (backend / sharing / payments / solver — each behind a
 `GOALS.md` gate). Revisit after Act I + the first Act II slice land.
 
+**Unify the two spaced-repetition stores** (named at the 2026-07-02 R4 steer):
+#106's db-backed `srsScheduler` (mistake patterns, graded) and the R4-ported
+browser-local `studyPacketProgress` (packet reviews, ungraded) coexist by
+design for now — one scheduler should eventually own both cadences.
+
 > **⏳ REMINDER — grade the excluded scenarios.** `FACING_3BET` (added in I-3)
 > and `FACING_ALL_IN` are currently **excluded** from range compliance — the
 > engine refuses to grade them rather than invent ranges. The future goal is to
