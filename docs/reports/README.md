@@ -31,7 +31,7 @@ _None._
 
 | Date | Report | Closed by |
 |---|---|---|
-| 2026-07-01 | [Direction Review — Where This Project Is Going (Act III Proposal)](archive/2026-07-01-direction-review-act-iii.md) | docs/product/ROADMAP.md Act III (The Whetstone), docs/reports/2026-07-01-abyss-audit.md, docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md, docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md |
+| 2026-07-01 | [Direction Review — Where This Project Is Going (Act III Proposal)](archive/2026-07-01-direction-review-act-iii.md) | #114, docs/product/ROADMAP.md Act III (The Whetstone), docs/reports/2026-07-01-abyss-audit.md, docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md, docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md |
 | 2026-06-12 | [Codebase Health Review — 2026-06-12](archive/2026-06-12-codebase-health-review.md) | #74 |
 | 2026-06-12 | [Product Concept Review — Vision, Conceptual Critique, New Ideas](archive/2026-06-12-product-concept-review.md) | #76, docs/product/ROADMAP.md Active Covenant |
 | 2026-06-10 | [Codebase Health Review - 2026-06-10](archive/2026-06-10-codebase-health-review.md) | #56, #74 |

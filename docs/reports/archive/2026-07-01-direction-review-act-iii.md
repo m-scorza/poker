@@ -1,7 +1,7 @@
 ---
 status: resolved
 date: 2026-07-01
-related: ['docs/product/ROADMAP.md Act III (The Whetstone)', 'docs/reports/2026-07-01-abyss-audit.md', 'docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md', 'docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md']
+related: ['#114', 'docs/product/ROADMAP.md Act III (The Whetstone)', 'docs/reports/2026-07-01-abyss-audit.md', 'docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md', 'docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md']
 ---
 
 # Direction Review — Where This Project Is Going (Act III Proposal)
