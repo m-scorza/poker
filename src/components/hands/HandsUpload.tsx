@@ -83,6 +83,52 @@ const confidenceBadgeClasses = {
   low: 'border-red-400/30 bg-red-400/10 text-red-100',
 };
 
+type ImportSourceGuideTone = 'high' | 'medium' | 'neutral' | 'blocked';
+
+const importSourceGuideToneClasses: Record<ImportSourceGuideTone, string> = {
+  high: 'border-emerald-400/25 bg-emerald-400/10 text-emerald-100',
+  medium: 'border-warn/25 bg-warn/10 text-warn',
+  neutral: 'border-sky-400/25 bg-sky-400/10 text-sky-100',
+  blocked: 'border-red-400/25 bg-red-400/10 text-red-100',
+};
+
+const IMPORT_SOURCE_GUIDES: Array<{
+  title: string;
+  status: string;
+  tone: ImportSourceGuideTone;
+  detail: string;
+  caveat: string;
+}> = [
+  {
+    title: 'PokerStars',
+    status: 'Native parser',
+    tone: 'high',
+    detail: 'Import local hand-history .txt files and tournament-summary .txt files together for the cleanest MTT context.',
+    caveat: 'Best confidence: hand histories plus summaries; UTF-8 BOM is supported.',
+  },
+  {
+    title: 'GGPoker / PokerCraft',
+    status: 'Caveated parser',
+    tone: 'medium',
+    detail: 'Import PokerCraft hand-history and summary exports from the client. The app treats GG confidence as directional until broader fixtures land.',
+    caveat: 'Remember PokerCraft retention and rake/accounting caveats when reviewing ROI or exported packets.',
+  },
+  {
+    title: 'Open Hand History JSON',
+    status: 'Standard export',
+    tone: 'neutral',
+    detail: 'Use OHH JSON when a room or tracker can export standardized hands instead of a proprietary text format.',
+    caveat: 'Good bridge for iPoker/888-style samples, but tournament summaries and payouts may still be missing.',
+  },
+  {
+    title: 'Known unsupported rooms',
+    status: 'Sample needed',
+    tone: 'blocked',
+    detail: 'WPN/ACR, iPoker text, 888 text, PartyPoker, Chico, and Winamax are recognized so they do not silently parse as GG.',
+    caveat: 'Convert/export as OHH JSON or provide sanitized raw samples before native parser claims are added.',
+  },
+];
+
 type JSZipInternalEntry = { _data?: { uncompressedSize?: number } };
 
 function isSupportedZipEntry(fileName: string): boolean {
@@ -189,7 +235,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         const content = await file.text();
         if (!isCurrentImport()) return;
         batchBytes += file.size;
-        fileDataArr.push({ name: file.name, content });
+        fileDataArr.push({ name: file.name, content, accessMethod: 'local_file' });
       } else if (lowerName.endsWith('.zip')) {
         if (file.size > MAX_ZIP_BYTES) {
           pushError(file.name, `ZIP archive too large (${formatMB(file.size)}). Maximum ${formatMB(MAX_ZIP_BYTES)}.`);
@@ -258,7 +304,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             }
             extractedBytes += contentBytes;
             batchBytes += contentBytes;
-            fileDataArr.push({ name: `${file.name}/${zipFileName}`, content });
+            fileDataArr.push({ name: `${file.name}/${zipFileName}`, content, accessMethod: 'local_folder' });
           }
           if (zipAborted) continue;
         } catch (err) {
@@ -459,12 +505,13 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   }
 
   return (
-    <div className="compartment p-6">
+    <div className="compartment p-6" data-testid="hands-upload-root">
       <div
         onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
         onDragLeave={() => setDragOver(false)}
         onDrop={onDrop}
         onClick={() => fileRef.current?.click()}
+        data-testid="hands-upload-dropzone"
         className={clsx(
           'border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-colors',
           dragOver
@@ -506,8 +553,37 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         className="hidden"
       />
 
-      <div className="mt-4 rounded-lg border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-xs">
-        <div className="flex flex-wrap items-center justify-between gap-3">
+      <section className="mt-4 rounded-lg border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-xs" aria-label="Import source guide">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <div className="font-semibold text-[var(--fg)]">Source-aware import guide</div>
+            <div className="mt-1 max-w-2xl text-[var(--fg-muted)]">
+              Pick the safest local export path first. Import source labels carry through to SpotPackets, so unsupported rooms remain study prompts instead of fake solver-ready data.
+            </div>
+          </div>
+          <span className="rounded-full border border-violet-400/20 bg-violet-400/10 px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-wider text-violet-100">
+            Local only
+          </span>
+        </div>
+        <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+          {IMPORT_SOURCE_GUIDES.map((guide) => (
+            <div key={guide.title} className={clsx('rounded-lg border p-3', importSourceGuideToneClasses[guide.tone])}>
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="font-data text-[11px] font-black uppercase tracking-tight text-white">{guide.title}</div>
+                <span className="rounded-full border border-white/10 bg-black/20 px-2 py-0.5 text-[9px] font-black uppercase tracking-wider text-white/60">
+                  {guide.status}
+                </span>
+              </div>
+              <p className="mt-2 leading-relaxed text-white/70">{guide.detail}</p>
+              <p className="mt-2 leading-relaxed text-white/45">{guide.caveat}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <div data-testid="hands-upload-data-health-entry">
+        <div id="data-health" data-testid="import-data-health-panel" className="mt-4 rounded-lg border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-xs">
+          <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <div className="font-semibold text-[var(--fg)]">Data Health</div>
             <div className="mt-1 text-[var(--fg-muted)]">{dataHealth.message}</div>
@@ -672,6 +748,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
             </div>
           </div>
         )}
+      </div>
       </div>
 
       <div className="mt-4 rounded-lg border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-xs">

@@ -60,8 +60,8 @@ export function detectBountyTournament(
  *
  * BPWR = bountyValue / (pot + bountyValue) approximately
  *
- * This is a simplified in-game approximation. For exact calculations,
- * use HRC (Holdem Resources Calculator).
+ * This is a simplified in-game approximation. Exact bounty/ICM validation
+ * belongs in an external calculator/export workflow.
  *
  * Source: docs/knowledge/strategy/06-bounty-tournaments.md §2
  *

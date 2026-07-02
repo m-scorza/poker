@@ -7,7 +7,7 @@ import type { Evidence } from '../../types/evidence';
 import type { Hand } from '../../types/hand';
 import type { Leak } from '../leakDetector';
 
-function hand(id: string, bigBlind = 100): Hand {
+function hand(id: string, bigBlind = 100, overrides: Partial<Hand> = {}): Hand {
   return {
     id,
     tournamentId: 't1',
@@ -28,6 +28,7 @@ function hand(id: string, bigBlind = 100): Hand {
     heroChipsBefore: 5000,
     heroChipsAfter: 5000,
     villainDeltas: [],
+    ...overrides,
   };
 }
 
@@ -52,6 +53,20 @@ function decision(overrides: Partial<HeroDecision>): HeroDecision {
     wonAtShowdown: false,
     wonAmount: 0,
     netProfit: 0,
+    ...overrides,
+  };
+}
+
+function bountyContext(
+  overrides: Partial<NonNullable<HeroDecision['bountyContext']>> = {},
+): NonNullable<HeroDecision['bountyContext']> {
+  return {
+    tournamentType: 'progressive_ko',
+    equityDrop: 9,
+    heroCoversVillain: true,
+    bountyRatio: 0.5,
+    stageAdjustment: 'late',
+    note: 'Directional BPWR estimate only.',
     ...overrides,
   };
 }
@@ -116,10 +131,14 @@ describe('buildStudyQueue', () => {
     expect(bbDefense!.evidence.details).toContain('2 tagged decisions');
     expect(bbDefense!.evidence.trust.kind).toBe('rule_based');
     expect(bbDefense!.evidence.trust.citations[0]?.docPath).toBe('docs/knowledge/strategy/03-preflop-strategy.md');
+    expect(bbDefense!.evidence.trust.note).toContain('normal 2-3x opens');
+    expect(bbDefense!.evidence.trust.note).toContain('not all-ins or large raises');
+    expect(bbDefense!.evidence.trust.note).toContain('ICM');
+    expect(bbDefense!.evidence.trust.note).toContain('not solver-backed');
     expectEvidenceCitationsToResolve(bbDefense!.evidence.trust);
   });
 
-  it('adds a GTO Wizard style biggest-loss review queue in BB, not raw chips', () => {
+  it('adds a study-tool-style biggest-loss review queue in BB, not raw chips', () => {
     const decisions = [
       decision({ handId: 'smallBlindLevel', netProfit: -400 }),
       decision({ handId: 'bigBlindLevel', netProfit: -1000 }),
@@ -161,5 +180,95 @@ describe('buildStudyQueue', () => {
     expect(cbetQueue!.evidence.trust.kind).toBe('proxy_model');
     expect(cbetQueue!.evidence.trust.citations[0]?.docPath).toBe('docs/knowledge/strategy/04-postflop-strategy.md');
     expectEvidenceCitationsToResolve(cbetQueue!.evidence.trust);
+  });
+
+  it('adds source/context caveat hands to the local SpotPacket study queue boundary', () => {
+    const decisions = [
+      decision({ handId: 'legacyIcm', icmStage: 'final_table', netProfit: -500 }),
+      decision({ handId: 'mediumGg', netProfit: -200 }),
+      decision({ handId: 'cleanStars', netProfit: -900 }),
+    ];
+    const queue = buildStudyQueue([], decisions, [
+      hand('legacyIcm', 100),
+      hand('mediumGg', 100, {
+        importSource: {
+          site: 'ggpoker',
+          fileType: 'hand_history',
+          accessMethod: 'client_export',
+          parserConfidence: 'medium',
+        },
+      }),
+      hand('cleanStars', 100, {
+        importSource: {
+          site: 'pokerstars',
+          fileType: 'hand_history',
+          accessMethod: 'local_file',
+          parserConfidence: 'high',
+        },
+      }),
+    ], 5);
+
+    const sourceQueue = queue.find((item) => item.id === 'data-health-source-context');
+    expect(sourceQueue).toMatchObject({
+      title: 'Data Health source/context review',
+      source: 'data_health',
+      sampleSize: 2,
+      confidence: 'low',
+      estimatedBbLoss: 7,
+      handIds: ['legacyIcm', 'mediumGg'],
+      cta: 'Review source caveats',
+      evidence: {
+        kind: 'source_context',
+        label: 'Import/source context',
+      },
+    });
+    expect(sourceQueue!.evidence.details[0]).toBe('2 hands with source/context caveats');
+    expect(sourceQueue!.evidence.details[1]).toContain('legacy/unknown import source: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('directional parser confidence: 1');
+    expect(sourceQueue!.evidence.trust.kind).toBe('unsupported');
+    expect(sourceQueue!.evidence.trust.note).toContain('not strategy advice');
+    expect(sourceQueue!.explanation).toContain('SpotPacket exports keep these as study prompts');
+  });
+
+  it('splits PKO/ICM source-context gaps into concrete no-EV study reasons', () => {
+    const decisions = [
+      decision({
+        handId: 'pkoFt',
+        scenario: 'FACING_ALL_IN',
+        action: 'call',
+        icmStage: 'final_table',
+        bountyContext: bountyContext(),
+        netProfit: -700,
+      }),
+    ];
+    const queue = buildStudyQueue([], decisions, [
+      hand('pkoFt', 100, {
+        importSource: {
+          site: 'pokerstars',
+          fileType: 'hand_history',
+          accessMethod: 'local_file',
+          parserConfidence: 'high',
+        },
+      }),
+    ], 5);
+
+    const sourceQueue = queue.find((item) => item.id === 'data-health-source-context');
+    expect(sourceQueue).toMatchObject({
+      title: 'Data Health source/context review',
+      source: 'data_health',
+      sampleSize: 1,
+      confidence: 'low',
+      handIds: ['pkoFt'],
+      evidence: {
+        kind: 'source_context',
+        label: 'Import/source context',
+      },
+    });
+    expect(sourceQueue!.evidence.details[1]).toContain('opponent bounty values unknown: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('PKO coverage context partial: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('multi-bounty context missing: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('PKO pay-jump context missing: 1');
+    expect(sourceQueue!.evidence.trust.kind).toBe('unsupported');
+    expect(sourceQueue!.evidence.trust.note).toContain('not strategy advice');
   });
 });

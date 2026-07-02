@@ -150,6 +150,24 @@ describe('detectScenario', () => {
     expect(scenario).toBe('BB_VS_RAISE');
   });
 
+  it('detects BB_VS_RAISE_MULTIWAY — opener plus caller before BB', () => {
+    const players = [
+      makePlayer({ playerName: 'opener', position: 'UTG', isHero: false, holeCards: null }),
+      makePlayer({ playerName: 'caller', position: 'CO', isHero: false, holeCards: null }),
+      makePlayer({ playerName: 'Hero', position: 'BB', isHero: true, holeCards: ['7h', '2h'] }),
+    ];
+    const actions = [
+      makeAction({ playerName: 'opener', street: 'preflop', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'caller', street: 'preflop', actionType: 'call', amount: 800, sequence: 2 }),
+      makeAction({ playerName: 'Hero', street: 'preflop', actionType: 'fold', amount: null, sequence: 3 }),
+    ];
+
+    const { scenario, openerPosition } = detectScenario(actions, players, 'Hero', 'BB', 400, 6);
+
+    expect(scenario).toBe('BB_VS_RAISE_MULTIWAY');
+    expect(openerPosition).toBe('UTG');
+  });
+
   it('detects FACING_3BET — open + 3-bet before a non-blind hero (B4)', () => {
     const players = [
       makePlayer({ playerName: 'opener', position: 'UTG', isHero: false }),

@@ -1,15 +1,18 @@
 import { useMemo } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { db } from '../data/store';
+import { db, getRecentImportRuns } from '../data/store';
 import { useAppStore } from '../data/appStore';
+import { IMPORT_DIAGNOSTICS_RETENTION_RUNS, summarizeDataHealth } from '../data/importRuns';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../data/sessions';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { buildCareerCoachReport } from '../analysis/careerCoach';
 import { computePositionStats } from '../analysis/positionStats';
 import { buildStudyQueue } from '../analysis/studyPlan';
+import { buildStudyQueueSpotPacketBundle } from '../analysis/spotPacket';
 import { getTournamentRevenue } from '../analysis/financials';
 import { sumUsd } from '../parser/money';
+import type { ParsedHand } from '../parser/pokerstars';
 
 import { MonumentCurve } from '../components/dashboard/MonumentCurve';
 import { VerdictGauge } from '../components/dashboard/VerdictGauge';
@@ -17,26 +20,45 @@ import { RingHud } from '../components/dashboard/RingHud';
 import { PositionalHeatmap } from '../components/dashboard/PositionalHeatmap';
 import { BankrollChart } from '../components/dashboard/BankrollChart';
 import { WireTape } from '../components/dashboard/WireTape';
+import { StudyPlanCard } from '../components/dashboard/StudyPlanCard';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
 
 export function DashboardPage() {
   const { strategyProfile, activeSessionId } = useAppStore();
 
   const totalHands = useLiveQuery(() => db.hands.count(), []) ?? 0;
+  const retainedImportRuns = useLiveQuery(() => getRecentImportRuns(IMPORT_DIAGNOSTICS_RETENTION_RUNS), [], []);
+  const dataHealthSummary = useMemo(() => summarizeDataHealth(retainedImportRuns ?? []), [retainedImportRuns]);
 
   const rawData = useLiveQuery(async () => {
-    const rawHands = await db.hands.toArray();
-    const rawDecisions = await db.heroDecisions.toArray();
-    const rawTournaments = await db.tournaments.toArray();
-    return { rawHands, rawDecisions, rawTournaments };
+    const [rawHands, rawDecisions, rawTournaments, rawPlayers, rawActions] = await Promise.all([
+      db.hands.toArray(),
+      db.heroDecisions.toArray(),
+      db.tournaments.toArray(),
+      db.players.toArray(),
+      db.actions.toArray(),
+    ]);
+    return { rawHands, rawDecisions, rawTournaments, rawPlayers, rawActions };
   }, []);
 
   const data = useMemo(() => {
     if (!rawData) return null;
-    const { rawHands, rawDecisions, rawTournaments } = rawData;
+    const { rawHands, rawDecisions, rawTournaments, rawPlayers, rawActions } = rawData;
 
     const tMap = new Map(rawTournaments.map(t => [t.id, t]));
     const decisionMap = new Map(rawDecisions.map(d => [d.handId, d]));
+    const playersByHandId = new Map<string, typeof rawPlayers>();
+    for (const player of rawPlayers) {
+      const players = playersByHandId.get(player.handId) ?? [];
+      players.push(player);
+      playersByHandId.set(player.handId, players);
+    }
+    const actionsByHandId = new Map<string, typeof rawActions>();
+    for (const action of rawActions) {
+      const actions = actionsByHandId.get(action.handId) ?? [];
+      actions.push(action);
+      actionsByHandId.set(action.handId, actions);
+    }
 
     const sessionsGrouped = groupIntoSessions(rawHands, decisionMap, tMap);
     const trendData = computeSessionTrends(sessionsGrouped);
@@ -64,6 +86,15 @@ export function DashboardPage() {
     const leaks = activeSessionId === 'all' ? allLeaks : detectLeaks(stats, strategyProfile);
     const positionStats = computePositionStats(checked, filteredHands);
     const studyQueue = buildStudyQueue(leaks, checked, filteredHands, 5);
+    const studyParsedHands: ParsedHand[] = filteredHands.map((hand) => ({
+      hand,
+      players: playersByHandId.get(hand.id) ?? [],
+      actions: actionsByHandId.get(hand.id) ?? [],
+      tournament: tMap.get(hand.tournamentId) ?? { id: hand.tournamentId, handsPlayed: 0 },
+      collectedAmounts: new Map(),
+      showdownWinners: new Set(),
+    }));
+    const studyPacketBundle = buildStudyQueueSpotPacketBundle(studyQueue, studyParsedHands, checked, { maxPackets: 12 });
 
     const financialSessions = activeSessionId === 'all'
       ? sessionsGrouped
@@ -86,7 +117,7 @@ export function DashboardPage() {
     const statsSummary = { totalBuyIns, totalPrizes, totalTournaments, itmCount };
     const displayTrend = activeSessionId === 'all' ? trendData : computeIntraSessionTrends(checked, filteredHands);
 
-    return { stats, leaks, trendData, sessionsGrouped, totalPnl, statsSummary, positionStats, displayTrend, careerCoachReport, studyQueue };
+    return { stats, leaks, trendData, sessionsGrouped, totalPnl, statsSummary, positionStats, displayTrend, careerCoachReport, studyQueue, studyPacketBundle };
   }, [rawData, activeSessionId, strategyProfile]);
 
   if (totalHands === 0) {
@@ -107,6 +138,8 @@ export function DashboardPage() {
   const statsSummary = data?.statsSummary ?? { totalBuyIns: 0, totalPrizes: 0, totalTournaments: 0, itmCount: 0 };
   const positionStats = data?.positionStats ?? [];
   const careerCoachReport = data?.careerCoachReport;
+  const studyQueue = data?.studyQueue ?? [];
+  const studyPacketBundle = data?.studyPacketBundle ?? null;
 
   const vpip = aggregateStats && aggregateStats.totalHands > 0 ? (aggregateStats.vpipHands / aggregateStats.totalHands) * 100 : 0;
   const pfr = aggregateStats && aggregateStats.totalHands > 0 ? (aggregateStats.pfrHands / aggregateStats.totalHands) * 100 : 0;
@@ -181,6 +214,12 @@ export function DashboardPage() {
         
         <PositionalHeatmap stats={positionStats} />
       </main>
+
+      {studyQueue.length > 0 && (
+        <div className="mt-6">
+          <StudyPlanCard items={studyQueue} spotPacketBundle={studyPacketBundle} dataHealthSummary={dataHealthSummary} />
+        </div>
+      )}
     </>
   );
 }

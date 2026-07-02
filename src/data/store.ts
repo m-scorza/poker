@@ -9,6 +9,7 @@ import Dexie, { type EntityTable } from 'dexie';
 import type { Hand, PlayerInHand, Action, Tournament, Position } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import type { VillainProfile, VillainRawCounters, VillainStats, PositionStats, PositionStatsRawCounters } from '../types/villain';
+import type { ParsedHand } from '../parser/pokerstars';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 import type { ImportRunRecord } from './importRuns';
 import { IMPORT_DIAGNOSTICS_RETENTION_RUNS } from './importDiagnosticsPolicy';
@@ -272,6 +273,27 @@ export async function getPlayersForHand(handId: string): Promise<PlayerInHand[]>
 /** Get actions for a specific hand. */
 export async function getActionsForHand(handId: string): Promise<Action[]> {
   return db.actions.where('handId').equals(handId).sortBy('sequence');
+}
+
+/** Rehydrate a stored hand into the parser-shaped packet boundary. */
+export async function getParsedHandForHandId(handId: string): Promise<ParsedHand | null> {
+  const hand = await db.hands.get(handId);
+  if (!hand) return null;
+
+  const [players, actions, tournament] = await Promise.all([
+    db.players.where('handId').equals(handId).toArray(),
+    db.actions.where('handId').equals(handId).sortBy('sequence'),
+    hand.tournamentId ? db.tournaments.get(hand.tournamentId) : Promise.resolve(undefined),
+  ]);
+
+  return {
+    hand,
+    players,
+    actions,
+    tournament: tournament ?? { id: hand.tournamentId, handsPlayed: 0 },
+    collectedAmounts: new Map(),
+    showdownWinners: new Set(),
+  };
 }
 
 /** Save a custom range for a position. Returns a result so callers can react to quota errors. */

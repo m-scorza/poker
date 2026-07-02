@@ -14,6 +14,7 @@ export type Scenario =
   | 'FACING_ALL_IN'
   | 'FACING_LIMP'
   | 'BB_VS_RAISE'
+  | 'BB_VS_RAISE_MULTIWAY'
   | 'BB_VS_LARGE_RAISE'
   | 'BB_VS_LIMP'
   | 'WALK';

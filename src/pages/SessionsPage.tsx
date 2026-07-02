@@ -112,7 +112,7 @@ export function SessionsPage() {
                   <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">Buy-Ins</th>
                   <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">BB/100</th>
                   <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">ROI</th>
-                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">GTO Comp.</th>
+                  <th className="px-3 py-4 text-xs text-[var(--fg-dim)] uppercase tracking-wider font-semibold">Reference Match</th>
                 </tr>
               </thead>
               <AnimatePresence>
@@ -221,7 +221,7 @@ export function SessionsPage() {
                               {/* Street Consistency */}
                               <div className="compartment">
                                  <h4 className="kick text-[var(--sig)] mb-4 flex items-center gap-2">
-                                    <Target size={14} /> GTO Consistency
+                                    <Target size={14} /> Reference Consistency
                                  </h4>
                                  <div className="space-y-4">
                                     <ProgressBar label="C-bet Total" val={pctNum(st.cbetMade, st.cbetOpps)} color="blue" />
@@ -238,15 +238,15 @@ export function SessionsPage() {
                                  <div className="text-xs text-[var(--fg-dim)] space-y-3">
                                     {st.complianceEligible > 0 && (st.complianceCompliant / st.complianceEligible) < 0.85 ? (
                                        <div className="bg-[var(--loss-soft)] p-3 rounded-xl border border-[var(--loss-line)] text-[var(--loss)]">
-                                          ⚠️ <span className="font-bold">Low Compliance.</span> Your deviations this session indicate &ldquo;reactionary&rdquo; play. Re-evaluate your Turn folds.
+                                          ⚠️ <span className="font-bold">Low reference match.</span> These range mismatches indicate &ldquo;reactionary&rdquo; play. Re-evaluate your Turn folds.
                                        </div>
                                     ) : (
                                        <div className="bg-[var(--money-soft)] p-3 rounded-xl border border-[var(--money-line)] text-[var(--money)]">
-                                          ✅ <span className="font-bold">Elite Discipline.</span> You maintained your baseline strategy even under pressure. Keep it up!
+                                          ✅ <span className="font-bold">Stable baseline.</span> You maintained your local reference strategy even under pressure. Keep it up!
                                        </div>
                                     )}
                                     <p className="italic opacity-60 px-2 border-l-2 border-[var(--warn)] py-1">
-                                       &ldquo;The {s.nemesis?.name || 'opponent'} factor should not make you deviate from your theoretical range.&rdquo;
+                                       &ldquo;Review whether {s.nemesis?.name || 'opponent'} pressure pulled you away from your local baseline.&rdquo;
                                     </p>
                                  </div>
                               </div>

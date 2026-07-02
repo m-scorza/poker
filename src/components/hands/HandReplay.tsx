@@ -3,19 +3,23 @@
  * Shows board cards, player actions, pot progression, and hero cards.
  */
 
-import { useEffect, useState, useRef, useCallback } from 'react';
+import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
 import { PokerCard } from '../shared/Card';
+import { SpotSourcePanel } from './SpotSourcePanel';
+import { TrainerSpotCard } from './TrainerSpotCard';
 import { getPlayersForHand, getActionsForHand, toggleStarHand } from '../../data/store';
 import { Star, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { clsx } from 'clsx';
 import { classifyBoardTexture, analyzePostflop } from '../../analysis/postflopAnalyzer';
+import { buildSpotPacketFromParsedHand } from '../../analysis/spotPacket';
 import { computePotBeforeStreet } from '../../analysis/scenarioDetector';
-import { complianceExclusionReason } from '../../analysis/rangeChecker';
+import { complianceExclusionReasonForDecision } from '../../analysis/rangeChecker';
 import { icmStageLabel, icmStageColor } from '../../analysis/icmDetector';
 import { CardGroup, OddsCalculator } from 'poker-odds-calculator';
 import type { Hand, PlayerInHand, Action } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import type { PostflopAction } from '../../analysis/postflopAnalyzer';
+import type { ParsedHand } from '../../parser/pokerstars';
 import { calculateAlpha, calculateMDF, getRecommendedCbetSizing } from '../../analysis/math';
 
 interface HandReplayProps {
@@ -165,6 +169,25 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
   const hero = players.find((p) => p.isHero);
   const streetActions = actions.filter((a) => a.street === activeStreet);
+  const spotPacket = useMemo(() => {
+    if (!heroDecision || players.length === 0) return null;
+
+    const parsedHand: ParsedHand = {
+      hand,
+      players,
+      actions,
+      tournament: {
+        id: hand.tournamentId,
+        handsPlayed: 1,
+      },
+      collectedAmounts: new Map(),
+      showdownWinners: new Set(),
+    };
+
+    return buildSpotPacketFromParsedHand(parsedHand, heroDecision, {
+      externalReview: { enabled: true },
+    });
+  }, [actions, hand, heroDecision, players]);
 
   const boardTexture = hand.boardFlop
     ? classifyBoardTexture(hand.boardFlop)
@@ -179,7 +202,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   if (hand.boardRiver) streets.push('river');
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center">
+    <div className="fixed inset-0 z-50 flex items-center justify-center" data-testid="hand-replay-overlay">
       <button
         type="button"
         aria-label="Close replay from backdrop"
@@ -191,6 +214,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="hand-replay-title"
+        data-testid="hand-replay-dialog"
         className="relative bg-[var(--ink-2)] border border-[var(--hairline)] rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto"
       >
         {/* Header */}
@@ -285,6 +309,13 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                 {heroDecision.handKey}
               </span>
             )}
+          </div>
+        )}
+
+        {spotPacket && (
+          <div data-testid="hand-replay-study-packet-review">
+            <SpotSourcePanel packet={spotPacket} />
+            <TrainerSpotCard packet={spotPacket} />
           </div>
         )}
 
@@ -638,7 +669,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           // Refusal-as-UI: a scenario the engine declines to grade (e.g. facing a
           // 3-bet or an all-in) gets an explicit "Not graded — here's why" instead
           // of a misleading badge or a red scenario label.
-          const exclusionReason = complianceExclusionReason(heroDecision.scenario);
+          const exclusionReason = complianceExclusionReasonForDecision(heroDecision);
           return (
             <div className="border-t border-[var(--hairline)] pt-4 mt-6">
               <div className="flex items-center gap-4 text-xs font-mono">
@@ -662,7 +693,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                   </div>
                 ) : heroDecision.isCompliant ? (
                   <div className="ml-auto px-2 py-1 rounded bg-[var(--money-soft)] text-[var(--money)] font-bold border border-[var(--money-line)] uppercase text-[10px]">
-                    GTO Compliant
+                    Reference match
                   </div>
                 ) : null}
               </div>

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildCoachsNote, COACHS_NOTE_MIN_HANDS } from '../coachsNote';
+import { buildCoachsNote, COACHS_NOTE_MIN_HANDS, type CoachStudyPacketFocus } from '../coachsNote';
 import type { Leak } from '../leakDetector';
 import type { HeroDecision } from '../../types/analysis';
 import { makeHand } from '../../test/factories';
@@ -56,6 +56,32 @@ describe('buildCoachsNote', () => {
       expect(note.receipts.length).toBeLessThanOrEqual(3);
       expect(note.noDecisiveHand).toBe(false);
       expect(note.drillCta).toMatch(/arena/i);
+    }
+  });
+
+  it('carries the selected local Study Queue packet focus into the coach note', () => {
+    const losing = decisions(25, { netProfit: -300, scenario: 'FACING_RAISE' });
+    const hands = losing.map((d) => makeHand({ id: d.handId, bigBlind: 100 }));
+    const studyPacketFocus: CoachStudyPacketFocus = {
+      packet: {
+        packetId: 'spot-h0',
+        source: { handId: 'h0' },
+        hero: { handKey: 'QJs', position: 'BB', scenario: 'BB_VS_RAISE' },
+      } as CoachStudyPacketFocus['packet'],
+      srsStatus: 'SRS repeat due now',
+    };
+
+    const note = buildCoachsNote({
+      leaks: [makeLeak()],
+      decisions: losing,
+      hands,
+      studyPacketFocus,
+    });
+
+    expect(note.kind).toBe('focus');
+    if (note.kind === 'focus') {
+      expect(note.studyPacketFocus?.packet.packetId).toBe('spot-h0');
+      expect(note.studyPacketFocus?.srsStatus).toBe('SRS repeat due now');
     }
   });
 

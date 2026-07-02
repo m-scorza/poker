@@ -4,6 +4,7 @@ import {
   compliancePercentage,
   batchCheckCompliance,
   complianceExclusionReason,
+  complianceExclusionReasonForDecision,
 } from '../rangeChecker';
 import type { HeroDecision } from '../../types/analysis';
 
@@ -217,7 +218,7 @@ describe('checkCompliance — FACING_3BET (excluded, B4)', () => {
 
 describe('complianceExclusionReason (refusal-as-UI)', () => {
   it('gives a reason for every scenario excluded from compliance', () => {
-    for (const scenario of ['FACING_3BET', 'FACING_ALL_IN', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP'] as const) {
+    for (const scenario of ['FACING_3BET', 'FACING_ALL_IN', 'BB_VS_RAISE_MULTIWAY', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP'] as const) {
       const reason = complianceExclusionReason(scenario);
       expect(reason, scenario).toBeTruthy();
       // The excluded scenarios must agree with checkCompliance returning null.
@@ -229,6 +230,40 @@ describe('complianceExclusionReason (refusal-as-UI)', () => {
   it('returns null for a graded scenario', () => {
     expect(complianceExclusionReason('RFI')).toBeNull();
     expect(complianceExclusionReason('BB_VS_RAISE')).toBeNull();
+  });
+
+  it('explains dynamic FACING_RAISE skips that are not scenario-level exclusions', () => {
+    expect(complianceExclusionReason('FACING_RAISE')).toBeNull();
+
+    const unknownOpener = makeDecision({
+      position: 'HJ',
+      handKey: 'AQs',
+      action: 'raise',
+      scenario: 'FACING_RAISE',
+      openerPosition: null,
+    });
+    expect(checkCompliance(unknownOpener)).toBeNull();
+    expect(complianceExclusionReasonForDecision(unknownOpener)).toContain('unknown opener position');
+
+    const btnFlat = makeDecision({
+      position: 'BTN',
+      handKey: 'AQs',
+      action: 'call',
+      scenario: 'FACING_RAISE',
+      openerPosition: 'CO',
+    });
+    expect(checkCompliance(btnFlat)).toBeNull();
+    expect(complianceExclusionReasonForDecision(btnFlat)).toContain('flat call');
+
+    const gradedColdCall = makeDecision({
+      position: 'HJ',
+      handKey: 'AQs',
+      action: 'call',
+      scenario: 'FACING_RAISE',
+      openerPosition: 'CO',
+    });
+    expect(checkCompliance(gradedColdCall)).toEqual({ isCompliant: false, deviationType: 'COLD_CALL' });
+    expect(complianceExclusionReasonForDecision(gradedColdCall)).toBeNull();
   });
 });
 
@@ -323,6 +358,18 @@ describe('checkCompliance — excluded scenarios', () => {
   it('returns null for BB_VS_LARGE_RAISE', () => {
     const d = makeDecision({ scenario: 'BB_VS_LARGE_RAISE', position: 'BB' });
     expect(checkCompliance(d)).toBeNull();
+  });
+
+  it('returns null for BB_VS_RAISE_MULTIWAY so suited folds are not heads-up BB deviations', () => {
+    const d = makeDecision({
+      scenario: 'BB_VS_RAISE_MULTIWAY',
+      position: 'BB',
+      handKey: '72s',
+      action: 'fold',
+      openerPosition: 'UTG',
+    });
+    expect(checkCompliance(d)).toBeNull();
+    expect(complianceExclusionReason('BB_VS_RAISE_MULTIWAY')).toContain('heads-up BB suited-fold rule');
   });
 
   it('returns null for BB_VS_LIMP', () => {

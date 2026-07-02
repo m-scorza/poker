@@ -163,6 +163,12 @@ export function detectScenario(
       if (lastRaise?.amount && lastRaise.amount / bigBlind >= 5) {
         return { scenario: 'BB_VS_LARGE_RAISE', openerPosition };
       }
+      // A normal open plus any caller/limper before the BB is not the same
+      // heads-up BB defense family. Keep it separate so the suited-fold rule is
+      // not reused for multiway equity-realization / squeeze-review spots.
+      if (hasLimp) {
+        return { scenario: 'BB_VS_RAISE_MULTIWAY', openerPosition };
+      }
       return { scenario: 'BB_VS_RAISE', openerPosition };
     }
     if (hasLimp && !hasRaise) {

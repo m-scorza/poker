@@ -63,14 +63,34 @@ underneath, hence sequenced after I-1.
       snapshots — same fabricated-signal risk deferred on the Coach's Note).
 - [ ] **Demote dashboards** — primary surface answers "what should I study this
       week, and why?"
-- [ ] **SRS drills from your own mistakes** — feed `ArenaPage.tsx` from hero's
-      actual misplayed spots on a spaced-repetition schedule.
-- [x] **Refusal-as-UI** — ✅ first slice done in this PR: HandReplay now shows an
+- [ ] **SRS drills from your own mistakes** — local slices are live in
+      `StudyPlanCard` / `ArenaPage`: reviewed Study Queue `SpotPacket`s get
+      browser-local due dates, due packets route back into the next-packet CTA,
+      and the dashboard can open the next/due packet in Arena by exact imported
+      hand id. When multiple actionable packets remain, the Arena route carries
+      ordered hand/packet IDs for a multi-packet local session; Arena rehydrates
+      each hand into the full sanitized `SpotPacket` legal-action menu with
+      source/caveat warnings, records browser-local SRS progress after each
+      prompt, and then shows a completed-session result surface with reviewed
+      count, next due cue, dashboard return, and last-packet Hand Replay link.
+      All-in and ungraded spots stay review-only and do not increment score.
+      Remaining work: deliberate SRS controls beyond the dashboard's
+      reviewed/starred/snoozed markers and richer progress tuning.
+- [x] **Refusal-as-UI** — ✅ first slices done in this PR: HandReplay now shows an
       explicit **"Not graded — here's why"** for scenarios the engine declines to
-      grade (`FACING_3BET`, `FACING_ALL_IN`, `BB_VS_LARGE_RAISE`, `BB_VS_LIMP`)
-      via `complianceExclusionReason`, instead of a blank/red badge. (Stats/Leaks
-      refusal surfacing + the position-specific `FACING_RAISE` BTN/BB case are
-      follow-ups.)
+      grade (`FACING_3BET`, `FACING_ALL_IN`, `BB_VS_RAISE_MULTIWAY`,
+      `BB_VS_LARGE_RAISE`, `BB_VS_LIMP`)
+      via `complianceExclusionReason`, instead of a blank/red badge. Leaks now
+      also surfaces low/medium Data Health import posture with parsed-file rate,
+      failed files, warning categories, and a Data Health deep-link before leak
+      cards are trusted. Hands now aggregates those not-graded scenario families
+      into a session-scoped review queue with fold/continue counts and one-click
+      filters. Career/Stats now shows a shared not-graded stats caveat with the
+      not-graded rate, gradeable denominator, fold/continue split, top scenario
+      families, and a route back to Hand Archive review. Decision-level
+      `FACING_RAISE` skips (unknown opener position, BTN/BB flats, unsupported
+      hero/opener pairs) now use the same Hand Replay / Hands / Career routing
+      without reclassifying graded non-BTN/BB cold-calls as not graded.
 - [ ] **Cut villain auto-archetypes from v1.0** — keep manual notes; stop
       investing in 30-hand auto-classification.
 

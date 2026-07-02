@@ -17,6 +17,7 @@
 import type { HeroDecision } from '../types/analysis';
 import type { Hand } from '../types/hand';
 import type { Leak } from './leakDetector';
+import type { SpotPacket } from './spotPacket';
 import { buildStudyQueue, type StudyQueueEvidence, type StudyQueueItem } from './studyPlan';
 import { selectProofHands, type ProofHandReason } from './proofHandSelector';
 
@@ -36,6 +37,15 @@ export interface CoachFocus {
   cta: string;
 }
 
+export interface CoachStudyPacketFocus {
+  packet: SpotPacket;
+  srsStatus: string;
+  /** Ordered hand IDs for a multi-packet local Arena drill session. */
+  arenaSessionHandIds?: string[];
+  /** Ordered packet IDs matching `arenaSessionHandIds`; advisory route metadata only. */
+  arenaSessionPacketIds?: string[];
+}
+
 export type CoachsNote =
   | { kind: 'insufficient_data'; handsAnalyzed: number; message: string }
   | { kind: 'all_clear'; handsAnalyzed: number; message: string }
@@ -43,6 +53,7 @@ export type CoachsNote =
       kind: 'focus';
       handsAnalyzed: number;
       focus: CoachFocus;
+      studyPacketFocus?: CoachStudyPacketFocus;
       receipts: ReceiptHand[];
       /** True when no single losing hand is decisive (a frequency-only leak). */
       noDecisiveHand: boolean;
@@ -57,13 +68,15 @@ export interface CoachsNoteInput {
   minHands?: number;
   /** Injectable "now" for deterministic receipt recency. */
   now?: Date;
+  /** Optional local Study Queue packet chosen by the browser-local SRS/progress router. */
+  studyPacketFocus?: CoachStudyPacketFocus;
 }
 
 export const COACHS_NOTE_MIN_HANDS = 20;
 const MAX_RECEIPTS = 3;
 
 export function buildCoachsNote(input: CoachsNoteInput): CoachsNote {
-  const { leaks, decisions, hands, minHands = COACHS_NOTE_MIN_HANDS, now = new Date() } = input;
+  const { leaks, decisions, hands, minHands = COACHS_NOTE_MIN_HANDS, now = new Date(), studyPacketFocus } = input;
   const handsAnalyzed = decisions.length;
 
   if (handsAnalyzed < minHands) {
@@ -110,6 +123,7 @@ export function buildCoachsNote(input: CoachsNoteInput): CoachsNote {
       evidence: top.evidence,
       cta: top.cta,
     },
+    ...(studyPacketFocus ? { studyPacketFocus } : {}),
     receipts,
     noDecisiveHand: receipts.length === 0,
     drillCta: 'Open the Arena and drill this pattern',

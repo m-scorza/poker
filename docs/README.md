@@ -13,7 +13,7 @@ who you are and what you're trying to do, you can skip to the right folder.
 | [`plans/`](plans/) | Dated implementation plans. Each plan is a snapshot of intent at a moment in time — not always carried out as written. | Anyone wondering "why was this done?" or "what's coming next?" |
 | [`design/`](design/) | UI/UX briefs. Visual direction, redesign packs. | Antigravity (the UI lane). |
 | [`reports/`](reports/) | Point-in-time analytical reports — janitor triage, KB drift, phase summaries. | Anyone wondering "what was the state of the repo on date X?" |
-| [`research/`](research/) | Competitor research, market context. | Strategy discussions; not consumed by code. |
+| [`research/`](research/) | Source-governed research operating system: poker brain, design, solver/tool feasibility, and competitor/market context. | Strategy discussions; research-to-code handoffs; not consumed directly by code. |
 | `council/` | Local archive of council/transcript artifacts. **Gitignored** — present locally, never committed. | The user, when reviewing past moderation sessions. |
 | `session-notes/` | Ephemeral session notes. **Gitignored.** | Each agent during a working session. |
 

@@ -64,7 +64,7 @@ Counting from the Button (anti-clockwise): [216R]
 
 ## 3. RFI (Raise First In) Ranges by Stack Depth
 
-Reference ranges from solver outputs (chipEV). These are **starting points** — adjust based on ICM, opponent profiles, and table dynamics. [216R, Vol.2]
+Reference chipEV range percentages from study tables. These are **starting points** — adjust based on ICM, opponent profiles, and table dynamics. [216R, Vol.2]
 
 ### Approximate RFI % by Position and Stack
 

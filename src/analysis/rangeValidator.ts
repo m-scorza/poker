@@ -1,12 +1,12 @@
 /**
- * Range accuracy validation against solver outputs.
+ * Range accuracy validation against documented reference percentages.
  *
  * Compares the app's hardcoded RFI ranges (from the Baseline strategy)
- * against solver-derived baselines (GTO Wizard / HRC references)
+ * against chipEV reference baselines from the internal strategy docs
  * to identify discrepancies and confidence levels.
  *
  * Sources:
- * - docs/knowledge/strategy/02-ranges-and-position.md §3 (solver RFI % by position/stack)
+ * - docs/knowledge/strategy/02-ranges-and-position.md §3 (reference RFI % by position/stack)
  * - docs/knowledge/strategy/02-ranges-and-position.md §4 (open shove ranges at 10bb)
  * - CLAUDE.md "Theoretical Ranges"
  */
@@ -22,11 +22,11 @@ export interface RangeValidationResult {
   ourCount: number;
   /** Our range as % of 169 combos */
   ourPct: number;
-  /** Solver reference % (at default stack depth) */
+  /** Reference % (at default stack depth) */
   solverPct: number;
   /** Absolute difference in percentage points */
   delta: number;
-  /** Whether our range is wider or tighter than solver */
+  /** Whether our range is wider or tighter than the reference */
   direction: 'wider' | 'tighter' | 'match';
   /** Confidence in the comparison */
   confidence: 'high' | 'medium' | 'low';
@@ -35,7 +35,7 @@ export interface RangeValidationResult {
 }
 
 /**
- * Solver-derived RFI % baselines by position at various stack depths.
+ * Reference RFI % baselines by position at various stack depths.
  * Source: docs/knowledge/strategy/02-ranges-and-position.md §3
  *
  * Our Baseline ranges are designed for early tournament play (~50-75bb),
@@ -60,7 +60,7 @@ const SOLVER_RFI_BASELINES: Record<string, {
 };
 
 /**
- * Solver-derived open shove % at 10bb by position.
+ * Reference open-shove % at 10bb by position.
  * Source: docs/knowledge/strategy/02-ranges-and-position.md §4
  */
 const SOLVER_PUSH_BASELINES: Record<string, number> = {
@@ -77,7 +77,7 @@ const SOLVER_PUSH_BASELINES: Record<string, number> = {
 const TOTAL_COMBOS = 169;
 
 /**
- * Validate RFI ranges against solver baselines.
+ * Validate RFI ranges against documented reference baselines.
  *
  * @param stackDepth - Stack depth to compare against (30, 50, or 100bb)
  * @returns Validation results per position
@@ -110,11 +110,11 @@ export function validateRFIRanges(
 
     let note: string;
     if (direction === 'match') {
-      note = `Range aligned with solver (${stackDepth}bb).`;
+      note = `Range aligned with the ${stackDepth}bb reference baseline.`;
     } else if (direction === 'wider') {
-      note = `Range ${delta.toFixed(1)}pp wider than solver at ${stackDepth}bb. Baseline is more aggressive at this position.`;
+      note = `Range ${delta.toFixed(1)}pp wider than the ${stackDepth}bb reference baseline. Baseline is more aggressive at this position.`;
     } else {
-      note = `Range ${delta.toFixed(1)}pp tighter than solver at ${stackDepth}bb. Baseline is more conservative at this position.`;
+      note = `Range ${delta.toFixed(1)}pp tighter than the ${stackDepth}bb reference baseline. Baseline is more conservative at this position.`;
     }
 
     results.push({
@@ -133,7 +133,7 @@ export function validateRFIRanges(
 }
 
 /**
- * Validate push/fold ranges at 10bb against solver baselines.
+ * Validate push/fold ranges at 10bb against documented reference baselines.
  */
 export function validatePushRanges(): RangeValidationResult[] {
   const results: RangeValidationResult[] = [];
@@ -156,11 +156,11 @@ export function validatePushRanges(): RangeValidationResult[] {
 
     let note: string;
     if (direction === 'match') {
-      note = `Push range aligned with solver (10bb chipEV).`;
+      note = `Push range aligned with the 10bb chipEV reference baseline.`;
     } else if (direction === 'wider') {
-      note = `Push range ${delta.toFixed(1)}pp wider than solver. May increase variance.`;
+      note = `Push range ${delta.toFixed(1)}pp wider than the 10bb reference baseline. May increase variance.`;
     } else {
-      note = `Push range ${delta.toFixed(1)}pp tighter than solver. May be leaving EV in push spots.`;
+      note = `Push range ${delta.toFixed(1)}pp tighter than the 10bb reference baseline. Review before treating it as a push/fold leak.`;
     }
 
     results.push({

@@ -5,6 +5,7 @@ import {
   clearAllData,
   clearImportRuns,
   db,
+  getParsedHandForHandId,
   getRecentImportRuns,
   saveImportRun,
   saveVillainNote,
@@ -249,6 +250,48 @@ describe('aggregateVillainStats', () => {
     expect(villain!.notes).toBe('floats too wide');
     expect(villain!.tags).toEqual(['sticky']);
     expect(villain!.stats.vpip).toBe(100);
+  });
+});
+
+describe('getParsedHandForHandId', () => {
+  beforeEach(async () => {
+    await clearAllData();
+  });
+
+  it('rehydrates hand, player, action, and tournament rows into a ParsedHand boundary', async () => {
+    const hand = makeHand('rehydrate', {
+      tournamentId: 'T-rehydrate',
+      bigBlind: 100,
+      totalPot: 650,
+      importSource: {
+        site: 'pokerstars',
+        fileType: 'hand_history',
+        accessMethod: 'local_file',
+        parserConfidence: 'high',
+      },
+    });
+    const players = [
+      makePlayer('rehydrate', 'Hero', 'SB', true, { seatNumber: 2, holeCards: ['As', 'Ks'] }),
+      makePlayer('rehydrate', 'Villain', 'CO', false, { seatNumber: 1 }),
+    ];
+    const actions = [
+      { ...action('rehydrate', 2, 'Hero', 'call'), amount: 200 },
+      { ...action('rehydrate', 1, 'Villain', 'raise'), amount: 250 },
+    ];
+
+    await db.hands.add(hand);
+    await db.players.bulkAdd(players);
+    await db.actions.bulkAdd(actions);
+    await db.tournaments.put({ id: 'T-rehydrate', buyIn: 11, fee: 1, format: 'MTT', finishPosition: null, prize: null, bounty: null, handsPlayed: 1 });
+
+    const parsed = await getParsedHandForHandId('rehydrate');
+
+    expect(parsed?.hand.id).toBe('rehydrate');
+    expect(new Set(parsed?.players.map((player) => player.position))).toEqual(new Set(['SB', 'CO']));
+    expect(parsed?.actions.map((storedAction) => storedAction.sequence)).toEqual([1, 2]);
+    expect(parsed?.tournament).toMatchObject({ id: 'T-rehydrate', buyIn: 11, handsPlayed: 1 });
+    expect(parsed?.collectedAmounts).toBeInstanceOf(Map);
+    expect(parsed?.showdownWinners).toBeInstanceOf(Set);
   });
 });
 

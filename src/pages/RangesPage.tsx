@@ -441,7 +441,7 @@ function RangeValidatorPanel() {
           <span>Push/Fold: <span className="font-mono font-bold text-[var(--fg)]">{validation.push.score}%</span></span>
         </div>
         <div className="inner-rule mt-2">
-          Comparison of our ranges against GTO solver baselines.
+          Comparison of local ranges against documented chipEV reference baselines.
         </div>
       </div>
 
@@ -453,7 +453,7 @@ function RangeValidatorPanel() {
             <tr className="text-xs text-[var(--fg-muted)] border-b border-[var(--hairline)]">
               <th className="text-left py-1.5 pr-4">Position</th>
               <th className="text-right py-1.5 px-3">Ours %</th>
-              <th className="text-right py-1.5 px-3">Solver %</th>
+              <th className="text-right py-1.5 px-3">Reference %</th>
               <th className="text-right py-1.5 px-3">Delta</th>
               <th className="text-left py-1.5 pl-3">Direction</th>
             </tr>
@@ -480,7 +480,7 @@ function RangeValidatorPanel() {
             <tr className="text-xs text-[var(--fg-muted)] border-b border-[var(--hairline)]">
               <th className="text-left py-1.5 pr-4">Position</th>
               <th className="text-right py-1.5 px-3">Ours %</th>
-              <th className="text-right py-1.5 px-3">Solver %</th>
+              <th className="text-right py-1.5 px-3">Reference %</th>
               <th className="text-right py-1.5 px-3">Delta</th>
               <th className="text-left py-1.5 pl-3">Direction</th>
             </tr>
@@ -500,7 +500,7 @@ function RangeValidatorPanel() {
       </div>
 
       <p className="text-xs text-[var(--fg-muted)]">
-        Source: Solver baselines at 50bb (RFI) and 10bb (Push/Fold). Weighted scores: RFI 60% + Push 40%.
+        Source: documented chipEV reference baselines at 50bb (RFI) and 10bb (Push/Fold). Weighted scores: RFI 60% + Push 40%.
       </p>
     </div>
   );

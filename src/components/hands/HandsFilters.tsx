@@ -5,7 +5,7 @@ const POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP1', 'MP', 'MP2', 'HJ', 'CO', '
 
 const SCENARIOS: Scenario[] = [
   'RFI', 'BLIND_WAR', 'HU_BTN', 'FACING_RAISE', 'FACING_3BET', 'FACING_ALL_IN',
-  'FACING_LIMP', 'BB_VS_RAISE', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP', 'WALK',
+  'FACING_LIMP', 'BB_VS_RAISE', 'BB_VS_RAISE_MULTIWAY', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP', 'WALK',
 ];
 
 const STACK_DEPTHS = ['deep', 'medium', 'short'] as const;
@@ -13,6 +13,9 @@ export type StackDepth = typeof STACK_DEPTHS[number];
 
 const HAND_CATEGORIES = ['pairs', 'broadway', 'suited-connectors', 'suited-aces', 'suited-gappers', 'offsuit'] as const;
 export type HandCategory = typeof HAND_CATEGORIES[number];
+
+const COMPLIANCE_FILTERS = ['compliant', 'deviation', 'not-graded'] as const;
+export type ComplianceFilter = typeof COMPLIANCE_FILTERS[number];
 
 const STACK_DEPTH_LABELS: Record<StackDepth, string> = {
   deep: 'Deep (>40bb)',
@@ -29,6 +32,12 @@ const CATEGORY_LABELS: Record<HandCategory, string> = {
   offsuit: 'Offsuit',
 };
 
+const COMPLIANCE_LABELS: Record<ComplianceFilter, string> = {
+  compliant: 'Compliant',
+  deviation: 'Deviation',
+  'not-graded': 'Not graded',
+};
+
 export interface HandsFiltersProps {
   searchKey: string;
   setSearchKey: (val: string) => void;
@@ -38,8 +47,8 @@ export interface HandsFiltersProps {
   setScenarioFilter: (val: Scenario | '') => void;
   actionFilter: string;
   setActionFilter: (val: string) => void;
-  complianceFilter: string;
-  setComplianceFilter: (val: string) => void;
+  complianceFilter: ComplianceFilter | '';
+  setComplianceFilter: (val: ComplianceFilter | '') => void;
   stackFilter: StackDepth | '';
   setStackFilter: (val: StackDepth | '') => void;
   categoryFilter: HandCategory | '';
@@ -63,7 +72,7 @@ export function HandsFilters(props: HandsFiltersProps) {
       <Select value={props.posFilter} onChange={props.setPosFilter} options={POSITIONS} placeholder="Position" />
       <Select value={props.scenarioFilter} onChange={props.setScenarioFilter} options={SCENARIOS} placeholder="Scenario" />
       <Select value={props.actionFilter} onChange={props.setActionFilter} options={['fold', 'raise', 'call', 'check']} placeholder="Pre-flop Action" />
-      <Select value={props.complianceFilter} onChange={props.setComplianceFilter} options={['compliant', 'deviation']} placeholder="GTO / Compliance" />
+      <SelectLabeled value={props.complianceFilter} onChange={props.setComplianceFilter} options={COMPLIANCE_FILTERS} labels={COMPLIANCE_LABELS} placeholder="Reference verdict" />
       <SelectLabeled value={props.stackFilter} onChange={props.setStackFilter} options={STACK_DEPTHS} labels={STACK_DEPTH_LABELS} placeholder="Stack" />
       <SelectLabeled value={props.categoryFilter} onChange={props.setCategoryFilter} options={HAND_CATEGORIES} labels={CATEGORY_LABELS} placeholder="Category" />
     </div>

@@ -63,6 +63,12 @@ const hand: Hand = {
   heroChipsBefore: 1600,
   heroChipsAfter: 1800,
   villainDeltas: [],
+  importSource: {
+    site: 'pokerstars',
+    fileType: 'hand_history',
+    accessMethod: 'local_file',
+    parserConfidence: 'high',
+  },
 };
 
 const players: PlayerInHand[] = [
@@ -185,6 +191,19 @@ describe('HandReplay', () => {
 
     expect(within(container).getByText(/9-max \| Level 3/i)).toBeInTheDocument();
     expect(within(container).getAllByText(/Pot: 477/i).length).toBeGreaterThan(0);
+    expect(within(container).getByTestId('hand-replay-dialog')).toHaveAccessibleName('Hand #12345678');
+    expect(within(container).getByTestId('hand-replay-study-packet-review')).toBeInTheDocument();
+    expect(within(container).getByRole('region', { name: /spot study packet/i })).toBeInTheDocument();
+    expect(within(container).getByRole('region', { name: /trainer spot card/i })).toBeInTheDocument();
+    expect(within(container).getByText('Trainer Spot Card')).toBeInTheDocument();
+    expect(within(container).getAllByText('Study packet only').length).toBeGreaterThan(0);
+    expect(within(container).getAllByText('pokerstars / high').length).toBeGreaterThan(0);
+    expect(within(container).getByTestId('spot-source-panel-external-review')).toHaveTextContent('Generic external review');
+    expect(within(container).getByTestId('spot-source-panel-target-hints')).toHaveTextContent('GTO Wizard / Postflopizer');
+    expect(within(container).getByTestId('spot-source-panel-target-hints')).toHaveTextContent('Suggested only');
+    expect(within(container).getByTestId('spot-source-panel-target-hints')).toHaveTextContent('do not upload this hand');
+    expect(within(container).getByText('Reference match')).toBeInTheDocument();
+    expect(within(container).queryByText(/GTO Compliant/i)).not.toBeInTheDocument();
   });
 
   it('displays hero cards and position details', async () => {
@@ -248,7 +267,7 @@ describe('HandReplay', () => {
       expect(within(container).getAllByText('player1').length).toBeGreaterThan(0);
     });
 
-    expect(within(container).getByText('Fold')).toBeInTheDocument();
+    expect(within(container).getAllByText('Fold').length).toBeGreaterThan(0);
 
     fireEvent.click(within(container).getByRole('button', { name: 'Flop' }));
 

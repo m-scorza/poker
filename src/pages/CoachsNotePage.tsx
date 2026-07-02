@@ -15,8 +15,19 @@ import { db } from '../data/store';
 import { useAppStore } from '../data/appStore';
 import { computeAggregateStats, detectLeaks, type LeakSeverity } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
-import { buildCoachsNote } from '../analysis/coachsNote';
+import { buildCoachsNote, type CoachStudyPacketFocus } from '../analysis/coachsNote';
+import { buildStudyQueue } from '../analysis/studyPlan';
+import { buildStudyQueueSpotPacketBundle, type SpotPacket } from '../analysis/spotPacket';
+import {
+  buildStudyPacketArenaPathFromIds,
+  buildStudyPacketArenaSession,
+  readStudyPacketProgress,
+  selectNextActionableStudyPacket,
+  studyPacketProgressKey,
+  studyPacketSrsStatusLabel,
+} from '../analysis/studyPacketProgress';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
+import type { ParsedHand } from '../parser/pokerstars';
 
 const SEVERITY_BADGE: Record<LeakSeverity, { cls: string; label: string }> = {
   critical: { cls: 'bg-[var(--loss-soft)] text-[var(--loss)]', label: 'CRITICAL' },
@@ -31,14 +42,77 @@ const CONFIDENCE_LABEL: Record<'low' | 'medium' | 'high', string> = {
   high: 'high confidence',
 };
 
+function formatSourceValue(value: string): string {
+  return value.replace(/_/g, ' ');
+}
+
+function packetReviewPath(packet: SpotPacket): string {
+  return `/hands?panel=spot-packet&reviewHand=${encodeURIComponent(packet.source.handId)}#spot-packet`;
+}
+
+function packetArenaPath(focus: CoachStudyPacketFocus): string {
+  const handIds = focus.arenaSessionHandIds?.length ? focus.arenaSessionHandIds : [focus.packet.source.handId];
+  return buildStudyPacketArenaPathFromIds(handIds, focus.arenaSessionPacketIds ?? []) ?? '/arena';
+}
+
 export function CoachsNotePage() {
   const { strategyProfile } = useAppStore();
   const note = useLiveQuery(async () => {
-    const [decisionsRaw, hands] = await Promise.all([db.heroDecisions.toArray(), db.hands.toArray()]);
+    const [decisionsRaw, hands, tournaments, players, actions] = await Promise.all([
+      db.heroDecisions.toArray(),
+      db.hands.toArray(),
+      db.tournaments.toArray(),
+      db.players.toArray(),
+      db.actions.toArray(),
+    ]);
     const checked = batchCheckCompliance(decisionsRaw, strategyProfile);
     const stats = computeAggregateStats(checked);
     const leaks = detectLeaks(stats, strategyProfile);
-    return buildCoachsNote({ leaks, decisions: checked, hands });
+    const studyQueue = buildStudyQueue(leaks, checked, hands, 5);
+
+    const tournamentById = new Map(tournaments.map((tournament) => [tournament.id, tournament]));
+    const playersByHandId = new Map<string, typeof players>();
+    for (const player of players) {
+      const group = playersByHandId.get(player.handId) ?? [];
+      group.push(player);
+      playersByHandId.set(player.handId, group);
+    }
+    const actionsByHandId = new Map<string, typeof actions>();
+    for (const action of actions) {
+      const group = actionsByHandId.get(action.handId) ?? [];
+      group.push(action);
+      actionsByHandId.set(action.handId, group);
+    }
+
+    const parsedHands: ParsedHand[] = hands.map((hand) => ({
+      hand,
+      players: playersByHandId.get(hand.id) ?? [],
+      actions: actionsByHandId.get(hand.id) ?? [],
+      tournament: tournamentById.get(hand.tournamentId) ?? { id: hand.tournamentId, handsPlayed: 0 },
+      collectedAmounts: new Map(),
+      showdownWinners: new Set(),
+    }));
+    const bundle = buildStudyQueueSpotPacketBundle(studyQueue, parsedHands, checked, { maxPackets: 12 });
+    const progress = readStudyPacketProgress();
+    const packet = selectNextActionableStudyPacket(bundle.packets, progress);
+    const arenaSessionPackets = buildStudyPacketArenaSession(bundle.packets, packet, progress);
+    const studyPacketFocus = packet
+      ? {
+        packet,
+        srsStatus: studyPacketSrsStatusLabel(progress[studyPacketProgressKey(packet)]),
+        ...(arenaSessionPackets.length > 1 ? {
+          arenaSessionHandIds: arenaSessionPackets.map((entry) => entry.source.handId),
+          arenaSessionPacketIds: arenaSessionPackets.map((entry) => entry.packetId),
+        } : {}),
+      }
+      : undefined;
+
+    return buildCoachsNote({
+      leaks,
+      decisions: checked,
+      hands,
+      ...(studyPacketFocus ? { studyPacketFocus } : {}),
+    });
   }, [strategyProfile], undefined);
 
   return (
@@ -95,6 +169,42 @@ export function CoachsNotePage() {
             </div>
           </section>
 
+          {note.studyPacketFocus && (
+            <section className="compartment p-6" data-testid="coachs-note-study-packet">
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-[10px] font-black uppercase tracking-wider text-[var(--fg-muted)]">Next Study Queue packet</span>
+                <span className="rounded border border-sky-300/25 bg-sky-300/10 px-2 py-0.5 text-[10px] font-bold uppercase text-sky-100">
+                  Study-only · no EV
+                </span>
+              </div>
+              <h3 className="mt-2 font-data text-lg font-black text-[var(--fg)]">
+                {note.studyPacketFocus.packet.hero.handKey} · {note.studyPacketFocus.packet.hero.position} · {formatSourceValue(note.studyPacketFocus.packet.hero.scenario)}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-[var(--fg-dim)]">
+                {note.studyPacketFocus.srsStatus}. This is the same sanitized local SpotPacket selected by the dashboard Study Queue router, with {note.studyPacketFocus.packet.trainerPrompt.legalActions.length} legal action{note.studyPacketFocus.packet.trainerPrompt.legalActions.length === 1 ? '' : 's'} and {note.studyPacketFocus.packet.warnings.length} caveat{note.studyPacketFocus.packet.warnings.length === 1 ? '' : 's'}.
+              </p>
+              <p className="mt-2 text-xs leading-relaxed text-[var(--fg-muted)]">
+                Source: {formatSourceValue(note.studyPacketFocus.packet.source.site)} / {formatSourceValue(note.studyPacketFocus.packet.source.parserConfidence)}. Browser-local study progress only; no solver EV, trainer answer, trainer score, raw hand text, local path, or villain name is stored.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Link
+                  to={packetReviewPath(note.studyPacketFocus.packet)}
+                  className="inline-flex items-center gap-1 rounded border border-sky-300/30 bg-sky-300/10 px-3 py-2 text-sm font-semibold text-sky-100"
+                  data-testid="coachs-note-study-packet-review-link"
+                >
+                  Open packet <ArrowRight size={14} />
+                </Link>
+                <Link
+                  to={packetArenaPath(note.studyPacketFocus)}
+                  className="inline-flex items-center gap-1 rounded border border-[var(--accent)]/30 bg-[var(--accent)]/15 px-3 py-2 text-sm font-semibold text-[var(--accent)]"
+                  data-testid="coachs-note-study-packet-arena-link"
+                >
+                  Drill packet <ArrowRight size={14} />
+                </Link>
+              </div>
+            </section>
+          )}
+
           <section className="compartment p-6">
             <div className="text-[10px] font-black uppercase tracking-wider text-[var(--fg-muted)]">The receipts</div>
             {note.noDecisiveHand ? (
@@ -133,10 +243,11 @@ export function CoachsNotePage() {
               </div>
             </div>
             <Link
-              to="/arena"
+              to={note.studyPacketFocus ? packetArenaPath(note.studyPacketFocus) : '/arena'}
               className="inline-flex items-center gap-1 rounded border border-[var(--accent)]/30 bg-[var(--accent)]/15 px-3 py-2 text-sm font-semibold text-[var(--accent)]"
+              data-testid="coachs-note-final-drill-link"
             >
-              The Arena <ArrowRight size={14} />
+              {note.studyPacketFocus ? 'Drill packet' : 'The Arena'} <ArrowRight size={14} />
             </Link>
           </section>
         </>

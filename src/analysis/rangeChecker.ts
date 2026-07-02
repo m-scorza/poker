@@ -25,8 +25,10 @@ export interface ComplianceResult {
  * - FACING_ALL_IN (depends on pot odds, ICM, stack dynamics)
  * - FACING_3BET (no 3-bet-defense / 4-bet range data yet)
  * - BB_VS_LARGE_RAISE (facing 5x+ or all-in)
+ * - BB_VS_RAISE_MULTIWAY (open plus caller/limper before BB; not heads-up BB defense)
  * - BB_VS_LIMP (complex raise sizing decision)
- * - FACING_RAISE from BTN or BB (calling is acceptable)
+ * - FACING_RAISE dynamic exclusions: unknown opener position, BTN/BB flats,
+ *   or unsupported hero/opener reaction pairs.
  *
  * FUTURE (covenant follow-up, see docs/product/ROADMAP.md): replace the
  * FACING_3BET and FACING_ALL_IN exclusions with real grading — 3-bet-defense /
@@ -66,6 +68,7 @@ export function checkCompliance(
     // Excluded from compliance (no binary correct answer yet — see header note).
     case 'FACING_3BET':
     case 'FACING_ALL_IN':
+    case 'BB_VS_RAISE_MULTIWAY':
     case 'BB_VS_LARGE_RAISE':
     case 'BB_VS_LIMP':
       return null;
@@ -81,13 +84,51 @@ export function checkCompliance(
 const COMPLIANCE_EXCLUSION_REASONS: Partial<Record<Scenario, string>> = {
   FACING_3BET: 'Facing a 3-bet — there is no 3-bet-defence range yet, so this spot is not graded.',
   FACING_ALL_IN: 'Facing an all-in — a pot-odds and ICM decision, not a range-compliance call.',
+  BB_VS_RAISE_MULTIWAY: 'Big blind versus an open plus caller/limper — multiway equity realization, caller position, and squeeze context matter, so this is not graded by the heads-up BB suited-fold rule.',
   BB_VS_LARGE_RAISE: 'Big blind versus a 5x+ raise or all-in — folding can be correct, so this is not graded.',
   BB_VS_LIMP: 'Big blind versus a limp — a raise-sizing decision we do not grade for compliance.',
 };
 
-/** Reason `scenario` is excluded from compliance, or null when it is graded. */
+/** Scenario-level exclusion reason, or null when the scenario can be graded in some contexts. */
 export function complianceExclusionReason(scenario: Scenario): string | null {
   return COMPLIANCE_EXCLUSION_REASONS[scenario] ?? null;
+}
+
+type ComplianceExclusionDecision = Pick<
+  HeroDecision,
+  'scenario' | 'position' | 'action' | 'openerPosition'
+>;
+
+/**
+ * Decision-level exclusion reason, including dynamic `FACING_RAISE` skips that
+ * cannot be expressed from the scenario name alone.
+ */
+export function complianceExclusionReasonForDecision(
+  decision: ComplianceExclusionDecision,
+): string | null {
+  const scenarioReason = complianceExclusionReason(decision.scenario);
+  if (scenarioReason) return scenarioReason;
+
+  if (decision.scenario !== 'FACING_RAISE') return null;
+
+  const { position, action, openerPosition } = decision;
+  if (!openerPosition) {
+    return 'Facing a raise with unknown opener position — the parser did not preserve enough seat-to-position context, so this spot is not graded.';
+  }
+
+  if (action === 'call') {
+    if (position === 'BTN' || position === 'BB') {
+      const positionLabel = position === 'BTN' ? 'button' : 'big blind';
+      return `Facing a raise from the ${positionLabel} with a flat call — flatting can be valid by stack, opener, and ICM context, and this app does not have a solver-backed call-frequency model yet.`;
+    }
+    return null;
+  }
+
+  if (!getReactionRange(position, openerPosition)) {
+    return `Facing a raise from ${openerPosition} in ${position} — this hero/opener pair is outside the current rule-based reaction chart, so it is not graded.`;
+  }
+
+  return null;
 }
 
 /**

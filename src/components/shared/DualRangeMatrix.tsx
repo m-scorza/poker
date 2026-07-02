@@ -138,7 +138,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
       <div className="space-y-3">
         <div className="flex items-center gap-2 px-1">
           <Eye size={14} className="text-emerald-400" />
-          <span className="text-xs font-bold uppercase tracking-widest text-[var(--fg-dim)]">The Oracle (GTO)</span>
+          <span className="text-xs font-bold uppercase tracking-widest text-[var(--fg-dim)]">The Oracle (Reference)</span>
         </div>
         <div 
           className="inline-grid gap-[2px] bg-black/20 p-1.5 rounded-lg border border-white/5" 
@@ -222,7 +222,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
                     activeDetails.isPushHand ? "bg-[var(--accent-soft)] text-[var(--accent)] border border-[var(--accent-line)]" :
                     activeDetails.inTheoreticalRange ? "bg-[var(--accent-soft)] text-[var(--accent)] border border-[var(--accent-line)]" : "bg-white/5 text-[var(--fg-muted)]"
                  )}>
-                    {activeDetails.isPushHand ? 'Push/Fold' : activeDetails.inTheoreticalRange ? 'GTO Standard' : 'Exclude'}
+                    {activeDetails.isPushHand ? 'Push/Fold' : activeDetails.inTheoreticalRange ? 'Reference Range' : 'Exclude'}
                  </div>
               </div>
 
@@ -289,8 +289,8 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
                  </div>
                  <p className="text-xs text-[var(--fg-dim)] leading-relaxed italic">
                     {activeDetails.inTheoreticalRange 
-                       ? `Always open ${activeHand} from ${position}. Exploitative adjustment: check for aggressive 3-betters behind.`
-                       : `${activeHand} is a standard fold from ${position}. Calling or raising creates long-term -EV scenarios.`
+                       ? `The local reference includes ${activeHand} from ${position}; review stack depth and table context before treating it as automatic.`
+                       : `${activeHand} is outside the local reference from ${position}; use this as a review cue, not a solver EV claim.`
                     }
                  </p>
               </div>
@@ -306,7 +306,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
                </div>
                <h4 className="text-white font-bold mb-2">Select a Hand</h4>
                <p className="text-xs text-[var(--fg-dim)] leading-relaxed max-w-[200px]">
-                  Compare theory vs. reality by clicking any cell in the Mirror matrix.
+                  Compare reference ranges vs. your sample by clicking any cell in the Mirror matrix.
                </p>
             </motion.div>
           )}
