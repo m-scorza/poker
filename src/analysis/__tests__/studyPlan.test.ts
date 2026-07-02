@@ -227,7 +227,7 @@ describe('buildStudyQueue', () => {
     expect(sourceQueue!.evidence.details[1]).toContain('directional parser confidence: 1');
     expect(sourceQueue!.evidence.trust.kind).toBe('unsupported');
     expect(sourceQueue!.evidence.trust.note).toContain('not strategy advice');
-    expect(sourceQueue!.explanation).toContain('Export surfaces keep these as study prompts');
+    expect(sourceQueue!.explanation).toContain('SpotPacket exports keep these as study prompts');
   });
 
   it('splits PKO/ICM source-context gaps into concrete no-EV study reasons', () => {
