@@ -94,15 +94,68 @@ leaks) → Drill (Arena Spaced Review) → Re-measure (import-time reconcile), w
 the Coach's Note as the front door and honesty (refusal-as-UI, parked
 archetypes) throughout. Remaining direction lives under Gated / later.
 
+### Act III — The Whetstone (adopted 2026-07-01): sharpen what exists
+
+Adopted from the 2026-07-01 direction review (archived:
+`docs/reports/archive/2026-07-01-direction-review-act-iii.md`). Posture, per
+that review's recommendation: **A-first, C-for-free, B-behind-evidence** —
+sharpen the personal edge machine (that work is identical to what a product
+would need anyway), let the polish waves make the repo a showpiece as a side
+effect, and gate product ambition (EPIC G) on validation evidence, not vibes.
+Arcs 0–2 are merge-on-mandate hygiene/correctness; arcs 3–5 carry review
+checkpoints. Sequencing rule: **the abyss waves 2–4 run after the Hermes
+salvage slices land** (same pages; salvage-first avoids porting churn).
+
+- [ ] **III-0 · Restore the gate (Arc 0)** — the housekeeping PR: finish or
+      revert the dirty `CoachsNotePage` edit that breaks `typecheck`/`build`
+      today (abyss F1), archive the 2026-06-12 reports, settle `launch.json`.
+      Plan: `docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md`.
+- [ ] **III-1 · Salvage the worktree (Arc 1)** — land Hermes R1 (refusal
+      completion — closes the refusal-as-UI follow-ups named under Act II) →
+      R2 (import provenance) → R3 (spot packets; review checkpoint). **R4
+      (Study Queue vs SRS) needs an owner steer — merge concepts / port pieces
+      / drop — which also decides abyss F7** (the orphaned StudyPlanCard). R5
+      research corpus moves to the vault. Same plan doc as III-0.
+- [ ] **III-2 · Abyss cleanup waves (Arc 2)** — execute the abyss audit's wave
+      plan (F1–F29, cheapest-truth-first: correctness quickies → dead code →
+      efficiency → beauty). Target state: zero orphans, one animation library,
+      zero token bypasses, no god-files over ~500 lines, node-env tests for
+      pure modules (biggest CI win). Report:
+      `docs/reports/2026-07-01-abyss-audit.md` (flips `resolved` when done).
+- [ ] **III-3 · Grade the ungraded (Arc 3)** — the analytical moat, unblocked
+      now: extract the vs-3bet grid from the private `poker-knowledge` quiz
+      data → grade `FACING_3BET` with owner-approved ranges + tests; then
+      `FACING_ALL_IN` via pot-odds + ICM. Every refusal that becomes a real
+      grade is a feature no competitor's rule-based tier has. Closes the ⏳
+      reminder below. Plan: `docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md`.
+- [ ] **III-4 · Curriculum drills (Arc 4)** — map the vault's 223 quiz
+      scenarios into Arena seed packs (curriculum drills alongside
+      SRS-from-your-misplays, no double-grading) and port the
+      lesson-recommendation scoring (concepts only, brand-neutral) into the
+      study plan. The coach loop stops depending solely on the owner's own
+      mistake volume. Review checkpoint.
+- [ ] **III-5 · The identity gate (Arc 5)** — write `GOALS.md` (the missing
+      gatekeeper every EPIC G reference points at): either declare identity
+      (A) and codify the never-list (no HUD, no cloud, no telemetry) as
+      constitution, or commit to running the validation plan's interviews
+      before reconsidering EPIC G. Also in this arc: the **hero-name settings
+      UI** (abyss F2 — required under every identity) with a test. Review
+      checkpoint.
+
+**Act III non-goals** (competitor-ledger guardrails + parked decisions): no
+real-time HUD, no global player-database claims, no backend/payments before
+the identity gate, no villain auto-archetype revival (parked), no
+derived-stats cache (exonerated — measured 24ms @ 25k hands).
+
 ### Known residuals (audit follow-ups, re-verified 2026-06-20)
 
-- [ ] **`bountyAnalyzer.ts:144`** — last-resort hardcoded `1500` starting-stack
-      fallback. Low priority: only fires when `startingStack` is unknown *and*
-      `bigBlind` is 0, which never happens in a real hand. Replace with a derived
-      default or drop the branch.
+- [x] **`bountyAnalyzer.ts:144`** — last-resort hardcoded `1500` starting-stack
+      fallback. ✅ **Dropped (PR #111, 2026-07-01):** the dead branch is gone;
+      unknown stacks now surface honestly instead of defaulting.
 - [ ] **Colon-in-player-name parsing** — the `^(.+?): <action>` action regexes
       can mis-split a player name containing `": "`. Low-frequency edge; add a
-      fixture and tighten if it surfaces.
+      fixture and tighten if it surfaces. *Now tracked as abyss F6 (Wave 1,
+      Act III-2).*
 - [x] **`store.ts:102` empty `db.version(4).stores({})`** — *not a bug.* It is an
       intentional no-op that keeps the Dexie version chain contiguous, now carrying
       an explanatory comment. Recorded so it is not re-flagged by future audits.
@@ -120,7 +173,8 @@ and all of EPIC G (backend / sharing / payments / solver — each behind a
 > **actually grade** both: real 3-bet-defense / 4-bet ranges for `FACING_3BET`,
 > and pot-odds + ICM for `FACING_ALL_IN`. Until then they surface via Act II
 > refusal-as-UI ("not graded, here's why"). See the header note in
-> `src/analysis/rangeChecker.ts`.
+> `src/analysis/rangeChecker.ts`. **Now scheduled: Act III-3 (Arc 3), unblocked
+> by the `poker-knowledge` vault's vs-3bet answer keys.**
 
 ---
 
