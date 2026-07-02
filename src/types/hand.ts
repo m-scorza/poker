@@ -1,3 +1,5 @@
+import type { FileType, PokerSite } from '../parser/siteIdentifier';
+
 export type Position =
   | 'UTG'
   | 'UTG+1'
@@ -10,6 +12,20 @@ export type Position =
   | 'SB'
   | 'BB'
   | 'BTN/SB';
+
+export type HandImportAccessMethod = 'local_file' | 'local_folder' | 'client_export' | 'tracker_export' | 'manual_entry' | 'unknown';
+export type HandParserConfidence = 'high' | 'medium' | 'low' | 'unknown';
+
+/**
+ * Per-hand source metadata that is safe to persist locally. It intentionally
+ * excludes local paths, raw filenames, player names, and raw hand text.
+ */
+export interface HandImportSource {
+  site: PokerSite;
+  fileType: FileType;
+  accessMethod: HandImportAccessMethod;
+  parserConfidence: HandParserConfidence;
+}
 
 /** A single parsed PokerStars hand. */
 export interface Hand {
@@ -36,6 +52,7 @@ export interface Hand {
   heroChipsAfter: number;
   villainDeltas: { name: string; net: number }[];
   bountyCollected?: number | null;
+  importSource?: HandImportSource;
 }
 
 /** One player's data within a single hand. */

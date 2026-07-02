@@ -124,9 +124,25 @@ describe('HandsUpload', () => {
   });
 
   it('renders the dropzone and an empty data-health state', () => {
-    const { getByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    const { getByText, getByTestId } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
     expect(getByText('Drag and Drop Poker Files')).toBeInTheDocument();
     expect(getByText('No import history recorded yet.')).toBeInTheDocument();
+    expect(getByTestId('hands-upload-root')).toBeInTheDocument();
+    expect(getByTestId('hands-upload-dropzone')).toBeInTheDocument();
+    expect(getByTestId('hands-upload-data-health-entry')).toBeInTheDocument();
+    expect(getByTestId('import-data-health-panel')).toHaveAttribute('id', 'data-health');
+  });
+
+  it('shows a source-aware local import guide with unsupported-room caveats', () => {
+    const { getByRole, getByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+
+    expect(getByRole('region', { name: 'Import source guide' })).toBeInTheDocument();
+    expect(getByText('PokerStars')).toBeInTheDocument();
+    expect(getByText('GGPoker / PokerCraft')).toBeInTheDocument();
+    expect(getByText('Open Hand History JSON')).toBeInTheDocument();
+    expect(getByText('Known unsupported rooms')).toBeInTheDocument();
+    expect(getByText(/unsupported rooms remain study prompts/i)).toBeInTheDocument();
+    expect(getByText(/Convert\/export as OHH JSON/i)).toBeInTheDocument();
   });
 
   it('reports an error for unsupported file types without spawning a worker', async () => {
@@ -266,8 +282,8 @@ describe('HandsUpload', () => {
     selectFiles(container, [makeFile('archive.zip', 'zip', 2000)]);
 
     await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
-    const files = MockWorker.instances[0]!.postMessage.mock.calls[0]![0].files as Array<{ name: string }>;
-    expect(files.map((f) => f.name)).toEqual(['archive.zip/hand.txt']);
+    const files = MockWorker.instances[0]!.postMessage.mock.calls[0]![0].files as Array<{ name: string; accessMethod?: string }>;
+    expect(files).toEqual([{ name: 'archive.zip/hand.txt', content: "PokerStars Hand #1: Hold'em No Limit", accessMethod: 'local_folder' }]);
   });
 
   it('refuses a ZIP whose entry size metadata is missing, without spawning a worker', async () => {

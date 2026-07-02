@@ -12,7 +12,8 @@ export type StudyQueueEvidenceKind =
   | 'tagged_decisions'
   | 'postflop_flags'
   | 'bb_loss_review'
-  | 'reference_misses';
+  | 'reference_misses'
+  | 'source_context';
 
 export interface StudyQueueEvidence {
   kind: StudyQueueEvidenceKind;
@@ -24,7 +25,7 @@ export interface StudyQueueEvidence {
 export interface StudyQueueItem {
   id: string;
   title: string;
-  source: 'leak' | 'deviation' | 'postflop' | 'loss' | 'reference';
+  source: 'leak' | 'deviation' | 'postflop' | 'loss' | 'reference' | 'data_health';
   severity: LeakSeverity;
   priorityScore: number;
   sampleSize: number;
@@ -113,6 +114,12 @@ const HU_REFERENCE_EVIDENCE = createEvidence('local_reference', [
   },
 ], 'Uses your local heads-up push/fold reference table. Treat as a practical drill prompt; EV loss is unknown.');
 
+const DATA_HEALTH_CONTEXT_EVIDENCE = createEvidence(
+  'unsupported',
+  [],
+  'Import/source context review only. This queues hands for re-import, summary, payout, or parser-confidence review before external study; it is not strategy advice, solver EV, or trainer scoring.',
+);
+
 function evidenceForDeviation(deviationType: DeviationType): Evidence {
   if (deviationType === 'BB_FOLD_SUITED') return BB_DEFENSE_EVIDENCE;
   return PREFLOP_RANGE_EVIDENCE;
@@ -155,6 +162,65 @@ function sortedLossHandIds(decisions: HeroDecision[], handMap: Map<string, Hand>
     .sort((a, b) => a.bb - b.bb)
     .slice(0, limit)
     .map((entry) => entry.decision.handId);
+}
+
+function isIcmOrBountySensitive(decision: HeroDecision): boolean {
+  return decision.icmStage === 'bubble'
+    || decision.icmStage === 'itm'
+    || decision.icmStage === 'final_table'
+    || Boolean(decision.bountyContext);
+}
+
+function isPkoContext(decision: HeroDecision): boolean {
+  return decision.bountyContext?.tournamentType === 'knockout'
+    || decision.bountyContext?.tournamentType === 'progressive_ko';
+}
+
+function isPayJumpSensitive(decision: HeroDecision): boolean {
+  return decision.icmStage === 'bubble'
+    || decision.icmStage === 'itm'
+    || decision.icmStage === 'final_table';
+}
+
+function mayNeedMultiBountyContext(decision: HeroDecision): boolean {
+  return decision.scenario === 'FACING_ALL_IN'
+    || decision.scenario === 'FACING_3BET'
+    || decision.scenario === 'BB_VS_RAISE_MULTIWAY'
+    || (decision.squeezeSpot?.callerCount ?? 0) > 0;
+}
+
+function sourceContextReasons(decision: HeroDecision, hand: Hand): string[] {
+  const reasons: string[] = [];
+  const source = hand.importSource;
+
+  if (!source) {
+    reasons.push('legacy/unknown import source');
+  } else {
+    if (source.parserConfidence === 'medium') reasons.push('directional parser confidence');
+    if (source.parserConfidence === 'low' || source.parserConfidence === 'unknown') reasons.push('low/unknown parser confidence');
+    if (source.site === 'unknown') reasons.push('unknown poker site');
+    if (source.site === 'known_unsupported') reasons.push('unsupported native room parser');
+    if (source.fileType === 'unknown') reasons.push('unknown file type');
+  }
+
+  if (isPkoContext(decision) && hand.tournamentId) {
+    reasons.push('opponent bounty values unknown');
+    reasons.push('PKO coverage context partial');
+    if (mayNeedMultiBountyContext(decision)) reasons.push('multi-bounty context missing');
+    if (isPayJumpSensitive(decision)) reasons.push('PKO pay-jump context missing');
+  } else if (isIcmOrBountySensitive(decision) && hand.tournamentId) {
+    reasons.push('ICM/bounty spot needs tournament summary or payout review');
+  }
+
+  return Array.from(new Set(reasons));
+}
+
+function sourceReasonSummary(reasonCounts: Map<string, number>, limit = 4): string {
+  return Array.from(reasonCounts.entries())
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, limit)
+    .map(([reason, count]) => `${reason}: ${count}`)
+    .join('; ');
 }
 
 export function buildStudyQueue(
@@ -314,6 +380,64 @@ export function buildStudyQueue(
         explanation: `${referenceMisses.length} heads-up push/fold decision${referenceMisses.length === 1 ? '' : 's'} diverged from the local CSV/table reference. Review these as practical reference-table drills; EV loss is unknown until richer reference data is attached.`,
       });
     }
+  }
+
+  const sourceReviewEntries = decisions
+    .map((decision) => {
+      const hand = handMap.get(decision.handId);
+      if (!hand) return null;
+      const reasons = sourceContextReasons(decision, hand);
+      if (reasons.length === 0) return null;
+      return { decision, hand, reasons, bb: handBbDelta(decision, handMap) };
+    })
+    .filter((entry): entry is { decision: HeroDecision; hand: Hand; reasons: string[]; bb: number | null } => entry !== null);
+
+  if (sourceReviewEntries.length > 0) {
+    const reasonCounts = new Map<string, number>();
+    for (const entry of sourceReviewEntries) {
+      entry.reasons.forEach((reason) => reasonCounts.set(reason, (reasonCounts.get(reason) ?? 0) + 1));
+    }
+
+    const topReviewEntries = [...sourceReviewEntries]
+      .sort((left, right) => {
+        const leftLoss = left.bb !== null && left.bb < 0 ? left.bb : Number.POSITIVE_INFINITY;
+        const rightLoss = right.bb !== null && right.bb < 0 ? right.bb : Number.POSITIVE_INFINITY;
+        return leftLoss - rightLoss || left.hand.id.localeCompare(right.hand.id);
+      })
+      .slice(0, 5);
+    const estimatedBbLoss = topReviewEntries
+      .map((entry) => entry.bb)
+      .filter((bb): bb is number => bb !== null && bb < 0)
+      .reduce((sum, bb) => sum + Math.abs(bb), 0);
+    const score = priorityScore(
+      severityFromScore(sourceReviewEntries.length * 14 + estimatedBbLoss * 2),
+      sourceReviewEntries.length,
+      estimatedBbLoss > 0 ? estimatedBbLoss : null,
+    );
+    const reasonSummary = sourceReasonSummary(reasonCounts);
+
+    items.push({
+      id: 'data-health-source-context',
+      title: 'Data Health source/context review',
+      source: 'data_health',
+      severity: severityFromScore(score),
+      priorityScore: score,
+      sampleSize: sourceReviewEntries.length,
+      estimatedBbLoss: estimatedBbLoss > 0 ? estimatedBbLoss : null,
+      confidence: 'low',
+      evidence: {
+        kind: 'source_context',
+        label: 'Import/source context',
+        trust: DATA_HEALTH_CONTEXT_EVIDENCE,
+        details: [
+          pluralize(sourceReviewEntries.length, 'hand with source/context caveats', 'hands with source/context caveats'),
+          reasonSummary || 'Parser and tournament-context caveats need review',
+        ],
+      },
+      handIds: topReviewEntries.map((entry) => entry.decision.handId),
+      cta: 'Review source caveats',
+      explanation: `${sourceReviewEntries.length} queued hand${sourceReviewEntries.length === 1 ? '' : 's'} need import-source, parser-confidence, tournament-summary, or payout context review before external solver/trainer study. Export surfaces keep these as study prompts and do not attach EV or scoring answers.`,
+    });
   }
 
   const biggestLosses = decisions
