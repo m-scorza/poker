@@ -1,11 +1,19 @@
 import { buildHeroDecision } from '../analysis/scenarioDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { HeroDecision } from '../types/analysis';
-import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
+import type {
+  Action,
+  Hand,
+  HandImportAccessMethod,
+  HandImportSource,
+  HandParserConfidence,
+  PlayerInHand,
+  Tournament,
+} from '../types/hand';
 import { parseGGPokerFileWithDiagnostics, parseGGPokerSummary } from './ggpoker';
 import { parseOpenHandHistoryFile } from './openHandHistory';
 import { parsePokerStarsFileWithDiagnostics, type ParsedHand } from './pokerstars';
-import { identifyFile } from './siteIdentifier';
+import { identifyFile, type FileIdentity } from './siteIdentifier';
 import { parseTournamentSummary, type ParsedTournamentSummary } from './tournamentSummary';
 
 export interface ImportedHandEntry {
@@ -19,6 +27,7 @@ export interface ImportedHandEntry {
 export interface WorkerFilePayload {
   name: string;
   content: string;
+  accessMethod?: HandImportAccessMethod;
 }
 
 export const MAX_PARSER_INPUT_BYTES = 20 * 1024 * 1024;
@@ -50,6 +59,35 @@ export interface WorkerPayload {
 
 function errorMessage(err: unknown): string {
   return err instanceof Error ? err.message : String(err);
+}
+
+function inferAccessMethod(file: WorkerFilePayload): HandImportAccessMethod {
+  if (file.accessMethod) return file.accessMethod;
+  return file.name.includes('.zip/') ? 'local_folder' : 'local_file';
+}
+
+function handParserConfidence(
+  site: HandImportSource['site'],
+  skippedBlocks: number,
+): HandParserConfidence {
+  if (skippedBlocks > 0) return 'medium';
+  // GG/PokerCraft support is useful but still intentionally caveated in the
+  // product ledgers until broader fixture coverage lands.
+  if (site === 'ggpoker') return 'medium';
+  return 'high';
+}
+
+function buildHandImportSource(
+  file: WorkerFilePayload,
+  identity: FileIdentity,
+  skippedBlocks: number,
+): HandImportSource {
+  return {
+    site: identity.site,
+    fileType: identity.type,
+    accessMethod: inferAccessMethod(file),
+    parserConfidence: handParserConfidence(identity.site, skippedBlocks),
+  };
 }
 
 export async function processWorkerFiles(
@@ -111,6 +149,7 @@ export async function processWorkerFiles(
           warnings.push(`${file.name}: ${skippedBlocks} hand block(s) could not be parsed and were skipped.`);
         }
 
+        const importSource = buildHandImportSource(file, identity, skippedBlocks);
         const handsToImport = parsedHands.map(parsed => {
           const heroDecision = buildHeroDecision(parsed, heroName, profile);
           let compliantDecision: HeroDecision | undefined = undefined;
@@ -119,7 +158,7 @@ export async function processWorkerFiles(
           }
 
           return {
-            hand: parsed.hand,
+            hand: { ...parsed.hand, importSource },
             players: parsed.players,
             actions: parsed.actions,
             tournament: parsed.tournament,

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpenCheck, Crosshair, Flame, Layers, TrendingDown } from 'lucide-react';
+import { ArrowRight, BookOpenCheck, Crosshair, Database, Flame, Layers, TrendingDown } from 'lucide-react';
 import { clsx } from 'clsx';
 import type { StudyQueueItem } from '../../analysis/studyPlan';
 import { getEvidenceMetadata } from '../../utils/evidence';
@@ -14,6 +14,7 @@ const SOURCE_LABEL: Record<StudyQueueItem['source'], string> = {
   postflop: 'Trainer drill',
   loss: 'BB-loss review',
   reference: 'Reference table',
+  data_health: 'Data Health review',
 };
 
 const SOURCE_ICON: Record<StudyQueueItem['source'], typeof Crosshair> = {
@@ -22,6 +23,7 @@ const SOURCE_ICON: Record<StudyQueueItem['source'], typeof Crosshair> = {
   postflop: BookOpenCheck,
   loss: TrendingDown,
   reference: Crosshair,
+  data_health: Database,
 };
 
 const SEVERITY_CLASS: Record<StudyQueueItem['severity'], string> = {

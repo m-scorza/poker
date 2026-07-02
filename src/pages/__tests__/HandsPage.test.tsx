@@ -4,7 +4,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { HandCategory } from '../../components/hands/HandsFilters';
 import type { HeroDecision } from '../../types/analysis';
-import { getHandCategory, HandsPage } from '../HandsPage';
+import { getHandCategory, HandsPage, shouldOpenImporterFromLocation } from '../HandsPage';
 import '@testing-library/jest-dom';
 
 const storeMocks = vi.hoisted(() => ({
@@ -116,6 +116,31 @@ describe('getHandCategory', () => {
     ['72o', 'offsuit'],
   ] satisfies Array<[string, HandCategory]>)('classifies %s as %s', (handKey, expected) => {
     expect(getHandCategory(handKey)).toBe(expected);
+  });
+});
+
+describe('shouldOpenImporterFromLocation', () => {
+  it.each([
+    ['?panel=data-health', '', true],
+    ['?panel=import', '', true],
+    ['?view=upload', '', true],
+    ['', '#data-health', true],
+    ['?panel=hands', '', false],
+    ['', '', false],
+  ] satisfies Array<[string, string, boolean]>)('search=%s hash=%s -> %s', (search, hash, expected) => {
+    expect(shouldOpenImporterFromLocation(search, hash)).toBe(expected);
+  });
+});
+
+describe('HandsPage data-health deep link', () => {
+  it('opens the importer when routed with ?panel=data-health', async () => {
+    render(React.createElement(
+      MemoryRouter,
+      { initialEntries: ['/hands?panel=data-health#data-health'] },
+      React.createElement(HandsPage),
+    ));
+
+    expect(await screen.findByTestId('mock-hands-upload')).toBeInTheDocument();
   });
 });
 

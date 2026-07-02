@@ -314,7 +314,7 @@ export function CareerPage() {
               : 'Your latest import completed with minor warnings. Profit timelines and career scorecards are highly useful but should be treated as directional.'}
             <div className="mt-2">
               <Link
-                to="/hands"
+                to="/hands?panel=data-health#data-health"
                 className="inline-flex items-center gap-1 font-bold text-white hover:underline uppercase tracking-wider text-[10px]"
               >
                 Review Import Warnings &rarr;

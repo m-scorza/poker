@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { processWorkerFiles, type WorkerMessage } from '../workerProcessor';
+import { processWorkerFiles, type WorkerFilePayload, type WorkerMessage } from '../workerProcessor';
 import { HAND_FULL_STREETS } from '../../test/fixtures/sample-hands';
 import type { StrategyProfile, ICMStage } from '../../data/strategyProfiles';
 
-const collectWorkerMessages = async (files: Array<{ name: string; content: string }>) => {
+const collectWorkerMessages = async (files: WorkerFilePayload[]) => {
   const messages: WorkerMessage[] = [];
   await processWorkerFiles(
     {
@@ -66,6 +66,25 @@ describe('processWorkerFiles import summary', () => {
     });
   });
 
+  it('attaches sanitized per-hand import source metadata for SpotPackets', async () => {
+    const messages = await collectWorkerMessages([
+      { name: 'stars-good.txt', content: HAND_FULL_STREETS },
+    ]);
+
+    const complete = messages[messages.length - 1];
+    expect(complete).toMatchObject({ type: 'COMPLETE' });
+    if (complete?.type !== 'COMPLETE') throw new Error('Expected COMPLETE worker message');
+
+    expect(complete.hands[0]?.hand.importSource).toEqual({
+      site: 'pokerstars',
+      fileType: 'hand_history',
+      accessMethod: 'local_file',
+      parserConfidence: 'high',
+    });
+    expect(JSON.stringify(complete.hands[0]?.hand.importSource)).not.toContain('stars-good.txt');
+    expect(JSON.stringify(complete.hands[0]?.hand.importSource)).not.toContain('scorza23');
+  });
+
   // CQ-4: a hand block that carries a `Hand #` header but cannot be parsed
   // (here: no valid date line) must be surfaced as a warning and pull the
   // file's confidence down — it can no longer report silently as "high".
@@ -93,5 +112,8 @@ describe('processWorkerFiles import summary', () => {
         warnings: [expect.stringContaining('could not be parsed')],
       },
     });
+
+    if (complete?.type !== 'COMPLETE') throw new Error('Expected COMPLETE worker message');
+    expect(complete.hands[0]?.hand.importSource?.parserConfidence).toBe('medium');
   });
 });

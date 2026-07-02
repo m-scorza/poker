@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo, useCallback } from 'react';
+import { useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
 import { Filter, Upload as UploadIcon, Trash2 } from 'lucide-react';
 import { useAppStore } from '../data/appStore';
@@ -50,7 +51,18 @@ function formatScenarioLabel(scenario: Scenario): string {
   return scenario.replace(/_/g, ' ');
 }
 
+export function shouldOpenImporterFromLocation(search: string, hash = ''): boolean {
+  const params = new URLSearchParams(search);
+  const panel = params.get('panel') ?? params.get('view');
+  return panel === 'data-health'
+    || panel === 'import'
+    || panel === 'upload'
+    || hash === '#data-health'
+    || hash === '#import';
+}
+
 export function HandsPage() {
+  const location = useLocation();
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
   const [handsMap, setHandsMap] = useState<Map<string, Hand>>(new Map());
   const [sessionHandIds, setSessionHandIds] = useState<Set<string> | null>(null);
@@ -70,7 +82,7 @@ export function HandsPage() {
   ]);
 
   // View state
-  const [showUpload, setShowUpload] = useState(false);
+  const [showUpload, setShowUpload] = useState(() => shouldOpenImporterFromLocation(location.search, location.hash));
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [replayHandId, setReplayHandId] = useState<string | null>(null);
   const { strategyProfile, activeSessionId } = useAppStore();
@@ -107,6 +119,12 @@ export function HandsPage() {
   useEffect(() => {
     load();
   }, [load, activeSessionId]);
+
+  useEffect(() => {
+    if (shouldOpenImporterFromLocation(location.search, location.hash)) {
+      setShowUpload(true);
+    }
+  }, [location.search, location.hash]);
 
   const scopedDecisions = useMemo(() => {
     if (!sessionHandIds) return decisions;

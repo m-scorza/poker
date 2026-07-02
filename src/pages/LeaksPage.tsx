@@ -10,7 +10,7 @@ import { useAppStore } from '../data/appStore';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db, getRecentImportRuns, getLeakStatuses, setLeakStudying, stopStudyingLeak } from '../data/store';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
-import { summarizeDataHealth } from '../data/importRuns';
+import { summarizeDataHealth, type DataHealthSummary } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { deriveLeakLifecycle } from '../analysis/leakLifecycle';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
@@ -91,6 +91,66 @@ const SEVERITY_BADGES: Record<LeakSeverity, { bg: string; text: string; label: s
   low: { bg: 'bg-white/5', text: 'text-[var(--fg-dim)]', label: 'LOW', weight: 1 },
 };
 
+interface LeakDataHealthNotice {
+  tone: 'warning' | 'danger';
+  kicker: string;
+  title: string;
+  message: string;
+  cta: string;
+  details: Array<{ label: string; value: string }>;
+}
+
+function formatRate(value: number | null): string {
+  return value === null ? 'n/a' : `${Math.round(value * 100)}%`;
+}
+
+function formatWarningCategories(dataHealth: DataHealthSummary): string {
+  const categories = dataHealth.ledger.warningCategories.slice(0, 3);
+  if (categories.length === 0) return 'No categorized warnings retained';
+  const extraCount = dataHealth.ledger.warningCategories.length - categories.length;
+  const label = categories.map((row) => `${row.label} ${row.count}`).join(' · ');
+  return extraCount > 0 ? `${label} · +${extraCount} more` : label;
+}
+
+function analysisPostureLabel(dataHealth: DataHealthSummary): string {
+  if (dataHealth.ledger.analysisPosture === 'blocked') return 'Blocked until Data Health review';
+  if (dataHealth.ledger.analysisPosture === 'directional') return 'Directional only';
+  if (dataHealth.ledger.analysisPosture === 'ready') return 'Ready';
+  return 'No import ledger';
+}
+
+export function buildLeakDataHealthNotice(dataHealth: DataHealthSummary): LeakDataHealthNotice | null {
+  if (dataHealth.status !== 'ready' || (dataHealth.confidence !== 'low' && dataHealth.confidence !== 'medium')) {
+    return null;
+  }
+
+  const isBlocked = dataHealth.confidence === 'low';
+  return {
+    tone: isBlocked ? 'danger' : 'warning',
+    kicker: isBlocked ? 'Action Required' : 'Directional Analysis',
+    title: isBlocked
+      ? 'Leak grading is blocked by low-confidence import data'
+      : 'Leak grading is directional until import warnings are reviewed',
+    message: isBlocked
+      ? 'Some leak cards may be incomplete or biased because the latest local import has failures, unsupported formats, or parser gaps. Fix Data Health before treating missing or refused spots as clean.'
+      : 'Current leak cards remain useful, but unparsed files, summary gaps, or unsupported sources can hide ungraded spots. Review Data Health before turning these findings into drills.',
+    cta: '/hands?panel=data-health#data-health',
+    details: [
+      { label: 'Analysis posture', value: analysisPostureLabel(dataHealth) },
+      {
+        label: 'Files parsed',
+        value: `${dataHealth.ledger.parsedFiles}/${dataHealth.ledger.totalFiles} (${formatRate(dataHealth.ledger.parsedFileRate)})`,
+      },
+      {
+        label: 'Saved records',
+        value: `${dataHealth.ledger.savedHands} hands / ${dataHealth.ledger.savedSummaries} summaries`,
+      },
+      { label: 'Failed files', value: String(dataHealth.ledger.failedFiles) },
+      { label: 'Top warning categories', value: formatWarningCategories(dataHealth) },
+    ],
+  };
+}
+
 function impactScore(leak: Leak): number {
   return Math.round(SEVERITY_BADGES[leak.severity].weight * 25 + Math.min(40, Math.abs(leak.deviation)) + Math.min(20, leak.sampleSize / 10));
 }
@@ -136,6 +196,7 @@ export function LeaksPage() {
   const totalHands = data?.totalHands ?? 0;
   const prioritizedLeaks = [...leaks].sort((a, b) => impactScore(b) - impactScore(a));
   const topLeak = prioritizedLeaks[0] ?? null;
+  const dataHealthNotice = buildLeakDataHealthNotice(dataHealth);
 
   // Leak lifecycle (living entities): which leaks the user is studying, and the
   // "graveyard" of studied leaks that no longer fire in the current data.
@@ -149,34 +210,53 @@ export function LeaksPage() {
 
   return (
     <div className="space-y-6">
-      {dataHealth.status === 'ready' && (dataHealth.confidence === 'low' || dataHealth.confidence === 'medium') && (
-        <div className={clsx(
-          'flex items-start gap-3 rounded-xl border p-4 text-xs shadow-md',
-          dataHealth.confidence === 'low'
-            ? 'border-[var(--loss)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
-            : 'border-warn/30 bg-warn/10 text-[var(--fg-dim)]'
-        )}>
-          <AlertTriangle className={clsx(
-            'mt-0.5 h-[18px] w-[18px] shrink-0',
-            dataHealth.confidence === 'low' ? 'text-[var(--loss)]' : 'text-warn'
-          )} />
-          <div>
-            <span className="font-bold uppercase tracking-wider">
-              {dataHealth.confidence === 'low' ? 'Action Required' : 'Directional Analysis'}:
-            </span>{' '}
-            {dataHealth.confidence === 'low'
-              ? 'Your latest import encountered significant warnings or failures. Downstream leak analysis may be incomplete or biased. Fix import warnings in the Upload tab before trusting metrics.'
-              : 'Your latest import completed with minor warnings. Statistics are highly useful but should be treated as directional.'}
-            <div className="mt-2">
-              <Link
-                to="/hands"
-                className="inline-flex items-center gap-1 font-bold text-white hover:underline uppercase tracking-wider text-[10px]"
-              >
-                Review Import Warnings &rarr;
-              </Link>
+      {dataHealthNotice && (
+        <section
+          className={clsx(
+            'rounded-2xl border p-4 text-xs shadow-md',
+            dataHealthNotice.tone === 'danger'
+              ? 'border-[var(--loss)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
+              : 'border-warn/30 bg-warn/10 text-[var(--fg-dim)]',
+          )}
+          data-testid="leaks-data-health-notice"
+        >
+          <div className="flex items-start gap-3">
+            <AlertTriangle
+              className={clsx(
+                'mt-0.5 h-[18px] w-[18px] shrink-0',
+                dataHealthNotice.tone === 'danger' ? 'text-[var(--loss)]' : 'text-warn',
+              )}
+            />
+            <div className="min-w-0 flex-1">
+              <span className="font-bold uppercase tracking-wider" data-testid="leaks-data-health-kicker">
+                {dataHealthNotice.kicker}
+              </span>
+              <h2 className="mt-1 text-base font-black text-white" data-testid="leaks-data-health-title">
+                {dataHealthNotice.title}
+              </h2>
+              <p className="mt-2 max-w-4xl leading-relaxed" data-testid="leaks-data-health-message">
+                {dataHealthNotice.message}
+              </p>
+              <dl className="mt-3 grid gap-2 md:grid-cols-5" data-testid="leaks-data-health-details">
+                {dataHealthNotice.details.map((detail) => (
+                  <div key={detail.label} className="rounded-lg border border-white/10 bg-black/20 p-2">
+                    <dt className="text-[9px] font-black uppercase tracking-wider text-white/45">{detail.label}</dt>
+                    <dd className="mt-1 font-data text-[11px] font-bold text-white/80">{detail.value}</dd>
+                  </div>
+                ))}
+              </dl>
+              <div className="mt-3">
+                <Link
+                  to={dataHealthNotice.cta}
+                  className="inline-flex items-center gap-1 font-bold text-white hover:underline uppercase tracking-wider text-[10px]"
+                  data-testid="leaks-data-health-link"
+                >
+                  Review Data Health &rarr;
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       )}
 
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between border-b border-[var(--hairline)] pb-4 mb-6">
