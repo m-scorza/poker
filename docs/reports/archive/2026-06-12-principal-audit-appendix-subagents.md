@@ -1,7 +1,7 @@
 ---
-status: open
+status: resolved
 date: 2026-06-12
-related: ['2026-06-12-principal-engineer-audit.md', '#76']
+related: ['archive/2026-06-12-principal-engineer-audit.md', '#76', '#114']
 ---
 # Appendix — Subagent Prompts and Full Outputs (2026-06-12 Principal Audit)
 

@@ -1,8 +1,17 @@
 ---
-status: open
+status: resolved
 date: 2026-06-12
-related: ['#76', '#80', '#81', '#82', '#83', '#84', '#85', '#86', '#87', '#88', '#89', '#90', '#91', '#92', '#94']
+related: ['#76', '#80', '#81', '#82', '#83', '#84', '#85', '#86', '#87', '#88', '#89', '#90', '#91', '#92', '#94', '#98', '#99', '#100', '#101', 'ROADMAP Act II (#102–#110)', 'post-covenant #111–#113', 'docs/product/ROADMAP.md Act III (The Whetstone), #114']
 ---
+
+> **2026-07-02 closure.** The Active Covenant this audit spawned is fully
+> landed: Act I correctness (A1 #94, A2 #98, B4 #99, B5 #100, D2 #101) and
+> Act II coach loop (#102–#110), plus post-covenant #111–#113. Remaining
+> frontier items (grade `FACING_3BET`/`FACING_ALL_IN`, hero-name UI, EPIC G
+> gate) are tracked as ROADMAP **Act III — The Whetstone** (#114). Every
+> finding below is either closed by the PRs in `related:` or carried in
+> Act III / the 2026-07-01 abyss audit — nothing is silently dropped.
+
 # Principal Engineer / PM Audit — Poker Hand Analyzer
 
 **Date:** 2026-06-12
