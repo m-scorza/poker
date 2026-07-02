@@ -232,6 +232,8 @@ export interface ReactionRangeInfo {
 
 type StoredReactionRangeKey = keyof typeof REACTION_RANGES;
 
+export const BB_DEFENSE_COVERAGE_NOTE = 'BB suited-fold checks cover normal 2-3x opens only, not all-ins or 5x+ raises. ICM pressure can make suited folds acceptable in Advanced profile. Rule-based coverage only, not solver-backed; it is not a full solver-backed BB strategy.';
+
 const REACTION_RANGE_DETAILS: Record<StoredReactionRangeKey, {
   label: string;
   note: string;
@@ -345,7 +347,7 @@ export function getReactionRangeInfo(
       label: `BB defense vs ${opener} opener`,
       comboCount: BB_DEFENSE_RANGE.size,
       confidence: 'partial',
-      note: 'Partial rule-based defense range for normal opens. Calling can be valid; this is not a full solver-backed BB strategy.',
+      note: BB_DEFENSE_COVERAGE_NOTE,
     };
   }
 

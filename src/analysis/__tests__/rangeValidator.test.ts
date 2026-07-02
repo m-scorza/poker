@@ -78,7 +78,7 @@ describe('validateRFIRanges', () => {
     const at30 = validateRFIRanges(30);
     const at100 = validateRFIRanges(100);
 
-    // Solver baselines are wider at 100bb than 30bb
+    // Reference baselines are wider at 100bb than 30bb
     const btn30 = at30.find((r) => r.position === 'BTN')!;
     const btn100 = at100.find((r) => r.position === 'BTN')!;
     expect(btn100.solverPct).toBeGreaterThan(btn30.solverPct);
@@ -114,7 +114,7 @@ describe('validatePushRanges', () => {
     expect(results.length).toBeGreaterThan(0);
   });
 
-  it('each result references 10bb solver baseline', () => {
+  it('each result references 10bb reference baseline', () => {
     const results = validatePushRanges();
     for (const r of results) {
       expect(r.solverPct).toBeGreaterThan(0);
@@ -142,7 +142,7 @@ describe('rangeAccuracyScore', () => {
   it('returns high score when deltas are small', () => {
     const results = validateRFIRanges();
     const score = rangeAccuracyScore(results);
-    // Our ranges are based on the game plan, should be reasonably close to solver
+    // Our ranges are based on the game plan, so they should stay close to the references
     expect(score).toBeGreaterThan(50);
   });
 

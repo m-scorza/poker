@@ -50,7 +50,10 @@ describe('evidence metadata utilities', () => {
       expect(getEvidenceMetadata('three_bet_pct').label).toBe('rule-based');
       expect(getEvidenceMetadata('3bet_ratio').label).toBe('rule-based');
       // cleanId contains compliance
-      expect(getEvidenceMetadata('gto_compliance').label).toBe('rule-based');
+      const rangeCompliance = getEvidenceMetadata('range_compliance');
+      expect(rangeCompliance.label).toBe('rule-based');
+      expect(rangeCompliance.tooltip).toContain('documented preflop charts');
+      expect(rangeCompliance.tooltip).not.toMatch(/GTO/i);
       // cleanId contains deviation-
       expect(getEvidenceMetadata('deviation-preflop').label).toBe('rule-based');
       // sourceKind is deviation
@@ -66,6 +69,7 @@ describe('evidence metadata utilities', () => {
       
       // postflop_ prefix overrides isPreflopRule match
       expect(getEvidenceMetadata('postflop_vpip').label).toBe('proxy-model');
+      expect(getEvidenceMetadata('postflop_vpip').tooltip).not.toMatch(/GTO/i);
     });
 
     it('handles fallback default outcome correctly', () => {

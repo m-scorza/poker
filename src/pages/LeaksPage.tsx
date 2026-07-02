@@ -29,14 +29,14 @@ const LEAK_SOURCES: Record<string, { source: string; doc: string }> = {
   won_sd: { source: '[09-study §4]', doc: 'docs/knowledge/strategy/09-study-methods-and-tools.md' },
   limps: { source: '[Baseline]', doc: 'docs/knowledge/strategy/03-preflop-strategy.md' },
   compliance: { source: '[Baseline, 02-ranges §3]', doc: 'docs/knowledge/strategy/02-ranges-and-position.md' },
-  vpip_pfr_gap: { source: '[08-gto §3]', doc: 'docs/knowledge/strategy/08-gto-and-exploits.md' },
+  vpip_pfr_gap: { source: '[09-study §4]', doc: 'docs/knowledge/strategy/09-study-methods-and-tools.md' },
 };
 
 const LEAK_FINDER_EVIDENCE = createEvidence('rule_based', [
   {
     docPath: KB_PATHS.studyMethods,
     section: '4. Leak Finder Framework',
-    quote: 'Compare each stat against known GTO ranges',
+    quote: 'Create a study plan targeting the biggest leaks first',
   },
 ]);
 
@@ -44,7 +44,7 @@ const PREFLOP_RANGE_EVIDENCE = createEvidence('rule_based', [
   {
     docPath: KB_PATHS.rangesAndPosition,
     section: '3. RFI Ranges by Stack Depth',
-    quote: 'Reference ranges from solver outputs (chipEV).',
+    quote: 'Reference chipEV range percentages from study tables.',
   },
 ]);
 

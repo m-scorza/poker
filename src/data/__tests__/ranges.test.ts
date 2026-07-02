@@ -184,6 +184,15 @@ describe('facing-raise reaction coverage', () => {
     expect(info.note).toContain('not a full solver-backed BB strategy');
   });
 
+  it('explains that BB defense coverage is normal-open-only and ICM-sensitive', () => {
+    const info = getReactionRangeInfo('BB', 'CO');
+
+    expect(info.note).toContain('normal 2-3x open');
+    expect(info.note).toContain('not all-ins or 5x+ raises');
+    expect(info.note).toContain('ICM');
+    expect(info.note).toContain('not a full solver-backed BB strategy');
+  });
+
   it('keeps the legacy range getter aligned with coverage metadata', () => {
     expect(getReactionRange('SB', 'CO')).toBe(getReactionRangeInfo('SB', 'CO').range);
     expect(getReactionRange('HJ', 'CO')).toBeUndefined();

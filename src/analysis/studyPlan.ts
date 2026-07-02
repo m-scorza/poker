@@ -3,6 +3,7 @@ import { KB_PATHS, UNSUPPORTED_EVIDENCE, createEvidence, type Evidence } from '.
 import type { Hand } from '../types/hand';
 import type { Leak, LeakSeverity } from './leakDetector';
 import { batchCheckPushFold, type PushFoldCheckOptions } from './pushFoldChecker';
+import { BB_DEFENSE_COVERAGE_NOTE } from '../data/ranges';
 
 export type StudyQueueConfidence = 'high' | 'medium' | 'low';
 
@@ -66,6 +67,7 @@ const SCENARIO_LABELS: Record<Scenario, string> = {
   FACING_ALL_IN: 'Facing all-in',
   FACING_LIMP: 'Facing limp',
   BB_VS_RAISE: 'BB vs raise',
+  BB_VS_RAISE_MULTIWAY: 'BB vs multiway raise',
   BB_VS_LARGE_RAISE: 'BB vs large raise',
   BB_VS_LIMP: 'BB vs limp',
   WALK: 'Walk',
@@ -83,7 +85,7 @@ const PREFLOP_RANGE_EVIDENCE = createEvidence('rule_based', [
   {
     docPath: KB_PATHS.rangesAndPosition,
     section: '3. RFI Ranges by Stack Depth',
-    quote: 'Reference ranges from solver outputs (chipEV).',
+    quote: 'Reference chipEV range percentages from study tables.',
   },
 ]);
 
@@ -93,7 +95,7 @@ const BB_DEFENSE_EVIDENCE = createEvidence('rule_based', [
     section: '2. Big Blind Defense',
     quote: 'Any hand that loses less than 1.12bb/hand is worth playing.',
   },
-]);
+], BB_DEFENSE_COVERAGE_NOTE);
 
 const CBET_PROXY_EVIDENCE = createEvidence('proxy_model', [
   {

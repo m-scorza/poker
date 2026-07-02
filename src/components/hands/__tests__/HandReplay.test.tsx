@@ -185,6 +185,8 @@ describe('HandReplay', () => {
 
     expect(within(container).getByText(/9-max \| Level 3/i)).toBeInTheDocument();
     expect(within(container).getAllByText(/Pot: 477/i).length).toBeGreaterThan(0);
+    expect(within(container).getByText('Reference match')).toBeInTheDocument();
+    expect(within(container).queryByText(/GTO Compliant/i)).not.toBeInTheDocument();
   });
 
   it('displays hero cards and position details', async () => {

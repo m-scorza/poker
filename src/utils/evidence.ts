@@ -2,8 +2,8 @@
  * Utility to resolve evidence labels for leaks and study plan items.
  *
  * Mapped categories:
- * - rule-based: preflop GTO range comparisons and simple heuristics.
- * - proxy-model: postflop frequency expectations and GTO-approximate metrics.
+ * - rule-based: preflop local range comparisons and simple heuristics.
+ * - proxy-model: postflop frequency expectations and baseline approximation metrics.
  * - local-reference: heads-up push/fold charts loaded locally by the user.
  * - unsupported: pure chip/BB outcome counts without matching strategic model mapping.
  */
@@ -207,7 +207,7 @@ export function getEvidenceMetadata(id: string, sourceKind?: string, evidence?: 
   if (isPreflopRule && !cleanId.includes('postflop_')) {
     return evidenceMetadata({
       label: 'rule-based',
-      tooltip: 'Preflop checks mapped from GTO preflop charts and standard tactical rules.',
+      tooltip: 'Preflop checks mapped from documented preflop charts and standard tactical rules.',
       badgeClass: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30',
       strength: 'rule_based',
       strengthLabel: 'Rule-based, no EV',
@@ -219,7 +219,7 @@ export function getEvidenceMetadata(id: string, sourceKind?: string, evidence?: 
   // Flop C-Bet, C-Bet HU, WTSD, Won at SD, AF, and detailed postflop errors.
   return evidenceMetadata({
     label: 'proxy-model',
-    tooltip: 'Postflop frequency expectations and baseline GTO approximation ranges.',
+    tooltip: 'Postflop frequency expectations and baseline approximation ranges.',
     badgeClass: 'bg-blue-500/10 text-blue-400 border-blue-500/30',
     strength: 'directional',
     strengthLabel: 'Directional only',

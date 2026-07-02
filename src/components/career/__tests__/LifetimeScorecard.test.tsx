@@ -47,8 +47,11 @@ describe('LifetimeScorecard', () => {
   it('renders correctly with data', () => {
     const { container } = render(<LifetimeScorecard tournaments={mockTournaments} decisions={mockDecisions} />);
     expect(within(container).getByText('Efficiency Score')).toBeInTheDocument();
+    expect(within(container).getByText('Reference Match Rate')).toBeInTheDocument();
+    expect(within(container).getByText('Matched Decs.')).toBeInTheDocument();
     expect(within(container).getByText('100')).toBeInTheDocument(); // 100% compliance
     expect(within(container).getByText('+$89')).toBeInTheDocument(); // 100 - 11 = 89 profit
+    expect(within(container).queryByText(/GTO/i)).not.toBeInTheDocument();
   });
 
   it('returns null when no hands tracked', () => {

@@ -116,10 +116,14 @@ describe('buildStudyQueue', () => {
     expect(bbDefense!.evidence.details).toContain('2 tagged decisions');
     expect(bbDefense!.evidence.trust.kind).toBe('rule_based');
     expect(bbDefense!.evidence.trust.citations[0]?.docPath).toBe('docs/knowledge/strategy/03-preflop-strategy.md');
+    expect(bbDefense!.evidence.trust.note).toContain('normal 2-3x opens');
+    expect(bbDefense!.evidence.trust.note).toContain('not all-ins or 5x+ raises');
+    expect(bbDefense!.evidence.trust.note).toContain('ICM');
+    expect(bbDefense!.evidence.trust.note).toContain('not solver-backed');
     expectEvidenceCitationsToResolve(bbDefense!.evidence.trust);
   });
 
-  it('adds a GTO Wizard style biggest-loss review queue in BB, not raw chips', () => {
+  it('adds a study-tool-style biggest-loss review queue in BB, not raw chips', () => {
     const decisions = [
       decision({ handId: 'smallBlindLevel', netProfit: -400 }),
       decision({ handId: 'bigBlindLevel', netProfit: -1000 }),

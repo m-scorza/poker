@@ -72,15 +72,16 @@ describe('DualRangeMatrix', () => {
   it('renders the theory and performance matrices', () => {
     renderMatrix();
 
-    expect(screen.getByText('The Oracle (GTO)')).toBeInTheDocument();
+    expect(screen.getByText('The Oracle (Reference)')).toBeInTheDocument();
     expect(screen.getByText('The Mirror (Performance)')).toBeInTheDocument();
+    expect(screen.queryByText(/GTO/i)).not.toBeInTheDocument();
   });
 
   it('shows the default detail pane before a hand is selected', () => {
     renderMatrix();
 
     expect(screen.getByText('Select a Hand')).toBeInTheDocument();
-    expect(screen.getByText(/Compare theory vs\. reality/i)).toBeInTheDocument();
+    expect(screen.getByText(/Compare reference ranges vs\. your sample/i)).toBeInTheDocument();
   });
 
   it('shows compliant hand details after selecting a mirror cell', () => {
@@ -89,12 +90,14 @@ describe('DualRangeMatrix', () => {
     clickMirrorCell('AA');
 
     expect(screen.getByText('UTG - Pre-flop')).toBeInTheDocument();
-    expect(screen.getByText('GTO Standard')).toBeInTheDocument();
+    expect(screen.getByText('Reference Range')).toBeInTheDocument();
     expect(screen.getByText('Frequency')).toBeInTheDocument();
     expect(screen.getByText('Compliance')).toBeInTheDocument();
     expect(screen.getByText('5')).toBeInTheDocument();
     expect(screen.getByText('100%')).toBeInTheDocument();
     expect(screen.getByText('Elite Execution')).toBeInTheDocument();
+    expect(screen.getByText(/review stack depth and table context/i)).toBeInTheDocument();
+    expect(screen.queryByText(/GTO|solver EV/i)).not.toBeInTheDocument();
   });
 
   it('clears hover-driven details when leaving a mirror cell', async () => {
