@@ -25,6 +25,16 @@ const SEVERITY_BADGE: Record<LeakSeverity, { cls: string; label: string }> = {
   low: { cls: 'bg-white/5 text-[var(--fg-dim)]', label: 'LOW' },
 };
 
+// The focus card carries its severity as a calm accent (a left edge + faint
+// wash) so the single most important thing visually dominates — the Leaks
+// page's hierarchy language, without its pill density.
+const SEVERITY_ACCENT: Record<LeakSeverity, { bar: string; tint: string }> = {
+  critical: { bar: 'var(--loss)', tint: 'var(--loss-soft)' },
+  high: { bar: 'var(--loss)', tint: 'var(--loss-soft)' },
+  medium: { bar: 'var(--warn)', tint: 'var(--warn-soft)' },
+  low: { bar: 'var(--fg-muted)', tint: 'transparent' },
+};
+
 const CONFIDENCE_LABEL: Record<'low' | 'medium' | 'high', string> = {
   low: 'low confidence — directional',
   medium: 'medium confidence',
@@ -54,9 +64,9 @@ export function CoachsNotePage() {
       </header>
 
       {note === undefined ? (
-        <div className="compartment p-6 text-[var(--fg-muted)]">Reading your hands…</div>
+        <div className="compartment border border-[var(--hairline)] p-6 text-[var(--fg-muted)]">Reading your hands…</div>
       ) : note.kind === 'insufficient_data' ? (
-        <div className="compartment flex items-start gap-3 p-6">
+        <div className="compartment flex items-start gap-3 border border-[var(--hairline)] p-6">
           <Inbox size={20} className="mt-0.5 text-[var(--fg-dim)]" />
           <div>
             <div className="font-semibold text-[var(--fg)]">Not enough hands yet</div>
@@ -67,7 +77,7 @@ export function CoachsNotePage() {
           </div>
         </div>
       ) : note.kind === 'all_clear' ? (
-        <div className="compartment flex items-start gap-3 border-[var(--money-line)] p-6">
+        <div className="compartment flex items-start gap-3 border border-[var(--money-line)] p-6">
           <CheckCircle size={20} className="mt-0.5 text-[var(--money)]" />
           <div>
             <div className="font-semibold text-[var(--fg)]">No single leak stands out</div>
@@ -77,7 +87,13 @@ export function CoachsNotePage() {
         </div>
       ) : (
         <>
-          <section className="compartment p-6">
+          <section
+            className="compartment p-6"
+            style={{
+              borderLeft: `3px solid ${SEVERITY_ACCENT[note.focus.severity].bar}`,
+              backgroundImage: `linear-gradient(to right, ${SEVERITY_ACCENT[note.focus.severity].tint}, transparent 55%)`,
+            }}
+          >
             <div className="flex items-center justify-between gap-3">
               <span className="text-[10px] font-black uppercase tracking-wider text-[var(--fg-muted)]">Your focus</span>
               <span className={clsx('rounded px-2 py-0.5 text-[10px] font-bold uppercase', SEVERITY_BADGE[note.focus.severity].cls)}>
