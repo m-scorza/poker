@@ -61,6 +61,14 @@ export function shouldOpenImporterFromLocation(search: string, hash = ''): boole
     || hash === '#import';
 }
 
+export function replayHandIdFromLocation(search: string): string | null {
+  const params = new URLSearchParams(search);
+  const raw = params.get('reviewHand') ?? params.get('handId') ?? params.get('hand');
+  const handId = raw?.trim();
+  if (!handId || handId.length > 128) return null;
+  return handId;
+}
+
 export function HandsPage() {
   const location = useLocation();
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
@@ -125,6 +133,13 @@ export function HandsPage() {
       setShowUpload(true);
     }
   }, [location.search, location.hash]);
+
+  useEffect(() => {
+    const requestedHandId = replayHandIdFromLocation(location.search);
+    if (requestedHandId && handsMap.has(requestedHandId)) {
+      setReplayHandId(requestedHandId);
+    }
+  }, [location.search, handsMap]);
 
   const scopedDecisions = useMemo(() => {
     if (!sessionHandIds) return decisions;

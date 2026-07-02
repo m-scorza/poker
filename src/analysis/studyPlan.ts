@@ -436,7 +436,7 @@ export function buildStudyQueue(
       },
       handIds: topReviewEntries.map((entry) => entry.decision.handId),
       cta: 'Review source caveats',
-      explanation: `${sourceReviewEntries.length} queued hand${sourceReviewEntries.length === 1 ? '' : 's'} need import-source, parser-confidence, tournament-summary, or payout context review before external solver/trainer study. Export surfaces keep these as study prompts and do not attach EV or scoring answers.`,
+      explanation: `${sourceReviewEntries.length} queued hand${sourceReviewEntries.length === 1 ? '' : 's'} need import-source, parser-confidence, tournament-summary, or payout context review before external solver/trainer study. SpotPacket exports keep these as study prompts and do not attach EV or scoring answers.`,
     });
   }
 

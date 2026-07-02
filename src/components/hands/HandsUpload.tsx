@@ -558,7 +558,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           <div>
             <div className="font-semibold text-[var(--fg)]">Source-aware import guide</div>
             <div className="mt-1 max-w-2xl text-[var(--fg-muted)]">
-              Pick the safest local export path first. Import source labels carry through to analysis and export surfaces, so unsupported rooms remain study prompts instead of fake solver-ready data.
+              Pick the safest local export path first. Import source labels carry through to SpotPackets, so unsupported rooms remain study prompts instead of fake solver-ready data.
             </div>
           </div>
           <span className="rounded-full border border-violet-400/20 bg-violet-400/10 px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-wider text-violet-100">

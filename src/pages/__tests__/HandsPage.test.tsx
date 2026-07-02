@@ -4,7 +4,8 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { HandCategory } from '../../components/hands/HandsFilters';
 import type { HeroDecision } from '../../types/analysis';
-import { getHandCategory, HandsPage, shouldOpenImporterFromLocation } from '../HandsPage';
+import type { Hand } from '../../types/hand';
+import { getHandCategory, HandsPage, replayHandIdFromLocation, shouldOpenImporterFromLocation } from '../HandsPage';
 import '@testing-library/jest-dom';
 
 const storeMocks = vi.hoisted(() => ({
@@ -40,6 +41,17 @@ vi.mock('../../analysis/rangeChecker', async (importOriginal) => {
 vi.mock('../../components/hands/HandsUpload', () => ({
   HandsUpload: () => React.createElement('div', { 'data-testid': 'mock-hands-upload' }),
 }));
+
+vi.mock('../../components/hands/HandReplay', async () => {
+  const ReactActual = await vi.importActual<typeof import('react')>('react');
+  return {
+    HandReplay: ({ hand, heroDecision }: { hand: Hand; heroDecision: HeroDecision | null }) => ReactActual.createElement(
+      'div',
+      { 'data-testid': 'mock-hand-replay' },
+      `${hand.id}|${heroDecision?.handId ?? 'missing-decision'}`,
+    ),
+  };
+});
 
 vi.mock('../../components/hands/HandsFilters', async (importOriginal) => {
   const actual = await importOriginal<typeof import('../../components/hands/HandsFilters')>();
@@ -78,6 +90,32 @@ function decision(overrides: Partial<HeroDecision>): HeroDecision {
     wonAtShowdown: false,
     wonAmount: 0,
     netProfit: 0,
+    ...overrides,
+  };
+}
+
+function makeHand(id: string, overrides: Partial<Hand> = {}): Hand {
+  return {
+    id,
+    tournamentId: 't1',
+    date: new Date('2026-06-30T12:00:00Z'),
+    level: 1,
+    smallBlind: 10,
+    bigBlind: 20,
+    ante: 0,
+    maxSeats: 9,
+    activePlayers: 9,
+    buttonSeat: 1,
+    boardFlop: null,
+    boardTurn: null,
+    boardRiver: null,
+    totalPot: 30,
+    rake: 0,
+    hasShowdown: false,
+    isStarred: false,
+    heroChipsBefore: 1500,
+    heroChipsAfter: 1500,
+    villainDeltas: [],
     ...overrides,
   };
 }
@@ -141,6 +179,35 @@ describe('HandsPage data-health deep link', () => {
     ));
 
     expect(await screen.findByTestId('mock-hands-upload')).toBeInTheDocument();
+  });
+});
+
+describe('replayHandIdFromLocation', () => {
+  it.each([
+    ['?panel=spot-packet&reviewHand=hand-123', 'hand-123'],
+    ['?handId=ps-987', 'ps-987'],
+    ['?hand=encoded%20id', 'encoded id'],
+    ['?panel=spot-packet&reviewHand=hand%2Cwith%2Fspace%20%C3%A4', 'hand,with/space ä'],
+    ['?panel=spot-packet', null],
+    [`?reviewHand=${'x'.repeat(129)}`, null],
+  ] satisfies Array<[string, string | null]>)('search=%s -> %s', (search, expected) => {
+    expect(replayHandIdFromLocation(search)).toBe(expected);
+  });
+});
+
+describe('HandsPage review route', () => {
+  it('opens HandReplay for a special-character reviewHand id', async () => {
+    const handId = 'srs,with/space ä';
+    storeMocks.getAllHeroDecisions.mockResolvedValue([decision({ handId })]);
+    storeMocks.getHands.mockResolvedValue([makeHand(handId)]);
+
+    render(React.createElement(
+      MemoryRouter,
+      { initialEntries: [`/hands?reviewHand=${encodeURIComponent(handId)}`] },
+      React.createElement(HandsPage),
+    ));
+
+    expect(await screen.findByTestId('mock-hand-replay')).toHaveTextContent(`${handId}|${handId}`);
   });
 });
 
