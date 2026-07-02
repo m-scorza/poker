@@ -1,5 +1,5 @@
 /**
- * 13x13 range grid (GTO Wizard style).
+ * 13x13 poker range grid.
  *
  * Rows = first card rank (A..2), Columns = second card rank (A..2).
  * Diagonal = pairs, above = suited, below = offsuit.

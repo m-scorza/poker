@@ -10,7 +10,7 @@ import { Star, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { clsx } from 'clsx';
 import { classifyBoardTexture, analyzePostflop } from '../../analysis/postflopAnalyzer';
 import { computePotBeforeStreet } from '../../analysis/scenarioDetector';
-import { complianceExclusionReason } from '../../analysis/rangeChecker';
+import { complianceExclusionReasonForDecision } from '../../analysis/rangeChecker';
 import { icmStageLabel, icmStageColor } from '../../analysis/icmDetector';
 import { CardGroup, OddsCalculator } from 'poker-odds-calculator';
 import type { Hand, PlayerInHand, Action } from '../../types/hand';
@@ -652,7 +652,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           // Refusal-as-UI: a scenario the engine declines to grade (e.g. facing a
           // 3-bet or an all-in) gets an explicit "Not graded — here's why" instead
           // of a misleading badge or a red scenario label.
-          const exclusionReason = complianceExclusionReason(heroDecision.scenario);
+          const exclusionReason = complianceExclusionReasonForDecision(heroDecision);
           return (
             <div className="border-t border-[var(--hairline)] pt-4 mt-6">
               <div className="flex items-center gap-4 text-xs font-mono">
@@ -676,7 +676,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                   </div>
                 ) : heroDecision.isCompliant ? (
                   <div className="ml-auto px-2 py-1 rounded bg-[var(--money-soft)] text-[var(--money)] font-bold border border-[var(--money-line)] uppercase text-[10px]">
-                    GTO Compliant
+                    Reference match
                   </div>
                 ) : null}
               </div>

@@ -58,7 +58,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
             </span>
             <span className="text-2xl font-bold text-cyan-400/60">%</span>
           </div>
-          <p className="mt-2 text-xs font-bold text-[var(--fg-dim)] uppercase tracking-widest">GTO Compliance Rate</p>
+          <p className="mt-2 text-xs font-bold text-[var(--fg-dim)] uppercase tracking-widest">Reference Match Rate</p>
         </div>
 
         {/* Financials */}
@@ -100,7 +100,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
             <div className="text-xl font-data font-black text-white">
               {Math.round((metrics.complianceRate / 100) * metrics.totalHands).toLocaleString()}
             </div>
-            <div className="text-[10px] font-bold text-[var(--fg-dim)]">Compliant Decs.</div>
+            <div className="text-[10px] font-bold text-[var(--fg-dim)]">Matched Decs.</div>
           </div>
         </div>
 

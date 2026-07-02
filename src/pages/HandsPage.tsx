@@ -4,6 +4,10 @@ import { Filter, Upload as UploadIcon, Trash2 } from 'lucide-react';
 import { useAppStore } from '../data/appStore';
 import { getAllHeroDecisions, getHands, clearAllData, toggleStarHand, db } from '../data/store';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
+import {
+  buildUngradedScenarioSummary,
+  isUngradedDecision,
+} from '../analysis/ungradedScenarios';
 import { groupIntoSessions } from '../data/sessions';
 import { HandReplay } from '../components/hands/HandReplay';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
@@ -15,7 +19,7 @@ import type { SortingState } from '@tanstack/react-table';
 // Extracted Components
 import { HandsUpload } from '../components/hands/HandsUpload';
 import { HandsFilters } from '../components/hands/HandsFilters';
-import type { StackDepth, HandCategory } from '../components/hands/HandsFilters';
+import type { StackDepth, HandCategory, ComplianceFilter } from '../components/hands/HandsFilters';
 import { HandsTable } from '../components/hands/HandsTable';
 
 function getStackDepth(bb: number): StackDepth {
@@ -42,6 +46,10 @@ export function getHandCategory(handKey: string): HandCategory {
   return 'offsuit';
 }
 
+function formatScenarioLabel(scenario: Scenario): string {
+  return scenario.replace(/_/g, ' ');
+}
+
 export function HandsPage() {
   const [decisions, setDecisions] = useState<HeroDecision[]>([]);
   const [handsMap, setHandsMap] = useState<Map<string, Hand>>(new Map());
@@ -51,7 +59,7 @@ export function HandsPage() {
   const [posFilter, setPosFilter] = useState<Position | ''>('');
   const [scenarioFilter, setScenarioFilter] = useState<Scenario | ''>('');
   const [actionFilter, setActionFilter] = useState<string>('');
-  const [complianceFilter, setComplianceFilter] = useState<string>('');
+  const [complianceFilter, setComplianceFilter] = useState<ComplianceFilter | ''>('');
   const [stackFilter, setStackFilter] = useState<StackDepth | ''>('');
   const [categoryFilter, setCategoryFilter] = useState<HandCategory | ''>('');
   const [searchKey, setSearchKey] = useState('');
@@ -100,23 +108,30 @@ export function HandsPage() {
     load();
   }, [load, activeSessionId]);
 
-  const filtered = useMemo(() => {
-    let result = decisions;
+  const scopedDecisions = useMemo(() => {
+    if (!sessionHandIds) return decisions;
+    return decisions.filter((d) => sessionHandIds.has(d.handId));
+  }, [decisions, sessionHandIds]);
 
-    if (sessionHandIds) {
-      result = result.filter(d => sessionHandIds.has(d.handId));
-    }
+  const ungradedScenarioSummary = useMemo(() => buildUngradedScenarioSummary(scopedDecisions), [scopedDecisions]);
+
+  const filtered = useMemo(() => {
+    let result = scopedDecisions;
+
     if (posFilter) result = result.filter((d) => d.position === posFilter);
     if (scenarioFilter) result = result.filter((d) => d.scenario === scenarioFilter);
     if (actionFilter) result = result.filter((d) => d.action === actionFilter);
-    if (complianceFilter === 'compliant') result = result.filter((d) => d.isCompliant);
+    if (complianceFilter === 'compliant') result = result.filter((d) => d.isCompliant && !isUngradedDecision(d));
     if (complianceFilter === 'deviation') result = result.filter((d) => !d.isCompliant && d.deviationType !== null);
+    if (complianceFilter === 'not-graded') result = result.filter((d) => isUngradedDecision(d));
     if (stackFilter) result = result.filter((d) => getStackDepth(d.stackBb) === stackFilter);
     if (categoryFilter) result = result.filter((d) => getHandCategory(d.handKey) === categoryFilter);
     if (searchKey) result = result.filter((d) => d.handKey.toLowerCase().includes(searchKey.toLowerCase()));
 
     return result;
-  }, [decisions, sessionHandIds, posFilter, scenarioFilter, actionFilter, complianceFilter, stackFilter, categoryFilter, searchKey]);
+  }, [scopedDecisions, posFilter, scenarioFilter, actionFilter, complianceFilter, stackFilter, categoryFilter, searchKey]);
+
+  const totalUngraded = ungradedScenarioSummary.reduce((sum, item) => sum + item.count, 0);
 
   const handleToggleStar = async (handId: string) => {
     const newState = await toggleStarHand(handId);
@@ -185,10 +200,64 @@ export function HandsPage() {
           categoryFilter={categoryFilter} setCategoryFilter={setCategoryFilter}
         />
 
+        {ungradedScenarioSummary.length > 0 && (
+          <section
+            data-testid="ungraded-scenario-summary"
+            className="compartment border-[var(--warn-line)] bg-[var(--warn-soft)] p-4"
+          >
+            <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between">
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--warn)]">Not graded review queue</p>
+                <p className="mt-1 text-sm text-[var(--fg-dim)]">
+                  {totalUngraded} hand{totalUngraded === 1 ? '' : 's'} are excluded from range compliance because the engine needs pot odds, ICM, multiway, or 3-bet-defense data before grading.
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setScenarioFilter('');
+                  setComplianceFilter('not-graded');
+                }}
+                className="w-fit rounded-full border border-[var(--warn-line)] bg-[var(--ink-2)] px-3 py-1 text-xs font-bold uppercase tracking-wide text-[var(--warn)] hover:bg-[var(--warn-soft)]"
+              >
+                Filter all not graded
+              </button>
+            </div>
+            <div className="mt-3 grid gap-2 md:grid-cols-2 xl:grid-cols-3">
+              {ungradedScenarioSummary.map((item) => (
+                <button
+                  key={item.id}
+                  type="button"
+                  title={item.reason}
+                  data-testid={`ungraded-scenario-${item.scenario}`}
+                  onClick={() => {
+                    setScenarioFilter(item.scenario);
+                    setComplianceFilter('not-graded');
+                  }}
+                  className={clsx(
+                    'rounded-xl border p-3 text-left transition-colors',
+                    scenarioFilter === item.scenario
+                      ? 'border-[var(--warn)] bg-[var(--warn-soft)] text-[var(--fg)]'
+                      : 'border-[var(--hairline)] bg-[var(--ink-2)] hover:border-[var(--warn-line)] hover:bg-[var(--ink-3)]',
+                  )}
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="text-xs font-black uppercase tracking-wide text-[var(--fg)]">{formatScenarioLabel(item.scenario)}</span>
+                    <span className="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 font-data text-xs font-bold text-[var(--warn)]">{item.count}</span>
+                  </div>
+                  <p className="mt-2 text-[11px] text-[var(--fg-muted)]">
+                    {item.folded} folded · {item.continued} continued. Review as a study/export spot, not a leak verdict.
+                  </p>
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
+
         <div className="flex justify-between items-center mb-3">
           <p className="text-xs text-[var(--fg-muted)] flex items-center gap-1">
             <Filter size={12} />
-            {filtered.length} of {decisions.length} hands
+            {filtered.length} of {scopedDecisions.length} hands
           </p>
         </div>
 

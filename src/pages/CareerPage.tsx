@@ -19,6 +19,7 @@ import { BustOutChart } from '../components/career/BustOutChart';
 import { StakeTrendChart } from '../components/career/StakeTrendChart';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
+import { buildUngradedScenarioImpact } from '../analysis/ungradedScenarios';
 import { useAppStore } from '../data/appStore';
 import { getRecentImportRuns } from '../data/store';
 import { summarizeDataHealth } from '../data/importRuns';
@@ -109,6 +110,10 @@ export function CareerPage() {
   const leaks = useMemo(() => {
     return detectLeaks(computeAggregateStats(decisions), strategyProfile);
   }, [decisions, strategyProfile]);
+
+  const ungradedScenarioImpact = useMemo(() => {
+    return buildUngradedScenarioImpact(decisions);
+  }, [decisions]);
 
   const careerCoachReport = useMemo(() => {
     return buildCareerCoachReport(tournaments, decisions, leaks);
@@ -306,7 +311,7 @@ export function CareerPage() {
             </span>{' '}
             {dataHealth.confidence === 'low'
               ? 'Your latest import encountered significant warnings or failures. Career financials, profit charts, and ABI stats may be incomplete or biased. Fix import warnings in the Upload tab before trusting metrics.'
-              : 'Your latest import completed with minor warnings. Profit timelines and GTO scorecards are highly useful but should be treated as directional.'}
+              : 'Your latest import completed with minor warnings. Profit timelines and career scorecards are highly useful but should be treated as directional.'}
             <div className="mt-2">
               <Link
                 to="/hands"
@@ -317,6 +322,63 @@ export function CareerPage() {
             </div>
           </div>
         </div>
+      )}
+
+      {ungradedScenarioImpact.total > 0 && (
+        <section
+          className="rounded-xl border border-[var(--accent)]/25 bg-[var(--accent)]/10 p-5 text-xs shadow-md shadow-black/10"
+          data-testid="career-ungraded-scenario-notice"
+        >
+          <div className="flex items-start gap-3">
+            <AlertTriangle className="mt-0.5 h-[18px] w-[18px] shrink-0 text-[var(--accent)]" />
+            <div className="min-w-0 flex-1">
+              <span className="font-bold uppercase tracking-wider text-[var(--accent)]">Stats caveat</span>
+              <h2 className="mt-1 text-base font-black text-white">Strategy metrics omit not-graded review spots</h2>
+              <p className="mt-2 leading-6 text-[var(--fg-dim)]">
+                {ungradedScenarioImpact.total} of {ungradedScenarioImpact.total + ungradedScenarioImpact.gradeable} imported decisions are intentionally routed to study/export review instead of compliance scoring. ROI and profit remain raw imported outcomes, but compliance, leak confidence, and high-impact-hand study mix should not treat these spots as clean until exact range/solver support exists.
+              </p>
+              <div className="mt-4 grid gap-3 sm:grid-cols-4">
+                <div className="rounded-lg border border-white/10 bg-black/20 p-3">
+                  <span className="block text-[9px] font-bold uppercase tracking-wider text-[var(--fg-muted)]">Not graded</span>
+                  <strong className="mt-1 block text-sm text-white">
+                    {ungradedScenarioImpact.total} ({Math.round(ungradedScenarioImpact.rate * 100)}%)
+                  </strong>
+                </div>
+                <div className="rounded-lg border border-white/10 bg-black/20 p-3">
+                  <span className="block text-[9px] font-bold uppercase tracking-wider text-[var(--fg-muted)]">Gradeable</span>
+                  <strong className="mt-1 block text-sm text-white">{ungradedScenarioImpact.gradeable}</strong>
+                </div>
+                <div className="rounded-lg border border-white/10 bg-black/20 p-3">
+                  <span className="block text-[9px] font-bold uppercase tracking-wider text-[var(--fg-muted)]">Fold / continue</span>
+                  <strong className="mt-1 block text-sm text-white">
+                    {ungradedScenarioImpact.folded} / {ungradedScenarioImpact.continued}
+                  </strong>
+                </div>
+                <div className="rounded-lg border border-white/10 bg-black/20 p-3">
+                  <span className="block text-[9px] font-bold uppercase tracking-wider text-[var(--fg-muted)]">Scenario families</span>
+                  <strong className="mt-1 block text-sm text-white">{ungradedScenarioImpact.scenarioCount}</strong>
+                </div>
+              </div>
+              <ul className="mt-4 space-y-2 text-[var(--fg-dim)]">
+                {ungradedScenarioImpact.topScenarios.map((row) => (
+                  <li key={row.id} className="rounded-lg border border-white/10 bg-black/10 p-3">
+                    <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-white">{row.scenario.replace(/_/g, ' ')}</span>
+                    <span className="ml-2 text-[10px] uppercase tracking-wider text-[var(--fg-muted)]">
+                      {row.count} spots · {row.folded} folded · {row.continued} continued
+                    </span>
+                    <p className="mt-1 leading-5">{row.reason}</p>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                to="/hands"
+                className="mt-4 inline-flex items-center gap-1 font-bold text-white hover:underline uppercase tracking-wider text-[10px]"
+              >
+                Open Hand Archive not-graded queue &rarr;
+              </Link>
+            </div>
+          </div>
+        </section>
       )}
 
       {/* Tabs Switcher */}
@@ -398,7 +460,7 @@ export function CareerPage() {
                  </h3>
                  <p className="text-xs text-[var(--fg-dim)] italic">
                    You are currently in a {stats.roi > 0 ? 'profitable' : 'challenging'} phase.
-                   Keep consistent with your GTO compliance targets to sustain long-term growth.
+                   Keep consistent with your local reference targets to sustain long-term growth.
                  </p>
                </div>
 
