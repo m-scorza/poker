@@ -221,7 +221,7 @@ function computeSeverity(value: number, min: number, max: number): LeakSeverity 
   return 'critical';
 }
 
-export function calculateLeakConfidence(leakId: string, sampleSize: number): 'low' | 'medium' | 'high' {
+function calculateLeakConfidence(leakId: string, sampleSize: number): 'low' | 'medium' | 'high' {
   const isPreflopGeneral = ['vpip', 'pfr', 'limps', 'vpip_pfr_gap'].includes(leakId);
   if (isPreflopGeneral) {
     if (sampleSize < 30) return 'low';

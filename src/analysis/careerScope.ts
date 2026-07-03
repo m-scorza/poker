@@ -2,9 +2,9 @@ import type { Tournament } from '../types/hand';
 import { getTournamentCost, getTournamentNet, getTournamentRevenue, isCashTournamentCurrency } from './financials';
 import { sumUsd } from '../parser/money';
 
-export type CareerScopeForm = 'Hot' | 'Uptrend' | 'Stable' | 'Rebuild' | 'Insufficient Sample';
+type CareerScopeForm = 'Hot' | 'Uptrend' | 'Stable' | 'Rebuild' | 'Insufficient Sample';
 
-export interface CareerScopePoint {
+interface CareerScopePoint {
   index: number;
   date: string;
   profit: number;

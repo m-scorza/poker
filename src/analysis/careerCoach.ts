@@ -11,7 +11,7 @@ export type CareerRecommendation =
   | 'Move Down / Rebuild'
   | 'Need More Sample';
 
-export type SampleConfidence = 'low' | 'medium' | 'high';
+type SampleConfidence = 'low' | 'medium' | 'high';
 
 export interface CareerCoachReport {
   tournamentsPlayed: number;
@@ -35,7 +35,7 @@ export interface CareerCoachReport {
   nextActions: string[];
 }
 
-export interface CareerBlocker {
+interface CareerBlocker {
   title: string;
   detail: string;
   severity: LeakSeverity | 'sample' | 'drawdown' | 'profitability';

@@ -5,7 +5,7 @@ import { identifyFile, type FileIdentity } from './siteIdentifier';
 import { sanitizeHandHistory, type SanitizedHandHistoryReport } from './sanitizeHandHistory';
 import type { ImportConfidence } from './workerProcessor';
 
-export interface ContributionSourceFile {
+interface ContributionSourceFile {
   name: string;
   content: string;
 }
@@ -17,7 +17,7 @@ export interface BuildLocalContributionPackageOptions {
   createdAt?: Date;
 }
 
-export interface ContributionParserReport {
+interface ContributionParserReport {
   totalFiles: number;
   sanitizedFiles: number;
   unsupportedFiles: number;
@@ -26,7 +26,7 @@ export interface ContributionParserReport {
   warnings: string[];
 }
 
-export interface ContributionChunk {
+interface ContributionChunk {
   id: string;
   sourceFileAlias: string;
   site: FileIdentity['site'];
@@ -36,7 +36,7 @@ export interface ContributionChunk {
   redactionReport: SanitizedHandHistoryReport;
 }
 
-export interface ContributionForbiddenFinding {
+interface ContributionForbiddenFinding {
   field: string;
   marker: string;
 }

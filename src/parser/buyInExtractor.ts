@@ -11,7 +11,7 @@
 
 import { parseUsdCents, centsToUsd } from './money';
 
-export type Currency = 'USD' | 'T$' | 'PLAY' | 'TICKET';
+type Currency = 'USD' | 'T$' | 'PLAY' | 'TICKET';
 
 export interface ExtractedBuyIn {
   buyIn: number;

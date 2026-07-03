@@ -37,7 +37,7 @@ export function mergePersistedSettings<T extends { strategyProfile: StrategyProf
   return { ...current, strategyProfile, heroName };
 }
 
-export interface Filters {
+interface Filters {
   dateFrom: Date | null;
   dateTo: Date | null;
   position: Position | null;

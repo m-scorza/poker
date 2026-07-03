@@ -22,7 +22,7 @@ import {
   type HeadsUpReferenceSet,
 } from './headsUpPushFoldReference';
 
-export type PushFoldResult =
+type PushFoldResult =
   | 'correct_push'
   | 'correct_fold'
   | 'missed_push'

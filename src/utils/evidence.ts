@@ -10,7 +10,7 @@
 
 import type { Evidence, EvidenceKind } from '../types/evidence';
 
-export type EvidenceCitationStatus = 'not_required' | 'present' | 'missing';
+type EvidenceCitationStatus = 'not_required' | 'present' | 'missing';
 
 export interface EvidenceMetadata {
   label: string;
