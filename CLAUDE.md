@@ -59,7 +59,7 @@ See `docs/README.md` for the full bucket-by-bucket map.
 - **Master Detail Insights**: Side-by-side Range Matrix with action frequency strips.
 - **Nemesis System**: Assassin, Crusher, and Total Damage tracking.
 
-**Stack:** React 19, TypeScript (strict), Tailwind CSS 4, Zustand, Dexie 4, TanStack Table/Virtual, Recharts, Vitest, Framer Motion, Poker-Odds-Calculator
+**Stack:** React 19, TypeScript (strict), Tailwind CSS 4, Zustand, Dexie 4, TanStack Table/Virtual, Recharts, Vitest, Framer Motion, GSAP, Poker-Odds-Calculator
 
 ---
 
@@ -423,15 +423,15 @@ src/
 
 ---
 
-## Key Dependencies (verified against `package.json` 2026-05-31)
+## Key Dependencies (verified against `package.json` 2026-07-03)
 
 Runtime:
 ```
 react 19, react-dom 19, react-router-dom 7,
 zustand 5, dexie 4, dexie-react-hooks 4,
 @tanstack/react-table 8, @tanstack/react-virtual 3,
-recharts 3, framer-motion 12, lucide-react 1,
-clsx 2, date-fns 4,
+recharts 3, framer-motion 12, gsap 3 + @gsap/react 2,
+lucide-react 1, clsx 2, date-fns 4,
 poker-odds-calculator 0.4 (equity math in HandReplay),
 jspdf 4 + jspdf-autotable 5 (PDF export),
 jszip 3 (ZIP import on HandsPage upload),
@@ -440,9 +440,9 @@ vite-plugin-pwa 1
 
 Build / test:
 ```
-vite 6, @vitejs/plugin-react 4, tsx 4, typescript 5.7,
+vite 8, @vitejs/plugin-react 6, tsx 4, typescript 5.7,
 tailwindcss 4 + @tailwindcss/vite 4,
-vitest 3, jsdom, fake-indexeddb, Testing Library, ESLint 9
+vitest 4, jsdom, fake-indexeddb, Testing Library, ESLint 9
 ```
 
 **Phantom deps removed from older drafts:** `pokersolver`,
