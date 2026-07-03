@@ -316,6 +316,50 @@ describe('analyzePostflop', () => {
       expect(note).not.toMatch(portugueseFragments);
     }
   });
+
+  describe('probe/donk turn leads require hero out of position (F27)', () => {
+    it('labels an OOP turn lead after check-check as a probe', () => {
+      const actions = [
+        makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 1 }),
+        makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 2 }),
+        makeAction({ playerName: 'hero', actionType: 'bet', street: 'turn', sequence: 3, amount: 66 }),
+      ];
+      const spots = analyzePostflop(actions, 'hero', false, ['9h', '4d', '2c'], 2, 100);
+      expect(spots.some((s) => s.spot === 'PROBE_TURN')).toBe(true);
+    });
+
+    it('does not label an IP stab after the villain checks the turn as a probe', () => {
+      const actions = [
+        makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
+        makeAction({ playerName: 'hero', actionType: 'check', street: 'flop', sequence: 2 }),
+        makeAction({ playerName: 'villain', actionType: 'check', street: 'turn', sequence: 3 }),
+        makeAction({ playerName: 'hero', actionType: 'bet', street: 'turn', sequence: 4, amount: 66 }),
+      ];
+      const spots = analyzePostflop(actions, 'hero', false, ['9h', '4d', '2c'], 2, 100);
+      expect(spots.some((s) => s.spot === 'PROBE_TURN')).toBe(false);
+    });
+
+    it('labels an OOP turn lead after calling the flop c-bet as a donk', () => {
+      const actions = [
+        makeAction({ playerName: 'villain', actionType: 'bet', street: 'flop', sequence: 1, amount: 33 }),
+        makeAction({ playerName: 'hero', actionType: 'call', street: 'flop', sequence: 2, amount: 33 }),
+        makeAction({ playerName: 'hero', actionType: 'bet', street: 'turn', sequence: 3, amount: 66 }),
+      ];
+      const spots = analyzePostflop(actions, 'hero', false, ['9h', '4d', '2c'], 2, 100);
+      expect(spots.some((s) => s.spot === 'DONK_BET_TURN')).toBe(true);
+    });
+
+    it('does not label an IP bet after the villain checks the turn as a donk', () => {
+      const actions = [
+        makeAction({ playerName: 'villain', actionType: 'bet', street: 'flop', sequence: 1, amount: 33 }),
+        makeAction({ playerName: 'hero', actionType: 'call', street: 'flop', sequence: 2, amount: 33 }),
+        makeAction({ playerName: 'villain', actionType: 'check', street: 'turn', sequence: 3 }),
+        makeAction({ playerName: 'hero', actionType: 'bet', street: 'turn', sequence: 4, amount: 66 }),
+      ];
+      const spots = analyzePostflop(actions, 'hero', false, ['9h', '4d', '2c'], 2, 100);
+      expect(spots.some((s) => s.spot === 'DONK_BET_TURN')).toBe(false);
+    });
+  });
 });
 
 describe('isGoodBarrelCard', () => {

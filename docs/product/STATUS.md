@@ -15,7 +15,7 @@ stale three reviews running (see
 by the pre-commit `docs:check` hook — these counts cannot silently drift):
 
 - **Test files:** 77
-- **`it` / `test` calls (approximate):** 806
+- **`it` / `test` calls (approximate):** 811
 
 Run `npm test` for the live pass/fail tally. Dependency, route, source-tree,
 and test inventories below are regenerated from source.
@@ -27,23 +27,26 @@ and test inventories below are regenerated from source.
 
 | Path | Component | Notes |
 |---|---|---|
-| `/` | `DashboardPage` | ROI Total, ITM Rate, position heatmap, trend charts, session filter (local only) |
-| `/coach` | `CoachsNotePage` | Coach's Note — focus leak + receipt hands + Arena drill (Act II, first slice) |
-| `/hands` | `HandsPage` | Upload UI inline via `showUpload` toggle |
+| `/` | `CoachsNotePage` | The front door since #109 — focus leak + receipt hands + Arena drill CTA |
+| `/dashboard` | `DashboardPage` | Demoted to "Reports" (#109): ROI Total, ITM Rate, heatmap, trend charts |
+| `/coach` | redirect → `/` | Legacy path kept as a redirect |
+| `/hands` | `HandsPage` | Upload UI inline via `showUpload`; `?panel=data-health` opens the importer, `?reviewHand=` opens a replay |
 | `/stats` | `StatsPage` | ROI by buy-in, AF Total, Total ITMs |
-| `/ranges` | `RangesPage` | 13×13 grid, Oracle/Mirror dual matrix |
-| `/leaks` | `LeaksPage` | Leak list with severity |
+| `/ranges` | `RangesPage` | 13×13 grid, Oracle/Mirror dual matrix, graded/excluded disclosure (#113) |
+| `/leaks` | `LeaksPage` | Leak list with severity, lifecycle graveyard, data-health triage notice |
 | `/sessions` | `SessionsPage` | Session list + CSV/PDF export |
-| `/villains` | `VillainsPage` | Auto-classified archetypes, manual notes |
-| `/arena` | `ArenaPage` | Training drills |
+| `/villains` | `VillainsPage` | Observed stats + manual notes/tags (auto-archetypes cut in #108, parked) |
+| `/arena` | `ArenaPage` | Spaced Review (SRS), Fault Fixer, RFI Master, C-bet Clinic + routed Study Queue packet drills |
 | `/career` | `CareerPage` | Tournament history, ROI / ITM dashboard, profit timeline |
 | `/demo` | `DemoPage` | Local synthetic demo seeding and private validation flow |
 
 ## Pages / files *not* in the repo (despite older docs saying so)
 
 - `UploadPage.tsx` — doesn't exist; upload is inline in `HandsPage`.
-- `ConfigPage.tsx` — doesn't exist; strategy profile selector is in `Sidebar.tsx`;
-  hero name is persisted in the IndexedDB `settings` table.
+- `ConfigPage.tsx` — doesn't exist; strategy profile selector is in `Sidebar.tsx`.
+  The hero name is persisted in the IndexedDB `settings` table but currently has
+  **no editing UI** (`saveHeroName` has zero callers — abyss F2, scheduled as
+  ROADMAP Act III-5).
 - `Board.tsx` shared component — doesn't exist; HandReplay builds its own.
 - Component subdirs `ranges/`, `stats/`, `leaks/`, `sessions/`, `upload/`,
   `villains/` — none exist.
@@ -222,11 +225,12 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
 
 ## Open follow-ups
 
-The current prioritised punch list lives in `ROADMAP.md` › **Active Covenant**
-(Act I correctness → Act II coach loop). Headline open items:
+The current prioritised punch list lives in `ROADMAP.md` › **Act III — The
+Whetstone** (Acts I and II are complete; B4 `FACING_3BET` shipped in #99,
+honest leak denominators B5 in #100). Headline open items:
 
-- **`FACING_3BET` (B4)** and **honest leak denominators (B5)** are the next
-  correctness items in the covenant's Act I.
+- **Grade the excluded scenarios** (`FACING_3BET`, `FACING_ALL_IN`) with real
+  ranges — Act III-3, unblocked by the private vault's answer keys.
 - Solver-validated per-pair facing-raise charts remain a strategy-data
   follow-up. Current reaction coverage is explicit and rule-based, not
   solver-backed.
@@ -299,6 +303,7 @@ are stale. Do not edit by hand.
 
 **Build / test** (`devDependencies`):
 
+- @eslint/js ^9.39.4
 - @tailwindcss/vite ^4.2.2
 - @testing-library/jest-dom ^6.9.1
 - @testing-library/react ^16.3.2
@@ -468,7 +473,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 77
-**`it` / `test` calls (approximate):** 806
+**`it` / `test` calls (approximate):** 811
 
 ```
 src/__tests__/App.test.tsx
