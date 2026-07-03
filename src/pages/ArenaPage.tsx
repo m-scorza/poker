@@ -799,21 +799,18 @@ export function ArenaPage() {
               title="Fault Fixer"
               desc="Replay hands where you made actual deviations."
               icon={Target}
-              color="red"
               onClick={() => startDrill('fault_fixer')}
             />
             <DrillCard
               title="RFI Master"
               desc="Master pot opening across all positions."
               icon={Zap}
-              color="emerald"
               onClick={() => startDrill('rfi_master')}
             />
             <DrillCard
               title="C-bet Clinic"
               desc="Perfect your flop aggression."
               icon={Trophy}
-              color="blue"
               onClick={() => startDrill('cbet_clinic')}
             />
           </div>
@@ -964,10 +961,6 @@ export function ArenaPage() {
                 </div>
             </div>
 
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center opacity-40">
-               <p className="kick text-[var(--fg-dim)] mb-1">Pot</p>
-               <p className="text-2xl font-mono font-bold text-[var(--fg)]">0.0</p>
-            </div>
         </div>
 
         {/* HUD Feedback Overlay */}
@@ -1039,7 +1032,6 @@ interface DrillCardProps {
   title: string;
   desc: string;
   icon: LucideIcon;
-  color: 'red' | 'emerald' | 'blue';
   onClick: () => void;
 }
 

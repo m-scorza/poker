@@ -7,8 +7,7 @@
  * - [Vol.3, D#01, D#02, D#05, D#15, D#20]
  */
 
-import type { Hand, PlayerInHand, Action } from '../types/hand';
-import type { Position } from '../types/analysis';
+import type { Hand, PlayerInHand, Action, Position } from '../types/hand';
 
 export type FTStackType = 'chip_leader' | 'medium' | 'short';
 

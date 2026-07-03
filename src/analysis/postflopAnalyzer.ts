@@ -313,9 +313,14 @@ export function analyzePostflop(
       });
     }
 
-    // Probe turn: BB after check-check on flop
+    // A probe or donk is a LEAD: hero must act first on the turn (out of
+    // position). An in-position stab after the villain checks is neither —
+    // labelling it one misteaches the concept (abyss F27).
+    const heroLedTurn = turnActions[0]?.playerName === heroName;
+
+    // Probe turn: OOP hero leads after check-check on flop
     const heroCheckedFlop = heroFlopActions.some((a) => a.actionType === 'check');
-    if (isHU && heroCheckedFlop && villainCheckedFlop && turnActions.length > 0) {
+    if (isHU && heroCheckedFlop && villainCheckedFlop && heroLedTurn) {
       const heroBetTurn = heroTurnActions.some((a) => a.actionType === 'bet');
       if (heroBetTurn) {
         spots.push({
@@ -328,9 +333,9 @@ export function analyzePostflop(
       }
     }
 
-    // Donk bet turn: BB called c-bet on flop, leads turn
+    // Donk bet turn: OOP hero called the c-bet on the flop, then leads turn
     const heroCalledFlop = heroFlopActions.some((a) => a.actionType === 'call');
-    if (heroCalledFlop && turnActions.length > 0) {
+    if (heroCalledFlop && heroLedTurn) {
       const heroBetTurn = heroTurnActions.some((a) => a.actionType === 'bet');
       if (heroBetTurn) {
         spots.push({

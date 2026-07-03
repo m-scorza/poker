@@ -257,11 +257,15 @@ cheapest-truth-first. **Waves 2–4 should run *after* the Hermes salvage slices
 (R1–R3) land** — they touch the same pages, and salvage-first avoids porting
 conflicts.
 
-- [ ] **Wave 0 — restore the gate** (with the housekeeping PR): F1.
-- [ ] **Wave 1 — correctness quickies:** F3, F4, F5, F22, F23, F20, F27
-      (probe/donk OOP labels); add the F6 adversarial fixture. (F2 hero-name UI
-      is scheduled in the direction review's Arc 5 — bigger than a quickie, do
-      not lose it.)
+- [x] **Wave 0 — restore the gate** (with the housekeeping PR): F1. ✅ #116.
+- [x] **Wave 1 — correctness quickies:** F3, F4, F5, F22, F23, F20, F27
+      (probe/donk OOP labels); add the F6 adversarial fixture. ✅ 2026-07-03:
+      F3 cycle broken (Position now imported from types/hand), F4 STATUS prose
+      matches reality, F5 @eslint/js declared, F20 ConfirmDialog, F22 dropzone
+      is a real button (lint = 0 warnings), F23 fake "Pot 0.0" + dead color
+      prop removed, F27 probe/donk require an OOP lead (+4 tests), F6
+      adversarial fixture ADDED and it REPRODUCED — actors are now resolved
+      against seated names, longest first. (F2 hero-name UI stays in Arc 5.)
 - [ ] **Wave 2 — vanish the dead:** F8 (per-symbol verify + prune), F9 (script
       debris), F10 (worktrees); F7 decided at the R4 steer.
 - [ ] **Wave 3 — efficiency:** F11 (lazy PDF stack — biggest bundle win), F12

@@ -3,6 +3,7 @@ import { clsx } from 'clsx';
 import { useLiveQuery } from 'dexie-react-hooks';
 import JSZip from 'jszip';
 import { Upload as UploadIcon, CheckCircle } from 'lucide-react';
+import { ConfirmDialog } from '../shared/ConfirmDialog';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAppStore } from '../../data/appStore';
 import {
@@ -161,6 +162,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const [statsFound, setStatsFound] = useState({ hands: 0, summaries: 0, deviations: 0 });
   const [importSummary, setImportSummary] = useState<ImportSummary | null>(null);
   const [showHistory, setShowHistory] = useState(false);
+  const [showClearDiagnosticsConfirm, setShowClearDiagnosticsConfirm] = useState(false);
   const [diagnosticsMessage, setDiagnosticsMessage] = useState<string | null>(null);
   const [localReferenceSummary, setLocalReferenceSummary] = useState(() => getLocalHeadsUpReferenceSummary());
   const [localReferenceMessage, setLocalReferenceMessage] = useState<string | null>(null);
@@ -490,10 +492,6 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   }
 
   async function clearLocalImportDiagnostics() {
-    if (!window.confirm('Clear local import diagnostics? Parsed hands and tournament data will stay in place.')) {
-      return;
-    }
-
     try {
       await clearImportRuns();
       setShowHistory(false);
@@ -506,14 +504,15 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
   return (
     <div className="compartment p-6" data-testid="hands-upload-root">
-      <div
+      <button
+        type="button"
         onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
         onDragLeave={() => setDragOver(false)}
         onDrop={onDrop}
         onClick={() => fileRef.current?.click()}
         data-testid="hands-upload-dropzone"
         className={clsx(
-          'border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-colors',
+          'block w-full border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-colors',
           dragOver
             ? 'border-[var(--accent)] bg-[var(--accent)]/5'
             : 'border-[var(--hairline)] hover:border-[var(--hairline)] bg-[var(--bg)]',
@@ -529,7 +528,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         <p className="text-xs text-[var(--fg-muted)]">
           Supports Hand Histories, Summaries, OHH JSON and ZIPs (.txt, .json, .zip)
         </p>
-      </div>
+      </button>
 
       <input ref={fileRef} type="file" accept=".txt,.json,.zip" multiple onChange={onFileSelect} className="hidden" />
       <input
@@ -606,7 +605,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
-                    void clearLocalImportDiagnostics();
+                    setShowClearDiagnosticsConfirm(true);
                   }}
                   className="rounded border border-red-400/20 bg-red-400/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-red-100 hover:bg-red-400/15 transition-colors cursor-pointer"
                   title="Clear local import diagnostics without deleting parsed hands."
@@ -931,6 +930,20 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
            </div>
         </div>
       )}
+
+      <ConfirmDialog
+        isOpen={showClearDiagnosticsConfirm}
+        title="Clear local import diagnostics?"
+        description="Parsed hands and tournament data will stay in place; only the local import history and warnings are removed."
+        confirmLabel="Clear diagnostics"
+        cancelLabel="Keep them"
+        onConfirm={() => {
+          setShowClearDiagnosticsConfirm(false);
+          void clearLocalImportDiagnostics();
+        }}
+        onCancel={() => setShowClearDiagnosticsConfirm(false)}
+        variant="danger"
+      />
     </div>
   );
 }

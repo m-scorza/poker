@@ -119,6 +119,50 @@ describe('parsePokerStarsFile', () => {
   });
 
   describe('actions', () => {
+    // F6 adversarial fixture: player names that embed ": <verb>" fragments
+    // used to fool the non-greedy `^(.+?): <action>` patterns — a check by
+    // "sly: folds" parsed as a FOLD by a non-seated "sly".
+    it('resolves actors whose names contain action-verb fragments (F6)', () => {
+      const trapHand = `PokerStars Hand #999000111: Tournament #555, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/07/01 12:00:00 UTC [2026/07/01 08:00:00 ET]
+Table '555 1' 9-max Seat #1 is the button
+Seat 1: sly: folds (1500 in chips)
+Seat 2: trap: checks (1500 in chips)
+Seat 3: scorza23 (1500 in chips)
+sly: folds: posts the ante 5
+trap: checks: posts the ante 5
+scorza23: posts the ante 5
+trap: checks: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kc 5h]
+sly: folds: calls 50
+trap: checks: folds
+scorza23: checks
+*** FLOP *** [6d 2s Qh]
+scorza23: checks
+sly: folds: checks
+*** SUMMARY ***
+Total pot 130 | Rake 0
+Board [6d 2s Qh]
+Seat 1: sly: folds collected (130)`;
+
+      const [parsed] = parsePokerStarsFile(trapHand);
+      const voluntary = parsed!.actions.filter(
+        (a) => a.actionType !== 'post_ante' && a.actionType !== 'post_sb' && a.actionType !== 'post_bb',
+      );
+
+      // "sly: folds" CALLED preflop and CHECKED the flop — never folded.
+      expect(voluntary.filter((a) => a.playerName === 'sly: folds').map((a) => a.actionType))
+        .toEqual(['call', 'check']);
+      // "trap: checks" FOLDED preflop — never checked.
+      expect(voluntary.filter((a) => a.playerName === 'trap: checks').map((a) => a.actionType))
+        .toEqual(['fold']);
+      // No phantom actors invented from name fragments.
+      const actorNames = new Set(voluntary.map((a) => a.playerName));
+      expect(actorNames.has('sly')).toBe(false);
+      expect(actorNames.has('trap')).toBe(false);
+    });
+
     it('parses forced bets', () => {
       const [parsed] = parsePokerStarsFile(HAND_FULL_STREETS);
       const antes = parsed!.actions.filter((a) => a.actionType === 'post_ante');

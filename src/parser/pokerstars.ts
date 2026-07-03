@@ -48,6 +48,14 @@ const RE_CHECKS = /^(.+?): checks/;
 const RE_CALLS = /^(.+?): calls \$?([\d.]+)/;
 const RE_RAISES = /^(.+?): raises \$?([\d.]+) to \$?([\d.]+)/;
 const RE_BETS = /^(.+?): bets \$?([\d.]+)/;
+// Verb-anchored variants, applied to the line remainder once the actor has
+// been resolved against the seated names (F6: a player name may itself
+// contain ": <verb>", which fools the non-greedy full-line patterns).
+const RE_FOLDS_VERB = /^folds/;
+const RE_CHECKS_VERB = /^checks/;
+const RE_CALLS_VERB = /^calls \$?([\d.]+)/;
+const RE_RAISES_VERB = /^raises \$?([\d.]+) to \$?([\d.]+)/;
+const RE_BETS_VERB = /^bets \$?([\d.]+)/;
 const RE_ALL_IN = /and is all-in/;
 const RE_BOUNTY_WINS = /^(.+?) wins (?:the )?(?:\$([\d.]+)|[\d.]+|) (?:bounty )?for eliminating/;
 const RE_UNCALLED = /^Uncalled bet \(\$?([\d.,]+)\) returned to (.+)$/;
@@ -224,6 +232,31 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
   );
 
   // --- Parse actions ---
+  // Resolve action actors against seated names, longest first, so a player
+  // name containing ": <verb>" cannot masquerade as someone else's action (F6).
+  const seatedNamesByLength = seats
+    .map((seat) => seat.playerName)
+    .sort((a, b) => b.length - a.length);
+  const splitSeatedActor = (line: string): { name: string; rest: string } | null => {
+    for (const name of seatedNamesByLength) {
+      if (line.startsWith(`${name}: `)) return { name, rest: line.slice(name.length + 2) };
+    }
+    return null;
+  };
+  const matchActionLine = (
+    line: string,
+    seatedActor: { name: string; rest: string } | null,
+    fullRe: RegExp,
+    verbRe: RegExp,
+  ): readonly string[] | null => {
+    if (seatedActor) {
+      const verbMatch = verbRe.exec(seatedActor.rest);
+      return verbMatch ? [line, seatedActor.name, ...verbMatch.slice(1)] : null;
+    }
+    // Actor not seated (e.g. a sit-out edge) — legacy full-line behavior.
+    return fullRe.exec(line);
+  };
+
   const actions: Action[] = [];
   let currentStreet: Street = 'preflop';
   let sequence = 0;
@@ -377,8 +410,9 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
 
     // Voluntary actions
     const isAllIn = RE_ALL_IN.test(line);
+    const seatedActor = splitSeatedActor(line);
 
-    const foldMatch = RE_FOLDS.exec(line);
+    const foldMatch = matchActionLine(line, seatedActor, RE_FOLDS, RE_FOLDS_VERB);
     if (foldMatch) {
       actions.push({
         handId,
@@ -392,7 +426,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       continue;
     }
 
-    const checkMatch = RE_CHECKS.exec(line);
+    const checkMatch = matchActionLine(line, seatedActor, RE_CHECKS, RE_CHECKS_VERB);
     if (checkMatch) {
       actions.push({
         handId,
@@ -406,7 +440,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       continue;
     }
 
-    const callMatch = RE_CALLS.exec(line);
+    const callMatch = matchActionLine(line, seatedActor, RE_CALLS, RE_CALLS_VERB);
     if (callMatch) {
       const amountCents = Math.round(parseFloat(callMatch[2]!) * 100);
       addInvestment(callMatch[1]!, amountCents);
@@ -423,7 +457,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       continue;
     }
 
-    const raiseMatch = RE_RAISES.exec(line);
+    const raiseMatch = matchActionLine(line, seatedActor, RE_RAISES, RE_RAISES_VERB);
     if (raiseMatch) {
       const player = raiseMatch[1]!;
       const totalCents = Math.round(parseFloat(raiseMatch[3]!) * 100);
@@ -445,7 +479,7 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       continue;
     }
 
-    const betMatch = RE_BETS.exec(line);
+    const betMatch = matchActionLine(line, seatedActor, RE_BETS, RE_BETS_VERB);
     if (betMatch) {
       const amountCents = Math.round(parseFloat(betMatch[2]!) * 100);
       addInvestment(betMatch[1]!, amountCents);
