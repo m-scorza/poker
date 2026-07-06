@@ -4,6 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2, type LucideIcon } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
+import { CURRICULUM_SEED_PACKS, type CurriculumSeedPack, type CurriculumSpotSeed } from '../data/curriculumSeedPacks.generated';
+import { readCurriculumProgress, recordCurriculumSpotReview } from '../data/curriculumProgress';
+import { readStarterDiagnosticSummary, recordStarterDiagnosticAnswer } from '../data/starterDiagnostic';
 import { getAllHeroDecisions, getParsedHandForHandId, getSrsReviews, recordSrsReview } from '../data/store';
 import { PokerCard } from '../components/shared/Card';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
@@ -19,10 +22,10 @@ import type { SpotPacket, SpotPacketLegalAction, SpotPacketWarning } from '../an
 const SRS_MAX_NEW = 15;
 
 // Types for the Trainer
-type DrillType = 'spaced_review' | 'fault_fixer' | 'rfi_master' | 'cbet_clinic' | 'study_queue';
+type DrillType = 'spaced_review' | 'fault_fixer' | 'rfi_master' | 'cbet_clinic' | 'study_queue' | 'curriculum';
 type PreflopAction = 'fold' | 'raise' | 'call' | 'check';
 type CbetAction = 'check' | 'bet';
-type TrainerAction = PreflopAction | CbetAction | 'all_in';
+type TrainerAction = string;
 type FeedbackStatus = 'correct' | 'deviation' | 'review';
 type ActionColor = 'gray' | 'blue' | 'emerald' | 'amber' | 'rose';
 
@@ -56,6 +59,9 @@ interface DrillState {
   currentDecision: HeroDecision | null;
   /** Present only for `study_queue`; the packet backing the current spot. */
   currentPacket: SpotPacket | null;
+  /** Present only for `curriculum`; source-governed seed practice, not imported-hand evidence. */
+  currentCurriculumPack?: CurriculumSeedPack | null;
+  currentCurriculumSpot?: CurriculumSpotSeed | null;
   /** Ordered hand ids for a routed multi-packet study session. */
   sessionHandIds: string[];
   sessionIndex: number;
@@ -80,7 +86,52 @@ const DRILL_LABELS: Record<DrillType, string> = {
   rfi_master: 'RFI Master',
   cbet_clinic: 'C-bet Clinic',
   study_queue: 'Study Queue spot',
+  curriculum: 'Curriculum drill',
 };
+
+const STARTER_DIAGNOSTIC_PACK: CurriculumSeedPack = {
+  slug: 'starter-diagnostic',
+  title: 'Starter diagnostic',
+  description: 'Lower-confidence starter path from brand-neutral curriculum seeds for players without imported hand histories.',
+  source: {
+    kind: 'brand_neutralized_quiz_config',
+    path: '../poker-knowledge/quiz_configs.json',
+    sourceConfigIndexes: Array.from(new Set(CURRICULUM_SEED_PACKS.flatMap((pack) => pack.source.sourceConfigIndexes))),
+  },
+  spots: CURRICULUM_SEED_PACKS.reduce<CurriculumSpotSeed[]>(
+    (spots, pack) => spots.concat(pack.spots.slice(0, 2)),
+    [],
+  ).slice(0, 8),
+};
+
+const CURRICULUM_PACK_GROUPS: Array<{ title: string; description: string; slugs: string[] }> = [
+  {
+    title: 'Preflop foundations',
+    description: 'Open, face 3-bets, and respond to opens before the hand gets complicated.',
+    slugs: ['open-raise-fundamentals', 'facing-3bet-frontier', 'versus-open-raise'],
+  },
+  {
+    title: 'Blind defense',
+    description: 'Big blind, multiway, and blind-war decisions where players leak fast.',
+    slugs: ['big-blind-defense', 'multiway-bb-defense', 'blind-war-preflop'],
+  },
+  {
+    title: 'Postflop play',
+    description: 'C-bet, continue, and respond across in-position and out-of-position nodes.',
+    slugs: ['in-position-cbet-vs-bb', 'in-position-postflop', 'in-position-turn-river-barrels-vs-bb', 'out-of-position-cbet', 'versus-bb-cbet'],
+  },
+];
+
+function sourcePackTitleForStarterSpot(spot: CurriculumSpotSeed | null | undefined): string {
+  if (!spot) return 'Curriculum seed';
+  return CURRICULUM_SEED_PACKS.find((pack) => pack.spots.some((packSpot) => packSpot.id === spot.id))?.title ?? 'Curriculum seed';
+}
+
+function diagnosticReviewAreaSummary(area: { misses: number; attempts: number }): string {
+  const missLabel = area.misses === 1 ? 'miss' : 'misses';
+  const spotLabel = area.attempts === 1 ? 'diagnostic spot' : 'diagnostic spots';
+  return `${area.misses} ${missLabel} across ${area.attempts} ${spotLabel}`;
+}
 
 const PREFLOP_ACTIONS: ActionOption[] = [
   { id: 'fold', label: 'Fold', action: 'fold', color: 'gray' },
@@ -315,6 +366,72 @@ function studyPacketActionOptions(packet: SpotPacket | null): ActionOption[] | n
   }));
 }
 
+function actionColorForSeed(action: string): ActionColor {
+  if (action === 'fold' || action === 'check') return 'gray';
+  if (action === 'call') return 'blue';
+  if (action === 'all_in') return 'rose';
+  if (action.startsWith('bet_')) return 'amber';
+  return 'emerald';
+}
+
+function labelSeedAction(action: string): string {
+  if (action === 'all_in') return 'All-in';
+  return action
+    .replace(/^cbet_/, 'C-bet ')
+    .replace(/^bet_/, 'Bet ')
+    .replace(/^raise_/, 'Raise ')
+    .replace(/_/g, '.')
+    .replace(/pct/g, '%')
+    .replace(/^\w/, (char) => char.toUpperCase());
+}
+
+function curriculumActionOptions(spot: CurriculumSpotSeed | null): ActionOption[] | null {
+  if (!spot) return null;
+  const allActions = new Set<string>(['fold', 'call', 'raise', 'check', 'all_in', ...spot.acceptedActions]);
+  return Array.from(allActions).map((action) => ({
+    id: action,
+    label: labelSeedAction(action),
+    action,
+    color: actionColorForSeed(action),
+    meta: spot.acceptedActions.includes(action) ? 'seed answer' : 'option',
+  }));
+}
+
+function curriculumScenarioForPack(pack: CurriculumSeedPack): HeroDecision['scenario'] {
+  if (pack.slug.includes('3bet')) return 'FACING_3BET';
+  if (pack.slug.includes('big-blind') || pack.slug.includes('bb-defense')) return 'BB_VS_RAISE';
+  if (pack.slug.includes('blind-war')) return 'BLIND_WAR';
+  return 'RFI';
+}
+
+function curriculumPosition(position: CurriculumSpotSeed['position']): HeroDecision['position'] {
+  return position === 'LJ' ? 'MP' : position;
+}
+
+function curriculumDecision(pack: CurriculumSeedPack, spot: CurriculumSpotSeed): HeroDecision {
+  return {
+    handId: `curriculum-${spot.id}`,
+    position: curriculumPosition(spot.position),
+    handKey: spot.combo,
+    stackBb: spot.stackBb,
+    scenario: curriculumScenarioForPack(pack),
+    action: 'fold',
+    isCompliant: true,
+    deviationType: null,
+    sawFlop: false,
+    wasPreFlopRaiser: false,
+    cbetOpportunity: false,
+    cbetMade: false,
+    cbetHU: false,
+    doubleBarrelOpportunity: false,
+    doubleBarrelMade: false,
+    wentToShowdown: false,
+    wonAtShowdown: false,
+    wonAmount: 0,
+    netProfit: 0,
+  };
+}
+
 async function loadStudyQueuePacket(decision: HeroDecision): Promise<SpotPacket | null> {
   const parsedHand = await getParsedHandForHandId(decision.handId);
   return parsedHand ? buildSpotPacketFromParsedHand(parsedHand, decision) : null;
@@ -336,6 +453,12 @@ export function ArenaPage() {
   const [completedStudySession, setCompletedStudySession] = useState<StudyQueueSessionSummary | null>(null);
 
   const { strategyProfile } = useAppStore();
+  const starterDiagnostic = readStarterDiagnosticSummary();
+  const curriculumProgress = readCurriculumProgress();
+  const topDiagnosticReviewArea = starterDiagnostic?.reviewAreas[0] ?? null;
+  const recommendedCurriculumPack = starterDiagnostic?.recommendedPackTitle
+    ? CURRICULUM_SEED_PACKS.find((pack) => pack.title === starterDiagnostic.recommendedPackTitle) ?? null
+    : null;
   const requestedStudyQueue = useMemo(() => requestedStudyQueueRoute(), []);
   const requestedStudyHandId = requestedStudyQueue.handId;
   const requestedStudyHandIds = requestedStudyQueue.handIds;
@@ -384,7 +507,7 @@ export function ArenaPage() {
   }, []);
 
   const activePool = useMemo(
-    () => drill.type
+    () => drill.type && drill.type !== 'curriculum'
       ? getDrillPool(
         drill.type,
         allDecisions,
@@ -501,8 +624,46 @@ export function ArenaPage() {
     });
   }, [allDecisions, strategyProfile]);
 
+  const startCurriculumPack = useCallback((pack: CurriculumSeedPack) => {
+    const first = pack.spots[0] ?? null;
+    if (!first) return;
+    setCompletedStudySession(null);
+    setSrsComplete(null);
+    setDrill({
+      isActive: true,
+      type: 'curriculum',
+      currentDecision: curriculumDecision(pack, first),
+      currentPacket: null,
+      currentCurriculumPack: pack,
+      currentCurriculumSpot: first,
+      sessionHandIds: pack.spots.map((spot) => spot.id),
+      sessionIndex: 0,
+      score: { correct: 0, total: 0 },
+      lastFeedback: null,
+      srs: null,
+    });
+  }, []);
+
   const nextHand = useCallback(() => {
     const currentDrill = drillRef.current;
+
+    if (currentDrill.type === 'curriculum') {
+      const pack = currentDrill.currentCurriculumPack;
+      const nextIndex = currentDrill.sessionIndex + 1;
+      const nextSpot = pack?.spots[nextIndex] ?? null;
+      if (!pack || !nextSpot) {
+        setDrill(prev => ({ ...prev, isActive: false, currentDecision: null, currentCurriculumPack: null, currentCurriculumSpot: null, sessionHandIds: [], sessionIndex: 0, lastFeedback: null }));
+        return;
+      }
+      setDrill(prev => ({
+        ...prev,
+        currentDecision: curriculumDecision(pack, nextSpot),
+        currentCurriculumSpot: nextSpot,
+        sessionIndex: nextIndex,
+        lastFeedback: null,
+      }));
+      return;
+    }
 
     if (currentDrill.type === 'study_queue') {
       const nextIndex = currentDrill.sessionIndex + 1;
@@ -560,7 +721,14 @@ export function ArenaPage() {
     let feedbackStatus: FeedbackStatus = 'correct';
     let shouldRecordScore = true;
 
-    if (drill.type === 'cbet_clinic') {
+    if (drill.type === 'curriculum') {
+      const accepted = drill.currentCurriculumSpot?.acceptedActions ?? [];
+      userIsCorrect = accepted.includes(action);
+      feedbackStatus = userIsCorrect ? 'correct' : 'deviation';
+      note = userIsCorrect
+        ? `Curriculum answer: ${labelSeedAction(action)} is accepted for this practice-only seed. This is not imported-hand evidence or solver EV.`
+        : `Curriculum answer: this seed accepts ${accepted.map(labelSeedAction).join(' or ')}. This is not imported-hand evidence or solver EV.`;
+    } else if (drill.type === 'cbet_clinic') {
       if (action !== 'bet' && action !== 'check') return;
       userIsCorrect = isCbetActionCorrect(drill.currentDecision, action);
       feedbackStatus = userIsCorrect ? 'correct' : 'deviation';
@@ -582,7 +750,7 @@ export function ArenaPage() {
           ? 'Review-only all-in option: the SpotPacket legal menu captures this action, but Arena does not grade all-in ranges, solver EV, or trainer answer buckets. Use the study packet/export boundary for external review.'
           : 'Review-only bet option: the SpotPacket legal menu captures this action, but this Arena route does not grade postflop bet sizes, solver EV, or trainer answer buckets. Use the study packet/export boundary for external review.';
       } else {
-        const testDecision = { ...drill.currentDecision, action };
+        const testDecision = { ...drill.currentDecision, action: action as HeroDecision['action'] };
         const result = checkCompliance(testDecision, strategyProfile);
 
         if (drill.type === 'study_queue' && result === null) {
@@ -617,6 +785,27 @@ export function ArenaPage() {
     // graded or review-only alike (the review itself is the event).
     if (drill.type === 'study_queue' && drill.currentPacket) {
       recordStudyPacketReview(drill.currentPacket);
+    }
+
+    if (drill.type === 'curriculum' && drill.currentCurriculumPack && shouldRecordScore) {
+      const updatedAt = new Date().toISOString();
+      if (drill.currentCurriculumPack.slug === STARTER_DIAGNOSTIC_PACK.slug) {
+        recordStarterDiagnosticAnswer({
+          packTitle: drill.currentCurriculumPack.title,
+          sourcePackTitle: sourcePackTitleForStarterSpot(drill.currentCurriculumSpot),
+          wasCorrect: userIsCorrect,
+          isComplete: drill.sessionIndex + 1 >= drill.currentCurriculumPack.spots.length,
+          updatedAt,
+        });
+      } else if (drill.currentCurriculumSpot) {
+        recordCurriculumSpotReview({
+          packSlug: drill.currentCurriculumPack.slug,
+          spotId: drill.currentCurriculumSpot.id,
+          wasCorrect: userIsCorrect,
+          totalSpots: drill.currentCurriculumPack.spots.length,
+          updatedAt,
+        });
+      }
     }
 
     setDrill(prev => ({
@@ -715,7 +904,7 @@ export function ArenaPage() {
             >
               <Zap size={40} className="text-[var(--sig)]" />
             </motion.div>
-            <span className="kick sig block mb-2">The Arena</span>
+            <span className="kick sig block mb-2">Drills</span>
             <h1 className="text-4xl font-bold text-[var(--fg)] mb-2">Turn theory into instinct.</h1>
             <p className="lede text-[var(--fg-dim)]">Drill your flaws.</p>
           </header>
@@ -814,6 +1003,110 @@ export function ArenaPage() {
               onClick={() => startDrill('cbet_clinic')}
             />
           </div>
+
+          {decisionsLoaded && allDecisions.length === 0 && (
+            <section className="mt-8 rounded-2xl border border-sky-300/25 bg-sky-300/10 p-5 shadow-2xl shadow-sky-950/10">
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <span className="kick sig">Starter path</span>
+                  <h2 className="mt-1 text-xl font-black text-[var(--fg)]">No hand history yet?</h2>
+                  <p className="mt-2 max-w-xl text-sm leading-relaxed text-[var(--fg-dim)]">
+                    Run a short lower-confidence diagnostic from brand-neutral curriculum seeds. It gives a starter direction only — not leak grading or imported-hand evidence.
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  className="btn sig shrink-0 px-4 py-3 text-xs"
+                  onClick={() => startCurriculumPack(STARTER_DIAGNOSTIC_PACK)}
+                >
+                  Start starter diagnostic
+                </button>
+              </div>
+            </section>
+          )}
+
+          {recommendedCurriculumPack && topDiagnosticReviewArea && (
+            <section
+              className="mt-8 rounded-2xl border border-[var(--accent-line)] bg-[var(--accent-soft)] p-5 shadow-2xl shadow-black/10"
+              data-testid="arena-diagnostic-recommendation"
+            >
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <span className="kick sig">Recommended next</span>
+                  <h2 className="mt-1 text-xl font-black text-[var(--fg)]">{recommendedCurriculumPack.title}</h2>
+                  <p className="mt-2 max-w-xl text-sm leading-relaxed text-[var(--fg-dim)]">
+                    Starter diagnostic signal: {diagnosticReviewAreaSummary(topDiagnosticReviewArea)}. Use this as lower-confidence curriculum orientation, not imported-hand evidence, leak grading, or solver EV.
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  aria-label={`Start recommended ${recommendedCurriculumPack.title}`}
+                  className="btn sig shrink-0 px-4 py-3 text-xs"
+                  onClick={() => startCurriculumPack(recommendedCurriculumPack)}
+                >
+                  Start recommended pack
+                </button>
+              </div>
+            </section>
+          )}
+
+          <section className="mt-8 compartment" aria-labelledby="curriculum-drills-heading">
+            <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <span className="kick sig">Practice-only seeds</span>
+                <h2 id="curriculum-drills-heading" className="text-xl font-black text-[var(--fg)]">Curriculum drills</h2>
+                <p className="text-sm text-[var(--fg-dim)]">Start here even before importing hand histories. These packs are brand-neutral local practice, not imported-hand evidence.</p>
+              </div>
+              <span className="text-xs font-mono text-[var(--fg-muted)]">{CURRICULUM_SEED_PACKS.length} packs</span>
+            </div>
+            <div className="space-y-5">
+              {CURRICULUM_PACK_GROUPS.map((group) => {
+                const packs = group.slugs.reduce<CurriculumSeedPack[]>((result, slug) => {
+                  const pack = (CURRICULUM_SEED_PACKS as unknown as readonly CurriculumSeedPack[]).find((entry) => entry.slug === slug);
+                  if (pack) result.push(pack);
+                  return result;
+                }, []);
+                return (
+                  <section key={group.title} aria-labelledby={`curriculum-group-${group.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>
+                    <div className="mb-3">
+                      <h3 id={`curriculum-group-${group.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} className="text-sm font-black uppercase tracking-[0.18em] text-[var(--fg)]">
+                        {group.title}
+                      </h3>
+                      <p className="mt-1 text-xs text-[var(--fg-muted)]">{group.description}</p>
+                    </div>
+                    <div className="grid gap-3 md:grid-cols-2">
+                      {packs.map((pack) => {
+                        const progress = curriculumProgress[pack.slug];
+                        const reviewedCount = progress?.reviewedSpotIds.length ?? 0;
+                        return (
+                          <button
+                            key={pack.slug}
+                            type="button"
+                            aria-label={`Start ${pack.title}`}
+                            className="rounded-xl border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-left transition hover:border-[var(--accent-line)] hover:bg-[var(--ink-2)]"
+                            onClick={() => startCurriculumPack(pack)}
+                          >
+                            <div className="flex items-start justify-between gap-3">
+                              <div>
+                                <h4 className="font-bold text-[var(--fg)]">{pack.title}</h4>
+                                <p className="mt-1 text-xs leading-relaxed text-[var(--fg-muted)]">{pack.description}</p>
+                                {progress && (
+                                  <p className="mt-2 text-[11px] font-semibold text-sky-100/80">
+                                    browser-local progress: {progress.isComplete ? 'Completed locally' : `${reviewedCount}/${pack.spots.length} locally reviewed`} · {progress.correct}/{progress.attempts} seed answers
+                                  </p>
+                                )}
+                              </div>
+                              <span className="rounded-full border border-[var(--accent-line)] px-2 py-1 text-[10px] font-black uppercase tracking-wider text-[var(--accent)]">{pack.spots.length} spots</span>
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </section>
+                );
+              })}
+            </div>
+          </section>
         </div>
 
         <ConfirmDialog
@@ -844,7 +1137,9 @@ export function ArenaPage() {
     ? CBET_ACTIONS
     : drill.type === 'study_queue'
       ? studyPacketActionOptions(drill.currentPacket) ?? PREFLOP_ACTIONS
-      : PREFLOP_ACTIONS;
+      : drill.type === 'curriculum'
+        ? curriculumActionOptions(drill.currentCurriculumSpot ?? null) ?? PREFLOP_ACTIONS
+        : PREFLOP_ACTIONS;
 
   return (
     <div className="h-[calc(100vh-120px)] flex flex-col relative overflow-hidden">
@@ -881,6 +1176,14 @@ export function ArenaPage() {
                Imported Study Queue packet · study-only{drill.sessionHandIds.length > 1 ? ` · packet ${drill.sessionIndex + 1}/${drill.sessionHandIds.length}` : ''}
              </span>
            )}
+           {drill.type === 'curriculum' && drill.currentCurriculumPack && (
+             <span
+               className="rounded-full border border-sky-300/25 bg-sky-300/10 px-2 py-1 text-[10px] font-black uppercase tracking-wider text-sky-100"
+               data-testid="arena-curriculum-source"
+             >
+               {drill.currentCurriculumPack.title} · Curriculum practice · practice-only seed · {drill.sessionIndex + 1}/{drill.currentCurriculumPack.spots.length}
+             </span>
+           )}
         </div>
 
         <div className="flex items-center gap-6">
@@ -899,7 +1202,7 @@ export function ArenaPage() {
            )}
            <div className="h-8 w-px bg-[var(--hairline)]" />
            <div className="px-3 py-1 bg-[var(--ink-2)] border border-[var(--hairline)] rounded-full">
-              <span className="text-xs font-mono">{drill.type === 'study_queue' ? 'STUDY' : strategyProfile === 'game_plan' ? 'BASE' : 'ADV'}</span>
+              <span className="text-xs font-mono">{drill.type === 'study_queue' ? 'STUDY' : drill.type === 'curriculum' ? 'SEED' : strategyProfile === 'game_plan' ? 'BASE' : 'ADV'}</span>
            </div>
         </div>
       </header>
@@ -1007,6 +1310,16 @@ export function ArenaPage() {
             </p>
             <p className="mt-1 text-[11px] leading-relaxed text-sky-100/70">
               {visiblePacketWarnings(drill.currentPacket)}. Buttons reflect the packet menu for local practice only; no solver EV, answer bucket, trainer score, raw hand text, or villain name is stored.
+            </p>
+          </div>
+        )}
+        {drill.type === 'curriculum' && drill.currentCurriculumPack && (
+          <div className="z-20 mb-4 max-w-3xl rounded-xl border border-sky-300/20 bg-sky-300/10 px-4 py-3 text-center shadow-lg">
+            <p className="text-[10px] font-black uppercase tracking-widest text-sky-100">
+              {drill.currentCurriculumPack.title} · practice-only seed
+            </p>
+            <p className="mt-1 text-[11px] leading-relaxed text-sky-100/70">
+              {drill.currentCurriculumPack.description} Answers are seed buckets only; this is lower-confidence orientation, not leak grading, imported-hand evidence, solver EV, or trainer score.
             </p>
           </div>
         )}

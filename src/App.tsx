@@ -56,9 +56,9 @@ export function AppRoutes() {
     <Suspense fallback={<PageLoader />}>
       <Routes>
         <Route element={<Layout />}>
-          {/* Coach's Note is the front door — "what should I study, and why?" */}
+          {/* Coach's Note is the current route default: "what should I study, and why?" */}
           <Route path="/" element={page(<CoachsNotePage />)} />
-          {/* Dashboards demoted to supporting evidence. */}
+          {/* Dashboard is the x-ray cockpit: "what shape is my game in?" */}
           <Route path="/dashboard" element={page(<DashboardPage />)} />
           {/* Old /coach links/bookmarks redirect to the new front door. */}
           <Route path="/coach" element={<Navigate to="/" replace />} />

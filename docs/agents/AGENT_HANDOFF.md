@@ -4,26 +4,20 @@ Use this file as the shared baton between Hermes, Google Antigravity, and any ot
 
 Older or compacted handoff records are archived in:
 
+- [AGENT_HANDOFF_ARCHIVE_2026_07.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_07.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
-## 2026-07-02 - Act III execution: Hermes salvage lane CLAIMED
+## 2026-07-05 - Starter diagnostic + curriculum selector continuation
 
-- Owner / agent:          Claude (Sir Claudius session, owner-mandated "implement everything")
-- Branch:                 chore/act-iii-housekeeping first; then salvage/r1..r3, waves per abyss audit
-- Scope:                  EXCLUSIVE claim on the poker-hermes worktree + every file its slices touch
-                          (analysis/rangeChecker+scenarioDetector, HandReplay, LeaksPage, HandsUpload,
-                          HandsPage, HandsFilters, store, types) until slices R1-R3 land. Hermes and
-                          Antigravity: please do not edit these lanes or the worktree meanwhile.
-- Files touched:          (rolling — per-slice PRs list their own)
-- Summary:                Salvage plan Phase 0 done: worktree WIP preserved as commit 80bc53f on
-                          hermes/worktree-20260627-213824. Executing docs/plans/2026-07-01-hermes-
-                          worktree-salvage-and-covenant-housekeeping.md + abyss-audit waves per
-                          ROADMAP Act III (adopted #114). R3 stops for owner review; R4 needs steer.
-- Verification:           Full gate per slice (docs:check, typecheck, typecheck:test, lint, test, build) + CI.
-- Risks / assumptions:    Worktree base is 8 commits behind main (#105) — slices are hand-ported, not
-                          merged. Worktree + branch removed at Phase 3 (snapshot ref kept until owner OK).
-- Next action requested:  None — lane releases when Phase 3 cleanup lands; entry will be updated.
+- Owner / agent:          Hermes
+- Branch:                 hermes/xray-pretty-20260703
+- Scope:                  Continuation on the intentional x-ray/curriculum/Drills slice. New scope: browser-local starter diagnostic summary, Coach/Drills recommendation bridge, and all-pack curriculum selector. No parser/range/math, cloud/sync, public-share, pricing, raw-hand-history, solver-EV, or trainer-answer scope.
+- Files touched:          `src/data/starterDiagnostic.ts`; `src/pages/ArenaPage.tsx`; `src/pages/CoachsNotePage.tsx`; `src/pages/__tests__/ArenaPage.test.tsx`; `src/pages/__tests__/CoachsNotePage.test.tsx`; `docs/product/STATUS.md`; `docs/agents/AGENT_HANDOFF.md`. Pre-existing dirty x-ray/curriculum files remain intentional and uncommitted.
+- Summary:                Arena records missed starter diagnostic spots by source curriculum pack (`reviewAreas`) and stores `recommendedPackTitle` in browser-local storage. Coach's Note surfaces the lower-confidence priority review line while preserving no-leak-grading/no-solver-EV/no-imported-hand-evidence copy. Drills now shows all 11 generated local curriculum seed packs instead of only the first four, and spotlights the starter diagnostic recommended pack with a direct `Start recommended pack` action.
+- Verification:           TDD red confirmed: targeted Arena/Coach tests first failed on missing diagnostic summary/recommendation copy, hidden late curriculum packs, and missing Drills recommendation spotlight. Green checks: targeted Arena/Coach passed (2 files / 17 tests); Arena + Study Queue route contract passed (2 files / 18 tests); `npm run typecheck` passed; `npm run lint` passed; `npm run docs:update` updated `STATUS.md` for the new test count; `npm run docs:check` passed; `npm run build` passed; final `npm test -- --pool=threads` passed (81 files / 859 tests, 512.52s; known jsdom `scrollTo`, Node localStorage, and intentional rangeChecker warning notices only).
+- Risks / assumptions:    Worktree remains intentionally dirty with the larger x-ray posture, Coach, Dashboard, curriculum seed extraction, Drills, and diagnostic lane. Current continuation stores only browser-local aggregate diagnostic counters/titles and curriculum pack IDs/titles; it stores no raw hands, player data, solver output, trainer answers, external links, or imported-hand evidence.
+- Next action requested:  Either commit/park the accumulated x-ray+curriculum slice, or continue with the next small Drills progression shell (e.g. local per-pack progress/completion) after re-checking file scope.
 
 ## Template
 

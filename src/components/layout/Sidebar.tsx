@@ -13,8 +13,8 @@ import {
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
 
-// Coach's Note is the front door ('/'); dashboards are demoted to supporting
-// evidence under "Reports". See docs/product/ROADMAP.md (Act II).
+// Coach's Note is the current route default; Dashboard is the x-ray cockpit
+// that should point the player into the Coach action loop.
 const NAV_ITEMS = [
   { to: '/', icon: Crosshair, label: "Coach's Note" },
   { to: '/hands', icon: Search, label: 'Hands' },
@@ -23,7 +23,7 @@ const NAV_ITEMS = [
   { to: '/career', icon: Trophy, label: 'Career Arc' },
   { to: '/sessions', icon: Calendar, label: 'Sessions' },
   { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
-  { to: '/arena', icon: Zap, label: 'The Arena', section: 'Practice' },
+  { to: '/arena', icon: Zap, label: 'Drills', section: 'Practice' },
   { to: '/villains', icon: Users, label: 'Villains' },
 ];
 
