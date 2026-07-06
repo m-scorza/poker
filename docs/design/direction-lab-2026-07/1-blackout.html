@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIRECTION 1 — BLACKOUT · Command Desk radicalized</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Hanken+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   DIRECTION 1 · BLACKOUT
+   The ratified constitution (INK MONO, violet-at-presence,
+   money-green canon) pushed to editorial-dossier extremity.
+   Nothing here breaks DECISIONS.md — it weaponizes it.
+   ========================================================= */
+:root{
+  --bg:#0a0a0c; --bg2:#111114; --ink1:#131316; --ink3:#16161a;
+  --border:rgba(255,255,255,.07); --border-strong:rgba(255,255,255,.16);
+  --fg:#f2f2f4; --fg-muted:#8b8d94; --fg-dim:#56585f;
+  --accent:#C9CDD6;
+  --money:#34D98C; --loss:#FF5468; --warn:#A5697B;
+  --sig:#9B6CFF; --sig-soft:rgba(155,108,255,.10); --sig-line:rgba(155,108,255,.46);
+  --display:'Bricolage Grotesque',sans-serif;
+  --sans:'Hanken Grotesk',sans-serif;
+  --mono:'Space Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg); color:var(--fg); font-family:var(--sans);
+  overflow-x:hidden; cursor:none; min-height:100vh;
+}
+::selection{background:var(--sig); color:var(--bg)}
+
+/* ---- the violet presence halo (D3 weaponized) ---- */
+#halo{
+  position:fixed; width:22px; height:22px; border-radius:50%;
+  border:1.5px solid var(--sig); pointer-events:none; z-index:9999;
+  transform:translate(-50%,-50%); transition:width .25s,height .25s,opacity .25s;
+  mix-blend-mode:screen;
+}
+#halo::after{
+  content:''; position:absolute; inset:-14px; border-radius:50%;
+  background:radial-gradient(circle,var(--sig-soft),transparent 70%);
+}
+body:has(a:hover,button:hover) #halo{width:44px;height:44px}
+
+/* ---- dot grid with depth ---- */
+.grid-field{
+  position:fixed; inset:-10%; z-index:0; pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,.055) 1px,transparent 1px);
+  background-size:26px 26px;
+  mask-image:radial-gradient(ellipse 90% 70% at 50% 30%,black,transparent);
+}
+.grain{
+  position:fixed; inset:0; z-index:1; pointer-events:none; opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ---- structural chrome ---- */
+.frame{position:relative; z-index:2; max-width:1500px; margin:0 auto; padding:0 48px}
+.topbar{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:28px 0 22px; border-bottom:1px solid var(--border);
+}
+.brand{font-family:var(--mono); font-size:12px; letter-spacing:.34em; text-transform:uppercase}
+.brand b{color:var(--sig)}
+.top-nav{display:flex; gap:34px; font-family:var(--mono); font-size:11px; letter-spacing:.18em; text-transform:uppercase}
+.top-nav a{color:var(--fg-dim); text-decoration:none; position:relative; padding:4px 0; cursor:none}
+.top-nav a.on{color:var(--fg)}
+.top-nav a.on::after{content:''; position:absolute; left:0; right:0; bottom:-24px; height:2px; background:var(--sig)}
+.top-nav a:hover{color:var(--accent)}
+
+/* ---- ticker ---- */
+.ticker-rail{border-bottom:1px solid var(--border); overflow:hidden; padding:10px 0}
+.ticker{display:flex; gap:64px; width:max-content; animation:tick 38s linear infinite; font-family:var(--mono); font-size:11px; letter-spacing:.12em; color:var(--fg-dim); text-transform:uppercase; white-space:nowrap}
+.ticker span b{color:var(--fg); font-weight:400}
+.ticker .up{color:var(--money)} .ticker .dn{color:var(--loss)}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* ---- the dossier hero ---- */
+.hero{display:grid; grid-template-columns:88px 1fr 340px; gap:0; border-bottom:1px solid var(--border)}
+.hero-rail{
+  border-right:1px solid var(--border); padding:44px 0; display:flex; align-items:flex-end; justify-content:center;
+}
+.hero-rail span{
+  writing-mode:vertical-rl; transform:rotate(180deg);
+  font-family:var(--mono); font-size:11px; letter-spacing:.5em; text-transform:uppercase; color:var(--fg-dim);
+}
+.hero-main{padding:64px 56px 56px 48px}
+.kicker{font-family:var(--mono); font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--fg-muted); display:flex; align-items:center; gap:14px}
+.kicker::before{content:''; width:34px; height:1px; background:var(--sig)}
+.hl{
+  font-family:var(--display); font-optical-sizing:auto;
+  font-size:clamp(56px,7.2vw,116px); line-height:.92; font-weight:750;
+  letter-spacing:-.035em; margin:26px 0 0; text-wrap:balance;
+}
+.hl .row{display:block; overflow:hidden}
+.hl .row i{display:inline-block; font-style:normal; transform:translateY(110%); animation:rise .9s cubic-bezier(.2,.9,.24,1) forwards}
+.hl .row:nth-child(2) i{animation-delay:.09s}
+.hl .row:nth-child(3) i{animation-delay:.18s}
+.hl em{font-style:normal; color:transparent; -webkit-text-stroke:1.5px var(--fg)}
+@keyframes rise{to{transform:translateY(0)}}
+.hero-sub{max-width:52ch; margin-top:30px; color:var(--fg-muted); font-size:16px; line-height:1.7; font-weight:400}
+.hero-sub b{color:var(--fg); font-weight:600}
+.hero-meta{
+  border-left:1px solid var(--border); padding:44px 0 44px 40px;
+  display:flex; flex-direction:column; justify-content:space-between; gap:28px;
+}
+.meta-row{display:flex; flex-direction:column; gap:6px}
+.meta-row .k{font-family:var(--mono); font-size:10px; letter-spacing:.26em; text-transform:uppercase; color:var(--fg-dim)}
+.meta-row .v{font-family:var(--mono); font-size:26px; font-weight:700}
+.meta-row .v.money{color:var(--money)} .meta-row .v.loss{color:var(--loss)}
+.meta-row .note{font-size:12px; color:var(--fg-dim)}
+
+/* ---- section folio ---- */
+.folio{display:flex; align-items:baseline; gap:22px; padding:52px 0 26px}
+.folio .num{
+  font-family:var(--display); font-size:64px; font-weight:200; line-height:1;
+  color:transparent; -webkit-text-stroke:1px var(--fg-dim);
+}
+.folio h2{font-family:var(--display); font-size:24px; font-weight:640; letter-spacing:-.01em}
+.folio .rule{flex:1; height:1px; background:var(--border)}
+.folio .tag{font-family:var(--mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--fg-dim)}
+
+/* ---- focus case-file ---- */
+.case{
+  display:grid; grid-template-columns:1.35fr 1fr; border:1px solid var(--border-strong);
+  background:linear-gradient(120deg,rgba(255,84,104,.06),transparent 46%), var(--bg2);
+  position:relative; overflow:hidden;
+}
+.case::before{
+  content:'CRITICAL'; position:absolute; right:-34px; top:34px; transform:rotate(45deg);
+  font-family:var(--mono); font-size:10px; letter-spacing:.34em; padding:7px 48px;
+  background:var(--loss); color:var(--bg); font-weight:700;
+}
+.case-l{padding:46px 48px; border-right:1px solid var(--border)}
+.case-kick{font-family:var(--mono); font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--loss)}
+.case h3{font-family:var(--display); font-size:clamp(34px,3.4vw,52px); font-weight:720; letter-spacing:-.03em; margin:14px 0 18px}
+.case p{color:var(--fg-muted); line-height:1.75; max-width:46ch}
+.case .stats{display:flex; gap:36px; margin-top:34px; font-family:var(--mono)}
+.case .stats div b{display:block; font-size:22px; font-weight:700}
+.case .stats div span{font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--fg-dim)}
+.case .stats .cost b{color:var(--loss)}
+.case-r{padding:46px 44px; display:flex; flex-direction:column}
+.case-r .k{font-family:var(--mono); font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--fg-dim); margin-bottom:18px}
+.receipt{
+  display:flex; justify-content:space-between; align-items:center; gap:12px;
+  padding:13px 2px; border-bottom:1px solid var(--border);
+  font-family:var(--mono); font-size:13px; color:var(--fg-muted);
+  transition:padding .2s, color .2s;
+}
+.receipt:hover{color:var(--fg); padding-left:10px}
+.receipt .why{font-size:9px; letter-spacing:.18em; text-transform:uppercase; color:var(--fg-dim)}
+.cta{
+  margin-top:auto; align-self:flex-start; display:inline-flex; align-items:center; gap:14px;
+  font-family:var(--mono); font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--fg); background:transparent; border:1px solid var(--border-strong);
+  padding:16px 26px; cursor:none; margin-top:34px; position:relative; overflow:hidden;
+  text-decoration:none; transition:color .25s;
+}
+.cta::before{content:''; position:absolute; inset:0; background:var(--fg); transform:scaleX(0); transform-origin:left; transition:transform .3s cubic-bezier(.6,0,.2,1); z-index:-1}
+.cta:hover{color:var(--bg)}
+.cta:hover::before{transform:scaleX(1)}
+.cta .arr{color:var(--sig); transition:transform .3s}
+.cta:hover .arr{transform:translateX(6px); color:var(--bg)}
+
+/* ---- honesty strip ---- */
+.honesty{
+  display:flex; gap:0; border:1px solid var(--border); border-top:0; background:var(--ink1);
+}
+.honesty div{flex:1; padding:18px 26px; border-right:1px solid var(--border); font-size:12.5px; color:var(--fg-dim); line-height:1.6}
+.honesty div:last-child{border-right:0}
+.honesty b{display:block; font-family:var(--mono); font-size:9px; letter-spacing:.26em; text-transform:uppercase; color:var(--fg-muted); margin-bottom:6px}
+
+/* ---- matrix teaser ---- */
+.matrix-band{display:grid; grid-template-columns:1fr 1fr; gap:56px; padding:10px 0 90px; align-items:center}
+.mx{display:grid; grid-template-columns:repeat(13,1fr); gap:3px; max-width:520px}
+.mx i{aspect-ratio:1; background:rgba(255,255,255,.02); border:1px solid rgba(255,255,255,.045); transition:transform .18s, background .18s; animation:cellin .5s both}
+.mx i.o{background:rgba(201,205,214,.20)} .mx i.m{background:rgba(165,105,123,.22)} .mx i.d{background:rgba(255,84,104,.24)}
+.mx i:hover{transform:scale(1.5); background:var(--sig); z-index:2}
+@keyframes cellin{from{opacity:0;transform:scale(.4)}}
+.matrix-copy h3{font-family:var(--display); font-size:40px; font-weight:700; letter-spacing:-.025em; line-height:1.04; margin-bottom:18px}
+.matrix-copy p{color:var(--fg-muted); line-height:1.75; max-width:44ch}
+.matrix-copy .mono-note{margin-top:22px; font-family:var(--mono); font-size:11px; letter-spacing:.14em; color:var(--fg-dim); text-transform:uppercase}
+.matrix-copy .mono-note b{color:var(--money)}
+
+footer{border-top:1px solid var(--border); padding:26px 0 44px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--fg-dim)}
+@media(max-width:1100px){.hero{grid-template-columns:1fr}.hero-rail,.hero-meta{display:none}.case{grid-template-columns:1fr}.matrix-band{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="halo"></div>
+<div class="grid-field" id="gridField"></div>
+<div class="grain"></div>
+
+<div class="frame">
+  <header class="topbar">
+    <div class="brand">POKER <b>//</b> COMMAND DESK</div>
+    <nav class="top-nav">
+      <a class="on" href="#">Coach's Note</a><a href="#">Hands</a><a href="#">Leaks</a><a href="#">Ranges</a><a href="#">Arena</a><a href="#">Career</a>
+    </nav>
+    <div class="brand" style="letter-spacing:.14em; color:var(--fg-dim)">SCORZA23 · 9,400 DECISIONS</div>
+  </header>
+
+  <div class="ticker-rail"><div class="ticker">
+    <span>VPIP <b>24.1%</b></span><span>PFR <b>19.8%</b></span><span>C-BET HU <b class="dn">82%</b> / TARGET 100%</span><span>REFERENCE MATCH <b class="dn">66.3%</b></span><span>ITM <b class="up">18.2%</b></span><span>NET <b class="up">+412 BB</b></span><span>NOT GRADED · 214 SPOTS ROUTED TO REVIEW</span><span>VPIP <b>24.1%</b></span><span>PFR <b>19.8%</b></span><span>C-BET HU <b class="dn">82%</b> / TARGET 100%</span><span>REFERENCE MATCH <b class="dn">66.3%</b></span><span>ITM <b class="up">18.2%</b></span><span>NET <b class="up">+412 BB</b></span><span>NOT GRADED · 214 SPOTS ROUTED TO REVIEW</span>
+  </div></div>
+
+  <section class="hero">
+    <div class="hero-rail"><span>DOSSIER · 2026-07-03</span></div>
+    <div class="hero-main">
+      <div class="kicker">The Coach's Note — your single most important thing</div>
+      <h1 class="hl">
+        <span class="row"><i>Your ranges</i></span>
+        <span class="row"><i>are <em>leaking.</em></i></span>
+        <span class="row"><i>Here's the bill.</i></span>
+      </h1>
+      <p class="hero-sub">One focus at a time, receipts attached. No invented signals — when the data can't
+      support a verdict, this desk says <b>"not graded"</b> and shows you why. That refusal is the product.</p>
+    </div>
+    <aside class="hero-meta">
+      <div class="meta-row"><span class="k">Focus severity</span><span class="v loss">CRITICAL</span><span class="note">high confidence</span></div>
+      <div class="meta-row"><span class="k">Estimated cost</span><span class="v loss">−2,227 bb</span><span class="note">across 9,400 graded decisions</span></div>
+      <div class="meta-row"><span class="k">Session net</span><span class="v money">+412 bb</span><span class="note">raw imported outcome</span></div>
+    </aside>
+  </section>
+
+  <div class="folio"><span class="num">01</span><h2>The focus</h2><div class="rule"></div><span class="tag">Diagnose → Drill → Re-measure</span></div>
+
+  <section class="case">
+    <div class="case-l">
+      <div class="case-kick">Range Compliance · preflop</div>
+      <h3>Deviating from your reference ranges too often.</h3>
+      <p>Current reference match sits at <strong style="color:var(--loss)">66.3%</strong> against a 90–100% target.
+      The pattern concentrates in facing-raise spots from the hijack — you're cold-calling hands the
+      chart wants 3-bet or folded.</p>
+      <div class="stats">
+        <div class="cost"><b>−2,227 bb</b><span>est. cost</span></div>
+        <div><b>66.3%</b><span>current</span></div>
+        <div><b>90%+</b><span>target</span></div>
+        <div><b>9,400</b><span>decisions</span></div>
+      </div>
+    </div>
+    <div class="case-r">
+      <div class="k">The receipts — costliest hands in this pattern</div>
+      <div class="receipt"><span>#DEMO-H-074-12</span><span class="why">severity · recency</span></div>
+      <div class="receipt"><span>#DEMO-H-039-12</span><span class="why">representativeness</span></div>
+      <div class="receipt"><span>#DEMO-H-115-10</span><span class="why">severity · recency</span></div>
+      <a class="cta" href="#">Drill it in the Arena <span class="arr">→</span></a>
+    </div>
+  </section>
+  <div class="honesty">
+    <div><b>Rule-based, no EV</b>Preflop checks mapped from documented charts. No solver claims are made anywhere on this desk.</div>
+    <div><b>Refusal-as-UI</b>214 spots are excluded from grading — facing 3-bets, all-ins, multiway BB defense — each with its reason.</div>
+    <div><b>Local only</b>Your hands never leave this machine. No cloud, no telemetry, no account.</div>
+  </div>
+
+  <div class="folio"><span class="num">02</span><h2>Theory vs. you</h2><div class="rule"></div><span class="tag">The Oracle / The Mirror</span></div>
+  <section class="matrix-band">
+    <div class="mx" id="mx"></div>
+    <div class="matrix-copy">
+      <h3>169 combos.<br>Every cell answers to a chart.</h3>
+      <p>The Oracle holds the reference; the Mirror holds your sample. Where they disagree, the cell burns.
+      Positions whose spots are all refused show <em>no score at all</em> — never a fake 100%.</p>
+      <div class="mono-note">GRADED <b>8,912</b> · EXCLUDED 214 · DISCLOSED ALWAYS</div>
+    </div>
+  </section>
+
+  <footer><span>Command Desk · Blackout direction</span><span>D1–D5 intact · violet only where you are</span></footer>
+</div>
+
+<script>
+// presence halo
+const halo=document.getElementById('halo');
+addEventListener('mousemove',e=>{halo.style.left=e.clientX+'px';halo.style.top=e.clientY+'px'});
+// dot grid parallax
+const gf=document.getElementById('gridField');
+addEventListener('mousemove',e=>{
+  const x=(e.clientX/innerWidth-.5)*14,y=(e.clientY/innerHeight-.5)*14;
+  gf.style.transform=`translate(${x}px,${y}px)`;
+});
+// matrix cells
+const mx=document.getElementById('mx');const cls=['','','o','o','o','m','d'];
+for(let i=0;i<169;i++){const c=document.createElement('i');
+  const r=Math.random();c.className=r>.82?'d':r>.7?'m':r>.45?'o':'';
+  c.style.animationDelay=(Math.random()*0.9)+'s';mx.appendChild(c);}
+</script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIRECTION 3 — PHOSPHOR · the terminal that grades you</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Chivo+Mono:wght@200;400;700;900&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   DIRECTION 3 · PHOSPHOR
+   Breaks D3/D5 on purpose: chromatic data AS the environment.
+   A trading-terminal-as-art: amber phosphor chassis, hard
+   grids, oscilloscope motion, zero softness. Reason for
+   re-opening: the desk metaphor can go all the way — the
+   instrument IS the aesthetic. Bloomberg meets Blade Runner.
+   ========================================================= */
+:root{
+  --black:#050503; --panel:#0B0A06; --panel2:#12100A;
+  --amber:#FFB000; --amber-dim:#8A6510; --amber-soft:rgba(255,176,0,.08);
+  --green:#33FF77; --red:#FF3355;
+  --white:#F5EFDC; --mut:#7A6F52;
+  --line:rgba(255,176,0,.22); --line-hard:rgba(255,176,0,.5);
+  --mono:'IBM Plex Mono',monospace; --disp:'Chivo Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:var(--black); color:var(--amber); font-family:var(--mono);
+  min-height:100vh; overflow-x:hidden;
+}
+/* CRT: scanlines + flicker + curvature glow */
+body::before{
+  content:''; position:fixed; inset:0; z-index:50; pointer-events:none;
+  background:repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px);
+}
+body::after{
+  content:''; position:fixed; inset:0; z-index:51; pointer-events:none;
+  background:radial-gradient(ellipse 90% 80% at 50% 50%, transparent 60%, rgba(0,0,0,.55));
+  animation:flick 6s infinite;
+}
+@keyframes flick{0%,100%{opacity:1}97%{opacity:1}98%{opacity:.86}99%{opacity:1}}
+::selection{background:var(--amber); color:var(--black)}
+
+.crt{position:relative; z-index:2; max-width:1460px; margin:0 auto; padding:0 36px}
+
+/* ---- sys header ---- */
+.sys{
+  display:flex; justify-content:space-between; align-items:center; gap:20px;
+  border-bottom:2px solid var(--line-hard); padding:18px 0 14px;
+  font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+}
+.sys .id b{color:var(--white)}
+.sys .stat{display:flex; gap:26px; color:var(--mut)}
+.sys .stat .ok{color:var(--green)}
+.sys .cursor{display:inline-block; width:9px; height:15px; background:var(--amber); vertical-align:-2px; animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+
+/* ---- fkey nav ---- */
+.fkeys{display:flex; border-bottom:1px solid var(--line)}
+.fkeys a{
+  flex:1; text-align:center; padding:12px 0 10px; text-decoration:none; color:var(--mut);
+  font-size:11px; letter-spacing:.2em; text-transform:uppercase; border-right:1px solid var(--line);
+  transition:background .12s,color .12s;
+}
+.fkeys a:last-child{border-right:0}
+.fkeys a b{color:var(--amber-dim); margin-right:8px}
+.fkeys a.on{background:var(--amber); color:var(--black)} .fkeys a.on b{color:var(--black)}
+.fkeys a:hover:not(.on){background:var(--amber-soft); color:var(--amber)}
+
+/* ---- headline block ---- */
+.head{display:grid; grid-template-columns:1fr 380px; border-bottom:1px solid var(--line)}
+.head-l{padding:52px 44px 46px 6px}
+.prompt{font-size:12px; color:var(--mut); letter-spacing:.1em}
+.prompt b{color:var(--green)}
+h1.big{
+  font-family:var(--disp); font-weight:900; text-transform:uppercase;
+  font-size:clamp(44px,6.2vw,96px); line-height:.94; letter-spacing:-.015em;
+  margin:20px 0 0; color:var(--white);
+  text-shadow:0 0 22px rgba(255,176,0,.25);
+}
+h1.big .amber{color:var(--amber)}
+h1.big .strike{position:relative; color:var(--red); white-space:nowrap}
+h1.big .strike::after{content:''; position:absolute; left:-2%; right:-2%; top:52%; height:6px; background:var(--red); box-shadow:0 0 18px var(--red)}
+.head-sub{margin-top:26px; max-width:58ch; font-size:13.5px; line-height:1.8; color:var(--mut)}
+.head-sub b{color:var(--white); font-weight:600}
+/* oscilloscope */
+.head-r{border-left:1px solid var(--line); padding:24px; display:flex; flex-direction:column; gap:12px}
+.scope{flex:1; border:1px solid var(--line); background:var(--panel); position:relative; overflow:hidden; min-height:190px}
+.scope svg{position:absolute; inset:0; width:100%; height:100%}
+.scope .lbl{position:absolute; top:10px; left:12px; font-size:9px; letter-spacing:.26em; color:var(--mut); text-transform:uppercase}
+.scope .val{position:absolute; bottom:10px; right:12px; font-family:var(--disp); font-weight:700; font-size:26px; color:var(--green); text-shadow:0 0 14px rgba(51,255,119,.5)}
+.readout{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+.ro{border:1px solid var(--line); background:var(--panel); padding:12px 14px}
+.ro .k{font-size:9px; letter-spacing:.22em; color:var(--mut); text-transform:uppercase}
+.ro .v{font-family:var(--disp); font-weight:700; font-size:22px; margin-top:4px; color:var(--white)}
+.ro .v.red{color:var(--red); text-shadow:0 0 12px rgba(255,51,85,.4)}
+.ro .v.grn{color:var(--green); text-shadow:0 0 12px rgba(51,255,119,.4)}
+
+/* ---- ascii divider ---- */
+.ascii{padding:10px 0; color:var(--amber-dim); font-size:11px; overflow:hidden; white-space:nowrap; user-select:none}
+
+/* ---- alert panel ---- */
+.alert-grid{display:grid; grid-template-columns:2fr 1.1fr; gap:0; border:2px solid var(--red); box-shadow:0 0 34px rgba(255,51,85,.16), inset 0 0 24px rgba(255,51,85,.05); margin-bottom:0}
+.al-l{padding:36px 40px; border-right:1px solid rgba(255,51,85,.35)}
+.al-tag{display:inline-flex; align-items:center; gap:10px; background:var(--red); color:var(--black); font-weight:700; font-size:10px; letter-spacing:.3em; text-transform:uppercase; padding:6px 14px}
+.al-tag::before{content:'▲'}
+.al-l h2{font-family:var(--disp); font-weight:900; text-transform:uppercase; font-size:clamp(26px,3vw,44px); color:var(--white); line-height:1.02; margin:20px 0 16px; letter-spacing:-.01em}
+.al-l h2 .r{color:var(--red)}
+.al-l p{font-size:13px; line-height:1.8; color:var(--mut); max-width:52ch}
+.al-l p b{color:var(--amber)}
+.al-bars{margin-top:30px; display:flex; flex-direction:column; gap:12px; max-width:480px}
+.bar .cap{display:flex; justify-content:space-between; font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:var(--mut); margin-bottom:5px}
+.bar .trk{height:14px; border:1px solid var(--line); background:var(--panel); position:relative}
+.bar .fill{position:absolute; inset:1px auto 1px 1px; background:repeating-linear-gradient(90deg,var(--red) 0 6px,transparent 6px 9px); animation:grow 1.2s .3s cubic-bezier(.2,.9,.3,1) both}
+.bar .fill.tgt{background:repeating-linear-gradient(90deg,var(--green) 0 6px,transparent 6px 9px)}
+@keyframes grow{from{width:0!important}}
+.al-r{padding:36px 34px; display:flex; flex-direction:column}
+.al-r .k{font-size:10px; letter-spacing:.26em; text-transform:uppercase; color:var(--mut); margin-bottom:16px}
+.rcp{display:flex; justify-content:space-between; gap:10px; padding:11px 4px; border-bottom:1px dashed rgba(255,176,0,.25); font-size:12.5px; color:var(--amber)}
+.rcp:hover{background:var(--amber-soft)}
+.rcp .why{color:var(--mut); font-size:10px; text-transform:uppercase; letter-spacing:.12em}
+.exec{
+  margin-top:auto; display:block; text-align:center; margin-top:30px; padding:16px;
+  font-family:var(--disp); font-weight:900; font-size:15px; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--black); background:var(--amber); text-decoration:none; border:0; cursor:pointer;
+  box-shadow:0 0 26px rgba(255,176,0,.3);
+  transition:transform .12s, box-shadow .12s;
+}
+.exec:hover{transform:translate(-2px,-2px); box-shadow:6px 6px 0 var(--amber-dim), 0 0 30px rgba(255,176,0,.4)}
+
+/* ---- refusal log ---- */
+.log{border:1px solid var(--line); border-top:0; background:var(--panel); padding:18px 24px; font-size:12px; line-height:2; color:var(--mut)}
+.log .ln{display:block}
+.log .t{color:var(--amber-dim); margin-right:14px}
+.log .ok{color:var(--green)} .log .ref{color:var(--amber)} .log .wr{color:var(--red)}
+.log .typing::after{content:'█'; animation:blink 1s steps(1) infinite; color:var(--amber)}
+
+.foot{display:flex; justify-content:space-between; padding:30px 2px 40px; font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--mut)}
+@media(max-width:1000px){.head{grid-template-columns:1fr}.head-r{border-left:0;border-top:1px solid var(--line)}.alert-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="crt">
+  <header class="sys">
+    <span class="id"><b>POKER/OS</b> v3.0 — COACH TERMINAL <span class="cursor"></span></span>
+    <span class="stat"><span>HERO: SCORZA23</span><span>DECISIONS: 9,400</span><span class="ok">● LOCAL-ONLY</span><span>NO CLOUD · NO TELEMETRY</span></span>
+  </header>
+  <nav class="fkeys">
+    <a class="on" href="#"><b>F1</b>NOTE</a><a href="#"><b>F2</b>HANDS</a><a href="#"><b>F3</b>LEAKS</a><a href="#"><b>F4</b>RANGES</a><a href="#"><b>F5</b>ARENA</a><a href="#"><b>F6</b>CAREER</a>
+  </nav>
+
+  <section class="head">
+    <div class="head-l">
+      <div class="prompt"><b>coach@localhost:~$</b> diagnose --focus --receipts --price-in-bb</div>
+      <h1 class="big">SIGNAL FOUND.<br><span class="strike">66.3% MATCH</span><br><span class="amber">TARGET: 90.</span></h1>
+      <p class="head-sub">One leak at a time, priced in big blinds, receipts attached. This terminal does not
+      bluff its own math — spots the rules can't grade return <b>NOT_GRADED + reason</b>, never a score.
+      The refusal is a feature. The refusal is THE feature.</p>
+    </div>
+    <div class="head-r">
+      <div class="scope">
+        <span class="lbl">NET BB / SESSION — RAW OUTCOME</span>
+        <svg viewBox="0 0 400 200" preserveAspectRatio="none">
+          <polyline id="wave" fill="none" stroke="#33FF77" stroke-width="2" points=""/>
+          <line x1="0" y1="120" x2="400" y2="120" stroke="rgba(255,176,0,.25)" stroke-dasharray="4 5"/>
+        </svg>
+        <span class="val">+412</span>
+      </div>
+      <div class="readout">
+        <div class="ro"><div class="k">Est. leak cost</div><div class="v red">−2,227</div></div>
+        <div class="ro"><div class="k">Graded / refused</div><div class="v">8,912<span style="color:var(--mut);font-size:13px"> /214</span></div></div>
+        <div class="ro"><div class="k">C-bet HU</div><div class="v red">82%</div></div>
+        <div class="ro"><div class="k">ITM</div><div class="v grn">18.2%</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ascii" id="ascii">╠══╬══════════════╬═ FOCUS 01/01 ═╬══════════════╬══ SEVERITY: CRITICAL ══╬═══════════════╬══ CONFIDENCE: HIGH ══╬══════════════╬╣ ╠══╬══════════════╬═ FOCUS 01/01 ═╬══════════════╬══ SEVERITY: CRITICAL ══╬═══════════════╬╣</div>
+
+  <section class="alert-grid">
+    <div class="al-l">
+      <span class="al-tag">Range compliance breach</span>
+      <h2>COLD-CALLING WHAT THE CHART <span class="r">FOLDS.</span></h2>
+      <p>Deviation cluster located in facing-raise spots from the hijack. The reference plays
+      3-bet-or-fold; your sample shows <b>112 flat calls</b> out of chart. Priced at current
+      stakes: about one buy-in every two sessions, paid to the table for free.</p>
+      <div class="al-bars">
+        <div class="bar"><div class="cap"><span>Current match</span><span>66.3%</span></div><div class="trk"><div class="fill" style="width:66.3%"></div></div></div>
+        <div class="bar"><div class="cap"><span>House target</span><span>90–100%</span></div><div class="trk"><div class="fill tgt" style="width:95%"></div></div></div>
+      </div>
+    </div>
+    <div class="al-r">
+      <div class="k">Evidence queue — worst offenders</div>
+      <div class="rcp"><span>#DEMO-H-074-12</span><span class="why">sev·recency</span></div>
+      <div class="rcp"><span>#DEMO-H-039-12</span><span class="why">representative</span></div>
+      <div class="rcp"><span>#DEMO-H-115-10</span><span class="why">sev·recency</span></div>
+      <a class="exec" href="#">EXECUTE DRILL → ARENA</a>
+    </div>
+  </section>
+  <div class="log">
+    <span class="ln"><span class="t">06:51:02</span><span class="ok">GRADED</span> — 8,912 decisions checked against documented reference charts. No solver EV claimed.</span>
+    <span class="ln"><span class="t">06:51:02</span><span class="ref">NOT_GRADED</span> — 214 spots refused: FACING_3BET (88) · FACING_ALL_IN (61) · BB_VS_RAISE_MULTIWAY (40) · other (25). Reasons attached.</span>
+    <span class="ln"><span class="t">06:51:03</span><span class="wr">ALERT</span> — focus locked: RANGE_COMPLIANCE. est_cost=2227bb conf=HIGH receipts=3</span>
+    <span class="ln typing"><span class="t">06:51:04</span><span class="ok">READY</span> — awaiting operator. drill routed to /arena</span>
+  </div>
+
+  <footer class="foot"><span>PHOSPHOR direction · re-opens D3+D5 (chromatic environment)</span><span>honesty intact · local-only intact</span></footer>
+</div>
+
+<script>
+// oscilloscope trace
+const wave=document.getElementById('wave');let t=0;
+function draw(){
+  t+=0.035;let pts=[];
+  for(let x=0;x<=400;x+=4){
+    const y=120 - 34*Math.sin(x/38+t) - 16*Math.sin(x/13+t*1.7) - (x/400)*26;
+    pts.push(x+','+y.toFixed(1));
+  }
+  wave.setAttribute('points',pts.join(' '));requestAnimationFrame(draw);
+}
+draw();
+// ascii marquee
+const a=document.getElementById('ascii');let off=0;
+setInterval(()=>{off=(off+1)%60;a.style.transform=`translateX(-${off}px)`;},50);
+</script>
+</body>
+</html>
