@@ -1,6 +1,9 @@
+@import "@fontsource-variable/bricolage-grotesque/index.css";
+
 @import "./styles/tokens.css";
 @import "./styles/desk.css";
 @import "./styles/reinterpretation.css";
+@import "./styles/blackout.css";
 
 @import "tailwindcss";
 

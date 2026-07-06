@@ -5,23 +5,33 @@ import '@testing-library/jest-dom';
 
 vi.mock('dexie-react-hooks', () => ({
   useLiveQuery: () => ({
-    kind: 'focus',
-    handsAnalyzed: 42,
-    focus: {
-      leakTitle: 'C-bet HU',
-      explanation: 'Missed c-bets in heads-up pots as PFR.',
-      severity: 'critical',
-      confidence: 'high',
-      estimatedBbLoss: 12.4,
-      evidence: { label: '42 decisions', details: ['Imported-hand evidence'], trust: 'high' },
-      cta: 'Drill this leak',
+    note: {
+      kind: 'focus',
+      handsAnalyzed: 42,
+      focus: {
+        leakTitle: 'C-bet HU',
+        explanation: 'Missed c-bets in heads-up pots as PFR.',
+        severity: 'critical',
+        confidence: 'high',
+        estimatedBbLoss: 12.4,
+        evidence: { label: '42 decisions', details: ['Imported-hand evidence'], trust: 'high' },
+        cta: 'Drill this leak',
+      },
+      receipts: [
+        { handId: 'PS-101', reasons: ['largestLoss'] },
+        { handId: 'PS-202', reasons: [] },
+      ],
+      noDecisiveHand: false,
+      drillCta: 'Open Drills and drill this pattern',
     },
-    receipts: [
-      { handId: 'PS-101', reasons: ['largestLoss'] },
-      { handId: 'PS-202', reasons: [] },
-    ],
-    noDecisiveHand: false,
-    drillCta: 'Open Drills and drill this pattern',
+    stats: {
+      totalHands: 42,
+      vpipHands: 10,
+      pfrHands: 8,
+      cbetHUOpps: 6,
+      cbetHUMade: 5,
+    },
+    breakdown: { graded: 40, compliant: 26, excluded: 2, percentage: 66.3 },
   }),
 }));
 

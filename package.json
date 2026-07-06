@@ -20,6 +20,7 @@
     "prepare": "node scripts/install-hooks.js"
   },
   "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.2.10",
     "@gsap/react": "^2.1.2",
     "@tanstack/react-table": "^8.21.3",
     "@tanstack/react-virtual": "^3.13.24",

@@ -61,7 +61,7 @@
   --color-club: #34D98C;
 
   /* ---- type ---- */
-  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Bricolage Grotesque", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
