@@ -9,6 +9,7 @@ import {
   Users,
   Zap,
   Trophy,
+  Database,
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
@@ -25,6 +26,7 @@ const NAV_ITEMS = [
   { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
   { to: '/arena', icon: Zap, label: 'The Arena', section: 'Practice' },
   { to: '/villains', icon: Users, label: 'Villains' },
+  { to: '/data', icon: Database, label: 'Data Vault', section: 'Data' },
 ];
 
 export function Sidebar() {

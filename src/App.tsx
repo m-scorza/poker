@@ -15,6 +15,7 @@ const VillainsPage = lazy(() => import('./pages/VillainsPage').then(m => ({ defa
 const ArenaPage = lazy(() => import('./pages/ArenaPage').then(m => ({ default: m.ArenaPage })));
 const CareerPage = lazy(() => import('./pages/CareerPage').then(m => ({ default: m.CareerPage })));
 const DemoPage = lazy(() => import('./pages/DemoPage').then(m => ({ default: m.DemoPage })));
+const DataVaultPage = lazy(() => import('./pages/DataVaultPage').then(m => ({ default: m.DataVaultPage })));
 
 function PageLoader() {
   return (
@@ -71,6 +72,7 @@ export function AppRoutes() {
           <Route path="/sessions" element={page(<SessionsPage />)} />
           <Route path="/villains" element={page(<VillainsPage />)} />
           <Route path="/arena" element={page(<ArenaPage />)} />
+          <Route path="/data" element={page(<DataVaultPage />)} />
         </Route>
       </Routes>
     </Suspense>
