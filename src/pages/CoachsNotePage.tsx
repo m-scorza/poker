@@ -16,7 +16,9 @@ import { useAppStore } from '../data/appStore';
 import { computeAggregateStats, detectLeaks, type LeakSeverity } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { buildCoachsNote } from '../analysis/coachsNote';
+import { detectTilt } from '../analysis/tiltDetector';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
+import { MindsetCard } from '../components/coach/MindsetCard';
 
 const SEVERITY_BADGE: Record<LeakSeverity, { cls: string; label: string }> = {
   critical: { cls: 'bg-[var(--loss-soft)] text-[var(--loss)]', label: 'CRITICAL' },
@@ -49,6 +51,12 @@ export function CoachsNotePage() {
     const stats = computeAggregateStats(checked);
     const leaks = detectLeaks(stats, strategyProfile);
     return buildCoachsNote({ leaks, decisions: checked, hands });
+  }, [strategyProfile], undefined);
+
+  const tilt = useLiveQuery(async () => {
+    const [decisionsRaw, hands] = await Promise.all([db.heroDecisions.toArray(), db.hands.toArray()]);
+    const checked = batchCheckCompliance(decisionsRaw, strategyProfile);
+    return detectTilt({ hands, decisions: checked });
   }, [strategyProfile], undefined);
 
   return (
@@ -156,6 +164,10 @@ export function CoachsNotePage() {
             </Link>
           </section>
         </>
+      )}
+
+      {note !== undefined && note.kind !== 'insufficient_data' && tilt !== undefined && (
+        <MindsetCard report={tilt} />
       )}
     </div>
   );
