@@ -267,7 +267,9 @@ conflicts.
       adversarial fixture ADDED and it REPRODUCED — actors are now resolved
       against seated names, longest first. (F2 hero-name UI stays in Arc 5.)
 - [ ] **Wave 2 — vanish the dead:** F8 (per-symbol verify + prune), F9 (script
-      debris), F10 (worktrees); F7 decided at the R4 steer.
+      debris), F10 (worktrees); F7 decided at the R4 steer. **F7 ✅ 2026-07-07:**
+      the R4 steer (#121, port-pieces) didn't port StudyPlanCard/ValueSnapshotCard;
+      owner approved deletion — both removed.
 - [ ] **Wave 3 — efficiency:** F11 (lazy PDF stack — biggest bundle win), F12
       (one animation library), F13 (chunk audit), F14 (memoize equity), F15
       (store micro-batch), F16 (node-env test split — biggest CI win).

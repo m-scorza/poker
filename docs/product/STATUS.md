@@ -419,7 +419,7 @@ src/pages/  (11 files)
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (35 files)
+src/components/  (33 files)
   components/career/BustOutChart.tsx
   components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx
@@ -434,9 +434,7 @@ src/components/  (35 files)
   components/dashboard/MonumentCurve.tsx
   components/dashboard/PositionalHeatmap.tsx
   components/dashboard/RingHud.tsx
-  components/dashboard/StudyPlanCard.tsx
   components/dashboard/TrendChart.tsx
-  components/dashboard/ValueSnapshotCard.tsx
   components/dashboard/VerdictGauge.tsx
   components/dashboard/WireTape.tsx
   components/hands/HandReplay.tsx
