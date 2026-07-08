@@ -1,31 +1,7 @@
 import { NavLink } from 'react-router-dom';
-import {
-  LayoutDashboard,
-  Crosshair,
-  Search,
-  Grid3X3,
-  AlertTriangle,
-  Calendar,
-  Users,
-  Zap,
-  Trophy,
-} from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../../data/appStore';
-
-// Coach's Note is the current route default; Dashboard is the x-ray cockpit
-// that should point the player into the Coach action loop.
-const NAV_ITEMS = [
-  { to: '/', icon: Crosshair, label: "Coach's Note" },
-  { to: '/hands', icon: Search, label: 'Hands' },
-  { to: '/leaks', icon: AlertTriangle, label: 'Leaks' },
-  { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard', section: 'Reports' },
-  { to: '/career', icon: Trophy, label: 'Career Arc' },
-  { to: '/sessions', icon: Calendar, label: 'Sessions' },
-  { to: '/ranges', icon: Grid3X3, label: 'Ranges' },
-  { to: '/arena', icon: Zap, label: 'Drills', section: 'Practice' },
-  { to: '/villains', icon: Users, label: 'Villains' },
-];
+import { NAV_ITEMS } from './navItems';
 
 export function Sidebar() {
   const heroName = useAppStore((s) => s.heroName);

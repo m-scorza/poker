@@ -17,11 +17,13 @@ import { useAppStore } from '../data/appStore';
 import { computeAggregateStats, detectLeaks, type LeakSeverity } from '../analysis/leakDetector';
 import { batchCheckCompliance, complianceBreakdown } from '../analysis/rangeChecker';
 import { buildCoachsNote } from '../analysis/coachsNote';
+import { detectTilt } from '../analysis/tiltDetector';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { Folio } from '../components/blackout/Folio';
 import { HonestyStrip } from '../components/blackout/HonestyStrip';
 import { Ticker, type TickerItem } from '../components/blackout/Ticker';
 import { readStarterDiagnosticSummary } from '../data/starterDiagnostic';
+import { MindsetCard } from '../components/coach/MindsetCard';
 
 const SEVERITY_META: Record<LeakSeverity, { label: string; cls: string }> = {
   critical: { label: 'CRITICAL', cls: 'loss' },
@@ -82,6 +84,12 @@ export function CoachsNotePage() {
     const note = buildCoachsNote({ leaks, decisions: checked, hands });
     const breakdown = complianceBreakdown(checked, strategyProfile);
     return { note, stats, breakdown };
+  }, [strategyProfile], undefined);
+
+  const tilt = useLiveQuery(async () => {
+    const [decisionsRaw, hands] = await Promise.all([db.heroDecisions.toArray(), db.hands.toArray()]);
+    const checked = batchCheckCompliance(decisionsRaw, strategyProfile);
+    return detectTilt({ hands, decisions: checked });
   }, [strategyProfile], undefined);
 
   const note = data?.note;
@@ -282,6 +290,9 @@ export function CoachsNotePage() {
 
       {/* ---- the honesty strip is chrome, not a tooltip ---- */}
       {note !== undefined && <HonestyStrip cells={honestyCells} />}
+      {note !== undefined && note.kind !== 'insufficient_data' && tilt !== undefined && (
+        <MindsetCard report={tilt} />
+      )}
     </div>
   );
 }

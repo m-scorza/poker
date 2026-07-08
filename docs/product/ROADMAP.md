@@ -147,6 +147,30 @@ real-time HUD, no global player-database claims, no backend/payments before
 the identity gate, no villain auto-archetype revival (parked), no
 derived-stats cache (exonerated — measured 24ms @ 25k hands).
 
+### Out-of-the-box slate (2026-07-07, owner-mandated "outside the box")
+
+Shipped alongside Act III, deliberately off the abyss-wave files (owner
+executes Waves 2–4 separately). One PR, five additions, all local-first with
+honest sample gates:
+
+- [x] **Tilt Detector** — `analysis/tiltDetector.ts` + Mindset card on the
+      Coach's Note: post-trigger (20bb+ loss / half stack / bust-out) play vs
+      same-session baseline; compliance counts graded spots only; refuses on
+      thin data.
+- [x] **Data Vault** — `/data` page + `data/backup.ts`: full-database export/
+      restore (merge|replace, one transaction, cross-schema-version refusal).
+- [x] **Parser fuzz harness** — seeded generator with an exact-accounting
+      betting engine + 250-seed invariant suite; first run caught and fixed a
+      real bug (seat-header lines minting phantom actors, F6's family).
+- [x] **Headless CLI** — `npm run analyze -- <files>`: the UI's exact import
+      pipeline from the terminal, `--json` for scripting.
+- [x] **Command palette** — Cmd/Ctrl+K jump-anywhere; `NAV_ITEMS` extracted
+      to a shared registry.
+
+Named-but-deferred from the same slate (would collide with wave-owned files):
+What-If Lab (EV explorer in HandReplay), Board-Texture Lens (postflop range
+vs board), Playwright e2e layer (decide after F16 reshapes the test pipeline).
+
 ### Known residuals (audit follow-ups, re-verified 2026-06-20)
 
 - [x] **`bountyAnalyzer.ts:144`** — last-resort hardcoded `1500` starting-stack

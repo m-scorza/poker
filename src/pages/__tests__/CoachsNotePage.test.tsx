@@ -4,7 +4,13 @@ import { MemoryRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
 
 vi.mock('dexie-react-hooks', () => ({
-  useLiveQuery: () => ({
+  // Two live queries run in this page: the Coach's Note data bundle and the
+  // Tilt Detector report. These tests only exercise the note bundle, so the
+  // tilt query resolves to its `undefined` default (Mindset card stays hidden).
+  useLiveQuery: (fn: () => unknown) =>
+    String(fn).includes('detectTilt')
+      ? undefined
+      : {
     note: {
       kind: 'focus',
       handsAnalyzed: 42,
@@ -32,7 +38,7 @@ vi.mock('dexie-react-hooks', () => ({
       cbetHUMade: 5,
     },
     breakdown: { graded: 40, compliant: 26, excluded: 2, percentage: 66.3 },
-  }),
+        },
 }));
 
 vi.mock('../../data/appStore', () => ({

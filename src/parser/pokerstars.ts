@@ -329,6 +329,12 @@ function parseHandBlock(block: string, heroName: string): ParsedHand | null {
       break; // Stop parsing actions
     }
 
+    // Seat-header lines are table structure, not actions. A player whose name
+    // itself starts with an action phrase (e.g. "raises 10 to 20") would make
+    // its own seat line match the raise regex and mint a phantom "Seat N"
+    // actor — same family as the F6 colon-name bug. Found by the fuzz suite.
+    if (RE_SEAT.test(line)) continue;
+
     // Hero cards
     const heroMatch = reHeroCards.exec(line);
     if (heroMatch) {
