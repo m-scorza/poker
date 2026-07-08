@@ -14,6 +14,7 @@
     "lint:fix": "eslint src --fix --cache",
     "typecheck": "tsc -b --noEmit",
     "typecheck:test": "tsc -p tsconfig.test.json --noEmit",
+    "analyze": "tsx scripts/analyze-cli.ts",
     "privacy:check": "tsx scripts/privacy-boundary-check.ts",
     "docs:update": "tsx scripts/regen-status.ts && tsx scripts/regen-reports-index.ts",
     "docs:check": "tsx scripts/regen-status.ts --check && tsx scripts/regen-reports-index.ts --check",
