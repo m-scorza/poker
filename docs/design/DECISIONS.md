@@ -126,3 +126,19 @@ carries no danger association). Instead, warning shares the danger hue at lower 
 - `poker 4` = sketches + this handoff (now consolidated here). Also frozen once copied to the repo.
 - All real design-system work happens **in the poker repo via Claude Code**, with these three
   files as law. The catalog habit — building brick #50 instead of shipping — is the named enemy.
+
+## D14 · BLACKOUT — the escalation amendment (2026-07-03)
+
+**Written reason for touching settled ground** (per this file's own protocol): the owner
+mandated an Awwwards-caliber overhaul — the ratified chassis is disciplined but executed
+at survey intensity, not showpiece intensity. Three directions were built and compared on
+real screens (`docs/design/direction-lab-2026-07/`): BLACKOUT (constitution radicalized),
+FELT NOIR (re-opens D2), PHOSPHOR (re-opens D3+D5). **The owner picked BLACKOUT** — which
+means D1–D5 and D11–D13 survive their first genuine challenge *intact*. Nothing re-opens;
+everything escalates.
+
+What BLACKOUT adds as law: monumental Bricolage display type with staggered row-rise
+reveals; the dossier grammar (numbered folios, vertical mono rails, case-file cards); the
+violet **presence halo** as D3 made physical; the live stat ticker with refusals in the
+stream; the honesty strip as chrome. Full spec + rollout order:
+`docs/design/BLACKOUT_ROLLOUT.md`. The rejected alternates stay in the lab as quarry (D11).
