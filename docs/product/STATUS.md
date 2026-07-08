@@ -27,7 +27,7 @@ and test inventories below are regenerated from source.
 
 | Path | Component | Notes |
 |---|---|---|
-| `/` | `CoachsNotePage` | The front door since #109 — focus leak + receipt hands + Arena drill CTA |
+| `/` | `CoachsNotePage` | The front door since #109 — focus leak + receipt hands + Arena drill CTA + Mindset card (tilt detector) |
 | `/dashboard` | `DashboardPage` | Demoted to "Reports" (#109): ROI Total, ITM Rate, heatmap, trend charts |
 | `/coach` | redirect → `/` | Legacy path kept as a redirect |
 | `/hands` | `HandsPage` | Upload UI inline via `showUpload`; `?panel=data-health` opens the importer, `?reviewHand=` opens a replay |
@@ -39,6 +39,7 @@ and test inventories below are regenerated from source.
 | `/arena` | `ArenaPage` | Spaced Review (SRS), Fault Fixer, RFI Master, C-bet Clinic + routed Study Queue packet drills |
 | `/career` | `CareerPage` | Tournament history, ROI / ITM dashboard, profit timeline |
 | `/demo` | `DemoPage` | Local synthetic demo seeding and private validation flow |
+| `/data` | `DataVaultPage` | Full local backup/restore of all IndexedDB tables (merge or replace) |
 
 ## Pages / files *not* in the repo (despite older docs saying so)
 
