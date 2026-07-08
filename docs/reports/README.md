@@ -25,10 +25,11 @@ _None._
 
 **Archived** — `docs/reports/archive/`
 
-### ✅ Resolved (13)
+### ✅ Resolved (14)
 
 | Date | Report | Closed by |
 |---|---|---|
+| 2026-07-08 | [Codebase Health Review — 2026-07-08](archive/2026-07-08-codebase-health-review.md) | docs/reports/2026-07-01-abyss-audit.md, docs/reports/archive/2026-06-12-codebase-health-review.md |
 | 2026-07-01 | [Direction Review — Where This Project Is Going (Act III Proposal)](archive/2026-07-01-direction-review-act-iii.md) | #114, docs/product/ROADMAP.md Act III (The Whetstone), docs/reports/2026-07-01-abyss-audit.md, docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md, docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md |
 | 2026-06-12 | [Codebase Health Review — 2026-06-12](archive/2026-06-12-codebase-health-review.md) | #74 |
 | 2026-06-12 | [Appendix — Subagent Prompts and Full Outputs (2026-06-12 Principal Audit)](archive/2026-06-12-principal-audit-appendix-subagents.md) | archive/2026-06-12-principal-engineer-audit.md, #76, #114 |
