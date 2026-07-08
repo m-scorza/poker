@@ -208,7 +208,7 @@ const SB_VS_LATE_RX: string[] = [
   'KQs', 'AKo', 'AQo',
 ];
 
-export const REACTION_RANGES = {
+const REACTION_RANGES = {
   EP_VS_EP: rangeSet(EP_VS_EP_RX),
   LP_VS_EP: rangeSet(LP_VS_EP_RX),
   BTN_VS_CO: rangeSet(BTN_VS_CO_RX),
@@ -216,7 +216,7 @@ export const REACTION_RANGES = {
   SB_VS_LATE: rangeSet(SB_VS_LATE_RX),
 } satisfies Record<string, RangeSet>;
 
-export type ReactionRangeKey = keyof typeof REACTION_RANGES | 'BB_DEFENSE';
+type ReactionRangeKey = keyof typeof REACTION_RANGES | 'BB_DEFENSE';
 
 export interface ReactionRangeInfo {
   hero: Position;
@@ -262,7 +262,7 @@ const REACTION_RANGE_DETAILS: Record<StoredReactionRangeKey, {
 
 const EP_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2'];
 const POSITION_ORDER: Position[] = ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB', 'BB'];
-export const FACING_RAISE_OPENER_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB'];
+const FACING_RAISE_OPENER_POSITIONS: Position[] = ['UTG', 'UTG+1', 'MP', 'MP1', 'MP2', 'HJ', 'CO', 'BTN', 'SB'];
 
 const REACTION_RANGE_BY_POSITION: Partial<Record<Position, Partial<Record<Position, StoredReactionRangeKey>>>> = {
   'UTG+1': { UTG: 'EP_VS_EP' },
@@ -386,7 +386,7 @@ export function getReactionRangeInfo(
 export const SB_BLIND_WAR_RANGE: RangeSet = rangeSet(SB_RANGE);
 
 /** BB defense range: According to [GamePlan], never fold suited hands vs 2.5x open. */
-export const BB_DEFENSE_RANGE: RangeSet = rangeSet([
+const BB_DEFENSE_RANGE: RangeSet = rangeSet([
   ...allHandCombos().filter(h => h.endsWith('s')),
   'AA', 'KK', 'QQ', 'JJ', 'TT', '99', '88', '77', '66', '55', '44', '33', '22',
   'AKo', 'AQo', 'AJo', 'ATo', 'KQo', 'KJo', 'QJo'

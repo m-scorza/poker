@@ -36,10 +36,10 @@ import { formatImportSummary } from '../../parser/importSummary';
 import type { ImportSummary, WorkerFilePayload, WorkerMessage } from '../../parser/workerProcessor';
 
 const MB = 1024 * 1024;
-export const MAX_TXT_BYTES = 15 * MB;
-export const MAX_ZIP_BYTES = 50 * MB;
-export const MAX_ZIP_DECOMPRESSED_BYTES = 150 * MB;
-export const MAX_BATCH_BYTES = 200 * MB;
+const MAX_TXT_BYTES = 15 * MB;
+const MAX_ZIP_BYTES = 50 * MB;
+const MAX_ZIP_DECOMPRESSED_BYTES = 150 * MB;
+const MAX_BATCH_BYTES = 200 * MB;
 const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
 const formatDateTime = (date: Date | null) => date
   ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date)

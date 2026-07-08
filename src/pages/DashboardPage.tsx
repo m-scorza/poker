@@ -5,7 +5,7 @@ import { useAppStore } from '../data/appStore';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../data/sessions';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
-import { buildCareerCoachReport } from '../analysis/careerCoach';
+import { buildCareerCoachMarkdownReport, buildCareerCoachReport } from '../analysis/careerCoach';
 import { computePositionStats } from '../analysis/positionStats';
 import { buildStudyQueue } from '../analysis/studyPlan';
 import { getTournamentRevenue } from '../analysis/financials';
@@ -123,6 +123,20 @@ export function DashboardPage() {
   const sampleConfidence = careerCoachReport?.sampleConfidence ?? 'low';
   const verdictConf = `Confidence: ${sampleConfidence.charAt(0).toUpperCase()}${sampleConfidence.slice(1)}`;
 
+  function downloadDashboardReport() {
+    if (!careerCoachReport) return;
+    const markdown = buildCareerCoachMarkdownReport(careerCoachReport);
+    const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `poker-dashboard-report-${new Date().toISOString().slice(0, 10)}.md`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
   const wireItems = [
     { t: 'PROFIT', v: `$${totalPnl.toFixed(2)}`, cls: totalPnl >= 0 ? 'up' : 'loss' },
     { t: 'VPIP', v: `${vpip.toFixed(1)}%` },
@@ -140,8 +154,10 @@ export function DashboardPage() {
           <h2>Command Desk <span>[{totalPnl >= 0 ? '+' : '-'}${Math.abs(totalPnl).toFixed(2)}]</span></h2>
         </div>
         <div className="dh-right">
-          <button className="btn"><i className="icon-cloud"></i>Sync</button>
-          <button className="btn primary">Export report</button>
+          <span className="kick">Private local report</span>
+          <button type="button" className="btn primary" onClick={downloadDashboardReport} disabled={!careerCoachReport}>
+            Export report
+          </button>
         </div>
       </div>
 
@@ -162,7 +178,8 @@ export function DashboardPage() {
           totalPnl={totalPnl}
           blockerTitle={topLeak?.name || 'No major leaks'}
           blockerDesc={topLeak?.description || 'Your ranges are solid.'}
-          fixText={topLeak ? `Review ${topLeak.name}` : ''}
+          fixText="Open Coach's Note"
+          fixHref="/"
         />
         
         <RingHud vpip={vpip} pfr={pfr} threeBet={threeBet} />

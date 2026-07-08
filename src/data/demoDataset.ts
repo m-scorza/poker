@@ -22,7 +22,7 @@ export interface DemoSeedResult {
   alreadyLoaded: boolean;
 }
 
-export type DemoSeedPhase = 'checking' | 'generating' | 'importing_hands' | 'importing_summaries' | 'done';
+type DemoSeedPhase = 'checking' | 'generating' | 'importing_hands' | 'importing_summaries' | 'done';
 
 export interface DemoSeedProgress {
   phase: DemoSeedPhase;
@@ -32,7 +32,6 @@ export interface DemoSeedProgress {
 
 const DEMO_PREFIX = 'DEMO';
 export const DEMO_TOURNAMENT_COUNT = 250;
-export const DEMO_TARGET_HAND_COUNT = 10_000;
 const HERO = 'scorza23';
 const BUY_IN = 1;
 const FEE = 0.1;

@@ -11,7 +11,7 @@ export type CareerRecommendation =
   | 'Move Down / Rebuild'
   | 'Need More Sample';
 
-export type SampleConfidence = 'low' | 'medium' | 'high';
+type SampleConfidence = 'low' | 'medium' | 'high';
 
 export interface CareerCoachReport {
   tournamentsPlayed: number;
@@ -35,7 +35,7 @@ export interface CareerCoachReport {
   nextActions: string[];
 }
 
-export interface CareerBlocker {
+interface CareerBlocker {
   title: string;
   detail: string;
   severity: LeakSeverity | 'sample' | 'drawdown' | 'profitability';
@@ -235,7 +235,7 @@ export function buildCareerCoachMarkdownReport(report: CareerCoachReport): strin
     '## Next 3 Actions',
     ...report.nextActions.map((action, index) => `${index + 1}. ${action}`),
     '',
-    '_Generated locally by Poker Analyzer HUD. This is a tracked-results risk signal, not financial advice._',
+    '_Generated locally by Poker Analyzer. This is a tracked-results risk signal, not financial advice._',
   ];
 
   return `${lines.join('\n')}\n`;

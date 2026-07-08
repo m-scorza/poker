@@ -22,13 +22,13 @@ import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { gradeSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
 import type { StrategyProfile } from './strategyProfiles';
 
-export interface AppSettings {
+interface AppSettings {
   id: string; // 'global'
   heroName: string;
 }
 
 /** Session metadata — auto-grouped by time window. */
-export interface SessionRecord {
+interface SessionRecord {
   id: string;
   startTime: Date;
   endTime: Date;
@@ -128,12 +128,6 @@ db.version(7).stores({
 });
 
 export { db };
-
-/** Check if a hand ID already exists (for deduplication). */
-export async function handExists(handId: string): Promise<boolean> {
-  const count = await db.hands.where('id').equals(handId).count();
-  return count > 0;
-}
 
 /** Bulk import parsed hands with deduplication. Returns count of newly imported hands. */
 export interface ImportHandsOptions {
@@ -709,13 +703,6 @@ export async function aggregateVillainStats(
   await db.villains.bulkPut(Array.from(villainMap.values()));
 }
 
-/** Get villain notes and tags. */
-export async function getVillainNote(playerName: string): Promise<VillainNote | null> {
-  const villain = await db.villains.get(playerName);
-  if (!villain) return null;
-  return { playerName: villain.playerName, notes: villain.notes, tags: villain.tags };
-}
-
 /** Get all villain notes. */
 export async function getAllVillainNotes(): Promise<Map<string, VillainNote>> {
   const all = await db.villains.toArray();
@@ -822,6 +809,7 @@ export async function getHeroName(): Promise<string> {
 }
 
 /** Save the currently configured Hero Name */
+// Wired in Act III-5 (hero-name settings UI).
 export async function saveHeroName(heroName: string): Promise<void> {
   await db.settings.put({ id: 'global', heroName });
 }

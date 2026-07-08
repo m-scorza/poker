@@ -267,7 +267,51 @@ conflicts.
       adversarial fixture ADDED and it REPRODUCED — actors are now resolved
       against seated names, longest first. (F2 hero-name UI stays in Arc 5.)
 - [ ] **Wave 2 — vanish the dead:** F8 (per-symbol verify + prune), F9 (script
-      debris), F10 (worktrees); F7 decided at the R4 steer.
+      debris), F10 (worktrees); F7 decided at the R4 steer. **PARTIAL —
+      F10 (worktree pruning) NOT done, box left unchecked until it lands.**
+      ✅ 2026-07-03 (F7, F8, F9 only): F7
+      deleted (StudyPlanCard/ValueSnapshotCard — owner steer confirmed deletion,
+      zero imports verified). F8 — every knip candidate individually verified
+      for both external AND internal (own-file) usage before touching anything:
+      3 symbols were genuinely dead with zero references anywhere and deleted
+      (`handExists`, `getVillainNote` in store.ts; `DEMO_TARGET_HAND_COUNT` in
+      demoDataset.ts); ~26 more were internally load-bearing but externally
+      unused, so only the `export` keyword was dropped (values/types across
+      leakDetector, studyPacketProgress, HandsUpload's four `MAX_*_BYTES`,
+      importDiagnosticsPolicy, ranges.ts, strategyProfiles.ts, careerCoach,
+      careerScope, coachsNote, headsUpPushFoldReference, postflopAnalyzer,
+      pushFoldChecker, studyPlan, RangeGrid, appStore, demoDataset, store.ts,
+      buyInExtractor, contributionPackage, importSummary, workerProcessor,
+      types/villain.ts, utils/evidence.ts); the `importRuns.ts` re-export
+      barrel dropped 3 dead re-exports while keeping the underlying symbols
+      exported from their real home (`importDiagnosticsPolicy.ts`) since
+      `importRuns.ts` still imports them internally. **Kept, not touched:**
+      `saveHeroName` (store.ts, Act III-5 hero-name UI — now carries an
+      explicit comment), `solverAdapter.ts`'s 8 `Solver*` types (documented
+      forward contract in `docs/product/SOLVER_BOUNDARY.md`, same posture as
+      parked villain-archetype code), `spotPacket.ts`'s ~34 flagged types (the
+      module itself is heavily live — consumed by HandReplay/ArenaPage/
+      TrainerSpotCard/SpotSourcePanel — de-exporting 34 scattered type names
+      in a 1288-line file was assessed as high-touch/zero-behavior-change and
+      skipped per "if in doubt, keep"); `villainClassifier.ts` / `VillainArchetype`
+      / `archetype` / `archetypeConfidence` untouched (parked, per standing
+      instruction). F9 — deleted `fix_imports.cjs`, `migrate-styles.mjs`,
+      `scratch.ts`, `test-odds.cjs`, `test-odds.mjs`, `test-summaries.cjs`,
+      `stress-test-parser.ts`, `hygiene-scanner.ts` (zero references outside
+      historical/archived docs); trimmed their rows from `scripts/README.md`
+      and the now-dead `hygiene-report.json` `.gitignore` comment; relocated
+      `agentKernel.test.ts` to `scripts/__tests__/` (vitest has no
+      `test.include` override, so the default glob still discovers it —
+      confirmed by running it standalone post-move, 5/5 pass). **Kept:**
+      `surface-open-reports.ts`, `agent-kernel.cjs`, `parallel-runner.cjs`,
+      regen-\*/install scripts (per instruction; knip still flags these three
+      as "unused files" because its static pass doesn't trace the SessionStart
+      hook / protocol-doc references — false positive, do not delete). F10
+      (worktree pruning) **not done in this wave** — out of scope for this PR
+      per the task brief (worktree/branch operations were excluded from the
+      Wave 2 execution instructions actually given); revisit separately.
+      Full gate green: docs:check, typecheck, typecheck:test, lint (0
+      warnings), test (851/851), build.
 - [ ] **Wave 3 — efficiency:** F11 (lazy PDF stack — biggest bundle win), F12
       (one animation library), F13 (chunk audit), F14 (memoize equity), F15
       (store micro-batch), F16 (node-env test split — biggest CI win).

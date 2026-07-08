@@ -66,7 +66,7 @@ body[data-font="neutral"] {
 body[data-font="neutral"] .mon-num,
 body[data-font="neutral"] .desk-title { letter-spacing: -0.035em; }
 body[data-font="hybrid"] {
-  --display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', system-ui, sans-serif;
   --sans: 'Inter', system-ui, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, monospace;
 }

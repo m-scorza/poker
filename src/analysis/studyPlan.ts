@@ -5,9 +5,9 @@ import type { Leak, LeakSeverity } from './leakDetector';
 import { batchCheckPushFold, type PushFoldCheckOptions } from './pushFoldChecker';
 import { BB_DEFENSE_COVERAGE_NOTE } from '../data/ranges';
 
-export type StudyQueueConfidence = 'high' | 'medium' | 'low';
+type StudyQueueConfidence = 'high' | 'medium' | 'low';
 
-export type StudyQueueEvidenceKind =
+type StudyQueueEvidenceKind =
   | 'aggregate_leak'
   | 'tagged_decisions'
   | 'postflop_flags'

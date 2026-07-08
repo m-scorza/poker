@@ -57,7 +57,7 @@ export interface PositionStatsRawCounters {
 }
 
 /** A hand revealed at showdown — used to build villain's actual range profile. */
-export interface ShownHand {
+interface ShownHand {
   handId: string;
   date: Date;
   position: Position;

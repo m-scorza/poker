@@ -9,7 +9,7 @@ import { clsx } from 'clsx';
 
 const RANKS = ['A', 'K', 'Q', 'J', 'T', '9', '8', '7', '6', '5', '4', '3', '2'];
 
-export type CellStatus = 'in-range' | 'out-of-range' | 'played-correct' | 'played-deviation' | 'not-dealt';
+type CellStatus = 'in-range' | 'out-of-range' | 'played-correct' | 'played-deviation' | 'not-dealt';
 
 interface RangeGridProps {
   /** Returns the status for a given hand key */

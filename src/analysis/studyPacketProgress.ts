@@ -69,7 +69,7 @@ export function readStudyPacketProgress(): StudyPacketProgressStore {
   }
 }
 
-export function writeStudyPacketProgress(progress: StudyPacketProgressStore): void {
+function writeStudyPacketProgress(progress: StudyPacketProgressStore): void {
   if (typeof window === 'undefined') return;
   try {
     window.localStorage.setItem(STUDY_PACKET_PROGRESS_STORAGE_KEY, JSON.stringify(progress));

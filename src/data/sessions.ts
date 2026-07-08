@@ -35,7 +35,7 @@ export interface Session {
   };
 }
 
-const DEFAULT_GAP_MS = 4 * 60 * 60 * 1000; // 4 hours
+export const SESSION_GAP_MS = 4 * 60 * 60 * 1000; // 4 hours
 
 /**
  * Group hands into sessions based on time gaps.
@@ -48,7 +48,7 @@ export function groupIntoSessions(
   hands: Hand[],
   decisions: Map<string, HeroDecision>,
   tournaments: Map<string, Tournament>,
-  gapMs: number = DEFAULT_GAP_MS,
+  gapMs: number = SESSION_GAP_MS,
 ): Session[] {
   if (hands.length === 0) return [];
 

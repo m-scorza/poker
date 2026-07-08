@@ -153,7 +153,7 @@ export function classifyBoardTexture(flopCards: string[]): BoardAnalysis {
 
 // --- Postflop Spot Detection ---
 
-export type PostflopSpot =
+type PostflopSpot =
   | 'MISSED_CBET'           // PFR checked flop HU
   | 'CBET_HU'               // PFR bet flop HU
   | 'CBET_MULTIWAY'         // PFR bet flop multiway

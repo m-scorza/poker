@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
@@ -13,9 +14,10 @@ interface VerdictGaugeProps {
   blockerTitle: string;
   blockerDesc: string;
   fixText: string;
+  fixHref?: string;
 }
 
-export function VerdictGauge({ score, verdictReco, verdictConf, roi, totalPnl, blockerTitle, blockerDesc, fixText }: VerdictGaugeProps) {
+export function VerdictGauge({ score, verdictReco, verdictConf, roi, totalPnl, blockerTitle, blockerDesc, fixText, fixHref }: VerdictGaugeProps) {
   const containerRef = useRef<HTMLElement>(null);
   const r = 42;
   const circ = 2 * Math.PI * r;
@@ -83,11 +85,11 @@ export function VerdictGauge({ score, verdictReco, verdictConf, roi, totalPnl, b
         <div className="vb-t">{blockerTitle}</div>
         <p>{blockerDesc}</p>
       </div>
-      {fixText && (
-        <button className="verdict-fix">
+      {fixText && fixHref && (
+        <Link to={fixHref} className="verdict-fix">
           <span className="ft">{fixText}</span>
           <span className="fa">→</span>
-        </button>
+        </Link>
       )}
     </section>
   );

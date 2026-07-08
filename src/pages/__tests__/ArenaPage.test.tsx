@@ -4,6 +4,8 @@ import '@testing-library/jest-dom';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { ArenaPage, getDisplayCards, getDrillPool, isCbetActionCorrect } from '../ArenaPage';
 import { getAllHeroDecisions, getParsedHandForHandId, getSrsReviews, recordSrsReview } from '../../data/store';
+import { STARTER_DIAGNOSTIC_STORAGE_KEY } from '../../data/starterDiagnostic';
+import { CURRICULUM_PROGRESS_STORAGE_KEY } from '../../data/curriculumProgress';
 import { buildStudyPacketArenaPathFromIds } from '../../analysis/studyPacketProgress';
 import type { HeroDecision } from '../../types/analysis';
 import type { ParsedHand } from '../../parser/pokerstars';
@@ -176,6 +178,111 @@ describe('ArenaPage drill start behavior', () => {
     expect(await screen.findByRole('dialog', { name: 'Not enough data' })).toBeInTheDocument();
     expect(screen.getByText(/No C-bet Clinic spots are available yet/i)).toBeInTheDocument();
     expect(alertSpy).not.toHaveBeenCalled();
+  });
+
+  it('starts a curriculum seed pack as practice-only content without imported hands', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
+
+    render(<ArenaPage />);
+
+    expect(await screen.findByText('Curriculum drills')).toBeInTheDocument();
+    expect(screen.getByText('Preflop foundations')).toBeInTheDocument();
+    expect(screen.getByText('Blind defense')).toBeInTheDocument();
+    expect(screen.getByText('Postflop play')).toBeInTheDocument();
+    expect(screen.getByText('Facing 3-bet frontier')).toBeInTheDocument();
+    expect(screen.getByText('Versus open raise')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: /Start Facing 3-bet frontier/i }));
+
+    expect(await screen.findByTestId('arena-curriculum-source')).toHaveTextContent('Curriculum practice');
+    expect(screen.getAllByText(/practice-only seed/i).length).toBeGreaterThan(0);
+    expect(screen.getByText('FACING 3BET')).toBeInTheDocument();
+
+    fireEvent.click(screen.getAllByTestId(/^arena-action-/)[0]!);
+
+    expect(await screen.findByText(/Curriculum answer:/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/not imported-hand evidence/i).length).toBeGreaterThan(0);
+
+    const stored = JSON.parse(window.localStorage.getItem(CURRICULUM_PROGRESS_STORAGE_KEY) ?? '{}') as Record<string, Record<string, unknown>>;
+    const progress = stored['facing-3bet-frontier'];
+    expect(progress).toMatchObject({
+      packSlug: 'facing-3bet-frontier',
+      attempts: 1,
+      totalSpots: 25,
+      isComplete: false,
+    });
+    expect(progress!.reviewedSpotIds).toEqual([expect.stringContaining('facing-3bet-frontier')]);
+    expect(JSON.stringify(progress)).not.toContain('Villain');
+    expect(JSON.stringify(progress)).not.toContain('trainer answer');
+  });
+
+  it('shows browser-local curriculum pack progress on Drills cards', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
+    window.localStorage.setItem(CURRICULUM_PROGRESS_STORAGE_KEY, JSON.stringify({
+      'facing-3bet-frontier': {
+        packSlug: 'facing-3bet-frontier',
+        reviewedSpotIds: ['facing-3bet-frontier-0', 'facing-3bet-frontier-1'],
+        attempts: 2,
+        correct: 1,
+        totalSpots: 25,
+        isComplete: false,
+        updatedAt: '2026-07-05T15:00:00.000Z',
+      },
+    }));
+
+    render(<ArenaPage />);
+
+    const card = await screen.findByRole('button', { name: /Start Facing 3-bet frontier/i });
+    expect(card).toHaveTextContent('2/25 locally reviewed');
+    expect(card).toHaveTextContent('1/2 seed answers');
+    expect(card).toHaveTextContent('browser-local progress');
+  });
+
+  it('offers a starter diagnostic when no imported hands exist', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
+
+    render(<ArenaPage />);
+
+    expect(await screen.findByText('No hand history yet?')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: /Start starter diagnostic/i }));
+
+    expect(await screen.findByTestId('arena-curriculum-source')).toHaveTextContent('Starter diagnostic');
+    expect(screen.getByText(/lower-confidence/i)).toBeInTheDocument();
+    expect(screen.getByText(/not leak grading/i)).toBeInTheDocument();
+
+    fireEvent.click(screen.getAllByTestId(/^arena-action-/)[0]!);
+    const stored = JSON.parse(window.localStorage.getItem(STARTER_DIAGNOSTIC_STORAGE_KEY) ?? '{}') as Record<string, unknown>;
+    expect(stored.packTitle).toBe('Starter diagnostic');
+    expect(stored.total).toBe(1);
+    expect(stored.reviewAreas).toEqual([{ label: 'Big blind defense', misses: 1, attempts: 1 }]);
+    expect(stored.recommendedPackTitle).toBe('Big blind defense');
+  });
+
+  it('spotlights the starter diagnostic recommended pack without mixing it into imported evidence', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
+    window.localStorage.setItem(STARTER_DIAGNOSTIC_STORAGE_KEY, JSON.stringify({
+      packTitle: 'Starter diagnostic',
+      correct: 5,
+      total: 8,
+      isComplete: true,
+      updatedAt: '2026-07-05T13:00:00.000Z',
+      reviewAreas: [{ label: 'Versus open raise', misses: 2, attempts: 3 }],
+      recommendedPackTitle: 'Versus open raise',
+    }));
+
+    render(<ArenaPage />);
+
+    const recommendation = await screen.findByTestId('arena-diagnostic-recommendation');
+    expect(recommendation).toHaveTextContent('Recommended next');
+    expect(recommendation).toHaveTextContent('Versus open raise');
+    expect(recommendation).toHaveTextContent('2 misses across 3 diagnostic spots');
+    expect(recommendation).toHaveTextContent('not imported-hand evidence');
+
+    fireEvent.click(screen.getByRole('button', { name: /Start recommended Versus open raise/i }));
+
+    expect(await screen.findByTestId('arena-curriculum-source')).toHaveTextContent('Versus open raise');
+    expect(screen.getAllByText(/practice-only seed/i).length).toBeGreaterThan(0);
   });
 
   it('starts C-bet Clinic on flop-stage controls', async () => {

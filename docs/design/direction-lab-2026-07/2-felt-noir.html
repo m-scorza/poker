@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIRECTION 2 — FELT NOIR · the table under the lamp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   DIRECTION 2 · FELT NOIR
+   Breaks D2 on purpose: the environment becomes the table —
+   lamp-lit felt, brass, serif drama. A casino back room where
+   the math is honest. Reason for re-opening D2: the ink chassis
+   is disciplined but placeless; this direction owns POKER.
+   ========================================================= */
+:root{
+  --felt-deep:#07100b; --felt:#0b1a12; --felt-lit:#12281b;
+  --rail:#241a12; --rail-hi:#3a2a1c;
+  --brass:#C8A96A; --brass-hi:#E8CD96; --brass-dim:rgba(200,169,106,.4);
+  --cream:#EFE6D0; --cream-mut:#9a937f; --cream-dim:#5d584a;
+  --money:#4ADE97; --loss:#E8556D;
+  --display:'Fraunces',serif; --sans:'Archivo',sans-serif; --mono:'IBM Plex Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:
+    radial-gradient(ellipse 120% 90% at 50% -20%, rgba(232,205,150,.13), transparent 52%),
+    radial-gradient(ellipse 80% 60% at 50% 8%, var(--felt-lit), transparent 70%),
+    var(--felt-deep);
+  color:var(--cream); font-family:var(--sans); min-height:100vh; overflow-x:hidden;
+}
+body::before{ /* felt weave */
+  content:''; position:fixed; inset:0; pointer-events:none; opacity:.55; z-index:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0.05 0 0 0 0 0.02 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");
+}
+body::after{ /* vignette — the lamp's edge */
+  content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(ellipse 105% 90% at 50% 20%, transparent 55%, rgba(0,0,0,.72));
+}
+::selection{background:var(--brass); color:var(--felt-deep)}
+
+/* giant suit watermarks */
+.suit-mark{position:fixed; font-family:var(--display); font-weight:900; color:rgba(232,205,150,.035); z-index:0; pointer-events:none; user-select:none; line-height:1}
+.suit-mark.s1{font-size:56vh; top:-6vh; right:-4vw; transform:rotate(14deg)}
+.suit-mark.s2{font-size:44vh; bottom:-10vh; left:-3vw; transform:rotate(-10deg)}
+
+.stage{position:relative; z-index:2; max-width:1380px; margin:0 auto; padding:0 44px}
+
+/* ---- brass top rail ---- */
+.rail-top{
+  display:flex; justify-content:space-between; align-items:center; padding:26px 0;
+  border-bottom:1px solid var(--brass-dim);
+}
+.marque{font-family:var(--display); font-weight:600; font-size:19px; letter-spacing:.02em}
+.marque i{font-style:italic; color:var(--brass)}
+.rail-nav{display:flex; gap:30px; font-family:var(--mono); font-size:11px; letter-spacing:.2em; text-transform:uppercase}
+.rail-nav a{color:var(--cream-dim); text-decoration:none; transition:color .2s}
+.rail-nav a.on{color:var(--brass)} .rail-nav a:hover{color:var(--cream)}
+.seat-tag{font-family:var(--mono); font-size:10px; letter-spacing:.24em; text-transform:uppercase; color:var(--cream-dim); border:1px solid var(--brass-dim); border-radius:999px; padding:7px 16px}
+.seat-tag b{color:var(--brass)}
+
+/* ---- headline: the read ---- */
+.read{padding:88px 0 60px; text-align:center; position:relative}
+.read .over{font-family:var(--mono); font-size:11px; letter-spacing:.44em; text-transform:uppercase; color:var(--brass); animation:fadeup .8s .1s both}
+.read h1{
+  font-family:var(--display); font-optical-sizing:auto;
+  font-size:clamp(58px,8.4vw,138px); font-weight:640; line-height:.96; letter-spacing:-.02em;
+  margin:22px 0 0; animation:fadeup .9s .22s both;
+}
+.read h1 em{font-style:italic; font-weight:340; color:var(--brass-hi)}
+.read p{max-width:56ch; margin:30px auto 0; color:var(--cream-mut); font-size:16.5px; line-height:1.75; animation:fadeup .9s .38s both}
+.read p b{color:var(--cream); font-weight:600}
+@keyframes fadeup{from{opacity:0; transform:translateY(26px)} to{opacity:1; transform:none}}
+
+/* ---- chip stack divider ---- */
+.chips{display:flex; justify-content:center; gap:10px; padding:8px 0 66px; animation:fadeup 1s .5s both}
+.chip{
+  width:54px; height:54px; border-radius:50%; position:relative; transform:translateY(0);
+  transition:transform .25s cubic-bezier(.3,1.6,.4,1); cursor:pointer;
+  background:
+    radial-gradient(circle at 50% 42%, var(--felt-lit) 30%, transparent 31%),
+    repeating-conic-gradient(var(--cream) 0 12deg, transparent 12deg 30deg),
+    var(--felt-lit);
+  border:3px solid var(--cream); box-shadow:0 10px 22px rgba(0,0,0,.6), inset 0 0 0 7px rgba(0,0,0,.35);
+  display:grid; place-items:center; font-family:var(--mono); font-size:10px; font-weight:600; color:var(--cream);
+}
+.chip:hover{transform:translateY(-10px) rotate(8deg)}
+.chip.brass{border-color:var(--brass); color:var(--brass); background:radial-gradient(circle at 50% 42%, var(--rail) 30%, transparent 31%), repeating-conic-gradient(var(--brass) 0 12deg, transparent 12deg 30deg), var(--rail)}
+.chip.red{border-color:var(--loss); color:var(--loss); background:radial-gradient(circle at 50% 42%, #1a0d10 30%, transparent 31%), repeating-conic-gradient(var(--loss) 0 12deg, transparent 12deg 30deg), #1a0d10}
+
+/* ---- the verdict table ---- */
+.verdict{
+  position:relative; border-radius:26px 26px 0 0; overflow:hidden;
+  background:linear-gradient(180deg, var(--felt-lit), var(--felt) 60%);
+  box-shadow:0 -1px 0 var(--brass-dim), 0 40px 90px rgba(0,0,0,.55), inset 0 1px 0 rgba(232,205,150,.22);
+  padding:0; display:grid; grid-template-columns:1.25fr 1fr;
+}
+.verdict::before{content:''; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
+  background:radial-gradient(ellipse 70% 50% at 50% 0%, rgba(232,205,150,.10), transparent 60%)}
+.v-main{padding:56px 58px; border-right:1px solid rgba(200,169,106,.16)}
+.v-kick{display:flex; align-items:center; gap:14px; font-family:var(--mono); font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--loss)}
+.v-kick .pip{width:8px; height:8px; border-radius:50%; background:var(--loss); box-shadow:0 0 12px var(--loss); animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.4}}
+.v-main h2{font-family:var(--display); font-size:clamp(36px,4vw,58px); font-weight:560; letter-spacing:-.015em; line-height:1.05; margin:18px 0 20px}
+.v-main h2 em{font-style:italic; color:var(--brass-hi); font-weight:340}
+.v-main p{color:var(--cream-mut); line-height:1.8; max-width:48ch}
+.v-figures{display:flex; gap:44px; margin-top:40px}
+.fig .n{font-family:var(--display); font-size:40px; font-weight:600; letter-spacing:-.02em}
+.fig .n.loss{color:var(--loss)} .fig .n.brass{color:var(--brass-hi)}
+.fig .l{font-family:var(--mono); font-size:9.5px; letter-spacing:.26em; text-transform:uppercase; color:var(--cream-dim); margin-top:6px}
+.v-side{padding:56px 50px; display:flex; flex-direction:column}
+.v-side .k{font-family:var(--mono); font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--cream-dim); margin-bottom:20px}
+.card-receipt{
+  display:flex; align-items:center; gap:16px; padding:14px 0; border-bottom:1px solid rgba(200,169,106,.14);
+  transition:padding .2s;
+}
+.card-receipt:hover{padding-left:8px}
+.mini-card{
+  width:30px; height:42px; border-radius:4px; background:var(--cream); color:var(--felt-deep);
+  display:grid; place-items:center; font-family:var(--display); font-weight:700; font-size:15px; flex:none;
+  box-shadow:0 4px 10px rgba(0,0,0,.5); transform:rotate(-4deg);
+}
+.mini-card.r{color:#B33951}
+.card-receipt .id{font-family:var(--mono); font-size:13px; color:var(--cream-mut)}
+.card-receipt .why{margin-left:auto; font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--cream-dim)}
+.deal-btn{
+  margin-top:auto; align-self:stretch; text-align:center; margin-top:36px;
+  font-family:var(--display); font-size:19px; font-style:italic; font-weight:500;
+  color:var(--felt-deep); background:linear-gradient(180deg,var(--brass-hi),var(--brass));
+  border:0; border-radius:999px; padding:18px 34px; cursor:pointer; text-decoration:none;
+  box-shadow:0 12px 30px rgba(200,169,106,.25), inset 0 1px 0 rgba(255,255,255,.5);
+  transition:transform .2s, box-shadow .2s;
+}
+.deal-btn:hover{transform:translateY(-3px); box-shadow:0 18px 40px rgba(200,169,106,.35), inset 0 1px 0 rgba(255,255,255,.5)}
+
+/* ---- honesty ledger ---- */
+.ledger{
+  display:grid; grid-template-columns:repeat(3,1fr); background:var(--rail);
+  border-radius:0 0 18px 18px; overflow:hidden; box-shadow:0 30px 70px rgba(0,0,0,.5);
+  background-image:linear-gradient(180deg, rgba(0,0,0,.25), transparent), repeating-linear-gradient(90deg, transparent 0 3px, rgba(0,0,0,.12) 3px 4px);
+}
+.ledger div{padding:24px 30px; border-right:1px solid rgba(0,0,0,.35); font-size:12.5px; color:#B9A88C; line-height:1.65}
+.ledger div:last-child{border-right:0}
+.ledger b{display:block; font-family:var(--mono); font-size:9px; letter-spacing:.28em; text-transform:uppercase; color:var(--brass); margin-bottom:7px}
+
+/* ---- footer strip ---- */
+.strip{display:flex; justify-content:space-between; padding:44px 4px 46px; font-family:var(--mono); font-size:10px; letter-spacing:.24em; text-transform:uppercase; color:var(--cream-dim)}
+@media(max-width:1000px){.verdict{grid-template-columns:1fr}.ledger{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="suit-mark s1">♠</div>
+<div class="suit-mark s2">♣</div>
+
+<div class="stage">
+  <header class="rail-top">
+    <div class="marque">The <i>Coach's</i> Note</div>
+    <nav class="rail-nav">
+      <a class="on" href="#">Note</a><a href="#">Hands</a><a href="#">Leaks</a><a href="#">Ranges</a><a href="#">Arena</a><a href="#">Career</a>
+    </nav>
+    <div class="seat-tag">SEAT — <b>SCORZA23</b> · 9,400 HANDS ON RECORD</div>
+  </header>
+
+  <section class="read">
+    <div class="over">House report · July 3, 2026 · one focus, receipts attached</div>
+    <h1>The table has<br><em>a read</em> on you.</h1>
+    <p>Every session you leave chips on the felt in the same spot. This desk found it, priced it,
+    and pulled the three hands that prove it. When the math can't support a verdict, it folds —
+    <b>“not graded”</b> is an answer here, never a bluff.</p>
+  </section>
+
+  <div class="chips">
+    <div class="chip">25</div><div class="chip brass">100</div><div class="chip red">500</div><div class="chip brass">100</div><div class="chip">25</div>
+  </div>
+
+  <section class="verdict">
+    <div class="v-main">
+      <div class="v-kick"><span class="pip"></span> Critical leak · Range Compliance · high confidence</div>
+      <h2>You're calling hands<br>the chart wants <em>folded.</em></h2>
+      <p>Reference match is at <strong style="color:var(--loss)">66.3%</strong> against a 90–100% table standard.
+      The bleed concentrates in facing-raise spots from the hijack — cold-calls where the reference
+      plays 3-bet-or-fold. Priced at today's stakes, that habit runs about a buy-in every two sessions.</p>
+      <div class="v-figures">
+        <div class="fig"><div class="n loss">−2,227</div><div class="l">bb est. cost</div></div>
+        <div class="fig"><div class="n">66.3%</div><div class="l">current match</div></div>
+        <div class="fig"><div class="n brass">90%+</div><div class="l">house standard</div></div>
+      </div>
+    </div>
+    <div class="v-side">
+      <div class="k">Exhibits — the costliest hands in this pattern</div>
+      <div class="card-receipt"><div class="mini-card r">A♥</div><span class="id">#DEMO-H-074-12</span><span class="why">severity · recency</span></div>
+      <div class="card-receipt"><div class="mini-card">K♠</div><span class="id">#DEMO-H-039-12</span><span class="why">representative</span></div>
+      <div class="card-receipt"><div class="mini-card r">Q♦</div><span class="id">#DEMO-H-115-10</span><span class="why">severity · recency</span></div>
+      <a class="deal-btn" href="#">Deal me the drill →</a>
+    </div>
+  </section>
+  <div class="ledger">
+    <div><b>Rule-based · no EV claims</b>Verdicts come from documented reference charts, not a solver. The desk never dresses a heuristic as an answer.</div>
+    <div><b>The fold is honest</b>214 spots refused grading — 3-bets, all-ins, multiway defense — each shown with its reason instead of a fake score.</div>
+    <div><b>Local table only</b>Your hands never leave the room. No cloud, no account, no telemetry. The house here is you.</div>
+  </div>
+
+  <footer class="strip"><span>Felt Noir direction · re-opens D2 (environment)</span><span>money-green canon intact · honesty intact</span></footer>
+</div>
+</body>
+</html>
