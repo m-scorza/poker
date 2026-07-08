@@ -2,6 +2,9 @@
 
 **Ratified by:** Matheus (owner pick, 2026-07-03, direction-lab three-way comparison)
 **Reference in pixel form:** `docs/design/direction-lab-2026-07/1-blackout.html`
+**Design system in pixel form:** `docs/design/BLACKOUT_SYSTEM.html` — every
+token, face, component (incl. tranche 2), motion rule, and the violet
+doctrine, demonstrated live. Page agents treat it as the visual dictionary.
 **Constitutional status:** D1–D5, D11–D13 remain law. BLACKOUT is an *escalation
 amendment*, not a re-opening: same palette, same violet doctrine, same honesty
 posture — executed at editorial, Awwwards-caliber intensity. The two rejected

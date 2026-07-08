@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLACKOUT SYSTEM — the law in pixel form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Hanken+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   BLACKOUT SYSTEM · design-system specimen
+   Companion to DECISIONS.md (D1–D15) + BLACKOUT_ROLLOUT.md.
+   Every pattern a page agent may use is demonstrated here.
+   The app self-hosts these faces via @fontsource; this doc
+   is a lab file and may use Google Fonts (D11 precedent).
+   ========================================================= */
+:root{
+  --bg:#0a0a0c; --bg2:#111114; --ink1:#131316; --ink3:#16161a;
+  --border:rgba(255,255,255,.07); --border-strong:rgba(255,255,255,.16);
+  --fg:#f2f2f4; --fg-muted:#8b8d94; --fg-dim:#56585f;
+  --accent:#C9CDD6;
+  --money:#34D98C; --money-soft:rgba(52,217,140,.08);
+  --loss:#FF5468; --loss-soft:rgba(255,84,104,.06);
+  --warn:#A5697B; --warn-soft:rgba(165,105,123,.10);
+  --sig:#9B6CFF; --sig-soft:rgba(155,108,255,.10); --sig-line:rgba(155,108,255,.46);
+  --display:'Bricolage Grotesque',sans-serif;
+  --sans:'Hanken Grotesk',sans-serif;
+  --mono:'Space Mono',monospace;
+  --ease-rise:cubic-bezier(.2,.9,.24,1);
+  --ease-ink:cubic-bezier(.6,0,.2,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);overflow-x:hidden;font-variant-numeric:tabular-nums}
+::selection{background:var(--sig);color:var(--bg)}
+a{color:inherit}
+
+/* halo — presence, D3/D7 as amended by D15 */
+#halo{position:fixed;width:22px;height:22px;border-radius:50%;border:1.5px solid var(--sig);pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .25s,height .25s,opacity .25s;mix-blend-mode:screen;opacity:0}
+#halo::after{content:'';position:absolute;inset:-14px;border-radius:50%;background:radial-gradient(circle,var(--sig-soft),transparent 70%)}
+body:has(a:hover,button:hover,.receipt:hover,.dt tbody tr:hover) #halo{width:44px;height:44px}
+@media (pointer:coarse){#halo{display:none}}
+
+.grid-field{position:fixed;inset:-10%;z-index:0;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,.055) 1px,transparent 1px);background-size:26px 26px;mask-image:radial-gradient(ellipse 90% 70% at 50% 30%,black,transparent)}
+.grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.5;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+.frame{position:relative;z-index:2;max-width:1500px;margin:0 auto;padding:0 48px}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:28px 0 22px;border-bottom:1px solid var(--border)}
+.brand{font-family:var(--mono);font-size:12px;letter-spacing:.34em;text-transform:uppercase}
+.brand b{color:var(--sig)}
+
+.ticker-rail{border-bottom:1px solid var(--border);overflow:hidden;padding:10px 0}
+.ticker{display:flex;gap:64px;width:max-content;animation:tick 38s linear infinite;font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--fg-dim);text-transform:uppercase;white-space:nowrap}
+.ticker:hover{animation-play-state:paused}
+.ticker span b{color:var(--fg);font-weight:400}
+.ticker .up{color:var(--money)}.ticker .dn{color:var(--loss)}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* hero */
+.hero{padding:64px 0 56px;border-bottom:1px solid var(--border)}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--fg-muted);display:flex;align-items:center;gap:14px}
+.kicker::before{content:'';width:34px;height:1px;background:var(--sig);flex:none}
+.kicker.mute::before{background:var(--fg-dim)}
+.hl{font-family:var(--display);font-optical-sizing:auto;font-size:clamp(56px,7.2vw,116px);line-height:.92;font-weight:750;letter-spacing:-.035em;margin:26px 0 0;text-wrap:balance}
+.hl .row{display:block;overflow:hidden}
+.hl .row i{display:inline-block;font-style:normal;transform:translateY(110%);animation:rise .9s var(--ease-rise) forwards}
+.hl .row:nth-child(2) i{animation-delay:.09s}
+.hl .row:nth-child(3) i{animation-delay:.18s}
+.hl em{font-style:normal;color:transparent;-webkit-text-stroke:1.5px var(--fg)}
+@keyframes rise{to{transform:translateY(0)}}
+.hero-sub{max-width:56ch;margin-top:30px;color:var(--fg-muted);font-size:16px;line-height:1.7}
+.hero-sub b{color:var(--fg);font-weight:600}
+
+/* folio */
+.folio{display:flex;align-items:baseline;gap:22px;padding:64px 0 26px}
+.folio .num{font-family:var(--display);font-size:64px;font-weight:200;line-height:1;color:transparent;-webkit-text-stroke:1px var(--fg-dim);flex:none}
+.folio h2{font-family:var(--display);font-size:24px;font-weight:640;letter-spacing:-.01em}
+.folio .rule{flex:1;height:1px;background:var(--border)}
+.folio .tag{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg-dim);flex:none}
+
+.note{font-size:13px;color:var(--fg-muted);line-height:1.7;max-width:64ch;margin-bottom:26px}
+.note b{color:var(--fg)}
+.law{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--sig);opacity:.85}
+
+/* token swatches */
+.sw-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
+.sw{background:var(--bg2);padding:20px}
+.sw .chip{height:56px;border:1px solid var(--border);margin-bottom:14px}
+.sw .nm{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.sw .hx{font-family:var(--mono);font-size:11px;color:var(--fg-dim);margin-top:3px}
+.sw .use{font-size:12px;color:var(--fg-muted);margin-top:8px;line-height:1.55}
+
+/* type specimens */
+.spec{border:1px solid var(--border);background:var(--bg2)}
+.spec-row{display:grid;grid-template-columns:260px 1fr;border-bottom:1px solid var(--border)}
+.spec-row:last-child{border-bottom:0}
+.spec-l{padding:22px 24px;border-right:1px solid var(--border)}
+.spec-l .nm{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg-muted)}
+.spec-l .dt2{font-family:var(--mono);font-size:10px;color:var(--fg-dim);margin-top:6px;line-height:1.7}
+.spec-r{padding:22px 28px;overflow:hidden;min-width:0}
+
+/* case file */
+.case{display:grid;grid-template-columns:1.35fr 1fr;border:1px solid var(--border-strong);background:linear-gradient(120deg,var(--loss-soft),transparent 46%),var(--bg2);position:relative;overflow:hidden}
+.case::before{content:attr(data-ribbon);position:absolute;right:-34px;top:34px;transform:rotate(45deg);font-family:var(--mono);font-size:10px;letter-spacing:.34em;padding:7px 48px;background:var(--loss);color:var(--bg);font-weight:700}
+.case.sev-med{background:linear-gradient(120deg,var(--warn-soft),transparent 46%),var(--bg2)}
+.case.sev-med::before{background:var(--warn)}
+.case.sev-low{background:var(--bg2)}
+.case.sev-low::before{background:var(--fg-dim)}
+.case-l{padding:46px 48px;border-right:1px solid var(--border)}
+.case-kick{font-family:var(--mono);font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--loss)}
+.case h3{font-family:var(--display);font-size:clamp(30px,3vw,44px);font-weight:720;letter-spacing:-.03em;line-height:1.02;margin:14px 0 18px}
+.case p{color:var(--fg-muted);line-height:1.75;max-width:46ch;font-size:14px}
+.case-r{padding:46px 44px;display:flex;flex-direction:column}
+.case-r .k{font-family:var(--mono);font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--fg-dim);margin-bottom:14px}
+.receipt{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 2px;border-bottom:1px solid var(--border);font-family:var(--mono);font-size:13px;color:var(--fg-muted);transition:padding .2s,color .2s;cursor:pointer}
+.receipt:hover{color:var(--fg);padding-left:10px}
+.receipt .why{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg-dim)}
+.cta{align-self:flex-start;display:inline-flex;align-items:center;gap:14px;font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg);background:transparent;border:1px solid var(--border-strong);padding:16px 26px;margin-top:30px;position:relative;overflow:hidden;text-decoration:none;transition:color .25s;cursor:pointer}
+.cta::before{content:'';position:absolute;inset:0;background:var(--fg);transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease-ink);z-index:-1}
+.cta:hover{color:var(--bg)}
+.cta:hover::before{transform:scaleX(1)}
+.cta .arr{color:var(--sig);transition:transform .3s,color .3s}
+.cta:hover .arr{transform:translateX(6px);color:var(--bg)}
+
+.honesty{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--border);border-top:0;background:var(--ink1)}
+.honesty div{padding:18px 26px;border-right:1px solid var(--border);font-size:12.5px;color:var(--fg-dim);line-height:1.6}
+.honesty div:last-child{border-right:0}
+.honesty b{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--fg-muted);margin-bottom:6px}
+
+/* dossier table */
+.dt{width:100%;border-collapse:collapse;border:1px solid var(--border);background:var(--bg2)}
+.dt th{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg-dim);text-align:left;font-weight:400;padding:14px 18px;border-bottom:1px solid var(--border-strong);cursor:pointer;user-select:none}
+.dt th.num,.dt td.num{text-align:right}
+.dt th.sorted{color:var(--fg)}
+.dt th.sorted::after{content:'▾';color:var(--sig);margin-left:8px}
+.dt td{font-size:13px;color:var(--fg-muted);padding:13px 18px;border-bottom:1px solid var(--border)}
+.dt td.num{font-family:var(--mono);font-size:12.5px}
+.dt tbody tr{transition:all .2s}
+.dt tbody tr:hover td{color:var(--fg);padding-left:26px}
+.dt tbody tr:hover td~td{padding-left:18px}
+.dt .up{color:var(--money)}.dt .dn{color:var(--loss)}
+.dt .tag{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+
+/* filter rail */
+.frail{display:flex;border:1px solid var(--border);background:var(--bg2);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;flex-wrap:wrap}
+.frail button{appearance:none;background:transparent;border:0;border-right:1px solid var(--border);color:var(--fg-dim);font:inherit;letter-spacing:inherit;text-transform:inherit;padding:13px 22px;cursor:pointer;transition:all .2s}
+.frail button:hover{color:var(--fg)}
+.frail button.on{background:var(--fg);color:var(--bg)}
+.frail .lbl{padding:13px 18px;color:var(--fg-dim);border-right:1px solid var(--border);opacity:.7}
+
+/* empty state */
+.empty{border:1px solid var(--border);background:var(--bg2);padding:64px 48px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.empty .num{font-family:var(--display);font-size:88px;font-weight:200;line-height:1;color:transparent;-webkit-text-stroke:1px var(--fg-dim)}
+.empty .msg{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--fg-muted);margin:22px 0 4px}
+.empty .sub{font-size:13px;color:var(--fg-dim)}
+
+/* modal demo */
+.modal-veil{position:fixed;inset:0;background:rgba(6,6,8,.72);z-index:100;opacity:0;pointer-events:none;transition:opacity .25s}
+.modal-veil.open{opacity:1;pointer-events:auto}
+.casefile{position:fixed;top:0;right:0;bottom:0;width:min(480px,92vw);background:var(--bg2);border-left:1px solid var(--border-strong);z-index:101;transform:translateX(102%);transition:transform .35s var(--ease-ink);display:flex;flex-direction:column}
+.casefile.open{transform:none}
+.casefile .cf-head{display:flex;justify-content:space-between;align-items:center;padding:22px 28px;border-bottom:1px solid var(--border)}
+.casefile .cf-head .id{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg-muted)}
+.casefile .cf-body{padding:28px;color:var(--fg-muted);font-size:14px;line-height:1.75}
+.casefile .x{appearance:none;background:none;border:1px solid var(--border);color:var(--fg-muted);font-family:var(--mono);font-size:11px;padding:8px 14px;cursor:pointer;letter-spacing:.14em}
+.casefile .x:hover{color:var(--fg);border-color:var(--border-strong)}
+
+/* density comparison */
+.dens{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border)}
+.dens>div{background:var(--bg2);padding:40px 36px;min-width:0}
+.dens .hl2{font-family:var(--display);font-weight:750;letter-spacing:-.035em;line-height:.95;margin-top:18px}
+.dens .d-display .hl2{font-size:clamp(48px,4.6vw,84px)}
+.dens .d-work .hl2{font-size:clamp(28px,2.6vw,44px)}
+
+/* matrix D12 */
+.mx-band{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.mx{display:grid;grid-template-columns:repeat(13,1fr);gap:3px;max-width:520px}
+.mx i{aspect-ratio:1;background:rgba(255,255,255,.015);border:1px solid rgba(255,255,255,.045);transition:transform .18s,background .18s;position:relative}
+.mx i.o{background:color-mix(in srgb,var(--accent) 26%,#111114)}
+.mx i.m{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 26%,#111114) 50%,rgba(255,255,255,.015) 50%);border-style:dashed}
+.mx i.d{background:rgba(255,84,104,.24)}
+.mx i:hover{transform:scale(1.5);background:var(--sig);z-index:2}
+.legend{display:flex;flex-direction:column;gap:14px}
+.legend .li{display:flex;align-items:center;gap:14px;font-size:13px;color:var(--fg-muted)}
+.legend .li i{width:22px;height:22px;flex:none;border:1px solid rgba(255,255,255,.045)}
+.legend .li b{color:var(--fg);font-weight:600}
+
+/* motion demos */
+.mo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
+.mo{background:var(--bg2);padding:30px;min-height:190px;display:flex;flex-direction:column;gap:16px}
+.mo .nm{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg-muted)}
+.mo .dt2{font-family:var(--mono);font-size:10px;color:var(--fg-dim);line-height:1.8}
+.replay{align-self:flex-start;appearance:none;background:none;border:1px solid var(--border);color:var(--fg-muted);font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;padding:8px 14px;cursor:pointer;margin-top:auto}
+.replay:hover{color:var(--fg);border-color:var(--border-strong)}
+.demo-title{font-family:var(--display);font-size:40px;font-weight:750;letter-spacing:-.03em;line-height:.95}
+.demo-title .row{display:block;overflow:hidden}
+.demo-title .row i{display:inline-block;font-style:normal}
+.demo-title.play .row i{transform:translateY(110%);animation:rise .9s var(--ease-rise) forwards}
+.demo-title.play .row:nth-child(2) i{animation-delay:.09s}
+
+/* do / don't */
+.dd{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border)}
+.dd>div{background:var(--bg2);padding:30px 34px}
+.dd h4{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;margin-bottom:18px}
+.dd .do h4,.dd>div:first-child h4{color:var(--money)}
+.dd>div:last-child h4{color:var(--loss)}
+.dd ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.dd li{font-size:13px;color:var(--fg-muted);line-height:1.6;padding-left:18px;position:relative}
+.dd li::before{content:'—';position:absolute;left:0;color:var(--fg-dim)}
+.dd li b{color:var(--fg)}
+
+/* inkfield spec panel */
+.ink{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--border);background:var(--bg2)}
+.ink .demo{min-height:280px;position:relative;overflow:hidden;border-right:1px solid var(--border);background:
+  radial-gradient(60% 80% at 30% 40%,rgba(201,205,214,.05),transparent 70%),
+  radial-gradient(50% 70% at 75% 65%,rgba(52,217,140,.035),transparent 70%),
+  url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),#0b0b0e}
+.ink .demo .cap{position:absolute;left:22px;bottom:18px;font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg-dim)}
+.ink .spec-txt{padding:34px 38px}
+.ink .spec-txt ul{list-style:none;display:flex;flex-direction:column;gap:11px;margin-top:18px}
+.ink .spec-txt li{font-size:13px;color:var(--fg-muted);line-height:1.6;padding-left:18px;position:relative}
+.ink .spec-txt li::before{content:'—';position:absolute;left:0;color:var(--fg-dim)}
+.ink .spec-txt li b{color:var(--fg)}
+
+footer{border-top:1px solid var(--border);margin-top:90px;padding:26px 0 44px;display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--fg-dim)}
+
+@media (prefers-reduced-motion:reduce){
+  .hl .row i,.demo-title.play .row i{animation:none;transform:none}
+  .ticker{animation:none}
+  #halo{display:none}
+}
+@media (max-width:1000px){
+  .frame{padding:0 20px}
+  .case,.mx-band,.dens,.dd,.ink{grid-template-columns:1fr}
+  .case-l,.ink .demo{border-right:0;border-bottom:1px solid var(--border)}
+  .honesty{grid-template-columns:1fr}
+  .honesty div{border-right:0;border-bottom:1px solid var(--border)}
+  .honesty div:last-child{border-bottom:0}
+  .spec-row{grid-template-columns:1fr}
+  .spec-l{border-right:0;border-bottom:1px solid var(--border)}
+}
+</style>
+</head>
+<body>
+<div id="halo"></div>
+<div class="grid-field"></div>
+<div class="grain"></div>
+
+<div class="frame">
+  <header class="topbar">
+    <div class="brand">POKER <b>//</b> BLACKOUT SYSTEM</div>
+    <div class="brand" style="letter-spacing:.14em;color:var(--fg-dim)">D1–D15 · THE LAW IN PIXEL FORM</div>
+  </header>
+
+  <div class="ticker-rail"><div class="ticker">
+    <span>CHASSIS <b>INK MONO</b></span><span>SIGNATURE <b>VIOLET · PRESENCE ONLY</b></span><span>MONEY <b class="up">ALWAYS #34D98C</b></span><span>LOSS <b class="dn">#FF5468</b></span><span>TYPE <b>BRICOLAGE / HANKEN / SPACE MONO</b></span><span>MOTION <b>FRAMER-MOTION ONLY</b></span><span>REFUSALS TRAVEL IN THIS STREAM</span>
+    <span aria-hidden="true">CHASSIS <b>INK MONO</b></span><span aria-hidden="true">SIGNATURE <b>VIOLET · PRESENCE ONLY</b></span><span aria-hidden="true">MONEY <b class="up">ALWAYS #34D98C</b></span><span aria-hidden="true">LOSS <b class="dn">#FF5468</b></span><span aria-hidden="true">TYPE <b>BRICOLAGE / HANKEN / SPACE MONO</b></span><span aria-hidden="true">MOTION <b>FRAMER-MOTION ONLY</b></span><span aria-hidden="true">REFUSALS TRAVEL IN THIS STREAM</span>
+  </div></div>
+
+  <section class="hero">
+    <div class="kicker">The design system — every pattern a page may ship</div>
+    <h1 class="hl">
+      <span class="row"><i>One palette.</i></span>
+      <span class="row"><i>One <em>grammar.</em></i></span>
+      <span class="row"><i>No catalog.</i></span>
+    </h1>
+    <p class="hero-sub">This page is the executable companion to <b>DECISIONS.md</b> and
+    <b>BLACKOUT_ROLLOUT.md</b>. If a pattern is not on this page or in those files, it does not
+    ship without an amendment. The catalog habit is the named enemy — this is the whole catalog.</p>
+  </section>
+
+  <div class="folio"><span class="num">01</span><h2>Tokens</h2><div class="rule"></div><span class="tag">D2 · D4 · D13</span></div>
+  <p class="note">The chassis is quiet so the semantics can be loud. <b>More saturation = more money
+  bleeding.</b> Severity is intensity of one hue, never a new hue; a label always accompanies color.</p>
+  <div class="sw-grid">
+    <div class="sw"><div class="chip" style="background:#0a0a0c"></div><div class="nm">--bg · ink</div><div class="hx">#0a0a0c</div><div class="use">Page chassis. The product is dark; light mode is parked, not designed.</div></div>
+    <div class="sw"><div class="chip" style="background:#111114"></div><div class="nm">--bg-2 · compartment</div><div class="hx">#111114</div><div class="use">Surfaces are tone-shifts, border 0. Structure is drawn with 1px hairlines.</div></div>
+    <div class="sw"><div class="chip" style="background:#f2f2f4"></div><div class="nm">--fg</div><div class="hx">#f2f2f4</div><div class="use">Primary type. Dims through --fg-muted #8b8d94 to --fg-dim #56585f.</div></div>
+    <div class="sw"><div class="chip" style="background:#C9CDD6"></div><div class="nm">--accent · silver</div><div class="hx">#C9CDD6</div><div class="use">The interactive accent. In-range matrix fill at 26% mix.</div></div>
+    <div class="sw"><div class="chip" style="background:#34D98C"></div><div class="nm">--money</div><div class="hx">#34D98C</div><div class="use">Money-positive is ALWAYS this green, in every present and future theme. The brand signal.</div></div>
+    <div class="sw"><div class="chip" style="background:#FF5468"></div><div class="nm">--loss · critical</div><div class="hx">#FF5468</div><div class="use">Loss and CRITICAL severity. Earned per D4 — it pops because the field is quiet.</div></div>
+    <div class="sw"><div class="chip" style="background:#A5697B"></div><div class="nm">--warn · review</div><div class="hx">#A5697B</div><div class="use">Warning = the danger hue a full intensity stop down. No pulse. Label reads REVIEW. Yellow is purged.</div></div>
+    <div class="sw"><div class="chip" style="background:#9B6CFF"></div><div class="nm">--sig · violet</div><div class="hx">#9B6CFF</div><div class="use">Presence and wayfinding ONLY: halo, selection, focus, nav tick, CTA arrow, live pulse. Never surfaces, never data. <span class="law">D3</span></div></div>
+  </div>
+
+  <div class="folio"><span class="num">02</span><h2>Typography</h2><div class="rule"></div><span class="tag">D9 as amended by D15 · self-hosted</span></div>
+  <p class="note">The Ledger trio. Treatment carries the identity: huge display-to-label contrast,
+  tight display tracking, uppercase mono kickers, <b>tabular numerals everywhere</b>.
+  Legibility floor: mono never below 10px; at 10px, tracking caps at .26em.</p>
+  <div class="spec">
+    <div class="spec-row">
+      <div class="spec-l"><div class="nm">Display · Bricolage Grotesque</div><div class="dt2">700–800 · clamp(56,7vw,116) display mode<br>clamp(28,4vw,44) work mode<br>lh ≤ .95 · track −.035em<br>one outlined word per title</div></div>
+      <div class="spec-r"><div style="font-family:var(--display);font-size:clamp(40px,4.6vw,84px);font-weight:750;letter-spacing:-.035em;line-height:.95">The <em style="font-style:normal;color:transparent;-webkit-text-stroke:1.5px var(--fg)">dossier</em> voice.</div></div>
+    </div>
+    <div class="spec-row">
+      <div class="spec-l"><div class="nm">Body · Hanken Grotesk</div><div class="dt2">300–700 · 13–16px · lh 1.6–1.75<br>invisible at paragraph sizes</div></div>
+      <div class="spec-r"><p style="max-width:56ch;color:var(--fg-muted);line-height:1.7;font-size:15px">One focus at a time, receipts attached. No invented signals — when the data can't support a verdict, this desk says <b style="color:var(--fg)">"not graded"</b> and shows you why. That refusal is the product.</p></div>
+    </div>
+    <div class="spec-row">
+      <div class="spec-l"><div class="nm">Data · Space Mono</div><div class="dt2">400/700 · 10–13px<br>kickers: uppercase · .2–.34em<br>numerics: tabular, right-aligned</div></div>
+      <div class="spec-r">
+        <div class="kicker" style="margin-bottom:16px">Kicker with violet presence hairline</div>
+        <div class="kicker mute" style="margin-bottom:16px">Kicker with neutral hairline</div>
+        <div style="font-family:var(--mono);font-size:13px;color:var(--fg-muted)">VPIP 24.1 · PFR 19.8 · NET <span style="color:var(--money)">+412 BB</span> · REF MATCH <span style="color:var(--loss)">66.3%</span> · #DEMO-H-074-12</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="folio"><span class="num">03</span><h2>The case file</h2><div class="rule"></div><span class="tag">severity = intensity of one hue</span></div>
+  <p class="note">The core dossier unit. Ribbon + tint carry severity (<b>critical/high</b> = loss,
+  <b>medium</b> = warn, <b>low</b> = neutral); receipts are hoverable evidence rows; the CTA fills with ink
+  left→right and its violet arrow marks the action point. The honesty strip is chrome, not a tooltip.</p>
+  <div class="case" data-ribbon="CRITICAL">
+    <div class="case-l">
+      <div class="case-kick">Range Compliance · preflop</div>
+      <h3>Deviating from your reference ranges too often.</h3>
+      <p>Reference match sits at <strong style="color:var(--loss)">66.3%</strong> against a 90–100% target.
+      The pattern concentrates in facing-raise spots from the hijack.</p>
+    </div>
+    <div class="case-r">
+      <div class="k">The receipts — costliest hands in this pattern</div>
+      <div class="receipt"><span>#DEMO-H-074-12</span><span class="why">severity · recency</span></div>
+      <div class="receipt"><span>#DEMO-H-039-12</span><span class="why">representativeness</span></div>
+      <button class="cta" id="openModal">Open the case file <span class="arr">→</span></button>
+    </div>
+  </div>
+  <div class="honesty">
+    <div><b>Rule-based, no EV</b>Preflop checks mapped from documented charts. No solver claims are made anywhere on this desk.</div>
+    <div><b>Refusal-as-UI</b>Ungradeable spots are excluded — each with its reason on screen. Never a fake 100%.</div>
+    <div><b>Local only</b>Your hands never leave this machine. No cloud, no telemetry, no account.</div>
+  </div>
+
+  <div class="folio"><span class="num">04</span><h2>Tranche 2 — the working patterns</h2><div class="rule"></div><span class="tag">Foundation v2 · D15</span></div>
+  <p class="note">What dense tool pages are made of. <b>Dossier table:</b> hairline rows, no zebra, mono numerics,
+  row hover = padding shift; sort tick is violet (wayfinding). <b>Filter rail:</b> a mono strip, active segment
+  inverted — never dropdown soup. <b>Empty state:</b> a dossier page with nothing filed.</p>
+
+  <div class="frail" style="margin-bottom:22px">
+    <span class="lbl">Position</span>
+    <button class="on">All</button><button>BTN</button><button>SB</button><button>BB</button><button>CO</button>
+    <span class="lbl" style="border-left:1px solid var(--border)">Verdict</span>
+    <button class="on">Any</button><button>Leak</button><button>Not graded</button>
+  </div>
+
+  <table class="dt">
+    <thead><tr><th>Hand</th><th>Position</th><th>Scenario</th><th class="num sorted">Net BB</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td style="font-family:var(--mono);font-size:12.5px">#260356646368</td><td>HJ</td><td>Facing raise</td><td class="num dn">−41.0</td><td><span class="tag dn">LEAK · COLD CALL</span></td></tr>
+      <tr><td style="font-family:var(--mono);font-size:12.5px">#260356646402</td><td>BTN</td><td>RFI</td><td class="num up">+12.5</td><td><span class="tag" style="color:var(--fg-dim)">IN RANGE</span></td></tr>
+      <tr><td style="font-family:var(--mono);font-size:12.5px">#260356646551</td><td>BB</td><td>vs 3-bet</td><td class="num">0.0</td><td><span class="tag" style="color:var(--fg-muted)">NOT GRADED · MULTIWAY</span></td></tr>
+    </tbody>
+  </table>
+
+  <div style="height:26px"></div>
+  <div class="empty">
+    <div class="num">00</div>
+    <div class="msg">Nothing filed under this filter</div>
+    <div class="sub">Widen the filter, or import a session to open new cases.</div>
+    <button class="cta" style="margin-top:26px">Import hands <span class="arr">→</span></button>
+  </div>
+
+  <div class="folio"><span class="num">05</span><h2>Density modes</h2><div class="rule"></div><span class="tag">display / work</span></div>
+  <p class="note">Same grammar, two scales. <b>display</b> for editorial surfaces (Coach's Note, Career, landing);
+  <b>work</b> for dense tools (Hands, Ranges, Sessions, Villains). A dense page never degrades to
+  "big title on an old table" — it uses work mode.</p>
+  <div class="dens">
+    <div class="d-display"><div class="kicker">data-density="display"</div><div class="hl2">The focus.</div></div>
+    <div class="d-work"><div class="kicker mute">data-density="work"</div><div class="hl2">Hands — 9,400 filed.</div></div>
+  </div>
+
+  <div class="folio"><span class="num">06</span><h2>Matrix encoding</h2><div class="rule"></div><span class="tag">D12 · violet never touches data</span></div>
+  <div class="mx-band">
+    <div class="mx" id="mx" aria-hidden="true"></div>
+    <div class="legend">
+      <div class="li"><i style="background:color-mix(in srgb,#C9CDD6 26%,#111114)"></i><span><b>In range</b> — solid silver fill, bright label</span></div>
+      <div class="li"><i style="background:rgba(255,255,255,.015)"></i><span><b>Fold</b> — near-invisible, dim label</span></div>
+      <div class="li"><i style="background:linear-gradient(135deg,color-mix(in srgb,#C9CDD6 26%,#111114) 50%,rgba(255,255,255,.015) 50%);border-style:dashed"></i><span><b>Mixed</b> — half-fill 135°, dashed border. A frequency, not a category.</span></div>
+      <div class="li"><i style="background:rgba(255,84,104,.24)"></i><span><b>Leaking</b> — loss red, the verdict color, earned per D4</span></div>
+      <div class="li"><i style="background:var(--sig)"></i><span><b>Hover</b> — the one violet-touches-a-cell exception: scale 1.5 at the cursor. Presence, not encoding.</span></div>
+    </div>
+  </div>
+
+  <div class="folio"><span class="num">07</span><h2>Motion</h2><div class="rule"></div><span class="tag">framer-motion only · D10 as amended by D15</span></div>
+  <p class="note"><b>One orchestrated reveal per page</b> — title rows rise, metadata fades up, cells stagger in.
+  Route changes: exit fade @ .99 scale ~200ms, enter as the page reveal; the spinner between routes is dead.
+  Reduced motion collapses everything to fades.</p>
+  <div class="mo-grid">
+    <div class="mo"><div class="nm">Title reveal</div>
+      <div class="demo-title play" id="demoTitle"><span class="row"><i>Rows rise,</i></span><span class="row"><i>staggered 90ms.</i></span></div>
+      <button class="replay" id="replayBtn">Replay</button>
+    </div>
+    <div class="mo"><div class="nm">Ink fill · hover the CTA</div>
+      <button class="cta" style="margin-top:2px">Drill it <span class="arr">→</span></button>
+      <div class="dt2">scaleX 0→1 · origin left · --ease-ink<br>label inverts · arrow is violet, travels +6px</div>
+    </div>
+    <div class="mo"><div class="nm">Tokens</div>
+      <div class="dt2">--ease-rise · cubic-bezier(.2,.9,.24,1)<br>--ease-ink · cubic-bezier(.6,0,.2,1)<br>micro 200ms · move 300ms<br>reveal 900ms · stagger 90ms<br><br>Primitives: &lt;TitleReveal&gt; &lt;FolioSection&gt; &lt;PageTransition&gt;</div>
+    </div>
+  </div>
+
+  <div class="folio"><span class="num">08</span><h2>InkField</h2><div class="rule"></div><span class="tag">D15's instrument exception to D8</span></div>
+  <div class="ink">
+    <div class="demo"><span class="cap">static-grain fallback shown · live version is WebGL</span></div>
+    <div class="spec-txt">
+      <div class="kicker mute">The showpiece — admitted as an instrument or not at all</div>
+      <ul>
+        <li><b>What:</b> a living ink-light field — slow fluid grain that leans toward the cursor, drifts with scroll, tints imperceptibly toward money/loss with the session's net.</li>
+        <li><b>Where:</b> landing hero (primary), optionally Arena. Nowhere else, ever.</li>
+        <li><b>Never:</b> violet, rainbow, plasma. It responds to the user's data or it doesn't exist.</li>
+        <li><b>Budget:</b> raw WebGL, zero deps · DPR ≤ 1.5 · rAF pauses off-screen and tab-hidden · static-grain fallback for no-WebGL and reduced-motion.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="folio"><span class="num">09</span><h2>The violet doctrine</h2><div class="rule"></div><span class="tag">D3 · the first law</span></div>
+  <div class="dd">
+    <div><h4>Violet may touch</h4>
+      <ul>
+        <li><b>The halo</b> — 22px ring, 44px over targets, mix-blend screen</li>
+        <li><b>Selection</b> and <b>focus rings</b></li>
+        <li><b>Active nav tick</b>, tab underline, breadcrumb current</li>
+        <li><b>CTA arrows</b> and the live pulse</li>
+        <li>The kicker's presence hairline</li>
+        <li>Matrix cell <b>at the cursor only</b> (scale 1.5 hover)</li>
+      </ul>
+    </div>
+    <div><h4>Violet must never touch</h4>
+      <ul>
+        <li>Surfaces, backgrounds, borders-at-rest</li>
+        <li><b>Charts or any data series</b></li>
+        <li>Matrix encoding (mixed is half-fill, not violet)</li>
+        <li>Severity (warning is faded loss, not violet)</li>
+        <li>Body text, headings, numbers</li>
+        <li>Anything decorative. If it isn't the user's presence or the way forward, it isn't violet.</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer><span>Blackout System · docs/design/BLACKOUT_SYSTEM.html</span><span>DECISIONS.md D1–D15 · BLACKOUT_ROLLOUT.md · no pattern beyond this page without amendment</span></footer>
+</div>
+
+<div class="modal-veil" id="veil"></div>
+<aside class="casefile" id="casefile" role="dialog" aria-modal="true" aria-label="Case file demo">
+  <div class="cf-head"><span class="id">FILE · #DEMO-H-074-12</span><button class="x" id="closeModal">CLOSE ESC</button></div>
+  <div class="cf-body">
+    <div class="kicker mute" style="margin-bottom:18px">The pulled-file modal — tranche 2</div>
+    <p>The modal is a physical object: it slides from the trigger's side over a dimmed — never blurred —
+    backdrop, carries a folio header and a severity ribbon when graded, and closes by sliding back.
+    Focus-trapped; Escape closes; reduced-motion swaps the slide for a fade.</p>
+  </div>
+</aside>
+
+<script>
+// presence halo (lab version — the app uses the lerped CursorHalo component)
+const halo=document.getElementById('halo');
+addEventListener('mousemove',e=>{halo.style.opacity=1;halo.style.left=e.clientX+'px';halo.style.top=e.clientY+'px'});
+// matrix demo
+const mx=document.getElementById('mx');
+for(let i=0;i<169;i++){const c=document.createElement('i');const r=Math.random();
+  c.className=r>.86?'d':r>.74?'m':r>.46?'o':'';mx.appendChild(c);}
+// title reveal replay
+const dt=document.getElementById('demoTitle');
+document.getElementById('replayBtn').addEventListener('click',()=>{dt.classList.remove('play');void dt.offsetWidth;dt.classList.add('play');});
+// case-file modal
+const veil=document.getElementById('veil'),cf=document.getElementById('casefile');
+const open=()=>{veil.classList.add('open');cf.classList.add('open')};
+const close=()=>{veil.classList.remove('open');cf.classList.remove('open')};
+document.getElementById('openModal').addEventListener('click',open);
+document.getElementById('closeModal').addEventListener('click',close);
+veil.addEventListener('click',close);
+addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+</script>
+</body>
+</html>
