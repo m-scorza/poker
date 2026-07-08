@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { Sidebar } from './Sidebar';
+import { CommandPalette } from '../shared/CommandPalette';
 import { useEffect } from 'react';
 import { getHeroName } from '../../data/store';
 import { useAppStore } from '../../data/appStore';
@@ -63,6 +64,7 @@ export function Layout() {
     <>
       <div className="dots" />
       <CursorHalo />
+      <CommandPalette />
       <div className="relative z-10 flex min-h-screen">
         <Sidebar />
         <main className="flex-1 pb-20 md:pb-6 md:ml-56 p-4 md:p-6 md:pt-16 transition-all">
