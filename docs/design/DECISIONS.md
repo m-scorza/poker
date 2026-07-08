@@ -142,3 +142,42 @@ reveals; the dossier grammar (numbered folios, vertical mono rails, case-file ca
 violet **presence halo** as D3 made physical; the live stat ticker with refusals in the
 stream; the honesty strip as chrome. Full spec + rollout order:
 `docs/design/BLACKOUT_ROLLOUT.md`. The rejected alternates stay in the lab as quarry (D11).
+
+## D15 · Foundation v2 — the hardening amendment (2026-07-08)
+
+**Written reason for touching settled ground:** BLACKOUT's Step-0 foundation shipped with
+gaps that would have propagated into all nine page PRs of the rollout: the D14 type table
+was declared but not delivered (only Bricolage self-hosted; tokens still name D9's
+Inter/JetBrains, which are loaded nowhere and silently fall back to system fonts), motion
+exists only as CSS keyframes with hardcoded delays (routes still swap through a loading
+spinner), the dossier grammar is proven only on the lowest-density page, and mobile is
+amputation (rails deleted below 1000px) rather than interpretation. D14 also quietly
+contradicted D7/D9/D10 without written reasons — this amendment settles those accounts.
+Hardening the base once is cheaper than retrofitting nine pages.
+
+- **Type — amends D9.** The Ledger trio wins after all: **Bricolage Grotesque (display) /
+  Hanken Grotesk (body) / Space Mono (data)**. D9's "practicality won" rationale failed:
+  D14's type table already ratified the Ledger faces, and the dossier voice needs Space
+  Mono's character at data sizes — JetBrains reads developer-tool, not printed-document.
+  All three are self-hosted via `@fontsource`; no runtime remote fetches, ever.
+- **One motion library — amends D10.** framer-motion (`motion`/motion.dev) is the ONLY
+  animation dependency. GSAP is removed (closes abyss F12); its timeline draw-ins are
+  rebuilt on motion values/springs or plain CSS. Route changes get AnimatePresence
+  transitions — the spinner between pages is dead. The ~5-moments-per-screen budget and
+  reduced-motion law stand.
+- **Halo — amends D7's cap.** D14's pixel reference ratified the 22→44px mix-blend
+  presence halo; D7's ~14px ceiling is lifted for it. The behavioral roadmap (magnetic
+  targets, matrix-cell snap) stays. `cursor: none` remains forbidden in the product.
+- **The instrument exception — amends D8, tightly scoped.** "Shader-bg (WebGL)" stays
+  retired *as decoration*. One **data-reactive shader instrument** — `InkField` — is
+  permitted on at most two surfaces (the landing hero; optionally the Arena): a living
+  ink-light field driven by cursor, scroll, and session P&L tint (money/loss). It ships
+  with a static-grain fallback (no-WebGL, `prefers-reduced-motion`), capped DPR, and rAF
+  paused off-screen. D6's "never a default GPU cost" holds everywhere else. Effects age;
+  this is admitted as an instrument or not at all.
+- **Grammar completion.** The tranche-2 patterns (dossier table, case-file modal, filter
+  rail, chart tokens, empty states, two density modes) and the mobile grammar are specified
+  in `BLACKOUT_ROLLOUT.md` §Foundation v2 and MUST land before any page wave dispatches.
+- **New rollout surfaces.** A standalone marketing **landing page** (separate route; the
+  app's entry behavior is unchanged) and **DashboardPage** (previously omitted, the most
+  legacy surface) join the rollout order.

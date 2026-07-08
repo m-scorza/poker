@@ -368,13 +368,24 @@ type VillainArchetype = 'fish' | 'nit' | 'tag' | 'lag' | 'station' | 'maniac';
 
 ## UI/UX
 
-- **Theme:** Dark mode. Background `#0a0a0f`, green accents `#00ff88`, red `#ff4444`, neutral blue-gray.
-- **Typography:** Monospace (JetBrains Mono) for numbers, sans-serif (DM Sans) for labels.
-- **Cards:** Suits — spades white, hearts red, diamonds blue, clubs green.
-- **Range grid:** 13×13. Pairs on diagonal. Suited above, offsuit below. Color by compliance.
-- **Charts:** Recharts. Line for evolution, bar for session comparisons.
+**Ground truth is `docs/design/` — `DECISIONS.md` (D1–D15), `DESIGN.md`,
+`BLACKOUT_ROLLOUT.md`. This section is a pointer, not a spec; when it drifts,
+the design docs win.**
+
+- **Direction:** BLACKOUT (D14/D15) — a printed intelligence dossier that
+  happens to be alive. INK MONO chassis `#0a0a0c`/`#111114`, silver type
+  `#C9CDD6`; violet `#9B6CFF` ONLY at user presence/wayfinding, never on data;
+  money-positive ALWAYS `#34D98C`, loss `#FF5468`, warn `#A5697B`.
+- **Typography:** Bricolage Grotesque (display) / Hanken Grotesk (body) /
+  Space Mono (data), self-hosted via `@fontsource`. Tabular numerals globally.
+- **Motion:** framer-motion only. One orchestrated reveal per page;
+  `prefers-reduced-motion` collapses to fades.
+- **Range grid:** 13×13 per D12. Pairs on diagonal, suited above, offsuit
+  below; mixed = half-fill of the action color, never violet, never yellow.
+- **Charts:** Recharts themed exclusively from tokens (see BLACKOUT_ROLLOUT
+  §chart tokens).
 - **Language:** UI in English only. Code in English.
-- **Layout:** Left sidebar (Dashboard / Hands / Stats / Ranges / Leaks / Sessions / Villains / Arena / Career / Demo) + main content.
+- **Layout:** Left sidebar (desktop) / bottom tab bar (mobile) + main content.
 
 ---
 
