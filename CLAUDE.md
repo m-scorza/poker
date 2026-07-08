@@ -359,7 +359,7 @@ interface VillainProfile {
 }
 
 type Position = 'UTG' | 'UTG+1' | 'MP1' | 'MP' | 'MP2' | 'HJ' | 'CO' | 'BTN' | 'SB' | 'BB' | 'BTN/SB';
-type Scenario = 'RFI' | 'BLIND_WAR' | 'HU_BTN' | 'FACING_RAISE' | 'FACING_ALL_IN' | 'FACING_LIMP' | 'BB_VS_RAISE' | 'BB_VS_LARGE_RAISE' | 'BB_VS_LIMP' | 'WALK';
+type Scenario = 'RFI' | 'BLIND_WAR' | 'HU_BTN' | 'FACING_RAISE' | 'FACING_3BET' | 'FACING_ALL_IN' | 'FACING_LIMP' | 'BB_VS_RAISE' | 'BB_VS_RAISE_MULTIWAY' | 'BB_VS_LARGE_RAISE' | 'BB_VS_LIMP' | 'WALK';
 type DeviationType = 'OVERFOLD' | 'OPENED_OUT_OF_RANGE' | 'LIMPED' | 'SB_OVERFOLD' | 'SB_LIMPED' | 'SB_OUT_OF_RANGE' | 'COLD_CALL' | 'BB_FOLD_SUITED' | 'SB_COLD_CALL' | 'FOLD_VS_LIMP' | 'LIMP_BEHIND' | 'HU_BTN_FOLD';
 type VillainArchetype = 'fish' | 'nit' | 'tag' | 'lag' | 'station' | 'maniac';
 ```
