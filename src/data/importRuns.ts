@@ -10,16 +10,13 @@ import {
 } from './importDiagnosticsPolicy';
 
 export {
-  IMPORT_DIAGNOSTICS_EXPORT_RUNS,
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,
   MAX_DIAGNOSTIC_TEXT_LENGTH,
-  buildImportDiagnosticsSnapshot,
   sanitizeDiagnosticSourceFile,
   sanitizeDiagnosticText,
 } from './importDiagnosticsPolicy';
 export type {
   ImportDiagnosticsEnvironment,
-  ImportDiagnosticsSnapshot,
 } from './importDiagnosticsPolicy';
 
 export interface SavedImportCounts {
@@ -87,7 +84,7 @@ export type ImportWarningCategory =
   | 'partial_import'
   | 'other';
 
-export interface ImportWarningCategoryRow {
+interface ImportWarningCategoryRow {
   category: ImportWarningCategory;
   label: string;
   count: number;

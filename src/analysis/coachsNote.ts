@@ -20,13 +20,13 @@ import type { Leak } from './leakDetector';
 import { buildStudyQueue, type StudyQueueEvidence, type StudyQueueItem } from './studyPlan';
 import { selectProofHands, type ProofHandReason } from './proofHandSelector';
 
-export interface ReceiptHand {
+interface ReceiptHand {
   handId: string;
   /** Why this hand was surfaced (empty for deviation-sourced, leak-specific hands). */
   reasons: ProofHandReason[];
 }
 
-export interface CoachFocus {
+interface CoachFocus {
   leakTitle: string;
   explanation: string;
   severity: StudyQueueItem['severity'];

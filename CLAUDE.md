@@ -390,7 +390,7 @@ src/
 ├── data/           ranges.ts*, store.ts (IndexedDB/Dexie), appStore.ts (Zustand),
 │                   sessions.ts, strategyProfiles.ts, pushFold/local heads-up refs
 ├── components/     layout/ (Layout, Sidebar, ErrorBoundary),
-│                   dashboard/ (TrendChart, StudyPlanCard, ValueSnapshotCard),
+│                   dashboard/ (TrendChart, BankrollChart, PositionalHeatmap),
 │                   career/, hands/ (HandReplay, HandsTable, HandsUpload),
 │                   shared/ (Card, StatCard, RangeGrid, DualRangeMatrix,
 │                            InfoTooltip, ConfirmDialog, DemoDataButton)

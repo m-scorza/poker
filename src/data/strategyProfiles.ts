@@ -25,7 +25,7 @@ export type BoardTexture =
 
 // --- C-bet Rules ---
 
-export interface CbetContext {
+interface CbetContext {
   boardTexture: BoardTexture;
   isInPosition: boolean;
   isHU: boolean;         // Heads-up on flop
@@ -44,7 +44,7 @@ export interface CbetRule {
  * Game Plan: always c-bet 100% at 33% when HU IP as PFR.
  * Source: [GamePlan] "C-bet 100% of hands with 33% pot sizing"
  */
-export const gamePlanCbet: CbetRule = {
+const gamePlanCbet: CbetRule = {
   profile: 'game_plan',
   shouldCbet: (ctx) => ctx.heroIsPFR && ctx.isHU && ctx.isInPosition,
   recommendedSizing: () => 0.33,
@@ -54,7 +54,7 @@ export const gamePlanCbet: CbetRule = {
  * Advanced: texture-dependent c-bet decisions.
  * Source: [Vol.2, D#09, D#10], docs/knowledge/strategy/04-postflop-strategy.md §2
  */
-export const advancedCbet: CbetRule = {
+const advancedCbet: CbetRule = {
   profile: 'advanced',
   shouldCbet: (ctx) => {
     if (!ctx.heroIsPFR) return false;
@@ -96,7 +96,7 @@ export interface LeakThresholds {
  * Game Plan thresholds — from CLAUDE.md Metrics & Targets.
  * Source: [GamePlan]
  */
-export const GAME_PLAN_THRESHOLDS: LeakThresholds = {
+const GAME_PLAN_THRESHOLDS: LeakThresholds = {
   vpip: { min: 20, max: 30 },
   pfr: { min: 15, max: 23 },
   threeBetPct: null, // Not tracked in Game Plan
@@ -115,7 +115,7 @@ export const GAME_PLAN_THRESHOLDS: LeakThresholds = {
  * Advanced thresholds — from docs/knowledge/strategy/09-study-methods-and-tools.md §4.
  * Source: [Vol.3, 09-study §4]
  */
-export const ADVANCED_THRESHOLDS: LeakThresholds = {
+const ADVANCED_THRESHOLDS: LeakThresholds = {
   vpip: { min: 20, max: 28 },
   pfr: { min: 18, max: 25 },
   threeBetPct: { min: 7, max: 10 },

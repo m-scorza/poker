@@ -16,7 +16,7 @@ import { parsePokerStarsFileWithDiagnostics, type ParsedHand } from './pokerstar
 import { identifyFile, type FileIdentity } from './siteIdentifier';
 import { parseTournamentSummary, type ParsedTournamentSummary } from './tournamentSummary';
 
-export interface ImportedHandEntry {
+interface ImportedHandEntry {
   hand: Hand;
   players: PlayerInHand[];
   actions: Action[];

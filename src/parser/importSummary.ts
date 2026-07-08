@@ -1,6 +1,6 @@
 import type { ImportSummary } from './workerProcessor';
 
-export type ImportSummaryTone = 'success' | 'warning' | 'danger';
+type ImportSummaryTone = 'success' | 'warning' | 'danger';
 
 export interface FormattedImportSummary {
   title: string;

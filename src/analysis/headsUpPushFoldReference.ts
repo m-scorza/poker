@@ -2,7 +2,7 @@ import type { HeroDecision } from '../types/analysis';
 
 export type HeadsUpReferenceKind = 'push' | 'call';
 
-export interface HeadsUpFrequencyRow {
+interface HeadsUpFrequencyRow {
   stackBb: number;
   frequencies: Record<string, number>;
 }
@@ -21,8 +21,8 @@ export interface HeadsUpFrequencyLookup {
   handKey: string;
 }
 
-export type HeadsUpReferenceSpot = 'hu_button_push_fold' | 'hu_big_blind_call_all_in';
-export type HeadsUpReferenceResult =
+type HeadsUpReferenceSpot = 'hu_button_push_fold' | 'hu_big_blind_call_all_in';
+type HeadsUpReferenceResult =
   | 'correct_aggression'
   | 'missed_aggression'
   | 'correct_call'

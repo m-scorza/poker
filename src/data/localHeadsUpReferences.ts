@@ -22,7 +22,7 @@ interface StoredLocalHeadsUpReferenceEnvelope {
   call?: StoredLocalHeadsUpReferenceTable;
 }
 
-export interface LocalHeadsUpReferenceTableSummary {
+interface LocalHeadsUpReferenceTableSummary {
   fileName: string;
   hands: number;
   rows: number;

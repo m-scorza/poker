@@ -1,4 +1,4 @@
-export const IMPORT_DIAGNOSTICS_SCHEMA_VERSION = 1;
+const IMPORT_DIAGNOSTICS_SCHEMA_VERSION = 1;
 export const IMPORT_DIAGNOSTICS_RETENTION_RUNS = 50;
 export const IMPORT_DIAGNOSTICS_EXPORT_RUNS = 5;
 export const MAX_DIAGNOSTIC_TEXT_LENGTH = 240;
@@ -72,7 +72,7 @@ function cleanEnvironmentValue(value: string | undefined): string | undefined {
   return sanitized === '(blank)' ? undefined : sanitized;
 }
 
-export function sanitizeDiagnosticsEnvironment(
+function sanitizeDiagnosticsEnvironment(
   environment: ImportDiagnosticsEnvironment | undefined,
 ): ImportDiagnosticsEnvironment | undefined {
   if (!environment) return undefined;
