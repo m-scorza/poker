@@ -1,0 +1,366 @@
+/* =========================================================
+   BLACKOUT — tranche-2 component chrome (Foundation v2, F-2)
+   Law: docs/design/BLACKOUT_ROLLOUT.md §Foundation v2 + DECISIONS.md D15.
+   Extends the bk- vocabulary in blackout.css. Violet (--sig) stays
+   presence/wayfinding ONLY (sort tick, focus); money --money / loss
+   --loss / warn --warn always paired with a label (D13). No zebra,
+   hairline structure only, tone-shift surfaces.
+   ========================================================= */
+
+/* ---- dossier table: hairline rows, no zebra, mono numerics ---- */
+.bk-dossier {
+  width: 100%;
+  overflow-x: auto;
+}
+.bk-dossier-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.bk-dossier-head th {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  font-weight: 400;
+  white-space: nowrap;
+}
+.bk-dossier-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.bk-dossier-sortbtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.bk-dossier-sortbtn:hover {
+  color: var(--fg-muted);
+}
+.bk-dossier-num .bk-dossier-sortbtn {
+  flex-direction: row-reverse;
+}
+.bk-dossier-sort {
+  font-size: 8px;
+  line-height: 1;
+  color: transparent;
+}
+.bk-dossier-sort.is-active {
+  color: var(--sig); /* violet tick = wayfinding */
+}
+.bk-dossier-row {
+  border-bottom: 1px solid var(--border);
+  color: var(--fg-muted);
+  transition: color 0.2s;
+}
+.bk-dossier-row td {
+  padding: 12px 16px;
+  font-size: 13px;
+  transition: padding-left 0.2s, color 0.2s;
+}
+.bk-dossier-row:hover {
+  color: var(--fg); /* fg brighten */
+}
+.bk-dossier-row:hover td:first-child {
+  padding-left: 26px; /* receipt padding-left shift, scaled up */
+}
+.bk-dossier-row[data-clickable] {
+  cursor: pointer;
+}
+
+/* ---- case-file modal: pulled file, slides from trigger side ---- */
+.bk-modal-root {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: flex;
+}
+.bk-modal-anchor-left {
+  justify-content: flex-start;
+}
+.bk-modal-anchor-right {
+  justify-content: flex-end;
+}
+.bk-modal-scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72); /* dimmed, NOT blurred */
+}
+.bk-modal-panel {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: min(560px, 100%);
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-2);
+  border-left: 1px solid var(--border-strong);
+}
+.bk-modal-left {
+  border-left: 0;
+  border-right: 1px solid var(--border-strong);
+}
+.bk-modal-panel[data-sev='critical'],
+.bk-modal-panel[data-sev='high'] {
+  background: linear-gradient(150deg, var(--loss-soft), transparent 34%), var(--bg-2);
+}
+.bk-modal-panel[data-sev='medium'] {
+  background: linear-gradient(150deg, var(--warn-soft), transparent 34%), var(--bg-2);
+}
+.bk-modal-panel[data-sev]::before {
+  content: attr(data-ribbon);
+  pointer-events: none;
+  position: absolute;
+  right: -34px;
+  top: 30px;
+  transform: rotate(45deg);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.34em;
+  padding: 7px 48px;
+  color: var(--bg);
+  font-weight: 700;
+  background: var(--fg-muted);
+  z-index: 2;
+}
+.bk-modal-panel[data-sev='critical']::before,
+.bk-modal-panel[data-sev='high']::before {
+  background: var(--loss);
+}
+.bk-modal-panel[data-sev='medium']::before {
+  background: var(--warn);
+}
+.bk-modal-panel[data-sev='low']::before {
+  background: var(--fg-dim);
+}
+.bk-modal-left[data-sev]::before {
+  right: auto;
+  left: -34px;
+  transform: rotate(-45deg);
+}
+.bk-modal-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 28px 0;
+}
+.bk-modal-file {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+}
+.bk-modal-sevtag {
+  display: none; /* corner ribbon carries severity on desktop */
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  color: var(--fg-muted);
+}
+.bk-modal-close {
+  margin-left: auto;
+  background: none;
+  border: 0;
+  padding: 4px;
+  color: var(--fg-dim);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  transition: color 0.2s;
+}
+.bk-modal-close:hover {
+  color: var(--fg);
+}
+.bk-modal-title {
+  font-family: var(--display);
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 720;
+  letter-spacing: -0.02em;
+  line-height: 1.04;
+  color: var(--fg);
+  padding: 14px 28px 0;
+}
+.bk-modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 28px 28px;
+  color: var(--fg-muted);
+  line-height: 1.7;
+}
+
+/* ---- filter rail: mono strip, hairline segments, active inverted ---- */
+.bk-filter-rail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+}
+.bk-filter-seg {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 18px;
+  border-right: 1px solid var(--border);
+}
+.bk-filter-seg:last-child {
+  border-right: 0;
+}
+.bk-filter-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+}
+.bk-filter-select {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg);
+  background: transparent;
+  border: 0;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+.bk-filter-select option {
+  background: var(--bg-2);
+  color: var(--fg);
+}
+.bk-filter-btns {
+  display: flex;
+  border: 1px solid var(--border);
+}
+.bk-filter-btn {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  background: transparent;
+  border: 0;
+  border-right: 1px solid var(--border);
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s;
+}
+.bk-filter-btn:last-child {
+  border-right: 0;
+}
+.bk-filter-btn:hover {
+  color: var(--fg);
+}
+.bk-filter-btn.is-active {
+  background: var(--fg); /* active segment inverted: fg on bg */
+  color: var(--bg);
+}
+
+/* ---- empty state: a dossier page with nothing filed ---- */
+.bk-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 72px 32px;
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+}
+.bk-empty-folio {
+  font-family: var(--display);
+  font-size: 88px;
+  font-weight: 300;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--fg-dim);
+}
+.bk-empty-msg {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  max-width: 46ch;
+}
+.bk-empty-cta {
+  margin-top: 6px;
+  align-self: center;
+}
+
+/* ---- density modes: display (default) vs work (compressed) ---- */
+[data-density='work'] .bk-hl {
+  font-size: clamp(28px, 4vw, 44px);
+  margin-top: 16px;
+}
+[data-density='work'] .bk-folio {
+  padding: 26px 0 16px;
+}
+[data-density='work'] .bk-folio .num {
+  font-size: 36px;
+}
+[data-density='work'] .bk-folio h2 {
+  font-size: 19px;
+}
+[data-density='work'] .bk-hero-main {
+  padding: 34px 32px 30px;
+}
+
+/* ---- mobile grammar (interpretation, not deletion) ---- */
+@media (max-width: 640px) {
+  .bk-modal-panel {
+    width: 100%;
+  }
+  /* ribbon corner-tag becomes an inline severity tag at the kicker line */
+  .bk-modal-panel[data-sev]::before {
+    display: none;
+  }
+  .bk-modal-sevtag {
+    display: inline-block;
+  }
+  /* filter segments stack, staying hairline-separated */
+  .bk-filter-seg {
+    flex: 1 1 100%;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .bk-filter-seg:last-child {
+    border-bottom: 0;
+  }
+  .bk-empty-folio {
+    font-size: 40px; /* folio numbers scale to 40px outline */
+  }
+  .bk-dossier-table {
+    font-size: 12px;
+  }
+}
+
+/* reduced-motion: transitions collapse to nothing (motion is fade in TSX) */
+@media (prefers-reduced-motion: reduce) {
+  .bk-dossier-row td,
+  .bk-dossier-sortbtn,
+  .bk-filter-btn,
+  .bk-modal-close {
+    transition: none;
+  }
+}
