@@ -5,6 +5,7 @@ import type { Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import { getTournamentNet } from '../../analysis/financials';
 import { estimateHourlyRate, computeLifetimeRoi } from '../../analysis/careerStats';
+import { isUngradedDecision } from '../../analysis/ungradedScenarios';
 
 interface LifetimeScorecardProps {
   tournaments: Tournament[];
@@ -14,8 +15,9 @@ interface LifetimeScorecardProps {
 export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardProps) {
   const metrics = useMemo(() => {
     const totalHands = decisions.length;
-    const compliantHands = decisions.filter(d => d.isCompliant).length;
-    const complianceRate = totalHands > 0 ? (compliantHands / totalHands) * 100 : 0;
+    const gradedDecisions = decisions.filter(d => !isUngradedDecision(d));
+    const compliantHands = gradedDecisions.filter(d => d.isCompliant).length;
+    const complianceRate = gradedDecisions.length > 0 ? (compliantHands / gradedDecisions.length) * 100 : 0;
 
     let biggestWin = 0;
     let worstLoss = 0;
@@ -32,6 +34,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
     return {
       totalHands,
       complianceRate,
+      compliantHands,
       biggestWin,
       worstLoss,
       hourlyRate,
@@ -98,7 +101,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
               <CheckCircle size={10} /> Compliance
             </div>
             <div className="text-xl font-data font-black text-white">
-              {Math.round((metrics.complianceRate / 100) * metrics.totalHands).toLocaleString()}
+              {metrics.compliantHands.toLocaleString()}
             </div>
             <div className="text-[10px] font-bold text-[var(--fg-dim)]">Matched Decs.</div>
           </div>

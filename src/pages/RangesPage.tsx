@@ -15,6 +15,7 @@ import { batchCheckCompliance, getRFIRange } from '../analysis/rangeChecker';
 import { complianceBreakdown } from '../analysis/rangeChecker';
 import { getPushRangeForPosition } from '../analysis/pushFoldChecker';
 import { rangeValidationSummary } from '../analysis/rangeValidator';
+import { isUngradedDecision } from '../analysis/ungradedScenarios';
 import {
   getFacingRaiseOpenersForPosition,
   getReactionRangeInfo,
@@ -156,7 +157,9 @@ export function RangesPage() {
         else if (r < c) handKey = r1 + r2 + 's';
         else handKey = r2 + r1 + 'o';
 
-        const handDecisions = posDecisions.filter(d => d.handKey === handKey);
+        const handDecisions = posDecisions.filter(
+          d => d.handKey === handKey && !isUngradedDecision(d),
+        );
         map.set(handKey, {
           handKey,
           inTheoreticalRange: theoreticalRange?.has(handKey) ?? false,

@@ -15,7 +15,7 @@ stale three reviews running (see
 by the pre-commit `docs:check` hook — these counts cannot silently drift):
 
 - **Test files:** 88
-- **`it` / `test` calls (approximate):** 853
+- **`it` / `test` calls (approximate):** 854
 
 Run `npm test` for the live pass/fail tally. Dependency, route, source-tree,
 and test inventories below are regenerated from source.
@@ -488,7 +488,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 88
-**`it` / `test` calls (approximate):** 853
+**`it` / `test` calls (approximate):** 854
 
 ```
 src/__tests__/App.test.tsx
