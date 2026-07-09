@@ -65,17 +65,19 @@ const ACTION_SOURCE_LABEL: Record<SpotPacketLegalAction['source'], string> = {
 };
 
 const WARNING_PRIORITY: SpotPacketWarning[] = [
-  'not_solver_backed',
   'trainer_scoring_not_included',
-  'legal_action_menu_inferred',
+  'missing_payouts',
+  'missing_players_remaining',
+  'missing_paid_places',
+  'missing_field_stack_distribution',
   'opponent_bounty_values_unknown',
   'pko_coverage_context_partial',
-  'multi_bounty_context_missing',
   'pko_pay_jump_context_missing',
+  'multi_bounty_context_missing',
   'bb_multiway_defense_context',
   'icm_risk_context_estimated',
-  'missing_payouts',
-  'missing_field_stack_distribution',
+  'not_solver_backed',
+  'legal_action_menu_inferred',
 ];
 
 function prioritizedWarnings(warnings: SpotPacketWarning[]): SpotPacketWarning[] {
@@ -182,7 +184,8 @@ function downloadPacketJson(packet: SpotPacket): void {
 export function SpotSourcePanel({ packet }: SpotSourcePanelProps) {
   const prioritized = prioritizedWarnings(packet.warnings);
   const visibleWarnings = prioritized.slice(0, 8);
-  const extraWarningCount = packet.warnings.length - visibleWarnings.length;
+  const hiddenWarnings = prioritized.slice(visibleWarnings.length);
+  const extraWarningCount = hiddenWarnings.length;
 
   return (
     <section
@@ -265,9 +268,25 @@ export function SpotSourcePanel({ packet }: SpotSourcePanelProps) {
               </span>
             ))}
             {extraWarningCount > 0 && (
-              <span className="rounded-full border border-white/10 bg-white/5 px-2 py-0.5 text-[10px] font-bold text-white/45">
-                +{extraWarningCount} more
-              </span>
+              <details className="group relative">
+                <summary
+                  className="list-none rounded-full border border-white/10 bg-white/5 px-2 py-0.5 text-[10px] font-bold text-white/45 transition hover:border-amber-300/30 hover:text-amber-100/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 [&::-webkit-details-marker]:hidden"
+                  aria-label={`Show ${extraWarningCount} additional caveats`}
+                >
+                  +{extraWarningCount} more
+                </summary>
+                <div
+                  data-testid="spot-source-panel-hidden-caveats"
+                  className="mt-1 grid gap-1 rounded-lg border border-white/10 bg-black/40 p-2 text-[10px] text-amber-100/75 shadow-lg"
+                >
+                  <p className="font-black uppercase tracking-widest text-white/40">Additional caveats</p>
+                  <ul className="grid gap-1">
+                    {hiddenWarnings.map((warning) => (
+                      <li key={warning}>{WARNING_LABELS[warning]}</li>
+                    ))}
+                  </ul>
+                </div>
+              </details>
             )}
           </div>
           {packet.riskContext && (

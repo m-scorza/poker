@@ -206,6 +206,58 @@ describe('HandReplay', () => {
     expect(within(container).queryByText(/GTO Compliant/i)).not.toBeInTheDocument();
   });
 
+  it('downloads selected-hand SpotPacket JSON with target hints and no private result payloads', async () => {
+    const originalCreateObjectURL = URL.createObjectURL;
+    const originalRevokeObjectURL = URL.revokeObjectURL;
+    const createObjectURL = vi.fn((_blob: Blob | MediaSource) => 'blob:hand-replay-spot-packet');
+    const revokeObjectURL = vi.fn((_url: string) => undefined);
+    const click = vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(() => {});
+
+    Object.defineProperty(URL, 'createObjectURL', { configurable: true, value: createObjectURL });
+    Object.defineProperty(URL, 'revokeObjectURL', { configurable: true, value: revokeObjectURL });
+
+    try {
+      const { container } = render(<HandReplay hand={hand} heroDecision={heroDecision} onClose={vi.fn()} />);
+
+      const downloadButton = await within(container).findByRole('button', { name: /download spot packet json/i });
+      fireEvent.click(downloadButton);
+
+      expect(createObjectURL).toHaveBeenCalledTimes(1);
+      const blob = createObjectURL.mock.calls[0]![0] as Blob;
+      expect(blob.type).toBe('application/json');
+      const json = await blob.text();
+      const exported = JSON.parse(json) as {
+        externalReview?: {
+          targetHints?: Array<{
+            reason: string;
+            status: string;
+            targets: string[];
+          }>;
+          result?: { status: string; solverBacked: boolean };
+        };
+        trainerPrompt?: { scoring?: { status: string } };
+      };
+
+      expect(json).toContain('"targetHints"');
+      expect(exported.externalReview?.targetHints).toEqual(expect.arrayContaining([
+        expect.objectContaining({
+          reason: 'postflop_tree_or_line_review',
+          status: 'suggested_only',
+          targets: ['gto_wizard', 'postflopizer'],
+        }),
+      ]));
+      expect(exported.externalReview?.result).toMatchObject({ status: 'not_attached', solverBacked: false });
+      expect(exported.trainerPrompt?.scoring).toMatchObject({ status: 'not_included' });
+      expect(json).not.toMatch(/player1|player2|PokerStars Hand|rawHandHistory|rawHandText|C:\\Users|\/Users\/|OneDrive|Documentos|filename|localPath|solverEV|evChips|evBb|frequency|frequencies|trainerAnswer|correctAnswer|answerBucket|trainerScore|scoreValue/i);
+      expect(click).toHaveBeenCalledTimes(1);
+      expect(revokeObjectURL).toHaveBeenCalledWith('blob:hand-replay-spot-packet');
+    } finally {
+      Object.defineProperty(URL, 'createObjectURL', { configurable: true, value: originalCreateObjectURL });
+      Object.defineProperty(URL, 'revokeObjectURL', { configurable: true, value: originalRevokeObjectURL });
+      click.mockRestore();
+    }
+  });
+
   it('displays hero cards and position details', async () => {
     const { container } = render(<HandReplay hand={hand} heroDecision={heroDecision} onClose={vi.fn()} />);
 

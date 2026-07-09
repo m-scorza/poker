@@ -15,7 +15,7 @@ stale three reviews running (see
 by the pre-commit `docs:check` hook — these counts cannot silently drift):
 
 - **Test files:** 78
-- **`it` / `test` calls (approximate):** 802
+- **`it` / `test` calls (approximate):** 805
 
 Run `npm test` for the live pass/fail tally. Dependency, route, source-tree,
 and test inventories below are regenerated from source.
@@ -352,8 +352,16 @@ Target: English. As of 2026-05-11, 100% of UI strings, tooltips, and analysis-la
 - **Data Health study-queue source/context item** — `buildStudyQueue` now adds a
   review-only Data Health item when queued hands have legacy/unknown import
   source metadata, directional/low parser confidence, unsupported/unknown source
-  labels, or ICM/bounty tournament-context caveats. The item links those hand IDs
-  into the local SpotPacket bundle boundary while staying explicitly
+  labels, or ICM/bounty tournament-context caveats. ICM/PKO entries name the
+  concrete missing review inputs — payout table, players remaining, paid places,
+  full field stack distribution, opponent bounty values, coverage context,
+  multi-bounty all-in setup, and PKO pay-jump context as applicable. The
+  dashboard Data Health panel summarizes the first queued caveats beside retained
+  warning categories and exposes the full local caveat list in an expandable
+  details block, while Hand Replay's source panel prioritizes the concrete
+  payout/player-field warnings when caveat chips overflow and exposes the
+  lower-priority hidden caveats in a local expandable details list. The item links
+  those hand IDs into the local SpotPacket bundle boundary while staying explicitly
   unsupported/no-EV/no-trainer-scoring.
 - **Dashboard Data Health drill-down** — Dashboard Study Queue data-health items
   now show retained import-run warning categories and parser-confidence ledger
@@ -665,7 +673,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 78
-**`it` / `test` calls (approximate):** 802
+**`it` / `test` calls (approximate):** 805
 
 ```
 src/__tests__/App.test.tsx

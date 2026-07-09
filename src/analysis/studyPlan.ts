@@ -164,13 +164,6 @@ function sortedLossHandIds(decisions: HeroDecision[], handMap: Map<string, Hand>
     .map((entry) => entry.decision.handId);
 }
 
-function isIcmOrBountySensitive(decision: HeroDecision): boolean {
-  return decision.icmStage === 'bubble'
-    || decision.icmStage === 'itm'
-    || decision.icmStage === 'final_table'
-    || Boolean(decision.bountyContext);
-}
-
 function isPkoContext(decision: HeroDecision): boolean {
   return decision.bountyContext?.tournamentType === 'knockout'
     || decision.bountyContext?.tournamentType === 'progressive_ko';
@@ -203,24 +196,60 @@ function sourceContextReasons(decision: HeroDecision, hand: Hand): string[] {
     if (source.fileType === 'unknown') reasons.push('unknown file type');
   }
 
+  reasons.push(...missingTournamentContextReasons(decision, hand));
+
   if (isPkoContext(decision) && hand.tournamentId) {
     reasons.push('opponent bounty values unknown');
     reasons.push('PKO coverage context partial');
     if (mayNeedMultiBountyContext(decision)) reasons.push('multi-bounty context missing');
     if (isPayJumpSensitive(decision)) reasons.push('PKO pay-jump context missing');
-  } else if (isIcmOrBountySensitive(decision) && hand.tournamentId) {
-    reasons.push('ICM/bounty spot needs tournament summary or payout review');
   }
 
   return Array.from(new Set(reasons));
 }
 
-function sourceReasonSummary(reasonCounts: Map<string, number>, limit = 4): string {
-  return Array.from(reasonCounts.entries())
-    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
-    .slice(0, limit)
-    .map(([reason, count]) => `${reason}: ${count}`)
-    .join('; ');
+const SOURCE_CONTEXT_REASON_PRIORITY = [
+  'payout table missing',
+  'players remaining missing',
+  'paid places missing',
+  'full field stack distribution missing',
+  'opponent bounty values unknown',
+  'PKO coverage context partial',
+  'PKO pay-jump context missing',
+  'multi-bounty context missing',
+  'legacy/unknown import source',
+  'directional parser confidence',
+  'low/unknown parser confidence',
+  'unknown poker site',
+  'unsupported native room parser',
+  'unknown file type',
+];
+
+function sourceContextReasonPriority(reason: string): number {
+  const index = SOURCE_CONTEXT_REASON_PRIORITY.indexOf(reason);
+  return index === -1 ? SOURCE_CONTEXT_REASON_PRIORITY.length : index;
+}
+
+function sourceReasonSummary(reasonCounts: Map<string, number>): string {
+  const sortedReasons = Array.from(reasonCounts.entries())
+    .sort((left, right) => {
+      const priorityDelta = sourceContextReasonPriority(left[0]) - sourceContextReasonPriority(right[0]);
+      if (priorityDelta !== 0) return priorityDelta;
+      const countDelta = right[1] - left[1];
+      return countDelta !== 0 ? countDelta : left[0].localeCompare(right[0]);
+    });
+  return sortedReasons.map(([reason, count]) => `${reason}: ${count}`).join('; ');
+}
+
+function missingTournamentContextReasons(decision: HeroDecision, hand: Hand): string[] {
+  if (!hand.tournamentId || !isPayJumpSensitive(decision)) return [];
+
+  return [
+    'payout table missing',
+    'players remaining missing',
+    'paid places missing',
+    'full field stack distribution missing',
+  ];
 }
 
 export function buildStudyQueue(

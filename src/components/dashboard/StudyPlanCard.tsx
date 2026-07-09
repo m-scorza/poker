@@ -227,6 +227,19 @@ function progressOverviewCopy(
   return `${dueCue}${snoozeCue}Next packet: ${studyPacketSrsStatusLabel(entry)}. Reset in the source/config drawer clears only the selected browser-local marker.`;
 }
 
+function dataHealthQueuedCaveats(item: StudyQueueItem | undefined): string[] {
+  return (item?.evidence.details.slice(1) ?? [])
+    .flatMap((detail) => detail.split(';'))
+    .map((detail) => detail.trim())
+    .filter(Boolean);
+}
+
+function dataHealthQueuedCaveatSummary(caveats: string[], limit = 2): string {
+  const visible = caveats.slice(0, limit).join('; ');
+  const extraCount = caveats.length - Math.min(caveats.length, limit);
+  return extraCount > 0 ? `${visible}; +${extraCount} more` : visible;
+}
+
 function downloadSpotPacketBundle(bundle: SpotPacketBundle): void {
   const blob = new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
@@ -280,6 +293,7 @@ export function StudyPlanCard({ items, spotPacketBundle, dataHealthSummary }: St
   const topEvidence = getEvidenceMetadata(top.id, top.source, top.evidence.trust);
   const canExportBundle = Boolean(spotPacketBundle && spotPacketBundle.packets.length > 0);
   const hasDataHealthItem = items.some((item) => item.source === 'data_health');
+  const dataHealthCaveats = dataHealthQueuedCaveats(items.find((item) => item.source === 'data_health'));
   const topWarningCategories = dataHealthSummary?.ledger.warningCategories.slice(0, 3) ?? [];
   const nextPacketPath = packetReviewPath(nextPacket);
   const nextPacketArenaPath = buildStudyPacketArenaPath(nextPacket, spotPacketBundle?.packets ?? [], packetProgress);
@@ -559,6 +573,27 @@ export function StudyPlanCard({ items, spotPacketBundle, dataHealthSummary }: St
                     <p className="mt-2 leading-relaxed text-white/45">
                       No retained parser warning categories yet; this queue item is driven by per-hand source/context caveats.
                     </p>
+                  )}
+                  {dataHealthCaveats.length > 0 && (
+                    <details
+                      className="mt-2 rounded-md border border-warn/15 bg-black/20 p-2 text-white/60"
+                      data-testid="study-queue-data-health-caveats"
+                    >
+                      <summary
+                        className="cursor-pointer select-none leading-relaxed"
+                        data-testid="study-queue-data-health-caveats-summary"
+                      >
+                        Queued caveats: {dataHealthQueuedCaveatSummary(dataHealthCaveats)}.
+                      </summary>
+                      <ul
+                        className="mt-2 list-disc space-y-1 pl-4 leading-relaxed text-white/55"
+                        data-testid="study-queue-data-health-caveat-details"
+                      >
+                        {dataHealthCaveats.map((caveat, index) => (
+                          <li key={`${caveat}-${index}`}>{caveat}</li>
+                        ))}
+                      </ul>
+                    </details>
                   )}
                   <Link
                     to={DATA_HEALTH_REVIEW_PATH}

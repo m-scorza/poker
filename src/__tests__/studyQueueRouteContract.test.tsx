@@ -295,6 +295,19 @@ const dataHealthItem: StudyQueueItem = {
   source: 'data_health',
   severity: 'medium',
   estimatedBbLoss: null,
+  evidence: {
+    kind: 'source_context',
+    label: 'Import/source context',
+    details: [
+      '2 hands with source/context caveats',
+      'payout table missing: 1; players remaining missing: 1; paid places missing: 1; full field stack distribution missing: 1',
+    ],
+    trust: {
+      kind: 'unsupported',
+      citations: [],
+      note: 'Import/source context review only; not strategy advice, solver EV, or trainer scoring.',
+    },
+  },
   cta: 'Review source caveats',
   explanation: 'Review retained parser warnings before relying on the queue.',
 };
@@ -470,6 +483,9 @@ describe('Study Queue route contract', () => {
     );
     expect(screen.getByTestId('study-queue-packet-bundle-summary')).toHaveTextContent('no solver EV, trainer answers, raw hand text, or villain names');
     expect(screen.getByTestId('study-queue-data-health-link')).toHaveAttribute('href', '/hands?panel=data-health#data-health');
+    expect(screen.getByTestId('study-queue-data-health-caveats')).toHaveTextContent('payout table missing: 1');
+    expect(screen.getByTestId('study-queue-data-health-caveats')).toHaveTextContent('players remaining missing: 1');
+    expect(screen.getByTestId('study-queue-data-health-summary')).not.toHaveTextContent(/EV loss|chipEV|correct answer|trainer score:/i);
     expect(screen.getByTestId('study-queue-item-2')).toHaveAttribute('href', '/hands?panel=data-health#data-health');
     expect(screen.getByTestId('study-queue-card')).not.toHaveTextContent(/EV loss|chipEV|correct answer|trainer score:/i);
 
@@ -588,36 +604,85 @@ describe('Study Queue route contract', () => {
   });
 
   it('hands off SpotPacket review routes to Hand Replay and opens Data Health as the importer fallback', async () => {
-    storeMocks.getAllHeroDecisions.mockResolvedValue([decision()]);
-    storeMocks.getHands.mockResolvedValue([hand()]);
+    const originalCreateObjectURL = URL.createObjectURL;
+    const originalRevokeObjectURL = URL.revokeObjectURL;
+    const createObjectURL = vi.fn((_blob: Blob | MediaSource) => 'blob:route-spot-packet');
+    const revokeObjectURL = vi.fn((_url: string) => undefined);
+    const click = vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(() => {});
 
-    render(
-      <MemoryRouter initialEntries={['/hands?panel=spot-packet&reviewHand=route-hand#spot-packet']}>
-        <HandsPage />
-      </MemoryRouter>,
-    );
+    Object.defineProperty(URL, 'createObjectURL', { configurable: true, value: createObjectURL });
+    Object.defineProperty(URL, 'revokeObjectURL', { configurable: true, value: revokeObjectURL });
 
-    expect(await screen.findByTestId('hand-replay-dialog')).toBeInTheDocument();
-    const packetReview = await screen.findByTestId('hand-replay-study-packet-review');
-    expect(packetReview).toHaveTextContent('Study packet only');
-    expect(packetReview).toHaveTextContent(/solver EV/i);
-    expect(screen.getByTestId('spot-source-panel')).toBeInTheDocument();
-    expect(screen.getByTestId('trainer-spot-card')).toBeInTheDocument();
-    expect(screen.getByTestId('hand-replay-dialog')).not.toHaveTextContent(/VillainA|VillainB|EV loss|chipEV|correct answer|trainer score:/i);
+    try {
+      storeMocks.getAllHeroDecisions.mockResolvedValue([decision()]);
+      storeMocks.getHands.mockResolvedValue([hand()]);
 
-    cleanup();
-    storeMocks.getAllHeroDecisions.mockResolvedValue([]);
-    storeMocks.getHands.mockResolvedValue([]);
+      render(
+        <MemoryRouter initialEntries={['/hands?panel=spot-packet&reviewHand=route-hand#spot-packet']}>
+          <HandsPage />
+        </MemoryRouter>,
+      );
 
-    render(
-      <MemoryRouter initialEntries={['/hands?panel=data-health#data-health']}>
-        <HandsPage />
-      </MemoryRouter>,
-    );
+      expect(await screen.findByTestId('hand-replay-dialog')).toBeInTheDocument();
+      const packetReview = await screen.findByTestId('hand-replay-study-packet-review');
+      expect(packetReview).toHaveTextContent('Study packet only');
+      expect(packetReview).toHaveTextContent(/solver EV/i);
+      expect(screen.getByTestId('spot-source-panel')).toBeInTheDocument();
+      expect(screen.getByTestId('trainer-spot-card')).toBeInTheDocument();
+      expect(screen.getByTestId('spot-source-panel-target-hints')).toHaveTextContent('HoldemResources Calculator (HRC) / ICMIZER');
+      expect(screen.getByTestId('spot-source-panel-target-hints')).toHaveTextContent('Suggested only');
+      expect(screen.getByTestId('spot-source-panel-target-hints')).toHaveTextContent('do not upload this hand');
+      expect(screen.getByTestId('hand-replay-dialog')).not.toHaveTextContent(/VillainA|VillainB|EV loss|chipEV|correct answer|trainer score:/i);
 
-    expect(await screen.findByTestId('hands-upload-root')).toBeInTheDocument();
-    expect(screen.getByTestId('hands-upload-data-health-entry')).toBeInTheDocument();
-    expect(screen.getByTestId('import-data-health-panel')).toHaveAttribute('id', 'data-health');
-    await waitFor(() => expect(screen.queryByTestId('hand-replay-dialog')).not.toBeInTheDocument());
+      fireEvent.click(screen.getByRole('button', { name: /download spot packet json/i }));
+
+      expect(createObjectURL).toHaveBeenCalledTimes(1);
+      const blob = createObjectURL.mock.calls[0]![0] as Blob;
+      expect(blob.type).toBe('application/json');
+      const json = await blob.text();
+      const exported = JSON.parse(json) as {
+        externalReview?: {
+          targetHints?: Array<{
+            reason: string;
+            status: string;
+            targets: string[];
+          }>;
+          result?: { status: string; solverBacked: boolean };
+        };
+        trainerPrompt?: { scoring?: { status: string } };
+      };
+
+      expect(exported.externalReview?.targetHints).toEqual(expect.arrayContaining([
+        expect.objectContaining({
+          reason: 'icm_pko_or_all_in_preflop',
+          status: 'suggested_only',
+          targets: ['hrc', 'icmizer'],
+        }),
+      ]));
+      expect(exported.externalReview?.result).toMatchObject({ status: 'not_attached', solverBacked: false });
+      expect(exported.trainerPrompt?.scoring).toMatchObject({ status: 'not_included' });
+      expect(json).not.toMatch(/VillainA|VillainB|Seat CO|Seat BB|PokerStars Hand|rawHandHistory|rawHandText|C:\\\\Users|\/Users\/|OneDrive|Documentos|filename|localPath|solverEV|evChips|evBb|frequency|frequencies|trainerAnswer|correctAnswer|answerBucket|trainerScore|scoreValue/i);
+      expect(click).toHaveBeenCalledTimes(1);
+      expect(revokeObjectURL).toHaveBeenCalledWith('blob:route-spot-packet');
+
+      cleanup();
+      storeMocks.getAllHeroDecisions.mockResolvedValue([]);
+      storeMocks.getHands.mockResolvedValue([]);
+
+      render(
+        <MemoryRouter initialEntries={['/hands?panel=data-health#data-health']}>
+          <HandsPage />
+        </MemoryRouter>,
+      );
+
+      expect(await screen.findByTestId('hands-upload-root')).toBeInTheDocument();
+      expect(screen.getByTestId('hands-upload-data-health-entry')).toBeInTheDocument();
+      expect(screen.getByTestId('import-data-health-panel')).toHaveAttribute('id', 'data-health');
+      await waitFor(() => expect(screen.queryByTestId('hand-replay-dialog')).not.toBeInTheDocument());
+    } finally {
+      Object.defineProperty(URL, 'createObjectURL', { configurable: true, value: originalCreateObjectURL });
+      Object.defineProperty(URL, 'revokeObjectURL', { configurable: true, value: originalRevokeObjectURL });
+      click.mockRestore();
+    }
   });
 });

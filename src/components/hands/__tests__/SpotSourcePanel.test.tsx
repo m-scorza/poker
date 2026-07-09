@@ -161,6 +161,36 @@ describe('SpotSourcePanel', () => {
     expect(screen.getByText(/Exact risk premium and solver EV are not included/i)).toBeInTheDocument();
   });
 
+  it('keeps concrete ICM payout/player caveats visible when warning chips overflow', () => {
+    const packet = buildSpotPacketFromParsedHand(parsedHand, {
+      ...decision,
+      scenario: 'FACING_ALL_IN',
+      action: 'call',
+      bountyContext: pkoBountyContext,
+    }, {
+      target: 'hrc',
+      source: { site: 'pokerstars', fileType: 'hand_history', accessMethod: 'local_file', parserConfidence: 'high' },
+    });
+
+    expect(packet.warnings.length).toBeGreaterThan(8);
+
+    render(<SpotSourcePanel packet={packet} />);
+
+    const caveats = screen.getByTestId('spot-source-panel-caveats');
+    expect(caveats).toHaveTextContent('Payouts are missing');
+    expect(caveats).toHaveTextContent('Players remaining is missing');
+    expect(caveats).toHaveTextContent('Paid places is missing');
+    expect(caveats).toHaveTextContent('Full field stack distribution is missing');
+    const overflowToggle = within(caveats).getByText(/\+\d+ more/);
+    fireEvent.click(overflowToggle);
+    const hiddenCaveats = screen.getByTestId('spot-source-panel-hidden-caveats');
+    expect(hiddenCaveats).toHaveTextContent('ICM risk context is estimated');
+    expect(hiddenCaveats).toHaveTextContent('Not solver-backed');
+    expect(hiddenCaveats).toHaveTextContent('Legal action menu is inferred');
+    expect(hiddenCaveats).toHaveTextContent('External tool required for exact output');
+    expect(caveats).not.toHaveTextContent(/EV loss|chipEV|correct answer|trainer score:/i);
+  });
+
   it('surfaces an external-review setup checklist without solver results', () => {
     const packet = buildSpotPacketFromParsedHand(parsedHand, decision, {
       target: 'hrc',

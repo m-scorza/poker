@@ -155,7 +155,10 @@ const dataHealthItem: StudyQueueItem = {
   evidence: {
     kind: 'source_context',
     label: 'Import/source context',
-    details: ['7 hands with source/context caveats'],
+    details: [
+      '7 hands with source/context caveats',
+      'payout table missing: 2; players remaining missing: 2; paid places missing: 2; full field stack distribution missing: 2',
+    ],
     trust: { kind: 'unsupported', citations: [], note: 'Import/source context review only.' },
   },
   cta: 'Review source caveats',
@@ -525,5 +528,18 @@ describe('StudyPlanCard', () => {
     expect(screen.getByTestId('study-queue-data-health-summary')).toHaveTextContent('3/4 files parsed');
     expect(screen.getByTestId('study-queue-data-health-summary')).toHaveTextContent('Unsupported format 2');
     expect(screen.getByTestId('study-queue-data-health-summary')).toHaveTextContent('Summary recovery gap 1');
+    const caveats = screen.getByTestId('study-queue-data-health-caveats') as HTMLDetailsElement;
+    const caveatSummary = screen.getByTestId('study-queue-data-health-caveats-summary');
+    expect(caveats.open).toBe(false);
+    expect(caveatSummary).toHaveTextContent('payout table missing: 2; players remaining missing: 2; +2 more');
+    expect(caveatSummary).not.toHaveTextContent('paid places missing: 2');
+
+    fireEvent.click(caveatSummary);
+
+    expect(caveats.open).toBe(true);
+    expect(screen.getByTestId('study-queue-data-health-caveat-details')).toHaveTextContent('payout table missing: 2');
+    expect(screen.getByTestId('study-queue-data-health-caveat-details')).toHaveTextContent('players remaining missing: 2');
+    expect(screen.getByTestId('study-queue-data-health-caveat-details')).toHaveTextContent('paid places missing: 2');
+    expect(screen.getByTestId('study-queue-data-health-caveat-details')).toHaveTextContent('full field stack distribution missing: 2');
   });
 });

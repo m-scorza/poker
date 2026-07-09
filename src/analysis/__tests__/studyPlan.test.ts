@@ -225,6 +225,10 @@ describe('buildStudyQueue', () => {
     expect(sourceQueue!.evidence.details[0]).toBe('2 hands with source/context caveats');
     expect(sourceQueue!.evidence.details[1]).toContain('legacy/unknown import source: 1');
     expect(sourceQueue!.evidence.details[1]).toContain('directional parser confidence: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('payout table missing: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('players remaining missing: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('paid places missing: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('full field stack distribution missing: 1');
     expect(sourceQueue!.evidence.trust.kind).toBe('unsupported');
     expect(sourceQueue!.evidence.trust.note).toContain('not strategy advice');
     expect(sourceQueue!.explanation).toContain('SpotPacket exports keep these as study prompts');
@@ -264,11 +268,45 @@ describe('buildStudyQueue', () => {
         label: 'Import/source context',
       },
     });
+    expect(sourceQueue!.evidence.details[1]).toContain('payout table missing: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('players remaining missing: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('paid places missing: 1');
+    expect(sourceQueue!.evidence.details[1]).toContain('full field stack distribution missing: 1');
     expect(sourceQueue!.evidence.details[1]).toContain('opponent bounty values unknown: 1');
     expect(sourceQueue!.evidence.details[1]).toContain('PKO coverage context partial: 1');
     expect(sourceQueue!.evidence.details[1]).toContain('multi-bounty context missing: 1');
     expect(sourceQueue!.evidence.details[1]).toContain('PKO pay-jump context missing: 1');
     expect(sourceQueue!.evidence.trust.kind).toBe('unsupported');
     expect(sourceQueue!.evidence.trust.note).toContain('not strategy advice');
+  });
+
+  it('keeps all Data Health source-context reasons available for the dashboard details list', () => {
+    const queue = buildStudyQueue([], [
+      decision({
+        handId: 'legacyPkoFt',
+        scenario: 'FACING_ALL_IN',
+        action: 'call',
+        icmStage: 'final_table',
+        bountyContext: bountyContext(),
+        netProfit: -700,
+      }),
+    ], [hand('legacyPkoFt')], 5);
+
+    const sourceQueue = queue.find((item) => item.id === 'data-health-source-context');
+
+    expect(sourceQueue).toBeDefined();
+    expect(sourceQueue!.evidence.details[0]).toBe('1 hand with source/context caveats');
+    const summary = sourceQueue!.evidence.details[1]!;
+    expect(summary).toContain('payout table missing: 1');
+    expect(summary).toContain('players remaining missing: 1');
+    expect(summary).toContain('paid places missing: 1');
+    expect(summary).toContain('full field stack distribution missing: 1');
+    expect(summary).toContain('opponent bounty values unknown: 1');
+    expect(summary).toContain('PKO coverage context partial: 1');
+    expect(summary).toContain('PKO pay-jump context missing: 1');
+    expect(summary).toContain('multi-bounty context missing: 1');
+    expect(summary).toContain('legacy/unknown import source: 1');
+    expect(summary).not.toContain('+1 more');
+    expect(summary.indexOf('payout table missing: 1')).toBeLessThan(summary.indexOf('legacy/unknown import source: 1'));
   });
 });
