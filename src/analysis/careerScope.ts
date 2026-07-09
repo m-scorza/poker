@@ -129,8 +129,8 @@ function calculateAbilityRating(args: {
 
 function formLabel(totalTournaments: number, last20Roi: number | null, slope: number, totalRoi: number): CareerScopeForm {
   const recentRoi = last20Roi ?? totalRoi;
-  if (recentRoi < -10 || totalRoi < -20) return 'Rebuild';
   if (totalTournaments < 10) return 'Insufficient Sample';
+  if (recentRoi < -10 || totalRoi < -20) return 'Rebuild';
   if (recentRoi >= 35 && slope > 0) return 'Hot';
   if (recentRoi > 0 && slope > 0) return 'Uptrend';
   return 'Stable';
