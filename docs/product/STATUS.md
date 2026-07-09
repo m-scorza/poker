@@ -321,6 +321,7 @@ are stale. Do not edit by hand.
 - fake-indexeddb ^6.2.5
 - globals ^15.15.0
 - jsdom ^29.1.1
+- knip ^6.25.0
 - tailwindcss ^4.2.2
 - tsx ^4.21.0
 - typescript ~5.7.2
