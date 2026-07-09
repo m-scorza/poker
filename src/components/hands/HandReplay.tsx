@@ -169,6 +169,36 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
   const hero = players.find((p) => p.isHero);
   const streetActions = actions.filter((a) => a.street === activeStreet);
+  const equityInfo = useMemo(() => {
+    const opponentsWithCards = players.filter(p => !p.isHero && p.holeCards && p.holeCards.length === 2);
+    const boardCards: string[] = [];
+    if (hand.boardFlop) boardCards.push(...hand.boardFlop);
+    if (hand.boardTurn) boardCards.push(hand.boardTurn);
+    if (hand.boardRiver) boardCards.push(hand.boardRiver);
+
+    const canShowEquity = !!hero?.holeCards && hero.holeCards.length === 2 && opponentsWithCards.length > 0;
+    // Equity enumeration cost explodes with unknown board cards (measured:
+    // river ~0.3ms, turn ~8ms, flop ~144ms, preflop ~5.7s). At showdown the
+    // board is always complete (the only case seen across the fixture
+    // corpus), so cap at >=4 known cards — a sparse board with shown cards
+    // would otherwise freeze the UI. We refuse it honestly below rather than
+    // run a multi-second enumeration.
+    const equityTooSparse = canShowEquity && boardCards.length < 4;
+    let heroEquity: number | null = null;
+
+    if (canShowEquity && !equityTooSparse) {
+      try {
+        const heroGroup = CardGroup.fromString(hero!.holeCards!.join(''));
+        const oppGroups = opponentsWithCards.map(p => CardGroup.fromString(p.holeCards!.join('')));
+        const boardGroup = CardGroup.fromString(boardCards.join(''));
+        const result = OddsCalculator.calculate([heroGroup, ...oppGroups], boardGroup);
+        heroEquity = result.equities[0]?.getEquity() || 0;
+      } catch (e) {
+        console.warn('[HandReplay] Failed to calculate equity using poker-odds-calculator:', e);
+      }
+    }
+    return { heroEquity, equityTooSparse };
+  }, [players, hero, hand]);
   const spotPacket = useMemo(() => {
     if (!heroDecision || players.length === 0) return null;
 
@@ -609,33 +639,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
 
           {/* Equity & Math Card */}
           {(() => {
-            const opponentsWithCards = players.filter(p => !p.isHero && p.holeCards && p.holeCards.length === 2);
-            const boardCards: string[] = [];
-            if (hand.boardFlop) boardCards.push(...hand.boardFlop);
-            if (hand.boardTurn) boardCards.push(hand.boardTurn);
-            if (hand.boardRiver) boardCards.push(hand.boardRiver);
-
-            const canShowEquity = !!hero?.holeCards && hero.holeCards.length === 2 && opponentsWithCards.length > 0;
-            // Equity enumeration cost explodes with unknown board cards (measured:
-            // river ~0.3ms, turn ~8ms, flop ~144ms, preflop ~5.7s). At showdown the
-            // board is always complete (the only case seen across the fixture
-            // corpus), so cap at >=4 known cards — a sparse board with shown cards
-            // would otherwise freeze the UI on every render. We refuse it honestly
-            // below rather than run a multi-second enumeration.
-            const equityTooSparse = canShowEquity && boardCards.length < 4;
-            let heroEquity: number | null = null;
-
-            if (canShowEquity && !equityTooSparse) {
-              try {
-                const heroGroup = CardGroup.fromString(hero!.holeCards!.join(''));
-                const oppGroups = opponentsWithCards.map(p => CardGroup.fromString(p.holeCards!.join('')));
-                const boardGroup = CardGroup.fromString(boardCards.join(''));
-                const result = OddsCalculator.calculate([heroGroup, ...oppGroups], boardGroup);
-                heroEquity = result.equities[0]?.getEquity() || 0;
-              } catch (e) {
-                console.warn('[HandReplay] Failed to calculate equity using poker-odds-calculator:', e);
-              }
-            }
+            const { heroEquity, equityTooSparse } = equityInfo;
 
             return (
               <div className="border border-[var(--accent-line)] bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[var(--money-soft)] to-[var(--ink-2)] rounded-xl overflow-hidden shadow-sm">
