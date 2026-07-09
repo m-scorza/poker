@@ -266,9 +266,21 @@ conflicts.
       prop removed, F27 probe/donk require an OOP lead (+4 tests), F6
       adversarial fixture ADDED and it REPRODUCED — actors are now resolved
       against seated names, longest first. (F2 hero-name UI stays in Arc 5.)
-- [ ] **Wave 2 — vanish the dead:** F8 (per-symbol verify + prune), F9 (script
-      debris), F10 (worktrees); F7 decided at the R4 steer. **PARTIAL —
-      F10 (worktree pruning) NOT done, box left unchecked until it lands.**
+- [x] **Wave 2 — vanish the dead:** F8 (per-symbol verify + prune), F9 (script
+      debris), F10 (worktrees); F7 decided at the R4 steer. ✅ **CLOSED
+      2026-07-09 — F10 landed with owner approval:** the three stale
+      `.claude/worktrees` checkouts (`cool-leavitt` design-system port,
+      `elegant-brown` reports lifecycle, `flamboyant-austin`) were verified
+      clean with all content landed on main (squash-merges), then removed
+      along with their `claude/*` branches. The `Downloads/poker-claude`
+      snapshot's `fixtureVariants.test.ts` harvest-check is DONE — all four
+      pinned parser limitations (Cap buy-in pollution, 6+ Button Blind
+      blinds, play-money chip blinds/PLAY currency, Zoom PKO triple form)
+      are since *fixed* on main with committed fixtures + tests
+      (`buyInExtractor.test.ts`, `fixtureSweep.test.ts` specialized variant
+      checks); the snapshot is superseded and cleared for deletion by the
+      owner. **Only survivor:** the `poker-hermes` worktree stays until the
+      R4 salvage steer resolves (tracked in ROADMAP Act III-1).
       ✅ 2026-07-03 (F7, F8, F9 only): F7
       deleted (StudyPlanCard/ValueSnapshotCard — owner steer confirmed deletion,
       zero imports verified). F8 — every knip candidate individually verified
