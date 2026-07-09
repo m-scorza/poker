@@ -3,16 +3,6 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
-// jspdf + jspdf-autotable are dynamically imported by utils/pdfExport.ts
-// (see PR #136) so they, and their transitive/optional deps (html2canvas,
-// dompurify, fflate/fast-png, canvg + its core-js polyfill) that jsPDF's
-// .html() plugin pulls in, only ever load on the Export PDF click. Force
-// them into one stably-named chunk so the PWA precache list
-// (workbox.globIgnores below) can exclude them without depending on
-// Rollup's auto-generated per-package chunk names/hashes.
-const PDF_EXPORT_VENDOR_CHUNK = 'pdf-export-vendor';
-const pdfExportVendorPattern = /[\\/]node_modules[\\/](jspdf|jspdf-autotable|html2canvas|dompurify|fflate|fast-png|canvg|core-js)[\\/]/;
-
 export default defineConfig({
   plugins: [
     tailwindcss(),
@@ -21,11 +11,26 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       workbox: {
-        // Don't precache the PDF export vendor bundle or the pdfExport
-        // util itself — they're loaded on demand from SessionsPage's
-        // Export PDF action, and precaching them defeats the point of
-        // dynamic-importing them.
-        globIgnores: [`**/${PDF_EXPORT_VENDOR_CHUNK}-*.js`, '**/pdfExport-*.js'],
+        // jspdf + jspdf-autotable are dynamically imported by
+        // utils/pdfExport.ts (see PR #136), so they and their optional
+        // deps (html2canvas, dompurify, and jsPDF's own core-js/fflate
+        // polyfill chunk) only ever load on the Export PDF click. Rollup
+        // already isolates each into its own chunk reachable only from
+        // pdfExport's dynamic import (verified via chunk-import grep: no
+        // other chunk references them) — precaching them upfront would
+        // defeat the point of that dynamic import, so exclude them by
+        // their stable auto-generated chunk-name prefixes. Deliberately
+        // NOT using manualChunks to force them into one named chunk:
+        // doing so pulled Vite's shared `__vitePreload` runtime helper
+        // into that chunk, which made every other route eagerly import
+        // it on load — a regression, not a fix. Plain per-package
+        // globIgnores has no such side effect.
+        globIgnores: [
+          '**/pdfExport-*.js',
+          '**/html2canvas-*.js',
+          '**/purify.es-*.js',
+          '**/index.es-*.js',
+        ],
       },
       manifest: {
         name: 'Poker Analyzer',
@@ -52,17 +57,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': '/src',
-    },
-  },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks(id) {
-          if (pdfExportVendorPattern.test(id)) {
-            return PDF_EXPORT_VENDOR_CHUNK;
-          }
-        },
-      },
     },
   },
   test: {
