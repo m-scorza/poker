@@ -314,7 +314,14 @@ conflicts.
       warnings), test (851/851), build.
 - [ ] **Wave 3 — efficiency:** F11 (lazy PDF stack — biggest bundle win), F12
       (one animation library), F13 (chunk audit), F14 (memoize equity), F15
-      (store micro-batch), F16 (node-env test split — biggest CI win).
+      (store micro-batch), F16 (node-env test split — biggest CI win). **New
+      per the 2026-07-09 health review**
+      (`docs/reports/archive/2026-07-09-codebase-health-review.md`): a NEW
+      eager-shell regression — `Layout.tsx` globally mounts
+      `shared/CommandPalette.tsx`, which statically imports framer-motion,
+      pushing the eager shell from ~367 KB to 505.7 KB. Fixing it
+      (`LazyMotion`/dynamic-import of the palette) plus an optional CI bundle
+      budget is now part of this Wave 3 slice.
 - [ ] **Wave 4 — beauty:** F17 (token unification), F18 (nine clones), F19
       (god-file decomposition), F21, F24, F25, F26, F28, F29 (§7 addendum); add
       §6 util tests as files are touched.

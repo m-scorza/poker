@@ -106,15 +106,17 @@ Arcs 0–2 are merge-on-mandate hygiene/correctness; arcs 3–5 carry review
 checkpoints. Sequencing rule: **the abyss waves 2–4 run after the Hermes
 salvage slices land** (same pages; salvage-first avoids porting churn).
 
-- [ ] **III-0 · Restore the gate (Arc 0)** — the housekeeping PR: finish or
-      revert the dirty `CoachsNotePage` edit that breaks `typecheck`/`build`
-      today (abyss F1), archive the 2026-06-12 reports, settle `launch.json`.
+- [x] **III-0 · Restore the gate (Arc 0)** — the housekeeping PR: finished the
+      dirty `CoachsNotePage` edit that had broken `typecheck`/`build` (abyss
+      F1), archived the 2026-06-12 reports, settled `launch.json`. ✅ **Landed
+      (PR #116, abyss Wave 0)** — the gate has been fully green since.
       Plan: `docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md`.
 - [ ] **III-1 · Salvage the worktree (Arc 1)** — land Hermes R1 (refusal
       completion — closes the refusal-as-UI follow-ups named under Act II) →
-      R2 (import provenance) → R3 (spot packets; review checkpoint). **R4
-      (Study Queue vs SRS) needs an owner steer — merge concepts / port pieces
-      / drop — which also decides abyss F7** (the orphaned StudyPlanCard). R5
+      R2 (import provenance) → R3 (spot packets; review checkpoint). **R1–R3
+      landed** (e.g. #118 provenance, spot packets in tree). **R4 (Study Queue
+      vs SRS) still needs an owner steer** — merge concepts / port pieces /
+      drop — which also decides abyss F7 (the orphaned StudyPlanCard). R5
       research corpus moves to the vault. Same plan doc as III-0.
 - [ ] **III-2 · Abyss cleanup waves (Arc 2)** — execute the abyss audit's wave
       plan (F1–F29, cheapest-truth-first: correctness quickies → dead code →
@@ -176,10 +178,10 @@ vs board), Playwright e2e layer (decide after F16 reshapes the test pipeline).
 - [x] **`bountyAnalyzer.ts:144`** — last-resort hardcoded `1500` starting-stack
       fallback. ✅ **Dropped (PR #111, 2026-07-01):** the dead branch is gone;
       unknown stacks now surface honestly instead of defaulting.
-- [ ] **Colon-in-player-name parsing** — the `^(.+?): <action>` action regexes
-      can mis-split a player name containing `": "`. Low-frequency edge; add a
-      fixture and tighten if it surfaces. *Now tracked as abyss F6 (Wave 1,
-      Act III-2).*
+- [x] **Colon-in-player-name parsing** — the `^(.+?): <action>` action regexes
+      could mis-split a player name containing `": "`. ✅ **Fixed (abyss Wave
+      1, commit `388eac6`)**: an adversarial fixture reproduced it; actors are
+      now resolved against seated names, longest first.
 - [x] **`store.ts:102` empty `db.version(4).stores({})`** — *not a bug.* It is an
       intentional no-op that keeps the Dexie version chain contiguous, now carrying
       an explanatory comment. Recorded so it is not re-flagged by future audits.

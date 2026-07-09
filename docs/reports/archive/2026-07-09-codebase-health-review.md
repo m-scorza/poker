@@ -1,10 +1,16 @@
 ---
-status: open
+status: resolved
 date: 2026-07-09
 related:
   - docs/reports/2026-07-01-abyss-audit.md
   - docs/reports/2026-07-03-post-fable-xray.md
   - docs/reports/archive/2026-06-12-codebase-health-review.md
+note: >
+  All three open items landed via the docs-only closeout PR
+  (chore/docs-health-review-2026-07-09-closeout): ROADMAP Act III refresh and
+  scripts/README additions closed directly; the CommandPalette/framer-motion
+  eager-shell bundle regression is now tracked as part of abyss Wave 3
+  (docs/reports/2026-07-01-abyss-audit.md).
 ---
 
 # Codebase Health Review — 2026-07-09
@@ -17,12 +23,12 @@ verification gate, `madge`, and `knip`.
 
 ## Open items
 
-- [ ] Refresh ROADMAP Act III checkboxes/prose that lag reality (III-0 "breaks
+- [x] Refresh ROADMAP Act III checkboxes/prose that lag reality (III-0 "breaks
       typecheck/build today", III-1 R1–R3, colon-in-player-name item) — see
       Finding 2.
-- [ ] Add `analyze-cli.ts` and `extract-curriculum-seeds.ts` to
+- [x] Add `analyze-cli.ts` and `extract-curriculum-seeds.ts` to
       `scripts/README.md` — see Finding 3.
-- [ ] Fold the CommandPalette → framer-motion eager-shell regression into the
+- [x] Fold the CommandPalette → framer-motion eager-shell regression into the
       abyss Wave 3 (F11/F13) efficiency slice — see Finding 1.
 
 ## Codebase Health Summary
