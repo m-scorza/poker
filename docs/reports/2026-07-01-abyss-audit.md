@@ -321,7 +321,21 @@ conflicts.
       `shared/CommandPalette.tsx`, which statically imports framer-motion,
       pushing the eager shell from ~367 KB to 505.7 KB. Fixing it
       (`LazyMotion`/dynamic-import of the palette) plus an optional CI bundle
-      budget is now part of this Wave 3 slice.
+      budget is now part of this Wave 3 slice. **PARTIAL — landed 2026-07-09
+      via #136:** F11 ✅ (SessionsPage dynamic-imports `pdfExport` in the
+      export handler; route chunk 463.9 → 12.3 KB), CommandPalette regression
+      ✅ (eager Cmd+K listener + `React.lazy` palette; framer-motion back in
+      its lazy chunk; shell 505.7 → 376.3 KB, Vite warning gone), F14 ✅
+      (equity in `useMemo`), F15 ✅ (`computeVillainStats` once per villain;
+      tournament counts via `bulkGet`+`bulkPut`), F16 ✅ (vitest
+      `test.projects` node/jsdom split; wall 326 s → 146 s, 890/890 across 88
+      files), CI bundle budget ✅ (`scripts/check-bundle-budget.mjs`, 432 KiB,
+      wired into ci.yml). **Still open in this wave:** F12 — gsap verified
+      confined to the lazy DashboardPage chunk, but converging on one
+      animation library (porting the gsap quartet) is an owner call, not
+      taken; F13 — CareerPage chunk audit not done (443.9 KB, unchanged).
+      Box stays unchecked until F12 is steered and F13 runs. jspdf also
+      remains in the PWA precache (workbox globs untouched — scope call).
 - [ ] **Wave 4 — beauty:** F17 (token unification), F18 (nine clones), F19
       (god-file decomposition), F21, F24, F25, F26, F28, F29 (§7 addendum); add
       §6 util tests as files are touched.
