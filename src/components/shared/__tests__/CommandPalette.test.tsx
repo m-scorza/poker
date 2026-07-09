@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { useEffect, useState } from 'react';
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { MemoryRouter, Route, Routes, useLocation } from 'react-router-dom';
 import '@testing-library/jest-dom';
@@ -9,10 +10,27 @@ function LocationProbe() {
   return <div data-testid="location">{location.pathname}</div>;
 }
 
+// Mirrors Layout: the shell owns the Cmd/Ctrl+K listener and controls the
+// palette's open state (the palette itself is now controlled).
+function PaletteHarness() {
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setOpen((o) => !o);
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, []);
+  return <CommandPalette open={open} onOpenChange={setOpen} />;
+}
+
 function renderPalette() {
   return render(
     <MemoryRouter initialEntries={['/']}>
-      <CommandPalette />
+      <PaletteHarness />
       <Routes>
         <Route path="*" element={<LocationProbe />} />
       </Routes>

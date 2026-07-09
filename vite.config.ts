@@ -39,7 +39,6 @@ export default defineConfig({
   },
   test: {
     globals: true,
-    environment: 'jsdom',
     testTimeout: 60000,
     coverage: {
       provider: 'v8',
@@ -64,6 +63,44 @@ export default defineConfig({
       '**/.git/**',
       '**/.cache/**',
       '**/.claude/**'
-    ]
+    ],
+    // Parser/analysis/data/utils suites are pure Node (they self-import
+    // `fake-indexeddb/auto` and touch no DOM); only component/page/hook tests
+    // need jsdom. Splitting avoids booting jsdom for the majority of files.
+    projects: [
+      {
+        extends: true,
+        test: {
+          name: 'node',
+          environment: 'node',
+          include: [
+            'src/parser/**/*.test.{ts,tsx}',
+            'src/analysis/**/*.test.{ts,tsx}',
+            'src/data/**/*.test.{ts,tsx}',
+            'src/utils/**/*.test.{ts,tsx}',
+            'scripts/**/*.test.{ts,tsx}',
+          ],
+        },
+      },
+      {
+        extends: true,
+        test: {
+          name: 'jsdom',
+          environment: 'jsdom',
+          include: ['src/**/*.test.{ts,tsx}'],
+          exclude: [
+            '**/node_modules/**',
+            '**/dist/**',
+            '**/.git/**',
+            '**/.cache/**',
+            '**/.claude/**',
+            'src/parser/**',
+            'src/analysis/**',
+            'src/data/**',
+            'src/utils/**',
+          ],
+        },
+      },
+    ],
   },
 });

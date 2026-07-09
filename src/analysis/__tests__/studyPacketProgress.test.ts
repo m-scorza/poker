@@ -1,3 +1,4 @@
+// @vitest-environment jsdom
 import { beforeEach, describe, expect, it } from 'vitest';
 import {
   STUDY_PACKET_PROGRESS_STORAGE_KEY,
