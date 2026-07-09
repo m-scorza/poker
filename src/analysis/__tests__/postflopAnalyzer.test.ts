@@ -51,7 +51,7 @@ describe('classifyBoardTexture', () => {
 
   it('classifies monotone board with high cards', () => {
     const result = classifyBoardTexture(['Ac', 'Kc', '3c']);
-    expect(result.texture).toBe('monotone_c');
+    expect(result.texture).toBe('monotone_high');
     expect(result.isMonotone).toBe(true);
     expect(result.highCardCount).toBe(2);
   });
@@ -286,7 +286,22 @@ describe('analyzePostflop', () => {
       makeAction({ playerName: 'villain', actionType: 'bet', amount: 50, street: 'flop', sequence: 1 }),
     ];
     const spots = analyzePostflop(actions, 'hero', false, ['Ah', '7d', '2c'], 2, 100);
-    expect(spots.some((s) => s.spot === 'NONE' && s.note.includes('Facing 50% pot bet'))).toBe(true);
+    expect(spots.some((s) => s.spot === 'FACING_BET_INFO' && s.note.includes('Facing 50% pot bet'))).toBe(true);
+  });
+
+  it('skips bet sizing when the flop pot is unknown (zero)', () => {
+    // Honest-skip guard: a zero flop pot (the F28 fallback path) must not
+    // produce a sizing fraction against a bogus denominator.
+    const cbet = [
+      makeAction({ playerName: 'villain', actionType: 'check', street: 'flop', sequence: 1 }),
+      makeAction({ playerName: 'hero', actionType: 'bet', amount: 50, street: 'flop', sequence: 2 }),
+    ];
+    const cbetSpots = analyzePostflop(cbet, 'hero', true, ['Ah', '7d', '2c'], 2, 0);
+    expect(cbetSpots.find((s) => s.spot === 'CBET_HU')!.sizing).toBeNull();
+
+    const facing = [makeAction({ playerName: 'villain', actionType: 'bet', amount: 50, street: 'flop', sequence: 1 })];
+    const facingSpots = analyzePostflop(facing, 'hero', false, ['Ah', '7d', '2c'], 2, 0);
+    expect(facingSpots.some((s) => s.spot === 'FACING_BET_INFO')).toBe(false);
   });
 
   it('emits English postflop notes without Portuguese fragments', () => {

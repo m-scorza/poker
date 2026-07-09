@@ -135,7 +135,14 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
       // producing postflop spots for hands hero folded preflop (B9).
       if (heroDecision && hand.boardFlop && heroDecision.sawFlop) {
         if (Array.isArray(heroDecision.postflopActions)) {
-          setPostflopSpots(heroDecision.postflopActions);
+          // Legacy databases stored the facing-bet info row as spot 'NONE'
+          // (renamed to FACING_BET_INFO). Normalize on read so older decisions
+          // keep their correct label.
+          setPostflopSpots(
+            heroDecision.postflopActions.map((pa) =>
+              (pa.spot as string) === 'NONE' ? { ...pa, spot: 'FACING_BET_INFO' as const } : pa,
+            ),
+          );
         } else {
           const heroName = p.find(pl => pl.isHero)?.playerName || 'scorza23';
           const preflopFolders = new Set(
@@ -515,7 +522,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                       spot.isCorrect === false && 'text-[var(--loss)]',
                       spot.isCorrect === null && 'text-[var(--fg-dim)]',
                     )}>
-                      {spot.spot === 'NONE' ? 'FACING BET' : spot.spot.replace(/_/g, ' ')}
+                      {spot.spot === 'FACING_BET_INFO' ? 'FACING BET' : spot.spot.replace(/_/g, ' ')}
                     </span>
                     <span className="text-[var(--fg-muted)] opacity-50">({spot.street})</span>
                   </div>

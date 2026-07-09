@@ -1,4 +1,5 @@
 import type { HeroDecision } from '../types/analysis';
+import { RANK_ORDER } from '../utils/cards';
 
 export type HeadsUpReferenceKind = 'push' | 'call';
 
@@ -55,7 +56,6 @@ interface LookupInput {
   handKey: string;
 }
 
-const RANK_ORDER = '23456789TJQKA';
 const STRONG_FREQUENCY_THRESHOLD = 0.6;
 const LOW_FREQUENCY_THRESHOLD = 0.4;
 
