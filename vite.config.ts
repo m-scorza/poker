@@ -3,6 +3,16 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
+// jspdf + jspdf-autotable are dynamically imported by utils/pdfExport.ts
+// (see PR #136) so they, and their transitive/optional deps (html2canvas,
+// dompurify, fflate/fast-png, canvg + its core-js polyfill) that jsPDF's
+// .html() plugin pulls in, only ever load on the Export PDF click. Force
+// them into one stably-named chunk so the PWA precache list
+// (workbox.globIgnores below) can exclude them without depending on
+// Rollup's auto-generated per-package chunk names/hashes.
+const PDF_EXPORT_VENDOR_CHUNK = 'pdf-export-vendor';
+const pdfExportVendorPattern = /[\\/]node_modules[\\/](jspdf|jspdf-autotable|html2canvas|dompurify|fflate|fast-png|canvg|core-js)[\\/]/;
+
 export default defineConfig({
   plugins: [
     tailwindcss(),
@@ -10,6 +20,13 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+      workbox: {
+        // Don't precache the PDF export vendor bundle or the pdfExport
+        // util itself — they're loaded on demand from SessionsPage's
+        // Export PDF action, and precaching them defeats the point of
+        // dynamic-importing them.
+        globIgnores: [`**/${PDF_EXPORT_VENDOR_CHUNK}-*.js`, '**/pdfExport-*.js'],
+      },
       manifest: {
         name: 'Poker Analyzer',
         short_name: 'PokerAnalyzer',
@@ -35,6 +52,17 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': '/src',
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (pdfExportVendorPattern.test(id)) {
+            return PDF_EXPORT_VENDOR_CHUNK;
+          }
+        },
+      },
     },
   },
   test: {
