@@ -114,10 +114,16 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
 - [ ] **III-1 · Salvage the worktree (Arc 1)** — land Hermes R1 (refusal
       completion — closes the refusal-as-UI follow-ups named under Act II) →
       R2 (import provenance) → R3 (spot packets; review checkpoint). **R1–R3
-      landed** (e.g. #118 provenance, spot packets in tree). **R4 (Study Queue
-      vs SRS) still needs an owner steer** — merge concepts / port pieces /
-      drop — which also decides abyss F7 (the orphaned StudyPlanCard). R5
-      research corpus moves to the vault. Same plan doc as III-0.
+      landed** (e.g. #118 provenance, spot packets in tree). **R4 steered
+      2026-07-09: DROP** — the R4 material rebuilt `StudyPlanCard` for the
+      demoted dashboard, and #132's Arena curriculum/SRS/Study Queue
+      supersedes the concept (F7 was already deleted in abyss Wave 2). The
+      Hermes WIP is fully preserved on `hermes/worktree-20260627-213824`
+      (pushed to origin, final snapshot `a5b60da`); the worktree checkout is
+      removed. **Only R5 remains** — research corpus moves to the vault
+      (source material lives on the preserved branch:
+      `docs/research/CLAIMS_LEDGER.md`, `SOURCE_LEDGER.md`). Same plan doc
+      as III-0.
 - [ ] **III-2 · Abyss cleanup waves (Arc 2)** — execute the abyss audit's wave
       plan (F1–F29, cheapest-truth-first: correctness quickies → dead code →
       efficiency → beauty). Target state: zero orphans, one animation library,

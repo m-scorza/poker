@@ -280,7 +280,11 @@ conflicts.
       (`buyInExtractor.test.ts`, `fixtureSweep.test.ts` specialized variant
       checks); the snapshot is superseded and cleared for deletion by the
       owner. **Only survivor:** the `poker-hermes` worktree stays until the
-      R4 salvage steer resolves (tracked in ROADMAP Act III-1).
+      R4 salvage steer resolves (tracked in ROADMAP Act III-1). **Resolved
+      later same day:** R4 steered DROP (superseded by #132's Arena
+      curriculum/SRS); Hermes WIP preserved on
+      `hermes/worktree-20260627-213824` (origin, snapshot `a5b60da`) and the
+      worktree removed. F10 is now fully closed.
       ✅ 2026-07-03 (F7, F8, F9 only): F7
       deleted (StudyPlanCard/ValueSnapshotCard — owner steer confirmed deletion,
       zero imports verified). F8 — every knip candidate individually verified
@@ -348,6 +352,10 @@ conflicts.
       taken; F13 — CareerPage chunk audit not done (443.9 KB, unchanged).
       Box stays unchecked until F12 is steered and F13 runs. jspdf also
       remains in the PWA precache (workbox globs untouched — scope call).
+      **F12 steered 2026-07-09: DEFER** — gsap is verified confined to the
+      lazy dashboard chunk, so the parallel-library cost is contained; the
+      convergence port is revisited if/when Wave 4 touches those four
+      components. F13 dispatched same day.
 - [ ] **Wave 4 — beauty:** F17 (token unification), F18 (nine clones), F19
       (god-file decomposition), F21, F24, F25, F26, F28, F29 (§7 addendum); add
       §6 util tests as files are touched.
