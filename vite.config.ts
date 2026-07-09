@@ -10,6 +10,28 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+      workbox: {
+        // jspdf + jspdf-autotable are dynamically imported by
+        // utils/pdfExport.ts (see PR #136), so they and their optional
+        // deps (html2canvas, dompurify, and jsPDF's own core-js/fflate
+        // polyfill chunk) only ever load on the Export PDF click. Rollup
+        // already isolates each into its own chunk reachable only from
+        // pdfExport's dynamic import (verified via chunk-import grep: no
+        // other chunk references them) — precaching them upfront would
+        // defeat the point of that dynamic import, so exclude them by
+        // their stable auto-generated chunk-name prefixes. Deliberately
+        // NOT using manualChunks to force them into one named chunk:
+        // doing so pulled Vite's shared `__vitePreload` runtime helper
+        // into that chunk, which made every other route eagerly import
+        // it on load — a regression, not a fix. Plain per-package
+        // globIgnores has no such side effect.
+        globIgnores: [
+          '**/pdfExport-*.js',
+          '**/html2canvas-*.js',
+          '**/purify.es-*.js',
+          '**/index.es-*.js',
+        ],
+      },
       manifest: {
         name: 'Poker Analyzer',
         short_name: 'PokerAnalyzer',
