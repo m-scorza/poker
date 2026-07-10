@@ -26,10 +26,11 @@ _None._
 
 **Archived** — `docs/reports/archive/`
 
-### ✅ Resolved (16)
+### ✅ Resolved (17)
 
 | Date | Report | Closed by |
 |---|---|---|
+| 2026-07-10 | [Codebase Health Review — 2026-07-10 (PM)](archive/2026-07-10-codebase-health-review-pm.md) | - docs/reports/2026-07-01-abyss-audit.md |
 | 2026-07-10 | [Codebase Health Review — 2026-07-10](archive/2026-07-10-codebase-health-review.md) | - docs/reports/2026-07-01-abyss-audit.md |
 | 2026-07-09 | [Codebase Health Review — 2026-07-09](archive/2026-07-09-codebase-health-review.md) | - docs/reports/2026-07-01-abyss-audit.md |
 | 2026-07-08 | [Codebase Health Review — 2026-07-08](archive/2026-07-08-codebase-health-review.md) | docs/reports/2026-07-01-abyss-audit.md, docs/reports/archive/2026-06-12-codebase-health-review.md |

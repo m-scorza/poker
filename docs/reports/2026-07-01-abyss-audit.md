@@ -374,7 +374,13 @@ conflicts.
       normalization in HandReplay for legacy IndexedDB rows), F28 ✅
       (unreachable BTN/SB guards collapsed; zero-pot flop sizing now honestly
       skipped instead of measured against the final pot), F29 ✅ (suit-keyed
-      monotone textures collapsed to `monotone_high`). **Still open:** F17,
-      F18, F19, F24, F25, §6 util tests.
+      monotone textures collapsed to `monotone_high`). **F25 partial — landed
+      2026-07-10 via #153 (ahead of F17):** dead desk.css blocks deleted
+      (dock, command palette, loader — desk.css now 207 lines) and the
+      never-defined `.inner-rule`/`.dh-left`/`.dh-right` classNames removed
+      from JSX; the post-F17 re-sweep of `tokens.css`/`desk.css` overlap
+      remains. **Still open:** F17, F18, F19 (note: ArenaPage grew
+      1 405 → 1 499 lines with #149's SRS CTA — decomposition pressure is
+      rising, not stable), F24, F25 remainder, §6 util tests.
 - [ ] Flip this report `resolved` + archive when the waves land (or when the
       owner strikes remaining items as won't-fix).
