@@ -23,6 +23,12 @@ export interface ProofHandRankingInput {
   leakId: string;
   /** Provenance of the parent leak. Used to credit `clarity` to hands that match the rule cleanly. */
   evidenceKind?: EvidenceKind;
+  /**
+   * Require a hand to cleanly match the leak's mechanism (clarity > 0) before it
+   * can be surfaced as proof. Used for aggregate-stat leaks, whose "receipts"
+   * must actually evidence the leak rather than merely be the biggest losses.
+   */
+  requireClarity?: boolean;
   limit?: number;
   /** Override the "now" timestamp for deterministic tests. */
   now?: Date;
@@ -50,7 +56,7 @@ export const RECENCY_ZERO_WEIGHT_DAYS = 60;
 const REASON_CREDIT_THRESHOLD = 0.4;
 
 export function selectProofHands(input: ProofHandRankingInput): ProofHandPick[] {
-  const { decisions, hands, leakId, evidenceKind, limit = 5, now = new Date() } = input;
+  const { decisions, hands, leakId, evidenceKind, requireClarity = false, limit = 5, now = new Date() } = input;
   if (decisions.length === 0) return [];
 
   const handMap = new Map(hands.map((hand) => [hand.id, hand]));
@@ -96,7 +102,7 @@ export function selectProofHands(input: ProofHandRankingInput): ProofHandPick[] 
       if (recencyRaw >= REASON_CREDIT_THRESHOLD) reasons.push('recency');
       if (clarityRaw >= REASON_CREDIT_THRESHOLD) reasons.push('clarity');
 
-      const qualifies = severityRaw > 0 || clarityRaw > 0;
+      const qualifies = requireClarity ? clarityRaw > 0 : severityRaw > 0 || clarityRaw > 0;
 
       return { handId: decision.handId, rankingScore, reasons, qualifies };
     })
@@ -157,6 +163,7 @@ function clarityScore(decision: HeroDecision, leakId: string): number {
     case 'won_sd':
       return decision.wentToShowdown && !decision.wonAtShowdown ? 1 : 0;
     case 'three_bet':
+    case 'three_bet_shove':
       return decision.scenario === 'FACING_RAISE' ? 1 : 0;
     case 'vpip':
     case 'pfr':
