@@ -5,6 +5,8 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { ArenaPage } from '../ArenaPage';
 import { getDrillPool, isCbetActionCorrect } from '../arena/drillPool';
 import { getDisplayCards } from '../arena/actionOptions';
+import { STARTER_DIAGNOSTIC_PACK, curriculumSpotBadge, curriculumSpotStage } from '../arena/curriculumSeeds';
+import { CURRICULUM_SEED_PACKS } from '../../data/curriculumSeedPacks.generated';
 import { getAllHeroDecisions, getParsedHandForHandId, getSrsReviews, recordSrsReview } from '../../data/store';
 import { STARTER_DIAGNOSTIC_STORAGE_KEY } from '../../data/starterDiagnostic';
 import { CURRICULUM_PROGRESS_STORAGE_KEY } from '../../data/curriculumProgress';
@@ -154,6 +156,33 @@ describe('ArenaPage drill helpers', () => {
     expect(getDisplayCards('AA')).toEqual(['As', 'Ah']);
     expect(getDisplayCards('AKs')).toEqual(['As', 'Ks']);
     expect(getDisplayCards('AKo')).toEqual(['As', 'Kh']);
+  });
+
+  it('draws the starter diagnostic from every curriculum category, not just the first packs', () => {
+    const sourceSlugs = new Set(
+      STARTER_DIAGNOSTIC_PACK.spots.map(
+        (spot) => CURRICULUM_SEED_PACKS.find((pack) => pack.spots.some((s) => s.id === spot.id))!.slug,
+      ),
+    );
+    // Every pack contributes exactly once -> no category silently dropped.
+    expect(sourceSlugs.size).toBe(CURRICULUM_SEED_PACKS.length);
+    expect(sourceSlugs.has('open-raise-fundamentals')).toBe(true); // RFI fundamentals
+    expect(sourceSlugs.has('versus-bb-cbet')).toBe(true); // a postflop pack
+  });
+
+  it('badges curriculum spots by their source-pack stage, incl. postflop seeds inside the starter diagnostic', () => {
+    const postflopPack = CURRICULUM_SEED_PACKS.find((pack) => pack.slug === 'in-position-cbet-vs-bb')!;
+    const preflopPack = CURRICULUM_SEED_PACKS.find((pack) => pack.slug === 'open-raise-fundamentals')!;
+
+    expect(curriculumSpotStage(postflopPack.spots[0])).toBe('postflop');
+    expect(curriculumSpotBadge(postflopPack.spots[0])).toBe('Postflop');
+    expect(curriculumSpotStage(preflopPack.spots[0])).toBe('preflop');
+
+    // A postflop seed pulled into the starter diagnostic keeps its postflop badge
+    // instead of falling through to the wrapper's preflop default.
+    const starterPostflopSpot = STARTER_DIAGNOSTIC_PACK.spots.find((spot) => curriculumSpotStage(spot) === 'postflop');
+    expect(starterPostflopSpot).toBeDefined();
+    expect(curriculumSpotBadge(starterPostflopSpot!)).toBe('Postflop');
   });
 });
 
@@ -328,6 +357,36 @@ describe('ArenaPage drill start behavior', () => {
     expect(
       await screen.findByText('Session complete.', undefined, { timeout: 4000 }),
     ).toBeInTheDocument();
+  });
+
+  it('requeues a lapsed spaced-review card so it reappears within the same session', async () => {
+    // Same single 72o UTG fault, but answered WRONG (raising an out-of-range open).
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'f1', position: 'UTG', handKey: '72o', action: 'raise', stackBb: 30 }),
+    ]);
+    vi.mocked(getSrsReviews).mockResolvedValue([]);
+
+    render(<ArenaPage />);
+
+    fireEvent.click((await screen.findByText(/Drill your real mistakes/i)).closest('button')!);
+    const raiseButton = await screen.findByRole('button', { name: 'Raise' });
+
+    vi.useFakeTimers();
+    fireEvent.click(raiseButton);
+
+    // The miss is graded and persisted as a lapse.
+    expect(recordSrsReview).toHaveBeenCalledWith('RFI|UTG|72o|ge10|-', false);
+
+    await act(async () => {
+      vi.advanceTimersByTime(2000);
+    });
+    vi.useRealTimers();
+
+    // A compliant single-card session would end here; instead the lapse was
+    // requeued, so the drill stays active and the card returns as review 2 of 2.
+    expect(screen.queryByText('Session complete.')).not.toBeInTheDocument();
+    expect(screen.getByText('2 / 2')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Raise' })).toBeInTheDocument();
   });
 
   it('auto-starts an imported Study Queue hand from the Arena route query', async () => {

@@ -6,6 +6,7 @@ import {
   gradeSpot,
   isDue,
   selectQueue,
+  requeueLapsedSpot,
   buildFaultSpots,
   BOX_INTERVALS_DAYS,
   MAX_BOX,
@@ -172,6 +173,40 @@ describe('selectQueue', () => {
     const q = selectQueue(spots, new Map(), now, 2);
     expect(q.fresh).toHaveLength(2);
     expect(q.due).toHaveLength(0);
+  });
+});
+
+describe('requeueLapsedSpot', () => {
+  const now = 1_000_000;
+  const spot = (spotKey: string): FaultSpot => ({
+    spotKey,
+    scenario: 'RFI',
+    position: 'UTG',
+    handKey: 'AA',
+    stackBb: 50,
+    representative: mk({}),
+    count: 1,
+  });
+
+  it('reinserts a lapsed card so it reappears later in the same session', () => {
+    const queue = [spot('a'), spot('b'), spot('c'), spot('d'), spot('e'), spot('f')];
+    const lapsed = gradeSpot('a', undefined, false, now); // dueAt = now + RELEARN_MS
+    const next = requeueLapsedSpot(queue, 0, lapsed, now);
+    // Original card stays in place; a second copy lands a few positions ahead.
+    expect(next.map((s) => s.spotKey)).toEqual(['a', 'b', 'c', 'd', 'a', 'e', 'f']);
+  });
+
+  it('appends when the current card is at or near the end', () => {
+    const queue = [spot('a'), spot('b')];
+    const lapsed = gradeSpot('b', undefined, false, now);
+    const next = requeueLapsedSpot(queue, 1, lapsed, now);
+    expect(next.map((s) => s.spotKey)).toEqual(['a', 'b', 'b']);
+  });
+
+  it('leaves the queue untouched for a promoted (correct) card', () => {
+    const queue = [spot('a'), spot('b')];
+    const promoted = gradeSpot('a', undefined, true, now); // dueAt a day out
+    expect(requeueLapsedSpot(queue, 0, promoted, now)).toBe(queue);
   });
 });
 

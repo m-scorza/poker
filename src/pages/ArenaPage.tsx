@@ -11,7 +11,7 @@ import { getAllHeroDecisions, getSrsReviews, recordSrsReview } from '../data/sto
 import { PokerCard } from '../components/shared/Card';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
 import { checkCompliance } from '../analysis/rangeChecker';
-import { buildFaultSpots, selectQueue, type FaultSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
+import { buildFaultSpots, gradeSpot, requeueLapsedSpot, selectQueue, type FaultSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
 import { recordStudyPacketReview } from '../analysis/studyPacketProgress';
 import type { HeroDecision } from '../types/analysis';
 import type { SpotPacket } from '../analysis/spotPacket';
@@ -34,6 +34,8 @@ import {
   sourcePackTitleForStarterSpot,
   diagnosticReviewAreaSummary,
   curriculumDecision,
+  curriculumSpotStage,
+  curriculumSpotBadge,
 } from './arena/curriculumSeeds';
 import {
   buildStudyQueueSessionSummary,
@@ -516,16 +518,26 @@ export function ArenaPage() {
       clearTimeout(advanceTimerRef.current);
     }
 
-    // Spaced review: persist the outcome, then advance the cursor (or finish).
+    // Spaced review: persist the outcome, requeue a lapse for same-session
+    // relearn, then advance the cursor (or finish).
     if (drill.type === 'spaced_review' && drill.srs) {
       const session = drill.srs;
       const spot = session.queue[session.index];
-      if (spot) void recordSrsReview(spot.spotKey, userIsCorrect);
+      const now = Date.now();
+      let queue = session.queue;
+      if (spot) {
+        void recordSrsReview(spot.spotKey, userIsCorrect);
+        // Mirror the persisted grade to decide (purely from its near-term dueAt)
+        // whether the lapsed card must reappear before this session ends.
+        const prevRecord = srsReviews.find((r) => r.spotKey === spot.spotKey);
+        const graded = gradeSpot(spot.spotKey, prevRecord, userIsCorrect, now);
+        queue = requeueLapsedSpot(session.queue, session.index, graded, now);
+      }
       const nextScore = {
         correct: drill.score.correct + (userIsCorrect ? 1 : 0),
         total: drill.score.total + 1,
       };
-      const isLast = session.index + 1 >= session.queue.length;
+      const isLast = session.index + 1 >= queue.length;
       advanceTimerRef.current = setTimeout(() => {
         advanceTimerRef.current = null;
         if (isLast) {
@@ -535,13 +547,14 @@ export function ArenaPage() {
         } else {
           setDrill(prev => {
             if (!prev.srs) return prev;
-            const nextCard = prev.srs.queue[prev.srs.index + 1];
+            const nextIndex = prev.srs.index + 1;
+            const nextCard = queue[nextIndex];
             if (!nextCard) return prev;
             return {
               ...prev,
               currentDecision: nextCard.representative,
               lastFeedback: null,
-              srs: { ...prev.srs, index: prev.srs.index + 1 },
+              srs: { ...prev.srs, queue, index: nextIndex },
             };
           });
         }
@@ -921,11 +934,17 @@ export function ArenaPage() {
             <div className="absolute top-[15%] left-1/2 -translate-x-1/2 flex flex-col items-center">
                <div className="px-4 py-1.5 bg-[var(--ink)] border border-[var(--hairline)] rounded-full shadow-lg backdrop-blur-md">
                  <span className="kick text-[var(--fg)]">
-                    {drill.currentDecision?.scenario.replace('_', ' ')}
+                    {drill.type === 'curriculum'
+                      ? curriculumSpotBadge(drill.currentCurriculumSpot)
+                      : drill.currentDecision?.scenario.replace('_', ' ')}
                  </span>
                </div>
                <div className="mt-2 text-[10px] text-[var(--accent)] font-bold tracking-tighter uppercase opacity-80">
-                  Stage: {drill.type === 'cbet_clinic' ? 'Flop' : 'Pre-flop'}
+                  Stage: {drill.type === 'cbet_clinic'
+                    ? 'Flop'
+                    : drill.type === 'curriculum' && curriculumSpotStage(drill.currentCurriculumSpot) === 'postflop'
+                      ? 'Postflop'
+                      : 'Pre-flop'}
                </div>
             </div>
 

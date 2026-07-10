@@ -10,10 +10,10 @@ export const STARTER_DIAGNOSTIC_PACK: CurriculumSeedPack = {
     path: '../poker-knowledge/quiz_configs.json',
     sourceConfigIndexes: Array.from(new Set(CURRICULUM_SEED_PACKS.flatMap((pack) => pack.source.sourceConfigIndexes))),
   },
-  spots: CURRICULUM_SEED_PACKS.reduce<CurriculumSpotSeed[]>(
-    (spots, pack) => spots.concat(pack.spots.slice(0, 2)),
-    [],
-  ).slice(0, 8),
+  // One spot from every pack, in pack order, so the diagnostic samples across all
+  // curriculum categories (preflop + postflop) instead of exhausting a fixed cap
+  // on the first few packs and silently dropping the rest.
+  spots: CURRICULUM_SEED_PACKS.flatMap<CurriculumSpotSeed>((pack) => pack.spots.slice(0, 1)),
 };
 
 export const CURRICULUM_PACK_GROUPS: Array<{ title: string; description: string; slugs: string[] }> = [
@@ -34,9 +34,40 @@ export const CURRICULUM_PACK_GROUPS: Array<{ title: string; description: string;
   },
 ];
 
+function sourcePackForCurriculumSpot(spot: CurriculumSpotSeed | null | undefined): CurriculumSeedPack | null {
+  if (!spot) return null;
+  return CURRICULUM_SEED_PACKS.find((pack) => pack.spots.some((packSpot) => packSpot.id === spot.id)) ?? null;
+}
+
 export function sourcePackTitleForStarterSpot(spot: CurriculumSpotSeed | null | undefined): string {
-  if (!spot) return 'Curriculum seed';
-  return CURRICULUM_SEED_PACKS.find((pack) => pack.spots.some((packSpot) => packSpot.id === spot.id))?.title ?? 'Curriculum seed';
+  return sourcePackForCurriculumSpot(spot)?.title ?? 'Curriculum seed';
+}
+
+// Postflop curriculum packs (see the 'Postflop play' group in
+// CURRICULUM_PACK_GROUPS). The Scenario enum is preflop-only, so postflop content
+// cannot ride the scenario badge — these get their own stage/badge instead of
+// falling through to the preflop 'RFI'/'Pre-flop' default.
+const POSTFLOP_CURRICULUM_PACK_SLUGS = new Set<string>([
+  'in-position-cbet-vs-bb',
+  'in-position-postflop',
+  'in-position-turn-river-barrels-vs-bb',
+  'out-of-position-cbet',
+  'versus-bb-cbet',
+]);
+
+// Stage/badge derive from the spot's *source* pack, not the pack currently being
+// drilled: a starter-diagnostic session mixes spots from every pack, so a postflop
+// seed inside it must still read as postflop.
+export function curriculumSpotStage(spot: CurriculumSpotSeed | null | undefined): 'preflop' | 'postflop' {
+  const pack = sourcePackForCurriculumSpot(spot);
+  return pack && POSTFLOP_CURRICULUM_PACK_SLUGS.has(pack.slug) ? 'postflop' : 'preflop';
+}
+
+export function curriculumSpotBadge(spot: CurriculumSpotSeed | null | undefined): string {
+  const pack = sourcePackForCurriculumSpot(spot);
+  if (!pack) return 'Curriculum';
+  if (POSTFLOP_CURRICULUM_PACK_SLUGS.has(pack.slug)) return 'Postflop';
+  return curriculumScenarioForPack(pack).replace('_', ' ');
 }
 
 export function diagnosticReviewAreaSummary(area: { misses: number; attempts: number }): string {
