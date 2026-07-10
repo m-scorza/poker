@@ -5,12 +5,15 @@ import {
   clearAllData,
   clearImportRuns,
   db,
+  getLeakStatuses,
   getParsedHandForHandId,
   getRecentImportRuns,
   getSrsReviews,
   recordSrsReview,
   saveImportRun,
   saveVillainNote,
+  setLeakStudying,
+  stopStudyingLeak,
 } from '../store';
 import type { Action, Hand, PlayerInHand, Position } from '../../types/hand';
 import type { ImportRunRecord } from '../importRuns';
@@ -352,5 +355,77 @@ describe('spaced-review persistence', () => {
     await recordSrsReview('k', true);
     await clearAllData();
     await expect(getSrsReviews()).resolves.toEqual([]);
+  });
+});
+
+describe('leak lifecycle persistence', () => {
+  beforeEach(async () => {
+    await clearAllData();
+  });
+
+  it('round-trips a leakStatus record written directly against the table', async () => {
+    const studyingSince = new Date('2026-06-01T12:00:00Z');
+
+    await db.leakStatus.put({ leakId: 'overfold-utg', studyingSince, resolvedAt: null });
+
+    const record = await db.leakStatus.get('overfold-utg');
+
+    expect(record).toBeDefined();
+    expect(record!.leakId).toBe('overfold-utg');
+    expect(record!.studyingSince).toBeInstanceOf(Date);
+    expect(record!.studyingSince.getTime()).toBe(studyingSince.getTime());
+    expect(record!.resolvedAt).toBeNull();
+  });
+
+  it('persists and reads back a studied leak via setLeakStudying/getLeakStatuses', async () => {
+    await setLeakStudying('cbet-hu-miss');
+
+    const all = await getLeakStatuses();
+
+    expect(all).toHaveLength(1);
+    expect(all[0]!.leakId).toBe('cbet-hu-miss');
+    expect(all[0]!.studyingSince).toBeInstanceOf(Date);
+    expect(all[0]!.resolvedAt).toBeNull();
+  });
+
+  it('is idempotent: re-marking an already-studied leak does not overwrite studyingSince', async () => {
+    await db.leakStatus.put({
+      leakId: 'wtsd-high',
+      studyingSince: new Date('2026-01-01T00:00:00Z'),
+      resolvedAt: null,
+    });
+
+    await setLeakStudying('wtsd-high');
+
+    const record = await db.leakStatus.get('wtsd-high');
+    expect(record!.studyingSince.toISOString()).toBe('2026-01-01T00:00:00.000Z');
+  });
+
+  it('updates resolvedAt in place on an existing record, preserving other fields', async () => {
+    const studyingSince = new Date('2026-06-01T12:00:00Z');
+    await db.leakStatus.put({ leakId: 'sb-overfold', studyingSince, resolvedAt: null });
+
+    const resolvedAt = new Date('2026-06-15T09:30:00Z');
+    await db.leakStatus.put({ leakId: 'sb-overfold', studyingSince, resolvedAt });
+
+    const record = await db.leakStatus.get('sb-overfold');
+
+    expect(record!.leakId).toBe('sb-overfold');
+    expect(record!.studyingSince.getTime()).toBe(studyingSince.getTime());
+    expect(record!.resolvedAt).toBeInstanceOf(Date);
+    expect(record!.resolvedAt!.getTime()).toBe(resolvedAt.getTime());
+  });
+
+  it('removes a leakStatus record via stopStudyingLeak', async () => {
+    await setLeakStudying('limp-behind');
+    await stopStudyingLeak('limp-behind');
+
+    await expect(getLeakStatuses()).resolves.toEqual([]);
+  });
+
+  it('is wiped by clearAllData', async () => {
+    await setLeakStudying('bb-fold-suited');
+    await clearAllData();
+    await expect(getLeakStatuses()).resolves.toEqual([]);
   });
 });

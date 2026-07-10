@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { detectScenario, buildHeroDecision } from '../scenarioDetector';
+import { detectScenario, buildHeroDecision, computePotBeforeStreet } from '../scenarioDetector';
 import { parsePokerStarsFile, type ParsedHand } from '../../parser/pokerstars';
 import type { Action, Hand, PlayerInHand, Tournament } from '../../types/hand';
 import {
@@ -675,5 +675,17 @@ scorza23: checks`);
       expect(decision!.cbetMade).toBe(true);
       expect(decision!.doubleBarrelOpportunity).toBe(false);
     });
+  });
+});
+
+describe('computePotBeforeStreet', () => {
+  it('returns 0 when no chips were contributed before the street', () => {
+    // The F28 fallback trigger: no prior investment means no honest flop-pot
+    // denominator, so sizing analysis is skipped rather than guessed.
+    const actions: Action[] = [
+      baseAction({ street: 'preflop', actionType: 'check', amount: null, sequence: 0 }),
+      baseAction({ street: 'preflop', actionType: 'fold', amount: null, sequence: 1 }),
+    ];
+    expect(computePotBeforeStreet(actions, 'flop')).toBe(0);
   });
 });

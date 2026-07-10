@@ -253,6 +253,36 @@ describe('selectProofHands', () => {
     expect(picksThreeBet.find(p => p.handId === 'threeBet')?.reasons).toContain('clarity');
   });
 
+  it('with requireClarity, excludes bigger-loss hands that do not match the leak mechanism', () => {
+    const matching = decision({ handId: 'facing', netProfit: -100, scenario: 'FACING_RAISE' });
+    const biggerButIrrelevant = decision({ handId: 'cooler', netProfit: -5000, scenario: 'RFI' });
+
+    const picks = selectProofHands({
+      decisions: [matching, biggerButIrrelevant],
+      hands: [hand('facing'), hand('cooler')],
+      leakId: 'three_bet',
+      evidenceKind: 'rule_based',
+      requireClarity: true,
+      now: NOW,
+    });
+
+    expect(picks.map((p) => p.handId)).toEqual(['facing']);
+    expect(picks[0]!.reasons).toContain('clarity');
+  });
+
+  it('with requireClarity, returns nothing for leaks that have no per-hand mechanism', () => {
+    const picks = selectProofHands({
+      decisions: [decision({ handId: 'a', netProfit: -500 })],
+      hands: [hand('a')],
+      leakId: 'vpip',
+      evidenceKind: 'rule_based',
+      requireClarity: true,
+      now: NOW,
+    });
+
+    expect(picks).toEqual([]);
+  });
+
   it('handles hand dates that are missing or in the future gracefully', () => {
     const missingDateHand = hand('missing', { date: undefined });
     const futureDateHand = hand('future', { date: new Date(NOW.getTime() + 100000) });

@@ -8,7 +8,6 @@ import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { detectLeaks, computeAggregateStats } from '../analysis/leakDetector';
 import { groupIntoSessions } from '../data/sessions';
 import { exportSessionsCSV } from '../utils/csvExport';
-import { exportSessionsPDF } from '../utils/pdfExport';
 import { clsx } from 'clsx';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { ratioPct } from '../utils/format';
@@ -72,7 +71,10 @@ export function SessionsPage() {
               <Download size={14} /> CSV
             </button>
             <button
-              onClick={() => exportSessionsPDF(sessions, leaks, heroName)}
+              onClick={async () => {
+                const { exportSessionsPDF } = await import('../utils/pdfExport');
+                exportSessionsPDF(sessions, leaks, heroName);
+              }}
               className="btn outline"
             >
               <FileText size={14} /> PDF

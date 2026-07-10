@@ -7,6 +7,8 @@ import {
   estimateHourlyRate,
   ASSUMED_HANDS_PER_HOUR,
 } from '../careerStats';
+import { buildCareerCoachReport } from '../careerCoach';
+import { buildCareerScopeProfile } from '../careerScope';
 import type { Tournament } from '../../types/hand';
 
 function makeTourney(overrides: Partial<Tournament> = {}): Tournament {
@@ -112,6 +114,34 @@ describe('careerStats helpers', () => {
     it('ignores play-money tournaments and returns 0 with no cash entries', () => {
       expect(computeLifetimeRoi([makeTourney({ currency: 'PLAY', prize: 999 })])).toBe(0);
       expect(computeLifetimeRoi([])).toBe(0);
+    });
+  });
+
+  describe('cash freeroll ROI consistency (buyIn=0, prize>0)', () => {
+    // A cash-currency freeroll (no buy-in) plus one busted $10+$1 entry. ROI is
+    // undefined for the zero-cost freeroll, so every career surface drops it and
+    // reports the $11 loss alone: -100%. The $5 freeroll prize still lands in
+    // net-profit totals rather than being discarded.
+    const freeroll = makeTourney({ id: 'fr', buyIn: 0, fee: 0, prize: 5, finishPosition: 1, startDate: new Date('2026-05-01') });
+    const cashBust = makeTourney({ id: 'cb', buyIn: 10, fee: 1, prize: 0, startDate: new Date('2026-05-02') });
+    const portfolio = [freeroll, cashBust];
+
+    it('excludes the freeroll from lifetime ROI', () => {
+      expect(computeLifetimeRoi(portfolio)).toBeCloseTo(-100, 5);
+    });
+
+    it('agrees across lifetime, coach, and scope ROI', () => {
+      const lifetime = computeLifetimeRoi(portfolio);
+      const coach = buildCareerCoachReport(portfolio, [], []);
+      const scope = buildCareerScopeProfile(portfolio);
+
+      expect(lifetime).toBeCloseTo(-100, 5);
+      expect(coach.roi).toBeCloseTo(lifetime, 5);
+      expect(scope.totalRoi).toBeCloseTo(lifetime, 5);
+
+      // The freeroll prize is reclassified into net profit, not dropped.
+      expect(coach.trackedProfit).toBeCloseTo(-6, 5);
+      expect(scope.totalProfit).toBeCloseTo(-6, 5);
     });
   });
 
