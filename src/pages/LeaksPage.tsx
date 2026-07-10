@@ -2,13 +2,13 @@
  * Leaks page — prioritized leak display with severity, impact, and next actions.
  */
 
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { AlertTriangle, ArrowRight, BookOpen, CheckCircle, Crosshair, TrendingDown, TrendingUp } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { db, getRecentImportRuns, getLeakStatuses, setLeakStudying, stopStudyingLeak } from '../data/store';
+import { db, getRecentImportRuns, getLeakStatuses, reconcileLeakStatusesOnImport, setLeakStudying, stopStudyingLeak } from '../data/store';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { summarizeDataHealth, type DataHealthSummary } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
@@ -190,6 +190,15 @@ export function LeaksPage() {
     const stats = computeAggregateStats(checked);
     const leaks = detectLeaks(stats, strategyProfile);
     return { leaks, totalHands: checked.length };
+  }, [strategyProfile]);
+
+  // Switching strategy profile re-measures the leak set instantly (the live query
+  // above), but the persisted lifecycle only advances at import. Without this, a
+  // studied leak that only exists under one profile would vanish from the leak list
+  // AND never get a tombstone (resolvedAt stays null) — untracked, not resolved.
+  // Reconcile on profile change so it lands in the graveyard instead of disappearing.
+  useEffect(() => {
+    void reconcileLeakStatusesOnImport(strategyProfile);
   }, [strategyProfile]);
 
   const leaks = data?.leaks ?? [];
