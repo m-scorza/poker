@@ -1,4 +1,6 @@
-const RANK_ORDER = '23456789TJQKA';
+import { rankIndex } from '../utils/cards';
+
+export { rankIndex };
 
 export interface ParsedCard {
   rank: string;
@@ -12,11 +14,6 @@ export function parseCard(cardStr: string): ParsedCard {
     rank: trimmed[0]!,
     suit: trimmed[1]!,
   };
-}
-
-/** Get the numeric rank index (higher = stronger). */
-export function rankIndex(rank: string): number {
-  return RANK_ORDER.indexOf(rank);
 }
 
 /**

@@ -61,7 +61,7 @@ function sortReviewAreas(areas: StarterDiagnosticReviewArea[]): StarterDiagnosti
   );
 }
 
-export function buildStarterDiagnosticSummary(
+function buildStarterDiagnosticSummary(
   previous: StarterDiagnosticSummary | null,
   answer: StarterDiagnosticAnswer,
 ): StarterDiagnosticSummary {

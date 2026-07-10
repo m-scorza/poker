@@ -2,6 +2,7 @@ import type { Hand, PlayerInHand, Action, Tournament } from '../types/hand';
 import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
 import { parseUsdCents, centsToUsd, parseLocaleChips } from './money';
+import { rankValue } from '../utils/cards';
 
 
 export interface ParsedHand {
@@ -710,8 +711,7 @@ function escapeRegex(str: string): string {
 
 /** Normalize hole cards to have highest rank first (Bug #3) */
 function normalizeHoleCards(cards: [string, string]): [string, string] {
-  const rankOrder: Record<string, number> = { 'A': 14, 'K': 13, 'Q': 12, 'J': 11, 'T': 10, '9': 9, '8': 8, '7': 7, '6': 6, '5': 5, '4': 4, '3': 3, '2': 2 };
-  const r1 = rankOrder[cards[0]![0]!] ?? 0;
-  const r2 = rankOrder[cards[1]![0]!] ?? 0;
+  const r1 = rankValue(cards[0]![0]!);
+  const r2 = rankValue(cards[1]![0]!);
   return r1 >= r2 ? [cards[0]!, cards[1]!] : [cards[1]!, cards[0]!];
 }

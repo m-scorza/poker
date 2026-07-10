@@ -149,11 +149,11 @@ export function DashboardPage() {
       <WireTape wireItems={wireItems} />
       
       <div className="desk-head">
-        <div className="dh-left">
+        <div>
           <span className="kick">Desk &gt; Overview &gt; System</span>
           <h2>Command Desk <span>[{totalPnl >= 0 ? '+' : '-'}${Math.abs(totalPnl).toFixed(2)}]</span></h2>
         </div>
-        <div className="dh-right">
+        <div>
           <span className="kick">Private local report</span>
           <button type="button" className="btn primary" onClick={downloadDashboardReport} disabled={!careerCoachReport}>
             Export report
@@ -162,12 +162,15 @@ export function DashboardPage() {
       </div>
 
       <main className="desk-grid">
-        <MonumentCurve 
-          totalPnl={totalPnl} 
-          tournaments={statsSummary.totalTournaments} 
-          roi={roi} 
-          itmRate={itmRate} 
-          verdict={careerCoachReport?.recommendation || "You're cash positive."} 
+        <MonumentCurve
+          totalPnl={totalPnl}
+          tournaments={statsSummary.totalTournaments}
+          roi={roi}
+          itmRate={itmRate}
+          verdict={careerCoachReport?.recommendation || "You're cash positive."}
+          trendData={data?.trendData || []}
+          maxDrawdown={careerCoachReport?.maxDrawdown ?? 0}
+          maxDrawdownBuyIns={careerCoachReport?.maxDrawdownBuyIns ?? 0}
         />
         
         <VerdictGauge 

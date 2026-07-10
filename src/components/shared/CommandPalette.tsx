@@ -4,6 +4,10 @@
  * Filters the shared nav registry (plus palette-only destinations) and
  * navigates on Enter. Modal conventions mirror ConfirmDialog: backdrop click
  * and Escape close, focus lands in the input, previous focus is restored.
+ *
+ * Controlled by the caller (Layout): the eager shell owns the Cmd+K listener
+ * and lazy-loads this component (with framer-motion) on first invocation, so
+ * the animation library stays out of the eager index chunk.
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -15,8 +19,12 @@ import { NAV_ITEMS, PALETTE_EXTRA_ITEMS, type NavItem } from '../layout/navItems
 
 const ALL_ITEMS: NavItem[] = [...NAV_ITEMS, ...PALETTE_EXTRA_ITEMS];
 
-export function CommandPalette() {
-  const [isOpen, setIsOpen] = useState(false);
+interface CommandPaletteProps {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}
+
+export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
   const [query, setQuery] = useState('');
   const [activeIndex, setActiveIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -35,31 +43,24 @@ export function CommandPalette() {
   }, [query]);
 
   const close = useCallback(() => {
-    setIsOpen(false);
-    setQuery('');
-    setActiveIndex(0);
-    if (previousActiveElement.current instanceof HTMLElement) {
-      previousActiveElement.current.focus();
-    }
-  }, []);
+    onOpenChange(false);
+  }, [onOpenChange]);
 
-  const openPalette = useCallback(() => {
-    previousActiveElement.current = document.activeElement;
-    setIsOpen(true);
-    requestAnimationFrame(() => inputRef.current?.focus());
-  }, []);
-
+  // Centralize open/close side effects here so every close path (Escape,
+  // backdrop, select, or the shell's Cmd+K toggle) resets the query and
+  // restores the previously focused element.
   useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-        e.preventDefault();
-        if (isOpen) close();
-        else openPalette();
+    if (!open) {
+      setQuery('');
+      setActiveIndex(0);
+      if (previousActiveElement.current instanceof HTMLElement) {
+        previousActiveElement.current.focus();
       }
-    };
-    window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
-  }, [isOpen, close, openPalette]);
+      return;
+    }
+    previousActiveElement.current = document.activeElement;
+    requestAnimationFrame(() => inputRef.current?.focus());
+  }, [open]);
 
   const select = (item: NavItem) => {
     navigate(item.to);
@@ -85,7 +86,7 @@ export function CommandPalette() {
 
   return (
     <AnimatePresence>
-      {isOpen && (
+      {open && (
         <div className="fixed inset-0 z-[100] flex items-start justify-center p-4 pt-[15vh]">
           <motion.div
             initial={{ opacity: 0 }}
