@@ -162,12 +162,15 @@ export function DashboardPage() {
       </div>
 
       <main className="desk-grid">
-        <MonumentCurve 
-          totalPnl={totalPnl} 
-          tournaments={statsSummary.totalTournaments} 
-          roi={roi} 
-          itmRate={itmRate} 
-          verdict={careerCoachReport?.recommendation || "You're cash positive."} 
+        <MonumentCurve
+          totalPnl={totalPnl}
+          tournaments={statsSummary.totalTournaments}
+          roi={roi}
+          itmRate={itmRate}
+          verdict={careerCoachReport?.recommendation || "You're cash positive."}
+          trendData={data?.trendData || []}
+          maxDrawdown={careerCoachReport?.maxDrawdown ?? 0}
+          maxDrawdownBuyIns={careerCoachReport?.maxDrawdownBuyIns ?? 0}
         />
         
         <VerdictGauge 
