@@ -283,6 +283,8 @@ are stale. Do not edit by hand.
 **Runtime** (`dependencies`):
 
 - @fontsource-variable/bricolage-grotesque ^5.2.10
+- @fontsource/hanken-grotesk ^5.2.8
+- @fontsource/space-mono ^5.2.9
 - @gsap/react ^2.1.2
 - @tanstack/react-table ^8.21.3
 - @tanstack/react-virtual ^3.13.24
@@ -429,10 +431,14 @@ src/pages/  (12 files)
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (39 files)
+src/components/  (43 files)
   components/blackout/Folio.tsx
+  components/blackout/FolioSection.tsx
   components/blackout/HonestyStrip.tsx
+  components/blackout/PageTransition.tsx
   components/blackout/Ticker.tsx
+  components/blackout/TitleReveal.tsx
+  components/blackout/motion.ts
   components/career/BustOutChart.tsx
   components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx

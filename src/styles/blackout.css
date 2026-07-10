@@ -41,22 +41,18 @@
   text-wrap: balance;
 }
 .bk-hl .row { display: block; overflow: hidden; }
+/* rows are driven by <TitleReveal> (framer-motion); the mask above clips the
+   rise. See src/components/blackout/TitleReveal.tsx + motion.ts. */
 .bk-hl .row i {
   display: inline-block;
   font-style: normal;
-  transform: translateY(110%);
-  animation: bk-rise 0.9s cubic-bezier(0.2, 0.9, 0.24, 1) forwards;
 }
-.bk-hl .row:nth-child(2) i { animation-delay: 0.09s; }
-.bk-hl .row:nth-child(3) i { animation-delay: 0.18s; }
-.bk-hl .row:nth-child(4) i { animation-delay: 0.27s; }
 /* one word per title carries the outline stroke (D-signature) */
 .bk-hl em {
   font-style: normal;
   color: transparent;
   -webkit-text-stroke: 1.5px var(--fg);
 }
-@keyframes bk-rise { to { transform: translateY(0); } }
 
 .bk-hero-sub {
   max-width: 54ch;
@@ -226,7 +222,8 @@
   transition: padding 0.2s, color 0.2s;
 }
 .bk-receipt:hover { color: var(--fg); padding-left: 10px; }
-.bk-receipt .why { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--fg-dim); }
+/* legibility floor: mono data never below 10px (tracking capped at .26em there) */
+.bk-receipt .why { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--fg-dim); }
 
 /* ---- CTA: ink fills left→right, label inverts, violet arrow ---- */
 .bk-cta {
@@ -282,7 +279,7 @@
 .bk-honesty b {
   display: block;
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.26em;
   text-transform: uppercase;
   color: var(--fg-muted);
@@ -306,13 +303,15 @@
 .bk-ticker span b { color: var(--fg); font-weight: 400; }
 .bk-ticker .up { color: var(--money); }
 .bk-ticker .dn { color: var(--loss); }
+.bk-ticker-rail:hover .bk-ticker { animation-play-state: paused; }
+body[data-motion="off"] .bk-ticker { animation: none; }
 @keyframes bk-tick { to { transform: translateX(-50%); } }
 
 @keyframes bk-fade-up { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
 
-/* one orchestrated page-load reveal; reduced-motion collapses to fades */
+/* one orchestrated page-load reveal; reduced-motion collapses to fades.
+   The title rows are motion-driven (TitleReveal) and self-collapse there. */
 @media (prefers-reduced-motion: reduce) {
-  .bk-hl .row i { animation: none; transform: none; }
   .bk-hero { animation: none; }
   .bk-ticker { animation: none; }
 }

@@ -1,4 +1,4 @@
-import { lazy, Suspense, type ReactNode } from 'react';
+import { lazy, type ReactNode } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AlertTriangle, RefreshCcw } from 'lucide-react';
 import { Layout } from './components/layout/Layout';
@@ -16,14 +16,6 @@ const ArenaPage = lazy(() => import('./pages/ArenaPage').then(m => ({ default: m
 const CareerPage = lazy(() => import('./pages/CareerPage').then(m => ({ default: m.CareerPage })));
 const DemoPage = lazy(() => import('./pages/DemoPage').then(m => ({ default: m.DemoPage })));
 const DataVaultPage = lazy(() => import('./pages/DataVaultPage').then(m => ({ default: m.DataVaultPage })));
-
-function PageLoader() {
-  return (
-    <div className="flex items-center justify-center h-full min-h-[60vh]" role="status" aria-label="Loading page">
-      <div className="w-9 h-9 border-3 border-accent/15 border-t-accent rounded-full animate-spin" />
-    </div>
-  );
-}
 
 function PageErrorFallback() {
   return (
@@ -54,28 +46,26 @@ function page(node: ReactNode) {
 
 export function AppRoutes() {
   return (
-    <Suspense fallback={<PageLoader />}>
-      <Routes>
-        <Route element={<Layout />}>
-          {/* Coach's Note is the current route default: "what should I study, and why?" */}
-          <Route path="/" element={page(<CoachsNotePage />)} />
-          {/* Dashboard is the x-ray cockpit: "what shape is my game in?" */}
-          <Route path="/dashboard" element={page(<DashboardPage />)} />
-          {/* Old /coach links/bookmarks redirect to the new front door. */}
-          <Route path="/coach" element={<Navigate to="/" replace />} />
-          <Route path="/career" element={page(<CareerPage />)} />
-          <Route path="/demo" element={page(<DemoPage />)} />
-          <Route path="/hands" element={page(<HandsPage />)} />
-          <Route path="/stats" element={page(<StatsPage />)} />
-          <Route path="/ranges" element={page(<RangesPage />)} />
-          <Route path="/leaks" element={page(<LeaksPage />)} />
-          <Route path="/sessions" element={page(<SessionsPage />)} />
-          <Route path="/villains" element={page(<VillainsPage />)} />
-          <Route path="/arena" element={page(<ArenaPage />)} />
-          <Route path="/data" element={page(<DataVaultPage />)} />
-        </Route>
-      </Routes>
-    </Suspense>
+    <Routes>
+      <Route element={<Layout />}>
+        {/* Coach's Note is the current route default: "what should I study, and why?" */}
+        <Route path="/" element={page(<CoachsNotePage />)} />
+        {/* Dashboard is the x-ray cockpit: "what shape is my game in?" */}
+        <Route path="/dashboard" element={page(<DashboardPage />)} />
+        {/* Old /coach links/bookmarks redirect to the new front door. */}
+        <Route path="/coach" element={<Navigate to="/" replace />} />
+        <Route path="/career" element={page(<CareerPage />)} />
+        <Route path="/demo" element={page(<DemoPage />)} />
+        <Route path="/hands" element={page(<HandsPage />)} />
+        <Route path="/stats" element={page(<StatsPage />)} />
+        <Route path="/ranges" element={page(<RangesPage />)} />
+        <Route path="/leaks" element={page(<LeaksPage />)} />
+        <Route path="/sessions" element={page(<SessionsPage />)} />
+        <Route path="/villains" element={page(<VillainsPage />)} />
+        <Route path="/arena" element={page(<ArenaPage />)} />
+        <Route path="/data" element={page(<DataVaultPage />)} />
+      </Route>
+    </Routes>
   );
 }
 
