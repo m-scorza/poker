@@ -17,10 +17,7 @@ export type BoardTexture =
   | 'low_connected'    // 7-6-5, 8-7-4
   | 'paired_low'       // 9-6-6, 7-7-3
   | 'monotone_low'     // 8c-6c-3c
-  | 'monotone_h'       // 8h-Kh-2h
-  | 'monotone_c'
-  | 'monotone_d'
-  | 'monotone_s'
+  | 'monotone_high'    // Ah-Kh-3h
   | 'neutral';         // Default
 
 // --- C-bet Rules ---

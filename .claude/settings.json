@@ -1,20 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/MICRO/OneDrive/Documentos/GitHub/poker/src/test/fixtures/pokerstars/hh/**)",
+      "Read(//c/dev/poker/src/test/fixtures/pokerstars/hh/**)",
       "Bash(grep -E 'US\\\\$.*\\\\+US\\\\$.*\\\\+US\\\\$')",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
       "Bash(grep -E \"\\\\.tsx?$\")",
       "Bash(xargs -I {} basename {})",
       "Bash(sed 's/Page\\\\.tsx//')",
-      "Read(//c/Users/MICRO/OneDrive/Documentos/GitHub/poker/src/parser/**)",
-      "Read(//c/Users/MICRO/OneDrive/Documentos/GitHub/poker/src/test/**)"
+      "Read(//c/dev/poker/src/parser/**)",
+      "Read(//c/dev/poker/src/test/**)"
     ],
     "additionalDirectories": [
-      "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\docs",
-      "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker",
-      "C:\\Users\\MICRO\\OneDrive\\Documentos\\GitHub\\poker\\.claude"
+      "C:\\dev\\poker\\docs",
+      "C:\\dev\\poker",
+      "C:\\dev\\poker\\.claude"
     ]
   },
   "hooks": {

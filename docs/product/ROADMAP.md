@@ -106,16 +106,24 @@ Arcs 0–2 are merge-on-mandate hygiene/correctness; arcs 3–5 carry review
 checkpoints. Sequencing rule: **the abyss waves 2–4 run after the Hermes
 salvage slices land** (same pages; salvage-first avoids porting churn).
 
-- [ ] **III-0 · Restore the gate (Arc 0)** — the housekeeping PR: finish or
-      revert the dirty `CoachsNotePage` edit that breaks `typecheck`/`build`
-      today (abyss F1), archive the 2026-06-12 reports, settle `launch.json`.
+- [x] **III-0 · Restore the gate (Arc 0)** — the housekeeping PR: finished the
+      dirty `CoachsNotePage` edit that had broken `typecheck`/`build` (abyss
+      F1), archived the 2026-06-12 reports, settled `launch.json`. ✅ **Landed
+      (PR #116, abyss Wave 0)** — the gate has been fully green since.
       Plan: `docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md`.
 - [ ] **III-1 · Salvage the worktree (Arc 1)** — land Hermes R1 (refusal
       completion — closes the refusal-as-UI follow-ups named under Act II) →
-      R2 (import provenance) → R3 (spot packets; review checkpoint). **R4
-      (Study Queue vs SRS) needs an owner steer — merge concepts / port pieces
-      / drop — which also decides abyss F7** (the orphaned StudyPlanCard). R5
-      research corpus moves to the vault. Same plan doc as III-0.
+      R2 (import provenance) → R3 (spot packets; review checkpoint). **R1–R3
+      landed** (e.g. #118 provenance, spot packets in tree). **R4 steered
+      2026-07-09: DROP** — the R4 material rebuilt `StudyPlanCard` for the
+      demoted dashboard, and #132's Arena curriculum/SRS/Study Queue
+      supersedes the concept (F7 was already deleted in abyss Wave 2). The
+      Hermes WIP is fully preserved on `hermes/worktree-20260627-213824`
+      (pushed to origin, final snapshot `a5b60da`); the worktree checkout is
+      removed. **Only R5 remains** — research corpus moves to the vault
+      (source material lives on the preserved branch:
+      `docs/research/CLAIMS_LEDGER.md`, `SOURCE_LEDGER.md`). Same plan doc
+      as III-0.
 - [ ] **III-2 · Abyss cleanup waves (Arc 2)** — execute the abyss audit's wave
       plan (F1–F29, cheapest-truth-first: correctness quickies → dead code →
       efficiency → beauty). Target state: zero orphans, one animation library,
@@ -176,10 +184,10 @@ vs board), Playwright e2e layer (decide after F16 reshapes the test pipeline).
 - [x] **`bountyAnalyzer.ts:144`** — last-resort hardcoded `1500` starting-stack
       fallback. ✅ **Dropped (PR #111, 2026-07-01):** the dead branch is gone;
       unknown stacks now surface honestly instead of defaulting.
-- [ ] **Colon-in-player-name parsing** — the `^(.+?): <action>` action regexes
-      can mis-split a player name containing `": "`. Low-frequency edge; add a
-      fixture and tighten if it surfaces. *Now tracked as abyss F6 (Wave 1,
-      Act III-2).*
+- [x] **Colon-in-player-name parsing** — the `^(.+?): <action>` action regexes
+      could mis-split a player name containing `": "`. ✅ **Fixed (abyss Wave
+      1, commit `388eac6`)**: an adversarial fixture reproduced it; actors are
+      now resolved against seated names, longest first.
 - [x] **`store.ts:102` empty `db.version(4).stores({})`** — *not a bug.* It is an
       intentional no-op that keeps the Dexie version chain contiguous, now carrying
       an explanatory comment. Recorded so it is not re-flagged by future audits.
@@ -386,6 +394,14 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       summary extraction properly implemented.
 
 ### P5 — Library upgrades (2026-era)
+- [ ] Wire `knip` into CI (or the pre-commit hook) with a reviewed allowlist —
+      the devDep landed in #140 and the manual de-export sweep is done, but
+      without a gate every merge refills the unused-export pool (the 2026-07-09
+      health review watched this happen after #132). Allowlist the documented
+      forward contracts (`solverAdapter.ts` Solver\* types, `spotPacket.ts`
+      packet schema, parked villain-archetype code) and the three script
+      entry points knip can't trace (`surface-open-reports.ts`,
+      `agent-kernel.cjs`, `parallel-runner.cjs`).
 - [ ] Biome 2 (replace missing linter/formatter)
 - [ ] nuqs (URL-sync Hands filters, Ranges position selector)
 - [x] TanStack Table + TanStack Virtual on HandsPage list

@@ -39,7 +39,7 @@ function normalizeReviewedSpotIds(value: unknown): string[] {
   return Array.from(new Set(value.filter((entry): entry is string => typeof entry === 'string' && entry.length > 0)));
 }
 
-export function normalizeCurriculumProgressEntry(raw: unknown): CurriculumProgressEntry | null {
+function normalizeCurriculumProgressEntry(raw: unknown): CurriculumProgressEntry | null {
   if (typeof raw !== 'object' || raw === null || Array.isArray(raw)) return null;
   const record = raw as Record<string, unknown>;
   if (typeof record.packSlug !== 'string' || record.packSlug.length === 0) return null;
@@ -110,7 +110,7 @@ export function readCurriculumProgress(): CurriculumProgressStore {
   }
 }
 
-export function writeCurriculumProgress(progress: CurriculumProgressStore): void {
+function writeCurriculumProgress(progress: CurriculumProgressStore): void {
   const local = storage();
   if (!local) return;
   try {

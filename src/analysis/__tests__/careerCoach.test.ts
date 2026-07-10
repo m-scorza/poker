@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { buildCareerCoachMarkdownReport, buildCareerCoachReport } from '../careerCoach';
+import { computeLifetimeRoi } from '../careerStats';
+import { buildCareerScopeProfile } from '../careerScope';
 import type { Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
 import type { Leak } from '../leakDetector';
@@ -127,6 +129,22 @@ describe('buildCareerCoachReport', () => {
     expect(report.totalPrizes).toBeCloseTo(4);
     expect(report.trackedProfit).toBeCloseTo(-7);
     expect(report.roi).toBeCloseTo((-7 / 11) * 100);
+  });
+
+  it('excludes cash freerolls (buyIn=0) from ROI while keeping their prize in net profit', () => {
+    const freeroll = makeTournament(1, { buyIn: 0, fee: 0, prize: 5, finishPosition: 1 });
+    const cashBust = makeTournament(2, { buyIn: 10, fee: 1, prize: 0 });
+    const portfolio = [freeroll, cashBust];
+
+    const report = buildCareerCoachReport(portfolio, [], []);
+
+    // ROI drops the zero-cost freeroll: only the $11 loss counts -> -100%.
+    expect(report.roi).toBeCloseTo(-100, 5);
+    // Prize stays in net profit: 5 - 11 = -6.
+    expect(report.trackedProfit).toBeCloseTo(-6, 5);
+    // All three career ROI surfaces agree.
+    expect(report.roi).toBeCloseTo(computeLifetimeRoi(portfolio), 5);
+    expect(report.roi).toBeCloseTo(buildCareerScopeProfile(portfolio).totalRoi, 5);
   });
 
   it('exports a concise markdown report suitable for sharing with a prospect or coach', () => {

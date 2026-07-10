@@ -13,7 +13,16 @@ import { ConfirmDialog } from '../components/shared/ConfirmDialog';
 import { checkCompliance } from '../analysis/rangeChecker';
 import { buildFaultSpots, selectQueue, type FaultSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
 import { buildSpotPacketFromParsedHand } from '../analysis/spotPacket';
-import { recordStudyPacketReview, studyPacketNextDueLabel } from '../analysis/studyPacketProgress';
+import {
+  buildStudyPacketArenaPath,
+  isStudyPacketSrsDue,
+  readStudyPacketProgress,
+  recordStudyPacketReview,
+  selectNextActionableStudyPacket,
+  studyPacketNextDueLabel,
+  studyPacketProgressKey,
+  type StudyPacketProgressTarget,
+} from '../analysis/studyPacketProgress';
 import type { HeroDecision } from '../types/analysis';
 import type { StrategyProfile } from '../data/strategyProfiles';
 import type { SpotPacket, SpotPacketLegalAction, SpotPacketWarning } from '../analysis/spotPacket';
@@ -437,6 +446,32 @@ async function loadStudyQueuePacket(decision: HeroDecision): Promise<SpotPacket 
   return parsedHand ? buildSpotPacketFromParsedHand(parsedHand, decision) : null;
 }
 
+interface DueStudyReview {
+  dueCount: number;
+  path: string;
+}
+
+// Which imported study packet the SRS scheduler says is due right now. Built
+// from the browser-local progress store (keyed by real packetId) and gated by
+// isStudyPacketSrsDue, so only packets whose Leitner interval has elapsed and
+// whose hand still exists in the Arena store are offered. Called in render on
+// the drills landing, so it re-reads localStorage fresh after a session ends.
+function selectDueStudyReview(allDecisions: HeroDecision[], decisionsLoaded: boolean): DueStudyReview | null {
+  if (!decisionsLoaded || allDecisions.length === 0) return null;
+  const progress = readStudyPacketProgress();
+  const decisionHandIds = new Set(allDecisions.map((decision) => decision.handId));
+  const targets: StudyPacketProgressTarget[] = Object.values(progress)
+    .filter((entry) => decisionHandIds.has(entry.handId))
+    .map((entry) => ({ packetId: entry.packetId, source: { handId: entry.handId } }));
+  if (targets.length === 0) return null;
+  const dueCount = targets.filter((target) => isStudyPacketSrsDue(progress[studyPacketProgressKey(target)])).length;
+  if (dueCount === 0) return null;
+  const selected = selectNextActionableStudyPacket(targets, progress);
+  const path = buildStudyPacketArenaPath(selected, targets, progress);
+  if (!selected || !path) return null;
+  return { dueCount, path };
+}
+
 export function ArenaPage() {
   const [drill, setDrill] = useState<DrillState>({
     isActive: false,
@@ -497,6 +532,7 @@ export function ArenaPage() {
     const { due, fresh } = selectQueue(spots, records, Date.now(), SRS_MAX_NEW);
     return { due: due.length, fresh: fresh.length };
   }, [allDecisions, srsReviews, strategyProfile]);
+
 
   useEffect(() => {
     return () => {
@@ -643,6 +679,35 @@ export function ArenaPage() {
       srs: null,
     });
   }, []);
+
+  // The SRS "due for review" CTA: buildStudyPacketArenaPath produced the route,
+  // so navigate to it (deep-link correctness on reload) and then drive the drill
+  // from that same route through the existing Study Queue parser + pool.
+  const startDueStudyReview = useCallback((path: string) => {
+    window.history.pushState({}, '', path);
+    const route = requestedStudyQueueRoute();
+    const pool = getDrillPool('study_queue', allDecisions, strategyProfile, { handIds: route.handIds });
+    const first = pool[0] ?? null;
+    if (!first) return;
+
+    async function start(decision: HeroDecision) {
+      const currentPacket = await loadStudyQueuePacket(decision);
+      setCompletedStudySession(null);
+      setDrill({
+        isActive: true,
+        type: 'study_queue',
+        currentDecision: decision,
+        currentPacket,
+        sessionHandIds: pool.map((entry) => entry.handId),
+        sessionIndex: 0,
+        score: { correct: 0, total: 0 },
+        lastFeedback: null,
+        srs: null,
+      });
+    }
+
+    void start(first);
+  }, [allDecisions, strategyProfile]);
 
   const nextHand = useCallback(() => {
     const currentDrill = drillRef.current;
@@ -893,6 +958,7 @@ export function ArenaPage() {
         </div>
       );
     }
+    const dueStudyReview = selectDueStudyReview(allDecisions, decisionsLoaded);
     return (
       <>
         <div className="max-w-4xl mx-auto py-12">
@@ -982,6 +1048,34 @@ export function ArenaPage() {
               </div>
             </div>
           </button>
+
+          {dueStudyReview && (
+            <button
+              type="button"
+              onClick={() => startDueStudyReview(dueStudyReview.path)}
+              data-testid="arena-study-due-cta"
+              className="w-full text-left compartment mb-6 hover:border-[var(--accent-line)] transition-all group"
+            >
+              <div className="flex items-center justify-between gap-6 flex-wrap">
+                <div className="flex items-start gap-4">
+                  <div className="text-[var(--sig)] group-hover:scale-110 transition-transform">
+                    <RotateCcw size={24} />
+                  </div>
+                  <div>
+                    <span className="kick sig block mb-1">Study Queue · SRS</span>
+                    <h3 className="text-xl font-bold text-[var(--fg)] mb-1">Imported packets are due for review.</h3>
+                    <p className="text-sm text-[var(--fg-dim)] max-w-md">
+                      Browser-local spaced repetition scheduled these packets to come back today. Pick up the most overdue one next.
+                    </p>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <p className="font-mono text-2xl font-bold text-[var(--sig)]">{dueStudyReview.dueCount}</p>
+                  <p className="kick text-[var(--fg-muted)]">Due</p>
+                </div>
+              </div>
+            </button>
+          )}
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <DrillCard
@@ -1361,7 +1455,7 @@ function DrillCard({ title, desc, icon: Icon, onClick }: DrillCardProps) {
       </div>
       <h3 className="text-xl font-bold text-[var(--fg)] mb-2">{title}</h3>
       <p className="text-sm text-[var(--fg-dim)] leading-relaxed">{desc}</p>
-      <div className="inner-rule mt-6 text-xs font-bold uppercase tracking-widest text-[var(--accent)] flex items-center gap-2">
+      <div className="mt-6 text-xs font-bold uppercase tracking-widest text-[var(--accent)] flex items-center gap-2">
          Start Drill <ChevronRight size={14} />
       </div>
     </motion.button>
