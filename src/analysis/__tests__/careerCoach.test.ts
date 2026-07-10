@@ -131,15 +131,16 @@ describe('buildCareerCoachReport', () => {
     expect(report.roi).toBeCloseTo((-7 / 11) * 100);
   });
 
-  it('excludes cash freerolls (buyIn=0) from ROI while keeping their prize in net profit', () => {
+  it('includes cash freeroll prizes in ROI (freeroll cost is $0, so it only adds to net)', () => {
     const freeroll = makeTournament(1, { buyIn: 0, fee: 0, prize: 5, finishPosition: 1 });
     const cashBust = makeTournament(2, { buyIn: 10, fee: 1, prize: 0 });
     const portfolio = [freeroll, cashBust];
 
     const report = buildCareerCoachReport(portfolio, [], []);
 
-    // ROI drops the zero-cost freeroll: only the $11 loss counts -> -100%.
-    expect(report.roi).toBeCloseTo(-100, 5);
+    // Pooled ROI: totalCost = 11 (freeroll adds $0), totalNet = 5 - 11 = -6.
+    // -6 / 11 = -54.55%, not the old -100% that discarded the $5 prize.
+    expect(report.roi).toBeCloseTo((-6 / 11) * 100, 5);
     // Prize stays in net profit: 5 - 11 = -6.
     expect(report.trackedProfit).toBeCloseTo(-6, 5);
     // All three career ROI surfaces agree.

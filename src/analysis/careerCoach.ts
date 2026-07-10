@@ -1,7 +1,7 @@
 import type { Tournament } from '../types/hand';
 import type { HeroDecision } from '../types/analysis';
 import type { Leak, LeakSeverity } from './leakDetector';
-import { getTournamentCost, getTournamentRevenue, isCashTournamentCurrency, computeRoiPct } from './financials';
+import { getTournamentCost, getTournamentRevenue, computeRoiPct } from './financials';
 import { money } from '../utils/format';
 import { sumUsd } from '../parser/money';
 
@@ -262,7 +262,7 @@ export function buildCareerCoachReport(
   const compliance = complianceRate(decisions);
 
   const last20 = sorted.slice(-20);
-  const last20Cost = sumUsd(last20.filter((t) => isCashTournamentCurrency(t) && t.buyIn > 0).map(tournamentCost));
+  const last20Cost = sumUsd(last20.map(tournamentCost));
   const last20Roi = last20.length >= 5 && last20Cost > 0 ? computeRoiPct(last20) : null;
 
   let score = 50;

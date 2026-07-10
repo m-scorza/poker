@@ -26,6 +26,8 @@ export interface CareerScopeProfile {
   averageStake: number;
   totalRoi: number;
   averageRoi: number;
+  freerollsExcluded: number;
+  freerollProfit: number;
   itmRate: number;
   wins: number;
   maxCashingStreak: number;
@@ -92,17 +94,29 @@ function linearRegressionSlope(values: number[]): number {
   return denominator === 0 ? 0 : numerator / denominator;
 }
 
-function averageTournamentRoi(tournaments: Tournament[]): number {
-  const rois = tournaments
-    .filter(isCashTournamentCurrency)
-    .map((tournament) => {
-      const cost = getTournamentCost(tournament);
-      if (cost <= 0) return null;
-      return pct(getTournamentNet(tournament), cost);
-    })
-    .filter((roi): roi is number => roi !== null);
+interface AverageRoiBreakdown {
+  averageRoi: number;
+  freerollsExcluded: number;
+  freerollProfit: number;
+}
 
-  return rois.length === 0 ? 0 : rois.reduce((sum, roi) => sum + roi, 0) / rois.length;
+function averageTournamentRoi(tournaments: Tournament[]): AverageRoiBreakdown {
+  const rois: number[] = [];
+  let freerollsExcluded = 0;
+  let freerollProfit = 0;
+
+  for (const tournament of tournaments.filter(isCashTournamentCurrency)) {
+    const cost = getTournamentCost(tournament);
+    if (cost <= 0) {
+      freerollsExcluded += 1;
+      freerollProfit = sumUsd([freerollProfit, getTournamentNet(tournament)]);
+      continue;
+    }
+    rois.push(pct(getTournamentNet(tournament), cost));
+  }
+
+  const averageRoi = rois.length === 0 ? 0 : rois.reduce((sum, roi) => sum + roi, 0) / rois.length;
+  return { averageRoi, freerollsExcluded, freerollProfit };
 }
 
 function calculateAbilityRating(args: {
@@ -157,7 +171,7 @@ export function buildCareerScopeProfile(tournaments: Tournament[]): CareerScopeP
   const totalCashes = sumUsd(cashTournaments.map(getTournamentRevenue));
   const totalProfit = sumUsd(cashTournaments.map(getTournamentNet));
   const totalRoi = computeRoiPct(cashTournaments);
-  const averageRoi = averageTournamentRoi(sorted);
+  const { averageRoi, freerollsExcluded, freerollProfit } = averageTournamentRoi(sorted);
   const itmRate = pct(cashTournaments.filter((tournament) => getTournamentRevenue(tournament) > 0).length, totalCashTournaments);
   const wins = cashTournaments.filter((tournament) => tournament.finishPosition === 1).length;
 
@@ -218,6 +232,8 @@ export function buildCareerScopeProfile(tournaments: Tournament[]): CareerScopeP
     averageStake: totalCashTournaments === 0 ? 0 : totalStake / totalCashTournaments,
     totalRoi,
     averageRoi,
+    freerollsExcluded,
+    freerollProfit,
     itmRate,
     wins,
     maxCashingStreak,

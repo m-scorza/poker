@@ -86,19 +86,47 @@ describe('buildCareerScopeProfile', () => {
     expect(profile.totalProfit).toBe(6.5);
   });
 
-  it('excludes cash freerolls (buyIn=0) from total ROI while keeping their prize in net profit', () => {
+  it('includes cash freeroll prizes in total ROI (freeroll cost is $0, so it only adds to net)', () => {
     const freeroll = tournament(1, { buyIn: 0, fee: 0, prize: 5, finishPosition: 1 });
     const cashBust = tournament(2, { buyIn: 10, fee: 1, prize: 0 });
     const portfolio = [freeroll, cashBust];
 
     const profile = buildCareerScopeProfile(portfolio);
 
-    // ROI drops the zero-cost freeroll: only the $11 loss counts -> -100%.
-    expect(profile.totalRoi).toBeCloseTo(-100, 5);
+    // Pooled ROI: totalCost = 11 (freeroll adds $0), totalNet = 5 - 11 = -6.
+    // -6 / 11 = -54.55%, not the old -100% that discarded the $5 prize.
+    expect(profile.totalRoi).toBeCloseTo((-6 / 11) * 100, 5);
     // Prize stays in net profit: 5 - 11 = -6.
     expect(profile.totalProfit).toBeCloseTo(-6, 5);
     // All three career ROI surfaces agree.
     expect(profile.totalRoi).toBeCloseTo(computeLifetimeRoi(portfolio), 5);
     expect(profile.totalRoi).toBeCloseTo(buildCareerCoachReport(portfolio, [], []).roi, 5);
+  });
+
+  it('discloses freerolls excluded from Average ROI without changing its numeric value', () => {
+    const freeroll = tournament(1, { buyIn: 0, fee: 0, prize: 5, finishPosition: 1 });
+    const cashBust = tournament(2, { buyIn: 10, fee: 1, prize: 0 });
+
+    const withFreeroll = buildCareerScopeProfile([freeroll, cashBust]);
+    const withoutFreeroll = buildCareerScopeProfile([cashBust]);
+
+    // Average ROI is a mean of per-tournament ratios; the freeroll's ratio is
+    // undefined (÷0), so it stays excluded and the average is unchanged.
+    expect(withFreeroll.averageRoi).toBeCloseTo(-100, 5);
+    expect(withFreeroll.averageRoi).toBeCloseTo(withoutFreeroll.averageRoi, 5);
+
+    // The exclusion is now disclosed rather than silent.
+    expect(withFreeroll.freerollsExcluded).toBe(1);
+    expect(withFreeroll.freerollProfit).toBeCloseTo(5, 5);
+  });
+
+  it('reports zero freeroll disclosure when no freerolls are present', () => {
+    const profile = buildCareerScopeProfile([
+      tournament(1, { buyIn: 10, fee: 1, prize: 33, finishPosition: 1 }),
+      tournament(2, { buyIn: 10, fee: 1, prize: 0 }),
+    ]);
+
+    expect(profile.freerollsExcluded).toBe(0);
+    expect(profile.freerollProfit).toBe(0);
   });
 });
