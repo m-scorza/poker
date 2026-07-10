@@ -10,12 +10,12 @@ import { readStarterDiagnosticSummary, recordStarterDiagnosticAnswer } from '../
 import { getAllHeroDecisions, getSrsReviews, recordSrsReview } from '../data/store';
 import { PokerCard } from '../components/shared/Card';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
-import { checkCompliance } from '../analysis/rangeChecker';
 import { buildFaultSpots, gradeSpot, requeueLapsedSpot, selectQueue, type FaultSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
 import { recordStudyPacketReview } from '../analysis/studyPacketProgress';
+import { computeNextDrillStep, evaluateDrillAction } from '../analysis/arenaDrillEngine';
 import type { HeroDecision } from '../types/analysis';
 import type { SpotPacket } from '../analysis/spotPacket';
-import { getDrillPool, shouldCbet, isCbetActionCorrect, type DrillType } from './arena/drillPool';
+import { getDrillPool, type DrillType } from './arena/drillPool';
 import {
   PREFLOP_ACTIONS,
   CBET_ACTIONS,
@@ -23,7 +23,6 @@ import {
   curriculumActionOptions,
   formatSourceValue,
   visiblePacketWarnings,
-  labelSeedAction,
   getDisplayCards,
   pickRandomDecision,
   type TrainerAction,
@@ -53,7 +52,6 @@ import { SpacedReviewCompleteScreen } from '../components/arena/SpacedReviewComp
 const SRS_MAX_NEW = 15;
 
 // Types for the Trainer
-type PreflopAction = 'fold' | 'raise' | 'call' | 'check';
 type FeedbackStatus = 'correct' | 'deviation' | 'review';
 
 interface DrillFeedback {
@@ -389,8 +387,8 @@ export function ArenaPage() {
       return;
     }
 
-    const next = pickRandomDecision(activePool);
-    if (!next) {
+    const step = computeNextDrillStep(activePool);
+    if (step.kind === 'exhausted') {
       setDrill(prev => ({ ...prev, isActive: false, currentDecision: null, currentPacket: null, sessionHandIds: [], sessionIndex: 0, lastFeedback: null }));
       if (drill.type) {
         setEmptyDrillType(drill.type);
@@ -400,7 +398,7 @@ export function ArenaPage() {
 
     setDrill(prev => ({
       ...prev,
-      currentDecision: next,
+      currentDecision: step.decision,
       lastFeedback: null,
     }));
   }, [activePool, drill.type]);
@@ -408,70 +406,9 @@ export function ArenaPage() {
   const handleAction = (action: TrainerAction) => {
     if (!drill.currentDecision) return;
 
-    let userIsCorrect = true;
-    let note = 'Good. This matches the local baseline check.';
-    let feedbackStatus: FeedbackStatus = 'correct';
-    let shouldRecordScore = true;
-
-    if (drill.type === 'curriculum') {
-      const accepted = drill.currentCurriculumSpot?.acceptedActions ?? [];
-      userIsCorrect = accepted.includes(action);
-      feedbackStatus = userIsCorrect ? 'correct' : 'deviation';
-      note = userIsCorrect
-        ? `Curriculum answer: ${labelSeedAction(action)} is accepted for this practice-only seed. This is not imported-hand evidence or solver EV.`
-        : `Curriculum answer: this seed accepts ${accepted.map(labelSeedAction).join(' or ')}. This is not imported-hand evidence or solver EV.`;
-    } else if (drill.type === 'cbet_clinic') {
-      if (action !== 'bet' && action !== 'check') return;
-      userIsCorrect = isCbetActionCorrect(drill.currentDecision, action);
-      feedbackStatus = userIsCorrect ? 'correct' : 'deviation';
-      const correctActionStr = shouldCbet(drill.currentDecision) ? 'C-BET' : 'CHECK';
-      note = userIsCorrect
-        ? action === 'bet'
-          ? 'Correct. This spot wants a continuation bet.'
-          : 'Correct. Checking is acceptable in this spot.'
-        : `Error! The postflop model prefers ${correctActionStr}.`;
-    } else {
-      if (action === 'bet' && drill.type !== 'study_queue') return;
-
-      if (action === 'all_in' || action === 'bet') {
-        // Review-only actions from the packet's legal menu: the Arena does not
-        // grade them, so they never touch the score (honesty boundary).
-        shouldRecordScore = false;
-        feedbackStatus = 'review';
-        note = action === 'all_in'
-          ? 'Review-only all-in option: the SpotPacket legal menu captures this action, but Arena does not grade all-in ranges, solver EV, or trainer answer buckets. Use the study packet/export boundary for external review.'
-          : 'Review-only bet option: the SpotPacket legal menu captures this action, but this Arena route does not grade postflop bet sizes, solver EV, or trainer answer buckets. Use the study packet/export boundary for external review.';
-      } else {
-        const testDecision = { ...drill.currentDecision, action: action as HeroDecision['action'] };
-        const result = checkCompliance(testDecision, strategyProfile);
-
-        if (drill.type === 'study_queue' && result === null) {
-          shouldRecordScore = false;
-          feedbackStatus = 'review';
-          note = 'Review-only Study Queue spot: no local range rule grades this exact action. Use Hand Replay or an external study packet; no score, solver EV, or trainer answer is stored.';
-        } else {
-          userIsCorrect = result?.isCompliant ?? true;
-          feedbackStatus = userIsCorrect ? 'correct' : 'deviation';
-
-          let correctActionStr = 'the standard move';
-          if (!userIsCorrect) {
-            const actions: PreflopAction[] = ['fold', 'raise', 'call', 'check'];
-            const found = actions.find(a => checkCompliance({ ...drill.currentDecision!, action: a }, strategyProfile)?.isCompliant);
-            if (found) correctActionStr = found.toUpperCase();
-          }
-
-          if (drill.type === 'study_queue') {
-            note = userIsCorrect
-              ? 'Matches the local rule/proxy check for this imported Study Queue spot. No solver EV or trainer answer is attached.'
-              : `The local rule/proxy check prefers ${correctActionStr}. Treat this as a review prompt, not solver-backed EV or trainer scoring.`;
-          } else {
-            note = userIsCorrect
-              ? 'Good. This matches the local baseline check.'
-              : `The local reference check prefers ${correctActionStr}.`;
-          }
-        }
-      }
-    }
+    const evaluation = evaluateDrillAction(drill, action, strategyProfile);
+    if (!evaluation) return;
+    const { userIsCorrect, note, feedbackStatus, shouldRecordScore } = evaluation;
 
     // Every reviewed Study Queue packet advances its browser-local SRS entry,
     // graded or review-only alike (the review itself is the event).
