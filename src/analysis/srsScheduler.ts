@@ -36,6 +36,8 @@ export interface FaultSpot {
 const DAY_MS = 86_400_000;
 /** A lapsed card returns within the same session for immediate reinforcement. */
 const RELEARN_MS = 10 * 60_000;
+/** How many cards ahead of the current cursor a lapsed spot is reinserted. */
+const RELEARN_QUEUE_GAP = 3;
 
 /** Box → days until next due. Box 1 is the freshest learned state. */
 export const BOX_INTERVALS_DAYS = [1, 3, 7, 16, 35];
@@ -143,6 +145,29 @@ export function selectQueue(
   const dueSpots = due.map((d) => d.spot);
   const freshCapped = fresh.slice(0, Math.max(0, maxNew));
   return { due: dueSpots, fresh: freshCapped, queue: [...dueSpots, ...freshCapped] };
+}
+
+/**
+ * Reinsert a just-graded lapsed spot back into the live session queue so the
+ * user re-drills it before the session ends. `gradeSpot` only schedules the
+ * lapse's near-term `dueAt` (now + {@link RELEARN_MS}); this is what actually
+ * consumes that within-session `dueAt`. A spot whose new `dueAt` lands beyond
+ * the session window (i.e. a promoted card on its day-scale interval) is left
+ * untouched, so only genuine relearns come back around.
+ */
+export function requeueLapsedSpot(
+  queue: FaultSpot[],
+  index: number,
+  graded: SrsReviewRecord,
+  now: number,
+): FaultSpot[] {
+  const spot = queue[index];
+  if (!spot || spot.spotKey !== graded.spotKey) return queue;
+  if (graded.dueAt > now + RELEARN_MS) return queue;
+  const insertAt = Math.min(index + 1 + RELEARN_QUEUE_GAP, queue.length);
+  const next = queue.slice();
+  next.splice(insertAt, 0, spot);
+  return next;
 }
 
 /**
