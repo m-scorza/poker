@@ -518,8 +518,8 @@ export function CareerPage() {
                                <span className="text-[var(--fg)]">{st.cashes}</span> 
                                <span className="text-[10px] text-[var(--fg-dim)] ml-1">({((st.cashes/st.count)*100).toFixed(0)}%)</span>
                             </td>
-                            <td className={clsx("px-6 py-5 text-center text-base", st.profit >= 0 ? "text-[var(--money)]" : "text-[var(--loss)]")}>
-                               {((st.profit / (st.buyIns || 1)) * 100).toFixed(1)}%
+                            <td className={clsx("px-6 py-5 text-center text-base", st.buyIns > 0 ? (st.profit >= 0 ? "text-[var(--money)]" : "text-[var(--loss)]") : "text-[var(--fg-dim)]")}>
+                               {st.buyIns > 0 ? `${((st.profit / st.buyIns) * 100).toFixed(1)}%` : '—'}
                             </td>
                             <td className={clsx("px-6 py-5 text-right font-bold text-base", st.profit >= 0 ? "text-[var(--money)]" : "text-[var(--loss)]")}>
                                {st.profit >= 0 ? '+' : ''}${st.profit.toFixed(2)}
