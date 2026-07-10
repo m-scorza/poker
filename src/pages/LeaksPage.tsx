@@ -372,7 +372,7 @@ export function LeaksPage() {
                         <Crosshair size={13} /> Next review step
                       </p>
                       <p className="text-sm font-bold leading-relaxed text-[var(--fg)]">{actionForLeak(leak)}</p>
-                      <p className="inner-rule mt-2">{evidence.caveat}</p>
+                      <p className="mt-2">{evidence.caveat}</p>
                     </div>
 
                     <div className="mt-4 flex flex-wrap gap-4 text-xs text-[var(--fg-muted)]">

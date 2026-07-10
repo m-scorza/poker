@@ -1361,7 +1361,7 @@ function DrillCard({ title, desc, icon: Icon, onClick }: DrillCardProps) {
       </div>
       <h3 className="text-xl font-bold text-[var(--fg)] mb-2">{title}</h3>
       <p className="text-sm text-[var(--fg-dim)] leading-relaxed">{desc}</p>
-      <div className="inner-rule mt-6 text-xs font-bold uppercase tracking-widest text-[var(--accent)] flex items-center gap-2">
+      <div className="mt-6 text-xs font-bold uppercase tracking-widest text-[var(--accent)] flex items-center gap-2">
          Start Drill <ChevronRight size={14} />
       </div>
     </motion.button>
