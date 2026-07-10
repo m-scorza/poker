@@ -1,50 +1,58 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2, type LucideIcon } from 'lucide-react';
+import { Trophy, Target, Zap, RotateCcw, ChevronRight, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { useAppStore } from '../data/appStore';
 import { CURRICULUM_SEED_PACKS, type CurriculumSeedPack, type CurriculumSpotSeed } from '../data/curriculumSeedPacks.generated';
 import { readCurriculumProgress, recordCurriculumSpotReview } from '../data/curriculumProgress';
 import { readStarterDiagnosticSummary, recordStarterDiagnosticAnswer } from '../data/starterDiagnostic';
-import { getAllHeroDecisions, getParsedHandForHandId, getSrsReviews, recordSrsReview } from '../data/store';
+import { getAllHeroDecisions, getSrsReviews, recordSrsReview } from '../data/store';
 import { PokerCard } from '../components/shared/Card';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
 import { checkCompliance } from '../analysis/rangeChecker';
 import { buildFaultSpots, selectQueue, type FaultSpot, type SrsReviewRecord } from '../analysis/srsScheduler';
-import { buildSpotPacketFromParsedHand } from '../analysis/spotPacket';
-import {
-  buildStudyPacketArenaPath,
-  isStudyPacketSrsDue,
-  readStudyPacketProgress,
-  recordStudyPacketReview,
-  selectNextActionableStudyPacket,
-  studyPacketNextDueLabel,
-  studyPacketProgressKey,
-  type StudyPacketProgressTarget,
-} from '../analysis/studyPacketProgress';
+import { recordStudyPacketReview } from '../analysis/studyPacketProgress';
 import type { HeroDecision } from '../types/analysis';
-import type { StrategyProfile } from '../data/strategyProfiles';
-import type { SpotPacket, SpotPacketLegalAction, SpotPacketWarning } from '../analysis/spotPacket';
+import type { SpotPacket } from '../analysis/spotPacket';
+import { getDrillPool, shouldCbet, isCbetActionCorrect, type DrillType } from './arena/drillPool';
+import {
+  PREFLOP_ACTIONS,
+  CBET_ACTIONS,
+  studyPacketActionOptions,
+  curriculumActionOptions,
+  formatSourceValue,
+  visiblePacketWarnings,
+  labelSeedAction,
+  getDisplayCards,
+  pickRandomDecision,
+  type TrainerAction,
+} from './arena/actionOptions';
+import {
+  STARTER_DIAGNOSTIC_PACK,
+  CURRICULUM_PACK_GROUPS,
+  sourcePackTitleForStarterSpot,
+  diagnosticReviewAreaSummary,
+  curriculumDecision,
+} from './arena/curriculumSeeds';
+import {
+  buildStudyQueueSessionSummary,
+  handReplayPathForStudySummary,
+  loadStudyQueuePacket,
+  selectDueStudyReview,
+  type StudyQueueSessionSummary,
+} from './arena/studyQueueHelpers';
+import { requestedStudyQueueRoute } from './arena/studyQueueRoute';
+import { DrillCard } from '../components/arena/DrillCard';
+import { ActionButton } from '../components/arena/ActionButton';
+import { SpacedReviewCompleteScreen } from '../components/arena/SpacedReviewCompleteScreen';
 
 /** New misplay patterns introduced per spaced-review session (the rest wait). */
 const SRS_MAX_NEW = 15;
 
 // Types for the Trainer
-type DrillType = 'spaced_review' | 'fault_fixer' | 'rfi_master' | 'cbet_clinic' | 'study_queue' | 'curriculum';
 type PreflopAction = 'fold' | 'raise' | 'call' | 'check';
-type CbetAction = 'check' | 'bet';
-type TrainerAction = string;
 type FeedbackStatus = 'correct' | 'deviation' | 'review';
-type ActionColor = 'gray' | 'blue' | 'emerald' | 'amber' | 'rose';
-
-interface ActionOption {
-  id: string;
-  label: string;
-  action: TrainerAction;
-  color: ActionColor;
-  meta?: string;
-}
 
 interface DrillFeedback {
   status: FeedbackStatus;
@@ -80,15 +88,6 @@ interface DrillState {
   srs: SrsSession | null;
 }
 
-interface StudyQueueSessionSummary {
-  reviewedCount: number;
-  totalCount: number;
-  correct: number;
-  graded: number;
-  lastHandId: string | null;
-  nextDueLabel: string;
-}
-
 const DRILL_LABELS: Record<DrillType, string> = {
   spaced_review: 'Spaced Review',
   fault_fixer: 'Fault Fixer',
@@ -97,380 +96,6 @@ const DRILL_LABELS: Record<DrillType, string> = {
   study_queue: 'Study Queue spot',
   curriculum: 'Curriculum drill',
 };
-
-const STARTER_DIAGNOSTIC_PACK: CurriculumSeedPack = {
-  slug: 'starter-diagnostic',
-  title: 'Starter diagnostic',
-  description: 'Lower-confidence starter path from brand-neutral curriculum seeds for players without imported hand histories.',
-  source: {
-    kind: 'brand_neutralized_quiz_config',
-    path: '../poker-knowledge/quiz_configs.json',
-    sourceConfigIndexes: Array.from(new Set(CURRICULUM_SEED_PACKS.flatMap((pack) => pack.source.sourceConfigIndexes))),
-  },
-  spots: CURRICULUM_SEED_PACKS.reduce<CurriculumSpotSeed[]>(
-    (spots, pack) => spots.concat(pack.spots.slice(0, 2)),
-    [],
-  ).slice(0, 8),
-};
-
-const CURRICULUM_PACK_GROUPS: Array<{ title: string; description: string; slugs: string[] }> = [
-  {
-    title: 'Preflop foundations',
-    description: 'Open, face 3-bets, and respond to opens before the hand gets complicated.',
-    slugs: ['open-raise-fundamentals', 'facing-3bet-frontier', 'versus-open-raise'],
-  },
-  {
-    title: 'Blind defense',
-    description: 'Big blind, multiway, and blind-war decisions where players leak fast.',
-    slugs: ['big-blind-defense', 'multiway-bb-defense', 'blind-war-preflop'],
-  },
-  {
-    title: 'Postflop play',
-    description: 'C-bet, continue, and respond across in-position and out-of-position nodes.',
-    slugs: ['in-position-cbet-vs-bb', 'in-position-postflop', 'in-position-turn-river-barrels-vs-bb', 'out-of-position-cbet', 'versus-bb-cbet'],
-  },
-];
-
-function sourcePackTitleForStarterSpot(spot: CurriculumSpotSeed | null | undefined): string {
-  if (!spot) return 'Curriculum seed';
-  return CURRICULUM_SEED_PACKS.find((pack) => pack.spots.some((packSpot) => packSpot.id === spot.id))?.title ?? 'Curriculum seed';
-}
-
-function diagnosticReviewAreaSummary(area: { misses: number; attempts: number }): string {
-  const missLabel = area.misses === 1 ? 'miss' : 'misses';
-  const spotLabel = area.attempts === 1 ? 'diagnostic spot' : 'diagnostic spots';
-  return `${area.misses} ${missLabel} across ${area.attempts} ${spotLabel}`;
-}
-
-const PREFLOP_ACTIONS: ActionOption[] = [
-  { id: 'fold', label: 'Fold', action: 'fold', color: 'gray' },
-  { id: 'call', label: 'Call', action: 'call', color: 'blue' },
-  { id: 'raise', label: 'Raise', action: 'raise', color: 'emerald' },
-];
-
-const CBET_ACTIONS: ActionOption[] = [
-  { id: 'check', label: 'Check', action: 'check', color: 'gray' },
-  { id: 'cbet', label: 'C-bet', action: 'bet', color: 'emerald' },
-];
-
-const STUDY_PACKET_WARNING_LABELS: Partial<Record<SpotPacketWarning, string>> = {
-  not_solver_backed: 'not solver-backed',
-  trainer_scoring_not_included: 'trainer scoring omitted',
-  legal_action_menu_inferred: 'legal menu inferred',
-  source_summary_missing: 'summary missing',
-  icm_risk_context_estimated: 'ICM risk estimated',
-  missing_payouts: 'payouts missing',
-  missing_field_stack_distribution: 'field stacks missing',
-  bb_multiway_defense_context: 'BB multiway caveat',
-};
-
-const LEGAL_ACTION_COLOR: Record<SpotPacketLegalAction['action'], ActionColor> = {
-  fold: 'gray',
-  check: 'gray',
-  call: 'blue',
-  bet: 'amber',
-  raise: 'emerald',
-  all_in: 'rose',
-};
-
-const LEGAL_ACTION_SOURCE_LABEL: Record<SpotPacketLegalAction['source'], string> = {
-  observed_hero_action: 'observed',
-  scenario_inferred: 'inferred',
-  trainer_config: 'trainer config',
-};
-
-const STUDY_PACKET_WARNING_PRIORITY: SpotPacketWarning[] = [
-  'not_solver_backed',
-  'trainer_scoring_not_included',
-  'legal_action_menu_inferred',
-  'bb_multiway_defense_context',
-  'icm_risk_context_estimated',
-  'missing_payouts',
-  'missing_field_stack_distribution',
-];
-
-interface StudyQueueRouteRequest {
-  handId: string | null;
-  handIds: string[];
-  packetIds: string[];
-}
-
-interface GetDrillPoolOptions {
-  handId?: string | null;
-  handIds?: string[];
-}
-
-function decodeQueryComponent(value: string): string {
-  try {
-    return decodeURIComponent(value.replace(/\+/g, ' '));
-  } catch {
-    return value;
-  }
-}
-
-function rawQueryParam(search: string, names: readonly string[]): string | null {
-  const query = search.startsWith('?') ? search.slice(1) : search;
-  if (!query) return null;
-
-  for (const pair of query.split('&')) {
-    if (!pair) continue;
-    const [rawKey, ...rawValueParts] = pair.split('=');
-    const key = decodeQueryComponent(rawKey ?? '');
-    if (names.includes(key)) return rawValueParts.join('=');
-  }
-
-  return null;
-}
-
-function parseEncodedDelimitedParam(value: string | null): string[] {
-  return (value ?? '')
-    .split(',')
-    .map((entry) => decodeQueryComponent(entry).trim())
-    .filter(Boolean);
-}
-
-function uniqueNonEmpty(values: string[]): string[] {
-  const seen = new Set<string>();
-  const result: string[] = [];
-  for (const value of values) {
-    const normalized = value.trim();
-    if (!normalized || seen.has(normalized)) continue;
-    seen.add(normalized);
-    result.push(normalized);
-  }
-  return result;
-}
-
-function requestedStudyQueueRoute(): StudyQueueRouteRequest {
-  if (typeof window === 'undefined') {
-    return { handId: null, handIds: [], packetIds: [] };
-  }
-  const search = window.location.search;
-  const params = new URLSearchParams(search);
-  const requestedDrill = params.get('drill') ?? params.get('source');
-  if (requestedDrill !== 'study-queue') {
-    return { handId: null, handIds: [], packetIds: [] };
-  }
-  const handId = params.get('handId') ?? params.get('reviewHand');
-  const handIds = uniqueNonEmpty([
-    handId ?? '',
-    ...parseEncodedDelimitedParam(rawQueryParam(search, ['handIds'])),
-  ]);
-  return {
-    handId: handIds[0] ?? null,
-    handIds,
-    packetIds: uniqueNonEmpty(parseEncodedDelimitedParam(rawQueryParam(search, ['packetIds']))),
-  };
-}
-
-function buildStudyQueueSessionSummary(drill: DrillState): StudyQueueSessionSummary {
-  const reviewedCount = Math.max(0, Math.min(drill.sessionIndex + 1, drill.sessionHandIds.length || drill.sessionIndex + 1));
-  const totalCount = drill.sessionHandIds.length || reviewedCount;
-  return {
-    reviewedCount,
-    totalCount,
-    correct: drill.score.correct,
-    graded: drill.score.total,
-    lastHandId: drill.currentDecision?.handId ?? null,
-    nextDueLabel: studyPacketNextDueLabel(drill.currentPacket),
-  };
-}
-
-function handReplayPathForStudySummary(summary: StudyQueueSessionSummary | null): string | null {
-  if (!summary?.lastHandId) return null;
-  return `/hands?panel=spot-packet&reviewHand=${encodeURIComponent(summary.lastHandId)}#spot-packet`;
-}
-
-export function getDrillPool(
-  type: DrillType,
-  allDecisions: HeroDecision[],
-  strategyProfile: StrategyProfile,
-  options: GetDrillPoolOptions = {},
-): HeroDecision[] {
-  if (type === 'study_queue') {
-    const requestedHandIds = options.handIds?.length
-      ? uniqueNonEmpty(options.handIds)
-      : options.handId
-        ? [options.handId]
-        : [];
-    if (requestedHandIds.length === 0) return [];
-
-    const decisionByHandId = new Map<string, HeroDecision>();
-    for (const decision of allDecisions) {
-      if (!decisionByHandId.has(decision.handId)) decisionByHandId.set(decision.handId, decision);
-    }
-    return requestedHandIds
-      .map((handId) => decisionByHandId.get(handId))
-      .filter((decision): decision is HeroDecision => Boolean(decision));
-  }
-
-  if (type === 'fault_fixer') {
-    return allDecisions.filter(d => {
-      const result = checkCompliance(d, strategyProfile);
-      return result && !result.isCompliant;
-    });
-  }
-
-  if (type === 'rfi_master') {
-    return allDecisions.filter(d => d.scenario === 'RFI' || d.scenario === 'BLIND_WAR');
-  }
-
-  if (type === 'cbet_clinic') {
-    return allDecisions.filter(d => d.cbetOpportunity);
-  }
-
-  // spaced_review draws from a persisted SRS queue, not a random pool.
-  return [];
-}
-
-export function shouldCbet(decision: HeroDecision): boolean {
-  if (decision.postflopActions?.some(action => action.spot === 'MISSED_CBET')) {
-    return true;
-  }
-  return decision.cbetMade;
-}
-
-export function isCbetActionCorrect(decision: HeroDecision, action: CbetAction): boolean {
-  return action === 'bet' ? shouldCbet(decision) : !shouldCbet(decision);
-}
-
-export function getDisplayCards(handKey: string | undefined): [string, string] {
-  const key = handKey && handKey.length >= 2 ? handKey : 'AA';
-  const r1 = key[0] ?? 'A';
-  const r2 = key[1] ?? r1;
-  const suited = key.endsWith('s');
-  return [`${r1}s`, suited ? `${r2}s` : `${r2}h`];
-}
-
-function pickRandomDecision(pool: HeroDecision[]): HeroDecision | null {
-  return pool[Math.floor(Math.random() * pool.length)] ?? null;
-}
-
-function formatSourceValue(value: string): string {
-  return value.replace(/_/g, ' ');
-}
-
-function packetWarningLabel(warning: SpotPacketWarning): string {
-  return STUDY_PACKET_WARNING_LABELS[warning] ?? formatSourceValue(warning);
-}
-
-function visiblePacketWarnings(packet: SpotPacket): string {
-  const prioritized = [
-    ...STUDY_PACKET_WARNING_PRIORITY.filter((warning) => packet.warnings.includes(warning)),
-    ...packet.warnings.filter((warning) => !STUDY_PACKET_WARNING_PRIORITY.includes(warning)),
-  ];
-  const visible = prioritized.slice(0, 4).map(packetWarningLabel);
-  const extraCount = prioritized.length - visible.length;
-  return extraCount > 0 ? `${visible.join(' · ')} · +${extraCount} more` : visible.join(' · ');
-}
-
-function studyPacketActionOptions(packet: SpotPacket | null): ActionOption[] | null {
-  if (!packet?.trainerPrompt.legalActions.length) return null;
-  return packet.trainerPrompt.legalActions.map((legalAction) => ({
-    id: legalAction.id,
-    label: legalAction.label,
-    action: legalAction.action,
-    color: LEGAL_ACTION_COLOR[legalAction.action],
-    meta: LEGAL_ACTION_SOURCE_LABEL[legalAction.source],
-  }));
-}
-
-function actionColorForSeed(action: string): ActionColor {
-  if (action === 'fold' || action === 'check') return 'gray';
-  if (action === 'call') return 'blue';
-  if (action === 'all_in') return 'rose';
-  if (action.startsWith('bet_')) return 'amber';
-  return 'emerald';
-}
-
-function labelSeedAction(action: string): string {
-  if (action === 'all_in') return 'All-in';
-  return action
-    .replace(/^cbet_/, 'C-bet ')
-    .replace(/^bet_/, 'Bet ')
-    .replace(/^raise_/, 'Raise ')
-    .replace(/_/g, '.')
-    .replace(/pct/g, '%')
-    .replace(/^\w/, (char) => char.toUpperCase());
-}
-
-function curriculumActionOptions(spot: CurriculumSpotSeed | null): ActionOption[] | null {
-  if (!spot) return null;
-  const allActions = new Set<string>(['fold', 'call', 'raise', 'check', 'all_in', ...spot.acceptedActions]);
-  return Array.from(allActions).map((action) => ({
-    id: action,
-    label: labelSeedAction(action),
-    action,
-    color: actionColorForSeed(action),
-    meta: spot.acceptedActions.includes(action) ? 'seed answer' : 'option',
-  }));
-}
-
-function curriculumScenarioForPack(pack: CurriculumSeedPack): HeroDecision['scenario'] {
-  if (pack.slug.includes('3bet')) return 'FACING_3BET';
-  if (pack.slug.includes('big-blind') || pack.slug.includes('bb-defense')) return 'BB_VS_RAISE';
-  if (pack.slug.includes('blind-war')) return 'BLIND_WAR';
-  return 'RFI';
-}
-
-function curriculumPosition(position: CurriculumSpotSeed['position']): HeroDecision['position'] {
-  return position === 'LJ' ? 'MP' : position;
-}
-
-function curriculumDecision(pack: CurriculumSeedPack, spot: CurriculumSpotSeed): HeroDecision {
-  return {
-    handId: `curriculum-${spot.id}`,
-    position: curriculumPosition(spot.position),
-    handKey: spot.combo,
-    stackBb: spot.stackBb,
-    scenario: curriculumScenarioForPack(pack),
-    action: 'fold',
-    isCompliant: true,
-    deviationType: null,
-    sawFlop: false,
-    wasPreFlopRaiser: false,
-    cbetOpportunity: false,
-    cbetMade: false,
-    cbetHU: false,
-    doubleBarrelOpportunity: false,
-    doubleBarrelMade: false,
-    wentToShowdown: false,
-    wonAtShowdown: false,
-    wonAmount: 0,
-    netProfit: 0,
-  };
-}
-
-async function loadStudyQueuePacket(decision: HeroDecision): Promise<SpotPacket | null> {
-  const parsedHand = await getParsedHandForHandId(decision.handId);
-  return parsedHand ? buildSpotPacketFromParsedHand(parsedHand, decision) : null;
-}
-
-interface DueStudyReview {
-  dueCount: number;
-  path: string;
-}
-
-// Which imported study packet the SRS scheduler says is due right now. Built
-// from the browser-local progress store (keyed by real packetId) and gated by
-// isStudyPacketSrsDue, so only packets whose Leitner interval has elapsed and
-// whose hand still exists in the Arena store are offered. Called in render on
-// the drills landing, so it re-reads localStorage fresh after a session ends.
-function selectDueStudyReview(allDecisions: HeroDecision[], decisionsLoaded: boolean): DueStudyReview | null {
-  if (!decisionsLoaded || allDecisions.length === 0) return null;
-  const progress = readStudyPacketProgress();
-  const decisionHandIds = new Set(allDecisions.map((decision) => decision.handId));
-  const targets: StudyPacketProgressTarget[] = Object.values(progress)
-    .filter((entry) => decisionHandIds.has(entry.handId))
-    .map((entry) => ({ packetId: entry.packetId, source: { handId: entry.handId } }));
-  if (targets.length === 0) return null;
-  const dueCount = targets.filter((target) => isStudyPacketSrsDue(progress[studyPacketProgressKey(target)])).length;
-  if (dueCount === 0) return null;
-  const selected = selectNextActionableStudyPacket(targets, progress);
-  const path = buildStudyPacketArenaPath(selected, targets, progress);
-  if (!selected || !path) return null;
-  return { dueCount, path };
-}
 
 export function ArenaPage() {
   const [drill, setDrill] = useState<DrillState>({
@@ -937,26 +562,7 @@ export function ArenaPage() {
 
   if (!drill.isActive) {
     if (srsComplete) {
-      return (
-        <div className="max-w-2xl mx-auto py-20 text-center">
-          <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            className="inline-block p-3 border border-[var(--money-line)] bg-[var(--money-soft)] rounded-2xl mb-4"
-          >
-            <CheckCircle2 size={40} className="text-[var(--money)]" />
-          </motion.div>
-          <span className="kick sig block mb-2">Spaced Review</span>
-          <h1 className="text-4xl font-bold text-[var(--fg)] mb-2">Session complete.</h1>
-          <p className="lede text-[var(--fg-dim)] mb-8">
-            You drilled {srsComplete.total} {srsComplete.total === 1 ? 'pattern' : 'patterns'} —{' '}
-            {srsComplete.correct} correct. Misses come back soon; the rest are scheduled further out.
-          </p>
-          <button type="button" className="btn sig px-8 py-3" onClick={() => setSrsComplete(null)}>
-            Back to the Arena
-          </button>
-        </div>
-      );
+      return <SpacedReviewCompleteScreen score={srsComplete} onDismiss={() => setSrsComplete(null)} />;
     }
     const dueStudyReview = selectDueStudyReview(allDecisions, decisionsLoaded);
     return (
@@ -1432,68 +1038,5 @@ export function ArenaPage() {
         </div>
       </main>
     </div>
-  );
-}
-
-interface DrillCardProps {
-  title: string;
-  desc: string;
-  icon: LucideIcon;
-  onClick: () => void;
-}
-
-function DrillCard({ title, desc, icon: Icon, onClick }: DrillCardProps) {
-  return (
-    <motion.button
-      whileHover={{ y: -5 }}
-      onClick={onClick}
-      className="cursor-pointer compartment transition-all hover:border-[var(--accent-line)] group text-left"
-      type="button"
-    >
-      <div className="mb-4 text-[var(--accent)] group-hover:scale-110 transition-transform">
-        <Icon size={24} />
-      </div>
-      <h3 className="text-xl font-bold text-[var(--fg)] mb-2">{title}</h3>
-      <p className="text-sm text-[var(--fg-dim)] leading-relaxed">{desc}</p>
-      <div className="mt-6 text-xs font-bold uppercase tracking-widest text-[var(--accent)] flex items-center gap-2">
-         Start Drill <ChevronRight size={14} />
-      </div>
-    </motion.button>
-  );
-}
-
-interface ActionButtonProps {
-  label: string;
-  color: ActionColor;
-  meta?: string;
-  onClick: () => void;
-  disabled: boolean;
-  testId?: string;
-}
-
-function ActionButton({ label, color, meta, onClick, disabled, testId }: ActionButtonProps) {
-  const colorMap = {
-    gray: 'btn outline',
-    blue: 'btn',
-    emerald: 'btn sig',
-    amber: 'btn border-amber-300/40 bg-amber-300/10 text-amber-100 hover:border-amber-200/60',
-    rose: 'btn border-rose-300/40 bg-rose-300/10 text-rose-100 hover:border-rose-200/60',
-  };
-
-  return (
-    <button
-      disabled={disabled}
-      onClick={onClick}
-      className={clsx(
-        "px-10 py-4 font-bold text-sm",
-        colorMap[color]
-      )}
-      type="button"
-      data-testid={testId}
-      aria-label={meta ? `${label} ${meta}` : label}
-    >
-      <span>{label}</span>
-      {meta && <span className="ml-2 text-[9px] opacity-60">{meta}</span>}
-    </button>
   );
 }
