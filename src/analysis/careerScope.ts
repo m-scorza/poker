@@ -1,5 +1,5 @@
 import type { Tournament } from '../types/hand';
-import { getTournamentCost, getTournamentNet, getTournamentRevenue, isCashTournamentCurrency } from './financials';
+import { getTournamentCost, getTournamentNet, getTournamentRevenue, isCashTournamentCurrency, computeRoiPct } from './financials';
 import { sumUsd } from '../parser/money';
 
 type CareerScopeForm = 'Hot' | 'Uptrend' | 'Stable' | 'Rebuild' | 'Insufficient Sample';
@@ -129,8 +129,8 @@ function calculateAbilityRating(args: {
 
 function formLabel(totalTournaments: number, last20Roi: number | null, slope: number, totalRoi: number): CareerScopeForm {
   const recentRoi = last20Roi ?? totalRoi;
-  if (recentRoi < -10 || totalRoi < -20) return 'Rebuild';
   if (totalTournaments < 10) return 'Insufficient Sample';
+  if (recentRoi < -10 || totalRoi < -20) return 'Rebuild';
   if (recentRoi >= 35 && slope > 0) return 'Hot';
   if (recentRoi > 0 && slope > 0) return 'Uptrend';
   return 'Stable';
@@ -155,9 +155,8 @@ export function buildCareerScopeProfile(tournaments: Tournament[]): CareerScopeP
   const totalStake = sumUsd(cashTournaments.map(t => t.buyIn || 0));
   const totalRake = sumUsd(cashTournaments.map(t => t.fee || 0));
   const totalCashes = sumUsd(cashTournaments.map(getTournamentRevenue));
-  const totalCost = sumUsd(cashTournaments.map(getTournamentCost));
   const totalProfit = sumUsd(cashTournaments.map(getTournamentNet));
-  const totalRoi = pct(totalProfit, totalCost);
+  const totalRoi = computeRoiPct(cashTournaments);
   const averageRoi = averageTournamentRoi(sorted);
   const itmRate = pct(cashTournaments.filter((tournament) => getTournamentRevenue(tournament) > 0).length, totalCashTournaments);
   const wins = cashTournaments.filter((tournament) => tournament.finishPosition === 1).length;
@@ -183,9 +182,7 @@ export function buildCareerScopeProfile(tournaments: Tournament[]): CareerScopeP
   });
 
   const last20 = cashTournaments.slice(-20);
-  const last20Cost = sumUsd(last20.map(getTournamentCost));
-  const last20Profit = sumUsd(last20.map(getTournamentNet));
-  const last20Roi = last20.length === 0 ? null : pct(last20Profit, last20Cost);
+  const last20Roi = last20.length === 0 ? null : computeRoiPct(last20);
 
   const maxCashingStreak = maxStreak(cashTournaments, (tournament) => getTournamentRevenue(tournament) > 0);
   const maxLosingStreak = maxStreak(cashTournaments, (tournament) => getTournamentRevenue(tournament) <= 0);

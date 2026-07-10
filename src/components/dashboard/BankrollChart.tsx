@@ -19,27 +19,25 @@ export function BankrollChart({ trendData }: { trendData: SessionTrendPoint[] })
     return trendData.filter((point) => point.date.getTime() >= cutoff);
   }, [trendData, tab]);
 
-  const { pathData, areaData, evData, lastPoint } = useMemo(() => {
-    if (visibleTrendData.length === 0) return { pathData: '', areaData: '', evData: '', lastPoint: [0,0] };
-    
+  const { pathData, areaData, lastPoint } = useMemo(() => {
+    if (visibleTrendData.length === 0) return { pathData: '', areaData: '', lastPoint: [0,0] };
+
     const W = 1140, H = 150, padX = 0, padY = 20;
     const data = visibleTrendData;
     const xs = (i: number) => padX + (i / Math.max(1, data.length - 1)) * (W - padX * 2);
-    
+
     const maxVal = Math.max(...data.map(d => d.cumulativePnl));
     const minVal = Math.min(...data.map(d => d.cumulativePnl));
     const range = maxVal - minVal || 1;
-    
+
     const ys = (v: number) => H - padY - ((v - minVal) / range) * (H - padY * 2);
-    
+
     const pts = data.map((d, i) => [xs(i), ys(d.cumulativePnl)]);
-    const evPts = data.map((d, i) => [xs(i), ys(d.cumulativePnl * 0.9)]); // mock EV for display
-    
+
     const line = pts.map((p, i) => (i ? 'L' : 'M') + p[0]!.toFixed(1) + ' ' + p[1]!.toFixed(1)).join(' ');
-    const evLine = evPts.map((p, i) => (i ? 'L' : 'M') + p[0]!.toFixed(1) + ' ' + p[1]!.toFixed(1)).join(' ');
     const area = line + ` L ${W},${H+30} L 0,${H+30} Z`;
-    
-    return { pathData: line, areaData: area, evData: evLine, lastPoint: pts[pts.length - 1] || [0,0] };
+
+    return { pathData: line, areaData: area, lastPoint: pts[pts.length - 1] || [0,0] };
   }, [visibleTrendData]);
 
   useGSAP(() => {
@@ -51,7 +49,6 @@ export function BankrollChart({ trendData }: { trendData: SessionTrendPoint[] })
       tl.to(line, { strokeDashoffset: 0, duration: 1.8 }, 0);
       
       tl.to('.ch-area', { opacity: 0.9, duration: 1.2 }, 0.5);
-      tl.to('.ch-ev', { opacity: 0.7, duration: 0.8 }, 0.8);
       tl.to('.ch-dot', { opacity: 1, duration: 0.5 }, 1.6);
     }
   }, { scope: containerRef, dependencies: [pathData] });
@@ -85,7 +82,6 @@ export function BankrollChart({ trendData }: { trendData: SessionTrendPoint[] })
           {pathData && (
             <>
               <path className="ch-area" fill="url(#cg)" d={areaData} style={{ opacity: 0 }} />
-              <path className="ch-ev" fill="none" stroke="var(--fg-dim)" strokeDasharray="4 4" d={evData} style={{ opacity: 0 }} />
               <path className="ch-line" fill="none" stroke="var(--accent)" strokeWidth="2" d={pathData} style={{ filter: 'drop-shadow(0 0 8px var(--accent-glow))' }} />
               <circle className="ch-dot" r="4" cx={lastPoint[0]} cy={lastPoint[1]} fill="var(--accent-2)" style={{ opacity: 0 }} />
             </>

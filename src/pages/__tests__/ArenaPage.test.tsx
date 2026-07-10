@@ -1,12 +1,12 @@
 import { MemoryRouter } from 'react-router-dom';
-import { act, fireEvent, render, screen, waitFor } from '@testing-library/react';
+import { act, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { ArenaPage, getDisplayCards, getDrillPool, isCbetActionCorrect } from '../ArenaPage';
 import { getAllHeroDecisions, getParsedHandForHandId, getSrsReviews, recordSrsReview } from '../../data/store';
 import { STARTER_DIAGNOSTIC_STORAGE_KEY } from '../../data/starterDiagnostic';
 import { CURRICULUM_PROGRESS_STORAGE_KEY } from '../../data/curriculumProgress';
-import { buildStudyPacketArenaPathFromIds } from '../../analysis/studyPacketProgress';
+import { STUDY_PACKET_PROGRESS_STORAGE_KEY, buildStudyPacketArenaPathFromIds } from '../../analysis/studyPacketProgress';
 import type { HeroDecision } from '../../types/analysis';
 import type { ParsedHand } from '../../parser/pokerstars';
 
@@ -508,5 +508,42 @@ describe('ArenaPage drill start behavior', () => {
     expect(await screen.findByText('REVIEW ONLY')).toBeInTheDocument();
     expect(screen.getByText(/no local range rule grades this exact action/i)).toBeInTheDocument();
     expect(screen.getByText('0 / 0')).toBeInTheDocument();
+  });
+
+  it('surfaces SRS-due imported packets and starts the most overdue one the scheduler selects', async () => {
+    // Two reviewed packets in browser-local progress: hand-b is past its SRS
+    // date (due), hand-a's next repeat is far in the future (not due). Both hands
+    // still exist in the Arena decision store.
+    window.localStorage.setItem(STUDY_PACKET_PROGRESS_STORAGE_KEY, JSON.stringify({
+      'spot-a': {
+        packetId: 'spot-a', handId: 'hand-a',
+        reviewedAt: '2026-07-08T12:00:00.000Z', nextDueAt: '2099-01-01T00:00:00.000Z',
+        repetitionCount: 1, intervalDays: 30, starred: false, updatedAt: '2026-07-08T12:00:00.000Z',
+      },
+      'spot-b': {
+        packetId: 'spot-b', handId: 'hand-b',
+        reviewedAt: '2026-06-01T12:00:00.000Z', nextDueAt: '2026-06-02T12:00:00.000Z',
+        repetitionCount: 1, intervalDays: 1, starred: false, updatedAt: '2026-06-01T12:00:00.000Z',
+      },
+    }));
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'hand-a', handKey: 'AKs', scenario: 'RFI' }),
+      decision({ handId: 'hand-b', handKey: 'QJs', position: 'BB', scenario: 'BB_VS_RAISE', action: 'fold' }),
+    ]);
+
+    render(<ArenaPage />);
+
+    const cta = await screen.findByTestId('arena-study-due-cta');
+    expect(cta).toHaveTextContent('due for review');
+    // isStudyPacketSrsDue gates the count: only hand-b is due.
+    expect(within(cta).getByText('Due').previousElementSibling).toHaveTextContent('1');
+
+    fireEvent.click(cta);
+
+    // buildStudyPacketArenaPath + selectNextActionableStudyPacket routed to the
+    // due hand-b spot, not the not-yet-due hand-a spot.
+    expect(await screen.findByTestId('arena-study-queue-source')).toBeInTheDocument();
+    expect(screen.getByText('BB_VS_RAISE'.replace('_', ' '))).toBeInTheDocument();
+    expect(screen.queryByText('RFI')).not.toBeInTheDocument();
   });
 });
