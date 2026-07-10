@@ -8,6 +8,17 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
+## 2026-07-10 - Open PR sweep and C:\dev\poker relocation
+
+- Owner / agent:          Codex
+- Branch:                 main
+- Scope:                  Review and merge all open PRs; update active project references from the old OneDrive checkout to `C:\dev\poker`.
+- Files touched:          `.claude/settings.json`, `docs/agents/PILOTING.md`, `docs/product/PARSER_HEALTH.md`, `docs/agents/AGENT_HANDOFF.md`; PR branches #147, #149, and #150 were merged through GitHub.
+- Summary:                Merged PR #147, #149, and #150 after updating each head onto current `origin/main`. Patched #147 so `computeRoiPct` includes any positive-cost cash entry. Updated tracked active project config/docs to `C:\dev\poker`; left archives and gitignored local settings untouched.
+- Verification:           #147 career/financial tests plus docs/privacy/typecheck and GitHub CI/Vercel green. #149 ArenaPage test plus docs/privacy/typecheck and GitHub CI/Vercel green. #150 Coach's Note/proof-hand tests plus docs/privacy/typecheck and GitHub CI/Vercel green. Relocation docs/config: `npm.cmd run docs:check`, `npm.cmd run privacy:check`.
+- Risks / assumptions:    `.claude/settings.local.json` is gitignored private state and was not edited. Historical archive entries still mention old worktrees by design.
+- Next action requested:  None; GitHub reports zero open PRs after the sweep.
+
 ## 2026-07-08 - Out-of-the-box slate (PR #130) + owner-approved F7 deletion
 
 - Owner / agent:          Claude (remote session, owner steer: "not the planned waves — outside the box")

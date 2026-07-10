@@ -84,6 +84,6 @@ crash with extra steps.
 - Plan-only sessions: say so up front (or use plan mode) — "make plans, do
   not execute" sessions have gone best when the ground rule was explicit
   from message one.
-- One repo copy is canonical (`OneDrive/Documentos/GitHub/poker` today).
+- One repo copy is canonical (`C:\dev\poker` today).
   Downloads copies and scratch clones are read-only reference material —
   never dispatch agents into them.
