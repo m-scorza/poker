@@ -1,6 +1,7 @@
 import { useRef, useMemo } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import type { SessionTrendPoint } from '../../data/sessions';
 
 gsap.registerPlugin(useGSAP);
 
@@ -10,46 +11,50 @@ interface MonumentCurveProps {
   roi: string;
   itmRate: string;
   verdict: string;
+  trendData: SessionTrendPoint[];
+  maxDrawdown: number;
+  maxDrawdownBuyIns: number;
 }
 
-const EQUITY_CURVE = [0, 12, 8, 22, 18, 30, 26, 40, 52, 46, 60, 74, 66, 88, 102, 94, 118, 140, 128, 150, 142, 170, 196, 182, 214, 236, 228, 262, 250, 286, 318, 306, 344, 366, 356, 389];
-
-export function MonumentCurve({ totalPnl, tournaments, roi, itmRate, verdict }: MonumentCurveProps) {
+export function MonumentCurve({ totalPnl, tournaments, roi, itmRate, verdict, trendData, maxDrawdown, maxDrawdownBuyIns }: MonumentCurveProps) {
   const containerRef = useRef<HTMLElement>(null);
-  
+
   const { pathData, areaData, lastPoint } = useMemo(() => {
+    if (trendData.length === 0) return { pathData: '', areaData: '', lastPoint: [0, 0] };
+
     const W = 560, H = 320, pad = 10;
-    const max = Math.max(...EQUITY_CURVE), min = Math.min(...EQUITY_CURVE);
-    const xs = (i: number) => pad + (i / (EQUITY_CURVE.length - 1)) * (W - pad * 2);
+    const equityCurve = trendData.map((d) => d.cumulativePnl);
+    const max = Math.max(...equityCurve), min = Math.min(...equityCurve);
+    const xs = (i: number) => pad + (i / Math.max(1, equityCurve.length - 1)) * (W - pad * 2);
     const ys = (v: number) => H - pad - ((v - min) / (max - min || 1)) * (H - pad * 2);
-    
-    const pts = EQUITY_CURVE.length ? EQUITY_CURVE.map((v, i) => [xs(i), ys(v)]) : [[0, 0]];
+
+    const pts = equityCurve.map((v, i) => [xs(i), ys(v)]);
     const line = pts.map((p, i) => (i ? 'L' : 'M') + p[0]!.toFixed(1) + ' ' + p[1]!.toFixed(1)).join(' ');
-    const area = line + ` L${xs(Math.max(0, EQUITY_CURVE.length - 1)).toFixed(1)} ${H} L${pad} ${H} Z`;
-    
-    return { pathData: line, areaData: area, lastPoint: pts[pts.length - 1] ?? [0,0] };
-  }, []);
+    const area = line + ` L${xs(Math.max(0, equityCurve.length - 1)).toFixed(1)} ${H} L${pad} ${H} Z`;
+
+    return { pathData: line, areaData: area, lastPoint: pts[pts.length - 1] ?? [0, 0] };
+  }, [trendData]);
 
   useGSAP(() => {
     const tl = gsap.timeline({ defaults: { ease: 'power3.inOut' } });
-    
+
     const path = containerRef.current?.querySelector('.mon-line') as SVGPathElement;
     if (path) {
       const len = path.getTotalLength();
       gsap.set(path, { strokeDasharray: len, strokeDashoffset: len });
       tl.to(path, { strokeDashoffset: 0, duration: 2.2 }, 0);
     }
-    
+
     tl.to('.mon-area', { opacity: 1, duration: 1.5 }, 0.6);
     tl.to('.mon-dot', { opacity: 1, duration: 0.5 }, 2);
 
     const intNode = containerRef.current?.querySelector('.int');
     if (intNode) {
-       gsap.fromTo(intNode, 
+       gsap.fromTo(intNode,
          { innerText: 0 },
-         { 
-           innerText: Math.floor(Math.abs(totalPnl)), 
-           duration: 1.8, 
+         {
+           innerText: Math.floor(Math.abs(totalPnl)),
+           duration: 1.8,
            snap: { innerText: 1 },
            onUpdate: function() {
               intNode.innerHTML = Math.floor(Number(this.targets()[0].innerText)).toString();
@@ -57,7 +62,7 @@ export function MonumentCurve({ totalPnl, tournaments, roi, itmRate, verdict }: 
          }
        );
     }
-  }, { scope: containerRef });
+  }, { scope: containerRef, dependencies: [pathData] });
 
   const pnlInt = Math.floor(Math.abs(totalPnl));
   const pnlDec = Math.abs(totalPnl).toFixed(2).split('.')[1];
@@ -72,9 +77,13 @@ export function MonumentCurve({ totalPnl, tournaments, roi, itmRate, verdict }: 
               <stop offset="100%" stopColor="var(--accent)" stopOpacity="0" />
             </linearGradient>
           </defs>
-          <path d={areaData} fill="url(#mong)" className="mon-area" style={{ opacity: 0 }} />
-          <path d={pathData} fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mon-line" style={{ filter: 'drop-shadow(0 0 8px var(--accent-glow))' }} />
-          <circle cx={lastPoint[0]!.toFixed(1)} cy={lastPoint[1]!.toFixed(1)} r="4" fill="var(--accent-2)" className="mon-dot" style={{ opacity: 0, filter: 'drop-shadow(0 0 6px var(--accent-glow))' }} />
+          {pathData && (
+            <>
+              <path d={areaData} fill="url(#mong)" className="mon-area" style={{ opacity: 0 }} />
+              <path d={pathData} fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mon-line" style={{ filter: 'drop-shadow(0 0 8px var(--accent-glow))' }} />
+              <circle cx={lastPoint[0]!.toFixed(1)} cy={lastPoint[1]!.toFixed(1)} r="4" fill="var(--accent-2)" className="mon-dot" style={{ opacity: 0, filter: 'drop-shadow(0 0 6px var(--accent-glow))' }} />
+            </>
+          )}
         </svg>
       </div>
       <div className="mon-left">
@@ -98,14 +107,9 @@ export function MonumentCurve({ totalPnl, tournaments, roi, itmRate, verdict }: 
           <span className="sub">vs 16% field avg</span>
         </div>
         <div className="substat">
-          <span className="kick">Best cash</span>
-          <div className="v">+$22.50</div>
-          <span className="sub">1st of 89 · Oct</span>
-        </div>
-        <div className="substat">
           <span className="kick">Max drawdown</span>
-          <div className="v">$18.40</div>
-          <span className="sub">recovered in 11</span>
+          <div className="v">${maxDrawdown.toFixed(2)}</div>
+          <span className="sub">{maxDrawdownBuyIns.toFixed(1)} ABI</span>
         </div>
       </div>
     </section>

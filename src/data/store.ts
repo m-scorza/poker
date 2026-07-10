@@ -220,11 +220,17 @@ export async function importHands(
   }
   if (tournHandCounts.size > 0) {
     await db.transaction('rw', db.tournaments, async () => {
-      for (const [tid, count] of tournHandCounts) {
-        const existing = await db.tournaments.get(tid);
-        if (existing) {
-          await db.tournaments.update(tid, { handsPlayed: (existing.handsPlayed || 0) + count });
+      const ids = [...tournHandCounts.keys()];
+      const existing = await db.tournaments.bulkGet(ids);
+      const updates: Tournament[] = [];
+      existing.forEach((t, i) => {
+        const id = ids[i];
+        if (t && id !== undefined) {
+          updates.push({ ...t, handsPlayed: (t.handsPlayed || 0) + (tournHandCounts.get(id) ?? 0) });
         }
+      });
+      if (updates.length > 0) {
+        await db.tournaments.bulkPut(updates);
       }
     });
   }
@@ -680,7 +686,6 @@ export async function aggregateVillainStats(
       const observation = collectVillainHandObservation(hand, p, actions);
       applyObservationToCounters(v.rawCounters, observation);
       v.totalHands = v.rawCounters.totalHands;
-      v.stats = computeVillainStats(v.rawCounters);
 
       const existingPositionStats = v.statsByPosition[p.position];
       const positionCounters = existingPositionStats?.rawCounters
@@ -698,6 +703,10 @@ export async function aggregateVillainStats(
         await yieldToBrowser();
       }
     }
+  }
+
+  for (const v of villainMap.values()) {
+    v.stats = computeVillainStats(v.rawCounters);
   }
 
   await db.villains.bulkPut(Array.from(villainMap.values()));

@@ -58,4 +58,27 @@ describe('LifetimeScorecard', () => {
     const { container } = render(<LifetimeScorecard tournaments={[]} decisions={[]} />);
     expect(container.firstChild).toBeNull();
   });
+
+  it('excludes ungraded scenarios from the Efficiency Score', () => {
+    const ungradedAllIn: HeroDecision = {
+      ...mockDecisions[0]!,
+      handId: 'h2',
+      scenario: 'FACING_ALL_IN',
+      action: 'call',
+      isCompliant: false,
+      deviationType: null,
+    };
+    const decisions = [mockDecisions[0]!, ungradedAllIn];
+
+    const { container } = render(
+      <LifetimeScorecard tournaments={mockTournaments} decisions={decisions} />,
+    );
+
+    // 1 graded compliant + 1 ungraded FACING_ALL_IN → 1/1 graded = 100%, not 1/2 = 50%.
+    expect(container.querySelector('.text-6xl')?.textContent).toBe('100');
+    // Hands Tracked still counts every decision (experience volume).
+    expect(within(container).getByText('2')).toBeInTheDocument();
+    // Matched Decs. reflects graded compliant count directly.
+    expect(within(container).getByText('Matched Decs.')).toBeInTheDocument();
+  });
 });

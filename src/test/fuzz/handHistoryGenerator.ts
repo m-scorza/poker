@@ -85,7 +85,7 @@ const SUITS = 'shdc';
 
 type Rng = () => number;
 
-export function mulberry32(seed: number): Rng {
+function mulberry32(seed: number): Rng {
   let a = seed >>> 0;
   return () => {
     a |= 0;

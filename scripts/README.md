@@ -12,5 +12,7 @@ One-off utility scripts. Not part of the app build. Run from repo root.
 | `install-hooks.js` | Installs the repo pre-commit hook during `npm install` / `npm ci`. |
 | `surface-open-reports.ts` | Surfaces open/in-progress `docs/reports/*.md` at SessionStart. |
 | `regen-reports-index.ts` | Regenerates the `docs/reports/README.md` index. |
+| `analyze-cli.ts` | Headless analysis CLI — the UI's exact import pipeline from the terminal, `--json` for scripting. Wired as `npm run analyze` (added in #132). |
+| `extract-curriculum-seeds.ts` | Manually-run generator: reads `../poker-knowledge/quiz_configs.json` (a sibling repo not present in a fresh clone; see `SOURCE_PATH` in the script) to regenerate the committed `src/data/curriculumSeedPacks.generated.ts`. The generated output is committed precisely because the source repo isn't clonable here. |
 
 All scripts assume the repo root as CWD.

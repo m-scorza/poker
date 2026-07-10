@@ -12,16 +12,12 @@
 import type { Action } from '../types/hand';
 import { getCbetRule, type BoardTexture, type StrategyProfile } from '../data/strategyProfiles';
 import { getRecommendedCbetSizing, calculateMDF, calculatePotOdds } from './math';
+import { rankValue } from '../utils/cards';
 
 // --- Card helpers ---
 
-const RANK_VALUES: Record<string, number> = {
-  '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8,
-  '9': 9, 'T': 10, 'J': 11, 'Q': 12, 'K': 13, 'A': 14,
-};
-
 function cardRank(card: string): number {
-  return RANK_VALUES[card[0]!] ?? 0;
+  return rankValue(card[0]!);
 }
 
 function cardSuit(card: string): string {
@@ -30,10 +26,6 @@ function cardSuit(card: string): string {
 
 function isHighCard(card: string): boolean {
   return cardRank(card) >= 10; // T, J, Q, K, A
-}
-
-function isBroadway(card: string): boolean {
-  return cardRank(card) >= 10;
 }
 
 // --- Board Texture Classification ---
@@ -118,7 +110,7 @@ export function classifyBoardTexture(flopCards: string[]): BoardAnalysis {
     if (highCardCount === 0) {
       texture = 'monotone_low';
     } else {
-      texture = ('monotone_' + suits[0]) as BoardTexture;
+      texture = 'monotone_high';
     }
   }
   // Low connected: all cards below T, and connected (gaps ≤ 2)
@@ -163,7 +155,7 @@ type PostflopSpot =
   | 'MISSED_DOUBLE_BARREL'  // PFR c-bet flop, checked turn
   | 'DONK_BET_TURN'         // BB leads turn after calling flop c-bet
   | 'CHECK_RAISE_FLOP'      // BB check-raised the flop
-  | 'NONE';
+  | 'FACING_BET_INFO';      // Hero faces a bet — pot-odds/MDF context row
 
 export interface PostflopAction {
   spot: PostflopSpot;
@@ -305,7 +297,7 @@ export function analyzePostflop(
       spots.push({
         spot: 'BET_VS_MISSED_CBET',
         street: 'flop',
-        sizing: heroBetFlop ? null : null,
+        sizing: null,
         isCorrect: heroBetFlop,
         note: heroBetFlop
           ? 'Bet vs missed c-bet (correct)'
@@ -354,7 +346,7 @@ export function analyzePostflop(
       const sizing = villainBet.amount / totalPot;
       
       spots.push({
-        spot: 'NONE', // Custom spot for facing bet
+        spot: 'FACING_BET_INFO',
         street: 'flop',
         sizing,
         isCorrect: null,
@@ -393,7 +385,7 @@ export function isGoodBarrelCard(turnCard: string, flopCards: string[]): boolean
   if (turnRank > flopHighest) return true;
 
   // Broadway card on a low/medium board
-  if (isBroadway(turnCard) && flopHighest < 10) return true;
+  if (isHighCard(turnCard) && flopHighest < 10) return true;
 
   return false;
 }

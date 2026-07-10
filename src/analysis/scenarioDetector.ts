@@ -124,11 +124,11 @@ export function detectScenario(
   const openerPosition = firstRaiser ? (playerPosMap.get(firstRaiser.playerName) || null) : null;
 
   // WALK: hero is BB, everyone folded
-  if (heroPosition === 'BB' || heroPosition === 'BTN/SB') {
+  if (heroPosition === 'BB') {
     const allFolded =
       actionsBefore.length > 0 &&
       actionsBefore.every((a) => a.actionType === 'fold');
-    if (heroPosition === 'BB' && allFolded && heroIdx === -1) {
+    if (allFolded && heroIdx === -1) {
       return { scenario: 'WALK', openerPosition: null };
     }
   }
@@ -175,18 +175,11 @@ export function detectScenario(
       const firstLimper = actionsBefore.find(a => a.actionType === 'call');
       return { scenario: 'BB_VS_LIMP', openerPosition: firstLimper ? (playerPosMap.get(firstLimper.playerName) || null) : null };
     }
-    if (allFoldedBefore && heroIdx !== -1) {
-      return { scenario: 'WALK', openerPosition: null };
-    }
     return { scenario: 'WALK', openerPosition: null };
   }
 
   // SB: Blind war check
-  if (
-    (heroPosition === 'SB' || heroPosition === 'BTN/SB') &&
-    allFoldedBefore &&
-    activePlayers > 2
-  ) {
+  if (heroPosition === 'SB' && allFoldedBefore && activePlayers > 2) {
     return { scenario: 'BLIND_WAR', openerPosition: null };
   }
 
@@ -337,7 +330,7 @@ export function buildHeroDecision(
     wasPreFlopRaiser,
     sawFlop ? hand.boardFlop : null,
     flopPlayerCount,
-    computePotBeforeStreet(actions, 'flop') || hand.totalPot,
+    computePotBeforeStreet(actions, 'flop'),
     profile,
   );
 

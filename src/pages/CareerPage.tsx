@@ -1,22 +1,17 @@
-import { useCallback, useEffect, useState, useMemo } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useState, useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { clsx } from 'clsx';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '../data/store';
-import { CareerDashboard } from '../components/career/CareerDashboard';
 import { CareerCoachCard } from '../components/career/CareerCoachCard';
-import { CareerScopePanel } from '../components/career/CareerScopePanel';
 import { TimelineFeed, type TimelineEvent } from '../components/career/TimelineFeed';
 import { LifetimeScorecard } from '../components/career/LifetimeScorecard';
-import { DayHourHeatmap } from '../components/career/DayHourHeatmap';
 import { CareerStreaksCard } from '../components/career/CareerStreaksCard';
 import { FormatBreakdownTable } from '../components/career/FormatBreakdownTable';
 import { HandReplay } from '../components/hands/HandReplay';
 import { buildCareerCoachReport } from '../analysis/careerCoach';
 import { buildCareerScopeProfile } from '../analysis/careerScope';
 import { computeBustOutDistribution, computeStakeEvolution } from '../analysis/careerStats';
-import { BustOutChart } from '../components/career/BustOutChart';
-import { StakeTrendChart } from '../components/career/StakeTrendChart';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
 import { buildUngradedScenarioImpact } from '../analysis/ungradedScenarios';
@@ -31,8 +26,18 @@ import {
   Calendar, TableProperties, Swords, Flame, 
   DollarSign, UserX, ExternalLink, Users
 } from 'lucide-react';
-import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash } from '../analysis/financials';
+import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash, computeRoiPct } from '../analysis/financials';
 import { sumUsd } from '../parser/money';
+
+const CareerDashboard = lazy(() => import('../components/career/CareerDashboard').then((m) => ({ default: m.CareerDashboard })));
+const CareerScopePanel = lazy(() => import('../components/career/CareerScopePanel').then((m) => ({ default: m.CareerScopePanel })));
+const DayHourHeatmap = lazy(() => import('../components/career/DayHourHeatmap').then((m) => ({ default: m.DayHourHeatmap })));
+const BustOutChart = lazy(() => import('../components/career/BustOutChart').then((m) => ({ default: m.BustOutChart })));
+const StakeTrendChart = lazy(() => import('../components/career/StakeTrendChart').then((m) => ({ default: m.StakeTrendChart })));
+
+function ChartFallback({ className }: { className?: string }) {
+  return <div className={clsx('animate-pulse rounded-2xl bg-white/5', className)} />;
+}
 
 function ordinal(value: number): string {
   const mod100 = value % 100;
@@ -101,7 +106,7 @@ export function CareerPage() {
       totalWinnings,
       totalProfit: totalWinnings - totalBuyIns,
       itmRate: (itms / played) * 100,
-      roi: totalBuyIns > 0 ? ((totalWinnings - totalBuyIns) / totalBuyIns) * 100 : 0,
+      roi: computeRoiPct(tournaments),
       avgBuyIn: totalBuyIns / played,
       tournamentsPlayed: played
     };
@@ -418,7 +423,9 @@ export function CareerPage() {
 
           <CareerCoachCard report={careerCoachReport} onDemoLoaded={loadData} />
 
-          <CareerScopePanel profile={careerScopeProfile} />
+          <Suspense fallback={<ChartFallback className="h-[200px]" />}>
+            <CareerScopePanel profile={careerScopeProfile} />
+          </Suspense>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="compartment p-8">
@@ -427,7 +434,9 @@ export function CareerPage() {
                  Finish Distribution
                </h3>
                <div className="h-[240px]">
-                 <BustOutChart data={bustOutDistribution} />
+                 <Suspense fallback={<ChartFallback className="h-full" />}>
+                   <BustOutChart data={bustOutDistribution} />
+                 </Suspense>
                </div>
             </div>
             <div className="compartment p-8">
@@ -436,12 +445,16 @@ export function CareerPage() {
                  Stake Evolution (ABI)
                </h3>
                <div className="h-[240px]">
-                 <StakeTrendChart data={stakeEvolution} />
+                 <Suspense fallback={<ChartFallback className="h-full" />}>
+                   <StakeTrendChart data={stakeEvolution} />
+                 </Suspense>
                </div>
             </div>
           </div>
 
-          <CareerDashboard stats={stats} profitHistory={profitHistory} />
+          <Suspense fallback={<ChartFallback className="h-[300px]" />}>
+            <CareerDashboard stats={stats} profitHistory={profitHistory} />
+          </Suspense>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2 space-y-6">
@@ -464,7 +477,9 @@ export function CareerPage() {
                  </p>
                </div>
 
-               <DayHourHeatmap tournaments={tournaments} />
+               <Suspense fallback={<ChartFallback className="h-[260px]" />}>
+                 <DayHourHeatmap tournaments={tournaments} />
+               </Suspense>
             </div>
           </div>
         </div>

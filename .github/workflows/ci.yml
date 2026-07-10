@@ -38,8 +38,14 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Privacy boundary check
+        run: npm run privacy:check
+
       - name: Tests
         run: npm test
 
       - name: Build
         run: npm run build
+
+      - name: Bundle budget
+        run: npm run check:bundle-budget

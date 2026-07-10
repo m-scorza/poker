@@ -1,6 +1,5 @@
 import { Sidebar } from './Sidebar';
-import { CommandPalette } from '../shared/CommandPalette';
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { getHeroName } from '../../data/store';
 import { useAppStore } from '../../data/appStore';
 import { Loader2 } from 'lucide-react';
@@ -39,6 +38,10 @@ const HALO_CSS = `
 
 const HALO_TARGETS =
   'a, button, [role="button"], input, select, textarea, label, .stat-trigger, .seat-btn, .mc, .card.lift, .tab-menu button, .sw';
+
+const CommandPalette = lazy(() =>
+  import('../shared/CommandPalette').then((m) => ({ default: m.CommandPalette })),
+);
 
 function CursorHalo() {
   useEffect(() => {
@@ -96,16 +99,34 @@ function CursorHalo() {
 
 export function Layout() {
   const { setHeroName, isSeedingDemo, demoProgressMessage } = useAppStore();
+  const [paletteOpen, setPaletteOpen] = useState(false);
+  const [paletteMounted, setPaletteMounted] = useState(false);
 
   useEffect(() => {
     getHeroName().then(setHeroName);
   }, [setHeroName]);
 
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setPaletteMounted(true);
+        setPaletteOpen((o) => !o);
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, []);
+
   return (
     <>
       <div className="dots" />
       <CursorHalo />
-      <CommandPalette />
+      {paletteMounted && (
+        <Suspense fallback={null}>
+          <CommandPalette open={paletteOpen} onOpenChange={setPaletteOpen} />
+        </Suspense>
+      )}
       <div className="relative z-10 flex min-h-screen">
         <Sidebar />
         <main className="flex-1 pb-20 md:pb-6 md:ml-56 p-4 md:p-6 md:pt-16 transition-all">

@@ -85,14 +85,24 @@ export function buildCoachsNote(input: CoachsNoteInput): CoachsNote {
 
   // Receipts: a deviation/loss item already carries leak-specific losing hands;
   // an aggregate-stat leak item does not, so fall back to the proof-hand ranker.
-  // That ranker only ranks *losing* hands, so a pure frequency leak yields an
-  // empty list — which we surface honestly instead of fabricating a hand.
+  // For that fallback we require the hand to actually match the leak's mechanism
+  // (clarity), so we never present an unrelated big-loss hand as "proof". A
+  // frequency-only leak (or one with no per-hand mechanism) yields an empty
+  // list — which we surface honestly instead of fabricating a hand.
   let receipts: ReceiptHand[];
   if (top.handIds.length > 0) {
     receipts = top.handIds.slice(0, MAX_RECEIPTS).map((handId) => ({ handId, reasons: [] }));
   } else {
     const leakId = top.id.replace(/^leak-/, '');
-    receipts = selectProofHands({ decisions, hands, leakId, limit: MAX_RECEIPTS, now }).map((pick) => ({
+    receipts = selectProofHands({
+      decisions,
+      hands,
+      leakId,
+      evidenceKind: top.evidence.trust.kind,
+      requireClarity: true,
+      limit: MAX_RECEIPTS,
+      now,
+    }).map((pick) => ({
       handId: pick.handId,
       reasons: pick.reasons,
     }));

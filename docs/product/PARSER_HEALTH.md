@@ -1,7 +1,7 @@
 # Parser Health - Fixture Sweep
 
 **Last verified:** 2026-06-05
-**Branch/worktree:** `codex/ohh-fixture-sweep` at `C:\Users\MICRO\OneDrive\Documentos\GitHub\poker`
+**Branch/worktree:** `codex/ohh-fixture-sweep` at `C:\dev\poker`
 **Purpose:** publish exact parser fixture pass / skip / fail numbers so product decisions are based on measured parser health rather than vibes.
 
 ## Commands run

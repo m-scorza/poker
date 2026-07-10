@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { buildCareerScopeProfile } from '../careerScope';
+import { computeLifetimeRoi } from '../careerStats';
+import { buildCareerCoachReport } from '../careerCoach';
 import type { Tournament } from '../../types/hand';
 
 function tournament(index: number, overrides: Partial<Tournament> = {}): Tournament {
@@ -82,5 +84,21 @@ describe('buildCareerScopeProfile', () => {
     expect(profile.totalRake).toBe(0.5);
     expect(profile.totalCashes).toBe(12);
     expect(profile.totalProfit).toBe(6.5);
+  });
+
+  it('excludes cash freerolls (buyIn=0) from total ROI while keeping their prize in net profit', () => {
+    const freeroll = tournament(1, { buyIn: 0, fee: 0, prize: 5, finishPosition: 1 });
+    const cashBust = tournament(2, { buyIn: 10, fee: 1, prize: 0 });
+    const portfolio = [freeroll, cashBust];
+
+    const profile = buildCareerScopeProfile(portfolio);
+
+    // ROI drops the zero-cost freeroll: only the $11 loss counts -> -100%.
+    expect(profile.totalRoi).toBeCloseTo(-100, 5);
+    // Prize stays in net profit: 5 - 11 = -6.
+    expect(profile.totalProfit).toBeCloseTo(-6, 5);
+    // All three career ROI surfaces agree.
+    expect(profile.totalRoi).toBeCloseTo(computeLifetimeRoi(portfolio), 5);
+    expect(profile.totalRoi).toBeCloseTo(buildCareerCoachReport(portfolio, [], []).roi, 5);
   });
 });
