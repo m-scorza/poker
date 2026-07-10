@@ -111,7 +111,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
         <div className="space-y-6">
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             <MetricTile label="Total ROI" value={pct(profile.totalRoi, true)} detail={`${money(profile.totalProfit, true)} net`} icon={<Percent size={15} />} accent={isProfitable ? 'green' : 'rose'} />
-            <MetricTile label="Average ROI" value={pct(profile.averageRoi, true)} detail="Mean ROI per tournament" icon={<BarChart3 size={15} />} accent={profile.averageRoi >= 0 ? 'green' : 'rose'} />
+            <MetricTile label="Average ROI" value={pct(profile.averageRoi, true)} detail={profile.freerollsExcluded > 0 ? `Mean ROI per tournament (${profile.freerollsExcluded} freeroll${profile.freerollsExcluded === 1 ? '' : 's'} excluded, ${money(profile.freerollProfit)} won)` : 'Mean ROI per tournament'} icon={<BarChart3 size={15} />} accent={profile.averageRoi >= 0 ? 'green' : 'rose'} />
             <MetricTile label="ABI" value={`$${profile.averageStake.toFixed(2)}`} detail={`Stake $${profile.totalStake.toFixed(2)} · rake $${profile.totalRake.toFixed(2)}`} icon={<Activity size={15} />} />
             <MetricTile label="Activity" value={`${profile.gamesPerActiveDay.toFixed(1)}/day`} detail={`${profile.activeDays} active days · peak ${profile.mostGamesInDay}`} icon={<CalendarDays size={15} />} />
           </div>

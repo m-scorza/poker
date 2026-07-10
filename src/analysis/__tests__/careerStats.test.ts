@@ -118,16 +118,16 @@ describe('careerStats helpers', () => {
   });
 
   describe('cash freeroll ROI consistency (buyIn=0, prize>0)', () => {
-    // A cash-currency freeroll (no buy-in) plus one busted $10+$1 entry. ROI is
-    // undefined for the zero-cost freeroll, so every career surface drops it and
-    // reports the $11 loss alone: -100%. The $5 freeroll prize still lands in
-    // net-profit totals rather than being discarded.
+    // A cash-currency freeroll (no buy-in) plus one busted $10+$1 entry. The
+    // freeroll costs exactly $0, so in the pooled ratio it only adds its $5
+    // prize to totalNet without touching the denominator: totalNet -6 over
+    // totalCost 11 = -54.55%. The prize is never discarded.
     const freeroll = makeTourney({ id: 'fr', buyIn: 0, fee: 0, prize: 5, finishPosition: 1, startDate: new Date('2026-05-01') });
     const cashBust = makeTourney({ id: 'cb', buyIn: 10, fee: 1, prize: 0, startDate: new Date('2026-05-02') });
     const portfolio = [freeroll, cashBust];
 
-    it('excludes the freeroll from lifetime ROI', () => {
-      expect(computeLifetimeRoi(portfolio)).toBeCloseTo(-100, 5);
+    it('includes the freeroll prize in lifetime ROI', () => {
+      expect(computeLifetimeRoi(portfolio)).toBeCloseTo((-6 / 11) * 100, 5);
     });
 
     it('agrees across lifetime, coach, and scope ROI', () => {
@@ -135,11 +135,11 @@ describe('careerStats helpers', () => {
       const coach = buildCareerCoachReport(portfolio, [], []);
       const scope = buildCareerScopeProfile(portfolio);
 
-      expect(lifetime).toBeCloseTo(-100, 5);
+      expect(lifetime).toBeCloseTo((-6 / 11) * 100, 5);
       expect(coach.roi).toBeCloseTo(lifetime, 5);
       expect(scope.totalRoi).toBeCloseTo(lifetime, 5);
 
-      // The freeroll prize is reclassified into net profit, not dropped.
+      // The freeroll prize lands in net profit as well.
       expect(coach.trackedProfit).toBeCloseTo(-6, 5);
       expect(scope.totalProfit).toBeCloseTo(-6, 5);
     });

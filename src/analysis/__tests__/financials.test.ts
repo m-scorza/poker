@@ -54,11 +54,20 @@ describe('financials', () => {
     expect(hasTournamentCash(tournament({ prize: 0, bounty: 0 }))).toBe(false);
   });
 
-  it('computes ROI over positive-cost cash entries and excludes true zero-cost freerolls', () => {
+  it('includes zero-cost freeroll profit in the pooled ROI (it adds $0 to the denominator)', () => {
     const feeOnlyEntry = tournament({ buyIn: 0, fee: 1, prize: 3 });
     const zeroCostFreeroll = tournament({ buyIn: 0, fee: 0, prize: 50 });
 
-    expect(computeRoiPct([feeOnlyEntry, zeroCostFreeroll])).toBeCloseTo(200, 5);
+    // Pooled: totalCost = 1 (+0 from the freeroll), totalNet = (3-1) + 50 = 52.
+    // The freeroll's $50 is real profit and must not be discarded -> 5200%.
+    expect(computeRoiPct([feeOnlyEntry, zeroCostFreeroll])).toBeCloseTo(5200, 5);
+  });
+
+  it('returns 0 for an all-freeroll portfolio (no real investment, ROI undefined)', () => {
+    const wonFreeroll = tournament({ buyIn: 0, fee: 0, prize: 50 });
+    const bustedFreeroll = tournament({ buyIn: 0, fee: 0, prize: 0 });
+
+    expect(computeRoiPct([wonFreeroll, bustedFreeroll])).toBe(0);
   });
 
   it('avoids float drift when summing many PKO-style tournaments', () => {

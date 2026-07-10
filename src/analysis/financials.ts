@@ -30,14 +30,18 @@ export function hasTournamentCash(tournament: Tournament): boolean {
 /**
  * Aggregate ROI% shared by every career surface (lifetime, coach, scope).
  *
- * ROI is a return on *investment*, so it is only defined for real-money entries
- * with a positive cost. Cash-currency freerolls (buyIn = 0, real prize) are
- * excluded: their prize is genuine profit but folding it into an ROI ratio with
- * a zero-cost denominator silently inflates the figure. Freerolls still count
- * toward net-profit and volume stats elsewhere — only the ROI% ratio drops them.
+ * This is a *pooled* ratio — totalNet / totalCost summed across every cash
+ * tournament at once — not a mean of per-tournament ratios. A cash-currency
+ * freeroll (buyIn = 0, real prize) contributes exactly $0 to totalCost, so
+ * including it leaves the denominator untouched while keeping its prize in
+ * totalNet where it belongs. Excluding it would silently discard real profit
+ * for no mathematical gain, so every cash entry is processed uniformly.
+ *
+ * The `totalCost <= 0` guard still handles the genuine edge case of a portfolio
+ * that is 100% freerolls: with no real investment anywhere, ROI is undefined.
  */
 export function computeRoiPct(tournaments: Tournament[]): number {
-  const eligible = tournaments.filter((t) => isCashTournamentCurrency(t) && getTournamentCost(t) > 0);
+  const eligible = tournaments.filter(isCashTournamentCurrency);
   const totalCost = sumUsd(eligible.map(getTournamentCost));
   if (totalCost <= 0) return 0;
   const totalNet = sumUsd(eligible.map(getTournamentNet));
