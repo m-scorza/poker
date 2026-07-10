@@ -607,4 +607,118 @@ describe('ArenaPage drill start behavior', () => {
     expect(screen.getByText('BB_VS_RAISE'.replace('_', ' '))).toBeInTheDocument();
     expect(screen.queryByText('RFI')).not.toBeInTheDocument();
   });
+
+  it('fault_fixer grades a compliant fold as correct and advances to a new pool spot', async () => {
+    // Both spots are out-of-range opens, so both land in the fault_fixer pool.
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'f1', position: 'UTG', handKey: '72o', scenario: 'RFI', action: 'raise', stackBb: 30, isCompliant: false }),
+      decision({ handId: 'f2', position: 'CO', handKey: '32o', scenario: 'RFI', action: 'raise', stackBb: 30, isCompliant: false }),
+    ]);
+    const randomSpy = vi.spyOn(Math, 'random').mockReturnValue(0);
+
+    render(<ArenaPage />);
+    fireEvent.click(await screen.findByRole('button', { name: /Fault Fixer/i }));
+
+    expect(await screen.findByText('UTG')).toBeInTheDocument();
+
+    vi.useFakeTimers();
+    fireEvent.click(screen.getByRole('button', { name: 'Fold' }));
+
+    expect(screen.getByText('CORRECT')).toBeInTheDocument();
+    expect(screen.getByText('1 / 1')).toBeInTheDocument();
+
+    randomSpy.mockReturnValue(0.9);
+    await act(async () => {
+      vi.advanceTimersByTime(2000);
+    });
+    vi.useRealTimers();
+
+    await waitFor(() => expect(screen.getByText('CO')).toBeInTheDocument());
+  });
+
+  it('fault_fixer flags an out-of-range raise as a deviation naming the correct action', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'f1', position: 'UTG', handKey: '72o', scenario: 'RFI', action: 'raise', stackBb: 30, isCompliant: false }),
+    ]);
+    vi.spyOn(Math, 'random').mockReturnValue(0);
+
+    render(<ArenaPage />);
+    fireEvent.click(await screen.findByRole('button', { name: /Fault Fixer/i }));
+    expect(await screen.findByText('UTG')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: 'Raise' }));
+
+    expect(await screen.findByText('DEVIATION')).toBeInTheDocument();
+    expect(screen.getByText(/prefers FOLD/i)).toBeInTheDocument();
+    expect(screen.getByText('0 / 1')).toBeInTheDocument();
+  });
+
+  it('rfi_master grades a compliant open as correct and advances to a new pool spot', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'r1', position: 'UTG', handKey: 'AKs', scenario: 'RFI', action: 'raise', stackBb: 30, isCompliant: true }),
+      decision({ handId: 'r2', position: 'SB', handKey: 'AKs', scenario: 'BLIND_WAR', action: 'raise', stackBb: 30, isCompliant: true }),
+    ]);
+    const randomSpy = vi.spyOn(Math, 'random').mockReturnValue(0);
+
+    render(<ArenaPage />);
+    fireEvent.click(await screen.findByRole('button', { name: /RFI Master/i }));
+
+    expect(await screen.findByText('UTG')).toBeInTheDocument();
+
+    vi.useFakeTimers();
+    fireEvent.click(screen.getByRole('button', { name: 'Raise' }));
+
+    expect(screen.getByText('CORRECT')).toBeInTheDocument();
+    expect(screen.getByText('1 / 1')).toBeInTheDocument();
+
+    randomSpy.mockReturnValue(0.9);
+    await act(async () => {
+      vi.advanceTimersByTime(2000);
+    });
+    vi.useRealTimers();
+
+    await waitFor(() => expect(screen.getByText('SB')).toBeInTheDocument());
+  });
+
+  it('rfi_master flags an out-of-range open as a deviation naming the correct action', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'r1', position: 'UTG', handKey: '72o', scenario: 'RFI', action: 'raise', stackBb: 30, isCompliant: false }),
+    ]);
+    vi.spyOn(Math, 'random').mockReturnValue(0);
+
+    render(<ArenaPage />);
+    fireEvent.click(await screen.findByRole('button', { name: /RFI Master/i }));
+    expect(await screen.findByText('UTG')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: 'Raise' }));
+
+    expect(await screen.findByText('DEVIATION')).toBeInTheDocument();
+    expect(screen.getByText(/prefers FOLD/i)).toBeInTheDocument();
+    expect(screen.getByText('0 / 1')).toBeInTheDocument();
+  });
+
+  it('opens the not-enough-data dialog when Fault Fixer has no eligible deviations', async () => {
+    // A compliant CO AKs open is not a fault, so the fault_fixer pool is empty.
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'ok', position: 'CO', handKey: 'AKs', scenario: 'RFI', action: 'raise', isCompliant: true }),
+    ]);
+
+    render(<ArenaPage />);
+    fireEvent.click(await screen.findByRole('button', { name: /Fault Fixer/i }));
+
+    expect(await screen.findByRole('dialog', { name: 'Not enough data' })).toBeInTheDocument();
+    expect(screen.getByText(/No Fault Fixer spots are available yet/i)).toBeInTheDocument();
+  });
+
+  it('opens the not-enough-data dialog when RFI Master has no RFI or blind-war spots', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([
+      decision({ handId: 'facing', position: 'BB', handKey: 'QJs', scenario: 'BB_VS_RAISE', action: 'fold' }),
+    ]);
+
+    render(<ArenaPage />);
+    fireEvent.click(await screen.findByRole('button', { name: /RFI Master/i }));
+
+    expect(await screen.findByRole('dialog', { name: 'Not enough data' })).toBeInTheDocument();
+    expect(screen.getByText(/No RFI Master spots are available yet/i)).toBeInTheDocument();
+  });
 });
