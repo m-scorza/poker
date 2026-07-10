@@ -37,7 +37,7 @@ export function hasTournamentCash(tournament: Tournament): boolean {
  * toward net-profit and volume stats elsewhere — only the ROI% ratio drops them.
  */
 export function computeRoiPct(tournaments: Tournament[]): number {
-  const eligible = tournaments.filter((t) => isCashTournamentCurrency(t) && t.buyIn > 0);
+  const eligible = tournaments.filter((t) => isCashTournamentCurrency(t) && getTournamentCost(t) > 0);
   const totalCost = sumUsd(eligible.map(getTournamentCost));
   if (totalCost <= 0) return 0;
   const totalNet = sumUsd(eligible.map(getTournamentNet));
