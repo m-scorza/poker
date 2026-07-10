@@ -103,7 +103,7 @@ void main() {
 
   // data tint: only in the denser ink, and even then barely. Never violet.
   vec3 tint = uBias >= 0.0 ? uMoney : uLoss;
-  float tintAmt = clamp(v - 0.25, 0.0, 1.0) * abs(uBias) * (0.10 + 0.14 * uIntensity);
+  float tintAmt = clamp(v - 0.15, 0.0, 1.0) * abs(uBias) * (0.18 + 0.22 * uIntensity);
   ink = mix(ink, tint, tintAmt);
 
   // soft vignette harmonizes with the dot-grid radial mask
