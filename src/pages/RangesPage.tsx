@@ -427,7 +427,7 @@ export function RangesPage() {
             With a stack of 10bb or less, the standard strategy is all-in or fold.
             This is the push range for <span className="font-mono font-bold">{selectedPos}</span>.
           </p>
-          <div className="inner-rule">
+          <div>
             Source: [Vol.2, NERD] — docs/knowledge/strategy/02-ranges-and-position.md §4
           </div>
         </div>
@@ -461,7 +461,7 @@ function RangeValidatorPanel() {
           <span>RFI: <span className="font-mono font-bold text-[var(--fg)]">{validation.rfi.score}%</span></span>
           <span>Push/Fold: <span className="font-mono font-bold text-[var(--fg)]">{validation.push.score}%</span></span>
         </div>
-        <div className="inner-rule mt-2">
+        <div className="mt-2">
           Comparison of local ranges against documented chipEV reference baselines.
         </div>
       </div>

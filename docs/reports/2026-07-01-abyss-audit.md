@@ -328,7 +328,7 @@ conflicts.
       Wave 2 execution instructions actually given); revisit separately.
       Full gate green: docs:check, typecheck, typecheck:test, lint (0
       warnings), test (851/851), build.
-- [ ] **Wave 3 — efficiency:** F11 (lazy PDF stack — biggest bundle win), F12
+- [x] **Wave 3 — efficiency:** F11 (lazy PDF stack — biggest bundle win), F12
       (one animation library), F13 (chunk audit), F14 (memoize equity), F15
       (store micro-batch), F16 (node-env test split — biggest CI win). **New
       per the 2026-07-09 health review**
@@ -355,9 +355,26 @@ conflicts.
       **F12 steered 2026-07-09: DEFER** — gsap is verified confined to the
       lazy dashboard chunk, so the parallel-library cost is contained; the
       convergence port is revisited if/when Wave 4 touches those four
-      components. F13 dispatched same day.
+      components. F13 dispatched same day. **✅ CLOSED 2026-07-10:** F13 landed
+      via #142 (React.lazy on the five recharts-heavy career components:
+      CareerPage route chunk 443.9 → 53.3 KB; jspdf vendor + pdfExport chunks
+      excluded from the PWA precache: 85 entries/2 557 KiB → 80/1 765 KiB —
+      this also closes the "jspdf remains in the PWA precache" scope note
+      above). With F11/F14/F15/F16 landed in #136, the bundle budget in CI,
+      and F12 steered DEFER, every item in this wave is landed or steered.
+      Verified by the 2026-07-10 health review: shell 376.5 KB, budget guard
+      green at 432 KiB.
 - [ ] **Wave 4 — beauty:** F17 (token unification), F18 (nine clones), F19
       (god-file decomposition), F21, F24, F25, F26, F28, F29 (§7 addendum); add
-      §6 util tests as files are touched.
+      §6 util tests as files are touched. **PARTIAL — landed 2026-07-09 via
+      #141:** F21 ✅ (canonical rank-order util `src/utils/cards.ts` consumed
+      by pokerstars/postflopAnalyzer/handKey/headsUpPushFoldReference), F26 ✅
+      (byte-identical `isBroadway` dropped, vestigial sizing ternary struck,
+      `spot: 'NONE'` renamed `FACING_BET_INFO` with a read-boundary
+      normalization in HandReplay for legacy IndexedDB rows), F28 ✅
+      (unreachable BTN/SB guards collapsed; zero-pot flop sizing now honestly
+      skipped instead of measured against the final pot), F29 ✅ (suit-keyed
+      monotone textures collapsed to `monotone_high`). **Still open:** F17,
+      F18, F19, F24, F25, §6 util tests.
 - [ ] Flip this report `resolved` + archive when the waves land (or when the
       owner strikes remaining items as won't-fix).
