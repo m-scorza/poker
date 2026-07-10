@@ -26,3 +26,20 @@ export function getTournamentNet(tournament: Tournament): number {
 export function hasTournamentCash(tournament: Tournament): boolean {
   return isCashTournamentCurrency(tournament) && getTournamentRevenue(tournament) > 0;
 }
+
+/**
+ * Aggregate ROI% shared by every career surface (lifetime, coach, scope).
+ *
+ * ROI is a return on *investment*, so it is only defined for real-money entries
+ * with a positive cost. Cash-currency freerolls (buyIn = 0, real prize) are
+ * excluded: their prize is genuine profit but folding it into an ROI ratio with
+ * a zero-cost denominator silently inflates the figure. Freerolls still count
+ * toward net-profit and volume stats elsewhere — only the ROI% ratio drops them.
+ */
+export function computeRoiPct(tournaments: Tournament[]): number {
+  const eligible = tournaments.filter((t) => isCashTournamentCurrency(t) && t.buyIn > 0);
+  const totalCost = sumUsd(eligible.map(getTournamentCost));
+  if (totalCost <= 0) return 0;
+  const totalNet = sumUsd(eligible.map(getTournamentNet));
+  return (totalNet / totalCost) * 100;
+}

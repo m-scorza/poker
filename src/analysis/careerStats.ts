@@ -1,5 +1,5 @@
 import type { Tournament } from '../types/hand';
-import { getTournamentNet, getTournamentCost, getTournamentRevenue, isCashTournamentCurrency, hasTournamentCash } from './financials';
+import { getTournamentNet, getTournamentCost, getTournamentRevenue, hasTournamentCash, computeRoiPct } from './financials';
 import { sumUsd } from '../parser/money';
 
 export interface BustOutBucket {
@@ -268,16 +268,9 @@ export function estimateHourlyRate(tournaments: Tournament[]): number {
  * Lifetime ROI over cash-buy-in tournaments, using the *full* entry cost
  * (buy-in + fee) as the basis: (revenue − buyin − fee) / (buyin + fee).
  *
- * The previous "rake-adjusted ROI" divided profit by the buy-in only and left
- * the fee out of the cost entirely, which inflated the figure (it ignored the
- * rake it claimed to adjust for). Real ROI must include the fee paid.
+ * Delegates to the shared {@link computeRoiPct} so lifetime, coach, and scope
+ * ROI can never drift apart again (cash freerolls excluded, fee included).
  */
 export function computeLifetimeRoi(tournaments: Tournament[]): number {
-  const cashTournaments = tournaments.filter(t => isCashTournamentCurrency(t) && t.buyIn > 0);
-  if (cashTournaments.length === 0) return 0;
-
-  const totalCost = sumUsd(cashTournaments.map(getTournamentCost));
-  const totalNet = sumUsd(cashTournaments.map(getTournamentNet));
-
-  return totalCost > 0 ? (totalNet / totalCost) * 100 : 0;
+  return computeRoiPct(tournaments);
 }
