@@ -5,6 +5,7 @@ import {
   getTournamentRevenue,
   hasTournamentCash,
   isCashTournamentCurrency,
+  computeRoiPct,
 } from '../financials';
 import type { Tournament } from '../../types/hand';
 
@@ -51,6 +52,13 @@ describe('financials', () => {
 
   it('hasTournamentCash is false when revenue is zero', () => {
     expect(hasTournamentCash(tournament({ prize: 0, bounty: 0 }))).toBe(false);
+  });
+
+  it('computes ROI over positive-cost cash entries and excludes true zero-cost freerolls', () => {
+    const feeOnlyEntry = tournament({ buyIn: 0, fee: 1, prize: 3 });
+    const zeroCostFreeroll = tournament({ buyIn: 0, fee: 0, prize: 50 });
+
+    expect(computeRoiPct([feeOnlyEntry, zeroCostFreeroll])).toBeCloseTo(200, 5);
   });
 
   it('avoids float drift when summing many PKO-style tournaments', () => {

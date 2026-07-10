@@ -248,7 +248,7 @@ export function detectLeaks(
   const pfr = pct(stats.pfrHands, stats.totalHands);
   const cbetTotal = pct(stats.cbetMade, stats.cbetOpps);
   const cbetHU = pct(stats.cbetHUMade, stats.cbetHUOpps);
-  const wtsd = stats.sawFlopHands > 0 ? pct(stats.wtsdHands, stats.sawFlopHands) : 0;
+  const wtsd = stats.vpipHands > 0 ? pct(stats.wtsdHands, stats.vpipHands) : 0;
   const wonSD = pct(stats.wonSDHands, stats.wtsdHands);
   const limpPct = pct(stats.limpHands, stats.totalHands);
   const compliance = pct(stats.complianceCompliant, stats.complianceEligible);
