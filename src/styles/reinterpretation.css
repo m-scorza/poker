@@ -32,6 +32,11 @@ body[data-shell] {
   --felt: #121215; --felt-rail: #1c1c21;
   --shadow-card: 0 10px 36px rgba(0, 0, 0, 0.45);
 
+  /* type voice — the Ledger trio, self-hosted via @fontsource (D15) */
+  --display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', system-ui, sans-serif;
+  --sans: 'Hanken Grotesk', system-ui, sans-serif;
+  --mono: 'Space Mono', ui-monospace, monospace;
+
   /* aliases — migrated components use tokens.css/Tailwind naming convention */
   --money: var(--accent-2);
   --money-soft: rgba(52, 217, 140, 0.10);
@@ -54,22 +59,17 @@ body[data-sig="off"] {
   --sig-glow: rgba(201, 205, 214, 0.20); --sig-line: rgba(201, 205, 214, 0.36);
 }
 
-/* ---------- TYPE VOICE (key T — cycles 3) ---------- */
-/* ledger  = Bricolage / Hanken / Space Mono (theme.css default)
-   neutral = Inter / Inter / JetBrains
-   hybrid  = Bricolage display on Inter body + JetBrains data */
-body[data-font="neutral"] {
-  --display: 'Inter', system-ui, sans-serif;
-  --sans: 'Inter', system-ui, sans-serif;
-  --mono: 'JetBrains Mono', ui-monospace, monospace;
+/* ---------- TYPE VOICE ---------- */
+/* D15 collapsed the type decision: the Ledger trio (Bricolage / Hanken /
+   Space Mono) wins on every surface, so the legacy [T] states resolve to it. */
+body[data-font="neutral"],
+body[data-font="hybrid"] {
+  --display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', system-ui, sans-serif;
+  --sans: 'Hanken Grotesk', system-ui, sans-serif;
+  --mono: 'Space Mono', ui-monospace, monospace;
 }
 body[data-font="neutral"] .mon-num,
 body[data-font="neutral"] .desk-title { letter-spacing: -0.035em; }
-body[data-font="hybrid"] {
-  --display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', system-ui, sans-serif;
-  --sans: 'Inter', system-ui, sans-serif;
-  --mono: 'JetBrains Mono', ui-monospace, monospace;
-}
 
 /* ---------- BACKGROUND · quiet dot grid ---------- */
 .glow-orb { display: none; }

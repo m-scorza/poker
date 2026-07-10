@@ -20,8 +20,10 @@ import { buildCoachsNote } from '../analysis/coachsNote';
 import { detectTilt } from '../analysis/tiltDetector';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
 import { Folio } from '../components/blackout/Folio';
+import { FolioSection } from '../components/blackout/FolioSection';
 import { HonestyStrip } from '../components/blackout/HonestyStrip';
 import { Ticker, type TickerItem } from '../components/blackout/Ticker';
+import { TitleReveal } from '../components/blackout/TitleReveal';
 import { readStarterDiagnosticSummary } from '../data/starterDiagnostic';
 import { MindsetCard } from '../components/coach/MindsetCard';
 
@@ -51,25 +53,6 @@ function diagnosticPatternSummary(area: { misses: number; attempts: number }): s
 }
 
 const todayStamp = new Date().toISOString().slice(0, 10);
-
-type HeadlineSeg = { t: string; stroke?: boolean };
-
-/** A monumental title split into overflow-hidden rows that rise on load; one
- *  word carries the outline stroke (BLACKOUT signature 2). Decorative — the
- *  accessible page heading is the visually-hidden <h1> below it. */
-function Headline({ rows }: { rows: HeadlineSeg[][] }) {
-  return (
-    <div className="bk-hl" aria-hidden="true">
-      {rows.map((row, ri) => (
-        <span className="row" key={ri}>
-          <i>
-            {row.map((seg, si) => (seg.stroke ? <em key={si}>{seg.t}</em> : <span key={si}>{seg.t}</span>))}
-          </i>
-        </span>
-      ))}
-    </div>
-  );
-}
 
 export function CoachsNotePage() {
   const { strategyProfile } = useAppStore();
@@ -159,13 +142,13 @@ export function CoachsNotePage() {
         <div className="bk-hero-main">
           <div className="bk-kicker">The Coach&apos;s Note — your single most important thing</div>
           {note === undefined ? (
-            <Headline rows={[[{ t: 'Reading' }], [{ t: 'your ' }, { t: 'hands', stroke: true }, { t: '…' }]]} />
+            <TitleReveal rows={[[{ t: 'Reading' }], [{ t: 'your ' }, { t: 'hands', stroke: true }, { t: '…' }]]} />
           ) : note.kind === 'insufficient_data' ? (
-            <Headline rows={[[{ t: 'Not enough' }], [{ t: 'hands to' }], [{ t: 'read ', stroke: true }, { t: 'yet.' }]]} />
+            <TitleReveal rows={[[{ t: 'Not enough' }], [{ t: 'hands to' }], [{ t: 'read ', stroke: true }, { t: 'yet.' }]]} />
           ) : note.kind === 'all_clear' ? (
-            <Headline rows={[[{ t: 'No single' }], [{ t: 'leak ' }, { t: 'stands', stroke: true }], [{ t: 'out.' }]]} />
+            <TitleReveal rows={[[{ t: 'No single' }], [{ t: 'leak ' }, { t: 'stands', stroke: true }], [{ t: 'out.' }]]} />
           ) : (
-            <Headline rows={[[{ t: 'One leak' }], [{ t: 'is ' }, { t: 'costing', stroke: true }, { t: ' you.' }]]} />
+            <TitleReveal rows={[[{ t: 'One leak' }], [{ t: 'is ' }, { t: 'costing', stroke: true }, { t: ' you.' }]]} />
           )}
           <h1 className="sr-only">Coach&apos;s Note</h1>
           <p className="bk-hero-sub">
@@ -231,67 +214,71 @@ export function CoachsNotePage() {
       )}
 
       {/* ---- Folio 01 · The focus ---- */}
-      <Folio index="01" title="The focus" tag="Diagnose → Drill → Re-measure" />
+      <FolioSection>
+        <Folio index="01" title="The focus" tag="Diagnose → Drill → Re-measure" />
 
-      {note === undefined ? (
-        <div className="border border-[var(--border)] bg-[var(--bg-2)] p-8 text-[var(--fg-muted)]">Reading your hands…</div>
-      ) : note.kind === 'insufficient_data' ? (
-        <div className="border border-[var(--border)] bg-[var(--bg-2)] p-8">
-          <div className="font-[family-name:var(--display)] text-xl font-bold text-[var(--fg)]">Not enough hands yet</div>
-          <p className="mt-2 max-w-2xl text-sm text-[var(--fg-muted)]">{note.message}</p>
-          <Link to="/hands" className="bk-cta mt-6"><span>Import hands</span> <span className="arr">→</span></Link>
-        </div>
-      ) : note.kind === 'all_clear' ? (
-        <div className="border border-[var(--money-line)] bg-[var(--bg-2)] p-8">
-          <div className="bk-case-kick" style={{ color: 'var(--money)' }}>No major leaks</div>
-          <div className="mt-3 font-[family-name:var(--display)] text-3xl font-bold text-[var(--fg)]">No single leak stands out.</div>
-          <p className="mt-3 max-w-2xl text-sm text-[var(--fg-muted)]">{note.message}</p>
-          <p className="mt-3 text-xs text-[var(--fg-dim)]">{note.handsAnalyzed} decisions analysed.</p>
-        </div>
-      ) : (
-        <section className="bk-case" data-sev={note.focus.severity} data-ribbon={SEVERITY_META[note.focus.severity].label}>
-          <div className="bk-case-l">
-            <div className="bk-case-kick" style={{ color: SEVERITY_COLOR[SEVERITY_META[note.focus.severity].cls] }}>
-              X-ray focus · {CONFIDENCE_LABEL[note.focus.confidence]}
-            </div>
-            <h3>{note.focus.leakTitle}</h3>
-            <p>{note.focus.explanation}</p>
-            <div className="bk-case-stats">
-              {note.focus.estimatedBbLoss !== null && (
-                <div className="cost"><b>~{note.focus.estimatedBbLoss.toFixed(1)} bb</b><span>est. cost</span></div>
-              )}
-              {refMatch !== null && (
-                <div><b>{refMatch.toFixed(1)}%</b><span>reference match</span></div>
-              )}
-              <div><b>{note.handsAnalyzed}</b><span>decisions</span></div>
-            </div>
+        {note === undefined ? (
+          <div className="border border-[var(--border)] bg-[var(--bg-2)] p-8 text-[var(--fg-muted)]">Reading your hands…</div>
+        ) : note.kind === 'insufficient_data' ? (
+          <div className="border border-[var(--border)] bg-[var(--bg-2)] p-8">
+            <div className="font-[family-name:var(--display)] text-xl font-bold text-[var(--fg)]">Not enough hands yet</div>
+            <p className="mt-2 max-w-2xl text-sm text-[var(--fg-muted)]">{note.message}</p>
+            <Link to="/hands" className="bk-cta mt-6"><span>Import hands</span> <span className="arr">→</span></Link>
           </div>
-          <div className="bk-case-r">
-            <div className="k">The receipts — costliest hands in this pattern</div>
-            {note.noDecisiveHand ? (
-              <p className="text-sm leading-relaxed text-[var(--fg-muted)]">
-                This is a frequency pattern — no single hand is decisive. Review the spot across your hands rather than one cooler.
-              </p>
-            ) : (
-              note.receipts.map((r) => (
-                <div className="bk-receipt" key={r.handId}>
-                  <span>#{r.handId}</span>
-                  {r.reasons.length > 0 && <span className="why">{r.reasons.join(' · ')}</span>}
-                </div>
-              ))
-            )}
-            <p className="mt-5 text-xs text-[var(--fg-dim)]">{note.drillCta}</p>
-            <Link to="/arena" className="bk-cta">
-              Open Drills <span className="arr">→</span>
-            </Link>
+        ) : note.kind === 'all_clear' ? (
+          <div className="border border-[var(--money-line)] bg-[var(--bg-2)] p-8">
+            <div className="bk-case-kick" style={{ color: 'var(--money)' }}>No major leaks</div>
+            <div className="mt-3 font-[family-name:var(--display)] text-3xl font-bold text-[var(--fg)]">No single leak stands out.</div>
+            <p className="mt-3 max-w-2xl text-sm text-[var(--fg-muted)]">{note.message}</p>
+            <p className="mt-3 text-xs text-[var(--fg-dim)]">{note.handsAnalyzed} decisions analysed.</p>
           </div>
-        </section>
-      )}
+        ) : (
+          <section className="bk-case" data-sev={note.focus.severity} data-ribbon={SEVERITY_META[note.focus.severity].label}>
+            <div className="bk-case-l">
+              <div className="bk-case-kick" style={{ color: SEVERITY_COLOR[SEVERITY_META[note.focus.severity].cls] }}>
+                X-ray focus · {CONFIDENCE_LABEL[note.focus.confidence]}
+              </div>
+              <h3>{note.focus.leakTitle}</h3>
+              <p>{note.focus.explanation}</p>
+              <div className="bk-case-stats">
+                {note.focus.estimatedBbLoss !== null && (
+                  <div className="cost"><b>~{note.focus.estimatedBbLoss.toFixed(1)} bb</b><span>est. cost</span></div>
+                )}
+                {refMatch !== null && (
+                  <div><b>{refMatch.toFixed(1)}%</b><span>reference match</span></div>
+                )}
+                <div><b>{note.handsAnalyzed}</b><span>decisions</span></div>
+              </div>
+            </div>
+            <div className="bk-case-r">
+              <div className="k">The receipts — costliest hands in this pattern</div>
+              {note.noDecisiveHand ? (
+                <p className="text-sm leading-relaxed text-[var(--fg-muted)]">
+                  This is a frequency pattern — no single hand is decisive. Review the spot across your hands rather than one cooler.
+                </p>
+              ) : (
+                note.receipts.map((r) => (
+                  <div className="bk-receipt" key={r.handId}>
+                    <span>#{r.handId}</span>
+                    {r.reasons.length > 0 && <span className="why">{r.reasons.join(' · ')}</span>}
+                  </div>
+                ))
+              )}
+              <p className="mt-5 text-xs text-[var(--fg-dim)]">{note.drillCta}</p>
+              <Link to="/arena" className="bk-cta">
+                Open Drills <span className="arr">→</span>
+              </Link>
+            </div>
+          </section>
+        )}
 
-      {/* ---- the honesty strip is chrome, not a tooltip ---- */}
-      {note !== undefined && <HonestyStrip cells={honestyCells} />}
+        {/* ---- the honesty strip is chrome, not a tooltip ---- */}
+        {note !== undefined && <HonestyStrip cells={honestyCells} />}
+      </FolioSection>
       {note !== undefined && note.kind !== 'insufficient_data' && tilt !== undefined && (
-        <MindsetCard report={tilt} />
+        <FolioSection>
+          <MindsetCard report={tilt} />
+        </FolioSection>
       )}
     </div>
   );
