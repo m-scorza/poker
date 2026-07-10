@@ -26,7 +26,7 @@ import {
   Calendar, TableProperties, Swords, Flame, 
   DollarSign, UserX, ExternalLink, Users
 } from 'lucide-react';
-import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash } from '../analysis/financials';
+import { getTournamentCost, getTournamentNet, getTournamentRevenue, hasTournamentCash, computeRoiPct } from '../analysis/financials';
 import { sumUsd } from '../parser/money';
 
 const CareerDashboard = lazy(() => import('../components/career/CareerDashboard').then((m) => ({ default: m.CareerDashboard })));
@@ -106,7 +106,7 @@ export function CareerPage() {
       totalWinnings,
       totalProfit: totalWinnings - totalBuyIns,
       itmRate: (itms / played) * 100,
-      roi: totalBuyIns > 0 ? ((totalWinnings - totalBuyIns) / totalBuyIns) * 100 : 0,
+      roi: computeRoiPct(tournaments),
       avgBuyIn: totalBuyIns / played,
       tournamentsPlayed: played
     };
