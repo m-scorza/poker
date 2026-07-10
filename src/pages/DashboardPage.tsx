@@ -149,11 +149,11 @@ export function DashboardPage() {
       <WireTape wireItems={wireItems} />
       
       <div className="desk-head">
-        <div className="dh-left">
+        <div>
           <span className="kick">Desk &gt; Overview &gt; System</span>
           <h2>Command Desk <span>[{totalPnl >= 0 ? '+' : '-'}${Math.abs(totalPnl).toFixed(2)}]</span></h2>
         </div>
-        <div className="dh-right">
+        <div>
           <span className="kick">Private local report</span>
           <button type="button" className="btn primary" onClick={downloadDashboardReport} disabled={!careerCoachReport}>
             Export report
