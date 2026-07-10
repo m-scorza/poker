@@ -416,7 +416,7 @@ src/data/  (16 files)
   data/starterDiagnostic.ts
   data/store.ts
   data/strategyProfiles.ts
-src/pages/  (12 files)
+src/pages/  (17 files)
   pages/ArenaPage.tsx
   pages/CareerPage.tsx
   pages/CoachsNotePage.tsx
@@ -429,7 +429,15 @@ src/pages/  (12 files)
   pages/SessionsPage.tsx
   pages/StatsPage.tsx
   pages/VillainsPage.tsx
-src/components/  (39 files)
+  pages/arena/actionOptions.ts
+  pages/arena/curriculumSeeds.ts
+  pages/arena/drillPool.ts
+  pages/arena/studyQueueHelpers.ts
+  pages/arena/studyQueueRoute.ts
+src/components/  (42 files)
+  components/arena/ActionButton.tsx
+  components/arena/DrillCard.tsx
+  components/arena/SpacedReviewCompleteScreen.tsx
   components/blackout/Folio.tsx
   components/blackout/HonestyStrip.tsx
   components/blackout/Ticker.tsx
