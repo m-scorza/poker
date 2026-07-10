@@ -4,6 +4,7 @@
 @import "./styles/desk.css";
 @import "./styles/reinterpretation.css";
 @import "./styles/blackout.css";
+@import "./styles/blackout-components.css";
 
 @import "tailwindcss";
 
