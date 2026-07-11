@@ -13,6 +13,16 @@ The live, prioritised work. This is the *current* priority order; the dated
 the 2026-06-12 reviews and the owner's 2026-06-20 decision: **make the numbers
 true first, then build the coach loop** — both, sequenced.
 
+### Owner UI/product review (2026-07-10) — planned only
+
+The owner completed a 33-comment element-level review of the running app and
+requested planning only. The resulting product-mode decisions, correctness
+triage, historical-design references, and 24-task UI backlog live in
+[`docs/plans/2026-07-10-owner-ui-review-and-product-modes.md`](../plans/2026-07-10-owner-ui-review-and-product-modes.md).
+No implementation is authorized by this roadmap entry. The plan's central
+question is whether startup and navigation should adapt between import-first
+and train-first users before the individual pages are redesigned.
+
 ### Act I — Make the numbers true (correctness foundation)
 
 - [x] **I-1 · Parser chip accounting (EPIC A1)** — keystone. ✅ **Merged

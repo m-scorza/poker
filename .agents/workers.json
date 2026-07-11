@@ -1,34 +1,90 @@
 {
-  "schema_version": "1.0",
-  "default_worker": "codex",
+  "schema_version": "2.0",
+  "default_worker": "claude",
+  "tier_defaults": {
+    "cheap": "claude",
+    "standard": "claude",
+    "deep": "claude"
+  },
   "workers": {
     "claude": {
       "kind": "cli",
       "command": "claude.cmd",
+      "prompt_transport": "argument",
       "args": [
         "-p",
-        "--permission-mode",
-        "default",
         "--output-format",
         "text",
         "{{prompt}}"
       ],
-      "notes": "Use the .cmd shim on Windows; PowerShell blocks the .ps1 shim in this checkout."
+      "mode_args": {
+        "read_only": [
+          "--permission-mode",
+          "dontAsk",
+          "--allowedTools",
+          "Read,Glob,Grep,Bash(git status *),Bash(git branch *),Bash(git log *),Bash(git show *),Bash(git diff *),Bash(rg *),Bash(Get-Content *)",
+          "--disallowedTools",
+          "Edit,Write"
+        ],
+        "write": [
+          "--permission-mode",
+          "default"
+        ]
+      },
+      "tier_args": {
+        "cheap": [
+          "--model",
+          "haiku",
+          "--effort",
+          "low"
+        ],
+        "standard": [
+          "--model",
+          "sonnet",
+          "--effort",
+          "medium"
+        ],
+        "deep": [
+          "--model",
+          "opus",
+          "--effort",
+          "high"
+        ]
+      },
+      "pricing_checked_at": "2026-07-11",
+      "pricing_source": "https://www.anthropic.com/claude/haiku",
+      "notes": "Use the .cmd shim on Windows. The cheap tier is explicit Haiku/low effort; Haiku 4.5 is Anthropic's current cost-efficient model. Read-only mode disables Edit/Write and allows only focused inspection commands."
     },
     "codex": {
       "kind": "cli",
       "command": "codex.cmd",
+      "enabled": false,
+      "unavailable_reason": "Installed CLI v0.135.0 cannot run the configured gpt-5.6-sol model and rejects the configured max reasoning value. Upgrade/reconcile the CLI before re-enabling this worker.",
+      "prompt_transport": "stdin",
       "args": [
         "--cd",
         "{{workspace}}",
-        "--sandbox",
-        "workspace-write",
         "--ask-for-approval",
         "never",
         "exec",
-        "{{prompt}}"
+        "-"
       ],
-      "notes": "Dry-run the dispatcher first; execute only for scoped tasks that can run without interactive approvals."
+      "mode_args": {
+        "read_only": [
+          "--sandbox",
+          "read-only"
+        ],
+        "write": [
+          "--sandbox",
+          "workspace-write"
+        ]
+      },
+      "tier_args": {
+        "cheap": [],
+        "standard": [],
+        "deep": []
+      },
+      "notes": "Temporarily disabled after the 2026-07-10 live dispatch health check. Desktop Codex is unaffected."
     },
     "hermes": {
       "kind": "cli",

@@ -422,7 +422,7 @@ function validateSpoolSchema(spool) {
       if (!allowedStatuses.includes(task.status)) {
         errors.push(`${prefix} status must be one of [${allowedStatuses.join(', ')}], got "${task.status}"`);
       }
-      const allowedAgents = ['antigravity', 'hermes', 'claude', 'any'];
+      const allowedAgents = ['antigravity', 'hermes', 'claude', 'codex', 'any'];
       if (!allowedAgents.includes(task.target_agent)) {
         errors.push(`${prefix} target_agent must be one of [${allowedAgents.join(', ')}], got "${task.target_agent}"`);
       }
@@ -431,6 +431,21 @@ function validateSpoolSchema(spool) {
       }
       if (typeof task.goal !== 'string' || task.goal.trim() === '') {
         errors.push(`${prefix} goal must be a non-empty string`);
+      }
+      if (task.mode !== undefined && !['read_only', 'write'].includes(task.mode)) {
+        errors.push(`${prefix} mode must be one of [read_only, write], got "${task.mode}"`);
+      }
+      if (task.worker_tier !== undefined && !['cheap', 'standard', 'deep'].includes(task.worker_tier)) {
+        errors.push(`${prefix} worker_tier must be one of [cheap, standard, deep], got "${task.worker_tier}"`);
+      }
+      if (task.lane !== undefined && (typeof task.lane !== 'string' || task.lane.trim() === '')) {
+        errors.push(`${prefix} lane must be a non-empty string when provided`);
+      }
+      if (task.freshness_days !== undefined && (!Number.isInteger(task.freshness_days) || task.freshness_days < 1)) {
+        errors.push(`${prefix} freshness_days must be a positive integer when provided`);
+      }
+      if (task.expected_output !== undefined && (typeof task.expected_output !== 'string' || task.expected_output.trim() === '')) {
+        errors.push(`${prefix} expected_output must be a non-empty string when provided`);
       }
       validateTaskPathList(task, prefix, 'allowed_files', errors, true);
       validateTaskPathList(task, prefix, 'protocol_files', errors, false);
@@ -451,8 +466,8 @@ function validateSpoolSchema(spool) {
           }
         });
       }
-      if (task.owner_agent !== null && task.owner_agent !== undefined && !['antigravity', 'hermes', 'claude', 'any'].includes(task.owner_agent)) {
-        errors.push(`${prefix} owner_agent must be null or one of [antigravity, hermes, claude, any], got "${task.owner_agent}"`);
+      if (task.owner_agent !== null && task.owner_agent !== undefined && !['antigravity', 'hermes', 'claude', 'codex', 'any'].includes(task.owner_agent)) {
+        errors.push(`${prefix} owner_agent must be null or one of [antigravity, hermes, claude, codex, any], got "${task.owner_agent}"`);
       }
       if (task.started_at !== null && task.started_at !== undefined && !isValidIsoDate(task.started_at)) {
         errors.push(`${prefix} started_at must be null or a valid ISO date string`);
@@ -1553,7 +1568,7 @@ switch (command) {
       process.exit(1);
     }
 
-    const allowedAgents = ['antigravity', 'hermes', 'claude', 'any'];
+    const allowedAgents = ['antigravity', 'hermes', 'claude', 'codex', 'any'];
     if (!allowedAgents.includes(inputTask.target_agent)) {
       const msg = `Invalid target_agent: "${inputTask.target_agent}". Must be one of: ${allowedAgents.join(', ')}`;
       if (isJson) {
@@ -1586,6 +1601,13 @@ switch (command) {
       target_agent: inputTask.target_agent,
       branch: inputTask.branch.trim(),
       goal: inputTask.goal.trim(),
+      mode: inputTask.mode === 'read_only' ? 'read_only' : 'write',
+      lane: typeof inputTask.lane === 'string' && inputTask.lane.trim() !== '' ? inputTask.lane.trim() : 'general',
+      worker_tier: ['cheap', 'standard', 'deep'].includes(inputTask.worker_tier) ? inputTask.worker_tier : 'standard',
+      freshness_days: Number.isInteger(inputTask.freshness_days) && inputTask.freshness_days > 0 ? inputTask.freshness_days : 14,
+      expected_output: typeof inputTask.expected_output === 'string' && inputTask.expected_output.trim() !== ''
+        ? inputTask.expected_output.trim()
+        : 'Return a concise evidence-backed result.',
       allowed_files: Array.isArray(inputTask.allowed_files) ? inputTask.allowed_files : [],
       protocol_files: Array.isArray(inputTask.protocol_files) ? inputTask.protocol_files : [],
       generated_files: Array.isArray(inputTask.generated_files) ? inputTask.generated_files : [],

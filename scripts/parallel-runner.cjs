@@ -3,7 +3,7 @@
  * Prepare isolated worktrees for non-overlapping pending agent tasks.
  *
  * Dry-run by default:
- *   node scripts/parallel-runner.cjs
+ *   node scripts/parallel-runner.cjs --all-pending
  *
  * Execute after reviewing the plan:
  *   node scripts/parallel-runner.cjs --execute
@@ -20,6 +20,9 @@ const args = process.argv.slice(2);
 const execute = args.includes('--execute');
 const launchAgents = args.includes('--launch-agents');
 const forceConflicts = args.includes('--force-conflicts');
+const allowStale = args.includes('--allow-stale');
+const allPending = args.includes('--all-pending');
+const help = args.includes('--help') || args.includes('-h');
 const selectedTaskIds = valuesFor('--task');
 
 const mainRepoPath = path.resolve(__dirname, '..');
@@ -35,6 +38,22 @@ function valuesFor(flag) {
     }
   }
   return values;
+}
+
+function printHelp() {
+  console.log(`Usage:
+  node scripts/parallel-runner.cjs --task <task-id> [--task <task-id> ...]
+  node scripts/parallel-runner.cjs --all-pending
+
+Options:
+  --execute          Create worktrees after reviewing the dry run.
+  --launch-agents    Launch prepared write-task agents (requires --execute).
+  --allow-stale      Override source-reference freshness refusal after human review.
+  --force-conflicts  Override file/lane conflicts after human review.
+  --help             Show this help without reading or scheduling the spool.
+
+Read-only task files are dispatched with scripts/agent-dispatch.ps1, not this
+write-worktree runner.`);
 }
 
 function run(command, commandArgs, options = {}) {
@@ -75,6 +94,7 @@ function assertSafeTaskId(taskId) {
 }
 
 function laneFor(task) {
+  if (typeof task.lane === 'string' && task.lane.trim() !== '') return task.lane.trim();
   const files = task.allowed_files || [];
   if (files.some((file) => file.includes('rangeChecker') || file.includes('ranges.ts') || file.includes('RangesPage'))) return 'range';
   if (files.some((file) => file.includes('scenarioDetector') || file.includes('postflopAnalyzer'))) return 'scenario';
@@ -85,12 +105,20 @@ function laneFor(task) {
   return 'general';
 }
 
+function effectiveFiles(task) {
+  return [...new Set([
+    ...(task.allowed_files || []),
+    ...(task.protocol_files || []),
+    ...(task.generated_files || []),
+  ])];
+}
+
 function findConflicts(tasks) {
   const byFile = new Map();
   const byLane = new Map();
 
   for (const task of tasks) {
-    for (const file of task.allowed_files || []) {
+    for (const file of effectiveFiles(task)) {
       if (!byFile.has(file)) byFile.set(file, []);
       byFile.get(file).push(task);
     }
@@ -104,6 +132,19 @@ function findConflicts(tasks) {
     fileConflicts: [...byFile.entries()].filter(([, taskList]) => taskList.length > 1),
     laneConflicts: [...byLane.entries()].filter(([, taskList]) => taskList.length > 1),
   };
+}
+
+function staleTasks(tasks, now = new Date()) {
+  return tasks.filter((task) => {
+    if (!Array.isArray(task.source_refs) || task.source_refs.length === 0) return false;
+    if (!task.truth_checked_at) return true;
+    const checked = new Date(task.truth_checked_at);
+    if (Number.isNaN(checked.getTime())) return true;
+    const freshnessDays = Number.isInteger(task.freshness_days) && task.freshness_days > 0
+      ? task.freshness_days
+      : 14;
+    return now.getTime() - checked.getTime() > freshnessDays * 24 * 60 * 60 * 1000;
+  });
 }
 
 function printConflictReport(conflicts) {
@@ -223,6 +264,17 @@ Workflow:
 `;
 }
 
+if (help) {
+  printHelp();
+  process.exit(0);
+}
+
+if (!allPending && selectedTaskIds.length === 0) {
+  printHelp();
+  console.error('\nRefusing implicit first/all-pending selection. Pass --task or --all-pending.');
+  process.exit(1);
+}
+
 if (!fs.existsSync(spoolPath)) {
   console.error(`Error: spool ledger not found at ${spoolPath}`);
   process.exit(1);
@@ -234,6 +286,25 @@ let pendingTasks = spool.tasks.filter((task) => task.status === 'pending');
 if (selectedTaskIds.length > 0) {
   const selected = new Set(selectedTaskIds);
   pendingTasks = pendingTasks.filter((task) => selected.has(task.task_id));
+}
+
+const readOnlyTasks = pendingTasks.filter((task) => task.mode === 'read_only');
+if (readOnlyTasks.length > 0) {
+  console.error('Read-only tasks do not receive write worktrees:');
+  for (const task of readOnlyTasks) {
+    console.error(`- ${task.task_id}: use scripts/agent-dispatch.ps1 -Task ${task.task_id}`);
+  }
+  process.exit(1);
+}
+
+const stale = staleTasks(pendingTasks);
+if (stale.length > 0 && !allowStale) {
+  console.error('Stale task truth checks:');
+  for (const task of stale) {
+    console.error(`- ${task.task_id}: truth_checked_at=${task.truth_checked_at || 'missing'} source_refs=${(task.source_refs || []).join(', ')}`);
+  }
+  console.error('Reconcile these tasks against current source, then refresh truth_checked_at. Use --allow-stale only after human review.');
+  process.exit(1);
 }
 
 if (pendingTasks.length === 0) {
@@ -300,12 +371,13 @@ for (const task of pendingTasks) {
 
   ensureDirectory(claudePath);
   copyJsonSettings(path.join(mainRepoPath, '.claude', 'settings.json'), path.join(claudePath, 'settings.json'), worktreePath);
-  copyJsonSettings(path.join(mainRepoPath, '.claude', 'settings.local.json'), path.join(claudePath, 'settings.local.json'), worktreePath);
-
   writeFile(path.join(worktreePath, 'TASK_PROMPT.txt'), createPrompt(task));
 
-  const agentCommand = task.target_agent === 'antigravity' ? 'antigravity' : 'claude';
-  writeFile(runnerPath, `@echo off\r\ncd /d "${worktreePath}"\r\n${agentCommand} "Read and execute the instructions in TASK_PROMPT.txt"\r\n`);
+  const workerArg = task.target_agent && task.target_agent !== 'any' ? ` -Worker ${task.target_agent}` : '';
+  writeFile(
+    runnerPath,
+    `@echo off\r\ncd /d "${worktreePath}"\r\npowershell -NoProfile -ExecutionPolicy Bypass -File scripts\\agent-dispatch.ps1 -Task ${task.task_id}${workerArg} -Execute\r\n`,
+  );
 
   if (launchAgents) {
     run('cmd.exe', ['/c', 'start', '', 'cmd.exe', '/k', runnerPath], { stdio: 'inherit' });

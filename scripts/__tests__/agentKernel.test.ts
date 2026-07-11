@@ -128,6 +128,23 @@ afterEach(() => {
 });
 
 describe('agent-kernel task scope', () => {
+  it('accepts codex plus explicit orchestration fields', () => {
+    const repo = createKernelRepo({
+      target_agent: 'codex',
+      owner_agent: 'codex',
+      mode: 'read_only',
+      lane: 'ui-review',
+      worker_tier: 'cheap',
+      freshness_days: 7,
+      expected_output: 'Return salvage, rework, and discard buckets.',
+    });
+
+    const result = runKernel(repo, ['validate-state', '--json']);
+
+    expect(result.status).toBe(0);
+    expect(JSON.parse(result.stdout).pass).toBe(true);
+  });
+
   it('completes with dirty files inside allowed, protocol, and generated scope', () => {
     const repo = createKernelRepo({
       protocol_files: ['docs/agents/AGENT_HANDOFF.md'],
@@ -200,6 +217,13 @@ describe('agent-kernel task scope', () => {
 });
 
 describe('agent runner protocol', () => {
+  it('routes the cheap Claude tier to Haiku rather than an unpriced alias', () => {
+    const workers = JSON.parse(readFileSync(resolve(process.cwd(), '.agents/workers.json'), 'utf8'));
+
+    expect(workers.workers.claude.tier_args.cheap).toEqual(['--model', 'haiku', '--effort', 'low']);
+    expect(workers.workers.claude.tier_args.cheap).not.toContain('fable');
+  });
+
   it('orders handoff before completion and stops after completion', () => {
     const runner = readFileSync(resolve(process.cwd(), 'scripts/parallel-runner.cjs'), 'utf8');
 
@@ -210,5 +234,26 @@ describe('agent runner protocol', () => {
 
   it('keeps the active handoff inside the kernel context budget', () => {
     expect(statSync(resolve(process.cwd(), 'docs/agents/AGENT_HANDOFF.md')).size).toBeLessThanOrEqual(5120);
+  });
+
+  it('detects conflicts across the complete write scope and requires explicit selection', () => {
+    const runner = readFileSync(resolve(process.cwd(), 'scripts/parallel-runner.cjs'), 'utf8');
+
+    expect(runner).toContain('...(task.protocol_files || [])');
+    expect(runner).toContain('...(task.generated_files || [])');
+    expect(runner).toContain('Refusing implicit first/all-pending selection');
+    expect(runner).toContain('Stale task truth checks');
+    expect(runner).not.toContain("settings.local.json'), path.join(claudePath, 'settings.local.json");
+    expect(runner).toContain('scripts\\\\agent-dispatch.ps1 -Task');
+  });
+
+  it('keeps read-only dispatch separate and redacts prompts from logs', () => {
+    const dispatcher = readFileSync(resolve(process.cwd(), 'scripts/agent-dispatch.ps1'), 'utf8');
+
+    expect(dispatcher).toContain('mode=read_only');
+    expect(dispatcher).toContain('Do not edit, create, delete, stage, commit, push, or open a PR.');
+    expect(dispatcher).toContain('Command: $($workerDef.command) $($displayArgs -join');
+    expect(dispatcher).not.toContain('Command: $($workerDef.command) $($argsExpanded -join');
+    expect(dispatcher).toContain("elseif ($declaredWorker) { $declaredWorker } elseif ($tierDefault)");
   });
 });
