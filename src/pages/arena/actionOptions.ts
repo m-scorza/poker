@@ -1,8 +1,11 @@
-import type { HeroDecision } from '../../types/analysis';
 import type { CurriculumSpotSeed } from '../../data/curriculumSeedPacks.generated';
 import type { SpotPacket, SpotPacketLegalAction, SpotPacketWarning } from '../../analysis/spotPacket';
+import type { TrainerAction } from '../../analysis/arena/drillLogic';
+import { labelSeedAction } from '../../analysis/arena/drillLogic';
 
-export type TrainerAction = string;
+export type { TrainerAction } from '../../analysis/arena/drillLogic';
+export { labelSeedAction, pickRandomDecision } from '../../analysis/arena/drillLogic';
+
 export type ActionColor = 'gray' | 'blue' | 'emerald' | 'amber' | 'rose';
 
 export interface ActionOption {
@@ -68,10 +71,6 @@ export function getDisplayCards(handKey: string | undefined): [string, string] {
   return [`${r1}s`, suited ? `${r2}s` : `${r2}h`];
 }
 
-export function pickRandomDecision(pool: HeroDecision[]): HeroDecision | null {
-  return pool[Math.floor(Math.random() * pool.length)] ?? null;
-}
-
 export function formatSourceValue(value: string): string {
   return value.replace(/_/g, ' ');
 }
@@ -107,17 +106,6 @@ function actionColorForSeed(action: string): ActionColor {
   if (action === 'all_in') return 'rose';
   if (action.startsWith('bet_')) return 'amber';
   return 'emerald';
-}
-
-export function labelSeedAction(action: string): string {
-  if (action === 'all_in') return 'All-in';
-  return action
-    .replace(/^cbet_/, 'C-bet ')
-    .replace(/^bet_/, 'Bet ')
-    .replace(/^raise_/, 'Raise ')
-    .replace(/_/g, '.')
-    .replace(/pct/g, '%')
-    .replace(/^\w/, (char) => char.toUpperCase());
 }
 
 export function curriculumActionOptions(spot: CurriculumSpotSeed | null): ActionOption[] | null {

@@ -2,9 +2,10 @@ import { checkCompliance } from '../../analysis/rangeChecker';
 import type { HeroDecision } from '../../types/analysis';
 import type { StrategyProfile } from '../../data/strategyProfiles';
 import { uniqueNonEmpty, type GetDrillPoolOptions } from './studyQueueRoute';
+import type { DrillType } from '../../analysis/arena/drillLogic';
 
-export type DrillType = 'spaced_review' | 'fault_fixer' | 'rfi_master' | 'cbet_clinic' | 'study_queue' | 'curriculum';
-type CbetAction = 'check' | 'bet';
+export type { DrillType } from '../../analysis/arena/drillLogic';
+export { shouldCbet, isCbetActionCorrect } from '../../analysis/arena/drillLogic';
 
 export function getDrillPool(
   type: DrillType,
@@ -46,15 +47,4 @@ export function getDrillPool(
 
   // spaced_review draws from a persisted SRS queue, not a random pool.
   return [];
-}
-
-export function shouldCbet(decision: HeroDecision): boolean {
-  if (decision.postflopActions?.some(action => action.spot === 'MISSED_CBET')) {
-    return true;
-  }
-  return decision.cbetMade;
-}
-
-export function isCbetActionCorrect(decision: HeroDecision, action: CbetAction): boolean {
-  return action === 'bet' ? shouldCbet(decision) : !shouldCbet(decision);
 }

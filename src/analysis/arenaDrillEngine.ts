@@ -10,7 +10,7 @@
  * applies the returned result via setDrill / recorders / timers.
  *
  * The moved-out helpers (shouldCbet, isCbetActionCorrect, labelSeedAction,
- * pickRandomDecision) already live in src/pages/arena and are imported here so
+ * pickRandomDecision) live in ./arena/drillLogic and are imported here so
  * each has a single definition in the tree.
  */
 
@@ -18,14 +18,12 @@ import type { HeroDecision } from '../types/analysis';
 import type { StrategyProfile } from '../data/strategyProfiles';
 import type { CurriculumSpotSeed } from '../data/curriculumSeedPacks.generated';
 import type { SpotPacket } from './spotPacket';
-import type { DrillType } from '../pages/arena/drillPool';
-import { shouldCbet, isCbetActionCorrect } from '../pages/arena/drillPool';
-import type { TrainerAction } from '../pages/arena/actionOptions';
-import { labelSeedAction, pickRandomDecision } from '../pages/arena/actionOptions';
+import type { DrillType, TrainerAction } from './arena/drillLogic';
+import { shouldCbet, isCbetActionCorrect, labelSeedAction, pickRandomDecision } from './arena/drillLogic';
 import { checkCompliance } from './rangeChecker';
 
-export type PreflopAction = 'fold' | 'raise' | 'call' | 'check';
-export type FeedbackStatus = 'correct' | 'deviation' | 'review';
+type PreflopAction = 'fold' | 'raise' | 'call' | 'check';
+type FeedbackStatus = 'correct' | 'deviation' | 'review';
 
 /** The slice of drill state the grader reads; DrillState satisfies this structurally. */
 export interface DrillActionContext {
