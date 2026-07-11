@@ -59,6 +59,28 @@ conflicts you pay for twice.
   Study-Queue-vs-SRS, identity gate) are never resolved by an agent picking a
   default. Park them, surface them, wait.
 
+### Cost and judgment routing
+
+Every dispatched task now declares a mode and tier:
+
+| Tier | Use it for | Escalate when |
+|---|---|---|
+| `cheap` | read-only repo maps, branch archaeology, inventory, focused test/result summarization | evidence conflicts, cross-lane judgment, correctness conclusions |
+| `standard` | bounded implementation, direct tests, routine review | architecture changes, poker-logic ambiguity, owner-facing product decisions |
+| `deep` | cross-lane correctness, skeptical integration review, ambiguous product/architecture synthesis | owner steer or missing external evidence |
+
+The default cheap CLI lane is Claude Fable at low effort; standard and deep use
+Claude Sonnet and Opus respectively. The Codex CLI worker is temporarily
+disabled because the installed CLI cannot run the locally configured model;
+desktop Codex remains available as orchestrator. A cheap agent's output is
+evidence for the orchestrator, never merge authority. The integrating agent
+verifies source, diffs, and gates itself.
+
+Use `mode: read_only` for reconnaissance. It disables write tools/sandbox
+access, skips claim/completion, and can run from a one-off task file without
+polluting the stale spool. Write tasks continue through isolated worktrees and
+kernel evidence.
+
 ## 5. Loop primitives vs. Hermes (don't run two schedulers on one tree)
 
 Claude Code's `/loop`, `/schedule`, and `/goal` are schedulers. Hermes is
@@ -87,3 +109,8 @@ crash with extra steps.
 - One repo copy is canonical (`C:\dev\poker` today).
   Downloads copies and scratch clones are read-only reference material —
   never dispatch agents into them.
+- Never run the parallel runner without `--task ...` or the explicit
+  `--all-pending` acknowledgement. Missing/stale truth checks and overlaps in
+  implementation, protocol, or generated files block dispatch.
+- Use `powershell -File scripts/agent-dispatch.ps1 -Help` before an unfamiliar
+  dispatch. Executed logs redact the expanded prompt.

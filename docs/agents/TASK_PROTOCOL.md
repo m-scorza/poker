@@ -11,6 +11,10 @@ The local task board is `.agents/state/task_spool.json` (Gitignored). Task shape
   "status": "pending",
   "owner_agent": null,
   "target_agent": "hermes",
+  "mode": "write",
+  "lane": "parser",
+  "worker_tier": "standard",
+  "freshness_days": 14,
   "branch": "feat/gg-uncalled-bet-fix",
   "goal": "Verify uncalled bets are subtracted from GG parser net win.",
   "allowed_files": [
@@ -25,6 +29,7 @@ The local task board is `.agents/state/task_spool.json` (Gitignored). Task shape
   ],
   "truth_checked_at": "2026-06-06T00:00:00.000Z",
   "superseded_by": null,
+  "expected_output": "Implement the fix and return verified evidence.",
   "required_checks": [
     {
       "name": "vitest",
@@ -37,6 +42,14 @@ The local task board is `.agents/state/task_spool.json` (Gitignored). Task shape
 `allowed_files` is implementation scope. `protocol_files` covers required tracked process side effects. `generated_files` covers expected docs, lockfiles, or inventories. Completion enforces the combined scope and rejects unexpected dirty files.
 
 `source_refs`, `truth_checked_at`, and `superseded_by` record freshness before reopening old findings.
+
+`mode` is `write` or `read_only`. Read-only reconnaissance never claims a
+write worktree and is dispatched through `scripts/agent-dispatch.ps1` with a
+read-only sandbox/permission profile. `lane` is explicit whenever possible;
+filename inference is legacy fallback only. `worker_tier` is `cheap`,
+`standard`, or `deep`; use the cheapest tier capable of producing trustworthy
+evidence, then escalate on an explicit trigger. `freshness_days` defaults to 14
+and blocks stale source-backed write tasks until their truth is reconciled.
 
 ## 2. Git Boundary
 - **Agent-proposed Git**: Agents may propose checkout/switch/commit commands for operator approval, but must not run mutating Git silently.
@@ -57,8 +70,21 @@ The local task board is `.agents/state/task_spool.json` (Gitignored). Task shape
 ## 4. Parallel Worktree Guard
 Parallel execution is allowed only for a non-overlapping task batch.
 
-- **File-scope exclusivity**: No launched tasks may share `allowed_files`.
+- **File-scope exclusivity**: No launched tasks may share any effective write
+  scope: `allowed_files`, `protocol_files`, or `generated_files`. A shared
+  `AGENT_HANDOFF.md` claim therefore serializes those tasks by design.
 - **Lane exclusivity**: Avoid parallel tasks in the same lane (`range`, `scenario`, `store`, `worker/import`, `ui`, `docs/protocol`) unless the human accepts merge risk.
 - **One task per worktree**: Each worktree runs one task branch and shares only central `.agents/state/`.
 - **Evidence before completion**: Write `.agents/state/evidence-<task_id>.json`, then preflight it with `node scripts/agent-kernel.cjs validate-evidence --task <task_id> --evidence-file <path>`.
 - **Handoff before completion**: Update `docs/agents/AGENT_HANDOFF.md` before `complete`; do not edit or generate files after `complete`.
+
+## 5. Dispatch safety
+
+- `scripts/parallel-runner.cjs` requires explicit repeated `--task` flags or
+  `--all-pending`; it never silently chooses the first/all pending work.
+- Source-backed tasks with missing/expired `truth_checked_at` are refused until
+  reconciled. `--allow-stale` is a human-reviewed override, not a convenience.
+- One-off read-only contracts may live under `.agents/examples/` and use
+  `agent-dispatch.ps1 -TaskFile`. They do not mutate the spool.
+- Dispatch logs record the worker/tier/mode and a redacted `<prompt>` command;
+  they must never persist expanded prompts or credentials.

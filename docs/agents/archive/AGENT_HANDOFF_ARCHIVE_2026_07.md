@@ -4,6 +4,17 @@ Compacted handoff records rolled off the active
 [AGENT_HANDOFF.md](../AGENT_HANDOFF.md) to keep it inside the kernel context
 budget. Newest at the top.
 
+## 2026-07-08 - Out-of-the-box slate (PR #130) + owner-approved F7 deletion
+
+- Owner / agent:          Claude (remote session, owner steer: "not the planned waves — outside the box")
+- Branch:                 claude/codebase-improvement-8akixm → PR #130
+- Scope:                  NEW modules only, deliberately off the abyss-wave lanes. Shared-file edits limited to App.tsx (+/data route), Sidebar.tsx (NAV_ITEMS → layout/navItems.ts), Layout.tsx (+CommandPalette mount), CoachsNotePage.tsx (+Mindset card), sessions.ts (SESSION_GAP_MS exported), pokerstars.ts (one-line seat-header skip in the action loop — fuzz-found bug), package.json (analyze script).
+- Files touched:          analysis/tiltDetector.ts, components/coach/MindsetCard.tsx, data/backup.ts, pages/DataVaultPage.tsx, test/fuzz/handHistoryGenerator.ts, parser/__tests__/fuzzInvariants.test.ts, scripts/analyze-cli.ts, components/shared/CommandPalette.tsx, components/layout/navItems.ts, tests, docs, and the owner-approved deletion of dashboard/StudyPlanCard.tsx and ValueSnapshotCard.tsx.
+- Summary:                Five additions: Tilt Detector, Data Vault, parser fuzz harness, headless analyze CLI, and Cmd/Ctrl+K command palette. 879/879 tests green (baseline 851).
+- Verification:           Full gate per commit group: docs:check, typecheck, typecheck:test, lint, test, build. CLI exercised against a real 116-hand fixture.
+- Risks / assumptions:    Abyss Waves 2–4 remained owner-executed; Data Vault refuses cross-schema-version restores; fuzz lane excluded colon-in-chat ambiguity for future work.
+- Next action requested:  Review PR #130. Wave 2's F8 should not remove SESSION_GAP_MS or TILT constants because they now have callers.
+
 ## 2026-07-05 - Starter diagnostic + curriculum selector continuation
 
 - Owner / agent:          Hermes

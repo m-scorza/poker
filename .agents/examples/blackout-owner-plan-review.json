@@ -1,0 +1,31 @@
+{
+  "task_id": "review-2026-07-10-blackout-owner-plan",
+  "title": "Compare parked BLACKOUT Foundation v2 with the owner UI review",
+  "status": "review",
+  "target_agent": "claude",
+  "mode": "read_only",
+  "lane": "ui-review",
+  "worker_tier": "cheap",
+  "branch": "origin/blackout/foundation-v2",
+  "goal": "Classify the parked BLACKOUT Foundation v2 work into salvage, rework, and discard buckets using the owner's 33-comment UI plan as the authority. Do not recommend a wholesale merge or revert.",
+  "allowed_files": [],
+  "protocol_files": [],
+  "generated_files": [],
+  "source_refs": [
+    "docs/plans/2026-07-10-owner-ui-review-and-product-modes.md",
+    "docs/design/BLACKOUT_ROLLOUT.md",
+    "git:origin/blackout/foundation-v2",
+    "git:origin/ui/blackout-f1-type-motion",
+    "git:origin/ui/blackout-f2-tranche2",
+    "git:origin/ui/blackout-f3-inkfield"
+  ],
+  "truth_checked_at": "2026-07-10T22:00:00.000Z",
+  "freshness_days": 7,
+  "required_checks": [
+    {
+      "name": "branch diff",
+      "command": "git diff --stat origin/main...origin/blackout/foundation-v2"
+    }
+  ],
+  "expected_output": "Return three concise buckets: SALVAGE with exact components/commits and why they serve specific UIR tasks; REWORK with the rejected behavior to remove; DISCARD/PARK with conflicts against owner comments. End with the smallest safe PR sequence. Cite repository paths and commit IDs."
+}
