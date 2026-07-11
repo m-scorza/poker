@@ -379,8 +379,16 @@ conflicts.
       (dock, command palette, loader — desk.css now 207 lines) and the
       never-defined `.inner-rule`/`.dh-left`/`.dh-right` classNames removed
       from JSX; the post-F17 re-sweep of `tokens.css`/`desk.css` overlap
-      remains. **Still open:** F17, F18, F19 (note: ArenaPage grew
-      1 405 → 1 499 lines with #149's SRS CTA — decomposition pressure is
-      rising, not stable), F24, F25 remainder, §6 util tests.
+      remains. **F19 partial — landed 2026-07-10 via #158/#160:** ArenaPage
+      decomposed 1 499 → 998 lines (pure helpers/constants/presentational
+      subcomponents → `src/pages/arena/*` + `src/components/arena/*`;
+      grading/advance state machine → `src/analysis/arenaDrillEngine.ts`,
+      unit-tested without React). ArenaPage was the drifted addition to F19's
+      scope; the four originally-listed god files (store.ts 929,
+      HandsUpload.tsx 949, CareerPage.tsx 717, RangesPage.tsx) remain. Note
+      for the remainder: `arenaDrillEngine.ts` imports from `src/pages/arena/`
+      (analysis → pages) — restore layering when F19 next touches Arena.
+      **Still open:** F17, F18, F19 remainder (store.ts, HandsUpload,
+      CareerPage, RangesPage), F24, F25 remainder, §6 util tests.
 - [ ] Flip this report `resolved` + archive when the waves land (or when the
       owner strikes remaining items as won't-fix).
