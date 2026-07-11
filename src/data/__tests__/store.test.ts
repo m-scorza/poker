@@ -21,30 +21,22 @@ import {
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,
   buildImportDiagnosticsSnapshot,
 } from '../importDiagnosticsPolicy';
+import {
+  makeAction as baseAction,
+  makeHand as baseHand,
+  makePlayer as basePlayer,
+} from '../../test/factories';
 
 function makeHand(id: string, overrides: Partial<Hand> = {}): Hand {
-  return {
+  return baseHand({
     id,
-    tournamentId: 'T1',
     date: new Date(`2026-05-31T10:${id.padStart(2, '0')}:00Z`),
-    level: 1,
-    smallBlind: 10,
-    bigBlind: 20,
-    ante: 0,
     maxSeats: 6,
     activePlayers: 6,
-    buttonSeat: 1,
-    boardFlop: null,
-    boardTurn: null,
-    boardRiver: null,
-    totalPot: 0,
-    rake: 0,
-    hasShowdown: false,
     heroChipsBefore: 2_000,
     heroChipsAfter: 2_000,
-    villainDeltas: [],
     ...overrides,
-  };
+  });
 }
 
 function makePlayer(
@@ -54,16 +46,15 @@ function makePlayer(
   isHero = false,
   overrides: Partial<PlayerInHand> = {},
 ): PlayerInHand {
-  return {
+  return basePlayer({
     handId,
     seatNumber: isHero ? 1 : 2,
     playerName,
     chipsBefore: 2_000,
     position,
     isHero,
-    holeCards: null,
     ...overrides,
-  };
+  });
 }
 
 function action(
@@ -73,15 +64,14 @@ function action(
   actionType: Action['actionType'],
   street: Action['street'] = 'preflop',
 ): Action {
-  return {
+  return baseAction({
     handId,
     street,
     playerName,
     actionType,
     amount: actionType === 'fold' || actionType === 'check' ? null : 60,
-    isAllIn: false,
     sequence,
-  };
+  });
 }
 
 function handData(
