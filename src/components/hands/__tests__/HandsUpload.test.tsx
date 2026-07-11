@@ -242,24 +242,23 @@ describe('HandsUpload', () => {
     expect(getByTestId('import-phase')).toHaveTextContent('Parsing hands');
     expect(getByText('phase-hand.txt')).toBeInTheDocument();
     const worker = MockWorker.instances[0]!;
+    const completeMessage: WorkerMessage = {
+      type: 'COMPLETE',
+      hands: [],
+      summaries: [],
+      importSummary: {
+        totalFiles: 1,
+        parsedFiles: 1,
+        failedFiles: 0,
+        handsFound: 0,
+        summariesFound: 0,
+        confidence: 'high',
+        warnings: [],
+      },
+    };
 
     act(() => {
-      worker.onmessage?.({
-        data: {
-          type: 'COMPLETE',
-          hands: [],
-          summaries: [],
-          importSummary: {
-            totalFiles: 1,
-            parsedFiles: 1,
-            failedFiles: 0,
-            handsFound: 0,
-            summariesFound: 0,
-            confidence: 'high',
-            warnings: [],
-          },
-        },
-      } as MessageEvent<WorkerMessage>);
+      worker.onmessage?.({ data: completeMessage } as MessageEvent<WorkerMessage>);
     });
     expect(getByTestId('import-phase')).toHaveTextContent('Saving locally');
     expect(getByText('Writing results to this device')).toBeInTheDocument();
