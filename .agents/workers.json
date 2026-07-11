@@ -34,7 +34,7 @@
       "tier_args": {
         "cheap": [
           "--model",
-          "fable",
+          "haiku",
           "--effort",
           "low"
         ],
@@ -51,7 +51,9 @@
           "high"
         ]
       },
-      "notes": "Use the .cmd shim on Windows. The cheap tier is explicit Fable/low effort; read-only mode disables Edit/Write and allows only focused inspection commands."
+      "pricing_checked_at": "2026-07-11",
+      "pricing_source": "https://www.anthropic.com/claude/haiku",
+      "notes": "Use the .cmd shim on Windows. The cheap tier is explicit Haiku/low effort; Haiku 4.5 is Anthropic's current cost-efficient model. Read-only mode disables Edit/Write and allows only focused inspection commands."
     },
     "codex": {
       "kind": "cli",

@@ -69,8 +69,11 @@ Every dispatched task now declares a mode and tier:
 | `standard` | bounded implementation, direct tests, routine review | architecture changes, poker-logic ambiguity, owner-facing product decisions |
 | `deep` | cross-lane correctness, skeptical integration review, ambiguous product/architecture synthesis | owner steer or missing external evidence |
 
-The default cheap CLI lane is Claude Fable at low effort; standard and deep use
-Claude Sonnet and Opus respectively. The Codex CLI worker is temporarily
+The default cheap CLI lane is Claude Haiku at low effort; standard and deep use
+Claude Sonnet and Opus respectively. This is a cost decision, not a size/name
+guess: Haiku 4.5 was Anthropic's lowest-cost current Claude API model when
+checked on 2026-07-11. Re-check official pricing before changing aliases or
+after a major model launch. The Codex CLI worker is temporarily
 disabled because the installed CLI cannot run the locally configured model;
 desktop Codex remains available as orchestrator. A cheap agent's output is
 evidence for the orchestrator, never merge authority. The integrating agent

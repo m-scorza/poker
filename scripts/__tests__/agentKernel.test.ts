@@ -217,6 +217,13 @@ describe('agent-kernel task scope', () => {
 });
 
 describe('agent runner protocol', () => {
+  it('routes the cheap Claude tier to Haiku rather than an unpriced alias', () => {
+    const workers = JSON.parse(readFileSync(resolve(process.cwd(), '.agents/workers.json'), 'utf8'));
+
+    expect(workers.workers.claude.tier_args.cheap).toEqual(['--model', 'haiku', '--effort', 'low']);
+    expect(workers.workers.claude.tier_args.cheap).not.toContain('fable');
+  });
+
   it('orders handoff before completion and stops after completion', () => {
     const runner = readFileSync(resolve(process.cwd(), 'scripts/parallel-runner.cjs'), 'utf8');
 
