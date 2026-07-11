@@ -216,6 +216,68 @@ describe('agent-kernel task scope', () => {
   });
 });
 
+describe('agent-kernel abort authority', () => {
+  it('lets an agent abort a pending task with a reason', () => {
+    const repo = createKernelRepo({ status: 'pending', attempts: [] });
+
+    const result = runKernel(repo, [
+      'abort',
+      '--task',
+      'task-2026-06-06-001',
+      '--agent',
+      'claude',
+      '--reason',
+      'verified already shipped on main',
+      '--json',
+    ]);
+
+    expect(result.status).toBe(0);
+    expect(JSON.parse(result.stdout)).toMatchObject({
+      success: true,
+      task: { status: 'aborted' },
+    });
+  });
+
+  it('restricts aborting a running task to the human owner', () => {
+    const repo = createKernelRepo();
+
+    const result = runKernel(repo, [
+      'abort',
+      '--task',
+      'task-2026-06-06-001',
+      '--agent',
+      'claude',
+      '--reason',
+      'trying to kill in-flight work',
+      '--json',
+    ]);
+
+    expect(result.status).not.toBe(0);
+    expect(JSON.parse(result.stdout).error).toContain('restricted to --agent human');
+  });
+
+  it('lets the human abort a running task', () => {
+    const repo = createKernelRepo();
+
+    const result = runKernel(repo, [
+      'abort',
+      '--task',
+      'task-2026-06-06-001',
+      '--agent',
+      'human',
+      '--reason',
+      'owner decision',
+      '--json',
+    ]);
+
+    expect(result.status).toBe(0);
+    expect(JSON.parse(result.stdout)).toMatchObject({
+      success: true,
+      task: { status: 'aborted' },
+    });
+  });
+});
+
 describe('agent runner protocol', () => {
   it('routes the cheap Claude tier to Haiku rather than an unpriced alias', () => {
     const workers = JSON.parse(readFileSync(resolve(process.cwd(), '.agents/workers.json'), 'utf8'));

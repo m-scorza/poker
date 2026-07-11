@@ -88,7 +88,10 @@ worktree isolation, background-completion notification, and follow-up via
 SendMessage for free — dispatching Claude through `claude.cmd -p` gives up
 all three, so don't. The kernel's unique value is the persistent spool
 (claim/complete lifecycle, evidence validation, stale-truth refusal) and
-running workers the harness cannot spawn.
+running workers the harness cannot spawn. Spool grooming is agent work: any
+agent may `abort` a **pending** task with an evidence-backed reason;
+aborting a claimed or running task stays `--agent human` only (enforced by
+the kernel, tested in `agentKernel.test.ts`).
 
 Worker health (checked live 2026-07-11): `codex` re-enabled — CLI 0.144.1
 runs the configured model; note that the ChatGPT-account quota is shared

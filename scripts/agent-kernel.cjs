@@ -2221,15 +2221,6 @@ switch (command) {
       process.exit(1);
     }
 
-    if (argAgent !== 'human') {
-      if (isJson) {
-        console.log(JSON.stringify({ error: 'Abort command is restricted strictly to --agent human' }));
-      } else {
-        console.error('Error: Abort command is restricted strictly to --agent human');
-      }
-      process.exit(1);
-    }
-
     acquireLock('abort');
     const spool = readSpool();
     const task = spool.tasks.find(t => t.task_id === argTaskId);
@@ -2246,6 +2237,17 @@ switch (command) {
     if (task.status === 'completed' || task.status === 'aborted') {
       releaseLock();
       const msg = `Task "${argTaskId}" cannot be aborted because status is "${task.status}"`;
+      if (isJson) {
+        console.log(JSON.stringify({ error: msg }));
+      } else {
+        console.error(`Error: ${msg}`);
+      }
+      process.exit(1);
+    }
+
+    if (argAgent !== 'human' && task.status !== 'pending') {
+      releaseLock();
+      const msg = `Task "${argTaskId}" is "${task.status}": aborting a claimed or running task is restricted to --agent human. Agents may only abort pending tasks.`;
       if (isJson) {
         console.log(JSON.stringify({ error: msg }));
       } else {
@@ -2275,12 +2277,12 @@ switch (command) {
     spool.spool_revision += 1;
     spool.updated_at = nowStr;
 
-    writeSpoolAtomic(spool, 'abort', task.task_id, 'task_aborted', { task_id: task.task_id, agent: 'human', reason: argReason });
+    writeSpoolAtomic(spool, 'abort', task.task_id, 'task_aborted', { task_id: task.task_id, agent: argAgent, reason: argReason });
 
     if (isJson) {
       console.log(JSON.stringify({ success: true, task }));
     } else {
-      console.log(`Task "${task.task_id}" permanently ABORTED by human. Reason: ${argReason}`);
+      console.log(`Task "${task.task_id}" permanently ABORTED by ${argAgent}. Reason: ${argReason}`);
     }
     process.exit(0);
     break;
