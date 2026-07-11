@@ -349,6 +349,34 @@ describe('HandsUpload', () => {
     expect(worker.terminate).toHaveBeenCalled();
   });
 
+  it('reports an unreadable file without leaving the import overlay active', async () => {
+    const unreadable = makeFile('locked.txt');
+    Object.defineProperty(unreadable, 'text', {
+      value: () => Promise.reject(new Error('read denied')),
+      configurable: true,
+    });
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+
+    selectFiles(container, [unreadable]);
+
+    expect(await findByText(/could not read this file \(read denied\)/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(MockWorker.instances).toHaveLength(0);
+  });
+
+  it('lets the user cancel a worker that stops responding', async () => {
+    const { container, getByRole, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('hand.txt', "PokerStars Hand #1: Hold'em No Limit")]);
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    const worker = MockWorker.instances[0]!;
+
+    fireEvent.click(getByRole('button', { name: /cancel import/i }));
+
+    expect(await findByText(/import was cancelled safely/i)).toBeInTheDocument();
+    expect(worker.terminate).toHaveBeenCalledTimes(1);
+    expect(useAppStore.getState().isImporting).toBe(false);
+  });
+
   // --- data-health + re-import notice (A1) ---
 
   it('shows the import-confidence badge when a run is retained', () => {

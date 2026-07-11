@@ -40,6 +40,7 @@ const MAX_TXT_BYTES = 15 * MB;
 const MAX_ZIP_BYTES = 50 * MB;
 const MAX_ZIP_DECOMPRESSED_BYTES = 150 * MB;
 const MAX_BATCH_BYTES = 200 * MB;
+const IMPORT_INACTIVITY_TIMEOUT_MS = 60_000;
 const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
 const formatDateTime = (date: Date | null) => date
   ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date)
@@ -169,18 +170,27 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const pushReferenceRef = useRef<HTMLInputElement>(null);
   const callReferenceRef = useRef<HTMLInputElement>(null);
   const workerRef = useRef<Worker | null>(null);
+  const importWatchdogRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const mountedRef = useRef(true);
   const importSeqRef = useRef(0);
+
+  const clearImportWatchdog = useCallback(() => {
+    if (importWatchdogRef.current !== null) {
+      clearTimeout(importWatchdogRef.current);
+      importWatchdogRef.current = null;
+    }
+  }, []);
 
   useEffect(() => {
     return () => {
       mountedRef.current = false;
       importSeqRef.current += 1;
+      clearImportWatchdog();
       workerRef.current?.terminate();
       workerRef.current = null;
       setImporting(false);
     };
-  }, [setImporting]);
+  }, [clearImportWatchdog, setImporting]);
 
   const handleLocalReferenceFile = useCallback(async (kind: HeadsUpReferenceKind, file: File | null) => {
     if (!file) return;
@@ -206,7 +216,17 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     const importSeq = importSeqRef.current + 1;
     importSeqRef.current = importSeq;
     const isCurrentImport = () => mountedRef.current && importSeqRef.current === importSeq;
+    const failImport = (name: string, error: string) => {
+      if (!isCurrentImport()) return;
+      clearImportWatchdog();
+      workerRef.current?.terminate();
+      workerRef.current = null;
+      setImporting(false);
+      setCurrentImportFile('');
+      setResults(prev => [...prev, { name, type: 'hand', error }]);
+    };
 
+    clearImportWatchdog();
     setImporting(true);
     setImportProgress(0);
     setStatsFound({ hands: 0, summaries: 0, deviations: 0 });
@@ -234,7 +254,13 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           pushError(file.name, `Upload batch too large (limit ${formatMB(MAX_BATCH_BYTES)}). Select fewer files and try again.`);
           continue;
         }
-        const content = await file.text();
+        let content: string;
+        try {
+          content = await file.text();
+        } catch (error) {
+          pushError(file.name, `Could not read this file (${error instanceof Error ? error.message : String(error)}).`);
+          continue;
+        }
         if (!isCurrentImport()) return;
         batchBytes += file.size;
         fileDataArr.push({ name: file.name, content, accessMethod: 'local_file' });
@@ -330,14 +356,31 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     }
 
     // Initialize Worker
-    const worker = new Worker(new URL('../../parser/worker.ts', import.meta.url), { type: 'module' });
+    let worker: Worker;
+    try {
+      worker = new Worker(new URL('../../parser/worker.ts', import.meta.url), { type: 'module' });
+    } catch (error) {
+      failImport('Parser worker', `The background parser could not start (${error instanceof Error ? error.message : String(error)}).`);
+      return;
+    }
     workerRef.current = worker;
+
+    const armImportWatchdog = () => {
+      clearImportWatchdog();
+      importWatchdogRef.current = setTimeout(() => {
+        failImport(
+          'Parser worker',
+          'The import stopped responding. It was cancelled safely; select the files and try again.',
+        );
+      }, IMPORT_INACTIVITY_TIMEOUT_MS);
+    };
 
     worker.onmessage = async (e: MessageEvent<WorkerMessage>) => {
       if (!isCurrentImport() || workerRef.current !== worker) return;
       const msg = e.data;
 
       if (msg.type === 'PROGRESS') {
+        armImportWatchdog();
         setImportProgress(msg.progress);
         setCurrentImportFile(msg.filename);
         setStatsFound(prev => ({
@@ -346,12 +389,14 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           deviations: prev.deviations + msg.deviationsFound
         }));
       } else if (msg.type === 'FILE_ERROR') {
+        armImportWatchdog();
         setResults(prev => [...prev, {
           name: msg.filename || 'Unknown file',
           type: 'hand',
           error: msg.error || 'Parser failed on this file. Other files will continue importing.',
         }]);
       } else if (msg.type === 'COMPLETE') {
+        clearImportWatchdog();
         setImportSummary(msg.importSummary);
 
         try {
@@ -423,6 +468,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
           if (workerRef.current === worker) workerRef.current = null;
         }
       } else if (msg.type === 'FATAL_ERROR') {
+        clearImportWatchdog();
         setImporting(false);
         setCurrentImportFile('');
         setResults(prev => [...prev, {
@@ -437,6 +483,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
     worker.onerror = (event) => {
       if (!isCurrentImport() || workerRef.current !== worker) return;
+      clearImportWatchdog();
       setImporting(false);
       setCurrentImportFile('');
       setResults(prev => [...prev, {
@@ -448,13 +495,32 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
       if (workerRef.current === worker) workerRef.current = null;
     };
 
-    worker.postMessage({
-      files: fileDataArr,
-      heroName,
-      profile: strategyProfile,
-      icmStage: 'early' // Default for now
-    });
-  }, [heroName, strategyProfile, setImporting, setTotalHands, onUploadSuccess]);
+    try {
+      armImportWatchdog();
+      worker.postMessage({
+        files: fileDataArr,
+        heroName,
+        profile: strategyProfile,
+        icmStage: 'early' // Default for now
+      });
+    } catch (error) {
+      failImport('Parser worker', `The import could not be sent to the background parser (${error instanceof Error ? error.message : String(error)}).`);
+    }
+  }, [clearImportWatchdog, heroName, strategyProfile, setImporting, setTotalHands, onUploadSuccess]);
+
+  const cancelImport = useCallback(() => {
+    importSeqRef.current += 1;
+    clearImportWatchdog();
+    workerRef.current?.terminate();
+    workerRef.current = null;
+    setImporting(false);
+    setCurrentImportFile('');
+    setResults(prev => [...prev, {
+      name: 'Import cancelled',
+      type: 'hand',
+      error: 'The import was cancelled safely. Select files to try again.',
+    }]);
+  }, [clearImportWatchdog, setImporting]);
 
   const onDrop = useCallback((e: React.DragEvent) => {
     e.preventDefault(); setDragOver(false);
@@ -859,7 +925,13 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
                   <span>Summaries: <span className="text-white">{statsFound.summaries}</span></span>
                   <span>Deviations: <span className="text-[var(--loss)]">{statsFound.deviations}</span></span>
                 </div>
-               <span>Do not close this page</span>
+               <button
+                 type="button"
+                 onClick={cancelImport}
+                 className="rounded border border-[var(--hairline)] px-2 py-1 text-[var(--fg-muted)] transition-colors hover:border-[var(--loss-line)] hover:text-[var(--loss)]"
+               >
+                 Cancel import
+               </button>
             </div>
           </motion.div>
         )}

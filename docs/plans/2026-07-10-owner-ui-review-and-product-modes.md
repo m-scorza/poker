@@ -172,6 +172,12 @@ unless its discovery phase concludes that no implementation is warranted.
 
 **Comments:** 11.
 
+**Status (2026-07-11): In progress.** The first recovery slice now handles
+unreadable local files, worker startup/posting failures, silent-worker timeout,
+and explicit user cancellation without leaving `isImporting` true. Existing
+worker, persistence, and per-file error coverage remains green. Phase-specific
+progress copy and a tracked ZIP/browser reproduction remain for the next slice.
+
 **Scope:** `HandsUpload`, parser worker lifecycle, persistence completion, and
 the visible import overlay. Reproduce with the smallest tracked fixture and a
 representative ZIP before changing code.
@@ -188,6 +194,12 @@ representative ZIP before changing code.
 #### UIR-002 — Numeric presentation boundary (P0)
 
 **Comments:** 10.
+
+**Status (2026-07-11): In progress.** The reported replay action now uses the
+shared `chipAmount` formatter and has a regression for
+`385.00000000000006 → 385`, verified against demo hand `DEMO-H-250-117` in the
+browser. A repo-wide migration of remaining raw numeric render sites is still
+required before this task is complete.
 
 **Scope:** locate every user-visible chip, blind, pot, currency, percentage, and
 duration formatter. Fix `385.00000000000006` at the shared formatting boundary,
