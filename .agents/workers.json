@@ -117,12 +117,21 @@
         ]
       },
       "tier_args": {
-        "cheap": [],
-        "standard": [],
-        "deep": []
+        "cheap": [
+          "--model",
+          "Gemini 3.5 Flash (Low)"
+        ],
+        "standard": [
+          "--model",
+          "Gemini 3.5 Flash (High)"
+        ],
+        "deep": [
+          "--model",
+          "Gemini 3.1 Pro (High)"
+        ]
       },
       "health_checked_at": "2026-07-11",
-      "notes": "Antigravity CLI (agy 1.0.13, verified live 2026-07-11 via --print). Flags must precede the prompt (Go-style flag parsing). --sandbox restricts terminal use but is not a hard no-write guarantee, so keep read_only briefs explicit about not editing; write mode needs --dangerously-skip-permissions or headless runs hang on permission prompts. Default --print-timeout is 5m; tier model routing is empty until agy models are enumerated. The Antigravity IDE remains available as a separate manual/visual lane."
+      "notes": "Antigravity CLI (agy 1.0.13, verified live 2026-07-11 via --print). Flags must precede the prompt (Go-style flag parsing). --sandbox restricts terminal use but is not a hard no-write guarantee, so keep read_only briefs explicit about not editing; write mode needs --dangerously-skip-permissions or headless runs hang on permission prompts. Default --print-timeout is 5m. Default model is Gemini 3.5 Flash (Medium); tier routing uses the display-name strings from `agy models` and the --model override was verified live (3.1 Pro (High) self-reported and confirmed in the session log). Gemini 3.1 Pro (Low) exists as a middle option if standard needs more depth. The Antigravity IDE remains available as a separate manual/visual lane."
     }
   }
 }
