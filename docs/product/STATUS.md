@@ -370,7 +370,7 @@ src/parser/  (14 files)
   parser/tournamentSummary.ts
   parser/worker.ts
   parser/workerProcessor.ts
-src/analysis/  (30 files)
+src/analysis/  (31 files)
   analysis/arena/drillLogic.ts
   analysis/arenaDrillEngine.ts
   analysis/bountyAnalyzer.ts
@@ -401,6 +401,7 @@ src/analysis/  (30 files)
   analysis/tiltDetector.ts
   analysis/ungradedScenarios.ts
   analysis/villainClassifier.ts
+  analysis/villainObserver.ts
 src/data/  (16 files)
   data/appStore.ts
   data/backup.ts
