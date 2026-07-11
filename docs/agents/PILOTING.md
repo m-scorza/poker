@@ -73,11 +73,28 @@ The default cheap CLI lane is Claude Haiku at low effort; standard and deep use
 Claude Sonnet and Opus respectively. This is a cost decision, not a size/name
 guess: Haiku 4.5 was Anthropic's lowest-cost current Claude API model when
 checked on 2026-07-11. Re-check official pricing before changing aliases or
-after a major model launch. The Codex CLI worker is temporarily
-disabled because the installed CLI cannot run the locally configured model;
-desktop Codex remains available as orchestrator. A cheap agent's output is
+after a major model launch. A cheap agent's output is
 evidence for the orchestrator, never merge authority. The integrating agent
 verifies source, diffs, and gates itself.
+
+### Which dispatch lane (the boundary rule)
+
+One sentence, applied every time: **Claude-model work dispatches in-session
+via the orchestrator's Agent tool (haiku-runner / sonnet-scout /
+opus-builder); the kernel (`agent-dispatch.ps1` + `.agents/workers.json`) is
+the cross-agent task board and the transport for non-Claude CLI workers
+(codex, antigravity/agy, hermes).** An in-session Claude subagent gets
+worktree isolation, background-completion notification, and follow-up via
+SendMessage for free — dispatching Claude through `claude.cmd -p` gives up
+all three, so don't. The kernel's unique value is the persistent spool
+(claim/complete lifecycle, evidence validation, stale-truth refusal) and
+running workers the harness cannot spawn.
+
+Worker health (checked live 2026-07-11): `codex` re-enabled — CLI 0.144.1
+runs the configured model; note that the ChatGPT-account quota is shared
+with Hermes, so a Codex usage-limit outage blocks both. `antigravity` is now
+a real CLI worker via `agy --print` (v1.0.13, verified end-to-end through
+the dispatcher); the Antigravity IDE remains a separate manual/visual lane.
 
 Use `mode: read_only` for reconnaissance. It disables write tools/sandbox
 access, skips claim/completion, and can run from a one-off task file without
