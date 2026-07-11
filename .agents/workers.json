@@ -58,8 +58,6 @@
     "codex": {
       "kind": "cli",
       "command": "codex.cmd",
-      "enabled": false,
-      "unavailable_reason": "Installed CLI v0.135.0 cannot run the configured gpt-5.6-sol model and rejects the configured max reasoning value. Upgrade/reconcile the CLI before re-enabling this worker.",
       "prompt_transport": "stdin",
       "args": [
         "--cd",
@@ -84,7 +82,8 @@
         "standard": [],
         "deep": []
       },
-      "notes": "Temporarily disabled after the 2026-07-10 live dispatch health check. Desktop Codex is unaffected."
+      "health_checked_at": "2026-07-11",
+      "notes": "Re-enabled 2026-07-11: CLI 0.144.1 runs the configured gpt-5.6-sol model (verified live; the 0.135.0 incompatibility from the 2026-07-10 health check is resolved). Account-level usage limits can still fail a run — the ChatGPT-account quota is shared with Hermes, and the error surfaces in the dispatch log with a retry time."
     },
     "hermes": {
       "kind": "cli",
@@ -93,7 +92,7 @@
         "--oneshot",
         "{{prompt}}"
       ],
-      "notes": "Hermes may use configured providers; verify cost/provider settings before long loops."
+      "notes": "Hermes is fueled by the same Codex/ChatGPT account as the codex worker, so a Codex usage-limit outage blocks Hermes too. Verify cost/provider settings before long loops."
     },
     "cursor": {
       "kind": "manual",
@@ -102,10 +101,28 @@
       "notes": "Cursor is kept as a manual IDE lane because the installed CLI is not a clean stdout worker by default."
     },
     "antigravity": {
-      "kind": "manual",
-      "command": "",
-      "args": [],
-      "notes": "Use manually for IDE/visual work unless a reliable headless CLI is configured later."
+      "kind": "cli",
+      "command": "agy",
+      "prompt_transport": "argument",
+      "args": [
+        "--print",
+        "{{prompt}}"
+      ],
+      "mode_args": {
+        "read_only": [
+          "--sandbox"
+        ],
+        "write": [
+          "--dangerously-skip-permissions"
+        ]
+      },
+      "tier_args": {
+        "cheap": [],
+        "standard": [],
+        "deep": []
+      },
+      "health_checked_at": "2026-07-11",
+      "notes": "Antigravity CLI (agy 1.0.13, verified live 2026-07-11 via --print). Flags must precede the prompt (Go-style flag parsing). --sandbox restricts terminal use but is not a hard no-write guarantee, so keep read_only briefs explicit about not editing; write mode needs --dangerously-skip-permissions or headless runs hang on permission prompts. Default --print-timeout is 5m; tier model routing is empty until agy models are enumerated. The Antigravity IDE remains available as a separate manual/visual lane."
     }
   }
 }
