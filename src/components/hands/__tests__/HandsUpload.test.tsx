@@ -95,6 +95,14 @@ function makeFile(name: string, content = 'data', sizeOverride?: number): File {
   return file;
 }
 
+function deferred<T>() {
+  let resolve!: (value: T) => void;
+  const promise = new Promise<T>((next) => {
+    resolve = next;
+  });
+  return { promise, resolve };
+}
+
 function selectFiles(container: HTMLElement, files: File[]) {
   const input = container.querySelector('input[accept=".txt,.json,.zip"]') as HTMLInputElement;
   Object.defineProperty(input, 'files', { value: files, configurable: true });
@@ -210,6 +218,57 @@ describe('HandsUpload', () => {
     expect(storeMocks.saveImportRun).toHaveBeenCalledTimes(1);
     expect(useAppStore.getState().totalHands).toBe(3);
     expect(useAppStore.getState().isImporting).toBe(false);
+  });
+
+  it('shows the active reading, parsing, saving, and analysis phases', async () => {
+    const readFile = deferred<string>();
+    const saveHands = deferred<number>();
+    const updateAnalysis = deferred<{ newlyResolved: never[]; newlyRegressed: never[] }>();
+    storeMocks.importHands.mockReturnValue(saveHands.promise);
+    storeMocks.reconcileLeakStatusesOnImport.mockReturnValue(updateAnalysis.promise);
+    const { container, getByTestId, getByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    const phaseFile = makeFile('phase-hand.txt', "PokerStars Hand #1: Hold'em No Limit");
+    Object.defineProperty(phaseFile, 'text', {
+      value: () => readFile.promise,
+      configurable: true,
+    });
+
+    selectFiles(container, [phaseFile]);
+
+    await waitFor(() => expect(getByTestId('import-phase')).toHaveTextContent('Reading files'));
+    expect(getByText('phase-hand.txt')).toBeInTheDocument();
+    readFile.resolve("PokerStars Hand #1: Hold'em No Limit");
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    expect(getByTestId('import-phase')).toHaveTextContent('Parsing hands');
+    expect(getByText('phase-hand.txt')).toBeInTheDocument();
+    const worker = MockWorker.instances[0]!;
+    const completeMessage: WorkerMessage = {
+      type: 'COMPLETE',
+      hands: [],
+      summaries: [],
+      importSummary: {
+        totalFiles: 1,
+        parsedFiles: 1,
+        failedFiles: 0,
+        handsFound: 0,
+        summariesFound: 0,
+        confidence: 'high',
+        warnings: [],
+      },
+    };
+
+    act(() => {
+      worker.onmessage?.({ data: completeMessage } as MessageEvent<WorkerMessage>);
+    });
+    expect(getByTestId('import-phase')).toHaveTextContent('Saving locally');
+    expect(getByText('Writing results to this device')).toBeInTheDocument();
+
+    saveHands.resolve(3);
+    await waitFor(() => expect(getByTestId('import-phase')).toHaveTextContent('Updating analysis'));
+    expect(getByText('Refreshing totals and leak status')).toBeInTheDocument();
+
+    updateAnalysis.resolve({ newlyResolved: [], newlyRegressed: [] });
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
   });
 
   // CQ-3: a Dexie write failure on the COMPLETE path must not wedge the overlay.
@@ -347,6 +406,34 @@ describe('HandsUpload', () => {
     expect(await findByText(/worker crashed/i)).toBeInTheDocument();
     await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
     expect(worker.terminate).toHaveBeenCalled();
+  });
+
+  it('reports an unreadable file without leaving the import overlay active', async () => {
+    const unreadable = makeFile('locked.txt');
+    Object.defineProperty(unreadable, 'text', {
+      value: () => Promise.reject(new Error('read denied')),
+      configurable: true,
+    });
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+
+    selectFiles(container, [unreadable]);
+
+    expect(await findByText(/could not read this file \(read denied\)/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(MockWorker.instances).toHaveLength(0);
+  });
+
+  it('lets the user cancel a worker that stops responding', async () => {
+    const { container, getByRole, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('hand.txt', "PokerStars Hand #1: Hold'em No Limit")]);
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    const worker = MockWorker.instances[0]!;
+
+    fireEvent.click(getByRole('button', { name: /cancel import/i }));
+
+    expect(await findByText(/import was cancelled safely/i)).toBeInTheDocument();
+    expect(worker.terminate).toHaveBeenCalledTimes(1);
+    expect(useAppStore.getState().isImporting).toBe(false);
   });
 
   // --- data-health + re-import notice (A1) ---

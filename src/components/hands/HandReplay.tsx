@@ -21,6 +21,7 @@ import type { HeroDecision } from '../../types/analysis';
 import type { PostflopAction } from '../../analysis/postflopAnalyzer';
 import type { ParsedHand } from '../../parser/pokerstars';
 import { calculateAlpha, calculateMDF, getRecommendedCbetSizing } from '../../analysis/math';
+import { chipAmount } from '../../utils/format';
 
 interface HandReplayProps {
   hand: Hand;
@@ -485,7 +486,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                   {ACTION_LABELS[a.actionType] ?? a.actionType}
                 </span>
                 {a.amount !== null && a.amount > 0 && (
-                  <span className="font-mono text-xs text-[var(--fg-muted)]">{a.amount}</span>
+                  <span className="font-mono text-xs text-[var(--fg-muted)]">{chipAmount(a.amount)}</span>
                 )}
                 {a.isAllIn && (
                   <span className="text-[10px] px-1 py-0.5 rounded bg-[var(--loss-soft)] text-[var(--loss)] font-bold border border-[var(--loss-line)]">

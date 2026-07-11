@@ -276,6 +276,28 @@ describe('HandReplay', () => {
     expect(within(container).getAllByText('50').length).toBeGreaterThan(0);
   });
 
+  it('does not expose floating-point noise in action amounts', async () => {
+    storeMocks.getActionsForHand.mockResolvedValueOnce([
+      ...actions,
+      {
+        handId: hand.id,
+        street: 'preflop',
+        playerName: 'scorza23',
+        actionType: 'raise',
+        amount: 385.00000000000006,
+        isAllIn: false,
+        sequence: 6,
+      },
+    ]);
+
+    const { container } = render(<HandReplay hand={hand} heroDecision={heroDecision} onClose={vi.fn()} />);
+
+    await waitFor(() => {
+      expect(within(container).getByText('385')).toBeInTheDocument();
+    });
+    expect(within(container).queryByText('385.00000000000006')).not.toBeInTheDocument();
+  });
+
   it('uses imported postflop analysis instead of recomputing replay spots', async () => {
     const decisionWithStoredPostflop: HeroDecision = {
       ...heroDecision,
