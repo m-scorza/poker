@@ -2,30 +2,18 @@ import { describe, it, expect } from 'vitest';
 import { groupIntoSessions, computeSessionTrends, computeIntraSessionTrends } from '../sessions';
 import type { Hand, Tournament } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
-import { makeTournament as baseTournament } from '../../test/factories';
+import { makeHand as baseHand, makeTournament as baseTournament } from '../../test/factories';
 
 function makeHand(id: string, dateStr: string, tournamentId: string = 'T1'): Hand {
-  return {
+  return baseHand({
     id,
     tournamentId,
     date: new Date(dateStr),
-    level: 1,
-    smallBlind: 10,
-    bigBlind: 20,
     ante: 3,
-    maxSeats: 9,
     activePlayers: 6,
-    buttonSeat: 1,
-    boardFlop: null,
-    boardTurn: null,
-    boardRiver: null,
-    totalPot: 0,
-    rake: 0,
-    hasShowdown: false,
     heroChipsBefore: 1000,
     heroChipsAfter: 1000,
-    villainDeltas: [],
-  };
+  });
 }
 
 function makeDecision(handId: string, overrides: Partial<HeroDecision> = {}): HeroDecision {
