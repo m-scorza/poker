@@ -370,7 +370,8 @@ src/parser/  (14 files)
   parser/tournamentSummary.ts
   parser/worker.ts
   parser/workerProcessor.ts
-src/analysis/  (29 files)
+src/analysis/  (30 files)
+  analysis/arena/drillLogic.ts
   analysis/arenaDrillEngine.ts
   analysis/bountyAnalyzer.ts
   analysis/careerCoach.ts
