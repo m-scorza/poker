@@ -41,6 +41,13 @@ const MAX_ZIP_BYTES = 50 * MB;
 const MAX_ZIP_DECOMPRESSED_BYTES = 150 * MB;
 const MAX_BATCH_BYTES = 200 * MB;
 const IMPORT_INACTIVITY_TIMEOUT_MS = 60_000;
+type ImportPhase = 'reading' | 'parsing' | 'saving' | 'analysing';
+const IMPORT_PHASE_LABELS: Record<ImportPhase, string> = {
+  reading: 'Reading files',
+  parsing: 'Parsing hands',
+  saving: 'Saving locally',
+  analysing: 'Updating analysis',
+};
 const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
 const formatDateTime = (date: Date | null) => date
   ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date)
@@ -159,6 +166,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const { isImporting, setImporting, setTotalHands, heroName, strategyProfile } = useAppStore();
 
   const [importProgress, setImportProgress] = useState(0);
+  const [importPhase, setImportPhase] = useState<ImportPhase>('reading');
   const [currentImportFile, setCurrentImportFile] = useState('');
   const [statsFound, setStatsFound] = useState({ hands: 0, summaries: 0, deviations: 0 });
   const [importSummary, setImportSummary] = useState<ImportSummary | null>(null);
@@ -228,6 +236,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
     clearImportWatchdog();
     setImporting(true);
+    setImportPhase('reading');
     setImportProgress(0);
     setStatsFound({ hands: 0, summaries: 0, deviations: 0 });
     setResults([]);
@@ -244,6 +253,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     };
 
     for (const file of Array.from(files)) {
+      setCurrentImportFile(file.name);
       const lowerName = file.name.toLowerCase();
       if (lowerName.endsWith('.txt') || lowerName.endsWith('.json')) {
         if (file.size > MAX_TXT_BYTES) {
@@ -356,6 +366,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
     }
 
     // Initialize Worker
+    setImportPhase('parsing');
     let worker: Worker;
     try {
       worker = new Worker(new URL('../../parser/worker.ts', import.meta.url), { type: 'module' });
@@ -381,6 +392,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
       if (msg.type === 'PROGRESS') {
         armImportWatchdog();
+        setImportPhase('parsing');
         setImportProgress(msg.progress);
         setCurrentImportFile(msg.filename);
         setStatsFound(prev => ({
@@ -397,6 +409,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
         }]);
       } else if (msg.type === 'COMPLETE') {
         clearImportWatchdog();
+        setImportPhase('saving');
         setImportSummary(msg.importSummary);
 
         try {
@@ -426,6 +439,7 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
           // Advance the leak lifecycle (resolved / regressed) at this re-measure.
           // Non-fatal: a failure here must not wedge the import.
+          setImportPhase('analysing');
           try {
             await reconcileLeakStatusesOnImport(strategyProfile);
           } catch (error) {
@@ -530,6 +544,12 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
   const onFileSelect = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) processFiles(e.target.files);
   }, [processFiles]);
+
+  const importPhaseDetail = importPhase === 'reading' || importPhase === 'parsing'
+    ? currentImportFile || 'Preparing files'
+    : importPhase === 'saving'
+      ? 'Writing results to this device'
+      : 'Refreshing totals and leak status';
 
   const totalHandNodes = results.filter(r => r.type === 'hand' && !r.error);
   const totalSummaryNodes = results.filter(r => r.type === 'summary' && !r.error);
@@ -898,10 +918,10 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
               <div className="space-y-1">
                 <div className="text-sm font-bold text-white flex items-center gap-2">
                   <div className="w-3 h-3 border-2 border-[var(--accent)] border-t-transparent rounded-full animate-spin" />
-                  Processing History...
+                  <span data-testid="import-phase">{IMPORT_PHASE_LABELS[importPhase]}</span>
                 </div>
                 <p className="text-[10px] text-[var(--fg-dim)] font-mono truncate max-w-[300px]">
-                  File: {currentImportFile}
+                  {importPhaseDetail}
                 </p>
               </div>
               <div className="text-right">

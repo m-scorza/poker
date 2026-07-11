@@ -172,11 +172,12 @@ unless its discovery phase concludes that no implementation is warranted.
 
 **Comments:** 11.
 
-**Status (2026-07-11): In progress.** The first recovery slice now handles
-unreadable local files, worker startup/posting failures, silent-worker timeout,
-and explicit user cancellation without leaving `isImporting` true. Existing
-worker, persistence, and per-file error coverage remains green. Phase-specific
-progress copy and a tracked ZIP/browser reproduction remain for the next slice.
+**Status (2026-07-11): In progress.** The recovery slice now handles unreadable
+local files, worker startup/posting failures, silent-worker timeout, and explicit
+user cancellation without leaving `isImporting` true. The overlay follows the
+real async lifecycle through Reading files, Parsing hands, Saving locally, and
+Updating analysis, with a deliberately paused regression at every boundary.
+A tracked ZIP/browser reproduction remains before this task is complete.
 
 **Scope:** `HandsUpload`, parser worker lifecycle, persistence completion, and
 the visible import overlay. Reproduce with the smallest tracked fixture and a
