@@ -6,6 +6,7 @@ import type { HandCategory } from '../../components/hands/HandsFilters';
 import type { HeroDecision } from '../../types/analysis';
 import type { Hand } from '../../types/hand';
 import { getHandCategory, HandsPage, replayHandIdFromLocation, shouldOpenImporterFromLocation } from '../HandsPage';
+import { makeHand as baseHand } from '../../test/factories';
 import '@testing-library/jest-dom';
 
 const storeMocks = vi.hoisted(() => ({
@@ -95,29 +96,14 @@ function decision(overrides: Partial<HeroDecision>): HeroDecision {
 }
 
 function makeHand(id: string, overrides: Partial<Hand> = {}): Hand {
-  return {
+  return baseHand({
     id,
     tournamentId: 't1',
     date: new Date('2026-06-30T12:00:00Z'),
-    level: 1,
-    smallBlind: 10,
-    bigBlind: 20,
-    ante: 0,
-    maxSeats: 9,
-    activePlayers: 9,
-    buttonSeat: 1,
-    boardFlop: null,
-    boardTurn: null,
-    boardRiver: null,
     totalPot: 30,
-    rake: 0,
-    hasShowdown: false,
     isStarred: false,
-    heroChipsBefore: 1500,
-    heroChipsAfter: 1500,
-    villainDeltas: [],
     ...overrides,
-  };
+  });
 }
 
 beforeEach(() => {
