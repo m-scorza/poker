@@ -201,6 +201,15 @@ vs board), Playwright e2e layer (decide after F16 reshapes the test pipeline).
 - [x] **`store.ts:102` empty `db.version(4).stores({})`** — *not a bug.* It is an
       intentional no-op that keeps the Dexie version chain contiguous, now carrying
       an explanatory comment. Recorded so it is not re-flagged by future audits.
+- [ ] **`tournamentSummary.ts` prize-extraction quirks** (found by the §6
+      characterization suite, 2026-07-12; pinned in
+      `tournamentSummary.test.ts`, not yet fixed): (a) `RE_MONEY` captures a
+      leading comma, so a `2nd: hero, $100.00` finish line parses prize as 0 —
+      real summaries are rescued by the `You received $X` fallback line, but a
+      summary without that line under-reports the prize; (b) a single
+      `You received $X for eliminating` line is counted as **both** prize and
+      bounty (double-count). Fix both together and update the pinned tests to
+      the corrected behavior.
 
 ### Gated / later (named so they aren't lost)
 
