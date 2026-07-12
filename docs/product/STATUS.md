@@ -437,7 +437,7 @@ src/pages/  (17 files)
   pages/arena/drillPool.ts
   pages/arena/studyQueueHelpers.ts
   pages/arena/studyQueueRoute.ts
-src/components/  (50 files)
+src/components/  (55 files)
   components/arena/ActionButton.tsx
   components/arena/DrillCard.tsx
   components/arena/SpacedReviewCompleteScreen.tsx
@@ -447,8 +447,12 @@ src/components/  (50 files)
   components/career/BustOutChart.tsx
   components/career/CareerCoachCard.tsx
   components/career/CareerDashboard.tsx
+  components/career/CareerHighImpactHandsTab.tsx
+  components/career/CareerNemesisTab.tsx
+  components/career/CareerOverviewTab.tsx
   components/career/CareerScopePanel.tsx
   components/career/CareerStreaksCard.tsx
+  components/career/CareerTiersTab.tsx
   components/career/DayHourHeatmap.tsx
   components/career/FormatBreakdownTable.tsx
   components/career/LifetimeScorecard.tsx
@@ -483,6 +487,7 @@ src/components/  (50 files)
   components/shared/Card.tsx
   components/shared/CommandPalette.tsx
   components/shared/ConfirmDialog.tsx
+  components/shared/DataHealthAlert.tsx
   components/shared/DemoDataButton.tsx
   components/shared/DualRangeMatrix.tsx
   components/shared/InfoTooltip.tsx

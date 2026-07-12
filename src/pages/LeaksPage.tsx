@@ -10,6 +10,7 @@ import { useAppStore } from '../data/appStore';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db, getRecentImportRuns, getLeakStatuses, reconcileLeakStatusesOnImport, setLeakStudying, stopStudyingLeak } from '../data/store';
 import { DemoDataButton } from '../components/shared/DemoDataButton';
+import { DataHealthAlertIcon, dataHealthAlertToneClass } from '../components/shared/DataHealthAlert';
 import { summarizeDataHealth, type DataHealthSummary } from '../data/importRuns';
 import { computeAggregateStats, detectLeaks } from '../analysis/leakDetector';
 import { deriveLeakLifecycle } from '../analysis/leakLifecycle';
@@ -221,21 +222,11 @@ export function LeaksPage() {
     <div className="space-y-6">
       {dataHealthNotice && (
         <section
-          className={clsx(
-            'rounded-2xl border p-4 text-xs shadow-md',
-            dataHealthNotice.tone === 'danger'
-              ? 'border-[var(--loss)]/30 bg-red-950/20 text-red-100/90 shadow-red-950/10'
-              : 'border-warn/30 bg-warn/10 text-[var(--fg-dim)]',
-          )}
+          className={clsx('rounded-2xl border p-4 text-xs shadow-md', dataHealthAlertToneClass(dataHealthNotice.tone === 'danger'))}
           data-testid="leaks-data-health-notice"
         >
           <div className="flex items-start gap-3">
-            <AlertTriangle
-              className={clsx(
-                'mt-0.5 h-[18px] w-[18px] shrink-0',
-                dataHealthNotice.tone === 'danger' ? 'text-[var(--loss)]' : 'text-warn',
-              )}
-            />
+            <DataHealthAlertIcon isDanger={dataHealthNotice.tone === 'danger'} />
             <div className="min-w-0 flex-1">
               <span className="font-bold uppercase tracking-wider" data-testid="leaks-data-health-kicker">
                 {dataHealthNotice.kicker}
