@@ -69,55 +69,28 @@ export function HandsFilters(props: HandsFiltersProps) {
         />
       </div>
 
-      <Select value={props.posFilter} onChange={props.setPosFilter} options={POSITIONS} placeholder="Position" />
-      <Select value={props.scenarioFilter} onChange={props.setScenarioFilter} options={SCENARIOS} placeholder="Scenario" />
-      <Select value={props.actionFilter} onChange={props.setActionFilter} options={['fold', 'raise', 'call', 'check']} placeholder="Pre-flop Action" />
-      <SelectLabeled value={props.complianceFilter} onChange={props.setComplianceFilter} options={COMPLIANCE_FILTERS} labels={COMPLIANCE_LABELS} placeholder="Reference verdict" />
-      <SelectLabeled value={props.stackFilter} onChange={props.setStackFilter} options={STACK_DEPTHS} labels={STACK_DEPTH_LABELS} placeholder="Stack" />
-      <SelectLabeled value={props.categoryFilter} onChange={props.setCategoryFilter} options={HAND_CATEGORIES} labels={CATEGORY_LABELS} placeholder="Category" />
+      <FilterSelect value={props.posFilter} onChange={props.setPosFilter} options={POSITIONS} placeholder="Position" />
+      <FilterSelect value={props.scenarioFilter} onChange={props.setScenarioFilter} options={SCENARIOS} placeholder="Scenario" />
+      <FilterSelect value={props.actionFilter} onChange={props.setActionFilter} options={['fold', 'raise', 'call', 'check']} placeholder="Pre-flop Action" />
+      <FilterSelect value={props.complianceFilter} onChange={props.setComplianceFilter} options={COMPLIANCE_FILTERS} labels={COMPLIANCE_LABELS} placeholder="Reference verdict" />
+      <FilterSelect value={props.stackFilter} onChange={props.setStackFilter} options={STACK_DEPTHS} labels={STACK_DEPTH_LABELS} placeholder="Stack" />
+      <FilterSelect value={props.categoryFilter} onChange={props.setCategoryFilter} options={HAND_CATEGORIES} labels={CATEGORY_LABELS} placeholder="Category" />
     </div>
   );
 }
 
-function Select<T extends string>({
+function FilterSelect<T extends string>({
   value,
   onChange,
   options,
   placeholder,
-}: {
-  value: T | '';
-  onChange: (val: T | '') => void;
-  options: readonly T[];
-  placeholder: string;
-}) {
-  return (
-    <select
-      value={value}
-      onChange={(e) => onChange(e.target.value as T | '')}
-      className="px-3 py-2 text-sm bg-[var(--ink-1)] border border-[var(--hairline)] rounded-lg text-[var(--fg)] focus:outline-none focus:border-[var(--accent)]"
-    >
-      <option value="">{placeholder}</option>
-      {options.map((opt) => (
-        <option key={opt} value={opt}>
-          {opt}
-        </option>
-      ))}
-    </select>
-  );
-}
-
-function SelectLabeled<T extends string>({
-  value,
-  onChange,
-  options,
   labels,
-  placeholder,
 }: {
   value: T | '';
   onChange: (val: T | '') => void;
   options: readonly T[];
-  labels: Record<T, string>;
   placeholder: string;
+  labels?: Record<T, string>;
 }) {
   return (
     <select
@@ -128,7 +101,7 @@ function SelectLabeled<T extends string>({
       <option value="">{placeholder}</option>
       {options.map((opt) => (
         <option key={opt} value={opt}>
-          {labels[opt]}
+          {labels ? labels[opt] : opt}
         </option>
       ))}
     </select>

@@ -10,6 +10,7 @@ import autoTable from 'jspdf-autotable';
 import { format } from 'date-fns';
 import type { Session } from '../data/sessions';
 import type { Leak } from '../analysis/leakDetector';
+import { buildSessionRow } from './sessionRows';
 
 function pct(n: number, d: number): string {
   return d === 0 ? '—' : `${((n / d) * 100).toFixed(1)}%`;
@@ -145,28 +146,9 @@ export function exportSessionsPDF(
       'Won SD', 'Compliance', 'BB/100', 'Total BB', 'Limps', '3-bet', 'Dbl Barrel',
     ];
 
-    const rows = sessions.map((s) => {
-      const st = s.stats;
-      return [
-        s.id,
-        format(s.startTime, 'MM-dd HH:mm'),
-        format(s.endTime, 'MM-dd HH:mm'),
-        s.totalHands.toString(),
-        s.tournamentIds.length.toString(),
-        pct(st.vpipHands, st.totalHands),
-        pct(st.pfrHands, st.totalHands),
-        pct(st.cbetMade, st.cbetOpps),
-        pct(st.cbetHUMade, st.cbetHUOpps),
-        pct(st.wtsdHands, st.vpipHands),
-        pct(st.wonSDHands, st.wtsdHands),
-        pct(st.complianceCompliant, st.complianceEligible),
-        s.bb100Hands > 0 ? s.bb100.toFixed(1) : '—',
-        s.bb100Hands > 0 ? s.totalBb.toFixed(1) : '—',
-        st.limpHands.toString(),
-        pct(st.threeBetMade, st.threeBetOpps),
-        pct(st.doubleBarrelMade, st.doubleBarrelOpps),
-      ];
-    });
+    const rows = sessions.map((s) =>
+      buildSessionRow(s, { dateFormat: 'MM-dd HH:mm', pct, emptyBb: '—', includeBbHands: false }),
+    );
 
     autoTable(doc, {
       startY: 18,

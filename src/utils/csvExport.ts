@@ -6,6 +6,7 @@
 
 import { format } from 'date-fns';
 import type { Session } from '../data/sessions';
+import { buildSessionRow } from './sessionRows';
 
 function pct(n: number, d: number): string {
   return d === 0 ? '0.0' : ((n / d) * 100).toFixed(1);
@@ -36,29 +37,9 @@ export function exportSessionsCSV(sessions: Session[]): void {
     'Double Barrel %',
   ];
 
-  const rows = sessions.map((s) => {
-    const st = s.stats;
-    return [
-      s.id,
-      format(s.startTime, 'yyyy-MM-dd HH:mm'),
-      format(s.endTime, 'yyyy-MM-dd HH:mm'),
-      s.totalHands.toString(),
-      s.tournamentIds.length.toString(),
-      pct(st.vpipHands, st.totalHands),
-      pct(st.pfrHands, st.totalHands),
-      pct(st.cbetMade, st.cbetOpps),
-      pct(st.cbetHUMade, st.cbetHUOpps),
-      pct(st.wtsdHands, st.vpipHands),
-      pct(st.wonSDHands, st.wtsdHands),
-      pct(st.complianceCompliant, st.complianceEligible),
-      s.bb100Hands > 0 ? s.bb100.toFixed(1) : '',
-      s.bb100Hands > 0 ? s.totalBb.toFixed(1) : '',
-      s.bb100Hands.toString(),
-      st.limpHands.toString(),
-      pct(st.threeBetMade, st.threeBetOpps),
-      pct(st.doubleBarrelMade, st.doubleBarrelOpps),
-    ];
-  });
+  const rows = sessions.map((s) =>
+    buildSessionRow(s, { dateFormat: 'yyyy-MM-dd HH:mm', pct, emptyBb: '', includeBbHands: true }),
+  );
 
   const csvContent = [
     headers.join(','),
