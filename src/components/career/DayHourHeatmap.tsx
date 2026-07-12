@@ -50,7 +50,7 @@ export function DayHourHeatmap({ tournaments }: DayHourHeatmapProps) {
   }
 
   return (
-    <div className="bg-[#15171f] border border-white/5 rounded-2xl p-6">
+    <div className="bg-[var(--color-card-surface)] border border-white/5 rounded-2xl p-6">
       <div className="flex items-center gap-2 mb-6">
         <Calendar size={18} className="text-[var(--accent)]" />
         <h3 className="text-sm font-bold text-white uppercase tracking-wider">
@@ -88,7 +88,7 @@ export function DayHourHeatmap({ tournaments }: DayHourHeatmapProps) {
                 if (active && payload && payload.length) {
                   const d = payload[0]!.payload;
                   return (
-                    <div className="bg-[#1a1d26] border border-white/10 rounded-lg p-3 shadow-xl">
+                    <div className="bg-[var(--color-card-surface-3)] border border-white/10 rounded-lg p-3 shadow-xl">
                       <p className="text-white font-bold text-xs mb-1">
                         {DAYS[d.day]} at {HOURS[d.hour]}
                       </p>

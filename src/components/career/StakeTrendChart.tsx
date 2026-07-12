@@ -42,7 +42,7 @@ export function StakeTrendChart({ data }: StakeTrendChartProps) {
           />
           <Tooltip 
             contentStyle={{ 
-              backgroundColor: '#0f172a', 
+              backgroundColor: 'var(--color-card-surface-2)',
               border: '1px solid rgba(255,255,255,0.1)', 
               borderRadius: '12px',
               fontSize: '11px',

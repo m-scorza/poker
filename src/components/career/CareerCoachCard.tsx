@@ -77,7 +77,7 @@ export function CareerCoachCard({ report, onDemoLoaded }: CareerCoachCardProps) 
 
   if (!hasData) {
     return (
-      <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#15171f] via-[#11131a] to-[#090b10] p-8 shadow-2xl">
+      <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[var(--color-card-surface)] via-[var(--color-card-gradient-mid)] to-[var(--color-card-gradient-deep)] p-8 shadow-2xl">
         <div className="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-[var(--accent)]/10 blur-3xl" />
         <div className="relative flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl">
@@ -105,7 +105,7 @@ export function CareerCoachCard({ report, onDemoLoaded }: CareerCoachCardProps) 
   }
 
   return (
-    <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#15171f] via-[#11131a] to-[#090b10] p-6 shadow-2xl lg:p-8">
+    <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[var(--color-card-surface)] via-[var(--color-card-gradient-mid)] to-[var(--color-card-gradient-deep)] p-6 shadow-2xl lg:p-8">
       <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-[var(--accent)]/10 blur-3xl" />
       <div className="absolute -bottom-28 left-1/4 h-56 w-56 rounded-full bg-sky-500/10 blur-3xl" />
 

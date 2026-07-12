@@ -12,7 +12,7 @@ interface StatPillProps {
 
 function StatPill({ label, value, icon, trend, isPositive }: StatPillProps) {
   return (
-    <div className="bg-[#15171f] border border-white/5 rounded-2xl p-4 flex flex-col gap-2 relative overflow-hidden group">
+    <div className="bg-[var(--color-card-surface)] border border-white/5 rounded-2xl p-4 flex flex-col gap-2 relative overflow-hidden group">
       <div className="absolute top-0 right-0 p-3 opacity-5 group-hover:opacity-10 transition-opacity">
         {icon}
       </div>
@@ -86,7 +86,7 @@ export function CareerDashboard({ stats, profitHistory }: CareerDashboardProps) 
         />
       </div>
 
-      <div className="bg-[#15171f] border border-white/5 rounded-2xl p-6">
+      <div className="bg-[var(--color-card-surface)] border border-white/5 rounded-2xl p-6">
         <div className="flex justify-between items-center mb-6">
           <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
             <TrendingUp size={16} className="text-[var(--accent)]" />
@@ -124,7 +124,7 @@ export function CareerDashboard({ stats, profitHistory }: CareerDashboardProps) 
               />
               <Tooltip 
                 contentStyle={{ 
-                  backgroundColor: '#1a1d26', 
+                  backgroundColor: 'var(--color-card-surface-3)',
                   border: '1px solid rgba(255,255,255,0.1)',
                   borderRadius: '12px',
                   boxShadow: '0 10px 15px -3px rgba(0,0,0,0.5)'
