@@ -397,12 +397,19 @@ conflicts.
       shared as `DataHealthAlert` — the rest had materially drifted, #172),
       clone #5 ✅ (ValidationTable, #171), clone #6 ✅ (csv/pdf session-row
       mapping → `src/utils/sessionRows.ts` `buildSessionRow`, #176), clone
-      #7 ✅ (HandsFilters `<FilterSelect>`, #176). **Still open:** F17
-      (hex-literal inventory verified 2026-07-12: 20 literals in 9 files,
-      banked for the token-unification wave), F18 clone #2
+      #7 ✅ (HandsFilters `<FilterSelect>`, #176). **F17 partial — landed
+      2026-07-12 via #179:** the exact-token subset (RangeGrid/
+      DualRangeMatrix `#C9CDD6`/`#111114` → `var(--accent)`/`var(--ink-2)`,
+      pixel-identical). **§6 partial — landed 2026-07-12 via #180:** direct
+      characterization suites for format.ts (incl. `chipAmount`),
+      sessionRows.ts, and csvExport.ts (33 tests). **Still open:** F17
+      remainder (the career-card darks — `#15171f` ×7, `#0f172a` ×2,
+      gradient stops — match no existing token; owner steer needed:
+      converge onto chassis tokens vs mint card-surface tokens; full
+      20-literal/9-file inventory verified 2026-07-12), F18 clone #2
       (pushFoldRanges↔ranges — correctness-sensitive, needs an opus-tier
-      pass), F24, F25 remainder, §6 util tests (format.ts/csvExport/pdfExport
-      still have no direct suites; `chipAmount` is covered only via
-      HandReplay's regression).
+      pass), F24, F25 remainder, §6 remainder (pdfExport.ts,
+      strategyProfiles.ts, importDiagnosticsPolicy.ts, appStore.ts,
+      tournamentSummary.ts).
 - [ ] Flip this report `resolved` + archive when the waves land (or when the
       owner strikes remaining items as won't-fix).
