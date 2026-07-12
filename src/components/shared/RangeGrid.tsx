@@ -29,7 +29,7 @@ function getHandKey(row: number, col: number): string {
 }
 
 const STATUS_CLASSES: Record<CellStatus, string> = {
-  'in-range': 'bg-[color-mix(in_srgb,#C9CDD6_26%,#111114)] border-[var(--accent-line)]',
+  'in-range': 'bg-[color-mix(in_srgb,var(--accent)_26%,var(--ink-2))] border-[var(--accent-line)]',
   'out-of-range': 'bg-white/[0.015] border-transparent',
   'played-correct': 'bg-[var(--money-soft)] border-[var(--money-line)]',
   'played-deviation': 'bg-[var(--loss-soft)] border-[var(--loss)]',
