@@ -165,7 +165,7 @@ export function DualRangeMatrix({ data, onHandClick, position, viewMode }: DualR
         
         {/* Oracle Legend */}
         <div className="mxleg mt-4">
-           <span><span style={{ display: 'inline-block', width: 9, height: 9, borderRadius: 2, background: 'color-mix(in srgb, #C9CDD6 26%, #111114)', border: '1px solid var(--accent-line)', verticalAlign: '-1px' }}></span> in range</span>
+           <span><span style={{ display: 'inline-block', width: 9, height: 9, borderRadius: 2, background: 'color-mix(in srgb, var(--accent) 26%, var(--ink-2))', border: '1px solid var(--accent-line)', verticalAlign: '-1px' }}></span> in range</span>
         </div>
       </div>
 
