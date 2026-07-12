@@ -153,6 +153,70 @@ Workflow:
 "@
 }
 
+function Get-DescendantPids([int]$RootPid) {
+  $all = Get-CimInstance Win32_Process | Select-Object ProcessId, ParentProcessId
+  $result = New-Object System.Collections.Generic.List[int]
+  $queue = New-Object System.Collections.Generic.Queue[int]
+  $queue.Enqueue($RootPid)
+  while ($queue.Count -gt 0) {
+    $current = $queue.Dequeue()
+    foreach ($p in ($all | Where-Object { $_.ParentProcessId -eq $current })) {
+      if (-not $result.Contains([int]$p.ProcessId)) {
+        $result.Add([int]$p.ProcessId)
+        $queue.Enqueue([int]$p.ProcessId)
+      }
+    }
+  }
+  return ,$result
+}
+
+# Worker CLIs (codex, agy) can leave their process tree alive after the
+# dispatch pipeline ends - observed 2026-07-12: a codex exec tree (incl. an
+# MCP server child) survived ~20h as an idle zombie. Reap two ways:
+# descendants of this dispatcher process, plus name+time-scoped orphans
+# whose parent already exited. Never touches pre-existing processes, so the
+# Codex/ChatGPT desktop app is out of scope. The orphan sweep includes
+# plain node (codex spawns "node ./mcp/server.mjs") - safe because it is
+# restricted to processes created during this dispatch; the stale warning
+# excludes it so a long-running vite dev server is not flagged.
+# ASCII only in this file: PowerShell 5.1 reads it as ANSI, and UTF-8
+# em dashes mojibake into smart-quote bytes that break string parsing.
+$OrphanSweepNames = 'codex|agy|node'
+$StaleWarnNames = 'codex|agy|node_repl'
+
+function Reap-WorkerSurvivors([datetime]$DispatchStart, [int[]]$PreExistingPids, [string]$LogPath) {
+  $reaped = @()
+  foreach ($descPid in (Get-DescendantPids $PID)) {
+    $proc = Get-Process -Id $descPid -ErrorAction SilentlyContinue
+    if ($proc) {
+      Stop-Process -Id $descPid -Force -ErrorAction SilentlyContinue
+      $reaped += "$descPid ($($proc.ProcessName), descendant)"
+    }
+  }
+  $orphans = Get-CimInstance Win32_Process | Where-Object {
+    $_.Name -match $OrphanSweepNames -and
+    $_.CreationDate -gt $DispatchStart -and
+    $PreExistingPids -notcontains [int]$_.ProcessId
+  }
+  foreach ($orphan in $orphans) {
+    Stop-Process -Id $orphan.ProcessId -Force -ErrorAction SilentlyContinue
+    $reaped += "$($orphan.ProcessId) ($($orphan.Name), orphan)"
+  }
+  if ($reaped.Count -gt 0) {
+    "Reaped surviving worker process(es): $($reaped -join ', ')" | Tee-Object -FilePath $LogPath -Append
+  }
+}
+
+function Warn-StaleWorkers {
+  $cutoff = (Get-Date).AddHours(-3)
+  $stale = Get-CimInstance Win32_Process | Where-Object {
+    $_.Name -match $StaleWarnNames -and $_.CreationDate -lt $cutoff
+  }
+  foreach ($proc in $stale) {
+    Write-Output "WARNING: stale worker process PID $($proc.ProcessId) ($($proc.Name)) running since $($proc.CreationDate) - likely a zombie from an earlier dispatch; inspect and kill it."
+  }
+}
+
 function Show-Help {
   @'
 Usage:
@@ -271,9 +335,13 @@ if (-not $Execute) {
   exit 0
 }
 
+Warn-StaleWorkers
+
 New-Item -ItemType Directory -Force -Path $RunsDir | Out-Null
 $stamp = Get-Date -Format 'yyyy-MM-dd-HHmmss'
 $logPath = Join-Path $RunsDir "$stamp-$taskId-$workerName.log"
+$dispatchStart = Get-Date
+$preExistingPids = @(Get-CimInstance Win32_Process | ForEach-Object { [int]$_.ProcessId })
 
 "# agent-dispatch $stamp" | Set-Content -LiteralPath $logPath
 "Task: $taskId" | Add-Content -LiteralPath $logPath
@@ -294,5 +362,6 @@ try {
   $workerExitCode = $LASTEXITCODE
 } finally {
   $ErrorActionPreference = $previousErrorActionPreference
+  Reap-WorkerSurvivors $dispatchStart $preExistingPids $logPath
 }
 exit $workerExitCode
