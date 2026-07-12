@@ -93,7 +93,8 @@ describe('exportSessionsCSV', () => {
     expect(revokeObjectURLMock).toHaveBeenCalledWith('blob:mock-csv-url');
 
     const csvText = await capturedBlob!.text();
-    const lines = csvText.replace(/^\uFEFF/, '').split('\n');
+    expect(csvText.startsWith('\uFEFF')).toBe(true);
+    const lines = csvText.slice(1).split('\n');
     const expectedHeader =
       'Session,Start Time,End Time,Hands,Tournaments,VPIP %,PFR %,C-bet Total %,C-bet HU %,WTSD %,Won at SD %,Compliance %,BB/100,Total BB,BB Sample Hands,Limps,3-bet %,Double Barrel %';
     const expectedDataRow =
