@@ -437,7 +437,7 @@ src/pages/  (17 files)
   pages/arena/drillPool.ts
   pages/arena/studyQueueHelpers.ts
   pages/arena/studyQueueRoute.ts
-src/components/  (46 files)
+src/components/  (50 files)
   components/arena/ActionButton.tsx
   components/arena/DrillCard.tsx
   components/arena/SpacedReviewCompleteScreen.tsx
@@ -476,6 +476,10 @@ src/components/  (46 files)
   components/layout/Layout.tsx
   components/layout/Sidebar.tsx
   components/layout/navItems.ts
+  components/ranges/RangeValidatorPanel.tsx
+  components/ranges/RangesSummary.tsx
+  components/ranges/RangesToolbar.tsx
+  components/ranges/rangeFilters.ts
   components/shared/Card.tsx
   components/shared/CommandPalette.tsx
   components/shared/ConfirmDialog.tsx
