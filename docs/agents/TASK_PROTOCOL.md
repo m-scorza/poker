@@ -77,6 +77,11 @@ Parallel execution is allowed only for a non-overlapping task batch.
 - **One task per worktree**: Each worktree runs one task branch and shares only central `.agents/state/`.
 - **Evidence before completion**: Write `.agents/state/evidence-<task_id>.json`, then preflight it with `node scripts/agent-kernel.cjs validate-evidence --task <task_id> --evidence-file <path>`.
 - **Handoff before completion**: Update `docs/agents/AGENT_HANDOFF.md` before `complete`; do not edit or generate files after `complete`.
+- **Open-report scope**: If a change lands work that an active `docs/reports/`
+  file (`status: open`/`in_progress`) tracks — e.g. an abyss-audit wave item —
+  update that report's record **in the same PR**. Five PRs in four days
+  (#141/#142, #153, #158/#160, #167–#173) landed report scope without the
+  record, each requiring a follow-up correction pass.
 
 ## 5. Dispatch safety
 
