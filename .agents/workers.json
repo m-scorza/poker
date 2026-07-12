@@ -105,6 +105,8 @@
       "command": "agy",
       "prompt_transport": "argument",
       "args": [
+        "--print-timeout",
+        "30m",
         "--print",
         "{{prompt}}"
       ],
