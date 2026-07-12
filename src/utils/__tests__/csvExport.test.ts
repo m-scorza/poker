@@ -92,6 +92,9 @@ describe('exportSessionsCSV', () => {
     expect(clickSpy).toHaveBeenCalledTimes(1);
     expect(revokeObjectURLMock).toHaveBeenCalledWith('blob:mock-csv-url');
 
+    const bytes = new Uint8Array(await capturedBlob!.arrayBuffer());
+    expect([bytes[0], bytes[1], bytes[2]]).toEqual([0xef, 0xbb, 0xbf]);
+
     const csvText = await capturedBlob!.text();
     const lines = csvText.replace(/^\uFEFF/, '').split('\n');
     const expectedHeader =
