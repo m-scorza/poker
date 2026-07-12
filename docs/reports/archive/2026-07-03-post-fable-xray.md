@@ -1,12 +1,24 @@
 ---
-status: open
+status: superseded
 date: 2026-07-03
+closed: 2026-07-12
 related:
   - docs/reports/archive/2026-07-01-abyss-audit.md
   - docs/design/DESIGN.md
   - docs/design/DECISIONS.md
   - docs/design/DESIGN_SYSTEM_PORT_PLAN.md
   - docs/product/ROADMAP.md
+  - docs/plans/2026-07-10-owner-ui-review-and-product-modes.md
+note: >
+  Closed 2026-07-12. The P0 "no fake chrome" slice landed on main (browser
+  title "Poker Analyzer", Dashboard Sync removed, Export report wired, nav
+  renamed to "Drills") — verified against source. The remaining slices
+  (Coach's Note flagship, Hands/Leaks/Arena reskins, token unification) are
+  superseded by the 2026-07-10 owner UI review, which redirects the UI
+  effort to product modes + information architecture first — per that plan,
+  "painting the current page structure would preserve the confusion."
+  Anything from sections 3–5 worth keeping should be re-adopted through
+  that plan's backlog, not executed from here.
 ---
 
 # Post-Fable X-Ray — Main Tree Product/Beauty Review (2026-07-03)
