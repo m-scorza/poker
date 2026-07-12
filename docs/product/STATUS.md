@@ -437,7 +437,7 @@ src/pages/  (17 files)
   pages/arena/drillPool.ts
   pages/arena/studyQueueHelpers.ts
   pages/arena/studyQueueRoute.ts
-src/components/  (42 files)
+src/components/  (46 files)
   components/arena/ActionButton.tsx
   components/arena/DrillCard.tsx
   components/arena/SpacedReviewCompleteScreen.tsx
@@ -462,12 +462,16 @@ src/components/  (42 files)
   components/dashboard/TrendChart.tsx
   components/dashboard/VerdictGauge.tsx
   components/dashboard/WireTape.tsx
+  components/hands/DataHealthPanel.tsx
   components/hands/HandReplay.tsx
   components/hands/HandsFilters.tsx
   components/hands/HandsTable.tsx
   components/hands/HandsUpload.tsx
+  components/hands/HeadsUpReferencePanel.tsx
+  components/hands/ImportResults.tsx
   components/hands/SpotSourcePanel.tsx
   components/hands/TrainerSpotCard.tsx
+  components/hands/useImportPipeline.ts
   components/layout/ErrorBoundary.tsx
   components/layout/Layout.tsx
   components/layout/Sidebar.tsx
