@@ -3,6 +3,7 @@ import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
 import { parseUsdCents, centsToUsd, parseLocaleChips } from './money';
 import { rankValue } from '../utils/cards';
+import { DEFAULT_HERO_NAME } from '../data/localStorage';
 
 
 export interface ParsedHand {
@@ -81,14 +82,14 @@ export interface ParseFileResult {
 
 export function parsePokerStarsFile(
   fileContent: string,
-  heroName: string = 'scorza23',
+  heroName: string = DEFAULT_HERO_NAME,
 ): ParsedHand[] {
   return parsePokerStarsFileWithDiagnostics(fileContent, heroName).hands;
 }
 
 export function parsePokerStarsFileWithDiagnostics(
   fileContent: string,
-  heroName: string = 'scorza23',
+  heroName: string = DEFAULT_HERO_NAME,
 ): ParseFileResult {
   if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return { hands: [], skippedBlocks: 0 };
   // Bug #6: Strip UTF-8 BOM + normalize line endings (CRLF → LF)

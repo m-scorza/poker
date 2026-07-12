@@ -2,6 +2,7 @@ import type { Action, PlayerInHand } from '../types/hand';
 import type { Position, Scenario, HeroDecision } from '../types/analysis';
 import type { ParsedHand } from '../parser/pokerstars';
 import type { StrategyProfile } from '../data/strategyProfiles';
+import { DEFAULT_HERO_NAME } from '../data/localStorage';
 import { toCanonicalHandKey } from '../parser/handKey';
 import { estimateICMStage } from './icmDetector';
 import { detectBountyTournament, estimateBountyContext } from './bountyAnalyzer';
@@ -209,7 +210,7 @@ export function detectScenario(
  */
 export function buildHeroDecision(
   parsedHand: ParsedHand,
-  heroName: string = 'scorza23',
+  heroName: string = DEFAULT_HERO_NAME,
   profile: StrategyProfile = 'game_plan',
 ): HeroDecision | null {
   const { hand, players, actions, collectedAmounts, showdownWinners } = parsedHand;

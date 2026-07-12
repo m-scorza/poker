@@ -2,6 +2,7 @@ import type { Action, Hand, PlayerInHand, Tournament } from '../types/hand';
 import type { Position } from '../types/analysis';
 import type { ParsedHand } from './pokerstars';
 import { assignPositions } from './position';
+import { DEFAULT_HERO_NAME } from '../data/localStorage';
 
 type SupportedCurrency = 'USD' | 'T$' | 'PLAY' | 'TICKET';
 type Street = Action['street'];
@@ -76,7 +77,7 @@ interface OhhHand {
   pots?: OhhPot[];
 }
 
-export function parseOpenHandHistoryFile(fileContent: string, heroName = 'scorza23'): ParsedHand[] {
+export function parseOpenHandHistoryFile(fileContent: string, heroName = DEFAULT_HERO_NAME): ParsedHand[] {
   if (fileContent.length > 20 * 1024 * 1024) return [];
   const rawHands = readOhhHands(fileContent);
   const parsed: ParsedHand[] = [];

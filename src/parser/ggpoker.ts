@@ -6,6 +6,7 @@ import { assignPositions } from './position';
 import { extractBuyIn } from './buyInExtractor';
 import { MAX_HAND_HISTORY_INPUT_BYTES } from './pokerstars';
 import { parseUsdCents, centsToUsd } from './money';
+import { DEFAULT_HERO_NAME } from '../data/localStorage';
 
 const RE_HAND_ID = /(?:Poker Hand|GGPoker Hand|Hand) #(\w+):/;
 const RE_TOURNAMENT_ID = /Tournament #(\d+)/;
@@ -27,14 +28,14 @@ const RE_UNCALLED = /^Uncalled bet \(\$?([\d,]+)\) returned to (.+)$/;
  */
 export function parseGGPokerFile(
   fileContent: string,
-  heroName: string = 'scorza23'
+  heroName: string = DEFAULT_HERO_NAME
 ): ParsedHand[] {
   return parseGGPokerFileWithDiagnostics(fileContent, heroName).hands;
 }
 
 export function parseGGPokerFileWithDiagnostics(
   fileContent: string,
-  heroName: string = 'scorza23'
+  heroName: string = DEFAULT_HERO_NAME
 ): ParseFileResult {
   if (fileContent.length > MAX_HAND_HISTORY_INPUT_BYTES) return { hands: [], skippedBlocks: 0 };
   const content = fileContent
@@ -346,7 +347,7 @@ export function parseGGPokerFileWithDiagnostics(
 /** Stub for GGPoker Tournament Summary parser. */
 export function parseGGPokerSummary(
   fileContent: string,
-  heroName: string = 'scorza23'
+  heroName: string = DEFAULT_HERO_NAME
 ): ParsedTournamentSummary | null {
   if (!fileContent.includes('Tournament #')) return null;
 

@@ -23,6 +23,7 @@ import type { PostflopAction } from '../../analysis/postflopAnalyzer';
 import type { ParsedHand } from '../../parser/pokerstars';
 import { calculateAlpha, calculateMDF, getRecommendedCbetSizing } from '../../analysis/math';
 import { chipAmount } from '../../utils/format';
+import { DEFAULT_HERO_NAME } from '../../data/localStorage';
 
 interface HandReplayProps {
   hand: Hand;
@@ -106,7 +107,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             ),
           );
         } else {
-          const heroName = p.find(pl => pl.isHero)?.playerName || 'scorza23';
+          const heroName = p.find(pl => pl.isHero)?.playerName || DEFAULT_HERO_NAME;
           const preflopFolders = new Set(
             a.filter((act) => act.street === 'preflop' && act.actionType === 'fold')
               .map((act) => act.playerName),

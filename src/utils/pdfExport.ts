@@ -11,6 +11,7 @@ import { format } from 'date-fns';
 import type { Session } from '../data/sessions';
 import type { Leak } from '../analysis/leakDetector';
 import { buildSessionRow } from './sessionRows';
+import { DEFAULT_HERO_NAME } from '../data/localStorage';
 
 function pct(n: number, d: number): string {
   return d === 0 ? '—' : `${((n / d) * 100).toFixed(1)}%`;
@@ -22,7 +23,7 @@ function pct(n: number, d: number): string {
 export function exportSessionsPDF(
   sessions: Session[],
   leaks: Leak[] = [],
-  heroName: string = 'scorza23',
+  heroName: string = DEFAULT_HERO_NAME,
 ): void {
   const doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
   const pageWidth = doc.internal.pageSize.getWidth();

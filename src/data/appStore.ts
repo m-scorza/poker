@@ -9,7 +9,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Position, Scenario } from '../types/analysis';
 import type { StrategyProfile } from '../data/strategyProfiles';
-import { CURRENT_SETTINGS_VERSION } from './localStorage';
+import { CURRENT_SETTINGS_VERSION, DEFAULT_HERO_NAME } from './localStorage';
 
 const VALID_STRATEGY_PROFILES: readonly StrategyProfile[] = ['game_plan', 'advanced'] as const;
 
@@ -90,7 +90,7 @@ export const useAppStore = create<AppState>()(
     (set) => ({
       totalHands: 0,
       totalTournaments: 0,
-      heroName: 'scorza23',
+      heroName: DEFAULT_HERO_NAME,
       strategyProfile: 'game_plan',
       filters: { ...DEFAULT_FILTERS },
       activeSessionId: 'all',
