@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 date: 2026-07-01
 related: ['docs/reports/archive/2026-07-01-direction-review-act-iii.md', 'docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md']
 ---
@@ -364,7 +364,7 @@ conflicts.
       and F12 steered DEFER, every item in this wave is landed or steered.
       Verified by the 2026-07-10 health review: shell 376.5 KB, budget guard
       green at 432 KiB.
-- [ ] **Wave 4 — beauty:** F17 (token unification), F18 (nine clones), F19
+- [x] **Wave 4 — beauty:** F17 (token unification), F18 (nine clones), F19
       (god-file decomposition), F21, F24, F25, F26, F28, F29 (§7 addendum); add
       §6 util tests as files are touched. **PARTIAL — landed 2026-07-09 via
       #141:** F21 ✅ (canonical rank-order util `src/utils/cards.ts` consumed
@@ -406,13 +406,39 @@ conflicts.
       DualRangeMatrix `#C9CDD6`/`#111114` → `var(--accent)`/`var(--ink-2)`,
       pixel-identical). **§6 partial — landed 2026-07-12 via #180:** direct
       characterization suites for format.ts (incl. `chipAmount`),
-      sessionRows.ts, and csvExport.ts (33 tests). **Still open:** F17
-      remainder (the career-card darks — `#15171f` ×7, `#0f172a` ×2,
-      gradient stops — match no existing token; owner steer needed:
-      converge onto chassis tokens vs mint card-surface tokens; full
-      20-literal/9-file inventory verified 2026-07-12), F24, F25
-      remainder, §6 remainder (pdfExport.ts,
-      strategyProfiles.ts, importDiagnosticsPolicy.ts, appStore.ts,
-      tournamentSummary.ts).
-- [ ] Flip this report `resolved` + archive when the waves land (or when the
-      owner strikes remaining items as won't-fix).
+      sessionRows.ts, and csvExport.ts (33 tests). **✅ WAVE CLOSED
+      2026-07-12.** F17 remainder steered (owner delegated 2026-07-12):
+      MINT card-surface tokens at the exact pre-existing hex values rather
+      than converge onto chassis tokens — pixel-identical, value
+      consolidation left to a deliberate design pass. Landed via #189: nine
+      `--color-card-surface*` / `--color-card-gradient-*` tokens in
+      tokens.css, 21 literals replaced across 9 career/dashboard/demo
+      files. Chart data-series colors (careerStats categories, Recharts
+      strokes/gradients) were deliberately left — a data-viz palette, not
+      card surfaces. **F17 Tailwind-accent residual STRUCK (won't-fix for
+      now):** the opacity-composed palette accents (`purple-900/30` etc. in
+      HandReplay badges / panels, ConfirmDialog shadows) require
+      replicating Tailwind's rgba math to stay pixel-identical — risk
+      outweighs value, and the owner UI-overhaul lane
+      (`docs/plans/2026-07-10-owner-ui-review-and-product-modes.md`) is
+      likely to rebuild those surfaces anyway; revisit there. **F25
+      completed via #189:** post-F17 re-sweep removed the orphaned
+      reinterpretation.css families (glow-orb/cursor-follower/cmdk/side-nav/
+      dock/r-hud …) and desk.css `.ch-ev`; kept conservatively:
+      `body[data-shell]` token block (load-bearing), `.card`/`.mc` family
+      (live via DualRangeMatrix dynamic clsx), attribute-gated
+      `data-font`/`data-motion` rules, and the tokens.css `@theme` block
+      (backs generated Tailwind utilities). **F24 completed via #190:**
+      `DEFAULT_HERO_NAME` lives in `src/data/localStorage.ts` (zero-import
+      leaf; appStore rejected as home so the parser Web Worker bundle stays
+      zustand-free — verified); 15 production fallback sites across 11
+      files switched; test/fixture literals left. **§6 completed:**
+      pdfExport (#185), strategyProfiles + importDiagnosticsPolicy +
+      tournamentSummary (#186), appStore (#190, 18 tests incl. persist
+      merge/migrate; two report-only oddities noted in the PR: untrimmed
+      heroName round-trip, identity `migrate`). Suite at close: 1 022 tests.
+- [x] Flip this report `resolved` + archive when the waves land (or when the
+      owner strikes remaining items as won't-fix). ✅ 2026-07-12 — all five
+      waves landed or steered; the only struck item is the F17
+      Tailwind-accent residual (above). Every finding F1–F29 is now
+      individually accounted for: landed, steered (F12 DEFER), or struck.

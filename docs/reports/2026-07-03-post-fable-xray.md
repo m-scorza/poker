@@ -2,7 +2,7 @@
 status: open
 date: 2026-07-03
 related:
-  - docs/reports/2026-07-01-abyss-audit.md
+  - docs/reports/archive/2026-07-01-abyss-audit.md
   - docs/design/DESIGN.md
   - docs/design/DECISIONS.md
   - docs/design/DESIGN_SYSTEM_PORT_PLAN.md

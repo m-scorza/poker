@@ -121,7 +121,7 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       F1), archived the 2026-06-12 reports, settled `launch.json`. ✅ **Landed
       (PR #116, abyss Wave 0)** — the gate has been fully green since.
       Plan: `docs/plans/2026-07-01-hermes-worktree-salvage-and-covenant-housekeeping.md`.
-- [ ] **III-1 · Salvage the worktree (Arc 1)** — land Hermes R1 (refusal
+- [x] **III-1 · Salvage the worktree (Arc 1)** — land Hermes R1 (refusal
       completion — closes the refusal-as-UI follow-ups named under Act II) →
       R2 (import provenance) → R3 (spot packets; review checkpoint). **R1–R3
       landed** (e.g. #118 provenance, spot packets in tree). **R4 steered
@@ -133,13 +133,24 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       removed. **Only R5 remains** — research corpus moves to the vault
       (source material lives on the preserved branch:
       `docs/research/CLAIMS_LEDGER.md`, `SOURCE_LEDGER.md`). Same plan doc
-      as III-0.
-- [ ] **III-2 · Abyss cleanup waves (Arc 2)** — execute the abyss audit's wave
+      as III-0. ✅ **R5 landed — Arc 1 complete (verified 2026-07-12):** the
+      corpus was absorbed into the private `poker-knowledge` repo under
+      `research/` (commit `60a1564`, pushed) and the app repo's
+      `docs/research/` is the pointer README only. Loose end outside the
+      repo: the stale `Downloads/poker-claude` snapshot is still awaiting
+      the owner's manual delete (permission-gated, twice).
+- [x] **III-2 · Abyss cleanup waves (Arc 2)** — execute the abyss audit's wave
       plan (F1–F29, cheapest-truth-first: correctness quickies → dead code →
       efficiency → beauty). Target state: zero orphans, one animation library,
       zero token bypasses, no god-files over ~500 lines, node-env tests for
       pure modules (biggest CI win). Report:
-      `docs/reports/2026-07-01-abyss-audit.md` (flips `resolved` when done).
+      `docs/reports/archive/2026-07-01-abyss-audit.md` (flipped `resolved`).
+      ✅ **Complete 2026-07-12** — all five waves landed or steered across
+      #116 → #190; report flipped `resolved` and archived. Residuals, named
+      honestly: F12 animation-library convergence steered DEFER (gsap
+      confined to the lazy dashboard chunk), and the F17 Tailwind-accent
+      residual struck (revisit inside the owner UI-overhaul lane). F2
+      hero-name UI is Arc 5's, not this arc's.
 - [ ] **III-3 · Grade the ungraded (Arc 3)** — the analytical moat, unblocked
       now: extract the vs-3bet grid from the private `poker-knowledge` quiz
       data → grade `FACING_3BET` with owner-approved ranges + tests; then
