@@ -402,7 +402,7 @@ src/analysis/  (31 files)
   analysis/ungradedScenarios.ts
   analysis/villainClassifier.ts
   analysis/villainObserver.ts
-src/data/  (16 files)
+src/data/  (17 files)
   data/appStore.ts
   data/backup.ts
   data/curriculumProgress.ts
@@ -414,6 +414,7 @@ src/data/  (16 files)
   data/localHeadsUpReferences.ts
   data/localStorage.ts
   data/pushFoldRanges.ts
+  data/rangeExpansion.ts
   data/ranges.ts
   data/sessions.ts
   data/starterDiagnostic.ts
