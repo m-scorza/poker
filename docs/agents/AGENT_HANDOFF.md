@@ -8,6 +8,18 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
+## 2026-07-12 - Write direct test suites for strategyProfiles, importDiagnosticsPolicy, tournamentSummary
+
+- Owner / agent:          Antigravity
+- Branch:                 agy/section6-tests
+- Scope:                  src/data/__tests__/strategyProfiles.test.ts, src/data/__tests__/importDiagnosticsPolicy.test.ts, src/parser/__tests__/tournamentSummary.test.ts
+- Files touched:          src/data/__tests__/strategyProfiles.test.ts, src/data/__tests__/importDiagnosticsPolicy.test.ts, src/parser/__tests__/tournamentSummary.test.ts
+- Summary:                Created direct characterization test suites for strategyProfiles (pinning getThresholds, getCbetRule, advancedThreeBetSize boundaries, BB_DEFENSE_ICM_ADJUSTMENTS), importDiagnosticsPolicy (pinning sanitizeDiagnosticText 240-char cap, sanitizeDiagnosticSourceFile redaction, buildImportDiagnosticsSnapshot), and tournamentSummary (characterizing parseTournamentSummary finish/prize/bounty extraction and documenting RE_MONEY comma behavior).
+- Verification:           `npm run typecheck:test` passed; `npx vitest run src/data/__tests__/strategyProfiles.test.ts src/data/__tests__/importDiagnosticsPolicy.test.ts src/parser/__tests__/tournamentSummary.test.ts` passed (3 suites, 32 tests).
+- Risks / assumptions:    Characterization tests document that parseTournamentSummary finish-line prize extraction returns 0 when comma-separated unless fallback 'You received' header is present.
+- Next action requested:  Review characterization test suites and evaluate parseTournamentSummary finish-line comma handling.
+
+
 ## 2026-07-11 - Import recovery and replay number formatting
 
 - Owner / agent:          Codex
