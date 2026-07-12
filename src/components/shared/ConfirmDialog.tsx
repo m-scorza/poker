@@ -1,7 +1,8 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AlertTriangle, X } from 'lucide-react';
 import { clsx } from 'clsx';
+import { useFocusTrap } from './useFocusTrap';
 
 interface ConfirmDialogProps {
   isOpen: boolean;
@@ -25,48 +26,8 @@ export function ConfirmDialog({
   variant = 'danger',
 }: ConfirmDialogProps) {
   const dialogRef = useRef<HTMLDivElement>(null);
-  const previousActiveElement = useRef<Element | null>(null);
 
-  const handleKeyDown = useCallback((e: KeyboardEvent) => {
-    if (e.key === 'Escape') {
-      onCancel();
-      return;
-    }
-    if (e.key === 'Tab' && dialogRef.current) {
-      const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
-        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-      );
-      if (focusable.length === 0) return;
-      const first = focusable[0]!;
-      const last = focusable[focusable.length - 1]!;
-      if (e.shiftKey && document.activeElement === first) {
-        e.preventDefault();
-        last.focus();
-      } else if (!e.shiftKey && document.activeElement === last) {
-        e.preventDefault();
-        first.focus();
-      }
-    }
-  }, [onCancel]);
-
-  useEffect(() => {
-    if (isOpen) {
-      previousActiveElement.current = document.activeElement;
-      document.addEventListener('keydown', handleKeyDown);
-      requestAnimationFrame(() => {
-        const first = dialogRef.current?.querySelector<HTMLElement>(
-          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-        );
-        first?.focus();
-      });
-    }
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-      if (previousActiveElement.current instanceof HTMLElement) {
-        previousActiveElement.current.focus();
-      }
-    };
-  }, [isOpen, handleKeyDown]);
+  useFocusTrap(dialogRef, onCancel, isOpen);
 
   return (
     <AnimatePresence>

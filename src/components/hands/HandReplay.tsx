@@ -3,8 +3,9 @@
  * Shows board cards, player actions, pot progression, and hero cards.
  */
 
-import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
+import { useEffect, useState, useRef, useMemo } from 'react';
 import { PokerCard } from '../shared/Card';
+import { useFocusTrap } from '../shared/useFocusTrap';
 import { SpotSourcePanel } from './SpotSourcePanel';
 import { TrainerSpotCard } from './TrainerSpotCard';
 import { getPlayersForHand, getActionsForHand, toggleStarHand } from '../../data/store';
@@ -79,48 +80,8 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
   const [activeStreet, setActiveStreet] = useState<Street>('preflop');
   const [isStarred, setIsStarred] = useState(hand.isStarred || false);
   const dialogRef = useRef<HTMLDivElement>(null);
-  const previousActiveElement = useRef<Element | null>(null);
 
-  const handleKeyDown = useCallback((e: KeyboardEvent) => {
-    if (e.key === 'Escape') {
-      onClose();
-      return;
-    }
-    if (e.key === 'Tab' && dialogRef.current) {
-      const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
-        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-      );
-      if (focusable.length === 0) return;
-      const first = focusable[0]!;
-      const last = focusable[focusable.length - 1]!;
-
-      if (e.shiftKey && document.activeElement === first) {
-        e.preventDefault();
-        last.focus();
-      } else if (!e.shiftKey && document.activeElement === last) {
-        e.preventDefault();
-        first.focus();
-      }
-    }
-  }, [onClose]);
-
-  useEffect(() => {
-    previousActiveElement.current = document.activeElement;
-    document.addEventListener('keydown', handleKeyDown);
-    requestAnimationFrame(() => {
-      const first = dialogRef.current?.querySelector<HTMLElement>(
-        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-      );
-      first?.focus();
-    });
-
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-      if (previousActiveElement.current instanceof HTMLElement) {
-        previousActiveElement.current.focus();
-      }
-    };
-  }, [handleKeyDown]);
+  useFocusTrap(dialogRef, onClose);
 
   useEffect(() => {
     async function load() {
