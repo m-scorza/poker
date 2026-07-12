@@ -494,12 +494,13 @@ src/components/  (56 files)
   components/shared/RangeGrid.tsx
   components/shared/StatCard.tsx
   components/shared/useFocusTrap.ts
-src/utils/  (5 files)
+src/utils/  (6 files)
   utils/cards.ts
   utils/csvExport.ts
   utils/evidence.ts
   utils/format.ts
   utils/pdfExport.ts
+  utils/sessionRows.ts
 src/types/  (5 files)
   types/analysis.ts
   types/evidence.ts
