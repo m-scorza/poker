@@ -379,16 +379,26 @@ conflicts.
       (dock, command palette, loader — desk.css now 207 lines) and the
       never-defined `.inner-rule`/`.dh-left`/`.dh-right` classNames removed
       from JSX; the post-F17 re-sweep of `tokens.css`/`desk.css` overlap
-      remains. **F19 partial — landed 2026-07-10 via #158/#160:** ArenaPage
-      decomposed 1 499 → 998 lines (pure helpers/constants/presentational
-      subcomponents → `src/pages/arena/*` + `src/components/arena/*`;
-      grading/advance state machine → `src/analysis/arenaDrillEngine.ts`,
-      unit-tested without React). ArenaPage was the drifted addition to F19's
-      scope; the four originally-listed god files (store.ts 929,
-      HandsUpload.tsx 949, CareerPage.tsx 717, RangesPage.tsx) remain. Note
-      for the remainder: `arenaDrillEngine.ts` imports from `src/pages/arena/`
-      (analysis → pages) — restore layering when F19 next touches Arena.
-      **Still open:** F17, F18, F19 remainder (store.ts, HandsUpload,
-      CareerPage, RangesPage), F24, F25 remainder, §6 util tests.
+      remains. **F19 ✅ — completed 2026-07-11/12:** ArenaPage decomposed
+      1 499 → 998 lines via #158/#160 (pure helpers/constants/
+      presentational subcomponents → `src/pages/arena/*` +
+      `src/components/arena/*`; grading/advance state machine →
+      `src/analysis/arenaDrillEngine.ts`, unit-tested without React); the
+      analysis → pages layering note was resolved by #167 (shared drill
+      helpers hoisted to `src/analysis/arena/drillLogic.ts`; the pages
+      modules re-export them); and the four originally-listed god files all
+      landed 2026-07-11/12 — store.ts 929 → 790 via #169
+      (`analysis/villainObserver.ts`), HandsUpload.tsx 1 041 → 154 via
+      #170 (`useImportPipeline` + DataHealthPanel/HeadsUpReferencePanel/
+      ImportResults), RangesPage.tsx 528 → 265 via #171, CareerPage.tsx
+      717 → 238 via #172 (four tab components). **F18 partial — landed
+      2026-07-12 via #171/#172:** clone #5 (matrix validation tables ×4 →
+      ValidationTable) and clone #3 (repeated chart block →
+      CareerChartCard) extracted; clone #4 had materially drifted, so only
+      the byte-identical core is shared (`DataHealthAlert`, adopted by
+      CareerPage + LeaksPage). Clones #1 (focus trap), #2 (range-table
+      scaffolding), #6 (csv/pdf session-row mapping), #7 (FilterSelect)
+      remain. **Still open:** F17, F18 remainder (clones #1, #2, #6, #7),
+      F24, F25 remainder, §6 util tests.
 - [ ] Flip this report `resolved` + archive when the waves land (or when the
       owner strikes remaining items as won't-fix).
