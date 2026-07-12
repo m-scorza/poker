@@ -92,9 +92,11 @@ describe('exportSessionsCSV', () => {
     expect(clickSpy).toHaveBeenCalledTimes(1);
     expect(revokeObjectURLMock).toHaveBeenCalledWith('blob:mock-csv-url');
 
+    const bytes = new Uint8Array(await capturedBlob!.arrayBuffer());
+    expect([bytes[0], bytes[1], bytes[2]]).toEqual([0xef, 0xbb, 0xbf]);
+
     const csvText = await capturedBlob!.text();
-    expect(csvText.startsWith('\uFEFF')).toBe(true);
-    const lines = csvText.slice(1).split('\n');
+    const lines = csvText.replace(/^\uFEFF/, '').split('\n');
     const expectedHeader =
       'Session,Start Time,End Time,Hands,Tournaments,VPIP %,PFR %,C-bet Total %,C-bet HU %,WTSD %,Won at SD %,Compliance %,BB/100,Total BB,BB Sample Hands,Limps,3-bet %,Double Barrel %';
     const expectedDataRow =
