@@ -391,14 +391,18 @@ conflicts.
       HandsUpload.tsx 1 041 → 154 (#170, `useImportPipeline` +
       DataHealthPanel/HeadsUpReferencePanel/ImportResults), RangesPage.tsx
       528 → 265 (#171, `components/ranges/*`), CareerPage.tsx 717 → 238
-      (#172, `components/career/*Tab.tsx`). **F18 partial — landed
+      (#172, `components/career/*Tab.tsx`). **F18 near-complete — landed
       2026-07-12:** clone #1 ✅ (`useFocusTrap`, #173), clone #3 ✅
       (CareerChartCard, #172), clone #4 partial (only the byte-identical core
       shared as `DataHealthAlert` — the rest had materially drifted, #172),
-      clone #5 ✅ (ValidationTable, #171). **Still open:** F17, F18 remainder
-      (clones #2 pushFoldRanges↔ranges, #6 csvExport↔pdfExport, #7
-      HandsFilters `<FilterSelect>`), F24, F25 remainder, §6 util tests
-      (format.ts/csvExport/pdfExport still have no direct suites; `chipAmount`
-      is covered only via HandReplay's regression).
+      clone #5 ✅ (ValidationTable, #171), clone #6 ✅ (csv/pdf session-row
+      mapping → `src/utils/sessionRows.ts` `buildSessionRow`, #176), clone
+      #7 ✅ (HandsFilters `<FilterSelect>`, #176). **Still open:** F17
+      (hex-literal inventory verified 2026-07-12: 20 literals in 9 files,
+      banked for the token-unification wave), F18 clone #2
+      (pushFoldRanges↔ranges — correctness-sensitive, needs an opus-tier
+      pass), F24, F25 remainder, §6 util tests (format.ts/csvExport/pdfExport
+      still have no direct suites; `chipAmount` is covered only via
+      HandReplay's regression).
 - [ ] Flip this report `resolved` + archive when the waves land (or when the
       owner strikes remaining items as won't-fix).
