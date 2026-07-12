@@ -14,7 +14,7 @@ describe('RangeGrid', () => {
     const { container } = render(<RangeGrid getCellStatus={(handKey) => mockRange.has(handKey) ? 'in-range' : 'out-of-range'} />);
 
     const aaCell = within(container).getByRole('button', { name: 'AA' });
-    expect(aaCell).toHaveClass('bg-[color-mix(in_srgb,#C9CDD6_26%,#111114)]');
+    expect(aaCell).toHaveClass('bg-[color-mix(in_srgb,var(--accent)_26%,var(--ink-2))]');
   });
 
   it('clears the hovered hand when leaving a cell', () => {
