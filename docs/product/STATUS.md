@@ -437,7 +437,7 @@ src/pages/  (17 files)
   pages/arena/drillPool.ts
   pages/arena/studyQueueHelpers.ts
   pages/arena/studyQueueRoute.ts
-src/components/  (55 files)
+src/components/  (56 files)
   components/arena/ActionButton.tsx
   components/arena/DrillCard.tsx
   components/arena/SpacedReviewCompleteScreen.tsx
@@ -493,6 +493,7 @@ src/components/  (55 files)
   components/shared/InfoTooltip.tsx
   components/shared/RangeGrid.tsx
   components/shared/StatCard.tsx
+  components/shared/useFocusTrap.ts
 src/utils/  (5 files)
   utils/cards.ts
   utils/csvExport.ts
