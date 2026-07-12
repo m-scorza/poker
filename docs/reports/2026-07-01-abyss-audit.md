@@ -397,7 +397,11 @@ conflicts.
       shared as `DataHealthAlert` — the rest had materially drifted, #172),
       clone #5 ✅ (ValidationTable, #171), clone #6 ✅ (csv/pdf session-row
       mapping → `src/utils/sessionRows.ts` `buildSessionRow`, #176), clone
-      #7 ✅ (HandsFilters `<FilterSelect>`, #176). **F17 partial — landed
+      #7 ✅ (HandsFilters `<FilterSelect>`, #176), clone #2 ✅ (range-
+      notation helpers `RANKS`/`expandPairs`/`expandSuitedRange`/`rangeSet`
+      → `src/data/rangeExpansion.ts`, #183 — range data untouched, membership
+      pinned by 209 passing range-suite tests). **F18 CLOSED.** **F17
+      partial — landed
       2026-07-12 via #179:** the exact-token subset (RangeGrid/
       DualRangeMatrix `#C9CDD6`/`#111114` → `var(--accent)`/`var(--ink-2)`,
       pixel-identical). **§6 partial — landed 2026-07-12 via #180:** direct
@@ -406,9 +410,8 @@ conflicts.
       remainder (the career-card darks — `#15171f` ×7, `#0f172a` ×2,
       gradient stops — match no existing token; owner steer needed:
       converge onto chassis tokens vs mint card-surface tokens; full
-      20-literal/9-file inventory verified 2026-07-12), F18 clone #2
-      (pushFoldRanges↔ranges — correctness-sensitive, needs an opus-tier
-      pass), F24, F25 remainder, §6 remainder (pdfExport.ts,
+      20-literal/9-file inventory verified 2026-07-12), F24, F25
+      remainder, §6 remainder (pdfExport.ts,
       strategyProfiles.ts, importDiagnosticsPolicy.ts, appStore.ts,
       tournamentSummary.ts).
 - [ ] Flip this report `resolved` + archive when the waves land (or when the
