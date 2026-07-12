@@ -45,7 +45,7 @@ export function LifetimeScorecard({ tournaments, decisions }: LifetimeScorecardP
   if (metrics.totalHands === 0) return null;
 
   return (
-    <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0f172a] p-8 shadow-2xl">
+    <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[var(--color-card-surface-2)] p-8 shadow-2xl">
       <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-indigo-500/5 blur-3xl" />
 
       <div className="relative z-10 grid gap-8 md:grid-cols-4 lg:grid-cols-6">

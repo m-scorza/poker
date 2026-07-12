@@ -49,7 +49,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
       : 'amber';
 
   return (
-    <section className="overflow-hidden rounded-[2rem] border border-cyan-400/15 bg-[#0b111b] shadow-2xl shadow-cyan-950/20">
+    <section className="overflow-hidden rounded-[2rem] border border-cyan-400/15 bg-[var(--color-card-surface-4)] shadow-2xl shadow-cyan-950/20">
       <div className="relative border-b border-white/5 bg-gradient-to-r from-cyan-500/10 via-indigo-500/5 to-transparent p-6">
         <div className="absolute right-8 top-6 hidden rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-xs font-black uppercase tracking-[0.24em] text-cyan-200 md:block">
           Private SharkScope
@@ -134,7 +134,7 @@ export function CareerScopePanel({ profile }: CareerScopePanelProps) {
                     <XAxis dataKey="index" stroke="rgba(255,255,255,0.35)" fontSize={10} tickLine={false} axisLine={false} />
                     <YAxis stroke="rgba(255,255,255,0.35)" fontSize={10} tickFormatter={(value) => `$${value}`} tickLine={false} axisLine={false} />
                     <Tooltip
-                      contentStyle={{ backgroundColor: '#111827', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 14 }}
+                      contentStyle={{ backgroundColor: 'var(--color-card-surface-tooltip)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 14 }}
                       labelFormatter={(label) => `Tournament #${label}`}
                       formatter={(value, name) => [`$${Number(value).toFixed(2)}`, name === 'profit' ? 'Profit' : 'Trend']}
                     />

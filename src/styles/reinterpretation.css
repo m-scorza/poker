@@ -71,38 +71,17 @@ body[data-font="hybrid"] {
   --mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
-/* ---------- BACKGROUND · quiet dot grid ---------- */
-.glow-orb { display: none; }
-.bg-grid {
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.035) 1px, transparent 1.5px);
-  background-size: 28px 28px;
-  mask-image: radial-gradient(ellipse 95% 80% at 50% 0%, #000 25%, transparent 100%);
-}
-
 /* ---------- HALO · the signature (key V) ---------- */
-.cursor-follower {
-  width: 10px; height: 10px;
-  border: 1px solid var(--sig-line);
-  background: var(--sig-soft);
-}
 ::selection { background: var(--sig-glow); color: var(--fg); }
 
 /* focus + selection moments carry the signature */
-.scope:focus-within { border-color: var(--sig-line); box-shadow: none; }
-.cmdk input:focus { border-bottom-color: var(--sig-line); }
-.cmdk-item.sel, .cmdk-item:hover { background: var(--sig-soft); color: var(--fg); }
 .wire-badge .pulse { background: var(--sig); box-shadow: 0 0 0 0 var(--sig-glow); }
 .wire-badge .t b { color: var(--fg); }
 
 /* signature, second pass — "a tiny bit more present":
    wayfinding moments (where am I / where do I act) join the set */
-.side-nav a.on { box-shadow: inset 2px 0 0 var(--sig); }
 .tab-menu button.on { color: var(--fg); box-shadow: inset 0 -2px 0 var(--sig); }
-.loader .lkick { color: var(--sig); }
-.loader .lbar i { background: var(--sig); box-shadow: none; }
 .verdict-fix .fa { color: var(--sig); }
-.hl-cta span { color: var(--sig) !important; }
-.crumb b { color: var(--sig); }
 
 /* ---------- SURFACES · v7 tone-shift model ---------- */
 .card {
@@ -114,28 +93,6 @@ body[data-font="hybrid"] {
 .card.lift:hover { background: var(--bg-card-hover); box-shadow: none; border: 0; }
 .monument { background: var(--bg-2); }
 .headline { border: 0; background: linear-gradient(150deg, var(--loss-soft) 0%, var(--bg-2) 55%); }
-
-.sidebar { background: var(--bg); border-right: 1px solid var(--border); }
-.side-logo .glyph { background: var(--fg); color: var(--bg); box-shadow: none; }
-.side-nav a.on { color: var(--fg); background: rgba(255, 255, 255, 0.045); border-color: transparent; }
-.side-nav a.on .ct { color: var(--fg-muted); }
-/* the one jewel in the chrome: lifetime profit gets the glass+glow
-   treatment everything else gave up — a single deliberate shine */
-.side-foot {
-  background: linear-gradient(160deg, var(--sig-soft) 0%, rgba(52, 217, 140, 0.05) 55%, transparent 100%);
-  border: 1px solid var(--border-strong);
-  border-radius: var(--r-md);
-  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 0 28px rgba(52, 217, 140, 0.11), inset 0 1px 0 rgba(255, 255, 255, 0.06);
-  position: relative; overflow: hidden;
-}
-.side-foot::after {
-  content: ''; position: absolute; top: -40%; right: -30%; width: 80%; height: 80%;
-  background: radial-gradient(circle, rgba(52, 217, 140, 0.13) 0%, transparent 70%);
-  pointer-events: none;
-}
-.sf-profit { text-shadow: 0 0 20px rgba(52, 217, 140, 0.40); }
-.side-foot .ava { background: var(--bg-input); border: 1px solid var(--border-strong); color: var(--fg); }
 
 /* ---------- 13×13 RANGE MATRIX · monochrome frequency encoding ----------
    Yellow purged (warn = alerts only, never range states).
@@ -176,24 +133,4 @@ body[data-font="hybrid"] {
 .ch-line { filter: none; stroke-width: 2; }
 .ch-dot { filter: none; }
 .stat-trigger.active { box-shadow: none; }
-.chip.cap { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4); }
-.hl-cta:hover { box-shadow: none; border-color: var(--border-strong); }
 .seat-btn.active { box-shadow: none; border-color: var(--fg); }
-.loader .lbar i { background: var(--fg); box-shadow: none; }
-.dock { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35); }
-
-/* palette decision is made — hide the old theme swatch group */
-.dock .grp:first-child { display: none; }
-.dock .divide:first-of-type { display: none; }
-
-/* ---------- R-HUD chip ---------- */
-.r-hud {
-  position: fixed; left: 14px; bottom: 14px; z-index: 9500;
-  font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
-  color: var(--fg-muted); background: var(--bg-2);
-  border: 1px solid var(--border-strong); border-radius: 8px;
-  padding: 8px 12px; line-height: 1.7; user-select: none;
-}
-.r-hud b { color: var(--fg); font-weight: 700; }
-.r-hud .sig { color: var(--sig); }
-.r-hud .keys { color: var(--fg-dim); display: block; }

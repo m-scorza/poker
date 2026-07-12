@@ -27,7 +27,7 @@ export function BustOutChart({ data }: { data: BustOutBucket[] }) {
           <Tooltip 
             cursor={{ fill: 'rgba(255,255,255,0.05)' }}
             contentStyle={{ 
-              backgroundColor: '#0f172a', 
+              backgroundColor: 'var(--color-card-surface-2)',
               border: '1px solid rgba(255,255,255,0.1)', 
               borderRadius: '12px',
               fontSize: '11px',

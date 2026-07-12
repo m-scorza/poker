@@ -43,7 +43,7 @@ const STEPS = [
 export function DemoPage() {
   return (
     <div className="space-y-10 pb-20">
-      <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#10151f] via-[#0b0d12] to-black p-8 shadow-2xl lg:p-10">
+      <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[var(--color-card-surface-5)] via-[var(--color-card-gradient-fade)] to-black p-8 shadow-2xl lg:p-10">
         <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-[var(--accent)]/10 blur-3xl" />
         <div className="absolute -bottom-24 left-1/3 h-64 w-64 rounded-full bg-sky-500/10 blur-3xl" />
         <div className="relative grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">

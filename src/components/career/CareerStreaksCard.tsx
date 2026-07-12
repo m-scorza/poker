@@ -53,7 +53,7 @@ export function CareerStreaksCard({ tournaments }: CareerStreaksCardProps) {
   ];
 
   return (
-    <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0f172a] p-8 shadow-2xl">
+    <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-[var(--color-card-surface-2)] p-8 shadow-2xl">
       <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-amber-500/5 blur-3xl" />
 
       <div className="relative z-10">
@@ -71,7 +71,7 @@ export function CareerStreaksCard({ tournaments }: CareerStreaksCardProps) {
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="rounded-2xl bg-[#15171f] border border-white/5 p-5"
+              className="rounded-2xl bg-[var(--color-card-surface)] border border-white/5 p-5"
             >
               <div className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[var(--fg-dim)] mb-3">
                 <stat.icon size={12} className={stat.accent} /> {stat.label}

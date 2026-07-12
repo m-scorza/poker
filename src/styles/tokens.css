@@ -54,6 +54,18 @@
   --color-felt: #121215;
   --color-felt-rail: #1c1c21;
 
+  /* ---- career/dashboard card surfaces (F17 remainder — pixel-identical
+     mint of pre-existing literals; distinct hex = distinct token) ---- */
+  --color-card-surface: #15171f;
+  --color-card-surface-2: #0f172a;
+  --color-card-surface-3: #1a1d26;
+  --color-card-surface-4: #0b111b;
+  --color-card-surface-5: #10151f;
+  --color-card-surface-tooltip: #111827;
+  --color-card-gradient-mid: #11131a;
+  --color-card-gradient-deep: #090b10;
+  --color-card-gradient-fade: #0b0d12;
+
   /* ---- 4-color deck (carried from poker 4 tokens) ---- */
   --color-spade: #f2f2f4;
   --color-heart: #FF5468;
