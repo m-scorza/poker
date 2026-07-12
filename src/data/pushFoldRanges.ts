@@ -14,36 +14,7 @@
 
 import type { Position } from '../types/analysis';
 import type { RangeSet, PositionRanges } from '../types/ranges';
-
-const RANKS = '23456789TJQKA';
-
-function rankIdx(r: string): number {
-  return RANKS.indexOf(r);
-}
-
-function expandPairs(high: string, low: string): string[] {
-  const hi = rankIdx(high);
-  const lo = rankIdx(low);
-  const result: string[] = [];
-  for (let i = hi; i >= lo; i--) {
-    result.push(RANKS[i]! + RANKS[i]!);
-  }
-  return result;
-}
-
-function expandSuitedRange(r1: string, kicker1: string, kicker2: string, suffix: string): string[] {
-  const k1 = rankIdx(kicker1);
-  const k2 = rankIdx(kicker2);
-  const result: string[] = [];
-  for (let i = k1; i >= k2; i--) {
-    result.push(r1 + RANKS[i]! + suffix);
-  }
-  return result;
-}
-
-function rangeSet(hands: string[]): RangeSet {
-  return new Set(hands);
-}
+import { expandPairs, expandSuitedRange, rangeSet } from './rangeExpansion';
 
 // --- Push ranges at 10bb by position ---
 // Source: CLAUDE.md + docs/knowledge/strategy/02-ranges-and-position.md §4
