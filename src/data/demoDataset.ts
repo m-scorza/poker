@@ -3,6 +3,7 @@ import type { Action, Hand, PlayerInHand, Tournament } from '../types/hand';
 import type { HeroDecision, Position, Scenario, DeviationType } from '../types/analysis';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 import { DEMO_VILLAINS } from './demoVillains';
+import { DEFAULT_HERO_NAME } from './localStorage';
 
 export interface DemoDataset {
   handsData: Array<{
@@ -32,7 +33,7 @@ export interface DemoSeedProgress {
 
 const DEMO_PREFIX = 'DEMO';
 export const DEMO_TOURNAMENT_COUNT = 250;
-const HERO = 'scorza23';
+const HERO = DEFAULT_HERO_NAME;
 const BUY_IN = 1;
 const FEE = 0.1;
 const SEAT_POSITIONS: Position[] = ['BTN', 'SB', 'BB', 'UTG', 'HJ', 'CO'];

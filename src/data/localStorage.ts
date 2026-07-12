@@ -19,6 +19,14 @@ export const RANGE_PREFIX = 'poker:range:';
 export const CURRENT_RANGE_VERSION = 1;
 export const CURRENT_SETTINGS_VERSION = 1;
 
+/**
+ * Fallback hero name used when no hero is configured yet (fresh install,
+ * missing settings row, or an explicit override wasn't supplied). Historical
+ * fixtures/tests use this same value; user-facing docs keep the posture
+ * generic.
+ */
+export const DEFAULT_HERO_NAME = 'scorza23';
+
 export interface RangeEnvelopeV1 {
   version: 1;
   hands: string[];

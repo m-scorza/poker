@@ -71,7 +71,7 @@ db.version(2).stores({
   settings: 'id',
 }).upgrade((tx) => {
   // Try to preserve existing hero decisions, but they will be mapped automatically without their old PK
-  tx.table('settings').put({ id: 'global', heroName: 'scorza23' });
+  tx.table('settings').put({ id: 'global', heroName: ls.DEFAULT_HERO_NAME });
 });
 
 // Phase 5a: Add hasShowdown to hands, recompute wentToShowdown/wonAtShowdown on decisions
@@ -675,7 +675,7 @@ export async function clearAllData(): Promise<void> {
 /** Get the currently configured Hero Name from DB Settings */
 export async function getHeroName(): Promise<string> {
   const s = await db.settings.get('global');
-  return s?.heroName || 'scorza23';
+  return s?.heroName || ls.DEFAULT_HERO_NAME;
 }
 
 /** Save the currently configured Hero Name */

@@ -4,6 +4,7 @@ import { parsePokerStarsFile, type ParsedHand } from './pokerstars';
 import { identifyFile, type FileIdentity } from './siteIdentifier';
 import { sanitizeHandHistory, type SanitizedHandHistoryReport } from './sanitizeHandHistory';
 import type { ImportConfidence } from './workerProcessor';
+import { DEFAULT_HERO_NAME } from '../data/localStorage';
 
 interface ContributionSourceFile {
   name: string;
@@ -134,7 +135,7 @@ function parseSanitizedHandHistory(
   originalHeroName: string,
 ): ParsedHand[] {
   if (identity.site === 'pokerstars') return parsePokerStarsFile(sanitizedText, 'Hero');
-  if (identity.site === 'ggpoker') return parseGGPokerFile(sanitizedText, originalHeroName === 'Hero' ? 'scorza23' : originalHeroName);
+  if (identity.site === 'ggpoker') return parseGGPokerFile(sanitizedText, originalHeroName === 'Hero' ? DEFAULT_HERO_NAME : originalHeroName);
   if (identity.site === 'open_hand_history') return parseOpenHandHistoryFile(sanitizedText, 'Hero');
   return [];
 }

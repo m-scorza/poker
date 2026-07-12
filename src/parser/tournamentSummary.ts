@@ -1,5 +1,6 @@
 import { extractBuyIn, MAX_PLAUSIBLE_USD_BUYIN } from './buyInExtractor';
 import { parseUsdCents, centsToUsd } from './money';
+import { DEFAULT_HERO_NAME } from '../data/localStorage';
 
 /**
  * Try US-locale parse first, fall back to locale-aware (comma-decimal) on
@@ -37,7 +38,7 @@ const RE_BOUNTY_LINE = /(?:received|won|bounty).*?\$?([\d,]+\.?\d*).*?(?:bountie
  */
 export function parseTournamentSummary(
   fileContent: string,
-  heroName: string = 'scorza23'
+  heroName: string = DEFAULT_HERO_NAME
 ): ParsedTournamentSummary | null {
   const content = fileContent
     .replace(/^\uFEFF/, '')
