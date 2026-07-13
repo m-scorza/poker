@@ -31,22 +31,5 @@
     // in-repo consumer (store.ts + its own test), so this line is
     // defensive — it keeps the file safe if that consumer ever changes.
     "src/analysis/villainClassifier.ts",
-
-    // --- Unreviewed candidates found by the initial knip sweep (2026-07-13) ---
-    // Each of these files has 1-3 exports (see PR body for the exact list)
-    // that nothing outside the file currently imports. They read as dead
-    // code, but this sweep's mandate is "wire the gate," not "delete code,"
-    // so they're allowlisted at the file level instead of being removed.
-    // Trade-off: knip has no config-only way to ignore a single named
-    // export short of excluding the whole file, so the *other* exports in
-    // these files also stop getting knip's unused-export coverage until a
-    // follow-up either deletes the dead ones or narrows this list.
-    "src/data/starterDiagnostic.ts",
-    "src/pages/arena/actionOptions.ts",
-    "src/pages/arena/drillPool.ts",
-    "src/analysis/tiltDetector.ts",
-    "src/components/blackout/HonestyStrip.tsx",
-    "src/data/backup.ts",
-    "src/test/fuzz/handHistoryGenerator.ts",
   ],
 }
