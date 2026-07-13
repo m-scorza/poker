@@ -100,6 +100,15 @@ describe('useAppStore actions', () => {
     expect(useAppStore.getState().heroName).toBe('villain42');
   });
 
+  it('setHeroName trims surrounding whitespace before it reaches the persisted state', () => {
+    // The write boundary normalizes the name so the value that both Zustand's
+    // partialize and the boot-read (getHeroName → setHeroName) persist is always
+    // trimmed — an untrimmed hero name silently breaks `Dealt to <name>` parser
+    // matching. See ROADMAP III-5 and the mergePersistedSettings characterization.
+    useAppStore.getState().setHeroName('  Maverick  ');
+    expect(useAppStore.getState().heroName).toBe('Maverick');
+  });
+
   it('setStrategyProfile switches profile', () => {
     useAppStore.getState().setStrategyProfile('advanced');
     expect(useAppStore.getState().strategyProfile).toBe('advanced');
