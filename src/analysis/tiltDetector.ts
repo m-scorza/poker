@@ -22,9 +22,9 @@ import type { Hand } from '../types/hand';
 import { SESSION_GAP_MS } from '../data/sessions';
 import { complianceExclusionReasonForDecision } from './rangeChecker';
 
-export type TiltTriggerKind = 'bust_out' | 'half_stack_loss' | 'big_loss';
+type TiltTriggerKind = 'bust_out' | 'half_stack_loss' | 'big_loss';
 
-export interface TiltTrigger {
+interface TiltTrigger {
   handId: string;
   kind: TiltTriggerKind;
   /** Hero's net for the trigger hand, in big blinds (negative = loss). */
@@ -34,7 +34,7 @@ export interface TiltTrigger {
 
 export type TiltMetric = 'compliance' | 'vpip' | 'raise_share';
 
-export interface TiltMetricComparison {
+interface TiltMetricComparison {
   metric: TiltMetric;
   /** Percentage (0-100) over the post-trigger windows. */
   windowPct: number;

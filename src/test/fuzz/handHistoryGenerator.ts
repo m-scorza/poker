@@ -20,7 +20,7 @@
  *   known parser ambiguity — a future lane, not fuzzed here.
  */
 
-export interface ExpectedAction {
+interface ExpectedAction {
   playerName: string;
   actionType: 'post_ante' | 'post_sb' | 'post_bb' | 'fold' | 'check' | 'call' | 'bet' | 'raise';
   street: 'preflop' | 'flop' | 'turn' | 'river';
@@ -28,7 +28,7 @@ export interface ExpectedAction {
   isAllIn: boolean;
 }
 
-export interface ExpectedSeat {
+interface ExpectedSeat {
   seatNumber: number;
   playerName: string;
   chipsBefore: number;

@@ -34,7 +34,7 @@ export const BACKUP_TABLES = [
   'srsReview',
 ] as const;
 
-export type BackupTableName = (typeof BACKUP_TABLES)[number];
+type BackupTableName = (typeof BACKUP_TABLES)[number];
 
 export interface BackupFile {
   format: typeof BACKUP_FORMAT;

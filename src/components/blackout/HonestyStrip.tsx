@@ -4,7 +4,7 @@
  * live count), local-only. See docs/design/BLACKOUT_ROLLOUT.md (signature 5).
  */
 
-export interface HonestyCell {
+interface HonestyCell {
   label: string;
   body: string;
 }

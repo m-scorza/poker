@@ -5,7 +5,7 @@ import { uniqueNonEmpty, type GetDrillPoolOptions } from './studyQueueRoute';
 import type { DrillType } from '../../analysis/arena/drillLogic';
 
 export type { DrillType } from '../../analysis/arena/drillLogic';
-export { shouldCbet, isCbetActionCorrect } from '../../analysis/arena/drillLogic';
+export { isCbetActionCorrect } from '../../analysis/arena/drillLogic';
 
 export function getDrillPool(
   type: DrillType,
