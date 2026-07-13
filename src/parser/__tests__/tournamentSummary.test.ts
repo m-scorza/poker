@@ -7,10 +7,7 @@ describe('parseTournamentSummary()', () => {
     expect(parseTournamentSummary('Hand History #123456\nNo summary header here')).toBeNull();
   });
 
-  it('parses tournament summary and characterizes RE_MONEY comma-capture & "You received" fallback overwrite', () => {
-    // Characterization note:
-    // 1. RE_MONEY matches leading comma in ", $45.50" as capture group 1 (","), causing finish-line prize parse to return null.
-    // 2. "You received $12.50 for eliminating players" triggers the line.startsWith('you received') fallback, overwriting prize with 12.50.
+  it('parses comma-separated finish-line prize and counts an eliminating line once as bounty', () => {
     const summaryText = [
       "Tournament #3567890123, $4.90+$0.50 USD Hold'em No Limit",
       'Buy-In: $4.90/$0.50 USD',
@@ -24,7 +21,7 @@ describe('parseTournamentSummary()', () => {
       tournamentId: '3567890123',
       name: "$4.90+$0.50 USD Hold'em No Limit",
       finishPosition: 3,
-      prize: 12.5,
+      prize: 45.5,
       bounty: 12.5,
       buyIn: 4.9,
       fee: 0.5,
@@ -33,8 +30,7 @@ describe('parseTournamentSummary()', () => {
     });
   });
 
-  it('parses finish position and characterizes prize=0 when finish line uses comma separator', () => {
-    // Characterization note: RE_MONEY = /\$?([\d,]+\.?\d*)/ captures leading comma in line slice ", $100.00"
+  it('parses finish-line prize when the finish line uses a comma separator', () => {
     const summaryText = [
       'Tournament #11223344, $10+$1 USD',
       '2nd: HeroPlayer, $100.00',
@@ -46,12 +42,57 @@ describe('parseTournamentSummary()', () => {
       tournamentId: '11223344',
       name: '$10+$1 USD',
       finishPosition: 2,
-      prize: 0,
+      prize: 100,
       bounty: 0,
       buyIn: 10,
       fee: 1,
       currency: 'USD',
       heroName: 'heroplayer',
+    });
+  });
+
+  it('extracts the correct prize from a comma finish line with no "You received" fallback', () => {
+    const summaryText = [
+      "Tournament #7788990011, $2.50+$0.30 USD Hold'em No Limit",
+      'Buy-In: $2.50/$0.30 USD',
+      '4th: scorza23, $73.20',
+    ].join('\n');
+
+    const result = parseTournamentSummary(summaryText, 'scorza23');
+
+    expect(result).toEqual({
+      tournamentId: '7788990011',
+      name: "$2.50+$0.30 USD Hold'em No Limit",
+      finishPosition: 4,
+      prize: 73.2,
+      bounty: 0,
+      buyIn: 2.5,
+      fee: 0.3,
+      currency: 'USD',
+      heroName: 'scorza23',
+    });
+  });
+
+  it('counts a lone eliminating line exactly once as bounty, not also as prize', () => {
+    const summaryText = [
+      "Tournament #6655443322, $1+$0.10 USD Hold'em No Limit",
+      'Buy-In: $1/$0.10 USD',
+      '5th: scorza23, $30.00',
+      'You received $8.00 for eliminating players',
+    ].join('\n');
+
+    const result = parseTournamentSummary(summaryText, 'scorza23');
+
+    expect(result).toEqual({
+      tournamentId: '6655443322',
+      name: "$1+$0.10 USD Hold'em No Limit",
+      finishPosition: 5,
+      prize: 30,
+      bounty: 8,
+      buyIn: 1,
+      fee: 0.1,
+      currency: 'USD',
+      heroName: 'scorza23',
     });
   });
 
