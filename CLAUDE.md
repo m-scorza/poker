@@ -378,7 +378,7 @@ type VillainArchetype = 'fish' | 'nit' | 'tag' | 'lag' | 'station' | 'maniac';
 
 ---
 
-## Project Structure (verified against source 2026-05-31)
+## Project Structure (verified against source 2026-07-13)
 
 ```
 src/
@@ -391,7 +391,9 @@ src/
 │                   sessions.ts, strategyProfiles.ts, pushFold/local heads-up refs
 ├── components/     layout/ (Layout, Sidebar, ErrorBoundary),
 │                   dashboard/ (TrendChart, BankrollChart, PositionalHeatmap),
-│                   career/, hands/ (HandReplay, HandsTable, HandsUpload),
+│                   arena/, blackout/, career/ (tab components), coach/,
+│                   hands/ (HandReplay, HandsTable, HandsUpload,
+│                           useImportPipeline), ranges/ (section components),
 │                   shared/ (Card, StatCard, RangeGrid, DualRangeMatrix,
 │                            InfoTooltip, ConfirmDialog, DemoDataButton)
 ├── pages/          DashboardPage, HandsPage (upload inline), StatsPage,
@@ -405,10 +407,13 @@ src/
 
 **Notes vs older drafts:**
 - No `UploadPage.tsx` / `ConfigPage.tsx`: upload is inline in `HandsPage.tsx`
-  (toggled by `showUpload`); config (hero name, strategy profile) lives in
-  `Sidebar.tsx` + IndexedDB `settings` table.
-- No `Board.tsx` shared component. No `components/ranges` `stats` `leaks`
-  `sessions` `upload` `villains` subdirs — those pages consume `shared/`.
+  (toggled by `showUpload`). **No settings-editing UI exists** — `Sidebar.tsx`
+  only displays the hero name; hero name and strategy profile persist in
+  IndexedDB/localStorage but cannot be changed from the UI (profile is pinned
+  to `game_plan`). Both editors are scheduled as ROADMAP Act III-5 (abyss F2).
+- No `Board.tsx` shared component. No `components/stats` `leaks` `sessions`
+  `upload` `villains` subdirs — those pages consume `shared/`
+  (`components/ranges/` *does* exist since the F19 decomposition, #171).
 - `ArenaPage.tsx` exists and is wired at `/arena`; `DemoPage.tsx` is wired at `/demo`.
 
 ---
