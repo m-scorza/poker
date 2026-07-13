@@ -436,14 +436,17 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       summary extraction properly implemented.
 
 ### P5 — Library upgrades (2026-era)
-- [ ] Wire `knip` into CI (or the pre-commit hook) with a reviewed allowlist —
+- [x] Wire `knip` into CI (or the pre-commit hook) with a reviewed allowlist —
       the devDep landed in #140 and the manual de-export sweep is done, but
       without a gate every merge refills the unused-export pool (the 2026-07-09
       health review watched this happen after #132). Allowlist the documented
       forward contracts (`solverAdapter.ts` Solver\* types, `spotPacket.ts`
       packet schema, parked villain-archetype code) and the three script
       entry points knip can't trace (`surface-open-reports.ts`,
-      `agent-kernel.cjs`, `parallel-runner.cjs`).
+      `agent-kernel.cjs`, `parallel-runner.cjs`). Done via `knip.jsonc` +
+      `npm run knip` in the CI `verify` job (chore/knip-in-ci); 11 additional
+      unused-export candidates across 7 files allowlisted by file (no config-only
+      per-export mechanism exists) rather than deleted — see PR body for the list.
 - [ ] Biome 2 (replace missing linter/formatter)
 - [ ] nuqs (URL-sync Hands filters, Ranges position selector)
 - [x] TanStack Table + TanStack Virtual on HandsPage list

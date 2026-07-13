@@ -1,0 +1,52 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+
+  // knip's built-in plugins (Vite, Vitest, ESLint, npm `scripts`) already
+  // discover most of the app's real entry points automatically — this array
+  // only adds the handful of things those plugins can't trace.
+  "entry": [
+    // Agent/CLI tooling invoked directly via `node`/`tsx`, never through a
+    // package.json script, so knip's npm-script detection can't see them.
+    // ROADMAP P5 "Wire knip into CI" names these explicitly.
+    "scripts/agent-kernel.cjs",
+    "scripts/parallel-runner.cjs",
+    "scripts/surface-open-reports.ts",
+    // Manually-run generator (see scripts/README.md): reads a sibling repo
+    // that isn't present in a fresh clone and regenerates a committed file.
+    // Nothing in-repo ever imports it, so it also needs an explicit entry.
+    "scripts/extract-curriculum-seeds.ts",
+
+    // --- ROADMAP P5 forward-contract allowlist (do not delete) ---
+    // Solver* types describe the shape a future real solver backend must
+    // produce; nothing in-repo builds one yet, so every field is currently
+    // "unused" by knip's static graph. Entry-listing the whole file marks
+    // its exported surface as intentional public API instead of dead code.
+    "src/analysis/solverAdapter.ts",
+    // Same story for the external-review "spot packet" schema: the fields
+    // are the contract for a future/external reviewer integration, not
+    // consumed internally yet.
+    "src/analysis/spotPacket.ts",
+    // Villain auto-archetype classifier: parked per ROADMAP Act II ("bring
+    // auto-archetypes back later when richer"). Its exports already have an
+    // in-repo consumer (store.ts + its own test), so this line is
+    // defensive — it keeps the file safe if that consumer ever changes.
+    "src/analysis/villainClassifier.ts",
+
+    // --- Unreviewed candidates found by the initial knip sweep (2026-07-13) ---
+    // Each of these files has 1-3 exports (see PR body for the exact list)
+    // that nothing outside the file currently imports. They read as dead
+    // code, but this sweep's mandate is "wire the gate," not "delete code,"
+    // so they're allowlisted at the file level instead of being removed.
+    // Trade-off: knip has no config-only way to ignore a single named
+    // export short of excluding the whole file, so the *other* exports in
+    // these files also stop getting knip's unused-export coverage until a
+    // follow-up either deletes the dead ones or narrows this list.
+    "src/data/starterDiagnostic.ts",
+    "src/pages/arena/actionOptions.ts",
+    "src/pages/arena/drillPool.ts",
+    "src/analysis/tiltDetector.ts",
+    "src/components/blackout/HonestyStrip.tsx",
+    "src/data/backup.ts",
+    "src/test/fuzz/handHistoryGenerator.ts",
+  ],
+}
