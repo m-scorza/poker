@@ -101,7 +101,7 @@ export const useAppStore = create<AppState>()(
 
       setTotalHands: (count) => set({ totalHands: count }),
       setTotalTournaments: (count) => set({ totalTournaments: count }),
-      setHeroName: (heroName) => set({ heroName }),
+      setHeroName: (heroName) => set({ heroName: heroName.trim() }),
       setStrategyProfile: (profile) => set({ strategyProfile: profile }),
       setFilters: (filters) =>
         set((state) => ({ filters: { ...state.filters, ...filters } })),

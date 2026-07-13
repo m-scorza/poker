@@ -175,6 +175,11 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       code; when wiring either editor, normalize input — `setHeroName`
       persists untrimmed whitespace verbatim, see `appStore.test.ts:175`).
       Review checkpoint.
+      *Update: the settings-UI slice landed — `SettingsCard` on the `/data` page
+      wires both editors (hero name persists to the Dexie `settings` table,
+      profile via Zustand) and `setHeroName` now trims at the store boundary;
+      the `GOALS.md` gatekeeper decision remains open, so this box stays
+      unticked.*
 
 **Act III non-goals** (competitor-ledger guardrails + parked decisions): no
 real-time HUD, no global player-database claims, no backend/payments before

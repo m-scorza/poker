@@ -26,6 +26,7 @@ import {
   type RestoreMode,
 } from '../data/backup';
 import { ConfirmDialog } from '../components/shared/ConfirmDialog';
+import { SettingsCard } from '../components/settings/SettingsCard';
 
 const TABLE_LABELS: Record<(typeof BACKUP_TABLES)[number], string> = {
   hands: 'Hands',
@@ -118,6 +119,8 @@ export function DataVaultPage() {
           Your entire study history lives in this browser. Back it up to a file you own; restore it anywhere.
         </p>
       </header>
+
+      <SettingsCard />
 
       <section className="compartment p-6">
         <div className="text-[10px] font-black uppercase tracking-wider text-[var(--fg-muted)]">What&apos;s in the vault</div>
