@@ -168,8 +168,13 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       (A) and codify the never-list (no HUD, no cloud, no telemetry) as
       constitution, or commit to running the validation plan's interviews
       before reconsidering EPIC G. Also in this arc: the **hero-name settings
-      UI** (abyss F2 — required under every identity) with a test. Review
-      checkpoint.
+      UI** (abyss F2 — required under every identity) with a test, and the
+      **strategy-profile selector** (2026-07-13 health review: profile is
+      pinned to `game_plan` — `setStrategyProfile` has zero UI call sites in
+      the repo's entire history, so the `advanced` profile is unreachable dark
+      code; when wiring either editor, normalize input — `setHeroName`
+      persists untrimmed whitespace verbatim, see `appStore.test.ts:175`).
+      Review checkpoint.
 
 **Act III non-goals** (competitor-ledger guardrails + parked decisions): no
 real-time HUD, no global player-database claims, no backend/payments before

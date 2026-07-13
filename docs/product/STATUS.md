@@ -44,13 +44,22 @@ and test inventories below are regenerated from source.
 ## Pages / files *not* in the repo (despite older docs saying so)
 
 - `UploadPage.tsx` — doesn't exist; upload is inline in `HandsPage`.
-- `ConfigPage.tsx` — doesn't exist; strategy profile selector is in `Sidebar.tsx`.
-  The hero name is persisted in the IndexedDB `settings` table but currently has
-  **no editing UI** (`saveHeroName` has zero callers — abyss F2, scheduled as
-  ROADMAP Act III-5).
+- `ConfigPage.tsx` — doesn't exist, and **no settings-editing UI exists
+  anywhere**: `Sidebar.tsx` only *displays* the hero name (the old "selector is
+  in Sidebar" claim was never true — `git log -S setStrategyProfile` shows zero
+  UI call sites in the repo's entire history). Consequences:
+  - Hero name persists in the IndexedDB `settings` table but has **no editing
+    UI** (`saveHeroName` has zero callers — abyss F2, scheduled as ROADMAP
+    Act III-5).
+  - Strategy profile is **pinned to `game_plan`** for every user
+    (`appStore.ts:94` default; `setStrategyProfile` has zero UI callers), so
+    the `advanced` profile — thresholds, C-bet logic, leak targets — is
+    currently unreachable dark code. Selector scheduled alongside the
+    hero-name UI in ROADMAP Act III-5.
 - `Board.tsx` shared component — doesn't exist; HandReplay builds its own.
-- Component subdirs `ranges/`, `stats/`, `leaks/`, `sessions/`, `upload/`,
-  `villains/` — none exist.
+- Component subdirs `stats/`, `leaks/`, `sessions/`, `upload/`, `villains/` —
+  none exist (`ranges/`, `career/`, `arena/`, `coach/`, `blackout/` do, since
+  the reskin and F19 decomposition).
 
 ## Dependencies actually installed (`package.json`)
 
