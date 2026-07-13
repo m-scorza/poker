@@ -394,6 +394,7 @@ src/
 │                   arena/, blackout/, career/ (tab components), coach/,
 │                   hands/ (HandReplay, HandsTable, HandsUpload,
 │                           useImportPipeline), ranges/ (section components),
+│                   settings/ (SettingsCard — hero name + strategy profile),
 │                   shared/ (Card, StatCard, RangeGrid, DualRangeMatrix,
 │                            InfoTooltip, ConfirmDialog, DemoDataButton)
 ├── pages/          DashboardPage, HandsPage (upload inline), StatsPage,
@@ -407,10 +408,12 @@ src/
 
 **Notes vs older drafts:**
 - No `UploadPage.tsx` / `ConfigPage.tsx`: upload is inline in `HandsPage.tsx`
-  (toggled by `showUpload`). **No settings-editing UI exists** — `Sidebar.tsx`
-  only displays the hero name; hero name and strategy profile persist in
-  IndexedDB/localStorage but cannot be changed from the UI (profile is pinned
-  to `game_plan`). Both editors are scheduled as ROADMAP Act III-5 (abyss F2).
+  (toggled by `showUpload`). Settings editing lives in
+  `components/settings/SettingsCard.tsx` on the Data Vault (`/data`) page
+  (ROADMAP Act III-5 slice): hero name (persists to the IndexedDB `settings`
+  table, trimmed at the store boundary) and strategy profile
+  (Baseline / Advanced, persists via Zustand). `Sidebar.tsx` still only
+  displays the hero name; `game_plan` remains the default profile.
 - No `Board.tsx` shared component. No `components/stats` `leaks` `sessions`
   `upload` `villains` subdirs — those pages consume `shared/`
   (`components/ranges/` *does* exist since the F19 decomposition, #171).
