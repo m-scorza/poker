@@ -4,7 +4,7 @@ import {
   evaluateDrillAction,
   type DrillActionContext,
 } from '../arenaDrillEngine';
-import { pickRandomDecision } from '../../pages/arena/actionOptions';
+import { pickRandomDecision } from '../arena/drillLogic';
 import type { HeroDecision } from '../../types/analysis';
 
 function decision(overrides: Partial<HeroDecision> = {}): HeroDecision {
