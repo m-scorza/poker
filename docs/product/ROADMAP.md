@@ -163,7 +163,7 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       lesson-recommendation scoring (concepts only, brand-neutral) into the
       study plan. The coach loop stops depending solely on the owner's own
       mistake volume. Review checkpoint.
-- [ ] **III-5 · The identity gate (Arc 5)** — write `GOALS.md` (the missing
+- [x] **III-5 · The identity gate (Arc 5)** — write `GOALS.md` (the missing
       gatekeeper every EPIC G reference points at): either declare identity
       (A) and codify the never-list (no HUD, no cloud, no telemetry) as
       constitution, or commit to running the validation plan's interviews
@@ -179,8 +179,10 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       wires both editors (hero name persists to the Dexie `settings` table,
       profile via Zustand) and `setHeroName` now trims at the store boundary
       (`mergePersistedSettings` rehydration trims too, since the 2026-07-14
-      health review); the `GOALS.md` gatekeeper decision remains open, so this
-      box stays unticked.*
+      health review). **Closed 2026-07-17:** `GOALS.md` written from an owner
+      interview — identity declared as product-in-validation; HUD
+      constitutionally never; backend/cloud recorded as committed next steps
+      behind validation evidence; EPIC G gate table codified. Arc complete.*
 
 **Act III non-goals** (competitor-ledger guardrails + parked decisions): no
 real-time HUD, no global player-database claims, no backend/payments before
