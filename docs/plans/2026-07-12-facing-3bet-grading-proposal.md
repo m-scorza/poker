@@ -1,8 +1,9 @@
 # FACING_3BET Grading Proposal (Act III-3, Arc 3)
 
-> **Status: PROPOSAL — awaiting owner approval of the ranges below.**
-> Nothing in `src/` changes until the owner signs off (or red-pens) the grids
-> in §4. Implementation sketch in §6 is pre-agreed scope, not started work.
+> **Status: APPROVED 2026-07-17 — owner decisions recorded in §7.**
+> The grids in §4 are sign-off ranges, amended by the four rulings in §7
+> (≤15bb premium-only grading, 40bb boundary, SB-vs-BB stays excluded,
+> ⚠ classes grade as mixed). Implementation (§6) is now unblocked.
 
 **Goal (ROADMAP III-3):** replace the `FACING_3BET` compliance exclusion in
 `src/analysis/rangeChecker.ts` with real grading, using ranges derived from
@@ -40,15 +41,16 @@ interpolation that deserves a red pen.
 ## 2. Proposed bucketing
 
 - **Stack buckets:** `≤15bb` → no grid needed: per KB §6/NERD, hero is
-  committed at the 3-bet stage (3-bet = all-in territory); grade CALL/ALL-IN
-  as compliant, FOLD as a flagged deviation only for premium classes —
-  **simplest honest rule: keep ≤15bb EXCLUDED** (owner call, see Q1).
-  `15–37.5bb` → the 25bb grids. `>37.5bb` → the 50bb grids. (37.5 is the
-  geometric midpoint; a plain 40 is fine too — Q2.)
+  committed at the 3-bet stage (3-bet = all-in territory). **Owner ruling
+  (Q1): grade premiums only** — CALL/ALL-IN is always compliant at this
+  depth; FOLD is flagged (`VS3BET_OVERFOLD`) only when hero holds a premium
+  class (QQ+, AKs, AKo), otherwise it's a free pass.
+  `15–40bb` → the 25bb grids. `>40bb` → the 50bb grids (**owner ruling Q2:
+  plain 40bb**, matching the 40bb breakpoints used elsewhere).
 - **Position buckets:** hero UTG/UTG+1/MP1/MP2 → C1/C2 (EP grids); hero
   HJ/CO → C3/C4; hero BTN → C5/C6. Hero SB/BB facing a 3-bet after opening
   is rare (blind-war 3-bets are BLIND_WAR-adjacent) — **stays excluded**
-  with the existing refusal reason (Q3).
+  with the existing refusal reason (**owner ruling Q3: confirmed for v1**).
 - **3-bettor position is folded into the hero bucket** (the quiz only varies
   it in lockstep with hero position). A vs-blinds 3-bet plays tighter than
   the in-position grids assume; noted as a v2 refinement, not modeled now.
@@ -61,14 +63,19 @@ interpolation that deserves a red pen.
 - New deviation types: `VS3BET_OVERFOLD` (folded a continue hand) and
   `VS3BET_LOOSE_CONTINUE` (called/4-bet a fold hand). Both feed the existing
   leak pipeline denominators like other preflop deviations.
+- **⚠ classes grade as mixed (owner ruling Q4):** every ⚠-marked class is a
+  near-50/50 — both the placed action *and* its stated alternative
+  (fold↔continue, call↔jam) are compliant. Provenance stays
+  `'interpolated'` so the mixed treatment is auditable.
 - Refusal-as-UI string changes from "no 3-bet-defence range yet" to a
-  targeted reason only for the still-excluded pockets (≤15bb if Q1 stays
-  excluded, hero-in-blinds, unknown opener position).
+  targeted reason only for the still-excluded pockets (hero-in-blinds,
+  unknown opener position; ≤15bb is graded per the Q1 premium-only rule).
 
 ## 4. Proposed grids (the thing to approve)
 
 Legend: **bold = quiz anchor (fixed)** · plain = KB §5-derived · ⚠ =
-interpolated, owner judgment wanted. "4-bet" at 25bb means all-in (KB §5).
+interpolated, graded as **mixed** per owner ruling Q4 (placed action and its
+alternative both compliant). "4-bet" at 25bb means all-in (KB §5).
 
 ### C1 — EP vs 3-bet, 50bb
 - 4-bet (value): AA, KK, QQ, AKs, AKo
@@ -135,13 +142,18 @@ interpolated, owner judgment wanted. "4-bet" at 25bb means all-in (KB §5).
 - Docs: KB `02-ranges` cross-ref, STATUS/ROADMAP tick, CLAUDE.md scenario
   table row update — same PR.
 
-## 7. Questions for the owner
+## 7. Owner decisions (answered 2026-07-17)
 
-- **Q1:** ≤15bb facing a 3-bet — keep excluded (recommended), or grade
-  "continue with premium else free pass"?
-- **Q2:** stack boundary between the 25bb and 50bb grids — 37.5bb geometric
-  or plain 40bb?
-- **Q3:** hero opened from SB and faces a BB 3-bet — keep excluded in v1
-  (recommended)?
-- **Q4:** any ⚠ classes above you want moved (esp. AQo in C1/C2, AJo in C4,
-  ATo in C5/C6)?
+- **Q1 — ≤15bb facing a 3-bet:** **grade premiums only.** CALL/ALL-IN always
+  compliant; FOLD flagged as `VS3BET_OVERFOLD` only for premium classes
+  (QQ+, AKs, AKo). No 13×13 grid at this depth.
+- **Q2 — stack boundary:** **plain 40bb.** `15–40bb` uses the 25bb grids,
+  `>40bb` the 50bb grids.
+- **Q3 — hero opened SB, BB 3-bets:** **keep excluded in v1** with a targeted
+  refusal reason; revisit if vault anchors for the pocket appear.
+- **Q4 — ⚠ interpolated classes:** **grade all of them as mixed.** Owner's
+  words: these are "close, almost 50/50 calls — we keep both answers as
+  correct." No ⚠ class moves lists; each accepts both its placed action and
+  the stated alternative. Applies to every ⚠ in §4 (AQo/ATs in C1, AQo/JJ in
+  C2, AQs/AQo/KQo–KTo in C3, KJo/AJo in C4, 99+/AQs/KQo/JTo/ATo in C5,
+  AQo/KTs+/A9o/ATo/QJo in C6).
