@@ -177,9 +177,10 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       Review checkpoint.
       *Update: the settings-UI slice landed — `SettingsCard` on the `/data` page
       wires both editors (hero name persists to the Dexie `settings` table,
-      profile via Zustand) and `setHeroName` now trims at the store boundary;
-      the `GOALS.md` gatekeeper decision remains open, so this box stays
-      unticked.*
+      profile via Zustand) and `setHeroName` now trims at the store boundary
+      (`mergePersistedSettings` rehydration trims too, since the 2026-07-14
+      health review); the `GOALS.md` gatekeeper decision remains open, so this
+      box stays unticked.*
 
 **Act III non-goals** (competitor-ledger guardrails + parked decisions): no
 real-time HUD, no global player-database claims, no backend/payments before
