@@ -1,6 +1,6 @@
 export const STARTER_DIAGNOSTIC_STORAGE_KEY = 'poker-xray:starter-diagnostic-summary:v1';
 
-export interface StarterDiagnosticReviewArea {
+interface StarterDiagnosticReviewArea {
   label: string;
   misses: number;
   attempts: number;
@@ -125,12 +125,6 @@ export function readStarterDiagnosticSummary(): StarterDiagnosticSummary | null 
   } catch {
     return null;
   }
-}
-
-export function writeStarterDiagnosticSummary(summary: StarterDiagnosticSummary): void {
-  const local = storage();
-  if (!local) return;
-  local.setItem(STARTER_DIAGNOSTIC_STORAGE_KEY, JSON.stringify(summary));
 }
 
 export function recordStarterDiagnosticAnswer(answer: StarterDiagnosticAnswer): StarterDiagnosticSummary | null {

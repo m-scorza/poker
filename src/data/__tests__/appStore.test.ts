@@ -182,15 +182,15 @@ describe('mergePersistedSettings', () => {
   });
 
   it('falls back to current heroName on a whitespace-only persisted name', () => {
-    // Characterization note: the guard checks `.trim().length > 0` but returns
-    // the untrimmed `incoming.heroName` when it passes — leading/trailing
-    // whitespace on an otherwise non-blank name is preserved verbatim, not
-    // trimmed. Documenting current behavior, not asserting it's desirable.
+    // Rehydration matches the setHeroName write boundary: a legacy persisted
+    // name (written before setHeroName trimmed) is normalized on the way in,
+    // so an untrimmed name can never re-enter the store and break the
+    // `Dealt to <name>` parser matching.
     const result = mergePersistedSettings({ heroName: '   ' }, current);
     expect(result.heroName).toBe(DEFAULT_HERO_NAME);
 
     const untrimmed = mergePersistedSettings({ heroName: '  bob  ' }, current);
-    expect(untrimmed.heroName).toBe('  bob  ');
+    expect(untrimmed.heroName).toBe('bob');
   });
 
   it('falls back to current on missing fields, null, or undefined payloads', () => {

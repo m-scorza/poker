@@ -24,9 +24,9 @@ import {
   formatSourceValue,
   visiblePacketWarnings,
   getDisplayCards,
-  pickRandomDecision,
   type TrainerAction,
 } from './arena/actionOptions';
+import { pickRandomDecision } from '../analysis/arena/drillLogic';
 import {
   STARTER_DIAGNOSTIC_PACK,
   CURRICULUM_PACK_GROUPS,

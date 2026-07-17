@@ -177,9 +177,10 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       Review checkpoint.
       *Update: the settings-UI slice landed — `SettingsCard` on the `/data` page
       wires both editors (hero name persists to the Dexie `settings` table,
-      profile via Zustand) and `setHeroName` now trims at the store boundary;
-      the `GOALS.md` gatekeeper decision remains open, so this box stays
-      unticked.*
+      profile via Zustand) and `setHeroName` now trims at the store boundary
+      (`mergePersistedSettings` rehydration trims too, since the 2026-07-14
+      health review); the `GOALS.md` gatekeeper decision remains open, so this
+      box stays unticked.*
 
 **Act III non-goals** (competitor-ledger guardrails + parked decisions): no
 real-time HUD, no global player-database claims, no backend/payments before
@@ -444,9 +445,10 @@ Known correctness issues with code anchors are tracked in `STATUS.md`.
       packet schema, parked villain-archetype code) and the three script
       entry points knip can't trace (`surface-open-reports.ts`,
       `agent-kernel.cjs`, `parallel-runner.cjs`). Done via `knip.jsonc` +
-      `npm run knip` in the CI `verify` job (chore/knip-in-ci); 11 additional
-      unused-export candidates across 7 files allowlisted by file (no config-only
-      per-export mechanism exists) rather than deleted — see PR body for the list.
+      `npm run knip` in the CI `verify` job (chore/knip-in-ci); the 11
+      unused-export candidates across 7 files that were initially allowlisted
+      by file (chore/knip-allowlist-narrowing) are now resolved — de-exported
+      or deleted per-symbol — and those 7 files are gone from the allowlist.
 - [ ] Biome 2 (replace missing linter/formatter)
 - [ ] nuqs (URL-sync Hands filters, Ranges position selector)
 - [x] TanStack Table + TanStack Virtual on HandsPage list
