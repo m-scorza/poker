@@ -4,7 +4,6 @@ import type { TrainerAction } from '../../analysis/arena/drillLogic';
 import { labelSeedAction } from '../../analysis/arena/drillLogic';
 
 export type { TrainerAction } from '../../analysis/arena/drillLogic';
-export { pickRandomDecision } from '../../analysis/arena/drillLogic';
 
 export type ActionColor = 'gray' | 'blue' | 'emerald' | 'amber' | 'rose';
 

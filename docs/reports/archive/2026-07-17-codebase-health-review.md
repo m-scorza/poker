@@ -2,7 +2,7 @@
 status: resolved
 date: 2026-07-17
 related:
-  - 'docs/reports/archive/2026-07-13-codebase-health-review.md'
+  - docs/reports/archive/2026-07-13-codebase-health-review.md
   - '#195'
   - '#196'
   - '#198'

@@ -32,7 +32,7 @@ export function mergePersistedSettings<T extends { strategyProfile: StrategyProf
     : current.strategyProfile;
   const heroName =
     typeof incoming.heroName === 'string' && incoming.heroName.trim().length > 0
-      ? incoming.heroName
+      ? incoming.heroName.trim()
       : current.heroName;
   return { ...current, strategyProfile, heroName };
 }

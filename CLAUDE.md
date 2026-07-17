@@ -431,7 +431,7 @@ src/
 
 ---
 
-## Key Dependencies (verified against `package.json` 2026-05-31)
+## Key Dependencies (verified against `package.json` 2026-07-17)
 
 Runtime:
 ```
@@ -448,9 +448,9 @@ vite-plugin-pwa 1
 
 Build / test:
 ```
-vite 6, @vitejs/plugin-react 4, tsx 4, typescript 5.7,
+vite 8, @vitejs/plugin-react 6, tsx 4, typescript 5.7,
 tailwindcss 4 + @tailwindcss/vite 4,
-vitest 3, jsdom, fake-indexeddb, Testing Library, ESLint 9
+vitest 4, jsdom, fake-indexeddb, Testing Library, ESLint 9, knip 6
 ```
 
 **Phantom deps removed from older drafts:** `pokersolver`,
