@@ -27,6 +27,8 @@ drift still to address.
 ## Where things live
 
 ```
+GOALS.md ........ identity gate: what this project is, who it's for,
+                  the never-list, and the EPIC G gate table (owner-authored)
 src/ ............ the React app
 scripts/ ........ build/utility scripts
 docs/product/ ... STATUS, ROADMAP, PARSER_HEALTH (human-facing product state)
