@@ -82,7 +82,7 @@ export function computePositionStats(decisions: HeroDecision[], hands: Hand[] | 
     if (!posDecisions || posDecisions.length === 0) continue;
 
     const total = posDecisions.length;
-    const vpipCount = posDecisions.filter(d => d.action === 'raise' || d.action === 'call').length;
+    const vpipCount = posDecisions.filter(d => d.action === 'raise' || d.action === 'call' || d.wasPreFlopRaiser).length;
     const pfrCount = posDecisions.filter(d => d.wasPreFlopRaiser).length;
 
     const eligible = posDecisions.filter(d => d.deviationType !== null || d.isCompliant);

@@ -205,6 +205,57 @@ export function detectScenario(
   return { scenario: 'RFI', openerPosition: null };
 }
 
+interface HeroOpenFacing3Bet {
+  threeBettorName: string;
+  threeBetAllIn: boolean;
+  response: 'fold' | 'raise' | 'call';
+}
+
+/**
+ * Detect the vault-anchored vs-3-bet spot: hero opened (first voluntary
+ * preflop action is a non-all-in raise), exactly one villain raised behind
+ * with no callers in between, and hero acted again. Returns null for every
+ * other shape (open-shove, squeeze with a caller, 3-bet + cold 4-bet, no
+ * hero response) — those stay classified by hero's first action.
+ */
+function detectHeroOpenFacing3Bet(
+  actions: Action[],
+  heroName: string,
+): HeroOpenFacing3Bet | null {
+  const preflopVoluntary = actions.filter(
+    (a) => a.street === 'preflop' && !FORCED_ACTIONS.has(a.actionType),
+  );
+  const heroFirstIdx = preflopVoluntary.findIndex((a) => a.playerName === heroName);
+  if (heroFirstIdx === -1) return null;
+
+  const open = preflopVoluntary[heroFirstIdx]!;
+  if (open.actionType !== 'raise' || open.isAllIn) return null;
+
+  const afterOpen = preflopVoluntary.slice(heroFirstIdx + 1);
+  const heroResponseIdx = afterOpen.findIndex((a) => a.playerName === heroName);
+  if (heroResponseIdx === -1) return null;
+
+  const between = afterOpen.slice(0, heroResponseIdx);
+  const raises = between.filter((a) => a.actionType === 'raise');
+  const calls = between.filter((a) => a.actionType === 'call');
+  if (raises.length !== 1 || calls.length > 0) return null;
+
+  const response = afterOpen[heroResponseIdx]!;
+  if (response.actionType === 'check') return null;
+
+  const threeBet = raises[0]!;
+  return {
+    threeBettorName: threeBet.playerName,
+    threeBetAllIn: threeBet.isAllIn,
+    response:
+      response.actionType === 'raise'
+        ? 'raise'
+        : response.actionType === 'call'
+          ? 'call'
+          : 'fold',
+  };
+}
+
 /**
  * Build a HeroDecision from a parsed hand.
  */
@@ -268,6 +319,34 @@ export function buildHeroDecision(
         : firstAction?.actionType === 'check'
           ? 'check'
           : 'fold';
+
+  // Hero opened and a single villain 3-bet behind (the vault-anchored spot):
+  // the hand's defining decision becomes hero's RESPONSE to the 3-bet, graded
+  // by checkFacing3Bet. Only flips clean RFI opens from non-blind seats —
+  // BLIND_WAR keeps grading the SB open (plan §7 Q3) and squeeze/4-bet shapes
+  // stay on the first action. Tradeoff: the open itself is no longer graded
+  // for RFI compliance on flipped hands.
+  let finalScenario = scenario;
+  let finalOpenerPosition = openerPosition;
+  let finalAction = heroAction;
+  let heroOpenedBefore3Bet: boolean | undefined;
+  let threeBetAllIn: boolean | undefined;
+  if (
+    scenario === 'RFI' &&
+    hero.position !== 'SB' &&
+    hero.position !== 'BB' &&
+    hero.position !== 'BTN/SB'
+  ) {
+    const vs3betSpot = detectHeroOpenFacing3Bet(actions, heroName);
+    if (vs3betSpot) {
+      finalScenario = 'FACING_3BET';
+      finalAction = vs3betSpot.response;
+      heroOpenedBefore3Bet = true;
+      threeBetAllIn = vs3betSpot.threeBetAllIn;
+      finalOpenerPosition =
+        players.find((p) => p.playerName === vs3betSpot.threeBettorName)?.position ?? null;
+    }
+  }
 
   // Analysis flags
   const heroFoldedPreflop = actions.some(
@@ -346,10 +425,12 @@ export function buildHeroDecision(
     position: hero.position,
     handKey,
     stackBb,
-    scenario,
-    openerPosition,
-    action: heroAction,
-    isCompliant: false, 
+    scenario: finalScenario,
+    openerPosition: finalOpenerPosition,
+    action: finalAction,
+    heroOpenedBefore3Bet,
+    threeBetAllIn,
+    isCompliant: false,
     deviationType: null,
     sawFlop,
     wasPreFlopRaiser,

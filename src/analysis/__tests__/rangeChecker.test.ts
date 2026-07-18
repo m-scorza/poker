@@ -205,10 +205,13 @@ describe('checkCompliance — FACING_RAISE', () => {
   });
 });
 
-describe('checkCompliance — FACING_3BET (excluded, B4)', () => {
+describe('checkCompliance — FACING_3BET cold spots stay excluded (B4)', () => {
+  // Hero-opened FACING_3BET grading lives in vs3betAnchors.test.ts; these
+  // rows lack heroOpenedBefore3Bet (cold spots and pre-III-3 persisted rows).
   it('does not grade a cold-call vs (open + 3-bet) — no false OVERFOLD', () => {
     const d = makeDecision({ position: 'HJ', handKey: 'AQs', action: 'call', scenario: 'FACING_3BET', openerPosition: 'CO' });
     expect(checkCompliance(d)).toBeNull();
+    expect(complianceExclusionReasonForDecision(d)).toContain('Cold facing');
   });
 
   it('does not grade a fold facing a 3-bet', () => {
@@ -219,7 +222,9 @@ describe('checkCompliance — FACING_3BET (excluded, B4)', () => {
 
 describe('complianceExclusionReason (refusal-as-UI)', () => {
   it('gives a reason for every scenario excluded from compliance', () => {
-    for (const scenario of ['FACING_3BET', 'FACING_ALL_IN', 'BB_VS_RAISE_MULTIWAY', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP'] as const) {
+    // FACING_3BET is no longer a scenario-level exclusion: hero-opened spots
+    // are graded (III-3) and only its pockets are refused, decision-level.
+    for (const scenario of ['FACING_ALL_IN', 'BB_VS_RAISE_MULTIWAY', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP'] as const) {
       const reason = complianceExclusionReason(scenario);
       expect(reason, scenario).toBeTruthy();
       // The excluded scenarios must agree with checkCompliance returning null.

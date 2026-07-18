@@ -87,8 +87,9 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
   };
 
   for (const d of decisions) {
-    // VPIP: raised or called preflop
-    if (d.action === 'raise' || d.action === 'call') {
+    // VPIP: raised or called preflop. wasPreFlopRaiser covers FACING_3BET
+    // rows where hero opened and `action` is the response to the 3-bet.
+    if (d.action === 'raise' || d.action === 'call' || d.wasPreFlopRaiser) {
       stats.vpipHands++;
     }
 
@@ -162,7 +163,9 @@ export function computeAggregateStats(decisions: HeroDecision[]): AggregateStats
     // - Double barrel counts as a bet
     // - Call action counts as a call
     // This is simplified since we don't have per-street action counts in HeroDecision
-    if (d.action === 'raise') stats.totalRaises++;
+    // wasPreFlopRaiser catches the open on FACING_3BET rows whose `action`
+    // is the response to the 3-bet (a hand still contributes at most one raise).
+    if (d.action === 'raise' || d.wasPreFlopRaiser) stats.totalRaises++;
     if (d.action === 'call') stats.totalCalls++;
     if (d.cbetMade) stats.totalBets++;
     if (d.doubleBarrelMade) stats.totalBets++;

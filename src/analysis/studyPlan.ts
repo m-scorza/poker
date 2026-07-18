@@ -57,6 +57,9 @@ const DEVIATION_LABELS: Record<DeviationType, string> = {
   FOLD_VS_LIMP: 'Folded versus limp opportunity',
   LIMP_BEHIND: 'Limped behind',
   HU_BTN_FOLD: 'Folded heads-up button',
+  VS3BET_OVERFOLD: 'Folded a continue hand versus a 3-bet',
+  VS3BET_LOOSE_CONTINUE: 'Continued a fold hand versus a 3-bet',
+  VS3BET_WRONG_CONTINUE: 'Wrong continue action versus a 3-bet',
 };
 
 const SCENARIO_LABELS: Record<Scenario, string> = {

@@ -38,6 +38,9 @@ const DEVIATION_LABELS: Record<string, string> = {
   FOLD_VS_LIMP: 'Fold vs Limp',
   LIMP_BEHIND: 'Limp Behind',
   HU_BTN_FOLD: 'HU BTN Fold',
+  VS3BET_OVERFOLD: 'vs 3-Bet Overfold',
+  VS3BET_LOOSE_CONTINUE: 'vs 3-Bet Loose Continue',
+  VS3BET_WRONG_CONTINUE: 'vs 3-Bet Wrong Continue',
 };
 
 function formatTableDate(date: Date | undefined): string {

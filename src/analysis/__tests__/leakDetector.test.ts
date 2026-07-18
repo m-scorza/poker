@@ -63,14 +63,30 @@ function makeStats(overrides: Partial<AggregateStats>): AggregateStats {
 describe('computeAggregateStats', () => {
   it('counts VPIP correctly', () => {
     const decisions = [
-      makeDecision({ action: 'raise' }),
-      makeDecision({ action: 'call' }),
-      makeDecision({ action: 'fold' }),
-      makeDecision({ action: 'check' }),
+      makeDecision({ action: 'raise', wasPreFlopRaiser: true }),
+      makeDecision({ action: 'call', wasPreFlopRaiser: false }),
+      makeDecision({ action: 'fold', wasPreFlopRaiser: false }),
+      makeDecision({ action: 'check', wasPreFlopRaiser: false }),
     ];
     const stats = computeAggregateStats(decisions);
     expect(stats.vpipHands).toBe(2); // raise + call
     expect(stats.totalHands).toBe(4);
+  });
+
+  it('counts a FACING_3BET fold-to-3-bet as VPIP and a raise (hero opened)', () => {
+    const decisions = [
+      makeDecision({
+        scenario: 'FACING_3BET',
+        action: 'fold',
+        wasPreFlopRaiser: true,
+        heroOpenedBefore3Bet: true,
+      }),
+    ];
+    const stats = computeAggregateStats(decisions);
+    expect(stats.vpipHands).toBe(1);
+    expect(stats.totalRaises).toBe(1);
+    expect(stats.totalCalls).toBe(0);
+    expect(stats.limpHands).toBe(0);
   });
 
   it('counts PFR correctly', () => {
