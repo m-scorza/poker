@@ -689,3 +689,92 @@ describe('computePotBeforeStreet', () => {
     expect(computePotBeforeStreet(actions, 'flop')).toBe(0);
   });
 });
+
+describe('buildHeroDecision — hero opened then faced a 3-bet (III-3)', () => {
+  function vs3betParsedHand(actions: Action[], players?: PlayerInHand[]) {
+    return makeParsedHand({
+      players: players ?? [
+        makePlayer({ playerName: 'Hero', position: 'CO', isHero: true }),
+        makePlayer({ playerName: 'threebettor', position: 'BTN', isHero: false, holeCards: null }),
+        makePlayer({ playerName: 'bystander', position: 'SB', isHero: false, holeCards: null }),
+      ],
+      actions,
+    });
+  }
+
+  it('flips a clean open-vs-3-bet to FACING_3BET with the response as the action', () => {
+    const parsed = vs3betParsedHand([
+      makeAction({ playerName: 'Hero', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'threebettor', actionType: 'raise', amount: 2400, sequence: 2 }),
+      makeAction({ playerName: 'bystander', actionType: 'fold', sequence: 3 }),
+      makeAction({ playerName: 'Hero', actionType: 'fold', sequence: 4 }),
+    ]);
+    const decision = buildHeroDecision(parsed, 'Hero');
+    expect(decision!.scenario).toBe('FACING_3BET');
+    expect(decision!.heroOpenedBefore3Bet).toBe(true);
+    expect(decision!.threeBetAllIn).toBe(false);
+    expect(decision!.action).toBe('fold');
+    expect(decision!.openerPosition).toBe('BTN');
+    expect(decision!.wasPreFlopRaiser).toBe(true);
+  });
+
+  it('records a 4-bet response as raise and an all-in 3-bet on the flag', () => {
+    const parsed = vs3betParsedHand([
+      makeAction({ playerName: 'Hero', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'threebettor', actionType: 'raise', amount: 4800, isAllIn: true, sequence: 2 }),
+      makeAction({ playerName: 'Hero', actionType: 'call', amount: 4000, sequence: 3 }),
+    ]);
+    const decision = buildHeroDecision(parsed, 'Hero');
+    expect(decision!.scenario).toBe('FACING_3BET');
+    expect(decision!.threeBetAllIn).toBe(true);
+    expect(decision!.action).toBe('call');
+  });
+
+  it('keeps RFI when a caller sits between the open and the 3-bet (squeeze shape)', () => {
+    const parsed = vs3betParsedHand([
+      makeAction({ playerName: 'Hero', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'bystander', actionType: 'call', amount: 800, sequence: 2 }),
+      makeAction({ playerName: 'threebettor', actionType: 'raise', amount: 3200, sequence: 3 }),
+      makeAction({ playerName: 'Hero', actionType: 'fold', sequence: 4 }),
+    ]);
+    const decision = buildHeroDecision(parsed, 'Hero');
+    expect(decision!.scenario).toBe('RFI');
+    expect(decision!.action).toBe('raise');
+    expect(decision!.heroOpenedBefore3Bet).toBeUndefined();
+  });
+
+  it('keeps RFI when the open faces a 3-bet plus a cold 4-bet', () => {
+    const parsed = vs3betParsedHand([
+      makeAction({ playerName: 'Hero', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'threebettor', actionType: 'raise', amount: 2400, sequence: 2 }),
+      makeAction({ playerName: 'bystander', actionType: 'raise', amount: 7200, sequence: 3 }),
+      makeAction({ playerName: 'Hero', actionType: 'fold', sequence: 4 }),
+    ]);
+    const decision = buildHeroDecision(parsed, 'Hero');
+    expect(decision!.scenario).toBe('RFI');
+    expect(decision!.heroOpenedBefore3Bet).toBeUndefined();
+  });
+
+  it('keeps RFI when hero open-shoved and never acted again', () => {
+    const parsed = vs3betParsedHand([
+      makeAction({ playerName: 'Hero', actionType: 'raise', amount: 4800, isAllIn: true, sequence: 1 }),
+      makeAction({ playerName: 'threebettor', actionType: 'raise', amount: 6000, sequence: 2 }),
+    ]);
+    const decision = buildHeroDecision(parsed, 'Hero');
+    expect(decision!.scenario).toBe('RFI');
+    expect(decision!.action).toBe('raise');
+    expect(decision!.heroOpenedBefore3Bet).toBeUndefined();
+  });
+
+  it('leaves cold facing-3-bet spots unflagged (no heroOpenedBefore3Bet)', () => {
+    const parsed = vs3betParsedHand([
+      makeAction({ playerName: 'bystander', actionType: 'raise', amount: 800, sequence: 1 }),
+      makeAction({ playerName: 'threebettor', actionType: 'raise', amount: 2400, sequence: 2 }),
+      makeAction({ playerName: 'Hero', actionType: 'fold', sequence: 3 }),
+    ]);
+    const decision = buildHeroDecision(parsed, 'Hero');
+    expect(decision!.scenario).toBe('FACING_3BET');
+    expect(decision!.heroOpenedBefore3Bet).toBeUndefined();
+    expect(decision!.openerPosition).toBe('SB');
+  });
+});

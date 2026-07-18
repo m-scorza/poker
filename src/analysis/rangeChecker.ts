@@ -9,6 +9,13 @@
 
 import type { Position, DeviationType, HeroDecision, Scenario } from '../types/analysis';
 import { SB_BLIND_WAR_RANGE, isSuitedHand, getReactionRange, getRFIRange } from '../data/ranges';
+import {
+  VS3BET_PREMIUM_HANDS,
+  VS3BET_STACK_FLOOR_BB,
+  getVs3BetGrid,
+  vs3betCell,
+  vs3betHeroBucket,
+} from '../data/vs3betRanges';
 import type { StrategyProfile } from '../data/strategyProfiles';
 import { BB_DEFENSE_ICM_ADJUSTMENTS } from '../data/strategyProfiles';
 import type { ICMStage } from '../data/strategyProfiles';
@@ -23,16 +30,17 @@ export interface ComplianceResult {
  *
  * Returns null for scenarios excluded from compliance (no binary correct answer):
  * - FACING_ALL_IN (depends on pot odds, ICM, stack dynamics)
- * - FACING_3BET (no 3-bet-defense / 4-bet range data yet)
  * - BB_VS_RAISE_MULTIWAY (open plus caller/limper before BB; not heads-up BB defense)
  * - BB_VS_LARGE_RAISE (facing 5x+ or all-in)
  * - BB_VS_LIMP (complex raise sizing decision)
  * - FACING_RAISE dynamic exclusions: unknown opener position, BTN/BB flats,
  *   or unsupported hero/opener reaction pairs.
+ * - FACING_3BET dynamic exclusions: cold spots (hero had not opened), an
+ *   all-in 3-bet above the committed depth, hero in the blinds. Hero-opened
+ *   spots are graded against the vault-anchored grids (Act III-3).
  *
  * FUTURE (covenant follow-up, see docs/product/ROADMAP.md): replace the
- * FACING_3BET and FACING_ALL_IN exclusions with real grading — 3-bet-defense /
- * 4-bet ranges for FACING_3BET, pot-odds + ICM for FACING_ALL_IN.
+ * FACING_ALL_IN exclusion with real grading — pot-odds + ICM.
  */
 export function checkCompliance(
   decision: HeroDecision,
@@ -65,8 +73,10 @@ export function checkCompliance(
       // No decision to evaluate
       return { isCompliant: true, deviationType: null };
 
-    // Excluded from compliance (no binary correct answer yet — see header note).
     case 'FACING_3BET':
+      return checkFacing3Bet(decision);
+
+    // Excluded from compliance (no binary correct answer yet — see header note).
     case 'FACING_ALL_IN':
     case 'BB_VS_RAISE_MULTIWAY':
     case 'BB_VS_LARGE_RAISE':
@@ -82,7 +92,6 @@ export function checkCompliance(
  * the excluded `case`s in `checkCompliance` above.
  */
 const COMPLIANCE_EXCLUSION_REASONS: Partial<Record<Scenario, string>> = {
-  FACING_3BET: 'Facing a 3-bet — there is no 3-bet-defence range yet, so this spot is not graded.',
   FACING_ALL_IN: 'Facing an all-in — a pot-odds and ICM decision, not a range-compliance call.',
   BB_VS_RAISE_MULTIWAY: 'Big blind versus an open plus caller/limper — multiway equity realization, caller position, and squeeze context matter, so this is not graded by the heads-up BB suited-fold rule.',
   BB_VS_LARGE_RAISE: 'Big blind versus a 5x+ raise or all-in — folding can be correct, so this is not graded.',
@@ -96,7 +105,13 @@ export function complianceExclusionReason(scenario: Scenario): string | null {
 
 type ComplianceExclusionDecision = Pick<
   HeroDecision,
-  'scenario' | 'position' | 'action' | 'openerPosition'
+  | 'scenario'
+  | 'position'
+  | 'action'
+  | 'openerPosition'
+  | 'stackBb'
+  | 'heroOpenedBefore3Bet'
+  | 'threeBetAllIn'
 >;
 
 /**
@@ -108,6 +123,22 @@ export function complianceExclusionReasonForDecision(
 ): string | null {
   const scenarioReason = complianceExclusionReason(decision.scenario);
   if (scenarioReason) return scenarioReason;
+
+  // Keep every branch here mirrored with checkFacing3Bet: a null reason must
+  // mean the decision is actually graded.
+  if (decision.scenario === 'FACING_3BET') {
+    if (!decision.heroOpenedBefore3Bet) {
+      return 'Cold facing an open plus a 3-bet — no cold-continue range is encoded, so this spot is not graded.';
+    }
+    if (decision.stackBb <= VS3BET_STACK_FLOOR_BB) return null;
+    if (decision.threeBetAllIn) {
+      return 'The 3-bet was all-in — a pot-odds and ICM decision, not a range-compliance call.';
+    }
+    if (!vs3betHeroBucket(decision.position)) {
+      return 'Facing a 3-bet after opening from the blinds — excluded until vault anchors for this pocket exist.';
+    }
+    return null;
+  }
 
   if (decision.scenario !== 'FACING_RAISE') return null;
 
@@ -250,6 +281,57 @@ function checkFacingRaise(
   }
 
   return { isCompliant: true, deviationType: null };
+}
+
+/**
+ * FACING_3BET: hero opened, a single villain 3-bet behind, `action` is hero's
+ * response. Graded against the vault-anchored grids in `data/vs3betRanges.ts`
+ * (plan: docs/plans/2026-07-12-facing-3bet-grading-proposal.md, §7 rulings).
+ *
+ * - Cold spots (hero had not opened — incl. all rows persisted before
+ *   `heroOpenedBefore3Bet` existed) are not graded.
+ * - ≤15bb (Q1): hero is committed; any continue is compliant, and only
+ *   folding a premium (QQ+/AK) is flagged.
+ * - Deeper all-in 3-bets are a pot-odds decision, not a range call.
+ * - Mixed cells (anchors and Q4 ⚠ classes) accept every listed action.
+ */
+function checkFacing3Bet(decision: HeroDecision): ComplianceResult | null {
+  const { position, handKey, action, stackBb } = decision;
+
+  if (!decision.heroOpenedBefore3Bet) return null;
+
+  // A response to a 3-bet cannot be a check; never flag malformed input.
+  if (action === 'check') return { isCompliant: true, deviationType: null };
+
+  if (stackBb <= VS3BET_STACK_FLOOR_BB) {
+    if (action === 'fold' && VS3BET_PREMIUM_HANDS.has(handKey)) {
+      return { isCompliant: false, deviationType: 'VS3BET_OVERFOLD' };
+    }
+    return { isCompliant: true, deviationType: null };
+  }
+
+  if (decision.threeBetAllIn) return null;
+
+  const grid = getVs3BetGrid(position, stackBb);
+  if (!grid) return null;
+
+  const cell = vs3betCell(grid, handKey);
+  if (cell.allowed.has(action)) {
+    return { isCompliant: true, deviationType: null };
+  }
+
+  if (action === 'fold') {
+    return { isCompliant: false, deviationType: 'VS3BET_OVERFOLD' };
+  }
+
+  if (!cell.allowed.has('call') && !cell.allowed.has('raise')) {
+    // Continued (call or 4-bet) with a pure-fold hand.
+    return { isCompliant: false, deviationType: 'VS3BET_LOOSE_CONTINUE' };
+  }
+
+  // The hand continues, but with the other continue action (e.g. flatted a
+  // hand the grid only jams). Sizing within "raise" is still not graded.
+  return { isCompliant: false, deviationType: 'VS3BET_WRONG_CONTINUE' };
 }
 
 /**

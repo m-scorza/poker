@@ -157,6 +157,14 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       `FACING_ALL_IN` via pot-odds + ICM. Every refusal that becomes a real
       grade is a feature no competitor's rule-based tier has. Closes the ⏳
       reminder below. Plan: `docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md`.
+      **FACING_3BET half landed 2026-07-17:** hero-opened vs-3-bet spots are
+      now detected (`detectHeroOpenFacing3Bet`) and graded against the six
+      vault-anchored grids (`src/data/vs3betRanges.ts`) per the approved
+      proposal (`docs/plans/2026-07-12-facing-3bet-grading-proposal.md`, §7
+      rulings), with a CI-pinned 25-anchor fidelity suite. Cold spots,
+      blinds pockets, and deep all-in 3-bets stay refused with targeted
+      reasons. **`FACING_ALL_IN` (pot-odds + ICM) remains** — it needs a
+      different engine; the box stays open until it lands.
 - [ ] **III-4 · Curriculum drills (Arc 4)** — map the vault's 223 quiz
       scenarios into Arena seed packs (curriculum drills alongside
       SRS-from-your-misplays, no double-grading) and port the

@@ -31,7 +31,10 @@ export type DeviationType =
   | 'SB_COLD_CALL'
   | 'FOLD_VS_LIMP'
   | 'LIMP_BEHIND'
-  | 'HU_BTN_FOLD';
+  | 'HU_BTN_FOLD'
+  | 'VS3BET_OVERFOLD'
+  | 'VS3BET_LOOSE_CONTINUE'
+  | 'VS3BET_WRONG_CONTINUE';
 
 /** Hero's decision for a single hand, used for range compliance and leak detection. */
 export interface HeroDecision {
@@ -60,7 +63,22 @@ export interface HeroDecision {
   restealSpot?: RestealSpot | null;
   squeezeSpot?: { callerCount: number; heroAction: string; recommendedSizing: number } | null;
   netProfit: number;
+  /**
+   * For FACING_RAISE/FACING_LIMP-family scenarios: the villain who opened.
+   * For FACING_3BET with heroOpenedBefore3Bet: the villain who 3-bet hero's
+   * open. For cold FACING_3BET: the original opener (first raiser).
+   */
   openerPosition?: Position | null;
+  /**
+   * FACING_3BET only: true when hero opened (RFI) and a single villain 3-bet
+   * behind with no callers in between — the vault-anchored spot that
+   * checkFacing3Bet grades; `action` is then hero's RESPONSE to the 3-bet,
+   * not the open. Absent/false on cold facing-3-bet spots and on rows
+   * persisted before this field existed (both stay ungraded).
+   */
+  heroOpenedBefore3Bet?: boolean;
+  /** FACING_3BET only: the villain's 3-bet was all-in. */
+  threeBetAllIn?: boolean;
   /** True if hero's voluntary preflop action was all-in (used for short-stack 3-bet shove analysis). */
   wentAllInPreflop?: boolean;
   postflopActions?: PostflopAction[];

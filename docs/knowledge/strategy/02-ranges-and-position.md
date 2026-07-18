@@ -155,6 +155,18 @@ At 100bb, hands like KK may play both call and 3-bet. This is because: [Vol.2]
 
 The multiplier is applied to the **open raise size** (not the pot).
 
+### Defending Your Open vs a 3-Bet (Act III-3)
+
+The app grades hero's response after opening and facing a single 3-bet
+(`FACING_3BET` with `heroOpenedBefore3Bet`) against the six grids in
+`src/data/vs3betRanges.ts` — EP / HJ-CO / BTN buckets at 25bb and 50bb,
+constructed around 25 vault quiz anchors and this section's principles
+(≤15bb: hero is committed, so only premium folds are flagged; the 25bb/50bb
+boundary sits at 40bb). Provenance per cell (`anchor`/`kb`/`interpolated`) and
+the CI-pinned anchor suite (`src/analysis/__tests__/vs3betAnchors.test.ts`)
+keep the grids honest. Plan and owner rulings:
+`docs/plans/2026-07-12-facing-3bet-grading-proposal.md`.
+
 ---
 
 ## 6. The Army Analogy (Yuri "theNERDguy")
