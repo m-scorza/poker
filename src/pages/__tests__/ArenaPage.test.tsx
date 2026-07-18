@@ -247,6 +247,19 @@ describe('ArenaPage drill start behavior', () => {
     expect(JSON.stringify(progress)).not.toContain('trainer answer');
   });
 
+  it('renders board context on postflop curriculum drills', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
+
+    render(<ArenaPage />);
+
+    fireEvent.click(await screen.findByRole('button', { name: /Start In-position c-bet vs BB/i }));
+
+    const board = await screen.findByTestId('arena-curriculum-board');
+    expect(within(board).getByText(/Villain:/)).toBeInTheDocument();
+    expect(await screen.findByText('Stage: Postflop')).toBeInTheDocument();
+    expect(screen.getAllByText(/practice-only seed/i).length).toBeGreaterThan(0);
+  });
+
   it('shows browser-local curriculum pack progress on Drills cards', async () => {
     vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
     window.localStorage.setItem(CURRICULUM_PROGRESS_STORAGE_KEY, JSON.stringify({
