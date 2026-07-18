@@ -171,6 +171,15 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       lesson-recommendation scoring (concepts only, brand-neutral) into the
       study plan. The coach loop stops depending solely on the owner's own
       mistake volume. Review checkpoint.
+      *Update: the seed-pack half landed (commit ded55ce, 2026-07-05) — 11
+      brand-neutral curriculum packs / 230 spots generated from the vault by
+      `scripts/extract-curriculum-seeds.ts` and drilled in the Arena as
+      practice-only content. A follow-up slice adds postflop board fidelity:
+      the six postflop configs (indexes 1, 2, 9, 13, 14, 15) now carry
+      `board` / `villainPosition` / stack sizes / `preflopLine`, and the Arena
+      curriculum drill renders that context so the ~80 postflop spots are
+      actually answerable. Remaining III-4 work is the lesson-recommendation
+      scoring port.*
 - [x] **III-5 · The identity gate (Arc 5)** — write `GOALS.md` (the missing
       gatekeeper every EPIC G reference points at): either declare identity
       (A) and codify the never-list (no HUD, no cloud, no telemetry) as

@@ -885,6 +885,29 @@ export function ArenaPage() {
                </div>
             </div>
 
+            {drill.type === 'curriculum' && drill.currentCurriculumSpot?.board && (
+               <div
+                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2 z-20"
+                 data-testid="arena-curriculum-board"
+               >
+                  {drill.currentCurriculumSpot.villainPosition && (
+                    <span className="px-3 py-1 bg-[var(--ink)] border border-[var(--hairline)] rounded-full text-[10px] font-black uppercase tracking-wider text-[var(--fg-dim)]">
+                       Villain: {drill.currentCurriculumSpot.villainPosition}
+                    </span>
+                  )}
+                  <div className="flex gap-1.5">
+                     {drill.currentCurriculumSpot.board.map((card, index) => (
+                       <PokerCard key={`${card}-${index}`} card={card} size="md" className="shadow-xl" />
+                     ))}
+                  </div>
+                  {drill.currentCurriculumSpot.preflopLine && (
+                    <span className="max-w-[280px] text-center text-[11px] font-mono text-[var(--fg-muted)]">
+                       {drill.currentCurriculumSpot.preflopLine}
+                    </span>
+                  )}
+               </div>
+            )}
+
             {/* Hero Seat */}
             <div className="absolute bottom-[10%] left-1/2 -translate-x-1/2 flex flex-col items-center z-20">
                 <AnimatePresence mode='wait'>

@@ -3,6 +3,14 @@ import { CURRICULUM_SEED_PACKS } from '../curriculumSeedPacks.generated';
 
 const FORBIDDEN_COPY = /reglife|gto wizard|youtube|video|aula|enfrentando|jogando|posição|pré flop/i;
 
+const POSTFLOP_SLUGS = new Set([
+  'in-position-cbet-vs-bb',
+  'in-position-postflop',
+  'in-position-turn-river-barrels-vs-bb',
+  'out-of-position-cbet',
+  'versus-bb-cbet',
+]);
+
 describe('curriculum seed packs', () => {
   it('exports brand-neutral local drill packs with source provenance', () => {
     expect(CURRICULUM_SEED_PACKS.length).toBeGreaterThanOrEqual(11);
@@ -24,5 +32,40 @@ describe('curriculum seed packs', () => {
         expect(spot.sourceGroupIndex).toBeGreaterThanOrEqual(0);
       }
     }
+  });
+
+  it('attaches board context to postflop spots and leaves preflop spots unenriched', () => {
+    const postflopConfigs = new Set<number>();
+
+    for (const pack of CURRICULUM_SEED_PACKS) {
+      const isPostflop = POSTFLOP_SLUGS.has(pack.slug);
+      if (isPostflop) pack.source.sourceConfigIndexes.forEach((index) => postflopConfigs.add(index));
+
+      for (const spot of pack.spots) {
+        if (isPostflop) {
+          expect(spot.board).toBeDefined();
+          expect(spot.board!.length).toBeGreaterThanOrEqual(3);
+          for (const card of spot.board!) expect(card).toMatch(/^[2-9TJQKA][cdhs]$/);
+          expect(spot.villainPosition).toBeTruthy();
+        } else {
+          expect(spot.board).toBeUndefined();
+          expect(spot.villainPosition).toBeUndefined();
+          expect(spot.heroStackSize).toBeUndefined();
+          expect(spot.villainStackSize).toBeUndefined();
+          expect(spot.preflopLine).toBeUndefined();
+        }
+      }
+    }
+
+    expect([...postflopConfigs].sort((a, b) => a - b)).toEqual([1, 2, 9, 13, 14, 15]);
+  });
+
+  it('summarizes action history into an English preflop line only on boarded spots', () => {
+    const spotsWithLine = CURRICULUM_SEED_PACKS.flatMap((pack) => pack.spots).filter((spot) => spot.preflopLine);
+
+    expect(spotsWithLine.length).toBeGreaterThan(0);
+    expect(spotsWithLine.every((spot) => spot.board)).toBe(true);
+    expect(spotsWithLine.some((spot) => spot.preflopLine!.startsWith('preflop:'))).toBe(true);
+    for (const spot of spotsWithLine) expect(spot.preflopLine!).not.toMatch(/PRÉ-FLOP|Raise|Cbet/);
   });
 });

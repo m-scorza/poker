@@ -7,6 +7,11 @@ export interface CurriculumSpotSeed {
   stackBb: number;
   acceptedActions: string[];
   sourceGroupIndex: number;
+  board?: string[];
+  villainPosition?: string;
+  heroStackSize?: number;
+  villainStackSize?: number;
+  preflopLine?: string;
 }
 
 export interface CurriculumSeedPack {
@@ -855,7 +860,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 0
+        "sourceGroupIndex": 0,
+        "board": [
+          "Jh",
+          "4h",
+          "2d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-1-0-0",
@@ -865,7 +878,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 1
+        "sourceGroupIndex": 1,
+        "board": [
+          "Th",
+          "Td",
+          "4h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-10-0-0",
@@ -875,7 +896,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 10
+        "sourceGroupIndex": 10,
+        "board": [
+          "9h",
+          "6h",
+          "2h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-2-0-0",
@@ -885,7 +914,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 2
+        "sourceGroupIndex": 2,
+        "board": [
+          "Jh",
+          "4h",
+          "2d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-3-0-0",
@@ -895,7 +932,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 3
+        "sourceGroupIndex": 3,
+        "board": [
+          "Ad",
+          "5h",
+          "6h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-4-0-0",
@@ -905,7 +950,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 4
+        "sourceGroupIndex": 4,
+        "board": [
+          "Ad",
+          "6h",
+          "5h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-5-0-0",
@@ -915,7 +968,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "9h",
+          "8h",
+          "5d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-5-0-1",
@@ -925,7 +986,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "9h",
+          "8h",
+          "5d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-5-0-2",
@@ -935,7 +1004,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "9h",
+          "8h",
+          "5d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-6-0-0",
@@ -945,7 +1022,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 6
+        "sourceGroupIndex": 6,
+        "board": [
+          "Th",
+          "Td",
+          "4h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-7-0-0",
@@ -955,7 +1040,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 7
+        "sourceGroupIndex": 7,
+        "board": [
+          "6h",
+          "4d",
+          "2c"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-8-0-0",
@@ -965,7 +1058,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Kh",
+          "Qd",
+          "Jh"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-8-0-1",
@@ -975,7 +1076,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Kh",
+          "Qd",
+          "Jh"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-8-0-2",
@@ -985,7 +1094,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Kh",
+          "Qd",
+          "Jh"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-8-0-3",
@@ -995,7 +1112,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Kh",
+          "Qd",
+          "Jh"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-8-0-4",
@@ -1005,7 +1130,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Kh",
+          "Qd",
+          "Jh"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-8-0-5",
@@ -1015,7 +1148,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "cbet_1_3"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Kh",
+          "Qd",
+          "Jh"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       },
       {
         "id": "in-position-cbet-vs-bb-1-9-0-0",
@@ -1025,7 +1166,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 9
+        "sourceGroupIndex": 9,
+        "board": [
+          "9h",
+          "8h",
+          "5d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 18,
+        "villainStackSize": 18
       }
     ]
   },
@@ -1050,7 +1199,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "fold"
         ],
-        "sourceGroupIndex": 0
+        "sourceGroupIndex": 0,
+        "board": [
+          "Jd",
+          "6d",
+          "2c"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-1-0-0",
@@ -1060,7 +1218,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 1
+        "sourceGroupIndex": 1,
+        "board": [
+          "Qd",
+          "Qc",
+          "Js"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-10-0-0",
@@ -1070,7 +1237,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 10
+        "sourceGroupIndex": 10,
+        "board": [
+          "Qh",
+          "8h",
+          "3h"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-2-0-0",
@@ -1080,7 +1256,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 2
+        "sourceGroupIndex": 2,
+        "board": [
+          "9h",
+          "5h",
+          "5d"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-3-0-0",
@@ -1090,7 +1275,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 3
+        "sourceGroupIndex": 3,
+        "board": [
+          "Tc",
+          "7d",
+          "6s"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-4-0-0",
@@ -1100,7 +1294,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 4
+        "sourceGroupIndex": 4,
+        "board": [
+          "Qh",
+          "8h",
+          "3h"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-5-0-0",
@@ -1110,7 +1313,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "fold"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "Js",
+          "8s",
+          "8d"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-6-0-0",
@@ -1120,7 +1332,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 6
+        "sourceGroupIndex": 6,
+        "board": [
+          "Tc",
+          "7d",
+          "6s"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-7-0-0",
@@ -1130,7 +1351,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 7
+        "sourceGroupIndex": 7,
+        "board": [
+          "Kd",
+          "Th",
+          "7h"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-8-0-0",
@@ -1140,7 +1370,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "As",
+          "Ad",
+          "7s"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-9-0-0",
@@ -1150,7 +1389,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "fold"
         ],
-        "sourceGroupIndex": 9
+        "sourceGroupIndex": 9,
+        "board": [
+          "Kc",
+          "6c",
+          "3s"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 28,
+        "villainStackSize": 25.5,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-15-0-0-0",
@@ -1160,7 +1408,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 0
+        "sourceGroupIndex": 0,
+        "board": [
+          "As",
+          "Ks",
+          "4h"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 37,
+        "villainStackSize": 37,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-1-0-0",
@@ -1171,7 +1428,16 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_30pct",
           "check"
         ],
-        "sourceGroupIndex": 1
+        "sourceGroupIndex": 1,
+        "board": [
+          "8d",
+          "6h",
+          "5h"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 37,
+        "villainStackSize": 37,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-2-0-0",
@@ -1182,7 +1448,16 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_30pct",
           "check"
         ],
-        "sourceGroupIndex": 2
+        "sourceGroupIndex": 2,
+        "board": [
+          "Kh",
+          "4h",
+          "3h"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 37,
+        "villainStackSize": 37,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-3-0-0",
@@ -1193,7 +1468,16 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_60pct",
           "check"
         ],
-        "sourceGroupIndex": 3
+        "sourceGroupIndex": 3,
+        "board": [
+          "As",
+          "Ks",
+          "4h"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 37,
+        "villainStackSize": 37,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-4-0-0",
@@ -1204,7 +1488,16 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_30pct",
           "check"
         ],
-        "sourceGroupIndex": 4
+        "sourceGroupIndex": 4,
+        "board": [
+          "Kh",
+          "6d",
+          "4s"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 37,
+        "villainStackSize": 37,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-5-0-0",
@@ -1214,7 +1507,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "bet_30pct"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "Th",
+          "8h",
+          "7h"
+        ],
+        "villainPosition": "CO",
+        "heroStackSize": 37,
+        "villainStackSize": 37,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       }
     ]
   },
@@ -1238,7 +1540,17 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 0
+        "sourceGroupIndex": 0,
+        "board": [
+          "Jd",
+          "6d",
+          "2c",
+          "4h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 25,
+        "villainStackSize": 25,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-1-0-0",
@@ -1248,7 +1560,17 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 1
+        "sourceGroupIndex": 1,
+        "board": [
+          "Jd",
+          "6d",
+          "2c",
+          "4h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 25,
+        "villainStackSize": 25,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-10-0-0",
@@ -1258,7 +1580,17 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 10
+        "sourceGroupIndex": 10,
+        "board": [
+          "Jd",
+          "6d",
+          "2c",
+          "2d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 93,
+        "villainStackSize": 93,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-11-0-0",
@@ -1268,7 +1600,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "all_in"
         ],
-        "sourceGroupIndex": 11
+        "sourceGroupIndex": 11,
+        "board": [
+          "Qh",
+          "Qd",
+          "8h",
+          "As",
+          "7c"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 21,
+        "villainStackSize": 21,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-12-0-0",
@@ -1278,7 +1621,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "all_in"
         ],
-        "sourceGroupIndex": 12
+        "sourceGroupIndex": 12,
+        "board": [
+          "6d",
+          "4h",
+          "3c",
+          "Ks",
+          "Ts"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 17.5,
+        "villainStackSize": 17.5,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-13-0-0",
@@ -1288,7 +1642,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "all_in"
         ],
-        "sourceGroupIndex": 13
+        "sourceGroupIndex": 13,
+        "board": [
+          "6d",
+          "4h",
+          "3c",
+          "9d",
+          "Td"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 17.5,
+        "villainStackSize": 17.5,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-14-0-0",
@@ -1298,7 +1663,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "all_in"
         ],
-        "sourceGroupIndex": 14
+        "sourceGroupIndex": 14,
+        "board": [
+          "Qh",
+          "Qd",
+          "8h",
+          "7h",
+          "6s"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 21,
+        "villainStackSize": 21,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-15-0-0",
@@ -1308,7 +1684,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 15
+        "sourceGroupIndex": 15,
+        "board": [
+          "Ah",
+          "9d",
+          "3c",
+          "Tc",
+          "2s"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 80,
+        "villainStackSize": 80,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-16-0-0",
@@ -1318,7 +1705,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 16
+        "sourceGroupIndex": 16,
+        "board": [
+          "Tc",
+          "7d",
+          "6s",
+          "8s",
+          "Ks"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 87.5,
+        "villainStackSize": 87.5,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-17-0-0",
@@ -1329,7 +1727,18 @@ export const CURRICULUM_SEED_PACKS = [
           "all_in",
           "bet_100pct"
         ],
-        "sourceGroupIndex": 17
+        "sourceGroupIndex": 17,
+        "board": [
+          "6d",
+          "4h",
+          "3c",
+          "9d",
+          "Td"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 81,
+        "villainStackSize": 81,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-18-0-0",
@@ -1339,7 +1748,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "all_in"
         ],
-        "sourceGroupIndex": 18
+        "sourceGroupIndex": 18,
+        "board": [
+          "Tc",
+          "7d",
+          "6s",
+          "Qd",
+          "Js"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 85,
+        "villainStackSize": 85,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-19-0-0",
@@ -1349,7 +1769,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 19
+        "sourceGroupIndex": 19,
+        "board": [
+          "Ah",
+          "9d",
+          "3c",
+          "Tc",
+          "2s"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 81,
+        "villainStackSize": 81,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-2-0-0",
@@ -1360,7 +1791,17 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_40pct",
           "bet_72pct"
         ],
-        "sourceGroupIndex": 2
+        "sourceGroupIndex": 2,
+        "board": [
+          "Ad",
+          "Jh",
+          "Th",
+          "3h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 25,
+        "villainStackSize": 25,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-20-0-0",
@@ -1370,7 +1811,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 20
+        "sourceGroupIndex": 20,
+        "board": [
+          "Tc",
+          "7d",
+          "6s",
+          "Qd",
+          "Js"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 82.5,
+        "villainStackSize": 82.5,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-21-0-0",
@@ -1380,7 +1832,18 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "all_in"
         ],
-        "sourceGroupIndex": 21
+        "sourceGroupIndex": 21,
+        "board": [
+          "Ah",
+          "9d",
+          "3c",
+          "Tc",
+          "2s"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 81,
+        "villainStackSize": 81,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-3-0-0",
@@ -1390,7 +1853,17 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "bet_72pct"
         ],
-        "sourceGroupIndex": 3
+        "sourceGroupIndex": 3,
+        "board": [
+          "6d",
+          "4h",
+          "3c",
+          "9d"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 25,
+        "villainStackSize": 25,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-4-0-0",
@@ -1400,7 +1873,17 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "bet_100pct"
         ],
-        "sourceGroupIndex": 4
+        "sourceGroupIndex": 4,
+        "board": [
+          "Jd",
+          "6d",
+          "2c",
+          "4h"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 25,
+        "villainStackSize": 25,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-5-0-0",
@@ -1410,7 +1893,17 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "Ah",
+          "9d",
+          "3c",
+          "9s"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 25,
+        "villainStackSize": 25,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-6-0-0",
@@ -1421,7 +1914,17 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_40pct",
           "bet_72pct"
         ],
-        "sourceGroupIndex": 6
+        "sourceGroupIndex": 6,
+        "board": [
+          "Ah",
+          "9d",
+          "3c",
+          "9s"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 25,
+        "villainStackSize": 25,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-7-0-0",
@@ -1433,7 +1936,17 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_165pct",
           "bet_72pct"
         ],
-        "sourceGroupIndex": 7
+        "sourceGroupIndex": 7,
+        "board": [
+          "Tc",
+          "7d",
+          "6s",
+          "Qd"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 93,
+        "villainStackSize": 93,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-8-0-0",
@@ -1443,7 +1956,17 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Ad",
+          "Jh",
+          "Th",
+          "8s"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 93,
+        "villainStackSize": 93,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-9-0-0",
@@ -1454,7 +1977,17 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_40pct",
           "check"
         ],
-        "sourceGroupIndex": 9
+        "sourceGroupIndex": 9,
+        "board": [
+          "6d",
+          "4h",
+          "3c",
+          "Ks"
+        ],
+        "villainPosition": "BB",
+        "heroStackSize": 93,
+        "villainStackSize": 93,
+        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       }
     ]
   },
@@ -1906,7 +2439,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 0
+        "sourceGroupIndex": 0,
+        "board": [
+          "6d",
+          "4h",
+          "3c"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-1-0-0",
@@ -1917,7 +2459,16 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_66pct",
           "check"
         ],
-        "sourceGroupIndex": 1
+        "sourceGroupIndex": 1,
+        "board": [
+          "9h",
+          "6d",
+          "2h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-10-0-0",
@@ -1928,7 +2479,16 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_30pct",
           "bet_66pct"
         ],
-        "sourceGroupIndex": 10
+        "sourceGroupIndex": 10,
+        "board": [
+          "Js",
+          "8s",
+          "8h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-11-0-0",
@@ -1938,7 +2498,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "bet_30pct"
         ],
-        "sourceGroupIndex": 11
+        "sourceGroupIndex": 11,
+        "board": [
+          "Qd",
+          "Qc",
+          "Js"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-12-0-0",
@@ -1948,7 +2517,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 12
+        "sourceGroupIndex": 12,
+        "board": [
+          "Qh",
+          "8h",
+          "3h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-13-0-0",
@@ -1958,7 +2536,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 13
+        "sourceGroupIndex": 13,
+        "board": [
+          "Ad",
+          "Jh",
+          "Th"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-14-0-0",
@@ -1968,7 +2555,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 14
+        "sourceGroupIndex": 14,
+        "board": [
+          "Ac",
+          "Kc",
+          "3d"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-2-0-0",
@@ -1978,7 +2574,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 2
+        "sourceGroupIndex": 2,
+        "board": [
+          "Ad",
+          "Jh",
+          "Th"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-3-0-0",
@@ -1988,7 +2593,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 3
+        "sourceGroupIndex": 3,
+        "board": [
+          "Kc",
+          "6c",
+          "3s"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-4-0-0",
@@ -1998,7 +2612,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 4
+        "sourceGroupIndex": 4,
+        "board": [
+          "8s",
+          "3s",
+          "2s"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-5-0-0",
@@ -2009,7 +2632,16 @@ export const CURRICULUM_SEED_PACKS = [
           "bet_30pct",
           "check"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "8s",
+          "3s",
+          "2s"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-6-0-0",
@@ -2019,7 +2651,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "bet_30pct"
         ],
-        "sourceGroupIndex": 6
+        "sourceGroupIndex": 6,
+        "board": [
+          "As",
+          "Ac",
+          "7s"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-7-0-0",
@@ -2029,7 +2670,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 7
+        "sourceGroupIndex": 7,
+        "board": [
+          "9h",
+          "6d",
+          "2h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-8-0-0",
@@ -2039,7 +2689,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "bet_66pct"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "Tc",
+          "7d",
+          "6s"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-9-0-0",
@@ -2049,7 +2708,16 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "check"
         ],
-        "sourceGroupIndex": 9
+        "sourceGroupIndex": 9,
+        "board": [
+          "Tc",
+          "7d",
+          "6s"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27.9,
+        "villainStackSize": 27.9,
+        "preflopLine": "preflop: CO raises 2bb, BTN calls"
       }
     ]
   },
@@ -2073,7 +2741,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 0
+        "sourceGroupIndex": 0,
+        "board": [
+          "Th",
+          "5h",
+          "5d"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-1-0-0",
@@ -2083,7 +2759,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 1
+        "sourceGroupIndex": 1,
+        "board": [
+          "9h",
+          "6d",
+          "2h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-10-0-0",
@@ -2093,7 +2777,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 10
+        "sourceGroupIndex": 10,
+        "board": [
+          "As",
+          "9d",
+          "3c"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-11-0-0",
@@ -2103,7 +2795,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 11
+        "sourceGroupIndex": 11,
+        "board": [
+          "Kd",
+          "Tc",
+          "7c"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-12-0-0",
@@ -2114,7 +2814,15 @@ export const CURRICULUM_SEED_PACKS = [
           "call",
           "raise_33%"
         ],
-        "sourceGroupIndex": 12
+        "sourceGroupIndex": 12,
+        "board": [
+          "6d",
+          "4h",
+          "3c"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-13-0-0",
@@ -2124,7 +2832,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 13
+        "sourceGroupIndex": 13,
+        "board": [
+          "9h",
+          "6d",
+          "2c"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-14-0-0",
@@ -2134,7 +2850,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "fold"
         ],
-        "sourceGroupIndex": 14
+        "sourceGroupIndex": 14,
+        "board": [
+          "Kc",
+          "6c",
+          "3s"
+        ],
+        "villainPosition": "UTG",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-2-0-0",
@@ -2144,7 +2868,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 2
+        "sourceGroupIndex": 2,
+        "board": [
+          "9h",
+          "6d",
+          "2h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-3-0-0",
@@ -2156,7 +2888,15 @@ export const CURRICULUM_SEED_PACKS = [
           "raise_33%",
           "raise_55%"
         ],
-        "sourceGroupIndex": 3
+        "sourceGroupIndex": 3,
+        "board": [
+          "Kh",
+          "Jd",
+          "4d"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-4-0-0",
@@ -2166,7 +2906,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "call"
         ],
-        "sourceGroupIndex": 4
+        "sourceGroupIndex": 4,
+        "board": [
+          "Ac",
+          "Kc",
+          "3d"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-5-0-0",
@@ -2178,7 +2926,15 @@ export const CURRICULUM_SEED_PACKS = [
           "raise_33%",
           "raise_55%"
         ],
-        "sourceGroupIndex": 5
+        "sourceGroupIndex": 5,
+        "board": [
+          "Jd",
+          "6d",
+          "2c"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-6-0-0",
@@ -2188,7 +2944,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "fold"
         ],
-        "sourceGroupIndex": 6
+        "sourceGroupIndex": 6,
+        "board": [
+          "Kd",
+          "Th",
+          "7h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-7-0-0",
@@ -2200,7 +2964,15 @@ export const CURRICULUM_SEED_PACKS = [
           "raise_33%",
           "raise_55%"
         ],
-        "sourceGroupIndex": 7
+        "sourceGroupIndex": 7,
+        "board": [
+          "Kd",
+          "Th",
+          "7h"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-8-0-0",
@@ -2210,7 +2982,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "raise_33%"
         ],
-        "sourceGroupIndex": 8
+        "sourceGroupIndex": 8,
+        "board": [
+          "8s",
+          "3s",
+          "2s"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       },
       {
         "id": "versus-bb-cbet-9-9-0-0",
@@ -2220,7 +3000,15 @@ export const CURRICULUM_SEED_PACKS = [
         "acceptedActions": [
           "raise_33%"
         ],
-        "sourceGroupIndex": 9
+        "sourceGroupIndex": 9,
+        "board": [
+          "Qd",
+          "Qc",
+          "Js"
+        ],
+        "villainPosition": "BTN",
+        "heroStackSize": 27,
+        "villainStackSize": 25
       }
     ]
   },

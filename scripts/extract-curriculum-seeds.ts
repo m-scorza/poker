@@ -18,14 +18,39 @@ const SOURCE_PATH = join(REPO_ROOT, '..', 'poker-knowledge', 'quiz_configs.json'
 const OUT_PATH = join(REPO_ROOT, 'src', 'data', 'curriculumSeedPacks.generated.ts');
 const SOURCE_LABEL = '../poker-knowledge/quiz_configs.json';
 
+function resolveSourcePath(): string {
+  const flagIndex = process.argv.indexOf('--source');
+  const value = flagIndex === -1 ? undefined : process.argv[flagIndex + 1];
+  return value ? value : SOURCE_PATH;
+}
+
 interface RawExpectedAnswer {
   combos?: unknown;
   answer?: unknown;
 }
 
+interface RawHistoryAction {
+  position?: unknown;
+  action?: unknown;
+}
+
+interface RawHistoryStreet {
+  street?: unknown;
+  actions?: unknown;
+}
+
+interface RawSpotConfig {
+  heroStackSize?: unknown;
+  villainStackSize?: unknown;
+  actionHistory?: unknown;
+}
+
 interface RawAnswerGroup {
   position?: unknown;
   stackSize?: unknown;
+  board?: unknown;
+  villainPosition?: unknown;
+  spotConfig?: unknown;
   expectedAnswers?: unknown;
 }
 
@@ -43,6 +68,11 @@ interface CurriculumSpotSeed {
   stackBb: number;
   acceptedActions: string[];
   sourceGroupIndex: number;
+  board?: string[];
+  villainPosition?: string;
+  heroStackSize?: number;
+  villainStackSize?: number;
+  preflopLine?: string;
 }
 
 interface CurriculumSeedPack {
@@ -116,7 +146,7 @@ const PACK_COPY: Record<string, { slug: string; title: string; description: stri
 };
 
 function readRawConfigs(): RawQuizConfig[] {
-  const parsed: unknown = JSON.parse(readFileSync(SOURCE_PATH, 'utf-8'));
+  const parsed: unknown = JSON.parse(readFileSync(resolveSourcePath(), 'utf-8'));
   if (!Array.isArray(parsed)) throw new Error('quiz_configs.json must be an array');
   return parsed as RawQuizConfig[];
 }
@@ -166,6 +196,58 @@ function orderHandClass(a: string, b: string, suitedness?: string): string {
   return `${ordered[0]}${ordered[1]}${suitedness === 'S' ? 's' : 'o'}`;
 }
 
+function parseBoard(board: unknown): string[] | undefined {
+  if (typeof board !== 'string') return undefined;
+  const cards = board.split('-').map((card) => card.trim()).filter(Boolean);
+  return cards.length > 0 ? cards : undefined;
+}
+
+const STREET_LABELS: Record<string, string> = {
+  'PRÉ-FLOP': 'preflop',
+  FLOP: 'flop',
+  TURN: 'turn',
+  RIVER: 'river',
+};
+
+function translateHistoryAction(action: unknown): string | null {
+  if (typeof action !== 'string') return null;
+  const match = action.trim().match(/^(\S+)(?:\s+(.+))?$/);
+  if (!match) return null;
+  const verb = match[1]!.toLowerCase();
+  const amount = match[2]?.trim();
+  const sized = (label: string) =>
+    amount ? `${label} ${/^[\d.]+$/.test(amount) ? `${amount}bb` : amount}` : label;
+  if (verb === 'fold') return 'folds';
+  if (verb === 'check') return 'checks';
+  if (verb === 'call') return 'calls';
+  if (verb === 'limp') return 'limps';
+  if (verb === 'raise') return sized('raises');
+  if (verb === 'bet') return sized('bets');
+  if (verb === 'cbet') return sized('c-bets');
+  return null;
+}
+
+function buildPreflopLine(spotConfig: RawSpotConfig | undefined): string | undefined {
+  const history = spotConfig && Array.isArray(spotConfig.actionHistory)
+    ? spotConfig.actionHistory as RawHistoryStreet[]
+    : [];
+  const segments = history
+    .map((street) => {
+      const label = typeof street.street === 'string' ? STREET_LABELS[street.street] : undefined;
+      if (!label) return null;
+      const actions = (Array.isArray(street.actions) ? street.actions as RawHistoryAction[] : [])
+        .map((entry) => {
+          const verb = translateHistoryAction(entry.action);
+          if (!verb || typeof entry.position !== 'string') return null;
+          return `${entry.position} ${verb}`;
+        })
+        .filter((entry): entry is string => Boolean(entry));
+      return actions.length > 0 ? `${label}: ${actions.join(', ')}` : null;
+    })
+    .filter((segment): segment is string => Boolean(segment));
+  return segments.length > 0 ? segments.join('; ') : undefined;
+}
+
 function buildPacks(configs: RawQuizConfig[]): CurriculumSeedPack[] {
   const bySlug = new Map<string, CurriculumSeedPack>();
 
@@ -187,6 +269,15 @@ function buildPacks(configs: RawQuizConfig[]): CurriculumSeedPack[] {
       const stackBb = typeof group.stackSize === 'number' ? group.stackSize : null;
       if (!position || !stackBb || stackBb <= 0) return;
 
+      const board = parseBoard(group.board);
+      const spotConfig = board && group.spotConfig && typeof group.spotConfig === 'object'
+        ? group.spotConfig as RawSpotConfig
+        : undefined;
+      const villainPosition = board && typeof group.villainPosition === 'string' ? group.villainPosition : undefined;
+      const heroStackSize = typeof spotConfig?.heroStackSize === 'number' ? spotConfig.heroStackSize : undefined;
+      const villainStackSize = typeof spotConfig?.villainStackSize === 'number' ? spotConfig.villainStackSize : undefined;
+      const preflopLine = buildPreflopLine(spotConfig);
+
       const answers = Array.isArray(group.expectedAnswers) ? group.expectedAnswers as RawExpectedAnswer[] : [];
       answers.forEach((entry, entryIndex) => {
         const combos = Array.isArray(entry.combos) ? entry.combos : [];
@@ -205,6 +296,11 @@ function buildPacks(configs: RawQuizConfig[]): CurriculumSeedPack[] {
             stackBb,
             acceptedActions: Array.from(new Set(acceptedActions)).sort(),
             sourceGroupIndex: groupIndex,
+            board,
+            villainPosition,
+            heroStackSize,
+            villainStackSize,
+            preflopLine,
           });
         });
       });
@@ -219,7 +315,7 @@ function buildPacks(configs: RawQuizConfig[]): CurriculumSeedPack[] {
 }
 
 const packs = buildPacks(readRawConfigs());
-const content = `// Generated by scripts/extract-curriculum-seeds.ts. Do not edit by hand.\n\nexport interface CurriculumSpotSeed {\n  id: string;\n  combo: string;\n  position: 'UTG' | 'LJ' | 'HJ' | 'CO' | 'BTN' | 'SB' | 'BB';\n  stackBb: number;\n  acceptedActions: string[];\n  sourceGroupIndex: number;\n}\n\nexport interface CurriculumSeedPack {\n  slug: string;\n  title: string;\n  description: string;\n  source: {\n    kind: 'brand_neutralized_quiz_config';\n    path: string;\n    sourceConfigIndexes: number[];\n  };\n  spots: CurriculumSpotSeed[];\n}\n\nexport const CURRICULUM_SEED_PACKS = ${JSON.stringify(packs, null, 2)} satisfies CurriculumSeedPack[];\n`;
+const content = `// Generated by scripts/extract-curriculum-seeds.ts. Do not edit by hand.\n\nexport interface CurriculumSpotSeed {\n  id: string;\n  combo: string;\n  position: 'UTG' | 'LJ' | 'HJ' | 'CO' | 'BTN' | 'SB' | 'BB';\n  stackBb: number;\n  acceptedActions: string[];\n  sourceGroupIndex: number;\n  board?: string[];\n  villainPosition?: string;\n  heroStackSize?: number;\n  villainStackSize?: number;\n  preflopLine?: string;\n}\n\nexport interface CurriculumSeedPack {\n  slug: string;\n  title: string;\n  description: string;\n  source: {\n    kind: 'brand_neutralized_quiz_config';\n    path: string;\n    sourceConfigIndexes: number[];\n  };\n  spots: CurriculumSpotSeed[];\n}\n\nexport const CURRICULUM_SEED_PACKS = ${JSON.stringify(packs, null, 2)} satisfies CurriculumSeedPack[];\n`;
 
 const check = process.argv.includes('--check');
 if (check) {
