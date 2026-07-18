@@ -900,9 +900,9 @@ export function ArenaPage() {
                        <PokerCard key={`${card}-${index}`} card={card} size="md" className="shadow-xl" />
                      ))}
                   </div>
-                  {drill.currentCurriculumSpot.preflopLine && (
+                  {drill.currentCurriculumSpot.actionLine && (
                     <span className="max-w-[280px] text-center text-[11px] font-mono text-[var(--fg-muted)]">
-                       {drill.currentCurriculumSpot.preflopLine}
+                       {drill.currentCurriculumSpot.actionLine}
                     </span>
                   )}
                </div>

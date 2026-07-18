@@ -11,7 +11,7 @@ export interface CurriculumSpotSeed {
   villainPosition?: string;
   heroStackSize?: number;
   villainStackSize?: number;
-  preflopLine?: string;
+  actionLine?: string;
 }
 
 export interface CurriculumSeedPack {
@@ -1208,7 +1208,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "UTG",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-1-0-0",
@@ -1227,7 +1227,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-10-0-0",
@@ -1246,7 +1246,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-2-0-0",
@@ -1265,7 +1265,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "UTG",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-3-0-0",
@@ -1284,7 +1284,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-4-0-0",
@@ -1303,7 +1303,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "UTG",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-5-0-0",
@@ -1322,7 +1322,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "UTG",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-6-0-0",
@@ -1341,7 +1341,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-7-0-0",
@@ -1360,7 +1360,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "UTG",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-8-0-0",
@@ -1379,7 +1379,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "UTG",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-14-9-0-0",
@@ -1398,7 +1398,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "UTG",
         "heroStackSize": 28,
         "villainStackSize": 25.5,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls; flop: UTG c-bets 2.5bb"
       },
       {
         "id": "in-position-postflop-15-0-0-0",
@@ -1417,7 +1417,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 37,
         "villainStackSize": 37,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-1-0-0",
@@ -1437,7 +1437,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 37,
         "villainStackSize": 37,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-2-0-0",
@@ -1457,7 +1457,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 37,
         "villainStackSize": 37,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-3-0-0",
@@ -1477,7 +1477,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 37,
         "villainStackSize": 37,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-4-0-0",
@@ -1497,7 +1497,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 37,
         "villainStackSize": 37,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       },
       {
         "id": "in-position-postflop-15-5-0-0",
@@ -1516,7 +1516,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "CO",
         "heroStackSize": 37,
         "villainStackSize": 37,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
+        "actionLine": "preflop: CO raises 2bb, BTN calls; flop: CO checks"
       }
     ]
   },
@@ -1550,7 +1550,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 25,
         "villainStackSize": 25,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-1-0-0",
@@ -1570,7 +1570,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 25,
         "villainStackSize": 25,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-10-0-0",
@@ -1590,7 +1590,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 93,
         "villainStackSize": 93,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-11-0-0",
@@ -1611,7 +1611,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 21,
         "villainStackSize": 21,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-12-0-0",
@@ -1632,7 +1632,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 17.5,
         "villainStackSize": 17.5,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-13-0-0",
@@ -1653,7 +1653,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 17.5,
         "villainStackSize": 17.5,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-14-0-0",
@@ -1674,7 +1674,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 21,
         "villainStackSize": 21,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-15-0-0",
@@ -1695,7 +1695,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 80,
         "villainStackSize": 80,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-16-0-0",
@@ -1716,7 +1716,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 87.5,
         "villainStackSize": 87.5,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 40%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-17-0-0",
@@ -1738,7 +1738,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 81,
         "villainStackSize": 81,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-18-0-0",
@@ -1759,7 +1759,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 85,
         "villainStackSize": 85,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-19-0-0",
@@ -1780,7 +1780,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 81,
         "villainStackSize": 81,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-2-0-0",
@@ -1801,7 +1801,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 25,
         "villainStackSize": 25,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-20-0-0",
@@ -1822,7 +1822,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 82.5,
         "villainStackSize": 82.5,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-21-0-0",
@@ -1843,7 +1843,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 81,
         "villainStackSize": 81,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks, BTN c-bets 67%, BB calls; river: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-3-0-0",
@@ -1863,7 +1863,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 25,
         "villainStackSize": 25,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-4-0-0",
@@ -1883,7 +1883,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 25,
         "villainStackSize": 25,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-5-0-0",
@@ -1903,7 +1903,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 25,
         "villainStackSize": 25,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-6-0-0",
@@ -1924,7 +1924,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 25,
         "villainStackSize": 25,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-7-0-0",
@@ -1946,7 +1946,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 93,
         "villainStackSize": 93,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-8-0-0",
@@ -1966,7 +1966,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 93,
         "villainStackSize": 93,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       },
       {
         "id": "in-position-turn-river-barrels-vs-bb-2-9-0-0",
@@ -1987,7 +1987,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BB",
         "heroStackSize": 93,
         "villainStackSize": 93,
-        "preflopLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
+        "actionLine": "flop: BB checks, BTN c-bets 1/3, BB calls; turn: BB checks"
       }
     ]
   },
@@ -2448,7 +2448,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls"
+        "actionLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-1-0-0",
@@ -2468,7 +2468,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-10-0-0",
@@ -2488,7 +2488,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-11-0-0",
@@ -2507,7 +2507,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-12-0-0",
@@ -2526,7 +2526,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls"
+        "actionLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-13-0-0",
@@ -2545,7 +2545,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls"
+        "actionLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-14-0-0",
@@ -2564,7 +2564,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-2-0-0",
@@ -2583,7 +2583,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls"
+        "actionLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-3-0-0",
@@ -2602,7 +2602,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-4-0-0",
@@ -2621,7 +2621,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls"
+        "actionLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-5-0-0",
@@ -2641,7 +2641,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-6-0-0",
@@ -2660,7 +2660,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-7-0-0",
@@ -2679,7 +2679,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls"
+        "actionLine": "preflop: CO raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-8-0-0",
@@ -2698,7 +2698,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: UTG raises 2bb, BTN calls"
+        "actionLine": "preflop: UTG raises 2bb, BTN calls"
       },
       {
         "id": "out-of-position-cbet-13-9-0-0",
@@ -2717,7 +2717,7 @@ export const CURRICULUM_SEED_PACKS = [
         "villainPosition": "BTN",
         "heroStackSize": 27.9,
         "villainStackSize": 27.9,
-        "preflopLine": "preflop: CO raises 2bb, BTN calls"
+        "actionLine": "preflop: CO raises 2bb, BTN calls"
       }
     ]
   },

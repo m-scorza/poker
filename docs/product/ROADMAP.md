@@ -176,7 +176,7 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       `scripts/extract-curriculum-seeds.ts` and drilled in the Arena as
       practice-only content. A follow-up slice adds postflop board fidelity:
       the six postflop configs (indexes 1, 2, 9, 13, 14, 15) now carry
-      `board` / `villainPosition` / stack sizes / `preflopLine`, and the Arena
+      `board` / `villainPosition` / stack sizes / `actionLine`, and the Arena
       curriculum drill renders that context so the ~80 postflop spots are
       actually answerable. Remaining III-4 work is the lesson-recommendation
       scoring port.*
