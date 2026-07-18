@@ -1,8 +1,10 @@
 # FACING_ALL_IN Grading Proposal (Act III-3, second half)
 
-> **Status: PROPOSED — awaiting owner rulings in §7.**
-> Nothing here is implemented. The parameter sheet in §4 is the thing to
-> approve; §7 lists the five decisions that block implementation.
+> **Status: APPROVED 2026-07-18 — owner rulings recorded in §7.**
+> All five questions were ruled as recommended: 12bb effective cap, bubble/FT
+> stay refused, ±3pp band, PKO refused in v1, shove-over-action refused in
+> v1. The §4 parameter sheet stands unamended. Implementation (§6) is
+> unblocked.
 
 **Goal (ROADMAP III-3, remaining box):** replace the `FACING_ALL_IN`
 compliance exclusion in `src/analysis/rangeChecker.ts` with real grading.
@@ -151,19 +153,16 @@ from the generated table and get pinned in tests, so treat the equities as
   refusal regressions. Docs: STATUS/ROADMAP tick, CLAUDE.md scenario table
   row — same PR.
 
-## 7. Owner decisions (blocking)
+## 7. Owner decisions (answered 2026-07-18)
 
-- **Q1 — depth cap:** 12bb effective using the 10bb `PUSH_RANGES` as-is
-  (recommended)? Alternatives: strict 10bb; or a 15bb tier with widened
-  assumed ranges I'd draft for approval.
-- **Q2 — bubble/FT:** keep refused (recommended, consistent with the
-  repo-wide "extreme ICM" exclusion), or grade with the coarse stage
-  premiums (10/15pp) knowing they ignore stack geometry?
-- **Q3 — band width:** ±3pp (recommended)? ±2pp flags more close spots as
-  leaks; ±5pp nearly never flags a shove call.
-- **Q4 — PKO:** refuse in v1 (recommended), or grade with call-side
-  forgiveness (never flag `ALLIN_LOOSE_CALL` in PKO, keep the overfold flag
-  with an extra cushion)?
-- **Q5 — shove-over-action:** refuse in v1 (recommended), or add a second
-  assumed-range tier using `RESTEAL_RANGE` when a ≤20bb BTN/SB shover jams
-  over a late open?
+- **Q1 — depth cap:** **12bb effective**, using the 10bb `PUSH_RANGES`
+  as-is. Deeper shoves keep a targeted refusal.
+- **Q2 — bubble/FT:** **keep refused**, consistent with the repo-wide
+  "extreme ICM" exclusion; the stage detector has no stack geometry or
+  payout structure to price a real premium.
+- **Q3 — band width:** **±3pp.** Inside the band both actions are
+  compliant and the verdict carries `'band'` provenance.
+- **Q4 — PKO:** **refuse in v1.** Bounty-aware grading is a v2 candidate
+  once it can use real bounty numbers instead of a guessed cushion.
+- **Q5 — shove-over-action:** **refuse in v1.** Only first-in open-shoves
+  are graded; a `RESTEAL_RANGE`-based second tier is a v2 candidate.
