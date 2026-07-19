@@ -217,7 +217,7 @@ Exceptions: villain all-in, raise 5x+, or extreme ICM pressure (bubble/FT).
 | `HU_BTN` | Heads-up, hero is BTN/SB | 10bb+: play 100% (never fold). LIMP is valid. |
 | `FACING_RAISE` | Someone raised (not all-in) | Non-BTN/BB: 3-bet or fold only. Exception: pairs 66- can call at 40bb+. BTN/BB may call. |
 | `FACING_3BET` | Hero opened, one villain 3-bet behind (no callers), hero responds — OR hero cold-faces open+3-bet | Hero-opened: graded vs vault-anchored grids (`data/vs3betRanges.ts`). Cold spots: not graded. |
-| `FACING_ALL_IN` | Someone went all-in | Pot odds + hand strength + ICM. NOT subject to no-cold-call rule. |
+| `FACING_ALL_IN` | Someone went all-in | Pot odds + hand strength + ICM. NOT subject to no-cold-call rule. Cold first-in open-shoves ≤12bb effective are graded (required equity vs `data/allInEquity.generated.ts`); non-open-shove / multiway / >12bb / bubble-FT / PKO stay refused. |
 | `FACING_LIMP` | Someone limped, no raise | Raise. Never limp behind (SB may limp behind). |
 | `BB_VS_RAISE` | Hero BB, facing 2-3x open | Defend wide. Never fold suited. |
 | `BB_VS_LARGE_RAISE` | Hero BB, facing 5x+ or all-in | Standard decision — folding suited acceptable |
@@ -228,9 +228,9 @@ Exceptions: villain all-in, raise 5x+, or extreme ICM pressure (bubble/FT).
 
 ### Range Compliance Scope
 
-**Computed:** `RFI`, `BLIND_WAR`, `HU_BTN` (10bb+), `FACING_RAISE` non-BTN/BB, `BB_VS_RAISE`, `FACING_3BET` hero-opened (≤15bb: premium-only rule; deeper: 25bb/50bb grids with a 40bb boundary)
+**Computed:** `RFI`, `BLIND_WAR`, `HU_BTN` (10bb+), `FACING_RAISE` non-BTN/BB, `BB_VS_RAISE`, `FACING_3BET` hero-opened (≤15bb: premium-only rule; deeper: 25bb/50bb grids with a 40bb boundary), `FACING_ALL_IN` cold first-in open-shove ≤12bb effective (required equity = pot odds + stage risk premium vs the assumed shove range; ±3pp mixed band)
 
-**Excluded:** `FACING_ALL_IN`, `BB_VS_LARGE_RAISE`, `BB_VS_RAISE_MULTIWAY`, `BB_VS_LIMP`, cold `FACING_3BET`, all-in 3-bets above 15bb, extreme ICM spots (bubble/FT)
+**Excluded:** `BB_VS_LARGE_RAISE`, `BB_VS_RAISE_MULTIWAY`, `BB_VS_LIMP`, cold `FACING_3BET`, all-in 3-bets above 15bb, `FACING_ALL_IN` that is non-open-shove / multiway / >12bb effective / PKO, extreme ICM spots (bubble/FT)
 
 ---
 
@@ -363,7 +363,7 @@ interface VillainProfile {
 
 type Position = 'UTG' | 'UTG+1' | 'MP1' | 'MP' | 'MP2' | 'HJ' | 'CO' | 'BTN' | 'SB' | 'BB' | 'BTN/SB';
 type Scenario = 'RFI' | 'BLIND_WAR' | 'HU_BTN' | 'FACING_RAISE' | 'FACING_3BET' | 'FACING_ALL_IN' | 'FACING_LIMP' | 'BB_VS_RAISE' | 'BB_VS_RAISE_MULTIWAY' | 'BB_VS_LARGE_RAISE' | 'BB_VS_LIMP' | 'WALK';
-type DeviationType = 'OVERFOLD' | 'OPENED_OUT_OF_RANGE' | 'LIMPED' | 'SB_OVERFOLD' | 'SB_LIMPED' | 'SB_OUT_OF_RANGE' | 'COLD_CALL' | 'BB_FOLD_SUITED' | 'SB_COLD_CALL' | 'FOLD_VS_LIMP' | 'LIMP_BEHIND' | 'HU_BTN_FOLD' | 'VS3BET_OVERFOLD' | 'VS3BET_LOOSE_CONTINUE' | 'VS3BET_WRONG_CONTINUE';
+type DeviationType = 'OVERFOLD' | 'OPENED_OUT_OF_RANGE' | 'LIMPED' | 'SB_OVERFOLD' | 'SB_LIMPED' | 'SB_OUT_OF_RANGE' | 'COLD_CALL' | 'BB_FOLD_SUITED' | 'SB_COLD_CALL' | 'FOLD_VS_LIMP' | 'LIMP_BEHIND' | 'HU_BTN_FOLD' | 'VS3BET_OVERFOLD' | 'VS3BET_LOOSE_CONTINUE' | 'VS3BET_WRONG_CONTINUE' | 'ALLIN_OVERFOLD' | 'ALLIN_LOOSE_CALL';
 type VillainArchetype = 'fish' | 'nit' | 'tag' | 'lag' | 'station' | 'maniac';
 ```
 
