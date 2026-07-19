@@ -64,6 +64,19 @@ describe('ungraded scenario summaries', () => {
       action: 'call',
       openerPosition: 'CO',
     }))).toBe(false);
+    // A fully-specified cold open-shove is now graded (the ungraded set shrank).
+    expect(isUngradedDecision(decision({
+      scenario: 'FACING_ALL_IN',
+      position: 'BTN',
+      handKey: 'A9s',
+      action: 'call',
+      icmStage: 'early',
+      shoverPosition: 'CO',
+      facingAllInOpenShove: true,
+      allInPotBb: 12.6,
+      allInCallCostBb: 10,
+      allInEffectiveBb: 10,
+    }))).toBe(false);
     expect(buildUngradedScenarioSummary([decision({ scenario: 'RFI' })])).toEqual([]);
   });
 
