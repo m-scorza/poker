@@ -34,7 +34,9 @@ export type DeviationType =
   | 'HU_BTN_FOLD'
   | 'VS3BET_OVERFOLD'
   | 'VS3BET_LOOSE_CONTINUE'
-  | 'VS3BET_WRONG_CONTINUE';
+  | 'VS3BET_WRONG_CONTINUE'
+  | 'ALLIN_OVERFOLD'
+  | 'ALLIN_LOOSE_CALL';
 
 /** Hero's decision for a single hand, used for range compliance and leak detection. */
 export interface HeroDecision {
@@ -79,6 +81,23 @@ export interface HeroDecision {
   heroOpenedBefore3Bet?: boolean;
   /** FACING_3BET only: the villain's 3-bet was all-in. */
   threeBetAllIn?: boolean;
+  /**
+   * FACING_ALL_IN grading inputs (present only for a clean cold open-shove hero
+   * faced; absent on multiway/shove-over-action spots and on rows persisted
+   * before the pot-odds engine existed, which therefore stay ungraded).
+   * `allInPotBb` is side-pot corrected (uncallable excess removed).
+   */
+  shoverPosition?: Position | null;
+  facingAllInOpenShove?: boolean;
+  allInPotBb?: number;
+  allInCallCostBb?: number;
+  allInEffectiveBb?: number;
+  /**
+   * FACING_ALL_IN verdict provenance: 'engine' when the pot-odds/equity gap is
+   * outside the tolerance band, 'band' for a close spot where both actions are
+   * compliant. Absent when the spot is not graded.
+   */
+  allInProvenance?: 'engine' | 'band';
   /** True if hero's voluntary preflop action was all-in (used for short-stack 3-bet shove analysis). */
   wentAllInPreflop?: boolean;
   postflopActions?: PostflopAction[];

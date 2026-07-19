@@ -60,6 +60,8 @@ const DEVIATION_LABELS: Record<DeviationType, string> = {
   VS3BET_OVERFOLD: 'Folded a continue hand versus a 3-bet',
   VS3BET_LOOSE_CONTINUE: 'Continued a fold hand versus a 3-bet',
   VS3BET_WRONG_CONTINUE: 'Wrong continue action versus a 3-bet',
+  ALLIN_OVERFOLD: 'Folded a call versus an all-in shove',
+  ALLIN_LOOSE_CALL: 'Called an all-in shove too light',
 };
 
 const SCENARIO_LABELS: Record<Scenario, string> = {

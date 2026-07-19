@@ -15,6 +15,9 @@
     // that isn't present in a fresh clone and regenerates a committed file.
     // Nothing in-repo ever imports it, so it also needs an explicit entry.
     "scripts/extract-curriculum-seeds.ts",
+    // Manually-run offline equity generator for the FACING_ALL_IN engine; it
+    // writes src/data/allInEquity.generated.ts and is never imported in-repo.
+    "scripts/generate-allin-equity.ts",
 
     // --- ROADMAP P5 forward-contract allowlist (do not delete) ---
     // Solver* types describe the shape a future real solver backend must

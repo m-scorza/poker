@@ -222,15 +222,24 @@ describe('checkCompliance — FACING_3BET cold spots stay excluded (B4)', () => 
 
 describe('complianceExclusionReason (refusal-as-UI)', () => {
   it('gives a reason for every scenario excluded from compliance', () => {
-    // FACING_3BET is no longer a scenario-level exclusion: hero-opened spots
-    // are graded (III-3) and only its pockets are refused, decision-level.
-    for (const scenario of ['FACING_ALL_IN', 'BB_VS_RAISE_MULTIWAY', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP'] as const) {
+    // FACING_3BET and FACING_ALL_IN are no longer scenario-level exclusions:
+    // hero-opened 3-bets (III-3) and cold open-shoves are graded, and only
+    // their pockets are refused, decision-level.
+    for (const scenario of ['BB_VS_RAISE_MULTIWAY', 'BB_VS_LARGE_RAISE', 'BB_VS_LIMP'] as const) {
       const reason = complianceExclusionReason(scenario);
       expect(reason, scenario).toBeTruthy();
       // The excluded scenarios must agree with checkCompliance returning null.
       const d = makeDecision({ scenario, position: 'HJ', handKey: 'AQs', action: 'call' });
       expect(checkCompliance(d), scenario).toBeNull();
     }
+  });
+
+  it('refuses FACING_ALL_IN at the decision level, not the scenario level', () => {
+    expect(complianceExclusionReason('FACING_ALL_IN')).toBeNull();
+    // A row without the pot-odds inputs (pre-engine persisted) stays refused.
+    const d = makeDecision({ scenario: 'FACING_ALL_IN', position: 'HJ', handKey: 'AQs', action: 'call' });
+    expect(checkCompliance(d)).toBeNull();
+    expect(complianceExclusionReasonForDecision(d)).toContain('before the pot-odds engine');
   });
 
   it('returns null for a graded scenario', () => {

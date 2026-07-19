@@ -41,6 +41,8 @@ const DEVIATION_LABELS: Record<string, string> = {
   VS3BET_OVERFOLD: 'vs 3-Bet Overfold',
   VS3BET_LOOSE_CONTINUE: 'vs 3-Bet Loose Continue',
   VS3BET_WRONG_CONTINUE: 'vs 3-Bet Wrong Continue',
+  ALLIN_OVERFOLD: 'vs All-In Overfold',
+  ALLIN_LOOSE_CALL: 'vs All-In Loose Call',
 };
 
 function formatTableDate(date: Date | undefined): string {

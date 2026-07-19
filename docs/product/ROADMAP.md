@@ -151,20 +151,28 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       confined to the lazy dashboard chunk), and the F17 Tailwind-accent
       residual struck (revisit inside the owner UI-overhaul lane). F2
       hero-name UI is Arc 5's, not this arc's.
-- [ ] **III-3 · Grade the ungraded (Arc 3)** — the analytical moat, unblocked
-      now: extract the vs-3bet grid from the private `poker-knowledge` quiz
-      data → grade `FACING_3BET` with owner-approved ranges + tests; then
-      `FACING_ALL_IN` via pot-odds + ICM. Every refusal that becomes a real
-      grade is a feature no competitor's rule-based tier has. Closes the ⏳
-      reminder below. Plan: `docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md`.
+- [x] **III-3 · Grade the ungraded (Arc 3)** — ✅ done (both halves): the
+      analytical moat. Extract the vs-3bet grid from the private
+      `poker-knowledge` quiz data → grade `FACING_3BET` with owner-approved
+      ranges + tests; then `FACING_ALL_IN` via pot-odds + ICM. Every refusal
+      that becomes a real grade is a feature no competitor's rule-based tier
+      has. Closes the ⏳ reminder below.
+      Plan: `docs/plans/2026-07-01-poker-knowledge-eval-and-roadmap.md`.
       **FACING_3BET half landed 2026-07-17:** hero-opened vs-3-bet spots are
       now detected (`detectHeroOpenFacing3Bet`) and graded against the six
       vault-anchored grids (`src/data/vs3betRanges.ts`) per the approved
       proposal (`docs/plans/2026-07-12-facing-3bet-grading-proposal.md`, §7
-      rulings), with a CI-pinned 25-anchor fidelity suite. Cold spots,
-      blinds pockets, and deep all-in 3-bets stay refused with targeted
-      reasons. **`FACING_ALL_IN` (pot-odds + ICM) remains** — it needs a
-      different engine; the box stays open until it lands.
+      rulings), with a CI-pinned 25-anchor fidelity suite.
+      **FACING_ALL_IN half landed 2026-07-19:** cold first-in open-shoves ≤12bb
+      effective are graded on required equity (pot odds + stage risk premium)
+      versus a seeded, offline-generated equity table
+      (`scripts/generate-allin-equity.ts` → `src/data/allInEquity.generated.ts`,
+      169 hands × the `PUSH_RANGES`) in `checkFacingAllIn`, with a ±3pp mixed
+      band and `engine`/`band` verdict provenance, per the approved proposal
+      (`docs/plans/2026-07-18-facing-all-in-grading-proposal.md`, §7 rulings).
+      Cold 3-bets, blinds pockets, deep 3-bets, and every non-open-shove /
+      multiway / >12bb / bubble-FT / PKO all-in stay refused with targeted
+      reasons.
 - [ ] **III-4 · Curriculum drills (Arc 4)** — map the vault's 223 quiz
       scenarios into Arena seed packs (curriculum drills alongside
       SRS-from-your-misplays, no double-grading) and port the
@@ -266,14 +274,13 @@ and all of EPIC G (backend / sharing / payments / solver — each behind a
 browser-local `studyPacketProgress` (packet reviews, ungraded) coexist by
 design for now — one scheduler should eventually own both cadences.
 
-> **⏳ REMINDER — grade the excluded scenarios.** `FACING_3BET` (added in I-3)
-> and `FACING_ALL_IN` are currently **excluded** from range compliance — the
-> engine refuses to grade them rather than invent ranges. The future goal is to
-> **actually grade** both: real 3-bet-defense / 4-bet ranges for `FACING_3BET`,
-> and pot-odds + ICM for `FACING_ALL_IN`. Until then they surface via Act II
-> refusal-as-UI ("not graded, here's why"). See the header note in
-> `src/analysis/rangeChecker.ts`. **Now scheduled: Act III-3 (Arc 3), unblocked
-> by the `poker-knowledge` vault's vs-3bet answer keys.**
+> **✅ RESOLVED (III-3) — the excluded scenarios are graded.** `FACING_3BET`
+> hero-opened spots (2026-07-17, vault-anchored grids) and cold first-in
+> open-shoves ≤12bb (2026-07-19, pot-odds + ICM in `checkFacingAllIn`) are now
+> **actually graded** rather than blanket-refused. The remaining pockets (cold
+> 3-bets, blinds, deep/ multiway / bubble-FT / PKO all-ins) still surface via
+> Act II refusal-as-UI ("not graded, here's why") with targeted reasons. See
+> `checkFacing3Bet` / `checkFacingAllIn` in `src/analysis/rangeChecker.ts`.
 
 ---
 

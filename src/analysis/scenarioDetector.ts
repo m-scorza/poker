@@ -256,6 +256,89 @@ function detectHeroOpenFacing3Bet(
   };
 }
 
+interface FacingAllInInputs {
+  shoverPosition: Position | null;
+  openShove: boolean;
+  potBb: number;
+  callCostBb: number;
+  effectiveBb: number;
+}
+
+/**
+ * Compute the pot-odds inputs for a cold FACING_ALL_IN spot. `openShove` is true
+ * only for a clean first-in shove hero cold-faces (a single all-in raise, no
+ * limpers/callers, hero not previously invested); everything else stays
+ * ungraded. The pot is side-pot corrected — the uncallable excess of a shove
+ * that covers hero is removed, since hero cannot win it.
+ */
+function computeFacingAllInInputs(
+  actions: Action[],
+  players: PlayerInHand[],
+  heroName: string,
+  hero: PlayerInHand,
+  bigBlind: number,
+): FacingAllInInputs | null {
+  if (bigBlind <= 0) return null;
+  const preflop = actions.filter((a) => a.street === 'preflop');
+  const heroVolIdx = preflop.findIndex(
+    (a) => a.playerName === heroName && !FORCED_ACTIONS.has(a.actionType),
+  );
+  const beforeHero = heroVolIdx === -1 ? preflop : preflop.slice(0, heroVolIdx);
+
+  const voluntaryBefore = beforeHero.filter((a) => !FORCED_ACTIONS.has(a.actionType));
+  const raisesBefore = voluntaryBefore.filter((a) => a.actionType === 'raise');
+  const callsBefore = voluntaryBefore.filter((a) => a.actionType === 'call');
+  const heroActedBefore = voluntaryBefore.some((a) => a.playerName === heroName);
+  const shove = raisesBefore.find((a) => a.isAllIn);
+  if (!shove) return null;
+
+  const shoverPosition = players.find((p) => p.playerName === shove.playerName)?.position ?? null;
+  const openShove =
+    raisesBefore.length === 1 &&
+    shove.isAllIn &&
+    callsBefore.length === 0 &&
+    !heroActedBefore;
+
+  // Pot before hero: antes accumulate directly; blinds/calls/bets/raises track a
+  // per-player street investment so raise "to" amounts contribute only the delta.
+  let pot = 0;
+  const streetInvested = new Map<string, number>();
+  let heroCommitted = 0;
+  for (const a of beforeHero) {
+    if (a.amount === null || a.actionType === 'fold' || a.actionType === 'check') continue;
+    if (a.playerName === heroName) heroCommitted += a.amount;
+    if (a.actionType === 'post_ante') {
+      pot += a.amount;
+      continue;
+    }
+    if (a.actionType === 'raise') {
+      const prev = streetInvested.get(a.playerName) ?? 0;
+      pot += a.amount - prev;
+      streetInvested.set(a.playerName, a.amount);
+      continue;
+    }
+    pot += a.amount;
+    streetInvested.set(a.playerName, (streetInvested.get(a.playerName) ?? 0) + a.amount);
+  }
+
+  const shoverTo = streetInvested.get(shove.playerName) ?? 0;
+  const heroStreetInvested = streetInvested.get(heroName) ?? 0;
+  const amountToCall = shoverTo - heroStreetInvested;
+  const heroAvailable = Math.max(0, hero.chipsBefore - heroCommitted);
+  const callCost = Math.min(amountToCall, heroAvailable);
+  const uncallableExcess = Math.max(0, amountToCall - heroAvailable);
+  const shover = players.find((p) => p.playerName === shove.playerName);
+  const effective = Math.min(shover?.chipsBefore ?? hero.chipsBefore, hero.chipsBefore);
+
+  return {
+    shoverPosition,
+    openShove,
+    potBb: (pot - uncallableExcess) / bigBlind,
+    callCostBb: callCost / bigBlind,
+    effectiveBb: effective / bigBlind,
+  };
+}
+
 /**
  * Build a HeroDecision from a parsed hand.
  */
@@ -420,6 +503,11 @@ export function buildHeroDecision(
   const wonAmount = collectedAmounts?.get(heroName) ?? 0;
   const wonAtShowdown = wentToShowdown && (showdownWinners?.has(heroName) ?? false);
 
+  const allInInputs =
+    finalScenario === 'FACING_ALL_IN'
+      ? computeFacingAllInInputs(actions, players, heroName, hero, hand.bigBlind)
+      : null;
+
   return {
     handId: hand.id,
     position: hero.position,
@@ -430,6 +518,11 @@ export function buildHeroDecision(
     action: finalAction,
     heroOpenedBefore3Bet,
     threeBetAllIn,
+    shoverPosition: allInInputs?.shoverPosition,
+    facingAllInOpenShove: allInInputs ? allInInputs.openShove : undefined,
+    allInPotBb: allInInputs?.potBb,
+    allInCallCostBb: allInInputs?.callCostBb,
+    allInEffectiveBb: allInInputs?.effectiveBb,
     isCompliant: false,
     deviationType: null,
     sawFlop,
