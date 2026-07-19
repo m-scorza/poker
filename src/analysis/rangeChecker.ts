@@ -19,10 +19,36 @@ import {
 import type { StrategyProfile } from '../data/strategyProfiles';
 import { BB_DEFENSE_ICM_ADJUSTMENTS } from '../data/strategyProfiles';
 import type { ICMStage } from '../data/strategyProfiles';
+import { ALL_IN_EQUITY } from '../data/allInEquity.generated';
 
 export interface ComplianceResult {
   isCompliant: boolean;
   deviationType: DeviationType | null;
+  /** FACING_ALL_IN only: 'engine' for a confident grade, 'band' for a close spot. */
+  provenance?: 'engine' | 'band';
+}
+
+/** Effective-stack cap (bb) beyond which no shove-range model exists (plan §7 Q1). */
+const ALLIN_EFFECTIVE_CAP_BB = 12;
+/** Tolerance band around required equity where both actions are compliant (plan §7 Q3). */
+const ALLIN_BAND_PP = 3;
+/** Stage-constant risk premium (pp); bubble/final_table are refused (plan §7 Q2). */
+const ALLIN_RISK_PREMIUM_PP: Partial<Record<ICMStage, number>> = {
+  early: 0,
+  mid: 2,
+  itm: 8,
+};
+
+/**
+ * Required equity to call an all-in: pot odds plus the ICM risk premium.
+ * Source: docs/knowledge/strategy/05-icm-and-risk-premium.md §3.
+ */
+export function facingAllInRequiredEquity(
+  callCostBb: number,
+  potBb: number,
+  riskPremiumPp: number,
+): number {
+  return (callCostBb / (callCostBb + potBb)) * 100 + riskPremiumPp;
 }
 
 /**
@@ -76,8 +102,10 @@ export function checkCompliance(
     case 'FACING_3BET':
       return checkFacing3Bet(decision);
 
-    // Excluded from compliance (no binary correct answer yet — see header note).
     case 'FACING_ALL_IN':
+      return checkFacingAllIn(decision);
+
+    // Excluded from compliance (no binary correct answer yet — see header note).
     case 'BB_VS_RAISE_MULTIWAY':
     case 'BB_VS_LARGE_RAISE':
     case 'BB_VS_LIMP':
@@ -92,7 +120,6 @@ export function checkCompliance(
  * the excluded `case`s in `checkCompliance` above.
  */
 const COMPLIANCE_EXCLUSION_REASONS: Partial<Record<Scenario, string>> = {
-  FACING_ALL_IN: 'Facing an all-in — a pot-odds and ICM decision, not a range-compliance call.',
   BB_VS_RAISE_MULTIWAY: 'Big blind versus an open plus caller/limper — multiway equity realization, caller position, and squeeze context matter, so this is not graded by the heads-up BB suited-fold rule.',
   BB_VS_LARGE_RAISE: 'Big blind versus a 5x+ raise or all-in — folding can be correct, so this is not graded.',
   BB_VS_LIMP: 'Big blind versus a limp — a raise-sizing decision we do not grade for compliance.',
@@ -112,6 +139,14 @@ type ComplianceExclusionDecision = Pick<
   | 'stackBb'
   | 'heroOpenedBefore3Bet'
   | 'threeBetAllIn'
+  | 'handKey'
+  | 'icmStage'
+  | 'bountyContext'
+  | 'shoverPosition'
+  | 'facingAllInOpenShove'
+  | 'allInPotBb'
+  | 'allInCallCostBb'
+  | 'allInEffectiveBb'
 >;
 
 /**
@@ -136,6 +171,35 @@ export function complianceExclusionReasonForDecision(
     }
     if (!vs3betHeroBucket(decision.position)) {
       return 'Facing a 3-bet after opening from the blinds — excluded until vault anchors for this pocket exist.';
+    }
+    return null;
+  }
+
+  // Mirror of checkFacingAllIn: a null reason here must mean the spot is graded.
+  if (decision.scenario === 'FACING_ALL_IN') {
+    if (
+      decision.facingAllInOpenShove === undefined ||
+      decision.shoverPosition == null ||
+      decision.allInPotBb === undefined ||
+      decision.allInCallCostBb === undefined ||
+      decision.allInEffectiveBb === undefined
+    ) {
+      return 'Facing an all-in saved before the pot-odds engine existed — re-import the hand to grade it.';
+    }
+    if (!decision.facingAllInOpenShove) {
+      return 'Facing an all-in that came over prior action (resteal/squeeze) or with other players already in — only first-in open-shoves are graded in v1.';
+    }
+    if (decision.allInEffectiveBb > ALLIN_EFFECTIVE_CAP_BB) {
+      return 'Facing an all-in deeper than 12bb effective — no reliable shove-range model beyond the 10bb push ranges, so this spot is not graded.';
+    }
+    if (ALLIN_RISK_PREMIUM_PP[decision.icmStage ?? 'early'] === undefined) {
+      return 'Facing an all-in on the bubble or final table — no stack geometry or payout structure to price the ICM premium, so this spot is not graded.';
+    }
+    if (decision.bountyContext) {
+      return 'Facing an all-in in a bounty (PKO) tournament — bounty equity is not modeled yet, so this spot is not graded in v1.';
+    }
+    if (ALL_IN_EQUITY[decision.handKey]?.[decision.shoverPosition] === undefined) {
+      return 'Facing an all-in from a seat without an assumed shove-range model — this spot is not graded.';
     }
     return null;
   }
@@ -335,6 +399,68 @@ function checkFacing3Bet(decision: HeroDecision): ComplianceResult | null {
 }
 
 /**
+ * FACING_ALL_IN: hero cold-faces a first-in open-shove. Graded on required
+ * equity (pot odds + ICM risk premium) versus the hero hand's estimated equity
+ * against the assumed shove range (data/allInEquity.generated.ts). A close spot
+ * inside the ±3pp band is compliant either way with 'band' provenance.
+ *
+ * Refusal pockets (mirrored in complianceExclusionReasonForDecision) return
+ * null: missing inputs (rows persisted before this engine), non-open-shove /
+ * multiway, effective stack > 12bb, bubble/final-table ICM, PKO, or a shover
+ * seat without a shove-range model.
+ *
+ * Approved plan: docs/plans/2026-07-18-facing-all-in-grading-proposal.md.
+ */
+function checkFacingAllIn(decision: HeroDecision): ComplianceResult | null {
+  const {
+    facingAllInOpenShove,
+    shoverPosition,
+    allInPotBb,
+    allInCallCostBb,
+    allInEffectiveBb,
+    handKey,
+    action,
+  } = decision;
+
+  if (
+    facingAllInOpenShove === undefined ||
+    shoverPosition == null ||
+    allInPotBb === undefined ||
+    allInCallCostBb === undefined ||
+    allInEffectiveBb === undefined
+  ) {
+    return null;
+  }
+  if (!facingAllInOpenShove) return null;
+  if (allInEffectiveBb > ALLIN_EFFECTIVE_CAP_BB) return null;
+
+  const riskPremium = ALLIN_RISK_PREMIUM_PP[decision.icmStage ?? 'early'];
+  if (riskPremium === undefined) return null;
+  if (decision.bountyContext) return null;
+
+  const equity = ALL_IN_EQUITY[handKey]?.[shoverPosition];
+  if (equity === undefined) return null;
+
+  // A response to a shove cannot be a check; never flag malformed input.
+  if (action === 'check') return { isCompliant: true, deviationType: null };
+
+  const required = facingAllInRequiredEquity(allInCallCostBb, allInPotBb, riskPremium);
+  const continued = action === 'call' || action === 'raise';
+
+  if (equity >= required - ALLIN_BAND_PP && equity <= required + ALLIN_BAND_PP) {
+    return { isCompliant: true, deviationType: null, provenance: 'band' };
+  }
+
+  if (equity > required + ALLIN_BAND_PP) {
+    if (continued) return { isCompliant: true, deviationType: null, provenance: 'engine' };
+    return { isCompliant: false, deviationType: 'ALLIN_OVERFOLD', provenance: 'engine' };
+  }
+
+  if (!continued) return { isCompliant: true, deviationType: null, provenance: 'engine' };
+  return { isCompliant: false, deviationType: 'ALLIN_LOOSE_CALL', provenance: 'engine' };
+}
+
+/**
  * FACING_LIMP: Should raise (punish limper). Never limp behind (except SB).
  */
 function checkFacingLimp(
@@ -399,6 +525,7 @@ export function batchCheckCompliance(
       ...d,
       isCompliant: result.isCompliant,
       deviationType: result.deviationType,
+      allInProvenance: result.provenance,
     };
   });
 }

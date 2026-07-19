@@ -503,6 +503,11 @@ export function buildHeroDecision(
   const wonAmount = collectedAmounts?.get(heroName) ?? 0;
   const wonAtShowdown = wentToShowdown && (showdownWinners?.has(heroName) ?? false);
 
+  const allInInputs =
+    finalScenario === 'FACING_ALL_IN'
+      ? computeFacingAllInInputs(actions, players, heroName, hero, hand.bigBlind)
+      : null;
+
   return {
     handId: hand.id,
     position: hero.position,
@@ -513,6 +518,11 @@ export function buildHeroDecision(
     action: finalAction,
     heroOpenedBefore3Bet,
     threeBetAllIn,
+    shoverPosition: allInInputs?.shoverPosition,
+    facingAllInOpenShove: allInInputs ? allInInputs.openShove : undefined,
+    allInPotBb: allInInputs?.potBb,
+    allInCallCostBb: allInInputs?.callCostBb,
+    allInEffectiveBb: allInInputs?.effectiveBb,
     isCompliant: false,
     deviationType: null,
     sawFlop,
