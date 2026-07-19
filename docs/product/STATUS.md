@@ -409,7 +409,8 @@ src/analysis/  (31 files)
   analysis/ungradedScenarios.ts
   analysis/villainClassifier.ts
   analysis/villainObserver.ts
-src/data/  (18 files)
+src/data/  (19 files)
+  data/allInEquity.generated.ts
   data/appStore.ts
   data/backup.ts
   data/curriculumProgress.ts
