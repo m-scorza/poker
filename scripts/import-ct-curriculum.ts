@@ -564,21 +564,23 @@ function matchSnapshotCell(spot: LegacySpot, index: SnapshotCellIndex[]): Snapsh
 
   // Multiple snapshot configs can share the same scenario/position/stack key
   // but represent different nodes (e.g. the CO-vs-BTN "3-bet response" config
-  // vs the "3-bet all-in" jam config). Pick the cell whose config action
-  // vocabulary best matches the legacy config's own vocabulary (node identity),
-  // then the cell that can express the legacy decision, then the richer node,
-  // then a deterministic content-hash tiebreak.
+  // vs the "3-bet all-in" jam config). Pick the cell with an exact villain
+  // match first, then the one whose config action vocabulary best matches the
+  // legacy config's own vocabulary (node identity), then the cell that can
+  // express the legacy decision, then the richer node, then a deterministic
+  // content-hash tiebreak.
   const legacySet = new Set(spot.legacyActions);
   const scored = pool.map((cell) => {
     const cellVocab = new Set<string>();
     for (const actions of cell.classActions.values()) for (const action of actions) cellVocab.add(action);
     const comboActions = cell.classActions.get(spot.comboClass);
-    // Only used as a tiebreak *below* nodeSimilarity: for villain-ambiguous
-    // spots (legacy carries no villain, e.g. multiway defense) where several
-    // equally-valid snapshot villain-combos survive, prefer one where the
-    // legacy decision is accepted rather than picking arbitrarily. It never
-    // overrides the node-identity (nodeSimilarity) or villain-exact signals, so
-    // uniquely-determined nodes keep surfacing genuine disagreements.
+    // Only used as a tiebreak *below* villainExact and nodeSimilarity: for
+    // villain-ambiguous spots (legacy carries no villain, e.g. multiway
+    // defense) where several equally-valid snapshot villain-combos survive,
+    // prefer one where the legacy decision is accepted rather than picking
+    // arbitrarily. It never overrides the villain-exact or node-identity
+    // (nodeSimilarity) signals, so uniquely-determined nodes keep surfacing
+    // genuine disagreements.
     const comboAgrees = comboActions ? [...comboActions].some((action) => legacySet.has(action)) : false;
     return {
       cell,
@@ -757,9 +759,10 @@ machine-readable form lives at \`src/data/ctPacks/overlap.generated.json\`.
 - **Node identity.** Multiple snapshot configs can share the same
   scenario/position/stack key but be different nodes (e.g. the CO-vs-BTN
   "3-bet response" config vs the "3-bet all-in" jam config). The matched cell is
-  the one whose config action-vocabulary is most similar to the legacy config's
-  own vocabulary, then (only as a lower tiebreak) exact villain, combo-level
-  agreement, expressibility, node richness, and a content-hash order.
+  the one with an exact villain-position match, then (as a tiebreak) the one
+  whose config action-vocabulary is most similar to the legacy config's own
+  vocabulary, then combo-level agreement, expressibility, node richness, and a
+  content-hash order.
 - **Villain-ambiguous spots.** Legacy multiway-defense rows carry no villain, so
   several equally-valid snapshot villain-combos match; the combo-agreement
   tiebreak picks a node consistent with the legacy decision where one exists, so
