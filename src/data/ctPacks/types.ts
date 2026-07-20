@@ -1,15 +1,15 @@
-export type RangePackMethodology = 'gto_cev' | 'mda_exploit';
+type RangePackMethodology = 'gto_cev' | 'mda_exploit';
 
-export type RangePackTier = 'foundational' | 'blind_battles' | 'advanced';
+type RangePackTier = 'foundational' | 'blind_battles' | 'advanced';
 
-export interface RangePackProvenance {
+interface RangePackProvenance {
   kind: 'brand_neutralized_snapshot_config';
   capturedAt: '2026-07-18';
   path: string;
   sha256: string;
 }
 
-export interface RangePackBucket {
+interface RangePackBucket {
   actions: string[];
   combos: string[];
 }
