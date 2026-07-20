@@ -313,6 +313,8 @@ are stale. Do not edit by hand.
 **Build / test** (`devDependencies`):
 
 - @eslint/js ^9.39.4
+- @fontsource/inter ^5.3.0
+- @fontsource/jetbrains-mono ^5.3.0
 - @tailwindcss/vite ^4.2.2
 - @testing-library/jest-dom ^6.9.1
 - @testing-library/react ^16.3.2
