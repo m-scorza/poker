@@ -35,7 +35,15 @@ import {
   curriculumDecision,
   curriculumSpotStage,
   curriculumSpotBadge,
+  type ArenaCurriculumPack,
 } from './arena/curriculumSeeds';
+import {
+  RANGE_PACK_REGISTRY_ENTRIES,
+  METHODOLOGY_LABELS,
+  TIER_LABELS,
+  loadRangePack,
+  buildDealFromRangeSession,
+} from './arena/ctRangePacks';
 import {
   buildStudyQueueSessionSummary,
   handReplayPathForStudySummary,
@@ -77,7 +85,7 @@ interface DrillState {
   /** Present only for `study_queue`; the packet backing the current spot. */
   currentPacket: SpotPacket | null;
   /** Present only for `curriculum`; source-governed seed practice, not imported-hand evidence. */
-  currentCurriculumPack?: CurriculumSeedPack | null;
+  currentCurriculumPack?: ArenaCurriculumPack | null;
   currentCurriculumSpot?: CurriculumSpotSeed | null;
   /** Ordered hand ids for a routed multi-packet study session. */
   sessionHandIds: string[];
@@ -285,7 +293,7 @@ export function ArenaPage() {
     });
   }, [allDecisions, strategyProfile]);
 
-  const startCurriculumPack = useCallback((pack: CurriculumSeedPack) => {
+  const startCurriculumPack = useCallback((pack: ArenaCurriculumPack) => {
     const first = pack.spots[0] ?? null;
     if (!first) return;
     setCompletedStudySession(null);
@@ -304,6 +312,13 @@ export function ArenaPage() {
       srs: null,
     });
   }, []);
+
+  const startRangePack = useCallback(async (slug: string) => {
+    const pack = await loadRangePack(slug);
+    if (!pack) return;
+    const session = buildDealFromRangeSession(pack);
+    startCurriculumPack(session);
+  }, [startCurriculumPack]);
 
   // The SRS "due for review" CTA: buildStudyPacketArenaPath produced the route,
   // so navigate to it (deep-link correctness on reload) and then drive the drill
@@ -747,6 +762,60 @@ export function ArenaPage() {
                                 )}
                               </div>
                               <span className="rounded-full border border-[var(--accent-line)] px-2 py-1 text-[10px] font-black uppercase tracking-wider text-[var(--accent)]">{pack.spots.length} spots</span>
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </section>
+                );
+              })}
+            </div>
+          </section>
+
+          <section className="mt-8 compartment" aria-labelledby="range-packs-heading">
+            <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <span className="kick sig">Practice-only ranges</span>
+                <h2 id="range-packs-heading" className="text-xl font-black text-[var(--fg)]">Deal-from-range packs</h2>
+                <p className="text-sm text-[var(--fg-dim)]">Each drill deals a real hand from the spot&apos;s range and grades it against the accepted-action buckets. Practice-only ranges, not imported-hand evidence, leak grading, or solver EV.</p>
+              </div>
+              <span className="text-xs font-mono text-[var(--fg-muted)]">{RANGE_PACK_REGISTRY_ENTRIES.length} packs</span>
+            </div>
+            <div className="space-y-5">
+              {(['foundational', 'blind_battles', 'advanced'] as const).map((tier) => {
+                const packs = RANGE_PACK_REGISTRY_ENTRIES.filter((entry) => entry.tier === tier);
+                if (packs.length === 0) return null;
+                return (
+                  <section key={tier} aria-labelledby={`range-tier-${tier}`}>
+                    <div className="mb-3">
+                      <h3 id={`range-tier-${tier}`} className="text-sm font-black uppercase tracking-[0.18em] text-[var(--fg)]">{TIER_LABELS[tier]}</h3>
+                    </div>
+                    <div className="grid gap-3 md:grid-cols-2">
+                      {packs.map((entry) => {
+                        const progress = curriculumProgress[entry.slug];
+                        return (
+                          <button
+                            key={entry.slug}
+                            type="button"
+                            aria-label={`Start ${entry.title}`}
+                            className="rounded-xl border border-[var(--hairline)] bg-[var(--ink-1)] p-4 text-left transition hover:border-[var(--accent-line)] hover:bg-[var(--ink-2)]"
+                            onClick={() => { void startRangePack(entry.slug); }}
+                          >
+                            <div className="flex items-start justify-between gap-3">
+                              <div>
+                                <h4 className="font-bold text-[var(--fg)]">{entry.title}</h4>
+                                <p className="mt-1 text-xs leading-relaxed text-[var(--fg-muted)]">{entry.description}</p>
+                                <p className="mt-2 text-[11px] font-semibold text-[var(--fg-muted)]">
+                                  {METHODOLOGY_LABELS[entry.methodology]}{entry.stageContext ? ` · ${entry.stageContext}` : ''} · {entry.cellCount} cells · {entry.comboCount.toLocaleString()} combos
+                                </p>
+                                {progress && (
+                                  <p className="mt-1 text-[11px] font-semibold text-sky-100/80">
+                                    browser-local progress: {progress.correct}/{progress.attempts} seed answers
+                                  </p>
+                                )}
+                              </div>
+                              <span className="rounded-full border border-[var(--accent-line)] px-2 py-1 text-[10px] font-black uppercase tracking-wider text-[var(--accent)]">Deal &amp; grade</span>
                             </div>
                           </button>
                         );

@@ -1,0 +1,4488 @@
+{
+  "generator": "scripts/import-ct-curriculum.ts",
+  "capturedAt": "2026-07-18",
+  "summary": {
+    "legacySpots": 230,
+    "matched": 224,
+    "unmatched": 6,
+    "agreements": 124,
+    "sizingOnlyDiffs": 54,
+    "disagreements": 46
+  },
+  "entries": [
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "UTG",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "Q6o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "32o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "64o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "A2o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K4o",
+      "legacyActions": [
+        "call",
+        "raise"
+      ],
+      "legacyRaw": [
+        "CALL",
+        "RAISE 7"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "KJs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "T5o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "44",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "A9s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "AJo",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "J4o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K2o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "UTG",
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "84s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE",
+      "position": "BB",
+      "villainPosition": "UTG",
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "Q7o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "33",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "62o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "77",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "93s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "A9o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "J7o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "JTs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K8o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "KJs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "Q4o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "Q7o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "QJs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "T4o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "TT",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "53o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "A8o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "KQs",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 11.9"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "Q3o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "Q8o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "QTs",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 11.9"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BB_VS_RAISE_MULTIWAY",
+      "position": "BB",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "T5s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "72s",
+      "legacyActions": [
+        "limp"
+      ],
+      "legacyRaw": [
+        "LIMP"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "limp"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "A8o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "QJs",
+      "legacyActions": [
+        "limp"
+      ],
+      "legacyRaw": [
+        "LIMP"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "limp"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "QJs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "33",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "ATs",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "J4o",
+      "legacyActions": [
+        "limp"
+      ],
+      "legacyRaw": [
+        "LIMP"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "limp"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "KTs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "52o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "T6o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "limp",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 60,
+      "boardKey": null,
+      "comboClass": "75o",
+      "legacyActions": [
+        "limp"
+      ],
+      "legacyRaw": [
+        "LIMP"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "limp"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 60,
+      "boardKey": null,
+      "comboClass": "K2o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "SB",
+      "villainPosition": "BB",
+      "stackBb": 60,
+      "boardKey": null,
+      "comboClass": "Q2s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "22",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "72o",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "74o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "94o",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "check",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "97s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "99",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "A2o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "A6o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "AQs",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "J2o",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "K2o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "KJs",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "Q8s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "92s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "ATs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "JJ",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 7.5"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "JTs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "K7s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "KJs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "KQo",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "Q4o",
+      "legacyActions": [
+        "call",
+        "raise"
+      ],
+      "legacyRaw": [
+        "CALL",
+        "RAISE 7.5"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "Q5s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 30,
+      "boardKey": null,
+      "comboClass": "T3o",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 3"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "check",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "BLIND_WAR",
+      "position": "BB",
+      "villainPosition": "SB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "AQs",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 10.5"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "UTG+1",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "2d4hJh",
+      "comboClass": "QTs",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "UTG+1",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "2d4hJh",
+      "comboClass": "TT",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "UTG+1",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "4hTdTh",
+      "comboClass": "AKo",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "UTG+1",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "5h6hAd",
+      "comboClass": "KK",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "2c4d6h",
+      "comboClass": "A8o",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "2h6h9h",
+      "comboClass": "A8o",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "4hTdTh",
+      "comboClass": "A3o",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "5d8h9h",
+      "comboClass": "88",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "5d8h9h",
+      "comboClass": "88",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "5d8h9h",
+      "comboClass": "88",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "5d8h9h",
+      "comboClass": "A7s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "5h6hAd",
+      "comboClass": "T8o",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "JhKhQd",
+      "comboClass": "99",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "JhKhQd",
+      "comboClass": "99",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "JhKhQd",
+      "comboClass": "99",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "JhKhQd",
+      "comboClass": "99",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "JhKhQd",
+      "comboClass": "99",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 20,
+      "boardKey": "JhKhQd",
+      "comboClass": "99",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "CBET 1/3"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "2c6dJd4h",
+      "comboClass": "Q4s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "2c6dJd4h",
+      "comboClass": "QQ",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 100%"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "2c6dJd4h",
+      "comboClass": "TT",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "3c4h6d9d",
+      "comboClass": "Q2s",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 72%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "3c4h6d9dTd",
+      "comboClass": "Q8o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "3c4h6dKsTs",
+      "comboClass": "K5s",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "3c9dAh9s",
+      "comboClass": "76s",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 40%",
+        "BET 72%"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "3c9dAh9s",
+      "comboClass": "KTo",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "8hQdQh7h6s",
+      "comboClass": "T9o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "8hQdQhAs7c",
+      "comboClass": "AJo",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "unmatched",
+      "snapshotActions": null,
+      "reason": "no snapshot cell for scenario/position/stack/board key"
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 30,
+      "boardKey": "AdJhTh3h",
+      "comboClass": "64s",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 40%",
+        "BET 72%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "2c6dJd2d",
+      "comboClass": "J7o",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "3c4h6d9dTd",
+      "comboClass": "87o",
+      "legacyActions": [
+        "all_in",
+        "bet"
+      ],
+      "legacyRaw": [
+        "ALL-IN",
+        "BET 100%"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "all_in",
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "3c4h6dKs",
+      "comboClass": "55",
+      "legacyActions": [
+        "bet",
+        "check"
+      ],
+      "legacyRaw": [
+        "BET 40%",
+        "CHECK"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "3c9dAhTc2s",
+      "comboClass": "33",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "bet"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "3c9dAhTc2s",
+      "comboClass": "K7o",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "3c9dAhTc2s",
+      "comboClass": "K8o",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "6s7dTc8sKs",
+      "comboClass": "KQo",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "6s7dTcQd",
+      "comboClass": "A2o",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 100%",
+        "BET 165%",
+        "BET 72%"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "6s7dTcQdJs",
+      "comboClass": "JJ",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "6s7dTcQdJs",
+      "comboClass": "KK",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_LATER_IP_VS_BB",
+      "position": "BTN",
+      "villainPosition": "BB",
+      "stackBb": 100,
+      "boardKey": "AdJhTh8s",
+      "comboClass": "QJo",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2h6d9h",
+      "comboClass": "88",
+      "legacyActions": [
+        "bet",
+        "check"
+      ],
+      "legacyRaw": [
+        "BET 66%",
+        "CHECK"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2s3s8s",
+      "comboClass": "TT",
+      "legacyActions": [
+        "bet",
+        "check"
+      ],
+      "legacyRaw": [
+        "BET 30%",
+        "CHECK"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "3dAcKc",
+      "comboClass": "99",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "3s6cKc",
+      "comboClass": "A8s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "6s7dTc",
+      "comboClass": "AKs",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 66%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "7sAcAs",
+      "comboClass": "55",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 30%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "8h8sJs",
+      "comboClass": "AKs",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 30%",
+        "BET 66%"
+      ],
+      "status": "unmatched",
+      "snapshotActions": null,
+      "reason": "no snapshot cell for scenario/position/stack/board key"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "UTG",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "JsQcQd",
+      "comboClass": "TT",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 30%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2h6d9h",
+      "comboClass": "A4s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2s3s8s",
+      "comboClass": "J6s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "3c4h6d",
+      "comboClass": "KQs",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "3h8hQh",
+      "comboClass": "A9o",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "6s7dTc",
+      "comboClass": "Q4s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "AdJhTh",
+      "comboClass": "AA",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "CBET_OOP",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "AdJhTh",
+      "comboClass": "J9s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "UTG",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "A4s",
+      "legacyActions": [
+        "all_in",
+        "call"
+      ],
+      "legacyRaw": [
+        "ALL-IN",
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "UTG",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K9s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "UTG",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "KJo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "UTG",
+      "villainPosition": "CO",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "55",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "UTG",
+      "villainPosition": "CO",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "65s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "UTG",
+      "villainPosition": "CO",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "AJo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "88",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "A8o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "AJo",
+      "legacyActions": [
+        "all_in",
+        "call"
+      ],
+      "legacyRaw": [
+        "ALL-IN",
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K7s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "76s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "A9o",
+      "legacyActions": [
+        "fold",
+        "raise"
+      ],
+      "legacyRaw": [
+        "FOLD",
+        "RAISE 13.65"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "fold",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "AJs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "KTo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "CO",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "TT",
+      "legacyActions": [
+        "all_in",
+        "raise"
+      ],
+      "legacyRaw": [
+        "ALL-IN",
+        "RAISE 13.65"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "all_in",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "AJo",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "ATs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K6s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "QTo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "99",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "A2s",
+      "legacyActions": [
+        "all_in",
+        "call"
+      ],
+      "legacyRaw": [
+        "ALL-IN",
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in",
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "A7o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "J8s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "K9o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_3BET",
+      "position": "BTN",
+      "villainPosition": "SB",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "KJo",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "UTG+1",
+      "villainPosition": "UTG",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "AJo",
+      "legacyActions": [
+        "fold",
+        "raise"
+      ],
+      "legacyRaw": [
+        "FOLD",
+        "RAISE 5"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "fold",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "UTG+1",
+      "villainPosition": "UTG",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "KQo",
+      "legacyActions": [
+        "fold",
+        "raise"
+      ],
+      "legacyRaw": [
+        "FOLD",
+        "RAISE 5"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "fold",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "UTG+1",
+      "villainPosition": "UTG",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "Q9s",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "UTG+1",
+      "villainPosition": "UTG",
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "ATo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "HJ",
+      "villainPosition": "LJ",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "99",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "HJ",
+      "villainPosition": "LJ",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "KJo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "HJ",
+      "villainPosition": "LJ",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "KQs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "HJ",
+      "villainPosition": "LJ",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "33",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "HJ",
+      "villainPosition": "LJ",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "T8s",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "HJ",
+      "villainPosition": "LJ",
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "QJo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "88",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "ATs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "KTs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "A7o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "K5s",
+      "legacyActions": [
+        "call",
+        "raise"
+      ],
+      "legacyRaw": [
+        "CALL",
+        "RAISE 6"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "22",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "75s",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "A4o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "KJo",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "55",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "all_in",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K8o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "QTs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "33",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "A5s",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 7"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "A6o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "AJs",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 7"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "FACING_RAISE",
+      "position": "SB",
+      "villainPosition": "BTN",
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "J8s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 30,
+      "boardKey": "3h8hQh",
+      "comboClass": "KQo",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 30,
+      "boardKey": "6s7dTc",
+      "comboClass": "JTo",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 30,
+      "boardKey": "6s7dTc",
+      "comboClass": "KJs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 30,
+      "boardKey": "JsQcQd",
+      "comboClass": "44",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "2c6dJd",
+      "comboClass": "T8s",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "3h8hQh",
+      "comboClass": "T9s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "3s6cKc",
+      "comboClass": "ATo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "5d5h9h",
+      "comboClass": "33",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "7hKdTh",
+      "comboClass": "88",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "7sAdAs",
+      "comboClass": "A7o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "unmatched",
+      "snapshotActions": null,
+      "reason": "no snapshot cell for scenario/position/stack/board key"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "8d8sJs",
+      "comboClass": "ATo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 40,
+      "boardKey": "3h4hKh",
+      "comboClass": "99",
+      "legacyActions": [
+        "bet",
+        "check"
+      ],
+      "legacyRaw": [
+        "BET 30%",
+        "CHECK"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 40,
+      "boardKey": "4hAsKs",
+      "comboClass": "AQs",
+      "legacyActions": [
+        "bet",
+        "check"
+      ],
+      "legacyRaw": [
+        "BET 60%",
+        "CHECK"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 40,
+      "boardKey": "4hAsKs",
+      "comboClass": "K8s",
+      "legacyActions": [
+        "check"
+      ],
+      "legacyRaw": [
+        "CHECK"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 40,
+      "boardKey": "4s6dKh",
+      "comboClass": "A3s",
+      "legacyActions": [
+        "bet",
+        "check"
+      ],
+      "legacyRaw": [
+        "BET 30%",
+        "CHECK"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 40,
+      "boardKey": "5h6h8d",
+      "comboClass": "QJo",
+      "legacyActions": [
+        "bet",
+        "check"
+      ],
+      "legacyRaw": [
+        "BET 30%",
+        "CHECK"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "IP_POSTFLOP",
+      "position": "BTN",
+      "villainPosition": "CO",
+      "stackBb": 40,
+      "boardKey": "7h8hTh",
+      "comboClass": "K4s",
+      "legacyActions": [
+        "bet"
+      ],
+      "legacyRaw": [
+        "BET 30%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "bet",
+        "check"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "RFI",
+      "position": "UTG",
+      "villainPosition": null,
+      "stackBb": 10,
+      "boardKey": null,
+      "comboClass": "66",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "UTG",
+      "villainPosition": null,
+      "stackBb": 10,
+      "boardKey": null,
+      "comboClass": "QJo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "UTG",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "33",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "UTG",
+      "villainPosition": null,
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "A9o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "LJ",
+      "villainPosition": null,
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "98s",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "LJ",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "KTo",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 2"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "LJ",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "Q9s",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 2"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "HJ",
+      "villainPosition": null,
+      "stackBb": 25,
+      "boardKey": null,
+      "comboClass": "K6s",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 2"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "HJ",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "A7o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "CO",
+      "villainPosition": null,
+      "stackBb": 10,
+      "boardKey": null,
+      "comboClass": "J9s",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "CO",
+      "villainPosition": null,
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "QJs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "CO",
+      "villainPosition": null,
+      "stackBb": 100,
+      "boardKey": null,
+      "comboClass": "Q4s",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 2"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "BTN",
+      "villainPosition": null,
+      "stackBb": 10,
+      "boardKey": null,
+      "comboClass": "K6o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "fold"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "BTN",
+      "villainPosition": null,
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "22",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "BTN",
+      "villainPosition": null,
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "99",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 2"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "BTN",
+      "villainPosition": null,
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "A7o",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "BTN",
+      "villainPosition": null,
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "JTs",
+      "legacyActions": [
+        "all_in"
+      ],
+      "legacyRaw": [
+        "ALL-IN"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "all_in"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "BTN",
+      "villainPosition": null,
+      "stackBb": 15,
+      "boardKey": null,
+      "comboClass": "Q6s",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 2"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "RFI",
+      "position": "BTN",
+      "villainPosition": null,
+      "stackBb": 50,
+      "boardKey": null,
+      "comboClass": "J3s",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 2"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2c6dJd",
+      "comboClass": "Q9o",
+      "legacyActions": [
+        "call",
+        "raise"
+      ],
+      "legacyRaw": [
+        "CALL",
+        "RAISE 33%",
+        "RAISE 55%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2h6d9h",
+      "comboClass": "64s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2h6d9h",
+      "comboClass": "KQs",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "2s3s8s",
+      "comboClass": "K8o",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 33%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "3c9dAs",
+      "comboClass": "KQo",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "unmatched",
+      "snapshotActions": null,
+      "reason": "no snapshot cell for scenario/position/stack/board key"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "3dAcKc",
+      "comboClass": "93s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "agreement",
+      "snapshotActions": [
+        "call"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "4dJdKh",
+      "comboClass": "T9o",
+      "legacyActions": [
+        "call",
+        "raise"
+      ],
+      "legacyRaw": [
+        "CALL",
+        "RAISE 33%",
+        "RAISE 55%"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "5d5hTh",
+      "comboClass": "A9o",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "7hKdTh",
+      "comboClass": "A3o",
+      "legacyActions": [
+        "call",
+        "raise"
+      ],
+      "legacyRaw": [
+        "CALL",
+        "RAISE 33%",
+        "RAISE 55%"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "7hKdTh",
+      "comboClass": "A4o",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "BTN",
+      "stackBb": 30,
+      "boardKey": "JsQcQd",
+      "comboClass": "Q7o",
+      "legacyActions": [
+        "raise"
+      ],
+      "legacyRaw": [
+        "RAISE 33%"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "2c6d9h",
+      "comboClass": "72s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "unmatched",
+      "snapshotActions": null,
+      "reason": "no snapshot cell for scenario/position/stack/board key"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "3c4h6d",
+      "comboClass": "A7s",
+      "legacyActions": [
+        "call",
+        "raise"
+      ],
+      "legacyRaw": [
+        "CALL",
+        "RAISE 33%"
+      ],
+      "status": "sizing_only",
+      "snapshotActions": [
+        "call",
+        "raise"
+      ],
+      "reason": null
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "3s6cKc",
+      "comboClass": "ATo",
+      "legacyActions": [
+        "fold"
+      ],
+      "legacyRaw": [
+        "FOLD"
+      ],
+      "status": "disagreement",
+      "snapshotActions": [
+        "call",
+        "fold",
+        "raise"
+      ],
+      "reason": "semantic accepted-action sets differ"
+    },
+    {
+      "scenario": "VS_CBET",
+      "position": "BB",
+      "villainPosition": "UTG",
+      "stackBb": 30,
+      "boardKey": "7cKdTc",
+      "comboClass": "42s",
+      "legacyActions": [
+        "call"
+      ],
+      "legacyRaw": [
+        "CALL"
+      ],
+      "status": "unmatched",
+      "snapshotActions": null,
+      "reason": "no snapshot cell for scenario/position/stack/board key"
+    }
+  ]
+}

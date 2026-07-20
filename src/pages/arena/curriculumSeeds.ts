@@ -1,6 +1,19 @@
 import { CURRICULUM_SEED_PACKS, type CurriculumSeedPack, type CurriculumSpotSeed } from '../../data/curriculumSeedPacks.generated';
 import type { HeroDecision } from '../../types/analysis';
 
+/**
+ * Structural superset of CurriculumSeedPack that also fits the deal-from-range
+ * packs imported from the trainer snapshot (their provenance kind and shape
+ * differ, but they drive the same `curriculum` drill machinery).
+ */
+export interface ArenaCurriculumPack {
+  slug: string;
+  title: string;
+  description: string;
+  source: { kind: string; path: string; sourceConfigIndexes?: number[] };
+  spots: CurriculumSpotSeed[];
+}
+
 export const STARTER_DIAGNOSTIC_PACK: CurriculumSeedPack = {
   slug: 'starter-diagnostic',
   title: 'Starter diagnostic',
@@ -76,10 +89,10 @@ export function diagnosticReviewAreaSummary(area: { misses: number; attempts: nu
   return `${area.misses} ${missLabel} across ${area.attempts} ${spotLabel}`;
 }
 
-function curriculumScenarioForPack(pack: CurriculumSeedPack): HeroDecision['scenario'] {
-  if (pack.slug.includes('3bet')) return 'FACING_3BET';
+function curriculumScenarioForPack(pack: Pick<ArenaCurriculumPack, 'slug'>): HeroDecision['scenario'] {
+  if (pack.slug.includes('3bet') || pack.slug.includes('3-bet')) return 'FACING_3BET';
   if (pack.slug.includes('big-blind') || pack.slug.includes('bb-defense')) return 'BB_VS_RAISE';
-  if (pack.slug.includes('blind-war')) return 'BLIND_WAR';
+  if (pack.slug.includes('blind-war') || pack.slug.includes('blind-battle')) return 'BLIND_WAR';
   return 'RFI';
 }
 
@@ -87,7 +100,7 @@ function curriculumPosition(position: CurriculumSpotSeed['position']): HeroDecis
   return position === 'LJ' ? 'MP' : position;
 }
 
-export function curriculumDecision(pack: CurriculumSeedPack, spot: CurriculumSpotSeed): HeroDecision {
+export function curriculumDecision(pack: Pick<ArenaCurriculumPack, 'slug'>, spot: CurriculumSpotSeed): HeroDecision {
   return {
     handId: `curriculum-${spot.id}`,
     position: curriculumPosition(spot.position),
