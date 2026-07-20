@@ -29,8 +29,17 @@ machine-readable form lives at `src/data/ctPacks/overlap.generated.json`.
   (fold/call/check/limp/raise/bet/all-in). Rows whose semantic sets match but
   whose legacy row carried a specific raise/bet size are reported separately as
   sizing-only differences, never dropped.
-- **Ties** prefer an exact villain-position cell, then the first cell in
-  deterministic order.
+- **Node identity.** Multiple snapshot configs can share the same
+  scenario/position/stack key but be different nodes (e.g. the CO-vs-BTN
+  "3-bet response" config vs the "3-bet all-in" jam config). The matched cell is
+  the one whose config action-vocabulary is most similar to the legacy config's
+  own vocabulary, then (only as a lower tiebreak) exact villain, combo-level
+  agreement, expressibility, node richness, and a content-hash order.
+- **Villain-ambiguous spots.** Legacy multiway-defense rows carry no villain, so
+  several equally-valid snapshot villain-combos match; the combo-agreement
+  tiebreak picks a node consistent with the legacy decision where one exists, so
+  those rows are only reported as disagreements when *no* matching multiway node
+  accepts the legacy action.
 
 ## Coverage
 
@@ -39,42 +48,28 @@ machine-readable form lives at `src/data/ctPacks/overlap.generated.json`.
 | Legacy spots (all, incl. postflop) | 230 |
 | Matched | 224 |
 | Unmatched | 6 |
-| Agreements | 108 |
+| Agreements | 124 |
 | Sizing-only differences | 54 |
-| **Disagreements** | **62** |
+| **Disagreements** | **46** |
 
 ## Disagreements (legacy vs snapshot semantic actions)
 
 | Cell / combo | Legacy | Snapshot |
 |---|---|---|
 | BB_VS_RAISE · BB vs BTN · 25bb · A2o | all_in | all_in/raise |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · 33 | all_in | call |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · 77 | all_in | call/raise |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · A9o | all_in | call/raise |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · J7o | call | fold |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · JTs | all_in | call/raise |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · K8o | call | fold |
+| BB_VS_RAISE_MULTIWAY · BB · 25bb · J7o | call | call/raise |
+| BB_VS_RAISE_MULTIWAY · BB · 25bb · JTs | all_in | all_in/raise |
 | BB_VS_RAISE_MULTIWAY · BB · 25bb · KJs | all_in | all_in/raise |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · Q4o | call | fold |
-| BB_VS_RAISE_MULTIWAY · BB · 25bb · QJs | all_in | all_in/call |
+| BB_VS_RAISE_MULTIWAY · BB · 25bb · Q4o | call | call/fold |
+| BB_VS_RAISE_MULTIWAY · BB · 25bb · QJs | all_in | all_in/raise |
 | BB_VS_RAISE_MULTIWAY · BB · 25bb · T4o | call | fold |
+| BB_VS_RAISE_MULTIWAY · BB · 25bb · TT | all_in | all_in/raise |
 | BB_VS_RAISE_MULTIWAY · BB · 100bb · 53o | call | call/fold |
 | BB_VS_RAISE_MULTIWAY · BB · 100bb · Q3o | fold | call |
 | BB_VS_RAISE_MULTIWAY · BB · 100bb · QTs | raise | call/raise |
-| BB_VS_RAISE_MULTIWAY · BB · 100bb · T5s | call | fold |
-| BLIND_WAR · SB vs BB · 15bb · QJs | call | limp |
-| BLIND_WAR · SB vs BB · 30bb · 33 | all_in | all_in/limp |
-| BLIND_WAR · SB vs BB · 30bb · KTs | call | limp/raise |
 | BLIND_WAR · SB vs BB · 50bb · T6o | fold | limp/raise |
-| BLIND_WAR · SB vs BB · 60bb · K2o | fold | limp |
-| BLIND_WAR · SB vs BB · 60bb · Q2s | call | limp |
-| BLIND_WAR · BB vs SB · 15bb · 74o | fold | check/raise |
 | BLIND_WAR · BB vs SB · 15bb · 94o | raise | check/raise |
-| BLIND_WAR · BB vs SB · 30bb · 92s | call | check |
-| BLIND_WAR · BB vs SB · 30bb · ATs | call | raise |
-| BLIND_WAR · BB vs SB · 30bb · JTs | call | raise |
-| BLIND_WAR · BB vs SB · 30bb · KJs | call | raise |
-| BLIND_WAR · BB vs SB · 30bb · Q4o | call/raise | check |
+| BLIND_WAR · BB vs SB · 30bb · T3o | raise | check/raise |
 | CBET_IP_VS_BB · BTN vs BB · 20bb · board 2h6h9h · A8o | bet | bet/check |
 | CBET_IP_VS_BB · BTN vs BB · 20bb · board 5d8h9h · A7s | check | bet/check |
 | CBET_LATER_IP_VS_BB · BTN vs BB · 30bb · board 3c4h6d9d · Q2s | bet | bet/check |
@@ -91,9 +86,7 @@ machine-readable form lives at `src/data/ctPacks/overlap.generated.json`.
 | CBET_OOP · CO vs BTN · 30bb · board 2h6d9h · A4s | check | bet/check |
 | CBET_OOP · CO vs BTN · 30bb · board 2s3s8s · J6s | check | bet/check |
 | FACING_3BET · UTG vs CO · 25bb · A4s | all_in/call | call |
-| FACING_3BET · CO vs BTN · 25bb · 88 | all_in | call |
-| FACING_3BET · CO vs BTN · 25bb · AJo | all_in/call | call |
-| FACING_3BET · CO vs BTN · 25bb · K7s | call | fold |
+| FACING_3BET · CO vs BTN · 25bb · AJo | all_in/call | all_in |
 | FACING_RAISE · SB vs BTN · 25bb · 55 | all_in | all_in/raise |
 | IP_POSTFLOP · BTN vs CO · 30bb · board 3h8hQh · KQo | call | call/raise |
 | IP_POSTFLOP · BTN vs UTG · 30bb · board 2c6dJd · T8s | fold | call/fold |
@@ -124,7 +117,7 @@ machine-readable form lives at `src/data/ctPacks/overlap.generated.json`.
 | BLIND_WAR · BB vs SB · 15bb · KJs | RAISE 3 | raise |
 | BLIND_WAR · BB vs SB · 30bb · JJ | RAISE 7.5 | raise |
 | BLIND_WAR · BB vs SB · 30bb · KQo | RAISE 3 | raise |
-| BLIND_WAR · BB vs SB · 30bb · T3o | RAISE 3 | raise |
+| BLIND_WAR · BB vs SB · 30bb · Q4o | CALL/RAISE 7.5 | call/raise |
 | BLIND_WAR · BB vs SB · 50bb · AQs | RAISE 10.5 | raise |
 | CBET_IP_VS_BB · UTG+1 vs BB · 20bb · board 2d4hJh · QTs | CBET 1/3 | bet |
 | CBET_IP_VS_BB · UTG+1 vs BB · 20bb · board 2d4hJh · TT | CBET 1/3 | bet |

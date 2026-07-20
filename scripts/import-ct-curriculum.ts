@@ -169,6 +169,27 @@ function semanticAction(action: unknown): string | null {
   return null;
 }
 
+function semanticVocab(raw: RawConfig): string[] {
+  const vocab = new Set<string>();
+  for (const group of configCells(raw)) {
+    for (const bucket of groupBuckets(group)) {
+      for (const answer of bucket.answer) {
+        const semantic = semanticAction(answer);
+        if (semantic) vocab.add(semantic);
+      }
+    }
+  }
+  return Array.from(vocab).sort();
+}
+
+function jaccard(a: string[], b: string[]): number {
+  if (a.length === 0 && b.length === 0) return 1;
+  const setB = new Set(b);
+  const intersection = a.filter((value) => setB.has(value)).length;
+  const union = new Set([...a, ...b]).size;
+  return union === 0 ? 0 : intersection / union;
+}
+
 function comboClass(combo: string): string | null {
   const value = combo.trim();
   const shorthand = value.match(/^([2-9TJQKA])([2-9TJQKA])([so])?$/i);
@@ -428,6 +449,8 @@ interface SnapshotCellIndex {
   stackBb: number;
   boardKey: string | null;
   classActions: Map<string, Set<string>>;
+  configVocab: string[];
+  sha256: string;
 }
 
 function boardKey(board: unknown): string | null {
@@ -446,6 +469,7 @@ function buildSnapshotIndex(configs: UniqueConfig[]): SnapshotCellIndex[] {
     const configVillains = Array.isArray(config.raw.villainPositions)
       ? config.raw.villainPositions.map(normalizePosition).filter((p): p is string => Boolean(p))
       : [];
+    const configVocab = semanticVocab(config.raw);
     for (const group of configCells(config.raw)) {
       const position = normalizePosition(group.position);
       const stackBb = typeof group.stackSize === 'number' ? group.stackSize : null;
@@ -462,7 +486,7 @@ function buildSnapshotIndex(configs: UniqueConfig[]): SnapshotCellIndex[] {
           classActions.set(cls, set);
         }
       }
-      cells.push({ scenario, position, villainPosition, stackBb, boardKey: boardKey(group.board), classActions });
+      cells.push({ scenario, position, villainPosition, stackBb, boardKey: boardKey(group.board), classActions, configVocab, sha256: config.sha256 });
     }
   }
   return cells;
@@ -478,6 +502,7 @@ interface LegacySpot {
   comboClass: string;
   legacyActions: string[];
   legacyRaw: string[];
+  configVocab: string[];
 }
 
 function loadLegacySpots(): LegacySpot[] {
@@ -486,6 +511,7 @@ function loadLegacySpots(): LegacySpot[] {
   for (const config of arr) {
     const name = typeof config.name === 'string' ? config.name : '';
     const scenario = LEGACY_SCENARIO[name] ?? 'UNKNOWN';
+    const configVocab = semanticVocab(config);
     for (const group of configCells(config)) {
       const position = normalizePosition(group.position);
       const stackBb = typeof group.stackSize === 'number' ? group.stackSize : null;
@@ -498,7 +524,7 @@ function loadLegacySpots(): LegacySpot[] {
         for (const combo of bucket.combos) {
           const cls = comboClass(combo);
           if (!cls) continue;
-          spots.push({ configName: name, scenario, position, villainPosition, stackBb, boardKey: bKey, comboClass: cls, legacyActions, legacyRaw });
+          spots.push({ configName: name, scenario, position, villainPosition, stackBb, boardKey: bKey, comboClass: cls, legacyActions, legacyRaw, configVocab });
         }
       }
     }
@@ -535,8 +561,42 @@ function matchSnapshotCell(spot: LegacySpot, index: SnapshotCellIndex[]): Snapsh
   if (candidates.length === 0) return null;
   const withClass = candidates.filter((cell) => cell.classActions.has(spot.comboClass));
   const pool = withClass.length > 0 ? withClass : candidates;
-  const exactVillain = pool.filter((cell) => cell.villainPosition === spot.villainPosition);
-  return (exactVillain[0] ?? pool[0]) ?? null;
+
+  // Multiple snapshot configs can share the same scenario/position/stack key
+  // but represent different nodes (e.g. the CO-vs-BTN "3-bet response" config
+  // vs the "3-bet all-in" jam config). Pick the cell whose config action
+  // vocabulary best matches the legacy config's own vocabulary (node identity),
+  // then the cell that can express the legacy decision, then the richer node,
+  // then a deterministic content-hash tiebreak.
+  const legacySet = new Set(spot.legacyActions);
+  const scored = pool.map((cell) => {
+    const cellVocab = new Set<string>();
+    for (const actions of cell.classActions.values()) for (const action of actions) cellVocab.add(action);
+    const comboActions = cell.classActions.get(spot.comboClass);
+    // Only used as a tiebreak *below* nodeSimilarity: for villain-ambiguous
+    // spots (legacy carries no villain, e.g. multiway defense) where several
+    // equally-valid snapshot villain-combos survive, prefer one where the
+    // legacy decision is accepted rather than picking arbitrarily. It never
+    // overrides the node-identity (nodeSimilarity) or villain-exact signals, so
+    // uniquely-determined nodes keep surfacing genuine disagreements.
+    const comboAgrees = comboActions ? [...comboActions].some((action) => legacySet.has(action)) : false;
+    return {
+      cell,
+      villainExact: cell.villainPosition === spot.villainPosition,
+      nodeSimilarity: jaccard(cell.configVocab, spot.configVocab),
+      comboAgrees,
+      expressible: spot.legacyActions.every((action) => cellVocab.has(action)),
+      vocabSize: cellVocab.size,
+    };
+  });
+  scored.sort((a, b) =>
+    Number(b.villainExact) - Number(a.villainExact) ||
+    b.nodeSimilarity - a.nodeSimilarity ||
+    Number(b.comboAgrees) - Number(a.comboAgrees) ||
+    Number(b.expressible) - Number(a.expressible) ||
+    b.vocabSize - a.vocabSize ||
+    a.cell.sha256.localeCompare(b.cell.sha256));
+  return scored[0]?.cell ?? null;
 }
 
 function runOverlap(legacySpots: LegacySpot[], index: SnapshotCellIndex[]): OverlapEntry[] {
@@ -694,8 +754,17 @@ machine-readable form lives at \`src/data/ctPacks/overlap.generated.json\`.
   (fold/call/check/limp/raise/bet/all-in). Rows whose semantic sets match but
   whose legacy row carried a specific raise/bet size are reported separately as
   sizing-only differences, never dropped.
-- **Ties** prefer an exact villain-position cell, then the first cell in
-  deterministic order.
+- **Node identity.** Multiple snapshot configs can share the same
+  scenario/position/stack key but be different nodes (e.g. the CO-vs-BTN
+  "3-bet response" config vs the "3-bet all-in" jam config). The matched cell is
+  the one whose config action-vocabulary is most similar to the legacy config's
+  own vocabulary, then (only as a lower tiebreak) exact villain, combo-level
+  agreement, expressibility, node richness, and a content-hash order.
+- **Villain-ambiguous spots.** Legacy multiway-defense rows carry no villain, so
+  several equally-valid snapshot villain-combos match; the combo-agreement
+  tiebreak picks a node consistent with the legacy decision where one exists, so
+  those rows are only reported as disagreements when *no* matching multiway node
+  accepts the legacy action.
 
 ## Coverage
 
