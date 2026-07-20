@@ -186,8 +186,21 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       the six postflop configs (indexes 1, 2, 9, 13, 14, 15) now carry
       `board` / `villainPosition` / stack sizes / `actionLine`, and the Arena
       curriculum drill renders that context so the ~80 postflop spots are
-      actually answerable. Remaining III-4 work is the lesson-recommendation
-      scoring port.*
+      actually answerable.
+      Slice 1 of the snapshot-powered importer also landed: `scripts/import-ct-curriculum.ts`
+      builds 45 brand-neutral preflop **deal-from-range** packs (176 cells /
+      514 buckets / 153k exact-combo assignments) from the authorized trainer
+      snapshot as lazy per-pack chunks behind a light bundled registry
+      (`src/data/ctPacks/`), drilled in the Arena via a new deal-from-range
+      section that samples a real combo per cell and grades it by
+      accepted-action bucket membership. The owner-mandated legacy-vs-snapshot
+      overlap analysis ships alongside
+      (`docs/reports/2026-07-19-legacy-vs-snapshot-overlap.md` +
+      `overlap.generated.json`): 230 legacy spots, 224 matched, 62
+      disagreements surfaced for review, nothing silently reconciled. Shell
+      bundle unchanged (391.2 KB).
+      Remaining III-4 work is slice 2 (postflop deal-from-range packs on #208's
+      board rendering) and the lesson-recommendation scoring port.*
 - [x] **III-5 · The identity gate (Arc 5)** — write `GOALS.md` (the missing
       gatekeeper every EPIC G reference points at): either declare identity
       (A) and codify the never-list (no HUD, no cloud, no telemetry) as

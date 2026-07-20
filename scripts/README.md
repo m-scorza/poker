@@ -14,5 +14,6 @@ One-off utility scripts. Not part of the app build. Run from repo root.
 | `regen-reports-index.ts` | Regenerates the `docs/reports/README.md` index. |
 | `analyze-cli.ts` | Headless analysis CLI — the UI's exact import pipeline from the terminal, `--json` for scripting. Wired as `npm run analyze` (added in #132). |
 | `extract-curriculum-seeds.ts` | Manually-run generator: reads `../poker-knowledge/quiz_configs.json` (a sibling repo not present in a fresh clone; see `SOURCE_PATH` in the script) to regenerate the committed `src/data/curriculumSeedPacks.generated.ts`. The generated output is committed precisely because the source repo isn't clonable here. |
+| `import-ct-curriculum.ts` | Manually-run offline importer: `--snapshot <dir> --legacy <quiz_configs.json>` reads a staged read-only trainer snapshot (not in-repo) and regenerates the committed brand-neutral preflop range packs under `src/data/ctPacks/` (light bundled registry + lazy per-pack chunks) plus the legacy-vs-snapshot overlap analysis (`docs/reports/2026-07-19-legacy-vs-snapshot-overlap.md` and `src/data/ctPacks/overlap.generated.json`). Deterministic; `--check` fails on drift. |
 
 All scripts assume the repo root as CWD.
