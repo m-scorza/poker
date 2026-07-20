@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { RANGE_PACK_REGISTRY } from '../registry.generated';
 import { RANGE_PACK_LOADERS } from '../loaders.generated';
 import anchorPack from '../packs/open-raising-utg-utgplus1-lj-bb-early-seats-baseline.generated';
+import threeBetPack from '../packs/facing-a-3-bet-co-btn-baseline.generated';
 
 const FORBIDDEN = /reglife|gto wizard|youtube|\bmc\b|c5a|c6a|https?:|\bct\b|pr[eé] flop|posi[cç]/i;
 
@@ -96,5 +97,16 @@ describe('CT range pack anchors (verbatim from snapshot)', () => {
     const mixed = foldBucket.combos.filter((combo) => raiseBucket.combos.includes(combo));
     expect(mixed).toHaveLength(58);
     expect(mixed).toContain('3d3c');
+  });
+
+  it('preserves the CO-vs-BTN 100bb facing-3-bet response buckets', () => {
+    const cell = threeBetPack.cells.find((entry) => entry.stackBb === 100)!;
+    const actionsFor = (combo: string) =>
+      cell.buckets.filter((bucket) => bucket.combos.includes(combo)).flatMap((bucket) => bucket.actions).sort();
+    const counts = Object.fromEntries(cell.buckets.map((bucket) => [bucket.actions.join('+'), bucket.combos.length]));
+    expect(counts).toEqual({ all_in: 12, call: 216, fold: 300, raise_22: 170 });
+    expect(actionsFor('KdKc')).toEqual(['raise_22']);
+    expect(actionsFor('AhKh')).toEqual(['raise_22']);
+    expect(actionsFor('QhJh')).toEqual(['call']);
   });
 });
