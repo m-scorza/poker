@@ -409,10 +409,58 @@ src/analysis/  (31 files)
   analysis/ungradedScenarios.ts
   analysis/villainClassifier.ts
   analysis/villainObserver.ts
-src/data/  (19 files)
+src/data/  (67 files)
   data/allInEquity.generated.ts
   data/appStore.ts
   data/backup.ts
+  data/ctPacks/loaders.generated.ts
+  data/ctPacks/packs/big-blind-defense-bb-btn-baseline.generated.ts
+  data/ctPacks/packs/big-blind-defense-bb-btn-exploit.generated.ts
+  data/ctPacks/packs/big-blind-defense-bb-co-baseline.generated.ts
+  data/ctPacks/packs/big-blind-defense-bb-hj-baseline.generated.ts
+  data/ctPacks/packs/big-blind-defense-bb-utg-baseline.generated.ts
+  data/ctPacks/packs/blind-battle-bb-sb-vs-jam-baseline.generated.ts
+  data/ctPacks/packs/blind-battle-bb-sb-vs-limp-exploit-2.generated.ts
+  data/ctPacks/packs/blind-battle-bb-sb-vs-limp-exploit.generated.ts
+  data/ctPacks/packs/blind-battle-bb-sb-vs-open-baseline.generated.ts
+  data/ctPacks/packs/blind-battle-sb-bb-sb-open-baseline.generated.ts
+  data/ctPacks/packs/blind-battle-sb-bb-sb-open-exploit.generated.ts
+  data/ctPacks/packs/blind-battle-sb-bb-vs-3-bet-baseline.generated.ts
+  data/ctPacks/packs/blind-battle-sb-bb-vs-3-bet-jam-baseline.generated.ts
+  data/ctPacks/packs/blind-battle-sb-bb-vs-iso-raise-baseline.generated.ts
+  data/ctPacks/packs/facing-a-3-bet-btn-sb-baseline.generated.ts
+  data/ctPacks/packs/facing-a-3-bet-btn-sb-vs-3-bet-jam-baseline.generated.ts
+  data/ctPacks/packs/facing-a-3-bet-co-btn-baseline.generated.ts
+  data/ctPacks/packs/facing-a-3-bet-co-btn-vs-3-bet-jam-baseline.generated.ts
+  data/ctPacks/packs/facing-a-3-bet-hj-bb-vs-3-bet-jam-baseline.generated.ts
+  data/ctPacks/packs/facing-a-3-bet-utg-co-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-btn-co-vs-jam-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-btn-co-vs-open-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-btn-co-vs-open-exploit.generated.ts
+  data/ctPacks/packs/facing-an-open-co-hj-vs-open-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-hj-lj-vs-open-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-sb-btn-vs-open-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-sb-btn-vs-open-exploit.generated.ts
+  data/ctPacks/packs/facing-an-open-sb-utg-vs-open-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-utgplus1-lj-hj-co-btn-sb-utg-lj-hj-co-btn-vs-open-pko-70pct-left-baseline.generated.ts
+  data/ctPacks/packs/facing-an-open-utgplus1-utg-vs-open-baseline.generated.ts
+  data/ctPacks/packs/multiway-big-blind-defense-bb-btn-sb-baseline.generated.ts
+  data/ctPacks/packs/multiway-big-blind-defense-bb-co-btn-baseline.generated.ts
+  data/ctPacks/packs/multiway-big-blind-defense-bb-co-sb-baseline.generated.ts
+  data/ctPacks/packs/multiway-big-blind-defense-bb-utg-lj-baseline.generated.ts
+  data/ctPacks/packs/multiway-big-blind-defense-bb-utgplus1-hj-baseline.generated.ts
+  data/ctPacks/packs/open-raising-hj-co-btn-bb-late-seats-baseline.generated.ts
+  data/ctPacks/packs/open-raising-utg-lj-hj-co-btn-bb-exploit.generated.ts
+  data/ctPacks/packs/open-raising-utg-lj-hj-co-btn-sb-bb-short-stack-baseline.generated.ts
+  data/ctPacks/packs/open-raising-utg-utgplus1-lj-bb-early-seats-baseline.generated.ts
+  data/ctPacks/packs/open-raising-utg-utgplus1-lj-hj-co-btn-bb-pko-70pct-left-baseline.generated.ts
+  data/ctPacks/packs/open-raising-utg-utgplus1-lj-hj-co-btn-bb-vanilla-50pct-left-baseline.generated.ts
+  data/ctPacks/packs/squeeze-bb-co-btn-baseline.generated.ts
+  data/ctPacks/packs/squeeze-btn-hj-co-baseline.generated.ts
+  data/ctPacks/packs/squeeze-hj-utg-lj-baseline.generated.ts
+  data/ctPacks/packs/squeeze-sb-co-btn-baseline.generated.ts
+  data/ctPacks/registry.generated.ts
+  data/ctPacks/types.ts
   data/curriculumProgress.ts
   data/curriculumSeedPacks.generated.ts
   data/demoDataset.ts
