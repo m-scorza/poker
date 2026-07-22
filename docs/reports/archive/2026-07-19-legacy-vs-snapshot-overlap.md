@@ -1,5 +1,5 @@
 ---
-status: open
+status: resolved
 owner_review: true
 date: 2026-07-19
 title: Legacy quiz-config vs snapshot overlap analysis (III-4 slice 1)
@@ -174,7 +174,70 @@ machine-readable form lives at `src/data/ctPacks/overlap.generated.json`.
 | VS_CBET · BB vs UTG · 30bb · board 2c6d9h · 72s | no snapshot cell for scenario/position/stack/board key |
 | VS_CBET · BB vs UTG · 30bb · board 7cKdTc · 42s | no snapshot cell for scenario/position/stack/board key |
 
+## Owner review (2026-07-21)
+
+Of the 46 disagreements above, only **2 are genuine poker-judgment calls**; the
+other **44 are matching artifacts** of the importer's cell key (scenario +
+position + stack + villain + 3-card board, with no action-history/street/node-type
+awareness). 40 of the 46 were already flagged as non-conflicts (the legacy
+single verdict is a subset of the snapshot's mixed-action set — expected, since
+legacy is class-level single-answer and the snapshot is combo-level with mixed
+frequencies). The remaining 6 (the ones with zero action overlap, listed first
+in the Disagreements table above) were investigated against both the legacy
+`quiz_configs.json` and the raw snapshot spot files:
+
+**Genuine value differences (no action taken — flagged as real strategy
+questions, not reconciled):**
+
+- `BB_VS_RAISE_MULTIWAY · BB · 25bb · T4o` (legacy `call` / snapshot `fold`)
+  and `BB_VS_RAISE_MULTIWAY · BB · 100bb · Q3o` (legacy `fold` / snapshot
+  `call`): legacy is one villain-agnostic multiway config; the snapshot only
+  deals either combo class in its "BB vs BTN+SB" node (the widest of five
+  multiway matchups — the other four don't reach these classes at all). So
+  this compares a generic multiway verdict against one specific (already
+  loosest) matchup, not a clean apples-to-apples contradiction.
+
+**Importer node-matching artifacts (false positives — no pack content is
+wrong, the comparison paired the wrong nodes):**
+
+- `FACING_3BET · CO vs BTN · 25bb · AJo`: the snapshot has two separate nodes
+  here — "facing a non-all-in 3-bet" (`all_in`) and "facing a 3-bet that's
+  already all-in" (`call`). The union of both is exactly legacy's `all_in/call`.
+  The importer matched only one node per legacy spot, so this is a false
+  disagreement.
+- `BLIND_WAR · SB vs BB · 50bb · T6o`: legacy's `fold` traces to a config where
+  SB already limped and BB iso-raised (SB's response to being isolated), not
+  an opening decision. The importer matched it against the snapshot's
+  "SB RFI/opening" node instead. The actually-corresponding snapshot node
+  ("SB Limp vs ISO") only has 15/30/60bb buckets — no 50bb — so this spot
+  should have been reported unmatched, not a disagreement.
+- `IP_POSTFLOP · BTN vs CO · 40bb · board 4hAsKs · AQs`: legacy's answer is a
+  flop decision (villain checks once, hero decides). The only snapshot node
+  sharing that 3-card board key is a turn decision (villain checks flop, checks
+  again on the turn, then hero decides) — a later, stronger spot. Same board
+  text, different street; confirmed no other snapshot config shares this
+  board key at 40bb.
+- `FACING_3BET · UTG vs CO · 25bb · A4s`: coverage gap, not a mismatch — the
+  snapshot has no "facing an all-in 3-bet, UTG vs CO" node at all (that
+  jam-response file exists for HJ-vs-BB, CO-vs-BTN, and BTN-vs-SB, but not
+  UTG-vs-CO), so legacy's `all_in` branch has nothing to match against.
+
+**Systemic implication, not re-audited:** all four artifacts share one root
+cause — the match key has no action-history, street, or "is the 3-bet
+all-in" awareness. That means some of the 124 agreements / 54 sizing-only
+rows above could also be coincidental matches to the wrong node; this review
+did not re-check those. If `scripts/import-ct-curriculum.ts`'s
+`matchSnapshotCell` is hardened later (e.g. incorporating action-history
+street count into the cell key), rerun the importer and diff the new
+`overlap.generated.json` against this one rather than assuming the rest of
+the report is clean.
+
+**No legacy pack was superseded, deleted, or silently reconciled** — this
+review only annotates root causes; it does not change `src/data/ctPacks/` or
+the packs it feeds.
+
 ## Open items
 
-- [ ] Owner review of every disagreement above; no legacy pack was superseded,
-      deleted, or silently reconciled in this slice.
+_None — see "Owner review (2026-07-21)" above. Closed without importer changes
+or pack edits; matcher hardening (action-history/street awareness in
+`matchSnapshotCell`) is a follow-up, not yet scheduled._
