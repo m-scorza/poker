@@ -1,0 +1,41 @@
+{
+  "projectId": "8e1445ad-1a32-4837-8167-bab39a580638",
+  "shape": "package",
+  "pkg": "poker-analyzer",
+  "globalName": "PokerUI",
+  "buildCmd": "npm run build -- --base=./ && cp dist/assets/index-*.css dist/assets/app-compiled.css",
+  "entry": ".design-sync/ds-entry.ts",
+  "cssEntry": "dist/assets/app-compiled.css",
+  "srcDir": "src/components/shared",
+  "componentSrcMap": {
+    "PokerCard": "src/components/shared/Card.tsx",
+    "StatCard": "src/components/shared/StatCard.tsx",
+    "InfoTooltip": "src/components/shared/InfoTooltip.tsx",
+    "ConfirmDialog": "src/components/shared/ConfirmDialog.tsx",
+    "RangeGrid": "src/components/shared/RangeGrid.tsx",
+    "DualRangeMatrix": "src/components/shared/DualRangeMatrix.tsx",
+    "DataHealthAlertIcon": "src/components/shared/DataHealthAlert.tsx",
+    "CommandPalette": "src/components/shared/CommandPalette.tsx",
+    "DemoDataButton": null
+  },
+  "provider": { "component": "MemoryRouter" },
+  "guidelinesGlob": ["docs/design/DECISIONS.md", "docs/design/DESIGN.md"],
+  "readmeHeader": ".design-sync/conventions.md",
+  "overrides": {
+    "ConfirmDialog": { "cardMode": "single", "viewport": "560x480" },
+    "CommandPalette": { "cardMode": "single", "viewport": "640x480" },
+    "PokerCard": { "cardMode": "column" },
+    "StatCard": { "cardMode": "column" },
+    "RangeGrid": { "cardMode": "column" },
+    "DualRangeMatrix": { "cardMode": "column" }
+  },
+  "extraFonts": [
+    "node_modules/@fontsource/inter/400.css",
+    "node_modules/@fontsource/inter/500.css",
+    "node_modules/@fontsource/inter/600.css",
+    "node_modules/@fontsource/inter/700.css",
+    "node_modules/@fontsource/jetbrains-mono/400.css",
+    "node_modules/@fontsource/jetbrains-mono/500.css",
+    "node_modules/@fontsource/jetbrains-mono/700.css"
+  ]
+}

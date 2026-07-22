@@ -38,5 +38,18 @@
     // in-repo consumer (store.ts + its own test), so this line is
     // defensive — it keeps the file safe if that consumer ever changes.
     "src/analysis/villainClassifier.ts",
+
+    // design-sync (claude.ai/design) tooling entries: never imported by
+    // src/, only read directly by the staged .ds-sync/ converter (gitignored,
+    // re-staged per clone/CI run per .design-sync/NOTES.md) as its
+    // --entry barrel and per-component preview modules.
+    ".design-sync/ds-entry.ts",
+    ".design-sync/previews/*.tsx",
   ],
+
+  // @fontsource/* fonts are consumed only by the design-sync CSS build
+  // (.design-sync/config.json extraFonts), not imported by src/ — the app
+  // itself ships Bricolage Grotesque via @fontsource-variable and falls
+  // back to system fonts for Inter/JetBrains Mono.
+  "ignoreDependencies": ["@fontsource/inter", "@fontsource/jetbrains-mono"],
 }

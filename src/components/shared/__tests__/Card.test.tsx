@@ -12,7 +12,7 @@ describe('PokerCard', () => {
 
   it('applies red color for hearts', () => {
     const { container } = render(<PokerCard card="Ah" />);
-    expect(container.firstChild).toHaveClass('text-suit-heart');
+    expect(container.firstChild).toHaveClass('text-heart');
   });
 
   it('renders back of card correctly', () => {

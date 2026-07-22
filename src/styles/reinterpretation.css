@@ -15,6 +15,9 @@
    ========================================================= */
 
 /* ---------- TOKENS · INK MONO (locked) ---------- */
+/* :root included so tokens resolve outside the app shell (design-system
+   exports, previews); body[data-shell] keeps in-app toggle precedence. */
+:root,
 body[data-shell] {
   --bg: #0a0a0c; --bg-2: #111114;
   --bg-card: #111114; --bg-card-hover: #16161a;
@@ -65,6 +68,7 @@ body[data-font="neutral"] {
 }
 body[data-font="neutral"] .mon-num,
 body[data-font="neutral"] .desk-title { letter-spacing: -0.035em; }
+:root,
 body[data-font="hybrid"] {
   --display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', system-ui, sans-serif;
   --sans: 'Inter', system-ui, sans-serif;

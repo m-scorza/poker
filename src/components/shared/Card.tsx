@@ -8,10 +8,10 @@ const SUIT_SYMBOLS: Record<string, string> = {
 };
 
 const SUIT_COLORS: Record<string, string> = {
-  h: 'text-suit-heart',
-  d: 'text-suit-diamond',
-  c: 'text-suit-club',
-  s: 'text-suit-spade',
+  h: 'text-heart',
+  d: 'text-diamond',
+  c: 'text-club',
+  s: 'text-spade',
 };
 
 interface CardProps {
@@ -44,7 +44,7 @@ export function PokerCard({ card, size = 'md', className }: CardProps) {
   return (
     <div
       className={clsx(
-        'relative bg-bg-card-solid border border-border-active shadow-[2px_2px_8px_rgba(0,0,0,0.4)] flex flex-col p-1 select-none font-bold',
+        'relative bg-card-surface border border-hairline-strong shadow-[2px_2px_8px_rgba(0,0,0,0.4)] flex flex-col p-1 select-none font-bold',
         color,
         sizeClasses[size],
         className
