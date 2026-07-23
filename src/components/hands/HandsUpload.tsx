@@ -70,11 +70,26 @@ export function HandsUpload({ onUploadSuccess }: { onUploadSuccess: () => void }
 
   const onDrop = useCallback((e: React.DragEvent) => {
     e.preventDefault(); setDragOver(false);
-    if (e.dataTransfer.files.length > 0) processFiles(e.dataTransfer.files);
+    const files = Array.from(e.dataTransfer.files);
+    if (files.length > 0) void processFiles(files);
   }, [processFiles]);
 
   const onFileSelect = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files.length > 0) processFiles(e.target.files);
+    const input = e.currentTarget;
+    const files = Array.from(input.files ?? []);
+    if (files.length === 0) {
+      input.value = '';
+      return;
+    }
+
+    // Keep the native selection alive while processFiles snapshots each file's
+    // bytes. Clearing before `File.text()` settles can invalidate browser-backed
+    // file handles and leave the importer stuck in the reading phase. Reset as
+    // soon as serialization/worker dispatch finishes so selecting the same file
+    // again still emits `change`; persisted hands are deduped by ID.
+    void processFiles(files).finally(() => {
+      input.value = '';
+    });
   }, [processFiles]);
 
   return (

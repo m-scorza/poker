@@ -107,6 +107,7 @@ function selectFiles(container: HTMLElement, files: File[]) {
   const input = container.querySelector('input[accept=".txt,.json,.zip"]') as HTMLInputElement;
   Object.defineProperty(input, 'files', { value: files, configurable: true });
   fireEvent.change(input);
+  return input;
 }
 
 describe('HandsUpload', () => {
@@ -218,6 +219,38 @@ describe('HandsUpload', () => {
     expect(storeMocks.saveImportRun).toHaveBeenCalledTimes(1);
     expect(useAppStore.getState().totalHands).toBe(3);
     expect(useAppStore.getState().isImporting).toBe(false);
+  });
+
+  it('clears the file picker so the same file can be selected again', async () => {
+    const { container } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    const file = makeFile('hand.txt', "PokerStars Hand #1: Hold'em No Limit");
+    const firstRead = deferred<string>();
+    Object.defineProperty(file, 'text', {
+      value: () => firstRead.promise,
+      configurable: true,
+    });
+    const input = container.querySelector('input[accept=".txt,.json,.zip"]') as HTMLInputElement;
+    Object.defineProperty(input, 'value', {
+      value: 'C:\\fakepath\\hand.txt',
+      writable: true,
+      configurable: true,
+    });
+
+    selectFiles(container, [file]);
+
+    expect(input.value).toBe('C:\\fakepath\\hand.txt');
+    firstRead.resolve("PokerStars Hand #1: Hold'em No Limit");
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1));
+    expect(input.value).toBe('');
+
+    // A native picker can now emit another change for the exact same file.
+    Object.defineProperty(input, 'files', { value: [file], configurable: true });
+    fireEvent.change(input);
+
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(2));
+    expect(MockWorker.instances[0]!.terminate).toHaveBeenCalled();
+    expect(MockWorker.instances[1]!.postMessage).toHaveBeenCalledTimes(1);
+    expect(input.value).toBe('');
   });
 
   it('shows the active reading, parsing, saving, and analysis phases', async () => {
@@ -421,6 +454,20 @@ describe('HandsUpload', () => {
     expect(await findByText(/could not read this file \(read denied\)/i)).toBeInTheDocument();
     await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
     expect(MockWorker.instances).toHaveLength(0);
+  });
+
+  it('falls back to FileReader when File.text never settles', async () => {
+    const stalledTextFile = makeFile('stalled.txt', "PokerStars Hand #1: Hold'em No Limit");
+    Object.defineProperty(stalledTextFile, 'text', {
+      value: () => new Promise<string>(() => undefined),
+      configurable: true,
+    });
+    const { container } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+
+    selectFiles(container, [stalledTextFile]);
+
+    await waitFor(() => expect(MockWorker.instances).toHaveLength(1), { timeout: 4_000 });
+    expect(MockWorker.instances[0]!.postMessage).toHaveBeenCalledTimes(1);
   });
 
   it('lets the user cancel a worker that stops responding', async () => {

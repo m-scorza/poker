@@ -4,7 +4,10 @@ import { sumUsd } from '../parser/money';
 
 export interface BustOutBucket {
   label: string;
+  rangeLabel: string;
   count: number;
+  percentage: number;
+  denominator: number;
   color: string;
 }
 
@@ -202,32 +205,38 @@ export function computeCareerStreaks(tournaments: Tournament[]): CareerStreaks {
 }
 
 export function computeBustOutDistribution(tournaments: Tournament[]): BustOutBucket[] {
-  const buckets = {
-    Win: { label: 'Wins', count: 0, color: '#fbbf24' }, // amber-400
-    FT: { label: 'Final Table', count: 0, color: '#f59e0b' }, // amber-500
-    Deep: { label: 'Deep Run', count: 0, color: '#10b981' }, // emerald-500
-    Mid: { label: 'Mid-Stage', count: 0, color: '#3b82f6' }, // blue-500
-    Early: { label: 'Early Exit', count: 0, color: '#ef4444' }, // red-500
-  };
+  // Tournament exports do not currently retain field size, so relative labels
+  // such as "early exit" or "deep run" would imply precision we do not have.
+  // Use explicit, mutually-exclusive finish-position bands instead.
+  const bucketDefinitions = [
+    { label: 'Win', rangeLabel: '1st', min: 1, max: 1, color: '#fbbf24' },
+    { label: 'Top 9', rangeLabel: '2nd–9th', min: 2, max: 9, color: '#f59e0b' },
+    { label: 'Top 45', rangeLabel: '10th–45th', min: 10, max: 45, color: '#10b981' },
+    { label: 'Top 150', rangeLabel: '46th–150th', min: 46, max: 150, color: '#3b82f6' },
+    { label: '151+', rangeLabel: '151st+', min: 151, max: Number.POSITIVE_INFINITY, color: '#ef4444' },
+  ] as const;
 
-  tournaments.forEach(t => {
-    const pos = t.finishPosition;
-    if (!pos) return;
+  const finishPositions = tournaments
+    .map((tournament) => tournament.finishPosition)
+    .filter((position): position is number => Number.isInteger(position) && position !== null && position > 0);
+  const denominator = finishPositions.length;
 
-    if (pos === 1) {
-      buckets.Win.count++;
-    } else if (pos <= 9) {
-      buckets.FT.count++;
-    } else if (pos <= 45) {
-      buckets.Deep.count++;
-    } else if (pos <= 150) {
-      buckets.Mid.count++;
-    } else {
-      buckets.Early.count++;
-    }
+  if (denominator === 0) return [];
+
+  return bucketDefinitions.map((definition) => {
+    const count = finishPositions.filter(
+      (position) => position >= definition.min && position <= definition.max,
+    ).length;
+
+    return {
+      label: definition.label,
+      rangeLabel: definition.rangeLabel,
+      count,
+      percentage: (count / denominator) * 100,
+      denominator,
+      color: definition.color,
+    };
   });
-
-  return Object.values(buckets).filter(b => b.count > 0);
 }
 
 export function computeStakeEvolution(tournaments: Tournament[]): StakePoint[] {

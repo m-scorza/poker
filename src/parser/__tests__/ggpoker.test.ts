@@ -90,6 +90,22 @@ Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
     expect(decision?.wonAmount).toBe(0);
   });
 
+  it('returns collected amounts for non-showdown summary awards', () => {
+    const uncontestedSample = ggSample.replace(
+      'Seat 2: a81061d (small blind) showed [Tc Kh] and won (646) with three of a kind, Tens',
+      'Seat 2: a81061d (small blind) collected (646)',
+    );
+    const hands = parseGGPokerFile(uncontestedSample, 'scorza23');
+
+    expect(hands[0]!.collectedAmounts.get('a81061d')).toBe(646);
+    expect(hands[0]!.showdownWinners.has('a81061d')).toBe(false);
+
+    const hand = hands[0]!.hand;
+    const heroNet = hand.heroChipsAfter - hand.heroChipsBefore;
+    const villainNet = hand.villainDeltas.reduce((sum, villain) => sum + villain.net, 0);
+    expect(heroNet + villainNet + hand.rake).toBe(0);
+  });
+
   it('correctly tracks position, totalPot, rake, and villainDeltas', () => {
     const hands = parseGGPokerFile(ggSample, 'scorza23');
     const hand = hands[0]!;

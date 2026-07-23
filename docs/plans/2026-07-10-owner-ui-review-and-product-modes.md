@@ -1,6 +1,8 @@
 # Owner UI Review and Product Modes
 
-> **Status: PLANNED ONLY — NO PRODUCT IMPLEMENTATION AUTHORIZED.**
+> **Status: WAVE 0 CORRECTNESS EXECUTION AUTHORIZED 2026-07-21.** Product-mode,
+> information-architecture, and redesign work still requires the decisions and
+> sequencing below.
 > Captured from the owner's 33 element-level browser comments against the local
 > development build on 2026-07-10. The comments are product direction, not a
 > request to patch the current UI in this session.
@@ -196,11 +198,11 @@ representative ZIP before changing code.
 
 **Comments:** 10.
 
-**Status (2026-07-11): In progress.** The reported replay action now uses the
-shared `chipAmount` formatter and has a regression for
-`385.00000000000006 → 385`, verified against demo hand `DEMO-H-250-117` in the
-browser. A repo-wide migration of remaining raw numeric render sites is still
-required before this task is complete.
+**Status (2026-07-21): In progress.** The shared `chipAmount` formatter now
+covers Hand Replay actions, blinds, antes, pots, hero/tournament-context
+stacks, Hands table stack depth, and Spot Packet bb values, with direct
+IEEE-754 rendering regressions. A repo-wide migration of remaining non-Hands
+numeric render sites is still required before this task is complete.
 
 **Scope:** locate every user-visible chip, blind, pot, currency, percentage, and
 duration formatter. Fix `385.00000000000006` at the shared formatting boundary,
@@ -213,6 +215,12 @@ summary values; precision rules are documented and directly tested.
 
 **Comments:** 27.
 
+**Status (2026-07-21): Complete.** The reported bubble plot was the Day/Hour
+scatter. It now names the recorded-start-time metric, sizes bubbles by sample
+rather than dollars, exposes readable axes and aggregate/average tooltips, and
+refuses to imply a pattern for empty or one-bucket data. Direct component tests
+pin those states.
+
 **Scope:** identify which chart renders as an unexplained vertical bubble plot,
 then verify its data contract, axes, responsive size, empty state, and demo data.
 
@@ -223,6 +231,12 @@ empty/insufficient-data state.
 #### UIR-004 — Finish distribution semantics (P1 correctness)
 
 **Comments:** 25.
+
+**Status (2026-07-21): Complete.** Finish results now use five explicit,
+mutually exclusive position bands with one recorded-finish denominator. The
+chart keeps all bands visible on a common 0–N scale and shows reconciled counts
+plus percentages in labels and tooltips; pure and component tests cover the
+boundaries and empty state.
 
 **Scope:** define mutually exclusive finish buckets and their denominator.
 Include early exits, counts, and percentages; clarify whether a deep run includes

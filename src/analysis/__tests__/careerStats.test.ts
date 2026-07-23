@@ -3,6 +3,7 @@ import {
   classifyTournamentFormat,
   computeFormatBreakdown,
   computeCareerStreaks,
+  computeBustOutDistribution,
   computeLifetimeRoi,
   estimateHourlyRate,
   ASSUMED_HANDS_PER_HOUR,
@@ -91,6 +92,54 @@ describe('careerStats helpers', () => {
       expect(streaks.currentWinStreak).toBe(1); // tourn 6 is a win
       expect(streaks.longestWinStreak).toBe(2); // tourns 2 and 3
       expect(streaks.longestCashlessStreak).toBe(1); // only tourn 4 was cashless
+    });
+  });
+
+  describe('computeBustOutDistribution', () => {
+    it('uses mutually exclusive position bands with one recorded-finish denominator', () => {
+      const positions = [1, 2, 9, 10, 45, 46, 150, 151];
+      const tournaments = positions.map((finishPosition, index) => makeTourney({
+        id: `finish-${index}`,
+        finishPosition,
+      }));
+
+      // Results without a valid recorded finish are excluded from the stated
+      // denominator instead of being silently assigned to a finish band.
+      tournaments.push(
+        makeTourney({ id: 'missing', finishPosition: null }),
+        makeTourney({ id: 'invalid-zero', finishPosition: 0 }),
+        makeTourney({ id: 'invalid-fraction', finishPosition: 1.5 }),
+      );
+
+      const distribution = computeBustOutDistribution(tournaments);
+
+      expect(distribution.map(({ rangeLabel, count }) => ({ rangeLabel, count }))).toEqual([
+        { rangeLabel: '1st', count: 1 },
+        { rangeLabel: '2nd–9th', count: 2 },
+        { rangeLabel: '10th–45th', count: 2 },
+        { rangeLabel: '46th–150th', count: 2 },
+        { rangeLabel: '151st+', count: 1 },
+      ]);
+      expect(distribution.every((bucket) => bucket.denominator === 8)).toBe(true);
+      expect(distribution.map((bucket) => bucket.percentage)).toEqual([12.5, 25, 25, 25, 12.5]);
+      expect(distribution.reduce((sum, bucket) => sum + bucket.count, 0)).toBe(8);
+      expect(distribution.reduce((sum, bucket) => sum + bucket.percentage, 0)).toBe(100);
+    });
+
+    it('keeps zero-count bands visible so every chart uses the same definitions', () => {
+      const distribution = computeBustOutDistribution([
+        makeTourney({ finishPosition: 1 }),
+      ]);
+
+      expect(distribution).toHaveLength(5);
+      expect(distribution.map((bucket) => bucket.count)).toEqual([1, 0, 0, 0, 0]);
+    });
+
+    it('returns no distribution when no valid finish position was recorded', () => {
+      expect(computeBustOutDistribution([
+        makeTourney({ finishPosition: null }),
+        makeTourney({ finishPosition: 0 }),
+      ])).toEqual([]);
     });
   });
 

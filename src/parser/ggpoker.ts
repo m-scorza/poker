@@ -17,7 +17,7 @@ const RE_SEAT = /Seat (\d+): (.+?) \(([\d,]+) in chips\)/;
 const RE_DEALT = /Dealt to (.+?) \[(.+)\]/;
 const RE_ACTION = /^(.+?): (folds|calls|checks|raises|posts small blind|posts big blind|posts the ante|shows|mucks|collected|wins|bets) ?([\d,]+)? ?(?:to )?([\d,]+)?/;
 const RE_BOARD = /Board \[(.+)\]/;
-const RE_WINNER = /Seat (\d+): (.+?) (?:\(.+?\))?\s*(?:showed \[(.+?)\] and won|won) \(([\d,]+)\)/g;
+const RE_WINNER = /Seat (\d+): (.+?) (?:\(.+?\))?\s*(?:showed \[(.+?)\] and (?:won|collected)|won|collected) \(([\d,]+)\)/g;
 const RE_TOTAL_POT = /Total pot ([\d,]+) \| Rake ([\d,]+)/;
 const RE_UNCALLED = /^Uncalled bet \(\$?([\d,]+)\) returned to (.+)$/;
 

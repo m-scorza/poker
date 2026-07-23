@@ -238,6 +238,29 @@ describe('SpotSourcePanel', () => {
     expect(preflopContext).toHaveTextContent('squeeze candidate');
   });
 
+  it('does not expose floating-point noise in bb values', () => {
+    const packet = buildSpotPacketFromParsedHand(multiwayParsedHand, {
+      ...decision,
+      position: 'BB',
+      handKey: '72s',
+      scenario: 'BB_VS_RAISE_MULTIWAY',
+      action: 'fold',
+      deviationType: null,
+    }, {
+      source: { site: 'pokerstars', fileType: 'hand_history', accessMethod: 'local_file', parserConfidence: 'high' },
+    });
+    packet.riskContext!.heroStackBb = 25.000000000000004;
+    packet.preflopContext.callersBeforeHero[0]!.amountBb = 2.5000000000000004;
+    packet.trainerPrompt.legalActions[0]!.amountBb = 2.5000000000000004;
+
+    render(<SpotSourcePanel packet={packet} />);
+
+    expect(screen.getByTestId('spot-source-panel-risk-context')).toHaveTextContent('25bb');
+    expect(screen.getByTestId('spot-source-panel-preflop-context')).toHaveTextContent('2.5bb');
+    expect(screen.getByTestId('spot-source-panel-legal-menu').querySelector('[title*="2.5bb"]')).toBeInTheDocument();
+    expect(screen.getByTestId('spot-source-panel')).not.toHaveTextContent('25.000000000000004');
+  });
+
   it('downloads sanitized SpotPacket JSON without raw hand text or villain names', async () => {
     const packet = buildSpotPacketFromParsedHand(parsedHand, decision, {
       source: { site: 'pokerstars', fileType: 'hand_history', accessMethod: 'local_file', parserConfidence: 'high' },

@@ -1,13 +1,17 @@
-import { describe, it, expect } from 'vitest';
+import { beforeAll, describe, it, expect } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
+import JSZip from 'jszip';
 import { parsePokerStarsFile } from '../pokerstars';
 import { parseTournamentSummary } from '../tournamentSummary';
 import { parseOpenHandHistoryFile } from '../openHandHistory';
+import { parseGGPokerFileWithDiagnostics, parseGGPokerSummary } from '../ggpoker';
 
 const HH_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'pokerstars', 'hh');
 const TS_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'pokerstars', 'ts');
 const OHH_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'ohh');
+const GG_HH_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'ggpoker', 'hh');
+const GG_TS_DIR = join(__dirname, '..', '..', 'test', 'fixtures', 'ggpoker', 'ts');
 
 const RE_FILENAME_TID = /\bT(\d{6,})\b/;
 const RE_FILENAME_BUYIN = /US\$\s*(\d+(?:,\d+)?)\s*\+\s*US\$\s*(\d+(?:,\d+)?)/;
@@ -30,6 +34,12 @@ interface OhhFixtureOracle {
   boardFlop: string[];
   boardTurn: string;
   heroCards: string[];
+}
+
+interface ZipTextEntry {
+  archiveName: string;
+  entryName: string;
+  content: string;
 }
 
 const OHH_ORACLES: Record<string, OhhFixtureOracle> = {
@@ -69,6 +79,39 @@ function parseFilenameOracle(filename: string): FilenameOracle {
 
 function readUtf8(path: string): string {
   return readFileSync(path, 'utf8');
+}
+
+async function readZipTextEntries(directory: string): Promise<ZipTextEntry[]> {
+  const entries: ZipTextEntry[] = [];
+  const archives = readdirSync(directory).filter((file) => file.endsWith('.zip')).sort();
+
+  for (const archiveName of archives) {
+    const archive = await JSZip.loadAsync(readFileSync(join(directory, archiveName)), { checkCRC32: true });
+    const textFiles = Object.values(archive.files)
+      .filter((entry) => !entry.dir && entry.name.toLowerCase().endsWith('.txt'))
+      .sort((left, right) => left.name.localeCompare(right.name));
+
+    for (const entry of textFiles) {
+      entries.push({
+        archiveName,
+        entryName: entry.name,
+        content: await entry.async('string'),
+      });
+    }
+  }
+
+  return entries;
+}
+
+function parseGgSummaryBuyInOracle(content: string): { buyIn: number; fee: number } | null {
+  const buyInLine = content.split(/\r?\n/).find((line) => /^Buy-in:/i.test(line.trim()));
+  if (!buyInLine) return null;
+
+  const amounts = Array.from(buyInLine.matchAll(/\$(\d+(?:\.\d+)?)/g), (match) => Number(match[1]));
+  if (amounts.length === 1) return { buyIn: amounts[0]!, fee: 0 };
+  if (amounts.length === 2) return { buyIn: amounts[0]!, fee: amounts[1]! };
+  if (amounts.length === 3) return { buyIn: amounts[0]! + amounts[1]!, fee: amounts[2]! };
+  return null;
 }
 
 describe('fixture sweep — pokerstars/hh', () => {
@@ -173,7 +216,95 @@ describe('fixture sweep — pokerstars/ts', () => {
   }, 300_000);
 });
 
-describe.todo('fixture sweep — ggpoker (zip fixtures, deferred)');
+describe('fixture sweep — ggpoker/zip', () => {
+  let handHistoryEntries: ZipTextEntry[] = [];
+  let tournamentSummaryEntries: ZipTextEntry[] = [];
+
+  beforeAll(async () => {
+    [handHistoryEntries, tournamentSummaryEntries] = await Promise.all([
+      readZipTextEntries(GG_HH_DIR),
+      readZipTextEntries(GG_TS_DIR),
+    ]);
+  });
+
+  it('extracts every tracked text fixture from CRC-valid ZIP archives', () => {
+    expect(new Set(handHistoryEntries.map((entry) => entry.archiveName)).size).toBe(2);
+    expect(new Set(tournamentSummaryEntries.map((entry) => entry.archiveName)).size).toBe(2);
+    expect(handHistoryEntries).toHaveLength(27);
+    expect(tournamentSummaryEntries).toHaveLength(26);
+    expect(handHistoryEntries.every((entry) => entry.content.length > 0)).toBe(true);
+    expect(tournamentSummaryEntries.every((entry) => entry.content.length > 0)).toBe(true);
+  });
+
+  it('recovers every GGPoker hand-history file without skipped blocks', () => {
+    let totalHands = 0;
+    const handIds = new Set<string>();
+
+    for (const fixture of handHistoryEntries) {
+      const parsed = parseGGPokerFileWithDiagnostics(fixture.content);
+      const label = `${fixture.archiveName}/${fixture.entryName}`;
+
+      expect(parsed.hands.length, label).toBeGreaterThan(0);
+      expect(parsed.skippedBlocks, label).toBe(0);
+
+      for (const hand of parsed.hands) {
+        expect(hand.hand.id, label).toBeTruthy();
+        expect(hand.hand.tournamentId, `${label} #${hand.hand.id}`).toMatch(/^\d+$/);
+        expect(hand.tournament.currency, `${label} #${hand.hand.id}`).toBe('USD');
+        expect(handIds.has(hand.hand.id), `${label} duplicate #${hand.hand.id}`).toBe(false);
+        handIds.add(hand.hand.id);
+      }
+
+      totalHands += parsed.hands.length;
+    }
+
+    expect(totalHands).toBe(566);
+    expect(handIds.size).toBe(totalHands);
+  }, 300_000);
+
+  it('recovers every GGPoker summary with corpus-backed ID and buy-in metadata', () => {
+    for (const fixture of tournamentSummaryEntries) {
+      const label = `${fixture.archiveName}/${fixture.entryName}`;
+      const summary = parseGGPokerSummary(fixture.content);
+      const tournamentId = /Tournament #(\d+)/.exec(fixture.content)?.[1];
+      const buyInOracle = parseGgSummaryBuyInOracle(fixture.content);
+
+      expect(summary, label).not.toBeNull();
+      expect(tournamentId, label).toBeTruthy();
+      expect(buyInOracle, label).not.toBeNull();
+      if (!summary || !tournamentId || !buyInOracle) continue;
+
+      expect(summary.tournamentId, label).toBe(tournamentId);
+      expect(summary.buyIn, label).toBeCloseTo(buyInOracle.buyIn, 2);
+      expect(summary.fee, label).toBeCloseTo(buyInOracle.fee, 2);
+      expect(summary.currency, label).toBe('USD');
+      expect(summary.finishPosition, label).toBeGreaterThan(0);
+      expect(summary.prize, label).toBeGreaterThanOrEqual(0);
+    }
+  }, 300_000);
+
+  it('recovers winner collections and conserves chips for every parsed hand', () => {
+    let checked = 0;
+
+    for (const fixture of handHistoryEntries) {
+      const parsed = parseGGPokerFileWithDiagnostics(fixture.content);
+      for (const parsedHand of parsed.hands) {
+        const { hand } = parsedHand;
+        const label = `${fixture.archiveName}/${fixture.entryName} #${hand.id}`;
+        expect(parsedHand.collectedAmounts.size, label).toBeGreaterThan(0);
+        const heroNet = hand.heroChipsAfter - hand.heroChipsBefore;
+        const villainNet = hand.villainDeltas.reduce((sum, villain) => sum + villain.net, 0);
+        expect(
+          Math.abs(heroNet + villainNet + hand.rake),
+          label,
+        ).toBeLessThan(0.005);
+        checked += 1;
+      }
+    }
+
+    expect(checked).toBe(566);
+  }, 300_000);
+});
 
 describe('fixture sweep - open-hand-history/json', () => {
   const files = readdirSync(OHH_DIR).filter((f) => f.endsWith('.json'));

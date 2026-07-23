@@ -63,13 +63,18 @@ describe('format utilities', () => {
   describe('chipAmount', () => {
     it('strips binary floating-point noise and formats to two decimal precision', () => {
       expect(chipAmount(385.00000000000006)).toBe('385');
+      expect(chipAmount(0.30000000000000004)).toBe('0.3');
       expect(chipAmount(87.5)).toBe('87.5');
       expect(chipAmount(10.123)).toBe('10.12');
       expect(chipAmount(10.126)).toBe('10.13');
     });
 
-    it('handles zero and negative amounts', () => {
+    it('documents sub-cent, zero, and negative presentation boundaries', () => {
+      expect(chipAmount(0.004)).toBe('0');
+      expect(chipAmount(0.006)).toBe('0.01');
       expect(chipAmount(0)).toBe('0');
+      expect(chipAmount(-0)).toBe('0');
+      expect(chipAmount(-0.004)).toBe('0');
       expect(chipAmount(-5.5)).toBe('-5.5');
     });
 
