@@ -13,6 +13,7 @@ import { clsx } from 'clsx';
 import { Eye, Star, ChevronUp, ChevronDown } from 'lucide-react';
 import type { Hand } from '../../types/hand';
 import type { HeroDecision } from '../../types/analysis';
+import { chipAmount } from '../../utils/format';
 
 export interface HandsTableProps {
   decisions: HeroDecision[];
@@ -128,7 +129,7 @@ export function HandsTable({
             bb < 20 && 'text-[var(--loss)] font-bold',
             bb >= 20 && bb <= 40 && 'text-[var(--warn)] font-bold',
           )}>
-            {bb.toFixed(0)}bb
+            {chipAmount(bb)}bb
           </span>
         );
       }

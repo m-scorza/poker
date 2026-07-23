@@ -4,6 +4,25 @@ Compacted handoff records rolled off the active
 [AGENT_HANDOFF.md](../AGENT_HANDOFF.md) to keep it inside the kernel context
 budget. Newest at the top.
 
+## 2026-07-12 - Write direct test suites for strategyProfiles, importDiagnosticsPolicy, tournamentSummary
+
+- Owner / agent:          Antigravity
+- Branch:                 agy/section6-tests
+- Scope:                  src/data/__tests__/strategyProfiles.test.ts, src/data/__tests__/importDiagnosticsPolicy.test.ts, src/parser/__tests__/tournamentSummary.test.ts
+- Files touched:          src/data/__tests__/strategyProfiles.test.ts, src/data/__tests__/importDiagnosticsPolicy.test.ts, src/parser/__tests__/tournamentSummary.test.ts
+- Summary:                Created direct characterization test suites for strategyProfiles (pinning getThresholds, getCbetRule, advancedThreeBetSize boundaries, BB_DEFENSE_ICM_ADJUSTMENTS), importDiagnosticsPolicy (pinning sanitizeDiagnosticText 240-char cap, sanitizeDiagnosticSourceFile redaction, buildImportDiagnosticsSnapshot), and tournamentSummary (characterizing parseTournamentSummary finish/prize/bounty extraction and documenting RE_MONEY comma behavior).
+- Verification:           `npm run typecheck:test` passed; `npx vitest run src/data/__tests__/strategyProfiles.test.ts src/data/__tests__/importDiagnosticsPolicy.test.ts src/parser/__tests__/tournamentSummary.test.ts` passed (3 suites, 32 tests).
+- Risks / assumptions:    Characterization tests document that parseTournamentSummary finish-line prize extraction returns 0 when comma-separated unless fallback 'You received' header is present.
+- Next action requested:  Review characterization test suites and evaluate parseTournamentSummary finish-line comma handling.
+
+## 2026-07-11 - Import recovery and replay number formatting
+
+- Owner / agent:          Codex
+- Branch:                 codex/fix-import-and-number-format
+- Scope / summary:        UIR-001/002 first slice: guarded import lifecycle failures, watchdog/cancel/phase UI, and shared replay chip formatting with regressions.
+- Verification:           Focused suites, typechecks, build, docs, diff and browser passed; follow-up CI fixture typing fixed.
+- Risks / next:           In-flight storage promises cannot be aborted; finish tracked ZIP evidence and repo-wide numeric migration.
+
 ## 2026-07-10 - Owner UI plan, BLACKOUT salvage review, and fleet v2
 
 - Owner / agent:          Codex

@@ -1,26 +1,27 @@
 # Parser Health - Fixture Sweep
 
-**Last verified:** 2026-06-05
-**Branch/worktree:** `codex/ohh-fixture-sweep` at `C:\dev\poker`
+**Last verified:** 2026-07-22
+**Branch/worktree:** `codex/implementionday` at `C:\dev\poker`
 **Purpose:** publish exact parser fixture pass / skip / fail numbers so product decisions are based on measured parser health rather than vibes.
 
 ## Commands run
 
 ```bash
-npx.cmd vitest run src/parser/__tests__/fixtureSweep.test.ts src/parser/__tests__/openHandHistory.test.ts
+npx.cmd vitest run src/parser/__tests__/fixtureSweep.test.ts src/parser/__tests__/ggpoker.test.ts src/parser/__tests__/ggpoker_robustness.test.ts src/parser/__tests__/buyInExtractor.test.ts
 ```
 
 Vitest result:
 
 ```text
-Test Files  2 passed (2)
-Tests       9 passed (9)
+Test Files  4 passed (4)
+Tests       56 passed (56)
 ```
 
 The current focused sweep covers PokerStars real fixtures and standardized
-Open Hand History JSON fixtures committed under `src/test/fixtures/`.
-The GGPoker archive numbers below are retained from the prior archive audit
-because `fixtureSweep.test.ts` still keeps GGPoker ZIP sweep work deferred.
+Open Hand History JSON fixtures committed under `src/test/fixtures/`. It now
+also extracts and parses the four tracked GGPoker ZIP archives directly in
+`fixtureSweep.test.ts`; the GGPoker numbers below are current test evidence,
+not retained audit numbers.
 
 ## Headline result
 
@@ -29,7 +30,7 @@ because `fixtureSweep.test.ts` still keeps GGPoker ZIP sweep work deferred.
 | PokerStars hand histories | 92 | 92 | 0 | 0 |
 | PokerStars tournament summaries | 157 | 157 | 0 | 0 |
 | Open Hand History JSON fixtures | 2 | 2 | 0 | 0 |
-| GGPoker zipped fixture entries | 53 | 53 | 0 | 0 |
+| GGPoker zipped fixture entries (extraction / parser recovery) | 53 | 53 | 0 | 0 |
 | **Total supported fixture files / entries** | **304** | **304** | **0** | **0** |
 
 ## PokerStars Detail
@@ -72,10 +73,21 @@ to standardized Open Hand History JSON.
 | Parsed files | 53 |
 | Failed files | 0 |
 | Total hands parsed | 566 |
+| Skipped hand blocks | 0 |
 | Total summaries parsed | 26 |
-| Aggregate confidence | high |
-| Low-confidence files | 0 |
-| Warning files | 0 |
+| Summary ID / buy-in / fee / currency failures | 0 |
+| Hands with recovered winner collections and conserved chips | 566 |
+| Hands missing winner collections / failing conservation | 0 |
+| Chip-conservation coverage | 100% (566 / 566) |
+| Aggregate confidence | high for the tracked fixture corpus |
+
+### GGPoker chip-accounting result
+
+Archive extraction, parser recovery, and GGPoker financial math are green for
+the tracked corpus. All 566 parsed hands recover winner collection data and
+satisfy the repository invariant `hero net + villain nets = -rake`, including
+the 175 non-showdown hands whose summaries award the pot with
+`Seat N: player collected (amount)`.
 
 ## Current Coverage Boundary
 
@@ -85,11 +97,12 @@ This fixture evidence verifies the supported corpus currently present under
 - PokerStars hand histories
 - PokerStars tournament summaries
 - standardized Open Hand History JSON examples
-- GGPoker zipped hand-history / tournament-summary exports from the prior
-  archive audit
+- GGPoker zipped hand-history / tournament-summary exports, extracted and
+  parsed by the active fixture sweep
 
-The parser gate is green for the fixture corpus in the repo. The remaining
-product gate is still the private/local generic analyzer posture in
+PokerStars, Open Hand History, GGPoker archive extraction, GGPoker file
+recovery, and GGPoker chip conservation are green for the tracked fixture corpus.
+The product gate also remains the private/local generic analyzer posture in
 `docs/agents/TWO_AGENT_BOARD.md`; historical third-party/IP notes live in
 `docs/audits/IP_COPY_AUDIT.md` and archived agent docs.
 

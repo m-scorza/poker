@@ -8,28 +8,27 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
-## 2026-07-12 - Write direct test suites for strategyProfiles, importDiagnosticsPolicy, tournamentSummary
-
-- Owner / agent:          Antigravity
-- Branch:                 agy/section6-tests
-- Scope:                  src/data/__tests__/strategyProfiles.test.ts, src/data/__tests__/importDiagnosticsPolicy.test.ts, src/parser/__tests__/tournamentSummary.test.ts
-- Files touched:          src/data/__tests__/strategyProfiles.test.ts, src/data/__tests__/importDiagnosticsPolicy.test.ts, src/parser/__tests__/tournamentSummary.test.ts
-- Summary:                Created direct characterization test suites for strategyProfiles (pinning getThresholds, getCbetRule, advancedThreeBetSize boundaries, BB_DEFENSE_ICM_ADJUSTMENTS), importDiagnosticsPolicy (pinning sanitizeDiagnosticText 240-char cap, sanitizeDiagnosticSourceFile redaction, buildImportDiagnosticsSnapshot), and tournamentSummary (characterizing parseTournamentSummary finish/prize/bounty extraction and documenting RE_MONEY comma behavior).
-- Verification:           `npm run typecheck:test` passed; `npx vitest run src/data/__tests__/strategyProfiles.test.ts src/data/__tests__/importDiagnosticsPolicy.test.ts src/parser/__tests__/tournamentSummary.test.ts` passed (3 suites, 32 tests).
-- Risks / assumptions:    Characterization tests document that parseTournamentSummary finish-line prize extraction returns 0 when comma-separated unless fallback 'You received' header is present.
-- Next action requested:  Review characterization test suites and evaluate parseTournamentSummary finish-line comma handling.
-
-
-## 2026-07-11 - Import recovery and replay number formatting
+## 2026-07-23 - Importer read recovery and GG collection accounting
 
 - Owner / agent:          Codex
-- Branch:                 codex/fix-import-and-number-format
-- Scope:                  First implementation slice for UIR-001 and UIR-002: recoverable HandsUpload lifecycle failures and the reported replay floating-point artifact.
-- Files touched:          `HandsUpload.tsx` and tests; `HandReplay.tsx` and tests; shared `utils/format.ts`; owner UI plan; generated product status; this handoff.
-- Summary:                Added safe handling for unreadable files and worker startup/posting failures, a 60-second inactivity watchdog, visible cancellation, and real Reading/Parsing/Saving/Analysing phase labels. Added shared two-decimal chip formatting and routed replay actions through it, turning `385.00000000000006` into `385` while preserving `87.5`. Compacted older handoffs after CI enforced the kernel byte budget.
-- Verification:           Focused HandsUpload + HandReplay suite passed; latest HandsUpload run is 18/18. Typecheck, test-typecheck, build, docs check, diff check, and replay browser verification passed. Initial CI ran 943 tests: 942 passed and only the handoff budget guard failed; handoff is now 2,724 bytes and its 9/9 kernel tests pass. A follow-up CI test-fixture cast failure was reproduced with `typecheck:test` and fixed locally.
-- Risks / assumptions:    Cancellation invalidates late callbacks, but browser storage promises already in flight cannot be forcibly aborted. UIR-001 still needs tracked ZIP/browser reproduction; UIR-002 still needs a repo-wide raw-render audit.
-- Next action requested:  Review PR #164, then finish UIR-001 ZIP/browser evidence or continue the UIR-002 formatter migration.
+- Branch:                 codex/implementionday
+- Scope:                  Hands importer picker/pipeline/tests; GGPoker winner parsing/direct + corpus tests; parser/status truth docs
+- Files touched:          `HandsUpload.tsx`, `useImportPipeline.ts`, `HandsUpload.test.tsx`, `ggpoker.ts`, `ggpoker.test.ts`, `fixtureSweep.test.ts`, `PARSER_HEALTH.md`, `STATUS.md`
+- Summary:                Keep the native selection alive until file serialization finishes, then reset it so the same hand-history can be selected again. Added a bounded `FileReader` fallback for browsers where `File.text()` never settles, plus regressions for both paths. Recovered GGPoker non-showdown `Seat N: player collected (amount)` awards and upgraded the ZIP sweep from 391/566 to 566/566 collection + chip-conservation coverage.
+- Verification:           Human native Chrome selection completed twice with the same PokerStars fixture. Full Vitest: 108 files / 1,129 tests; HandsUpload focused: 20/20. `typecheck`, `typecheck:test`, production build, `docs:update`, `docs:check`, `privacy:check`, and `git diff --check` pass. Earlier focused logs: `.agents/runs/2026-07-22-{importer-focused,parser-health-focused,final-typecheck,final-test-typecheck,final-build,final-docs-check,final-privacy}.log`.
+- Risks / assumptions:    The native-picker path and repeat selection were human-verified. Automated file injection remains unavailable until Chrome's ChatGPT extension is allowed to access file URLs; the in-app browser also produces an unreadable synthetic `File`, which is why the bounded `FileReader` recovery is directly regression-tested.
+- Next action requested:  Push/integrate this full implementation-day batch, then triage clean PRs #213-#216 without rebasing away the verified work.
+
+## 2026-07-21 - Implementation-day correctness batch 1
+
+- Owner / agent:          Codex with parallel review agents
+- Branch:                 codex/implementionday
+- Scope:                  GGPoker ZIP fixture evidence; Career chart/finish semantics; Hands numeric display boundary; truth docs
+- Files touched:          Parser fixture test/health; Career stats/charts/tests; Hands replay/table/spot formatting/tests; STATUS and owner UI plan
+- Summary:                Activated 53-entry GG ZIP recovery coverage; made Career charts explicit and denominator-honest; removed float noise across Hands surfaces.
+- Verification:           Focused 8 suites/71 tests; full 108/1126; typechecks, build, lint, docs, privacy, diff check pass. Logs: `.agents/runs/2026-07-21-implementation-day-{focused-tests,build}.log`.
+- Risks / assumptions:    Browser runtime failed before local connection. Sweep exposed 175 GG `collected` hands missing winner awards; recovery is green but accounting remains directional.
+- Next action requested:  Patch GG winner regex for `collected`, add direct regressions, require 566/566 conservation.
 
 ## Template
 

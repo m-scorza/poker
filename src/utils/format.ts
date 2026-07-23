@@ -30,9 +30,13 @@ export function ratioPct(n: number, d: number, emptyPlaceholder: string = '0%'):
 }
 
 /**
- * Formats a chip or blind amount without exposing binary floating-point noise.
- * Imported poker amounts are precise to cents at most, so two fractional
- * digits preserve real values while turning 385.00000000000006 into 385.
+ * Formats a user-visible chip or blind amount without exposing binary
+ * floating-point noise.
+ *
+ * Presentation precision is capped at two fractional digits because imported
+ * poker amounts are precise to cents at most. Trailing zeroes are removed, so
+ * 10.50 renders as 10.5 and 385.00000000000006 renders as 385. This is a
+ * display boundary only; calculations should continue using the source number.
  */
 export function chipAmount(value: number): string {
   if (!Number.isFinite(value)) return '—';

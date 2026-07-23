@@ -20,6 +20,8 @@ const MAX_ZIP_BYTES = 50 * MB;
 const MAX_ZIP_DECOMPRESSED_BYTES = 150 * MB;
 const MAX_BATCH_BYTES = 200 * MB;
 const IMPORT_INACTIVITY_TIMEOUT_MS = 60_000;
+const FILE_TEXT_FALLBACK_DELAY_MS = 1_000;
+const FILE_READER_TIMEOUT_MS = 15_000;
 
 export type ImportPhase = 'reading' | 'parsing' | 'saving' | 'analysing';
 
@@ -46,6 +48,60 @@ export interface ImportStats {
 }
 
 const formatMB = (bytes: number) => `${(bytes / MB).toFixed(1)} MB`;
+
+function readWithFileReader(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    const timeout = setTimeout(() => {
+      reader.abort();
+      reject(new Error('file reading timed out'));
+    }, FILE_READER_TIMEOUT_MS);
+    const finish = (callback: () => void) => {
+      clearTimeout(timeout);
+      callback();
+    };
+
+    reader.onload = () => finish(() => {
+      if (typeof reader.result === 'string') {
+        resolve(reader.result);
+      } else {
+        reject(new Error('the browser returned an unreadable file payload'));
+      }
+    });
+    reader.onerror = () => finish(() => {
+      reject(reader.error ?? new Error('the browser could not read this file'));
+    });
+    reader.onabort = () => finish(() => {
+      reject(new Error('file reading was aborted'));
+    });
+    reader.readAsText(file);
+  });
+}
+
+function readTextFile(file: File): Promise<string> {
+  if (typeof file.text !== 'function') return readWithFileReader(file);
+
+  return new Promise((resolve, reject) => {
+    let settled = false;
+    const finish = (callback: () => void) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(fallbackTimer);
+      callback();
+    };
+    const fallbackTimer = setTimeout(() => {
+      readWithFileReader(file).then(
+        content => finish(() => resolve(content)),
+        error => finish(() => reject(error)),
+      );
+    }, FILE_TEXT_FALLBACK_DELAY_MS);
+
+    file.text().then(
+      content => finish(() => resolve(content)),
+      error => finish(() => reject(error)),
+    );
+  });
+}
 
 function getBrowserFamily(userAgent: string): string {
   if (/Edg\//.test(userAgent)) return 'Edge';
@@ -91,7 +147,7 @@ export interface ImportPipeline {
   currentImportFile: string;
   statsFound: ImportStats;
   importSummary: ImportSummary | null;
-  processFiles: (files: FileList) => Promise<void>;
+  processFiles: (files: readonly File[]) => Promise<void>;
   cancelImport: () => void;
 }
 
@@ -128,7 +184,7 @@ export function useImportPipeline({ onUploadSuccess }: { onUploadSuccess: () => 
     };
   }, [clearImportWatchdog, setImporting]);
 
-  const processFiles = useCallback(async (files: FileList) => {
+  const processFiles = useCallback(async (files: readonly File[]) => {
     const importSeq = importSeqRef.current + 1;
     importSeqRef.current = importSeq;
     const isCurrentImport = () => mountedRef.current && importSeqRef.current === importSeq;
@@ -159,7 +215,7 @@ export function useImportPipeline({ onUploadSuccess }: { onUploadSuccess: () => 
       setResults(prev => [...prev, { name, type: 'hand', error }]);
     };
 
-    for (const file of Array.from(files)) {
+    for (const file of files) {
       setCurrentImportFile(file.name);
       const lowerName = file.name.toLowerCase();
       if (lowerName.endsWith('.txt') || lowerName.endsWith('.json')) {
@@ -173,7 +229,7 @@ export function useImportPipeline({ onUploadSuccess }: { onUploadSuccess: () => 
         }
         let content: string;
         try {
-          content = await file.text();
+          content = await readTextFile(file);
         } catch (error) {
           pushError(file.name, `Could not read this file (${error instanceof Error ? error.message : String(error)}).`);
           continue;

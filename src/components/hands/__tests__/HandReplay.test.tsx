@@ -298,6 +298,31 @@ describe('HandReplay', () => {
     expect(within(container).queryByText('385.00000000000006')).not.toBeInTheDocument();
   });
 
+  it('does not expose floating-point noise in blinds, pots, or hero stack', async () => {
+    const noisyHand: Hand = {
+      ...hand,
+      smallBlind: 12.500000000000002,
+      bigBlind: 25.000000000000004,
+      ante: 3.0000000000000004,
+      totalPot: 385.00000000000006,
+    };
+    storeMocks.getPlayersForHand.mockResolvedValueOnce([
+      ...players.filter((player) => !player.isHero),
+      { ...players.find((player) => player.isHero)!, chipsBefore: 321.29999999999995 },
+    ]);
+
+    const { container } = render(
+      <HandReplay hand={noisyHand} heroDecision={{ ...heroDecision, handId: noisyHand.id }} onClose={vi.fn()} />
+    );
+
+    await waitFor(() => {
+      expect(within(container).getByText(/9-max \| Level 3 \(12\.5\/25\) ante 3 \| Pot: 385/)).toBeInTheDocument();
+    });
+    expect(within(container).getAllByText('12.85bb')).toHaveLength(2);
+    expect(container).not.toHaveTextContent('385.00000000000006');
+    expect(container).not.toHaveTextContent('25.000000000000004');
+  });
+
   it('uses imported postflop analysis instead of recomputing replay spots', async () => {
     const decisionWithStoredPostflop: HeroDecision = {
       ...heroDecision,
@@ -357,8 +382,8 @@ describe('HandReplay', () => {
       fakeShoveSpot: {
         handId: hand.id,
         heroPosition: 'BTN',
-        heroStackBb: 11.5,
-        raiseSize: 575,
+        heroStackBb: 11.500000000000002,
+        raiseSize: 575.0000000000001,
         isFakeShove: true,
         opponentsRemaining: 3,
         note: 'Fake shove keeps fold equity against multi-way action.',
@@ -366,7 +391,7 @@ describe('HandReplay', () => {
       restealSpot: {
         handId: hand.id,
         heroPosition: 'BB',
-        heroStackBb: 18,
+        heroStackBb: 18.000000000000004,
         villainPosition: 'BTN',
         villainStackType: 'chip_leader',
         heroAction: 'resteal',
@@ -386,9 +411,13 @@ describe('HandReplay', () => {
     expect(within(container).getByText('Progressive KO')).toBeInTheDocument();
     expect(within(container).getByText('Hero covers target')).toBeInTheDocument();
     expect(within(container).getByText('Fake Shove Spot')).toBeInTheDocument();
+    expect(within(container).getByText('11.5bb')).toBeInTheDocument();
+    expect(within(container).getByText('575')).toBeInTheDocument();
     expect(within(container).getByText('Fake shove keeps fold equity against multi-way action.')).toBeInTheDocument();
     expect(within(container).getByText('Resteal Spot')).toBeInTheDocument();
+    expect(within(container).getByText('18bb')).toBeInTheDocument();
     expect(within(container).getByText('Chip Leader')).toBeInTheDocument();
     expect(within(container).getByText('Resteal vs chip leader with controlled risk premium.')).toBeInTheDocument();
+    expect(container).not.toHaveTextContent('575.0000000000001');
   });
 });

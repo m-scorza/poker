@@ -225,9 +225,9 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
             </h3>
             <div className="flex items-center gap-2 flex-wrap mt-1">
               <p className="text-xs text-[var(--fg-dim)]">
-                {hand.maxSeats}-max | Level {hand.level} ({hand.smallBlind}/{hand.bigBlind})
-                {hand.ante > 0 && ` ante ${hand.ante}`}
-                | Pot: {hand.totalPot}
+                {hand.maxSeats}-max | Level {hand.level} ({chipAmount(hand.smallBlind)}/{chipAmount(hand.bigBlind)})
+                {hand.ante > 0 && ` ante ${chipAmount(hand.ante)}`}
+                {' | Pot: '}{chipAmount(hand.totalPot)}
               </p>
               {heroDecision?.icmStage && (
                 <span className={clsx('text-[10px] px-1.5 py-0.5 rounded font-bold', icmStageColor(heroDecision.icmStage))}>
@@ -296,7 +296,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                 {heroDecision?.position}
               </span>
               <span className="ml-2 font-mono text-xs text-[var(--fg-dim)]">
-                {(hero.chipsBefore / hand.bigBlind).toFixed(0)}bb
+                {chipAmount(hero.chipsBefore / hand.bigBlind)}bb
               </span>
             </div>
             <div className="ml-auto flex gap-1">
@@ -341,7 +341,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[var(--sig-soft)] to-transparent pointer-events-none"></div>
 
           <div className="absolute top-3 left-4">
-             <span className="text-[10px] uppercase text-[var(--fg-dim)] font-bold tracking-widest">Pot: {hand.totalPot}</span>
+             <span className="text-[10px] uppercase text-[var(--fg-dim)] font-bold tracking-widest">Pot: {chipAmount(hand.totalPot)}</span>
           </div>
 
           {boardTexture && (
@@ -557,13 +557,13 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                         {heroDecision.fakeShoveSpot.isFakeShove ? 'Fake Shove Spot' : 'Large Raise Spot'}
                       </span>
                       <span className="font-data text-[10px] uppercase text-[var(--fg-muted)]">
-                        {formatCompactNumber(heroDecision.fakeShoveSpot.heroStackBb)}bb
+                        {chipAmount(heroDecision.fakeShoveSpot.heroStackBb)}bb
                       </span>
                     </div>
                     <div className="grid grid-cols-2 gap-2">
                       <span className="text-[var(--fg-dim)]">Raise size</span>
                       <span className="font-data font-bold text-white text-right">
-                        {heroDecision.fakeShoveSpot.raiseSize}
+                        {chipAmount(heroDecision.fakeShoveSpot.raiseSize)}
                       </span>
                       <span className="text-[var(--fg-dim)]">Opponents behind</span>
                       <span className="font-data font-bold text-white text-right">
@@ -581,7 +581,7 @@ export function HandReplay({ hand, heroDecision, onClose }: HandReplayProps) {
                     <div className="flex items-center justify-between gap-2">
                       <span className="font-bold text-rose-200">Resteal Spot</span>
                       <span className="font-data text-[10px] uppercase text-[var(--fg-muted)]">
-                        {formatCompactNumber(heroDecision.restealSpot.heroStackBb)}bb
+                        {chipAmount(heroDecision.restealSpot.heroStackBb)}bb
                       </span>
                     </div>
                     <div className="grid grid-cols-2 gap-2">

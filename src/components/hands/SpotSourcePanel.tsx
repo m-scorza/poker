@@ -7,6 +7,7 @@ import type {
   SpotPacketPreflopCaller,
   SpotPacketWarning,
 } from '../../analysis/spotPacket';
+import { chipAmount } from '../../utils/format';
 
 interface SpotSourcePanelProps {
   packet: SpotPacket;
@@ -91,7 +92,7 @@ function formatSourceValue(value: string): string {
 
 function formatBb(value: number | null | undefined): string {
   if (value === null || value === undefined) return '—';
-  return `${value.toFixed(1).replace(/\.0$/, '')}bb`;
+  return `${chipAmount(value)}bb`;
 }
 
 function formatRiskRelationship(value: NonNullable<SpotPacket['riskContext']>['riskRelationship']): string {
