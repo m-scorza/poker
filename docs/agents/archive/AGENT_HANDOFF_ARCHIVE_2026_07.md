@@ -4,6 +4,17 @@ Compacted handoff records rolled off the active
 [AGENT_HANDOFF.md](../AGENT_HANDOFF.md) to keep it inside the kernel context
 budget. Newest at the top.
 
+## 2026-07-21 - Implementation-day correctness batch 1
+
+- Owner / agent:          Codex with parallel review agents
+- Branch:                 codex/implementionday
+- Scope:                  GGPoker ZIP fixture evidence; Career chart/finish semantics; Hands numeric display boundary; truth docs
+- Files touched:          Parser fixture test/health; Career stats/charts/tests; Hands replay/table/spot formatting/tests; STATUS and owner UI plan
+- Summary:                Activated 53-entry GG ZIP recovery coverage; made Career charts explicit and denominator-honest; removed float noise across Hands surfaces.
+- Verification:           Focused 8 suites/71 tests; full 108/1126; typechecks, build, lint, docs, privacy, diff check pass. Logs: `.agents/runs/2026-07-21-implementation-day-{focused-tests,build}.log`.
+- Risks / assumptions:    Browser runtime failed before local connection. Sweep exposed 175 GG `collected` hands missing winner awards; recovery is green but accounting remains directional.
+- Next action requested:  Patch GG winner regex for `collected`, add direct regressions, require 566/566 conservation.
+
 ## 2026-07-12 - Write direct test suites for strategyProfiles, importDiagnosticsPolicy, tournamentSummary
 
 - Owner / agent:          Antigravity
