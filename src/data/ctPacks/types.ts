@@ -2,7 +2,7 @@ type RangePackMethodology = 'gto_cev' | 'mda_exploit';
 
 type RangePackTier = 'foundational' | 'blind_battles' | 'advanced';
 
-export type RangePackStreet = 'preflop' | 'flop' | 'turn' | 'river';
+type RangePackStreet = 'preflop' | 'flop' | 'turn' | 'river';
 
 interface RangePackProvenance {
   kind: 'brand_neutralized_snapshot_config';
