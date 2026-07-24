@@ -8,6 +8,17 @@ Older or compacted handoff records are archived in:
 - [AGENT_HANDOFF_ARCHIVE_2026_06.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_06.md)
 - [AGENT_HANDOFF_ARCHIVE_2026_05.md](./archive/AGENT_HANDOFF_ARCHIVE_2026_05.md)
 
+## 2026-07-23 - Integration sweep and React Router refresh
+
+- Owner / agent:          Codex
+- Branch:                 dependabot/npm_and_yarn/multi-92d8ff70db
+- Scope:                  Integrate PRs #213-#217; repair and verify the generated-doc gate on #218
+- Files touched:          `docs/product/STATUS.md`, `docs/agents/AGENT_HANDOFF.md`, July handoff archive
+- Summary:                Merged the verified importer/GGPoker/Career/Hands batch as #217, closed #216 as superseded, and merged the refreshed dependency PRs #213-#215. Rebased #218 on that final `main` and regenerated the React Router dependency inventory.
+- Verification:           Fresh required CI passed for #217 and each of #213-#215. On #218, isolated `App.test.tsx` passed 6/6 and `studyQueueRouteContract.test.tsx` passed 2/2; `typecheck`, build, `docs:check`, and `privacy:check` pass. Logs: `.agents/runs/2026-07-23-pr218-{app-route-isolated,study-route-isolated,typecheck,build,docs-check,privacy}.log`.
+- Risks / assumptions:    A combined local run of the two route files produced one order/state-dependent packet-menu miss; both files pass independently, and no product-code change was made for that harness interaction. Final PR CI remains the merge gate.
+- Next action requested:  Merge #218 after fresh CI, then resume III-4 slice 2 (postflop deal-from-range packs).
+
 ## 2026-07-23 - Importer read recovery and GG collection accounting
 
 - Owner / agent:          Codex
@@ -18,17 +29,6 @@ Older or compacted handoff records are archived in:
 - Verification:           Human native Chrome selection completed twice with the same PokerStars fixture. Full Vitest: 108 files / 1,129 tests; HandsUpload focused: 20/20. `typecheck`, `typecheck:test`, production build, `docs:update`, `docs:check`, `privacy:check`, and `git diff --check` pass. Earlier focused logs: `.agents/runs/2026-07-22-{importer-focused,parser-health-focused,final-typecheck,final-test-typecheck,final-build,final-docs-check,final-privacy}.log`.
 - Risks / assumptions:    The native-picker path and repeat selection were human-verified. Automated file injection remains unavailable until Chrome's ChatGPT extension is allowed to access file URLs; the in-app browser also produces an unreadable synthetic `File`, which is why the bounded `FileReader` recovery is directly regression-tested.
 - Next action requested:  Push/integrate this full implementation-day batch, then triage clean PRs #213-#216 without rebasing away the verified work.
-
-## 2026-07-21 - Implementation-day correctness batch 1
-
-- Owner / agent:          Codex with parallel review agents
-- Branch:                 codex/implementionday
-- Scope:                  GGPoker ZIP fixture evidence; Career chart/finish semantics; Hands numeric display boundary; truth docs
-- Files touched:          Parser fixture test/health; Career stats/charts/tests; Hands replay/table/spot formatting/tests; STATUS and owner UI plan
-- Summary:                Activated 53-entry GG ZIP recovery coverage; made Career charts explicit and denominator-honest; removed float noise across Hands surfaces.
-- Verification:           Focused 8 suites/71 tests; full 108/1126; typechecks, build, lint, docs, privacy, diff check pass. Logs: `.agents/runs/2026-07-21-implementation-day-{focused-tests,build}.log`.
-- Risks / assumptions:    Browser runtime failed before local connection. Sweep exposed 175 GG `collected` hands missing winner awards; recovery is green but accounting remains directional.
-- Next action requested:  Patch GG winner regex for `collected`, add direct regressions, require 566/566 conservation.
 
 ## Template
 

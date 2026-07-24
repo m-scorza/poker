@@ -308,7 +308,7 @@ are stale. Do not edit by hand.
 - poker-odds-calculator 0.4.0
 - react ^19.2.6
 - react-dom ^19.2.6
-- react-router-dom ^7.15.1
+- react-router-dom ^7.18.1
 - recharts ^3.8.1
 - zustand ^5.0.13
 
