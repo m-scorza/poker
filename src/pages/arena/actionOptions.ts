@@ -109,7 +109,11 @@ function actionColorForSeed(action: string): ActionColor {
 
 export function curriculumActionOptions(spot: CurriculumSpotSeed | null): ActionOption[] | null {
   if (!spot) return null;
-  const allActions = new Set<string>(['fold', 'call', 'raise', 'check', 'all_in', ...spot.acceptedActions]);
+  const allActions = new Set<string>(
+    spot.legalActions?.length
+      ? [...spot.legalActions, ...spot.acceptedActions]
+      : ['fold', 'call', 'raise', 'check', 'all_in', ...spot.acceptedActions],
+  );
   return Array.from(allActions).map((action) => ({
     id: action,
     label: labelSeedAction(action),

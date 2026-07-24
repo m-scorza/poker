@@ -11,6 +11,12 @@ from the authorized CT trainer snapshot — 94 complete drill configs with full
 dealt ranges and exact-combo answer buckets — while keeping the app repo
 brand-clean and the snapshot itself vault-only.
 
+**Outcome (2026-07-23):** slices 1 and 2 are implemented as 94 lazy,
+brand-neutral deal-from-range packs (45 preflop, 49 postflop; 765 cells).
+Postflop sessions preserve exact suits, board, stack, position, action-line,
+and legal-action context. III-4 now has only the separate
+lesson-recommendation scoring port left.
+
 ---
 
 ## 1. The source
@@ -37,7 +43,7 @@ config 404 upstream (absent from the snapshot by design).
 
 ## 2. Clean-room boundary
 
-- The importer (`scripts/import-ct-curriculum.ts --source <vault path>`) runs
+- The importer (`scripts/import-ct-curriculum.ts --snapshot <vault path>`) runs
   offline against the vault clone. The snapshot never enters the app repo;
   no runtime dependency on the external site or API — same posture as the
   existing extract script.
@@ -49,9 +55,10 @@ config 404 upstream (absent from the snapshot by design).
   categories and 93 titles (no vendor names, no `MC -` codes in slugs);
   provenance kind `'brand_neutralized_snapshot_config'` with `capturedAt`
   and the vault-relative source path.
-- Validation (importer fails loudly): impossible cards, duplicate combos in
-  one bucket, unknown action labels, cells whose stack/pot state is
-  inconsistent, empty dealt ranges.
+- Validation fails loudly on malformed cards, unknown action labels, and
+  empty usable dealt ranges. Known snapshot noise is normalized
+  deterministically: duplicate rows and board-colliding combos are removed,
+  and dealt combos without an accepted-action bucket are never sampled.
 
 ## 3. What changes in the Arena
 

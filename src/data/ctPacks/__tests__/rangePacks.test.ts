@@ -5,19 +5,29 @@ import anchorPack from '../packs/open-raising-utg-utgplus1-lj-bb-early-seats-bas
 import threeBetPack from '../packs/facing-a-3-bet-co-btn-baseline.generated';
 
 const FORBIDDEN = /reglife|gto wizard|youtube|\bmc\b|c5a|c6a|https?:|\bct\b|pr[eé] flop|posi[cç]/i;
+const COMBO = /^([2-9TJQKA][cdhs][2-9TJQKA][cdhs]|[2-9TJQKA]{2}[so]?)$/;
 
 describe('CT range pack registry', () => {
-  it('pins the imported preflop pack inventory', () => {
-    expect(RANGE_PACK_REGISTRY).toHaveLength(45);
+  it('pins the imported preflop and postflop pack inventory', () => {
+    expect(RANGE_PACK_REGISTRY).toHaveLength(94);
+    expect(
+      Object.fromEntries(
+        ['preflop', 'flop', 'turn', 'river'].map((street) => [
+          street,
+          RANGE_PACK_REGISTRY.filter((pack) => pack.street === street).length,
+        ]),
+      ),
+    ).toEqual({ preflop: 45, flop: 32, turn: 11, river: 6 });
     const totals = RANGE_PACK_REGISTRY.reduce(
       (acc, pack) => ({
         cells: acc.cells + pack.cellCount,
         buckets: acc.buckets + pack.bucketCount,
         combos: acc.combos + pack.comboCount,
+        distinct: acc.distinct + pack.distinctComboCount,
       }),
-      { cells: 0, buckets: 0, combos: 0 },
+      { cells: 0, buckets: 0, combos: 0, distinct: 0 },
     );
-    expect(totals).toEqual({ cells: 176, buckets: 514, combos: 153324 });
+    expect(totals).toEqual({ cells: 765, buckets: 2148, combos: 523675, distinct: 371010 });
   });
 
   it('keeps every registry entry brand-neutral with content-hash provenance', () => {
@@ -27,6 +37,7 @@ describe('CT range pack registry', () => {
       expect(pack.slug).not.toMatch(FORBIDDEN);
       expect(['gto_cev', 'mda_exploit']).toContain(pack.methodology);
       expect(['foundational', 'blind_battles', 'advanced']).toContain(pack.tier);
+      expect(['preflop', 'flop', 'turn', 'river']).toContain(pack.street);
       expect(pack.source.kind).toBe('brand_neutralized_snapshot_config');
       expect(pack.source.capturedAt).toBe('2026-07-18');
       expect(pack.source.path).toBe('research/ct-trainer-2026-07-18/');
@@ -52,6 +63,7 @@ describe('CT range pack registry', () => {
       const module = await RANGE_PACK_LOADERS[entry.slug]!();
       const pack = module.default;
       expect(pack.slug).toBe(entry.slug);
+      expect(pack.street).toBe(entry.street);
       expect(pack.source.sha256).toBe(entry.source.sha256);
 
       let bucketCount = 0;
@@ -59,13 +71,24 @@ describe('CT range pack registry', () => {
       const distinct = new Set<string>();
       for (const cell of pack.cells) {
         expect(cell.buckets.length).toBeGreaterThan(0);
+        if (pack.street === 'preflop') {
+          expect(cell.board).toBeUndefined();
+        } else {
+          expect(cell.board).toHaveLength(pack.street === 'flop' ? 3 : pack.street === 'turn' ? 4 : 5);
+          expect(cell.dealCombos?.length).toBeGreaterThan(0);
+        }
         bucketCount += cell.buckets.length;
         for (const bucket of cell.buckets) {
           expect(bucket.actions.length).toBeGreaterThan(0);
           expect(new Set(bucket.combos).size).toBe(bucket.combos.length);
+          expect(bucket.combos.find((combo) => !COMBO.test(combo))).toBeUndefined();
+          if (cell.board) {
+            expect(
+              bucket.combos.find((combo) => cell.board!.includes(combo.slice(0, 2)) || cell.board!.includes(combo.slice(2, 4))),
+            ).toBeUndefined();
+          }
           for (const combo of bucket.combos) {
-            expect(combo).toMatch(/^([2-9TJQKA][cdhs][2-9TJQKA][cdhs]|[2-9TJQKA]{2}[so]?)$/);
-            distinct.add(`${cell.position}|${cell.stackBb}|${combo}`);
+            distinct.add(`${cell.position}|${cell.stackBb}|${(cell.board ?? []).join('-')}|${combo}`);
           }
           comboCount += bucket.combos.length;
         }
@@ -75,7 +98,7 @@ describe('CT range pack registry', () => {
       expect(comboCount).toBe(entry.comboCount);
       expect(distinct.size).toBe(entry.distinctComboCount);
     }
-  });
+  }, 120_000);
 });
 
 describe('CT range pack anchors (verbatim from snapshot)', () => {

@@ -988,7 +988,8 @@ export function ArenaPage() {
                       className="flex gap-2"
                     >
                         {(() => {
-                           const [c1, c2] = getDisplayCards(drill.currentDecision?.handKey);
+                           const [c1, c2] = drill.currentCurriculumSpot?.heroCards
+                             ?? getDisplayCards(drill.currentDecision?.handKey);
                            return (
                              <>
                                <PokerCard card={c1} size="lg" className="shadow-2xl" />

@@ -199,8 +199,16 @@ salvage slices land** (same pages; salvage-first avoids porting churn).
       `overlap.generated.json`): 230 legacy spots, 224 matched, 62
       disagreements surfaced for review, nothing silently reconciled. Shell
       bundle unchanged (391.2 KB).
-      Remaining III-4 work is slice 2 (postflop deal-from-range packs on #208's
-      board rendering) and the lesson-recommendation scoring port.*
+      Slice 2 is now implemented too: the importer emits 49 board-aware
+      postflop packs (589 cells / 1,634 accepted-action buckets / 370,351
+      exact-combo assignments) across flop, turn, and river. Arena preserves
+      each sampled combo's exact suits, board, positions, effective stacks,
+      action line, and source-defined legal-action menu. The complete lazy
+      inventory is 94 packs / 765 cells, and impossible board collisions,
+      duplicate source rows, and ungraded dealt combos are excluded
+      deterministically.
+      Remaining III-4 work is only the brand-neutral lesson-recommendation
+      scoring port.*
 - [x] **III-5 · The identity gate (Arc 5)** — write `GOALS.md` (the missing
       gatekeeper every EPIC G reference points at): either declare identity
       (A) and codify the never-list (no HUD, no cloud, no telemetry) as

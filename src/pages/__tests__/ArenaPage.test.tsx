@@ -260,6 +260,23 @@ describe('ArenaPage drill start behavior', () => {
     expect(screen.getAllByText(/practice-only seed/i).length).toBeGreaterThan(0);
   });
 
+  it('starts a board-aware postflop deal-from-range pack', async () => {
+    vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
+    vi.spyOn(Math, 'random').mockReturnValue(0);
+
+    render(<ArenaPage />);
+
+    fireEvent.click(await screen.findByRole('button', { name: 'Start 3-bet pot: BTN vs SB - Flop (40bb) - Variant 1' }));
+
+    const board = await screen.findByTestId('arena-curriculum-board');
+    expect(within(board).getByText('Villain: SB')).toBeInTheDocument();
+    expect(within(board).getByText(/preflop: BTN raises 2\.3bb, SB raises 8\.6bb; flop: SB checks/i)).toBeInTheDocument();
+    expect(screen.getByText('Stage: Postflop')).toBeInTheDocument();
+    expect(screen.getByTestId('arena-action-bet_25pct')).toBeInTheDocument();
+    expect(screen.getByTestId('arena-action-bet_50pct')).toBeInTheDocument();
+    expect(screen.getByTestId('arena-action-check')).toBeInTheDocument();
+  });
+
   it('shows browser-local curriculum pack progress on Drills cards', async () => {
     vi.mocked(getAllHeroDecisions).mockResolvedValue([]);
     window.localStorage.setItem(CURRICULUM_PROGRESS_STORAGE_KEY, JSON.stringify({

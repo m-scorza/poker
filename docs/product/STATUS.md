@@ -15,7 +15,7 @@ stale three reviews running (see
 by the pre-commit `docs:check` hook — these counts cannot silently drift):
 
 - **Test files:** 107
-- **`it` / `test` calls (approximate):** 1048
+- **`it` / `test` calls (approximate):** 1050
 
 Run `npm test` for the live pass/fail tally. Dependency, route, source-tree,
 and test inventories below are regenerated from source.
@@ -238,9 +238,10 @@ The current prioritised punch list lives in `ROADMAP.md` › **Act III — The
 Whetstone** (Acts I and II are complete; B4 `FACING_3BET` shipped in #99,
 honest leak denominators B5 in #100). Headline open items:
 
-- **Finish curriculum drills** — Act III-4 still needs postflop
-  deal-from-range packs and the brand-neutral lesson-recommendation scoring
-  port. The preflop snapshot importer and legacy-overlap review are shipped.
+- **Finish curriculum drills** — Act III-4 now ships all 94 snapshot-backed
+  deal-from-range packs: 45 preflop plus 49 board-aware postflop packs across
+  flop, turn, and river. The remaining work is the brand-neutral
+  lesson-recommendation scoring port.
 - Solver-validated per-pair facing-raise charts remain a strategy-data
   follow-up. Current reaction coverage is explicit and rule-based, not
   solver-backed.
@@ -413,16 +414,24 @@ src/analysis/  (31 files)
   analysis/ungradedScenarios.ts
   analysis/villainClassifier.ts
   analysis/villainObserver.ts
-src/data/  (67 files)
+src/data/  (116 files)
   data/allInEquity.generated.ts
   data/appStore.ts
   data/backup.ts
   data/ctPacks/loaders.generated.ts
+  data/ctPacks/packs/3-bet-pot-btn-sb-flop-baseline-2.generated.ts
+  data/ctPacks/packs/3-bet-pot-btn-sb-flop-baseline.generated.ts
+  data/ctPacks/packs/3-bet-pot-co-btn-flop-baseline.generated.ts
+  data/ctPacks/packs/3-bet-pot-sb-btn-flop-baseline.generated.ts
   data/ctPacks/packs/big-blind-defense-bb-btn-baseline.generated.ts
   data/ctPacks/packs/big-blind-defense-bb-btn-exploit.generated.ts
   data/ctPacks/packs/big-blind-defense-bb-co-baseline.generated.ts
   data/ctPacks/packs/big-blind-defense-bb-hj-baseline.generated.ts
   data/ctPacks/packs/big-blind-defense-bb-utg-baseline.generated.ts
+  data/ctPacks/packs/big-blind-response-to-c-bet-bb-btn-flop-baseline-2.generated.ts
+  data/ctPacks/packs/big-blind-response-to-c-bet-bb-btn-flop-baseline.generated.ts
+  data/ctPacks/packs/big-blind-response-to-c-bet-bb-utg-flop-baseline-2.generated.ts
+  data/ctPacks/packs/big-blind-response-to-c-bet-bb-utg-flop-baseline.generated.ts
   data/ctPacks/packs/blind-battle-bb-sb-vs-jam-baseline.generated.ts
   data/ctPacks/packs/blind-battle-bb-sb-vs-limp-exploit-2.generated.ts
   data/ctPacks/packs/blind-battle-bb-sb-vs-limp-exploit.generated.ts
@@ -432,12 +441,20 @@ src/data/  (67 files)
   data/ctPacks/packs/blind-battle-sb-bb-vs-3-bet-baseline.generated.ts
   data/ctPacks/packs/blind-battle-sb-bb-vs-3-bet-jam-baseline.generated.ts
   data/ctPacks/packs/blind-battle-sb-bb-vs-iso-raise-baseline.generated.ts
+  data/ctPacks/packs/c-bet-versus-small-blind-btn-sb-flop-baseline.generated.ts
+  data/ctPacks/packs/c-bet-versus-small-blind-utg-sb-flop-baseline.generated.ts
+  data/ctPacks/packs/delayed-c-bet-btn-bb-turn-baseline.generated.ts
+  data/ctPacks/packs/delayed-c-bet-co-btn-turn-baseline.generated.ts
   data/ctPacks/packs/facing-a-3-bet-btn-sb-baseline.generated.ts
   data/ctPacks/packs/facing-a-3-bet-btn-sb-vs-3-bet-jam-baseline.generated.ts
   data/ctPacks/packs/facing-a-3-bet-co-btn-baseline.generated.ts
   data/ctPacks/packs/facing-a-3-bet-co-btn-vs-3-bet-jam-baseline.generated.ts
   data/ctPacks/packs/facing-a-3-bet-hj-bb-vs-3-bet-jam-baseline.generated.ts
   data/ctPacks/packs/facing-a-3-bet-utg-co-baseline.generated.ts
+  data/ctPacks/packs/facing-a-check-raise-btn-bb-flop-baseline-2.generated.ts
+  data/ctPacks/packs/facing-a-check-raise-btn-bb-flop-baseline-3.generated.ts
+  data/ctPacks/packs/facing-a-check-raise-btn-bb-flop-baseline-4.generated.ts
+  data/ctPacks/packs/facing-a-check-raise-btn-bb-flop-baseline.generated.ts
   data/ctPacks/packs/facing-an-open-btn-co-vs-jam-baseline.generated.ts
   data/ctPacks/packs/facing-an-open-btn-co-vs-open-baseline.generated.ts
   data/ctPacks/packs/facing-an-open-btn-co-vs-open-exploit.generated.ts
@@ -448,6 +465,26 @@ src/data/  (67 files)
   data/ctPacks/packs/facing-an-open-sb-utg-vs-open-baseline.generated.ts
   data/ctPacks/packs/facing-an-open-utgplus1-lj-hj-co-btn-sb-utg-lj-hj-co-btn-vs-open-pko-70pct-left-baseline.generated.ts
   data/ctPacks/packs/facing-an-open-utgplus1-utg-vs-open-baseline.generated.ts
+  data/ctPacks/packs/in-position-c-bet-btn-bb-flop-baseline.generated.ts
+  data/ctPacks/packs/in-position-c-bet-co-bb-flop-exploit.generated.ts
+  data/ctPacks/packs/in-position-c-bet-utgplus1-bb-flop-baseline.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-flop-baseline-2.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-flop-baseline-3.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-flop-baseline-4.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-flop-baseline-5.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-flop-baseline-6.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-flop-baseline.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-flop-exploit.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-co-turn-exploit.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-utg-flop-baseline-2.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-utg-flop-baseline.generated.ts
+  data/ctPacks/packs/in-position-postflop-response-btn-utgplus1-flop-baseline.generated.ts
+  data/ctPacks/packs/in-position-river-c-bet-btn-bb-river-baseline-2.generated.ts
+  data/ctPacks/packs/in-position-river-c-bet-btn-bb-river-baseline.generated.ts
+  data/ctPacks/packs/in-position-river-c-bet-btn-bb-river-exploit.generated.ts
+  data/ctPacks/packs/in-position-turn-c-bet-btn-bb-turn-baseline-2.generated.ts
+  data/ctPacks/packs/in-position-turn-c-bet-btn-bb-turn-baseline.generated.ts
+  data/ctPacks/packs/in-position-turn-c-bet-btn-bb-turn-exploit.generated.ts
   data/ctPacks/packs/multiway-big-blind-defense-bb-btn-sb-baseline.generated.ts
   data/ctPacks/packs/multiway-big-blind-defense-bb-co-btn-baseline.generated.ts
   data/ctPacks/packs/multiway-big-blind-defense-bb-co-sb-baseline.generated.ts
@@ -459,10 +496,23 @@ src/data/  (67 files)
   data/ctPacks/packs/open-raising-utg-utgplus1-lj-bb-early-seats-baseline.generated.ts
   data/ctPacks/packs/open-raising-utg-utgplus1-lj-hj-co-btn-bb-pko-70pct-left-baseline.generated.ts
   data/ctPacks/packs/open-raising-utg-utgplus1-lj-hj-co-btn-bb-vanilla-50pct-left-baseline.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-co-btn-flop-baseline-2.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-co-btn-flop-baseline.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-co-btn-river-baseline-2.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-co-btn-river-baseline.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-co-btn-turn-baseline-2.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-co-btn-turn-baseline.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-utg-btn-flop-baseline-2.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-utg-btn-flop-baseline.generated.ts
+  data/ctPacks/packs/out-of-position-c-bet-utg-co-btn-flop-exploit.generated.ts
+  data/ctPacks/packs/river-probe-bet-bb-btn-river-exploit.generated.ts
   data/ctPacks/packs/squeeze-bb-co-btn-baseline.generated.ts
   data/ctPacks/packs/squeeze-btn-hj-co-baseline.generated.ts
   data/ctPacks/packs/squeeze-hj-utg-lj-baseline.generated.ts
   data/ctPacks/packs/squeeze-sb-co-btn-baseline.generated.ts
+  data/ctPacks/packs/turn-probe-bet-bb-co-turn-baseline-2.generated.ts
+  data/ctPacks/packs/turn-probe-bet-bb-co-turn-baseline.generated.ts
+  data/ctPacks/packs/turn-probe-bet-bb-co-turn-exploit.generated.ts
   data/ctPacks/registry.generated.ts
   data/ctPacks/types.ts
   data/curriculumProgress.ts
@@ -578,7 +628,7 @@ src/types/  (5 files)
 
 <!-- BEGIN:AUTOGEN:tests -->
 **Test files:** 107
-**`it` / `test` calls (approximate):** 1048
+**`it` / `test` calls (approximate):** 1050
 
 ```
 src/__tests__/App.test.tsx
