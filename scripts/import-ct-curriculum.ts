@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * Build brand-neutral preflop range packs from the authorized offline trainer
+ * Build brand-neutral preflop and postflop range packs from the authorized offline trainer
  * snapshot, plus the owner-mandated legacy-vs-snapshot overlap analysis.
  *
  * This importer runs offline against a staged read-only snapshot copy. The
@@ -29,11 +29,12 @@ function flagValue(name: string): string | undefined {
 }
 
 const CHECK = process.argv.includes('--check');
+const OVERLAP = process.argv.includes('--overlap');
 const SNAPSHOT_DIR = flagValue('--snapshot');
 const LEGACY_PATH = flagValue('--legacy');
 
-if (!SNAPSHOT_DIR || !LEGACY_PATH) {
-  console.error('Usage: tsx scripts/import-ct-curriculum.ts --snapshot <dir> --legacy <quiz_configs.json> [--check]');
+if (!SNAPSHOT_DIR || (OVERLAP && !LEGACY_PATH)) {
+  console.error('Usage: tsx scripts/import-ct-curriculum.ts --snapshot <dir> [--overlap --legacy <quiz_configs.json>] [--check]');
   process.exit(2);
 }
 
@@ -53,7 +54,12 @@ interface RawGroup {
   stackSize?: unknown;
   board?: unknown;
   villainPosition?: unknown;
-  spotConfig?: { villainStackSize?: unknown; heroStackSize?: unknown };
+  spotConfig?: {
+    villainStackSize?: unknown;
+    heroStackSize?: unknown;
+    rangeToBeDealt?: unknown;
+    actionHistory?: unknown;
+  };
   expectedAnswers?: unknown;
 }
 
@@ -63,6 +69,8 @@ interface RawConfig {
   stackSize?: unknown;
   heroPositions?: unknown;
   villainPositions?: unknown;
+  rangeToBeDealt?: unknown;
+  actionHistory?: unknown;
   expectedAnswers?: unknown;
 }
 
@@ -84,6 +92,18 @@ const CATEGORY_COPY: Record<string, { neutralCategory: string; scenario: string;
   'Defesa de BB Multway': { neutralCategory: 'Multiway big blind defense', scenario: 'BB_VS_RAISE_MULTIWAY', tier: 'blind_battles', description: 'Big blind defense practice in multiway raised pots.' },
   Squeeze: { neutralCategory: 'Squeeze', scenario: 'FACING_RAISE', tier: 'advanced', description: 'Preflop squeeze practice after an open and a cold caller.' },
   'Enfrentando uma 3-bet': { neutralCategory: 'Facing a 3-bet', scenario: 'FACING_3BET', tier: 'advanced', description: 'Preflop practice after facing a 3-bet, kept separate from imported-hand grading.' },
+  'C-bet em posicao vs BB': { neutralCategory: 'In-position c-bet', scenario: 'CBET_IP_VS_BB', tier: 'foundational', description: 'Board-aware continuation-bet practice in position against the big blind.' },
+  'C-bet Turn em posicao vs BB': { neutralCategory: 'In-position turn c-bet', scenario: 'CBET_LATER_IP_VS_BB', tier: 'advanced', description: 'Board-aware turn-barrel practice in position against the big blind.' },
+  'C-bet River em posicao vs BB': { neutralCategory: 'In-position river c-bet', scenario: 'CBET_LATER_IP_VS_BB', tier: 'advanced', description: 'Board-aware river-barrel practice in position against the big blind.' },
+  'Jogando vs C-bet do BB': { neutralCategory: 'Big-blind response to c-bet', scenario: 'VS_CBET', tier: 'blind_battles', description: 'Board-aware big-blind response practice after facing a continuation bet.' },
+  'C-bet fora de posicao': { neutralCategory: 'Out-of-position c-bet', scenario: 'CBET_OOP', tier: 'advanced', description: 'Board-aware continuation-bet and barrel practice out of position.' },
+  'Jogando em Posicao': { neutralCategory: 'In-position postflop response', scenario: 'IP_POSTFLOP', tier: 'advanced', description: 'Board-aware in-position response practice after the preflop raiser acts.' },
+  'Enfrentando um Check-Raise': { neutralCategory: 'Facing a check-raise', scenario: 'VS_CHECKRAISE', tier: 'advanced', description: 'Board-aware response practice after facing a postflop check-raise.' },
+  'Probe Bet Turn': { neutralCategory: 'Turn probe bet', scenario: 'PROBE_TURN', tier: 'advanced', description: 'Board-aware turn probe-bet practice after the prior street checks through.' },
+  'Probe Bet River': { neutralCategory: 'River probe bet', scenario: 'PROBE_RIVER', tier: 'advanced', description: 'Board-aware river probe-bet practice after the prior street checks through.' },
+  'Delayed C-bet': { neutralCategory: 'Delayed c-bet', scenario: 'DELAYED_CBET', tier: 'advanced', description: 'Board-aware delayed continuation-bet practice after checking the prior street.' },
+  'Pote 3-Betado': { neutralCategory: '3-bet pot', scenario: '3BET_POT', tier: 'advanced', description: 'Board-aware postflop practice in three-bet pots.' },
+  'C-bet vs SB': { neutralCategory: 'C-bet versus small blind', scenario: 'CBET_VS_SB', tier: 'blind_battles', description: 'Board-aware continuation-bet practice against the small blind.' },
 };
 
 const CATEGORY_SCENARIO: Record<string, string> = {
@@ -152,7 +172,7 @@ function normalizeActionKey(action: unknown): string | null {
   if (bet) return `bet_${bet[1]!.replace(/\s+/g, '_').replace(/%/g, 'pct').replace(/\./g, '_')}`.toLowerCase();
   const cbet = clean.match(/^CBET\s+(.+)$/);
   if (cbet) return `cbet_${cbet[1]!.replace(/\s+/g, '_').replace(/\//g, '_')}`.toLowerCase();
-  return clean.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '') || null;
+  return null;
 }
 
 function semanticAction(action: unknown): string | null {
@@ -328,16 +348,109 @@ function hasBoard(raw: RawConfig): boolean {
   return configCells(raw).some((group) => typeof group.board === 'string' && group.board.length > 0);
 }
 
+type PackStreet = 'preflop' | 'flop' | 'turn' | 'river';
+
+const EXACT_CARD = /^[2-9TJQKA][cdhs]$/i;
+const EXACT_COMBO = /^([2-9TJQKA][cdhs])([2-9TJQKA][cdhs])$/i;
+
+function parseBoard(value: unknown, context: string): string[] | undefined {
+  if (value === undefined || value === null || value === '') return undefined;
+  if (typeof value !== 'string') throw new Error(`${context}: board must be a dash-separated string`);
+  const cards = value.split('-').map((card) => card.trim());
+  if (cards.length < 3 || cards.length > 5 || cards.some((card) => !EXACT_CARD.test(card))) {
+    throw new Error(`${context}: invalid board "${value}"`);
+  }
+  if (new Set(cards.map((card) => card.toLowerCase())).size !== cards.length) {
+    throw new Error(`${context}: duplicate card on board "${value}"`);
+  }
+  return cards;
+}
+
+function streetForBoard(board: string[] | undefined): PackStreet {
+  if (!board) return 'preflop';
+  if (board.length === 3) return 'flop';
+  if (board.length === 4) return 'turn';
+  return 'river';
+}
+
+function validateExactCombos(values: string[], board: string[] | undefined, context: string): string[] {
+  const seen = new Set<string>();
+  const boardCards = new Set((board ?? []).map((card) => card.toLowerCase()));
+  for (const combo of values) {
+    const match = combo.match(EXACT_COMBO);
+    if (!match || match[1]!.toLowerCase() === match[2]!.toLowerCase()) {
+      throw new Error(`${context}: invalid exact combo "${combo}"`);
+    }
+    if (seen.has(combo)) continue;
+    if (boardCards.has(match[1]!.toLowerCase()) || boardCards.has(match[2]!.toLowerCase())) continue;
+    seen.add(combo);
+  }
+  return Array.from(seen).sort();
+}
+
+function stringArray(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value.filter((entry): entry is string => typeof entry === 'string');
+}
+
+function formatHistoryAction(value: unknown): string | null {
+  if (typeof value !== 'string') return null;
+  const clean = value.trim().toUpperCase()
+    .replace(/^BET\s+BET\s+/, 'BET ')
+    .replace(/^CALL\s+BET\s+/, 'CALL ');
+  if (clean === 'CHECK') return 'checks';
+  if (clean === 'FOLD') return 'folds';
+  if (clean === 'ALL-IN' || clean === 'ALL IN') return 'jams';
+  const sized = clean.match(/^(RAISE|BET|CALL)\s+(.+)$/);
+  if (!sized) return null;
+  const verb = sized[1] === 'RAISE' ? 'raises' : sized[1] === 'BET' ? 'bets' : 'calls';
+  const amount = sized[2]!.replace(/\s*BB$/i, '').replace(/\s+/g, '');
+  return `${verb} ${amount}bb`;
+}
+
+function formatActionLine(value: unknown): string | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const streets: string[] = [];
+  for (const entry of value) {
+    if (!entry || typeof entry !== 'object') continue;
+    const item = entry as { street?: unknown; actions?: unknown };
+    if (typeof item.street !== 'string' || !Array.isArray(item.actions)) continue;
+    const actions = item.actions.flatMap((action) => {
+      if (!action || typeof action !== 'object') return [];
+      const raw = action as { position?: unknown; action?: unknown };
+      const position = normalizePosition(raw.position);
+      const formatted = formatHistoryAction(raw.action);
+      return position && formatted ? [`${position} ${formatted}`] : [];
+    });
+    if (actions.length > 0) {
+      const street = item.street.trim().toLowerCase().replace(/\s+/g, '');
+      streets.push(`${street}: ${actions.join(', ')}`);
+    }
+  }
+  return streets.length > 0 ? streets.join('; ') : undefined;
+}
+
 interface BuiltPack {
   slug: string;
   title: string;
   description: string;
   scenario: string;
+  street: PackStreet;
   tier: 'foundational' | 'blind_battles' | 'advanced';
   methodology: 'gto_cev' | 'mda_exploit';
   stageContext?: string;
   sha256: string;
-  cells: Array<{ position: string; stackBb: number; villainPosition?: string; buckets: Array<{ actions: string[]; combos: string[] }> }>;
+  cells: Array<{
+    position: string;
+    stackBb: number;
+    villainPosition?: string;
+    board?: string[];
+    heroStackSize?: number;
+    villainStackSize?: number;
+    actionLine?: string;
+    dealCombos?: string[];
+    buckets: Array<{ actions: string[]; combos: string[] }>;
+  }>;
   cellCount: number;
   bucketCount: number;
   comboCount: number;
@@ -348,12 +461,14 @@ function buildPacks(configs: UniqueConfig[]): { packs: BuiltPack[]; included: Un
   const included: UniqueConfig[] = [];
   const excluded: Array<{ config: UniqueConfig; reason: string }> = [];
   for (const config of configs) {
-    if (!PREFLOP_CATEGORIES.has(config.category)) {
-      excluded.push({ config, reason: `non-preflop category "${config.category}"` });
+    const copy = CATEGORY_COPY[config.category];
+    if (!copy) {
+      excluded.push({ config, reason: `unsupported category "${config.category}"` });
       continue;
     }
-    if (hasBoard(config.raw)) {
-      excluded.push({ config, reason: 'config carries board-anchored (postflop) cells' });
+    const expectedPostflop = !PREFLOP_CATEGORIES.has(config.category);
+    if (expectedPostflop !== hasBoard(config.raw)) {
+      excluded.push({ config, reason: expectedPostflop ? 'postflop config has no board-anchored cells' : 'preflop config unexpectedly carries a board' });
       continue;
     }
     included.push(config);
@@ -367,26 +482,91 @@ function buildPacks(configs: UniqueConfig[]): { packs: BuiltPack[]; included: Un
     const configVillains = Array.isArray(config.raw.villainPositions)
       ? config.raw.villainPositions.map(normalizePosition).filter((p): p is string => Boolean(p))
       : [];
+    const configHeroes = Array.isArray(config.raw.heroPositions)
+      ? config.raw.heroPositions.map(normalizePosition).filter((p): p is string => Boolean(p))
+      : [];
 
     const cells = configCells(config.raw)
-      .map((group) => {
+      .map((group, groupIndex) => {
+        const context = `${config.fileName} cell ${groupIndex}`;
         const position = normalizePosition(group.position);
         const stackBb = typeof group.stackSize === 'number' ? group.stackSize : null;
         if (!position || !stackBb || stackBb <= 0) return null;
-        const villainPosition = normalizePosition(group.villainPosition) ?? undefined;
+        const alignedVillain = configHeroes.length === configVillains.length
+          ? configVillains[configHeroes.indexOf(position)]
+          : undefined;
+        const villainPosition = normalizePosition(group.villainPosition)
+          ?? (configVillains.length === 1 ? configVillains[0] : alignedVillain)
+          ?? undefined;
+        const board = parseBoard(group.board, context);
+        const isPostflop = Boolean(board);
         const buckets = groupBuckets(group)
-          .map((bucket) => {
-            const actions = Array.from(new Set(bucket.answer.map(normalizeActionKey).filter((a): a is string => Boolean(a)))).sort();
-            const combos = Array.from(new Set(bucket.combos)).sort();
+          .map((bucket, bucketIndex) => {
+            const actions = Array.from(new Set(bucket.answer.map((action) => {
+              const normalized = normalizeActionKey(action);
+              if (!normalized) throw new Error(`${context} bucket ${bucketIndex}: unknown action "${String(action)}"`);
+              return normalized;
+            }))).sort();
+            const combos = isPostflop
+              ? validateExactCombos(bucket.combos, board, `${context} bucket ${bucketIndex}`)
+              : Array.from(new Set(bucket.combos)).sort();
             return { actions, combos };
           })
           .filter((bucket) => bucket.actions.length > 0 && bucket.combos.length > 0)
           .sort((a, b) => a.actions.join(',').localeCompare(b.actions.join(',')));
         if (buckets.length === 0) return null;
-        return { position, stackBb, ...(villainPosition ? { villainPosition } : {}), buckets };
+        const bucketCombos = Array.from(new Set(buckets.flatMap((bucket) => bucket.combos))).sort();
+        const sourceDealCombosRaw = stringArray(group.spotConfig?.rangeToBeDealt).length > 0
+          ? stringArray(group.spotConfig?.rangeToBeDealt)
+          : stringArray(config.raw.rangeToBeDealt);
+        const sourceDealCombos = sourceDealCombosRaw.length === 1 && sourceDealCombosRaw[0]!.toLowerCase() === 'all'
+          ? []
+          : sourceDealCombosRaw;
+        const gradedCombos = new Set(bucketCombos);
+        const dealCombos = isPostflop
+          ? validateExactCombos(sourceDealCombos.length > 0 ? sourceDealCombos : bucketCombos, board, `${context} dealt range`)
+              .filter((combo) => gradedCombos.has(combo))
+          : undefined;
+        if (dealCombos && dealCombos.length === 0) {
+          throw new Error(`${context}: no board-valid dealt combo has an accepted-action bucket`);
+        }
+        const dealtSet = new Set(dealCombos);
+        const practiceBuckets = isPostflop && sourceDealCombos.length > 0
+          ? buckets
+              .map((bucket) => ({ ...bucket, combos: bucket.combos.filter((combo) => dealtSet.has(combo)) }))
+              .filter((bucket) => bucket.combos.length > 0)
+          : buckets;
+        const heroStackSize = typeof group.spotConfig?.heroStackSize === 'number' && group.spotConfig.heroStackSize > 0
+          ? group.spotConfig.heroStackSize
+          : undefined;
+        const villainStackSize = typeof group.spotConfig?.villainStackSize === 'number' && group.spotConfig.villainStackSize > 0
+          ? group.spotConfig.villainStackSize
+          : undefined;
+        const actionLine = formatActionLine(
+          Array.isArray(group.spotConfig?.actionHistory) ? group.spotConfig.actionHistory : config.raw.actionHistory,
+        );
+        return {
+          position,
+          stackBb,
+          ...(villainPosition ? { villainPosition } : {}),
+          ...(board ? { board } : {}),
+          ...(heroStackSize !== undefined ? { heroStackSize } : {}),
+          ...(villainStackSize !== undefined ? { villainStackSize } : {}),
+          ...(actionLine ? { actionLine } : {}),
+          ...(dealCombos ? { dealCombos } : {}),
+          buckets: practiceBuckets,
+        };
       })
       .filter((cell): cell is NonNullable<typeof cell> => cell !== null)
-      .sort((a, b) => positionRank(a.position) - positionRank(b.position) || a.stackBb - b.stackBb || (a.villainPosition ?? '').localeCompare(b.villainPosition ?? ''));
+      .sort((a, b) =>
+        positionRank(a.position) - positionRank(b.position)
+        || a.stackBb - b.stackBb
+        || (a.villainPosition ?? '').localeCompare(b.villainPosition ?? '')
+        || (a.board ?? []).join('-').localeCompare((b.board ?? []).join('-')));
+
+    const streets = Array.from(new Set(cells.map((cell) => streetForBoard(cell.board))));
+    if (streets.length !== 1) throw new Error(`${config.fileName}: mixed streets in one pack (${streets.join(', ')})`);
+    const street = streets[0] ?? 'preflop';
 
     const heroPositions = Array.from(new Set(cells.map((c) => c.position))).sort((a, b) => positionRank(a) - positionRank(b));
     const villainPositions = (() => {
@@ -395,14 +575,15 @@ function buildPacks(configs: UniqueConfig[]): { packs: BuiltPack[]; included: Un
     })();
     const stacks = cells.map((c) => c.stackBb);
     const stage = stageShort(config.title);
-    const node = nodeToken(config.title);
+    const node = street === 'preflop' ? nodeToken(config.title) : undefined;
     const heroDesc = heroPositions.length > 0 ? heroPositions.join('/') : copy.neutralCategory;
     const villainDesc = villainPositions.length > 0 ? ` vs ${villainPositions.join('+')}` : '';
-    const nodeDesc = node ? ` — ${node}` : '';
+    const nodeDesc = node ? ` - ${node}` : '';
     const stackDesc = stacks.length > 0 ? ` (${stackSummary(stacks)})` : '';
-    const stageSuffix = stage ? ` — ICM ${stage}` : '';
-    const title = `${copy.neutralCategory}: ${heroDesc}${villainDesc}${nodeDesc}${stackDesc}${stageSuffix}`;
-    let slugBase = slugify(`${copy.neutralCategory}-${heroDesc}-${villainPositions.join('-')}-${node ?? ''}-${stage ?? ''}-${methodology === 'mda_exploit' ? 'exploit' : 'baseline'}`);
+    const stageSuffix = stage ? ` - ICM ${stage}` : '';
+    const streetDesc = street === 'preflop' ? '' : ` - ${street[0]!.toUpperCase()}${street.slice(1)}`;
+    const title = `${copy.neutralCategory}: ${heroDesc}${villainDesc}${nodeDesc}${streetDesc}${stackDesc}${stageSuffix}`;
+    let slugBase = slugify(`${copy.neutralCategory}-${heroDesc}-${villainPositions.join('-')}-${street === 'preflop' ? node ?? '' : street}-${stage ?? ''}-${methodology === 'mda_exploit' ? 'exploit' : 'baseline'}`);
     if (!slugBase) slugBase = slugify(copy.neutralCategory);
     const usedCount = usedSlugs.get(slugBase) ?? 0;
     usedSlugs.set(slugBase, usedCount + 1);
@@ -415,7 +596,7 @@ function buildPacks(configs: UniqueConfig[]): { packs: BuiltPack[]; included: Un
       bucketCount += cell.buckets.length;
       for (const bucket of cell.buckets) {
         comboCount += bucket.combos.length;
-        for (const combo of bucket.combos) distinct.add(`${cell.position}|${cell.stackBb}|${combo}`);
+        for (const combo of bucket.combos) distinct.add(`${cell.position}|${cell.stackBb}|${(cell.board ?? []).join('-')}|${combo}`);
       }
     }
 
@@ -424,6 +605,7 @@ function buildPacks(configs: UniqueConfig[]): { packs: BuiltPack[]; included: Un
       title,
       description: copy.description,
       scenario: copy.scenario,
+      street,
       tier: copy.tier,
       methodology,
       ...(stageContext ? { stageContext } : {}),
@@ -435,6 +617,16 @@ function buildPacks(configs: UniqueConfig[]): { packs: BuiltPack[]; included: Un
       distinctComboCount: distinct.size,
     };
   });
+
+  const titleCounts = new Map<string, number>();
+  for (const pack of packs) titleCounts.set(pack.title, (titleCounts.get(pack.title) ?? 0) + 1);
+  const titleOrdinals = new Map<string, number>();
+  for (const pack of packs) {
+    if ((titleCounts.get(pack.title) ?? 0) < 2) continue;
+    const ordinal = (titleOrdinals.get(pack.title) ?? 0) + 1;
+    titleOrdinals.set(pack.title, ordinal);
+    pack.title = `${pack.title} - Variant ${ordinal}`;
+  }
 
   packs.sort((a, b) => a.slug.localeCompare(b.slug));
   return { packs, included, excluded };
@@ -648,6 +840,7 @@ function packModule(pack: BuiltPack): string {
     title: pack.title,
     description: pack.description,
     scenario: pack.scenario,
+    street: pack.street,
     tier: pack.tier,
     methodology: pack.methodology,
     ...(pack.stageContext ? { stageContext: pack.stageContext } : {}),
@@ -657,9 +850,17 @@ function packModule(pack: BuiltPack): string {
       path: VAULT_RELATIVE_PATH,
       sha256: pack.sha256,
     },
-    cells: pack.cells,
+    cells: pack.cells.map((cell) => ({
+      ...cell,
+      ...(cell.dealCombos ? { dealCombos: `@@expand@@${cell.dealCombos.join(' ')}` } : {}),
+      buckets: cell.buckets.map((bucket) => ({
+        ...bucket,
+        combos: `@@expand@@${bucket.combos.join(' ')}`,
+      })),
+    })),
   };
-  return `// Generated by scripts/import-ct-curriculum.ts. Do not edit by hand.\nimport type { RangePack } from '../types';\n\nconst pack: RangePack = ${tsLiteral(data)};\n\nexport default pack;\n`;
+  const literal = tsLiteral(data).replace(/'@@expand@@([^']+)'/g, "expand('$1')");
+  return `// Generated by scripts/import-ct-curriculum.ts. Do not edit by hand.\nimport type { RangePack } from '../types';\n\nconst expand = (value: string): string[] => value.split(' ');\n\nconst pack: RangePack = ${literal};\n\nexport default pack;\n`;
 }
 
 function registryModule(packs: BuiltPack[]): string {
@@ -668,6 +869,7 @@ function registryModule(packs: BuiltPack[]): string {
     title: pack.title,
     description: pack.description,
     scenario: pack.scenario,
+    street: pack.street,
     tier: pack.tier,
     methodology: pack.methodology,
     ...(pack.stageContext ? { stageContext: pack.stageContext } : {}),
@@ -812,9 +1014,8 @@ function writeIfChanged(path: string, content: string, changes: string[]): void 
 function main(): void {
   const configs = loadUniqueConfigs();
   const { packs, included, excluded } = buildPacks(configs);
-  const snapshotIndex = buildSnapshotIndex(configs);
-  const legacySpots = loadLegacySpots();
-  const overlapEntries = runOverlap(legacySpots, snapshotIndex);
+  const legacySpots = OVERLAP ? loadLegacySpots() : [];
+  const overlapEntries = OVERLAP ? runOverlap(legacySpots, buildSnapshotIndex(configs)) : [];
 
   const changes: string[] = [];
 
@@ -832,12 +1033,14 @@ function main(): void {
   }
   writeIfChanged(join(OUT_DIR, 'registry.generated.ts'), registryModule(packs), changes);
   writeIfChanged(join(OUT_DIR, 'loaders.generated.ts'), loadersModule(packs), changes);
-  writeIfChanged(OVERLAP_JSON_PATH, overlapJson(overlapEntries, legacySpots.length), changes);
-  writeIfChanged(OVERLAP_REPORT_PATH, overlapReport(overlapEntries, legacySpots.length), changes);
+  if (OVERLAP) {
+    writeIfChanged(OVERLAP_JSON_PATH, overlapJson(overlapEntries, legacySpots.length), changes);
+    writeIfChanged(OVERLAP_REPORT_PATH, overlapReport(overlapEntries, legacySpots.length), changes);
+  }
 
   if (CHECK) {
     if (changes.length > 0) {
-      console.error('CT range pack artifacts are stale. Run: npx tsx scripts/import-ct-curriculum.ts --snapshot <dir> --legacy <file>');
+      console.error('CT range pack artifacts are stale. Run: npx tsx scripts/import-ct-curriculum.ts --snapshot <dir>');
       for (const file of changes) console.error(`  drift: ${file}`);
       process.exit(1);
     }
@@ -845,10 +1048,12 @@ function main(): void {
     return;
   }
 
-  const disagreements = overlapEntries.filter((e) => e.status === 'disagreement').length;
-  const unmatched = overlapEntries.filter((e) => e.status === 'unmatched').length;
-  console.log(`Included ${included.length} preflop packs, excluded ${excluded.length} configs.`);
-  console.log(`Overlap: ${legacySpots.length} legacy spots, ${legacySpots.length - unmatched} matched, ${unmatched} unmatched, ${disagreements} disagreements.`);
+  console.log(`Included ${included.length} range packs, excluded ${excluded.length} configs.`);
+  if (OVERLAP) {
+    const disagreements = overlapEntries.filter((e) => e.status === 'disagreement').length;
+    const unmatched = overlapEntries.filter((e) => e.status === 'unmatched').length;
+    console.log(`Overlap: ${legacySpots.length} legacy spots, ${legacySpots.length - unmatched} matched, ${unmatched} unmatched, ${disagreements} disagreements.`);
+  }
 }
 
 main();

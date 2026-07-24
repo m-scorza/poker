@@ -2,6 +2,8 @@ type RangePackMethodology = 'gto_cev' | 'mda_exploit';
 
 type RangePackTier = 'foundational' | 'blind_battles' | 'advanced';
 
+type RangePackStreet = 'preflop' | 'flop' | 'turn' | 'river';
+
 interface RangePackProvenance {
   kind: 'brand_neutralized_snapshot_config';
   capturedAt: '2026-07-18';
@@ -18,6 +20,12 @@ export interface RangePackCell {
   position: string;
   stackBb: number;
   villainPosition?: string;
+  board?: string[];
+  heroStackSize?: number;
+  villainStackSize?: number;
+  actionLine?: string;
+  /** Exact combos the source can deal for this board. Preflop packs fall back to the bucket union. */
+  dealCombos?: string[];
   buckets: RangePackBucket[];
 }
 
@@ -26,6 +34,7 @@ export interface RangePack {
   title: string;
   description: string;
   scenario: string;
+  street: RangePackStreet;
   tier: RangePackTier;
   methodology: RangePackMethodology;
   stageContext?: string;
@@ -38,6 +47,7 @@ export interface RangePackRegistryEntry {
   title: string;
   description: string;
   scenario: string;
+  street: RangePackStreet;
   tier: RangePackTier;
   methodology: RangePackMethodology;
   stageContext?: string;

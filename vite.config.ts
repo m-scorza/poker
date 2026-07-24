@@ -62,6 +62,10 @@ export default defineConfig({
   test: {
     globals: true,
     testTimeout: 60000,
+    // Keep Windows from oversubscribing workers while the generated
+    // curriculum chunks are transformed. Higher automatic concurrency made
+    // otherwise-green route effects miss their async assertion windows.
+    maxWorkers: 4,
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html'],
@@ -109,6 +113,7 @@ export default defineConfig({
         test: {
           name: 'jsdom',
           environment: 'jsdom',
+          setupFiles: ['src/test/setup.ts'],
           include: ['src/**/*.test.{ts,tsx}'],
           exclude: [
             '**/node_modules/**',

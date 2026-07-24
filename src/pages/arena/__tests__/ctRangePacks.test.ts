@@ -4,12 +4,14 @@ import { curriculumDecision } from '../curriculumSeeds';
 import { evaluateDrillAction } from '../../../analysis/arenaDrillEngine';
 import type { RangePack } from '../../../data/ctPacks/types';
 import { RANGE_PACK_LOADERS } from '../../../data/ctPacks/loaders.generated';
+import { curriculumActionOptions } from '../actionOptions';
 
 const FIXTURE: RangePack = {
   slug: 'fixture-pack',
   title: 'Fixture pack',
   description: 'Fixture.',
   scenario: 'RFI',
+  street: 'preflop',
   tier: 'foundational',
   methodology: 'gto_cev',
   source: { kind: 'brand_neutralized_snapshot_config', capturedAt: '2026-07-18', path: 'research/ct-trainer-2026-07-18/', sha256: 'a'.repeat(64) },
@@ -20,6 +22,33 @@ const FIXTURE: RangePack = {
       buckets: [
         { actions: ['fold'], combos: ['2d2c', '3d3c'] },
         { actions: ['raise_2'], combos: ['AhKh', '3d3c'] },
+      ],
+    },
+  ],
+};
+
+const POSTFLOP_FIXTURE: RangePack = {
+  slug: 'postflop-fixture-pack',
+  title: 'Postflop fixture pack',
+  description: 'Postflop fixture.',
+  scenario: 'CBET_IP',
+  street: 'flop',
+  tier: 'advanced',
+  methodology: 'gto_cev',
+  source: { kind: 'brand_neutralized_snapshot_config', capturedAt: '2026-07-18', path: 'research/ct-trainer-2026-07-18/', sha256: 'b'.repeat(64) },
+  cells: [
+    {
+      position: 'BTN',
+      villainPosition: 'BB',
+      stackBb: 40,
+      heroStackSize: 36,
+      villainStackSize: 36,
+      board: ['As', '7h', '2c'],
+      actionLine: 'preflop: BTN raise 2BB, BB call; flop: BB check',
+      dealCombos: ['KdQd'],
+      buckets: [
+        { actions: ['check'], combos: ['KdQd'] },
+        { actions: ['bet_33'], combos: ['JdTd'] },
       ],
     },
   ],
@@ -53,6 +82,26 @@ describe('deal-from-range session', () => {
     expect(evaluateDrillAction(ctx, 'raise_2', 'game_plan')?.userIsCorrect).toBe(true);
     expect(evaluateDrillAction(ctx, 'call', 'game_plan')?.userIsCorrect).toBe(false);
     expect(evaluateDrillAction(ctx, 'fold', 'game_plan')?.shouldRecordScore).toBe(true);
+  });
+
+  it('carries exact cards, board context, stacks, action history, and the legal menu', () => {
+    const session = buildDealFromRangeSession(POSTFLOP_FIXTURE, 1, scriptedRng([0, 0]));
+    const spot = session.spots[0]!;
+
+    expect(spot).toMatchObject({
+      combo: 'KQs',
+      heroCards: ['Kd', 'Qd'],
+      position: 'BTN',
+      villainPosition: 'BB',
+      stackBb: 40,
+      heroStackSize: 36,
+      villainStackSize: 36,
+      board: ['As', '7h', '2c'],
+      actionLine: 'preflop: BTN raise 2BB, BB call; flop: BB check',
+      acceptedActions: ['check'],
+      legalActions: ['bet_33', 'check'],
+    });
+    expect(curriculumActionOptions(spot)?.map((option) => option.id)).toEqual(['bet_33', 'check']);
   });
 
   it('defaults to a fixed session length and only samples in-range actions', async () => {

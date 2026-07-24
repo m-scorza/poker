@@ -6,7 +6,9 @@ export interface CurriculumSpotSeed {
   position: 'UTG' | 'LJ' | 'HJ' | 'CO' | 'BTN' | 'SB' | 'BB';
   stackBb: number;
   acceptedActions: string[];
+  legalActions?: string[];
   sourceGroupIndex: number;
+  heroCards?: [string, string];
   board?: string[];
   villainPosition?: string;
   heroStackSize?: number;

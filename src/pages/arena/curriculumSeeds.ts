@@ -72,11 +72,13 @@ const POSTFLOP_CURRICULUM_PACK_SLUGS = new Set<string>([
 // drilled: a starter-diagnostic session mixes spots from every pack, so a postflop
 // seed inside it must still read as postflop.
 export function curriculumSpotStage(spot: CurriculumSpotSeed | null | undefined): 'preflop' | 'postflop' {
+  if (spot?.board?.length) return 'postflop';
   const pack = sourcePackForCurriculumSpot(spot);
   return pack && POSTFLOP_CURRICULUM_PACK_SLUGS.has(pack.slug) ? 'postflop' : 'preflop';
 }
 
 export function curriculumSpotBadge(spot: CurriculumSpotSeed | null | undefined): string {
+  if (spot?.board?.length) return 'Postflop';
   const pack = sourcePackForCurriculumSpot(spot);
   if (!pack) return 'Curriculum';
   if (POSTFLOP_CURRICULUM_PACK_SLUGS.has(pack.slug)) return 'Postflop';

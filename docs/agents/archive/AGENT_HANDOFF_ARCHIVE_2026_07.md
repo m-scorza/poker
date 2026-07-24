@@ -4,6 +4,17 @@ Compacted handoff records rolled off the active
 [AGENT_HANDOFF.md](../AGENT_HANDOFF.md) to keep it inside the kernel context
 budget. Newest at the top.
 
+## 2026-07-23 - Importer read recovery and GG collection accounting
+
+- Owner / agent:          Codex
+- Branch:                 codex/implementionday
+- Scope:                  Hands importer picker/pipeline/tests; GGPoker winner parsing/direct + corpus tests; parser/status truth docs
+- Files touched:          `HandsUpload.tsx`, `useImportPipeline.ts`, `HandsUpload.test.tsx`, `ggpoker.ts`, `ggpoker.test.ts`, `fixtureSweep.test.ts`, `PARSER_HEALTH.md`, `STATUS.md`
+- Summary:                Keep the native selection alive until file serialization finishes, then reset it so the same hand-history can be selected again. Added a bounded `FileReader` fallback for browsers where `File.text()` never settles, plus regressions for both paths. Recovered GGPoker non-showdown `Seat N: player collected (amount)` awards and upgraded the ZIP sweep from 391/566 to 566/566 collection + chip-conservation coverage.
+- Verification:           Human native Chrome selection completed twice with the same PokerStars fixture. Full Vitest: 108 files / 1,129 tests; HandsUpload focused: 20/20. `typecheck`, `typecheck:test`, production build, `docs:update`, `docs:check`, `privacy:check`, and `git diff --check` pass. Earlier focused logs: `.agents/runs/2026-07-22-{importer-focused,parser-health-focused,final-typecheck,final-test-typecheck,final-build,final-docs-check,final-privacy}.log`.
+- Risks / assumptions:    The native-picker path and repeat selection were human-verified. Automated file injection remains unavailable until Chrome's ChatGPT extension is allowed to access file URLs; the in-app browser also produces an unreadable synthetic `File`, which is why the bounded `FileReader` recovery is directly regression-tested.
+- Next action requested:  Push/integrate this full implementation-day batch, then triage clean PRs #213-#216 without rebasing away the verified work.
+
 ## 2026-07-21 - Implementation-day correctness batch 1
 
 - Owner / agent:          Codex with parallel review agents

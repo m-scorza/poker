@@ -48,6 +48,7 @@ function comboClass(combo: string): string {
 interface CellSample {
   combos: string[];
   actionsByCombo: Map<string, string[]>;
+  legalActions: string[];
 }
 
 function indexCell(cell: RangePackCell): CellSample {
@@ -59,9 +60,15 @@ function indexCell(cell: RangePackCell): CellSample {
       merged.set(combo, set);
     }
   }
-  const combos = Array.from(merged.keys()).sort();
+  const combos = (cell.dealCombos?.length ? cell.dealCombos : Array.from(merged.keys())).slice().sort();
   const actionsByCombo = new Map(Array.from(merged, ([combo, actions]) => [combo, Array.from(actions).sort()] as const));
-  return { combos, actionsByCombo };
+  const legalActions = Array.from(new Set(cell.buckets.flatMap((bucket) => bucket.actions))).sort();
+  return { combos, actionsByCombo, legalActions };
+}
+
+function exactComboCards(combo: string): [string, string] | undefined {
+  const match = combo.match(/^([2-9TJQKA][cdhs])([2-9TJQKA][cdhs])$/i);
+  return match ? [match[1]!, match[2]!] : undefined;
 }
 
 /**
@@ -86,14 +93,21 @@ export function buildDealFromRangeSession(
     const sample = samples[cellIndex]!;
     if (sample.combos.length === 0) continue;
     const combo = sample.combos[Math.min(sample.combos.length - 1, Math.floor(rng() * sample.combos.length))]!;
+    const heroCards = exactComboCards(combo);
     spots.push({
       id: `ct-${pack.slug}-${index}-${combo}`,
       combo: comboClass(combo),
       position: seedPosition(cell.position),
       stackBb: cell.stackBb,
       acceptedActions: sample.actionsByCombo.get(combo) ?? [],
+      legalActions: sample.legalActions,
       sourceGroupIndex: cellIndex,
+      ...(heroCards ? { heroCards } : {}),
+      ...(cell.board ? { board: cell.board } : {}),
       ...(cell.villainPosition ? { villainPosition: cell.villainPosition } : {}),
+      ...(cell.heroStackSize !== undefined ? { heroStackSize: cell.heroStackSize } : {}),
+      ...(cell.villainStackSize !== undefined ? { villainStackSize: cell.villainStackSize } : {}),
+      ...(cell.actionLine ? { actionLine: cell.actionLine } : {}),
     });
   }
 
