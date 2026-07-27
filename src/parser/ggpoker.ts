@@ -20,6 +20,31 @@ const RE_BOARD = /Board \[(.+)\]/;
 const RE_WINNER = /Seat (\d+): (.+?) (?:\(.+?\))?\s*(?:showed \[(.+?)\] and (?:won|collected)|won|collected) \(([\d,]+)\)/g;
 const RE_TOTAL_POT = /Total pot ([\d,]+) \| Rake ([\d,]+)/;
 const RE_UNCALLED = /^Uncalled bet \(\$?([\d,]+)\) returned to (.+)$/;
+const RE_DATE = /(\d{4})\/(\d{2})\/(\d{2}) (\d{2}):(\d{2}):(\d{2})/;
+
+/**
+ * Parse a GGPoker header timestamp (`YYYY/MM/DD HH:MM:SS`, UTC) into a Date.
+ * `new Date("2026/04/18 20:42:47")` is non-ISO: V8 reads it as *local* time
+ * (shifting the instant by the runtime's offset) and Firefox/Safari may return
+ * Invalid Date. Build the instant explicitly with `Date.UTC` so session
+ * grouping, trends, and the career timeline stay correct across browsers.
+ */
+function parseGgHandDate(headerLine: string): Date {
+  const m = RE_DATE.exec(headerLine);
+  if (m) {
+    return new Date(Date.UTC(
+      parseInt(m[1]!, 10),
+      parseInt(m[2]!, 10) - 1,
+      parseInt(m[3]!, 10),
+      parseInt(m[4]!, 10),
+      parseInt(m[5]!, 10),
+      parseInt(m[6]!, 10),
+    ));
+  }
+  // Fallback: preserve prior best-effort behavior for unexpected header formats.
+  const dateStr = headerLine.split(' - ').pop()?.trim() || '';
+  return new Date(dateStr.replace(/\sUTC$/, ''));
+}
 
 /**
  * Parse GGPoker Hand History files. Scaffold: produces a best-effort
@@ -103,8 +128,7 @@ export function parseGGPokerFileWithDiagnostics(
         currency,
       };
 
-      const dateStr = lines[0]?.split(' - ')?.pop()?.trim() || '';
-      const date = new Date(dateStr.replace(/\sUTC$/, ''));
+      const date = parseGgHandDate(lines[0] || '');
 
       const players: PlayerInHand[] = [];
       const actions: Action[] = [];
