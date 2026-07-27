@@ -118,7 +118,7 @@ but is a footgun).
 
 | # | File:line | Finding | Severity |
 |---|---|---|---|
-| G1 | Hand ranking | Delegated to `poker-odds-calculator ^0.4.0` (`package.json:29`). Wheel A-2-3-4-5 / steel-wheel handling is the library's problem — confirmed not implemented in-repo. ✓ | ✓ ASK_USER if you want to assert correctness with a fixture test. |
+| G1 | Hand ranking | Delegated to `poker-odds-calculator ^0.4.0` (`package.json:29`). Wheel A-2-3-4-5 / steel-wheel handling is the library's problem — confirmed not implemented in-repo. ✓ RESOLVED: `src/analysis/__tests__/handRankingWheel.test.ts` now pins the library's wheel / steel-wheel correctness (ace plays low as the weakest straight / straight flush) so a regression on upgrade fails loudly. | ✓ |
 | G2 | `src/analysis/scenarioDetector.ts:189` | `cbetHU` definition — see A8. The critical "C-bet HU 100%" metric in CLAUDE.md may misclassify 3-bet pots with a preflop all-iner. | `ASK_USER` |
 | G3 | `src/analysis/bountyAnalyzer.ts:136` | Hardcoded 1 500 starting stack — see A10. PokerStars STT starts at 1 500 (matches), MTT starts vary. ASK_USER which tournament formats are in scope. | LIKELY_BUG |
 | G4 | `src/analysis/icmDetector.ts` | Score→RP mapping non-monotone — see A9. Risk premium 10 (bubble) → 8 (itm) → 15 (FT). Is the bubble→ITM drop deliberate? CLAUDE.md says bubble RP 10–15%, ITM lower, FT 5–20% so directionally yes — but the magnitudes (RP 8 for *all* of ITM) flatten too much for late-ITM short stacks. | `ASK_USER` |
