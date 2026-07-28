@@ -173,6 +173,8 @@ describe('detectRestealSpot', () => {
     const result = detectRestealSpot(hand, hero, players, actions);
     expect(result).not.toBeNull();
     expect(result!.heroAction).toBe('resteal');
+    // villainPosition holds the opener's table position, not their name.
+    expect(result!.villainPosition).toBe('CO');
   });
 
   it('detects fold in resteal spot', () => {
