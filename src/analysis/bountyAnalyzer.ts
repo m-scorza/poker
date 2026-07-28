@@ -49,7 +49,9 @@ export function detectBountyTournament(
   if (lower.includes('progressive') || lower.includes('psko') || lower.includes('pko')) {
     return 'progressive_ko';
   }
-  if (lower.includes('knockout') || lower.includes('bounty') || lower.includes('ko')) {
+  // Match "ko" only as a standalone token (e.g. "$5 KO") — a bare substring
+  // match false-positives on names like "Lookout" / "Kickoff".
+  if (lower.includes('knockout') || lower.includes('bounty') || /\bko\b/.test(lower)) {
     return 'knockout';
   }
   return 'regular';
