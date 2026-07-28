@@ -49,6 +49,15 @@ Seat 5: Hero showed [7c 7s] and lost with two pair, Tens and Sevens
     expect(hands[0]!.tournament.currency).toBe('USD');
   });
 
+  it('parses the header timestamp as a fixed UTC instant, not local time', () => {
+    // GGPoker headers are `YYYY/MM/DD HH:MM:SS` in UTC. `new Date(str)` on that
+    // non-ISO form reads it as local time (V8) or returns Invalid Date
+    // (Firefox/Safari), which would shift or break session grouping and the
+    // career timeline. The instant must be timezone-independent.
+    const hands = parseGGPokerFile(ggSample, 'scorza23');
+    expect(hands[0]!.hand.date.toISOString()).toBe('2026-04-18T20:42:47.000Z');
+  });
+
   it('correctly identifies hero and herocards', () => {
     const hands = parseGGPokerFile(ggSample, 'scorza23');
     const hero = hands[0]!.players.find(p => p.isHero);
