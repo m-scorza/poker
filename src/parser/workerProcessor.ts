@@ -1,5 +1,6 @@
 import { buildHeroDecision } from '../analysis/scenarioDetector';
 import { batchCheckCompliance } from '../analysis/rangeChecker';
+import { deriveTournamentStartingStacks } from '../analysis/bountyAnalyzer';
 import type { HeroDecision } from '../types/analysis';
 import type {
   Action,
@@ -150,8 +151,14 @@ export async function processWorkerFiles(
         }
 
         const importSource = buildHandImportSource(file, identity, skippedBlocks);
+        // Derive each tournament's real starting stack from its earliest-level
+        // hands so bounty→chip math doesn't use a blind-scaled proxy.
+        const startingStacks = deriveTournamentStartingStacks(parsedHands);
         const handsToImport = parsedHands.map(parsed => {
-          const heroDecision = buildHeroDecision(parsed, heroName, profile);
+          const startingStack = parsed.hand.tournamentId
+            ? startingStacks.get(parsed.hand.tournamentId)
+            : undefined;
+          const heroDecision = buildHeroDecision(parsed, heroName, profile, startingStack);
           let compliantDecision: HeroDecision | undefined = undefined;
           if (heroDecision) {
             [compliantDecision] = batchCheckCompliance([heroDecision], profile, icmStage);

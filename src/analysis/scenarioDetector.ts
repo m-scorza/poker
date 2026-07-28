@@ -346,6 +346,7 @@ export function buildHeroDecision(
   parsedHand: ParsedHand,
   heroName: string = DEFAULT_HERO_NAME,
   profile: StrategyProfile = 'game_plan',
+  startingStack?: number,
 ): HeroDecision | null {
   const { hand, players, actions, collectedAmounts, showdownWinners } = parsedHand;
 
@@ -381,6 +382,7 @@ export function buildHeroDecision(
     primaryVillain,
     inferBountyTournamentType(parsedHand),
     parsedHand.tournament.buyIn ?? 0,
+    startingStack,
   );
   const isFinalTableSpot = icmEstimate.stage === 'final_table';
   const fakeShoveSpot = isFinalTableSpot ? detectFakeShove(hand, hero, actions) : null;

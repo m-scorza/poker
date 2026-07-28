@@ -58,6 +58,38 @@ export function detectBountyTournament(
 }
 
 /**
+ * Derive each tournament's starting stack (in chips) from a batch of parsed
+ * hands, so bounty→chip conversion uses a real stack instead of a
+ * blind-scaled proxy that balloons at higher levels.
+ *
+ * For each tournament we take the lowest level present and the largest
+ * `chipsBefore` seen at that level — at the earliest level stacks are still
+ * near the start, and the max is robust to players who have already spilled a
+ * few chips. Returns an empty entry (absent key) when a tournament has no
+ * usable hand, so callers fall back to their own heuristic.
+ */
+export function deriveTournamentStartingStacks(
+  hands: ReadonlyArray<{ hand: Pick<Hand, 'tournamentId' | 'level'>; players: ReadonlyArray<Pick<PlayerInHand, 'chipsBefore'>> }>,
+): Map<string, number> {
+  const minLevel = new Map<string, number>();
+  for (const { hand } of hands) {
+    if (!hand.tournamentId) continue;
+    const current = minLevel.get(hand.tournamentId);
+    if (current === undefined || hand.level < current) minLevel.set(hand.tournamentId, hand.level);
+  }
+
+  const startingStack = new Map<string, number>();
+  for (const { hand, players } of hands) {
+    if (!hand.tournamentId || hand.level !== minLevel.get(hand.tournamentId)) continue;
+    const maxStack = players.reduce((max, p) => Math.max(max, p.chipsBefore), 0);
+    if (maxStack > (startingStack.get(hand.tournamentId) ?? 0)) {
+      startingStack.set(hand.tournamentId, maxStack);
+    }
+  }
+  return startingStack;
+}
+
+/**
  * Calculate Bounty Power (BPWR) — converts bounty value into equity drop.
  *
  * BPWR = bountyValue / (pot + bountyValue) approximately

@@ -3,6 +3,7 @@ import {
   detectBountyTournament,
   calculateBPWR,
   estimateBountyContext,
+  deriveTournamentStartingStacks,
   BOUNTY_HEURISTICS,
 } from '../bountyAnalyzer';
 import type { Hand, PlayerInHand } from '../../types/hand';
@@ -148,5 +149,40 @@ describe('BOUNTY_HEURISTICS', () => {
 
   it('multi-way has highest drop range', () => {
     expect(BOUNTY_HEURISTICS.multiWay.maxDrop).toBeGreaterThan(BOUNTY_HEURISTICS.coveringVillain.maxDrop);
+  });
+});
+
+describe('deriveTournamentStartingStacks', () => {
+  it('takes the max stack at the lowest level seen per tournament', () => {
+    const hands = [
+      { hand: { tournamentId: 'T1', level: 1 }, players: [{ chipsBefore: 5000 }, { chipsBefore: 4980 }] },
+      { hand: { tournamentId: 'T1', level: 8 }, players: [{ chipsBefore: 40000 }] }, // later level ignored
+      { hand: { tournamentId: 'T2', level: 2 }, players: [{ chipsBefore: 1500 }, { chipsBefore: 1490 }] },
+    ];
+    const stacks = deriveTournamentStartingStacks(hands);
+    expect(stacks.get('T1')).toBe(5000);
+    expect(stacks.get('T2')).toBe(1500);
+  });
+
+  it('ignores hands with no tournament id', () => {
+    const stacks = deriveTournamentStartingStacks([
+      { hand: { tournamentId: '', level: 1 }, players: [{ chipsBefore: 999 }] },
+    ]);
+    expect(stacks.size).toBe(0);
+  });
+});
+
+describe('estimateBountyContext — starting stack sourcing', () => {
+  it('uses a real starting stack instead of the blind-scaled fallback at deep levels', () => {
+    // Level 15, BB 1000 → the fallback would assume a 75,000-chip "start",
+    // ballooning the bounty chip value. A real 5,000 start is far smaller.
+    const hand = makeHand({ level: 15, bigBlind: 1000, totalPot: 8000 });
+    const hero = makePlayer({ chipsBefore: 20000 });
+    const villain = makePlayer({ chipsBefore: 18000 });
+
+    const withReal = estimateBountyContext(hand, hero, villain, 'progressive_ko', 10, 5000);
+    const withFallback = estimateBountyContext(hand, hero, villain, 'progressive_ko', 10);
+
+    expect(withReal!.equityDrop).toBeLessThan(withFallback!.equityDrop);
   });
 });
