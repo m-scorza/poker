@@ -300,6 +300,30 @@ player6: folds
 Total pot 275 | Rake 0
 Seat 4: scorza23 collected (275)`;
 
+/** Hero in the BB, folded to the SB who completes (limps). Scenario: BB_VS_LIMP. */
+export const HAND_BB_VS_LIMP = `\
+PokerStars Hand #260356647200: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level III (25/50) - 2026/04/05 19:00:00 UTC [2026/04/05 15:00:00 ET]
+Table '3989541132 1' 6-max Seat #1 is the button
+Seat 1: player1 (1500 in chips)
+Seat 2: player2 (1400 in chips)
+Seat 3: scorza23 (1500 in chips)
+Seat 4: player4 (1600 in chips)
+Seat 5: player5 (1300 in chips)
+Seat 6: player6 (1700 in chips)
+player2: posts small blind 25
+scorza23: posts big blind 50
+*** HOLE CARDS ***
+Dealt to scorza23 [Kd Qs]
+player4: folds
+player5: folds
+player6: folds
+player1: folds
+player2: calls 25
+scorza23: checks
+*** SUMMARY ***
+Total pot 100 | Rake 0
+Seat 3: scorza23 collected (100)`;
+
 /** File with BOM encoding prefix. */
 export const HAND_WITH_BOM = `\uFEFF\
 PokerStars Hand #260356647200: Tournament #3989541132, $0.85+$0.15 USD Hold'em No Limit - Level I (10/20) - 2026/04/05 18:00:00 UTC [2026/04/05 14:00:00 ET]
