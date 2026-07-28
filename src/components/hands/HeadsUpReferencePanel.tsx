@@ -38,6 +38,7 @@ export function HeadsUpReferencePanel({ onUploadSuccess }: { onUploadSuccess: ()
         ref={pushReferenceRef}
         type="file"
         accept=".csv,.txt"
+        aria-label="Upload push reference table (CSV or TXT)"
         onChange={(event) => {
           void handleLocalReferenceFile('push', event.target.files?.[0] ?? null);
           event.currentTarget.value = '';
@@ -48,6 +49,7 @@ export function HeadsUpReferencePanel({ onUploadSuccess }: { onUploadSuccess: ()
         ref={callReferenceRef}
         type="file"
         accept=".csv,.txt"
+        aria-label="Upload call reference table (CSV or TXT)"
         onChange={(event) => {
           void handleLocalReferenceFile('call', event.target.files?.[0] ?? null);
           event.currentTarget.value = '';
