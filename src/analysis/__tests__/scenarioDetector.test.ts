@@ -12,6 +12,7 @@ import {
   HAND_WALK,
   HAND_NON_CONTIGUOUS,
   HAND_FACING_LIMP,
+  HAND_BB_VS_LIMP,
   HAND_WON_WITHOUT_SHOWING,
   HAND_3WAY_FLOP_WITH_ALLIN,
 } from '../../test/fixtures/sample-hands';
@@ -236,6 +237,22 @@ describe('detectScenario', () => {
       parsed.hand.activePlayers,
     );
     expect(scenario).toBe('FACING_LIMP');
+  });
+
+  it('detects BB_VS_LIMP — hero in BB, SB completes with no raise', () => {
+    const parsed = parseFirst(HAND_BB_VS_LIMP);
+    const hero = parsed.players.find((p) => p.isHero)!;
+    expect(hero.position).toBe('BB');
+    const { scenario, openerPosition } = detectScenario(
+      parsed.actions,
+      parsed.players,
+      'scorza23',
+      hero.position,
+      parsed.hand.bigBlind,
+      parsed.hand.activePlayers,
+    );
+    expect(scenario).toBe('BB_VS_LIMP');
+    expect(openerPosition).toBe('SB');
   });
 
   it('detects BB_VS_RAISE for non-contiguous seats', () => {
