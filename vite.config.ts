@@ -11,6 +11,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       workbox: {
+        // Activate a new service worker immediately and take control of open
+        // tabs, so a shipped parser bug fix reaches users on their next load
+        // instead of lingering behind the previously-cached build.
+        skipWaiting: true,
+        clientsClaim: true,
         // jspdf + jspdf-autotable are dynamically imported by
         // utils/pdfExport.ts (see PR #136), so they and their optional
         // deps (html2canvas, dompurify, and jsPDF's own core-js/fflate
