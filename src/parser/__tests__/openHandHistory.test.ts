@@ -208,4 +208,67 @@ describe('parseOpenHandHistoryFile', () => {
     expect(parseOpenHandHistoryFile('{"hello":"world"}')).toEqual([]);
     expect(parseOpenHandHistoryFile('not json')).toEqual([]);
   });
+
+  it('parses start_date_utc as a fixed UTC instant regardless of a missing Z', () => {
+    // OHH `start_date_utc` is UTC but the fixtures omit the trailing Z. The
+    // parser must not let the runtime timezone shift it (same class as the
+    // GGPoker/PokerStars date bug).
+    const [parsed] = parseOpenHandHistoryFile(OHH_IPOKER_TOURNAMENT, 'scorza23');
+    expect(parsed!.hand.date.toISOString()).toBe('2018-05-25T14:35:34.000Z');
+  });
+
+  it('falls back to the epoch for a missing or blank date rather than Invalid Date', () => {
+    const noDate = JSON.stringify({
+      ohh: {
+        spec_version: '1.2.2',
+        game_number: '1',
+        small_blind_amount: 10,
+        big_blind_amount: 20,
+        dealer_seat: 1,
+        players: [
+          { id: 0, name: 'Hero', seat: 1, starting_stack: 1000 },
+          { id: 1, name: 'Villain', seat: 2, starting_stack: 1000 },
+        ],
+        rounds: [],
+        pots: [],
+      },
+    });
+    const [parsed] = parseOpenHandHistoryFile(noDate, 'scorza23');
+    expect(parsed).toBeDefined();
+    expect(Number.isNaN(parsed!.hand.date.getTime())).toBe(false);
+    expect(parsed!.hand.date.getTime()).toBe(0);
+  });
+
+  it('normalizes non-USD play-money and ticket currencies', () => {
+    const build = (currency: string) =>
+      JSON.stringify({
+        ohh: {
+          spec_version: '1.2.2',
+          game_number: '2',
+          start_date_utc: '2020-01-01T00:00:00',
+          small_blind_amount: 10,
+          big_blind_amount: 20,
+          dealer_seat: 1,
+          currency,
+          players: [
+            { id: 0, name: 'Hero', seat: 1, starting_stack: 1000 },
+            { id: 1, name: 'Villain', seat: 2, starting_stack: 1000 },
+          ],
+          rounds: [],
+          pots: [],
+        },
+      });
+    expect(parseOpenHandHistoryFile(build('PLAY'), 'scorza23')[0]!.tournament.currency).toBe('PLAY');
+    expect(parseOpenHandHistoryFile(build('TICKET'), 'scorza23')[0]!.tournament.currency).toBe('TICKET');
+    expect(parseOpenHandHistoryFile(build('GBP'), 'scorza23')[0]!.tournament.currency).toBe('USD');
+  });
+
+  it('parses every hand in a multi-hand array file', () => {
+    const first = JSON.parse(OHH_888_WRAPPED_ARRAY)[0];
+    const second = { ...first, game_number: '591212285' };
+    const multi = JSON.stringify([first, second]);
+    const parsed = parseOpenHandHistoryFile(multi, 'scorza23');
+    expect(parsed).toHaveLength(2);
+    expect(parsed.map((p) => p.hand.id)).toEqual(['591212284', '591212285']);
+  });
 });
