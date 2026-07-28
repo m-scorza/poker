@@ -25,6 +25,9 @@ describe('detectSqueezeOpportunity', () => {
     expect(result!.heroAction).toBe('squeeze');
     expect(result!.callerCount).toBe(1);
     expect(result!.openerPosition).toBe('UTG');
+    // Note copy must be English (no leftover Portuguese "de").
+    expect(result!.note).toContain('Squeeze from');
+    expect(result!.note).not.toMatch(/Squeeze de\b/);
   });
 
   it('detects squeeze spot with multiple callers', () => {
