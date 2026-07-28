@@ -50,6 +50,15 @@ describe('detectBountyTournament', () => {
   it('is case insensitive', () => {
     expect(detectBountyTournament('progressive knockout', 10)).toBe('progressive_ko');
   });
+
+  it('detects a standalone "KO" token', () => {
+    expect(detectBountyTournament('$5 KO Turbo', 5)).toBe('knockout');
+  });
+
+  it('does not treat "ko" inside another word as a knockout', () => {
+    expect(detectBountyTournament('$10 Lookout Special', 10)).toBe('regular');
+    expect(detectBountyTournament('$10 Kickoff Freezeout', 10)).toBe('regular');
+  });
 });
 
 describe('calculateBPWR', () => {
