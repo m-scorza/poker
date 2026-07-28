@@ -95,7 +95,7 @@ export function detectSqueezeOpportunity(
 
   let note: string;
   if (heroSqueezeAction === 'squeeze') {
-    note = `Squeeze de ${heroPosition} vs ${opener.playerName} + ${callers.length} caller(s).`;
+    note = `Squeeze from ${heroPosition} vs ${opener.playerName} + ${callers.length} caller(s).`;
   } else if (heroSqueezeAction === 'call') {
     note = `Missed squeeze opportunity — cold call instead of squeeze.`;
   } else if (heroSqueezeAction === 'fold') {
