@@ -294,6 +294,13 @@ describe('checkCompliance — FACING_LIMP', () => {
     const result = checkCompliance(d);
     expect(result!.isCompliant).toBe(true);
   });
+
+  it('compliant: SB may complete (limp behind) — not a deviation', () => {
+    const d = makeDecision({ position: 'SB', handKey: 'AQs', action: 'call', scenario: 'FACING_LIMP' });
+    const result = checkCompliance(d);
+    expect(result!.isCompliant).toBe(true);
+    expect(result!.deviationType).toBeNull();
+  });
 });
 
 describe('checkCompliance — BB_VS_RAISE', () => {
