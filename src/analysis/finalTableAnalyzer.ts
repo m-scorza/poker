@@ -194,6 +194,8 @@ export function detectRestealSpot(
   const actionsBefore = preflopActions.slice(0, heroIdx);
   const opener = actionsBefore.find((a) => a.actionType === 'raise');
   if (!opener) return null;
+  const openerPosition =
+    players.find((p) => p.playerName === opener.playerName)?.position ?? opener.playerName;
 
   // Classify opener's stack
   const ftProfiles = classifyFTStacks(players, hand.bigBlind);
@@ -241,7 +243,7 @@ export function detectRestealSpot(
     handId: hand.id,
     heroPosition: hero.position,
     heroStackBb: stackBb,
-    villainPosition: opener.playerName,
+    villainPosition: openerPosition,
     villainStackType: openerProfile.stackType,
     heroAction: restealAction,
     riskPremiumEstimate: rpEstimate,
