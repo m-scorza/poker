@@ -1,5 +1,5 @@
 export type PokerSite = 'pokerstars' | 'ggpoker' | 'open_hand_history' | 'known_unsupported' | 'unknown';
-export type FileType = 'hand_history' | 'tournament_summary' | 'unknown';
+export type FileType = 'hand_history' | 'tournament_summary' | 'cash_game' | 'unknown';
 
 export interface FileIdentity {
   site: PokerSite;
@@ -14,8 +14,13 @@ export function identifyFile(content: string): FileIdentity {
   const normalized = content.trim().slice(0, 65536); // Scan enough for email/export preambles before the first real hand.
   const lower = normalized.toLowerCase();
   
-  // PokerStars Hand History
+  // PokerStars Hand History. Tournament hands carry "Tournament #" in the
+  // header; a hand history without it is a ring/cash game, which this tool
+  // does not analyze yet.
   if (normalized.includes('PokerStars Hand #')) {
+    if (!normalized.includes('Tournament #')) {
+      return { site: 'pokerstars', type: 'cash_game' };
+    }
     return { site: 'pokerstars', type: 'hand_history' };
   }
   
@@ -64,6 +69,11 @@ export function identifyFile(content: string): FileIdentity {
     normalized.includes('Poker Hand #') ||
     normalized.includes('Hand #')
   ) {
+    // As with PokerStars, a GGPoker hand history with no "Tournament #" in the
+    // header is a ring/cash game — not supported yet.
+    if (!normalized.includes('Tournament #')) {
+      return { site: 'ggpoker', type: 'cash_game' };
+    }
     return { site: 'ggpoker', type: 'hand_history' };
   }
 

@@ -24,10 +24,24 @@ describe('identifyFile', () => {
   });
 
   it('identifies GGPoker Hand History', () => {
-    const content = 'GGPoker Hand #...';
+    const content = "Poker Hand #BR123: Tournament #279277562, Battle Royale $3 Hold'em No Limit - Level4(40/80) - 2026/04/18 20:42:47";
     const result = identifyFile(content);
     expect(result.site).toBe('ggpoker');
     expect(result.type).toBe('hand_history');
+  });
+
+  it('flags a PokerStars cash-game hand history as cash_game (no Tournament #)', () => {
+    const content = "PokerStars Hand #259749325924:  Hold'em No Limit ($0.05/$0.10 USD) - 2026/01/01 12:00:00 ET";
+    const result = identifyFile(content);
+    expect(result.site).toBe('pokerstars');
+    expect(result.type).toBe('cash_game');
+  });
+
+  it('flags a GGPoker cash-game hand history as cash_game (no Tournament #)', () => {
+    const content = "Poker Hand #RC123456: Hold'em No Limit ($0.25/$0.50) - 2026/01/01 12:00:00\nTable 'RushAndCash' 6-max";
+    const result = identifyFile(content);
+    expect(result.site).toBe('ggpoker');
+    expect(result.type).toBe('cash_game');
   });
 
   it('identifies GGPoker Tournament Summary without PokerCraft string', () => {
