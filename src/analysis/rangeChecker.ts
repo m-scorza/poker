@@ -90,7 +90,7 @@ export function checkCompliance(
       return checkFacingRaise(position, handKey, action, decision.openerPosition);
 
     case 'FACING_LIMP':
-      return checkFacingLimp(action);
+      return checkFacingLimp(action, position);
 
     case 'BB_VS_RAISE':
       return checkBBvsRaise(handKey, action, profile, effectiveIcmStage);
@@ -462,11 +462,17 @@ function checkFacingAllIn(decision: HeroDecision): ComplianceResult | null {
 
 /**
  * FACING_LIMP: Should raise (punish limper). Never limp behind (except SB).
+ *
+ * The SB is already half-in and closes the action getting a discount, so
+ * completing behind a limp is a valid part of the strategy — only non-SB
+ * positions are flagged for limping behind. Source: CLAUDE.md "Preflop
+ * Scenario Classification" (FACING_LIMP row) + "Known Bugs".
  */
 function checkFacingLimp(
   action: 'fold' | 'raise' | 'call' | 'check',
+  position: Position,
 ): ComplianceResult {
-  if (action === 'call') {
+  if (action === 'call' && position !== 'SB') {
     return { isCompliant: false, deviationType: 'LIMP_BEHIND' };
   }
   return { isCompliant: true, deviationType: null };
