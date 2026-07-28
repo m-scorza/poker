@@ -11,6 +11,35 @@ but is a footgun).
 
 ---
 
+## Reconciliation — 2026-07-28
+
+Findings below were re-verified against current `src/`. This audit predates a
+large parser/analysis rework, so most actionable items are already fixed. Status
+here wins over the (unchanged) detail rows further down.
+
+| # | Status | Evidence |
+|---|---|---|
+| A2 / A14 | ✅ Fixed | `pokerstars.ts` builds the date with `Date.UTC(...)`, not `new Date(str)`. |
+| A3 | ✅ Fixed | Per-hand `catch` now `console.warn`s and increments `skippedBlocks`. |
+| A4 | ⛔ Won't-fix | Dot-grouped chip counts don't occur: PS emits plain integers (even 100099), GG comma-grouped and already stripped. Both are fixed-format English. Adding dot-as-thousand parsing would misparse legitimate decimals. |
+| A5 / A7 | ✅ Fixed | Per-hand bounty lives on `hand.bountyCollected`; `store.ts` aggregates to a tournament total guarded by hand-ID dedup (idempotent re-import); `finishPosition`/`prize` only overwrite when non-null. |
+| A6 | ✅ Fixed | `position.ts` button fallback walks counter-clockwise to the nearest active seat, not `sorted[0]`. |
+| A8 | ✅ Fixed | `scenarioDetector.ts` subtracts `preflopAllIns` from `flopPlayerCount`, so preflop shovers no longer inflate it. |
+| A9 | ✅ Not-a-bug | The non-monotone RP curve is display-only ICM theory; grading keys off the categorical stage via `ALLIN_RISK_PREMIUM_PP` (monotone 0/2/8, excludes bubble/FT). Clarifying comment added to `icmDetector.ts`. |
+| A10 | ✅ Fixed | Hardcoded `1500` replaced by `effectiveStartingStack` (caller-supplied, else derived from blinds). |
+| A12 / D4 | ✅ Fixed | `ArenaPage` uses an `advanceTimerRef` with `clearTimeout` on unmount. |
+| A13 / D3 | ✅ Fixed | `RangeValidatorPanel` calls `rangeValidationSummary()` directly (no stale `useMemo([])`). |
+| C1 | ✅ Not-a-bug | `lucide-react` genuinely has a 1.x line; `^1.16.0` resolves to `1.18.0`. |
+| D2 | ✅ Fixed | Every route is wrapped in a per-page `ErrorBoundary` via the `page()` helper. |
+| E1 / E2 / E3 | ✅ Fixed | `VillainsPage` search has `aria-label`; loading state uses `role="status"`. |
+
+New this pass: the GGPoker header timestamp was parsed with the same unsafe
+`new Date(str)` (local-time shift + Firefox/Safari `Invalid Date`) that A2/A14
+fixed for PokerStars — now fixed in `ggpoker.ts` with `Date.UTC` + a
+timezone-independent regression test (#221).
+
+---
+
 ## A — Correctness bugs
 
 | # | File:line | What's wrong | Trigger | Severity |

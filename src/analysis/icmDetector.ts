@@ -104,7 +104,14 @@ export function estimateICMStage(
     }
   }
 
-  // Map score to ICM stage
+  // Map score to ICM stage. `riskPremiumEstimate` is a DISPLAY-ONLY figure
+  // (shown next to the estimated stage); it is intentionally non-monotone —
+  // bubble (10) is peak pay-jump pressure, ITM (8) eases just after the money,
+  // and the final table (15) tightens again on steep pay jumps, matching the
+  // ICM curve in docs/knowledge/strategy/05-icm-and-risk-premium.md. It does
+  // NOT feed grading: the compliance math keys off the categorical `stage` via
+  // rangeChecker's `ALLIN_RISK_PREMIUM_PP` (a separate monotone 0/2/8 table
+  // that excludes bubble/FT). Don't wire this number into scoring.
   let stage: ICMStage;
   let riskPremiumEstimate: number;
 
