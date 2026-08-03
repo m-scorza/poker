@@ -174,12 +174,20 @@ unless its discovery phase concludes that no implementation is warranted.
 
 **Comments:** 11.
 
-**Status (2026-07-11): In progress.** The recovery slice now handles unreadable
-local files, worker startup/posting failures, silent-worker timeout, and explicit
-user cancellation without leaving `isImporting` true. The overlay follows the
-real async lifecycle through Reading files, Parsing hands, Saving locally, and
+**Status (2026-08-03): Complete.** The recovery slice handles unreadable local
+files, worker startup/posting failures, silent-worker timeout, and explicit user
+cancellation without leaving `isImporting` true. The overlay follows the real
+async lifecycle through Reading files, Parsing hands, Saving locally, and
 Updating analysis, with a deliberately paused regression at every boundary.
-A tracked ZIP/browser reproduction remains before this task is complete.
+
+The outstanding ZIP reproduction is now covered. Every prior ZIP test resolved
+`JSZip.loadAsync`, so the throw paths — the ones that can actually strand
+`isImporting` — were never exercised. Three regressions close that: a corrupt
+archive (`loadAsync` rejects), an entry that throws while decompressing, and an
+archive with no supported entries. Each asserts a visible terminal state,
+`isImporting === false`, and no worker spawned. Verified non-vacuous: with the
+`setImporting(false)` guard removed all three fail by timing out — the reported
+hang, reproduced.
 
 **Scope:** `HandsUpload`, parser worker lifecycle, persistence completion, and
 the visible import overlay. Reproduce with the smallest tracked fixture and a
@@ -198,11 +206,24 @@ representative ZIP before changing code.
 
 **Comments:** 10.
 
-**Status (2026-07-21): In progress.** The shared `chipAmount` formatter now
-covers Hand Replay actions, blinds, antes, pots, hero/tournament-context
-stacks, Hands table stack depth, and Spot Packet bb values, with direct
-IEEE-754 rendering regressions. A repo-wide migration of remaining non-Hands
-numeric render sites is still required before this task is complete.
+**Status (2026-08-03): Complete.** The shared `chipAmount` formatter covers Hand
+Replay actions, blinds, antes, pots, hero/tournament-context stacks, Hands table
+stack depth, Spot Packet bb values, and the uploaded push/fold reference values
+(#235), with direct IEEE-754 rendering regressions.
+
+The "repo-wide migration of remaining non-Hands render sites" turned out to be
+already done. A scan for JSX interpolations of chip-quantity identifiers across
+every `.tsx` under `src/` returns **zero** unformatted sites; the 73 `.toFixed()`
+call sites are safe by construction, and the remaining raw interpolations are
+strings (`actionLine`, `note`, `villainPosition`) or integer counts. The demo
+generator was the one real remaining producer of unrounded floats
+(`stackBb`, `heroChipsBefore`) and is fixed at source.
+
+`numericPresentationBoundary.test.ts` is widened from "a `*Bb` value followed by
+a literal `bb` unit" to any interpolation whose identifier ends in a chip-quantity
+suffix, so a pot or blind rendered with no trailing unit is caught too. The
+guard carries its own positive/negative cases so it cannot pass by matching
+nothing.
 
 **Scope:** locate every user-visible chip, blind, pot, currency, percentage, and
 duration formatter. Fix `385.00000000000006` at the shared formatting boundary,
