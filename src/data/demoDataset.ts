@@ -1,6 +1,7 @@
 import { aggregateVillainStats, importHands, importTournamentSummaries, db } from './store';
+import { batchCheckCompliance } from '../analysis/rangeChecker';
 import type { Action, Hand, PlayerInHand, Tournament } from '../types/hand';
-import type { HeroDecision, Position, Scenario, DeviationType } from '../types/analysis';
+import type { HeroDecision, Position, Scenario } from '../types/analysis';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 import { DEMO_VILLAINS } from './demoVillains';
 import { DEFAULT_HERO_NAME } from './localStorage';
@@ -37,6 +38,8 @@ const HERO = DEFAULT_HERO_NAME;
 const BUY_IN = 1;
 const FEE = 0.1;
 const SEAT_POSITIONS: Position[] = ['BTN', 'SB', 'BB', 'UTG', 'HJ', 'CO'];
+/** Preflop action order for the 6-handed demo table. An opener has to act before hero. */
+const PREFLOP_ORDER: Position[] = ['UTG', 'HJ', 'CO', 'BTN', 'SB', 'BB'];
 
 // --- Deterministic RNG ---
 class RNG {
@@ -96,15 +99,16 @@ function makeDecision(
   scenario: Scenario,
   position: Position,
   handKey: string,
+  openerPosition: Position | null,
   rng: RNG
 ): HeroDecision {
   const h = HERO_PROFILE;
   let action: HeroDecision['action'] = 'fold';
-  let isCompliant = true;
-  let deviationType: DeviationType | null = null;
 
-  // Logic for Hero's decision based on scenario and profile
-  if (scenario === 'RFI') {
+  // Which action hero takes is simulated from HERO_PROFILE's deliberate leak
+  // frequencies. Whether that action is a deviation is never decided here — the
+  // grading engine rules on it below, exactly as it does for imported hands.
+  if (scenario === 'RFI' || scenario === 'BLIND_WAR') {
     const isStrong = ['AA', 'KK', 'QQ', 'JJ', 'TT', 'AKs', 'AQs', 'AKo'].includes(handKey);
     const isMedium = ['99', '88', 'AJs', 'ATs', 'KQs', 'AQo', '77', '66'].includes(handKey);
     const isStealSpot = ['BTN', 'CO', 'SB'].includes(position);
@@ -116,13 +120,9 @@ function makeDecision(
     } else if (isStealSpot && rng.next() < 0.1) {
       // Intentional Leak: Passive stealing
       action = 'fold';
-      isCompliant = false;
-      deviationType = position === 'SB' ? 'SB_OVERFOLD' : 'OVERFOLD';
     } else if (rng.next() < h.openLimpFreq) {
       // Intentional Leak: Open limping
       action = 'call';
-      isCompliant = false;
-      deviationType = position === 'SB' ? 'SB_LIMPED' : 'LIMPED';
     }
   } else if (scenario === 'FACING_RAISE') {
     const isStrong = ['AA', 'KK', 'QQ', 'AKs'].includes(handKey);
@@ -134,17 +134,10 @@ function makeDecision(
       }
     } else if (rng.next() < 0.15) {
       action = 'call'; // Cold call leak
-      isCompliant = false;
-      deviationType = 'COLD_CALL';
     }
   } else if (scenario === 'BB_VS_RAISE') {
-    const isSuited = handKey.endsWith('s');
     if (rng.next() < h.bbFoldVsRaise) {
       action = 'fold';
-      if (isSuited) {
-        isCompliant = false;
-        deviationType = 'BB_FOLD_SUITED';
-      }
     } else {
       action = 'call';
     }
@@ -161,11 +154,15 @@ function makeDecision(
     handId,
     position,
     handKey,
-    stackBb: 18 + (rng.next() * 40),
+    stackBb: Number((18 + rng.next() * 40).toFixed(1)),
     scenario,
     action,
-    isCompliant,
-    deviationType,
+    openerPosition,
+    // Seeded exactly as the parser seeds an imported decision
+    // (scenarioDetector.ts): the engine overwrites these when it can grade the
+    // spot, and leaves them untouched when it refuses.
+    isCompliant: false,
+    deviationType: null,
     sawFlop,
     wasPreFlopRaiser,
     cbetOpportunity,
@@ -223,17 +220,45 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
   const heroPosition = rng.pick(SEAT_POSITIONS);
   const handKey = selectHandKey(rng);
 
-  // Scenarios
+  // Only seats that act before hero can have opened. Without this the generator
+  // invents impossible spots (an SB open with CO still to act) that the engine
+  // then refuses for a reason that reads like a coverage gap.
+  const earlierSeats: Position[] = PREFLOP_ORDER.slice(
+    0,
+    PREFLOP_ORDER.indexOf(heroPosition),
+  ).filter(p => p !== 'BB');
+
+  // Scenarios. Folded to the small blind is a blind war, not an RFI — the same
+  // call detectScenario makes for an imported hand.
   let scenario: Scenario = 'RFI';
   if (heroPosition === 'BB') scenario = 'BB_VS_RAISE';
-  else if (rng.next() < 0.3) scenario = 'FACING_RAISE';
+  else if (earlierSeats.length > 0 && rng.next() < 0.3) scenario = 'FACING_RAISE';
+  else if (heroPosition === 'SB') scenario = 'BLIND_WAR';
 
-  const heroChipsBefore = 3000 + (rng.next() * 5000);
+  const heroChipsBefore = Math.round(3000 + rng.next() * 5000);
   const isEarlyBustoutFinale = tournamentHandCount <= 12 && handIndex === tournamentHandCount - 1;
   const effectiveNetProfit = isEarlyBustoutFinale ? -Math.ceil(heroChipsBefore / bigBlind) : netProfit;
-
-  const heroDecision = makeDecision(id, handIndex, tournamentIndex, effectiveNetProfit, bigBlind, scenario, heroPosition, handKey, rng);
   const heroChipsAfter = Math.max(0, heroChipsBefore + Math.round(effectiveNetProfit * bigBlind));
+
+  // Players and the opener are resolved before the decision so the decision can
+  // carry a real openerPosition — without it every facing-raise spot is refused
+  // for "unknown opener", blaming a parser that was never involved.
+  const players = makePlayers(
+    id,
+    heroPosition,
+    heroChipsBefore,
+    heroChipsAfter,
+    bigBlind,
+    effectiveNetProfit,
+    rng
+  );
+
+  const opener =
+    scenario === 'FACING_RAISE' || scenario === 'BB_VS_RAISE'
+      ? rng.pick(players.filter(p => earlierSeats.includes(p.position)))
+      : null;
+
+  const heroDecision = makeDecision(id, handIndex, tournamentIndex, effectiveNetProfit, bigBlind, scenario, heroPosition, handKey, opener?.position ?? null, rng);
   const sawFlop = heroDecision.sawFlop;
 
   const hand: Hand = {
@@ -259,16 +284,6 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
     villainDeltas: [],
   };
 
-  const players = makePlayers(
-    id,
-    heroPosition,
-    heroChipsBefore,
-    heroChipsAfter,
-    bigBlind,
-    effectiveNetProfit,
-    rng
-  );
-
   // Update villain deltas and identify main villain
   const actionAmount = heroDecision.action === 'raise'
     ? bigBlind * 2.5
@@ -284,17 +299,13 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
   let currentSeq = 3;
 
   // Add scenario-based actions
-  if (scenario === 'FACING_RAISE' || scenario === 'BB_VS_RAISE') {
-    const raiserOptions = players.filter(p => !p.isHero && p.position !== 'BB');
-    if (raiserOptions.length > 0) {
-      const raiser = rng.pick(raiserOptions);
-      actions.push({ handId: id, street: 'preflop', playerName: raiser.playerName, actionType: 'raise', amount: bigBlind * 2.2, isAllIn: false, sequence: currentSeq++ });
-    }
+  if (opener) {
+    actions.push({ handId: id, street: 'preflop', playerName: opener.playerName, actionType: 'raise', amount: bigBlind * 2.2, isAllIn: false, sequence: currentSeq++ });
   }
 
   actions.push({ handId: id, street: 'preflop', playerName: HERO, actionType: heroDecision.action, amount: isEarlyBustoutFinale ? heroChipsBefore : actionAmount, isAllIn: isEarlyBustoutFinale, sequence: currentSeq++ });
 
-  if (heroDecision.action === 'raise' && scenario === 'RFI') {
+  if (heroDecision.action === 'raise' && (scenario === 'RFI' || scenario === 'BLIND_WAR')) {
     const callerOptions = players.filter(p => !p.isHero);
     if (callerOptions.length > 0) {
       const caller = rng.pick(callerOptions);
@@ -309,12 +320,16 @@ function makeHandBundle(tournament: Tournament, tournamentIndex: number, handInd
     );
   }
 
+  // Grade through the production path (workerProcessor.ts does exactly this for
+  // imported hands), so a demo verdict is never one the engine wouldn't reach.
+  const [gradedDecision] = batchCheckCompliance([heroDecision]);
+
   return {
     hand,
     players,
     actions,
     tournament,
-    heroDecision,
+    heroDecision: gradedDecision!,
   };
 }
 
