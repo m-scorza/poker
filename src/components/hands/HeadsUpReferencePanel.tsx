@@ -5,6 +5,7 @@ import {
   saveLocalHeadsUpReferenceCsv,
 } from '../../data/localHeadsUpReferences';
 import type { HeadsUpReferenceKind } from '../../analysis/headsUpPushFoldReference';
+import { chipAmount } from '../../utils/format';
 
 export function HeadsUpReferencePanel({ onUploadSuccess }: { onUploadSuccess: () => void }) {
   const [localReferenceSummary, setLocalReferenceSummary] = useState(() => getLocalHeadsUpReferenceSummary());
@@ -109,7 +110,7 @@ export function HeadsUpReferencePanel({ onUploadSuccess }: { onUploadSuccess: ()
               {summary ? (
                 <div className="mt-1 space-y-0.5">
                   <div className="truncate text-[var(--fg)]">{summary.fileName}</div>
-                  <div>{summary.rows} stacks · {summary.hands} hands · {summary.minStackBb}-{summary.maxStackBb}bb</div>
+                  <div>{summary.rows} stacks · {summary.hands} hands · {chipAmount(summary.minStackBb)}-{chipAmount(summary.maxStackBb)}bb</div>
                 </div>
               ) : (
                 <div className="mt-1">No local {kind} reference loaded.</div>
