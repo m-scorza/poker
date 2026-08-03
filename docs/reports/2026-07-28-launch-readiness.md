@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-07-28
-related: ['#221', '#226', '#227', 'docs/product/STATUS.md', 'AUDIT_NEW.md']
+related: ['#221', '#226', '#227', '#232', '#233', 'docs/product/STATUS.md', 'AUDIT_NEW.md']
 ---
 # Launch-Readiness Assessment — 2026-07-28
 
@@ -49,9 +49,9 @@ decisions the owner must make** (not more code) plus a few hardening items.
 
 These need the owner's product/domain call before they can be actioned:
 
-1. **Cash-game support.** Out of the current tournament scope. The float→cents
-   path exists, but cash-specific parsing (blinds, straddles, rake caps) is
-   unverified. Decide: in or out for launch.
+1. ~~**Cash-game support.**~~ **Closed by #233** — the uploader now gates
+   cash-game files with a clear message, so tournament-only scope is enforced
+   in code rather than assumed.
 2. **OHH uncalled bets.** The Open Hand History parser does not return uncalled
    bets, so `heroChipsAfter` can be understated. OHH is outside the PS/GG scope
    and the fix is uncertain without a real OHH fixture — confirm whether OHH is
@@ -65,10 +65,8 @@ These need the owner's product/domain call before they can be actioned:
 
 ## Open items — hardening (code, low-risk, no decision needed)
 
-1. **CSP / PWA** (`AUDIT_NEW.md` B4/B8) — no Content-Security-Policy on a PWA
-   that loads user files; service worker lacks `skipWaiting`, so security fixes
-   activate lazily. Add a strict `index.html` CSP + `skipWaiting`/`clientsClaim`
-   (needs a build + manual smoke to avoid breaking inline styles/worker/blob).
+1. ~~**CSP / PWA**~~ **Closed by #232** — strict `index.html` CSP plus
+   immediate service-worker activation.
 2. **Accessibility** — one surface done (#223, VillainsPage earlier). A full
    sweep (dialog `aria-labelledby`, remaining pages) would round it out.
 3. **Error reporting** — client-only app has no error surface beyond
@@ -77,10 +75,15 @@ These need the owner's product/domain call before they can be actioned:
 
 ## Recommended next actions
 
-1. Owner answers the four decision items above (30 min) — unblocks the largest
-   chunk of remaining work.
-2. Ship the CSP + PWA hardening PR (in-scope, no decision).
-3. If cash games are in scope, add a cash-game parser fixture + tests before
-   launch; if not, gate the uploader to tournament formats with a clear message.
-4. Close this report (`status: resolved`, move to `archive/`) once the decision
-   items are answered and the hardening PR lands.
+**Update 2026-08-03.** Both no-decision code items have landed (#232 CSP/PWA,
+#233 cash-game gating). What is left is owner input plus two optional hardening
+sweeps — no engineering work is blocked on anything but the answers.
+
+1. Owner answers the remaining decision items above — OHH as a launch format,
+   and the four ASK_USER audit items (G2 cbetHU in 3-bet pots, G3 non-1500 MTT
+   starting stacks for BPWR, G4 ICM RP magnitudes, G8 run-it-twice / disconnect
+   markers).
+2. Optional before launch, no decision needed: finish the accessibility sweep
+   and add a lightweight local error log for triaging real-user parser failures.
+3. Close this report (`status: resolved`, move to `archive/`) once the decision
+   items are answered.
