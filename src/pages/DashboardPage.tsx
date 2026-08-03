@@ -21,6 +21,7 @@ import { DemoDataButton } from '../components/shared/DemoDataButton';
 
 export function DashboardPage() {
   const { strategyProfile, activeSessionId } = useAppStore();
+  const dataIsArriving = useAppStore((s) => s.isSeedingDemo || s.isImporting);
 
   const totalHands = useLiveQuery(() => db.hands.count(), []) ?? 0;
 
@@ -90,6 +91,18 @@ export function DashboardPage() {
   }, [rawData, activeSessionId, strategyProfile]);
 
   if (totalHands === 0) {
+    // A seed/import in flight legitimately reports zero hands until it lands.
+    // Saying "No Data Found" then contradicts the loading indicator.
+    if (dataIsArriving) {
+      return (
+        <div style={{ padding: 'var(--s-xl)', textAlign: 'center' }} role="status">
+          <h3 className="text-lg font-bold mb-4" style={{ color: 'var(--fg)' }}>Loading data…</h3>
+          <p className="text-sm mb-8" style={{ color: 'var(--fg-dim)' }}>
+            Hands are being written locally. This view fills in as the import finishes.
+          </p>
+        </div>
+      );
+    }
     return (
       <div style={{ padding: 'var(--s-xl)', textAlign: 'center' }}>
         <h3 className="text-lg font-bold mb-4" style={{ color: 'var(--fg)' }}>No Data Found</h3>

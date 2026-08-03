@@ -15,6 +15,7 @@ import { Search, Users, Tag, MessageSquare, X, Plus } from 'lucide-react';
 import { db, saveVillainNote, getAllVillainNotes } from '../data/store';
 import { pct } from '../utils/format';
 import type { VillainStats } from '../types/villain';
+import { useAppStore } from '../data/appStore';
 
 interface VillainRow {
   name: string;
@@ -42,6 +43,9 @@ export function VillainsPage() {
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(true);
   const [selectedVillain, setSelectedVillain] = useState<VillainRow | null>(null);
+  const isSeedingDemo = useAppStore((s) => s.isSeedingDemo);
+  const isImporting = useAppStore((s) => s.isImporting);
+  const dataIsArriving = isSeedingDemo || isImporting;
 
   useEffect(() => {
     async function load() {
@@ -111,7 +115,13 @@ export function VillainsPage() {
         </div>
       ) : villains.length === 0 ? (
         <div className="compartment p-8 text-center">
-          <p className="text-[var(--fg-dim)]">Import hands to track villains.</p>
+          {/* While a seed/import is running the table is legitimately empty —
+              don't tell the user to import when data is already on its way. */}
+          <p className="text-[var(--fg-dim)]">
+            {dataIsArriving
+              ? 'Loading data — villain profiles appear once the import finishes.'
+              : 'Import hands to track villains.'}
+          </p>
         </div>
       ) : (
         <>
