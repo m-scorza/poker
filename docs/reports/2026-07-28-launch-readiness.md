@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-07-28
-related: ['#221', '#226', '#227', '#232', '#233', 'docs/product/STATUS.md', 'AUDIT_NEW.md']
+related: ['#221', '#226', '#227', '#232', '#233', '#237', 'docs/product/STATUS.md', 'AUDIT_NEW.md']
 ---
 # Launch-Readiness Assessment — 2026-07-28
 
@@ -69,21 +69,25 @@ These need the owner's product/domain call before they can be actioned:
    immediate service-worker activation.
 2. **Accessibility** — one surface done (#223, VillainsPage earlier). A full
    sweep (dialog `aria-labelledby`, remaining pages) would round it out.
-3. **Error reporting** — client-only app has no error surface beyond
-   `ErrorBoundary` console logs; a lightweight local error log would help triage
-   real-user parser failures post-launch.
+3. ~~**Error reporting**~~ **Closed by #237** — a local crash log now persists
+   `ErrorBoundary` catches and unhandled promise rejections, with a Markdown
+   export in Data Health. Note the framing above was slightly off: parser
+   failures were already covered by the import-diagnostics ledger. The real
+   gap was render crashes (the fallback's reload destroyed the evidence) and
+   async rejections (nothing registered `unhandledrejection` at all).
 
 ## Recommended next actions
 
-**Update 2026-08-03.** Both no-decision code items have landed (#232 CSP/PWA,
-#233 cash-game gating). What is left is owner input plus two optional hardening
-sweeps — no engineering work is blocked on anything but the answers.
+**Update 2026-08-04.** Every no-decision code item has now landed — #232
+(CSP/PWA), #233 (cash-game gating), #237 (local crash log). The only
+engineering work left is the accessibility sweep; everything else waits on
+owner input.
 
 1. Owner answers the remaining decision items above — OHH as a launch format,
    and the four ASK_USER audit items (G2 cbetHU in 3-bet pots, G3 non-1500 MTT
    starting stacks for BPWR, G4 ICM RP magnitudes, G8 run-it-twice / disconnect
    markers).
 2. Optional before launch, no decision needed: finish the accessibility sweep
-   and add a lightweight local error log for triaging real-user parser failures.
+   (hardening item 2 — the last open code item in this report).
 3. Close this report (`status: resolved`, move to `archive/`) once the decision
    items are answered.
