@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { clsx } from 'clsx';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { ConfirmDialog } from '../shared/ConfirmDialog';
-import { getRecentImportRuns, clearImportRuns } from '../../data/store';
+import { getRecentImportRuns, clearImportRuns, getRecentErrorLogRecords, clearErrorLog } from '../../data/store';
+import { ERROR_LOG_RETENTION_RECORDS, buildErrorLogMarkdown } from '../../data/errorLog';
 import {
   CHIP_ACCOUNTING_FIX_DATE,
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,
@@ -31,6 +32,18 @@ function formatLedgerRate(rate: number | null): string {
   return rate === null ? 'n/a' : `${Math.round(rate * 100)}%`;
 }
 
+function downloadMarkdown(markdown: string, filename: string) {
+  const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 const formatDateTime = (date: Date | null) => date
   ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date)
   : 'Never';
@@ -47,20 +60,36 @@ export function DataHealthPanel({ onReimport }: { onReimport: () => void }) {
   const retainedImportRunCount = retainedImportRuns?.length ?? 0;
   const topWarningCategories = dataHealth.ledger.warningCategories.slice(0, 2);
   const showPreFixNotice = hasPreFixImportRuns(retainedImportRuns ?? []);
+  const errorLogRecords = useLiveQuery(
+    () => getRecentErrorLogRecords(ERROR_LOG_RETENTION_RECORDS),
+    [],
+    [],
+  ) ?? [];
 
   function downloadImportDiagnostics() {
-    const markdown = buildImportDiagnosticsMarkdown(retainedImportRuns ?? [], {
-      maxRuns: IMPORT_DIAGNOSTICS_RETENTION_RUNS,
-    });
-    const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `poker-import-diagnostics-${new Date().toISOString().slice(0, 10)}.md`;
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    URL.revokeObjectURL(url);
+    downloadMarkdown(
+      buildImportDiagnosticsMarkdown(retainedImportRuns ?? [], {
+        maxRuns: IMPORT_DIAGNOSTICS_RETENTION_RUNS,
+      }),
+      `poker-import-diagnostics-${new Date().toISOString().slice(0, 10)}.md`,
+    );
+  }
+
+  function downloadErrorLog() {
+    downloadMarkdown(
+      buildErrorLogMarkdown(errorLogRecords, { maxRecords: ERROR_LOG_RETENTION_RECORDS }),
+      `poker-error-log-${new Date().toISOString().slice(0, 10)}.md`,
+    );
+  }
+
+  async function clearLocalErrorLog() {
+    try {
+      await clearErrorLog();
+      setDiagnosticsMessage('Local error log cleared. Parsed hands were not deleted.');
+    } catch (error) {
+      console.warn('Local error log could not be cleared:', error);
+      setDiagnosticsMessage('Local error log could not be cleared.');
+    }
   }
 
   async function clearLocalImportDiagnostics() {
@@ -178,6 +207,52 @@ export function DataHealthPanel({ onReimport }: { onReimport: () => void }) {
       {diagnosticsMessage && (
         <div className="mt-3 rounded border border-white/10 bg-white/5 p-2 text-[var(--fg-muted)]">
           {diagnosticsMessage}
+        </div>
+      )}
+
+      {errorLogRecords.length > 0 && (
+        <div
+          data-testid="error-log-section"
+          className="mt-4 pt-4 border-t border-[var(--hairline)]"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div className="font-semibold text-[var(--fg)]">
+                Error log ({errorLogRecords.length})
+              </div>
+              <div className="mt-1 text-[var(--fg-muted)]">
+                Saved on this device only. Nothing is uploaded. Share the report if
+                something broke and you want it looked at.
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={downloadErrorLog}
+                className="rounded border border-warn/20 bg-warn/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-warn hover:bg-warn/15 transition-colors cursor-pointer"
+                title="Download error messages and sanitized stack frames. No hand histories, cards, or local paths."
+              >
+                Export Errors
+              </button>
+              <button
+                type="button"
+                onClick={clearLocalErrorLog}
+                className="rounded border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[var(--fg-muted)] hover:bg-white/10 transition-colors cursor-pointer"
+              >
+                Clear Errors
+              </button>
+            </div>
+          </div>
+          <ul className="mt-3 space-y-1 text-[var(--fg-dim)]">
+            {errorLogRecords.slice(0, 3).map((record) => (
+              <li key={record.id} className="truncate">
+                <span className="text-[var(--fg-muted)]">
+                  {formatDateTime(record.occurredAt)} · {record.route}
+                </span>{' '}
+                — {record.name}: {record.message}
+              </li>
+            ))}
+          </ul>
         </div>
       )}
       {dataHealth.warnings.length > 0 && !showHistory && (

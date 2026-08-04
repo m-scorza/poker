@@ -1,5 +1,6 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react';
 import { AlertTriangle, RefreshCcw } from 'lucide-react';
+import { reportError } from '../../data/errorReporter';
 
 interface Props {
   children?: ReactNode;
@@ -24,6 +25,9 @@ export class ErrorBoundary extends Component<Props, State> {
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     console.error('Uncaught error in component tree:', error, errorInfo);
+    // Persist locally: the fallback's only action is a reload, which would
+    // otherwise destroy the only record of what happened.
+    reportError({ kind: 'render', error, componentStack: errorInfo.componentStack });
   }
 
   public render() {
@@ -44,7 +48,9 @@ export class ErrorBoundary extends Component<Props, State> {
             </h2>
             
             <p className="text-[var(--fg-dim)] mb-6">
-              The application encountered a critical error and cannot continue. Our robot assistant (that&apos;s me) apologizes.
+              The app hit an error it could not recover from. Your data is safe — it
+              stays in this browser. The details were saved to a local error log you
+              can copy from Hands → Data Health after reloading.
             </p>
 
             {this.state.error && (

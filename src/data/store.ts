@@ -12,6 +12,7 @@ import type { VillainProfile, VillainRawCounters, VillainStats, PositionStats, P
 import type { ParsedHand } from '../parser/pokerstars';
 import type { ParsedTournamentSummary } from '../parser/tournamentSummary';
 import type { ImportRunRecord } from './importRuns';
+import { ERROR_LOG_RETENTION_RECORDS, type ErrorLogRecord } from './errorLog';
 import { IMPORT_DIAGNOSTICS_RETENTION_RUNS } from './importDiagnosticsPolicy';
 import { computeVillainStats, emptyCounters } from '../analysis/villainClassifier';
 import {
@@ -53,6 +54,7 @@ const db = new Dexie('PokerAnalyzer') as Dexie & {
   settings: EntityTable<AppSettings, 'id'>;
   leakStatus: EntityTable<LeakStatusRecord, 'leakId'>;
   srsReview: EntityTable<SrsReviewRecord, 'spotKey'>;
+  errorLog: EntityTable<ErrorLogRecord, 'id'>;
 };
 
 db.version(1).stores({
@@ -130,6 +132,12 @@ db.version(6).stores({
 // Additive — a brand-new table starts empty, so no upgrade() is needed.
 db.version(7).stores({
   srsReview: 'spotKey, dueAt',
+});
+
+// Local-only crash log (ErrorBoundary catches + unhandled rejections).
+// Additive — a brand-new table starts empty, so no upgrade() is needed.
+db.version(8).stores({
+  errorLog: 'id, occurredAt',
 });
 
 export { db };
@@ -656,7 +664,7 @@ export async function importTournamentSummaries(
 export async function clearAllData(): Promise<void> {
   await db.transaction(
     'rw',
-    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions, db.importRuns, db.leakStatus, db.srsReview],
+    [db.hands, db.players, db.actions, db.tournaments, db.heroDecisions, db.villains, db.sessions, db.importRuns, db.leakStatus, db.srsReview, db.errorLog],
     async () => {
       await db.hands.clear();
       await db.players.clear();
@@ -668,6 +676,7 @@ export async function clearAllData(): Promise<void> {
       await db.importRuns.clear();
       await db.leakStatus.clear();
       await db.srsReview.clear();
+      await db.errorLog.clear();
     },
   );
 }
@@ -726,6 +735,42 @@ export async function clearImportRuns(): Promise<void> {
 
 export async function getRecentImportRuns(limit = 10): Promise<ImportRunRecord[]> {
   return db.importRuns.orderBy('importedAt').reverse().limit(limit).toArray();
+}
+
+// --- Local crash log ---
+
+export async function saveErrorLogRecord(
+  record: ErrorLogRecord,
+  retentionLimit = ERROR_LOG_RETENTION_RECORDS,
+): Promise<void> {
+  const normalizedLimit = Math.max(0, Math.floor(retentionLimit));
+
+  await db.transaction('rw', db.errorLog, async () => {
+    await db.errorLog.put(record);
+
+    if (normalizedLimit === 0) {
+      await db.errorLog.clear();
+      return;
+    }
+
+    const excessKeys = await db.errorLog
+      .orderBy('occurredAt')
+      .reverse()
+      .offset(normalizedLimit)
+      .primaryKeys();
+
+    if (excessKeys.length > 0) {
+      await db.errorLog.bulkDelete(excessKeys);
+    }
+  });
+}
+
+export async function clearErrorLog(): Promise<void> {
+  await db.errorLog.clear();
+}
+
+export async function getRecentErrorLogRecords(limit = 10): Promise<ErrorLogRecord[]> {
+  return db.errorLog.orderBy('occurredAt').reverse().limit(limit).toArray();
 }
 
 // --- Leak lifecycle (living entities) ---

@@ -11,12 +11,16 @@ import {
   getSrsReviews,
   recordSrsReview,
   saveImportRun,
+  saveErrorLogRecord,
+  getRecentErrorLogRecords,
+  clearErrorLog,
   saveVillainNote,
   setLeakStudying,
   stopStudyingLeak,
 } from '../store';
 import type { Action, Hand, PlayerInHand, Position } from '../../types/hand';
 import type { ImportRunRecord } from '../importRuns';
+import { ERROR_LOG_RETENTION_RECORDS, buildErrorLogRecord } from '../errorLog';
 import {
   IMPORT_DIAGNOSTICS_RETENTION_RUNS,
   buildImportDiagnosticsSnapshot,
@@ -312,6 +316,44 @@ describe('import diagnostics persistence', () => {
     await clearImportRuns();
 
     await expect(getRecentImportRuns()).resolves.toEqual([]);
+  });
+});
+
+describe('error log persistence', () => {
+  const makeErrorRecord = (index: number) =>
+    buildErrorLogRecord(
+      { kind: 'render', error: new Error(`boom ${index}`), route: '/leaks' },
+      new Date(Date.UTC(2026, 7, 1, 0, index)),
+    );
+
+  beforeEach(async () => {
+    await clearAllData();
+  });
+
+  it('keeps only the latest errors by default', async () => {
+    for (let i = 0; i < ERROR_LOG_RETENTION_RECORDS + 3; i++) {
+      await saveErrorLogRecord(makeErrorRecord(i));
+    }
+
+    const records = await getRecentErrorLogRecords(ERROR_LOG_RETENTION_RECORDS + 10);
+
+    expect(records).toHaveLength(ERROR_LOG_RETENTION_RECORDS);
+    expect(records[0]!.message).toBe(`boom ${ERROR_LOG_RETENTION_RECORDS + 2}`);
+    expect(records[records.length - 1]!.message).toBe('boom 3');
+  });
+
+  it('clears the error log without deleting parsed hands', async () => {
+    await saveErrorLogRecord(makeErrorRecord(1));
+    await clearErrorLog();
+
+    await expect(getRecentErrorLogRecords()).resolves.toEqual([]);
+  });
+
+  it('is cleared by a full local data reset', async () => {
+    await saveErrorLogRecord(makeErrorRecord(1));
+    await clearAllData();
+
+    await expect(getRecentErrorLogRecords()).resolves.toEqual([]);
   });
 });
 
