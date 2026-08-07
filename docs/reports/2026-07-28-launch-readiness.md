@@ -52,10 +52,12 @@ These need the owner's product/domain call before they can be actioned:
 1. ~~**Cash-game support.**~~ **Closed by #233** — the uploader now gates
    cash-game files with a clear message, so tournament-only scope is enforced
    in code rather than assumed.
-2. **OHH uncalled bets.** The Open Hand History parser does not return uncalled
-   bets, so `heroChipsAfter` can be understated. OHH is outside the PS/GG scope
-   and the fix is uncertain without a real OHH fixture — confirm whether OHH is
-   a launch format at all before investing.
+2. ~~**OHH uncalled bets.**~~ **Closed 2026-08-04.** Owner ruling: OHH stays a
+   launch format, fix the gap. Done — the uncalled amount is now derived per
+   street (top contributor beyond what any opponent matched) rather than
+   inferred from a spec line OHH doesn't have, so the real fixture that was
+   the stated blocker turned out not to be needed. The existing iPoker fixture
+   test was pinning the bug and has been corrected.
 3. **ASK_USER audit items** (from `AUDIT_NEW.md`): G2 (cbetHU in 3-bet pots),
    G3 (non-1500 MTT starting stacks for BPWR), G4 (ICM RP magnitudes), G8
    (run-it-twice / disconnect markers). Each needs a domain answer.
