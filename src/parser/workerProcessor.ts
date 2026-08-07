@@ -130,7 +130,7 @@ export async function processWorkerFiles(
       if (identity.type === 'unknown') {
         recordFileError(file, 'Unsupported or unrecognized poker file. Upload PokerStars/GGPoker hand histories, tournament summaries, Open Hand History JSON, or ZIPs containing those files.');
       } else if (identity.type === 'cash_game') {
-        recordFileError(file, 'Cash-game hand histories are not supported yet — this tool analyzes tournament play. Upload PokerStars or GGPoker tournament hand histories to continue.');
+        recordFileError(file, 'This tool analyzes tournament play only, so cash-game hand histories are not supported. Upload PokerStars or GGPoker tournament hand histories to continue.');
       } else if (identity.type === 'hand_history') {
         let parsedHands: ParsedHand[] = [];
         let skippedBlocks = 0;

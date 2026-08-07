@@ -42,6 +42,15 @@ competitor checklists.
   A refusal to become in-game assistance software is part of the identity
   (and keeps the tool clear of site-tooling policy problems). Any PR or
   plan proposing live-play assistance gets refused, full stop.
+- **Tournaments only. No cash games, ever.** Owner ruling, 2026-08-04
+  interview: this is constitutional, not evidence-gated. The whole analytical
+  spine assumes tournament play — ICM, bounties, finish position, push/fold,
+  ROI by buy-in — so cash support would not be "a parser addition," it would
+  be a second product. The uploader already refuses cash files by design
+  (`siteIdentifier.ts` types them `cash_game`; `workerProcessor.ts` rejects
+  them with a plain message). Any PR or plan proposing a cash-game parser
+  gets refused, full stop — do not re-litigate this because a `not supported
+  yet` comment reads like an invitation.
 - **No silent telemetry.** The app phones home nothing by default. If
   usage analytics ever matter for validation, they arrive opt-in and
   through the sharing-boundary work (G2), never quietly.
