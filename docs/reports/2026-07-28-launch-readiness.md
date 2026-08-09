@@ -1,7 +1,7 @@
 ---
 status: open
 date: 2026-07-28
-related: ['#221', '#226', '#227', 'docs/product/STATUS.md', 'AUDIT_NEW.md']
+related: ['#221', '#226', '#227', '#232', '#233', '#237', 'docs/product/STATUS.md', 'AUDIT_NEW.md']
 ---
 # Launch-Readiness Assessment — 2026-07-28
 
@@ -49,38 +49,83 @@ decisions the owner must make** (not more code) plus a few hardening items.
 
 These need the owner's product/domain call before they can be actioned:
 
-1. **Cash-game support.** Out of the current tournament scope. The float→cents
-   path exists, but cash-specific parsing (blinds, straddles, rake caps) is
-   unverified. Decide: in or out for launch.
-2. **OHH uncalled bets.** The Open Hand History parser does not return uncalled
-   bets, so `heroChipsAfter` can be understated. OHH is outside the PS/GG scope
-   and the fix is uncertain without a real OHH fixture — confirm whether OHH is
-   a launch format at all before investing.
-3. **ASK_USER audit items** (from `AUDIT_NEW.md`): G2 (cbetHU in 3-bet pots),
-   G3 (non-1500 MTT starting stacks for BPWR), G4 (ICM RP magnitudes), G8
-   (run-it-twice / disconnect markers). Each needs a domain answer.
+1. ~~**Cash-game support.**~~ **Closed by #233** — the uploader now gates
+   cash-game files with a clear message, so tournament-only scope is enforced
+   in code rather than assumed.
+2. ~~**OHH uncalled bets.**~~ **Closed 2026-08-04.** Owner ruling: OHH stays a
+   launch format, fix the gap. Done — the uncalled amount is now derived per
+   street (top contributor beyond what any opponent matched) rather than
+   inferred from a spec line OHH doesn't have, so the real fixture that was
+   the stated blocker turned out not to be needed. The existing iPoker fixture
+   test was pinning the bug and has been corrected.
+3. **ASK_USER audit items** (from `AUDIT_NEW.md`). **G3 is struck** — verified
+   resolved 2026-08-07 (#231 derives the real starting stack; no hardcoded
+   1500 remains). Three left, written out here so they can be answered without
+   re-reading the audit:
+
+   - **G2 — the c-bet HU denominator.** `scenarioDetector.ts` decides whether a
+     flop is heads-up. When hero opens, a villain 3-bet shoves, and a third
+     player calls, the flop has two *active* players but three who saw it, and
+     the shover cannot act. Should that count as a HU c-bet spot? This is the
+     denominator of "C-bet HU 100%", the highest-priority leak in the app, so a
+     wrong answer here quietly corrupts the headline number. *Recommendation if
+     you have no strong view: count it as HU (subtract all-in players), since
+     the c-bet decision hero actually faces is heads-up.*
+   - **G4 — ICM risk-premium magnitudes.** Current mapping is bubble 10 → ITM 8
+     → FT 15. The bubble→ITM drop is directionally right, but a flat RP of 8
+     across *all* of ITM is coarse for late-ITM short stacks. Question: should
+     ITM be split (early-ITM vs late-ITM), and what magnitudes? Note this
+     affects **grading**, not just display — `checkFacingAllIn` adds the stage
+     risk premium to required equity.
+   - **G8 — run-it-twice / disconnect markers.** Neither is parsed. Question is
+     purely factual: can PokerStars or GGPoker *tournament* hand histories ever
+     emit them? If never, this is struck like G3 rather than fixed.
 4. **A8 / A9** — confirmed **not bugs** this pass (cbetHU subtracts preflop
    all-ins; the non-monotone ICM RP number is display-only, grading uses a
    separate monotone table). Flagging so they're not re-opened.
 
 ## Open items — hardening (code, low-risk, no decision needed)
 
-1. **CSP / PWA** (`AUDIT_NEW.md` B4/B8) — no Content-Security-Policy on a PWA
-   that loads user files; service worker lacks `skipWaiting`, so security fixes
-   activate lazily. Add a strict `index.html` CSP + `skipWaiting`/`clientsClaim`
-   (needs a build + manual smoke to avoid breaking inline styles/worker/blob).
-2. **Accessibility** — one surface done (#223, VillainsPage earlier). A full
-   sweep (dialog `aria-labelledby`, remaining pages) would round it out.
-3. **Error reporting** — client-only app has no error surface beyond
-   `ErrorBoundary` console logs; a lightweight local error log would help triage
-   real-user parser failures post-launch.
+1. ~~**CSP / PWA**~~ **Closed by #232** — strict `index.html` CSP plus
+   immediate service-worker activation.
+2. ~~**Accessibility**~~ **Closed 2026-08-09**, with the scope stated honestly.
+
+   *Dialogs:* all three now carry `role`, `aria-modal`, an accessible name, Esc,
+   and a focus trap. `CommandPalette` was the only gap — it asserted
+   `aria-modal="true"` while letting Tab walk out into the page behind it, and
+   its Esc worked only while the input had focus. It now uses the shared
+   `useFocusTrap`. ConfirmDialog and HandReplay were already complete.
+
+   *Pages:* audited the **rendered DOM** (not grep) across all 11 routes with a
+   seeded demo dataset, checking every visible button, link, and form control
+   for an accessible name, every image for `alt`, and every page for duplicate
+   ids. **Zero findings** — the earlier passes plus #223 had in fact covered it.
+
+   **Not covered by this sweep**, and still open if a full WCAG pass is ever
+   wanted: colour contrast, visible focus indicators, custom-widget keyboard
+   patterns (the range grid and the listbox/option pattern in the palette), and
+   screen-reader announcement of live-updating regions.
+3. ~~**Error reporting**~~ **Closed by #237** — a local crash log now persists
+   `ErrorBoundary` catches and unhandled promise rejections, with a Markdown
+   export in Data Health. Note the framing above was slightly off: parser
+   failures were already covered by the import-diagnostics ledger. The real
+   gap was render crashes (the fallback's reload destroyed the evidence) and
+   async rejections (nothing registered `unhandledrejection` at all).
 
 ## Recommended next actions
 
-1. Owner answers the four decision items above (30 min) — unblocks the largest
-   chunk of remaining work.
-2. Ship the CSP + PWA hardening PR (in-scope, no decision).
-3. If cash games are in scope, add a cash-game parser fixture + tests before
-   launch; if not, gate the uploader to tournament formats with a clear message.
-4. Close this report (`status: resolved`, move to `archive/`) once the decision
-   items are answered and the hardening PR lands.
+**Update 2026-08-09. Every code item in this report is now closed** — #232
+(CSP/PWA), #233 (cash-game gating), #237 (local crash log, OHH uncalled bets,
+accessibility sweep). Nothing here is waiting on engineering.
+
+What remains is three owner answers (below). G3 was struck on evidence rather
+than answered.
+
+1. Owner answers the three remaining questions, written out in full under
+   decision item 3 above: **G2** (c-bet HU denominator — carries a fallback
+   recommendation if you have no strong view), **G4** (ICM risk-premium
+   magnitudes — note this affects grading, not just display), and **G8**
+   (whether PS/GG tournament histories can emit run-it-twice or disconnect
+   markers at all).
+2. Close this report (`status: resolved`, move to `archive/`) once the decision
+   items are answered.

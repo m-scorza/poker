@@ -171,7 +171,11 @@ describe('parseOpenHandHistoryFile', () => {
     expect(parsed!.hand.boardFlop).toEqual(['4s', 'Jc', '7d']);
     expect(parsed!.hand.boardTurn).toBe('7s');
     expect(parsed!.hand.heroChipsBefore).toBe(9193);
-    expect(parsed!.hand.heroChipsAfter).toBe(8534);
+    // Hero bets 2230 on the turn and Player10 folds, so that 2230 is uncalled
+    // and returned. This previously asserted 8534 — understated by exactly the
+    // returned 2230, i.e. the test was pinning the uncalled-bet bug the
+    // 2026-07-28 launch-readiness report flagged.
+    expect(parsed!.hand.heroChipsAfter).toBe(10764);
     expect(parsed!.tournament.buyIn).toBeCloseTo(0.45, 2);
     expect(parsed!.tournament.fee).toBeCloseTo(0.05, 2);
     expect(parsed!.tournament.currency).toBe('USD');
@@ -261,6 +265,92 @@ describe('parseOpenHandHistoryFile', () => {
     expect(parseOpenHandHistoryFile(build('PLAY'), 'scorza23')[0]!.tournament.currency).toBe('PLAY');
     expect(parseOpenHandHistoryFile(build('TICKET'), 'scorza23')[0]!.tournament.currency).toBe('TICKET');
     expect(parseOpenHandHistoryFile(build('GBP'), 'scorza23')[0]!.tournament.currency).toBe('USD');
+  });
+
+  it('returns an uncalled bet instead of counting it as invested', () => {
+    // Hero shoves 1000 into a villain who can only cover 300. The 700 excess
+    // is returned in real poker, but OHH has no "Uncalled bet returned" line
+    // the way PokerStars does, so it has to be derived from contributions.
+    // Without that, heroChipsAfter is understated by exactly the uncalled 700.
+    const file = JSON.stringify({
+      ohh: {
+        spec_version: '1.2.2',
+        site_name: 'iPoker',
+        game_type: 'Holdem',
+        start_date_utc: '2026-08-04T12:00:00Z',
+        table_size: 2,
+        game_number: 'UNCALLED-1',
+        small_blind_amount: 10,
+        big_blind_amount: 20,
+        dealer_seat: 1,
+        hero_player_id: 0,
+        tournament_info: { tournament_number: '999', type: 'MTT', buyin_amount: 1, fee_amount: 0 },
+        players: [
+          { id: 0, name: 'Hero', seat: 1, starting_stack: 1000 },
+          { id: 1, name: 'Shorty', seat: 2, starting_stack: 300 },
+        ],
+        rounds: [
+          {
+            street: 'Preflop',
+            actions: [
+              { action_number: 1, player_id: 0, action: 'Post SB', amount: 10 },
+              { action_number: 2, player_id: 1, action: 'Post BB', amount: 20 },
+              { action_number: 3, player_id: 0, action: 'Dealt Cards', amount: 0, cards: ['Ah', 'Ad'] },
+              { action_number: 4, player_id: 0, action: 'Raise', amount: 990, is_allin: true },
+              { action_number: 5, player_id: 1, action: 'Call', amount: 280, is_allin: true },
+            ],
+          },
+        ],
+        pots: [{ amount: 600, rake: 0, player_wins: [{ player_id: 0, win_amount: 600 }] }],
+      },
+    });
+
+    const [parsed] = parseOpenHandHistoryFile(file, 'Hero');
+
+    // Hero committed 1000 but only 300 was ever matched, so 700 comes back.
+    // Winning the 600 pot leaves hero up exactly the villain's 300 stack.
+    expect(parsed!.hand.heroChipsAfter).toBe(1300);
+  });
+
+  it('leaves a fully matched street untouched', () => {
+    // Regression guard on the same code path: when every contribution matches,
+    // top and runner-up are equal, so nothing is returned.
+    const file = JSON.stringify({
+      ohh: {
+        spec_version: '1.2.2',
+        site_name: 'iPoker',
+        game_type: 'Holdem',
+        start_date_utc: '2026-08-04T12:00:00Z',
+        table_size: 2,
+        game_number: 'MATCHED-1',
+        small_blind_amount: 10,
+        big_blind_amount: 20,
+        dealer_seat: 1,
+        hero_player_id: 0,
+        tournament_info: { tournament_number: '999', type: 'MTT', buyin_amount: 1, fee_amount: 0 },
+        players: [
+          { id: 0, name: 'Hero', seat: 1, starting_stack: 1000 },
+          { id: 1, name: 'Villain', seat: 2, starting_stack: 1000 },
+        ],
+        rounds: [
+          {
+            street: 'Preflop',
+            actions: [
+              { action_number: 1, player_id: 0, action: 'Post SB', amount: 10 },
+              { action_number: 2, player_id: 1, action: 'Post BB', amount: 20 },
+              { action_number: 3, player_id: 0, action: 'Raise', amount: 50 },
+              { action_number: 4, player_id: 1, action: 'Call', amount: 40 },
+            ],
+          },
+        ],
+        pots: [{ amount: 120, rake: 0, player_wins: [{ player_id: 0, win_amount: 120 }] }],
+      },
+    });
+
+    const [parsed] = parseOpenHandHistoryFile(file, 'Hero');
+
+    // Both put in 60; hero takes the 120 pot.
+    expect(parsed!.hand.heroChipsAfter).toBe(1060);
   });
 
   it('parses every hand in a multi-hand array file', () => {

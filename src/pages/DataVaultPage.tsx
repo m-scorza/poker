@@ -40,6 +40,7 @@ const TABLE_LABELS: Record<(typeof BACKUP_TABLES)[number], string> = {
   settings: 'Settings',
   leakStatus: 'Leak lifecycle',
   srsReview: 'SRS reviews',
+  errorLog: 'Error log',
 };
 
 function totalRows(counts: BackupCounts): number {

@@ -400,6 +400,49 @@ describe('HandsUpload', () => {
     expect(MockWorker.instances).toHaveLength(0);
   });
 
+  it('terminates cleanly when the archive is corrupt and JSZip throws', async () => {
+    // The reported endless load: a ZIP that fails to open must still reach a
+    // terminal state. Every other ZIP test resolves loadAsync, so the throw
+    // path — the one that can strand isImporting — was never exercised.
+    jszipMock.loadAsync.mockRejectedValue(new Error('End of data reached'));
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('corrupt.zip', 'zip', 2000)]);
+
+    expect(await findByText(/ZIP import failed: End of data reached/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(MockWorker.instances).toHaveLength(0);
+  });
+
+  it('terminates cleanly when a ZIP entry throws while decompressing', async () => {
+    jszipMock.loadAsync.mockResolvedValue({
+      files: {
+        'hand.txt': {
+          dir: false,
+          _data: { uncompressedSize: 50 },
+          async: vi.fn().mockRejectedValue(new Error('invalid distance too far back')),
+        },
+      },
+    });
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('archive.zip', 'zip', 2000)]);
+
+    expect(await findByText(/ZIP import failed: invalid distance too far back/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(MockWorker.instances).toHaveLength(0);
+  });
+
+  it('reports a ZIP with no supported entries instead of importing nothing silently', async () => {
+    jszipMock.loadAsync.mockResolvedValue({
+      files: { 'readme.md': { dir: false, _data: { uncompressedSize: 20 }, async: vi.fn() } },
+    });
+    const { container, findByText } = render(<HandsUpload onUploadSuccess={vi.fn()} />);
+    selectFiles(container, [makeFile('archive.zip', 'zip', 2000)]);
+
+    expect(await findByText(/No .txt\/.json hand histories or tournament summaries/i)).toBeInTheDocument();
+    await waitFor(() => expect(useAppStore.getState().isImporting).toBe(false));
+    expect(MockWorker.instances).toHaveLength(0);
+  });
+
   // --- non-fatal + crash worker paths ---
 
   it('captures a per-file FILE_ERROR but still completes the import', async () => {

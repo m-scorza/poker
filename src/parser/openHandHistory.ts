@@ -185,9 +185,21 @@ function parseOpenHandHistoryHand(ohh: OhhHand, heroName: string): ParsedHand | 
   let boardTurn: string | null = null;
   let boardRiver: string | null = null;
 
-  const addInvestment = (playerName: string, amount: number) => {
+  // Per-street contributions, needed to recover uncalled bets. Open Hand
+  // History has no "Uncalled bet returned" line the way PokerStars does
+  // (pokerstars.ts RE_UNCALLED), so the excess has to be derived.
+  const streetContributions = new Map<string, Map<string, number>>();
+
+  const addInvestment = (playerName: string, amount: number, street: string) => {
     if (!Number.isFinite(amount) || amount <= 0) return;
     totalInvested.set(playerName, (totalInvested.get(playerName) ?? 0) + amount);
+
+    let byPlayer = streetContributions.get(street);
+    if (!byPlayer) {
+      byPlayer = new Map<string, number>();
+      streetContributions.set(street, byPlayer);
+    }
+    byPlayer.set(playerName, (byPlayer.get(playerName) ?? 0) + amount);
   };
 
   if (Array.isArray(ohh.rounds)) {
@@ -220,7 +232,7 @@ function parseOpenHandHistoryHand(ohh: OhhHand, heroName: string): ParsedHand | 
         if (!actionType) continue;
         const amount = toNumber(ohhAction.amount);
         const investment = actionType === 'fold' || actionType === 'check' ? 0 : amount;
-        addInvestment(playerName, investment);
+        addInvestment(playerName, investment, street);
 
         actions.push({
           handId,
@@ -232,6 +244,30 @@ function parseOpenHandHistoryHand(ohh: OhhHand, heroName: string): ParsedHand | 
           sequence: actions.length,
         });
       }
+    }
+  }
+
+  // An uncalled bet is, by definition, the amount the top contributor on a
+  // street put in beyond what any single opponent matched. It is returned to
+  // the bettor, so it was never invested. On a street where everyone matched,
+  // top and runner-up are equal and this subtracts nothing.
+  for (const byPlayer of streetContributions.values()) {
+    let topName: string | null = null;
+    let top = 0;
+    let runnerUp = 0;
+    for (const [name, contributed] of byPlayer) {
+      if (contributed > top) {
+        runnerUp = top;
+        top = contributed;
+        topName = name;
+      } else if (contributed > runnerUp) {
+        runnerUp = contributed;
+      }
+    }
+
+    const uncalled = top - runnerUp;
+    if (topName && uncalled > 0) {
+      totalInvested.set(topName, (totalInvested.get(topName) ?? 0) - uncalled);
     }
   }
 

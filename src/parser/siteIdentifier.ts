@@ -15,8 +15,9 @@ export function identifyFile(content: string): FileIdentity {
   const lower = normalized.toLowerCase();
   
   // PokerStars Hand History. Tournament hands carry "Tournament #" in the
-  // header; a hand history without it is a ring/cash game, which this tool
-  // does not analyze yet.
+  // header; a hand history without it is a ring/cash game. Cash is a
+  // constitutional non-goal (GOALS.md) — this is a permanent refusal, not a
+  // gap waiting to be filled.
   if (normalized.includes('PokerStars Hand #')) {
     if (!normalized.includes('Tournament #')) {
       return { site: 'pokerstars', type: 'cash_game' };
@@ -70,7 +71,7 @@ export function identifyFile(content: string): FileIdentity {
     normalized.includes('Hand #')
   ) {
     // As with PokerStars, a GGPoker hand history with no "Tournament #" in the
-    // header is a ring/cash game — not supported yet.
+    // header is a ring/cash game — permanently out of scope (GOALS.md).
     if (!normalized.includes('Tournament #')) {
       return { site: 'ggpoker', type: 'cash_game' };
     }

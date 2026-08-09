@@ -32,6 +32,7 @@ export const BACKUP_TABLES = [
   'settings',
   'leakStatus',
   'srsReview',
+  'errorLog',
 ] as const;
 
 type BackupTableName = (typeof BACKUP_TABLES)[number];
