@@ -23,6 +23,10 @@ export interface ParsedTournamentSummary {
   fee?: number;
   currency?: 'USD' | 'T$' | 'PLAY' | 'TICKET';
   heroName: string;
+  entrants?: number;
+  prizePool?: number;
+  payoutPct?: number;
+  reEntries?: number;
 }
 
 const RE_TOURNAMENT_ID_SUMMARY = /Tournament #(\d+)/i;
@@ -30,6 +34,25 @@ const RE_TOURNAMENT_ID_SUMMARY = /Tournament #(\d+)/i;
 const RE_FINISH_FLEX = /(\d+)(?:st|nd|rd|th)?:\s+([^,([\]]+)/i;
 const RE_MONEY = /\$?(\d[\d,]*\.?\d*)/;
 const RE_BOUNTY_LINE = /(?:received|won|bounty).*?\$?([\d,]+\.?\d*).*?(?:bounties|eliminating)/i;
+// A placing line always marks money with a currency symbol
+// ("  3: hero (Brasil), $0.75"). Matching a bare number here would read the
+// re-entry marker in "  112: hero [2] (Brasil)," as a $2 prize.
+const RE_PLACING_MONEY = /(?:US)?\$\s*([\d.,]+)/;
+// "You finished the tournament (eliminated at hand #259731146874)." carries no
+// place, so only an explicit ordinal may set one — otherwise the hand number
+// lands in finishPosition.
+const RE_YOU_FINISHED_PLACE = /^you finished\s+(?:the tournament\s+)?in\s+(\d+)(?:st|nd|rd|th)?\s+place/i;
+const RE_ENTRANTS = /^([\d,]+)\s+players\b/i;
+// Only USD-denominated pools count as cash. The corpus also carries ticket
+// pools ("$1.00 Power Path Step 2 Ticket") and play-money pools ("1100000").
+const RE_PRIZE_POOL_USD = /^total prize pool:\s*(?:US)?\$\s*([\d.,]+)\s*USD\b/i;
+const RE_PAYOUT_PCT = /\(\s*([\d]+(?:[.,][\d]+)?)\s*%\s*\)/;
+const RE_RE_ENTRIES = /^you made\s+([\d,]+)\s+re-entr(?:y|ies)\b/i;
+
+function parseCount(raw: string): number | null {
+  const n = parseInt(raw.replace(/,/g, ''), 10);
+  return Number.isFinite(n) ? n : null;
+}
 
 
 /**
@@ -56,6 +79,10 @@ export function parseTournamentSummary(
   let buyIn: number | null = null;
   let fee: number | null = null;
   let currency: 'USD' | 'T$' | 'PLAY' | 'TICKET' = 'USD';
+  let entrants: number | null = null;
+  let prizePoolCents: number | null = null;
+  let payoutPct: number | null = null;
+  let reEntries: number | null = null;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]!;
@@ -94,18 +121,43 @@ export function parseTournamentSummary(
         finishPosition = pos;
 
         // Check same line for prize
-        const moneyMatch = RE_MONEY.exec(line.slice(finishMatch[0].length));
+        const rest = line.slice(finishMatch[0].length);
+        const moneyMatch = RE_PLACING_MONEY.exec(rest);
         if (moneyMatch) {
           const cents = parseMoneyAnyLocale(moneyMatch[1]!);
           if (cents !== null) prizeCents = cents;
         }
+
+        // "  3: hero (Brasil), $0.75 (19.841%)" — PokerStars states the payout
+        // as a share of the pool, which is what makes the curve comparable
+        // across runnings of the same structure.
+        const pctMatch = RE_PAYOUT_PCT.exec(rest);
+        if (pctMatch) {
+          const pct = parseFloat(pctMatch[1]!.replace(',', '.'));
+          if (Number.isFinite(pct)) payoutPct = pct;
+        }
       }
     }
 
+    if (entrants === null) {
+      const eMatch = RE_ENTRANTS.exec(line);
+      if (eMatch) entrants = parseCount(eMatch[1]!);
+    }
+
+    if (prizePoolCents === null) {
+      const ppMatch = RE_PRIZE_POOL_USD.exec(line);
+      if (ppMatch) prizePoolCents = parseMoneyAnyLocale(ppMatch[1]!);
+    }
+
+    if (reEntries === null) {
+      const rMatch = RE_RE_ENTRIES.exec(line);
+      if (rMatch) reEntries = parseCount(rMatch[1]!);
+    }
+
     // Fallback: search for "You finished", "You received" type lines (common in summary headers)
-    if (line.toLowerCase().startsWith('you finished')) {
-      const posMatch = /(\d+)/.exec(line);
-      if (posMatch) finishPosition = parseInt(posMatch[1]!, 10);
+    const youFinishedMatch = RE_YOU_FINISHED_PLACE.exec(line);
+    if (youFinishedMatch) {
+      finishPosition = parseInt(youFinishedMatch[1]!, 10);
     }
     if (line.toLowerCase().startsWith('you received') && !/eliminating|bounties/i.test(line)) {
       const pMatch = RE_MONEY.exec(line);
@@ -183,5 +235,9 @@ export function parseTournamentSummary(
     fee: fee !== null ? fee : undefined,
     currency,
     heroName,
+    entrants: entrants ?? undefined,
+    prizePool: prizePoolCents !== null ? centsToUsd(prizePoolCents) : undefined,
+    payoutPct: payoutPct ?? undefined,
+    reEntries: reEntries ?? undefined,
   };
 }

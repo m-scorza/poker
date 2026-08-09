@@ -200,4 +200,93 @@ describe('parseTournamentSummary()', () => {
       heroName: 'scorza23',
     });
   });
+
+  describe('structure fields (entrants / prize pool / payout share / re-entries)', () => {
+    it('captures entrants, USD prize pool, and hero payout percentage', () => {
+      const summaryText = [
+        "PokerStars Tournament #3975072811, No Limit Hold'em",
+        'Buy-In: $0.42/$0.08 USD',
+        '9 players',
+        'Total Prize Pool: $3.78 USD ',
+        '  1: MathMare (Brasil), still playing',
+        '  3: scorza23 (Brasil), $0.75 (19.841%)',
+      ].join('\n');
+
+      const result = parseTournamentSummary(summaryText, 'scorza23');
+
+      expect(result).toMatchObject({
+        tournamentId: '3975072811',
+        finishPosition: 3,
+        prize: 0.75,
+        entrants: 9,
+        prizePool: 3.78,
+        payoutPct: 19.841,
+      });
+    });
+
+    it('reads a comma-grouped field size and a re-entry count', () => {
+      const summaryText = [
+        "PokerStars Tournament #3974102192, No Limit Hold'em",
+        'Buy-In: $0.49/$0.06 USD',
+        '1,199 players',
+        'Total Prize Pool: $25.87 USD ',
+        '  188: scorza23 (Brasil), ',
+        'You made 1 re-entries for a total of $0.55.',
+      ].join('\n');
+
+      const result = parseTournamentSummary(summaryText, 'scorza23');
+
+      expect(result).toMatchObject({ entrants: 1199, prizePool: 25.87, reEntries: 1 });
+      expect(result!.payoutPct).toBeUndefined();
+    });
+
+    it('leaves prizePool undefined for ticket and play-money pools', () => {
+      const ticket = parseTournamentSummary(
+        [
+          "PokerStars Tournament #111, No Limit Hold'em",
+          '16 players',
+          'Total Prize Pool: $1.00 Power Path Step 2 Ticket ',
+        ].join('\n'),
+      );
+      const playMoney = parseTournamentSummary(
+        [
+          "PokerStars Tournament #222, No Limit Hold'em",
+          '32 players',
+          'Total Prize Pool: 1100000 ',
+        ].join('\n'),
+      );
+
+      expect(ticket!.prizePool).toBeUndefined();
+      expect(ticket!.entrants).toBe(16);
+      expect(playMoney!.prizePool).toBeUndefined();
+      expect(playMoney!.entrants).toBe(32);
+    });
+
+    it('reads a comma-decimal payout percentage from a locale export', () => {
+      const summaryText = [
+        "PokerStars Tournament #333, No Limit Hold'em",
+        '9 players',
+        'Total Prize Pool: US$ 3,78 USD',
+        '  1: scorza23 (Brasil), US$ 1,90 (50,264%)',
+      ].join('\n');
+
+      const result = parseTournamentSummary(summaryText, 'scorza23');
+
+      expect(result).toMatchObject({ payoutPct: 50.264, prizePool: 3.78 });
+    });
+
+    it('does not attribute another player\'s payout share to hero', () => {
+      const summaryText = [
+        "PokerStars Tournament #444, No Limit Hold'em",
+        '9 players',
+        '  1: SomeoneElse (Brasil), $1.90 (50.264%)',
+        '  5: scorza23 (Brasil), ',
+      ].join('\n');
+
+      const result = parseTournamentSummary(summaryText, 'scorza23');
+
+      expect(result!.finishPosition).toBe(5);
+      expect(result!.payoutPct).toBeUndefined();
+    });
+  });
 });
