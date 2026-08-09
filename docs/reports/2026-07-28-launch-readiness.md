@@ -58,9 +58,28 @@ These need the owner's product/domain call before they can be actioned:
    inferred from a spec line OHH doesn't have, so the real fixture that was
    the stated blocker turned out not to be needed. The existing iPoker fixture
    test was pinning the bug and has been corrected.
-3. **ASK_USER audit items** (from `AUDIT_NEW.md`): G2 (cbetHU in 3-bet pots),
-   G3 (non-1500 MTT starting stacks for BPWR), G4 (ICM RP magnitudes), G8
-   (run-it-twice / disconnect markers). Each needs a domain answer.
+3. **ASK_USER audit items** (from `AUDIT_NEW.md`). **G3 is struck** — verified
+   resolved 2026-08-07 (#231 derives the real starting stack; no hardcoded
+   1500 remains). Three left, written out here so they can be answered without
+   re-reading the audit:
+
+   - **G2 — the c-bet HU denominator.** `scenarioDetector.ts` decides whether a
+     flop is heads-up. When hero opens, a villain 3-bet shoves, and a third
+     player calls, the flop has two *active* players but three who saw it, and
+     the shover cannot act. Should that count as a HU c-bet spot? This is the
+     denominator of "C-bet HU 100%", the highest-priority leak in the app, so a
+     wrong answer here quietly corrupts the headline number. *Recommendation if
+     you have no strong view: count it as HU (subtract all-in players), since
+     the c-bet decision hero actually faces is heads-up.*
+   - **G4 — ICM risk-premium magnitudes.** Current mapping is bubble 10 → ITM 8
+     → FT 15. The bubble→ITM drop is directionally right, but a flat RP of 8
+     across *all* of ITM is coarse for late-ITM short stacks. Question: should
+     ITM be split (early-ITM vs late-ITM), and what magnitudes? Note this
+     affects **grading**, not just display — `checkFacingAllIn` adds the stage
+     risk premium to required equity.
+   - **G8 — run-it-twice / disconnect markers.** Neither is parsed. Question is
+     purely factual: can PokerStars or GGPoker *tournament* hand histories ever
+     emit them? If never, this is struck like G3 rather than fixed.
 4. **A8 / A9** — confirmed **not bugs** this pass (cbetHU subtracts preflop
    all-ins; the non-monotone ICM RP number is display-only, grading uses a
    separate monotone table). Flagging so they're not re-opened.
