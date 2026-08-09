@@ -54,6 +54,56 @@ describe('CommandPalette', () => {
     await waitFor(() => expect(screen.queryByRole('dialog')).not.toBeInTheDocument());
   });
 
+  it('closes on Escape from anywhere in the dialog, not just the input', async () => {
+    // Escape used to be handled only by the input's onKeyDown, so it did
+    // nothing once focus moved to a result button.
+    renderPalette();
+    openPalette();
+
+    const results = screen.getAllByRole('button');
+    const lastResult = results[results.length - 1]!;
+    lastResult.focus();
+
+    fireEvent.keyDown(lastResult, { key: 'Escape' });
+    await waitFor(() => expect(screen.queryByRole('dialog')).not.toBeInTheDocument());
+  });
+
+  it('traps Tab inside the dialog', async () => {
+    // aria-modal="true" asserts focus is contained. Before the focus trap it
+    // was not — Tab walked straight out into the page behind the palette.
+    renderPalette();
+    openPalette();
+
+    const dialog = screen.getByRole('dialog', { name: 'Command palette' });
+    const focusable = dialog.querySelectorAll<HTMLElement>('button, input');
+    const first = focusable[0]!;
+    const last = focusable[focusable.length - 1]!;
+    expect(focusable.length).toBeGreaterThan(1);
+
+    last.focus();
+    fireEvent.keyDown(document, { key: 'Tab' });
+    await waitFor(() => expect(document.activeElement).toBe(first));
+
+    first.focus();
+    fireEvent.keyDown(document, { key: 'Tab', shiftKey: true });
+    await waitFor(() => expect(document.activeElement).toBe(last));
+  });
+
+  it('restores focus to whatever was focused before it opened', async () => {
+    const { container } = renderPalette();
+    const outside = document.createElement('button');
+    outside.textContent = 'behind the palette';
+    container.appendChild(outside);
+    outside.focus();
+    expect(document.activeElement).toBe(outside);
+
+    openPalette();
+    await waitFor(() => expect(document.activeElement).not.toBe(outside));
+
+    fireEvent.keyDown(document, { key: 'Escape' });
+    await waitFor(() => expect(document.activeElement).toBe(outside));
+  });
+
   it('filters, keyboard-navigates, and jumps on Enter', async () => {
     renderPalette();
     openPalette();

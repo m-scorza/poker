@@ -16,6 +16,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, CornerDownLeft } from 'lucide-react';
 import { clsx } from 'clsx';
 import { NAV_ITEMS, PALETTE_EXTRA_ITEMS, type NavItem } from '../layout/navItems';
+import { useFocusTrap } from './useFocusTrap';
 
 const ALL_ITEMS: NavItem[] = [...NAV_ITEMS, ...PALETTE_EXTRA_ITEMS];
 
@@ -28,7 +29,7 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
   const [query, setQuery] = useState('');
   const [activeIndex, setActiveIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
-  const previousActiveElement = useRef<Element | null>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
   const results = useMemo(() => {
@@ -46,20 +47,18 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
     onOpenChange(false);
   }, [onOpenChange]);
 
-  // Centralize open/close side effects here so every close path (Escape,
-  // backdrop, select, or the shell's Cmd+K toggle) resets the query and
-  // restores the previously focused element.
+  // Focus containment, Escape, and focus restore come from the shared hook —
+  // the same one ConfirmDialog and HandReplay use. It also supplies the Tab
+  // trap this dialog was missing, which `aria-modal="true"` had been asserting
+  // without actually enforcing.
+  useFocusTrap(dialogRef, close, open);
+
+  // Only the query state is this component's own concern; every close path
+  // (Escape, backdrop, select, or the shell's Cmd+K toggle) resets it.
   useEffect(() => {
-    if (!open) {
-      setQuery('');
-      setActiveIndex(0);
-      if (previousActiveElement.current instanceof HTMLElement) {
-        previousActiveElement.current.focus();
-      }
-      return;
-    }
-    previousActiveElement.current = document.activeElement;
-    requestAnimationFrame(() => inputRef.current?.focus());
+    if (open) return;
+    setQuery('');
+    setActiveIndex(0);
   }, [open]);
 
   const select = (item: NavItem) => {
@@ -67,11 +66,10 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
     close();
   };
 
+  // Escape is handled by useFocusTrap at the document level, so it now works
+  // from anywhere in the dialog rather than only while the input has focus.
   const onInputKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Escape') {
-      e.preventDefault();
-      close();
-    } else if (e.key === 'ArrowDown') {
+    if (e.key === 'ArrowDown') {
       e.preventDefault();
       setActiveIndex((i) => Math.min(i + 1, results.length - 1));
     } else if (e.key === 'ArrowUp') {
@@ -96,6 +94,7 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
             className="absolute inset-0 bg-black/70 backdrop-blur-sm"
           />
           <motion.div
+            ref={dialogRef}
             role="dialog"
             aria-modal="true"
             aria-label="Command palette"
