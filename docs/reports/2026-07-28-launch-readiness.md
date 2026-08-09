@@ -88,8 +88,23 @@ These need the owner's product/domain call before they can be actioned:
 
 1. ~~**CSP / PWA**~~ **Closed by #232** — strict `index.html` CSP plus
    immediate service-worker activation.
-2. **Accessibility** — one surface done (#223, VillainsPage earlier). A full
-   sweep (dialog `aria-labelledby`, remaining pages) would round it out.
+2. ~~**Accessibility**~~ **Closed 2026-08-09**, with the scope stated honestly.
+
+   *Dialogs:* all three now carry `role`, `aria-modal`, an accessible name, Esc,
+   and a focus trap. `CommandPalette` was the only gap — it asserted
+   `aria-modal="true"` while letting Tab walk out into the page behind it, and
+   its Esc worked only while the input had focus. It now uses the shared
+   `useFocusTrap`. ConfirmDialog and HandReplay were already complete.
+
+   *Pages:* audited the **rendered DOM** (not grep) across all 11 routes with a
+   seeded demo dataset, checking every visible button, link, and form control
+   for an accessible name, every image for `alt`, and every page for duplicate
+   ids. **Zero findings** — the earlier passes plus #223 had in fact covered it.
+
+   **Not covered by this sweep**, and still open if a full WCAG pass is ever
+   wanted: colour contrast, visible focus indicators, custom-widget keyboard
+   patterns (the range grid and the listbox/option pattern in the palette), and
+   screen-reader announcement of live-updating regions.
 3. ~~**Error reporting**~~ **Closed by #237** — a local crash log now persists
    `ErrorBoundary` catches and unhandled promise rejections, with a Markdown
    export in Data Health. Note the framing above was slightly off: parser
@@ -99,16 +114,18 @@ These need the owner's product/domain call before they can be actioned:
 
 ## Recommended next actions
 
-**Update 2026-08-04.** Every no-decision code item has now landed — #232
-(CSP/PWA), #233 (cash-game gating), #237 (local crash log). The only
-engineering work left is the accessibility sweep; everything else waits on
-owner input.
+**Update 2026-08-09. Every code item in this report is now closed** — #232
+(CSP/PWA), #233 (cash-game gating), #237 (local crash log, OHH uncalled bets,
+accessibility sweep). Nothing here is waiting on engineering.
 
-1. Owner answers the remaining decision items above — OHH as a launch format,
-   and the four ASK_USER audit items (G2 cbetHU in 3-bet pots, G3 non-1500 MTT
-   starting stacks for BPWR, G4 ICM RP magnitudes, G8 run-it-twice / disconnect
-   markers).
-2. Optional before launch, no decision needed: finish the accessibility sweep
-   (hardening item 2 — the last open code item in this report).
-3. Close this report (`status: resolved`, move to `archive/`) once the decision
+What remains is three owner answers (below). G3 was struck on evidence rather
+than answered.
+
+1. Owner answers the three remaining questions, written out in full under
+   decision item 3 above: **G2** (c-bet HU denominator — carries a fallback
+   recommendation if you have no strong view), **G4** (ICM risk-premium
+   magnitudes — note this affects grading, not just display), and **G8**
+   (whether PS/GG tournament histories can emit run-it-twice or disconnect
+   markers at all).
+2. Close this report (`status: resolved`, move to `archive/`) once the decision
    items are answered.
