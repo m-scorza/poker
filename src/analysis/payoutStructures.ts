@@ -13,9 +13,9 @@
 
 import type { Tournament } from '../types/hand';
 
-export type PayoutConfidence = 'none' | 'low' | 'medium' | 'high';
+type PayoutConfidence = 'none' | 'low' | 'medium' | 'high';
 
-export interface PayoutCurvePoint {
+interface PayoutCurvePoint {
   finishPosition: number;
   /** Mean observed payout share of the prize pool, in percent. */
   payoutPct: number;
@@ -35,7 +35,7 @@ export interface LearnedPayoutStructure {
   confidence: PayoutConfidence;
 }
 
-export type PayoutGapReason = 'no_entrants' | 'no_cash_buy_in' | 'no_payout_pct';
+type PayoutGapReason = 'no_entrants' | 'no_cash_buy_in' | 'no_payout_pct';
 
 export interface PayoutGap {
   tournamentId: string;
