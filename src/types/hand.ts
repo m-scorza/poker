@@ -100,4 +100,12 @@ export interface Tournament {
   bounty: number | null;
   currency?: 'USD' | 'T$' | 'PLAY' | 'TICKET';
   handsPlayed: number;
+  /** Total entries reported by the summary ("199 players"), re-entries included. */
+  entrants?: number;
+  /** Cash prize pool in USD. Only set for USD-denominated pools. */
+  prizePool?: number;
+  /** Hero's prize as the percentage of the pool the summary itself reported. */
+  payoutPct?: number;
+  /** Hero re-entries into this tournament. */
+  reEntries?: number;
 }

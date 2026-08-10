@@ -617,6 +617,10 @@ export async function importTournamentSummaries(
         if (summary.finishPosition !== null) existing.finishPosition = summary.finishPosition;
         if (summary.prize !== null) existing.prize = summary.prize;
         if (summary.bounty !== null) existing.bounty = summary.bounty;
+        if (summary.entrants !== undefined) existing.entrants = summary.entrants;
+        if (summary.prizePool !== undefined) existing.prizePool = summary.prizePool;
+        if (summary.payoutPct !== undefined) existing.payoutPct = summary.payoutPct;
+        if (summary.reEntries !== undefined) existing.reEntries = summary.reEntries;
 
         // Hand-history wins: only fill buy-in/fee/currency when the row
         // has no hand-history-derived value (buyIn === 0).
@@ -643,6 +647,10 @@ export async function importTournamentSummaries(
           bounty: summary.bounty,
           currency: summary.currency,
           handsPlayed: 0,
+          entrants: summary.entrants,
+          prizePool: summary.prizePool,
+          payoutPct: summary.payoutPct,
+          reEntries: summary.reEntries,
         });
         result.created++;
       }
