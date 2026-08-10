@@ -134,6 +134,21 @@ export function learnPayoutStructures(tournaments: Tournament[]): LearnedPayoutS
   return structures.sort((a, b) => b.tournaments - a.tournaments);
 }
 
+/**
+ * How many places pay, when that is knowable.
+ *
+ * Observed places alone only ever give a lower bound — hero may simply never
+ * have finished 4th. But the shares are shares of the whole pool, so once they
+ * sum to 100% there is nothing left to pay and the table is provably complete.
+ * Returns null while the curve is still partial.
+ */
+export function completePaidPlaces(structure: LearnedPayoutStructure): number | null {
+  if (structure.curve.length === 0) return null;
+  const total = structure.curve.reduce((sum, point) => sum + point.payoutPct, 0);
+  if (Math.abs(total - 100) > 0.5) return null;
+  return Math.max(...structure.curve.map((point) => point.finishPosition));
+}
+
 /** Observed places only — returns null for anything the corpus hasn't shown yet. */
 export function lookupPayoutPct(
   structure: LearnedPayoutStructure,

@@ -7,6 +7,7 @@ import {
   structureKey,
   learnPayoutStructures,
   lookupPayoutPct,
+  completePaidPlaces,
   findPayoutKnowledgeGaps,
 } from '../payoutStructures';
 import type { Tournament } from '../../types/hand';
@@ -130,6 +131,27 @@ describe('lookupPayoutPct()', () => {
   });
 });
 
+describe('completePaidPlaces()', () => {
+  it('knows the table is complete once the shares account for the whole pool', () => {
+    const [structure] = learnPayoutStructures([
+      tournament({ id: 'a', entrants: 9, finishPosition: 1, payoutPct: 50.264 }),
+      tournament({ id: 'b', entrants: 9, finishPosition: 2, payoutPct: 29.894 }),
+      tournament({ id: 'c', entrants: 9, finishPosition: 3, payoutPct: 19.841 }),
+    ]);
+
+    expect(completePaidPlaces(structure!)).toBe(3);
+  });
+
+  it('refuses while the curve is still partial, since a gap may just be unobserved', () => {
+    const [structure] = learnPayoutStructures([
+      tournament({ id: 'a', entrants: 9, finishPosition: 1, payoutPct: 50.264 }),
+      tournament({ id: 'b', entrants: 9, finishPosition: 3, payoutPct: 19.841 }),
+    ]);
+
+    expect(completePaidPlaces(structure!)).toBeNull();
+  });
+});
+
 describe('findPayoutKnowledgeGaps()', () => {
   it('flags a missing field size', () => {
     expect(findPayoutKnowledgeGaps([tournament({ id: 'a' })])).toEqual([
@@ -203,6 +225,7 @@ describe('learned from the real summary corpus', () => {
     expect(thirtyTwo!.curve.map((p) => p.finishPosition)).toEqual([1, 2, 3, 4, 5]);
     const total = thirtyTwo!.curve.reduce((sum, p) => sum + p.payoutPct, 0);
     expect(total).toBeCloseTo(100, 1);
+    expect(completePaidPlaces(thirtyTwo!)).toBe(5);
   });
 
   it('reports payout shares that are stable across runnings', () => {
