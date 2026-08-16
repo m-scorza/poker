@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D5 — Progressive-disclosure caveats · Decision Lab 2026-08</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">← Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html">D1</a>
+    <a href="d2-performance-product.html">D2</a>
+    <a href="d3-money-context.html">D3</a>
+    <a href="d4-profile-settings.html">D4</a>
+    <a href="d5-caveat-disclosure.html" aria-current="page">D5</a>
+    <a href="d6-villains.html">D6</a>
+    <a href="d7-blackout-salvage.html">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">Owner decision · 2026-08-10</span>
+    <p>D5 ratified: one shared chip → reason → “Why?” component, rendered only where earned. The permanent HonestyStrip is retired.</p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Decision D5 · owner comments 7, 13, 23 · governs UIR-012, UIR-016</span>
+    <h1>Caveats become<br>progressive disclosure</h1>
+    <p class="lede">
+      The honesty boundary is the brand and is not negotiable. The problem is not that the app says what
+      it can't do — it's that the saying is unevenly distributed: saturated where the math is safest,
+      absent where the denominator is weakest.
+    </p>
+  </div>
+
+  <section class="today">
+    <span class="kicker">What exists today — verified 2026-08-10, text census on the seeded demo dataset</span>
+    <h2>Leaks says it eight times; Dashboard never says it at all</h2>
+    <p>
+      A token census of each page's rendered text: on <code style="font-family:var(--mono)">/leaks</code>,
+      "rule-based" appears <b style="color:var(--loss)">8 times</b>, "no solver"
+      <b style="color:var(--loss)">7 times</b> and "directional" 3 times — inside only 3,619 characters,
+      roughly one honesty token per 200 characters. Leak #1 alone carries five badges, two of which
+      (<span class="sk-badge">Rule-based</span> <span class="sk-badge">Rule-based, no EV</span>) say the
+      same thing twice, plus a prose caveat repeated near-verbatim on leaks #2 and #3.
+    </p>
+    <p>
+      On <code style="font-family:var(--mono)">/dashboard</code> the same census returns
+      <b style="color:var(--loss)">zero</b> — no "rule-based", no "not graded", no sample note — while the
+      page prints ROI +306.7% and ITM 26.0%. That ITM denominator is
+      <b style="color:var(--fg)">65 of 250</b> tournaments: 185 have no recorded finish. The page with the
+      least honest denominator carries the least honesty copy.
+    </p>
+    <p>
+      Coach's Note sits in between: "not graded" 5×, the local-only claim 3×, plus a permanent
+      three-cell <code style="font-family:var(--mono)">HonestyStrip</code> that renders identically on
+      every visit whether or not anything was refused.
+    </p>
+    <div class="verified">
+      <div class="bad"><b>8×</b><span>"rule-based" on /leaks</span></div>
+      <div class="bad"><b>0×</b><span>any caveat on /dashboard</span></div>
+      <div class="bad"><b>65 / 250</b><span>tournaments behind ITM 26.0%</span></div>
+      <div><b>3,724</b><span>not-graded spots, all one scenario</span></div>
+    </div>
+    <div class="evidence">
+      <b>The 3,724 finding.</b> Every ungraded decision in the demo dataset is
+      <code>FACING_RAISE</code> — the dataset contains exactly three scenario families (RFI 8,974 ·
+      FACING_RAISE 3,724 · BB_VS_RAISE 2,547). This confirms UIR-016 lane 1's hypothesis with a count:
+      the refusal is not spread across many hard spots, it is one bucket.<br>
+      <b>Consequence for copy.</b> "facing 3-bets, all-ins, multiway BB defense" is listed as the reason on
+      screen, but none of those scenarios exist in this dataset — the stated reason does not match the
+      actual cause.
+    </div>
+  </section>
+
+  <div class="options">
+
+    <!-- ============ OPTION A ============ -->
+    <article class="opt ratified">
+      <header>
+        <span class="tag">Option A</span>
+        <h3>Status chip → reason → Why?</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">One shared component, three levels, attached to the result it qualifies</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <div class="sk-row between">
+                <div>
+                  <div class="sk-title" style="font-size:15px">Range Compliance</div>
+                  <div class="sk-dim">66.3% vs 90–100% target · 15,245 hands</div>
+                </div>
+                <span class="sk-badge crit">Critical</span>
+              </div>
+              <div class="sk-card hair" style="margin-top:11px;padding-top:9px">
+                <div class="sk-row" style="gap:9px;align-items:center">
+                  <span class="sk-badge">Rule-based</span>
+                  <span class="sk-dim">Compared against your charts, not a solver.</span>
+                  <span class="sk-cta ghost" style="padding:3px 8px;font-size:8.5px">Why?</span>
+                </div>
+              </div>
+              <div class="sk-note">Level 1 is the chip. Level 2 is one sentence. Level 3 opens provenance: KB citation, sample, formula, exclusions.</div>
+            </div>
+
+            <div class="sk-card">
+              <span class="sk-k">Same component, weakest-denominator case</span>
+              <div class="sk-row between" style="margin-top:5px">
+                <div>
+                  <div class="sk-title" style="font-size:15px">ITM rate 26.0%</div>
+                  <div class="sk-dim">65 of 250 tournaments have a recorded finish</div>
+                </div>
+                <span class="sk-badge rev">Partial sample</span>
+              </div>
+              <div class="sk-note">The chip appears where it is <i>earned</i>. Today this number carries nothing.</div>
+            </div>
+
+            <div class="sk-card thin">
+              <span class="sk-k">Deleted</span>
+              <div class="sk-dim">The permanent 3-cell strip. It renders when nothing was refused, which trains users to stop reading it.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>One component makes the honesty load proportional to actual uncertainty and moves the caveat next to the number it qualifies, but it requires auditing every metric for whether it earns a chip — the work is the audit, not the component.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Directly implements the three D5 levels; UIR-012 becomes a build with a defined API.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION B ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option B</span>
+        <h3>One page-level provenance panel</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Results stay clean; all caveats collect in one expandable footer</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <div class="sk-title" style="font-size:15px">Range Compliance</div>
+              <div class="sk-dim">66.3% · target 90–100% · 15,245 hands</div>
+              <div class="sk-note">No badge. No inline caveat. Nothing between the user and the number.</div>
+            </div>
+            <div class="sk-card">
+              <div class="sk-title" style="font-size:15px">C-bet HU</div>
+              <div class="sk-dim">79.4% · target 100% · 4,077 hands</div>
+            </div>
+            <div class="sk-card thin" style="border-top:1px solid var(--border-strong);border-radius:0;background:transparent;padding-top:10px">
+              <div class="sk-row between">
+                <span class="sk-k">How this page grades · 3 limits</span>
+                <span class="sk-cta ghost" style="padding:3px 8px;font-size:8.5px">Expand</span>
+              </div>
+              <div class="sk-note">Rule-based comparison · 3,724 spots not graded · sample thresholds. Written once per page.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>The most dramatic reduction in visual noise and the easiest to build, but it separates the caveat from the number — a user who reads "79.4%" and leaves never learns it is a frequency heuristic, which is the exact failure the honesty boundary exists to prevent.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Cheapest option; carries the highest honesty-boundary risk and would need an explicit ruling that it clears it.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION C ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option C</span>
+        <h3>Deduplicate only, keep it inline</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">No new component — delete the repeats and the synonym badges</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Before · leak #1</span>
+              <div class="sk-row" style="gap:5px;margin-top:6px">
+                <span class="sk-badge crit">Critical</span>
+                <span class="sk-badge">Impact 144</span>
+                <span class="sk-badge">Rule-based</span>
+                <span class="sk-badge" style="text-decoration:line-through;opacity:.5">Rule-based, no EV</span>
+                <span class="sk-badge">KB cited</span>
+              </div>
+              <div class="sk-note">Five badges, one duplicated meaning, in off-palette hues.</div>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">After</span>
+              <div class="sk-row" style="gap:5px;margin-top:6px">
+                <span class="sk-badge crit">Critical</span>
+                <span class="sk-badge">Rule-based</span>
+              </div>
+              <div class="sk-dim" style="margin-top:7px">Impact and KB citation move into the existing detail row.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Not fixed</span>
+              <div class="sk-dim">Dashboard still carries zero caveats over a 65/250 denominator.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Removes the most visible offence — five badges where two would do — in a contained per-page edit, but it treats a system problem page by page and leaves each future surface free to invent its own caveat pattern again.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>The plan explicitly warns against letting page teams independently invent caveat patterns; this option accepts that risk.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+  </div>
+
+  <section class="consequence">
+    <h2>What each option does to the backlog</h2>
+    <div class="scroller">
+    <table class="cons">
+      <thead>
+        <tr><th>Task</th><th>A · three levels</th><th>B · page panel</th><th>C · dedupe</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="uir">UIR-012</td>
+          <td><span class="pill unlock">Unlocks</span> component API is fully specified by the three levels</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes a page-footer panel, not a per-result pattern</td>
+          <td><span class="pill rewrite">Rewrite</span> shrinks to per-page copy edits</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-016</td>
+          <td><span class="pill unlock">Unlocks</span> the chip's Level 3 <i>is</i> the coverage report surface</td>
+          <td><span class="pill unlock">Unlocks</span> panel hosts the report</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-017</td>
+          <td><span class="pill block">Blocked</span> Leaks must consume the shared component, not precede it</td>
+          <td><span class="pill block">Blocked</span> same</td>
+          <td><span class="pill unlock">Unlocks</span> Leaks can proceed alone</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-013</td>
+          <td><span class="pill unlock">Unlocks</span> Hand Replay's caveat wall gets a target pattern</td>
+          <td><span class="pill unlock">Unlocks</span></td>
+          <td><span class="pill block">Blocked</span> no shared pattern to adopt</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-024</td>
+          <td><span class="pill rewrite">Rewrite</span> <code style="font-family:var(--mono)">HonestyStrip</code> is retired, not universalised</td>
+          <td><span class="pill rewrite">Rewrite</span> strip becomes the page panel</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="touches">
+      <span class="kicker">Files and routes each option touches</span>
+      <ul>
+        <li><b style="color:var(--fg)">A</b> — new <code>src/components/shared/Caveat.tsx</code>; consumers <code>LeaksPage.tsx</code>, <code>CoachsNotePage.tsx</code>, <code>HandReplay.tsx</code>, <code>CareerPage.tsx</code>, <code>DashboardPage.tsx</code>; retire <code>src/components/blackout/HonestyStrip.tsx</code>.</li>
+        <li><b style="color:var(--fg)">B</b> — new <code>src/components/shared/ProvenancePanel.tsx</code>; same consumers, footer-mounted.</li>
+        <li><b style="color:var(--fg)">C</b> — <code>src/pages/LeaksPage.tsx</code> and <code>src/pages/CareerPage.tsx</code> copy only.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

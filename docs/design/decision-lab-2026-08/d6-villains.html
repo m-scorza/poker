@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D6 — Villains keep or cut · Decision Lab 2026-08</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">← Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html">D1</a>
+    <a href="d2-performance-product.html">D2</a>
+    <a href="d3-money-context.html">D3</a>
+    <a href="d4-profile-settings.html">D4</a>
+    <a href="d5-caveat-disclosure.html">D5</a>
+    <a href="d6-villains.html" aria-current="page">D6</a>
+    <a href="d7-blackout-salvage.html">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">Owner decision · 2026-08-10</span>
+    <p>D6 ratified: keep the route and build the repeat-opponent workflow — after re-running the stat spread against a real PokerStars fixture.</p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Decision D6 · owner comment 32 · governs UIR-023</span>
+    <h1>Does Villains<br>earn a route?</h1>
+    <p class="lede">
+      After auto-archetypes were parked in <code style="font-family:var(--mono)">39f56d5</code>, the page
+      became a bare observed-stats table. The question is whether a repeat-opponent workflow justifies a
+      first-class destination, or whether opponent context belongs inside Hands and Sessions.
+    </p>
+  </div>
+
+  <section class="today">
+    <span class="kicker">What exists today — verified 2026-08-10</span>
+    <h2>Seven columns, two of them structurally zero</h2>
+    <p>
+      <code style="font-family:var(--mono)">VillainsPage.tsx</code> renders a search box, a player count,
+      and a 7-column table (Player · Hands · VPIP · PFR · AF · Limp% · Gap) capped at 100 rows, plus a
+      click-through detail panel with free-text notes and ten predefined tags. That is the whole route —
+      368 lines, no encounter history, no session comparison, no sample-confidence indicator, no sort.
+    </p>
+    <p>
+      On the demo dataset the table renders <b style="color:var(--fg)">10 players</b> whose stats are
+      statistically indistinguishable: VPIP spans <b style="color:var(--fg)">13.0–14.1%</b>, PFR
+      <b style="color:var(--fg)">7.9–8.8%</b>, AF <b style="color:var(--fg)">1.41–1.73</b> — and
+      <b style="color:var(--loss)">Limp% is 0.0% and 3-bet% is 0.0% for every single player</b>. Two of the
+      seven columns carry no information at all, and the "Gap" column ranges 5.0–5.7 across the entire
+      field. A user cannot tell "Loose Leo" from "Nit Nora" from this screen.
+    </p>
+    <p>
+      The page also has no empty-state design beyond one sentence, and at 390px it overflows horizontally
+      (<code style="font-family:var(--mono)">scrollWidth</code> 461 vs 390).
+    </p>
+    <div class="verified">
+      <div class="bad"><b>2 / 7</b><span>columns structurally zero</span></div>
+      <div class="bad"><b>1.1pp</b><span>total VPIP spread across the field</span></div>
+      <div><b>10</b><span>tracked opponents ≥5 hands</span></div>
+      <div><b>0</b><span>encounter-history features</span></div>
+    </div>
+    <div class="evidence">
+      <b>Caveat on the evidence.</b> The uniformity above is a property of the synthetic demo generator,
+      not proof that real imports are uniform — but it does mean the demo, which is what a prospective
+      user sees first, actively demonstrates the route's weakness.<br>
+      <b>Real-import check is the missing input.</b> Before cutting, this should be re-run against a real
+      PokerStars import from <code>src/test/fixtures/</code> to see whether genuine opponents separate.
+    </div>
+  </section>
+
+  <div class="options">
+
+    <!-- ============ OPTION A ============ -->
+    <article class="opt ratified">
+      <header>
+        <span class="tag">Option A</span>
+        <h3>Keep it — build the repeat-opponent workflow</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">The route earns its place by answering "have I played this person before?"</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <div class="sk-row between">
+                <div>
+                  <div class="sk-title" style="font-size:16px">Loose Leo</div>
+                  <div class="sk-dim">8,990 hands across 41 sessions · last seen 3 days ago</div>
+                </div>
+                <span class="sk-badge ok">High sample</span>
+              </div>
+              <div class="sk-grid4" style="margin-top:11px">
+                <div><span class="sk-k">VPIP</span><div class="sk-num" style="font-size:13px">13.9%</div><div class="sk-dim" style="font-size:9px">field 13.5%</div></div>
+                <div><span class="sk-k">PFR</span><div class="sk-num" style="font-size:13px">8.2%</div><div class="sk-dim" style="font-size:9px">field 8.2%</div></div>
+                <div><span class="sk-k">AF</span><div class="sk-num" style="font-size:13px">1.4</div><div class="sk-dim" style="font-size:9px">field 1.5</div></div>
+                <div><span class="sk-k">WTSD</span><div class="sk-num" style="font-size:13px">7.5%</div><div class="sk-dim" style="font-size:9px">field 9.2%</div></div>
+              </div>
+              <div class="sk-card hair" style="margin-top:11px;padding-top:9px">
+                <span class="sk-k">Encounter history</span>
+                <table class="sk-table" style="margin-top:6px">
+                  <tr><td class="k">2026-05-14</td><td>DEMO-T-118</td><td>62 hands</td><td class="k" style="color:var(--money)">+18.4 bb</td></tr>
+                  <tr><td class="k">2026-05-09</td><td>DEMO-T-104</td><td>41 hands</td><td class="k" style="color:var(--loss)">−7.1 bb</td></tr>
+                </table>
+              </div>
+              <div class="sk-note">Every stat carries the field baseline beside it — the only way a 1.1pp spread becomes readable.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Requires</span>
+              <div class="sk-dim">Per-encounter aggregation that does not exist yet in <code style="font-family:var(--mono);font-size:10px">db.villains</code>.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Turns a dead table into the one thing a tournament player actually wants from opponent tracking, but it is net-new data work — encounter aggregation, field baselines, confidence bands — for a persona whose opponents rarely repeat at micro-stakes MTTs.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>The largest of the three; would need its own slice before any visual polish.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION B ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option B</span>
+        <h3>Cut the route, keep the data</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Opponent context appears where an opponent is on screen</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav">Home</div>
+            <div class="sk-nav on">Hands</div>
+            <div class="sk-nav">Leaks</div>
+            <div class="sk-nav hdr">reports</div>
+            <div class="sk-nav">Career</div>
+            <div class="sk-nav">Sessions</div>
+            <div class="sk-nav hdr">practice</div>
+            <div class="sk-nav">Drills</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Hand replay · seat 4</span>
+              <div class="sk-row between" style="margin-top:5px">
+                <div class="sk-title" style="font-size:14px">Station Sam</div>
+                <span class="sk-badge">8,330 hands seen</span>
+              </div>
+              <div class="sk-strip" style="margin-top:8px">
+                <span>VPIP <b>13.4%</b></span><span>PFR <b>8.0%</b></span><span>AF <b>1.5</b></span>
+              </div>
+              <div class="sk-dim" style="margin-top:7px">Your note: <i>"limp-calls, passive postflop"</i></div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Sessions · nemesis</span>
+              <div class="sk-dim">Already exists — Career's Nemesis tab keeps its own villain surface.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Kept intact</span>
+              <div class="sk-dim"><code style="font-family:var(--mono);font-size:10px">db.villains</code>, notes, tags, the backup schema. Only the nav item and page go.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Puts opponent stats at the moment of use instead of behind a browsing task nobody performs, and removes a nav item the sidebar cannot afford at 390px — at the cost of losing the only place to browse or search opponents at all.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Nothing is deleted from the database or the backup format, so the decision is reversible.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION C ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option C</span>
+        <h3>Defer — re-run the spike on real imports</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Decide after seeing whether real opponents actually separate</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">The missing measurement</span>
+              <table class="sk-table" style="margin-top:8px">
+                <thead><tr><th>Question</th><th>Demo answer</th><th>Real import</th></tr></thead>
+                <tbody>
+                  <tr><td class="k">VPIP spread</td><td>1.1pp</td><td>unknown</td></tr>
+                  <tr><td class="k">Opponents ≥30 hands</td><td>10 of 10</td><td>unknown</td></tr>
+                  <tr><td class="k">Opponents seen twice</td><td>n/a</td><td>unknown</td></tr>
+                  <tr><td class="k">Limp% non-zero</td><td>0 of 10</td><td>unknown</td></tr>
+                </tbody>
+              </table>
+              <div class="sk-note">Repeat-encounter rate is the single number that decides this. It has never been measured.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Cost</span>
+              <div class="sk-dim">One measurement slice. The route stays as-is meanwhile.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Refuses to decide a keep-or-cut on synthetic data, which is the intellectually honest position, but it spends a slice measuring something the owner may already know the answer to from playing.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>UIR-023 becomes a measurement task and D6 is re-asked with a number attached.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+  </div>
+
+  <section class="consequence">
+    <h2>What each option does to the backlog</h2>
+    <div class="scroller">
+    <table class="cons">
+      <thead>
+        <tr><th>Task</th><th>A · keep &amp; build</th><th>B · cut the route</th><th>C · measure first</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="uir">UIR-023</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes a build, not a spike</td>
+          <td><span class="pill unlock">Closes</span> as a documented cut</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes a data measurement</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-007</td>
+          <td><span class="pill none">Unchanged</span> nav keeps 10 items</td>
+          <td><span class="pill unlock">Unlocks</span> nav drops to 9 — matters at 390px where only 5 fit</td>
+          <td><span class="pill block">Blocked</span> nav count unresolved</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-013</td>
+          <td><span class="pill none">Unchanged</span></td>
+          <td><span class="pill rewrite">Rewrite</span> Hand Replay must host the opponent block</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-020</td>
+          <td><span class="pill unlock">Unlocks</span> session-level opponent comparison has a home</td>
+          <td><span class="pill rewrite">Rewrite</span> Sessions absorbs opponent context</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="touches">
+      <span class="kicker">Files and routes each option touches</span>
+      <ul>
+        <li><b style="color:var(--fg)">A</b> — <code>src/pages/VillainsPage.tsx</code>, new encounter aggregation in <code>src/analysis/</code>, <code>src/data/store.ts</code> (villain schema), field-baseline computation.</li>
+        <li><b style="color:var(--fg)">B</b> — delete <code>src/pages/VillainsPage.tsx</code> and its route in <code>src/App.tsx</code>; <code>navItems.ts</code>; add an opponent block to <code>src/components/hands/HandReplay.tsx</code>. <code>db.villains</code>, notes, tags and <code>src/data/backup.ts</code> untouched.</li>
+        <li><b style="color:var(--fg)">C</b> — a script under <code>scripts/</code> plus a report in <code>docs/reports/</code>; no <code>src/</code> change.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

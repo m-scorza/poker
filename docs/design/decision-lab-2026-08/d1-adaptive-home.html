@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D1 — Adaptive home · Decision Lab 2026-08</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">← Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html" aria-current="page">D1</a>
+    <a href="d2-performance-product.html">D2</a>
+    <a href="d3-money-context.html">D3</a>
+    <a href="d4-profile-settings.html">D4</a>
+    <a href="d5-caveat-disclosure.html">D5</a>
+    <a href="d6-villains.html">D6</a>
+    <a href="d7-blackout-salvage.html">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">Owner decision · 2026-08-10</span>
+    <p>D1 ratified: one route, adaptive body — no first-run mode question, no persisted mode flag.</p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Decision D1 · owner comments 1, 2, 33 · governs UIR-005, UIR-006</span>
+    <h1>Adaptive home,<br>not one universal Coach's Note</h1>
+    <p class="lede">
+      The Coach's Note is a good review surface. The question is whether it should be the
+      unconditional <code style="font-family:var(--mono)">/</code> route for every user in every
+      data state — including a user who has imported nothing.
+    </p>
+  </div>
+
+  <section class="today">
+    <span class="kicker">What exists today — verified 2026-08-10</span>
+    <h2>One route, one composition, five very different situations</h2>
+    <p>
+      <b style="color:var(--fg)">src/App.tsx:66</b> maps <code style="font-family:var(--mono)">/</code>
+      to <code style="font-family:var(--mono)">CoachsNotePage</code> unconditionally, and
+      <code style="font-family:var(--mono)">/coach</code> redirects to it. The page always renders the
+      same composition: dossier hero → folio 01 "The focus" → honesty strip → mindset card. With zero
+      hands imported it fills that composition with refusals: a monumental
+      <i>"Not enough hands to read yet."</i>, a reference-match meta block reading
+      <code style="font-family:var(--mono)">—</code>, and "0 spots not graded" — then offers a
+      <b style="color:var(--fg)">Back to Dashboard</b> button whose destination is also empty.
+    </p>
+    <p>
+      Meanwhile the training path already exists and is not reachable from the front door: Drills ships
+      <b style="color:var(--fg)">11 curriculum packs</b> whose own copy reads
+      <i>"Start here even before importing hand histories"</i>, plus a spaced-review queue. It sits
+      under a "Practice" sidebar heading, three sections down.
+    </p>
+    <div class="verified">
+      <div><b>1</b><span>home compositions</span></div>
+      <div><b>5</b><span>situations D1 names</span></div>
+      <div class="good"><b>11</b><span>curriculum packs already built</span></div>
+      <div class="bad"><b>1092px</b><span>front-door scroll width at 390px</span></div>
+    </div>
+    <div class="evidence">
+      <b>Evidence.</b> Empty state captured at 1440×1000 with a fresh IndexedDB: monumental refusal +
+      "Back to Dashboard" + full honesty strip, zero next actions besides "Import hands".<br>
+      <b>Overflow.</b> <code>document.scrollWidth</code> on <code>/</code> = 1092 at a 390px viewport
+      and 1332 at 1024 — the front door is the worst horizontal-overflow offender after Ranges.<br>
+      <b>Populated state.</b> 15,245 decisions, focus leak "Range Compliance", severity CRITICAL,
+      reference match 60.0%, 3,724 spots not graded.
+    </div>
+  </section>
+
+  <div class="options">
+
+    <!-- ============ OPTION A ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option A</span>
+        <h3>Mode gate at the router</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">First run · no data, no mode chosen</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav">Home</div>
+            <div class="sk-nav hdr" style="opacity:.3">locked</div>
+            <div class="sk-nav" style="opacity:.3">Hands</div>
+            <div class="sk-nav" style="opacity:.3">Leaks</div>
+            <div class="sk-nav" style="opacity:.3">Career</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card" style="text-align:center;padding:20px 13px">
+              <span class="sk-k">Choose how you want to start</span>
+              <div class="sk-title" style="margin:8px 0 14px">Two ways in</div>
+              <div class="sk-grid2">
+                <div class="sk-card" style="background:var(--bg-3)">
+                  <div class="sk-title" style="font-size:13px">Review my play</div>
+                  <div class="sk-dim" style="margin-top:5px">Import hand histories</div>
+                  <div class="sk-cta" style="margin-top:10px">Import <span class="arr">→</span></div>
+                </div>
+                <div class="sk-card" style="background:var(--bg-3)">
+                  <div class="sk-title" style="font-size:13px">Train from scratch</div>
+                  <div class="sk-dim" style="margin-top:5px">11 packs · 0 hands needed</div>
+                  <div class="sk-cta" style="margin-top:10px">Drill <span class="arr">→</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Persisted</span>
+              <div class="sk-sub"><code style="font-family:var(--mono);font-size:10px">settings.productMode = 'review' | 'train' | 'mixed'</code></div>
+              <div class="sk-note">Mode drives which nav sections unlock and which home renders. Changeable later from the profile menu.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Delivers the owner-approved dual-startup product literally and makes navigation unlock progressively, at the cost of a first-run interrogation before any value is shown and a persisted mode flag every later surface has to branch on.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Makes UIR-005 mandatory and large; UIR-006, 007, 022 all inherit the mode state machine.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION B ============ -->
+    <article class="opt ratified">
+      <header>
+        <span class="tag">Option B</span>
+        <h3>One route, adaptive body</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Same route · composition follows the data</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav on">Home</div>
+            <div class="sk-nav">Hands</div>
+            <div class="sk-nav">Leaks</div>
+            <div class="sk-nav hdr">reports</div>
+            <div class="sk-nav">Career</div>
+            <div class="sk-nav hdr">practice</div>
+            <div class="sk-nav">Drills</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">State · 0 hands</span>
+              <div class="sk-title" style="font-size:15px">Start with your hands, or start drilling</div>
+              <div class="sk-row" style="margin-top:10px">
+                <div class="sk-cta">Import hands <span class="arr">→</span></div>
+                <div class="sk-cta ghost">Drill 11 packs <span class="arr">→</span></div>
+              </div>
+              <div class="sk-note">No refusal headline. No mode to choose. Both doors, one screen.</div>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">State · 15,245 decisions</span>
+              <div class="sk-row between" style="margin-top:6px">
+                <div>
+                  <div class="sk-title" style="font-size:15px">Range Compliance</div>
+                  <div class="sk-dim">60.0% reference match · ~3,613 bb est. cost</div>
+                </div>
+                <span class="sk-badge crit">Critical</span>
+              </div>
+              <div class="sk-row" style="margin-top:10px">
+                <div class="sk-cta">Open drills <span class="arr">→</span></div>
+                <div class="sk-cta ghost">See receipts</div>
+              </div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">State · drilled, never imported</span>
+              <div class="sk-sub">Resume "Facing 3-bet frontier" · 15 new spots</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Every user sees a useful next action on first paint with no setup question and no new persisted state, at the cost of never letting a training-first user say so out loud — the app infers intent from data instead of being told.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Shrinks UIR-005 from a mode state machine to a documented state table; UIR-006 becomes buildable immediately. A stored mode preference can still be layered on later without redoing this.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION C ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option C</span>
+        <h3>Keep the front door, fix its states</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Minimum change · Coach's Note stays <code style="font-family:var(--mono)">/</code></span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav on">Coach's Note</div>
+            <div class="sk-nav">Hands</div>
+            <div class="sk-nav">Leaks</div>
+            <div class="sk-nav hdr">reports</div>
+            <div class="sk-nav">Dashboard</div>
+            <div class="sk-nav">Career</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <div class="sk-row between">
+                <span class="sk-k">Command desk // coach's note</span>
+                <span class="sk-badge" style="text-decoration:line-through;opacity:.45">Back to Dashboard</span>
+              </div>
+              <div class="sk-title xl" style="font-size:22px;margin-top:8px">One leak is costing you.</div>
+              <div class="sk-note">Headline unchanged. Only the top-right action changes per state:</div>
+              <table class="sk-table" style="margin-top:9px">
+                <tr><td class="k">0 hands</td><td>Import hands →</td></tr>
+                <tr><td class="k">has hands</td><td>Open drills →</td></tr>
+                <tr><td class="k">drilled only</td><td>Resume pack →</td></tr>
+              </table>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Unchanged</span>
+              <div class="sk-dim">Route map, sidebar, page composition, honesty strip.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Removes the nonsensical action in a one-file change with essentially zero risk, but leaves a brand-new user staring at a 100px refusal as the product's first impression — which is the actual complaint behind comments 2 and 33.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Closes comment 1 only; UIR-005 and UIR-006 stay open and Wave 1 stays blocked.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+  </div>
+
+  <section class="consequence">
+    <h2>What each option does to the backlog</h2>
+    <p>Read down your preferred column. A blocked task cannot start; a rewritten task keeps its ID and loses its current description.</p>
+    <div class="scroller">
+    <table class="cons">
+      <thead>
+        <tr><th>Task</th><th>A · mode gate</th><th>B · adaptive body</th><th>C · states only</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="uir">UIR-005</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes a full mode state machine + persistence + migration</td>
+          <td><span class="pill rewrite">Rewrite</span> shrinks to a documented state table, no persisted mode</td>
+          <td><span class="pill none">Unchanged</span> stays open as specified</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-006</td>
+          <td><span class="pill block">Blocked</span> until UIR-005 lands the mode model</td>
+          <td><span class="pill unlock">Unlocks</span> buildable as the next slice</td>
+          <td><span class="pill block">Blocked</span> unchanged</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-007</td>
+          <td><span class="pill rewrite">Rewrite</span> nav must express locked/unlocked sections</td>
+          <td><span class="pill unlock">Unlocks</span> nav work is independent of home</td>
+          <td><span class="pill unlock">Unlocks</span> independent</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-015</td>
+          <td><span class="pill unlock">Unlocks</span> first-import onboarding has an obvious owner</td>
+          <td><span class="pill unlock">Unlocks</span> the empty home <i>is</i> the onboarding surface</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-022</td>
+          <td><span class="pill rewrite">Rewrite</span> Practice/Curriculum split inherits the mode flag</td>
+          <td><span class="pill none">Unchanged</span> split stands on its own</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="touches">
+      <span class="kicker">Files and routes each option touches</span>
+      <ul>
+        <li><b style="color:var(--fg)">A</b> — <code>src/App.tsx</code>, new <code>src/pages/HomePage.tsx</code>, <code>src/data/appStore.ts</code>, <code>src/data/store.ts</code> (settings table + version bump), <code>src/components/layout/navItems.ts</code>, <code>Sidebar.tsx</code>. New route resolution for <code>/</code>.</li>
+        <li><b style="color:var(--fg)">B</b> — <code>src/pages/CoachsNotePage.tsx</code> (composition branches), <code>src/analysis/coachsNote.ts</code> (already returns a discriminated union with an <code>insufficient_data</code> arm to branch on). No route change, no schema change.</li>
+        <li><b style="color:var(--fg)">C</b> — <code>src/pages/CoachsNotePage.tsx</code> lines 143–151 only.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

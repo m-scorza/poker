@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D7 — BLACKOUT salvage scope · Decision Lab 2026-08</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">← Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html">D1</a>
+    <a href="d2-performance-product.html">D2</a>
+    <a href="d3-money-context.html">D3</a>
+    <a href="d4-profile-settings.html">D4</a>
+    <a href="d5-caveat-disclosure.html">D5</a>
+    <a href="d6-villains.html">D6</a>
+    <a href="d7-blackout-salvage.html" aria-current="page">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">Owner decision · 2026-08-10</span>
+    <p>D7 ratified: port F-2’s tested primitives, and retire the park-list items that are live on main. F-1 typography deferred.</p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Decision D7 · governs UIR-024, and gates UIR-003, 010, 011, 015, 020, 021</span>
+    <h1>BLACKOUT is quarry —<br>but the quarry got inverted</h1>
+    <p class="lede">
+      D7 named a salvage list and a park list. Verified against <code style="font-family:var(--mono)">main</code>
+      today, the two lists have swapped: everything D7 said to park is shipped, and everything D7 said to
+      salvage is still sitting on a branch.
+    </p>
+  </div>
+
+  <section class="today">
+    <span class="kicker">What exists today — verified 2026-08-10 against main and the foundation branches</span>
+    <h2>The park list shipped on 2026-07-12; the salvage list never did</h2>
+    <p>
+      <b style="color:var(--fg)">Park list — all present on main.</b>
+      <code style="font-family:var(--mono)">src/components/blackout/</code> contains exactly three
+      components — <code style="font-family:var(--mono)">Folio</code>,
+      <code style="font-family:var(--mono)">Ticker</code> and
+      <code style="font-family:var(--mono)">HonestyStrip</code> — and all three are wired into
+      <code style="font-family:var(--mono)">CoachsNotePage.tsx</code>, which is the
+      <code style="font-family:var(--mono)">/</code> route. The diagonal severity ribbon is live:
+      <code style="font-family:var(--mono)">.bk-case::before</code> in
+      <code style="font-family:var(--mono)">blackout.css:166–179</code> sets
+      <code style="font-family:var(--mono)">content: attr(data-ribbon)</code> with
+      <code style="font-family:var(--mono)">transform: rotate(45deg)</code>. In the captured demo state it
+      renders "CRITICAL" diagonally across the receipts panel and overlaps the word "PATTERN" in the
+      heading beneath it.
+    </p>
+    <p>
+      <b style="color:var(--fg)">Salvage list — none of it on main.</b>
+      <code style="font-family:var(--mono)">DossierTable</code>,
+      <code style="font-family:var(--mono)">FilterRail</code>,
+      <code style="font-family:var(--mono)">EmptyState</code>,
+      <code style="font-family:var(--mono)">chartTheme</code>,
+      <code style="font-family:var(--mono)">TitleReveal</code>,
+      <code style="font-family:var(--mono)">FolioSection</code>,
+      <code style="font-family:var(--mono)">PageTransition</code> and
+      <code style="font-family:var(--mono)">CaseFileModal</code> exist only on
+      <code style="font-family:var(--mono)">origin/ui/blackout-f1-type-motion</code>
+      (<code style="font-family:var(--mono)">ec1c3a8</code>) and
+      <code style="font-family:var(--mono)">origin/ui/blackout-f2-tranche2</code>
+      (<code style="font-family:var(--mono)">4ff3866</code>). F-2 alone is 1,003 lines including five test
+      files and 366 lines of component CSS. Only
+      <code style="font-family:var(--mono)">useFocusTrap</code> made it across, and it landed under
+      <code style="font-family:var(--mono)">src/components/shared/</code>.
+    </p>
+    <p>
+      Separately, the chassis has drifted from the palette law it is supposed to enforce:
+      <b style="color:var(--loss)">104 off-palette Tailwind hue classes across 20 files</b> —
+      23 <code style="font-family:var(--mono)">text-sky</code>,
+      19 <code style="font-family:var(--mono)">text-amber</code>,
+      9 <code style="font-family:var(--mono)">text-cyan</code>,
+      4 <code style="font-family:var(--mono)">text-blue</code>, plus purple and orange — where D13 purged
+      amber system-wide and DESIGN.md lists new accent hues as an instant review rejection.
+    </p>
+    <div class="verified">
+      <div class="bad"><b>3 / 3</b><span>park-list items shipped</span></div>
+      <div class="bad"><b>1 / 9</b><span>salvage-list items shipped</span></div>
+      <div class="good"><b>1,003</b><span>reviewed lines waiting on F-2</span></div>
+      <div class="bad"><b>104</b><span>off-palette hue classes on main</span></div>
+    </div>
+    <div class="evidence">
+      <b>Reachability.</b> This clone arrived shallow (50 commits) and none of the referenced commits
+      resolved. It has been unshallowed to 262 commits; <code>ec1c3a8</code>, <code>4ff3866</code>,
+      <code>aee83a7</code>, <code>ec39b34</code>, <code>f6af6c2</code>, <code>0a64691</code>,
+      <code>a104a89</code>, <code>eff6452</code> and <code>39f56d5</code> are now all resolvable, which
+      UIR-021's mandated historical captures depend on.<br>
+      <b>Not on main and correctly so.</b> <code>InkField</code> (<code>aee83a7</code>, WebGL) and
+      <code>PresenceHalo</code> are absent; the halo that ships is the smaller
+      <code>CursorHalo</code> in <code>Layout.tsx</code>.
+    </div>
+  </section>
+
+  <div class="options">
+
+    <!-- ============ OPTION A ============ -->
+    <article class="opt ratified">
+      <header>
+        <span class="tag">Option A</span>
+        <h3>Port F-2 only, retire the park list</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Take the tool-page primitives; remove what already shipped against D7</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Port from 4ff3866 — work density, no page chrome</span>
+              <table class="sk-table" style="margin-top:8px">
+                <thead><tr><th>Primitive</th><th>Unblocks</th><th>Tests</th></tr></thead>
+                <tbody>
+                  <tr><td class="k">DossierTable</td><td>UIR-020, 021, 023</td><td>yes</td></tr>
+                  <tr><td class="k">FilterRail</td><td>UIR-021</td><td>yes</td></tr>
+                  <tr><td class="k">EmptyState</td><td>UIR-003, 015</td><td>yes</td></tr>
+                  <tr><td class="k">chartTheme</td><td>UIR-003, 018, 019</td><td>yes</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">Retire from main in the same wave</span>
+              <div class="sk-row" style="gap:6px;margin-top:6px">
+                <span class="sk-badge" style="text-decoration:line-through;opacity:.55">diagonal ribbon</span>
+                <span class="sk-badge" style="text-decoration:line-through;opacity:.55">permanent HonestyStrip</span>
+              </div>
+              <div class="sk-note">Both are on the D7 park list and both are live. Retiring them closes UIR-011 and clears the way for D5.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Deferred</span>
+              <div class="sk-dim">F-1 typography/motion — a third font family is a bundle decision, not a primitive.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Ports only the already-reviewed, already-tested primitives that five downstream tasks are actually waiting on, and finally makes main match D7 — at the cost of leaving the typographic half of BLACKOUT unbuilt, so the visual escalation the owner picked stays partly on paper.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Highest leverage per slice; no route or IA change, exactly as UIR-024 requires.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION B ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option B</span>
+        <h3>Port F-1 and F-2, three slices</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">The full salvage list as written in D7</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Slice 1 · typography + motion</span>
+              <div class="sk-dim" style="margin-top:4px">Self-hosted Hanken Grotesk + Space Mono, <code style="font-family:var(--mono);font-size:10px">motion.ts</code>, <code style="font-family:var(--mono);font-size:10px">TitleReveal</code>, <code style="font-family:var(--mono);font-size:10px">FolioSection</code>, <code style="font-family:var(--mono);font-size:10px">PageTransition</code></div>
+              <div class="sk-note">Adds two font families to a stack that already ships three. Bundle impact must be recorded.</div>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">Slice 2 · tool-page primitives</span>
+              <div class="sk-dim" style="margin-top:4px">The four F-2 components above.</div>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">Slice 3 · modal shell</span>
+              <div class="sk-dim" style="margin-top:4px"><code style="font-family:var(--mono);font-size:10px">CaseFileModal</code> minus its ribbon — gated on the UIR-013 wireframe.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Conflict to resolve first</span>
+              <div class="sk-dim">D9 ratified Inter + JetBrains on practicality grounds; D14 replaced them with Hanken + Space Mono. Both are law and they disagree.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Delivers the escalation the owner actually ratified rather than half of it, but slice 1 re-opens a settled typography decision and spends the wave's budget on faces and reveals before the tables and empty states that five tasks are blocked on.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Needs a written ruling on D9 vs D14 before slice 1 can start.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION C ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option C</span>
+        <h3>Palette repair first, salvage after</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Fix the chassis before adding to it</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">The drift, by hue</span>
+              <table class="sk-table" style="margin-top:8px">
+                <thead><tr><th>Class family</th><th>Uses</th><th>Maps to</th></tr></thead>
+                <tbody>
+                  <tr><td class="k">text-emerald-*</td><td>29</td><td><span style="color:var(--money)">--color-money</span></td></tr>
+                  <tr><td class="k">text-sky-*</td><td>23</td><td>no token — remove</td></tr>
+                  <tr><td class="k">text-amber-*</td><td>19</td><td><span style="color:var(--warn)">--color-warn</span> (D13)</td></tr>
+                  <tr><td class="k">text-rose-*</td><td>18</td><td><span style="color:var(--loss)">--color-loss</span></td></tr>
+                  <tr><td class="k">text-cyan-*</td><td>9</td><td>no token — remove</td></tr>
+                  <tr><td class="k">blue / purple / orange</td><td>6</td><td>no token — remove</td></tr>
+                </tbody>
+              </table>
+              <div class="sk-note">Mechanical, testable, and it makes every later slice cheaper to review.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Cost</span>
+              <div class="sk-dim">One full slice that ships zero new capability. UIR-003/010/015/020/021 stay blocked meanwhile.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Restores the one design rule the whole system is built on and makes "does this match the palette?" a mechanical review question instead of a judgement call, but it delays every blocked task by a slice and users see almost nothing change.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Can be merged into A as a second commit rather than a separate wave.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+  </div>
+
+  <section class="consequence">
+    <h2>What each option does to the backlog</h2>
+    <div class="scroller">
+    <table class="cons">
+      <thead>
+        <tr><th>Task</th><th>A · F-2 + retire</th><th>B · F-1 + F-2 + modal</th><th>C · palette first</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="uir">UIR-024</td>
+          <td><span class="pill rewrite">Rewrite</span> two slices: port F-2, retire park-list items</td>
+          <td><span class="pill none">Unchanged</span> executes as the three written slices</td>
+          <td><span class="pill rewrite">Rewrite</span> gains a slice 0</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-011</td>
+          <td><span class="pill unlock">Unlocks</span> ribbon removal is in scope, closes comment 3</td>
+          <td><span class="pill block">Blocked</span> ribbon survives until slice 3</td>
+          <td><span class="pill unlock">Unlocks</span> ribbon uses <code style="font-family:var(--mono)">--warn</code> correctly or goes</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-021</td>
+          <td><span class="pill unlock">Unlocks</span> <code style="font-family:var(--mono)">FilterRail</code> + <code style="font-family:var(--mono)">DossierTable</code> land first</td>
+          <td><span class="pill unlock">Unlocks</span> after slice 2</td>
+          <td><span class="pill block">Blocked</span> one slice later</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-003 / 018 / 019</td>
+          <td><span class="pill unlock">Unlocks</span> <code style="font-family:var(--mono)">chartTheme</code> gives every chart one axis/tooltip grammar</td>
+          <td><span class="pill unlock">Unlocks</span> same</td>
+          <td><span class="pill block">Blocked</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-013</td>
+          <td><span class="pill block">Blocked</span> modal shell deferred</td>
+          <td><span class="pill unlock">Unlocks</span> slice 3 delivers the shell</td>
+          <td><span class="pill block">Blocked</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-012</td>
+          <td><span class="pill unlock">Unlocks</span> retiring <code style="font-family:var(--mono)">HonestyStrip</code> clears D5's path</td>
+          <td><span class="pill block">Blocked</span> strip stays universal</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="touches">
+      <span class="kicker">Files and branches each option touches</span>
+      <ul>
+        <li><b style="color:var(--fg)">A</b> — cherry-pick <code>4ff3866</code> paths into <code>src/components/blackout/</code> + <code>src/styles/blackout-components.css</code>; delete <code>.bk-case::before</code> from <code>src/styles/blackout.css</code>; retire <code>src/components/blackout/HonestyStrip.tsx</code> and its use in <code>CoachsNotePage.tsx</code>.</li>
+        <li><b style="color:var(--fg)">B</b> — the above plus <code>ec1c3a8</code>: <code>motion.ts</code>, <code>TitleReveal</code>, <code>FolioSection</code>, <code>PageTransition</code>, self-hosted fonts, <code>src/main.tsx</code>, <code>vite.config.ts</code>, <code>package.json</code>, and a ruling on D9 vs D14.</li>
+        <li><b style="color:var(--fg)">C</b> — 20 files across <code>src/components/career/</code>, <code>src/components/hands/</code>, <code>src/components/shared/</code>, <code>src/components/arena/</code>, <code>src/pages/</code>; no new components.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

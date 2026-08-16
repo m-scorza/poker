@@ -1,0 +1,537 @@
+/* =========================================================
+   DECISION LAB 2026-08 — shared chassis for the D1–D7 workshop
+   Tokens mirror src/styles/tokens.css. Nothing here invents a
+   hue, a surface treatment, or a violet use that DESIGN.md and
+   DECISIONS.md do not already permit.
+
+   These are low-fidelity option sketches for an owner decision,
+   not shippable components. Every number rendered inside them
+   comes from the seeded demo dataset (250 tournaments /
+   15,245 hands) — see README.md in this folder.
+   ========================================================= */
+
+:root {
+  --bg: #0a0a0c;
+  --bg-2: #111114;
+  --bg-3: #16161a;
+  --input: #131316;
+
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  --fg: #f2f2f4;
+  --fg-muted: #8b8d94;
+  --fg-dim: #56585f;
+
+  --accent: #c9cdd6;
+  --accent-soft: rgba(201, 205, 214, 0.07);
+  --accent-line: rgba(201, 205, 214, 0.34);
+
+  --money: #34d98c;
+  --money-soft: rgba(52, 217, 140, 0.10);
+  --money-line: rgba(52, 217, 140, 0.40);
+
+  --loss: #ff5468;
+  --loss-soft: rgba(255, 84, 104, 0.10);
+  --loss-line: rgba(255, 84, 104, 0.40);
+
+  --warn: #a5697b;
+  --warn-soft: rgba(165, 105, 123, 0.08);
+  --warn-line: rgba(165, 105, 123, 0.30);
+
+  --sig: #9b6cff;
+  --sig-soft: rgba(155, 108, 255, 0.10);
+  --sig-line: rgba(155, 108, 255, 0.46);
+
+  --display: "Bricolage Grotesque", system-ui, sans-serif;
+  --sans: "Inter", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 0 0 96px;
+  overflow-x: hidden;
+}
+
+/* Long tokens (file paths, class names, the Ranges control-row quote) must wrap
+   rather than push the page wide — this lab documents that defect, it does not
+   get to reproduce it. */
+code, .evidence, .touches li, .today p, table.cons td {
+  overflow-wrap: anywhere;
+}
+
+::selection { background: var(--sig-line); color: var(--fg); }
+:focus-visible { outline: 1px solid var(--sig-line); outline-offset: 2px; }
+
+a { color: inherit; }
+
+/* ---------- lab chrome ---------- */
+
+.lab-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 30px;
+  background: rgba(10, 10, 12, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.lab-bar .home {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  text-decoration: none;
+}
+.lab-bar .home:hover { color: var(--fg); }
+.lab-bar nav { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+.lab-bar nav a {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  padding: 5px 9px;
+  border-radius: 3px;
+  color: var(--fg-dim);
+  text-decoration: none;
+}
+.lab-bar nav a:hover { color: var(--fg); background: var(--bg-3); }
+.lab-bar nav a[aria-current] {
+  color: var(--fg);
+  box-shadow: inset 0 -2px 0 var(--sig);
+}
+
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 30px; }
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+}
+
+.ratified-banner {
+  margin-top: 30px;
+  background: var(--money-soft);
+  border-left: 3px solid var(--money);
+  border-radius: 0 8px 8px 0;
+  padding: 16px 20px;
+}
+.ratified-banner .kicker { color: var(--money); }
+.ratified-banner p { margin-top: 6px; color: var(--fg); max-width: 86ch; }
+
+.page-head { padding: 34px 0; }
+.page-head h1 {
+  font-family: var(--display);
+  font-size: clamp(38px, 5vw, 62px);
+  font-weight: 780;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+  margin: 14px 0 18px;
+}
+.page-head .lede { color: var(--fg-muted); max-width: 74ch; font-size: 14px; }
+
+/* ---------- "what exists today" panel ---------- */
+
+.today {
+  background: var(--bg-2);
+  border-radius: 10px;
+  padding: 26px 28px;
+  margin-bottom: 14px;
+}
+.today h2 {
+  font-family: var(--display);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 10px 0 12px;
+}
+.today p { color: var(--fg-muted); max-width: 86ch; }
+.today p + p { margin-top: 10px; }
+.today .verified {
+  margin-top: 18px;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 18px;
+}
+.today .verified div b {
+  display: block;
+  font-family: var(--mono);
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--fg);
+}
+.today .verified div span {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+}
+.today .verified div.bad b { color: var(--loss); }
+.today .verified div.good b { color: var(--money); }
+
+.evidence {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--fg-dim);
+  line-height: 1.9;
+  margin-top: 16px;
+  border-left: 1px solid var(--border-strong);
+  padding-left: 14px;
+}
+.evidence b { color: var(--fg-muted); font-weight: 400; }
+
+/* ---------- option grid ---------- */
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 18px;
+  margin-top: 30px;
+  align-items: start;
+}
+.opt {
+  background: var(--bg-2);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.opt > header {
+  padding: 20px 22px 16px;
+  border-bottom: 1px solid var(--border);
+}
+.opt > header .tag {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+}
+.opt > header h3 {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 720;
+  letter-spacing: -0.02em;
+  margin: 7px 0 0;
+}
+.opt.ratified > header {
+  box-shadow: inset 3px 0 0 var(--money);
+}
+.opt.ratified > header h3::after {
+  content: "RATIFIED";
+  font-family: var(--mono);
+  font-size: 8.5px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: var(--money);
+  background: var(--money-soft);
+  border: 1px solid var(--money-line);
+  border-radius: 3px;
+  padding: 3px 7px;
+  margin-left: 10px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.opt.rec > header h3::after {
+  content: "RECOMMENDED";
+  font-family: var(--mono);
+  font-size: 8.5px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: var(--money);
+  background: var(--money-soft);
+  border: 1px solid var(--money-line);
+  border-radius: 3px;
+  padding: 3px 7px;
+  margin-left: 10px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.opt .sketch {
+  padding: 22px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  flex: 1;
+}
+.opt .verdict { padding: 18px 22px 22px; }
+.opt .verdict dl { display: grid; gap: 12px; }
+.opt .verdict dt {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  margin-bottom: 3px;
+}
+.opt .verdict dd { color: var(--fg-muted); }
+
+/* ---------- consequence table ---------- */
+
+.consequence { margin-top: 34px; }
+.consequence h2 {
+  font-family: var(--display);
+  font-size: 21px;
+  font-weight: 720;
+  letter-spacing: -0.02em;
+  margin: 0 0 4px;
+}
+.consequence > p { color: var(--fg-muted); margin-bottom: 16px; }
+/* the comparison table is the one genuinely wide thing here — it scrolls in its
+   own box, the page never does */
+.consequence .scroller { overflow-x: auto; border-radius: 10px; }
+table.cons {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  background: var(--bg-2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+table.cons th,
+table.cons td {
+  text-align: left;
+  padding: 11px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+table.cons th {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  font-weight: 400;
+  white-space: nowrap;
+}
+table.cons td { color: var(--fg-muted); }
+table.cons tr:last-child td { border-bottom: 0; }
+table.cons td.uir { font-family: var(--mono); font-size: 11px; color: var(--fg); white-space: nowrap; }
+.pill {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.pill.unlock { color: var(--money); background: var(--money-soft); border: 1px solid var(--money-line); }
+.pill.rewrite { color: var(--warn); background: var(--warn-soft); border: 1px solid var(--warn-line); }
+.pill.block { color: var(--loss); background: var(--loss-soft); border: 1px solid var(--loss-line); }
+.pill.none { color: var(--fg-dim); border: 1px solid var(--border-strong); }
+
+.touches {
+  margin-top: 18px;
+  background: var(--bg-2);
+  border-radius: 10px;
+  padding: 18px 22px;
+}
+.touches .kicker { margin-bottom: 10px; display: block; }
+.touches code {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--fg);
+  background: var(--bg-3);
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+.touches ul { list-style: none; display: grid; gap: 7px; }
+.touches li { color: var(--fg-muted); }
+
+/* =========================================================
+   Sketch primitives — deliberately crude. These exist to make
+   a layout decision legible, not to preview final pixels.
+   ========================================================= */
+
+.sk-shell { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; min-height: 240px; }
+.sk-side {
+  background: var(--bg-2);
+  border-radius: 6px;
+  padding: 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.sk-nav {
+  font-family: var(--mono);
+  font-size: 7.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  padding: 3px 4px;
+  border-radius: 2px;
+}
+.sk-nav.on { color: var(--fg); background: rgba(255, 255, 255, 0.045); box-shadow: inset 2px 0 0 var(--sig); }
+.sk-nav.hdr { color: var(--fg-dim); opacity: 0.55; letter-spacing: 0.16em; margin-top: 6px; }
+.sk-main { display: flex; flex-direction: column; gap: 8px; }
+
+.sk-card {
+  background: var(--bg-2);
+  border-radius: 6px;
+  padding: 12px 13px;
+}
+.sk-card.thin { padding: 9px 12px; }
+.sk-card.hair { border-top: 1px solid var(--border); border-radius: 0; background: transparent; }
+.sk-k {
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  display: block;
+}
+.sk-title {
+  font-family: var(--display);
+  font-size: 17px;
+  font-weight: 720;
+  letter-spacing: -0.02em;
+  margin-top: 4px;
+}
+.sk-title.xl { font-size: 30px; }
+.sk-num {
+  font-family: var(--mono);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--fg);
+}
+.sk-num.money { color: var(--money); }
+.sk-num.loss { color: var(--loss); }
+.sk-num.xl { font-size: 30px; letter-spacing: -0.02em; }
+.sk-sub { color: var(--fg-muted); font-size: 11.5px; margin-top: 3px; }
+.sk-dim { color: var(--fg-dim); font-size: 10.5px; }
+
+.sk-row { display: flex; gap: 14px; flex-wrap: wrap; }
+.sk-row.between { justify-content: space-between; align-items: flex-start; }
+.sk-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.sk-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.sk-grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+
+.sk-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--mono);
+  font-size: 9.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  padding: 7px 12px;
+  background: transparent;
+}
+.sk-cta .arr { color: var(--sig); }
+.sk-cta.ghost { border-color: var(--border); color: var(--fg-muted); }
+
+.sk-tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--border); }
+.sk-tab {
+  font-family: var(--mono);
+  font-size: 8.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  padding: 7px 10px;
+}
+.sk-tab.on { color: var(--fg); box-shadow: inset 0 -2px 0 var(--sig); }
+
+.sk-strip {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  color: var(--fg-dim);
+}
+.sk-strip b { color: var(--fg); font-weight: 700; }
+.sk-strip b.money { color: var(--money); }
+.sk-strip b.loss { color: var(--loss); }
+
+.sk-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid var(--border-strong);
+  color: var(--fg-muted);
+}
+.sk-badge.crit { color: var(--loss); border-color: var(--loss-line); background: var(--loss-soft); }
+.sk-badge.rev { color: var(--warn); border-color: var(--warn-line); background: var(--warn-soft); }
+.sk-badge.ok { color: var(--money); border-color: var(--money-line); background: var(--money-soft); }
+
+.sk-table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 10px; }
+.sk-table th {
+  text-align: left;
+  color: var(--fg-dim);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 8px;
+  padding: 5px 7px;
+  border-bottom: 1px solid var(--border);
+}
+.sk-table td { padding: 5px 7px; border-bottom: 1px solid var(--border); color: var(--fg-muted); }
+.sk-table td.k { color: var(--fg); }
+.sk-table tr:last-child td { border-bottom: 0; }
+
+.sk-note {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  color: var(--fg-dim);
+  margin-top: 8px;
+}
+.sk-caption {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  margin-bottom: 9px;
+  display: block;
+}
+
+/* a deliberately faked "sparkline" — shape only, no claim */
+.sk-spark {
+  height: 34px;
+  background:
+    linear-gradient(to top, var(--money-soft), transparent),
+    repeating-linear-gradient(90deg, transparent 0 11px, var(--border) 11px 12px);
+  border-bottom: 1px solid var(--money-line);
+  border-radius: 3px 3px 0 0;
+}
+
+@media (max-width: 720px) {
+  .wrap { padding: 0 18px; }
+  .lab-bar { padding: 12px 18px; }
+  .options { grid-template-columns: 1fr; }
+  .today .verified { grid-template-columns: 1fr 1fr; }
+  /* the sketches are diagrams, not responsive layouts — let them scroll in place */
+  .opt .sketch { overflow-x: auto; }
+  .sk-shell { min-width: 300px; }
+  .sk-grid3, .sk-grid4 { grid-template-columns: 1fr 1fr; }
+  .facts table { display: block; overflow-x: auto; white-space: nowrap; }
+}

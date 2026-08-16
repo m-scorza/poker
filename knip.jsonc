@@ -47,6 +47,12 @@
     ".design-sync/previews/*.tsx",
   ],
 
+  // Static design artifacts under docs/ are not application code and are never
+  // imported by src/ — the direction/decision labs are self-contained pages
+  // opened from disk or served as-is. knip's project globs pick up their
+  // stylesheets and report them as unused files, so exclude the tree.
+  "ignore": ["docs/**"],
+
   // @fontsource/* fonts are consumed only by the design-sync CSS build
   // (.design-sync/config.json extraFonts), not imported by src/ — the app
   // itself ships Bricolage Grotesque via @fontsource-variable and falls

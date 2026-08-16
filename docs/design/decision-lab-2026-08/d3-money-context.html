@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D3 — Persistent money context · Decision Lab 2026-08</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">← Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html">D1</a>
+    <a href="d2-performance-product.html">D2</a>
+    <a href="d3-money-context.html" aria-current="page">D3</a>
+    <a href="d4-profile-settings.html">D4</a>
+    <a href="d5-caveat-disclosure.html">D5</a>
+    <a href="d6-villains.html">D6</a>
+    <a href="d7-blackout-salvage.html">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">Owner decision · 2026-08-10</span>
+    <p>D3 ratified: restore the ca7a08b block — derived-stats layer first, then the markup against real values.</p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Decision D3 · owner comments 6, 15 · governs UIR-008</span>
+    <h1>Persistent money context —<br>where, and how restrained?</h1>
+    <p class="lede">
+      The owner misses always-visible money. The constraint is the jewel budget: exactly one element per
+      screen may glow, and a shell-level money module would claim that budget on every route including
+      Ranges, Drills and Hands.
+    </p>
+  </div>
+
+  <section class="today">
+    <span class="kicker">Recovered history — the owner is right, this shipped and was deliberately removed</span>
+    <h2>It existed until 2026-06-17. It was removed for lying, not for being wrong.</h2>
+    <p>
+      The sidebar money hero was real. <code style="font-family:var(--mono)">ca7a08b</code> —
+      <i>"fix(ui): remove fabricated stats from sidebar + dashboard (CQ-1)"</i>, PR #80, 2026-06-17 —
+      deleted it. The markup was a <code style="font-family:var(--mono)">.jewel</code> block above the
+      hero identity, money-green with a
+      <code style="font-family:var(--mono)">0 0 20px rgba(52,217,140,0.40)</code> glow, reading:
+    </p>
+    <div class="evidence" style="margin:14px 0">
+      <b>Lifetime profit</b><br>
+      <span style="color:var(--money);font-size:15px;font-weight:700">+$388.85</span><br>
+      +141.4% ROI · 250 tourneys
+    </div>
+    <p>
+      Every one of those numbers was a hardcoded literal, sitting beside a fake
+      <b style="color:var(--fg)">"Grinder · B+"</b> rating and a hardcoded
+      <b style="color:var(--fg)">"scorza23"</b> identity. The commit's reasoning:
+      <i>"for a trust-thesis product, permanently displayed fake numbers are disqualifying."</i>
+      The design was never the problem — the data was.
+    </p>
+    <p>
+      <b style="color:var(--fg)">The commit named its own condition for return.</b> Verbatim:
+      <i>"Computing a real lifetime figure here would add a full-table scan to an always-mounted
+      component — the perf anti-pattern the audit's 1.4 already flags — so the honest minimal fix is to
+      remove the lie; a real figure can come later behind a derived-stats layer."</i>
+    </p>
+    <p>
+      <b style="color:var(--loss)">That derived-stats layer still does not exist.</b> There is no cache,
+      memo table or summary row anywhere in <code style="font-family:var(--mono)">src/data/</code>;
+      <code style="font-family:var(--mono)">DashboardPage.tsx:29–32</code> still calls
+      <code style="font-family:var(--mono)">db.hands.toArray()</code>,
+      <code style="font-family:var(--mono)">db.heroDecisions.toArray()</code> and
+      <code style="font-family:var(--mono)">db.tournaments.toArray()</code> on mount — 15,245 + 15,245 +
+      250 rows on the demo dataset. Doing that from an always-mounted sidebar is exactly what #80
+      refused. <b style="color:var(--fg)">So D3 is not a design question. It is: build the derived-stats
+      layer, or don't restore the block.</b>
+    </p>
+    <p>
+      There is also a live regression guard.
+      <code style="font-family:var(--mono)">src/components/layout/__tests__/Sidebar.test.tsx</code>
+      asserts the sidebar renders no <code style="font-family:var(--mono)">388.85</code>,
+      <code style="font-family:var(--mono)">141.4</code>,
+      <code style="font-family:var(--mono)">250 tourneys</code> or
+      <code style="font-family:var(--mono)">Grinder</code>. Any restoration must keep that test passing
+      by computing real values — not by weakening the guard.
+    </p>
+    <div class="verified">
+      <div class="good"><b>ca7a08b</b><span>the commit that removed it</span></div>
+      <div class="bad"><b>0</b><span>derived-stats layers built since</span></div>
+      <div class="bad"><b>30,740</b><span>rows scanned per dashboard mount</span></div>
+      <div><b>1</b><span>regression guard to keep green</span></div>
+    </div>
+  </section>
+
+  <section class="today">
+    <span class="kicker">What exists today — verified 2026-08-10</span>
+    <h2>No shell money context at all; two page-local marquees instead</h2>
+    <p>
+      <code style="font-family:var(--mono)">src/components/layout/Layout.tsx</code> and
+      <code style="font-family:var(--mono)">Sidebar.tsx</code> render no financial data. The sidebar's
+      bottom block is a static avatar + hero name + the literal label "Hero". Money appears only inside
+      two page-local marquees: <code style="font-family:var(--mono)">WireTape</code> on Dashboard
+      (PROFIT / VPIP / PFR / 3BET, each item printed twice for the scroll loop) and
+      <code style="font-family:var(--mono)">Ticker</code> on Coach's Note (VPIP / PFR / C-BET HU /
+      REFERENCE MATCH / NOT GRADED / DECISIONS).
+    </p>
+    <p>
+      Both marquees clip at narrow widths — at 390px the Coach's Note ticker renders its first item as
+      <b style="color:var(--loss)">"/PIP 37.5%"</b> with the V cut off, and the trailing "DECISIONS"
+      label is cut mid-word. Leaving Dashboard or Coach's Note means losing every money number entirely;
+      on Ranges, Drills, Hands, Sessions and Villains there is no financial context of any kind.
+    </p>
+    <div class="verified">
+      <div><b>0</b><span>shell-level money elements</span></div>
+      <div><b>2</b><span>page-local marquees</span></div>
+      <div class="bad"><b>2</b><span>clipped ticker items at 390px</span></div>
+      <div><b>+$843.49</b><span>the number in question</span></div>
+    </div>
+    <div class="evidence">
+      <b>Real values available now.</b> Net +$843.49 · buy-ins $275.00 · prizes $1,105.97 ·
+      ROI +306.7% · ITM 26.0% (65 of 250 tournaments carry a recorded finish) · max drawdown $17.60 ·
+      ABI $1.10 · 250 tournaments · 15,245 hands.<br>
+      <b>Denominator honesty.</b> ROI's denominator is valid here ($275.00 of buy-ins). A persistent
+      module must be able to render the "denominator invalid" state, not just the happy one.
+    </div>
+  </section>
+
+  <div class="options">
+
+    <!-- ============ OPTION A ============ -->
+    <article class="opt ratified">
+      <header>
+        <span class="tag">Option A</span>
+        <h3>Restore it, with a derived-stats layer</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">The <code style="font-family:var(--mono)">ca7a08b</code> block back in place — same design, real numbers</span>
+        <div class="sk-shell">
+          <div class="sk-side" style="justify-content:space-between">
+            <div>
+              <div class="sk-nav">Home</div>
+              <div class="sk-nav">Hands</div>
+              <div class="sk-nav">Leaks</div>
+              <div class="sk-nav hdr">reports</div>
+              <div class="sk-nav">Career</div>
+              <div class="sk-nav on">Ranges</div>
+            </div>
+            <div>
+              <div class="sk-card" style="padding:8px 7px;background:linear-gradient(180deg,var(--money-soft),transparent);box-shadow:0 0 28px rgba(52,217,140,.11), inset 0 1px 0 rgba(255,255,255,.06);border-radius:5px">
+                <span class="sk-k" style="font-size:6.5px">Lifetime</span>
+                <div class="sk-num money" style="font-size:13px">+$843</div>
+                <div class="sk-dim" style="font-size:8px">+306.7% · 250 T</div>
+              </div>
+              <div class="sk-nav" style="margin-top:6px">scorza23</div>
+            </div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Range matrix</span>
+              <div class="sk-title" style="font-size:15px">Compliance &amp; Theory</div>
+              <div class="sk-dim" style="margin-top:6px">The page keeps its own jewel budget free — money lives in the chassis, not in the task.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Prerequisite slice</span>
+              <div class="sk-dim">A <code style="font-family:var(--mono);font-size:10px">db.summary</code> row written on import/seed — net, buy-ins, prizes, tournament count. The sidebar reads one row, not 30,740.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Guard stays green</span>
+              <div class="sk-dim">Real values, so <code style="font-family:var(--mono);font-size:10px">Sidebar.test.tsx</code> passes unchanged — the fake literals never return.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Restores a design that already existed and that DESIGN.md still names as the canonical jewel, with the honesty defect fixed at its root rather than papered over — but it is now two slices, not one, because the derived-stats layer #80 asked for has to be built first.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Still needs an explicit mobile answer: below 768px the sidebar becomes a horizontal icon bar with nowhere to put the block.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION B ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option B</span>
+        <h3>Slim cross-page strip</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">One hairline row above the page title, all routes</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav">Home</div>
+            <div class="sk-nav">Hands</div>
+            <div class="sk-nav">Leaks</div>
+            <div class="sk-nav on">Ranges</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card thin" style="padding:7px 12px">
+              <div class="sk-strip">
+                <span>NET <b class="money">+$843.49</b></span>
+                <span>ROI <b class="money">+306.7%</b></span>
+                <span>ITM <b>26.0%</b></span>
+                <span>250 <b>tournaments</b></span>
+              </div>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">Range matrix</span>
+              <div class="sk-title" style="font-size:15px">Compliance &amp; Theory</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Static, not a marquee</span>
+              <div class="sk-dim">Wraps at narrow widths instead of clipping — fixes the "/PIP" defect by construction.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Survives every viewport by wrapping rather than clipping and needs no jewel at all, but it puts a money row above task pages where money is irrelevant — a cost of vertical space on Ranges and Drills that buys nothing there.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Can replace both existing marquees, deleting <code style="font-family:var(--mono)">WireTape</code> and reducing <code style="font-family:var(--mono)">Ticker</code> to Coach's Note only.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION C ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option C</span>
+        <h3>No persistent module</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Money stays where money is the subject</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav">Home</div>
+            <div class="sk-nav">Hands</div>
+            <div class="sk-nav on">Ranges</div>
+            <div class="sk-nav hdr">reports</div>
+            <div class="sk-nav">Performance</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Range matrix</span>
+              <div class="sk-title" style="font-size:15px">Compliance &amp; Theory</div>
+              <div class="sk-dim" style="margin-top:6px">Nothing above it. The task owns the whole viewport.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Money reachable in one click</span>
+              <div class="sk-row" style="margin-top:6px">
+                <div class="sk-cta ghost">Performance <span class="arr">→</span></div>
+                <div class="sk-cta ghost">⌘K</div>
+              </div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Deletes</span>
+              <div class="sk-dim"><code style="font-family:var(--mono);font-size:10px">WireTape</code> — the duplicated-marquee source.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>The cheapest and quietest option and the one most consistent with "density is a feature" — but it is a direct refusal of comment 6, and the owner asked for this specific thing by name.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>UIR-008 closes as "tested, not built", with the captures as the record.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+  </div>
+
+  <section class="consequence">
+    <h2>What each option does to the backlog</h2>
+    <div class="scroller">
+    <table class="cons">
+      <thead>
+        <tr><th>Task</th><th>A · sidebar block</th><th>B · slim strip</th><th>C · none</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="uir">UIR-008</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes two slices: derived-stats layer, then restore <code style="font-family:var(--mono)">ca7a08b</code>'s block + its mobile form</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes "build the strip, delete both marquees"</td>
+          <td><span class="pill unlock">Closes</span> as a documented refusal</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-007</td>
+          <td><span class="pill block">Blocked</span> sidebar layout must settle before the profile menu moves in</td>
+          <td><span class="pill unlock">Unlocks</span> independent of the strip</td>
+          <td><span class="pill unlock">Unlocks</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-018</td>
+          <td><span class="pill unlock">Unlocks</span> Dashboard can drop its duplicate money row</td>
+          <td><span class="pill unlock">Unlocks</span> same</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-024</td>
+          <td><span class="pill rewrite">Rewrite</span> <code style="font-family:var(--mono)">Ticker</code> salvage becomes the block, not a marquee</td>
+          <td><span class="pill rewrite">Rewrite</span> <code style="font-family:var(--mono)">Ticker</code> salvage becomes the static strip</td>
+          <td><span class="pill rewrite">Rewrite</span> drop <code style="font-family:var(--mono)">Ticker</code> from the salvage list</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-021</td>
+          <td><span class="pill unlock">Unlocks</span> Ranges gains vertical room</td>
+          <td><span class="pill block">Blocked</span> costs ~40px on the page that already overflows</td>
+          <td><span class="pill unlock">Unlocks</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="touches">
+      <span class="kicker">Files and routes each option touches</span>
+      <ul>
+        <li><b style="color:var(--fg)">A</b> — slice 1: a derived-stats layer (<code>src/data/store.ts</code> schema bump + a summary row written on import/seed, <code>src/data/backup.ts</code> for the new table). Slice 2: <code>src/components/layout/Sidebar.tsx</code> restoring the <code>ca7a08b</code> markup against real values, keeping <code>__tests__/Sidebar.test.tsx</code> green. <code>--shadow-jewel</code> already exists in <code>tokens.css</code>. Mobile: the sidebar becomes a bottom bar below 768px and needs an explicit answer.</li>
+        <li><b style="color:var(--fg)">B</b> — <code>src/components/layout/Layout.tsx</code>, delete <code>src/components/dashboard/WireTape.tsx</code>, scope <code>src/components/blackout/Ticker.tsx</code> to Coach's Note.</li>
+        <li><b style="color:var(--fg)">C</b> — delete <code>WireTape.tsx</code>; no shell change.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

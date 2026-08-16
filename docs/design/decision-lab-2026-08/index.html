@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decision Lab 2026-08 — D1–D7 owner workshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+<style>
+  .deck { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-top: 30px; }
+  .deck a {
+    background: var(--bg-2); border-radius: 10px; padding: 22px 24px;
+    text-decoration: none; display: block; transition: background .14s;
+  }
+  .deck a:hover { background: var(--bg-3); }
+  .deck .id { font-family: var(--mono); font-size: 10px; letter-spacing: .22em; color: var(--fg-dim); }
+  .deck h3 { font-family: var(--display); font-size: 21px; font-weight: 720; letter-spacing: -.02em; margin: 7px 0 8px; }
+  .deck p { color: var(--fg-muted); font-size: 12.5px; }
+  .deck .rec { margin-top: 12px; padding-top: 11px; border-top: 1px solid var(--border); font-size: 12px; color: var(--fg-muted); }
+  .deck .rec b { color: var(--money); font-family: var(--mono); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; display: block; margin-bottom: 3px; }
+  .facts { margin-top: 34px; }
+  .facts table { width: 100%; border-collapse: collapse; background: var(--bg-2); border-radius: 10px; overflow: hidden; }
+  .facts th, .facts td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--border); }
+  .facts th { font-family: var(--mono); font-size: 9px; letter-spacing: .16em; text-transform: uppercase; color: var(--fg-dim); font-weight: 400; }
+  .facts td { color: var(--fg-muted); font-size: 12.5px; }
+  .facts td.n { font-family: var(--mono); color: var(--fg); white-space: nowrap; }
+  .facts tr:last-child td { border-bottom: 0; }
+</style>
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html">D1</a>
+    <a href="d2-performance-product.html">D2</a>
+    <a href="d3-money-context.html">D3</a>
+    <a href="d4-profile-settings.html">D4</a>
+    <a href="d5-caveat-disclosure.html">D5</a>
+    <a href="d6-villains.html">D6</a>
+    <a href="d7-blackout-salvage.html">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">All seven ratified by the owner · 2026-08-10</span>
+    <p>
+      The workshop is closed. Each page keeps its full option set and evidence; the chosen option carries a
+      <b>RATIFIED</b> flag. The re-sequenced backlog lives in the plan file's §5.2.
+    </p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Owner decision workshop · docs/plans/2026-07-10-owner-ui-review-and-product-modes.md §5 step 2</span>
+    <h1>Seven decisions,<br>one sitting.</h1>
+    <p class="lede">
+      Wave 0 correctness work is closing. Everything after it was gated on D1–D7, which are product calls,
+      not engineering ones. Each page below states what exists today — verified against source and the
+      running app, not against the docs — then offers two or three options with the trade-off named, a
+      recommendation, and the exact effect on the UIR backlog.
+    </p>
+    <p class="lede" style="margin-top:12px">
+      These are low-fidelity sketches for deciding, not previews of finished pixels. Every number in them
+      comes from the seeded demo dataset. Four decisions went with the recommendation; D2, D4 and D6 did
+      not, and the constraints that raised are recorded in the plan file rather than re-argued here.
+    </p>
+  </div>
+
+  <section class="consequence" style="margin-top:8px">
+    <h2>The seven answers</h2>
+    <div class="scroller">
+      <table class="cons">
+        <thead><tr><th>#</th><th>Ratified</th><th>Matched the recommendation?</th></tr></thead>
+        <tbody>
+          <tr><td class="uir">D1</td><td>One route, adaptive body</td><td><span class="pill unlock">Yes</span></td></tr>
+          <tr><td class="uir">D2</td><td>Audit first (UIR-009), re-ask D2 after</td><td><span class="pill rewrite">No — recommended one /performance</span></td></tr>
+          <tr><td class="uir">D3</td><td>Restore the <code style="font-family:var(--mono)">ca7a08b</code> block, derived-stats layer first</td><td><span class="pill unlock">Yes</span></td></tr>
+          <tr><td class="uir">D4</td><td>Full settings drawer, <code style="font-family:var(--mono)">/data</code> absorbed</td><td><span class="pill rewrite">No — recommended keeping /data</span></td></tr>
+          <tr><td class="uir">D5</td><td>Shared chip → reason → "Why?"</td><td><span class="pill unlock">Yes</span></td></tr>
+          <tr><td class="uir">D6</td><td>Keep Villains, build the repeat-opponent workflow</td><td><span class="pill rewrite">No — recommended cutting the route</span></td></tr>
+          <tr><td class="uir">D7</td><td>Port F-2, retire the park list</td><td><span class="pill unlock">Yes</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="deck">
+
+    <a href="d1-adaptive-home.html">
+      <span class="id">D1 · comments 1, 2, 33</span>
+      <h3>Adaptive home</h3>
+      <p>A new user with zero hands lands on a 100px refusal and a "Back to Dashboard" button pointing at an empty dashboard. Meanwhile 11 training packs that need no import at all sit three sections down the sidebar.</p>
+      <div class="rec"><b>Recommendation</b>One route, adaptive body — infer from data, no first-run mode question.</div>
+    </a>
+
+    <a href="d2-performance-product.html">
+      <span class="id">D2 · comments 17, 18, 20, 22</span>
+      <h3>Dashboard + Career</h3>
+      <p>$843.49 renders five times on one Dashboard screen and ROI three times; Career prints the same verdict again from the same function. Career is 15,912px tall, 76% of it an unpaginated timeline.</p>
+      <div class="rec"><b>Recommendation</b>One <code style="font-family:var(--mono)">/performance</code> route with Overview / Trends / Timeline.</div>
+    </a>
+
+    <a href="d3-money-context.html">
+      <span class="id">D3 · comments 6, 15</span>
+      <h3>Persistent money context</h3>
+      <p>The sidebar money hero <i>did</i> exist — <code style="font-family:var(--mono)">ca7a08b</code> deleted it on 2026-06-17 because "+$388.85 / +141.4% ROI" were hardcoded fakes. The design was fine; the data was a lie. That commit named its own condition for return, and it has not been met.</p>
+      <div class="rec"><b>Recommendation</b>Restore it — but build the derived-stats layer first.</div>
+    </a>
+
+    <a href="d4-profile-settings.html">
+      <span class="id">D4 · comments 4, 5</span>
+      <h3>Profile as settings home</h3>
+      <p>The hero block that looks clickable is an inert div. Data Vault — which already holds every setting the app has — is pinned in the sidebar, where only 5 of 10 nav items are reachable at 390px.</p>
+      <div class="rec"><b>Recommendation</b>Menu on the hero block; keep <code style="font-family:var(--mono)">/data</code> for destructive actions.</div>
+    </a>
+
+    <a href="d5-caveat-disclosure.html">
+      <span class="id">D5 · comments 7, 13, 23</span>
+      <h3>Caveats → progressive disclosure</h3>
+      <p>Leaks says "rule-based" 8 times and "no solver" 7 times in 3,619 characters. Dashboard says neither, once, while printing an ITM rate whose denominator is 65 of 250 tournaments.</p>
+      <div class="rec"><b>Recommendation</b>One shared chip → reason → "Why?" component; retire the permanent strip.</div>
+    </a>
+
+    <a href="d6-villains.html">
+      <span class="id">D6 · comment 32</span>
+      <h3>Villains keep-or-cut</h3>
+      <p>Seven columns, two of which are 0.0% for every player. Across the whole demo field VPIP spans 1.1 percentage points — nothing on the screen distinguishes one opponent from another.</p>
+      <div class="rec"><b>Recommendation</b>Cut the route, keep the data — surface opponents in Hand Replay.</div>
+    </a>
+
+    <a href="d7-blackout-salvage.html">
+      <span class="id">D7 · gates UIR-024 and five more</span>
+      <h3>BLACKOUT salvage scope</h3>
+      <p>The lists inverted. Everything D7 said to park — Coach's Note wiring, the universal honesty strip, the diagonal ribbon — is live on main. Everything it said to salvage is still on a branch.</p>
+      <div class="rec"><b>Recommendation</b>Port F-2's tested primitives; retire the park-list items in the same wave.</div>
+    </a>
+
+  </div>
+
+  <section class="facts">
+    <h2 style="font-family:var(--display);font-size:21px;font-weight:720;letter-spacing:-.02em;margin-bottom:4px">The dataset behind every number here</h2>
+    <p style="color:var(--fg-muted);margin-bottom:16px">Seeded via <b style="color:var(--fg)">Load demo dataset</b> in a fresh browser profile, then read back out of IndexedDB. No figure in this lab is invented.</p>
+    <table>
+      <thead><tr><th>Measure</th><th>Value</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Tournaments</td><td class="n">250</td><td>65 carry a recorded finish; 185 do not</td></tr>
+        <tr><td>Hands / hero decisions</td><td class="n">15,245</td><td>61,780 actions, 91,470 player rows</td></tr>
+        <tr><td>Net / buy-ins / prizes</td><td class="n">+$843.49</td><td>$275.00 in, $1,105.97 out</td></tr>
+        <tr><td>ROI · ITM · max drawdown</td><td class="n">+306.7% · 26.0% · $17.60</td><td>ITM denominator is 65, not 250</td></tr>
+        <tr><td>VPIP · PFR · 3-bet</td><td class="n">37.5% · 26.7% · 0.5%</td><td>C-bet HU 79.4%</td></tr>
+        <tr><td>Reference match</td><td class="n">60.0%</td><td>compliance 66.3% vs a 90–100% target</td></tr>
+        <tr><td>Scenario families present</td><td class="n">3</td><td>RFI 8,974 · FACING_RAISE 3,724 · BB_VS_RAISE 2,547</td></tr>
+        <tr><td>Not graded</td><td class="n">3,724</td><td>100% of them FACING_RAISE</td></tr>
+        <tr><td>Deviations</td><td class="n">1,890</td><td>BB_FOLD_SUITED 910 · COLD_CALL 518 · LIMPED 194</td></tr>
+        <tr><td>Tracked opponents</td><td class="n">10</td><td>VPIP 13.0–14.1%, limp 0.0% for all</td></tr>
+        <tr><td>Curriculum packs</td><td class="n">11</td><td>0 due / 15 new in spaced review</td></tr>
+        <tr><td>Vault rows</td><td class="n">184,000</td><td>across 11 tables</td></tr>
+      </tbody>
+    </table>
+
+    <div class="touches" style="margin-top:18px">
+      <span class="kicker">Cross-cutting defects found while verifying, not owned by any single decision</span>
+      <ul>
+        <li><b style="color:var(--fg)">Horizontal overflow.</b> <code>/ranges</code> overflows at all three widths (1604/1440, 1550/1024, 499/390). At 390px <code>/</code> (1092), <code>/dashboard</code> (905), <code>/sessions</code> (738), <code>/hands</code> (687) and <code>/villains</code> (461) all overflow; at 1024 <code>/</code> (1332) and <code>/dashboard</code> (1145) do. This is the named UIR-021 defect, and it is not confined to Ranges.</li>
+        <li><b style="color:var(--fg)">Ranges control row.</b> At 1024 the position selector renders as one unreadable string: <code>UTG (1836)UTG+1MPMP1MP2HJ (1768)CO (1811)BTN (1742)SB (1817)BB</code> — no spacing, no control chrome, hand counts fused to labels.</li>
+        <li><b style="color:var(--fg)">Palette drift.</b> 104 off-palette Tailwind hue classes across 20 files, including 19 uses of amber, which D13 purged system-wide.</li>
+        <li><b style="color:var(--fg)">Repo depth.</b> The clone arrived shallow at 50 commits, so none of the historical references in the plan resolved. Unshallowed to 262; <code>ec39b34</code>, <code>f6af6c2</code>, <code>0a64691</code>, <code>a104a89</code>, <code>eff6452</code>, <code>39f56d5</code>, <code>ec1c3a8</code>, <code>4ff3866</code> and <code>aee83a7</code> are now all reachable for UIR-021's mandated captures.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
