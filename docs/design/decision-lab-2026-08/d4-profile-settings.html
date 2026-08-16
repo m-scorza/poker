@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D4 — Profile as settings home · Decision Lab 2026-08</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">← Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html">D1</a>
+    <a href="d2-performance-product.html">D2</a>
+    <a href="d3-money-context.html">D3</a>
+    <a href="d4-profile-settings.html" aria-current="page">D4</a>
+    <a href="d5-caveat-disclosure.html">D5</a>
+    <a href="d6-villains.html">D6</a>
+    <a href="d7-blackout-salvage.html">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">Owner decision · 2026-08-10</span>
+    <p>D4 ratified: full settings drawer, /data absorbed and redirected. UIR-007 owns destructive-actions-in-an-overlay and narrow-viewport nav.</p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Decision D4 · owner comments 4, 5 · governs UIR-007</span>
+    <h1>Does the hero block<br>become the settings home?</h1>
+    <p class="lede">
+      Data Vault is currently a first-class sidebar destination that a user visits roughly never, and the
+      hero avatar at the bottom of the rail — the thing that looks clickable — is a static
+      <code style="font-family:var(--mono)">&lt;div&gt;</code>.
+    </p>
+  </div>
+
+  <section class="today">
+    <span class="kicker">What exists today — verified 2026-08-10</span>
+    <h2>Everything D4 asks for already exists; none of it is where you'd look</h2>
+    <p>
+      <code style="font-family:var(--mono)">Sidebar.tsx:46–54</code> renders the hero block as a plain
+      div: an avatar circle with the first initial, the hero name, and the static label "Hero". It has no
+      handler, no <code style="font-family:var(--mono)">role</code>, no keyboard affordance.
+    </p>
+    <p>
+      Meanwhile <code style="font-family:var(--mono)">/data</code> ("Data Vault") already contains
+      <b style="color:var(--fg)">exactly the D4 inventory</b>: a Settings card with hero name (persisted
+      to the IndexedDB <code style="font-family:var(--mono)">settings</code> table) and strategy profile
+      (Baseline / Advanced Theory), the vault row census — 184,000 rows across 11 tables — export to a
+      backup file, and restore with merge-or-replace behind a confirm dialog. It is pinned in the sidebar
+      under a "Data" section heading of its own.
+    </p>
+    <p>
+      Navigation itself is the constraint. Below 768px the sidebar becomes a horizontally scrolling
+      bottom bar; at 390px only <b style="color:var(--loss)">5 of the 10</b> nav items are visible without
+      scrolling, and labels are hidden entirely — the user sees five unlabelled icons.
+    </p>
+    <div class="verified">
+      <div class="bad"><b>0</b><span>interactive affordances on the hero block</span></div>
+      <div><b>184,000</b><span>rows the vault administers</span></div>
+      <div class="bad"><b>5 / 10</b><span>nav items visible at 390px</span></div>
+      <div><b>2</b><span>settings that exist at all</span></div>
+    </div>
+    <div class="evidence">
+      <b>Scope check.</b> The entire settings surface is two controls — hero name and strategy profile.
+      <code>SettingsCard.tsx</code> is the only settings component in <code>src/</code>. There is no
+      display preference, no theme (D2 forbids one), no notification setting.<br>
+      <b>Recoverability.</b> Export/restore/replace are the app's only data-loss-adjacent actions and
+      currently sit one click from the sidebar. Any move must not make recovery less findable.
+    </div>
+  </section>
+
+  <div class="options">
+
+    <!-- ============ OPTION A ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option A</span>
+        <h3>Menu on the hero block, page stays</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Hero block becomes a button; <code style="font-family:var(--mono)">/data</code> keeps its URL, loses its pin</span>
+        <div class="sk-shell">
+          <div class="sk-side" style="justify-content:space-between">
+            <div>
+              <div class="sk-nav on">Home</div>
+              <div class="sk-nav">Hands</div>
+              <div class="sk-nav">Leaks</div>
+              <div class="sk-nav hdr">reports</div>
+              <div class="sk-nav">Career</div>
+              <div class="sk-nav hdr">practice</div>
+              <div class="sk-nav">Drills</div>
+            </div>
+            <div class="sk-card" style="padding:7px;background:var(--bg-3)">
+              <div class="sk-dim" style="font-size:9px">▲ scorza23</div>
+              <div class="sk-note" style="margin-top:2px;font-size:7.5px">now a button</div>
+            </div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card" style="max-width:230px">
+              <span class="sk-k">Profile menu</span>
+              <table class="sk-table" style="margin-top:7px">
+                <tr><td class="k">Hero name</td><td>scorza23</td></tr>
+                <tr><td class="k">Strategy</td><td>Baseline</td></tr>
+                <tr><td class="k">Import health</td><td>→</td></tr>
+                <tr><td class="k">Backup &amp; restore</td><td>→</td></tr>
+                <tr><td class="k">Privacy</td><td>local only</td></tr>
+              </table>
+              <div class="sk-note">Two settings edit inline. Backup/restore deep-links to <code style="font-family:var(--mono);font-size:9px">/data</code>, which keeps its confirm dialog.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Sidebar drops</span>
+              <div class="sk-dim">The "Data" section heading and its single item — 10 nav items become 9, one fewer top-level section.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Makes the obviously-clickable thing clickable and reclaims a sidebar slot without hiding recovery — the destructive actions keep their full page and confirm dialog — at the cost of one more overlay surface to build, trap focus in, and test.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>No route deleted, so no bookmark breaks; the menu is additive and reversible.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION B ============ -->
+    <article class="opt ratified">
+      <header>
+        <span class="tag">Option B</span>
+        <h3>Full settings drawer, page absorbed</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption"><code style="font-family:var(--mono)">/data</code> is deleted; everything lives in the drawer</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav on">Home</div>
+            <div class="sk-nav">Hands</div>
+            <div class="sk-nav">Leaks</div>
+            <div class="sk-nav hdr">reports</div>
+            <div class="sk-nav">Career</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <div class="sk-row between">
+                <span class="sk-k">Settings drawer</span>
+                <span class="sk-badge">esc to close</span>
+              </div>
+              <div class="sk-tabs" style="margin-top:8px">
+                <span class="sk-tab on">Identity</span>
+                <span class="sk-tab">Strategy</span>
+                <span class="sk-tab">Data</span>
+                <span class="sk-tab">Privacy</span>
+              </div>
+              <div style="margin-top:10px">
+                <span class="sk-k">Hero name</span>
+                <div class="sk-card thin" style="background:var(--input);margin-top:4px">scorza23</div>
+                <div class="sk-note">Must match your hand histories exactly.</div>
+              </div>
+              <div class="sk-grid3" style="margin-top:10px">
+                <div><span class="sk-k">Hands</span><div class="sk-num" style="font-size:12px">15,245</div></div>
+                <div><span class="sk-k">Tournaments</span><div class="sk-num" style="font-size:12px">250</div></div>
+                <div><span class="sk-k">Rows</span><div class="sk-num" style="font-size:12px">184,000</div></div>
+              </div>
+              <div class="sk-row" style="margin-top:10px">
+                <div class="sk-cta ghost">Export backup</div>
+                <div class="sk-cta ghost" style="color:var(--loss);border-color:var(--loss-line)">Replace all</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>One coherent settings home with nothing split across a menu and a page, but it puts "replace my entire database" inside a dismissible overlay and breaks the <code style="font-family:var(--mono)">/data</code> URL — recoverability gets harder to find precisely when a user is panicking.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Needs a redirect for <code style="font-family:var(--mono)">/data</code> and a deliberate answer for destructive actions in an overlay.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION C ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option C</span>
+        <h3>Rename and re-section, no menu</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Cheapest legible fix: the page is fine, its name and place are not</span>
+        <div class="sk-shell">
+          <div class="sk-side" style="justify-content:space-between">
+            <div>
+              <div class="sk-nav on">Home</div>
+              <div class="sk-nav">Hands</div>
+              <div class="sk-nav">Leaks</div>
+              <div class="sk-nav hdr">reports</div>
+              <div class="sk-nav">Career</div>
+              <div class="sk-nav">Sessions</div>
+            </div>
+            <div>
+              <div class="sk-nav" style="border-top:1px solid var(--border);padding-top:6px">⚙ Settings &amp; data</div>
+              <div class="sk-nav">scorza23</div>
+            </div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Settings &amp; data · <code style="font-family:var(--mono);font-size:9px">/data</code></span>
+              <div class="sk-title" style="font-size:15px">Unchanged page, honest name</div>
+              <div class="sk-note">Moves out of the nav list into the rail footer beside the hero, where settings live in every other tool.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Not fixed</span>
+              <div class="sk-dim">The hero block is still inert. Comment 4 stays open.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>An hour of work that gets the nav taxonomy right and touches nothing risky, but it answers comment 5 and ignores comment 4 — the hero block stays a decoration that looks like a control.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Compatible with A later; this is A minus the menu.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+  </div>
+
+  <section class="consequence">
+    <h2>What each option does to the backlog</h2>
+    <div class="scroller">
+    <table class="cons">
+      <thead>
+        <tr><th>Task</th><th>A · hero menu</th><th>B · full drawer</th><th>C · rename only</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="uir">UIR-007</td>
+          <td><span class="pill rewrite">Rewrite</span> menu + nav audit, no route deletion</td>
+          <td><span class="pill rewrite">Rewrite</span> adds drawer, redirect and destructive-action design</td>
+          <td><span class="pill rewrite">Rewrite</span> shrinks to a nav-taxonomy slice</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-005</td>
+          <td><span class="pill unlock">Unlocks</span> the menu is where a mode preference would live</td>
+          <td><span class="pill unlock">Unlocks</span> same, as a drawer tab</td>
+          <td><span class="pill block">Blocked</span> no home for a mode control</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-015</td>
+          <td><span class="pill unlock">Unlocks</span> the persistent "Import help" entry has a home</td>
+          <td><span class="pill unlock">Unlocks</span></td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-024</td>
+          <td><span class="pill unlock">Unlocks</span> <code style="font-family:var(--mono)">useFocusTrap</code> salvage has its first real consumer</td>
+          <td><span class="pill unlock">Unlocks</span> same, larger</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="touches">
+      <span class="kicker">Files and routes each option touches</span>
+      <ul>
+        <li><b style="color:var(--fg)">A</b> — <code>src/components/layout/Sidebar.tsx</code>, new <code>src/components/layout/ProfileMenu.tsx</code>, <code>src/components/shared/useFocusTrap.ts</code> (exists, unused outside modals), <code>navItems.ts</code>. <code>/data</code> route retained.</li>
+        <li><b style="color:var(--fg)">B</b> — the above plus <code>src/App.tsx</code> (redirect <code>/data</code>), <code>src/pages/DataVaultPage.tsx</code> decomposed into drawer panels, <code>ConfirmDialog.tsx</code> nested-overlay behaviour.</li>
+        <li><b style="color:var(--fg)">C</b> — <code>navItems.ts</code> and <code>Sidebar.tsx</code> only.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

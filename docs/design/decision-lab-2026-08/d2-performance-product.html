@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D2 — Dashboard / Career · Decision Lab 2026-08</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lab.css">
+</head>
+<body>
+
+<div class="lab-bar">
+  <a class="home" href="index.html">← Decision Lab · 2026-08</a>
+  <nav>
+    <a href="d1-adaptive-home.html">D1</a>
+    <a href="d2-performance-product.html" aria-current="page">D2</a>
+    <a href="d3-money-context.html">D3</a>
+    <a href="d4-profile-settings.html">D4</a>
+    <a href="d5-caveat-disclosure.html">D5</a>
+    <a href="d6-villains.html">D6</a>
+    <a href="d7-blackout-salvage.html">D7</a>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <div class="ratified-banner">
+    <span class="kicker">Owner decision · 2026-08-10</span>
+    <p>D2 ratified: audit first. UIR-009 runs as written and D2 is re-asked with the inventory in hand; no route change until then.</p>
+  </div>
+
+  <div class="page-head">
+    <span class="kicker">Decision D2 · owner comments 17, 18, 20, 22 · governs UIR-009, UIR-018, UIR-019</span>
+    <h1>Are Dashboard and Career<br>one performance product?</h1>
+    <p class="lede">
+      Both routes read the same <code style="font-family:var(--mono)">careerCoachReport</code> and print
+      the same verdict, the same ROI, and the same drawdown. The decision is whether that is one product
+      shown twice, or two products that happen to share a calculation.
+    </p>
+  </div>
+
+  <section class="today">
+    <span class="kicker">What exists today — verified 2026-08-10 against the seeded demo dataset</span>
+    <h2>The same money answer, printed five times on one screen</h2>
+    <p>
+      On <code style="font-family:var(--mono)">/dashboard</code> with 250 tournaments loaded, the string
+      <b style="color:var(--money)">$843.49</b> appears <b style="color:var(--fg)">five times</b> in the
+      rendered text — wire tape, breadcrumb title, monument, and the "30-second answer" card — and ROI is
+      printed <b style="color:var(--fg)">three times</b>. "Hold Current Stake" is rendered twice on the
+      same viewport, once by <code style="font-family:var(--mono)">MonumentCurve</code> and once by
+      <code style="font-family:var(--mono)">VerdictGauge</code>.
+    </p>
+    <p>
+      Then <code style="font-family:var(--mono)">/career</code> prints the same verdict a sixth time:
+      "STAKE READINESS · HOLD CURRENT STAKE · 61/100 · ROI/LAST 20 306.7% · MAX DRAWDOWN 16.0 ABI · TOP
+      BLOCKER: Range Compliance". Both pages call
+      <code style="font-family:var(--mono)">buildCareerCoachReport()</code>; Dashboard renders it as
+      <code style="font-family:var(--mono)">VerdictGauge</code>, Career as
+      <code style="font-family:var(--mono)">CareerCoachCard</code>.
+    </p>
+    <p>
+      Career is also <b style="color:var(--loss)">15,912px tall</b>, of which the unpaginated milestone
+      timeline is <b style="color:var(--loss)">12,112px — 76% of the page</b>. And it renders in hues that
+      are not in <code style="font-family:var(--mono)">tokens.css</code>: sky, cyan and amber badges,
+      where D13 purged amber system-wide.
+    </p>
+    <div class="verified">
+      <div class="bad"><b>5×</b><span>$843.49 on one screen</span></div>
+      <div class="bad"><b>3×</b><span>ROI on one screen</span></div>
+      <div class="bad"><b>12,112px</b><span>unpaginated career timeline</span></div>
+      <div class="bad"><b>104</b><span>off-palette hue classes, 20 files</span></div>
+    </div>
+    <div class="evidence">
+      <b>Method.</b> Demo seeded to 250 tournaments / 15,245 hands / 15,245 hero decisions; page allowed
+      6s to settle so count-up animations finished; <code>document.body.innerText</code> tokenised for
+      currency and ROI mentions.<br>
+      <b>Shared source.</b> <code>DashboardPage.tsx:59</code> and <code>CareerPage</code> →
+      <code>CareerOverviewTab</code> both derive from <code>buildCareerCoachReport()</code>.<br>
+      <b>Denominator note.</b> Only <b>65 of 250</b> demo tournaments carry a recorded finish, so ITM 26.0%
+      is 65/250 while the finish chart's own denominator is 65. This matters to whichever surface owns ROI.
+    </div>
+  </section>
+
+  <div class="options">
+
+    <!-- ============ OPTION A ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option A</span>
+        <h3>One <code style="font-family:var(--mono);font-size:16px">/performance</code>, three sections</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Overview · Trends · Timeline — one route, one money answer</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav">Home</div>
+            <div class="sk-nav">Hands</div>
+            <div class="sk-nav">Leaks</div>
+            <div class="sk-nav hdr">reports</div>
+            <div class="sk-nav on">Performance</div>
+            <div class="sk-nav">Sessions</div>
+            <div class="sk-nav">Ranges</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-tabs">
+              <span class="sk-tab on">Overview</span>
+              <span class="sk-tab">Trends</span>
+              <span class="sk-tab">Timeline</span>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">Lifetime net · 250 tournaments</span>
+              <div class="sk-num xl money" style="margin:4px 0 2px">+$843.49</div>
+              <div class="sk-dim">Printed once. Everything below is a breakdown of this number.</div>
+              <div class="sk-spark" style="margin-top:12px"></div>
+              <div class="sk-grid4" style="margin-top:10px">
+                <div><span class="sk-k">ROI</span><div class="sk-num money" style="font-size:13px">+306.7%</div></div>
+                <div><span class="sk-k">ITM</span><div class="sk-num" style="font-size:13px">26.0%</div></div>
+                <div><span class="sk-k">Max DD</span><div class="sk-num" style="font-size:13px">$17.60</div></div>
+                <div><span class="sk-k">ABI</span><div class="sk-num" style="font-size:13px">$1.10</div></div>
+              </div>
+            </div>
+            <div class="sk-card thin">
+              <div class="sk-row between">
+                <div>
+                  <span class="sk-k">Readiness · one verdict, one place</span>
+                  <div class="sk-sub">Hold current stake — 61/100, high confidence</div>
+                </div>
+                <span class="sk-badge">Blocker: Range Compliance</span>
+              </div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Timeline tab</span>
+              <div class="sk-dim">250 tournaments, paged 25 at a time — not 12,112px of scroll.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Kills the duplication at its root and gives the money answer exactly one home, at the cost of the largest migration in the backlog — two routes, eleven Career components and six Dashboard instruments have to be reconciled before anything ships.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>UIR-018 and UIR-019 stop being independent page passes and become sections of one build.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION B ============ -->
+    <article class="opt">
+      <header>
+        <span class="tag">Option B</span>
+        <h3>Split by question, keep both routes</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Dashboard answers "how am I playing"; Career answers "how has it gone"</span>
+        <div class="sk-shell">
+          <div class="sk-side">
+            <div class="sk-nav">Home</div>
+            <div class="sk-nav hdr">reports</div>
+            <div class="sk-nav on">Dashboard</div>
+            <div class="sk-nav">Career</div>
+          </div>
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Dashboard · game shape only</span>
+              <div class="sk-grid3" style="margin-top:8px">
+                <div><span class="sk-k">VPIP</span><div class="sk-num" style="font-size:14px">37.5%</div></div>
+                <div><span class="sk-k">PFR</span><div class="sk-num" style="font-size:14px">26.7%</div></div>
+                <div><span class="sk-k">3-bet</span><div class="sk-num" style="font-size:14px">0.5%</div></div>
+              </div>
+              <div class="sk-note">No profit. No ROI. No readiness verdict. Money moves out entirely.</div>
+            </div>
+            <div class="sk-card">
+              <span class="sk-k">Career · money and chronology only</span>
+              <div class="sk-num money" style="margin-top:4px">+$843.49</div>
+              <div class="sk-dim">ROI +306.7% · ITM 26.0% · readiness 61/100</div>
+              <div class="sk-note">The verdict lives here and nowhere else.</div>
+            </div>
+            <div class="sk-card hair" style="padding-top:9px">
+              <div class="sk-dim">Both routes keep their deep links and bookmarks.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>Removes the duplication without a route migration and keeps existing bookmarks working, but forces a hard editorial call — a Dashboard with no money on it is a genuine loss of the "30-second answer" the owner liked.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>UIR-018 and UIR-019 stay separate, shippable page passes; no deep links break.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+
+    <!-- ============ OPTION C ============ -->
+    <article class="opt ratified">
+      <header>
+        <span class="tag">Option C</span>
+        <h3>Audit first, decide later</h3>
+      </header>
+      <div class="sketch">
+        <span class="sk-caption">Ship the inventory, defer the information model</span>
+        <div class="sk-shell" style="grid-template-columns:1fr">
+          <div class="sk-main">
+            <div class="sk-card">
+              <span class="sk-k">Deliverable · a metric inventory, not a page</span>
+              <table class="sk-table" style="margin-top:8px">
+                <thead><tr><th>Metric</th><th>Dashboard</th><th>Career</th><th>Formula shared?</th></tr></thead>
+                <tbody>
+                  <tr><td class="k">Net profit</td><td>4×</td><td>2×</td><td>yes</td></tr>
+                  <tr><td class="k">ROI</td><td>3×</td><td>2×</td><td>yes</td></tr>
+                  <tr><td class="k">Readiness</td><td>1×</td><td>1×</td><td>yes</td></tr>
+                  <tr><td class="k">Max drawdown</td><td>1×</td><td>1×</td><td>$ vs ABI</td></tr>
+                  <tr><td class="k">Top blocker</td><td>2×</td><td>1×</td><td>yes</td></tr>
+                </tbody>
+              </table>
+              <div class="sk-note">No UI ships. The output is the map that makes A or B safe.</div>
+            </div>
+            <div class="sk-card thin">
+              <span class="sk-k">Cost</span>
+              <div class="sk-dim">Wave 4 stays blocked for the duration.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verdict">
+        <dl>
+          <div>
+            <dt>Trade-off</dt>
+            <dd>The plan itself says not to merge routes until duplicated calculations are audited, so this is the by-the-book path — but it spends a slice producing a document while the user-visible defect stays on screen.</dd>
+          </div>
+          <div>
+            <dt>Consequence</dt>
+            <dd>Nothing unblocks now; UIR-009 completes as a spike and D2 is re-asked afterwards.</dd>
+          </div>
+        </dl>
+      </div>
+    </article>
+  </div>
+
+  <section class="consequence">
+    <h2>What each option does to the backlog</h2>
+    <div class="scroller">
+    <table class="cons">
+      <thead>
+        <tr><th>Task</th><th>A · one /performance</th><th>B · split by question</th><th>C · audit only</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="uir">UIR-009</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes the migration plan for a real route</td>
+          <td><span class="pill rewrite">Rewrite</span> becomes a metric-ownership split, no route change</td>
+          <td><span class="pill none">Unchanged</span> executes exactly as written</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-018</td>
+          <td><span class="pill rewrite">Rewrite</span> folds into the Overview/Trends sections</td>
+          <td><span class="pill unlock">Unlocks</span> becomes a self-contained pass</td>
+          <td><span class="pill block">Blocked</span> pending the audit</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-019</td>
+          <td><span class="pill rewrite">Rewrite</span> timeline becomes the Timeline section</td>
+          <td><span class="pill unlock">Unlocks</span> pagination + filters ship independently</td>
+          <td><span class="pill block">Blocked</span> pending the audit</td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-010</td>
+          <td><span class="pill unlock">Unlocks</span> one card system to define instead of two</td>
+          <td><span class="pill unlock">Unlocks</span></td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+        <tr>
+          <td class="uir">UIR-003 / 004</td>
+          <td><span class="pill rewrite">Rewrite</span> completed charts must be re-homed under the new route</td>
+          <td><span class="pill none">Unchanged</span> stay where they landed</td>
+          <td><span class="pill none">Unchanged</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="touches">
+      <span class="kicker">Files and routes each option touches</span>
+      <ul>
+        <li><b style="color:var(--fg)">A</b> — new <code>/performance</code> route in <code>src/App.tsx</code>; redirects for <code>/dashboard</code> and <code>/career</code>; all 6 of <code>src/components/dashboard/*</code>; all 14 of <code>src/components/career/*</code>; <code>navItems.ts</code>; <code>CommandPalette.tsx</code>.</li>
+        <li><b style="color:var(--fg)">B</b> — <code>DashboardPage.tsx</code> (remove <code>MonumentCurve</code>, <code>VerdictGauge</code>, <code>WireTape</code> money items), <code>CareerOverviewTab.tsx</code>, <code>CareerCoachCard.tsx</code>. No route or nav change.</li>
+        <li><b style="color:var(--fg)">C</b> — <code>docs/plans/</code> only; no <code>src/</code> change.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
